@@ -4,8 +4,8 @@ description: 瞭解如何使用個人化語法
 translation-type: tm+mt
 source-git-commit: 568b37f0bbcb663cf7062f26b90d57d89452e862
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
