@@ -1,0 +1,168 @@
+---
+title: 列出個人化優惠方案
+description: 個人化優惠是根據資格規則和限制而自訂的行銷訊息。
+translation-type: tm+mt
+source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 5%
+
+---
+
+# 列出個人化優惠方案
+
+個人化優惠是根據資格規則和限制而自訂的行銷訊息。
+
+您可以對[!DNL Offer Library] API執行單一GET要求，以檢視容器中所有個人化選件的清單。
+
+**API格式**
+
+```http
+GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALIZED_OFFER}&{QUERY_PARAMS}
+```
+
+| 參數 | 說明 | 範例 |
+| --------- | ----------- | ------- |
+| `{ENDPOINT_PATH}` | 儲存庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 個人化選件所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_PERSONALIZED_OFFER}` | 定義與個人化選件相關的架構。 | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
+| `{QUERY_PARAMS}` | 可選查詢參數，以篩選結果。 | `limit=1` |
+
+**要求**
+
+```shell
+curl -X GET \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5&limit=1' \
+  -H 'Accept: *,application/vnd.adobe.platform.xcore.hal+json; schema="https://ns.adobe.com/experience/xcore/hal/results"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}'
+```
+
+## 使用查詢參數
+
+列出資源時，您可以使用查詢參數來頁面和篩選結果。
+
+### 分頁
+
+最常用於分頁的查詢參數包括：
+
+| 參數 | 說明 | 範例 |
+| --------- | ----------- | ------- |
+| `q` | 可選的查詢字串，可在選取的欄位中搜尋。 查詢字串應為小寫，可以用雙引號括住，以防止其被標籤化並逸出特殊字元。 字元`+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`有特殊意義，當出現在查詢字串中時，應以反斜線逸出。 | `discounted offers` |
+| `qop` | 將AND或OR運算子套用至q查詢字串參數中的值。 | `AND` / `OR` |
+| `field` | 將搜索限制為的欄位的可選清單。 此參數可重複，如下所示：field=field1[,field=field2,...]和（路徑表達式採用點分隔路徑的形式，如_instance.xdm:name） | `_instance.xdm:name` |
+| `orderBy` | 依特定屬性排序結果。 在標題(`orderby=-title`)之前新增`-`，將依標題以遞減順序(Z-A)排序項目。 | `-repo:createdDate` |
+| `limit` | 限制傳回的個人化優惠數量。 | `limit=5` |
+
+**回應**
+
+成功的回應會傳回您可存取之容器內呈現的個人化選件清單。
+
+```json
+{
+    "containerId": "e0bd8463-0913-4ca1-bd84-6309134ca1f6",
+    "schemaNs": "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5",
+    "requestTime": "2020-10-22T20:36:50.408105Z",
+    "_embedded": {
+        "results": [
+            {
+                "instanceId": "2cdb4d10-149e-11eb-b1a9-a779d2fe8690",
+                "schemas": [
+                    "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"
+                ],
+                "productContexts": [
+                    "acp"
+                ],
+                "repo:etag": 2,
+                "repo:createdDate": "2020-10-22T19:38:35.489354Z",
+                "repo:lastModifiedDate": "2020-10-22T19:45:43.839088Z",
+                "repo:createdBy": "{CREATED_BY}",
+                "repo:lastModifiedBy": "{MODIFIED_BY}",
+                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
+                "_instance": {
+                    "xdm:name": "Checking Advanced",
+                    "xdm:representations": [
+                        {
+                            "xdm:components": [
+                                {
+                                    "dc:format": "image/png",
+                                    "repo:id": "urn:aaid:sc:US:7db21be9-89ee-472a-b2c9-91f7a39ada51",
+                                    "repo:resolveURL": "https://platform-cs-va6.adobe.io/content/storage/id/urn:aaid:sc:US:7db21be9-89ee-472a-b2c9-91f7a39ada51/:rendition;size=300",
+                                    "repo:name": "mobile-check-deposit.png",
+                                    "dc:language": [
+                                        "en-us"
+                                    ],
+                                    "@type": "https://ns.adobe.com/experience/offer-management/content-component-imagelink",
+                                    "xdm:deliveryURL": ""
+                                }
+                            ],
+                            "xdm:channel": "https://ns.adobe.com/xdm/channel-types/offline",
+                            "xdm:placement": "xcore:offer-placement:124f4e33724bb15f"
+                        },
+                        {
+                            "xdm:components": [
+                                {
+                                    "dc:format": "text/html",
+                                    "repo:name": "my content",
+                                    "dc:language": [
+                                        "en-us"
+                                    ],
+                                    "xdm:content": "{\n\"foo\": \"bar\"\n}",
+                                    "@type": "https://ns.adobe.com/experience/offer-management/content-component-html"
+                                }
+                            ],
+                            "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
+                            "xdm:placement": "xcore:offer-placement:124e0be5699743d3"
+                        }
+                    ],
+                    "xdm:rank": {
+                        "xdm:priority": 10
+                    },
+                    "xdm:characteristics": {
+                        "PROD": "checking",
+                        "offer_code": "CHECK200",
+                        "region": "NA"
+                    },
+                    "xdm:selectionConstraint": {
+                        "xdm:startDate": "2020-10-22T07:00:00.000Z",
+                        "xdm:endDate": "2020-12-31T08:00:00.000Z",
+                        "xdm:eligibilityRule": "xcore:eligibility-rule:124f4f57259caba5"
+                    },
+                    "xdm:status": "draft",
+                    "xdm:cappingConstraint": {
+                        "xdm:globalCap": 1000
+                    },
+                    "xdm:tags": [
+                        "xcore:tag:124f4e5c8a00cd92",
+                        "xcore:tag:1229cf47455177b1"
+                    ],
+                    "@id": "xcore:personalized-offer:124f513c290bb16e"
+                },
+                "_links": {
+                    "self": {
+                        "name": "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5#2cdb4d10-149e-11eb-b1a9-a779d2fe8690",
+                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/2cdb4d10-149e-11eb-b1a9-a779d2fe8690",
+                        "@type": "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"
+                    }
+                },
+                "sandboxName": "ode-prod-va7-edge-testing"
+            }
+        ],
+        "total": 15,
+        "count": 1
+    },
+    "_links": {
+        "self": {
+            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5&orderby=-repo:createdDate&limit=1",
+            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
+        },
+        "next": {
+            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?start=1603395515489%2C2cdb4d10-149e-11eb-b1a9-a779d2fe8690&schema=https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5&orderby=-repo%3AcreatedDate%2CinstanceId&limit=1",
+            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
+        }
+    }
+}
+```
