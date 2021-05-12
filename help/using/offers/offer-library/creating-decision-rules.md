@@ -2,7 +2,7 @@
 title: 建立決定規則
 description: 瞭解如何在Adobe Experience Platform建立決策規則。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 12%
@@ -15,17 +15,17 @@ ht-degree: 12%
 
 例如，您可以指定只在 (性別 =「女性」) 和 (地區 =「東北部」) 時顯示「女性冬季服裝優惠方案」。
 
-![](../assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
+![](../../assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
 
 可在&#x200B;**[!UICONTROL Components]**&#x200B;菜單中訪問已建立的決策規則清單。
 
-![](../assets/decision_rules_list.png)
+![](../../assets/decision_rules_list.png)
 
 要建立決策規則，請執行以下步驟：
 
 1. 前往&#x200B;**[!UICONTROL Rules]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Create rule]**。
 
-   ![](../assets/offers_decision_rule_creation.png)
+   ![](../../assets/offers_decision_rule_creation.png)
 
 1. 命名規則並提供說明，然後根據您的需求設定規則。
 
@@ -33,7 +33,7 @@ ht-degree: 12%
 
    在此範例中，規則將定位擁有「金級」忠誠度等級的客戶。
 
-   ![](../assets/offers_decision_rule_creation_segment.png)
+   ![](../../assets/offers_decision_rule_creation_segment.png)
 
    >[!NOTE]
    >
@@ -43,7 +43,7 @@ ht-degree: 12%
 
 1. 建立規則後，規則會顯示在規則清單中。 您可以選取它以顯示其屬性，並加以編輯或刪除。
 
-   ![](../assets/rule_created.png)
+   ![](../../assets/rule_created.png)
 
 ## 教學課程影片{#video}
 
