@@ -2,7 +2,7 @@
 title: 位置資料集
 description: 此區段會列出匯出資料集中用於位置的所有欄位。
 translation-type: tm+mt
-source-git-commit: d96a2b179ce652a119b6008e02b1409666f36402
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 每次修改選件時，就會更新位置的自動產生資料集。
 
-![](../assets/dataset-placements.png)
+![](../../assets/dataset-placements.png)
 
 資料集中最近成功的批次會顯示在右側。 資料集的架構階層檢視會顯示在左窗格上。
 
