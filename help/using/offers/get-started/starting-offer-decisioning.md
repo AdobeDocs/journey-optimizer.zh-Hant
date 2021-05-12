@@ -2,7 +2,7 @@
 title: 開始使用決策管理
 description: 開始使用決策管理。 進一步瞭解其架構、優惠與決策，以及可讓您執行的常用使用案例。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 38%
@@ -19,7 +19,7 @@ ht-degree: 38%
 * **集中式選件庫**&#x200B;是您建立和管理組成選件的不同元素，並定義其規則和限制的介面。
 * **優惠決策引擎**&#x200B;運用Adobe Experience Platform資料和即時客戶個人檔案，以及優惠程式庫，以選擇將提供優惠的適當時間、客戶和通道。
 
-![](../assets/architecture.png)
+![](../../assets/architecture.png)
 
 效益包括：
 
@@ -27,7 +27,7 @@ ht-degree: 38%
 * 改善工作流程：行銷團隊可以建立單一傳遞，並在範本的不同部分提供不同優惠方案，藉此改善工作流程，而無須建立多個傳遞或行銷活動；
 * 控制在電子郵件行銷活動中和向客戶顯示優惠方案的次數。
 
-![](../assets/do-not-localize/how-to-video.png) [觀看這些教學課](#tutorial-videos) 程影片，以取得有關決策管理的更多資訊。
+![](../../assets/do-not-localize/how-to-video.png) [觀看這些教學課](#tutorial-videos) 程影片，以取得有關決策管理的更多資訊。
 
 ## 關於選件和決策{#offers-offer-activities}
 
@@ -35,7 +35,7 @@ ht-degree: 38%
 
 它是使用&#x200B;**優惠資料庫**&#x200B;所建立，提供集中式的優惠目錄，讓您可利用適用規則和限制與多項內容連結，以建立和發佈優惠 (請參閱[優惠資料庫使用者介面](../get-started/user-interface.md))。
 
-![](../assets/offer_structure.png)
+![](../../assets/offer_structure.png)
 
 一旦選件庫已豐富選件，您就可以將選件整合到&#x200B;**決策**（先前稱為&#39;選件活動&#39;）中。
 
@@ -47,15 +47,15 @@ ht-degree: 38%
 
 * 在您網站首頁顯示的優惠方案，將會根據 Adobe Experience Platform 的資料以符合造訪客戶的興趣。
 
-   ![](../assets/website.png)
+   ![](../../assets/website.png)
 
 * 如果客戶靠近某家商店，請傳送推播通知，可依其屬性 (忠誠度、性別、之前的購物內容……) 提醒他們可使用的優惠方案。
 
-   ![](../assets/push_sample.png)
+   ![](../../assets/push_sample.png)
 
 * 決策管理也可協助您在聯絡支援團隊時增強客戶體驗。 決策管理API可讓您在客服中心工程師的入口網站中，顯示客戶已兌換的資訊和下一個最佳優惠。
 
-   ![](../assets/call-center.png)
+   ![](../../assets/call-center.png)
 
 ## 教學課程影片 {#tutorial-videos}
 
