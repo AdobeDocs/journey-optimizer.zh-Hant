@@ -2,7 +2,7 @@
 title: 個人化優惠資料集
 description: 此區段會列出選件匯出資料集中使用的所有欄位。
 translation-type: tm+mt
-source-git-commit: d96a2b179ce652a119b6008e02b1409666f36402
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '1789'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 每次修改選件時，更新用於個人化內容選件的自動產生的資料集。
 
-![](../assets/dataset-offers.png)
+![](../../assets/dataset-offers.png)
 
 資料集中最近成功的批次會顯示在右側。 資料集的架構階層檢視會顯示在左窗格上。
 
