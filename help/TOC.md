@@ -7,9 +7,9 @@ type: Documentation
 solution: Journey Optimizer
 hide: true
 translation-type: tm+mt
-source-git-commit: 5c3f1e4d916c7259f25208785788d2566b316934
+source-git-commit: 1e4b037a54f3b79270890ae4f2909670b17a5cb6
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '537'
 ht-degree: 50%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 50%
       + [個人化領域](using/personalization/personalization-aeras.md)
       + [個人化語法](using/personalization/personalization-syntax.md)
       + [個人化驗證](using/personalization/personalization-validation.md)
+      + [個人化使用案例](using/personalization/personalization-use-case.md)
       + 模板語言{#functions}
          + [運算子](using/personalization/functions/operators.md)
          + [彙總](using/personalization/functions/aggregation.md)
