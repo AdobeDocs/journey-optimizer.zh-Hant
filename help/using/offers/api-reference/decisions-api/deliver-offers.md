@@ -2,7 +2,7 @@
 title: 傳遞優惠
 description: 決策管理是服務和UI計畫的集合，可讓行銷人員使用商業邏輯和決策規則，跨通道和應用程式建立和提供使用者個人化的優惠體驗。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 本教學課程需要對API（尤其是與「決策管理」相關的API）有良好的認識。 如需詳細資訊，請參閱[決策管理API開發人員指南](../getting-started.md)。 本教學課程還要求您有唯一的位置ID和決策ID值可用。 如果您尚未取得這些值，請參閱建立位置](../offers-api/placements/create.md)和[建立決策](../activities-api/activities/create.md)的教學課程。[
 
-![](../../assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
+![](../../../assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
 
 ## 接受和內容類型標題
 
