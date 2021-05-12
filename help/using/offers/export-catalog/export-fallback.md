@@ -2,7 +2,7 @@
 title: 備援選件資料集
 description: 本節列出匯出資料集中用於備援選件的所有欄位。
 translation-type: tm+mt
-source-git-commit: d96a2b179ce652a119b6008e02b1409666f36402
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 5%
@@ -13,7 +13,7 @@ ht-degree: 5%
 
 每次修改選件時，會更新自動產生的備援選件資料集。
 
-![](../assets/dataset-fallback.png)
+![](../../assets/dataset-fallback.png)
 
 資料集中最近成功的批次會顯示在右側。 資料集的架構階層檢視會顯示在左窗格上。
 
