@@ -2,7 +2,7 @@
 title: 使用者介面
 description: 進一步瞭解選件程式庫使用者介面。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Decisions]**:建立並管理決策，以傳遞您的優惠。請參閱[建立決策](../offer-activities/create-offer-activities.md)。
 
-![](../assets/offers_menu.png)
+![](../../assets/offers_menu.png)
 
 使用&#x200B;**[!UICONTROL Components]**&#x200B;功能表管理建立選件所需的元件：
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Rankings]**:建立並管理排名公式，以決定應先針對指定位置顯示哪個選件。請參閱[建立排名公式](../offer-library/create-ranking-formulas.md)。
 
-![](../assets/offer_activities.png)
+![](../../assets/offer_activities.png)
 
 ## 搜尋和篩選資訊
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 **按** 一下清單左上方的篩選圖示，也可存取篩選器掃描。它們可讓您根據不同的准則來篩選顯示的元素。 例如，您可以篩選為電子郵件通訊管道和影像類型內容所建立的位置。
 
-![](../assets/filters.png)
+![](../../assets/filters.png)
 
 ## 自訂顯示的資訊
 
@@ -51,21 +51,21 @@ ht-degree: 0%
 
 請注意，欄會針對每位使用者儲存自訂。
 
-![](../assets/columns.png)
+![](../../assets/columns.png)
 
 ## 資訊窗格
 
 在不同的清單中，選取元素以顯示資訊窗格，讓您擷取資訊並對元素執行基本動作。
 
-![](../assets/information-pane.png)
+![](../../assets/information-pane.png)
 
 選件和決策清單也可讓您對數個元素執行大量動作。 若要這麼做，請選取所要的選件或決策，然後從資訊窗格中選取您要執行的動作。
 
-![](../assets/bulk-actions.png)
+![](../../assets/bulk-actions.png)
 
 請注意，您也可以複製現有選件或決策，以建立具有&#x200B;**[!UICONTROL Draft]**&#x200B;狀態的復本。 您可以從資訊窗格或選件或決策的詳細檢視來執行此動作。
 
-![](../assets/duplicate-offer.png)
+![](../../assets/duplicate-offer.png)
 
 ## 選件和決策變更記錄{#changes-logs}
 
@@ -73,4 +73,4 @@ ht-degree: 0%
 
 所有已進行的變更都會顯示在此畫面中，以及執行變更的使用者名稱。
 
-![](../assets/change-logs.png)
+![](../../assets/change-logs.png)
