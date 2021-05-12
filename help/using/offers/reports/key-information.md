@@ -2,7 +2,7 @@
 title: 決策管理事件關鍵資訊
 description: 進一步瞭解每個「決策管理」事件所傳送的關鍵資訊。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 75%
@@ -13,7 +13,7 @@ ht-degree: 75%
 
 每個在決策時傳送的事件都包含四個關鍵資料點，可供您用於分析和報告用途。
 
-![](../assets/events-dataset-preview.png)
+![](../../assets/events-dataset-preview.png)
 
 * **[!UICONTROL Fallback]**：備用優惠的名稱和 ID (如果未選取個人化優惠) ，
 * **[!UICONTROL Placement]**：用來傳送優惠之位置的名稱、ID 和頻道、
