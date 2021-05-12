@@ -2,9 +2,9 @@
 title: Journey Optimizer的個人化背景
 description: 瞭解您可以在哪些內容中新增個人化
 translation-type: tm+mt
-source-git-commit: 568b37f0bbcb663cf7062f26b90d57d89452e862
+source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '397'
 ht-degree: 2%
 
 ---
@@ -65,8 +65,8 @@ Journey Optimizer傳遞的資訊內容和顯示可以通過幾種不同的方式
 畫面的左側會顯示網域選擇器，供您選取個人化來源。
 
 * **設定檔** :列出與Adobe Experience Platform資料模型(XDM)文檔中描述的 [配置檔案模式相關的所有引用](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)。
-* **區段會籍** :列出在「Adobe Experience Platform區段」服務中建立的所有區段。有關區段的詳細資訊[此處](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)
-* **選件** :列出與特定位置相關的所有選件。選取位置，然後將選件插入內容中。 有關如何管理選件的完整說明檔案，請參閱[本節](https://experienceleague.adobe.com/docs/customer-journey-management/using/create-messages/deliver-personalized-offers.html?lang=en#about-offer-decisioning)
+* **區段會籍** :列出在「Adobe Experience Platform區段」服務中建立的所有區段。有關區段的詳細資訊[此處](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)。
+* **選件** :列出與特定位置相關的所有選件。選取位置，然後將選件插入內容中。 有關如何管理選件的完整說明檔案，請參閱[本節](../../using/offers/get-started/starting-offer-decisioning.md)。
 
 在選取時，參考會新增至編輯器中。
 
