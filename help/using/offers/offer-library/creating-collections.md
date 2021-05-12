@@ -2,7 +2,7 @@
 title: 建立集合
 description: 瞭解如何使用系列來組織選件。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -13,11 +13,11 @@ ht-degree: 3%
 
 系列可讓您將選件重新分組至您選擇的類別，以組織選件。 例如，您可以建立「運動」系列，其中僅包含與運動相關的優惠。
 
-![](../assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
+![](../../assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
 
 選件系列清單可從&#x200B;**[!UICONTROL Offers]**&#x200B;功能表存取。
 
-![](../assets/collections_list.png)
+![](../../assets/collections_list.png)
 
 您可以建立兩種系列：
 
@@ -31,17 +31,17 @@ ht-degree: 3%
 
 1. 指定要建立的系列名稱和類型。
 
-   ![](../assets/collection_create.png)
+   ![](../../assets/collection_create.png)
 
 1. 若要建立動態系列，請使用左窗格選取要新增至系列的選件標籤，然後按一下&#x200B;**[!UICONTROL Save]**。 所有含有選取標籤的選件都會儲存在系列中。
 
    如需建立標籤的詳細資訊，請參閱[建立標籤](../offer-library/creating-tags.md)。
 
-   ![](../assets/dynamic_collection.png)
+   ![](../../assets/dynamic_collection.png)
 
 1. 若要建立靜態系列，請使用左窗格來篩選選件清單（狀態、標籤、日期、頻道、內容類型），然後選取要新增至系列的選件。
 
-   ![](../assets/static_collection.png)
+   ![](../../assets/static_collection.png)
 
    >[!NOTE]
    >
@@ -49,7 +49,7 @@ ht-degree: 3%
 
 1. 建立系列後，該系列就會顯示在清單中。 您可以選取它來編輯或刪除它。
 
-   ![](../assets/collection_created.png)
+   ![](../../assets/collection_created.png)
 
 ## 教學課程影片{#video}
 
