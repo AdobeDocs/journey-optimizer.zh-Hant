@@ -2,10 +2,10 @@
 title: 個人化語法
 description: 瞭解如何使用個人化語法
 translation-type: tm+mt
-source-git-commit: 568b37f0bbcb663cf7062f26b90d57d89452e862
+source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '718'
+ht-degree: 3%
 
 ---
 
@@ -111,7 +111,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 3 —— 活動ID
 4 —— 提供特定屬性。 可使用的屬性視選件類型而定。 例如，影像`deliveryUrl`。
 
-有關Decisions API的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api)
+有關Decisions API的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api)。
 
 如需選件表示法的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers)。
 
