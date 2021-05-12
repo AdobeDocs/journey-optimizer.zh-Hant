@@ -2,7 +2,7 @@
 title: 建立優惠方案的重要步驟
 description: 探索建立優惠方案所需的關鍵步驟。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 23%
@@ -26,9 +26,9 @@ ht-degree: 23%
 
 <table>
 <tr>
-<td><img src="../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">建立版位</a></p></td>
-<td><img src="../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">建立決定規則</a></p></td>
-<td><img src="../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">建立標籤</a></p></td>
-<td><img src="../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">建立選件的內容和屬性</a></p></td>
-<td><img src="../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">建立後備優惠方案</a></p></td></tr>
+<td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">建立版位</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">建立決定規則</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">建立標籤</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">建立選件的內容和屬性</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">建立後備優惠方案</a></p></td></tr>
 </table>
