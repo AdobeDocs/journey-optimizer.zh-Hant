@@ -2,7 +2,7 @@
 title: 快速入門
 description: 瞭解如何開始使用選件程式庫API，以使用決策管理引擎執行關鍵作業。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 7%
@@ -13,7 +13,7 @@ ht-degree: 7%
 
 本開發人員指南提供協助您開始使用[!DNL Offer Library] API的步驟。 然後，指南提供使用決策管理引擎執行關鍵操作的範例API調用。
 
-![](../assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
+![](../../assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
 
 ## 先決條件
 
