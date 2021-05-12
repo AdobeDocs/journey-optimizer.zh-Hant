@@ -2,7 +2,7 @@
 title: 建立標籤
 description: 瞭解如何在Adobe Experience Platform建立優惠方案。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 5%
@@ -15,11 +15,11 @@ ht-degree: 5%
 
 標籤也可用來將選件群組在選件集合中。 請參閱[建立系列](../offer-library/creating-collections.md)。
 
-![](../assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
+![](../../assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
 
 可從&#x200B;**[!UICONTROL Components]**&#x200B;功能表存取已建立標籤的清單。
 
-![](../assets/tags_list.png)
+![](../../assets/tags_list.png)
 
 若要建立標籤，請依照下列步驟進行：
 
@@ -27,11 +27,11 @@ ht-degree: 5%
 
 1. 指定標籤的名稱，然後按一下&#x200B;**[!UICONTROL Save]**。
 
-   ![](../assets/tags_create.png)
+   ![](../../assets/tags_create.png)
 
 1. 標籤建立後，就會顯示在清單中。 可以選取它以顯示其屬性，並編輯或隱藏它。
 
-   ![](../assets/tags_created.png)
+   ![](../../assets/tags_created.png)
 
 ## 教學課程影片{#video}
 
