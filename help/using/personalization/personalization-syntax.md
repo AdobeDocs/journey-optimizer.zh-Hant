@@ -1,24 +1,22 @@
 ---
 title: 個人化語法
-description: 瞭解如何使用個人化語法
-translation-type: tm+mt
-source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
+description: 了解如何使用個人化語法
+source-git-commit: 5b7f3f58e7376b45993b6a2edc6e96f824fa2f44
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 3%
+source-wordcount: '559'
+ht-degree: 4%
 
 ---
+
 
 # 個人化語法{#personalization-syntax}
 
 ![](../assets/do-not-localize/badge.png)
 
-## 簡介
+[!DNL Journey Optimizer]中的個人化是以稱為Handlebars的範本語法為基礎。
+如需Handlebars語法的完整說明，請參閱[HandlebarsJS檔案](https://handlebarsjs.com/)。
 
-Journey Optimizer的個人化是基於稱為Handlebars的模板語法。
-有關Handlebars語法的完整說明，請參見[HandlebarsJS](https://handlebarsjs.com/)。
-
-它使用範本和輸入物件來產生HTML或其他文字格式。 手把範本看起來像規則文字，內嵌有Handlebar運算式。
+它使用模板和輸入對象來生成HTML或其他文本格式。 Handlebars範本看起來像帶有內嵌Handlebars運算式的規則文字。
 
 簡單運算式範例：
 
@@ -28,12 +26,12 @@ Journey Optimizer的個人化是基於稱為Handlebars的模板語法。
 
 其中：
 
-* **描述** 檔是命名空間。
-* **person.** name是由屬性組成的標籤。屬性結構在Adobe Experience PlatformXDM模式中定義。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)。
+* **** 設定檔是命名空間。
+* **person.** name是由屬性組成的代號。屬性結構是在Adobe Experience Platform XDM結構中定義。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)。
 
 ## 語法一般規則
 
-識別碼可以是除下列以外的任何Unicode字元：
+標識符可以是除以下字元之外的任意Unicode字元：
 
 ```
 Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
@@ -41,200 +39,106 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 語法區分大小寫。
 
-僅允許在路徑表達式的第一部分中使用字詞&#x200B;**true**、**false**、**null**&#x200B;和&#x200B;**undefined**。
+僅在路徑表達式的第一部分允許使用字&#x200B;**true**、**false**、**null**&#x200B;和&#x200B;**undefined**。
 
-在Handlebars中，{{expression}}傳回的值是&#x200B;**HTML-escaped**。 如果運算式包含&amp;，則傳回的HTML逸出輸出會產生為&amp;。 如果你不想讓Handlebars逃出一個值，請使用「三重隱藏」。
+在Handlebars中，{{expression}}返回的值為&#x200B;**HTML-escaped**。 如果運算式包含`&`，則傳回的HTML逸出輸出會產生為`&amp;`。 如果你不希望Handlebars逸出某個值，請使用「三重藏匿」。
 
 ## 設定檔
 
-此命名空間允許您引用[Adobe Experience Platform資料模型(XDM)文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)中描述的配置檔案架構中定義的所有屬性。
+此命名空間可讓您參考設定檔架構中定義的所有屬性，如[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)所述。
 
-在Journey Optimizer個人化區塊中參考屬性之前，必須先在架構中定義屬性。
+在[!DNL Journey Optimizer]個人化區塊中參考屬性之前，必須先在結構中定義屬性。
 
-所有引用都通過[此處](personalization-validation.md)所述的驗證機制對配置檔案方案進行驗證。
+>[!NOTE]
+>
+>了解如何在[此區段](functions/helpers.md#if-function)的條件中運用設定檔屬性。
 
-**參考範例：**
-
-* ```{{profile.person.name.fullName}}```
-* ```{{profile.person.name.firstName}}```
-* ```{{profile.person.gender}}```
-* ```{{profile.personalEmail.address}}```
-* ```{{profile.mobilePhone.number}}```
-* ```{{profile.homeAddress.city}}```
-* ```{{profile.faxPhone.number}}```
-
-**確定電子郵件地址擴展**:
+**範例參考：**
 
 ```
-{%#if contains(profile.personalEmail.address, ".edu")%}
-<a href="https://www.adobe.com/academia">Checkout our page for Academia personals</a>
-{%else if contains(profile.personalEmail.address, ".org")%}
-<a href="https://www.adobe.com/orgs">Checkout our page for Non Profits</a>
-{%else%}
-<a href="https://www.adobe.com/users">Checkout our page</a>
-{%/if%}
+{{profile.person.name.fullName}}
+{{profile.person.name.firstName}}
+{{profile.person.gender}}
+{{profile.personalEmail.address}}
+{{profile.mobilePhone.number}}
+{{profile.homeAddress.city}}
+{{profile.faxPhone.number}}
 ```
 
-## 區段
+## 區段{#perso-segments}
 
-若要進一步瞭解分段和分段服務，請參閱此[節](../segment/about-segments.md)。
+了解如何在[此區段](functions/helpers.md#if-function)的條件中運用設定檔屬性。
 
-**根據區段會籍演算不同的內容**:
+>[!NOTE]
+>若要進一步了解分段和分段服務，請參閱[本區段](../segment/about-segments.md)。
 
-```
-{%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
-  Hi! Esteemed gold member. <a href="https://www.somedomain.com/gold">Checkout your exclusive perks </a>
-{%else%} if 'profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"'%}
-  Hi! Esteemed silver member. <a href="https://www.somedomain.com/silver">Checkout your exclusive perks </a>
-{%/if%}
-```
-
-**確定配置式是否已是成員**:
-
-```
-{%#if profile.segmentMembership.get(segments.`123e4567-e89b-12d3-a456-426614174000`.id)%}
-    You're a member!
-{%else%}
-    You should be a member! Sign up now!
-{%/if%}
-```
 
 ## 優惠方案
 
-此命名空間可讓您參考現有選件決策。
-若要參考選件，您必須使用定義選件的不同資訊來宣告路徑。
+此命名空間可讓您參考現有的選件決策。
+若要參考選件，您必須宣告路徑，其中包含定義選件的不同資訊。
 
-此路徑具有以下結構：
-0 - &#39;offers&#39;:識別屬於選件名稱空間的路徑運算式
-1 —— 類型：決定選件表示法的類型。 有效值為&#39;image&#39;、&#39;html&#39;和&#39;text&#39;
-2 —— 位置ID
-3 —— 活動ID
-4 —— 提供特定屬性。 可使用的屬性視選件類型而定。 例如，影像`deliveryUrl`。
+此路徑的結構如下：
 
-有關Decisions API的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api)。
+```
+offers.Type.[Placement Id].[Activity Id].Attribute
+```
 
-如需選件表示法的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers)。
+其中：
 
-所有參考都會以[此處](personalization-validation.md)所述的驗證機制，根據選件架構進行驗證。
+* `offers` 識別屬於選件命名空間的路徑運算式
+* `Type`  決定選件表示的類型。可能的值包括：`image`、`html`和`text`
+* `Placement Id` 和 `Activity Id` 版位和活動識別碼
+* `Attributes` 取決於選件類型的選件特定屬性。範例：`deliveryUrl`表示影像。
 
-**參考範例：**
+如需決策API和選件表示法的詳細資訊，請參閱[本頁面](../../using/offers/api-reference/decisions-api/deliver-offers.md)
+
+所有參考都會根據選件結構來驗證，其驗證機制如[此頁面](personalization-validation.md)所述。
+
+**範例參考：**
 
 * 影像托管位置：
 
-```offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl```
+   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
-* 當您按一下影像時的目標URL:
+* 按一下影像時的Target URL:
 
-```offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl```
+   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-* 來自決策引擎的選件文字內容：
+* 來自決策引擎的優惠方案文字內容：
 
-```offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content```
+   `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* 來自決策引擎的選件HTML內容：
+* 來自決策引擎之選件的HTML內容：
 
-```offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content```
-
-
-## 幫手
-
-Handlebars幫助程式是一個簡單的標識符，可以跟隨參數。
-每個參數都是Handlebars運算式。 這些協助工具可從範本中的任何內容存取。
-
-這些塊幫助器由位於幫助器名稱前面的#標識，並需要同名的匹配關閉/。
-塊是具有塊開啟({{# }})和關閉({{/})的表達式。
-
-### 若  
-
-使用&#x200B;**if**幫助器來定義條件塊。
-如果運算式評估傳回true，則會轉譯區塊，否則會跳過區塊。
-
-```
-{%#if contains(profile.personalEmail.address, ".edu")%}
-<a href="https://www.adobe.com/academia">Check out this link</a>
-```
-
-在&#x200B;**if**&#x200B;協助程式後，如果相同的條件為false，您可輸入&#x200B;**else**陳述式，以指定要執行的程式碼區塊。
-**else if**&#x200B;陳述式將指定新條件來測試第一個陳述式是否傳回false。
-
-**根據條件運算式來轉換不同的商店連結**:
-
-```
-{%#if profile.homeAddress.countryCode = "FR"%}
-  <a href="https://www.somedomain.com/fr">Consultez notre catalogue</a>
-{%else%}
-  <a href="https://www.somedomain.com/en">Checkout our catalogue</a>
-{%/if%}
-```
-
-### 除非
-
-**#** unlesshelper用於定義條件區塊。如果運算式評估傳回false，則會轉譯區塊，但是與&#x200B;**#if**&#x200B;協助程式相反。
-
-**根據電子郵件地址擴充功能來轉譯某些內容**:
-
-```
-{%#unless endsWith(profile.personalEmail.address, ".edu")%}
-Some Normal Content
-{%else%}
-Some edu specific content Content
-{%/unless%}
-```
-
-### 每個
-
-**each**幫助器用於在陣列上迭代。
-幫助程式的語法為```{{#each ArrayName}}``` YourContent {{/each}}
-我們可以使用區塊內的關鍵字**this**&#x200B;來參考個別陣列項目。 使用{{@index}}可呈現陣列元素的索引。
-
-範例：
-
-```
-{{#each profile.productsInCart}}
-    <li>{{this.name}}</li>
-    </br>
-{{/each}}
-```
-
-```
-{{#each profile.homeAddress.city}}
-  {{@index}} : {{this}}<br>
-{{/each}}
-```
-
-**呈現此使用者購物車中的產品清單**:
-
-```
-{{#each profile.products as |product|}}
-    <li>{{product.productName}} {{product.productRating}}</li>
-   </br>
-{{/each}}
-```
-
-### 使用
-
-**#with**&#x200B;協助程式可用來變更template-part的評估Token。
-
-範例：
-
-```
-{{#with profile.person.name}}
-{{this.firstName}} {{this.lastName}}
-{{/with}}
-```
-
-**#with**&#x200B;協助程式也適用於定義捷徑變數。
-
-**搭配使用鋸齒較長的變數名稱，以縮短變數名稱**:
-
-```
-{{#with profile.person.name as |name|}}
- Hi {{name.firstName}} {{name.lastName}}!
- Checkout our trending products for today!
-{{/with}}
-```
+   `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
-## 限制
+## Helpers{#helpers-all}
 
-* 個人化運算式中無法使用&#x200B;**xEvent**&#x200B;變數。 任何對xEvent的參考都會導致驗證失敗。
+Handlebars幫手是簡單的標識符，後面可能有參數。
+每個參數都是Handlebars運算式。 這些幫助器可從模板中的任何上下文中訪問。
+
+這些塊幫助器由位於幫助器名稱前面的#來標識，並且需要具有相同名稱的匹配的關閉/。
+區塊是具有區塊開頭({{# }})和結尾({{/}})的運算式。
+
+
+>[!NOTE]
+>
+>[本節](functions/helpers.md)中詳細說明了幫助程式函式。
+
+
+## 常值類型
+
+[!DNL Adobe Journey Optimizer] 支援下列常值類型：
+
+| 常值 | 定義 |
+| ------- | ---------- |
+| 字串 | 由雙引號包住的字元組成的資料類型。 <br>範例: `"prospect"`, `"jobs"`, `"articles"` |
+| 布林值 | 資料類型為true或false。 |
+| 整數 | 代表整數的資料類型。 可以是正、負或零。 <br>範例: `-201`, `0`, `412` |
+| 陣列 | 由一組其他常值組成的資料類型。 它使用方括弧來分組，並以逗號來分隔不同的值。<br> **注意：** 您無法直接存取陣列內項目的屬性。<br> 範例: `[1, 4, 7]`, `["US", "FR"]` |
+
+>[!CAUTION]
+>
+>個人化運算式中無法使用&#x200B;**xEvent**&#x200B;變數。 任何對xEvent的參考都會導致驗證失敗。
