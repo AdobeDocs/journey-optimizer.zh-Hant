@@ -1,7 +1,7 @@
 ---
 title: 建立訊息預設集
 description: 了解如何設定和監視訊息預設集
-source-git-commit: 6cabe17f67d0207fc72d3c61498fae0affe5a785
+source-git-commit: 5490a12f7babc7d615f22f919e58b8eff51cf79c
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -18,6 +18,7 @@ ht-degree: 0%
 > 訊息預設集設定僅限於歷程管理員。 [了解更多](../administration/ootb-product-profiles.md#journey-administrator)
 
 
+
 在配置消息預設集後，從&#x200B;**[!UICONTROL Presets]**&#x200B;清單建立消息時，可以選擇它們。
 
 ## 建立訊息預設集{#create-message-preset}
@@ -27,6 +28,7 @@ ht-degree: 0%
 1. 訪問&#x200B;**[!UICONTROL Channels]** / **[!UICONTROL Message presets]**&#x200B;菜單，然後按一下&#x200B;**[!UICONTROL Create Message preset]**。
 
    ![](../assets/preset-create.png)
+
 
 1. 輸入預設集的名稱和說明（選用），然後選取要設定的通道。
 
@@ -80,6 +82,7 @@ ht-degree: 0%
 
    這些檢查包括由Adobe傳遞團隊執行的傳遞能力測試：
 
+
    * SPF驗證
    * DKIM驗證
    * MX記錄驗證
@@ -87,6 +90,7 @@ ht-degree: 0%
    * 主機檢查
    * IP池驗證
    * A/PTR記錄、t/m/res子域驗證
+
 
 1. 檢查成功後，訊息預設集會取得&#x200B;**[!UICONTROL Active]**&#x200B;狀態。 它已準備好用於傳送訊息。
 
