@@ -1,7 +1,7 @@
 ---
 title: 建立訊息預設集
 description: 了解如何設定和監視訊息預設集
-source-git-commit: 5490a12f7babc7d615f22f919e58b8eff51cf79c
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
    * 選取用於每個平台的行動應用程式。
 
-      如需如何設定您的環境以傳送推播通知的詳細資訊，請參閱[此區段](../push-configuration.md)。
+      如需如何設定您的環境以傳送推播通知的詳細資訊，請參閱[此區段](../push-gs.md)。
 
 1. 配置所有參數後，按一下&#x200B;**[!UICONTROL Submit]**&#x200B;進行確認。 您也可以將訊息預設集儲存為草稿，稍後繼續其設定。
 
