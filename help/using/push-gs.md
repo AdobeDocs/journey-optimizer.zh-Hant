@@ -1,14 +1,14 @@
 ---
 title: 開始使用推送設定
 description: 了解推播通知資料流程和元件
-source-git-commit: d2f17a273445a92f11eeb8968bd3082295c3aa09
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
 
-# 開始使用推播設定{#get-started-push}
+# 推播通知設定{#get-started-push}
 
 ![](assets/do-not-localize/badge.png)
 
@@ -68,5 +68,3 @@ ht-degree: 0%
 
 ![](assets/user-flow.png)
 
-
-在[此頁面](push-configuration.md)提供設定推播通道和啟用推播通知的詳細步驟。[!DNL Journey Optimizer]
