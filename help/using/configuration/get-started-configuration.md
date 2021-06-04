@@ -8,7 +8,7 @@ level: Intermediate
 product: Adobe Journey Optimizer
 solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
-source-git-commit: 61de8dc27029e229a203be8a984d6fa2d4f365e0
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 
 1. **設定訊息和通道**:定義預設集、調整和自訂電子郵件及推播訊息
 
-   * 定義[!DNL Adobe Experience Platform]和[!DNL Adobe Experience Platform Launch]中的推播通知設定。 [了解更多](../push-configuration.md)
+   * 定義[!DNL Adobe Experience Platform]和[!DNL Adobe Experience Platform Launch]中的推播通知設定。 [了解更多](../push-gs.md)
 
    * 建立訊息預設集，以設定電子郵件和推播通知訊息所需的所有技術參數。 [了解更多](message-presets.md)
 
