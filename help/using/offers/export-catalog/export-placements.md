@@ -1,9 +1,9 @@
 ---
 title: 版位資料集
 description: 本區段列出匯出的版位資料集中使用的所有欄位。
-source-git-commit: 958bf03f3d3c2dd1606daba9dfef1284e2ed5cdd
+source-git-commit: cd44676a7a0f60ce3e97652ec6459f708557e14c
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '365'
 ht-degree: 4%
 
 ---
@@ -59,11 +59,11 @@ ht-degree: 4%
 **欄位：** contentTypes 
 **Type:** array
 
-* **MIME媒體類型**
+**_experience > decisioning > contentTypes > MIME Media Type**
 
-   **標題：** MIME媒體類型
-   **說明：** 該位置中預期之元件的媒體類型限制。一個元件（如不同的影像格式）可能有多個媒體類型。
-   **類型:**&#x200B;字串
+**標題：** MIME媒體類
+**型說明：** 該位置中預期之元件的媒體類型的限制。一個元件（如不同的影像格式）可能有多個媒體類型。
+**類型:**&#x200B;字串
 
 #### _experience > decisioning >版位說明
 
