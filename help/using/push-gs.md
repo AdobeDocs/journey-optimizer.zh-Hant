@@ -1,11 +1,9 @@
 ---
 title: 開始使用推送設定
 description: 了解推播通知資料流程和元件
-hide: true
-hidefromtoc: true
-source-git-commit: a2eee802f82552e56ced00f93e5e4c8a7b3feb7a
+source-git-commit: d2f17a273445a92f11eeb8968bd3082295c3aa09
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -14,59 +12,61 @@ ht-degree: 0%
 
 ![](assets/do-not-localize/badge.png)
 
-推播通知可做為快速通訊通道，讓您向行動應用程式使用者傳達訊息、選件或其他資訊。 一般而言，使用者必須選擇加入才能接收推播通知；選擇加入通常會在安裝程式期間發生，而一般使用者日後如有改變想法，將可獲得管理通知的方式。 在移動計算中推播通知的一個重要優勢是該技術不需要在移動設備上開啟特定應用以便接收消息。 這可讓智慧手機接收和顯示通知，即使裝置的螢幕已鎖定，且行動應用程式在背景或關閉。
+推播通知可協助您隨時與您的行動應用程式使用者聯絡，尤其是當使用者目前未使用您的應用程式時。 推播通知可協助您達成各種使用案例，例如提供服務的更新、要求使用者採取動作、提醒使用者留意新交易等。 裝置平台需要選擇加入，才能讓使用者收到或檢視您的通知。 使用者選擇加入的時機，最早可在應用程式於安裝後首次啟動後，或在後續的工作階段或工作流程中（視適用情況而定）收到。 [!DNL Journey Optimizer] 支援推播通知，並協助您以領先業界的吞吐率傳送高度相關的通知。推播通知可能包括個人化和歷程型內容，以運用您的品牌對Adobe Experience Cloud的資料深入分析。
 
-**[!DNL Adobe Journey Optimizer]**  可讓您大規模傳送具時效性、相關性及個人化的推送訊息。客戶設定檔的區段可設為目標，以在其iOS和Android行動裝置上接收豐富推送通知。 這些區段可以根據過去或即時的使用者體驗事件、使用者記錄資料，或使用者互動與資料的組合來建立。 歷程上線後，您可以檢視詳細報告，了解已傳送多少訊息、因何原因失敗，以及推播追蹤資訊，例如有多少使用者點按訊息。
+此頁面將協助您設定及了解[!DNL Journey Optimizer]中推播通知的相關重要服務與工作流程。
 
-本檔案將透過[!DNL Journey Optimizer]引導您完成基本的端對端推播通知資料流程，並透過使用者流程圖解說明每個角色如何履行其職責及如何協作，將推播資料流程整合在一起。
+## 使用AdobeJourney Optimizer設定推播通知
 
+若要透過AdobeJourney Optimizer傳送推播通知，您需完成下列步驟：
 
-## 相關元件和服務
+1. 請依照檔案操作，在應用程式中使用[AdobeJourney Optimizer與Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/beta/adobe-journey-optimizer)進行設定。
+1. 建立推送訊息通道](configuration/message-presets.md)的預設集[
 
-* **雲端訊息** 提供者是協力廠商服務，可讓我們將通知從遠端伺服器傳送至行動應用程式。
+## 推播通知與AdobeJourney Optimizer
 
-   [!DNL Adobe Journey Optimizer]  同時支援Android和iOS平台，並處理兩個主要雲端訊息服務：
-   * Firebase雲端傳訊(FCM) — 將通知傳送至Android行動應用程式
-   * Apple推播通知服務(APN) — 傳送通知至iOS行動應用程式
-
-* **行動應用程式與Adobe行動SDK整** 合，有助於將您的行動應用程式與Adobe Experience Cloud解決方案整合。Mobile SDK由各種Experience Cloud解決方案擴充功能組成，可提供其所代表服務的特定功能。 這些擴充功能會公開各種API，以啟用資料流，例如註冊推送代號或傳送推送追蹤事件或任何其他自訂體驗事件至Adobe Experience Platform。
-
-* **Adobe啟動** （或資料收集）是新一代的行動SDK管理功能，可讓資料從行動SDK流向 [!DNL Adobe Experience Platform]。它提供可註冊擴充功能、建立規則和資料元素的功能，將資料從您的行動應用程式傳送至Adobe Experience Cloud解決方案。 關於推播通知資料流程，「Adobe啟動」中需要的主要設定為：
-
-   * 建立資料流，以設定資料流入experience platform的設定檔和體驗事件資料集。
-   * 建立用戶端行動屬性並新增擴充功能。 Mobile SDK與這些擴充功能緊密整合，提供順暢的資料收集體驗。
-   * 註冊行動應用程式套件識別碼和應用程式憑證，有助於在傳送推播通知時唯一識別應用程式並驗證其健全性。
-
-* **即時客戶設定** 檔是Adobe Experience Platform中的元件，可讓您結合來自多個管道（包括網頁、行動裝置、CRM和協力廠商）的資料，以全面掌握每個客戶的檢視。設定檔可讓您將客戶資料併入統一檢視中，提供每個客戶互動的可操作、時間戳記帳戶。 識別行動應用程式使用者（例如推送Token）的靜態資料，會根據使用者的設定檔儲存為記錄資料，而使用者與推播通知的互動則會以時間序列事件資料來追蹤。
-
-* **[!DNL Adobe Journey Optimizer]** :一旦您的行動應用程式與上述元件的整合就緒，且客戶設定檔可作為即時客戶設定檔使用後，您就可以運用中強大的受眾細分功能，確 [!DNL Adobe Journey Optimizer]  保每個人都能獲得最佳體驗。
-
-
-## 推送資料流
-
-此圖表顯示基本的推送訊息資料流程，並提供流程中涉及的各種Adobe產品和元件。
+下圖顯示與相關資料流有關的系統和服務，重點說明如何從端對端服務的角度傳送推播通知。
 
 ![](assets/push-flow.png)
 
+1. 在Apple的APN和Google FCM推播訊息服務中註冊您的品牌行動應用程式（Android或iOS）
+1. 傳訊服務會產生推播Token，此識別碼AdobeJourney Optimizer將用來透過推播通知鎖定特定裝置。
+1. 先前產生的推送代號會傳遞至Adobe Experience Platform，並與即時客戶設定檔同步；這是透過易於整合的用戶端SDK所完成
+1. 推送訊息是在AdobeJourney Optimizer中撰寫，推送訊息是根據訊息預設集建立
+1. 推送訊息可能包含在歷程的協調畫布上
+1. 在歷程發佈時，根據歷程條件的客戶設定檔可符合接收推播通知的資格，在此步驟中會個人化推播訊息裝載
+1. 個人化推送裝載會轉送至內部推送訊息傳送服務
+1. 然後，此內部服務會驗證與訊息相關聯的應用程式憑證，並
+1. 傳送訊息至Apple &amp; Google訊息服務以進行最終傳送
+1. 會記錄來自傳訊服務的意見，並記錄錯誤和成功案例，以便在Journey Live &amp; Global報表中報告
+1. 推播通知會傳送至一般使用者裝置
+1. 一般使用者推播通知互動會透過SDK整合，從一般使用者用戶端以體驗事件的形式傳入
 
-1. 客戶在Android或iOS上開發行動應用程式，並將其發行給使用者。 為了使用推播提供者提供的推播功能（例如Apple的APNS和Google的FCM），行動應用程式會自行註冊並啟用推播功能。
-1. 推送提供者會產生推送代號，並傳送至行動應用程式。 推送代號是傳送者用來透過推送通知鎖定特定裝置的識別碼。
-1. 行動應用程式已與Adobe行動SDK整合，可公開各種擴充功能和API。 Messaging擴充功能會公開API，以根據客戶的設定檔將推送代號註冊至Adobe Experience Platform。
-1. 行動應用程式準備就緒後，即會在&#x200B;**[!DNL Journey Launch]** `>` **應用程式設定**中設定，並附上憑證。
-行銷人員現在會針對已註冊的行動應用程式，製作**[!DNL Adone Journey Optimizer]** `>` **訊息**&#x200B;中的推播通知。
-1. 行銷人員可協調定義事件和動作流量的客戶歷程。 若要在歷程階段傳送推播通知，行銷人員會新增「訊息」類型的動作，並將其與先前步驟中撰寫的訊息建立關聯。
-1. 只要客戶設定檔符合接收推播通知的資格，例如事件觸發或區段資格，訊息就會根據設定檔進行個人化（若適用）。
-1. 個人化推送訊息會傳送以進一步處理至推送傳送服務。
-1. 推送傳送服務會驗證與訊息相關聯的應用程式憑證。
-1. 訊息會根據特定的推送代號和憑證，傳送至推送提供者以傳送至行動應用程式。
-1. 推播提供者傳送回饋，建議訊息是否成功傳送至提供者。 若非如此，相關錯誤訊息會是意見的一部分。 此意見會傳送至Adobe報表，供客戶在其Journey [Live](reports/live-report.md)和[Global Reports](reports/global-report.md)中檢視。
-1. 同時，推送提供者以非同步方式將成功的推送通知傳送至行動應用程式。
-1. 當客戶與通知互動時，點擊/開啟等曝光次數便可以作為&#x200B;**體驗事件**&#x200B;來追蹤。 Messaging擴充功能會公開API，根據客戶設定檔將追蹤事件傳送至Adobe Experience Platform。
+## 推播通知中關鍵服務的角色
 
-## 推送使用者流程
+* **推播通知服務提** 供者是核心元件web服務，可從遠端伺服器傳送通知至行動應用程式。
 
-此圖表顯示設定構成推送資料流骨架的元件時涉及的各種步驟。 已根據執行配置的角色和要配置的元件對操作項進行分類。 如您所見，開始使用&#x200B;**[!DNL Adobe Journey Optimizer]**&#x200B;傳送推播通知前，您必須確保行動應用程式、**[!DNL Adobe Launch]**&#x200B;和&#x200B;**[!DNL Adobe Experience Platform]**&#x200B;上已就緒設定和整合。
+   [!DNL Adobe Journey Optimizer]  支援Android和iOS平台，因此可與下列項目整合：
+   * [Firebase雲端傳訊(FCM)](https://firebase.google.com/docs/cloud-messaging)  — 傳送通知至Android行動應用程式
+   * [Apple推播通知服務(APN)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html)  — 傳送通知至iOS行動應用程式
+
+* **Adobe Experience Platform Mobile** SDK，可透過Android和iOS相容的SDK，為您的行動裝置提供用戶端整合API。SDK提供AdobeJourney Optimizer擴充功能，可公開多種專用於推送訊息的API，並啟用資料流，例如註冊推送代號或傳送推送追蹤事件或任何其他自訂體驗事件至Adobe Experience Platform。 SDK也提供多種其他擴充功能，以啟用其他Adobe Experience Cloud和第三方合作夥伴功能。
+
+   SDK整合也需要設定Adobe Experience Platform [資料收集](https://experienceleague.adobe.com/docs/launch/using/home.html)服務，例如：
+
+   * 建立資料流，以設定資料流入Adobe Experience Platform的設定檔和體驗事件資料集
+   * 建立用戶端行動屬性並新增擴充功能。 SDK與這些擴充功能緊密整合，提供順暢的資料收集體驗。
+   * 註冊行動應用程式套件識別碼和應用程式憑證
+
+* **Adobe Experience Platform即時客戶設**  定檔會結合來自多個管道（包括網路、行動裝置、CRM和協力廠商）的資料，以維護每個客戶的整體檢視。設定檔可讓您將客戶資料併入統一檢視中，提供每個客戶互動的可操作、時間戳記帳戶。 指定應用程式使用者的推送代號會根據使用者的設定檔儲存為記錄資料，而使用者與推送通知的互動則會以時間序列事件資料來追蹤。 [深入了解Adobe Experience Platform Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+
+* **[!DNL Adobe Journey Optimizer]** :在Adobe Experience Platform中部署行動應用程式與上述元件的整合及您的客戶設定檔後，您就可以在Adobe Journey Optimizer中撰寫和協調推播通知，以與使用者互動。
+
+## 推播技術設定與從業人員工作流程
+
+下圖顯示了端對端配置構成推送資料流骨架的元件時涉及的各種步驟。 已根據執行配置的角色和要配置的元件對操作項進行分類。
 
 ![](assets/user-flow.png)
+
 
 在[此頁面](push-configuration.md)提供設定推播通道和啟用推播通知的詳細步驟。[!DNL Journey Optimizer]
