@@ -1,7 +1,7 @@
 ---
 title: 設定推播通知
 description: 了解如何在Journey Optimizer中建立推播通知
-source-git-commit: 9ea3f4eb7767f9ad4c608d9c28d9ee7ca4bb8e3b
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 10%
@@ -83,7 +83,7 @@ ht-degree: 10%
 
 ## 自訂資料
 
-在&#x200B;**[!UICONTROL Custom data]**&#x200B;區段中，您可以根據行動應用程式設定，將自訂變數新增至裝載。 如需如何在Adobe Experience Platform和AdobeLaunch中設定推播通知的詳細資訊，請參閱[此區段](push-configuration.md)
+在&#x200B;**[!UICONTROL Custom data]**&#x200B;區段中，您可以根據行動應用程式設定，將自訂變數新增至裝載。 如需如何在Adobe Experience Platform和AdobeLaunch中設定推播通知的詳細資訊，請參閱[此區段](push-gs.md)
 
 ## 進階選項
 
@@ -109,7 +109,7 @@ ht-degree: 10%
 * [Understand push notification flow](push-gs.md)
 -->
 
-* [設定推播通道](push-configuration.md)
+* [設定推播通道](push-gs.md)
 * [建立新訊息](create-message.md)
 * [在歷程中新增訊息](building-journeys/journeys-message.md)
 
