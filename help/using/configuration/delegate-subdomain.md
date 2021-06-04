@@ -11,15 +11,20 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: 068ee9c8966e5968a488c12b2a48fa2ba2ab5245
+source-git-commit: e569e992530df5429ffb96f78ba28b53de0ded81
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 11%
+source-wordcount: '432'
+ht-degree: 8%
 
 ---
 
 
 # 委派子網域
+
+域名委派是一種允許域名所有者的方法(技術上：DNS區域)，以委派DNS的細分(技術上：其下的DNS區域，可稱為子區域)，傳至其他實體。 基本上，如果客戶處理區域「example.com」，他可以委派子區域「marketing.example.com」給Adobe。
+
+透過委派子網域以與Adobe最佳化程式搭配使用，客戶可仰賴Adobe來維護必要的DNS基礎架構，以符合其電子郵件行銷傳送網域的業界標準傳遞能力需求，同時持續維護和控制其DNS
+內部電子郵件網域。
 
 Journey Optimizer可讓您將子網域完全委派給Adobe。 如此一來，Adobe便能控制並維護傳送、呈現及追蹤電子郵件行銷活動所需的DNS的所有層面，以托管服務的形式傳送訊息。
 
