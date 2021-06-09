@@ -1,10 +1,10 @@
 ---
 title: 使用者介面
 description: Journey Optimizer使用者介面
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+source-git-commit: 539551998d311a4860ad01b1bfe37cc2f77f8030
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 37%
+source-wordcount: '1486'
+ht-degree: 35%
 
 ---
 
@@ -94,22 +94,30 @@ Adobe[!DNL Journey Optimizer]介面在最新版Google Chrome中可以最佳運�
 
 若要變更您的語言：
 
-* 按一下右上角您的頭像中的&#x200B;**編輯偏好設定** 。
-* 然後按一下&#x200B;**造訪Adobe帳戶**&#x200B;以存取您的Adobe設定檔。
-* 選擇頂部的&#x200B;**Notifications**&#x200B;頁簽，然後按一下&#x200B;**Preferences**。
-* 選擇首選語言，然後按一下&#x200B;**Save**。
+* 按一下右上角顯示圖片的&#x200B;**偏好設定**。
+   ![](assets/preferences.png)
+* 然後按一下您電子郵件地址下方顯示的語言
+* 選擇首選語言，然後按一下&#x200B;**Save**。 您可以選取第二種語言，以備您使用的元件未以您之前的語言本地化時使用。
+   ![](assets/select-language.png)
 
->[!NOTE]
->
->您需要註銷並重新登錄[!DNL Journey Optimizer]才能應用更改。
+## 搜尋
 
-## 搜尋和篩選{#section_lgm_hpz_pgb}
+使用頂端列中央的Adobe Experience Cloud搜尋，在沙箱中尋找資產、歷程或訊息。 開始輸入內容以顯示排名最前的結果。
 
-在大部分清單中，搜尋列可讓您搜尋項目。
+![](assets/unified-search.png)
 
-按一下清單左上方的篩選圖示，即可存取 **[!UICONTROL Filters]**。篩選功能表可讓您根據不同的准則篩選顯示的元素。 您可以選擇只顯示某種類型或狀態的元素、您建立的元素，或最近30天修改的元素。
+按&#x200B;**Enter**&#x200B;以訪問所有結果和篩選器。
 
-在歷程清單中，除了&#x200B;**[!UICONTROL Creation filters]**，您也可以根據其狀態和版本(**[!UICONTROL Status and version filters]**)篩選顯示的歷程。 您可以選擇只顯示使用特定事件、欄位群組或動作（**[!UICONTROL Activity filters]**&#x200B;及&#x200B;**[!UICONTROL Data filters]**）的歷程。 **[!UICONTROL Publication filters]**&#x200B;可讓您選取發佈日期或使用者。 例如，您可以選擇顯示昨天發佈之即時歷程的最新版本。 [了解更多](building-journeys/using-the-journey-designer.md)。
+![](assets/search-and-filter.png)
+
+
+## 篩選清單{#section_lgm_hpz_pgb}
+
+在大多數清單中，搜尋列可讓您搜尋特定項目並選取篩選條件。
+
+您可以按一下清單左上方的篩選圖示來存取篩選器。 篩選功能表可讓您根據不同的准則篩選顯示的元素。 您可以選擇只顯示某種類型或狀態的元素、您建立的元素，或最近30天修改的元素。 選項會因內容而異。
+
+在歷程清單中，您可以根據歷程的狀態和版本從&#x200B;**[!UICONTROL Status and version filters]**&#x200B;篩選歷程。 您可以選擇只顯示&#x200B;**[!UICONTROL Activity filters]**&#x200B;和&#x200B;**[!UICONTROL Data filters]**&#x200B;中使用特定事件、欄位群組或動作的歷程。 **[!UICONTROL Publication filters]**&#x200B;可讓您選取發佈日期或使用者。 例如，您可以選擇顯示昨天發佈之即時歷程的最新版本。 [了解更多](building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
@@ -117,7 +125,7 @@ Adobe[!DNL Journey Optimizer]介面在最新版Google Chrome中可以最佳運�
 
 使用&#x200B;**[!UICONTROL Last update]**&#x200B;和&#x200B;**[!UICONTROL Last update by]**&#x200B;欄來檢查歷程的上次更新時間以及儲存歷程的人員。
 
-![](assets/journey74.png)
+![](assets/filter-journeys.png)
 
 在「事件」、「資料來源」和「動作」設定窗格中，**[!UICONTROL Used in]**&#x200B;欄位會顯示使用該特定事件、欄位群組或動作的歷程次數。 您可以按一下 **[!UICONTROL View journeys]** 按鈕以顯示對應歷程的清單。
 
