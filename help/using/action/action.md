@@ -2,9 +2,9 @@
 solution: Journey Orchestration
 title: 關於動作
 description: 瞭解如何設定動作
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+source-git-commit: 8ae771014808f0bf87087fe3dc926bf94d94495e
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '213'
 ht-degree: 73%
 
 ---
@@ -31,8 +31,6 @@ ht-degree: 73%
 >自訂動作的設定必須由&#x200B;**技術使用者**&#x200B;執行。
 
 這些動作會顯示在您歷程的左側浮動視窗中，位於&#x200B;**[!UICONTROL Action]**&#x200B;類別中。 請參閱[本頁](../building-journeys/about-journey-activities.md#action-activities)。
-
-在 **Actions** 清單中，您可以按下 C 鍵以建立新的歷程、動作、資料來源或事件。有關快捷方式的詳細資訊，請參閱[此部分](../user-interface.md#cjm-accessibility)。
 
 若要檢視動作清單或設定新動作，請瀏覽至左側導覽中的&#x200B;**[!UICONTROL Administration]** / **[!UICONTROL Configuration]**。 畫面隨即顯示動作清單。有關介面的詳細資訊，請參閱[此頁](../user-interface.md)。
 
