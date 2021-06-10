@@ -1,23 +1,22 @@
 ---
-title: 開始使用決策管理
-description: 開始使用決策管理。 進一步瞭解其架構、優惠與決策，以及可讓您執行的常用使用案例。
-translation-type: tm+mt
+title: 開始使用決定管理
+description: 開始使用決定管理。 瞭解更多有關其結構、優惠和決定，以及可讓您執行的常見使用案例。
 source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
 
-# 關於決策管理{#about-offer-decision}
+# 關於決定管理 {#about-offer-decision}
 
-使用 [!DNL Journey Optimizer] 可在適當的時間為所有接觸點的客戶提供最佳優惠方案和體驗。設計完成後，透過個人化優惠鎖定受眾。
+使用 [!DNL Journey Optimizer] 可在適當的時間為所有接觸點的客戶提供最佳優惠和體驗。設計完成後，透過個人化優惠目標定位對象。
 
-「決策管理」功能由兩個主要元件組成：
+「決定管理」功能由兩個主要元件組成：
 
-* **集中式選件庫**&#x200B;是您建立和管理組成選件的不同元素，並定義其規則和限制的介面。
-* **優惠決策引擎**&#x200B;運用Adobe Experience Platform資料和即時客戶個人檔案，以及優惠程式庫，以選擇將提供優惠的適當時間、客戶和通道。
+* **集中式優惠資料庫**&#x200B;是您建立和管理不同元素的介面，這些元素會組成優惠，並定義其規則和限制。
+* **優惠決定引擎**&#x200B;運用 Adobe Experience Platform 資料、即時客戶設定檔以及優惠資料庫，以選擇即將提供優惠的適當時間、客戶和管道。
 
 ![](../../assets/architecture.png)
 
@@ -27,9 +26,9 @@ ht-degree: 38%
 * 改善工作流程：行銷團隊可以建立單一傳遞，並在範本的不同部分提供不同優惠方案，藉此改善工作流程，而無須建立多個傳遞或行銷活動；
 * 控制在電子郵件行銷活動中和向客戶顯示優惠方案的次數。
 
-![](../../assets/do-not-localize/how-to-video.png) [觀看這些教學課](#tutorial-videos) 程影片，以取得有關決策管理的更多資訊。
+![](../../assets/do-not-localize/how-to-video.png) [觀看這些教學課程影片](#tutorial-videos)，瞭解更多有關決定管理的資訊。
 
-## 關於選件和決策{#offers-offer-activities}
+## 關於優惠和決定 {#offers-offer-activities}
 
 **優惠方案**&#x200B;由內容、適用規則和限制組成，這些限制定義了向客戶展示優惠的條件。
 
@@ -37,13 +36,13 @@ ht-degree: 38%
 
 ![](../../assets/offer_structure.png)
 
-一旦選件庫已豐富選件，您就可以將選件整合到&#x200B;**決策**（先前稱為&#39;選件活動&#39;）中。
+一旦優惠資料庫已有足夠豐富的優惠方案，您可以將優惠整合到&#x200B;**決定**&#x200B;中 (此前名為「優惠活動」)。
 
-決策是您選件的容器，可運用選件決策引擎，以選擇最佳選件，並視傳送目標而定。
+決定是優惠的容器，可運用優惠決定引擎，根據傳送的目標定位來挑選最佳優惠。
 
-## 常見使用案例
+## 常見使用實例
 
-決策管理功能以及與Adobe Experience Platform的整合可讓您涵蓋許多使用案例，以協助您提高客戶的參與度和轉化率。
+配合 Adobe Experience Platform 的決定管理功能與整合可讓您涵蓋許多使用實例，協助您提高客戶參與度和轉化率。
 
 * 在您網站首頁顯示的優惠方案，將會根據 Adobe Experience Platform 的資料以符合造訪客戶的興趣。
 
@@ -53,7 +52,7 @@ ht-degree: 38%
 
    ![](../../assets/push_sample.png)
 
-* 決策管理也可協助您在聯絡支援團隊時增強客戶體驗。 決策管理API可讓您在客服中心工程師的入口網站中，顯示客戶已兌換的資訊和下一個最佳優惠。
+* 決定管理也可協助您在聯絡支援團隊時增強客戶體驗。 API 可讓您在呼叫中心代理的入口網站中顯示客戶的兌換資訊，以及下一個最佳優惠。
 
    ![](../../assets/call-center.png)
 
@@ -61,16 +60,16 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->這些視訊適用於以Adobe Experience Platform為基礎的Offer decisioning應用程式服務，而非特定於[!DNL Adobe Journey Optimizer]。 但是，它提供了在[!DNL Journey Optimizer]環境中使用決策管理的一般指導。
+>這些影片適用於以 Adobe Experience Platform 為基礎的優惠決定應用程式服務，而非特定於 [!DNL Adobe Journey Optimizer]。 但是，它為 [!DNL Journey Optimizer] 環境中使用的決定管理提供了一般指南。
 
-### 什麼是決策管理？{#what-is-offer-decisioning}
+### 什麼是決定管理？{#what-is-offer-decisioning}
 
-下面的視頻介紹了決策管理的主要功能、體系結構和使用案例：
+下面的影片介紹了決定管理的重要功能、結構和使用實例：
 
 >[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
-### 定義和管理優惠方案{#use-offer-decisioning}
+### 定義和管理優惠 {#use-offer-decisioning}
 
-以下影片說明如何使用「決策管理」來定義和管理您的優惠，並運用即時客戶資料。
+以下影片說明如何使用決定管理來定義和管理您的優惠方案，並運用即時客戶資料。
 
 >[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
