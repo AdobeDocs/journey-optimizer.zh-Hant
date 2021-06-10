@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶傳遞連結、情境�
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: b38f24f074671651a54cc4b5a5de9aa48809cb0a
+source-git-commit: 48094061c6b36016d443f65cd9a882bc57425fff
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '633'
 ht-degree: 79%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 79%
    + [什麼是 Journey Optimizer](using/get-started.md)
    + [快速入門](using/quick-start.md)
    + [使用者介面](using/user-interface.md)
-   + [管理權限](using/permissions.md)
    + [已知問題](using/known-issues.md)
 + 訊息 {#create-messages}
    + [開始使用訊息](using/get-started-content.md)
