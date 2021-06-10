@@ -1,11 +1,10 @@
 ---
 title: 文件更新
-description: 瞭解最新檔案更新
-translation-type: tm+mt
+description: 瞭解最新的文件更新
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '24'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
