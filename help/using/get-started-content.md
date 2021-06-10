@@ -1,11 +1,10 @@
 ---
 title: 開始使用訊息
-description: 瞭解如何在Journey Optimizer建立訊息
-translation-type: tm+mt
+description: 瞭解如何在 Journey Optimizer 建立訊息
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '100'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
@@ -13,15 +12,15 @@ ht-degree: 10%
 
 ![](assets/do-not-localize/badge.png)
 
-使用[!DNL Journey Optimizer]在單一位置運用多種資源，例如資產和內容，並建立和發佈個人化推播通知和電子郵件訊息。
+使用 [!DNL Journey Optimizer] 在單一位置運用多種資源 (如資產和內容)，並建立和發佈個人化推播通知和電子郵件訊息。
 
 * 運用[!DNL Journey Optimizer] **電子郵件設計功能**&#x200B;建立或匯入回應式電子郵件。
 
-* 運用&#x200B;**Adobe Experience Manager Assets Essentials**&#x200B;建立您自己的資產資料庫，並豐富您的電子郵件。
+* 運用 **Adobe Experience Manager Assets Essentials** 建立您自己的資產資料庫，並豐富您的電子郵件。
 
-* 根據客戶的個人資料屬性建立&#x200B;**個人化推播和電子郵件訊息**，以增強客戶體驗。
+* 根據客戶的設定檔屬性建立&#x200B;**個人化推播和電子郵件訊息**，以增強客戶體驗。
 
-* **根據這些內容建** 立推播和電子郵件訊息，然後發佈。
+* 根據這些內容&#x200B;**建立推播和電子郵件訊息** ，然後發佈。
 
 <table>
 <tr>
