@@ -1,37 +1,36 @@
 ---
 title: 使用者介面
-description: 進一步瞭解選件程式庫使用者介面。
-translation-type: tm+mt
+description: 進一步瞭解優惠資料庫使用者介面。
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 使用者介面{#user-interface}
+# 使用者介面 {#user-interface}
 
-「選件庫」可讓您在單一位置建立和管理您的位置和選件，並存取所有已建立的決策（先前稱為選件活動）。
+「優惠資料庫」可讓您在單一位置建立和管理您的位置和優惠，並存取所有已建立的決定 (先前稱為優惠活動)。
 
-使用&#x200B;**[!UICONTROL Offers]**&#x200B;功能表管理個人化和備援優惠，將其組織成系列，並透過建立決策來傳遞：
+使用 **[!UICONTROL Offers]** 功能表管理個人化和遞補優惠，將其組織成系列，並透過建立決定來傳遞：
 
-* **[!UICONTROL Offers]**:存取您的個人化和備援優惠，或建立新優惠。請參閱[建立選件](../offer-library/creating-personalized-offers.md)和[建立備援選件](../offer-library/creating-fallback-offers.md)。
+* **[!UICONTROL Offers]**：存取您的個人化和遞補優惠，或建立新優惠。請參閱 [建立優惠 ](../offer-library/creating-personalized-offers.md)和[建立遞補優惠](../offer-library/creating-fallback-offers.md)。
 
-* **[!UICONTROL Collections]**:建立並管理靜態和動態選件集合。請參閱[關於選件集合](../offer-library/creating-collections.md)。
+* **[!UICONTROL Collections]**：建立並管理靜態和動態優惠集合。請參閱[關於優惠方案](../offer-library/creating-collections.md)。
 
-* **[!UICONTROL Decisions]**:建立並管理決策，以傳遞您的優惠。請參閱[建立決策](../offer-activities/create-offer-activities.md)。
+* **[!UICONTROL Decisions]**：建立並管理決定，以傳遞您的優惠。請參閱[建立決定](../offer-activities/create-offer-activities.md)。
 
 ![](../../assets/offers_menu.png)
 
-使用&#x200B;**[!UICONTROL Components]**&#x200B;功能表管理建立選件所需的元件：
+使用&#x200B;**[!UICONTROL Components]**&#x200B;功能表管理建立優惠所需的元件：
 
-* **[!UICONTROL Placements]**:建立並管理您的選件將顯示的位置。請參閱[建立位置](../offer-library/creating-placements.md)。
+* **[!UICONTROL Placements]**：建立並管理您的優惠將顯示的位置。請參閱[建立位置](../offer-library/creating-placements.md)。
 
-* **[!UICONTROL Tags]**:建立和管理標籤以組織及篩選您的選件。請參閱[建立標籤](../offer-library/creating-tags.md)。
+* **[!UICONTROL Tags]**：建立和管理標記以組織及篩選您的優惠。請參閱[建立標記](../offer-library/creating-tags.md)。
 
-* **[!UICONTROL Rules]**:管理提供您選件的條件。請參閱[建立決策規則](../offer-library/creating-decision-rules.md)。
+* **[!UICONTROL Rules]**：管理提供您優惠的條件。請參閱[建立決定規則](../offer-library/creating-decision-rules.md)。
 
-* **[!UICONTROL Rankings]**:建立並管理排名公式，以決定應先針對指定位置顯示哪個選件。請參閱[建立排名公式](../offer-library/create-ranking-formulas.md)。
+* **[!UICONTROL Rankings]**：建立並管理排名公式，以決定應先針對指定位置顯示哪個優惠。請參閱[建立排名公式](../offer-library/create-ranking-formulas.md)。
 
 ![](../../assets/offer_activities.png)
 
@@ -39,38 +38,38 @@ ht-degree: 0%
 
 使用&#x200B;**搜尋列**&#x200B;來尋找特定項目。
 
-**按** 一下清單左上方的篩選圖示，也可存取篩選器掃描。它們可讓您根據不同的准則來篩選顯示的元素。 例如，您可以篩選為電子郵件通訊管道和影像類型內容所建立的位置。
+按一下清單左上方的篩選圖示，即可存取 **篩選器**。可讓您根據不同的標準篩選顯示的元素。例如，您可以篩選為電子郵件通訊頻道和影像類型內容所建立的位置。
 
 ![](../../assets/filters.png)
 
 ## 自訂顯示的資訊
 
-「決策管理」功能表中的清單可使用清單右上角的設定按鈕進行個人化。
+可使用清單右上角的設定按鈕個人化「決定管理」功能表中的清單。
 
-這可讓您根據需求選擇要顯示的資訊。
+可讓您根據需求選擇要顯示的資訊。
 
-請注意，欄會針對每位使用者儲存自訂。
+請注意，會針對每位使用者儲存欄位自訂。
 
 ![](../../assets/columns.png)
 
 ## 資訊窗格
 
-在不同的清單中，選取元素以顯示資訊窗格，讓您擷取資訊並對元素執行基本動作。
+在不同的清單中選取元素以顯示資訊窗格，讓您擷取資訊並對元素執行基本動作。
 
 ![](../../assets/information-pane.png)
 
-選件和決策清單也可讓您對數個元素執行大量動作。 若要這麼做，請選取所要的選件或決策，然後從資訊窗格中選取您要執行的動作。
+優惠與決定清單還可讓您對多個元素執行批量動作。若要這麼做，請選取所要的優惠或決定，然後從資訊窗格中選取您要執行的動作。
 
 ![](../../assets/bulk-actions.png)
 
-請注意，您也可以複製現有選件或決策，以建立具有&#x200B;**[!UICONTROL Draft]**&#x200B;狀態的復本。 您可以從資訊窗格或選件或決策的詳細檢視來執行此動作。
+請注意，您也可以複製現有優惠或決定，以建立具有 **[!UICONTROL Draft]** 狀態的復本。 您可以從資訊窗格或優惠或決定的詳細檢視來執行此動作。
 
 ![](../../assets/duplicate-offer.png)
 
-## 選件和決策變更記錄{#changes-logs}
+## 優惠和決定變更記錄{#changes-logs}
 
-選件程式庫可讓您檢視對選件或決定所做的所有變更。 若要這麼做，請按一下清單中選件或決定的名稱，然後選取&#x200B;**[!UICONTROL Change log]**&#x200B;標籤。
+優惠資料庫可讓您檢視對優惠或決定所做的所有變更。 若要這麼做，請按一下清單中優惠或決定的名稱，然後選取 **[!UICONTROL Change log]** 標籤。
 
-所有已進行的變更都會顯示在此畫面中，以及執行變更的使用者名稱。
+所有已進行的變更及執行變更的使用者名稱都會顯示在此畫面中。
 
 ![](../../assets/change-logs.png)
