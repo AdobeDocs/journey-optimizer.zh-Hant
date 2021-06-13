@@ -1,12 +1,12 @@
 ---
-product: experience cloud
+product: Journey Optimizer
 audience: end-user
 user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: 48094061c6b36016d443f65cd9a882bc57425fff
+source-git-commit: a73430f57d6e482de08b3e01a8acef081945405b
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 79%
@@ -120,7 +120,7 @@ ht-degree: 79%
       + [建立優惠的重要步驟](using/offers/offer-library/key-steps.md)
       + [建立位置](using/offers/offer-library/creating-placements.md)
       + [建立決定規則](using/offers/offer-library/creating-decision-rules.md)
-      + [建立標記](using/offers/offer-library/creating-tags.md)
+      + [建立標籤](using/offers/offer-library/creating-tags.md)
       + [建立個人化優惠](using/offers/offer-library/creating-personalized-offers.md)
       + [建立遞補優惠](using/offers/offer-library/creating-fallback-offers.md)
       + [建立集合](using/offers/offer-library/creating-collections.md)
@@ -132,8 +132,8 @@ ht-degree: 79%
       + [開始使用決策管理事件](using/offers/reports/get-started-events.md)
       + [決定管理事件重要資訊](using/offers/reports/key-information.md)
       + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
-   + 匯出優惠目錄{#export-catalog}
-      + [開始使用優惠目錄匯出  ](using/offers/export-catalog/get-started-export.md)
+   + 匯出優惠目錄 {#export-catalog}
+      + [開始使用優惠目錄匯出   ](using/offers/export-catalog/get-started-export.md)
       + [存取匯出的優惠目錄](using/offers/export-catalog/access-dataset.md)
       + [個人化優惠資料集](using/offers/export-catalog/export-offers.md)
       + [決定資料集](using/offers/export-catalog/export-decisions.md)
@@ -154,12 +154,12 @@ ht-degree: 79%
             + [建立決定規則](using/offers/api-reference/offers-api/decision-rules/create.md)
             + [更新決定規則](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [刪除決定規則](using/offers/api-reference/offers-api/decision-rules/delete.md)
-         + 標記 {#tags}
-            + [清單標記](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [查詢標記](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [建立標記](using/offers/api-reference/offers-api/tags/create.md)
-            + [更新標記](using/offers/api-reference/offers-api/tags/update.md)
-            + [刪除標記](using/offers/api-reference/offers-api/tags/delete.md)
+         + 標籤 {#tags}
+            + [清單標籤](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [查詢標籤](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [建立標籤](using/offers/api-reference/offers-api/tags/create.md)
+            + [更新標籤](using/offers/api-reference/offers-api/tags/update.md)
+            + [刪除標籤](using/offers/api-reference/offers-api/tags/delete.md)
          + 個人化優惠 {#personalized-offers}
             + [列出個人化優惠](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
             + [查詢個人化優惠](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
@@ -179,8 +179,8 @@ ht-degree: 79%
             + [更新遞補優惠](using/offers/api-reference/offers-api/fallback-offers/update.md)
             + [刪除遞補優惠](using/offers/api-reference/offers-api/fallback-offers/delete.md)
       + 使用 API 建立和管理決定 {#activities-api}
-         + [列出決定](using/offers/api-reference/activities-api/activities/activities-list.md)
-         + [查閱決定](using/offers/api-reference/activities-api/activities/lookup.md)
+         + [列舉決定](using/offers/api-reference/activities-api/activities/activities-list.md)
+         + [查詢決定](using/offers/api-reference/activities-api/activities/lookup.md)
          + [建立決定](using/offers/api-reference/activities-api/activities/create.md)
          + [更新決定](using/offers/api-reference/activities-api/activities/update.md)
          + [刪除決定](using/offers/api-reference/activities-api/activities/delete.md)
