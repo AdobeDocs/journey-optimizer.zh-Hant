@@ -1,9 +1,13 @@
 ---
 title: 幫助程式函式庫
 description: Journey Optimizer Helper函式庫
-source-git-commit: 7e20bef085d0fa6983f9ebd84f8cbc3bee2f4542
+feature: 個性化
+topic: 個性化
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1155'
 ht-degree: 2%
 
 ---
@@ -210,7 +214,7 @@ ht-degree: 2%
     </tr>
 </table>
 
-## 運算子{#operators-helper}
+## 操作者{#operators-helper}
 
 ### 算術函式{#arithmetic-helper}
 
