@@ -1,14 +1,18 @@
 ---
-title: 函式庫
-description: 函式庫
-source-git-commit: ca739254e8b113d6f511573c0aa427427b263b3b
+title: 運算子函式庫
+description: 運算子函式庫
+feature: 個性化
+topic: 個性化
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 11%
+source-wordcount: '304'
+ht-degree: 12%
 
 ---
 
-# 運算子 {#operators}
+# 操作者 {#operators}
 
 ![](../../assets/do-not-localize/badge.png)
 
