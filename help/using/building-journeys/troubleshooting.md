@@ -1,9 +1,13 @@
 ---
 title: 歷程疑難排解
 description: 了解如何疑難排解歷程中的錯誤
-source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
+feature: Journeys
+topic: 內容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1040'
 ht-degree: 86%
 
 ---
