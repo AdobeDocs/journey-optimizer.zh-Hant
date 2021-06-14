@@ -1,10 +1,14 @@
 ---
 title: 設定推播通知
 description: 了解如何在Journey Optimizer中建立推播通知
-source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
+feature: 概覽
+topic: 內容管理
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 10%
+source-wordcount: '1166'
+ht-degree: 11%
 
 ---
 
