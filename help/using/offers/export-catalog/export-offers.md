@@ -1,14 +1,18 @@
 ---
-title: 個人化優惠方案資料集
+title: 個人化優惠資料集
 description: 本區段列出匯出的選件資料集中所使用的所有欄位。
-source-git-commit: 57b6ffa4136eda80c41344db15d363d3107d4e32
+feature: 優惠
+topic: 整合
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '2005'
-ht-degree: 2%
+source-wordcount: '2007'
+ht-degree: 3%
 
 ---
 
-# 個人化優惠方案資料集{#offers-dataset}
+# 個人化優惠資料集 {#offers-dataset}
 
 每次修改選件時，都會更新個人化內容選件的自動產生資料集。
 
