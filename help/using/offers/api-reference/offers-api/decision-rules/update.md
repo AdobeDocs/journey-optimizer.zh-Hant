@@ -1,23 +1,26 @@
 ---
 title: 更新決策規則
-description: 決策規則是新增至個人化優惠的限制，並套用至個人檔案以判斷資格。
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+description: 決策規則是新增至個人化優惠方案的限制，並套用至設定檔以判斷資格。
+feature: 優惠
+topic: 整合
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 8%
+source-wordcount: '176'
+ht-degree: 9%
 
 ---
 
 # 更新決定規則
 
-您可以在容器中修改或更新決策規則，方法是向[!DNL Offer Library] API提出PATCH請求。
+您可以向[!DNL Offer Library] API提出PATCH請求，以修改或更新容器中的決策規則。
 
-如需JSON修補程式的詳細資訊，包括可用的作業，請參閱官方的[JSON修補程式檔案](http://jsonpatch.com/)。
+如需JSON修補程式的詳細資訊，包括可用的操作，請參閱官方的[ JSON修補程式檔案](http://jsonpatch.com/)。
 
 ## 接受和內容類型標題
 
-下表顯示請求標題中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
+下表顯示了請求標題中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
@@ -32,7 +35,7 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 決策規則所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{INSTANCE_ID}` | 您要更新的決策規則的例項ID。 | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
 
@@ -58,13 +61,13 @@ curl -X PATCH \
 
 | 參數 | 說明 |
 | --------- | ----------- |
-| `op` | 用於定義更新連接所需操作的操作調用。 運營包括：`add`、`replace`和`remove`。 |
-| `path` | 要更新的參數路徑。 |
-| `value` | 您要用來更新參數的新值。 |
+| `op` | 用來定義更新連線所需動作的操作呼叫。 操作包括：`add`、`replace`和`remove`。 |
+| `path` | 要更新的參數的路徑。 |
+| `value` | 您要用更新參數的新值。 |
 
 **回應**
 
-成功的回應會傳回決策規則的更新詳細資料，包括其唯一例項ID和決策規則`@id`。
+成功的回應會傳回決策規則的更新詳細資訊，包括其唯一例項ID和決策規則`@id`。
 
 ```json
 {
