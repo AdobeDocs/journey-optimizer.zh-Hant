@@ -1,17 +1,20 @@
 ---
-title: 尋找標籤
-description: 標籤可讓您更妥善地整理和排序選件。
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+title: 查找標籤
+description: 標籤可讓您更妥善地組織和排序優惠方案。
+feature: 優惠
+topic: 整合
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 3%
+source-wordcount: '151'
+ht-degree: 4%
 
 ---
 
-# 尋找標籤
+# 查找標籤
 
-您可以向[!DNL Offer Library] API提出GET請求，請求路徑中包含`@id`標籤或標籤名稱，以尋找特定標籤。
+您可以向[!DNL Offer Library] API提出GET要求，其中包含`@id`標籤，或要求路徑中標籤的名稱，借此查找特定標籤。
 
 **API格式**
 
@@ -21,11 +24,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 標籤所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | 定義與標籤關聯的架構。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
-| `id` | 用於匹配實體`@id`屬性的字串。 字串完全相符。 參數`id`和`name`不能一起使用。 | `xcore:tag:124e147572cd7866` |
-| `name` | 用於匹配實體xdm:name屬性的字串。 字串與大寫完全相符，但可使用萬用字元。 參數`id`和`name`不能一起使用 | `Holiday sales and promotions` |
+| `{SCHEMA_TAG}` | 定義與標籤相關聯的架構。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `id` | 用於匹配實體的`@id`屬性的字串。 字串完全匹配。 參數`id`和`name`不能一起使用。 | `xcore:tag:124e147572cd7866` |
+| `name` | 用來比對實體xdm:name屬性的字串。 字串與大小寫完全相符，但可使用萬用字元。 參數`id`和`name`不能一起使用 | `Holiday sales and promotions` |
 
 **要求**
 
@@ -41,7 +44,7 @@ curl -X GET \
 
 **回應**
 
-成功的回應會傳回標籤的詳細資訊，包括容器ID、例項ID和唯一標籤`@id`的相關資訊。
+成功的回應會傳回標籤的詳細資訊，包括關於容器ID、例項ID和、唯一標籤`@id`的資訊。
 
 ```json
 {
