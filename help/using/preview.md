@@ -1,9 +1,13 @@
 ---
 title: 預覽訊息並傳送校樣
 description: 了解如何預覽和測試您的訊息
-source-git-commit: 2ac0ae0044824beb6e455f5377bc2da4694779be
+feature: Journeys
+topic: 內容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
