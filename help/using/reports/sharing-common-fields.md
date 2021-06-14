@@ -1,35 +1,38 @@
 ---
 title: journeysteps事件常用欄位
 description: journeysteps事件常用欄位
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: 報告
+topic: 內容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '584'
 ht-degree: 9%
 
 ---
 
-# journeysteps events common fields {#sharing-common-fields}
+# journeysteps事件公用欄位{#sharing-common-fields}
 
 ![](../assets/do-not-localize/badge.png)
 
-此混搭將由journeyStepEvent和journeyStepProfileEvent分享。
+此混合將由journeyStepEvent和journeyStepProfileEvent共用。
 
-這些是[!DNL Journey Optimizer]發送到Adobe Experience Platform的常見XDM欄位。 在歷程中處理的每個步驟都會傳送常用欄位。 自訂動作和增強功能會使用更多特定欄位。
+這些是[!DNL Journey Optimizer]傳送至Adobe Experience Platform的通用XDM欄位。 歷程中處理的每個步驟都會傳送通用欄位。 自訂動作和擴充會使用更特定的欄位。
 
 其中有些欄位僅適用於特定處理模式（動作執行、資料擷取等） 以限制事件的大小。
 
 ## 入口
 
-指出使用者是否已進入歷程。 如果不存在，我們假設該值為false。
+指出使用者是否已進入歷程。 若不存在，我們會假設值為false。
 
 類型: 布林值
 
 值：true/false
 
-## 重入
+## 重新入口
 
-指出使用者是否已使用相同例項重新進入歷程。 如果不存在，我們假設該值為false。
+指出使用者是否已使用相同例項重新進入歷程。 若不存在，我們會假設值為false。
 
 類型: 布林值
 
@@ -37,19 +40,19 @@ ht-degree: 9%
 
 ## instanceEnded
 
-指出例項是否已結束（成功與否）。
+指出執行個體是否已結束（成功或未成功）。
 
 類型: 布林值
 
 ## eventID
 
-處理中的事件ID，用於步驟處理。 如果事件是外部事件，則值為其eventId。 如果事件是內部事件，則值為內部eventId（例如scheduledNotificationReceived、executedAction等）。
+處理中的事件ID，用於步驟處理。 如果事件為外部事件，則值為其eventId。 如果事件是內部事件，則值為內部eventId（例如scheduledNotificationReceived、executedAction等）。
 
 類型: 字串
 
 ## nodeID
 
-用戶端節點ID（來自畫布）。
+用戶端節點id（來自畫布）。
 
 類型: 字串
 
@@ -80,34 +83,34 @@ ht-degree: 9%
 
 ## stepStatus
 
-步驟的狀態，代表步驟的狀態，處理完成時（以及引發步驟事件）。
+完成處理時（和引發步驟事件），步驟的狀態代表步驟的狀態。
 
 類型: 字串
 
 狀態可以是：
 
-* 結束：此步驟沒有轉換，其處理已成功結束。
+* 已結束：步驟沒有轉變，其處理已成功結束。
 * 錯誤：步驟處理已引發錯誤。
-* 轉變：此步驟正在等待事件轉換到另一個步驟。
-* capped:在動作或擴充期間，步驟因封閉錯誤而失敗。
-* timedout:步驟因逾時錯誤而失敗，在動作或擴充期間引發。
-* instanceTimedout:步驟已停止處理，因為實例已達到其超時。
+* 轉變：步驟正在等待事件轉變至另一個步驟。
+* 上限：在動作或擴充期間引發的限定錯誤上，步驟失敗。
+* 逾時：在動作或擴充期間引發的逾時錯誤上，步驟已失敗。
+* instanceTimedout:步驟已停止其處理，因為例項已達逾時。
 
 ## journeyID
 
-旅程的ID。
+歷程ID。
 
 類型: 字串
 
 ## journeyVersionID
 
-歷程版本的ID。 此ID代表歷程的身分參考，若是journeyStepEvent。
+歷程版本ID。 此id代表歷程的身分參考，若為journeyStepEvent。
 
 類型: 字串
 
 ## journeyVersionName
 
-歷程版本的名稱。
+歷程版本名稱。
 
 類型: 字串
 
@@ -125,31 +128,31 @@ ht-degree: 9%
 
 ## externalKey
 
-從事件擷取外部金鑰以處理它。
+從事件擷取的外部金鑰加以處理。
 
 類型: 字串
 
 ## parentStepID
 
-實例中當前處理步驟的父代的步驟ID。
+執行個體中目前已處理步驟的父項的步驟ID。
 
 類型: 字串
 
 ## parentStepName
 
-當前步驟的父代的步驟名。
+當前步驟的父級的步驟名。
 
 類型: 字串
 
 ## parentTransitionID
 
-將實例帶到處理步驟的轉換的ID。
+將執行個體帶至已處理步驟的轉變ID。
 
 類型: 字串
 
 ## parentTransitionName
 
-將實例帶到處理步驟的轉換的名稱。
+將執行個體帶至已處理步驟的轉變名稱。
 
 類型: 字串
 
@@ -161,27 +164,27 @@ ht-degree: 9%
 
 ## processingTime
 
-從例項步驟進入到處理結束的總時間（毫秒）。
+從執行個體步驟入口到處理結束的總時間量（毫秒）。
 
 類型：long
 
 ## instanceType
 
-指示實例類型（如果是批或單一）。
+指示實例類型（如果為批或單一）。
 
 類型: 字串
 
-值：批處理／酉
+值：批次/單一
 
 ## recurrenceIndex
 
-如果歷程是批次且循環的，則循環的索引（第一次執行具有recurrencyIndex = 1）。
+如果歷程為批次和循環，則循環的索引（首次執行的recurrenceIndex = 1）。
 
 類型：long
 
-## isBatchToUnignation
+## isBatchToUnimation
 
-指示是否已從批實例觸發此單一實例。
+指出此單一例項是否已從批次例項觸發。
 
 類型: 布林值
 
@@ -193,12 +196,12 @@ ht-degree: 9%
 
 ## batchInstanceID
 
-這是批次實例ID。
+這是批次執行個體ID。
 
 類型: 字串
 
-## batchUnignalBranchID
+## batchUnigalBranchID
 
-如果實例是從批次實例觸發的，則為酉分支ID。
+如果例項是從批次例項觸發，則為單一分支ID。
 
 類型: 字串
