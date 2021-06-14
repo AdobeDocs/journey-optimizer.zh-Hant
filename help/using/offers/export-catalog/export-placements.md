@@ -1,14 +1,18 @@
 ---
-title: 版位資料集
+title: 位置資料集
 description: 本區段列出匯出的版位資料集中使用的所有欄位。
-source-git-commit: cd44676a7a0f60ce3e97652ec6459f708557e14c
+feature: 優惠
+topic: 整合
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 4%
+source-wordcount: '367'
+ht-degree: 5%
 
 ---
 
-# 位置資料集{#placements-dataset}
+# 位置資料集 {#placements-dataset}
 
 每次修改選件時，都會更新版位的自動產生資料集。
 
