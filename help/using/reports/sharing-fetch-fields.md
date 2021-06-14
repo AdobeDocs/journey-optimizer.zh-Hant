@@ -1,10 +1,13 @@
 ---
 title: journeyStep 事件資料擷取欄位
 description: journeyStep 事件資料擷取欄位
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: 報告
+topic: 內容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '373'
 ht-degree: 7%
 
 ---
@@ -13,19 +16,19 @@ ht-degree: 7%
 
 ![](../assets/do-not-localize/badge.png)
 
-此混搭將由journeyStepEvent和journeyStepProfileEvent分享。
+此混合將由journeyStepEvent和journeyStepProfileEvent共用。
 
-在步驟處理期間，我們可以在欄位群組上取得N個資料。
+在步驟處理期間，我們可以在欄位群組上擷取N個資料。
 
 ## fetchTotalTime
 
-在步驟處理期間，以百萬計的單位表示的資料擷取總花費時間。
+步驟處理期間以毫秒為單位的資料擷取總逗留時間。
 
 類型：long
 
 ## fetchTypeInError
 
-定義讀取錯誤是在Adobe Experience Platform還是在自訂資料來源上。
+定義錯誤擷取是在Adobe Experience Platform上還是在自訂資料來源上。
 
 類型: 字串
 
@@ -41,24 +44,24 @@ ht-degree: 7%
 
 值：
 * http
-* 覆蓋
+* 上限
 * timedout
 * error
 
 ## fetchErrorCode
 
-擷取錯誤的程式碼。 如果錯誤有程式碼（例如HTTP程式碼），則呈現。 例如，如果actionExecError為http，代碼404代表HTTP 404錯誤。
+擷取錯誤的程式碼。 如果錯誤有程式碼（例如HTTP程式碼），則顯示。 例如，如果actionExecError為http，則代碼404代表HTTP 404錯誤。
 
 類型: 字串
 
 ## fetchOriginError
 
-逾時可能發生兩種情況：
+逾時可能發生，有兩種情況：
 
-* 第一次嘗試時，會執行動作。 在這種情況下，執行尚未完成，因此沒有基本錯誤
+* 第一次嘗試時，會執行動作。 在此情況下，執行尚未完成，因此沒有基本錯誤
 * 重試時：在這種情況下，actionExecOrigError/actionExecOrigErrorCode描述重試前在嘗試時遇到的錯誤。
 
-例如，從Unified Profile Service擷取資料，並在第一次嘗試時傳回HTTP 500錯誤。 會重試讀取，但2次嘗試的持續時間超過逾時。 然後，動作執行會標籤為逾時。 動作部分會如下所示：
+例如，從統一設定檔服務擷取資料，並在第一次嘗試時傳回HTTP 500錯誤。 會重試擷取，但兩次嘗試的持續時間超過逾時。 然後，動作執行會標籤為逾時。 動作部分看起來會像這樣：
 
 ```
     ...
@@ -73,31 +76,31 @@ ht-degree: 7%
 
 ## fetchOriginErrorCode
 
-系統[!DNL Journey Orchestration]提供的錯誤代碼正在查詢。 例如，它可以是404、500等。
+系統[!DNL Journey Orchestration]提供的錯誤代碼正在查詢。 例如，可以是404、500等。
 
 類型: 字串
 
 ## fetchCount
 
-無論來源類型為何，資料被讀取的次數。
+擷取資料的次數，無論來源類型為何。
 
 類型：long
 
 ## fetchPlatformTotalTime
 
-從Adobe Experience Platform擷取資料所花的總時間（以百萬計）。 備注：該時間量從引擎將富集事件發送到富集服務並接收響應的時間開始計算。
+從以毫秒為單位的Adobe Experience Platform擷取資料所花的總時間。 備注：從引擎將擴充事件發送到擴充服務並接收響應的時間開始計算該時間量。
 
 類型：long
 
 ## fetchPlatformCount
 
-從Adobe Experience Platform提取資料的次數。
+從Adobe Experience Platform擷取資料的次數。
 
 類型：long
 
 ## fetchCustomTotalTime
 
-以毫秒為單位的自訂資料擷取時間。 備注：從引擎將富集事件發送到富集服務並接收響應的時間開始計算該時間量
+以毫秒為單位擷取自訂資料的時間量。 備注：從引擎將擴充事件發送到擴充服務並接收響應的時間開始計算該時間量
 
 類型：long
 
