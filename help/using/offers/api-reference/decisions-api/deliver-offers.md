@@ -1,9 +1,13 @@
 ---
 title: 傳遞優惠方案
 description: 決策管理是服務和UI方案的集合，可讓行銷人員使用業務邏輯和決策規則，跨通路和應用程式建立和提供使用者個人化優惠方案體驗。
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: 優惠
+topic: 整合
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '947'
 ht-degree: 2%
 
 ---
