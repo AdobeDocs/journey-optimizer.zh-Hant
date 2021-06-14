@@ -1,17 +1,20 @@
 ---
-title: 尋找位置
-description: 位置是用來展示選件的容器。
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+title: 查找位置
+description: 版位是用來展示優惠方案的容器。
+feature: 優惠
+topic: 整合
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 2%
+source-wordcount: '149'
+ht-degree: 4%
 
 ---
 
-# 尋找位置
+# 查找位置
 
-您可以向[!DNL Offer Library] API提出GET請求，其中包含位置`@id`或位置名稱在請求路徑中。
+您可以向[!DNL Offer Library] API提出GET要求，其中包含版位`@id`或請求路徑中版位的名稱，以查找特定版位。
 
 **API格式**
 
@@ -21,11 +24,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 位置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `SCHEMA_PLACEMENT}` | 定義與位置關聯的架構。 | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
-| `id` | 用於匹配實體`@id`屬性的字串。 字串完全相符。 參數`id`和`name`不能一起使用。 | `xcore:offer-placement:124541309805b7e8` |
-| `name` | 用於匹配實體xdm:name屬性的字串。 字串與大寫完全相符，但可使用萬用字元。 參數`id`和`name`不能一起使用 | `Sales and Promotions Placement` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 版位所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `SCHEMA_PLACEMENT}` | 定義與版位相關聯的結構。 | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
+| `id` | 用於匹配實體的`@id`屬性的字串。 字串完全匹配。 參數`id`和`name`不能一起使用。 | `xcore:offer-placement:124541309805b7e8` |
+| `name` | 用來比對實體xdm:name屬性的字串。 字串與大小寫完全相符，但可使用萬用字元。 參數`id`和`name`不能一起使用 | `Sales and Promotions Placement` |
 
 ```shell
 curl -X GET \
@@ -39,7 +42,7 @@ curl -X GET \
 
 **回應**
 
-成功的回應會傳回位置的詳細資訊，包括容器ID、例項ID和唯一位置`@id`的相關資訊。
+成功的回應會傳回版位的詳細資訊，包括容器ID、例項ID和、唯一版位`@id`的相關資訊。
 
 ```json
 {
