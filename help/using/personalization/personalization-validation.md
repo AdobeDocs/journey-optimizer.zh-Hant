@@ -1,15 +1,19 @@
 ---
 title: 個人化驗證
 description: 深入了解個人化驗證及疑難排解
-source-git-commit: 7e20bef085d0fa6983f9ebd84f8cbc3bee2f4542
+feature: 個性化
+topic: 個性化
+role: Data Engineer
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 0%
+source-wordcount: '323'
+ht-degree: 2%
 
 ---
 
 
-# 個人化驗證{#personalization-validation}
+# 個人化驗證 {#personalization-validation}
 
 ![](../assets/do-not-localize/badge.png)
 
