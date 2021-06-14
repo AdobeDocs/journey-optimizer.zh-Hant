@@ -1,10 +1,14 @@
 ---
 title: 開始使用推送設定
 description: 了解推播通知資料流程和元件
-source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
+feature: 應用程式設定
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 0%
+source-wordcount: '846'
+ht-degree: 1%
 
 ---
 
