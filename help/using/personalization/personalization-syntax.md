@@ -1,15 +1,19 @@
 ---
 title: 個人化語法
 description: 了解如何使用個人化語法
-source-git-commit: 5b7f3f58e7376b45993b6a2edc6e96f824fa2f44
+feature: 個性化
+topic: 個性化
+role: Data Engineer
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 4%
+source-wordcount: '561'
+ht-degree: 5%
 
 ---
 
 
-# 個人化語法{#personalization-syntax}
+# 個人化語法 {#personalization-syntax}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -73,7 +77,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 >若要進一步了解分段和分段服務，請參閱[本區段](../segment/about-segments.md)。
 
 
-## 優惠方案
+## 優惠
 
 此命名空間可讓您參考現有的選件決策。
 若要參考選件，您必須宣告路徑，其中包含定義選件的不同資訊。
