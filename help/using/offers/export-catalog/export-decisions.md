@@ -1,14 +1,18 @@
 ---
-title: '開始使用優惠方案目錄匯出  '
+title: '開始使用優惠目錄匯出  '
 description: 本區段列出匯出資料集中用於決策的所有欄位。
-source-git-commit: 95be47fbf6944f7e6a743056b6cc29b45ae291fe
+feature: 優惠
+topic: 整合
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1552'
 ht-degree: 3%
 
 ---
 
-# 決策資料集{#decisions-dataset}
+# 決定資料集 {#decisions-dataset}
 
 每次修改選件時，都會更新自動產生的決策資料集（先前稱為活動）。
 
