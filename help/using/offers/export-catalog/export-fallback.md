@@ -1,9 +1,13 @@
 ---
 title: 回退優惠方案資料集
 description: 本區段列出匯出資料集中用於後援優惠方案的所有欄位。
-source-git-commit: b6364879b2a64ba17f52020f7d27d02459a022b0
+feature: 優惠
+topic: 整合
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1049'
 ht-degree: 3%
 
 ---
