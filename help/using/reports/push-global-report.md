@@ -1,22 +1,25 @@
 ---
 title: 推播通知全域報表
-description: 瞭解如何使用推播通知全域報表中的資料
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+description: 了解如何使用推播通知全域報表的資料
+feature: 報告
+topic: 內容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 0%
+source-wordcount: '77'
+ht-degree: 7%
 
 ---
 
-# 推送全域報表{#push-global-report}
+# 推播全域報告 {#push-global-report}
 
 ![](../assets/do-not-localize/badge.png)
 
-推播&#x200B;**[!UICONTROL Global report]**&#x200B;僅針對一個特定的推播傳送。
+推送&#x200B;**[!UICONTROL Global report]**&#x200B;只會鎖定一個特定的推送傳送。
 
-從&#x200B;**[!UICONTROL Messages]**&#x200B;功能表的&#x200B;**[!UICONTROL Executions]**&#x200B;標籤中，選擇&#x200B;**[!UICONTROL Global view]**，然後從選定傳送的高級菜單中選擇&#x200B;**[!UICONTROL Global report]**。
+從&#x200B;**[!UICONTROL Messages]**&#x200B;菜單的&#x200B;**[!UICONTROL Executions]**&#x200B;頁簽中，選擇&#x200B;**[!UICONTROL Global view]**，然後從所選傳送的高級菜單中選擇&#x200B;**[!UICONTROL Global report]**。
 
 ![](../assets/global_report_11.png)
 
-推播&#x200B;**[!UICONTROL Global report]**&#x200B;會分為不同的Widget，詳細說明您的傳送成功與錯誤。 每個介面工具集都可視需要調整大小並加以刪除。 有關此內容的詳細資訊，請參閱[部分](global-report.md#modify-dashboard)。
+推播&#x200B;**[!UICONTROL Global report]**&#x200B;會分為不同的小工具集，詳述您的傳送成功和錯誤。 如有需要，可對每個介面工具集調整大小並加以刪除。 有關詳細資訊，請參閱此[節](global-report.md#modify-dashboard)。
