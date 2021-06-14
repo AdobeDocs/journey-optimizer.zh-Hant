@@ -1,14 +1,18 @@
 ---
-title: 歷程全域報表
+title: 歷程全域報告
 description: 了解如何使用歷程全域報表中的資料
-source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
+feature: 報告
+topic: 內容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 0%
+source-wordcount: '936'
+ht-degree: 1%
 
 ---
 
-# 歷程全域報表{#journey-global-report}
+# 歷程全域報告 {#journey-global-report}
 
 ![](../assets/do-not-localize/badge.png)
 
