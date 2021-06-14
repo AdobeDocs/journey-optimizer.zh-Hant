@@ -1,14 +1,18 @@
 ---
-title: 電子郵件全域報表
+title: 以電子郵件形式傳送全域報告
 description: 了解如何使用電子郵件全域報表中的資料
-source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
+feature: 報告
+topic: 內容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 0%
+source-wordcount: '449'
+ht-degree: 2%
 
 ---
 
-# 電子郵件全域報表{#email-global-report}
+# 以電子郵件形式傳送全域報告 {#email-global-report}
 
 ![](../assets/do-not-localize/badge.png)
 
