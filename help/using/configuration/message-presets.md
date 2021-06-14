@@ -1,10 +1,14 @@
 ---
 title: 建立訊息預設集
 description: 了解如何設定和監視訊息預設集
-source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
+feature: 應用程式設定
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 0%
+source-wordcount: '668'
+ht-degree: 1%
 
 ---
 
