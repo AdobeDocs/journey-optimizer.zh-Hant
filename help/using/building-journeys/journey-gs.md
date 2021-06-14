@@ -1,10 +1,14 @@
 ---
 title: 開始使用歷程
 description: 開始使用歷程
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+feature: Journeys
+topic: 內容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 7%
+source-wordcount: '1468'
+ht-degree: 8%
 
 ---
 
