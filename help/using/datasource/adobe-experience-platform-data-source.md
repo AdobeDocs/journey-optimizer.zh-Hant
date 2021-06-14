@@ -1,11 +1,14 @@
 ---
 title: 'Adobe Experience Platform 資料來源 '
-description: 瞭解如何配置Adobe Experience Platform資料源
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+description: 了解如何設定Adobe Experience Platform資料來源
+feature: 資料來源
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 9%
+source-wordcount: '353'
+ht-degree: 10%
 
 ---
 
@@ -13,15 +16,15 @@ ht-degree: 9%
 
 ![](../assets/do-not-localize/badge.png)
 
-Adobe Experience Platform資料來源定義即時客戶個人檔案服務的連線。 此資料來源已內建並預先設定。 無法刪除。 此資料來源的設計目的是從即時客戶個人檔案服務中擷取和使用資料（例如，檢查進入歷程的人是否為女性）。 它可讓您使用描述檔資料和體驗事件資料。 有關即時客戶概要服務的詳細資訊，請參閱此[頁](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)。
+Adobe Experience Platform資料來源定義與即時客戶個人檔案服務的連線。 此資料來源已內建並預先設定。 無法刪除。 此資料來源的設計目的，是從即時客戶個人檔案服務中擷取和使用資料（例如，檢查進入歷程的人員是否為女性）。 它可讓您使用設定檔資料和體驗事件資料。 如需即時客戶設定檔服務的詳細資訊，請參閱此[page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)。
 
 >[!NOTE]
 >
 >您可以擷取不到一年前建立的1000個最新體驗事件。
 
-若要允許連線至即時客戶個人檔案服務，我們必須使用金鑰來識別人員，並使用將金鑰加上文字的命名空間。 因此，若您的歷程是從包含索引鍵和命名空間的事件開始，則只能使用此資料來源。 請參閱[本頁](../building-journeys/journey.md)。
+若要允許連線至即時客戶個人檔案服務，我們必須使用金鑰來識別人員，並使用將金鑰與之結合的命名空間。 因此，只有在您的歷程以包含索引鍵和命名空間的事件開始時，才能使用此資料來源。 請參閱[本頁](../building-journeys/journey.md)。
 
-您可以編輯名為「ProfileFieldGroup」的預先設定欄位群組，新增欄位群組，並移除未用於任何草稿或即時歷程的欄位群組。 請參閱[本頁](../datasource/configure-data-sources.md#define-field-groups)。
+您可以編輯名為「ProfileFieldGroup」的預先設定的欄位群組、新增欄位，以及移除任何草稿或即時歷程中未使用的欄位群組。 請參閱[本頁](../datasource/configure-data-sources.md#define-field-groups)。
 
 以下是將欄位群組新增至內建資料來源的主要步驟。
 
@@ -31,13 +34,13 @@ Adobe Experience Platform資料來源定義即時客戶個人檔案服務的連�
 
    ![](../assets/journey23.png)
 
-1. 按一下&#x200B;**[!UICONTROL Add a New Field Group]**&#x200B;可定義要檢索的新一系列欄位。 請參閱[本頁](../datasource/configure-data-sources.md#define-field-groups)。
+1. 按一下&#x200B;**[!UICONTROL Add a New Field Group]**&#x200B;以定義要擷取的新系列欄位。 請參閱[本頁](../datasource/configure-data-sources.md#define-field-groups)。
 
    ![](../assets/journey24.png)
 
-1. 從&#x200B;**[!UICONTROL Schema]**&#x200B;下拉式清單中選擇架構。 此欄位會列出Adobe Experience Platform可用的描述檔和體驗事件結構。 在[!DNL Journey Optimizer]中不執行模式建立。 它在Adobe Experience Platform演出。
+1. 從&#x200B;**[!UICONTROL Schema]**&#x200B;下拉式清單中選取架構。 此欄位列出Adobe Experience Platform中可用的設定檔和體驗事件結構。 未在[!DNL Journey Optimizer]中執行架構建立。 是在Adobe Experience Platform演的。
 1. 選取您要使用的欄位。
 1. 定義快取持續時間。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-當您將游標置於欄位群組的名稱上時，您會在右側看到兩個圖示。 這些欄位可讓您刪除和複製欄位群組。 請注意，**[!UICONTROL Delete]**&#x200B;圖示只有在欄位群組未用於任何即時或草稿歷程時才可用（資訊顯示在&#x200B;**[!UICONTROL Used in]**&#x200B;欄位中）。
+將游標置於欄位組的名稱上時，您會在右側看到兩個表徵圖。 它們可讓您刪除和複製欄位群組。 請注意，只有在欄位群組未用於任何即時或草稿歷程時（**[!UICONTROL Used in]**&#x200B;欄位中顯示的資訊）,**[!UICONTROL Delete]**&#x200B;圖示才可用。
