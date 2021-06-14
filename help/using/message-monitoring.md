@@ -1,14 +1,18 @@
 ---
 title: 監視消息執行
 description: 了解監控准則
-source-git-commit: 3f02a5debbc870915175d2802eb30ff567a3c159
+feature: 監控
+topic: 內容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 0%
+source-wordcount: '499'
+ht-degree: 1%
 
 ---
 
-# 消息監視{#monitor-message-execution}
+# 訊息監視 {#monitor-message-execution}
 
 ![](assets/do-not-localize/badge.png)
 
