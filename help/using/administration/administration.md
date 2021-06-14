@@ -3,10 +3,14 @@ title: 技術設定
 description: 了解管理與設定准則
 hidefromtoc: true
 hide: true
-source-git-commit: 8a94c63b4a0cba1014e9778caa24720fb975ae52
+feature: 應用程式設定
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 7%
+source-wordcount: '496'
+ht-degree: 8%
 
 ---
 
