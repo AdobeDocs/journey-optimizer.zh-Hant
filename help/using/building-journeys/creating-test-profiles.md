@@ -1,10 +1,14 @@
 ---
 title: 建立測試設定檔
 description: 了解如何建立測試設定檔
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+feature: Journeys
+topic: 內容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 1%
+source-wordcount: '949'
+ht-degree: 2%
 
 ---
 
@@ -47,7 +51,7 @@ ht-degree: 1%
    ![](../assets/test-profiles-4.png)
 1. 選擇架構並啟用&#x200B;**[!UICONTROL Schema properties]**&#x200B;中的&#x200B;**[!UICONTROL Profile]**選項。
    ![](../assets/test-profiles-5.png)
-1. 按一下&#x200B;**「儲存」**。
+1. 按一下「**儲存**」。
 
 >[!NOTE]
 >
