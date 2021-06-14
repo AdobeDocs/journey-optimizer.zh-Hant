@@ -1,10 +1,14 @@
 ---
 keywords: Journey Optimizer;首頁;熱門主題
 title: Journey Optimizer 產品文件
-source-git-commit: 5ac2d00f3aa03ac5fe0c07eea20e9de96959c219
+feature: 概覽
+topic: 內容管理
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 79%
+source-wordcount: '226'
+ht-degree: 80%
 
 ---
 
