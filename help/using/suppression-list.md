@@ -1,9 +1,13 @@
 ---
 title: 隱藏清單
 description: 了解隱藏清單是什麼、其用途以及其中包含的內容。
-source-git-commit: a2eee802f82552e56ced00f93e5e4c8a7b3feb7a
+feature: 傳遞能力
+topic: 內容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '643'
 ht-degree: 4%
 
 ---
