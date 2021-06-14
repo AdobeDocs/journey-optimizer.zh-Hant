@@ -1,9 +1,13 @@
 ---
 title: 管理選擇退出
 description: 瞭解如何管理選擇退出與隱私權
-source-git-commit: 738d72e8f3ba204219086f19252220ff833369cb
+feature: Journeys
+topic: 內容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '605'
 ht-degree: 100%
 
 ---
