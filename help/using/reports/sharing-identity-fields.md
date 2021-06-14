@@ -1,11 +1,14 @@
 ---
 title: journeyStep 事件識別欄位
 description: journeyStep 事件識別欄位
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: 報告
+topic: 內容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 27%
+source-wordcount: '62'
+ht-degree: 30%
 
 ---
 
@@ -13,18 +16,18 @@ ht-degree: 27%
 
 ![](../assets/do-not-localize/badge.png)
 
-此混音是journeyStepEvent的特定內容：此事件與歷程有關，而且沒有identityMap，可描述描述描述檔身分（如果有的話）。
+此混合是journeyStepEvent專屬的：此事件與歷程相關，沒有identityMap，用於說明設定檔身分（如果有）。
 
-對於journeyStepEvent，我們還需要新增與身分相關的欄位：
+對於journeyStepEvent，我們也需要新增與身分相關的欄位：
 
 ## profileID
 
-描述檔識別碼
+設定檔識別碼
 
 類型: 字串
 
 ## profileNamespace
 
-描述檔識別碼命名空間
+設定檔識別碼命名空間
 
 類型: 字串
