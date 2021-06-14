@@ -1,9 +1,13 @@
 ---
 title: 開始使用決定管理
 description: 開始使用決定管理。 瞭解更多有關其結構、優惠和決定，以及可讓您執行的常見使用案例。
-source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
-workflow-type: ht
-source-wordcount: '494'
+feature: 優惠
+topic: 整合
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '496'
 ht-degree: 100%
 
 ---
