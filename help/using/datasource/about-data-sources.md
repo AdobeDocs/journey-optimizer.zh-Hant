@@ -1,15 +1,18 @@
 ---
 title: 關於資料來源
 description: 瞭解如何設定資料來源
-translation-type: tm+mt
-source-git-commit: 5c3f1e4d916c7259f25208785788d2566b316934
+feature: 資料來源
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '281'
 ht-degree: 86%
 
 ---
 
-# 關於資料來源{#concept_s1s_dqt_52b}
+# 關於資料來源 {#concept_s1s_dqt_52b}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -25,7 +28,7 @@ ht-degree: 86%
 * [自定等待定義](../building-journeys/wait-activity.md#custom)
 * [時區定義](../building-journeys/timezone-management.md)
 
-如果您的歷程僅運用來自事件裝載的本機資料，則不需要進行此設定。例如，若您的旅程由事件組成，接著是僅使用事件資料的訊息活動，則不需要設定資料來源。
+如果您的歷程僅運用來自事件裝載的本機資料，則不需要進行此設定。例如，如果您的歷程是由事件組成，之後僅使用事件資料的訊息活動，則不需要設定資料來源。
 
 資料來源有兩種類型：
 
