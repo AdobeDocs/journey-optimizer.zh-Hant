@@ -1,9 +1,13 @@
 ---
 title: 設計您的歷程
 description: 了解如何設計您的歷程
-source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
+feature: Journeys
+topic: 內容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1407'
 ht-degree: 1%
 
 ---
