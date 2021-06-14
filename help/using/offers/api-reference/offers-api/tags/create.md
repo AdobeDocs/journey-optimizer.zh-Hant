@@ -1,21 +1,24 @@
 ---
 title: 建立標籤
-description: 標籤可讓您更妥善地整理和排序選件。
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+description: 標籤可讓您更妥善地組織和排序優惠方案。
+feature: 優惠
+topic: 整合
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 10%
+source-wordcount: '130'
+ht-degree: 11%
 
 ---
 
 # 建立標籤
 
-您可以在提供容器ID的同時，對[!DNL Offer Library] API提出POST請求，以建立標籤。
+您可以向[!DNL Offer Library] API提出POST要求，同時提供容器ID，借此建立標籤。
 
 ## 接受和內容類型標題
 
-下表顯示請求標題中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
+下表顯示了請求標題中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
@@ -30,7 +33,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 標籤所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **要求**
@@ -51,7 +54,7 @@ curl -X POST \
 
 **回應**
 
-成功的回應會傳回新建立之標籤的資訊，包括其唯一例項ID和位置`@id`。 您可以在後續步驟中使用例項ID來更新或刪除標籤。 您可以在稍後的教學課程中使用您獨特的標籤`@id`來建立系列和個人化選件。
+成功的回應會傳回新建立標籤的相關資訊，包括其唯一例項ID和位置`@id`。 您可以在後續步驟中使用例項ID來更新或刪除您的標籤。 您可以在後續的教學課程中使用您的唯一標籤`@id`，以建立集合和個人化優惠方案。
 
 ```json
 {
