@@ -1,17 +1,20 @@
 ---
-title: 刪除個人化優惠
-description: 個人化優惠是根據資格規則和限制而自訂的行銷訊息。
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+title: 刪除個人化優惠方案
+description: 個人化優惠方案是根據適用性規則和限制而自訂的行銷訊息。
+feature: 優惠
+topic: 整合
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 6%
+source-wordcount: '146'
+ht-degree: 7%
 
 ---
 
-# 刪除個人化優惠方案
+# 刪除個人化優惠
 
-有時可能需要移除(DELETE)個人化優惠。 只能刪除您在租用戶容器中建立的個人化選件。 若要這麼做，請使用您要刪除之個人化選件的$id，對[!DNL Offer Library] API執行DELETE要求。
+有時可能需要移除(DELETE)個人化優惠方案。 系統只會刪除您在租用戶容器中建立的個人化優惠方案。 若要這麼做，請使用您要刪除之個人化優惠方案的$id，對[!DNL Offer Library] API執行DELETE要求。
 
 **API格式**
 
@@ -21,8 +24,8 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 個人化選件所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 個人化優惠方案所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **要求**
 
@@ -38,6 +41,6 @@ curl -X DELETE \
 
 **回應**
 
-成功的回應會傳回HTTP狀態202（無內容）和空白的內文。
+成功的回應會傳回HTTP狀態202（無內容）和空白內文。
 
-您可以嘗試對個人化選件進行查閱(GET)請求，以確認刪除。 您需要在請求中加入「接受」標題，但應收到HTTP狀態404（找不到），因為個人化選件已從容器中移除。
+您可以嘗試對個人化優惠方案進行查詢(GET)，以確認刪除。 您需要在請求中加入「接受」標題，但應會收到HTTP狀態404（找不到），因為個人化選件已從容器中移除。
