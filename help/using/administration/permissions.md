@@ -1,6 +1,6 @@
 ---
 title: 管理使用者和產品設定檔
-description: 了解如何管理權限
+description: 瞭解如何管理權限
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -12,10 +12,14 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
-source-git-commit: 24e5588fc0d0a32513c0e77ce9082be697ccad3f
+feature: 控制組
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 13%
+source-wordcount: '730'
+ht-degree: 16%
 
 ---
 
@@ -61,7 +65,7 @@ ht-degree: 13%
 
 1. 執行與上述步驟相同的步驟，將其他使用者新增至您的&#x200B;**[!UICONTROL Product profile]**。 然後，按一下&#x200B;**[!UICONTROL Save]**。
 
-之後，您的使用者應會收到一封電子郵件，而會將重新導向至  執行個體。
+接著，您的使用者應會收到一封電子郵件，並重新導向至您的執行個體。
 
 有關用戶管理的詳細資訊，請參閱[Admin Console文檔](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html)。
 
@@ -109,7 +113,7 @@ ht-degree: 13%
 
 [!DNL Journey Optimizer] 可讓您建立自己的 **[!UICONTROL Product profiles]** 權限，並將一組權限和沙箱指派給您的使用者。使用&#x200B;**[!UICONTROL Product profiles]**，您可以授權或拒絕訪問介面中的某些功能或對象。
 
-如需如何建立和管理沙箱的詳細資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)。
+如需如何建立和管理沙箱的詳細資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant)。
 
 在此範例中，我們將建立名為&#x200B;**Journeys唯讀**&#x200B;的產品設定檔，其中我們會授予Journey功能的唯讀權限。 使用者將只能存取和檢視歷程，而無法存取&#x200B;**[!UICONTROL Decision management]**&#x200B;或&#x200B;**[!UICONTROL Messages]**&#x200B;等[!DNL Journey Optimizer]中的其他功能。
 
@@ -149,7 +153,7 @@ ht-degree: 13%
 
    ![](../assets/access_control_13.png)
 
-1. 在 **[!UICONTROL Available Permissions Items]** 下方，按一下加號 (+) 圖示，將沙箱指派給您的設定檔。[深入了解沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html)。
+1. 在 **[!UICONTROL Available Permissions Items]** 下方，按一下加號 (+) 圖示，將沙箱指派給您的設定檔。[進一步瞭解 sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。
 
 1. 完成後，按一下 **[!UICONTROL Save]**。
 
