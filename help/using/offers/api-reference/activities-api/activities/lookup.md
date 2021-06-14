@@ -1,17 +1,20 @@
 ---
-title: 列出決策
-description: 決定包含通知選件選擇的邏輯。
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+title: 列舉決定
+description: 決策包含通知選件選擇的邏輯。
+feature: 優惠
+topic: 整合
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 3%
+source-wordcount: '157'
+ht-degree: 5%
 
 ---
 
-# 查看決策
+# 查找決策
 
-您可以向[!DNL Offer Library] API提出GET請求，其中包含`@id`決策或請求路徑中的dedcision名稱，以查找特定決策（先前稱為選件活動）。
+您可以向[!DNL Offer Library] API提出GET要求，其中包含`@id`決策，或要求路徑中引渡決策的名稱，借此查詢特定決策（先前稱為選件活動）。
 
 **API格式**
 
@@ -21,11 +24,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 決策所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ACTIVITIES}` | 定義與決策關聯的架構。 | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
-| `id` | 用於匹配實體`@id`屬性的字串。 字串完全相符。 參數`id`和`name`不能一起使用。 | `xcore:offer-activity:124527ab00b2ebbc` |
-| `name` | 用於匹配實體xdm:name屬性的字串。 字串與大寫完全相符，但可使用萬用字元。 參數&quot;id&quot;和&quot;name&quot;不能一起使用 | `LBAR` |
+| `{SCHEMA_ACTIVITIES}` | 定義與決策相關聯的架構。 | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
+| `id` | 用於匹配實體的`@id`屬性的字串。 字串完全匹配。 參數`id`和`name`不能一起使用。 | `xcore:offer-activity:124527ab00b2ebbc` |
+| `name` | 用來比對實體xdm:name屬性的字串。 字串與大小寫完全相符，但可使用萬用字元。 參數&quot;id&quot;和&quot;name&quot;不能一起使用 | `LBAR` |
 
 **要求**
 
@@ -41,7 +44,7 @@ curl -X GET \
 
 **回應**
 
-成功的回應會傳回位置的詳細資訊，包括您的容器ID、例項ID和唯一決定`@id`的相關資訊。
+成功的回應會傳回版位的詳細資訊，包括容器ID、例項ID和唯一決策`@id`的相關資訊。
 
 ```json
 {
