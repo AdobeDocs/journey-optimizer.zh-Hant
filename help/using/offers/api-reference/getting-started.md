@@ -1,10 +1,14 @@
 ---
 title: 快速入門
 description: 了解如何開始使用優惠方案庫API，以使用決策管理引擎執行重要作業。
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: 優惠
+topic: 整合
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 4%
+source-wordcount: '601'
+ht-degree: 5%
 
 ---
 
@@ -45,7 +49,7 @@ ht-degree: 4%
 
 管理員可將類似的主體、資源和存取權限分組至設定檔中。 這可減輕管理負擔，並受[Adobe Admin Console](https://adminconsole.adobe.com/)支援。 您必須是組織中Adobe Experience Platform的產品管理員，才能建立設定檔並指派使用者。 只要在一次性步驟中建立符合特定權限的產品設定檔，然後將使用者新增至這些設定檔即可。 設定檔會作為已獲授權的群組，該群組中的每位實際使用者或技術使用者都會繼承這些權限。
 
-您可以透過[Adobe Admin Console](https://adminconsole.adobe.com/)授予或撤回使用者權限。 有關詳細資訊，請參閱[訪問控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html)。
+您可以透過[Adobe Admin Console](https://adminconsole.adobe.com/)授予或撤回使用者權限。 有關詳細資訊，請參閱[訪問控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant)。
 
 ### 清單容器供使用者存取及整合
 
