@@ -1,14 +1,18 @@
 ---
 title: 設定單一事件
 description: 了解如何設定單一事件
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+feature: 事件
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 14%
+source-wordcount: '1638'
+ht-degree: 15%
 
 ---
 
-# 配置統一事件{#configure-an-event}
+# 設定單一事件 {#configure-an-event}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -142,7 +146,7 @@ ht-degree: 14%
 
 收到事件時，索引鍵的值可讓系統識別與事件相關聯的人員。 與命名空間相關聯（請參閱[此區段](../event/about-creating.md#select-the-namespace)），索引鍵可用於在Adobe Experience Platform上執行查詢。 請參閱[本頁](../building-journeys/about-journey-activities.md#orchestration-activities)。金鑰也可用來檢查人員是否在歷程中。 事實上，一個人不可能在同一個旅程中處於兩個不同的位置。 因此，系統不允許相同的索引鍵（例如CRMID=3224）位於相同歷程中的不同位置。
 
-如果要執行其他操作，您也可以訪問高級表達式函式(**[!UICONTROL Advanced mode]**)。 這些函式可讓您操控用於執行特定查詢的值，例如更改格式、執行欄位串連，而僅考慮欄位的一部分（例如10個前字元）。 請參閱[本頁](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html)。
+如果要執行其他操作，您也可以訪問高級表達式函式(**[!UICONTROL Advanced mode]**)。 這些函式可讓您操控用於執行特定查詢的值，例如更改格式、執行欄位串連，而僅考慮欄位的一部分（例如10個前字元）。 請參閱[本頁](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hant)。
 
 ## 新增條件{#add-a-condition}
 
