@@ -1,41 +1,44 @@
 ---
 title: 歷程欄位
 description: 歷程欄位
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: 報告
+topic: 內容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 22%
+source-wordcount: '70'
+ht-degree: 28%
 
 ---
 
-# 歷程欄位{#sharing-journey-fields}
+# 歷程欄位 {#sharing-journey-fields}
 
 ![](../assets/do-not-localize/badge.png)
 
-此混音會用於歷程模式（與journeyStepEvent相關）。 它包含下列欄位：
+此混合用於歷程結構（與journeyStepEvent相關）。 它包含下列欄位：
 
 ## journeyID
 
-主要旅程的ID。
+主要歷程的ID。
 
 類型: 字串
 
 ## journeyVersionID
 
-歷程版本的ID。 此ID代表旅程的身分。
+歷程版本ID。 此id代表歷程的身分。
 
 類型: 字串
 
 ## 名稱
 
-旅程的名稱。
+歷程的名稱。
 
 類型: 字串
 
-## 描述
+## 說明
 
-旅程說明。
+歷程說明。
 
 類型: 字串
 
