@@ -1,15 +1,19 @@
 ---
-title: 個人化使用案例
-description: 個人化使用案例
-source-git-commit: cd1b07bbb4b247d1d8c0cc87be9e4bdad22377ed
+title: 個人化使用實例
+description: 個人化使用實例
+feature: 個性化
+topic: 個性化
+role: Data Engineer
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 0%
+source-wordcount: '606'
+ht-degree: 2%
 
 ---
 
 
-# 個人化使用案例{#personalization-use-case}
+# 個人化使用實例 {#personalization-use-case}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -37,7 +41,7 @@ ht-degree: 0%
 
    ![](assets/perso-uc2.png)
 
-1. 輸入主旨並新增設定檔個人化。 使用搜尋列來尋找設定檔的名字欄位。 在主題文本中，將游標置於要插入個性化欄位的位置，然後按一下&#x200B;**+**&#x200B;表徵圖。 按一下&#x200B;**「儲存」**。
+1. 輸入主旨並新增設定檔個人化。 使用搜尋列來尋找設定檔的名字欄位。 在主題文本中，將游標置於要插入個性化欄位的位置，然後按一下&#x200B;**+**&#x200B;表徵圖。 按一下「**儲存**」。
 
    ![](assets/perso-uc3.png)
 
@@ -84,7 +88,7 @@ ht-degree: 0%
 
    ![](assets/perso-uc10.png)
 
-1. 展開&#x200B;**Events**&#x200B;項目，並尋找與事件相關的訂單編號欄位。 您也可以使用搜尋方塊。 按一下&#x200B;**+**&#x200B;圖示，在主旨文字中插入個人化欄位。 按一下&#x200B;**「儲存」**。
+1. 展開&#x200B;**Events**&#x200B;項目，並尋找與事件相關的訂單編號欄位。 您也可以使用搜尋方塊。 按一下&#x200B;**+**&#x200B;圖示，在主旨文字中插入個人化欄位。 按一下「**儲存**」。
 
    ![](assets/perso-uc11.png)
 
