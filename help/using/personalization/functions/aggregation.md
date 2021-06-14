@@ -1,10 +1,14 @@
 ---
-title: 函式庫
-description: 函式庫
-source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
+title: 聚合函式庫
+description: 聚合函式庫
+feature: 個性化
+topic: 個性化
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 8%
+source-wordcount: '159'
+ht-degree: 9%
 
 ---
 
