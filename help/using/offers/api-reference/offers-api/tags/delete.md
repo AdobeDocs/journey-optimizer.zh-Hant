@@ -1,11 +1,14 @@
 ---
 title: 刪除標籤
-description: 標籤可讓您更妥善地整理和排序選件。
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+description: 標籤可讓您更妥善地組織和排序優惠方案。
+feature: 優惠
+topic: 整合
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 5%
+source-wordcount: '145'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +24,7 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 標籤所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{INSTANCE_ID}` | 您要更新之標籤的例項ID。 | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
@@ -39,6 +42,6 @@ curl -X DELETE \
 
 **回應**
 
-成功的回應會傳回HTTP狀態202（無內容）和空白的內文。
+成功的回應會傳回HTTP狀態202（無內容）和空白內文。
 
-您可以嘗試對標籤進行查閱(GET)請求，以確認刪除。 您需要在請求中加入「接受」標題，但應收到HTTP狀態404（找不到），因為標籤已從容器中移除。
+您可以嘗試對標籤進行查詢(GET)以確認刪除。 您需要在請求中加入Accept標題，但應會收到HTTP狀態404（找不到），因為標籤已從容器中移除。
