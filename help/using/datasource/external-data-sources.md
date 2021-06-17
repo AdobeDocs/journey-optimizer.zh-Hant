@@ -5,7 +5,7 @@ feature: 資料來源
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: c67ed928e048dc163cc58430f7a02475f9a32eb0
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 99%
@@ -13,8 +13,6 @@ ht-degree: 99%
 ---
 
 # 外部資料來源 {#concept_t2s_kqt_52b}
-
-![](../assets/do-not-localize/badge.png)
 
 外部資料來源可讓您定義與協力廠商系統的連線，例如使用飯店訂房系統來檢查某人是否已登記客房。與內建的 Adobe Experience Platform 資料來源不同，您可以視需要儘量建立外部資料來源。
 
@@ -31,7 +29,7 @@ ht-degree: 99%
 
 以下是建立和設定新外部資料來源的主要步驟：
 
-1. 從資料來源清單中，按一下 **[!UICONTROL Add]** 以建立新的外部資料來源。
+1. 從資料來源清單中，按一下 **[!UICONTROL Create Data Source]** 以建立新的外部資料來源。
 
    ![](../assets/journey25.png)
 
@@ -58,8 +56,8 @@ ht-degree: 99%
 
 
    * **[!UICONTROL Type]**：&quot;API key&quot;
-   * **[!UICONTROL Value]**：&quot;1234&quot;（這是我們 API 金鑰的值）
    * **[!UICONTROL Name]**：&quot;appid&quot;（這是 API 金鑰參數名稱）
+   * **[!UICONTROL Value]**：&quot;1234&quot;（這是我們 API 金鑰的值）
    * **[!UICONTROL Location]**：&quot;Query parameter&quot;（API 金鑰位於 URL）
 
    ![](../assets/journey28.png)
@@ -71,8 +69,8 @@ ht-degree: 99%
 * **[!UICONTROL Used in]**：顯示使用欄位群組的歷程數量。您可以按一下 **[!UICONTROL View journeys]** 圖示，以顯示使用此欄位群組的歷程清單。
 * **[!UICONTROL Method]**：選取 POST 或 GET 方法。在本例中，我們選取 GET 方法。
 * **[!UICONTROL Cache duration]**：在本例中，我們希望每 10 分鐘快取氣象一次。
-* **[!UICONTROL Response Payload]**：在 **[!UICONTROL Payload]** 欄位內按一下，並貼上呼叫傳回之有效負載的範例。例如，我們使用了氣象 API 網站上找到的有效負載。確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。請注意，您可以按一下 **[!UICONTROL Paste a new payload]**，以變更目前已傳遞的有效負載。
 * **[!UICONTROL Dynamic Values]**：在本例中，輸入以逗號分隔的不同參數，即 &quot;long,lat&quot;。由於參數值視執行內容而定，因此它們會在歷程中定義。請參閱[本頁](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hant)。
+* **[!UICONTROL Response Payload]**：在 **[!UICONTROL Payload]** 欄位內按一下，並貼上呼叫傳回之有效負載的範例。例如，我們使用了氣象 API 網站上找到的有效負載。確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。請注意，您可以按一下 **[!UICONTROL Paste a new payload]**，以變更目前已傳遞的有效負載。
 * **[!UICONTROL Sent Payload]**：我們的範例不會出現此欄位，只有選取 POST 方法時才能使用。貼上會傳送至協力廠商系統的有效負載。
 
 若是 GET 呼叫所需的參數，您會在 **[!UICONTROL Dynamic Values]** 欄位中輸入參數，系統就會在呼叫結束時自動新增這些參數。若是 POST 呼叫，您需要：
