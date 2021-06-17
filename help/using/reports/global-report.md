@@ -5,28 +5,26 @@ feature: 報告
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '242'
 ht-degree: 2%
 
 ---
 
 # 全域報表{#global-report}
 
-![](../assets/do-not-localize/badge.png)
-
 >[!NOTE]
 >
 > 如果使用查詢服務時透過API進行自訂查詢，報表可能會延遲一些。
 
-**[!UICONTROL Global report]**&#x200B;可讓您測量所選時段內歷程和傳送的成效。
+使用&#x200B;**[!UICONTROL Global report]**&#x200B;測量所選時段內歷程和傳送的影響。
 
-* 如果您想要定位歷程中的歷程或傳送，請從&#x200B;**[!UICONTROL Journeys]**&#x200B;功能表存取您的歷程，然後按一下&#x200B;**[!UICONTROL Global report]**&#x200B;圖示。 接著，您就可以找到歷程、電子郵件和推播&#x200B;**[!UICONTROL Global report]**。
+* 如果您想在歷程的內容中定位歷程或傳送，請從&#x200B;**[!UICONTROL Journeys]**&#x200B;功能表存取您的歷程，然後按一下&#x200B;**[!UICONTROL Global report]**&#x200B;圖示。 接著，您就可以找到歷程、電子郵件和推播&#x200B;**[!UICONTROL Global report]**。
 
 * 如果要定位特定傳送，請從訊息的&#x200B;**[!UICONTROL Executions]**&#x200B;標籤的&#x200B;**[!UICONTROL Global view]**&#x200B;中，從所選傳送的進階功能表選取&#x200B;**[!UICONTROL Global Report]**。
 
-## 修改儀表板{#modify-dashboard}
+## 自訂控制面板{#modify-dashboard}
 
 每個報表控制面板都可透過調整大小、移除小工具或變更目標時間範圍來修改。 變更介面工具集只會影響目前使用者的控制面板。 其他使用者會看到自己的控制面板或預設設定的控制面板。
 
@@ -36,7 +34,7 @@ ht-degree: 2%
 
    ![](../assets/global_report_6.png)
 
-1. click **[!UICONTROL Modify dashboard]**.
+1. click **[!UICONTROL Modify]**.
 
    ![](../assets/global_report_8.png)
 
