@@ -1,19 +1,17 @@
 ---
 title: 隱私權
 description: 瞭解如何管理隱私權
-source-git-commit: f73e7ae0a5da002786778065894fab0d6a7b154d
+source-git-commit: b7c3b0e683cb5ae173c2ab979e3558cd0dbf6ee9
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 100%
+source-wordcount: '720'
+ht-degree: 97%
 
 ---
 
 
 # 隱私權 {#privacy}
 
-![](assets/do-not-localize/badge.png)
-
-Adobe Campaign 是一款強大的工具，用於處理包括個人資訊及敏感資料在內的超大資料。
+[!DNL Journey Optimizer] 是處理大量資料（包括個人資訊和敏感資料）的強大工具。
 
 * **個人資料**&#x200B;是指可直接或間接識別在世個人的資訊。
 * **敏感個人資料**&#x200B;是指與個人的種族、政治觀點、宗教信仰、犯罪背景、遺傳資訊、健康資料、性傾向、生物識別資訊，以及工會會員會籍相關的資訊。
