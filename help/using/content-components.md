@@ -5,9 +5,9 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 780f51295459ac7a400e0060c817b49a1f632bff
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '978'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 2%
 >title="關於內容元件"
 >abstract="內容元件是空白的內容預留位置，可用來建立電子郵件版面。"
 
-![](assets/do-not-localize/badge.png)
 
 從草稿開始建立電子郵件內容時，**[!UICONTROL Content components]**可讓您使用原始的空白元件進一步個人化您的電子郵件，一旦放入電子郵件，即可使用這些元件。
 您可以在定義電子郵件版面的**[!UICONTROL Structure component]**&#x200B;內新增所需數量的&#x200B;**[!UICONTROL Content components]**。
@@ -104,8 +103,6 @@ ht-degree: 2%
 
 1. 複製並貼上您要新增至電子郵件的HTML程式碼，然後按一下&#x200B;**[!UICONTROL Save]**。
 
-   ![](assets/email_designer_24.png)
-
 1. 您現在可以透過變更&#x200B;**[!UICONTROL Style]**、**[!UICONTROL Margin]**&#x200B;和&#x200B;**[!UICONTROL Border]**&#x200B;等方式，或新增連結，將您的對象重新導向至其他內容，進一步個人化您的HTML。
 
 ## 影像 {#image}
@@ -116,9 +113,9 @@ ht-degree: 2%
 
    ![](assets/email_designer_9.png)
 
-1. 按一下&#x200B;**[!UICONTROL Browse]**&#x200B;從電腦中選擇影像檔案。
+1. 按一下&#x200B;**[!UICONTROL Browse]**&#x200B;從資產中選擇影像檔案。
 
-   您也可以按一下&#x200B;**[!UICONTROL Asset Picker]**&#x200B;將資產新增至電子郵件。 如需資產的詳細資訊，請參閱此[區段](assets-essentials.md)。
+   若要深入了解[!DNL Assets Essentials]，請參閱[Adobe Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html)。
 
 1. 按一下新添加的元件以開始配置&#x200B;**[!UICONTROL Content Components]**&#x200B;並訪問電子郵件設計器右窗格中的&#x200B;**[!UICONTROL Components Settings]**。
 
