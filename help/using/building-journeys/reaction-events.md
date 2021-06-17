@@ -5,7 +5,7 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 3%
@@ -13,8 +13,6 @@ ht-degree: 3%
 ---
 
 # 反應事件 {#section_dhx_gss_dgb}
-
-![](../assets/do-not-localize/badge.png)
 
 在浮動視窗中可用的不同事件活動中，您會找到內建的&#x200B;**[!UICONTROL Reactions]**&#x200B;事件。 此活動可讓您對與相同歷程中傳送之訊息相關的追蹤資料做出反應。 我們會在與Adobe Experience Platform共用資訊的當下即時擷取這些資訊。 若是推播通知，您可以對點按、傳送或失敗的訊息做出反應。 對於SMS訊息，您可以對已傳送或失敗的訊息做出反應。 若是電子郵件，您可以對點按、傳送、開啟或失敗的訊息做出反應。
 
