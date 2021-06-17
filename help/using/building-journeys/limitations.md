@@ -5,41 +5,32 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
 # 限制 {#journey-limitations}
 
-![](../assets/do-not-localize/badge.png)
-
 以下為與使用歷程相關的限制。
-
-## 歷程清單限制
-
-* 在歷程清單中，篩選器、搜尋和欄選取會在頁面重新整理時重設。
 
 ## 一般動作限制
 
 * 沒有發送限制。 
-* 發生錯誤時，會系統地執行兩次重試。 您無法根據收到的錯誤訊息調整重試次數。 
+* 發生錯誤時會系統地執行三次重試。 您無法根據收到的錯誤訊息調整重試次數。 
 * 內建的&#x200B;**Reaction**&#x200B;事件可讓您對現成可用的動作做出反應（請參閱此[page](../building-journeys/reaction-events.md)）。 如果您想對透過自訂動作傳送的訊息做出反應，需要設定專用事件。 
-* 沒有Adobe Campaign Classic分類整合。
 * 您無法同時放置兩個動作，您必須逐一新增。
 
 ## 訊息動作限制
-
-* **Message**&#x200B;活動不允許您使用來自歷程的內容資料。 在Journey Optimizer中設計訊息時，會直接執行訊息的個人化。
 
 * 新增多頻道訊息時，會傳送兩則訊息。
 
 ## 歷程版本限制{#journey-versions-limitations}
 
 * 從v1中的事件活動開始的歷程，無法以其他版本中的事件以外的項目開始。 您無法以&#x200B;**區段資格**&#x200B;事件開始歷程。
-* v1中從&#x200B;**區段資格**&#x200B;活動開始的歷程，必須一律以進一步版本中的&#x200B;**區段資格**&#x200B;開頭。
+* v1中以&#x200B;**區段資格**&#x200B;活動開始的歷程，在進一步版本中必須一律以&#x200B;**區段資格**&#x200B;開頭。
 * 在&#x200B;**區段資格**（第一個節點）中選擇的區段和命名空間在新版本中無法變更。
 * 所有歷程版本中的重新進入規則必須相同。
 * 從&#x200B;**讀取區段**開始的歷程，無法從下一個版本中的其他事件開始。
