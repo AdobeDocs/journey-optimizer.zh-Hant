@@ -5,7 +5,7 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 4%
@@ -13,8 +13,6 @@ ht-degree: 4%
 ---
 
 # 從一個歷程跳到另一個歷程 {#jump}
-
-![](../assets/do-not-localize/badge.png)
 
 **[!UICONTROL Jump]**&#x200B;動作活動可讓您將個人從一個歷程推送至另一個歷程。 此功能可讓您：
 
