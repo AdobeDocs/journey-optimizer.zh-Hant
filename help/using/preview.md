@@ -5,16 +5,14 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
 
 # 預覽並測試您的訊息{#preview-and-proof}
-
-![](assets/do-not-localize/badge.png)
 
 定義訊息內容後，您就可以使用測試設定檔來預覽和測試。 如果您插入[個人化內容](personalization/personalize.md)，則可以利用測試設定檔資料來檢查訊息中此內容的顯示方式。
 
@@ -22,7 +20,10 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->您必須有可用的測試設定檔，才能預覽訊息並傳送校樣。 了解如何在[此頁面](building-journeys/creating-test-profiles.md)中建立測試設定檔。
+>您必須有可用的測試設定檔，才能預覽訊息並傳送校樣。
+>
+>了解如何在[此頁面](building-journeys/creating-test-profiles.md)中建立測試設定檔。
+
 
 若要測試訊息內容，您必須：
 
@@ -33,13 +34,18 @@ ht-degree: 0%
 
 此外，將您的&#x200B;**Litmus**&#x200B;帳戶運用至[!DNL Journey Optimizer]，即時在熱門電子郵件用戶端中預覽您的&#x200B;**電子郵件呈現**。 然後，您可以確保您的電子郵件內容看起來很棒，並且在每個收件匣中都正常運作。 了解如何在[此區段](#email-rendering)中解除鎖定Litmus電子郵件預覽
 
+>[!CAUTION]
+>
+>預覽訊息或傳送校樣時，只會顯示設定檔個人化資料。 根據內容資料的個人化（例如事件資訊）只能在歷程的內容中測試。 了解如何在[此使用案例](personalization/personalization-use-case.md)中測試個人化。
+
+
 ## 選取測試設定檔{#select-test-profiles}
 
 使用[測試設定檔](building-journeys/creating-test-profiles.md)來鎖定不符合已定義定位准則的其他收件者。
 
 若要選取測試設定檔，請遵循下列步驟：
 
-1. 在訊息介面或電子郵件設計工具中，按一下&#x200B;**[!UICONTROL Preview]**&#x200B;按鈕以存取測試設定檔選取項目。
+1. 在訊息介面或電子郵件設計工具中，按一下&#x200B;**[!UICONTROL Show preview]**&#x200B;按鈕以存取測試設定檔選取項目。
 
    ![](assets/email-preview-button.png)
 
@@ -124,6 +130,10 @@ ht-degree: 0%
    ![](assets/send-proof-view.png)
 
 對訊息內容進行任何修改後，您必須傳送校樣。
+
+>[!NOTE]
+>
+> 在傳送至測試設定檔的校樣中，鏡像頁面的連結未啟用。 它只會在最終訊息中啟動。
 
 ## 電子郵件呈現{#email-rendering}
 
