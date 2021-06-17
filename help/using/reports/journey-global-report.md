@@ -5,16 +5,14 @@ feature: 報告
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 1%
+source-wordcount: '944'
+ht-degree: 0%
 
 ---
 
-# 歷程全域報告 {#journey-global-report}
-
-![](../assets/do-not-localize/badge.png)
+# 歷程全域報表{#journey-global-report}
 
 您可使用&#x200B;**[!UICONTROL Global report]**&#x200B;按鈕，直接從您的歷程存取歷程全域報表。
 
@@ -44,23 +42,27 @@ ht-degree: 1%
 
 * **[!UICONTROL Failed individual journey]**:未成功執行的個別歷程總數。
 
-**[!UICONTROL Event Performance]**&#x200B;和&#x200B;**[!UICONTROL Top events]**&#x200B;介面工具集允許您查看哪個&#x200B;**[!UICONTROL Events]**&#x200B;元件通過圖形和表成功執行。
+![](../assets/global_report_12.png)
 
-**[!UICONTROL Action Performance]** 和 **[!UICONTROL Top Actions]** Widget代表觸發時發生的最成功動作 **[!UICONTROL Actions]** 和錯誤。**[!UICONTROL Top Actions]**&#x200B;表包含可用於&#x200B;**[!UICONTROL Actions]**&#x200B;的資料，例如：
+**[!UICONTROL Events received by event]**、**[!UICONTROL Events by origin]**&#x200B;和&#x200B;**[!UICONTROL Top events]**&#x200B;介面工具集可讓您查看哪個&#x200B;**[!UICONTROL Events]**&#x200B;介面工具集已通過圖形和表成功執行。
+
+![](../assets/global_report_13.png)
+
+**[!UICONTROL Action Performance]**, **[!UICONTROL Action Error Reasons]** 和 **[!UICONTROL Top Actions]** Widget代表觸發時發生的最成功動作 **[!UICONTROL Actions]** 和錯誤。
+
+**[!UICONTROL Top Actions]**&#x200B;表包含可用於&#x200B;**[!UICONTROL Actions]**&#x200B;的資料，例如：
 
 * **[!UICONTROL Actions successfully executed]**:成功執 **[!UICONTROL Actions]** 行歷程的總數。
 
 * **[!UICONTROL Error in action]**:發生的錯誤總 **[!UICONTROL Actions]**&#x200B;數。
-
-**[!UICONTROL Error Reasons]**&#x200B;圖表詳細說明為&#x200B;**[!UICONTROL Actions]**&#x200B;發生的錯誤類型。
-
-<!--Events by origin-->
 
 ## 電子郵件標籤{#email-global}
 
 從您的歷程&#x200B;**[!UICONTROL Global report]**&#x200B;中， **[!UICONTROL Email]**&#x200B;標籤會詳細說明與歷程中傳送的電子郵件傳送相關的主要資訊。
 
 如需特定電子郵件傳送的詳細報表，請參閱[電子郵件全域報表](#email-global-report)區段。
+
+![](../assets/global_report_14.png)
 
 **[!UICONTROL Email Sending Statistics]**&#x200B;圖表會詳細說明傳送的成功：
 
@@ -92,6 +94,10 @@ ht-degree: 1%
 
 * **[!UICONTROL Click through rate]**:與歷程互動的使用者百分比。
 
+* **[!UICONTROL Unsubscribe]**:取消訂閱連結的點按次數。
+
+* **[!UICONTROL Spam complaints]**:宣告郵件為垃圾郵件或垃圾郵件的次數。
+
 **[!UICONTROL Sending Statistics]**&#x200B;圖表包含可用於已傳送電子郵件的資料，例如：
 
 * **[!UICONTROL Delivered]**:已成功傳送的訊息數，與已傳送的訊息總數相關。
@@ -99,6 +105,8 @@ ht-degree: 1%
 * **[!UICONTROL Bounces]**:傳送和自動回傳處理期間累積的錯誤總數，與已傳送訊息的總數相關。
 
 * **[!UICONTROL Errors]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
+
+![](../assets/global_report_15.png)
 
 **[!UICONTROL Bounce Reasons]**&#x200B;和&#x200B;**[!UICONTROL Bounce categories]**&#x200B;介面工具集包含與退信消息相關的可用資料，例如：
 
@@ -110,15 +118,19 @@ ht-degree: 1%
 
 有關跳出的詳細資訊，請參閱[隱藏清單](../suppression-list.md)頁面。
 
+![](../assets/global_report_16.png)
+
 **[!UICONTROL Email - Top Url]**&#x200B;圖表和表格會詳細說明您傳送中最常造訪的URL。
 
-**[!UICONTROL Email - Best recipient domain]**&#x200B;圖表和表格會詳細說明收件者最常使用哪些網域來開啟電子郵件。
+**[!UICONTROL Email - Top recipient domain]**&#x200B;圖表和表格會詳細說明收件者最常使用哪些網域來開啟電子郵件。
 
 ## 推播標籤{#push-global}
 
 從您的歷程&#x200B;**[!UICONTROL Global report]**&#x200B;中，**[!UICONTROL Push]**&#x200B;標籤會詳細說明與歷程中傳送的推送傳送相關的主要資訊。
 
 如需特定推送傳送的詳細報表，請參閱[推送全域報表](#push-global-report)。
+
+![](../assets/global_report_17.png)
 
 **[!UICONTROL Push notification - Sending statistics]**&#x200B;表格會透過圖表和KPI詳細說明與推播通知相關的主要資訊：
 
@@ -160,6 +172,10 @@ ht-degree: 1%
 
 * **[!UICONTROL Errors]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
 
+![](../assets/global_report_18.png)
+
 **[!UICONTROL Error Reasons]**&#x200B;圖表和表格可讓您查看在傳送期間發生的錯誤。
+
+![](../assets/global_report_19.png)
 
 **[!UICONTROL Tracking by platform]**、**[!UICONTROL Sending by platform]**&#x200B;和&#x200B;**[!UICONTROL Breakdown by platform]**&#x200B;圖表和表格會根據收件者的作業系統，詳細說明推播通知的成功。
