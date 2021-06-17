@@ -5,26 +5,29 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: d85dfe519ebbbb27693c7283c19cc1d7171c25ba
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 84%
+source-wordcount: '1187'
+ht-degree: 63%
 
 ---
 
 # 使用者介面 {#cjm-user-interface}
 
-![](assets/do-not-localize/badge.png)
-
-本文件將經常更新，以反應產品近期異動。不過，有些螢幕擷取畫面可能會與使用者介面稍有不同。
-
-## 工作區 {#cjm-workspace}
-
 連結到 [Adobe Experience Cloud](http://experience.adobe.com) 後，導覽至 [!DNL Journey Optimizer]。
 
 >[!NOTE]
 >
->瀏覽使用者介面時的主要概念詳見 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hant#adobe-experience-platform-ui-guide)。
+>* 瀏覽使用者介面時，Adobe Experience Platform有常見的重要概念。 如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hant#adobe-experience-platform-ui-guide)。
+   >
+   >
+* 本檔案會經常更新，以反映產品使用者介面的最新變更。 不過，有些螢幕擷取畫面可能會與使用者介面稍有不同。
+   >
+   > 
+* UI中可用的元件和功能取決於您的權限和授權套件。 如有任何問題，請聯絡您的Adobe客戶成功經理。
+
+
+## 左側導覽
 
 使用左側的連結來瀏覽功能。
 
@@ -84,9 +87,39 @@ ht-degree: 84%
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience 提供的 sandbox 可將單一執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。[在本文件中進一步瞭解 sandbox ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant)
 
-## 瀏覽器和語言支援
+
+## 產品內使用案例
+
+從首頁善用[!DNL Adobe Journey Optimizer]使用案例，並提供一些快速輸入項目以建立客戶歷程。
+
+![](assets/use-cases-home.png)
+
+可用的使用案例包括：
+
+* **建立測試設定檔**，以使用我們的CSV範本建立測試設定檔，以測試個人化訊息和歷程。了解如何在本頁面](building-journeys/creating-test-profiles.md#use-case-1)中實作此使用案例[。
+* **傳送生日訊息給客戶**，以自動傳送電子郵件祝賀客戶生日。（即將推出）
+* **傳送電子郵件給新客戶**，以輕鬆傳送最多兩封電子郵件以歡迎您新註冊的客戶。（即將推出）
+* **傳送推播訊息至匯入的客戶清單**，以快速將推播通知傳送至從CSV檔案匯入的客戶清單。（即將推出）
+
+按一下&#x200B;**[!UICONTROL View details]**&#x200B;以深入了解每個使用案例。
+
+按一下&#x200B;**[!UICONTROL Begin]**&#x200B;按鈕以開始使用案例。
+
+您可以從&#x200B;**[!UICONTROL View use case library]**&#x200B;按鈕存取已執行的使用案例。
+
+## 尋找說明與支援
+
+從首頁的下半部存取Adobe Journey Optimizer重要說明頁面。
+
+使用&#x200B;**Help**&#x200B;圖示來存取說明頁面、聯絡支援並分享意見。 您可以從搜尋欄位搜尋說明文章和影片。
+
+![](assets/ajo-help.png)
+
+## 受支援的瀏覽器
 
 Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中以最佳方式運作。 您在舊版或其他瀏覽器上使用某些功能時可能會遇到問題。
+
+## 語言偏好設定
 
 使用者介面目前提供下列語言版本：
 
@@ -106,7 +139,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ## 搜尋
 
-使用頂端列中央的Adobe Experience Cloud搜尋，在沙箱中尋找資產、歷程或訊息。 開始輸入內容以顯示排名最前的結果。
+從Adobe Journey Optimizer介面的任何位置，都可使用頂端列中心的Adobe Experience Cloud搜尋，在沙箱中尋找資產、歷程或訊息。 開始輸入內容以顯示排名最前的結果。
 
 ![](assets/unified-search.png)
 
@@ -138,17 +171,3 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 在不同的清單中，您可以對每個元素執行基本動作。例如，您可以複製或刪除項目。
 
 ![](assets/journey4.png)
-
-## 透過 Adobe Experience Platform 欄位瀏覽 {#friendly-names-display}
-
-定義[事件有效負載](event/about-creating.md#define-the-payload-fields)、[欄位群組有效負載](datasource/configure-data-sources.md#define-field-groups)，以及在[運算式編輯器](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hant)中選取欄位時，除了欄位名稱外，還會顯示顯示名稱。此資訊會從「Experience 資料模型」的結構定義中擷取。
-
-如果在設定結構時提供了 &quot;xdm:alternateDisplayInfo&quot; 之類的描述元，則好記的名稱會取代顯示名稱。它在使用「eVar」和一般欄位時特別有用。 您可以透過 API 呼叫來設定好記名稱描述因子。 如需詳細資訊，請參閱 [Schema Registry 開發人員指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant)。
-
-![](assets/xdm-from-descriptors.png)
-
-如果有好記的名稱，欄位便會顯示為`<friendly-name>(<name>)`。如果沒有好記的名稱，則會顯示顯示名稱`<display-name>(<name>)`。如果未定義這些欄位，則只會顯示欄位的技術名稱 `<name>`。
-
->[!NOTE]
->
->從結合結構選取欄位時並不會擷取好記名稱。
