@@ -16,10 +16,10 @@ feature: 應用程式設定
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 344bcff33895867d650f98b778cdf76c52a4b75e
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 19%
+source-wordcount: '318'
+ht-degree: 60%
 
 ---
 
@@ -42,3 +42,17 @@ ht-degree: 19%
 ## 動作
 
 Journey Optimizer訊息功能內建：您只需要設計內容並發佈訊息。 如果您使用協力廠商系統來傳送訊息，則可建立自訂動作。 [了解更多](../../using/action/action.md)
+
+## 透過 Adobe Experience Platform 欄位瀏覽 {#friendly-names-display}
+
+定義[事件有效負載](../event/about-creating.md#define-the-payload-fields)、[欄位群組有效負載](../datasource/configure-data-sources.md#define-field-groups)，以及在[運算式編輯器](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hant)中選取欄位時，除了欄位名稱外，還會顯示顯示名稱。此資訊會從「Experience 資料模型」的結構定義中擷取。
+
+如果在設定結構時提供了 &quot;xdm:alternateDisplayInfo&quot; 之類的描述元，則好記的名稱會取代顯示名稱。它在使用「eVar」和一般欄位時特別有用。 您可以透過 API 呼叫來設定好記名稱描述因子。 如需詳細資訊，請參閱 [Schema Registry 開發人員指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant)。
+
+![](../assets/xdm-from-descriptors.png)
+
+如果有好記的名稱，欄位便會顯示為`<friendly-name>(<name>)`。如果沒有好記的名稱，則會顯示顯示名稱`<display-name>(<name>)`。如果未定義這些欄位，則只會顯示欄位的技術名稱 `<name>`。
+
+>[!NOTE]
+>
+>從結合結構選取欄位時並不會擷取好記名稱。
