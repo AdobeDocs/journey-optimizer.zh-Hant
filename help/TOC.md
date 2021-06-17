@@ -5,11 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-hide: true
-source-git-commit: a73430f57d6e482de08b3e01a8acef081945405b
+source-git-commit: a904ee8fdcb5f634e856bf55432836e3649a1abc
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 79%
+source-wordcount: '668'
+ht-degree: 69%
 
 ---
 
@@ -21,7 +20,6 @@ ht-degree: 79%
    + [什麼是 Journey Optimizer](using/get-started.md)
    + [快速入門](using/quick-start.md)
    + [使用者介面](using/user-interface.md)
-   + [已知問題](using/known-issues.md)
 + 訊息 {#create-messages}
    + [開始使用訊息](using/get-started-content.md)
    + 建立訊息 {#create-message}
@@ -35,8 +33,7 @@ ht-degree: 79%
       + [匯入或編碼您的電子郵件內容](using/existing-content.md)
       + [使用電子郵件設計人員內容元件](using/content-components.md)
    + 個人化{#personalization}
-      + [開始使用](using/personalization/personalize.md)
-      + [個人化領域](using/personalization/personalization-aeras.md)
+      + [開始使用 使用個人化](using/personalization/personalize.md)
       + [個人化語法](using/personalization/personalization-syntax.md)
       + [個人化驗證](using/personalization/personalization-validation.md)
       + [個人化使用實例](using/personalization/personalization-use-case.md)
@@ -84,23 +81,25 @@ ht-degree: 79%
       + [讀取區段](using/building-journeys/read-segment.md)
       + [訊息](using/building-journeys/journeys-message.md)
       + [自訂動作](using/building-journeys/using-custom-actions.md)
+      + [Adobe Campaign v7/v8動作](using/building-journeys/using-adobe-campaign-classic.md)
       + [跳轉](using/building-journeys/jump.md)
       + [更新設定檔](using/building-journeys/update-profiles.md)
    + 使用實例 {#journey-use-cases}
       + [傳送多頻道訊息](using/building-journeys/journeys-uc.md)
+      + [使用Campaign v7/v8傳送訊息](using/building-journeys/campaign-classic-use-case.md)
 + 追蹤和監視 {#reporting}
    + [訊息追蹤](using/message-tracking.md)
    + [訊息監視](using/message-monitoring.md)
    + 即時報告 {#live-report}
-      + [概覽](using/reports/live-report.md)
-      + [歷程即時報告](using/reports/journey-live-report.md)
-      + [以電子郵件傳送即時報告](using/reports/email-live-report.md)
-      + [推播即時報告](using/reports/push-live-report.md)
+      + [存取即時報表控制面板](using/reports/live-report.md)
+      + [歷程即時報表](using/reports/journey-live-report.md)
+      + [電子郵件即時報表](using/reports/email-live-report.md)
+      + [推播即時報表](using/reports/push-live-report.md)
    + 全域報告 {#global-report}
-      + [概覽](using/reports/global-report.md)
-      + [歷程全域報告](using/reports/journey-global-report.md)
-      + [以電子郵件形式傳送全域報告](using/reports/email-global-report.md)
-      + [推播全域報告](using/reports/push-global-report.md)
+      + [存取全域報表控制面板](using/reports/global-report.md)
+      + [歷程全域報表](using/reports/journey-global-report.md)
+      + [電子郵件全域報表](using/reports/email-global-report.md)
+      + [推送全域報表](using/reports/push-global-report.md)
    + 歷程報告 {#reports}
       + [建立歷程報告](using/reports/sharing-overview.md)
       + [歷程欄位](using/reports/sharing-journey-fields.md)
@@ -112,19 +111,20 @@ ht-degree: 79%
       + [開始使用傳遞能力](using/deliverability.md)
       + [隱藏清單](using/suppression-list.md)
 + 決策管理{#offer-decisioniong}
-   + 開始使用決定管理 {#get-started}
+   + 開始使用決策管理{#get-started}
       + [關於決策管理](using/offers/get-started/starting-offer-decisioning.md)
       + [使用者介面](using/offers/get-started/user-interface.md)
-      + [字彙](using/offers/get-started/glossary.md)
-   + 建立和管理優惠 {#managing-offers-in-the-offer-library}
-      + [建立優惠的重要步驟](using/offers/offer-library/key-steps.md)
+      + [建立和管理優惠方案的關鍵步驟](using/offers/offer-library/key-steps.md)
+      + [使用案例：在電子郵件中插入優惠方案](using/offers/offers-e2e.md)
+   + 建立元件{#create-components}
       + [建立位置](using/offers/offer-library/creating-placements.md)
       + [建立決定規則](using/offers/offer-library/creating-decision-rules.md)
       + [建立標籤](using/offers/offer-library/creating-tags.md)
+      + [建立排名公式](using/offers/offer-library/create-ranking-formulas.md)
+   + 建立和管理優惠 {#managing-offers-in-the-offer-library}
       + [建立個人化優惠](using/offers/offer-library/creating-personalized-offers.md)
       + [建立遞補優惠](using/offers/offer-library/creating-fallback-offers.md)
       + [建立集合](using/offers/offer-library/creating-collections.md)
-      + [建立排名公式](using/offers/offer-library/create-ranking-formulas.md)
    + 建立和管理決定 {#create-manage-activities}
       + [建立決定](using/offers/offer-activities/create-offer-activities.md)
       + [在決定中設定優惠選擇](using/offers/offer-activities/configure-offer-selection.md)
@@ -190,10 +190,9 @@ ht-degree: 79%
 + 設定{#get-started}
    + [開始使用Journey Optimizer設定](using/configuration/get-started-configuration.md)
    + 配置消息{#configuration}
-      + [技術設定](using/administration/administration.md)
-      + [建立訊息預設集](using/configuration/message-presets.md)
-      + [設定推播通道](using/push-configuration.md)
-      + [推播通知設定](using/push-gs.md)
+      + 推播通知設定{#push-config}
+         + [開始使用推送設定](using/push-gs.md)
+         + [設定推播通知通道](using/push-configuration.md)
       + 電子郵件配置{#email-config}
          + 委派子網域{#delegate-subdomains}
             + [開始使用子網域委派](using/configuration/about-subdomain-delegation.md)
@@ -206,6 +205,7 @@ ht-degree: 79%
             + [管理隱藏清單](using/configuration/manage-suppression-list.md)
             + [重試次數](using/configuration/retries.md)
          + [更改電子郵件主地址](using/configuration/primary-email-addresses.md)
+      + [建立訊息預設集](using/configuration/message-presets.md)
    + 設定歷程{#configure-journeys}
       + [關於資料來源、事件和動作](using/configuration/about-data-sources-events-actions.md)
       + [與外部系統整合](using/configuration/external-systems.md)
@@ -225,6 +225,7 @@ ht-degree: 79%
       + 動作設定 {#action-journeys}
          + [關於動作](using/action/action.md)
          + [設定動作](using/action/about-custom-action-configuration.md)
+         + [與Adobe Campaign v7/v8整合](using/action/acc-action.md)
 + 訪問控制{#administration}
    + [存取控制概觀](using/administration/permissions-overview.md)
    + [內建的產品設定檔](using/administration/ootb-product-profiles.md)
