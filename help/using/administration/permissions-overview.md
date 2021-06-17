@@ -16,7 +16,7 @@ feature: 控制組
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 21%
@@ -24,8 +24,6 @@ ht-degree: 21%
 ---
 
 # 使用者管理概述 {#permissions-overview}
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] 可讓您定義並管理指派給不同使用者的權限。權限是授權或拒絕存取產品內功能的一組權限和限制。
 
