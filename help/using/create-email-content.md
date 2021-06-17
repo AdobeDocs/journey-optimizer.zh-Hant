@@ -5,26 +5,24 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 0%
+source-wordcount: '1456'
+ht-degree: 1%
 
 ---
 
 # 在使用者介面{#create-email-content}中設計您的電子郵件內容
 
-![](assets/do-not-localize/badge.png)
-
 在您建立了[訊息](create-message.md)後，就可以開始建立電子郵件內容。
 
-1. 從新建立的消息中，選擇&#x200B;**[!UICONTROL Edit content]**&#x200B;部分中的&#x200B;**[!UICONTROL Email designer]**。
+1. 從新建立的消息中，選擇&#x200B;**[!UICONTROL Body]**&#x200B;部分中的&#x200B;**[!UICONTROL Email designer]**。
 
    ![](assets/import-html_1.png)
 
 1. 在電子郵件設計工具首頁中，從以下選項選擇您要如何設計電子郵件：
 
-   * 選擇&#x200B;**[!UICONTROL Design from scratch]**&#x200B;以使用電子郵件設計器功能建立電子郵件內容。
+   * 選擇&#x200B;**[!UICONTROL Design from scratch]**&#x200B;以使用電子郵件設計器功能建立電子郵件內容。 [了解更多](#design-scratch)
 
    * 選取&#x200B;**[!UICONTROL Start from template]**，從內建的範本清單建立電子郵件。 請注意，您無法建立其他範本。
 
@@ -34,13 +32,39 @@ ht-degree: 0%
 
    ![](assets/email_designer_25.png)
 
-## 從頭設計
+## 從頭設計{#design-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components"
+>title="關於結構元件"
+>abstract="結構元件可定義電子郵件的版面。"
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns"
+>title="定義電子郵件欄"
+>abstract="電子郵件設計工具可讓您透過定義欄結構來輕鬆定義電子郵件的版面。"
+
+電子郵件設計工具可讓您輕鬆定義電子郵件的結構。 透過新增和移動結構元素並執行簡單的拖放動作，您可以在數秒內設計電子郵件的形狀。
 
 若要開始使用電子郵件設計工具建立電子郵件內容，請遵循下列步驟：
 
 1. 選取&#x200B;**[!UICONTROL Design from scratch]**&#x200B;選項後，拖放&#x200B;**[!UICONTROL Structure components]**&#x200B;以定義電子郵件的版面，開始設計電子郵件內容。
 
+   >[!NOTE]
+   >
+   >請注意，列堆疊與所有電子郵件程式不相容。 不支援時，不會堆疊欄。
+   >
+   >放入電子郵件後，您必須先放入內容元件或片段，才能移動或移除元件。
+
    ![](assets/email_designer_2.png)
+
+1. 視需要新增&#x200B;**[!UICONTROL Structure components]**。
+
+   選取&#x200B;**[!UICONTROL n:n column]**&#x200B;元件以定義所選欄數（3到10之間）。 您也可以移動每欄底部的箭頭，以定義每欄的寬度。
+
+   >[!NOTE]
+   >
+   >每個列大小不能低於結構元件總寬度的10%。 無法刪除非空的列。
 
 1. 從&#x200B;**[!UICONTROL Content components]**&#x200B;下拉式清單中，您可以視需要在結構元件中新增多個&#x200B;**[!UICONTROL Content components]**。 [深入了解內容元件](content-components.md)。
 
@@ -64,6 +88,10 @@ ht-degree: 0%
 
    ![](assets/email_designer_7.png)
 
+   >[!NOTE]
+   >
+   >深入了解[此頁面](message-tracking.md)中的連結和訊息追蹤。
+
 1. 如有需要，您可以切換至程式碼編輯器，從進階功能表按一下&#x200B;**[!UICONTROL Switch to code editor]**，進一步個人化您的電子郵件。 如需程式碼編輯器的詳細資訊，請參閱此[page](existing-content.md#import-raw-html-code)。
 
    >[!NOTE]
@@ -72,7 +100,9 @@ ht-degree: 0%
 
    ![](assets/email_designer_26.png)
 
-1. 按一下&#x200B;**[!UICONTROL Preview]**&#x200B;以檢查電子郵件呈現。 您可以選擇案頭或行動檢視。
+1. 按一下&#x200B;**[!UICONTROL Show preview]**&#x200B;以檢查電子郵件呈現。 您可以選擇案頭或行動檢視。
+
+   有關如何預覽電子郵件的詳細資訊，請參閱[預覽並測試您的郵件](preview.md)。
 
    ![](assets/email_designer_8.png)
 
@@ -80,42 +110,35 @@ ht-degree: 0%
 
 您的電子郵件內容現在可用於訊息中。 [了解如何傳送訊息](publish-manage-message.md)。
 
-## 定義電子郵件結構{#defining-the-email-structure}
+## 建立電子郵件的文本版本{#generate-text-version}
 
->[!CONTEXTUALHELP]
->id="ac_structure_components"
->title="關於結構元件"
->abstract="結構元件可定義電子郵件的版面。"
+建議您建立電子郵件內文的文字版本，以用於無法顯示HTML內容時。
 
->[!CONTEXTUALHELP]
->id="ac_edition_columns"
->title="定義電子郵件欄"
->abstract="電子郵件設計工具可讓您透過定義欄結構來輕鬆定義電子郵件的版面。"
+依預設，電子郵件設計工具會建立&#x200B;**[!UICONTROL Plain text]**&#x200B;版本的電子郵件，包括個人化欄位。 此版本會自動產生，並與您內容的HTML版本同步。
 
-電子郵件設計工具可讓您輕鬆定義電子郵件的結構。 透過新增和移動結構元素並執行簡單的拖放動作，您可以在數秒內設計電子郵件的形狀。
+如果您偏好對純文字版本使用不同內容，請遵循下列步驟：
 
-若要編輯電子郵件的結構：
+1. 從電子郵件中，選取&#x200B;**[!UICONTROL Plain text]**&#x200B;標籤。
 
-1. 開啟現有內容或建立新的電子郵件內容。
-1. 選取左側的&#x200B;**+**&#x200B;圖示，以存取&#x200B;**[!UICONTROL Structure components]**。
-1. 拖放您塑造電子郵件所需的結構元件。
-在放置結構元件之前，藍線會實體化其確切位置。 您可以將其放置在其他元件之上、之間或之下，但不放在內部。
+   ![](assets/text_version_3.png)
 
-   >[!NOTE]
+1. 使用&#x200B;**[!UICONTROL Sync with HTML]**&#x200B;切換以禁用同步。
+
+   ![](assets/text_version_1.png)
+
+1. 按一下核取記號以確認您的選擇。
+
+   ![](assets/text_version_2.png)
+
+1. 然後，您可以視需要編輯純文字版本。
+
+>[!CAUTION]
+>
+>* 在&#x200B;**[!UICONTROL Plain text]**&#x200B;檢視中所做的變更沒有反映在HTML檢視中。
    >
-   >請注意，列堆疊與所有電子郵件程式不相容。 不支援時，不會堆疊欄。
    >
-   >放入電子郵件後，您必須先放入內容元件或片段，才能移動或移除元件。
+* 如果在更新純文字內容後重新啟用&#x200B;**[!UICONTROL Sync with HTML]**&#x200B;選項，您的變更將會遺失，並以HTML版本產生的文字內容取代。
 
-1. 由一個或多個列組成的多個結構元件可用。
-
-   選取&#x200B;**[!UICONTROL n:n column]**&#x200B;元件以定義所選欄數（3到10之間）。 您也可以移動每欄底部的箭頭，以定義每欄的寬度。
-
-   >[!NOTE]
-   >
-   >每個列大小不能低於結構元件總寬度的10%。 無法刪除非空的列。
-
-定義結構後，您就可以將內容片段和元件新增至電子郵件。
 
 ## 使用前置詞 {#preheader}
 
@@ -124,15 +147,33 @@ ht-degree: 0%
 >title="使用前置詞"
 >abstract="前置詞可讓您設定簡短的摘要文字，以協助您更好地追蹤及自訂您的電子郵件。"
 
-前置詞是摘要文字，在從電子郵件用戶端檢視電子郵件時，會遵循主旨行。 前置標題可協助您更妥善地追蹤及自訂電子郵件。
-
-選擇&#x200B;**[!UICONTROL Preheader]**&#x200B;編輯框並添加內容。
-
-您可以在標題前內容中新增&#x200B;**[!UICONTROL Content block]**、**[!UICONTROL Dynamic content]**&#x200B;或&#x200B;**[!UICONTROL Personalization fields]**。
-
 >[!NOTE]
 >
 >請注意，預先標題與所有電子郵件用戶端不相容。 若不支援，則不會顯示預先標題。
+
+前置詞是摘要文字，在從電子郵件用戶端檢視電子郵件時，會遵循主旨行。 前置標題可協助您更妥善地追蹤及自訂電子郵件。
+
+1. 從電子郵件設計工具中，新增&#x200B;**[!UICONTROL Structure components]**&#x200B;以開始設計電子郵件。
+
+   ![](assets/preheader_1.png)
+
+1. 在&#x200B;**[!UICONTROL Body settings]**&#x200B;右窗格中，按一下&#x200B;**[!UICONTROL Preheader]**&#x200B;欄位旁的&#x200B;**編輯**&#x200B;以新增內容。
+
+   ![](assets/preheader_2.png)
+
+1. 新增您的標題。 您可以按一下&#x200B;**[!UICONTROL Add personalization]**&#x200B;圖示，進一步個人化該區段。
+
+   ![](assets/preheader_3.png)
+
+1. 從&#x200B;**[!UICONTROL Edit Personalization]**&#x200B;視窗，您可以新增&#x200B;**[!UICONTROL Content block]**、**[!UICONTROL Dynamic content]**&#x200B;或&#x200B;**[!UICONTROL Personalization fields]**。
+
+1. 按一下&#x200B;**[!UICONTROL Validate]**&#x200B;以檢查您的個人化語法。
+
+   ![](assets/preheader_4.png)
+
+1. 按一下「**[!UICONTROL Save]**」。
+
+您的電子郵件現在已設定前置標題。
 
 ## 背景設定{#about-backgrounds}
 
@@ -172,7 +213,7 @@ ht-degree: 0%
 
    您也可以在欄層級設定背景影像，但此功能很少使用。
 
-### 範例：調整垂直對齊和邊框間距{#example--adjusting-vertical-alignment-and-padding}
+## 調整垂直對齊和邊框間距{#adjusting-vertical-alignment-and-padding}
 
 要調整由三列組成的結構元件內的邊框間距和垂直對齊方式。 若要這麼做，請遵循下列步驟：
 
@@ -220,34 +261,5 @@ ht-degree: 0%
 
 樣式隨後會套用至選取的元素。 如果子元素未定義特定樣式屬性，則會繼承父元素的樣式。
 
-
-## 建立電子郵件的文本版本{#generate-text-version}
-
-建議您建立電子郵件內文的文字版本，以用於無法顯示HTML內容時。
-
-依預設，電子郵件設計工具會建立&#x200B;**[!UICONTROL Plain text]**&#x200B;版本的電子郵件，包括個人化欄位。 此版本會自動產生，並與您內容的HTML版本同步。
-
-如果您偏好對純文字版本使用不同內容，請遵循下列步驟：
-
-1. 從電子郵件中，選取&#x200B;**[!UICONTROL Plain text]**&#x200B;標籤。
-
-1. 使用&#x200B;**[!UICONTROL Sync with HTML]**&#x200B;切換以禁用同步。
-
-   ![](assets/text_version_1.png)
-
-1. 按一下核取記號以確認您的選擇。
-
-   ![](assets/text_version_2.png)
-
-1. 然後，您可以視需要編輯純文字版本。
-
->[!CAUTION]
->
->* 在&#x200B;**[!UICONTROL Plain text]**&#x200B;檢視中所做的變更沒有反映在HTML檢視中。
-   >
-   >
-* 如果在更新純文字內容後重新啟用&#x200B;**[!UICONTROL Sync with HTML]**&#x200B;選項，您的變更將會遺失，並以HTML版本產生的文字內容取代。
-
->
 
 
