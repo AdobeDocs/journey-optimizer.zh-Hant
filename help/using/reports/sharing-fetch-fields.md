@@ -5,18 +5,16 @@ feature: 報告
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '374'
 ht-degree: 7%
 
 ---
 
 # journeyStep 事件資料擷取欄位 {#sharing-fetch-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-此混合將由journeyStepEvent和journeyStepProfileEvent共用。
+此欄位群組將由journeyStepEvent和journeyStepProfileEvent共用。
 
 在步驟處理期間，我們可以在欄位群組上擷取N個資料。
 
