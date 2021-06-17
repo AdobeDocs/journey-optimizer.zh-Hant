@@ -5,18 +5,16 @@ feature: 報告
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '71'
 ht-degree: 28%
 
 ---
 
 # 歷程欄位 {#sharing-journey-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-此混合用於歷程結構（與journeyStepEvent相關）。 它包含下列欄位：
+此欄位群組用於歷程結構（與journeyStepEvent相關）。 它包含下列欄位：
 
 ## journeyID
 
