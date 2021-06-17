@@ -5,30 +5,34 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 2%
+source-wordcount: '1318'
+ht-degree: 1%
 
 ---
 
 # 建立測試設定檔{#create-test-profiles}
 
-![](../assets/do-not-localize/badge.png)
+使用測試模式時需要測試設定檔了解如何在歷程中使用[測試模式](../building-journeys/testing-the-journey.md)，以及[預覽和測試您的訊息](../preview.md)。
 
-在歷程中使用測試模式時，需要測試設定檔。 您可以將[現有設定檔](../building-journeys/creating-test-profiles.md#turning-profile-into-test)轉換為測試設定檔，或[建立測試設定檔](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)。 若要了解如何使用測試模式，請參閱[此區段](../building-journeys/testing-the-journey.md)。
+建立測試設定檔的可用方法詳述如下：
 
-在Adobe Experience Platform中建立測試設定檔有不同的方式。 在本檔案中，我們著重於兩種方法：上傳[csv檔案](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)並使用[API呼叫](../building-journeys/creating-test-profiles.md#create-test-profiles-api)。 您也可以上傳資料集中的json檔案，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)。
+* 您可以將[現有的設定檔](#turning-profile-into-test)轉換為測試設定檔
 
-建立測試設定檔類似於在Adobe Experience Platform中建立一般設定檔。 如需詳細資訊，請參閱[即時客戶設定檔檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)。
+* 您可以上傳[csv檔案](#create-test-profiles-csv)或使用[API呼叫](#create-test-profiles-api)來建立測試設定檔。 除了這兩種方法以外，Adobe Journey Optimizer還隨附特定的[產品內使用案例](#use-case-1)以利建立測試設定檔。
 
-## 先決條件{#test-profile-prerequisites}
+* 您也可以上傳資料集中的JSON檔案。 如需詳細資訊，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)。
+
+請注意，建立測試設定檔與在Adobe Experience Platform中建立一般設定檔類似。 如需詳細資訊，請參閱[即時客戶設定檔檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)。
+
+## 先決條件 {#test-profile-prerequisites}
 
 若要建立設定檔，您必須先在[!DNL Journey Optimizer]Adobe中建立結構和資料集。
 
 首先，您需要&#x200B;**建立架構**。 請依照下列步驟操作：
 
-1. 在「管理」部分，按一下&#x200B;**[!UICONTROL Schemas]**。
+1. 在「資料管理」菜單部分，按一下&#x200B;**[!UICONTROL Schemas]**。
    ![](../assets/test-profiles-0.png)
 1. 按一下右上方的&#x200B;**[!UICONTROL Create schema]**，然後選取架構類型，例如&#x200B;**XDM個別設定檔**。
    ![](../assets/test-profiles-1.png)
@@ -47,9 +51,9 @@ ht-degree: 2%
 
 1. 在欄位清單中，按一下您要定義為主要身分的欄位。
    ![](../assets/test-profiles-3.png)
-1. 在&#x200B;**[!UICONTROL Field properties]**&#x200B;右面板中，檢查****[!UICONTROL Identity]**&#x200B;和****[!UICONTROL Primary Identity]**&#x200B;選項並選擇命名空間。 如果您希望主要身分成為電子郵件地址，請選擇&#x200B;**Email**&#x200B;命名空間。 按一下&#x200B;**「套用」**。
-   ![](../assets/test-profiles-4.png)
-1. 選擇架構並啟用&#x200B;**[!UICONTROL Schema properties]**&#x200B;中的&#x200B;**[!UICONTROL Profile]**選項。
+1. 在&#x200B;**[!UICONTROL Field properties]**&#x200B;右窗格中，檢查&#x200B;**[!UICONTROL Identity]**&#x200B;和&#x200B;**[!UICONTROL Primary Identity]**&#x200B;選項並選擇命名空間。 如果您希望主要身分成為電子郵件地址，請選擇&#x200B;**[!UICONTROL Email]**&#x200B;命名空間。 按一下「**[!UICONTROL Apply]**」。
+   ![](../assets/test-profiles-4bis.png)
+1. 選擇架構並在&#x200B;**[!UICONTROL Schema properties]**&#x200B;窗格中啟用&#x200B;**[!UICONTROL Profile]**選項。
    ![](../assets/test-profiles-5.png)
 1. 按一下「**儲存**」。
 
@@ -74,17 +78,45 @@ ht-degree: 2%
 >
 > 如需資料集建立的詳細資訊，請參閱[目錄服務檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started)。
 
+## 產品內使用案例{#use-case-1}
+
+從Adobe Journey Optimizer首頁，您可以運用產品中的測試設定檔使用案例。 此使用案例有助於建立測試設定檔，以在發佈前測試歷程。
+
+![](../assets/use-cases-home.png)
+
+按一下&#x200B;**[!UICONTROL Begin]**&#x200B;按鈕以開始使用案例。
+
+需要下列資訊：
+
+1. **身分命名空間**:用來 [唯一](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) 識別測試設定檔的身分名稱。例如，如果使用電子郵件來識別測試設定檔，則應選取身分命名空間&#x200B;**Email**。 如果唯一識別碼是電話號碼，則應選取身分命名空間&#x200B;**Phone**。
+
+2. **CSV檔案**:以逗號分隔的檔案，包含要建立的測試設定檔清單。使用案例需要CSV檔案的預先定義格式，其中包含要建立的測試設定檔清單。 檔案中的每一列都應以下列正確順序包含下列欄位：
+
+   1. **人員Id**:測試設定檔的唯一識別碼。此欄位的值應反映所選取的身分命名空間。 (例如，如果為身分命名空間選取了&#x200B;**Phone**，則此欄位的值應為電話號碼。 同樣地，如果選取&#x200B;**Email**，則此欄位的值應為電子郵件)
+   1. **電子郵件**:測試設定檔電子郵件地址。（如果選取&#x200B;**Email**&#x200B;作為身分命名空間，**人員ID**&#x200B;欄位和&#x200B;**電子郵件**&#x200B;欄位可能會包含相同的值）
+   1. **名字**:測試設定檔名。
+   1. **姓氏**:測試設定檔的姓氏。
+   1. **城市**:測試配置檔案居住城市
+   1. **國家**:測試設定檔居住國
+   1. **性別**:測試設定檔性別。可用值為&#x200B;**male**、**femole**&#x200B;和&#x200B;**non_specified**
+
+選取身分命名空間並根據上述格式提供CSV檔案後，按一下右上角的&#x200B;**[!UICONTROL Run]**&#x200B;按鈕。 使用案例可能需要幾分鐘的時間才能完成。 使用案例完成處理並建立測試設定檔後，系統會傳送通知以通知使用者。
+
+>[!NOTE]
+>
+>測試設定檔可能會覆寫現有設定檔。 執行使用案例之前，請確定CSV僅包含測試設定檔，並針對正確的沙箱執行。
+
 ## 將設定檔轉換為測試設定檔{#turning-profile-into-test}
 
 您可以將現有設定檔轉換為測試設定檔：您可以使用建立設定檔時的相同方式更新設定檔屬性。
 
-最簡單的方法是在歷程中使用&#x200B;**[!UICONTROL Update profile]**&#x200B;動作活動，並將testProfile布林欄位從false變更為true。
+最簡單的方法是在歷程中使用&#x200B;**[!UICONTROL Update Profile]**&#x200B;動作活動，並將testProfile布林欄位從false變更為true。
 
-您的歷程將由&#x200B;**[!UICONTROL Read segment]**&#x200B;和&#x200B;**[!UICONTROL Update profile]**&#x200B;活動組成。 您首先需要建立以您要轉換成測試設定檔的設定檔為目標的區段。
+您的歷程將由&#x200B;**[!UICONTROL Read Segment]**&#x200B;和&#x200B;**[!UICONTROL Update Profile]**&#x200B;活動組成。 您首先需要建立以您要轉換成測試設定檔的設定檔為目標的區段。
 
 >[!NOTE]
 >
-> 由於您將更新&#x200B;**testProfile**&#x200B;欄位，所選設定檔必須包含此欄位。 相關架構必須具有&#x200B;**設定檔測試詳細資料** mixin。 請參閱[本節](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites)。
+> 由於您將更新&#x200B;**testProfile**&#x200B;欄位，所選設定檔必須包含此欄位。 相關架構必須具有&#x200B;**設定檔測試詳細資料**&#x200B;欄位群組。 請參閱[本節](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites)。
 
 1. 瀏覽至右上方的&#x200B;**區段**，然後瀏覽&#x200B;**建立區段**。
    ![](../assets/test-profiles-22.png)
@@ -97,10 +129,10 @@ ht-degree: 2%
    >
    > 區段計算可能需要一些時間。 進一步了解[此區段](../segment/about-segments.md)中的區段。
 
-1. 現在，請建立新的歷程，並從&#x200B;**[!UICONTROL Read segment]**&#x200B;協調活動開始。
+1. 現在，請建立新的歷程，並從&#x200B;**[!UICONTROL Read Segment]**&#x200B;協調活動開始。
 1. 選擇先前建立的區段以及您的設定檔使用的命名空間。
    ![](../assets/test-profiles-25.png)
-1. 新增&#x200B;**[!UICONTROL Update profile]**&#x200B;動作活動。
+1. 新增&#x200B;**[!UICONTROL Update Profile]**&#x200B;動作活動。
 1. 選取結構、**testProfiles**&#x200B;欄位、資料集，並將值設為&#x200B;**True**。 要執行此操作，請在&#x200B;**[!UICONTROL VALUE]**&#x200B;欄位中按一下右側的&#x200B;**Pen**&#x200B;表徵圖，選擇&#x200B;**[!UICONTROL Advanced mode]**&#x200B;並輸入&#x200B;**true**。
    ![](../assets/test-profiles-26.png)
 1. 新增&#x200B;**End**&#x200B;活動，然後按一下&#x200B;**[!UICONTROL Publish]**。
@@ -109,7 +141,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   > 有關&#x200B;**[!UICONTROL Update profile]**&#x200B;活動的詳細資訊，請參閱[此部分](../building-journeys/update-profiles.md)。
+   > 有關&#x200B;**[!UICONTROL Update Profile]**&#x200B;活動的詳細資訊，請參閱[此部分](../building-journeys/update-profiles.md)。
 
 ## 使用csv檔案{#create-test-profiles-csv}建立測試設定檔
 
@@ -131,7 +163,7 @@ ht-degree: 2%
    ![](../assets/test-profiles-18.png)
 1. 將源csv欄位映射到架構欄位，然後按一下&#x200B;**完成**。
    ![](../assets/test-profiles-19.png)
-1. 資料匯入開始。 狀態會從&#x200B;**Processing**&#x200B;移至&#x200B;**Success**。 按一下右上角的&#x200B;**預覽資料集**。
+1. 資料匯入開始。 狀態會從&#x200B;**Processing**&#x200B;移至&#x200B;**Success**。 按一下右上方的&#x200B;**預覽資料集** 。
    ![](../assets/test-profiles-20.png)
 1. 檢查測試設定檔是否已正確新增。
    ![](../assets/test-profiles-21.png)
@@ -145,8 +177,7 @@ ht-degree: 2%
 
 您也可以透過API呼叫建立測試設定檔。 了解更多資訊，請參閱此[page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)。
 
-您必須使用包含「設定檔測試詳細資料」的設定檔結構混合。 testProfile旗標是此混合的一部分。
-
+您必須使用包含「設定檔測試詳細資料」欄位群組的設定檔結構。 testProfile標幟是此欄位群組的一部分。
 建立設定檔時，請務必傳遞值：testProfile = true。
 
 請注意，您也可以更新現有的設定檔，將其testProfile標幟變更為「true」。
