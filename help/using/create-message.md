@@ -5,7 +5,7 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 4%
@@ -13,8 +13,6 @@ ht-degree: 4%
 ---
 
 # 建立訊息 {#create-message}
-
-![](assets/do-not-localize/badge.png)
 
 可從左側導覽的&#x200B;**[!UICONTROL Messages]**&#x200B;快捷鍵取得訊息。 會列出所有訊息，依發佈日期（針對已發佈訊息）或建立日期（針對草稿訊息）排序。
 
