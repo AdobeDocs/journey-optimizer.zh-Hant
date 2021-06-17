@@ -5,16 +5,14 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ad8648c3fe98caa1d6800ad3664c35c2c6f676f0
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '691'
+ht-degree: 87%
 
 ---
 
 # 管理選擇退出 {#consent}
-
-![](assets/do-not-localize/badge.png)
 
 使用 [!DNL Journey Optimizer] 追蹤收件者的通訊同意，並透過管理其偏好和訂閱來瞭解他們想要如何與您的品牌互動。<!--Their preferences and subscriptions are handled through Consent management.-->
 
@@ -130,6 +128,18 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 ```
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
+
+## 在標題{#unsubscribe-email}中取消訂閱連結
+
+如果收件者的電子郵件用戶端軟體支援在電子郵件標題中顯示取消訂閱連結，則隨[!DNL Journey Optimizer]傳送的電子郵件會自動包含此連結。
+
+例如，取消訂閱連結在Gmail中的顯示如下：
+
+![](assets/unsubscribe-email.png)
+
+如果收件者按一下此連結，則會立即選擇退出對應的設定檔，並以Experience Platform更新此選項。
+
+從標題按一下取消訂閱連結，與在電子郵件內容中按一下取消訂閱連結的作用相同。 進一步了解[本區段](#opt-out-management)中的選擇退出管理。
 
 ## 推播選擇退出管理 {#push-opt-out-management}
 
