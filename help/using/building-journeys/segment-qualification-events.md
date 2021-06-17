@@ -5,16 +5,14 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8bcc1721f0d451e386b1fa0c5972c783ced01c7f
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 2%
+source-wordcount: '791'
+ht-degree: 1%
 
 ---
 
-# 區段資格事件 {#segment-qualification}
-
-![](../assets/do-not-localize/badge.png)
+# 區段資格事件{#segment-qualification}
 
 ## 關於區段資格事件{#about-segment-qualification}
 
@@ -31,7 +29,7 @@ ht-degree: 2%
 >如果將選取的區段串流化，屬於此區段的個人可能會即時進入歷程。 如果區段為批次，新符合此區段資格的人員可能會在Adobe Experience Platform上執行區段計算時進入歷程。
 
 
-1. 展開&#x200B;**[!UICONTROL Events]**&#x200B;類別，並將&#x200B;**[!UICONTROL Segment qualification]**&#x200B;活動拖曳至畫布中。
+1. 展開&#x200B;**[!UICONTROL Events]**&#x200B;類別，並將&#x200B;**[!UICONTROL Segment Qualification]**&#x200B;活動拖曳至畫布中。
 
    ![](../assets/segment5.png)
 
@@ -67,11 +65,13 @@ ht-degree: 2%
 * 資格時間戳記
 * 區段id
 
-在&#x200B;**[!UICONTROL Segment qualification]**&#x200B;活動之後的條件或動作中使用運算式編輯器時，您可以存取&#x200B;**[!UICONTROL SegmentQualification]**&#x200B;節點。 您可以在&#x200B;**[!UICONTROL Last qualification time]**&#x200B;和&#x200B;**[!UICONTROL status]**（輸入或退出）之間進行選擇。
+在&#x200B;**[!UICONTROL Segment Qualification]**&#x200B;活動之後的條件或動作中使用運算式編輯器時，您可以存取&#x200B;**[!UICONTROL SegmentQualification]**&#x200B;節點。 您可以在&#x200B;**[!UICONTROL Last qualification time]**&#x200B;和&#x200B;**[!UICONTROL status]**（輸入或退出）之間進行選擇。
 
 請參閱[條件活動](../building-journeys/condition-activity.md#about_condition)。
 
 ![](../assets/segment8.png)
+
+包含區段資格事件的新歷程會在您發佈後10分鐘內運作。 此時間間隔對應於專用服務的快取刷新間隔。 因此，您必須等待10分鐘才能使用此歷程。
 
 ## 最佳做法 {#best-practices-segments}
 
