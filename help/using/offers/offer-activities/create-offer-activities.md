@@ -5,7 +5,7 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 21476691c6e5c5a2f8c5e36a494206fc9779c9d2
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 4%
@@ -24,10 +24,10 @@ ht-degree: 4%
 
 建立決策之前，請確定下列元件已在選件資料庫中建立：
 
-* [版位](../offer-library/creating-placements.md),
-* [集合](../offer-library/creating-collections.md),
-* [個人化優惠](../offer-library/creating-personalized-offers.md),
-* [遞補優惠](../offer-library/creating-fallback-offers.md).
+* [版位](../offer-library/creating-placements.md)
+* [集合](../offer-library/creating-collections.md)
+* [個人化優惠](../offer-library/creating-personalized-offers.md)
+* [遞補優惠](../offer-library/creating-fallback-offers.md)
 
 ## 建立決策{#create-activity}
 
@@ -37,7 +37,7 @@ ht-degree: 4%
 
    ![](../../assets/activities-name.png)
 
-## 添加決策{#add-decisions}
+## 新增優惠方案 {#add-offers}
 
 1. 從清單中拖放版位以將其新增至決策，然後按一下&#x200B;**[!UICONTROL Add collection]**。
 
