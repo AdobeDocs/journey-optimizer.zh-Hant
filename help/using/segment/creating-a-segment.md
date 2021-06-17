@@ -5,7 +5,7 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 6639630c4049e36904ce722759320f276799d8f3
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 6%
@@ -38,10 +38,11 @@ ht-degree: 6%
 
    在此範例中，我們需要仰賴&#x200B;**Attributes**&#x200B;和&#x200B;**Events**&#x200B;欄位來建立區段：
 
-   * **屬性**:住在亞特蘭大，舊金山或西雅圖的人，1980年後出生，
-   * **事件**:過去7天內開啟Luma應用程式，然後在開啟應用程式後2小時內購買的設定檔。
+   * **屬性**:1980年後出生在亞特蘭大、舊金山或西雅圖的個人檔案
 
       ![](../assets/add-attributes.png)
+
+   * **事件**:過去7天內開啟Luma應用程式，然後在開啟應用程式後2小時內購買的設定檔。
 
       ![](../assets/add-events.png)
 
