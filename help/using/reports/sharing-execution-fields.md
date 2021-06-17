@@ -5,18 +5,16 @@ feature: 報告
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '324'
 ht-degree: 13%
 
 ---
 
 # journeyStep 事件動作執行欄位 {#sharing-execution-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-此混合將由journeyStepEvent和journeyStepProfileEvent共用。
+此欄位群組將由journeyStepEvent和journeyStepProfileEvent共用。
 
 如果步驟有要處理的動作，則這些欄位將會新增至事件裝載。
 
