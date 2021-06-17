@@ -1,26 +1,24 @@
 ---
-title: 更新設定檔
+title: 更新配置檔案
 description: 了解如何在歷程中使用更新設定檔活動
 feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
 
 ---
 
-# 更新設定檔 {#update-profile}
+# 更新配置檔案{#update-profile}
 
-![](../assets/do-not-localize/badge.png)
-
-**[!UICONTROL Update profile]**&#x200B;動作活動可讓您使用來自事件、資料來源或使用特定值的資訊更新現有的Adobe Experience Platform設定檔。
+**[!UICONTROL Update Profile]**&#x200B;動作活動可讓您使用來自事件、資料來源或使用特定值的資訊更新現有的Adobe Experience Platform設定檔。
 
 ## 重要附註
 
-* **更新設定檔**&#x200B;動作只能用於從具有命名空間的事件開始的歷程中。
+* **更新設定檔**&#x200B;動作只能用於從具有命名空間的事件開始的歷程。
 * 動作只會更新現有欄位，不會建立新的設定檔欄位。
 * 您無法使用&#x200B;**更新設定檔**&#x200B;動作來產生體驗事件，例如購買。
 * 如同任何其他動作，您可以在發生錯誤或逾時的情況下定義替代路徑，且無法同時放置兩個動作。
@@ -39,7 +37,7 @@ ht-degree: 1%
 
 1. 從事件開始，設計您的歷程。 請參閱此[節](../building-journeys/journey.md)。
 
-1. 在浮動視窗的&#x200B;**Action**&#x200B;區段中，將&#x200B;**Update profile**&#x200B;活動拖曳至畫布中。
+1. 在浮動視窗的&#x200B;**Action**&#x200B;區段中，將&#x200B;**Update Profile**&#x200B;活動拖曳至畫布中。
 
    ![](../assets/profileupdate0.png)
 
