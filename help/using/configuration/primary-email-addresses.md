@@ -15,21 +15,21 @@ feature: 應用程式設定
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '119'
 ht-degree: 7%
 
 ---
 
 
-# 決定設定檔的主要位址
+# 變更主要電子郵件地址
 
 當您定位設定檔時，資料庫中可能會有數個電子郵件地址（個人、專業電子郵件地址等）。
 
 透過Journey Optimizer，您可以決定要從設定檔服務使用的電子郵件地址，並在有數個地址可用時排定優先順序。 要執行此操作，請依照下列步驟執行：
 
-1. 存取&#x200B;**[!UICONTROL Channels]** / **[!UICONTROL General]**&#x200B;功能表。
+1. 訪問&#x200B;**[!UICONTROL Channels]** `>` **[!UICONTROL General]**&#x200B;菜單。
 1. 依預設，目前用於判斷設定檔電子郵件地址的欄位會顯示在此畫面中。 按一下&#x200B;**[!UICONTROL Edit]**&#x200B;加以變更。
 
    ![](../assets/primary-address.png)
