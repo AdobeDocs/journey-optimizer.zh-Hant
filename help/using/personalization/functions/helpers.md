@@ -5,7 +5,7 @@ feature: 個性化
 topic: 個性化
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 4%
@@ -14,9 +14,6 @@ ht-degree: 4%
 
 
 # Helpers {#gs-helpers}
-
-![](../../assets/do-not-localize/badge.png)
-
 
 ## 條件{#if-function}
 
