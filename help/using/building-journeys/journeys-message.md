@@ -5,16 +5,14 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '265'
 ht-degree: 3%
 
 ---
 
 # 在歷程中新增訊息
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] 訊息功能是內建的，您只需要設計內容並發佈訊息即可。請參閱[本節](../get-started-content.md)。然後，您只需在歷程中新增使用Journey Optimizer設計的推送或電子郵件訊息。
 
@@ -38,7 +36,7 @@ ht-degree: 3%
 
    ![](../assets/jo-message3.png)
 
-1. 選擇消息，然後按一下&#x200B;**選擇**。 您也可以按一下&#x200B;**Create new**&#x200B;直接從此螢幕建立新消息。
+1. 選擇消息，然後按一下&#x200B;**選擇**。 您也可以按一下&#x200B;**Create message**&#x200B;直接從此螢幕建立新郵件。
 
    ![](../assets/jo-message4-ter.png)
 
@@ -48,10 +46,10 @@ ht-degree: 3%
 
 1. 將後續步驟新增至您的歷程。
 
-## 通道參數
+## 電子郵件參數和推播參數
 
-將顯示&#x200B;**Channel**&#x200B;參數。 這些欄位為唯讀。 建立訊息時會執行此設定。 請參閱[本節](../get-started-content.md)。
+**[!UICONTROL Email parameters]**&#x200B;和&#x200B;**[!UICONTROL Push parameters]**&#x200B;區段顯示唯讀欄位。 您通常會在建立訊息時執行此設定。 請參閱[本節](../get-started-content.md)。
 
 ![](../assets/jo-message4.png)
 
-您可以使用欄位右側的&#x200B;**啟用編輯欄位**&#x200B;圖示來強制執行特定值。 這可用於測試用途。 例如，對於電子郵件，您可以新增您的電子郵件地址。 發佈歷程時，會傳送電子郵件給您。
+若要強制指定值，您可以使用欄位右側的&#x200B;**啟用參數override**&#x200B;圖示。 此選項可能適用於測試用途。 例如，對於電子郵件，您可以新增您的電子郵件地址。 發佈歷程後，會傳送電子郵件給您。
