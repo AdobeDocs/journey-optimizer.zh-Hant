@@ -5,10 +5,10 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 4%
+source-wordcount: '252'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 4%
 
 ![](../../assets/offer-priority.png)
 
-此外，Journey Optimizer可讓您建立&#x200B;**排名公式**。 這些公式可決定應先針對指定版位呈現哪個優惠方案，而非考慮優惠方案的優先順序分數。 例如，您可以提升結束日期現在起不到24小時之所有選件的優先順序，或如果設定檔的興趣點為「執行中」，則提升「執行中」類別的選件。
+此外，Journey Optimizer可讓您建立&#x200B;**排名公式**。 這些公式可決定應先針對指定版位呈現哪個優惠方案，而非考慮優惠方案的優先順序分數。
+
+例如，您可以提升結束日期現在起不到24小時之所有選件的優先順序，或如果設定檔的興趣點為「執行中」，則提升「執行中」類別的選件。
 
 有關如何建立排名公式的詳細資訊，請參閱[此區段](../offer-library/create-ranking-formulas.md)。
 
@@ -28,14 +30,18 @@ ht-degree: 4%
 
 建立排名公式後，您可以將其指派給決策中的版位。 若要這麼做，請遵循下列步驟：
 
-* 建立決策或編輯現有決策，然後建立將包含您選件的版位（請參閱[建立決策](../offer-activities/create-offer-activities.md)）。
+1. 建立決策或編輯現有決策，然後建立將包含您選件的版位（請參閱[建立決策](../offer-activities/create-offer-activities.md)）。
 
-* 對於每個位置，從下拉式清單中選取&#x200B;**[!UICONTROL Ranking]**，然後按一下&#x200B;**[!UICONTROL Add ranking]**。
+1. 對於每個位置，從下拉式清單中選取&#x200B;**[!UICONTROL Ranking]**。
+
+1. 按一下「**[!UICONTROL Add ranking]**」。
 
    ![](../../assets/offer-activity-ranking.png)
 
-* 選擇所需的排名公式，然後按一下&#x200B;**[!UICONTROL Select]**。
+1. 選擇所需的排名公式，然後按一下&#x200B;**[!UICONTROL Select]**。
 
    ![](../../assets/ranking-selection.png)
 
-排名公式現在與版位相關聯。 如果多個優惠方案符合在此版位中呈現的資格，決策會使用排名公式的公式來計算要先傳送哪個優惠方案。
+排名公式現在與版位相關聯。
+
+如果多個優惠方案符合在此版位中呈現的資格，決策會使用排名公式的公式來計算要先傳送哪個優惠方案。
