@@ -5,7 +5,7 @@ feature: 個性化
 topic: 個性化
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 2%
@@ -14,8 +14,6 @@ ht-degree: 2%
 
 
 # 模板語言和輔助功能 {#functionsL}
-
-![](../../assets/do-not-localize/badge.png)
 
 使用[!DNL Journey Optimizer]範本語言對資料執行操作，例如計算、資料格式或轉換、條件，以及在個人化內容中處理這些操作。 在[本頁面](../personalization-syntax.md)中了解個人化語法准則。
 
