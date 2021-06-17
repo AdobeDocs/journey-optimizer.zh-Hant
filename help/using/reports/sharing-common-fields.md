@@ -5,18 +5,16 @@ feature: 報告
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '585'
 ht-degree: 9%
 
 ---
 
 # journeysteps事件公用欄位{#sharing-common-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-此混合將由journeyStepEvent和journeyStepProfileEvent共用。
+此欄位群組將由journeyStepEvent和journeyStepProfileEvent共用。
 
 這些是[!DNL Journey Optimizer]傳送至Adobe Experience Platform的通用XDM欄位。 歷程中處理的每個步驟都會傳送通用欄位。 自訂動作和擴充會使用更特定的欄位。
 
