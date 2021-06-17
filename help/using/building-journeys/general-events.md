@@ -6,7 +6,7 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 285942ec51859a4cea888d9974f79f52acf3aabf
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
@@ -14,8 +14,6 @@ ht-degree: 2%
 ---
 
 # 一般事件 {#section_ofg_jss_dgb}
-
-![](../assets/do-not-localize/badge.png)
 
 對於此類型的事件，您只能新增標籤和說明。 無法編輯其餘的配置。 由技術使用者執行。 請參閱[本頁](../event/about-events.md)。
 
@@ -31,11 +29,11 @@ ht-degree: 2%
 
 若要設定事件的逾時，請執行下列步驟：
 
-1. 從事件屬性中啟動&#x200B;**[!UICONTROL Enable the event timeout]**&#x200B;選項。
+1. 從事件屬性中啟動&#x200B;**[!UICONTROL Define the event timeout]**&#x200B;選項。
 
 1. 指定歷程等待事件的時間長度。
 
-1. 如果要在指定超時內未收到任何事件時將個人發送到超時路徑，請啟用&#x200B;**[!UICONTROL Set the timeout path]**&#x200B;選項。 如果未啟用此選項，一旦逾時，個別的歷程就會結束。
+1. 如果要在指定超時內未收到任何事件時將個人發送到超時路徑，請啟用&#x200B;**[!UICONTROL Set a timeout path]**&#x200B;選項。 如果未啟用此選項，一旦逾時，個別的歷程就會結束。
 
    ![](../assets/event-timeout.png)
 
