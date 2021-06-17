@@ -5,16 +5,14 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ea005587fdcdf3cb07da5d7cbd6080c12909d458
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1620'
 ht-degree: 2%
 
 ---
 
 # 測試歷程{#testing_the_journey}
-
-![](../assets/do-not-localize/badge.png)
 
 您必須先解決所有錯誤（若有），才能測試您的歷程。 請參閱[本節](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb)。
 
@@ -61,6 +59,7 @@ ht-degree: 2%
 * 當您停用測試模式時，它會從過去或目前進入該模式的所有使用者處搶佔歷程。 也會清除報表。
 * 您可以視需要多次啟用/停用測試模式。
 * 啟動測試模式時，您無法修改您的歷程。 在測試模式中時，您可以直接發佈歷程，不需要先停用測試模式。
+* 到達分割時，一律會選取頂端分支。 如果希望測試選擇不同的路徑，則可以重新組織拆分分支的位置。
 
 ## 引發事件 {#firing_events}
 
