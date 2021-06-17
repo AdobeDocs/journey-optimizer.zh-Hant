@@ -5,7 +5,7 @@ feature: 資料來源
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 10%
@@ -13,8 +13,6 @@ ht-degree: 10%
 ---
 
 # Adobe Experience Platform 資料來源 {#concept_zrb_nqt_52b}
-
-![](../assets/do-not-localize/badge.png)
 
 Adobe Experience Platform資料來源定義與即時客戶個人檔案服務的連線。 此資料來源已內建並預先設定。 無法刪除。 此資料來源的設計目的，是從即時客戶個人檔案服務中擷取和使用資料（例如，檢查進入歷程的人員是否為女性）。 它可讓您使用設定檔資料和體驗事件資料。 如需即時客戶設定檔服務的詳細資訊，請參閱此[page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)。
 
