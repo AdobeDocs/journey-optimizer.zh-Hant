@@ -5,16 +5,14 @@ feature: 事件
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '821'
 ht-degree: 15%
 
 ---
 
 # 設定業務事件 {#configure-a-business-event}
-
-![](../assets/do-not-localize/badge.png)
 
 與單一事件不同，業務事件不會連結至特定設定檔。 事件ID類型一律為規則型。 有關[此部分](../event/about-events.md)中業務事件的詳細資訊。
 
@@ -37,11 +35,11 @@ ht-degree: 15%
 
 以下是設定業務事件的前幾個步驟：
 
-1. 在「管理」部分，瀏覽至&#x200B;**[!UICONTROL Configurations]**，然後按一下&#x200B;**[!UICONTROL Events]**。 畫面隨即顯示事件清單。
+1. 在「管理」菜單部分，選擇&#x200B;**[!UICONTROL Configurations]**。 在&#x200B;**[!UICONTROL Events]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Manage]**。 畫面隨即顯示事件清單。
 
    ![](../assets/jo-event1.png)
 
-1. 按一下 **[!UICONTROL Add]** 以建立新事件。事件設定窗格會在畫面右側開啟。
+1. 按一下 **[!UICONTROL Create Event]** 以建立新事件。事件設定窗格會在畫面右側開啟。
 
    ![](../assets/jo-event2.png)
 
@@ -82,7 +80,7 @@ ht-degree: 15%
 
 有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯之人員的金鑰。 裝載以Experience CloudXDM欄位定義為基礎。 如需XDM的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)。
 
-1. 從清單中選取XDM架構，然後按一下&#x200B;**[!UICONTROL Payload]**&#x200B;欄位或&#x200B;**[!UICONTROL Edit]**&#x200B;圖示。
+1. 從清單中選取XDM架構，然後按一下&#x200B;**[!UICONTROL Fields]**&#x200B;欄位或&#x200B;**[!UICONTROL Edit]**&#x200B;圖示。
 
    ![](../assets/journey8-business.png)
 
@@ -92,11 +90,9 @@ ht-degree: 15%
 
 1. 選取您要從事件接收的欄位。 這些是業務使用者在歷程中將利用的欄位。
 
-   ![](../assets/journey10-business.png)
-
 1. 選擇完所需欄位後，按一下&#x200B;**[!UICONTROL Save]**&#x200B;或按&#x200B;**[!UICONTROL Enter]**&#x200B;鍵。
 
-   選定欄位的數量顯示在&#x200B;**[!UICONTROL Payload]**&#x200B;欄位中。
+   選定欄位的數量顯示在&#x200B;**[!UICONTROL Fields]**&#x200B;欄位中。
 
    ![](../assets/journey12-business.png)
 
