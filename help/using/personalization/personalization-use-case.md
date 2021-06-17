@@ -5,9 +5,9 @@ feature: 個性化
 topic: 個性化
 role: Data Engineer
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '604'
 ht-degree: 2%
 
 ---
@@ -15,15 +15,13 @@ ht-degree: 2%
 
 # 個人化使用實例 {#personalization-use-case}
 
-![](../assets/do-not-localize/badge.png)
-
 在此使用案例中，您將了解如何在單一推播通知訊息中使用多種類型的個人化。 將使用三種類型的個人化：
 
 * **設定檔**:根據設定檔欄位的訊息個人化
 * **選件決策**:根據優惠方案決策變數進行個人化
 * **內容**:根據歷程中的內容資料進行個人化
 
-此範例的目標是每次更新客戶訂單時推送事件至Journey Optimizer。 接著會傳送推播通知給客戶，其中包含訂單和個人化優惠方案的資訊。
+此範例的目標是每次更新客戶訂單時推送事件至[!DNL Journey Optimizer]。 接著會傳送推播通知給客戶，其中包含訂單和個人化優惠方案的資訊。
 
 針對此使用案例，需要下列必要條件：
 
