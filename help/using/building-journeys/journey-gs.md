@@ -5,16 +5,14 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 8%
+source-wordcount: '1703'
+ht-degree: 7%
 
 ---
 
 # 開始使用歷程{#jo-quick-start}
-
-![](../assets/do-not-localize/badge.png)
 
 ## 先決條件
 
@@ -22,7 +20,7 @@ ht-degree: 8%
 
 1. **設定事件**:如果您想要在收到事件時一直觸發歷程，則需要設定事件。您可以定義預期的資訊，以及處理資訊的方式。 此步驟由&#x200B;**技術使用者**&#x200B;執行。[閱讀全文](../event/about-events.md).
 
-   ![](../assets/jo-event7.png)
+   ![](../assets/jo-event7bis.png)
 
 1. **建立區段**:您的歷程也可以監聽Adobe Experience Platform區段，以便將訊息批次傳送至指定的一組設定檔。為此，您需要建立區段。 [閱讀全文](../segment/about-segments.md).
 
@@ -42,11 +40,11 @@ ht-degree: 8%
 
 以下是透過歷程傳送訊息的主要步驟：
 
-1. 在「歷程管理」區段中，按一下&#x200B;**[!UICONTROL Journeys]**。 歷程清單隨即顯示。
+1. 在「歷程管理」功能表區段中，按一下&#x200B;**[!UICONTROL Journeys]**。 歷程清單隨即顯示。
 
    ![](../assets/interface-journeys.png)
 
-1. 按一下&#x200B;**[!UICONTROL Create]**&#x200B;以建立新歷程。
+1. 按一下&#x200B;**[!UICONTROL Create Journey]**&#x200B;以建立新歷程。
 
 1. 在右側顯示的設定窗格中，編輯歷程的屬性。了解更多[小節](journey-gs.md#change-properties)。
 
@@ -82,7 +80,7 @@ ht-degree: 8%
 
 依預設，新歷程允許重新進入。 您可以取消勾選「一次性」歷程的選項，例如當某人進入商店時，如果您想要提供一次性禮品。 在此情況下，您不會希望客戶能夠重新進入歷程並再次收到優惠方案。
 
-歷程「結束」時，其狀態會是&#x200B;**[!UICONTROL Closed (no entrance)]**。 歷程將停止讓新人進入歷程。 已在歷程中的人員會正常完成歷程。
+歷程「結束」時，其狀態會是&#x200B;**[!UICONTROL Closed]**。 歷程將停止讓新人進入歷程。 已在歷程中的人員會正常完成歷程。
 
 在30天的預設全域逾時後，歷程會切換為&#x200B;**已完成**&#x200B;狀態。 請參閱此[節](../building-journeys/journey-gs.md#global_timeout)。
 
@@ -114,6 +112,32 @@ ht-degree: 8%
 
 有關時區管理的詳細資訊，請參閱本頁](../building-journeys/timezone-management.md)。[
 
+### 突發模式 {#burst}
+
+突發模式是一種付費附加元件，它允許以非常快的速度發送大量推送訊息。 它可用於包含讀取區段和簡單推送訊息的簡單歷程。 當郵件傳送延遲是業務關鍵型時，如果您想在行動電話上傳送緊急推送警報，例如向已安裝您的新聞頻道應用程式的使用者傳送突發新聞，則會使用突發。
+
+限制:
+
+* 歷程必須從讀取區段開始。 不允許事件。
+* 下一步必須是推送訊息。 不允許任何其他活動或步驟（可選的結束活動除外）:
+   * 僅推播通道
+   * 訊息中不允許任何個人化
+   * 消息必須小(&lt;2KB)
+
+重要注意事項：
+
+如果任何需求未填滿，歷程中將無法使用突發模式。
+
+若要啟用「突發」模式，請開啟您的歷程，然後按一下右上角的鉛筆圖示，以存取歷程的屬性。 然後，激活&#x200B;**啟用突發模式**&#x200B;切換。
+
+![](../assets/burst.png)
+
+如果修改突發歷程並添加與突發不相容的活動（消息、任何其他操作、事件等），則突發模式將被停用。 將顯示一條消息。
+
+![](../assets/burst2.png)
+
+然後正常測試並發佈您的歷程。 測試模式消息不通過突發模式發送。
+
 ## 結束歷程
 
 歷程可能會因為兩個原因而結束：
@@ -129,7 +153,7 @@ ht-degree: 8%
 * 已完成執行的單次區段型歷程。
 * 上次出現循環區段型歷程後。
 
-歷程關閉時（基於上述任何原因），其狀態將為&#x200B;**[!UICONTROL Closed (no entrance)]**。 歷程將停止讓新人進入歷程。 已在歷程中的人員會正常完成歷程。 在30天的預設全域逾時後，歷程會切換為&#x200B;**已完成**&#x200B;狀態。 請參閱此[節](../building-journeys/journey-gs.md#global_timeout)。
+歷程關閉時（基於上述任何原因），其狀態將為&#x200B;**[!UICONTROL Closed]**。 歷程將停止讓新人進入歷程。 已在歷程中的人員會正常完成歷程。 在30天的預設全域逾時後，歷程會切換為&#x200B;**已完成**&#x200B;狀態。 請參閱此[節](../building-journeys/journey-gs.md#global_timeout)。
 
 如果您需要停止歷程中所有個人的進度，您可以加以停止。 停止歷程會逾時歷程中的所有個人。
 
@@ -145,13 +169,13 @@ ht-degree: 8%
 
 您可以手動關閉歷程，以確保已進入歷程的客戶可以完成其路徑，但新使用者無法進入歷程。
 
-關閉時，歷程的狀態會是&#x200B;**[!UICONTROL Closed (no entrance)]**。 在30天的預設全域逾時後，歷程會切換為&#x200B;**已完成**&#x200B;狀態。 請參閱此[節](../building-journeys/journey-gs.md#global_timeout)。
+關閉時，歷程的狀態會是&#x200B;**[!UICONTROL Closed]**。 在30天的預設全域逾時後，歷程會切換為&#x200B;**已完成**&#x200B;狀態。 請參閱此[節](../building-journeys/journey-gs.md#global_timeout)。
 
 無法重新啟動或刪除已關閉的歷程版本。 您可以建立新版本或加以複製。 只能刪除已完成的歷程。
 
-您可以在將游標暫留在歷程清單中的歷程上時按一下&#x200B;**[!UICONTROL Close to new entrances]**&#x200B;以關閉歷程。
+若要從歷程清單關閉歷程，請按一下位於歷程名稱右側的&#x200B;**[!UICONTROL Ellipsis]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL Close to new entrances]**。
 
-![](../assets/do-not-localize/journey-finish-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 您也可以：
 
@@ -171,9 +195,9 @@ ht-degree: 8%
 
 停止時，歷程的狀態會是&#x200B;**[!UICONTROL Stopped]**。
 
-您可以在將游標暫留在歷程清單中的歷程上時按一下&#x200B;**[!UICONTROL Stop]**&#x200B;以停止歷程（例如，如果行銷人員發現歷程鎖定了錯誤的對象，或應傳送訊息的自訂動作無法正確運作）。
+例如，如果行銷人員發現歷程鎖定了錯誤的對象或傳送訊息的自訂動作無法正確運作，您就可以停止歷程。 若要從歷程清單中停止歷程，請按一下位於歷程名稱右側的&#x200B;**[!UICONTROL Ellipsis]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL Stop]**。
 
-![](../assets/do-not-localize/journey-stop-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 您也可以：
 
