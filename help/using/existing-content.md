@@ -5,7 +5,7 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 10%
@@ -13,8 +13,6 @@ ht-degree: 10%
 ---
 
 # 匯入或編碼您的電子郵件內容 {#existing-content}
-
-![](assets/do-not-localize/badge.png)
 
 Journey Optimizer可讓您匯入現有的HTML內容來設計電子郵件。 此內容可以是原始HTML代碼，或來自現有HTML檔案或郵遞區號資料夾的內容。
 
@@ -57,7 +55,6 @@ Journey Optimizer可讓您匯入現有的HTML內容來設計電子郵件。 此�
 1. 程式碼準備就緒後，按一下&#x200B;**[!UICONTROL Save]**，然後返回訊息建立畫面以完成訊息。
 
    ![](assets/code-editor-save.png)
-
 
 ## 導入HTML {#import-html-content-from-file}
 
