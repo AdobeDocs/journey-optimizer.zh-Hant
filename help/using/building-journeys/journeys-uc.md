@@ -5,18 +5,16 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 62d83f69ebf50f36688e3db956bb3860a468c2d6
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '838'
 ht-degree: 2%
 
 ---
 
-# 歷程使用案例
+# 傳送多頻道訊息
 
-![](../assets/do-not-localize/badge.png)
-
-本節提供結合「讀取」區段、事件、反應事件以及電子郵件/推送訊息的使用案例。
+本節提供結合「讀取區段」、事件、反應事件以及電子郵件/推送訊息的使用案例。
 
 ![](../assets/jo-uc1.png)
 
@@ -44,7 +42,9 @@ ht-degree: 2%
 
 如需區段的詳細資訊，請參閱此[page](../segment/about-segments.md)。
 
-1. 在&#x200B;**[!UICONTROL Segments]**&#x200B;菜單中，按一下&#x200B;**[!UICONTROL Create segment]**。
+1. 從「客戶」菜單部分，選擇&#x200B;**[!UICONTROL Segments]**。
+
+1. 按一下位於區段清單右上角的&#x200B;**[!UICONTROL Create segment]**&#x200B;按鈕。
 
 1. 在&#x200B;**[!UICONTROL Segment properties]**&#x200B;窗格中，輸入段的名稱。
 
@@ -62,7 +62,7 @@ ht-degree: 2%
 
 為此，我們使用規則型事件。 有關事件的詳細資訊，請參閱此[page](../event/about-events.md)。
 
-1. 在「管理」部分，瀏覽至&#x200B;**[!UICONTROL Configurations]**，然後按一下&#x200B;**[!UICONTROL Events]**。 按一下 **[!UICONTROL Add]** 以建立新事件。
+1. 在「管理」菜單部分，選擇&#x200B;**[!UICONTROL Configurations]**，然後按一下&#x200B;**[!UICONTROL Events]**。 按一下 **[!UICONTROL Create event]** 以建立新事件。
 
 1. 輸入事件名稱。
 
@@ -72,7 +72,7 @@ ht-degree: 2%
 
 1. 在&#x200B;**[!UICONTROL Event ID condition]**&#x200B;欄位中，定義系統用來識別觸發歷程之事件的條件。 例如，您可以新增`purchaseMessage`欄位並定義下列規則：`purchaseMessage="thank you"`
 
-1. 定義&#x200B;**[!UICONTROL Namespace]**&#x200B;和&#x200B;**[!UICONTROL Key]**。
+1. 定義&#x200B;**[!UICONTROL Namespace]**&#x200B;和&#x200B;**[!UICONTROL Profile Identifier]**。
 
 1. 按一下「**[!UICONTROL Save]**」。
 
