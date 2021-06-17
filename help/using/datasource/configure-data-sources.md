@@ -5,16 +5,14 @@ feature: 資料來源
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '691'
 ht-degree: 8%
 
 ---
 
 # 設定資料來源 {#configure-data-source}
-
-![](../assets/do-not-localize/badge.png)
 
 以下是主要的資料來源設定步驟：
 
@@ -22,9 +20,7 @@ ht-degree: 8%
 >
 >資料來源設定一律會由&#x200B;**技術使用者**&#x200B;執行。
 
-1. 選擇&#x200B;**[!UICONTROL Admin]** / **[!UICONTROL Data Sources]**&#x200B;菜單。
-
-   畫面隨即顯示資料來源。有關介面的詳細資訊，請參閱[此頁](../user-interface.md)。
+1. 在「管理」菜單部分，選擇&#x200B;**[!UICONTROL Configurations]**。 在&#x200B;**[!UICONTROL Data Sources]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Manage]**。 畫面隨即顯示資料來源。有關介面的詳細資訊，請參閱[此頁](../user-interface.md)。
 
    ![](../assets/journey18.png)
 
