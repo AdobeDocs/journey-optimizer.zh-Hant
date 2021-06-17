@@ -5,7 +5,7 @@ feature: 個性化
 topic: 個性化
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 5%
@@ -13,8 +13,6 @@ ht-degree: 5%
 ---
 
 # 陣列和清單函式 {#arrays}
-
-![](../../assets/do-not-localize/badge.png)
 
 使用這些函式可讓您更輕鬆地與陣列、清單和字串互動。
 
