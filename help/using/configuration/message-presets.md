@@ -5,9 +5,9 @@ feature: 應用程式設定
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
@@ -19,8 +19,10 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
-> 訊息預設集設定僅限於歷程管理員。 [了解更多](../administration/ootb-product-profiles.md#journey-administrator)
-
+> * 訊息預設集設定僅限於歷程管理員。 [了解更多](../administration/ootb-product-profiles.md#journey-administrator)
+   >
+   > 
+* 您必須先執行電子郵件和推送設定步驟，才能建立訊息預設集。
 
 
 在配置消息預設集後，從&#x200B;**[!UICONTROL Presets]**&#x200B;清單建立消息時，可以選擇它們。
@@ -33,11 +35,9 @@ ht-degree: 1%
 
    ![](../assets/preset-create.png)
 
-
 1. 輸入預設集的名稱和說明（選用），然後選取要設定的通道。
 
    ![](../assets/preset-general.png)
-
 
    >[!NOTE]
    >
@@ -57,13 +57,27 @@ ht-degree: 1%
    * 選擇要與預設集關聯的IP池。 [了解更多](ip-pools.md)
    * 輸入使用預設集傳送之電子郵件的標題參數。
 
+      >[!CAUTION]
+      >
+      >除了「**回覆（轉寄電子郵件）**」欄位，電子郵件地址網域必須使用目前選取的[委派子網域](about-subdomain-delegation.md)。
+
+      * **[!UICONTROL Sender name]**:寄件者的名稱，例如您的品牌名稱。
+
+      * **[!UICONTROL Sender email]**:您要用於通訊的電子郵件地址。例如，如果委派的子網域為&#x200B;*marketing.luma.com*，您可以使用&#x200B;*contact@marketing.luma.com*。
+
+      * **[!UICONTROL Reply to (name)]**:收件者按一下其電子郵件用戶端軟體中的「 **** 重播」按鈕時將使用的名稱。
+
+      * **[!UICONTROL Reply to (email)]**:收件者按一下其電子郵件用戶端軟體中的「重 **** 復」按鈕時將使用的電子郵件地址。發送到此地址的電子郵件將轉發到以下提供的&#x200B;**[!UICONTROL Reply to (forward email)]**&#x200B;地址。 您必須使用在委派子網域上定義的位址(例如&#x200B;*reply@marketing.luma.com*)，否則會捨棄電子郵件。
+
+      * **[!UICONTROL Reply to (forward email)]**:所委派子網域 [!DNL Journey Optimizer] 收到的所有電子郵件都會轉送至此電子郵件地址。您可以指定任何地址，但委派子網域上定義的電子郵件地址除外。 例如，如果委派的子網域為&#x200B;*marketing.luma.com*，則禁止任何位址，例如&#x200B;*abc@marketing.luma.com*。
+
+      * **[!UICONTROL Error email]**:在傳送數天郵件（非同步退信）後，ISP產生的所有錯誤都會在此位址上接收。
+
+      ![](../assets/preset-header.png)
+
       >[!NOTE]
       >
-      > * 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線`_`、點`.`和連字型大小`-`字元。
-         > 
-         > 
-      * 除了&#x200B;**回覆（轉寄電子郵件）**&#x200B;之外，電子郵件地址網域必須使用目前選取的子網域。
-
+      >名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線`_`、點`.`和連字型大小`-`字元。
 
 
 1. 配置&#x200B;**推播通知**&#x200B;設定。
@@ -86,7 +100,6 @@ ht-degree: 1%
 
    這些檢查包括由Adobe傳遞團隊執行的傳遞能力測試：
 
-
    * SPF驗證
    * DKIM驗證
    * MX記錄驗證
@@ -94,7 +107,6 @@ ht-degree: 1%
    * 主機檢查
    * IP池驗證
    * A/PTR記錄、t/m/res子域驗證
-
 
 1. 檢查成功後，訊息預設集會取得&#x200B;**[!UICONTROL Active]**&#x200B;狀態。 它已準備好用於傳送訊息。
 
