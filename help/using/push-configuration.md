@@ -1,64 +1,71 @@
 ---
 title: 推播通知設定
 description: 了解如何設定您的環境，以使用Journey Optimizer傳送推播通知
-hide: true
-hidefromtoc: true
 feature: 應用程式設定
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 1%
+source-wordcount: '1435'
+ht-degree: 3%
 
 ---
 
-# 設定推播通知通道{#push-notification-configuration}
+# 配置推播通知通道{#push-notification-configuration}
 
-![](assets/do-not-localize/badge.png)
+[!DNL Journey Optimizer] 可讓您建立歷程並傳送訊息給目標對象。開始使用[!DNL Journey Optimizer]傳送推播通知前，您必須確定已在行動應用程式、[!DNL Adobe Experience Platform]和[!DNL Adobe Experience Platform Launch]中部署設定和整合。 若要了解AdobeJourney Optimizer中的推播通知資料流程，請參閱[本頁面](push-gs.md)。
 
-開始使用[!DNL Journey Optimizer]傳送推播通知前，您必須先在[!DNL Adobe Experience Platform]和[!DNL Adobe Experience Platform Launch]中定義設定。
+## 開始之前
 
-## Adobe Experience Platform設定{#platform-settings}
+<!--
+### Check provisioning
 
-若要在[!DNL Adobe Experience Platform Launch]中設定您的行動應用程式，請遵循下列步驟：
+Your Adobe Experience Platform account must be provisioned to contain following schemas and datasets for push notification data flow to function correctly:
 
-1. [指派屬性和公司權利](#push-rights)
-1. [在Platform launch中新增行動應用程式的推播憑證](#push-credentials-launch)。
-1. [建立Edge](#edge-configuration) 設定，供擴充功 **[!UICONTROL Edge]** 能用來從行動裝置將自訂資料傳送至 [!DNL Adobe Experience Platform]。
-1. [設定Platform launch屬性](#launch-property)。
-1. [發佈屬性](#publish-property)。
-1. [設定ProfileDataSource](#configure-profiledatasource)。
+| Schema <br>Dataset                                                                       | Group of fields                                                                                                                                                                         | Operation                                                |
+| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| CJM Push Profile Schema <br>CJM Push Profile Dataset                                     | Push Notification Details<br>Adobe CJM ExperienceEvent - Message Profile Details<br>Adobe CJM ExperienceEvent - Message Execution Details<br>Application Details<br>Environment Details | Register Push Token                                      |
+| CJM Push Tracking Experience Event Schema<br>CJM Push Tracking Experience Event Dataset | Push Notification Tracking                                                                                                                                                              | Track interactions and provide data for the reporting UI |
+-->
 
-### 步驟1:分配屬性和公司權利{#push-rights}
+### 設定權限
 
-建立行動應用程式之前，您必須先確定您擁有或指派正確的使用者權限。
+建立行動應用程式之前，您必須先確定在&#x200B;**Adobe Experience Platform Launch**&#x200B;中擁有或指派正確的使用者權限。 進一步了解[Adobe Experience Platform Launch檔案](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html)。
 
-有關[!DNL Adobe Experience Platform Launch]的用戶管理的詳細資訊，請參閱[Platform launch文檔](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html#experience-cloud-permissions)。
+>[!CAUTION]
+>
+>推播設定必須由專家使用者執行。 根據您的實作模式和此實作中涉及的角色，您可能需要將完整的權限集指派給單一產品設定檔，或在應用程式開發人員與&#x200B;**Adobe Journey Optimizer**&#x200B;管理員之間共用權限。 深入了解[本檔案](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#platform-launch-permissions)中的&#x200B;**Adobe Experience Platform Launch**&#x200B;權限
 
-要分配屬性和公司權利，請執行以下操作：
+<!--ou need to your have access to perform following roles :
 
-1. 訪問[!DNL Admin Console]。
+* Manage Datastreams
+* Manage Client-side Properties
+* Manage App Configurations
+-->
+
+若要指派&#x200B;**Property**&#x200B;和&#x200B;**Company**&#x200B;權限，請遵循下列步驟：
+
+1. 訪問&#x200B;**[!DNL Admin Console]**。
 
 1. 從&#x200B;**[!UICONTROL Products]**&#x200B;標籤中，選擇&#x200B;**[!UICONTROL Adobe Experience Platform Launch]**&#x200B;卡。
 
    ![](assets/push_product_1.png)
 
-1. 選擇現有的&#x200B;**[!UICONTROL Product Profile]**&#x200B;或使用&#x200B;**[!UICONTROL New profile]**&#x200B;按鈕建立新的。 有關如何建立新&#x200B;**[!UICONTROL New profile]**&#x200B;的詳細資訊，請參閱[管理控制台檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui)。
+1. 選擇現有的&#x200B;**[!UICONTROL Product Profile]**&#x200B;或使用&#x200B;**[!UICONTROL New profile]**&#x200B;按鈕建立新的。 了解如何在[管理控制台檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui)中建立新的&#x200B;**[!UICONTROL New profile]**。
 
 1. 從&#x200B;**[!UICONTROL Permissions]**&#x200B;頁簽中，選擇&#x200B;**[!UICONTROL Property rights]**。
 
    ![](assets/push_product_2.png)
 
-1. 按一下「**[!UICONTROL Add all]**」。這會將下列權限新增至您的產品設定檔：
+1. 按一下「**[!UICONTROL Add all]**」。這會將下列內容新增至您的產品設定檔：
    * **[!UICONTROL Approve]**
    * **[!UICONTROL Develop]**
    * **[!UICONTROL Manage Environments]**
    * **[!UICONTROL Manage Extensions]**
    * **[!UICONTROL Publish]**
 
-   ![](assets/push_product_3.png)
+   安裝和發佈Adobe Journey Optimizer擴充功能以及在Adobe Experience Platform Mobile SDK中發佈應用程式屬性時，需要具備這些權限。
 
 1. 然後，在左側菜單中選擇&#x200B;**[!UICONTROL Company rights]**。
 
@@ -69,13 +76,17 @@ ht-degree: 1%
    * **[!UICONTROL Manage App Configurations]**
    * **[!UICONTROL Manage Properties]**
 
+   行動應用程式開發人員必須具備這些權限，才能在&#x200B;**Adobe Experience Launch**&#x200B;中設定推播憑證，並在&#x200B;**Adobe Journey Optimizer**&#x200B;中定義推播通知預設集。
+
    ![](assets/push_product_5.png)
 
 1. 按一下「**[!UICONTROL Save]**」。
 
-要將此&#x200B;**[!UICONTROL Product profile]**&#x200B;分配給用戶：
+若要將此&#x200B;**[!UICONTROL Product profile]**&#x200B;指派給使用者，請遵循下列步驟：
 
-1. 在[!DNL Admin Console]中，從&#x200B;**[!UICONTROL Products]**&#x200B;標籤中，選擇&#x200B;**[!UICONTROL Adobe Experience Platform Launch]**&#x200B;卡。
+1. 訪問&#x200B;**[!DNL Admin Console]**。
+
+1. 從&#x200B;**[!UICONTROL Products]**&#x200B;標籤中，選擇&#x200B;**[!UICONTROL Adobe Experience Platform Launch]**&#x200B;卡。
 
 1. 選取您先前設定的&#x200B;**[!UICONTROL Product profile]**。
 
@@ -91,44 +102,89 @@ ht-degree: 1%
 
    ![](assets/push_product_7.png)
 
+### 設定您的應用程式
 
-您現在擁有在[!DNL Adobe Experience Platform Launch]中建立和配置行動應用程式的正確用戶權限。
+技術設定涉及應用程式開發人員與業務管理員之間的緊密協作。 開始使用[!DNL Journey Optimizer]傳送推播通知前，您必須先在Adobe Experience Platform Launch中定義設定，並將您的行動應用程式與Adobe Experience Platform Mobile SDK整合。
 
-### 步驟2:在Platform launch{#push-credentials-launch}中新增您的行動應用程式推送憑證
+請遵循以下連結中詳述的實作步驟：
+
+* 對於&#x200B;**Apple iOS**:在[Apple檔案](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)中了解如何使用APN註冊您的應用程式
+* 對於&#x200B;**Google Android**:在[Google檔案](https://firebase.google.com/docs/cloud-messaging/android/client)中了解如何在Android上設定Firebase Cloud Messaging用戶端應用程式
+
+### 將您的行動應用程式與Adobe Experience Platform SDK整合
+
+Adobe Experience Platform Mobile SDK透過Android和iOS相容的SDK，為您的行動裝置提供用戶端整合API。 請依照[Adobe Experience Platform Mobile SDK檔案](https://aep-sdks.gitbook.io/docs/getting-started/overview)操作，在應用程式中使用Adobe Experience Platform Mobile SDK進行設定。
+
+到此結尾，您也應該已在Adobe Experience Platform Launch中建立並設定行動屬性。 您通常會為要管理的每個行動應用程式建立行動屬性。 了解如何在[Adobe Experience Platform Launch檔案](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)中建立和設定行動屬性。
+
+
+## 步驟1:在Adobe Experience Platform Launch {#push-credentials-launch}中新增應用程式推送憑證
 
 授予正確的使用者權限後，您現在需要在[!DNL Adobe Experience Platform Launch]中新增行動應用程式推送憑證。
 
-如需新增行動應用程式推送憑證的詳細資訊和程式，請參閱[Adobe Experience Platform Mobile SDK檔案](https://aep-sdks.gitbook.io/docs/beta/adobe-journey-optimizer#configure-the-journey-optimizer-extension-in-launch)中詳述的步驟。
+必須註冊行動應用程式推播憑證，才能授權Adobe代表您傳送推播通知。 請參閱以下詳細步驟：
+
+1. 在[!DNL Adobe Experience Platform Launch]中，確認已在下拉式功能表中選取&#x200B;**[!UICONTROL Client Side]**。
+
+1. 在左側面板中選擇&#x200B;**[!UICONTROL App Configurations]**&#x200B;頁簽，然後按一下&#x200B;**[!UICONTROL App Configuration]**&#x200B;以建立新配置。
+
+1. 輸入配置的&#x200B;**[!UICONTROL Name]**。
+
+1. 從&#x200B;**[!UICONTROL Messaging Service Type]**&#x200B;下拉式選單中，選擇要用於這些憑據的&#x200B;**[!UICONTROL Messaging service type]**。
+
+   * **適用於Android**
+
+      ![](assets/add-app-config-android.png)
+
+      1. 提供&#x200B;**[!UICONTROL App ID (Android package name)]**:套件名稱通常是`build.gradle`檔案中的應用程式id。
+
+      1. 拖放FCM推播憑證。 如需如何取得推送憑證的詳細資訊，請參閱[Google檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk)。
+   * **適用於iOS**
+
+      ![](assets/add-app-config-ios.png)
+
+      1. 在&#x200B;**[!UICONTROL App ID (iOS Bundle ID)]**&#x200B;欄位中輸入行動應用程式&#x200B;**套件組合Id**。 您可在&#x200B;**XCode**&#x200B;主要目標的&#x200B;**一般**&#x200B;標籤中找到應用程式套件ID。
+
+      1. 拖放您Apple開發人員帳戶的&#x200B;**Apple推播通知驗證金鑰**。 可從&#x200B;**Certificates**、**Identifiers**&#x200B;和&#x200B;**Profiles**&#x200B;頁獲取此密鑰。
+
+      1. 提供&#x200B;**密鑰ID**。 這是在建立p8驗證金鑰期間指派的10個字元字串。 您可以在&#x200B;**Certificates**、**Identifiers**&#x200B;和&#x200B;**Profiles**&#x200B;頁面的&#x200B;**Keys**&#x200B;標籤下找到。
+
+      1. 提供&#x200B;**團隊ID**。 這是字串值，可在「成員資格」頁簽下找到。
+
+
+1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以建立您的應用程式配置。
 
 <!--
-Note that to add push credentials in [!DNL Adobe Experience Platform Launch], the owner of the mobile app should fetch them from APNs/FCM.
-1. From [!DNL Adobe Experience Platform Launch], ensure that **[!UICONTROL Client Side]** is selected in the drop-down menu.
+## Step 2: Set up a mobile property in Adobe Experience Platform Launch {#launch-property}
 
-1. Select the **[!UICONTROL App Configurations]** tab in the left-hand panel and click **[!UICONTROL App Configuration]** to create a new configuration.
+Setting up a mobile property allows the mobile app developer or marketer to configure the mobile SDKs attributes such as Session Timeouts, the [!DNL Adobe Experience Platform] sandbox to be targeted and the **[!UICONTROL Adobe Experience Platform Datasets]** to be used for mobile SDK to send data to.
 
-1. Enter a **[!UICONTROL Name]** for the configuration.
+For further details and procedures on how to set up a **[!UICONTROL Platform Launch property]**, refer to the steps detailed in [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
 
-1. From the **[!UICONTROL Messaging Service Type]** drop-down menu, select the **[!UICONTROL Messaging service type]** to be used for these credentials. Here, we selected **[!UICONTROL Apple Push Notification Service]** since we are working with iOS.
 
-1. Enter the mobile app **[!UICONTROL Bundle Id]** in the **[!UICONTROL App ID (iOS Bundle ID)]** field if you are using Apple push notification service or in the **[!UICONTROL App ID (Android package name)]** field if you are using Firebase Cloud Messaging.
+To get the SDKs needed for push notification to work you will need the following SDK extensions, for both Android and iOS:
 
-    ![](assets/push_launch_app_configuration.png)
+* **[!UICONTROL Mobile Core]** (installed automatically)
+* **[!UICONTROL Profile]** (installed automatically)
+* **[!UICONTROL Adobe Experience Platform Edge]**
+* **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-1. Drag and drop the .p8 key file or the .json private key file to the **[!UICONTROL Push Credentials]** field.
-
-1. Enter the **[!UICONTROL Key Id]** and **[!UICONTROL Team Id]** if you are using Apple push notification service.
-
-1. Click **[!UICONTROL Save]** to create your app configuration.
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
-### 步驟3:建立邊緣配置{#edge-configuration}
+## 步驟2:在您的行動屬性中設定Adobe Journey Optimizer擴充功能
 
-**[!UICONTROL Edge configuration]** 擴充功能會 **[!UICONTROL Edge]** 使用，將自訂資料從行動裝置傳送至 [!DNL Adobe Experience Platform]。要配置[!DNL Adobe Experience Platform]，必須提供&#x200B;**[!UICONTROL Sandbox]**&#x200B;名稱和&#x200B;**[!UICONTROL Event Dataset]**。
+適用於Adobe Experience Platform Mobile SDK的&#x200B;**Adobe Journey Optimizer擴充功能**&#x200B;可支援行動應用程式的推播通知，並協助您收集使用者推播代號，以及管理與Adobe Experience Platform服務的互動測量。
 
-如需有關如何建立&#x200B;**[!UICONTROL Edge configuration]**&#x200B;的詳細資訊和程式，請參閱[Adobe Experience Platform Mobile SDK檔案](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams)中詳細說明的步驟。
+在[Adobe Experience Platform Mobile SDK檔案](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)中了解如何設定Journey Optimizer擴充功能。
 
 
-<!--
+<!-- 
+**[!UICONTROL Edge configuration]** is used by **[!UICONTROL Edge]** extension to send custom data from mobile device to [!DNL Adobe Experience Platform]. 
+To configure [!DNL Adobe Experience Platform], you must provide the **[!UICONTROL Sandbox]** name and **[!UICONTROL Event Dataset]**.
+
+For further details and procedures on how to create **[!UICONTROL Edge configuration]**, refer to the steps detailed in [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams).
+
 1. From [!DNL Adobe Experience Platform Launch], select the **[!UICONTROL Edge Configurations]** tab and click **[!UICONTROL Edge Configurations]**.
     
 1. Select **[!UICONTROL New Edge Configuration]** to add a new **[!UICONTROL Edge Configuration]**.
@@ -139,24 +195,8 @@ Note that to add push credentials in [!DNL Adobe Experience Platform Launch], th
 1. Fill in the **[!UICONTROL Sandbox]**, **[!UICONTROL Event dataset]** and **[!UICONTROL Profile Dataset]** fields. Then, click **[!UICONTROL Save]**.
     
     ![](assets/push-config-4.png)
--->
 
-### 步驟4:設定Platform launch屬性{#launch-property}
 
-設定[!DNL Adobe Experience Platform Launch]屬性可讓行動應用程式開發人員或行銷人員設定行動SDK屬性，例如工作階段逾時、要定位的[!DNL Adobe Experience Platform]沙箱，以及要用於行動SDK傳送資料的&#x200B;**[!UICONTROL Adobe Experience Platform Datasets]**。
-
-如需設定&#x200B;**[!UICONTROL Platform Launch property]**&#x200B;的詳細資訊和程式，請參閱[Adobe Experience Platform Mobile SDK檔案](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property)中詳細說明的步驟。
-
-若要取得推播通知運作所需的SDK，您需要下列SDK擴充功能，適用於Android和iOS:
-
-* **[!UICONTROL Mobile Core]** （自動安裝）
-* **[!UICONTROL Profile]** （自動安裝）
-* **[!UICONTROL Adobe Experience Platform Edge]**
-* **[!UICONTROL Adobe Experience Platform Assurance]**，選用，但建議除錯行動實作。
-
-若要深入了解[!DNL Adobe Experience Platform Launch]擴充功能，請參閱[Platform launch檔案](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html)。
-
-<!--
 
 1. From [!DNL Adobe Experience Platform Launch], ensure that **[!UICONTROL Client Side]** is selected in the drop-down menu.
 
@@ -187,123 +227,129 @@ To configure **[!UICONTROL Adobe Experience Platform Edge Extension]** to send c
 To configure **[!UICONTROL Adobe Experience Platform Messaging]** extension to send push profile and push interactions to the correct datasets, follow the same steps as above. Use **[!UICONTROL Sandbox]**, **[!UICONTROL Event dataset]** and **[!UICONTROL Profile Dataset]** created in the [Adobe Experience Platform setup](#edge-configuration).
 -->
 
-### 步驟5:發佈屬性{#publish-property}
+<!--
+## Step 4: Publish the Property {#publish-property}
 
-您現在需要發佈屬性，以整合您的設定，並在行動應用程式中使用。
+You now need to publish the property to integrate your configuration and to use it in the mobile app. 
 
-若要發佈屬性，請參閱[Adobe Experience Platform Mobile SDK檔案](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration)中詳述的步驟
+To publish your property, refer to the steps detailed in [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration)
 
-### 步驟6:配置ProfileDataSource {#configure-profiledatasource}
+## Step 5: Configure the ProfileDataSource {#configure-profiledatasource}
 
-若要設定`ProfileDataSource`，請使用[!DNL Adobe Experience Platform]設定中的`ProfileDCInletURL`，並在行動應用程式中新增下列項目：
+To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Adobe Experience Platform] setup and add the following in the mobile app:
 
 ```
     MobileCore.updateConfiguration(
     mutableMapOf("messaging.dccs" to <ProfileDCSInletURL>)
 ```
 
-<!--
-## Test your mobile app with custom action {#mobile-app-test}
-
-After configuring your mobile app in both Adobe Experience Platform and Adobe Launch, you can now test it before sending push notifications to your profiles. In this use case, we will create a journey to target our mobile app and set a custom action which will trigger the push notification.
-
-You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
-
-For this journey to work, you need to create an XDM schema. For more information, refer to [XDM documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#schemas-and-data-ingestion).
-
-1. In the left menu, click **[!UICONTROL Data]** then **[!UICONTROL Schemas]** under **[!UICONTROL Data management]** to create your XDM schema.
-
-    ![](assets/test_push_1.png)
-
-1. Click **[!UICONTROL Create schema]** then select **[!UICONTROL XDM Experience event]**.
-
-    ![](assets/test_push_2.png)
-
-1. In the right pane, enter the name of your schema and description. Enable this schema for **[!UICONTROL Profile]**.
-
-1. In the left pane, click **[!UICONTROL Add]** under **[!UICONTROL Mixins]** and select  **[!UICONTROL Create a new Mixin]**. For more information on how to create mixin, refer to [XDM System documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/create-mixin.html?lang=en#api).
-
-    ![](assets/test_push_3.png)
-
-1. Enter a **[!UICONTROL Display Name]** and a **[!UICONTROL Description]**. Click **[!UICONTROL Add mixin]** when done.
-
-    ![](assets/test_push_4.png)
-
-1. In the **[!UICONTROL Field properties]** window, add a **[!UICONTROL Field name]**, **[!UICONTROL Display name]** and select **[!UICONTROL String]** as **[!UICONTROL Type]**.
-
-    ![](assets/test_push_5.png)
-
-1. Check **[!UICONTROL Required]** and click **[!UICONTROL Apply]**.
-
-1. Click **[!UICONTROL Save]**. Your schema is now created and can be used in an **[!UICONTROL Event schema]**.
-
-You then need to set up an **[!UICONTROL Event schema]** where you will set the custom action which you will need to enter in your mobile app to trigger your push notification.
-
-1. From the left menu of the home page, click the **[!UICONTROL Admin]** icon, then click **[!UICONTROL Manage]** from the **[!UICONTROL Events]** card to create your new **[!UICONTROL Event schema]**.
-
-1. Click **[!UICONTROL Add]**, the event configuration pane opens on the right side of the screen.
-
-    ![](assets/test_push_6.png)
-
-1. Enter the name of your event. You can also add a description.
-
-1. In the **[!UICONTROL Event ID type]** field, select **[!UICONTROL Rule Based]**.
-
-1. In the **[!UICONTROL Parameters]**, select your previously created XDM event.
-
-    ![](assets/test_push_7.png)
-
-1. Click **[!UICONTROL Edit]** in the **[!UICONTROL Event ID condition]** field.
-
-1. Drag and your previously added mixin to define the condition that will be used by the system to identify the events that will trigger your journey.
-
-    ![](assets/test_push_8.png)
-
-1. Type in the syntax that you will need to use to trigger your push notification in your test app, in this example **order confirmation**.
-
-    ![](assets/test_push_9.png)
-
-1. Select **[!UICONTROL ECID]** as your **[!UICONTROL Namespace]**.
-
-1. Click **[!UICONTROL Ok]** then **[!UICONTROL Save]**.
-
-Your **[!UICONTROL Event schema]** is now created and can now be used in a journey.
-
-1. In the left menu from [!DNL Journey Optimizer] homepage, click **[!UICONTROL Journeys]**.
-
-1. Click **[!UICONTROL Create]** to create a new journey.
-
-    ![](assets/test_push_10.png)
-
-1. Edit the journey's properties in the configuration pane displayed on the right side. Learn more in this [section](building-journeys/journey-gs.md#change-properties).
-
-1. Start by drag and dropping the **[!UICONTROL Event schema]** created in the previous steps from the **[!UICONTROL Events]** drop-down.
-
-    ![](assets/test_push_11.png)
-
-1. From the **[!UICONTROL Actions]** drop-down, drag and drop a **[!UICONTROL Message]** activity to your journey.
-
-1. Select a previously created message. For more information on how to create push notifications, refer to this [page](create-message.md).
-
-1. Drag and drop an **[!UICONTROL End]** activity to your journey.
-
-1. Activate **[!UICONTROL Test]** to your journey to start testing your push notifications and click **[!UICONTROL Trigger an event]**.
-
-    ![](assets/test_push_12.png)
-
-1. Enter your ECID in the **[!UICONTROL Key]** field then your event that will trigger the push notification in our case **order confirmation**.
-
-    ![](assets/test_push_13.png)
-
-1. Click **[!UICONTROL Send]**.
-
-Your event will be triggered and you will receive your push notification to your mobile app.
-
-![](assets/test_push_14.png)
 -->
 
-### 步驟7:建立訊息預設集{#message-preset}
+## 步驟3:使用事件{#mobile-app-test}測試您的行動應用程式
+
+在Adobe Experience Platform和AdobeLaunch中設定您的行動應用程式後，您現在可以先測試應用程式，再將推播通知傳送至您的設定檔。 在此使用案例中，我們將建立歷程來定位行動應用程式，並設定會觸發推播通知的事件。
+
+<!--
+You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
+-->
+
+若要讓此歷程正常運作，您需要建立XDM結構。 如需詳細資訊，請參閱[XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#schemas-and-data-ingestion)。
+
+1. 在左側功能表中，瀏覽至&#x200B;**[!UICONTROL Schemas]**。
+
+1. 按一下&#x200B;**[!UICONTROL Create schema]**，然後選擇&#x200B;**[!UICONTROL XDM ExperienceEvent]**。
+
+   ![](assets/test_push_2.png)
+
+1. 選擇「**[!UICONTROL Create a new field group]**」。
+
+1. 輸入&#x200B;**[!UICONTROL Display Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。 完成後，按一下&#x200B;**[!UICONTROL Add field groups]**。 有關如何建立欄位組的詳細資訊，請參閱[XDM系統文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant)。
+
+
+   ![](assets/test_push_4.png)
+
+1. 在左側，選取架構。 在右窗格中，輸入架構名稱和說明。 為&#x200B;**[!UICONTROL Profile]**&#x200B;啟用此架構。
+
+   ![](assets/test_push_4b.png)
+
+
+1. 在左側，選取欄位群組，然後按一下+圖示以建立新欄位。 在&#x200B;**[!UICONTROL Field groups properties]**&#x200B;的右側，鍵入&#x200B;**[!UICONTROL Field name]**、**[!UICONTROL Display name]**，並選擇&#x200B;**[!UICONTROL String]**&#x200B;作為&#x200B;**[!UICONTROL Type]**。
+
+   ![](assets/test_push_5.png)
+
+1. 檢查&#x200B;**[!UICONTROL Required]**，然後按一下&#x200B;**[!UICONTROL Apply]**。
+
+1. 按一下「**[!UICONTROL Save]**」。您的架構現在已建立，且可用於事件。
+
+然後您需要設定事件。
+
+1. 從首頁的左菜單的「管理」下，選擇&#x200B;**[!UICONTROL Configurations]**。 按一下&#x200B;**[!UICONTROL Events]**&#x200B;區段中的&#x200B;**[!UICONTROL Manage]**&#x200B;以建立新事件。
+
+1. 按一下&#x200B;**[!UICONTROL Create Event]**，事件配置窗格就會在螢幕右側開啟。
+
+   ![](assets/test_push_6.png)
+
+1. 輸入事件名稱。 您也可以新增說明。
+
+1. 在 **[!UICONTROL Event ID type]** 欄位中，選取 **[!UICONTROL Rule Based]**。
+
+1. 在&#x200B;**[!UICONTROL Parameters]**&#x200B;中，選取您先前建立的架構。
+
+   ![](assets/test_push_7.png)
+
+1. 在欄位清單中，檢查是否已選取架構欄位群組中建立的欄位。
+
+   ![](assets/test_push_7b.png)
+
+1. 在&#x200B;**[!UICONTROL Event ID condition]**&#x200B;欄位中按一下&#x200B;**[!UICONTROL Edit]**。 拖放您先前新增的欄位，以定義系統將使用的條件，以識別將觸發您歷程的事件。
+
+   ![](assets/test_push_8.png)
+
+1. 在此範例中，輸入在測試應用程式中觸發推播通知所需的語法，**order confirmation**。
+
+   ![](assets/test_push_9.png)
+
+1. 選擇&#x200B;**[!UICONTROL ECID]**&#x200B;作為&#x200B;**[!UICONTROL Namespace]**。
+
+1. 按一下 **[!UICONTROL Ok]**，之後 **[!UICONTROL Save]**。
+
+您的事件現在已建立，現在可用於歷程中。
+
+1. 在左側功能表中，按一下&#x200B;**[!UICONTROL Journeys]**。
+
+1. 按一下&#x200B;**[!UICONTROL Create Journey]**&#x200B;以建立新歷程。
+
+1. 在右側顯示的設定窗格中，編輯歷程的屬性。了解更多[小節](building-journeys/journey-gs.md#change-properties)。
+
+1. 首先，從&#x200B;**[!UICONTROL Events]**&#x200B;下拉式清單中拖放先前步驟中建立的事件。
+
+   ![](assets/test_push_11.png)
+
+1. 從&#x200B;**[!UICONTROL Actions]**&#x200B;下拉式清單中，將&#x200B;**[!UICONTROL Message]**&#x200B;活動拖放至您的歷程。
+
+1. 選取先前建立的訊息。 如需如何建立推播通知的詳細資訊，請參閱此[page](create-message.md)。
+
+1. 將&#x200B;**[!UICONTROL End]**&#x200B;活動拖放至歷程。
+
+1. 按一下&#x200B;**[!UICONTROL Test]**&#x200B;切換開始測試推播通知，然後按一下&#x200B;**[!UICONTROL Trigger an event]**。
+
+   ![](assets/test_push_12.png)
+
+1. 在&#x200B;**[!UICONTROL Key]**&#x200B;欄位中輸入ECID，然後在第二個欄位中輸入&#x200B;**訂單確認**。
+
+   ![](assets/test_push_13.png)
+
+1. 按一下「**[!UICONTROL Send]**」。
+
+您的事件將會觸發，而您會收到您的行動應用程式推播通知。
+
+## 步驟4:建立推送{#message-preset}的訊息預設集
 
 在[!DNL Adobe Experience Platform Launch]中設定您的行動應用程式後，您需要建立訊息預設集，才能從&#x200B;**[!DNL Journey Optimizer]**&#x200B;傳送推播通知。
 
 了解如何在[此區段](configuration/message-presets.md)中建立和設定訊息預設集。
+
+您現在可以使用Journey Optimizer傳送推播通知。
+
+* 了解如何在[此頁面](create-push.md)中建立推送訊息。
+* 了解如何在[此區段](building-journeys/journeys-message.md)的歷程中傳送新增訊息。
