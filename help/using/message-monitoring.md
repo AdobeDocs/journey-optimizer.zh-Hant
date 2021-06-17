@@ -5,7 +5,7 @@ feature: 監控
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -13,8 +13,6 @@ ht-degree: 1%
 ---
 
 # 訊息監視 {#monitor-message-execution}
-
-![](assets/do-not-localize/badge.png)
 
 為確保您的訊息成功執行、傳送及傳送，[!DNL Journey Optimizer]提供監控目前發佈及觸發之訊息的功能。 您可以從&#x200B;**[!UICONTROL Executions]**&#x200B;清單中即時查看您的訊息在歷程<!--and APIs-->間的執行情形。
 
