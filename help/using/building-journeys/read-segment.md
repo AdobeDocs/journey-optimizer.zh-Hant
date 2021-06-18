@@ -5,16 +5,14 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '967'
 ht-degree: 2%
 
 ---
 
 # 在歷程{#segment-trigger-activity}中使用區段
-
-![](../assets/do-not-localize/badge.png)
 
 ## 關於讀取區段活動{#about-segment-trigger-actvitiy}
 
@@ -25,10 +23,12 @@ ht-degree: 2%
 >[!NOTE]
 >
 >無法在1小時以內的較短時間範圍內觸發以區段為基礎的歷程。
+>
+>Burst付費附加元件允許以大流量發送非常快速的推送訊息，用於包含讀取區段和簡單推送訊息的簡單歷程。 如需詳細資訊，請參閱[此區段](../building-journeys/journey-gs.md#burst)
 
 ### 配置活動{#configuring-segment-trigger-activity}
 
-設定讀取區段活動的步驟如下：
+設定「讀取區段」活動的步驟如下：
 
 1. 展開&#x200B;**[!UICONTROL Orchestration]**&#x200B;類別，並將&#x200B;**[!UICONTROL Read Segment]**&#x200B;活動拖曳至畫布中。
 
@@ -62,7 +62,7 @@ ht-degree: 2%
 
    ![](../assets/read-segment-schedule.png)
 
-   依預設，區段會輸入歷程&#x200B;**[!UICONTROL As soon as possible]**，這表示歷程發佈後1小時。 如果您想讓區段以特定日期/時間或循環基準輸入歷程，請從清單中選取所需的值。
+   依預設，區段會輸入歷程&#x200B;**[!UICONTROL As soon as possible]**，這表示歷程發佈後1小時。 如果您想讓區段以特定日期/時間或循環基準輸入歷程，請從清單中選取所需值。
 
    >[!NOTE]
    >
