@@ -5,7 +5,7 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 7%
@@ -13,8 +13,6 @@ ht-degree: 7%
 ---
 
 # 使用自訂動作 {#section_f2c_hbg_nhb}
-
-![](../assets/do-not-localize/badge.png)
 
 如果您使用自訂動作，您將以唯讀方式看到動作設定畫面中定義的&#x200B;**[!UICONTROL URL Configuration]**&#x200B;和&#x200B;**[!UICONTROL Authentication]**&#x200B;參數（請參閱[此頁面](../action/about-custom-action-configuration.md)）。
 
