@@ -5,16 +5,14 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
 # 關於歷程活動 {#about-journey-activities}
-
-![](../assets/do-not-localize/badge.png)
 
 結合不同的事件、協調和動作活動，以建立您的多步驟跨管道情境。
 
