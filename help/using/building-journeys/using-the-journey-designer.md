@@ -5,16 +5,14 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: da31b4faf476d090a3a45b8c14701c4addd1a02a
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1414'
 ht-degree: 1%
 
 ---
 
 # 設計您的歷程
-
-![](../assets/do-not-localize/badge.png)
 
 歷程介面可讓您輕鬆將活動從浮動視窗拖放至畫布中。 您也可以連按兩下某個活動，以在下一個可用步驟將其新增至畫布中。 每個活動在流程中都有特定角色和位置。 活動會排序。 活動完成後，流程會繼續並處理下一個活動，以此類推。
 
@@ -40,7 +38,7 @@ ht-degree: 1%
 
 按一下浮動視窗中的活動時，會顯示&#x200B;**活動設定窗格**。 填寫必填欄位。 按一下&#x200B;**[!UICONTROL Delete]**&#x200B;圖示以刪除活動。 按一下&#x200B;**[!UICONTROL Cancel]**&#x200B;取消修改，或按一下&#x200B;**[!UICONTROL Ok]**&#x200B;確認。 若要刪除活動，您也可以選取一個活動（或數個），然後按空格鍵。 按下逸出鍵會關閉活動設定窗格。
 
-預設情況下，只讀欄位是隱藏的。 若要顯示，請按一下活動設定窗格左上角的&#x200B;**顯示唯讀欄位**&#x200B;圖示。
+預設情況下，只讀欄位是隱藏的。 若要顯示唯讀欄位，請按一下活動配置窗格左上角的&#x200B;**顯示唯讀欄位**&#x200B;圖示。 此設定會套用至所有歷程中的所有活動。
 
 ![](../assets/journey59bis.png)
 
@@ -58,7 +56,7 @@ ht-degree: 1%
 
 ## 定義後續步驟
 
-在您的第一個事件或讀取區段之後，您可以結合不同的活動來建立您的多步驟跨通道案例。 從浮動視窗中選擇您需要的步驟。
+在第一個事件或讀取區段之後，您可以結合不同的活動以建立您的多步驟跨通道案例。 從浮動視窗中選擇您需要的步驟。
 
 **事件**
 
@@ -68,11 +66,11 @@ ht-degree: 1%
 
 您也可以在訊息之後新增&#x200B;**Reaction**&#x200B;事件，以回應與訊息相關的追蹤資料。 舉例來說，當個人開啟前一則訊息或按一下其內部訊息時，這可讓您傳送另一則訊息。 了解更多[小節](reaction-events.md)。
 
-**區段資格**&#x200B;事件活動可讓您根據Adobe Experience Platform區段入口和出口，讓個人進入或前進歷程。 您可以讓所有新的銀級客戶進入歷程並傳送個人化訊息。 了解更多[小節](segment-qualification-events.md)。
+**區段資格**&#x200B;事件活動可讓您根據Adobe Experience Platform區段入口和出口，讓個人進入歷程或前進。 您可以讓所有新的銀級客戶進入歷程並傳送個人化訊息。 了解更多[小節](segment-qualification-events.md)。
 
 **協調**
 
-在協調活動中，您會找到&#x200B;**讀取區段**&#x200B;活動，可讓您設定歷程以監聽Adobe Experience Platform區段。 [深入了解讀取區段活動](read-segment.md)。
+在協調活動中，您會找到&#x200B;**讀取區段**&#x200B;活動，可讓您設定歷程以監聽Adobe Experience Platform區段。 [深入了解「讀取區段」活動](read-segment.md)。
 
 其他活動可讓您新增條件至歷程，以定義數個路徑、設定在執行下一個活動之前的等待時間，或結束您的歷程。 了解更多[小節](about-journey-activities.md#orchestration-activities)。
 
@@ -92,7 +90,7 @@ ht-degree: 1%
 
 監聽事件時，建議您不要無限期等待事件。 這不是強制性的，只是最佳做法。 如果您只想在特定時間內監聽一或多個事件，您會同時放置一或多個事件和等待活動。 請參閱[本節](../building-journeys/general-events.md#events-specific-time)。
 
-若要刪除路徑，請將游標置於路徑上，然後按一下&#x200B;**[!UICONTROL Delete arrow]**&#x200B;圖示。
+若要刪除路徑，請將游標置於路徑上，然後按一下&#x200B;**[!UICONTROL Delete path]**&#x200B;圖示。
 
 ![](../assets/journey42ter.png)
 
