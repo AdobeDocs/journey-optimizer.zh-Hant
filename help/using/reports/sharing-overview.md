@@ -5,22 +5,20 @@ feature: 報告
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 233b97784843adb26cb37a612feeaf2a8e396f27
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 8%
+source-wordcount: '447'
+ht-degree: 7%
 
 ---
 
 # 建立歷程報告{#design-jo-reports}
 
-![](../assets/do-not-localize/badge.png)
-
 除了[即時報表](live-report.md)和內建[全域報表功能](global-report.md)外，[!DNL Journey Optimizer]還可以自動將歷程績效資料傳送至Adobe Experience Platform，以便與其他資料結合以進行分析。
 
 >[!NOTE]
 >
->預設情況下不會對所有新部署的執行個體啟用此功能。 應要求啟動。
+>此功能預設會在歷程步驟事件的所有執行個體上啟用。 若為歷程設定檔步驟事件，則需應要求進行啟動。 配置此功能期間建立的結構描述和資料集不可更改。
 
 例如，您已設定可傳送多封電子郵件的歷程。 此功能可讓您將[!DNL Journey Optimizer]資料與下游事件資料結合，例如發生了多少轉換、網站上發生了多少參與，或商店中發生了多少交易。 歷程資訊可與Adobe Experience Platform上的資料結合，不論是來自其他數位屬性或來自離線屬性，以提供更全面的效能檢視。
 
