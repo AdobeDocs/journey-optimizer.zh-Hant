@@ -5,7 +5,7 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 86%
@@ -13,8 +13,6 @@ ht-degree: 86%
 ---
 
 # 疑難排解{#concept_nlv_bcv_2fb}
-
-![](../assets/do-not-localize/badge.png)
 
 在此區段中，您會瞭解如何先疑難排解歷程，然後再進行測試或發佈。下列所有檢查皆可在歷程處於測試模式或歷程為即時狀態時執行。建議您在測試模式中進行下列所有檢查，然後繼續發佈。請參閱[本頁](../building-journeys/testing-the-journey.md)。
 
