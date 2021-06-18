@@ -16,7 +16,7 @@ feature: 控制組
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 16%
@@ -24,8 +24,6 @@ ht-degree: 16%
 ---
 
 # 管理用戶和產品配置檔案{#manage-permissions}
-
-![](../assets/do-not-localize/badge.png)
 
 >[!IMPORTANT]
 >
@@ -87,7 +85,7 @@ ht-degree: 16%
 
 1. 選取 **[!UICONTROL Permissions]** 索引標籤。
 
-   **[!UICONTROL Permissions]**&#x200B;標籤顯示適用於***[!UICONTROL Experience Cloud - Platform powered applications]**&#x200B;產品的功能清單。
+   **[!UICONTROL Permissions]**&#x200B;標籤顯示適用於&#x200B;**[!UICONTROL Experience Cloud - Platform powered applications]**&#x200B;產品的功能清單。
 
    ![](../assets/access_control_5.png)
 
