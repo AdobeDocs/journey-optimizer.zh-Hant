@@ -5,22 +5,20 @@ feature: 事件
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
 
 # 運用Adobe Analytics資料{#analytics-data}
 
-![](../assets/do-not-localize/badge.png)
+您可以運用您已擷取並串流至Platform的所有Adobe Analytics行為事件資料，以觸發歷程並自動化客戶體驗。
 
 >[!NOTE]
 >
 >本節內容僅適用於需要使用Adobe Analytics資料的規則型事件和客戶。
-
-您可以運用您已擷取並串流至Platform的所有Adobe Analytics行為事件資料，以觸發歷程並自動化客戶體驗。
 
 為了讓此功能發揮作用，您需要在Adobe Experience Platform中啟用您要運用的報表套裝：
 
@@ -34,4 +32,4 @@ ht-degree: 1%
 
 ![](../assets/jo-event9.png)
 
-如需Adobe Analytics來源連接器的詳細資訊，請參閱[檔案]https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)和[教學課程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)。
+在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)和[教學課程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)中，深入了解Adobe Analytics來源連接器。
