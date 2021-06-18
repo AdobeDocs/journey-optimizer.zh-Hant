@@ -5,16 +5,14 @@ feature: 報告
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '698'
 ht-degree: 1%
 
 ---
 
 # 歷程即時報告 {#journey-live-report}
-
-![](../assets/do-not-localize/badge.png)
 
 您可使用&#x200B;**[!UICONTROL Live report]**&#x200B;按鈕，直接從您的歷程存取歷程即時報表。
 
@@ -64,7 +62,7 @@ ht-degree: 1%
 
 ![](../assets/report_email_1.png)
 
-**[!UICONTROL Sending Statistics]**&#x200B;和&#x200B;**[!UICONTROL Sending metrics by Email]**&#x200B;介面工具集會詳細說明傳送的成功：
+**[!UICONTROL Email Sending Statistics]**&#x200B;介面工具集詳細說明了與您的訊息相關的主要資訊：
 
 * **[!UICONTROL Delivered]**:已成功傳送的訊息數，與已傳送的訊息總數相關。
 
@@ -72,9 +70,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Errors]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
 
-<!--Hard and bounce - by Email-->
-
-**[!UICONTROL Email summary]**&#x200B;圖表詳細說明與訊息相關的主要資訊：
+**[!UICONTROL Sending metrics by Email]**&#x200B;表格和&#x200B;**[!UICONTROL Email Summary]**&#x200B;圖表詳細說明傳送的成功：
 
 * **[!UICONTROL Sent]**:傳送的傳送總數。
 
@@ -88,9 +84,13 @@ ht-degree: 1%
 
 * **[!UICONTROL Clicks]**:內容在傳送中被點按的次數。
 
+* **[!UICONTROL Unsubscribe]**:取消訂閱連結的點按次數。
+
+* **[!UICONTROL Spam complaints]**:宣告郵件為垃圾郵件或垃圾郵件的次數。
+
 ![](../assets/report_email_2.png)
 
-**[!UICONTROL Bounce Reasons]**&#x200B;和&#x200B;**[!UICONTROL Bounce categories]**&#x200B;介面工具集包含與退信消息相關的可用資料，例如：
+**[!UICONTROL Bounce Reasons]**、**[!UICONTROL Bounce categories]**&#x200B;和&#x200B;**[!UICONTROL Hard and bounce - by Email]**&#x200B;介面工具集包含與退信消息相關的可用資料，例如：
 
 * **[!UICONTROL Hard bounce]**:永久錯誤的總數，例如錯誤的電子郵件地址。這包含明確指出地址無效的錯誤訊息，例如「未知」使用者。
 
