@@ -5,26 +5,24 @@ feature: 事件
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 15%
+source-wordcount: '1656'
+ht-degree: 14%
 
 ---
 
 # 設定單一事件 {#configure-an-event}
 
-![](../assets/do-not-localize/badge.png)
-
 單一事件會連結至特定設定檔。 可由規則型或系統產生。  有關單一事件[此部分](../event/about-events.md)的詳細資訊。
 
 以下是設定新事件的前幾個步驟：
 
-1. 在「管理」部分，瀏覽至&#x200B;**[!UICONTROL Configurations]**，然後按一下&#x200B;**[!UICONTROL Events]**。 畫面隨即顯示事件清單。
+1. 在「管理」菜單部分，選擇&#x200B;**[!UICONTROL Configurations]**。 在&#x200B;**[!UICONTROL Events]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Manage]**。 畫面隨即顯示事件清單。
 
    ![](../assets/jo-event1.png)
 
-1. 按一下 **[!UICONTROL Add]** 以建立新事件。事件設定窗格會在畫面右側開啟。
+1. 按一下 **[!UICONTROL Create Event]** 以建立新事件。事件設定窗格會在畫面右側開啟。
 
    ![](../assets/jo-event2.png)
 
@@ -36,11 +34,11 @@ ht-degree: 15%
    >
    >請勿使用空格或特殊字元。請勿使用超過 30 個字元。
 
-1. 在&#x200B;**[!UICONTROL Type]**&#x200B;欄位中，選擇&#x200B;**單一事件**。
+1. 在&#x200B;**[!UICONTROL Type]**&#x200B;欄位中，選擇&#x200B;**Unigaly**。
 
    ![](../assets/jo-event3bis.png)
 
-1. 在&#x200B;**[!UICONTROL Event ID type]**&#x200B;欄位中，選取您要使用的事件ID類型：**規則型**&#x200B;或&#x200B;**系統產生的**。 請詳閱[此區段](../event/about-events.md#event-id-type)中事件ID類型的詳細資訊。
+1. 在&#x200B;**[!UICONTROL Event ID type]**&#x200B;欄位中，選取您要使用的事件ID類型：**基於規則**&#x200B;或&#x200B;**系統生成**。 請詳閱[此區段](../event/about-events.md#event-id-type)中事件ID類型的詳細資訊。
 
    ![](../assets/jo-event4.png)
 
@@ -52,22 +50,24 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >選取&#x200B;**[!UICONTROL System Generated]**&#x200B;類型時，只有具有eventID類型mixin的結構才可用。 選取&#x200B;**[!UICONTROL Rule Based]**&#x200B;類型時，所有體驗事件結構皆可使用。
+   >選取&#x200B;**[!UICONTROL System Generated]**&#x200B;類型時，只有具有eventID類型欄位的結構才可用。 選取&#x200B;**[!UICONTROL Rule Based]**&#x200B;類型時，所有體驗事件結構皆可使用。
 
 1. 若是規則型事件，請按一下&#x200B;**[!UICONTROL Event ID condition]**欄位內的。 使用簡單運算式編輯器，定義系統將使用的條件，以識別將觸發您歷程的事件。
    ![](../assets/jo-event6.png)
 
    在範例中，我們根據設定檔的城市寫了條件。 這表示，每當系統收到符合此條件（**[!UICONTROL City]**&#x200B;欄位和&#x200B;**[!UICONTROL Paris]**&#x200B;值）的事件時，就會將其傳遞至歷程。
 
+   >[!NOTE]
+   >
+   >定義&#x200B;**[!UICONTROL Event ID condition]**&#x200B;時，進階運算式編輯器無法使用。
+
 1. 新增命名空間。此步驟為選填，但建議您新增命名空間，以便運用儲存在「即時客戶個人檔案服務」的資訊。它會定義事件具備的金鑰類型。請參閱[本節](../event/about-creating.md#select-the-namespace)。
-1. 定義金鑰：從您的有效負載欄位選擇一個欄位，或是定義一個公式以識別與事件相關聯的人員。如果您選取命名空間，系統便會自動設定此金鑰（但您仍可加以編輯）。事實上，歷程會挑選應該與命名空間對應的金鑰（例如，如果您選取電子郵件命名空間，系統便會選取電子郵件金鑰）。 請參閱[本節](../event/about-creating.md#define-the-event-key)。
+1. 定義設定檔識別碼：從您的裝載欄位中選擇欄位，或定義公式以識別與事件相關聯的人員。 如果您選取命名空間，系統便會自動設定此金鑰（但您仍可加以編輯）。事實上，歷程會挑選應該與命名空間對應的金鑰（例如，如果您選取電子郵件命名空間，系統便會選取電子郵件金鑰）。 請參閱[本節](../event/about-creating.md#define-the-event-key)。
 
    ![](../assets/jo-event7.png)
 
 1. 對於系統產生的事件，您可以新增條件。 此步驟為選填。這可讓系統僅處理符合條件的事件。您只能根據事件含有之資訊設定條件。請參閱[本節](../event/about-creating.md#add-a-condition)。
 1. 按一下「**[!UICONTROL Save]**」。
-
-   ![](../assets/journey7.png)
 
    條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。請參閱[本頁](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
 
@@ -75,7 +75,7 @@ ht-degree: 15%
 
 有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯之人員的金鑰。 裝載以Experience CloudXDM欄位定義為基礎。 如需XDM的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)。
 
-1. 從清單中選取XDM架構，然後按一下&#x200B;**[!UICONTROL Payload]**&#x200B;欄位或&#x200B;**[!UICONTROL Edit]**&#x200B;圖示。
+1. 從清單中選取XDM架構，然後按一下&#x200B;**[!UICONTROL Fields]**&#x200B;欄位或&#x200B;**[!UICONTROL Edit]**&#x200B;圖示。
 
    ![](../assets/journey8.png)
 
@@ -83,23 +83,19 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >請務必將「協調」mixin新增至XDM結構。 這將確保您的架構包含使用[!DNL Journey Optimizer]所需的所有資訊。
+   >針對系統產生的事件，請確定您已將「協調」欄位群組新增至XDM架構。 這將確保您的架構包含使用[!DNL Journey Optimizer]所需的所有資訊。
 
    ![](../assets/journey9.png)
 
 1. 選取您要從事件接收的欄位。 這些是業務使用者在歷程中將利用的欄位。 它們還必須包含用於識別與事件相關聯的人員的金鑰（請參閱[此區段](../event/about-creating.md#define-the-event-key)）。
 
-   ![](../assets/journey10.png)
-
    >[!NOTE]
    >
    >對於系統產生的事件，**[!UICONTROL eventID]**&#x200B;欄位會自動新增至選取的欄位清單中，以便[!DNL Journey Optimizer]可識別事件。 推送事件的系統不應產生ID，而應使用有效負載預覽中可用的ID。 請參閱[本節](../event/about-creating.md#preview-the-payload)。
 
-1. 選擇完所需欄位後，按一下&#x200B;**[!UICONTROL Save]**&#x200B;或按&#x200B;**[!UICONTROL Enter]**&#x200B;鍵。
+1. 選擇完所需欄位後，按一下&#x200B;**[!UICONTROL Ok]**&#x200B;或按&#x200B;**[!UICONTROL Enter]**&#x200B;鍵。
 
-   ![](../assets/journey11.png)
-
-   選定欄位的數量顯示在&#x200B;**[!UICONTROL Payload]**&#x200B;欄位中。
+   選定欄位的數量顯示在&#x200B;**[!UICONTROL Fields]**&#x200B;欄位中。
 
    ![](../assets/journey12.png)
 
@@ -109,7 +105,7 @@ ht-degree: 15%
 
 您可以使用其中一個預先定義的命名空間，或使用身分命名空間服務建立新的一個。 請參閱此[page](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)。
 
-如果選擇具有主要身份的架構，則預填&#x200B;**[!UICONTROL Key]**&#x200B;和&#x200B;**[!UICONTROL Namespace]**&#x200B;欄位。 如果沒有定義標識，則選擇&#x200B;_identityMap > id_&#x200B;作為主鍵。 然後，您必須選取命名空間，並使用&#x200B;_identityMap > id_&#x200B;預先填入索引鍵（在&#x200B;**[!UICONTROL Namespace]**&#x200B;欄位下方）。
+如果選擇具有主要身份的架構，則預填&#x200B;**[!UICONTROL Profiler identifier]**&#x200B;和&#x200B;**[!UICONTROL Namespace]**&#x200B;欄位。 如果沒有定義標識，則選擇&#x200B;_identityMap > id_&#x200B;作為主鍵。 然後，您必須選取命名空間，並使用&#x200B;_identityMap > id_&#x200B;預先填入索引鍵（在&#x200B;**[!UICONTROL Namespace]**&#x200B;欄位下方）。
 
 選取欄位時，會標籤主要身分欄位。
 
@@ -122,13 +118,13 @@ ht-degree: 15%
 
 每個歷程僅允許一個命名空間。 如果您在相同歷程中使用數個事件，則這些事件需要使用相同的命名空間。 請參閱[本頁](../building-journeys/journey.md)。
 
-## 定義事件鍵{#define-the-event-key}
+## 定義配置檔案標識符{#define-the-event-key}
 
 金鑰是欄位或欄位組合是事件有效負載資料的一部分，且將允許系統識別與事件相關聯的人員。 金鑰可以是Experience CloudID、CRM ID或電子郵件地址。
 
 如果您打算利用儲存在即時客戶配置檔案資料庫中的資料，則必須選擇[即時客戶配置檔案服務](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)中定義為配置檔案標識的資訊作為事件鍵。
 
-它可讓系統執行事件與個人設定檔之間的調解。 如果選擇具有主要身份的架構，則預填&#x200B;**[!UICONTROL Key]**&#x200B;和&#x200B;**[!UICONTROL Namespace]**&#x200B;欄位。 如果沒有定義標識，則選擇&#x200B;_identityMap > id_&#x200B;作為主鍵。 然後，您必須選取命名空間，並使用&#x200B;_identityMap > id_&#x200B;預先填入索引鍵（在&#x200B;**[!UICONTROL Namespace]**&#x200B;欄位下方）。
+它可讓系統執行事件與個人設定檔之間的調解。 如果選擇具有主要身份的架構，則預填&#x200B;**[!UICONTROL Profile identifier]**&#x200B;和&#x200B;**[!UICONTROL Namespace]**&#x200B;欄位。 如果沒有定義標識，則選擇&#x200B;_identityMap > id_&#x200B;作為主鍵。 然後，您必須選取命名空間，並使用&#x200B;_identityMap > id_&#x200B;預先填入索引鍵（在&#x200B;**[!UICONTROL Namespace]**&#x200B;欄位下方）。
 
 選取欄位時，會標籤主要身分欄位。
 
@@ -136,7 +132,7 @@ ht-degree: 15%
 
 如果您需要使用不同的金鑰（例如CRM ID或電子郵件地址），則需要手動新增金鑰：
 
-1. 按一下&#x200B;**[!UICONTROL Key]**&#x200B;欄位內或鉛筆圖示。
+1. 按一下&#x200B;**[!UICONTROL Profile identifier]**&#x200B;欄位內或鉛筆圖示。
 
    ![](../assets/journey16.png)
 
