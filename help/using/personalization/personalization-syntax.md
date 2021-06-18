@@ -5,17 +5,15 @@ feature: 個性化
 topic: 個性化
 role: Data Engineer
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 74662ee07422d507889788a790547c774b65f944
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '559'
 ht-degree: 5%
 
 ---
 
 
 # 個人化語法 {#personalization-syntax}
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer]中的個人化是以稱為Handlebars的範本語法為基礎。
 如需Handlebars語法的完整說明，請參閱[HandlebarsJS檔案](https://handlebarsjs.com/)。
@@ -24,14 +22,12 @@ ht-degree: 5%
 
 簡單運算式範例：
 
-```
-{{profile.person.name}}
-```
+`{{profile.person.name}}`
 
 其中：
 
-* **** 設定檔是命名空間。
-* **person.** name是由屬性組成的代號。屬性結構是在Adobe Experience Platform XDM結構中定義。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)。
+* `profile` 是命名空間。
+* `person.name` 是由屬性組成的代號。屬性結構是在Adobe Experience Platform XDM結構中定義。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)。
 
 ## 語法一般規則
 
@@ -59,15 +55,19 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 **範例參考：**
 
-```
-{{profile.person.name.fullName}}
-{{profile.person.name.firstName}}
-{{profile.person.gender}}
-{{profile.personalEmail.address}}
-{{profile.mobilePhone.number}}
-{{profile.homeAddress.city}}
-{{profile.faxPhone.number}}
-```
+`{{profile.person.name.fullName}}`
+
+`{{profile.person.name.firstName}}`
+
+`{{profile.person.gender}}`
+
+`{{profile.personalEmail.address}}`
+
+`{{profile.mobilePhone.number}}`
+
+`{{profile.homeAddress.city}}`
+
+`{{profile.faxPhone.number}}`
 
 ## 區段{#perso-segments}
 
@@ -84,20 +84,18 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 此路徑的結構如下：
 
-```
-offers.Type.[Placement Id].[Activity Id].Attribute
-```
+`offers.Type.[Placement Id].[Activity Id].Attribute`
 
 其中：
 
 * `offers` 識別屬於選件命名空間的路徑運算式
 * `Type`  決定選件表示的類型。可能的值包括：`image`、`html`和`text`
 * `Placement Id` 和 `Activity Id` 版位和活動識別碼
-* `Attributes` 取決於選件類型的選件特定屬性。範例：`deliveryUrl`表示影像。
+* `Attributes` 取決於選件類型的選件特定屬性。範例：影像的`deliveryUrl`
 
 如需決策API和選件表示法的詳細資訊，請參閱[本頁面](../../using/offers/api-reference/decisions-api/deliver-offers.md)
 
-所有參考都會根據選件結構來驗證，其驗證機制如[此頁面](personalization-validation.md)所述。
+所有參考都會根據選件結構來驗證，其驗證機制如[本頁](personalization-validation.md)所述
 
 **範例參考：**
 
