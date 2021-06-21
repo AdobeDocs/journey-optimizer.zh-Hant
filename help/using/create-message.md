@@ -5,9 +5,9 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '480'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->每位使用者都可以存取、建立、編輯和發佈訊息。 了解更多有關[的用戶權限，請參閱本節](../using/administration/permissions.md)。
+>使用者可依其產品設定檔存取、建立、編輯和/或發佈訊息。 了解更多有關[的用戶權限，請參閱本節](../using/administration/permissions.md)。
 
 ![](assets/messages-list.png)
 
