@@ -2,17 +2,17 @@
 title: 推播通知設定
 description: 了解如何設定您的環境，以使用Journey Optimizer傳送推播通知
 feature: 應用程式設定
-topic: 管理
+topic: 推播
 role: Administrator
 level: Intermediate
-source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
+source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
 source-wordcount: '1435'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# 配置推播通知通道{#push-notification-configuration}
+# 設定推播通知頻道 {#push-notification-configuration}
 
 [!DNL Journey Optimizer] 可讓您建立歷程並傳送訊息給目標對象。開始使用[!DNL Journey Optimizer]傳送推播通知前，您必須確定已在行動應用程式、[!DNL Adobe Experience Platform]和[!DNL Adobe Experience Platform Launch]中部署設定和整合。 若要了解AdobeJourney Optimizer中的推播通知資料流程，請參閱[本頁面](push-gs.md)。
 
