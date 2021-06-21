@@ -1,18 +1,18 @@
 ---
-title: 開始使用推送設定
+title: 開始使用推播設定
 description: 了解推播通知資料流程和元件
 feature: 應用程式設定
-topic: 管理
+topic: 推播
 role: Administrator
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
 source-wordcount: '808'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 開始使用推播設定{#get-started-push}
+# 開始使用推播設定 {#get-started-push}
 
 推播通知可協助您隨時與您的行動應用程式使用者聯絡，尤其是當使用者目前未使用您的應用程式時。 推播通知可協助您達成各種使用案例，例如提供服務的更新、要求使用者採取動作、提醒使用者留意新交易等。 裝置平台需要選擇加入，才能讓使用者收到或檢視您的通知。 使用者選擇加入的時機，最早可在應用程式於安裝後首次啟動後，或在後續的工作階段或工作流程中（視適用情況而定）收到。 [!DNL Journey Optimizer] 支援推播通知，並協助您以領先業界的吞吐率傳送高度相關的通知。推播通知可能包括個人化和歷程型內容，以運用您的品牌對Adobe Experience Cloud的資料深入分析。
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 * **Adobe Experience Platform Mobile** SDK，可透過Android和iOS相容的SDK，為您的行動裝置提供用戶端整合API。SDK提供Adobe Journey Optimizer擴充功能，可公開多種專用於推送訊息的API，並啟用資料流，例如註冊推送代號或傳送推送追蹤事件或任何其他自訂體驗事件至Adobe Experience Platform。 SDK也提供多種其他擴充功能，以啟用其他Adobe Experience Cloud和第三方合作夥伴功能。
 
-   SDK整合也需要設定Adobe Experience Platform [資料收集](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=zh-Hant)服務，例如：
+   SDK整合也需要設定Adobe Experience Platform [資料收集](https://experienceleague.adobe.com/docs/launch/using/home.html)服務，例如：
 
    * 建立資料流，以設定資料流入Adobe Experience Platform的設定檔和體驗事件資料集
    * 建立用戶端行動屬性並新增擴充功能。 SDK與這些擴充功能緊密整合，提供順暢的資料收集體驗。
