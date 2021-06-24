@@ -5,7 +5,7 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 4%
@@ -46,7 +46,7 @@ ht-degree: 4%
 
    ![](../../assets/fallback_review.png)
 
-1. 備援優惠方案會顯示在清單中，且狀態為&#x200B;**[!UICONTROL Live]**&#x200B;或&#x200B;**[!UICONTROL Draft]**，視您在上一個步驟中是否核准而定。
+1. 系統會根據您在上一個步驟中是否核准，顯示狀態為&#x200B;**[!UICONTROL Live]**&#x200B;或&#x200B;**[!UICONTROL Draft]**&#x200B;的清單中。
 
    現在已可供客戶使用。 您可以選取它以顯示其屬性並加以編輯。<!-- no suppression? -->
 
