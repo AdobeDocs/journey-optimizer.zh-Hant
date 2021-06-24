@@ -5,7 +5,7 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: 21476691c6e5c5a2f8c5e36a494206fc9779c9d2
+source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 4%
@@ -29,7 +29,7 @@ ht-degree: 4%
 * [個人化優惠](../offer-library/creating-personalized-offers.md)
 * [遞補優惠](../offer-library/creating-fallback-offers.md)
 
-## 建立決策{#create-activity}
+## 建立決策 {#create-activity}
 
 1. 訪問決策清單，然後按一下&#x200B;**[!UICONTROL Create activity]**。
 
@@ -71,7 +71,7 @@ ht-degree: 4%
 
    ![](../../assets/activity_constraint_rule.png)
 
-## 新增回退優惠方案{#add-fallback}
+## 新增回退優惠方案 {#add-fallback}
 
 選擇將作為最後手段呈現給不符合優惠方案適用性規則和限制的客戶的回退優惠方案，然後按一下&#x200B;**[!UICONTROL Next]**。
 
