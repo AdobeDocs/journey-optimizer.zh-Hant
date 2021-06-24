@@ -5,14 +5,14 @@ feature: 報告
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 歷程全域報表{#journey-global-report}
+# 歷程全域報告 {#journey-global-report}
 
 您可使用&#x200B;**[!UICONTROL Global report]**&#x200B;按鈕，直接從您的歷程存取歷程全域報表。
 
@@ -26,15 +26,15 @@ ht-degree: 0%
 
 歷程&#x200B;**[!UICONTROL Global report]**&#x200B;會分為不同的Widget，詳述您歷程的成功和錯誤。 如有需要，可對每個介面工具集調整大小並加以刪除。 有關詳細資訊，請參閱此[節](global-report.md#modify-dashboard)。
 
-## 歷程索引標籤{#journey-global}
+## 歷程標籤 {#journey-global}
 
 從您的歷程&#x200B;**[!UICONTROL Global report]**&#x200B;中， **[!UICONTROL Journey]**&#x200B;標籤可讓您清楚檢視有關歷程的最重要追蹤資料。
 
 ![](../assets/global_report_2.png)
 
-**[!UICONTROL Journey`s performance]**&#x200B;介面工具集可讓您逐步查看目標設定檔的歷程路徑。
+**[!UICONTROL Journey Performance]**&#x200B;介面工具集可讓您逐步查看目標設定檔的歷程路徑。
 
-**[!UICONTROL Journey`s statistics]**&#x200B;介面工具集顯示以下KPI:
+**[!UICONTROL Journey Statistics]**&#x200B;介面工具集顯示以下KPI:
 
 * **[!UICONTROL Entered profiles]**:到達歷程進入事件的個人總數。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Error in action]**:發生的錯誤總 **[!UICONTROL Actions]**&#x200B;數。
 
-## 電子郵件標籤{#email-global}
+## 電子郵件索引標籤 {#email-global}
 
 從您的歷程&#x200B;**[!UICONTROL Global report]**&#x200B;中， **[!UICONTROL Email]**&#x200B;標籤會詳細說明與歷程中傳送的電子郵件傳送相關的主要資訊。
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 **[!UICONTROL Email - Top recipient domain]**&#x200B;圖表和表格會詳細說明收件者最常使用哪些網域來開啟電子郵件。
 
-## 推播標籤{#push-global}
+## 推送標籤 {#push-global}
 
 從您的歷程&#x200B;**[!UICONTROL Global report]**&#x200B;中，**[!UICONTROL Push]**&#x200B;標籤會詳細說明與歷程中傳送的推送傳送相關的主要資訊。
 
