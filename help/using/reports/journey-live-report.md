@@ -5,7 +5,7 @@ feature: 報告
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
+source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 1%
@@ -26,15 +26,15 @@ ht-degree: 1%
 
 歷程&#x200B;**[!UICONTROL Live report]**&#x200B;會分為不同的Widget，詳述您歷程的成功和錯誤。 如有需要，可對每個介面工具集調整大小並加以刪除。 有關詳細資訊，請參閱此[節](live-report.md#modify-dashboard)。
 
-## 歷程索引標籤{#journey-live}
+## 歷程標籤 {#journey-live}
 
 從您的歷程&#x200B;**[!UICONTROL Live report]**&#x200B;中， **[!UICONTROL Journey]**&#x200B;標籤可讓您清楚檢視有關歷程的最重要追蹤資料。
 
 ![](../assets/report_journey_2.png)
 
-**[!UICONTROL Journey`s performance]** 可讓您逐步查看目標設定檔的路徑。
+**[!UICONTROL Journey Performance]** 可讓您逐步查看目標設定檔的路徑。
 
-**[!UICONTROL Journey`s statistics]**&#x200B;介面工具集顯示以下KPI:
+**[!UICONTROL Journey Statistics]**&#x200B;介面工具集顯示以下KPI:
 
 * **[!UICONTROL Entered profiles]**:到達歷程進入事件的個人總數。
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Error in action]**:針對動作發生的錯誤總數。
 
-## 電子郵件標籤{#email-live}
+## 電子郵件索引標籤 {#email-live}
 
 從您的歷程&#x200B;**[!UICONTROL Live report]**&#x200B;中， **[!UICONTROL Email]**&#x200B;標籤會詳細說明與歷程中傳送的電子郵件傳送相關的主要資訊。
 
@@ -100,7 +100,7 @@ ht-degree: 1%
 
 **[!UICONTROL Error Reasons]**&#x200B;圖表和表格可讓您查看在傳送期間發生的錯誤。
 
-## 推播標籤{#push-live}
+## 推送標籤 {#push-live}
 
 從您的歷程&#x200B;**[!UICONTROL Live report]**&#x200B;中，**[!UICONTROL Push]**&#x200B;標籤會詳細說明與歷程中傳送的推送傳送相關的主要資訊。
 
