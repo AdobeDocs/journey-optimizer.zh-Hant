@@ -5,7 +5,7 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Beginner
-source-git-commit: 9ad4eeb11094b384f68eeaa9aa4e8fd7fe3e20c0
+source-git-commit: 51699c3bf597bc878b61438c0d0720bca317ff47
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 2%
@@ -20,11 +20,11 @@ ht-degree: 2%
 
 有關[!DNL Assets Essentials]的更詳細過程，請參閱[Adobe Experience Manager Assets Essentials文檔](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html)。
 
-## 上傳並插入資產{#add-asset}
+## 上傳和插入資產{#add-asset}
 
 若要上傳[!DNL Assets Essentials]中的檔案，您首先需要瀏覽或建立要儲存該檔案的資料夾。 然後，您就能將它們插入您的電子郵件內容。
 
-如需上傳資產的詳細資訊，請參閱[Adobe Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete-assets.html)。
+如需上傳資產的詳細資訊，請參閱[Adobe Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html)。
 
 1. 從[!DNL Adobe Journey Optimizer]首頁，選擇&#x200B;**[!UICONTROL Content management]**&#x200B;菜單下的&#x200B;**[!UICONTROL Assets]**&#x200B;頁簽以訪問[!DNL Assets Essentials]。
 
