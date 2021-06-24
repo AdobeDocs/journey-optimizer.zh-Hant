@@ -87,7 +87,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 <!--The opt-out URL is resolved upon each recipient receiving the message. It is then personalized with the relevant encrypted parameters (profile ID, profile name, journey ID, sandbox ID, and message execution ID).-->
 
-## 選擇退出 API 呼叫{#opt-out-api}
+## 選擇退出 API 呼叫 {#opt-out-api}
 
 當收件者按一下取消訂閱連結選擇退出後，就會呼叫 Adobe I/OAPI <!--Consent service API to capture the encrypted data and-->以更新對應的設定檔偏好設定。
 
@@ -129,7 +129,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
 
-## 在標題{#unsubscribe-email}中取消訂閱連結
+## 標題中的取消訂閱連結 {#unsubscribe-email}
 
 如果收件者的電子郵件用戶端支援在電子郵件標題中顯示取消訂閱連結，則隨[!DNL Journey Optimizer]傳送的電子郵件會自動包含此連結。
 
