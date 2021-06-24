@@ -12,7 +12,7 @@ ht-degree: 52%
 
 ---
 
-# 快速啟動 {#cjm-quick-start}
+# 快速入門 {#cjm-quick-start}
 
 ## 啟動的重要步驟 {#cjm-key-steps}
 
