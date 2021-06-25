@@ -5,18 +5,16 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '507'
 ht-degree: 2%
 
 ---
 
 # 新增個人化優惠 {#deliver-personalized-offers}
 
-## 關於決定管理 {#about-offer-decisioning}
-
-透過[!DNL Journey Optimizer]，您可以插入電子郵件訊息決策（先前稱為優惠方案活動）中，此決策將運用優惠方案決策引擎，以便挑選最合適的優惠方案並傳送給客戶。
+在[!DNL Journey Optimizer]電子郵件訊息中，您可以插入將運用優惠方案決策引擎的決策（先前稱為「優惠方案活動」），以便挑選最合適的優惠方案並傳送給客戶。
 
 例如，您可以新增決策，在電子郵件中顯示特別折扣優惠，該優惠會根據收件者的忠誠度而有所不同。
 
@@ -25,11 +23,11 @@ ht-degree: 2%
 若要取得&#x200B;**完整的端對端範例**，說明如何設定選件，請在決策中使用這些選件，並在電子郵件中運用此決策，請查看[此區段](offers/offers-e2e.md#insert-decision-in-email)。
 
 
-## 在電子郵件{#insert-offers}中插入決策
+## 在電子郵件中插入決策 {#insert-offers}
 
 >[!CAUTION]
 >
->您必須先定義優惠方案決策。 了解如何在[本小節](offers/offer-activities/create-offer-activities.md)中建立決策。
+>開始之前，您必須[定義優惠方案決策](offers/offer-activities/create-offer-activities.md)。
 
 若要將決策插入電子郵件訊息，請遵循下列步驟：
 
@@ -60,7 +58,7 @@ ht-degree: 2%
 優惠方案活動現在已新增至元件。
 
 
-## 在電子郵件{#preview-offers-in-email}中預覽選件
+## 在電子郵件中預覽優惠方案 {#preview-offers-in-email}
 
 您可以使用&#x200B;**[!UICONTROL Offers]**&#x200B;區段或內容元件箭頭，預覽屬於新增至電子郵件之決策的不同選件。
 
