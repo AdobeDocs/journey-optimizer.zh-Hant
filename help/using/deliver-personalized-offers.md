@@ -5,9 +5,9 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+source-git-commit: 6fc882827c2ba98af539abf90347483301d48edc
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '529'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 2%
 如需如何建立和管理選件的詳細資訊，請參閱[此區段](offers/get-started/starting-offer-decisioning.md)。
 
 若要取得&#x200B;**完整的端對端範例**，說明如何設定選件，請在決策中使用這些選件，並在電子郵件中運用此決策，請查看[此區段](offers/offers-e2e.md#insert-decision-in-email)。
+
+[!DNL :arrow_forward:] [了解如何在此影片中將選件新增為個人化](#video-offers)
 
 
 ## 在電子郵件中插入決策 {#insert-offers}
@@ -101,3 +103,9 @@ ht-degree: 2%
    ![](assets/deliver-offer-test-profile-male-preview.png)
 
 進一步了解在[此區段](#preview-your-messages)中檢查訊息預覽的詳細步驟。
+
+## 作法影片{#video-offers}
+
+了解如何將offer decisioning元件新增至[!DNL Journey Optimizer]中的訊息。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
