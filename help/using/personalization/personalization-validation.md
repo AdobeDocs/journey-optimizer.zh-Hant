@@ -5,9 +5,9 @@ feature: 個性化
 topic: 個性化
 role: Data Engineer
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '324'
 ht-degree: 2%
 
 ---
@@ -17,10 +17,10 @@ ht-degree: 2%
 
 ## 驗證機制
 
-在「運算式」編輯器畫面中， **Validate**&#x200B;按鈕可讓您驗證個人化語法。
+在&#x200B;**運算式編輯器**&#x200B;畫面中，使用&#x200B;**驗證**&#x200B;按鈕來檢查您的個人化語法。
 
 >[!NOTE]
-> 按一下&#x200B;**Add**&#x200B;以關閉編輯器視窗時，會自動執行驗證。
+> 當您按一下&#x200B;**Add**&#x200B;按鈕以關閉編輯器視窗時，驗證會自動執行。
 
 
 ![](assets/perso_validation1.png)
@@ -69,7 +69,7 @@ Handlebars表達式被&#x200B;**{{expression}}**&#x200B;包圍
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-### 與優惠方案相關的特定錯誤
+## 與優惠方案相關的特定錯誤
 
 與電子郵件或推送訊息中選件整合相關的錯誤模式如下：
 
