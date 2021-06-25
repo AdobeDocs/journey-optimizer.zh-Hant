@@ -5,21 +5,25 @@ feature: 個性化
 topic: 個性化
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1181'
 ht-degree: 2%
 
 ---
 
 
-# 模板語言和輔助功能 {#functionsL}
+# 幫助程式函式庫{#functionsL}
 
 使用[!DNL Journey Optimizer]範本語言對資料執行操作，例如計算、資料格式或轉換、條件，以及在個人化內容中處理這些操作。 在[本頁面](../personalization-syntax.md)中了解個人化語法准則。
+
+[!DNL :arrow_forward:] [探索如何在影片中使用協助程式功能](#video)
 
 範本語言會運用在運算式編輯器的個人化下拉式清單中可用的協助函式中，如下所示：
 
 ![](../assets/access-helper-functions.png)
+
+
 
 在[!DNL Journey Optimizer]運算式編輯器中，協助程式函式分為三個類別：[函式](#functions-helper)、[Helpers](#helper-helper)和[操作符](#operators-helper)。
 
@@ -189,7 +193,7 @@ ht-degree: 2%
 </table>
 
 
-## Helpers{#helper-helper}
+## 輔助程式{#helper-helper}
 
 [本頁](helpers.md)中有詳細的幫助程式。
 
@@ -214,7 +218,7 @@ ht-degree: 2%
 
 ## 操作者{#operators-helper}
 
-### 算術函式{#arithmetic-helper}
+### 算術函式 {#arithmetic-helper}
 
 算術函式用於對值執行基本計算。
 
@@ -279,3 +283,8 @@ ht-degree: 2%
     </tr>
 </table>
 
+## 作法影片{#video}
+
+了解如何使用個人化協助程式函式來轉換個人化值，並了解協助程式函式的不同使用案例。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
