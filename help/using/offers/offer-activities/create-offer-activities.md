@@ -5,9 +5,9 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 2388a43928f5ea52bafbc5173f7302d53b2c5857
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '588'
 ht-degree: 4%
 
 ---
@@ -37,11 +37,15 @@ ht-degree: 4%
 
    ![](../../assets/activities-name.png)
 
-## 新增優惠方案 {#add-offers}
+## 添加決策範圍 {#add-decision-scopes}
 
 1. 從清單中拖放版位以將其新增至決策，然後按一下&#x200B;**[!UICONTROL Add collection]**。
 
    ![](../../assets/activities-placement.png)
+
+   >[!NOTE]
+   >
+   >可在決策中選取相同版位多次。
 
 1. 選取包含要考慮之選件的集合，然後按一下&#x200B;**[!UICONTROL Add]**。
 
