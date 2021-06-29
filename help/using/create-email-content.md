@@ -5,14 +5,14 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
+source-git-commit: 587dcb4823f57132748c913410a6fc177ccf76f1
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1487'
 ht-degree: 1%
 
 ---
 
-# 在使用者介面{#create-email-content}中設計您的電子郵件內容
+# 在使用者介面中設計您的電子郵件內容 {#create-email-content}
 
 在您建立了[訊息](create-message.md)後，就可以開始建立電子郵件內容。
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
    ![](assets/email_designer_25.png)
 
-## 從頭設計{#design-scratch}
+## 從頭設計 {#design-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
@@ -110,7 +110,7 @@ ht-degree: 1%
 
 您的電子郵件內容現在可用於訊息中。 [了解如何傳送訊息](publish-manage-message.md)。
 
-## 建立電子郵件的文本版本{#generate-text-version}
+## 建立電子郵件的文字版本 {#generate-text-version}
 
 建議您建立電子郵件內文的文字版本，以用於無法顯示HTML內容時。
 
@@ -175,7 +175,7 @@ ht-degree: 1%
 
 您的電子郵件現在已設定前置標題。
 
-## 背景設定{#about-backgrounds}
+## 背景設定 {#about-backgrounds}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
@@ -213,44 +213,65 @@ ht-degree: 1%
 
    您也可以在欄層級設定背景影像，但此功能很少使用。
 
-## 調整垂直對齊和邊框間距{#adjusting-vertical-alignment-and-padding}
+## 調整垂直對齊和邊框間距 {#adjusting-vertical-alignment-and-padding}
 
-要調整由三列組成的結構元件內的邊框間距和垂直對齊方式。 若要這麼做，請遵循下列步驟：
+在此示例中，我們將調整由三列組成的結構元件內的邊框間距和垂直對齊方式。
 
-1. 直接在電子郵件中選取結構元件，或使用左側&#x200B;**浮動視窗**&#x200B;中可用的結構樹狀結構。
-1. 從&#x200B;**上下文工具欄**&#x200B;中，按一下&#x200B;**[!UICONTROL Select a column]**&#x200B;並選擇要編輯的工具欄。 您也可以從結構樹中選取它。
+1. 直接在電子郵件中或使用左側功能表中可用的&#x200B;**[!UICONTROL Navigation tree]**&#x200B;選取結構元件。
 
-   該列的可編輯參數顯示在右側的&#x200B;**[!UICONTROL Settings]**&#x200B;窗格中。
+   ![](assets/alignment_1.png)
 
-1. 在&#x200B;**[!UICONTROL Vertical alignment]**&#x200B;下，選擇&#x200B;**[!UICONTROL Up]**。
+1. 從工具欄中，按一下&#x200B;**[!UICONTROL Select a column]**&#x200B;並選擇要編輯的。 您也可以從結構樹中選取它。
 
-   內容元件會顯示在欄的頂端。
+   該列的可編輯參數顯示在&#x200B;**[!UICONTROL Column settings]**&#x200B;菜單中。
+
+   ![](assets/alignment_2.png)
+
+1. 在&#x200B;**[!UICONTROL Vertical alignment]**&#x200B;下，選擇&#x200B;**[!UICONTROL Bottom]**。
+
+   內容元件會移至欄底部。
+
+   ![](assets/alignment_3.png)
 
 1. 在&#x200B;**[!UICONTROL Padding]**&#x200B;下，定義列內的頂部邊框間距。 按一下鎖定圖示以中斷與底部邊框間距的同步。
 
    定義該欄的左邊框和右邊框間距。
 
+   ![](assets/alignment_4.png)
+
 1. 以類似方式繼續調整其他列的對齊方式和邊框間距。
 
 1. 儲存您的變更。
 
-## 定義連結的樣式{#about-styling-links}
+## 定義連結的樣式 {#about-styling-links}
 
 您可以在電子郵件設計工具中為連結加底線，並選取其顏色和目標。
 
-1. 在插入連結的元件中，選取連結的標籤文字。
+1. 在插入連結的文字&#x200B;**[!UICONTROL Content component]**&#x200B;中，選取您的連結。
 
-1. 在元件設定中，核取&#x200B;**[!UICONTROL Underline link]**&#x200B;將連結的標籤文字加底線。
+1. 在&#x200B;**[!UICONTROL Component settings]**&#x200B;功能表中，檢查&#x200B;**[!UICONTROL Underline link]**&#x200B;以將連結的標籤文字加底線。
 
-1. 若要選取要開啟連結的瀏覽內容，請選取&#x200B;**[!UICONTROL Target]**。
+   ![](assets/link_1.png)
+
+1. 選擇透過&#x200B;**[!UICONTROL Target]**&#x200B;下拉式清單重新導向對象的方式：
+
+   * **[!UICONTROL None]**:在與點按連結相同的時間格中開啟連結（預設）。
+   * **[!UICONTROL Blank]**:在新視窗或索引標籤中開啟連結。
+   * **[!UICONTROL Self]**:在按一下連結時的同一幀中開啟連結。
+   * **[!UICONTROL Parent]**:開啟父框架中的連結。
+   * **[!UICONTROL Top]**:在窗口的正文中開啟連結。
+
+   ![](assets/link_2.png)
 
 1. 若要變更連結的顏色，請按一下&#x200B;**[!UICONTROL Link color]**。
+
+   ![](assets/link_3.png)
 
 1. 選擇所需的顏色。
 
 1. 儲存您的變更。
 
-## 新增內嵌樣式屬性{#adding-inline-styling-attributes}
+## 新增內嵌樣式屬性 {#adding-inline-styling-attributes}
 
 在「電子郵件設計工具」介面中，當您選取元素並在側面板顯示其設定時，可以自訂該特定元素的內嵌屬性及其值。
 
