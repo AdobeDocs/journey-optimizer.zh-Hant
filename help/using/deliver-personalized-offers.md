@@ -5,7 +5,7 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 6fc882827c2ba98af539abf90347483301d48edc
+source-git-commit: f76f9c39b460bc3d70ba3258764d35583cd5fd77
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 2%
@@ -22,8 +22,7 @@ ht-degree: 2%
 
 若要取得&#x200B;**完整的端對端範例**，說明如何設定選件，請在決策中使用這些選件，並在電子郵件中運用此決策，請查看[此區段](offers/offers-e2e.md#insert-decision-in-email)。
 
-[!DNL :arrow_forward:] [了解如何在此影片中將選件新增為個人化](#video-offers)
-
+![](assets/do-not-localize/how-to-video.png) [了解如何在此影片中將選件新增為個人化](#video-offers)
 
 ## 在電子郵件中插入決策 {#insert-offers}
 
