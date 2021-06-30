@@ -5,10 +5,10 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: d85dfe519ebbbb27693c7283c19cc1d7171c25ba
+source-git-commit: b495c96474e41d5b31cb3268434dbe36cfe13ec0
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 76%
+source-wordcount: '1193'
+ht-degree: 74%
 
 ---
 
@@ -154,7 +154,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 按一下清單左上方的篩選圖示，即可存取篩選器 。篩選功能表可讓您根據不同的條件篩選顯示的元素。您可以選擇僅顯示某一類型或狀態的元素、您建立的元素，或者在過去 30 天內修改的元素。選項會因內容而異。
 
-在歷程清單中，您可以根據歷程的狀態和版本從&#x200B;**[!UICONTROL Status and version filters]**&#x200B;篩選歷程。 您可以選擇只顯示使用來自&#x200B;**[!UICONTROL Activity filters]** 與 **[!UICONTROL Data filters]**&#x200B;的特定事件、欄位群組或動作的歷程。**[!UICONTROL Publication filters]**&#x200B;可讓您選擇出版物日期或使用者。 舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。[了解更多](building-journeys/using-the-journey-designer.md)。
+在歷程清單中，您可以根據歷程的狀態、類型以及&#x200B;**[!UICONTROL Status and version filters]**&#x200B;中的版本來篩選歷程。 類型可以是：**[!UICONTROL Unitary event]**、**[!UICONTROL Segment qualification]**、**[!UICONTROL Read segment]**、**[!UICONTROL Business event]**&#x200B;或&#x200B;**[!UICONTROL Burst]**。 您可以選擇只顯示使用來自&#x200B;**[!UICONTROL Activity filters]** 與 **[!UICONTROL Data filters]**&#x200B;的特定事件、欄位群組或動作的歷程。**[!UICONTROL Publication filters]**&#x200B;可讓您選擇出版物日期或使用者。 舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。[了解更多](building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
