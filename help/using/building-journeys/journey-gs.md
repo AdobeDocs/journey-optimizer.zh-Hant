@@ -5,9 +5,9 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
+source-git-commit: c6f4369c98b28afe1c607996e3f993dbfe09f63e
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1724'
 ht-degree: 7%
 
 ---
@@ -72,7 +72,9 @@ ht-degree: 7%
 
 您可以變更歷程的名稱、新增說明、允許重新進入、選擇開始和結束日期，以及定義&#x200B;**[!UICONTROL Timeout and error]**&#x200B;持續時間（如果您是管理員）。
 
-**複製技術詳細資訊**&#x200B;可讓您複製支援團隊可用於疑難排解的歷程相關技術資訊。 會複製下列資訊：JourneyVersion UID, OrgID, orgName, sandboxName。
+對於即時歷程，此畫面會顯示發佈日期以及發佈歷程的使用者名稱。
+
+**複製技術詳細資訊**&#x200B;可讓您複製支援團隊可用於疑難排解的歷程相關技術資訊。 會複製下列資訊：JourneyVersion UID, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt。
 
 ![](../assets/journey32.png)
 
@@ -142,7 +144,7 @@ ht-degree: 7%
 
 歷程可能會因為兩個原因而結束：
 
-* 人員到達路徑的最後一個活動。 最後一個活動可以是結束活動或其他活動。 沒有義務以結束活動結束路徑。 請參閱[本頁](../building-journeys/end-activity.md)。
+* 人員到達路徑的最後一個活動。 最後一個活動可以是結束活動或其他活動。 沒有義務以結束活動結束路徑。 請參閱[此頁面](../building-journeys/end-activity.md)。
 * 人員到達條件活動（或具有條件的等待活動），且不符合任何條件。
 
 如果允許重新進入，則人員可以重新進入歷程。 請參閱[此頁面](../building-journeys/journey-gs.md#change-properties)
