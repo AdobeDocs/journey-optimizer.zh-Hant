@@ -5,16 +5,16 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+source-git-commit: 2e85e966dcff87717ce4a5f426f9e66526dab7c4
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '921'
 ht-degree: 2%
 
 ---
 
-# 在歷程{#segment-trigger-activity}中使用區段
+# 在歷程中使用區段 {#segment-trigger-activity}
 
-## 關於讀取區段活動{#about-segment-trigger-actvitiy}
+## 關於讀取區段活動 {#about-segment-trigger-actvitiy}
 
 「讀取區段」活動可讓您讓屬於Adobe Experience Platform區段的所有個人進入歷程。 進入歷程可以執行一次，也可以定期執行。
 
@@ -22,11 +22,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->無法在1小時以內的較短時間範圍內觸發以區段為基礎的歷程。
->
 >Burst付費附加元件允許以大流量發送非常快速的推送訊息，用於包含讀取區段和簡單推送訊息的簡單歷程。 如需詳細資訊，請參閱[此區段](../building-journeys/journey-gs.md#burst)
 
-### 配置活動{#configuring-segment-trigger-activity}
+### 設定活動 {#configuring-segment-trigger-activity}
 
 設定「讀取區段」活動的步驟如下：
 
@@ -62,7 +60,7 @@ ht-degree: 2%
 
    ![](../assets/read-segment-schedule.png)
 
-   依預設，區段會輸入歷程&#x200B;**[!UICONTROL As soon as possible]**，這表示歷程發佈後1小時。 如果您想讓區段以特定日期/時間或循環基準輸入歷程，請從清單中選取所需值。
+   依預設，區段會輸入歷程&#x200B;**[!UICONTROL As soon as possible]**。 如果您想讓區段以特定日期/時間或循環基準輸入歷程，請從清單中選取所需值。
 
    >[!NOTE]
    >
@@ -93,8 +91,6 @@ ht-degree: 2%
 測試成功後，您就可以發佈歷程（請參閱[發佈歷程](publishing-the-journey.md)）。 屬於區段的個人會在歷程的屬性&#x200B;**[!UICONTROL Scheduler]**&#x200B;區段中指定的日期/時間進入歷程。
 
 >[!NOTE]
->
->執行非重複的區段型歷程（「盡快開始」或「一次」）時，其狀態會自動變更為「已關閉」。
 >
 >對於循環性區段型歷程，一旦執行最後一次出現，歷程就會自動關閉。 如果未指定結束日期/時間，您必須手動關閉歷程至新入口，才能結束歷程。
 
