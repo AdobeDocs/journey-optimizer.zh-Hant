@@ -5,10 +5,10 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: e367067bc7ab1b1ace7815213b921a4f90d12885
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 52%
+source-wordcount: '391'
+ht-degree: 47%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 52%
 開始使用[!DNL Adobe Journey Optimizer]之前，您需要：
 
 * **設定使用者權限**:登入並 [!DNL Adobe Journey Optimizer] 授予團隊成員的存取權。[閱讀全文](../using/administration/permissions.md)
+
+* **部[!DNL Adobe Experience Manager Assets Essentials]**&#x200B;署：若要管理訊息中的資產和影像，您需要為您的組 [!DNL Assets Essentials] 織進行部署，並確定您是Assets Essentials消費者使用者 **和** Assets Essentials使用者產品設 **定檔的一** 部分。[閱讀全文](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
 
 * **設定通道**:定義您的電子郵件和推播通知設定。[閱讀全文](../using/configuration/get-started-configuration.md)
 
