@@ -5,9 +5,9 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Beginner
-source-git-commit: e367067bc7ab1b1ace7815213b921a4f90d12885
+source-git-commit: 4b65425389c64c867919746beede5456a6a08abd
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '375'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> 若要使用[!DNL Adobe Experience Manager Assets Essentials]，您需要為組織部署[!DNL Assets Essentials]，並確定您是&#x200B;**Assets Essentials消費者使用者**&#x200B;或/和&#x200B;**Assets Essentials使用者**&#x200B;產品設定檔的一員。 <br> 如需詳細資訊，請參閱本 [頁面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)。
+> 若要使用[!DNL Adobe Experience Manager Assets Essentials]，您需要為組織部署[!DNL Assets Essentials]，並確認需要存取[!DNL Assets Essentials]的使用者是&#x200B;**Assets Essentials消費者使用者**&#x200B;或/及&#x200B;**Assets Essentials使用者**&#x200B;產品設定檔的一部分。 <br> 如需詳細資訊，請參閱本 [頁面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)。
 
 [!DNL Adobe Experience Manager Assets Essentials] 提供單一的集中資產存放庫，供您用來填入訊息。您可以透過&#x200B;**[!UICONTROL Assets]**&#x200B;區段直接從[!DNL Adobe Journey Optimizer]存取。 設計電子郵件內容時，您也可以存取資產和資料夾。 [深入了解電子郵件設計](design-emails.md)。
 
