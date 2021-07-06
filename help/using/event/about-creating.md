@@ -5,10 +5,10 @@ feature: 事件
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1656'
-ht-degree: 14%
+source-wordcount: '1674'
+ht-degree: 13%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 14%
 
 ## 定義裝載欄位 {#define-the-payload-fields}
 
-有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯之人員的金鑰。 裝載以Experience CloudXDM欄位定義為基礎。 如需XDM的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)。
+有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯之人員的金鑰。 裝載以Experience CloudXDM欄位定義為基礎。 如需XDM的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 1. 從清單中選取XDM架構，然後按一下&#x200B;**[!UICONTROL Fields]**&#x200B;欄位或&#x200B;**[!UICONTROL Edit]**&#x200B;圖示。
 
@@ -101,9 +101,9 @@ ht-degree: 14%
 
 ## 選取命名空間 {#select-the-namespace}
 
-命名空間可讓您定義用於識別與事件相關聯之人員的索引鍵類型。 其設定為選用。 如果您想在歷程中擷取來自[即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)的其他資訊，則此為必要項目。 如果您只使用來自協力廠商系統的資料（透過自訂資料來源），則不需要命名空間定義。
+命名空間可讓您定義用於識別與事件相關聯之人員的索引鍵類型。 其設定為選用。 如果您想在歷程中擷取來自[即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}的其他資訊，則此為必要項目。 如果您只使用來自協力廠商系統的資料（透過自訂資料來源），則不需要命名空間定義。
 
-您可以使用其中一個預先定義的命名空間，或使用身分命名空間服務建立新的一個。 請參閱此[page](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)。
+您可以使用其中一個預先定義的命名空間，或使用身分命名空間服務建立新的一個。 請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target=&quot;_blank&quot;}。
 
 如果選擇具有主要身份的架構，則預填&#x200B;**[!UICONTROL Profiler identifier]**&#x200B;和&#x200B;**[!UICONTROL Namespace]**&#x200B;欄位。 如果沒有定義標識，則選擇&#x200B;_identityMap > id_&#x200B;作為主鍵。 然後，您必須選取命名空間，並使用&#x200B;_identityMap > id_&#x200B;預先填入索引鍵（在&#x200B;**[!UICONTROL Namespace]**&#x200B;欄位下方）。
 
@@ -122,7 +122,7 @@ ht-degree: 14%
 
 金鑰是欄位或欄位組合是事件有效負載資料的一部分，且將允許系統識別與事件相關聯的人員。 金鑰可以是Experience CloudID、CRM ID或電子郵件地址。
 
-如果您打算利用儲存在即時客戶配置檔案資料庫中的資料，則必須選擇[即時客戶配置檔案服務](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)中定義為配置檔案標識的資訊作為事件鍵。
+如果您打算利用儲存在即時客戶配置檔案資料庫中的資料，則必須選擇在[即時客戶配置檔案服務](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}中定義為配置檔案標識的資訊作為事件鍵。
 
 它可讓系統執行事件與個人設定檔之間的調解。 如果選擇具有主要身份的架構，則預填&#x200B;**[!UICONTROL Profile identifier]**&#x200B;和&#x200B;**[!UICONTROL Namespace]**&#x200B;欄位。 如果沒有定義標識，則選擇&#x200B;_identityMap > id_&#x200B;作為主鍵。 然後，您必須選取命名空間，並使用&#x200B;_identityMap > id_&#x200B;預先填入索引鍵（在&#x200B;**[!UICONTROL Namespace]**&#x200B;欄位下方）。
 
@@ -142,7 +142,7 @@ ht-degree: 14%
 
 收到事件時，索引鍵的值可讓系統識別與事件相關聯的人員。 與命名空間相關聯（請參閱[此區段](../event/about-creating.md#select-the-namespace)），索引鍵可用於在Adobe Experience Platform上執行查詢。 請參閱[此頁面](../building-journeys/about-journey-activities.md#orchestration-activities)。金鑰也可用來檢查人員是否在歷程中。 事實上，一個人不可能在同一個旅程中處於兩個不同的位置。 因此，系統不允許相同的索引鍵（例如CRMID=3224）位於相同歷程中的不同位置。
 
-如果要執行其他操作，您也可以訪問高級表達式函式(**[!UICONTROL Advanced mode]**)。 這些函式可讓您操控用於執行特定查詢的值，例如更改格式、執行欄位串連，而僅考慮欄位的一部分（例如10個前字元）。 請參閱[此頁面](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hant)。
+如果要執行其他操作，您也可以訪問高級表達式函式(**[!UICONTROL Advanced mode]**)。 這些函式可讓您操控用於執行特定查詢的值，例如更改格式、執行欄位串連，而僅考慮欄位的一部分（例如10個前字元）。 請參閱[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 ## 新增條件 {#add-a-condition}
 
@@ -150,7 +150,7 @@ ht-degree: 14%
 
 事件的條件只能根據事件有效負載中傳遞的資料。 行銷人員無法在畫布中變更在事件層級定義的條件。 其目的在於在使用此事件時強化此條件。 例如，如果您不希望行銷人員在購物車值太小時使用購物車放棄事件，您可以在「購物車值」事件欄位中建立條件，並強加超過100美元的值。
 
-您可以使用簡單運算式編輯器或進階運算式編輯器來設定事件的條件。 請參閱[此頁面](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html)。
+您可以使用簡單運算式編輯器或進階運算式編輯器來設定事件的條件。 請參閱[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}。
 
 例如，您可以定義條件，僅處理特定事件類型的事件，並忽略其他類型。 或者，如果您的事件是購物車放棄，且裝載包含購物車值欄位，則您可以定義事件條件，只有在購物車值大於100美元時才處理事件。
 
