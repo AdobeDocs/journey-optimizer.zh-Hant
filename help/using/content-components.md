@@ -5,14 +5,14 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 780f51295459ac7a400e0060c817b49a1f632bff
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '980'
 ht-degree: 2%
 
 ---
 
-# 使用電子郵件設計工具內容元件{#content-components}
+# 使用電子郵件設計工具內容元件 {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
@@ -115,7 +115,7 @@ ht-degree: 2%
 
 1. 按一下&#x200B;**[!UICONTROL Browse]**&#x200B;從資產中選擇影像檔案。
 
-   若要深入了解[!DNL Assets Essentials]，請參閱[Adobe Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html)。
+   若要深入了解[!DNL Assets Essentials]，請參閱[Adobe Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}。
 
 1. 按一下新添加的元件以開始配置&#x200B;**[!UICONTROL Content Components]**&#x200B;並訪問電子郵件設計器右窗格中的&#x200B;**[!UICONTROL Components Settings]**。
 
@@ -176,7 +176,7 @@ ht-degree: 2%
 
 1. 您現在可以透過變更&#x200B;**[!UICONTROL Style]**、**[!UICONTROL Margin]**&#x200B;和&#x200B;**[!UICONTROL Border]**，進一步個人化您的社交媒體圖示。
 
-## 優惠方案決定{#offer-decision}
+## 優惠方案決策 {#offer-decision}
 
 使用&#x200B;**[!UICONTROL Offer decision]**&#x200B;元件將決策（先前稱為優惠方案活動）插入訊息中。 決策會利用決策管理來挑選最適合提供給客戶的優惠方案。
 
