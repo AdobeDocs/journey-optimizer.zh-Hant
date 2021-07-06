@@ -5,7 +5,7 @@ feature: 優惠
 topic: 整合
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 5%
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # 查找決策
 
-您可以向[!DNL Offer Library] API提出GET要求，其中包含`@id`決策，或要求路徑中引渡決策的名稱，借此查詢特定決策（先前稱為選件活動）。
+您可以向[!DNL Offer Library] API提出GET要求，其中包含`@id`決策，或要求路徑中的決策名稱，借此查詢特定決策（先前稱為選件活動）。
 
 **API格式**
 
