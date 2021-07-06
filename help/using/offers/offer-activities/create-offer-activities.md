@@ -5,9 +5,9 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '576'
 ht-degree: 4%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 4%
 
    從左窗格新增一或多個區段，使用&#x200B;**[!UICONTROL And]** / **[!UICONTROL Or]**&#x200B;邏輯運算子加以結合，然後按一下&#x200B;**[!UICONTROL Select]**&#x200B;以確認。
 
-   如需如何使用區段的詳細資訊，請參閱[分段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)。
+   如需如何使用區段的詳細資訊，請參閱[本頁面](../../segment/about-segments.md)。
 
    ![](../../assets/activity_constraint_segment2.png)
 
@@ -102,7 +102,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->建立決策後，您可以按一下清單中的名稱以存取詳細資訊，並透過&#x200B;**[!UICONTROL Change log]**&#x200B;標籤將對其所做的所有變更加以視覺化（請參閱[選件與決策變更log](../get-started/user-interface.md#changes-log)）。
+>建立決策後，您可以按一下清單中的名稱以存取詳細資訊，並使用&#x200B;**[!UICONTROL Change log]**&#x200B;標籤將對其所做的所有變更視覺化。 [了解更多](../get-started/user-interface.md#changes-log)。
 
 ## 教學課程影片 {#video}
 
