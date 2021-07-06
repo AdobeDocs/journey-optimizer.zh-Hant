@@ -5,9 +5,9 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1493'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 1%
 
    ![](assets/email_designer_3.png)
 
-1. 每個元件都可進一步以&#x200B;**[!UICONTROL Component settings]**&#x200B;區段自訂。 例如，您可以變更文字樣式、元件的邊框間距或邊界。 [進一步了解電子郵件編輯器中的樣式](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html)。
+1. 每個元件都可進一步以&#x200B;**[!UICONTROL Component settings]**&#x200B;區段自訂。 例如，您可以變更文字樣式、元件的邊框間距或邊界。 在[Adobe Campaign檔案](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html){target=&quot;_blank&quot;}中，進一步了解電子郵件編輯器的樣式。
 
    ![](assets/email_designer_4.png)
 
