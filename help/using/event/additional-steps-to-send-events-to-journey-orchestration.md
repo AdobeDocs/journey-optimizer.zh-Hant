@@ -5,9 +5,9 @@ feature: 事件
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '296'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 要配置要發送到&#x200B;**[!UICONTROL Streaming Ingestion APIs]**&#x200B;以及要在[!DNL Journey Optimizer]中使用的事件，需要執行以下步驟：
 
-1. 從Adobe Experience Platform API取得入口URL。 深入了解[串流獲取API概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)。
+1. 從Adobe Experience Platform API取得入口URL。 深入了解[串流獲取API概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target=&quot;_blank&quot;}。
 1. 從&#x200B;**[!UICONTROL Event]**&#x200B;功能表中的有效負載預覽複製有效負載。 在[本頁](../event/about-creating.md#define-the-payload-fields)中瞭解更多。
 
 然後，您需要設定資料系統，使用您複製的裝載將事件推送至串流獲取API:
@@ -84,6 +84,6 @@ ht-degree: 4%
 }
 ```
 
-為方便您識別貼上「data」部件的位置，您可以使用JSON視覺化工具，例如[https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
+若要方便識別貼上「data」部件的位置，您可以使用JSON視覺化工具，例如[JSON格式化程式](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}。
 
-若要疑難排解串流獲取API，請參閱此[page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)。
+若要疑難排解串流獲取API，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}。
