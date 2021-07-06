@@ -1,19 +1,19 @@
 ---
-title: Helpers
-description: Helpers
+title: 輔助程式
+description: 輔助程式
 feature: 個性化
 topic: 個性化
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 
-# Helpers {#gs-helpers}
+# 輔助程式 {#gs-helpers}
 
 ## 條件{#if-function}
 
@@ -70,7 +70,7 @@ ht-degree: 4%
 
 1. **新增條件式連結**
 
-   以下操作將僅將具有&#39;.edu&#39;電子郵件地址的設定檔的連結新增至&#39;www.adobe.com/academia&#39;網站，將具有&#39;.org&#39;電子郵件地址的設定檔的連結新增至&#39;www.adobe.com/org&#39;網站，並將所有其他設定檔的預設URL &#39;www.adobe.com/users&#39;:
+   以下操作將僅將具有「.edu」電子郵件地址的配置檔案的「www.adobe.com/academia&#39;網站」、具有「.org」電子郵件地址的配置檔案的「www.adobe.com/org&#39;網站」以及所有其他配置檔案的預設URL「www.adobe.com/users&#39;」添加連結：
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
