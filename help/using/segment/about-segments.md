@@ -5,18 +5,18 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
-# 關於Adobe Experience Platform區段 {#about-segments}
+# 開始使用區段 {#about-segments}
 
-[!DNL Journey Optimizer]  可讓您直接從功能表使用即時客戶設定檔資料建立Adobe Experience Platform區 **[!UICONTROL Segments]** 段，並運用在您的歷程中。
+[!DNL Journey Optimizer] 可讓您直接從功能表使用即時客戶設定檔資料建立Adobe Experience Platform區 **[!UICONTROL Segments]** 段，並運用在您的歷程中。
 
-請注意，您也可以從分段服務本身建立區段。 如需詳細資訊，請參閱[Adobe Experience Platform分段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)。
+請注意，您也可以從分段服務本身建立區段。 如需詳細資訊，請參閱[Adobe Experience Platform分段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}。
 
 您可以在歷程中以不同方式運用區段：
 
