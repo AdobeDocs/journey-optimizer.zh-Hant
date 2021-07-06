@@ -5,9 +5,9 @@ feature: 應用程式設定
 topic: 推播
 role: Administrator
 level: Intermediate
-source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1454'
 ht-degree: 4%
 
 ---
@@ -31,11 +31,11 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### 設定權限
 
-建立行動應用程式之前，您必須先確定在&#x200B;**Adobe Experience Platform Launch**&#x200B;中擁有或指派正確的使用者權限。 進一步了解[Adobe Experience Platform Launch檔案](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html)。
+建立行動應用程式之前，您必須先確定在&#x200B;**Adobe Experience Platform Launch**&#x200B;中擁有或指派正確的使用者權限。 進一步了解[Adobe Experience Platform Launch檔案](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html){target=&quot;_blank&quot;}。
 
 >[!CAUTION]
 >
->推播設定必須由專家使用者執行。 根據您的實作模式和此實作中涉及的角色，您可能需要將完整的權限集指派給單一產品設定檔，或在應用程式開發人員與&#x200B;**Adobe Journey Optimizer**&#x200B;管理員之間共用權限。 深入了解[本檔案](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#platform-launch-permissions)中的&#x200B;**Adobe Experience Platform Launch**&#x200B;權限
+>推播設定必須由專家使用者執行。 根據您的實作模式和此實作中涉及的角色，您可能需要將完整的權限集指派給單一產品設定檔，或在應用程式開發人員與&#x200B;**Adobe Journey Optimizer**&#x200B;管理員之間共用權限。 深入了解[本檔案](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#platform-launch-permissions){target=&quot;_blank&quot;}中的&#x200B;**Adobe Experience Platform Launch**&#x200B;權限。
 
 <!--ou need to your have access to perform following roles :
 
@@ -52,7 +52,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
    ![](assets/push_product_1.png)
 
-1. 選擇現有的&#x200B;**[!UICONTROL Product Profile]**&#x200B;或使用&#x200B;**[!UICONTROL New profile]**&#x200B;按鈕建立新的。 了解如何在[管理控制台檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui)中建立新的&#x200B;**[!UICONTROL New profile]**。
+1. 選擇現有的&#x200B;**[!UICONTROL Product Profile]**&#x200B;或使用&#x200B;**[!UICONTROL New profile]**&#x200B;按鈕建立新的。 了解如何在[管理控制台檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target=&quot;_blank&quot;}中建立新的&#x200B;**[!UICONTROL New profile]**。
 
 1. 在&#x200B;**[!UICONTROL Permissions]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Property rights]**。
 
@@ -108,14 +108,14 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 請遵循以下連結中詳述的實作步驟：
 
-* 對於&#x200B;**Apple iOS**:在[Apple檔案](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)中了解如何使用APN註冊您的應用程式
-* 對於&#x200B;**Google Android**:在[Google檔案](https://firebase.google.com/docs/cloud-messaging/android/client)中了解如何在Android上設定Firebase Cloud Messaging用戶端應用程式
+* 對於&#x200B;**Apple iOS**:了解如何在[Apple檔案](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target=&quot;_blank&quot;}中使用APN註冊您的應用程式
+* 對於&#x200B;**Google Android**:在[Google檔案](https://firebase.google.com/docs/cloud-messaging/android/client){target=&quot;_blank&quot;}中，了解如何在Android上設定Firebase雲端訊息用戶端應用程式
 
 ### 將您的行動應用程式與Adobe Experience Platform SDK整合
 
-Adobe Experience Platform Mobile SDK透過Android和iOS相容的SDK，為您的行動裝置提供用戶端整合API。 請依照[Adobe Experience Platform Mobile SDK檔案](https://aep-sdks.gitbook.io/docs/getting-started/overview)操作，在應用程式中使用Adobe Experience Platform Mobile SDK進行設定。
+Adobe Experience Platform Mobile SDK透過Android和iOS相容的SDK，為您的行動裝置提供用戶端整合API。 請依照[Adobe Experience Platform Mobile SDK檔案](https://aep-sdks.gitbook.io/docs/getting-started/overview){target=&quot;_blank&quot;}，在您的應用程式中使用Adobe Experience Platform Mobile SDK進行設定。
 
-到此結尾，您也應該已在Adobe Experience Platform Launch中建立並設定行動屬性。 您通常會為要管理的每個行動應用程式建立行動屬性。 了解如何在[Adobe Experience Platform Launch檔案](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)中建立和設定行動屬性。
+到此結尾，您也應該已在Adobe Experience Platform Launch中建立並設定行動屬性。 您通常會為要管理的每個行動應用程式建立行動屬性。 了解如何在[Adobe Experience Platform Launch檔案](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target=&quot;_blank&quot;}中建立和設定行動屬性。
 
 
 ## 步驟1:在Adobe Experience Platform Launch中新增您的應用程式推送憑證 {#push-credentials-launch}
@@ -138,7 +138,7 @@ Adobe Experience Platform Mobile SDK透過Android和iOS相容的SDK，為您的�
 
       1. 提供&#x200B;**[!UICONTROL App ID (Android package name)]**:套件名稱通常是`build.gradle`檔案中的應用程式id。
 
-      1. 拖放FCM推播憑證。 如需如何取得推送憑證的詳細資訊，請參閱[Google檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk)。
+      1. 拖放FCM推播憑證。 如需如何取得推送憑證的詳細資訊，請參閱[Google檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk){target=&quot;_blank&quot;}。
    * **適用於iOS**
 
       ![](assets/add-app-config-ios.png)
@@ -176,7 +176,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 適用於Adobe Experience Platform Mobile SDK的&#x200B;**Adobe Journey Optimizer擴充功能**&#x200B;可支援行動應用程式的推播通知，並協助您收集使用者推播代號，以及管理與Adobe Experience Platform服務的互動測量。
 
-在[Adobe Experience Platform Mobile SDK檔案](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)中了解如何設定Journey Optimizer擴充功能。
+了解如何在[Adobe Experience Platform Mobile SDK檔案](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target=&quot;_blank&quot;}中設定Journey Optimizer擴充功能。
 
 
 <!-- 
@@ -253,7 +253,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-若要讓此歷程正常運作，您需要建立XDM結構。 如需詳細資訊，請參閱[XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#schemas-and-data-ingestion)。
+若要讓此歷程正常運作，您需要建立XDM結構。 如需詳細資訊，請參閱[XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#schemas-and-data-ingestion){target=&quot;_blank&quot;}。
 
 1. 在左側功能表中，瀏覽至&#x200B;**[!UICONTROL Schemas]**。
 
@@ -263,7 +263,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 1. 選擇「**[!UICONTROL Create a new field group]**」。
 
-1. 輸入&#x200B;**[!UICONTROL Display Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。 完成時，按一下 **[!UICONTROL Add field groups]**。有關如何建立欄位組的詳細資訊，請參閱[XDM系統文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant)。
+1. 輸入&#x200B;**[!UICONTROL Display Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。 完成時，按一下 **[!UICONTROL Add field groups]**。有關如何建立欄位組的詳細資訊，請參閱[XDM系統文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 
    ![](assets/test_push_4.png)
