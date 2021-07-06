@@ -5,7 +5,7 @@ feature: 個性化
 topic: 個性化
 role: Data Engineer
 level: Intermediate
-source-git-commit: 74662ee07422d507889788a790547c774b65f944
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 5%
@@ -107,21 +107,21 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-* 來自決策引擎的優惠方案文字內容：
+* 來自決策引擎之優惠方案的文字內容：
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* 來自決策引擎之選件的HTML內容：
+* 來自決策引擎的選件HTML內容：
 
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
-## Helpers{#helpers-all}
+## 輔助程式{#helpers-all}
 
 Handlebars幫手是簡單的標識符，後面可能有參數。
 每個參數都是Handlebars運算式。 這些幫助器可從模板中的任何上下文中訪問。
 
-這些塊幫助器由位於幫助器名稱前面的#來標識，並且需要具有相同名稱的匹配的關閉/。
+這些塊幫助器由幫助器名稱前面的#標識，並且需要同名的匹配的關閉/。
 區塊是具有區塊開頭({{# }})和結尾({{/}})的運算式。
 
 
