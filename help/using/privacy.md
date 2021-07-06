@@ -4,7 +4,7 @@ description: 瞭解如何管理隱私權
 topic: 隱私權
 role: User
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: 4f80fd89c772ee4097a42fdaf1bff1f02ddbc004
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 92%
@@ -35,7 +35,7 @@ ht-degree: 92%
 
 * 避免傳送未經請求的訊息 (「垃圾訊息」)。 在打造客戶期限值及忠誠度的過程中，Adobe 篤信許可式行銷原則，因此我們嚴格禁止使用 Journey Optimizer 傳送未經請求的訊息。
 
-Journey Optimizer 提供您透過不同的預先建立或自訂產品設定檔，管理指派給使用者的權限。 這可讓您管理公司內可存取、修改或匯出不同類型資料的人員。在[管理權限](../administration/permissions.md)中瞭解有關管理使用者存取權限的更多資訊。
+Journey Optimizer 提供您透過不同的預先建立或自訂產品設定檔，管理指派給使用者的權限。 這可讓您管理公司內可存取、修改或匯出不同類型資料的人員。在[管理權限](administration/permissions.md)中瞭解有關管理使用者存取權限的更多資訊。
 
 Journey Optimizer 也可讓您透過開啟次數和連結的點擊次數，來追蹤傳送的訊息及收件者的行為。 [進一步瞭解追蹤管理](message-tracking.md)。
 
