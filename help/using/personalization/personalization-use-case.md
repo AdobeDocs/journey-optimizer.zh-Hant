@@ -5,9 +5,9 @@ feature: 個性化
 topic: 個性化
 role: Data Engineer
 level: Intermediate
-source-git-commit: f05e968a29d76e8dcd8e96fb8a5a1c60c4b12529
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 1. 選擇&#x200B;**Context**&#x200B;類別。 只有在歷程將內容資料傳遞至訊息時，才能使用此項目。 按一下&#x200B;**Journey Orchestration**。 會出現下列內容資訊：
 
    * **事件**:此類別會重新分組歷程中訊息活動之前所 **** 放置事件的所有欄位。
-   * **歷程屬性**:指定設定檔之歷程的相關技術欄位，例如歷程ID或遇到的特定錯誤。請參閱[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html#building-advanced-conditions-journeys)。
+   * **歷程屬性**:指定設定檔之歷程的相關技術欄位，例如歷程ID或遇到的特定錯誤。進一步了解[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html#building-advanced-conditions-journeys){target=&quot;_blank&quot;}。
 
    ![](assets/perso-uc10.png)
 
