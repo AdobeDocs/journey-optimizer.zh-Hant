@@ -6,22 +6,22 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 7eceb7292c127c1b16a564fc19d0fc091808ee35
+source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 4%
 
 ---
 
-# 發佈訊息{#publish-manage-messages}
+# 發佈您的訊息 {#publish-manage-messages}
 
-## 發佈訊息{#publish-message}
+## 發佈訊息 {#publish-message}
 
 建立訊息後，您就可以發佈訊息，以便供執行。
 
 >[!CAUTION]
 >
->發佈前，請檢查並解決警報。 [了解更多](alerts.md)。
+>發佈前，請檢查並解決警報。 [了解更多](alerts.md)
 
 ![](assets/publish-message.png)
 
@@ -29,7 +29,7 @@ ht-degree: 4%
 
 現在已可由一或多個[journeys](building-journeys/journey.md)觸發。
 
-## 更新只讀消息{#modify-message}
+## 更新唯讀訊息 {#modify-message}
 
 發佈後，訊息會處於唯讀模式。 您仍可以建立該訊息的新草稿來更新訊息。
 
