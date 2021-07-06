@@ -5,14 +5,14 @@ feature: 報告
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
 
-# 電子郵件全域報表{#email-global-report}
+# 以電子郵件傳送全域報告 {#email-global-report}
 
 電子郵件&#x200B;**[!UICONTROL Global report]**&#x200B;只會以特定電子郵件傳送為目標。
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Click Rate]**:傳送中的點按百分比。
 
-* **[!UICONTROL Spam Complaint Rate]**:收件者標示為垃圾訊息的電子郵件與已傳送郵件的百分比。如需投訴的詳細資訊，請參閱此[page](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability)。
+* **[!UICONTROL Spam Complaint Rate]**:收件者標示為垃圾訊息的電子郵件與已傳送郵件的百分比。如需投訴的詳細資訊，請參閱[傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}。
 
 * **[!UICONTROL Unsubscribe Rate]**:不重複取消訂閱與已傳送訊息數量的百分比。此指標不取決於取消訂閱連結的點按次數，而是根據收件者起始的取消訂閱次數。 進一步了解此[page](../consent.md)中的取消訂閱。
 
