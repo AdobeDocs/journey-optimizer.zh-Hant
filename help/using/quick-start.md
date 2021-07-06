@@ -5,10 +5,10 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Beginner
-source-git-commit: 4b65425389c64c867919746beede5456a6a08abd
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 46%
+ht-degree: 42%
 
 ---
 
@@ -57,4 +57,4 @@ ht-degree: 46%
 
 * **建立歷程**：傳送訊息、運用情境式資料、調整對象、設計並執行多步驟使用案例。[閱讀全文](building-journeys/journey.md)
 
-* **監視訊息和歷程**：控制訊息執行、檢查訊息和歷程報告、追蹤傳遞能力指標。[閱讀全文](message-monitoring.md)
+* **監控訊息和歷程**:控制訊息執行、檢查訊息與歷程報告、後續傳遞能力量度。[閱讀全文](message-monitoring.md)
