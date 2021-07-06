@@ -5,14 +5,14 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: a6a421fc23f4564bb24061c019c9418b491e7eee
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 3%
 
 ---
 
-# 使用案例：設定個人化優惠方案以在電子郵件{#configure-add-personalized-offers-email}中使用
+# 使用案例：設定個人化優惠方案以在電子郵件中使用 {#configure-add-personalized-offers-email}
 
 本節提供端對端範例，說明如何根據您先前建立的決策，設定優惠方案並在電子郵件中使用優惠方案。
 
@@ -58,7 +58,7 @@ ht-degree: 3%
 
 ![](../assets/offers-e2e-process.png)
 
-## 定義元件{#define-components}
+## 定義元件 {#define-components}
 
 開始建立選件之前，您必須定義要在選件中使用的數個元件。
 
@@ -109,7 +109,7 @@ ht-degree: 3%
    >
    >在此範例中，我們只會使用優先順序分數。 深入了解[適用性規則和限制](../../using/offers/offer-library/creating-personalized-offers.md#eligibility)。
 
-## 設定選件{#configure-offers}
+## 設定優惠方案 {#configure-offers}
 
 您現在可以建立和設定優惠方案。 在此範例中，您將建立四個要根據每個特定設定檔顯示的選件。
 
@@ -131,7 +131,7 @@ ht-degree: 3%
 
    ![](../assets/offers-e2e-representations.png)
 
-1. 在&#x200B;**[!UICONTROL Offer eligiblity]**&#x200B;區段中，選取&#x200B;**[!UICONTROL By defined decision rule]**&#x200B;並拖放您選取的規則。
+1. 在&#x200B;**[!UICONTROL Offer eligibility]**&#x200B;區段中，選取&#x200B;**[!UICONTROL By defined decision rule]**&#x200B;並拖放您選取的規則。
 
    ![](../assets/offers-e2e-eligibility.png)
 
@@ -186,7 +186,7 @@ ht-degree: 3%
 
 建立集合的詳細步驟在[本節](../../using/offers/offer-library/creating-collections.md)中有說明。
 
-## 配置決策{#configure-decision}
+## 設定決策 {#configure-decision}
 
 現在，您必須建立決策，將版位與您剛建立的個人化優惠方案和備援優惠方案結合。
 
@@ -220,7 +220,7 @@ ht-degree: 3%
 
 建立和配置決策的詳細步驟在[本部分](../../using/offers/offer-activities/create-offer-activities.md)中介紹。
 
-## 在電子郵件{#insert-decision-in-email}中插入決策
+## 在電子郵件中插入決策 {#insert-decision-in-email}
 
 現在您的決策已上線，您可以將其插入電子郵件訊息中。 要執行此操作，請遵循下列步驟：
 
