@@ -5,9 +5,9 @@ feature: 個性化
 topic: 個性化
 role: Data Engineer
 level: Experienced
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1180'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 使用[!DNL Journey Optimizer]範本語言對資料執行操作，例如計算、資料格式或轉換、條件，以及在個人化內容中處理這些操作。 在[本頁面](../personalization-syntax.md)中了解個人化語法准則。
 
-[!DNL :arrow_forward:] [探索如何在影片中使用協助程式功能](#video)
+➡️ [探索如何使用協助函式](#video)（影片）
 
 範本語言會運用在運算式編輯器的個人化下拉式清單中可用的協助函式中，如下所示：
 
