@@ -5,7 +5,7 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 決策（先前稱為優惠方案活動）是您優惠方案的容器，會運用優惠方案決策引擎，以根據傳送目標挑選最佳優惠方案以供傳送。
 
-![](../../assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
+➡️ [在影片中探索此功能](#video)
 
 可在&#x200B;**[!UICONTROL Offers]**&#x200B;功能表/ **[!UICONTROL Decisions]**&#x200B;標籤中存取決策清單。 篩選器可協助您根據狀態或開始和結束日期擷取決策。
 
