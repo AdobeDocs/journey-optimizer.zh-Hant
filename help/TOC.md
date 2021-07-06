@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
+source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 98%
+source-wordcount: '677'
+ht-degree: 97%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 98%
       + [在 UI 中設計您的電子郵件內容](using/create-email-content.md)
       + [匯入或編碼您的電子郵件內容](using/existing-content.md)
       + [使用電子郵件設計人員內容元件](using/content-components.md)
+   + [新增連結及追蹤訊息](using/message-tracking.md)
    + 驗證並發佈{#create-message}
       + [預覽和校樣](using/preview.md)
       + [檢查警報](using/alerts.md)
@@ -41,7 +42,9 @@ ht-degree: 98%
    + [開始使用使用個人化](using/personalization/personalize.md)
    + [個人化語法](using/personalization/personalization-syntax.md)
    + [個人化驗證](using/personalization/personalization-validation.md)
-   + [使用案例：在推播通知中新增個人化](using/personalization/personalization-use-case.md)
+   + 使用實例{#personalization-use-cases}
+      + [訂單狀態通知](using/personalization/personalization-use-case.md)
+      + [購物車放棄電子郵件](using/personalization/personalization-use-case-helper-functions.md)
    + 輔助函式{#functions}
       + [輔助函式清單](using/personalization/functions/functions.md)
       + [聚合函式](using/personalization/functions/aggregation.md)
@@ -88,7 +91,6 @@ ht-degree: 98%
       + [傳送多頻道訊息](using/building-journeys/journeys-uc.md)
       + [使用 Campaign v7/v8 傳送訊息](using/building-journeys/campaign-classic-use-case.md)
 + 追蹤和監視 {#reporting}
-   + [訊息追蹤](using/message-tracking.md)
    + [訊息監視](using/message-monitoring.md)
    + 即時報告 {#live-report}
       + [存取即時報告儀表板](using/reports/live-report.md)
