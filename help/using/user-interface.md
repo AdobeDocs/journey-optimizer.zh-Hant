@@ -5,9 +5,9 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1211'
 ht-degree: 74%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->* 瀏覽使用者介面時，Adobe Experience Platform有常見的重要概念。 如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hant#adobe-experience-platform-ui-guide)。
+>* 瀏覽使用者介面時，Adobe Experience Platform有常見的重要概念。 如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hant#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}。
    >
    >
 * 本檔案會經常更新，以反映產品使用者介面的最新變更。 不過，有些螢幕擷取畫面可能會與使用者介面稍有不同。
@@ -61,31 +61,31 @@ ht-degree: 74%
 
 **[!UICONTROL DATA MANAGEMENT]**
 
-* **[!UICONTROL Schemas]** - 使用 Adobe Experience Platform 在「方案編輯器」這個互動式視覺畫布中建立和管理體驗資料模型 (XDM) 方案。[在本文件中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant)
+* **[!UICONTROL Schemas]** - 使用 Adobe Experience Platform 在「方案編輯器」這個互動式視覺畫布中建立和管理體驗資料模型 (XDM) 方案。[在本文件中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-* **[!UICONTROL Datasets]** - 所有內嵌至 Adobe Experience Platform 的資料都會以資料集的形式保留在資料湖中。資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄 (列) 的表格。 [在本文件中瞭解如何預覽和建立資料集](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant)
+* **[!UICONTROL Datasets]** - 所有內嵌至 Adobe Experience Platform 的資料都會以資料集的形式保留在資料湖中。資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄 (列) 的表格。 [在本文件中瞭解如何預覽和建立資料集](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-* **[!UICONTROL Queries]** - 使用 Adobe Experience Platform 查詢服務來寫入和執行查詢、檢視以前執行的查詢，以及存取由您組織內的使用者儲存的查詢。[在本文件中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=zh-Hant)
+* **[!UICONTROL Queries]** - 使用 Adobe Experience Platform 查詢服務來寫入和執行查詢、檢視以前執行的查詢，以及存取由您組織內的使用者儲存的查詢。[在本文件中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-* **[!UICONTROL Monitoring]** - 使用此功能表監視 Adobe Experience Platform 使用者介面中的資料擷取。[在本文件中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hant)
+* **[!UICONTROL Monitoring]** - 使用此功能表監視 Adobe Experience Platform 使用者介面中的資料擷取。[在本文件中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
 **[!UICONTROL CONNECTIONS]**
 
-* **[!UICONTROL Sources]** - 使用此功能表從多種來源 (例如 Adobe 應用程式、雲端儲存、資料庫等) 擷取資料，並建構、標示和增強傳入資料。[在本文件中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant)
+* **[!UICONTROL Sources]** - 使用此功能表從多種來源 (例如 Adobe 應用程式、雲端儲存、資料庫等) 擷取資料，並建構、標示和增強傳入資料。[在本文件中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
 **[!UICONTROL CUSTOMER]**
 
 * **[!UICONTROL Segments]** - 建立和管理 Experience Platform 區段定義，並將它們運用在您的歷程中。在[本頁](segment/about-segments.md)中進一步瞭解
 
-* **[!UICONTROL Profiles]** - 即時客戶設定檔可為個別客戶建立整體檢視，並結合來自多個管道的資料，包括線上、離線、CRM 和第三方資料。[在本文件中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant)
+* **[!UICONTROL Profiles]** - 即時客戶設定檔可為個別客戶建立整體檢視，並結合來自多個管道的資料，包括線上、離線、CRM 和第三方資料。[在本文件中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-* **[!UICONTROL Identities]** - Adobe Experience Platform 身分服務以 Adobe Experience Platform 內稱為身分圖表的方式，管理跨裝置、跨頻道及近乎即時的客戶身分識別。[在本文件中瞭解如何建立身分命名空間](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant#manage-namespaces)
+* **[!UICONTROL Identities]** - Adobe Experience Platform 身分服務以 Adobe Experience Platform 內稱為身分圖表的方式，管理跨裝置、跨頻道及近乎即時的客戶身分識別。[在本文件中瞭解如何建立身分命名空間](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant#manage-namespaces){target=&quot;_blank&quot;}
 
 **[!UICONTROL ADMINISTRATION]**
 
 * **[!UICONTROL Journey Administration]** - 使用此選單來設定 [事件](event/about-events.md)、[資料來源](datasource/about-data-sources.md)和[動作](action/action.md) ，以用於您的歷程。
 
-* **[!UICONTROL Sandboxes]** - Adobe Experience 提供的 sandbox 可將單一執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。[在本文件中進一步瞭解 sandbox ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant)
+* **[!UICONTROL Sandboxes]** - Adobe Experience 提供的 sandbox 可將單一執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。[在本文件中進一步瞭解 sandbox ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
 
 ## 產品內使用案例
