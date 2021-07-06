@@ -5,7 +5,7 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Beginner
-source-git-commit: 23120835969006b3c8004b8cd89c4a9ab976760a
+source-git-commit: 6a2304fc3b6262d339b7bf1f229f12ba68f1a993
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 38%
@@ -68,22 +68,22 @@ ht-degree: 38%
     <p>
     <div>
     <li>
-      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html">Adobe Journey Optimizer產品說明</a>
+      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Adobe Journey Optimizer產品說明</a>
     </li>
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant">Adobe Experience Platform檔案</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant" target="_blank">Adobe Experience Platform檔案</a>
     </li>
     </div>
       <div>
       <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant">Adobe Experience Platform 存取權限概覽</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant" target="_blank">Adobe Experience Platform 存取權限概覽</a>
     </li>
     </div>
       <div>
       <li>
-      <a href="https://www.adobe.com/tw/experience-platform/documentation-and-developer-resources.html">Adobe Experience Platform 開發人員資源</a>
+      <a href="https://www.adobe.com/tw/experience-platform/documentation-and-developer-resources.html" target="_blank">Adobe Experience Platform 開發人員資源</a>
     </li>
     </div>
   </td>
@@ -125,7 +125,7 @@ ht-degree: 38%
       <a href="using/get-started-queries.md">查詢</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hant">監控</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hant" target="_blank">監控</a>
     </li>
     <p>
     <p>連線</p>
