@@ -5,9 +5,9 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: ea005587fdcdf3cb07da5d7cbd6080c12909d458
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '942'
 ht-degree: 10%
 
 ---
@@ -46,18 +46,18 @@ ht-degree: 10%
 
 ![](../assets/journey64.png)
 
-如果您使用[Adobe Experience Platform分段服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)來建立區段，您可以在歷程條件中運用這些區段。 請參閱[在條件](../building-journeys/condition-activity.md#using-a-segment)中使用區段。
+如果您使用[Adobe Experience Platform分段服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}來建立區段，您可以在歷程條件中運用這些區段。 請參閱[在條件](../building-journeys/condition-activity.md#using-a-segment)中使用區段。
 
 
 >[!NOTE]
 >
->您無法使用簡單編輯器對時間序列（例如購買清單、訊息的點按次數）執行查詢。 為此，您將需要使用進階編輯器。 請參閱[本頁](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hant)。
+>您無法使用簡單編輯器對時間序列（例如購買清單、訊息的點按次數）執行查詢。 為此，您將需要使用進階編輯器。 請參閱[AdobeJourney Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
 
 ## 資料來源條件 {#data_source_condition}
 
-這可讓您根據資料來源的欄位或先前位於歷程中的事件，來定義條件。 若要了解如何使用運算式編輯器，請參閱[本頁面](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html)。 使用進階運算式編輯器，您可以設定更進階的條件來處理集合，或使用需要傳遞參數的資料來源。 請參閱[本頁](../datasource/external-data-sources.md)。
+這可讓您根據資料來源的欄位或先前位於歷程中的事件，來定義條件。 若要了解如何使用運算式編輯器，請參閱[AdobeJourney Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}。 使用進階運算式編輯器，您可以設定更進階的條件來處理集合，或使用需要傳遞參數的資料來源。 請參閱[此頁面](../datasource/external-data-sources.md)。
 
 ![](../assets/journey50.png)
 
@@ -89,7 +89,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->時區不再是條件的特定時區，現在會在歷程屬性的歷程層級中定義。 請參閱[本頁](../building-journeys/timezone-management.md)。
+>時區不再是條件的特定時區，現在會在歷程屬性的歷程層級中定義。 請參閱[此頁面](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey53.png)
 
@@ -112,4 +112,4 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >請注意，只有具有&#x200B;**Remailed**&#x200B;和&#x200B;**Existing**&#x200B;區段參與狀態的個人才會被視為區段的成員。 如需如何評估區段的詳細資訊，請參閱[分段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)。
+   >請注意，只有具有&#x200B;**Remailed**&#x200B;和&#x200B;**Existing**&#x200B;區段參與狀態的個人才會被視為區段的成員。 如需如何評估區段的詳細資訊，請參閱[分段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target=&quot;_blank&quot;}。
