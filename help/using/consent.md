@@ -5,10 +5,10 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: a1ce789ad78f70bdb2a1387ffb6c60cb40b8b0bb
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 85%
+source-wordcount: '737'
+ht-degree: 79%
 
 ---
 
@@ -23,7 +23,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 * 若未遵守這些法規，您的品牌將面臨法律風險。
 * 它可協助您避免傳送未經請求的通訊給您的收件者，這可能會使他們將您的訊息標示為垃圾訊息，並損害您的聲譽。
 
-在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant)中進一步瞭解管理隱私權和相關法規。
+[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target=&quot;_blank&quot;}中有關管理隱私權和適用法規的詳細資訊。
 
 <!--* Recipients should be able to opt-in/opt-out from receiving electronic communication through one or more channel
 * Recipients expect the brand to offer preference centre capability that controls how brand should engage with them (example: channel of communication, invasive and non-invasive tracking etc). This helps to fulfil regulatory obligations and also facilitates quality engagement with recipient. 
@@ -31,7 +31,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 ## 選擇退出管理 {#opt-out-management}
 
-為接收者提供取消訂閱來自品牌之通訊的能力為法律所規定。 進一步瞭解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hant#regulations)中的適用法規。
+為接收者提供取消訂閱來自品牌之通訊的能力為法律所規定。 進一步了解[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hant#regulations){target=&quot;_blank&quot;}中的適用法規。
 
 因此，您必須在每封寄送給收件者的電子郵件中一律包含&#x200B;**取消訂閱連結**：
 * 按一下此連結後，收件者會被導向至包含確認選擇退出按鈕的登陸頁面。
@@ -79,7 +79,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
    因此，除非再次訂閱，否則此使用者將不會收到您品牌的通訊。
 
-若要檢查對應的設定檔選擇是否已更新，請前往 Experience Platform，並透過選取識別名稱空間和對應的識別值來存取設定檔。 進一步瞭解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant#getting-started)。
+若要檢查對應的設定檔選擇是否已更新，請前往 Experience Platform，並透過選取識別名稱空間和對應的識別值來存取設定檔。 請參閱[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant#getting-started){target=&quot;_blank&quot;}了解更多資訊。
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -139,7 +139,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 根據電子郵件用戶端，從標題按一下取消訂閱連結將產生下列其中一項影響：
 
-* 對應的設定檔會立即退出，而此選項會以Experience Platform更新。 進一步瞭解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started)。
+* 對應的設定檔會立即退出，而此選項會以Experience Platform更新。 請參閱[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started){target=&quot;_blank&quot;}了解更多資訊。
 
 * 其效果與從電子郵件內容按一下取消訂閱連結相同：收件者會重新導向至包含按鈕的登錄頁面，以確認選擇退出。 進一步了解[本區段](#opt-out-management)中的選擇退出管理。
 
