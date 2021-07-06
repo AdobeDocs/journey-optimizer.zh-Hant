@@ -5,16 +5,16 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 86%
+source-wordcount: '1044'
+ht-degree: 85%
 
 ---
 
 # 疑難排解{#concept_nlv_bcv_2fb}
 
-在此區段中，您會瞭解如何先疑難排解歷程，然後再進行測試或發佈。下列所有檢查皆可在歷程處於測試模式或歷程為即時狀態時執行。建議您在測試模式中進行下列所有檢查，然後繼續發佈。請參閱[本頁](../building-journeys/testing-the-journey.md)。
+在此區段中，您會瞭解如何先疑難排解歷程，然後再進行測試或發佈。下列所有檢查皆可在歷程處於測試模式或歷程為即時狀態時執行。建議您在測試模式中進行下列所有檢查，然後繼續發佈。請參閱[此頁面](../building-journeys/testing-the-journey.md)。
 
 ## 請先檢查錯誤，然後再進行測試{#section_h3q_kqk_fhb}
 
@@ -46,7 +46,7 @@ ht-degree: 86%
 
 您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。如果您收到錯誤，則表示您的呼叫發生問題。再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。您可以諮詢管理員哪個是要點擊的正確 URL。
 
-事件不會直接從來源推播至歷程。 事實上，歷程需仰賴Adobe Experience Platform的串流獲取API。 因此，若是事件相關問題，您可以參閱[本頁](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)以疑難排解串流獲取API。
+事件不會直接從來源推播至歷程。 事實上，歷程需仰賴Adobe Experience Platform的串流獲取API。 因此，若是事件相關問題，您可以參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}以疑難排解串流獲取API。
 
 ## 檢查是否有人進入歷程{#section_x4v_zzs_dgb}
 
@@ -60,7 +60,7 @@ ht-degree: 86%
 * 在從有效負載預覽複製有效負載之前，您是否已儲存事件？
 * 您的事件有效負載是否包含事件 ID？
 * 您是否點按了正確的 URL？
-* 您是否依照串流獲取 API 有效負載結構，而在事件設定窗格中使用有效負載結構預覽？請參閱[本頁](../event/about-creating.md#preview-the-payload)。
+* 您是否依照串流獲取 API 有效負載結構，而在事件設定窗格中使用有效負載結構預覽？請參閱[此頁面](../event/about-creating.md#preview-the-payload)。
 * 您在事件標題中是否使用正確的金鑰/值配對？
 
    ```
