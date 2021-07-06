@@ -5,9 +5,9 @@ feature: 優惠
 topic: 整合
 role: Data Engineer
 level: Experienced
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '939'
 ht-degree: 2%
 
 ---
@@ -108,7 +108,7 @@ curl -X POST \
 | `xdm:propositionRequests.xdm:activityId` | 唯一的決策標識符。 | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
 | `xdm:itemCount` | 要傳回的選件數。 最大數為30。 | `"xdm:itemCount": 2` |
 | `xdm:profiles` | 此對象包含請求決策的配置檔案的相關資訊。 若為API請求，此請求將包含一個設定檔。 |
-| `xdm:profiles.xdm:identityMap` | 此物件會根據身分識別的命名空間整合程式碼，保留一組一般使用者身分識別。 身分對應可承載每個命名空間的多個身分。 如需命名空間的詳細資訊，請參閱[身分命名空間概述](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html)。 | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:identityMap` | 此物件會根據身分識別的命名空間整合程式碼，保留一組一般使用者身分識別。 身分對應可承載每個命名空間的多個身分。 如需命名空間的詳細資訊，請參閱[本頁](../../../get-started-identity.md)。 | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | 用戶端產生的ID，可用來唯一識別設定檔決策請求。 此ID會在回應中回復，不會影響決策的結果。 | `"xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"` |
 | `xdm:allowDuplicatePropositions` | 此對象是重複資料消除規則的控制結構。 它包含一系列標幟，指出是否可以在特定維度中建議相同的選項。 將設為true的標幟表示允許重複項目，且不應在標幟所指示的類別間移除。 將標幟設為false表示決策引擎不應在整個維度中提出相同的主張，而應為其中一個子決策選取下一個最佳選項。 |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | 如果設為true，可能會為多個決策指派相同的選項。 | `"xdm:acrossActivities": true` |
