@@ -5,9 +5,9 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '799'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >請注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至Adobe Experience Platform中的&#x200B;**Remailed**&#x200B;和&#x200B;**Excisted**&#x200B;區段參與狀態。 如需如何評估區段的詳細資訊，請參閱[分段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)。
+   >請注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至Adobe Experience Platform中的&#x200B;**Remailed**&#x200B;和&#x200B;**Excisted**&#x200B;區段參與狀態。 如需如何評估區段的詳細資訊，請參閱[分段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target=&quot;_blank&quot;}。
 
 1. 選取命名空間。 唯有將事件定位為歷程的第一步時，才需要此選項。
 
@@ -89,7 +89,7 @@ ht-degree: 1%
 
 對串流區段使用區段資格時，由於持續評估區段，導致入口/出口處出現大峰值的風險較低。 不過，如果區段定義導致大量客戶同時符合資格，則可能也會出現峰值。
 
-如需串流細分的詳細資訊，請參閱此[page](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
+如需串流細分的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### 如何避免過載{#overloads-speed-segment-qualification}
 
@@ -99,7 +99,7 @@ ht-degree: 1%
 
 ![](../assets/segment-error.png)
 
-為歷程中使用的資料來源和動作設定上限規則，以避免超出負載（請參閱此[section](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html)）。 請注意，上限規則沒有重試。 如果您需要重試，您必須核取條件或動作中的方塊&#x200B;**[!UICONTROL Add an alternative path in case of a timeout or an error]**，以在歷程中使用替代路徑。
+為歷程中使用的資料來源和動作設定上限規則，以避免超出負載。 進一步了解[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}。 請注意，上限規則沒有重試。 如果您需要重試，您必須核取條件或動作中的方塊&#x200B;**[!UICONTROL Add an alternative path in case of a timeout or an error]**，以在歷程中使用替代路徑。
 
 在生產歷程中使用區段之前，請務必先評估每天符合此區段資格的個人數量。 若要這麼做，您可以檢查&#x200B;**[!UICONTROL Segments]**&#x200B;功能表，開啟區段，然後查看&#x200B;**[!UICONTROL Profiles over time]**&#x200B;圖表。
 
