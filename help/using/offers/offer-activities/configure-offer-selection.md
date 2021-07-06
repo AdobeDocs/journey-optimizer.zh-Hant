@@ -5,7 +5,7 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 5%
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # 設定決定中的優惠選擇 {#offers-selection-in-activities}
 
-## 關於選件優先順序{#about-offers-priority}
+## 關於選件優先順序 {#about-offers-priority}
 
 依預設，當數個優惠方案符合決策中指定版位的資格時（先前稱為優惠方案活動），優先順序最高&#x200B;**優先順序**&#x200B;的優惠方案會先傳送給客戶。 建立優惠方案時會指派優惠方案的優先順序分數（請參閱[建立個人化優惠方案](../offer-library/creating-personalized-offers.md)）。
 
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 有關如何建立排名公式的詳細資訊，請參閱[此區段](../offer-library/create-ranking-formulas.md)。
 
-## 將排名公式分配給版位{#assign-ranking-formula}
+## 將排名公式指派給版位 {#assign-ranking-formula}
 
 建立排名公式後，您可以將其指派給決策中的版位。 若要這麼做，請遵循下列步驟：
 
@@ -44,4 +44,4 @@ ht-degree: 5%
 
 排名公式現在與版位相關聯。
 
-如果多個優惠方案符合在此版位中呈現的資格，決策會使用排名公式的公式來計算要先傳送哪個優惠方案。
+如果有多個優惠方案符合在此版位中呈現的資格，決策會使用排名公式的公式來計算要先傳送哪個優惠方案。
