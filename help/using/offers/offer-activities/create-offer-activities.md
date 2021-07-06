@@ -5,7 +5,7 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: 2388a43928f5ea52bafbc5173f7302d53b2c5857
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 4%
@@ -102,7 +102,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->建立決策後，您可以按一下清單中的其名稱以存取詳細資訊，並使用&#x200B;**[!UICONTROL Change log]**&#x200B;標籤檢視對其所做的所有變更（請參閱[選件和決策變更log](../get-started/user-interface.md#changes-log)）。
+>建立決策後，您可以按一下清單中的名稱以存取詳細資訊，並透過&#x200B;**[!UICONTROL Change log]**&#x200B;標籤將對其所做的所有變更加以視覺化（請參閱[選件與決策變更log](../get-started/user-interface.md#changes-log)）。
 
 ## 教學課程影片 {#video}
 
