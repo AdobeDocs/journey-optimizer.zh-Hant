@@ -5,14 +5,14 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 10%
 
 ---
 
-# 自訂推播通知 {#create-push-notification}
+# 建立推播通知 {#create-push-notification}
 
 在您[建立訊息](create-message.md)後，按一下&#x200B;**[!UICONTROL Push Notification]**&#x200B;標籤以定義推播通知的設定和內容。
 
@@ -30,7 +30,7 @@ ht-degree: 10%
 
 使用裝置預覽區段來視覺化推播通知在iOS和Android裝置上的顯示方式。
 
-## 點擊行為{#on-click-behavior}時
+## 點按行為 {#on-click-behavior}
 
 選取收件者點按推播通知內文時的行為。
 
@@ -78,7 +78,7 @@ ht-degree: 10%
 
 ## 傳送靜默通知
 
-靜默推播通知（或背景通知）是傳遞至應用程式的隱藏指示。 例如，它用於通知您的應用程式新內容的可用性，或在背景啟動下載。
+靜默推播通知（或背景通知）是傳遞至應用程式的隱藏指示。 例如，它用於通知您的應用程式新內容的可用性或在後台啟動下載。
 
 選擇&#x200B;**[!UICONTROL Silent Notification]**&#x200B;選項以靜默通知應用程式：在這種情況下，通知會直接轉送到應用程式。 設備螢幕上不顯示警報。
 
