@@ -5,9 +5,9 @@ feature: 個性化
 topic: 個性化
 role: Data Engineer
 level: Intermediate
-source-git-commit: d5060fcd70a02a24af579d5fa86c5225d417fdc4
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1016'
 ht-degree: 3%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 3%
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      深入了解[人員名稱資料類型](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html)。
+      進一步了解[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}中的人員名稱資料類型。
 
 6. 按一下「**[!UICONTROL Validate]**」，然後按一下「**[!UICONTROL Save]**」。
 
@@ -98,7 +98,7 @@ ht-degree: 3%
 1. 建立其架構包含`productListItems`陣列的事件。
 2. 將此陣列中的所有欄位定義為此事件的有效負載欄位。
 
-   深入了解[產品清單項目資料類型](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html)。
+   在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}中深入了解產品清單項目資料類型。
 
 3. 建立以此事件開始的歷程。
 4. 將訊息新增至歷程。
@@ -328,15 +328,15 @@ ht-degree: 3%
 
 ### Handlebars函式
 
-[輔助程式](functions/helpers.md)
+* [輔助程式](functions/helpers.md)
 
-[字串函式](functions/string.md)
+* [字串函式](functions/string.md)
 
 ### 使用個案
 
-[使用設定檔資訊、內容和選件進行個人化](personalization-use-case.md)
+* [使用設定檔資訊、內容和選件進行個人化](personalization-use-case.md)
 
-[使用決策型選件進行個人化](../offers/offers-e2e.md)
+* [使用決策型選件進行個人化](../offers/offers-e2e.md)
 
 ## 教學課程影片{#helper-functions-video}
 
