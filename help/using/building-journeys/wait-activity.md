@@ -5,10 +5,10 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 6%
+source-wordcount: '410'
+ht-degree: 5%
 
 ---
 
@@ -50,13 +50,13 @@ ht-degree: 6%
 
 ## 自訂等待{#custom}
 
-此選項可讓您根據來自事件或資料來源的欄位，使用進階運算式來定義自訂日期，例如2020年7月12日下午5點。 它不會讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 請參閱[本頁](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hant)。如需dateTimeOnly格式的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html)。
+此選項可讓您根據來自事件或資料來源的欄位，使用進階運算式來定義自訂日期，例如2020年7月12日下午5點。 它不會讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 請參閱[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hant){target=&quot;_blank&quot;}。 如需dateTimeOnly格式的詳細資訊，請參閱[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html){target=&quot;_blank&quot;}。
 
 >[!NOTE]
 >
->您可以運用dateTimeOnly運算式，或使用函式來轉換為dateTimeOnly。 例如：toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位格式為2016-08-12T09:46:06Z。
+>您可以運用dateTimeOnly運算式，或使用函式來轉換為dateTimeOnly。 例如：toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位為2016-08-12T09:46:06Z格式。
 >
->歷程的屬性中會預期&#x200B;**時區**。 因此，今天無法從介面直接指向完整的ISO-8601時間戳，混合時間和時區偏移，如2016-08-12T09:46:06.982-05。 請參閱[本頁](../building-journeys/timezone-management.md)。
+>歷程的屬性中會預期&#x200B;**時區**。 因此，今天無法從介面直接指向完整的ISO-8601時間戳，混合時間和時區偏移，如2016-08-12T09:46:06.982-05。 請參閱[此頁面](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey57.png)
 
