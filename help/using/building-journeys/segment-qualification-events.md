@@ -5,14 +5,14 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 8bcc1721f0d451e386b1fa0c5972c783ced01c7f
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 1%
 
 ---
 
-# 區段資格事件{#segment-qualification}
+# 區段資格事件 {#segment-qualification}
 
 ## 關於區段資格事件{#about-segment-qualification}
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
    ![](../assets/segment-copy.png)
 
-1. 在&#x200B;**[!UICONTROL Behaviour]**&#x200B;欄位中，選擇您要監聽區段入口、出口或兩者。
+1. 在&#x200B;**[!UICONTROL Behaviour]**&#x200B;欄位中，選擇您要監聽區段入口、出口還是兩者。
 
    >[!NOTE]
    >
@@ -91,7 +91,7 @@ ht-degree: 1%
 
 如需串流細分的詳細資訊，請參閱此[page](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
-### 如何避免重新載入{#overloads-speed-segment-qualification}
+### 如何避免過載{#overloads-speed-segment-qualification}
 
 以下是一些最佳實務，可協助避免歷程中運用的系統超載（資料來源、自訂動作、**Message**&#x200B;活動）。
 
