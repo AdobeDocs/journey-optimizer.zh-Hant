@@ -5,10 +5,10 @@ feature: 控制組
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: 2c4a86f7beb10d1ce35e8fb5600a979164038e5f
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 76%
+source-wordcount: '335'
+ht-degree: 69%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 76%
 [!DNL Journey Optimizer] 可讓您將執行個體分割到名為沙箱的個別虛擬環境中。會透過 Admin Console 中的產品設定檔指派沙箱。[瞭解如何指派 sandbox](permissions.md#create-product-profile)。
 
 [!DNL Journey Optimizer] 反映針對指定組織建立的 Adobe Experience Platform sandbox。
-可從 Adobe Experience Platform 執行個體建立或重設 Adobe Experience Platform sandbox。[進一步瞭解 sandbox 使用手冊](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant)。
+可從 Adobe Experience Platform 執行個體建立或重設 Adobe Experience Platform sandbox。[請參閱沙箱使用手冊](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}以了解更多資訊。
 
 您可在螢幕左上方找到沙箱切換器控制項。若要從一個沙箱切換至另一個沙箱，請按一下切換器中目前作用中的沙箱，然後從下拉式清單中選取另一個沙箱。
 
@@ -27,7 +27,7 @@ ht-degree: 76%
 
 >[!IMPORTANT]
 >
-> 沙箱管理只能由&#x200B;**[!UICONTROL Product]**&#x200B;或&#x200B;**[!UICONTROL System]**&#x200B;管理員執行。 如需詳細資訊，請參閱[管理控制台檔案](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html)。
+> 沙箱管理只能由&#x200B;**[!UICONTROL Product]**&#x200B;或&#x200B;**[!UICONTROL System]**&#x200B;管理員執行。 如需詳細資訊，請參閱[管理控制台檔案](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target=&quot;_blank&quot;}。
 
 您可以選擇將不同的沙箱指派給現成可用或自訂&#x200B;**[!UICONTROL Product profiles]**。
 
@@ -45,7 +45,7 @@ ht-degree: 76%
 
    ![](../assets/sandbox_2.png)
 
-1. 在 **[!UICONTROL Available Permissions Items]** 下方，按一下加號 (+) 圖示，將沙箱指派給您的設定檔。[進一步瞭解 sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。
+1. 在 **[!UICONTROL Available Permissions Items]** 下方，按一下加號 (+) 圖示，將沙箱指派給您的設定檔。[深入了解沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
    ![](../assets/sandbox_3.png)
 
@@ -63,4 +63,4 @@ ht-degree: 76%
 
 請注意，若要讓內容與正確的 sandbox 同步，您必須遵循與 sandbox 相同的語法，例如，如果您的 sandbox 被稱為開發，您的共用資料夾應具有相同的名稱。
 
-[瞭解如何管理共用資料夾](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html)。
+[了解如何管理共用資料夾](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target=&quot;_blank&quot;}。
