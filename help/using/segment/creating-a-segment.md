@@ -5,9 +5,9 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 6639630c4049e36904ce722759320f276799d8f3
+source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '300'
 ht-degree: 6%
 
 ---
@@ -53,3 +53,7 @@ ht-degree: 6%
 1. 區段準備就緒後，按一下&#x200B;**[!UICONTROL Save]**。 它會顯示在Adobe Experience Platform區段清單中。 請注意，搜尋列可協助您搜尋清單中的特定區段。
 
 區段現在可用於您的歷程。 如需詳細資訊，請參閱[本章節](../segment/about-segments.md)。
+
+## 教學課程影片{#create-segment-video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)
