@@ -5,10 +5,10 @@ feature: 個性化
 topic: 個性化
 role: Data Engineer
 level: Beginner
-source-git-commit: 6fc882827c2ba98af539abf90347483301d48edc
+source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
 workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -90,10 +90,10 @@ ht-degree: 13%
 畫面左側會顯示網域選取器，供您選取個人化來源。 可用來源包括：
 
 * **設定檔** :列出與Adobe Experience Platform資料模型(XDM)檔案中所述之設 [定檔架構相關聯的所有參考](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)。
-* **區段成員資格** :會列出在Adobe Experience Platform區段服務中建立的所有區段。有關可用區段的詳細資訊，請前往[這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)
-* **選件** :列出與特定版位相關聯的所有優惠方案。選取版位，然後在內容中插入優惠方案。 如需如何管理優惠方案的完整檔案，請參閱[此區段](../deliver-personalized-offers.md)
-* **內容** :在歷 **** 程中使用「訊息」活動時，此功能表中會提供內容歷程欄位。請參閱[本節](personalization-use-case.md)以進一步瞭解
-* **輔助功能** :列出所有可用於對資料執行操作的輔助功能，如計算、資料格式或轉換、條件，以及在個人化環境中處理這些功能。請參閱[本節](functions/functions.md)以進一步瞭解
+* **區段成員資格** :會列出在Adobe Experience Platform區段服務中建立的所有區段。[此處](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)提供分段的詳細資訊。
+* **選件** :列出與特定版位相關聯的所有優惠方案。選取版位，然後在內容中插入優惠方案。 如需如何管理優惠方案的完整檔案，請參閱[此區段](../deliver-personalized-offers.md)。
+* **內容** :在歷 **** 程中使用「訊息」活動時，此功能表中會提供內容歷程欄位。進一步了解[本節](personalization-use-case.md)。
+* **輔助功能** :列出所有可用於對資料執行操作的輔助功能，如計算、資料格式或轉換、條件，以及在個人化環境中處理這些功能。進一步了解[本節](functions/functions.md)。
 
 選取時，參考會新增到編輯器中。
 
