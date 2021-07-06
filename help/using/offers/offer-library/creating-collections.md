@@ -5,7 +5,7 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 3%
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 集合可讓您將選件重新分組為您選擇的類別，借此組織選件。 例如，您可以建立「體育」系列，其中僅包含與體育相關的優惠方案。
 
-![](../../assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
+➡️ [在影片中探索此功能](#video)
 
 可在&#x200B;**[!UICONTROL Offers]**&#x200B;功能表中存取選件集合清單。
 
