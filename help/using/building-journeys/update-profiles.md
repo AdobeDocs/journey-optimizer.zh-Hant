@@ -5,14 +5,14 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
 
 ---
 
-# 更新配置檔案{#update-profile}
+# 更新配置檔案 {#update-profile}
 
 **[!UICONTROL Update Profile]**&#x200B;動作活動可讓您使用來自事件、資料來源或使用特定值的資訊更新現有的Adobe Experience Platform設定檔。
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 * 傳送至Platform的更新請求會很快，但不會立即/在一秒內傳送。 通常需要幾秒鐘時間，但有時更多時間卻無法保證。 因此，例如，如果動作使用「欄位1」，而此欄位是由位於之前的「更新設定檔」動作更新，則您不應期望動作中的「欄位1」會更新。
 * 資料來源在欄位群組層級有快取持續時間的概念。 如果您預期會在歷程中運用最近更新的設定檔欄位，請務必定義非常短的快取期間。
 
-## 使用測試模式{#using-the-test-mode}
+## 使用測試模式 {#using-the-test-mode}
 
 在測試模式中，將不會模擬設定檔更新。 將對測試設定檔執行更新。
 
