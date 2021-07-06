@@ -5,7 +5,7 @@ feature: 優惠
 topic: 整合
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 本教學課程需要妥善了解API，尤其是有關決策管理的API。 如需詳細資訊，請參閱[決策管理API開發人員指南](../getting-started.md)。 此外，本教學課程還需要您有唯一的版位ID和決策ID值。 如果您尚未取得這些值，請參閱[建立版位](../offers-api/placements/create.md)和[建立決策](../activities-api/activities/create.md)的教學課程。
 
-![](../../../assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
+➡️  [在影片中探索此功能](#video)
 
 ## 接受和內容類型標題
 
