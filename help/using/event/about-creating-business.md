@@ -5,9 +5,9 @@ feature: 事件
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '825'
 ht-degree: 15%
 
 ---
@@ -74,11 +74,11 @@ ht-degree: 15%
 
    ![](../assets/journey7-business.png)
 
-   條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。請參閱[本頁](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+   條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。請參閱[此頁面](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
 
-## 定義有效負載欄位{#define-the-payload-fields}
+## 定義裝載欄位 {#define-the-payload-fields}
 
-有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯之人員的金鑰。 裝載以Experience CloudXDM欄位定義為基礎。 如需XDM的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)。
+有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯之人員的金鑰。 裝載以Experience CloudXDM欄位定義為基礎。 如需XDM的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 1. 從清單中選取XDM架構，然後按一下&#x200B;**[!UICONTROL Fields]**&#x200B;欄位或&#x200B;**[!UICONTROL Edit]**&#x200B;圖示。
 
@@ -96,7 +96,7 @@ ht-degree: 15%
 
    ![](../assets/journey12-business.png)
 
-## 預覽裝載{#preview-the-payload}
+## 預覽裝載 {#preview-the-payload}
 
 有效負載預覽可讓您驗證有效負載定義。
 
@@ -110,4 +110,4 @@ ht-degree: 15%
 
 1. 檢查預覽以驗證有效負載定義。
 
-1. 接著，您可以將裝載預覽與事件傳送的負責人共用。 此裝載可協助他設計推送至[!DNL Journey Optimizer]之事件的設定。 請參閱[本頁](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+1. 接著，您可以將裝載預覽與事件傳送的負責人共用。 此裝載可協助他設計推送至[!DNL Journey Optimizer]之事件的設定。 請參閱[此頁面](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
