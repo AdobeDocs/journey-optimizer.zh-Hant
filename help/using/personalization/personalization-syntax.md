@@ -5,10 +5,10 @@ feature: 個性化
 topic: 個性化
 role: Data Engineer
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 5%
+source-wordcount: '563'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 5%
 其中：
 
 * `profile` 是命名空間。
-* `person.name` 是由屬性組成的代號。屬性結構是在Adobe Experience Platform XDM結構中定義。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)。
+* `person.name` 是由屬性組成的代號。屬性結構是在Adobe Experience Platform XDM結構中定義。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 ## 語法一般規則
 
@@ -45,7 +45,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 ## 設定檔
 
-此命名空間可讓您參考設定檔架構中定義的所有屬性，如[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)所述。
+此命名空間可讓您參考設定檔架構中定義的所有屬性，如[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}所述。
 
 在[!DNL Journey Optimizer]個人化區塊中參考屬性之前，必須先在結構中定義屬性。
 
