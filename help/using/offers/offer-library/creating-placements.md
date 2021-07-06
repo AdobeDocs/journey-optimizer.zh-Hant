@@ -5,7 +5,7 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 15%
@@ -16,7 +16,7 @@ ht-degree: 15%
 
 版位有助於確保正確的優惠方案內容顯示在訊息中的正確位置。 將內容新增至優惠方案時，系統會要求您選取可顯示該內容的版位。
 
-![](../../assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
+➡️ [在影片中探索此功能](#video)
 
 在下列範例中，有三個版位對應於不同的內容類型（影像、文字、HTML）。
 
