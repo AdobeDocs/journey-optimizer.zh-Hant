@@ -15,7 +15,7 @@ feature: 應用程式設定
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 ---
 
 
-# 管理隱藏清單{#manage-suppression-list}
+# 管理隱藏清單 {#manage-suppression-list}
 
 透過[!DNL Journey Optimizer]，您可以監控自動排除而無法在歷程中傳送的所有電子郵件地址，例如：
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 此類電子郵件地址會自動收集到Journey Optimizer **隱藏清單**&#x200B;中。 進一步了解[本節](../suppression-list.md)。
 
-## 訪問隱藏清單{#access-suppression-list}
+## 訪問隱藏清單 {#access-suppression-list}
 
 若要存取排除的電子郵件地址的詳細清單，請開啟「**[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]**」功能表，然後按一下「**[!UICONTROL View suppression lists]**」連結。
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 <!--You can also download the list as a CSV file for analysis and reporting purpose. Won't be available.-->
 
-## 隱藏類別和原因{#suppression-categories-and-reasons}
+## 隱藏類別和原因 {#suppression-categories-and-reasons}
 
 當訊息無法傳送至電子郵件地址時，Journey Optimizer會判斷傳送失敗的原因，並將其與隱藏類別建立關聯。
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 | 原因 | 說明 | 隱藏類別 |
 ---------|----------|--------- |
-| **[!UICONTROL Undetermined]** | 無法識別從收件者網域傳訊傳輸代理(MTA)收到的退信原因。 | 已忽略 |
+| **[!UICONTROL Undetermined]** | 無法識別從收件者網域訊息傳輸代理(MTA)收到的退信原因。 | 已忽略 |
 | **[!UICONTROL Invalid Recipient]** | 收件者無效或不存在。 | 硬 |
 | **[!UICONTROL Soft Bounce]** | 消息軟退信的原因不是此表中列出的軟錯誤，例如當發送超出ISP建議的允許速率時。 | 軟 |
 | **[!UICONTROL DNS Failure]** | 由於DNS失敗而退信。 | 軟 |
