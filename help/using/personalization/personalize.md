@@ -5,7 +5,7 @@ feature: 個性化
 topic: 個性化
 role: Data Engineer
 level: Beginner
-source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 11%
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 探索[!DNL Adobe Journey Optimizer]個人化功能，運用您擁有的關於他/她的資料和資訊，讓您的訊息適應每個特定收件者。 這可以是他的名字，他的興趣，他住的地方，他買的東西，等等。
 
-[!DNL :arrow_forward:] [了解如何個人化這些影片中的訊息](#video-perso)
+➡️ [了解如何個人化這些影片中的訊息](#video-perso)
 
 [!DNL Journey Optimizer] 使用以 **** Handlebars為基礎的inlinesimple個人化語法，可讓您以雙大括弧{{}}括住的&#x200B;**內容建立運算式**。您可以在相同的內容或欄位中新增多個運算式，不受限制。 進一步了解[個人化語法](personalization-syntax.md)。
 
