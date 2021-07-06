@@ -5,9 +5,9 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: ff36b68efa639870b68997fca86ee1be24e2cc79
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    ![](assets/previewselect-namespace.png)
 
-   了解更多Adobe Experience Platform身分識別命名空間[，請參閱本節](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#getting-started)。
+   在此小節](get-started-identity.md){target=&quot;_blank&quot;}中，深入了解Adobe Experience Platform身分識別命名空間[。
 
    在以下範例中，我們將使用&#x200B;**Email**&#x200B;命名空間。
 
