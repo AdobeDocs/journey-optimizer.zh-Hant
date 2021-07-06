@@ -1,22 +1,22 @@
 ---
 title: 追蹤您的訊息
-description: 了解如何追蹤已傳送的訊息
+description: 了解如何新增連結及追蹤已傳送的訊息
 feature: 監控
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: e27472cc6186cf7cb25fdb93d15720fc837c58bb
+source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 2%
+source-wordcount: '536'
+ht-degree: 1%
 
 ---
 
-# 訊息追蹤 {#tracking}
+# 新增連結及追蹤訊息 {#tracking}
 
-使用[!DNL Journey Optimizer]追蹤已傳送的訊息和收件者的行為。
+使用[!DNL Journey Optimizer]來新增內容的連結並追蹤傳送的訊息，以監控收件者的行為。
 
-## 啟用追蹤{#enable-tracking}
+## 啟用追蹤 {#enable-tracking}
 
 當[建立您的訊息](create-message.md)時，您可以檢查&#x200B;**[!UICONTROL Open Tracking for email]**&#x200B;和/或&#x200B;**[!UICONTROL Click Tracking for email]**&#x200B;選項，以啟用訊息層級的追蹤。
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 * **[!UICONTROL Open Tracking for email]**:已開啟的訊息。
 * **[!UICONTROL Click Tracking for email]**:點按電子郵件中的連結。
 
-## 插入連結{#insert-links}
+## 插入連結 {#insert-links}
 
 設計訊息時，您可以新增連結至內容。
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 
    * **[!UICONTROL Unsubscription link]**:插入連結以取消訂閱以免接收來自您品牌的通訊。進一步了解[本區段](consent.md#opt-out-management)中的選擇退出管理。
 
-   * **[!UICONTROL Mirror page]**:插入連結以在網頁瀏覽器中顯示電子郵件內容。
+   * **[!UICONTROL Mirror page]**:插入連結以在網頁瀏覽器中顯示電子郵件內容。進一步了解[本節](#mirror-page)。
 
    ![](assets/message-tracking-links.png)
 
@@ -65,7 +65,29 @@ ht-degree: 2%
 
    ![](assets/message-tracking-link-settings.png)
 
-## 管理追蹤{#manage-tracking}
+## 連結至鏡像頁面 {#mirror-page}
+
+鏡像頁面是可透過網頁瀏覽器線上存取的HTML頁面。 其內容與您的電子郵件內容相同。
+
+若要將連結新增至電子郵件中的鏡像頁面，請[插入連結](#insert-links)並選取&#x200B;**[!UICONTROL Mirror page]**&#x200B;作為連結類型。
+
+![](assets/message-tracking-mirror-page.png)
+
+鏡像頁面會自動建立。
+
+>[!NOTE]
+>
+>您無法編輯自動產生的連結。
+
+傳送電子郵件後，當收件者按一下鏡像頁面連結時，電子郵件的內容會顯示在其預設的網頁瀏覽器中。
+
+>[!NOTE]
+>
+>在傳送至測試設定檔的[proof](preview.md#send-proofs)中，鏡像頁面的連結未作用中。 它只會在最終訊息中啟動。
+
+鏡像頁面的保留期為60天。 延遲後，鏡像頁面將不再可用。
+
+## 管理追蹤 {#manage-tracking}
 
 [電子郵件設計工具](create-email-content.md)可讓您管理追蹤的URL，例如編輯每個連結的追蹤類型。
 
