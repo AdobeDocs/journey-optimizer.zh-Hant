@@ -5,10 +5,10 @@ feature: 優惠
 topic: 整合
 role: User
 level: Beginner
-source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 97%
 * 改善工作流程：行銷團隊可以建立單一傳遞，並在範本的不同部分提供不同優惠方案，藉此改善工作流程，而無須建立多個傳遞或行銷活動；
 * 控制在電子郵件行銷活動中和向客戶顯示優惠方案的次數。
 
-![](../../assets/do-not-localize/how-to-video.png) [觀看這些教學課程影片](#tutorial-videos)，瞭解更多有關決定管理的資訊。
+➡️ [觀看這些教學課程影片](#tutorial-videos)以取得決策管理的詳細資訊。
 
 ## 關於優惠和決定 {#offers-offer-activities}
 
@@ -98,7 +98,7 @@ ht-degree: 97%
 >
 >這些影片適用於以 Adobe Experience Platform 為基礎的優惠決定應用程式服務，而非特定於 [!DNL Adobe Journey Optimizer]。 但是，它為 [!DNL Journey Optimizer] 環境中使用的決定管理提供了一般指南。
 
-### 什麼是決定管理？{#what-is-offer-decisioning}
+### 什麼是決定管理？ {#what-is-offer-decisioning}
 
 下面的影片介紹了決定管理的重要功能、結構和使用實例：
 
