@@ -5,14 +5,14 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
+source-git-commit: ff36b68efa639870b68997fca86ee1be24e2cc79
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
 
-# 預覽並測試您的訊息{#preview-and-proof}
+# 預覽和測試您的訊息{#preview-and-proof}
 
 定義訊息內容後，您就可以使用測試設定檔來預覽和測試。 如果您插入[個人化內容](personalization/personalize.md)，則可以利用測試設定檔資料來檢查訊息中此內容的顯示方式。
 
@@ -23,7 +23,6 @@ ht-degree: 0%
 >您必須有可用的測試設定檔，才能預覽訊息並傳送校樣。
 >
 >了解如何在[此頁面](building-journeys/creating-test-profiles.md)中建立測試設定檔。
-
 
 若要測試訊息內容，您必須：
 
@@ -38,6 +37,7 @@ ht-degree: 0%
 >
 >預覽訊息或傳送校樣時，只會顯示設定檔個人化資料。 根據內容資料的個人化（例如事件資訊）只能在歷程的內容中測試。 了解如何在[此使用案例](personalization/personalization-use-case.md)中測試個人化。
 
+![](assets/do-not-localize/how-to-video.png) [了解如何在此影片中預覽、校樣和發佈您的電子郵件](#video-preview)
 
 ## 選取測試設定檔{#select-test-profiles}
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 >
 > 在傳送至測試設定檔的校樣中，鏡像頁面的連結未啟用。 它只會在最終訊息中啟動。
 
-## 電子郵件呈現{#email-rendering}
+## 電子郵件轉譯{#email-rendering}
 
 您可以將&#x200B;**Litmus**&#x200B;帳戶運用在[!DNL Journey Optimizer]中，即時在熱門電子郵件用戶端中預覽&#x200B;**電子郵件呈現**。
 
@@ -166,3 +166,8 @@ ht-degree: 0%
 >
 >將您的&#x200B;**Litmus**&#x200B;帳戶與[!DNL Journey Optimizer]連接時，您同意將測試報文發送到Litmus:傳送後，這些電子郵件便不再由Adobe管理。 因此，Litmus資料保留電子郵件原則會套用至這些電子郵件，包括可能包含在這些測試訊息中的個人化資料。
 
+## 作法影片{#video-preview}
+
+了解如何測試各收件匣間的電子郵件呈現、如何根據測試設定檔預覽您的個人化電子郵件、傳送校樣及發佈您的電子郵件。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
