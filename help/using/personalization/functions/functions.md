@@ -5,7 +5,7 @@ feature: 個性化
 topic: 個性化
 role: Data Engineer
 level: Experienced
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 2%
@@ -75,7 +75,7 @@ ht-degree: 2%
         <td><a href="aggregation.md#max">最大</a></td><td>此函式會傳回陣列中所有選取值中最大的值</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">超集</a></td><td>此函式終止特定陣列（陣列A）是否是另一個陣列（陣列B）的超集，即陣列A是否包含陣列B中的所有元素</td>
+    <td><a href="arrays-list.md#superset">超集</a></td><td>此函式確定特定陣列（陣列A）是否是另一個陣列（陣列B）的超集，即陣列A是否包含陣列B中的所有元素</td>
     </tr>
 </table>
 
