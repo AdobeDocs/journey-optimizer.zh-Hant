@@ -5,14 +5,14 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1047'
 ht-degree: 3%
 
 ---
 
-# 回退優惠方案資料集{#fallback-dataset}
+# 回退優惠方案資料集 {#fallback-dataset}
 
 每次修改優惠方案時，都會更新後援優惠方案的自動產生資料集。
 
@@ -104,7 +104,7 @@ ht-degree: 3%
       **欄位：** id
       **說明：** 可參考內容存放庫中資產的選用唯一識別碼。當使用Platform API擷取表示法時，用戶端可能會預期其他屬性\&quot;repo:resolveUrl\&quot;來擷取資產。
       **類型:**字串
-      **範例：** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+      **範例：** &quot;:aaid:urnsc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **名稱**
 
@@ -122,7 +122,7 @@ ht-degree: 3%
    * **resolveURL**
 
       **欄位：** resolveURL
-      **說明：** 內容存放庫中讀取資產的選用唯一資源定位器。這可讓用戶端更輕鬆取得資產，同時了解資產的管理位置以及要呼叫的API。 這類似於HAL連結，但語義更簡單、更有針對性。
+      **說明：** 內容存放庫中讀取資產的選用唯一資源定位器。如此一來，若客戶不了解資產的管理位置以及要呼叫的API，就能更輕鬆取得資產。 這類似於HAL連結，但語義更簡單、更有針對性。
       **類型:**字串
       **範例：**  &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
