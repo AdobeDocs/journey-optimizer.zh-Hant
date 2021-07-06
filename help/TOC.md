@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+source-git-commit: 3f0fe5079b32103aec6160f22900c14db7b0d304
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 97%
@@ -235,7 +235,7 @@ ht-degree: 97%
          + [關於動作](using/action/action.md)
          + [設定動作](using/action/about-custom-action-configuration.md)
          + [與 Adobe Campaign v7/v8 整合](using/action/acc-action.md)
-      + [來源](using/get-started-sources.md)
+   + [來源](using/get-started-sources.md)
 + 存取控制 {#administration}
    + [存取控制概覽](using/administration/permissions-overview.md)
    + [內建的產品設定檔](using/administration/ootb-product-profiles.md)
