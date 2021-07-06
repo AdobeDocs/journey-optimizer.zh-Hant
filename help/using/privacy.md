@@ -4,10 +4,10 @@ description: 瞭解如何管理隱私權
 topic: 隱私權
 role: User
 level: Intermediate
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 82%
+source-wordcount: '775'
+ht-degree: 78%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 82%
 
 [!DNL Journey Optimizer] 繼承了 Adobe Experience Platform 大多數資料集變更。
 
-因此，隱私權請求 (存取權和被遺忘權) 是透過 Experience Platform 管理的。 您需要使用[隱私權服務](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant)傳送請求，並在[建立您的隱私權請求](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant#request-builder)時，從產品清單中選擇&#x200B;**設定檔**&#x200B;和 **AEP 資料湖**。<!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
+因此，隱私權請求 (存取權和被遺忘權) 是透過 Experience Platform 管理的。 您需要使用[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target=&quot;_blank&quot;}傳送請求，並在[建立您的隱私權請求](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant#request-builder){target=&quot;_blank&quot;}時，從產品清單中選取&#x200B;**設定檔**&#x200B;和&#x200B;**AEP資料湖**。 <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
 
 >[!NOTE]
 >
