@@ -5,10 +5,10 @@ feature: 監控
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 1%
+source-wordcount: '507'
+ht-degree: 0%
 
 ---
 
@@ -87,6 +87,6 @@ ht-degree: 1%
 
 * **[!UICONTROL Errors]**:因技術故障而無法傳送的訊息數。
 
-* **[!UICONTROL Spam complaints]**:收件者標示為垃圾訊息的郵件數。[深入了解投訴](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability)。
+* **[!UICONTROL Spam complaints]**:收件者標示為垃圾訊息的郵件數。[傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}中提供投訴的詳細資訊。
 
 按一下每個超連結將開啟相應的消息摘要視圖。 [進一步了解訊息](create-message.md)。
