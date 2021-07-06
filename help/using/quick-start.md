@@ -5,10 +5,10 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Beginner
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 42%
+source-wordcount: '403'
+ht-degree: 41%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 42%
 
 * **設定使用者權限**:登入並 [!DNL Adobe Journey Optimizer] 授予團隊成員的存取權。[閱讀全文](../using/administration/permissions.md)
 
-* **部[!DNL Adobe Experience Manager Assets Essentials]**&#x200B;署：若要管理訊息中的資產和影像，您需要為您的 [!DNL Assets Essentials] 組織進行部署，並確定需要存取的使用者是Assets Essentials消費者使用者 [!DNL Assets Essentials]或/和 **Assets Essentials使用者產** 品設定檔 **** 的一部分。[閱讀全文](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
+* **部[!DNL Adobe Experience Manager Assets Essentials]**&#x200B;署：若要管理訊息中的資產和影像，您需要為您的 [!DNL Assets Essentials] 組織進行部署，並確定需要存取的使用者是Assets Essentials消費者使用者 [!DNL Assets Essentials]或/和 **Assets Essentials使用者產** 品設定檔 **** 的一部分。[了解詳情](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}
 
 * **設定通道**:定義您的電子郵件和推播通知設定。[閱讀全文](../using/configuration/get-started-configuration.md)
 
@@ -34,13 +34,13 @@ ht-degree: 42%
 
 * **識別資料並建立方案和資料集**：將您的資料匯入Adobe Experience Platform、建立身分命名空間並啟用資料集，以使用設定檔、建立區段和測試設定檔。
 
-   * 了解如何在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant)中預覽和建立資料集
+   * 了解如何在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}中預覽和建立資料集
 
-   * 了解如何在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant#manage-namespaces)中建立身分命名空間
+   * 了解如何在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant#manage-namespaces){target=&quot;_blank&quot;}中建立身分命名空間
 
    * 了解如何在[此頁面](../using/building-journeys/creating-test-profiles.md)中建立測試設定檔
 
-   * 進一步了解[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant)中的資料擷取
+   * 進一步了解[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target=&quot;_blank&quot;}中的資料擷取
 
 
 ### 使用流程
