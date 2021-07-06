@@ -5,9 +5,9 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '903'
 ht-degree: 4%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 4%
 
    您可以將優惠方案的呈現方式限制為一或多個Adobe Experience Platform區段的成員。 要執行此操作，請啟動&#x200B;**[!UICONTROL Visitors who fall into one or multiple segments]**&#x200B;選項，然後從左窗格中添加一個或多個段，並使用&#x200B;**[!UICONTROL And]** / **[!UICONTROL Or]**&#x200B;邏輯運算子將它們組合起來。
 
-   如需如何使用區段的詳細資訊，請參閱[分段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)。
+   如需如何使用區段的詳細資訊，請參閱[本頁面](../../segment/about-segments.md)。
 
    ![](../../assets/offer-eligibility-segment.png)
 
@@ -130,7 +130,7 @@ ht-degree: 4%
 
 ![](../../assets/offer_created.png)
 
-建立選件後，您可以在清單中按一下其名稱以存取詳細資訊，並使用&#x200B;**[!UICONTROL Change log]**&#x200B;標籤監控對選件所做的所有變更（請參閱[監控選件和決策的變更](../get-started/user-interface.md#monitoring-changes)）。
+建立選件後，您可以在清單中按一下其名稱以存取詳細資訊，並使用&#x200B;**[!UICONTROL Change log]**&#x200B;標籤監控對其所做的所有變更。 [了解更多](../get-started/user-interface.md#monitoring-changes)。
 
 ## 教學課程影片 {#video}
 
