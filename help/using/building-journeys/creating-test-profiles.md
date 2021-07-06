@@ -5,14 +5,14 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 8dfa7a7700e1bb452ea9cd5e7d0adb6df55de03b
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1328'
 ht-degree: 1%
 
 ---
 
-# 建立測試設定檔{#create-test-profiles}
+# 建立測試設定檔 {#create-test-profiles}
 
 使用測試模式時需要測試設定檔了解如何在歷程中使用[測試模式](../building-journeys/testing-the-journey.md)，以及[預覽和測試您的訊息](../preview.md)。
 
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 * 您可以上傳[csv檔案](#create-test-profiles-csv)或使用[API呼叫](#create-test-profiles-api)來建立測試設定檔。 除了這兩種方法以外，Adobe Journey Optimizer還隨附特定的[產品內使用案例](#use-case-1)以利建立測試設定檔。
 
-* 您也可以上傳資料集中的JSON檔案。 如需詳細資訊，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)。
+* 您也可以上傳資料集中的JSON檔案。 如需詳細資訊，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target=&quot;_blank&quot;}。
 
-請注意，建立測試設定檔與在Adobe Experience Platform中建立一般設定檔類似。 如需詳細資訊，請參閱[即時客戶設定檔檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)。
+請注意，建立測試設定檔與在Adobe Experience Platform中建立一般設定檔類似。 如需詳細資訊，請參閱[即時客戶設定檔檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}。
 
 ## 先決條件 {#test-profile-prerequisites}
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->有關架構建立的詳細資訊，請參閱[XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites)。
+>有關架構建立的詳細資訊，請參閱[XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target=&quot;_blank&quot;}。
 
 然後，您需要&#x200B;**建立要匯入設定檔的資料集**。 請依照下列步驟操作：
 
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 如需資料集建立的詳細資訊，請參閱[目錄服務檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started)。
+> 如需資料集建立的詳細資訊，請參閱[目錄服務檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target=&quot;_blank&quot;}。
 
 ## 產品內使用案例{#use-case-1}
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 
 需要下列資訊：
 
-1. **身分命名空間**:用來 [唯一](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) 識別測試設定檔的身分名稱。例如，如果使用電子郵件來識別測試設定檔，則應選取身分命名空間&#x200B;**Email**。 如果唯一識別碼是電話號碼，則應選取身分命名空間&#x200B;**Phone**。
+1. **身分命名空間**:用來 [唯一](../get-started-identity.md) 識別測試設定檔的身分名稱。例如，如果使用電子郵件來識別測試設定檔，則應選取身分命名空間&#x200B;**Email**。 如果唯一識別碼是電話號碼，則應選取身分命名空間&#x200B;**Phone**。
 
 2. **CSV檔案**:以逗號分隔的檔案，包含要建立的測試設定檔清單。使用案例需要CSV檔案的預先定義格式，其中包含要建立的測試設定檔清單。 檔案中的每一列都應以下列正確順序包含下列欄位：
 
@@ -143,7 +143,7 @@ ht-degree: 1%
    >
    > 有關&#x200B;**[!UICONTROL Update Profile]**&#x200B;活動的詳細資訊，請參閱[此部分](../building-journeys/update-profiles.md)。
 
-## 使用csv檔案{#create-test-profiles-csv}建立測試設定檔
+## 使用csv檔案建立測試設定檔{#create-test-profiles-csv}
 
 在Adobe Experience Platform中，您可以將包含不同設定檔欄位的csv檔案上傳至資料集，以建立設定檔。 這是最簡單的方法。
 
@@ -171,11 +171,11 @@ ht-degree: 1%
 系統會新增您的測試設定檔，現在可用於測試歷程。 請參閱[本節](../building-journeys/testing-the-journey.md)。
 >[!NOTE]
 >
-> 如需csv匯入的詳細資訊，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials)。
+> 如需csv匯入的詳細資訊，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target=&quot;_blank&quot;}。
 
-## 使用API呼叫{#create-test-profiles-api}建立測試設定檔
+## 使用API呼叫建立測試設定檔{#create-test-profiles-api}
 
-您也可以透過API呼叫建立測試設定檔。 了解更多資訊，請參閱此[page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)。
+您也可以透過API呼叫建立測試設定檔。 進一步了解[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}。
 
 您必須使用包含「設定檔測試詳細資料」欄位群組的設定檔結構。 testProfile標幟是此欄位群組的一部分。
 建立設定檔時，請務必傳遞值：testProfile = true。
