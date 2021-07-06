@@ -5,10 +5,10 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -70,9 +70,9 @@ ht-degree: 100%
 
 ![](../../assets/duplicate-offer.png)
 
-## 優惠和決定變更記錄{#changes-logs}
+## 優惠和決定變更記錄 {#changes-logs}
 
-優惠資料庫可讓您檢視對優惠或決定所做的所有變更。 若要這麼做，請按一下清單中優惠或決定的名稱，然後選取 **[!UICONTROL Change log]** 標籤。
+優惠方案程式庫可讓您視覺化對優惠方案或決策所做的所有變更。 若要這麼做，請按一下清單中優惠或決定的名稱，然後選取 **[!UICONTROL Change log]** 標籤。
 
 所有已進行的變更及執行變更的使用者名稱都會顯示在此畫面中。
 
