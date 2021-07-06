@@ -1,24 +1,24 @@
 ---
-title: 個人化使用實例
-description: 個人化使用實例
+title: 個人化使用案例&amp；冒號；訂單狀態通知
+description: 了解如何使用設定檔、優惠方案決策和內容資訊個人化訊息
 feature: 個性化
 topic: 個性化
 role: Data Engineer
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: f05e968a29d76e8dcd8e96fb8a5a1c60c4b12529
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 2%
+source-wordcount: '622'
+ht-degree: 0%
 
 ---
 
 
-# 個人化使用實例 {#personalization-use-case}
+# 個人化使用案例：訂單狀態通知 {#personalization-use-case}
 
 在此使用案例中，您將了解如何在單一推播通知訊息中使用多種類型的個人化。 將使用三種類型的個人化：
 
 * **設定檔**:根據設定檔欄位的訊息個人化
-* **選件決策**:根據優惠方案決策變數進行個人化
+* **選件決策**:根據offer decisioning變數進行個人化
 * **內容**:根據歷程中的內容資料進行個人化
 
 此範例的目標是每次更新客戶訂單時推送事件至[!DNL Journey Optimizer]。 接著會傳送推播通知給客戶，其中包含訂單和個人化優惠方案的資訊。
@@ -116,7 +116,7 @@ ht-degree: 2%
 
    ![](assets/perso-uc17.png)
 
-1. 輸入要在測試中傳遞的不同值。 測試模式只適用於測試設定檔。 設定檔識別碼必須與測試設定檔相對應。 按一下&#x200B;**Send**。
+1. 輸入要在測試中傳遞的不同值。 測試模式只適用於測試設定檔。 設定檔識別碼必須對應至測試設定檔。 按一下&#x200B;**Send**。
 
    ![](assets/perso-uc18.png)
 
