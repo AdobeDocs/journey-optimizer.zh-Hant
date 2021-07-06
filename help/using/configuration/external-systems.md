@@ -7,9 +7,9 @@ feature: Journey Optimizer
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: d713010e85936f7ce7b6389bc68d4eec2d8bdaae
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1027'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Journey Optimizer可讓您透過自訂資料來源和自訂動作來設定與外
 
 預設沒有上限規則。 上限規則是在沙箱層級使用上限設定API為特定端點（稱為的URL）定義。 請參閱[本區段](../configuration/external-systems.md#capping)和[本頁面](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html)。
 
-**執行了多少次重試？我可以變更重試次數或定義兩次重試之間的分鐘等待期間嗎？**
+**執行了多少次重試？我可以變更重試次數或定義兩次重試之間的最低等待時間嗎？**
 
 對於指定呼叫，在首次呼叫後最多可執行三次重試，直到達到逾時期間的結尾。 無法更改重試次數和每次重試之間的時間。 請參閱[本節](../configuration/external-systems.md#timeout)。
 
