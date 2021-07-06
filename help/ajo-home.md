@@ -5,14 +5,14 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Beginner
-source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
+source-git-commit: 23120835969006b3c8004b8cd89c4a9ab976760a
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 51%
+source-wordcount: '196'
+ht-degree: 38%
 
 ---
 
-# Adobe Journey Optimizer 文件 {#cjm-documentation}
+# Adobe[!DNL Journey Optimizer]檔案 {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.png)
 
@@ -26,7 +26,7 @@ ht-degree: 51%
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">什麼是 Journey Optimizer?</a>
+      <a href="using/get-started.md">什麼是[!DNL Journey Optimizer]?</a>
     </div>
     <p>探索重要功能及瞭解如何開始使用
     <p>
@@ -67,13 +67,24 @@ ht-degree: 51%
     <p>
     <p>
     <div>
+    <li>
+      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html">Adobe Journey Optimizer產品說明</a>
+    </li>
+    </div>
+    <div>
+    <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant">Adobe Experience Platform檔案</a>
+    </li>
     </div>
       <div>
+      <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant">Adobe Experience Platform 存取權限概覽</a>
+    </li>
     </div>
       <div>
+      <li>
       <a href="https://www.adobe.com/tw/experience-platform/documentation-and-developer-resources.html">Adobe Experience Platform 開發人員資源</a>
+    </li>
     </div>
   </td>
    <td>
@@ -105,13 +116,13 @@ ht-degree: 51%
     <p>
     <p>資料管理</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant">結構描述</a>
+      <a href="using/get-started-schemas.md">結構描述</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant">資料集</a>
+      <a href="using/get-started-datasets.md">資料集</a>
     </li>
         <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=zh-Hant">查詢</a>
+      <a href="using/get-started-queries.md">查詢</a>
     </li>
      <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hant">監控</a>
@@ -119,7 +130,7 @@ ht-degree: 51%
     <p>
     <p>連線</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant">來源</a>
+      <a href="using/get-started-sources.md">來源</a>
     </li>
     <p>
     <p>客戶</p>
@@ -127,10 +138,10 @@ ht-degree: 51%
       <a href="using/segment/about-segments.md">區段</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant">設定檔</a>
+      <a href="using/get-started-profiles.md">設定檔</a>
     </li>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces">身分</a>
+      <a href="using/get-started-identity.md">身分</a>
     </li>
     <p>
     <p>管理</p>
