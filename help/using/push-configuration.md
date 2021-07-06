@@ -5,16 +5,16 @@ feature: 應用程式設定
 topic: 推播
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1432'
 ht-degree: 4%
 
 ---
 
 # 設定推播通知頻道 {#push-notification-configuration}
 
-[!DNL Journey Optimizer] 可讓您建立歷程並傳送訊息給目標對象。開始使用[!DNL Journey Optimizer]傳送推播通知前，您必須確定已在行動應用程式、[!DNL Adobe Experience Platform]和[!DNL Adobe Experience Platform Launch]中部署設定和整合。 若要了解AdobeJourney Optimizer中的推播通知資料流程，請參閱[本頁面](push-gs.md)。
+[!DNL Journey Optimizer] 可讓您建立歷程並傳送訊息給目標對象。開始使用[!DNL Journey Optimizer]傳送推播通知前，您必須確定已在行動應用程式、[!DNL Adobe Experience Platform]和[!DNL Adobe Experience Platform Launch]中部署設定和整合。 若要了解[!DNL Adobe Journey Optimizer]中的推播通知資料流程，請參閱[本頁面](push-gs.md)。
 
 ## 開始之前
 
@@ -54,7 +54,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 1. 選擇現有的&#x200B;**[!UICONTROL Product Profile]**&#x200B;或使用&#x200B;**[!UICONTROL New profile]**&#x200B;按鈕建立新的。 了解如何在[管理控制台檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui)中建立新的&#x200B;**[!UICONTROL New profile]**。
 
-1. 從&#x200B;**[!UICONTROL Permissions]**&#x200B;頁簽中，選擇&#x200B;**[!UICONTROL Property rights]**。
+1. 在&#x200B;**[!UICONTROL Permissions]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Property rights]**。
 
    ![](assets/push_product_2.png)
 
@@ -118,7 +118,7 @@ Adobe Experience Platform Mobile SDK透過Android和iOS相容的SDK，為您的�
 到此結尾，您也應該已在Adobe Experience Platform Launch中建立並設定行動屬性。 您通常會為要管理的每個行動應用程式建立行動屬性。 了解如何在[Adobe Experience Platform Launch檔案](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)中建立和設定行動屬性。
 
 
-## 步驟1:在Adobe Experience Platform Launch {#push-credentials-launch}中新增應用程式推送憑證
+## 步驟1:在Adobe Experience Platform Launch中新增您的應用程式推送憑證 {#push-credentials-launch}
 
 授予正確的使用者權限後，您現在需要在[!DNL Adobe Experience Platform Launch]中新增行動應用程式推送憑證。
 
@@ -245,7 +245,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 -->
 
-## 步驟3:使用事件{#mobile-app-test}測試您的行動應用程式
+## 步驟3:使用事件測試您的行動應用程式 {#mobile-app-test}
 
 在Adobe Experience Platform和AdobeLaunch中設定您的行動應用程式後，您現在可以先測試應用程式，再將推播通知傳送至您的設定檔。 在此使用案例中，我們將建立歷程來定位行動應用程式，並設定會觸發推播通知的事件。
 
@@ -263,7 +263,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 1. 選擇「**[!UICONTROL Create a new field group]**」。
 
-1. 輸入&#x200B;**[!UICONTROL Display Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。 完成後，按一下&#x200B;**[!UICONTROL Add field groups]**。 有關如何建立欄位組的詳細資訊，請參閱[XDM系統文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant)。
+1. 輸入&#x200B;**[!UICONTROL Display Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。 完成時，按一下 **[!UICONTROL Add field groups]**。有關如何建立欄位組的詳細資訊，請參閱[XDM系統文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant)。
 
 
    ![](assets/test_push_4.png)
@@ -343,7 +343,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 您的事件將會觸發，而您會收到您的行動應用程式推播通知。
 
-## 步驟4:建立推送{#message-preset}的訊息預設集
+## 步驟4:建立推送訊息預設集{#message-preset}
 
 在[!DNL Adobe Experience Platform Launch]中設定您的行動應用程式後，您需要建立訊息預設集，才能從&#x200B;**[!DNL Journey Optimizer]**&#x200B;傳送推播通知。
 
