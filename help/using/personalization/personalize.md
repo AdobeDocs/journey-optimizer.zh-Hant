@@ -5,10 +5,10 @@ feature: 個性化
 topic: 個性化
 role: Data Engineer
 level: Beginner
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 11%
+source-wordcount: '666'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 11%
 
 [!DNL Journey Optimizer] 使用以 **** Handlebars為基礎的inlinesimple個人化語法，可讓您以雙大括弧{{}}括住的&#x200B;**內容建立運算式**。您可以在相同的內容或欄位中新增多個運算式，不受限制。 進一步了解[個人化語法](personalization-syntax.md)。
 
-根據由 Adobe Experience Platform 定義的 **XDM 個人設定檔**&#x200B;方案管理的設定檔資料進行個人化。 有關詳細資訊，請參閱 [Adobe Experience Platform 資料模型 (XDM) 文件](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)。
+根據由 Adobe Experience Platform 定義的 **XDM 個人設定檔**&#x200B;方案管理的設定檔資料進行個人化。 深入了解[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 >[!CAUTION]
 >**XDM個別設定檔**&#x200B;結構是唯一可用來個人化[!DNL Journey Optimizer]中內容的結構。
@@ -89,8 +89,8 @@ ht-degree: 11%
 
 畫面左側會顯示網域選取器，供您選取個人化來源。 可用來源包括：
 
-* **設定檔** :列出與Adobe Experience Platform資料模型(XDM)檔案中所述之設 [定檔架構相關聯的所有參考](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)。
-* **區段成員資格** :會列出在Adobe Experience Platform區段服務中建立的所有區段。[此處](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)提供分段的詳細資訊。
+* **設定檔** :列出與Adobe Experience Platform資料模型(XDM)檔 [案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}中所述之設定檔架構相關聯的所有參考。
+* **區段成員資格** :會列出在Adobe Experience Platform區段服務中建立的所有區段。有關可用區段的詳細資訊，請參閱[這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en){target=&quot;_blank&quot;}。
 * **選件** :列出與特定版位相關聯的所有優惠方案。選取版位，然後在內容中插入優惠方案。 如需如何管理優惠方案的完整檔案，請參閱[此區段](../deliver-personalized-offers.md)。
 * **內容** :在歷 **** 程中使用「訊息」活動時，此功能表中會提供內容歷程欄位。進一步了解[本節](personalization-use-case.md)。
 * **輔助功能** :列出所有可用於對資料執行操作的輔助功能，如計算、資料格式或轉換、條件，以及在個人化環境中處理這些功能。進一步了解[本節](functions/functions.md)。
