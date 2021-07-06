@@ -5,10 +5,10 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 13%
+source-wordcount: '244'
+ht-degree: 15%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 13%
 
 1. 為規則命名並提供說明，然後根據您的需求設定規則。
 
-   若要這麼做，Adobe Experience Platform的&#x200B;**區段產生器**&#x200B;可協助您建立規則的條件。 有關如何使用它的詳細資訊，請參閱[專用文檔](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html)。
+   若要這麼做，**區段產生器**&#x200B;可協助您建立規則的條件。 [了解更多](../../segment/about-segments.md)
 
    在此範例中，規則會鎖定具有「金級」忠誠度的客戶。
 
