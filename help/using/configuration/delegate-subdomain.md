@@ -15,10 +15,10 @@ feature: 應用程式設定
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 9%
+source-wordcount: '455'
+ht-degree: 10%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 9%
 1. 指定要委派的子網域名稱。
 
    ![](../assets/subdomain-name.png)
+
+   >[!CAUTION]
+   >
+   >請確定您輸入了有效的子網域，例如marketing.company.com。 不允許將無效的子網域委派至Adobe。
 
 1. 要放置在 DNS 伺服器顯示中的記錄清單。 逐一複製這些記錄，或下載 CSV 檔案，然後導覽至您的網域託管解決方案，以產生相符的 DNS 記錄。
 
