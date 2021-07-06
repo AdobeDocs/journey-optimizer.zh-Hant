@@ -5,10 +5,10 @@ feature: 資料來源
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 86%
+source-wordcount: '283'
+ht-degree: 74%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 86%
 
 資料來源有兩種類型：
 
-* 預先設定的 Adobe Experience Platform 資料來源可定義「即時客戶個人檔案服務」的連線，這是內建的資料來源。請參閱[本頁](../datasource/adobe-experience-platform-data-source.md)。
-* 外部資料來源可讓您定義外部系統的連線，這些是您可以建立的資料來源。請參閱[本頁](../datasource/external-data-sources.md)。
+* 預先設定的 Adobe Experience Platform 資料來源可定義「即時客戶個人檔案服務」的連線，這是內建的資料來源。請參閱[此頁面](../datasource/adobe-experience-platform-data-source.md)。
+* 外部資料來源可讓您定義外部系統的連線，這些是您可以建立的資料來源。請參閱[此頁面](../datasource/external-data-sources.md)。
 
-對於每個資料來源，您會使用欄位群組來定義要擷取的資訊。欄位群組是可從資料來源擷取的欄位集。請參閱[本頁](../datasource/configure-data-sources.md#define-field-groups)。
+對於每個資料來源，您會使用欄位群組來定義要擷取的資訊。欄位群組是可從資料來源擷取的欄位集。請參閱[此頁面](../datasource/configure-data-sources.md#define-field-groups)。
 
-如需如何設定 Adobe Experience Platform 資料來源和外部資料來源，以及如何在歷程中尋找和使用資料的詳細資訊，請觀看此[教學課程影片](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html)。
+如需如何設定Adobe Experience Platform資料來源和外部資料來源，以及如何在歷程中尋找和使用資料的詳細資訊，請觀看此[教學課程影片](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target=&quot;_blank&quot;}。
