@@ -6,10 +6,10 @@ feature: 控制組
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 18%
+source-wordcount: '726'
+ht-degree: 15%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 18%
 
 ![](../assets/access_control_1.png)
 
-## 編輯現有的產品設定檔{#edit-product-profile}
+## 編輯現有的產品設定檔 {#edit-product-profile}
 
 若為現成可用或自訂的&#x200B;**[!UICONTROL Product profiles]**，您可以隨時決定新增或刪除權限。
 
@@ -101,7 +101,7 @@ ht-degree: 18%
 
 [!DNL Journey Optimizer] 可讓您建立自己的 **[!UICONTROL Product profiles]** 權限，並將一組權限和沙箱指派給您的使用者。使用&#x200B;**[!UICONTROL Product profiles]**，您可以授權或拒絕訪問介面中的某些功能或對象。
 
-如需如何建立和管理沙箱的詳細資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant)。
+如需如何建立和管理沙箱的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 在此範例中，我們將建立名為&#x200B;**Journeys唯讀**&#x200B;的產品設定檔，其中我們會授予Journey功能的唯讀權限。 使用者將只能存取和檢視歷程，而無法存取&#x200B;**[!UICONTROL Decision management]**&#x200B;或&#x200B;**[!UICONTROL Messages]**&#x200B;等[!DNL Journey Optimizer]中的其他功能。
 
@@ -141,7 +141,7 @@ ht-degree: 18%
 
    ![](../assets/access_control_13.png)
 
-1. 在 **[!UICONTROL Available Permissions Items]** 下方，按一下加號 (+) 圖示，將沙箱指派給您的設定檔。[進一步瞭解 sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。
+1. 在 **[!UICONTROL Available Permissions Items]** 下方，按一下加號 (+) 圖示，將沙箱指派給您的設定檔。[進一步瞭解 sandbox](sandboxes.md)。
 
 1. 完成後，按一下 **[!UICONTROL Save]**。
 
