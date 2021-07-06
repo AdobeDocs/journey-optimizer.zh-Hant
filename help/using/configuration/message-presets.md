@@ -5,9 +5,9 @@ feature: 應用程式設定
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '880'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,9 @@ ht-degree: 1%
 
 在配置消息預設集後，從&#x200B;**[!UICONTROL Presets]**&#x200B;清單建立消息時，可以選擇它們。
 
-## 建立訊息預設集{#create-message-preset}
+![](../assets/do-not-localize/how-to-video.png) [了解如何在此影片中建立和使用電子郵件預設集](#video-presets)
+
+## 建立訊息預設集 {#create-message-preset}
 
 若要建立訊息預設集，請依照下列步驟操作：
 
@@ -148,3 +150,8 @@ ht-degree: 1%
    >
    >無法刪除停用中的訊息預設集，以避免使用這些預設集傳送訊息的歷程中出現任何問題。
 
+## 作法影片{#video-presets}
+
+了解如何建立訊息預設集、如何使用這些預設集，以及如何委派子網域和建立IP池。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
