@@ -5,9 +5,9 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >在此範例中，我們將使用&#x200B;**Email**&#x200B;命名空間。 了解更多Adobe Experience Platform身分識別命名空間[，請參閱本節](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#getting-started)。
+   >在此範例中，我們將使用&#x200B;**Email**&#x200B;命名空間。 了解更多Adobe Experience Platform身分識別命名空間[，請參閱本節](get-started-identity.md)。
 
 1. 在身分識別命名空間清單中，選擇&#x200B;**[!UICONTROL Email]**&#x200B;並按一下&#x200B;**[!UICONTROL Select]**。
 
