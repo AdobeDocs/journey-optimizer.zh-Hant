@@ -5,9 +5,9 @@ feature: 應用程式設定
 topic: 推播
 role: Administrator
 level: Intermediate
-source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '797'
 ht-degree: 2%
 
 ---
@@ -49,13 +49,13 @@ ht-degree: 2%
 
 * **Adobe Experience Platform Mobile** SDK，可透過Android和iOS相容的SDK，為您的行動裝置提供用戶端整合API。SDK提供[!DNL Adobe Journey Optimizer]擴充功能，可公開推送訊息專用的各種API，並啟用資料流，例如註冊推送代號或傳送推送追蹤事件或任何其他自訂體驗事件至Adobe Experience Platform。 SDK也提供多種其他擴充功能，以啟用其他Adobe Experience Cloud和第三方合作夥伴功能。
 
-   SDK整合也需要設定Adobe Experience Platform [資料收集](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=zh-Hant)服務，例如：
+   SDK整合也需要設定Adobe Experience Platform [資料收集](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=zh-Hant){target=&quot;_blank&quot;}服務，例如：
 
    * 建立資料流，以設定資料流入Adobe Experience Platform的設定檔和體驗事件資料集
    * 建立用戶端行動屬性並新增擴充功能。 SDK與這些擴充功能緊密整合，提供順暢的資料收集體驗。
    * 註冊行動應用程式套件識別碼和應用程式憑證
 
-* **Adobe Experience Platform即時客戶設**  定檔會結合來自多個管道（包括網路、行動裝置、CRM和協力廠商）的資料，以維護每個客戶的整體檢視。設定檔可讓您將客戶資料併入統一檢視中，提供每個客戶互動的可操作、時間戳記帳戶。 指定應用程式使用者的推送代號會根據使用者的設定檔儲存為記錄資料，而使用者與推送通知的互動則會以時間序列事件資料來追蹤。 [深入了解Adobe Experience Platform Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* **Adobe Experience Platform即時客戶設**  定檔會結合來自多個管道（包括網路、行動裝置、CRM和協力廠商）的資料，以維護每個客戶的整體檢視。設定檔可讓您將客戶資料併入統一檢視中，提供每個客戶互動的可操作、時間戳記帳戶。 指定應用程式使用者的推送代號會根據使用者的設定檔儲存為記錄資料，而使用者與推送通知的互動則會以時間序列事件資料來追蹤。 [深入了解Adobe Experience Platform即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}。
 
 * **[!DNL Adobe Journey Optimizer]** :一旦您的行動應用程式與上述元件的整合就緒，且Adobe Experience Platform中的客戶設定檔也準備就緒，您就可以在中撰寫和協調推播通知， [!DNL Adobe Journey Optimizer] 以與使用者互動。
 
