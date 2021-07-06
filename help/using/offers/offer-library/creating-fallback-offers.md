@@ -5,7 +5,7 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 如果客戶不符合其他優惠方案的資格，系統會將備援優惠方案傳送給他們。 建立備援優惠方案的步驟包括建立一或多個表示法，例如建立優惠方案時。
 
-![](../../assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
+➡️ [在影片中探索此功能](#video)
 
 可在&#x200B;**[!UICONTROL Offers]**&#x200B;功能表中存取後援優惠方案清單。
 
