@@ -5,9 +5,9 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '804'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->另請參閱教學課程影片[這裡](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=zh-Hant)
+>另請參閱Journey Orchestration教學課程影片[這裡](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
 ## 生命週期
 
