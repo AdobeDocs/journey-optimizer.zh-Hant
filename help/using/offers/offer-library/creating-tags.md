@@ -5,7 +5,7 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 6%
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 標籤也可用來將選件群組在選件集合中。 請參閱[建立集合](../offer-library/creating-collections.md)。
 
-![](../../assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
+➡️ [在影片中探索此功能](#video)
 
 可在&#x200B;**[!UICONTROL Components]**&#x200B;功能表中存取已建立的標籤清單。
 
