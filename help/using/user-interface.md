@@ -5,7 +5,7 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b495c96474e41d5b31cb3268434dbe36cfe13ec0
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 74%
@@ -98,7 +98,7 @@ ht-degree: 74%
 
 * **建立測試設定檔**，以使用我們的CSV範本建立測試設定檔，以測試個人化訊息和歷程。了解如何在本頁面](building-journeys/creating-test-profiles.md#use-case-1)中實作此使用案例[。
 * **傳送生日訊息給客戶**，以自動傳送電子郵件祝賀客戶生日。（即將推出）
-* **傳送電子郵件給新客戶**，以輕鬆傳送最多兩封電子郵件以歡迎您新註冊的客戶。（即將推出）
+* **傳送電子郵件給新客戶**，以輕鬆傳送最多兩封電子郵件歡迎您新註冊的客戶。（即將推出）
 * **傳送推播訊息至匯入的客戶清單**，以快速將推播通知傳送至從CSV檔案匯入的客戶清單。（即將推出）
 
 按一下&#x200B;**[!UICONTROL View details]**&#x200B;以深入了解每個使用案例。
