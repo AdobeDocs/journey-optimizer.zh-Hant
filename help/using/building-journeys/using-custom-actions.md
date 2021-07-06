@@ -5,10 +5,10 @@ feature: Journeys
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 7%
+source-wordcount: '143'
+ht-degree: 6%
 
 ---
 
@@ -20,4 +20,4 @@ ht-degree: 7%
 >
 >您無法在自訂動作參數中傳遞集合。 如果自訂動作預期集合，則無法運作。 另請注意，參數具有預期的格式(範例：字串、小數等)。 您必須小心遵守這些預期的格式。
 
-在&#x200B;**[!UICONTROL Action parameters]**&#x200B;區段中，您會看到定義為&#x200B;_&quot;Variable&quot;_&#x200B;的訊息參數。 對於這些參數，您可以定義取得此資訊的位置(範例：事件、資料來源)、手動傳遞值，或使用進階運算式編輯器來處理進階使用案例。 進階使用案例可以是資料操作和其他函式使用。 請參閱[此頁面](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hant)
+在&#x200B;**[!UICONTROL Action parameters]**&#x200B;區段中，您會看到定義為&#x200B;_&quot;Variable&quot;_&#x200B;的訊息參數。 對於這些參數，您可以定義取得此資訊的位置(範例：事件、資料來源)、手動傳遞值，或使用進階運算式編輯器來處理進階使用案例。 進階使用案例可以是資料操作和其他函式使用。 請參閱[AdobeJourney Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hant){target=&quot;_blank&quot;}。
