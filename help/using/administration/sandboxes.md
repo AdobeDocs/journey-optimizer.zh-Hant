@@ -1,31 +1,20 @@
 ---
-title: 沙箱管理
+title: 沙盒管理
 description: 了解如何管理沙箱
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
-exl-id: null
 feature: 控制組
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 2c4a86f7beb10d1ce35e8fb5600a979164038e5f
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 75%
+ht-degree: 76%
 
 ---
 
-# 沙箱管理 {#sandboxes}
+# 沙盒管理 {#sandboxes}
 
-## 使用沙箱{#using-sandbox}
+## 使用沙箱 {#using-sandbox}
 
 [!DNL Journey Optimizer] 可讓您將執行個體分割到名為沙箱的個別虛擬環境中。會透過 Admin Console 中的產品設定檔指派沙箱。[瞭解如何指派 sandbox](permissions.md#create-product-profile)。
 
@@ -34,7 +23,7 @@ ht-degree: 75%
 
 您可在螢幕左上方找到沙箱切換器控制項。若要從一個沙箱切換至另一個沙箱，請按一下切換器中目前作用中的沙箱，然後從下拉式清單中選取另一個沙箱。
 
-## 指派沙箱{#assign-sandboxes}
+## 指派沙箱 {#assign-sandboxes}
 
 >[!IMPORTANT]
 >
