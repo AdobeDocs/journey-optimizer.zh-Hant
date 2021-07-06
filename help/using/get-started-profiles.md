@@ -4,10 +4,10 @@ description: 了解如何在Adobe Journey Optimizer中建立和管理設定檔
 feature: 設定檔
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -29,5 +29,5 @@ ht-degree: 4%
 
 **另請參閱**
 
-* [即時客戶設定檔檔案](https://experienceleague-review.corp.adobe.com/docs/experience-platform/query/home.html){target=&quot;_blank&quot;}
+* [即時客戶設定檔檔案](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant){target=&quot;_blank&quot;}
 * [即時客戶設定檔概述影片](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}
