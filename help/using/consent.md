@@ -1,14 +1,14 @@
 ---
 title: 管理選擇退出
 description: 瞭解如何管理選擇退出與隱私權
-feature: Journeys
+feature: 歷程
 topic: 內容管理
 role: User
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '737'
-ht-degree: 79%
+ht-degree: 93%
 
 ---
 
@@ -131,17 +131,17 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 ## 標題中的取消訂閱連結 {#unsubscribe-email}
 
-如果收件者的電子郵件用戶端支援在電子郵件標題中顯示取消訂閱連結，則隨[!DNL Journey Optimizer]傳送的電子郵件會自動包含此連結。
+如果收件者的電子郵件用戶端支援在電子郵件標題中顯示取消訂閱連結，則隨 [!DNL Journey Optimizer] 傳送的電子郵件會自動包含此連結。
 
-例如，取消訂閱連結在Gmail中的顯示如下：
+例如，取消訂閱連結在 Gmail 中顯示如下：
 
 ![](assets/unsubscribe-email.png)
 
 根據電子郵件用戶端，從標題按一下取消訂閱連結將產生下列其中一項影響：
 
-* 對應的設定檔會立即退出，而此選項會以Experience Platform更新。 請參閱[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started){target=&quot;_blank&quot;}了解更多資訊。
+* 對應的設定檔會立即退出，而此選項會在 Experience Platform 中更新。 請參閱[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started){target=&quot;_blank&quot;}了解更多資訊。
 
-* 其效果與從電子郵件內容按一下取消訂閱連結相同：收件者會重新導向至包含按鈕的登錄頁面，以確認選擇退出。 進一步了解[本區段](#opt-out-management)中的選擇退出管理。
+* 其效果與從電子郵件內容按一下取消訂閱連結相同：收件者會重新導向至包含按鈕的登陸頁面，以確認選擇退出。 進一步瞭解[本章節](#opt-out-management)中的選擇退出管理。
 
 ## 推播選擇退出管理 {#push-opt-out-management}
 
