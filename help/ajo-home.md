@@ -9,7 +9,7 @@ level: Beginner
 source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 37%
+ht-degree: 39%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 37%
     <p>
     <p>歷程管理</p>
     <li>
-      <a href="using/building-journeys/journey-gs.md">Journeys</a>
+      <a href="using/building-journeys/journey-gs.md">歷程</a>
     </li>
     <li>
       <a href="using/create-message.md">訊息</a>
