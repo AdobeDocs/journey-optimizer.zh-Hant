@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 96%
 
 ## 字彙 {#glossary}
 
-您可以在下方找到使用決策管理時要使用的主要概念清單。
+您可以在下方找到使用決定管理時，將使用的主要概念清單。
 
 * **上限** 或&#x200B;**頻率上限**：上限會用作約束，來定義選件的顯示次數。有兩種上限，一個是優惠方案在合併的目標對象中可建議多少次（也稱為「總上限」），以及一個優惠方案可建議給同一個一般使用者（亦稱為「設定檔上限」）的次數。
 
@@ -100,12 +100,12 @@ ht-degree: 96%
 
 ### 什麼是決定管理？ {#what-is-offer-decisioning}
 
-下面的影片介紹了決定管理的重要功能、結構和使用實例：
+下面的影片介紹了決定管理的重要功能、結構和使用案例：
 
 >[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### 定義和管理優惠 {#use-offer-decisioning}
 
-以下影片說明如何使用決定管理來定義和管理您的優惠方案，並運用即時客戶資料。
+以下影片說明如何使用決定管理來定義和管理您的優惠，並運用即時客戶資料。
 
 >[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
