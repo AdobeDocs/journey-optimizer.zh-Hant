@@ -1,5 +1,5 @@
 ---
-title: '隱私權 in [!DNL Journey Optimizer] '
+title: '隱私權在  [!DNL Journey Optimizer] '
 description: 瞭解如何管理隱私權
 topic: 隱私權
 role: User
@@ -7,14 +7,14 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 78%
+ht-degree: 86%
 
 ---
 
 
-# 使用[!DNL Journey Optimizer]進行隱私權管理{#privacy}
+# 使用 [!DNL Journey Optimizer] 進行隱私權管理{#privacy}
 
-[!DNL Journey Optimizer] 是一款強大的工具，用於處理包括個人資訊及敏感資料在內的大量資料。為了提供更好的客戶體驗，您需要收集和儲存客戶的個人資料。 使用此資料時，請務必了解並尊重客戶的隱私。 新的法律和組織法規授予使用者權利，讓使用者有權應要求從您的資料存放區存取或刪除其個人資料。
+[!DNL Journey Optimizer] 是一款強大的工具，用於處理包括個人資訊及敏感資料在內的大量資料。為了提供更好的客戶體驗，您需要收集和儲存客戶的個人資料。 使用此資料時，請務必瞭解並尊重客戶的隱私。 新的法律和組織法規授予使用者權利，讓使用者有權應要求從您的資料存放區存取或刪除其個人資料。
 
 * **個人資料**&#x200B;是指可直接或間接識別在世個人的資訊。
 * **敏感個人資料**&#x200B;是指與個人的種族、政治觀點、宗教信仰、犯罪背景、遺傳資訊、健康資料、性傾向、生物識別資訊，以及工會會員會籍相關的資訊。
