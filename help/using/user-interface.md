@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '1211'
-ht-degree: 74%
+ht-degree: 93%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->* 瀏覽使用者介面時，Adobe Experience Platform有常見的重要概念。 如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hant#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}。
+>* 瀏覽使用者介面時的重要概念與 Adobe Experience Platform 相同。如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hant#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}。
    >
    >
-* 本檔案會經常更新，以反映產品使用者介面的最新變更。 不過，有些螢幕擷取畫面可能會與使用者介面稍有不同。
+* 本文件將經常更新，以反應此產品使用者介面的最新變更。不過，有些螢幕擷取畫面可能會與使用者介面稍有不同。
    >
    > 
-* UI中可用的元件和功能取決於您的權限和授權套件。 如有任何問題，請聯絡您的Adobe客戶成功經理。
+* UI 中可用元件和功能取決於您的權限和授權套件。 如有任何問題，請聯絡您的 Adobe 客戶成功經理。
 
 
 ## 左側導覽
@@ -90,32 +90,32 @@ ht-degree: 74%
 
 ## 產品內使用案例
 
-從首頁善用[!DNL Adobe Journey Optimizer]使用案例，並提供一些快速輸入項目以建立客戶歷程。
+善用首頁的[!DNL Adobe Journey Optimizer]使用案例，並提供一些快速輸入項目以建立客戶歷程。
 
 ![](assets/use-cases-home.png)
 
 可用的使用案例包括：
 
-* **建立測試設定檔**，以使用我們的CSV範本建立測試設定檔，以測試個人化訊息和歷程。了解如何在本頁面](building-journeys/creating-test-profiles.md#use-case-1)中實作此使用案例[。
-* **傳送生日訊息給客戶**，以自動傳送電子郵件祝賀客戶生日。（即將推出）
-* **傳送電子郵件給新客戶**，以輕鬆傳送最多兩封電子郵件歡迎您新註冊的客戶。（即將推出）
-* **傳送推播訊息至匯入的客戶清單**，以快速將推播通知傳送至從CSV檔案匯入的客戶清單。（即將推出）
+* **建立測試設定檔**，以使用我們的 CSV 範本建立測試設定檔，以測試個人化訊息和歷程。瞭解如何在](building-journeys/creating-test-profiles.md#use-case-1)本頁面[中實施此使用案例。
+* **傳送生日訊息給客戶**，以自動傳送電子郵件祝賀客戶生日。(即將推出)
+* **傳送電子郵件給新客戶**，以輕鬆傳送最多兩封電子郵件歡迎您新註冊的客戶。(即將推出)
+* **傳送推播訊息至匯入的客戶清單**，以快速將推播通知傳送至從 CSV 檔案匯入的客戶清單。(即將推出)
 
-按一下&#x200B;**[!UICONTROL View details]**&#x200B;以深入了解每個使用案例。
+按一下&#x200B;**[!UICONTROL View details]**&#x200B;以進一步瞭解每個使用案例。
 
-按一下&#x200B;**[!UICONTROL Begin]**&#x200B;按鈕以開始使用案例。
+按一下 **[!UICONTROL Begin]** 按鈕以開始使用案例。
 
 您可以從&#x200B;**[!UICONTROL View use case library]**&#x200B;按鈕存取已執行的使用案例。
 
 ## 尋找說明與支援
 
-從首頁的下半部存取Adobe Journey Optimizer重要說明頁面。
+從首頁的下半頁面存取 Adobe Journey Optimizer 重要說明頁面。
 
-使用&#x200B;**Help**&#x200B;圖示來存取說明頁面、聯絡支援並分享意見。 您可以從搜尋欄位搜尋說明文章和影片。
+使用&#x200B;**說明**&#x200B;圖示來存取說明頁面、聯絡支援並分享意見。 您可以從搜尋欄位搜尋說明文章和影片。
 
 ![](assets/ajo-help.png)
 
-## 受支援的瀏覽器
+## 支援的瀏覽器
 
 Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中以最佳方式運作。 您在舊版或其他瀏覽器上使用某些功能時可能會遇到問題。
 
