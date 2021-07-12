@@ -1,13 +1,13 @@
 ---
 title: 歷程限制
 description: 深入了解歷程限制
-feature: Journeys
+feature: 歷程
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
+source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 * 新增多頻道訊息時，會傳送兩則訊息。
 
-## 歷程版本限制{#journey-versions-limitations}
+## 歷程版本限制 {#journey-versions-limitations}
 
 * 從v1中的事件活動開始的歷程，無法以其他版本中的事件以外的項目開始。 您無法以&#x200B;**區段資格**&#x200B;事件開始歷程。
 * v1中以&#x200B;**區段資格**&#x200B;活動開始的歷程，在進一步版本中必須一律以&#x200B;**區段資格**&#x200B;開頭。
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 * 可在客戶歷程中運用外部資料來源，即時查閱外部資料。 這些來源必須可透過REST API使用、支援JSON並且能夠處理請求量。
 
-## 從建立設定檔的同時開始的歷程{#journeys-limitation-profile-creation}
+## 從建立設定檔的同時開始的歷程 {#journeys-limitation-profile-creation}
 
 在Adobe Experience Platform中建立/更新以API為基礎的設定檔會有延遲。 延遲方面的服務級別目標(SLT)從接收到第95個百分位數請求的統一配置檔案小於1分鐘，每秒20K請求(RPS)量。
 
@@ -68,5 +68,4 @@ ht-degree: 0%
 
 ## 讀取區段限制
 
-* 無法在1小時以內的較短時間範圍內觸發以區段為基礎的歷程。
 * 串流區段一律為最新狀態，但擷取時不會計算批次區段。 它們僅在每日批次評估時間每天進行評估。
