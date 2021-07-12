@@ -1,14 +1,14 @@
 ---
 title: 在歷程中使用區段
 description: 了解如何在歷程中使用區段
-feature: Journeys
+feature: 歷程
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 2%
+source-wordcount: '952'
+ht-degree: 3%
 
 ---
 
@@ -56,11 +56,13 @@ ht-degree: 2%
    >
    >屬於某區段的個人若未在其不同身分之間選取身分（命名空間），便無法進入歷程。
 
+1. 在&#x200B;**[!UICONTROL Throttling rate]**&#x200B;欄位中，定義讀取區段活動的吞吐量。 此值會儲存在歷程版本裝載中。 預設值為17.000，且必須介於500和17000之間。
+
 1. **[!UICONTROL Read Segment]**&#x200B;活動可讓您指定區段進入歷程的時間。 若要這麼做，請按一下&#x200B;**[!UICONTROL Edit journey schedule]**&#x200B;連結以存取歷程的屬性，然後設定&#x200B;**[!UICONTROL Scheduler type]**&#x200B;欄位。
 
    ![](../assets/read-segment-schedule.png)
 
-   依預設，區段會輸入歷程&#x200B;**[!UICONTROL As soon as possible]**。 如果您想讓區段以特定日期/時間或循環基準輸入歷程，請從清單中選取所需值。
+   依預設，區段會輸入歷程&#x200B;**[!UICONTROL As soon as possible]**。 如果您想讓區段以特定日期/時間或循環基準輸入歷程，請從清單中選取所需的值。
 
    >[!NOTE]
    >
