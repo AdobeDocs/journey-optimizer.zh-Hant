@@ -3,14 +3,14 @@ title: Journey Optimizer設定與設定准則
 description: 了解訊息和歷程設定准則
 audience: administrators
 content-type: reference
-role: Administrator
+role: Admin
 level: Intermediate
 product: Adobe Journey Optimizer
 solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: 應用程式設定
 topic: 管理
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 10%
