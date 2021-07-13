@@ -6,7 +6,7 @@ feature: 控制組
 topic: 管理
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 15%
@@ -39,17 +39,17 @@ ht-degree: 15%
 
 1. 選取 **[!UICONTROL Product profile]**。
 
-   ![](../assets/access_control_2.png)
+   ![](../assets/do-not-localize/access_control_2.png)
 
 1. 在 **[!UICONTROL Users]** 索引標籤中，按一下 **[!UICONTROL Add user]**。
 
-   ![](../assets/access_control_3.png)
+   ![](../assets/do-not-localize/access_control_3.png)
 
 1. 輸入您的使用者名稱或電子郵件地址，然後選取使用者。
 
    如果用戶先前未在[!DNL Admin Console]中建立，請參閱[添加用戶文檔](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)。
 
-   ![](../assets/access_control_4.png)
+   ![](../assets/do-not-localize/access_control_4.png)
 
 1. 執行與上述步驟相同的步驟，將其他使用者新增至您的&#x200B;**[!UICONTROL Product profile]**。 然後，按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -59,7 +59,7 @@ ht-degree: 15%
 
 存取執行個體時，您的使用者會根據&#x200B;**[!UICONTROL Product profile]**&#x200B;中指派的權限看到特定檢視。 如果使用者沒有權限存取功能，則會出現下列畫面。
 
-![](../assets/access_control_1.png)
+![](../assets/do-not-localize/access_control_1.png)
 
 ## 編輯現有的產品設定檔 {#edit-product-profile}
 
@@ -77,23 +77,23 @@ ht-degree: 15%
 
    **[!UICONTROL Permissions]**&#x200B;標籤顯示適用於&#x200B;**[!UICONTROL Experience Cloud - Platform powered applications]**&#x200B;產品的功能清單。
 
-   ![](../assets/access_control_5.png)
+   ![](../assets/do-not-localize/access_control_5.png)
 
 1. 選擇&#x200B;**[!UICONTROL Messages]**&#x200B;功能。
 
-   ![](../assets/access_control_6.png)
+   ![](../assets/do-not-localize/access_control_6.png)
 
 1. 從&#x200B;**[!UICONTROL Available Permission Items]**&#x200B;清單中，按一下加號(+)圖示，選取要指派給&#x200B;**[!UICONTROL Product profile]**&#x200B;的權限。
 
    在此處新增&#x200B;**[!UICONTROL Publish messages]**&#x200B;權限。
 
-   ![](../assets/access_control_7.png)
+   ![](../assets/do-not-localize/access_control_7.png)
 
 1. 如有需要，請在 **[!UICONTROL Included Permission Items]**&#x200B;下方，按一下旁邊的 X 圖示，以移除產品設定檔的權限。
 
 1. 完成後，按一下 **[!UICONTROL Save]**。
 
-   ![](../assets/access_control_8.png)
+   ![](../assets/do-not-localize/access_control_8.png)
 
 如有需要，您也可以使用特定權限建立新的產品設定檔。 如需詳細資訊，請參閱[建立產品設定檔](#create-product-profile)。
 
@@ -113,11 +113,11 @@ ht-degree: 15%
 
 1. 按一下「**[!UICONTROL New Profile]**」。
 
-   ![](../assets/access_control_9.png)
+   ![](../assets/do-not-localize/access_control_9.png)
 
 1. 為新&#x200B;**[!UICONTROL product profiles]**&#x200B;新增&#x200B;**[!UICONTROL Product Profile Name]**、**[!UICONTROL Display Name]**&#x200B;及&#x200B;**[!UICONTROL Description]**。
 
-   ![](../assets/access_control_10.png)
+   ![](../assets/do-not-localize/access_control_10.png)
 
 1. 在 **[!UICONTROL Notifications]** 類別中，選擇從此產品設定檔新增或移除使用者時，使用者是否會收到電子郵件通知。
 
@@ -129,17 +129,17 @@ ht-degree: 15%
 
    在此，我們選取&#x200B;**[!UICONTROL Journeys]**&#x200B;功能。
 
-   ![](../assets/access_control_11.png)
+   ![](../assets/do-not-localize/access_control_11.png)
 
 1. 從&#x200B;**[!UICONTROL Available Permission Items]**&#x200B;清單中，按一下加號(+)圖示，選取要指派給&#x200B;**[!UICONTROL Product profile]**&#x200B;的權限。
 
    在此處，我們選取&#x200B;**[!UICONTROL View journeys]**&#x200B;和&#x200B;**[!UICONTROL View journeys event, data sources, actions]**。
 
-   ![](../assets/access_control_12.png)
+   ![](../assets/do-not-localize/access_control_12.png)
 
 1. 選取&#x200B;**[!UICONTROL Sandbox access]**&#x200B;功能，以選擇要指派給&#x200B;**[!UICONTROL Product profile]**&#x200B;的沙箱。
 
-   ![](../assets/access_control_13.png)
+   ![](../assets/do-not-localize/access_control_13.png)
 
 1. 在 **[!UICONTROL Available Permissions Items]** 下方，按一下加號 (+) 圖示，將沙箱指派給您的設定檔。[進一步瞭解 sandbox](sandboxes.md)。
 
