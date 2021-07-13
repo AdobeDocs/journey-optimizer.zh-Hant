@@ -1,14 +1,14 @@
 ---
 title: 預覽訊息並傳送校樣
 description: 了解如何預覽和測試您的訊息
-feature: Journeys
+feature: 歷程
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ef1d19d6abfccf3455f94b454c9c863396159161
 workflow-type: tm+mt
 source-wordcount: '880'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 >
 >預覽訊息或傳送校樣時，只會顯示設定檔個人化資料。 根據內容資料的個人化（例如事件資訊）只能在歷程的內容中測試。 了解如何在[此使用案例](personalization/personalization-use-case.md)中測試個人化。
 
-![](assets/do-not-localize/how-to-video.png) [了解如何在此影片中預覽、校樣和發佈您的電子郵件](#video-preview)
+➡️ [了解如何在此影片中預覽、校樣和發佈您的電子郵件](#video-preview)
 
 ## 選取測試設定檔{#select-test-profiles}
 
@@ -168,6 +168,6 @@ ht-degree: 0%
 
 ## 作法影片{#video-preview}
 
-了解如何測試各收件匣間的電子郵件呈現、如何根據測試設定檔預覽您的個人化電子郵件、傳送校樣及發佈您的電子郵件。
+瞭解如何測試各收件匣間的電子郵件呈現、如何根據測試設定檔預覽您的個人化電子郵件、傳送校樣及發佈您的電子郵件。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
