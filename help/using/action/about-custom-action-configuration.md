@@ -4,9 +4,9 @@ title: 關於自訂動作組態
 description: 了解如何設定自訂動作
 feature: 動作
 topic: 管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 9%
@@ -32,12 +32,12 @@ ht-degree: 9%
 
 1. 為動作新增說明。 此步驟為選填。
 1. 使用此動作的歷程次數會顯示在&#x200B;**[!UICONTROL Used in]**&#x200B;欄位中。 您可以按一下&#x200B;**[!UICONTROL View journeys]**&#x200B;按鈕，以顯示使用此動作的歷程清單。
-1. 定義不同的&#x200B;**[!UICONTROL URL Configuration]**&#x200B;參數。 請參閱[本頁](../action/about-custom-action-configuration.md#url-configuration)。
+1. 定義不同的&#x200B;**[!UICONTROL URL Configuration]**&#x200B;參數。 請參閱[此頁面](../action/about-custom-action-configuration.md#url-configuration)。
 1. 配置&#x200B;**[!UICONTROL Authentication]**&#x200B;部分。 此設定與資料來源的設定相同。  請參閱[本節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。
-1. 定義&#x200B;**[!UICONTROL Action parameters]**。 請參閱[本頁](../action/about-custom-action-configuration.md#define-the-message-parameters)。
+1. 定義&#x200B;**[!UICONTROL Action parameters]**。 請參閱[此頁面](../action/about-custom-action-configuration.md#define-the-message-parameters)。
 1. 按一下「**[!UICONTROL Save]**」。
 
-   自訂動作現在已設定完畢，且已準備好用於您的歷程。 請參閱[本頁](../building-journeys/about-journey-activities.md#action-activities)。
+   自訂動作現在已設定完畢，且已準備好用於您的歷程。 請參閱[此頁面](../building-journeys/about-journey-activities.md#action-activities)。
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ ht-degree: 9%
    >
    >標頭根據以下[解析規則](https://tools.ietf.org/html/rfc7230#section-3.2.4)進行驗證。
 
-## 定義動作參數{#define-the-message-parameters}
+## 定義動作參數 {#define-the-message-parameters}
 
 ![](../assets/messageparameterssection.png)
 
