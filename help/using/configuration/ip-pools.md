@@ -1,5 +1,5 @@
 ---
-title: 建立IP池
+title: 建立 IP 池
 description: '"了解如何管理ip池"'
 page-status-flag: never-activated
 uuid: null
@@ -13,17 +13,17 @@ internal: n
 snippet: y
 feature: 應用程式設定
 topic: 管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '287'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 
-# 建立IP池
+# 建立 IP 池
 
 ## 關於IP池
 
