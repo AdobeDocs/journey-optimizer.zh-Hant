@@ -5,7 +5,7 @@ feature: 應用程式設定
 topic: 管理
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 在配置消息預設集後，從&#x200B;**[!UICONTROL Presets]**&#x200B;清單建立消息時，可以選擇它們。
 
-![](../assets/do-not-localize/how-to-video.png) [了解如何在此影片中建立和使用電子郵件預設集](#video-presets)
+➡️ [了解如何在此影片中建立和使用電子郵件預設集](#video-presets)
 
 ## 建立訊息預設集 {#create-message-preset}
 
