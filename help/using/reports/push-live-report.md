@@ -5,7 +5,7 @@ feature: 報告
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 2%
@@ -22,6 +22,8 @@ ht-degree: 2%
 
 推播&#x200B;**[!UICONTROL Live report]**&#x200B;會分為不同的小工具集，詳述您的傳送成功和錯誤。 如有需要，可對每個介面工具集調整大小並加以刪除。 有關詳細資訊，請參閱此[節](live-report.md#modify-dashboard)。
 
+![](../assets/live_report_3.png)
+
 **[!UICONTROL Push notification performance]** 和 **[!UICONTROL Push notification summary]** Widget會透過圖表和KPI詳細說明與訊息相關的主要資訊：
 
 * **[!UICONTROL Sent]**:傳送的傳送總數。
@@ -37,6 +39,8 @@ ht-degree: 2%
 * **[!UICONTROL Actions]**:已傳送推播通知的動作總數，例如按鈕點擊或解除。
 
 * **[!UICONTROL Engagements]**:此推播通知的開啟次數和動作總數，亦即設定檔開啟了推播或按了按鈕。
+
+![](../assets/live_report_4.png)
 
 **[!UICONTROL Tracking by platform]**、**[!UICONTROL Sending by platform]**&#x200B;和&#x200B;**[!UICONTROL Breakdown by platform]**&#x200B;圖表和表格會根據作業系統詳細說明推播通知的成功。
 
