@@ -14,16 +14,16 @@ snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: 控制組
 topic: 管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
 
 ---
 
-# 權限級別{#high-low-permissions}
+# 權限層級 {#high-low-permissions}
 
 ![](../assets/do-not-localize/permissions.png)
 
@@ -36,9 +36,9 @@ ht-degree: 0%
 
 例如， **[!UICONTROL Journey administrator]**&#x200B;產品設定檔會獲派&#x200B;**[!UICONTROL Manage journeys]**&#x200B;權限。 從此權限會產生低階權限，讓歷程管理員可編寫、讀取和刪除歷程。
 
-## 歷程功能{#journey-capability}
+## 歷程功能 {#journey-capability}
 
-### 管理歷程權限{#manage-journeys}
+### 管理歷程權限 {#manage-journeys}
 
 **[!UICONTROL Manage journeys]**&#x200B;高階權限可讓使用者建立新的和編輯/刪除現有的歷程，以及存取歷程畫布中使用以建立歷程流程的物件。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
    * datasets.read
    * schemas.read
 
-### 發佈歷程權限{#publish-journeys}
+### 發佈歷程權限 {#publish-journeys}
 
 **[!UICONTROL Publish journeys]**&#x200B;高階權限可讓使用者發佈歷程。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
    * journeys.publish
    * journeys.read
 
-### 檢視歷程權限{#view-journeys}
+### 檢視歷程權限 {#view-journeys}
 
 **[!UICONTROL View journeys]**&#x200B;高階權限可讓使用者瀏覽及檢視歷程。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
    * segments.read
    * profiles.read
 
-### 管理歷程事件、資料來源和動作權限{#manage-journeys-events}
+### 管理歷程事件、資料來源和動作權限 {#manage-journeys-events}
 
 **[!UICONTROL Manage journeys events, data sources and actions]**&#x200B;高級權限允許用戶配置事件和資料配置。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
    * datasets.read
    * identity_namespace.read
 
-### 檢視歷程事件、資料來源和動作權限{#view-journeys-event}
+### 檢視歷程事件、資料來源和動作權限 {#view-journeys-event}
 
 **[!UICONTROL View journeys events, data sources and actions]**&#x200B;高階權限可讓使用者在歷程流程中使用事件和資料。
 
@@ -118,7 +118,7 @@ ht-degree: 0%
    * datasets.read
    * identity_namespace.read
 
-### 檢視歷程報表權限{#view-journeys-report}
+### 檢視歷程報表權限 {#view-journeys-report}
 
 **[!UICONTROL View journeys report]**&#x200B;高階權限可讓使用者以唯讀的歷程報告。
 
@@ -134,9 +134,9 @@ ht-degree: 0%
    * queries.write
    * queries.delete
 
-## 消息功能{#message-capability}
+## 訊息功能 {#message-capability}
 
-### 管理消息權限{#manage-messages}
+### 管理訊息權限 {#manage-messages}
 
 **[!UICONTROL Manage messages]**&#x200B;高級權限允許用戶建立和編輯/刪除消息。
 
@@ -152,7 +152,7 @@ ht-degree: 0%
    * segments.read
    * schemas.read
 
-### 管理消息預覽和測試權限{#mange-messages-preview}
+### 管理訊息預覽和測試權限 {#mange-messages-preview}
 
 **[!UICONTROL Manage messages preview and test]**&#x200B;高階權限可讓使用者預覽個人化訊息。
 
@@ -174,7 +174,7 @@ ht-degree: 0%
    * queries.write
    * merge_policies.read
 
-### 發佈消息權限{#publish-messages}
+### 發佈訊息權限 {#publish-messages}
 
 **[!UICONTROL Publish messages]**&#x200B;高階權限可讓使用者發佈訊息。
 
@@ -188,7 +188,7 @@ ht-degree: 0%
    * schemas.read
    * datasets.read
 
-### 查看消息權限{#view-messages}
+### 檢視訊息權限 {#view-messages}
 
 **[!UICONTROL View messages]**&#x200B;高級權限允許用戶只讀消息。
 
@@ -202,7 +202,7 @@ ht-degree: 0%
    * schemas.read
    * segments.read
 
-### 查看報告權限{#view-message-reports}的消息
+### 檢視訊息報表權限 {#view-message-reports}
 
 **[!UICONTROL View messages report]**&#x200B;高階權限可讓使用者以唯讀方式使用電子郵件及推送報表。
 
@@ -216,9 +216,9 @@ ht-degree: 0%
    * queries.delete
    * journey.read
 
-## 決策管理能力{#decisions-permissions}
+## 決策管理能力 {#decisions-permissions}
 
-### 管理決策權限{#manage-decisioning}
+### 管理決策權限 {#manage-decisioning}
 
 **[!UICONTROL Manage decisions]**&#x200B;高級權限允許用戶建立新的和編輯/刪除現有的&#x200B;**[!UICONTROL Activity entities]**，以及管理這些活動中用於做出決策的對象。
 
@@ -244,7 +244,7 @@ ht-degree: 0%
    * profile.read
    * segments.read
 
-### 查看決策權限{#view-decisions}
+### 查看決策權限 {#view-decisions}
 
 **[!UICONTROL View decisions]**&#x200B;高級權限允許用戶使用現有活動和相關業務對象進行決策。
 
@@ -263,7 +263,7 @@ ht-degree: 0%
    * datasets.write
    * datasets.delete
 
-### 發佈選件決策權限{#publish-decisions}
+### 發佈優惠方案決策權限 {#publish-decisions}
 
 **[!UICONTROL Publish offers decisioning]**&#x200B;高階權限可讓使用者存取核准/取消核准優惠方案活動。
 
@@ -285,7 +285,7 @@ ht-degree: 0%
    * datasets.read
    * profiles.read
 
-### 管理排名策略權限{#manage-decisions}
+### 管理排名策略權限 {#manage-decisions}
 
 **[!UICONTROL Manage ranking strategies]**&#x200B;高階權限可讓使用者讀取、建立、編輯和刪除自訂訊息報表，以及使用動作功能。
 
@@ -299,9 +299,9 @@ ht-degree: 0%
    * offers.read
    * placements.read
 
-## 管理功能{#administration-permissions}
+## 管理功能 {#administration-permissions}
 
-### 管理子網域委派權限{#manage-subdomain}
+### 管理子網域委派權限 {#manage-subdomain}
 
 **[!UICONTROL Manage subdomains delegation]**&#x200B;高級權限允許用戶建立、編輯和刪除子域委派（包括IP池）。
 
@@ -311,14 +311,14 @@ ht-degree: 0%
 * subdomains_delegation.write
 * subdomains_delegation.delete
 
-### 查看PTR記錄權限{#view-ptr}
+### 查看PTR記錄權限 {#view-ptr}
 
 **[!UICONTROL View PTR records]**&#x200B;高級權限允許用戶查看已基於子域配置的PTR記錄，並包括以下低級權限：
 
 * PTR_records.read
 * subdomains_delegation_read
 
-### 管理IP池權限{#manage-ip-pools}
+### 管理IP池權限 {#manage-ip-pools}
 
 **[!UICONTROL Manage IP pools]**&#x200B;高階權限可讓使用者建立、編輯和刪除相關性定義。
 
@@ -328,7 +328,7 @@ ht-degree: 0%
 * IP_pools.write
 * IP_pools.delete
 
-### 管理消息常規設定權限{#manage-message-settings}
+### 管理郵件一般設定權限 {#manage-message-settings}
 
 **[!UICONTROL Manage messages general settings]**&#x200B;高階權限可讓使用者在沙箱層級建立、編輯和刪除全域設定。
 
@@ -342,7 +342,7 @@ ht-degree: 0%
 * Adobe Experience Platform特定：
    * schemas.read
 
-### 查看消息常規設定權限{#view-message-settings}
+### 檢視訊息一般設定權限 {#view-message-settings}
 
 **[!UICONTROL View messages general settings]**&#x200B;高級權限允許用戶查看消息常規設定，如隱藏規則或執行地址。
 
@@ -353,7 +353,7 @@ ht-degree: 0%
 * Adobe Experience Platform特定：
    * schemas.read
 
-### 管理消息預設集權限{#manage-message-presets}
+### 管理郵件預設集權限 {#manage-message-presets}
 
 **[!UICONTROL Manage messages presets]**&#x200B;高階權限可讓使用者在沙箱層級建立、編輯和刪除各管道的訊息預設集。
 
@@ -367,7 +367,7 @@ ht-degree: 0%
    * IP_pools.read
    * mobile_setting.read(來自Adobe Experience Platform Launch)
 
-### 查看消息預設集權限{#view-message-presets}
+### 檢視訊息預設集權限 {#view-message-presets}
 
 **[!UICONTROL View messages presets]**&#x200B;高級權限允許用戶查看郵件預設集，以便了解建立郵件時要使用的郵件預設集。
 
@@ -378,7 +378,7 @@ ht-degree: 0%
 * IP_pools.read
 * mobile_setting.read(來自Adobe Experience Platform Launch)
 
-### 管理隱藏規則權限{#manage-suppression-rules}
+### 管理隱藏規則權限 {#manage-suppression-rules}
 
 **[!UICONTROL Manage suppression rules]**&#x200B;高階權限可讓使用者在將使用者的電子郵件地址新增至隱藏清單之前定義跳出數。
 
@@ -388,7 +388,7 @@ ht-degree: 0%
 * suppressing_rules.write
 * suppressing_rules.delete
 
-### 查看隱藏清單權限{#view-suppresion-list}
+### 查看隱藏清單權限 {#view-suppresion-list}
 
 **[!UICONTROL View suppression list]**&#x200B;高級權限允許用戶查看包括消息預設集和一般消息設定在內的消息配置。
 
@@ -400,7 +400,7 @@ ht-degree: 0%
    * profiles.read
    * datasets.read
 
-### 導出隱藏清單權限{#export-suppression-list}
+### 導出隱藏清單權限 {#export-suppression-list}
 
 **[!UICONTROL Export suppression list]**&#x200B;高級權限允許用戶配置消息配置，包括消息預設集和一般消息設定。
 
