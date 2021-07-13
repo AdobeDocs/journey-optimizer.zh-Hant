@@ -4,9 +4,9 @@ title: 關於動作
 description: 瞭解如何設定動作
 feature: 動作
 topic: 管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 10d8cb2002279a7ea679e2be6e9f632d0edcfbb8
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 68%
@@ -34,7 +34,7 @@ ht-degree: 68%
 >
 >自訂動作的設定必須由&#x200B;**技術使用者**&#x200B;執行。
 
-這些動作會顯示在您歷程的左側浮動視窗中，位於&#x200B;**[!UICONTROL Action]**&#x200B;類別中。 請參閱[本頁](../building-journeys/about-journey-activities.md#action-activities)。
+這些動作會顯示在您歷程的左側浮動視窗中，位於&#x200B;**[!UICONTROL Action]**&#x200B;類別中。 請參閱[此頁面](../building-journeys/about-journey-activities.md#action-activities)。
 
 要查看操作清單或配置新操作，請在「管理」菜單部分中選擇&#x200B;**[!UICONTROL Configurations]**。 在&#x200B;**[!UICONTROL Actions]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Manage]**。 畫面隨即顯示動作清單。有關介面的詳細資訊，請參閱[此頁](../user-interface.md)。
 
