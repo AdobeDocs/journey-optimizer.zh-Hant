@@ -5,7 +5,7 @@ feature: 報告
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 2%
@@ -21,6 +21,8 @@ ht-degree: 2%
 ![](../assets/live_report.png)
 
 電子郵件&#x200B;**[!UICONTROL Live report]**&#x200B;會分為不同的小工具集，詳述您的傳送成功和錯誤。 如有需要，可對每個介面工具集調整大小並加以刪除。 有關詳細資訊，請參閱此[節](live-report.md#modify-dashboard)。
+
+![](../assets/live_report_5.png)
 
 **[!UICONTROL Email performance]** 和小 **[!UICONTROL Email summary]** 工具集會透過圖表和KPI，詳細說明與訊息相關的主要資訊：
 
@@ -43,6 +45,8 @@ ht-degree: 2%
 * **[!UICONTROL Bounces]**:傳送和自動回傳處理期間累積的錯誤總數，與已傳送訊息的總數相關。
 
 * **[!UICONTROL Errors]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
+
+![](../assets/live_report_6.png)
 
 **[!UICONTROL Error Reasons]**&#x200B;圖表和表格可讓您查看在傳送期間發生的錯誤。
 
