@@ -1,10 +1,10 @@
 ---
 title: 文件更新
 description: 瞭解最新的文件更新
-source-git-commit: 8ef68f64f8ef354bced99f0eaada78be22488920
+source-git-commit: 6c69bbb06de57c62d8894b451d9dab9b318c8ebc
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 18%
+source-wordcount: '207'
+ht-degree: 17%
 
 ---
 
@@ -15,9 +15,10 @@ ht-degree: 18%
 
 ## 2021 年 7 月
 
-* 在[!DNL Journey Optimizer]首頁和內容表中，新增Experience Platform服務檔案的直接連結
+* 在[!DNL Journey Optimizer]首頁和目錄中新增Experience Platform服務檔案的直接連結
+* [!DNL Journey Optimizer]中提供Experience Platform服務的新登錄頁面
 * 在首頁中新增[!DNL Journey Optimizer]產品說明的連結
-* 在檔案頁面中新增教學課程影片
+* 在多個頁面中新增教學課程影片
 * 最佳化首頁影像
 * 將「訊息追蹤」區段移動、改良及重新命名為「新增連結及追蹤訊息」。 [閱讀全文](message-tracking.md)
 * 在鏡像頁面上新增子區段。 [閱讀全文](message-tracking.md#mirror-page)
