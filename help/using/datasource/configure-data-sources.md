@@ -3,9 +3,9 @@ title: 設定資料來源
 description: 瞭解如何設定資料來源
 feature: 資料來源
 topic: 管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 
    ![](../assets/journey18.png)
 
-1. 然後，您可以將欄位群組新增至內建的資料來源（請參閱[此頁面](../datasource/adobe-experience-platform-data-source.md)），或建立新的外部資料來源（請參閱[此頁面](../datasource/external-data-sources.md)）和相關的欄位群組（請參閱[此頁面](../datasource/configure-data-sources.md#define-field-groups)）。
+1. 然後，您可以將欄位群組新增至內建的資料來源（請參閱[此頁面](../datasource/adobe-experience-platform-data-source.md)），或建立新的外部資料來源（請參閱[此頁面](../datasource/external-data-sources.md)）和相關聯的欄位群組（請參閱[此頁面](../datasource/configure-data-sources.md#define-field-groups)）。
 
    ![](../assets/journey23.png)
 
@@ -32,7 +32,7 @@ ht-degree: 8%
 
    資料來源現在已設定完畢，且可供您在歷程中使用。
 
-## 定義欄位組{#define-field-groups}
+## 定義欄位群組 {#define-field-groups}
 
 欄位群組是一組欄位，您可從資料來源擷取，並用於歷程中。
 
@@ -54,7 +54,7 @@ ht-degree: 8%
 
 ![](../assets/journey3bis.png)
 
-## 欄位組生命週期{#field-group-lifecycle}
+## 欄位群組生命週期 {#field-group-lifecycle}
 
 您可以從任何草稿或即時歷程中未使用的欄位群組新增或移除欄位。
 
