@@ -1,18 +1,18 @@
 ---
-title: Adobe Campaign v7/v8動作
+title: Adobe Campaign v7/v8 動作
 description: 了解Adobe Campaign v7/v8動作
 feature: 動作
 topic: 管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 9ca747c4f46fd7eb24dbbf12350d7bbe409b1617
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
-# Adobe Campaign v7/v8動作 {#using_campaign_classic}
+# Adobe Campaign v7/v8 動作 {#using_campaign_classic}
 
 如果您有Adobe Campaign v7或v8，則可使用整合。 它可讓您使用Adobe Campaign交易訊息功能來傳送電子郵件、推播通知和簡訊。
 
