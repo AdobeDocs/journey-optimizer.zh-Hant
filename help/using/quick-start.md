@@ -5,10 +5,10 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 79%
+source-wordcount: '401'
+ht-degree: 78%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 79%
 
    * 在 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant)中進一步瞭解如何預覽和建立資料集{target=&quot;_blank&quot;}
 
-   * 了解如何在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#manage-namespaces){target=&quot;_blank&quot;}中建立身分命名空間
+   * 了解如何在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces){target=&quot;_blank&quot;}中建立身分命名空間
 
    * 在[此頁面](../using/building-journeys/creating-test-profiles.md)中進一步瞭解如何建立測試設定檔
 
