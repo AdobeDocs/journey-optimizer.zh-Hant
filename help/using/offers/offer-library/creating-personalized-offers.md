@@ -5,10 +5,10 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 4%
+source-wordcount: '1161'
+ht-degree: 3%
 
 ---
 
@@ -98,6 +98,10 @@ ht-degree: 4%
 
    ![](../../assets/offer_rule.png)
 
+   >[!CAUTION]
+   >
+   >[!DNL Journey Optimizer]中目前不支援以事件為基礎的選件。 如果您根據[event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}建立決策規則，將無法在選件中運用該規則。
+
 1. 如果使用者符合多個選件的資格，請定義選件的&#x200B;**[!UICONTROL Priority]**，而非其他選件。 優惠方案的優先順序越高，優先順序與其他優惠方案相比就越高。
 
 1. 指定選件的&#x200B;**[!UICONTROL Capping]**，表示所有使用者總共會顯示該選件的次數。 如果已將選件傳送給所有使用者的次數超過您在此欄位中指定的次數，則其傳送將停止。
@@ -118,19 +122,68 @@ ht-degree: 4%
 
 ## 檢閱優惠方案 {#review}
 
-定義資格規則和限制後，即會顯示優惠方案屬性的摘要。 如果所有項目皆已正確設定，且您的選件已準備好呈現給使用者，請按一下「**[!UICONTROL Finish]**」，然後選取「**[!UICONTROL Save and approve]**」。
+定義資格規則和限制後，即會顯示優惠方案屬性的摘要。
 
-您也可以將優惠方案儲存為草稿，以便稍後編輯並核准。
+1. 請確定所有項目皆已正確設定。
 
-![](../../assets/offer_review.png)
+1. 當您的選件準備好呈現給使用者時，按一下&#x200B;**[!UICONTROL Finish]**。
 
-選件會顯示在清單中，且狀態為&#x200B;**[!UICONTROL Live]**&#x200B;或&#x200B;**[!UICONTROL Draft]**，視您在上一個步驟中是否核准而定。
+1. 選擇「**[!UICONTROL Save and approve]**」。
 
-現在已可供使用者使用。 可以選擇它以顯示其屬性，並編輯或隱藏它。
+   ![](../../assets/offer_review.png)
+
+   您也可以將優惠方案儲存為草稿，以便稍後編輯並核准。
+
+選件會顯示在清單中，且狀態為&#x200B;**[!UICONTROL Approved]**&#x200B;或&#x200B;**[!UICONTROL Draft]**，視您在上一個步驟中是否核准而定。
+
+現在已可供使用者使用。
 
 ![](../../assets/offer_created.png)
 
-建立選件後，您可以在清單中按一下其名稱以存取詳細資訊，並使用&#x200B;**[!UICONTROL Change log]**&#x200B;標籤監控對其所做的所有變更。 [了解更多](../get-started/user-interface.md#monitoring-changes)。
+## 選件清單 {#offer-list}
+
+您可以從選件清單中選取要顯示其屬性的選件。 您也可以編輯選件、變更其狀態(**Draft**、**Approved**、**Archived**)、複製選件或刪除選件。
+
+![](../../assets/offer_created.png)
+
+選取&#x200B;**[!UICONTROL Edit]**&#x200B;按鈕，返回優惠方案版本模式，您可在此修改優惠方案的[details](#create-offer)、[representations](#representations)，以及編輯[適用性規則和限制](#eligibility)。
+
+選取已核准的優惠方案，然後按一下&#x200B;**[!UICONTROL Undo approve]**&#x200B;將優惠方案狀態設回&#x200B;**[!UICONTROL Draft]**。
+
+若要將狀態再次設為&#x200B;**[!UICONTROL Approved]**，請選取現在顯示的對應按鈕。
+
+![](../../assets/offer_approve.png)
+
+**[!UICONTROL More actions]**&#x200B;按鈕可啟用下面所述的操作。
+
+![](../../assets/offer_more-actions.png)
+
+* **[!UICONTROL Duplicate]**:建立具有相同屬性、表示、適用性規則和限制的優惠方案。依預設，新選件的狀態為&#x200B;**[!UICONTROL Draft]**。
+* **[!UICONTROL Delete]**:從清單中移除選件。
+
+   >[!CAUTION]
+   >
+   >優惠方案及其內容將無法再存取。 此動作無法復原。
+   >
+   >如果在集合或決策中使用選件，則無法刪除選件。 您必須先從任何物件中移除選件。
+
+* **[!UICONTROL Archive]**:將選件狀態設為 **[!UICONTROL Archived]**。選件仍可從清單中取得，但您無法將其狀態設回&#x200B;**[!UICONTROL Draft]**&#x200B;或&#x200B;**[!UICONTROL Approved]**。 您只能複製或刪除它。
+
+您也可以選取對應的核取方塊，以同時刪除或變更多個選件的狀態。
+
+![](../../assets/offer_multiple-selection.png)
+
+如果您想要變更多個狀態不同之優惠方案的狀態，則只會變更相關狀態。
+
+![](../../assets/offer_change-status.png)
+
+建立選件後，您就可以從清單按一下其名稱。
+
+![](../../assets/offer_click-name.png)
+
+這可讓您存取該選件的詳細資訊。 選取&#x200B;**[!UICONTROL Change log]**&#x200B;標籤，以[監視對選件進行的所有變更](../get-started/user-interface.md#monitoring-changes)。
+
+![](../../assets/offer_information.png)
 
 ## 教學課程影片 {#video}
 
