@@ -4,9 +4,9 @@ description: 了解如何使用Adobe Experience Platform的Adobe Journey Optimiz
 feature: 結構描述
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '319'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 7%
 
 ![](assets/schemas-home.png)
 
-了解如何在[本檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en){target=&quot;_blank&quot;}中使用結構使用者介面
+了解如何在[本檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot;}中使用結構使用者介面
 
 [此頁](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant){target=&quot;_blank&quot;}提供使用架構編輯器建立架構的逐步說明檔案
 
