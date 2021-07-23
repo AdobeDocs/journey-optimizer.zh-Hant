@@ -5,9 +5,9 @@ feature: 概覽
 topic: 內容管理
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '381'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 2%
 
 1. 選取要上傳的檔案。 完成後，按一下&#x200B;**[!UICONTROL Upload]**。
 
-   若要進一步了解如何管理您的資產，請參閱此[page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en)。
+   若要進一步了解如何管理您的資產，請參閱此[page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html)。
 
 1. 上傳資產後，您現在可以透過電子郵件設計工具，將資產插入其中一則訊息中。
 
