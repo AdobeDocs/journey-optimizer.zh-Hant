@@ -1,14 +1,14 @@
 ---
 title: 在 Journey Optimizer 中個人化內容
 description: 開始使用個人化
-feature: 個性化
-topic: 個性化
+feature: 個人化
+topic: 個人化
 role: Data Engineer
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 9%
+source-wordcount: '664'
+ht-degree: 13%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 9%
 畫面左側會顯示網域選取器，供您選取個人化來源。 可用來源包括：
 
 * **設定檔** :列出與Adobe Experience Platform資料模型(XDM)檔 [案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}中所述之設定檔架構相關聯的所有參考。
-* **區段成員資格** :會列出在Adobe Experience Platform區段服務中建立的所有區段。有關可用區段的詳細資訊，請參閱[這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en){target=&quot;_blank&quot;}。
+* **區段成員資格** :會列出在Adobe Experience Platform區段服務中建立的所有區段。有關可用區段的詳細資訊，請參閱[這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}。
 * **選件** :列出與特定版位相關聯的所有優惠方案。選取版位，然後在內容中插入優惠方案。 如需如何管理優惠方案的完整檔案，請參閱[此區段](../deliver-personalized-offers.md)。
 * **內容** :在歷 **** 程中使用「訊息」活動時，此功能表中會提供內容歷程欄位。進一步了解[本節](personalization-use-case.md)。
 * **輔助功能** :列出所有可用於對資料執行操作的輔助功能，如計算、資料格式或轉換、條件，以及在個人化環境中處理這些功能。進一步了解[本節](functions/functions.md)。
@@ -107,10 +107,10 @@ ht-degree: 9%
 
 ## 作法影片{#video-perso}
 
-了解如何使用歷程中的情境事件資訊來個人化訊息。
+瞭解如何使用歷程中的內容事件資訊來個人化訊息。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-了解如何使用歷程中的情境事件資訊來個人化訊息。
+瞭解如何使用歷程中的內容事件資訊來個人化訊息。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
