@@ -15,10 +15,10 @@ feature: 應用程式設定
 topic: 管理
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 29ebb0d8ba228ee8bf430d29f92cc30a9edac69a
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 10%
+source-wordcount: '472'
+ht-degree: 9%
 
 ---
 
@@ -49,7 +49,9 @@ ht-degree: 10%
 
    >[!CAUTION]
    >
-   >請確定您輸入了有效的子網域，例如marketing.company.com。 不允許將無效的子網域委派至Adobe。
+   >不允許將無效的子網域委派至Adobe。 請務必輸入貴組織擁有的有效子網域，例如marketing.yourcompany.com。
+   >
+   >請注意，目前不支援電子郵件.marketing.yourcompany.com等多層級子網域。
 
 1. 要放置在 DNS 伺服器顯示中的記錄清單。 逐一複製這些記錄，或下載 CSV 檔案，然後導覽至您的網域託管解決方案，以產生相符的 DNS 記錄。
 
