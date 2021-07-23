@@ -5,7 +5,7 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: 807157d4d6fc1dba018bbe796c8bd213504589dc
+source-git-commit: 3db5756236b6ac05d9b95b8b051dd99dc7d5cf7e
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 ![](../../assets/offer-priority.png)
 
-建立優惠方案時，會指派優惠方案的優先順序分數。 了解如何在[本區段](../offer-library/creating-personalized-offers.md)中建立個人化優惠方案。
+建立優惠方案時，會指派優惠方案的優先順序分數。 了解如何在[此區段](../offer-library/creating-personalized-offers.md)中建立個人化優惠方案。
 
 ## 排名公式 {#assign-ranking-formula}
 
