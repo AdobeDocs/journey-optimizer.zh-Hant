@@ -5,10 +5,10 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: dc3a5aacbd4b9bb20c384e0b057241f3080f09fa
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 15%
+source-wordcount: '284'
+ht-degree: 13%
 
 ---
 
@@ -47,6 +47,10 @@ ht-degree: 15%
 1. 建立規則後，規則清單中就會顯示。 您可以選取它以顯示其屬性，並加以編輯或刪除。
 
    ![](../../assets/rule_created.png)
+
+>[!CAUTION]
+>
+>[!DNL Journey Optimizer]中目前不支援以事件為基礎的選件。 如果您根據[event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}建立決策規則，將無法在選件中運用該規則。
 
 ## 教學課程影片 {#video}
 
