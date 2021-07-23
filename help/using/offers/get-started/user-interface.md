@@ -5,10 +5,10 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: dda0f609056ac74e4f1b5b0d6069d4bdc43ccfb6
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 95%
+source-wordcount: '604'
+ht-degree: 71%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 95%
 「優惠資料庫」可讓您在單一位置建立和管理您的位置和優惠，並存取所有已建立的決定 (先前稱為優惠活動)。
 
 使用 **[!UICONTROL Offers]** 功能表管理個人化和遞補優惠，將其組織成系列，並透過建立決定來傳遞：
+
+* **[!UICONTROL Overview]**:新手 [!DNL Offer Decisioning]嗎？請依照畫面上的步驟，開始設定版位、選件和系列。 若已熟悉[!DNL Offer Decisioning]，請取得最新選件、集合和決策的概觀。 請參閱[總覽](#overview)。
 
 * **[!UICONTROL Offers]**：存取您的個人化和遞補優惠，或建立新優惠。請參閱 [建立優惠 ](../offer-library/creating-personalized-offers.md)和[建立遞補優惠](../offer-library/creating-fallback-offers.md)。
 
@@ -37,6 +39,30 @@ ht-degree: 95%
 * **[!UICONTROL Rankings]**：建立並管理排名公式，以決定應先針對指定位置顯示哪個優惠。請參閱[建立排名公式](../offer-library/create-ranking-formulas.md)。
 
 ![](../../assets/offer_activities.png)
+
+## 概覽 {#overview}
+
+當您剛接觸[!DNL Offer Decisioning]時，**[!UICONTROL Overview]**&#x200B;標籤會引導您完成開始建立第一個選件決策所需的主要步驟。
+
+![](../../assets/overview_onboarding.png)
+
+請依照畫面上的步驟開始建立版位、優惠方案和集合。
+
+完成前述步驟後，系統會提示您建立選件決策（先前稱為選件活動）。
+
+![](../../assets/overview_collection-created.png)
+
+>[!NOTE]
+>
+>在[本區段](../offer-library/key-steps.md)中顯示建立選件及在決策中使用選件的主要步驟。
+
+當您更熟悉[!DNL Offer Decisioning]，且已建立至少一個選件決策時，**[!UICONTROL Overview]**&#x200B;標籤會顯示您最近的選件、集合和決策。
+
+按一下選件或決定直接存取所選項目的詳細資訊。
+
+按一下&#x200B;**[!UICONTROL View all]**&#x200B;按鈕以存取選件、集合或決策清單。
+
+![](../../assets/overview_view-all.png)
 
 ## 搜尋和篩選資訊
 
