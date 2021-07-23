@@ -5,10 +5,10 @@ feature: 優惠
 topic: 整合
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 4%
+source-wordcount: '814'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 ## 建立決策 {#create-activity}
 
-1. 訪問決策清單，然後按一下&#x200B;**[!UICONTROL Create activity]**。
+1. 訪問決策清單，然後按一下&#x200B;**[!UICONTROL Create decision]**。
 
 1. 指定決策的名稱及其開始和結束日期和時間，然後按一下&#x200B;**[!UICONTROL Next]**。
 
@@ -83,26 +83,67 @@ ht-degree: 4%
 
 ## 檢閱並儲存決策 {#review}
 
-如果所有項目皆已正確設定，且您的決策已準備好用來向客戶呈現選件，請按一下&#x200B;**[!UICONTROL Finish]**，然後選取&#x200B;**[!UICONTROL Save and activate]**。
+如果所有項目皆已正確設定，決策屬性的摘要便會顯示。
 
-您也可以將決定儲存為草稿，以便稍後編輯並啟動決定。
+1. 請確定已準備好使用決策來向客戶呈現優惠方案。
+1. 按一下「**[!UICONTROL Finish]**」。
+1. 然後選擇&#x200B;**[!UICONTROL Save and activate]**。
 
-![](../../assets/save-activities.png)
+   ![](../../assets/save-activities.png)
+
+   您也可以將決定儲存為草稿，以便稍後編輯並啟動決定。
 
 決策會顯示在清單中，且狀態為&#x200B;**[!UICONTROL Live]**&#x200B;或&#x200B;**[!UICONTROL Draft]**，具體取決於您是否在上一個步驟中啟動了它。
 
-現在，它已準備好用於提供優惠方案給客戶。 可以選擇它以顯示其屬性，並編輯或隱藏它。
+現在，它已準備好用於提供優惠方案給客戶。
 
-如需傳送優惠方案的詳細資訊，請參閱下列區段：
+## 決策清單 {#decision-list}
 
-* [在訊息中新增個人化優惠方案](../../deliver-personalized-offers.md)
-* [使用API提供優惠方案](../api-reference/decisions-api/deliver-offers.md)
+從決策清單中，您可以選取要顯示其屬性的決策。 您也可以從該處編輯它，變更其狀態(**Draft**、**Live**、**Complete**、**Archived**)、複製決定或刪除它。
 
-![](../../assets/activities-created.png)
+![](../../assets/decision_created.png)
 
->[!NOTE]
->
->建立決策後，您可以按一下清單中的名稱以存取詳細資訊，並使用&#x200B;**[!UICONTROL Change log]**&#x200B;標籤將對其所做的所有變更視覺化。 [了解更多](../get-started/user-interface.md#changes-log)。
+選擇&#x200B;**[!UICONTROL Edit]**&#x200B;按鈕以返回決策版本模式，在該模式中，您可以修改決策的[details](#create-activity)、[決策範圍](#add-decision-scopes)和[回退優惠方案](#add-fallback)。
+
+選取即時決策，然後按一下&#x200B;**[!UICONTROL Deactivate]**&#x200B;將決策狀態設回&#x200B;**[!UICONTROL Draft]**。
+
+若要將狀態再次設為&#x200B;**[!UICONTROL Live]**，請選取現在顯示的&#x200B;**[!UICONTROL Activate]**&#x200B;按鈕。
+
+![](../../assets/decision_activate.png)
+
+**[!UICONTROL More actions]**&#x200B;按鈕可啟用下面所述的操作。
+
+![](../../assets/decision_more-actions.png)
+
+* **[!UICONTROL Complete]**:將決策的狀態設 **[!UICONTROL Complete]**&#x200B;為，表示無法再呼叫決策。此動作僅適用於已啟動的決策。 此決策仍可從清單中取得，但您無法將其狀態設回&#x200B;**[!UICONTROL Draft]**&#x200B;或&#x200B;**[!UICONTROL Approved]**。 您只能複製、刪除或封存它。
+
+* **[!UICONTROL Duplicate]**:使用相同的屬性、決策範圍和備援優惠方案建立決策。依預設，新決策的狀態為&#x200B;**[!UICONTROL Draft]**。
+
+* **[!UICONTROL Delete]**:從清單中移除決策。
+
+   >[!CAUTION]
+   >
+   >決策及其內容將無法再存取。 此動作無法復原。
+   >
+   >如果該決策用於另一個對象，則無法刪除該決策。
+
+* **[!UICONTROL Archive]**:將決策狀態設定為 **[!UICONTROL Archived]**。此決策仍可從清單中取得，但您無法將其狀態設回&#x200B;**[!UICONTROL Draft]**&#x200B;或&#x200B;**[!UICONTROL Approved]**。 您只能複製或刪除它。
+
+您也可以選取對應的核取方塊，以同時刪除或變更多個決策的狀態。
+
+![](../../assets/decision_multiple-selection.png)
+
+如果您想要變更狀態不同的數個決策的狀態，則只會變更相關的狀態。
+
+![](../../assets/decision_change-status.png)
+
+建立決策後，您就可以從清單按一下其名稱。
+
+![](../../assets/decision_click-name.png)
+
+這可讓您存取該決策的詳細資訊。 選擇&#x200B;**[!UICONTROL Change log]**&#x200B;頁簽以[監視已對決策進行的所有更改](../get-started/user-interface.md#changes-log)。
+
+![](../../assets/decision_information.png)
 
 ## 教學課程影片 {#video}
 
