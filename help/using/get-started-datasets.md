@@ -4,10 +4,10 @@ description: 了解如何在Adobe Journey Optimizer中使用Adobe Experience Pla
 feature: 資料集
 role: User
 level: Beginner
-source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 12%
+source-wordcount: '259'
+ht-degree: 24%
 
 ---
 
@@ -32,13 +32,13 @@ ht-degree: 12%
 
 ## 作法影片{#video-dataset}
 
-了解如何建立資料集、將資料對應至結構、新增資料，以及確認資料已內嵌。
+瞭解如何建立資料集、將資料對應至結構、新增資料，以及確認資料已內嵌。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 **另請參閱**
 
 * [建立結構、資料集和內嵌資料，以在Journey Optimizer中新增測試設定檔](building-journeys/creating-test-profiles.md)
-* [串流擷取概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target=&quot;_blank&quot;}
-* [將資料內嵌至Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=en){target=&quot;_blank&quot;}
+* [串流擷取概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hant){target=&quot;_blank&quot;}
+* [將資料內嵌至Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}
 
