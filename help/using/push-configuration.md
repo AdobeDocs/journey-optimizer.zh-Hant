@@ -5,9 +5,9 @@ feature: 應用程式設定
 topic: 推播
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1450'
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 >[!CAUTION]
 >
->推播設定必須由專家使用者執行。 根據您的實作模式和此實作中涉及的角色，您可能需要將完整的權限集指派給單一產品設定檔，或在應用程式開發人員與&#x200B;**Adobe Journey Optimizer**&#x200B;管理員之間共用權限。 深入了解[本檔案](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#platform-launch-permissions){target=&quot;_blank&quot;}中的&#x200B;**Adobe Experience Platform Launch**&#x200B;權限。
+>推播設定必須由專家使用者執行。 根據您的實作模式和此實作中涉及的角色，您可能需要將完整的權限集指派給單一產品設定檔，或在應用程式開發人員與&#x200B;**Adobe Journey Optimizer**&#x200B;管理員之間共用權限。 深入了解[本檔案](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html#platform-launch-permissions){target=&quot;_blank&quot;}中的&#x200B;**Adobe Experience Platform Launch**&#x200B;權限。
 
 <!--ou need to your have access to perform following roles :
 
@@ -253,7 +253,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-若要讓此歷程正常運作，您需要建立XDM結構。 如需詳細資訊，請參閱[XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#schemas-and-data-ingestion){target=&quot;_blank&quot;}。
+若要讓此歷程正常運作，您需要建立XDM結構。 如需詳細資訊，請參閱[XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target=&quot;_blank&quot;}。
 
 1. 在左側功能表中，瀏覽至&#x200B;**[!UICONTROL Schemas]**。
 
