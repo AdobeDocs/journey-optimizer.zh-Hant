@@ -5,9 +5,9 @@ feature: 歷程
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '1000'
 ht-degree: 3%
 
 ---
@@ -56,7 +56,13 @@ ht-degree: 3%
    >
    >屬於某區段的個人若未在其不同身分之間選取身分（命名空間），便無法進入歷程。
 
-1. 在&#x200B;**[!UICONTROL Throttling rate]**&#x200B;欄位中，定義讀取區段活動的吞吐量。 此值會儲存在歷程版本裝載中。 預設值為17.000，且必須介於500和17000之間。
+1. 將&#x200B;**[!UICONTROL Throttling rate]**&#x200B;欄位設定為讀取段活動的吞吐量限制。
+
+   此值會儲存在歷程版本裝載中。 預設值為每秒17,000條訊息。 您可以將此值從每秒500條修改為每秒17,000條訊息。
+
+   >[!NOTE]
+   >
+   >每個沙箱的整體節流速率設為每秒17,000則訊息。 因此，在同一沙箱中同時執行的所有讀取區段的限制速率每秒最多可達17,000則訊息。 不能修改此大寫。
 
 1. **[!UICONTROL Read Segment]**&#x200B;活動可讓您指定區段進入歷程的時間。 若要這麼做，請按一下&#x200B;**[!UICONTROL Edit journey schedule]**&#x200B;連結以存取歷程的屬性，然後設定&#x200B;**[!UICONTROL Scheduler type]**&#x200B;欄位。
 
