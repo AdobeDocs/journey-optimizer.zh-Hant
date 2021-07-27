@@ -5,16 +5,16 @@ feature: 資料來源
 topic: 管理
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 10%
+source-wordcount: '353'
+ht-degree: 11%
 
 ---
 
 # Adobe Experience Platform 資料來源 {#concept_zrb_nqt_52b}
 
-Adobe Experience Platform資料來源定義與即時客戶個人檔案服務的連線。 此資料來源已內建並預先設定。 無法刪除。 此資料來源的設計目的，是從即時客戶個人檔案服務中擷取和使用資料（例如，檢查進入歷程的人員是否為女性）。 它可讓您使用設定檔資料和體驗事件資料。 如需即時客戶設定檔服務的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}。
+Adobe Experience Platform資料來源定義與即時客戶個人檔案服務的連線。 此資料來源已內建並預先設定。 無法刪除。 此資料來源的設計目的，是從即時客戶個人檔案服務中擷取和使用資料（例如，檢查進入歷程的人員是否為女性）。 它可讓您使用設定檔資料和體驗事件資料。 如需即時客戶設定檔服務的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 >[!NOTE]
 >
@@ -38,7 +38,6 @@ Adobe Experience Platform資料來源定義與即時客戶個人檔案服務的�
 
 1. 從&#x200B;**[!UICONTROL Schema]**&#x200B;下拉式清單中選取架構。 此欄位列出Adobe Experience Platform中可用的設定檔和體驗事件結構。 未在[!DNL Journey Optimizer]中執行架構建立。 是在Adobe Experience Platform演的。
 1. 選取您要使用的欄位。
-1. 定義快取持續時間。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
 將游標置於欄位組的名稱上時，您會在右側看到兩個表徵圖。 它們可讓您刪除和複製欄位群組。 請注意，只有在欄位群組未用於任何即時或草稿歷程時（**[!UICONTROL Used in]**&#x200B;欄位中顯示的資訊）,**[!UICONTROL Delete]**&#x200B;圖示才可用。
