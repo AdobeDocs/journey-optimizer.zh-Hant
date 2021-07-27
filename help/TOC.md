@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1f0f4f63a31c4546f813dd803f06ae6aad234b71
+source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '698'
 ht-degree: 95%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 95%
 # [!DNL Journey Optimizer]說明 {#using}
 
 + [Journey Optimizer檔案](ajo-home.md)
++ [發行說明](using/release-notes.md)
 + [最新更新](using/documentation-updates.md)
 + 快速入門{#get-started}
    + [什麼是 Journey Optimizer](using/get-started.md)
@@ -117,6 +118,7 @@ ht-degree: 95%
    + 傳遞能力 {#deliverability}
       + [開始使用傳遞能力](using/deliverability.md)
       + [隱藏清單](using/suppression-list.md)
+      + [允許的清單](using/allow-list.md)
 + 決定管理 {#offer-decisioniong}
    + 開始使用決定管理 {#get-started}
       + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
