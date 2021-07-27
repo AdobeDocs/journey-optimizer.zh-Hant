@@ -1,9 +1,9 @@
 ---
 title: 發行說明
 description: Journey Optimizer 發行說明
-source-git-commit: 0fb6d8f611a849696d83e0f129e6462431e5fe83
+source-git-commit: 4d3352184aac7fe19096c21650982e29506f2bff
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '233'
 ht-degree: 24%
 
 ---
@@ -26,8 +26,25 @@ ht-degree: 24%
 <tr>
 <td>
 <p>Adobe Experience Platform可讓您定義結構間的關係，以使用一個資料集作為另一個資料集的查閱表格。 Journey Optimizer現在可以運用來自連結結構的資料。</p>
-<p>這些欄位可用於統一事件設定、歷程條件、訊息個人化和自訂動作個人化。
+<p>這些欄位可用於統一事件設定、歷程條件、訊息個人化和自訂動作個人化。</p>
 <p>如需詳細資訊，請參閱<a href="event/experience-event-schema.md#leverage_schema_relationships">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>允許的清單</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以在沙箱層級定義特定的傳送安全清單，以避免在測試環境中傳送不想要的電子郵件給收件者。
+</p>
+<p>如需詳細資訊，請參閱<a href="allow-list.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
