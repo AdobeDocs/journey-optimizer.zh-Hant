@@ -1,9 +1,9 @@
 ---
 title: 發行說明
 description: Journey Optimizer 發行說明
-source-git-commit: cd38b6ec9be0417f5c65e37805c0e7b072d1cb96
+source-git-commit: c9fa07efd03e84bf38fb1d67fabba4b6066c4179
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 16%
 
 ---
@@ -50,21 +50,22 @@ ht-degree: 16%
 
 ### 改良功能
 
-* **歷程**
-   * 在同一沙箱中同時執行的所有讀取區段的總節流率限制為每秒17,000條訊息。 [閱讀全文](building-journeys/read-segment.md#configuring-segment-trigger-activity)
-   * 已從資料源配置窗格中刪除&#x200B;**快取持續時間**&#x200B;欄位。 [閱讀全文](datasource/about-data-sources.md)
-   * 對於外部資料來源，現在會自動定義每秒15次呼叫的上限規則。 [閱讀全文](configuration/external-systems.md#capping)
-   * 對於即時歷程，歷程屬性畫面現在會顯示發佈日期和發佈歷程的使用者名稱。 [閱讀全文](building-journeys/journey-gs.md#change-properties)
-   * 在歷程清單畫面中，已新增歷程類型篩選器。 [閱讀全文](user-interface.md#section_lgm_hpz_pgb)
-   * 已在讀取區段活動中新增&#x200B;**[!UICONTROL Throttling rate]**&#x200B;參數。 [閱讀全文](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+**歷程**
 
-* **預覽和測試**
-   * 身分和命名空間現在會顯示在&#x200B;**[!UICONTROL Preview]**&#x200B;畫面中。 [閱讀全文](preview.md#preview-your-messages)
-   * 校樣的測試電子郵件數目現在限制為10個。
-   * 校樣中&#x200B;**主旨行首碼**&#x200B;允許的字元現已受限。 [閱讀全文](preview.md#send-proofs)
+* 在同一沙箱中同時執行的所有讀取區段的總節流率限制為每秒17,000條訊息。 [閱讀全文](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 已從資料源配置窗格中刪除&#x200B;**快取持續時間**&#x200B;欄位。 [閱讀全文](datasource/about-data-sources.md)
+* 對於外部資料來源，現在會自動定義每秒15次呼叫的上限規則。 [閱讀全文](configuration/external-systems.md#capping)
+* 對於即時歷程，歷程屬性畫面現在會顯示發佈日期和發佈歷程的使用者名稱。 [閱讀全文](building-journeys/journey-gs.md#change-properties)
+* 在歷程清單畫面中，已新增歷程類型篩選器。 [閱讀全文](user-interface.md#section_lgm_hpz_pgb)
+* 已在讀取區段活動中新增&#x200B;**[!UICONTROL Throttling rate]**&#x200B;參數。 [閱讀全文](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-* **個人化運算式編輯器**
-   * 已重新命名並重新排序協助程式下拉式清單。
+**預覽和測試訊息**
+* 身分和命名空間現在會顯示在&#x200B;**[!UICONTROL Preview]**&#x200B;畫面中。 [閱讀全文](preview.md#preview-your-messages)
+* 校樣的測試電子郵件數目現在限制為10個。
+* 校樣中&#x200B;**主旨行首碼**&#x200B;允許的字元現已受限。 [閱讀全文](preview.md#send-proofs)
+
+**個人化運算式編輯器**
+* 已重新命名並重新排序協助程式下拉式清單。
 
 ### 修正
 
