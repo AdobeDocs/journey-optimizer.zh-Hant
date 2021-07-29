@@ -5,9 +5,9 @@ feature: 歷程
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: ef1d19d6abfccf3455f94b454c9c863396159161
+source-git-commit: b1a0d17a2f36b55b8ef692fa9056989a3884c2a8
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '935'
 ht-degree: 3%
 
 ---
@@ -121,7 +121,13 @@ ht-degree: 3%
 
    ![](assets/send-proof-button.png)
 
-1. 選取將接收校樣的測試設定檔，然後按一下&#x200B;**[!UICONTROL Send proof]**。 您可以視需要在校樣的主旨行新增首碼。
+1. 在&#x200B;**[!UICONTROL Send proof]**&#x200B;視窗中，除測試設定檔外，輸入收件者的電子郵件，然後按一下&#x200B;**[!UICONTROL Add]**&#x200B;以將校樣傳送給您自己或組織的成員。
+
+   請注意，您最多可為校樣傳送新增10個收件者。
+
+   ![](assets/send-proof-button_2.png)
+
+1. 然後，選取將接收校樣的測試設定檔，然後按一下&#x200B;**[!UICONTROL Send proof]**。 您可以視需要在校樣的主旨行新增首碼。 僅限英數字元和特殊字元，例如。 - _()[ ]，可做為主旨行的前置詞。
 
    ![](assets/send-proof-select.png)
 
