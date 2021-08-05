@@ -5,7 +5,7 @@ feature: 優惠
 topic: 整合
 role: User
 level: Beginner
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: 22520570d96db43d39931149296b27a6211f7aa5
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 98%
@@ -58,7 +58,7 @@ ht-degree: 98%
 
 * 決定管理也可協助您在聯絡支援團隊時增強客戶體驗。 API 可讓您在呼叫中心代理的入口網站中顯示客戶的兌換資訊，以及下一個最佳優惠。
 
-   ![](../../assets/call-center.png)
+   ![](../../assets/do-not-localize/call-center.png)
 
 
 ## 字彙 {#glossary}
