@@ -1,14 +1,14 @@
 ---
 title: 關於Adobe Experience Platform區段
 description: 了解如何設定Adobe Experience Platform區段
-feature: Journeys
+feature: 歷程
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 2d882b8d10cc642b04705dd924fd2b129f4f78ac
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 0%
+source-wordcount: '226'
+ht-degree: 1%
 
 ---
 
@@ -27,18 +27,3 @@ ht-degree: 0%
 * 使用&#x200B;**區段資格**&#x200B;事件活動，讓個人根據Adobe Experience Platform區段入口和出口進入或前進歷程。 例如，您可以讓所有新銀級客戶進入歷程並傳送訊息。 有關如何使用此活動的詳細資訊，請參閱[此部分](../building-journeys/segment-qualification-events.md)。
 
 * 使用簡單或進階運算式編輯器，在歷程中建立&#x200B;**複雜條件**。 進一步了解[本節](../building-journeys/condition-activity.md#using-a-segment)。
-
-## Adobe Journey Optimizer評價方法 {#evaluation-method-in-journey-optimizer}
-
-在Adobe Journey Optimizer中，受眾是使用下列其中一種評估方法從區段定義產生：
-
-* 串流區段 — 當新資料流入系統時，區段的對象清單會即時保持最新。
-* 批次區段 — 區段的對象清單會根據過去一小時內到達的資料，每小時更新一次。
-
-系統會根據評估區段規則的複雜度和成本，對每個區段定義進行批次分段和串流分段之間的決定。
-
-您可以在區段清單的&#x200B;**[!UICONTROL Evaluation method]**&#x200B;欄中檢視每個區段的評估方法。
-
-在您首次定義區段後，設定檔會在符合資格時新增至對象。
-
-從先前的資料回填受眾最多需要24小時。 回填對象後，對象會持續保持最新狀態，且隨時準備進行目標定位。
