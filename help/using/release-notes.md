@@ -1,10 +1,10 @@
 ---
 title: 發行說明
 description: Journey Optimizer 發行說明
-source-git-commit: c9fa07efd03e84bf38fb1d67fabba4b6066c4179
+source-git-commit: a1800c333bfbee178682d773c729aad7e23d86d0
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 16%
+source-wordcount: '394'
+ht-degree: 15%
 
 ---
 
@@ -60,11 +60,13 @@ ht-degree: 16%
 * 已在讀取區段活動中新增&#x200B;**[!UICONTROL Throttling rate]**&#x200B;參數。 [閱讀全文](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **預覽和測試訊息**
+
 * 身分和命名空間現在會顯示在&#x200B;**[!UICONTROL Preview]**&#x200B;畫面中。 [閱讀全文](preview.md#preview-your-messages)
 * 校樣的測試電子郵件數目現在限制為10個。
 * 校樣中&#x200B;**主旨行首碼**&#x200B;允許的字元現已受限。 [閱讀全文](preview.md#send-proofs)
 
 **個人化運算式編輯器**
+
 * 已重新命名並重新排序協助程式下拉式清單。
 
 ### 修正
@@ -74,3 +76,5 @@ ht-degree: 16%
 * 修正「PTR記錄」畫面中缺少IP資訊的問題。
 * 現已實作運算式編輯器中選件邊欄的本地化。
 * 修正資訊快顯視窗中的錯誤間距。
+* 修正了上傳HTML檔案時，不支援具有`background-image`屬性的內部樣式表時，電子郵件設計工具中的問題。
+
