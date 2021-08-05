@@ -15,7 +15,7 @@ feature: 應用程式設定
 topic: 管理
 role: Admin
 level: Intermediate
-source-git-commit: 83d0cbdb7524f0317bd576ed7c689f9933bb658f
+source-git-commit: 661d43d3a39fcead068562dc6fb567bdc4027432
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 1%
@@ -76,7 +76,7 @@ ht-degree: 1%
 傳送失敗的可能原因有：
 
 | 原因 | 說明 | 隱藏類別 |
----------|----------|--------- |
+| --- | --- | --- |
 | **[!UICONTROL Undetermined]** | 無法識別從收件者網域訊息傳輸代理(MTA)收到的退信原因。 | 已忽略 |
 | **[!UICONTROL Invalid Recipient]** | 收件者無效或不存在。 | 硬 |
 | **[!UICONTROL Soft Bounce]** | 消息軟退信的原因不是此表中列出的軟錯誤，例如當發送超出ISP建議的允許速率時。 | 軟 |
