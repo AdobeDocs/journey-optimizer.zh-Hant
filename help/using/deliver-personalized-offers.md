@@ -1,13 +1,13 @@
 ---
 title: 新增個人化優惠
 description: 了解如何將個人化優惠方案新增至訊息
-feature: Journeys
+feature: 歷程
 topic: 內容管理
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: a2aed1dbfa53aee6f5fe0aeec52773d22bc4ed29
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '520'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 若要取得&#x200B;**完整的端對端範例**，說明如何設定選件，請在決策中使用這些選件，並在電子郵件中運用此決策，請查看[此區段](offers/offers-e2e.md#insert-decision-in-email)。
 
-➡️ [了解如何將選件新增為個人化](#video-offers)（影片）
+➡️ [了解如何在此影片中新增選件作為個人化內容](#video-offers)
 
 ## 在電子郵件中插入決策 {#insert-offers}
 
