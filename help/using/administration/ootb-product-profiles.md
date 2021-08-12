@@ -16,7 +16,7 @@ feature: 控制組
 topic: 管理
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 4037e90926a19175c1508b78faf2c9167c682458
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 8%
@@ -103,4 +103,4 @@ ht-degree: 8%
 
 |功能 |權限|
 |-|-|
-|決策管理| <ul><li>**管理決策**:讀取、建立、編輯和刪除決策實體。</li><li>**查看決策**:決策實體的唯讀存取權。</li><li>**管理排名策略**:讀取、建立、編輯和刪除自訂訊息報表，以及使用動作功能。</li><li>**發佈決策**:核准或取消核准決策活動。</li></ul>|
+|決策管理| <ul><li>**管理決策**:讀取、建立、編輯和刪除決策實體。</li><li>**查看決策**:決策實體的唯讀存取權。</li><li>**管理排名策略**:讀取、建立、編輯和刪除自訂訊息報表，以及使用動作功能。</li><li>**發佈決策**:啟用或停用決策活動。</li></ul>|
