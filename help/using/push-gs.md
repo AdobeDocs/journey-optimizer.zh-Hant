@@ -1,11 +1,10 @@
 ---
 title: 開始使用推播設定
 description: 了解推播通知資料流程和元件
-feature: 應用程式設定
-topic: 推播
+feature: 應用程式設定，推送
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 2%
@@ -55,7 +54,7 @@ ht-degree: 2%
    * 建立用戶端行動屬性並新增擴充功能。 SDK與這些擴充功能緊密整合，提供順暢的資料收集體驗。
    * 註冊行動應用程式套件識別碼和應用程式憑證
 
-* **Adobe Experience Platform即時客戶設**  定檔會結合來自多個管道（包括網路、行動裝置、CRM和協力廠商）的資料，以維護每個客戶的整體檢視。設定檔可讓您將客戶資料併入統一檢視中，提供每個客戶互動的可操作、時間戳記帳戶。 指定應用程式使用者的推送代號會根據使用者的設定檔儲存為記錄資料，而使用者與推送通知的互動則會以時間序列事件資料來追蹤。 [深入了解Adobe Experience Platform即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}。
+* **Adobe Experience Platform即時客戶設**  定檔會結合來自多個管道（包括網路、行動裝置、CRM和協力廠商）的資料，以維護每個客戶的整體檢視。設定檔可讓您將客戶資料併入統一檢視中，提供每個客戶互動的可操作、時間戳記帳戶。 指定應用程式使用者的推送代號會根據使用者的設定檔儲存為記錄資料，而使用者與推送通知的互動則會以時間序列事件資料來追蹤。 [深入了解Adobe Experience Platform即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 * **[!DNL Adobe Journey Optimizer]** :一旦您的行動應用程式與上述元件的整合就緒，且Adobe Experience Platform中的客戶設定檔也準備就緒，您就可以在中撰寫和協調推播通知， [!DNL Adobe Journey Optimizer] 以與使用者互動。
 
