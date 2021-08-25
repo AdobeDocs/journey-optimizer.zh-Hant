@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4d3352184aac7fe19096c21650982e29506f2bff
+source-git-commit: 72f5ef1366fda47ae4341284a9aba8f0981cb6b0
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '698'
 ht-degree: 95%
 
 ---
@@ -89,7 +89,6 @@ ht-degree: 95%
       + [等待](using/building-journeys/wait-activity.md)
       + [讀取區段](using/building-journeys/read-segment.md)
       + [訊息](using/building-journeys/journeys-message.md)
-      + [訊息測試](using/building-journeys/journeys-message-test.md)
       + [自訂動作](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign v7/v8 動作](using/building-journeys/using-adobe-campaign-classic.md)
       + [跳轉](using/building-journeys/jump.md)
@@ -198,7 +197,7 @@ ht-degree: 95%
          + [決定 API](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
 + 資料管理 {#data-management}
-   + [結構描述](using/get-started-schemas.md)
+   + [方案](using/get-started-schemas.md)
    + [資料集](using/get-started-datasets.md)
    + [查詢](using/get-started-queries.md)
 + 設定{#get-started}
