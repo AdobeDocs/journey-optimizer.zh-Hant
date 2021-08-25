@@ -1,14 +1,14 @@
 ---
 title: 使用者介面
 description: Journey Optimizer 使用者介面
-feature: 概覽
-topic: 內容管理
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 91%
+source-wordcount: '1457'
+ht-degree: 68%
 
 ---
 
@@ -19,12 +19,10 @@ ht-degree: 91%
 >[!NOTE]
 >
 >* 瀏覽使用者介面時的重要概念與 Adobe Experience Platform 相同。如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}。
-   >
-   >
-* 本文件將經常更新，以反應此產品使用者介面的最新變更。不過，有些螢幕擷取畫面可能會與使用者介面稍有不同。
-   >
-   > 
-* UI 中可用元件和功能取決於您的權限和授權套件。 如有任何問題，請聯絡您的 Adobe 客戶成功經理。
+>
+>* 本文件將經常更新，以反應此產品使用者介面的最新變更。不過，有些螢幕擷取畫面可能會與使用者介面稍有不同。
+>
+> * UI 中可用元件和功能取決於您的權限和授權套件。 如有任何問題，請聯絡您的 Adobe 客戶成功經理。
 
 
 ## 左側導覽
@@ -87,6 +85,9 @@ ht-degree: 91%
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience 提供的 sandbox 可將單一執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。[了解更多](administration/sandboxes.md)
 
+<!--
+* **[!UICONTROL Alerts]** - The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
+-->
 
 ## 產品內使用案例
 
@@ -96,7 +97,7 @@ ht-degree: 91%
 
 可用的使用案例包括：
 
-* **建立測試設定檔**，以使用我們的 CSV 範本建立測試設定檔，以測試個人化訊息和歷程。瞭解如何在](building-journeys/creating-test-profiles.md#use-case-1)本頁面[中實施此使用案例。
+* **建立測試設定檔**，以使用我們的 CSV 範本建立測試設定檔，以測試個人化訊息和歷程。了解如何在此頁面](building-journeys/creating-test-profiles.md#use-case-1)上實作此使用案例[。
 * **傳送生日訊息給客戶**，以自動傳送電子郵件祝賀客戶生日。(即將推出)
 * **傳送電子郵件給新客戶**，以輕鬆傳送最多兩封電子郵件歡迎您新註冊的客戶。(即將推出)
 * **傳送推播訊息至匯入的客戶清單**，以快速將推播通知傳送至從 CSV 檔案匯入的客戶清單。(即將推出)
@@ -106,6 +107,139 @@ ht-degree: 91%
 按一下 **[!UICONTROL Begin]** 按鈕以開始使用案例。
 
 您可以從&#x200B;**[!UICONTROL View use case library]**&#x200B;按鈕存取已執行的使用案例。
+
+## 協助工具{#accessibility}
+
+Adobe Journey Optimizer中的協助工具功能由Adobe Experience Platform提供：
+
+* 鍵盤協助工具
+* 顏色對比
+* 驗證必填欄位
+
+[了解更多](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;}在Adobe Experience Platform檔案中。
+
+您可以在Adobe Journey Optimizer中使用下列通用鍵盤快速鍵：
+
+| 動作 | 快速鍵 |
+| --- | --- |
+| 在使用者介面元素、區段和功能表群組之間移動 | 標記 |
+| 在使用者介面元素、區段和功能表群組之間向後移動 | Shift + Tab |
+| 在區段內移動以將焦點設定為個別元素 | 箭頭 |
+| 選取或清除焦點中的元素 | 輸入或空格鍵 |
+| 取消選取、折疊面板或關閉對話方塊 | Esc |
+
+[了解更多](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;}在Adobe Experience Platform檔案中。
+
+您可以在Journey Optimizer的特定部分使用下列捷徑：
+
+<table>
+  <thead>
+    <tr>
+      <th>介面元素</th>
+      <th>動作</th>
+      <th>快速鍵</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>歷程、動作、資料來源或事件清單</td>
+    <td>建立歷程、動作、資料來源或事件</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">草稿狀態的歷程畫布</td>
+    <td>從左側浮動視窗的第一個可用位置（從上到下）新增活動</td>
+    <td>連按兩下活動</td>
+  </tr>
+  <tr>
+    <td>選取所有活動</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+  <tr>
+    <td>刪除選取的活動</td>
+    <td>刪除或退格，然後輸入以確認刪除</td>
+  </tr>
+  <tr>
+  <td rowspan="3">
+
+這些元素的配置窗格：
+
+<ul>
+  <li>歷程中的活動</li>
+  <li>事件</li>
+  <li>資料來源</li>
+  <li>動作</li>
+</ul>
+
+</td>
+    <td>移至下一個要設定的欄位</td>
+    <td>標記</td>
+  </tr>
+  <tr>
+    <td>儲存變更並關閉設定窗格</td>
+    <td>輸入</td>
+  </tr>
+  <tr>
+    <td>放棄更改並關閉配置窗格</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td rowspan="4">在測試模式中的歷程</td>
+    <td>啟用或禁用測試模式</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>觸發事件型歷程中的事件</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
+
+在已開啟&#x200B;**[!UICONTROL Single profile at a time]**&#x200B;選項的區段型歷程中觸發事件
+
+</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>顯示測試記錄</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>文字欄位</td>
+    <td>選取所選欄位中的所有文字</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">快顯視窗</td>
+    <td>儲存變更或確認動作</td>
+    <td>輸入</td>
+  </tr>
+  <tr>
+    <td>關閉視窗</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td>簡單運算式編輯器</td>
+    <td>選取並新增欄位</td>
+    <td>按兩下欄位</td>
+  </tr>
+  <tr>
+    <td>瀏覽XDM欄位</td>
+    <td>選取節點的所有欄位</td>
+    <td>選擇父節點</td>
+  </tr>
+  <tr>
+    <td>裝載預覽</td>
+    <td>選取裝載</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+</table>
 
 ## 尋找說明與支援
 
@@ -137,16 +271,17 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 選擇您偏好的語言，然後按一下 **「儲存」**。您可以選取第二種語言，以在您使用的元件未以您的預設語言在地化時使用。
    ![](assets/select-language.png)
 
-## 搜尋
+## 搜尋{#unified-search}
 
-從Adobe Journey Optimizer介面的任何位置，都可使用頂端列中心的Adobe Experience Cloud搜尋，在沙箱中尋找資產、歷程或訊息。 開始輸入內容以顯示排名最前的結果。
+從Adobe Journey Optimizer介面的任何位置，都可使用頂端列中央的Unified Adobe Experience Cloud搜尋功能，在沙箱中尋找資產、歷程、資料集、訊息等。
+
+開始輸入內容以顯示排名最前的結果。輸入關鍵字的相關說明文章也會顯示在結果中。
 
 ![](assets/unified-search.png)
 
-按一下&#x200B;**「Enter」**&#x200B;以存取所有結果和篩選器。
+按&#x200B;**Enter**&#x200B;訪問所有結果並按業務對象進行篩選。
 
 ![](assets/search-and-filter.png)
-
 
 ## 篩選清單{#section_lgm_hpz_pgb}
 
