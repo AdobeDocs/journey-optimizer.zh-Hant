@@ -2,14 +2,14 @@
 keywords: Journey Optimizer;首頁;熱門主題
 title: Journey Optimizer 產品文件
 description: Adobe Journey Optimizer產品說明中心
-feature: 概覽
-topic: 內容管理
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 761241c0a09e0a3954b42688c4a0bb7f1571b716
+source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 39%
+source-wordcount: '208'
+ht-degree: 37%
 
 ---
 
@@ -30,6 +30,11 @@ ht-degree: 39%
       <a href="using/get-started.md">什麼是[!DNL Journey Optimizer]?</a>
     </div>
     <p>探索重要功能及瞭解如何開始使用
+    <p>
+    <div>
+      <a href="using/release-notes.md">發行說明</a>
+    </div>
+    <p>探索新功能、最新改進項目和修正項目
     <p>
     <div>
       <a href="using/design-emails.md">設計電子郵件內容</a>
