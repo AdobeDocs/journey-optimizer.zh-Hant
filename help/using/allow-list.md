@@ -1,14 +1,14 @@
 ---
 title: 允許清單
 description: 了解如何使用允許的清單。
-feature: 傳遞能力
-topic: 內容管理
+feature: Deliverability
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: e2743c8fa624a7a95b12c3adb5dc17a1b632c25d
+source-git-commit: 2edb3535c50f83d18ce4d6429a6d76f44b694ac6
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 1%
+source-wordcount: '558'
+ht-degree: 0%
 
 ---
 
@@ -24,18 +24,17 @@ ht-degree: 1%
 
 ## 啟用允許的清單 {#enable-allow-list}
 
-若要在非生產沙箱上啟用此功能，請更新允許的清單，使其不再為空白。 若要停用，請清除允許的清單，使其再次空白。
+若要在非生產沙箱上啟用允許的清單，您必須使用訊息預設集服務中的對應API端點來更新一般設定。
 
-在[此小節](#logic)中了解更多允許的清單邏輯。
+* 使用此API，您也可以隨時停用功能。
 
-<!--
-To enable the allowed list on a non-production sandbox, you need to make an Adobe API call.
+* 您可以在啟用功能之前或之後更新允許的清單。
 
-* Using this API, you can also disable the feature at any time.
+* 如果允許的清單為&#x200B;**not**&#x200B;空白，則允許的清單邏輯會在功能啟用&#x200B;**和**&#x200B;時套用。 進一步了解[本節](#logic)。
 
-* You can update the allowed list before or after enabling the feature.
+<!--To enable this feature on a non-production sandbox, update the allowed list so that it is no longer empty. To disable it, clear up the allowed list so that it is again empty.
 
-* The allowed list logic applies when the feature is enabled and if the allowed list is not empty. Learn more in this section (logic).
+Learn more on the allowed list logic in this section.
 -->
 
 >[!NOTE]
@@ -54,7 +53,9 @@ To enable the allowed list on a non-production sandbox, you need to make an Adob
 >
 >允許的清單最多可包含1,000個項目。
 
-<!--Learn more on making Adobe API calls in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=en).-->
+<!--
+Learn more on making these API calls in the API reference documentation.
+Found this link in Experience Platform documentation, but may not be the final one: (https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=en).-->
 
 ## 允許的清單邏輯 {#logic}
 
@@ -68,6 +69,31 @@ To enable the allowed list on a non-production sandbox, you need to make an Adob
 
 * 如果允許的清單&#x200B;**上的實體為**，而非隱藏清單上的實體，則可以將電子郵件發送到相應的收件人。 但是，如果實體也在[隱藏清單](suppression-list.md)中，則相應的收件人將不會收到電子郵件，原因為&#x200B;**[!UICONTROL Suppressed]**。
 
+>[!NOTE]
+>
+>狀態為&#x200B;**[!UICONTROL Not allowed]**&#x200B;的設定檔會在訊息傳送程式期間排除。 因此，雖然&#x200B;**歷程報表**&#x200B;會將這些設定檔顯示為已在歷程（[讀取區段](building-journeys/read-segment.md)和[訊息](building-journeys/journeys-message.md)活動）中移動，但&#x200B;**電子郵件報表**&#x200B;不會在電子郵件傳送前篩選掉的&#x200B;**[!UICONTROL Sent]**&#x200B;量度中納入這些設定檔。
+>
+>進一步了解[即時報表](reports/live-report.md)和[全域報表](reports/global-report.md)。
 
+## 排除報表 {#reporting}
 
+在非生產沙箱上啟用此功能時，您可以擷取因不在允許清單中而從傳送中排除的電子郵件地址或網域。 若要這麼做，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html)進行下列API呼叫。
+
+若要取得因收件者不在允許清單中而未傳送的&#x200B;**電子郵件數**，請使用下列查詢：
+
+```
+SELECT count(distinct _id) from cjm_message_feedback_event_dataset WHERE
+_experience.customerJourneyManagement.messageExecution.messageExecutionID = '<MESSAGE_EXECUTION_ID>' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
+```
+
+若要取得因收件者不在允許清單中而未傳送的&#x200B;**電子郵件地址清單**，請使用下列查詢：
+
+```
+SELECT distinct(_experience.customerJourneyManagement.emailChannelContext.address) from cjm_message_feedback_event_dataset WHERE
+_experience.customerJourneyManagement.messageExecution.messageExecutionID IS NOT NULL AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
+```
 
