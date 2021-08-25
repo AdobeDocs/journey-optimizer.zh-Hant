@@ -1,13 +1,13 @@
 ---
 title: 建立個人化優惠
 description: 了解如何在Adobe Experience Platform中建立個人化優惠方案。
-feature: 優惠
-topic: 整合
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
+source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1158'
 ht-degree: 3%
 
 ---
