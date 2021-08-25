@@ -1,9 +1,9 @@
 ---
 title: 發行說明
 description: Journey Optimizer 發行說明
-source-git-commit: 77d392cc09bd0923faf3d27e951a17cd702d257c
+source-git-commit: cd077b6f1fd5c81955aec2475dfd8b52aeb23422
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '963'
 ht-degree: 11%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 11%
 <tr>
 <td>
 <p>您現在可以根據每個預設集定義重試期間，以確保不再需要重試嘗試時不再執行。 例如，對於包含僅一天有效連結的密碼重設交易式訊息，您可以將重試期間設為24小時。 請注意，重試設定只會套用至電子郵件通道。</p>
-<p>如需詳細資訊，請參閱<a href="configuration/retries.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="configuration/retries.md#retry-duration">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -110,7 +110,7 @@ ht-degree: 11%
 
 * **動態標題**  — 您現在可以以HTTP標題參數傳遞動態資料。這些參數可供接收歷程動作HTTP呼叫的整合系統使用，例如時間戳記或追蹤ID。 [了解更多](action/about-custom-action-configuration.md#url-configuration)
 * **動態URL路徑**  — 您現在可以為自訂動作設定動態URL路徑。[了解更多](action/about-custom-action-configuration.md#url-configuration)
-* 讀取段的總節流率已從每秒17,000條消息更改為每秒20,000條消息。 [閱讀全文](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 讀取段的總節流率已從每秒17,000條消息更改為每秒20,000條消息。 [了解更多](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **使用者介面**
 
@@ -122,9 +122,9 @@ ht-degree: 11%
 * **背景**  — 現在即時預覽支援背景影像。[了解更多](preview.md)
 * **一鍵式選擇退出連結**  — 您可以在電子郵件內容中插入新類型的連結：「選 **擇退** 出」連結可讓使用者只要按一下，就能取消訂閱收到您的通訊內容，而不需重新導向至登陸頁面以確認選擇退出。[了解更多](message-tracking.md#one-click-opt-out-link)
 
-**個人化**
+<!--**Personalization**
 
-<!--* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
+* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
 
 **電子郵件設定**
 
