@@ -1,13 +1,13 @@
 ---
 title: 關於歷程事件的ExperienceEvent結構
 description: 了解歷程事件的ExperienceEvent結構
-feature: 結構描述
-topic: 管理
+feature: Schemas
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e965372e3640b92f672bf03098c8e4fb487dfc7d
+source-git-commit: 96615a580b2211ea94522e94ba867a309e127ae3
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -72,14 +72,14 @@ Adobe Experience Platform可讓您定義結構間的關係，以使用一個資�
 
 在Journey Optimizer中，您接著可以運用連結表格中的所有欄位：
 
-* 設定單一事件時，[了解詳情](../event/experience-event-schema.md#unitary_event_configuration)
+* 設定業務或統一事件時，[了解詳情](../event/experience-event-schema.md#unitary_event_configuration)
 * 在歷程中使用條件時，[了解詳情](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * 在訊息個人化中，[了解詳情](../event/experience-event-schema.md#message_personalization)
 * 在自訂動作個人化中，[了解詳情](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
-### 單一事件配置{#unitary_event_configuration}
+### 事件設定{#unitary_event_configuration}
 
-連結的結構欄位在統一事件配置中可用：
+連結的結構欄位可用於統一和業務事件配置：
 
 * 瀏覽事件設定畫面中的事件結構欄位時。
 * 定義系統產生事件的條件時。
@@ -90,7 +90,6 @@ Adobe Experience Platform可讓您定義結構間的關係，以使用一個資�
 
 * 在事件鍵公式中
 * 事件id條件中（規則型事件）
-* （稍後）
 
 若要了解如何設定單一事件，請參閱此[page](../event/about-creating.md)。
 
