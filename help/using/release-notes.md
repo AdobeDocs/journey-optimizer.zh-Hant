@@ -1,9 +1,9 @@
 ---
 title: 發行說明
 description: Journey Optimizer 發行說明
-source-git-commit: ff48c78cfa5c48f32073e9df1f126504e291ab5a
+source-git-commit: 77d392cc09bd0923faf3d27e951a17cd702d257c
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '964'
 ht-degree: 11%
 
 ---
@@ -124,7 +124,7 @@ ht-degree: 11%
 
 **個人化**
 
-* **運算式編輯器**  — 您現在可以在定義個人化時輕鬆新增回傳值：當設定檔的個人化欄位空白時，將顯示回傳值。[了解更多](documentation-updates.md)
+<!--* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
 
 **電子郵件設定**
 
