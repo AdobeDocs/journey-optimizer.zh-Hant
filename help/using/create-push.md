@@ -1,14 +1,14 @@
 ---
 title: 設定推播通知
 description: 了解如何在Journey Optimizer中建立推播通知
-feature: 概覽
-topic: 內容管理
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 10%
+source-wordcount: '1192'
+ht-degree: 11%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 10%
 
 選擇&#x200B;**[!UICONTROL Silent Notification]**&#x200B;選項以靜默通知應用程式：在這種情況下，通知會直接轉送到應用程式。 設備螢幕上不顯示警報。
 
-使用&#x200B;**[!UICONTROL Custom data]**&#x200B;區段來新增索引鍵/值組。
+使用&#x200B;**[!UICONTROL Custom data]**&#x200B;區段來新增索引鍵值配對。
 
 ## 自訂資料
 
