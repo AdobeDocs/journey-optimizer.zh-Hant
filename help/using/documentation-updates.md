@@ -1,7 +1,7 @@
 ---
 title: 文件更新
 description: 瞭解最新的文件更新
-source-git-commit: 932a95691e80267a581072b3fa0b81ad108117a3
+source-git-commit: a80f9675741aeefa51857cf9fd47c5e7441229cd
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 14%
@@ -25,7 +25,7 @@ ht-degree: 14%
 * 已新增新區段，說明如何擷取因未列在允許清單而從傳送排除的電子郵件地址或網域。 [閱讀全文](allow-list.md#reporting)
 * 更新「啟用允許清單」區段。 [了解更多](allow-list.md#enable-allow-list)
 * 更新「監視」訊息預設集區段，其中包含可能的預設集建立失敗原因，以及這類錯誤的詳細資訊。 [閱讀全文](configuration/message-presets.md#monitor-message-presets)
-* 已更新並重新命名「重試時段」區段，以反映您現在可以調整訊息預設集中的電子郵件重試設定的事實。 [閱讀全文](configuration/retries.md)
+* 已更新並重新命名「重試時段」區段，以反映您現在可以調整訊息預設集中的電子郵件重試設定的事實。 [閱讀全文](configuration/retries.md#retry-duration)
 * 已新增新區段，說明如何將一鍵式選擇退出連結插入電子郵件內容。 [閱讀全文](message-tracking.md#one-click-opt-out-link)
 <!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
 
