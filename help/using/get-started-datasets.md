@@ -1,13 +1,12 @@
 ---
 title: 開始使用資料集
 description: 了解如何在Adobe Journey Optimizer中使用Adobe Experience Platform資料集
-feature: 資料集
 role: User
 level: Beginner
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 24%
+source-wordcount: '258'
+ht-degree: 26%
 
 ---
 
@@ -27,7 +26,7 @@ ht-degree: 24%
 
 在[資料擷取概述檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target=&quot;_blank&quot;}中了解如何使用資料集UI。
 
-[本檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html){target=&quot;_blank&quot;}提供將CSV檔案對應至XDM架構的逐步檔案
+[本檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hant){target=&quot;_blank&quot;}提供將CSV檔案對應至XDM架構的逐步檔案
 
 
 ## 作法影片{#video-dataset}
