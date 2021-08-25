@@ -1,13 +1,13 @@
 ---
 title: 建立訊息預設集
 description: 了解如何設定和監視訊息預設集
-feature: 應用程式設定
-topic: 管理
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
+source-git-commit: f52f73b1d7f2ad5a7ebd2e8b23b7c68c4dc99212
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '1206'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,8 @@ ht-degree: 1%
 >[!CAUTION]
 >
 > * 訊息預設集設定僅限於歷程管理員。 [了解更多](../administration/ootb-product-profiles.md#journey-administrator)
-   >
-   > 
-* 您必須先執行電子郵件和推送設定步驟，才能建立訊息預設集。
+>
+> * 您必須先執行電子郵件和推送設定步驟，才能建立訊息預設集。
 
 
 在配置消息預設集後，從&#x200B;**[!UICONTROL Presets]**&#x200B;清單建立消息時，可以選擇它們。
@@ -57,7 +56,7 @@ ht-degree: 1%
 
    * 選取用來傳送電子郵件的子網域。 [了解更多](about-subdomain-delegation.md)
    * 選擇要與預設集關聯的IP池。 [了解更多](ip-pools.md)
-   * 輸入使用預設集傳送之電子郵件的標題參數。
+   * 輸入使用該預設集傳送之電子郵件的標題參數。
 
       >[!CAUTION]
       >
@@ -80,6 +79,15 @@ ht-degree: 1%
       >[!NOTE]
       >
       >名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線`_`、點`.`和連字型大小`-`字元。
+
+   * 配置&#x200B;**電子郵件重試參數**。 預設情況下，[重試時段](retries.md#retry-duration)設為84小時，但您可以調整此設定以更符合您的需求。
+
+      ![](../assets/preset-retry-paramaters.png)
+
+      您必須在以下範圍內輸入整數值（以小時或分鐘為單位）:
+      * 對於行銷電子郵件類型，最低重試期間為6小時。
+      * 對於交易式電子郵件類型，最低重試期間為10分鐘。
+      * 對於這兩種電子郵件類型，最大重試時間為84小時（或5040分鐘）。
 
 
 1. 配置&#x200B;**推播通知**&#x200B;設定。
@@ -110,13 +118,17 @@ ht-degree: 1%
    * IP池驗證
    * A/PTR記錄、t/m/res子域驗證
 
+   >[!NOTE]
+   >
+   >如果檢查未成功，請在[此小節](#monitor-message-presets)中了解更多可能的失敗原因。
+
 1. 檢查成功後，訊息預設集會取得&#x200B;**[!UICONTROL Active]**&#x200B;狀態。 它已準備好用於傳送訊息。
 
    <!-- later on, users will be notified in Pulse -->
 
    ![](../assets/preset-active.png)
 
-## 監視消息預設集
+## 監視消息預設集 {#monitor-message-presets}
 
 所有訊息預設集都會顯示在&#x200B;**[!UICONTROL Channels]** / **[!UICONTROL Message presets]**&#x200B;功能表中。 篩選器可協助您瀏覽清單（通道類型、使用者、狀態）。
 
@@ -130,11 +142,27 @@ ht-degree: 1%
 * **[!UICONTROL Failed]**:在消息預設集驗證期間，一個或多個檢查失敗。
 * **[!UICONTROL De-activated]**:消息預設集已取消激活。它無法用於建立新郵件。
 
+如果訊息預設集建立失敗，以下說明每個可能失敗原因的詳細資訊。
+
+如果發生其中一個錯誤，請聯繫[Adobe客戶服務支援團隊](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}以取得協助。
+
+* **SPF驗證失敗**:SPF（發件人策略框架）是一種電子郵件驗證協定，它允許指定可從給定子域發送電子郵件的授權IP。SPF驗證失敗意味著SPF記錄中的IP地址與用於向郵箱提供程式發送電子郵件的IP地址不匹配。
+
+* **DKIM驗證失敗**:DKIM允許接收伺服器驗證接收的郵件是由關聯域的正版發送者發送的，並且原始郵件的內容在其過程中沒有更改。DKIM驗證失敗意味著接收郵件伺服器無法驗證郵件內容的真實性及其與發送域的關聯。
+
+* **MX記錄驗證失敗**:MX記錄驗證失敗表示代表指定子網域接受傳入電子郵件的郵件伺服器未正確設定。
+
+* **傳遞能力配置失敗**:傳遞能力配置可能會因下列原因而失敗：
+   * 已分配IP的封鎖清單
+   * `helo`名稱無效
+   * 從IP（不是相應預設集的IP池中指定的IP）發送的電子郵件
+   * 無法傳送電子郵件至Gmail和Yahoo等主要ISP的收件匣
+
 ## 編輯訊息預設集
 
 若要編輯訊息預設集，您必須先將其停用，使其無法用於建立新訊息（使用此預設集發佈的訊息將不受影響，且會繼續運作）。 然後，您需要複製訊息預設集，以建立將用來建立新訊息的新版本：
 
-1. 存取訊息預設集清單，然後停用您要編輯的訊息預設集。
+1. 存取訊息預設集清單，然後取消啟動您要編輯的訊息預設集。
 
    ![](../assets/preset-deactivate.png)
 
@@ -148,7 +176,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >無法刪除停用中的訊息預設集，以避免使用這些預設集傳送訊息的歷程中出現任何問題。
+   >無法刪除已停用的訊息預設集，以避免在使用這些預設集來傳送訊息的歷程中發生任何問題。
 
 ## 作法影片{#video-presets}
 
