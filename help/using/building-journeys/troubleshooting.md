@@ -2,13 +2,13 @@
 title: 歷程疑難排解
 description: 了解如何疑難排解歷程中的錯誤
 feature: Journeys
-topic: 內容管理
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 85%
+source-wordcount: '1040'
+ht-degree: 84%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 85%
 * 您的事件有效負載是否包含事件 ID？
 * 您是否點按了正確的 URL？
 * 您是否依照串流獲取 API 有效負載結構，而在事件設定窗格中使用有效負載結構預覽？請參閱[此頁面](../event/about-creating.md#preview-the-payload)。
-* 您在事件標題中是否使用正確的金鑰/值配對？
+* 您在事件標題中是否使用正確的索引鍵值配對？
 
    ```
    X-gw-ims-org-id - your ORGID
