@@ -1,12 +1,11 @@
 ---
 title: 推播通知設定
 description: 了解如何設定您的環境，以使用Journey Optimizer傳送推播通知
-feature: 應用程式設定，推送
 role: Admin
 level: Intermediate
-source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
+source-git-commit: 10453c86768b2dbe8bc7956cd409da238895d8ab
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1447'
 ht-degree: 4%
 
 ---
@@ -30,11 +29,11 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### 設定權限
 
-建立行動應用程式之前，您必須先確定在&#x200B;**Adobe Experience Platform Launch**&#x200B;中擁有或指派正確的使用者權限。 進一步了解[Adobe Experience Platform Launch檔案](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html){target=&quot;_blank&quot;}。
+建立行動應用程式之前，您必須先確定在&#x200B;**Adobe Experience Platform Launch**&#x200B;中擁有或指派正確的使用者權限。 進一步了解[Adobe Experience Platform Launch檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target=&quot;_blank&quot;}。
 
 >[!CAUTION]
 >
->推播設定必須由專家使用者執行。 根據您的實作模式和此實作中涉及的角色，您可能需要將完整的權限集指派給單一產品設定檔，或在應用程式開發人員與&#x200B;**Adobe Journey Optimizer**&#x200B;管理員之間共用權限。 深入了解[本檔案](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html#platform-launch-permissions){target=&quot;_blank&quot;}中的&#x200B;**Adobe Experience Platform Launch**&#x200B;權限。
+>推播設定必須由專家使用者執行。 根據您的實作模式和此實作中涉及的角色，您可能需要將完整的權限集指派給單一產品設定檔，或在應用程式開發人員與&#x200B;**Adobe Journey Optimizer**&#x200B;管理員之間共用權限。 深入了解[本檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html#platform-launch-permissions){target=&quot;_blank&quot;}中的&#x200B;**Adobe Experience Platform Launch**&#x200B;權限。
 
 <!--ou need to your have access to perform following roles :
 
