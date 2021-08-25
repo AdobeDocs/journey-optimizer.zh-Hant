@@ -1,14 +1,14 @@
 ---
 title: '外部資料來源 '
 description: 瞭解如何設定外部資料來源
-feature: 資料來源
-topic: 管理
+feature: Data Sources
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e6d8d8ee637008a886ca308b5b0d9d53d90b11ce
+source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 98%
+source-wordcount: '1269'
+ht-degree: 92%
 
 ---
 
@@ -114,10 +114,10 @@ ht-degree: 98%
 
 * 端點：用於產生端點的 URL
 * 端點上的 HTTP 要求方法（GET 或 POST）
-* 標題：在此呼叫中插入做為標題的金鑰/值配對 (若有需要)
-* 正文：說明方法為 POST 時呼叫的正文。我們支援有限的正文結構，如 bodyParams (金鑰/值配對) 中所定義。bodyType 說明了呼叫內正文的格式和編碼：
-   * &#39;form&#39;：表示內容類型將會是 application/x-www-form-urlencoded（字元集 UTF-8），而金鑰/值配對將會序列化為：key1=value1&amp;key2=value2&amp;...
-   * &#39;json&#39;：表示內容類型將會是 application/json（字元集 UTF-8），而金鑰/值配對將會序列化為 JSON 物件，如下所示：_{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+* 標題：需要時，要插入做為此呼叫標題的機碼值組
+* 正文：說明方法為 POST 時呼叫的正文。我們支援有限的內文結構，定義於bodyParams（機碼 — 值組）中。 bodyType 說明了呼叫內正文的格式和編碼：
+   * &#39;form&#39;:這表示內容類型將會是application/x-www-form-urlencoded（字元集UTF-8），而金鑰值配對將會序列化為：key1=value1&amp;key2=value2&amp;...
+   * &#39;json&#39;:這表示內容類型將會是application/json（字元集UTF-8），而機碼值配對將會序列化為JSON物件，如下所示：_{ &quot;key1&quot;:&quot;value1&quot;, &quot;key2&quot;:&quot;value2&quot;,...}_
 
 存取權杖插入動作之 HTTP 要求必須採用的方法定義：
 
