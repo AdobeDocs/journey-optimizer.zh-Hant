@@ -1,14 +1,14 @@
 ---
 title: 管理選擇退出
 description: 瞭解如何管理選擇退出與隱私權
-feature: 歷程
-topic: 內容管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8798d73ace981c44ef896ac6983b50a14286eb57
+source-git-commit: cdc0909a296799c5c60e854474a23750cf7b1b2f
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 90%
+source-wordcount: '814'
+ht-degree: 80%
 
 ---
 
@@ -36,6 +36,8 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 因此，您必須在每封寄送給收件者的電子郵件中一律包含&#x200B;**取消訂閱連結**：
 * 按一下此連結後，收件者會被導向至包含確認選擇退出按鈕的登陸頁面。
 * 按一下選擇退出按鈕後，將會發出 Adobe I/O 呼叫，以使用此資訊更新設定檔資料。 [進一步瞭解此功能](#consent-service-api)。
+
+### 新增取消訂閱連結 {#add-unsubscribe-link}
 
 若要新增取消訂閱連結，請遵循下列步驟：
 
@@ -87,7 +89,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 <!--The opt-out URL is resolved upon each recipient receiving the message. It is then personalized with the relevant encrypted parameters (profile ID, profile name, journey ID, sandbox ID, and message execution ID).-->
 
-## 選擇退出 API 呼叫 {#opt-out-api}
+### 選擇退出 API 呼叫 {#opt-out-api}
 
 當收件者按一下取消訂閱連結選擇退出後，就會呼叫 Adobe I/OAPI <!--Consent service API to capture the encrypted data and-->以更新對應的設定檔偏好設定。
 
@@ -129,6 +131,14 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice.
 <!--and provide an answer back to the landing page.-->
+
+## 按一下選擇退出 {#one-click-opt-out}
+
+由於許多客戶都在尋找更輕鬆的取消訂閱程式，您也可以在電子郵件內容中新增一鍵式選擇退出連結。 此連結可讓您的收件者快速取消訂閱您的通訊內容，而無需重新導向至需要確認選擇退出的登錄頁面。
+
+了解如何在[本區段](message-tracking.md#one-click-opt-out-link)中，將選擇退出連結新增至您的訊息內容。
+
+透過[journey](building-journeys/journey.md)傳送訊息後，如果收件者按一下選擇退出連結，就會立即選擇退出。
 
 ## 標題中的取消訂閱連結 {#unsubscribe-email}
 
