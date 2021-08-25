@@ -1,18 +1,18 @@
 ---
 title: 隱藏清單
 description: 了解隱藏清單是什麼、其用途以及其中包含的內容。
-feature: 傳遞能力
-topic: 內容管理
+feature: Deliverability
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: ea2bb0c2956781138a0c7f2d0babfd91070dd351
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 4%
+source-wordcount: '697'
+ht-degree: 2%
 
 ---
 
-# 隱藏清單{#suppression-list}
+# 隱藏清單 {#suppression-list}
 
 隱藏清單包含您要從傳遞中排除的電子郵件地址，因為向這些聯繫人發送可能會損害您的傳送信譽和傳遞率。
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 <!--It gathers spam complaints, hard bounces, and soft bounces that occur consistently.-->
 
-## 為什麼要查禁清單？{#why-suppression-list}
+## 為什麼要查禁清單？ {#why-suppression-list}
 
 為了控制收件匣擁有者收到的電子郵件訊息，並確保只接收他們想要的郵件，網際網路服務提供者(ISP)和商業垃圾郵件篩選器有其專有的演算法，可根據其使用的IP位址和傳送網域來追蹤電子郵件傳送者的整體信譽。
 
@@ -30,15 +30,17 @@ ht-degree: 4%
 
 會自動從郵件傳送中排除其電子郵件地址遭隱藏的收件者。 這會加快傳送速度，因為錯誤率對傳送速度有顯著影響。
 
-## 隱藏清單上有什麼？{#what-s-on-suppression-list}
+## 隱藏清單上有什麼？ {#what-s-on-suppression-list}
 
 隱藏清單中會新增電子郵件地址，如下所示：
 
 * 所有&#x200B;**硬退信**&#x200B;和&#x200B;**垃圾郵件投訴**&#x200B;在發生單一事件後會自動將對應的電子郵件地址傳送至隱藏清單。
 
-* **軟退** 信和臨 **** 時忽略錯誤不會立即將電子郵件地址發送到隱藏清單，但會增加錯誤計數器。然後會執行多次重試，當錯誤計數器達到臨界值時，地址會新增至隱藏清單。 深入了解[重試次數](configuration/retries.md)。
+* **軟退** <!--and temporary **ignored** errors--> 信不會立即將電子郵件地址傳送至隱藏清單，但會增加錯誤計數器。然後會執行數次[重試](configuration/retries.md)，當錯誤計數器達到臨界值時，地址會新增至隱藏清單。
 
-<!--You can also manually add an address to the suppression list. Manual category will be available when ability to manually add an address to the suppression list (via API) is released.-->
+* 您也可以手動&#x200B;[****&#x200B;將地址或域](configuration/manage-suppression-list.md#add-addresses-and-domains)添加到隱藏清單中。
+
+進一步了解[此區段](#delivery-failures)中的硬跳出和軟跳出。
 
 >[!NOTE]
 >
@@ -49,21 +51,27 @@ ht-degree: 4%
 
 <!--Once a message is sent, the message logs allow you to view the delivery status for each recipient and the associated failure type and reason. [Learn more about monitoring message execution](monitoring.md). NO ACCESS TO LOGS YET-->
 
-### 傳送失敗{#delivery-failures}
+>[!NOTE]
+>
+>狀態為&#x200B;**[!UICONTROL Suppressed]**&#x200B;的設定檔會在訊息傳送程式期間排除。 因此，雖然&#x200B;**歷程報表**&#x200B;會將這些設定檔顯示為已在歷程（[讀取區段](building-journeys/read-segment.md)和[訊息](building-journeys/journeys-message.md)活動）中移動，但&#x200B;**電子郵件報表**&#x200B;不會在電子郵件傳送前篩選掉的&#x200B;**[!UICONTROL Sent]**&#x200B;量度中納入這些設定檔。
+>
+>進一步了解[即時報表](reports/live-report.md)和[全域報表](reports/global-report.md)。 若要了解所有排除案例的原因，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html)。
 
-傳送失敗時有三種錯誤類型：
+### 傳送失敗 {#delivery-failures}
 
-* **硬跳**。硬退信表示電子郵件地址無效（即不存在的電子郵件地址）。 這包括從接收電子郵件伺服器傳回的退信，該退信明確指出地址無效，例如「未知的使用者」。
+傳送失敗時有兩種錯誤：
+
+* **硬跳**。硬退信表示電子郵件地址無效（即不存在的電子郵件地址）。 這包括從接收電子郵件伺服器傳回的退信，明確指出地址無效。
 * **軟跳出**。這是針對有效電子郵件地址而發生的臨時電子郵件退信。
-* **忽略**。這是針對有效電子郵件地址而發生但已知為臨時的電子郵件退信，例如連接嘗試失敗、與垃圾郵件相關的臨時問題（電子郵件信譽）或臨時技術問題。<!--does it exist in CJM?-->
+<!--* **Ignored**. This is an email bounce that occurred for a valid email address but is known to be temporary, such as a failed connection attempt, a temporary Spam-related issue (email reputation), or a temporary technical issue.-->
 
 **硬退信**&#x200B;會自動將電子郵件地址新增至隱藏清單。
 
-發生太多次的&#x200B;**軟跳出**&#x200B;或&#x200B;**ignored**&#x200B;錯誤，也會在多次重試後將電子郵件地址傳送至隱藏清單。 [重試時了解更多](configuration/retries.md)
+發生太多次的&#x200B;**軟跳出** <!--or an **ignored** error-->也會在多次重試後將電子郵件地址傳送至隱藏清單。 [重試時了解更多](configuration/retries.md)
 
 如果您繼續傳送至這些地址，可能會影響您的傳送率，因為它會告訴ISP您可能沒有遵循電子郵件地址清單維護最佳實務，因此可能不是值得信賴的寄件者。
 
-### 垃圾郵件投訴{#spam-complaints}
+### 垃圾郵件投訴 {#spam-complaints}
 
 隱藏清單會收集將訊息標示為垃圾訊息的電子郵件地址。 例如，如果某人寫信給客戶服務部門，要求您不再接收來自您的郵件，則該人的電子郵件地址在您的執行個體中會遭到隱藏，您將無法再傳送至該地址。
 
