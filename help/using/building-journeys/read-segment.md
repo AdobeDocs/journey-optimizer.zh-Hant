@@ -1,13 +1,13 @@
 ---
 title: 在歷程中使用區段
 description: 了解如何在歷程中使用區段
-feature: 歷程
-topic: 內容管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
+source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '997'
 ht-degree: 3%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >每個沙箱的整體節流速率設為每秒17,000則訊息。 因此，在同一沙箱中同時執行的所有讀取區段的限制速率每秒最多可達17,000則訊息。 不能修改此大寫。
+   >每個沙箱的整體節流速率設為每秒20,000條訊息。 因此，在同一沙箱中同時執行的所有讀取區段的限制速率每秒最多可達20,000則訊息。 不能修改此大寫。
 
 1. **[!UICONTROL Read Segment]**&#x200B;活動可讓您指定區段進入歷程的時間。 若要這麼做，請按一下&#x200B;**[!UICONTROL Edit journey schedule]**&#x200B;連結以存取歷程的屬性，然後設定&#x200B;**[!UICONTROL Scheduler type]**&#x200B;欄位。
 
