@@ -5,9 +5,9 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 2edb3535c50f83d18ce4d6429a6d76f44b694ac6
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Found this link in Experience Platform documentation, but may not be the final o
 
 ## 排除報表 {#reporting}
 
-在非生產沙箱上啟用此功能時，您可以擷取因不在允許清單中而從傳送中排除的電子郵件地址或網域。 若要這麼做，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html)進行下列API呼叫。
+在非生產沙箱上啟用此功能時，您可以擷取因不在允許清單中而從傳送中排除的電子郵件地址或網域。 若要這麼做，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}進行下列API呼叫。
 
 若要取得因收件者不在允許清單中而未傳送的&#x200B;**電子郵件數**，請使用下列查詢：
 
