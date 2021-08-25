@@ -5,9 +5,9 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ea2bb0c2956781138a0c7f2d0babfd91070dd351
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '699'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 2%
 >
 >狀態為&#x200B;**[!UICONTROL Suppressed]**&#x200B;的設定檔會在訊息傳送程式期間排除。 因此，雖然&#x200B;**歷程報表**&#x200B;會將這些設定檔顯示為已在歷程（[讀取區段](building-journeys/read-segment.md)和[訊息](building-journeys/journeys-message.md)活動）中移動，但&#x200B;**電子郵件報表**&#x200B;不會在電子郵件傳送前篩選掉的&#x200B;**[!UICONTROL Sent]**&#x200B;量度中納入這些設定檔。
 >
->進一步了解[即時報表](reports/live-report.md)和[全域報表](reports/global-report.md)。 若要了解所有排除案例的原因，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html)。
+>進一步了解[即時報表](reports/live-report.md)和[全域報表](reports/global-report.md)。 若要找出所有排除案例的原因，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}。
 
 ### 傳送失敗 {#delivery-failures}
 
