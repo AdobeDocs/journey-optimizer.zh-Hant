@@ -1,10 +1,10 @@
 ---
 title: 文件更新
 description: 瞭解最新的文件更新
-source-git-commit: a80f9675741aeefa51857cf9fd47c5e7441229cd
+source-git-commit: 7742f2eb199fe0fbb57fa95e22bb464f8cd5c663
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 14%
+source-wordcount: '425'
+ht-degree: 13%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 14%
 * 更新「監視」訊息預設集區段，其中包含可能的預設集建立失敗原因，以及這類錯誤的詳細資訊。 [閱讀全文](configuration/message-presets.md#monitor-message-presets)
 * 已更新並重新命名「重試時段」區段，以反映您現在可以調整訊息預設集中的電子郵件重試設定的事實。 [閱讀全文](configuration/retries.md#retry-duration)
 * 已新增新區段，說明如何將一鍵式選擇退出連結插入電子郵件內容。 [閱讀全文](message-tracking.md#one-click-opt-out-link)
+* 更新委派子網域區段，提供關於Adobe所執行驗證程式的詳細資訊。 [閱讀全文](configuration/delegate-subdomain.md#subdomain-validation)
+
 <!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
 
 
