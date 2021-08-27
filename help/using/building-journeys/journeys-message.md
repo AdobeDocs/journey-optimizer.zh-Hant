@@ -5,10 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
+source-git-commit: c1690e1d5db6b068a8611e88c88c8955de21b54f
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 2%
+source-wordcount: '775'
+ht-degree: 3%
 
 ---
 
@@ -105,5 +105,4 @@ Adobe Journey Optimizer的「傳送時間最佳化」功能採用Adobe的AI服�
 
 對於電子郵件訊息，請選取適當的選項按鈕，以選擇要最佳化電子郵件開啟次數還是電子郵件點進次數。 推送訊息預設為開啟選項，因為點按不適用於推送訊息。
 
-您也可以為&#x200B;**Send with enxt**&#x200B;選項輸入值，以括弧表示系統使用的傳送時間。 如果您選擇「6小時」作為值，[!DNL Journey Optimizer]會檢查每個使用者設定檔，以查看最佳傳送時間是否會在歷程執行時間後的6小時內發生，並選取「傳送時間最佳化」決定的時間。 如果該時間不在接下來的6小時內， [!DNL Journey Optimizer]預設會在歷程執行時傳送訊息。
-
+您也可以為&#x200B;**Send with enxt**&#x200B;選項輸入值，以括弧表示系統使用的傳送時間。 如果您選擇「6小時」作為值，[!DNL Journey Optimizer]會檢查每個使用者設定檔，並在歷程執行時間後的6小時內挑選最佳傳送時間。
