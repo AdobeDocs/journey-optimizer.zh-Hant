@@ -5,9 +5,9 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+source-git-commit: b2eedebb42f878cec0e7747e015693fad4667cff
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1211'
 ht-degree: 1%
 
 ---
@@ -148,9 +148,9 @@ ht-degree: 1%
 
 * **SPF驗證失敗**:SPF（發件人策略框架）是一種電子郵件驗證協定，它允許指定可從給定子域發送電子郵件的授權IP。SPF驗證失敗意味著SPF記錄中的IP地址與用於向郵箱提供程式發送電子郵件的IP地址不匹配。
 
-* **DKIM驗證失敗**:DKIM允許接收伺服器驗證接收的郵件是由關聯域的正版發送者發送的，並且原始郵件的內容在其過程中沒有更改。DKIM驗證失敗意味著接收郵件伺服器無法驗證郵件內容的真實性及其與發送域的關聯。
+* **DKIM驗證失敗**:DKIM(DomainKeys Indified Mail)允許接收伺服器驗證接收的郵件是由關聯域的正版發件人發送的，並且原始郵件的內容在其過程中沒有更改。DKIM驗證失敗意味著接收郵件伺服器無法驗證郵件內容的真實性及其與發送域的關聯。
 
-* **MX記錄驗證失敗**:MX記錄驗證失敗表示代表指定子網域接受傳入電子郵件的郵件伺服器未正確設定。
+* **MX記錄驗證失敗**:MX(Mail eXchange)記錄驗證失敗表示代表指定子網域接受入站電子郵件的郵件伺服器未正確設定。
 
 * **傳遞能力配置失敗**:傳遞能力配置可能會因下列原因而失敗：
    * 已分配IP的封鎖清單
