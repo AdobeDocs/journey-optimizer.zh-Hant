@@ -12,13 +12,13 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
-feature: 控制組
-topic: 管理
+feature: Control Groups
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 0c7ca9a87a55c04b977a29c6be446da143722e37
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -303,7 +303,7 @@ ht-degree: 0%
 
 ### 管理子網域委派權限 {#manage-subdomain}
 
-**[!UICONTROL Manage subdomains delegation]**&#x200B;高級權限允許用戶建立、編輯和刪除子域委派（包括IP池）。
+**[!UICONTROL Manage subdomains delegation]**&#x200B;高級權限允許用戶建立、編輯和刪除子域委託（包括IP池）。
 
 其中包含下列低階權限：
 
@@ -313,7 +313,9 @@ ht-degree: 0%
 
 ### 查看PTR記錄權限 {#view-ptr}
 
-**[!UICONTROL View PTR records]**&#x200B;高級權限允許用戶查看已基於子域配置的PTR記錄，並包括以下低級權限：
+**[!UICONTROL View PTR records]**&#x200B;高級權限允許用戶查看已基於子域配置的PTR記錄。
+
+其中包含下列低階權限：
 
 * PTR_records.read
 * subdomains_delegation_read
@@ -338,13 +340,12 @@ ht-degree: 0%
    * messages_general_settings.read
    * messages_general_settings.write
    * messages_general_settings.delete
-
 * Adobe Experience Platform特定：
    * schemas.read
 
 ### 檢視訊息一般設定權限 {#view-message-settings}
 
-**[!UICONTROL View messages general settings]**&#x200B;高級權限允許用戶查看消息常規設定，如隱藏規則或執行地址。
+**[!UICONTROL View messages general settings]**&#x200B;高級權限允許用戶查看消息的一般設定，如執行地址。
 
 其中包含下列低階權限：
 
@@ -378,19 +379,21 @@ ht-degree: 0%
 * IP_pools.read
 * mobile_setting.read(來自Adobe Experience Platform Launch)
 
-### 管理隱藏規則權限 {#manage-suppression-rules}
+### 管理隱藏權限 {#manage-suppression}
 
-**[!UICONTROL Manage suppression rules]**&#x200B;高階權限可讓使用者在將使用者的電子郵件地址新增至隱藏清單之前定義跳出數。
+**[!UICONTROL Manage suppression]**&#x200B;高級權限允許用戶在將電子郵件地址添加到隱藏清單之前定義跳出數，以及向隱藏清單添加和刪除條目。
 
 其中包含下列低階權限：
 
 * suppressing_rules.read
 * suppressing_rules.write
 * suppressing_rules.delete
+* suppressing_list.write
+* suppressing_list.delete
 
 ### 查看隱藏清單權限 {#view-suppresion-list}
 
-**[!UICONTROL View suppression list]**&#x200B;高級權限允許用戶查看包括消息預設集和一般消息設定在內的消息配置。
+**[!UICONTROL View suppression list]**&#x200B;高級權限允許用戶查看隱藏清單內容和設定。
 
 其中包含下列低階權限：
 
@@ -402,10 +405,12 @@ ht-degree: 0%
 
 ### 導出隱藏清單權限 {#export-suppression-list}
 
-**[!UICONTROL Export suppression list]**&#x200B;高級權限允許用戶配置消息配置，包括消息預設集和一般消息設定。
+**[!UICONTROL Export suppression list]**&#x200B;高級權限允許用戶以CSV檔案格式下載隱藏清單。
 
 其中包含下列低階權限：
 
+* Journey Optimizer特定：
+   * suppressing_list.export
 * Adobe Experience Platform特定：
    * profiles.read
    * datasets.read

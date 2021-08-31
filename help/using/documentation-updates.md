@@ -1,9 +1,9 @@
 ---
 title: 文件更新
 description: 瞭解最新的文件更新
-source-git-commit: 7742f2eb199fe0fbb57fa95e22bb464f8cd5c663
+source-git-commit: 61c6f63d8a61b3cdc0f08f7c9b2323cc4710eb88
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '455'
 ht-degree: 13%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 13%
 * 已更新並重新命名「重試時段」區段，以反映您現在可以調整訊息預設集中的電子郵件重試設定的事實。 [閱讀全文](configuration/retries.md#retry-duration)
 * 已新增新區段，說明如何將一鍵式選擇退出連結插入電子郵件內容。 [閱讀全文](message-tracking.md#one-click-opt-out-link)
 * 更新委派子網域區段，提供關於Adobe所執行驗證程式的詳細資訊。 [閱讀全文](configuration/delegate-subdomain.md#subdomain-validation)
-
-<!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+* 已新增區段，說明如何手動將電子郵件地址和網域新增至隱藏清單。 [閱讀全文](configuration/manage-suppression-list.md#add-addresses-and-domains)
+* 更新[存取隱藏清單](configuration/manage-suppression-list.md#access-suppression-list)區段和[重試](configuration/retries.md)區段，以反映新的使用者介面。
 
 
 ## 2021 年 7 月
@@ -44,9 +44,9 @@ ht-degree: 13%
 * 在鏡像頁面上新增子區段。 [閱讀全文](message-tracking.md#mirror-page)
 * 在檔案和畫面中，將「選件活動」重新命名為「決策」，將「決策」重新命名為「決策範圍」。 [閱讀全文](offers/get-started/starting-offer-decisioning.md)
 * 新使用案例：[使用協助程式函式個性化消息](personalization/personalization-use-case-helper-functions.md)
-* 已更新「讀取」段文檔，以反映實體化段的影響。 [閱讀全文](building-journeys/read-segment.md)
+* 更新讀取段文檔以反映實體化段影響。 [閱讀全文](building-journeys/read-segment.md)
 * 更新歷程限制。 [閱讀全文](building-journeys/limitations.md)
 * 更新「在決策中設定選件」區段。 [閱讀全文](offers/offer-activities/configure-offer-selection.md)
 * 新增警告，提及目前不支援事件型選件。 [閱讀全文](offers/offer-library/creating-personalized-offers.md#eligibility)
-* 記錄了新的[!UICONTROL Overview]決策管理頁簽。 [閱讀全文](offers/get-started/user-interface.md#overview)
-* 已新增新章節，說明選件和決策清單中可用的動作：[選件清單](offers/offer-library/creating-personalized-offers.md#offer-list)和[決策清單](offers/offer-activities/create-offer-activities.md#decision-list)。
+* 記錄了「決策管理」新的&#x200B;**[!UICONTROL Overview]**&#x200B;頁簽。 [閱讀全文](offers/get-started/user-interface.md#overview)
+* 新增章節，說明優惠方案和決策清單中可用的動作：[選件清單](offers/offer-library/creating-personalized-offers.md#offer-list)和[決策清單](offers/offer-activities/create-offer-activities.md#decision-list)。
