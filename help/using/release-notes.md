@@ -2,7 +2,7 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
+source-git-commit: 3ca2d7a8a3a55cd7caad86d72a2ac2fa9f5b315c
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 11%
@@ -142,7 +142,7 @@ ht-degree: 11%
 
 **個人化**
 
-* **運算式編輯器**  — 您現在可以在定義個人化時輕鬆新增回傳值：當設定檔的個人化欄位空白時，將顯示回傳值。[了解更多](personalization/functions/helper.md)
+* **運算式編輯器**  — 您現在可以在定義個人化時輕鬆新增回傳值：當設定檔的個人化欄位空白時，將顯示回傳值。[了解更多](personalization/functions/helpers.md)
 
 **電子郵件設定**
 
