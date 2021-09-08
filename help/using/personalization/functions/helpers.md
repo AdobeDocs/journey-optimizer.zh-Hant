@@ -1,19 +1,31 @@
 ---
 title: 輔助程式
 description: 輔助程式
-feature: 個性化
-topic: 個性化
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
+exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
+source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 5%
+source-wordcount: '372'
+ht-degree: 4%
 
 ---
 
-
 # 輔助程式 {#gs-helpers}
+
+## 預設後援值{#default-value}
+
+如果屬性為空或null，則使用`Default Fallback Value`幫助程式返回預設的回退值。 此機制適用於設定檔屬性和歷程事件。
+
+**語法**
+
+```sql
+Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
+```
+
+在此示例中，如果此配置檔案的`firstName`屬性為空或空，則顯示值`there`。
 
 ## 條件{#if-function}
 

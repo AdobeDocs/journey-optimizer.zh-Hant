@@ -1,13 +1,13 @@
 ---
 title: 發行說明
 description: Journey Optimizer 發行說明
-source-git-commit: 1c299ec022a3985c2e9b164bc57d36948f0941d5
+exl-id: 06fa956a-b500-416e-9d42-b683c328e837
+source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1071'
 ht-degree: 11%
 
 ---
-
 
 # 發行說明 {#release-notes}
 
@@ -140,9 +140,9 @@ ht-degree: 11%
 * **背景**  — 現在即時預覽支援背景影像。[了解更多](preview.md)
 * **一鍵式選擇退出連結**  — 您可以在電子郵件內容中插入新類型的連結：「選 **擇退** 出」連結可讓使用者只要按一下，就能取消訂閱收到您的通訊內容，而不需重新導向至登陸頁面以確認選擇退出。[了解更多](message-tracking.md#one-click-opt-out-link)
 
-<!--**Personalization**
+**個人化**
 
-* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
+* **運算式編輯器**  — 您現在可以在定義個人化時輕鬆新增回傳值：當設定檔的個人化欄位空白時，將顯示回傳值。[了解更多](personalization/functions/helper.md)
 
 **電子郵件設定**
 
@@ -225,4 +225,3 @@ ht-degree: 11%
 * 現已實作運算式編輯器中選件邊欄的本地化。
 * 修正資訊快顯視窗中的錯誤間距。
 * 修正了上傳HTML檔案時，不支援具有`background-image`屬性的內部樣式表時，電子郵件設計工具中的問題。
-
