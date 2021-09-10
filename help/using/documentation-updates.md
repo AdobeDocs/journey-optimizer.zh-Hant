@@ -1,13 +1,13 @@
 ---
 title: 文件更新
 description: 瞭解最新的文件更新
-source-git-commit: 61c6f63d8a61b3cdc0f08f7c9b2323cc4710eb88
+exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
+source-git-commit: 04945572fc027fd063a1f52638205f39086767cf
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 13%
+source-wordcount: '472'
+ht-degree: 17%
 
 ---
-
 
 # 本檔案的最新更新
 
@@ -18,7 +18,7 @@ ht-degree: 13%
 * 本檔案中詳細說明了』21年8月[!DNL Journey Optimizer]版本的所有新功能和改善。 [閱讀全文](release-notes.md)
 * 更新決策管理權限。 [閱讀全文](administration/ootb-product-profiles.md)
 * 使用最新UI更新電子郵件設計工具的螢幕擷取畫面。
-* 更新具有動態URL路徑和動態標題之自訂動作的設定程式。 [閱讀全文](action/about-custom-action-configuration.md#url-configuration)
+* 更新具有動態 URL 路徑和動態標題之自訂動作的設定程式。 [閱讀全文](action/about-custom-action-configuration.md#url-configuration)
 * 新增協助工具功能和捷徑的相關章節。 [閱讀全文](user-interface.md#accessibility)
 * 新增區段評估方法的相關章節。 [閱讀全文](segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * 在「隱藏」清單、「允許」清單和「電子郵件全域/即時」報表區段中新增附註，以指定狀態為「隱藏」和「不允許」的設定檔會從「電子郵件報表傳送」量度中排除。 [閱讀全文](reports/email-global-report.md)
@@ -30,6 +30,7 @@ ht-degree: 13%
 * 更新委派子網域區段，提供關於Adobe所執行驗證程式的詳細資訊。 [閱讀全文](configuration/delegate-subdomain.md#subdomain-validation)
 * 已新增區段，說明如何手動將電子郵件地址和網域新增至隱藏清單。 [閱讀全文](configuration/manage-suppression-list.md#add-addresses-and-domains)
 * 更新[存取隱藏清單](configuration/manage-suppression-list.md#access-suppression-list)區段和[重試](configuration/retries.md)區段，以反映新的使用者介面。
+* 建立優惠方案時新增及設定表示法的新流程已記錄下來。 [閱讀全文](offers/offer-library/creating-personalized-offers.md#representations)
 
 
 ## 2021 年 7 月

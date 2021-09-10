@@ -2,9 +2,9 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3ca2d7a8a3a55cd7caad86d72a2ac2fa9f5b315c
+source-git-commit: 740d76fccf966d027c63ddc72241d91cb6c8928b
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1110'
 ht-degree: 11%
 
 ---
@@ -148,7 +148,10 @@ ht-degree: 11%
 
 * **允許清單**  — 現在可以透過API呼叫，在非生產沙箱上啟用和停用允許清單。[了解更多](allow-list.md#enable-allow-list)
 * **導航**  — 可在「管理」>「通道」>「電子郵件配置」>「一般」 **菜單下訪問的隱藏清單已移至新的「隱藏清單」子菜單，該子菜單** 將收集 **** 所有相關功能，以便更方便地訪問。[了解更多](configuration/manage-suppression-list.md#access-suppression-list)
-<!--* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+
+**決定管理**
+
+* 建立優惠方案時新增和設定表示法的方式已更新，以改善使用者體驗。 尤其是，現在只有當您定義表示的影像類型內容時，才會顯示資產資料庫。 [了解更多](offers/offer-library/creating-personalized-offers.md#representations)
 
 ### 修正
 
