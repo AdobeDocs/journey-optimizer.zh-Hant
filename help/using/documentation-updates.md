@@ -2,7 +2,7 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 04945572fc027fd063a1f52638205f39086767cf
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 17%
@@ -46,7 +46,7 @@ ht-degree: 17%
 * 在檔案和畫面中，將「選件活動」重新命名為「決策」，將「決策」重新命名為「決策範圍」。 [閱讀全文](offers/get-started/starting-offer-decisioning.md)
 * 新使用案例：[使用協助程式函式個性化消息](personalization/personalization-use-case-helper-functions.md)
 * 更新讀取段文檔以反映實體化段影響。 [閱讀全文](building-journeys/read-segment.md)
-* 更新歷程限制。 [閱讀全文](building-journeys/limitations.md)
+* 更新歷程限制。 [閱讀全文](limitations.md)
 * 更新「在決策中設定選件」區段。 [閱讀全文](offers/offer-activities/configure-offer-selection.md)
 * 新增警告，提及目前不支援事件型選件。 [閱讀全文](offers/offer-library/creating-personalized-offers.md#eligibility)
 * 記錄了「決策管理」新的&#x200B;**[!UICONTROL Overview]**&#x200B;頁簽。 [閱讀全文](offers/get-started/user-interface.md#overview)

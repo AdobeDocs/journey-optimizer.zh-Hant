@@ -5,10 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
+exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 68%
+source-wordcount: '1459'
+ht-degree: 66%
 
 ---
 
@@ -22,7 +23,7 @@ ht-degree: 68%
 >
 >* 本文件將經常更新，以反應此產品使用者介面的最新變更。不過，有些螢幕擷取畫面可能會與使用者介面稍有不同。
 >
-> * UI 中可用元件和功能取決於您的權限和授權套件。 如有任何問題，請聯絡您的 Adobe 客戶成功經理。
+>* 使用者介面中可用的元件和功能取決於您的[權限](administration/permissions.md)和您的[授權套件](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}。 如有任何問題，請聯絡您的 Adobe 客戶成功經理。
 
 
 ## 左側導覽
@@ -110,7 +111,7 @@ ht-degree: 68%
 
 ## 協助工具{#accessibility}
 
-Adobe Journey Optimizer中的協助工具功能由Adobe Experience Platform提供：
+[!DNL Adobe Journey Optimizer]中的協助工具功能繼承自Adobe Experience Platform:
 
 * 鍵盤協助工具
 * 顏色對比
@@ -118,7 +119,7 @@ Adobe Journey Optimizer中的協助工具功能由Adobe Experience Platform提�
 
 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;}在Adobe Experience Platform檔案中。
 
-您可以在Adobe Journey Optimizer中使用下列通用鍵盤快速鍵：
+在[!DNL Journey Optimizer]中，可以使用以下常用鍵盤快捷鍵：
 
 | 動作 | 快速鍵 |
 | --- | --- |

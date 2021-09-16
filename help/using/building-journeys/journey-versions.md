@@ -2,19 +2,20 @@
 title: 歷程版本
 description: 了解歷程版本
 feature: Journeys
-topic: 內容管理
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 4%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
 # 歷程版本{#concept_ldc_k55_zgb}
 
-在歷程清單中，所有歷程版本都會以版本號碼顯示。 請參閱[本頁](../building-journeys/using-the-journey-designer.md)。
+在歷程清單中，所有歷程版本都會以版本號碼顯示。 請參閱[此頁面](../building-journeys/using-the-journey-designer.md)。
 
 當您搜尋歷程時，最新版本會在首次開啟應用程式時出現在清單頂端。 然後，您可以定義所要的排序，而應用程式會將其保留為使用者偏好設定。 歷程的版本也會顯示在歷程版本介面的頂端、畫布上方。
 
@@ -24,7 +25,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->若要深入了解歷程版本限制，請參閱[本頁面](../building-journeys/limitations.md#journey-versions-limitations)
+>若要深入了解歷程版本限制，請參閱[本頁面](../limitations.md#journey-versions-limitations)
 
 1. 開啟最新版的即時歷程，按一下&#x200B;**[!UICONTROL Create a new version]**&#x200B;並確認。
 

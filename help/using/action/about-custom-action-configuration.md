@@ -6,7 +6,8 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: c62048e0fb7e5de2e7cdf8bc6ae17d62ef04d35c
+exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 6%
@@ -16,7 +17,7 @@ ht-degree: 6%
 # 設定動作 {#configure-an-action}
 
 如果您使用協力廠商系統來傳送訊息，或您想要歷程將API呼叫傳送至協力廠商系統，您可以在此設定其與歷程的連線。 接著，技術使用者定義的自訂動作便可在您歷程的左側浮動視窗中取得，位於&#x200B;**[!UICONTROL Action]**&#x200B;類別中（請參閱[此頁面](../building-journeys/about-journey-activities.md#action-activities)）。 以下是一些您可透過自訂動作連線至的系統範例：Epsilon、Facebook、Adobe.io、Firebase等
-[此頁面](../building-journeys/limitations.md)列出限制。
+[此頁面](../limitations.md)列出限制。
 
 以下是設定自訂動作所需的主要步驟：
 
@@ -55,7 +56,7 @@ ht-degree: 6%
 
    * 如果URL包含動態路徑，則僅輸入URL的靜態部分，即配置、主機、埠，以及路徑的靜態部分（可選）。
 
-      範例：`https://xxx.yyy.com:8080/somethingstatic/`
+      範例: `https://xxx.yyy.com:8080/somethingstatic/`
 
       將自訂動作新增至歷程時，您會指定URL的動態路徑。 [了解更多](../building-journeys/using-custom-actions.md)。
    >[!NOTE]
