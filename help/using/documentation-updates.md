@@ -2,16 +2,21 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 17%
+source-wordcount: '492'
+ht-degree: 18%
 
 ---
 
 # 本檔案的最新更新
 
 本頁面列出 [!DNL Journey Optimizer] 的所有文件更新。
+
+## 2021 年 9 月
+
+* 新增新的&#x200B;**限制**&#x200B;頁面。 [閱讀全文](limitations.md)
+* 改善包含不同角色步驟的&#x200B;**快速入門**&#x200B;頁面。 [閱讀全文](quick-start.md)
 
 ## 2021 年 8 月
 

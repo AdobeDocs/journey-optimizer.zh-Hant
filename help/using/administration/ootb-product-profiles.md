@@ -1,24 +1,13 @@
 ---
 title: 內建的產品設定檔
 description: 了解內建的產品設定檔
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
-exl-id: null
-feature: 控制組
-topic: 管理
+feature: Control Groups
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 4037e90926a19175c1508b78faf2c9167c682458
+source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '949'
 ht-degree: 8%
 
 ---
