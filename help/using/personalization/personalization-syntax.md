@@ -147,7 +147,7 @@ Handlebars幫手是簡單的標識符，後面可能有參數。
 
 Journey Orchestration可讓您透過新增個人化欄位，個人化訊息中的一或多個URL。 執行方法：
 
-* 在您的電子郵件或推播內容中建立連結。 若要深入了解建立連結的相關資訊，請參閱[此頁面](../message-tracking#insert-links))。
+* 在您的電子郵件或推播內容中建立連結。 若要深入了解建立連結的相關資訊，請參閱[此頁面](../message-tracking.md#insert-links))。
 * 按一下個人化圖示。 此圖示適用於下列特定類型的連結：**外部連結**、**取消訂閱連結**&#x200B;和&#x200B;**選擇退出**。
 
 ![](assets/perso-url.png)
