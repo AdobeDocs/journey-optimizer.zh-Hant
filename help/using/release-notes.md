@@ -2,9 +2,9 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 740d76fccf966d027c63ddc72241d91cb6c8928b
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1171'
 ht-degree: 11%
 
 ---
@@ -52,23 +52,23 @@ ht-degree: 11%
 </tbody>
 </table>
 
-<!--
+
 <table>
 <thead>
 <tr>
-<th><strong>Personalized URLs</strong><br/></th>
+<th><strong>個人化URL</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Personalized URLs take recipients to specific pages of a website, or to a personalized microsite, depending on the profile attributes. In Adobe Journey Optimizer, you can now add personalization to URLs in your message content. URL personalization can be applied to text and images, and use profile data or contextual data.</p>
-<p>For more information, refer to the <a href="documentation-updates.md">detailed documentation</a>.</p>
+<p>個人化URL會根據設定檔屬性，將收件者帶往網站的特定頁面或個人化微網站。 在Adobe Journey Optimizer中，您現在可以將個人化新增至訊息內容中的URL。 URL個人化可套用至文字和影像，以及使用設定檔資料或內容資料。</p>
+<p>如需詳細資訊，請參閱<a href="personalization/personalization-syntax.md#perso-urls">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
+
 
 <table>
 <thead>

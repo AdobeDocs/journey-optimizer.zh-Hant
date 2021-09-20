@@ -1,17 +1,17 @@
 ---
 title: 個人化語法
 description: 了解如何使用個人化語法
-feature: 個性化
-topic: 個性化
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '648'
 ht-degree: 4%
 
 ---
-
 
 # 個人化語法 {#personalization-syntax}
 
@@ -76,7 +76,6 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 >[!NOTE]
 >若要進一步了解分段和分段服務，請參閱[本區段](../segment/about-segments.md)。
 
-
 ## 優惠
 
 此命名空間可讓您參考現有的選件決策。
@@ -129,7 +128,6 @@ Handlebars幫手是簡單的標識符，後面可能有參數。
 >
 >[本節](functions/helpers.md)中詳細說明了幫助程式函式。
 
-
 ## 常值類型
 
 [!DNL Adobe Journey Optimizer] 支援下列常值類型：
@@ -144,3 +142,24 @@ Handlebars幫手是簡單的標識符，後面可能有參數。
 >[!CAUTION]
 >
 >個人化運算式中無法使用&#x200B;**xEvent**&#x200B;變數。 任何對xEvent的參考都會導致驗證失敗。
+
+## URL個人化{#perso-urls}
+
+Journey Orchestration可讓您透過新增個人化欄位，個人化訊息中的一或多個URL。 執行方法：
+
+* 在您的電子郵件或推播內容中建立連結。 若要深入了解建立連結的相關資訊，請參閱[此頁面](../message-tracking#insert-links))。
+* 按一下個人化圖示。 此圖示適用於下列特定類型的連結：**外部連結**、**取消訂閱連結**&#x200B;和&#x200B;**選擇退出**。
+
+![](assets/perso-url.png)
+
+>[!NOTE]
+>&#39;
+>在運算式編輯器中，當您編輯個人化URL時，會基於安全原因停用協助程式函式和區段成員資格。
+
+**個人化URL範例**
+
+* `https://www.adobe.com/users/{{profile.person.name.lastName}}`
+* `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
+* `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
+* `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
+
