@@ -1,14 +1,15 @@
 ---
 title: 設定單一事件
 description: 了解如何設定單一事件
-feature: 事件
-topic: 管理
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
+source-git-commit: b219f900d8349c46c01a0dd3110e441694e47b5f
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 13%
+source-wordcount: '1703'
+ht-degree: 14%
 
 ---
 
@@ -59,7 +60,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >定義&#x200B;**[!UICONTROL Event ID condition]**&#x200B;時，進階運算式編輯器無法使用。
+   >定義&#x200B;**[!UICONTROL Event ID condition]**&#x200B;時，進階運算式編輯器無法使用。 在簡單運算式編輯器中，並非所有運算子都可用，它們取決於資料類型。 例如，對於欄位的字串類型，您可以使用「包含」或「等於」。
 
 1. 新增命名空間。此步驟為選填，但建議您新增命名空間，以便運用儲存在「即時客戶個人檔案服務」的資訊。它會定義事件具備的金鑰類型。請參閱[本節](../event/about-creating.md#select-the-namespace)。
 1. 定義設定檔識別碼：從您的裝載欄位中選擇欄位，或定義公式以識別與事件相關聯的人員。 如果您選取命名空間，系統便會自動設定此金鑰（但您仍可加以編輯）。事實上，歷程會挑選應該與命名空間對應的金鑰（例如，如果您選取電子郵件命名空間，系統便會選取電子郵件金鑰）。 請參閱[本節](../event/about-creating.md#define-the-event-key)。
@@ -101,9 +102,9 @@ ht-degree: 13%
 
 ## 選取命名空間 {#select-the-namespace}
 
-命名空間可讓您定義用於識別與事件相關聯之人員的索引鍵類型。 其設定為選用。 如果您想在歷程中擷取來自[即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}的其他資訊，則此為必要項目。 如果您只使用來自協力廠商系統的資料（透過自訂資料來源），則不需要命名空間定義。
+命名空間可讓您定義用於識別與事件相關聯之人員的索引鍵類型。 其設定為選用。 如果您想在歷程中擷取來自[即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}的其他資訊，則此為必要項目。 如果您只使用來自協力廠商系統的資料（透過自訂資料來源），則不需要命名空間定義。
 
-您可以使用其中一個預先定義的命名空間，或使用身分命名空間服務建立新的一個。 請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target=&quot;_blank&quot;}。
+您可以使用其中一個預先定義的命名空間，或使用身分命名空間服務建立新的一個。 請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 如果選擇具有主要身份的架構，則預填&#x200B;**[!UICONTROL Profiler identifier]**&#x200B;和&#x200B;**[!UICONTROL Namespace]**&#x200B;欄位。 如果沒有定義標識，則選擇&#x200B;_identityMap > id_&#x200B;作為主鍵。 然後，您必須選取命名空間，並使用&#x200B;_identityMap > id_&#x200B;預先填入索引鍵（在&#x200B;**[!UICONTROL Namespace]**&#x200B;欄位下方）。
 

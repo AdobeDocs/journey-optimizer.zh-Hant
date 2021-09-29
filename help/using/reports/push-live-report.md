@@ -1,14 +1,15 @@
 ---
 title: 推播通知即時報表
 description: 了解如何使用推播通知即時報表中的資料
-feature: 報告
-topic: 內容管理
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
+exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
+source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 2%
+source-wordcount: '336'
+ht-degree: 0%
 
 ---
 
@@ -39,6 +40,22 @@ ht-degree: 2%
 * **[!UICONTROL Actions]**:已傳送推播通知的動作總數，例如按鈕點擊或解除。
 
 * **[!UICONTROL Engagements]**:此推播通知的開啟次數和動作總數，亦即設定檔開啟了推播或按了按鈕。
+
+**[!UICONTROL Sending metrics - by push]**&#x200B;表詳細說明了傳送的成功：
+
+* **[!UICONTROL Targeted]**:符合此傳送目標設定檔資格的使用者設定檔數目。
+
+* **[!UICONTROL Excluded]**:未接收訊息的使用者設定檔數目，已從目標設定檔中排除。
+
+* **[!UICONTROL Sent]**:傳送的傳送總數。
+
+* **[!UICONTROL Delivered]**:已成功傳送的訊息數，與已傳送的訊息總數相關。
+
+* **[!UICONTROL Bounces]**:傳送和自動回傳處理期間累積的錯誤總數，與已傳送訊息的總數相關。
+
+* **[!UICONTROL Errors]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
+
+* **[!UICONTROL Opens]**:傳送中開啟訊息的次數。
 
 ![](../assets/live_report_4.png)
 

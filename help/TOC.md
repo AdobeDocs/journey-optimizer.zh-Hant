@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 95%
+source-wordcount: '710'
+ht-degree: 94%
 
 ---
 
@@ -96,6 +96,7 @@ ht-degree: 95%
    + 使用實例 {#journey-use-cases}
       + [傳送多頻道訊息](using/building-journeys/journeys-uc.md)
       + [使用 Campaign v7/v8 傳送訊息](using/building-journeys/campaign-classic-use-case.md)
+      + [使用自訂動作以動態方式傳遞集合](using/building-journeys/collections.md)
 + 追蹤和監視 {#reporting}
    + [訊息監視](using/message-monitoring.md)
    + 即時報告 {#live-report}
@@ -115,6 +116,7 @@ ht-degree: 95%
       + [動作執行欄位](using/reports/sharing-execution-fields.md)
       + [資料擷取欄位](using/reports/sharing-fetch-fields.md)
       + [身分欄位](using/reports/sharing-identity-fields.md)
+      + [查詢範例](using/reports/query-examples.md)
    + 傳遞能力 {#deliverability}
       + [開始使用傳遞能力](using/deliverability.md)
       + [隱藏清單](using/suppression-list.md)
@@ -130,6 +132,7 @@ ht-degree: 95%
       + [建立決定規則](using/offers/offer-library/creating-decision-rules.md)
       + [建立標籤](using/offers/offer-library/creating-tags.md)
       + [建立排名公式](using/offers/offer-library/create-ranking-formulas.md)
+      + [建立排名策略](using/offers/offer-library/create-ranking-strategies.md)
    + 建立和管理優惠 {#managing-offers-in-the-offer-library}
       + [建立個人化優惠](using/offers/offer-library/creating-personalized-offers.md)
       + [建立遞補優惠](using/offers/offer-library/creating-fallback-offers.md)

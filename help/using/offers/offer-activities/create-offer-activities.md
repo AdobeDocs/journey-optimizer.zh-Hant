@@ -1,14 +1,15 @@
 ---
 title: 建立決定
 description: 了解如何建立決策
-feature: 優惠
-topic: 整合
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
+exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
+source-git-commit: 89e0223ebbf5015b61b55da693e0c6401307ce9f
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 3%
+source-wordcount: '1015'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 3%
 
 ➡️ [在影片中探索此功能](#video)
 
-可在&#x200B;**[!UICONTROL Offers]**&#x200B;功能表/ **[!UICONTROL Decisions]**&#x200B;標籤中存取決策清單。 篩選器可協助您根據狀態或開始和結束日期擷取決策。
+可在&#x200B;**[!UICONTROL Offers]**&#x200B;功能表> **[!UICONTROL Decisions]**&#x200B;標籤中存取決策清單。 篩選器可協助您根據狀態或開始和結束日期擷取決策。
 
 ![](../../assets/activities-list.png)
 
@@ -33,7 +34,9 @@ ht-degree: 3%
 
 1. 訪問決策清單，然後按一下&#x200B;**[!UICONTROL Create decision]**。
 
-1. 指定決策的名稱及其開始和結束日期和時間，然後按一下&#x200B;**[!UICONTROL Next]**。
+1. 指定決策的名稱。
+
+1. 定義開始和結束日期和時間，然後按一下&#x200B;**[!UICONTROL Next]**。
 
    ![](../../assets/activities-name.png)
 
@@ -51,29 +54,53 @@ ht-degree: 3%
 
    ![](../../assets/activities-collection.png)
 
-1. 選取的優惠方案會新增至版位。 在此範例中，我們選取了兩個優惠方案，這些優惠方案將顯示在JSON類型的版位中，以將優惠方案呈現在客服中心解決方案中。
+1. 選取的優惠方案會新增至版位。
+
+   在此範例中，我們選取了兩個優惠方案，這些優惠方案將顯示在JSON類型的版位中，以將優惠方案呈現在客服中心解決方案中。
 
    ![](../../assets/offers-added.png)
 
 1. 依預設，如果多個優惠方案符合此版位的資格，則優先順序分數最高的優惠方案會傳送給客戶。
 
-   如果您想使用特定公式來選擇要傳送的合格優惠方案，請從&#x200B;**[!UICONTROL Rank offers by]**&#x200B;下拉式清單中選取排名公式。 如需詳細資訊，請參閱[本章節](../offer-activities/configure-offer-selection.md)。
+   如果您想使用特定公式或排名策略來選擇要傳送的合格優惠方案，請從&#x200B;**[!UICONTROL Rank offers by]**&#x200B;下拉式清單中選取排名公式。 如需詳細資訊，請參閱[本章節](../offer-activities/configure-offer-selection.md)。
 
-1. **[!UICONTROL Constraint]**&#x200B;欄位會限制為此版位選取優惠方案。 您可以使用決策規則或一或多個Adobe Experience Platform區段來套用此限制。
+1. **[!UICONTROL Constraint]**&#x200B;欄位會限制為此版位選取優惠方案。 可使用&#x200B;**決策規則**&#x200B;或一或多個&#x200B;**Adobe Experience Platform區段**&#x200B;套用此限制。 在[本節](#segments-vs-decision-rules)中詳細介紹了這兩個選項。
 
-   若要將選件的選取限制在Adobe Experience Platform區段的成員，請選取&#x200B;**[!UICONTROL Segments]**，然後按一下&#x200B;**[!UICONTROL Add segments]**。
+   * 若要將選件的選取限制在Adobe Experience Platform區段的成員，請選取&#x200B;**[!UICONTROL Segments]**，然後按一下&#x200B;**[!UICONTROL Add segments]**。
 
-   ![](../../assets/activity_constraint_segment.png)
+      ![](../../assets/activity_constraint_segment.png)
 
-   從左窗格新增一或多個區段，使用&#x200B;**[!UICONTROL And]** / **[!UICONTROL Or]**&#x200B;邏輯運算子加以結合，然後按一下&#x200B;**[!UICONTROL Select]**&#x200B;以確認。
+      從左窗格新增一或多個區段，使用&#x200B;**[!UICONTROL And]** / **[!UICONTROL Or]**&#x200B;邏輯運算子加以結合，然後按一下&#x200B;**[!UICONTROL Select]**&#x200B;以確認。
 
-   如需如何使用區段的詳細資訊，請參閱[本頁面](../../segment/about-segments.md)。
+      ![](../../assets/activity_constraint_segment2.png)
 
-   ![](../../assets/activity_constraint_segment2.png)
+      進一步了解如何在[此區段](../../segment/about-segments.md)中使用區段。
 
-   如果要使用決策規則為此位置添加選擇約束，請選擇&#x200B;**[!UICONTROL Decision rule]**&#x200B;選項，然後從左窗格將所需規則拖到&#x200B;**[!UICONTROL Decision rule]**&#x200B;區域。 有關如何建立決策規則的詳細資訊，請參閱[此區段](../offer-library/creating-decision-rules.md)。
+   * 如果要使用決策規則為此位置添加選擇約束，請選擇&#x200B;**[!UICONTROL Decision rule]**&#x200B;選項，然後從左窗格將所需規則拖到&#x200B;**[!UICONTROL Decision rule]**&#x200B;區域。
 
-   ![](../../assets/activity_constraint_rule.png)
+      ![](../../assets/activity_constraint_rule.png)
+
+      進一步了解如何在[此小節](../offer-library/creating-decision-rules.md)中建立決策規則。
+
+### 使用區段與決策規則 {#segments-vs-decision-rules}
+
+<!--to move to create-offers?-->
+
+若要套用限制，您可以將選件的選取限制在一或多個&#x200B;**Adobe Experience Platform區段**&#x200B;的成員，或者，您可以使用&#x200B;**決策規則**，這兩個解決方案對應於不同的使用方式。
+
+基本上，區段的輸出是設定檔清單，而決策規則則是決策過程中針對單一設定檔依需求執行的函式。 以下詳細說明這兩種用法之間的差異。
+
+* **區段**
+
+   一方面，區段是一組Adobe Experience Platform設定檔，會根據設定檔屬性和體驗事件來比對特定邏輯。 不過，Offer Management不會重新計算區段，這在呈現優惠方案時可能不會是最新的。
+
+   進一步了解[此區段](../../segment/about-segments.md)中的區段。
+
+* **決定規則**
+
+   另一方面，決策規則是以Adobe Experience Platform中可用的資料為基礎，並決定可向誰顯示優惠方案。 在優惠方案中選取或針對指定版位的決策後，每次做出決策時，都會執行規則，以確保每個設定檔都能取得最新和最佳的優惠方案。
+
+   深入了解[本小節](../offer-library/creating-decision-rules.md)中的決策規則。
 
 ## 新增回退優惠方案 {#add-fallback}
 
@@ -97,7 +124,7 @@ ht-degree: 3%
 
 現在，它已準備好用於提供優惠方案給客戶。
 
-## 決策清單 {#decision-list}
+## 決定清單 {#decision-list}
 
 從決策清單中，您可以選取要顯示其屬性的決策。 您也可以從該處編輯它，變更其狀態(**Draft**、**Live**、**Complete**、**Archived**)、複製決定或刪除它。
 

@@ -1,13 +1,14 @@
 ---
 title: 監視消息執行
 description: 了解監控准則
-feature: 監控
-topic: 內容管理
+feature: Monitoring
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
+source-git-commit: fa808a6d95468c40b9fbafb4cc8cc1cd74b1d00a
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -67,7 +68,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Start date]**:從歷程執行訊息的日期和時間。
 
-   <!--Targeted: Number of targeted profiles for each message execution. To come?-->
+* **[!UICONTROL Targeted]**:每個訊息執行的目標設定檔數。
 
 * **[!UICONTROL Excluded]**:因排除規則而從初始目標中排除的設定檔數。
 

@@ -2,12 +2,13 @@
 title: 設計您的歷程
 description: 了解如何設計您的歷程
 feature: Journeys
-topic: 內容管理
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: da31b4faf476d090a3a45b8c14701c4addd1a02a
+exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
+source-git-commit: e9da4ec95a82d53e6fcf2cb99fb6215b0c325f08
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1417'
 ht-degree: 1%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 1%
 
 * **僅顯示最近的項目**:除了現成可用的事件和動作外，此篩選器還可讓您只顯示最近5個使用的事件和動作。這是每個使用者專屬的。 依預設，會顯示所有項目。
 
-您也可以使用&#x200B;**[!UICONTROL Search]**&#x200B;欄位。
+您也可以使用&#x200B;**[!UICONTROL Search]**&#x200B;欄位。 系統只會篩選事件和動作。
 
 **canvas**&#x200B;是歷程設計器中的中央區域。 您可以在此區域中放置活動並加以設定。 按一下畫布中的活動以進行設定。 這會開啟右側的活動設定窗格。
 
@@ -98,11 +99,11 @@ ht-degree: 1%
 
 ![](../assets/canvas-disconnected.png)
 
-## 複製和貼上活動{#copy-paste}
+## 複製和貼上活動 {#copy-paste}
 
 您可以複製歷程的一或多個活動，並貼到相同歷程或不同歷程中。 如果您想要重複使用先前歷程中已設定的許多活動，這可讓您節省時間。
 
-**重要附註**
+**重要備註**
 
 * 您可以在不同標籤和瀏覽器之間複製/貼上。 您只能複製/貼上相同例項內的活動。
 * 如果目的地歷程的事件使用不同的命名空間，則無法複製/貼上事件。
@@ -117,7 +118,7 @@ ht-degree: 1%
 1. 按一下時移動滑鼠，以選取您要複製的活動。 按&#x200B;**Ctrl/Command**&#x200B;鍵時，您也可以按一下每個活動。 如果要選取所有活動，請使用&#x200B;**Ctrl/Command + A**。
    ![](../assets/copy-paste1.png)
 1. 按&#x200B;**Ctrl/Command + C**鍵。
-如果您只想複製一個活動，可以按一下該活動，然後使用活動設定窗格左上角的**複製**圖示。
+如果您只想複製一個活動，可以按一下該活動，然後使用活動配置窗格左上角的**Copy**圖示。
    ![](../assets/copy-paste2.png)
 1. 在任何歷程中，按&#x200B;**Ctrl/Command + V**&#x200B;以貼上活動，而不需將其連結至現有節點。 貼上的活動會以相同順序放置。 貼上後，活動會保持選取狀態，以便您輕鬆移動活動。 您也可以將游標置於空的放置器上，然後按一下&#x200B;**Ctrl/Command + V**。 貼上的活動會連結至節點。
    ![](../assets/copy-paste3.png)

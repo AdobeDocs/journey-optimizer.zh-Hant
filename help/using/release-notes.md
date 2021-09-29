@@ -2,10 +2,10 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
+source-git-commit: 8f9c7ef2388624432a1601da0ce9502b3e68b58b
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 11%
+source-wordcount: '1490'
+ht-degree: 19%
 
 ---
 
@@ -14,7 +14,79 @@ ht-degree: 11%
 本頁面列出[!DNL Journey Optimizer]的所有新功能和改善項目。您也可以參閱最新的[文件更新](documentation-updates.md)。
 
 
-## 2021 年 8 月發行 {#august-2021-release}
+
+## 2021年9月發行 {#september-2021-release}
+
+### 新功能
+
+<table>
+<thead>
+<tr>
+
+<th><strong>報表 — 更深入分析目標受眾</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>報表中提供新量度：即時和全域報表中都會顯示電子郵件和推送訊息的目標對象。</p>
+<p>訊息執行清單中的新欄會顯示每個訊息執行的目標設定檔數量。 </p>
+<p>如需詳細資訊，請參閱<a href="message-monitoring.md">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+
+<th><strong>使用自訂動作以動態方式傳遞資料清單</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以在自訂動作參數中傳遞集合或資料清單，這些參數將在執行階段動態填入。 支援兩種集合：簡單集合和對象集合。 先前建立的自訂動作將可繼續運作。 </p>
+<p>有關集合的詳細資訊，請參閱<a href="building-journeys/collections.md">詳細檔案</a>。 </p>
+<p>篩選器和交叉函式已添加到高級表達式編輯器中可用的函式清單中。 這提供更多篩選和比較集合的可能性。</p>
+<p>請參閱<a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a>和<a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html">intersect</a>函式的相關文檔。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Decision Management - Personalize your offers</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now personalize content added to your offers' representations using the expression editor.</p>
+<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+### 改良功能
+
+**歷程**
+
+* 布建步驟事件期間建立的系統產生的結構描述和資料集現在為唯讀模式，可避免重要結構的任何意外修改。 [了解更多](reports/sharing-overview.md)
+* 乾淨地標籤&#x200B;**Wait**&#x200B;活動，並標籤將顯示在畫布中。 標籤也會用於報表和測試模式記錄檔，以清楚識別您正在執行的動作。 [了解更多](building-journeys/about-journey-activities.md#best-practices)
+* 使用搜尋來篩選&#x200B;**Events**&#x200B;和&#x200B;**Action**&#x200B;類別中的元素，以更快找到事件和動作。 不再篩選協調活動。 [了解更多](building-journeys/using-the-journey-designer.md)
+* 在規則型或業務事件中定義事件ID條件時，「包含」運算子現在可用於欄位的字串類型。 [了解更多](event/about-creating.md)
+
+**電子郵件設定**
+
+* 當IP池與消息預設集關聯時，您現在可以編輯它，更新為非同步。 您也可以檢查每個IP池的更新狀態。 [了解更多](configuration/ip-pools.md#edit-ip-pool)
+
+## 2021 年 8 月發行版本 {#august-2021-release}
 
 ### 新功能
 
@@ -27,7 +99,7 @@ ht-degree: 11%
 <tbody>
 <tr>
 <td>
-<p>在最佳時機為您與Adobe Journey Optimizer互動的每個客戶自動傳送您的推播或電子郵件。 「傳送時間最佳化」採用Adobe的AI服務，可根據歷史開啟率和立即可用的點按率，預測傳送電子郵件或推送訊息的最佳時機，以最大化參與。</p>
+<p>使用 Adobe Journey Optimizer 在最適當的時間自動向您接洽的每個客戶傳送推播通知或電子郵件。「傳送時間最佳化」採用Adobe的AI服務，可根據歷史開啟率和立即可用的點按率，預測傳送電子郵件或推送訊息的最佳時機，以最大化參與。</p>
 <p>此功能目前為測試版，僅供測試版客戶使用。 若要加入測試版計畫，請連絡Adobe客戶服務。</p>
 <p>如需詳細資訊，請參閱<a href="building-journeys/journeys-message.md#send-time-optimization">詳細文件</a>。</p>
 </td>
@@ -79,7 +151,7 @@ ht-degree: 11%
 <tbody>
 <tr>
 <td>
-<p>您現在可以根據每個預設集定義重試期間，以確保不再需要重試嘗試時不再執行。 例如，對於包含僅一天有效連結的密碼重設交易式訊息，您可以將重試期間設為24小時。 請注意，重試設定只會套用至電子郵件通道。</p>
+<p>您現在可以根據預設來定義重試期間，以確保當不再需要重試時，就不再進行重試。例如，對於包含僅一天有效連結的密碼重設交易式訊息，您可以將重試期間設為24小時。 請注意，重試設定只會套用至電子郵件通道。</p>
 <p>如需詳細資訊，請參閱<a href="configuration/retries.md#retry-duration">詳細文件</a>。</p>
 </td>
 </tr>
@@ -95,7 +167,7 @@ ht-degree: 11%
 <tbody>
 <tr>
 <td>
-<p>現在可從使用者介面逐一，透過CSV檔案上傳以大量模式，將電子郵件地址和網域新增至隱藏清單。</p>
+<p>現在可從用戶介面新增電子郵件地址和網域到隱藏清單中，逐一新增或透過 CSV 檔案上傳大量新增皆可。</p>
 <p>如需詳細資訊，請參閱<a href="configuration/manage-suppression-list.md#add-addresses-and-domains">詳細文件</a>。</p>
 </td>
 </tr>
@@ -126,7 +198,7 @@ ht-degree: 11%
 
 **歷程**
 
-* **動態標題**  — 您現在可以以HTTP標題參數傳遞動態資料。這些參數可供接收歷程動作HTTP呼叫的整合系統使用，例如時間戳記或追蹤ID。 [了解更多](action/about-custom-action-configuration.md#url-configuration)
+* **動態標題**  — 您現在可以以HTTP標題參數傳遞動態資料。接收歷程動作 HTTP 呼叫 (例如時間戳記或追蹤 ID) 的整合系統可使用這些參數。 [了解更多](action/about-custom-action-configuration.md#url-configuration)
 * **動態URL路徑**  — 您現在可以為自訂動作設定動態URL路徑。[了解更多](action/about-custom-action-configuration.md#url-configuration)
 * 讀取段的總節流率已從每秒17,000條消息更改為每秒20,000條消息。 [了解更多](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
@@ -151,7 +223,7 @@ ht-degree: 11%
 
 **決定管理**
 
-* 建立優惠方案時新增和設定表示法的方式已更新，以改善使用者體驗。 尤其是，現在只有當您定義表示的影像類型內容時，才會顯示資產資料庫。 [了解更多](offers/offer-library/creating-personalized-offers.md#representations)
+* 建立優惠時新增和設定代表的方式已更新，以改善使用者體驗。 在其中，現在只有當您定義代表的影像類型內容時，才會顯示資料庫。[了解更多](offers/offer-library/creating-personalized-offers.md#representations)
 
 ### 修正
 
@@ -162,7 +234,7 @@ ht-degree: 11%
 * 您現在可以透過使用者介面中更明確的警告，找出訊息預設集建立失敗的原因。
 
 
-## 2021年7月發行 {#july-2021-release}
+## 2021 年 7 月發行版本 {#july-2021-release}
 
 ### 新功能
 

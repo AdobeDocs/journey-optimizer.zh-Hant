@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 024a450724aecfde0eab7ab97421052a0aa99f2e
+source-git-commit: 41f43f6e702dbadfcd28d14154895a65ec15ed65
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1319'
 ht-degree: 3%
 
 ---
@@ -53,9 +53,14 @@ ht-degree: 3%
 
    ![](../../assets/channel-placement.png)
 
-   **[!UICONTROL Placement]**&#x200B;下拉式清單中只會顯示所選通道的可用位置。
+   >[!NOTE]
+   >
+   >**[!UICONTROL Placement]**&#x200B;下拉式清單中只會顯示所選通道的可用位置。
 
-1. 從清單中選取版位，或使用&#x200B;**[!UICONTROL Placement]**&#x200B;下拉式清單旁的按鈕來瀏覽所有版位。
+
+1. 從清單中選取位置。
+
+   您也可以使用&#x200B;**[!UICONTROL Placement]**&#x200B;下拉式清單旁的按鈕來瀏覽所有版位。
 
    ![](../../assets/browse-button-placements.png)
 
@@ -63,37 +68,7 @@ ht-degree: 3%
 
    ![](../../assets/browse-placements.png)
 
-1. 將內容新增至您的表示法。
-
-   >[!NOTE]
-   >
-   >只有與版位內容類型對應的內容可供使用。
-
-   * 如果選取的版位是影像類型，您可以新增來自Adobe Experience Cloud資產資料庫的內容，此資料庫是[!DNL Adobe Experience Manager Assets Essentials]提供的資產集中存放庫。
-
-      >[!NOTE]
-      >
-      > 若要使用[Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}，您需要為組織部署[!DNL Assets Essentials]，並確認使用者是&#x200B;**Assets Essentials消費者使用者**&#x200B;或/和&#x200B;**Assets Essentials使用者**&#x200B;產品設定檔的一部分。 深入了解[此頁面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
-
-      選擇&#x200B;**[!UICONTROL Asset library]**&#x200B;選項，然後選擇&#x200B;**[!UICONTROL Browse]**。
-
-      ![](../../assets/offer-browse-asset-library.png)
-
-      瀏覽資產以選取您所選取的影像，然後按一下&#x200B;**[!UICONTROL Select]**。
-
-      ![](../../assets/offer-select-asset.png)
-
-   * 要從外部公共位置添加內容，請選擇&#x200B;**[!UICONTROL URL]**，然後輸入要添加的內容的URL地址。
-
-      ![](../../assets/offer-content-url.png)
-
-   * 選取相容的版位時，您也可以插入文字類型內容。 選取&#x200B;**[!UICONTROL Custom]**&#x200B;選項，並輸入要顯示在選件中的文字。
-
-      ![](../../assets/offer-text-content.png)
-
-      >[!NOTE]
-      >
-      >此選項不適用於影像類型版位。
+1. 將內容新增至您的表示法。 在[此小節](#content)中了解如何操作。
 
 1. 新增內容（例如影像或URL）時，您可以指定&#x200B;**[!UICONTROL Destination link]**:點按選件的使用者會導向至對應的頁面。
 
@@ -107,25 +82,76 @@ ht-degree: 3%
 
 1. 添加所有表示後，選擇&#x200B;**[!UICONTROL Next]**。
 
+## 定義表示的內容 {#content}
+
+您可以將不同類型的內容添加到表示中。
+
+>[!NOTE]
+>
+>只有與版位內容類型對應的內容可供使用。
+
+### 新增影像
+
+如果選取的版位是影像類型，您可以新增來自&#x200B;**Adobe Experience Cloud Asset**&#x200B;資料庫的內容，此資料庫是[!DNL Adobe Experience Manager Assets Essentials]所提供資產的集中存放庫。
+
+>[!NOTE]
+>
+> 若要使用[Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}，您需要為組織部署[!DNL Assets Essentials]，並確認使用者是&#x200B;**Assets Essentials消費者使用者**&#x200B;或/和&#x200B;**Assets Essentials使用者**&#x200B;產品設定檔的一部分。 深入了解[此頁面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
+
+1. 選取 **[!UICONTROL Asset library]** 選項。
+
+1. 選擇「**[!UICONTROL Browse]**」。
+
+   ![](../../assets/offer-browse-asset-library.png)
+
+1. 瀏覽資產以選取您所選的影像
+
+1. 按一下「**[!UICONTROL Select]**」。
+
+   ![](../../assets/offer-select-asset.png)
+
+### 新增URL
+
+要從外部公共位置添加內容，請選擇&#x200B;**[!UICONTROL URL]**，然後輸入要添加的內容的URL地址。
+
+![](../../assets/offer-content-url.png)
+
+### 新增自訂文字 {#custom-text}
+
+選取相容的版位時，您也可以插入文字類型內容。
+
+1. 選取 **[!UICONTROL Custom]** 選項。
+
+   >[!NOTE]
+   >
+   >此選項不適用於影像類型版位。
+
+1. 在專用區域中，輸入要在選件中顯示的文字。
+
+   ![](../../assets/offer-text-content2.png)
+
 ## 新增適用性規則和限制 {#eligibility}
 
-適用性規則和限制可讓您定義要顯示優惠方案的條件。
+適用性規則和限制可讓您定義顯示優惠方案的條件。
 
-1. 配置&#x200B;**[!UICONTROL Offer eligibility]**。 依預設，會選取&#x200B;**[!UICONTROL All visitors]**&#x200B;決策規則選項，這表示任何設定檔都有資格呈現選件。
+1. 配置&#x200B;**[!UICONTROL Offer eligibility]**。
 
-   您可以將優惠方案的呈現方式限制為一或多個Adobe Experience Platform區段的成員。 要執行此操作，請啟動&#x200B;**[!UICONTROL Visitors who fall into one or multiple segments]**&#x200B;選項，然後從左窗格中添加一個或多個段，並使用&#x200B;**[!UICONTROL And]** / **[!UICONTROL Or]**&#x200B;邏輯運算子將它們組合起來。
+   * 依預設，會選取&#x200B;**[!UICONTROL All visitors]**&#x200B;決策規則選項，這表示任何設定檔都有資格呈現選件。
 
-   如需如何使用區段的詳細資訊，請參閱[本頁面](../../segment/about-segments.md)。
+   * 您可以將優惠方案的呈現方式限制為一或多個Adobe Experience Platform區段的成員。 要執行此操作，請啟動&#x200B;**[!UICONTROL Visitors who fall into one or multiple segments]**&#x200B;選項，然後從左窗格中添加一個或多個段，並使用&#x200B;**[!UICONTROL And]** / **[!UICONTROL Or]**&#x200B;邏輯運算子將它們組合起來。
 
-   ![](../../assets/offer-eligibility-segment.png)
+      如需如何使用區段的詳細資訊，請參閱[本頁面](../../segment/about-segments.md)。
 
-   如果您想要將特定決策規則與選件建立關聯，請選取&#x200B;**[!UICONTROL By defined decision rule]**，然後從左窗格將所需規則拖曳至&#x200B;**[!UICONTROL Decision rule]**&#x200B;區域。 有關如何建立決策規則的詳細資訊，請參閱[此區段](../offer-library/creating-decision-rules.md)。
+      ![](../../assets/offer-eligibility-segment.png)
 
-   ![](../../assets/offer_rule.png)
+   * 如果您想要將特定決策規則與選件建立關聯，請選取&#x200B;**[!UICONTROL By defined decision rule]**，然後從左窗格將所需規則拖曳至&#x200B;**[!UICONTROL Decision rule]**&#x200B;區域。 有關如何建立決策規則的詳細資訊，請參閱[此區段](../offer-library/creating-decision-rules.md)。
 
-   >[!CAUTION]
-   >
-   >[!DNL Journey Optimizer]中目前不支援以事件為基礎的選件。 如果您根據[event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}建立決策規則，將無法在選件中運用該規則。
+      ![](../../assets/offer_rule.png)
+
+      >[!CAUTION]
+      >
+      >[!DNL Journey Optimizer]中目前不支援以事件為基礎的選件。 如果您根據[event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}建立決策規則，將無法在選件中運用該規則。
+   在[此小節](../offer-activities/create-offer-activities.md#segments-vs-decision-rules)中進一步了解使用區段與決策規則的相關資訊。
 
 1. 如果使用者符合多個選件的資格，請定義選件的&#x200B;**[!UICONTROL Priority]**，而非其他選件。 優惠方案的優先順序越高，優先順序與其他優惠方案相比就越高。
 
@@ -165,7 +191,7 @@ ht-degree: 3%
 
 ![](../../assets/offer_created.png)
 
-## 選件清單 {#offer-list}
+## 優惠清單 {#offer-list}
 
 您可以從選件清單中選取要顯示其屬性的選件。 您也可以編輯選件、變更其狀態(**Draft**、**Approved**、**Archived**)、複製選件或刪除選件。
 

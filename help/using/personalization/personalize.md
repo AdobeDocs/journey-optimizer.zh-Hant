@@ -1,13 +1,14 @@
 ---
 title: 在 Journey Optimizer 中個人化內容
 description: 開始使用個人化
-feature: 個人化
-topic: 個人化
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Beginner
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
+source-git-commit: c68aa48c7762b6d2d96a7c921025104247ceffa3
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '691'
 ht-degree: 13%
 
 ---
@@ -62,7 +63,6 @@ ht-degree: 13%
 
 ![](assets/perso_ee.png)
 
-
 ### 個人化您的推播通知
 
 您也可以在下列欄位中個人化您的&#x200B;**推播通知**:
@@ -77,7 +77,13 @@ ht-degree: 13%
 
 進一步了解[此區段](../push-gs.md)中的推播通知設定。
 
-## 使用運算式編輯器
+### 個人化您的優惠方案 {#personalize-offers}
+
+將文字類型內容新增至選件的表示時，您也可以存取個人化編輯器。
+
+在[此小節](../offers/offer-library/creating-personalized-offers.md#custom-text)中，深入了解如何使用決策管理管理管理內容。
+
+## 使用運算式編輯器 {#use-expression-editor}
 
 運算式編輯器是[!DNL Journey Optimizer]中個人化的中心。
 

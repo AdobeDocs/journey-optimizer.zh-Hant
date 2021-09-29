@@ -1,20 +1,25 @@
 ---
 title: 使用者介面
 description: 進一步瞭解優惠資料庫使用者介面。
-feature: 優惠
-topic: 整合
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: dda0f609056ac74e4f1b5b0d6069d4bdc43ccfb6
+exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
+source-git-commit: e55aecf274e2f5fbb696cc112dfb4428848d36d5
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 71%
+source-wordcount: '635'
+ht-degree: 68%
 
 ---
 
 # 使用者介面 {#user-interface}
 
 「優惠資料庫」可讓您在單一位置建立和管理您的位置和優惠，並存取所有已建立的決定 (先前稱為優惠活動)。
+
+>[!NOTE]
+>
+>如果您在存取優惠方案程式庫或其部分功能時遇到問題，請洽詢已授予您必要權限的管理員使用者。 請參閱[授予決策管理的存取權](starting-offer-decisioning.md#granting-acess-to-decision-management)。
 
 使用 **[!UICONTROL Offers]** 功能表管理個人化和遞補優惠，將其組織成系列，並透過建立決定來傳遞：
 
@@ -40,7 +45,7 @@ ht-degree: 71%
 
 ![](../../assets/offer_activities.png)
 
-## 概覽 {#overview}
+## 總覽 {#overview}
 
 當您剛接觸[!DNL Offer Decisioning]時，**[!UICONTROL Overview]**&#x200B;標籤會引導您完成開始建立第一個選件決策所需的主要步驟。
 

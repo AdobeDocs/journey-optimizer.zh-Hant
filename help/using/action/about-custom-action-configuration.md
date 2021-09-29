@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: 6907946a75904d601ca1f70c61b72fd92803db84
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '806'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,10 @@ ht-degree: 6%
 # 設定動作 {#configure-an-action}
 
 如果您使用協力廠商系統來傳送訊息，或您想要歷程將API呼叫傳送至協力廠商系統，您可以在此設定其與歷程的連線。 接著，技術使用者定義的自訂動作便可在您歷程的左側浮動視窗中取得，位於&#x200B;**[!UICONTROL Action]**&#x200B;類別中（請參閱[此頁面](../building-journeys/about-journey-activities.md#action-activities)）。 以下是一些您可透過自訂動作連線至的系統範例：Epsilon、Facebook、Adobe.io、Firebase等
+
 [此頁面](../limitations.md)列出限制。
+
+您可以使用自訂動作以動態方式傳遞集合。 請參閱此[使用案例](../limitations.md)。
 
 以下是設定自訂動作所需的主要步驟：
 
@@ -56,12 +59,14 @@ ht-degree: 6%
 
    * 如果URL包含動態路徑，則僅輸入URL的靜態部分，即配置、主機、埠，以及路徑的靜態部分（可選）。
 
-      範例: `https://xxx.yyy.com:8080/somethingstatic/`
+      範例: `https://xxx.yyy.com/somethingstatic/`
 
       將自訂動作新增至歷程時，您會指定URL的動態路徑。 [了解更多](../building-journeys/using-custom-actions.md)。
    >[!NOTE]
    >
    >基於安全考量，強烈建議您為URL使用HTTPS配置。 不允許使用非公用的Adobe位址和IP位址。
+   >
+   >定義自訂動作時，僅允許預設埠：80（適用於http）和443（適用於https）。
 
 1. 選擇呼叫&#x200B;**[!UICONTROL Method]**:可以是&#x200B;**[!UICONTROL POST]**&#x200B;或&#x200B;**[!UICONTROL PUT]**。
 1. 在&#x200B;**[!UICONTROL Headers]**&#x200B;區段中，定義要傳送至外部服務的要求訊息的HTTP標題：
@@ -106,3 +111,4 @@ ht-degree: 6%
 * 變數表示參數的值會有所不同。 在歷程中使用此自訂動作的行銷人員將可自由傳遞所需值，或指定要擷取此參數值的位置(例如從事件、從Adobe Experience Platform等)。 在此情況下，切換常數/變數右側的欄位，即為行銷人員在歷程中看到的用以命名此參數的標籤。
 
 ![](../assets/customactionpayloadmessage2.png)
+

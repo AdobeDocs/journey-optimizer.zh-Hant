@@ -5,9 +5,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
+source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -26,19 +27,27 @@ ht-degree: 1%
 
 **[!UICONTROL Email performance]** 和小 **[!UICONTROL Email summary]** 工具集會透過圖表和KPI，詳細說明與訊息相關的主要資訊：
 
+* **[!UICONTROL Targeted]**:符合此傳送目標設定檔資格的使用者設定檔數目。
+
 * **[!UICONTROL Sent]**:傳送的傳送總數。
 
 * **[!UICONTROL Delivered]**:已成功傳送的訊息數，與已傳送的訊息總數相關。
-
-* **[!UICONTROL Bounces]**:傳送和自動回傳處理期間累積的錯誤總數，與已傳送訊息的總數相關。
-
-* **[!UICONTROL Errors]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
 
 * **[!UICONTROL Opens]**:傳送中開啟訊息的次數。
 
 * **[!UICONTROL Clicks]**:內容在傳送中被點按的次數。
 
-**[!UICONTROL Sending Statistics]**&#x200B;圖表會詳細說明傳送的成功：
+* **[!UICONTROL Bounces]**:傳送和自動回傳處理期間累積的錯誤總數，與已傳送訊息的總數相關。
+
+* **[!UICONTROL Errors]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
+
+* **[!UICONTROL Spam complaints]**:分類為垃圾郵件的郵件數。
+
+* **[!UICONTROL Unsubscriptions]**:取消訂閱連結的點按次數。
+
+* **[!UICONTROL Excluded]**:未接收訊息的使用者設定檔數目，已從目標設定檔中排除。
+
+**[!UICONTROL Sending Statistics]**&#x200B;介面工具集會詳細說明傳送的成功：
 
 * **[!UICONTROL Delivered]**:已成功傳送的訊息數，與已傳送的訊息總數相關。
 
