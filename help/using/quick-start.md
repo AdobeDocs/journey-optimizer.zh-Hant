@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: f2ca9df4ff3441bd85e07b618f2f0559106db9c5
+source-git-commit: 9c1edc8d79c58fcf4f2048b9fe81cd31ea621777
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '519'
 ht-degree: 35%
 
 ---
@@ -30,11 +30,9 @@ ht-degree: 35%
 
 如需詳細資訊，請參閱下列頁面：
 
-* **開始使用產品設定檔和權限**
-
 * **設定使** 用者權限並授予團隊成員的存取權。[閱讀全文](../using/administration/permissions.md)
 
-* **部署[!DNL Adobe Experience Manager Assets Essentials]** 以管理訊息中的資產和影像：需要存取的使 [!DNL Assets Essentials] 用者必須屬於Assets Essentials消費 **者使** 用者或/和Assets Essentials **使用者** 產品設定檔。[了解詳情](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}
+* **部署[!DNL Adobe Experience Manager Assets Essentials]** 以管理訊息中的資產和影像：需要存取的使 [!DNL Assets Essentials] 用者必須屬於Assets Essentials消費 **者使** 用者或/和Assets Essentials **使用者** 產品設定檔。[如需詳細資訊，請參閱Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}
 
 * **設定您的** 管道，並定義您的電子郵件和推播通知設定。[閱讀全文](../using/configuration/get-started-configuration.md)
 
@@ -47,7 +45,7 @@ ht-degree: 35%
 
 身為資料管理員，您需要&#x200B;**識別資料，並建立結構和資料集**，將資料匯入Adobe Experience Platform。
 
-以下各節將詳細說明建立身分命名空間和為設定檔啟用的資料集，以及建立區段和測試設定檔的步驟：
+以下各節將詳細說明建立身分命名空間和為設定檔啟用的資料集、建立區段和測試設定檔的步驟：
 
 * 了解如何在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}中預覽和建立&#x200B;**資料集**
 
@@ -63,7 +61,7 @@ ht-degree: 35%
 
 ## 建立訊息、優惠方案和歷程
 
-身為歷程慣例，請參閱下列章節，以設定您的第一個歷程、新增選件、資產及傳送訊息：
+身為歷程慣例，請參閱下列章節，以設定您的第一個歷程、新增選件和資產，以及傳送訊息：
 
 * **建立訊息**：存取訊息、設計或載入電子郵件和推播內容、新增個人化及預覽訊息。[閱讀全文](create-message.md)
 
