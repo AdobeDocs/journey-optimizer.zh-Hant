@@ -2,10 +2,10 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8f9c7ef2388624432a1601da0ce9502b3e68b58b
+source-git-commit: bb52c8e92621815c61528558aca6fbc326230e00
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 19%
+source-wordcount: '1526'
+ht-degree: 18%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 19%
 <tbody>
 <tr>
 <td>
-<p>報表中提供新量度：即時和全域報表中都會顯示電子郵件和推送訊息的目標對象。</p>
+<p>報表中提供新量度：即時和全域報表中都會顯示電子郵件和推送訊息的已定位和已排除。 </br> 若要存取最新量度，請注意，您必須重設每個管道和報表類型的不同報表控制面板。有關儀表板自定義的詳細資訊，請參閱<a href="reports/live-report.md">詳細文檔。</a></p>
 <p>訊息執行清單中的新欄會顯示每個訊息執行的目標設定檔數量。 </p>
 <p>如需詳細資訊，請參閱<a href="message-monitoring.md">詳細文件</a>。</p>
 </td>
