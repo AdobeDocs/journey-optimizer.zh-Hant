@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
+exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
+source-git-commit: 138adc4b548e5d8ba744037db2d35150b6876867
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '996'
 ht-degree: 3%
 
 ---
@@ -118,7 +119,7 @@ ht-degree: 3%
 區段可以根據：
 
 * 資料來源資料
-* 歷程資料中事件部分的內容，例如：有人點擊了她一小時前收到的資訊嗎？
+* 歷程資料中事件部分的內容，例如：有人點擊了一小時前收到的留言嗎？
 * 日期，例如：我們是在六月，一個人經歷這段旅程嗎？
 * 例如，某次：是否是早上的時區？
 * 根據百分比分割歷程中流動的受眾的演算法，例如：90% - 10%以排除控制組
