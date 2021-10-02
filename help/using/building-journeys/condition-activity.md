@@ -1,13 +1,14 @@
 ---
 title: 條件活動
 description: 了解條件活動
-feature: 歷程
-topic: 內容管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '939'
 ht-degree: 10%
 
 ---
@@ -33,7 +34,7 @@ ht-degree: 10%
 
 請注意，歷程的設計會對功能造成影響。 在條件之後定義多個路徑時，只會執行第一個符合條件的路徑。 這表示您可以將路徑置於彼此上方或下方，以改變路徑的優先順序。
 
-例如，我們以第一個路徑的條件「人是VIP」和第二個路徑的條件「人是男性」為例。 如果符合兩個條件的人(男性為VIP)通過此步驟，則即使他也符合第二個路徑的資格，也會選擇第一個路徑，因為第一個路徑「高於」。 若要變更此優先順序，請以另一個垂直順序移動活動。
+例如，我們以第一個路徑的條件「人是VIP」和第二個路徑的條件「人是男性」為例。 如果符合兩個條件的人員(男性為VIP)通過此步驟，則即使此人也符合第二個條件，也會選擇第一個路徑，因為第一個路徑「高於」。 若要變更此優先順序，請以另一個垂直順序移動活動。
 
 ![](../assets/journey48.png)
 

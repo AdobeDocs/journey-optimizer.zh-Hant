@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: c68aa48c7762b6d2d96a7c921025104247ceffa3
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '689'
 ht-degree: 13%
 
 ---
 
 # 開始使用個人化{#add-personalization}
 
-探索[!DNL Adobe Journey Optimizer]個人化功能，運用您擁有的關於他/她的資料和資訊，讓您的訊息適應每個特定收件者。 這可以是他的名字，他的興趣，他住的地方，他買的東西，等等。
+探索[!DNL Adobe Journey Optimizer]個人化功能，運用您擁有的相關資料和資訊，將訊息調整為每個特定收件者。 這可以是他們的名字，興趣，住的地方，他們買的東西，等等。
 
 ➡️ [了解如何個人化這些影片中的訊息](#video-perso)
 

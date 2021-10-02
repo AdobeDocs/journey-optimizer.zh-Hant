@@ -2,7 +2,7 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bb52c8e92621815c61528558aca6fbc326230e00
+source-git-commit: 7c02f27f0160aea2c2f55c7dc5a8e7c3de3ac159
 workflow-type: tm+mt
 source-wordcount: '1526'
 ht-degree: 18%
@@ -49,7 +49,7 @@ ht-degree: 18%
 <p>您現在可以在自訂動作參數中傳遞集合或資料清單，這些參數將在執行階段動態填入。 支援兩種集合：簡單集合和對象集合。 先前建立的自訂動作將可繼續運作。 </p>
 <p>有關集合的詳細資訊，請參閱<a href="building-journeys/collections.md">詳細檔案</a>。 </p>
 <p>篩選器和交叉函式已添加到高級表達式編輯器中可用的函式清單中。 這提供更多篩選和比較集合的可能性。</p>
-<p>請參閱<a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a>和<a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html">intersect</a>函式的相關文檔。</p>
+<p>請參閱<a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a>和<a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">intersect</a>函式的相關文檔。</p>
 </td>
 </tr>
 </tbody>

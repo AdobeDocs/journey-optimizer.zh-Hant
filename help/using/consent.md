@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: cdc0909a296799c5c60e854474a23750cf7b1b2f
+exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '815'
 ht-degree: 80%
 
 ---
@@ -138,7 +139,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 了解如何在[本區段](message-tracking.md#one-click-opt-out-link)中，將選擇退出連結新增至您的訊息內容。
 
-透過[journey](building-journeys/journey.md)傳送訊息後，如果收件者按一下選擇退出連結，就會立即選擇退出。
+透過[journey](building-journeys/journey.md)傳送訊息後，如果收件者按一下選擇退出連結，則會立即選擇退出其設定檔。
 
 ## 標題中的取消訂閱連結 {#unsubscribe-email}
 

@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
+exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1039'
 ht-degree: 84%
 
 ---
@@ -81,7 +82,7 @@ ht-degree: 84%
 
 如果個人在歷程中的進度正常，但並未收到應接收的訊息，您可以檢查：
 
-* [!DNL Journey Optimizer] 已正確考慮傳送訊息的要求。業務使用者可以存取應傳送的訊息，並檢查最新執行的時間是否與歷程的執行時間對應。 他也可以檢查收到的最新API呼叫/事件。
+* [!DNL Journey Optimizer] 已正確考慮傳送訊息的要求。商務使用者可存取應傳送的訊息，並檢查最新執行時間是否與歷程的執行時間對應。 他們也可以檢查收到的最新API呼叫/事件。
 * [!DNL Journey Optimizer] 已成功發送消息。在訊息的傳送記錄中，您可以查看每個執行的狀態。 您可以看到狀態是綠色、紅色，以及問題內容為何。業務使用者可以存取此畫面並將日誌傳送給管理員，以進行進一步的調查。
 
 若是透過自訂動作傳送訊息，在歷程測試期間唯一可以檢查的事項，就是自訂動作系統的呼叫是否會導致錯誤。如果呼叫與自訂動作相關聯的外部系統並未造成錯誤，但並未導致訊息傳送，則應在外部系統端進行一些調查。
