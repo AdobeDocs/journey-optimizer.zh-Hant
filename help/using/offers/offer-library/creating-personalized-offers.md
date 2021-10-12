@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 41f43f6e702dbadfcd28d14154895a65ec15ed65
+source-git-commit: 86fc6d9df06b975539652cc44ec41fd8c8318404
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1328'
 ht-degree: 3%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 3%
 建立優惠方案之前，請確定您已建立：
 
 * 將顯示優惠方案的&#x200B;**placement**。 請參閱[建立版位](../offer-library/creating-placements.md)
-* **決策規則**&#x200B;將定義要呈現選件的條件。 請參閱[建立決策規則](../offer-library/creating-decision-rules.md)。
-* 您要與選件建立關聯的一或多個&#x200B;**標籤**。 請參閱[建立標籤](../offer-library/creating-tags.md)。
+* 如果要新增資格條件：**決策規則**，定義將呈現選件的條件。 請參閱[建立決策規則](../offer-library/creating-decision-rules.md)。
+* 您可能想要與選件建立關聯的一或多個&#x200B;**標籤**。 請參閱[建立標籤](../offer-library/creating-tags.md)。
 
 ➡️ [在影片中探索此功能](#video)
 
