@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 5c4aca7666987ed188e69f3b5772950c0bf96488
+source-git-commit: c0c397818020126b175eeb8f75f3cfd56029a2f6
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '976'
 ht-degree: 2%
 
 ---
@@ -122,13 +122,19 @@ ht-degree: 2%
 
    ![](assets/send-proof-button.png)
 
-1. 在&#x200B;**[!UICONTROL Send proof]**&#x200B;視窗中，除測試設定檔外，輸入收件者的電子郵件，然後按一下&#x200B;**[!UICONTROL Add]**&#x200B;以將校樣傳送給您自己或組織的成員。
+1. 在&#x200B;**[!UICONTROL Send proof]**&#x200B;視窗中，輸入收件者的電子郵件，然後按一下&#x200B;**[!UICONTROL Add]**&#x200B;將校樣傳送給您自己或組織的成員。
 
    請注意，您最多可為校樣傳送新增10個收件者。
 
    ![](assets/send-proof-button_2.png)
 
-1. 然後，選取將接收校樣的測試設定檔，然後按一下&#x200B;**[!UICONTROL Send proof]**。 您可以視需要在校樣的主旨行新增首碼。 僅限英數字元和特殊字元，例如。 - _()[ ]，可做為主旨行的前置詞。
+1. 然後，選取將用來個人化訊息內容的&#x200B;**測試設定檔**。
+
+   校樣的每個收件者會收到與所選測試設定檔數目相同的訊息。 例如，如果您新增了5封收件者電子郵件，並選取10個測試設定檔，則您會傳送50封校樣訊息，而每位收件者都會收到10封。
+
+1. 您可以視需要在校樣的主旨行新增首碼。 僅限英數字元和特殊字元，例如。 - _()[ ]，可做為主旨行的前置詞。
+
+1. 按一下「**[!UICONTROL Send proof]**」。
 
    ![](assets/send-proof-select.png)
 
@@ -136,11 +142,11 @@ ht-degree: 2%
 
    ![](assets/send-proof-view.png)
 
-對訊息內容進行任何修改後，您必須傳送校樣。
+建議在每次修改後傳送校樣至訊息內容。
 
 >[!NOTE]
 >
-> 在傳送至測試設定檔的校樣中，鏡像頁面的連結未啟用。 它只會在最終訊息中啟動。
+>在傳送至測試設定檔的校樣中，鏡像頁面的連結未啟用。 它只會在最終訊息中啟動。
 
 ## 電子郵件轉譯{#email-rendering}
 
