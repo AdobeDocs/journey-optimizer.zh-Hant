@@ -2,9 +2,9 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cbd311f5fe648302ef589c32e9be1b0147e4d31c
+source-git-commit: 6cfd56d22cc18c044818dc73fc265ce5e882d36c
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '1996'
 ht-degree: 16%
 
 ---
@@ -98,7 +98,8 @@ ht-degree: 16%
 **報告**
 
 * **全域檢視中的資料格式**  — 您現在可以在 **全域檢視** 的 **執行** 標籤。 [了解更多](message-monitoring.md)
-* **新量度**  — 新量度和Widget現在可在 **即時** 和 **全球** 報表，以測量選件對收件者的影響。 [了解更多](reports/journey-global-report.md)
+
+<!--* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)-->
 
 **管理**
 
