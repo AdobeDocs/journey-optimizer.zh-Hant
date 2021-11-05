@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: a9e65986c3ccd0dc54a54bc5f349f5c9c87c5039
+source-git-commit: 9ef56c69e875c68bfbd9f08348bb45387f4bb32c
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 3%
@@ -111,7 +111,7 @@ ht-degree: 3%
 
    ![](assets/preview-select-channel.png)
 
-1. 套用與上述步驟相同的步驟，以選取測試設定檔，並選取要預覽內容的裝置類型： **[!UICONTROL iOS]** 或 **[!UICONTROL Android]**
+1. 套用與上述步驟相同的步驟，以選取測試設定檔，並選取要預覽內容的裝置類型： **[!UICONTROL iOS]** 或 **[!UICONTROL Android]**.
 
    ![](assets/preview-iOS.png)
 

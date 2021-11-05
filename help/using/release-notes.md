@@ -2,18 +2,123 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7c02f27f0160aea2c2f55c7dc5a8e7c3de3ac159
+source-git-commit: cbd311f5fe648302ef589c32e9be1b0147e4d31c
 workflow-type: tm+mt
-source-wordcount: '1526'
-ht-degree: 18%
+source-wordcount: '2019'
+ht-degree: 16%
 
 ---
 
 # 發行說明 {#release-notes}
 
-本頁面列出[!DNL Journey Optimizer]的所有新功能和改善項目。您也可以參閱最新的[文件更新](documentation-updates.md)。
+本頁面列出[!DNL Journey Optimizer]的所有新功能和改善項目。您也可以參閱 [最新檔案更新](documentation-updates.md).
+
+## 2021年10月發行 {#oct-2021-release}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Journeys - Target users in a subscription list</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now trigger a journey targeting a subscription list. To perform this: add a Read segment activity followed by a message, and in the message email settings, define an expression that will fetch the subscriber email address from the profile, for the targeted subscription list. The expression editor has been enhanced to allow you to to select the first entry key of a map.</p>
+<p>Learn more in the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">detailed documentation</a>.</p>>
+</td>
+</tr>
+</tbody>
+</table-->
 
 
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Journeys - Profile cap condition</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
+<p>For more information, refer to the <a href="building-journeys/condition-activity.md#profile_cap">detailed documentation</a> and related <a href="building-journeys/ramp-up-deliveries-uc.md">sample use case</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>決策管理 — 選件模擬</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以模擬哪些優惠方案將傳遞至Journey Optimizer UI中指定位置的測試設定檔。 這可讓您在投入生產之前，輕鬆驗證決策邏輯，包括資格限制和排名演算法。 此功能可讓非技術和技術使用者快速測試offer decisioning並疑難排解潛在問題。</p>
+<p>如需詳細資訊，請參閱<a href="offers/offer-activities/simulation.md">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>決策管理 — 個人化您的優惠方案</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以使用Adobe Experience Platform設定檔屬性和區段，使用Journey Optimizer UI中找到的相同運算式編輯器元件，個人化優惠方案的內容。 </p>
+<p>如需詳細資訊，請參閱<a href="offers/offer-library/creating-personalized-offers.md#content">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+另請參閱 [Adobe Experience Platform 10月發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target=&quot;_blank&quot;}以取得更多變更。
+
+### 改良功能
+
+**歷程**
+
+* **運算式編輯器**  — 身為超級用戶，您現在可以使用函式來處理地圖。 此功能可與訂閱清單搭配運用。 例如，您現在可以從訂閱清單中取得電子郵件地址。 [透過此範例了解更多資訊](building-journeys/message-to-subscribers-uc.md)
+
+   <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
+* **監控**  — 已增強即時歷程和測試模式的步驟事件。 [新欄位](reports/sharing-field-list.md#serviceevents) 已新增與設定檔匯出作業相關的內容。 為了提供更佳的使用者體驗，步驟事件欄位現在會組織成不同類別。 所有先前的步驟事件欄位仍可在 [stepEvents](reports/sharing-legacy-fields.md) 類別。
+* **協助工具**  — 歷程中已實作協助工具增強功能。
+* **集合**  — 現在支援包含子物件的物件陣列。 [閱讀全文](building-journeys/collections.md)
+* **清單**  — 已改善歷程、事件、動作、資料來源的清單畫面。
+
+**報告**
+
+* **全域檢視中的資料格式**  — 您現在可以在 **全域檢視** 的 **執行** 標籤。 [了解更多](message-monitoring.md)
+* **新量度**  — 新量度和Widget現在可在 **即時** 和 **全球** 報表，以測量選件對收件者的影響。 [了解更多](reports/journey-global-report.md)
+
+**管理**
+
+* **編輯訊息預設集**  — 您現在可以編輯訊息預設集並監視其更新狀態。 [了解更多](configuration/message-presets.md#edit-message-preset)
+* **編輯PTR記錄**  — 您現在可以編輯PTR記錄並監視其更新狀態。 [了解更多](configuration/ptr-records.md#edit-ptr-record)
+
+**個人化**
+
+* **日期格式的新協助程式功能**  — 您現在可以指定日期字串的呈現方式。 [了解更多](personalization/functions/dates.md#format-date)
+
+**決定管理**
+
+* **評估排序**  — 新的、改進的決策建立流程不僅讓您更順暢地在決策對象之間導航，而且讓您能夠完全控制決策引擎如何評估選件集合。 這包括哪些集合會一起評估，或分別評估，以及應評估集合的順序。 [了解更多](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+
+### 修正
+
+* 修正瀏覽器語言非英文時，無法顯示歷程清單、訊息清單和電子郵件設計工具的問題。
+* 修正使用電子郵件設計工具中的運算式新增個人化時發生的語法錯誤：字元被錯誤逸出。
+* 修正導覽至 **管理** 功能表。
+* 修正使用業務事件測試歷程時觸發其他即時歷程的問題。
 
 ## 2021年9月發行 {#september-2021-release}
 
@@ -28,7 +133,7 @@ ht-degree: 18%
 <tbody>
 <tr>
 <td>
-<p>報表中提供新量度：即時和全域報表中都會顯示電子郵件和推送訊息的已定位和已排除。 </br> 若要存取最新量度，請注意，您必須重設每個管道和報表類型的不同報表控制面板。有關儀表板自定義的詳細資訊，請參閱<a href="reports/live-report.md">詳細文檔。</a></p>
+<p>報表中提供新量度：即時和全域報表中都會顯示電子郵件和推送訊息的已定位和已排除。 </br> 若要存取最新量度，請注意，您必須重設每個管道和報表類型的不同報表控制面板。 如需控制面板自訂的詳細資訊，請參閱 <a href="reports/live-report.md">詳細檔案。</a></p>
 <p>訊息執行清單中的新欄會顯示每個訊息執行的目標設定檔數量。 </p>
 <p>如需詳細資訊，請參閱<a href="message-monitoring.md">詳細文件</a>。</p>
 </td>
@@ -47,39 +152,23 @@ ht-degree: 18%
 <tr>
 <td>
 <p>您現在可以在自訂動作參數中傳遞集合或資料清單，這些參數將在執行階段動態填入。 支援兩種集合：簡單集合和對象集合。 先前建立的自訂動作將可繼續運作。 </p>
-<p>有關集合的詳細資訊，請參閱<a href="building-journeys/collections.md">詳細檔案</a>。 </p>
+<p>如需集合的詳細資訊，請參閱 <a href="building-journeys/collections.md">詳細檔案</a>. </p>
 <p>篩選器和交叉函式已添加到高級表達式編輯器中可用的函式清單中。 這提供更多篩選和比較集合的可能性。</p>
-<p>請參閱<a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a>和<a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">intersect</a>函式的相關文檔。</p>
+<p>請參閱 <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">篩選</a> 和 <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">相交</a> 函式。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Decision Management - Personalize your offers</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now personalize content added to your offers' representations using the expression editor.</p>
-<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
+
 
 ### 改良功能
 
 **歷程**
 
 * 布建步驟事件期間建立的系統產生的結構描述和資料集現在為唯讀模式，可避免重要結構的任何意外修改。 [了解更多](reports/sharing-overview.md)
-* 乾淨地標籤&#x200B;**Wait**&#x200B;活動，並標籤將顯示在畫布中。 標籤也會用於報表和測試模式記錄檔，以清楚識別您正在執行的動作。 [了解更多](building-journeys/about-journey-activities.md#best-practices)
-* 使用搜尋來篩選&#x200B;**Events**&#x200B;和&#x200B;**Action**&#x200B;類別中的元素，以更快找到事件和動作。 不再篩選協調活動。 [了解更多](building-journeys/using-the-journey-designer.md)
+* 乾淨地標籤 **等待** 活動，其標籤將顯示在畫布中。 標籤也會用於報表和測試模式記錄檔，以清楚識別您正在執行的動作。 [了解更多](building-journeys/about-journey-activities.md#best-practices)
+* 篩選 **事件** 和 **動作** 類別。 不再篩選協調活動。 [了解更多](building-journeys/using-the-journey-designer.md)
 * 在規則型或業務事件中定義事件ID條件時，「包含」運算子現在可用於欄位的字串類型。 [了解更多](event/about-creating.md)
 
 **電子郵件設定**
@@ -198,28 +287,28 @@ ht-degree: 18%
 
 **歷程**
 
-* **動態標題**  — 您現在可以以HTTP標題參數傳遞動態資料。接收歷程動作 HTTP 呼叫 (例如時間戳記或追蹤 ID) 的整合系統可使用這些參數。 [了解更多](action/about-custom-action-configuration.md#url-configuration)
-* **動態URL路徑**  — 您現在可以為自訂動作設定動態URL路徑。[了解更多](action/about-custom-action-configuration.md#url-configuration)
+* **動態標題**  — 您現在可以以HTTP標題參數傳遞動態資料。 接收歷程動作 HTTP 呼叫 (例如時間戳記或追蹤 ID) 的整合系統可使用這些參數。 [了解更多](action/about-custom-action-configuration.md#url-configuration)
+* **動態URL路徑**  — 您現在可以為自訂動作設定動態URL路徑。 [了解更多](action/about-custom-action-configuration.md#url-configuration)
 * 讀取段的總節流率已從每秒17,000條消息更改為每秒20,000條消息。 [了解更多](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **使用者介面**
 
-* **搜尋**  — 現在，您可以在每個頁面上，直接從「統一Experience Cloud」搜尋欄位搜尋業務物件和說明文章。[了解更多](user-interface.md#unified-search)
-* **收件**  — 從Adobe Journey Optimizer首頁顯示的收件元素現在已擴充至其他業務物件。透過此更新，您最近存取的捷徑包括訊息、歷程、區段、結構、資料集、資料來源、事件、動作、來源和目的地。 [了解更多](action/about-custom-action-configuration.md#passing-collection)
+* **搜尋**  — 現在，在每個頁面上，您可以直接從「統一Experience Cloud」搜尋欄位搜尋業務物件和說明文章。 [了解更多](user-interface.md#unified-search)
+* **收件者**  — 從Adobe Journey Optimizer首頁顯示收件者元素的功能，現在已擴充至其他業務物件。 透過此更新，您最近存取的捷徑包括訊息、歷程、區段、結構、資料集、資料來源、事件、動作、來源和目的地。 [了解更多](action/about-custom-action-configuration.md#passing-collection)
 
 **內容設計**
 
-* **背景**  — 現在即時預覽支援背景影像。[了解更多](preview.md)
-* **一鍵式選擇退出連結**  — 您可以在電子郵件內容中插入新類型的連結：「選 **擇退** 出」連結可讓使用者只要按一下，就能取消訂閱收到您的通訊內容，而不需重新導向至登陸頁面以確認選擇退出。[了解更多](message-tracking.md#one-click-opt-out-link)
+* **背景**  — 現在即時預覽支援背景影像。 [了解更多](preview.md)
+* **一鍵式選擇退出連結**  — 您可以在電子郵件內容中插入新類型的連結：the **選擇退出** 連結可讓使用者只要按一下即可取消訂閱，以免收到您的通訊，而無須重新導向至登錄頁面，以確認選擇退出。 [了解更多](message-tracking.md#one-click-opt-out-link)
 
 **個人化**
 
-* **運算式編輯器**  — 您現在可以在定義個人化時輕鬆新增回傳值：當設定檔的個人化欄位空白時，將顯示回傳值。[了解更多](personalization/functions/helpers.md)
+* **運算式編輯器**  — 您現在可在定義個人化時輕鬆新增回傳值：當設定檔的個人化欄位空白時，將顯示回傳值。 [了解更多](personalization/functions/helpers.md)
 
 **電子郵件設定**
 
-* **允許清單**  — 現在可以透過API呼叫，在非生產沙箱上啟用和停用允許清單。[了解更多](allow-list.md#enable-allow-list)
-* **導航**  — 可在「管理」>「通道」>「電子郵件配置」>「一般」 **菜單下訪問的隱藏清單已移至新的「隱藏清單」子菜單，該子菜單** 將收集 **** 所有相關功能，以便更方便地訪問。[了解更多](configuration/manage-suppression-list.md#access-suppression-list)
+* **允許的清單**  — 現在，您可以透過API呼叫，在非生產沙箱上啟用和停用允許清單。 [了解更多](allow-list.md#enable-allow-list)
+* **導覽**  — 查禁清單，可在 **管理>管道>電子郵件設定>一般** 功能表，已移至新 **隱藏清單** 子功能表，可收集所有相關功能以便更輕鬆存取。 [了解更多](configuration/manage-suppression-list.md#access-suppression-list)
 
 **決定管理**
 
@@ -276,17 +365,17 @@ ht-degree: 18%
 **歷程**
 
 * 在同一沙箱中同時執行的所有讀取區段的總節流率限制為每秒17,000條訊息。 [閱讀全文](building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* 已從資料源配置窗格中刪除&#x200B;**快取持續時間**&#x200B;欄位。 [閱讀全文](datasource/about-data-sources.md)
+* 此 **快取期間** 欄位已從資料來源設定窗格中移除。 [閱讀全文](datasource/about-data-sources.md)
 * 對於外部資料來源，現在會自動定義每秒15次呼叫的上限規則。 [閱讀全文](configuration/external-systems.md#capping)
 * 對於即時歷程，歷程屬性畫面現在會顯示發佈日期和發佈歷程的使用者名稱。 [閱讀全文](building-journeys/journey-gs.md#change-properties)
 * 在歷程清單畫面中，已新增歷程類型篩選器。 [閱讀全文](user-interface.md#section_lgm_hpz_pgb)
-* 已在讀取區段活動中新增&#x200B;**[!UICONTROL Throttling rate]**&#x200B;參數。 [閱讀全文](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 此 **[!UICONTROL Throttling rate]** 參數已新增至讀取區段活動中。 [閱讀全文](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **預覽和測試訊息**
 
-* 身分和命名空間現在會顯示在&#x200B;**[!UICONTROL Preview]**&#x200B;畫面中。 [閱讀全文](preview.md#preview-your-messages)
+* 身分和命名空間現在會顯示在 **[!UICONTROL Preview]** 螢幕。 [閱讀全文](preview.md#preview-your-messages)
 * 校樣的測試電子郵件數目現在限制為10個。
-* 校樣中&#x200B;**主旨行首碼**&#x200B;允許的字元現已受限。 [閱讀全文](preview.md#send-proofs)
+* 允許的字元 **主旨行首碼** 校樣中的內容現在有限。 [閱讀全文](preview.md#send-proofs)
 
 **個人化運算式編輯器**
 
@@ -299,4 +388,4 @@ ht-degree: 18%
 * 修正「PTR記錄」畫面中缺少IP資訊的問題。
 * 現已實作運算式編輯器中選件邊欄的本地化。
 * 修正資訊快顯視窗中的錯誤間距。
-* 修正了上傳HTML檔案時，不支援具有`background-image`屬性的內部樣式表時，電子郵件設計工具中的問題。
+* 修正了在電子郵件設計工具中上傳HTML檔案時，內部樣式表包含 `background-image` 不支援屬性。

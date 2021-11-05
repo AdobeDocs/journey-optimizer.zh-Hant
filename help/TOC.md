@@ -5,15 +5,14 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
+source-git-commit: 699ebab2051d9ddfde20713a462490f11f9f7f1b
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 94%
+source-wordcount: '756'
+ht-degree: 89%
 
 ---
 
-
-# [!DNL Journey Optimizer]說明 {#using}
+# Adobe Journey Optimizer說明 {#using}
 
 + [Journey Optimizer檔案](ajo-home.md)
 + 有什麼新功能？ {#whats-new}
@@ -21,7 +20,12 @@ ht-degree: 94%
    + [最新更新](using/documentation-updates.md)
 + 快速入門{#get-started}
    + [什麼是 Journey Optimizer](using/get-started.md)
-   + [快速入門](using/quick-start.md)
+   + 快速入門{#quick-start}
+      + [總覽](using/quick-start.md)
+      + [行銷人員快速入門](using/path/marketer.md)
+      + [資料工程師快速入門](using/path/data-engineer.md)
+      + [以管理員身分開始使用](using/path/administrator.md)
+      + [以開發人員身分開始使用](using/path/developer.md)
    + [使用者介面](using/user-interface.md)
    + [限制](using/limitations.md)
 + 訊息 {#create-messages}
@@ -50,10 +54,11 @@ ht-degree: 94%
       + [訂單狀態通知](using/personalization/personalization-use-case.md)
       + [購物車放棄電子郵件](using/personalization/personalization-use-case-helper-functions.md)
    + 輔助函式{#functions}
-      + [輔助函式清單](using/personalization/functions/functions.md)
+      + [開始使用協助程式函式](using/personalization/functions/functions.md)
       + [聚合函式](using/personalization/functions/aggregation.md)
       + [算術函式](using/personalization/functions/arithmetic-functions.md)
       + [陣列和清單功能](using/personalization/functions/arrays-list.md)
+      + [日期函式](using/personalization/functions/dates.md)
       + [布林值和比較函式](using/personalization/functions/operators.md)
       + [輔助程式](using/personalization/functions/helpers.md)
       + [地圖函式](using/personalization/functions/maps.md)
@@ -97,6 +102,7 @@ ht-degree: 94%
       + [傳送多頻道訊息](using/building-journeys/journeys-uc.md)
       + [使用 Campaign v7/v8 傳送訊息](using/building-journeys/campaign-classic-use-case.md)
       + [使用自訂動作以動態方式傳遞集合](using/building-journeys/collections.md)
+      + [傳送訊息給訂閱者](using/building-journeys/message-to-subscribers-uc.md)
 + 追蹤和監視 {#reporting}
    + [訊息監視](using/message-monitoring.md)
    + 即時報告 {#live-report}
@@ -111,11 +117,14 @@ ht-degree: 94%
       + [推播全域報告](using/reports/push-global-report.md)
    + 歷程報告 {#reports}
       + [建立歷程報告](using/reports/sharing-overview.md)
-      + [歷程欄位](using/reports/sharing-journey-fields.md)
-      + [常用欄位](using/reports/sharing-common-fields.md)
-      + [動作執行欄位](using/reports/sharing-execution-fields.md)
-      + [資料擷取欄位](using/reports/sharing-fetch-fields.md)
-      + [身分欄位](using/reports/sharing-identity-fields.md)
+      + [步驟事件欄位清單](using/reports/sharing-field-list.md)
+      + 舊版步驟事件欄位 {#legacy-step-event-fields}
+         + [關於舊版欄位](using/reports/sharing-legacy-fields.md)
+         + [歷程欄位](using/reports/sharing-journey-fields.md)
+         + [常用欄位](using/reports/sharing-common-fields.md)
+         + [動作執行欄位](using/reports/sharing-execution-fields.md)
+         + [資料擷取欄位](using/reports/sharing-fetch-fields.md)
+         + [身分欄位](using/reports/sharing-identity-fields.md)
       + [查詢範例](using/reports/query-examples.md)
    + 傳遞能力 {#deliverability}
       + [開始使用傳遞能力](using/deliverability.md)
@@ -140,7 +149,8 @@ ht-degree: 94%
    + 建立和管理決定 {#create-manage-activities}
       + [建立決定](using/offers/offer-activities/create-offer-activities.md)
       + [設定決定中的優惠選擇](using/offers/offer-activities/configure-offer-selection.md)
-   + 建立決策管理報表{#create-reports}
+      + [建立模擬](using/offers/offer-activities/simulation.md)
+   + 建立決策管理報表 {#create-reports}
       + [開始使用決定管理事件](using/offers/reports/get-started-events.md)
       + [決定管理事件重要資訊](using/offers/reports/key-information.md)
       + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)

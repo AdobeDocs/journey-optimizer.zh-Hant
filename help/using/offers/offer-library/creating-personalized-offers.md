@@ -1,37 +1,37 @@
 ---
-title: 建立個人化優惠
+title: 建立個人化優惠方案
 description: 了解如何在Adobe Experience Platform中建立個人化優惠方案。
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 86fc6d9df06b975539652cc44ec41fd8c8318404
+source-git-commit: b08eb138bbdf9c8a594735824eeac3496a58daba
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1348'
 ht-degree: 3%
 
 ---
 
-# 建立個人化優惠 {#creating-personalized-offers}
+# 建立個人化優惠方案 {#creating-personalized-offers}
 
 建立優惠方案之前，請確定您已建立：
 
-* 將顯示優惠方案的&#x200B;**placement**。 請參閱[建立版位](../offer-library/creating-placements.md)
-* 如果要新增資格條件：**決策規則**，定義將呈現選件的條件。 請參閱[建立決策規則](../offer-library/creating-decision-rules.md)。
-* 您可能想要與選件建立關聯的一或多個&#x200B;**標籤**。 請參閱[建立標籤](../offer-library/creating-tags.md)。
+* A **刊登** 顯示選件的。 請參閱 [建立版位](../offer-library/creating-placements.md)
+* 如果要新增資格條件：a **決策規則** 以定義將呈現選件的條件。 請參閱 [建立決策規則](../offer-library/creating-decision-rules.md).
+* 一或多個 **標籤** 您可能想要與選件建立關聯。 請參閱 [建立標籤](../offer-library/creating-tags.md).
 
 ➡️ [在影片中探索此功能](#video)
 
-可在&#x200B;**[!UICONTROL Offers]**&#x200B;功能表存取個人化優惠方案清單。
+個人化優惠方案清單可在 **[!UICONTROL Offers]** 功能表。
 
 ![](../../assets/offers_list.png)
 
 ## 建立優惠方案 {#create-offer}
 
-若要建立&#x200B;**選件**，請執行下列步驟：
+若要建立 **優惠方案**，請遵循下列步驟：
 
-1. 按一下&#x200B;**[!UICONTROL Create offer]**，然後選擇&#x200B;**[!UICONTROL Personalized offer]**。
+1. 按一下 **[!UICONTROL Create offer]**，然後選取 **[!UICONTROL Personalized offer]**.
 
    ![](../../assets/create_offer.png)
 
@@ -41,7 +41,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Offer attributes]**&#x200B;區段可讓您將索引鍵值配對與選件建立關聯，以用於報表和分析用途。
+   >此 **[!UICONTROL Offer attributes]** 區段可讓您為報表和分析目的，將索引鍵值配對與選件建立關聯。
 
 ## 設定優惠方案的陳述 {#representations}
 
@@ -49,38 +49,38 @@ ht-degree: 3%
 
 若要新增一或多個表示法並加以設定，請遵循下列步驟。
 
-1. 對於第一個表示，請從選擇將使用的&#x200B;**[!UICONTROL Channel]**&#x200B;開始。
+1. 對於第一個表示，請從選取 **[!UICONTROL Channel]** 會使用。
 
    ![](../../assets/channel-placement.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL Placement]**&#x200B;下拉式清單中只會顯示所選通道的可用位置。
+   >只有所選管道的可用位置會顯示在 **[!UICONTROL Placement]** 下拉式清單。
 
 
 1. 從清單中選取位置。
 
-   您也可以使用&#x200B;**[!UICONTROL Placement]**&#x200B;下拉式清單旁的按鈕來瀏覽所有版位。
+   您也可以使用 **[!UICONTROL Placement]** 下拉式清單來瀏覽所有版位。
 
    ![](../../assets/browse-button-placements.png)
 
-   您仍可在此根據版位的頻道和/或內容類型篩選版位。 選擇位置並按一下&#x200B;**[!UICONTROL Select]**。
+   您仍可在此根據版位的頻道和/或內容類型篩選版位。 選擇位置並按一下 **[!UICONTROL Select]**.
 
    ![](../../assets/browse-placements.png)
 
-1. 將內容新增至您的表示法。 在[此小節](#content)中了解如何操作。
+1. 將內容新增至您的表示法。 了解 [本節](#content).
 
-1. 新增內容（例如影像或URL）時，您可以指定&#x200B;**[!UICONTROL Destination link]**:點按選件的使用者會導向至對應的頁面。
+1. 新增內容（例如影像或URL）時，您可以指定 **[!UICONTROL Destination link]**:點按選件的使用者會導向至對應的頁面。
 
    ![](../../assets/offer-destination-link.png)
 
 1. 最後，選取您選擇的語言，以協助識別及管理要向使用者顯示的內容。
 
-1. 要添加其他表示，請使用&#x200B;**[!UICONTROL Add representation]**&#x200B;按鈕，並根據需要添加任意數量的表示。
+1. 要添加其他表示，請使用 **[!UICONTROL Add representation]** 按鈕，並視需要新增表示法。
 
    ![](../../assets/offer-add-representation.png)
 
-1. 添加所有表示後，選擇&#x200B;**[!UICONTROL Next]**。
+1. 添加所有表示形式後，請選擇 **[!UICONTROL Next]**.
 
 ## 定義表示的內容 {#content}
 
@@ -92,11 +92,11 @@ ht-degree: 3%
 
 ### 新增影像
 
-如果選取的版位是影像類型，您可以新增來自&#x200B;**Adobe Experience Cloud Asset**&#x200B;資料庫的內容，此資料庫是[!DNL Adobe Experience Manager Assets Essentials]所提供資產的集中存放庫。
+如果選取的版位是影像類型，您可以新增來自 **Adobe Experience Cloud Asset** 程式庫，由 [!DNL Adobe Experience Manager Assets Essentials].
 
 >[!NOTE]
 >
-> 若要使用[Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}，您需要為組織部署[!DNL Assets Essentials]，並確認使用者是&#x200B;**Assets Essentials消費者使用者**&#x200B;或/和&#x200B;**Assets Essentials使用者**&#x200B;產品設定檔的一部分。 深入了解[此頁面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
+> 使用 [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}，您需要部署 [!DNL Assets Essentials] 確認使用者是 **Assets Essentials消費者使用者** 或/和 **Assets Essentials使用者** 產品設定檔。 深入了解 [本頁](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
 
 1. 選取 **[!UICONTROL Asset library]** 選項。
 
@@ -112,7 +112,7 @@ ht-degree: 3%
 
 ### 新增URL
 
-要從外部公共位置添加內容，請選擇&#x200B;**[!UICONTROL URL]**，然後輸入要添加的內容的URL地址。
+若要從外部公用位置新增內容，請選取 **[!UICONTROL URL]**，然後輸入要新增的內容的URL位址。
 
 ![](../../assets/offer-content-url.png)
 
@@ -120,42 +120,52 @@ ht-degree: 3%
 
 選取相容的版位時，您也可以插入文字類型內容。
 
-1. 選取 **[!UICONTROL Custom]** 選項。
+1. 選取 **[!UICONTROL Custom]** 選項，然後按一下 **[!UICONTROL Add content]**.
+
+   ![](../../assets/offer-add-content.png)
 
    >[!NOTE]
    >
    >此選項不適用於影像類型版位。
 
-1. 在專用區域中，輸入要在選件中顯示的文字。
+1. 輸入要在選件中顯示的文字。
 
-   ![](../../assets/offer-text-content2.png)
+   ![](../../assets/offer-text-content.png)
+
+   您可以使用運算式編輯器個人化您的內容。 深入了解 [個人化](../../personalization/personalize.md#use-expression-editor).
+
+   ![](../../assets/offer-personalization.png)
+
+   >[!NOTE]
+   >
+   >僅 **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** 和 **[!UICONTROL Helper functions]** 來源可用於決策管理。
 
 ## 新增適用性規則和限制 {#eligibility}
 
 適用性規則和限制可讓您定義顯示優惠方案的條件。
 
-1. 配置&#x200B;**[!UICONTROL Offer eligibility]**。
+1. 設定 **[!UICONTROL Offer eligibility]**.
 
-   * 依預設，會選取&#x200B;**[!UICONTROL All visitors]**&#x200B;決策規則選項，這表示任何設定檔都有資格呈現選件。
+   * 依預設， **[!UICONTROL All visitors]** 已選取決策規則選項，這表示任何設定檔都有資格呈現選件。
 
-   * 您可以將優惠方案的呈現方式限制為一或多個Adobe Experience Platform區段的成員。 要執行此操作，請啟動&#x200B;**[!UICONTROL Visitors who fall into one or multiple segments]**&#x200B;選項，然後從左窗格中添加一個或多個段，並使用&#x200B;**[!UICONTROL And]** / **[!UICONTROL Or]**&#x200B;邏輯運算子將它們組合起來。
+   * 您可以將優惠方案的呈現方式限制為一或多個Adobe Experience Platform區段的成員。 若要這麼做，請啟用 **[!UICONTROL Visitors who fall into one or multiple segments]** 選項，然後從左側窗格新增一或多個區段，並使用 **[!UICONTROL And]** / **[!UICONTROL Or]** 邏輯運算子。
 
-      如需如何使用區段的詳細資訊，請參閱[本頁面](../../segment/about-segments.md)。
+      如需如何使用區段的詳細資訊，請參閱 [本頁](../../segment/about-segments.md).
 
       ![](../../assets/offer-eligibility-segment.png)
 
-   * 如果您想要將特定決策規則與選件建立關聯，請選取&#x200B;**[!UICONTROL By defined decision rule]**，然後從左窗格將所需規則拖曳至&#x200B;**[!UICONTROL Decision rule]**&#x200B;區域。 有關如何建立決策規則的詳細資訊，請參閱[此區段](../offer-library/creating-decision-rules.md)。
+   * 如果您想要將特定決策規則與選件建立關聯，請選取 **[!UICONTROL By defined decision rule]**，然後將所需規則從左窗格拖曳至 **[!UICONTROL Decision rule]** 的上界。 如需如何建立決策規則的詳細資訊，請參閱 [本節](../offer-library/creating-decision-rules.md).
 
       ![](../../assets/offer_rule.png)
 
       >[!CAUTION]
       >
-      >[!DNL Journey Optimizer]中目前不支援以事件為基礎的選件。 如果您根據[event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}建立決策規則，將無法在選件中運用該規則。
-   在[此小節](../offer-activities/create-offer-activities.md#segments-vs-decision-rules)中進一步了解使用區段與決策規則的相關資訊。
+      >目前不支援以事件為基礎的選件 [!DNL Journey Optimizer]. 如果您根據 [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}，您將無法在選件中運用它。
+   進一步了解如何在中使用區段與決策規則 [本節](../offer-activities/create-offer-activities.md#segments-vs-decision-rules).
 
-1. 如果使用者符合多個選件的資格，請定義選件的&#x200B;**[!UICONTROL Priority]**，而非其他選件。 優惠方案的優先順序越高，優先順序與其他優惠方案相比就越高。
+1. 定義 **[!UICONTROL Priority]** 選件的數量，而非其他選件（如果使用者符合多個選件的資格）。 優惠方案的優先順序越高，優先順序與其他優惠方案相比就越高。
 
-1. 指定選件的&#x200B;**[!UICONTROL Capping]**，表示所有使用者總共會顯示該選件的次數。 如果已將選件傳送給所有使用者的次數超過您在此欄位中指定的次數，則其傳送將停止。
+1. 指定選件的 **[!UICONTROL Capping]**，表示所有使用者中總共會顯示選件的次數。 如果已將選件傳送給所有使用者的次數超過您在此欄位中指定的次數，則其傳送將停止。
 
    >[!NOTE]
    >
@@ -177,7 +187,7 @@ ht-degree: 3%
 
 1. 請確定所有項目皆已正確設定。
 
-1. 當您的選件準備好呈現給使用者時，按一下&#x200B;**[!UICONTROL Finish]**。
+1. 當您的優惠方案準備好呈現給使用者時，請按一下 **[!UICONTROL Finish]**.
 
 1. 選擇「**[!UICONTROL Save and approve]**」。
 
@@ -185,7 +195,7 @@ ht-degree: 3%
 
    您也可以將優惠方案儲存為草稿，以便稍後編輯並核准。
 
-選件會顯示在清單中，且狀態為&#x200B;**[!UICONTROL Approved]**&#x200B;或&#x200B;**[!UICONTROL Draft]**，視您在上一個步驟中是否核准而定。
+選件會顯示在清單中，且 **[!UICONTROL Approved]** 或 **[!UICONTROL Draft]** 狀態，取決於您在上一步驟中是否核准。
 
 現在已可供使用者使用。
 
@@ -193,23 +203,23 @@ ht-degree: 3%
 
 ## 優惠清單 {#offer-list}
 
-您可以從選件清單中選取要顯示其屬性的選件。 您也可以編輯選件、變更其狀態(**Draft**、**Approved**、**Archived**)、複製選件或刪除選件。
+您可以從選件清單中選取要顯示其屬性的選件。 您也可以編輯、變更其狀態(**草稿**, **已核准**, **已封存**)、複製選件或將其刪除。
 
 ![](../../assets/offer_created.png)
 
-選取&#x200B;**[!UICONTROL Edit]**&#x200B;按鈕，返回優惠方案版本模式，您可在此修改優惠方案的[details](#create-offer)、[representations](#representations)，以及編輯[適用性規則和限制](#eligibility)。
+選取 **[!UICONTROL Edit]** 按鈕，返回優惠方案版本模式，您可在其中修改優惠方案的 [詳細資訊](#create-offer), [表示](#representations)，以及編輯 [適用性規則與限制](#eligibility).
 
-選取已核准的優惠方案，然後按一下&#x200B;**[!UICONTROL Undo approve]**&#x200B;將優惠方案狀態設回&#x200B;**[!UICONTROL Draft]**。
+選取已核准的優惠方案，然後按一下 **[!UICONTROL Undo approve]** 將優惠方案狀態設回 **[!UICONTROL Draft]**.
 
-若要將狀態再次設為&#x200B;**[!UICONTROL Approved]**，請選取現在顯示的對應按鈕。
+將狀態再次設定為 **[!UICONTROL Approved]**，請選取現在顯示的對應按鈕。
 
 ![](../../assets/offer_approve.png)
 
-**[!UICONTROL More actions]**&#x200B;按鈕可啟用下面所述的操作。
+此 **[!UICONTROL More actions]** 按鈕可啟用以下說明的動作。
 
 ![](../../assets/offer_more-actions.png)
 
-* **[!UICONTROL Duplicate]**:建立具有相同屬性、表示、適用性規則和限制的優惠方案。依預設，新選件的狀態為&#x200B;**[!UICONTROL Draft]**。
+* **[!UICONTROL Duplicate]**:建立具有相同屬性、表示、適用性規則和限制的優惠方案。 依預設，新選件具有 **[!UICONTROL Draft]** 狀態。
 * **[!UICONTROL Delete]**:從清單中移除選件。
 
    >[!CAUTION]
@@ -218,7 +228,7 @@ ht-degree: 3%
    >
    >如果在集合或決策中使用選件，則無法刪除選件。 您必須先從任何物件中移除選件。
 
-* **[!UICONTROL Archive]**:將選件狀態設為 **[!UICONTROL Archived]**。選件仍可從清單中取得，但您無法將其狀態設回&#x200B;**[!UICONTROL Draft]**&#x200B;或&#x200B;**[!UICONTROL Approved]**。 您只能複製或刪除它。
+* **[!UICONTROL Archive]**:將優惠方案狀態設為 **[!UICONTROL Archived]**. 選件仍可從清單中取得，但您無法將其狀態設回 **[!UICONTROL Draft]** 或 **[!UICONTROL Approved]**. 您只能複製或刪除它。
 
 您也可以選取對應的核取方塊，以同時刪除或變更多個選件的狀態。
 
@@ -232,7 +242,7 @@ ht-degree: 3%
 
 ![](../../assets/offer_click-name.png)
 
-這可讓您存取該選件的詳細資訊。 選取&#x200B;**[!UICONTROL Change log]**&#x200B;標籤，以[監視對選件進行的所有變更](../get-started/user-interface.md#monitoring-changes)。
+這可讓您存取該選件的詳細資訊。 選取 **[!UICONTROL Change log]** 標籤 [監視所有更改](../get-started/user-interface.md#monitoring-changes) 已經向你提出了。
 
 ![](../../assets/offer_information.png)
 

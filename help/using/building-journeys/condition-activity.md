@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 0184614fb3203a1b5fee7603acd173042f223578
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 10%
+source-wordcount: '1010'
+ht-degree: 9%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 10%
 
 在歷程中使用數個條件時，您可以為每個條件定義標籤，以便更輕鬆地識別。
 
-如果要定義多個條件，請按一下&#x200B;**[!UICONTROL Add a path]**。 對於每個條件，在活動之後的畫布中會新增路徑。
+按一下 **[!UICONTROL Add a path]** 若要定義數個條件。 對於每個條件，在活動之後的畫布中會新增路徑。
 
 ![](../assets/journey47.png)
 
@@ -38,7 +38,7 @@ ht-degree: 10%
 
 ![](../assets/journey48.png)
 
-您可以勾選&#x200B;**[!UICONTROL Show path for other cases than the one(s) above]**，為不符合定義條件的對象建立其他路徑。 請注意，此選項不適用於分割條件。 請參閱[百分比分割](#percentage_split)。
+您可以透過勾選 **[!UICONTROL Show path for other cases than the one(s) above]**. 請注意，此選項不適用於分割條件。 請參閱 [百分比分割](#percentage_split).
 
 簡單模式允許您根據欄位組合執行簡單查詢。 所有可用欄位都會顯示在畫面左側。 將欄位拖放至主區域。 要組合不同的元素，請將它們互相聯鎖以建立不同的組和/或組級別。 然後，您可以選取邏輯運算子來組合同一層級的元素：
 
@@ -47,18 +47,20 @@ ht-degree: 10%
 
 ![](../assets/journey64.png)
 
-如果您使用[Adobe Experience Platform分段服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}來建立區段，您可以在歷程條件中運用這些區段。 請參閱[在條件](../building-journeys/condition-activity.md#using-a-segment)中使用區段。
+如果您使用 [Adobe Experience Platform區段服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}若要建立區段，您可以在歷程條件中運用這些區段。 請參閱 [在條件中使用區段](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
 >
->您無法使用簡單編輯器對時間序列（例如購買清單、訊息的點按次數）執行查詢。 為此，您將需要使用進階編輯器。 請參閱[AdobeJourney Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+>您無法使用簡單編輯器對時間序列（例如購買清單、訊息的點按次數）執行查詢。 為此，您將需要使用進階編輯器。 請參閱 [AdobeJourney Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
 
+在簡單編輯器中，您也會在事件和資料來源類別下方找到歷程屬性類別。 此類別包含指定設定檔之歷程的相關技術欄位。 這是系統從即時歷程擷取的資訊，例如歷程ID或遇到的特定錯誤。 如需詳細資訊，請參閱 [AdobeJourney Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html){target=&quot;_blank&quot;}
+
 ## 資料來源條件 {#data_source_condition}
 
-這可讓您根據資料來源的欄位或先前位於歷程中的事件，來定義條件。 若要了解如何使用運算式編輯器，請參閱[AdobeJourney Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}。 使用進階運算式編輯器，您可以設定更進階的條件來處理集合，或使用需要傳遞參數的資料來源。 請參閱[此頁面](../datasource/external-data-sources.md)。
+這可讓您根據資料來源的欄位或先前位於歷程中的事件，來定義條件。 若要了解如何使用運算式編輯器，請參閱 [AdobeJourney Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}。 使用進階運算式編輯器，您可以設定更進階的條件來處理集合，或使用需要傳遞參數的資料來源。 請參閱[此頁面](../datasource/external-data-sources.md)。
 
 ![](../assets/journey50.png)
 
@@ -74,7 +76,7 @@ ht-degree: 10%
 
 ## 百分比分割 {#percentage_split}
 
-此選項可讓您隨機分割對象，以定義每個群組的不同動作。 定義每個路徑的分割數和重新分割。 分割計算是統計的，因為系統無法預測歷程的此活動中會有多少人流量。 因此，分割的誤差範圍非常小。 此函式以Java隨機機制為基礎（請參閱此[page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)）。
+此選項可讓您隨機分割對象，以定義每個群組的不同動作。 定義每個路徑的分割數和重新分割。 分割計算是統計的，因為系統無法預測歷程的此活動中會有多少人流量。 因此，分割的誤差範圍非常小。 此函式以Java隨機機制為基礎(請參閱 [頁面](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html))。
 
 在測試模式中，達到分割時，一律會選取頂端分支。 如果希望測試選擇不同的路徑，則可以重新組織拆分分支的位置。 請參見[此頁面](../building-journeys/testing-the-journey.md)。
 
@@ -86,7 +88,7 @@ ht-degree: 10%
 
 ## 日期條件 {#date_condition}
 
-這可讓您根據日期定義不同的流程。 例如，如果人員在「銷售」期間進入步驟，您將向他發送特定消息。 今年剩下的時間，你會傳送另一條資訊。
+這可讓您根據日期定義不同的流程。 例如，如果人員在「銷售」期間進入步驟，您將向他們發送特定消息。 今年剩下的時間，你會傳送另一條資訊。
 
 >[!NOTE]
 >
@@ -94,23 +96,39 @@ ht-degree: 10%
 
 ![](../assets/journey53.png)
 
+<!--
+## Profile cap {#profile_cap}
+
+Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path.
+
+You can use this condition type to ramp up the volume of your deliveries. For example, you might have recently moved to another email service provider, IP address, or email domain or subdomain. Using this feature, you can establish your reputation as a sender and avoid that your deliveries be blocked or moved to the spam folder of the recipients' mailbox. Learn more with this [use case](ramp-up-deliveries-uc.md).
+
+The default cap is 1000. You must set an integer value that is greater than or equal to 1.
+
+The counter applies only to the selected journey version. By default, the counter is reset to zero after 180 days. After a reset, the selected profiles take the first path again until the counter limit is reached. You can gradually increase this limit up to the total number of your subscribers. After your IP has warmed up, you can remove this condition.
+
+The first path always has priority over the second path, even if you move the second path above the first path on the journey canvas.
+
+![](../assets/profile-cap-condition.png)
+-->
+
 ## 在條件中使用區段 {#using-a-segment}
 
-本節說明如何在歷程條件中使用區段。 如需區段以及如何建立區段的詳細資訊，請參閱[此區段](../segment/about-segments.md)。
+本節說明如何在歷程條件中使用區段。 如需區段及如何建立區段的詳細資訊，請參閱 [本節](../segment/about-segments.md).
 
 若要在歷程條件中使用區段，請遵循下列步驟：
 
-1. 開啟歷程，拖放&#x200B;**[!UICONTROL Condition]**&#x200B;活動並選擇&#x200B;**資料來源條件**。
+1. 開啟歷程，放置 **[!UICONTROL Condition]** 活動，然後選擇 **資料來源條件**.
    ![](../assets/journey47.png)
 
-1. 按一下&#x200B;**[!UICONTROL Add a path]**&#x200B;以獲取每個需要的額外路徑。 對於每個路徑，按一下&#x200B;**[!UICONTROL Expression]**&#x200B;欄位。
+1. 按一下 **[!UICONTROL Add a path]** 需要的每條額外路徑。 對於每個路徑，按一下 **[!UICONTROL Expression]** 欄位。
 
    ![](../assets/segment3.png)
 
-1. 在左側展開&#x200B;**[!UICONTROL Segments]**&#x200B;節點。 拖放您要用於條件的區段。 依預設，區段上的條件為true。
+1. 在左側展開 **[!UICONTROL Segments]** 節點。 拖放您要用於條件的區段。 依預設，區段上的條件為true。
 
    ![](../assets/segment4.png)
 
    >[!NOTE]
    >
-   >請注意，只有具有&#x200B;**Remailed**&#x200B;和&#x200B;**Existing**&#x200B;區段參與狀態的個人才會被視為區段的成員。 如需如何評估區段的詳細資訊，請參閱[分段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}。
+   >請注意，只有 **已實現** 和 **現有** 區段參與狀態會視為區段的成員。 如需如何評估區段的詳細資訊，請參閱 [區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}。

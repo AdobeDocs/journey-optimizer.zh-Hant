@@ -1,35 +1,39 @@
 ---
-title: 幫助程式函式庫
+title: 開始使用Helper函式
 description: Journey Optimizer Helper函式庫
-feature: 個性化
-topic: 個性化
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
+source-git-commit: 94dcf91e98ef343eed4c69a7251427809eece236
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 2%
+source-wordcount: '1344'
+ht-degree: 4%
 
 ---
 
+# 開始使用Helper函式{#functionsL}
 
-# 幫助程式函式庫{#functionsL}
+使用 [!DNL Journey Optimizer] 範本語言，可對資料執行操作，例如計算、資料格式或轉換、條件，以及在個人化內容中處理。 了解個人化語法准則，位於 [本頁](../personalization-syntax.md).
 
-使用[!DNL Journey Optimizer]範本語言對資料執行操作，例如計算、資料格式或轉換、條件，以及在個人化內容中處理這些操作。 在[本頁面](../personalization-syntax.md)中了解個人化語法准則。
-
-➡️ [探索如何使用協助函式](#video)（影片）
+➡️ [了解如何使用協助程式函式](#video) （影片）
 
 範本語言會運用在運算式編輯器的個人化下拉式清單中可用的協助函式中，如下所示：
 
 ![](../assets/access-helper-functions.png)
 
+在 [!DNL Journey Optimizer] 運算式編輯器、協助程式函式分為三個類別： [函式](#functions-helper), [Helpers](#helper-helper) 和 [運算子](#operators-helper).
 
+選擇類別以訪問子類別和函式。
 
-在[!DNL Journey Optimizer]運算式編輯器中，協助程式函式分為三個類別：[函式](#functions-helper)、[Helpers](#helper-helper)和[操作符](#operators-helper)。
+按一下 `>` 表徵圖。 按一下 `+` 圖示：函式會自動新增至個人化畫面。
 
-## 函數{#functions-helper}
+按一下 `...` 表徵圖，查看函式的說明並將其添加到收藏夾中。 [了解更多](../personalize.md#fav)
 
-**陣列函式**
+## 函式{#functions-helper}
+
+### 陣列函式
 
 <table>
     <tr>
@@ -79,8 +83,43 @@ ht-degree: 2%
     </tr>
 </table>
 
+### 日期時間函式{#date-functions}
 
-**映射函式**
+<table>
+    <tr>
+        <td><a href="dates.md#age">年齡</a></td><td>此函式會從指定日期擷取年齡</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#current">當前時間（以毫秒為單位）</a></td><td>此函式以每秒的時間擷取目前時間</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#date-diff">日期差異</a></td><td>此函式會擷取兩個日期之間的差異（以天為單位）</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-week">週中的日</a></td><td>此函式會擷取一週中的某天</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-year">年中的日</a></td><td>此函式會擷取一年當中的某天</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#format-date">日期格式</a></td><td>此函式會格式化日期時間值</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-days">設定天數</a></td><td>此函式會設定指定日期時間的月份日</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-hours">設定天數</a></td><td>此函式會設定日期時間的小時數</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#to-utc">到UTC</a></td><td>此函式將日期時間轉換為UTC</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#week-of-year">一年中的第一週</a></td><td>此函式會傳回一年中的第一週</td>
+    </tr>
+</table>
+</table>
+
+### 映射函式
 
 <table>
     <tr>
@@ -105,7 +144,7 @@ ht-degree: 2%
     </tr>
 </table>
 
-**字串函式**
+### 字串函式
 
 <table>
     <tr>
@@ -195,7 +234,7 @@ ht-degree: 2%
 
 ## 輔助程式{#helper-helper}
 
-[本頁](helpers.md)中有詳細的幫助程式。
+Helpers在 [本頁](helpers.md).
 
 
 <table>
@@ -285,6 +324,6 @@ ht-degree: 2%
 
 ## 作法影片{#video}
 
-了解如何使用個人化協助程式函式來轉換個人化值，並了解協助程式函式的不同使用案例。
+瞭解如何使用個人化協助程式函式來轉換個人化值，並瞭解協助程式函式的不同使用案例。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

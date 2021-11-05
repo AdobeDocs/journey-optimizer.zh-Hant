@@ -5,22 +5,23 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
+source-git-commit: f0e34e040dd0e0ba2fa8293f4290ab55e1781426
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 1%
+source-wordcount: '731'
+ht-degree: 0%
 
 ---
 
 # 以電子郵件傳送全域報告 {#email-global-report}
 
-電子郵件&#x200B;**[!UICONTROL Global report]**&#x200B;只會以特定電子郵件傳送為目標。
+電子郵件 **[!UICONTROL Global report]** 僅鎖定特定電子郵件傳送。
 
-從&#x200B;**[!UICONTROL Messages]**&#x200B;菜單的&#x200B;**[!UICONTROL Executions]**&#x200B;頁簽中，選擇&#x200B;**[!UICONTROL Global view]**，然後從所選傳送的高級菜單中選擇&#x200B;**[!UICONTROL Global report]**。
+從 **[!UICONTROL Executions]** 的 **[!UICONTROL Messages]** 菜單，選擇 **[!UICONTROL Global view]** 然後，從所選傳送的進階功能表中選取 **[!UICONTROL Global report]**.
 
 ![](../assets/global_report_3.png)
 
-電子郵件&#x200B;**[!UICONTROL Global report]**&#x200B;會分為不同的小工具集，詳述您的傳送成功和錯誤。 如有需要，可對每個介面工具集調整大小並加以刪除。 有關詳細資訊，請參閱此[節](global-report.md#modify-dashboard)。
+電子郵件 **[!UICONTROL Global report]** 會分為不同的小工具，詳述傳送的成功和錯誤。 如有需要，可對每個介面工具集調整大小並加以刪除。 如需詳細資訊，請參閱 [節](global-report.md#modify-dashboard).
 
 ![](../assets/global_report_4.png)
 
@@ -38,11 +39,11 @@ ht-degree: 1%
 
 * **[!UICONTROL Click Rate]**:傳送中的點按百分比。
 
-* **[!UICONTROL Spam Complaint Rate]**:收件者標示為垃圾訊息的電子郵件與已傳送郵件的百分比。如需投訴的詳細資訊，請參閱[傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}。
+* **[!UICONTROL Spam Complaint Rate]**:收件者標示為垃圾訊息的電子郵件與已傳送郵件的百分比。 如需投訴的詳細資訊，請參閱 [傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}。
 
-* **[!UICONTROL Unsubscribe Rate]**:不重複取消訂閱與已傳送訊息數量的百分比。此指標不取決於取消訂閱連結的點按次數，而是根據收件者起始的取消訂閱次數。 進一步了解此[page](../consent.md)中的取消訂閱。
+* **[!UICONTROL Unsubscribe Rate]**:不重複取消訂閱與已傳送訊息數量的百分比。 此指標不取決於取消訂閱連結的點按次數，而是根據收件者起始的取消訂閱次數。 了解更多取消訂閱，請參閱 [頁面](../consent.md).
 
-**[!UICONTROL Email - Tracking statistics]**&#x200B;包含傳遞的收件者活動可用資料：
+此 **[!UICONTROL Email - Tracking statistics]** 包含您傳送之收件者活動的可用資料：
 
 * **[!UICONTROL Opens]**:傳送中開啟傳送的次數。
 
@@ -56,7 +57,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Click through rate]**:與歷程互動的使用者百分比。
 
-**[!UICONTROL Sending Statistics]**&#x200B;圖表會詳細說明傳送的成功：
+此 **[!UICONTROL Sending Statistics]** 圖表會詳細說明您的傳送是否成功：
 
 * **[!UICONTROL Delivered]**:已成功傳送的訊息數，與已傳送的訊息總數相關。
 
@@ -66,32 +67,58 @@ ht-degree: 1%
 
 ![](../assets/global_report_5.png)
 
-**[!UICONTROL Bounce Reasons]**&#x200B;和&#x200B;**[!UICONTROL Bounce categories]**&#x200B;介面工具集包含與退信消息相關的可用資料，例如：
+此 **[!UICONTROL Bounce Reasons]** 和 **[!UICONTROL Bounce categories]** 小工具包含與退信消息相關的可用資料，例如：
 
-* **[!UICONTROL Hard bounce]**:永久錯誤的總數，例如錯誤的電子郵件地址。這包含明確指出地址無效的錯誤訊息，例如「未知」使用者。
+* **[!UICONTROL Hard bounce]**:永久錯誤的總數，例如錯誤的電子郵件地址。 這包含明確指出地址無效的錯誤訊息，例如「未知」使用者。
 
 * **[!UICONTROL Soft bounce]**:臨時錯誤（如完整收件箱）的總數。
 
 * **[!UICONTROL Ignored]**:臨時（例如不在辦公室）或技術錯誤（例如，如果發送者類型是郵遞員）的總數。
 
-有關跳出的詳細資訊，請參閱[隱藏清單](../suppression-list.md)頁面。
+如需退信的詳細資訊，請參閱 [隱藏清單](../suppression-list.md) 頁面。
 
-**[!UICONTROL Error Reasons]**&#x200B;圖表和表格可讓您查看在傳送期間發生的錯誤。
+此 **[!UICONTROL Error Reasons]** 圖形和表格可讓您查看在傳送期間發生的錯誤。
 
 ![](../assets/global_report_6.png)
 
-**[!UICONTROL Email - Top recipient domain]**&#x200B;圖表和表格會詳細說明收件者最常使用哪些網域來開啟電子郵件。
+此 **[!UICONTROL Email - Top recipient domain]** 圖表和表格詳細說明收件者最常使用哪些網域來開啟電子郵件。
 
-**[!UICONTROL Email - Top Url]**&#x200B;圖表和表格會詳細說明您傳送中最常造訪的URL。
+此 **[!UICONTROL Email - Top Url]** 圖表和表格會詳細說明哪些URL最常被瀏覽。
 
-**[!UICONTROL Open vs Click]**&#x200B;可識別收件者與傳送的互動：
+此 **[!UICONTROL Open vs Click]** 識別收件者與傳送的互動：
 
 * **[!UICONTROL Unique Clicks]**：按一下電子郵件內容的收件者人數。
 
 * **[!UICONTROL Unique Opens]**:開啟傳遞的收件者人數。
 
+![](../assets/global_report_20.png)
+
 >[!NOTE]
 >
->狀態為&#x200B;**[!UICONTROL Suppressed]**&#x200B;或&#x200B;**[!UICONTROL Not allowed]**&#x200B;的設定檔會在訊息傳送程式期間排除。 因此，雖然&#x200B;**歷程報表**&#x200B;會將這些設定檔顯示為已在歷程（[讀取區段](../building-journeys/read-segment.md)和[訊息](../building-journeys/journeys-message.md)活動）中移動，但&#x200B;**電子郵件報表**&#x200B;不會在電子郵件傳送前篩選掉的&#x200B;**[!UICONTROL Sent]**&#x200B;量度中納入這些設定檔。
+>只有在電子郵件中插入決策時，選件小工具和量度才可供使用。 有關「決策管理」的詳細資訊，請參閱 [頁面](../offers/get-started/starting-offer-decisioning.md).
+
+此 **[!UICONTROL Offers statistic]** 和 **[!UICONTROL Offers statistics]** 一段時間後，Widget會測量選件的成功，以及對目標對象的影響。 它會使用KPI詳細說明與訊息相關的主要資訊：
+
+* **[!UICONTROL Offer sent]**:選件的傳送總數。
+
+* **[!UICONTROL Offer impression]**:傳遞中開啟選件的次數。
+
+* **[!UICONTROL Offer clicks]**:傳送中點按選件的次數。
+
+此 **[!UICONTROL Offers detailed statistic]** 表格包含您選件中收件者活動的可用資料：
+
+* **[!UICONTROL Placement name]**:用來顯示優惠方案的版位名稱。 有關投放位置的詳細資訊，請參閱 [頁面](../offers/offer-library/creating-placements.md).
+
+* **[!UICONTROL Offer name]**:傳送中新增的選件名稱。 有關投放位置的詳細資訊，請參閱 [頁面](../offers/offer-library/creating-personalized-offers.md).
+
+* **[!UICONTROL Offer sent]**:選件的傳送總數。
+
+* **[!UICONTROL Offer impression rate]**:已開啟選件與已傳送選件數量的百分比。
+
+* **[!UICONTROL Offer click rate]**:與優惠方案互動的使用者百分比。
+
+>[!NOTE]
 >
->進一步了解[隱藏清單](../suppression-list.md)和[允許清單](../allow-list.md)。 若要找出所有排除案例的原因，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}。
+>具有 **[!UICONTROL Suppressed]** 或 **[!UICONTROL Not allowed]** 在訊息傳送程式期間會排除狀態。 因此，若 **歷程報表** 會將這些設定檔顯示為已在歷程中移動([讀取區段](../building-journeys/read-segment.md) 和 [訊息](../building-journeys/journeys-message.md) 活動), **電子郵件報表** 不會將其納入 **[!UICONTROL Sent]** 量度，因為在傳送電子郵件前會先將量度篩選掉。
+>
+>深入了解 [隱藏清單](../suppression-list.md) 和 [允許的清單](../allow-list.md). 若要找出所有排除案例的原因，您可以使用 [Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}。

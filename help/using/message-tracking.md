@@ -6,20 +6,20 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: c6db89093e1ec5b7d9fe084cec58b8b7664c6ab2
 workflow-type: tm+mt
 source-wordcount: '791'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 新增連結及追蹤訊息 {#tracking}
 
-使用[!DNL Journey Optimizer]來新增內容的連結並追蹤傳送的訊息，以監控收件者的行為。
+使用 [!DNL Journey Optimizer] 新增內容連結並追蹤傳送的訊息，以監控收件者的行為。
 
 ## 啟用追蹤 {#enable-tracking}
 
-當[建立您的訊息](create-message.md)時，您可以檢查&#x200B;**[!UICONTROL Open Tracking for email]**&#x200B;和/或&#x200B;**[!UICONTROL Click Tracking for email]**&#x200B;選項，以啟用電子郵件層級的追蹤。
+您可以檢查 **[!UICONTROL Open Tracking for email]** 和/或 **[!UICONTROL Click Tracking for email]** 選項 [建立您的訊息](create-message.md).
 
 ![](assets/message-tracking.png)
 
@@ -28,6 +28,7 @@ ht-degree: 1%
 >預設會啟用這兩個選項。
 
 這可讓您透過以下方式追蹤收件者的行為：
+
 * **[!UICONTROL Open Tracking for email]**:已開啟的訊息。
 * **[!UICONTROL Click Tracking for email]**:點按電子郵件中的連結。
 
@@ -37,11 +38,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->當[追蹤啟用](#enable-tracking)時，會追蹤包含在訊息內容中的所有連結。
+>當 [追蹤已啟用](#enable-tracking)，則會追蹤訊息內容中包含的所有連結。
 
 若要將連結插入電子郵件內容，請遵循下列步驟：
 
-1. 選取元素，然後從內容工具列按一下&#x200B;**[!UICONTROL Insert link]**。
+1. 選取元素並按一下 **[!UICONTROL Insert link]** 中。
 
    ![](assets/message-tracking-insert-link.png)
 
@@ -49,19 +50,19 @@ ht-degree: 1%
 
    * **[!UICONTROL External link]**:插入外部URL的連結。
 
-   * **[!UICONTROL Unsubscription link]**:插入連結以取消訂閱以免接收來自您品牌的通訊。進一步瞭解[本章節](consent.md#opt-out-management)中的選擇退出管理。
+   * **[!UICONTROL Unsubscription link]**:插入連結以取消訂閱以免接收來自您品牌的通訊。 進一步瞭解[本章節](consent.md#opt-out-management)中的選擇退出管理。
 
-   * **[!UICONTROL Mirror page]**:插入連結以在網頁瀏覽器中顯示電子郵件內容。進一步了解[本節](#mirror-page)。
+   * **[!UICONTROL Mirror page]**:插入連結以在網頁瀏覽器中顯示電子郵件內容。 深入了解 [本節](#mirror-page).
 
-   * **[!UICONTROL Opt-out]**:插入連結，讓使用者無需確認選擇退出即可快速取消訂閱您的通訊內容。進一步了解[本節](#one-click-opt-out-link)。
+   * **[!UICONTROL Opt-out]**:插入連結，讓使用者無需確認選擇退出即可快速取消訂閱您的通訊內容。 深入了解 [本節](#one-click-opt-out-link).
 
    ![](assets/message-tracking-links.png)
 
-1. 您可以個人化您的連結。 在[此區段](personalization/personalization-syntax.md#perso-urls)中深入了解個人化URL。
+1. 您可以個人化您的連結。 進一步了解個人化URL，位於 [本節](personalization/personalization-syntax.md#perso-urls).
 
 1. 儲存您的變更。
 
-1. 建立連結後，您仍可從右側的&#x200B;**[!UICONTROL Component settings]**&#x200B;窗格修改該連結。
+1. 建立連結後，您仍可從 **[!UICONTROL Component settings]** 窗格。
 
    * 按一下鉛筆圖示即可編輯連結。
    * 您可以核取對應的選項，選擇是否將連結加底線。
@@ -72,7 +73,7 @@ ht-degree: 1%
 
 鏡像頁面是可透過網頁瀏覽器線上存取的HTML頁面。 其內容與您的電子郵件內容相同。
 
-若要將連結新增至電子郵件中的鏡像頁面，請[插入連結](#insert-links)並選取&#x200B;**[!UICONTROL Mirror page]**&#x200B;作為連結類型。
+若要將連結新增至電子郵件中的鏡像頁面， [插入連結](#insert-links) 選取 **[!UICONTROL Mirror page]** 作為連結的類型。
 
 ![](assets/message-tracking-mirror-page.png)
 
@@ -86,7 +87,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->在傳送至測試設定檔的[proof](preview.md#send-proofs)中，鏡像頁面的連結未作用中。 它只會在最終訊息中啟動。
+>在 [證明](preview.md#send-proofs) 傳送至測試設定檔時，鏡像頁面的連結沒有作用中。 它只會在最終訊息中啟動。
 
 鏡像頁面的保留期為60天。 延遲後，鏡像頁面將不再可用。
 
@@ -96,7 +97,7 @@ ht-degree: 1%
 
 若要在電子郵件中新增選擇退出連結，請遵循下列步驟。
 
-1. [插入連](#insert-links) 結並選 **[!UICONTROL Opt-out]** 取作為連結類型。
+1. [插入連結](#insert-links) 選取 **[!UICONTROL Opt-out]** 作為連結的類型。
 
    ![](assets/message-tracking-opt-out.png)
 
@@ -104,15 +105,15 @@ ht-degree: 1%
 
    ![](assets/message-tracking-opt-out-level.png)
 
-   * **[!UICONTROL Channel]**:選擇退出會套用至目前通道之設定檔目標（即電子郵件地址）的未來訊息。如果有數個目標與某個設定檔相關聯，則選擇退出會套用至該管道設定檔中的所有目標（即電子郵件地址）。
+   * **[!UICONTROL Channel]**:選擇退出會套用至目前通道之設定檔目標（即電子郵件地址）的未來訊息。 如果有數個目標與某個設定檔相關聯，則選擇退出會套用至該管道設定檔中的所有目標（即電子郵件地址）。
    * **[!UICONTROL Identity]**:選擇退出會套用至未來傳送給目前訊息所使用之特定目標（即電子郵件地址）的訊息。
-   * **[!UICONTROL Subscription]**:選擇退出會套用至與特定訂閱清單相關聯的未來訊息。只有當當前消息與訂閱清單關聯時，才能選擇此選項。
+   * **[!UICONTROL Subscription]**:選擇退出會套用至與特定訂閱清單相關聯的未來訊息。 只有當當前消息與訂閱清單關聯時，才能選擇此選項。
 
 1. 輸入登錄頁面的URL，在取消訂閱後，系統會將使用者重新導向。 此頁面僅供確認選擇退出是否成功使用。
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
-   您可以個人化您的連結。 在[此區段](personalization/personalization-syntax.md)中深入了解個人化URL。
+   您可以個人化您的連結。 進一步了解個人化URL，位於 [本節](personalization/personalization-syntax.md).
 
 1. 儲存您的變更。
 
@@ -120,9 +121,9 @@ ht-degree: 1%
 
 ## 管理追蹤 {#manage-tracking}
 
-[電子郵件設計工具](create-email-content.md)可讓您管理追蹤的URL，例如編輯每個連結的追蹤類型。
+此 [電子郵件設計工具](create-email-content.md) 可讓您管理追蹤的URL，例如編輯每個連結的追蹤類型。
 
-1. 按一下左窗格中的&#x200B;**[!UICONTROL Links]**&#x200B;圖示，以顯示要追蹤之內容的所有URL清單。
+1. 按一下 **[!UICONTROL Links]** 圖示，顯示將被追蹤之內容的所有URL清單。
 
    此清單可讓您集中檢視，並找出電子郵件內容中的每個URL。
 
@@ -130,7 +131,7 @@ ht-degree: 1%
 
    ![](assets/message-tracking-edit-links.png)
 
-1. 您可以視需要修改&#x200B;**[!UICONTROL Tracking Type]**:
+1. 您可以修改 **[!UICONTROL Tracking Type]** 如有需要：
 
 
    ![](assets/message-tracking-edit-a-link.png)
@@ -140,8 +141,8 @@ ht-degree: 1%
    * **[!UICONTROL Tracked]**:在此URL上啟用追蹤。
    * **[!UICONTROL Opt out]**:將此URL視為選擇退出或取消訂閱URL。
    * **[!UICONTROL Mirror page]**:將此URL視為鏡像頁面URL。
-   * **[!UICONTROL Never]**:切勿啟用此URL的追蹤。  <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Never]**:切勿啟用此URL的追蹤。 <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-[Executions頁簽](message-monitoring.md)中列出已開啟的消息數和已點擊的連結數。
+已開啟的訊息數和已點按的連結數列在 [「執行」頁簽](message-monitoring.md).
 
-[電子郵件即時報表](reports/email-live-report.md)和[電子郵件全域報表](reports/email-global-report.md)中提供關於開啟和點按次數的報表。
+可在 [電子郵件即時報表](reports/email-live-report.md) 和 [電子郵件全域報表](reports/email-global-report.md).

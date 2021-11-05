@@ -1,14 +1,15 @@
 ---
-title: 建立個人化優惠
+title: 建立個人化優惠方案
 description: 個人化優惠方案是根據適用性規則和限制而自訂的行銷訊息。
-feature: 優惠
-topic: 整合
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
+source-git-commit: 701b8a46b5f22c31bee479ddfb63f8e399cee4a1
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 12%
+source-wordcount: '176'
+ht-degree: 9%
 
 ---
 
@@ -16,11 +17,11 @@ ht-degree: 12%
 
 個人化優惠方案是根據適用性規則和限制而自訂的行銷訊息。
 
-您可以向[!DNL Offer Library] API提出POST要求，同時提供容器ID，借此建立個人化優惠方案。
+您可以向 [!DNL Offer Library] API，同時提供容器ID。
 
 ## 接受和內容類型標題
 
-下表顯示了請求標題中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
+下表顯示了 *內容類型* 和 *接受* 請求標題中的欄位：
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
@@ -85,7 +86,7 @@ curl -X POST \
 
 **回應**
 
-成功的回應會傳回新建立之個人化優惠方案的資訊，包括其唯一例項ID和版位`@id`。 您可以在後續步驟中使用執行個體ID來更新或刪除您的個人化優惠方案。
+成功的回應會傳回新建立之個人化優惠方案的資訊，包括其唯一例項ID和版位 `@id`. 您可以在後續步驟中使用執行個體ID來更新或刪除您的個人化優惠方案。
 
 ```json
 {
@@ -100,3 +101,7 @@ curl -X POST \
     "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
+
+## 限制 {#limitations}
+
+行動裝置目前不支援某些選件限制 [!DNL Experience Edge] 工作流程，例如 `Capping`. 此 `Capping` 欄位值會指定優惠方案可向所有使用者呈現的次數。 如需詳細資訊，請參閱 [優惠方案適用性規則與限制檔案](../../../offer-library/creating-personalized-offers.md).

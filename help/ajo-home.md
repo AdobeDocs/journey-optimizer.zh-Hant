@@ -6,14 +6,15 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
+exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
+source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 37%
+source-wordcount: '202'
+ht-degree: 40%
 
 ---
 
-# Adobe[!DNL Journey Optimizer]檔案 {#cjm-documentation}
+# Adobe [!DNL Journey Optimizer] 檔案 {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
 
@@ -27,20 +28,27 @@ ht-degree: 37%
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">什麼是[!DNL Journey Optimizer]?</a>
+      <a href="using/get-started.md">什麼是[!DNL Journey Optimizer]？</a>
     </div>
-    <p>探索重要功能及瞭解如何開始使用
+    <p>探索主要功能和使用案例
     <p>
     <div>
       <a href="using/release-notes.md">發行說明</a>
     </div>
-    <p>探索新功能、最新改進項目和修正項目
+    <p>新功能、最新改進項目和修正
+   <p>
+    <div>
+      <a href="using/quick-start.md">快速入門手冊</a>
+    </div>
+    <p>
+    了解如何以管理員、資料工程師或Journey實務人員的身分開始
+    <p>
     <p>
     <div>
       <a href="using/design-emails.md">設計電子郵件內容</a>
     </div>
     <p>
-    設計新電子郵件或匯入現有的HTML內容
+    設計新電子郵件或匯入現有HTML內容
     <p>
     <div>
       <a href="using/building-journeys/journeys-message.md">傳送訊息</a>
@@ -53,14 +61,14 @@ ht-degree: 37%
     <p>了解如何建立及執行歷程
     <p>
     <div>
-    <a href="using/configuration/get-started-configuration.md">設定[!DNL Journey Optimizer]</a>
+    <a href="using/configuration/get-started-configuration.md">設定 [!DNL Journey Optimizer]</a>
     </div>
-    <p>了解設定[!DNL Journey Optimizer]的關鍵步驟
+    <p>了解設定的關鍵步驟 [!DNL Journey Optimizer]
     <p>
     <div>
-    <a href="using/administration/permissions-overview.md">授予[!DNL Journey Optimizer]的存取權</a>
+    <a href="using/administration/permissions-overview.md">授予 [!DNL Journey Optimizer]</a> 的存取權限 
     </div>
-    <p>了解如何定義和管理指派給[!DNL Journey Optimizer]使用者的權限
+    <p>定義並管理指派給 [!DNL Journey Optimizer] 使用者
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">決定管理</a>
@@ -79,7 +87,7 @@ ht-degree: 37%
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant" target="_blank">Adobe Experience Platform檔案</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant" target="_blank">Adobe Experience Platform 文件</a>
     </li>
     </div>
       <div>

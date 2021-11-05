@@ -5,26 +5,27 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: c1690e1d5db6b068a8611e88c88c8955de21b54f
+exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
+source-git-commit: dc05d88773dc148dc0e5387953f49c4d03b1888f
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '793'
 ht-degree: 3%
 
 ---
 
 # 在歷程中新增訊息
 
-[!DNL Journey Optimizer] 訊息功能是內建的，您只需要設計內容並發佈訊息即可。請參閱[本節](../get-started-content.md)。然後，您只需在歷程中新增使用Journey Optimizer設計的推送或電子郵件訊息。
+[!DNL Journey Optimizer] 訊息功能是內建的，您只需要設計內容並發佈訊息即可。 請參閱[本節](../get-started-content.md)。然後，您只需在歷程中新增使用Journey Optimizer設計的推送或電子郵件訊息。
 
-如果您使用協力廠商系統來傳送訊息，則可建立自訂動作。 了解更多[小節](../action/action.md)。
+如果您使用協力廠商系統來傳送訊息，則可建立自訂動作。 了解更多資訊 [節](../action/action.md).
 
 ## 新增訊息活動
 
-1. 如同往常一樣，從事件或&#x200B;**讀取區段**&#x200B;活動開始您的歷程。
+1. 一如既往，從事件或 **讀取區段** 活動。
 
    ![](../assets/jo-message0.png)
 
-1. 從浮動視窗的&#x200B;**Actions**&#x200B;區段，將&#x200B;**Message**&#x200B;活動拖放至畫布中。
+1. 從 **動作** 區段，拖放 **訊息** 活動進入畫布。
 
    ![](../assets/jo-message1.png)
 
@@ -32,15 +33,15 @@ ht-degree: 3%
 
    ![](../assets/jo-message2.png)
 
-1. 在&#x200B;**Message**&#x200B;欄位內按一下。 隨即顯示Journey Optimizer中設計的可用訊息清單。 您可以依狀態篩選清單。
+1. 按一下內部 **訊息** 欄位。 隨即顯示Journey Optimizer中設計的可用訊息清單。 您可以依狀態篩選清單。
 
    ![](../assets/jo-message3.png)
 
-1. 選擇消息，然後按一下&#x200B;**選擇**。 您也可以按一下&#x200B;**Create message**&#x200B;直接從此螢幕建立新郵件。
+1. 選擇訊息，然後按一下 **選擇**. 您也可以按一下「 」，直接從此畫面建立新訊息 **建立訊息**.
 
    ![](../assets/jo-message4-ter.png)
 
-   如果要檢查郵件，可以按一下&#x200B;**Message**&#x200B;欄位中的&#x200B;**開啟郵件**&#x200B;表徵圖。 訊息會在新索引標籤中開啟。
+   如果您想檢查訊息，可以按一下 **開啟訊息** 圖示 **訊息** 欄位。 訊息會在新索引標籤中開啟。
 
    ![](../assets/jo-message4-bis.png)
 
@@ -48,11 +49,14 @@ ht-degree: 3%
 
 ## 電子郵件參數和推播參數
 
-**[!UICONTROL Email parameters]**&#x200B;和&#x200B;**[!UICONTROL Push parameters]**&#x200B;區段顯示唯讀欄位。 您通常會在建立訊息時執行此設定。 請參閱[本節](../get-started-content.md)。
+此 **[!UICONTROL Email parameters]** 和 **[!UICONTROL Push parameters]** 區段顯示唯讀欄位。 您通常會在建立訊息時執行此設定。 請參閱[本節](../get-started-content.md)。
 
 ![](../assets/jo-message4.png)
 
-若要強制指定值，您可以使用欄位右側的&#x200B;**啟用參數override**&#x200B;圖示。 此選項可能適用於測試用途。 例如，對於電子郵件，您可以新增您的電子郵件地址。 發佈歷程後，會傳送電子郵件給您。
+若要強制指定值，您可以使用 **啟用參數覆蓋** 表徵圖。 此選項可能適用於各種用途：
+
+* 例如，若要測試電子郵件，您可以新增您的電子郵件地址。 發佈歷程後，會傳送電子郵件給您。
+* 您可以參考清單訂閱者的電子郵件地址。 看這個 [使用案例](message-to-subscribers-uc.md).
 
 ## 傳送時間最佳化{#send-time-optimization}
 
@@ -99,10 +103,10 @@ Adobe Journey Optimizer的「傳送時間最佳化」功能採用Adobe的AI服�
 >title="啟動傳送時間最佳化"
 >abstract="推送訊息預設為開啟選項，因為點按不適用於推送訊息。 您也可以在下一個選項中輸入「傳送」的值，以括弧表示系統使用的傳送時間。"
 
-從「訊息」活動參數中選取&#x200B;**Send-Time Optimization**&#x200B;開關，以啟用電子郵件或推送訊息的「傳送時間最佳化」。
+透過選取 **傳送時間最佳化** 從Message活動參數切換。
 
 ![](../assets/jo-message5.png)
 
 對於電子郵件訊息，請選取適當的選項按鈕，以選擇要最佳化電子郵件開啟次數還是電子郵件點進次數。 推送訊息預設為開啟選項，因為點按不適用於推送訊息。
 
-您也可以為&#x200B;**Send with enxt**&#x200B;選項輸入值，以括弧表示系統使用的傳送時間。 如果您選擇「6小時」作為值，[!DNL Journey Optimizer]會檢查每個使用者設定檔，並在歷程執行時間後的6小時內挑選最佳傳送時間。
+您也可以為 **在下一個** 選項。 如果選擇「6小時」作為值， [!DNL Journey Optimizer] 會檢查每個使用者設定檔，並在歷程執行時間起六小時內選取最佳傳送時間。

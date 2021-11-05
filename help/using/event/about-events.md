@@ -1,14 +1,15 @@
 ---
 title: 關於事件
 description: 瞭解事件
-feature: 事件
-topic: 管理
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
+source-git-commit: c5ec5ae03ce470a5c012fee4041d47c1856fbbc8
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 49%
+source-wordcount: '792'
+ht-degree: 52%
 
 ---
 
@@ -21,15 +22,19 @@ ht-degree: 49%
 
 事件設定可讓您定義 [!DNL Journey Optimizer] 會接收以作為事件的資訊。您可以使用多個事件（在歷程的不同步驟中），而數個歷程可以使用相同的事件。
 
+>[!NOTE]
+>
+>如需如何設定事件的詳細資訊，請觀看 [教學課程](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
+
 >[!CAUTION]
 >
->事件配置為&#x200B;**mandative**，必須由&#x200B;**技術用戶**&#x200B;執行。
+>事件設定為 **強制** 和必須由 **技術使用者**.
 
 您可以設定兩種事件：
 
-* **** Unitaryevents:這些事件會連結至人員。它們與人的行為相關（例如，某人購買產品、造訪商店、離開網站等） 或是某人發生的事（例如，某人達到 10,000 點忠誠點數）。這是 [!DNL Journey Optimizer] 在歷程中會監聽的事件，以便協調下一個最佳動作。單一事件可以是規則型事件或系統產生的事件。 若要了解如何建立統一事件，請參閱此[page](../event/about-creating.md)。
+* **單一** 事件：這些事件會連結至人員。 它們與人的行為相關（例如，某人購買產品、造訪商店、離開網站等） 或是某人發生的事（例如，某人達到 10,000 點忠誠點數）。這是 [!DNL Journey Optimizer] 在歷程中會監聽的事件，以便協調下一個最佳動作。單一事件可以是規則型事件或系統產生的事件。 若要了解如何建立統一事件，請參閱 [頁面](../event/about-creating.md).
 
-* **** 業務七：業務事件是與單一事件不同，不連結至特定設定檔的事件。例如，它可以是新聞警報、運動更新、航班變更或取消、庫存更新、天氣事件等。 雖然這些事件不是設定檔專屬的事件，但可能對任何數量的設定檔都感興趣：訂閱特定新聞主題的個人、航班上的乘客、對無存貨產品感興趣的購物者等。 業務事件一律以規則為基礎。 當您在歷程中放置業務事件時，緊接在之後自動新增&#x200B;**讀取區段**&#x200B;活動。 若要了解如何建立業務事件，請參閱此[page](../event/about-creating-business.md)。
+* **企業** 事件：業務事件是與單一事件不同，不連結至特定設定檔的事件。 例如，它可以是新聞警報、運動更新、航班變更或取消、庫存更新、天氣事件等。 雖然這些事件不是設定檔專屬的事件，但可能對任何數量的設定檔都感興趣：訂閱特定新聞主題的個人、航班上的乘客、對無存貨產品感興趣的購物者等。 業務事件一律以規則為基礎。 當您在歷程中放置業務事件時，會自動新增 **讀取區段** 活動之後。 若要了解如何建立業務活動，請參閱 [頁面](../event/about-creating-business.md).
 
 
 >[!NOTE]
@@ -46,18 +51,18 @@ ht-degree: 49%
 
    >[!CAUTION]
    >
-   >已為規則型事件定義上限規則。 對於指定組織 (ORG) ，這會將歷程可處理的合格事件數限制為每秒 5000。它對應於Journey Optimizer SLA。 請參閱此[頁面](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html)。
+   >已為規則型事件定義上限規則。 對於指定組織 (ORG) ，這會將歷程可處理的合格事件數限制為每秒 5000。它對應於Journey Optimizer SLA。 請參閱此[頁面](https://helpx.adobe.com/tw/legal/product-descriptions/journey-orchestration.html)。
 
 * **系統產生的** 事件：這些事件需要 eventID。建立事件時，會自動產生此 eventID 欄位。 推播事件的系統不應產生 ID，而應傳遞有效裝載預覽中可用的 ID。
 
-Journey Optimizer需要將事件串流或批次傳入Adobe Experience Platform。 此資料不一定需要前往即時設定檔。 如果您想要在個別歷程中使用事件進行分段或查詢，建議您為設定檔啟用資料集。
+Journey Optimizer需要將事件串流或批次傳入Adobe Experience Platform。 此資料不一定需要前往即時設定檔。 如果您想要在個別歷程中使用事件進行細分或查詢，建議您為設定檔啟用資料集。
 
 ## 資料週期 {#section_r1f_xqt_pgb}
 
 事件屬於 POST API 呼叫。事件會透過串流獲取API傳送至Adobe Experience Platform。 透過交易訊息 API 傳送的事件 URL 目的地稱為「入口」。事件的有效負載遵從 XDM 格式。
 
-有效負載包含串流獲取API運作（在標題中）所需的資訊，以及[!DNL Journey Optimizer]運作所需的資訊，以及用於歷程（在正文中，例如捨棄購物車的金額）的資訊。 串流獲取共有兩種模式，分別是驗證和未驗證。如需串流獲取 API 的詳細資訊，請參閱[此連結](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant)。
+裝載包含串流獲取API運作（在標題中）所需的資訊，以及 [!DNL Journey Optimizer] 用於歷程的工作和資訊（在內文中，例如捨棄購物車的金額）。 串流獲取共有兩種模式，分別是驗證和未驗證。如需串流獲取 API 的詳細資訊，請參閱[此連結](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant)。
 
 在透過串流獲取API到達目的地後，事件會流入名為Pipeline的內部服務，然後流入Adobe Experience Platform。 如果事件結構已啟用「即時客戶個人檔案服務」標幟，且資料集 ID 也具有「即時客戶個人檔案」標幟，就會流入「即時客戶個人檔案服務」。
 
-對於系統產生的事件，Pipeline會篩選由[!DNL Journey Optimizer]提供且包含[!DNL Journey Optimizer] eventID之有效負載（請參閱下方的事件建立程式）的事件。 對於規則型事件，系統會使用eventID條件來識別事件。 這些事件會由 [!DNL Journey Optimizer] 監聽，並會觸發相對應的歷程。
+對於系統產生的事件，管道會篩選具有包含之裝載的事件 [!DNL Journey Optimizer] eventID（請參閱下方的事件建立程式），由 [!DNL Journey Optimizer] 和包含在事件裝載中。 對於規則型事件，系統會使用eventID條件來識別事件。 這些事件會由 [!DNL Journey Optimizer] 監聽，並會觸發相對應的歷程。
