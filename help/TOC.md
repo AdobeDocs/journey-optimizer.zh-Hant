@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 699ebab2051d9ddfde20713a462490f11f9f7f1b
+source-git-commit: d575862cf7b6803e75b80ce6d1ff714ba319341b
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 89%
+source-wordcount: '758'
+ht-degree: 88%
 
 ---
 
@@ -225,7 +225,7 @@ ht-degree: 89%
             + [委派子網域](using/configuration/delegate-subdomain.md)
             + [存取委派的子網域](using/configuration/access-subdomains.md)
             + [新增 Google TXT 記錄](using/configuration/google-txt.md)
-            + [存取 PTR 記錄](using/configuration/ptr-records.md)
+            + [訪問和編輯PTR記錄](using/configuration/ptr-records.md)
          + [建立 IP 池](using/configuration/ip-pools.md)
          + 監視電子郵件地址 {#monitor-reputation}
             + [管理隱藏清單](using/configuration/manage-suppression-list.md)

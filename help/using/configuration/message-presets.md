@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 2e91fc884ea6e83a2590c5beca7840a6fc4c9b78
+source-git-commit: 18383a5a27aaf54cc859bdb66386648fe5fe2c41
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1682'
 ht-degree: 1%
 
 ---
@@ -192,6 +192,10 @@ ht-degree: 1%
 
 提交變更後，訊息預設集將會經過類似下列情形的驗證週期： [建立預設集](#create-message-preset).
 
+>[!NOTE]
+>
+>如果您只編輯 **[!UICONTROL Description]**, **[!UICONTROL Email type]** 和/或 **[!UICONTROL Email retry parameters]** 欄位，更新即時。
+
 對於具有 **[!UICONTROL Active]** 狀態，您可以檢查更新的詳細資訊。 若要這麼做：
 
 * 按一下 **[!UICONTROL Recent update]** 圖示顯示在使用中預設集名稱旁。
@@ -214,13 +218,17 @@ ht-degree: 1%
 * **[!UICONTROL Success]**:更新的消息預設集已驗證，可以選擇建立消息。
 * **[!UICONTROL Failed]**:在消息預設集更新驗證期間，一個或多個檢查失敗。
 
-**正在處理**
+每個狀態的詳細資訊如下。
 
-將執行數個傳遞能力檢查，以確認預設集已正確更新。 處理時間已到 **48h-72h**，並可以 **7-10個工作天**. 進一步了解在驗證週期期間執行的檢查，位於 [本節](#create-message-preset).
+### 正在處理
+
+將執行數個傳遞能力檢查，以確認預設集已正確更新。
 
 >[!NOTE]
 >
->更新正在進行時，無法修改消息預設集。 您仍可以按一下其名稱，但所有欄位都會呈現灰色。 更新成功前，不會反映變更。
+>如果您只編輯 **[!UICONTROL Description]**, **[!UICONTROL Email type]** 和/或 **[!UICONTROL Email retry parameters]** 欄位，更新即時。
+
+處理時間已到 **48h-72h**，並可以 **7-10個工作天**. 進一步了解在驗證週期期間執行的檢查，位於 [本節](#create-message-preset).
 
 如果您編輯已啟用的預設集：
 
@@ -230,7 +238,11 @@ ht-degree: 1%
 
 * 在驗證程式期間，使用此預設集設定的訊息仍使用舊版預設集。
 
-**成功**
+>[!NOTE]
+>
+>更新正在進行時，無法修改消息預設集。 您仍可以按一下其名稱，但所有欄位都會呈現灰色。 更新成功前，不會反映變更。
+
+### 成功
 
 驗證程式一旦成功，使用此預設集的所有訊息中都會自動使用新版本的預設集。 不過，您可能必須等待：
 * 在被統一消息使用前幾分鐘，
@@ -238,16 +250,16 @@ ht-degree: 1%
 
 <!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
 
-**已失敗**
+### 已失敗
 
 如果驗證程式失敗，系統仍會使用舊版的預設集。
 
-可能的更新錯誤類型如下：
-* **授權錯誤**:承載令牌無效或未授權。
-* **非法修改**:對一個或多個不允許的欄位執行了編輯。
-* **先決條件失敗**:某些欄位只能有特定值，因此未執行。
+<!--The possible update error types are as follows:
+* **Authorization error**: the bearer token is invalid or not authorized.
+* **Illegal modification**: an edit was performed on one or more non-allowed fields.
+* **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
-<!--Learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
+進一步了解 [本節](#monitor-message-presets).
 
 更新失敗時，預設集會重新變成可編輯。 您可以按一下名稱，並更新需要修正的設定。
 

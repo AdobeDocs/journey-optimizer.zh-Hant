@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 1e62715f35b50bba639657a1bef37aa61922c715
+source-git-commit: 3f83ef8074fd52ab611117282015f60e2e57b61d
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
    >
    >您無法修改 **[!UICONTROL IP]** 和 **[!UICONTROL PTR record]** 欄位。
 
-1. 按一下 **[!UICONTROL SAve]** 確認變更。
+1. 按一下 **[!UICONTROL Save]** 確認變更。
 
 安 **[!UICONTROL Updating]** 表徵圖顯示在清單中PTR記錄的名稱旁。
 

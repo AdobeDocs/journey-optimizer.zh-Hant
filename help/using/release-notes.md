@@ -2,7 +2,7 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6cfd56d22cc18c044818dc73fc265ce5e882d36c
+source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
 workflow-type: tm+mt
 source-wordcount: '1996'
 ht-degree: 16%
@@ -74,7 +74,7 @@ ht-degree: 16%
 <tr>
 <td>
 <p>您現在可以使用Adobe Experience Platform設定檔屬性和區段，使用Journey Optimizer UI中找到的相同運算式編輯器元件，個人化優惠方案的內容。 </p>
-<p>如需詳細資訊，請參閱<a href="offers/offer-library/creating-personalized-offers.md#content">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="offers/offer-library/creating-personalized-offers.md#custom-text">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>

@@ -2,10 +2,10 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 07382bdf4a9a7a75a5654cf81795c6c8e304360a
+source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 24%
+source-wordcount: '834'
+ht-degree: 23%
 
 ---
 
@@ -25,8 +25,7 @@ ht-degree: 24%
 * 新增限制至 **Decision Management API開發人員指南** 行動裝置不支援的選件限制 [!DNL Experience Edge] 工作流程。 [閱讀全文](offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * 新增 **建立模擬** 區段。 [閱讀全文](offers/offer-activities/simulation.md)
 * 已更新 **添加決策範圍** 區段。 [閱讀全文](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
-* 已更新 **定義表示的內容** 區段。 [閱讀全文](offers/offer-library/creating-personalized-offers.md#content)
-* 已新增區段，說明如何定義及個人化選件表示的內容。 [閱讀全文](offers/offer-library/creating-personalized-offers.md#content)
+* 已更新 **定義表示的內容** 區段，包括新 [分段](offers/offer-library/creating-personalized-offers.md#custom-text) 關於如何定義及個人化自訂文字。 [閱讀全文](offers/offer-library/creating-personalized-offers.md#content)
 
 ## 2021 年 9 月
 
