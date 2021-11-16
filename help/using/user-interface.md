@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
+source-git-commit: 1eb7e547019446ea946f7475730b01368f6a15eb
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 66%
@@ -15,11 +15,11 @@ ht-degree: 66%
 
 # 使用者介面 {#cjm-user-interface}
 
-連結到 [Adobe Experience Cloud](http://experience.adobe.com) 後，導覽至 [!DNL Journey Optimizer]。
+連線至 [Adobe Experience Cloud](http://experience.adobe.com) 並瀏覽 [!DNL Journey Optimizer].
 
-瀏覽使用者介面時的重要概念與 Adobe Experience Platform 相同。如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}。
+瀏覽使用者介面時的重要概念與 Adobe Experience Platform 相同。請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}以取得詳細資訊。
 
-使用者介面中可用的元件和功能取決於您的[權限](administration/permissions.md)和您的[授權套件](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}。 如有任何問題，請聯絡您的 Adobe 客戶成功經理。
+使用者介面中可用的元件和功能視您的 [權限](administration/permissions.md) 和 [授權套件](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}。 如有任何問題，請聯絡您的 Adobe 客戶成功經理。
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ ht-degree: 66%
 
 * **[!UICONTROL Queries]** - 使用 Adobe Experience Platform 查詢服務來寫入和執行查詢、檢視以前執行的查詢，以及存取由您組織內的使用者儲存的查詢。[了解更多](get-started-queries.md)
 
-* **[!UICONTROL Monitoring]** - 使用此功能表監視 Adobe Experience Platform 使用者介面中的資料擷取。[了解更多](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hant){target=&quot;_blank&quot;}
+* **[!UICONTROL Monitoring]** - 使用此功能表監視 Adobe Experience Platform 使用者介面中的資料擷取。[深入了解](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
 **[!UICONTROL CONNECTIONS]**
 
@@ -98,9 +98,9 @@ ht-degree: 66%
 
 可用的使用案例包括：
 
-* **建立測試設定檔**，以使用我們的 CSV 範本建立測試設定檔，以測試個人化訊息和歷程。了解如何在此頁面](building-journeys/creating-test-profiles.md#use-case-1)上實作此使用案例[。
+* **建立測試設定檔**，以使用我們的 CSV 範本建立測試設定檔，以測試個人化訊息和歷程。了解如何實作此使用案例 [本頁](building-journeys/creating-test-profiles.md#use-case-1).
 * **傳送生日訊息給客戶**，以自動傳送電子郵件祝賀客戶生日。(即將推出)
-* **傳送電子郵件給新客戶**，以輕鬆傳送最多兩封電子郵件歡迎您新註冊的客戶。(即將推出)
+* **向上線新客戶發送電子郵件**，輕鬆傳送最多兩封電子郵件以歡迎您新註冊的客戶。 (即將推出)
 * **傳送推播訊息至匯入的客戶清單**，以快速將推播通知傳送至從 CSV 檔案匯入的客戶清單。(即將推出)
 
 按一下&#x200B;**[!UICONTROL View details]**&#x200B;以進一步瞭解每個使用案例。
@@ -111,15 +111,15 @@ ht-degree: 66%
 
 ## 協助工具{#accessibility}
 
-[!DNL Adobe Journey Optimizer]中的協助工具功能繼承自Adobe Experience Platform:
+中的協助工具功能 [!DNL Adobe Journey Optimizer] 繼承自Adobe Experience Platform:
 
 * 鍵盤協助工具
 * 顏色對比
 * 驗證必填欄位
 
-[了解更多](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;}在Adobe Experience Platform檔案中。
+[深入了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html)Adobe Experience Platform檔案中的{target=&quot;_blank&quot;}。
 
-在[!DNL Journey Optimizer]中，可以使用以下常用鍵盤快捷鍵：
+您可以在 [!DNL Journey Optimizer]:
 
 | 動作 | 快速鍵 |
 | --- | --- |
@@ -129,7 +129,7 @@ ht-degree: 66%
 | 選取或清除焦點中的元素 | 輸入或空格鍵 |
 | 取消選取、折疊面板或關閉對話方塊 | Esc |
 
-[了解更多](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;}在Adobe Experience Platform檔案中。
+[深入了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html)Adobe Experience Platform檔案中的{target=&quot;_blank&quot;}。
 
 您可以在Journey Optimizer的特定部分使用下列捷徑：
 
@@ -195,7 +195,7 @@ ht-degree: 66%
   <tr>
     <td>
 
-在已開啟&#x200B;**[!UICONTROL Single profile at a time]**&#x200B;選項的區段型歷程中觸發事件
+在以區段為基礎的歷程中觸發事件，其 **[!UICONTROL Single profile at a time]** 選項
 
 </td>
     <td>P</td>
@@ -280,7 +280,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ![](assets/unified-search.png)
 
-按&#x200B;**Enter**&#x200B;訪問所有結果並按業務對象進行篩選。
+Press **輸入** 訪問所有結果並按業務對象進行篩選。
 
 ![](assets/search-and-filter.png)
 
@@ -290,7 +290,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 按一下清單左上方的篩選圖示，即可存取篩選器 。篩選功能表可讓您根據不同的條件篩選顯示的元素。您可以選擇僅顯示某一類型或狀態的元素、您建立的元素，或者在過去 30 天內修改的元素。選項會因內容而異。
 
-在歷程清單中，您可以根據歷程的狀態、類型以及&#x200B;**[!UICONTROL Status and version filters]**&#x200B;中的版本來篩選歷程。 類型可以是：**[!UICONTROL Unitary event]**、**[!UICONTROL Segment qualification]**、**[!UICONTROL Read segment]**、**[!UICONTROL Business event]**&#x200B;或&#x200B;**[!UICONTROL Burst]**。 您可以選擇只顯示使用來自&#x200B;**[!UICONTROL Activity filters]** 與 **[!UICONTROL Data filters]**&#x200B;的特定事件、欄位群組或動作的歷程。**[!UICONTROL Publication filters]**&#x200B;可讓您選擇出版物日期或使用者。 舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。[了解更多](building-journeys/using-the-journey-designer.md)。
+在歷程清單中，您可以根據歷程的狀態、類型和版本，從 **[!UICONTROL Status and version filters]**. 類型可以是： **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** 或 **[!UICONTROL Burst]**. 您可以選擇只顯示使用來自&#x200B;**[!UICONTROL Activity filters]** 與 **[!UICONTROL Data filters]**&#x200B;的特定事件、欄位群組或動作的歷程。**[!UICONTROL Publication filters]**&#x200B;可讓您選擇出版物日期或使用者。 舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。[了解更多](building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
