@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 使用自訂動作以動態方式傳遞集合
 description: 使用 Campaign v7/v8 傳送訊息
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 0ab4cbed213a00d31861406f554e3e43e4591e57
+source-git-commit: 4b7cfedbc5f2c724e28e5e6e0ab7e0d2f40dccac
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '424'
 ht-degree: 4%
 
 ---
@@ -131,7 +131,7 @@ ht-degree: 4%
 
    ![](../assets/uc-collection-4.png)
 
-對於陣列欄位，您也可以使用進階運算式編輯器來執行資料操作。 在下列範例中，我們會使用 [篩選](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html) 和 [相交](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html) 函式：
+對於陣列欄位，您也可以使用進階運算式編輯器來執行資料操作。 在下列範例中，我們會使用 [篩選](functions/functionfilter.md) 和 [相交](functions/functionintersect.md) 函式：
 
 ![](../assets/uc-collection-5.png)
 

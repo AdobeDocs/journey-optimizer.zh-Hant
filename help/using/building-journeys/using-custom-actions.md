@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6b18f009a3c907649fd1e0261ffc7cfcc5acaef4
+exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 10%
+source-wordcount: '300'
+ht-degree: 6%
 
 ---
 
@@ -24,13 +25,13 @@ ht-degree: 10%
 
 ### 動態路徑
 
-如果URL包含動態路徑，請在&#x200B;**[!UICONTROL Path]**&#x200B;欄位中指定路徑。
+如果URL包含動態路徑，請在 **[!UICONTROL Path]** 欄位。
 
 >[!NOTE]
 >
 >您無法在歷程中設定URL的靜態部分，但是在自訂動作的全域設定中。 [了解更多](../action/about-custom-action-configuration.md)。
 
-若要串連欄位和純文字字串，請使用進階運算式編輯器中的字串函式或加號(+)。 用單引號(&#39;)或雙引號(&quot;)將純文字字串括住。 [了解更多](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+若要串連欄位和純文字字串，請使用進階運算式編輯器中的字串函式或加號(+)。 用單引號(&#39;)或雙引號(&quot;)將純文字字串括住。 [了解更多](expression/expressionadvanced.md)。
 
 下表顯示配置的示例：
 
@@ -41,26 +42,26 @@ ht-degree: 10%
 
 串連的URL有下清單單：
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign ID=&quot;&quot;>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
 
 ![](../assets/journey-custom-action-url.png)
 
 ### 標頭
 
-**[!UICONTROL URL Configuration]**&#x200B;區段顯示動態標題欄位，但不顯示常數標題欄位。 動態標題欄位是HTTP標題欄位，其值設定為變數。 [了解更多](../action/about-custom-action-configuration.md)。
+此 **[!UICONTROL URL Configuration]** 區段顯示動態標題欄位，但不顯示常數標題欄位。 動態標題欄位是HTTP標題欄位，其值設定為變數。 [了解更多](../action/about-custom-action-configuration.md)。
 
 如果需要，請指定動態標題欄位的值：
 
 1. 選取歷程中的自訂動作。
-1. 在設定窗格中，按一下&#x200B;**[!UICONTROL URL Configuration]**&#x200B;區段中標題欄位旁的鉛筆圖示。
+1. 在設定窗格中，按一下 **[!UICONTROL URL Configuration]** 區段。
 
    ![](../assets/journey-dynamicheaderfield.png)
 
-1. 選擇一個欄位，然後按一下&#x200B;**[!UICONTROL OK]**。
+1. 選取欄位並按一下 **[!UICONTROL OK]**.
 
 ## 動作參數
 
-在&#x200B;**[!UICONTROL Action parameters]**&#x200B;區段中，您會看到定義為&#x200B;_&quot;Variable&quot;_&#x200B;的訊息參數。 對於這些參數，您可以定義取得此資訊的位置(範例：事件、資料來源)、手動傳遞值，或使用進階運算式編輯器來處理進階使用案例。 進階使用案例可以是資料操作和其他函式使用。 請參閱[AdobeJourney Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}。
+在 **[!UICONTROL Action parameters]** 小節中，您會看到定義為 _&quot;變數&quot;_. 對於這些參數，您可以定義取得此資訊的位置(範例：事件、資料來源)、手動傳遞值，或使用進階運算式編輯器來處理進階使用案例。 進階使用案例可以是資料操作和其他函式使用。 請參閱 [AdobeJourney Orchestration檔案](expression/expressionadvanced.md).
 
 **相關主題**
 

@@ -2,9 +2,9 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
+source-git-commit: 01313f84dc9d5260388574b3e1eb7e4a7df14d0e
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '1978'
 ht-degree: 16%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 16%
 <tr>
 <td>
 <p>You can now trigger a journey targeting a subscription list. To perform this: add a Read segment activity followed by a message, and in the message email settings, define an expression that will fetch the subscriber email address from the profile, for the targeted subscription list. The expression editor has been enhanced to allow you to to select the first entry key of a map.</p>
-<p>Learn more in the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">detailed documentation</a>.</p>>
+<p>Learn more in the <a href="building-journeys/functions/functionfilter.md">detailed documentation</a>.</p>>
 </td>
 </tr>
 </tbody>
@@ -155,7 +155,7 @@ ht-degree: 16%
 <p>您現在可以在自訂動作參數中傳遞集合或資料清單，這些參數將在執行階段動態填入。 支援兩種集合：簡單集合和對象集合。 先前建立的自訂動作將可繼續運作。 </p>
 <p>如需集合的詳細資訊，請參閱 <a href="building-journeys/collections.md">詳細檔案</a>. </p>
 <p>篩選器和交叉函式已添加到高級表達式編輯器中可用的函式清單中。 這提供更多篩選和比較集合的可能性。</p>
-<p>請參閱 <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">篩選</a> 和 <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">相交</a> 函式。</p>
+<p>請參閱 <a href="building-journeys/functions/functionfilter.md">篩選</a> 和 <a href="building-journeys/functions/functionintersect.md">相交</a> 函式。</p>
 </td>
 </tr>
 </tbody>

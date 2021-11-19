@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 59ee283f50850e160e7a6506c1f0deab1976f20c
+exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
+source-git-commit: 662158884291d90b6092c0aa70f41f27535f3637
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 4%
+source-wordcount: '277'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +33,7 @@ ht-degree: 4%
 
       若要修改電子郵件地址，您必須先發佈訊息。
 
-   1. 在運算式編輯器中，輸入運算式以擷取訂閱者的電子郵件地址。 [了解詳情](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+   1. 在運算式編輯器中，輸入運算式以擷取訂閱者的電子郵件地址。 [閱讀全文](expression/expressionadvanced.md)。
 
       此範例顯示包含映射欄位參考的運算式：
 
@@ -49,7 +50,7 @@ ht-degree: 4%
 
       在此範例中，訂閱清單的名稱為 `daily-email`. 電子郵件地址定義為 `subscribers` 地圖，連結至訂閱清單地圖。
 
-      深入了解 [欄位參考](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/field-references.html) 在運算式中。
+      深入了解 [欄位參考](expression/field-references.md) 在運算式中。
 
       ![](../assets/message-to-subscribers-uc-2.png)
 
@@ -58,7 +59,3 @@ ht-degree: 4%
    ![](../assets/message-to-subscribers-uc-3.png)
 
 1. 以 **[!UICONTROL End]** 活動。
-
-
-
-

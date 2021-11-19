@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: b3b9e02bc6ade7c7841181af4f75c99b57a3108d
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '1703'
-ht-degree: 14%
+source-wordcount: '1685'
+ht-degree: 13%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >針對系統產生的事件，請確定您已將「協調」欄位群組新增至XDM架構。 這可確保您的架構包含要搭配使用的所有必要資訊 [!DNL Journey Optimizer].
+   >針對系統產生的事件，請確定您已將「協調」欄位群組新增至XDM架構。 這可確保您的架構包含所有要使用的必要資訊 [!DNL Journey Optimizer].
 
    ![](../assets/journey9.png)
 
@@ -143,7 +143,7 @@ ht-degree: 14%
 
 收到事件時，索引鍵的值可讓系統識別與事件相關聯的人員。 與命名空間相關聯(請參閱 [本節](../event/about-creating.md#select-the-namespace))，則可使用索引鍵來對Adobe Experience Platform執行查詢。 請參閱[此頁面](../building-journeys/about-journey-activities.md#orchestration-activities)。金鑰也可用來檢查人員是否在歷程中。 事實上，一個人不可能在同一個旅程中處於兩個不同的位置。 因此，系統不允許相同的索引鍵（例如CRMID=3224）位於相同歷程中的不同位置。
 
-您也可以存取進階運算式函式(**[!UICONTROL Advanced mode]**)。 這些函式可讓您操控用於執行特定查詢的值，例如更改格式、執行欄位串連，而僅考慮欄位的一部分（例如10個前字元）。 請參閱 [Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+您也可以存取進階運算式函式(**[!UICONTROL Advanced mode]**)。 這些函式可讓您操控用於執行特定查詢的值，例如更改格式、執行欄位串連，而僅考慮欄位的一部分（例如10個前字元）。 請參閱 [Journey Orchestration檔案](../building-journeys/expression/expressionadvanced.md).
 
 ## 新增條件 {#add-a-condition}
 
@@ -151,7 +151,7 @@ ht-degree: 14%
 
 事件的條件只能根據事件有效負載中傳遞的資料。 行銷人員無法在畫布中變更在事件層級定義的條件。 其目的在於在使用此事件時強化此條件。 例如，如果您不希望行銷人員在購物車值太小時使用購物車放棄事件，您可以在「購物車值」事件欄位中建立條件，並強加超過100美元的值。
 
-您可以使用簡單運算式編輯器或進階運算式編輯器來設定事件的條件。 請參閱 [Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}。
+您可以使用簡單運算式編輯器或進階運算式編輯器來設定事件的條件。 請參閱 [Journey Orchestration檔案](../building-journeys/expression/expressionadvanced.md).
 
 例如，您可以定義條件，僅處理特定事件類型的事件，並忽略其他類型。 或者，如果您的事件是購物車放棄，且裝載包含購物車值欄位，則您可以定義事件條件，只有在購物車值大於100美元時才處理事件。
 

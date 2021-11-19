@@ -1,0 +1,50 @@
+---
+product: adobe campaign
+title: concat
+description: 了解函式概念
+feature: Journeys
+role: Data Engineer
+level: Experienced
+source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 27%
+
+---
+
+# concat {#concat}
+
+串連兩個字串參數或字串清單。
+
+## 類別
+
+字串
+
+## 函式語法
+
+`concat(<parameters>)`
+
+## 參數
+
+| 參數 | 類型 |
+|-----------|------------------|
+| 清單 | listString |
+| 字串 | 字串 |
+
+## 簽名和返回類型
+
+`concat(<string>,<string>)`
+
+`concat(<listString>)`
+
+傳回字串。
+
+## 範例
+
+`concat("Hello","World")`
+
+返回&quot;HelloWorld&quot;。
+
+`concat(["Hello"," ","World"])`
+
+返回&quot;Hello World&quot;。

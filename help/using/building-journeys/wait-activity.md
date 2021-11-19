@@ -2,19 +2,20 @@
 title: 等待活動
 description: 了解等候活動
 feature: Journeys
-topic: 內容管理
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 5%
+source-wordcount: '388'
+ht-degree: 3%
 
 ---
 
 # 等待活動{#section_rlm_nft_dgb}
 
-如果要在路徑中執行下一個活動之前等待，則可以使用&#x200B;**[!UICONTROL Wait]**&#x200B;活動。 它可讓您定義下一個活動的執行時間。 有三個可用選項：
+如果您想在路徑中執行下一個活動之前等待，可以使用 **[!UICONTROL Wait]** 活動。 它可讓您定義下一個活動的執行時間。 有三個可用選項：
 
 * [持續時間](#duration)
 * [固定日期](#fixed_date)
@@ -34,7 +35,7 @@ ht-degree: 5%
 >
 >等待時間上限為30天。
 >
->在測試模式中，**[!UICONTROL Wait time in test]**&#x200B;參數可讓您定義每個等待活動的持續時間。 預設時間為 10 秒。這可確保您快速取得測試結果。 請參閱[此頁面](../building-journeys/testing-the-journey.md)
+>在測試模式中， **[!UICONTROL Wait time in test]** 參數可讓您定義每個等待活動的持續時間。 預設時間為 10 秒。這可確保您快速取得測試結果。 請參閱 [本頁](../building-journeys/testing-the-journey.md)
 
 ## 持續等待{#duration}
 
@@ -50,13 +51,13 @@ ht-degree: 5%
 
 ## 自訂等待{#custom}
 
-此選項可讓您根據來自事件或資料來源的欄位，使用進階運算式來定義自訂日期，例如2020年7月12日下午5點。 它不會讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 請參閱[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hant){target=&quot;_blank&quot;}。 如需dateTimeOnly格式的詳細資訊，請參閱[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html){target=&quot;_blank&quot;}。
+此選項可讓您根據來自事件或資料來源的欄位，使用進階運算式來定義自訂日期，例如2020年7月12日下午5點。 它不會讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 請參閱 [Journey Orchestration檔案](expression/expressionadvanced.md). 如需dateTimeOnly格式的詳細資訊，請參閱 [Journey Orchestration檔案](expression/data-types.md).
 
 >[!NOTE]
 >
->您可以運用dateTimeOnly運算式，或使用函式來轉換為dateTimeOnly。 例如：toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位為2016-08-12T09:46:06Z格式。
+>您可以運用dateTimeOnly運算式，或使用函式來轉換為dateTimeOnly。 例如：toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位為2016-08-12T09格式:46:06Z。
 >
->歷程的屬性中會預期&#x200B;**時區**。 因此，今天無法從介面直接指向完整的ISO-8601時間戳，混合時間和時區偏移，如2016-08-12T09:46:06.982-05。 請參閱[此頁面](../building-journeys/timezone-management.md)。
+>此 **時區** 在歷程的屬性中是預期的。 因此，今天無法從介面直接指向完整的ISO-8601時間戳，混合時間和時區偏移，如2016-08-12T09:46:06.982-05。 請參閱[此頁面](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey57.png)
 

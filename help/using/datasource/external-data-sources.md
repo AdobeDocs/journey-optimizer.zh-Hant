@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 54d93df232b38608d3d02e837cea82e8965559e0
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1315'
 ht-degree: 88%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 88%
 
    ![](../assets/journey27.png)
 
-1. 根據外部服務配置設定身份驗證：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或 **[!UICONTROL API key]**。有關自定義身份驗證模式的詳細資訊，請參閱[此部分](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。 在我們的範例中，我們選擇：
+1. 根據外部服務配置設定身份驗證：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或 **[!UICONTROL API key]**。如需自訂驗證模式的詳細資訊，請參閱 [本節](../datasource/external-data-sources.md#section_wjp_nl5_nhb). 在我們的範例中，我們選擇：
 
    * **[!UICONTROL Type]**：&quot;API key&quot;
    * **[!UICONTROL Name]**：&quot;appid&quot;（這是 API 金鑰參數名稱）
@@ -68,7 +68,7 @@ ht-degree: 88%
 
 * **[!UICONTROL Used in]**：顯示使用欄位群組的歷程數量。您可以按一下 **[!UICONTROL View journeys]** 圖示，以顯示使用此欄位群組的歷程清單。
 * **[!UICONTROL Method]**：選取 POST 或 GET 方法。在本例中，我們選取 GET 方法。
-* **[!UICONTROL Dynamic Values]**：在本例中，輸入以逗號分隔的不同參數，即 &quot;long,lat&quot;。由於參數值視執行內容而定，因此它們會在歷程中定義。請參閱[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+* **[!UICONTROL Dynamic Values]**：在本例中，輸入以逗號分隔的不同參數，即 &quot;long,lat&quot;。由於參數值視執行內容而定，因此它們會在歷程中定義。請參閱 [Journey Orchestration檔案](../building-journeys/expression/expressionadvanced.md).
 * **[!UICONTROL Response Payload]**：在 **[!UICONTROL Payload]** 欄位內按一下，並貼上呼叫傳回之有效負載的範例。例如，我們使用了氣象 API 網站上找到的有效負載。確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。請注意，您可以按一下 **[!UICONTROL Paste a new payload]**，以變更目前已傳遞的有效負載。
 * **[!UICONTROL Sent Payload]**：我們的範例不會出現此欄位，只有選取 POST 方法時才能使用。貼上會傳送至協力廠商系統的有效負載。
 
@@ -118,7 +118,7 @@ ht-degree: 88%
 * 標題：需要時，要插入做為此呼叫標題的機碼值組
 * 正文：說明方法為 POST 時呼叫的正文。我們支援有限的內文結構，定義於bodyParams（機碼 — 值組）中。 bodyType 說明了呼叫內正文的格式和編碼：
    * &#39;form&#39;:這表示內容類型將會是application/x-www-form-urlencoded（字元集UTF-8），而金鑰值配對將會序列化為：key1=value1&amp;key2=value2&amp;...
-   * &#39;json&#39;:這表示內容類型將會是application/json（字元集UTF-8），而機碼值配對將會序列化為JSON物件，如下所示：_{ &quot;key1&quot;:&quot;value1&quot;, &quot;key2&quot;:&quot;value2&quot;,...}_
+   * &#39;json&#39;:這表示內容類型將會是application/json（字元集UTF-8），而機碼值配對將會序列化為JSON物件，如下所示： _{ &quot;key1&quot;:&quot;value1&quot;, &quot;key2&quot;:&quot;value2&quot;, ...}_
 
 存取權杖插入動作之 HTTP 要求必須採用的方法定義：
 

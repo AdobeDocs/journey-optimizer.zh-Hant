@@ -2,10 +2,10 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
+source-git-commit: 01313f84dc9d5260388574b3e1eb7e4a7df14d0e
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 23%
+source-wordcount: '770'
+ht-degree: 25%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 23%
 
 ## 2021 年 9 月
 
-* 已更新下列函式頁面： [sethours](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html)、[getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html)、[inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html)
+* 已更新下列函式頁面： [sethours](building-journeys/functions/functionsethours.md)、[getListItem](building-journeys/functions/functiongetlistitem.md)、[inSegment](building-journeys/functions/functioninsegment.md)
 
-* 已新增下列函式： [篩選](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html)、[相交](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html)、[toDateOnly](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/conversion/functiontodateonly.html)
+* 已新增下列函式： [篩選](building-journeys/functions/functionfilter.md)、[相交](building-journeys/functions/functionintersect.md)、[toDateOnly](building-journeys/functions/functiontodateonly.md)
 
-* 已在運算式編輯器文件中新增 dateOnly 日期類型。 [閱讀全文](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=en)
+* 已在運算式編輯器文件中新增 dateOnly 日期類型。 [閱讀全文](building-journeys/expression/data-types.md)
 
 * 新增自訂動作快取持續時間的詳細資料。 [閱讀更多](datasource/external-data-sources.md#section_wjp_nl5_nhb)
 

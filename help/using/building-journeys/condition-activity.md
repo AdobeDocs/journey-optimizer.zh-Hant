@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 0184614fb3203a1b5fee7603acd173042f223578
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 9%
+source-wordcount: '982'
+ht-degree: 8%
 
 ---
 
@@ -52,15 +52,15 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->您無法使用簡單編輯器對時間序列（例如購買清單、訊息的點按次數）執行查詢。 為此，您將需要使用進階編輯器。 請參閱 [AdobeJourney Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+>您無法使用簡單編輯器對時間序列（例如購買清單、訊息的點按次數）執行查詢。 為此，您將需要使用進階編輯器。 請參閱 [AdobeJourney Orchestration檔案](expression/expressionadvanced.md).
 
 當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
 
-在簡單編輯器中，您也會在事件和資料來源類別下方找到歷程屬性類別。 此類別包含指定設定檔之歷程的相關技術欄位。 這是系統從即時歷程擷取的資訊，例如歷程ID或遇到的特定錯誤。 如需詳細資訊，請參閱 [AdobeJourney Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html){target=&quot;_blank&quot;}
+在簡單編輯器中，您也會在事件和資料來源類別下方找到歷程屬性類別。 此類別包含指定設定檔之歷程的相關技術欄位。 這是系統從即時歷程擷取的資訊，例如歷程ID或遇到的特定錯誤。 如需詳細資訊，請參閱 [AdobeJourney Orchestration檔案](expression/journey-properties.md)
 
 ## 資料來源條件 {#data_source_condition}
 
-這可讓您根據資料來源的欄位或先前位於歷程中的事件，來定義條件。 若要了解如何使用運算式編輯器，請參閱 [AdobeJourney Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}。 使用進階運算式編輯器，您可以設定更進階的條件來處理集合，或使用需要傳遞參數的資料來源。 請參閱[此頁面](../datasource/external-data-sources.md)。
+這可讓您根據資料來源的欄位或先前位於歷程中的事件，來定義條件。 若要了解如何使用運算式編輯器，請參閱 [AdobeJourney Orchestration檔案](expression/expressionadvanced.md). 使用進階運算式編輯器，您可以設定更進階的條件來處理集合，或使用需要傳遞參數的資料來源。 請參閱[此頁面](../datasource/external-data-sources.md)。
 
 ![](../assets/journey50.png)
 
@@ -88,7 +88,7 @@ ht-degree: 9%
 
 ## 日期條件 {#date_condition}
 
-這可讓您根據日期定義不同的流程。 例如，如果人員在「銷售」期間進入步驟，您將向他們發送特定消息。 今年剩下的時間，你會傳送另一條資訊。
+這可讓您根據日期定義不同的流程。 例如，如果人員在「銷售」期間進入步驟，您將向他們發送特定消息。 今年剩餘時間，您會傳送另一則訊息。
 
 >[!NOTE]
 >
