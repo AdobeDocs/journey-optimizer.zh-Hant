@@ -16,11 +16,11 @@ ht-degree: 7%
 
 # 授予決策管理的存取權 {#granting-acess-to-decision-management}
 
-使用[Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}管理存取和使用offer decisioning功能的權限。
+存取和使用offer decisioning功能的權限是透過 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}。
 
-若要授與「決策管理」功能的存取權，您需要建立&#x200B;**[!UICONTROL Product profile]**，並將對應的權限指派給您的使用者。 進一步了解如何在[此小節](../../administration/permissions.md)中管理[!DNL Journey Optimizer]使用者和權限。
+若要授與「決策管理」功能的存取權，您必須建立 **[!UICONTROL Product profile]** 並指派對應的權限給您的使用者。 深入了解管理 [!DNL Journey Optimizer] 使用者和權限 [本節](../../administration/permissions.md).
 
-決策管理的特定權限列於[此區段](../../administration/high-low-permissions.md#manage-decisioning)中。
+決策管理的特定權限列於 [本節](../../administration/high-low-permissions.md#manage-decisioning).
 
 <!--If you are a [!DNL Journey Optimizer] user leveraging the **Decision Management** functionality, you need to have the [Decision management permissions](../../administration/high-low-permissions.md#decisions-permissions) enabled to acces all related capabilities. Learn more on managing [!DNL Journey Optimizer] users and permissions in [this section](../../administration/permissions.md).
 
@@ -30,11 +30,11 @@ Grant access to Offer Decisioning
 
 The steps below only apply to **Experience Platform users** leveraging the [!DNL Offer Decisioning] service.-->
 
-1. 開啟[Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html)，然後選擇&#x200B;**[!UICONTROL Adobe Experience Platform]**。
+1. 開啟 [Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html)，然後選取 **[!UICONTROL Adobe Experience Platform]**.
 
    <!--![](../../assets/offers_admin_console.png)-->
 
-1. 服務的產品設定檔隨即顯示。 若要建立新的產品設定檔，請按一下&#x200B;**[!UICONTROL New Profile]**&#x200B;按鈕。
+1. 服務的產品設定檔隨即顯示。 若要建立新的產品設定檔，請按一下 **[!UICONTROL New Profile]** 按鈕。
 
    ![](../../assets/offers_rights_productprofile.png)
 
@@ -42,7 +42,7 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
    >
    >您可以有任意數量的產品設定檔，對應您要為組織設定的各種角色。
 
-1. 指定產品設定檔的名稱和說明，然後按一下&#x200B;**[!UICONTROL Next]**。
+1. 指定產品設定檔的名稱和說明，然後按一下 **[!UICONTROL Next]**.
 
    ![](../../assets/create-product-profile.png)
 
@@ -52,7 +52,7 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
    ![](../../assets/enable-services.png)
 
-1. 在&#x200B;**[!UICONTROL Decision Management]**&#x200B;區段中，按一下&#x200B;**+**&#x200B;按鈕以指派權限給產品設定檔，然後按一下&#x200B;**[!UICONTROL Save]**。
+1. 在 **[!UICONTROL Decision Management]** 區段，按一下 **+** 按鈕，將權限指派給產品設定檔，然後按一下 **[!UICONTROL Save]**.
 
    ![](../../assets/configure-profile.png)
 
@@ -84,5 +84,5 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
 >[!NOTE]
 >
->有關如何管理用戶權限的詳細資訊，請參閱[Admin Console文檔](https://helpx.adobe.com/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}。
+>如需如何管理使用者權限的詳細資訊，請參閱 [Admin Console檔案](https://helpx.adobe.com/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}。
 

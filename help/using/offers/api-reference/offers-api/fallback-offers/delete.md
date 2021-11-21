@@ -1,20 +1,21 @@
 ---
 title: 刪除遞補優惠
 description: 如果客戶不符合其他優惠方案的資格，系統會將備援優惠方案傳送給他們
-feature: 優惠
-topic: 整合
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 9%
+source-wordcount: '153'
+ht-degree: 8%
 
 ---
 
 # 刪除遞補優惠
 
-有時可能需要移除(DELETE)備援優惠方案。 您在租用戶容器中建立的後援優惠方案只能刪除。 若要這麼做，請使用您要刪除之備援優惠方案的$id，對[!DNL Offer Library] API執行DELETE請求。
+有時可能需要移除(DELETE)備援優惠方案。 您在租用戶容器中建立的後援優惠方案只能刪除。 若要這麼做，請對 [!DNL Offer Library] API，使用您要刪除之備援優惠方案的$id。
 
 **API格式**
 

@@ -3,13 +3,14 @@ title: 發佈和修改訊息
 description: 了解如何發佈和更新訊息
 snippet: y
 feature: Journeys
-topic: 內容管理
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
+exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 4%
+source-wordcount: '216'
+ht-degree: 3%
 
 ---
 
@@ -25,9 +26,9 @@ ht-degree: 4%
 
 ![](assets/publish-message.png)
 
-發佈訊息後，訊息會新增至狀態為&#x200B;**[!UICONTROL Published]**&#x200B;的訊息清單。
+訊息發佈後，就會以 **[!UICONTROL Published]** 狀態。
 
-現在已可由一或多個[journeys](building-journeys/journey.md)觸發。
+現在已可由一或多個 [歷程](building-journeys/journey.md).
 
 ## 更新唯讀訊息 {#modify-message}
 

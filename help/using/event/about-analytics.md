@@ -1,14 +1,15 @@
 ---
 title: 關於Adobe Analytics資料
 description: 了解如何運用Adobe Analytics資料
-feature: 事件
-topic: 管理
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 1%
+source-wordcount: '190'
+ht-degree: 8%
 
 ---
 
@@ -22,9 +23,9 @@ ht-degree: 1%
 
 為了讓此功能發揮作用，您需要在Adobe Experience Platform中啟用您要運用的報表套裝：
 
-1. 在Adobe Experience Platform中，依序選取Adobe Analytics區段中的&#x200B;**[!UICONTROL Sources]**&#x200B;和&#x200B;**[!UICONTROL Add data]**。 隨即顯示可用的Adobe Analytics報表套裝清單。
+1. 在Adobe Experience Platform中，選取 **[!UICONTROL Sources]** then **[!UICONTROL Add data]** 在Adobe Analytics區段。 隨即顯示可用的Adobe Analytics報表套裝清單。
 
-1. 選擇要啟用的報表套裝，按一下&#x200B;**[!UICONTROL Next]**，然後按一下&#x200B;**[!UICONTROL Finish]**。
+1. 選擇要啟用的報表套裝，按一下 **[!UICONTROL Next]** 按一下 **[!UICONTROL Finish]**.
 
 1. 與測試版計畫聯絡點共用來源資料ID。
 
@@ -32,4 +33,4 @@ ht-degree: 1%
 
 ![](../assets/jo-event9.png)
 
-在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target=&quot;_blank&quot;}和[tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target=&quot;_blank&quot;}中，深入了解Adobe Analytics來源連接器。
+進一步了解Adobe Analytics來源連接器，位於  [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant){target=&quot;_blank&quot;}和 [教學課程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant){target=&quot;_blank&quot;}。

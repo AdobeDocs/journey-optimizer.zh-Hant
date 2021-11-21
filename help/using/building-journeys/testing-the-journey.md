@@ -17,7 +17,7 @@ ht-degree: 2%
 
 您必須先解決所有錯誤（若有），才能測試您的歷程。 請參閱[本節](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb)。
 
-您可以使用測試設定檔，在歷程發佈前先行測試。 這可讓您分析個人在歷程中的流程，並在發佈前進行疑難排解。
+您可以使用測試設定檔，在歷程發佈前先測試歷程。 這可讓您分析個人在歷程中的流程，並在發佈前進行疑難排解。
 
 只有測試設定檔才能在測試模式中進入歷程。 您可以建立新的測試設定檔，或將現有設定檔轉換為測試設定檔。 請參閱 [節](../building-journeys/creating-test-profiles.md).
 
@@ -64,7 +64,7 @@ ht-degree: 2%
 
 ## 引發事件 {#firing_events}
 
-此 **[!UICONTROL Trigger an event]** 按鈕可讓您設定事件，讓人員進入歷程。
+此 **[!UICONTROL Trigger an event]** 按鈕可讓您設定讓人員進入歷程的事件。
 
 >[!NOTE]
 >

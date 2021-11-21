@@ -19,11 +19,11 @@ ht-degree: 68%
 
 >[!NOTE]
 >
->如果您在存取優惠方案程式庫或其部分功能時遇到問題，請洽詢已授予您必要權限的管理員使用者。 請參閱[授予決策管理的存取權](starting-offer-decisioning.md#granting-acess-to-decision-management)。
+>如果您在存取優惠方案程式庫或其部分功能時遇到問題，請洽詢已授予您必要權限的管理員使用者。 請參閱 [授予Decision Management的存取權](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
 使用 **[!UICONTROL Offers]** 功能表管理個人化和遞補優惠，將其組織成系列，並透過建立決定來傳遞：
 
-* **[!UICONTROL Overview]**:新手 [!DNL Offer Decisioning]嗎？請依照畫面上的步驟，開始設定版位、選件和系列。 若已熟悉[!DNL Offer Decisioning]，請取得最新選件、集合和決策的概觀。 請參閱[總覽](#overview)。
+* **[!UICONTROL Overview]**:新增至 [!DNL Offer Decisioning]? 請依照畫面上的步驟，開始設定版位、選件和系列。 已熟悉時 [!DNL Offer Decisioning]，取得最新選件、集合和決策的概觀。 請參閱[總覽](#overview)。
 
 * **[!UICONTROL Offers]**：存取您的個人化和遞補優惠，或建立新優惠。請參閱 [建立優惠 ](../offer-library/creating-personalized-offers.md)和[建立遞補優惠](../offer-library/creating-fallback-offers.md)。
 
@@ -47,7 +47,7 @@ ht-degree: 68%
 
 ## 總覽 {#overview}
 
-當您剛接觸[!DNL Offer Decisioning]時，**[!UICONTROL Overview]**&#x200B;標籤會引導您完成開始建立第一個選件決策所需的主要步驟。
+當您剛接觸 [!DNL Offer Decisioning], **[!UICONTROL Overview]** 標籤會引導您完成開始建立第一個優惠方案決策所需的主要步驟。
 
 ![](../../assets/overview_onboarding.png)
 
@@ -59,13 +59,13 @@ ht-degree: 68%
 
 >[!NOTE]
 >
->在[本區段](../offer-library/key-steps.md)中顯示建立選件及在決策中使用選件的主要步驟。
+>建立選件及在決策中使用選件的主要步驟顯示在 [本節](../offer-library/key-steps.md).
 
-當您更熟悉[!DNL Offer Decisioning]，且已建立至少一個選件決策時，**[!UICONTROL Overview]**&#x200B;標籤會顯示您最近的選件、集合和決策。
+當您更熟悉 [!DNL Offer Decisioning] 而您已建立至少一個選件決策， **[!UICONTROL Overview]** 索引標籤會顯示您最近的選件、集合和決策。
 
 按一下選件或決定直接存取所選項目的詳細資訊。
 
-按一下&#x200B;**[!UICONTROL View all]**&#x200B;按鈕以存取選件、集合或決策清單。
+按一下 **[!UICONTROL View all]** 按鈕來存取選件、集合或決策清單。
 
 ![](../../assets/overview_view-all.png)
 

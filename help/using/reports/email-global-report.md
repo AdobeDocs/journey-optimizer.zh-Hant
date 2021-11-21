@@ -43,7 +43,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Unsubscribe Rate]**:不重複取消訂閱與已傳送訊息數量的百分比。 此指標不取決於取消訂閱連結的點按次數，而是根據收件者起始的取消訂閱次數。 了解更多取消訂閱，請參閱 [頁面](../consent.md).
 
-此 **[!UICONTROL Email - Tracking statistics]** 包含您傳送之收件者活動的可用資料：
+此 **[!UICONTROL Email - Tracking statistics]** 包含您傳送的收件者活動可用資料：
 
 * **[!UICONTROL Opens]**:傳送中開啟傳送的次數。
 

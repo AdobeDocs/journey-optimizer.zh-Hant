@@ -1,14 +1,15 @@
 ---
 title: journeyStep 事件識別欄位
 description: journeyStep 事件識別欄位
-feature: 報告
-topic: 內容管理
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+exl-id: c447fcf0-51ec-4d88-8b2d-f15db076bfbc
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 30%
+source-wordcount: '60'
+ht-degree: 26%
 
 ---
 

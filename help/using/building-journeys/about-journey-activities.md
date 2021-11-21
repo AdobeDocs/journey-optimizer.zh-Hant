@@ -2,13 +2,14 @@
 title: 關於歷程活動
 description: 了解歷程活動
 feature: Journeys
-topic: 內容管理
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 30%
+source-wordcount: '262'
+ht-degree: 29%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 30%
 
 ## 事件活動 {#event-activities}
 
-技術使用者設定的事件（請參閱[此頁面](../event/about-events.md)）全部顯示在畫面左側浮動視窗的第一個類別中。 可使用下列事件活動：
+由技術使用者設定的事件(請參閱 [本頁](../event/about-events.md))會顯示在浮動視窗的第一個類別中，位於畫面左側。 可使用下列事件活動：
 
 * [一般事件](../building-journeys/general-events.md)
 * [反應](../building-journeys/reaction-events.md)
@@ -43,7 +44,7 @@ ht-degree: 30%
 
 ## 動作活動 {#action-activities}
 
-從浮動視窗的畫面左側，在&#x200B;**[!UICONTROL Events]**&#x200B;和&#x200B;**[!UICONTROL Orchestration]**&#x200B;下方，您會找到&#x200B;**[!UICONTROL Actions]**&#x200B;類別。 可使用下列動作活動：
+從浮動視窗的畫面左側，位於下方 **[!UICONTROL Events]** 和 **[!UICONTROL Orchestration]**，您會找到 **[!UICONTROL Actions]** 類別。 可使用下列動作活動：
 
 * [訊息](../building-journeys/journeys-message.md)
 * [自訂動作](../building-journeys/using-custom-actions.md)
@@ -53,11 +54,11 @@ ht-degree: 30%
 
 這些活動代表不同的可用通訊通道。您可以結合這些量度，以建立跨管道情境。
 
-如果您已設定自訂動作，則會顯示在此處（請參閱[此頁面](../building-journeys/using-custom-actions.md)）。
+如果您已設定自訂動作，這些動作會顯示在此處(請參閱 [本頁](../building-journeys/using-custom-actions.md))。
 
 ## 最佳做法 {#best-practices}
 
-大部分活動都可讓您定義&#x200B;**[!UICONTROL Label]**。 這會新增尾碼至將出現在畫布中活動底下的名稱。 如果您在歷程中多次使用相同的活動，並且想要更輕鬆地識別，這個功能會很實用。 這也可讓除錯在發生錯誤時更輕鬆，且讓報表更容易讀取。 您也可以新增選用&#x200B;**[!UICONTROL Description]**。
+大部分的活動都可讓您定義 **[!UICONTROL Label]**. 這會新增尾碼至將出現在畫布中活動底下的名稱。 如果您在歷程中多次使用相同的活動，並且想要更輕鬆地識別，這個功能會很實用。 這也可讓除錯在發生錯誤時更輕鬆，且讓報表更容易讀取。 您也可以新增選填 **[!UICONTROL Description]**.
 
 ![](../assets/journey59bis.png)
 

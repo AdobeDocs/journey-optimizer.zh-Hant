@@ -3,7 +3,8 @@ title: 開始使用資料集
 description: 了解如何在Adobe Journey Optimizer中使用Adobe Experience Platform資料集
 role: User
 level: Beginner
-source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
+exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 26%
@@ -14,19 +15,19 @@ ht-degree: 26%
 
 所有擷取至Adobe Experience Platform的資料都會以資料集形式保存在Data Lake中。 資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄 (列) 的表格。 
 
-了解如何在[本檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}中建立資料集。
+了解如何在中建立資料集 [本檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}。
 
-將資料新增至Adobe Experience Platform是建立設定檔的基礎。 然後，您將能夠在[!DNL Adobe Journey Optimizer]中利用配置檔案。 首先定義結構，使用ETL工具準備和標準化資料，然後根據您的結構建立資料集。
+將資料新增至Adobe Experience Platform是建立設定檔的基礎。 之後，您就能在 [!DNL Adobe Journey Optimizer]. 首先定義結構，使用ETL工具準備和標準化資料，然後根據您的結構建立資料集。
 
-➡️ [了解如何建立和設定資料集](#video-dataset)（影片）
+➡️ [了解如何建立和設定資料集](#video-dataset) （影片）
 
-[!DNL Adobe Journey Optimizer]使用者介面中的&#x200B;**資料集**&#x200B;工作區可讓您探索資料並建立資料集。
+此 **資料集** 工作區中 [!DNL Adobe Journey Optimizer] 使用者介面可讓您探索資料並建立資料集。
 
 ![](assets/datasets-home.png)
 
-在[資料擷取概述檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target=&quot;_blank&quot;}中了解如何使用資料集UI。
+了解如何在 [資料擷取概述檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
-[本檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hant){target=&quot;_blank&quot;}提供將CSV檔案對應至XDM架構的逐步檔案
+如需將CSV檔案對應至XDM結構的逐步檔案，請參閱 [本檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
 
 ## 作法影片{#video-dataset}
@@ -38,6 +39,5 @@ ht-degree: 26%
 **另請參閱**
 
 * [建立結構、資料集和內嵌資料，以在Journey Optimizer中新增測試設定檔](building-journeys/creating-test-profiles.md)
-* [串流擷取概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hant){target=&quot;_blank&quot;}
+* [串流獲取概觀](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hant){target=&quot;_blank&quot;}
 * [將資料內嵌至Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}
-

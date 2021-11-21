@@ -1,13 +1,14 @@
 ---
 title: 建立集合
 description: 了解如何使用集合來組織優惠方案。
-feature: 優惠
-topic: 整合
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '291'
 ht-degree: 3%
 
 ---
@@ -18,27 +19,27 @@ ht-degree: 3%
 
 ➡️ [在影片中探索此功能](#video)
 
-可在&#x200B;**[!UICONTROL Offers]**&#x200B;功能表中存取選件集合清單。
+優惠方案集合清單可在 **[!UICONTROL Offers]** 功能表。
 
 ![](../../assets/collections_list.png)
 
 您可以建立兩種類型的集合：
 
-* **動態** 集合是根據標籤的選件集合。這些集合會自動更新。 例如，如果以選取的標籤建立新選件，則會自動將其新增至集合。
+* **動態集合** 是根據標籤的選件集合。 這些集合會自動更新。 例如，如果以選取的標籤建立新選件，則會自動將其新增至集合。
 
-* **靜態** 集合是透過手動選取要納入集合中的個別選件來建立集合。只能手動新增更多選件來更新集合。
+* **靜態集合** 是透過手動選取要包含在集合中的個別選件來建立集合。 只能手動新增更多選件來更新集合。
 
 若要建立集合，請依照下列步驟操作：
 
-1. 前往&#x200B;**[!UICONTROL Collections]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Create collection]**。
+1. 前往 **[!UICONTROL Collections]** ，然後按一下 **[!UICONTROL Create collection]**.
 
 1. 指定要建立的集合名稱和類型。
 
    ![](../../assets/collection_create.png)
 
-1. 若要建立動態集合，請使用左窗格選取要新增至集合之選件的標籤，然後按一下&#x200B;**[!UICONTROL Save]**。 所有具有選取標籤的選件都會儲存在集合中。
+1. 若要建立動態系列，請使用左窗格選取要新增至系列的選件標籤，然後按一下 **[!UICONTROL Save]**. 所有具有選取標籤的選件都會儲存在集合中。
 
-   如需建立標籤的詳細資訊，請參閱[建立標籤](../offer-library/creating-tags.md)。
+   如需建立標籤的詳細資訊，請參閱 [建立標籤](../offer-library/creating-tags.md).
 
    ![](../../assets/dynamic_collection.png)
 

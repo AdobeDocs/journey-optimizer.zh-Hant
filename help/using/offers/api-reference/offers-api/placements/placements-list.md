@@ -1,14 +1,15 @@
 ---
 title: 清單位置
 description: 版位是用來展示優惠方案的容器。
-feature: 優惠
-topic: 整合
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 12%
+source-wordcount: '289'
+ht-degree: 11%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 12%
 
 版位是用來展示優惠方案的容器。 版位有助於確保正確的優惠方案內容顯示在訊息中的正確位置。 將內容新增至優惠方案時，系統會要求您選取可顯示該內容的版位。
 
-您可以對[!DNL Offer Library] API執行單一GET請求，以檢視容器內所有版位的清單。
+您可以對 [!DNL Offer Library] API。
 
 **API格式**
 
@@ -41,10 +42,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `q` | 要在所選欄位中搜尋的選用查詢字串。 查詢字串應為小寫，並可以用雙引號包住，以防止其被標籤並逸出特殊字元。 字元`+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊意義，在顯示於查詢字串時應以反斜線逸出。 | 網站JSON |
+| `q` | 要在所選欄位中搜尋的選用查詢字串。 查詢字串應為小寫，並可以用雙引號包住，以防止其被標籤並逸出特殊字元。 字元 `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 有特殊意義，且在出現在查詢字串時應以反斜線逸出。 | 網站JSON |
 | `qop` | 將AND或OR運算子套用至q查詢字串參數中的值。 | `AND` / `OR` |
-| `field` | 要限制搜索的欄位的可選清單。 此參數可重複，如下所示：field=field1[,field=field2,...]和（路徑表達式採用點分隔路徑的形式，如_instance.xdm:name） | `_instance.xdm:name` |
-| `orderBy` | 按特定屬性排序結果。 在標題(`orderby=-title`)前新增`-`會以降序(Z-A)依標題排序項目。 | `-repo:createdDate` |
+| `field` | 要限制搜索的欄位的可選清單。 此參數可重複，如下所示：field=field1[,field=field2,...] 和（路徑表達式採用點分隔路徑的形式，如_instance.xdm:name） | `_instance.xdm:name` |
+| `orderBy` | 按特定屬性排序結果。 新增 `-` 前標題(`orderby=-title`)會以降序(Z-A)依標題排序項目。 | `-repo:createdDate` |
 | `limit` | 限制傳回的版位數。 | `limit=5` |
 
 **要求**

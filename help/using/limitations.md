@@ -15,14 +15,14 @@ ht-degree: 2%
 
 # 限制 {#limitations}
 
-權益、產品限制和效能護欄列於[ Adobe Journey Optimizer產品說明頁面](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}中。
+權益、產品限制和效能護欄列於[ Adobe Journey Optimizer產品說明頁面](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}。
 
-使用[!DNL Adobe Journey Optimizer]時，您會發現以下其他限制。
+使用 [!DNL Adobe Journey Optimizer].
 
 ## 訊息的限制
 
-* 您無法向包含[!DNL Journey Optimizer]的電子郵件添加附件。
-* [!DNL Journey Optimizer]中不支援電子郵件密件副本。
+* 您無法將附件新增至具有 [!DNL Journey Optimizer].
+* 不支援電子郵件密件副本 [!DNL Journey Optimizer].
 
 ## 歷程限制
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 * 沒有發送限制。 
 * 發生錯誤時會系統地執行三次重試。 您無法根據收到的錯誤訊息調整重試次數。 
-* 內建的&#x200B;**Reaction**&#x200B;事件可讓您對現成可用的動作做出反應。 在[本頁面](building-journeys/reaction-events.md)深入瞭解。如果您想對透過自訂動作傳送的訊息做出反應，需要設定專用事件。 
+* 內建 **反應** 事件可讓您對現成可用的動作做出反應。 在[本頁面](building-journeys/reaction-events.md)深入瞭解。如果您想對透過自訂動作傳送的訊息做出反應，需要設定專用事件。 
 * 您無法同時放置兩個動作，您必須逐一新增。
 
 ### 訊息動作
@@ -39,11 +39,11 @@ ht-degree: 2%
 
 ### 歷程版本 {#journey-versions-limitations}
 
-* 從v1中的事件活動開始的歷程，無法以其他版本中的事件以外的項目開始。 您無法以&#x200B;**區段資格**&#x200B;事件開始歷程。
-* v1中以&#x200B;**區段資格**&#x200B;活動開始的歷程，在進一步版本中必須一律以&#x200B;**區段資格**&#x200B;開頭。
-* 在&#x200B;**區段資格**（第一個節點）中選擇的區段和命名空間在新版本中無法變更。
+* 從v1中的事件活動開始的歷程，無法以其他版本中的事件以外的項目開始。 您無法以 **區段資格** 事件。
+* 從 **區段資格** v1中的活動必須一律以開頭 **區段資格** 在其他版本中。
+* 在 **區段資格** （第一個節點）在新版本中無法變更。
 * 所有歷程版本中的重新進入規則必須相同。
-* 從&#x200B;**讀取區段**開始的歷程，無法從下一個版本中的其他事件開始。
+* 從 **讀取區段** 無法從下一個版本中的其他事件開始。
  
 
 ### 自訂動作

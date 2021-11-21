@@ -1,26 +1,27 @@
 ---
 title: 更新集合
 description: 集合是根據行銷人員定義的預先定義條件（例如優惠方案的類別）而提供的優惠方案子集。
-feature: 優惠
-topic: 整合
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 7d766f0a-4fcb-434a-bbfd-e18ade71ae56
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 8%
+source-wordcount: '166'
+ht-degree: 7%
 
 ---
 
 # 更新集合
 
-您可以向[!DNL Offer Library] API提出PATCH要求，以修改或更新集合
+您可以借由向 [!DNL Offer Library] API
 
-如需JSON修補程式的詳細資訊，包括可用的操作，請參閱官方的[ JSON修補程式檔案](http://jsonpatch.com/)。
+如需JSON修補程式的詳細資訊，包括可用的操作，請參閱 [JSON修補程式檔案](http://jsonpatch.com/).
 
 ## 接受和內容類型標題
 
-下表顯示了請求標題中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
+下表顯示了 *內容類型* 和 *接受* 請求標題中的欄位：
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
@@ -66,13 +67,13 @@ curl -X PATCH \
 
 | 參數 | 說明 |
 | --------- | ----------- |
-| `op` | 用來定義更新連線所需動作的操作呼叫。 操作包括：`add`、`replace`和`remove`。 |
+| `op` | 用來定義更新連線所需動作的操作呼叫。 操作包括： `add`, `replace`，和 `remove`. |
 | `path` | 要更新的參數的路徑。 |
 | `value` | 您要用更新參數的新值。 |
 
 **回應**
 
-成功的回應會傳回集合的更新詳細資料，包括其唯一例項ID和集合`@id`。
+成功的回應會傳回集合的更新詳細資料，包括其唯一例項ID和集合 `@id`.
 
 ```json
 {

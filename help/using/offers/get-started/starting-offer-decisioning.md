@@ -19,7 +19,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->如果您是善用&#x200B;**Offer decisioning**&#x200B;應用程式服務的[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target=&quot;_blank&quot;}使用者，本節中描述的所有決策管理功能也適用於您。
+>如果您是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target=&quot;_blank&quot;}使用者運用 **offer decisioning** 應用程式服務，本節中描述的所有決策管理功能也適用於您。
 
 「決定管理」功能由兩個主要元件組成：
 
@@ -34,7 +34,7 @@ ht-degree: 87%
 * 改善工作流程：行銷團隊可以建立單一傳遞，並在範本的不同部分提供不同優惠方案，藉此改善工作流程，而無須建立多個傳遞或行銷活動；
 * 控制在電子郵件行銷活動中和向客戶顯示優惠方案的次數。
 
-➡️ [觀看這些教學課程影片](#tutorial-videos)以取得決策管理的詳細資訊。
+➡️ [觀看這些教學課程影片](#tutorial-videos) 以取得決策管理的詳細資訊。
 
 ## 關於優惠和決定 {#offers-offer-activities}
 
@@ -66,11 +66,11 @@ ht-degree: 87%
 
 ## 授予Decision Management的存取權 {#granting-acess-to-decision-management}
 
-使用[Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}管理存取和使用offer decisioning功能的權限。
+存取和使用offer decisioning功能的權限是透過 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}。
 
-若要授與「決策管理」功能的存取權，您需要建立&#x200B;**[!UICONTROL Product profile]**，並將對應的權限指派給您的使用者。 進一步了解如何在[此小節](../../administration/permissions.md)中管理[!DNL Journey Optimizer]使用者和權限。
+若要授與「決策管理」功能的存取權，您必須建立 **[!UICONTROL Product profile]** 並指派對應的權限給您的使用者。 深入了解管理 [!DNL Journey Optimizer] 使用者和權限 [本節](../../administration/permissions.md).
 
-決策管理的特定權限列於[此區段](../../administration/high-low-permissions.md#decisions-permissions)中。
+決策管理的特定權限列於 [本節](../../administration/high-low-permissions.md#decisions-permissions).
 
 ## 字彙 {#glossary}
 
@@ -107,7 +107,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->這些影片適用於以 Adobe Experience Platform 為基礎的優惠決定應用程式服務，而非特定於 [!DNL Adobe Journey Optimizer]。 但是，它們提供了在[!DNL Journey Optimizer]中使用決策管理的通用指導。
+>這些影片適用於以 Adobe Experience Platform 為基礎的優惠決定應用程式服務，而非特定於 [!DNL Adobe Journey Optimizer]。 但是，它們提供一般性指導，以在 [!DNL Journey Optimizer].
 
 ### 什麼是決定管理？ {#what-is-offer-decisioning}
 

@@ -1,14 +1,15 @@
 ---
 title: 清單標籤
 description: 標籤可讓您更妥善地組織和排序優惠方案。
-feature: 優惠
-topic: 整合
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 4%
+source-wordcount: '306'
+ht-degree: 3%
 
 ---
 
@@ -16,9 +17,9 @@ ht-degree: 4%
 
 標籤可讓您更妥善地組織和排序優惠方案。 例如，您可以使用「黑色星期五」標籤來標示黑色星期五優惠方案。 然後，您就可以使用優惠方案庫中的搜尋功能，輕鬆找到所有具有該標籤的優惠方案。
 
-標籤也可用來將選件群組在一起到集合中。 如需詳細資訊，請參閱[建立集合](../../../offer-library/creating-collections.md)的教學課程。
+標籤也可用來將選件群組在一起到集合中。 如需詳細資訊，請參閱 [建立集合](../../../offer-library/creating-collections.md).
 
-您可以對[!DNL Offer Library] API執行單一GET請求，以檢視容器內所有標籤的清單。
+您可以對 [!DNL Offer Library] API。
 
 **API格式**
 
@@ -55,10 +56,10 @@ curl -X GET \
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `q` | 要在所選欄位中搜尋的選用查詢字串。 查詢字串應為小寫，並可以用雙引號包住，以防止其被標籤並逸出特殊字元。 字元`+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊意義，在顯示於查詢字串時應以反斜線逸出。 | 網站JSON |
+| `q` | 要在所選欄位中搜尋的選用查詢字串。 查詢字串應為小寫，並可以用雙引號包住，以防止其被標籤並逸出特殊字元。 字元 `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 有特殊意義，且在出現在查詢字串時應以反斜線逸出。 | 網站JSON |
 | `qop` | 將AND或OR運算子套用至q查詢字串參數中的值。 | `AND` / `OR` |
-| `field` | 要限制搜索的欄位的可選清單。 此參數可重複，如下所示：field=field1[,field=field2,...]和（路徑表達式採用點分隔路徑的形式，如_instance.xdm:name） | `_instance.xdm:name` |
-| `orderBy` | 按特定屬性排序結果。 在標題(`orderby=-title`)前新增`-`會以降序(Z-A)依標題排序項目。 | `-repo:createdDate` |
+| `field` | 要限制搜索的欄位的可選清單。 此參數可重複，如下所示：field=field1[,field=field2,...] 和（路徑表達式採用點分隔路徑的形式，如_instance.xdm:name） | `_instance.xdm:name` |
+| `orderBy` | 按特定屬性排序結果。 新增 `-` 前標題(`orderby=-title`)會以降序(Z-A)依標題排序項目。 | `-repo:createdDate` |
 | `limit` | 限制傳回的標籤數。 | `limit=5` |
 
 **回應**

@@ -1,13 +1,14 @@
 ---
 title: 關於資料來源
 description: 瞭解如何設定資料來源
-feature: 資料來源
-topic: 管理
+feature: Data Sources
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: d69779418d50fdc4b75cc777b27a62392d1634a0
+exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '288'
 ht-degree: 72%
 
 ---
@@ -39,4 +40,4 @@ ht-degree: 72%
 >
 >資料來源現在支援結構關係。
 
-如需如何設定Adobe Experience Platform資料來源和外部資料來源，以及如何在歷程中尋找和使用資料的詳細資訊，請觀看此[教學課程影片](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target=&quot;_blank&quot;}。
+如需如何設定Adobe Experience Platform資料來源和外部資料來源，以及如何在歷程中尋找和使用資料的詳細資訊，請觀看此影片 [教學課程影片](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target=&quot;_blank&quot;}。

@@ -1,14 +1,15 @@
 ---
 title: 聚合函式庫
 description: 聚合函式庫
-feature: 個性化
-topic: 個性化
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 9%
+source-wordcount: '157'
+ht-degree: 8%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 9%
 
 ## 計數{#count}
 
-`count`函式返回給定陣列內的元素數。
+此 `count` 函式會傳回指定陣列中的元素數。
 
 **格式**
 
@@ -36,7 +37,7 @@ ht-degree: 9%
 
 ## 總和{#sum}
 
-`sum`函式返回陣列內所有選定值的總和。
+此 `sum` 函式會傳回陣列內所有選取值的總和。
 
 **格式**
 
@@ -54,7 +55,7 @@ ht-degree: 9%
 
 ## 平均{#average}
 
-`average`函式返回陣列內所有選定值的算術平均值。
+此 `average` 函式返回陣列內所有選定值的算術平均值。
 
 **格式**
 
@@ -72,7 +73,7 @@ ht-degree: 9%
 
 ## 最小{#min}
 
-`min`函式返回陣列內所有選定值的最小值。
+此 `min` 函式會傳回陣列中所有選取值的最小值。
 
 **格式**
 
@@ -90,7 +91,7 @@ ht-degree: 9%
 
 ## 最大{#max}
 
-`max`函式返回陣列內所有選定值中最大的值。
+此 `max` 函式會傳回陣列中所有選取值中最大的值。
 
 **格式**
 

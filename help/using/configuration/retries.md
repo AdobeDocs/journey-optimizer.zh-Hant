@@ -15,25 +15,25 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: b18f8c468157988be9cca44795b46f6fb4a0208e
+exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-
 # 重試次數 {#retries}
 
-當電子郵件訊息因暫時&#x200B;**軟退信**&#x200B;錯誤而失敗時，會執行多次重試。 每個錯誤都會增加一個錯誤計數器。 當此計數器達到限制閾值時，該地址將添加到隱藏清單中。
+當電子郵件因暫時性而失敗時 **軟跳出** 錯誤，會執行多次重試。 每個錯誤都會增加一個錯誤計數器。 當此計數器達到限制閾值時，該地址將添加到隱藏清單中。
 
 >[!NOTE]
 >
->進一步了解[傳送失敗類型](../suppression-list.md#delivery-failures)區段中的錯誤類型。
+>進一步了解中的錯誤類型 [傳送失敗類型](../suppression-list.md#delivery-failures) 區段。
 
 在預設設定中，臨界值設為5個錯誤。
 
-* 對於相同的傳送，在[重試時段](#retry-duration)內的第五次遇到錯誤時，會抑制該地址。
+* 對於相同傳送，在第五個傳送時， [重試時間段](#retry-duration)，則會抑制該地址。
 
 * 如果有不同的傳送，且至少24小時之外發生兩個錯誤，則錯誤計數器會在每個錯誤時增加，而地址也會在第五次嘗試時被抑制。
 
@@ -61,13 +61,13 @@ ht-degree: 1%
 
 <!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
 
-## 重試時間段 {#retry-duration}
+## 重試時段 {#retry-duration}
 
-**重試時段**&#x200B;是傳送中遇到暫時錯誤或軟退信的任何電子郵件將重試的時間範圍。
+此 **重試時間段** 是傳送中遇到暫時錯誤或軟退信的任何電子郵件訊息會重試的時間範圍。
 
-依預設，從將訊息新增至電子郵件佇列時起，將對&#x200B;**3.5天**（或&#x200B;**84小時**）執行重試。
+預設情況下，將對執行重試 **3.5天** (或 **84小時**)，從訊息新增至電子郵件佇列的時間開始。
 
-不過，為確保不再需要重試嘗試時，您可以在建立或編輯套用至電子郵件通道的[訊息預設集](message-presets.md)時，根據您的需求變更此設定。
+不過，為確保不再需要時執行重試嘗試，您可以在建立或編輯 [訊息預設集](message-presets.md) 套用至電子郵件通道。
 
 例如，對於與密碼重設相關的交易式電子郵件，並且包含僅有一天有效的連結，您可以將重試期間設為24小時。 同樣地，對於午夜銷售，您可能想要定義6小時的重試期間。
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 >
 >重試期不能超過84小時。 行銷電子郵件的最低重試時間為6小時，交易式電子郵件的最低重試時間為10分鐘。
 
-了解在[此區段](message-presets.md#create-message-preset)中建立訊息預設集時，如何調整電子郵件重試參數。
+了解在中建立訊息預設集時，如何調整電子郵件重試參數 [本節](message-presets.md#create-message-preset).
 
 <!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
 

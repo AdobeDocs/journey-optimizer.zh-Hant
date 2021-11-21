@@ -81,7 +81,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Error Rate]**:傳送期間發生、無法傳送的錯誤百分比，與已傳送的電子郵件相比。
 
-此 **[!UICONTROL Email - Tracking statistics]** 包含您傳送之收件者活動的可用資料：
+此 **[!UICONTROL Email - Tracking statistics]** 包含您傳送的收件者活動可用資料：
 
 * **[!UICONTROL Opens]**:傳送中開啟傳送的次數。
 
@@ -177,7 +177,7 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 
 * **[!UICONTROL Error Rate]**:與傳送的推播通知相比，傳送期間發生而無法傳送的錯誤百分比。
 
-此 **[!UICONTROL Push - Tracking statistics]** 包含您傳送之收件者活動的可用資料：
+此 **[!UICONTROL Push - Tracking statistics]** 包含您傳送的收件者活動可用資料：
 
 * **[!UICONTROL Opens]**:傳送中開啟訊息的次數。
 

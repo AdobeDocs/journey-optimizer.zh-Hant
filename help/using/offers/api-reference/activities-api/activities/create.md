@@ -1,24 +1,25 @@
 ---
 title: 建立決定
 description: 決策包含通知選件選擇的邏輯。
-feature: 優惠
-topic: 整合
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 12%
+source-wordcount: '119'
+ht-degree: 10%
 
 ---
 
 # 建立決定
 
-您可以向[!DNL Offer Library] API提出POST請求，同時提供容器ID，借此建立決策（先前稱為優惠方案活動）。
+您可以向 [!DNL Offer Library] API，同時提供容器ID。
 
 ## 接受和內容類型標題
 
-下表顯示了請求標題中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
+下表顯示了 *內容類型* 和 *接受* 請求標題中的欄位：
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
@@ -68,7 +69,7 @@ curl -X POST \
 
 **回應**
 
-成功的回應會傳回關於新建立決策的資訊，包括其唯一例項ID和位置`@id`。 您可以在後續步驟中使用例項ID來更新或刪除您的決策。
+成功的回應會傳回關於新建立決策的資訊，包括其唯一例項ID和位置 `@id`. 您可以在後續步驟中使用例項ID來更新或刪除您的決策。
 
 ```json
 {

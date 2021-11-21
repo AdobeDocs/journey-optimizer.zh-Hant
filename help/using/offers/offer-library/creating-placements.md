@@ -1,28 +1,29 @@
 ---
-title: 建立位置
+title: 建立版位
 description: 了解如何在Adobe Experience Platform中建立版位。
-feature: 優惠
-topic: 整合
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 15%
+source-wordcount: '215'
+ht-degree: 14%
 
 ---
 
-# 建立位置 {#creating-placements}
+# 建立版位 {#creating-placements}
 
 版位有助於確保正確的優惠方案內容顯示在訊息中的正確位置。 將內容新增至優惠方案時，系統會要求您選取可顯示該內容的版位。
 
 ➡️ [在影片中探索此功能](#video)
 
-在下列範例中，有三個版位對應於不同的內容類型（影像、文字、HTML）。
+在下列範例中，有三個版位對應於不同的內容類型(影像、文字、HTML)。
 
 ![](../../assets/offers_placement_schema.png)
 
-位置清單可在&#x200B;**[!UICONTROL Components]**&#x200B;功能表中存取。 篩選器可協助您根據特定頻道或內容擷取版位。
+位置清單可在 **[!UICONTROL Components]** 功能表。 篩選器可協助您根據特定頻道或內容擷取版位。
 
 ![](../../assets/placements_filter.png)
 
@@ -34,14 +35,14 @@ ht-degree: 15%
 
 1. 定義版位的屬性：
 
-   * **[!UICONTROL Name]**:版位的名稱。請務必定義有意義的名稱，以便更輕鬆擷取名稱。
+   * **[!UICONTROL Name]**:版位的名稱。 請務必定義有意義的名稱，以便更輕鬆擷取名稱。
    * **[!UICONTROL Channel type]**:將使用版位的管道。
    * **[!UICONTROL Content type]**:允許版位顯示的內容類型：文字、HTML或影像連結。
    * **[!UICONTROL Description]**:版位的說明（選用）。
 
    ![](../../assets/offers_placement_creation_properties.png)
 
-1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以確認。
+1. 按一下 **[!UICONTROL Save]** 確認。
 
 1. 版位建立後，會顯示在版位清單中。 您可以選取它以顯示其屬性並加以編輯。
 

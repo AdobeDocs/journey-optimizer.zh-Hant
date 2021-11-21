@@ -1,33 +1,31 @@
 ---
 title: 個人化驗證
 description: 深入了解個人化驗證及疑難排解
-feature: 個性化
-topic: 個性化
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 2%
+source-wordcount: '322'
+ht-degree: 1%
 
 ---
-
 
 # 個人化驗證 {#personalization-validation}
 
 ## 驗證機制
 
-在&#x200B;**運算式編輯器**&#x200B;畫面中，使用&#x200B;**驗證**&#x200B;按鈕來檢查您的個人化語法。
+在 **運算式編輯器** 螢幕，使用 **驗證** 按鈕以檢查個人化語法。
 
 >[!NOTE]
-> 當您按一下&#x200B;**Add**&#x200B;按鈕以關閉編輯器視窗時，驗證會自動執行。
-
+> 當您按一下 **新增** 按鈕以關閉編輯器視窗。
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > 如果個人化語法無效，則無法關閉運算式編輯器視窗。
-
 
 ## 常見錯誤
 
@@ -35,17 +33,17 @@ ht-degree: 2%
 
 嘗試參考未在架構中定義的欄位時。
 
-在此案例中，**firstName1**&#x200B;未在設定檔架構中定義為屬性：
+在這種情況下 **firstName1** 未定義為設定檔結構中的屬性：
 
 ```
 {{profile.person.name.firstName1}}
 ```
 
-* **變數&quot;XYZ&quot;的類型不符。預期的陣列。 找到字串。**
+* **變數&quot;XYZ&quot;的類型不符。 預期的陣列。 找到字串。**
 
 嘗試迭代運算字串而非陣列時：
 
-在這種情況下，**product**&#x200B;不是陣列：
+在這種情況下 **產品** 不是陣列：
 
 ```
 {{each profile.person.name.firstName as |product|}}
@@ -53,11 +51,11 @@ ht-degree: 2%
 {{/each}}
 ```
 
-* **無效的handlebars語法。找到`‘[XYZ}}’`**
+* **無效的handlebars語法。 找到`‘[XYZ}}’`**
 
 使用無效的handlebars語法時。
 
-Handlebars表達式被&#x200B;**{{expression}}**&#x200B;包圍
+Handlebars表達式被包圍 **{{expression}}**
 
 ```
    {{[profile.person.name.firstName}}
@@ -83,12 +81,12 @@ Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
  <thead> 
   <tr> 
    <th> 錯誤標題<br /> </th> 
-   <th> 驗證/解決方案<br /> </th> 
+   <th> 驗證/解決方法 <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>找不到具有ID placementID的資源，並鍵入OfferPlacement <br/>
+   <td>找不到具有id placementID的資源，並鍵入OfferPlacement <br/>
 找不到具有id activityID且類型為OfferActivity的資源<br/></td> 
    <td>檢查ActivityID和/或PlacementID是否可用</td> 
   </tr> 
@@ -110,11 +108,10 @@ Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
   </tr>
   <tr> 
    <td>選件屬性選件屬性無效。</td> 
-   <td>檢查選件記錄中參考的選件屬性是否有效。 以下是有效屬性：<br/>
+   <td>檢查選件記錄中參考的選件屬性是否有效。 以下是有效屬性： <br/>
 影像：deliveryURL, linkURL<br/>
-文字：content<br/>
+文字：內容<br/>
 HTML:內容<br/></td> 
   </tr> 
  </tbody> 
 </table>
-

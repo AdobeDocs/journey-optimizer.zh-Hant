@@ -1,22 +1,23 @@
 ---
 title: journeysteps事件常用欄位
 description: journeysteps事件常用欄位
-feature: 報告
-topic: 內容管理
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '582'
 ht-degree: 9%
 
 ---
 
-# journeysteps事件公用欄位{#sharing-common-fields}
+# journeysteps事件常用欄位 {#sharing-common-fields}
 
 此欄位群組將由journeyStepEvent和journeyStepProfileEvent共用。
 
-這些是[!DNL Journey Optimizer]傳送至Adobe Experience Platform的通用XDM欄位。 歷程中處理的每個步驟都會傳送通用欄位。 自訂動作和擴充會使用更特定的欄位。
+這些是常見的XDM欄位 [!DNL Journey Optimizer] 傳送至Adobe Experience Platform。 歷程中處理的每個步驟都會傳送通用欄位。 自訂動作和擴充會使用更特定的欄位。
 
 其中有些欄位僅適用於特定處理模式（動作執行、資料擷取等） 以限制事件的大小。
 

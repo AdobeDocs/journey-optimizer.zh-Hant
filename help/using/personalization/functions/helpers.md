@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## 預設後援值{#default-value}
 
-如果屬性為空或null，則使用`Default Fallback Value`幫助程式返回預設的回退值。 此機制適用於設定檔屬性和歷程事件。
+此 `Default Fallback Value` 如果屬性為空或null，則使用helper返回預設的回退值。 此機制適用於設定檔屬性和歷程事件。
 
 **語法**
 
@@ -25,11 +25,11 @@ ht-degree: 4%
 Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
 ```
 
-在此示例中，如果此配置檔案的`firstName`屬性為空或空，則顯示值`there`。
+在此範例中，值 `there` 若 `firstName` 此配置檔案的屬性為空或null。
 
 ## 條件{#if-function}
 
-`if`幫助程式用於定義條件塊。
+此 `if` Helper用於定義條件塊。
 如果運算式評估傳回true，則會轉譯區塊，否則會跳過該區塊。
 
 **語法**
@@ -39,8 +39,8 @@ Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-在`if`幫助程式之後，如果相同的條件為false，您可以輸入`else`陳述式來指定要執行的代碼塊。
-`elseif`陳述式將指定新條件以測試第一個陳述式是否傳回false。
+遵循 `if` 幫手，你可以輸入 `else` 語句，指定要執行的代碼塊（如果相同條件為false）。
+此 `elseif` 語句將指定一個新條件以測試第一個語句是否返回false。
 
 
 **格式**
@@ -116,12 +116,12 @@ Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
 
 >[!NOTE]
 >
->若要進一步了解分段和分段服務，請參閱此[區段](../../segment/about-segments.md)。
+>若要進一步了解分段和分段服務，請參閱 [節](../../segment/about-segments.md).
 
 
 ## 除非{#unless}
 
-`unless`幫助程式用於定義條件塊。 與`if`協助程式相對，如果運算式評估傳回false，則會轉譯區塊。
+此 `unless` Helper用於定義條件塊。 由反對 `if`  helper，如果運算式評估傳回false，則會轉譯區塊。
 
 **語法**
 
@@ -143,9 +143,8 @@ Some edu specific content Content
 
 ## 每個{#each}
 
-`each`幫助程式用於迭代陣列。
-協助程式的語法為```{{#each ArrayName}}``` YourContent {{/each}}
-我們可以使用區塊內的關鍵字**this**&#x200B;來參照個別陣列項目。 可使用{{@index}}呈現陣列元素的索引。
+此 `each` helper可用來迭代運算陣列。
+協助程式的語法為 ```{{#each ArrayName}}``` YourContent {{/each}}我們可以使用關鍵字來參照個別陣列項目 **此** 在街區裡。 可使用{{@index}}呈現陣列元素的索引。
 
 **語法**
 
@@ -177,7 +176,7 @@ Some edu specific content Content
 
 ## 使用{#with}
 
-`with`幫助程式用於更改template-part的評估令牌。
+此 `with` helper可用來變更template-part的評估令牌。
 
 **語法**
 
@@ -187,7 +186,7 @@ Some edu specific content Content
 {{/with}}
 ```
 
-`with`協助程式對於定義快捷方式變數也很有用。
+此 `with` 協助程式對於定義快速鍵變數也很實用。
 
 **範例**
 
@@ -202,7 +201,7 @@ Some edu specific content Content
 
 ## 讓{#let}
 
-`let`函式允許將表達式儲存為變數，以便稍後在查詢中使用。
+此 `let` 函式可讓運算式儲存為變數，以供稍後在查詢中使用。
 
 **語法**
 

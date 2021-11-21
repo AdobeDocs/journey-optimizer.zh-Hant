@@ -2,13 +2,14 @@
 title: 一般原則
 description: 一般原則
 feature: Journeys
-topic: 內容管理
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 7%
+source-wordcount: '115'
+ht-degree: 5%
 
 ---
 
@@ -18,10 +19,10 @@ ht-degree: 7%
 
 設計由下列功能提供支援的多步驟進階案例：
 
-* 在收到事件時觸發即時&#x200B;**單一訊息**，或使用Adobe Experience Platform區段以批次&#x200B;**觸發**。
+* 即時傳送 **統一消息** 在收到事件時觸發，或 **批次** 使用Adobe Experience Platform區段。
 
-* 善用來自事件、來自Adobe Experience Platform的資訊或來自協力廠商API服務的資料的&#x200B;**內容資料**。
+* 運用 **內容資料** 來自事件、來自Adobe Experience Platform的資訊，或來自協力廠商API服務的資料。
 
-* 使用&#x200B;**內建動作**&#x200B;來傳送[!DNL Journey Optimizer]中設計的訊息，或如果您使用協力廠商系統來傳送訊息，請建立&#x200B;**自訂動作**。
+* 使用 **內建動作** 發送設計在 [!DNL Journey Optimizer] 或建立 **自訂動作** 如果您使用協力廠商系統來傳送訊息。
 
-* 使用&#x200B;**journey designer**&#x200B;建立您的多步驟使用案例：輕鬆拖放登入事件或讀取區段活動、新增條件及傳送個人化訊息。
+* 使用 **歷程設計器**，建立您的多步驟使用案例：輕鬆拖放登入事件或讀取區段活動、新增條件及傳送個人化訊息。

@@ -1,14 +1,15 @@
 ---
 title: 建立集合
 description: 集合是根據行銷人員定義的預先定義條件（例如優惠方案的類別）而提供的優惠方案子集。
-feature: 優惠
-topic: 整合
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 10%
+source-wordcount: '155'
+ht-degree: 9%
 
 ---
 
@@ -16,11 +17,11 @@ ht-degree: 10%
 
 集合是根據行銷人員定義的預先定義條件（例如優惠方案的類別）而提供的優惠方案子集。
 
-您可以向[!DNL Offer Library] API提出POST要求，同時提供容器ID，以建立集合。
+您可以向 [!DNL Offer Library] API，同時提供容器ID。
 
 ## 接受和內容類型標題
 
-下表顯示了請求標題中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
+下表顯示了 *內容類型* 和 *接受* 請求標題中的欄位：
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
@@ -60,7 +61,7 @@ curl -X POST \
 
 **回應**
 
-成功的回應會傳回新建立集合的相關資訊，包括其唯一例項ID和位置`@id`。 您可以在後續步驟中使用例項ID來更新或刪除您的集合。 您可以在後續的教學課程中使用您的唯一集合`@id`來建立決策。
+成功的回應會傳回新建立集合的相關資訊，包括其唯一例項ID和位置 `@id`. 您可以在後續步驟中使用例項ID來更新或刪除您的集合。 您可以使用您的唯一集合 `@id` 以建立決策。
 
 ```json
 {

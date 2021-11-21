@@ -3,19 +3,19 @@ title: 委派子網域
 description: 了解如何委派子網域
 internal: n
 snippet: y
-feature: 應用程式設定
-topic: 管理
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '385'
 ht-degree: 27%
 
 ---
 
-
-# [!DNL Journey Optimizer]中的子網域委派
+# 子網域委派於 [!DNL Journey Optimizer]
 
 為電子郵件行銷活動建立子網域可讓品牌將各種類型的流量（行銷與公司等）隔離至特定IP池和特定網域，以加速IP準備程式並改善整體傳遞能力。 如果您共用某個域，該域被阻止或添加到拒絕清單中，則可能會影響公司郵件的傳送。 不過，您電子郵件行銷通訊專屬網域的信譽問題或區塊，只會影響電子郵件的流程。 將主域用作多個郵件流的發件人地址或「發件人」地址也可能會中斷電子郵件身份驗證，從而導致郵件被阻止或放在垃圾郵件資料夾中。
 
@@ -34,6 +34,6 @@ ht-degree: 27%
 
 **了解更多**
 
-* 了解如何直接從介面[委派子網域](delegate-subdomain.md)
-* 了解如何將[新增Google TXT記錄](google-txt.md)至您的子網域，以確保成功傳送電子郵件至Gmail地址
-* 了解如何[訪問為子域生成的PTR記錄](ptr-records.md)，從而通過發送郵件伺服器來驗證這些記錄
+* 了解如何 [委派子網域](delegate-subdomain.md) 直接從介面
+* 了解如何 [新增Google TXT記錄](google-txt.md) 傳送至您的子網域，以確保電子郵件成功傳送至Gmail地址
+* 了解如何 [訪問PTR記錄](ptr-records.md) 為您的子網域產生，可透過傳送郵件伺服器來驗證

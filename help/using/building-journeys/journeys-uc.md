@@ -2,12 +2,13 @@
 title: 歷程使用案例
 description: 歷程使用案例
 feature: Journeys
-topic: 內容管理
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 62d83f69ebf50f36688e3db956bb3860a468c2d6
+exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '835'
 ht-degree: 2%
 
 ---
@@ -40,39 +41,39 @@ ht-degree: 2%
 
 在我們的歷程中，我們想要運用特定的客戶區段。 屬於區段的所有個人都會進入歷程，並遵循不同的步驟。 在我們的範例中，我們需要一個區段來鎖定居住在亞特蘭大、舊金山或西雅圖、1980年後出生的所有客戶。
 
-如需區段的詳細資訊，請參閱此[page](../segment/about-segments.md)。
+如需區段的詳細資訊，請參閱 [頁面](../segment/about-segments.md).
 
-1. 從「客戶」菜單部分，選擇&#x200B;**[!UICONTROL Segments]**。
+1. 從「客戶」功能表區段中，選取 **[!UICONTROL Segments]**.
 
-1. 按一下位於區段清單右上角的&#x200B;**[!UICONTROL Create segment]**&#x200B;按鈕。
+1. 按一下 **[!UICONTROL Create segment]** 按鈕（位於區段清單的右上角）。
 
-1. 在&#x200B;**[!UICONTROL Segment properties]**&#x200B;窗格中，輸入段的名稱。
+1. 在 **[!UICONTROL Segment properties]** ，輸入段的名稱。
 
-1. 將需要的欄位從左窗格拖曳至中央工作區，然後根據您的需求進行設定。 在此範例中，我們使用&#x200B;**City**&#x200B;和&#x200B;**Birth year**&#x200B;屬性欄位。
+1. 將需要的欄位從左窗格拖曳至中央工作區，然後根據您的需求進行設定。 在此範例中，我們會使用 **城市** 和 **出生年** 屬性欄位。
 
 1. 按一下「**[!UICONTROL Save]**」。
 
    ![](../assets/add-attributes.png)
 
-區段現在已建立，且可供您在歷程中使用。 使用&#x200B;**讀取區段**&#x200B;活動，您可以讓屬於該區段的所有個人進入歷程。
+區段現在已建立，且可供您在歷程中使用。 使用 **讀取區段** 活動中，您可以讓屬於區段的所有個人進入歷程。
 
 ### 設定事件
 
 您必須設定客戶購買時傳送至歷程的事件。 歷程收到事件時，會觸發「感謝您」訊息。
 
-為此，我們使用規則型事件。 有關事件的詳細資訊，請參閱此[page](../event/about-events.md)。
+為此，我們使用規則型事件。 如需事件的詳細資訊，請參閱 [頁面](../event/about-events.md).
 
-1. 在「管理」菜單部分，選擇&#x200B;**[!UICONTROL Configurations]**，然後按一下&#x200B;**[!UICONTROL Events]**。 按一下 **[!UICONTROL Create event]** 以建立新事件。
+1. 在「管理」(ADMINISTRATION)菜單部分中，選擇 **[!UICONTROL Configurations]**，然後按一下 **[!UICONTROL Events]**. 按一下 **[!UICONTROL Create event]** 以建立新事件。
 
 1. 輸入事件名稱。
 
 1. 在 **[!UICONTROL Event ID type]** 欄位中，選取 **[!UICONTROL Rule Based]**。
 
-1. 定義&#x200B;**[!UICONTROL Schema]**&#x200B;和裝載&#x200B;**[!UICONTROL Fields]**。 您可以使用數個欄位，例如購買的產品、購買日期和購買id。
+1. 定義 **[!UICONTROL Schema]** 和裝載 **[!UICONTROL Fields]**. 您可以使用數個欄位，例如購買的產品、購買日期和購買id。
 
-1. 在&#x200B;**[!UICONTROL Event ID condition]**&#x200B;欄位中，定義系統用來識別觸發歷程之事件的條件。 例如，您可以新增`purchaseMessage`欄位並定義下列規則：`purchaseMessage="thank you"`
+1. 在 **[!UICONTROL Event ID condition]** 欄位中，定義系統用來識別觸發歷程的事件的條件。 例如，您可以新增 `purchaseMessage` 欄位並定義下列規則： `purchaseMessage="thank you"`
 
-1. 定義&#x200B;**[!UICONTROL Namespace]**&#x200B;和&#x200B;**[!UICONTROL Profile Identifier]**。
+1. 定義 **[!UICONTROL Namespace]** 和 **[!UICONTROL Profile Identifier]**.
 
 1. 按一下「**[!UICONTROL Save]**」。
 
@@ -90,42 +91,42 @@ ht-degree: 2%
 
 ![](../assets/jo-uc3.png)
 
-請參閱此[小節](../segment/about-segments.md)以了解如何設計和發佈這些訊息。
+請參閱 [節](../segment/about-segments.md) 了解如何設計和發佈這些訊息。
 
 ## 設計歷程
 
-1. 從&#x200B;**讀取區段**&#x200B;活動開始歷程。 選取先前建立的區段。 屬於區段的所有個人都會進入歷程。
+1. 以 **讀取區段** 活動。 選取先前建立的區段。 屬於區段的所有個人都會進入歷程。
 
    ![](../assets/jo-uc4.png)
 
-1. 拖放&#x200B;**訊息**&#x200B;活動，並選取推送和電子郵件第一則訊息。 此訊息會傳送給歷程中的所有個人。
+1. 放置 **訊息** 活動，並選取「推送」和「電子郵件第一訊息」。 此訊息會傳送給歷程中的所有個人。
 
    ![](../assets/jo-uc5.png)
 
 1. 將游標置於消息活動上，然後按一下「+」符號以建立新路徑。
 
-1. 在第一個路徑中，添加&#x200B;**Reaction**&#x200B;事件並選擇&#x200B;**Push opened**。 屬於區段的個人開啟第一則訊息的推送版本時，就會觸發此事件。
+1. 在第一個路徑中，新增 **反應** 事件和選取 **已開啟推播**. 屬於區段的個人開啟第一則訊息的推送版本時，就會觸發此事件。
 
-1. 在第二個路徑中，添加&#x200B;**Reaction**&#x200B;事件並選擇&#x200B;**Email opened**。 事件會在個人開啟電子郵件時觸發。
+1. 在第二個路徑中，新增 **反應** 事件和選取 **已開啟電子郵件**. 事件會在個人開啟電子郵件時觸發。
 
-1. 在其中一個反應活動中，勾選&#x200B;**定義事件逾時**&#x200B;方塊，定義持續時間（在此範例中為1天）並勾選&#x200B;**設定逾時路徑**。 這會為未開啟推送或電子郵件第一則訊息的個人建立另一個路徑。
+1. 在其中一個反應活動中，檢查 **定義事件逾時** 方塊中，定義持續時間（在範例中為1天）並核取 **設定逾時路徑**. 這會為未開啟推送或電子郵件第一則訊息的個人建立另一個路徑。
 
    >[!NOTE]
    >
    >在多個事件上設定逾時時（此例中為兩種反應）時，您只需在其中一個事件上設定逾時。
 
-1. 在逾時路徑中，拖放&#x200B;**Message**&#x200B;活動並選取電子郵件後續訊息。 此訊息會傳送給未在隔天開啟電子郵件或推送第一則訊息的個人。
+1. 在逾時路徑中，將 **訊息** 活動，然後選取電子郵件後續訊息。 此訊息會傳送給未在隔天開啟電子郵件或推送第一則訊息的個人。
 
 1. 將三個路徑連結至先前建立的購買事件。 事件會在個人購買時觸發。
 
-1. 事件後，拖放&#x200B;**Message**&#x200B;活動並選取電子郵件「感謝您」訊息。
+1. 在事件之後，將 **訊息** 活動，然後選取電子郵件「感謝您」訊息。
 
-1. 新增&#x200B;**End**&#x200B;活動。
+1. 新增 **結束** 活動。
 
 ## 測試並發佈歷程
 
 1. 在測試您的歷程之前，請先確認其有效且無錯誤。
 
-1. 按一下右上角的&#x200B;**Test**&#x200B;切換按鈕，以啟動測試模式。 定義要如何讓測試設定檔輸入測試：單一設定檔，或一次最多100個。 請參閱此[小節](testing-the-journey.md)了解如何使用測試模式。
+1. 按一下 **測試** 切換位於右上角的，以啟動測試模式。 定義要如何讓測試設定檔輸入測試：單一設定檔，或一次最多100個。 請參閱 [節](testing-the-journey.md) 了解如何使用測試模式。
 
-1. 當歷程準備就緒時，請使用右上角的&#x200B;**Publish**&#x200B;按鈕進行發佈。
+1. 歷程準備就緒時，請使用 **發佈** 按鈕，位於右上角。

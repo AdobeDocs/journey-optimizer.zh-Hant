@@ -17,33 +17,33 @@ ht-degree: 1%
 
 ## 關於排名公式 {#about-ranking-formulas}
 
-**排名** 公式化可讓您定義規則，以決定應先針對指定版位顯示哪個優惠方案，而非考慮優惠方案的優先順序分數。
+**排名公式** 可讓您定義規則，以決定應先針對指定版位呈現哪個優惠方案，而非考慮優惠方案的優先順序分數。
 
-排名公式以&#x200B;**PQL語法**&#x200B;表示，並且可以利用配置檔案屬性、上下文資料和選件屬性。 有關如何使用PQL語法的詳細資訊，請參閱[專用文檔](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html)。
+排名公式以表示 **PQL語法** 並可運用設定檔屬性、內容資料和選件屬性。 有關如何使用PQL語法的詳細資訊，請參閱 [專屬檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
 
-建立排名公式後，您就可以將其指派至決策中的版位（先前稱為優惠方案活動）。 如需詳細資訊，請參閱[在決策](../offer-activities/configure-offer-selection.md)中設定選件選取項目。
+建立排名公式後，您就可以將其指派至決策中的版位（先前稱為優惠方案活動）。 有關詳細資訊，請參閱 [在決策中設定選件選取項目](../offer-activities/configure-offer-selection.md).
 
 ## 建立排名公式 {#create-ranking-formula}
 
 若要建立排名公式，請遵循下列步驟：
 
-1. 訪問&#x200B;**[!UICONTROL Components]**&#x200B;菜單，然後選擇&#x200B;**[!UICONTROL Rankings]**&#x200B;頁簽。 將顯示先前建立的排名清單。
+1. 存取 **[!UICONTROL Components]** ，然後選取 **[!UICONTROL Rankings]** 標籤。 將顯示先前建立的排名清單。
 
    ![](../../assets/rankings-list.png)
 
-1. 按一下&#x200B;**[!UICONTROL Create ranking]**&#x200B;以建立新的排名公式。
+1. 按一下 **[!UICONTROL Create ranking]** 來建立新排名公式。
 
    ![](../../assets/ranking-create-formula.png)
 
 1. 指定排名公式名稱、說明和公式。
 
-   在此範例中，如果實際天氣炎熱，我們想利用「hot」屬性提升所有選件的優先順序。 為此，已在決策呼叫中傳遞&#x200B;**contextData.weather=hot**。
+   在此範例中，如果實際天氣炎熱，我們想利用「hot」屬性提升所有選件的優先順序。 若要這麼做， **contextData.weather=hot** 在決策呼叫中傳遞。
 
    ![](../../assets/ranking-syntax.png)
 
 1. 按一下「**[!UICONTROL Save]**」。排名公式已建立，您可以從清單中選取它以取得詳細資訊，並加以編輯或刪除。
 
-   現在已可用於為版位排名合格優惠方案的決策（請參閱[在決策](../offer-activities/configure-offer-selection.md)中設定優惠方案選取項目）。
+   現在已可用於決定對符合資格的優惠方案排名以刊登版位(請參閱 [在決策中設定選件選取項目](../offer-activities/configure-offer-selection.md))。
 
    ![](../../assets/ranking-formula-created.png)
 
@@ -103,7 +103,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 ### 根據內容資料，以特定選件屬性提升選件
 
-根據決策呼叫中傳遞的內容資料，提升特定選件。 例如，如果在決策呼叫中傳遞`contextData.weather=hot`，則必須提升所有具有`attribute=hot`選件的優先順序。
+根據決策呼叫中傳遞的內容資料，提升特定選件。 例如，若 `contextData.weather=hot` 會在決策呼叫中傳遞，且優先順序會與 `attribute=hot` 必須得到提振。
 
 **排名公式：**
 
@@ -139,9 +139,9 @@ and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}
 
 ### 根據客戶購買所提供產品的傾向，提升優惠方案
 
-如果我們有2個例項&#x200B;*CustomerAI*&#x200B;計算航空公司購買&#x200B;*travelInsurance*&#x200B;和&#x200B;*extraBargage*&#x200B;的傾向，如果客戶購買該產品的傾向分數高於90，下列排名公式將提高保險或行李特有優惠的優先順序（50分）。
+如果我們有2個 *CustomerAI* 計算購買傾向 *travelInsurance* 和 *extraBagge* 對於航空公司，如果客戶購買該產品的傾向分數高於90分，下列排名公式將提高保險或行李特有優惠的優先順序（50分）。
 
-不過，由於每個&#x200B;*CustomerAI*&#x200B;例項在統一的設定檔架構內建立其專屬物件，因此無法根據選件傾向類型來動態選取分數。 因此，您必須連結`if`陳述式，先檢查選件傾向類型，然後從適當的設定檔欄位擷取分數。
+但是，因為 *CustomerAI* 例項會在統一的設定檔架構內建立自己的物件，因此無法根據選件傾向類型以動態方式選取分數。 所以你必須把 `if` 陳述式，先檢查選件傾向類型，然後從適當的設定檔欄位擷取分數。
 
 **排名公式：**
 
@@ -153,7 +153,7 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 )
 ```
 
-更好的解決方案是將分數儲存在設定檔的陣列中。 下列範例僅使用簡單的排名公式，可涵蓋各種不同的傾向分數。 期望是您的設定檔結構會包含一連串的分數。 在此範例中，例項租用戶為&#x200B;*_salesvelocity* ，而設定檔架構包含下列項目：
+更好的解決方案是將分數儲存在設定檔的陣列中。 下列範例僅使用簡單的排名公式，可涵蓋各種不同的傾向分數。 期望是您的設定檔結構會包含一連串的分數。 在此範例中，例項租用戶為 *_salesvelocity* 和設定檔架構包含下列項目：
 
 ![](../../assets/ranking-example-schema.png)
 
@@ -177,11 +177,11 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 }
 ```
 
-選件會包含&#x200B;*傾向類型*&#x200B;的屬性，該屬性符合分數中的類別：
+選件會包含 *傾向類型* 會比對分數中的類別：
 
 ![](../../assets/ranking-example-propensityType.png)
 
-然後，您的排名公式可將每個選件的優先順序設定為等於該&#x200B;*傾向類型*&#x200B;的客戶&#x200B;*傾向分數*。 如果找不到分數，請使用選件上設定的靜態優先順序：
+然後，您的排名公式可以設定每個優惠方案的優先順序，使其等於客戶 *傾向分數* 對於 *傾向類型*. 如果找不到分數，請使用選件上設定的靜態優先順序：
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring

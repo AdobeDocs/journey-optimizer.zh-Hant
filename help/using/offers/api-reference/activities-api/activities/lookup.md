@@ -1,20 +1,21 @@
 ---
 title: 列舉決定
 description: 決策包含通知選件選擇的邏輯。
-feature: 優惠
-topic: 整合
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 5%
+source-wordcount: '155'
+ht-degree: 4%
 
 ---
 
 # 查找決策
 
-您可以向[!DNL Offer Library] API提出GET要求，其中包含`@id`決策，或要求路徑中的決策名稱，借此查詢特定決策（先前稱為選件活動）。
+您可以向 [!DNL Offer Library] 包含決策的API `@id` 或請求路徑中的決策名稱。
 
 **API格式**
 
@@ -27,7 +28,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 決策所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ACTIVITIES}` | 定義與決策相關聯的架構。 | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
-| `id` | 用於匹配實體的`@id`屬性的字串。 字串完全匹配。 參數`id`和`name`不能一起使用。 | `xcore:offer-activity:124527ab00b2ebbc` |
+| `id` | 用來比對 `@id` 實體的屬性。 字串完全匹配。 參數 `id` 和 `name` 無法一起使用。 | `xcore:offer-activity:124527ab00b2ebbc` |
 | `name` | 用來比對實體xdm:name屬性的字串。 字串與大小寫完全相符，但可使用萬用字元。 參數&quot;id&quot;和&quot;name&quot;不能一起使用 | `LBAR` |
 
 **要求**
@@ -44,7 +45,7 @@ curl -X GET \
 
 **回應**
 
-成功的回應會傳回版位的詳細資訊，包括容器ID、例項ID和唯一決策`@id`的相關資訊。
+成功的回應會傳回版位的詳細資訊，包括容器ID、例項ID和唯一決策的相關資訊 `@id`.
 
 ```json
 {

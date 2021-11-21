@@ -1,12 +1,12 @@
 ---
 title: '隱私權在  [!DNL Journey Optimizer] '
 description: 瞭解如何管理隱私權
-topic: 隱私權
+topic: Privacy
 role: User
 level: Intermediate
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '772'
 ht-degree: 84%
 
 ---
@@ -33,11 +33,11 @@ ht-degree: 84%
 
 * 一律以負責任且符合道德的方式使用個人資訊。
 
-* 避免傳送未經請求的訊息 (「垃圾訊息」)。 Adobe在打造顧客終生價值和忠誠度時篤信許可營銷原則，因此嚴格禁止在發送未經請求的報文時使用[!DNL Adobe Journey Optimizer]。
+* 避免傳送未經請求的訊息 (「垃圾訊息」)。 Adobe在培育顧客終生價值和忠誠度時，篤信許可式營銷原則，因此嚴格禁止使用 [!DNL Adobe Journey Optimizer] 來傳送未經請求的訊息。
 
-[!DNL Journey Optimizer] 提供您透過不同的預先建立或自訂產品設定檔，管理指派給使用者的權限。 這可讓您管理公司內可存取、修改或匯出不同類型資料的人員。了解如何在[此頁面](administration/permissions.md)中管理使用者權限。
+[!DNL Journey Optimizer] 提供您透過不同的預先建立或自訂產品設定檔，管理指派給使用者的權限。 這可讓您管理公司內可存取、修改或匯出不同類型資料的人員。了解如何在 [本頁](administration/permissions.md).
 
-[!DNL Journey Optimizer] 也可讓您透過開啟次數和連結的點擊次數，來追蹤傳送的訊息及收件者的行為。 進一步了解[此頁面](message-tracking.md)中的追蹤管理。
+[!DNL Journey Optimizer] 也可讓您透過開啟次數和連結的點擊次數，來追蹤傳送的訊息及收件者的行為。 進一步了解 [本頁](message-tracking.md).
 
 ## 隱私權管理 {#privacy-management}
 
@@ -54,7 +54,7 @@ ht-degree: 84%
 
 [!DNL Journey Optimizer] 繼承了 Adobe Experience Platform 大多數資料集變更。
 
-因此，隱私權請求 (存取權和被遺忘權) 是透過 Experience Platform 管理的。 您需要使用[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target=&quot;_blank&quot;}傳送請求，並在[建立您的隱私權請求](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target=&quot;_blank&quot;}時，從產品清單中選取&#x200B;**設定檔**&#x200B;和&#x200B;**AEP資料湖**。 <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).-->
+因此，隱私權請求 (存取權和被遺忘權) 是透過 Experience Platform 管理的。 您需要使用 [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target=&quot;_blank&quot;}，然後選取 **設定檔** 和 **AEP Data Lake** 從產品清單中，當 [建立您的隱私請求](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target=&quot;_blank&quot;}。 <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).-->
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ ht-degree: 84%
 
 ## Adobe Experience Cloud 隱私權 {#experience-cloud-privacy}
 
-[!DNL Journey Optimizer] 是Adobe Experience Cloud解決方案的一部分。隱私權的處理方式遵循 Adobe Experience Cloud 一般原則。 在[本頁面](https://www.adobe.com/tw/privacy/marketing-cloud.html)中深入了解Adobe Experience Cloud隱私權。
+[!DNL Journey Optimizer] 是Adobe Experience Cloud解決方案的一部分。 隱私權的處理方式遵循 Adobe Experience Cloud 一般原則。 深入了解Adobe Experience Cloud隱私權，位於 [本頁](https://www.adobe.com/tw/privacy/marketing-cloud.html).
 
 身為使用 Adobe Experience Cloud 解決方案的公司，您可以選擇要收集哪些資訊並傳送至您的 Adobe Experience Cloud 帳戶。可收集的資訊類型範例包含網頁瀏覽活動、IP 位址、行動裝置的位置資訊、行銷活動成功率、購買或放入購物車的項目等。如需此項目的詳細資訊，請參閱 [Adobe 隱私權政策](https://www.adobe.com/tw/privacy/policy.html)。
 
@@ -73,6 +73,6 @@ Adobe 要求您提供客戶的隱私權政策，以說明：
 
 >[!NOTE]
 >
->至於所有Adobe產品，[!DNL Adobe Journey Optimizer]使用者可選擇退出分享透過應用程式和網站收集到的關於他們的資訊。 進一步瞭解 [Adobe Experience Cloud 使用資訊常見問答集](https://www.adobe.com/tw/privacy/experience-cloud-usage-info-faq.html)。
+>至於所有Adobe產品， [!DNL Adobe Journey Optimizer] 使用者可以選擇退出分享透過應用程式和網站收集到的關於他們的資訊。 進一步瞭解 [Adobe Experience Cloud 使用資訊常見問答集](https://www.adobe.com/tw/privacy/experience-cloud-usage-info-faq.html)。
 
 <!--Because Journey Optimizer integrates with Adobe Experience Platform, where audiences are transferred from one system to another, you need to pay extra care to personal data protection.-->

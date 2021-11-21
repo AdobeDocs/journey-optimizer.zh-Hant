@@ -1,24 +1,25 @@
 ---
 title: 陣列函式庫
 description: 陣列函式庫
-feature: 個性化
-topic: 個性化
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '495'
 ht-degree: 5%
 
 ---
 
-# 陣列和清單函式 {#arrays}
+# 陣列和清單功能 {#arrays}
 
 使用這些函式可讓您更輕鬆地與陣列、清單和字串互動。
 
 ## 不重複{#distinct}
 
-`distinct`函式用於從陣列或清單中獲取值，並刪除重複值。
+此 `distinct` 函式可用來從陣列或清單中取得值，並移除重複值。
 
 **格式**
 
@@ -36,7 +37,7 @@ ht-degree: 5%
 
 ## 第一項{#head}
 
-`head`函式用於返回陣列或清單中的第一個項目。
+此 `head` 函式可用來傳回陣列或清單中的第一個項目。
 
 **格式**
 
@@ -46,15 +47,15 @@ ht-degree: 5%
 
 **範例**
 
-以下操作返回價格最高的前5個訂單中的第一個。 有關`topN`函式的更多資訊，請參閱陣列](#first-n)區段的[第一個`n`。
+以下操作返回價格最高的前5個訂單中的第一個。 有關 `topN` 函式 [first `n` 陣列](#first-n) 區段。
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## 陣列{#first-n}中的第一個`n`
+## 第一個 `n` 陣列 {#first-n}
 
-當根據給定的數值表達式按升序排序時，`topN`函式用於返回陣列中的第一個`N`項。
+此 `topN` 函式來傳回第一個 `N` 陣列中的項目，根據指定的數值運算式以升序排序。
 
 **格式**
 
@@ -78,7 +79,7 @@ ht-degree: 5%
 
 ## 在{#in}
 
-`in`函式用於確定項是否為陣列或清單的成員。
+此 `in` 函式用於確定項是否為陣列或清單的成員。
 
 **格式**
 
@@ -96,7 +97,7 @@ ht-degree: 5%
 
 ## 包含{#includes}
 
-`includes`函式用於確定陣列或清單是否包含給定項。
+此 `includes` 函式來判斷陣列或清單是否包含指定項目。
 
 **格式**
 
@@ -114,7 +115,7 @@ ht-degree: 5%
 
 ## 相交{#intersects}
 
-`intersects`函式用於確定兩個陣列或清單是否至少具有一個公共成員。
+此 `intersects` 函式用於確定兩個陣列或清單是否具有至少一個公共成員。
 
 **格式**
 
@@ -150,9 +151,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## 陣列{#last-n}中的最後`n`
+## 上次 `n` 陣列{#last-n}
 
-當根據給定的數值表達式按升序排序時，`bottomN`函式用於返回陣列中的最後`N`項。
+此 `bottomN` 函式來傳回最後一個 `N` 陣列中的項目，根據指定的數值運算式以升序排序。
 
 **格式**
 
@@ -177,11 +178,11 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ## 不在{#notin}
 
-`notIn`函式用於確定項目是否不是陣列或清單的成員。
+此 `notIn` 函式用於確定項目是否不是陣列或清單的成員。
 
 >[!NOTE]
 >
->`notIn`函式&#x200B;*also*&#x200B;確保兩個值均不等於null。 因此，結果並非`in`函式的完全否定。
+>此 `notIn` 函式 *an* 確保兩個值均不等於null。 因此，結果並非對 `in` 函式。
 
 **格式**
 
@@ -200,7 +201,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ## 子集{#subset}
 
-`subsetOf`函式用於確定特定陣列（陣列A）是否是另一陣列（陣列B）的子集。 換句話說，陣列A中的所有元素都是陣列B的元素。
+此 `subsetOf` 函式用於確定特定陣列（陣列A）是否是另一陣列（陣列B）的子集。 換句話說，陣列A中的所有元素都是陣列B的元素。
 
 **格式**
 
@@ -218,7 +219,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ## 超集{#superset}
 
-`supersetOf`函式用於確定特定陣列（陣列A）是否是另一陣列（陣列B）的超集。 換句話說，陣列A包含陣列B中的所有元素。
+此 `supersetOf` 函式用於確定特定陣列（陣列A）是否是另一陣列（陣列B）的超集。 換句話說，陣列A包含陣列B中的所有元素。
 
 **格式**
 
@@ -233,10 +234,3 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}
 ```
-
-
-
-
-
-
-

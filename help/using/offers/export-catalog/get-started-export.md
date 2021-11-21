@@ -1,22 +1,23 @@
 ---
 title: '開始使用優惠目錄匯出  '
 description: 了解如何將優惠方案目錄匯出為資料集。
-feature: 優惠
-topic: 整合
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: f30abea1-b204-4470-9836-75fae916bbb1
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 15%
+source-wordcount: '131'
+ht-degree: 14%
 
 ---
 
-# 開始使用優惠目錄匯出  {#export-catalog}
+# 開始使用優惠目錄匯出   {#export-catalog}
 
 Journey Optimizer可讓您自動將優惠方案目錄匯出至Adobe Experience Platform。
 
-匯出項目會為選件資料庫的每個物件建立一個資料集（請參閱[存取匯出的資料集](../export-catalog/access-dataset.md)）。 其功能包括:
+匯出項目會為選件資料庫的每個物件建立一個資料集(請參閱 [存取匯出的資料集](../export-catalog/access-dataset.md))。 其功能包括:
 
 * 個人化優惠
 * 遞補優惠

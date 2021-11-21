@@ -1,13 +1,14 @@
 ---
 title: Journey Optimizer
 description: 開始使用 Journey Optimizer
-feature: 概覽
-topic: 內容管理
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '685'
 ht-degree: 95%
 
 ---
@@ -52,7 +53,7 @@ ht-degree: 95%
 
 ## 架構
 
-了解[!DNL Adobe Journey Optimizer]的基本架構、整合點，以及[!DNL Journey Optimizer]與其他Adobe應用程式的關係。
+了解 [!DNL Adobe Journey Optimizer]、整合點，以及 [!DNL Journey Optimizer] 與其他Adobe應用程式搭配。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
 

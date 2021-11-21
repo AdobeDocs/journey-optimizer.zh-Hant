@@ -1,34 +1,35 @@
 ---
 title: 在Journey Optimizer中設計電子郵件
 description: 了解如何設計您的電子郵件內容
-feature: 概覽
-topic: 內容管理
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 704d8c5b5a9f0ff8d90467db6ead8f77d68633b2
+exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 1%
+source-wordcount: '1475'
+ht-degree: 0%
 
 ---
 
 # 在使用者介面中設計您的電子郵件內容 {#create-email-content}
 
-在您建立了[訊息](create-message.md)後，就可以開始建立電子郵件內容。
+一旦您 [已建立訊息](create-message.md)，您可以開始建立電子郵件內容。
 
-1. 從新建立的消息中，選擇&#x200B;**[!UICONTROL Body]**&#x200B;部分中的&#x200B;**[!UICONTROL Email designer]**。
+1. 從新建立的訊息中，選取 **[!UICONTROL Email designer]** 在 **[!UICONTROL Body]** 區段。
 
    ![](assets/import-html_1.png)
 
 1. 在電子郵件設計工具首頁中，從以下選項選擇您要如何設計電子郵件：
 
-   * 選擇&#x200B;**[!UICONTROL Design from scratch]**&#x200B;以使用電子郵件設計器功能建立電子郵件內容。 [了解更多](#design-scratch)
+   * 選擇 **[!UICONTROL Design from scratch]** 使用電子郵件設計工具功能建立電子郵件內容。 [了解更多](#design-scratch)
 
-   * 選取&#x200B;**[!UICONTROL Start from template]**，從內建的範本清單建立電子郵件。 請注意，您無法建立其他範本。
+   * 選擇 **[!UICONTROL Start from template]** 從內建的範本清單建立電子郵件。 請注意，您無法建立其他範本。
 
-   * 選擇&#x200B;**[!UICONTROL Code your own]**&#x200B;以輸入或貼上HTML原始代碼。 [了解更多](existing-content.md#import-raw-html-code)。
+   * 選擇 **[!UICONTROL Code your own]** 輸入或貼上HTML原始程式碼。 [了解更多](existing-content.md#import-raw-html-code)。
 
-   * 選取&#x200B;**[!UICONTROL Import HTML]**&#x200B;以匯入HTML檔案或.zip資料夾。 [了解更多](existing-content.md#import-html-content-from-file)。
+   * 選擇 **[!UICONTROL Import HTML]** 匯入HTML檔案或.zip資料夾。 [了解更多](existing-content.md#import-html-content-from-file)。
 
    ![](assets/email_designer_25.png)
 
@@ -48,7 +49,7 @@ ht-degree: 1%
 
 若要開始使用電子郵件設計工具建立電子郵件內容，請遵循下列步驟：
 
-1. 選取&#x200B;**[!UICONTROL Design from scratch]**&#x200B;選項後，拖放&#x200B;**[!UICONTROL Structure components]**&#x200B;以定義電子郵件的版面，開始設計電子郵件內容。
+1. 選取 **[!UICONTROL Design from scratch]** 選項，通過拖放來開始設計電子郵件內容 **[!UICONTROL Structure components]** 來定義電子郵件的版面。
 
    >[!NOTE]
    >
@@ -58,41 +59,41 @@ ht-degree: 1%
 
    ![](assets/email_designer_2.png)
 
-1. 視需要新增&#x200B;**[!UICONTROL Structure components]**。
+1. 新增最多 **[!UICONTROL Structure components]** 視需要。
 
-   選取&#x200B;**[!UICONTROL n:n column]**&#x200B;元件以定義所選欄數（3到10之間）。 您也可以移動每欄底部的箭頭，以定義每欄的寬度。
+   選取 **[!UICONTROL n:n column]** 元件，定義您選取的欄數（介於3和10之間）。 您也可以移動每欄底部的箭頭，以定義每欄的寬度。
 
    >[!NOTE]
    >
    >每個列大小不能低於結構元件總寬度的10%。 無法刪除非空的列。
 
-1. 從&#x200B;**[!UICONTROL Content components]**&#x200B;下拉式清單中，您可以視需要在結構元件中新增多個&#x200B;**[!UICONTROL Content components]**。 [深入了解內容元件](content-components.md)。
+1. 從 **[!UICONTROL Content components]** 下拉式清單中，您可以新增 **[!UICONTROL Content components]** 視您的結構元件需求而定。 [深入了解內容元件](content-components.md).
 
    ![](assets/email_designer_3.png)
 
-1. 每個元件都可進一步以&#x200B;**[!UICONTROL Component settings]**&#x200B;區段自訂。 例如，您可以變更文字樣式、元件的邊框間距或邊界。 [進一步了解對齊方式和邊框間距](#adjusting-vertical-alignment-and-padding)。
+1. 每個元件可進一步自訂為 **[!UICONTROL Component settings]** 區段。 例如，您可以變更文字樣式、元件的邊框間距或邊界。 [進一步了解對齊方式和邊框間距](#adjusting-vertical-alignment-and-padding).
 
    ![](assets/email_designer_4.png)
 
-1. 從&#x200B;**[!UICONTROL Assets picker]**，您可以直接將儲存在&#x200B;**[!UICONTROL Assets library]**&#x200B;中的資產新增至電子郵件。 [深入了解資產管理](assets-essentials.md)。
+1. 從 **[!UICONTROL Assets picker]**，您可以直接新增儲存在 **[!UICONTROL Assets library]** 到您的電子郵件。 [深入了解資產管理](assets-essentials.md).
 
    連按兩下包含資產的資料夾，然後拖放您要新增至電子郵件的資產。
 
    ![](assets/email_designer_5.png)
 
-1. 新增個人化欄位，以自訂來自您設定檔資料的內容。 [深入了解內容個人化](personalization/personalize.md)。
+1. 新增個人化欄位，以自訂來自您設定檔資料的內容。 [深入了解內容個人化](personalization/personalize.md).
 
    ![](assets/email_designer_6.png)
 
-1. 在左窗格的&#x200B;**[!UICONTROL Links]**&#x200B;標籤中，檢查將被追蹤的內容的所有URL清單。 您可以視需要修改其&#x200B;**[!UICONTROL Tracking Type]**、**[!UICONTROL Label]**&#x200B;和&#x200B;**[!UICONTROL Tags]**。
+1. 在 **[!UICONTROL Links]** 頁簽，檢查要追蹤的內容的所有URL清單。 您可以修改其 **[!UICONTROL Tracking Type]**, **[!UICONTROL Label]** 和 **[!UICONTROL Tags]** 如有需要。
 
    ![](assets/email_designer_7.png)
 
    >[!NOTE]
    >
-   >深入了解[此頁面](message-tracking.md)中的連結和訊息追蹤。
+   >進一步了解中的連結和訊息追蹤 [本頁](message-tracking.md).
 
-1. 如有需要，您可以切換至程式碼編輯器，從進階功能表按一下&#x200B;**[!UICONTROL Switch to code editor]**，進一步個人化您的電子郵件。 如需程式碼編輯器的詳細資訊，請參閱此[page](existing-content.md#import-raw-html-code)。
+1. 如有需要，您可以切換至程式碼編輯器，按一下 **[!UICONTROL Switch to code editor]** 的上界。 如需程式碼編輯器的詳細資訊，請參閱 [頁面](existing-content.md#import-raw-html-code).
 
    >[!NOTE]
    >
@@ -100,29 +101,29 @@ ht-degree: 1%
 
    ![](assets/email_designer_26.png)
 
-1. 按一下&#x200B;**[!UICONTROL Show preview]**&#x200B;以檢查電子郵件呈現。 您可以選擇案頭或行動檢視。
+1. 按一下 **[!UICONTROL Show preview]** 檢查電子郵件呈現。 您可以選擇案頭或行動檢視。
 
-   有關如何預覽電子郵件的詳細資訊，請參閱[預覽並測試您的郵件](preview.md)。
+   如需如何預覽電子郵件的詳細資訊，請參閱 [預覽和測試您的訊息](preview.md).
 
    ![](assets/email_designer_8.png)
 
-1. 當您的電子郵件準備就緒時，按一下&#x200B;**[!UICONTROL Save & Close]**。
+1. 當您的電子郵件準備就緒時，按一下 **[!UICONTROL Save & Close]**.
 
-您的電子郵件內容現在可用於訊息中。 [了解如何傳送訊息](publish-manage-message.md)。
+您的電子郵件內容現在可用於訊息中。 [了解如何傳送訊息](publish-manage-message.md).
 
 ## 建立電子郵件的文字版本 {#generate-text-version}
 
 建議您建立電子郵件內文的文字版本，以用於無法顯示HTML內容時。
 
-依預設，電子郵件設計工具會建立&#x200B;**[!UICONTROL Plain text]**&#x200B;版本的電子郵件，包括個人化欄位。 此版本會自動產生，並與您內容的HTML版本同步。
+依預設，電子郵件設計工具會建立 **[!UICONTROL Plain text]** 電子郵件的版本，包括個人化欄位。 此版本會自動產生，並與您的內容的HTML版本同步。
 
 如果您偏好對純文字版本使用不同內容，請遵循下列步驟：
 
-1. 從電子郵件中，選取&#x200B;**[!UICONTROL Plain text]**&#x200B;標籤。
+1. 從您的電子郵件中，選取 **[!UICONTROL Plain text]** 標籤。
 
    ![](assets/text_version_3.png)
 
-1. 使用&#x200B;**[!UICONTROL Sync with HTML]**&#x200B;切換以禁用同步。
+1. 使用 **[!UICONTROL Sync with HTML]** 切換為禁用同步。
 
    ![](assets/text_version_1.png)
 
@@ -134,10 +135,9 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->* 在&#x200B;**[!UICONTROL Plain text]**&#x200B;檢視中所做的變更沒有反映在HTML檢視中。
-   >
-   >
-* 如果在更新純文字內容後重新啟用&#x200B;**[!UICONTROL Sync with HTML]**&#x200B;選項，您的變更將會遺失，並以HTML版本產生的文字內容取代。
+>* 中所做的變更 **[!UICONTROL Plain text]** 檢視不會反映在HTML檢視中。
+>
+>* 如果您重新啟用 **[!UICONTROL Sync with HTML]** 選項，您的變更將會遺失，並取代為從HTML版本產生的文字內容。
 
 
 ## 使用前置詞 {#preheader}
@@ -153,21 +153,21 @@ ht-degree: 1%
 
 前置詞是摘要文字，在從電子郵件用戶端檢視電子郵件時，會遵循主旨行。 前置標題可協助您更妥善地追蹤及自訂電子郵件。
 
-1. 從電子郵件設計工具中，新增&#x200B;**[!UICONTROL Structure components]**&#x200B;以開始設計電子郵件。
+1. 從電子郵件設計工具中，新增 **[!UICONTROL Structure components]** 開始設計電子郵件。
 
    ![](assets/preheader_1.png)
 
-1. 在&#x200B;**[!UICONTROL Body settings]**&#x200B;右窗格中，按一下&#x200B;**[!UICONTROL Preheader]**&#x200B;欄位旁的&#x200B;**編輯**&#x200B;以新增內容。
+1. 從 **[!UICONTROL Body settings]** 右窗格，按一下 **編輯** 旁邊 **[!UICONTROL Preheader]** 欄位來新增內容。
 
    ![](assets/preheader_2.png)
 
-1. 新增您的標題。 您可以按一下&#x200B;**[!UICONTROL Add personalization]**&#x200B;圖示，進一步個人化該區段。
+1. 新增您的標題。 您可以按一下 **[!UICONTROL Add personalization]** 表徵圖。
 
    ![](assets/preheader_3.png)
 
-1. 從&#x200B;**[!UICONTROL Edit Personalization]**&#x200B;視窗，您可以新增&#x200B;**[!UICONTROL Content block]**、**[!UICONTROL Dynamic content]**&#x200B;或&#x200B;**[!UICONTROL Personalization fields]**。
+1. 從 **[!UICONTROL Edit Personalization]** 視窗中，您可以新增 **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** 或 **[!UICONTROL Personalization fields]**.
 
-1. 按一下&#x200B;**[!UICONTROL Validate]**&#x200B;以檢查您的個人化語法。
+1. 按一下 **[!UICONTROL Validate]** 以檢查個人化語法。
 
    ![](assets/preheader_4.png)
 
@@ -191,15 +191,15 @@ ht-degree: 1%
 
 以下是您可使用的可用背景設定。
 
-* 為整個電子郵件設定&#x200B;**[!UICONTROL Background color]**。 請務必在導覽樹狀結構中選取可從左側浮動視窗存取的內文設定。
+* 設定 **[!UICONTROL Background color]** 整封電子郵件。 請務必在導覽樹狀結構中選取可從左側浮動視窗存取的內文設定。
 
-* 通過選擇&#x200B;**[!UICONTROL Viewport background color]**&#x200B;為所有結構元件設定相同的背景顏色。 此選項可讓您從背景顏色中選取不同的設定。
+* 通過選擇 **[!UICONTROL Viewport background color]**. 此選項可讓您從背景顏色中選取不同的設定。
 
 * 為每個結構元件設定不同的背景顏色。 在導航樹中選擇一個結構，可從左側調色板訪問，以僅將特定背景顏色應用於該結構。
 
    請確定您未設定檢視區背景顏色，因為它可能會隱藏結構背景顏色。
 
-* 為結構元件的內容設定&#x200B;**[!UICONTROL Background image]**。
+* 設定 **[!UICONTROL Background image]** （對於結構元件的內容）。
 
    >[!NOTE]
    >
@@ -217,23 +217,23 @@ ht-degree: 1%
 
 在此示例中，我們將調整由三列組成的結構元件內的邊框間距和垂直對齊方式。
 
-1. 直接在電子郵件中或使用左側功能表中可用的&#x200B;**[!UICONTROL Navigation tree]**&#x200B;選取結構元件。
+1. 直接在電子郵件中選取結構元件，或使用 **[!UICONTROL Navigation tree]** 左側功能表。
 
    ![](assets/alignment_1.png)
 
-1. 從工具欄中，按一下&#x200B;**[!UICONTROL Select a column]**&#x200B;並選擇要編輯的。 您也可以從結構樹中選取它。
+1. 在工具列中，按一下 **[!UICONTROL Select a column]** 並選擇要編輯的。 您也可以從結構樹中選取它。
 
-   該列的可編輯參數顯示在&#x200B;**[!UICONTROL Column settings]**&#x200B;菜單中。
+   該列的可編輯參數顯示在 **[!UICONTROL Column settings]** 功能表。
 
    ![](assets/alignment_2.png)
 
-1. 在&#x200B;**[!UICONTROL Vertical alignment]**&#x200B;下，選擇&#x200B;**[!UICONTROL Bottom]**。
+1. 在 **[!UICONTROL Vertical alignment]**，選取 **[!UICONTROL Bottom]**.
 
    內容元件會移至欄底部。
 
    ![](assets/alignment_3.png)
 
-1. 在&#x200B;**[!UICONTROL Padding]**&#x200B;下，定義列內的頂部邊框間距。 按一下鎖定圖示以中斷與底部邊框間距的同步。
+1. 在 **[!UICONTROL Padding]**，定義欄內的上邊框間距。 按一下鎖定圖示以中斷與底部邊框間距的同步。
 
    定義該欄的左邊框和右邊框間距。
 
@@ -247,13 +247,13 @@ ht-degree: 1%
 
 您可以在電子郵件設計工具中為連結加底線，並選取其顏色和目標。
 
-1. 在插入連結的文字&#x200B;**[!UICONTROL Content component]**&#x200B;中，選取您的連結。
+1. 文字 **[!UICONTROL Content component]** 插入連結時，請選取您的連結。
 
-1. 在&#x200B;**[!UICONTROL Component settings]**&#x200B;功能表中，檢查&#x200B;**[!UICONTROL Underline link]**&#x200B;以將連結的標籤文字加底線。
+1. 在 **[!UICONTROL Component settings]** 菜單，檢查 **[!UICONTROL Underline link]** 將連結的標籤文字加上底線。
 
    ![](assets/link_1.png)
 
-1. 選擇透過&#x200B;**[!UICONTROL Target]**&#x200B;下拉式清單重新導向對象的方式：
+1. 選擇將對象重新導向至 **[!UICONTROL Target]** 下拉式清單：
 
    * **[!UICONTROL None]**:在與點按連結相同的時間格中開啟連結（預設）。
    * **[!UICONTROL Blank]**:在新視窗或索引標籤中開啟連結。
@@ -263,7 +263,7 @@ ht-degree: 1%
 
    ![](assets/link_2.png)
 
-1. 若要變更連結的顏色，請按一下&#x200B;**[!UICONTROL Link color]**。
+1. 若要變更連結的顏色，請按一下 **[!UICONTROL Link color]**.
 
    ![](assets/link_3.png)
 
@@ -276,11 +276,8 @@ ht-degree: 1%
 在「電子郵件設計工具」介面中，當您選取元素並在側面板顯示其設定時，可以自訂該特定元素的內嵌屬性及其值。
 
 1. 在內容中選取元素。
-1. 在側面板上，查找&#x200B;**[!UICONTROL Styles Inline]**&#x200B;設定。
+1. 在側面板上，查找 **[!UICONTROL Styles Inline]** 設定。
 
-1. 修改現有屬性的值，或使用&#x200B;**+**&#x200B;按鈕添加新屬性。 您可以新增任何與CSS相容的屬性和值。
+1. 修改現有屬性的值，或使用 **+** 按鈕。 您可以新增任何與CSS相容的屬性和值。
 
 樣式隨後會套用至選取的元素。 如果子元素未定義特定樣式屬性，則會繼承父元素的樣式。
-
-
-

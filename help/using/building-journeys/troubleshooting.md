@@ -47,7 +47,7 @@ ht-degree: 84%
 
 您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。如果您收到錯誤，則表示您的呼叫發生問題。再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。您可以諮詢管理員哪個是要點擊的正確 URL。
 
-事件不會直接從來源推播至歷程。 事實上，歷程需仰賴Adobe Experience Platform的串流獲取API。 因此，若是事件相關問題，您可以參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}以疑難排解串流獲取API。
+事件不會直接從來源推播至歷程。 事實上，歷程需仰賴Adobe Experience Platform的串流獲取API。 因此，若發生事件相關問題，您可以參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}，以疑難排解串流獲取API。
 
 ## 檢查是否有人進入歷程{#section_x4v_zzs_dgb}
 
@@ -82,7 +82,7 @@ ht-degree: 84%
 
 如果個人在歷程中的進度正常，但並未收到應接收的訊息，您可以檢查：
 
-* [!DNL Journey Optimizer] 已正確考慮傳送訊息的要求。商務使用者可存取應傳送的訊息，並檢查最新執行時間是否與歷程的執行時間對應。 他們也可以檢查收到的最新API呼叫/事件。
-* [!DNL Journey Optimizer] 已成功發送消息。在訊息的傳送記錄中，您可以查看每個執行的狀態。 您可以看到狀態是綠色、紅色，以及問題內容為何。業務使用者可以存取此畫面並將日誌傳送給管理員，以進行進一步的調查。
+* [!DNL Journey Optimizer] 已正確考慮傳送訊息的要求。 商務使用者可存取應傳送的訊息，並檢查最新執行時間是否與歷程的執行時間對應。 他們也可以檢查收到的最新API呼叫/事件。
+* [!DNL Journey Optimizer] 已成功發送消息。 在訊息的傳送記錄中，您可以查看每個執行的狀態。 您可以看到狀態是綠色、紅色，以及問題內容為何。業務使用者可以存取此畫面並將日誌傳送給管理員，以進行進一步的調查。
 
 若是透過自訂動作傳送訊息，在歷程測試期間唯一可以檢查的事項，就是自訂動作系統的呼叫是否會導致錯誤。如果呼叫與自訂動作相關聯的外部系統並未造成錯誤，但並未導致訊息傳送，則應在外部系統端進行一些調查。

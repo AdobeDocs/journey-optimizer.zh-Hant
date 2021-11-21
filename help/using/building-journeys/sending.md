@@ -9,13 +9,13 @@ ht-degree: 1%
 ---
 
 
-# 歷程執行{#message-execution}
+# 歷程執行 {#message-execution}
 
 ## 測試您的歷程
 
 您可以使用測試設定檔來測試您的歷程。 建議您執行此步驟來驗證您的設定和訊息。
 
-了解更多[小節](testing-the-journey.md)。
+了解更多資訊 [節](testing-the-journey.md).
 
 ## 啟動您的歷程
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ![](../assets/jo-journeyuc2_32bis.png)
 
-了解更多[小節](publishing-the-journey.md)。
+了解更多資訊 [節](publishing-the-journey.md).
 
 
 發佈後，您就可以使用專屬的報告工具監控您的歷程，以評估歷程的成效。
@@ -34,35 +34,35 @@ ht-degree: 1%
 
 ## 傳送訊息 {#send-messages}
 
-當訊息已定義並發佈內容時，即可透過[journey](journey.md)傳送。
+當訊息已定義且已發佈內容時，即可透過 [歷程](journey.md).
 
 >[!NOTE]
 >
 >您可以將仍處於草稿模式的訊息新增至歷程，但請確定訊息已發佈後再發佈歷程。
 
-傳送訊息後，您可以透過多個指標來監控其執行。 [深入了解監控訊息執行](../message-monitoring.md)。
+傳送訊息後，您可以透過多個指標來監控其執行。 [進一步了解監控訊息執行](../message-monitoring.md).
 
-## 排程訊息{#schedule-messages}
+## 排程訊息 {#schedule-messages}
 
-可透過[journey](journey.md)中的&#x200B;**[!UICONTROL Read Segment]**&#x200B;活動排程訊息。 您可以指定區段何時會進入歷程。 [深入了解「讀取區段」活動](read-segment.md)。
+可透過 **[!UICONTROL Read Segment]** 活動 [歷程](journey.md). 您可以指定區段何時會進入歷程。 [深入了解「讀取區段」活動](read-segment.md).
 
 若要這麼做，請遵循下列步驟：
 
-1. 編輯歷程，拖放&#x200B;**[!UICONTROL Read Segment]**&#x200B;活動並開始設定。 [深入了解設定讀取區段活動](read-segment.md#configuring-segment-trigger-activity)。
+1. 編輯歷程，拖放 **[!UICONTROL Read Segment]** 活動並開始設定。 [深入了解設定讀取區段活動](read-segment.md#configuring-segment-trigger-activity).
 
-1. 按一下&#x200B;**[!UICONTROL Edit journey schedule]**&#x200B;連結以存取歷程的屬性。
+1. 按一下 **[!UICONTROL Edit journey schedule]** 連結以存取歷程的屬性。
 
    ![](../assets/message-read-segment-schedule.png)
 
-1. 配置&#x200B;**[!UICONTROL Scheduler type]**&#x200B;欄位：從清單中選取所需值，讓區段以特定日期/時間或循環基準輸入歷程。
+1. 設定 **[!UICONTROL Scheduler type]** 欄位：從清單中選取所需值，讓區段以特定日期/時間或循環基準輸入歷程。
 
    >[!NOTE]
    >
-   >**[!UICONTROL Schedule]**&#x200B;區段僅在&#x200B;**[!UICONTROL Read Segment]**&#x200B;活動已拖放至畫布時可用。
+   >此 **[!UICONTROL Schedule]** 區段僅在 **[!UICONTROL Read Segment]** 活動已拖放至畫布中。
 
    ![](../assets/message-read-segment-scheduler.png)
 
-1. 如果您選取&#x200B;**[!UICONTROL Once]**，請定義區段將於其中輸入歷程的特定日期和時間。
+1. 如果您選取 **[!UICONTROL Once]**，定義區段將進入歷程的特定日期和時間。
 
    ![](../assets/message-read-segment-scheduler-once.png)
 
@@ -72,8 +72,8 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >依預設，區段會輸入歷程&#x200B;**[!UICONTROL As soon as possible]**，這表示歷程發佈後1小時。
+   >依預設，區段會輸入歷程 **[!UICONTROL As soon as possible]**，表示歷程發佈後1小時。
 
-1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以儲存變更。
+1. 按一下 **[!UICONTROL OK]** 來儲存變更。
 
 <!--Unitary messages that are triggered by an event within a journey cannot be scheduled.-->

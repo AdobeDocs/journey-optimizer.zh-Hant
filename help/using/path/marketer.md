@@ -2,13 +2,13 @@
 title: Journey Optimizer行銷人員快速入門
 description: As a Journey Pricioner，深入了解如何使用Journey Optimizer
 level: Intermediate
-source-git-commit: a27a6d7ab96bd08e7a2601c2e86d1d9f0fc4be0a
+exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
+source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 8%
 
 ---
-
 
 # 行銷人員快速入門
 
@@ -51,4 +51,3 @@ As a **行銷人員** 或 **歷程實踐者**，您負責建立訊息、選件�
    了解如何設計和執行歷程 [在本節](../building-journeys/journey-gs.md)
 
 1. **監控訊息和歷程**. 為確保您的訊息成功執行、傳送及傳送， [!DNL Journey Optimizer] 提供可監控目前發佈及觸發之訊息的功能。 了解如何監控效能 [在本節](../message-monitoring.md).
-

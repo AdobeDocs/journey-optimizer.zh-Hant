@@ -1,20 +1,21 @@
 ---
 title: 刪除版位
 description: 版位是用來展示優惠方案的容器。
-feature: 優惠
-topic: 整合
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 6%
+source-wordcount: '143'
+ht-degree: 5%
 
 ---
 
 # 刪除位置
 
-有時可能需要移除(DELETE)版位。 只能刪除您在租用戶容器中建立的版位。 若要這麼做，請使用您要刪除之版位的例項ID，對[!DNL Offer Library] API執行DELETE要求。
+有時可能需要移除(DELETE)版位。 只能刪除您在租用戶容器中建立的版位。 若要這麼做，請對 [!DNL Offer Library] 使用您要刪除之版位的例項ID的API。
 
 **API格式**
 

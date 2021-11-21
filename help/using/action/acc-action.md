@@ -1,14 +1,15 @@
 ---
 title: 與 Adobe Campaign v7/v8 整合
 description: 了解如何與Adobe Campaign v7/v8整合
-feature: 動作
-topic: 管理
+feature: Actions
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 5%
+source-wordcount: '448'
+ht-degree: 4%
 
 ---
 
@@ -18,11 +19,11 @@ ht-degree: 5%
 
 Journey Optimizer和Campaign執行個體之間的連線是在布建時Adobe設定。
 
-此[section](../building-journeys/campaign-classic-use-case.md)中顯示了端到端使用案例。
+本節提供端對端使用案例 [節](../building-journeys/campaign-classic-use-case.md).
 
-對於已設定的每個動作，歷程設計器浮動視窗中都會提供動作活動。 請參閱此[節](../building-journeys/using-adobe-campaign-classic.md)。
+對於已設定的每個動作，歷程設計器浮動視窗中都會提供動作活動。 請參閱 [節](../building-journeys/using-adobe-campaign-classic.md).
 
-## 重要附註
+## 重要備註
 
 * 消息沒有限制。 根據我們目前的促銷活動SLA，可將可傳送的訊息數量限制為50,000/小時。 因此，Journey Optimizer僅應用於單一使用案例（個別事件，而非區段）。
 
@@ -36,9 +37,9 @@ Journey Optimizer和Campaign執行個體之間的連線是在布建時Adobe設�
 
 ## 先決條件
 
-在Campaign中，您需要建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}。
+在Campaign中，您需要建立並發佈交易式訊息及其相關事件。 請參閱 [Adobe Campaign檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}。
 
-您可以依照下列模式，建立與每個訊息對應的JSON裝載。 然後您會在Journey Orchestration中設定動作時貼上此裝載（請參閱下方）
+您可以依照下列模式，建立與每個訊息對應的JSON裝載。 接著，您會在Journey Orchestration中設定動作時貼上此裝載（請參閱下方）
 
 其範例如下：
 
@@ -53,7 +54,7 @@ Journey Optimizer和Campaign執行個體之間的連線是在布建時Adobe設�
 }
 ```
 
-* **管道**:為您的Campaign交易範本定義的管道
+* **頻道**:為您的Campaign交易範本定義的管道
 * **eventType**:促銷活動事件的內部名稱
 * **ctx**:變數。
 
@@ -61,13 +62,11 @@ Journey Optimizer和Campaign執行個體之間的連線是在布建時Adobe設�
 
 在Journey Optimizer中，您需要為每個交易式訊息設定一個動作。 請依照下列步驟操作：
 
-1. 建立新動作。 請參閱此[節](../action/action.md)。
+1. 建立新動作。 請參閱 [節](../action/action.md).
 1. 輸入名稱和說明。
-1. 在&#x200B;**動作類型**&#x200B;欄位中，選取&#x200B;**Adobe Campaign Classic**。
-1. 按一下&#x200B;**裝載**&#x200B;欄位，並貼上與促銷活動訊息對應之JSON裝載的範例。 請聯絡Adobe以取得此裝載。
+1. 在 **動作類型** 欄位，選擇 **Adobe Campaign Classic**.
+1. 按一下 **裝載** 欄位，並貼上與促銷活動訊息對應之JSON裝載的範例。 請聯絡Adobe以取得此裝載。
 1. 視您要在歷程畫布上對應不同欄位，將其調整為靜態或變數。 某些欄位(例如電子郵件地址和個人化欄位(ctx)的管道參數)，您可能會想要定義為要在歷程內容中對應的變數。
 1. 按一下「**儲存**」。
 
 ![](../assets/accintegration1.png)
-
-

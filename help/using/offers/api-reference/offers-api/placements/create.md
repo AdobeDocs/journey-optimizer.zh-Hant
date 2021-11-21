@@ -1,24 +1,25 @@
 ---
 title: 建立位置
 description: 版位是用來展示優惠方案的容器。
-feature: 優惠
-topic: 整合
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 12%
+source-wordcount: '131'
+ht-degree: 10%
 
 ---
 
 # 建立位置
 
-您可以向[!DNL Offer Library] API提出POST要求，同時提供容器ID，借此建立版位。
+您可以向 [!DNL Offer Library] API，同時提供容器ID。
 
 ## 接受和內容類型標題
 
-下表顯示了請求標題中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
+下表顯示了 *內容類型* 和 *接受* 請求標題中的欄位：
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
@@ -57,7 +58,7 @@ curl -X POST \
 
 **回應**
 
-成功的回應會傳回新建立版位的詳細資訊，包括其唯一例項ID和版位`@id`。 您可以在後續步驟中使用例項ID來更新或刪除您的版位。 您可以在後續的教學課程中使用您的獨特位置`@id`，建立決策、決策規則和備援優惠方案。
+成功的回應會傳回新建立版位的詳細資訊，包括其唯一例項ID和版位 `@id`. 您可以在後續步驟中使用例項ID來更新或刪除您的版位。 您可以使用不重複位置 `@id` 在稍後的教學課程中，建立決策、決策規則和備援優惠方案。
 
 ```json
 {

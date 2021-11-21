@@ -1,17 +1,17 @@
 ---
-title: 個人化使用案例&amp；冒號；購物車放棄電子郵件
+title: 個人化使用案例&冒號；購物車放棄電子郵件
 description: 了解如何使用協助程式功能個人化訊息
-feature: 個人化
-topic: 個人化
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 7fb159eb495b2ac2c1eded0921b63dbc4bae9cac
+exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1014'
 ht-degree: 3%
 
 ---
-
 
 # 個人化使用案例：購物車放棄電子郵件 {#personalization-use-case-helper-functions}
 
@@ -19,9 +19,9 @@ ht-degree: 3%
 
 您將使用以下類型的協助程式函式：
 
-* `upperCase`字串函式，以大寫字母插入客戶的名字。 [了解更多](functions/string.md#upper)。
-* `each`協助程式，列出購物車中的項目。 [了解更多](functions/helpers.md#each)。
-* `if`協助程式，在相關產品在購物車中時插入產品專屬備注。 [了解更多](functions/helpers.md#if-function)。
+* 此 `upperCase` 字串函式，以在大寫字母中插入客戶的名字。 [了解更多](functions/string.md#upper)。
+* 此 `each` 協助工具，列出購物車中的項目。 [了解更多](functions/helpers.md#each)。
+* 此 `if` 協助工具，以在相關產品在購物車中時插入產品專屬備注。 [了解更多](functions/helpers.md#if-function)。
 
 <!-- **Context**: personalization based on contextual data from the journey -->
 
@@ -32,16 +32,16 @@ ht-degree: 3%
 * 以事件開始的歷程。 [了解更多](../building-journeys/using-the-journey-designer.md)。
 
 請依照下列步驟操作：
-1. [建立電子郵件訊息](#configure-email)。
-1. [在大寫字母中插入客戶的名字](#uppercase-function)。
-1. [建立初始事件和歷程](#create-context)。
-1. [將購物車內容新增至電子郵件](#each-helper)。
-1. [插入產品專屬附註](#if-helper)。
+1. [建立電子郵件訊息](#configure-email).
+1. [在大寫字母中插入客戶的名字](#uppercase-function).
+1. [建立初始事件和歷程](#create-context).
+1. [將購物車內容新增至電子郵件](#each-helper).
+1. [插入產品特定附註](#if-helper).
 1. [測試並發佈歷程](#test-and-publish).
 
 ## 步驟1:建立電子郵件{#configure-email}
 
-1. 建立或修改電子郵件，然後按一下&#x200B;**[!UICONTROL Email Designer]**。
+1. 建立或修改電子郵件訊息，然後按一下 **[!UICONTROL Email Designer]**.
    ![](../assets/personalization-uc-helpers-1.png)
 
 1. 從電子郵件設計工具首頁的左側浮動視窗，將三個結構元件拖放至訊息內文。
@@ -52,15 +52,15 @@ ht-degree: 3%
 
 ## 步驟2:在大寫字母中插入客戶的名字 {#uppercase-function}
 
-1. 在電子郵件設計工具首頁上，按一下您要新增客戶名字的HTML元件。
-1. 在內容工具列上，按一下&#x200B;**[!UICONTROL Show the source code]**。
+1. 在電子郵件設計工具首頁上，按一下要添加HTML名的客戶元件。
+1. 在內容工具列上，按一下 **[!UICONTROL Show the source code]**.
 
    ![](../assets/personalization-uc-helpers-3.png)
 
-1. 在&#x200B;**[!UICONTROL Edit HTML]**&#x200B;視窗中，新增`upperCase`字串函式：
-   1. 在清單中，選擇&#x200B;**[!UICONTROL Helper functions]**。
+1. 在 **[!UICONTROL Edit HTML]** 窗口，添加 `upperCase` 字串函式：
+   1. 在清單中，選取 **[!UICONTROL Helper functions]**.
    1. 使用搜索欄位查找「大寫」。
-   1. 從搜尋結果中新增`upperCase`函式。 要執行此操作，請按一下`{%= upperCase(string) %}: string`旁的加號(+)。
+   1. 從搜尋結果中，新增 `upperCase` 函式。 要執行此操作，請按一下旁邊的加號(+) `{%= upperCase(string) %}: string`.
 
       運算式編輯器會顯示此運算式：
 
@@ -72,9 +72,9 @@ ht-degree: 3%
 
 1. 從運算式中移除「字串」預留位置。
 1. 新增名字代號：
-   1. 在清單中，選擇&#x200B;**[!UICONTROL Profile]**。
+   1. 在清單中，選取 **[!UICONTROL Profile]**.
    1. 選擇 **[!UICONTROL Profile]** > **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
-   1. 將&#x200B;**[!UICONTROL First name]**&#x200B;代號新增至運算式。
+   1. 新增 **[!UICONTROL First name]** 代號至運算式。
 
       運算式編輯器會顯示此運算式：
 
@@ -84,7 +84,7 @@ ht-degree: 3%
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      進一步了解[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}中的人員名稱資料類型。
+      深入了解人員名稱資料類型 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}。
 
 1. 按一下「**[!UICONTROL Validate]**」，然後按一下「**[!UICONTROL Save]**」。
 
@@ -95,10 +95,10 @@ ht-degree: 3%
 
 購物車內容是歷程的情境資訊。 因此，您必須先新增初始事件和電子郵件至歷程，才能將購物車專屬資訊新增至電子郵件。
 
-1. 建立其架構包含`productListItems`陣列的事件。
+1. 建立其架構包含 `productListItems` 陣列。
 1. 將此陣列中的所有欄位定義為此事件的有效負載欄位。
 
-   在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}中深入了解產品清單項目資料類型。
+   深入了解產品清單項目資料類型 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}。
 
 1. 建立以此事件開始的歷程。
 1. 將訊息新增至歷程。
@@ -121,14 +121,14 @@ ht-degree: 3%
    ![](../assets/personalization-uc-helpers-18.png)
 
 1. 在電子郵件設計工具首頁上，按一下您要列出購物車內容的HTML元件。
-1. 在內容工具列上，按一下&#x200B;**[!UICONTROL Show the source code]**。
+1. 在內容工具列上，按一下 **[!UICONTROL Show the source code]**.
 
    ![](../assets/personalization-uc-helpers-3.png)
 
-1. 在&#x200B;**[!UICONTROL Edit HTML]**&#x200B;視窗中，新增`each`協助程式：
-   1. 在清單中，選擇&#x200B;**[!UICONTROL Helper functions]**。
+1. 在 **[!UICONTROL Edit HTML]** 窗口，添加 `each` 幫助者：
+   1. 在清單中，選取 **[!UICONTROL Helper functions]**.
    1. 使用搜尋欄位來尋找「每個」。
-   1. 從搜尋結果中新增`each`協助程式。
+   1. 從搜尋結果中，新增 `each` 幫手。
 
       運算式編輯器會顯示此運算式：
 
@@ -138,25 +138,25 @@ ht-degree: 3%
 
       ![](../assets/personalization-uc-helpers-9.png)
 
-1. 將`productListItems`陣列新增至運算式：
+1. 新增 `productListItems` array到運算式：
 
    1. 從運算式中移除「someArray」預留位置。
-   1. 在清單中，選擇&#x200B;**[!UICONTROL Context]**。
+   1. 在清單中，選取 **[!UICONTROL Context]**.
 
-      **[!UICONTROL Context]**&#x200B;選項僅在歷程內容已傳遞至訊息後才可用。
+      此 **[!UICONTROL Context]** 選項僅在歷程內容傳遞至訊息後才可用。
 
-   1. 選擇&#x200B;**[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***，然後展開&#x200B;**[!UICONTROL productListItems]**&#x200B;節點。
+   1. 選擇 **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***，然後展開 **[!UICONTROL productListItems]** 節點。
 
-      在此範例中，*event_name*&#x200B;代表事件的名稱。
+      在此範例中， *event_name* 代表事件的名稱。
 
-   1. 將&#x200B;**[!UICONTROL Product]**&#x200B;代號新增至運算式。
+   1. 新增 **[!UICONTROL Product]** 代號至運算式。
 
       運算式編輯器會顯示此運算式：
 
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems.product as |variable|}} {{/each}}
       ```
-      在此範例中， *event_ID*&#x200B;代表事件的ID。
+      在此範例中， *event_ID* 代表事件的ID。
 
       ![](../assets/personalization-uc-helpers-10.png)
 
@@ -169,7 +169,7 @@ ht-degree: 3%
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
-1. 在左`{{#each}}`標籤和右`{/each}}`標籤之間貼上此代碼：
+1. 將此程式碼貼到開頭 `{{#each}}` 標籤和結尾 `{/each}}` 標籤：
 
    ```html
    <table>
@@ -186,11 +186,11 @@ ht-degree: 3%
 1. 為項目名稱、數量和價格新增個人化代號：
 
    1. 從HTML表格中移除預留位置「#name」。
-   1. 從先前的搜尋結果中，將&#x200B;**[!UICONTROL Name]**&#x200B;代號新增至運算式。
+   1. 從先前的搜尋結果中，新增 **[!UICONTROL Name]** 代號至運算式。
 
    重複這些步驟兩次：
-   * 將預留位置&quot;#quantity&quot;替換為&#x200B;**[!UICONTROL Quantity]**&#x200B;代號。
-   * 將預留位置&quot;#priceTotal&quot;替換為&#x200B;**[!UICONTROL Total price]**&#x200B;代號。
+   * 將預留位置「#quantity」取代為 **[!UICONTROL Quantity]** 代號。
+   * 將預留位置「#priceTotal」取代為 **[!UICONTROL Total price]** 代號。
 
    此示例顯示修改後的表達式：
 
@@ -213,14 +213,14 @@ ht-degree: 3%
 ## 步驟5:插入產品特定附註 {#if-helper}
 
 1. 在電子郵件設計工具首頁上，按一下要插入注釋的HTML元件。
-1. 在內容工具列上，按一下&#x200B;**[!UICONTROL Show the source code]**。
+1. 在內容工具列上，按一下 **[!UICONTROL Show the source code]**.
 
    ![](../assets/personalization-uc-helpers-3.png)
 
-1. 在&#x200B;**[!UICONTROL Edit HTML]**&#x200B;視窗中，新增`if`協助程式：
-   1. 在清單中，選擇&#x200B;**[!UICONTROL Helper functions]**。
+1. 在 **[!UICONTROL Edit HTML]** 窗口，添加 `if` 幫助者：
+   1. 在清單中，選取 **[!UICONTROL Helper functions]**.
    1. 使用搜尋欄位來尋找&quot;if&quot;。
-   1. 從搜尋結果中新增`if`協助程式。
+   1. 從搜尋結果中，新增 `if` 幫手。
 
       運算式編輯器會顯示此運算式：
 
@@ -248,12 +248,12 @@ ht-degree: 3%
 
 1. 將產品名稱代號新增至條件：
    1. 從運算式中移除「condition1」預留位置。
-   1. 在清單中，選擇&#x200B;**[!UICONTROL Context]**。
-   1. 選擇&#x200B;**[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***，然後展開&#x200B;**[!UICONTROL productListItems]**&#x200B;節點。
+   1. 在清單中，選取 **[!UICONTROL Context]**.
+   1. 選擇 **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***，然後展開 **[!UICONTROL productListItems]** 節點。
 
-      在此範例中，*event_name*&#x200B;代表事件的名稱。
+      在此範例中， *event_name* 代表事件的名稱。
 
-   1. 將&#x200B;**[!UICONTROL Name]**&#x200B;代號新增至運算式。
+   1. 新增 **[!UICONTROL Name]** 代號至運算式。
 
       運算式編輯器會顯示此運算式：
 
@@ -266,9 +266,9 @@ ht-degree: 3%
       ![](../assets/personalization-uc-helpers-13.png)
 
 1. 修改運算式：
-   1. 在運算式編輯器中，在`name`代號後面指定產品名稱。
+   1. 在運算式編輯器中，指定產品名稱后方的 `name` 代號。
 
-      使用此語法，其中&#x200B;*product_name*&#x200B;代表產品名稱：
+      請使用此語法，其中 *product_name* 代表您的產品名稱：
 
       ```javascript
       = "product_name"
@@ -303,13 +303,13 @@ ht-degree: 3%
 ## 步驟6:測試並發佈歷程 {#test-and-publish}
 
 1. 開啟歷程。 如果歷程已開啟，請重新整理頁面。
-1. 開啟&#x200B;**[!UICONTROL Test]**&#x200B;切換開關，然後按一下&#x200B;**[!UICONTROL Trigger an event]**。
+1. 開啟 **[!UICONTROL Test]** 切換，然後按一下 **[!UICONTROL Trigger an event]**.
 
    只有在發佈訊息後，才可以開啟測試模式。
 
    ![](../assets/personalization-uc-helpers-15.png)
 
-1. 在&#x200B;**[!UICONTROL Event configuration]**&#x200B;窗口中，輸入輸入值，然後按一下&#x200B;**[!UICONTROL Send]**。
+1. 在 **[!UICONTROL Event configuration]** ，輸入輸入值，然後按一下 **[!UICONTROL Send]**.
 
    測試模式僅適用於測試設定檔。
 

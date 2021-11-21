@@ -1,13 +1,14 @@
 ---
 title: 算術函式庫
 description: 算術函式庫
-feature: 個性化
-topic: 個性化
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 21ef8f50-8389-4675-a8e5-0438a3eee592
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 7%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 7%
 
 ## 新增{#add}
 
-`+`（加法）函式用於查找兩個參數表達式的總和。
+此 `+` (addition)函式可用來尋找兩個引數運算式的總和。
 
 **格式**
 
@@ -36,7 +37,7 @@ ht-degree: 7%
 
 ## 乘{#multiply}
 
-`*`（乘法）函式用於查找兩個參數表達式的乘積。
+此 `*` （乘法）函式用於查找兩個參數表達式的乘積。
 
 **格式**
 
@@ -54,7 +55,7 @@ ht-degree: 7%
 
 ## 減去{#substract}
 
-`-`（減法）函式用於查找兩個參數表達式的差異。
+此 `-` （減法）函式用於尋找兩個引數運算式的差異。
 
 **格式**
 
@@ -72,7 +73,7 @@ ht-degree: 7%
 
 ## 除{#divide}
 
-`/`（除法）函式用於查找兩個參數表達式的商。
+此 `/` （除法）函式用於求兩個參數表達式的商。
 
 **格式**
 
@@ -90,7 +91,7 @@ ht-degree: 7%
 
 ## 余數{#remainder}
 
-`%`（模數/余數）函式用於在將兩個參數表達式除以後查找余數。
+此 `%` (modulo/remaind)函式用於在將兩個參數表達式除以後查找余數。
 
 **格式**
 

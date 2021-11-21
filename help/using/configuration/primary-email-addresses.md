@@ -11,17 +11,17 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-feature: 應用程式設定
-topic: 管理
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 7%
+source-wordcount: '116'
+ht-degree: 5%
 
 ---
-
 
 # 變更主要電子郵件地址
 
@@ -29,8 +29,8 @@ ht-degree: 7%
 
 透過Journey Optimizer，您可以決定要從設定檔服務使用的電子郵件地址，並在有數個地址可用時排定優先順序。 要執行此操作，請依照下列步驟執行：
 
-1. 訪問&#x200B;**[!UICONTROL Channels]** `>` **[!UICONTROL General]**&#x200B;菜單。
-1. 依預設，目前用於判斷設定檔電子郵件地址的欄位會顯示在此畫面中。 按一下&#x200B;**[!UICONTROL Edit]**&#x200B;加以變更。
+1. 存取  **[!UICONTROL Channels]** `>` **[!UICONTROL General]** 功能表。
+1. 依預設，目前用於判斷設定檔電子郵件地址的欄位會顯示在此畫面中。 按一下 **[!UICONTROL Edit]** 來改變它。
 
    ![](../assets/primary-address.png)
 
@@ -38,7 +38,7 @@ ht-degree: 7%
 
    ![](../assets/primary-address-edit.png)
 
-1. 可用的電子郵件類型XDM欄位清單隨即顯示。 選取要使用的欄位，然後按一下&#x200B;**[!UICONTROL Save]**。
+1. 可用的電子郵件類型XDM欄位清單隨即顯示。 選取要使用的欄位，然後按一下 **[!UICONTROL Save]**.
 
    ![](../assets/primary-address-field.png)
 

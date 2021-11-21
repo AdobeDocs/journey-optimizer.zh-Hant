@@ -1,14 +1,15 @@
 ---
 title: 運算子函式庫
 description: 運算子函式庫
-feature: 個性化
-topic: 個性化
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 12%
+source-wordcount: '302'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 12%
 
 ### 和{#and}
 
-`and`函式用於建立邏輯連接。
+此 `and` 函式用來建立邏輯連接。
 
 **格式**
 
@@ -38,7 +39,7 @@ ht-degree: 12%
 
 ### 或{#or}
 
-`or`函式用於建立邏輯分離。
+此 `or` 函式用於建立邏輯分離。
 
 **格式**
 
@@ -85,7 +86,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 等於{#equals}
 
-`=`（等於）函式會檢查一個值或運算式是否等於另一個值或運算式。
+此 `=` （等於）函式會檢查某個值或運算式是否等於另一個值或運算式。
 
 **格式**
 
@@ -103,7 +104,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 不等於{#notequal}
 
-`!=`（不等於）函式檢查一個值或表達式是否為&#x200B;**不**&#x200B;等於另一個值或表達式。
+此 `!=` （不等於）函式檢查一個值或表達式是否為 **not** 等於其他值或運算式。
 
 **格式**
 
@@ -121,7 +122,7 @@ not (homeAddress.countryISO = "CA")
 
 ### Greater than{#greaterthan}
 
-`>`（大於）函式用來檢查第一值是否大於第二值。
+此 `>` （大於）函式用來檢查第一值是否大於第二值。
 
 **格式**
 
@@ -137,9 +138,9 @@ not (homeAddress.countryISO = "CA")
 {%= profile.person.birthYear > 1970 %}
 ```
 
-### Greater than or equal to{#greaterthanorequal}
+### 大於或等於{#greaterthanorequal}
 
-`>=`（大於或等於）函式用於檢查第一值是否大於或等於第二值。
+此 `>=` （大於或等於）函式用來檢查第一值是否大於或等於第二值。
 
 **格式**
 
@@ -155,9 +156,9 @@ not (homeAddress.countryISO = "CA")
 {%= profile.person.birthYear >= 1970 %}
 ```
 
-### Less than{#lessthan}
+### 少於{#lessthan}
 
-`<`（小於）比較函式用於檢查第一值是否小於第二值。
+此 `<` （小於）比較函式用來檢查第一值是否小於第二值。
 
 **格式**
 
@@ -175,7 +176,7 @@ not (homeAddress.countryISO = "CA")
 
 ### Less than or equal to{#lessthanorequal}
 
-使用`<=`（小於或等於）比較函式來檢查第一值是否小於或等於第二值。
+此 `<=` （小於或等於）比較函式用於檢查第一值是否小於或等於第二值。
 
 **格式**
 
@@ -192,4 +193,3 @@ not (homeAddress.countryISO = "CA")
 ```
 
 **具有數字的操作**
-

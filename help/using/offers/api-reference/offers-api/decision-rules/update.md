@@ -1,26 +1,27 @@
 ---
 title: 更新決策規則
 description: 決策規則是新增至個人化優惠方案的限制，並套用至設定檔以判斷資格。
-feature: 優惠
-topic: 整合
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 9%
+source-wordcount: '174'
+ht-degree: 8%
 
 ---
 
 # 更新決定規則
 
-您可以向[!DNL Offer Library] API提出PATCH請求，以修改或更新容器中的決策規則。
+您可以向以下項目提出PATCH請求，以修改或更新容器中的決策規則： [!DNL Offer Library] API。
 
-如需JSON修補程式的詳細資訊，包括可用的操作，請參閱官方的[ JSON修補程式檔案](http://jsonpatch.com/)。
+如需JSON修補程式的詳細資訊，包括可用的操作，請參閱 [JSON修補程式檔案](http://jsonpatch.com/).
 
 ## 接受和內容類型標題
 
-下表顯示了請求標題中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
+下表顯示了 *內容類型* 和 *接受* 請求標題中的欄位：
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
@@ -61,13 +62,13 @@ curl -X PATCH \
 
 | 參數 | 說明 |
 | --------- | ----------- |
-| `op` | 用來定義更新連線所需動作的操作呼叫。 操作包括：`add`、`replace`和`remove`。 |
+| `op` | 用來定義更新連線所需動作的操作呼叫。 操作包括： `add`, `replace`，和 `remove`. |
 | `path` | 要更新的參數的路徑。 |
 | `value` | 您要用更新參數的新值。 |
 
 **回應**
 
-成功的回應會傳回決策規則的更新詳細資訊，包括其唯一例項ID和決策規則`@id`。
+成功的回應會傳回決策規則的更新詳細資訊，包括其唯一例項ID和決策規則 `@id`.
 
 ```json
 {

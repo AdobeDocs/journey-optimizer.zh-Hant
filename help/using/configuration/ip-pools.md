@@ -37,7 +37,7 @@ ht-degree: 1%
 
 要建立IP池，請執行以下步驟：
 
-1. 訪問&#x200B;**[!UICONTROL Channels]** / **[!UICONTROL IP pools]**&#x200B;菜單，然後按一下&#x200B;**[!UICONTROL Create IP Pool]**。
+1. 存取 **[!UICONTROL Channels]** / **[!UICONTROL IP pools]** ，然後按一下 **[!UICONTROL Create IP Pool]**.
 
    ![](../assets/ip-pool-create.png)
 
@@ -47,7 +47,7 @@ ht-degree: 1%
    >
    >子網域的名稱必須以字母(A-Z)開頭，且僅包含英數字元或特殊字元(_、.、-)。
 
-1. 從下拉清單中選擇要包含在池中的IP地址，然後按一下&#x200B;**[!UICONTROL Submit]**。
+1. 從下拉清單中選擇要包含在池中的IP地址，然後按一下 **[!UICONTROL Submit]**.
 
    ![](../assets/ip-pool-config.png)
 
@@ -55,7 +55,7 @@ ht-degree: 1%
    >
    >清單中會提供與您執行個體布建的所有IP位址。
 
-IP池現在已建立並顯示在清單中。 您可以選取它以存取其屬性並顯示相關的訊息預設集。 有關如何將消息預設集與IP池關聯的詳細資訊，請參閱[此部分](message-presets.md))。
+IP池現在已建立並顯示在清單中。 您可以選取它以存取其屬性並顯示相關的訊息預設集。 有關如何將消息預設集與IP池關聯的詳細資訊，請參閱 [本節](message-presets.md))。
 
 ![](../assets/ip-pool-created.png)
 
@@ -81,14 +81,14 @@ IP池現在已建立並顯示在清單中。 您可以選取它以存取其屬�
 >
 >IP池名稱不可編輯。 如果要修改它，則需要刪除IP池，並使用您選擇的名稱建立另一個池。
 
-根據與[消息預設集](message-presets.md)關聯的IP池，更新會立即或非同步地生效：
+更新會立即或非同步生效，具體取決於與 [訊息預設集](message-presets.md) 或否：
 
-* 如果在消息預設集中選擇的IP池&#x200B;**未**，則更新為瞬時（**[!UICONTROL Success]**&#x200B;狀態）。
-* 如果在消息預設集中選擇了IP池&#x200B;****，則更新最多可能需要7-10個工作天（**[!UICONTROL Processing]**&#x200B;狀態）。
+* 如果IP池為 **not** 在訊息預設集中選取，更新為即時(**[!UICONTROL Success]** 狀態)。
+* 如果IP池 **is** 在訊息預設集中選取，更新最多需要7至10個工作天(**[!UICONTROL Processing]** 狀態)。
 
 <!--If a message preset has been associated with the IP pool, you first need to remove it before editing the IP pool. Once the your modifications have been done, you can associate the message preset again.-->
 
-要檢查IP池更新狀態，請按一下&#x200B;**[!UICONTROL More actions]**&#x200B;按鈕並選擇&#x200B;**[!UICONTROL Recent updates]**。
+要檢查IP池更新狀態，請按一下 **[!UICONTROL More actions]** 按鈕並選取 **[!UICONTROL Recent updates]**.
 
 ![](../assets/ip-pool-recent-update.png)
 
@@ -99,5 +99,5 @@ IP池現在已建立並顯示在清單中。 您可以選取它以存取其屬�
 >* 直到IP池的下一批處理在批處理消息中生效。
 
 
-您也可以使用&#x200B;**[!UICONTROL Delete]**&#x200B;按鈕刪除IP池。 請注意，您無法刪除已與消息預設集關聯的IP池。
+您也可以使用 **[!UICONTROL Delete]** 按鈕刪除IP池。 請注意，您無法刪除已與消息預設集關聯的IP池。
 

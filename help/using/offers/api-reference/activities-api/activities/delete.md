@@ -1,20 +1,21 @@
 ---
 title: 刪除決策
 description: 決策包含通知選件選擇的邏輯。
-feature: 優惠
-topic: 整合
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 6%
+source-wordcount: '146'
+ht-degree: 5%
 
 ---
 
 # 刪除決定
 
-有時可能需要移除(DELETE)決策（先前稱為優惠方案活動）。 只能刪除您在租用戶容器中建立的決策。 若要這麼做，請使用您要刪除之備援優惠方案的$id，對[!DNL Offer Library] API執行DELETE請求。
+有時可能需要移除(DELETE)決策（先前稱為優惠方案活動）。 只能刪除您在租用戶容器中建立的決策。 若要這麼做，請對 [!DNL Offer Library] API，使用您要刪除之備援優惠方案的$id。
 
 **API格式**
 
