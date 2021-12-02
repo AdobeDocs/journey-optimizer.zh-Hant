@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 18383a5a27aaf54cc859bdb66386648fe5fe2c41
+source-git-commit: 203f8545200d4a6c20a748807e20ba7aba1ab5f3
 workflow-type: tm+mt
-source-wordcount: '1682'
+source-wordcount: '1684'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 1%
 
    在此步驟中，將執行數項檢查，以確認其已正確設定。 處理時間已到 **48h-72h**，並可以 **7-10個工作天**.
 
-   這些檢查包括由Adobe傳遞團隊執行的傳遞能力測試：
+   這些檢查包括由Adobe團隊執行的設定和技術測試：
 
    * SPF驗證
    * DKIM驗證

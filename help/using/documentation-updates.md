@@ -2,9 +2,9 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 01313f84dc9d5260388574b3e1eb7e4a7df14d0e
+source-git-commit: 4fc7271c96ffe87fe9b22a9d8bf93843468b2e79
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '794'
 ht-degree: 25%
 
 ---
@@ -13,6 +13,11 @@ ht-degree: 25%
 
 本頁面列出 [!DNL Journey Optimizer] 的所有文件更新。
 
+
+## 2021 年 11 月
+
+* 現在提供歷程中使用之進階運算式編輯器的完整說明。 [閱讀全文](building-journeys/expression/expressionadvanced.md)
+* 新的CNAME子網域委派方法。 [閱讀全文](configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 ## 2021 年 10 月
 

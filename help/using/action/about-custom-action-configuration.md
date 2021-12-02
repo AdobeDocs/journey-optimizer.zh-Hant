@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2c27942ece935c715ed2dea4d998705224a75089
+source-git-commit: 9e6e4f30e2f0301157901ea211f984ebcfb99bc4
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 6%
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 # 設定動作 {#configure-an-action}
 
-如果您使用協力廠商系統來傳送訊息，或您想要歷程將API呼叫傳送至協力廠商系統，您可以在此設定其與歷程的連線。 接著，技術使用者定義的自訂動作將可在歷程的左側浮動視窗中使用，位於 **[!UICONTROL Action]** 類別(請參閱 [本頁](../building-journeys/about-journey-activities.md#action-activities). 以下是一些您可透過自訂動作連線至的系統範例：Epsilon、Facebook、Adobe.io、Firebase等
+如果您使用協力廠商系統來傳送訊息，或您想要歷程將API呼叫傳送至協力廠商系統，您可以在此設定其與歷程的連線。 接著，技術使用者定義的自訂動作將可在歷程的左側浮動視窗中使用，位於 **[!UICONTROL Action]** 類別(請參閱 [本頁](../building-journeys/about-journey-activities.md#action-activities). 以下是一些您可透過自訂動作連線至的系統範例：Epsilon、Slack、Adobe、io、Firebase等
 
 限制列於 [本頁](../limitations.md).
 

@@ -2,16 +2,36 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 01313f84dc9d5260388574b3e1eb7e4a7df14d0e
+source-git-commit: 52d187f349cba45b43c38c20e45c1dff746d38bf
 workflow-type: tm+mt
-source-wordcount: '1978'
-ht-degree: 16%
+source-wordcount: '2074'
+ht-degree: 15%
 
 ---
 
 # 發行說明 {#release-notes}
 
 本頁面列出[!DNL Journey Optimizer]的所有新功能和改善項目。您也可以參閱 [最新檔案更新](documentation-updates.md).
+
+## 2021年11月發行
+
+<table>
+<thead>
+<tr>
+<th><strong>CNAME子網域委派</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer現在支援CNAME。 CNAME或標準名稱記錄是指向其他網域位址而非IP位址的記錄。 CNAME子網域委派可讓您建立子網域，並使用CNAME指向Adobe特定記錄。 使用此設定，您和Adobe都有責任維護DNS，以便設定傳送、轉譯和追蹤電子郵件的環境。</p>
+<p>如果貴組織的原則限制完整的子網域委派方法，則建議使用此方法。</p>
+<p>如需CNAME子網域委派的詳細資訊，請參閱 <a href="configuration/delegate-subdomain.md#cname-subdomain-delegation">詳細檔案</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## 2021年10月發行 {#oct-2021-release}
 
@@ -81,7 +101,7 @@ ht-degree: 16%
 </table>
 
 
-另請參閱 [Adobe Experience Platform 10月發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target=&quot;_blank&quot;}以取得更多變更。
+另請參閱 [Adobe Experience Platform 10月發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target=&quot;_blank&quot;}以取得更多變更。
 
 ### 改良功能
 
