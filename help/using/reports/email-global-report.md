@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: f0e34e040dd0e0ba2fa8293f4290ab55e1781426
+source-git-commit: 36c9b672e9e183cd0aac58582ddd54ccdebd84f7
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 0%
+source-wordcount: '578'
+ht-degree: 1%
 
 ---
 
@@ -91,32 +91,33 @@ ht-degree: 0%
 
 * **[!UICONTROL Unique Opens]**:開啟傳遞的收件者人數。
 
+<!--
 ![](../assets/global_report_20.png)
 
 >[!NOTE]
 >
->只有在電子郵件中插入決策時，選件小工具和量度才可供使用。 有關「決策管理」的詳細資訊，請參閱 [頁面](../offers/get-started/starting-offer-decisioning.md).
+>The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
 
-此 **[!UICONTROL Offers statistic]** 和 **[!UICONTROL Offers statistics]** 一段時間後，Widget會測量選件的成功，以及對目標對象的影響。 它會使用KPI詳細說明與訊息相關的主要資訊：
+The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
 
-* **[!UICONTROL Offer sent]**:選件的傳送總數。
+* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
 
-* **[!UICONTROL Offer impression]**:傳遞中開啟選件的次數。
+* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
 
-* **[!UICONTROL Offer clicks]**:傳送中點按選件的次數。
+* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
 
-此 **[!UICONTROL Offers detailed statistic]** 表格包含您選件中收件者活動的可用資料：
+The **[!UICONTROL Offers detailed statistic]** table contains the available data for recipient activity with your offer:
 
-* **[!UICONTROL Placement name]**:用來顯示優惠方案的版位名稱。 有關投放位置的詳細資訊，請參閱 [頁面](../offers/offer-library/creating-placements.md).
+* **[!UICONTROL Placement name]**: Name of your placement used to display your offer. For more information on placement, refer to this [page](../offers/offer-library/creating-placements.md).
 
-* **[!UICONTROL Offer name]**:傳送中新增的選件名稱。 有關投放位置的詳細資訊，請參閱 [頁面](../offers/offer-library/creating-personalized-offers.md).
+* **[!UICONTROL Offer name]**: Name of the offer added in the delivery. For more information on placement, refer to this [page](../offers/offer-library/creating-personalized-offers.md).
 
-* **[!UICONTROL Offer sent]**:選件的傳送總數。
+* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
 
-* **[!UICONTROL Offer impression rate]**:已開啟選件與已傳送選件數量的百分比。
+* **[!UICONTROL Offer impression rate]**: Percentage of opened offers compared to the number of sent offers.
 
-* **[!UICONTROL Offer click rate]**:與優惠方案互動的使用者百分比。
-
+* **[!UICONTROL Offer click rate]**: Percentage of users who interacted with the offer.
+-->
 >[!NOTE]
 >
 >具有 **[!UICONTROL Suppressed]** 或 **[!UICONTROL Not allowed]** 在訊息傳送程式期間會排除狀態。 因此，若 **歷程報表** 會將這些設定檔顯示為已在歷程中移動([讀取區段](../building-journeys/read-segment.md) 和 [訊息](../building-journeys/journeys-message.md) 活動), **電子郵件報表** 不會將其納入 **[!UICONTROL Sent]** 量度，因為在傳送電子郵件前會先將量度篩選掉。
