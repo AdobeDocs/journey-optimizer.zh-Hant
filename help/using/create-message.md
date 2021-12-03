@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: d8c95350ac17658ce477d6aec50a9f418f4af0f2
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->使用者可依其產品設定檔存取、建立、編輯和/或發佈訊息。 深入了解使用者權限 [在本節](../using/administration/permissions.md).
+>使用者可依其產品設定檔存取、建立、編輯和/或發佈訊息。 深入了解使用者權限 [在本節](administration/permissions.md).
 
 ![](assets/messages-list.png)
 
@@ -43,15 +43,14 @@ ht-degree: 3%
 
    * 輸入 **[!UICONTROL Title]** （必填）和 **[!UICONTROL Description]**.
 
+   * 選取 **[!UICONTROL Message category]**:行銷或交易。
+
    * 選取 **[!UICONTROL Preset]** 以用於訊息。
 
-      預設集包含根據您的品牌傳送電子郵件和/或推播通知所需的所有參數。 [深入了解預設集](../using/configuration/message-presets.md).
+      預設集包含根據您的品牌傳送電子郵件和/或推播通知所需的所有參數。 [深入了解預設集](configuration/message-presets.md).
 
    * 選取您要用於該訊息的通道：電子郵件和/或推播通知。 您必須選取至少一個管道才能建立訊息。
    請注意，您隨時都可以使用 **[!UICONTROL Properties]** 按鈕。
-
-   ![](assets/message-properties.png)
-
 
 1. 按一下 **[!UICONTROL Create]** 確認訊息建立。 您的訊息會新增至訊息清單中，位於 **[!UICONTROL Draft]** 狀態。
 

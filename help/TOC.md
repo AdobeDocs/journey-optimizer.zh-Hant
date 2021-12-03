@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
+source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 89%
+source-wordcount: '883'
+ht-degree: 87%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 89%
       + [建立訊息](using/create-message.md)
       + [建立電子郵件](using/create-email.md)
       + [建立推播通知](using/create-push.md)
+      + [建立SMS訊息](using/create-sms.md)
    + [新增及管理資產](using/assets-essentials.md)
    + 設計電子郵件 {#email-designer}
       + [開始使用電子郵件設計](using/design-emails.md)
@@ -220,6 +221,12 @@ ht-degree: 89%
       + [開始使用傳遞能力](using/deliverability.md)
       + [隱藏清單](using/suppression-list.md)
       + [允許的清單](using/allow-list.md)
++ 登陸頁面 {#landing-pages}
+   + [開始使用登錄頁面](using/landing-pages/get-started-lp.md)
+   + [設定登陸頁面](using/landing-pages/create-lp.md)
+   + [設計登錄頁面](using/landing-pages/design-lp.md)
+   + [建立訂閱清單](using/landing-pages/subscription-list.md)
+   + [使用案例](using/landing-pages/lp-use-cases.md)
 + 決定管理 {#offer-decisioniong}
    + 開始使用決定管理 {#get-started}
       + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
@@ -321,6 +328,7 @@ ht-degree: 89%
             + [管理隱藏清單](using/configuration/manage-suppression-list.md)
             + [重試次數](using/configuration/retries.md)
          + [變更電子郵件主要地址](using/configuration/primary-email-addresses.md)
+      + [設定簡訊頻道](using/configuration/sms-configuration.md)
       + [建立訊息預設集](using/configuration/message-presets.md)
    + 設定歷程 {#configure-journeys}
       + [關於資料來源、事件和動作](using/configuration/about-data-sources-events-actions.md)

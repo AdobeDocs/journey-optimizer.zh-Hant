@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 9facba9d5dd804e51aad969ef83a964f64e63033
+source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +44,9 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 若要新增取消訂閱連結，請遵循下列步驟：
 
 1. 建立您的取消訂閱登陸頁面。
-1. 在您選擇的協力廠商系統上代管您的登陸頁面。
+
+1. 在您所選擇的協力廠商系統上托管。
+
 1. 於[!DNL Journey Optimizer][建立訊息](../../help/using/create-message.md)。
 
    <!--The link to your landing page should contain a static URL and the profile ID.-->

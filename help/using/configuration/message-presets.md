@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 203f8545200d4a6c20a748807e20ba7aba1ab5f3
+source-git-commit: 7039c816c459ba8cb5dbb52daf3c8265e1e1a511
 workflow-type: tm+mt
-source-wordcount: '1684'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -105,6 +105,20 @@ ht-degree: 1%
    * 選取用於每個平台的行動應用程式。
 
       如需如何設定您的環境以傳送推播通知的詳細資訊，請參閱 [本節](../push-gs.md).
+
+<!--
+1. Configure the **SMS** settings.
+
+     ![](../assets/preset-sms.png)
+
+    * Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**
+    
+    * Select the **[!UICONTROL SMS configuration]** to associate with the preset.
+        
+      For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
+
+    * Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
+-->
 
 1. 完成所有參數設定後，按一下 **[!UICONTROL Submit]** 確認。 您也可以將訊息預設集儲存為草稿，稍後繼續其設定。
 
