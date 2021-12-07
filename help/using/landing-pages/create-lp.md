@@ -7,10 +7,11 @@ role: User
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '931'
+ht-degree: 3%
 
 ---
 
@@ -42,39 +43,45 @@ ht-degree: 0%
 
    ![](../assets/lp_create-lp-details.png)
 
+1. 選取預設集。
+
+   ![](../assets/lp_create-lp-presets.png)
+
+   >[!NOTE]
+   >
+   >若要定義登錄頁面預設集，請連絡您的Adobe帳戶代表或 [Adobe客戶服務支援團隊](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
+
 1. 按一下「**[!UICONTROL Create]**」。
 
-1. 主要頁面及其屬性隨即顯示。 了解如何配置頁面設定 [此處](#configure-primary-page).
+1. 主要頁面及其屬性隨即顯示。 了解如何設定主要頁面設定 [此處](#configure-primary-page).
 
    ![](../assets/lp_primary-page.png)
 
-1. 按一下+圖示以新增子頁面。 了解如何配置其設定 [此處](#configure-subpages).
+1. 按一下+圖示以新增子頁面。 了解如何設定子頁面設定 [此處](#configure-subpages).
 
    ![](../assets/lp_add-subpage.png)
 
-在您設定並設計 [主要頁面](#configure-primary-page) 和 [子頁面](#configure-subpages) 若有，您可以 [測試](#test) 和 [發佈](#publish) 您的登錄頁面。
+在您設定並設計 [主要頁面](#configure-primary-page)，和 [子頁面](#configure-subpages) 若有，您可以 [測試](#test) 和 [發佈](#publish) 您的登錄頁面。
 
 ## 設定主要頁面 {#configure-primary-page}
 
-主要頁面是使用者按一下登陸頁面的連結時（例如來自電子郵件或網站的連結）會立即顯示給他們的頁面。
+主要頁面是使用者點按登錄頁面的連結（例如來自電子郵件或網站）後，立即顯示給他們的頁面。
 
 若要定義主要頁面設定，請遵循下列步驟。
 
 1. 您可以變更頁面名稱，即 **[!UICONTROL Primary page]** 依預設。
 
-1. 使用內容設計工具編輯頁面的內容。 了解如何設計登錄頁面內容 [此處](design-lp.md).
+1. 使用內容設計工具編輯頁面的內容。 了解如何定義登錄頁面內容 [此處](design-lp.md).
 
    ![](../assets/lp_open-designer.png)
 
-1. 定義您的登錄頁面URL。
+1. 定義您的登錄頁面URL。 URL的第一部分需要執行網域委派。 已預填，無法透過使用者介面編輯。 若要設定，請連絡您的Adobe帳戶代表，或 [Adobe客戶服務支援團隊](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
 
    >[!CAUTION]
    >
    >登錄頁面URL必須是唯一的。
 
    ![](../assets/lp_access-url.png)
-
-   URL的第一部分已預填，無法透過使用者介面編輯。 若要設定，請連絡您的Adobe帳戶代表，或 [Adobe客戶服務支援團隊](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
 
 1. 您可以定義頁面的到期日。 在此情況下，您必須在頁面過期時選取動作：
 
@@ -86,29 +93,27 @@ ht-degree: 0%
 
    <!--1. In the **[!UICONTROL Additional data]** section, define a **[!UICONTROL Key]** and the corresponding **[!UICONTROL Parameter value]**. // you can define how the data entered in the landing page is managed once it has been submitted by a user??-->
 
-1. 如果您為主要頁面選取一或多個訂閱清單，這些訂閱清單會顯示在 **[!UICONTROL Subscription list]** 區段。
+1. 如果您在 [設計主要頁面](design-lp.md)，則會顯示在 **[!UICONTROL Subscription list]** 區段。
 
    ![](../assets/lp_subscription-list.png)
 
-1. 從登錄頁面，您可以直接建立歷程，在使用者提交表單時，傳送確認訊息給使用者。
+1. 從登錄頁面，您可以直接 [建立歷程](../building-journeys/journey-gs.md#jo-build) 會在使用者提交表單時傳送確認訊息給使用者。 了解如何在此結尾建立此類歷程 [使用案例](lp-use-cases.md#subscription-to-a-service).
 
    ![](../assets/lp_create-journey.png)
 
-   按一下 **[!UICONTROL Create journey]** 開始 [設定此歷程](../building-journeys/journey-gs.md#jo-build). 系統會將您重新導向至 **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** 清單。
+   按一下 **[!UICONTROL Create journey]** 被重定向到 **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** 清單。
 
 ## 設定子頁面 {#configure-subpages}
 
-您可以視需要新增多個子頁面。 例如，您可以建立感謝頁面，在使用者提交表單後就會顯示。 您也可以定義錯誤頁面，當登錄頁面發生錯誤時，將呼叫該錯誤頁面。
+您最多可以新增2個子頁面。 例如，您可以建立「感謝」頁面，在使用者提交表單後顯示，而您可以定義錯誤頁面，在登錄頁面發生問題時呼叫該錯誤頁面。
 
 若要定義子頁面設定，請遵循下列步驟。
 
 1. 您可以變更頁面名稱，即 **[!UICONTROL Subpage 1]** 依預設。
 
-1. 使用內容設計工具編輯頁面的內容。 了解如何設計登錄頁面內容 [此處](design-lp.md).
+1. 使用內容設計工具編輯頁面的內容。 了解如何定義登錄頁面內容 [此處](design-lp.md).
 
-1. 定義您的登錄頁面URL。
-
-   URL的第一部分已預填，無法透過使用者介面編輯。 若要設定，請連絡您的Adobe帳戶代表，或 [Adobe客戶服務支援團隊](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
+1. 定義您的登錄頁面URL。 URL的第一部分需要執行網域委派。 已預填，無法透過使用者介面編輯。 若要設定，請連絡您的Adobe帳戶代表，或 [Adobe客戶服務支援團隊](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
 
    >[!CAUTION]
    >
@@ -122,23 +127,31 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->您必須有可用的測試設定檔，才能預覽訊息並傳送校樣。 了解如何在 [本頁](../building-journeys/creating-test-profiles.md).
+>您必須有可用的測試設定檔，才能預覽訊息並傳送校樣。 了解如何 [建立測試設定檔](../building-journeys/creating-test-profiles.md).
 
-1. 在登錄頁面介面或內容設計器中，按一下 **[!UICONTROL Preview & test]** 按鈕來存取測試設定檔選取項目。
+1. 在登錄頁面介面中，按一下 **[!UICONTROL Preview & test]** 按鈕來存取測試設定檔選取項目。
 
    ![](../assets/lp_preview-button.png)
 
-1. 選取一或多個測試設定檔。
+   >[!NOTE]
+   >
+   >此 **[!UICONTROL Preview]** 按鈕也可從內容設計器存取。
+
+1. 從 **[!UICONTROL Preview & test]** 螢幕上，選取一或多個測試設定檔。
 
    ![](../assets/lp_test-profiles.png)
 
    選取測試設定檔的步驟與測試訊息時的步驟相同。 詳細資訊於 [本節](../preview.md#select-test-profiles).
 
-1. 按一下 **[!UICONTROL Preview]** 標籤來測試您的登錄頁面。
+1. 選取 **[!UICONTROL Preview]** 按一下 **[!UICONTROL Open preview]** 來測試您的登錄頁面。
 
-   <!--![](../assets/lp_preview.png)-->
+   ![](../assets/lp_open-preview.png)
 
-1. 個人化元素會由選取的測試設定檔資料取代。 選取其他測試設定檔，以預覽登錄頁面每個變體的呈現。
+1. 登錄頁面的預覽會在新索引標籤中開啟。 個人化元素會由選取的測試設定檔資料取代。
+
+   ![](../assets/lp_preview.png)
+
+1. 選取其他測試設定檔，以預覽登錄頁面每個變體的呈現。
 
 ## 檢查警報 {#alerts}
 
@@ -156,7 +169,7 @@ ht-degree: 0%
 
 * **警告** 請參閱建議和最佳實務。 <!--For example, a message will display if -->
 
-* **錯誤** 只要訊息未解決，就無法發佈訊息。 例如，訊息會警告您主要頁面URL遺失。
+* **錯誤** 只要訊息未解決，就無法發佈訊息。 例如，如果主要頁面URL遺失，則會收到警告。
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 
@@ -181,7 +194,7 @@ ht-degree: 0%
 
 ## 發佈登錄頁面 {#publish}
 
-當您的登錄頁面準備就緒後，您可以發佈它，以便用於訊息或網站。
+登錄頁面準備就緒後，您就可以發佈它，以便在訊息中使用。
 
 ![](../assets/lp_publish.png)
 
@@ -191,4 +204,9 @@ ht-degree: 0%
 
 登錄頁面發佈後，就會以 **[!UICONTROL Published]** 狀態。
 
-它現在已上線，且連結可供 [訊息](../create-message.md) 並透過 [歷程](../building-journeys/journey.md).
+它現在已上線，且已準備好用於 [!DNL Journey Optimizer] [訊息](../create-message.md) 會透過 [歷程](../building-journeys/journey.md).
+
+>[!NOTE]
+>
+>您可以透過特定報告來監控登錄頁面的影響。 [了解更多](lp-report.md)
+

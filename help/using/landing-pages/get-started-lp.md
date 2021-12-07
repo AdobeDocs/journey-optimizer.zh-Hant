@@ -7,10 +7,11 @@ role: User
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '176'
+ht-degree: 3%
 
 ---
 
@@ -30,29 +31,26 @@ ht-degree: 0%
 
 <!--[!DNL Journey Optimizer] now allows you to:
 * Easily build landing pages to make users subscribe to your communications.
-* Set up opt-in and opt-out flows quickly and seamlessly.
+* Enable your customers to opt-in or opt-out from your communications.
 To move to RN-->
 
-[!DNL Journey Optimizer] 可讓您：
-
-* 運用 [!DNL Journey Optimizer] 內容設計功能，可輕鬆建立回應式登錄頁面。
-* 建立訂閱清單，讓使用者可訂閱服務。
-* 讓客戶選擇加入或選擇退出您的通訊。
-* 為收件者提供取消訂閱以免接收您的通信的功能。
+* 運用 [!DNL Journey Optimizer] 輕鬆構建內容設計功能 **回應式登錄頁面**.
+* 設定 **加入和退出流程** 快速無縫。
+* 建立訂閱清單以讓使用者 **訂閱服務**. [閱讀全文](lp-use-cases.md#subscription-to-a-service)
+* 將 **取消訂閱的功能** 接收你的通信。 [閱讀全文](lp-use-cases.md#opt-out)
+* 傳送 **確認電子郵件** 選擇加入或選擇退出時。 [閱讀全文](lp-use-cases.md#send-confirmation-email)
 
 <table>
 <tr>
 <td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">建立登錄頁面</a></p></td>
 <td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">建立訂閱清單</a></p></td>
 <td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">設計登錄頁面</a></p></td>
-<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">使用案例</a></p></td>
+<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="lp-report.md">報告</a></p></td>
 </tr>
 </table>
 
-<!--Easily build attractive/efficient landing pages to drive the best conversion.-->
+<!--
 
-<!--**Questions**
+<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Use cases</a></p></td>
 
-* Can you leverage **Adobe Experience Manager Assets Essentials** to enrich your landing pages' content?
-
-* Can you personalize LP ? > Enhance customers' experience by creating **personalized landing pages** based on their profile attributes.-->
+-->
