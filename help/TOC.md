@@ -190,10 +190,9 @@ ht-degree: 87%
       + [使用 Campaign v7/v8 傳送訊息](using/building-journeys/campaign-classic-use-case.md)
       + [使用自訂動作以動態方式傳遞集合](using/building-journeys/collections.md)
       + [傳送訊息給訂閱者](using/building-journeys/message-to-subscribers-uc.md)
-
       <!--
-    + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-    -->
+      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+      -->
 + 追蹤和監視 {#reporting}
    + [訊息監視](using/message-monitoring.md)
    + 即時報告 {#live-report}
