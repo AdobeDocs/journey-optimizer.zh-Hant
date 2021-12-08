@@ -7,16 +7,17 @@ role: User
 level: Intermediate
 hidefromtoc: true
 hide: true
-source-git-commit: 459bf9451ca86350713cf7f6d6977284b6d2eaf2
+exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
+source-git-commit: 8ec1420c29b2dd796441e2c08512b6378adb3fb1
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 登陸頁面報表 {#lp-report}
 
-訂閱報表會顯示登錄頁面影響的詳細資訊。 有兩種報表類型可供使用：
+登錄頁面報表會顯示登錄頁面影響的詳細資訊。 有兩種報表類型可供使用：
 
 * 此 **[!UICONTROL Live report]** 僅限過去24小時內測量並視覺化您的登錄頁面成功。
 
