@@ -8,9 +8,9 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 1db755ef3037ca743d86e229ab308e051bae8994
+source-git-commit: 847873b39476e3bd932f420a70c9dcac46de84f5
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '843'
 ht-degree: 13%
 
 ---
@@ -123,7 +123,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >請務必參考 **[!UICONTROL Form]** 元件 **[!UICONTROL Call to action]** 區段。 [了解更多](design-lp.md)
+   >請務必參考主要頁面 **[!UICONTROL Call to action]** 區段 **[!UICONTROL Form]** 元件。 [了解更多](design-lp.md)
 
 1. 設定並定義頁面內容後， [發佈](create-lp.md#publish) 登陸頁面。
 
@@ -147,7 +147,7 @@ ht-degree: 13%
 
    ![](../assets/lp_opt-out-submit-form.png)
 
-1. 在登錄頁面上，如果收件者核取方塊並提交表單：
+   如果收件者核取方塊並提交表單：
 
    * 退出的收件者會重新導向至確認訊息畫面。
 
