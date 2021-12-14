@@ -8,10 +8,10 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: 1db755ef3037ca743d86e229ab308e051bae8994
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 17%
+source-wordcount: '847'
+ht-degree: 13%
 
 ---
 
@@ -105,39 +105,53 @@ ht-degree: 17%
 
 ### 設定選擇退出 {#configure-opt-out}
 
-若要讓訊息的收件者透過登錄頁面取消訂閱您的通訊，請遵循下列步驟。
+若要讓電子郵件的收件者透過登錄頁面取消訂閱您的通訊內容，請遵循下列步驟。
 
-1. 建置 [登陸頁面](create-lp.md). 使用登錄頁面特定 **[!UICONTROL Form]** 元件，定義 **[!UICONTROL Opt-out]** 複選框和選擇更新 **[!UICONTROL Channel (email)]**:會從您的所有通訊中選擇退出，而會在您的登陸頁面上勾選退出方塊的設定檔。 [了解更多](design-lp.md)
+1. 建立您的登錄頁面。 [了解更多](create-lp.md)
+
+1. 定義主要頁面。 [了解更多](create-lp.md#configure-primary-page)
+
+1. [設計](design-lp.md) 主要頁面內容：使用登錄頁面特定 **[!UICONTROL Form]** 元件，定義 **[!UICONTROL Opt-out]** 複選框和選擇更新 **[!UICONTROL Channel (email)]**:會從您的所有通訊中選擇退出，而會在您的登陸頁面上勾選退出方塊的設定檔。
+
+   ![](../assets/lp_opt-out-primary-lp.png)
 
    <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
 
-1. 於[!DNL Journey Optimizer][建立訊息](../create-message.md)。
+1. 新增確認 [子頁面](create-lp.md#configure-subpages) 會顯示給提交表單的使用者。
+
+   ![](../assets/lp_opt-out-subpage.png)
+
+   >[!NOTE]
+   >
+   >請務必參考 **[!UICONTROL Form]** 元件 **[!UICONTROL Call to action]** 區段。 [了解更多](design-lp.md)
+
+1. 設定並定義頁面內容後， [發佈](create-lp.md#publish) 登陸頁面。
+
+   ![](../assets/lp_opt-out-publish.png)
+
+1. [建立電子郵件訊息](../create-message.md) in [!DNL Journey Optimizer].
 
 1. 選取內容中的文字，並 [插入連結](../message-tracking.md#insert-links) 使用內容工具列。 您也可以在按鈕上使用連結。
 
    ![](../assets/lp_opt-out-insert-link.png)
 
-1. 從&#x200B;**[!UICONTROL Link type]**&#x200B;下拉式清單中選取 **[!UICONTROL Landing page]**。
-
-1. 選取 [登陸頁面](create-lp.md#configure-primary-page) 您為選擇退出而建立的。
+1. 選擇 **[!UICONTROL Landing page]** 從 **[!UICONTROL Link type]** 下拉式清單，然後選取 [登陸頁面](create-lp.md#configure-primary-page) 您為選擇退出而建立的。
 
    ![](../assets/lp_opt-out-landing-page.png)
 
-1. 按一下「**[!UICONTROL Save]**」。
-
 1. 儲存您的內容並[發佈您的訊息](../publish-manage-message.md)。
 
-1. 透過 [歷程](../building-journeys/journey.md).
+1. 透過歷程傳送訊息。 [了解更多](../building-journeys/journey.md)。
 
-1. 收到訊息後，如果收件者按一下取消訂閱連結，就會顯示您的登陸頁面。
+1. 收到訊息後，如果收件者按一下電子郵件中的取消訂閱連結，則會顯示您的登錄頁面。
 
-   <!--![](../assets/lp_opt-out-lp-example.png)-->
+   ![](../assets/lp_opt-out-submit-form.png)
 
-1. 如果收件者按一下登錄頁面中的選擇退出連結，則會更新設定檔資料，除非再次訂閱，否則不會從您的品牌接收通訊。
+1. 在登錄頁面上，如果收件者核取方塊並提交表單：
 
-   <!--The opted-out recipient is then redirected to a confirmation message screen indicating that opting out was successful.-->
+   * 退出的收件者會重新導向至確認訊息畫面。
 
-   <!--![](../assets/lp_opt-out-confirmation-example.png)-->
+   * 設定檔資料會更新，除非再次訂閱，否則將不會從您的品牌接收通訊。
 
 若要檢查對應的設定檔選擇是否已更新，請前往 Experience Platform，並透過選取識別名稱空間和對應的識別值來存取設定檔。 了解更多 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}。
 
