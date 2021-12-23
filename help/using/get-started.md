@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 
 [!DNL Adobe Journey Optimizer] 是以原生方式建置[!DNL Adobe Experience Platform]，並結合統一的即時客戶設定檔、API 優先開放框架、集中式優惠決定、人工智慧 (AI) 和機器學習 (ML)，以進行個人化和最佳化。Journey Optimizer 可讓品牌在整個客戶歷程中，以規模、速度和彈性的方式，聰明地決定下一個最佳的互動方式。 透過[!DNL Adobe Journey Optimizer]，公司可以在相同應用程式中建立並傳送排程行銷活動 (例如零售商店的每週促銷活動) 和量身打造的個別通訊 (例如忠誠應用程式客戶可能已查看過該項目，且該項目先前無存貨的推播通知)。
 
-➡️ [探索Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target=&quot;_blank&quot;}（影片）
+➡️ [探索 Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=zh-Hant){target=&quot;_blank&quot;} (影片)
 
 
 ## 使用案例
@@ -53,7 +53,7 @@ ht-degree: 95%
 
 ## 架構
 
-了解 [!DNL Adobe Journey Optimizer]、整合點，以及 [!DNL Journey Optimizer] 與其他Adobe應用程式搭配。
+瞭解 [!DNL Adobe Journey Optimizer] 基本架構、整合點，以及 [!DNL Journey Optimizer] 與其他 Adobe 應用程式的關係。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
 
