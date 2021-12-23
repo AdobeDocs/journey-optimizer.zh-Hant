@@ -6,15 +6,15 @@ user-guide-description: 使用 Journey Optimizer 向客戶傳遞連結、情境�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '890'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Adobe Journey Optimizer說明 {#using}
+# Adobe Journey Optimizer 說明 {#using}
 
-+ [Journey Optimizer檔案](ajo-home.md)
++ [Journey Optimizer 文件](ajo-home.md)
 + 有什麼新功能？ {#whats-new}
    + [發行說明](using/release-notes.md)
    + [最新更新](using/documentation-updates.md)
@@ -24,8 +24,8 @@ ht-degree: 87%
       + [總覽](using/quick-start.md)
       + [行銷人員快速入門](using/path/marketer.md)
       + [資料工程師快速入門](using/path/data-engineer.md)
-      + [以管理員身分開始使用](using/path/administrator.md)
-      + [以開發人員身分開始使用](using/path/developer.md)
+      + [管理員快速入門](using/path/administrator.md)
+      + [開發人員快速入門](using/path/developer.md)
    + [使用者介面](using/user-interface.md)
    + [限制](using/limitations.md)
 + 訊息 {#create-messages}
@@ -34,7 +34,7 @@ ht-degree: 87%
       + [建立訊息](using/create-message.md)
       + [建立電子郵件](using/create-email.md)
       + [建立推播通知](using/create-push.md)
-      + [建立SMS訊息](using/create-sms.md)
+      + [建立 SMS 訊息](using/create-sms.md)
    + [新增及管理資產](using/assets-essentials.md)
    + 設計電子郵件 {#email-designer}
       + [開始使用電子郵件設計](using/design-emails.md)
@@ -51,11 +51,11 @@ ht-degree: 87%
    + [開始使用使用個人化](using/personalization/personalize.md)
    + [個人化語法](using/personalization/personalization-syntax.md)
    + [個人化驗證](using/personalization/personalization-validation.md)
-   + 使用實例{#personalization-use-cases}
+   + 使用案例{#personalization-use-cases}
       + [訂單狀態通知](using/personalization/personalization-use-case.md)
-      + [購物車放棄電子郵件](using/personalization/personalization-use-case-helper-functions.md)
+      + [放棄購物車電子郵件](using/personalization/personalization-use-case-helper-functions.md)
    + 輔助函式{#functions}
-      + [開始使用協助程式函式](using/personalization/functions/functions.md)
+      + [開始使用輔助函式](using/personalization/functions/functions.md)
       + [聚合函式](using/personalization/functions/aggregation.md)
       + [算術函式](using/personalization/functions/arithmetic-functions.md)
       + [陣列和清單功能](using/personalization/functions/arrays-list.md)
@@ -190,9 +190,10 @@ ht-degree: 87%
       + [使用 Campaign v7/v8 傳送訊息](using/building-journeys/campaign-classic-use-case.md)
       + [使用自訂動作以動態方式傳遞集合](using/building-journeys/collections.md)
       + [傳送訊息給訂閱者](using/building-journeys/message-to-subscribers-uc.md)
+
       <!--
-      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-      -->
+    + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+    -->
 + 追蹤和監視 {#reporting}
    + [訊息監視](using/message-monitoring.md)
    + 即時報告 {#live-report}
@@ -219,15 +220,15 @@ ht-degree: 87%
    + 傳遞能力 {#deliverability}
       + [開始使用傳遞能力](using/deliverability.md)
       + [隱藏清單](using/suppression-list.md)
-      + [允許的清單](using/allow-list.md)
+      + [允許清單](using/allow-list.md)
 + 登陸頁面 {#landing-pages}
-   + [開始使用登錄頁面](using/landing-pages/get-started-lp.md)
-   + [設定登陸頁面](using/landing-pages/create-lp.md)
-   + [設計登錄頁面](using/landing-pages/design-lp.md)
+   + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
+   + [建立登陸頁面](using/landing-pages/create-lp.md)
+   + [設計登陸頁面](using/landing-pages/design-lp.md)
    + [建立訂閱清單](using/landing-pages/subscription-list.md)
    + [使用案例](using/landing-pages/lp-use-cases.md)
    + 報告 {#lp-reporting}
-      + [登錄頁面報告](using/landing-pages/lp-report.md)
+      + [登陸頁面報告](using/landing-pages/lp-report.md)
       + [訂閱清單報告](using/landing-pages/subscription-report.md)
 + 決定管理 {#offer-decisioniong}
    + 開始使用決定管理 {#get-started}
@@ -249,7 +250,7 @@ ht-degree: 87%
       + [建立決定](using/offers/offer-activities/create-offer-activities.md)
       + [設定決定中的優惠選擇](using/offers/offer-activities/configure-offer-selection.md)
       + [建立模擬](using/offers/offer-activities/simulation.md)
-   + 建立決策管理報表 {#create-reports}
+   + 建立決定管理報告 {#create-reports}
       + [開始使用決定管理事件](using/offers/reports/get-started-events.md)
       + [決定管理事件重要資訊](using/offers/reports/key-information.md)
       + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
@@ -324,7 +325,7 @@ ht-degree: 87%
             + [委派子網域](using/configuration/delegate-subdomain.md)
             + [存取委派的子網域](using/configuration/access-subdomains.md)
             + [新增 Google TXT 記錄](using/configuration/google-txt.md)
-            + [訪問和編輯PTR記錄](using/configuration/ptr-records.md)
+            + [存取和編輯 PTR 記錄](using/configuration/ptr-records.md)
          + [建立 IP 池](using/configuration/ip-pools.md)
          + 監視電子郵件地址 {#monitor-reputation}
             + [管理隱藏清單](using/configuration/manage-suppression-list.md)
