@@ -1,20 +1,20 @@
 ---
 keywords: Journey Optimizer;首頁;熱門主題
 title: Journey Optimizer 產品文件
-description: Adobe Journey Optimizer產品說明中心
+description: Adobe Journey Optimizer 產品說明中心
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '202'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
-# Adobe [!DNL Journey Optimizer] 檔案 {#cjm-documentation}
+# Adobe [!DNL Journey Optimizer] 文件 {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
 
@@ -28,7 +28,7 @@ ht-degree: 40%
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">什麼是[!DNL Journey Optimizer]？</a>
+      <a href="using/get-started.md">什麼是 [!DNL Journey Optimizer]？</a>
     </div>
     <p>探索主要功能和使用案例
     <p>
@@ -38,42 +38,42 @@ ht-degree: 40%
     <p>新功能、最新改進項目和修正
    <p>
     <div>
-      <a href="using/quick-start.md">快速入門手冊</a>
+      <a href="using/quick-start.md">快速入門指南</a>
     </div>
     <p>
-    了解如何以管理員、資料工程師或Journey實務人員的身分開始
+    了解如何以管理員、資料工程師或 Journey 實作人員的身分開始
     <p>
     <p>
     <div>
       <a href="using/design-emails.md">設計電子郵件內容</a>
     </div>
     <p>
-    設計新電子郵件或匯入現有HTML內容
+    設計新電子郵件或匯入現有 HTML 內容
     <p>
     <div>
       <a href="using/building-journeys/journeys-message.md">傳送訊息</a>
     </div>
-    <p>了解如何在客戶歷程中新增推送訊息和電子郵件訊息
+    <p>瞭解如何在客戶歷程中新增推播和電子郵件訊息
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">建立您的第一個歷程</a>
     </div>
-    <p>了解如何建立及執行歷程
+    <p>了解如何建置並執行歷程
     <p>
     <div>
     <a href="using/configuration/get-started-configuration.md">設定 [!DNL Journey Optimizer]</a>
     </div>
-    <p>了解設定的關鍵步驟 [!DNL Journey Optimizer]
+    <p>了解設定 [!DNL Journey Optimizer] 的關鍵步驟
     <p>
     <div>
-    <a href="using/administration/permissions-overview.md">授予 [!DNL Journey Optimizer]</a> 的存取權限 
+    <a href="using/administration/permissions-overview.md">授予 [!DNL Journey Optimizer]</a> 存取權限 
     </div>
-    <p>定義並管理指派給 [!DNL Journey Optimizer] 使用者
+    <p>定義並管理指派給 [!DNL Journey Optimizer] 使用者的權限
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">決定管理</a>
     </div>
-    <p>建立優惠方案，並將最佳優惠方案和體驗提供給客戶
+    <p>建立優惠，並為客戶提供最佳優惠和體驗
     <p>
     <p>
     <div><strong>其他資源</strong>
@@ -82,7 +82,7 @@ ht-degree: 40%
     <p>
     <div>
     <li>
-      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Adobe Journey Optimizer產品說明</a>
+      <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Adobe Journey Optimizer 產品說明</a>
     </li>
     </div>
     <div>
@@ -115,7 +115,7 @@ ht-degree: 40%
       <a href="using/create-message.md">訊息</a>
     </li>
     <p>
-    <p>決策管理</p>
+    <p>決定管理</p>
     <li>
       <a href="using/offers/get-started/starting-offer-decisioning.md">優惠方案</a>
     </li>
@@ -125,12 +125,12 @@ ht-degree: 40%
     <p>
     <p>內容管理</p>
     <li>
-      <a href="using/assets-essentials.md">Assets</a>
+      <a href="using/assets-essentials.md">資產</a>
     </li>
     <p>
     <p>資料管理</p>
     <li>
-      <a href="using/get-started-schemas.md">結構描述</a>
+      <a href="using/get-started-schemas.md">方案</a>
     </li>
      <li>
       <a href="using/get-started-datasets.md">資料集</a>
@@ -139,7 +139,7 @@ ht-degree: 40%
       <a href="using/get-started-queries.md">查詢</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hant" target="_blank">監控</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hant" target="_blank">監視</a>
     </li>
     <p>
     <p>連線</p>
