@@ -7,19 +7,19 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 1eb7e547019446ea946f7475730b01368f6a15eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1459'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 # 使用者介面 {#cjm-user-interface}
 
-連線至 [Adobe Experience Cloud](http://experience.adobe.com) 並瀏覽 [!DNL Journey Optimizer].
+連線至 [Adobe Experience Cloud](http://experience.adobe.com) 並瀏覽至 [!DNL Journey Optimizer]。
 
-瀏覽使用者介面時的重要概念與 Adobe Experience Platform 相同。請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}以取得詳細資訊。
+瀏覽使用者介面時的重要概念與 Adobe Experience Platform 相同。如需詳細資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hant#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}。
 
-使用者介面中可用的元件和功能視您的 [權限](administration/permissions.md) 和 [授權套件](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}。 如有任何問題，請聯絡您的 Adobe 客戶成功經理。
+可用的 UI 元件及功能取決於您的[權限](administration/permissions.md)和[授權套件](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}。如有任何問題，請聯絡您的 Adobe 客戶成功經理。
 
 >[!NOTE]
 >
@@ -44,47 +44,47 @@ ht-degree: 66%
 
 **[!UICONTROL JOURNEY MANAGEMENT]**
 
-* **[!UICONTROL Journeys]** - 建立、設定和協調客戶歷程。[了解更多](building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL Journeys]** - 建立、設定和協調客戶歷程。[進一步了解](building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]** - 建立、設計、測試和發佈電子郵件和推播訊息。[了解更多](create-message.md)
+* **[!UICONTROL Messages]** - 建立、設計、測試及發佈電子郵件和推播訊息。[進一步了解](create-message.md)
 
 **[!UICONTROL DECISION MANAGEMENT]**
 
 * **[!UICONTROL Offers]** - 從此功能表存取您最近的資源和資料集。使用此區段建立新優惠。 [了解更多](offers/offer-library/creating-personalized-offers.md)
 
-* **[!UICONTROL Components]** - 建立位置、規則和標記。[了解更多](offers/offer-library/key-steps.md)
+* **[!UICONTROL Components]** - 建立位置、規則和標記。[進一步了解](offers/offer-library/key-steps.md)
 
 **[!UICONTROL CONTENT MANAGEMENT]**
 
-* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] 為資產集中存放庫，可用來填入訊息。[了解更多](assets-essentials.md)
+* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] 為資產集中存放庫，可用來填入訊息。[進一步了解](assets-essentials.md)
 
 **[!UICONTROL DATA MANAGEMENT]**
 
-* **[!UICONTROL Schemas]** - 使用 Adobe Experience Platform 在「方案編輯器」這個互動式視覺畫布中建立和管理體驗資料模型 (XDM) 方案。[了解更多](get-started-schemas.md)
+* **[!UICONTROL Schemas]** - 使用 Adobe Experience Platform 在稱為「方案編輯器」的互動式視覺畫布中建立並管理體驗資料模型 (XDM) 方案。[進一步了解](get-started-schemas.md)
 
-* **[!UICONTROL Datasets]** - 所有內嵌至 Adobe Experience Platform 的資料都會以資料集的形式保留在資料湖中。資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄 (列) 的表格。 [了解更多](get-started-datasets.md)
+* **[!UICONTROL Datasets]** - 所有內嵌至 Adobe Experience Platform 的資料都會以資料集的形式保留在資料湖中。資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄 (列) 的表格。 [進一步了解](get-started-datasets.md)
 
-* **[!UICONTROL Queries]** - 使用 Adobe Experience Platform 查詢服務來寫入和執行查詢、檢視以前執行的查詢，以及存取由您組織內的使用者儲存的查詢。[了解更多](get-started-queries.md)
+* **[!UICONTROL Queries]** - 使用 Adobe Experience Platform 查詢服務來寫入和執行查詢、檢視過去執行的查詢，存取組織內使用者儲存的查詢。[進一步了解](get-started-queries.md)
 
-* **[!UICONTROL Monitoring]** - 使用此功能表監視 Adobe Experience Platform 使用者介面中的資料擷取。[深入了解](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hant){target=&quot;_blank&quot;}
+* **[!UICONTROL Monitoring]** - 使用此功能表在 Adobe Experience Platform 使用者介面中監視資料擷取。[進一步了解](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
 **[!UICONTROL CONNECTIONS]**
 
-* **[!UICONTROL Sources]** - 使用此功能表從多種來源 (例如 Adobe 應用程式、雲端儲存、資料庫等) 擷取資料，並建構、標示和增強傳入資料。[了解更多](get-started-sources.md)
+* **[!UICONTROL Sources]** - 使用此功能表從多種來源 (例如 Adobe 應用程式、雲端儲存、資料庫等) 擷取資料，並建構、標示和增強傳入資料。[進一步了解](get-started-sources.md)
 
 **[!UICONTROL CUSTOMER]**
 
-* **[!UICONTROL Segments]** - 建立和管理 Experience Platform 區段定義，並將它們運用在您的歷程中。[了解更多](segment/about-segments.md)
+* **[!UICONTROL Segments]** - 建立和管理 Experience Platform 區段定義，並將它們運用在您的歷程中。[進一步了解](segment/about-segments.md)
 
-* **[!UICONTROL Profiles]** - 即時客戶設定檔可為個別客戶建立整體檢視，並結合來自多個管道的資料，包括線上、離線、CRM 和第三方資料。[了解更多](get-started-profiles.md)
+* **[!UICONTROL Profiles]** - 即時客戶設定檔可為個別客戶建立整體檢視，並結合來自多個管道的資料，包括線上、離線、CRM 和第三方資料。[進一步了解](get-started-profiles.md)
 
-* **[!UICONTROL Identities]** - Adobe Experience Platform 身分服務以 Adobe Experience Platform 內稱為身分圖表的方式，管理跨裝置、跨頻道及近乎即時的客戶身分識別。[了解更多](get-started-identity.md)
+* **[!UICONTROL Identities]** - Adobe Experience Platform 身分服務透過 Adobe Experience Platform 的身分圖表，管理跨裝置、跨頻道及幾乎即時的客戶身分識別。[進一步了解](get-started-identity.md)
 
 **[!UICONTROL ADMINISTRATION]**
 
 * **[!UICONTROL Journey Administration]** - 使用此選單來設定 [事件](event/about-events.md)、[資料來源](datasource/about-data-sources.md)和[動作](action/action.md) ，以用於您的歷程。
 
-* **[!UICONTROL Sandboxes]** - Adobe Experience 提供的 sandbox 可將單一執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。[了解更多](administration/sandboxes.md)
+* **[!UICONTROL Sandboxes]** - Adobe Experience 提供的 sandbox 可將單一執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。[進一步了解](administration/sandboxes.md)
 
 <!--
 * **[!UICONTROL Alerts]** - The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
@@ -98,9 +98,9 @@ ht-degree: 66%
 
 可用的使用案例包括：
 
-* **建立測試設定檔**，以使用我們的 CSV 範本建立測試設定檔，以測試個人化訊息和歷程。了解如何實作此使用案例 [本頁](building-journeys/creating-test-profiles.md#use-case-1).
+* **建立測試設定檔**，以使用我們的 CSV 範本建立測試設定檔，以測試個人化訊息和歷程。在[本頁面](building-journeys/creating-test-profiles.md#use-case-1)瞭解如何實施此使用案例。
 * **傳送生日訊息給客戶**，以自動傳送電子郵件祝賀客戶生日。(即將推出)
-* **向上線新客戶發送電子郵件**，輕鬆傳送最多兩封電子郵件以歡迎您新註冊的客戶。 (即將推出)
+* **傳送電子郵件以吸引新客戶**，輕鬆傳送最多兩封電子郵件來歡迎新註冊的客戶。(即將推出)
 * **傳送推播訊息至匯入的客戶清單**，以快速將推播通知傳送至從 CSV 檔案匯入的客戶清單。(即將推出)
 
 按一下&#x200B;**[!UICONTROL View details]**&#x200B;以進一步瞭解每個使用案例。
@@ -111,27 +111,27 @@ ht-degree: 66%
 
 ## 協助工具{#accessibility}
 
-中的協助工具功能 [!DNL Adobe Journey Optimizer] 繼承自Adobe Experience Platform:
+[!DNL Adobe Journey Optimizer] 中的協助工具功能繼承自 Adobe Experience Platform：
 
 * 鍵盤協助工具
 * 顏色對比
 * 驗證必填欄位
 
-[深入了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html)Adobe Experience Platform檔案中的{target=&quot;_blank&quot;}。
+在 Adobe Experience Platform 文件中[進一步了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
-您可以在 [!DNL Journey Optimizer]:
+您可以在 [!DNL Journey Optimizer] 使用這些常見的鍵盤快速鍵：
 
 | 動作 | 快速鍵 |
 | --- | --- |
-| 在使用者介面元素、區段和功能表群組之間移動 | 標記 |
-| 在使用者介面元素、區段和功能表群組之間向後移動 | Shift + Tab |
-| 在區段內移動以將焦點設定為個別元素 | 箭頭 |
+| 在使用者介面元素、區段和功能表群組之間移動 | Tab 鍵 |
+| 在使用者介面元素、區段和功能表群組之間向後移動 | Shift + Tab 鍵 |
+| 在區段內移動並將焦點設定為個別元素 | 箭頭 |
 | 選取或清除焦點中的元素 | 輸入或空格鍵 |
-| 取消選取、折疊面板或關閉對話方塊 | Esc |
+| 取消選取、折疊面板或關閉對話方塊 | Esc 鍵 |
 
-[深入了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html)Adobe Experience Platform檔案中的{target=&quot;_blank&quot;}。
+在 Adobe Experience Platform 文件中[進一步了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
-您可以在Journey Optimizer的特定部分使用下列捷徑：
+您可以在 Journey Optimizer 的特定部分使用下列快速鍵：
 
 <table>
   <thead>
@@ -148,12 +148,12 @@ ht-degree: 66%
   </tr>
   <tr>
     <td rowspan="3">草稿狀態的歷程畫布</td>
-    <td>從左側浮動視窗的第一個可用位置（從上到下）新增活動</td>
-    <td>連按兩下活動</td>
+    <td>從左側色盤的第一個可用位置 (從上到下) 新增活動</td>
+    <td>在活動上按兩下</td>
   </tr>
   <tr>
     <td>選取所有活動</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+    <td>Ctrl + A (Windows)<br/> Command + A (Mac)</td>
   </tr>
   <tr>
     <td>刪除選取的活動</td>
@@ -162,7 +162,7 @@ ht-degree: 66%
   <tr>
   <td rowspan="3">
 
-這些元素的配置窗格：
+這些元素的設定窗格：
 
 <ul>
   <li>歷程中的活動</li>
@@ -173,29 +173,29 @@ ht-degree: 66%
 
 </td>
     <td>移至下一個要設定的欄位</td>
-    <td>標記</td>
+    <td>Tab 鍵</td>
   </tr>
   <tr>
     <td>儲存變更並關閉設定窗格</td>
-    <td>輸入</td>
+    <td>Enter 鍵</td>
   </tr>
   <tr>
-    <td>放棄更改並關閉配置窗格</td>
-    <td>Esc</td>
+    <td>放棄變更並關閉設定窗格</td>
+    <td>Esc 鍵</td>
   </tr>
   <tr>
-    <td rowspan="4">在測試模式中的歷程</td>
-    <td>啟用或禁用測試模式</td>
+    <td rowspan="4">測試模式中的歷程</td>
+    <td>啟用或停用測試模式</td>
     <td>T</td>
   </tr>
   <tr>
-    <td>觸發事件型歷程中的事件</td>
+    <td>觸發事件歷程中的事件</td>
     <td>E</td>
   </tr>
   <tr>
     <td>
 
-在以區段為基礎的歷程中觸發事件，其 **[!UICONTROL Single profile at a time]** 選項
+在區段型歷程中觸發事件，其 **[!UICONTROL Single profile at a time]** 選項為開啟
 
 </td>
     <td>P</td>
@@ -214,31 +214,31 @@ ht-degree: 66%
   <tr>
     <td>文字欄位</td>
     <td>選取所選欄位中的所有文字</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+    <td>Ctrl + A (Windows)<br/> Command + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">快顯視窗</td>
     <td>儲存變更或確認動作</td>
-    <td>輸入</td>
+    <td>Enter 鍵</td>
   </tr>
   <tr>
     <td>關閉視窗</td>
-    <td>Esc</td>
+    <td>Esc 鍵</td>
   </tr>
   <tr>
-    <td>簡單運算式編輯器</td>
+    <td>簡易運算式編輯器</td>
     <td>選取並新增欄位</td>
-    <td>按兩下欄位</td>
+    <td>在欄位上按兩下</td>
   </tr>
   <tr>
-    <td>瀏覽XDM欄位</td>
+    <td>瀏覽 XDM 欄位</td>
     <td>選取節點的所有欄位</td>
-    <td>選擇父節點</td>
+    <td>選擇上層節點</td>
   </tr>
   <tr>
-    <td>裝載預覽</td>
-    <td>選取裝載</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+    <td>內容預覽</td>
+    <td>選取內容</td>
+    <td>Ctrl + A (Windows)<br/> Command + A (Mac)</td>
   </tr>
 </table>
 
@@ -274,13 +274,13 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ## 搜尋{#unified-search}
 
-從Adobe Journey Optimizer介面的任何位置，都可使用頂端列中央的Unified Adobe Experience Cloud搜尋功能，在沙箱中尋找資產、歷程、資料集、訊息等。
+在 Adobe Journey Optimizer 介面任意處，使用頂端列中央的 Adobe Experience Cloud 搜尋功能，在您的沙盒中尋找資產、歷程、資料集和訊息等。 
 
-開始輸入內容以顯示排名最前的結果。輸入關鍵字的相關說明文章也會顯示在結果中。
+開始輸入內容以顯示排名最前的結果。有關輸入關鍵字的說明文章也會顯示在結果中。
 
 ![](assets/unified-search.png)
 
-Press **輸入** 訪問所有結果並按業務對象進行篩選。
+請按下 **Enter** 以存取所有結果，並按業務對象進行篩選。
 
 ![](assets/search-and-filter.png)
 
@@ -290,7 +290,7 @@ Press **輸入** 訪問所有結果並按業務對象進行篩選。
 
 按一下清單左上方的篩選圖示，即可存取篩選器 。篩選功能表可讓您根據不同的條件篩選顯示的元素。您可以選擇僅顯示某一類型或狀態的元素、您建立的元素，或者在過去 30 天內修改的元素。選項會因內容而異。
 
-在歷程清單中，您可以根據歷程的狀態、類型和版本，從 **[!UICONTROL Status and version filters]**. 類型可以是： **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** 或 **[!UICONTROL Burst]**. 您可以選擇只顯示使用來自&#x200B;**[!UICONTROL Activity filters]** 與 **[!UICONTROL Data filters]**&#x200B;的特定事件、欄位群組或動作的歷程。**[!UICONTROL Publication filters]**&#x200B;可讓您選擇出版物日期或使用者。 舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。[了解更多](building-journeys/using-the-journey-designer.md)。
+在歷程清單中，您可以根據歷程的狀態、類型和版本從 **[!UICONTROL Status and version filters]** 篩選歷程。 類型可以是： **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**、**[!UICONTROL Read segment]**、**[!UICONTROL Business event]** 或 **[!UICONTROL Burst]**。您可以選擇只顯示使用來自&#x200B;**[!UICONTROL Activity filters]** 與 **[!UICONTROL Data filters]**&#x200B;的特定事件、欄位群組或動作的歷程。**[!UICONTROL Publication filters]**&#x200B;可讓您選擇出版物日期或使用者。 舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。[了解更多](building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
