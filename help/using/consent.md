@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '814'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 * 若未遵守這些法規，您的品牌將面臨法律風險。
 * 它可協助您避免傳送未經請求的通訊給您的收件者，這可能會使他們將您的訊息標示為垃圾訊息，並損害您的聲譽。
 
-深入了解管理隱私權及 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target=&quot;_blank&quot;} 中進一步瞭解隱私權管理和相關法規。
 
 <!--* Recipients should be able to opt-in/opt-out from receiving electronic communication through one or more channel
 * Recipients expect the brand to offer preference centre capability that controls how brand should engage with them (example: channel of communication, invasive and non-invasive tracking etc). This helps to fulfil regulatory obligations and also facilitates quality engagement with recipient. 
@@ -32,7 +32,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 ## 選擇退出管理 {#opt-out-management}
 
-為接收者提供取消訂閱來自品牌之通訊的能力為法律所規定。 深入了解 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target=&quot;_blank&quot;}。
+法律規定必須讓收件者提供能夠取消訂閱來自品牌的通訊。 進一步了解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hant){target=&quot;_blank&quot;} 中的適用法規。
 
 因此，您必須在每封寄送給收件者的電子郵件中一律包含&#x200B;**取消訂閱連結**：
 
@@ -45,7 +45,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 1. 建立您的取消訂閱登陸頁面。
 
-1. 在您所選擇的協力廠商系統上托管。
+1. 在選擇的協力廠商系統進行託管。
 
 1. 於[!DNL Journey Optimizer][建立訊息](../../help/using/create-message.md)。
 
@@ -59,7 +59,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
    ![](assets/opt-out-link-type.png)
 
-1. 在 **[!UICONTROL Link]** 欄位中，將連結貼上至您的登錄頁面。
+1. 在&#x200B;**[!UICONTROL Link]**&#x200B;欄位貼上登陸頁面的連結。
 
    ![](assets/opt-out-link-url.png)
 
@@ -85,7 +85,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
    因此，除非再次訂閱，否則此使用者將不會收到您品牌的通訊。
 
-若要檢查對應的設定檔選擇是否已更新，請前往 Experience Platform，並透過選取識別名稱空間和對應的識別值來存取設定檔。 了解更多 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}。
+若要檢查對應的設定檔選擇是否已更新，請前往 Experience Platform，並透過選取識別名稱空間和對應的識別值來存取設定檔。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}中進一步瞭解。
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -139,13 +139,13 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice.
 <!--and provide an answer back to the landing page.-->
 
-## 按一下選擇退出 {#one-click-opt-out}
+## 一鍵選擇退出 {#one-click-opt-out}
 
-由於許多客戶都在尋找更輕鬆的取消訂閱程式，您也可以在電子郵件內容中新增一鍵式選擇退出連結。 此連結可讓您的收件者快速取消訂閱您的通訊內容，而無需重新導向至需要確認選擇退出的登錄頁面。
+由於許多客戶都在尋找更輕鬆的取消訂閱流程，您也可以在電子郵件內容中加入一鍵選擇退出的連結。 此連結可讓您的收件者快速取消訂閱您的通訊內容，無需重新導向至需要確認選擇退出的登陸頁面。
 
-了解如何在 [本節](message-tracking.md#one-click-opt-out-link).
+在 [本節](message-tracking.md#one-click-opt-out-link)瞭解如何在您的訊息內容加入選擇退出的連結。
 
-透過 [歷程](building-journeys/journey.md)，如果收件者按一下選擇退出連結，則會立即選擇退出其設定檔。
+一旦經由[歷程](building-journeys/journey.md)傳送您的訊息後，如果收件者按一下選擇退出的連結，則會立即選擇退出其設定檔。
 
 ## 標題中的取消訂閱連結 {#unsubscribe-email}
 
@@ -157,7 +157,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 根據電子郵件用戶端，從標題按一下取消訂閱連結將產生下列其中一項影響：
 
-* 對應的設定檔會立即退出，而此選項會在 Experience Platform 中更新。 了解更多 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}。
+* 對應的設定檔會立即退出，而此選項會在 Experience Platform 中更新。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}中進一步瞭解 。
 
 * 其效果與從電子郵件內容按一下取消訂閱連結相同：收件者會重新導向至包含按鈕的登陸頁面，以確認選擇退出。 進一步瞭解[本章節](#opt-out-management)中的選擇退出管理。
 
