@@ -3,10 +3,10 @@ title: Journey Optimizer系統管理員快速入門
 description: 身為系統管理員，了解如何使用Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
+source-git-commit: 168579f8f560756282cb8ae8cb82a10e1227af02
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 3%
+source-wordcount: '705'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 As a **系統管理員**，您需要 **了解產品設定檔並指派權限** 用於沙箱管理和通道設定。 您也需要設定沙箱，並針對可用的產品設定檔進行管理。 然後，您便能將團隊成員指派給產品設定檔。
 
-這些功能可由管理 **[!UICONTROL Product administrators]** 具有Admin Console存取權限。 [深入了解Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html){target=&quot;_blank&quot;}。
+這些功能可由管理 **[!UICONTROL Product administrators]** 具有Admin Console存取權限。 [深入了解Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/admin-guide.html){target=&quot;_blank&quot;}。
 
 請前往下列頁面，了解存取管理：
 
@@ -32,8 +32,10 @@ As a **系統管理員**，您需要 **了解產品設定檔並指派權限** �
 
 1. **設定權限** 針對產品設定檔，包括 **沙箱**，並將團隊成員指派至不同的產品設定檔，以授予其存取權。 此步驟會在 [Admin Console](https://adminconsole.adobe.com/){_blank}。 權限是統一權限，允許您定義分配給的授權 **[!UICONTROL Product profile]**. 每個權限都是透過功能（例如歷程、訊息或選件）收集，這些功能代表中的不同功能或物件 [!DNL Journey Optimizer]. 了解更多 [權限層級](../administration/high-low-permissions.md) 區段。
 
+此外，您必須將需要存取Assets Essentials的使用者新增至 **Assets Essentials消費者使用者** 或/和 **Assets Essentials使用者** 產品設定檔。 [如需詳細資訊，請參閱Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
 
-此外，您必須 **部署[!DNL Adobe Experience Manager Assets Essentials]** 若要管理訊息中的資產和影像：需要存取權的使用者 [!DNL Assets Essentials] 必須是 **Assets Essentials消費者使用者** 或/和 **Assets Essentials使用者** 產品設定檔。 [如需詳細資訊，請參閱Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
+>[!NOTE]
+>針對2022年1月6日之前取得的Journey Optimizer產品，您必須部署 [!DNL Adobe Experience Manager Assets Essentials] 貴組織。 了解更多 [部署Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}區段。
 
 存取 [!DNL Journey Optimizer] 系統會首次布建生產沙箱，並根據您的合約分配特定數量的IP。
 
@@ -46,17 +48,17 @@ As a **系統管理員**，您需要 **了解產品設定檔並指派權限** �
 
 1. **設定訊息和通道**:定義預設集、調整和自訂電子郵件和推播訊息設定
 
-   * 定義 **推播通知設定** 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]. [了解更多](../push-gs.md)
+   * 定義 **推播通知設定** 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]. [進一步了解](../push-gs.md)
 
-   * 建立 **訊息預設集** 設定電子郵件和推播通知訊息所需的所有技術參數。 [了解更多](../configuration/message-presets.md)
+   * 建立 **訊息預設集** 設定電子郵件和推播通知訊息所需的所有技術參數。 [進一步了解](../configuration/message-presets.md)
 
-   * 管理 **重試** 會先執行，再將電子郵件地址傳送至隱藏清單。 [了解更多](../configuration/manage-suppression-list.md)
+   * 管理 **重試** 會先執行，再將電子郵件地址傳送至隱藏清單。 [進一步了解](../configuration/manage-suppression-list.md)
 
-1. **委派子網域**:若要在Journey Optimizer中使用任何新子網域，第一步是將其委派。 [了解更多](../configuration/about-subdomain-delegation.md)
+1. **委派子網域**:若要在Journey Optimizer中使用任何新子網域，第一步是將其委派。 [進一步了解](../configuration/about-subdomain-delegation.md)
 
    ![](../assets/subdomain.png)
 
-1. **建立IP池**:將與您執行個體布建的IP位址分組，以改善電子郵件傳遞能力和信譽。 [了解更多](../configuration/ip-pools.md)
+1. **建立IP池**:將與您執行個體布建的IP位址分組，以改善電子郵件傳遞能力和信譽。 [進一步了解](../configuration/ip-pools.md)
 
    ![](../assets/ip-pool.png)
 

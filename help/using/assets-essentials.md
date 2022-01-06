@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 4b7cfedbc5f2c724e28e5e6e0ab7e0d2f40dccac
+source-git-commit: 168579f8f560756282cb8ae8cb82a10e1227af02
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '366'
+ht-degree: 3%
 
 ---
 
@@ -19,11 +19,10 @@ ht-degree: 1%
 
 [!DNL Adobe Experience Manager Assets Essentials] 提供單一的集中資產存放庫，供您用來填入訊息。 可直接從 [!DNL Adobe Journey Optimizer] 通過 **[!UICONTROL Assets]** 區段。 設計電子郵件內容時，您也可以存取資產和資料夾。 [深入了解電子郵件設計](design-emails.md).
 
->[!NOTE]
->
-> 使用 [!DNL Adobe Experience Manager Assets Essentials]，您需要部署 [!DNL Assets Essentials] 確認需要存取 [!DNL Assets Essentials]，是 **Assets Essentials消費者使用者** 或/和 **Assets Essentials使用者** 產品設定檔。 <br> 有關詳細資訊，請參閱 [頁面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
+使用前 [!DNL Adobe Experience Manager Assets Essentials]，您必須將使用者新增至 **Assets Essentials消費者使用者** 或/和 **Assets Essentials使用者** 產品設定檔。 [如需詳細資訊，請參閱Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
 
-有關 [!DNL Assets Essentials]，請參閱 [Adobe Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}。
+>[!NOTE]
+>針對2022年1月6日之前取得的Journey Optimizer產品，您必須部署 [!DNL Adobe Experience Manager Assets Essentials] 貴組織。 了解更多 [部署Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}區段。
 
 ## 上傳和插入資產{#add-asset}
 
@@ -55,7 +54,7 @@ ht-degree: 1%
 
 1. 上傳資產後，您現在可以透過電子郵件設計工具，將資產插入其中一則訊息中。
 
-   您的資產也可以透過 **編輯** 模式 [!DNL Assets Essentials]. [深入了解](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target=&quot;_blank&quot;}。
+   您的資產也可以透過 **編輯** 模式 [!DNL Assets Essentials]. [進一步了解](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target=&quot;_blank&quot;}.
 
    ![](assets/media_library_12.png)
 
