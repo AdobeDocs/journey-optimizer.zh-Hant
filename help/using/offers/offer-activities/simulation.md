@@ -1,33 +1,33 @@
 ---
 title: 建立模擬
-description: 了解如何建立模擬
+description: 瞭解如何建立模擬
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 899b8b47d6c6121c19e485376de368358049c05f
+exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
+source-git-commit: 39b52f39ec19c185d2cd95634a60e37f62a66f83
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 0%
+source-wordcount: '480'
+ht-degree: 1%
 
 ---
-
 
 # 建立模擬
 
 ## 關於模擬
 
-若要驗證決策邏輯，您可以模擬哪些選件將傳遞至指定位置的測試設定檔。
+要驗證您的決策邏輯，您可以模擬將哪些優惠交付給給定位置的test配置檔案。
 
 <!--Simulation allows you to view the results of offer decisions as a selected profile.-->
 
-這可讓您測試和調整各種優惠方案版本，而不會影響目標收件者。
+這使您能夠test和改進您提供的各種版本，而不會影響目標收件人。
 
 >[!NOTE]
 >
->此功能可模擬 [!DNL Decisions] API。 深入了解 [使用決策API傳送優惠方案](../api-reference/decisions-api/deliver-offers.md).
+>此功能將單個請求模擬到 [!DNL Decisions] API。 瞭解更多 [使用決策API提供服務](../api-reference/decisions-api/deliver-offers.md)。
 
-若要存取此功能，請選取 **[!UICONTROL Simulation]** 標籤 **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** 功能表。
+要訪問此功能，請選擇 **[!UICONTROL Simulation]** 的 **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** 的子菜單。
 
 ![](../../assets/offers_simulation-tab.png)
 
@@ -35,116 +35,202 @@ ht-degree: 0%
 ➡️ [Discover this feature in video](#video)
 -->
 
-## 選取測試設定檔
+## 選擇test配置檔案
 
-首先，您需要選取要用於模擬的測試設定檔。
+首先，您需要選擇要用於模擬的test配置檔案。
 
 1. 按一下「**[!UICONTROL Manage profile]**」。
 
    ![](../../assets/offers_simulation-manage-profile.png)
 
-1. 選取您要用來識別測試設定檔的身分命名空間。 在此範例中，我們將使用 **電子郵件** 命名空間。
+1. 選擇要用於標識test配置檔案的標識命名空間。 在此示例中，我們將使用 **電子郵件** 命名空間。
 
    >[!NOTE]
    >
-   >身分命名空間會定義識別碼的內容，例如電子郵件地址或CRM ID。 深入了解Adobe Experience Platform身分識別命名空間 [在本節](../../get-started-identity.md){target=&quot;_blank&quot;}。
+   >標識命名空間定義標識符的上下文，如電子郵件地址或CRM ID。 瞭解有關Adobe Experience Platform標識命名空間的詳細資訊 [此部分](../../get-started-identity.md){target=&quot;_blank&quot;}。
 
-1. 輸入身分值，然後按一下 **[!UICONTROL View]** 以列出可用的設定檔。
+1. 輸入標識值，然後按一下 **[!UICONTROL View]** 清單可用的配置檔案。
 
    ![](../../assets/offers_simulation-add-profile.png)
 
-1. 如果您想要測試不同的設定檔資料，請新增其他設定檔，並儲存您的選取項目。
+1. 如果要test不同的配置檔案資料，則添加其他配置檔案，並保存您的選擇。
 
    ![](../../assets/offers_simulation-save-profiles.png)
 
-1. 新增後，所有設定檔都會列在下方的下拉式清單中 **[!UICONTROL Test profile]**. 您可以在儲存的測試設定檔之間切換，以顯示每個選取設定檔的結果。
+1. 添加後，所有配置檔案都將列在下面的下拉清單中 **[!UICONTROL Test profile]**。 可以在保存的test配置檔案之間切換以顯示每個選定配置檔案的結果。
 
    ![](../../assets/offers_simulation-saved-profiles.png)
 
-1. 您可以按一下 **[!UICONTROL Profile details]** 連結以顯示選取的設定檔資料。
+1. 您可以按一下 **[!UICONTROL Profile details]** 連結以顯示所選配置檔案資料。
 
 <!--Learn more on [selecting test profiles](preview.md#select-test-profiles)-->
 
-## 添加決策範圍
+## 添加決策作用域
 
-現在，選取您要在測試設定檔上模擬的選件決策。
+現在，選擇要在您的test配置檔案上模擬的優惠決定。
 
 1. 選擇「**[!UICONTROL Add decision scope]**」。
 
    ![](../../assets/offers_simulation-add-decision.png)
 
-1. 從清單中選取位置。
+1. 從清單中選取一個放置。
 
    ![](../../assets/offers_simulation-add-decision-scope.png)
 
-1. 將顯示可用的決策。
+1. 將顯示可用決策。
 
-   * 您可以使用搜尋欄位來調整選取範圍。
-   * 您可以按一下 **[!UICONTROL Open offer decisions]** 連結以開啟您建立的所有決策的清單。 深入了解 [決策](create-offer-activities.md).
+   * 您可以使用搜索欄位來細化選擇。
+   * 您可以按一下 **[!UICONTROL Open offer decisions]** 連結以開啟您建立的所有決策的清單。 瞭解更多 [決策](create-offer-activities.md)。
 
-   選取您所選的決策，然後按一下 **[!UICONTROL Add]**.
+   選擇您選擇的決定，然後按一下 **[!UICONTROL Add]**。
 
    ![](../../assets/offers_simulation-add-decision-scope-add.png)
 
-1. 您剛定義的決策範圍會顯示在主要工作區中。
+1. 您剛定義的決策範圍將顯示在主工作區中。
 
-   您可以調整要求的優惠方案數量。 例如，若您選取2，則此決策範圍會顯示最佳2個選件。
+   您可以調整要請求的優惠數量。 例如，如果選擇2，則此決策範圍將顯示最佳的2個優惠。
 
    ![](../../assets/offers_simulation-request-offer.png)
 
    >[!NOTE]
    >
-   >您最多可以要求30個選件。
+   >您最多可以要求30個優惠。
 
-1. 重複上述步驟，以新增您需要的決策數。
+1. 重複上述步驟，以根據需要添加任意多個決策。
 
    ![](../../assets/offers_simulation-add-more-decisions.png)
 
    >[!NOTE]
    >
-   >即使您定義多個決策範圍，系統也只會模擬一個API請求。
+   >即使定義了多個決策範圍，也只模擬一個API請求。
    >
-   >所有重複資料消除標誌都預設為模擬啟用，這意味著決策引擎允許重複資料，因此可以在多個決策中做出相同的主張。 深入了解 [!DNL Decisions] 中的API要求屬性 [本節](../api-reference/decisions-api/deliver-offers.md).
+   >預設情況下，所有重複資料消除標誌都啟用模擬，這意味著決策引擎允許重複項，因此可以在多個決策/放置中做出相同的主張。 瞭解 [!DNL Decisions] API請求屬性 [此部分](../api-reference/decisions-api/deliver-offers.md)。<!--Deduplication note TO REMOVE WHEN SIMULATIONS V2 is on PROD-->
 
-## 查看模擬結果
+<!--SIMULATIONS V2
 
-新增決策範圍並選取測試設定檔後，您就可以檢視結果。
+## Define simulation settings {#define-simulation-settings}
+
+To edit the default settings for your simulations, follow the steps below.
+
+1. Click **[!UICONTROL Settings]**.
+
+    ![](../../assets/offers_simulation-settings.png)
+
+1. In the **[!UICONTROL Deduplication]** section, you can choose to allow duplicate offers accross decisions and/or placements. It means that multiple decisions/placements may get assigned the same offer.
+
+    ![](../../assets/offers_simulation-settings-deduplication.png)
+
+    >[!NOTE]
+    >
+    >By default, all Deduplication flags are enabled for simulation, which means that the decision engine allows duplicates and thus can make the same proposition accross multiple decisions/placements. Learn more on the [!DNL Decisions] API request properties in [this section](../api-reference/decisions-api/deliver-offers.md).
+
+1. In the **[!UICONTROL Response format]** section, you can choose to include metadata in the code view. Check the corresponding option, and select the metadata of your choice. They will be displayed in the request and response payloads when selecting **[!UICONTROL View code]**. Learn more in the [View simulation results](#simulation-results) section.
+
+    ![](../../assets/offers_simulation-settings-response-format.png)
+
+    >[!NOTE]
+    >
+    >When turning on the option, all items are selected by default.
+
+1. Click **[!UICONTROL Save]**.-->
+
+<!--NOT FOR SIMULATIONS V2
+
+In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
+Hub and Edge are two different end points for simulation data.
+
+In the **[!UICONTROL Context data]** section, you can add as many elements as needed.
+
+    >[!NOTE]
+    >
+    >This section is hidden if you select Edge API in the section above. Hub allows the use of Context Data, Edge does not.
+
+Context data allows the user to add contextual data that could affect the simulation score.
+For instance, let's say the customer has an offer for a discount on ice cream. In the rules for that offer, it can have logic that would rank it higher when the temperature is above 80 degrees. In simulation, the user could add context data: temperature=65 and that offer would rank lower, of they could add temperature=95 and that would rank higher.
+-->
+
+## 查看模擬結果 {#simulation-results}
+
+添加決策範圍並選擇test配置檔案後，可以查看結果。
 
 1. 按一下「**[!UICONTROL View results]**」。
 
    ![](../../assets/offers_simulation-view-results.png)
 
-1. 系統會根據每個決策所選取的設定檔來顯示最佳可用選件。
+1. 根據每個決策的所選簡檔顯示最佳可用報價。
 
-   選取要顯示其詳細資訊的選件。
+   選擇要顯示其詳細資訊的優惠。
 
    ![](../../assets/offers_simulation-offer-details.png)
 
-1. 從清單中選取其他設定檔，以顯示不同測試設定檔的選件決策結果。
+   <!--
+    SIMULATIONS V2
+    1. Click **[!UICONTROL View code]** to display the request and response payloads. [Learn more](#view-code)-->
 
-1. 您可以根據需要多次添加、刪除或更新決策範圍。
+1. 從清單中選擇另一個配置檔案，以顯示不同test配置檔案的聘用決定結果。
 
->[!NOTE]
->
->每次變更設定檔或更新決策範圍時，您都需要使用 **[!UICONTROL View results]** 按鈕。
-
-<!--Questions
-
-* Is it recommended to first select profiles or first add decision scopes?
-* What does Request offer changes?
-* Nothing displays when I click View results? Can't see any score...
-* What's the typical example? i.e. how many decisions do you select, and how do you compare scores?
-* What do you learn from simulation? i.e. if I selected 2 decisions and I compare the scores, which one is better or should I use for my customers?
-* Is there a way to create relevant test profiles?
-* Error on Profile details link.
-* Is there a tutorial planned to be released?
-* Why still a big red frame when no profile is found?
-
-## Tutorial video {#video}
+1. 您可以根據需要添加、刪除或更新決策範圍多次。
 
 >[!NOTE]
 >
->This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
+>每次更改配置檔案或更新決策範圍時，都需要使用 **[!UICONTROL View results]** 按鈕
 
->[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
--->
+<!--
+SIMULATIONS V2
+
+## View code {#view-code}
+
+To use the request payload outside of [!DNL Journey Optimizer] - for troubleshooting purpose for example, you can copy it by clicking the corresponding button on top of the code view.
+    
+>[!NOTE]
+>
+>You cannot copy the response payload.
+
+Below is an example of code view:
+
+    ```
+    curl -X POST \
+    'https://platform.adobe.io/data/core/ode/{CONTAINER_ID}/decisions' \
+    -H 'Accept: application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"' \
+    -H 'Content-Type: application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"' \
+    -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsIng1dSI6Imltc19uYTEtc3RnMS1rZXktMS5jZXIifQ.eyJpZCI6IjE2NDMxMzg3NDMxODlfOTIzY2ZjZjgtOWVkYy00MjE1LWJjODgtYmEyYTY2ZGIyYmMyX3VlMSIsInR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJjbGllbnRfaWQiOiJhY3BfdWlfcGxhdGZvcm0iLCJ1c2VyX2lkIjoiNDhENTc0N0E2MDc3NkRERTBBNDk0MDFEQEFkb2JlSUQiLCJzdGF0ZSI6IntcInNlc3Npb25cIjpcImh0dHBzOi8vaW1zLW5hMS1zdGcxLmFkb2JlbG9naW4uY29tL2ltcy9zZXNzaW9uL3YxL1l6azNNakE0TXpNdFpXVTVaUzAwTVdOaExUZ3pNamd0TmpFM1pqZ3lOak5qTmpSakxTMDBPRVExTnpRM1FUWXdOemMyUkVSRk1FRTBPVFF3TVVSQVFXUnZZbVZKUkFcIn0iLCJhcyI6Imltcy1uYTEtc3RnMSIsImFhX2lkIjoiNDhENTc0N0E2MDc3NkRERTBBNDk0MDFEQEFkb2JlSUQiLCJjdHAiOjAsImZnIjoiV0VQQTNUSUY0UjRaQTZEWlBDUk1BMklBQ1U9PT09PT0iLCJzaWQiOiIxNjQzMDYwMDg0NzI2XzYzNGJkNDEzLWMwYTktNDA0NS1iNTM3LWRmMzgzYzU5ZGIxY191ZTEiLCJydGlkIjoiMTY0MzEzODc0MzE4OV9lYWMxOWY5Yi00ZjhhLTQ1NWMtOWVmMi1mNjYwNmQ0ODY4N2ZfdWUxIiwibW9pIjoiYmVjOTQzYzIiLCJwYmEiOiIiLCJvYyI6InJlbmdhKm5hMXItc3RnMSoxN2U5MmIzNzYzNCo2MEJEVjBGUlhOMFlRMkdHSkRON0E5Tk1HOCIsInJ0ZWEiOiIxNjQ0MzQ4MzQzMTg5IiwiZXhwaXJlc19pbiI6Ijg2NDAwMDAwIiwic2NvcGUiOiJvcGVuaWQsc2Vzc2lvbixyZWFkX29yZ2FuaXphdGlvbnMsYWRkaXRpb25hbF9pbmZvLnByb2plY3RlZFByb2R1Y3RDb250ZXh0LGFkZGl0aW9uYWxfaW5mby5yb2xlcyxhdWRpZW5jZW1hbmFnZXJfYXBpLEFkb2JlSUQiLCJjcmVhdGVkX2F0IjoiMTY0MzEzODc0MzE4OSJ9.TgZ998KHA4Zeoyq7b_NbPv8aPHb2cs9GgP3uJKrTbzosylKKRYqLpj_8HkloI-bFVQFCBCOWbCwtJtkcRIvFlQFruTr5bpMatPV8izEUVutO6smkYBFoGFYyEGuN5Xe97uOJZEHzFSWguGZtgttSrNhXr-j0hFloofjXDJXPB_911dzXALp5s15sd3HLH9XWTwwlqF_a5SMNDXaSj1800RxsB9bJ8_YL0x4pqQwjYJxRGMhiy7Y9IOpwogSBEiqCQitlKYgaO7yaJzFwhfyisnqM7_MWX2ETn-kGFEOoBHxXDTx9P2OPojzb8ChWQgmGf7Expyvtc1ke3nJkppzrxg' \
+    -H 'x-api-key: {API_KEY}' \
+    -H 'x-gw-ims-org-id: 5D1328435BF324E90A49402A@AdobeOrg' \
+    -H 'x-sandbox-name: prod' \
+    -D '{
+      "xdm:propositionRequests": [
+            {
+                  "xdm:placementId": "xcore:offer-placement:1416f4109d9d292c",
+                  "xdm:activityId": "xcore:offer-activity:1416f4aad9fd99d7",
+                  "xdm:itemCount": 2
+            }
+      ],
+      "xdm:profiles": [
+            {
+                  "xdm:identityMap": {
+                        "email": [
+                              {
+                                    "xdm:id": "poyfair@adobe.com"
+                              }
+                        ]
+                  }
+            }
+      ],
+      "xdm:allowDuplicatePropositions": {
+            "xdm:acrossActivities": true,
+            "xdm:acrossPlacements": true
+      },
+      "xdm:responseFormat": {
+            "xdm:includeMetadata": {
+                  "xdm:activity": [],
+                  "xdm:option": [],
+                  "xdm:placement": []
+            }
+      }
+    }'
+    ```
+
+>[!NOTE]
+>
+>When copying the request payload into your own code, make sure you replace CONTAINER_ID and API_KEY with your own values.-->
+

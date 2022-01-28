@@ -1,81 +1,81 @@
 ---
 title: 內建的產品設定檔
-description: 了解內建的產品設定檔
+description: 瞭解內置產品配置檔案
 feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 98fab634e64a1bdf084ebcddf6ffaf7e21c63c7e
+source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 8%
+source-wordcount: '732'
+ht-degree: 10%
 
 ---
 
 # 內建的產品設定檔 {#ootb-product-profiles}
 
-## 歷程管理員 {#journey-administrator}
+## [!DNL Journey Administrator] {#journey-administrator}
 
-此 **[!UICONTROL Journey Administrator]** 產品設定檔可讓管理功能表管理及發佈歷程、訊息和決策管理。
-
-此產品設定檔包含下列權限：
-
-|功能 |權限| |-|-| |歷程| <ul><li> **管理歷程**:讀取、建立、編輯和刪除歷程。</li><li>**發佈歷程**:發佈歷程。</li><li>**管理歷程事件、資料來源和動作**:讀取、建立、編輯和刪除事件、源或操作。</li><li>**檢視歷程報表**:閱讀及編輯歷程報告。</li></ul>|
-|訊息|<ul><li> **管理訊息**:閱讀、建立、編輯訊息預覽並傳送測試/校樣。</li><li>**管理訊息預覽和測試**:發佈訊息。</li><li>**發佈訊息**:讀取、建立和編輯訊息預覽，並傳送測試/校樣。</li><li>**檢視訊息報表**:讀取和編輯訊息報表。</li></ul>|
-|管理|<ul><li>**管理子網域委派**:讀取、建立、編輯和刪除子網域委派。</li><li>**管理IP池**:讀取、建立、編輯和刪除ip池。</li><li>**查看PTR記錄**:對PTR記錄的只讀訪問。</li><li> **管理郵件一般設定**:讀取、建立、編輯和刪除消息常規設定。</li><li>**管理訊息預設集**:閱讀、建立、編輯和刪除內容品牌。</li><li>**管理隱藏規則**:訪問讀取、建立、編輯和刪除隱藏規則。</li><li>**查看隱藏清單**:讀取並導出本地隱藏清單。</li><li>**管理警報**:啟用/停用歷程、訊息和權益的警報。</li></ul>|
-|決定管理|<ul><li>**管理決策**:讀取、建立、編輯和刪除決策。</li><li>**管理排名策略**:讀取、建立、編輯和刪除自訂訊息報表，以及使用動作功能。</li></ul>|
-|Adobe Experience Platform|<ul><li>**沙箱**:授予沙箱的存取權。</li><li>**管理區段**:讀取、建立、編輯和刪除區段。</li><li>**管理設定檔**:讀取、建立、編輯和刪除設定檔。</li><li>**讀取資料集**:資料集的唯讀存取權。</li><li>**閱讀綱要**:綱要的唯讀存取權。</li><li>**讀取身份命名空間**:唯讀存取身分命名空間。</li><li>**管理合併原則**:讀取、建立、編輯和刪除合併策略。</li></ul>|
-
-## 歷程核准者 {#journey-approver}
-
-此 **[!UICONTROL Journey Approver]** 產品設定檔可讓使用者核准傳遞並發佈。 他們稍後可以透過 **[!UICONTROL Message]** 和 **[!UICONTROL Journey]** 報表。
+的 **[!DNL Journey Administrator]** 產品配置檔案允許管理菜單，並可以管理和發佈「旅程、消息和決策」管理。
 
 此產品設定檔包含下列權限：
 
-|功能 |權限| |-|-| |歷程| <ul><li>**管理歷程**:讀取、建立、編輯和刪除歷程。</li><li>**發佈歷程**:發佈歷程。</li><li>**檢視歷程事件、資料來源和動作**:歷程事件、歷程自訂動作和歷程資料來源的唯讀存取。</li><li>**檢視歷程報表**:閱讀、編輯歷程報告。</li></ul>|
-|訊息| <ul><li>**管理訊息**:讀取、建立、編輯和刪除訊息。</li><li>**發佈訊息** 發佈訊息。</li><li>**管理訊息預覽和測試**:讀取、建立和編輯訊息預覽，並傳送測試/校樣。</li><li>**檢視訊息報表**:讀取、建立、編輯和刪除訊息報表。</li></ul>|
-|決定管理| <ul><li>**管理決策**:讀取、建立、編輯和刪除決策實體。</li><li>**管理排名策略**:讀取、建立、編輯和刪除自訂訊息報表，以及使用動作功能。</li></ul>| |Adobe Experience Platform| <ul><li>**管理區段**:讀取、建立、編輯和刪除區段。</li><li>**管理設定檔**:讀取、建立、編輯和刪除設定檔。</li><li>**讀取資料集**:資料集的唯讀存取權。</li><li>**閱讀綱要**:綱要的唯讀存取權。</li><li>**管理合併原則**:讀取、建立、編輯和刪除合併策略。</li></ul>|
-|管理| <ul><li>**檢視訊息預設集**:對訊息預設集的唯讀存取。</li></ul>|
+|功能 |權限| |-|-| |旅程| <ul><li> **[!DNL Manage journeys]**:讀取、建立、編輯和刪除旅程。</li><li>**[!DNL Publish journeys]**:發佈旅程。</li><li>**[!DNL Manage journeys events, data sources and actions]**:讀取、建立、編輯和刪除事件、源或操作。</li><li>**[!DNL View journeys report]**:閱讀和編輯旅程報告。</li></ul>|
+|訊息|<ul><li> **[!DNL Manage messages]**:讀取、建立、編輯消息預覽和發送test/校樣。</li><li>**[!DNL Manage messages preview and test]**:發佈消息。</li><li>**[!DNL Publish messages]**:讀取、建立和編輯消息預覽併發送test/校樣。</li><li>**[!DNL View messages report]**:讀取和編輯消息報告。</li></ul>|
+|管理|<ul><li>**[!DNL Manage subdomains delegation]**:讀取、建立、編輯和刪除子域委派。</li><li>**[!DNL Manage IP pools]**:讀取、建立、編輯和刪除ip池。</li><li>**[!DNL Manage PTR records]**:讀取、建立、編輯和刪除PTR記錄。</li><li>**[!DNL View PTR records]**:對PTR記錄的只讀訪問。</li><li> **[!DNL Manage messages general settings]**:讀取、建立、編輯和刪除消息常規設定。</li><li>**[!DNL Manage messages presets]**:讀取、建立、編輯和刪除內容品牌。</li><li>**[!DNL Manage suppression rules]**:訪問讀取、建立、編輯和刪除禁止規則。</li><li>**[!DNL View suppression list]**:讀取並導出本地抑制清單。</li><li>**[!DNL Manage alerts]**:啟用/禁用旅程、消息和權利的警報。</li></ul>|
+|決定管理|<ul><li>**[!DNL Manage decisions]**:讀取、建立、編輯和刪除決策。</li><li>**[!DNL Manage ranking strategies]**:讀取、建立、編輯和刪除自定義消息報告和使用操作功能。</li></ul>|
+|Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**:授予對沙箱的訪問權限。</li><li>**[!DNL Manage segments]**:讀取、建立、編輯和刪除段。</li><li>**[!DNL Manage profiles]**:讀取、建立、編輯和刪除配置檔案。</li><li>**[!DNL Read datasets]**:對資料集的只讀訪問。</li><li>**[!DNL Read schemas]**:對架構的只讀訪問。</li><li>**[!DNL Read Identity namespace]**:對標識命名空間的只讀訪問。</li><li>**[!DNL Manage merge policies]**:讀取、建立、編輯和刪除合併策略。</li></ul>|
 
-## Journey Manager {#journey-manager}
+## [!DNL Journey Approver] {#journey-approver}
 
-此 **[!UICONTROL Journey Manager]** 產品設定檔可讓使用者建立和編輯 **[!UICONTROL Journeys]** 以及連結到 **[!UICONTROL Journeys]** 但無法發佈。
-
-此產品設定檔包含下列權限：
-
-|功能 |權限| |-|-| |歷程| <ul><li>**管理歷程**:讀取、建立、編輯和刪除歷程。</li><li>**檢視歷程事件**:歷程事件、歷程自訂動作和歷程資料來源的唯讀存取。</li><li>**檢視歷程報表**:閱讀、編輯歷程報告。</li></ul>|
-|訊息| <ul><li>**管理訊息**:讀取、建立、編輯和刪除訊息。</li><li> **管理訊息預覽和測試**:讀取、建立和編輯訊息預覽，並傳送測試/校樣。</li><li>**檢視訊息報表**:讀取、建立、編輯和刪除訊息報表。</li></ul>|
-|決定管理| <ul><li>**管理決策**:讀取、建立、編輯和刪除決策實體。</li><li>**管理排名策略**:讀取、建立、編輯和刪除自訂訊息報表，以及使用動作功能。</li></ul>| |Adobe Experience Platform| <ul><li> **管理區段**:讀取、建立、編輯和刪除區段。</li><li>**管理設定檔**:讀取、建立、編輯和刪除設定檔。</li><li>**讀取資料集**:資料集的唯讀存取權。</li><li>**閱讀綱要**:綱要的唯讀存取權。</li><li>**管理合併原則**:讀取、建立、編輯和刪除合併策略。</li></ul>|
-|管理| <ul><li>**檢視訊息預設集**:對訊息預設集的唯讀存取。</li></ul>|
-
-## 歷程檢視器 {#journey-viewer}
-
-此 **[!UICONTROL Journey viewer]** 產品設定檔可讓您以唯讀方式存取 **[!UICONTROL Journeys]**, **[!UICONTROL Goals]**, **[!UICONTROL Messages]** 和 **[!UICONTROL Decision management]** 功能。
-
-指派給此產品設定檔的使用者將無法編輯或發佈。
+的 **[!DNL Journey Approver]** 產品配置檔案允許用戶批准交貨並發佈。 他們稍後可以通過 **[!DNL Message]** 和 **[!DNL Journey]** 報告。
 
 此產品設定檔包含下列權限：
 
-|功能 |權限| |-|-| |歷程| <ul><li>**檢視歷程**:歷程的唯讀存取。</li><li>**檢視歷程事件、資料來源、動作**:對歷程事件和資料來源的唯讀存取。</li><li>**檢視歷程報表**:對歷程報表的唯讀存取。</li></ul>|
-|訊息| <ul><li>**檢視訊息**:訊息的唯讀存取權。</li><li>**檢視訊息報表**:對訊息報表的唯讀存取。</li></ul>|
-|決定管理| <ul><li>**查看決策**:對決策實體的唯讀存取。</li></ul>|
+|功能 |權限| |-|-| |旅程| <ul><li>**[!DNL Manage journeys]**:讀取、建立、編輯和刪除旅程。</li><li>**[!DNL Publish journey]**:發佈旅程。</li><li>**[!DNL View journeys events, data sources and actions]**:只讀訪問行程事件、行程自定義操作和行程資料源。</li><li>**[!DNL View journeys report]**:閱讀、編輯行程報告。</li></ul>|
+|訊息| <ul><li>**[!DNL Manage messages]**:讀取、建立、編輯和刪除消息。</li><li>**[!DNL Publish messages]** 發佈消息。</li><li>**[!DNL Manage messages preview and test]**:讀取、建立和編輯消息預覽併發送test/校樣。</li><li>**[!DNL View messages report]**:讀取、建立、編輯和刪除消息報告。</li></ul>|
+|決定管理| <ul><li>**[!DNL Manage decisions]**:讀取、建立、編輯和刪除決策實體。</li><li>**[!DNL Manage ranking strategies]**:讀取、建立、編輯和刪除自定義消息報告和使用操作功能。</li></ul>| |Adobe Experience Platform| <ul><li>**[!DNL Manage segments]**:讀取、建立、編輯和刪除段。</li><li>**[!DNL Manage profiles]**:讀取、建立、編輯和刪除配置檔案。</li><li>**[!DNL Read datasets]**:對資料集的只讀訪問。</li><li>**[!DNL Read schemas]**:對架構的只讀訪問。</li><li>**[!DNL Manage merge policies]**:讀取、建立、編輯和刪除合併策略。</li></ul>|
+|管理| <ul><li>**[!DNL View messages presets]**:對消息預設的只讀訪問。</li></ul>|
 
-## 訊息管理員 {#message-manager}
+## [!DNL Journey Manager] {#journey-manager}
 
-此 **[!UICONTROL Message Manager]** 產品設定檔可讓使用者建立和編輯 **[!UICONTROL Messages]** 和 **[!UICONTROL Decision management]** 但無法發佈。
-
-此產品設定檔包含下列權限：
-
-|功能 |權限| |-|-| |歷程| <ul><li>**檢視歷程**:歷程的唯讀存取。</li><li>**檢視歷程事件、資料來源和動作**:歷程事件、歷程自訂動作和歷程資料來源的唯讀存取。</li></ul>|
-|訊息| <ul><li>**管理訊息**:讀取、建立、編輯和刪除訊息。</li><li>**管理訊息預覽和測試**:讀取、建立和編輯訊息預覽，並傳送測試/校樣。</li><li> **檢視訊息報表**:讀取、建立、編輯和刪除訊息報表。</li></ul>|
-|決定管理| <ul><li>**管理決策**:讀取、建立、編輯和刪除決策實體。</li></ul>| |Adobe Experience Platform| <ul><li>**讀取配置檔案**:預覽和測試之設定檔的唯讀存取權。</li><li>**讀取資料集**:資料集的唯讀存取權。</li><li>**閱讀綱要**:綱要的唯讀存取權。</li><li>**管理合併原則**:讀取、建立、編輯和刪除合併策略。</li></ul>|
-|管理| <ul><li>**檢視訊息預設集**:對訊息預設集的唯讀存取。</li></ul>|
-
-## 決策管理器 {#decisioning-manager}
-
-此 **[!UICONTROL Decisioning manager]** 產品設定檔僅允許 **[!UICONTROL Decision management]** 功能表。 指派給此產品設定檔的使用者將只能管理、檢視和發佈決策。
+的 **[!DNL Journey Manager]** 產品配置檔案允許用戶建立和編輯 **[!UICONTROL Journeys]** 和所有能力 **[!UICONTROL Journeys]** 卻無法發表。
 
 此產品設定檔包含下列權限：
 
-|功能 |權限| |-|-| |決策管理| <ul><li>**管理決策**:讀取、建立、編輯和刪除決策實體。</li><li>**查看決策**:決策實體的唯讀存取權。</li><li>**管理排名策略**:讀取、建立、編輯和刪除自訂訊息報表，以及使用動作功能。</li><li>**發佈決策**:啟用或停用決策活動。</li></ul>|
+|功能 |權限| |-|-| |旅程| <ul><li>**[!DNL Manage journeys]**:讀取、建立、編輯和刪除旅程。</li><li>**[!DNL View journeys events]**:只讀訪問行程事件、行程自定義操作和行程資料源。</li><li>**[!DNL View journeys report]**:閱讀，編輯行程報告。</li></ul>|
+|訊息| <ul><li>**[!DNL Manage messages]**:讀取、建立、編輯和刪除消息。</li><li> **[!DNL Manage messages preview and test]**:讀取、建立和編輯消息預覽併發送test/校樣。</li><li>**[!DNL View messages report]**:讀取、建立、編輯和刪除消息報告。</li></ul>|
+|決定管理| <ul><li>**[!DNL Manage decisions]**:讀取、建立、編輯和刪除決策實體。</li><li>**[!DNL Manage ranking strategies]**:讀取、建立、編輯和刪除自定義消息報告和使用操作功能。</li></ul>| |Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**:讀取、建立、編輯和刪除段。</li><li>**[!DNL Manage profiles]**:讀取、建立、編輯和刪除配置檔案。</li><li>**[!DNL Read datasets]**:對資料集的只讀訪問。</li><li>**[!DNL Read schemas]**:對架構的只讀訪問。</li><li>**[!DNL Manage merge policies]**:讀取、建立、編輯和刪除合併策略。</li></ul>|
+|管理| <ul><li>**[!DNL View messages presets]**:對消息預設的只讀訪問。</li></ul>|
+
+## [!DNL Journey viewer] {#journey-viewer}
+
+的 **[!DNL Journey viewer]** 產品配置檔案允許對 **[!UICONTROL Journeys]**。 **[!UICONTROL Goals]**。 **[!UICONTROL Messages]** 和 **[!UICONTROL Decision management]** 功能。
+
+分配給此產品配置檔案的用戶將無法編輯或發佈。
+
+此產品設定檔包含下列權限：
+
+|功能 |權限| |-|-| |旅程| <ul><li>**[!DNL View journeys]**:只讀訪問旅行。</li><li>**[!DNL View journeys event, data sources, actions]**:只讀訪問旅程事件和資料源。</li><li>**[!DNL View journeys report]**:只讀訪問行程報告。</li></ul>|
+|訊息| <ul><li>**[!DNL View messages]**:對消息的只讀訪問。</li><li>**[!DNL View messages report]**:對消息報告的只讀訪問。</li></ul>|
+|決定管理| <ul><li>**[!DNL View decisions]**:對決策實體的只讀訪問。</li></ul>|
+
+## [!DNL Message Manager] {#message-manager}
+
+的 **[!DNL Message Manager]** 產品配置檔案允許用戶建立和編輯 **[!UICONTROL Messages]** 和 **[!UICONTROL Decision management]** 卻無法發表。
+
+此產品設定檔包含下列權限：
+
+|功能 |權限| |-|-| |旅程| <ul><li>**[!DNL View journeys]**:只讀訪問旅行。</li><li>**[!DNL View Journeys events, data sources and actions]**:只讀訪問行程事件、行程自定義操作和行程資料源。</li></ul>|
+|訊息| <ul><li>**[!DNL Manage messages]**:讀取、建立、編輯和刪除消息。</li><li>**[!DNL Manage messages preview and test]**:讀取、建立和編輯消息預覽併發送test/校樣。</li><li> **[!DNL View messages report]**:讀取、建立、編輯和刪除消息報告。</li></ul>|
+|決定管理| <ul><li>**[!DNL Manage decisions]**:讀取、建立、編輯和刪除決策實體。</li></ul>| |Adobe Experience Platform| <ul><li>**[!DNL Read profiles]**:只讀訪問配置檔案以進行預覽和test。</li><li>**[!DNL Read datasets]**:對資料集的只讀訪問。</li><li>**[!DNL Read schemas]**:對架構的只讀訪問。</li><li>**[!DNL Manage merge policies]**:讀取、建立、編輯和刪除合併策略。</li></ul>|
+|管理| <ul><li>**[!DNL View messages presets]**:對消息預設的只讀訪問。</li></ul>|
+
+## [!DNL Decisioning manager] {#decisioning-manager}
+
+的 **[!DNL Decisioning manager]** 產品配置檔案僅允許 **[!UICONTROL Decision management]** 的子菜單。 分配給此產品配置檔案的用戶將只能管理、查看和發佈決策。
+
+此產品設定檔包含下列權限：
+
+|功能 |權限| |-|-| |決策管理| <ul><li>**[!DNL Manage decisions]**:讀取、建立、編輯和刪除決策實體。</li><li>**[!DNL View decisions]**:對決策實體的只讀訪問。</li><li>**[!DNL Manage ranking strategies]**:讀取、建立、編輯和刪除自定義消息報告和使用操作功能。</li><li>**[!DNL Publish decisions]**:激活或停用決策活動。</li></ul>|

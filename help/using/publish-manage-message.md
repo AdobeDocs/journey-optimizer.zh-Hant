@@ -1,60 +1,64 @@
 ---
-title: 發佈和修改訊息
-description: 了解如何發佈和更新訊息
+title: 發佈和修改消息
+description: 瞭解如何發佈和更新您的郵件
 snippet: y
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: ca4c2d916a2ebde643656b4573e34d6bb64053fa
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 3%
+source-wordcount: '258'
+ht-degree: 2%
 
 ---
 
-# 發佈您的訊息 {#publish-manage-messages}
+# 發佈您的郵件 {#publish-manage-messages}
 
-## 發佈訊息 {#publish-message}
+## 發佈消息 {#publish-message}
 
-建立訊息後，您就可以發佈訊息，以便供執行。
+建立消息後，可以發佈該消息以使其可用於執行。
 
 >[!CAUTION]
 >
->發佈前，請檢查並解決警報。 [了解更多](alerts.md)
+>在發佈之前，請檢查並解決警報。 [進一步了解](alerts.md)
 
 ![](assets/publish-message.png)
 
-訊息發佈後，就會以 **[!UICONTROL Published]** 狀態。
+發佈消息後，它將添加到消息清單中 **[!UICONTROL Published]** 狀態。
 
-現在已可由一或多個 [歷程](building-journeys/journey.md).
-
-## 更新唯讀訊息 {#modify-message}
-
-發佈後，訊息會處於唯讀模式。 您仍可以建立該訊息的新草稿來更新訊息。
-
-這可讓您更新內容或修正問題，例如，不需重新發佈使用訊息的整個歷程。
+它現在已準備好由一個或多個 [乘](building-journeys/journey.md)。
 
 >[!NOTE]
 >
->草稿版本仍可發佈且處於作用中狀態時編輯。
+>當您更新在已發佈消息中直接或間接引用的聘用、回退聘用、聘用集合或聘用決定時，更新現在將自動反映在相應消息中，而無需重新發佈。 [瞭解更多產品](offers/get-started/starting-offer-decisioning.md)
 
-若要更新已發佈的訊息：
+## 更新只讀消息 {#modify-message}
 
-1. 從訊息清單中，選取您的訊息以開啟它。
+發佈後，消息處於只讀模式。 您仍然可以通過建立該消息的新草稿來更新它。
+
+這樣，您就可以更新內容或解決問題，而無需重新發佈使用消息的整個行程。
+
+>[!NOTE]
+>
+>可在發佈版本仍被發佈並處於活動狀態時編輯草稿版本。
+
+要更新已發佈的消息，請執行以下操作：
+
+1. 從消息清單中，選擇要開啟的消息。
 
 1. 按一下「**[!UICONTROL Modify]**」。
 
    ![](assets/message-modify.png)
 
-1. 確認您的選取。訊息的草稿版本隨即建立。
+1. 確認您的選取。將建立消息的草稿版本。
 
    ![](assets/message-modify-v2.png)
 
-1. 編輯內容或視需要變更設定。
-1. 按一下「**[!UICONTROL Publish]**」。此動作會發佈將用於下次執行之訊息的新版本。
+1. 編輯內容或根據需要更改設定。
+1. 按一下「**[!UICONTROL Publish]**」。此操作將發佈將用於下一個執行的消息的新版本。
 
-新版本發佈後，下次API呼叫時，就會產生新訊息執行。 下一個傳入的設定檔將接收新版本。
+一旦發佈新版本，在下次API調用時，將生成新消息執行。 下一個傳入配置檔案將接收新版本。
 
 <!--For batch messages, the audience/segment being processed in the previous execution will not be affected by the new version. Only the next incoming API call with an audience/segment will generate a new message execution with the new version. -->

@@ -1,95 +1,94 @@
 ---
 title: 建立訊息
-description: 了解如何建立訊息
+description: 瞭解如何建立郵件
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
-source-git-commit: d8c95350ac17658ce477d6aec50a9f418f4af0f2
+source-git-commit: 3f545c68264164aeb40eec55631d50fa5c0bec4f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '482'
+ht-degree: 3%
 
 ---
 
 # 建立訊息 {#create-message}
 
-訊息可從 **[!UICONTROL Messages]** 左側導覽的捷徑。 會列出所有訊息，依發佈日期（針對已發佈訊息）或建立日期（針對草稿訊息）排序。
+可從 **[!UICONTROL Messages]** 的下界。 所有消息均按發佈日期（對於已發佈消息）或建立日期（對於草稿消息）列出，排序。
 
 >[!NOTE]
 >
->使用者可依其產品設定檔存取、建立、編輯和/或發佈訊息。 深入了解使用者權限 [在本節](administration/permissions.md).
+>用戶可以根據其產品配置檔案訪問、建立、編輯和/或發佈消息。 瞭解有關用戶權限的詳細資訊 [此部分](administration/permissions.md)。
 
 ![](assets/messages-list.png)
 
-使用 **[!UICONTROL Show recents]** 切換，將直接連結新增至您最近5天存取的訊息。
+使用 **[!UICONTROL Show recents]** 切換以將直接連結添加到您在過去5天內訪問的消息。
 
 ![](assets/show-recent-messages.png)
 
-使用篩選表徵圖只顯示草稿、已發佈或正在發佈的消息。 您也可以搜尋訊息標籤，如下所示：
+使用篩選器表徵圖僅顯示已起草、已發佈或正在發佈的消息。 您還可以在郵件標籤上搜索，如下所示：
 
 ![](assets/filter-messages.png)
 
-## 建立新訊息
+## 建立新郵件
 
-若要建立新訊息，請遵循下列步驟：
+要建立新消息，請執行以下步驟：
 
-1. 存取訊息清單，然後按一下 **[!UICONTROL Create Message]**.
+1. 訪問消息清單，然後按一下 **[!UICONTROL Create Message]**。
 
-1. 定義訊息屬性。
+1. 定義消息屬性。
 
    ![](assets/create-message-properties.png)
 
-   * 輸入 **[!UICONTROL Title]** （必填）和 **[!UICONTROL Description]**.
+   * 輸入 **[!UICONTROL Title]** （強制）及 **[!UICONTROL Description]**。
 
-   * 選取 **[!UICONTROL Message category]**:行銷或交易。
+   * 選擇 **[!UICONTROL Message category]**:市場營銷或事務性。
 
-   * 選取 **[!UICONTROL Preset]** 以用於訊息。
+   * 選擇 **[!UICONTROL Preset]** 的子菜單。
 
-      預設集包含根據您的品牌傳送電子郵件和/或推播通知所需的所有參數。 [深入了解預設集](configuration/message-presets.md).
+      預設包含根據您的品牌發送電子郵件和/或推送通知所需的所有參數。 [瞭解有關預設的更多資訊](configuration/message-presets.md)。
 
-   * 選取您要用於該訊息的通道：電子郵件和/或推播通知。 您必須選取至少一個管道才能建立訊息。
-   請注意，您隨時都可以使用 **[!UICONTROL Properties]** 按鈕。
+   * 選擇要用於該消息的通道：電子郵件和/或推送通知。 必須至少選擇一個通道才能建立消息。
+   請注意，您可以隨時使用 **[!UICONTROL Properties]** 按鈕。
 
-1. 按一下 **[!UICONTROL Create]** 確認訊息建立。 您的訊息會新增至訊息清單中，位於 **[!UICONTROL Draft]** 狀態。
+1. 按一下 **[!UICONTROL Create]** 確認消息建立。 您的消息將添加到消息清單中， **[!UICONTROL Draft]** 狀態。
 
-   每個選取的通道都有一個索引標籤。 使用這些標籤來設定每個頻道的內容。 您可以選取索引標籤，然後按一下 **[!UICONTROL Delete channel]** 按鈕。
+   每個選定頻道都可使用一個頁籤。 使用這些頁籤為每個頻道配置內容。 通過選擇頁籤並按一下 **[!UICONTROL Delete channel]** 按鈕。
 
    ![](assets/create-messages-content.png)
 
-   您現在可以建立訊息的內容並調整設定。 以下章節提供電子郵件和推播通知設定的詳細資訊：
+   您現在可以建立消息的內容並調整設定。 有關電子郵件和推送通知配置的詳細資訊，請參見以下各節：
 
    * [建立電子郵件](create-email.md)
-   * [建立推播通知](create-push.md)
+   * [建立推送通知](create-push.md)
 
    >[!NOTE]
    >   
-   >您可以使用運算式編輯器，使用設定檔資料個人化您的訊息。 如需個人化的詳細資訊，請參閱 [本節](personalization/personalize.md).
+   >可以使用表達式編輯器使用配置檔案的資料個性化您的消息。 有關個性化的詳細資訊，請參閱 [此部分](personalization/personalize.md)。
 
-
-1. 使用左側的預覽區段，控制訊息的轉譯，並使用測試設定檔檢查個人化設定。 如需詳細資訊，請參閱[本章節](preview.md)。
+1. 使用左側的預覽部分控制消息的呈現，並使用test配置檔案檢查個性化設定。 如需詳細資訊，請參閱[本章節](preview.md)。
 
    ![](assets/messages-simple-preview.png)
 
-1. 檢查編輯器上方區段的警報。  其中有些是簡單的警告，但有些警告可能會阻止您發佈訊息。 深入了解 [本節](alerts.md).
+1. 檢查編輯器上半部分的警報。  其中一些是簡單的警告，但其他警告可能會阻止您發佈消息。 瞭解詳情 [此部分](alerts.md)。
 
-1. 您現在可以按一下 **[!UICONTROL Publish]** 按鈕，或保留為草稿，稍後再發佈。 如需如何發佈訊息的詳細資訊，請參閱 [本節](publish-manage-message.md).
+1. 您現在可以通過按一下 **[!UICONTROL Publish]** 按鈕，或者將其作為草稿保存並稍後發佈。 有關如何發佈消息的詳細資訊，請參閱 [此部分](publish-manage-message.md)。
 
-## 複製訊息
+## 複製消息
 
-若要從現有訊息建立訊息，請使用 **[!UICONTROL Duplicate]** 按鈕。 所有設定和配置都將複製到新消息
+要從現有消息建立消息，請使用 **[!UICONTROL Duplicate]** 按鈕。 所有設定和配置都將複製到新消息
 
 ![](assets/message-duplicate.png)
 
-您可以在確認複製前重新命名訊息。
+您可以在確認複製之前更名消息。
 
 ![](assets/message-duplicate-confirm.png)
 
-建立新訊息後，確認訊息會顯示在視窗底部。
+建立新消息後，窗口底部將顯示一條確認消息。
 
-您也可以使用專用圖示，從訊息清單複製訊息。
+您還可以使用專用表徵圖從消息清單中複製消息。
 
 ![](assets/message-duplicate-from-list.png)
 
-同樣的確認程式適用。
+同樣的確認過程也適用。

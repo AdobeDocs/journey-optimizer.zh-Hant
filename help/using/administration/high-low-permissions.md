@@ -1,6 +1,6 @@
 ---
 title: 權限層級
-description: 了解高和低層權限
+description: 瞭解高級權限和低級權限
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -16,9 +16,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: da885bd5e29ff3454fef1c6b362f0e646fe8c39a
+source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -27,189 +27,190 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/permissions.png)
 
-每個產品設定檔都包含允許使用者存取不同功能的權限。
-可分為兩種類型：
+每個產品配置檔案都由允許用戶訪問不同功能的權限組成。
+可分為兩類：
 
-* **高級權限**:代表可指派給的不同權限 **[!UICONTROL Product profile]** 在 [!DNL Admin console]，例如 **[!UICONTROL Publish journeys]** 和 **[!UICONTROL Manage subdomains delegation]**. 高階權限包含低階權限。
+* **高級權限**:表示可分配給的不同權限 **[!UICONTROL Product profile]** 的 [!DNL Admin console]，例如 **[!DNL Publish journeys]** 和 **[!DNL Manage subdomains delegation]**。 高級權限包含低級權限。
 
-* **低階權限**:代表來自高階權限的不同權限。
+* **低級別權限**:表示來自高級權限的不同權限。
 
-例如， **[!UICONTROL Journey administrator]** 已指派產品設定檔 **[!UICONTROL Manage journeys]** 權限。 從此權限會產生低階權限，讓歷程管理員可編寫、讀取和刪除歷程。
+例如， **[!DNL Journey administrator]** 已分配產品配置檔案 **[!DNL Manage journeys]** 權限。 從此權限將產生低級權限，使「旅程」管理員能夠寫入、讀取和刪除旅程。
 
-## 歷程功能 {#journey-capability}
+## 行程能力 {#journey-capability}
 
-### 管理歷程權限 {#manage-journeys}
+### [!DNL Manage journeys] 權限 {#manage-journeys}
 
-此 **[!UICONTROL Manage journeys]** 高階權限可讓使用者建立新的和編輯/刪除現有的歷程，以及存取歷程畫布中用來建立歷程流程的物件。
+的 **[!DNL Manage journeys]** 高級權限允許用戶建立新和編輯/刪除現有的Journeys，以及訪問在Journey畫布中用於構建Journey流的對象。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* Journey Optimizer特定：
+* Journey Optimizer特別：
 
    * journeys.read
    * journeys.write
    * journeys.delete
    * messages.read
 
-* Adobe Experience Platform特定：
+* Adobe Experience Platform特別：
 
    * segments.read
    * profiles.read
    * datasets.read
    * schemas.read
 
-### 發佈歷程權限 {#publish-journeys}
+### [!DNL Publish journeys] 權限 {#publish-journeys}
 
-此 **[!UICONTROL Publish journeys]** 高階權限可讓使用者發佈歷程。
+的 **[!DNL Publish journeys]** 高級權限允許用戶發佈行程。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* Journey Optimizer特定：
+* Journey Optimizer特別：
    * journeys.publish
    * journeys.read
 
-### 檢視歷程權限 {#view-journeys}
+### [!DNL View journeys] 權限 {#view-journeys}
 
-此 **[!UICONTROL View journeys]** 高階權限可讓使用者瀏覽及檢視歷程。
+的 **[!DNL View journeys]** 高級權限允許用戶瀏覽和查看行程。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* Journey Optimizer特定：
+* Journey Optimizer特別：
    * journeys.read
 
-* Adobe Experience Platform特定：
+* Adobe Experience Platform特別：
    * segments.read
    * profiles.read
 
-### 管理歷程事件、資料來源和動作權限 {#manage-journeys-events}
+### [!DNL Manage journeys events, data sources and actions] 權限 {#manage-journeys-events}
 
-此 **[!UICONTROL Manage journeys events, data sources and actions]** 高階權限可讓使用者設定事件和資料設定。
+的 **[!DNL Manage journeys events, data sources and actions]** 高級權限允許用戶配置事件和資料配置。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* Journey Optimizer特定：
-   * journeys_events.read
-   * journeys_events.write
-   * journeys_events.delete
-   * journeys_data_sources.read
-   * journeys_data_sources.write
-   * journeys_data_sources.delete
-   * journeys_actions.read
-   * journeys_actions.write
-   * journeys_actions.delete
-* Adobe Experience Platform特定：
+* Journey Optimizer特別：
+   * roymers_events_read
+   * reyormes_events_write
+   * roymers_events_delete
+   * journeys_data_sources_read
+   * journeys_data_sources_write
+   * journeys_data_sources_delete
+   * reagners_actions_read
+   * rougners_actions_write
+   * journeys_actions_delete
+
+* Adobe Experience Platform特別：
    * schemas.read
    * datasets.read
-   * identity_namespace.read
+   * identity_namespace_read
 
-### 檢視歷程事件、資料來源和動作權限 {#view-journeys-event}
+### [!DNL View journeys events, data sources and actions] 權限 {#view-journeys-event}
 
-此 **[!UICONTROL View journeys events, data sources and actions]** 高階權限可讓使用者在歷程流程中使用事件和資料。
+的 **[!DNL View journeys events, data sources and actions]** 高級權限允許用戶使用行程流中的事件和資料。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* Journey Optimizer特定：
-   * journeys_events.read
-   * journeys_data_sources.read
-   * journeys_actions.read
+* Journey Optimizer特別：
+   * roymers_events_read
+   * journeys_data_sources_read
+   * reagners_actions_read
 
-* Adobe Experience Platform特定：
+* Adobe Experience Platform特別：
    * schemas.read
    * datasets.read
-   * identity_namespace.read
+   * identity_namespace_read
 
-### 檢視歷程報表權限 {#view-journeys-report}
+### [!DNL View journeys report] 權限 {#view-journeys-report}
 
-此 **[!UICONTROL View journeys report]** 高階權限可讓使用者以唯讀的歷程報告。
+的 **[!DNL View journeys report]** 高級權限允許用戶只讀行程報告。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* Journey Optimizer特定：
-   * journeys_report.read
-   * messages_report.read
+* Journey Optimizer特別：
+   * rougners_report_read
+   * messages_report_read
 
-* Adobe Experience Platform特定：
+* Adobe Experience Platform特別：
    * datasets.read
    * queries.read
    * queries.write
    * queries.delete
 
-## 訊息功能 {#message-capability}
+## 消息功能 {#message-capability}
 
-### 管理訊息權限 {#manage-messages}
+### [!DNL Manage messages] 權限 {#manage-messages}
 
-此 **[!UICONTROL Manage messages]** 高階權限可讓使用者建立和編輯/刪除訊息。
+的 **[!DNL Manage messages]** 高級權限允許用戶建立和編輯/刪除消息。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* Journey Optimizer特定：
+* Journey Optimizer特別：
    * messages.write
    * messages.read
    * messages.delete
-   * messages_presets.read
+   * messages_presets_read
 
-* Adobe Experience Platform特定：
+* Adobe Experience Platform特別：
    * segments.read
    * schemas.read
 
-### 管理訊息預覽和測試權限 {#mange-messages-preview}
+### [!DNL Manage messages preview and test] 權限 {#mange-messages-preview}
 
-此 **[!UICONTROL Manage messages preview and test]** 高階權限可讓使用者預覽個人化訊息。
+的 **[!DNL Manage messages preview and test]** 高級權限允許用戶預覽個性化消息。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* Journey Optimizer特定：
+* Journey Optimizer特別：
    * messages.publish
    * messages_preview_and_test.write
    * messages.publish
 
-* Adobe Experience Platform特定：
+* Adobe Experience Platform特別：
    * profiles.read
    * profiles.write
    * schemas.read
    * datasets.write
    * datasets.read
-   * identity_namespace.read
+   * identity_namespace_read
    * segments.read
    * queries.write
-   * merge_policies.read
+   * merge_policies_read
 
-### 發佈訊息權限 {#publish-messages}
+### [!DNL Publish messages] 權限 {#publish-messages}
 
-此 **[!UICONTROL Publish messages]** 高階權限可讓使用者發佈訊息。
+的 **[!DNL Publish messages]** 高級權限允許用戶發佈消息。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* Journey Optimizer特定：
+* Journey Optimizer特別：
    * messages.publish
 
-* Adobe Experience Platform特定：
+* Adobe Experience Platform特別：
    * profiles.read
    * schemas.read
    * datasets.read
 
-### 檢視訊息權限 {#view-messages}
+### [!DNL View messages] 權限 {#view-messages}
 
-此 **[!UICONTROL View messages]** 高級權限允許用戶只讀郵件。
+的 **[!DNL View messages]** 高級權限允許用戶只讀消息。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* Journey Optimizer特定：
+* Journey Optimizer特別：
    * messages.read
-   * messages_presets.read
+   * messages_presets_read
 
-* Adobe Experience Platform特定：
+* Adobe Experience Platform特別：
    * schemas.read
    * segments.read
 
-### 檢視訊息報表權限 {#view-message-reports}
+### [!DNL View messages report] 權限 {#view-message-reports}
 
-此 **[!UICONTROL View messages report]** 高階權限可讓使用者以唯讀電子郵件和推送報表。
+的 **[!DNL View messages report]** 高級權限允許用戶只讀電子郵件和推送報告。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* Journey Optimizer特定：
-   * messages_report.read
+* Journey Optimizer特別：
+   * messages_report_read
    * datasets.read
    * queries.read
    * queries.write
@@ -218,13 +219,13 @@ ht-degree: 0%
 
 ## 決策管理能力 {#decisions-permissions}
 
-### 管理決策權限 {#manage-decisioning}
+### [!DNL Manage decisions] 權限 {#manage-decisioning}
 
-此 **[!UICONTROL Manage decisions]** 高階權限可讓使用者建立新項目，以及編輯/刪除現有項目 **[!UICONTROL Activity entities]**，以及管理用於這些活動中以做出決策的物件。
+的 **[!DNL Manage decisions]** 高級權限允許用戶建立新權限和編輯/刪除現有權限 **[!DNL Activity entities]**，以及管理這些活動中用於做出決策的對象。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* 特定決策管理：
+* 具體決策管理：
    * activities.read
    * activities.write
    * activities.delete
@@ -234,9 +235,9 @@ ht-degree: 0%
    * placements.read
    * placements.write
    * placements.delete
-   * ranking_strategy.read
+   * 排名_策略_讀取
 
-* Adobe Experience Platform特定：
+* Adobe Experience Platform特別：
    * datasets.read
    * datasets.write
    * datasets.delete
@@ -244,173 +245,185 @@ ht-degree: 0%
    * profile.read
    * segments.read
 
-### 查看決策權限 {#view-decisions}
+### [!DNL View decisions] 權限 {#view-decisions}
 
-此 **[!UICONTROL View decisions]** 高級權限允許用戶使用現有活動和相關業務對象進行決策。
+的 **[!DNL View decisions]** 高級權限允許用戶使用現有活動和相關業務對象做出決策。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* 特定決策管理：
+* 具體決策管理：
    * activities.read
    * offers.read
    * placements.read
-   * ranking_strategy.read
+   * 排名_策略_讀取
 
-* Adobe Experience Platform特定：
+* Adobe Experience Platform特別：
    * schemas.read
    * segment.read
    * datasets.read
    * datasets.write
    * datasets.delete
 
-### 發佈優惠方案決策權限 {#publish-decisions}
+### [!DNL Publish offers decisioning] 權限 {#publish-decisions}
 
-此 **[!UICONTROL Publish offers decisioning]** 高階權限可讓使用者存取核准/取消核准優惠方案活動。
+的 **[!DNL Publish offers decisioning]** 高級權限允許用戶訪問批准/取消批准聘用活動。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* 特定決策管理：
-   * offers_activity.read
+* 具體決策管理：
+   * offis_activity_read
    * offers.read
    * offers.write
    * offers.delete
    * placements.read
    * placements.write
    * placements.delete
-   * ranking_strategy.read
+   * 排名_策略_讀取
 
-* Adobe Experience Platform特定：
+* Adobe Experience Platform特別：
    * schemas.read
    * segment.read
    * datasets.read
    * profiles.read
 
-### 管理排名策略權限 {#manage-decisions}
+### [!DNL Manage ranking strategies] 權限 {#manage-decisions}
 
-此 **[!UICONTROL Manage ranking strategies]** 高階權限可讓使用者讀取、建立、編輯和刪除自訂訊息報表，以及使用動作功能。
+的 **[!DNL Manage ranking strategies]** 高級權限允許用戶讀取、建立、編輯和刪除自定義消息報告和使用操作功能。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* 特定決策管理：
-   * ranking_strategy.read
-   * ranking_strategy.write
-   * ranking_strategy.delete
+* 具體決策管理：
+   * 排名_策略_讀取
+   * 排名_策略_寫入
+   * 排名_策略_刪除
    * activities.read
    * offers.read
    * placements.read
 
-## 管理功能 {#administration-permissions}
+## 管理能力 {#administration-permissions}
 
-### 管理子網域委派權限 {#manage-subdomain}
+### [!DNL Manage subdomains delegation] 權限 {#manage-subdomain}
 
-此 **[!UICONTROL Manage subdomains delegation]** 高級權限允許用戶建立、編輯和刪除子域委託（包括IP池）。
+的 **[!DNL Manage subdomains delegation]** 高級權限允許用戶建立、編輯和刪除子域委託（包括IP池）。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* subdomains_delegation_read
-* subdomains_delegation.write
-* subdomains_delegation.delete
+* 子域_委派_讀取
+* 子域_委派_寫入
+* 子域_委派_刪除
 
-### 查看PTR記錄權限 {#view-ptr}
+### [!DNL Manage PTR records] 權限 {#manage-ptr}
 
-此 **[!UICONTROL View PTR records]** 高級權限允許用戶查看已基於子域配置的PTR記錄。
+的 **[!DNL Manage PTR records]** 高級權限允許用戶讀取、建立、編輯和刪除基於子域配置的PTR記錄。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
 * PTR_records.read
-* subdomains_delegation_read
+* PTR_records.write
+* 子域_委派_讀取
 
-### 管理IP池權限 {#manage-ip-pools}
+### [!DNL View PTR records] 權限 {#view-ptr}
 
-此 **[!UICONTROL Manage IP pools]** 高階權限可讓使用者建立、編輯和刪除相關性定義。
+的 **[!DNL View PTR records]** 高級權限允許用戶查看基於子域配置的PTR記錄。
 
-其中包含下列低階權限：
+它包括以下低級權限：
+
+* PTR_records.read
+* 子域_委派_讀取
+
+### [!DNL Manage IP pools] 權限 {#manage-ip-pools}
+
+的 **[!DNL Manage IP pools]** 高級權限允許用戶建立、編輯和刪除關聯定義。
+
+它包括以下低級權限：
 
 * IP_pools.read
 * IP_pools.write
 * IP_pools.delete
 
-### 管理郵件一般設定權限 {#manage-message-settings}
+### [!DNL Manage messages general settings] 權限 {#manage-message-settings}
 
-此 **[!UICONTROL Manage messages general settings]** 高階權限可讓使用者在沙箱層級建立、編輯和刪除全域設定。
+的 **[!DNL Manage messages general settings]** 高級權限允許用戶在沙盒級別建立、編輯和刪除全局設定。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* Journey Optimizer特定：
+* Journey Optimizer特別：
    * messages_general_settings.read
    * messages_general_settings.write
    * messages_general_settings.delete
-* Adobe Experience Platform特定：
+* Adobe Experience Platform特別：
    * schemas.read
 
-### 檢視訊息一般設定權限 {#view-message-settings}
+### [!DNL View messages general settings] 權限 {#view-message-settings}
 
-此 **[!UICONTROL View messages general settings]** 高級權限允許用戶查看消息的一般設定，如執行地址。
+的 **[!DNL View messages general settings]** 高級權限允許用戶查看消息常規設定，如執行地址。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* Journey Optimizer特定：
+* Journey Optimizer特別：
    * messages_general_settings.read
-* Adobe Experience Platform特定：
+* Adobe Experience Platform特別：
    * schemas.read
 
-### 管理郵件預設集權限 {#manage-message-presets}
+### [!DNL Manage messages presets] 權限 {#manage-message-presets}
 
-此 **[!UICONTROL Manage messages presets]** 高階權限可讓使用者在沙箱層級建立、編輯和刪除各管道的訊息預設集。
+的 **[!DNL Manage messages presets]** 高級權限允許用戶在沙盒級別跨通道建立、編輯和刪除消息預設。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* Journey Optimizer特定：
-   * messages_presets.read
-   * messages_presets.write
-   * messages_presets.delete
-   * subdomains_delegation_read
+* Journey Optimizer特別：
+   * messages_presets_read
+   * messages_presets_write
+   * messages_presets_delete
+   * 子域_委派_讀取
    * IP_pools.read
    * mobile_setting.read(來自Adobe Experience Platform Launch)
 
-### 檢視訊息預設集權限 {#view-message-presets}
+### [!DNL View messages presets] 權限 {#view-message-presets}
 
-此 **[!UICONTROL View messages presets]** 高級權限允許用戶查看郵件預設集，以便了解建立郵件時要使用哪些郵件預設集。
+的 **[!DNL View messages presets]** 高級權限允許用戶查看消息預設，以便知道在建立消息時要使用哪些消息預設。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* messages_presets.read
-* subdomains_delegation_read
+* messages_presets_read
+* 子域_委派_讀取
 * IP_pools.read
-* mobile_setting.read(來自Adobe Experience Platform Launch)
+* mobile_setting.read(來自Adobe Experience Platform資料收集)
 
-### 管理隱藏權限 {#manage-suppression}
+### [!DNL Manage suppression] 權限 {#manage-suppression}
 
-此 **[!UICONTROL Manage suppression]** 高級權限允許用戶在將電子郵件地址添加到隱藏清單之前定義跳出數，以及向隱藏清單添加和刪除條目。
+的 **[!DNL Manage suppression]** 高級權限允許用戶在將電子郵件地址添加到禁止使用清單之前定義禁止使用的次數，以及向禁止使用清單添加和刪除條目。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* suppressing_rules.read
-* suppressing_rules.write
-* suppressing_rules.delete
-* suppressing_list.write
-* suppressing_list.delete
+* suppression_rules_read
+* suppression_rules_write
+* suppression_rules_delete
+* suppression_list.write
+* suppression_list.delete
 
-### 查看隱藏清單權限 {#view-suppresion-list}
+### [!DNL View suppression list] 權限 {#view-suppression-list}
 
-此 **[!UICONTROL View suppression list]** 高級權限允許用戶查看隱藏清單內容和設定。
+的 **[!DNL View suppression list]** 高級權限允許用戶查看禁止顯示清單內容和設定。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* Journey Optimizer特定：
-   * suppressing_list.view
-* Adobe Experience Platform特定：
+* Journey Optimizer特別：
+   * suppression_list_view
+
+* Adobe Experience Platform特別：
    * profiles.read
    * datasets.read
 
-### 導出隱藏清單權限 {#export-suppression-list}
+### [!DNL Export suppression list] 權限 {#export-suppression-list}
 
-此 **[!UICONTROL Export suppression list]** 高級權限可讓使用者將隱藏清單下載為CSV檔案。
+的 **[!DNL Export suppression list]** 高級權限允許用戶將禁止顯示清單作為CSV檔案下載。
 
-其中包含下列低階權限：
+它包括以下低級權限：
 
-* Journey Optimizer特定：
-   * suppressing_list.export
-* Adobe Experience Platform特定：
+* Journey Optimizer特別：
+   * suppression_list.export
+
+* Adobe Experience Platform特別：
    * profiles.read
    * datasets.read

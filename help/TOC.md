@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
-workflow-type: ht
-source-wordcount: '890'
-ht-degree: 100%
+source-git-commit: ae60bf08a4f358b99e803f3fd17f9218acda9062
+workflow-type: tm+mt
+source-wordcount: '893'
+ht-degree: 99%
 
 ---
 
@@ -66,12 +66,12 @@ ht-degree: 100%
       + [物件函式](using/personalization/functions/objects.md)
       + [字串函式](using/personalization/functions/string.md)
    + [新增個人化優惠](using/deliver-personalized-offers.md)
-+ 區段、設定檔與身分{#segment}
++ 段、配置檔案和標識{#segment}
    + 區段 {#segments}
       + [開始使用區段](using/segment/about-segments.md)
       + [建立區段](using/segment/creating-a-segment.md)
    + [設定檔](using/get-started-profiles.md)
-   + [身分](using/get-started-identity.md)
+   + [身份](using/get-started-identity.md)
 + 歷程 {#orchestrate-journeys}
    + 關於歷程{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
@@ -190,9 +190,7 @@ ht-degree: 100%
       + [使用 Campaign v7/v8 傳送訊息](using/building-journeys/campaign-classic-use-case.md)
       + [使用自訂動作以動態方式傳遞集合](using/building-journeys/collections.md)
       + [傳送訊息給訂閱者](using/building-journeys/message-to-subscribers-uc.md)
-      <!--
-      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-      -->
+      + [加快交貨速度](using/building-journeys/ramp-up-deliveries-uc.md)
 + 追蹤和監視 {#reporting}
    + [訊息監視](using/message-monitoring.md)
    + 即時報告 {#live-report}

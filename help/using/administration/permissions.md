@@ -6,7 +6,7 @@ feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
+source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 14%
@@ -17,25 +17,25 @@ ht-degree: 14%
 
 >[!IMPORTANT]
 >
-> 以下詳述的每個程式只能由 **[!UICONTROL Product]** 或 **[!UICONTROL System]** 管理員。 如需詳細資訊，請參閱 [Admin Console檔案](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html).
+> 下文詳述之各程式僅可由 **[!UICONTROL Product]** 或 **[!UICONTROL System]** 管理員。 有關此項的詳細資訊，請參閱 [管理控制台文檔](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html)。
 
-**[!UICONTROL Product profiles]** 是一組使用者，在您的組織內共用相同的權限和沙箱。
+**[!UICONTROL Product profiles]** 是您組織中共用相同權限和沙箱的一組用戶。
 
-此 [!DNL Journey Optimizer] 產品可讓您在不同的現成可用功能之間進行選取 **[!UICONTROL Product profiles]** 擁有指派給使用者的不同權限。 如需可用 **[!UICONTROL Product profiles]**，請參閱 [頁面](ootb-product-profiles.md).
+的 [!DNL Journey Optimizer] 產品允許您在不同的出廠設定之間進行選擇 **[!UICONTROL Product profiles]** 具有不同級別的權限來分配給用戶。 有關可用的 **[!UICONTROL Product profiles]**，請參閱 [頁](ootb-product-profiles.md)。
 
-屬於 **[!UICONTROL Product profiles]** 有權使用產品中包含的Adobe應用程式和服務。
+屬於 **[!UICONTROL Product profiles]** 享有該產品中的Adobe應用和服務。
 
-您也可以建立自己的 **[!UICONTROL Product profiles]** 如果您想要微調使用者對介面中特定功能或物件的存取權。
+您還可以建立自己的 **[!UICONTROL Product profiles]** 的子菜單。
 
 ## 指派產品設定檔 {#assigning-product-profile}
 
-您可以選取指派現成可用或自訂 **[!UICONTROL Product profile]** 給您的使用者。
+您可以選擇指定現成或自定義 **[!UICONTROL Product profile]** 到用戶。
 
-您可以在 [內建的產品設定檔](ootb-product-profiles.md) 區段。
+在中，可找到具有指定權限的每個現成產品配置檔案的清單 [內置產品配置檔案](ootb-product-profiles.md) 的子菜單。
 
-若要指派 **[!UICONTROL Product profile]**:
+分配 **[!UICONTROL Product profile]**:
 
-1. 在 [!DNL Admin Console]，從 **[!UICONTROL Products]** 頁簽，選擇 **[!UICONTROL Experience Cloud - Platform powered applications]** 產品。
+1. 在 [!DNL Admin Console]，也請參見Wiki頁。 **[!UICONTROL Products]** 頁籤 **[!UICONTROL Experience Cloud - Platform powered applications]** 產品。
 
 1. 選取 **[!UICONTROL Product profile]**。
 
@@ -45,47 +45,47 @@ ht-degree: 14%
 
    ![](../assets/do-not-localize/access_control_3.png)
 
-1. 輸入您的使用者名稱或電子郵件地址，然後選取使用者。
+1. 鍵入用戶名或電子郵件地址並選擇用戶。
 
-   若使用者先前未在 [!DNL Admin Console]，請參閱 [新增使用者檔案](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   如果用戶以前未在 [!DNL Admin Console]，請參閱 [添加用戶文檔](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)。
 
    ![](../assets/do-not-localize/access_control_4.png)
 
-1. 執行上述步驟，將其他使用者新增至您的 **[!UICONTROL Product profile]**. 然後，按一下 **[!UICONTROL Save]**.
+1. 執行與上述步驟相同的步驟，將其他用戶添加到 **[!UICONTROL Product profile]**。 然後，按一下 **[!UICONTROL Save]**。
 
 接著，您的使用者應會收到一封電子郵件，並重新導向至您的執行個體。
 
-有關用戶管理的詳細資訊，請參閱 [Admin Console檔案](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
+有關用戶管理的詳細資訊，請參閱 [Admin Console文檔](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html)。
 
-存取執行個體時，您的使用者會根據 **[!UICONTROL Product profile]**. 如果使用者沒有權限存取功能，則會出現下列畫面。
+訪問實例時，用戶將根據在 **[!UICONTROL Product profile]**。 如果用戶沒有權限訪問某個功能，將出現以下螢幕。
 
 ![](../assets/do-not-localize/access_control_1.png)
 
-## 編輯現有的產品設定檔 {#edit-product-profile}
+## 編輯現有產品配置檔案 {#edit-product-profile}
 
-適用於現成或自訂 **[!UICONTROL Product profiles]**，您可以隨時決定新增或刪除權限。
+用於現成或定制 **[!UICONTROL Product profiles]**，您可以隨時決定添加或刪除權限。
 
-在此範例中，我們要新增 **[!UICONTROL Permissions]** 與 **[!UICONTROL Message]** 指派給歷程檢視器的使用者功能 **[!UICONTROL Product profile]**. 然後，使用者便能發佈訊息。
+在此示例中，我們要添加 **[!UICONTROL Permissions]** 與 **[!UICONTROL Message]** 分配給旅程查看器的用戶的功能 **[!UICONTROL Product profile]**。 然後用戶將能夠發佈消息。
 
-請注意，如果您修改現成可用或自訂 **[!UICONTROL Product profile]**，則會影響指派給此的每個使用者 **[!UICONTROL Product profile]**.
+請注意，如果修改現成或自定義 **[!UICONTROL Product profile]**，它會影響分配給此的每個用戶 **[!UICONTROL Product profile]**。
 
-1. 在 [!DNL Admin Console]，從 **[!UICONTROL Products]** 頁簽，選擇 **[!UICONTROL Experience Cloud - Platform powered applications]** 產品。
+1. 在 [!DNL Admin Console]，也請參見Wiki頁。 **[!UICONTROL Products]** 頁籤 **[!UICONTROL Experience Cloud - Platform powered applications]** 產品。
 
-1. 選取歷程檢視器 **[!UICONTROL Product profile]**.
+1. 選擇行程查看器 **[!UICONTROL Product profile]**。
 
 1. 選取 **[!UICONTROL Permissions]** 索引標籤。
 
-   此 **[!UICONTROL Permissions]** 索引標籤會顯示套用至 **[!UICONTROL Experience Cloud - Platform powered applications]** 產品。
+   的 **[!UICONTROL Permissions]** 頁籤顯示應用於 **[!UICONTROL Experience Cloud - Platform powered applications]** 產品。
 
    ![](../assets/do-not-localize/access_control_5.png)
 
-1. 選取 **[!UICONTROL Messages]** 功能。
+1. 選擇 **[!UICONTROL Messages]** 功能。
 
    ![](../assets/do-not-localize/access_control_6.png)
 
-1. 從 **[!UICONTROL Available Permission Items]** 清單中，選取要指派給您的權限 **[!UICONTROL Product profile]** 按一下加號(+)圖示即可。
+1. 從 **[!UICONTROL Available Permission Items]** 清單中，選擇要分配給您的權限 **[!UICONTROL Product profile]** 按鈕。
 
-   在此，我們新增 **[!UICONTROL Publish messages]** 權限。
+   這裡，我們將 **[!UICONTROL Publish messages]** 權限。
 
    ![](../assets/do-not-localize/access_control_7.png)
 
@@ -95,49 +95,49 @@ ht-degree: 14%
 
    ![](../assets/do-not-localize/access_control_8.png)
 
-如有需要，您也可以使用特定權限建立新的產品設定檔。 有關詳細資訊，請參閱 [建立產品設定檔](#create-product-profile).
+如果需要，還可以建立具有特定權限的新產品配置檔案。 有關此內容的詳細資訊，請參閱 [建立產品配置檔案](#create-product-profile)。
 
 ## 建立產品設定檔 {#create-product-profile}
 
-[!DNL Journey Optimizer] 可讓您建立自己的 **[!UICONTROL Product profiles]** 並將一組權限和沙箱指派給您的使用者。 使用 **[!UICONTROL Product profiles]**，您可以授權或拒絕存取介面中的特定功能或物件。
+[!DNL Journey Optimizer] 允許您建立自己的 **[!UICONTROL Product profiles]** 並為用戶分配一組權限和沙箱。 與 **[!UICONTROL Product profiles]**，您可以授權或拒絕訪問介面中的某些功能或對象。
 
-如需如何建立和管理沙箱的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+有關如何建立和管理沙箱的詳細資訊，請參閱 [Adobe Experience Platform文檔](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
-在此範例中，我們將建立名為 **歷程唯讀** 我們會授予歷程功能的唯讀權限。 使用者將只能存取及檢視歷程，而無法存取其他功能，例如 **[!UICONTROL Decision management]** 或 **[!UICONTROL Messages]** in [!DNL Journey Optimizer].
+在本示例中，我們將建立一個名為 **只讀遊程** 我們將授予「旅程」功能的只讀權限。 用戶將只能訪問和查看行程，並且將無法訪問其他功能，如 **[!DNL  Decision management]** 或 **[!DNL Messages]** 在 [!DNL Journey Optimizer]。
 
-若要建立 **歷程唯讀** **[!UICONTROL product profiles]**:
+建立 **只讀遊程** **[!UICONTROL product profiles]**:
 
-1. 存取 [!DNL Admin Console].
+1. 訪問 [!DNL Admin Console]。
 
-1. 從 **[!UICONTROL Products]** 頁簽，選擇 **[!UICONTROL Experience Cloud - Platform powered applications]** 產品。
+1. 從 **[!UICONTROL Products]** 頁籤 **[!UICONTROL Experience Cloud - Platform powered applications]** 產品。
 
 1. 按一下「**[!UICONTROL New Profile]**」。
 
    ![](../assets/do-not-localize/access_control_9.png)
 
-1. 新增 **[!UICONTROL Product Profile Name]**, **[!UICONTROL Display Name]** 和 **[!UICONTROL Description]** 新 **[!UICONTROL product profiles]**.
+1. 添加 **[!UICONTROL Product Profile Name]**。 **[!UICONTROL Display Name]** 和 **[!UICONTROL Description]** 為新 **[!UICONTROL product profiles]**。
 
    ![](../assets/do-not-localize/access_control_10.png)
 
 1. 在 **[!UICONTROL Notifications]** 類別中，選擇從此產品設定檔新增或移除使用者時，使用者是否會收到電子郵件通知。
 
-1. 完成後，按一下 **[!UICONTROL Save]** 選取您新建立的 **[!UICONTROL product profiles]**.
+1. 完成後，按一下 **[!UICONTROL Save]** 選擇新建立的 **[!UICONTROL product profiles]**。
 
-1. 若要新增使用者存取不同功能的權限，請選取 **[!UICONTROL Permissions]** 標籤。
+1. 要添加用戶訪問不同功能的權限，請選擇 **[!UICONTROL Permissions]** 頁籤。
 
-1. 在不同功能之間選取，例如 **[!UICONTROL Messages]**, **[!UICONTROL Segments]** 或 **[!UICONTROL Decision management]** 可在 [!DNL Journey Optimizer] 清單中。
+1. 在不同的功能之間進行選擇，如 **[!DNL Messages]**。 **[!DNL Segments]** 或 **[!DNL Decision management]** 可用 [!DNL Journey Optimizer] 清單。
 
-   在此處，我們選取 **[!UICONTROL Journeys]** 功能。
+   在此，我們選擇 **[!UICONTROL Journeys]** 功能。
 
    ![](../assets/do-not-localize/access_control_11.png)
 
-1. 從 **[!UICONTROL Available Permission Items]** 清單中，選取要指派給您的權限 **[!UICONTROL Product profile]** 按一下加號(+)圖示即可。
+1. 從 **[!UICONTROL Available Permission Items]** 清單中，選擇要分配給您的權限 **[!UICONTROL Product profile]** 按鈕。
 
-   在此，我們選取 **[!UICONTROL View journeys]** 和 **[!UICONTROL View journeys event, data sources, actions]**.
+   在此，我們選擇 **[!DNL View journeys]** 和 **[!DNL View journeys event, data sources, actions]**。
 
    ![](../assets/do-not-localize/access_control_12.png)
 
-1. 選取 **[!UICONTROL Sandbox access]** 選擇要指派給您的沙箱的功能 **[!UICONTROL Product profile]**.
+1. 選擇 **[!UICONTROL Sandbox access]** 選擇要分配給您的沙盒的功能 **[!UICONTROL Product profile]**。
 
    ![](../assets/do-not-localize/access_control_13.png)
 
@@ -145,6 +145,6 @@ ht-degree: 14%
 
 1. 完成後，按一下 **[!UICONTROL Save]**。
 
-您的 **[!UICONTROL Product profile]** 現在已建立並設定。 您現在需要將其指派給使用者。
+您 **[!UICONTROL Product profile]** 建立並配置。 您現在需要將其分配給用戶。
 
-如需產品設定檔建立與管理的詳細資訊，請參閱 [Admin Console檔案](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-product-profiles.ug.html).
+有關產品配置檔案建立和管理的詳細資訊，請參閱 [Admin Console文檔](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-product-profiles.ug.html)。

@@ -2,16 +2,99 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 52d187f349cba45b43c38c20e45c1dff746d38bf
-workflow-type: ht
-source-wordcount: '2074'
-ht-degree: 100%
+source-git-commit: 244f05998098bf1770d5f33c955f09688f58ffe7
+workflow-type: tm+mt
+source-wordcount: '2379'
+ht-degree: 88%
 
 ---
 
 # 發行說明 {#release-notes}
 
-本頁面列出[!DNL Journey Optimizer]所有新功能和改進項目。您也可以參閱[最新文件更新](documentation-updates.md)。
+本頁面列出[!DNL Journey Optimizer]所有新功能和改進項目。您還可以 [最新文檔更新](documentation-updates.md) 的子菜單。
+
+## 2022 年 1 月發行
+
+### 新功能
+
+<table>
+<thead>
+<tr>
+<th><strong>Journeys — 使用Profile Cap條件優化IP提升</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>配置 <strong>條件</strong> 行程中的活動，您現在可以定義配置檔案帽。 此新條件類型允許您為行程路徑設定最大數量的配置檔案。 達到此限制後，輸入的配置檔案將採用替代路徑。 這樣，您就可以提高交付量（IP提升）。 例如，您可能希望通過拆分執行來加快域上的交貨量：在第1天發送1000條消息，在第2天發送2000條消息等。</p>
+<p>有關詳細資訊，請參閱 <a href="building-journeys/condition-activity.md#profile_cap">詳細文檔</a> 相關 <a href="building-journeys/ramp-up-deliveries-uc.md">示例用例</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<!--th><strong>Journeys - Leverage segment entrances and exits in Read segment</strong><br/></th-->
+<th><strong>旅程 — 讀段改進</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<!--p>You can now configure the <strong>Read Segment</strong> activity to target only the individuals who entered or exited the selected segment during a specific lookback period. For example, you can decide to only retrieve all the customers who entered the VIP segment since yesterday. Only the new VIP customers will be targeted. The customers who were already part of the segment before yesterday will be excluded.</p-->
+<p>的 <strong>增量讀取</strong> 選項已添加到循環 <strong>讀取段</strong> 活動。 此選項允許您僅針對自上次執行行程以來進入段的個人。 第一次執行始終針對所有段成員。</p>
+<p>如需詳細資訊，請參閱<a href="building-journeys/read-segment.md#configuring-segment-trigger-activity">詳細文件</a>。
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改進項目
+
+<!--
+**Performances**
+* The integration between Journey Optimizer and Adobe Campaign Classic has been optimized to improve performance. The capping default configuration has been changed to 4000 calls / 5 minutes.  
+-->
+
+**歷程**
+
+* Journey Optimizer步驟事件現在可以連結到中的其他資料集 [AdobeCustomer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant)。 的 **配置檔案ID** 在內置的「行程步驟事件」架構中，欄位現在定義為標識欄位。 [進一步了解](reports/sharing-overview.md#integration-cja)
+
+<!--
+* To optimize performance and prevent obsolete resource usage, all journeys in test mode that have not been triggered for a week now switch back to the **Draft** status.
+-->
+
+**Offer Decisioning**
+
+<!--* When simulating which offers will be delivered for a given test profile, you can now define simulation settings and use the mode view for your simulations. [Learn more](offers/offer-activities/simulation.md#define-simulation-settings)-->
+
+* 當您更新在已發佈消息中直接或間接引用的聘用、回退聘用、聘用集合或聘用決定時，更新現在將自動反映在相應消息中，而無需重新發佈。 [進一步了解](offers/offers-e2e.md#insert-decision-in-email)
+
+**管理**
+
+* 管理員現在可以使用CNAME設定子域編輯PTR記錄。 [進一步了解](configuration/ptr-records.md#edit-ptr-subdomains-cname)
+
+**個人化**
+
+* **添加到收藏夾**  — 為了在使用個性化功能時幫助提高效率，我們引入了保存收藏夾的概念。 將不同的屬性添加到收藏夾菜單可快速訪問您使用頻率最高的項目。 [進一步了解](personalization/personalize.md#fav)
+
+<!--
+
+**Reporting**
+
+* New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients.
+* Deliveries can now be filtered depending on their status:
+
+    * From the Message Execution list, you can now exclude proofs from your deliveries' list.
+    * From your Live/Global reports, you can choose to exclude journey test events.
+
+    [Learn more](message-monitoring.md)
+
+* From your reports, you can now see if the [Send-Time Optimization](building-journeys/journeys-message.md#send-time-optimization) option has been activated for a given delivery.
+
+-->
 
 ## 2021 年 11 月發行版本
 
@@ -32,7 +115,6 @@ ht-degree: 100%
 </tbody>
 </table>
 
-
 ## 2021 年 10 月發行版本 {#oct-2021-release}
 
 <!--table>
@@ -51,22 +133,7 @@ ht-degree: 100%
 </tbody>
 </table-->
 
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Journeys - Profile cap condition</strong><br/></th>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
-<p>For more information, refer to the <a href="building-journeys/condition-activity.md#profile_cap">detailed documentation</a> and related <a href="building-journeys/ramp-up-deliveries-uc.md">sample use case</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+### 新功能
 
 <table>
 <thead>
@@ -109,7 +176,6 @@ ht-degree: 100%
 
 * **運算式編輯器**  - 身為超級使用者，您現在可以使用函式來處理地圖。 此功能可與訂閱清單搭配運用。 例如，您現在可以從區段的訂閱清單取得電子郵件地址。 [在本範例進一步了解](building-journeys/message-to-subscribers-uc.md)
 
-   <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
 * **監控**  - 已增強即時歷程和測試模式的步驟事件。 [新欄位](reports/sharing-field-list.md#serviceevents) 已新增與設定檔匯出作業有關的內容。 為了提供更佳的使用者體驗，步驟事件欄位現在會整理成不同類別。 所有先前的步驟事件欄位仍可在 [stepEvents](reports/sharing-legacy-fields.md) 類別中使用。
 * **協助工具**  - 歷程已導入協助工具增強功能。
 * **集合**  - 現在支援包含子物件的物件陣列。 [閱讀全文](building-journeys/collections.md)
@@ -129,6 +195,7 @@ ht-degree: 100%
 **個人化**
 
 * **新的日期格式協助工具功能**  - 您現在可以指定日期字串的呈現方式。 [進一步了解](personalization/functions/dates.md#format-date)
+
 
 **決定管理**
 
