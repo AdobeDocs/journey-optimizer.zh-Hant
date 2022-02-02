@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ae60bf08a4f358b99e803f3fd17f9218acda9062
+source-git-commit: 01573675c28972f863e3516577d8a06b403de312
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 99%
+source-wordcount: '910'
+ht-degree: 97%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 99%
       + [建立推播通知](using/create-push.md)
       + [建立 SMS 訊息](using/create-sms.md)
    + [新增及管理資產](using/assets-essentials.md)
+   + [新增個人化優惠](using/deliver-personalized-offers.md)
    + 設計電子郵件 {#email-designer}
       + [開始使用電子郵件設計](using/design-emails.md)
       + [在 UI 中設計您的電子郵件內容](using/create-email-content.md)
@@ -49,24 +50,28 @@ ht-degree: 99%
    + [管理選擇退出](using/consent.md)
 + 個人化{#personalization}
    + [開始使用使用個人化](using/personalization/personalize.md)
-   + [個人化語法](using/personalization/personalization-syntax.md)
-   + [個人化驗證](using/personalization/personalization-validation.md)
+   + [個性化上下文](using/personalization/personalization-contexts.md)
+   + 使用表達式編輯器 {#expression-editor}
+      + [關於表達式編輯器](using/personalization/personalization-build-expressions.md)
+      + [將屬性添加到收藏夾](using/personalization/personalization-favorites.md)
+      + [個人化驗證](using/personalization/personalization-validation.md)
+   + 建立運算式 {#build-expressions}
+      + [個人化語法](using/personalization/personalization-syntax.md)
+      + 輔助函式{#functions}
+         + [開始使用輔助函式](using/personalization/functions/functions.md)
+         + [聚合函式](using/personalization/functions/aggregation.md)
+         + [算術函式](using/personalization/functions/arithmetic-functions.md)
+         + [陣列和清單功能](using/personalization/functions/arrays-list.md)
+         + [日期函式](using/personalization/functions/dates.md)
+         + [布林值和比較函式](using/personalization/functions/operators.md)
+         + [輔助程式](using/personalization/functions/helpers.md)
+         + [地圖函式](using/personalization/functions/maps.md)
+         + [物件函式](using/personalization/functions/objects.md)
+         + [字串函式](using/personalization/functions/string.md)
    + 使用案例{#personalization-use-cases}
       + [訂單狀態通知](using/personalization/personalization-use-case.md)
       + [放棄購物車電子郵件](using/personalization/personalization-use-case-helper-functions.md)
-   + 輔助函式{#functions}
-      + [開始使用輔助函式](using/personalization/functions/functions.md)
-      + [聚合函式](using/personalization/functions/aggregation.md)
-      + [算術函式](using/personalization/functions/arithmetic-functions.md)
-      + [陣列和清單功能](using/personalization/functions/arrays-list.md)
-      + [日期函式](using/personalization/functions/dates.md)
-      + [布林值和比較函式](using/personalization/functions/operators.md)
-      + [輔助程式](using/personalization/functions/helpers.md)
-      + [地圖函式](using/personalization/functions/maps.md)
-      + [物件函式](using/personalization/functions/objects.md)
-      + [字串函式](using/personalization/functions/string.md)
-   + [新增個人化優惠](using/deliver-personalized-offers.md)
-+ 段、配置檔案和標識{#segment}
++ 區段、設定檔與身分{#segment}
    + 區段 {#segments}
       + [開始使用區段](using/segment/about-segments.md)
       + [建立區段](using/segment/creating-a-segment.md)

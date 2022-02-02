@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
+source-git-commit: e5aa7fbce348c9da00b3f5c8624237c76128a61b
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '730'
 ht-degree: 10%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 10%
 
 |功能 |權限| |-|-| |旅程| <ul><li> **[!DNL Manage journeys]**:讀取、建立、編輯和刪除旅程。</li><li>**[!DNL Publish journeys]**:發佈旅程。</li><li>**[!DNL Manage journeys events, data sources and actions]**:讀取、建立、編輯和刪除事件、源或操作。</li><li>**[!DNL View journeys report]**:閱讀和編輯旅程報告。</li></ul>|
 |訊息|<ul><li> **[!DNL Manage messages]**:讀取、建立、編輯消息預覽和發送test/校樣。</li><li>**[!DNL Manage messages preview and test]**:發佈消息。</li><li>**[!DNL Publish messages]**:讀取、建立和編輯消息預覽併發送test/校樣。</li><li>**[!DNL View messages report]**:讀取和編輯消息報告。</li></ul>|
-|管理|<ul><li>**[!DNL Manage subdomains delegation]**:讀取、建立、編輯和刪除子域委派。</li><li>**[!DNL Manage IP pools]**:讀取、建立、編輯和刪除ip池。</li><li>**[!DNL Manage PTR records]**:讀取、建立、編輯和刪除PTR記錄。</li><li>**[!DNL View PTR records]**:對PTR記錄的只讀訪問。</li><li> **[!DNL Manage messages general settings]**:讀取、建立、編輯和刪除消息常規設定。</li><li>**[!DNL Manage messages presets]**:讀取、建立、編輯和刪除內容品牌。</li><li>**[!DNL Manage suppression rules]**:訪問讀取、建立、編輯和刪除禁止規則。</li><li>**[!DNL View suppression list]**:讀取並導出本地抑制清單。</li><li>**[!DNL Manage alerts]**:啟用/禁用旅程、消息和權利的警報。</li></ul>|
+|管理|<ul><li>**[!DNL Manage subdomains delegation]**:讀取、建立、編輯和刪除子域委派。</li><li>**[!DNL Manage IP pools]**:讀取、建立、編輯和刪除ip池。</li><li>**[!DNL Manage PTR records]**:讀取和編輯PTR記錄。</li><li>**[!DNL View PTR records]**:對PTR記錄的只讀訪問。</li><li> **[!DNL Manage messages general settings]**:讀取、建立、編輯和刪除消息常規設定。</li><li>**[!DNL Manage messages presets]**:讀取、建立、編輯和刪除內容品牌。</li><li>**[!DNL Manage suppression rules]**:訪問讀取、建立、編輯和刪除禁止規則。</li><li>**[!DNL View suppression list]**:讀取並導出本地抑制清單。</li><li>**[!DNL Manage alerts]**:啟用/禁用旅程、消息和權利的警報。</li></ul>|
 |決定管理|<ul><li>**[!DNL Manage decisions]**:讀取、建立、編輯和刪除決策。</li><li>**[!DNL Manage ranking strategies]**:讀取、建立、編輯和刪除自定義消息報告和使用操作功能。</li></ul>|
 |Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**:授予對沙箱的訪問權限。</li><li>**[!DNL Manage segments]**:讀取、建立、編輯和刪除段。</li><li>**[!DNL Manage profiles]**:讀取、建立、編輯和刪除配置檔案。</li><li>**[!DNL Read datasets]**:對資料集的只讀訪問。</li><li>**[!DNL Read schemas]**:對架構的只讀訪問。</li><li>**[!DNL Read Identity namespace]**:對標識命名空間的只讀訪問。</li><li>**[!DNL Manage merge policies]**:讀取、建立、編輯和刪除合併策略。</li></ul>|
 

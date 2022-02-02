@@ -16,9 +16,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
+source-git-commit: e5aa7fbce348c9da00b3f5c8624237c76128a61b
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -314,7 +314,7 @@ ht-degree: 0%
 
 ### [!DNL Manage PTR records] 權限 {#manage-ptr}
 
-的 **[!DNL Manage PTR records]** 高級權限允許用戶讀取、建立、編輯和刪除基於子域配置的PTR記錄。
+的 **[!DNL Manage PTR records]** 高級權限允許用戶讀取和編輯基於子域配置的PTR記錄。
 
 它包括以下低級權限：
 
