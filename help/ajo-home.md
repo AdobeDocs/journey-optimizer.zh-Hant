@@ -7,17 +7,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
-workflow-type: ht
-source-wordcount: '202'
-ht-degree: 100%
+source-git-commit: e36b81fd3cdfa0cc6efe1a85316fcb4f5a9c9764
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Adobe [!DNL Journey Optimizer] 文件 {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
-
 
 <table style="table-layout:fixed">
 <tr>
