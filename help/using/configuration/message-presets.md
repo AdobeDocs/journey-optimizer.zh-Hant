@@ -1,110 +1,110 @@
 ---
 title: 建立訊息預設集
-description: 了解如何設定和監視訊息預設集
+description: 瞭解如何配置和監視消息預設
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 7039c816c459ba8cb5dbb52daf3c8265e1e1a511
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1684'
+ht-degree: 1%
 
 ---
 
-# 建立訊息預設集
+# 建立訊息預設集 {#message-presets-creation}
 
-使用 [!DNL Journey Optimizer]，您可以設定訊息預設集，以定義電子郵件和推播通知訊息所需的所有技術參數：電子郵件類型、寄件者電子郵件和名稱、行動應用程式等。
+與 [!DNL Journey Optimizer]，您可以設定消息預設，這些預設定義電子郵件和推送通知消息所需的所有技術參數：電子郵件類型、發件人電子郵件和姓名、移動應用等。
 
 >[!CAUTION]
 >
-> * 訊息預設集設定僅限於歷程管理員。 [了解更多](../administration/ootb-product-profiles.md#journey-administrator)
+> * 郵件預設配置僅限於「旅程管理員」。 [進一步了解](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * 您必須執行電子郵件設定， [推送設定](../push-configuration.md) 建立訊息預設集之前的步驟。
+> * 必須執行電子郵件配置和 [推送配置](../push-configuration.md) 建立消息預設之前的步驟。
 
 
-設定訊息預設集後，您就可以在從 **[!UICONTROL Presets]** 清單。
+一旦配置了消息預設，您就可以在從 **[!UICONTROL Presets]** 清單框。
 
-➡️ [了解如何在此影片中建立和使用電子郵件預設集](#video-presets)
+➡️ [瞭解如何在此視頻中建立和使用電子郵件預設](#video-presets)
 
-## 建立訊息預設集 {#create-message-preset}
+## 建立消息預設 {#create-message-preset}
 
-若要建立訊息預設集，請依照下列步驟操作：
+要建立消息預設，請執行以下步驟：
 
-1. 存取 **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** ，然後按一下 **[!UICONTROL Create Message preset]**.
+1. 訪問 **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** 菜單，然後按一下 **[!UICONTROL Create Message preset]**。
 
    ![](../assets/preset-create.png)
 
-1. 輸入預設集的名稱和說明（選用），然後選取要設定的通道。
+1. 輸入預設的名稱和說明（可選），然後選擇要配置的通道。
 
    ![](../assets/preset-general.png)
 
    >[!NOTE]
    >
-   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線 `_`，點`.` 連字型大小 `-` 字元。
+   > 名稱必須以字母(A-Z)開頭。 它只能包含字母數字字元。 您還可以使用下划線 `_`，點`.` 連字元 `-` 字元。
 
-1. 設定 **電子郵件** 設定。
+1. 配置 **電子郵件** 的子菜單。
 
    ![](../assets/preset-email.png)
 
-   * 選取將與預設集一併傳送的訊息類型： **交易** 或 **行銷**
+   * 選擇將使用預設發送的消息類型： **事務性** 或 **營銷**
 
       >[!CAUTION]
       >
-      > **交易** 可將訊息傳送給從行銷通訊取消訂閱的設定檔。 這些訊息只能在特定內容中傳送，例如密碼重設、順序狀態、傳送通知。
+      > **事務性** 消息可以發送到從營銷通信中取消訂閱的配置檔案。 這些消息只能在特定的上下文中發送，例如，密碼重置、訂單狀態、傳遞通知。
 
-   * 選取用來傳送電子郵件的子網域。 [了解更多](about-subdomain-delegation.md)
-   * 選擇要與預設集關聯的IP池。 [了解更多](ip-pools.md)
-   * 輸入使用該預設集傳送之電子郵件的標題參數。
+   * 選擇要用於發送電子郵件的子域。 [進一步了解](about-subdomain-delegation.md)
+   * 選擇要與預設關聯的IP池。 [進一步了解](ip-pools.md)
+   * 輸入使用該預設發送的電子郵件的標頭參數。
 
       >[!CAUTION]
       >
-      >電子郵件地址必須使用目前選取的 [委派子網域](about-subdomain-delegation.md).
+      >電子郵件地址必須使用當前選定的 [委託子域](about-subdomain-delegation.md)。
 
       <!--CAUTION: Except for the **Reply to (forward email)** field-->
 
-      * **[!UICONTROL Sender name]**:寄件者的名稱，例如您的品牌名稱。
+      * **[!UICONTROL Sender name]**:發件人的名稱，如您的品牌名稱。
 
-      * **[!UICONTROL Sender email]**:您要用於通訊的電子郵件地址。 例如，如果委派的子網域為 *marketing.luma.com*，您可以使用 *contact@marketing.luma.com*.
+      * **[!UICONTROL Sender email]**:要用於通信的電子郵件地址。 例如，如果委派的子域是 *營銷.luma.com*，您可以使用 *contact@marketing.luma.com*。
 
-      * **[!UICONTROL Reply to (name)]**:收件者點按 **回覆** 按鈕。
+      * **[!UICONTROL Reply to (name)]**:收件人按一下 **答復** 按鈕。
 
-      * **[!UICONTROL Reply to (email)]**:收件者點按 **回覆** 按鈕。 <!--The emails sent to this address will be forwarded to the **[!UICONTROL Reply to (forward email)]** address provided below. -->您必須使用在委派子網域上定義的位址(例如 *reply@marketing.luma.com*)，否則會捨棄電子郵件。
+      * **[!UICONTROL Reply to (email)]**:收件人按一下 **答復** 按鈕。 <!--The emails sent to this address will be forwarded to the **[!UICONTROL Reply to (forward email)]** address provided below. -->必須使用在委派子域上定義的地址(例如， *reply@marketing.luma.com*)，否則將刪除電子郵件。
 
-      * **[!UICONTROL Error email]**:在傳送數天郵件（非同步退信）後，ISP產生的所有錯誤都會在此位址上接收。
+      * **[!UICONTROL Error email]**:ISP在發送數天郵件（非同步綁定）後生成的所有錯誤都會在此地址上接收。
 
       <!--**[!UICONTROL Reply to (forward email)]**: All emails received by [!DNL Journey Optimizer] for the delegated subdomain will be forwarded to this email address. You can specify any address, except an email address defined on the delegated subdomain. For example, if the delegated subdomain is *marketing.luma.com*, any address like *abc@marketing.luma.com* is prohibited.-->
 
       >[!NOTE]
       >
-      >自2021年10月發行版本起，您無法再從 [!DNL Journey Optimizer] 使用者介面。 如果您想要收到 [!DNL Journey Optimizer] 若要將委派的子網域轉送至特定電子郵件地址，請聯絡 [Adobe客戶服務支援團隊](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。 <!--move to Deprecated features section when created?-->
+      >從2021年10月的發行版起，再也不能從 [!DNL Journey Optimizer] 用戶介面。 如果要接收的所有電子郵件 [!DNL Journey Optimizer] 要將委託的子域轉發到特定電子郵件地址，請與 [Adobe客戶服務支援團隊](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。 <!--move to Deprecated features section when created?-->
 
       ![](../assets/preset-header.png)
 
       >[!NOTE]
       >
-      >名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線 `_`，點`.` 連字型大小 `-` 字元。
+      >名稱必須以字母(A-Z)開頭。 它只能包含字母數字字元。 您還可以使用下划線 `_`，點`.` 連字元 `-` 字元。
 
-   * 設定 **電子郵件重試參數**. 依預設， [重試時間段](retries.md#retry-duration) 設為84小時，但您可以調整此設定以更符合您的需求。
+   * 配置 **電子郵件重試參數**。 預設情況下， [重試時間](retries.md#retry-duration) 設定為84小時，但您可以調整此設定以更好地滿足您的需要。
 
       ![](../assets/preset-retry-paramaters.png)
 
-      您必須在以下範圍內輸入整數值（以小時或分鐘為單位）:
-      * 對於行銷電子郵件類型，最低重試期間為6小時。
-      * 對於交易式電子郵件類型，最低重試期間為10分鐘。
+      必須在以下範圍內輸入整數值（以小時或分鐘為單位）:
+      * 對於市場營銷電子郵件類型，最短重試週期為6小時。
+      * 對於事務性電子郵件類型，最小重試週期為10分鐘。
       * 對於這兩種電子郵件類型，最大重試時間為84小時（或5040分鐘）。
 
 
-1. 設定 **推播通知** 設定。
+1. 配置 **推送通知** 的子菜單。
 
    ![](../assets/preset-push.png)
 
-   * 至少選擇一個平台： **iOS** 和/或 **Android**
+   * 至少選擇一個平台： **iOS** 和/或 **安卓**
 
-   * 選取用於每個平台的行動應用程式。
+   * 選擇要用於每個平台的移動應用程式。
 
-      如需如何設定您的環境以傳送推播通知的詳細資訊，請參閱 [本節](../push-gs.md).
+      有關如何配置環境以發送推送通知的詳細資訊，請參閱 [此部分](../push-gs.md)。
 
 <!--
 1. Configure the **SMS** settings.
@@ -120,174 +120,174 @@ ht-degree: 0%
     * Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
 -->
 
-1. 完成所有參數設定後，按一下 **[!UICONTROL Submit]** 確認。 您也可以將訊息預設集儲存為草稿，稍後繼續其設定。
+1. 配置完所有參數後，按一下 **[!UICONTROL Submit]** 確認。 您也可以將消息預設保存為草稿，並稍後恢復其配置。
 
    ![](../assets/preset-submit.png)
 
-1. 建立訊息預設集後，訊息預設集會顯示在清單中，並搭配 **[!UICONTROL Processing]** 狀態。
+1. 建立消息預設後，它將顯示在清單中 **[!UICONTROL Processing]** 狀態。
 
-   在此步驟中，將執行數項檢查，以確認其已正確設定。 處理時間已到 **48h-72h**，並可以 **7-10個工作天**.
+   在此步驟中，將執行多項檢查，以驗證是否已正確配置了該步驟。 處理時間在 **48小時–72小時**，並且 **7-10個工作日**。
 
-   這些檢查包括由Adobe團隊執行的設定和技術測試：
+   這些檢查包括由Adobe團隊執行的配置和技術test:
 
    * SPF驗證
    * DKIM驗證
    * MX記錄驗證
    * 檢查IP密碼清單
-   * 主機檢查
+   * Helo主機檢查
    * IP池驗證
-   * A/PTR記錄、t/m/res子域驗證
+   * A/PTR記錄， t/m/res子域驗證
 
    >[!NOTE]
    >
-   >如果檢查未成功，請進一步了解中可能的失敗原因。 [本節](#monitor-message-presets).
+   >如果檢查不成功，請詳細瞭解中可能的失敗原因 [此部分](#monitor-message-presets)。
 
-1. 檢查成功後，訊息預設集會取得 **[!UICONTROL Active]** 狀態。 它已準備好用於傳送訊息。
+1. 檢查成功後，消息預設將獲取 **[!UICONTROL Active]** 狀態。 它已準備好用於傳遞消息。
 
    <!-- later on, users will be notified in Pulse -->
 
    ![](../assets/preset-active.png)
 
-## 監視消息預設集 {#monitor-message-presets}
+## 監視消息預設 {#monitor-message-presets}
 
-所有訊息預設集都會顯示在 **[!UICONTROL Channels]** > **[!UICONTROL Message presets]** 功能表。 篩選器可協助您瀏覽清單（通道類型、使用者、狀態）。
+所有郵件預設都顯示在 **[!UICONTROL Channels]** > **[!UICONTROL Message presets]** 的子菜單。 篩選器可幫助您瀏覽清單（通道類型、用戶、狀態）。
 
 ![](../assets/preset-filters.png)
 
-訊息預設集可以有下列狀態：
+消息預設可具有以下狀態：
 
-* **[!UICONTROL Draft]**:訊息預設集已儲存為草稿，但尚未提交。 開啟它以繼續設定。
-* **[!UICONTROL Processing]**:訊息預設集已提交，且正在執行數個驗證步驟。
-* **[!UICONTROL Active]**:消息預設集已驗證，可以選擇建立消息。
-* **[!UICONTROL Failed]**:在消息預設集驗證期間，一個或多個檢查失敗。
-* **[!UICONTROL Deactivated]**:訊息預設集已停用。 它無法用於建立新郵件。
+* **[!UICONTROL Draft]**:消息預設已保存為草稿，但尚未提交。 開啟它以恢復配置。
+* **[!UICONTROL Processing]**:消息預設已提交，正在執行幾個驗證步驟。
+* **[!UICONTROL Active]**:已驗證消息預設，可以選擇該預設以建立消息。
+* **[!UICONTROL Failed]**:在消息預設驗證期間，一個或多個檢查失敗。
+* **[!UICONTROL Deactivated]**:消息預設被停用。 不能用於建立新郵件。
 
-如果訊息預設集建立失敗，以下說明每個可能失敗原因的詳細資訊。
+如果消息預設建立失敗，則下面將介紹每種可能失敗原因的詳細資訊。
 
-如果發生其中一個錯誤，請與 [Adobe客戶服務支援團隊](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}以取得協助。
+如果出現其中一個錯誤，請與 [Adobe客戶服務支援團隊](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}以獲取幫助。
 
-* **SPF驗證失敗**:SPF（發件人策略框架）是一種電子郵件驗證協定，它允許指定可從給定子域發送電子郵件的授權IP。 SPF驗證失敗意味著SPF記錄中的IP地址與用於向郵箱提供程式發送電子郵件的IP地址不匹配。
+* **SPF驗證失敗**:SPF（發件人策略框架）是一種電子郵件身份驗證協定，它允許指定可從給定子域發送電子郵件的授權IP。 SPF驗證失敗意味著SPF記錄中的IP地址與用於向郵箱提供程式發送電子郵件的IP地址不匹配。
 
-* **DKIM驗證失敗**:DKIM(DomainKeys Indified Mail)允許接收伺服器驗證接收的郵件是由關聯域的正版發件人發送的，並且原始郵件的內容在其過程中沒有更改。 DKIM驗證失敗意味著接收郵件伺服器無法驗證郵件內容的真實性及其與發送域的關聯。
+* **DKIM驗證失敗**:DKIM(DomainKeys Indifed Mail)允許收件人伺服器驗證所接收的郵件是否由關聯域的正版發件人發送，並且原始郵件的內容在發送過程中未被更改。 DKIM驗證失敗意味著接收郵件伺服器無法驗證郵件內容的真實性及其與發送域的關聯：
 
-* **MX記錄驗證失敗**:MX(Mail eXchange)記錄驗證失敗表示代表指定子網域接受入站電子郵件的郵件伺服器未正確設定。
+* **MX記錄驗證失敗**:MX(Mail eXchange)記錄驗證失敗意味著負責代表給定子域接受入站電子郵件的郵件伺服器配置不正確。
 
-* **傳遞能力配置失敗**:傳遞能力配置可能會因下列原因而失敗：
-   * 已分配IP的封鎖清單
+* **可交付性配置失敗**:可交付性配置可能會因以下原因而失敗：
+   * 已分配IP的阻止清單
    * 無效 `helo` 名稱
-   * 從IP（不是相應預設集的IP池中指定的IP）發送的電子郵件
-   * 無法傳送電子郵件至Gmail和Yahoo等主要ISP的收件匣
+   * 從IP發送的電子郵件，而不是在相應預設的IP池中指定的電子郵件
+   * 無法將電子郵件發送到Gmail和Yahoo等主要ISP的收件箱
 
-## 編輯訊息預設集 {#edit-message-preset}
+## 編輯消息預設 {#edit-message-preset}
 
-若要編輯訊息預設集，請遵循下列步驟。
+要編輯消息預設，請執行以下步驟。
 
 >[!NOTE]
 >
->您無法編輯 **[!UICONTROL Push notification settings]**. 如果訊息預設集僅針對推播通知通道設定，則無法編輯。
+>無法編輯 **[!UICONTROL Push notification settings]**。 如果僅為推送通知通道配置了消息預設，則不可編輯。
 
-1. 從清單中，按一下訊息預設集名稱以開啟它。
+1. 從清單中，按一下消息預設名稱以將其開啟。
 
    ![](../assets/preset-name.png)
 
-1. 視需要編輯其屬性。
+1. 根據需要編輯其屬性。
 
    >[!NOTE]
    >
-   >如果訊息預設集具有 **[!UICONTROL Active]** 狀態、 **[!UICONTROL Name]**, **[!UICONTROL Select channel]** 和 **[!UICONTROL Subdomain]** 欄位會呈現灰色且無法編輯。
+   >如果消息預設具有 **[!UICONTROL Active]** 狀態， **[!UICONTROL Name]**。 **[!UICONTROL Select channel]** 和 **[!UICONTROL Subdomain]** 欄位呈灰色，無法編輯。
 
-1. 按一下 **[!UICONTROL Submit]** 確認變更。
+1. 按一下 **[!UICONTROL Submit]** 確認更改。
 
    ![](../assets/preset-confirm-update.png)
 
    >[!NOTE]
    >
-   >您也可以將訊息預設集儲存為草稿，稍後繼續更新。
+   >您還可以將消息預設保存為草稿，稍後繼續更新。
 
-提交變更後，訊息預設集將會經過類似下列情形的驗證週期： [建立預設集](#create-message-preset).
+提交更改後，消息預設將經過與當時的驗證週期類似的驗證週期 [建立預設](#create-message-preset)。
 
 >[!NOTE]
 >
->如果您只編輯 **[!UICONTROL Description]**, **[!UICONTROL Email type]** 和/或 **[!UICONTROL Email retry parameters]** 欄位，更新即時。
+>如果僅編輯 **[!UICONTROL Description]**。 **[!UICONTROL Email type]** 和/或 **[!UICONTROL Email retry parameters]** 欄位，更新是即時的。
 
 對於具有 **[!UICONTROL Active]** 狀態，您可以檢查更新的詳細資訊。 若要這麼做：
 
-* 按一下 **[!UICONTROL Recent update]** 圖示顯示在使用中預設集名稱旁。
+* 按一下 **[!UICONTROL Recent update]** 表徵圖。
 
    ![](../assets/preset-recent-update-icon.png)
 
-* 您也可以在進行更新時，從使用中的訊息預設集存取更新詳細資訊。
+* 您還可以在進行更新時從活動消息預設訪問更新詳細資訊。
 
    ![](../assets/preset-view-update-details.png)
 
-在 **[!UICONTROL Recent update]** 螢幕上，您可以看到更新狀態、<!--the approximate remaining time before completion (if validation is in progress)--> 和請求的更改清單。
+在 **[!UICONTROL Recent update]** 螢幕上，您可以查看更新狀態、<!--the approximate remaining time before completion (if validation is in progress)--> 和請求的更改清單。
 
 ![](../assets/preset-recent-update-screen.png)
 
 ### 更新狀態 {#update-statuses}
 
-訊息預設集更新可能具有下列狀態：
+消息預設更新可具有以下狀態：
 
-* **[!UICONTROL Processing]**:訊息預設集更新已提交，正在執行數個驗證步驟。
-* **[!UICONTROL Success]**:更新的消息預設集已驗證，可以選擇建立消息。
-* **[!UICONTROL Failed]**:在消息預設集更新驗證期間，一個或多個檢查失敗。
+* **[!UICONTROL Processing]**:消息預設更新已提交，正在執行幾個驗證步驟。
+* **[!UICONTROL Success]**:已驗證更新的消息預設，並且可以選擇該預設來建立消息。
+* **[!UICONTROL Failed]**:在消息預設更新驗證期間，一個或多個檢查失敗。
 
-每個狀態的詳細資訊如下。
+每種狀態詳見下文。
 
 ### 正在處理
 
-將執行數個傳遞能力檢查，以確認預設集已正確更新。
+將執行多次可傳送性檢查，以驗證預設是否已正確更新。
 
 >[!NOTE]
 >
->如果您只編輯 **[!UICONTROL Description]**, **[!UICONTROL Email type]** 和/或 **[!UICONTROL Email retry parameters]** 欄位，更新即時。
+>如果僅編輯 **[!UICONTROL Description]**。 **[!UICONTROL Email type]** 和/或 **[!UICONTROL Email retry parameters]** 欄位，更新是即時的。
 
-處理時間已到 **48h-72h**，並可以 **7-10個工作天**. 進一步了解在驗證週期期間執行的檢查，位於 [本節](#create-message-preset).
+處理時間在 **48小時–72小時**，並且 **7-10個工作日**。 瞭解有關在驗證週期中執行的檢查的詳細資訊，請參閱 [此部分](#create-message-preset)。
 
-如果您編輯已啟用的預設集：
+如果編輯已處於活動狀態的預設：
 
-* 其地位仍然 **[!UICONTROL Active]** 當驗證程式進行中時。
+* 其地位仍然 **[!UICONTROL Active]** 正在驗證進程。
 
-* 此 **[!UICONTROL Recent update]** 圖示會顯示在訊息預設集清單中預設集的名稱旁。
+* 的 **[!UICONTROL Recent update]** 表徵圖顯示在消息預設清單中預設的名稱旁邊。
 
-* 在驗證程式期間，使用此預設集設定的訊息仍使用舊版預設集。
+* 在驗證過程中，使用此預設配置的消息仍在使用該預設的舊版本。
 
 >[!NOTE]
 >
->更新正在進行時，無法修改消息預設集。 您仍可以按一下其名稱，但所有欄位都會呈現灰色。 更新成功前，不會反映變更。
+>更新正在進行時，無法修改消息預設。 您仍然可以按一下其名稱，但所有欄位都呈灰色顯示。 在更新成功之前，不會反映更改。
 
 ### 成功
 
-驗證程式一旦成功，使用此預設集的所有訊息中都會自動使用新版本的預設集。 不過，您可能必須等待：
-* 在被統一消息使用前幾分鐘，
-* 直到預設集的下一個批次在批次訊息中生效為止。
+驗證過程成功後，使用此預設的所有消息中將自動使用新版本的預設。 但是，您可能必須等待：
+* 在被統一消息消耗前幾分鐘，
+* 直到預設在批消息中生效的下一個批。
 
 <!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
 
 ### 已失敗
 
-如果驗證程式失敗，系統仍會使用舊版的預設集。
+如果驗證過程失敗，則仍將使用預設的舊版本。
 
 <!--The possible update error types are as follows:
 * **Authorization error**: the bearer token is invalid or not authorized.
 * **Illegal modification**: an edit was performed on one or more non-allowed fields.
 * **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
-進一步了解 [本節](#monitor-message-presets).
+瞭解有關中可能的失敗原因的詳細資訊 [此部分](#monitor-message-presets)。
 
-更新失敗時，預設集會重新變成可編輯。 您可以按一下名稱，並更新需要修正的設定。
+更新失敗時，預設將再次變為可編輯。 您可以按一下其名稱並更新需要修復的設定。
 
-## 停用訊息預設集 {#deactivate-preset}
+## 停用消息預設 {#deactivate-preset}
 
-若要將 **[!UICONTROL Active]** 無法建立新消息的消息預設集，您可以將其停用。 不過，使用此預設集的已發佈訊息將不會受影響，且會繼續運作。
+要生成 **[!UICONTROL Active]** 消息預設不可用於建立新消息，您可以停用它。 但是，使用此預設的已發佈消息將不受影響，並將繼續工作。
 
 >[!NOTE]
 >
->您無法在處理更新時停用訊息預設集。 必須等待更新成功或失敗。 深入了解 [編輯訊息預設集](#edit-message-preset) 和 [更新狀態](#update-statuses).
+>無法在更新正在處理時停用消息預設。 必須等待更新成功或失敗。 瞭解更多 [編輯郵件預設](#edit-message-preset) 在 [更新狀態](#update-statuses)。
 
-1. 訪問消息預設集清單。
+1. 訪問消息預設清單。
 
-1. 針對您選取的使用中預設集，按一下 **[!UICONTROL More actions]** 按鈕。
+1. 對於所選的活動預設，按一下 **[!UICONTROL More actions]** 按鈕
 
 1. 選擇「**[!UICONTROL Deactivate]**」。
 
@@ -295,9 +295,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->無法刪除停用中的訊息預設集，以避免使用這些預設集傳送訊息的歷程中出現任何問題。
+>無法刪除停用的郵件預設以避免使用這些預設來發送郵件的行程中的任何問題。
 
-您無法直接編輯停用中的訊息預設集。 不過，您可以複製郵件並編輯復本，以建立將用來建立新訊息的新版本。 您也可以再次啟動，然後等到更新成功編輯為止。
+不能直接編輯已停用的消息預設。 但是，您可以複製該副本並編輯該副本，以建立將用於建立新郵件的新版本。 您也可以再次激活它，並等待更新成功編輯它。
 
 ![](../assets/preset-activate.png)
 
@@ -313,8 +313,8 @@ ht-degree: 0%
 
 1. Once validated, it gets the **[!UICONTROL Active]** status and is ready to be used to create new messages.-->
 
-## 作法影片{#video-presets}
+## How-to視頻{#video-presets}
 
-了解如何建立訊息預設集、如何使用這些預設集，以及如何委派子網域和建立IP池。
+瞭解如何建立消息預設、如何使用這些預設以及如何委託子域和建立IP池。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)

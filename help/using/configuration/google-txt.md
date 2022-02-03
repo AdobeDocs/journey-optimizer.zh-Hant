@@ -1,6 +1,6 @@
 ---
 title: 委派子網域
-description: 了解如何委派子網域
+description: 瞭解如何委派子域
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -16,29 +16,29 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 1d7f661dc0a89e4754a76ecf2cdce1e43a5275ec
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 29%
 
 ---
 
-# 將Google TXT記錄新增至子網域
+# 將GoogleTXT記錄添加到子域 {#google-txt-record}
 
 TXT 記錄是一種 DNS 記錄，用於提供關於網域的文字資訊，可由外部來源讀取。
 
-為確保良好的傳遞能力，並成功將電子郵件傳送至Gmail地址， [!DNL Journey Optimizer] 可讓您將特殊的Google網站驗證TXT記錄新增至子網域，以確保經過驗證。
+為了確保電子郵件的良好傳送和成功地傳送到Gmail地址， [!DNL Journey Optimizer] 允許您向子域添加特殊的Google站點驗證TXT記錄，以確保驗證。
 
 >[!CAUTION]
 >
-> 只有在子網域具有 **[!UICONTROL Success]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](access-subdomains.md).
+> 只有子域具有 **[!UICONTROL Success]** 狀態。 有關子域狀態的詳細資訊，請參閱 [此部分](access-subdomains.md)。
 
-若要將Google TXT記錄新增至子網域，請執行下列步驟：
+要將GoogleTXT記錄添加到子域，請執行以下步驟：
 
-1. 從 **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** 功能表。
+1. 從 **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** 的子菜單。
 
-1. 在 **[!UICONTROL Google txt record]** 部分，輸入從 [Google Workspace](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools-->，然後按一下 **[!UICONTROL Save]**.
+1. 在 **[!UICONTROL Google txt record]** 部分，輸入從 [Google工作區](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;<!--G Suite Admin tools-->，然後按一下 **[!UICONTROL Save]**。
 
    ![](../assets/subdomain-google-txt.png)
 
-1. 新增 TXT 記錄後，該記錄必須獲得 Google 驗證。若要這麼做，請導覽至 [Google Workspace](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools-->，然後啟動驗證步驟。
+1. 新增 TXT 記錄後，該記錄必須獲得 Google 驗證。要執行此操作，請導航至 [Google工作區](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;<!--G Suite Admin tools-->，然後啟動驗證步驟。

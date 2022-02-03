@@ -2,14 +2,14 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 01a18d6a54775eb2cd0bfda5080e4007b80727de
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 90%
 
 ---
 
-# 本文件的最新更新
+# 本文件的最新更新 {#latest-updates}
 
 本頁面列出 [!DNL Journey Optimizer] 所有文件更新。
 

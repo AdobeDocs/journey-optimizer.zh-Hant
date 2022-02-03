@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8ecf4f1af725a34e94bb5407f9e0369841c33206
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 97%
@@ -28,7 +28,7 @@ ht-degree: 97%
       + [開發人員快速入門](using/path/developer.md)
    + [使用者介面](using/user-interface.md)
    + [限制](using/limitations.md)
-+ 訊息 {#create-messages}
++ 訊息 {#messages}
    + [開始使用訊息](using/get-started-content.md)
    + 建立訊息 {#create-message}
       + [建立訊息](using/create-message.md)
@@ -43,7 +43,7 @@ ht-degree: 97%
       + [匯入或編碼您的電子郵件內容](using/existing-content.md)
       + [使用電子郵件設計人員內容元件](using/content-components.md)
    + [新增連結及追蹤訊息](using/message-tracking.md)
-   + 驗證並發佈{#create-message}
+   + 驗證並發佈{#validate}
       + [預覽和校樣](using/preview.md)
       + [檢查警報](using/alerts.md)
       + [發佈訊息](using/publish-manage-message.md)
@@ -233,7 +233,7 @@ ht-degree: 97%
       + [登陸頁面報告](using/landing-pages/lp-report.md)
       + [訂閱清單報告](using/landing-pages/subscription-report.md)
 + 決定管理 {#offer-decisioniong}
-   + 開始使用決定管理 {#get-started}
+   + 開始使用決定管理 {#get-started-decision}
       + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
       + [使用者介面](using/offers/get-started/user-interface.md)
       + [建立和管理優惠的重要步驟](using/offers/offer-library/key-steps.md)
@@ -315,13 +315,13 @@ ht-degree: 97%
    + [方案](using/get-started-schemas.md)
    + [資料集](using/get-started-datasets.md)
    + [查詢](using/get-started-queries.md)
-+ 設定{#get-started}
++ 設定{#configuration}
    + [開始使用 Journey Optimizer 設定](using/configuration/get-started-configuration.md)
-   + 設定訊息 {#configuration}
+   + 設定訊息 {#configuration-message}
       + 推播通知設定{#push-config}
          + [開始使用推播設定](using/push-gs.md)
          + [設定推播通知頻道](using/push-configuration.md)
-      + 電子郵件設定 {#email-config}
+      + 電子郵件設定 {#email-configuration}
          + 委派子網域 {#delegate-subdomains}
             + [開始使用子網域委派](using/configuration/about-subdomain-delegation.md)
             + [委派子網域](using/configuration/delegate-subdomain.md)
@@ -356,7 +356,7 @@ ht-degree: 97%
          + [設定動作](using/action/about-custom-action-configuration.md)
          + [與 Adobe Campaign v7/v8 整合](using/action/acc-action.md)
    + [來源](using/get-started-sources.md)
-+ 存取控制 {#administration}
++ 存取控制 {#access-control}
    + [存取控制概覽](using/administration/permissions-overview.md)
    + [內建的產品設定檔](using/administration/ootb-product-profiles.md)
    + [管理使用者和產品設定檔](using/administration/permissions.md)

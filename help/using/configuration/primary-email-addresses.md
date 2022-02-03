@@ -1,6 +1,6 @@
 ---
-title: 一般訊息設定
-description: 了解如何設定電子郵件地址
+title: 常規消息設定
+description: 瞭解如何設定電子郵件地址
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -16,29 +16,29 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 5%
 
 ---
 
-# 變更主要電子郵件地址
+# 更改主電子郵件地址 {#change-primary-email}
 
-當您定位設定檔時，資料庫中可能會有數個電子郵件地址（個人、專業電子郵件地址等）。
+當您針對配置檔案時，資料庫中可能有幾個電子郵件地址（個人、專業電子郵件地址等）。
 
-透過Journey Optimizer，您可以決定要從設定檔服務使用的電子郵件地址，並在有數個地址可用時排定優先順序。 要執行此操作，請依照下列步驟執行：
+使用Journey Optimizer，您可以確定從配置檔案服務使用的電子郵件地址，並在幾個地址可用時確定優先順序。 要執行此操作，請依照下列步驟執行：
 
-1. 存取  **[!UICONTROL Channels]** `>` **[!UICONTROL General]** 功能表。
-1. 依預設，目前用於判斷設定檔電子郵件地址的欄位會顯示在此畫面中。 按一下 **[!UICONTROL Edit]** 來改變它。
+1. 訪問  **[!UICONTROL Channels]** `>` **[!UICONTROL General]** 的子菜單。
+1. 預設情況下，當前用於確定配置檔案的電子郵件地址的欄位顯示在此螢幕中。 按一下 **[!UICONTROL Edit]** 來改變它。
 
    ![](../assets/primary-address.png)
 
-1. 按一下修改按鈕，以選取要作為主要電子郵件地址的新欄位。
+1. 按一下「修改」按鈕以選擇要用作主要電子郵件地址的新欄位。
 
    ![](../assets/primary-address-edit.png)
 
-1. 可用的電子郵件類型XDM欄位清單隨即顯示。 選取要使用的欄位，然後按一下 **[!UICONTROL Save]**.
+1. 將顯示可用電子郵件類型XDM欄位的清單。 選擇要使用的欄位，然後按一下 **[!UICONTROL Save]**。
 
    ![](../assets/primary-address-field.png)
 
