@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 97%
+source-wordcount: '911'
+ht-degree: 98%
 
 ---
 
@@ -16,38 +16,38 @@ ht-degree: 97%
 
 + [Journey Optimizer 文件](ajo-home.md)
 + 有什麼新功能？ {#whats-new}
-   + [發行說明](using/release-notes.md)
-   + [最新更新](using/documentation-updates.md)
+   + [發行說明](using/rn/release-notes.md)
+   + [最新更新](using/rn/documentation-updates.md)
 + 快速入門{#get-started}
-   + [什麼是 Journey Optimizer](using/get-started.md)
+   + [什麼是 Journey Optimizer](using/start/get-started.md)
    + 快速入門{#quick-start}
-      + [總覽](using/quick-start.md)
-      + [行銷人員快速入門](using/path/marketer.md)
-      + [資料工程師快速入門](using/path/data-engineer.md)
-      + [管理員快速入門](using/path/administrator.md)
-      + [開發人員快速入門](using/path/developer.md)
-   + [使用者介面](using/user-interface.md)
-   + [限制](using/limitations.md)
+      + [總覽](using/start/quick-start.md)
+      + [行銷人員快速入門](using/start/path/marketer.md)
+      + [資料工程師快速入門](using/start/path/data-engineer.md)
+      + [管理員快速入門](using/start/path/administrator.md)
+      + [開發人員快速入門](using/start/path/developer.md)
+   + [使用者介面](using/start/user-interface.md)
+   + [限制](using/start/limitations.md)
 + 訊息 {#messages}
-   + [開始使用訊息](using/get-started-content.md)
+   + [開始使用訊息](using/messages/get-started-content.md)
    + 建立訊息 {#create-message}
-      + [建立訊息](using/create-message.md)
-      + [建立電子郵件](using/create-email.md)
-      + [建立推播通知](using/create-push.md)
-      + [建立 SMS 訊息](using/create-sms.md)
-   + [新增及管理資產](using/assets-essentials.md)
-   + [新增個人化優惠](using/deliver-personalized-offers.md)
+      + [建立訊息](using/messages/create-message.md)
+      + [建立電子郵件](using/messages/create-email.md)
+      + [建立推播通知](using/messages/create-push.md)
+      + [建立 SMS 訊息](using/messages/create-sms.md)
+   + [新增及管理資產](using/messages/assets-essentials.md)
+   + [新增個人化優惠](using/messages/deliver-personalized-offers.md)
    + 設計電子郵件 {#email-designer}
-      + [開始使用電子郵件設計](using/design-emails.md)
-      + [在 UI 中設計您的電子郵件內容](using/create-email-content.md)
-      + [匯入或編碼您的電子郵件內容](using/existing-content.md)
-      + [使用電子郵件設計人員內容元件](using/content-components.md)
-   + [新增連結及追蹤訊息](using/message-tracking.md)
+      + [開始使用電子郵件設計](using/messages/design-emails.md)
+      + [在 UI 中設計您的電子郵件內容](using/messages/create-email-content.md)
+      + [匯入或編碼您的電子郵件內容](using/messages/existing-content.md)
+      + [使用電子郵件設計人員內容元件](using/messages/content-components.md)
+   + [新增連結及追蹤訊息](using/messages/message-tracking.md)
    + 驗證並發佈{#validate}
-      + [預覽和校樣](using/preview.md)
-      + [檢查警報](using/alerts.md)
-      + [發佈訊息](using/publish-manage-message.md)
-   + [管理選擇退出](using/consent.md)
+      + [預覽和校樣](using/messages/preview.md)
+      + [檢查警報](using/messages/alerts.md)
+      + [發佈訊息](using/messages/publish-manage-message.md)
+   + [管理選擇退出](using/messages/consent.md)
 + 個人化{#personalization}
    + [開始使用使用個人化](using/personalization/personalize.md)
    + [個性化上下文](using/personalization/personalization-contexts.md)
@@ -75,13 +75,13 @@ ht-degree: 97%
    + 區段 {#segments}
       + [開始使用區段](using/segment/about-segments.md)
       + [建立區段](using/segment/creating-a-segment.md)
-   + [設定檔](using/get-started-profiles.md)
-   + [身份](using/get-started-identity.md)
+   + [設定檔](using/start/get-started-profiles.md)
+   + [身分](using/start/get-started-identity.md)
 + 歷程 {#orchestrate-journeys}
    + 關於歷程{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
       + [歷程版本](using/building-journeys/journey-versions.md)
-      + [測試設定檔](using/building-journeys/creating-test-profiles.md)
+      + [建立test配置檔案](using/building-journeys/creating-test-profiles.md)
       + [與 Intelligent Services 整合](using/building-journeys/ai-services-overview.md)
    + 建立歷程{#create-journey}
       + [開始使用歷程](using/building-journeys/journey-gs.md)
@@ -195,9 +195,9 @@ ht-degree: 97%
       + [使用 Campaign v7/v8 傳送訊息](using/building-journeys/campaign-classic-use-case.md)
       + [使用自訂動作以動態方式傳遞集合](using/building-journeys/collections.md)
       + [傳送訊息給訂閱者](using/building-journeys/message-to-subscribers-uc.md)
-      + [加快交貨速度](using/building-journeys/ramp-up-deliveries-uc.md)
+      + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
 + 追蹤和監視 {#reporting}
-   + [訊息監視](using/message-monitoring.md)
+   + [訊息監視](using/messages/message-monitoring.md)
    + 即時報告 {#live-report}
       + [存取即時報告儀表板](using/reports/live-report.md)
       + [歷程即時報告](using/reports/journey-live-report.md)
@@ -220,9 +220,9 @@ ht-degree: 97%
          + [身分欄位](using/reports/sharing-identity-fields.md)
       + [查詢範例](using/reports/query-examples.md)
    + 傳遞能力 {#deliverability}
-      + [開始使用傳遞能力](using/deliverability.md)
-      + [隱藏清單](using/suppression-list.md)
-      + [允許清單](using/allow-list.md)
+      + [開始使用傳遞能力](using/messages/deliverability.md)
+      + [隱藏清單](using/messages/suppression-list.md)
+      + [允許清單](using/messages/allow-list.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
    + [建立登陸頁面](using/landing-pages/create-lp.md)
@@ -312,15 +312,15 @@ ht-degree: 97%
          + [決定 API](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
 + 資料管理 {#data-management}
-   + [方案](using/get-started-schemas.md)
-   + [資料集](using/get-started-datasets.md)
-   + [查詢](using/get-started-queries.md)
+   + [方案](using/start/get-started-schemas.md)
+   + [資料集](using/start/get-started-datasets.md)
+   + [查詢](using/start/get-started-queries.md)
 + 設定{#configuration}
    + [開始使用 Journey Optimizer 設定](using/configuration/get-started-configuration.md)
    + 設定訊息 {#configuration-message}
       + 推播通知設定{#push-config}
-         + [開始使用推播設定](using/push-gs.md)
-         + [設定推播通知頻道](using/push-configuration.md)
+         + [開始使用推播設定](using/messages/push-gs.md)
+         + [設定推播通知頻道](using/messages/push-configuration.md)
       + 電子郵件設定 {#email-configuration}
          + 委派子網域 {#delegate-subdomains}
             + [開始使用子網域委派](using/configuration/about-subdomain-delegation.md)
@@ -355,7 +355,7 @@ ht-degree: 97%
          + [關於動作](using/action/action.md)
          + [設定動作](using/action/about-custom-action-configuration.md)
          + [與 Adobe Campaign v7/v8 整合](using/action/acc-action.md)
-   + [來源](using/get-started-sources.md)
+   + [來源](using/start/get-started-sources.md)
 + 存取控制 {#access-control}
    + [存取控制概覽](using/administration/permissions-overview.md)
    + [內建的產品設定檔](using/administration/ootb-product-profiles.md)
