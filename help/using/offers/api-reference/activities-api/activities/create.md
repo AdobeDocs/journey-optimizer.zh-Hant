@@ -6,18 +6,18 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: 0c0d241008318fa5d1c63d99f00bb434f6645d22
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 10%
 
 ---
 
-# 建立決定
+# 建立決定 {#create-decision}
 
 您可以通過向以下站點發出POST請求來建立決策（以前稱為聘用活動） [!DNL Offer Library] API，同時提供容器ID。
 
-## 接受和內容類型標題
+## 接受和內容類型標題 {#accept-and-content-type-headers}
 
 下表顯示了組成 *內容類型* 和 *接受* 請求標題中的欄位：
 

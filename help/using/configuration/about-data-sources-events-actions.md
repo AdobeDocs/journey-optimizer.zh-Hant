@@ -1,14 +1,14 @@
 ---
-title: 管理和設定
-description: 瞭解管理和設定准則
+title: 設定歷程
+description: 瞭解如何配置資料源、事件和操作。
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '313'
 ht-degree: 56%
 
 ---
@@ -19,19 +19,19 @@ ht-degree: 56%
 
 ![](../assets/admin-menu.png)
 
-## 資料來源
+## 資料來源 {#data-sources}
 
-資料源配置允許您定義到系統的連接，以檢索將在您的行程中使用的其他資訊。 [進一步了解](../../using/datasource/about-data-sources.md)
+資料源配置允許您定義到系統的連接，以檢索將在您的行程中使用的其他資訊。 [了解更多](../../using/datasource/about-data-sources.md)
 
-## 活動
+## 活動 {#events}
 
 通過事件，您可以觸發整個行程，以即時向流入旅程的個體發送消息。
 
-在事件配置中，您可以配置行程中預期的事件。 傳入事件的資料按照Adobe體驗資料模型(XDM)進行規範化。 事件來自串流獲取 API，適用於驗證和未驗證的事件（例如 Adobe Mobile SDK 事件）。[進一步了解](../../using/event/about-events.md)
+在事件配置中，您可以配置行程中預期的事件。 傳入事件的資料按照Adobe體驗資料模型(XDM)進行規範化。 事件來自串流獲取 API，適用於驗證和未驗證的事件（例如 Adobe Mobile SDK 事件）。[了解更多](../../using/event/about-events.md)
 
-## 動作
+## 動作 {#actions}
 
-Journey Optimizer消息功能是內置的：您只需設計內容並發佈消息。 如果您使用第三方系統發送消息，則可以建立自定義操作。 [進一步了解](../../using/action/action.md)
+Journey Optimizer消息功能是內置的：您只需設計內容並發佈消息。 如果您使用第三方系統發送消息，則可以建立自定義操作。 [了解更多](../../using/action/action.md)
 
 ## 透過 Adobe Experience Platform 欄位瀏覽 {#friendly-names-display}
 

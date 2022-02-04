@@ -1,12 +1,12 @@
 ---
 title: 個人化驗證
-description: 深入了解個人化驗證及疑難排解
+description: 瞭解有關個性化驗證和故障排除的詳細資訊。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 1%
@@ -15,33 +15,33 @@ ht-degree: 1%
 
 # 個人化驗證 {#personalization-validation}
 
-## 驗證機制
+## 驗證機制 {#validation-mechanisms}
 
-在 **運算式編輯器** 螢幕，使用 **驗證** 按鈕以檢查個人化語法。
+在 **表達式編輯器** 螢幕，使用 **驗證** 按鈕來查看個性化設定語法。
 
 >[!NOTE]
-> 當您按一下 **新增** 按鈕以關閉編輯器視窗。
+> 按一下 **添加** 按鈕關閉對話框。
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> 如果個人化語法無效，則無法關閉運算式編輯器視窗。
+> 如果個性化語法無效，則無法關閉表達式編輯器窗口。
 
-## 常見錯誤
+## 常見錯誤 {#common-errors}
 
-* **找不到路徑&quot;XYZ&quot;**
+* **找不到路徑「XYZ」**
 
-嘗試參考未在架構中定義的欄位時。
+嘗試引用未在架構中定義的欄位時。
 
-在這種情況下 **firstName1** 未定義為設定檔結構中的屬性：
+在這種情況下 **名字1** 未定義為配置檔案架構中的屬性：
 
 ```
 {{profile.person.name.firstName1}}
 ```
 
-* **變數&quot;XYZ&quot;的類型不符。 預期的陣列。 找到字串。**
+* **變數「XYZ」的類型不匹配。 需要陣列。 找到字串。**
 
-嘗試迭代運算字串而非陣列時：
+嘗試在字串而不是陣列上迭代時：
 
 在這種情況下 **產品** 不是陣列：
 
@@ -51,66 +51,66 @@ ht-degree: 1%
 {{/each}}
 ```
 
-* **無效的handlebars語法。 找到`‘[XYZ}}’`**
+* **句柄語法無效。 找到`‘[XYZ}}’`**
 
-使用無效的handlebars語法時。
+使用無效的句柄語法時。
 
-Handlebars表達式被包圍 **{{expression}}**
+Handlebar表達式被包圍 **{{expression}}**
 
 ```
    {{[profile.person.name.firstName}}
 ```
 
-* **無效的段定義**
+* **段定義無效**
 
 ```
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-## 與優惠方案相關的特定錯誤
+## 與優惠相關的特定錯誤 {#specific-errors}
 
-與電子郵件或推送訊息中選件整合相關的錯誤模式如下：
+與提供在電子郵件或推送消息中整合相關的錯誤具有以下模式：
 
 ```
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-驗證會在訊息發佈期間或運算式編輯器中個人化內容驗證期間執行。
+驗證在消息發佈期間或在表達式編輯器中的個性化內容驗證期間執行。
 
 <table> 
  <thead> 
   <tr> 
    <th> 錯誤標題<br /> </th> 
-   <th> 驗證/解決方法 <br /> </th> 
+   <th> 驗證/解決 <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>找不到具有id placementID的資源，並鍵入OfferPlacement <br/>
-找不到具有id activityID且類型為OfferActivity的資源<br/></td> 
+   <td>找不到ID placementID並鍵入OfferPlacement的資源 <br/>
+未找到ID為activityID且類型為OfferActivity的資源<br/></td> 
    <td>檢查ActivityID和/或PlacementID是否可用</td> 
   </tr> 
    <tr> 
    <td>無法驗證資源。</td> 
-   <td>版位中的componentType應符合offerType選件</td> 
+   <td>放置中的componentType應與offerType服務匹配</td> 
   </tr> 
    <tr> 
-   <td>offerId中不存在公用URL。</td> 
-   <td>影像選件（與決策和版位配對相關聯的所有個人化和後援）應填入公用URL（deliveryURL不應空白）。</td> 
+   <td>offer offerId中不存在公共URL。</td> 
+   <td>「影像優惠」（與決策和放置對關聯的所有個性化和回退）應填充公共URL（deliveryURL不應為空）。</td> 
   </tr> 
   <tr> 
-   <td>決策（先前稱為優惠方案活動）包含非設定檔屬性。</td> 
-   <td>選件模型使用方式應僅包含設定檔屬性。</td> 
+   <td>該決定（以前稱為聘用活動）包含非配置檔案屬性。</td> 
+   <td>提供模型使用應僅包含配置檔案屬性。</td> 
   </tr> 
   <tr> 
-   <td>讀取決策使用時出錯。</td> 
-   <td>API嘗試擷取選件模型時，可能會發生此錯誤。</td> 
+   <td>獲取決策用法時出錯。</td> 
+   <td>當API嘗試獲取提供模型時，可能會發生此錯誤。</td> 
   </tr>
   <tr> 
-   <td>選件屬性選件屬性無效。</td> 
-   <td>檢查選件記錄中參考的選件屬性是否有效。 以下是有效屬性： <br/>
-影像：deliveryURL, linkURL<br/>
-文字：內容<br/>
+   <td>提供屬性提供屬性無效。</td> 
+   <td>檢查聘用記錄中引用的聘用屬性是否有效。 以下是有效屬性： <br/>
+影像：交付URL、linkURL<br/>
+文本：內容<br/>
 HTML:內容<br/></td> 
   </tr> 
  </tbody> 

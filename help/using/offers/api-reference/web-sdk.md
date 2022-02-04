@@ -1,26 +1,26 @@
 ---
 title: Adobe Experience Platform Web SDK
-description: Adobe Experience Platform Web SDK可讓您使用API或選件資料庫建立的擷取及呈現個人化選件。
+description: Adobe Experience PlatformWeb SDK允許您檢索和呈現您使用API或服務庫建立的個性化服務。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: c3b842ff-e4f8-4fac-968c-6d23abac408e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 5%
 
 ---
 
-# Adobe Experience Platform Web SDK
+# Adobe Experience PlatformWeb SDK {#aep-web-sdk}
 
-[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview){target=&quot;_blank&quot;}是用戶端JavaScript程式庫，可讓Adobe Experience Cloud的客戶透過Adobe Experience Platform邊緣網路與Experience Cloud中的各種服務互動。
+[Adobe Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview){target=&quot;_blank&quot;}是客戶端JavaScript庫，它允許Adobe Experience Cloud的客戶通過Adobe Experience Platform邊緣網路與Experience Cloud中的各種服務進行交互。
 
-Adobe Experience Platform Web SDK支援在Adobe（包括決策管理）查詢個人化解決方案，讓您能夠擷取及呈現您使用API或選件資料庫建立的個人化選件。
+Adobe Experience PlatformWeb SDK支援在Adobe查詢個性化解決方案，包括決策管理，允許您檢索和呈現您使用API或服務庫建立的個性化服務。
 
-如需如何使用Adobe Experience Platform Web SDK提供個人化優惠方案的詳細資訊，請參閱 [專屬檔案](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning){target=&quot;_blank&quot;}。
+有關如何使用Adobe Experience PlatformWeb SDK提供個性化服務的詳細資訊，請參閱 [專用文檔](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning){target=&quot;_blank&quot;}。
 
 >[!NOTE]
 >
->目前，特定使用者可提早存取Adobe Experience Platform Web SDK中的決策管理。 並非所有IMS組織都能使用此功能。
+>Adobe Experience PlatformWeb SDK中的決策管理目前可以提前訪問選定用戶。 此功能並非所有IMS組織都可用。

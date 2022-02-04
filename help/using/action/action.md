@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 68%
@@ -23,9 +23,9 @@ ht-degree: 68%
 
 動作是您向客戶提供個人化即時體驗時使用的連結，這些體驗包含推播通知、電子郵件、簡訊或您在業務中使用的任何其他數位互動方式。
 
-[!DNL Journey Optimizer] 隨附內建的訊息功能。 請參閱[本節](../get-started-content.md)。
+[!DNL Journey Optimizer] 內置消息功能。 請參閱[本節](../messages/get-started-content.md)。
 
-如果您有Adobe Campaign v7或v8，可應要求提供整合。 請參見[此頁面](../action/acc-action.md)。
+如果您有Adobe Campaignv7或v8，可應要求提供整合。 請參見[此頁面](../action/acc-action.md)。
 
 如果您使用協力廠商系統來傳送訊息，例如 Epsilon、Facebook、Adobe.io、Firebase 等等，則需要新增和設定自訂動作。請參見[此頁面](../action/about-custom-action-configuration.md)。
 
@@ -33,10 +33,10 @@ ht-degree: 68%
 
 >[!CAUTION]
 >
->自訂動作的設定必須由 **技術使用者**.
+>自定義操作的配置必須由 **技術用戶**。
 
-這些動作會顯示在您歷程的左側浮動視窗中，位於 **[!UICONTROL Action]** 類別。 請參閱[此頁面](../building-journeys/about-journey-activities.md#action-activities)。
+這些操作可在您行程的左側調色板中使用。 **[!UICONTROL Action]** 的子菜單。 請參閱[此頁面](../building-journeys/about-journey-activities.md#action-activities)。
 
-要查看操作清單或配置新操作，請選擇 **[!UICONTROL Configurations]** （在「管理」菜單部分）。 在  **[!UICONTROL Actions]** ，按一下 **[!UICONTROL Manage]**. 畫面隨即顯示動作清單。請參閱 [本頁](../user-interface.md) 以取得介面的詳細資訊。
+要查看操作清單或配置新操作，請選擇 **[!UICONTROL Configurations]** 的子菜單。 在  **[!UICONTROL Actions]** ，按一下 **[!UICONTROL Manage]**。 畫面隨即顯示動作清單。請參閱 [此頁](../start/user-interface.md) 的上界。
 
 ![](../assets/custom1.png)

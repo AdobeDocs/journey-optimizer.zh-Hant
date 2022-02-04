@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: a5c104539cae37197e0caa43cefcfed2bee23737
 workflow-type: tm+mt
 source-wordcount: '1684'
 ht-degree: 1%
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
-> * 郵件預設配置僅限於「旅程管理員」。 [進一步了解](../administration/ootb-product-profiles.md#journey-administrator)
+> * 郵件預設配置僅限於「旅程管理員」。 [了解更多](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * 必須執行電子郵件配置和 [推送配置](../push-configuration.md) 建立消息預設之前的步驟。
+> * 必須執行電子郵件配置和 [推送配置](../messages/push-configuration.md) 建立消息預設之前的步驟。
 
 
 一旦配置了消息預設，您就可以在從 **[!UICONTROL Presets]** 清單框。
@@ -54,15 +54,13 @@ ht-degree: 1%
       >
       > **事務性** 消息可以發送到從營銷通信中取消訂閱的配置檔案。 這些消息只能在特定的上下文中發送，例如，密碼重置、訂單狀態、傳遞通知。
 
-   * 選擇要用於發送電子郵件的子域。 [進一步了解](about-subdomain-delegation.md)
-   * 選擇要與預設關聯的IP池。 [進一步了解](ip-pools.md)
+   * 選擇要用於發送電子郵件的子域。 [了解更多](about-subdomain-delegation.md)
+   * 選擇要與預設關聯的IP池。 [了解更多](ip-pools.md)
    * 輸入使用該預設發送的電子郵件的標頭參數。
 
       >[!CAUTION]
       >
       >電子郵件地址必須使用當前選定的 [委託子域](about-subdomain-delegation.md)。
-
-      <!--CAUTION: Except for the **Reply to (forward email)** field-->
 
       * **[!UICONTROL Sender name]**:發件人的名稱，如您的品牌名稱。
 
@@ -70,15 +68,12 @@ ht-degree: 1%
 
       * **[!UICONTROL Reply to (name)]**:收件人按一下 **答復** 按鈕。
 
-      * **[!UICONTROL Reply to (email)]**:收件人按一下 **答復** 按鈕。 <!--The emails sent to this address will be forwarded to the **[!UICONTROL Reply to (forward email)]** address provided below. -->必須使用在委派子域上定義的地址(例如， *reply@marketing.luma.com*)，否則將刪除電子郵件。
+      * **[!UICONTROL Reply to (email)]**:收件人按一下 **答復** 按鈕。 必須使用在委派子域上定義的地址(例如， *reply@marketing.luma.com*)，否則將刪除電子郵件。
 
       * **[!UICONTROL Error email]**:ISP在發送數天郵件（非同步綁定）後生成的所有錯誤都會在此地址上接收。
-
-      <!--**[!UICONTROL Reply to (forward email)]**: All emails received by [!DNL Journey Optimizer] for the delegated subdomain will be forwarded to this email address. You can specify any address, except an email address defined on the delegated subdomain. For example, if the delegated subdomain is *marketing.luma.com*, any address like *abc@marketing.luma.com* is prohibited.-->
-
       >[!NOTE]
       >
-      >從2021年10月的發行版起，再也不能從 [!DNL Journey Optimizer] 用戶介面。 如果要接收的所有電子郵件 [!DNL Journey Optimizer] 要將委託的子域轉發到特定電子郵件地址，請與 [Adobe客戶服務支援團隊](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。 <!--move to Deprecated features section when created?-->
+      >從2021年10月的發行版起，再也不能從 [!DNL Journey Optimizer] 用戶介面。 如果要接收的所有電子郵件 [!DNL Journey Optimizer] 要將委託的子域轉發到特定電子郵件地址，請與 [Adobe客戶服務支援團隊](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
 
       ![](../assets/preset-header.png)
 
@@ -104,7 +99,7 @@ ht-degree: 1%
 
    * 選擇要用於每個平台的移動應用程式。
 
-      有關如何配置環境以發送推送通知的詳細資訊，請參閱 [此部分](../push-gs.md)。
+      有關如何配置環境以發送推送通知的詳細資訊，請參閱 [此部分](../messages/push-gs.md)。
 
 <!--
 1. Configure the **SMS** settings.
@@ -143,8 +138,6 @@ ht-degree: 1%
    >如果檢查不成功，請詳細瞭解中可能的失敗原因 [此部分](#monitor-message-presets)。
 
 1. 檢查成功後，消息預設將獲取 **[!UICONTROL Active]** 狀態。 它已準備好用於傳遞消息。
-
-   <!-- later on, users will be notified in Pulse -->
 
    ![](../assets/preset-active.png)
 
@@ -220,7 +213,7 @@ ht-degree: 1%
 
    ![](../assets/preset-view-update-details.png)
 
-在 **[!UICONTROL Recent update]** 螢幕上，您可以查看更新狀態、<!--the approximate remaining time before completion (if validation is in progress)--> 和請求的更改清單。
+在 **[!UICONTROL Recent update]** 螢幕中，您可以查看更新狀態和請求的更改清單等資訊。
 
 ![](../assets/preset-recent-update-screen.png)
 
@@ -256,22 +249,15 @@ ht-degree: 1%
 >
 >更新正在進行時，無法修改消息預設。 您仍然可以按一下其名稱，但所有欄位都呈灰色顯示。 在更新成功之前，不會反映更改。
 
-### 成功
+### 成功 {#success}
 
 驗證過程成功後，使用此預設的所有消息中將自動使用新版本的預設。 但是，您可能必須等待：
 * 在被統一消息消耗前幾分鐘，
 * 直到預設在批消息中生效的下一個批。
 
-<!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
-
-### 已失敗
+### 已失敗 {#failed}
 
 如果驗證過程失敗，則仍將使用預設的舊版本。
-
-<!--The possible update error types are as follows:
-* **Authorization error**: the bearer token is invalid or not authorized.
-* **Illegal modification**: an edit was performed on one or more non-allowed fields.
-* **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
 瞭解有關中可能的失敗原因的詳細資訊 [此部分](#monitor-message-presets)。
 
@@ -300,18 +286,6 @@ ht-degree: 1%
 不能直接編輯已停用的消息預設。 但是，您可以複製該副本並編輯該副本，以建立將用於建立新郵件的新版本。 您也可以再次激活它，並等待更新成功編輯它。
 
 ![](../assets/preset-activate.png)
-
-<!--1. Access the message presets list.
-
-1. Deactivate the message preset that you want to edit.
-
-1. Duplicate the deactivated message preset. A copy with the **[!UICONTROL Draft]** status is automatically added to the list.
-
-    ![](../assets/preset-duplicated.png)
-
-1. Open the duplicated message preset, modify it according to your needs, then submit your changes. The message preset will go through the same validation cycle as during the [creation step](#create-message-preset).
-
-1. Once validated, it gets the **[!UICONTROL Active]** status and is ready to be used to create new messages.-->
 
 ## How-to視頻{#video-presets}
 

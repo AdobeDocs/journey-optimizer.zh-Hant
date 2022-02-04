@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: c3997f572092ca8de7565b397f82dfa3b084bbd7
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
-# 條件活動{#section_e2n_pft_dgb}
+# 條件活動{#condition-activity}
 
 這些類型的條件可用：
 
@@ -99,7 +99,7 @@ ht-degree: 6%
 
 ## 輪廓帽 {#profile_cap}
 
-使用此條件類型可設定行程路徑的最大配置檔案數。 達到此限制後，輸入的配置檔案將採用替代路徑。 這可確保您的行程永遠不會超過定義的限制。
+使用此條件類型可設定行程路徑的最大配置檔案數。 當達到此限制後，輸入的個人資料將採用替代路徑。 這可確保您的行程永遠不會超過定義的限制。
 
 您可以使用此條件類型來增加交貨量。 查看 [用例](ramp-up-deliveries-uc.md)。
 

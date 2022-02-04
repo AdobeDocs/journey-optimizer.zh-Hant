@@ -1,29 +1,29 @@
 ---
 product: adobe campaign
 title: 函式
-description: 了解函式
+description: 瞭解函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: 4e52be8fb4a6b996d20cc831247b7e4f6d333840
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
-# 函式 {#concept_p1r_qj5_dgb}
+# 函式 {#functions}
 
-函式可以有不同的簽名（一組不同的有序參數）。 函式簽名可以有0-N個表達式作為有序參數。
+函式可以具有不同的簽名（一組不同的有序參數）。 函式簽名可以具有0-N表達式作為有序參數。
 
-`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
+`<function name>`(`<expression as param 1>`。 `<expression as param 2>`,...。`<expression as param N>`)
 
-每個函式都有特定的傳回類型。
+每個函式都具有特定的返回類型。
 
-以下是支援的函式清單。
+下面是支援的函式清單。
 
-## 主要函式
+## 主要功能
 
 | 類別 | 函數 |
 |-------------|-----------------------|
@@ -45,7 +45,7 @@ ht-degree: 73%
 | 轉換 | [toDuration](../functions/functiontoduration.md) |
 | 轉換 | [toInteger](../functions/functiontointeger.md) |
 | 轉換 | [toString](../functions/functiontostring.md) |
-| Date | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
+| 日期 | [當前時間](../functions/functioncurrenttimeinmillis.md) |
 | 日期 | [inLastDays](../functions/functioninlastdays.md) |
 | 日期 | [inLastHours](../functions/functioninlasthours.md) |
 | 日期 | [inLastMonths](../functions/functioninlastmonths.md) |

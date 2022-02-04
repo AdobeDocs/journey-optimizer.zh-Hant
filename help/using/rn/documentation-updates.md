@@ -1,0 +1,114 @@
+---
+title: 文件更新
+description: 瞭解最新的文件更新
+exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+workflow-type: tm+mt
+source-wordcount: '875'
+ht-degree: 97%
+
+---
+
+# 文件更新 {#latest-updates}
+
+本頁面列出 [!DNL Journey Optimizer] 所有文件更新。
+
+
+## 2022 年 1 月 {#january-2022}
+
+* 有關所有 [!DNL Journey Optimizer]2022 年 1 月發行版本新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
+
+* Offer decisioning AI 排名部分已更新，針對自動最佳化模型提供更詳細的說明。[閱讀全文](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
+
+* 加入關於方案要求的新部分，以便在使用排名策略時能夠在事件類型中傳送。 [閱讀全文](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
+
+* 與 [!DNL Journey Optimizer] 個性化功能已重新組織，以便更好地閱讀。 [閱讀全文](../personalization/personalize.md)
+
+
+## 2021 年 11 月 {#november-2021}
+
+* 現在提供完整說明，在歷程中使用進階運算式編輯器。[閱讀全文](../building-journeys/expression/expressionadvanced.md)
+* 已加入有關 CNAME 子網域委派方法的新部分。 [閱讀全文](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
+
+
+## 2021 年 10 月 {#october-2021}
+
+* 所有新功能和改進項目 [!DNL Journey Optimizer] 均包含在 2021年 10 月發行版本，並在本文件詳細說明。 [閱讀全文](release-notes.md)
+* 已新增&#x200B;**日期時間函式**&#x200B;清單。 [閱讀全文](../personalization/functions/dates.md)
+* 新增&#x200B;**每個使用者角色的快速入門區段**。採取自己的路徑，更快達到目標！ [閱讀全文](../start/quick-start.md)
+* 新增&#x200B;**編輯訊息預設集**&#x200B;區段。 [閱讀全文](../configuration/message-presets.md#edit-message-preset)
+* 新增&#x200B;**編輯 PTR 記錄**&#x200B;區段。 [閱讀全文](../configuration/ptr-records.md#edit-ptr-record)
+* 新增&#x200B;**停用訊息預設集**&#x200B;區段。 [閱讀全文](../configuration/message-presets.md#edit-message-preset#deactivate-preset)
+* 在&#x200B;**決定管理 API 開發人員指南**&#x200B;新增限制，用於行動[!DNL Experience Edge]工作流程不支援的優惠限制。[閱讀全文](../offers/api-reference/offers-api/personalized-offers/create.md#limitations)
+* 新增&#x200B;**建立模擬**&#x200B;區段。 [閱讀全文](../offers/offer-activities/simulation.md)
+* 更新&#x200B;**新增決定範圍**&#x200B;區段。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* 更新&#x200B;**定義表示的內容**&#x200B;區段，包括有關如何定義及個人化自訂文字的新增[子區段](../offers/offer-library/creating-personalized-offers.md#custom-text)。[閱讀全文](../offers/offer-library/creating-personalized-offers.md#content)
+
+
+## 2021 年 9 月 {#september-2021}
+
+* 已更新下列函式頁面： [sethours](../building-journeys/functions/functionsethours.md)、[getListItem](../building-journeys/functions/functiongetlistitem.md)、[inSegment](../building-journeys/functions/functioninsegment.md)
+
+* 已新增下列函式： [篩選](../building-journeys/functions/functionfilter.md)、[相交](../building-journeys/functions/functionintersect.md)、[toDateOnly](../building-journeys/functions/functiontodateonly.md)
+
+* 已在運算式編輯器文件中新增 dateOnly 日期類型。 [閱讀全文](../building-journeys/expression/data-types.md)
+
+* 新增自訂動作快取持續時間的詳細資料。 [閱讀更多](../datasource/external-data-sources.md#custom-authentication-mode)
+
+* 已新增自訂動作預設連接埠的資訊。 [閱讀更多](../action/about-custom-action-configuration.md#url-configuration)
+
+* 新增多個有關業務事件使用案例的資訊。 [閱讀更多](../event/about-creating-business.md#multiple-business-events)
+
+* 新增在資料湖中查詢歷程步驟事件的常用範例。 [閱讀更多](../reports/query-examples.md)
+
+* 新增&#x200B;**限制**&#x200B;頁面。 [閱讀全文](../start/limitations.md)
+
+* 改進&#x200B;**快速入門**&#x200B;頁面，包含不同角色步驟。 [閱讀全文](../start/quick-start.md)
+
+* 透過 Offer decisioning 應用程式服務，Adobe Experience Platform 使用者現在也能運用專屬區段中所述的所有決定管理功能。 [閱讀全文](../offers/get-started/starting-offer-decisioning.md)
+
+* 新增子區段，在套用限制在指定版位限制優惠選擇時，釐清使用區段與決定規則之間的差異。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
+
+* 新增特定排名公式範例，以說明一些實際使用案例。 [閱讀全文](../offers/offer-library/create-ranking-formulas.md#ranking-formula-examples)
+
+* 新增如何編輯 IP 集區的子區段。 [閱讀更多](../configuration/ip-pools.md#edit-ip-pool)
+
+
+## 2021 年 8 月 {#august-2021}
+
+* 有關 [!DNL Journey Optimizer] 2021 年 8 月發行版本的所有新功能和改進項目詳情，請參閱本文件。 [閱讀全文](release-notes.md)
+* 更新決定管理權限。 [閱讀全文](../administration/ootb-product-profiles.md)
+* 使用最新 UI 更新電子郵件設計工具的螢幕擷取畫面。
+* 更新具有動態 URL 路徑和動態標題之自訂動作的設定程式。 [閱讀全文](../action/about-custom-action-configuration.md#url-configuration)
+* 新增協助工具功能和捷徑的相關區段。 [閱讀全文](../start/user-interface.md#accessibility)
+* 新增區段評估方法的相關章節。 [閱讀全文](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
+* 在「隱藏」清單、「允許」清單和「電子郵件全域/即時」報告區段中新增附註，以指定從「電子郵件報告傳送」指標中排除狀態為「隱藏」和「不允許」設定檔。 [閱讀全文](../reports/email-global-report.md)
+* 新增區段，針對未列在允許清單病從傳送中排除的電子郵件地址或網域，說明如何加以擷取。 [閱讀全文](../messages/allow-list.md#reporting)
+* 更新「啟用允許清單」區段。 [進一步了解](../messages/allow-list.md#enable-allow-list)
+* 更新「監視」訊息預設集區段，其中包含預設集建立失敗的可能原因，以及這類錯誤的詳細資訊。 [閱讀全文](../configuration/message-presets.md#monitor-message-presets)
+* 更新並重新命名「重試時段」區段，凸顯您現在可以在訊息預設集中調整電子郵件重試設定。 [閱讀全文](../configuration/retries.md#retry-duration)
+* 新增區段，說明如何在電子郵件內容中插入一鍵選擇退出的連結。 [閱讀全文](../messages/message-tracking.md#one-click-opt-out-link)
+* 更新委派子網域區段，針對 Adobe 執行的驗證流程提供詳細資訊。 [閱讀全文](../configuration/delegate-subdomain.md#subdomain-validation)
+* 新增區段，說明如何手動將電子郵件地址和網域加入隱藏清單。 [閱讀全文](../configuration/manage-suppression-list.md#add-addresses-and-domains)
+* 更新[存取隱藏清單](../configuration/manage-suppression-list.md#access-suppression-list)區段與 [重試](../configuration/retries.md)區段來凸顯新的使用者介面。
+* 建立優惠時新增及設定代表的新流程已記錄下來。 [閱讀全文](../offers/offer-library/creating-personalized-offers.md#representations)
+
+
+## 2021 年 7 月 {#july-2021}
+
+* 有關所有 [!DNL Journey Optimizer]2021 年 7 月發行版本新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
+* 新增位於 [!DNL Journey Optimizer] 首頁和目錄的 Experience Platform 服務文件直接連結
+* [!DNL Journey Optimizer] 的 Experience Platform 服務新登陸頁面
+* 新增連結至首頁的 [!DNL Journey Optimizer] 產品說明
+* 在多個頁面中新增教學課程影片
+* 最佳化首頁影像
+* 改進、重新命名「訊息追蹤」區段並移動至「新增連結及追蹤訊息」。 [閱讀全文](../messages/message-tracking.md)
+* 在鏡像頁面上新增子區段。 [閱讀全文](../messages/message-tracking.md#mirror-page)
+* 在文檔和螢幕中將「提供活動」更名為「決定」，將「決定」更名為「決策範圍」。 [閱讀全文](../offers/get-started/starting-offer-decisioning.md)
+* 新使用案例： [透過協助工具功能個人化訊息](../personalization/personalization-use-case-helper-functions.md)
+* 更新讀取區段文件以凸顯具體化區段的影響。 [閱讀全文](../building-journeys/read-segment.md)
+* 更新歷程限制。 [閱讀全文](../start/limitations.md)
+* 更新「在決定中設定優惠」區段。 [閱讀全文](../offers/offer-activities/configure-offer-selection.md)
+* 新增警告，提示目前不支援事件型優惠。 [閱讀全文](../offers/offer-library/creating-personalized-offers.md#eligibility)
+* 記錄「決定管理」新 **[!UICONTROL Overview]** 標籤。 [閱讀全文](../offers/get-started/user-interface.md#overview)
+* 新增區段，說明優惠和決定清單的可用動作： [優惠方案清單](../offers/offer-library/creating-personalized-offers.md#offer-list)和[決定清單](../offers/offer-activities/create-offer-activities.md#decision-list)。

@@ -1,45 +1,45 @@
 ---
 title: 關於 Adobe Experience Platform 區段
-description: 了解如何設定Adobe Experience Platform區段
+description: 瞭解如何配置Adobe Experience Platform段
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 2%
+source-wordcount: '381'
+ht-degree: 1%
 
 ---
 
-# 關於 Adobe Experience Platform 區段 {#about-segments}
+# 開始使用Adobe Experience Platform段 {#about-segments}
 
-[!DNL Journey Optimizer]  可讓您直接使用Adobe Experience Platform的即時客戶設定檔資料，建立 **[!UICONTROL Segments]** 功能表，並將其運用於您的歷程中。
+[!DNL Journey Optimizer]  允許您直接使用即時客戶配置檔案資料建立Adobe Experience Platform段 **[!UICONTROL Segments]** 把菜單和它們融入你的旅程。
 
-請注意，您也可以從分段服務本身建立區段。 了解更多 [Adobe Experience Platform區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+請注意，段也可以從分段服務本身建立。 在 [Adobe Experience Platform分段處檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)。
 
-您可以在歷程中以不同方式運用區段：
+您可以以不同方式在行程中利用段：
 
-* 使用 **讀取區段** 協調活動，讓屬於指定區段的所有個人進入歷程。 歷程中包含的訊息會傳送給屬於區段的個人。 假設您有「銀色客戶」區段。 透過此活動，您可以讓所有銀級客戶進入歷程，並傳送一系列個人化訊息。
+* 使用 **讀取段** 業務流程活動，使屬於指定段的所有個人進入行程。 您行程中包含的消息將發送給屬於該段的個人。 假設您有「銀色客戶」部分。 通過本練習，您可以讓所有銀發客戶輸入行程併發送一系列個性化消息。
 
-   如需如何使用的詳細資訊 **[!UICONTROL Read segment]** 活動，請參閱 [本節](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
+   有關如何使用的詳細資訊 **[!UICONTROL Read segment]** 活動，請參閱 [此部分](../building-journeys/read-segment.md#configuring-segment-trigger-activity)。
 
-* 使用 **區段資格** 事件活動，根據Adobe Experience Platform區段入口和出口，讓個人進入或前進歷程。 例如，您可以讓所有新銀級客戶進入歷程並傳送訊息。 有關如何使用此活動的詳細資訊，請參閱 [本節](../building-journeys/segment-qualification-events.md).
+* 使用 **分部資格** 活動，讓個人根據Adobe Experience Platform段出入口進入或前進行程。 例如，您可以讓所有新銀客戶輸入行程併發送消息。 有關如何使用此活動的詳細資訊，請參閱 [此部分](../building-journeys/segment-qualification-events.md)。
 
-* 建置 **複雜條件** 在歷程中，使用簡單或進階運算式編輯器。 深入了解 [本節](../building-journeys/condition-activity.md#using-a-segment).
+* 生成 **複雜條件** 使用簡單或高級表達式編輯器執行。 瞭解詳情 [此部分](../building-journeys/condition-activity.md#using-a-segment)。
 
 ## Adobe Journey Optimizer評價方法 {#evaluation-method-in-journey-optimizer}
 
-在Adobe Journey Optimizer中，受眾是使用下列其中一種評估方法從區段定義產生：
+在Adobe Journey Optimizer，使用下列評價方法之一從段定義生成受眾：
 
-* 串流區段 — 當新資料流入系統時，區段的對象清單會即時保持最新。
-* 批次區段 — 區段的對象清單會根據過去一小時內到達的資料，每小時更新一次。
+* 流分段 — 段的受眾清單在新資料流入系統時即時保持最新。
+* 批分段 — 段的受眾清單根據過去一小時內到達的資料按小時更新。
 
-系統會根據評估區段規則的複雜度和成本，對每個區段定義進行批次分段和串流分段之間的決定。
+系統根據分段規則的複雜度和評估成本，對每個分段定義確定分批分段和流分段。
 
-您可以在 **[!UICONTROL Evaluation method]** 欄。
+可查看中每個段的評估方法 **[!UICONTROL Evaluation method]** 的子菜單。
 
-在您首次定義區段後，設定檔會在符合資格時新增至對象。
+在您首次定義段後，配置檔案在符合條件時添加到受眾。
 
-從先前的資料回填受眾最多需要24小時。 回填對象後，對象會持續保持最新狀態，且隨時準備進行目標定位。
+從先前資料中回填觀眾最多需要24小時。 在觀眾回填後，觀眾會不斷更新，隨時準備瞄準。

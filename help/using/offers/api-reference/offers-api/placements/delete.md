@@ -1,21 +1,21 @@
 ---
-title: 刪除版位
-description: 版位是用來展示優惠方案的容器。
+title: 刪除放置
+description: 放置是用於顯示優惠的容器。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 5%
 
 ---
 
-# 刪除位置
+# 刪除位置 {#delete-placement}
 
-有時可能需要移除(DELETE)版位。 只能刪除您在租用戶容器中建立的版位。 若要這麼做，請對 [!DNL Offer Library] 使用您要刪除之版位的例項ID的API。
+有時可能需要刪除(DELETE)放置。 只能刪除您在租戶容器中建立的放置。 這是通過對執行DELETE請求 [!DNL Offer Library] 使用要刪除的位置的實例ID的API。
 
 **API格式**
 
@@ -25,9 +25,9 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 版位所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 您要更新之版位的例項ID。 | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
+| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 放置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | 要更新的位置的實例ID。 | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
 
 **要求**
 
@@ -43,6 +43,6 @@ curl -X DELETE \
 
 **回應**
 
-成功的回應會傳回HTTP狀態202（無內容）和空白內文。
+成功的響應返回HTTP狀態202（無內容）和空白正文。
 
-您可以嘗試對版位進行查閱(GET)，以確認刪除。 您需要在請求中加入Accept標題，但應會收到HTTP狀態404（找不到），因為版位已從容器中移除。
+您可以通過嘗試對放置進行查找(GET)請求來確認刪除。 您需要在請求中包含「接受」標頭，但應接收HTTP狀態404（未找到），因為已從容器中刪除了放置。

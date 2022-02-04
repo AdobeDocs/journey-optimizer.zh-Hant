@@ -1,21 +1,21 @@
 ---
 title: 查找決策規則
-description: 決策規則是新增至個人化優惠方案的限制，並套用至設定檔以判斷資格。
+description: 決策規則是添加到個性化優惠中的約束，並應用到配置檔案以確定資格。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 2%
 
 ---
 
-# 查找決策規則
+# 查找決策規則 {#lookup-decision-rule}
 
-您可以向提出GET要求，以查詢特定決策規則 [!DNL Offer Library] 包含決策規則的API `@id` 或請求路徑中的決策規則名稱。
+您可以通過向以下站點發出GET請求來查找特定的決策規則 [!DNL Offer Library] 包含決策規則的API `@id` 或請求路徑中決策規則的名稱。
 
 **API格式**
 
@@ -25,11 +25,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 決策規則所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ELIGIBILITY_RULE}` | 定義與決策規則相關聯的架構。 | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `id` | 用來比對 `@id` 實體的屬性。 字串完全匹配。 參數s `id` 和 `name` 無法一起使用。 | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | 用來比對實體xdm:name屬性的字串。 字串與大小寫完全相符，但可使用萬用字元。 參數 `id` 和 `name` 無法一起使用 | `Sales rule` |
+| `{SCHEMA_ELIGIBILITY_RULE}` | 定義與決策規則關聯的架構。 | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
+| `id` | 用於匹配 `@id` 屬性。 字串完全匹配。 參數s `id` 和 `name` 不能一起使用。 | `xcore:eligibility-rule:124e0faf5b8ee89b` |
+| `name` | 用於匹配實體的xdm:name屬性的字串。 字串與大寫完全匹配，但可以使用通配符。 參數 `id` 和 `name` 不能一起使用 | `Sales rule` |
 
 **要求**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **回應**
 
-成功的回應會傳回您所查詢之特定決策規則的詳細資訊，包括容器ID、例項ID和唯一決策規則的相關資訊 `@id`.
+成功的響應返回您查找的特定決策規則的詳細資訊，包括有關其容器ID、實例ID和唯一決策規則的資訊 `@id`。
 
 ```json
 {

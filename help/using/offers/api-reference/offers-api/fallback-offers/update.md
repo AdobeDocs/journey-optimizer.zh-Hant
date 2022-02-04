@@ -1,27 +1,27 @@
 ---
 title: 更新遞補優惠
-description: 如果客戶不符合其他優惠方案的資格，系統會將備援優惠方案傳送給他們
+description: 如果客戶不符合其他優惠條件，則會向他們發送備用優惠
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 10%
 
 ---
 
-# 更新遞補優惠
+# 更新遞補優惠 {#update-fallback-offer}
 
-您可以對 [!DNL Offer Library] API。
+您可以通過向PATCH請求修改或更新您的貨箱中的備用優惠 [!DNL Offer Library] API。
 
-如需JSON修補程式的詳細資訊，包括可用的操作，請參閱 [JSON修補程式檔案](http://jsonpatch.com/).
+有關JSON修補程式（包括可用操作）的詳細資訊，請參閱 [JSON修補程式文檔](http://jsonpatch.com/)。
 
-## 接受和內容類型標題
+## 接受和內容類型標題 {#accept-and-content-type-headers}
 
-下表顯示了 *內容類型* 和 *接受* 請求標題中的欄位：
+下表顯示了組成 *內容類型* 和 *接受* 請求標題中的欄位：
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
@@ -36,9 +36,9 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 後援優惠方案所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 備援優惠方案的例項ID。 | `b3966680-13ec-11eb-9c20-8323709cfc65` |
+| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 回退優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | 回退要約的實例ID。 | `b3966680-13ec-11eb-9c20-8323709cfc65` |
 
 **要求**
 
@@ -62,13 +62,13 @@ curl -X PATCH \
 
 | 參數 | 說明 |
 | --------- | ----------- |
-| `op` | 用來定義更新連線所需動作的操作呼叫。 操作包括： `add`, `replace`，和 `remove`. |
+| `op` | 用於定義更新連接所需操作的操作調用。 操作包括： `add`。 `replace`, `remove`。 |
 | `path` | 要更新的參數的路徑。 |
-| `value` | 您要用更新參數的新值。 |
+| `value` | 要用更新參數的新值。 |
 
 **回應**
 
-成功的回應會傳回備援優惠方案的更新詳細資料，包括其唯一例項ID和備援優惠方案 `@id`.
+成功的響應將返回回退要約的更新詳細資訊，包括其唯一實例ID和回退要約 `@id`。
 
 ```json
 {

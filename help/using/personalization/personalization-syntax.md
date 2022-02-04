@@ -1,11 +1,12 @@
 ---
 title: 個人化語法
-description: 瞭解如何使用個性化語法
+description: 瞭解如何使用個性化語法。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 50e12a28ed9f94133a9810a460172d34ad3a4593
+exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 5%
@@ -28,7 +29,7 @@ ht-degree: 5%
 * `profile` 是命名空間。
 * `person.name` 是由屬性組成的標籤。 屬性結構在Adobe Experience PlatformXDM架構中定義。 [進一步了解](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;}.
 
-## 語法一般規則
+## 語法一般規則 {#general-rules}
 
 標識符可以是除以下字元之外的任何Unicode字元：
 
@@ -75,7 +76,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 >[!NOTE]
 >要瞭解有關分段和分段服務的詳細資訊，請參閱 [此部分](../segment/about-segments.md)。
 
-## 優惠
+## 優惠 {#offers-syntax}
 
 此命名空間允許您引用現有的聘用決定。
 要引用聘用，您需要聲明包含定義聘用的不同資訊的路徑。
@@ -127,7 +128,7 @@ Handlebars幫助程式是一個簡單的標識符，可以跟隨參數。
 >
 >幫助程式函式的詳細資訊請參閱 [此部分](functions/helpers.md)。
 
-## 文字類型
+## 文字類型 {#literal-types}
 
 [!DNL Adobe Journey Optimizer] 支援以下文字類型：
 
@@ -146,7 +147,7 @@ Handlebars幫助程式是一個簡單的標識符，可以跟隨參數。
 
 Journey Optimizer允許您通過向郵件中添加個性化欄位來個性化郵件中的一個或多個URL。 執行方法：
 
-* 在電子郵件或推送內容中建立連結。 要瞭解有關連結建立的詳細資訊，請參閱 [此頁](../message-tracking.md#insert-links)。
+* 在電子郵件或推送內容中建立連結。 要瞭解有關連結建立的詳細資訊，請參閱 [此頁](../messages/message-tracking.md#insert-links)。
 * 按一下個性化表徵圖。 此表徵圖可用於以下特定類型的連結： **外部連結**。 **取消訂閱連結** 和 **選擇退出**。
 
 ![](assets/perso-url.png)

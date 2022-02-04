@@ -1,25 +1,25 @@
 ---
 title: 建立標籤
-description: 標籤可讓您更妥善地組織和排序優惠方案。
+description: 標籤使您能夠更好地組織和整理您的優惠。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 10%
 
 ---
 
-# 建立標籤
+# 建立標籤 {#create-tag}
 
-您可以透過向 [!DNL Offer Library] API，同時提供容器ID。
+可以通過向 [!DNL Offer Library] API，同時提供容器ID。
 
-## 接受和內容類型標題
+## 接受和內容類型標題 {#accept-and-content-type-headers}
 
-下表顯示了 *內容類型* 和 *接受* 請求標題中的欄位：
+下表顯示了組成 *內容類型* 和 *接受* 請求標題中的欄位：
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
@@ -34,7 +34,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 標籤所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **要求**
@@ -55,7 +55,7 @@ curl -X POST \
 
 **回應**
 
-成功的回應會傳回新建立標籤的相關資訊，包括其唯一例項ID和位置 `@id`. 您可以在後續步驟中使用例項ID來更新或刪除您的標籤。 您可以使用您的唯一標籤 `@id` 在稍後的教學課程中，建立集合和個人化優惠方案。
+成功的響應返回有關新建立的標籤的資訊，包括其唯一實例ID和位置 `@id`。 您可以在後續步驟中使用實例ID來更新或刪除標籤。 可以使用您的唯一標籤 `@id` 以建立收藏和個性化服務。
 
 ```json
 {

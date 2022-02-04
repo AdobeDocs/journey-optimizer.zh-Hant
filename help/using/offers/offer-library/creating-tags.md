@@ -1,46 +1,46 @@
 ---
 title: 建立標籤
-description: 了解如何在Adobe Experience Platform中建立優惠方案。
+description: 瞭解如何為您的優惠建立標籤
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '161'
 ht-degree: 5%
 
 ---
 
-# 建立標籤 {#creating-tags}
+# 建立標籤 {#create-tags}
 
-將標籤與優惠方案建立關聯，可讓優惠方案更輕鬆有條理。 例如，您可以使用「黑色星期五」標籤來標示黑色星期五優惠方案。 然後，您就可以使用優惠方案庫中的搜尋功能，輕鬆找到所有具有該標籤的優惠方案。
+將標籤與您的產品關聯使標籤更易於組織。 例如，可以使用「黑色星期五」標籤來標籤黑色星期五的優惠。 然後，您可以使用「優惠庫」中的搜索功能，輕鬆找到帶有該標籤的所有優惠。
 
-標籤也可用來將選件群組在選件集合中。 請參閱 [建立集合](../offer-library/creating-collections.md).
+標籤也可用於將優惠組合為優惠集合。 請參閱 [建立集合](../offer-library/creating-collections.md)。
 
 ➡️ [在影片中探索此功能](#video)
 
-建立的標籤清單可在 **[!UICONTROL Components]** 功能表。
+可在 **[!UICONTROL Components]** 的子菜單。
 
 ![](../../assets/tags_list.png)
 
-若要建立標籤，請依照下列步驟操作：
+要建立標籤，請執行以下步驟：
 
-1. 前往 **[!UICONTROL Tags]** ，然後按一下 **[!UICONTROL Create tag]**.
+1. 轉到 **[!UICONTROL Tags]** ，然後按一下 **[!UICONTROL Create tag]**。
 
-1. 指定標籤的名稱，然後按一下 **[!UICONTROL Save]**.
+1. 指定標籤的名稱，然後按一下 **[!UICONTROL Save]**。
 
    ![](../../assets/tags_create.png)
 
-1. 標籤建立後，就會顯示在清單中。 可以選擇它以顯示其屬性，並編輯或隱藏它。
+1. 建立標籤後，該標籤將顯示在清單中。 可以選擇它以顯示其屬性並編輯或隱藏它。
 
    ![](../../assets/tags_created.png)
 
-## 教學課程影片 {#video}
+## 教程視頻 {#video}
 
 >[!NOTE]
 >
->此影片適用於以Adobe Experience Platform為基礎的Offer decisioning應用程式服務。 不過，它提供在Journey Optimizer內容中使用Offer的一般指引。
+>此視頻適用於在Adobe Experience Platform上構建的Offer decisioning應用程式服務。 然而，它為在Journey Optimizer背景下使用要約提供了一般性指導。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

@@ -1,64 +1,64 @@
 ---
 title: 建立集合
-description: 了解如何使用集合來組織優惠方案。
+description: 瞭解如何使用收藏組織優惠
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
 
 ---
 
-# 建立集合 {#creating-collections}
+# 建立集合 {#create-collections}
 
-集合可讓您將選件重新分組為您選擇的類別，借此組織選件。 例如，您可以建立「體育」系列，其中僅包含與體育相關的優惠方案。
+收集允許您通過將其重新分組到您選擇的類別中來組織您的優惠。 例如，您可以建立一個「體育」收藏，該收藏僅包含與體育相關的內容。
 
 ➡️ [在影片中探索此功能](#video)
 
-優惠方案集合清單可在 **[!UICONTROL Offers]** 功能表。
+可以在 **[!UICONTROL Offers]** 的子菜單。
 
 ![](../../assets/collections_list.png)
 
-您可以建立兩種類型的集合：
+可以建立兩種類型的集合：
 
-* **動態集合** 是根據標籤的選件集合。 這些集合會自動更新。 例如，如果以選取的標籤建立新選件，則會自動將其新增至集合。
+* **動態集合** 是基於標籤的優惠集合。 這些集合將自動更新。 例如，如果使用所選標籤建立了新優惠，則它將自動添加到集合中。
 
-* **靜態集合** 是透過手動選取要包含在集合中的個別選件來建立集合。 只能手動新增更多選件來更新集合。
+* **靜態集合** 是通過人工選擇要包括在集合中的單個優惠而構建的集合。 只能通過手動向其添加更多優惠來更新集合。
 
-若要建立集合，請依照下列步驟操作：
+要建立集合，請執行以下步驟：
 
-1. 前往 **[!UICONTROL Collections]** ，然後按一下 **[!UICONTROL Create collection]**.
+1. 轉到 **[!UICONTROL Collections]** ，然後按一下 **[!UICONTROL Create collection]**。
 
-1. 指定要建立的集合名稱和類型。
+1. 指定要建立的集合的名稱和類型。
 
    ![](../../assets/collection_create.png)
 
-1. 若要建立動態系列，請使用左窗格選取要新增至系列的選件標籤，然後按一下 **[!UICONTROL Save]**. 所有具有選取標籤的選件都會儲存在集合中。
+1. 要建立動態集合，請使用左窗格選擇要添加到集合中的優惠的標籤，然後按一下 **[!UICONTROL Save]**。 所有包含選定標籤的優惠都將保存在集合中。
 
-   如需建立標籤的詳細資訊，請參閱 [建立標籤](../offer-library/creating-tags.md).
+   有關建立標籤的詳細資訊，請參見 [建立標籤](../offer-library/creating-tags.md)。
 
    ![](../../assets/dynamic_collection.png)
 
-1. 若要建立靜態集合，請使用左窗格篩選選件清單（狀態、標籤、日期、頻道、內容類型），然後選取要新增至集合的選件。
+1. 要建立靜態集合，請使用左窗格篩選聘用清單（狀態、標籤、日期、渠道、內容類型），然後選擇要添加到集合中的聘用。
 
    ![](../../assets/static_collection.png)
 
    >[!NOTE]
    >
-   >靜態集合不會自動更新。 若要將選件新增至靜態集合，您需要編輯選件並手動新增選件。
+   >靜態集合不會自動更新。 要向靜態集合添加優惠，您需要編輯它並手動添加它們。
 
-1. 集合建立後，就會顯示在清單中。 您可以選取它以編輯或刪除它。
+1. 建立集合後，該集合將顯示在清單中。 您可以選擇它來編輯或刪除它。
 
    ![](../../assets/collection_created.png)
 
-## 教學課程影片 {#video}
+## 教程視頻 {#video}
 
 >[!NOTE]
 >
->此影片適用於以Adobe Experience Platform為基礎的Offer decisioning應用程式服務。 不過，它提供在Journey Optimizer內容中使用Offer的一般指引。
+>此視頻適用於在Adobe Experience Platform上構建的Offer decisioning應用程式服務。 然而，它為在Journey Optimizer背景下使用要約提供了一般性指導。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)

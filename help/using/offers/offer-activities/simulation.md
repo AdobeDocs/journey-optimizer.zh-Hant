@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 39b52f39ec19c185d2cd95634a60e37f62a66f83
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 1%
 
 ---
 
-# 建立模擬
+# 建立模擬 {#create-simulations}
 
 ## 關於模擬
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >標識命名空間定義標識符的上下文，如電子郵件地址或CRM ID。 瞭解有關Adobe Experience Platform標識命名空間的詳細資訊 [此部分](../../get-started-identity.md){target=&quot;_blank&quot;}。
+   >標識命名空間定義標識符的上下文，如電子郵件地址或CRM ID。 瞭解有關Adobe Experience Platform標識命名空間的詳細資訊 [此部分](../../start/get-started-identity.md){target=&quot;_blank&quot;}。
 
 1. 輸入標識值，然後按一下 **[!UICONTROL View]** 清單可用的配置檔案。
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 1. 您可以按一下 **[!UICONTROL Profile details]** 連結以顯示所選配置檔案資料。
 
-<!--Learn more on [selecting test profiles](preview.md#select-test-profiles)-->
+<!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
 ## 添加決策作用域
 

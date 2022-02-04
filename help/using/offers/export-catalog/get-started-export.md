@@ -1,12 +1,12 @@
 ---
 title: '開始使用優惠目錄匯出  '
-description: 了解如何將優惠方案目錄匯出為資料集。
+description: 瞭解如何將優惠目錄導出為資料集
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 14%
@@ -15,17 +15,17 @@ ht-degree: 14%
 
 # 開始使用優惠目錄匯出   {#export-catalog}
 
-Journey Optimizer可讓您自動將優惠方案目錄匯出至Adobe Experience Platform。
+Journey Optimizer允許您自動將優惠目錄導出到Adobe Experience Platform。
 
-匯出項目會為選件資料庫的每個物件建立一個資料集(請參閱 [存取匯出的資料集](../export-catalog/access-dataset.md))。 其功能包括:
+導出將為提供庫的每個對象建立一個資料集(請參見 [訪問導出的資料集](../export-catalog/access-dataset.md))。 其功能包括:
 
 * 個人化優惠
 * 遞補優惠
 * 版位
-* 決策（先前稱為優惠方案活動）
+* 決定（以前稱為優惠活動）
 
-每次在選件資料庫中修改其中一個物件時，都會自動執行新的匯出工作以更新資料集。
+每次在提供庫中修改其中一個對象時，都會自動執行新的導出作業以更新資料集。
 
 >[!NOTE]
 >
->此功能預設為未啟用。 如果您想使用它，請聯絡您的Adobe連絡人，為您的目錄啟用它。 啟用後，匯出工作就會自動化，您不需要採取任何動作。
+>預設情況下未啟用此功能。 如果您想使用它，請聯繫您的Adobe聯繫人，以便為您的目錄激活它。 啟用後，導出作業將自動化，不需要您的方面採取任何操作。

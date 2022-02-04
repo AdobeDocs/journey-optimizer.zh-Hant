@@ -1,27 +1,27 @@
 ---
 title: 更新集合
-description: 集合是根據行銷人員定義的預先定義條件（例如優惠方案的類別）而提供的優惠方案子集。
+description: 集合是基於由商家定義的預定義條件（例如要約的類別）的要約的子集。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7d766f0a-4fcb-434a-bbfd-e18ade71ae56
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 7%
 
 ---
 
-# 更新集合
+# 更新集合 {#update-collection}
 
-您可以借由向 [!DNL Offer Library] API
+您可以通過向 [!DNL Offer Library] API
 
-如需JSON修補程式的詳細資訊，包括可用的操作，請參閱 [JSON修補程式檔案](http://jsonpatch.com/).
+有關JSON修補程式（包括可用操作）的詳細資訊，請參閱 [JSON修補程式文檔](http://jsonpatch.com/)。
 
-## 接受和內容類型標題
+## 接受和內容類型標題 {#accept-and-content-type-headers}
 
-下表顯示了 *內容類型* 和 *接受* 請求標題中的欄位：
+下表顯示了組成 *內容類型* 和 *接受* 請求標題中的欄位：
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
@@ -36,9 +36,9 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 集合所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 您要更新之集合的例項ID。 | `0bf31c20-13f1-11eb-a752-e58fd7dc4cb3` |
+| `{INSTANCE_ID}` | 要更新的集合的實例ID。 | `0bf31c20-13f1-11eb-a752-e58fd7dc4cb3` |
 
 **要求**
 
@@ -67,13 +67,13 @@ curl -X PATCH \
 
 | 參數 | 說明 |
 | --------- | ----------- |
-| `op` | 用來定義更新連線所需動作的操作呼叫。 操作包括： `add`, `replace`，和 `remove`. |
+| `op` | 用於定義更新連接所需操作的操作調用。 操作包括： `add`。 `replace`, `remove`。 |
 | `path` | 要更新的參數的路徑。 |
-| `value` | 您要用更新參數的新值。 |
+| `value` | 要用更新參數的新值。 |
 
 **回應**
 
-成功的回應會傳回集合的更新詳細資料，包括其唯一例項ID和集合 `@id`.
+成功的響應將返回集合的更新詳細資訊，包括其唯一實例ID和集合 `@id`。
 
 ```json
 {

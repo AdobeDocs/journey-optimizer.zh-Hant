@@ -1,25 +1,25 @@
 ---
 title: 清單標籤
-description: 標籤可讓您更妥善地組織和排序優惠方案。
+description: 標籤使您能夠更好地組織和整理您的優惠。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 3%
 
 ---
 
-# 清單標籤
+# 清單標籤 {#list-tags}
 
-標籤可讓您更妥善地組織和排序優惠方案。 例如，您可以使用「黑色星期五」標籤來標示黑色星期五優惠方案。 然後，您就可以使用優惠方案庫中的搜尋功能，輕鬆找到所有具有該標籤的優惠方案。
+標籤使您能夠更好地組織和整理您的優惠。 例如，可以使用「黑色星期五」標籤來標籤黑色星期五的優惠。 然後，您可以使用「優惠庫」中的搜索功能，輕鬆找到帶有該標籤的所有優惠。
 
-標籤也可用來將選件群組在一起到集合中。 如需詳細資訊，請參閱 [建立集合](../../../offer-library/creating-collections.md).
+標籤也可用於將優惠組合到集合中。 有關詳細資訊，請參見上的教程 [建立集合](../../../offer-library/creating-collections.md)。
 
-您可以對 [!DNL Offer Library] API。
+通過對容器執行單個GET請求，可以查看容器內所有標籤的清單 [!DNL Offer Library] API。
 
 **API格式**
 
@@ -29,10 +29,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 標籤所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | 定義與標籤相關聯的架構。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
-| `{QUERY_PARAMS}` | 可選的查詢參數，以依據篩選結果。 | `limit=2` |
+| `{SCHEMA_TAG}` | 定義與標籤關聯的架構。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `{QUERY_PARAMS}` | 用於篩選結果的可選查詢參數。 | `limit=2` |
 
 **要求**
 
@@ -46,25 +46,25 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## 使用查詢參數
+## 使用查詢參數 {#using-query-parameters}
 
-列出資源時，您可以使用查詢參數來頁面並篩選結果。
+在列出資源時，可以使用查詢參數來頁面和篩選結果。
 
-### 分頁
+### 分頁 {#paging}
 
-分頁最常見的查詢參數包括：
+用於分頁的最常見的查詢參數包括：
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `q` | 要在所選欄位中搜尋的選用查詢字串。 查詢字串應為小寫，並可以用雙引號包住，以防止其被標籤並逸出特殊字元。 字元 `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 有特殊意義，且在出現在查詢字串時應以反斜線逸出。 | 網站JSON |
-| `qop` | 將AND或OR運算子套用至q查詢字串參數中的值。 | `AND` / `OR` |
-| `field` | 要限制搜索的欄位的可選清單。 此參數可重複，如下所示：field=field1[,field=field2,...] 和（路徑表達式採用點分隔路徑的形式，如_instance.xdm:name） | `_instance.xdm:name` |
-| `orderBy` | 按特定屬性排序結果。 新增 `-` 前標題(`orderby=-title`)會以降序(Z-A)依標題排序項目。 | `-repo:createdDate` |
-| `limit` | 限制傳回的標籤數。 | `limit=5` |
+| `q` | 要在所選欄位中搜索的可選查詢字串。 查詢字串應為小寫，並且可以用雙引號環繞，以防止其被標籤化並轉義特殊字元。 字元 `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊含義，在出現在查詢字串中時應使用反斜線進行轉義。 | 網站JSON |
+| `qop` | 將AND或OR運算子應用於q查詢字串參數中的值。 | `AND` / `OR` |
+| `field` | 將搜索限制為的欄位的可選清單。 此參數可以重複，如下所示：欄位=欄位1[,field=field2,...] 和（路徑表達式採用點分隔路徑的形式，如_instance.xdm:name） | `_instance.xdm:name` |
+| `orderBy` | 按特定屬性對結果排序。 添加 `-` 前標題(B)`orderby=-title`)將按標題按降序(Z-A)排序。 | `-repo:createdDate` |
+| `limit` | 限制返回的標籤數。 | `limit=5` |
 
 **回應**
 
-成功的回應會傳回您有權存取的容器中存在的標籤清單。
+成功的響應將返回您有權訪問的容器中存在的標籤清單。
 
 ```json
 {

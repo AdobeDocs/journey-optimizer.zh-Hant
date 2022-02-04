@@ -1,21 +1,21 @@
 ---
-title: 查閱回退優惠方案
-description: 如果客戶不符合其他優惠方案的資格，系統會將備援優惠方案傳送給他們
+title: 查找回退提供
+description: 如果客戶不符合其他優惠條件，則會向他們發送備用優惠
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 3%
 
 ---
 
-# 查找回退優惠方案
+# 查找備用優惠 {#look-up-fallback-offers}
 
-您可以向 [!DNL Offer Library] 包含備援優惠方案的API `@id` 或請求路徑中的備援優惠方案名稱。
+您可以通過向以下站點發出GET請求來查找特定的備用服務 [!DNL Offer Library] 包括回退優惠的API `@id` 或請求路徑中回退要約的名稱。
 
 **API格式**
 
@@ -25,11 +25,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 後援優惠方案所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FALLBACK_OFFER}` | 定義與後援優惠方案相關聯的結構。 | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
-| `id` | 用來比對 `@id` 實體的屬性。 字串完全匹配。 參數 `id` 和 `name` 無法一起使用。 | `xcore:fallback-offer:122206064e0d98df` |
-| `name` | 用來比對實體xdm:name屬性的字串。 字串與大小寫完全相符，但可使用萬用字元。 參數 `id` 和 `name` 無法一起使用 | `F1: Web fallback` |
+| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 回退優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_FALLBACK_OFFER}` | 定義與回退優惠關聯的架構。 | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
+| `id` | 用於匹配 `@id` 屬性。 字串完全匹配。 參數 `id` 和 `name` 不能一起使用。 | `xcore:fallback-offer:122206064e0d98df` |
+| `name` | 用於匹配實體的xdm:name屬性的字串。 字串與大寫完全匹配，但可以使用通配符。 參數 `id` 和 `name` 不能一起使用 | `F1: Web fallback` |
 
 **要求**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **回應**
 
-成功的回應會傳回版位的詳細資訊，包括容器ID、例項ID和唯一備援優惠方案的相關資訊 `@id`.
+成功的響應將返回放置的詳細資訊，包括有關容器ID、實例ID和唯一回退優惠的資訊 `@id`。
 
 ```json
 {

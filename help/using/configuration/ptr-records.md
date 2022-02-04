@@ -1,13 +1,12 @@
 ---
 title: PTR記錄
 description: 瞭解如何管理PTR記錄
-audience: administrators
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -16,13 +15,13 @@ ht-degree: 0%
 
 # PTR記錄 {#ptr-records}
 
-## 關於PTR記錄
+## 關於PTR記錄 {#about-ptr-records}
 
 指針記錄(PTR)是域名系統(DNS)記錄的類型，它提供連結到IP地址的域名。
 
 通過PTR記錄，接收郵件伺服器可以通過確定其IP地址是否與伺服器所連接的名稱對應來檢查發送郵件伺服器的真實性。
 
-## 訪問子域的PTR記錄
+## 訪問子域的PTR記錄 {#access-ptr-records}
 
 一次 [子域被委派](delegate-subdomain.md) 在Adobe Journey Optimizer，自動建立PTR記錄並與此子域關聯。 您可以從 **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** 的子菜單。
 
@@ -44,7 +43,7 @@ ht-degree: 0%
 >
 >無法修改 **[!UICONTROL IP]** 和 **[!UICONTROL PTR record]** 的子菜單。
 
-### 完全委託的子域
+### 完全委託的子域 {#fully-delegated-subdomains}
 
 編輯具有子域的PTR記錄 [全權](delegate-subdomain.md#full-subdomain-delegation) 要Adobe，請執行以下步驟。
 
@@ -83,7 +82,7 @@ ht-degree: 0%
 
 1. 按一下 **[!UICONTROL Save]** 確認更改。
 
-## 檢查PTR記錄更新詳細資訊
+## 檢查PTR記錄更新詳細資訊 {#check-ptr-record-update}
 
 A **[!UICONTROL Processing]** 表徵圖顯示在清單中PTR記錄的名稱旁邊。
 
@@ -97,7 +96,7 @@ A **[!UICONTROL Processing]** 表徵圖顯示在清單中PTR記錄的名稱旁�
 
 ![](../assets/ptr-record-updates.png)
 
-## PTR記錄更新狀態
+## PTR記錄更新狀態 {#ptr-record-update-statuses}
 
 PTR記錄更新可以具有以下狀態：
 
@@ -105,9 +104,9 @@ PTR記錄更新可以具有以下狀態：
 * ![](../assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**:已驗證更新的PTR記錄，新子域現在與IP地址關聯。
 * ![](../assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**:在PTR記錄更新驗證期間，一個或多個檢查失敗。
 
-### 正在處理
+### 正在處理 {#processing}
 
-將執行若干可傳送性檢查，以驗證要與IP地址關聯的新子域是否有效。 <!--The processing time is around **48h-72h**, and can take up to **7-10 days**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).-->
+將執行若干可傳送性檢查，以驗證要與IP地址關聯的新子域是否有效。 <!--The processing time is around **48h-72h**, and can take up to **7-10 days**.-->
 
 >[!NOTE]
 >
@@ -115,11 +114,11 @@ PTR記錄更新可以具有以下狀態：
 
 在驗證過程中，舊子域仍與IP地址關聯。
 
-### 成功
+### 成功 {#success}
 
 驗證過程成功後，新子域將自動與IP地址關聯。
 
-### 已失敗
+### 已失敗 {#failes}
 
 如果驗證過程失敗，則顯示較舊的PTR記錄。 以前與IP地址關聯的有效子域保持不變。
 

@@ -1,15 +1,15 @@
 ---
-title: 個人化語法
+title: 個性化上下文
 description: '瞭解有關如何個性化內容和顯示消息的更多資訊。 '
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ![](assets/perso_icon.png)
 
-## 個性化您的電子郵件
+## 個性化您的電子郵件 {#personalize-emails}
 
 建立電子郵件時，可以在 **[!UICONTROL Subject line]** 的子菜單。
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 在電子郵件設計器中，您可以個性化內容：
 
-* 在 **消息**:在文本塊內按一下，按一下 **個性化** 表徵圖，然後選擇 **插入個性化** 的子菜單。 有關電子郵件設計器介面的詳細資訊，請參閱 [節](../design-emails.md)。
+* 在 **消息**:在文本塊內按一下，按一下 **個性化** 表徵圖，然後選擇 **插入個性化** 的子菜單。 有關電子郵件設計器介面的詳細資訊，請參閱 [節](../messages/design-emails.md)。
 
    ![](assets/perso_insert.png)
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 ![](assets/perso_ee.png)
 
-## 個性化推送通知
+## 個性化推送通知 {#personalize-push}
 
 您還可以個性化 **推送通知** 的子菜單。
 
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 ![](assets/perso_push.png)
 
-瞭解有關中推送通知配置的詳細資訊 [此部分](../push-gs.md)。
+瞭解有關中推送通知配置的詳細資訊 [此部分](../messages/push-gs.md)。
 
 ## 個性化您的產品 {#personalize-offers}
 

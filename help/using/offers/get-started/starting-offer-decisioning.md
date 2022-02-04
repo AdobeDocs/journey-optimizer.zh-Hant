@@ -1,25 +1,25 @@
 ---
 title: 開始使用決定管理
-description: 開始使用決定管理。 瞭解更多有關其結構、優惠和決定，以及可讓您執行的常見使用案例。
+description: 開始使用決定管理。 瞭解有關其體系結構、產品和決策以及允許您執行的常見使用情形的更多資訊
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
-# 關於決定管理 {#about-offer-decision}
+# 關於決定管理 {#about-decision-management}
 
 使用 [!DNL Journey Optimizer] 可在適當的時間為所有接觸點的客戶提供最佳優惠和體驗。設計完成後，透過個人化優惠目標定位對象。
 
 >[!NOTE]
 >
->如果您是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target=&quot;_blank&quot;}使用者運用 **offer decisioning** 應用程式服務，本節中描述的所有決策管理功能也適用於您。
+>如果你是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target=&quot;_blank&quot;}用戶正在利用 **offer decisioning** 應用程式服務，本節中介紹的所有決策管理功能也適用於您。
 
 「決定管理」功能由兩個主要元件組成：
 
@@ -34,9 +34,9 @@ ht-degree: 87%
 * 改善工作流程：行銷團隊可以建立單一傳遞，並在範本的不同部分提供不同優惠方案，藉此改善工作流程，而無須建立多個傳遞或行銷活動；
 * 控制在電子郵件行銷活動中和向客戶顯示優惠方案的次數。
 
-➡️ [觀看這些教學課程影片](#tutorial-videos) 以取得決策管理的詳細資訊。
+➡️ [觀看這些教程視頻](#tutorial-videos) 的子菜單。
 
-## 關於優惠和決定 {#offers-offer-activities}
+## 關於優惠和決定 {#about-offers-and-decisions}
 
 **優惠方案**&#x200B;由內容、適用規則和限制組成，這些限制定義了向客戶展示優惠的條件。
 
@@ -48,7 +48,7 @@ ht-degree: 87%
 
 決定是優惠的容器，可運用優惠決定引擎，根據傳送的目標定位來挑選最佳優惠。
 
-## 常見使用實例
+## 常見使用實例 {#common-use-cases}
 
 配合 Adobe Experience Platform 的決定管理功能與整合可讓您涵蓋許多使用實例，協助您提高客戶參與度和轉化率。
 
@@ -64,13 +64,13 @@ ht-degree: 87%
 
    ![](../../assets/do-not-localize/call-center.png)
 
-## 授予Decision Management的存取權 {#granting-acess-to-decision-management}
+## 授予對決策管理的訪問權限 {#granting-acess-to-decision-management}
 
-存取和使用offer decisioning功能的權限是透過 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}。
+訪問和使用offer decisioning權能的權限使用 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}。
 
-若要授與「決策管理」功能的存取權，您必須建立 **[!UICONTROL Product profile]** 並指派對應的權限給您的使用者。 深入了解管理 [!DNL Journey Optimizer] 使用者和權限 [本節](../../administration/permissions.md).
+要授予對「決策管理」功能的訪問權限，您需要建立 **[!UICONTROL Product profile]** 並將相應權限分配給用戶。 瞭解有關管理的更多資訊 [!DNL Journey Optimizer] 用戶和權限 [此部分](../../administration/permissions.md)。
 
-決策管理的特定權限列於 [本節](../../administration/high-low-permissions.md#decisions-permissions).
+「Decision Management」（決策管理）的特定權限列於 [此部分](../../administration/high-low-permissions.md#decisions-permissions)。
 
 ## 字彙 {#glossary}
 
@@ -107,7 +107,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->這些影片適用於以 Adobe Experience Platform 為基礎的優惠決定應用程式服務，而非特定於 [!DNL Adobe Journey Optimizer]。 但是，它們提供一般性指導，以在 [!DNL Journey Optimizer].
+>這些影片適用於以 Adobe Experience Platform 為基礎的優惠決定應用程式服務，而非特定於 [!DNL Adobe Journey Optimizer]。 但是，它們為在決策管理中使用 [!DNL Journey Optimizer]。
 
 ### 什麼是決定管理？ {#what-is-offer-decisioning}
 

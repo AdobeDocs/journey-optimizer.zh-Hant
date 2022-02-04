@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 803fd15149391c069a50244bf29d7013bc6b00e2
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 本節將提供一個端到端示例，說明如何根據您以前建立的決定配置優惠並在電子郵件中使用這些優惠。
 
-## 主要步驟
+## 主要步驟 {#main-steps}
 
 以下列出了配置優惠、將其納入決策以及在電子郵件中利用此決定的關鍵步驟：
 
@@ -225,11 +225,11 @@ ht-degree: 5%
 
 既然您的決定是即時的，您可以將其插入電子郵件。 要執行此操作，請遵循下列步驟：
 
-1. 建立電子郵件，然後開啟 [電子郵件設計器](../../using/design-emails.md) 配置其內容。
+1. 建立電子郵件，然後開啟 [電子郵件設計器](../../using/messages/design-emails.md) 配置其內容。
 
 1. 從左側調色板添加結構元件。
 
-1. 添加 **[!UICONTROL Offer decision]** 內容元件。 瞭解如何在 [此部分](../../using/content-components.md)。
+1. 添加 **[!UICONTROL Offer decision]** 內容元件。 瞭解如何在 [此部分](../../using/messages/content-components.md)。
 
    ![](../assets/offers-e2e-decision-component.png)
 
@@ -255,19 +255,19 @@ ht-degree: 5%
 
 ![](../assets/offers-e2e-offers-displayed.png)
 
-使用 **[!UICONTROL Offers]** 或內容元件箭頭（右箭頭和左箭頭）來瀏覽資料。 您還可以顯示客戶配置檔案中決策的不同優惠。 瞭解詳情 [此部分](../../using/deliver-personalized-offers.md#preview-offers-in-email)。
+使用 **[!UICONTROL Offers]** 或內容元件箭頭（右箭頭和左箭頭）來瀏覽資料。 您還可以顯示客戶配置檔案中決策的不同優惠。 瞭解詳情 [此部分](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email)。
 
 保存更改後，一旦發佈消息，您的優惠就可以在將消息作為行程的一部分發送時顯示在相關配置檔案中。
 
 >[!NOTE]
 >
->更新聘用、回退聘用、聘用集合或聘用決策時，該決策在 [出版](../../using/publish-manage-message.md) 消息，更新現在自動反映在相應消息中，而不需要重新發佈。
+>更新聘用、回退聘用、聘用集合或聘用決策時，該決策在 [出版](../../using/messages/publish-manage-message.md) 消息，更新現在自動反映在相應消息中，而不需要重新發佈。
 
 **相關主題：**
 
-* 瞭解如何在中檢查郵件預覽 [此部分](../../using/preview.md#preview-your-messages)。
+* 瞭解如何在中檢查郵件預覽 [此部分](../../using/messages/preview.md#preview-your-messages)。
 
-* 瞭解如何在 [此部分](../../using/publish-manage-message.md)。
+* 瞭解如何在 [此部分](../../using/messages/publish-manage-message.md)。
 
 * 瞭解消息如何由中的一個或多個行程觸發 [此部分](../building-journeys/journey.md)。
 

@@ -1,27 +1,27 @@
 ---
 title: 更新標籤
-description: 標籤可讓您更妥善地組織和排序優惠方案。
+description: 標籤使您能夠更好地組織和整理您的優惠。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 8%
 
 ---
 
-# 更新標籤
+# 更新標籤 {#update-tag}
 
-您可以借由向 [!DNL Offer Library] API。
+通過向容器發出PATCH請求，可以修改或更新容器中的標籤 [!DNL Offer Library] API。
 
-如需JSON修補程式的詳細資訊，包括可用的操作，請參閱 [JSON修補程式檔案](http://jsonpatch.com/).
+有關JSON修補程式（包括可用操作）的詳細資訊，請參閱 [JSON修補程式文檔](http://jsonpatch.com/)。
 
-## 接受和內容類型標題
+## 接受和內容類型標題 {#accept-and-content-type-headers}
 
-下表顯示了 *內容類型* 和 *接受* 請求標題中的欄位：
+下表顯示了組成 *內容類型* 和 *接受* 請求標題中的欄位：
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
@@ -36,9 +36,9 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 標籤所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 您要更新之標籤的例項ID。 | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| `{INSTANCE_ID}` | 要更新的標籤的實例ID。 | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **要求**
 
@@ -62,13 +62,13 @@ curl -X PATCH \
 
 | 參數 | 說明 |
 | --------- | ----------- |
-| `op` | 用來定義更新連線所需動作的操作呼叫。 操作包括： `add`, `replace`，和 `remove`. |
+| `op` | 用於定義更新連接所需操作的操作調用。 操作包括： `add`。 `replace`, `remove`。 |
 | `path` | 要更新的參數的路徑。 |
-| `value` | 您要用更新參數的新值。 |
+| `value` | 要用更新參數的新值。 |
 
 **回應**
 
-成功的回應會傳回標籤的更新詳細資料，包括其唯一例項ID和標籤 `@id`.
+成功的響應返回標籤的更新詳細資訊，包括其唯一實例ID和標籤 `@id`。
 
 ```json
 {

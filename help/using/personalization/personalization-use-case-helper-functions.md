@@ -1,14 +1,14 @@
 ---
 title: 個性化用例冒號(&C);車棄用電子郵件
-description: 瞭解如何使用幫助程式函式個性化消息。
+description: 瞭解如何通過使用案例個性化電子郵件正文。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1019'
 ht-degree: 3%
 
 ---
@@ -26,8 +26,8 @@ ht-degree: 3%
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 在開始之前，請確保知道如何配置這些元素：
-* 電子郵件。 [進一步了解](../create-message.md)
-* 電子郵件的正文。 [了解更多](../create-email-content.md)。
+* 電子郵件。 [了解更多](../messages/create-message.md)
+* 電子郵件的正文。 [了解更多](../messages/create-email-content.md)。
 * 單一事件。 [了解更多](../event/about-events.md)。
 * 從事件開始的旅程。 [了解更多](../building-journeys/using-the-journey-designer.md)。
 
@@ -324,15 +324,15 @@ ht-degree: 3%
 1. 驗證沒有錯誤，然後發佈行程。
 
 
-## 相關主題
+## 相關主題 {#related-topics}
 
-### 車把函式
+### 車把函式 {#handlebars}
 
 * [輔助程式](functions/helpers.md)
 
 * [字串函式](functions/string.md)
 
-### 使用案例
+### 使用案例 {#use-case}
 
 * [個性化配置檔案資訊、上下文和服務](personalization-use-case.md)
 

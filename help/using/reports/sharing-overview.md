@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 4e3239a073f23505c79e98943d1f8bf6b7a8d363
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 4%
 
 ---
 
-# 建立歷程報告{#design-jo-reports}
+# 建立歷程報告 {#design-jo-reports}
 
 除 [即時報告](live-report.md) 內置 [全局報告功能](global-report.md)。 [!DNL Journey Optimizer] 可以自動將行程效能資料發送到Adobe Experience Platform，以便與其他資料組合以便進行分析。
 
@@ -58,7 +58,7 @@ ht-degree: 4%
 
 有關向Adobe Experience Platform報告的步驟事件的詳細資訊，請觀看此 [教程視頻](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target=&quot;_blank&quot;}。
 
-## 與客戶行程分析整合{#integration-cja}
+## 與客戶行程分析整合 {#integration-cja}
 
 Journey Optimizer步驟事件可以連結到中的其他資料集 [AdobeCustomer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant)。 以下是一般工作流：
 

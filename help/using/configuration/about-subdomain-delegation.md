@@ -1,23 +1,25 @@
 ---
-title: 委派子網域
+title: 子域委派 [!DNL Journey Optimizer]
 description: 瞭解如何委派子域
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: e5ebf038565329fdaa7b01a12042c2c4bba79f37
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 36%
+source-wordcount: '657'
+ht-degree: 35%
 
 ---
 
 # 子域委派 [!DNL Journey Optimizer] {#subdomain-delegation}
 
 為電子郵件活動建立子域使品牌能夠將不同類型的通信（例如，營銷與公司）隔離到特定的IP池中，並與特定的域隔離，這將加快IP升溫過程並提高整體交付能力。 如果您共用一個域，並且該域被阻止或添加到拒絕清單中，它可能會影響您的公司郵件傳遞。 但是，特定於您的電子郵件營銷通信的域上的聲譽問題或阻止只會影響電子郵件流。 將主域用作多個郵件流的發件人地址或「發件人」地址也可能會中斷電子郵件身份驗證，導致您的郵件被阻止或放置在垃圾郵件資料夾中。
+
+>[!NOTE]
+>
+>不能使用同一發送域從 [!DNL Adobe Journey Optimizer] 和其他產品，比如 [!DNL Adobe Campaign] 或 [!DNL Adobe Marketo Engage]。
 
 ## 為什麼要設定子網域？ {#why-setting-up-subdomains}
 
@@ -34,7 +36,7 @@ ht-degree: 36%
 
 雖然這些要求是通過由Adobe和客戶托管的元件進行管理的，但它們包括URL，這些URL可由電子郵件的收件人看到。 為了避免具有指示底層技術解決方案或托管提供商的URL，可以設定子域以使此對電子郵件的收件人透明。
 
-**進一步了解**
+**了解更多**
 
 * 瞭解如何 [委派子域](delegate-subdomain.md) 直接從介面
 * 瞭解如何 [添加GoogleTXT記錄](google-txt.md) 確保將電子郵件成功傳遞到Gmail地址

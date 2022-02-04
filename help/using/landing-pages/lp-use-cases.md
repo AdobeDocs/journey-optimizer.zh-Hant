@@ -8,7 +8,7 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 18%
@@ -32,7 +32,7 @@ ht-degree: 18%
 
 例如，假設您下個月組織一個活動，並且要啟動一個活動註冊活動<!--to keep your customers that are interested updated on that event-->。 為此，您將發送一封電子郵件，其中包括指向登錄頁的連結，該登錄頁將允許您的收件人註冊此事件。 註冊的用戶將被添加到為此目的建立的訂閱清單中。
 
-### 設定登錄頁
+### 設定登錄頁 {#set-up-lp}
 
 1. 建立事件註冊的訂閱清單，該清單將儲存已註冊的用戶。 瞭解如何建立訂閱清單 [這裡](subscription-list.md#define-subscription-list)。
 
@@ -52,13 +52,13 @@ ht-degree: 18%
 
 1. [發佈](create-lp.md#publish) 登錄頁。
 
-1. [建立電子郵件](../create-message.md) 以宣佈註冊現已開啟，您可以參加活動。
+1. [建立電子郵件](../messages/create-message.md) 以宣佈註冊現已開啟，您可以參加活動。
 
-1. [插入連結](../message-tracking.md#insert-links) 內容。 選擇 **[!UICONTROL Landing page]** 的 **[!UICONTROL Link type]** 選擇 [登錄頁](create-lp.md#configure-primary-page) 為註冊而建立的。
+1. [插入連結](../messages/message-tracking.md#insert-links) 內容。 選擇 **[!UICONTROL Landing page]** 的 **[!UICONTROL Link type]** 選擇 [登錄頁](create-lp.md#configure-primary-page) 為註冊而建立的。
 
    ![](../assets/lp_subscription-uc-link.png)
 
-1. 儲存您的內容並[發佈您的訊息](../publish-manage-message.md)。
+1. 儲存您的內容並[發佈您的訊息](../messages/publish-manage-message.md)。
 
 1. 通過 [旅程](../building-journeys/journey.md) 將流量驅動到註冊登錄頁。
 
@@ -92,7 +92,7 @@ ht-degree: 18%
 
 若要使您的收件人取消訂閱您的通信，您可以將指向「退出」登錄頁的連結添加到您的電子郵件中。
 
-瞭解有關管理收件人同意的詳細資訊，以及為什麼在 [此部分](../consent.md)。
+瞭解有關管理收件人同意的詳細資訊，以及為什麼在 [此部分](../messages/consent.md)。
 
 ### 選擇退出管理 {#opt-out-management}
 
@@ -107,9 +107,9 @@ ht-degree: 18%
 
 要使電子郵件的收件人能夠通過登錄頁取消訂閱您的通信，請執行以下步驟。
 
-1. 建立登錄頁。 [進一步了解](create-lp.md)
+1. 建立登錄頁。 [了解更多](create-lp.md)
 
-1. 定義首頁。 [進一步了解](create-lp.md#configure-primary-page)
+1. 定義首頁。 [了解更多](create-lp.md#configure-primary-page)
 
 1. [設計](design-lp.md) 主要頁面內容：使用登錄頁特定 **[!UICONTROL Form]** 元件，定義 **[!UICONTROL Opt-out]** 複選框，然後選擇更新 **[!UICONTROL Channel (email)]**:在登錄頁上選中「選擇退出」框的配置檔案將被從您的所有通信中選擇。
 
@@ -123,15 +123,15 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >確保引用首頁中的子頁 **[!UICONTROL Call to action]** 的下界 **[!UICONTROL Form]** 元件。 [進一步了解](design-lp.md)
+   >確保引用首頁中的子頁 **[!UICONTROL Call to action]** 的下界 **[!UICONTROL Form]** 元件。 [了解更多](design-lp.md)
 
 1. 配置和定義頁面內容後， [發佈](create-lp.md#publish) 登錄頁。
 
    ![](../assets/lp_opt-out-publish.png)
 
-1. [建立電子郵件](../create-message.md) 在 [!DNL Journey Optimizer]。
+1. [建立電子郵件](../messages/create-message.md) 在 [!DNL Journey Optimizer]。
 
-1. 選擇內容中的文本， [插入連結](../message-tracking.md#insert-links) 使用上下文工具欄。 您還可以使用按鈕上的連結。
+1. 選擇內容中的文本， [插入連結](../messages/message-tracking.md#insert-links) 使用上下文工具欄。 您還可以使用按鈕上的連結。
 
    ![](../assets/lp_opt-out-insert-link.png)
 
@@ -139,7 +139,7 @@ ht-degree: 18%
 
    ![](../assets/lp_opt-out-landing-page.png)
 
-1. 儲存您的內容並[發佈您的訊息](../publish-manage-message.md)。
+1. 儲存您的內容並[發佈您的訊息](../messages/publish-manage-message.md)。
 
 1. 在旅途中發送您的資訊。 [了解更多](../building-journeys/journey.md)。
 
@@ -167,9 +167,9 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../message-tracking.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../messages/message-tracking.md#one-click-opt-out-link)
 
 * **Unsubscribe link in header**
 
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../consent.md#unsubscribe-email)
+    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-email)
 -->

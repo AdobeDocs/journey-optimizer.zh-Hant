@@ -1,14 +1,14 @@
 ---
 title: 建立排名公式
-description: 了解如何在Adobe Experience Platform中建立排名公式。
+description: 瞭解如何建立公式以對優惠進行排序
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 58dffe64b1ca8a81728ae7043ec276917d3b9616
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
@@ -17,39 +17,39 @@ ht-degree: 1%
 
 ## 關於排名公式 {#about-ranking-formulas}
 
-**排名公式** 可讓您定義規則，以決定應先針對指定版位呈現哪個優惠方案，而非考慮優惠方案的優先順序分數。
+**排序公式** 允許您定義規則，以確定在給定的職位安排中應首先提供哪個職位，而不是考慮聘用的優先順序分數。
 
-排名公式以表示 **PQL語法** 並可運用設定檔屬性、內容資料和選件屬性。 有關如何使用PQL語法的詳細資訊，請參閱 [專屬檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
+排名公式在中表示 **PQL語法** 並可利用配置檔案屬性、上下文資料和提供屬性。 有關如何使用PQL語法的詳細資訊，請參閱 [專用文檔](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html)。
 
-建立排名公式後，您就可以將其指派至決策中的版位（先前稱為優惠方案活動）。 有關詳細資訊，請參閱 [在決策中設定選件選取項目](../offer-activities/configure-offer-selection.md).
+一旦建立了排名公式，您就可以將其分配給決策中的位置（以前稱為聘用活動）。 有關此的詳細資訊，請參閱 [在決策中配置服務選擇](../offer-activities/configure-offer-selection.md)。
 
 ## 建立排名公式 {#create-ranking-formula}
 
-若要建立排名公式，請遵循下列步驟：
+要建立排名公式，請執行以下步驟：
 
-1. 存取 **[!UICONTROL Components]** ，然後選取 **[!UICONTROL Rankings]** 標籤。 將顯示先前建立的排名清單。
+1. 訪問 **[!UICONTROL Components]** ，然後選擇 **[!UICONTROL Rankings]** 頁籤。 顯示先前建立的排名清單。
 
    ![](../../assets/rankings-list.png)
 
-1. 按一下 **[!UICONTROL Create ranking]** 來建立新排名公式。
+1. 按一下 **[!UICONTROL Create ranking]** 的子菜單。
 
    ![](../../assets/ranking-create-formula.png)
 
 1. 指定排名公式名稱、說明和公式。
 
-   在此範例中，如果實際天氣炎熱，我們想利用「hot」屬性提升所有選件的優先順序。 若要這麼做， **contextData.weather=hot** 在決策呼叫中傳遞。
+   在本示例中，如果實際天氣炎熱，我們希望提高所有優先服務的優先順序，並使用「hot」屬性。 為此， **contextData.weather=hot** 在決定呼叫中通過。
 
    ![](../../assets/ranking-syntax.png)
 
-1. 按一下「**[!UICONTROL Save]**」。排名公式已建立，您可以從清單中選取它以取得詳細資訊，並加以編輯或刪除。
+1. 按一下「**[!UICONTROL Save]**」。您的排名公式已建立，您可以從清單中選擇它以獲取詳細資訊，並編輯或刪除它。
 
-   現在已可用於決定對符合資格的優惠方案排名以刊登版位(請參閱 [在決策中設定選件選取項目](../offer-activities/configure-offer-selection.md))。
+   現在，它已準備好用於對合格的職位安排報價進行排序的決定(請參閱 [在決策中配置服務選擇](../offer-activities/configure-offer-selection.md))。
 
    ![](../../assets/ranking-formula-created.png)
 
-## 排名公式範例 {#ranking-formula-examples}
+## 排序公式示例 {#ranking-formula-examples}
 
-您可以根據自己的需求建立許多不同的排名公式。 以下是一些範例。
+您可以根據需要建立許多不同的排名公式。 下面是一些例子。
 
 <!--
 Boost by offer ID
@@ -83,9 +83,9 @@ if( segmentMembership.get("ups").get(offer.characteristics.prioritySegmentId).st
 ```
 -->
 
-### 根據設定檔屬性，以特定選件屬性提升選件
+### 基於配置檔案屬性的具有特定提供屬性的Boost優惠
 
-如果設定檔位於與優惠方案相對應的城市，則該城市中所有優惠方案的優先順序會加倍。
+如果個人資料位於與報價相對應的城市，那麼該城市所有報價的優先順序將增加一倍。
 
 **排名公式：**
 
@@ -93,7 +93,7 @@ if( segmentMembership.get("ups").get(offer.characteristics.prioritySegmentId).st
 if( offer.characteristics.city = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
 ```
 
-### 結束日期現在後不到24小時時，提升選件
+### Boost提供，其結束日期從現在起不到24小時
 
 **排名公式：**
 
@@ -101,9 +101,9 @@ if( offer.characteristics.city = homeAddress.city, offer.rank.priority * 2, offe
 if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
 ```
 
-### 根據內容資料，以特定選件屬性提升選件
+### 基於上下文資料的具有特定提供屬性的提供
 
-根據決策呼叫中傳遞的內容資料，提升特定選件。 例如，若 `contextData.weather=hot` 會在決策呼叫中傳遞，且優先順序會與 `attribute=hot` 必須得到提振。
+根據在決策調用中傳遞的上下文資料提高某些優惠。 例如，如果 `contextData.weather=hot` 在決策呼叫中傳遞，所有優惠的優先順序 `attribute=hot` 必須加強。
 
 **排名公式：**
 
@@ -112,9 +112,9 @@ if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
 and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
 ```
 
-請注意，使用決策API時，內容資料會新增至請求內文中的設定檔元素，如以下範例中。
+請注意，使用決策API時，上下文資料將添加到請求正文中的配置檔案元素中，如下例所示。
 
-**請求內文的程式碼片段：**
+**來自請求正文的代碼段：**
 
 ```
 "xdm:profiles": [
@@ -137,11 +137,11 @@ and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}
  }],
 ```
 
-### 根據客戶購買所提供產品的傾向，提升優惠方案
+### 基於客戶購買所提供產品傾向的提高報價
 
-如果我們有2個 *CustomerAI* 計算購買傾向 *travelInsurance* 和 *extraBagge* 對於航空公司，如果客戶購買該產品的傾向分數高於90分，下列排名公式將提高保險或行李特有優惠的優先順序（50分）。
+如果我們有2個 *客戶AI* 計算採購傾向 *旅行保險* 和 *額外行李* 對於航空公司，如果客戶購買該產品的傾向得分高於90分，則以下排名公式將提高對保險或行李的優先順序（50分）。
 
-但是，因為 *CustomerAI* 例項會在統一的設定檔架構內建立自己的物件，因此無法根據選件傾向類型以動態方式選取分數。 所以你必須把 `if` 陳述式，先檢查選件傾向類型，然後從適當的設定檔欄位擷取分數。
+但是，因為每個 *客戶AI* 實例在統一配置檔案架構內建立其自己的對象，無法根據提供傾向類型動態選擇分數。 因此你必須把 `if` 語句先檢查服務傾向類型，然後從相應的配置檔案欄位提取分數。
 
 **排名公式：**
 
@@ -153,11 +153,11 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 )
 ```
 
-更好的解決方案是將分數儲存在設定檔的陣列中。 下列範例僅使用簡單的排名公式，可涵蓋各種不同的傾向分數。 期望是您的設定檔結構會包含一連串的分數。 在此範例中，例項租用戶為 *_salesvelocity* 和設定檔架構包含下列項目：
+一個更好的解決方案是將分數儲存在配置檔案的陣列中。 以下示例將使用簡單的排名公式，對各種不同的傾向得分起作用。 期望是您有一個具有分數陣列的配置檔案架構。 在此示例中，實例租戶為 *銷售速度* 和配置檔案架構包含以下內容：
 
 ![](../../assets/ranking-example-schema.png)
 
-有鑑於此，針對下列設定檔：
+因此，對於配置檔案，例如：
 
 ```
 {"_salesvelocity": {"individualScoring": [
@@ -177,11 +177,11 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 }
 ```
 
-選件會包含 *傾向類型* 會比對分數中的類別：
+報價將包含 *傾向類型* 與分數中的類別匹配：
 
 ![](../../assets/ranking-example-propensityType.png)
 
-然後，您的排名公式可以設定每個優惠方案的優先順序，使其等於客戶 *傾向分數* 對於 *傾向類型*. 如果找不到分數，請使用選件上設定的靜態優先順序：
+然後，您的排名公式可以將每項服務的優先順序設定為等於客戶 *傾向分數* 因為 *傾向類型*。 如果找不到分數，請使用優惠上設定的靜態優先順序：
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring

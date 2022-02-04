@@ -1,23 +1,23 @@
 ---
-title: 查找集合
-description: 集合是根據行銷人員定義的預先定義條件（例如優惠方案的類別）而提供的優惠方案子集。
+title: 查找收藏
+description: 集合是基於由商家定義的預定義條件（例如要約的類別）的要約的子集。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 2%
 
 ---
 
-# 查找集合
+# 查找收藏 {#look-up-collection}
 
-集合是根據行銷人員定義的預先定義條件（例如優惠方案的類別）而提供的優惠方案子集。
+集合是基於由商家定義的預定義條件（例如要約的類別）的要約的子集。
 
-您可以向 [!DNL Offer Library] 包含集合的API `@id` 或請求路徑中的集合名稱。
+您可以通過向 [!DNL Offer Library] 包含集合的API `@id` 或請求路徑中集合的名稱。
 
 **API格式**
 
@@ -27,11 +27,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 集合所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FILTER}` | 定義與集合相關聯的架構。 | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | 用來比對 `@id` 實體的屬性。 字串完全匹配。 參數 `id` 和 `name` 無法一起使用。 | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | 用來比對實體xdm:name屬性的字串。 字串與大小寫完全相符，但可使用萬用字元。 參數 `id` 和 `name` 無法一起使用 | `Mobile demo` |
+| `{SCHEMA_FILTER}` | 定義與集合關聯的架構。 | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
+| `id` | 用於匹配 `@id` 屬性。 字串完全匹配。 參數 `id` 和 `name` 不能一起使用。 | `xcore:offer-filter:124bd44648f17ec1` |
+| `name` | 用於匹配實體的xdm:name屬性的字串。 字串與大寫完全匹配，但可以使用通配符。 參數 `id` 和 `name` 不能一起使用 | `Mobile demo` |
 
 **要求**
 
@@ -47,7 +47,7 @@ curl -X GET \
 
 **回應**
 
-成功的回應會傳回版位的詳細資訊，包括容器ID、例項ID和唯一收集的相關資訊 `@id`.
+成功的響應將返回放置的詳細資訊，包括有關容器ID、實例ID和唯一集合的資訊 `@id`。
 
 ```json
 {

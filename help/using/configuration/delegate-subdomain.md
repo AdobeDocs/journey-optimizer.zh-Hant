@@ -1,24 +1,14 @@
 ---
 title: 委派子網域
-description: 瞭解如何委派子域
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
+description: 瞭解如何委派子域。
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1430'
 ht-degree: 10%
 
 ---
@@ -90,7 +80,7 @@ ht-degree: 10%
 
    <!-- later on, users will be notified in Pulse -->
 
-將子域委派到中的Adobe [!DNL Journey Optimizer]，將自動建立PTR記錄並與此子域關聯。 [進一步了解](ptr-records.md)
+將子域委派到中的Adobe [!DNL Journey Optimizer]，將自動建立PTR記錄並與此子域關聯。 [了解更多](ptr-records.md)
 
 >[!CAUTION]
 >
@@ -113,8 +103,6 @@ CNAME 子網域委派可讓您建立子網域，並使用 CNAME 指向 Adobe 特
 1. 選擇 **[!UICONTROL CNAME set up]** 的雙曲餘切值。
 
    ![](../assets/subdomain-method-cname.png)
-
-   <!--The steps to specify the name of the subdomain to delegate and to generate the DNS records into your domain hosting solution are the same as for full subdomain delegation. See **steps 3 to 5** of the [Full subdomain delegation](#full-subdomain-delegation) section.)-->
 
 1. 指定要委託的子域的名稱。
 
@@ -158,7 +146,7 @@ CNAME 子網域委派可讓您建立子網域，並使用 CNAME 指向 Adobe 特
    >
    >子域將標籤為 **[!UICONTROL Failed]** 如果您未能在托管解決方案上建立驗證記錄。
 
-在驗證記錄並安裝證書後，Adobe會自動為CNAME子域建立PTR記錄。 [進一步了解](ptr-records.md)
+在驗證記錄並安裝證書後，Adobe會自動為CNAME子域建立PTR記錄。 [了解更多](ptr-records.md)
 
 >[!CAUTION]
 >

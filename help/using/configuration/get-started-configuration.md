@@ -1,17 +1,14 @@
 ---
-title: Journey Optimizer設定和配置指南
-description: 瞭解消息和行程配置指南
-audience: administrators
-content-type: reference
+title: 開始 [!DNL Journey Optimizer] 配置
+description: 瞭解有關 [!DNL Journey Optimizer] 配置
 role: Admin
 level: Intermediate
-solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '328'
 ht-degree: 9%
 
 ---
@@ -25,27 +22,27 @@ ht-degree: 9%
 
 1. **配置消息和通道**:定義預設、調整和定制電子郵件和推送消息
 
-   * 在兩者中定義推送通知設定 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]。 [進一步了解](../push-gs.md)
+   * 在兩者中定義推送通知設定 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]。 [了解更多](../messages/push-gs.md)
 
-   * 建立消息預設以配置電子郵件和推送通知消息所需的所有技術參數。 [進一步了解](message-presets.md)
+   * 建立消息預設以配置電子郵件和推送通知消息所需的所有技術參數。 [了解更多](message-presets.md)
 
-   * 確定在Adobe Experience Platform有多個地址可用時優先使用的收件人電子郵件地址。 [進一步了解](primary-email-addresses.md)
+   * 確定在Adobe Experience Platform有多個地址可用時優先使用的收件人電子郵件地址。 [了解更多](primary-email-addresses.md)
 
-   * 管理在將電子郵件地址發送到禁止顯示清單之前執行重試的天數。 [進一步了解](manage-suppression-list.md)
+   * 管理在將電子郵件地址發送到禁止顯示清單之前執行重試的天數。 [了解更多](manage-suppression-list.md)
 
    <!--
-    * Understand push notification flow. [Learn more](../push-gs.md)
+    * Understand push notification flow. [Learn more](../messages/push-gs.md)
     -->
 
-1. **委託子域**:對於在Journey Optimizer使用的任何新子域，第一步是將其委派。 [進一步了解](about-subdomain-delegation.md)
+1. **委託子域**:對於在Journey Optimizer使用的任何新子域，第一步是將其委派。 [了解更多](about-subdomain-delegation.md)
 
    ![](../assets/subdomain.png)
 
-1. **建立IP池**:通過將隨實例配置的IP地址組合在一起，提高電子郵件的可傳遞性和信譽。 [進一步了解](ip-pools.md)
+1. **建立IP池**:通過將隨實例配置的IP地址組合在一起，提高電子郵件的可傳遞性和信譽。 [了解更多](ip-pools.md)
 
    ![](../assets/ip-pool.png)
 
-1. **配置行程**:為了構建旅程，您需要配置 **[!UICONTROL Data Sources]**。 **[!UICONTROL Events]** 和 **[!UICONTROL Actions]**。 [進一步了解](about-data-sources-events-actions.md)
+1. **配置行程**:為了構建旅程，您需要配置 **[!UICONTROL Data Sources]**。 **[!UICONTROL Events]** 和 **[!UICONTROL Actions]**。 [了解更多](about-data-sources-events-actions.md)
 
    ![](../assets/admin-menu.png)
 

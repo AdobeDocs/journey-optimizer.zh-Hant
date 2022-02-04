@@ -1,25 +1,15 @@
 ---
-title: 常規消息設定
-description: 瞭解如何設定電子郵件地址
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
+title: '更改主電子郵件地址 '
+description: 瞭解如何從配置檔案服務中確定要使用的電子郵件地址。
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 4e52be8fb4a6b996d20cc831247b7e4f6d333840
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 5%
+source-wordcount: '125'
+ht-degree: 4%
 
 ---
 
