@@ -1,12 +1,12 @@
 ---
-title: 子域委派 [!DNL Journey Optimizer]
+title: Subdomain delegation in [!DNL Journey Optimizer]
 description: 瞭解如何委派子域
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: e5ebf038565329fdaa7b01a12042c2c4bba79f37
+source-git-commit: b8ef0326952f26453440b9031fe121f4dc14807e
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 35%
@@ -39,16 +39,16 @@ ht-degree: 35%
 **了解更多**
 
 * 瞭解如何 [委派子域](delegate-subdomain.md) 直接從介面
-* 瞭解如何 [添加GoogleTXT記錄](google-txt.md) 確保將電子郵件成功傳遞到Gmail地址
+* Learn how to [add Google TXT records](google-txt.md) to your subdomains to ensure the successful delivery of emails to Gmail addresses
 * 瞭解如何 [訪問PTR記錄](ptr-records.md) 為子域生成，允許通過發送郵件伺服器來驗證
 
 ## 子域配置方法 {#subdomain-delegation-methods}
 
 子域配置允許您配置域的子部分（技術上是「DNS區域」），以便與Adobe Campaign配合使用。 可用的設定方法有：
 
-* **將子網域完全委派給 Adobe**（建議）：子網域已完全委派給 Adobe。Adobe能夠控制和維護傳遞、呈現和跟蹤消息所需的DNS的所有方面。 [瞭解有關完整子域委派的詳細資訊](delegate-subdomain.md#full-subdomain-delegation)
+* **將子網域完全委派給 Adobe**（建議）：子網域已完全委派給 Adobe。Adobe能夠控制和維護傳遞、呈現和跟蹤消息所需的DNS的所有方面。 [Learn more on full subdomain delegation](delegate-subdomain.md#full-subdomain-delegation)
 
-* **CNAME的使用**:建立子域並使用CNAME指向特定於Adobe的記錄。 使用此設定，您和Adobe都負責維護DNS。 [瞭解有關CNAME子域委派的詳細資訊](delegate-subdomain.md#cname-subdomain-delegation)
+* **CNAME的使用**:建立子域並使用CNAME指向特定於Adobe的記錄。 使用此設定，您和Adobe共用維護DNS的責任。 [瞭解有關CNAME子域委派的詳細資訊](delegate-subdomain.md#cname-subdomain-delegation)
 
 下表提供這些方法的運作方式摘要，以及所需投入的精力：
 
