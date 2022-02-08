@@ -1,6 +1,6 @@
 ---
-title: 推播通知全域報表
-description: 了解如何使用推播通知全域報表的資料
+title: 推送通知全局報告
+description: 瞭解如何使用推送通知全局報告中的資料
 feature: Reporting
 topic: Content Management
 role: User
@@ -15,42 +15,42 @@ ht-degree: 1%
 
 # 推播全域報告 {#push-global-report}
 
-推播 **[!UICONTROL Global report]** 僅鎖定一個特定推送傳送。
+推 **[!UICONTROL Global report]** 只針對一個特定的推送。
 
-從 **[!UICONTROL Executions]** 的 **[!UICONTROL Messages]** 菜單，選擇 **[!UICONTROL Global view]** 然後，從所選傳送的進階功能表中選取 **[!UICONTROL Global report]**.
+從 **[!UICONTROL Executions]** 頁籤 **[!UICONTROL Messages]** 菜單，選擇 **[!UICONTROL Global view]** 然後，從選定交貨的「高級」菜單中選擇 **[!UICONTROL Global report]**。
 
 ![](../assets/global_report_11.png)
 
-推播 **[!UICONTROL Global report]** 會分為不同的小工具，詳述傳送的成功和錯誤。 如有需要，可對每個介面工具集調整大小並加以刪除。 如需詳細資訊，請參閱 [節](global-report.md#modify-dashboard).
+推 **[!UICONTROL Global report]** 被分成不同的小部件，詳細列出交付的成功和錯誤。 如果需要，可以調整每個小部件的大小並將其刪除。 有關此項的詳細資訊，請參閱 [節](global-report.md#modify-dashboard)。
 
 ![](../assets/push_global_report.png)
 
-此 **[!UICONTROL Push notification performance]** 介面工具集會透過KPI詳細說明與推播通知相關的主要資訊：
+的 **[!UICONTROL Push notification performance]** 小部件詳細列出了與KPI推送通知相關的主要資訊：
 
-* **[!UICONTROL Sent]**:傳送的傳送總數。
+* **[!UICONTROL Sent]**:交貨的發送總數。
 
-* **[!UICONTROL Bounce Rate]**:跳出的推播通知與傳送的推播通知的百分比。
+* **[!UICONTROL Bounce Rate]**:與發送的推送通知相比，已跳轉的推送通知的百分比。
 
-* **[!UICONTROL Error Rate]**:與傳送的推播通知相比，傳送期間發生而無法傳送的錯誤百分比。
+* **[!UICONTROL Error Rate]**:與發送的推送通知相比，在發送過程中發生的錯誤阻止發送的百分比。
 
-* **[!UICONTROL Actions Rate]**:傳送推播通知的動作百分比，例如按鈕點擊或解除。
+* **[!UICONTROL Actions Rate]**:已傳遞的推送通知上的操作百分比，例如，按一下按鈕或解除。
 
-* **[!UICONTROL Engagement Rate]**:此推播通知的開啟次數和動作百分比，亦即設定檔開啟了推播或按鈕被點按時。
+* **[!UICONTROL Engagement Rate]**:此推送通知的開啟和操作的百分比，即，如果配置檔案開啟了推送或按一下了按鈕。
 
-此 **[!UICONTROL Push notification summary]** 圖形包含可用於傳送推播通知的資料，例如：
+的 **[!UICONTROL Push notification summary]** 圖形包含可用於發送推送通知的資料，如：
 
-* **[!UICONTROL Opens]**:傳送中開啟訊息的次數。
+* **[!UICONTROL Opens]**:在傳遞中開啟消息的次數。
 
-* **[!UICONTROL Actions]**:已傳送推播通知的動作總數，例如按鈕點擊或解除。
+* **[!UICONTROL Actions]**:已傳遞的推送通知操作總數，例如按一下按鈕或解除按鈕。
 
-* **[!UICONTROL Bounces]**:傳送和自動回傳處理期間累積的錯誤總數，與已傳送訊息的總數相關。
+* **[!UICONTROL Bounces]**:在傳遞和自動返回處理期間累積的與已發送消息總數有關的錯誤總數。
 
-* **[!UICONTROL Delivered]**:已成功傳送的訊息數，與已傳送的訊息總數相關。
+* **[!UICONTROL Delivered]**:成功發送的消息數，與已發送的消息總數相關。
 
-* **[!UICONTROL Errors]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
+* **[!UICONTROL Errors]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
 
-此 **[!UICONTROL Error Reasons]** 圖形和表格可讓您查看在傳送期間發生的錯誤。
+的 **[!UICONTROL Error Reasons]** 圖形和表格允許您查看在交付期間發生的錯誤。
 
 ![](../assets/push_global_report_2.png)
 
-此 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 圖形和表格會根據收件者的作業系統，詳細說明推播通知的成功。
+的 **[!UICONTROL Tracking by platform]**。 **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 圖表和表格根據收件人的作業系統詳細說明推送通知的成功。

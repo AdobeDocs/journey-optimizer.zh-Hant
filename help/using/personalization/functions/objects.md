@@ -1,6 +1,6 @@
 ---
-title: 對象函式庫
-description: 對象函式庫
+title: 對象函式館
+description: 對象函式館
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -13,11 +13,11 @@ ht-degree: 7%
 
 ---
 
-# 物件函式 {#objects}
+# 對象函式 {#objects}
 
-## 為null{#isNull}
+## 為空{#isNull}
 
-此 `isNull` 函式確定對象引用是否不存在。
+的 `isNull` 函式確定對象引用是否不存在。
 
 **格式**
 
@@ -27,15 +27,15 @@ ht-degree: 7%
 
 **範例**
 
-以下操作將檢查該人員的家庭地址是否不存在。
+以下操作將檢查人員的住宅地址是否不存在。
 
 ```sql
 {%= isNull(person.homeAddress) %}
 ```
 
-## 非空{#isNotNull}
+## 不為空{#isNotNull}
 
-此 `isNotNull` 函式確定對象引用是否存在。
+的 `isNotNull` 函式確定是否存在對象引用。
 
 **格式**
 
@@ -45,7 +45,7 @@ ht-degree: 7%
 
 **範例**
 
-以下操作將檢查該人員的家庭地址是否存在。
+以下操作將檢查人員的住宅地址是否存在。
 
 ```sql
 {%= isNotNull(person.homeAddress) %}

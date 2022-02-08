@@ -1,6 +1,6 @@
 ---
-title: 字串函式庫
-description: 字串函式庫
+title: 字串函式館
+description: 字串函式館
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -15,11 +15,11 @@ ht-degree: 7%
 
 # 字串函式 {#string}
 
-了解如何在運算式編輯器中使用字串函式。
+瞭解如何在表達式編輯器中使用字串函式。
 
 ## 駝峰 {#camelCase}
 
-此 `camelCase` 函式會大寫字串每個字詞的首字母。
+的 `camelCase` 函式將字串中每個單詞的第一個字母大寫。
 
 **格式**
 
@@ -29,15 +29,15 @@ ht-degree: 7%
 
 **範例**
 
-以下函式將大寫設定檔街道地址中的第一個字母。
+以下函式將大寫配置檔案的街道地址中的首字母。
 
 ```sql
 {%= camelCase(profile.homeAddress.street) %}
 ```
 
-## Concat {#concate}
+## 孔卡 {#concate}
 
-此 `concat` 函式將兩個字串合併為一。
+的 `concat` 函式。
 
 **格式**
 
@@ -47,7 +47,7 @@ ht-degree: 7%
 
 **範例**
 
-下列函式會將設定檔城市和國家/地區合併為單一字串。
+以下函式將配置式城市和國家/地區合併為一個字串。
 
 ```sql
 {%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
@@ -55,7 +55,7 @@ ht-degree: 7%
 
 ## 包含 {#contains}
 
-此 `contains` 函式來判斷字串是否包含指定的子字串。
+的 `contains` 函式用於確定字串是否包含指定的子字串。
 
 **格式**
 
@@ -66,18 +66,18 @@ ht-degree: 7%
 | 引數 | 說明 |
 | --------- | ----------- |
 | `STRING_1` | 要執行檢查的字串。 |
-| `STRING_2` | 要在第一個字串內搜尋的字串。 |
-| `CASE_SENSITIVE` | 可選參數，用於確定檢查是否區分大小寫。 可能的值：true（預設）/ false。 |
+| `STRING_2` | 要在第一個字串內搜索的字串。 |
+| `CASE_SENSITIVE` | 用於確定檢查是否區分大小寫的可選參數。 可能的值：true（預設）/false。 |
 
 **範例**
 
-* 下列函式將檢查設定檔名是否包含字母A（在上或下）。 如果是，則會傳回&#39;true&#39;，否則會傳回&#39;false&#39;。
+* 以下函式將檢查配置檔案的名字是否包含字母A（在大寫或小寫中）。 如果是，則返回「true」，否則返回「false」。
 
    ```sql
    {%= contains(profile.person.name.firstName, "A", false) %}
    ```
 
-* 下列查詢會區分大小寫，判斷人員的電子郵件地址是否包含字串「2010@gm」。
+* 以下查詢以區分大小寫的方式確定人員的電子郵件地址是否包含字串&quot;2010@gm&quot;。
 
    ```sql
    {%= contains(profile.person.emailAddress,"2010@gm") %}
@@ -85,7 +85,7 @@ ht-degree: 7%
 
 ## 不包含{#doesNotContain}
 
-此 `doesNotContain` 函式來判斷字串是否不包含指定的子字串。
+的 `doesNotContain` 函式用於確定字串是否不包含指定的子字串。
 
 **格式**
 
@@ -96,21 +96,21 @@ ht-degree: 7%
 | 引數 | 說明 |
 | --------- | ----------- |
 | `STRING_1` | 要執行檢查的字串。 |
-| `STRING_2` | 要在第一個字串內搜尋的字串。 |
-| `CASE_SENSITIVE` | 可選參數，用於確定檢查是否區分大小寫。 可能的值：true（預設）/ false。 |
+| `STRING_2` | 要在第一個字串內搜索的字串。 |
+| `CASE_SENSITIVE` | 用於確定檢查是否區分大小寫的可選參數。 可能的值：true（預設）/false。 |
 
 **範例**
 
-下列查詢會區分大小寫，判斷人員的電子郵件地址不包含字串「2010@gm」。
+以下查詢以區分大小寫的方式確定人員的電子郵件地址不包含字串「2010@gm」。
 
 ```sql
 {%= doesNotContain(profile.person.emailAddress,"2010@gm")%}
 ```
 
 
-## 結尾並非為{#doesNotEndWith}
+## 不以{#doesNotEndWith}
 
-此 `doesNotEndWith` 函式來判斷字串是否未以指定的子字串結尾。
+的 `doesNotEndWith` 函式用於確定字串是否以指定的子字串結尾。
 
 **格式**
 
@@ -121,20 +121,20 @@ ht-degree: 7%
 | 引數 | 說明 |
 | --------- | ----------- |
 | `{STRING_1}` | 要執行檢查的字串。 |
-| `{STRING_2}` | 要在第一個字串內搜尋的字串。 |
-| `{CASE_SENSITIVE}` | 可選參數，用於確定檢查是否區分大小寫。 可能的值：true（預設）/ false。 |
+| `{STRING_2}` | 要在第一個字串內搜索的字串。 |
+| `{CASE_SENSITIVE}` | 用於確定檢查是否區分大小寫的可選參數。 可能的值：true（預設）/false。 |
 
 **範例**
 
-以下查詢會區分大小寫，判斷人員的電子郵件地址結尾不是「.com」。
+以下查詢以區分大小寫的方式確定人員的電子郵件地址是否以&quot;。com&quot;結尾。
 
 ```sql
 doesNotEndWith(person.emailAddress,".com")
 ```
 
-## 開頭非為{#doesNotStartWith}
+## 不以開頭{#doesNotStartWith}
 
-此 `doesNotStartWith` 函式來判斷字串是否未以指定的子字串開頭。
+的 `doesNotStartWith` 函式用於確定字串是否不以指定的子字串開頭。
 
 **格式**
 
@@ -145,12 +145,12 @@ doesNotEndWith(person.emailAddress,".com")
 | 引數 | 說明 |
 | --------- | ----------- |
 | `{STRING_1}` | 要執行檢查的字串。 |
-| `{STRING_2}` | 要在第一個字串內搜尋的字串。 |
-| `{CASE_SENSITIVE}` | 可選參數，用於確定檢查是否區分大小寫。 可能的值：true（預設）/ false。 |
+| `{STRING_2}` | 要在第一個字串內搜索的字串。 |
+| `{CASE_SENSITIVE}` | 用於確定檢查是否區分大小寫的可選參數。 可能的值：true（預設）/false。 |
 
 **範例**
 
-以下查詢會區分大小寫地確定人員的名稱不以「Joe」開頭。
+以下查詢以區分大小寫的方式確定人員姓名是否不以「Joe」開頭。
 
 ```sql
 {%= doesNotStartWith(person.name,"Joe")%}
@@ -158,7 +158,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 編碼64{#encode64}
 
-此 `encode64` 函式可用來編碼字串，以保留個人資訊(PI)，例如包含在URL中。
+的 `encode64` 函式用於對字串進行編碼以保留個人資訊(PI)（如果要包括在URL中）。
 
 **格式**
 
@@ -168,7 +168,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 終止於{#endsWith}
 
-此 `endsWith` 函式可用來判斷字串結尾是否為指定的子字串。
+的 `endsWith` 函式用於確定字串是否以指定的子字串結尾。
 
 **格式**
 
@@ -179,12 +179,12 @@ doesNotEndWith(person.emailAddress,".com")
 | 引數 | 說明 |
 | --------- | ----------- |
 | `{STRING_1}` | 要執行檢查的字串。 |
-| `{STRING_2}` | 要在第一個字串內搜尋的字串。 |
-| `{CASE_SENSITIVE}` | 可選參數，用於確定檢查是否區分大小寫。 可能的值：true（預設）/ false。 |
+| `{STRING_2}` | 要在第一個字串內搜索的字串。 |
+| `{CASE_SENSITIVE}` | 用於確定檢查是否區分大小寫的可選參數。 可能的值：true（預設）/false。 |
 
 **範例**
 
-下列查詢會區分大小寫，判斷人員的電子郵件地址結尾是「.com」。
+以下查詢以「.com」結尾，並區分大小寫。
 
 ```sql
 {%= endsWith(person.emailAddress,".com") %}
@@ -193,7 +193,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 等於{#equals}
 
-此 `equals` 函式可用來判斷字串是否等於指定的字串，且區分大小寫。
+的 `equals` 函式用於確定字串是否等於指定的字串（區分大小寫）。
 
 **格式**
 
@@ -204,11 +204,11 @@ doesNotEndWith(person.emailAddress,".com")
 | 引數 | 說明 |
 | --------- | ----------- |
 | `{STRING_1}` | 要執行檢查的字串。 |
-| `{STRING_2}` | 要與第一個字串比較的字串。 |
+| `{STRING_2}` | 要與第一個字串進行比較的字串。 |
 
 **範例**
 
-以下查詢區分大小寫確定人員的名稱是「John」。
+以下查詢以區分大小寫的方式確定人員的姓名是否為「John」。
 
 ```sql
 {%=equals(profile.person.name,"John") %}
@@ -216,7 +216,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 等於忽略大小寫{#equalsIgnoreCase}
 
-此 `equalsIgnoreCase` 函式可用來判斷字串是否等於指定的字串，不區分大小寫。
+的 `equalsIgnoreCase` 函式用於確定字串是否等於指定的字串，而不區分大小寫。
 
 **格式**
 
@@ -227,19 +227,19 @@ doesNotEndWith(person.emailAddress,".com")
 | 引數 | 說明 |
 | --------- | ----------- |
 | `{STRING_1}` | 要執行檢查的字串。 |
-| `{STRING_2}` | 要與第一個字串比較的字串。 |
+| `{STRING_2}` | 要與第一個字串進行比較的字串。 |
 
 **範例**
 
-以下查詢將不區分大小寫地確定人員的名稱是「John」。
+以下查詢確定人員的姓名是否為「John」（不區分大小寫）。
 
 ```sql
 {%= equalsIgnoreCase(profile.person.name,"John") %}
 ```
 
-## 擷取電子郵件網域 {#extractEmailDomain}
+## 提取電子郵件域 {#extractEmailDomain}
 
-此 `extractEmailDomain` 函式可用來擷取電子郵件地址的網域。
+的 `extractEmailDomain` 函式用於提取電子郵件地址的域。
 
 **格式**
 
@@ -249,7 +249,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **範例**
 
-以下查詢會擷取個人電子郵件地址的電子郵件網域。
+以下查詢提取個人電子郵件地址的電子郵件域。
 
 ```sql
 {%= extractEmailDomain(profile.personalEmail.address) %}
@@ -257,7 +257,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Is empty {#isEmpty}
 
-此 `isEmpty` 函式來判斷字串是否空白。
+的 `isEmpty` 函式用於確定字串為空。
 
 **格式**
 
@@ -267,7 +267,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **範例**
 
-如果設定檔的行動電話號碼空白，下列函式會傳回&#39;true&#39;。 否則，會傳回&#39;false&#39;。
+如果配置檔案的手機號碼為空，則以下函式將返回「true」。 否則，它將返回「false」。
 
 ```sql
 {%= isEmpty(profile.mobilePhone.number) %}
@@ -275,7 +275,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 左修剪 {#leftTrim}
 
-此 `leftTrim` 函式可用來從字串的開頭移除空格。
+的 `leftTrim` 函式用於從字串開頭刪除空格。
 
 **格式**
 
@@ -285,7 +285,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Length {#length}
 
-此 `length` 函式來取得字串或運算式中的字元數。
+的 `length` 函式用於獲取字串或表達式中的字元數。
 
 **格式**
 
@@ -295,15 +295,15 @@ doesNotEndWith(person.emailAddress,".com")
 
 **範例**
 
-下列函式會傳回設定檔的城市名稱長度。
+以下函式返回配置檔案的城市名稱的長度。
 
 ```sql
 {%= length(profile.homeAddress.city) %}
 ```
 
-## 贊{#like}
+## 像{#like}
 
-此 `like` 函式來判斷字串是否符合指定的模式。
+的 `like` 函式用於確定字串是否與指定的模式匹配。
 
 **格式**
 
@@ -314,11 +314,11 @@ doesNotEndWith(person.emailAddress,".com")
 | 引數 | 說明 |
 | --------- | ----------- |
 | `{STRING_1}` | 要執行檢查的字串。 |
-| `{STRING_2}` | 比對第一個字串的運算式。 建立運算式時有兩個支援的特殊字元： `%` 和 `_`. <ul><li>`%` 用於表示零個或多個字元。</li><li>`_` 僅代表一個字元。</li></ul> |
+| `{STRING_2}` | 要與第一個字串匹配的表達式。 建立表達式時支援兩個特殊字元： `%` 和 `_`。 <ul><li>`%` 用於表示零個或多個字元。</li><li>`_` 只表示一個字元。</li></ul> |
 
 **範例**
 
-下列查詢會擷取所有使用包含模式「es」之設定檔的城市。
+以下查詢將檢索包含模式「es」的配置檔案所在的所有城市。
 
 ```sql
 {%= like(profile.homeAddress.city, "%es%")%}
@@ -326,7 +326,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 小寫{#lower}
 
-此 `lowerCase` 函式會將字串轉換為小寫字母。
+的 `lowerCase` 函式將字串轉換為小寫字母。
 
 **語法**
 
@@ -336,7 +336,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **範例**
 
-此函式會將描述檔名轉換為小寫字母。
+此函式將配置檔案的名字轉換為小寫字母。
 
 ```sql
 {%= lowerCase(profile.person.name.firstName) %}
@@ -344,7 +344,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 符合{#matches}
 
-此 `matches` 函式來判斷字串是否符合特定的規則運算式。 請參閱 [此文檔](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) ，以取得規則運算式中比對模式的詳細資訊。
+的 `matches` 函式用於確定字串是否與特定規則運算式匹配。 請參閱 [此文檔](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) 的子菜單。
 
 **格式**
 
@@ -354,7 +354,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **範例**
 
-以下查詢將不區分大小寫地確定人員的名稱以「John」開頭。
+以下查詢（不區分大小寫）確定人員姓名是否以「John」開頭。
 
 ```sql
 {%= matches(person.name.,"(?i)^John") %}
@@ -362,7 +362,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 不等於{#notEqualTo}
 
-此 `notEqualTo` 函式來判斷字串是否不等於指定的字串。
+的 `notEqualTo` 函式用於確定字串是否不等於指定的字串。
 
 **格式**
 
@@ -373,19 +373,19 @@ doesNotEndWith(person.emailAddress,".com")
 | 引數 | 說明 |
 | --------- | ----------- |
 | `{STRING_1}` | 要執行檢查的字串。 |
-| `{STRING_2}` | 要與第一個字串比較的字串。 |
+| `{STRING_2}` | 要與第一個字串進行比較的字串。 |
 
 **範例**
 
-以下查詢會區分大小寫地確定人員的名稱不是&quot;John&quot;。
+以下查詢以區分大小寫的方式確定人員的姓名不是「John」。
 
 ```sql
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## 規則運算式群組{#regexGroup}
+## 規則運算式組{#regexGroup}
 
-此 `Group` 函式用於根據提供的規則運算式來擷取特定資訊。
+的 `Group` 函式用於根據所提供的規則運算式提取特定資訊。
 
 **格式**
 
@@ -396,8 +396,8 @@ doesNotEndWith(person.emailAddress,".com")
 | 引數 | 說明 |
 | --------- | ----------- |
 | `{STRING}` | 要執行檢查的字串。 |
-| `{EXPRESSION}` | 比對第一個字串的規則運算式。 |
-| `{GROUP}` | 要比對的運算式群組。 |
+| `{EXPRESSION}` | 與第一個字串匹配的規則運算式。 |
+| `{GROUP}` | 要匹配的表達式組。 |
 
 **範例**
 
@@ -409,7 +409,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Replace {#replace}
 
-此 `replace` 函式，可將字串中的指定子字串取代為其他子字串。
+的 `replace` 函式用於將字串中的給定子字串替換為另一個子字串。
 
 **格式**
 
@@ -419,7 +419,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **範例**
 
-下列函式。
+以下函式。
 
 ```sql
 
@@ -428,7 +428,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 全部替換{#replaceAll}
 
-此 `replaceAll` 函式可用來將符合「target」的文字的所有子字串取代為指定的常值「取代」字串。 替換從字串的開頭到結尾，例如，將字串&quot;aaa&quot;中的&quot;aa&quot;取代為&quot;b&quot;將產生&quot;ba&quot;而非&quot;ab&quot;。
+的 `replaceAll` 函式用於將與&quot;target&quot;匹配的文本的所有子字串替換為指定的文本&quot;replacement&quot;字串。 替換從字串的開頭到結尾，例如，在字串&quot;aaa&quot;中將&quot;aa&quot;替換為&quot;b&quot;將導致&quot;ba&quot;而不是&quot;ab&quot;。
 
 **格式**
 
@@ -439,7 +439,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 右修剪 {#rightTrim}
 
-此 `rightTrim` 函式會從字串的結尾移除空格。
+的 `rightTrim` 函式用於從字串的末尾刪除空格。
 
 
 **格式**
@@ -450,7 +450,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Split {#split}
 
-此 `split` 函式來依指定字元分割字串。
+的 `split` 函式用於按給定字元拆分字串。
 
 **格式**
 
@@ -471,7 +471,7 @@ The following function .
 
 ## 開始於{#startsWith}
 
-此 `startsWith` 函式可用來判斷字串是否以指定的子字串開頭。
+的 `startsWith` 函式用於確定字串是否以指定的子字串開頭。
 
 **格式**
 
@@ -482,12 +482,12 @@ The following function .
 | 引數 | 說明 |
 | --------- | ----------- |
 | `{STRING_1}` | 要執行檢查的字串。 |
-| `{STRING_2}` | 要在第一個字串內搜尋的字串。 |
-| `{CASE_SENSITIVE}` | 可選參數，用於確定檢查是否區分大小寫。 預設情況下，此值會設為true。 |
+| `{STRING_2}` | 要在第一個字串內搜索的字串。 |
+| `{CASE_SENSITIVE}` | 用於確定檢查是否區分大小寫的可選參數。 預設情況下，此值設定為true。 |
 
 **範例**
 
-以下查詢區分大小寫地確定人員的名稱是否以「Joe」開頭。
+以下查詢以「Joe」開頭，並區分大小寫確定人員的姓名。
 
 ```sql
 {%= startsWith(person.name,"Joe") %}
@@ -495,7 +495,7 @@ The following function .
 
 ## 標題案例{#titleCase}
 
-此 **titleCase** 函式可用來大寫字串每個字詞的前字母。
+的 **titleCase** 函式用於大寫字串中每個單詞的首字母。
 
 **語法**
 
@@ -505,7 +505,7 @@ The following function .
 
 **範例**
 
-如果這個人住在華盛頓高街，這個功能將返回華盛頓高街。
+如果這個人住在華盛頓大街，這個功能就會讓華盛頓大街回歸。
 
 ```sql
 {%= titleCase(profile.person.location.Street) %}
@@ -513,7 +513,7 @@ The following function .
 
 ## 修剪{#trim}
 
-此 **trim** 函式會從字串的開頭和結尾移除所有空格。
+的 **修剪** 函式將刪除字串開頭和結尾的所有空格。
 
 **語法**
 
@@ -523,7 +523,7 @@ The following function .
 
 ## 大寫{#upper}
 
-此 **upperCase** 函式會將字串轉換為大寫字母。
+的 **大寫** 函式將字串轉換為大寫字母。
 
 **語法**
 
@@ -533,7 +533,7 @@ The following function .
 
 **範例**
 
-此函式會將描述檔姓氏轉換為大寫字母。
+此函式將配置檔案姓氏轉換為大寫字母。
 
 ```sql
 {%= upperCase(profile.person.name.lastName) %}

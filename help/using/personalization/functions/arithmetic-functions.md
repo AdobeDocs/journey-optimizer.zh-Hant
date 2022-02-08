@@ -1,6 +1,6 @@
 ---
-title: 算術函式庫
-description: 算術函式庫
+title: 算術函式館
+description: 算術函式館
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 ## 新增{#add}
 
-此 `+` (addition)函式可用來尋找兩個引數運算式的總和。
+的 `+` (addition)函式用於查找兩個參數表達式的和。
 
 **格式**
 
@@ -29,7 +29,7 @@ ht-degree: 7%
 
 **範例**
 
-以下操作將加總兩種不同產品的價格。
+以下操作將計算兩個不同產品的價格。
 
 ```sql
 {%= product1.price + product2.price %}
@@ -37,7 +37,7 @@ ht-degree: 7%
 
 ## 乘{#multiply}
 
-此 `*` （乘法）函式用於查找兩個參數表達式的乘積。
+的 `*` （乘法）函式用於查找兩個參數表達式的乘積。
 
 **格式**
 
@@ -47,15 +47,15 @@ ht-degree: 7%
 
 **範例**
 
-以下操作將查找庫存產品和產品價格，以查找產品的總值。
+以下操作將查找庫存產品和產品價格，以查找產品的總價值。
 
 ```sql
 {%= product.inventory * product.price %}
 ```
 
-## 減去{#substract}
+## 減{#substract}
 
-此 `-` （減法）函式用於尋找兩個引數運算式的差異。
+的 `-` （減法）函式用於查找兩個參數表達式的差。
 
 **格式**
 
@@ -73,7 +73,7 @@ ht-degree: 7%
 
 ## 除{#divide}
 
-此 `/` （除法）函式用於求兩個參數表達式的商。
+的 `/` （除法）函式用於求兩個參數表達式的商。
 
 **格式**
 
@@ -83,7 +83,7 @@ ht-degree: 7%
 
 **範例**
 
-以下操作將查找銷售的產品總數與收入總額之間的商，以查看每項的平均成本。
+以下操作將查找已銷售產品總數與查看每個物料的平均成本所得總金額之間的商數。
 
 ```sql
 {%= totalProduct.price / totalProduct.sold %}
@@ -91,7 +91,7 @@ ht-degree: 7%
 
 ## 余數{#remainder}
 
-此 `%` (modulo/remaind)函式用於在將兩個參數表達式除以後查找余數。
+的 `%` (modulo/remainder)函式用於在分割兩個參數表達式後查找余數。
 
 **格式**
 
@@ -101,7 +101,7 @@ ht-degree: 7%
 
 **範例**
 
-下列操作會檢查人員的年齡是否可除以5。
+以下操作將檢查人員的年齡是否可被5除。
 
 ```sql
 {%= person.age % 5 = 0 %}

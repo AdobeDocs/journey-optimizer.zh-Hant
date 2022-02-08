@@ -1,6 +1,6 @@
 ---
-title: 聚合函式庫
-description: 聚合函式庫
+title: 聚合函式館
+description: 聚合函式館
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -15,11 +15,11 @@ ht-degree: 8%
 
 # 聚合函式 {#aggregation}
 
-匯總函式用於將多個值組合在一起，以形成單個匯總值。
+聚合函式用於將多個值組合在一起，以形成單個匯總值。
 
 ## 計數{#count}
 
-此 `count` 函式會傳回指定陣列中的元素數。
+的 `count` 函式返回給定陣列中的元素數。
 
 **格式**
 
@@ -35,9 +35,9 @@ ht-degree: 8%
 {%= count(orders) %}
 ```
 
-## 總和{#sum}
+## 和{#sum}
 
-此 `sum` 函式會傳回陣列內所有選取值的總和。
+的 `sum` 函式返回陣列中所有選定值的總和。
 
 **格式**
 
@@ -47,7 +47,7 @@ ht-degree: 8%
 
 **範例**
 
-以下操作返回所有訂單價格的總和。
+以下操作返回所有訂單價格之和。
 
 ```sql
 {%=sum(orders.order.price)%}
@@ -55,7 +55,7 @@ ht-degree: 8%
 
 ## 平均{#average}
 
-此 `average` 函式返回陣列內所有選定值的算術平均值。
+的 `average` 函式返回陣列中所有選定值的算術平均值。
 
 **格式**
 
@@ -73,7 +73,7 @@ ht-degree: 8%
 
 ## 最小{#min}
 
-此 `min` 函式會傳回陣列中所有選取值的最小值。
+的 `min` 函式返回陣列中所有選定值中最小的值。
 
 **格式**
 
@@ -91,7 +91,7 @@ ht-degree: 8%
 
 ## 最大{#max}
 
-此 `max` 函式會傳回陣列中所有選取值中最大的值。
+的 `max` 函式返回陣列中所有選定值中的最大值。
 
 **格式**
 

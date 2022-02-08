@@ -15,9 +15,9 @@ ht-degree: 4%
 
 # 輔助程式 {#gs-helpers}
 
-## 預設後援值{#default-value}
+## 預設回退值{#default-value}
 
-此 `Default Fallback Value` 如果屬性為空或null，則使用helper返回預設的回退值。 此機制適用於設定檔屬性和歷程事件。
+的 `Default Fallback Value` 如果屬性為空或為null，則使用helper返回預設回退值。 此機制適用於配置檔案屬性和行程事件。
 
 **語法**
 
@@ -25,12 +25,12 @@ ht-degree: 4%
 Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
 ```
 
-在此範例中，值 `there` 若 `firstName` 此配置檔案的屬性為空或null。
+在此示例中， `there` 的 `firstName` 此配置檔案的屬性為空或空。
 
 ## 條件{#if-function}
 
-此 `if` Helper用於定義條件塊。
-如果運算式評估傳回true，則會轉譯區塊，否則會跳過該區塊。
+的 `if` helper用於定義條件塊。
+如果表達式求值返回true，則呈現該塊，否則跳過該塊。
 
 **語法**
 
@@ -39,8 +39,8 @@ Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-遵循 `if` 幫手，你可以輸入 `else` 語句，指定要執行的代碼塊（如果相同條件為false）。
-此 `elseif` 語句將指定一個新條件以測試第一個語句是否返回false。
+遵循 `if` 幫助程式，可以輸入 `else` 語句，以指定要執行的代碼塊（如果相同條件為false）。
+的 `elseif` 如果第一個語句返回false，則語句將指定要test的新條件。
 
 
 **格式**
@@ -58,7 +58,7 @@ Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
 
 **範例**
 
-1. **根據條件運算式呈現不同的商店連結**
+1. **基於條件表達式呈現不同的儲存連結**
 
    ```sql
    {%#if profile.homeAddress.countryCode = "FR"%}
@@ -80,9 +80,9 @@ Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
    {%/if%}
    ```
 
-1. **新增條件式連結**
+1. **添加條件連結**
 
-   以下操作將僅將具有「.edu」電子郵件地址的配置檔案的「www.adobe.com/academia&#39;網站」、具有「.org」電子郵件地址的配置檔案的「www.adobe.com/org&#39;網站」以及所有其他配置檔案的預設URL「www.adobe.com/users&#39;」添加連結：
+   以下操作將添加一個連結至「www.adobe.com/academia&#39;」網站（僅包含「.edu」電子郵件地址的配置檔案）、「www.adobe.com/org&#39;網站（包含「.org」電子郵件地址的配置檔案）和預設URL「www.adobe.com/users&#39;」（用於所有其他配置檔案）:
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -94,7 +94,7 @@ Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
    {%/if%}
    ```
 
-1. **根據區段成員資格的條件式內容**
+1. **基於段成員資格的條件內容**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -116,12 +116,12 @@ Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
 
 >[!NOTE]
 >
->若要進一步了解分段和分段服務，請參閱 [節](../../segment/about-segments.md).
+>要瞭解有關分段和分段服務的詳細資訊，請參閱此 [節](../../segment/about-segments.md)。
 
 
 ## 除非{#unless}
 
-此 `unless` Helper用於定義條件塊。 由反對 `if`  helper，如果運算式評估傳回false，則會轉譯區塊。
+的 `unless` helper用於定義條件塊。 反對The `if`  helper，如果表達式計算返回false，則呈現該塊。
 
 **語法**
 
@@ -131,7 +131,7 @@ Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
 
 **範例**
 
-根據電子郵件地址擴充功能呈現部分內容：
+根據電子郵件地址擴展呈現某些內容：
 
 ```sql
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
@@ -143,8 +143,8 @@ Some edu specific content Content
 
 ## 每個{#each}
 
-此 `each` helper可用來迭代運算陣列。
-協助程式的語法為 ```{{#each ArrayName}}``` YourContent {{/each}}我們可以使用關鍵字來參照個別陣列項目 **此** 在街區裡。 可使用{{@index}}呈現陣列元素的索引。
+的 `each` 幫助程式用於在陣列上迭代。
+幫助程式的語法為 ```{{#each ArrayName}}``` YourContent {{/each}}我們可以使用關鍵字引用各個陣列項 **這個** 在街區內。 可以使用{{@index}}呈現陣列元素的索引。
 
 **語法**
 
@@ -165,7 +165,7 @@ Some edu specific content Content
 
 **範例**
 
-呈現此使用者購物車中的產品清單：
+呈現此用戶在其購物車中擁有的產品清單：
 
 ```sql
 {{#each profile.products as |product|}}
@@ -174,9 +174,9 @@ Some edu specific content Content
 {{/each}}
 ```
 
-## 使用{#with}
+## 與{#with}
 
-此 `with` helper可用來變更template-part的評估令牌。
+的 `with` helper用於更改template-part的評估令牌。
 
 **語法**
 
@@ -186,11 +186,11 @@ Some edu specific content Content
 {{/with}}
 ```
 
-此 `with` 協助程式對於定義快速鍵變數也很實用。
+的 `with` helper對於定義快捷方式變數也很有用。
 
 **範例**
 
-使用，將長變數名稱與短變數名稱混用：
+用於將長變數名稱與短變數名稱混用：
 
 ```sql
 {{#with profile.person.name as |name|}}
@@ -201,7 +201,7 @@ Some edu specific content Content
 
 ## 讓{#let}
 
-此 `let` 函式可讓運算式儲存為變數，以供稍後在查詢中使用。
+的 `let` 函式允許將表達式儲存為變數，以便稍後在查詢中使用。
 
 **語法**
 
@@ -211,7 +211,7 @@ Some edu specific content Content
 
 **範例**
 
-以下示例允許以美元表示的交易的所有產品總和，其中總和大於$100且小於$1000。
+以下示例允許以USD表示的交易記錄的所有產品合計，其合計大於$100且小於$1000。
 
 ```sql
 {% let variable = expression %} {{variable}}

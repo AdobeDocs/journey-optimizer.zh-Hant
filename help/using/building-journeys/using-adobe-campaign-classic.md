@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign v7/v8 動作
-description: 了解Adobe Campaign v7/v8動作
+description: 瞭解Adobe Campaignv7/v8操作
 feature: Actions
 topic: Administration
 role: Admin
@@ -15,16 +15,16 @@ ht-degree: 6%
 
 # Adobe Campaign v7/v8 動作 {#using_campaign_classic}
 
-如果您有Adobe Campaign v7或v8，則可使用整合。 它可讓您使用Adobe Campaign交易訊息功能來傳送電子郵件、推播通知和簡訊。
+如果您有Adobe Campaignv7或v8，則可進行整合。 它允許您使用Adobe Campaign事務性消息傳遞功能發送電子郵件、推送通知和簡訊。
 
-Journey Optimizer和Campaign執行個體之間的連線是在布建時Adobe設定。 聯繫Adobe。
+Journey Optimizer實例和市場活動實例之間的連接是在預配時通過Adobe設定的。 聯繫Adobe。
 
-若要讓此功能發揮作用，您需要設定專用的動作。 請參閱 [節](../action/acc-action.md).
+要使此操作正常運行，您需要配置專用操作。 請參閱此 [節](../action/acc-action.md)。
 
-本節提供端對端使用案例 [節](../building-journeys/campaign-classic-use-case.md).
+本中介紹了端到端使用案例 [節](../building-journeys/campaign-classic-use-case.md)。
 
-1. 從事件開始，設計您的歷程。 看這個 [節](../building-journeys/journey.md).
-1. 在 **動作** 區段中，選取「促銷活動」動作並將其新增至您的歷程。
-1. 在 **動作參數**，則會顯示訊息裝載中預期的所有欄位。 您需要將每個欄位對應至您要使用的欄位，不論是來自事件或來自資料來源。 這類似於自訂動作。 請參閱 [節](../building-journeys/using-custom-actions.md).
+1. 設計您的旅程，從活動開始。 查看 [節](../building-journeys/journey.md)。
+1. 在 **操作** 頁籤，選擇「市場活動」活動並將其添加到您的行程中。
+1. 在 **操作參數**，將顯示消息負載中所需的所有欄位。 您需要將每個欄位與要使用的欄位進行映射，無論是從事件還是從資料源。 這類似於自定義操作。 請參閱此 [節](../building-journeys/using-custom-actions.md)。
 
 ![](../assets/accintegration2.png)

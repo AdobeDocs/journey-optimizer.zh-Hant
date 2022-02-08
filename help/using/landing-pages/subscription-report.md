@@ -1,60 +1,60 @@
 ---
-title: 訂閱報表
-description: 了解如何使用訂閱服務的資料
+title: 訂閱報告
+description: 瞭解如何使用訂閱服務中的資料
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 hidefromtoc: true
 hide: true
-source-git-commit: 459bf9451ca86350713cf7f6d6977284b6d2eaf2
+exl-id: f5a42c69-0384-442b-acf6-b3149be8b0da
+source-git-commit: 1a2c87866404201ea4693ed58efe302b83db9efa
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
-# 訂閱報表 {#subscription-report}
+# 訂閱報告 {#subscription-report}
 
-訂閱報表會顯示訂閱者活動的詳細資訊。 有兩種報表類型可供使用：
+訂閱報告顯示有關訂閱者活動的詳細資訊。 有兩種報告類型可用：
 
-* 此 **[!UICONTROL Live report]** 以僅在過去24小時測量並視覺化您傳送的訂閱和取消訂閱。
+* 的 **[!UICONTROL Live report]** 以僅在過去24小時內測量和可視化交貨的訂閱和取消訂閱。
 
-* 此 **[!UICONTROL Global report]** 以測量並視覺化您傳送的訂閱和取消訂閱，並依選取的時段進行。
+* 的 **[!UICONTROL Global report]** 以測量和直觀顯示所選時段內交貨的預訂和取消預訂。
 
-若要存取您的報表，請選取 **即時** 或 **[!UICONTROL Global report]** 從您所選訂閱清單的進階功能表。
+要訪問報表，請選擇 **實況** 或 **[!UICONTROL Global report]** 的子菜單。
 
 ![](../assets/subscription_report_6.png)
 
-## 訂閱即時報表 {#subscription-live}
+## 訂閱即時報告 {#subscription-live}
 
 ![](../assets/subscription_report_3.png)
 
-此 **[!UICONTROL Subscription performance]** KPI與 **[!UICONTROL Subscriptions by journey]**/**[!UICONTROL Unsubscribes by journey]** 表格會詳細說明與訪客與著陸頁面的互動相關的主要資訊。 表格和KPI包含與您的登陸頁面相關的可用資料，例如：
+的 **[!UICONTROL Subscription performance]** 關鍵績效指標 **[!UICONTROL Subscriptions by journey]**/**[!UICONTROL Unsubscribes by journey]** 表格詳細列出了訪問者與登錄頁的接觸情況。 表和KPI包含與登錄頁相關的可用資料，例如：
 
 * **[!UICONTROL Subscribes]**:過去24小時內的訂閱總數。
 
 * **[!UICONTROL Unsubscribes]**:過去24小時內取消訂閱的總數。
 
-此 **[!UICONTROL Subscription performance]** 圖表顯示過去24小時內訂閱的演變。
+的 **[!UICONTROL Subscription performance]** 圖表顯示了過去24小時內訂閱的演變。
 
 ![](../assets/subscription_report_4.png)
 
-此 **訂閱 — 劃分** 和 **取消訂閱 — 劃分** 圖形會根據訊息、登錄頁面和管道，代表過去24小時內訂閱或取消訂閱的總人數。
+的 **訂閱 — 細分** 和 **取消訂閱 — 細分** 圖表表示過去24小時內訂閱或未訂閱的總人數，具體取決於消息、登錄頁和渠道。
 
-## 訂閱全域報告 {#subscription-global}
+## 訂閱全局報告 {#subscription-global}
 
 ![](../assets/subscription_report_1.png)
 
-此 **[!UICONTROL Subscription performance]** KPI與 **[!UICONTROL Subscriptions by journey]**/**[!UICONTROL Unsubscribes by journey]** 表格會詳細說明與訪客對登陸頁面的參與相關的主要資訊。 表格和KPI包含與您的登陸頁面相關的可用資料，例如：
+的 **[!UICONTROL Subscription performance]** 關鍵績效指標 **[!UICONTROL Subscriptions by journey]**/**[!UICONTROL Unsubscribes by journey]** 表格詳細列出了訪問者與登錄頁面的接觸的相關資訊。 表和KPI包含與登錄頁相關的可用資料，例如：
 
 * **[!UICONTROL Subscribes]**:有關期間的訂閱總數。
 
-* **[!UICONTROL Unsubscribes]**:有關期間的取消訂閱總數。
+* **[!UICONTROL Unsubscribes]**:有關期間未訂閱的總數。
 
-此 **[!UICONTROL Subscription performance]** 圖表顯示相關期間的訂閱演變。
+的 **[!UICONTROL Subscription performance]** 圖形顯示相關時段的訂閱的演變。
 
 ![](../assets/subscription_report_2.png)
 
-此 **訂閱 — 劃分** 和 **取消訂閱 — 劃分** 代表根據訊息、登錄頁面和管道，在選取的時段內訂閱或取消訂閱的總人數。
-
+的 **訂閱 — 細分** 和 **取消訂閱 — 細分** 表示根據消息、登錄頁和渠道在選定時間段內訂閱或取消訂閱的總人數。

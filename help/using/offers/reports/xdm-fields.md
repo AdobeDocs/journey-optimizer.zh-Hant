@@ -15,11 +15,11 @@ ht-degree: 67%
 
 # 存取事件 XDM 欄位 {#decisioningevents-xdm-schema}
 
-您可以直接從包含決策管理事件的資料集存取DecisioningEvents XDM結構。
+您可以直接從包含決策管理事件的資料集訪問DesiginingEvents XDM架構。
 
 ![](../../assets/access-schema.png)
 
-結構包含從Decision Management傳送資訊至Adobe Experience Platform所需的所有欄位。
+該架構包含從決策管理向Adobe Experience Platform發送資訊所需的所有欄位。
 
 若要取得特定欄位的詳細資訊，請選取該欄位以顯示包含欄位屬性的資訊窗格。
 

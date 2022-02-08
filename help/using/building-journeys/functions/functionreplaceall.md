@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: replaceAll
-description: 了解函式replaceAll
+description: 瞭解函式replaceAll
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -13,11 +13,11 @@ ht-degree: 16%
 
 ---
 
-# replaceAll {#replaceAll}
+# 全部替換 {#replaceAll}
 
-以基字串中的取代字串取代所有符合目標字串的發生次數。
+用基本字串中的替換字串替換與目標字串匹配的所有匹配項。
 
-替換從字串的開頭到結尾，例如，將字串&quot;aaa&quot;中的&quot;aa&quot;取代為&quot;b&quot;將產生&quot;ba&quot;而非&quot;ab&quot;。
+替換從字串的開頭到結尾，例如，在字串&quot;aaa&quot;中將&quot;aa&quot;替換為&quot;b&quot;將導致&quot;ba&quot;而不是&quot;ab&quot;。
 
 ## 類別
 
@@ -33,13 +33,13 @@ ht-degree: 16%
 |-----------|--------------|
 | 基礎 | 字串 |
 | Target | 字串 |
-| 更換 | 字串 |
+| 替換 | 字串 |
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `replaceAll(<baseString>,<sourceString>,<replacementString>)`
 
-傳回字串。
+返回字串。
 
 ## 範例
 
