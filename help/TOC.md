@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9db2ec80a23add5d5d01affaf1a7e7772952d487
 workflow-type: tm+mt
 source-wordcount: '911'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 98%
       + [建立推播通知](using/messages/create-push.md)
       + [建立 SMS 訊息](using/messages/create-sms.md)
    + [新增及管理資產](using/messages/assets-essentials.md)
-   + [新增個人化優惠](using/messages/deliver-personalized-offers.md)
+   + [新增個人化優惠方案](using/messages/deliver-personalized-offers.md)
    + 設計電子郵件 {#email-designer}
       + [開始使用電子郵件設計](using/messages/design-emails.md)
       + [在 UI 中設計您的電子郵件內容](using/messages/create-email-content.md)
@@ -50,12 +50,12 @@ ht-degree: 98%
    + [管理同意](using/messages/consent.md)
 + 個人化{#personalization}
    + [開始使用使用個人化](using/personalization/personalize.md)
-   + [個性化上下文](using/personalization/personalization-contexts.md)
+   + [個人化內容](using/personalization/personalization-contexts.md)
    + 建立運算式 {#build-expressions}
       + [個人化語法](using/personalization/personalization-syntax.md)
-      + 使用表達式編輯器 {#expression-editor}
-         + [關於表達式編輯器](using/personalization/personalization-build-expressions.md)
-         + [將屬性添加到收藏夾](using/personalization/personalization-favorites.md)
+      + 使用運算式編輯器 {#expression-editor}
+         + [關於運算式編輯器](using/personalization/personalization-build-expressions.md)
+         + [將屬性加入我的最愛](using/personalization/personalization-favorites.md)
          + [個人化驗證](using/personalization/personalization-validation.md)
       + 輔助函式{#functions}
          + [開始使用輔助函式](using/personalization/functions/functions.md)
@@ -81,7 +81,7 @@ ht-degree: 98%
    + 關於歷程{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
       + [歷程版本](using/building-journeys/journey-versions.md)
-      + [建立test配置檔案](using/building-journeys/creating-test-profiles.md)
+      + [建立測試設定檔](using/building-journeys/creating-test-profiles.md)
       + [與 Intelligent Services 整合](using/building-journeys/ai-services-overview.md)
    + 建立歷程{#create-journey}
       + [開始使用歷程](using/building-journeys/journey-gs.md)

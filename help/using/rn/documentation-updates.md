@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
 source-wordcount: '919'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 93%
 
 * 加入關於方案要求的新部分，以便在使用排名策略時能夠在事件類型中傳送。 [閱讀全文](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
 
-* 與 [!DNL Journey Optimizer] 個性化功能已重新組織，以便更好地閱讀。 [閱讀全文](../personalization/personalize.md)
+* 有關 [!DNL Journey Optimizer] 個人化功能的章節已重新整理，以便更容易閱讀。 [閱讀全文](../personalization/personalize.md)
 
 * 「建立消息預設」部分已分成幾個部分，以提高清晰度。 [閱讀全文](../configuration/message-presets.md#create-message-preset)
 
@@ -109,7 +109,7 @@ ht-degree: 93%
 * 最佳化首頁影像
 * 改進、重新命名「訊息追蹤」區段並移動至「新增連結及追蹤訊息」。 [閱讀全文](../messages/message-tracking.md)
 * 在鏡像頁面上新增子區段。 [閱讀全文](../messages/message-tracking.md#mirror-page)
-* 在文檔和螢幕中將「提供活動」更名為「決定」，將「決定」更名為「決策範圍」。 [閱讀全文](../offers/get-started/starting-offer-decisioning.md)
+* 在文件和畫面中，將「優惠方案活動」重新命名為「決定」，將「決定」重新命名為「決定範圍」。 [閱讀全文](../offers/get-started/starting-offer-decisioning.md)
 * 新使用案例： [透過協助工具功能個人化訊息](../personalization/personalization-use-case-helper-functions.md)
 * 更新讀取區段文件以凸顯具體化區段的影響。 [閱讀全文](../building-journeys/read-segment.md)
 * 更新歷程限制。 [閱讀全文](../start/limitations.md)
