@@ -1,15 +1,15 @@
 ---
 title: 使用者介面
-description: 瞭解有關Journey Optimizer用戶介面的詳細資訊
+description: 瞭解有關 Journey Optimizer 使用者介面的詳細資訊
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1464'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -82,9 +82,9 @@ ht-degree: 98%
 
 **[!UICONTROL ADMINISTRATION]**
 
-* **[!UICONTROL Journey Administration]**  — 使用此菜單配置 [事件]../event/about-events.md), [資料源](../datasource/about-data-sources.md) 和 [動作](../action/action.md) 在旅途中使用。
+* **[!UICONTROL Journey Administration]** - 使用此功能表來設定 [事件]../event/about-events.md)、[資料來源](../datasource/about-data-sources.md)和[動作](../action/action.md) ，以用於您的歷程。
 
-* **[!UICONTROL Sandboxes]** - Adobe Experience 提供的 sandbox 可將單一執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。[進一步了解](../administration/sandboxes.md)
+* **[!UICONTROL Sandboxes]** - Adobe Experience 平台提供的沙箱可將單一執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。[進一步了解](../administration/sandboxes.md)
 
 <!--
 * **[!UICONTROL Alerts]** - The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
