@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 83bb29b7026c90560ffdb961b03944d8f94c8a8c
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 3%
+source-wordcount: '1491'
+ht-degree: 5%
 
 ---
 
@@ -28,6 +28,12 @@ ht-degree: 3%
 ![](../../assets/offers_list.png)
 
 ## 建立優惠 {#create-offer}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_attributes"
+>title="關於聘用屬性"
+>abstract="使用聘用屬性，您可以將關鍵值對與聘用關聯，以便進行報告和分析。"
+>additional-url="https://video.tv.adobe.com/v/329375?captions=chi_hant" text="觀看示範影片"
 
 建立 **提供**，請執行以下步驟：
 
@@ -141,6 +147,30 @@ ht-degree: 3%
    >僅 **[!UICONTROL Profile attributes]**。 **[!UICONTROL Segment memberships]** 和 **[!UICONTROL Helper functions]** 源可用於決策管理。
 
 ## 添加資格規則和約束 {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_constraints"
+>title="關於提供約束"
+>abstract="有了約束，您可以指定與其他優惠相比如何優先化並呈現給用戶。"
+>additional-url="https://video.tv.adobe.com/v/329375" text="觀看示範影片"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_eligibility"
+>title="關於提供資格"
+>abstract="在本節中，您可以使用決策規則來確定哪些用戶有資格獲得此優惠。"
+>additional-url="https://video.tv.adobe.com/v/329373?captions=chi_hant" text="觀看示範影片"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_priority"
+>title="關於優惠優先順序"
+>abstract="在此欄位中，可以指定優惠的優先順序設定。 優先順序是用於對滿足所有約束（如資格、日期和上限設定）的優惠進行評級的數字。"
+>additional-url="https://video.tv.adobe.com/v/329375" text="觀看示範影片"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_globalcap"
+>title="關於服務封頂"
+>abstract="在此欄位中，您可以指定在所有用戶之間提供優惠的次數。"
+>additional-url="https://video.tv.adobe.com/v/329375" text="觀看示範影片"
 
 資格規則和約束允許您定義顯示聘用的條件。
 
