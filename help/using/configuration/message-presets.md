@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a5c104539cae37197e0caa43cefcfed2bee23737
+source-git-commit: 4a0b1ee220cc05e4dfc10724554b39bdfd0b6678
 workflow-type: tm+mt
-source-wordcount: '1684'
-ht-degree: 1%
+source-wordcount: '1694'
+ht-degree: 2%
 
 ---
 
@@ -44,76 +44,11 @@ ht-degree: 1%
    >
    > 名稱必須以字母(A-Z)開頭。 它只能包含字母數字字元。 您還可以使用下划線 `_`，點`.` 連字元 `-` 字元。
 
-1. 配置 **電子郵件** 的子菜單。
+1. 配置 **電子郵件** 的子菜單。 [了解更多](#configure-email-settings)
 
-   ![](../assets/preset-email.png)
+1. 配置 **推送通知** 的子菜單。 [了解更多](#configure-push-settings)
 
-   * 選擇將使用預設發送的消息類型： **事務性** 或 **營銷**
-
-      >[!CAUTION]
-      >
-      > **事務性** 消息可以發送到從營銷通信中取消訂閱的配置檔案。 這些消息只能在特定的上下文中發送，例如，密碼重置、訂單狀態、傳遞通知。
-
-   * 選擇要用於發送電子郵件的子域。 [了解更多](about-subdomain-delegation.md)
-   * 選擇要與預設關聯的IP池。 [了解更多](ip-pools.md)
-   * 輸入使用該預設發送的電子郵件的標頭參數。
-
-      >[!CAUTION]
-      >
-      >電子郵件地址必須使用當前選定的 [委託子域](about-subdomain-delegation.md)。
-
-      * **[!UICONTROL Sender name]**:發件人的名稱，如您的品牌名稱。
-
-      * **[!UICONTROL Sender email]**:要用於通信的電子郵件地址。 例如，如果委派的子域是 *營銷.luma.com*，您可以使用 *contact@marketing.luma.com*。
-
-      * **[!UICONTROL Reply to (name)]**:收件人按一下 **答復** 按鈕。
-
-      * **[!UICONTROL Reply to (email)]**:收件人按一下 **答復** 按鈕。 必須使用在委派子域上定義的地址(例如， *reply@marketing.luma.com*)，否則將刪除電子郵件。
-
-      * **[!UICONTROL Error email]**:ISP在發送數天郵件（非同步綁定）後生成的所有錯誤都會在此地址上接收。
-      >[!NOTE]
-      >
-      >從2021年10月的發行版起，再也不能從 [!DNL Journey Optimizer] 用戶介面。 如果要接收的所有電子郵件 [!DNL Journey Optimizer] 要將委託的子域轉發到特定電子郵件地址，請與 [Adobe客戶服務支援團隊](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
-
-      ![](../assets/preset-header.png)
-
-      >[!NOTE]
-      >
-      >名稱必須以字母(A-Z)開頭。 它只能包含字母數字字元。 您還可以使用下划線 `_`，點`.` 連字元 `-` 字元。
-
-   * 配置 **電子郵件重試參數**。 預設情況下， [重試時間](retries.md#retry-duration) 設定為84小時，但您可以調整此設定以更好地滿足您的需要。
-
-      ![](../assets/preset-retry-paramaters.png)
-
-      必須在以下範圍內輸入整數值（以小時或分鐘為單位）:
-      * 對於市場營銷電子郵件類型，最短重試週期為6小時。
-      * 對於事務性電子郵件類型，最小重試週期為10分鐘。
-      * 對於這兩種電子郵件類型，最大重試時間為84小時（或5040分鐘）。
-
-
-1. 配置 **推送通知** 的子菜單。
-
-   ![](../assets/preset-push.png)
-
-   * 至少選擇一個平台： **iOS** 和/或 **安卓**
-
-   * 選擇要用於每個平台的移動應用程式。
-
-      有關如何配置環境以發送推送通知的詳細資訊，請參閱 [此部分](../messages/push-gs.md)。
-
-<!--
-1. Configure the **SMS** settings.
-
-     ![](../assets/preset-sms.png)
-
-    * Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**
-    
-    * Select the **[!UICONTROL SMS configuration]** to associate with the preset.
-        
-      For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
-
-    * Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
--->
+   <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
 
 1. 配置完所有參數後，按一下 **[!UICONTROL Submit]** 確認。 您也可以將消息預設保存為草稿，並稍後恢復其配置。
 
@@ -140,6 +75,78 @@ ht-degree: 1%
 1. 檢查成功後，消息預設將獲取 **[!UICONTROL Active]** 狀態。 它已準備好用於傳遞消息。
 
    ![](../assets/preset-active.png)
+
+## 配置電子郵件設定 {#configure-email-settings}
+
+![](../assets/preset-email.png)
+
+1. 選擇將使用預設發送的消息類型： **事務性** 或 **營銷**。
+
+   >[!CAUTION]
+   >
+   > **事務性** 消息可以發送到從營銷通信中取消訂閱的配置檔案。 這些消息只能在特定的上下文中發送，例如，密碼重置、訂單狀態、傳遞通知。
+
+1. 選擇要用於發送電子郵件的子域。 [了解更多](about-subdomain-delegation.md)
+
+1. 選擇要與預設關聯的IP池。 [了解更多](ip-pools.md)
+
+1. 輸入使用該預設發送的電子郵件的標頭參數。
+
+   >[!CAUTION]
+   >
+   >電子郵件地址必須使用當前選定的 [委託子域](about-subdomain-delegation.md)。
+
+   * **[!UICONTROL Sender name]**:發件人的名稱，如您的品牌名稱。
+
+   * **[!UICONTROL Sender email]**:要用於通信的電子郵件地址。 例如，如果委派的子域是 *營銷.luma.com*，您可以使用 *contact@marketing.luma.com*。
+
+   * **[!UICONTROL Reply to (name)]**:收件人按一下 **答復** 按鈕。
+
+   * **[!UICONTROL Reply to (email)]**:收件人按一下 **答復** 按鈕。 必須使用在委派子域上定義的地址(例如， *reply@marketing.luma.com*)，否則將刪除電子郵件。
+
+   * **[!UICONTROL Error email]**:ISP在發送數天郵件（非同步綁定）後生成的所有錯誤都會在此地址上接收。
+   >[!NOTE]
+   >
+   >從2021年10月的發行版起，再也不能從 [!DNL Journey Optimizer] 用戶介面。 如果要接收的所有電子郵件 [!DNL Journey Optimizer] 要將委託的子域轉發到特定電子郵件地址，請與 [Adobe客戶服務支援團隊](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
+
+   ![](../assets/preset-header.png)
+
+   >[!NOTE]
+   >
+   >名稱必須以字母(A-Z)開頭。 它只能包含字母數字字元。 您還可以使用下划線 `_`，點`.` 連字元 `-` 字元。
+
+1. 配置 **電子郵件重試參數**。 預設情況下， [重試時間](retries.md#retry-duration) 設定為84小時，但您可以調整此設定以更好地滿足您的需要。
+
+   ![](../assets/preset-retry-paramaters.png)
+
+   必須在以下範圍內輸入整數值（以小時或分鐘為單位）:
+   * 對於市場營銷電子郵件類型，最短重試週期為6小時。
+   * 對於事務性電子郵件類型，最小重試週期為10分鐘。
+   * 對於這兩種電子郵件類型，最大重試時間為84小時（或5040分鐘）。
+
+## 配置推送設定 {#configure-push-settings}
+
+1. 至少選擇一個平台： **iOS** 和/或 **安卓**。
+
+1. 選擇要用於每個平台的移動應用程式。
+
+![](../assets/preset-push.png)
+
+有關如何配置環境以發送推送通知的詳細資訊，請參閱 [此部分](../messages/push-gs.md)。
+
+<!--
+## Configure SMS settings {#configure-sms-settings}
+
+1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
+
+    ![](../assets/preset-sms.png)
+    
+1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
+        
+    For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
+
+1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
+-->
 
 ## 監視消息預設 {#monitor-message-presets}
 

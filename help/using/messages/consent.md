@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 5d1dc2d1711ba43b8270423acb1a5ca0ab862230
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 98%
+source-wordcount: '1082'
+ht-degree: 52%
 
 ---
 
-# 管理選擇退出 {#consent}
+# 管理同意 {#consent}
 
 使用 [!DNL Journey Optimizer] 追蹤收件者的通訊同意，並透過管理其偏好和訂閱來瞭解他們想要如何與您的品牌互動。
 
@@ -26,34 +26,42 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target=&quot;_blank&quot;} 中進一步瞭解隱私權管理和相關法規。
 
-## 選擇退出管理 {#opt-out-management}
+>[!NOTE]
+>
+>在 [!DNL Journey Optimizer]，同意由Experience Platform處理 [同意架構](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target=&quot;_blank&quot;}。 預設情況下，「同意」欄位的值為空，並被視為接受通信的同意。 您可以在載入到列出的一個可能值時修改此預設值 [這裡](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target=&quot;_blank&quot;}。
+
+## 電子郵件選擇退出管理 {#opt-out-management}
 
 法律規定必須讓收件者提供能夠取消訂閱來自品牌的通訊。 進一步了解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hant){target=&quot;_blank&quot;} 中的適用法規。
 
 因此，您必須在每封寄送給收件者的電子郵件中一律包含&#x200B;**取消訂閱連結**：
 
-* 按一下此連結後，收件者會被導向至包含確認選擇退出按鈕的登陸頁面。
-* 按一下選擇退出按鈕後，將會發出 Adobe I/O 呼叫，以使用此資訊更新設定檔資料。 [進一步瞭解此功能](#consent-service-api)。
+* 按一下此連結後，收件人將被引導至登錄頁以確認退出。
+* 在確認其選擇後，將使用此資訊更新配置檔案的資料。
 
-### 新增取消訂閱連結 {#add-unsubscribe-link}
+### 外部選擇退出 {#opt-out-external-lp}
 
-若要新增取消訂閱連結，請遵循下列步驟：
+為此，您可以將指向外部登錄頁的連結插入電子郵件中，以便用戶可以取消訂閱從您的品牌接收通信。
 
-1. 建立您的取消訂閱登陸頁面。
+#### 新增取消訂閱連結 {#add-unsubscribe-link}
+
+您首先需要在消息中添加取消訂閱連結。 為此，請執行以下步驟：
+
+1. 生成您自己的未訂閱登錄頁。
 
 1. 在選擇的協力廠商系統進行託管。
 
 1. 於[!DNL Journey Optimizer][建立訊息](create-message.md)。
 
-1. 選擇內容中的文字，並使用內容相關工具列插入連結。
+1. 選擇內容中的文本， [插入連結](message-tracking.md#insert-links) 使用上下文工具欄。
 
    ![](assets/opt-out-insert-link.png)
 
-1. 從&#x200B;**[!UICONTROL Link type]**&#x200B;下拉式清單中選取 **[!UICONTROL Unsubscription link]**。
+1. 從&#x200B;**[!UICONTROL Link type]**&#x200B;下拉式清單中選取 **[!UICONTROL External Opt-out/Unsubscription]**。
 
    ![](assets/opt-out-link-type.png)
 
-1. 在&#x200B;**[!UICONTROL Link]**&#x200B;欄位貼上登陸頁面的連結。
+1. 在 **[!UICONTROL Link]** 欄位，貼上指向第三方登錄頁的連結。
 
    ![](assets/opt-out-link-url.png)
 
@@ -61,33 +69,9 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 1. 儲存您的內容並[發佈您的訊息](publish-manage-message.md)。
 
-   >[!NOTE]
-   >
-   >您的協力廠商登陸頁面 URL 將包含三個參數，這些參數將用來透過 Adobe I/O 呼叫更新設定檔的偏好設定。 [在本節中瞭解更多](#consent-service-api)。
+#### 實現API調用以選擇退出 {#opt-out-api}
 
-1. 透過[歷程](../building-journeys/journey.md)傳送含有登陸頁面連結的訊息。
-
-1. 收到訊息後，如果收件者按一下取消訂閱連結，就會顯示您的登陸頁面。
-
-   ![](assets/opt-out-lp-example.png)
-
-1. 如果收件者按一下登陸頁面中的選擇退出按鈕 (這裡是&#x200B;**取消訂閱**&#x200B;按鈕)，則透過 [Adobe I/O 呼叫](#opt-out-api)更新設定檔資料。
-
-   然後，選擇退出的收件者會被重新導向至確認訊息畫面，表示成功選擇退出。
-
-   ![](assets/opt-out-confirmation-example.png)
-
-   因此，除非再次訂閱，否則此使用者將不會收到您品牌的通訊。
-
-若要檢查對應的設定檔選擇是否已更新，請前往 Experience Platform，並透過選取識別名稱空間和對應的識別值來存取設定檔。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}中進一步瞭解。
-
-![](assets/opt-out-profile-choice.png)
-
-在 **[!UICONTROL Attributes]** 標籤中，您可以看到 **[!UICONTROL choice]** 的值已變更為 **[!UICONTROL no]**。
-
-### 選擇退出 API 呼叫 {#opt-out-api}
-
-當收件者按一下取消訂閱連結選擇退出後，就會呼叫 Adobe I/OAPI 以更新對應的設定檔偏好設定。
+要在收件人從登錄頁提交其選擇時選擇退出，您必須實施 **訂閱API調用** 通過Adobe I/O更新相應配置檔案的首選項。
 
 此 Adobe I/OPOST 呼叫如下：
 
@@ -99,7 +83,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 * **sig**：簽名
 * **pid**：加密的設定檔 ID
 
-這些參數可從傳送給收件者的取消訂閱連結取得，亦即將為指定收件者開啟您第三方登陸頁面的 URL：
+這三個參數將包括在發送給您的收件人的第三方登錄頁URL中：
 
 ![](assets/opt-out-parameters.png)
 
@@ -125,17 +109,61 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 }
 ```
 
-[!DNL Journey Optimizer] 將使用這些參數更新相應配置檔案的選擇。
+[!DNL Journey Optimizer] 將使用這些參數通過Adobe I/O調用更新相應配置檔案的選擇。
 
-## 一鍵選擇退出 {#one-click-opt-out}
+#### 使用取消訂閱連結發送郵件 {#send-message-unsubscribe-link}
 
-由於許多客戶都在尋找更輕鬆的取消訂閱流程，您也可以在電子郵件內容中加入一鍵選擇退出的連結。 此連結可讓您的收件者快速取消訂閱您的通訊內容，無需重新導向至需要確認選擇退出的登陸頁面。
+配置到登錄頁的取消訂閱連結並實現API調用後，您的消息就可以發送了。
 
-在 [本節](message-tracking.md#one-click-opt-out-link)瞭解如何在您的訊息內容加入選擇退出的連結。
+1. 通過 [旅程](../building-journeys/journey.md)。
+
+1. 收到訊息後，如果收件者按一下取消訂閱連結，就會顯示您的登陸頁面。
+
+   ![](assets/opt-out-lp-example.png)
+
+1. 如果收件人提交表單(此處，按 **取消訂閱** 按鈕)，通過 [Adobe I/O呼叫](#opt-out-api)。
+
+1. 然後，選擇退出的收件者會被重新導向至確認訊息畫面，表示成功選擇退出。
+
+   ![](assets/opt-out-confirmation-example.png)
+
+   因此，除非再次訂閱，否則此使用者將不會收到您品牌的通訊。
+
+1. 若要檢查對應的設定檔選擇是否已更新，請前往 Experience Platform，並透過選取識別名稱空間和對應的識別值來存取設定檔。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}中進一步瞭解。
+
+   ![](assets/opt-out-profile-choice.png)
+
+   在 **[!UICONTROL Attributes]** 標籤中，您可以看到 **[!UICONTROL choice]** 的值已變更為 **[!UICONTROL no]**。
+
+### 一鍵選擇退出 {#one-click-opt-out}
+
+由於許多客戶都在尋找更輕鬆的取消訂閱流程，您也可以在電子郵件內容中加入一鍵選擇退出的連結。 此連結將使您的收件人能夠快速取消訂閱您的通信，而無需重定向到需要確認其選擇的登錄頁，從而加快取消訂閱過程。
+
+要在電子郵件中添加選擇退出連結，請執行以下步驟。
+
+1. [插入連結](message-tracking.md#insert-links) 選擇 **[!UICONTROL One click Opt-out]** 作為連結的類型。
+
+   ![](assets/message-tracking-opt-out.png)
+
+1. 選擇要如何應用選擇退出：在通道、標識或訂閱級別。
+
+   ![](assets/message-tracking-opt-out-level.png)
+
+   * **[!UICONTROL Channel]**:選擇退出適用於將來發送到當前渠道的配置檔案目標（即電子郵件地址）的郵件。 如果幾個目標與一個配置檔案關聯，則選擇退出將應用於該渠道配置檔案中的所有目標（即電子郵件地址）。
+   * **[!UICONTROL Identity]**:選擇退出適用於將來發送給當前郵件使用的特定目標（即電子郵件地址）的郵件。
+   * **[!UICONTROL Subscription]**:選擇退出適用於與特定訂閱清單關聯的將來消息。 僅當當前消息與訂閱清單關聯時，才能選擇此選項。
+
+1. 輸入登錄頁的URL，一旦取消訂閱，將重定向用戶。 此頁僅用於確認選擇退出成功。
+
+   ![](assets/message-tracking-opt-out-confirmation.png)
+
+   您可以個性化連結。 瞭解有關中的個性化URL的詳細資訊 [此部分](../personalization/personalization-syntax.md)。
+
+1. 儲存您的變更。
 
 一旦經由[歷程](../building-journeys/journey.md)傳送您的訊息後，如果收件者按一下選擇退出的連結，則會立即選擇退出其設定檔。
 
-## 標題中的取消訂閱連結 {#unsubscribe-email}
+### 取消訂閱消息標頭中的連結 {#unsubscribe-email}
 
 如果收件者的電子郵件用戶端支援在電子郵件標題中顯示取消訂閱連結，則隨 [!DNL Journey Optimizer] 傳送的電子郵件會自動包含此連結。
 

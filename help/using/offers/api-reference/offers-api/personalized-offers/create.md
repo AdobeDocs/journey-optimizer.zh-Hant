@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+source-git-commit: bdb7b6373cb9f5a64a74a8503f46adb3fd226f77
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 9%
+source-wordcount: '179'
+ht-degree: 8%
 
 ---
 
@@ -104,4 +104,4 @@ curl -X POST \
 
 ## 限制 {#limitations}
 
-當前，移動設備不支援某些服務限制 [!DNL Experience Edge] 工作流，例如 `Capping`。 的 `Capping` field value指定可在所有用戶間提供優惠的次數。 有關詳細資訊，請參閱 [提供資格規則和約束文檔](../../../offer-library/creating-personalized-offers.md)。
+當前移動設備不支援提供表示和某些提供限制 [!DNL Experience Edge] 工作流，例如 `Capping`。 的 `Capping` field value指定可在所有用戶間提供優惠的次數。 有關詳細資訊，請參閱 [提供資格規則和約束文檔](../../../offer-library/creating-personalized-offers.md)。

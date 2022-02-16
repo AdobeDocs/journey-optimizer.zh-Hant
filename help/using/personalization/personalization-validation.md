@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
    <td>「影像優惠」（與決策和放置對關聯的所有個性化和回退）應填充公共URL（deliveryURL不應為空）。</td> 
   </tr> 
   <tr> 
-   <td>該決定（以前稱為聘用活動）包含非配置檔案屬性。</td> 
+   <td>該決定包含非配置檔案屬性。</td> 
    <td>提供模型使用應僅包含配置檔案屬性。</td> 
   </tr> 
   <tr> 

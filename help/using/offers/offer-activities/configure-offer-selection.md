@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 77d7694524eaca447f0cf4e19881f1688fc4e789
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '463'
 ht-degree: 4%
 
 ---
 
 # 設定決定中的優惠選擇 {#offers-selection-in-decisions}
 
-如果有幾個優惠適合給定的放置，則您可以選擇在配置決策時為每個配置檔案選擇最佳優惠的方法（以前稱為優惠活動）。 您可以按以下方式對優惠進行排序：
+如果幾個優惠適合給定的放置，則您可以選擇在配置決策時為每個配置檔案選擇最佳優惠的方法。 您可以按以下方式對優惠進行排序：
 * 提供優先順序
 * 排名公式
 * [AI排名](#use-ranking-strategy) （僅限於選定用戶的早期訪問）
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 ## 提供優先順序 {#offer-priority}
 
-預設情況下，當有幾個要約有資格在決策中進行給定的職位安排（以前稱為要約活動）時，其報價最高 **優先順序** 會先送給客戶。
+預設情況下，當多個要約有資格在決策中進行給定的配售時，其報價最高 **優先順序** 會先送給客戶。
 
 ![](../../assets/offer-priority.png)
 
@@ -38,7 +38,7 @@ ht-degree: 4%
 
 瞭解如何在中建立排名公式 [此部分](../offer-library/create-ranking-formulas.md)。
 
-一旦建立了排名公式，您就可以將其分配給決策中的位置（以前稱為聘用活動）。 為此，請執行以下步驟：
+一旦建立了排名公式，您就可以將其分配給決策中的位置。 為此，請執行以下步驟：
 
 1. 建立決策或編輯現有決策。 請參閱[建立決定](../offer-activities/create-offer-activities.md)。
 
@@ -60,13 +60,15 @@ ht-degree: 4%
 
 ## AI 排名 {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can also use an trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../offer-library/create-ranking-strategies.md).
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+
+您還可以使用經過培訓的模型系統自動對提供的服務進行評級，通過選擇評級策略來顯示給定配置檔案。 瞭解如何在 [此部分](../offer-library/create-ranking-strategies.md)。
 
 >[!CAUTION]
 >
 >AI排名的使用目前僅在選擇用戶的早期訪問中可用。
 
-一旦建立了排名策略，您就可以將其分配給決策中的位置（以前稱為聘用活動）。 要執行此操作，請執行以下步驟：
+一旦建立了排名策略，您就可以將其分配給決策中的位置。 要執行此操作，請執行以下步驟：
 
 1. 建立決策或編輯現有決策。 請參閱[建立決定](../offer-activities/create-offer-activities.md)。
 

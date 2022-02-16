@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
-source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '141'
 ht-degree: 5%
 
 ---
 
 # 刪除決定 {#delete-decision}
 
-有時可能需要刪除(DELETE)一項決定（以前稱為聘用活動）。 只能刪除您在租戶容器中建立的決定。 這是通過對執行DELETE請求 [!DNL Offer Library] 使用您要刪除的備用優惠的$id的API。
+有時可能需要刪除(DELETE)決定。 只能刪除您在租戶容器中建立的決定。 這是通過對執行DELETE請求 [!DNL Offer Library] 使用您要刪除的備用優惠的$id的API。
 
 **API格式**
 

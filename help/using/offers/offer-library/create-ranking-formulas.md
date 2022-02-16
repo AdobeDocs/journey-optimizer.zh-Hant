@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '602'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 排名公式在中表示 **PQL語法** 並可利用配置檔案屬性、上下文資料和提供屬性。 有關如何使用PQL語法的詳細資訊，請參閱 [專用文檔](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html)。
 
-一旦建立了排名公式，您就可以將其分配給決策中的位置（以前稱為聘用活動）。 有關此的詳細資訊，請參閱 [在決策中配置服務選擇](../offer-activities/configure-offer-selection.md)。
+一旦建立了排名公式，您就可以將其分配給決策中的位置。 有關此的詳細資訊，請參閱 [在決策中配置服務選擇](../offer-activities/configure-offer-selection.md)。
 
 ## 建立排名公式 {#create-ranking-formula}
 

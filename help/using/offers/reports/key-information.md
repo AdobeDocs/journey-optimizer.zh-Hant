@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 07be59e8-e994-4854-8089-25614d005dbe
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 90%
+source-wordcount: '128'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 90%
 * **[!UICONTROL Fallback]**：備用優惠的名稱和 ID (如果未選取個人化優惠) ，
 * **[!UICONTROL Placement]**：用來傳送優惠之位置的名稱、ID 和頻道、
 * **[!UICONTROL Selections]**：為設定檔選取之優惠的名稱和 ID、
-* **[!UICONTROL Activity]**: 決定 (先前稱為優惠活動) 的名稱和 ID。
+* **[!UICONTROL Activity]**:決定的名稱和ID。
 
 此外，您也可以運用 **[!UICONTROL identityMap]** 和 **[!UICONTROL Timestamp]** 欄位來擷取有關設定檔和傳送優惠時間的資訊。
 

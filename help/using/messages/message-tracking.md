@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: fc6ec2c916f6fbf3d6c6728b5a50ae7e54d9b42f
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 2%
+source-wordcount: '577'
+ht-degree: 3%
 
 ---
 
@@ -52,11 +52,13 @@ ht-degree: 2%
 
    * **[!UICONTROL Landing page]**:插入到登錄頁的連結。 請參閱[本節](../landing-pages/get-started-lp.md)以進一步瞭解
 
-   * **[!UICONTROL Unsubscription link]**:插入連結以取消訂閱從您的品牌接收通信。 進一步瞭解[本章節](consent.md#opt-out-management)中的選擇退出管理。
+   * **[!UICONTROL One click Opt-out]**:插入連結，使用戶能夠快速取消訂閱您的通信，而無需確認退出。 瞭解詳情 [此部分](consent.md#one-click-opt-out)。
+
+   * **[!UICONTROL External Opt-in/Subscription]**:插入一個連結以接受來自您品牌的通信。
+
+   * **[!UICONTROL External Opt-out/Unsubscription]**:插入連結以取消訂閱從您的品牌接收通信。 進一步瞭解[本章節](consent.md#opt-out-management)中的選擇退出管理。
 
    * **[!UICONTROL Mirror page]**:插入連結以在Web瀏覽器中顯示電子郵件內容。 瞭解詳情 [此部分](#mirror-page)。
-
-   * **[!UICONTROL Opt-out]**:插入連結，使用戶能夠快速取消訂閱您的通信，而無需確認退出。 瞭解詳情 [此部分](#one-click-opt-out-link)。
 
    ![](assets/message-tracking-links.png)
 
@@ -66,7 +68,7 @@ ht-degree: 2%
 
 1. 建立連結後，您仍可以從 **[!UICONTROL Component settings]** 的子菜單。
 
-   * 按一下鉛筆表徵圖可編輯連結。
+   * 可以編輯連結並更改其類型。
    * 您可以通過選中相應選項來選擇是否為連結加下划線。
 
    ![](assets/message-tracking-link-settings.png)
@@ -93,34 +95,6 @@ ht-degree: 2%
 
 鏡像頁的保留期為60天。 延遲後，鏡像頁將不再可用。
 
-## 按一下一鍵選擇退出連結 {#one-click-opt-out-link}
-
-要使您的收件人能夠快速取消訂閱從您的品牌接收通信，您可以在您的電子郵件內容中插入一個按一下選擇退出連結。 這種容量可以防止用戶重定向到需要確認其選擇的登錄頁，從而加快取消訂閱過程。
-
-要在電子郵件中添加選擇退出連結，請執行以下步驟。
-
-1. [插入連結](#insert-links) 選擇 **[!UICONTROL Opt-out]** 作為連結的類型。
-
-   ![](assets/message-tracking-opt-out.png)
-
-1. 選擇要如何應用選擇退出：在通道、標識或訂閱級別。
-
-   ![](assets/message-tracking-opt-out-level.png)
-
-   * **[!UICONTROL Channel]**:選擇退出適用於將來發送到當前渠道的配置檔案目標（即電子郵件地址）的郵件。 如果幾個目標與一個配置檔案關聯，則選擇退出將應用於該渠道配置檔案中的所有目標（即電子郵件地址）。
-   * **[!UICONTROL Identity]**:選擇退出適用於將來發送給當前郵件使用的特定目標（即電子郵件地址）的郵件。
-   * **[!UICONTROL Subscription]**:選擇退出適用於與特定訂閱清單關聯的將來消息。 僅當當前消息與訂閱清單關聯時，才能選擇此選項。
-
-1. 輸入登錄頁的URL，一旦取消訂閱，將重定向用戶。 此頁僅用於確認選擇退出成功。
-
-   ![](assets/message-tracking-opt-out-confirmation.png)
-
-   您可以個性化連結。 瞭解有關中的個性化URL的詳細資訊 [此部分](../personalization/personalization-syntax.md)。
-
-1. 儲存您的變更。
-
-發送郵件後，如果收件人按一下「選擇退出」連結，則會立即選擇退出。
-
 ## 管理跟蹤 {#manage-tracking}
 
 的 [電子郵件設計器](create-email-content.md) 允許您管理跟蹤的URL，例如編輯每個連結的跟蹤類型。
@@ -134,7 +108,6 @@ ht-degree: 2%
    ![](assets/message-tracking-edit-links.png)
 
 1. 可以修改 **[!UICONTROL Tracking Type]** 如需：
-
 
    ![](assets/message-tracking-edit-a-link.png)
 

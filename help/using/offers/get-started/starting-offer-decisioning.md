@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 85%
+source-wordcount: '908'
+ht-degree: 83%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 85%
 
 * **集合**：集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
 
-* **決定** (先前稱為選件活動)：決定包含通知優惠選擇的邏輯。
+* **決定**:決定包含通知選擇要約的邏輯。
 
 * **決定規則**：決定規則是新增至個人化優惠的限制，並套用至設定檔以判斷適用性。
 

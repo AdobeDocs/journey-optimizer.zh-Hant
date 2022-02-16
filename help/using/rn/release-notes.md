@@ -2,7 +2,7 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1316d7564a26db3e5be30a1b35e97e4fd15decd1
+source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
 source-wordcount: '2416'
 ht-degree: 98%
@@ -326,7 +326,7 @@ ht-degree: 98%
 **內容設計**
 
 * **背景**  - 即時預覽現在支援背景影像。 [進一步了解](../messages/preview.md)
-* **一鍵選擇退出的連結**  - 您可以在電子郵件內容中插入新類型的連結：**選擇退出**&#x200B;連結可讓使用者只要按一下即可取消訂閱接收您的通訊，無須重新導向至登陸頁面以確認選擇退出。 [進一步了解](../messages/message-tracking.md#one-click-opt-out-link)
+* **一鍵選擇退出的連結**  - 您可以在電子郵件內容中插入新類型的連結：**選擇退出**&#x200B;連結可讓使用者只要按一下即可取消訂閱接收您的通訊，無須重新導向至登陸頁面以確認選擇退出。 [進一步了解](../messages/consent.md#one-click-opt-out-link)
 
 **個人化**
 

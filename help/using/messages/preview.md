@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 3e22c572ba05f1d084c87e550c80f521e39d7520
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 3%
@@ -46,8 +46,8 @@ ht-degree: 3%
 >id="ac_preview_testprofiles"
 >title="預覽和test郵件"
 >abstract="定義消息內容後，可以使用test配置檔案預覽和test它。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#email-rendering" text="電子郵件轉譯"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#preview-your-messages" text="預覽"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/validate/preview.html?lang=en#email-rendering" text="電子郵件轉譯"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/validate/preview.html?lang=en#preview-your-messages" text="預覽"
 
 使用 [Test配置檔案](../building-journeys/creating-test-profiles.md) 目標與定義的目標條件不匹配的其他收件人。
 

@@ -2,10 +2,10 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 97%
+source-wordcount: '919'
+ht-degree: 93%
 
 ---
 
@@ -24,6 +24,11 @@ ht-degree: 97%
 
 * 與 [!DNL Journey Optimizer] 個性化功能已重新組織，以便更好地閱讀。 [閱讀全文](../personalization/personalize.md)
 
+* 「建立消息預設」部分已分成幾個部分，以提高清晰度。 [閱讀全文](../configuration/message-presets.md#create-message-preset)
+
+* 選擇退出管理科已澄清，並稍作調整。 [閱讀全文](../messages/consent.md#opt-out-management)
+
+* 「插入連結」部分已更新以反映最近用戶介面的更改。 [閱讀全文](../messages/message-tracking.md#insert-links)
 
 ## 2021 年 11 月 {#november-2021}
 
@@ -87,7 +92,7 @@ ht-degree: 97%
 * 更新「啟用允許清單」區段。 [進一步了解](../messages/allow-list.md#enable-allow-list)
 * 更新「監視」訊息預設集區段，其中包含預設集建立失敗的可能原因，以及這類錯誤的詳細資訊。 [閱讀全文](../configuration/message-presets.md#monitor-message-presets)
 * 更新並重新命名「重試時段」區段，凸顯您現在可以在訊息預設集中調整電子郵件重試設定。 [閱讀全文](../configuration/retries.md#retry-duration)
-* 新增區段，說明如何在電子郵件內容中插入一鍵選擇退出的連結。 [閱讀全文](../messages/message-tracking.md#one-click-opt-out-link)
+* 新增區段，說明如何在電子郵件內容中插入一鍵選擇退出的連結。 [閱讀全文](../messages/consent.md#one-click-opt-out-link)
 * 更新委派子網域區段，針對 Adobe 執行的驗證流程提供詳細資訊。 [閱讀全文](../configuration/delegate-subdomain.md#subdomain-validation)
 * 新增區段，說明如何手動將電子郵件地址和網域加入隱藏清單。 [閱讀全文](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * 更新[存取隱藏清單](../configuration/manage-suppression-list.md#access-suppression-list)區段與 [重試](../configuration/retries.md)區段來凸顯新的使用者介面。

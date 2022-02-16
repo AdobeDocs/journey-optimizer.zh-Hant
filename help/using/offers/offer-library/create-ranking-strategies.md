@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 1bca78723ec8ff93f48b9afa360868c2b9bac670
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ## 開始AI排名 {#get-started-with-ai-rankings}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use an trained model system that ranks offers to display for a given profile.
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use a trained model system that ranks offers to display for a given profile.
 
 >[!CAUTION]
 >
@@ -168,10 +168,11 @@ Thompson抽樣方法還能夠處理諸如&quot;冷啟動&quot;問題等挑戰，
 
 要能夠在事件類型（顯示的要約或已按一下的要約）中發送，必須為發送到Adobe Experience Platform的體驗事件中的每個事件類型設定正確的值。 以下是在JavaScript代碼中實現的架構要求：
 
-**方案：** 顯示的優惠
+### 提供顯示的方案
+
 **事件類型：** `decisioning.propositionDisplay`
 **來源：** Web.sdk/Alloy.js(`sendEvent command -> xdm : {eventType, interactionMixin}`)或批量攝取
-**示例負載：**
++++**示例負載：**
 
 ```
 {
@@ -197,10 +198,13 @@ Thompson抽樣方法還能夠處理諸如&quot;冷啟動&quot;問題等挑戰，
 }
 ```
 
-**方案：** 已按一下優惠
++++
+
+### 已按一下優惠方案
+
 **事件類型：** `decisioning.propositionInteract`
 **來源：** Web.sdk/Alloy.js(`sendEvent command -> xdm : {eventType, interactionMixin}`)或批量攝取
-**示例負載：**
++++**示例負載：**
 
 ```
 {
@@ -226,12 +230,14 @@ Thompson抽樣方法還能夠處理諸如&quot;冷啟動&quot;問題等挑戰，
 }
 ```
 
++++
+
 <!--
 ## Using a ranking strategy {#using-ranking}
 
 To use the ranking strategy you created above, follow the steps below:
 
-Once a ranking strategy has been created, you can assign it to a placement in a decision (previously known as offer activity). For more on this, see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
+Once a ranking strategy has been created, you can assign it to a placement in a decision. For more on this, see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
 
 1. Create a decision.
 1. Add a placement.
