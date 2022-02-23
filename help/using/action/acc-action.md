@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+source-git-commit: 7324b5dd448b770990aad485fa2b13bc131cbcb1
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '450'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ Journey Optimizer實例和市場活動實例之間的連接是在預配時通過
 
 ## 重要備註 {#important-notes}
 
-* 沒有消息限制。 根據我們當前的市場活動SLA，我們將可以發送到的郵件數量限制為50,000/小時。 因此，Journey Optimizer只應用於單一使用情形（單個事件，而不是分段）。
+* 沒有消息限制。 系統根據當前市場活動SLA將可以每5分鐘發送的消息數限制為4000。 因此，Journey Optimizer只應用於單一使用情形（單個事件，而不是分段）。
 
 * 您需要在畫布上根據要使用的模板配置一個操作。 您需要在Journey Optimizer為要從Adobe Campaign使用的每個模板配置一個操作。
 

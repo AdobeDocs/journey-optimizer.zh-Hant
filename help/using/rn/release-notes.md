@@ -2,10 +2,10 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
+source-git-commit: 6c4b79ad4291d6206fbbbe831ea10b76b431389f
 workflow-type: tm+mt
-source-wordcount: '2416'
-ht-degree: 98%
+source-wordcount: '2611'
+ht-degree: 93%
 
 ---
 
@@ -13,6 +13,100 @@ ht-degree: 98%
 
 本頁面列出[!DNL Journey Optimizer]所有新功能和改進項目。您還可以參閱[最新文件更新](documentation-updates.md)頁面以了解更多變更。
 
+
+
+## 2022 年 2 月發行 {#feb-2022-release}
+
+### 新功能
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Subscription Landing Pages</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create and design landing pages in Journey Optimizer, and direct your users to online forms where they can opt-in or opt-out from receiving your communications, or subscribe to a specific service such as a newsletter.</p>
+<p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-cases.md">sample use case</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Expression Personalization Library</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer now provides a library where you can access predefined personalization expressions. These expressions are configured by Admin users.</p>
+<!--p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-case.md">sample use case</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+<!--table>
+<thead>
+<tr>
+<th><strong>API Developer Site and Suppression API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer provide RESTful APIs that allow you to programmatically perform key operations in your applications.
+Developer SDK for Journey Optimizer is now available with the Suppression API (beta).</p>
+<p>With this API, you can control your outgoing messages using suppression and allow lists.
+The suppression list helps you with honoring the ISPs’ feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
+<p>See <a href="https://developer.adobe.com/journey-optimizer-apis/">Adobe Journey Optimizer APIs</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>傳遞資訊以使用UTM跟蹤參數跟蹤郵件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>在Journey Optimizer消息內容中，您現在可以將UTM參數添加到連結：他們可以提供有關該連結的其他資料，並幫助您確定某人點擊您連結的位置和原因。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/message-presets.md">詳細文件</a>。</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改進項目
+
+**歷程**
+
+* 為了優化效能，所有處於test模式且一週內未觸發的行程現在將切換回「草稿」狀態。 [閱讀全文](../building-journeys/testing-the-journey.md#important_notes)
+* Journey Optimizer和Adobe Campaign Classic的整合已經優化，以提高效能。 封頂預設配置已更改為4000呼叫/5分鐘。	[閱讀全文](../action/acc-action.md#important-notes)
+
+**報告**
+
+* 現在可以根據交貨的狀態篩選交貨：
+   * 從「消息執行」清單中，您現在可以從交貨的清單中排除證據。
+   * 從即時/全局報告中，您可以選擇排除test事件。
+
+* 您現在可以訪問有關發送時間優化資料的報告：即時消息的人數以及通過1小時優化、2小時優化等消息的人數。
+
+<!--* Offer Decisioning reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
+
+**決定管理**
+
+* 排名和AI排名現在被分成一個標籤。
 
 ## 2022 年 1 月發行版本 {#january-2022-release}
 
@@ -60,7 +154,7 @@ ht-degree: 98%
 
 * 對於在已發佈訊息中直接或間接引用的優惠方案、遞補優惠、優惠收藏或優惠決定，現在將在對應訊息中自動反映您的更新，無需重新發佈。 [了解更多](../offers/offers-e2e.md#insert-decision-in-email)
 
-* 在模擬給定test配置檔案將提供哪些服務時，您現在可以修改預設模擬設定，並查看與可用於故障排除目的的模擬相對應的代碼。 [進一步了解](../offers/offer-activities/simulation.md#define-simulation-settings)
+* 在模擬給定測試設定檔將提供哪些服務時，您現在可以修改預設模擬設定，並針對用於疑難排解的模擬查看對應的代碼。 [進一步了解](../offers/offer-activities/simulation.md#define-simulation-settings)
 
 **管理**
 

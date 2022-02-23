@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: a51b19413d2b4894adfaa8249ee4f5d404ac7123
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 13%
+source-wordcount: '1443'
+ht-degree: 14%
 
 ---
 
@@ -67,7 +67,6 @@ ht-degree: 13%
 
    ![](../assets/jo-event7.png)
 
-1. 對於系統生成的事件，可以添加條件。 此步驟為選填。這可讓系統僅處理符合條件的事件。您只能根據事件含有之資訊設定條件。請參閱[本節](../event/about-creating.md#add-a-condition)。
 1. 按一下「**[!UICONTROL Save]**」。
 
    條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。請參閱[此頁面](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
@@ -144,18 +143,6 @@ ht-degree: 13%
 當收到事件時，該鍵的值將允許系統標識與該事件關聯的人員。 與命名空間關聯(請參見 [此部分](../event/about-creating.md#select-the-namespace))，該鍵可用於對Adobe Experience Platform執行查詢。 請參閱[此頁面](../building-journeys/about-journey-activities.md#orchestration-activities)。鑰匙還用於檢查人是否在旅途中。 事實上，一個人不可能在同一旅程中處於兩個不同的位置。 因此，系統不允許相同的密鑰（例如，密鑰CRMID=3224）在相同行程的不同位置處。
 
 您還可以訪問高級表達式函式(**[!UICONTROL Advanced mode]**)。 通過這些函式，您可以處理用於執行特定查詢的值，例如更改格式、執行欄位連接，只考慮欄位的一部分（例如10個首字元）。 請參閱 [Journey Orchestration文檔](../building-journeys/expression/expressionadvanced.md)。
-
-## 添加條件 {#add-a-condition}
-
-該條件僅適用於系統生成的事件。 您可以定義一個事件條件，該條件允許系統過濾事件的處理。 如果條件為true，則處理事件。 如果條件不為true，則忽略該事件。
-
-事件條件只能基於事件負載中傳遞的資料。 在事件級別定義的條件不能由商家在畫布中更改。 目的是在使用此事件時強化此條件。 例如，如果您不希望營銷人員在購物車值太小時使用購物車放棄事件，則可以在「購物車值」事件欄位中建立一個條件，並強加一個超過100美元的值。
-
-可以使用簡單表達式編輯器或高級表達式編輯器設定事件條件。 請參閱 [Journey Orchestration文檔](../building-journeys/expression/expressionadvanced.md)。
-
-例如，您可以定義一個條件，以僅處理特定事件類型的事件，並忽略其它類型。 或者，如果事件是購物車放棄，且有效負荷包括購物車值欄位，則您只能定義一個事件條件，以僅在購物車值大於100美元時處理這些事件。
-
-![](../assets/journey78.png)
 
 ## 預覽負載 {#preview-the-payload}
 

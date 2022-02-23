@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1abea49a0dce8d5866662235b243a3b82fb50c7b
+source-git-commit: c9f260444e1cd20e66421a87dd62c5ae7209ee06
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 4%
@@ -59,7 +59,7 @@ ht-degree: 4%
 
 1. 設定 **[!UICONTROL Throttling rate]** 欄位到讀取段活動的吞吐量限制。
 
-   此值儲存在行程版本負載中。 預設值為每秒17,000條消息。 您可以將此值從每秒500條修改為17,000條消息。
+   此值儲存在行程版本負載中。 預設值為每秒20,000條消息。 您可以將此值從每秒500條修改為每秒20,000條消息。
 
    >[!NOTE]
    >

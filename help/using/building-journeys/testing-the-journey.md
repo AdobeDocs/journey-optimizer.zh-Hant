@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: cae74818e60abc97cd8eb5ccd3f4337af591f488
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1625'
 ht-degree: 2%
 
 ---
@@ -61,6 +61,7 @@ ht-degree: 2%
 * 您可以根據需要多次啟用/禁用test模式。
 * 激活test模式時，無法修改行程。 在test模式下，您可以直接發佈行程，無需先前停用test模式。
 * 到達分割時，總是選擇頂部分支。 如果希望test選擇其他路徑，則可以重新組織拆分分支的位置。
+* 為優化效能並防止過時的資源使用，所有處於test模式且一週內未觸發的行程都將切換回「草稿」狀態。
 
 ## 發射事件 {#firing_events}
 

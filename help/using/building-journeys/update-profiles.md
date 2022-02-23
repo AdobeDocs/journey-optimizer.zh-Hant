@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 778ab302a5c9835024fe324999cdf5acf19ad172
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 0%
 * 不能使用 **更新配置檔案** 操作以生成體驗事件，例如採購。
 * 與任何其他操作一樣，在出現錯誤或超時時，您可以定義替代路徑，並且不能並行放置兩個操作。
 * 發送到平台的更新請求將快速，但不是立即/在一秒內。 通常需要幾秒，但有時還需要更多時間，而且無法保證。 因此，例如，如果操作使用的是「欄位1」，而更新配置檔案操作正在前面定位，則您不應期望在操作中更新「欄位1」。
+* 的 **更新配置檔案** 活動不支援定義為枚舉的XDM欄位。
 
 ## 使用test模式 {#using-the-test-mode}
 

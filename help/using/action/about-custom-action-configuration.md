@@ -1,26 +1,35 @@
 ---
 solution: Journey Orchestration
-title: 關於自訂動作組態
+title: 配置自定義操作
 description: 瞭解如何配置自定義操作
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: a101ee8cd7b57ee951d0ef2d5fd366757cb0a014
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '863'
 ht-degree: 6%
 
 ---
 
-# 設定動作 {#configure-an-action}
+# 配置自定義操作 {#configure-an-action}
 
-如果您使用第三方系統發送消息，或者如果希望行程將API調用發送到第三方系統，則在此處配置其到行程的連接。 然後，技術用戶定義的自定義操作將在您旅程的左側調色板中提供。 **[!UICONTROL Action]** 類別(請參閱 [此頁](../building-journeys/about-journey-activities.md#action-activities)。 以下是一些系統示例，您可以通過自定義操作連接到這些系統：Epsilon、Slack、Adobe.io、Firebase等
+如果您使用第三方系統發送消息，或者如果希望行程將API調用發送到第三方系統，請使用自定義操作配置其到行程的連接。 例如，可以使用自定義操作連接到以下系統：Epsilon、Slack、Adobe.io、Firebase等
 
-限制列在 [此頁](../start/limitations.md)。
+自定義操作是由技術用戶定義並可供營銷人員使用的附加操作。 配置後，它們會出現在您旅程的左側調色板中， **[!UICONTROL Action]** 的子菜單。 在[本頁](../building-journeys/about-journey-activities.md#action-activities)中瞭解更多。
 
-您可以使用自定義操作動態傳遞集合。 請參閱此 [用例](../building-journeys/collections.md)。
+## 限制{#custom-actions-limitations}
+
+自定義操作附帶了中列出的一些限制 [此頁](../start/limitations.md)。
+
+在自定義操作參數中，可以傳遞簡單集合以及對象集合。 瞭解有關中的收集限制的詳細資訊 [此頁](../building-journeys/collections.md#limitations)。
+
+另請注意，自定義操作參數具有預期格式(例如：字串、小數等)。 您必須小心遵守這些預期格式。 瞭解更多資訊 [用例](../building-journeys/collections.md)。
+
+
+## 設定步驟 {#configuration-steps}
 
 以下是配置自定義操作所需的主要步驟：
 

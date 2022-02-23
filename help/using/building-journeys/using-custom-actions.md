@@ -1,35 +1,29 @@
 ---
 title: 使用自定義操作
 description: 瞭解如何使用自定義操作
-feature: Journeys
+feature: Actions
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: a5ea934615385e6dc0edd482ce14f3faf546d750
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 6%
+ht-degree: 19%
 
 ---
 
 # 使用自定義操作 {#use-custom-actions}
 
-活動配置窗格顯示為自定義操作配置的URL配置參數和驗證參數。 [了解更多](../action/about-custom-action-configuration.md)。
-
->[!NOTE]
->
->不能在自定義操作參數中傳遞簡單集合。 不支援更複雜的集合欄位（對象陣列）。  另請注意，參數具有預期格式(例如：字串、小數等)。 您必須小心遵守這些預期格式。
+自訂動作可讓您設定協力廠商系統的連線，以傳送訊息或 API 呼叫。您可以使用任何提供者提供的任何服務來設定動作，這些服務可透過具有 JSON 格式的裝載，透過 REST API 進行呼叫。
 
 ## URL 組態
+
+的配置窗格 **自定義操作** 活動顯示為自定義操作配置的URL配置參數和驗證參數。 您不能在行程中設定URL的靜態部分，而是在自定義操作的全局配置中。 [了解更多](../action/about-custom-action-configuration.md)。
 
 ### 動態路徑
 
 如果URL包含動態路徑，請在 **[!UICONTROL Path]** 的子菜單。
-
->[!NOTE]
->
->您不能在行程中設定URL的靜態部分，而是在自定義操作的全局配置中。 [了解更多](../action/about-custom-action-configuration.md)。
 
 要連接欄位和純文字檔案字串，請使用String函式或高級表達式編輯器中的加號(+)。 將純文字檔案字串用單引號(&#39;)或雙引號(&quot;)括起來。 [了解更多](expression/expressionadvanced.md)。
 

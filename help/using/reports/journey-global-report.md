@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 59272469ef0ea5cc43c553bab72236b89a76c643
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 旅程 **[!UICONTROL Global report]** 的子菜單。
 
-* [旅程](#journey-global)
+* [歷程](#journey-global)
 * [電子郵件](#email-global)
 * [推播](#push-global)
 
@@ -119,11 +119,34 @@ ht-degree: 0%
 
 有關退貨的詳細資訊，請參閱 [隱藏清單](../messages/suppression-list.md) 的子菜單。
 
+![](../assets/global_report_22.png)
+
+的 **[!UICONTROL Error Reasons]** 圖形和表格允許您查看在交付期間發生的錯誤。
+
+的 **[!UICONTROL Excluded reasons]** 圖形和表顯示阻止從目標配置檔案中排除的用戶配置檔案接收消息的不同原因。
+
 ![](../assets/global_report_16.png)
 
 的 **[!UICONTROL Email - Top Url]** 圖表和表詳細資訊，您傳遞的URL訪問量最大。
 
 的 **[!UICONTROL Email - Top recipient domain]** 圖表和表詳細資訊，哪些域是收件人開啟電子郵件時最常用的域。
+
+![](../assets/global_report_23.png)
+
+>[!NOTE]
+>
+>的 **[!UICONTROL Optimized vs non optimized]** 和 **[!UICONTROL Send time optimization]**  只有在為您的交貨激活「發送時間優化」選項時，小部件才可用。 有關發送時間優化的詳細資訊，請參閱此 [頁](../building-journeys/journeys-message.md#send-time-optimization)。
+
+的 **[!UICONTROL Optimized vs non optimized]** 圖表詳細列出了與消息相關的主要資訊，這些資訊是否已優化：
+
+* **[!UICONTROL Sent]**:交貨的發送總數。
+* **[!UICONTROL Opens]**:在交貨中開啟交貨的次數。
+* **[!UICONTROL Clicks]**:在電子郵件中按一下內容的次數。
+
+的 **[!UICONTROL Send time optimization]** 根據發送方法詳細說明您的交付成功：已優化或正常。
+
+* **[!UICONTROL Delivered]**:成功發送的消息數，與已發送的消息總數相關。
+* **[!UICONTROL Bounces]**:在傳遞和自動返回處理期間累積的與已發送消息總數有關的錯誤總數。
 
 <!--
 ![](../assets/global_report_21.png)
@@ -200,6 +223,21 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 * **[!UICONTROL Delivered]**:成功發送的消息數，與已發送的消息總數相關。
 
 * **[!UICONTROL Errors]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
+
+>[!NOTE]
+>
+>的 **[!UICONTROL Optimized vs non optimized]** 和 **[!UICONTROL Send time optimization]**  只有在為您的交貨激活「發送時間優化」選項時，小部件才可用。 有關發送時間優化的詳細資訊，請參閱此 [頁](../building-journeys/journeys-message.md#send-time-optimization)。
+
+的 **[!UICONTROL Optimized vs non optimized]** 圖表詳細列出了與消息相關的主要資訊，這些資訊是否已優化：
+
+* **[!UICONTROL Delivered]**:成功發送的消息數，與已發送的消息總數相關。
+* **[!UICONTROL Opens]**:在交貨中開啟交貨的次數。
+* **[!UICONTROL Actions]**:已傳遞的推送通知操作總數，例如按一下按鈕或解除按鈕。
+
+的 **[!UICONTROL Send time optimization]** 根據發送方法詳細說明您的交付成功：已優化或正常。
+
+* **[!UICONTROL Delivered]**:成功發送的消息數，與已發送的消息總數相關。
+* **[!UICONTROL Bounces]**:在傳遞和自動返回處理期間累積的與已發送消息總數有關的錯誤總數。
 
 ![](../assets/global_report_18.png)
 

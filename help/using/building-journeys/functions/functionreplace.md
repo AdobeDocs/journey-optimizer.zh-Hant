@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: 87b8056d26fe91a71e92ca346a9811c609d41128
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 15%
+source-wordcount: '146'
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 15%
 | 參數 | 類型 |
 |-----------|--------------|
 | 基礎 | 字串 |
-| Target | 字串 |
+| Target | 字串(RegExp) |
 | 替換 | 字串 |
 
 ## 簽名和返回的類型
@@ -41,8 +41,28 @@ ht-degree: 15%
 
 返回字串。
 
-## 範例
+## 範例 1
 
 `replace("Hello World", "l", "x")`
 
 返回&quot;Hexlo World&quot;。
+
+## 範例 2 {#example_2}
+
+由於目標參數是RegExp，因此您可能需要轉義一些字元，具體取決於要替換的字串。 其範例如下：
+
+* 要計算的字串： `|OFFER_A|OFFER_B`
+* 由配置檔案屬性提供 `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
+* 要替換的字串： `|OFFER_A`
+* 字串替換為： `''`
+* 您需要添加 `\\` 在 `|` 字元。
+
+表達式為：
+
+`replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|OFFER_A', '')`
+
+返回的字串為： `|OFFER_B`
+
+您還可以構建要從給定屬性替換的字串：
+
+`replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|' + #{ExperiencePlatform.myFieldGroup.profile.myOfferCode}, '')`
