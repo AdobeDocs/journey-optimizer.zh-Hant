@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 894876a79d118ff65738089ecfc89b3cbdcd8d82
+source-git-commit: 7565af5c8497caa4fc34e0cf399e1c5180982891
 workflow-type: tm+mt
 source-wordcount: '1900'
 ht-degree: 1%
@@ -100,7 +100,7 @@ ht-degree: 1%
 
 ### 子域和IP池 {#subdomains-and-ip-pools}
 
-在 **子域和IP PPOL詳細資訊** ，您必須：
+在 **子域和IP池詳細資訊** ，您必須：
 
 1. 選擇要用於發送電子郵件的子域。 [了解更多](about-subdomain-delegation.md)
 
