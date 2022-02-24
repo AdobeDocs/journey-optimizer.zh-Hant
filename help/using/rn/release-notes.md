@@ -2,7 +2,7 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 916868ad4a426bee7b6f6822e2a4e701dcb79e74
+source-git-commit: 482cdac27bded3ec451d93b5aac6dda4b0e182cb
 workflow-type: tm+mt
 source-wordcount: '2643'
 ht-degree: 92%
@@ -81,7 +81,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tr>
 <td>
 <p>在Journey Optimizer消息內容中，您現在可以將UTM參數添加到連結：他們可以提供有關該連結的其他資料，並幫助您確定某人點擊您連結的位置和原因。</p>
-<p>如需詳細資訊，請參閱<a href="../configuration/message-presets.md">詳細文件</a>。</p-->
+<p>如需詳細資訊，請參閱<a href="../configuration/message-presets.md#configure-email-settings">詳細文件</a>。</p-->
 </td>
 </tr>
 </tbody>
