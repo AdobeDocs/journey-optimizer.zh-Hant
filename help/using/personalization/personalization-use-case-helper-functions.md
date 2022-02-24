@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1025'
 ht-degree: 3%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 3%
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. 在 **[!UICONTROL Edit HTML]** 的 `upperCase` 字串函式：
-   1. 在清單中，選擇 **[!UICONTROL Helper functions]**。
+   1. 在左菜單中，選擇 **[!UICONTROL Helper functions]**。
    1. 使用搜索欄位查找「大寫」。
    1. 從搜索結果中，添加 `upperCase` 的子菜單。 要執行此操作，請按一下旁邊的加號(+) `{%= upperCase(string) %}: string`。
 
@@ -72,8 +72,8 @@ ht-degree: 3%
 
 1. 從表達式中刪除&quot;string&quot;佔位符。
 1. 添加名標籤：
-   1. 在清單中，選擇 **[!UICONTROL Profile]**。
-   1. 選擇 **[!UICONTROL Profile]** > **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
+   1. 在左菜單中，選擇 **[!UICONTROL Profile attributes]**。
+   1. 選擇 **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
    1. 添加 **[!UICONTROL First name]** 表達式的標籤。
 
       表達式編輯器顯示此表達式：
@@ -84,7 +84,7 @@ ht-degree: 3%
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      瞭解有關人員姓名資料類型的詳細資訊 [Adobe體驗平台文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}。
+      瞭解有關中人員姓名資料類型的詳細資訊 [Adobe體驗平台文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}。
 
 1. 按一下「**[!UICONTROL Validate]**」，然後按一下「**[!UICONTROL Save]**」。
 
@@ -126,7 +126,7 @@ ht-degree: 3%
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. 在 **[!UICONTROL Edit HTML]** 的 `each` 幫助程式：
-   1. 在清單中，選擇 **[!UICONTROL Helper functions]**。
+   1. 在左菜單中，選擇 **[!UICONTROL Helper functions]**。
    1. 使用搜索欄位查找「每個」。
    1. 從搜索結果中，添加 `each` 幫助程式。
 
@@ -141,9 +141,9 @@ ht-degree: 3%
 1. 添加 `productListItems` 陣列到表達式：
 
    1. 從表達式中刪除「someArray」佔位符。
-   1. 在清單中，選擇 **[!UICONTROL Context]**。
+   1. 在左菜單中，選擇 **[!UICONTROL Contextual attributes]**。
 
-      的 **[!UICONTROL Context]** 選項僅在行程上下文已傳遞到消息後才可用。
+      **[!UICONTROL Contextual attributes]** 僅在將行程上下文傳遞到消息後才可用。
 
    1. 選擇 **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***，然後展開 **[!UICONTROL productListItems]** 的下界。
 
@@ -218,7 +218,7 @@ ht-degree: 3%
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. 在 **[!UICONTROL Edit HTML]** 的 `if` 幫助程式：
-   1. 在清單中，選擇 **[!UICONTROL Helper functions]**。
+   1. 在左菜單中，選擇 **[!UICONTROL Helper functions]**。
    1. 使用搜索欄位查找&quot;if&quot;。
    1. 從搜索結果中，添加 `if` 幫助程式。
 
@@ -248,7 +248,7 @@ ht-degree: 3%
 
 1. 將產品名稱令牌添加到條件：
    1. 從表達式中刪除&quot;condition1&quot;佔位符。
-   1. 在清單中，選擇 **[!UICONTROL Context]**。
+   1. 在左菜單中，選擇 **[!UICONTROL Contextual attributes]**。
    1. 選擇 **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***，然後展開 **[!UICONTROL productListItems]** 的下界。
 
       在本例中， *事件名稱* 表示您的活動名稱。
