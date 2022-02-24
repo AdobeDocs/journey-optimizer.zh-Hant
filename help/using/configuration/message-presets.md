@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4a0b1ee220cc05e4dfc10724554b39bdfd0b6678
+source-git-commit: 7bae4fbd42b7cf944622b7a42e843681f3e75d2b
 workflow-type: tm+mt
-source-wordcount: '1694'
-ht-degree: 2%
+source-wordcount: '1868'
+ht-degree: 1%
 
 ---
 
@@ -78,7 +78,11 @@ ht-degree: 2%
 
 ## 配置電子郵件設定 {#configure-email-settings}
 
+電子郵件設定在消息預設配置的專用部分中定義。
+
 ![](../assets/preset-email.png)
+
+要定義與郵件預設關聯的電子郵件設定，請執行以下步驟：
 
 1. 選擇將使用預設發送的消息類型： **事務性** 或 **營銷**。
 
@@ -90,7 +94,31 @@ ht-degree: 2%
 
 1. 選擇要與預設關聯的IP池。 [了解更多](ip-pools.md)
 
-1. 輸入使用該預設發送的電子郵件的標頭參數。
+1. 要確定人員按一下連結的位置和原因，可以在中添加UTM參數以跟蹤URL  **[!UICONTROL URL tracking configuration (web analytics)]** 的子菜單。
+
+   根據您定義的參數，UTM代碼將應用到消息內容中包含的URL的末尾。 然後，您將能夠在Web分析工具(如Adobe Analytics)中比較結果。 <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+
+   ![](../assets/preset-url-tracking.png)
+
+   >[!NOTE]
+   >
+   >最多可以添加10個跟蹤參數。
+
+   您可以直接在 **[!UICONTROL Name]** 和 **[!UICONTROL Value]** 的子菜單。
+
+   也可以通過導航到以下對象從預定義值清單中進行選擇：
+
+   * 行程屬性：源ID、源名稱、源版本ID
+   * 消息屬性：操作ID，操作名稱
+   * Offer decisioning屬性：優惠ID，優惠名稱
+
+   >[!CAUTION]
+   >
+   >瀏覽到必要的資料夾，然後選擇要用作UTM值的配置檔案屬性。
+
+   ![](../assets/preset-url-tracking-source.png)
+
+1. 輸入 **[!UICONTROL Header parameters]** 用那個預設發送的電子郵件。
 
    >[!CAUTION]
    >
@@ -107,13 +135,13 @@ ht-degree: 2%
    * **[!UICONTROL Error email]**:ISP在發送數天郵件（非同步綁定）後生成的所有錯誤都會在此地址上接收。
    >[!NOTE]
    >
-   >從2021年10月的發行版起，再也不能從 [!DNL Journey Optimizer] 用戶介面。 如果要接收的所有電子郵件 [!DNL Journey Optimizer] 要將委託的子域轉發到特定電子郵件地址，請與 [Adobe客戶服務支援團隊](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
+   >您不能從 [!DNL Journey Optimizer] 用戶介面。 如果要接收的所有電子郵件 [!DNL Journey Optimizer] 要將委託子域轉發到特定電子郵件地址，請聯繫 [Adobe客戶關懷](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
 
    ![](../assets/preset-header.png)
 
    >[!NOTE]
    >
-   >名稱必須以字母(A-Z)開頭。 它只能包含字母數字字元。 您還可以使用下划線 `_`，點`.` 連字元 `-` 字元。
+   >名稱必須以字母(A-Z)開頭，並且只能包含字母數字字元。 您還可以使用下划線 `_`，點`.` 連字元 `-` 字元。
 
 1. 配置 **電子郵件重試參數**。 預設情況下， [重試時間](retries.md#retry-duration) 設定為84小時，但您可以調整此設定以更好地滿足您的需要。
 
@@ -125,6 +153,10 @@ ht-degree: 2%
    * 對於這兩種電子郵件類型，最大重試時間為84小時（或5040分鐘）。
 
 ## 配置推送設定 {#configure-push-settings}
+
+推送設定在消息預設配置的專用部分中定義。
+
+要定義與消息預設關聯的推送設定，請執行以下步驟：
 
 1. 至少選擇一個平台： **iOS** 和/或 **安卓**。
 
@@ -154,7 +186,7 @@ ht-degree: 2%
 
 ![](../assets/preset-filters.png)
 
-消息預設可具有以下狀態：
+建立消息預設後，可以具有以下狀態：
 
 * **[!UICONTROL Draft]**:消息預設已保存為草稿，但尚未提交。 開啟它以恢復配置。
 * **[!UICONTROL Processing]**:消息預設已提交，正在執行幾個驗證步驟。
@@ -164,7 +196,7 @@ ht-degree: 2%
 
 如果消息預設建立失敗，則下面將介紹每種可能失敗原因的詳細資訊。
 
-如果出現其中一個錯誤，請與 [Adobe客戶服務支援團隊](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}以獲取幫助。
+如果出現其中一個錯誤，請與 [Adobe客戶關懷](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}以獲取幫助。
 
 * **SPF驗證失敗**:SPF（發件人策略框架）是一種電子郵件身份驗證協定，它允許指定可從給定子域發送電子郵件的授權IP。 SPF驗證失敗意味著SPF記錄中的IP地址與用於向郵箱提供程式發送電子郵件的IP地址不匹配。
 
