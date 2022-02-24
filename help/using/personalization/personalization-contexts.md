@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 904fd645cba550fdb65821292293bf7d838c66f6
+source-git-commit: 1993dc5648bcd294ec2f8dfbbb783b81addf873f
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 16%
+source-wordcount: '281'
+ht-degree: 15%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 16%
 
 ![](assets/perso_ee.png)
 
-## 個性化推送通知 {#personalize-push}
+## Personalize your push notifications {#personalize-push}
 
-您還可以個性化 **推送通知** 的子菜單。
+You can also personalize your **Push notifications** in the following fields:
 
 * **標題**
 * **身體**
@@ -57,13 +57,13 @@ ht-degree: 16%
 
 ## 個性化您的產品 {#personalize-offers}
 
-在將文本類型內容添加到優惠的表示形式時，您還可以訪問個性化編輯器。
+You can also access the personalization editor when adding text-type content to your offers&#39; representations.
 
 瞭解有關使用決策管理管理內容的更多資訊 [此部分](../offers/offer-library/creating-personalized-offers.md#custom-text)。
 
-## 個人化 URL{#personalize-urls}
+## Create personalized URLs{#personalize-urls}
 
 個人化 URL 會根據設定檔屬性，將收件者帶往網站特定頁面或個人化微網站。 在Adobe Journey Optimizer，您可以將個性化添加到消息內容中的URL。 URL 個人化可套用至文字和影像，同時使用個人資料或內容資料。
 
-瞭解如何在中插入個性化URL [此部分](personalization-syntax.md#perso-urls)。
+Learn how to insert a personalized URL in [this section](personalization-syntax.md#perso-urls).
 
