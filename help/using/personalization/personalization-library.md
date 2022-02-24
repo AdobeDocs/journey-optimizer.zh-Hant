@@ -5,9 +5,9 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
+source-git-commit: 163211f95436a37dee7deffea9ced1a3fa09dc34
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,22 @@ ht-degree: 0%
 
    ![](assets/library-save.png)
 
-1. 在右窗格中，為表達式提供標題和說明以幫助用戶更輕鬆地找到它，然後按一下 **[!UICONTROL Add]**。
+1. 在右窗格中，輸入表達式的標題和說明以幫助用戶更輕鬆地找到它，然後按一下 **[!UICONTROL Add]**。
 
    ![](assets/add-expression.png)
 
 1. 表達式將添加到庫中。 用戶現在將能夠使用它來構建其個性化內容。
+
+
+>[!NOTE]
+>
+>* 在庫中最多保存40個表達式。
+>
+>* 表達式不能超過200KB。
+>
+>* 保存的表達式按建立日期排序：最近添加的表達式將首先顯示在清單中。
+
+
 
 要編輯現有表達式，請將其添加到編輯器中，然後根據需要修改它。 按一下 **[!UICONTROL Add to library]** 驗證語法並保存表達式。
 
