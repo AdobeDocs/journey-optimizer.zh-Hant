@@ -1,19 +1,19 @@
 ---
-title: 個性化上下文
+title: 個人化內容
 description: '瞭解有關如何個性化內容和顯示消息的更多資訊。 '
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 個性化上下文{#personalization-areas}
+# 個人化內容{#personalization-areas}
 
 通過 [!DNL Journey Optimizer] 可以通過多種不同的方式實現個性化。
 
@@ -60,3 +60,10 @@ ht-degree: 1%
 在將文本類型內容添加到優惠的表示形式時，您還可以訪問個性化編輯器。
 
 瞭解有關使用決策管理管理內容的更多資訊 [此部分](../offers/offer-library/creating-personalized-offers.md#custom-text)。
+
+## 個人化 URL{#personalize-urls}
+
+在郵件內容中，可以建立個性化連結。 例如，為新客戶添加指向網站特定頁面的連結。
+
+瞭解如何使用個性化功能在中插入個性化URL [此部分](personalization-syntax.md#perso-urls)。
+
