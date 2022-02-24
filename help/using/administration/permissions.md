@@ -2,11 +2,11 @@
 title: 管理使用者和產品設定檔
 description: 瞭解如何管理權限
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
-feature: Control Groups
+feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
+source-git-commit: 7de0088c07c644c42f5def3657d2629ce5e7754e
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 14%
@@ -101,7 +101,7 @@ ht-degree: 14%
 
 [!DNL Journey Optimizer] 允許您建立自己的 **[!UICONTROL Product profiles]** 並為用戶分配一組權限和沙箱。 與 **[!UICONTROL Product profiles]**，您可以授權或拒絕訪問介面中的某些功能或對象。
 
-有關如何建立和管理沙箱的詳細資訊，請參閱 [Adobe Experience Platform文檔](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+有關如何建立和管理沙箱的詳細資訊，請參閱 [Adobe Experience Platform文檔](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target=&quot;_blank&quot;}。
 
 在本示例中，我們將建立一個名為 **只讀遊程** 我們將授予「旅程」功能的只讀權限。 用戶將只能訪問和查看行程，並且將無法訪問其他功能，如 **[!DNL  Decision management]** 或 **[!DNL Messages]** 在 [!DNL Journey Optimizer]。
 

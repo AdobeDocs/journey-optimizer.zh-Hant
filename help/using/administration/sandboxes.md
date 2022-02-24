@@ -1,12 +1,12 @@
 ---
 title: 沙盒管理
 description: 瞭解如何管理沙箱
-feature: Control Groups
+feature: Sandboxes
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 7d466d87c337053b32489df6dedbfd4c350230bb
+source-git-commit: 7de0088c07c644c42f5def3657d2629ce5e7754e
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 66%
@@ -20,7 +20,7 @@ ht-degree: 66%
 [!DNL Journey Optimizer] 可讓您將執行個體分割到名為沙箱的個別虛擬環境中。會透過 Admin Console 中的產品設定檔指派沙箱。[瞭解如何指派 sandbox](permissions.md#create-product-profile)。
 
 [!DNL Journey Optimizer] 反映針對指定組織建立的 Adobe Experience Platform sandbox。
-可從 Adobe Experience Platform 執行個體建立或重設 Adobe Experience Platform sandbox。[在「沙盒」使用手冊中瞭解更多資訊](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+可從 Adobe Experience Platform 執行個體建立或重設 Adobe Experience Platform sandbox。[在「沙盒」使用手冊中瞭解更多資訊](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target=&quot;_blank&quot;}。
 
 您可以在您的組織名稱旁的螢幕右上角找到沙盒切換器控制項。 若要從一個沙箱切換至另一個沙箱，請按一下切換器中目前作用中的沙箱，然後從下拉式清單中選取另一個沙箱。
 
