@@ -1,15 +1,15 @@
 ---
 title: 開始使用決定管理
-description: 開始使用決定管理。 瞭解有關其體系結構、產品和決策以及允許您執行的常見使用情形的更多資訊
+description: 開始使用決定管理。 瞭解更多有關其結構、優惠方案和決定，以及可讓您執行的常見使用案例
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '908'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->如果你是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target=&quot;_blank&quot;}用戶正在利用 **offer decisioning** 應用程式服務，本節中介紹的所有決策管理功能也適用於您。
+>如果您是 [Adobe Experience 平台](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target=&quot;_blank&quot;} 使用者，正在利用&#x200B;**優惠方案決策**&#x200B;應用程式服務，本節中介紹的所有決策管理功能也適用於您。
 
 「決定管理」功能由兩個主要元件組成：
 
@@ -34,7 +34,7 @@ ht-degree: 83%
 * 改善工作流程：行銷團隊可以建立單一傳遞，並在範本的不同部分提供不同優惠方案，藉此改善工作流程，而無須建立多個傳遞或行銷活動；
 * 控制在電子郵件行銷活動中和向客戶顯示優惠方案的次數。
 
-➡️ [觀看這些教程視頻](#tutorial-videos) 的子菜單。
+➡️ [觀看這些教學課程影片](#tutorial-videos)，瞭解更多有關決策管理的資訊。
 
 ## 關於優惠和決定 {#about-offers-and-decisions}
 
@@ -64,13 +64,13 @@ ht-degree: 83%
 
    ![](../../assets/do-not-localize/call-center.png)
 
-## 授予對決策管理的訪問權限 {#granting-acess-to-decision-management}
+## 授予決策管理的存取權限 {#granting-acess-to-decision-management}
 
-訪問和使用offer decisioning權能的權限使用 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}。
+存取及使用優惠方案決策功能的權限係透過 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html){target=&quot;_blank&quot;} 管理。
 
-要授予對「決策管理」功能的訪問權限，您需要建立 **[!UICONTROL Product profile]** 並將相應權限分配給用戶。 瞭解有關管理的更多資訊 [!DNL Journey Optimizer] 用戶和權限 [此部分](../../administration/permissions.md)。
+要授與決策管理功能的存取權限，您需要建立 **[!UICONTROL Product profile]** 並將對應權限分配給使用者。 在[本節](../../administration/permissions.md)瞭解有關管理 [!DNL Journey Optimizer] 使用者及權限的更多資訊。
 
-「Decision Management」（決策管理）的特定權限列於 [此部分](../../administration/high-low-permissions.md#decisions-permissions)。
+[本節](../../administration/high-low-permissions.md#decisions-permissions)列出了決策管理的特定權限。
 
 ## 字彙 {#glossary}
 
@@ -80,7 +80,7 @@ ht-degree: 83%
 
 * **集合**：集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
 
-* **決定**:決定包含通知選擇要約的邏輯。
+* **決定**：決定包含通知選擇活動內容的邏輯。
 
 * **決定規則**：決定規則是新增至個人化優惠的限制，並套用至設定檔以判斷適用性。
 
@@ -107,7 +107,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->這些影片適用於以 Adobe Experience Platform 為基礎的優惠決定應用程式服務，而非特定於 [!DNL Adobe Journey Optimizer]。 但是，它們為在決策管理中使用 [!DNL Journey Optimizer]。
+>這些影片適用於以 Adobe Experience 平台為基礎的優惠方案決定應用程式服務，而非特定於 [!DNL Adobe Journey Optimizer]。 不過，它們為 [!DNL Journey Optimizer] 環境中使用的決策管理提供了一般指南。
 
 ### 什麼是決定管理？ {#what-is-offer-decisioning}
 
