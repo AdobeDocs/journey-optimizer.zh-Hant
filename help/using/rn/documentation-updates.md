@@ -3,9 +3,9 @@ title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 7aaedb4c76afb34c4110dc64ad79af9cd2091adb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '965'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -16,24 +16,24 @@ ht-degree: 87%
 
 ## 2022 年 2 月 {#feb-2022}
 
-* 隨附的所有新功能和改進 [!DNL Journey Optimizer] 文檔中詳細列出了2022年2月的版本。 [閱讀全文](release-notes.md)
-* 的 [替換](../building-journeys/functions/functionreplace.md#example_2) 和 [全部替換](../building-journeys/functions/functionreplaceall.md#example) 函式文檔頁面已更新，其中包含有關目標參數的其他資訊和示例。
-* 已將最佳做法添加到 [運算子](../building-journeys/expression/operators.md#important-notes) 的子菜單。
+* 有關所有 [!DNL Journey Optimizer]2022 年 2 月發行版本新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
+* 更新 [replace](../building-journeys/functions/functionreplace.md#example_2) 和 [replaceAll](../building-journeys/functions/functionreplaceall.md#example) 函式的說明頁面，其中包含有關目標參數的其他資訊和範例。
+* 已在 [Operators](../building-journeys/expression/operators.md#important-notes) 頁面加入最佳做法。
 
 ## 2022 年 1 月 {#january-2022}
 
 * 有關所有 [!DNL Journey Optimizer]2022 年 1 月發行版本新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
-* 的 **Offer decisioningAI排名** 部分已更新，其中包含對自動優化模型的更詳細描述。 [閱讀全文](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
+* **Offer decisioning AI 排名**&#x200B;區段已更新，針對自動最佳化模型提供更詳細的說明。[閱讀全文](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
 * 加入關於方案要求的新部分，以便在使用排名策略時能夠在事件類型中傳送。 [閱讀全文](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
 * 有關 [!DNL Journey Optimizer] 個人化功能的章節已重新整理，以便更容易閱讀。 [閱讀全文](../personalization/personalize.md)
-* 的 **建立消息預設** 為了提高清晰度，將部分分成若干部分。 [閱讀全文](../configuration/message-presets.md#create-message-preset)
-* 的 **選擇退出管理** 部分已澄清，並稍作重組。 [閱讀全文](../messages/consent.md#opt-out-management)
-* 的 **插入連結** 已更新部分以反映最近用戶介面的更改。 [閱讀全文](../messages/message-tracking.md#insert-links)
+* 為了提高清晰度，**建立訊息預設集**&#x200B;部分改為若干部分。 [閱讀全文](../configuration/message-presets.md#create-message-preset)
+* **選擇退出管理**&#x200B;區段變得清晰，並稍作重組。 [閱讀全文](../messages/consent.md#opt-out-management)
+*  更新&#x200B;**插入連結**&#x200B;區段來反映近期的使用者介面變更。 [閱讀全文](../messages/message-tracking.md#insert-links)
 
 ## 2021 年 11 月 {#november-2021}
 
-* 對 **高級表達式編輯器** 現已提供用於旅行的服務。 [閱讀全文](../building-journeys/expression/expressionadvanced.md)
-* 關於 **CNAME子域委派方法** 已添加。 [閱讀全文](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* 現在提供完整說明，在歷程中使用&#x200B;**進階運算式編輯器**。[閱讀全文](../building-journeys/expression/expressionadvanced.md)
+* 加入有關 **CNAME 子網域委派方法**&#x200B;的新區段。 [閱讀全文](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 
 ## 2021 年 10 月 {#october-2021}
