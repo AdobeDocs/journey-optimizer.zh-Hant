@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 482cdac27bded3ec451d93b5aac6dda4b0e182cb
 workflow-type: tm+mt
 source-wordcount: '2643'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 
 
-## 2022 年 2 月發行 {#feb-2022-release}
+## 2022 年 2 月發佈內容 {#feb-2022-release}
 
 ### 新功能
 
@@ -74,13 +74,13 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <table>
 <thead>
 <tr>
-<th><strong>傳遞資訊以使用UTM跟蹤參數跟蹤郵件</strong><br/></th>
+<th><strong>傳遞資訊透過 UTM 追蹤參數追蹤郵件</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>在Journey Optimizer消息內容中，您現在可以將UTM參數添加到連結：他們可以提供有關該連結的其他資料，並幫助您確定某人點擊您連結的位置和原因。</p>
+<p>在 Journey Optimizer 訊息內容中，您現在可以將 UTM 參數加入連結：提供有關該連結的其他資料，幫助您確定某人按下連結的位置及原因。</p>
 <p>如需詳細資訊，請參閱<a href="../configuration/message-presets.md#configure-email-settings">詳細文件</a>。</p-->
 </td>
 </tr>
@@ -91,22 +91,22 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **歷程**
 
-* 為了優化效能，所有處於test模式且一週內未觸發的行程現在將切換回「草稿」狀態。 [閱讀全文](../building-journeys/testing-the-journey.md#important_notes)
-* Journey Optimizer和Adobe Campaign Classic的整合已經優化，以提高效能。 封頂預設配置已更改為4000呼叫/5分鐘。	[閱讀全文](../action/acc-action.md#important-notes)
+* 為了最佳化效能，所有處於測試模式且一週內未觸發的歷程現在將切換回「草稿」狀態。 [閱讀全文](../building-journeys/testing-the-journey.md#important_notes)
+* 已最佳化 Journey Optimizer 和 Adobe Campaign Classic 的整合，以便提高效能。 上限預設設定已變更為 4000 次呼叫 / 5 分鐘。	[閱讀全文](../action/acc-action.md#important-notes)
 
 **報告**
 
-* 現在可以根據交貨的狀態篩選交貨：
-   * 從「消息執行」清單中，您現在可以從交貨的清單中排除證據。
-   * 從即時/全局報告中，您可以選擇排除test事件。
+* 現在可以根據狀態篩選傳遞：
+   * 您現在可以從「訊息執行」清單排除傳遞清單中的證明。
+   * 您可以選擇從即時/全域報告排除測試事件。
 
-* 您現在可以訪問有關發送時間優化資料的報告：即時消息的人數以及通過1小時優化、2小時優化等消息的人數。
+* 您現在可以存取有關最佳化傳送時間資料的報告：即時訊息的人數，以及經過 1 小時最佳化、2 小時最佳化等訊息的人數。
 
 <!--* Offer Decisioning reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 
-**決定管理**
+**決策管理**
 
-* 排名和AI排名現在被分成一個標籤。
+* 排名和 AI 排名現在分類在單一標籤。
 
 ## 2022 年 1 月發行版本 {#january-2022-release}
 
