@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: b4a356583b555451c8d42d1043691b5ff841851b
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 3%
@@ -39,13 +39,13 @@ ht-degree: 3%
 
 選擇在執行下一活動之前等待的持續時間。
 
-![](../assets/journey55.png)
+![](assets/journey55.png)
 
 ## 固定日期等待{#fixed_date}
 
 選擇下一活動的執行日期。
 
-![](../assets/journey56.png)
+![](assets/journey56.png)
 
 ## 自定義等待{#custom}
 
@@ -57,7 +57,7 @@ ht-degree: 3%
 >
 >的 **時區** 在你旅程的屬性中。 因此，目前無法從介面直接指向完全ISO-8601時間戳混合時間和時區偏移，如2016-08-12T09:46:06.982-05。 請參閱[此頁面](../building-journeys/timezone-management.md)。
 
-![](../assets/journey57.png)
+![](assets/journey57.png)
 
 <!--## Email send time optimization{#email_send_time_optimization}
 
@@ -77,4 +77,4 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
     >
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](../assets/journey57bis.png)-->
+![](assets/journey57bis.png)-->

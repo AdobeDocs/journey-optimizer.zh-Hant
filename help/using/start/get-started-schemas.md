@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 
 的 **架構** 工作區 [!DNL Adobe Journey Optimizer] 用戶介面允許您管理體驗資料模型(XDM)資源，包括架構、類、架構欄位組和資料類型。 您可以查看和瀏覽由Adobe提供的核心資源，並為您的組織建立自定義資源和方案。
 
-![](../assets/schemas-home.png)
+![](assets/schemas-home.png)
 
 瞭解如何在中使用架構用戶介面 [本文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot;
 

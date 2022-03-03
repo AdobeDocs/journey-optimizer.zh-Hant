@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 4%
@@ -39,9 +39,9 @@ ht-degree: 4%
 * 行程步驟事件架構 [!DNL Journey Orchestration]  — 與行程元資料相關聯的行程步驟事件。
 * 帶行程欄位的行程架構 [!DNL Journey Orchestration]  — 描述旅程的旅程元資料。
 
-![](../assets/sharing1.png)
+![](assets/sharing1.png)
 
-![](../assets/sharing2.png)
+![](assets/sharing2.png)
 
 傳遞了以下資料集：
 
@@ -49,7 +49,7 @@ ht-degree: 4%
 * 旅程事件
 * 歷程
 
-![](../assets/sharing3.png)
+![](assets/sharing3.png)
 
 傳遞給Adobe Experience Platform的XDM欄位清單如下：
 

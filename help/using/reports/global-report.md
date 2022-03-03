@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -31,23 +31,23 @@ ht-degree: 0%
 
 1. 從「全局」報告中，選擇「開始」和「結束時間」以針對特定資料。
 
-   ![](../assets/report_modify_1.png)
+   ![](assets/report_modify_1.png)
 
 1. 選擇是否要使用切換欄從報表中排除test事件。 有關test事件的詳細資訊，請參閱 [此頁](../building-journeys/testing-the-journey.md)。
 
-   ![](../assets/report_modify_2.png)
+   ![](assets/report_modify_2.png)
 
 1. 按一下 **[!UICONTROL Modify]** 開始自定義儀表板。
 
-   ![](../assets/report_modify_3.png)
+   ![](assets/report_modify_3.png)
 
 1. 通過拖動小部件的右下角來調整小部件大小。
 
-   ![](../assets/report_modify_4.png)
+   ![](assets/report_modify_4.png)
 
 1. 按一下 **[!UICONTROL Remove]** 刪除任何不需要的小部件。
 
-   ![](../assets/report_modify_5.png)
+   ![](assets/report_modify_5.png)
 
 1. 對顯示順序和小部件大小感到滿意後，按一下 **[!UICONTROL Save]**。
 

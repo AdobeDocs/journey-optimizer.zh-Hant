@@ -8,10 +8,10 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
+source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 18%
 
 最常見的使用情形之一是邀請客戶 [訂閱服務](subscription-list.md) （例如新聞簡報或活動）。 主要步驟如下圖所示：
 
-![](../assets/lp_subscription-uc.png)
+![](assets/lp_subscription-uc.png)
 
 例如，假設您下個月組織一個活動，並且要啟動一個活動註冊活動<!--to keep your customers that are interested updated on that event-->。 為此，您將發送一封電子郵件，其中包括指向登錄頁的連結，該登錄頁將允許您的收件人註冊此事件。 註冊的用戶將被添加到為此目的建立的訂閱清單中。
 
@@ -36,7 +36,7 @@ ht-degree: 18%
 
 1. 建立事件註冊的訂閱清單，該清單將儲存已註冊的用戶。 瞭解如何建立訂閱清單 [這裡](subscription-list.md#define-subscription-list)。
 
-   ![](../assets/lp_subscription-uc-list.png)
+   ![](assets/lp_subscription-uc-list.png)
 
 1. [建立登錄頁](create-lp.md) 允許收件人註冊您的活動。
 
@@ -44,11 +44,11 @@ ht-degree: 18%
 
 1. 設計 [登錄頁內容](design-lp.md)，選擇您建立的訂閱清單，以使用選中註冊複選框的配置檔案更新它。
 
-   ![](../assets/lp_subscription-uc-lp-list.png)
+   ![](assets/lp_subscription-uc-lp-list.png)
 
 1. 建立一個「感謝」頁面，在收件人提交註冊表後，該頁面將顯示給他們。 瞭解如何配置登錄子頁 [這裡](create-lp.md#configure-subpages)。
 
-   ![](../assets/lp_subscription-uc-thanks.png)
+   ![](assets/lp_subscription-uc-thanks.png)
 
 1. [發佈](create-lp.md#publish) 登錄頁。
 
@@ -56,13 +56,13 @@ ht-degree: 18%
 
 1. [插入連結](../messages/message-tracking.md#insert-links) 內容。 選擇 **[!UICONTROL Landing page]** 的 **[!UICONTROL Link type]** 選擇 [登錄頁](create-lp.md#configure-primary-page) 為註冊而建立的。
 
-   ![](../assets/lp_subscription-uc-link.png)
+   ![](assets/lp_subscription-uc-link.png)
 
 1. 儲存您的內容並[發佈您的訊息](../messages/publish-manage-message.md)。
 
 1. 通過 [旅程](../building-journeys/journey.md) 將流量驅動到註冊登錄頁。
 
-   ![](../assets/lp_subscription-uc-journey.png)
+   ![](assets/lp_subscription-uc-journey.png)
 
    收到電子郵件後，如果您的收件人按一下登錄頁的連結，他們將被定向到「感謝您」頁，並將被添加到訂閱清單。
 
@@ -72,17 +72,17 @@ ht-degree: 18%
 
 1. 建立其他 [旅程](../building-journeys/journey.md)。 通過按一下 **[!UICONTROL Create journey]** 按鈕 瞭解更多資訊 [這裡](create-lp.md#configure-primary-page)
 
-   ![](../assets/lp_subscription-uc-create-journey.png)
+   ![](assets/lp_subscription-uc-create-journey.png)
 
 1. 展開 **[!UICONTROL Events]** 類別並刪除 **[!UICONTROL Segment Qualification]** 活動到畫布中。 瞭解更多資訊 [這裡](../building-journeys/segment-qualification-events.md)
 
 1. 按一下 **[!UICONTROL Segment]** ，然後選擇您建立的訂閱清單。
 
-   ![](../assets/lp_subscription-uc-confirm-journey.png)
+   ![](assets/lp_subscription-uc-confirm-journey.png)
 
 1. 選擇您選擇的確認電子郵件，並在旅程中發送。
 
-   ![](../assets/lp_subscription-uc-confirm-email.png)
+   ![](assets/lp_subscription-uc-confirm-email.png)
 
 所有為您的活動註冊的用戶都將收到確認電子郵件。
 
@@ -98,7 +98,7 @@ ht-degree: 18%
 
 法律規定必須讓收件者提供能夠取消訂閱來自品牌的通訊。 進一步了解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hant){target=&quot;_blank&quot;} 中的適用法規。
 
-因此，您必須在每封寄送給收件者的電子郵件中一律包含&#x200B;**取消訂閱連結**：
+因此，您必須在每封傳送給收件者的電子郵件中一律包含&#x200B;**取消訂閱連結**：
 
 * 按一下此連結後，收件者會被導向至包含確認選擇退出按鈕的登陸頁面。
 * 按一下「選擇退出」按鈕後，將使用此資訊更新配置檔案資料。
@@ -113,13 +113,13 @@ ht-degree: 18%
 
 1. [設計](design-lp.md) 主要頁面內容：使用登錄頁特定 **[!UICONTROL Form]** 元件，定義 **[!UICONTROL Opt-out]** 複選框，然後選擇更新 **[!UICONTROL Channel (email)]**:在登錄頁上選中「選擇退出」框的配置檔案將被從您的所有通信中選擇。
 
-   ![](../assets/lp_opt-out-primary-lp.png)
+   ![](assets/lp_opt-out-primary-lp.png)
 
    <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
 
 1. 添加確認 [子頁](create-lp.md#configure-subpages) 顯示給提交表單的用戶。
 
-   ![](../assets/lp_opt-out-subpage.png)
+   ![](assets/lp_opt-out-subpage.png)
 
    >[!NOTE]
    >
@@ -127,17 +127,17 @@ ht-degree: 18%
 
 1. 配置和定義頁面內容後， [發佈](create-lp.md#publish) 登錄頁。
 
-   ![](../assets/lp_opt-out-publish.png)
+   ![](assets/lp_opt-out-publish.png)
 
 1. [建立電子郵件](../messages/create-message.md) 在 [!DNL Journey Optimizer]。
 
-1. 選擇內容中的文本， [插入連結](../messages/message-tracking.md#insert-links) 使用上下文工具欄。 您還可以使用按鈕上的連結。
+1. 選擇內容中的文字，並使用內容相關工具列[插入連結](../messages/message-tracking.md#insert-links)。您還可以使用按鈕上的連結。
 
-   ![](../assets/lp_opt-out-insert-link.png)
+   ![](assets/lp_opt-out-insert-link.png)
 
 1. 選擇 **[!UICONTROL Landing page]** 從 **[!UICONTROL Link type]** 下拉清單，然後選擇 [登錄頁](create-lp.md#configure-primary-page) 你為退出而創造的。
 
-   ![](../assets/lp_opt-out-landing-page.png)
+   ![](assets/lp_opt-out-landing-page.png)
 
 1. 儲存您的內容並[發佈您的訊息](../messages/publish-manage-message.md)。
 
@@ -145,7 +145,7 @@ ht-degree: 18%
 
 1. 一旦收到消息，如果收件人按一下電子郵件中的取消訂閱連結，則會顯示登錄頁。
 
-   ![](../assets/lp_opt-out-submit-form.png)
+   ![](assets/lp_opt-out-submit-form.png)
 
    如果收件人選中該框並提交表單：
 
@@ -155,7 +155,7 @@ ht-degree: 18%
 
 若要檢查對應的設定檔選擇是否已更新，請前往 Experience Platform，並透過選取識別名稱空間和對應的識別值來存取設定檔。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}中進一步瞭解。
 
-![](../assets/lp_opt-out-profile-choice.png)
+![](assets/lp_opt-out-profile-choice.png)
 
 在 **[!UICONTROL Attributes]** 標籤中，您可以看到 **[!UICONTROL choice]** 的值已變更為 **[!UICONTROL no]**。
 

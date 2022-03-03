@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 5%
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 在此示例中， **[!UICONTROL Consent and Preference Details]** 欄位組 [!DNL Adobe Experience Platform] 的子菜單。 要查找此欄位組，請從 **[!UICONTROL Data Management]** 菜單，選擇 **[!UICONTROL Schemas]**。 在 **[!UICONTROL Field groups]** 頁籤，在搜索欄位中輸入欄位組的名稱。
 
-![此欄位組包括預訂元素](../assets/consent-and-preference-details-field-group.png)
+![此欄位組包括預訂元素](assets/consent-and-preference-details-field-group.png)
 
 要配置此行程，請執行以下步驟：
 
@@ -29,7 +29,7 @@ ht-degree: 5%
 
    1. 按一下 **[!UICONTROL Enable parameter override]** 表徵圖 **[!UICONTROL Address]** ，然後按一下 **[!UICONTROL Edit]** 表徵圖
 
-      ![](../assets/message-to-subscribers-uc-1.png)
+      ![](assets/message-to-subscribers-uc-1.png)
 
       若要修改電子郵件地址，您必須先已發佈該郵件。
 
@@ -52,10 +52,10 @@ ht-degree: 5%
 
       閱讀有關 [引用欄位](expression/field-references.md) 中。
 
-      ![](../assets/message-to-subscribers-uc-2.png)
+      ![](assets/message-to-subscribers-uc-2.png)
 
    1. 在 **[!UICONTROL Add an expression]** 對話框，按一下 **[!UICONTROL Ok]**。
 
-   ![](../assets/message-to-subscribers-uc-3.png)
+   ![](assets/message-to-subscribers-uc-3.png)
 
 1. 以 **[!UICONTROL End]** 的子菜單。

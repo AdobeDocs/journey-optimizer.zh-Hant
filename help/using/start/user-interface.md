@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
-workflow-type: ht
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 使用左側的連結來瀏覽功能。
 
-![](../assets/ajo-home.png)
+![](assets/ajo-home.png)
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ ht-degree: 100%
 
 善用首頁的[!DNL Adobe Journey Optimizer]使用案例，並提供一些快速輸入項目以建立客戶歷程。
 
-![](../assets/use-cases-home.png)
+![](assets/use-cases-home.png)
 
 可用的使用案例包括：
 
@@ -248,7 +248,7 @@ ht-degree: 100%
 
 使用&#x200B;**說明**&#x200B;圖示來存取說明頁面、聯絡支援並分享意見。 您可以從搜尋欄位搜尋說明文章和影片。
 
-![](../assets/ajo-help.png)
+![](assets/ajo-help.png)
 
 ## 支援的瀏覽器 {#browsers}
 
@@ -267,10 +267,10 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 若要變更您的語言：
 
 * 按一下右上角頭像處的&#x200B;**「偏好設定」**。
-   ![](../assets/preferences.png)
+   ![](assets/preferences.png)
 * 然後按一下您電子郵件地址下方顯示的語言
 * 選擇您偏好的語言，然後按一下 **「儲存」**。您可以選取第二種語言，以在您使用的元件未以您的預設語言在地化時使用。
-   ![](../assets/select-language.png)
+   ![](assets/select-language.png)
 
 ## 搜尋{#unified-search}
 
@@ -278,11 +278,11 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 開始輸入內容以顯示排名最前的結果。有關輸入關鍵字的說明文章也會顯示在結果中。
 
-![](../assets/unified-search.png)
+![](assets/unified-search.png)
 
 請按下 **Enter** 以存取所有結果，並按業務對象進行篩選。
 
-![](../assets/search-and-filter.png)
+![](assets/search-and-filter.png)
 
 ## 篩選清單{#filter-lists}
 
@@ -298,12 +298,12 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 使用 **[!UICONTROL Last update]** 和 **[!UICONTROL Last update by]** 欄來檢查您的歷程上次更新發生的時間以及儲存者。
 
-![](../assets/filter-journeys.png)
+![](assets/filter-journeys.png)
 
 在事件、資料來源和動作設定窗格中，**[!UICONTROL Used in]** 欄位會顯示使用該特定事件、欄位群組或動作的歷程次數。您可以按一下 **[!UICONTROL View journeys]** 按鈕以顯示對應歷程的清單。
 
-![](../assets/journey3bis.png)
+![](assets/journey3bis.png)
 
 在不同的清單中，您可以對每個元素執行基本動作。例如，您可以複製或刪除項目。
 
-![](../assets/journey4.png)
+![](assets/journey4.png)

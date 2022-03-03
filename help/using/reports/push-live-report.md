@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
-source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 從 **[!UICONTROL Executions]** 頁籤 **[!UICONTROL Messages]** 菜單，選擇 **[!UICONTROL Live view]** 然後，從選定交貨的「高級」菜單中選擇 **[!UICONTROL Live report]**。
 
-![](../assets/live_report_2.png)
+![](assets/live_report_2.png)
 
 推 **[!UICONTROL Live report]** 被分成不同的小部件，詳細列出交付的成功和錯誤。 如果需要，可以調整每個小部件的大小並將其刪除。 有關此項的詳細資訊，請參閱 [節](live-report.md#modify-dashboard)。
 
-![](../assets/live_report_3.png)
+![](assets/live_report_3.png)
 
 **[!UICONTROL Push notification performance]** 和 **[!UICONTROL Push notification summary]** 小部件使用圖形和KPI詳細列出與消息相關的主要資訊：
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Opens]**:在傳遞中開啟消息的次數。
 
-![](../assets/live_report_4.png)
+![](assets/live_report_4.png)
 
 的 **[!UICONTROL Tracking by platform]**。 **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 圖表和表根據作業系統詳細說明了推送通知的成功。
 

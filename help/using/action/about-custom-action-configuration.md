@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: a101ee8cd7b57ee951d0ef2d5fd366757cb0a014
+source-git-commit: 7c00fcf72ba001005b8e4ac548b789f37f9039a3
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 6%
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 1. 在「管理」(ADMINISTRATION)菜單部分，選擇 **[!UICONTROL Configurations]**。 在  **[!UICONTROL Actions]** ，按一下 **[!UICONTROL Manage]**。 按一下 **[!UICONTROL Create Action]** 的子菜單。 操作配置窗格在螢幕右側開啟。
 
-   ![](../assets/custom2.png)
+   ![](assets/custom2.png)
 
 1. 輸入操作的名稱。
 
@@ -60,7 +60,7 @@ ht-degree: 6%
 
 配置自定義操作時，需要定義以下 **[!UICONTROL URL Configuration]** 參數：
 
-![](../assets/journeyurlconfiguration.png)
+![](assets/journeyurlconfiguration.png)
 
 1. 在 **[!UICONTROL URL]** 欄位，指定外部服務的URL:
 
@@ -89,7 +89,7 @@ ht-degree: 6%
 
       如果已選擇 **[!UICONTROL Variable]**，則在將自定義操作添加到行程時將指定此變數。 [了解更多](../building-journeys/using-custom-actions.md)。
 
-      ![](../assets/journeyurlconfiguration2.png)
+      ![](assets/journeyurlconfiguration2.png)
 
    1. 要刪除標題欄位，請指向標題欄位，然後按一下 **[!UICONTROL Delete]** 表徵圖
    的 **[!UICONTROL Content-Type]** 和 **[!UICONTROL Charset]** 預設情況下設定標題欄位。 不能修改或刪除這些欄位。
@@ -102,11 +102,11 @@ ht-degree: 6%
 
 ## 定義操作參數 {#define-the-message-parameters}
 
-![](../assets/messageparameterssection.png)
+![](assets/messageparameterssection.png)
 
 在 **[!UICONTROL Action parameters]** 部分，貼上要發送到外部服務的JSON負載示例。
 
-![](../assets/customactionpayloadmessage.png)
+![](assets/customactionpayloadmessage.png)
 
 >[!NOTE]
 >
@@ -119,5 +119,5 @@ ht-degree: 6%
 * 常數表示參數的值在操作配置窗格中由技術角色定義。 不同旅程的價值始終相同。 它不會變化，營銷人員在旅途中使用自定義操作時不會看到它。 例如，可能是第三方系統需要的ID。 在這種情況下，切換常數/變數右側的欄位是傳遞的值。
 * 變數表示參數的值將發生變化。 在行程中使用此自定義操作的營銷人員可以免費傳遞他們想要的值，或指定在何處檢索此參數的值(例如從事件、從Adobe Experience Platform等)。 在這種情況下，切換常數/變數右側的欄位是標籤商在命名此參數的旅程中將看到的標籤。
 
-![](../assets/customactionpayloadmessage2.png)
+![](assets/customactionpayloadmessage2.png)
 

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 12%
@@ -54,15 +54,15 @@ ht-degree: 12%
 
 1. 在「管理」(ADMINISTRATION)菜單部分，選擇 **[!UICONTROL Configurations]**。 在  **[!UICONTROL Events]** ，按一下 **[!UICONTROL Manage]**。 畫面隨即顯示事件清單。
 
-   ![](../assets/jo-event1.png)
+   ![](assets/jo-event1.png)
 
 1. 按一下 **[!UICONTROL Create Event]** 以建立新事件。事件設定窗格會在畫面右側開啟。
 
-   ![](../assets/jo-event2.png)
+   ![](assets/jo-event2.png)
 
 1. 輸入事件名稱。 也可以添加說明。
 
-   ![](../assets/jo-event3-business.png)
+   ![](assets/jo-event3-business.png)
 
    >[!NOTE]
    >
@@ -70,20 +70,20 @@ ht-degree: 12%
 
 1. 在 **[!UICONTROL Type]** ，選擇 **業務**。
 
-   ![](../assets/jo-event3bis-business.png)
+   ![](assets/jo-event3bis-business.png)
 
 1. 使用此事件的歷程次數會顯示在 **[!UICONTROL Used in]** 欄位中。您可以按一下 **[!UICONTROL View journeys]** 圖示，以顯示使用此事件的歷程清單。
 
 1. 定義架構和負載欄位：這是您選擇事件資訊（通常稱為有效負載）旅行預期接收的地方。 接著，您就可以在歷程中使用這項資訊。請參閱[本節](../event/about-creating-business.md#define-the-payload-fields)。
 
-   ![](../assets/jo-event5-business.png)
+   ![](assets/jo-event5-business.png)
 
    只有時間系列方案可用。 「體驗事件」、「決策事件」和「行程步驟事件」架構不可用。 事件架構必須包含主標識。 必鬚根據需要設定以下欄位： `_id` 和 `timestamp`
 
-   ![](../assets/test-profiles-4.png)
+   ![](assets/test-profiles-4.png)
 
 1. 在 **[!UICONTROL Event ID condition]** 的子菜單。 使用簡單表達式編輯器，定義系統將用於標識將觸發行程的事件的條件。
-   ![](../assets/jo-event6-business.png)
+   ![](assets/jo-event6-business.png)
 
    在示例中，我們根據產品的id編寫了條件。 這意味著，每當系統收到符合此條件的事件時，它都會將其傳遞到行程。
 
@@ -93,7 +93,7 @@ ht-degree: 12%
 
 1. 按一下「**[!UICONTROL Save]**」。
 
-   ![](../assets/journey7-business.png)
+   ![](assets/journey7-business.png)
 
    條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。請參閱[此頁面](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
 
@@ -103,11 +103,11 @@ ht-degree: 12%
 
 1. 從清單中選擇XDM架構，然後按一下 **[!UICONTROL Fields]** 或 **[!UICONTROL Edit]** 表徵圖
 
-   ![](../assets/journey8-business.png)
+   ![](assets/journey8-business.png)
 
    將顯示架構中定義的所有欄位。 欄位清單因方案而異。 您可以搜索特定欄位，或使用篩選器顯示所有節點和欄位，或僅顯示選定欄位。 根據架構定義，某些欄位可能是必需的並且預先選定。 不能取消選擇它們。 預設情況下，對於要由行程正確接收的事件，必須選擇的所有欄位。
 
-   ![](../assets/journey9-business.png)
+   ![](assets/journey9-business.png)
 
    >[!NOTE]
    >
@@ -119,7 +119,7 @@ ht-degree: 12%
 
    所選欄位的數量顯示在 **[!UICONTROL Fields]** 的子菜單。
 
-   ![](../assets/journey12-business.png)
+   ![](assets/journey12-business.png)
 
 ## 預覽負載 {#preview-the-payload}
 
@@ -127,11 +127,11 @@ ht-degree: 12%
 
 1. 按一下 **[!UICONTROL View Payload]** 表徵圖，預覽系統所需的負載。
 
-   ![](../assets/journey13-business.png)
+   ![](assets/journey13-business.png)
 
    您可以注意到，所選欄位將顯示。
 
-   ![](../assets/journey14-business.png)
+   ![](assets/journey14-business.png)
 
 1. 檢查預覽以驗證負載定義。
 

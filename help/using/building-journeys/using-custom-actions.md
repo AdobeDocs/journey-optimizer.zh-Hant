@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: a5ea934615385e6dc0edd482ce14f3faf546d750
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 19%
@@ -38,7 +38,7 @@ ht-degree: 19%
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
 
-![](../assets/journey-custom-action-url.png)
+![](assets/journey-custom-action-url.png)
 
 ### 標頭
 
@@ -49,7 +49,7 @@ ht-degree: 19%
 1. 選擇行程中的自定義操作。
 1. 在配置窗格中，按一下中標題欄位旁邊的鉛筆表徵圖 **[!UICONTROL URL Configuration]** 的子菜單。
 
-   ![](../assets/journey-dynamicheaderfield.png)
+   ![](assets/journey-dynamicheaderfield.png)
 
 1. 選擇一個欄位，然後按一下 **[!UICONTROL OK]**。
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 1%
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 從 **[!UICONTROL Executions]** 頁籤 **[!UICONTROL Messages]** 菜單，選擇 **[!UICONTROL Global view]** 然後，從選定交貨的「高級」菜單中選擇 **[!UICONTROL Global report]**。
 
-![](../assets/global_report_3.png)
+![](assets/global_report_3.png)
 
 電子郵件 **[!UICONTROL Global report]** 被分成不同的小部件，詳細列出交付的成功和錯誤。 如果需要，可以調整每個小部件的大小並將其刪除。 有關此項的詳細資訊，請參閱 [節](global-report.md#modify-dashboard)。
 
-![](../assets/global_report_4.png)
+![](assets/global_report_4.png)
 
 **[!UICONTROL Email performance]** 使用KPI詳細列出與消息相關的主要資訊：
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Errors]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
 
-![](../assets/global_report_5.png)
+![](assets/global_report_5.png)
 
 的 **[!UICONTROL Bounce Reasons]** 和 **[!UICONTROL Bounce categories]** 小部件包含與已恢復消息相關的可用資料，如：
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
 的 **[!UICONTROL Error Reasons]** 圖形和表格允許您查看在交付期間發生的錯誤。
 
-![](../assets/global_report_6.png)
+![](assets/global_report_6.png)
 
 的 **[!UICONTROL Email - Top recipient domain]** 圖表和表詳細資訊，哪些域是收件人開啟電子郵件時最常用的域。
 
@@ -92,7 +92,7 @@ ht-degree: 1%
 * **[!UICONTROL Unique Opens]**:開啟交貨的收件人數。
 
 <!--
-![](../assets/global_report_20.png)
+![](assets/global_report_20.png)
 
 >[!NOTE]
 >

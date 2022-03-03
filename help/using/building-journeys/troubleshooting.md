@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 81%
@@ -23,11 +23,11 @@ ht-degree: 81%
 
 發生錯誤，而且畫布上的活動本身會顯示警告符號。將游標放在驚嘆號上，即可顯示錯誤訊息。如果您按一下活動，應該會看到錯誤的行並會顯示警告。例如，如果強制欄位為空，則會顯示錯誤。
 
-![](../assets/journey63.png)
+![](assets/journey63.png)
 
 例如，在畫布中，當兩個活動中斷連線時，則會顯示警告。
 
-![](../assets/canvas-disconnected.png)
+![](assets/canvas-disconnected.png)
 
 在 **[!UICONTROL Test]** 切換開關及 **[!UICONTROL Publish]** 按鈕旁邊，會顯示警告符號。此警告符號會顯示系統偵測到的錯誤，而且可防止測試模式啟動或歷程發佈。在大多數情況下，系統偵測到的錯誤會連結到活動上的可見錯誤，但有時候會連結到其他問題。在這種情況下，您可以顯示這些問題，嘗試識別用於說明錯誤的問題。如果您無法識別問題，則可複製詳細資料並將之傳送給管理員或支援。請注意，會封鎖測試的錯誤和封鎖發佈的錯誤是類似的。
 
@@ -35,7 +35,7 @@ ht-degree: 81%
 
 **[!UICONTROL Test]** 切換開關及 **[!UICONTROL Publish]** 按鈕旁邊的符號上可能會顯示兩種不同的顏色。出現錯誤時，符號會以紅色顯示。若出現警告，則會顯示為橘色。
 
-![](../assets/journey75.png)
+![](assets/journey75.png)
 
 與歷程相關的全域錯誤和警告會先出現在清單中。會依活動順序或外觀，由左至右地列出與特定活動相關的錯誤及警告。**[!UICONTROL Copy details]** 按鈕會複製支援團隊可用於疑難排解的歷程相關技術資訊。
 

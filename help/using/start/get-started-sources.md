@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: c2052a2c4468239d22d8a8d57b4ceac0329773d1
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Adobe Journey Optimizer允許從外部源接收資料，同時讓您能夠使用平台服務構建、標籤和增強傳入資料。 您可以從多種源(如Adobe應用程式、基於雲的儲存、資料庫和許多其他源)接收資料。
 
-![](../assets/sources-home.png)
+![](assets/sources-home.png)
 
 瞭解源連接器以及如何在此視頻中在Journey Optimizer配置它們：
 

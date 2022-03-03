@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 每次修改提供時，更新用於個性化內容提供的自動生成的資料集。
 
-![](../../assets/dataset-offers.png)
+![](../assets/dataset-offers.png)
 
 資料集中最近成功的批處理顯示在右側。 資料集的架構的分層視圖顯示在左窗格中。
 

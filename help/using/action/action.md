@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 51c63b196b11905289c3c0c450c1976eb551bbc8
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 68%
@@ -39,4 +39,4 @@ ht-degree: 68%
 
 要查看操作清單或配置新操作，請選擇 **[!UICONTROL Configurations]** 的子菜單。 在  **[!UICONTROL Actions]** ，按一下 **[!UICONTROL Manage]**。 畫面隨即顯示動作清單。請參閱 [此頁](../start/user-interface.md) 的上界。
 
-![](../assets/custom1.png)
+![](assets/custom1.png)

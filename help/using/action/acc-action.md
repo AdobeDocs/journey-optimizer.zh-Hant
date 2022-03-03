@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 7324b5dd448b770990aad485fa2b13bc131cbcb1
+source-git-commit: 51c63b196b11905289c3c0c450c1976eb551bbc8
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 4%
@@ -69,4 +69,4 @@ Journey Optimizer實例和市場活動實例之間的連接是在預配時通過
 1. 根據要在「旅程」畫布上映射不同欄位，將其調整為靜態或變數。 某些欄位(如電子郵件地址的通道參數和個性化欄位(ctx))，您可能需要定義為旅行上下文中映射的變數。
 1. 按一下「**儲存**」。
 
-![](../assets/accintegration1.png)
+![](assets/accintegration1.png)

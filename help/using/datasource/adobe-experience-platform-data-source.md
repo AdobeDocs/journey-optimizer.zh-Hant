@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 11%
@@ -31,11 +31,11 @@ Adobe Experience Platform資料源定義與即時客戶配置檔案服務的連�
 
    這會開啟畫面右側的資料來源設定窗格。
 
-   ![](../assets/journey23.png)
+   ![](assets/journey23.png)
 
 1. 按一下 **[!UICONTROL Add a New Field Group]** 定義要檢索的新系列欄位。 請參閱[此頁面](../datasource/configure-data-sources.md#define-field-groups)。
 
-   ![](../assets/journey24.png)
+   ![](assets/journey24.png)
 
 1. 從 **[!UICONTROL Schema]** 下拉。 此欄位列出了Adobe Experience Platform中可用的配置檔案和體驗事件架構。 未在中執行架構建立 [!DNL Journey Optimizer]。 是在Adobe Experience Platform演的。
 1. 選擇要使用的欄位。

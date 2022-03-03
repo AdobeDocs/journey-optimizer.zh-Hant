@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 1%
@@ -29,23 +29,23 @@ ht-degree: 1%
 
 1. 訪問 **[!UICONTROL Components]** ，然後選擇 **[!UICONTROL Rankings]** 頁籤。 顯示先前建立的排名清單。
 
-   ![](../../assets/rankings-list.png)
+   ![](../assets/rankings-list.png)
 
 1. 按一下 **[!UICONTROL Create ranking]** 的子菜單。
 
-   ![](../../assets/ranking-create-formula.png)
+   ![](../assets/ranking-create-formula.png)
 
 1. 指定排名公式名稱、說明和公式。
 
    在本示例中，如果實際天氣炎熱，我們希望提高所有優先服務的優先順序，並使用「hot」屬性。 為此， **contextData.weather=hot** 在決定呼叫中通過。
 
-   ![](../../assets/ranking-syntax.png)
+   ![](../assets/ranking-syntax.png)
 
 1. 按一下「**[!UICONTROL Save]**」。您的排名公式已建立，您可以從清單中選擇它以獲取詳細資訊，並編輯或刪除它。
 
    現在，它已準備好用於對合格的職位安排報價進行排序的決定(請參閱 [在決策中配置服務選擇](../offer-activities/configure-offer-selection.md))。
 
-   ![](../../assets/ranking-formula-created.png)
+   ![](../assets/ranking-formula-created.png)
 
 ## 排序公式示例 {#ranking-formula-examples}
 
@@ -155,7 +155,7 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 
 一個更好的解決方案是將分數儲存在配置檔案的陣列中。 以下示例將使用簡單的排名公式，對各種不同的傾向得分起作用。 期望是您有一個具有分數陣列的配置檔案架構。 在此示例中，實例租戶為 *銷售速度* 和配置檔案架構包含以下內容：
 
-![](../../assets/ranking-example-schema.png)
+![](../assets/ranking-example-schema.png)
 
 因此，對於配置檔案，例如：
 
@@ -179,7 +179,7 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 
 報價將包含 *傾向類型* 與分數中的類別匹配：
 
-![](../../assets/ranking-example-propensityType.png)
+![](../assets/ranking-example-propensityType.png)
 
 然後，您的排名公式可以將每項服務的優先順序設定為等於客戶 *傾向分數* 因為 *傾向類型*。 如果找不到分數，請使用優惠上設定的靜態優先順序：
 

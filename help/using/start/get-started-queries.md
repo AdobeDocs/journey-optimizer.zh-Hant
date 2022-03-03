@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 12%
@@ -19,7 +19,7 @@ ht-degree: 12%
 查詢編輯器支援為分析和資料探索開發查詢，並允許您運行互動式查詢以用於開發目的以及非互動式查詢以填充 [資料集](get-started-datasets.md)。
 
 
-![](../assets/queries-home.png)
+![](assets/queries-home.png)
 
 瞭解如何在 [本文檔](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target=&quot;_blank&quot;}。
 

@@ -8,7 +8,7 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 4609b071e6011bb2c28156b9638f40b7d6f29249
+source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 3%
@@ -37,23 +37,23 @@ ht-degree: 3%
 
 1. 要訪問訂閱清單，請選擇 **[!UICONTROL Customer]** > **[!UICONTROL Subscription list]**。
 
-   ![](../assets/lp_subscription-lists.png)
+   ![](assets/lp_subscription-lists.png)
 
 1. 選取 **[!UICONTROL Create subscription list]** 按鈕。
 
-   ![](../assets/lp_create-subscription-list.png)
+   ![](assets/lp_create-subscription-list.png)
 
 1. 添加名稱和說明。 這些欄位是必填的。
 
 1. 您可以定義起始日期和終止日期。
 
-   ![](../assets/lp_subscription-list-dates.png)
+   ![](assets/lp_subscription-list-dates.png)
 
 1. 按一下「**[!UICONTROL Save]**」。
 
 該清單顯示所有建立的訂閱清單。 您可以根據建立日期或修改日期及其狀態來篩選它們。
 
-![](../assets/lp_subscription-filters.png)
+![](assets/lp_subscription-filters.png)
 
 可能的狀態如下：
 

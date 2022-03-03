@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 6%
@@ -23,27 +23,27 @@ ht-degree: 6%
 
 1. 一如既往，從一個活動或 **讀取段** 的子菜單。
 
-   ![](../assets/jo-message0.png)
+   ![](assets/jo-message0.png)
 
 1. 從 **操作** ，拖放 **消息** 的下界。
 
-   ![](../assets/jo-message1.png)
+   ![](assets/jo-message1.png)
 
 1. 添加標籤和說明。
 
-   ![](../assets/jo-message2.png)
+   ![](assets/jo-message2.png)
 
 1. 在 **消息** 的子菜單。 將顯示在Journey Optimizer設計的可用消息清單。 您可以按狀態篩選清單。
 
-   ![](../assets/jo-message3.png)
+   ![](assets/jo-message3.png)
 
 1. 選擇消息並按一下 **選擇**。 也可以通過按一下 **建立消息**。
 
-   ![](../assets/jo-message4-ter.png)
+   ![](assets/jo-message4-ter.png)
 
    如果要檢查郵件，可按一下 **開啟郵件** 的 **消息** 的子菜單。 該消息將在新頁籤中開啟。
 
-   ![](../assets/jo-message4-bis.png)
+   ![](assets/jo-message4-bis.png)
 
 1. 將後續步驟添加到您的旅程中。
 
@@ -51,7 +51,7 @@ ht-degree: 6%
 
 的 **[!UICONTROL Email parameters]** 和 **[!UICONTROL Push parameters]** 節顯示只讀欄位。 通常在建立消息時執行此配置。 請參閱[本節](../messages/get-started-content.md)。
 
-![](../assets/jo-message4.png)
+![](assets/jo-message4.png)
 
 要強制指定值，可使用 **啟用參數覆蓋** 表徵圖 此選項可用於各種用途：
 
@@ -105,7 +105,7 @@ Adobe Journey Optimizer的「發送時間優化」功能由Adobe的AI服務提�
 
 通過選擇 **發送時間優化** 從「消息」活動參數切換。
 
-![](../assets/jo-message5.png)
+![](assets/jo-message5.png)
 
 對於電子郵件，選擇是開啟電子郵件時進行優化，還是通過選擇相應的單選按鈕進行電子郵件點擊瀏覽。 推送消息預設為開啟選項，因為按一下不適用於推送消息。
 

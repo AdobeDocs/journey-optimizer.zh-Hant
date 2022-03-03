@@ -3,7 +3,7 @@ title: Journey Optimizer開始營銷
 description: 作為一名旅行實踐者，學習如何與Journey Optimizer合作
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 56f7ec7f69f39ee0715ba65f52c194976f4aa479
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 8%
@@ -22,17 +22,17 @@ ht-degree: 8%
 
 1. **建立訊息**. 瞭解如何在Journey Optimizer建立電子郵件和推送通知 [此頁](../../messages/create-message.md)。
 
-   ![](../../assets/email_designer_7.png)
+   ![](../assets/email_designer_7.png)
 
 1. **新增個人化**. 利用Journey Optimizer個性化功能，將您的消息適應您的受眾。 瞭解有關個性化的更多資訊 [此部分](../../personalization/personalize.md)。
 
-   ![](../../personalization/assets/perso_ee2.png)
+   ![](../assets/perso_ee2.png)
 
 1. **建立和管理資產**。 [!DNL Adobe Experience Manager Assets Essentials] 提供單個集中的資產儲存庫，您可以使用它來填充郵件。 請參閱[本節](../../messages/assets-essentials.md).
 
 1. **新增優惠方案**. 使用 [!DNL Journey Optimizer] 可在適當的時間為所有接觸點的客戶提供最佳優惠和體驗。設計完成後，透過個人化優惠目標定位對象。瞭解有關決策管理的更多資訊 [此部分](../../offers/get-started/starting-offer-decisioning.md)。
 
-   ![](../../assets/offers-e2e-offers-displayed.png)
+   ![](../assets/offers-e2e-offers-displayed.png)
 
 1. **Test並驗證您的消息**。 定義消息內容後，可以使用test配置檔案預覽和test它。 如果插入 [個性化內容](../../personalization/personalize.md)，您將能夠利用test配置檔案資料檢查此內容在消息中的顯示方式。 另外，利用 **斜石** 帳戶 [!DNL Journey Optimizer] 立即預覽 **電子郵件呈現** 常用電子郵件客戶端。 然後，您可以確保電子郵件內容看起來非常出色，並且在每個收件箱中都能正常工作。 瞭解如何test和驗證您的郵件 [此部分](../../messages/preview.md)。
 
@@ -46,7 +46,7 @@ ht-degree: 8%
 
    * 使用 **旅程設計師**，構建多步使用案例：輕鬆拖放條目事件或讀取段活動、添加條件和發送個性化消息。
 
-   ![](../../assets/copy-paste3.png)
+   ![](../assets/copy-paste3.png)
 
    瞭解如何設計和執行行程 [此部分](../../building-journeys/journey-gs.md)
 

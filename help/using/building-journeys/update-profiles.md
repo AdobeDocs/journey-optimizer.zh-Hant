@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 778ab302a5c9835024fe324999cdf5acf19ad172
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 1. 在 **操作** 的下一頁 **更新配置檔案** 的下界。
 
-   ![](../assets/profileupdate0.png)
+   ![](assets/profileupdate0.png)
 
 1. 從清單中選擇一個架構。
 
 1. 按一下 **欄位** 的子菜單。 只能選擇一個欄位。
 
-   ![](../assets/profileupdate2.png)
+   ![](assets/profileupdate2.png)
 
 1. 從清單中選擇資料集。
 
@@ -58,12 +58,12 @@ ht-degree: 0%
 
    * 使用簡單表達式編輯器，可以從資料源或傳入事件中選擇一個欄位。
 
-      ![](../assets/profileupdate4.png)
+      ![](assets/profileupdate4.png)
 
    * 如果要定義特定值或利用高級功能，請按一下 **高級模式**。
 
-      ![](../assets/profileupdate3.png)
+      ![](assets/profileupdate3.png)
 
 的 **更新配置檔案** 已配置。
 
-![](../assets/profileupdate1.png)
+![](assets/profileupdate1.png)

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 6%
@@ -27,4 +27,4 @@ Journey Optimizer實例和市場活動實例之間的連接是在預配時通過
 1. 在 **操作** 頁籤，選擇「市場活動」活動並將其添加到您的行程中。
 1. 在 **操作參數**，將顯示消息負載中所需的所有欄位。 您需要將每個欄位與要使用的欄位進行映射，無論是從事件還是從資料源。 這類似於自定義操作。 請參閱此 [節](../building-journeys/using-custom-actions.md)。
 
-![](../assets/accintegration2.png)
+![](assets/accintegration2.png)

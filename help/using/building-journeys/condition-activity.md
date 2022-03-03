@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 7%
@@ -23,7 +23,7 @@ ht-degree: 7%
 * [日期條件](#date_condition)
 * [輪廓帽](#profile_cap)
 
-![](../assets/journey49.png)
+![](assets/journey49.png)
 
 ## 關於條件活動 {#about_condition}
 
@@ -31,13 +31,13 @@ ht-degree: 7%
 
 按一下 **[!UICONTROL Add a path]** 的雙曲餘切值。 對於每個條件，在活動後的畫布中都會添加新路徑。
 
-![](../assets/journey47.png)
+![](assets/journey47.png)
 
 請注意，行程設計對功能有影響。 當在條件後定義多個路徑時，將只執行第一個符合條件的路徑。 這意味著您可以通過將路徑置於彼此之上或之下來改變路徑的優先順序。
 
 例如，我們以第一條路的條件「人是VIP」和第二條路的條件「人是男性」為例。 如果符合兩個條件的人(男VIP)通過此步驟，則即使此人也有資格獲得第二條路徑，也將選擇第一條路徑，因為第一條路徑是「高於」。 要更改此優先順序，請按另一個垂直順序移動活動。
 
-![](../assets/journey48.png)
+![](assets/journey48.png)
 
 您可以通過選中為不符合定義條件條件的受眾建立其他路徑 **[!UICONTROL Show path for other cases than the one(s) above]**。 請注意，此選項在分解條件中不可用。 請參閱 [分解百分比](#percentage_split)。
 
@@ -46,7 +46,7 @@ ht-degree: 7%
 * 和：兩個標準的交集。 只考慮與所有條件匹配的元素。
 * 或：兩個標準的結合。 考慮匹配兩個條件中至少一個的元素。
 
-![](../assets/journey64.png)
+![](assets/journey64.png)
 
 如果你用的 [Adobe Experience Platform分段服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}可建立段，您可以在行程條件中利用這些段。 請參閱 [在條件中使用段](../building-journeys/condition-activity.md#using-a-segment)。
 
@@ -63,7 +63,7 @@ ht-degree: 7%
 
 這允許您基於資料源中的欄位或先前在行程中定位的事件來定義條件。 要瞭解如何使用表達式編輯器，請參見 [AdobeJourney Orchestration文檔](expression/expressionadvanced.md)。 使用高級表達式編輯器，可以設定操作集合或使用需要傳遞參數的資料源的更高級條件。 請參閱[此頁面](../datasource/external-data-sources.md)。
 
-![](../assets/journey50.png)
+![](assets/journey50.png)
 
 ## 時間條件{#time_condition}
 
@@ -73,7 +73,7 @@ ht-degree: 7%
 >
 >時區不再特定於某個條件，現在在行程屬性中的行程級別定義。 請參見[此頁面](../building-journeys/timezone-management.md)。
 
-![](../assets/journey51.png)
+![](assets/journey51.png)
 
 ## 分解百分比 {#percentage_split}
 
@@ -85,7 +85,7 @@ ht-degree: 7%
 >
 >請注意，在百分比分解條件中沒有添加路徑的按鈕。 路徑數將取決於拆分數。 在拆分條件中，無法為其他情況添加路徑，因為它不會發生。 人們總是走在一條分割的路上。
 
-![](../assets/journey52.png)
+![](assets/journey52.png)
 
 ## 日期條件 {#date_condition}
 
@@ -95,7 +95,7 @@ ht-degree: 7%
 >
 >時區不再特定於某個條件，現在在行程屬性中的行程級別定義。 請參閱[此頁面](../building-journeys/timezone-management.md)。
 
-![](../assets/journey53.png)
+![](assets/journey53.png)
 
 ## 輪廓帽 {#profile_cap}
 
@@ -116,7 +116,7 @@ ht-degree: 7%
 
 在test模式中未考慮配置檔案上限。
 
-![](../assets/profile-cap-condition.png)
+![](assets/profile-cap-condition.png)
 
 ## 在條件中使用區段 {#using-a-segment}
 
@@ -125,15 +125,15 @@ ht-degree: 7%
 要在行程條件中使用段，請執行以下步驟：
 
 1. 開路，放下 **[!UICONTROL Condition]** 活動，然後選擇 **資料源條件**。
-   ![](../assets/journey47.png)
+   ![](assets/journey47.png)
 
 1. 按一下 **[!UICONTROL Add a path]** 每條額外路徑。 對於每個路徑，按一下 **[!UICONTROL Expression]** 的子菜單。
 
-   ![](../assets/segment3.png)
+   ![](assets/segment3.png)
 
 1. 在左側， **[!UICONTROL Segments]** 的下界。 拖放要用於條件的段。 預設情況下，段上的條件為true。
 
-   ![](../assets/segment4.png)
+   ![](assets/segment4.png)
 
    >[!NOTE]
    >

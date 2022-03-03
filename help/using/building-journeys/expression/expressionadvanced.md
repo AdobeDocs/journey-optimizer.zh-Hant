@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: 5d9a729c58cda2dd2600f2076a460f78d21641f8
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 85%
@@ -20,7 +20,7 @@ ht-degree: 85%
 
 進階運算式編輯器提供一組內建函式和運算子，讓您得以控制值並定義特別符合您需求的運算式。進階運算式編輯器也可讓您定義外部資料來源參數的值、控制對應欄位和集合，例如體驗事件。
 
-![](../../assets/journey65.png)
+![](../assets/journey65.png)
 
 _進階運算式編輯器介面_
 
@@ -44,7 +44,7 @@ _進階運算式編輯器介面_
 
 * 建立資料來源條件時，可按一下 **[!UICONTROL Advanced mode]** 以存取進階編輯器。
 
-   ![](../../assets/journeyuc2_33.png)
+   ![](../assets/journeyuc2_33.png)
 
 * 建立自訂計時器時，會直接顯示進階編輯器。
 * 對應動作參數時，按一下 **[!UICONTROL Advanced mode]**。
@@ -53,7 +53,7 @@ _進階運算式編輯器介面_
 
 此畫面可讓您手動編寫運算式。
 
-![](../../assets/journey70.png)
+![](../assets/journey70.png)
 
 在畫面左側，會顯示可用的欄位和函式：
 
@@ -63,20 +63,20 @@ _進階運算式編輯器介面_
 * **[!UICONTROL Journey properties]**:本節將為給定配置檔案重新分組與行程相關的技術欄位。 [閱讀全文](journey-properties.md)
 * **[!UICONTROL Functions]**：從可執行複雜篩選的內建函式清單中選擇。函式會依類別組織。[閱讀全文](functions.md)
 
-![](../../assets/journey65.png)
+![](../assets/journey65.png)
 
 自動完成機制會顯示內容建議。
 
-![](../../assets/journey68.png)
+![](../assets/journey68.png)
 
 語法驗證機制會檢查程式碼的完整性。錯誤會顯示在編輯器上方。
 
-![](../../assets/journey69.png)
+![](../assets/journey69.png)
 
 **使用進階運算式編輯器建立條件時，需要使用參數**
 
 如果從外部資料源中選擇一個需要調用參數的欄位(請參見 [此頁](../../datasource/external-data-sources.md)。 例如，在天氣相關資料來源中，常用的參數為 &quot;city&quot;。因此，您必須選擇要取得此城市參數的位置。也可將函式套用至參數，以執行格式變更或串聯。
 
-![](../../assets/journeyuc2_19.png)
+![](../assets/journeyuc2_19.png)
 
 對於更複雜的使用案例，如果您想將資料來源的參數包含在主運算式中，則可使用 &quot;params&quot; 關鍵字來定義其值。請參閱[本頁](../expression/field-references.md)。

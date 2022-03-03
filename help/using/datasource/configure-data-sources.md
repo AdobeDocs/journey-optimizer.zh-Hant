@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 10%
@@ -23,11 +23,11 @@ ht-degree: 10%
 
 1. 在「管理」(ADMINISTRATION)菜單部分，選擇 **[!UICONTROL Configurations]**。 在  **[!UICONTROL Data Sources]** ，按一下 **[!UICONTROL Manage]**。 畫面隨即顯示資料來源。請參閱 [此頁](../start/user-interface.md) 的上界。
 
-   ![](../assets/journey18.png)
+   ![](assets/journey18.png)
 
 1. 然後，您可以將欄位組添加到內置資料源(請參見 [此頁](../datasource/adobe-experience-platform-data-source.md))或建立新的外部資料源(請參見 [此頁](../datasource/external-data-sources.md))和關聯的欄位組(請參見 [此頁](../datasource/configure-data-sources.md#define-field-groups))。
 
-   ![](../assets/journey23.png)
+   ![](assets/journey23.png)
 
 1. 按一下「**[!UICONTROL Save]**」。
 
@@ -51,7 +51,7 @@ ht-degree: 10%
 >
 >請注意，如果欄位組沒有欄位，則表達式編輯器中將不顯示該欄位。
 
-![](../assets/journey3bis.png)
+![](assets/journey3bis.png)
 
 ## 欄位組生命週期 {#field-group-lifecycle}
 

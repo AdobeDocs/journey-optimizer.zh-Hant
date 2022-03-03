@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 搜索行程時，首次開啟應用程式時，最新版本會出現在清單頂部。 然後，您可以定義所需的排序，應用程式將將其保留為用戶首選項。 行程版本也顯示在行程版本介面的頂部，位於畫布上方。
 
-![](../assets/journeyversions1.png)
+![](assets/journeyversions1.png)
 
 如果您需要修改到即時旅程，則需要建立新版本的旅程。
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 1. 開啟您的即時旅程的最新版本，按一下 **[!UICONTROL Create a new version]** 確認一下。
 
-   ![](../assets/journeyversions2.png)
+   ![](assets/journeyversions2.png)
 
    >[!NOTE]
    >
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 1. 進行修改，按一下 **[!UICONTROL Publish]** 確認一下。
 
-   ![](../assets/journeyversions3.png)
+   ![](assets/journeyversions3.png)
 
 從旅程發表那一刻起，個人就會開始流入旅程的最新版本。 已輸入先前版本的人會一直保留到完成旅程。 如果以後重新進入同一行程，他們將進入最新版。
 

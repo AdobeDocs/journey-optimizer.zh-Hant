@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 77d7694524eaca447f0cf4e19881f1688fc4e789
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 4%
 * 排名公式
 * [AI排名](#use-ranking-strategy) （僅限於選定用戶的早期訪問）
 
-![](../../assets/offer-rank-by.png)
+![](../assets/offer-rank-by.png)
 
 ## 提供優先順序 {#offer-priority}
 
 預設情況下，當多個要約有資格在決策中進行給定的配售時，其報價最高 **優先順序** 會先送給客戶。
 
-![](../../assets/offer-priority.png)
+![](../assets/offer-priority.png)
 
 在建立聘用時，將分配聘用的優先順序分數。 瞭解如何在中建立個性化服務 [此部分](../offer-library/creating-personalized-offers.md)。
 
@@ -38,7 +38,7 @@ ht-degree: 4%
 
 瞭解如何在中建立排名公式 [此部分](../offer-library/create-ranking-formulas.md)。
 
-一旦建立了排名公式，您就可以將其分配給決策中的位置。 為此，請執行以下步驟：
+一旦建立了排名公式，您就可以將其分配給決策中的位置。 請依照下列步驟執行此操作：
 
 1. 建立決策或編輯現有決策。 請參閱[建立決定](../offer-activities/create-offer-activities.md)。
 
@@ -48,11 +48,11 @@ ht-degree: 4%
 
 1. 選擇 **[!UICONTROL Ranking formula]** 作為排名方法，然後按一下 **[!UICONTROL Add ranking]**。
 
-   ![](../../assets/offer-activity-ranking.png)
+   ![](../assets/offer-activity-ranking.png)
 
 1. 選擇所需的排名公式，然後按一下 **[!UICONTROL Select]**。
 
-   ![](../../assets/ranking-selection.png)
+   ![](../assets/ranking-selection.png)
 
 現在，排名公式與位置關聯。
 
@@ -78,11 +78,11 @@ ht-degree: 4%
 
 1. 選擇按 **[!UICONTROL AI ranking]** 從下拉清單中，按一下 **[!UICONTROL Add ranking]**。
 
-   ![](../../assets/ranking-selection-ai-ranking.png)
+   ![](../assets/ranking-selection-ai-ranking.png)
 
 1. 選擇您建立的排名策略。 將顯示排名策略的所有詳細資訊。
 
-   ![](../../assets/ranking-selection-ai-ranking-selected.png)
+   ![](../assets/ranking-selection-ai-ranking-selected.png)
 
 1. 按一下「**[!UICONTROL Select]**」。該排名策略現在與該位置相關聯。
 

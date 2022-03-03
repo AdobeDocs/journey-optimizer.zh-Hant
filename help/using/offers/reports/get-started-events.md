@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 57%
@@ -21,7 +21,7 @@ ht-degree: 57%
 
 包含決策管理事件的資料集可以從Adobe Experience Platform訪問 **[!UICONTROL Datasets]** 的子菜單。 每個執行個體佈建時會自動建立一個資料集。
 
-![](../../assets/events-datasets-list.png)
+![](../assets/events-datasets-list.png)
 
 這些資料集基於 **[!UICONTROL ODE DecisionEvents]** 架構，包含從決策管理向Adobe Experience Platform發送資訊所需的所有XDM欄位。
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 6%
@@ -24,6 +24,6 @@ ht-degree: 6%
 1. 在發佈您的行程之前，請驗證該行程是否有效且無錯誤。 您將無法發佈帶有錯誤的行程。 請參閱[本節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)。還建議在發佈前test您的行程。 請參閱[此頁面](../building-journeys/testing-the-journey.md)。
 1. 要發佈行程，請按一下 **[!UICONTROL Publish]** 選項。
 
-   ![](../assets/journeyuc1_18.png)
+   ![](assets/journeyuc1_18.png)
 
 發佈行程時，它處於只讀模式。

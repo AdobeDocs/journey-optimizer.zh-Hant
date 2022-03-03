@@ -3,7 +3,7 @@ title: Journey Optimizer資料工程師入門
 description: 作為資料工程師，瞭解如何與Journey Optimizer合作
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: a20bf3aa869ce73805c63323ac36e5d86a44746e
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 9%
@@ -33,12 +33,12 @@ ht-degree: 9%
 
 1. **配置源連接器**。 AdobeJourney Optimzer允許從外部源接收資料，同時讓您能夠使用平台服務構建、標籤和增強傳入資料。 您可以從多種源(如Adobe應用程式、基於雲的儲存、資料庫和許多其他源)接收資料。 瞭解有關源連接器的詳細資訊 [此頁](../get-started-sources.md)。
 
-1. **建立test配置檔案**。 Test配置檔案在使用 [test模式](../../building-journeys/testing-the-journey.md) 在旅途中， [預覽和test您的郵件](../../messages/preview.md) 在發送之前。 發現建立test配置檔案的步驟 [此頁](../../building-journeys/creating-test-profiles.md)。
+1. **建立測試設定檔**. Test配置檔案在使用 [test模式](../../building-journeys/testing-the-journey.md) 在旅途中， [預覽和test您的郵件](../../messages/preview.md) 在發送之前。 發現建立test配置檔案的步驟 [此頁](../../building-journeys/creating-test-profiles.md)。
 
 
 此外，要在行程中發送消息，必須配置 **[!UICONTROL Data Sources]**。 **[!UICONTROL Events]** 和 **[!UICONTROL Actions]**。 請參閱[本節](../../configuration/about-data-sources-events-actions.md).
 
-![](../../assets/admin-menu.png)
+![](../assets/admin-menu.png)
 
 * 的 **資料源** 配置允許您定義到系統的連接，以檢索將在您的行程中使用的其他資訊。 瞭解有關資料源的詳細資訊 [此部分](../../datasource/about-data-sources.md)。
 

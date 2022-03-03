@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c50d73c8-d2ca-40a4-bec6-2ce8be814028
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 1%
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 從 **[!UICONTROL Executions]** 頁籤 **[!UICONTROL Messages]** 菜單，選擇 **[!UICONTROL Global view]** 然後，從選定交貨的「高級」菜單中選擇 **[!UICONTROL Global report]**。
 
-![](../assets/global_report_11.png)
+![](assets/global_report_11.png)
 
 推 **[!UICONTROL Global report]** 被分成不同的小部件，詳細列出交付的成功和錯誤。 如果需要，可以調整每個小部件的大小並將其刪除。 有關此項的詳細資訊，請參閱 [節](global-report.md#modify-dashboard)。
 
-![](../assets/push_global_report.png)
+![](assets/push_global_report.png)
 
 的 **[!UICONTROL Push notification performance]** 小部件詳細列出了與KPI推送通知相關的主要資訊：
 
@@ -51,6 +51,6 @@ ht-degree: 1%
 
 的 **[!UICONTROL Error Reasons]** 圖形和表格允許您查看在交付期間發生的錯誤。
 
-![](../assets/push_global_report_2.png)
+![](assets/push_global_report_2.png)
 
 的 **[!UICONTROL Tracking by platform]**。 **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 圖表和表格根據收件人的作業系統詳細說明推送通知的成功。

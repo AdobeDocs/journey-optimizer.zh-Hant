@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 88%
@@ -32,11 +32,11 @@ ht-degree: 88%
 
 1. 從資料來源清單中，按一下 **[!UICONTROL Create Data Source]** 以建立新的外部資料來源。
 
-   ![](../assets/journey25.png)
+   ![](assets/journey25.png)
 
    這會開啟畫面右側的資料來源設定窗格。
 
-   ![](../assets/journey26.png)
+   ![](assets/journey26.png)
 
 1. 輸入您的資料來源名稱。
 
@@ -51,7 +51,7 @@ ht-degree: 88%
    >
    >基於安全考量，我們強烈建議您使用 HTTPS。另請注意，我們不允許使用非公開的 Adobe 網址和 IP 位址。
 
-   ![](../assets/journey27.png)
+   ![](assets/journey27.png)
 
 1. 根據外部服務配置設定身份驗證：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或 **[!UICONTROL API key]**。有關自定義身份驗證模式的詳細資訊，請參見 [此部分](../datasource/external-data-sources.md#custom-authentication-mode)。 在我們的範例中，我們選擇：
 
@@ -60,7 +60,7 @@ ht-degree: 88%
    * **[!UICONTROL Value]**：&quot;1234&quot;（這是我們 API 金鑰的值）
    * **[!UICONTROL Location]**：&quot;Query parameter&quot;（API 金鑰位於 URL）
 
-   ![](../assets/journey28.png)
+   ![](assets/journey28.png)
 
 1. 按一下 **[!UICONTROL Add a New Field Group]**，為每個 API 參數集新增欄位群組。請勿在欄位群組名稱中使用空格或特殊字元。在我們的範例中，我們需要建立兩個欄位群組，每個群各有一個參數集（city 及 long/lat）。
 
@@ -81,7 +81,7 @@ ht-degree: 88%
    {"id":{"param":"identifier"}}
    ```
 
-![](../assets/journey29.png)
+![](assets/journey29.png)
 
 按一下「**[!UICONTROL Save]**」。
 
@@ -98,11 +98,11 @@ ht-degree: 88%
 
 當您設定自訂驗證時，可以按一下下方的按鈕，以檢查自訂驗證有效負載是否已正確設定。
 
-![](../assets/journey29-bis.png)
+![](assets/journey29-bis.png)
 
 如果測試成功，按鈕就會變成綠色。
 
-![](../assets/journey29-ter.png)
+![](assets/journey29-ter.png)
 
 使用此驗證的話，動作執行會是兩個步驟的流程：
 

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: a51b19413d2b4894adfaa8249ee4f5d404ac7123
+source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 14%
@@ -21,15 +21,15 @@ ht-degree: 14%
 
 1. 在「管理」(ADMINISTRATION)菜單部分，選擇 **[!UICONTROL Configurations]**。 在  **[!UICONTROL Events]** ，按一下 **[!UICONTROL Manage]**。 畫面隨即顯示事件清單。
 
-   ![](../assets/jo-event1.png)
+   ![](assets/jo-event1.png)
 
 1. 按一下 **[!UICONTROL Create Event]** 以建立新事件。事件設定窗格會在畫面右側開啟。
 
-   ![](../assets/jo-event2.png)
+   ![](assets/jo-event2.png)
 
 1. 輸入事件名稱。 也可以添加說明。
 
-   ![](../assets/jo-event3.png)
+   ![](assets/jo-event3.png)
 
    >[!NOTE]
    >
@@ -37,24 +37,24 @@ ht-degree: 14%
 
 1. 在 **[!UICONTROL Type]** ，選擇 **酉**。
 
-   ![](../assets/jo-event3bis.png)
+   ![](assets/jo-event3bis.png)
 
 1. 在 **[!UICONTROL Event ID type]** 欄位中，選擇要使用的事件ID類型： **基於規則** 或 **系統生成**。 在中閱讀有關事件ID類型的更多資訊 [此部分](../event/about-events.md#event-id-type)。
 
-   ![](../assets/jo-event4.png)
+   ![](assets/jo-event4.png)
 
 1. 使用此事件的歷程次數會顯示在 **[!UICONTROL Used in]** 欄位中。您可以按一下 **[!UICONTROL View journeys]** 圖示，以顯示使用此事件的歷程清單。
 
 1. 定義架構和負載欄位：這是您選擇事件資訊（通常稱為有效負載）旅行預期接收的地方。 接著，您就可以在歷程中使用這項資訊。請參閱[本節](../event/about-creating.md#define-the-payload-fields)。
 
-   ![](../assets/jo-event5.png)
+   ![](assets/jo-event5.png)
 
    >[!NOTE]
    >
    >選擇 **[!UICONTROL System Generated]** 類型，只有具有eventID類型欄位的架構可用。 選擇 **[!UICONTROL Rule Based]** 類型，所有體驗事件架構都可用。
 
 1. 對於基於規則的事件，按一下 **[!UICONTROL Event ID condition]** 的子菜單。 使用簡單表達式編輯器，定義系統將用於標識將觸發行程的事件的條件。
-   ![](../assets/jo-event6.png)
+   ![](assets/jo-event6.png)
 
    在我們的例子中，我們根據檔案的城市寫了一個條件。 這意味著，每當系統收到與此條件匹配的事件(**[!UICONTROL City]** 欄位和 **[!UICONTROL Paris]** 價值)，它會傳到旅程。
 
@@ -65,7 +65,7 @@ ht-degree: 14%
 1. 新增命名空間。此步驟為選填，但建議您新增命名空間，以便運用儲存在「即時客戶個人檔案服務」的資訊。它會定義事件具備的金鑰類型。請參閱[本節](../event/about-creating.md#select-the-namespace)。
 1. 定義配置檔案標識符：從有效負載欄位中選擇一個欄位，或定義一個公式以標識與事件關聯的人員。 如果您選取命名空間，系統便會自動設定此金鑰（但您仍可加以編輯）。事實上，「行程」會選擇應與命名空間對應的鍵（例如，如果選擇了電子郵件命名空間，則將選擇電子郵件密鑰）。 請參閱[本節](../event/about-creating.md#define-the-event-key)。
 
-   ![](../assets/jo-event7.png)
+   ![](assets/jo-event7.png)
 
 1. 按一下「**[!UICONTROL Save]**」。
 
@@ -77,7 +77,7 @@ ht-degree: 14%
 
 1. 從清單中選擇XDM架構，然後按一下 **[!UICONTROL Fields]** 或 **[!UICONTROL Edit]** 表徵圖
 
-   ![](../assets/journey8.png)
+   ![](assets/journey8.png)
 
    將顯示架構中定義的所有欄位。 欄位清單因方案而異。 您可以搜索特定欄位，或使用篩選器顯示所有節點和欄位，或僅顯示選定欄位。 根據架構定義，某些欄位可能是必需的並且預先選定。 不能取消選擇它們。 預設情況下，對於要由行程正確接收的事件，必須選擇的所有欄位。
 
@@ -85,7 +85,7 @@ ht-degree: 14%
    >
    >對於系統生成的事件，請確保已將「業務流程」欄位組添加到XDM架構。 這將確保您的架構包含要使用的所有必需資訊 [!DNL Journey Optimizer]。
 
-   ![](../assets/journey9.png)
+   ![](assets/journey9.png)
 
 1. 選擇要從事件接收的欄位。 這些是業務用戶在旅途中將利用的欄位。 它們還必須包括用於標識與事件關聯的人員的密鑰(請參閱 [此部分](../event/about-creating.md#define-the-event-key))。
 
@@ -97,7 +97,7 @@ ht-degree: 14%
 
    所選欄位的數量顯示在 **[!UICONTROL Fields]** 的子菜單。
 
-   ![](../assets/journey12.png)
+   ![](assets/journey12.png)
 
 ## 選擇命名空間 {#select-the-namespace}
 
@@ -109,12 +109,12 @@ ht-degree: 14%
 
 選擇欄位時，將標籤主標識欄位。
 
-![](../assets/primary-identity.png)
+![](assets/primary-identity.png)
 
 
 從下拉清單中選擇一個命名空間。
 
-![](../assets/journey17.png)
+![](assets/journey17.png)
 
 每個行程只允許一個命名空間。 如果在同一行程中使用多個事件，則它們需要使用相同的命名空間。 請參閱[此頁面](../building-journeys/journey.md)。
 
@@ -128,17 +128,17 @@ ht-degree: 14%
 
 選擇欄位時，將標籤主標識欄位。
 
-![](../assets/primary-identity.png)
+![](assets/primary-identity.png)
 
 如果您需要使用其他密鑰，例如CRM ID或電子郵件地址，則需要手動添加：
 
 1. 在 **[!UICONTROL Profile identifier]** 表徵圖。
 
-   ![](../assets/journey16.png)
+   ![](assets/journey16.png)
 
 1. 在有效負載欄位清單中選擇作為鍵的欄位。 您還可以切換到高級表達式編輯器來建立更複雜的鍵（例如，兩個事件欄位的串聯）。 請參閱下面的本節。
 
-   ![](../assets/journey20.png)
+   ![](assets/journey20.png)
 
 當收到事件時，該鍵的值將允許系統標識與該事件關聯的人員。 與命名空間關聯(請參見 [此部分](../event/about-creating.md#select-the-namespace))，該鍵可用於對Adobe Experience Platform執行查詢。 請參閱[此頁面](../building-journeys/about-journey-activities.md#orchestration-activities)。鑰匙還用於檢查人是否在旅途中。 事實上，一個人不可能在同一旅程中處於兩個不同的位置。 因此，系統不允許相同的密鑰（例如，密鑰CRMID=3224）在相同行程的不同位置處。
 
@@ -154,11 +154,11 @@ ht-degree: 14%
 
 1. 按一下 **[!UICONTROL View Payload]** 表徵圖，預覽系統所需的負載。
 
-   ![](../assets/journey13.png)
+   ![](assets/journey13.png)
 
    您可以注意到，所選欄位將顯示。
 
-   ![](../assets/journey14.png)
+   ![](assets/journey14.png)
 
 1. 檢查預覽以驗證負載定義。
 

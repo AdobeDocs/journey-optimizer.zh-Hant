@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 1%
@@ -23,33 +23,33 @@ ht-degree: 1%
 
 設定事件的第一步 [!DNL Journey Optimizer] 是為了確保您定義了用於表示事件的XDM架構，並建立了用於記錄Adobe Experience Platform事件實例的資料集。 不一定需要為事件建立資料集，但將事件發送到特定資料集將允許您維護用戶的事件歷史記錄以供將來參考和分析，因此始終是個好主意。 如果您還沒有適合您事件的模式和資料集，則可以在Adobe Experience PlatformWeb介面中完成這兩項任務。
 
-![](../assets/schema1.png)
+![](assets/schema1.png)
 
 將用於 [!DNL Journey Optimizer] 事件應滿足以下要求：
 
 * 架構必須是XDM ExperienceEvent類。
 
-   ![](../assets/schema2.png)
+   ![](assets/schema2.png)
 
 * 對於系統生成的事件，架構必須包括Orchestration eventID欄位組。 [!DNL Journey Optimizer] 使用此欄位標識在行程中使用的事件。
 
-   ![](../assets/schema3.png)
+   ![](assets/schema3.png)
 
 * 聲明標識欄位以標識事件的主題。 如果未指定標識，則可以使用標識映射。 不建議採用此做法。
 
-   ![](../assets/schema4.png)
+   ![](assets/schema4.png)
 
 * 如果希望此資料稍後在「旅程」中可供查找，請將架構和資料集標籤為配置檔案。
 
-   ![](../assets/schema5.png)
+   ![](assets/schema5.png)
 
-   ![](../assets/schema6.png)
+   ![](assets/schema6.png)
 
 * 您可以自由地包括資料欄位，以捕獲您希望與事件一起包括的任何其他上下文資料，例如有關用戶、從中生成事件的設備、位置或與事件相關的任何其它有意義的情況的資訊。
 
-   ![](../assets/schema7.png)
+   ![](assets/schema7.png)
 
-   ![](../assets/schema8.png)
+   ![](assets/schema8.png)
 
 ## 利用結構描述關係{#leverage_schema_relationships}
 
@@ -61,11 +61,11 @@ Adobe Experience Platform允許定義架構之間的關係，以便將一個資�
 
 下面是為配置檔案啟用的產品目錄方案，其中產品ID定義為主標識。
 
-![](../assets/schema9.png)
+![](assets/schema9.png)
 
 下面是在產品ID欄位中定義的具有關係的採購方案。
 
-![](../assets/schema10.png)
+![](assets/schema10.png)
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Adobe Experience Platform允許定義架構之間的關係，以便將一個資�
 * 瀏覽事件配置螢幕中的事件模式欄位時。
 * 定義系統生成事件的條件時。
 
-![](../assets/schema11.png)
+![](assets/schema11.png)
 
 連結的欄位不可用：
 
@@ -100,7 +100,7 @@ Adobe Experience Platform允許定義架構之間的關係，以便將一個資�
 
 在旅程中添加條件，編輯表達式並在表達式編輯器中展開事件節點。
 
-![](../assets/schema12.png)
+![](assets/schema12.png)
 
 要瞭解如何定義行程條件，請參閱 [頁](../building-journeys/condition-activity.md)。
 
@@ -108,7 +108,7 @@ Adobe Experience Platform允許定義架構之間的關係，以便將一個資�
 
 當個性化消息時，連結欄位可用。 相關欄位顯示在從行程傳遞到消息的上下文中。
 
-![](../assets/schema14.png)
+![](assets/schema14.png)
 
 要瞭解如何使用上下文行程資訊個性化郵件，請參閱 [頁](../personalization/personalization-use-case.md)。
 
@@ -116,6 +116,6 @@ Adobe Experience Platform允許定義架構之間的關係，以便將一個資�
 
 在配置行程自定義操作活動的操作參數時，連結欄位可用。
 
-![](../assets/schema13.png)
+![](assets/schema13.png)
 
 要瞭解如何使用自定義操作，請參閱 [頁](../building-journeys/using-custom-actions.md)。

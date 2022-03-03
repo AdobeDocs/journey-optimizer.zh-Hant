@@ -5,7 +5,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 8%
@@ -20,7 +20,7 @@ ht-degree: 8%
 >
 >如果您的組織是新組織 [!DNL Adobe Journey Optimizer] 尚未建立活動配置檔案資料集或合併策略， **配置檔案** 儀表板不可見。 相反， **概述** 頁籤顯示指向Adobe Experience Platform文檔的連結，以幫助您開始使用即時客戶配置檔案。
 
-![](../assets/profiles-home.png)
+![](assets/profiles-home.png)
 
 瞭解如何訪問和使用 **配置檔案儀表板** 以及有關儀表板中顯示的度量的詳細資訊，請參閱 [此部分](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 

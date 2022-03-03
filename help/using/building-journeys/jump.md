@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 3%
@@ -70,16 +70,16 @@ ht-degree: 3%
 
 1. 設計 **起源**。
 
-   ![](../assets/jump1.png)
+   ![](assets/jump1.png)
 
 1. 在旅程的任何步驟中， **[!UICONTROL Jump]** 活動，從 **[!UICONTROL ACTIONS]** 的子菜單。 添加標籤和說明。
 
-   ![](../assets/jump2.png)
+   ![](assets/jump2.png)
 
 1. 在 **目標行程** 的子菜單。
 該清單顯示草稿、即時或處於test模式的所有行程版本。 使用不同命名空間或以 **段資格** 事件不可用。 也會過濾掉將建立循環模式的目標行程。
 
-   ![](../assets/jump3.png)
+   ![](assets/jump3.png)
 
    >[!NOTE]
    >
@@ -88,12 +88,12 @@ ht-degree: 3%
 1. 選擇要跳轉到的目標行程。
 的 **第一個事件** 欄位中預填目標旅程的第一個事件的名稱。 如果目標行程包括多個事件， **[!UICONTROL Jump]** 僅允許在第一個事件上。
 
-   ![](../assets/jump4.png)
+   ![](assets/jump4.png)
 
 1. 的 **操作參數** 部分顯示目標事件的所有欄位。 與其它類型的操作相同，使用源事件或資料源中的欄位映射每個欄位。 此資訊將在運行時傳遞到目標行程。
 1. 添加下一個活動以完成原點旅程。
 
-   ![](../assets/jump5.png)
+   ![](assets/jump5.png)
 
 
    >[!NOTE]
@@ -104,7 +104,7 @@ ht-degree: 3%
 
 當 **[!UICONTROL Jump]** 在行程中配置活動， **[!UICONTROL Jump]** 在目標行程的開始處自動添加條目表徵圖。 這有助於您確定行程可以從外部觸發，也可以從 **[!UICONTROL Jump]** 的子菜單。
 
-![](../assets/jump7.png)
+![](assets/jump7.png)
 
 ## 疑難排解
 
@@ -113,4 +113,4 @@ ht-degree: 3%
 * 目標行程為草稿、關閉或停止
 * 如果目標行程的第一個事件已更改，並且映射已中斷
 
-![](../assets/jump6.png)
+![](assets/jump6.png)

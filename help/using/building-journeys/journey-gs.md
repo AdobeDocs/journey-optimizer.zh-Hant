@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 7%
@@ -21,19 +21,19 @@ ht-degree: 7%
 
 1. **配置事件**:如果希望在收到事件時觸發整個行程，則需要配置事件。 定義預期資訊及其處理方法。 此步驟由&#x200B;**技術使用者**&#x200B;執行。[閱讀全文](../event/about-events.md)。
 
-   ![](../assets/jo-event7bis.png)
+   ![](assets/jo-event7bis.png)
 
 1. **建立段**:您的旅程還可以監聽Adobe Experience Platform段，以便將郵件批量發送到指定的一組配置檔案。 為此，需要建立段。 [閱讀全文](../segment/about-segments.md)。
 
-   ![](../assets/segment2.png)
+   ![](assets/segment2.png)
 
 1. **配置資料源**:您可以定義到系統的連接，以檢索將在您的行程中使用的附加資訊，例如在您的條件中。 佈建時也會設定內建的 Adobe Experience Platform 資料來源。如果您只會運用歷程中事件的資料，則不需要執行此步驟。此步驟由&#x200B;**技術使用者**&#x200B;執行。[閱讀全文](../datasource/about-data-sources.md)
 
-   ![](../assets/jo-datasource.png)
+   ![](assets/jo-datasource.png)
 
 1. **配置操作**:Journey Optimizer郵件功能是內置的，您只需設計內容並發佈郵件即可。 請參閱[本節](../messages/get-started-content.md)。如果您使用第三方系統發送消息，則可以建立自定義操作。 瞭解更多資訊 [節](../action/action.md)。 此步驟由&#x200B;**技術使用者**&#x200B;執行。
 
-   ![](../assets/create-content-push.png)
+   ![](assets/create-content-push.png)
 
 ## 構建您的旅程{#jo-build}
 
@@ -43,17 +43,17 @@ ht-degree: 7%
 
 1. 在「行程管理」(JOURNEY MANAGEMENT)菜單部分，按一下 **[!UICONTROL Journeys]**。 將顯示行程清單。
 
-   ![](../assets/interface-journeys.png)
+   ![](assets/interface-journeys.png)
 
 1. 按一下 **[!UICONTROL Create Journey]** 創造新的旅程。
 
 1. 在右側顯示的設定窗格中，編輯歷程的屬性。瞭解更多資訊 [節](journey-gs.md#change-properties)。
 
-   ![](../assets/jo-properties.png)
+   ![](assets/jo-properties.png)
 
 1. 通過拖放事件或 **讀取段** 活動從元件面板到畫布。 要瞭解有關行程設計的詳細資訊，請參閱 [此部分](using-the-journey-designer.md)。
 
-   ![](../assets/read-segment.png)
+   ![](assets/read-segment.png)
 
 1. 拖放個人將遵循的後續步驟。 例如，可以添加一個條件，然後添加一條消息。 要瞭解有關活動的詳細資訊，請參閱 [此部分](using-the-journey-designer.md)。
 
@@ -61,11 +61,11 @@ ht-degree: 7%
 
 1. 發佈您的行程以激活它。 瞭解更多資訊 [節](publishing-the-journey.md)。
 
-   ![](../assets/jo-journeyuc2_32bis.png)
+   ![](assets/jo-journeyuc2_32bis.png)
 
 1. 使用專用報告工具監控您的旅程，以衡量您的旅程的效果。 瞭解更多資訊 [節](../reports/live-report.md)。
 
-   ![](../assets/jo-dynamic_report_journey_12.png)
+   ![](assets/jo-dynamic_report_journey_12.png)
 
 ## 變更屬性 {#change-properties}
 
@@ -77,7 +77,7 @@ ht-degree: 7%
 
 的 **複製技術詳細資訊** 允許您複製支援團隊用於故障排除的旅程的技術資訊。 將複製以下資訊：JourneyVersion UID、OrgID、orgName、sandboxName、lastDeployedBy、lastDeployedAt。
 
-![](../assets/journey32.png)
+![](assets/journey32.png)
 
 ### 入口{#entrance}
 
@@ -133,11 +133,11 @@ ht-degree: 7%
 
 要激活「拆分」模式，請開啟行程並按一下右上角的鉛筆表徵圖，以訪問行程的屬性。 然後，激活 **啟用拆分模式** 切換。
 
-![](../assets/burst.png)
+![](assets/burst.png)
 
 如果修改突發行程並添加與突發不符的活動（消息、任何其他操作、事件等），突發模式將被停用。 將顯示一條消息。
 
-![](../assets/burst2.png)
+![](assets/burst2.png)
 
 然後test並正常發佈你的旅程。 Test模式消息不通過突發模式發送。
 
@@ -178,14 +178,14 @@ ht-degree: 7%
 
 要從旅程清單中關閉行程，請按一下 **[!UICONTROL Ellipsis]** 按鈕，選擇 **[!UICONTROL Close to new entrances]**。
 
-![](../assets/journey-finish-quick-action.png)
+![](assets/journey-finish-quick-action.png)
 
 您也可以：
 
 1. 在 **[!UICONTROL Journeys]** 清單中，按一下要關閉的行程。
 1. 在右上角，按一下向下箭頭。
 
-   ![](../assets/finish_drop_down_list.png)
+   ![](assets/finish_drop_down_list.png)
 
 1. 按一下「**[!UICONTROL Close to new entrances]**」。對話方塊隨即顯示。
 1. 按一下 **[!UICONTROL Close to new entrances]** 確認。
@@ -200,14 +200,14 @@ ht-degree: 7%
 
 例如，如果營銷人員意識到此行程針對的是錯誤的受眾，或者傳遞消息的自定義操作不能正常工作，您就可以停止此行程。 要停止從行程清單中的行程，請按一下 **[!UICONTROL Ellipsis]** 按鈕，選擇 **[!UICONTROL Stop]**。
 
-![](../assets/journey-finish-quick-action.png)
+![](assets/journey-finish-quick-action.png)
 
 您也可以：
 
 1. 在 **[!UICONTROL Journeys]** 清單中，按一下要停止的行程。
 1. 在右上角，按一下向下箭頭。
 
-![](../assets/finish_drop_down_list.png)
+![](assets/finish_drop_down_list.png)
 
 1. 按一下「**[!UICONTROL Stop]**」。對話方塊隨即顯示。
 1. 按一下 **[!UICONTROL Stop]** 確認。

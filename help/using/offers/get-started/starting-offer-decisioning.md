@@ -6,8 +6,8 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
-workflow-type: ht
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 * **集中式優惠資料庫**&#x200B;是您建立和管理不同元素的介面，這些元素會組成優惠，並定義其規則和限制。
 * **優惠決定引擎**&#x200B;運用 Adobe Experience Platform 資料、即時客戶設定檔以及優惠資料庫，以選擇即將提供優惠的適當時間、客戶和管道。
 
-![](../../assets/architecture.png)
+![](../assets/architecture.png)
 
 效益包括：
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 它是使用&#x200B;**優惠資料庫**&#x200B;所建立，提供集中式的優惠目錄，讓您可利用適用規則和限制與多項內容連結，以建立和發佈優惠 (請參閱[優惠資料庫使用者介面](../get-started/user-interface.md))。
 
-![](../../assets/offer_structure.png)
+![](../assets/offer_structure.png)
 
 一旦優惠資料庫已有足夠豐富的優惠方案，您可以將優惠整合到&#x200B;**決定**&#x200B;中 (此前名為「優惠活動」)。
 
@@ -54,11 +54,11 @@ ht-degree: 100%
 
 * 在您網站首頁顯示的優惠方案，將會根據 Adobe Experience Platform 的資料以符合造訪客戶的興趣。
 
-   ![](../../assets/website.png)
+   ![](../assets/website.png)
 
 * 如果客戶靠近某家商店，請傳送推播通知，可依其屬性 (忠誠度、性別、之前的購物內容……) 提醒他們可使用的優惠方案。
 
-   ![](../../assets/push_sample.png)
+   ![](../assets/push_sample.png)
 
 * 決定管理也可協助您在聯絡支援團隊時增強客戶體驗。 API 可讓您在呼叫中心代理的入口網站中顯示客戶的兌換資訊，以及下一個最佳優惠。
 

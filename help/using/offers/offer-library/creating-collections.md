@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 可以在 **[!UICONTROL Offers]** 的子菜單。
 
-![](../../assets/collections_list.png)
+![](../assets/collections_list.png)
 
 可以建立兩種類型的集合：
 
@@ -35,17 +35,17 @@ ht-degree: 3%
 
 1. 指定要建立的集合的名稱和類型。
 
-   ![](../../assets/collection_create.png)
+   ![](../assets/collection_create.png)
 
 1. 要建立動態集合，請使用左窗格選擇要添加到集合中的優惠的標籤，然後按一下 **[!UICONTROL Save]**。 所有包含選定標籤的優惠都將保存在集合中。
 
    有關建立標籤的詳細資訊，請參見 [建立標籤](../offer-library/creating-tags.md)。
 
-   ![](../../assets/dynamic_collection.png)
+   ![](../assets/dynamic_collection.png)
 
 1. 要建立靜態集合，請使用左窗格篩選聘用清單（狀態、標籤、日期、渠道、內容類型），然後選擇要添加到集合中的聘用。
 
-   ![](../../assets/static_collection.png)
+   ![](../assets/static_collection.png)
 
    >[!NOTE]
    >
@@ -53,7 +53,7 @@ ht-degree: 3%
 
 1. 建立集合後，該集合將顯示在清單中。 您可以選擇它來編輯或刪除它。
 
-   ![](../../assets/collection_created.png)
+   ![](../assets/collection_created.png)
 
 ## 教程視頻 {#video}
 

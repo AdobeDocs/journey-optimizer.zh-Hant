@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 59272469ef0ea5cc43c553bab72236b89a76c643
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 您可以直接通過 **[!UICONTROL Global report]** 按鈕
 
-![](../assets/global_report_1.png)
+![](assets/global_report_1.png)
 
 旅程 **[!UICONTROL Global report]** 的子菜單。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 從你的旅程 **[!UICONTROL Global report]**，也請參見Wiki頁。 **[!UICONTROL Journey]** 頁籤可讓您清楚地查看有關行程的最重要跟蹤資料。
 
-![](../assets/global_report_2.png)
+![](assets/global_report_2.png)
 
 的 **[!UICONTROL Journey Performance]** 構件允許您逐步查看目標配置檔案的路徑。
 
@@ -43,11 +43,11 @@ ht-degree: 0%
 
 * **[!UICONTROL Failed individual journey]**:未成功執行的單個行程的總數。
 
-![](../assets/global_report_12.png)
+![](assets/global_report_12.png)
 
 的 **[!UICONTROL Events received by event]**。 **[!UICONTROL Events by origin]** 和 **[!UICONTROL Top events]** 小部件可讓您查看 **[!UICONTROL Events]** 已通過圖形和表成功執行。
 
-![](../assets/global_report_13.png)
+![](assets/global_report_13.png)
 
 **[!UICONTROL Action Performance]**。 **[!UICONTROL Action Error Reasons]** 和 **[!UICONTROL Top Actions]** 小部件代表您在 **[!UICONTROL Actions]** 觸發。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 有關特定電子郵件傳遞的詳細報告，請參閱 [電子郵件全局報告](#email-global-report) 的子菜單。
 
-![](../assets/global_report_14.png)
+![](assets/global_report_14.png)
 
 的 **[!UICONTROL Email Sending Statistics]** 圖表詳細說明了您交付的成功：
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Errors]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
 
-![](../assets/global_report_15.png)
+![](assets/global_report_15.png)
 
 的 **[!UICONTROL Bounce Reasons]** 和 **[!UICONTROL Bounce categories]** 小部件包含與已恢復消息相關的可用資料，如：
 
@@ -119,19 +119,19 @@ ht-degree: 0%
 
 有關退貨的詳細資訊，請參閱 [隱藏清單](../messages/suppression-list.md) 的子菜單。
 
-![](../assets/global_report_22.png)
+![](assets/global_report_22.png)
 
 的 **[!UICONTROL Error Reasons]** 圖形和表格允許您查看在交付期間發生的錯誤。
 
 的 **[!UICONTROL Excluded reasons]** 圖形和表顯示阻止從目標配置檔案中排除的用戶配置檔案接收消息的不同原因。
 
-![](../assets/global_report_16.png)
+![](assets/global_report_16.png)
 
 的 **[!UICONTROL Email - Top Url]** 圖表和表詳細資訊，您傳遞的URL訪問量最大。
 
 的 **[!UICONTROL Email - Top recipient domain]** 圖表和表詳細資訊，哪些域是收件人開啟電子郵件時最常用的域。
 
-![](../assets/global_report_23.png)
+![](assets/global_report_23.png)
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ ht-degree: 0%
 * **[!UICONTROL Bounces]**:在傳遞和自動返回處理期間累積的與已發送消息總數有關的錯誤總數。
 
 <!--
-![](../assets/global_report_21.png)
+![](assets/global_report_21.png)
 
 >[!NOTE]
 >
@@ -182,7 +182,7 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 
 有關特定推送交付的詳細報告，請參閱 [推送全局報告](#push-global-report)。
 
-![](../assets/global_report_17.png)
+![](assets/global_report_17.png)
 
 的 **[!UICONTROL Push notification - Sending statistics]** 表詳細列出了與使用圖表和KPI的推送通知相關的主要資訊：
 
@@ -239,10 +239,10 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 * **[!UICONTROL Delivered]**:成功發送的消息數，與已發送的消息總數相關。
 * **[!UICONTROL Bounces]**:在傳遞和自動返回處理期間累積的與已發送消息總數有關的錯誤總數。
 
-![](../assets/global_report_18.png)
+![](assets/global_report_18.png)
 
 的 **[!UICONTROL Error Reasons]** 圖形和表格允許您查看在交付期間發生的錯誤。
 
-![](../assets/global_report_19.png)
+![](assets/global_report_19.png)
 
 的 **[!UICONTROL Tracking by platform]**。 **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 圖表和表格根據收件人的作業系統詳細說明推送通知的成功。

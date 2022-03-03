@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: 5d9a729c58cda2dd2600f2076a460f78d21641f8
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 >
 >簡單表達式編輯器中也提供行程屬性屬性。 查看 [節](../condition-activity.md#about_condition)
 
-![](../../assets/journey-properties.png)
+![](../assets/journey-properties.png)
 
 您將找到有關以下資訊的資訊：
 

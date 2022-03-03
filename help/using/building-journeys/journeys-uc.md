@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 本節介紹了一個將「讀取段」、事件、反應事件和電子郵件/推送消息組合在一起的使用案例。
 
-![](../assets/jo-uc1.png)
+![](assets/jo-uc1.png)
 
 ## 用例說明
 
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 1. 按一下「**[!UICONTROL Save]**」。
 
-   ![](../assets/add-attributes.png)
+   ![](assets/add-attributes.png)
 
 此段現已建立，並準備在您的旅途中使用。 使用 **讀取段** 活動，您可以使屬於該段的所有人員進入行程。
 
@@ -77,7 +77,7 @@ ht-degree: 2%
 
 1. 按一下「**[!UICONTROL Save]**」。
 
-   ![](../assets/jo-uc2.png)
+   ![](assets/jo-uc2.png)
 
 該事件現在已配置並準備在您的旅途中使用。 使用相應的事件活動，您可以在客戶每次購買時觸發活動。
 
@@ -89,7 +89,7 @@ ht-degree: 2%
 * 推送「謝謝」資訊
 * 電子郵件跟進消息
 
-![](../assets/jo-uc3.png)
+![](assets/jo-uc3.png)
 
 請參閱此 [節](../segment/about-segments.md) 瞭解如何設計和發佈這些消息。
 
@@ -97,11 +97,11 @@ ht-degree: 2%
 
 1. 從一個 **讀取段** 的子菜單。 選擇以前建立的段。 屬於該段的所有個人均進入該行程。
 
-   ![](../assets/jo-uc4.png)
+   ![](assets/jo-uc4.png)
 
 1. 刪除 **消息** 的子郵件。 此消息將發送給旅途中的所有人。
 
-   ![](../assets/jo-uc5.png)
+   ![](assets/jo-uc5.png)
 
 1. 將游標置於消息活動上，然後按一下「+」符號以建立新路徑。
 
