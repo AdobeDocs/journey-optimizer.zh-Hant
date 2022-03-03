@@ -7,46 +7,14 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: bf9b555d717fe8b6d1e9500ba0a97eaea243dd7f
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 3%
+source-wordcount: '620'
+ht-degree: 5%
 
 ---
 
-# AI 排名 {#ai-rankings}
-
-## 開始AI排名 {#get-started-with-ai-rankings}
-
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use a trained model system that ranks offers to display for a given profile.
-
->[!CAUTION]
->
->AI排名的使用目前僅在選擇用戶的早期訪問中可用。
-
-此功能使您能夠建立不同的 **排序策略** 根據你的業務目標。 在決策中使用這些不同的基於目標的策略（以前稱為「服務活動」），經過培訓的模型系統將幫助您瞭解不同的排名策略如何影響您的目標。
-
-例如，您可以為電子郵件通道選擇一個排名策略，為推送通道選擇另一個排名策略。 對於每個渠道，經過培訓的模型系統將利用多個資料點來確定在給定位置應首先提供哪個優惠，而不是考慮優惠的優先順序分數或 [排序公式](create-ranking-formulas.md)。
-
-<!--This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.-->
-
-一旦建立了排名策略，就將其分配給決策中的位置。 瞭解詳情 [在決策中配置服務選擇](../offer-activities/configure-offer-selection.md)。
-
-### 自動優化模型 {#auto-optimization}
-
-當前 [!DNL Journey Optimizer] AI排名唯一支援的模型類型是 **自動優化**。
-
-自動優化模型旨在根據您設定的關鍵績效指標(KPI)，提供可實現最大回報的服務。 <!--These KPIs could be in the form of conversion rates, revenue, etc.-->此時，自動優化將重點放在優化服務點擊，以服務轉換為目標。
-
->[!NOTE]
->
->自動優化模型不使用任何上下文或用戶配置檔案資料。 它根據產品的全球效能來優化結果。
-
-在自動優化中，挑戰在於平衡探索性學習和探索性學習。 這個原則被稱為 **&quot;多武強盜&quot;**。
-
-為應對此挑戰，自動優化模型使用 **湯普森抽樣** 方法，允許確定追求哪個選項以最大化預期回報。 換句話說，Thompson Sampling是一種強化學習技術，用於解決多武裝盜賊問題中的探索開發難題。
-
-Thompson抽樣方法還能夠處理諸如&quot;冷啟動&quot;問題等挑戰，即當在活動中引入新報價時，它沒有任何可以從中培訓的歷史。
+# 建立AI模型 {#ai-rankings}
 
 ## 建立排名策略 {#create-ranking-strategy}
 
@@ -66,7 +34,7 @@ Thompson抽樣方法還能夠處理諸如&quot;冷啟動&quot;問題等挑戰，
 
    * **[!UICONTROL Name]**:必須提供的唯一名稱。
 
-   * **[!UICONTROL Model type]**:當前唯一支援的模型類型是 **[!UICONTROL Auto-optimization]**。<!--More will be supported in the future so the drop-down list will be enabled.-->
+   * **[!UICONTROL Model type]**:當前 [!DNL Journey Optimizer] 唯一支援的模型類型是 **[!UICONTROL Auto-optimization]**。 [了解更多](ai-ranking.md#auto-optimization)
 
    * **[!UICONTROL Optimization metric]**：
 

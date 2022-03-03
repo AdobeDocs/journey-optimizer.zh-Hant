@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
+source-git-commit: f2267f82453cc00be86f1a279496aaf4e9218c5f
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 99%
+source-wordcount: '922'
+ht-degree: 98%
 
 ---
 
@@ -244,7 +244,9 @@ ht-degree: 99%
       + [建立決定規則](using/offers/offer-library/creating-decision-rules.md)
       + [建立標籤](using/offers/offer-library/creating-tags.md)
       + [建立排名公式](using/offers/offer-library/create-ranking-formulas.md)
-      + [建立排名策略](using/offers/offer-library/create-ranking-strategies.md)
+      + 建立AI排名模型 {#create-ai-ranking-models}
+         + [關於AI模型](using/offers/offer-library/ai-ranking.md)
+         + [建立AI模型](using/offers/offer-library/create-ranking-strategies.md)
    + 建立和管理優惠 {#managing-offers-in-the-offer-library}
       + [建立個人化優惠](using/offers/offer-library/creating-personalized-offers.md)
       + [建立遞補優惠](using/offers/offer-library/creating-fallback-offers.md)
