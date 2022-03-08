@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: 32113acec8df619efc024e555766cbf532720529
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '615'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,14 @@ ht-degree: 3%
 * 無法將附件添加到具有 [!DNL Journey Optimizer]。
 * 中不支援電子郵件密件抄送 [!DNL Journey Optimizer]。
 * 不能使用同一發送域從 [!DNL Adobe Journey Optimizer] 和其他產品，比如 [!DNL Adobe Campaign] 或 [!DNL Adobe Marketo Engage] 例如。
+
+## 登錄頁的限制 {#limitations-lp}
+
+* 只有一個 **窗體** 可在單個首頁中使用元件。
+* 的 **窗體** 不能在子頁中使用元件。
+* 不能向登錄頁添加前標。
+
+<!--You cannot select the **Code your own** option when designing a primary landing page.-->
 
 ## 旅程限制 {#limitations-journeys}
 
