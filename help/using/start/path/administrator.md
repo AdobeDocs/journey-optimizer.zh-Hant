@@ -3,7 +3,7 @@ title: Journey Optimizer系統管理入門
 description: 作為系統管理員，瞭解如何與Journey Optimizer合作
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: a20bf3aa869ce73805c63323ac36e5d86a44746e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -56,16 +56,16 @@ ht-degree: 2%
 
 1. **委託子域**:對於在Journey Optimizer使用的任何新子域，第一步是將其委派。 [了解更多](../../configuration/about-subdomain-delegation.md)
 
-   ![](../assets/subdomain.png)
+   ![](../../assets/subdomain.png)
 
 1. **建立IP池**:通過將隨實例配置的IP地址組合在一起，提高電子郵件的可傳遞性和信譽。 [了解更多](../../configuration/ip-pools.md)
 
-   ![](../assets/ip-pool.png)
+   ![](../../assets/ip-pool.png)
 
 1. **管理禁止顯示和允許清單**:通過抑制和允許清單提高交付能力
 
    * A [隱藏清單](../../messages/suppression-list.md) 包含您要從交貨中排除的電子郵件地址，因為發送到這些聯繫人可能會損害您的發送信譽和交貨率。 您可以監視在途中自動被排除在發送之外的所有電子郵件地址，如無效地址、始終軟反彈的地址，以及可能對您的電子郵件信譽產生負面影響的地址，以及針對您的某封郵件發出某種垃圾郵件投訴的收件人。 瞭解如何管理 [隱藏清單](../../configuration/manage-suppression-list.md) 和 [重試](../../configuration/retries.md)。
-   ![](../assets/suppression-list-filtering-example.png)
+   ![](../../assets/suppression-list-filtering-example.png)
 
    * 的 [允許的清單](../../messages/allow-list.md) 允許您指定單個電子郵件地址或域，這些地址或域將是唯一有權接收您從特定沙箱發送的電子郵件的收件人或域。 這可以防止您在測試環境中意外地將電子郵件發送到真實的客戶地址。 瞭解如何 [啟用允許的清單](../../messages/allow-list.md)。
    瞭解有關中的可交付性管理的詳細資訊 [!DNL Adobe Journey Optimizer] [此頁](../../messages/deliverability.md)。

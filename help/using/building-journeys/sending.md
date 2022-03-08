@@ -1,7 +1,7 @@
 ---
 title: 開始行程執行
 description: 瞭解如何開始您的旅程併發送消息
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 3%
@@ -21,14 +21,14 @@ ht-degree: 3%
 
 您必須發佈您的行程以激活它。
 
-![](assets/jo-journeyuc2_32bis.png)
+![](../assets/jo-journeyuc2_32bis.png)
 
 瞭解更多資訊 [節](publishing-the-journey.md)。
 
 
 發佈後，您可以使用專用報告工具監控您的行程，以衡量您的行程的有效性。
 
-![](assets/jo-dynamic_report_journey_12.png)
+![](../assets/jo-dynamic_report_journey_12.png)
 
 [瞭解有關報告的詳細資訊](../reports/live-report.md)
 
@@ -52,7 +52,7 @@ ht-degree: 3%
 
 1. 按一下 **[!UICONTROL Edit journey schedule]** 連結以訪問旅程的屬性。
 
-   ![](assets/message-read-segment-schedule.png)
+   ![](../assets/message-read-segment-schedule.png)
 
 1. 配置 **[!UICONTROL Scheduler type]** 欄位：從清單中選擇所需值，使段按特定日期/時間或循環基準輸入行程。
 
@@ -60,15 +60,15 @@ ht-degree: 3%
    >
    >的 **[!UICONTROL Schedule]** 只有在 **[!UICONTROL Read Segment]** 活動已放入畫布。
 
-   ![](assets/message-read-segment-scheduler.png)
+   ![](../assets/message-read-segment-scheduler.png)
 
 1. 如果選擇 **[!UICONTROL Once]**，定義段將輸入行程的特定日期和時間。
 
-   ![](assets/message-read-segment-scheduler-once.png)
+   ![](../assets/message-read-segment-scheduler-once.png)
 
 1. 如果選擇循環方法，請編輯開始日期和時間。 您還可以定義可選的結束日期和時間。
 
-   ![](assets/message-read-segment-scheduler-daily.png)
+   ![](../assets/message-read-segment-scheduler-daily.png)
 
    >[!NOTE]
    >

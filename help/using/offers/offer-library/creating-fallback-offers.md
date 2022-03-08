@@ -5,7 +5,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 3%
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 可在 **[!UICONTROL Offers]** 的子菜單。
 
-![](../assets/offers_list.png)
+![](../../assets/offers_list.png)
 
 要建立備用優惠，請執行以下步驟：
 
@@ -30,27 +30,27 @@ ht-degree: 3%
 
 1. 按一下 **[!UICONTROL Create offer]**，然後選擇 **[!UICONTROL Fallback offer]**。
 
-   ![](../assets/create_fallback.png)
+   ![](../../assets/create_fallback.png)
 
 1. 指定回退優惠的名稱。 您還可以將一個或多個現有標籤與其關聯，從而更輕鬆地搜索和組織「優惠庫」。
 
-   ![](../assets/fallback_details.png)
+   ![](../../assets/fallback_details.png)
 
 1. 為回退要約建立一個或多個表述。 為此，請從左窗格中拖放放置內容，如建立個性化優惠時。 請參閱 [建立個性化服務](../offer-library/creating-personalized-offers.md)。
 
-   ![](../assets/fallback_content.png)
+   ![](../../assets/fallback_content.png)
 
 1. 在添加回退要約的表示形式後，將顯示一個摘要。 如果所有配置都正確，並且您的備用優惠已準備好提供給客戶，請按一下 **[!UICONTROL Finish]**，然後選擇 **[!UICONTROL Save and approve]**。
 
    您還可以將備用優惠另存為草稿，以便稍後編輯和批准。
 
-   ![](../assets/fallback_review.png)
+   ![](../../assets/fallback_review.png)
 
 1. 回退優惠顯示在清單中， **[!UICONTROL Live]** 或 **[!UICONTROL Draft]** 狀態，具體取決於您在上一步中是否批准了它。
 
    現已準備好交付給客戶。 可以選擇它以顯示其屬性並對其進行編輯。 <!-- no suppression? -->
 
-   ![](../assets/fallback_created.png)
+   ![](../../assets/fallback_created.png)
 
 ## 教程視頻 {#video}
 

@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: bf9b555d717fe8b6d1e9500ba0a97eaea243dd7f
+source-git-commit: dcadbbcf8b2cd8422a189b8d02f222f32dd12c54
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 5%
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 1. 訪問 **[!UICONTROL Components]** ，然後選擇 **[!UICONTROL AI rankings]** 頁籤。
 
-   ![](../assets/ai-ranking-list.png)
+   ![](../../assets/ai-ranking-list.png)
 
    列出了目前建立的所有排名策略。
 
@@ -30,7 +30,7 @@ ht-degree: 5%
 
 1. 填寫以下欄位：
 
-   ![](../assets/ai-ranking-fields.png)
+   ![](../../assets/ai-ranking-fields.png)
 
    * **[!UICONTROL Name]**:必須提供的唯一名稱。
 
@@ -52,7 +52,7 @@ ht-degree: 5%
 
    * **[!UICONTROL Dataset ID]**:要進行轉換，您需要提供一個資料集，通過從下拉清單中選擇該資料集來收集事件。 瞭解如何在 [此部分](#create-dataset)。 <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
-   ![](../assets/ai-ranking-dataset-id.png)
+   ![](../../assets/ai-ranking-dataset-id.png)
 
    >[!CAUTION]
    >
@@ -60,7 +60,7 @@ ht-degree: 5%
 
 1. 保存並激活排名策略。
 
-   ![](../assets/ai-ranking-save-activate.png)
+   ![](../../assets/ai-ranking-save-activate.png)
 
 現在，它已準備好用於對合格的職位安排進行排名的決定。 瞭解詳情 [此部分](../offer-activities/configure-offer-selection.md#use-ranking-strategy)。<!--TBC?-->
 
@@ -70,11 +70,11 @@ ht-degree: 5%
 
 1. 從 **[!UICONTROL Data Management]** 菜單，選擇 **[!UICONTROL Schema]**，轉到 **[!UICONTROL Browse]** 頁籤 **[!UICONTROL Create schema]**。
 
-   ![](../assets/ai-ranking-create-schema.png)
+   ![](../../assets/ai-ranking-create-schema.png)
 
 1. 選擇 **[!UICONTROL XDM ExperienceEvent]**。
 
-   ![](../assets/ai-ranking-xdm-event.png)
+   ![](../../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ ht-degree: 5%
 
 1. 在 **[!UICONTROL Search]** 欄位，鍵入「命題交互」並選擇 **[!UICONTROL Experience Event - Proposition Interactions]** 欄位組。
 
-   ![](../assets/ai-ranking-proposition-interactions.png)
+   ![](../../assets/ai-ranking-proposition-interactions.png)
 
    >[!CAUTION]
    >
@@ -91,7 +91,7 @@ ht-degree: 5%
 
 1. 按一下「**[!UICONTROL Add field groups]**」。
 
-   ![](../assets/ai-ranking-add-field-group.png)
+   ![](../../assets/ai-ranking-add-field-group.png)
 
    >[!NOTE]
    >欄位組以前稱為mixin。
@@ -106,21 +106,21 @@ ht-degree: 5%
 
 1. 從 **[!UICONTROL Data Management]** 菜單，選擇 **[!UICONTROL Datasets]**，轉到 **[!UICONTROL Browse]** 頁籤 **[!UICONTROL Create dataset]**。
 
-   ![](../assets/ai-ranking-create-dataset.png)
+   ![](../../assets/ai-ranking-create-dataset.png)
 
 1. 選擇「**[!UICONTROL Create dataset from schema]**」。
 
-   ![](../assets/ai-ranking-create-dataset-from-schema.png)
+   ![](../../assets/ai-ranking-create-dataset-from-schema.png)
 
 1. 從清單中選擇剛建立的架構。
 
-   ![](../assets/ai-ranking-dataset-select-schema.png)
+   ![](../../assets/ai-ranking-dataset-select-schema.png)
 
 1. 按一下「**[!UICONTROL Next]**」。
 
 1. 為中的資料集提供唯一名稱 **[!UICONTROL Name]** 按一下 **[!UICONTROL Finish]**。
 
-   ![](../assets/ai-ranking-dataset-name.png)
+   ![](../../assets/ai-ranking-dataset-name.png)
 
 該資料集現在已準備好在 [建立排名策略](#create-ranking-strategy)。
 

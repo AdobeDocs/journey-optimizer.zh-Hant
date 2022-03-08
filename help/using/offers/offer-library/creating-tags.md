@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 5%
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 可在 **[!UICONTROL Components]** 的子菜單。
 
-![](../assets/tags_list.png)
+![](../../assets/tags_list.png)
 
 要建立標籤，請執行以下步驟：
 
@@ -31,11 +31,11 @@ ht-degree: 5%
 
 1. 指定標籤的名稱，然後按一下 **[!UICONTROL Save]**。
 
-   ![](../assets/tags_create.png)
+   ![](../../assets/tags_create.png)
 
 1. 建立標籤後，該標籤將顯示在清單中。 可以選擇它以顯示其屬性並編輯或隱藏它。
 
-   ![](../assets/tags_created.png)
+   ![](../../assets/tags_created.png)
 
 ## 教程視頻 {#video}
 

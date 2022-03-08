@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
-source-git-commit: 87b8056d26fe91a71e92ca346a9811c609d41128
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 10%
+source-wordcount: '75'
+ht-degree: 16%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 10%
 | 參數 | 類型 |
 |-----------|--------------|
 | 基礎 | 字串 |
-| Target | 字串(RegExp) |
+| Target | 字串 |
 | 替換 | 字串 |
 
 ## 簽名和返回的類型
@@ -41,10 +41,8 @@ ht-degree: 10%
 
 返回字串。
 
-## 範例{#example}
+## 範例
 
 `replaceAll("Hello World", "l", "x")`
 
 返回&quot;Hexxo Worxd&quot;。
-
-由於目標參數是RegExp，因此您可能需要轉義一些字元，具體取決於要替換的字串。 請參閱中的示例 [此頁](../functions/functionreplace.md#example_2)。

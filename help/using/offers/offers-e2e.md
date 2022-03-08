@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 5%
@@ -57,7 +57,7 @@ ht-degree: 5%
 
 在電子郵件中使用優惠的總體決策管理流程可描述如下：
 
-![](assets/offers-e2e-process.png)
+![](../assets/offers-e2e-process.png)
 
 ## 定義元件 {#define-components}
 
@@ -75,7 +75,7 @@ ht-degree: 5%
    * *電子郵件 — 映像*
    * *非數字 — 文本*
 
-   ![](assets/offers-e2e-placements.png)
+   ![](../assets/offers-e2e-placements.png)
 
    有關建立放置的詳細步驟，請參見 [此部分](../../using/offers/offer-library/creating-placements.md)。
 
@@ -88,7 +88,7 @@ ht-degree: 5%
    * *女性客戶*
    * *男性客戶*
 
-   ![](assets/offers-e2e-rules.png)
+   ![](../assets/offers-e2e-rules.png)
 
    有關建立規則的詳細步驟，請參見 [此部分](../../using/offers/offer-library/creating-decision-rules.md)。
 
@@ -98,7 +98,7 @@ ht-degree: 5%
 
    在此示例中，建立 *瑜伽* 標籤。
 
-   ![](assets/offers-e2e-tag.png)
+   ![](../assets/offers-e2e-tag.png)
 
    有關建立標籤的詳細步驟，請參見 [此部分](../../using/offers/offer-library/creating-tags.md)。
 
@@ -130,17 +130,17 @@ ht-degree: 5%
 
 1. 為前兩個放置選擇適當的影像。 為 *非數字 — 文本* 的下界。
 
-   ![](assets/offers-e2e-representations.png)
+   ![](../assets/offers-e2e-representations.png)
 
 1. 在 **[!UICONTROL Offer eligibility]** 選擇 **[!UICONTROL By defined decision rule]** 拖放你選擇的規則。
 
-   ![](assets/offers-e2e-eligibility.png)
+   ![](../assets/offers-e2e-eligibility.png)
 
 1. 填寫 **[!UICONTROL Priority]**。 在此示例中，添加 *25*。
 
 1. 查看您的服務，然後按一下 **[!UICONTROL Save and approve]**。
 
-   ![](assets/offers-e2e-review.png)
+   ![](../assets/offers-e2e-review.png)
 
 1. 在本示例中，使用相同的表示法建立另外三個產品，但不同的資產。 使用不同的規則和優先順序分配它們，例如：
 
@@ -149,7 +149,7 @@ ht-degree: 5%
    * 第三項服務 — 決策規則： *男性客戶*，優先順序： *25*
    * 第四項服務 — 決策規則： *男性客戶*，優先順序： *15*
 
-   ![](assets/offers-e2e-offers-created.png)
+   ![](../assets/offers-e2e-offers-created.png)
 
 有關建立和配置服務的詳細步驟，請參見 [此部分](../../using/offers/offer-library/creating-personalized-offers.md)。
 
@@ -165,11 +165,11 @@ ht-degree: 5%
    * 對應於 *電子郵件 — 映像* 放置
    * 對應於 *非數字 — 文本* 放置
 
-   ![](assets/offers-e2e-fallback-representations.png)
+   ![](../assets/offers-e2e-fallback-representations.png)
 
 1. 查看備用優惠，然後按一下 **[!UICONTROL Save and approve]**。
 
-![](assets/offers-e2e-fallback.png)
+![](../assets/offers-e2e-fallback.png)
 
 您的備用優惠現已準備好用於決策。
 
@@ -183,7 +183,7 @@ ht-degree: 5%
 
 1. 使用 *瑜伽* 標籤以選擇您先前建立的四個個性化優惠。
 
-   ![](assets/offers-e2e-collection-using-tag.png)
+   ![](../assets/offers-e2e-collection-using-tag.png)
 
 有關建立集合的詳細步驟，請參見 [此部分](../../using/offers/offer-library/creating-collections.md)。
 
@@ -199,11 +199,11 @@ ht-degree: 5%
 
 1. 選擇 *Web — 影像*。 *電子郵件 — 映像* 和 *非數字 — 文本* 的下界。
 
-   ![](assets/offers-e2e-decision-placements.png)
+   ![](../assets/offers-e2e-decision-placements.png)
 
 1. 對於每個放置，添加您建立的集合。
 
-   ![](assets/offers-e2e-decision-collection.png)
+   ![](../assets/offers-e2e-decision-collection.png)
 
 1. 如果定義了排名 [構建元件](#define-components)，可將其分配給決策中的位置。 如果多份報價符合在此配售中提交的條件，則此決定將使用此公式計算先交付哪份報價。
 
@@ -211,11 +211,11 @@ ht-degree: 5%
 
 1. 選擇您建立的回退優惠。 它將顯示為三個選定放置的可用回退優惠。
 
-   ![](assets/offers-e2e-decision-fallback.png)
+   ![](../assets/offers-e2e-decision-fallback.png)
 
 1. 查看您的決定，然後按一下 **[!UICONTROL Save and approve]**。
 
-   ![](assets/offers-e2e-review-decision.png)
+   ![](../assets/offers-e2e-review-decision.png)
 
 您的決定現在已準備好用於提供優化和個性化的服務。
 
@@ -231,21 +231,21 @@ ht-degree: 5%
 
 1. 添加 **[!UICONTROL Offer decision]** 內容元件。 瞭解如何在 [此部分](../../using/messages/content-components.md)。
 
-   ![](assets/offers-e2e-decision-component.png)
+   ![](../assets/offers-e2e-decision-component.png)
 
 1. 請選取模式。在右調色板中，按一下 **[!UICONTROL Select offer decision]** 以添加決定。
 
-   ![](assets/offers-e2e-select-offer-decision.png)
+   ![](../assets/offers-e2e-select-offer-decision.png)
 
 1. 從中選擇與要顯示的優惠相對應的位置 **[!UICONTROL Placements]** 下拉清單。
 
    在本例中，從先前作為本示例一部分建立的位置，僅 **電子郵件 — 映像** 在電子郵件中使用此決定時，位置即可用。 瞭解更多 [建立放置](../../using/offers/offer-library/creating-placements.md)。
 
-   ![](assets/offers-e2e-select-placement-in-decision.png)
+   ![](../assets/offers-e2e-select-placement-in-decision.png)
 
 1. 與 **電子郵件 — 映像** 的下界。 選擇要在內容元件中使用的決定，然後按一下 **[!UICONTROL Add]**。
 
-   ![](assets/offers-e2e-matching-placement-in-decision.png)
+   ![](../assets/offers-e2e-matching-placement-in-decision.png)
 
    >[!NOTE]
    >
@@ -253,7 +253,7 @@ ht-degree: 5%
 
 您現在可以在電子郵件設計器中看到所有個性化優惠和備用優惠。
 
-![](assets/offers-e2e-offers-displayed.png)
+![](../assets/offers-e2e-offers-displayed.png)
 
 使用 **[!UICONTROL Offers]** 或內容元件箭頭（右箭頭和左箭頭）來瀏覽資料。 您還可以顯示客戶配置檔案中決策的不同優惠。 瞭解詳情 [此部分](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email)。
 

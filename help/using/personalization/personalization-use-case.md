@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    ![](assets/perso-uc9.png)
 
-1. 選擇 **上下文屬性** 的子菜單。 上下文屬性僅在行程將上下文資料傳遞到消息時才可用。 按一下 **Journey Orchestration**。 將顯示以下上下文資訊：
+1. 選擇 **上下文** 的子菜單。 僅當行程已將上下文資料傳遞到消息時，此項才可用。 按一下 **Journey Orchestration**。 將顯示以下上下文資訊：
 
    * **事件**:此類別將放置在前面的事件中的所有欄位重新分組 **消息** 旅途中的活動。
    * **旅程屬性**:與給定配置檔案的行程相關的技術欄位，例如行程ID或遇到的特定錯誤。 瞭解詳情 [Journey Orchestration文檔](../building-journeys/expression/journey-properties.md)。
@@ -94,11 +94,11 @@ ht-degree: 0%
 
    ![](assets/perso-uc12.png)
 
-1. 鍵入消息並插入，從****[!UICONTROL Contextual attributes]** 菜單中的命令。
+1. 鍵入消息並插入， **上下文** 類別、訂單物料名稱和訂單進度。
 
    ![](assets/perso-uc13.png)
 
-1. 從左菜單中，選擇 **提供決策** 的子菜單。 選取放置，然後按一下 **+** 表徵圖，將其添加到正文中。
+1. 從下拉清單中，選擇 **提供決定** 的子菜單。 選取放置，然後按一下 **+** 表徵圖，將其添加到正文中。
 
    ![](assets/perso-uc14.png)
 

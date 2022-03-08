@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f2267f82453cc00be86f1a279496aaf4e9218c5f
+source-git-commit: dcadbbcf8b2cd8422a189b8d02f222f32dd12c54
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '921'
 ht-degree: 98%
 
 ---
@@ -48,6 +48,15 @@ ht-degree: 98%
       + [檢查警報](using/messages/alerts.md)
       + [發佈訊息](using/messages/publish-manage-message.md)
    + [管理同意](using/messages/consent.md)
++ 登陸頁面 {#landing-pages}
+   + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
+   + [建立登陸頁面](using/landing-pages/create-lp.md)
+   + [設計登陸頁面](using/landing-pages/design-lp.md)
+   + [建立訂閱清單](using/landing-pages/subscription-list.md)
+   + [使用案例](using/landing-pages/lp-use-cases.md)
+   + 報告 {#lp-reporting}
+      + [登陸頁面報告](using/landing-pages/lp-report.md)
+      + [訂閱清單報告](using/landing-pages/subscription-report.md)
 + 個人化{#personalization}
    + [開始使用使用個人化](using/personalization/personalize.md)
    + [個人化內容](using/personalization/personalization-contexts.md)
@@ -56,7 +65,6 @@ ht-degree: 98%
       + 使用運算式編輯器 {#expression-editor}
          + [關於運算式編輯器](using/personalization/personalization-build-expressions.md)
          + [將屬性加入我的最愛](using/personalization/personalization-favorites.md)
-         + [使用已保存的表達式](using/personalization/personalization-library.md)
          + [個人化驗證](using/personalization/personalization-validation.md)
       + 輔助函式{#functions}
          + [開始使用輔助函式](using/personalization/functions/functions.md)
@@ -224,15 +232,6 @@ ht-degree: 98%
       + [開始使用傳遞能力](using/messages/deliverability.md)
       + [隱藏清單](using/messages/suppression-list.md)
       + [允許清單](using/messages/allow-list.md)
-+ 登陸頁面 {#landing-pages}
-   + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
-   + [建立登陸頁面](using/landing-pages/create-lp.md)
-   + [設計登陸頁面](using/landing-pages/design-lp.md)
-   + [建立訂閱清單](using/landing-pages/subscription-list.md)
-   + [使用案例](using/landing-pages/lp-use-cases.md)
-   + 報告 {#lp-reporting}
-      + [登陸頁面報告](using/landing-pages/lp-report.md)
-      + [訂閱清單報告](using/landing-pages/subscription-report.md)
 + 決定管理 {#offer-decisioniong}
    + 開始使用決定管理 {#get-started-decision}
       + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
@@ -338,6 +337,7 @@ ht-degree: 98%
          + [變更電子郵件主要地址](using/configuration/primary-email-addresses.md)
       + [設定簡訊頻道](using/configuration/sms-configuration.md)
       + [建立訊息預設集](using/configuration/message-presets.md)
+   + [設定登陸頁面](using/configuration/lp-configuration.md)
    + 設定歷程 {#configure-journeys}
       + [關於資料來源、事件和動作](using/configuration/about-data-sources-events-actions.md)
       + [與外部系統整合](using/configuration/external-systems.md)

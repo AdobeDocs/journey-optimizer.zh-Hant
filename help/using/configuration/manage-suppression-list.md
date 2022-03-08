@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 2%
@@ -31,15 +31,15 @@ ht-degree: 2%
 >
 >查看、導出和管理禁止顯示清單的權限限制為 [旅程管理員](../administration/ootb-product-profiles.md#journey-administrator)。 瞭解有關管理的更多資訊 [!DNL Journey Optimizer] 用戶在 [此部分](../administration/permissions-overview.md)。
 
-![](assets/suppression-list-access.png)
+![](../assets/suppression-list-access.png)
 
 篩選器可幫助您瀏覽清單。
 
-![](assets/suppression-list-filters.png)
+![](../assets/suppression-list-filters.png)
 
 可以在 **[!UICONTROL Suppression category]**。 **[!UICONTROL Address type]**&#x200B;或 **[!UICONTROL Reason]**。 為每個條件選擇所選選項。 選中後，可以清除清單頂部顯示的每個篩選器或所有篩選器。
 
-![](assets/suppression-list-filtering-example.png)
+![](../assets/suppression-list-filtering-example.png)
 
 如果您手動添加電子郵件地址或域時出錯， **[!UICONTROL Delete]** 按鈕可以刪除該條目。
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 >
 >從不使用 **[!UICONTROL Delete]** 按鈕以刪除隱藏的電子郵件地址或域。
 
-![](assets/suppression-list-delete.png)
+![](../assets/suppression-list-delete.png)
 
 從禁止顯示清單中刪除電子郵件地址或域意味著您將再次開始傳送到此地址或域。 因此，這會對您的可交付性和IP信譽造成嚴重影響，最終可能導致您的IP地址或發送域被阻止。 瞭解有關在中維護禁止顯示清單的重要性的更多資訊 [此部分](../messages/suppression-list.md)。
 
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 要將禁止顯示清單導出為CSV檔案，請選擇 **[!UICONTROL Download CSV]** 按鈕
 
-![](assets/suppression-list-download-csv.png)
+![](../assets/suppression-list-download-csv.png)
 
 ## 隱藏類別和原因 {#suppression-categories-and-reasons}
 
@@ -83,7 +83,7 @@ ht-degree: 2%
 
 對於列出的每個電子郵件地址，您還可以檢查 **[!UICONTROL Type]** （電子郵件或域）, **[!UICONTROL Reason]** 用於排除它、添加者以及將其添加到禁止清單的日期/時間。
 
-![](assets/suppression-list.png)
+![](../assets/suppression-list.png)
 
 傳送失敗的可能原因有：
 
@@ -111,13 +111,13 @@ ht-degree: 2%
 
 要執行此操作，請選擇 **[!UICONTROL Add email or domain]** 按鈕，然後按照下面的方法之一操作。
 
-![](assets/suppression-list-add-email.png)
+![](../assets/suppression-list-add-email.png)
 
 ### 添加一個地址或域 {#add-one-address-or-domain}
 
 1. 選取 **[!UICONTROL One by one]** 選項。
 
-   ![](assets/suppression-list-add-email-address.png)
+   ![](../assets/suppression-list-add-email-address.png)
 
 1. 選擇地址類型： **[!UICONTROL Email address]** 或 **[!UICONTROL Domain address]**。
 
@@ -135,7 +135,7 @@ ht-degree: 2%
 
 1. 選取 **[!UICONTROL Upload CSV]** 選項。
 
-   ![](assets/suppression-list-upload-csv.png)
+   ![](../assets/suppression-list-upload-csv.png)
 
 1. 下載要使用的CSV模板，其中包括以下列和格式：
 
@@ -156,7 +156,7 @@ ht-degree: 2%
 
 1. 完成後，拖放CSV檔案，然後按一下 **[!UICONTROL Upload file]**。
 
-   ![](assets/suppression-list-upload-file-button.png)
+   ![](../assets/suppression-list-upload-file-button.png)
 
 1. 按一下「**[!UICONTROL Submit]**」。
 
@@ -166,13 +166,13 @@ ht-degree: 2%
 
 要執行此操作，請 **[!UICONTROL Suppression list]** 的 **[!UICONTROL Recent uploads]** 按鈕
 
-![](assets/suppression-list-recent-uploads-button.png)
+![](../assets/suppression-list-recent-uploads-button.png)
 
 將顯示您提交的最新上載及其相應狀態。
 
 如果錯誤報告與檔案關聯，則可以下載它以檢查遇到的錯誤。
 
-![](assets/suppression-list-recent-uploads-error.png)
+![](../assets/suppression-list-recent-uploads-error.png)
 
 下面是您可以在錯誤報告中找到的條目類型示例：
 

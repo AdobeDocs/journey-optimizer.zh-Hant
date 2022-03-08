@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 >
 >如果消息已用於多個行程，則每次執行都會顯示一行。
 
-預設情況下，從最近的執行日期開始顯示消息。 按一下 **[!UICONTROL Filters]** 表徵圖，根據頻道、開始日期和/或結束日期搜索消息。 您還可以選擇從您的test中排除 **執行清單**。
+預設情況下，從最近的執行日期開始顯示消息。 按一下 **[!UICONTROL Filters]** 表徵圖，根據頻道、開始日期和/或結束日期搜索消息。
 
 ![](assets/message-execution-tab-filters.png)
 

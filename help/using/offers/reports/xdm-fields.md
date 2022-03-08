@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 67%
@@ -17,13 +17,13 @@ ht-degree: 67%
 
 您可以直接從包含決策管理事件的資料集訪問DesiginingEvents XDM架構。
 
-![](../assets/access-schema.png)
+![](../../assets/access-schema.png)
 
 該架構包含從決策管理向Adobe Experience Platform發送資訊所需的所有欄位。
 
 若要取得特定欄位的詳細資訊，請選取該欄位以顯示包含欄位屬性的資訊窗格。
 
-![](../assets/schema-fields.png)
+![](../../assets/schema-fields.png)
 
 有關如何使用 XDM 架構和欄位的詳細資訊，請參閱體驗資料模型文件：
 

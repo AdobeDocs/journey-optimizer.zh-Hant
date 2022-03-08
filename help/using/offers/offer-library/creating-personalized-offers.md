@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 5%
@@ -25,7 +25,7 @@ ht-degree: 5%
 
 您可以在 **[!UICONTROL Offers]** 的子菜單。
 
-![](../assets/offers_list.png)
+![](../../assets/offers_list.png)
 
 ## 建立優惠 {#create-offer}
 
@@ -39,11 +39,11 @@ ht-degree: 5%
 
 1. 按一下 **[!UICONTROL Create offer]**，然後選擇 **[!UICONTROL Personalized offer]**。
 
-   ![](../assets/create_offer.png)
+   ![](../../assets/create_offer.png)
 
 1. 指定聘用的名稱及其開始和結束日期和時間。 您還可以將一個或多個現有標籤與聘用相關聯，從而更輕鬆地搜索和組織聘用庫。
 
-   ![](../assets/offer_details.png)
+   ![](../../assets/offer_details.png)
 
    >[!NOTE]
    >
@@ -57,7 +57,7 @@ ht-degree: 5%
 
 1. 對於第一個表示，首先選擇 **[!UICONTROL Channel]** 會被使用。
 
-   ![](../assets/channel-placement.png)
+   ![](../../assets/channel-placement.png)
 
    >[!NOTE]
    >
@@ -68,23 +68,23 @@ ht-degree: 5%
 
    您還可以使用 **[!UICONTROL Placement]** 下拉清單，瀏覽所有放置。
 
-   ![](../assets/browse-button-placements.png)
+   ![](../../assets/browse-button-placements.png)
 
    您仍然可以根據其頻道和/或內容類型篩選放置。 選擇放置，然後按一下 **[!UICONTROL Select]**。
 
-   ![](../assets/browse-placements.png)
+   ![](../../assets/browse-placements.png)
 
 1. 將內容添加到您的表示法。 瞭解 [此部分](#content)。
 
 1. 添加影像或URL等內容時，可以指定 **[!UICONTROL Destination link]**:按一下優惠的用戶將被定向到相應頁面。
 
-   ![](../assets/offer-destination-link.png)
+   ![](../../assets/offer-destination-link.png)
 
 1. 最後，選擇您選擇的語言以幫助確定和管理要顯示給用戶的內容。
 
 1. 要添加其他表示法，請使用 **[!UICONTROL Add representation]** 按鈕並根據需要添加多個表示法。
 
-   ![](../assets/offer-add-representation.png)
+   ![](../../assets/offer-add-representation.png)
 
 1. 添加所有表示法後，選擇 **[!UICONTROL Next]**。
 
@@ -108,19 +108,19 @@ ht-degree: 5%
 
 1. 選擇「**[!UICONTROL Browse]**」。
 
-   ![](../assets/offer-browse-asset-library.png)
+   ![](../../assets/offer-browse-asset-library.png)
 
 1. 瀏覽資產以選擇您選擇的影像
 
 1. 按一下「**[!UICONTROL Select]**」。
 
-   ![](../assets/offer-select-asset.png)
+   ![](../../assets/offer-select-asset.png)
 
 ### 添加URL {#urls}
 
 要從外部公共位置添加內容，請選擇 **[!UICONTROL URL]**，然後輸入要添加的內容的URL地址。
 
-![](../assets/offer-content-url.png)
+![](../../assets/offer-content-url.png)
 
 ### 添加自定義文本 {#custom-text}
 
@@ -128,7 +128,7 @@ ht-degree: 5%
 
 1. 選擇 **[!UICONTROL Custom]** 選項 **[!UICONTROL Add content]**。
 
-   ![](../assets/offer-add-content.png)
+   ![](../../assets/offer-add-content.png)
 
    >[!NOTE]
    >
@@ -136,11 +136,11 @@ ht-degree: 5%
 
 1. 鍵入將在優惠中顯示的文本。
 
-   ![](../assets/offer-text-content.png)
+   ![](../../assets/offer-text-content.png)
 
    可以使用表達式編輯器個性化您的內容。 瞭解更多 [個性化](../../personalization/personalize.md#use-expression-editor)。
 
-   ![](../assets/offer-personalization.png)
+   ![](../../assets/offer-personalization.png)
 
    >[!NOTE]
    >
@@ -182,11 +182,11 @@ ht-degree: 5%
 
       有關如何使用段的詳細資訊，請參閱 [此頁](../../segment/about-segments.md)。
 
-      ![](../assets/offer-eligibility-segment.png)
+      ![](../../assets/offer-eligibility-segment.png)
 
    * 如果要將特定決策規則與聘用關聯，請選擇 **[!UICONTROL By defined decision rule]**，然後將所需規則從左窗格拖動到 **[!UICONTROL Decision rule]** 的子菜單。 有關如何建立決策規則的詳細資訊，請參閱 [此部分](../offer-library/creating-decision-rules.md)。
 
-      ![](../assets/offer_rule.png)
+      ![](../../assets/offer_rule.png)
 
       >[!CAUTION]
       >
@@ -203,7 +203,7 @@ ht-degree: 5%
    >
    >如果刪除了電子郵件傳遞，或在發送前再次完成了準備，則自動更新優惠的上限值。
 
-   ![](../assets/offer_capping.png)
+   ![](../../assets/offer_capping.png)
 
    在上例中：
 
@@ -221,7 +221,7 @@ ht-degree: 5%
 
 1. 選擇「**[!UICONTROL Save and approve]**」。
 
-   ![](../assets/offer_review.png)
+   ![](../../assets/offer_review.png)
 
    您還可以將聘用保存為草稿，以便稍後編輯和批准。
 
@@ -229,13 +229,13 @@ ht-degree: 5%
 
 現在，它已準備好交付給用戶。
 
-![](../assets/offer_created.png)
+![](../../assets/offer_created.png)
 
 ## 優惠清單 {#offer-list}
 
 從聘用清單中，您可以選擇聘用以顯示其屬性。 您還可以編輯它，更改它的狀態(**草稿**。 **已批准**。 **存檔**)、複製或刪除此選項。
 
-![](../assets/offer_created.png)
+![](../../assets/offer_created.png)
 
 選擇 **[!UICONTROL Edit]** 按鈕，返回至「聘用版」模式，在該模式中您可以修改聘用 [詳細資訊](#create-offer)。 [表示](#representations)，以及編輯 [資格規則和約束](#eligibility)。
 
@@ -243,11 +243,11 @@ ht-degree: 5%
 
 將狀態再次設定為 **[!UICONTROL Approved]**，選擇現在顯示的相應按鈕。
 
-![](../assets/offer_approve.png)
+![](../../assets/offer_approve.png)
 
 的 **[!UICONTROL More actions]** 按鈕啟用下面描述的操作。
 
-![](../assets/offer_more-actions.png)
+![](../../assets/offer_more-actions.png)
 
 * **[!UICONTROL Duplicate]**:建立具有相同屬性、表示法、資格規則和約束的聘用。 預設情況下，新優惠 **[!UICONTROL Draft]** 狀態。
 * **[!UICONTROL Delete]**:從清單中刪除優惠。
@@ -262,19 +262,19 @@ ht-degree: 5%
 
 您也可以通過選中相應的複選框同時刪除或更改多個優惠的狀態。
 
-![](../assets/offer_multiple-selection.png)
+![](../../assets/offer_multiple-selection.png)
 
 如果要更改多個狀態不同的聘用的狀態，則只更改相關狀態。
 
-![](../assets/offer_change-status.png)
+![](../../assets/offer_change-status.png)
 
 一旦建立了優惠，您就可以從清單中按一下其名稱。
 
-![](../assets/offer_click-name.png)
+![](../../assets/offer_click-name.png)
 
 這使您能夠訪問該服務的詳細資訊。 選擇 **[!UICONTROL Change log]** 頁籤 [監視所有更改](../get-started/user-interface.md#monitoring-changes) 已經提出的。
 
-![](../assets/offer_information.png)
+![](../../assets/offer_information.png)
 
 ## 教程視頻 {#video}
 

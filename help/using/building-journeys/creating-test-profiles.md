@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 3%
@@ -34,13 +34,13 @@ ht-degree: 3%
 首先，你需要 **建立架構**。 執行以下步驟：
 
 1. 在「資料管理」(DATA MANAGEMENT)菜單部分，按一下 **[!UICONTROL Schemas]**。
-   ![](assets/test-profiles-0.png)
+   ![](../assets/test-profiles-0.png)
 1. 按一下 **[!UICONTROL Create schema]**，在右上角，然後選擇一個架構類型，例如 **XDM個人配置檔案**。
-   ![](assets/test-profiles-1.png)
+   ![](../assets/test-profiles-1.png)
 1. 選擇相應的欄位組。 確保添加 **配置檔案test詳細資訊** 欄位組。
-   ![](assets/test-profiles-1-ter.png)
+   ![](../assets/test-profiles-1-ter.png)
 完成後，按一下 **[!UICONTROL Add field groups]**:欄位組的清單顯示在架構概述螢幕上。
-   ![](assets/test-profiles-2.png)
+   ![](../assets/test-profiles-2.png)
 
    >[!NOTE]
    >
@@ -50,11 +50,11 @@ ht-degree: 3%
 
 
 1. 在欄位清單中，按一下要定義為主標識的欄位。
-   ![](assets/test-profiles-3.png)
+   ![](../assets/test-profiles-3.png)
 1. 在 **[!UICONTROL Field properties]** 右窗格，檢查 **[!UICONTROL Identity]** 和 **[!UICONTROL Primary Identity]** 選項並選擇命名空間。 如果希望主標識是電子郵件地址，請選擇 **[!UICONTROL Email]** 命名空間。 按一下「**[!UICONTROL Apply]**」。
-   ![](assets/test-profiles-4bis.png)
+   ![](../assets/test-profiles-4bis.png)
 1. 選擇方案並啟用 **[!UICONTROL Profile]** 的上界 **[!UICONTROL Schema properties]** 的子菜單。
-   ![](assets/test-profiles-5.png)
+   ![](../assets/test-profiles-5.png)
 1. 按一下「**儲存**」。
 
 >[!NOTE]
@@ -64,15 +64,15 @@ ht-degree: 3%
 那你需要 **建立資料集** 將在其中導入配置檔案。 執行以下步驟：
 
 1. 瀏覽到 **[!UICONTROL Datasets]**，然後按一下 **[!UICONTROL Create dataset]**。
-   ![](assets/test-profiles-6.png)
+   ![](../assets/test-profiles-6.png)
 1. 選擇 **[!UICONTROL Create dataset from schema]**。
-   ![](assets/test-profiles-7.png)
+   ![](../assets/test-profiles-7.png)
 1. 選擇以前建立的架構，然後按一下 **[!UICONTROL Next]**。
-   ![](assets/test-profiles-8.png)
+   ![](../assets/test-profiles-8.png)
 1. 選擇一個名稱，然後按一下 **[!UICONTROL Finish]**。
-   ![](assets/test-profiles-9.png)
+   ![](../assets/test-profiles-9.png)
 1. 啟用 **[!UICONTROL Profile]** 的雙曲餘切值。
-   ![](assets/test-profiles-10.png)
+   ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ ht-degree: 3%
 
 在Adobe Journey Optimizer首頁上，您可以利用test配置檔案在產品中的使用案例。 此使用案例便於建立test配置檔案，用於在發佈前測試行程。
 
-![](assets/use-cases-home.png)
+![](../assets/use-cases-home.png)
 
 按一下 **[!UICONTROL Begin]** 按鈕以開始使用案例。
 
@@ -119,11 +119,11 @@ ht-degree: 3%
 > 因為您將更新 **測試配置檔案** 欄位中，所選配置檔案必須包括此欄位。 相關架構必須具有 **配置檔案test詳細資訊** 欄位組。 請參閱[本節](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites)。
 
 1. 瀏覽到 **段**，則 **建立段**的上界。
-   ![](assets/test-profiles-22.png)
+   ![](../assets/test-profiles-22.png)
 1. 定義段的名稱並生成段：選擇欄位和值，以針對所需的配置檔案。
-   ![](assets/test-profiles-23.png)
+   ![](../assets/test-profiles-23.png)
 1. 按一下 **保存** 並檢查該段是否正確定位了配置檔案。
-   ![](assets/test-profiles-24.png)
+   ![](../assets/test-profiles-24.png)
 
    >[!NOTE]
    >
@@ -131,13 +131,13 @@ ht-degree: 3%
 
 1. 現在建立新的旅程，並從 **[!UICONTROL Read Segment]** 業務流程活動。
 1. 選擇以前建立的段和配置檔案使用的命名空間。
-   ![](assets/test-profiles-25.png)
+   ![](../assets/test-profiles-25.png)
 1. 添加 **[!UICONTROL Update Profile]** 操作活動。
 1. 選擇方案， **測試配置檔案** 欄位，資料集，並將值設定為 **真**。 要執行此操作，請在 **[!UICONTROL VALUE]** ，按一下 **筆** 表徵圖，選擇 **[!UICONTROL Advanced mode]** 輸入 **真**。
-   ![](assets/test-profiles-26.png)
+   ![](../assets/test-profiles-26.png)
 1. 添加 **結束** 活動，按一下 **[!UICONTROL Publish]**。
 1. 在 **[!UICONTROL Segments]** 部分，檢查配置式是否已正確更新。
-   ![](assets/test-profiles-28.png)
+   ![](../assets/test-profiles-28.png)
 
    >[!NOTE]
    >
@@ -149,24 +149,24 @@ ht-degree: 3%
 
 1. 使用電子錶格軟體建立簡單的csv檔案。
 1. 為每個所需欄位添加一列。 確保添加主標識欄位（上例中的「personID」）和「testProfile」欄位設定為「true」。
-   ![](assets/test-profiles-11.png)
+   ![](../assets/test-profiles-11.png)
 1. 每個配置檔案添加一行並填入每個欄位的值。
-   ![](assets/test-profiles-12.png)
+   ![](../assets/test-profiles-12.png)
 1. 將電子錶格另存為csv檔案。 確保逗號用作分隔符。
 1. 瀏覽到Adobe Experience Platform **工作流**。
-   ![](assets/test-profiles-14.png)
+   ![](../assets/test-profiles-14.png)
 1. 選擇 **將CSV映射到XDM架構**，然後按一下 **啟動**。
-   ![](assets/test-profiles-16.png)
+   ![](../assets/test-profiles-16.png)
 1. 選擇要將配置檔案導入的資料集。 按&#x200B;**「下一步」**。
-   ![](assets/test-profiles-17.png)
+   ![](../assets/test-profiles-17.png)
 1. 按一下 **選擇檔案** ，然後選擇csv檔案。 上載檔案時，按一下 **下一個**。
-   ![](assets/test-profiles-18.png)
+   ![](../assets/test-profiles-18.png)
 1. 將源csv欄位映射到架構欄位，然後按一下 **完成**。
-   ![](assets/test-profiles-19.png)
+   ![](../assets/test-profiles-19.png)
 1. 資料導入開始。 狀態將從 **處理** 至 **成功**。 按一下 **預覽資料集**的上界。
-   ![](assets/test-profiles-20.png)
+   ![](../assets/test-profiles-20.png)
 1. 檢查test配置檔案是否已正確添加。
-   ![](assets/test-profiles-21.png)
+   ![](../assets/test-profiles-21.png)
 
 您的test配置檔案已添加，現在可在測試行程時使用。 請參閱[本節](../building-journeys/testing-the-journey.md)。
 >[!NOTE]

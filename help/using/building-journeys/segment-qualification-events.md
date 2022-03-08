@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 展開 **[!UICONTROL Events]** 類別並刪除 **[!UICONTROL Segment Qualification]** 活動到畫布中。
 
-   ![](assets/segment5.png)
+   ![](../assets/segment5.png)
 
 1. 添加 **[!UICONTROL Label]** 的子菜單。 此步驟為選填。
 
@@ -42,13 +42,13 @@ ht-degree: 0%
    >
    >請注意，您可以自定義清單中顯示的列並對其進行排序。
 
-   ![](assets/segment6.png)
+   ![](../assets/segment6.png)
 
    添加段後， **[!UICONTROL Copy]** 按鈕，您可以複製其名稱和ID:
 
    `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/segment-copy.png)
+   ![](../assets/segment-copy.png)
 
 1. 在 **[!UICONTROL Behaviour]** 欄位中，選擇是要收聽段入口、出口還是兩者。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. 選擇命名空間。 只有在將事件定位為旅程的第一步時，才需要這樣做。
 
-   ![](assets/segment7.png)
+   ![](../assets/segment7.png)
 
 負載包含以下上下文資訊，您可以在條件和操作中使用這些資訊：
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 請參閱 [條件活動](../building-journeys/condition-activity.md#about_condition)。
 
-![](assets/segment8.png)
+![](../assets/segment8.png)
 
 包括段資格活動的新行程在您發佈後10分鐘內開始運行。 該時間間隔對應於專用服務的快取刷新間隔。 因此，您必須等待10分鐘才能使用此行程。
 
@@ -98,10 +98,10 @@ ht-degree: 0%
 
 不在 **[!UICONTROL Segment Qualification]** 活動，即建立後立即的批段。 避免了第一個計算峰。 請注意，如果您將要使用從未計算過的段，行程畫布中將出現黃色警告。
 
-![](assets/segment-error.png)
+![](../assets/segment-error.png)
 
 為資料源和行程中使用的操作設定上限規則，以避免超負荷。 瞭解詳情 [Journey Orchestration文檔](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}。 請注意，上限設定規則沒有重試。 如果需要重試，必須選中該框，在行程中使用替代路徑 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 或操作。
 
 在生產過程中使用該段之前，始終首先評估每天符合此段條件的人數。 為此，您可以檢查 **[!UICONTROL Segments]** 菜單，開啟段，然後查看 **[!UICONTROL Profiles over time]** 圖。
 
-![](assets/segment-overload.png)
+![](../assets/segment-overload.png)

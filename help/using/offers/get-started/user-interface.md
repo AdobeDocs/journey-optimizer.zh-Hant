@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 66%
@@ -31,7 +31,7 @@ ht-degree: 66%
 
 * **[!UICONTROL Decisions]**：建立並管理決定，以傳遞您的優惠。請參閱[建立決定](../offer-activities/create-offer-activities.md)。
 
-![](../assets/offers_menu.png)
+![](../../assets/offers_menu.png)
 
 使用&#x200B;**[!UICONTROL Components]**&#x200B;功能表管理建立優惠所需的元件：
 
@@ -43,19 +43,19 @@ ht-degree: 66%
 
 * **[!UICONTROL Rankings]**：建立並管理排名公式，以決定應先針對指定位置顯示哪個優惠。請參閱[建立排名公式](../offer-library/create-ranking-formulas.md)。
 
-![](../assets/offer_activities.png)
+![](../../assets/offer_activities.png)
 
 ## 總覽 {#overview}
 
 當您剛進入 [!DNL Offer Decisioning]，也請參見Wiki頁。 **[!UICONTROL Overview]** 頁籤將引導您完成開始制定第一個聘用決定所需的主要步驟。
 
-![](../assets/overview_onboarding.png)
+![](../../assets/overview_onboarding.png)
 
 按照螢幕上的步驟開始建立放置、聘用和收藏。
 
 完成這些第一步後，系統會提示您建立聘用決定（以前稱為聘用活動）。
 
-![](../assets/overview_collection-created.png)
+![](../../assets/overview_collection-created.png)
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ ht-degree: 66%
 
 按一下 **[!UICONTROL View all]** 按鈕，查看聘用、收集或決策清單。
 
-![](../assets/overview_view-all.png)
+![](../../assets/overview_view-all.png)
 
 ## 搜尋和篩選資訊 {#search-and-filter-information}
 
@@ -75,7 +75,7 @@ ht-degree: 66%
 
 按一下清單左上方的篩選圖示，即可存取 **篩選器**。可讓您根據不同的標準篩選顯示的元素。例如，您可以篩選為電子郵件通訊頻道和影像類型內容所建立的位置。
 
-![](../assets/filters.png)
+![](../../assets/filters.png)
 
 ## 自訂顯示的資訊 {#customize-displayed-information}
 
@@ -85,21 +85,21 @@ ht-degree: 66%
 
 請注意，會針對每位使用者儲存欄位自訂。
 
-![](../assets/columns.png)
+![](../../assets/columns.png)
 
 ## 資訊窗格 {#information-pane}
 
 在不同的清單中選取元素以顯示資訊窗格，讓您擷取資訊並對元素執行基本動作。
 
-![](../assets/information-pane.png)
+![](../../assets/information-pane.png)
 
 優惠與決定清單還可讓您對多個元素執行批量動作。若要這麼做，請選取所要的優惠或決定，然後從資訊窗格中選取您要執行的動作。
 
-![](../assets/bulk-actions.png)
+![](../../assets/bulk-actions.png)
 
 請注意，您也可以複製現有優惠或決定，以建立具有 **[!UICONTROL Draft]** 狀態的復本。 您可以從資訊窗格或優惠或決定的詳細檢視來執行此動作。
 
-![](../assets/duplicate-offer.png)
+![](../../assets/duplicate-offer.png)
 
 ## 優惠和決定變更記錄 {#changes-logs}
 
@@ -107,4 +107,4 @@ ht-degree: 66%
 
 所有已進行的變更及執行變更的使用者名稱都會顯示在此畫面中。
 
-![](../assets/change-logs.png)
+![](../../assets/change-logs.png)

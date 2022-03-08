@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 7565af5c8497caa4fc34e0cf399e1c5180982891
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '1900'
-ht-degree: 1%
+source-wordcount: '1704'
+ht-degree: 2%
 
 ---
 
@@ -28,17 +28,21 @@ ht-degree: 1%
 
 ➡️ [瞭解如何在此視頻中建立和使用電子郵件預設](#video-presets)
 
+>[!NOTE]
+>
+>瞭解如何在中建立登錄頁預設 [此部分](../configuration/lp-configuration.md#lp-create-preset)。
+
 ## 建立消息預設 {#create-message-preset}
 
 要建立消息預設，請執行以下步驟：
 
 1. 訪問 **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** 菜單，然後按一下 **[!UICONTROL Create Message preset]**。
 
-   ![](assets/preset-create.png)
+   ![](../assets/preset-create.png)
 
 1. 輸入預設的名稱和說明（可選），然後選擇要配置的通道。
 
-   ![](assets/preset-general.png)
+   ![](../assets/preset-general.png)
 
    >[!NOTE]
    >
@@ -52,7 +56,7 @@ ht-degree: 1%
 
 1. 配置完所有參數後，按一下 **[!UICONTROL Submit]** 確認。 您也可以將消息預設保存為草稿，並稍後恢復其配置。
 
-   ![](assets/preset-submit.png)
+   ![](../assets/preset-submit.png)
 
 1. 建立消息預設後，它將顯示在清單中 **[!UICONTROL Processing]** 狀態。
 
@@ -74,108 +78,63 @@ ht-degree: 1%
 
 1. 檢查成功後，消息預設將獲取 **[!UICONTROL Active]** 狀態。 它已準備好用於傳遞消息。
 
-   ![](assets/preset-active.png)
+   ![](../assets/preset-active.png)
 
 ## 配置電子郵件設定 {#configure-email-settings}
 
-電子郵件設定在消息預設配置的專用部分中定義。
+![](../assets/preset-email.png)
 
-![](assets/preset-email.png)
+1. 選擇將使用預設發送的消息類型： **事務性** 或 **營銷**。
 
-按如下所述配置設定。
-
-
-### 電子郵件類型{#email-type}
-
-在 **電子郵件類型** 部分，選擇將使用預設發送的消息類型： **營銷** 或 **事務性**。
-
-選擇 **營銷** 對於促銷消息：這些消息需要用戶同意。
-
-選擇 **事務性** 非商業消息（例如，訂單確認、密碼重置通知或傳遞資訊）。
-
->[!CAUTION]
->
->**事務性** 消息可以發送到從營銷通信中取消訂閱的配置檔案。 這些消息只能在特定上下文中發送。
-
-
-### 子域和IP池 {#subdomains-and-ip-pools}
-
-在 **子域和IP池詳細資訊** ，您必須：
+   >[!CAUTION]
+   >
+   > **事務性** 消息可以發送到從營銷通信中取消訂閱的配置檔案。 這些消息只能在特定的上下文中發送，例如，密碼重置、訂單狀態、傳遞通知。
 
 1. 選擇要用於發送電子郵件的子域。 [了解更多](about-subdomain-delegation.md)
 
 1. 選擇要與預設關聯的IP池。 [了解更多](ip-pools.md)
 
-### URL跟蹤{#url-tracking}
+1. 輸入使用該預設發送的電子郵件的標頭參數。
 
-要確定人員按一下連結的位置和原因，可以在中添加UTM參數以跟蹤URL  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** 的子菜單。
+   >[!CAUTION]
+   >
+   >電子郵件地址必須使用當前選定的 [委託子域](about-subdomain-delegation.md)。
 
-根據您定義的參數，UTM代碼將應用到消息內容中包含的URL的末尾。 然後，您將能夠在Web分析工具(如Adobe Analytics)中比較結果。 <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+   * **[!UICONTROL Sender name]**:發件人的名稱，如您的品牌名稱。
 
-![](assets/preset-url-tracking.png)
+   * **[!UICONTROL Sender email]**:要用於通信的電子郵件地址。 例如，如果委派的子域是 *營銷.luma.com*，您可以使用 *contact@marketing.luma.com*。
 
-預設情況下，有三個UTM參數可用。 最多可以添加10個跟蹤參數。 要添加UTM參數，請選擇 **[!UICONTROL Add new UTM param]** 按鈕
+   * **[!UICONTROL Reply to (name)]**:收件人按一下 **答復** 按鈕。
 
-要配置UTM參數，可以在 **[!UICONTROL Name]** 和 **[!UICONTROL Value]** ，或導航到以下對象從預定義值清單中進行選擇：
+   * **[!UICONTROL Reply to (email)]**:收件人按一下 **答復** 按鈕。 必須使用在委派子域上定義的地址(例如， *reply@marketing.luma.com*)，否則將刪除電子郵件。
 
-* 行程屬性：源ID、源名稱、源版本ID
-* 消息屬性：操作ID，操作名稱
-* Offer decisioning屬性：優惠ID，優惠名稱
+   * **[!UICONTROL Error email]**:ISP在發送數天郵件（非同步綁定）後生成的所有錯誤都會在此地址上接收。
+   >[!NOTE]
+   >
+   >從2021年10月的發行版起，再也不能從 [!DNL Journey Optimizer] 用戶介面。 如果要接收的所有電子郵件 [!DNL Journey Optimizer] 要將委託的子域轉發到特定電子郵件地址，請與 [Adobe客戶服務支援團隊](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
 
-![](assets/preset-url-tracking-source.png)
+   ![](../assets/preset-header.png)
 
->[!CAUTION]
->
->不選擇資料夾：確保瀏覽到必要的資料夾，並選擇要用作UTM值的配置檔案屬性。
+   >[!NOTE]
+   >
+   >名稱必須以字母(A-Z)開頭。 它只能包含字母數字字元。 您還可以使用下划線 `_`，點`.` 連字元 `-` 字元。
 
-### 標題參數{#email-header}
+1. 配置 **電子郵件重試參數**。 預設情況下， [重試時間](retries.md#retry-duration) 設定為84小時，但您可以調整此設定以更好地滿足您的需要。
 
-在 **[!UICONTROL HEADER PARAMETERS]** 部分，輸入與使用該預設發送的郵件關聯的電子郵件地址。 這些電子郵件地址必須使用當前選定的 [委託子域](about-subdomain-delegation.md)。
+   ![](../assets/preset-retry-paramaters.png)
 
-必須配置以下電子郵件地址
-
-* **[!UICONTROL Sender name]**:發件人的名稱，如您的品牌名稱。
-
-* **[!UICONTROL Sender email]**:要用於通信的電子郵件地址。 例如，如果委派的子域是 *營銷.luma.com*，您可以使用 *contact@marketing.luma.com*。
-
-* **[!UICONTROL Reply to (name)]**:收件人按一下 **答復** 按鈕。
-
-* **[!UICONTROL Reply to (email)]**:收件人按一下 **答復** 按鈕。 必須使用在委派子域上定義的地址(例如， *reply@marketing.luma.com*)，否則將刪除電子郵件。
-
-* **[!UICONTROL Error email]**:ISP在發送數天郵件（非同步綁定）後生成的所有錯誤都會在此地址上接收。
-
-
-![](assets/preset-header.png)
-
->[!NOTE]
->
->地址必須以字母(A-Z)開頭，並且只能包含字母數字字元。 您還可以使用下划線 `_`，點`.` 連字元 `-` 字元。
-
-### 電子郵件重試參數{#email-retry}
-
-您可以配置 **電子郵件重試參數**。
-
-![](assets/preset-retry-parameters.png)
-
-預設情況下， [重試時間](retries.md#retry-duration) 設定為84小時，但您可以調整此設定以更好地滿足您的需要。
-
-必須在以下範圍內輸入整數值（以小時或分鐘為單位）:
-
-* 對於市場營銷電子郵件，最短重試時間為6小時。
-* 對於事務性電子郵件，最短重試時間為10分鐘。
-* 對於這兩種電子郵件類型，最大重試時間為84小時（或5040分鐘）。
+   必須在以下範圍內輸入整數值（以小時或分鐘為單位）:
+   * 對於市場營銷電子郵件類型，最短重試週期為6小時。
+   * 對於事務性電子郵件類型，最小重試週期為10分鐘。
+   * 對於這兩種電子郵件類型，最大重試時間為84小時（或5040分鐘）。
 
 ## 配置推送設定 {#configure-push-settings}
-
-推送設定在消息預設配置的專用部分中定義。
-
-要定義與消息預設關聯的推送設定，請執行以下步驟：
 
 1. 至少選擇一個平台： **iOS** 和/或 **安卓**。
 
 1. 選擇要用於每個平台的移動應用程式。
 
-![](assets/preset-push.png)
+![](../assets/preset-push.png)
 
 有關如何配置環境以發送推送通知的詳細資訊，請參閱 [此部分](../messages/push-gs.md)。
 
@@ -184,7 +143,7 @@ ht-degree: 1%
 
 1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
 
-    ![](assets/preset-sms.png)
+    ![](../assets/preset-sms.png)
     
 1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
         
@@ -197,9 +156,9 @@ ht-degree: 1%
 
 所有郵件預設都顯示在 **[!UICONTROL Channels]** > **[!UICONTROL Message presets]** 的子菜單。 篩選器可幫助您瀏覽清單（通道類型、用戶、狀態）。
 
-![](assets/preset-filters.png)
+![](../assets/preset-filters.png)
 
-建立消息預設後，可以具有以下狀態：
+消息預設可具有以下狀態：
 
 * **[!UICONTROL Draft]**:消息預設已保存為草稿，但尚未提交。 開啟它以恢復配置。
 * **[!UICONTROL Processing]**:消息預設已提交，正在執行幾個驗證步驟。
@@ -209,7 +168,7 @@ ht-degree: 1%
 
 如果消息預設建立失敗，則下面將介紹每種可能失敗原因的詳細資訊。
 
-如果出現其中一個錯誤，請與 [Adobe客戶關懷](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}以獲取幫助。
+如果出現其中一個錯誤，請與 [Adobe客戶服務支援團隊](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}以獲取幫助。
 
 * **SPF驗證失敗**:SPF（發件人策略框架）是一種電子郵件身份驗證協定，它允許指定可從給定子域發送電子郵件的授權IP。 SPF驗證失敗意味著SPF記錄中的IP地址與用於向郵箱提供程式發送電子郵件的IP地址不匹配。
 
@@ -233,7 +192,7 @@ ht-degree: 1%
 
 1. 從清單中，按一下消息預設名稱以將其開啟。
 
-   ![](assets/preset-name.png)
+   ![](../assets/preset-name.png)
 
 1. 根據需要編輯其屬性。
 
@@ -243,7 +202,7 @@ ht-degree: 1%
 
 1. 按一下 **[!UICONTROL Submit]** 確認更改。
 
-   ![](assets/preset-confirm-update.png)
+   ![](../assets/preset-confirm-update.png)
 
    >[!NOTE]
    >
@@ -259,15 +218,15 @@ ht-degree: 1%
 
 * 按一下 **[!UICONTROL Recent update]** 表徵圖。
 
-   ![](assets/preset-recent-update-icon.png)
+   ![](../assets/preset-recent-update-icon.png)
 
 * 您還可以在進行更新時從活動消息預設訪問更新詳細資訊。
 
-   ![](assets/preset-view-update-details.png)
+   ![](../assets/preset-view-update-details.png)
 
 在 **[!UICONTROL Recent update]** 螢幕中，您可以查看更新狀態和請求的更改清單等資訊。
 
-![](assets/preset-recent-update-screen.png)
+![](../assets/preset-recent-update-screen.png)
 
 ### 更新狀態 {#update-statuses}
 
@@ -329,7 +288,7 @@ ht-degree: 1%
 
 1. 選擇「**[!UICONTROL Deactivate]**」。
 
-   ![](assets/preset-deactivate.png)
+   ![](../assets/preset-deactivate.png)
 
 >[!NOTE]
 >
@@ -337,7 +296,7 @@ ht-degree: 1%
 
 不能直接編輯已停用的消息預設。 但是，您可以複製該副本並編輯該副本，以建立將用於建立新郵件的新版本。 您也可以再次激活它，並等待更新成功編輯它。
 
-![](assets/preset-activate.png)
+![](../assets/preset-activate.png)
 
 ## How-to視頻{#video-presets}
 

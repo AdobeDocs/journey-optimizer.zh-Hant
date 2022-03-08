@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 904fd645cba550fdb65821292293bf7d838c66f6
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 9%
+source-wordcount: '659'
+ht-degree: 5%
 
 ---
 
@@ -145,12 +145,10 @@ Handlebars幫助程式是一個簡單的標識符，可以跟隨參數。
 
 ## URL個性化{#perso-urls}
 
-個人化 URL 會根據設定檔屬性，將收件者帶往網站特定頁面或個人化微網站。 在Adobe Journey Optimizer，您可以將個性化添加到消息內容中的URL。 URL 個人化可套用至文字和影像，同時使用個人資料或內容資料。
+Journey Optimizer允許您通過向郵件中添加個性化欄位來個性化郵件中的一個或多個URL。 執行方法：
 
-Journey Optimizer允許您通過向郵件中添加個性化欄位來個性化郵件中的一個或多個URL。 要個性化URL，請執行以下步驟：
-
-1. 在郵件內容中建立連結。 [了解更多](../messages/message-tracking.md#insert-links)
-1. 從個性化表徵圖中，選擇屬性。 個性化表徵圖僅可用於以下類型的連結： **外部連結**。 **取消訂閱連結** 和 **選擇退出**。
+* 在電子郵件或推送內容中建立連結。 要瞭解有關連結建立的詳細資訊，請參閱 [此頁](../messages/message-tracking.md#insert-links)。
+* 按一下個性化表徵圖。 此表徵圖可用於以下特定類型的連結： **外部連結**。 **取消訂閱連結** 和 **選擇退出**。
 
 ![](assets/perso-url.png)
 

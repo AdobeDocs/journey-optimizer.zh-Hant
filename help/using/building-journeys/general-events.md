@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 對於此類事件，只能添加標籤和說明。 無法編輯配置的其餘部分。 由技術用戶執行。 請參閱[此頁面](../event/about-events.md)。
 
-![](assets/general-events.png)
+![](../assets/general-events.png)
 
 刪除業務事件時，它會自動添加 **讀取段** 的子菜單。 有關業務事件的詳細資訊，請參閱 [此部分](../event/about-events.md)
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 1. 如果要在指定超時內未收到任何事件時將個人發送到超時路徑，請啟用 **[!UICONTROL Set a timeout path]** 的雙曲餘切值。 如果未啟用此選項，則一旦達到超時，個人的行程將結束。
 
-   ![](assets/event-timeout.png)
+   ![](../assets/event-timeout.png)
 
 在此示例中，此行程將首次向客戶發送歡迎推送。 然後，只有顧客在次日內進入餐廳時，它才會發送一份餐價折扣申請。 因此，我們將餐廳事件配置為1天超時：
 
@@ -47,4 +47,4 @@ ht-degree: 1%
 
 超時將應用於在 **[!UICONTROL Wait]** 的子菜單。 如果在指定超時之前未收到任何事件，則這些個人將流入一個超時路徑，或結束其行程。
 
-![](assets/event-timeout-group.png)
+![](../assets/event-timeout-group.png)

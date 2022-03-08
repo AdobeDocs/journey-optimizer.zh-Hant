@@ -5,10 +5,8 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: true
-hide: true
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 1%
@@ -19,7 +17,7 @@ ht-degree: 1%
 
 開始建立內容以便登錄 [首頁](create-lp.md#configure-primary-page) 或 [子頁](create-lp.md#configure-subpages)，將滑鼠懸停在首頁面內容上，然後按一下 **[!UICONTROL Open Designer]**。 也可以從右調色板中按一下相應的按鈕。
 
-![](assets/lp_open-designer.png)
+![](../assets/lp_open-designer.png)
 
 從那裡，您可以：
 
@@ -39,7 +37,7 @@ ht-degree: 1%
 
 1. 拖放特定於登錄頁的 **[!UICONTROL Form]** 元件從左調色板移入主工作區。
 
-   ![](assets/lp_designer-form-component.png)
+   ![](../assets/lp_designer-form-component.png)
 
    >[!NOTE]
    >
@@ -47,7 +45,7 @@ ht-degree: 1%
 
 1. 請選取模式。的 **[!UICONTROL Form content]** 頁籤顯示在右側的調色板中，以便您編輯窗體的不同欄位。
 
-   ![](assets/lp_designer-form-content-options.png)
+   ![](../assets/lp_designer-form-content-options.png)
 
    >[!NOTE]
    >
@@ -57,15 +55,15 @@ ht-degree: 1%
 
 1. 定義此複選框是選擇用戶加入還是退出：他們是同意接收通信，還是要求不再聯繫？
 
-   ![](assets/lp_designer-form-update.png)
+   ![](../assets/lp_designer-form-update.png)
 
 1. 選擇以下三個選項之間將更新的內容：
 
-   ![](assets/lp_designer-form-update-options.png)
+   ![](../assets/lp_designer-form-update-options.png)
 
    * **[!UICONTROL Subscription list]**:如果配置檔案選中此複選框，則必須選擇將更新的訂閱清單。 瞭解更多 [訂閱清單](subscription-list.md)。
 
-      ![](assets/lp_designer-form-subs-list.png)
+      ![](../assets/lp_designer-form-subs-list.png)
 
    * **[!UICONTROL Channel (email)]**:選擇加入或選擇退出適用於整個頻道。 例如，如果一個開啟的配置檔案有兩個電子郵件地址，則這兩個地址將從您的所有通信中排除。
 
@@ -73,11 +71,11 @@ ht-degree: 1%
 
 1. 按一下 **[!UICONTROL Add field]** > **[!UICONTROL Checkbox]** 複選框。 重複上述步驟以定義其屬性。
 
-   ![](assets/lp_designer-form-checkbox-2.png)
+   ![](../assets/lp_designer-form-checkbox-2.png)
 
 1. 添加所有所需複選框後，按一下 **[!UICONTROL Call to action]** 展開相應的部分。 它使您能夠定義 **[!UICONTROL Form]** 元件。
 
-   ![](assets/lp_designer-form-call-to-action.png)
+   ![](../assets/lp_designer-form-call-to-action.png)
 
 1. 定義按一下按鈕後將發生的情況：
 
@@ -85,7 +83,7 @@ ht-degree: 1%
    * **[!UICONTROL Confirmation text]**:鍵入將顯示的確認文本。
    * **[!UICONTROL Link to a subpage]**:配置 [子頁](create-lp.md#configure-subpages) 並從顯示的下拉清單中選擇它。
 
-   ![](assets/lp_designer-form-confirmation-action.png)
+   ![](../assets/lp_designer-form-confirmation-action.png)
 
 1. 定義在發生錯誤時按一下按鈕時將發生的情況：
 
@@ -94,15 +92,15 @@ ht-degree: 1%
 
    * **[!UICONTROL Link to a subpage]**:配置 [子頁](create-lp.md#configure-subpages) 並從顯示的下拉清單中選擇它。
 
-   ![](assets/lp_designer-form-error.png)
+   ![](../assets/lp_designer-form-error.png)
 
 1. 如果要在提交表單時進行其他更新，請選擇 **[!UICONTROL Opt in]** 或 **[!UICONTROL Opt out]**，並定義要更新訂閱清單、渠道還是僅使用的電子郵件地址。
 
-   ![](assets/lp_designer-form-additionnal-update.png)
+   ![](../assets/lp_designer-form-additionnal-update.png)
 
 1. 保存您的內容，然後按一下頁面名稱旁的箭頭返回至 [登錄頁屬性](create-lp.md#configure-primary-page)。
 
-   ![](assets/lp_designer-form-save.png)
+   ![](../assets/lp_designer-form-save.png)
 
 <!--Will the name Email Designer be kept if you can also design LP with the same tool? > To modify in Messages section > content designer or Designer-->
 
@@ -110,25 +108,25 @@ ht-degree: 1%
 
 1. 要修改窗體元件內容的樣式，請隨時切換到 **[!UICONTROL Form style]** 頁籤。
 
-   ![](assets/lp_designer-form-style.png)
+   ![](../assets/lp_designer-form-style.png)
 
 1. 展開 **[!UICONTROL Checkboxes]** 的子菜單。 例如，可以調整字型系列或大小以及複選框邊框顏色。
 
-   ![](assets/lp_designer-form-style-checkboxes.png)
+   ![](../assets/lp_designer-form-style-checkboxes.png)
 
 1. 展開 **[!UICONTROL Buttons]** 按鈕。 例如，可以添加邊框、在懸停時編輯標籤顏色或調整按鈕的對齊。
 
-   ![](assets/lp_designer-form-style-buttons.png)
+   ![](../assets/lp_designer-form-style-buttons.png)
 
    使用 **[!UICONTROL Preview]** 按鈕 瞭解有關測試登錄頁的詳細資訊 [這裡](create-lp.md#test-landing-page)。
 
-   ![](assets/lp_designer-form-style-buttons-preview.png)
+   ![](../assets/lp_designer-form-style-buttons-preview.png)
 
 1. 展開 **[!UICONTROL Form layout]** 的子菜單。
 
-   ![](assets/lp_designer-form-style-layout.png)
+   ![](../assets/lp_designer-form-style-layout.png)
 
 1. 展開 **[!UICONTROL Form error]** 的子菜單。 選中相應選項以預覽窗體上的錯誤文本。
 
-   ![](assets/lp_designer-form-error-preview.png)
+   ![](../assets/lp_designer-form-error-preview.png)
 

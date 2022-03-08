@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 1%
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 從 **[!UICONTROL Executions]** 頁籤 **[!UICONTROL Messages]** 菜單，選擇 **[!UICONTROL Live view]** 然後，從選定交貨的「高級」菜單中選擇 **[!UICONTROL Live report]**。
 
-![](assets/live_report.png)
+![](../assets/live_report.png)
 
 電子郵件 **[!UICONTROL Live report]** 被分成不同的小部件，詳細列出交付的成功和錯誤。 如果需要，可以調整每個小部件的大小並將其刪除。 有關此項的詳細資訊，請參閱 [節](live-report.md#modify-dashboard)。
 
-![](assets/live_report_5.png)
+![](../assets/live_report_5.png)
 
 **[!UICONTROL Email performance]** 和 **[!UICONTROL Email summary]** 小部件使用圖表和KPI詳細列出與消息相關的主要資訊：
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Errors]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
 
-![](assets/live_report_6.png)
+![](../assets/live_report_6.png)
 
 的 **[!UICONTROL Error Reasons]** 圖形和表格允許您查看在交付期間發生的錯誤。
 
@@ -68,7 +68,7 @@ ht-degree: 1%
 * **[!UICONTROL Ignored]**:臨時（如「外出」）或技術錯誤（例如，如果發件人類型是郵遞員）的總數。
 
 <!--
-![](assets/live_report_8.png)
+![](../assets/live_report_8.png)
 
 >[!NOTE]
 >

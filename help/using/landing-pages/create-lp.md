@@ -5,31 +5,41 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: true
-hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
+source-git-commit: bd940f023795da1bc93f8dba537ef3a04258e033
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 3%
+source-wordcount: '955'
+ht-degree: 2%
 
 ---
 
 # 建立和發佈登錄頁 {#create-lp}
 
->[!CAUTION]
->
->登錄頁目前僅可供選定用戶提前訪問。 如果您想利用此功能，請與Adobe客戶經理聯繫。
-
 ## 訪問登錄頁 {#access-landing-pages}
 
 要訪問登錄頁清單，請選擇 **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** 的下界。
 
-![](assets/lp_access-list.png)
+![](../assets/lp_access-list.png)
 
 的 **[!UICONTROL Landing Pages]** 清單顯示所有建立的項目。 您可以根據其狀態或修改日期來篩選它們。
 
-![](assets/lp_access-list-filter.png)
+![](../assets/lp_access-list-filter.png)
+
+在此清單中，您可以訪問 [登錄頁報告](lp-report.md) 的子菜單。
+
+您還可以刪除、複製和取消發佈登錄頁。
+
+>[!CAUTION]
+>
+>如果取消發佈在未發佈消息中引用的登錄頁，則在重新發佈登錄頁之前無法發佈該消息。 如果消息已發佈，則登錄頁的連結將斷開，並顯示錯誤頁。
+
+按一下登錄頁旁邊的三個點以選擇所需的操作。
+
+![](../assets/lp_access-list-actions.png)
+
+>[!NOTE]
+>
+>無法刪除已發佈的登錄頁。 要刪除它，必須先取消發佈它。
 
 ## 建立登陸頁面 {#create-landing-page}
 
@@ -37,29 +47,25 @@ ht-degree: 3%
 
 1. 在登錄頁清單中，按一下 **[!UICONTROL Create landing page]**。
 
-   ![](assets/lp_create-lp.png)
+   ![](../assets/lp_create-lp.png)
 
 1. 添加標題。 如果需要，可以添加說明。
 
-   ![](assets/lp_create-lp-details.png)
+   ![](../assets/lp_create-lp-details.png)
 
-1. 選擇預設。
+1. 選擇預設。 瞭解如何在中建立登錄頁預設 [此部分](../configuration/lp-configuration.md#lp-create-preset)。
 
-   ![](assets/lp_create-lp-presets.png)
-
-   >[!NOTE]
-   >
-   >要定義登錄頁預設，請與Adobe客戶代表或 [Adobe客戶服務支援團隊](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
+   ![](../assets/lp_create-lp-presets.png)
 
 1. 按一下「**[!UICONTROL Create]**」。
 
 1. 顯示首頁及其屬性。 瞭解如何配置首頁設定 [這裡](#configure-primary-page)。
 
-   ![](assets/lp_primary-page.png)
+   ![](../assets/lp_primary-page.png)
 
 1. 按一下+表徵圖可添加子頁。 瞭解如何配置子頁設定 [這裡](#configure-subpages)。
 
-   ![](assets/lp_add-subpage.png)
+   ![](../assets/lp_add-subpage.png)
 
 配置和設計 [首頁](#configure-primary-page)的 [子頁](#configure-subpages) 如果有，你可以 [test](#test-landing-page) 和 [發佈](#publish-landing-page) 登錄頁。
 
@@ -73,15 +79,15 @@ ht-degree: 3%
 
 1. 使用內容設計器編輯頁面的內容。 瞭解如何定義登錄頁內容 [這裡](design-lp.md)。
 
-   ![](assets/lp_open-designer.png)
+   ![](../assets/lp_open-designer.png)
 
-1. 定義登錄頁URL。 URL的第一部分要求執行域委派。 它已預填充，無法通過用戶介面編輯。 要設定它，請與Adobe帳戶代表或 [Adobe客戶服務支援團隊](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
+1. 定義登錄頁URL。 URL的第一部分要求您先前設定登錄頁子域。 [了解更多](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
    >登錄頁URL必須唯一。
 
-   ![](assets/lp_access-url.png)
+   ![](../assets/lp_access-url.png)
 
 1. 您可以為頁面定義到期日期。 在這種情況下，必須在頁面到期時選擇操作：
 
@@ -89,17 +95,17 @@ ht-degree: 3%
    * **[!UICONTROL Custom page]**: [配置子頁](#configure-subpages) 並從顯示的下拉清單中選擇它。
    * **[!UICONTROL Browser error]**:鍵入將顯示的錯誤文本，而不是頁面。
 
-   ![](assets/lp_expiry-date.png)
+   ![](../assets/lp_expiry-date.png)
 
    <!--1. In the **[!UICONTROL Additional data]** section, define a **[!UICONTROL Key]** and the corresponding **[!UICONTROL Parameter value]**. // you can define how the data entered in the landing page is managed once it has been submitted by a user??-->
 
 1. 如果您在 [設計首頁](design-lp.md)，它們顯示在 **[!UICONTROL Subscription list]** 的子菜單。
 
-   ![](assets/lp_subscription-list.png)
+   ![](../assets/lp_subscription-list.png)
 
 1. 從登錄頁，您可以直接 [建立旅程](../building-journeys/journey-gs.md#jo-build) 在用戶提交表單時向其發送確認消息。 學習如何在此之後構建這樣的旅程 [用例](lp-use-cases.md#subscription-to-a-service)。
 
-   ![](assets/lp_create-journey.png)
+   ![](../assets/lp_create-journey.png)
 
    按一下 **[!UICONTROL Create journey]** 要重定向到 **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** 清單框。
 
@@ -113,13 +119,13 @@ ht-degree: 3%
 
 1. 使用內容設計器編輯頁面的內容。 瞭解如何定義登錄頁內容 [這裡](design-lp.md)。
 
-1. 定義登錄頁URL。 URL的第一部分要求執行域委派。 它已預填充，無法通過用戶介面編輯。 要設定它，請與Adobe帳戶代表或 [Adobe客戶服務支援團隊](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
+1. 定義登錄頁URL。 URL的第一部分要求執行域委派。 它已預填充，無法通過用戶介面編輯。 要設定它，請與Adobe帳戶代表或 [Adobe客戶服務支援團隊](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
 
    >[!CAUTION]
    >
    >登錄頁URL必須唯一。
 
-![](assets/lp_subpage-settings.png)
+![](../assets/lp_subpage-settings.png)
 
 ## Test登錄頁 {#test-landing-page}
 
@@ -131,7 +137,7 @@ ht-degree: 3%
 
 1. 在登錄頁介面中，按一下 **[!UICONTROL Preview & test]** 按鈕，來查看test配置檔案選擇。
 
-   ![](assets/lp_preview-button.png)
+   ![](../assets/lp_preview-button.png)
 
    >[!NOTE]
    >
@@ -139,17 +145,17 @@ ht-degree: 3%
 
 1. 從 **[!UICONTROL Preview & test]** 螢幕中，選擇一個或多個test配置檔案。
 
-   ![](assets/lp_test-profiles.png)
+   ![](../assets/lp_test-profiles.png)
 
    選擇test配置檔案的步驟與測試消息時的步驟相同。 詳細資訊 [此部分](../messages/preview.md#select-test-profiles)。
 
 1. 選擇 **[!UICONTROL Preview]** 頁籤 **[!UICONTROL Open preview]** test登錄頁。
 
-   ![](assets/lp_open-preview.png)
+   ![](../assets/lp_open-preview.png)
 
 1. 登錄頁的預覽將在新頁籤中開啟。 個性化元素被所選test配置檔案資料替換。
 
-   ![](assets/lp_preview.png)
+   ![](../assets/lp_preview.png)
 
 1. 選擇其他test配置檔案以預覽登錄頁的每個變體的呈現。
 
@@ -159,7 +165,7 @@ ht-degree: 3%
 
 警報顯示在螢幕的右上方，如下所示：
 
-![](assets/lp_alerts.png)
+![](../assets/lp_alerts.png)
 
 >[!NOTE]
 >
@@ -196,7 +202,7 @@ ht-degree: 3%
 
 登錄頁準備好後，您可以發佈它，使其在消息中可用。
 
-![](assets/lp_publish.png)
+![](../assets/lp_publish.png)
 
 >[!CAUTION]
 >

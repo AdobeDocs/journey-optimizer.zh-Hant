@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 要訪問此功能，請選擇 **[!UICONTROL Simulation]** 的 **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** 的子菜單。
 
-![](../assets/offers_simulation-tab.png)
+![](../../assets/offers_simulation-tab.png)
 
 <!--
 ➡️ [Discover this feature in video](#video)
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 1. 按一下「**[!UICONTROL Manage profile]**」。
 
-   ![](../assets/offers_simulation-manage-profile.png)
+   ![](../../assets/offers_simulation-manage-profile.png)
 
 1. 選擇要用於標識test配置檔案的標識命名空間。 在此示例中，我們將使用 **電子郵件** 命名空間。
 
@@ -51,15 +51,15 @@ ht-degree: 1%
 
 1. 輸入標識值，然後按一下 **[!UICONTROL View]** 清單可用的配置檔案。
 
-   ![](../assets/offers_simulation-add-profile.png)
+   ![](../../assets/offers_simulation-add-profile.png)
 
 1. 如果要test不同的配置檔案資料，則添加其他配置檔案，並保存您的選擇。
 
-   ![](../assets/offers_simulation-save-profiles.png)
+   ![](../../assets/offers_simulation-save-profiles.png)
 
 1. 添加後，所有配置檔案都將列在下面的下拉清單中 **[!UICONTROL Test profile]**。 可以在保存的test配置檔案之間切換以顯示每個選定配置檔案的結果。
 
-   ![](../assets/offers_simulation-saved-profiles.png)
+   ![](../../assets/offers_simulation-saved-profiles.png)
 
    >[!NOTE]
    >
@@ -75,11 +75,11 @@ ht-degree: 1%
 
 1. 選擇「**[!UICONTROL Add decision scope]**」。
 
-   ![](../assets/offers_simulation-add-decision.png)
+   ![](../../assets/offers_simulation-add-decision.png)
 
 1. 從清單中選取一個放置。
 
-   ![](../assets/offers_simulation-add-decision-scope.png)
+   ![](../../assets/offers_simulation-add-decision-scope.png)
 
 1. 將顯示可用決策。
 
@@ -88,13 +88,13 @@ ht-degree: 1%
 
    選擇您選擇的決定，然後按一下 **[!UICONTROL Add]**。
 
-   ![](../assets/offers_simulation-add-decision-scope-add.png)
+   ![](../../assets/offers_simulation-add-decision-scope-add.png)
 
 1. 您剛定義的決策範圍將顯示在主工作區中。
 
    您可以調整要請求的優惠數量。 例如，如果選擇2，則此決策範圍將顯示最佳的2個優惠。
 
-   ![](../assets/offers_simulation-request-offer.png)
+   ![](../../assets/offers_simulation-request-offer.png)
 
    >[!NOTE]
    >
@@ -102,7 +102,7 @@ ht-degree: 1%
 
 1. 重複上述步驟，以根據需要添加任意多個決策。
 
-   ![](../assets/offers_simulation-add-more-decisions.png)
+   ![](../../assets/offers_simulation-add-more-decisions.png)
 
    >[!NOTE]
    >
@@ -114,11 +114,11 @@ ht-degree: 1%
 
 1. 按一下「**[!UICONTROL Settings]**」。
 
-   ![](../assets/offers_simulation-settings.png)
+   ![](../../assets/offers_simulation-settings.png)
 
 1. 在 **[!UICONTROL Deduplication]** 部分，您可以選擇允許在決策和/或放置中重複的報價。 這意味著，多個決策/職位安排可能會分配相同的報價。
 
-   ![](../assets/offers_simulation-settings-deduplication.png)
+   ![](../../assets/offers_simulation-settings-deduplication.png)
 
    >[!NOTE]
    >
@@ -126,7 +126,7 @@ ht-degree: 1%
 
 1. 在 **[!UICONTROL Response format]** 部分，您可以選擇在代碼視圖中包括元資料。 選中相應選項，然後選擇您選擇的元資料。 在選擇請求和響應負載時，它們將顯示在 **[!UICONTROL View code]**。 在 [查看模擬結果](#simulation-results) 的子菜單。
 
-   ![](../assets/offers_simulation-settings-response-format.png)
+   ![](../../assets/offers_simulation-settings-response-format.png)
 
    >[!NOTE]
    >
@@ -158,13 +158,13 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 1. 按一下「**[!UICONTROL View results]**」。
 
-   ![](../assets/offers_simulation-view-results.png)
+   ![](../../assets/offers_simulation-view-results.png)
 
 1. 根據每個決策的所選簡檔顯示最佳可用報價。
 
    選擇要顯示其詳細資訊的優惠。
 
-   ![](../assets/offers_simulation-offer-details.png)
+   ![](../../assets/offers_simulation-offer-details.png)
 
 1. 按一下 **[!UICONTROL View code]** 顯示請求和響應負載。 [了解更多](#view-code)
 
@@ -180,19 +180,19 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 1. 使用 **[!UICONTROL View code]** 按鈕以顯示請求和響應負載。
 
-   ![](../assets/offers_simulation-view-code.png)
+   ![](../../assets/offers_simulation-view-code.png)
 
    代碼視圖顯示當前用戶的開發人員資訊。 預設情況下， **[!UICONTROL Response payload]** 的上界。
 
-   ![](../assets/offers_simulation-request-payload.png)
+   ![](../../assets/offers_simulation-request-payload.png)
 
 1. 按一下 **[!UICONTROL Response payload]** 或 **[!UICONTROL Request payload]** 在兩個頁籤之間導航。
 
-   ![](../assets/offers_simulation-response-payload.png)
+   ![](../../assets/offers_simulation-response-payload.png)
 
 1. 在外部使用請求負載 [!DNL Journey Optimizer]  — 用於排除故障，例如，使用 **[!UICONTROL Copy to clipboard]** 按鈕。
 
-   ![](../assets/offers_simulation-copy-payload.png)
+   ![](../../assets/offers_simulation-copy-payload.png)
 
    <!--You cannot copy the response payload. ACTUALLY YES YOU CAN > to confirm with PM/dev? -->
 

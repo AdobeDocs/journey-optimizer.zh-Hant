@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 10%
@@ -36,15 +36,15 @@ ht-degree: 10%
 
 1. 訪問 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** 菜單，然後按一下 **[!UICONTROL Set up subdomain]**。
 
-   ![](assets/subdomain-delegate.png)
+   ![](../assets/subdomain-delegate.png)
 
 1. 選擇 **[!UICONTROL Fully delegated]** 從 **[!UICONTROL Set up method]** 的子菜單。
 
-   ![](assets/subdomain-method-full.png)
+   ![](../assets/subdomain-method-full.png)
 
 1. 指定要委託的子域的名稱。
 
-   ![](assets/subdomain-name.png)
+   ![](../assets/subdomain-name.png)
 
    >[!CAUTION]
    >
@@ -56,7 +56,7 @@ ht-degree: 10%
 
 1. 確保所有DNS記錄都已生成到您的域托管解決方案中。 如果所有內容都配置正確，請選中「I confirm...（我確認……）」框，然後按一下 **[!UICONTROL Submit]**。
 
-   ![](assets/subdomain-submit.png)
+   ![](../assets/subdomain-submit.png)
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ ht-degree: 10%
 
 1. 提交完整子域委派後，子域將顯示在清單中， **[!UICONTROL Processing]** 狀態。 有關子域狀態的詳細資訊，請參閱 [此部分](access-subdomains.md)。
 
-   ![](assets/subdomain-processing.png)
+   ![](../assets/subdomain-processing.png)
 
    在能夠使用該子域發送消息之前，您需要等待Adobe執行所需的檢查，這可能需要3個小時。 瞭解詳情 [此部分](#subdomain-validation)。
 
@@ -96,13 +96,13 @@ CNAME 子網域委派可讓您建立子網域，並使用 CNAME 指向 Adobe 特
 >
 >如果貴司的原則限制完整的子網域委派法，則建議使用此方法。此方法要求您自行維護和管理DNS記錄。 Adobe將無法幫助更改、維護或管理通過CNAME方法配置的子域的DNS。
 
-要使用CNAME委託子域，請執行以下步驟：
+要使用CNAME委派子域，請執行以下步驟：
 
 1. 訪問 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** 菜單，然後按一下 **[!UICONTROL Set up subdomain]**。
 
 1. 選擇 **[!UICONTROL CNAME set up]** 的雙曲餘切值。
 
-   ![](assets/subdomain-method-cname.png)
+   ![](../assets/subdomain-method-cname.png)
 
 1. 指定要委託的子域的名稱。
 
@@ -116,7 +116,7 @@ CNAME 子網域委派可讓您建立子網域，並使用 CNAME 指向 Adobe 特
 
 1. 確保所有DNS記錄都已生成到您的域托管解決方案中。 如果所有內容都配置正確，請選中「I confirm...」（我確認……）框。
 
-   ![](assets/subdomain-create-dns-confirm.png)
+   ![](../assets/subdomain-create-dns-confirm.png)
 
    >[!NOTE]
    >
@@ -130,7 +130,7 @@ CNAME 子網域委派可讓您建立子網域，並使用 CNAME 指向 Adobe 特
 
 1. Adobe生成SSL CDN URL驗證記錄。 將此驗證記錄複製到托管平台。 如果已在托管解決方案上正確建立了此記錄，請選中「I confirm...」（我確認……）框，然後按一下 **[!UICONTROL Submit]**。
 
-   ![](assets/subdomain-cdn-url-validation.png)
+   ![](../assets/subdomain-cdn-url-validation.png)
 
    >[!NOTE]
    >

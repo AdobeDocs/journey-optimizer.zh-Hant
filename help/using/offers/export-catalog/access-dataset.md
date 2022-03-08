@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 10%
@@ -17,14 +17,14 @@ ht-degree: 10%
 
 出口的服務目錄可在Adobe Experience Platform訪問 **[!UICONTROL Datasets]** 的子菜單。 為您的服務庫的每個對象建立一個資料集。
 
-![](../assets/datasets-list.png)
+![](../../assets/datasets-list.png)
 
 按一下資料集以訪問其詳細資訊。
 
-![](../assets/dataset-activity.png)
+![](../../assets/dataset-activity.png)
 
 的 **[!UICONTROL Preview dataset]** 按鈕可顯示資料集中最近成功的批處理。 左窗格提供有關已導出資料類型的資訊。
 
-![](../assets/dataset-preview.png)
+![](../../assets/dataset-preview.png)
 
 有關如何瀏覽和使用資料集的詳細資訊，請參閱 [此頁](../../start/get-started-datasets.md)。

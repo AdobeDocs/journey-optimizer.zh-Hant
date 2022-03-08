@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1597'
 ht-degree: 2%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 2%
 
 1. 要激活test模式，請按一下 **[!UICONTROL Test]** 切換，位於右上角。
 
-   ![](assets/journeytest1.png)
+   ![](../assets/journeytest1.png)
 
 1. 使用 **[!UICONTROL Wait time]** 參數，用於定義每個等待活動和事件超時在test模式下持續的時間。 預設時間為等待和事件超時的10秒。 這將確保您快速獲得test結果。 僅當您在行程中丟棄了一個或多個等待活動時，才會顯示此參數。
 
-   ![](assets/journeytest_wait.png)
+   ![](../assets/journeytest_wait.png)
 
    >[!NOTE]
    >
@@ -39,15 +39,15 @@ ht-degree: 2%
 
 1. 按一下 **[!UICONTROL Trigger an event]** 配置事件並將事件發送到旅程。
 
-   ![](assets/journeyuctest1.png)
+   ![](../assets/journeyuctest1.png)
 
 1. 配置所需的不同欄位。 在 **配置檔案標識符** 欄位，輸入用於標識test配置檔案的欄位值。 例如，它可以是電子郵件地址。 確保發送與test配置檔案相關的事件。 請參閱 [發射事件](#firing_events)。
 
-   ![](assets/journeyuctest1-bis.png)
+   ![](../assets/journeyuctest1-bis.png)
 
 1. 收到事件後，按一下 **[!UICONTROL Show log]** 按鈕查看test結果並驗證它們。 請參閱 [查看日誌](#viewing_logs)。
 
-   ![](assets/journeyuctest2.png)
+   ![](../assets/journeyuctest2.png)
 
 1. 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。當test確鑿時，你可以發表你的旅程。 請參閱[此頁面](../building-journeys/publishing-the-journey.md)。
 
@@ -61,7 +61,6 @@ ht-degree: 2%
 * 您可以根據需要多次啟用/禁用test模式。
 * 激活test模式時，無法修改行程。 在test模式下，您可以直接發佈行程，無需先前停用test模式。
 * 到達分割時，總是選擇頂部分支。 如果希望test選擇其他路徑，則可以重新組織拆分分支的位置。
-* 為優化效能並防止過時的資源使用，所有處於test模式且一週內未觸發的行程都將切換回「草稿」狀態。
 
 ## 發射事件 {#firing_events}
 
@@ -75,17 +74,17 @@ ht-degree: 2%
 
 如果您的行程包含多個事件，請使用下拉清單選擇一個事件。 然後，對於每個事件，配置傳遞的欄位和事件發送的執行。 該介面可幫助您在事件負載中傳遞正確的資訊並確保資訊類型正確。 test模式將保存test會話中使用的最後一個參數，以供以後使用。
 
-![](assets/journeytest4.png)
+![](../assets/journeytest4.png)
 
 該介面允許您傳遞簡單事件參數。 如果要傳遞事件中的集合或其他高級對象，可按一下 **[!UICONTROL Code View]** 查看負載的整個代碼並對其進行修改。 例如，您可以複製和貼上由技術用戶準備的事件資訊。
 
-![](assets/journeytest5.png)
+![](../assets/journeytest5.png)
 
 技術用戶也可以使用此介面來合成事件負載和觸發事件，而無需使用第三方工具。
 
 按一下 **[!UICONTROL Send]** 按鈕，test開始。 在行程中個體的進度由視覺流表示。 當個人穿過旅程時，路徑逐漸變綠。 如果發生錯誤，則在相應步驟上顯示警告符號。 您可以將游標置於其上以顯示有關錯誤的詳細資訊並訪問完整詳細資訊（如果可用）。
 
-![](assets/journeytest6.png)
+![](../assets/journeytest6.png)
 
 在事件配置螢幕中選擇其他test配置檔案並再次運行test時，會清除可視流並顯示新個人的路徑。
 
@@ -99,7 +98,7 @@ test模式也可用於使用基於規則的事件的行程。 有關基於規則
 
 觸發事件時， **事件配置** 螢幕允許您定義要在test中傳遞的事件參數。 通過按一下右上角的工具提示表徵圖，可以查看事件ID條件。 每個屬於規則評估的欄位旁邊也提供工具提示。
 
-![](assets/jo-event8.png)
+![](../assets/jo-event8.png)
 
 有關如何使用test模式的詳細資訊，請參閱 [此頁](../building-journeys/testing-the-journey.md)。
 
@@ -113,7 +112,7 @@ test模式也可用於使用基於規則的事件的行程。 有關基於規則
 
 的 **[!UICONTROL Show log]** 按鈕來查看test結果。 此頁以JSON格式顯示行程的當前資訊。 一個按鈕允許您複製整個節點。 您需要手動刷新頁面以更新行程的test結果。
 
-![](assets/journeytest3.png)
+![](../assets/journeytest3.png)
 
 >[!NOTE]
 >

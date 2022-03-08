@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -20,31 +20,27 @@ ht-degree: 0%
 
 * 如果要在行程上下文中確定行程或交貨，請從 **[!UICONTROL Journeys]** 菜單，訪問您的旅程，然後按一下 **[!UICONTROL Live report]** 表徵圖 然後，您可以找到「旅程」、「電子郵件」和「推送」即時報告。
 
-   ![](assets/report_journey.png)
+   ![](../assets/report_journey.png)
 
 * 如果要針對特定交貨，請從 **[!UICONTROL Live view]** 的 **[!UICONTROL Executions]** 頁籤，選擇 **[!UICONTROL Live Report]** 的子菜單。
 
-   ![](assets/report_2.png)
+   ![](../assets/report_2.png)
 
 ## 自定義儀表板 {#modify-dashboard}
 
 可通過調整小部件大小或刪除小部件來修改每個報告儀表板。 更改小部件僅影響當前用戶的儀表板。 其他用戶將看到自己的儀表板或預設設定的儀表板。
 
-1. 選擇是否要使用切換欄從報表中排除test事件。 有關test事件的詳細資訊，請參閱 [此頁](../building-journeys/testing-the-journey.md)。
+1. 在您的即時報告中，按一下 **[!UICONTROL Modify]**。
 
-   ![](assets/report_modify_6.png)
-
-1. 要調整小部件大小或刪除小部件，請按一下 **[!UICONTROL Modify]**。
-
-   ![](assets/report_modify_7.png)
+   ![](../assets/report_modify_1.png)
 
 1. 通過拖動小部件的右下角來調整小部件大小。
 
-   ![](assets/report_modify_8.png)
+   ![](../assets/report_modify_2.png)
 
-1. 按一下 **[!UICONTROL Remove]** 刪除任何不需要的小部件。
+1. 按一下 **[!UICONTROL Remove]** 刪除不需要跟蹤彈出的其他小部件。
 
-   ![](assets/report_modify_9.png)
+   ![](../assets/report_modify_3.png)
 
 1. 對顯示順序和小部件大小感到滿意後，按一下 **[!UICONTROL Save]**。
 

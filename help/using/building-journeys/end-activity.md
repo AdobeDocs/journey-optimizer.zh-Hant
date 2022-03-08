@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 76c74ca3-edaa-48c5-8d6a-0906120e31a1
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 11%
@@ -17,4 +17,4 @@ ht-degree: 11%
 
 的 **[!UICONTROL End]** 活動允許您標籤旅程的每條路徑的結束。 它不是強制性的，但建議使視覺清晰。 實際上，如果行程中有幾個結束活動，我們建議您在每個結束添加一個標籤，以便更容易閱讀報告。 請參閱[此頁面](../reports/live-report.md)。
 
-![](assets/journey54.png)
+![](../assets/journey54.png)

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,6 @@ ht-degree: 0%
 * 不能使用 **更新配置檔案** 操作以生成體驗事件，例如採購。
 * 與任何其他操作一樣，在出現錯誤或超時時，您可以定義替代路徑，並且不能並行放置兩個操作。
 * 發送到平台的更新請求將快速，但不是立即/在一秒內。 通常需要幾秒，但有時還需要更多時間，而且無法保證。 因此，例如，如果操作使用的是「欄位1」，而更新配置檔案操作正在前面定位，則您不應期望在操作中更新「欄位1」。
-* 的 **更新配置檔案** 活動不支援定義為枚舉的XDM欄位。
 
 ## 使用test模式 {#using-the-test-mode}
 
@@ -40,13 +39,13 @@ ht-degree: 0%
 
 1. 在 **操作** 的下一頁 **更新配置檔案** 的下界。
 
-   ![](assets/profileupdate0.png)
+   ![](../assets/profileupdate0.png)
 
 1. 從清單中選擇一個架構。
 
 1. 按一下 **欄位** 的子菜單。 只能選擇一個欄位。
 
-   ![](assets/profileupdate2.png)
+   ![](../assets/profileupdate2.png)
 
 1. 從清單中選擇資料集。
 
@@ -58,12 +57,12 @@ ht-degree: 0%
 
    * 使用簡單表達式編輯器，可以從資料源或傳入事件中選擇一個欄位。
 
-      ![](assets/profileupdate4.png)
+      ![](../assets/profileupdate4.png)
 
    * 如果要定義特定值或利用高級功能，請按一下 **高級模式**。
 
-      ![](assets/profileupdate3.png)
+      ![](../assets/profileupdate3.png)
 
 的 **更新配置檔案** 已配置。
 
-![](assets/profileupdate1.png)
+![](../assets/profileupdate1.png)

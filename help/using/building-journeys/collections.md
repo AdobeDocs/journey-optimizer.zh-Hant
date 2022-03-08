@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: 使用自訂動作以動態方式傳遞集合
 description: 使用 Campaign v7/v8 傳送訊息
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 5%
@@ -103,7 +103,7 @@ ht-degree: 5%
 
 1. 在 **[!UICONTROL Action parameters]** 部分，貼上JSON示例。 顯示的結構是靜態的：貼上負載時，所有欄位都定義為常數。
 
-   ![](assets/uc-collection-1.png)
+   ![](../assets/uc-collection-1.png)
 
 1. 如果需要，請調整欄位類型。 集合支援以下欄位類型：listString、listInteger、listDecimal、listBoolean、listDateTime、listDateTimeOnly、listDateOnly、listOdateOnly、listObject
 
@@ -119,27 +119,27 @@ ht-degree: 5%
 
 1. 對於每個欄位，定義將顯示在行程畫布中的標籤。
 
-   ![](assets/uc-collection-2.png)
+   ![](../assets/uc-collection-2.png)
 
 1. 建立行程並添加您建立的自定義操作。 請參閱[此頁面](../building-journeys/using-custom-actions.md)。
 
 1. 在 **[!UICONTROL Action parameters]** 部分，使用高級表達式編輯器定義陣列參數（本例中的「products」）。
 
-   ![](assets/uc-collection-3.png)
+   ![](../assets/uc-collection-3.png)
 
 1. 對於以下每個對象欄位，鍵入源XDM架構中的相應欄位名。 如果名稱相同，則不需要這樣做。 在示例中，我們只需定義「product id」和「color」。
 
-   ![](assets/uc-collection-4.png)
+   ![](../assets/uc-collection-4.png)
 
 對於陣列欄位，還可以使用高級表達式編輯器執行資料操作。 在以下示例中，我們使用 [濾波器](functions/functionfilter.md) 和 [相交](functions/functionintersect.md) 函式：
 
-![](assets/uc-collection-5.png)
+![](../assets/uc-collection-5.png)
 
 ## 特定案例{#examples}
 
 對於異構類型和陣列的陣列，使用listAny類型定義陣列。 您只能映射單個項，但無法將陣列更改為變數。
 
-![](assets/uc-collection-heterogeneous.png)
+![](../assets/uc-collection-heterogeneous.png)
 
 異源類型示例：
 

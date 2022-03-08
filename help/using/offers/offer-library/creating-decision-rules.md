@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 12%
@@ -23,13 +23,13 @@ ht-degree: 12%
 
 可在 **[!UICONTROL Components]** 的子菜單。
 
-![](../assets/decision_rules_list.png)
+![](../../assets/decision_rules_list.png)
 
 要建立決策規則，請執行以下步驟：
 
 1. 轉到 **[!UICONTROL Rules]** ，然後按一下 **[!UICONTROL Create rule]**。
 
-   ![](../assets/offers_decision_rule_creation.png)
+   ![](../../assets/offers_decision_rule_creation.png)
 
 1. 命名規則並提供說明，然後根據需要配置規則。
 
@@ -37,7 +37,7 @@ ht-degree: 12%
 
    在此示例中，規則將針對具有「黃金」忠誠度級別的客戶。
 
-   ![](../assets/offers_decision_rule_creation_segment.png)
+   ![](../../assets/offers_decision_rule_creation_segment.png)
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ ht-degree: 12%
 
 1. 建立規則後，該規則將顯示在規則清單中。 可以選擇它以顯示其屬性，並編輯或刪除它。
 
-   ![](../assets/rule_created.png)
+   ![](../../assets/rule_created.png)
 
 >[!CAUTION]
 >

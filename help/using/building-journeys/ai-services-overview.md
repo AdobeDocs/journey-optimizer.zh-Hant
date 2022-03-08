@@ -5,7 +5,7 @@ description: AI服務概述
 role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 1%
@@ -26,5 +26,5 @@ ht-degree: 1%
 
 因此，它們可以用作Journey Optimizer條件（作出最佳決策）、行動或段構建中的任何其他配置檔案屬性。
 
-![](assets/customer-ai.png)
+![](../assets/customer-ai.png)
 

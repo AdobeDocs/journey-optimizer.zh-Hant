@@ -3,7 +3,7 @@ title: Journey Optimizer資料工程師入門
 description: 作為資料工程師，瞭解如何與Journey Optimizer合作
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: a20bf3aa869ce73805c63323ac36e5d86a44746e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 9%
@@ -38,7 +38,7 @@ ht-degree: 9%
 
 此外，要在行程中發送消息，必須配置 **[!UICONTROL Data Sources]**。 **[!UICONTROL Events]** 和 **[!UICONTROL Actions]**。 請參閱[本節](../../configuration/about-data-sources-events-actions.md).
 
-![](../assets/admin-menu.png)
+![](../../assets/admin-menu.png)
 
 * 的 **資料源** 配置允許您定義到系統的連接，以檢索將在您的行程中使用的其他資訊。 瞭解有關資料源的詳細資訊 [此部分](../../datasource/about-data-sources.md)。
 

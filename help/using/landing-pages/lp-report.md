@@ -5,10 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hidefromtoc: true
-hide: true
 exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
-source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -25,11 +23,11 @@ ht-degree: 0%
 
 要訪問報表，請選擇 **實況** 或 **[!UICONTROL Global report]** 的子菜單。
 
-![](assets/landing_page_report_1.png)
+![](../assets/landing_page_report_1.png)
 
 ## 登錄頁即時報告 {#lp-live}
 
-![](assets/landing_page_report_2.png)
+![](../assets/landing_page_report_2.png)
 
 的 **[!UICONTROL Landing page performance]** 小部件通過KPI詳細列出過去24小時內與消息相關的主要資訊：
 
@@ -53,7 +51,7 @@ ht-degree: 0%
 
 的 **[!UICONTROL Other sources]** 小部件表示從外部源而不是旅程訪問登錄頁的次數。
 
-![](assets/landing_page_report_3.png)
+![](../assets/landing_page_report_3.png)
 
 的 **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** 圖形表示在過去24小時內與登錄頁成功交互的訪問和人員總數，具體取決於發送的消息。
 
@@ -61,7 +59,7 @@ ht-degree: 0%
 
 ## 登錄頁全局報告 {#lp-global}
 
-![](assets/landing_page_report_4.png)
+![](../assets/landing_page_report_4.png)
 
 的 **[!UICONTROL Number of visits]** 和 **[!UICONTROL Number of visits over time]** 通過小部件，您可以通過具有以下度量的圖表和KPI查看登錄頁在選定時間段的影響：
 
@@ -75,7 +73,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Bounce rate]**:未與登錄頁互動且未完成訂閱行動的人數，與訪問總數相比。
 
-![](assets/landing_page_report_5.png)
+![](../assets/landing_page_report_5.png)
 
 的 **[!UICONTROL Visit sources]** 構件表示訪問者訪問登錄頁的方式：
 
@@ -95,7 +93,7 @@ ht-degree: 0%
 
 的 **[!UICONTROL Other sources]** 小部件表示從外部源而不是旅程訪問登錄頁的次數。
 
-![](assets/landing_page_report_6.png)
+![](../assets/landing_page_report_6.png)
 
 的 **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** 圖形表示在相關期間與登錄頁成功交互的訪問和人員總數，具體取決於發送的消息。
 

@@ -1,41 +1,32 @@
 ---
 solution: Journey Orchestration
-title: 配置自定義操作
+title: 關於自訂動作組態
 description: 瞭解如何配置自定義操作
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 7c00fcf72ba001005b8e4ac548b789f37f9039a3
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '804'
 ht-degree: 6%
 
 ---
 
-# 配置自定義操作 {#configure-an-action}
+# 設定動作 {#configure-an-action}
 
-如果您使用第三方系統發送消息，或者如果希望行程將API調用發送到第三方系統，請使用自定義操作配置其到行程的連接。 例如，可以使用自定義操作連接到以下系統：Epsilon、Slack、Adobe.io、Firebase等
+如果您使用第三方系統發送消息，或者如果希望行程將API調用發送到第三方系統，則在此處配置其到行程的連接。 然後，技術用戶定義的自定義操作將在您旅程的左側調色板中提供。 **[!UICONTROL Action]** 類別(請參閱 [此頁](../building-journeys/about-journey-activities.md#action-activities)。 以下是一些系統示例，您可以通過自定義操作連接到這些系統：Epsilon、Slack、Adobe.io、Firebase等
 
-自定義操作是由技術用戶定義並可供營銷人員使用的附加操作。 配置後，它們會出現在您旅程的左側調色板中， **[!UICONTROL Action]** 的子菜單。 在[本頁](../building-journeys/about-journey-activities.md#action-activities)中瞭解更多。
+限制列在 [此頁](../start/limitations.md)。
 
-## 限制{#custom-actions-limitations}
-
-自定義操作附帶了中列出的一些限制 [此頁](../start/limitations.md)。
-
-在自定義操作參數中，可以傳遞簡單集合以及對象集合。 瞭解有關中的收集限制的詳細資訊 [此頁](../building-journeys/collections.md#limitations)。
-
-另請注意，自定義操作參數具有預期格式(例如：字串、小數等)。 您必須小心遵守這些預期格式。 瞭解更多資訊 [用例](../building-journeys/collections.md)。
-
-
-## 設定步驟 {#configuration-steps}
+您可以使用自定義操作動態傳遞集合。 請參閱此 [用例](../building-journeys/collections.md)。
 
 以下是配置自定義操作所需的主要步驟：
 
 1. 在「管理」(ADMINISTRATION)菜單部分，選擇 **[!UICONTROL Configurations]**。 在  **[!UICONTROL Actions]** ，按一下 **[!UICONTROL Manage]**。 按一下 **[!UICONTROL Create Action]** 的子菜單。 操作配置窗格在螢幕右側開啟。
 
-   ![](assets/custom2.png)
+   ![](../assets/custom2.png)
 
 1. 輸入操作的名稱。
 
@@ -60,7 +51,7 @@ ht-degree: 6%
 
 配置自定義操作時，需要定義以下 **[!UICONTROL URL Configuration]** 參數：
 
-![](assets/journeyurlconfiguration.png)
+![](../assets/journeyurlconfiguration.png)
 
 1. 在 **[!UICONTROL URL]** 欄位，指定外部服務的URL:
 
@@ -89,7 +80,7 @@ ht-degree: 6%
 
       如果已選擇 **[!UICONTROL Variable]**，則在將自定義操作添加到行程時將指定此變數。 [了解更多](../building-journeys/using-custom-actions.md)。
 
-      ![](assets/journeyurlconfiguration2.png)
+      ![](../assets/journeyurlconfiguration2.png)
 
    1. 要刪除標題欄位，請指向標題欄位，然後按一下 **[!UICONTROL Delete]** 表徵圖
    的 **[!UICONTROL Content-Type]** 和 **[!UICONTROL Charset]** 預設情況下設定標題欄位。 不能修改或刪除這些欄位。
@@ -102,11 +93,11 @@ ht-degree: 6%
 
 ## 定義操作參數 {#define-the-message-parameters}
 
-![](assets/messageparameterssection.png)
+![](../assets/messageparameterssection.png)
 
 在 **[!UICONTROL Action parameters]** 部分，貼上要發送到外部服務的JSON負載示例。
 
-![](assets/customactionpayloadmessage.png)
+![](../assets/customactionpayloadmessage.png)
 
 >[!NOTE]
 >
@@ -119,5 +110,5 @@ ht-degree: 6%
 * 常數表示參數的值在操作配置窗格中由技術角色定義。 不同旅程的價值始終相同。 它不會變化，營銷人員在旅途中使用自定義操作時不會看到它。 例如，可能是第三方系統需要的ID。 在這種情況下，切換常數/變數右側的欄位是傳遞的值。
 * 變數表示參數的值將發生變化。 在行程中使用此自定義操作的營銷人員可以免費傳遞他們想要的值，或指定在何處檢索此參數的值(例如從事件、從Adobe Experience Platform等)。 在這種情況下，切換常數/變數右側的欄位是標籤商在命名此參數的旅程中將看到的標籤。
 
-![](assets/customactionpayloadmessage2.png)
+![](../assets/customactionpayloadmessage2.png)
 

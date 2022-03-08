@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 您可以直接通過 **[!UICONTROL Live report]** 按鈕
 
-![](assets/report_1.png)
+![](../assets/report_1.png)
 
 旅程 **[!UICONTROL Live report]** 的子菜單。
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 從你的旅程 **[!UICONTROL Live report]**，也請參見Wiki頁。 **[!UICONTROL Journey]** 頁籤可讓您清楚地查看有關行程的最重要跟蹤資料。
 
-![](assets/report_journey_2.png)
+![](../assets/report_journey_2.png)
 
 **[!UICONTROL Journey Performance]** 允許您逐步查看目標配置檔案的路徑。
 
@@ -43,11 +43,11 @@ ht-degree: 1%
 
 * **[!UICONTROL Failed individual journeys]**:未成功執行的單個行程的總數。
 
-![](assets/report_journey_3.png)
+![](../assets/report_journey_3.png)
 
 的 **[!UICONTROL Event executed over the last 24 hours]** 和 **[!UICONTROL Events]** 通過小部件，您可以通過摘要編號、圖形和表來查看哪些事件已成功執行。
 
-![](assets/report_journey_4.png)
+![](../assets/report_journey_4.png)
 
 的 **[!UICONTROL Action executed over the last 24 hours]** 和 **[!UICONTROL Actions executed and errors]** 小部件表示觸發操作時發生的最成功的操作和錯誤。 「操作」圖形、表和摘要編號包含可用於操作的資料，例如：
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 * **[!UICONTROL Error in actions]**:為操作發生的錯誤總數。
 
 <!--
-![](assets/live_report_7.png)
+![](../assets/live_report_7.png)
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 有關特定電子郵件傳遞的詳細報告，請參閱 [電子郵件即時報告](email-live-report.md) 的子菜單。
 
-![](assets/report_email_1.png)
+![](../assets/report_email_1.png)
 
 的 **[!UICONTROL Email Sending Statistics]** 小部件詳細列出與消息相關的主要資訊：
 
@@ -105,7 +105,7 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 * **[!UICONTROL Spam complaints]**:將郵件聲明為垃圾郵件或垃圾郵件的次數。
 
-![](assets/report_email_2.png)
+![](../assets/report_email_2.png)
 
 的 **[!UICONTROL Bounce Reasons]**。 **[!UICONTROL Bounce categories]** 和 **[!UICONTROL Hard and bounce - by Email]** 小部件包含與已恢復消息相關的可用資料，如：
 
@@ -123,7 +123,7 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 有關特定推送交付的詳細報告，請參閱 [推送即時報告](push-live-report.md) 的子菜單。
 
-![](assets/report_push_1.png)
+![](../assets/report_push_1.png)
 
 **[!UICONTROL Push notification sending performance]**。 **[!UICONTROL Push notification summary]** 和 **[!UICONTROL Sending metrics - by Push]** 小部件詳細列出與您的消息相關的主要資訊：
 
@@ -143,7 +143,7 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 的 **[!UICONTROL Error Reasons]** 圖形和表格允許您查看在交付期間發生的錯誤。
 
-![](assets/report_push_2.png)
+![](../assets/report_push_2.png)
 
 的 **[!UICONTROL Tracking by platform]**。 **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 圖表和表根據作業系統詳細說明了推送通知的成功。
 

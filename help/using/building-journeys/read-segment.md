@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 4%
@@ -43,13 +43,13 @@ ht-degree: 4%
    >
    >只有那些 **已實現** 和 **現有** 段參與狀態將輸入行程。 有關如何評估段的詳細資訊，請參閱 [分段服務文檔](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}。
 
-   ![](assets/read-segment-selection.png)
+   ![](../assets/read-segment-selection.png)
 
    添加段後， **[!UICONTROL Copy]** 按鈕，您可以複製其名稱和ID:
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/read-segment-copy.png)
+   ![](../assets/read-segment-copy.png)
 
 1. 在 **[!UICONTROL Namespace]** 欄位中，選擇要用於標識個人的命名空間。 [瞭解有關命名空間的詳細資訊](../event/about-creating.md#select-the-namespace)。
 
@@ -59,7 +59,7 @@ ht-degree: 4%
 
 1. 設定 **[!UICONTROL Throttling rate]** 欄位到讀取段活動的吞吐量限制。
 
-   此值儲存在行程版本負載中。 預設值為每秒20,000條消息。 您可以將此值從每秒500條修改為每秒20,000條消息。
+   此值儲存在行程版本負載中。 預設值為每秒17,000條消息。 您可以將此值從每秒500條修改為17,000條消息。
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ ht-degree: 4%
 
 1. 的 **[!UICONTROL Read Segment]** 活動允許您指定段進入行程的時間。 要執行此操作，請按一下 **[!UICONTROL Edit journey schedule]** 連結以訪問行程的屬性，然後配置 **[!UICONTROL Scheduler type]** 的子菜單。
 
-   ![](assets/read-segment-schedule.png)
+   ![](../assets/read-segment-schedule.png)
 
    預設情況下，段輸入行程 **[!UICONTROL As soon as possible]**。 如果要使段按特定日期/時間或循環基準輸入行程，請從清單中選擇所需值。
 
@@ -75,7 +75,7 @@ ht-degree: 4%
    >
    >請注意 **[!UICONTROL Schedule]** 只有在 **[!UICONTROL Read Segment]** 活動已被放到畫布中。
 
-   ![](assets/read-segment-schedule-list.png)
+   ![](../assets/read-segment-schedule-list.png)
 
    的 **增量讀取** 選項允許您僅針對自上次執行行程後進入段的個人。 第一次執行始終將目標設定在所有區段成員。此選項僅可用於循環 **讀取段** 活動。
 
@@ -104,7 +104,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 為此，請激活test模式，然後從左窗格中選擇所需選項。
 
-![](assets/read-segment-test-mode.png)
+![](../assets/read-segment-test-mode.png)
 
 然後，您可以像往常一樣配置和運行test模式。 [瞭解如何test旅程](testing-the-journey.md)。
 
@@ -116,7 +116,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
    請注意，一次使用最多100個配置檔案測試行程不允許您使用視覺流跟蹤行程中的個人的進度。
 
-   ![](assets/read-segment-log.png)
+   ![](../assets/read-segment-log.png)
 
 test成功後，您可以發佈您的行程(請參閱 [發佈旅程](publishing-the-journey.md))。 屬於該段的個人將在行程的屬性中指定的日期/時間輸入行程 **[!UICONTROL Scheduler]** 的子菜單。
 
@@ -144,7 +144,7 @@ test成功後，您可以發佈您的行程(請參閱 [發佈旅程](publishing-
 * 例如：是早上在人的時區嗎？
 * 一種算法，它根據百分比分割在旅途中流動的觀眾，例如：90% - 10%排除控制組
 
-![](assets/read-segment-audience1.png)
+![](../assets/read-segment-audience1.png)
 
 **排除**
 
@@ -152,7 +152,7 @@ test成功後，您可以發佈您的行程(請參閱 [發佈旅程](publishing-
 
 這種排除可能在段檢索後立即發生，用於人口計數目的或沿著多步旅行。
 
-![](assets/read-segment-audience2.png)
+![](../assets/read-segment-audience2.png)
 
 **Union**
 
@@ -164,4 +164,4 @@ test成功後，您可以發佈您的行程(請參閱 [發佈旅程](publishing-
 
 合併後，可以通過執行分段或排除來再次分割受眾。
 
-![](assets/read-segment-audience3.png)
+![](../assets/read-segment-audience3.png)

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 開始新行程時，無法作為第一步放入畫布中的元素將被隱藏。 這涉及所有操作、條件活動、等待和反應。
 
-![](assets/journey38.png)
+![](../assets/journey38.png)
 
 的 **[!UICONTROL Filter items]** 表徵圖在左上角顯示以下濾鏡：
 
@@ -35,17 +35,17 @@ ht-degree: 1%
 
 的 **畫面** 是旅程設計師的中心地帶。 您可以在此區域中刪除活動並配置它們。 按一下畫布中的活動以配置它。 此操作將開啟右側的活動配置窗格。
 
-![](assets/journey39.png)
+![](../assets/journey39.png)
 
 的 **活動配置窗格** 在元件面板中按一下活動時顯示。 填寫必填欄位。 按一下 **[!UICONTROL Delete]** 表徵圖以刪除活動。 按一下 **[!UICONTROL Cancel]** 取消修改或 **[!UICONTROL Ok]** 確認。 要刪除活動，還可以選擇一個活動（或多個），然後按回車鍵。 按轉義鍵將關閉活動配置窗格。
 
 預設情況下，只讀欄位是隱藏的。 要顯示只讀欄位，請按一下 **顯示只讀欄位** 表徵圖。 此設定適用於所有行程中的所有活動。
 
-![](assets/journey59bis.png)
+![](../assets/journey59bis.png)
 
 根據行程的狀態，您可以使用右上角的按鈕在行程中執行不同的操作： **[!UICONTROL Publish]**。 **[!UICONTROL Duplicate]**。 **[!UICONTROL Delete]**。 **[!UICONTROL Journey properties]**。 **[!UICONTROL Test]**。 未選擇任何活動時，將顯示這些按鈕。 某些按鈕將按上下文顯示。 激活test模式時，test模式日誌按鈕出現。
 
-![](assets/journey41.png)
+![](../assets/journey41.png)
 
 ## 開始你的旅程
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 若幹活動(**[!UICONTROL Condition]**。 **[!UICONTROL Action]** 活動)允許您在出現錯誤或超時時定義回退操作。 在活動配置窗格中，選中該框： **[!UICONTROL Add an alternative path in case of a timeout or an error]**。 在活動後添加另一個路徑。 超時持續時間在行程的屬性中定義(請參閱 [此頁](../building-journeys/journey-gs.md#change-properties) 管理員用戶。 例如，如果電子郵件發送時間過長或出錯，您可以決定發送SMS。
 
-![](assets/journey42.png)
+![](../assets/journey42.png)
 
 各種活動（事件、操作、等待）允許您在其後添加多個路徑。 為此，請將游標置於活動上，然後按一下「+」符號。 只能並行設定事件和等待活動。 如果多個事件並行設定，則所選路徑將是第一個事件。
 
@@ -93,11 +93,11 @@ ht-degree: 1%
 
 要刪除路徑，請將游標置於路徑上，然後按一下 **[!UICONTROL Delete path]** 表徵圖
 
-![](assets/journey42ter.png)
+![](../assets/journey42ter.png)
 
 在畫布中，當兩個活動斷開連接時，將顯示警告。 將游標置於警告表徵圖上以顯示錯誤消息。 要解決此問題，只需移動已斷開的活動並將其連接到上一活動即可。
 
-![](assets/canvas-disconnected.png)
+![](../assets/canvas-disconnected.png)
 
 ## 複製和貼上活動 {#copy-paste}
 
@@ -116,9 +116,9 @@ ht-degree: 1%
 
 1. 開路。
 1. 通過在按一下時移動滑鼠來選擇要複製的活動。 也可以在按 **Ctrl/命令** 按鈕 使用 **Ctrl/Command + A** 的子菜單。
-   ![](assets/copy-paste1.png)
+   ![](../assets/copy-paste1.png)
 1. 按 **Ctrl/Command + C**。
 如果只想複製一個活動，可按一下該活動並使用 **複製** 表徵圖。
-   ![](assets/copy-paste2.png)
+   ![](../assets/copy-paste2.png)
 1. 在任何旅程中，按 **Ctrl/Command + V** 貼上活動，而不將其連結到現有節點。 貼上的活動按同一順序放置。 貼上後，活動將保持選定狀態，以便您可以輕鬆移動活動。 也可以將游標置於空佔位符上並點擊 **Ctrl/Command + V**。 貼上的活動將連結到節點。
-   ![](assets/copy-paste3.png)
+   ![](../assets/copy-paste3.png)

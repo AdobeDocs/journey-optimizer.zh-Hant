@@ -5,7 +5,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 9%
@@ -20,7 +20,7 @@ ht-degree: 9%
 
 在 [!DNL Adobe Journey Optimizer]。 **身份** 將消費者連結到設備和通道，結果是 [身份圖](#id-graph)。 連結的身份圖用於根據您所有業務接觸點之間的交互來個性化體驗。
 
-![](assets/identities-home.png)
+![](../assets/identities-home.png)
 
 瞭解有關 **身份服務** 在 [本文檔](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 

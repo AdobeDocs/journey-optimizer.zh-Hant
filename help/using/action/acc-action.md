@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 51c63b196b11905289c3c0c450c1976eb551bbc8
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '448'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ Journey Optimizer實例和市場活動實例之間的連接是在預配時通過
 
 ## 重要備註 {#important-notes}
 
-* 沒有消息限制。 系統根據當前市場活動SLA將可以每5分鐘發送的消息數限制為4000。 因此，Journey Optimizer只應用於單一使用情形（單個事件，而不是分段）。
+* 沒有消息限制。 根據我們當前的市場活動SLA，我們將可以發送到的郵件數量限制為50,000/小時。 因此，Journey Optimizer只應用於單一使用情形（單個事件，而不是分段）。
 
 * 您需要在畫布上根據要使用的模板配置一個操作。 您需要在Journey Optimizer為要從Adobe Campaign使用的每個模板配置一個操作。
 
@@ -69,4 +69,4 @@ Journey Optimizer實例和市場活動實例之間的連接是在預配時通過
 1. 根據要在「旅程」畫布上映射不同欄位，將其調整為靜態或變數。 某些欄位(如電子郵件地址的通道參數和個性化欄位(ctx))，您可能需要定義為旅行上下文中映射的變數。
 1. 按一下「**儲存**」。
 
-![](assets/accintegration1.png)
+![](../assets/accintegration1.png)

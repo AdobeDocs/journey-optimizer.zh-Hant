@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 2%
@@ -32,21 +32,21 @@ ht-degree: 2%
 
 1. 下 **管理** > **平台** > **枚舉**，選擇 **事件類型** (eventType)枚舉。 建立新事件類型（在示例中為「journey-event」）。 以後寫入JSON檔案時，必須使用事件類型的內部名稱。
 
-   ![](assets/accintegration-uc-1.png)
+   ![](../assets/accintegration-uc-1.png)
 
 1. 斷開連接並重新連接到實例，以使建立生效。
 
 1. 下 **消息中心** > **事務性消息模板**，根據先前建立的事件類型建立新電子郵件模板。
 
-   ![](assets/accintegration-uc-2.png)
+   ![](../assets/accintegration-uc-2.png)
 
 1. 設計模板。 在本示例中，我們對配置檔案的名字和訂單號使用個性化。 名字在Adobe Experience Platform資料源中，訂單號是我們Journey Optimizer事件中的一個欄位。 確保在「市場活動」中使用正確的欄位名稱。
 
-   ![](assets/accintegration-uc-3.png)
+   ![](../assets/accintegration-uc-3.png)
 
 1. 發佈事務模板。
 
-   ![](assets/accintegration-uc-4.png)
+   ![](../assets/accintegration-uc-4.png)
 
 1. 現在，您需要編寫與模板對應的JSON負載。
 
@@ -70,30 +70,30 @@ ht-degree: 2%
 
 1. 首先，您需要建立一個事件。 確保包括「purchaseOrderNumber」欄位。
 
-   ![](assets/accintegration-uc-5.png)
+   ![](../assets/accintegration-uc-5.png)
 
 1. 然後，您需要在Journey Optimizer建立與您的市場活動模板對應的活動。 在 **操作類型** 下拉，選擇 **Adobe Campaign Classic**。
 
-   ![](assets/accintegration-uc-6.png)
+   ![](../assets/accintegration-uc-6.png)
 
 1. 按一下 **負載欄位** 並貼上以前建立的JSON。
 
-   ![](assets/accintegration-uc-7.png)
+   ![](../assets/accintegration-uc-7.png)
 
 1. 對於電子郵件地址和兩個個性化欄位，請更改 **常數** 至 **變數**。
 
-   ![](assets/accintegration-uc-8.png)
+   ![](../assets/accintegration-uc-8.png)
 
 1. 現在建立新行程，並從先前建立的事件開始。
 
-   ![](assets/accintegration-uc-9.png)
+   ![](../assets/accintegration-uc-9.png)
 
 1. 添加操作並將每個欄位映射到Journey Optimizer的正確欄位。
 
-   ![](assets/accintegration-uc-10.png)
+   ![](../assets/accintegration-uc-10.png)
 
 1. 添加 **結束** 活動，test旅程。
 
-   ![](assets/accintegration-uc-11.png)
+   ![](../assets/accintegration-uc-11.png)
 
 1. 你現在可以發表你的旅程。
