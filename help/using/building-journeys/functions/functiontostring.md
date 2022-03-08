@@ -1,0 +1,59 @@
+---
+product: adobe campaign
+title: toString
+description: 瞭解函式toString
+feature: Journeys
+role: Data Engineer
+level: Experienced
+exl-id: 06727146-2a44-4b74-aac4-be60e9e0e37c
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 8%
+
+---
+
+# 到字串 {#toString}
+
+根據參數值的類型將參數值轉換為字串值。 有關資料類型的詳細資訊，請參閱 [此頁](../expression/data-types.md)。
+
+## 類別
+
+轉換
+
+## 函式語法
+
+`toString(<parameter>)`
+
+## 參數
+
+| 參數 | 說明 |
+|--- |--- |
+| 日期時間 | 轉換UTC日期格式的日期 |
+| 日期僅時間 | 轉換UTC日期格式的日期 |
+| 持續時間 | 轉換為字串形式的相應毫秒數 |
+| 整數 | 轉換為值的字串表示形式（1變為&quot;1&quot;） |
+| 小數 | 轉換為值的字串表示形式（1.5變為&quot;1.5&quot;） |
+| 布林值 | 如果為true，則將布爾值轉換為「true」；如果為false，則將布爾值轉換為「false」 |
+
+## 簽名和返回的類型
+
+`toString(<dateTimeOnly>)`
+
+`toString(<dateTime>)`
+
+`toString(<duration>)`
+
+`toString(<boolean>)`
+
+`toString(<integer>)`
+
+`toString(<decimal>)`
+
+返回字串。
+
+## 範例
+
+`toString(4)`
+
+返回&quot;4&quot;。
