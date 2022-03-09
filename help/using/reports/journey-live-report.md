@@ -87,7 +87,7 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 * **[!UICONTROL Errors]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
 
-的 **[!UICONTROL Sending metrics by Email]** 表格和 **[!UICONTROL Email Summary]** 圖表詳細說明了您交付的成功：
+的 **[!UICONTROL Sending metrics by Email]** 表格 **[!UICONTROL Email Summary]** 圖表詳細說明了您交付的成功：
 
 * **[!UICONTROL Sent]**:交貨的發送總數。
 
