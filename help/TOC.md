@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: a2a94f27ddf36392a8dea31c5c159bf3db041f4d
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '925'
 ht-degree: 98%
 
 ---
@@ -48,6 +48,15 @@ ht-degree: 98%
       + [檢查警報](using/messages/alerts.md)
       + [發佈訊息](using/messages/publish-manage-message.md)
    + [管理同意](using/messages/consent.md)
++ 登陸頁面 {#landing-pages}
+   + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
+   + [建立登陸頁面](using/landing-pages/create-lp.md)
+   + [設計登陸頁面](using/landing-pages/design-lp.md)
+   + [建立訂閱清單](using/landing-pages/subscription-list.md)
+   + [使用案例](using/landing-pages/lp-use-cases.md)
+   + 報告 {#lp-reporting}
+      + [登陸頁面報告](using/landing-pages/lp-report.md)
+      + [訂閱清單報告](using/landing-pages/subscription-report.md)
 + 個人化{#personalization}
    + [開始使用使用個人化](using/personalization/personalize.md)
    + [個人化內容](using/personalization/personalization-contexts.md)
@@ -224,15 +233,6 @@ ht-degree: 98%
       + [開始使用傳遞能力](using/messages/deliverability.md)
       + [隱藏清單](using/messages/suppression-list.md)
       + [允許清單](using/messages/allow-list.md)
-+ 登陸頁面 {#landing-pages}
-   + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
-   + [建立登陸頁面](using/landing-pages/create-lp.md)
-   + [設計登陸頁面](using/landing-pages/design-lp.md)
-   + [建立訂閱清單](using/landing-pages/subscription-list.md)
-   + [使用案例](using/landing-pages/lp-use-cases.md)
-   + 報告 {#lp-reporting}
-      + [登陸頁面報告](using/landing-pages/lp-report.md)
-      + [訂閱清單報告](using/landing-pages/subscription-report.md)
 + 決定管理 {#offer-decisioniong}
    + 開始使用決定管理 {#get-started-decision}
       + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
@@ -338,6 +338,7 @@ ht-degree: 98%
          + [變更電子郵件主要地址](using/configuration/primary-email-addresses.md)
       + [設定簡訊頻道](using/configuration/sms-configuration.md)
       + [建立訊息預設集](using/configuration/message-presets.md)
+   + [設定登陸頁面](using/configuration/lp-configuration.md)
    + 設定歷程 {#configure-journeys}
       + [關於資料來源、事件和動作](using/configuration/about-data-sources-events-actions.md)
       + [與外部系統整合](using/configuration/external-systems.md)

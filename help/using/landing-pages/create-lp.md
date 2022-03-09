@@ -5,21 +5,15 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: true
-hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 3%
+source-wordcount: '955'
+ht-degree: 2%
 
 ---
 
 # 建立和發佈登錄頁 {#create-lp}
-
->[!CAUTION]
->
->登錄頁目前僅可供選定用戶提前訪問。 如果您想利用此功能，請與Adobe客戶經理聯繫。
 
 ## 訪問登錄頁 {#access-landing-pages}
 
@@ -30,6 +24,22 @@ ht-degree: 3%
 的 **[!UICONTROL Landing Pages]** 清單顯示所有建立的項目。 您可以根據其狀態或修改日期來篩選它們。
 
 ![](assets/lp_access-list-filter.png)
+
+在此清單中，您可以訪問 [登錄頁報告](lp-report.md) 的子菜單。
+
+您還可以刪除、複製和取消發佈登錄頁。
+
+>[!CAUTION]
+>
+>如果取消發佈在未發佈消息中引用的登錄頁，則在重新發佈登錄頁之前無法發佈該消息。 如果消息已發佈，則登錄頁的連結將斷開，並顯示錯誤頁。
+
+按一下登錄頁旁邊的三個點以選擇所需的操作。
+
+![](assets/lp_access-list-actions.png)
+
+>[!NOTE]
+>
+>無法刪除已發佈的登錄頁。 要刪除它，必須先取消發佈它。
 
 ## 建立登陸頁面 {#create-landing-page}
 
@@ -43,13 +53,9 @@ ht-degree: 3%
 
    ![](assets/lp_create-lp-details.png)
 
-1. 選擇預設。
+1. 選擇預設。 瞭解如何在中建立登錄頁預設 [此部分](../configuration/lp-configuration.md#lp-create-preset)。
 
    ![](assets/lp_create-lp-presets.png)
-
-   >[!NOTE]
-   >
-   >要定義登錄頁預設，請與Adobe客戶代表或 [Adobe客戶服務支援團隊](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
 
 1. 按一下「**[!UICONTROL Create]**」。
 
@@ -75,7 +81,7 @@ ht-degree: 3%
 
    ![](assets/lp_open-designer.png)
 
-1. 定義登錄頁URL。 URL的第一部分要求執行域委派。 它已預填充，無法通過用戶介面編輯。 要設定它，請與Adobe帳戶代表或 [Adobe客戶服務支援團隊](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
+1. 定義登錄頁URL。 URL的第一部分要求您先前設定登錄頁子域。 [了解更多](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -113,7 +119,7 @@ ht-degree: 3%
 
 1. 使用內容設計器編輯頁面的內容。 瞭解如何定義登錄頁內容 [這裡](design-lp.md)。
 
-1. 定義登錄頁URL。 URL的第一部分要求執行域委派。 它已預填充，無法通過用戶介面編輯。 要設定它，請與Adobe帳戶代表或 [Adobe客戶服務支援團隊](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
+1. 定義登錄頁URL。 URL的第一部分要求執行域委派。 它已預填充，無法通過用戶介面編輯。 要設定它，請與Adobe帳戶代表或 [Adobe客戶服務支援團隊](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
 
    >[!CAUTION]
    >

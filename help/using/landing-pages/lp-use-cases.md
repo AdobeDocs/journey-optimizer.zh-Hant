@@ -5,24 +5,17 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-hidefromtoc: true
-hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 19%
+source-wordcount: '900'
+ht-degree: 18%
 
 ---
 
 # 登錄頁使用案例 {#lp-use-cases}
 
 下面是一些示例，說明如何使用 [!DNL Journey Optimizer] 登錄頁，讓您的客戶選擇接收部分或全部通信。
-
-<!--The main use cases are:
-* Subscription to a service
-* Opt-in
-* Opt-out-->
 
 ## 訂閱服務 {#subscription-to-a-service}
 
@@ -39,6 +32,8 @@ ht-degree: 19%
    ![](assets/lp_subscription-uc-list.png)
 
 1. [建立登錄頁](create-lp.md) 允許收件人註冊您的活動。
+
+   ![](assets/lp_create-lp-details.png)
 
 1. 配置註冊 [主登錄頁](create-lp.md#configure-primary-page)。
 
@@ -57,6 +52,10 @@ ht-degree: 19%
 1. [插入連結](../messages/message-tracking.md#insert-links) 內容。 選擇 **[!UICONTROL Landing page]** 的 **[!UICONTROL Link type]** 選擇 [登錄頁](create-lp.md#configure-primary-page) 為註冊而建立的。
 
    ![](assets/lp_subscription-uc-link.png)
+
+   >[!NOTE]
+   >
+   >若要發佈消息，請確保您選擇的登錄頁尚未過期。 瞭解如何更新到期日期 [此部分](create-lp.md#configure-primary-page)。
 
 1. 儲存您的內容並[發佈您的訊息](../messages/publish-manage-message.md)。
 
@@ -115,7 +114,7 @@ ht-degree: 19%
 
    ![](assets/lp_opt-out-primary-lp.png)
 
-   <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
+   <!--You can also build your own landing page and host it on the third-party system of your choice.-->
 
 1. 添加確認 [子頁](create-lp.md#configure-subpages) 顯示給提交表單的用戶。
 
@@ -138,6 +137,10 @@ ht-degree: 19%
 1. 選擇 **[!UICONTROL Landing page]** 從 **[!UICONTROL Link type]** 下拉清單，然後選擇 [登錄頁](create-lp.md#configure-primary-page) 你為退出而創造的。
 
    ![](assets/lp_opt-out-landing-page.png)
+
+   >[!NOTE]
+   >
+   >若要發佈消息，請確保您選擇的登錄頁尚未過期。 瞭解如何更新到期日期 [此部分](create-lp.md#configure-primary-page)。
 
 1. 儲存您的內容並[發佈您的訊息](../messages/publish-manage-message.md)。
 
