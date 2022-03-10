@@ -3,9 +3,10 @@ title: 登錄頁配置
 description: 瞭解如何配置環境以建立和使用登錄頁與Journey Optimizer
 role: Admin
 level: Intermediate
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '804'
 ht-degree: 2%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 2%
 >title="設定登錄頁子域"
 >abstract="要能夠選擇子域，請確保您以前至少配置了一個登錄頁子域。"
 
-能夠 [建立登錄頁預設](#lp-create-preset)，您需要設定用於登錄頁的子域。
+能夠 [建立登錄頁預設](#lp-create-preset)，您必須設定用於登錄頁的子域。
 
 可以使用已委派給Adobe的子域，或配置其他子域。 瞭解有關將子域委託給Adobe的詳細資訊 [此部分](delegate-subdomain.md)。
 
@@ -65,7 +66,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >在能夠使用該子域發送消息之前，您需要等待Adobe執行所需的檢查，這可能需要4小時。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   >在能夠使用該子域發送消息之前，必須等待Adobe執行所需的檢查，這可能需要4小時。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. 檢查成功後，子域將 **[!UICONTROL Success]** 狀態。 它已準備好用於建立登錄頁預設。
 
@@ -93,7 +94,7 @@ ht-degree: 2%
 
 1. 將顯示要放置在DNS伺服器中的記錄。 複製此記錄，或下載CSV檔案，然後導航到域托管解決方案以生成匹配的DNS記錄。
 
-1. 確保已將DNS記錄生成到域托管解決方案中。 如果所有內容都配置正確，請選中「I confirm...（我確認……）」框，然後按一下 **[!UICONTROL Submit]**。
+1. 確保已在域托管解決方案中生成DNS記錄。 如果所有內容都配置正確，請選中「I confirm...（我確認……）」框，然後按一下 **[!UICONTROL Submit]**。
 
    ![](assets/lp_add-your-own-subdomain-confirm.png)
 
@@ -105,7 +106,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >在能夠使用該子域發送消息之前，您需要等待Adobe執行所需的檢查，這可能需要4小時。<!--Learn more in [this section](#subdomain-validation).-->
+   >在能夠使用該子域發送消息之前，必須等待Adobe執行所需的檢查，這可能需要4小時。<!--Learn more in [this section](#subdomain-validation).-->
 
 1. 檢查成功後，子域將 **[!UICONTROL Success]** 狀態。 它已準備好用於建立登錄頁預設。
 
@@ -113,7 +114,7 @@ ht-degree: 2%
 
 ## 定義登錄頁預設 {#lp-define-preset}
 
-當 [建立登錄頁](../landing-pages/create-lp.md#create-a-lp)，您需要選擇登錄頁預設，以便能夠構建登錄頁並利用它 **[!DNL Journey Optimizer]**。
+當 [建立登錄頁](../landing-pages/create-lp.md#create-a-lp)，必須選擇登錄頁預設才能生成登錄頁並利用它 **[!DNL Journey Optimizer]**。
 
 ### 訪問登錄頁預設 {#lp-presets}
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 80de53e62da5fc3b0543ee09327e11edd277b234
+source-git-commit: d2ae8f7a2a44ac92d26520e5c85a19a2660ed8e2
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -30,8 +30,7 @@ ht-degree: 3%
 * 只有一個 **窗體** 可在單個首頁中使用元件。
 * 的 **窗體** 不能在子頁中使用元件。
 * 不能向登錄頁添加前標。
-
-<!--You cannot select the **Code your own** option when designing a landing primary page.-->
+* 無法選擇 **編碼您自己的** 選項。
 
 ## 旅程限制 {#limitations-journeys}
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 3%
@@ -55,7 +55,7 @@ ht-degree: 3%
 
 可能的狀態如下：
 
-* **[!UICONTROL Not started]**:您定義的開始日期晚於當前日期。 被訂閱的配置檔案尚未接收與此訂閱清單相關的通信。
+* **[!UICONTROL Not started]**:您定義的開始日期晚於當前日期。 訂閱的配置檔案尚未接收與此訂閱清單相關的通信。
 * **[!UICONTROL Live]**:當前日期包括在訂閱清單開始日期和結束日期之間，或者您未定義結束/開始日期，這意味著訂閱清單始終處於活動狀態。
 * **[!UICONTROL Expired]**:結束日期已過，因此訂閱清單不再有效。 任何已訂閱配置檔案將不會再接收與此訂閱清單相關的通信。
 

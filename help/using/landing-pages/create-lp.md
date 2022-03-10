@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '920'
 ht-degree: 2%
 
 ---
@@ -119,7 +119,7 @@ ht-degree: 2%
 
 1. 使用內容設計器編輯頁面的內容。 瞭解如何定義登錄頁內容 [這裡](design-lp.md)。
 
-1. 定義登錄頁URL。 URL的第一部分要求執行域委派。 它已預填充，無法通過用戶介面編輯。 要設定它，請與Adobe帳戶代表或 [Adobe客戶服務支援團隊](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
+1. 定義登錄頁URL。 URL的第一部分要求您先前設定登錄頁子域。 [了解更多](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -133,7 +133,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->您需要有test配置檔案才能預覽郵件和發送校樣。 瞭解如何 [建立test配置檔案](../building-journeys/creating-test-profiles.md)。
+>您必須具有test配置檔案才能預覽郵件和發送校樣。 瞭解如何 [建立test配置檔案](../building-journeys/creating-test-profiles.md)。
 
 1. 在登錄頁介面中，按一下 **[!UICONTROL Preview & test]** 按鈕，來查看test配置檔案選擇。
 
@@ -161,7 +161,7 @@ ht-degree: 2%
 
 ## 檢查警報 {#check-alerts}
 
-在建立登錄頁時，在發佈前需要採取重要操作時，會發出警告。
+在建立登錄頁時，在發佈前必須執行重要操作時，會發出警告。
 
 警報顯示在螢幕的右上方，如下所示：
 
@@ -181,7 +181,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
-> 你需要解決所有 **錯誤** 發佈前發出警報。
+> 您必須解決所有 **錯誤** 發佈前發出警報。
 
 <!--The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
 
@@ -195,7 +195,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
-> To be able to publish your message, you need to resolve all **error** alerts.
+> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## 發佈登錄頁 {#publish-landing-page}

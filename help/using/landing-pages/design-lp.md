@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '718'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 1%
    >
    >的 **[!UICONTROL Form]** 元件只能在同一頁上使用一次。
 
-1. 請選取模式。的 **[!UICONTROL Form content]** 頁籤顯示在右側的調色板中，以便您編輯窗體的不同欄位。
+1. 請選取模式。的 **[!UICONTROL Form content]** 頁籤中，您可以編輯窗體的不同欄位。
 
    ![](assets/lp_designer-form-content-options.png)
 
@@ -114,7 +114,7 @@ ht-degree: 1%
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. 展開 **[!UICONTROL Buttons]** 按鈕。 例如，可以添加邊框、在懸停時編輯標籤顏色或調整按鈕的對齊。
+1. 展開 **[!UICONTROL Buttons]** 按鈕。 例如，可以添加邊框、在懸停時編輯標籤顏色或調整按鈕的對齊方式。
 
    ![](assets/lp_designer-form-style-buttons.png)
 

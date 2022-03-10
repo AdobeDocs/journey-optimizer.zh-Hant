@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1431'
 ht-degree: 10%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 10%
 
    ![](assets/subdomain-processing.png)
 
-   在能夠使用該子域發送消息之前，您需要等待Adobe執行所需的檢查，這可能需要3個小時。 瞭解詳情 [此部分](#subdomain-validation)。
+   在能夠使用該子域發送消息之前，必須等待Adobe執行所需的檢查，這可能需要3個小時。 瞭解詳情 [此部分](#subdomain-validation)。
 
    >[!NOTE]
    >
@@ -138,7 +138,7 @@ CNAME 子網域委派可讓您建立子網域，並使用 CNAME 指向 Adobe 特
 
 1. 提交CNAME子域委派後，子域將顯示在清單中， **[!UICONTROL Processing]** 狀態。 有關子域狀態的詳細資訊，請參閱 [此部分](access-subdomains.md)。
 
-   在能夠使用該子域發送消息之前，您需要等待Adobe執行所需的檢查，這通常需要2到3個小時。 瞭解詳情 [此部分](#subdomain-validation)。
+   在能夠使用該子域發送消息之前，必須等待Adobe執行所需的檢查，這通常需要2到3個小時。 瞭解詳情 [此部分](#subdomain-validation)。
 
 1. 檢查成功後<!--i.e Adobe validates the record you created and installs it-->，子域獲取 **[!UICONTROL Success]** 狀態。 它已準備好用於傳遞消息。
 
