@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1234'
-ht-degree: 1%
+source-wordcount: '1247'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 決策（以前稱為聘用活動）是您的聘用的容器，它將利用聘用決策引擎來根據交貨目標選擇要交付的最佳聘用。
 
-➡️ [在影片中探索此功能](#video)
+➡️ [瞭解如何在此視頻中建立優惠活動](#video)
 
 可在 **[!UICONTROL Offers]** 菜單> **[!UICONTROL Decisions]** 頁籤。 篩選器可幫助您根據決策的狀態或開始和結束日期檢索決策。
 
@@ -221,10 +221,12 @@ ht-degree: 1%
 
 ![](../assets/decision_information.png)
 
-## 教程視頻 {#video}
+## How-to視頻{#video}
+
+了解如何在 Offer Decisioning 中建立優惠方案活動。
+
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 >[!NOTE]
 >
 >此視頻適用於在Adobe Experience Platform上構建的Offer decisioning應用程式服務。 然而，它為在Journey Optimizer背景下使用要約提供了一般性指導。
-
->[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)

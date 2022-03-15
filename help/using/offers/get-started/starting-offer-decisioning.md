@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '908'
-ht-degree: 100%
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+workflow-type: tm+mt
+source-wordcount: '907'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 * 改善工作流程：行銷團隊可以建立單一傳遞，並在範本的不同部分提供不同優惠方案，藉此改善工作流程，而無須建立多個傳遞或行銷活動；
 * 控制在電子郵件行銷活動中和向客戶顯示優惠方案的次數。
 
-➡️ [觀看這些教學課程影片](#tutorial-videos)，瞭解更多有關決策管理的資訊。
+➡️ [在這些視頻中瞭解有關決策管理的更多資訊](#video)
 
 ## 關於優惠和決定 {#about-offers-and-decisions}
 
@@ -102,8 +102,7 @@ ht-degree: 100%
 
 * **代表**：代表是頻道使用的資訊，例如顯示優惠的位置或語言。
 
-
-## 教學課程影片 {#tutorial-videos}
+## 作法影片{#video}
 
 >[!NOTE]
 >
@@ -120,3 +119,5 @@ ht-degree: 100%
 以下影片說明如何使用決定管理來定義和管理您的優惠，並運用即時客戶資料。
 
 >[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
+
+

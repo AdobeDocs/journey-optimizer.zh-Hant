@@ -6,16 +6,18 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 19%
+source-wordcount: '193'
+ht-degree: 22%
 
 ---
 
 # 使用者管理概述 {#permissions-overview}
 
 [!DNL Journey Optimizer] 可讓您定義並管理指派給不同使用者的權限。權限是一組權限和限制，用於授權或拒絕對產品內功能和功能的訪問。
+
+➡️ [瞭解有關此視頻中Adobe Journey Optimizer的訪問控制系統的詳細資訊](#video)
 
 用戶管理 [!DNL Journey Optimizer] 基於三個概念：
 
@@ -28,3 +30,9 @@ ht-degree: 19%
 每個概念都可由 **[!UICONTROL Product administrators]** 可以訪問管理控制台。 [進一步瞭解 Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html)。
 
 ![](assets/do-not-localize/permissions_2.png)
+
+## How-to視頻{#video}
+
+瞭解有關Adobe Journey Optimizer訪問控制系統和八個定製產品配置檔案的更多資訊。 瞭解如何管理產品設定檔和權限，以及如何新增和管理使用者。
+
+>[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)

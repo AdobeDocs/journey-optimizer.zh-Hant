@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 3%
+source-wordcount: '1334'
+ht-degree: 2%
 
 ---
 
@@ -28,6 +28,8 @@ Test配置檔案在使用 [test模式](../building-journeys/testing-the-journey.
 您還可以在現有資料集中上載一個json檔案。 有關詳細資訊，請參閱 [資料接收文檔](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target=&quot;_blank&quot;}。
 
 請注意，建立test配置檔案與在Adobe Experience Platform建立常規配置檔案類似。 有關詳細資訊，請參閱 [即時客戶概要檔案文檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+
+➡️ [瞭解如何在此視頻中建立test配置檔案](#video)
 
 ## 先決條件 {#test-profile-prerequisites}
 
@@ -227,3 +229,8 @@ curl -X POST \
 }
 }'
 ```
+## How-to視頻 {#video}
+
+瞭解如何建立test配置檔案。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

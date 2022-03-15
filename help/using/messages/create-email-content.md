@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 0%
+source-wordcount: '1505'
+ht-degree: 1%
 
 ---
 
 # 在用戶介面中設計您的電子郵件內容 {#create-email-content}
 
 一旦你 [已建立郵件](create-message.md)，您可以開始建立電子郵件內容。
+
+➡️ [在影片中探索此功能](#video)
 
 1. 從新建立的郵件中，選擇 **[!UICONTROL Email designer]** 的 **[!UICONTROL Body]** 的子菜單。
 
@@ -282,3 +284,9 @@ ht-degree: 0%
 1. 修改現有屬性的值，或使用 **+** 按鈕 您可以添加符合CSS的任何屬性和值。
 
 樣式隨後應用於所選元素。 如果子元素沒有定義特定的樣式屬性，則父元素的樣式將繼承。
+
+## How-to視頻 {#video}
+
+瞭解如何使用消息編輯器建立電子郵件內容。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

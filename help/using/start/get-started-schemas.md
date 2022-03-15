@@ -5,9 +5,9 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '322'
 ht-degree: 11%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 方案是描述Experience Platform中資料的標準方法，它允許符合方案的所有資料在組織之間重複使用，而不會發生衝突，甚至在多個組織之間共用。
 
-➡️ [瞭解如何建立和配置架構](#video-schema) （視頻）
+➡️ [瞭解如何在此視頻中建立和配置架構](#video-schema) （視頻）
 
 模式是一組規則，用於表示和驗證資料的結構和格式。 在高級別上，架構提供了真實世界對象（如人）的抽象定義，並概述該對象的每個實例中應包括哪些資料（如名字、姓氏、生日等）。
 

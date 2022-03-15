@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 6%
+source-wordcount: '189'
+ht-degree: 8%
 
 ---
 
 # 發佈您的歷程{#publishing-the-journey}
 
 你可以在測試旅行的有效性後發佈它。
+
+➡️ [在影片中探索此功能](#video)
 
 如果需要對已發佈的行程進行修改，則需要建立新版本的行程。 請參閱[此頁面](../building-journeys/journey-versions.md)。當行程為只讀時，您只能修改活動標籤和說明、行程名稱和行程說明。
 
@@ -27,3 +29,9 @@ ht-degree: 6%
    ![](assets/journeyuc1_18.png)
 
 發佈行程時，它處於只讀模式。
+
+## How-to視頻 {#video}
+
+瞭解如何發佈旅程。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334238?quality=12)

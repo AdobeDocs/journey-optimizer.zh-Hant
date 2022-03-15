@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '314'
 ht-degree: 5%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 5%
 # 建立區段 {#build-segments}
 
 在此示例中，我們將構建一個細分市場，以1980年後出生的所有居住在亞特蘭大、舊金山或西雅圖的客戶為目標。 所有這些客戶應在過去7天內開啟Luma應用程式，然後在開啟應用程式後2小時內進行購買。
+
+➡️ [瞭解如何在此視頻中建立段](#video-segment)
 
 1. 訪問 **[!UICONTROL Segments]** ，然後按一下 **[!UICONTROL Create segment]** 按鈕
 
@@ -55,6 +57,8 @@ ht-degree: 5%
 
 此段現在可用於您的行程。 如需詳細資訊，請參閱[本章節](../segment/about-segments.md)。
 
-## 教程視頻{#create-segment-video}
+## How-to視頻{#video-segment}
+
+瞭解如何建立段。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)

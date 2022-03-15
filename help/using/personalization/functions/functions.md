@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1346'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 使用 [!DNL Journey Optimizer] 模板化語言，用於對資料執行操作，例如計算、資料格式化或轉換、條件，並在個性化的上下文中對它們進行操作。 瞭解中的個性化語法准則 [此頁](../personalization-syntax.md)。
 
-➡️ [瞭解如何使用幫助程式函式](#video) （視頻）
+➡️ [瞭解如何在此視頻中使用幫助程式功能](#video)
 
 模板化語言用於表達式編輯器個性化下拉清單中提供的幫助函式，如下所示：
 

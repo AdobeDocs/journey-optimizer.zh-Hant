@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 72%
+source-wordcount: '312'
+ht-degree: 74%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 72%
 * [自定等待定義](../building-journeys/wait-activity.md#custom)
 * [時區定義](../building-journeys/timezone-management.md)
 
+➡️ [在影片中探索此功能](#video)
+
 如果您的歷程僅運用來自事件裝載的本機資料，則不需要進行此設定。例如，如果行程由一個事件組成，然後是一個僅使用事件資料的消息活動，則無需配置資料源。
 
 資料來源有兩種類型：
@@ -41,3 +43,10 @@ ht-degree: 72%
 >現在，資料源支援架構關係。
 
 有關如何配置Adobe Experience Platform資料源和外部資料源以及如何查找和使用行程中的資料的詳細資訊，請觀看此資訊 [教程視頻](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target=&quot;_blank&quot;}。
+
+## How-to視頻 {#video}
+
+了解資料來源為何，以及如何設定 Experience Platform 和外部資料來源。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
+

@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 0%
+source-wordcount: '617'
+ht-degree: 1%
 
 ---
 
 # 訊息監視 {#monitor-message-execution}
 
 為確保成功執行、發送和傳遞您的消息， [!DNL Journey Optimizer] 提供了監視當前發佈和觸發的消息的功能。 您可以看到消息在各次旅程中的表現 <!--and APIs--> 即時 **[!UICONTROL Executions]** 清單框。
+
+➡️ [在影片中探索此功能](#video)
 
 要訪問此清單，請從 **[!DNL Journey Optimizer]** 首頁，選擇 **[!UICONTROL Messages]**，然後按一下 **[!UICONTROL Executions]** 頁籤。
 
@@ -93,3 +95,9 @@ ht-degree: 0%
 ![](assets/message-execution-data-format.png)
 
 按一下每個超連結將開啟相應的消息摘要視圖。 [瞭解有關郵件的更多資訊](create-message.md)。
+
+## How-to視頻 {#video}
+
+瞭解有關即時報告和全局報告的更多資訊，如何訪問和分析「行程」和「消息」特定報告，以及如何修改報告儀表板。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334108?quality=12)

@@ -4,9 +4,9 @@ description: 瞭解如何在Adobe Journey Optimizer使用Adobe Experience Platfo
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '261'
 ht-degree: 26%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 26%
 
 向Adobe Experience Platform添加資料是構建配置檔案的基礎。 然後，您將能夠在 [!DNL Adobe Journey Optimizer]。 首先定義方案，使用ETL工具準備和標準化資料，然後根據您的方案建立資料集。
 
-➡️ [瞭解如何建立和配置資料集](#video-dataset) （視頻）
+➡️ [瞭解如何在此視頻中建立和配置資料集](#video-dataset)
 
 的 **資料集** 工作區 [!DNL Adobe Journey Optimizer] 用戶介面允許您瀏覽資料和建立資料集。
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 5%
@@ -37,10 +37,10 @@ ht-degree: 5%
 
    ![](../assets/tags_created.png)
 
-## 教程視頻 {#video}
+## How-to視頻 {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)
 
 >[!NOTE]
 >
 >此視頻適用於在Adobe Experience Platform上構建的Offer decisioning應用程式服務。 然而，它為在Journey Optimizer背景下使用要約提供了一般性指導。
-
->[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

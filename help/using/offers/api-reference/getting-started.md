@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 6%
+source-wordcount: '617'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 本開發人員指南提供了幫助您開始使用 [!DNL Offer Library] API。 然後，本指南提供了使用決策管理引擎執行關鍵操作的示例API調用。
 
-➡️ [在影片中探索此功能](#video)
+➡️ [瞭解有關此視頻中決策管理元件的更多資訊](#video)
 
 ## 先決條件 {#prerequisites}
 
@@ -128,12 +128,12 @@ curl -X GET \
 
 本文檔涵蓋了呼叫 [!DNL Offer Library] API，包括獲取容器ID。 現在，您可以繼續閱讀本開發人員指南中提供的示例調用，並按照其說明進行操作。
 
-## 教程視頻 {#video}
+## How-to視頻 {#video}
 
 以下視頻旨在支援您對「決策管理」元件的瞭解。
+
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
 
 >[!NOTE]
 >
 >此視頻適用於在Adobe Experience Platform上構建的Offer decisioning應用程式服務。 然而，它為在Journey Optimizer背景下使用要約提供了一般性指導。
-
->[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)

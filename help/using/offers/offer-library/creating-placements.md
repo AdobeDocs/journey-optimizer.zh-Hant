@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 14%
+source-wordcount: '225'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 14%
 
 放置有助於確保在郵件中的適當位置顯示適當的優惠內容。 將內容新增至優惠方案時，系統會要求您選取可顯示該內容的版位。
 
-➡️ [在影片中探索此功能](#video)
+➡️ [瞭解如何在此視頻中建立放置](#video)
 
 在下面的示例中，有三個放置位置，對應於不同類型的內容(影像、文本、HTML)。
 
@@ -48,10 +48,12 @@ ht-degree: 14%
 
    ![](../assets/placement_created.png)
 
-## 教程視頻 {#video}
+## How-to視頻{#video}
+
+了解如何在 Offer Decisioning 中建立刊登版位。
+
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 
 >[!NOTE]
 >
 >此視頻適用於在Adobe Experience Platform上構建的Offer decisioning應用程式服務。 然而，它為在Journey Optimizer背景下使用要約提供了一般性指導。
-
->[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)

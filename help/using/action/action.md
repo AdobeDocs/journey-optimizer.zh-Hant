@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 68%
+source-wordcount: '248'
+ht-degree: 66%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 68%
 >abstract="您可在此處定義會用於傳送訊息的系統連線，接著，在「動作」類別的歷程左側浮動視窗中，就會顯示此處定義的動作。 "
 
 動作是您向客戶提供個人化即時體驗時使用的連結，這些體驗包含推播通知、電子郵件、簡訊或您在業務中使用的任何其他數位互動方式。
+
+➡️ [在影片中探索此功能](#video)
 
 [!DNL Journey Optimizer] 內置消息功能。 請參閱[本節](../messages/get-started-content.md)。
 
@@ -40,3 +42,9 @@ ht-degree: 68%
 要查看操作清單或配置新操作，請選擇 **[!UICONTROL Configurations]** 的子菜單。 在  **[!UICONTROL Actions]** ，按一下 **[!UICONTROL Manage]**。 畫面隨即顯示動作清單。請參閱 [此頁](../start/user-interface.md) 的上界。
 
 ![](assets/custom1.png)
+
+## How-to視頻 {#video}
+
+瞭解如何配置自定義操作。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334257?quality=12)
