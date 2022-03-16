@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 95c6b69aa881a691b96a073dd89bb448c9a25283
+source-git-commit: 150ad7b36f23f183d7724bdb4b69fa55d30ea4f1
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_collection"
 >title="關於聘用集"
->abstract="使用聘用集合，您可以通過將其重新分組為您選擇的類別來組織聘用。
+>abstract="使用聘用集合，您可以通過將其重新分組為您選擇的類別來組織聘用。"
 
 收集允許您通過將其重新分組到您選擇的類別中來組織您的優惠。 例如，您可以建立一個「體育」收藏，該收藏僅包含與體育相關的內容。
 
