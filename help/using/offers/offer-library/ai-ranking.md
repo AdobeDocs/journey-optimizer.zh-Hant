@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: a7483965e3154d0ad34cfb56b6458bb63b46a26c
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 開始使用AI模型 {#get-started-with-ai-rankings}
 
-可以使用經過培訓的模型系統對給定配置檔案的優惠進行排序以顯示。
+[!DNL Journey Optimizer] 允許您使用經過培訓的模型系統來對給定配置檔案顯示報價。
 
 >[!CAUTION]
 >
@@ -27,8 +27,6 @@ ht-degree: 0%
 此功能使您能夠建立不同的 **AI模型** 根據你的業務目標。 在決策中使用這些不同的基於目標的策略，經過訓練的模型系統將幫助您瞭解不同的人工智慧模型如何影響您的目標。
 
 例如，您可以為電子郵件通道選擇AI模型，為推送通道選擇另一個模型。 對於每個渠道，經過培訓的模型系統將利用多個資料點來確定在給定位置應首先提供哪個優惠，而不是考慮優惠的優先順序分數或 [排序公式](create-ranking-formulas.md)。
-
-建立AI模型後，將其分配給決策中的放置。 瞭解詳情 [在決策中配置服務選擇](../offer-activities/configure-offer-selection.md)。
 
 >[!NOTE]
 >

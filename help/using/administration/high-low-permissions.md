@@ -5,9 +5,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 2a27c19766c84d8c65e8b21ba381754758d60cae
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -275,9 +275,9 @@ ht-degree: 0%
    * datasets.read
    * profiles.read
 
-### [!DNL Manage ranking strategies] 權限 {#manage-decisions}
+### [!DNL Manage ranking strategies] 權限 {#manage-ranking-strategies}
 
-的 **[!DNL Manage ranking strategies]** 高級權限允許用戶讀取、建立、編輯和刪除自定義消息報告和使用操作功能。
+的 **[!DNL Manage ranking strategies]** 高級權限允許用戶讀取、建立、編輯和刪除排名策略。
 
 它包括以下低級權限：
 
