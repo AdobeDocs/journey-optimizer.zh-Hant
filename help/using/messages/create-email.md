@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 4%
+source-wordcount: '151'
+ht-degree: 3%
 
 ---
 
 # 建立電子郵件 {#configure-email}
+
+>[!CONTEXTUALHELP]
+>id="ajo_message_email"
+>title="電子郵件建立"
+>abstract="只需三個簡單步驟即可定義電子郵件參數。"
 
 一旦 [已建立消息](create-message.md)，使用 **[!UICONTROL Email]** 的子菜單。
 

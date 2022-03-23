@@ -6,14 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1403'
 ht-degree: 9%
 
 ---
 
 # 建立推播通知 {#create-push-notification}
+
+>[!CONTEXTUALHELP]
+>id="ajo_message_push"
+>title="推送消息建立"
+>abstract="添加推送消息，然後使用表達式編輯器對其進行個性化設定。"
+
 
 推送通知可幫助您隨時聯繫您的移動應用用戶 — 尤其是當他們沒有主動使用您的應用時。 推式通知可以幫助您實現各種使用情形，如提供有關服務的更新、要求用戶採取行動、提醒用戶進行新交易等。 設備平台要求在最終用戶接收或查看您的通知之前選擇加入。 用戶選擇加入最早可以在應用首次在安裝後啟動之後接收，也可以在後續會話或工作流中接收。
 
