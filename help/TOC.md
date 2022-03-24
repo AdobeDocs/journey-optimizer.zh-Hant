@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶傳遞連結、情境�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a2a94f27ddf36392a8dea31c5c159bf3db041f4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 98%
       + 使用運算式編輯器 {#expression-editor}
          + [關於運算式編輯器](using/personalization/personalization-build-expressions.md)
          + [將屬性加入我的最愛](using/personalization/personalization-favorites.md)
-         + [使用已保存的表達式](using/personalization/personalization-library.md)
+         + [使用儲存的運算式](using/personalization/personalization-library.md)
          + [個人化驗證](using/personalization/personalization-validation.md)
       + 輔助函式{#functions}
          + [開始使用輔助函式](using/personalization/functions/functions.md)
@@ -244,9 +244,9 @@ ht-degree: 98%
       + [建立決定規則](using/offers/offer-library/creating-decision-rules.md)
       + [建立標籤](using/offers/offer-library/creating-tags.md)
       + [建立排名公式](using/offers/offer-library/create-ranking-formulas.md)
-      + 建立AI排名模型 {#create-ai-ranking-models}
-         + [關於AI模型](using/offers/offer-library/ai-ranking.md)
-         + [建立AI模型](using/offers/offer-library/create-ranking-strategies.md)
+      + 建立 AI 排名模型 {#create-ai-ranking-models}
+         + [關於 AI 模型](using/offers/offer-library/ai-ranking.md)
+         + [建立 AI 模型](using/offers/offer-library/create-ranking-strategies.md)
    + 建立和管理優惠 {#managing-offers-in-the-offer-library}
       + [建立個人化優惠](using/offers/offer-library/creating-personalized-offers.md)
       + [建立遞補優惠](using/offers/offer-library/creating-fallback-offers.md)
