@@ -3,9 +3,9 @@ title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ca9cb62770c1c50b2683486de48435d5b47b8729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2697'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 97%
 <table>
 <thead>
 <tr>
-<th><strong>訂閱登錄頁</strong><br/></th>
+<th><strong>訂閱項目登陸頁面</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在Journey Optimizer建立和設計登錄頁，並指導您的用戶訪問線上表單，以便他們可以選擇加入或選擇退出接收您的通信，或訂閱新聞稿等特定服務。</p>
+<p>您現在可以在 Journey Optimizer 建立並設計登陸頁面，引導您的使用者存取線上表單，以便他們可以選擇加入或選擇退出接收您的通訊，或訂閱電子報等特定服務。</p>
 <p>有關詳細資訊，請參閱<a href="../landing-pages/create-lp.md">詳細文件</a>及相關<a href="../landing-pages/lp-use-cases.md">使用範例</a>。</p>
 </td>
 </tr>
@@ -38,13 +38,13 @@ ht-degree: 97%
 <table>
 <thead>
 <tr>
-<th><strong>新建個性化表達式庫</strong><br/></th>
+<th><strong>全新個人化運算式資料庫</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer現在提供了一個庫，您可以在其中訪問預定義的個性化表達式。 這些表達式由管理員用戶配置。</p>
+<p>Journey Optimizer 現在提供資料庫，您可以在其中存取預先定義的個人化運算式。 這些運算式由管理員使用者設定。</p>
 <p>如需詳細資訊，請參閱<a href="../personalization/personalization-library.md">詳細文件</a>。</p>
 </td>
 </tr>
