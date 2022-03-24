@@ -3,9 +3,9 @@ title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1001'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 ## 2022 年 3 月 {#march-2022}
 
-* 已將AI模型入門的新頁添加到 **Offer decisioning** 部分，包括對 [自動優化模型](../offers/offer-library/ai-ranking.md#auto-optimization)算法、算法等技術細節。 [閱讀全文](../offers/offer-library/ai-ranking.md)
+* 已在 AI 模型快速入門手冊的 **Offer Decisioning** 部分新增頁面，詳細說明了[自動最佳化模型](../offers/offer-library/ai-ranking.md#auto-optimization)、其所使用的演算法及其他技術細節。 [閱讀全文](../offers/offer-library/ai-ranking.md)
 
 ## 2022 年 2 月 {#feb-2022}
 
