@@ -20,15 +20,15 @@ ht-degree: 0%
 
 ![](assets/subscription_report_6.png)
 
-訂閱 **[!UICONTROL Live report]** 將分為不同的小部件，詳細列出您的訂閱和取消訂閱。 如果需要，可以調整每個小部件的大小並將其刪除。 For more information on this refer to this [section](live-report.md).
+訂閱 **[!UICONTROL Live report]** 將分為不同的小部件，詳細列出您的訂閱和取消訂閱。 如果需要，可以調整每個小部件的大小並將其刪除。 有關此項的詳細資訊，請參閱 [節](live-report.md)。
 
 ![](assets/subscription_report_3.png)
 
 的 **[!UICONTROL Subscription performance]** 關鍵績效指標 **[!UICONTROL Subscriptions by journey]**/**[!UICONTROL Unsubscribes by journey]** 表格詳細列出了訪問者與登錄頁的接觸情況。 表和KPI包含與登錄頁相關的可用資料，例如：
 
-* **[!UICONTROL Subscribes]**: Total number of subscriptions in the last 24 hours.
+* **[!UICONTROL Subscribes]**:過去24小時內的訂閱總數。
 
-* **[!UICONTROL Unsubscribes]**: Total number of unsubscriptions in the last 24 hours.
+* **[!UICONTROL Unsubscribes]**:過去24小時內取消訂閱的總數。
 
 的 **[!UICONTROL Subscription performance]** 圖表顯示了過去24小時內訂閱的演變。
 

@@ -6,16 +6,21 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 0%
+source-wordcount: '828'
+ht-degree: 1%
 
 ---
 
 # 段資格事件 {#segment-qualification}
 
 ## 關於段資格事件{#about-segment-qualification}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification"
+>title="區段資格事件"
+>abstract="本練習允許您在旅途中傾聽Adobe Experience Platform段的檔案出入，以便讓個人在旅途中進入或前進。"
 
 本練習允許您在旅途中傾聽Adobe Experience Platform段的檔案出入，以便讓個人在旅途中進入或前進。 有關段建立的詳細資訊，請參閱 [節](../segment/about-segments.md)。
 

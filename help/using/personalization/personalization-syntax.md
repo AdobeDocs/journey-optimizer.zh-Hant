@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # 個人化語法 {#personalization-syntax}
 
-個性化 [!DNL Journey Optimizer] 是基於稱為Handlebar的模板語法。
+Personalization [!DNL Journey Optimizer] 是基於稱為Handlebar的模板語法。
 有關Handlebar語法的完整說明，請參閱 [HandlebarsJS文檔](https://handlebarsjs.com/)。
 
 它使用模板和輸入對象生成HTML或其它文本格式。 車把模板看起來像帶有嵌入式車把表達式的常規文本。

@@ -1,19 +1,19 @@
 ---
-title: 使用已保存的表達式
+title: 使用儲存的運算式
 description: 瞭解如何使用保存的表達式 [!DNL Journey Optimizer] 的下界。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
+source-git-commit: 85aec983ac39c8d65b2a833ee17dc1e3cafb5900
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 0%
+source-wordcount: '350'
+ht-degree: 8%
 
 ---
 
-# 使用已保存的表達式 {#expression-library}
+# 使用儲存的運算式 {#expression-library}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
@@ -59,8 +59,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 在庫中最多保存40個表達式。
->
 >* 表達式不能超過200KB。
 >
 >* 保存的表達式按建立日期排序：最近添加的表達式將首先顯示在清單中。
@@ -73,7 +71,7 @@ ht-degree: 0%
 
 ## How-to視頻{#video}
 
-瞭解如何在郵件中使用保存的個性化庫項目，以及如何建立和管理個性化庫項目。
+瞭解如何在訊息中使用已儲存的個人化資料庫項目，以及如何建立和管理個人化資料庫項目。
 
 >[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
 

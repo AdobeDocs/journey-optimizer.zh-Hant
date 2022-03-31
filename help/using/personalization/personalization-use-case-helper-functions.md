@@ -336,9 +336,9 @@ ht-degree: 3%
 
 ### 使用案例 {#use-case}
 
-* [個性化配置檔案資訊、上下文和服務](personalization-use-case.md)
+* [Personalization，提供個人資料資訊、上下文和優惠](personalization-use-case.md)
 
-* [Personalization提供基於決策的服務](../offers/offers-e2e.md)
+* [基於決策的個性化服務](../offers/offers-e2e.md)
 
 ## How-to視頻{#video}
 
