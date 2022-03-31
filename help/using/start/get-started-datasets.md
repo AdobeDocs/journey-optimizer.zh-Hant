@@ -4,7 +4,7 @@ description: 瞭解如何在Adobe Journey Optimizer使用Adobe Experience Platfo
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 2cca25d16de520dd905143b2b3fe4bea6dbd7801
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
@@ -38,6 +38,6 @@ ht-degree: 26%
 
 **另請參閱**
 
-* [建立模式、資料集和接收資料以添加Journey Optimizer的Test配置檔案](../building-journeys/creating-test-profiles.md)
+* [建立模式、資料集和接收資料以添加Journey Optimizer的Test配置檔案](../segment/creating-test-profiles.md)
 * [流攝入概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hant){target=&quot;_blank&quot;
 * [將資料導入Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;

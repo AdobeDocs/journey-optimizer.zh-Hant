@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 15%
@@ -29,7 +29,7 @@ ht-degree: 15%
 
 在電子郵件設計器中，您可以個性化內容：
 
-* 在 **消息**:在文本塊內按一下，按一下 **個性化** 表徵圖，然後選擇 **插入個性化** 的子菜單。 有關電子郵件設計器介面的詳細資訊，請參閱 [節](../messages/design-emails.md)。
+* 在 **消息**:在文本塊內按一下，按一下 **個性化** 表徵圖，然後選擇 **插入個性化** 的子菜單。 有關電子郵件設計器介面的詳細資訊，請參閱 [節](../design/design-emails.md)。
 
    ![](assets/perso_insert.png)
 
@@ -53,7 +53,7 @@ ht-degree: 15%
 
 ![](assets/perso_push.png)
 
-瞭解有關中推送通知配置的詳細資訊 [此部分](../messages/push-gs.md)。
+瞭解有關中推送通知配置的詳細資訊 [此部分](../configuration/push-gs.md)。
 
 ## 個性化您的產品 {#personalize-offers}
 

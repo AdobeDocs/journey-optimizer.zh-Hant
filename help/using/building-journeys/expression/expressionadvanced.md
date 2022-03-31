@@ -1,19 +1,24 @@
 ---
-product: adobe campaign
+solution: Journey Optimizer
 title: 關於進階運算式編輯器
 description: 瞭解如何建立進階運算式
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 85%
+source-wordcount: '588'
+ht-degree: 80%
 
 ---
 
 # 關於進階運算式編輯器 {#about-the-advanced-expression-editor}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_expression_advanced"
+>title="關於進階運算式編輯器"
+>abstract="使用高級表達式編輯器在介面的各個螢幕中生成高級表達式。 例如，在配置和使用行程以及定義資料源條件時，可以生成表達式。"
 
 使用高級表達式編輯器在介面的各個螢幕中生成高級表達式。 例如，在配置和使用行程以及定義資料源條件時，可以生成表達式。
 此外，您每次必須定義需要特定資料處理的動作參數時，都可以使用它。您可以善用來自事件的資料或是從資料來源擷取的其他資訊。在歷程中，顯示的事件欄位清單會與情境相關，而且會根據歷程中新增的事件而有所不同。

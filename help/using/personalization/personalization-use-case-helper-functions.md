@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 3%
@@ -28,8 +28,8 @@ ht-degree: 3%
 ➡️ [瞭解如何在此視頻中使用幫助程式功能](#video)
 
 在開始之前，請確保知道如何配置這些元素：
-* 電子郵件。 [了解更多](../messages/create-message.md)
-* 電子郵件的正文。 [了解更多](../messages/create-email-content.md)。
+* 電子郵件。 [了解更多](../messages/get-started-content.md)
+* 電子郵件的正文。 [了解更多](../design/create-email-content.md)。
 * 單一事件。 [了解更多](../event/about-events.md)。
 * 從事件開始的旅程。 [了解更多](../building-journeys/using-the-journey-designer.md)。
 
@@ -147,7 +147,7 @@ ht-degree: 3%
 
       **[!UICONTROL Contextual attributes]** 僅在將行程上下文傳遞到消息後才可用。
 
-   1. 選擇 **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***，然後展開 **[!UICONTROL productListItems]** 的下界。
+   1. 選擇 **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***，然後展開 **[!UICONTROL productListItems]** 的下界。
 
       在本例中， *事件名稱* 表示您的活動名稱。
 
@@ -338,7 +338,7 @@ ht-degree: 3%
 
 * [個性化配置檔案資訊、上下文和服務](personalization-use-case.md)
 
-* [基於決策的個性化服務](../offers/offers-e2e.md)
+* [Personalization提供基於決策的服務](../offers/offers-e2e.md)
 
 ## How-to視頻{#video}
 

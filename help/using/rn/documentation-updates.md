@@ -2,10 +2,10 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '1001'
-ht-degree: 100%
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+workflow-type: tm+mt
+source-wordcount: '1072'
+ht-degree: 94%
 
 ---
 
@@ -13,10 +13,13 @@ ht-degree: 100%
 
 本頁面列出 [!DNL Journey Optimizer] 所有文件更新。
 
-
 ## 2022 年 3 月 {#march-2022}
 
+* 隨附的所有新功能和改進 [!DNL Journey Optimizer] 文檔中詳細列出了2003年3月的發行。 [閱讀全文](release-notes.md)
 * 已在 AI 模型快速入門手冊的 **Offer Decisioning** 部分新增頁面，詳細說明了[自動最佳化模型](../offers/offer-library/ai-ranking.md#auto-optimization)、其所使用的演算法及其他技術細節。 [閱讀全文](../offers/offer-library/ai-ranking.md)
+* test配置檔案建立頁已移至  **段、配置檔案和標識** 的子菜單。 [閱讀全文](../segment/creating-test-profiles.md)
+* 在表達式編輯器中添加了一個如何將表達式作為預設值添加的示例。 [閱讀全文](../building-journeys/expression/field-references.md#default-value)
+* 的 **更改主電子郵件地址** 已更新部分以反映用戶介面的更改。 [閱讀全文](../configuration/primary-email-addresses.md)
 
 ## 2022 年 2 月 {#feb-2022}
 
@@ -32,7 +35,7 @@ ht-degree: 100%
 * 有關 [!DNL Journey Optimizer] 個人化功能的章節已重新整理，以便更容易閱讀。 [閱讀全文](../personalization/personalize.md)
 * 為了提高清晰度，**建立訊息預設集**&#x200B;部分改為若干部分。 [閱讀全文](../configuration/message-presets.md#create-message-preset)
 * **選擇退出管理**&#x200B;區段變得清晰，並稍作重組。 [閱讀全文](../messages/consent.md#opt-out-management)
-*  更新&#x200B;**插入連結**&#x200B;區段來反映近期的使用者介面變更。 [閱讀全文](../messages/message-tracking.md#insert-links)
+*  更新&#x200B;**插入連結**&#x200B;區段來反映近期的使用者介面變更。 [閱讀全文](../design/message-tracking.md#insert-links)
 
 ## 2021 年 11 月 {#november-2021}
 
@@ -92,8 +95,8 @@ ht-degree: 100%
 * 新增協助工具功能和捷徑的相關區段。 [閱讀全文](../start/user-interface.md#accessibility)
 * 新增區段評估方法的相關章節。 [閱讀全文](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * 在「隱藏」清單、「允許」清單和「電子郵件全域/即時」報告區段中新增附註，以指定從「電子郵件報告傳送」指標中排除狀態為「隱藏」和「不允許」設定檔。 [閱讀全文](../reports/email-global-report.md)
-* 新增區段，針對未列在允許清單病從傳送中排除的電子郵件地址或網域，說明如何加以擷取。 [閱讀全文](../messages/allow-list.md#reporting)
-* 更新「啟用允許清單」區段。 [進一步了解](../messages/allow-list.md#enable-allow-list)
+* 新增區段，針對未列在允許清單病從傳送中排除的電子郵件地址或網域，說明如何加以擷取。 [閱讀全文](../reports/allow-list.md#reporting)
+* 更新「啟用允許清單」區段。 [進一步了解](../reports/allow-list.md#enable-allow-list)
 * 更新「監視」訊息預設集區段，其中包含預設集建立失敗的可能原因，以及這類錯誤的詳細資訊。 [閱讀全文](../configuration/message-presets.md#monitor-message-presets)
 * 更新並重新命名「重試時段」區段，凸顯您現在可以在訊息預設集中調整電子郵件重試設定。 [閱讀全文](../configuration/retries.md#retry-duration)
 * 新增區段，說明如何在電子郵件內容中插入一鍵選擇退出的連結。 [閱讀全文](../messages/consent.md#one-click-opt-out-link)
@@ -111,8 +114,8 @@ ht-degree: 100%
 * 新增連結至首頁的 [!DNL Journey Optimizer] 產品說明
 * 在多個頁面中新增教學課程影片
 * 最佳化首頁影像
-* 改進、重新命名「訊息追蹤」區段並移動至「新增連結及追蹤訊息」。 [閱讀全文](../messages/message-tracking.md)
-* 在鏡像頁面上新增子區段。 [閱讀全文](../messages/message-tracking.md#mirror-page)
+* 改進、重新命名「訊息追蹤」區段並移動至「新增連結及追蹤訊息」。 [閱讀全文](../design/message-tracking.md)
+* 在鏡像頁面上新增子區段。 [閱讀全文](../design/message-tracking.md#mirror-page)
 * 在文件和畫面中，將「優惠方案活動」重新命名為「決定」，將「決定」重新命名為「決定範圍」。 [閱讀全文](../offers/get-started/starting-offer-decisioning.md)
 * 新使用案例： [透過協助工具功能個人化訊息](../personalization/personalization-use-case-helper-functions.md)
 * 更新讀取區段文件以凸顯具體化區段的影響。 [閱讀全文](../building-journeys/read-segment.md)

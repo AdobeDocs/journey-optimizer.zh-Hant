@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 12%
+source-wordcount: '1116'
+ht-degree: 11%
 
 ---
 
 # 設定業務事件 {#configure-a-business-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_business"
+>title="業務事件"
+>abstract="事件配置允許您定義Journey Optimizer將作為事件接收的資訊。 您可以使用多個事件（在行程的不同步驟中），而多個行程可以使用同一事件。 與單一事件不同，業務事件不與特定的簡檔關聯。 事件ID類型始終基於規則。"
 
 與單一事件不同，業務事件不與特定的簡檔關聯。 事件ID類型始終基於規則。 閱讀有關中業務事件的更多資訊 [此部分](../event/about-events.md)。
 
@@ -23,11 +28,12 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->您還可以查看業務事件使用案例 [教程](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html)。
+>您還可以查看業務事件使用案例 [教程](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html)。 請注意，無需為配置檔案啟用架構。
 
 ## 重要備註 {#important-notes}
 
-* 只有時間系列方案可用。 「體驗事件」、「決策事件」和「行程步驟事件」架構不可用。 事件架構必須包含主標識。 必鬚根據需要設定以下欄位： `_id` 和 `timestamp`
+* 只有時間系列方案可用。 「體驗事件」、「決策事件」和「行程步驟事件」架構不可用。
+* 事件架構必須包含非基於人的主標識。 定義事件時必須選擇以下欄位： `_id` 和 `timestamp`
 * 商務活動只能作為旅程的第一步而丟棄。
 * 將業務事件作為行程的第一步放置時，行程的調度器類型將是「業務事件」。
 * 業務事件後，只能刪除讀段活動。 它將自動添加為下一步。
@@ -78,7 +84,7 @@ ht-degree: 12%
 
    ![](assets/jo-event5-business.png)
 
-   只有時間系列方案可用。 「體驗事件」、「決策事件」和「行程步驟事件」架構不可用。 事件架構必須包含主標識。 必鬚根據需要設定以下欄位： `_id` 和 `timestamp`
+   只有時間系列方案可用。 「體驗事件」、「決策事件」和「行程步驟事件」架構不可用。 事件架構必須包含非基於人的主標識。 定義事件時必須選擇以下欄位： `_id` 和 `timestamp`
 
    ![](assets/test-profiles-4.png)
 

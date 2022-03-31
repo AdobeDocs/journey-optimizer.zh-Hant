@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 * **[!UICONTROL Journeys]** - 建立、設定和協調客戶歷程。[進一步了解](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]** - 建立、設計、測試及發佈電子郵件和推播訊息。[進一步了解](../messages/create-message.md)
+* **[!UICONTROL Messages]** - 建立、設計、測試及發佈電子郵件和推播訊息。[進一步了解](../messages/get-started-content.md)
 
 **[!UICONTROL DECISION MANAGEMENT]**
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 **[!UICONTROL CONTENT MANAGEMENT]**
 
-* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] 為資產集中存放庫，可用來填入訊息。[進一步了解](../messages/assets-essentials.md)
+* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] 為資產集中存放庫，可用來填入訊息。[進一步了解](../design/assets-essentials.md)
 
 **[!UICONTROL DATA MANAGEMENT]**
 
@@ -76,9 +76,9 @@ ht-degree: 100%
 
 * **[!UICONTROL Segments]** - 建立和管理 Experience Platform 區段定義，並將它們運用在您的歷程中。[進一步了解](../segment/about-segments.md)
 
-* **[!UICONTROL Profiles]** - 即時客戶設定檔可為個別客戶建立整體檢視，並結合來自多個管道的資料，包括線上、離線、CRM 和第三方資料。[進一步了解](get-started-profiles.md)
+* **[!UICONTROL Profiles]** - 即時客戶設定檔可為個別客戶建立整體檢視，並結合來自多個管道的資料，包括線上、離線、CRM 和第三方資料。[進一步了解](../segment/get-started-profiles.md)
 
-* **[!UICONTROL Identities]** - Adobe Experience Platform 身分服務透過 Adobe Experience Platform 的身分圖表，管理跨裝置、跨頻道及幾乎即時的客戶身分識別。[進一步了解](get-started-identity.md)
+* **[!UICONTROL Identities]** - Adobe Experience Platform 身分服務透過 Adobe Experience Platform 的身分圖表，管理跨裝置、跨頻道及幾乎即時的客戶身分識別。[進一步了解](../segment/get-started-identity.md)
 
 **[!UICONTROL ADMINISTRATION]**
 
@@ -98,7 +98,7 @@ ht-degree: 100%
 
 可用的使用案例包括：
 
-* **建立測試設定檔**，以使用我們的 CSV 範本建立測試設定檔，以測試個人化訊息和歷程。在[本頁面](../building-journeys/creating-test-profiles.md#use-case-1)瞭解如何實施此使用案例。
+* **建立測試設定檔**，以使用我們的 CSV 範本建立測試設定檔，以測試個人化訊息和歷程。在[本頁面](../segment/creating-test-profiles.md#use-case-1)瞭解如何實施此使用案例。
 * **傳送生日訊息給客戶**，以自動傳送電子郵件祝賀客戶生日。(即將推出)
 * **傳送電子郵件以吸引新客戶**，輕鬆傳送最多兩封電子郵件來歡迎新註冊的客戶。(即將推出)
 * **傳送推播訊息至匯入的客戶清單**，以快速將推播通知傳送至從 CSV 檔案匯入的客戶清單。(即將推出)

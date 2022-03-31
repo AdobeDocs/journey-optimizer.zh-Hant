@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 14%
+source-wordcount: '1493'
+ht-degree: 13%
 
 ---
 
 # 設定單一事件 {#configure-an-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_unitary"
+>title="酉事件"
+>abstract="事件配置允許您定義Journey Optimizer將作為事件接收的資訊。 您可以使用多個事件（在行程的不同步驟中），而多個行程可以使用同一事件。 單一事件被連結到特定簡檔。 它們可以是基於規則或系統生成的。"
 
 單一事件被連結到特定簡檔。 它們可以是基於規則或系統生成的。  更多關於酉事件的內容 [此部分](../event/about-events.md)。
 

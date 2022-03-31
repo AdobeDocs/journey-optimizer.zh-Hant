@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,15 @@ ht-degree: 0%
 
 * 如果要在行程上下文中確定行程或交貨，請從 **[!UICONTROL Journeys]** 菜單，訪問您的旅程，然後按一下 **[!UICONTROL Global report]** 表徵圖 然後，您可以找到「旅程」、「電子郵件」和「推送」 **[!UICONTROL Global report]**。
 
+   ![](assets/report_6.png)
+
 * 如果要針對特定交貨，請從 **[!UICONTROL Global view]** 的 **[!UICONTROL Executions]** 頁籤，選擇 **[!UICONTROL Global Report]** 的子菜單。
+
+   ![](assets/report_4.png)
+
+* 如果要從 **[!UICONTROL Global report]** 到 **[!UICONTROL Live report]** 對於您的交貨，按一下 **[!UICONTROL Live view]** 按鈕。
+
+   ![](assets/report_5.png)
 
 ## 自定義儀表板 {#modify-dashboard}
 
@@ -34,6 +42,8 @@ ht-degree: 0%
    ![](assets/report_modify_1.png)
 
 1. 選擇是否要使用切換欄從報表中排除test事件。 有關test事件的詳細資訊，請參閱 [此頁](../building-journeys/testing-the-journey.md)。
+
+   請注意 **[!UICONTROL Exclude test events]** 選項僅可用於行程報告。
 
    ![](assets/report_modify_2.png)
 

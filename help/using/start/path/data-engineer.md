@@ -3,7 +3,7 @@ title: Journey Optimizer資料工程師入門
 description: 作為資料工程師，瞭解如何與Journey Optimizer合作
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 9%
@@ -25,7 +25,7 @@ ht-degree: 9%
 
 以下各節詳細介紹了建立標識命名空間和啟用配置檔案和test配置檔案的資料集的步驟：
 
-1. **建立標識命名空間**。 Adobe [!DNL Journey Optimizer]。 **身份** 將消費者連結到設備和通道，結果是標識圖。 連結的身份圖用於根據您所有業務接觸點之間的交互來個性化體驗。  瞭解有關標識和標識命名空間的詳細資訊 [此頁](../get-started-identity.md)。
+1. **建立標識命名空間**。 Adobe [!DNL Journey Optimizer]。 **身份** 將消費者連結到設備和通道，結果是標識圖。 連結的身份圖用於根據您所有業務接觸點之間的交互來個性化體驗。  瞭解有關標識和標識命名空間的詳細資訊 [此頁](../../segment/get-started-identity.md)。
 
 1. **建立架構** 並為配置檔案啟用它。 模式是一組規則，用於表示和驗證資料的結構和格式。 在高級別上，架構提供了真實世界對象（如人）的抽象定義，並概述該對象的每個實例中應包括哪些資料（如名字、姓氏、生日等）。  瞭解有關架構的詳細資訊 [此頁](../get-started-schemas.md)。
 
@@ -33,7 +33,7 @@ ht-degree: 9%
 
 1. **配置源連接器**。 AdobeJourney Optimzer允許從外部源接收資料，同時讓您能夠使用平台服務構建、標籤和增強傳入資料。 您可以從多種源(如Adobe應用程式、基於雲的儲存、資料庫和許多其他源)接收資料。 瞭解有關源連接器的詳細資訊 [此頁](../get-started-sources.md)。
 
-1. **建立測試設定檔**. Test配置檔案在使用 [test模式](../../building-journeys/testing-the-journey.md) 在旅途中， [預覽和test您的郵件](../../messages/preview.md) 在發送之前。 發現建立test配置檔案的步驟 [此頁](../../building-journeys/creating-test-profiles.md)。
+1. **建立測試設定檔**. Test配置檔案在使用 [test模式](../../building-journeys/testing-the-journey.md) 在旅途中， [預覽和test您的郵件](../../design/preview.md) 在發送之前。 發現建立test配置檔案的步驟 [此頁](../../segment/creating-test-profiles.md)。
 
 
 此外，要在行程中發送消息，必須配置 **[!UICONTROL Data Sources]**。 **[!UICONTROL Events]** 和 **[!UICONTROL Actions]**。 請參閱[本節](../../configuration/about-data-sources-events-actions.md).

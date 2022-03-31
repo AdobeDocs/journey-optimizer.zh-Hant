@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,17 @@ ht-degree: 0%
 
    ![](assets/report_2.png)
 
+* 如果要從 **[!UICONTROL Live report]** 到 **[!UICONTROL Global report]** 對於您的交貨，按一下 **[!UICONTROL Global view]** 按鈕。
+
+   ![](assets/report_3.png)
+
 ## 自定義儀表板 {#modify-dashboard}
 
 可通過調整小部件大小或刪除小部件來修改每個報告儀表板。 更改小部件僅影響當前用戶的儀表板。 其他用戶將看到自己的儀表板或預設設定的儀表板。
 
 1. 選擇是否要使用切換欄從報表中排除test事件。 有關test事件的詳細資訊，請參閱 [此頁](../building-journeys/testing-the-journey.md)。
+
+   請注意 **[!UICONTROL Exclude test events]** 選項僅可用於行程報告。
 
    ![](assets/report_modify_6.png)
 

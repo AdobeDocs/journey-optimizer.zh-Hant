@@ -5,7 +5,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 作為開發人員，您需要 **配置移動應用** 能夠發送推送通知 [!DNL Adobe Journey Optimizer]。
 
-[!DNL Journey Optimizer] 允許您建立行程並向目標受眾發送消息。 開始發送推送通知之前 [!DNL Journey Optimizer]您需要確保移動應用上已部署配置和整合， [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]。 要瞭解中的推送通知資料流 [!DNL Adobe Journey Optimizer] 請參閱 [此頁](../../messages/push-gs.md)。
+[!DNL Journey Optimizer] 允許您建立行程並向目標受眾發送消息。 開始發送推送通知之前 [!DNL Journey Optimizer]您需要確保移動應用上已部署配置和整合， [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]。 要瞭解中的推送通知資料流 [!DNL Adobe Journey Optimizer] 請參閱 [此頁](../../configuration/push-gs.md)。
 
-有關配置推送通知通道和test移動應用整合的步驟的詳細說明，請參見 [此頁](../../messages/push-configuration.md)。
+有關配置推送通知通道和test移動應用整合的步驟的詳細說明，請參見 [此頁](../../configuration/push-configuration.md)。
 
 ## 使用API {#work-apis}
 

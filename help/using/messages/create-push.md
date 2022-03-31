@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1403'
 ht-degree: 9%
@@ -25,7 +25,7 @@ ht-degree: 9%
 
 [!DNL Journey Optimizer] 支援推送通知，並幫助您以業界領先的吞吐率發送高度相關的通知。 推送通知可能包括個性化和基於旅程的上下文，以便利用您的品牌對Adobe Experience Cloud的資料洞察力。
 
-一旦 [已建立消息](create-message.md)，按一下 **[!UICONTROL Push Notification]** 頁籤，以定義推送通知的設定和內容。
+一旦 [已建立消息](get-started-content.md)，按一下 **[!UICONTROL Push Notification]** 頁籤，以定義推送通知的設定和內容。
 
 ![](assets/create-content-push.png)
 
@@ -68,7 +68,7 @@ ht-degree: 9%
 
 * 使用 **[!UICONTROL Add media]** 按鈕 **[!DNL Adobe Experience Manager Assets Essentials]**。
 
-   瞭解如何使用 **[!DNL Adobe Experience Manager Assets Essentials]** 在 [此頁](assets-essentials.md)。
+   瞭解如何使用 **[!DNL Adobe Experience Manager Assets Essentials]** 在 [此頁](../design/assets-essentials.md)。
 
 * 或在 **[!UICONTROL Add media]** 的子菜單。 在這種情況下，您可以將個性化添加到URL。
 
@@ -102,7 +102,7 @@ ht-degree: 9%
 
 ## 自訂資料
 
-在 **[!UICONTROL Custom data]** 部分，您可以根據移動應用程式配置將自定義變數添加到負載中。 有關如何在Adobe Experience Platform和Adobe啟動中設定推送通知的詳細資訊，請參閱 [此部分](push-gs.md)
+在 **[!UICONTROL Custom data]** 部分，您可以根據移動應用程式配置將自定義變數添加到負載中。 有關如何在Adobe Experience Platform和Adobe啟動中設定推送通知的詳細資訊，請參閱 [此部分](../configuration/push-gs.md)
 
 ## 高級選項 {#advanced-options-push}
 
@@ -127,6 +127,6 @@ ht-degree: 9%
 * [Understand push notification flow](push-gs.md)
 -->
 
-* [配置推送通道](push-gs.md)
-* [建立新郵件](create-message.md)
+* [配置推送通道](../configuration/push-gs.md)
+* [建立新郵件](get-started-content.md)
 * [在歷程中新增訊息](../building-journeys/journeys-message.md)

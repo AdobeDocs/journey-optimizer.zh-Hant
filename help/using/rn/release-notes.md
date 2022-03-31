@@ -2,10 +2,10 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca9cb62770c1c50b2683486de48435d5b47b8729
-workflow-type: ht
-source-wordcount: '2697'
-ht-degree: 100%
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+workflow-type: tm+mt
+source-wordcount: '2821'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +13,28 @@ ht-degree: 100%
 
 本頁面列出[!DNL Journey Optimizer]所有新功能和改進項目。您還可以參閱[最新文件更新](documentation-updates.md)頁面以了解更多變更。
 
+## 2022 年 3 月發行 {#march-2022-release}
 
+### 改進項目
+
+**歷程**
+
+* 為避免統一配置檔案架構中存在不必要的欄位，預設情況下不再為配置檔案啟用「行程步驟事件」架構。 如果需要，可以激活它。 [了解更多](../reports/sharing-overview.md)
+* 與出口就業有關的新步驟活動現在由Journey Optimizer發送給Adobe Experience Platform。 查詢示例已添加到文檔中。 [進一步了解](../reports/query-examples.md)
+
+**決定管理**
+
+<!--* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/creating-personalized-offers.md)-->
+* 批決策API允許組織在一次調用中對給定段中的所有配置檔案使用offer decisioning功能。 段中每個配置檔案的提供內容都放在AEP資料集中，該資料集可用於自定義批處理工作流。 [進一步了解](../offers/api-reference/batch-api/deliver-offers-batch.md)
+
+<!--**Administration**
+
+* You can now enable/disable the unsubscribe link in/from the email header at the message preset level, and set a custom unsubscribe URL at the message level. [Learn more](../configuration/message-presets.md#list-unsubscribe)
+* The allowed list will can now be enabled and disabled through the [!DNL Journey Optimizer] interface. [Learn more](../messages/allow-list.md#enable-allow-list)-->
+
+**個人化**
+
+* 您現在可以在庫中保存40多個個性化表達式。 [了解更多](../personalization/personalization-library.md)
 
 ## 2022 年 2 月發佈內容 {#feb-2022-release}
 
@@ -236,7 +257,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **報告**
 
-* **全域檢視中的資料格式**  - 您現在可以在&#x200B;**執行**&#x200B;標籤中的&#x200B;**全域檢視**&#x200B;切換數字與百分比 。 [進一步了解](../messages/message-monitoring.md)
+* **全域檢視中的資料格式**  - 您現在可以在&#x200B;**執行**&#x200B;標籤中的&#x200B;**全域檢視**&#x200B;切換數字與百分比 。 [進一步了解](../reports/message-monitoring.md)
 
 
 **管理**
@@ -276,7 +297,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <td>
 <p>在報告中提供新指標：即時和全域報告都會顯示已鎖定和已排除對象的電子郵件和推送訊息。 </br> 若要存取最新指標，請注意，您必須為每個頻道和報告類型重新設定不同的報告儀表板。 如需儀表板客製化的詳細資訊，請參閱<a href="../reports/live-report.md">詳細文件。</a></p>
 <p>訊息執行清單中包含新欄顯示每個訊息執行的目標設定檔數量。 </p>
-<p>如需詳細資訊，請參閱<a href="../messages/message-monitoring.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../reports/message-monitoring.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -419,7 +440,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **內容設計**
 
-* **背景**  - 即時預覽現在支援背景影像。 [進一步了解](../messages/preview.md)
+* **背景**  - 即時預覽現在支援背景影像。 [進一步了解](../design/preview.md)
 * **一鍵選擇退出的連結**  - 您可以在電子郵件內容中插入新類型的連結：**選擇退出**&#x200B;連結可讓使用者只要按一下即可取消訂閱接收您的通訊，無須重新導向至登陸頁面以確認選擇退出。 [進一步了解](../messages/consent.md#one-click-opt-out-link)
 
 **個人化**
@@ -428,7 +449,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **電子郵件設定**
 
-* **允許清單**  - 您現在可以透過 API 呼叫，在非生產沙箱上啟用和停用允許清單。 [進一步了解](../messages/allow-list.md#enable-allow-list)
+* **允許清單**  - 您現在可以透過 API 呼叫，在非生產沙箱上啟用和停用允許清單。 [進一步了解](../reports/allow-list.md#enable-allow-list)
 * **導覽**  - 可在 **管理 > 管道 > 電子郵件設定 > 一般** 功能表中存取的隱藏清單，已移至新的 **隱藏清單** 子功能表，收集所有相關功能以便更輕鬆存取。 [進一步了解](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **決定管理**
@@ -475,7 +496,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tr>
 <td>
 <p>您現在可以在沙箱層級定義特定的傳送安全清單，以便擁有可用於測試目的的安全環境。 在可能發生錯誤的非生產執行個體上，允許清單可確保避免您將不需要的訊息傳送給客戶的風險。 此功能需透過隱藏 API 來啟用。</p>
-<p>如需詳細資訊，請參閱<a href="../messages/allow-list.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../reports/allow-list.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -494,9 +515,9 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **預覽和測試訊息**
 
-* 身分和命名空間現在會顯示在 **[!UICONTROL Preview]** 畫面中。 [閱讀全文](../messages/preview.md#preview-your-messages)
+* 身分和命名空間現在會顯示在 **[!UICONTROL Preview]** 畫面中。 [閱讀全文](../design/preview.md#preview-your-messages)
 * 校樣的測試電子郵件數目現在限制為 10 則。
-* 已在校樣中限制&#x200B;**主旨行首碼** 允許的字元。 [閱讀全文](../messages/preview.md#send-proofs)
+* 已在校樣中限制&#x200B;**主旨行首碼** 允許的字元。 [閱讀全文](../design/preview.md#send-proofs)
 
 **個人化運算式編輯器**
 

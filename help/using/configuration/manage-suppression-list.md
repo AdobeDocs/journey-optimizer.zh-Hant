@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 * 始終軟彈跳的地址，如果繼續將其包括在交貨中，可能會對您的電子郵件聲譽產生負面影響。
 * 對您的電子郵件發出某種垃圾郵件投訴的收件人。
 
-這些電子郵件地址自動收集到Journey Optimizer **隱藏清單**。 瞭解有關禁止顯示清單概念和中使用的詳細資訊 [此部分](../messages/suppression-list.md)。
+這些電子郵件地址自動收集到Journey Optimizer **隱藏清單**。 瞭解有關禁止顯示清單概念和中使用的詳細資訊 [此部分](../reports/suppression-list.md)。
 
 ## 訪問禁止顯示清單 {#access-suppression-list}
 
@@ -49,7 +49,7 @@ ht-degree: 2%
 
 ![](assets/suppression-list-delete.png)
 
-從禁止顯示清單中刪除電子郵件地址或域意味著您將再次開始傳送到此地址或域。 因此，這會對您的可交付性和IP信譽造成嚴重影響，最終可能導致您的IP地址或發送域被阻止。 瞭解有關在中維護禁止顯示清單的重要性的更多資訊 [此部分](../messages/suppression-list.md)。
+從禁止顯示清單中刪除電子郵件地址或域意味著您將再次開始傳送到此地址或域。 因此，這會對您的可交付性和IP信譽造成嚴重影響，最終可能導致您的IP地址或發送域被阻止。 瞭解有關在中維護禁止顯示清單的重要性的更多資訊 [此部分](../reports/suppression-list.md)。
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->瞭解有關中軟邊界和硬邊界的更多資訊 [傳遞失敗類型](../messages/suppression-list.md#delivery-failures) 的子菜單。
+>瞭解有關中軟邊界和硬邊界的更多資訊 [傳遞失敗類型](../reports/suppression-list.md#delivery-failures) 的子菜單。
 
 對於列出的每個電子郵件地址，您還可以檢查 **[!UICONTROL Type]** （電子郵件或域）, **[!UICONTROL Reason]** 用於排除它、添加者以及將其添加到禁止清單的日期/時間。
 

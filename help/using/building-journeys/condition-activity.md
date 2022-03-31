@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1271'
 ht-degree: 7%
 
 ---
 
 # 條件活動{#condition-activity}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_condition"
+>title="條件活動"
+>abstract="此活動允許您定義個人在旅途中的流動方式。 將根據各種標準建立多條路徑。 您還可以在超時或出錯時建立備用路徑。"
 
 這些類型的條件可用：
 
@@ -26,6 +31,11 @@ ht-degree: 7%
 ![](assets/journey49.png)
 
 ## 關於條件活動 {#about_condition}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_expression_simple"
+>title="關於簡單表達式編輯器"
+>abstract="簡單表達式編輯器模式允許您基於欄位組合執行簡單查詢。 螢幕左側顯示所有可用欄位。 將欄位拖放到主區域。 要組合不同的元素，請將它們互鎖到彼此中以建立不同的組和/或組級。 然後，可以選擇邏輯運算子來組合同一級別上的元素。"
 
 在旅途中使用多個條件時，您可以為每個條件定義標籤，以便更容易地識別它們。
 
@@ -53,15 +63,17 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->不能使用簡單編輯器對時間序列（例如購買清單、以前按一下消息）執行查詢。 為此，您需要使用高級編輯器。 請參閱 [AdobeJourney Orchestration文檔](expression/expressionadvanced.md)。
+>不能使用簡單編輯器對時間序列（例如購買清單、以前按一下消息）執行查詢。 為此，您需要使用高級編輯器。 請參閱[此頁面](expression/expressionadvanced.md)。
 
 當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
 
-在簡單編輯器中，您還將在事件和資料源類別下找到「行程屬性」類別。 此類別包含與給定配置檔案的行程相關的技術欄位。 這是系統從即時行程中檢索的資訊，如行程ID或遇到的特定錯誤。 有關詳細資訊，請參見 [AdobeJourney Orchestration文檔](expression/journey-properties.md)
+在簡單編輯器中，您還將在事件和資料源類別下找到「行程屬性」類別。 此類別包含與給定配置檔案的行程相關的技術欄位。 這是系統從即時行程中檢索的資訊，如行程ID或遇到的特定錯誤。 [了解更多](expression/journey-properties.md)
 
 ## 資料源條件 {#data_source_condition}
 
-這允許您基於資料源中的欄位或先前在行程中定位的事件來定義條件。 要瞭解如何使用表達式編輯器，請參見 [AdobeJourney Orchestration文檔](expression/expressionadvanced.md)。 使用高級表達式編輯器，可以設定操作集合或使用需要傳遞參數的資料源的更高級條件。 請參閱[此頁面](../datasource/external-data-sources.md)。
+這允許您基於資料源中的欄位或先前在行程中定位的事件來定義條件。 瞭解如何在中使用表達式編輯器 [此部分](expression/expressionadvanced.md)。
+
+使用高級表達式編輯器，可以設定操作集合或使用需要傳遞參數的資料源的更高級條件。 [了解更多](../datasource/external-data-sources.md)。
 
 ![](assets/journey50.png)
 

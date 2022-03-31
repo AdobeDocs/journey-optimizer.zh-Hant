@@ -1,5 +1,5 @@
 ---
-solution: Journey Orchestration
+solution: Journey Optimizer
 title: 配置自定義操作
 description: 瞭解如何配置自定義操作
 feature: Actions
@@ -7,14 +7,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '915'
 ht-degree: 6%
 
 ---
 
 # 配置自定義操作 {#configure-an-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_custom_configuration"
+>title="自訂動作"
+>abstract="如果您使用第三方系統發送消息，或者如果希望行程將API調用發送到第三方系統，請使用自定義操作配置其到行程的連接。 例如，可以使用自定義操作連接到以下系統：Epsilon、Slack、Adobe.io、Firebase等"
 
 如果您使用第三方系統發送消息，或者如果希望行程將API調用發送到第三方系統，請使用自定義操作配置其到行程的連接。 例如，可以使用自定義操作連接到以下系統：Epsilon、Slack、Adobe.io、Firebase等
 

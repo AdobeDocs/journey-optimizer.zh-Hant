@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 2cca25d16de520dd905143b2b3fe4bea6dbd7801
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 11%
@@ -39,7 +39,7 @@ ht-degree: 11%
 
 **另請參閱**
 
-* [建立模式、資料集和接收資料以添加Journey Optimizer的Test配置檔案](../building-journeys/creating-test-profiles.md)
+* [建立模式、資料集和接收資料以添加Journey Optimizer的Test配置檔案](../segment/creating-test-profiles.md)
 * [XDM系統概述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;
 * [資料建模的最佳做法](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html){target=&quot;_blank&quot;
 * [使用架構註冊表API建立架構](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html){target=&quot;_blank&quot;

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1752'
 ht-degree: 7%
 
 ---
@@ -68,6 +68,11 @@ ht-degree: 7%
    ![](assets/jo-dynamic_report_journey_12.png)
 
 ## 變更屬性 {#change-properties}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties"
+>title="歷程屬性"
+>abstract="您可以更改行程名稱、添加說明、允許重新進入、選擇開始和結束日期，並定義超時和錯誤持續時間（如果您是管理員）。"
 
 按一下右上角的鉛筆表徵圖以訪問行程的屬性。
 

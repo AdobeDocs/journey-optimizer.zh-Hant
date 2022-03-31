@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
 # 更新配置檔案 {#update-profile}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_update_profiles"
+>title="更新配置檔案活動"
+>abstract="「更新配置檔案」(Update Profile)操作活動允許您使用來自事件、資料源或使用特定值的資訊更新現有的Adobe Experience Platform配置檔案。"
 
 的 **[!UICONTROL Update Profile]** action活動允許您使用事件、資料源或使用特定值提供的資訊更新現有的Adobe Experience Platform配置檔案。
 
@@ -32,7 +37,7 @@ ht-degree: 0%
 
 只有test配置檔案才能以test模式進入行程。 您可以建立新的test配置檔案或將現有配置檔案轉換為test配置檔案。 在Adobe Experience Platform，可以通過csv檔案導入或API調用更新配置檔案屬性。 更簡單的方法是 **更新配置檔案** 操作活動，並將test配置檔案布爾欄位從false更改為true。
 
-有關如何將現有配置檔案轉換為test配置檔案的詳細資訊，請參閱此 [節](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)。
+有關如何將現有配置檔案轉換為test配置檔案的詳細資訊，請參閱此 [節](../segment/creating-test-profiles.md#create-test-profiles-csv)。
 
 ## 使用配置檔案更新
 

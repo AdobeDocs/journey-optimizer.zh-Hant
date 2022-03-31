@@ -6,7 +6,7 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 9%
@@ -22,7 +22,7 @@ ht-degree: 9%
 
 1. **配置消息和通道**:定義預設、調整和定制電子郵件和推送消息
 
-   * 在兩者中定義推送通知設定 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]。 [了解更多](../messages/push-gs.md)
+   * 在兩者中定義推送通知設定 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]。 [了解更多](../configuration/push-gs.md)
 
    * 建立消息預設以配置電子郵件和推送通知消息所需的所有技術參數。 [了解更多](message-presets.md)
 
@@ -31,7 +31,7 @@ ht-degree: 9%
    * 管理在將電子郵件地址發送到禁止顯示清單之前執行重試的天數。 [了解更多](manage-suppression-list.md)
 
    <!--
-    * Understand push notification flow. [Learn more](../messages/push-gs.md)
+    * Understand push notification flow. [Learn more](../configuration/push-gs.md)
     -->
 
 1. **委託子域**:對於在Journey Optimizer使用的任何新子域，第一步是將其委派。 [了解更多](about-subdomain-delegation.md)

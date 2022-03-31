@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Ignored]**:臨時（如「外出」）或技術錯誤（例如，如果發件人類型是郵遞員）的總數。
 
-有關退貨的詳細資訊，請參閱 [隱藏清單](../messages/suppression-list.md) 的子菜單。
+有關退貨的詳細資訊，請參閱 [隱藏清單](../reports/suppression-list.md) 的子菜單。
 
 ![](assets/global_report_22.png)
 
@@ -212,6 +212,8 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 
 * **[!UICONTROL Engagement Rate]**:此推送通知的開啟和操作的百分比，即，如果配置檔案開啟了推送或按一下了按鈕。
 
+![](assets/global_report_24.png)
+
 的 **[!UICONTROL Push notification summary]** 圖形包含可用於發送推送通知的資料，如：
 
 * **[!UICONTROL Opens]**:在傳遞中開啟消息的次數。
@@ -242,6 +244,8 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 ![](assets/global_report_18.png)
 
 的 **[!UICONTROL Error Reasons]** 圖形和表格允許您查看在交付期間發生的錯誤。
+
+的 **[!UICONTROL Excluded reasons]** 圖形和表顯示阻止從目標配置檔案中排除的用戶配置檔案接收消息的不同原因。
 
 ![](assets/global_report_19.png)
 

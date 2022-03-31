@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 7d628ecd7c54455847c2cfb48bf59ff3f602c51f
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 2%
@@ -109,7 +109,7 @@ curl -X POST \
 | `xdm:propositionRequests.xdm:activityId` | 唯一決策標識符。 | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
 | `xdm:itemCount` | 要返回的優惠數量。 最大數為30。 | `"xdm:itemCount": 2` |
 | `xdm:profiles` | 此對象包含有關請求決策的配置檔案的資訊。 對於API請求，此請求將包含一個配置檔案。 |
-| `xdm:profiles.xdm:identityMap` | 此對象基於標識的命名空間整合代碼保存一組最終用戶標識。 標識映射可以攜帶每個命名空間的多個標識。 有關命名空間的詳細資訊，請參見 [此頁](../../../start/get-started-identity.md)。 | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:identityMap` | 此對象基於標識的命名空間整合代碼保存一組最終用戶標識。 標識映射可以攜帶每個命名空間的多個標識。 有關命名空間的詳細資訊，請參見 [此頁](../../../segment/get-started-identity.md)。 | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | 客戶端生成的ID，可用於唯一標識配置檔案決策請求。 此ID在響應中回復，不影響決定的結果。 | `"xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"` |
 | `xdm:allowDuplicatePropositions` | 此對象是重複資料消除規則的控制結構。 它由一系列標誌組成，這些標誌指示是否可以在某個維上建議同一選項。 設定為true的標誌表示允許重複，並且不應跨標誌所指示的類別刪除。 設定為false的標誌表示決策引擎不應在整個維中提出相同的命題，而應為子決策之一選擇下一個最佳選項。 |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | 如果設定為true，則可能會為多個決策分配相同的選項。 | `"xdm:acrossActivities": true` |

@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 408e224eeac09baafb0d91a15c44eadf885a62c3
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '553'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 語法顏色用於直觀地區分事件欄位（綠色）和欄位組（藍色）。
 
-## 欄位引用的預設值
+## 欄位引用的預設值 {#default-value}
 
 預設值可以與欄位名關聯。 語法如下：
 
@@ -86,6 +86,13 @@ expression examples:
 - #{ACP.Profile.emails.at(1).email}              -> "snow@thewall.westeros"
 - #{ACP.Profile.person.age, defaultValue : -1}   -> -1 // default value, age is not a field present in the payload
 - #{ACP.Profile.person.age}                      -> null
+```
+
+可以添加任何類型的表達式作為預設值。 唯一的約束是表達式必須返回預期的資料類型。 使用函式時，需要用()封裝函式。
+
+```
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
+== date("2022-02-10T00:00:00Z")
 ```
 
 ## 對集合中欄位的引用

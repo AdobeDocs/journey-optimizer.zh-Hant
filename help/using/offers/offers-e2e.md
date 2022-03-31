@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 5%
@@ -225,11 +225,11 @@ ht-degree: 5%
 
 既然您的決定是即時的，您可以將其插入電子郵件。 要執行此操作，請遵循下列步驟：
 
-1. 建立電子郵件，然後開啟 [電子郵件設計器](../../using/messages/design-emails.md) 配置其內容。
+1. 建立電子郵件，然後開啟 [電子郵件設計器](../../using/design/design-emails.md) 配置其內容。
 
 1. 從左側調色板添加結構元件。
 
-1. 添加 **[!UICONTROL Offer decision]** 內容元件。 瞭解如何在 [此部分](../../using/messages/content-components.md)。
+1. 添加 **[!UICONTROL Offer decision]** 內容元件。 瞭解如何在 [此部分](../../using/design/content-components.md)。
 
    ![](assets/offers-e2e-decision-component.png)
 
@@ -255,7 +255,7 @@ ht-degree: 5%
 
 ![](assets/offers-e2e-offers-displayed.png)
 
-使用 **[!UICONTROL Offers]** 或內容元件箭頭（右箭頭和左箭頭）來瀏覽資料。 您還可以顯示客戶配置檔案中決策的不同優惠。 瞭解詳情 [此部分](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email)。
+使用 **[!UICONTROL Offers]** 或內容元件箭頭（右箭頭和左箭頭）來瀏覽資料。 您還可以顯示客戶配置檔案中決策的不同優惠。 瞭解詳情 [此部分](../../using/design/deliver-personalized-offers.md#preview-offers-in-email)。
 
 保存更改後，一旦發佈消息，您的優惠就可以在將消息作為行程的一部分發送時顯示在相關配置檔案中。
 
@@ -265,7 +265,7 @@ ht-degree: 5%
 
 **相關主題：**
 
-* 瞭解如何在中檢查郵件預覽 [此部分](../../using/messages/preview.md#preview-your-messages)。
+* 瞭解如何在中檢查郵件預覽 [此部分](../../using/design/preview.md#preview-your-messages)。
 
 * 瞭解如何在 [此部分](../../using/messages/publish-manage-message.md)。
 

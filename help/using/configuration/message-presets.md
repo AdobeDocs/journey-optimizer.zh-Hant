@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 653a5483fbdeb7a0b78dadc55ec71663e3ff0247
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '2067'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 >
 > * 郵件預設配置僅限於「旅程管理員」。 [了解更多](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * 必須執行電子郵件配置和 [推送配置](../messages/push-configuration.md) 建立消息預設之前的步驟。
+> * 必須執行電子郵件配置和 [推送配置](../configuration/push-configuration.md) 建立消息預設之前的步驟。
 
 
 一旦配置了消息預設，您就可以在從 **[!UICONTROL Presets]** 清單框。
@@ -106,11 +106,47 @@ ht-degree: 1%
 
 1. 選擇要與預設關聯的IP池。 [了解更多](ip-pools.md)
 
+### 清單 — 取消訂閱 {#list-unsubscribe}
+
+在 [選擇子域](#subdomains-and-ip-pools) 清單中， **[!UICONTROL Enable List-Unsubscribe]** 按鈕。
+
+![](assets/preset-list-unsubscribe.png)
+
+依預設，會啟用此選項。
+
+如果保持啟用狀態，則取消訂閱連結將自動包含在電子郵件標題中，例如：
+
+![](assets/preset-list-unsubscribe-header.png)
+
+如果禁用此選項，則電子郵件標題中不會顯示取消訂閱連結。
+
+取消訂閱連結包含兩個元素：
+
+* 安 **取消訂閱電子郵件地址**，所有取消訂閱請求都發送到。
+
+   在 [!DNL Journey Optimizer]，取消訂閱電子郵件地址是 **[!UICONTROL Mailto (unsubscribe)]** 在消息預設中顯示的地址，基於 [選定子域](#subdomains-and-ip-pools)。
+
+   ![](assets/preset-list-unsubscribe-mailto.png)
+
+* 的 **取消訂閱URL**，即登錄頁的URL，在取消訂閱後將重定向用戶。
+
+   如果添加 [按一下選擇退出連結](../messages/consent.md#one-click-opt-out) 對於使用此預設建立的消息，取消訂閱URL將是為一次按一下選擇退出連結定義的URL。
+
+   ![](assets/preset-list-unsubscribe-opt-out-url.png)
+
+   >[!NOTE]
+   >
+   >如果您不在消息內容中添加一鍵退出選項連結，則不會向用戶顯示登錄頁。
+
+瞭解有關將標題取消訂閱連結添加到郵件的詳細資訊 [此部分](../messages/consent.md#unsubscribe-header)。
+
+<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.-->
+
 ### URL跟蹤{#url-tracking}
 
 要確定人員按一下連結的位置和原因，可以在中添加UTM參數以跟蹤URL  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** 的子菜單。
 
-根據您定義的參數，UTM代碼將應用到消息內容中包含的URL的末尾。 然後，您將能夠在Web分析工具(如Google Analytics)中比較結果。 <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+根據您定義的參數，UTM代碼將應用到消息內容中包含的URL的末尾。 然後，您將能夠在Web分析工具(如Google Analytics)中比較結果。
 
 ![](assets/preset-url-tracking.png)
 
@@ -130,9 +166,11 @@ ht-degree: 1%
 
 ### 標題參數{#email-header}
 
-在 **[!UICONTROL HEADER PARAMETERS]** 部分，輸入與使用該預設發送的郵件關聯的電子郵件地址。 這些電子郵件地址必須使用當前選定的 [委託子域](about-subdomain-delegation.md)。
+在 **[!UICONTROL HEADER PARAMETERS]** 部分，輸入與使用該預設發送的郵件類型關聯的發件人姓名和電子郵件地址。
 
-必須配置以下電子郵件地址
+>[!CAUTION]
+>
+>電子郵件地址必須使用當前選定的 [委託子域](about-subdomain-delegation.md)。
 
 * **[!UICONTROL Sender name]**:發件人的名稱，如您的品牌名稱。
 
@@ -143,7 +181,6 @@ ht-degree: 1%
 * **[!UICONTROL Reply to (email)]**:收件人按一下 **答復** 按鈕。 必須使用在委派子域上定義的地址(例如， *reply@marketing.luma.com*)，否則將刪除電子郵件。
 
 * **[!UICONTROL Error email]**:ISP在發送數天郵件（非同步綁定）後生成的所有錯誤都會在此地址上接收。
-
 
 ![](assets/preset-header.png)
 
@@ -177,7 +214,7 @@ ht-degree: 1%
 
 ![](assets/preset-push.png)
 
-有關如何配置環境以發送推送通知的詳細資訊，請參閱 [此部分](../messages/push-gs.md)。
+有關如何配置環境以發送推送通知的詳細資訊，請參閱 [此部分](../configuration/push-gs.md)。
 
 <!--
 ## Configure SMS settings {#configure-sms-settings}

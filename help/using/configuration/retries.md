@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->瞭解有關中錯誤類型的詳細資訊 [傳遞失敗類型](../messages/suppression-list.md#delivery-failures) 的子菜單。
+>瞭解有關中錯誤類型的詳細資訊 [傳遞失敗類型](../reports/suppression-list.md#delivery-failures) 的子菜單。
 
 在預設配置中，閾值設定為5個錯誤。
 
@@ -45,7 +45,7 @@ ht-degree: 2%
 
    >[!CAUTION]
    >
-   >超過10的任何值都可能導致交付能力信譽問題，以及ISP的IP限制或阻止清單。 [瞭解有關可交付性的更多資訊](../messages/deliverability.md)
+   >超過10的任何值都可能導致交付能力信譽問題，以及ISP的IP限制或阻止清單。 [瞭解有關可交付性的更多資訊](../reports/deliverability.md)
 
 ## 重試時段 {#retry-duration}
 

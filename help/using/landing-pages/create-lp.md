@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '926'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ![](assets/lp_access-list-filter.png)
 
-在此清單中，您可以訪問 [登錄頁報告](lp-report.md) 的子菜單。
+在此清單中，您可以訪問 [登錄頁即時報告](../reports/lp-report-live.md) 或 [登錄頁全局報告](../reports/lp-report-global.md) 的子菜單。
 
 您還可以刪除、複製和取消發佈登錄頁。
 
@@ -133,7 +133,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->您必須具有test配置檔案才能預覽郵件和發送校樣。 瞭解如何 [建立test配置檔案](../building-journeys/creating-test-profiles.md)。
+>您必須具有test配置檔案才能預覽郵件和發送校樣。 瞭解如何 [建立test配置檔案](../segment/creating-test-profiles.md)。
 
 1. 在登錄頁介面中，按一下 **[!UICONTROL Preview & test]** 按鈕，來查看test配置檔案選擇。
 
@@ -147,7 +147,7 @@ ht-degree: 2%
 
    ![](assets/lp_test-profiles.png)
 
-   選擇test配置檔案的步驟與測試消息時的步驟相同。 詳細資訊 [此部分](../messages/preview.md#select-test-profiles)。
+   選擇test配置檔案的步驟與測試消息時的步驟相同。 詳細資訊 [此部分](../design/preview.md#select-test-profiles)。
 
 1. 選擇 **[!UICONTROL Preview]** 頁籤 **[!UICONTROL Open preview]** test登錄頁。
 
@@ -210,9 +210,9 @@ ht-degree: 2%
 
 登錄頁發佈後，它將添加到登錄頁清單中 **[!UICONTROL Published]** 狀態。
 
-它現在可以在 [!DNL Journey Optimizer] [消息](../messages/create-message.md) 將通過 [旅程](../building-journeys/journey.md)。
+它現在可以在 [!DNL Journey Optimizer] [消息](../messages/get-started-content.md) 將通過 [旅程](../building-journeys/journey.md)。
 
 >[!NOTE]
 >
->您可以通過特定報告監控登錄頁的影響。 [了解更多](lp-report.md)
+>您可以通過特定報告監控登錄頁的影響。 [了解更多](../reports/lp-report-live.md)
 

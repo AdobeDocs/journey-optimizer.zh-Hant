@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5071de634c9dbb13908d3190fe1157831c372c7d
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 4%
+source-wordcount: '140'
+ht-degree: 7%
 
 ---
 
@@ -17,19 +17,28 @@ ht-degree: 4%
 
 當您針對配置檔案時，資料庫中可能有幾個電子郵件地址（個人、專業電子郵件地址等）。
 
-使用Journey Optimizer，您可以確定從配置檔案服務使用的電子郵件地址，並在幾個地址可用時確定優先順序。 要執行此操作，請依照下列步驟執行：
+與 [!DNL Journey Optimizer]，您可以確定從配置檔案服務使用的電子郵件地址，並在幾個地址可用時確定優先順序。 請依照下列步驟以執行此操作。
 
-1. 訪問  **[!UICONTROL Channels]** `>` **[!UICONTROL General]** 的子菜單。
-1. 預設情況下，當前用於確定配置檔案的電子郵件地址的欄位顯示在此螢幕中。 按一下 **[!UICONTROL Edit]** 來改變它。
+1. 存取 **[!UICONTROL Channels]** > **[!UICONTROL General]** > **[!UICONTROL Executions fields]** 功能表。
+
+   ![](assets/primary-address-execution-fields.png)
+
+1. 預設情況下，當前用於確定配置檔案電子郵件地址的欄位將顯示在此螢幕上。 按一下 **[!UICONTROL Edit]** 來改變它。
 
    ![](assets/primary-address.png)
 
-1. 按一下「修改」按鈕以選擇要用作主要電子郵件地址的新欄位。
+1. 按一下當前欄位或編輯表徵圖以選擇新欄位。
 
    ![](assets/primary-address-edit.png)
 
-1. 將顯示可用電子郵件類型XDM欄位的清單。 選擇要使用的欄位，然後按一下 **[!UICONTROL Save]**。
+1. 將顯示可用電子郵件類型XDM欄位的清單。 選擇要使用的欄位。
 
    ![](assets/primary-address-field.png)
 
-<!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. >> will be done later on-->
+1. 按一下 **[!UICONTROL Save]** 確認你的選擇。
+
+   ![](assets/primary-address-save.png)
+
+   執行欄位已更新，現在將用作主地址。
+
+<!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->

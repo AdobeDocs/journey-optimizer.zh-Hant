@@ -1,5 +1,5 @@
 ---
-solution: Journey Orchestration
+solution: Journey Optimizer
 title: 一般事件
 description: 瞭解如何使用一般事件
 feature: Journeys
@@ -7,14 +7,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 1%
+source-wordcount: '389'
+ht-degree: 2%
 
 ---
 
 # 一般事件 {#general-events}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_custom"
+>title="一般事件"
+>abstract="對於此類事件，只能添加標籤和說明。 無法編輯配置的其餘部分。 由技術用戶執行。"
 
 對於此類事件，只能添加標籤和說明。 無法編輯配置的其餘部分。 由技術用戶執行。 請參閱[此頁面](../event/about-events.md)。
 

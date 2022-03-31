@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 17%
@@ -47,9 +47,9 @@ ht-degree: 17%
 
 1. [發佈](create-lp.md#publish) 登錄頁。
 
-1. [建立電子郵件](../messages/create-message.md) 以宣佈註冊現已開啟，您可以參加活動。
+1. [建立電子郵件](../messages/get-started-content.md) 以宣佈註冊現已開啟，您可以參加活動。
 
-1. [插入連結](../messages/message-tracking.md#insert-links) 內容。 選擇 **[!UICONTROL Landing page]** 的 **[!UICONTROL Link type]** 選擇 [登錄頁](create-lp.md#configure-primary-page) 為註冊而建立的。
+1. [插入連結](../design/message-tracking.md#insert-links) 內容。 選擇 **[!UICONTROL Landing page]** 的 **[!UICONTROL Link type]** 選擇 [登錄頁](create-lp.md#configure-primary-page) 為註冊而建立的。
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -128,9 +128,9 @@ ht-degree: 17%
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [建立電子郵件](../messages/create-message.md) 在 [!DNL Journey Optimizer]。
+1. [建立電子郵件](../messages/get-started-content.md) 在 [!DNL Journey Optimizer]。
 
-1. 選擇內容中的文字，並使用內容相關工具列[插入連結](../messages/message-tracking.md#insert-links)。您還可以使用按鈕上的連結。
+1. 選擇內容中的文字，並使用內容相關工具列[插入連結](../design/message-tracking.md#insert-links)。您還可以使用按鈕上的連結。
 
    ![](assets/lp_opt-out-insert-link.png)
 
@@ -174,5 +174,5 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **Unsubscribe link in header**
 
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-email)
+    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-header)
 -->

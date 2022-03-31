@@ -14,7 +14,7 @@ ht-degree: 5%
 
 ---
 
-# 建立AI模型 {#ai-rankings}
+# 建立 AI 模型 {#ai-rankings}
 
 [!DNL Journey Optimizer] 允許您建立 **AI模型** 根據您的業務目標對優惠進行排名。
 
@@ -142,7 +142,7 @@ ht-degree: 5%
 * 定義要捕獲的事件類型 — 顯示（印象）和/或按一下（轉換）聘用，
 * 以及要在哪個資料集中收集事件資料。
 
-現在，每次顯示和/或按一下優惠時，您都希望相應的事件由 **[!UICONTROL Experience Event - Proposition Interactions]** 欄位組 [Adobe Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;}或移動SDK。
+現在，每次顯示和/或按一下優惠時，您都希望相應的事件由 **[!UICONTROL Experience Event - Proposition Interactions]** 欄位組 [Adobe Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;}或MobileSDK。
 
 要能夠在事件類型（顯示的要約或已按一下的要約）中發送，必須為發送到Adobe Experience Platform的體驗事件中的每個事件類型設定正確的值。 以下是在JavaScript代碼中實現的架構要求：
 

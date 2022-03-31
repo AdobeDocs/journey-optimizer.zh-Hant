@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 11%
+source-wordcount: '420'
+ht-degree: 10%
 
 ---
 
 # Adobe Experience Platform 資料來源 {#adobe-experience-platform-data-source}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_data_source_built_in"
+>title="Adobe Experience Platform 資料來源"
+>abstract="Adobe Experience Platform資料源定義與即時客戶配置檔案服務的連接。 此資料源是內置的並預先配置的。 無法刪除。 此資料源旨在從即時客戶配置檔案服務中檢索和使用資料（例如，檢查輸入行程的人員是否為女性）。 它允許您使用配置檔案資料和體驗事件資料。"
 
 Adobe Experience Platform資料源定義與即時客戶配置檔案服務的連接。 此資料源是內置的並預先配置的。 無法刪除。 此資料源旨在從即時客戶配置檔案服務中檢索和使用資料（例如，檢查輸入行程的人員是否為女性）。 它允許您使用配置檔案資料和體驗事件資料。 有關即時客戶配置檔案服務的詳細資訊，請參閱 [Adobe Experience Platform文檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 

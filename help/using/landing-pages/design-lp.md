@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 1%
@@ -21,15 +21,15 @@ ht-degree: 1%
 
 從那裡，您可以：
 
-* **從頭開始設計登錄頁** 通過內容設計器的介面，並利用 [Adobe Experience Manager Assets Essentials](../messages/assets-essentials.md)。 瞭解如何設計內容或使用內置模板 [此部分](../messages/create-email-content.md)。
+* **從頭開始設計登錄頁** 通過內容設計器的介面，並利用 [Adobe Experience Manager Assets Essentials](../design/assets-essentials.md)。 瞭解如何設計內容或使用內置模板 [此部分](../design/create-email-content.md)。
 
-* **代碼或貼上原始HTML** 直接進入內容設計器。 瞭解如何編碼您自己的內容 [此部分](../messages/existing-content.md#import-raw-html-code)。
+* **代碼或貼上原始HTML** 直接進入內容設計器。 瞭解如何編碼您自己的內容 [此部分](../design/code-content.md)。
 
-* **導入現有HTML內容** 檔案或.zip資料夾。 瞭解如何導入內容 [此部分](../messages/existing-content.md#import-html-content-from-file)。
+* **導入現有HTML內容** 檔案或.zip資料夾。 瞭解如何導入內容 [此部分](../design/existing-content.md)。
 
 >[!NOTE]
 >
->登錄頁內容設計器與電子郵件設計器大體相似。 瞭解更多 [設計內容 [!DNL Journey Optimizer]](../messages/design-emails.md)。
+>登錄頁內容設計器與電子郵件設計器大體相似。 瞭解更多 [設計內容 [!DNL Journey Optimizer]](../design/design-emails.md)。
 
 ## 定義特定於登錄頁的內容 {#define-lp-specific-content}
 

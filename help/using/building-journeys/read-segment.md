@@ -6,16 +6,21 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 4%
+source-wordcount: '1073'
+ht-degree: 5%
 
 ---
 
 # 在歷程中使用區段 {#segment-trigger-activity}
 
 ## 關於「讀取段」活動 {#about-segment-trigger-actvitiy}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment"
+>title="閱讀區段活動"
+>abstract="「讀取段」(Read Segment)活動允許您使屬於Adobe Experience Platform段的所有個人進入行程。 進入歷程可以執行一次，也可以定期執行。"
 
 「讀取段」(Read Segment)活動允許您使屬於Adobe Experience Platform段的所有個人進入行程。 進入歷程可以執行一次，也可以定期執行。
 

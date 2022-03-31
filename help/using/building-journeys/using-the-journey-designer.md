@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1455'
 ht-degree: 1%
 
 ---
 
 # 設計您的歷程 {#design-your-journey}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_canvas"
+>title="設計您的歷程"
+>abstract="通過旅程介面，您可以輕鬆地將活動從調色板拖放到畫布中。 您還可以按兩下某個活動，在下一步可用步驟的畫布中將其添加。"
 
 通過旅程介面，您可以輕鬆地將活動從調色板拖放到畫布中。 您還可以按兩下某個活動，在下一步可用步驟的畫布中將其添加。 每個活動都在流程中具有特定的角色和位置。 活動被排序。 完成活動後，流將繼續並處理下一個活動，依此類推。
 

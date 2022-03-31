@@ -6,20 +6,25 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1727'
 ht-degree: 2%
 
 ---
 
 # 測試您的歷程{#testing_the_journey}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test"
+>title="測試您的歷程"
+>abstract="您可以使用test配置檔案在發佈前test行程。 這樣，您就可以分析個人在旅途中的流動情況，並在發佈前排除故障。"
+
 在能夠test行程之前，必須解決所有錯誤（如果有）。 請參閱[本節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)。
 
 您可以在發佈之前使用test配置檔案test您的行程。 這樣，您就可以分析個人在旅途中的流動情況，並在發佈前排除故障。
 
-只有test配置檔案才能以test模式進入行程。 您可以建立新的test配置檔案或將現有配置檔案轉換為test配置檔案。 請參閱此 [節](../building-journeys/creating-test-profiles.md)。
+只有test配置檔案才能以test模式進入行程。 您可以建立新的test配置檔案或將現有配置檔案轉換為test配置檔案。 請參閱此 [節](../segment/creating-test-profiles.md)。
 
 要使用test模式，請執行以下步驟：
 
@@ -54,7 +59,7 @@ ht-degree: 2%
 ## 重要備註 {#important_notes}
 
 * 提供一個介面，用於將事件發射到所測試的旅程，但事件也可以由第三方系統發送，如Postman。
-* 只允許在即時客戶配置檔案服務中標籤為「test配置檔案」的個人進入測試行程。 請參閱此 [節](../building-journeys/creating-test-profiles.md)。
+* 只允許在即時客戶配置檔案服務中標籤為「test配置檔案」的個人進入測試行程。 請參閱此 [節](../segment/creating-test-profiles.md)。
 * test模式僅在使用命名空間的草稿行程中可用。 Test模式需要檢查進入行程的人員是否是test配置檔案，因此必須能夠到達Adobe Experience Platform。
 * 在test會話期間，最大可輸入行程的test配置檔案數為100。
 * 禁用test模式時，它將從過去或當前已進入該模式的所有人員中清除行程。 它還清除了報告。
@@ -64,6 +69,11 @@ ht-degree: 2%
 * 為優化效能並防止過時的資源使用，所有處於test模式且一週內未觸發的行程都將切換回「草稿」狀態。
 
 ## 發射事件 {#firing_events}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test_configuration"
+>title="配置test模式"
+>abstract="如果您的行程包含多個事件，請使用下拉清單選擇一個事件。 然後，對於每個事件，配置傳遞的欄位和事件發送的執行。"
 
 的 **[!UICONTROL Trigger an event]** 按鈕，您可以配置一個事件，使人員進入行程。
 
@@ -110,6 +120,11 @@ test模式也可用於使用基於規則的事件的行程。 有關基於規則
 請注意，在首次觸發業務事件時，不能更改同一test會話中的業務事件定義。 您只能使同一個人或不同個人輸入傳遞相同或其他標識符的行程。 如果要更改業務事件參數，必須停止並重新啟動test模式。
 
 ## 查看日誌 {#viewing_logs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test_logs"
+>title="Test模式日誌"
+>abstract="您可以查看test結果。 此頁以JSON格式顯示行程的當前資訊。 一個按鈕允許您複製整個節點。 您需要手動刷新頁面以更新行程的test結果。"
 
 的 **[!UICONTROL Show log]** 按鈕來查看test結果。 此頁以JSON格式顯示行程的當前資訊。 一個按鈕允許您複製整個節點。 您需要手動刷新頁面以更新行程的test結果。
 

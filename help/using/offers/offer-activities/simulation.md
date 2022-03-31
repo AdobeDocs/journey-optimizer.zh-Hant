@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 61d716fcc1394a32ca7cb9b4c13d28b073135592
+source-git-commit: 296c17048f0d3dbabd210b0522d061028d5890dc
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 1%
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## 選擇test配置檔案 {#select-test-profiles}
 
-首先，您需要選擇要用於模擬的test配置檔案。 瞭解有關test配置檔案的詳細資訊 [此頁](../../building-journeys/creating-test-profiles.md)。
+首先，您需要選擇要用於模擬的test配置檔案。 瞭解有關test配置檔案的詳細資訊 [此頁](../../segment/creating-test-profiles.md)。
 
 1. 按一下「**[!UICONTROL Manage profile]**」。
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >標識命名空間定義標識符的上下文，如電子郵件地址或CRM ID。 瞭解有關Adobe Experience Platform標識命名空間的詳細資訊 [此部分](../../start/get-started-identity.md){target=&quot;_blank&quot;}。
+   >標識命名空間定義標識符的上下文，如電子郵件地址或CRM ID。 瞭解有關Adobe Experience Platform標識命名空間的詳細資訊 [此部分](../../segment/get-started-identity.md){target=&quot;_blank&quot;}。
 
 1. 輸入標識值，然後按一下 **[!UICONTROL View]** 清單可用的配置檔案。
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 如果您最近轉到了其他電子郵件服務提供商、 IP地址、電子郵件域或子域，則需要建立您作為發件人的信譽。 否則，您的遞送可能會被阻止或移動到收件人郵箱的垃圾郵件資料夾。 瞭解如何通過IP升溫提高您的電子郵件聲譽 [交付能力最佳實踐指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target=&quot;_blank&quot;}。
 
-要預熱您的IP，您可以逐步增加交貨數量。 閱讀有關 [優化Journey Optimizer的可交付性](../messages/deliverability.md)。
+要預熱您的IP，您可以逐步增加交貨數量。 閱讀有關 [優化Journey Optimizer的可交付性](../reports/deliverability.md)。
 
 此使用案例的目的是建立加快電子郵件遞送的行程。 要配置此行程，請執行以下步驟：
 

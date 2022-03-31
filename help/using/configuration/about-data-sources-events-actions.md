@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 56%
+source-wordcount: '402'
+ht-degree: 44%
 
 ---
 
 # 設定歷程 {#configure-journeys}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_configuration_dashboard"
+>title="關於行程配置"
+>abstract="為了隨行程發送消息，您需要配置資料源、事件和操作。 資料源允許您定義到系統的連接，以檢索將在您的行程中使用的附加資訊，例如在您的條件中。 事件允許您在收到事件時觸發行程。 自定義操作允許您連接到第三方系統以發送消息。 如果您使用的是Journey Optimizer內置的消息功能，則無需配置操作。"
 
 為了發送包含行程的消息，您需要配置 **[!UICONTROL Data Sources]**。 **[!UICONTROL Events]** 和 **[!UICONTROL Actions]**。
 
