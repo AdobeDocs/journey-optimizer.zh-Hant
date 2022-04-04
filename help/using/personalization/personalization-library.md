@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 85aec983ac39c8d65b2a833ee17dc1e3cafb5900
+source-git-commit: 49c09fbcf3be595e2a636f395fa89915e9e9c802
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '345'
 ht-degree: 8%
 
 ---
@@ -26,15 +26,15 @@ ht-degree: 8%
 
 要訪問保存的表達式，請按一下 **[!UICONTROL Library]** 按鈕。 該清單顯示管理員用戶保存的所有表達式(請參見 [將表達式保存到庫](#save-expressions))。
 
-    >[！注釋]
-    >
-    >您可以使用「資訊」按鈕獲取有關已保存表達式內容的詳細資訊。 如果您具有管理庫項目的適當權限，資訊按鈕將顯示在橢圓菜單中。
-    
-    ![](assets/library-list.png)
+>[!NOTE]
+>
+>可以使用「資訊」按鈕獲取有關已保存表達式內容的詳細資訊。 如果您具有管理庫項目的適當權限，資訊按鈕將顯示在橢圓菜單中。
+
+![](assets/library-list.png)
 
 按一下+將表達式插入編輯器。 然後，您可以像往常一樣自定義和驗證個性化內容。 [了解更多](../personalization/personalization-build-expressions.md)
 
-    ![](assets/library-add.png)
+![](assets/library-add.png)
 
 ## 將表達式保存到庫 {#save-expressions}
 
