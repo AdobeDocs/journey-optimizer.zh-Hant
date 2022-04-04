@@ -6,26 +6,27 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 817a77c5717804ccae36db3dd8920008ab127684
+source-git-commit: 3c40f3b6f76272db32b929a886a0cd63f797a842
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 2%
+source-wordcount: '860'
+ht-degree: 3%
 
 ---
 
-# 使用 [!DNL Batch Decisioning] API
+
+# 使用 [!DNL Batch Decisioning] API {#deliver-offers-batch}
 
 的 [!DNL Batch Decisioning] API允許組織在一次調用中對給定段中的所有配置檔案使用offer decisioning功能。 段中每個配置檔案的提供內容都放在Adobe Experience Platform資料集中，在該資料集中可用於自定義批處理工作流。
 
-使用 [!DNL Batch Decisioning] API，您可以使用針對決策範圍的Adobe Experience Platform段中所有配置檔案的最佳選項來填充資料集。 例如，組織可能希望運行批決策，以便它們可以向消息傳遞供應商發送優惠。 然後，這些優惠將用作發送給同一用戶段的批消息傳遞的內容。
+使用 [!DNL Batch Decisioning] API，您可以使用針對決策範圍的Adobe Experience Platform段中所有配置檔案的最佳優惠來填充資料集。 例如，組織可能希望運行 [!DNL Batch Decisioning] 這樣他們就可以向消息傳遞供應商發送報價。 然後，這些優惠將用作發送給同一用戶段的批消息傳遞的內容。
 
 為此，該組織將：
 
 * 運行 [!DNL Batch Decisioning] API，它包含兩個請求：
 
-   1. A **批GET請求** 獲取批處理工作量狀態。
+   1. A **批POST請求** 啟動工作量以批處理提供選擇。
 
-   2. A **批POST請求** 啟動工作量以批處理提供選擇。
+   2. A **批GET請求** 獲取批處理工作量狀態。
 
 * 將資料集導出到消息傳遞供應商API。
 
@@ -35,74 +36,24 @@ ht-degree: 2%
 
 使用此API之前，請確保完成以下必備步驟。
 
-### 準備決定
+### 準備決定 {#prepare-decision}
 
-按照以下步驟準備您的決策：
+按照以下步驟準備一個或多個決策：
 
-* 為了導出決策結果，請使用「ODE決策事件」架構建立資料集。
+* 為了導出決策結果，請使用「ODE DecisionEvents」架構建立資料集。
 
 * 建立一個平台段，該段應進行評估並更新。 請參閱 [分段文檔](http://www.adobe.com/go/segmentation-overview-en) 瞭解有關如何更新段成員資格評估的詳細資訊。
 
 * 在Adobe Journey Optimizer建立決策（其決策範圍由決策ID和放置ID組成）。 請參閱 [定義決策範圍一節](../../offer-activities/create-offer-activities.md) 以瞭解更多資訊。
 
-### API要求
+### API要求 {#api-requirements}
 
-所有批決策請求都需要以下附加題頭：
+全部 [!DNL Batch Decisioning] 除了在 [決策管理API開發人員指南](../getting-started.md):
 
 * `Content-Type`: `application/json`
 * `x-request-id`:標識請求的唯一字串。
 * `x-sandbox-name`:沙盒名稱。
 * `x-sandbox-id`:沙盒ID。
-
-## 檢索有關批決策的資訊 {#retrieve-information-on-a-batch-decision}
-
-要檢索有關特定決策的資訊，請向 `/workloads/decisions` 端點，同時為您的決策提供相應的工作負荷ID值。
-
-**API格式**
-
-```https
-GET  {ENDPOINT_PATH}/{CONTAINER_ID}/workloads/decisions/{WORKLOAD_ID}
-```
-
-| 參數 | 說明 | 範例 |
-| --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/ode` |
-| `{CONTAINER_ID}` | 決策所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{WORKLOAD_ID}` | 由標識單個工作負載的Offer decisioning生成的UUID。 | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |
-
-**要求**
-
-```shell
-curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909c6b93b5a2/workloads/decisions/f395ab1f-dfaf-48d4-84c9-199ad6354591' \
--H 'x-request-id: 7832a42a-d4e5-413b-98e8-e49bef056436' \
--H 'Content-Type: application/json' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}' \
--H'x-sandbox-id: {SANDBOX_ID}' \
--H 'Authorization: {ACCESS_TOKEN}'
-```
-
-**回應**
-
-```json
-{
-    "@id": "f395ab1f-dfaf-48d4-84c9-199ad6354591",
-    "xdm:imsOrgId": "{IMS_ORG}",
-    "xdm:containerId": "0948b1c5-fff8-3b76-ba17-909c6b93b5a2",
-    "ode:createDate": 1648076994405,
-    "ode:status": "COMPLETED"
-}
-```
-
-| 屬性 | 說明 | 範例 |
-| -------- | ----------- | ------- |
-| `@id` | 由標識單個工作負載的Offer decisioning生成的UUID。 | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
-| `xdm:imsOrgId` | IMS組織ID | `9GTO98D5F@AdobeOrg` |
-| `xdm:containerId` | 容器ID | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
-| `ode:createDate` | 建立決策工作量請求的時間。 | `1648076994405` |
-| `ode:status` | 工作負荷的狀態以「QUEUED」開頭，並更改為「PROCESSING」、「INGESTING」、「COMPLETED」或「ERROR」。 | `ode:status: "COMPLETED"` |
-| `ode:statusDetail` | 如果狀態為「PROCESSING」或「INGESTING」，則顯示sparkJobId和batchID等詳細資訊。 如果狀態為「ERROR（錯誤）」，則顯示錯誤詳細資訊。 |  |
 
 ## 啟動批處理 {#start-a-batch-process}
 
@@ -129,7 +80,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-90
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
 -H 'x-sandbox-name: {SANDBOX_NAME}' \
 -H 'x-sandbox-id: {SANDBOX_ID}' \
--H 'Authorization: {ACCESS_TOKEN}' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
 -d '{
   "xdm:segmentIds": [
     "609028e4-e66c-4776-b0d9-c782887e2273"
@@ -148,9 +99,9 @@ curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-90
 
 | 屬性 | 說明 | 範例 |
 | -------- | ----------- | ------- |
-| `xdm:segmentIds` | 段的唯一標識符。 它只能包含一個值。 | `609028e4-e66c-4776-b0d9-c782887e2273` |
+| `xdm:segmentIds` | 值是包含段的唯一標識符的陣列。 它只能包含一個值。 | `609028e4-e66c-4776-b0d9-c782887e2273` |
 | `xdm:dataSetId` | 輸出資料設定可以寫入決策事件的資料。 | `6196b4a1a63bd118dafe093c` |
-| `xdm:propositionRequests` | 包含placementId和activityId的包裝 |  |
+| `xdm:propositionRequests` | 包含 `placementId` 和 `activityId` |  |
 | `xdm:activityId` | 決策的唯一標識符。 | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | 唯一的放置標識符。 | `xcore:offer-placement:1410c4117306488a` |
 | `xdm:itemCount` | 這是一個可選欄位，顯示為決策範圍請求的選項等項數。 預設情況下，API會為每個範圍返回一個選項，但可以通過指定此欄位來顯式請求更多選項。 每個範圍最少可請求1個選項，最多可請求30個選項。 | `1` |
@@ -178,21 +129,73 @@ curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-90
 | `ode:createDate` | 建立決策工作量請求的時間。 | `1648078924834` |
 | `ode:status` | 工作負荷的狀態。 | `ode:status: "QUEUED"` |
 
+## 檢索有關批決策的資訊 {#retrieve-information-on-a-batch-decision}
+
+要檢索有關特定決策的資訊，請向 `/workloads/decisions` 端點，同時為您的決策提供相應的工作負荷ID值。
+
+**API格式**
+
+```https
+GET  {ENDPOINT_PATH}/{CONTAINER_ID}/workloads/decisions/{WORKLOAD_ID}
+```
+
+| 參數 | 說明 | 範例 |
+| --------- | ----------- | ------- |
+| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/ode` |
+| `{CONTAINER_ID}` | 決策所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{WORKLOAD_ID}` | 由標識單個工作負載的Offer decisioning生成的UUID。 | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |
+
+**要求**
+
+```shell
+curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909c6b93b5a2/workloads/decisions/f395ab1f-dfaf-48d4-84c9-199ad6354591' \
+-H 'x-request-id: 7832a42a-d4e5-413b-98e8-e49bef056436' \
+-H 'Content-Type: application/json' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}' \
+-H'x-sandbox-id: {SANDBOX_ID}' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}'
+```
+
+**回應**
+
+```json
+{
+    "@id": "f395ab1f-dfaf-48d4-84c9-199ad6354591",
+    "xdm:imsOrgId": "{IMS_ORG}",
+    "xdm:containerId": "0948b1c5-fff8-3b76-ba17-909c6b93b5a2",
+    "ode:createDate": 1648076994405,
+    "ode:status": "COMPLETED"
+}
+```
+
+| 屬性 | 說明 | 範例 |
+| -------- | ----------- | ------- |
+| `@id` | 由標識單個工作負載的Offer decisioning生成的UUID。 | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
+| `xdm:imsOrgId` | IMS組織ID | `9GTO98D5F@AdobeOrg` |
+| `xdm:containerId` | 容器ID | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
+| `ode:createDate` | 建立決策工作量請求的時間。 | `1648076994405` |
+| `ode:status` | 工作負荷的狀態以「QUEUED」開頭，並更改為「PROCESSING」、「INGESTING」、「COMPLETED」或「ERROR」。 | `ode:status: "COMPLETED"` |
+| `ode:statusDetail` | 如果狀態為「PROCESSING」或「INGESTING」，則顯示sparkJobId和batchID等詳細資訊。 如果狀態為「ERROR（錯誤）」，則顯示錯誤詳細資訊。 |  |
+
 ## 服務級別 {#service-levels}
 
-每個批處理決策的端到端時間是從建立工作量到輸出資料集中可用的決策結果的持續時間。 POST請求負載中的段大小是影響端到端批處理決策時間的主要因素。 以下是不同段大小的一些觀察：
+每個批處理決策的端到端時間是從建立工作量到輸出資料集中提供決策結果的持續時間。 POST請求負載中的段大小是影響端到端批處理決策時間的主要因素。  以下是不同段大小的一些觀察：
 
-* 段大小&lt;= 10K:6分鐘
-* 段大小&lt;= 1M:10分鐘
-* 段大小&lt;= 15M:75分鐘
+| 段大小 | 端到端處理時間 |
+|--------------|----------------------------|
+| 一萬個配置檔案或更少 | 6 分鐘 |
+| 100萬個配置檔案或更少 | 10 分鐘 |
+| 1500萬個配置檔案或更少 | 75 分鐘 |
 
 ## 限制 {#limitations}
 
-以下限制 [!DNL Batch Decisioning] API:
+使用 [!DNL Batch Decisioning] API，請牢記以下限制：
 
-* **單個批處理作業**:當前，每個資料集一次只能運行單個批處理作業。 任何其他請求都將使用HTTP 429（請求太多）進行響應。
+* **每個資料集單個批處理作業**:當前，每個資料集一次只能運行單個批處理作業。 具有相同輸出資料集的任何其他請求在上一個請求完成之前都會使用HTTP 429（請求太多）進行響應。
 * **頻率封蓋**:批處理將運行每天發生一次的配置檔案快照。 的 [!DNL Batch Decisioning] API會限制頻率，並始終從最近的快照載入配置檔案。
 
 ## 後續步驟 {#next-steps}
 
-按照本API指南，您已使用 [!DNL Batch Decisioning] API。 有關詳細資訊，請參見 [決策管理概述](../../get-started/starting-offer-decisioning.md)。
+按照本API指南，您已使用[!DNL]檢查了工作負載狀態並提供了服務 [!DNL Batch Decisioning]] API。 有關詳細資訊，請參見 [決策管理概述](../../get-started/starting-offer-decisioning.md)。

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
 source-wordcount: '2067'
 ht-degree: 1%
@@ -97,7 +97,6 @@ ht-degree: 1%
 >
 >**事務性** 消息可以發送到從營銷通信中取消訂閱的配置檔案。 這些消息只能在特定上下文中發送。
 
-
 ### 子域和IP池 {#subdomains-and-ip-pools}
 
 在 **子域和IP池詳細資訊** ，您必須：
@@ -140,7 +139,7 @@ ht-degree: 1%
 
 瞭解有關將標題取消訂閱連結添加到郵件的詳細資訊 [此部分](../messages/consent.md#unsubscribe-header)。
 
-<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.-->
+<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 
 ### URL跟蹤{#url-tracking}
 

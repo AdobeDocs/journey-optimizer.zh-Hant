@@ -2,10 +2,10 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: c0c57150be1c9031728daddf1e0a320853bc545c
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 94%
+source-wordcount: '1054'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 * 已在 AI 模型快速入門手冊的 **Offer Decisioning** 部分新增頁面，詳細說明了[自動最佳化模型](../offers/offer-library/ai-ranking.md#auto-optimization)、其所使用的演算法及其他技術細節。 [閱讀全文](../offers/offer-library/ai-ranking.md)
 * test配置檔案建立頁已移至  **段、配置檔案和標識** 的子菜單。 [閱讀全文](../segment/creating-test-profiles.md)
 * 在表達式編輯器中添加了一個如何將表達式作為預設值添加的示例。 [閱讀全文](../building-journeys/expression/field-references.md#default-value)
-* 的 **更改主電子郵件地址** 已更新部分以反映用戶介面的更改。 [閱讀全文](../configuration/primary-email-addresses.md)
+<!--* The **Change the primary email addresses** section has been updated to reflect the user interface changes. [Read more](../configuration/primary-email-addresses.md)-->
 
 ## 2022 年 2 月 {#feb-2022}
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1226'
 ht-degree: 82%
 
 ---
@@ -191,7 +191,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 根據電子郵件客戶端，按一下標題中的取消訂閱連結可能會產生以下影響：
 
-* 取消訂閱請求被發送到取消訂閱地址。
+* 取消訂閱請求被發送到預設取消訂閱地址。
 
 * 收件人將定向到在將opt-out連結添加到郵件時指定的登錄頁URL。
 
@@ -200,8 +200,6 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
    >如果您不在消息內容中添加一次按一下的「退出」連結，則不會顯示登錄頁。
 
 * 對應的設定檔會立即退出，而此選項會在 Experience Platform 中更新。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}中進一步瞭解 。
-
-<!--To define a custom unsubscribe URL and email address, you must enable it in the message presets. [Learn more](../configuration/message-presets.md)-->
 
 ## 推播選擇退出管理 {#push-opt-out-management}
 

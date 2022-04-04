@@ -2,16 +2,19 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '2821'
-ht-degree: 96%
+source-wordcount: '2912'
+ht-degree: 93%
 
 ---
 
 # 發行說明 {#release-notes}
 
 本頁面列出[!DNL Journey Optimizer]所有新功能和改進項目。您還可以參閱[最新文件更新](documentation-updates.md)頁面以了解更多變更。
+
+![新聞稿](../assets/do-not-localize/nl-icon.png) 註冊 [Adobe Journey Optimizer季刊](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}，並每季度直接將最新產品更新、激動人心的故事、用例、提示等內容發送給您的收件箱。
+
 
 ## 2022 年 3 月發行 {#march-2022-release}
 
@@ -27,10 +30,10 @@ ht-degree: 96%
 <!--* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/creating-personalized-offers.md)-->
 * 批決策API允許組織在一次調用中對給定段中的所有配置檔案使用offer decisioning功能。 段中每個配置檔案的提供內容都放在AEP資料集中，該資料集可用於自定義批處理工作流。 [進一步了解](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
-<!--**Administration**
+**管理**
 
-* You can now enable/disable the unsubscribe link in/from the email header at the message preset level, and set a custom unsubscribe URL at the message level. [Learn more](../configuration/message-presets.md#list-unsubscribe)
-* The allowed list will can now be enabled and disabled through the [!DNL Journey Optimizer] interface. [Learn more](../messages/allow-list.md#enable-allow-list)-->
+* 現在，您可以在郵件預設級別啟用/禁用電子郵件頭中/郵件頭中的取消訂閱連結，並在郵件級別設定自定義取消訂閱URL。 [了解更多](../configuration/message-presets.md#list-unsubscribe)
+* 現在，允許的清單可以通過 [!DNL Journey Optimizer] 介面。 [進一步了解](../reports/allow-list.md#enable-allow-list)
 
 **個人化**
 
