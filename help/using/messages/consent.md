@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 82%
+source-wordcount: '1220'
+ht-degree: 76%
 
 ---
 
@@ -71,9 +71,9 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 #### 實施選擇退出的 API 呼叫 {#opt-out-api}
 
-要在收件者從登陸頁面提交選擇時選擇退出，您必須實施 **Subscription API 呼叫**，透過 Adobe I/O 更新對應設定檔的偏好設定。
+要在收件人從登錄頁提交其選擇時選擇退出，您必須實施 **訂閱API調用** 通 [Adobe開發人員](developer.adobe.com) 更新相應配置檔案的首選項。
 
-此 Adobe I/O POST 呼叫如下：
+此POST呼叫如下：
 
 端點：platform.adobe.io/journey/imp/consent/preferences
 
@@ -109,7 +109,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 }
 ```
 
-[!DNL Journey Optimizer] 將透過 Adobe I/O 呼叫利用這些參數更新對應設定檔的選擇。
+[!DNL Journey Optimizer] 將使用這些參數通過 [Adobe開發人員](developer.adobe.com) API調用。
 
 #### 傳送包含取消訂閱連結的訊息 {#send-message-unsubscribe-link}
 
@@ -121,7 +121,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
    ![](assets/opt-out-lp-example.png)
 
-1. 如果收件者提交表單 (在此為按一下登陸頁面中的&#x200B;**取消訂閱**&#x200B;按鈕)，會透過 [Adobe I/O 呼叫](#opt-out-api)更新設定檔資料。
+1. 如果收件人提交表單(此處，按 **取消訂閱** 按鈕)，通過 [API調用](#opt-out-api)。
 
 1. 然後，選擇退出的收件者會被重新導向至確認訊息畫面，表示成功選擇退出。
 

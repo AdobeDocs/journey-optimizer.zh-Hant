@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 22db9d3997e84d33ddb2febe7a07aaef4063a880
+source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 66%
+source-wordcount: '249'
+ht-degree: 56%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 66%
 
 如果您有Adobe Campaignv7或v8，可應要求提供整合。 請參見[此頁面](../action/acc-action.md)。
 
-如果您使用協力廠商系統來傳送訊息，例如 Epsilon、Facebook、Adobe.io、Firebase 等等，則需要新增和設定自訂動作。請參見[此頁面](../action/about-custom-action-configuration.md)。
+如果您使用第三方系統發送消息，如Epsilon、Facebook、 [Adobe開發人員](developer.adobe.com)、Firebase等，您需要添加和配置自定義操作。 請參見[此頁面](../action/about-custom-action-configuration.md)。
 
 自訂動作可讓您設定協力廠商系統的連線，以傳送訊息或 API 呼叫。您可以使用任何提供者提供的任何服務來設定動作，這些服務可透過具有 JSON 格式的裝載，透過 REST API 進行呼叫。
 

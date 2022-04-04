@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 6%
+source-wordcount: '917'
+ht-degree: 5%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"
 >title="自訂動作"
->abstract="如果您使用第三方系統發送消息，或者如果希望行程將API調用發送到第三方系統，請使用自定義操作配置其到行程的連接。 例如，可以使用自定義操作連接到以下系統：Epsilon、Slack、Adobe.io、Firebase等"
+>abstract="如果您使用第三方系統發送消息，或者如果希望行程將API調用發送到第三方系統，請使用自定義操作配置其到行程的連接。 例如，可以使用自定義操作連接到以下系統：ε,Slack, [Adobe開發人員](developer.adobe.com)、Firebase等"
 
-如果您使用第三方系統發送消息，或者如果希望行程將API調用發送到第三方系統，請使用自定義操作配置其到行程的連接。 例如，可以使用自定義操作連接到以下系統：Epsilon、Slack、Adobe.io、Firebase等
+如果您使用第三方系統發送消息，或者如果希望行程將API調用發送到第三方系統，請使用自定義操作配置其到行程的連接。 例如，可以使用自定義操作連接到以下系統：ε,Slack, [Adobe開發人員](developer.adobe.com)、Firebase等
 
 自定義操作是由技術用戶定義並可供營銷人員使用的附加操作。 配置後，它們會出現在您旅程的左側調色板中， **[!UICONTROL Action]** 的子菜單。 在[本頁](../building-journeys/about-journey-activities.md#action-activities)中瞭解更多。
 
