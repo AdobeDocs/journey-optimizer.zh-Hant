@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 296c17048f0d3dbabd210b0522d061028d5890dc
+source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '761'
 ht-degree: 1%
 
 ---
@@ -31,13 +31,17 @@ ht-degree: 1%
 
 ![](../assets/offers_simulation-tab.png)
 
+>[!NOTE]
+>
+>由於模擬不生成任何決策事件，因此 [封蓋](../offer-library/creating-personalized-offers.md#capping) 計數不受影響。
+
 <!--
 ➡️ [Discover this feature in video](#video)
 -->
 
 ## 選擇test配置檔案 {#select-test-profiles}
 
-首先，您需要選擇要用於模擬的test配置檔案。 瞭解有關test配置檔案的詳細資訊 [此頁](../../segment/creating-test-profiles.md)。
+首先，您需要選擇要用於模擬的test配置檔案。 瞭解有關test配置檔案的詳細資訊 [此部分](../../segment/creating-test-profiles.md)。
 
 1. 按一下「**[!UICONTROL Manage profile]**」。
 
