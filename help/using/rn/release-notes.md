@@ -2,10 +2,10 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
 workflow-type: tm+mt
-source-wordcount: '2912'
-ht-degree: 93%
+source-wordcount: '2938'
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 
 **決定管理**
 
-<!--* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/creating-personalized-offers.md)-->
+* 現在，您可以指定是否在所有用戶或一個特定配置檔案中應用了優惠上限設定，以及是否在所有放置或每次放置中應用。 [了解更多](../offers/offer-library/add-constraints.md#capping)
 * 批決策API允許組織在一次調用中對給定段中的所有配置檔案使用offer decisioning功能。 段中每個配置檔案的提供內容都放在AEP資料集中，該資料集可用於自定義批處理工作流。 [進一步了解](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
 **管理**
