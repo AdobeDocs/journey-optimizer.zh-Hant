@@ -1,14 +1,14 @@
 ---
-title: 測試歷程
-description: 瞭解行程測試
+title: 測試您的歷程
+description: 學習如何test旅程
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 2ab1010ac97ef2116984fcd6985374aed3d6f9f6
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1600'
 ht-degree: 2%
 
 ---
@@ -18,23 +18,24 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="測試您的歷程"
->abstract="您可以使用test配置檔案在發佈前test行程。 這樣，您就可以分析個人在旅途中的流動情況，並在發佈前排除故障。"
+>abstract="使用test配置檔案在發佈前test行程。 這樣，您就可以分析個人在旅途中的流動情況，並在發佈前排除故障。"
 
-在能夠test行程之前，必須解決所有錯誤（如果有）。 請參閱[本節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)。
+使用test配置檔案在發佈前test行程。 此模式允許您運行test行程，並使用test配置檔案確定問題。
 
-您可以在發佈之前使用test配置檔案test您的行程。 這樣，您就可以分析個人在旅途中的流動情況，並在發佈前排除故障。
+只有test配置檔案才能以test模式進入行程。 您可以建立新的test配置式，或將現有配置式轉換為test配置式。 瞭解有關test配置檔案的詳細資訊 [此部分](../segment/creating-test-profiles.md)。
 
-只有test配置檔案才能以test模式進入行程。 您可以建立新的test配置檔案或將現有配置檔案轉換為test配置檔案。 請參閱此 [節](../segment/creating-test-profiles.md)。
+>[!NOTE]
+>
+>在測試您的行程之前，必須解決所有錯誤（如果有）。 瞭解如何在測試之前檢查錯誤 [此部分](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)。
+
 
 要使用test模式，請執行以下步驟：
 
-1. 在測試您的行程之前，請驗證該行程是否有效且無錯誤。 您將無法啟動有錯誤的旅程test。 請參閱[本節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)。出現錯誤時，將顯示警告符號。
-
-1. 要激活test模式，請按一下 **[!UICONTROL Test]** 切換，位於右上角。
+1. 要激活test模式，請激活 **[!UICONTROL Test]** 切換，位於右上角。
 
    ![](assets/journeytest1.png)
 
-1. 使用 **[!UICONTROL Wait time]** 參數，用於定義每個等待活動和事件超時在test模式下持續的時間。 預設時間為等待和事件超時的10秒。 這將確保您快速獲得test結果。 僅當您在行程中丟棄了一個或多個等待活動時，才會顯示此參數。
+1. 如果旅程中 **等待** 活動，設定 **[!UICONTROL Wait time]** 參數，用於定義每個等待活動和事件超時在test模式下持續的時間。 預設時間為等待和事件超時的10秒。 這將確保您快速獲得test結果。
 
    ![](assets/journeytest_wait.png)
 
@@ -42,19 +43,19 @@ ht-degree: 2%
    >
    >在行程中使用反應事件時，等待時間預設值為40秒。 請參閱[本節](../building-journeys/reaction-events.md)。
 
-1. 按一下 **[!UICONTROL Trigger an event]** 配置事件並將事件發送到旅程。
+1. 使用 **[!UICONTROL Trigger an event]** 按鈕來配置事件並將事件發送到旅程。
 
    ![](assets/journeyuctest1.png)
 
-1. 配置所需的不同欄位。 在 **配置檔案標識符** 欄位，輸入用於標識test配置檔案的欄位值。 例如，它可以是電子郵件地址。 確保發送與test配置檔案相關的事件。 請參閱 [發射事件](#firing_events)。
+1. 配置所需的不同欄位。 在 **配置檔案標識符** 欄位，輸入用於標識test配置檔案的欄位值。 例如，它可以是電子郵件地址。 確保發送與test配置檔案相關的事件。 請參閱[本節](#firing_events)。
 
    ![](assets/journeyuctest1-bis.png)
 
-1. 收到事件後，按一下 **[!UICONTROL Show log]** 按鈕查看test結果並驗證它們。 請參閱 [查看日誌](#viewing_logs)。
+1. 收到事件後，按一下 **[!UICONTROL Show log]** 按鈕查看test結果並驗證它們。 請參閱[本節](#viewing_logs)。
 
    ![](assets/journeyuctest2.png)
 
-1. 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。當test確鑿時，你可以發表你的旅程。 請參閱[此頁面](../building-journeys/publishing-the-journey.md)。
+1. 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。test完成後，您可以發佈您的旅程。 請參閱[此頁面](../building-journeys/publishing-the-journey.md)。
 
 ## 重要備註 {#important_notes}
 
@@ -66,16 +67,16 @@ ht-degree: 2%
 * 您可以根據需要多次啟用/禁用test模式。
 * 激活test模式時，無法修改行程。 在test模式下，您可以直接發佈行程，無需先前停用test模式。
 * 到達分割時，總是選擇頂部分支。 如果希望test選擇其他路徑，則可以重新組織拆分分支的位置。
-* 為優化效能並防止過時的資源使用，所有處於test模式且一週內未觸發的行程都將切換回「草稿」狀態。
+* 為優化效能並防止過時的資源使用，所有處於test模式且一週內未觸發的行程將切換回 **草稿** 狀態。
 
-## 發射事件 {#firing_events}
+## 觸發事件 {#firing_events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="配置test模式"
 >abstract="如果您的行程包含多個事件，請使用下拉清單選擇一個事件。 然後，對於每個事件，配置傳遞的欄位和事件發送的執行。"
 
-的 **[!UICONTROL Trigger an event]** 按鈕，您可以配置一個事件，使人員進入行程。
+使用 **[!UICONTROL Trigger an event]** 按鈕，來配置將使人員輸入行程的事件。
 
 >[!NOTE]
 >
@@ -111,11 +112,9 @@ test模式也可用於使用基於規則的事件的行程。 有關基於規則
 
 ![](assets/jo-event8.png)
 
-有關如何使用test模式的詳細資訊，請參閱 [此頁](../building-journeys/testing-the-journey.md)。
-
 ## Test業務事件模式 {#test-business}
 
-使用業務事件時(請參閱 [此部分](../event/about-events.md)),test模式允許您在旅程中觸發單個test配置檔案入口，模擬事件並通過正確的配置檔案ID。 您必須傳遞事件參數和test配置檔案的標識符，該配置檔案將輸入test行程。 不能使用 **[!UICONTROL Up to 100 profiles at once]** 段之旅程所適用之已確認金額。 在test模式下，沒有「代碼視圖」模式可用於基於業務事件的旅程。
+使用 [商業活動](../event/about-events.md)，使用test模式在行程中觸發單個test配置檔案入口，模擬事件並傳遞正確的配置檔案ID。 您必須傳遞事件參數和test配置檔案的標識符，該配置檔案將輸入test行程。 不能使用 **[!UICONTROL Up to 100 profiles at once]** 段之旅程所適用之已確認金額。 在test模式下，沒有「代碼視圖」模式可用於基於業務事件的旅程。
 
 請注意，在首次觸發業務事件時，不能更改同一test會話中的業務事件定義。 您只能使同一個人或不同個人輸入傳遞相同或其他標識符的行程。 如果要更改業務事件參數，必須停止並重新啟動test模式。
 
@@ -124,7 +123,7 @@ test模式也可用於使用基於規則的事件的行程。 有關基於規則
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="Test模式日誌"
->abstract="您可以查看test結果。 此頁以JSON格式顯示行程的當前資訊。 一個按鈕允許您複製整個節點。 您需要手動刷新頁面以更新行程的test結果。"
+>abstract="「顯示日誌」按鈕以JSON格式顯示test結果。 這些結果顯示了行程中的個人數量及其狀態。"
 
 的 **[!UICONTROL Show log]** 按鈕來查看test結果。 此頁以JSON格式顯示行程的當前資訊。 一個按鈕允許您複製整個節點。 您需要手動刷新頁面以更新行程的test結果。
 
@@ -157,9 +156,11 @@ test模式也可用於使用基於規則的事件的行程。 有關基於規則
 
 test模式會自動建立「體驗事件」並將其發送到Adobe Experience Platform。 此體驗事件的源名稱為「Journey OrchestrationTest事件」。
 
-在從多次行程觸發的多個事件中
+<!--
+In the case of multiple events triggered from multiple journeys
 
-存在從多個行程發送的多個事件具有不同方案的情況。 是否能將架構映射到1個資料集？ 否則，我們將需要多個資料集。
+There is a scenario when there are multiple events sent from multiple journeys that will have different Schemas. Can n schema map to 1 dataset? If not, then we will have multiple datasets required.
+-->
 
 如果體驗事件中未包括目標資料集，則執行這些資料集的自動建立和命名。 這就是為什麼我們今天看到&quot;為旅行者自動建立的資料集&quot;。
 
