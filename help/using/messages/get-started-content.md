@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 16%
+source-wordcount: '647'
+ht-degree: 15%
 
 ---
 
@@ -67,11 +67,15 @@ ht-degree: 16%
 
    * 選擇 **[!UICONTROL Message category]**:市場營銷或事務性。
 
+   * 選擇要用於該消息的通道：電子郵件和/或推送通知。 必須至少選擇一個通道才能建立消息。
+
    * 選擇 **[!UICONTROL Preset]** 的子菜單。
 
       預設包含根據您的品牌發送電子郵件和/或推送通知所需的所有參數。 [瞭解有關預設的更多資訊](../configuration/message-presets.md)。
+   >[!CAUTION]
+   >
+   >必須為所選類別和頻道選擇有效的消息預設。
 
-   * 選擇要用於該消息的通道：電子郵件和/或推送通知。 必須至少選擇一個通道才能建立消息。
    請注意，您可以隨時使用 **[!UICONTROL Properties]** 按鈕。
 
 1. 按一下 **[!UICONTROL Create]** 確認消息建立。 您的消息將添加到消息清單中， **[!UICONTROL Draft]** 狀態。

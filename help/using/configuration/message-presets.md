@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '2067'
+source-wordcount: '2098'
 ht-degree: 1%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
-> * 郵件預設配置僅限於「旅程管理員」。 [了解更多](../administration/ootb-product-profiles.md#journey-administrator)
+> * 消息預設配置限制為 [旅程管理員](../administration/ootb-product-profiles.md#journey-administrator)。 要建立、編輯和刪除消息預設，必須具有 [管理郵件預設](../administration/high-low-permissions.md#manage-message-presets)。
 >
-> * 必須執行電子郵件配置和 [推送配置](../configuration/push-configuration.md) 建立消息預設之前的步驟。
+> * 必須執行 [電子郵件配置](#configure-email-settings) 和 [推送配置](../configuration/push-configuration.md) 建立消息預設之前的步驟。
 
 
-一旦配置了消息預設，您就可以在從 **[!UICONTROL Presets]** 清單框。
+一旦配置了消息預設，您將能夠在從 **[!UICONTROL Presets]** 清單框。
 
 ➡️ [瞭解如何在此視頻中建立和使用電子郵件預設](#video-presets)
 
@@ -84,14 +84,15 @@ ht-degree: 1%
 
 按如下所述配置設定。
 
-
 ### 電子郵件類型{#email-type}
 
 在 **電子郵件類型** 部分，選擇將使用預設發送的消息類型： **營銷** 或 **事務性**。
 
-選擇 **營銷** 對於促銷消息：這些消息需要用戶同意。
+* 選擇 **營銷** 對於促銷消息：這些消息需要用戶同意。
 
-選擇 **事務性** 非商業消息（例如，訂單確認、密碼重置通知或傳遞資訊）。
+* 選擇 **事務性** 非商業消息（例如，訂單確認、密碼重置通知或傳遞資訊）。
+
+當 [建立消息](../messages/get-started-content.md#create-new-message)，必須為所選類別和頻道選擇有效的消息預設。
 
 >[!CAUTION]
 >

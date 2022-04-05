@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '775'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,11 @@ ht-degree: 1%
 
 ## 選擇test配置檔案 {#select-test-profiles}
 
-首先，您需要選擇要用於模擬的test配置檔案。 瞭解有關test配置檔案的詳細資訊 [此部分](../../segment/creating-test-profiles.md)。
+首先，您需要選擇要用於模擬的test配置檔案。
+
+>[!CAUTION]
+>
+>您必須具有test配置檔案才能預覽郵件和發送校樣。 瞭解如何 [建立test配置檔案](../../segment/creating-test-profiles.md)。
 
 1. 按一下「**[!UICONTROL Manage profile]**」。
 

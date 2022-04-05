@@ -3,16 +3,14 @@ title: Journey Optimizer系統管理入門
 description: 作為系統管理員，瞭解如何與Journey Optimizer合作
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '704'
 ht-degree: 2%
 
 ---
 
 # 系統管理員入門 {#get-started-sys-admins}
-
-![管理員](assets/do-not-localize/user-2.png)
 
 開始使用前 [!DNL Adobe Journey Optimizer]，準備環境需要幾個步驟。  必須執行這些步驟， [資料工程師](data-engineer.md) 和 [行程練習者](marketer.md) 可以開始使用 [!DNL Adobe Journey Optimizer]。
 

@@ -2,10 +2,10 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 92%
+source-wordcount: '1113'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 * 在表達式編輯器中添加了一個如何將表達式作為預設值添加的示例。 [閱讀全文](../building-journeys/expression/field-references.md#default-value)
 * 的 **建立個性化服務** 已重組節，以提高可讀性。 [閱讀全文](../offers/offer-library/creating-personalized-offers.md)
 * 已添加新部分，以描述更改優惠的開始和/或結束日期可能對此優惠的頻率上限產生的影響。 [閱讀全文](../offers/offer-library/add-constraints.md#capping-change-date)
-<!--* The **Change the primary email addresses** section has been updated to reflect the user interface changes. [Read more](../configuration/primary-email-addresses.md)-->
+* 的 **更改主電子郵件地址** 已更新部分以反映用戶介面的更改。 [閱讀全文](../configuration/primary-email-addresses.md)
 
 ## 2022 年 2 月 {#feb-2022}
 

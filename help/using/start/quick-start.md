@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 92%
 
 ---
 
@@ -23,50 +23,14 @@ ht-degree: 100%
 
 若要透過逐步指引來學習和探索 Adobe Journey Optimizer 的強大功能，請選取您的設定檔。
 
-<table>
-<tr>
-  <td valign="bottom">
-    <a href="path/administrator.md">
-      <img alt="管理員" src="path/assets/do-not-localize/user-2.png" />
-    </a>
-    <div>
-    <a href="path/administrator.md">我是管理員</a>
-     <p>準備環境、授予存取權限、編輯設定
-    <p>
-    </div>
-    <br>
-  </td>
-  <td valign="bottom">
-    <a href="path/data-engineer.md">
-      <img alt="資料工程師" src="path/assets/do-not-localize/user-1.png"/>
-    </a>
-    <div>
-    <a href="path/data-engineer.md">我是資料工程師</a>
-     <p>匯入設定檔、建立對象、建立方案和資料集
-    <p>
-    </div>
-    <br>
-  </td>
-  <td valign="bottom">
-      <a href="path/marketer.md">
-       <img alt="行銷人員" src="path/assets/do-not-localize/user-3.png" />
-       </a>
-    <div><a href="path/marketer.md">我是行銷人員</a>
-     <p>設計訊息、新增優惠、資產和建立客戶歷程
-    <p>
-    </div>
-    <br>
-  </td>
-    <!--td valign="bottom">
-    <a href="path/developer.md">
-      <img alt="Developer" src="../using/assets/do-not-localize/user-2.png" />
-    </a>
-    <div>
-    <a href="path/developer.md">I am a Developer</a>
-     <p>Integrate your mobile apps, use Journey Optimizer APIs
-    <p>
-    </div>
-    <br>
-  </td-->
-</tr>
-</table>
+* 我是 **管理員**
+
+   準備環境、授予存取權限、編輯設定. [了解更多](path/administrator.md)
+
+* 我是 **資料工程師**
+
+   匯入設定檔、建立對象、建立方案和資料集. [了解更多](path/data-engineer.md)
+
+* 我是 **營銷商**
+
+   設計訊息、新增優惠、資產和建立客戶歷程. [了解更多](path/marketer.md)

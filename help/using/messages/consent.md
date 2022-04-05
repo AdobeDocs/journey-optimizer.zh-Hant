@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 75%
+source-wordcount: '1259'
+ht-degree: 74%
 
 ---
 
@@ -38,6 +38,10 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 * 按一下此連結後，收件者會被導向登陸頁面，其中包含確認選擇退出按鈕。
 * 在確認其選擇後，將利用此資訊更新設定檔的資料。
+
+>[!NOTE]
+>
+>市場營銷類型的電子郵件必須包括一個選擇退出連結，這對於事務性郵件是不必需的。 消息類別(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [消息預設值](../configuration/message-presets.md#email-type) 當 [建立消息](get-started-content.md#create-new-message)。
 
 ### 外部選擇退出 {#opt-out-external-lp}
 

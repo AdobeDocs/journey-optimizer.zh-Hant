@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 0%
+source-wordcount: '721'
+ht-degree: 2%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ## 激活規則 {#activate-rule}
 
-要激活消息頻率規則，請按一下規則旁的省略號，然後選擇 **[!UICONTROL Activate]**。
+建立時，消息頻率規則 **[!UICONTROL Draft]** 狀態，尚未影響任何消息。 要啟用它，請按一下規則旁邊的省略號並選擇 **[!UICONTROL Activate]**。
 
 ![](assets/message-rules-activate.png)
 
@@ -105,28 +105,70 @@ ht-degree: 0%
 
 ## 將頻率規則應用於消息 {#apply-frequency-rule}
 
-要將頻率規則應用於消息，只需選擇在以下情況下為此規則定義的類別： [建立消息](../messages/get-started-content.md#create-new-message)。
+要將頻率規則應用於消息，請執行以下步驟。
 
-![](assets/message-rules-properties.png)
+1. 建立訊息. [了解更多](../messages/get-started-content.md#create-new-message)
 
-通過選擇 **[!UICONTROL Marketing]** 類別，所有匹配的消息頻率規則將自動應用於此消息。
+1. 選擇為 [已建立的規則](#create-new-rule)。
+
+   ![](assets/message-rules-msg-properties.png)
+
+   >[!NOTE]
+   >
+   >當前僅 **[!UICONTROL Marketing]** 類別可用於消息頻率規則。
+
+1. 選擇您為郵件選擇的頻道。
+
+   ![](assets/message-rules-msg-channels.png)
+
+1. 您可以按一下 **[!UICONTROL Frequency rule]** 連結，以查看將應用於選定類別和通道的頻率規則。
+
+   ![](assets/message-rules-msg-link.png)
+
+   將開啟一個新頁籤以顯示匹配的消息頻率規則。
+
+1. [設計](../design/design-emails.md) 和 [發佈](../messages/publish-manage-message.md) 你的留言。
+
+所有與所選類別和通道匹配的頻率規則將自動應用於此消息。
 
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 您可以在中查看從交貨中排除的配置檔案數 [即時和全球視圖](../reports/message-monitoring.md)的 [電子郵件即時報告](../reports/email-live-report.md)，其中頻率規則將作為用戶從傳遞中排除的可能原因列出。
 
-## 範例
+## 示例：組合若干規則 {#frequency-rule-example}
 
 您可以組合多種消息頻率規則，如下例中所述。
 
-1. 建立名為 *總體營銷上限*:
+1. [建立規則](#create-new-rule) 調用 *總體營銷上限*:
 
    * 選擇所有通道（電子郵件、推送）。
    * 將上限設定為12。
 
-1. 要進一步限制發送用戶的基於市場營銷的推送通知的數量，請建立稱為 *限制營銷推動*:
+   ![](assets/message-rules-ex-overall-cap.png)
+
+1. 要進一步限制發送用戶的基於市場營銷的推送通知的數量，請建立稱為 *推式營銷上限*:
 
    * 選擇「推送通道」。
    * 將上限設定為4。
 
-在此方案中，單個配置檔案每月最多可接收12條營銷消息，但在收到4條推送通知後，將從營銷推送通知中排除。
+   ![](assets/message-rules-ex-push-cap.png)
+
+1. 保存和 [激活](#activate-rule) 規則。
+
+1. 建立訊息. [了解更多](../messages/get-started-content.md#create-new-message)
+
+1. 選擇 **[!UICONTROL Marketing]** 的子菜單。
+
+   ![](assets/message-rules-ex-category-maktg.png)
+
+1. 選擇 **[!UICONTROL Email]** 和 **[!UICONTROL Push Notification]** 頻道。
+
+   ![](assets/message-rules-ex-channels.png)
+
+1. 您可以按一下 **[!UICONTROL Frequency rule]** 連結，以查看將應用於選定類別和通道的頻率規則。
+
+1. [設計](../design/design-emails.md) 和 [發佈](../messages/publish-manage-message.md) 你的留言。
+
+在此方案中，單個配置檔案：
+* 每月最多可收到12條營銷資訊；
+* 但在收到4個推送通知後，將不再提供營銷推送通知。

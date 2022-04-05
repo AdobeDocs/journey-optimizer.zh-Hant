@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 2%
+source-wordcount: '960'
+ht-degree: 1%
 
 ---
 
@@ -88,6 +88,10 @@ ht-degree: 2%
    >登錄頁URL必須唯一。
 
    ![](assets/lp_access-url.png)
+
+   >[!NOTE]
+   >
+   >即使已發佈，您也無法通過將此URL複製貼上到Web瀏覽器來訪問登錄頁。 相反，您可以使用預覽功能test它，如中所述 [此部分](#test-landing-page)。
 
 1. 您可以為頁面定義到期日期。 在這種情況下，必須在頁面到期時選擇操作：
 
@@ -175,7 +179,7 @@ ht-degree: 2%
 
 * **警告** 請參閱建議和最佳做法。 <!--For example, a message will display if -->
 
-* **錯誤** 只要郵件未解決，就阻止您發佈。 例如，如果首頁URL丟失，則會收到警告。
+* **錯誤** 只要未解決登錄頁，就阻止您發佈登錄頁。 例如，如果首頁URL丟失，則會收到警告。
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 

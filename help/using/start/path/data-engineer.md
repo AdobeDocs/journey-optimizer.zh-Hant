@@ -3,16 +3,14 @@ title: Journey Optimizer資料工程師入門
 description: 作為資料工程師，瞭解如何與Journey Optimizer合作
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '572'
 ht-degree: 9%
 
 ---
 
 # 資料工程師入門 {#data-engineer}
-
-![資料工程師](assets/do-not-localize/user-1.png)
 
 作為 **Adobe Journey Optimizer資料工程師**、準備和維護客戶配置檔案資料，以推動由 [!DNL Journey Optimizer]、為架構中的客戶和業務資料建模並配置源連接器以接收資料。 你可以開始使用 [!DNL Adobe Journey Optimizer] 一次 [系統管理員](administrator.md) 授予您訪問權限並準備您的環境。
 

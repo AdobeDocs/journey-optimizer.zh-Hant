@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -94,9 +94,3 @@ ht-degree: 0%
 1. 當您的電子郵件準備好後，按一下 **[!UICONTROL Save & Close]**。
 
 您的電子郵件內容現在可以用在郵件中。 [瞭解如何發送消息](../messages/publish-manage-message.md)。
-
-## How-to視頻 {#video}
-
-瞭解如何使用消息編輯器建立電子郵件內容。
-
->[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

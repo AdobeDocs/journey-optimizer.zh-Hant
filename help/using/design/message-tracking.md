@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '608'
 ht-degree: 5%
 
 ---
@@ -72,6 +72,10 @@ ht-degree: 5%
    * 您可以通過選中相應選項來選擇是否為連結加下划線。
 
    ![](assets/message-tracking-link-settings.png)
+
+>[!NOTE]
+>
+>市場營銷類型的電子郵件必須包括 [選擇退出連結](../messages/consent.md#opt-out-management)，事務性消息不需要。 消息類別(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [消息預設值](../configuration/message-presets.md#email-type) 當 [建立消息](../messages/get-started-content.md#create-new-message)。
 
 ## 連結到鏡像頁 {#mirror-page}
 

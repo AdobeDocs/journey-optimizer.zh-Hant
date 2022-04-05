@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '182'
 ht-degree: 3%
 
 ---
@@ -35,3 +35,7 @@ ht-degree: 3%
 1. 按一下 **[!UICONTROL Email Designer]** 按鈕來設計電子郵件。 瞭解如何在 [此部分](../design/design-emails.md)。
 
 1. 如果要通過開啟和/或按一下連結來跟蹤收件人的行為，請確保 **[!UICONTROL Open Tracking for email]** 和 **[!UICONTROL Click Tracking for email]** 選項。 瞭解有關跟蹤的詳細資訊 [此部分](../design/message-tracking.md)。
+
+>[!NOTE]
+>
+>市場營銷類型的電子郵件必須包括 [選擇退出連結](consent.md#opt-out-management)，事務性消息不需要。 消息類別(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [消息預設值](../configuration/message-presets.md#email-type) 當 [建立消息](get-started-content.md#create-new-message)。

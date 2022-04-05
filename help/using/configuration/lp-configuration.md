@@ -4,7 +4,7 @@ description: 瞭解如何配置環境以建立和使用登錄頁與Journey Optim
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 >title="建立登錄頁預設"
 >abstract="要能夠建立登錄頁預設，請確保您以前至少配置了一個登錄頁子域，以便從子域名清單中進行選擇。"
 
-能夠 [建立登錄頁預設](#lp-create-preset)，您必須設定用於登錄頁的子域。
+能夠 [建立登錄頁預設](#lp-create-preset)，必須設定用於登錄頁的子域。
 
 可以使用已委派給Adobe的子域，或配置其他子域。 瞭解有關將子域委託給Adobe的詳細資訊 [此部分](delegate-subdomain.md)。
 

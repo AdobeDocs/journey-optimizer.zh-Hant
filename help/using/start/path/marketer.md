@@ -3,16 +3,14 @@ title: Journey Optimizer開始營銷
 description: 作為一名旅行實踐者，學習如何與Journey Optimizer合作
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 8%
 
 ---
 
 # 面向營銷人員的入門 {#get-started-marketers}
-
-![商家](assets/do-not-localize/user-3.png)
 
 作為 **營銷商** 或 **行程練習者**，您負責建立消息、優惠和旅程。 你可以開始使用 [!DNL Adobe Journey Optimizer] 一次 [系統管理員](administrator.md) 和 [資料工程師](data-engineer.md) 授予您訪問權限並準備您的環境。
 
