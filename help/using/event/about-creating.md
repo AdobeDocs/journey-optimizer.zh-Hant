@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1492'
 ht-degree: 13%
 
 ---
@@ -147,7 +147,7 @@ ht-degree: 13%
 
 當收到事件時，該鍵的值將允許系統標識與該事件關聯的人員。 與命名空間關聯(請參見 [此部分](../event/about-creating.md#select-the-namespace))，該鍵可用於對Adobe Experience Platform執行查詢。 請參閱[此頁面](../building-journeys/about-journey-activities.md#orchestration-activities)。鑰匙還用於檢查人是否在旅途中。 事實上，一個人不可能在同一旅程中處於兩個不同的位置。 因此，系統不允許相同的密鑰（例如，密鑰CRMID=3224）在相同行程的不同位置處。
 
-您還可以訪問高級表達式函式(**[!UICONTROL Advanced mode]**)。 通過這些函式，您可以處理用於執行特定查詢的值，例如更改格式、執行欄位連接，只考慮欄位的一部分（例如10個首字元）。 請參閱 [Journey Orchestration文檔](../building-journeys/expression/expressionadvanced.md)。
+您還可以訪問高級表達式函式(**[!UICONTROL Advanced mode]**)。 通過這些函式，您可以處理用於執行特定查詢的值，例如更改格式、執行欄位連接，只考慮欄位的一部分（例如10個首字元）。 請參閱此[頁面](../building-journeys/expression/expressionadvanced.md)。
 
 ## 預覽負載 {#preview-the-payload}
 

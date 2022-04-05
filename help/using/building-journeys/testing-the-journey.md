@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 2ab1010ac97ef2116984fcd6985374aed3d6f9f6
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1524'
 ht-degree: 2%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 ## 重要備註 {#important_notes}
 
-* 提供一個介面，用於將事件發射到所測試的旅程，但事件也可以由第三方系統發送，如Postman。
+* 提供一個介面，用於將事件發射到所測試的旅程，但事件也可以由諸如Postman的第三方系統發送。
 * 只允許在即時客戶配置檔案服務中標籤為「test配置檔案」的個人進入測試行程。 請參閱此 [節](../segment/creating-test-profiles.md)。
 * test模式僅在使用命名空間的草稿行程中可用。 Test模式需要檢查進入行程的人員是否是test配置檔案，因此必須能夠到達Adobe Experience Platform。
 * 在test會話期間，最大可輸入行程的test配置檔案數為100。
@@ -156,12 +156,3 @@ test模式也可用於使用基於規則的事件的行程。 有關基於規則
 
 test模式會自動建立「體驗事件」並將其發送到Adobe Experience Platform。 此體驗事件的源名稱為「Journey OrchestrationTest事件」。
 
-<!--
-In the case of multiple events triggered from multiple journeys
-
-There is a scenario when there are multiple events sent from multiple journeys that will have different Schemas. Can n schema map to 1 dataset? If not, then we will have multiple datasets required.
--->
-
-如果體驗事件中未包括目標資料集，則執行這些資料集的自動建立和命名。 這就是為什麼我們今天看到&quot;為旅行者自動建立的資料集&quot;。
-
-源的命名驅動著自動建立。 如果有多個事件，我們應將其連接並設定為「Journey OrchestrationTest事件 — NAME OF SCHEMA」。 這將自動轉為「自動生成的Journey OrchestrationTest事件資料集 — NAME OF SCHEMA」。

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 16%
@@ -26,7 +26,7 @@ ht-degree: 16%
 
 | 欄位名稱 | 類型 | 說明 |
 |---|---|------------|
-| 請求ID | 字串 | Journey Orchestration用於跟蹤請求流的請求ID。 |
+| 請求ID | 字串 | Journey Optimizer用於跟蹤請求流的請求ID。 |
 
 ## 旅程 {#journey-field}
 
