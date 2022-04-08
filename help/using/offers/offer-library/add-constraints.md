@@ -5,9 +5,10 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1552'
 ht-degree: 3%
 
 ---
@@ -23,6 +24,11 @@ ht-degree: 3%
 >id="od_offer_priority"
 >title="關於優惠優先順序"
 >abstract="在此欄位中，可以指定優惠的優先順序設定。 優先順序是用於對滿足所有約束（如資格、日期和上限設定）的優惠進行評級的數字。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_priority"
+>title="優先順序"
+>abstract="如果用戶有資格獲得多個優惠，則優先順序有助於定義優惠與其他優惠相比的優先順序。 優先順序越高，優先順序就越高。"
 
 約束允許您定義顯示要約的條件。
 
@@ -49,6 +55,11 @@ ht-degree: 3%
 * 該要約將在所有配售中按用戶僅提供一次。
 
 ## 資格 {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_eligibility"
+>title="資格"
+>abstract="聘用資格允許您將聘用限制為使用段或決策規則定義的特定配置檔案。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -107,8 +118,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="關於服務封頂"
->abstract="在此欄位中，您可以指定提供優惠的次數。"
+>title="封頂"
+>abstract="封閉設定用作約束來定義提供的最大次數。"
 
 封閉設定用作約束來定義提供的最大次數。
 

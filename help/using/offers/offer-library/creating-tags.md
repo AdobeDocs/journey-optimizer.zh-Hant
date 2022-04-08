@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '188'
 ht-degree: 5%
 
 ---
 
 # 建立標籤 {#create-tags}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_offer_tags"
+>title="標籤"
+>abstract="將一個或多個標籤與優惠關聯，以便更輕鬆地組織和查找優惠。 標籤是從「元件」菜單建立的。"
 
 將標籤與您的產品關聯使標籤更易於組織。 例如，可以使用「黑色星期五」標籤來標籤黑色星期五的優惠。 然後，您可以使用「優惠庫」中的搜索功能，輕鬆找到帶有該標籤的所有優惠。
 

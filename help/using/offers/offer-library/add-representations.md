@@ -5,14 +5,20 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '465'
 ht-degree: 1%
 
 ---
 
 # 向優惠添加表示 {#add-representations}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_representation"
+>title="表示法"
+>abstract="添加表示法，以定義您的優惠將在消息中顯示的位置。 一個要約的表述越多，在不同的放置環境中使用該要約的機會就越多&quot;。
 
 可以在消息中的不同位置顯示優惠：在帶有影像、段落中的文本、HTML塊等的頂部標題中。 一個要約擁有的表述越多，在不同的放置環境中使用該要約的機會就越多。
 

@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 15%
+source-wordcount: '261'
+ht-degree: 13%
 
 ---
 
 # 建立版位 {#create-placements}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement"
+>title="版位"
+>abstract="放置是用於展示優惠的容器。 它有助於確保正確的服務內容顯示在您郵件中的正確位置。 位置是從「元件」菜單建立的。"
 
 放置有助於確保在郵件中的適當位置顯示適當的優惠內容。 將內容新增至優惠方案時，系統會要求您選取可顯示該內容的版位。
 
