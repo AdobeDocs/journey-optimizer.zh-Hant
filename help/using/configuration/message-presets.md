@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: de5e9e6026222ce57a7bb37e11aa6f8bbf583d19
 workflow-type: tm+mt
-source-wordcount: '2098'
+source-wordcount: '2110'
 ht-degree: 1%
 
 ---
@@ -85,6 +85,11 @@ ht-degree: 1%
 按如下所述配置設定。
 
 ### 電子郵件類型{#email-type}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_emailtype"
+>title="電子郵件類型"
+>abstract="待完成"
 
 在 **電子郵件類型** 部分，選擇將使用預設發送的消息類型： **營銷** 或 **事務性**。
 
@@ -189,6 +194,11 @@ ht-degree: 1%
 >地址必須以字母(A-Z)開頭，並且只能包含字母數字字元。 您還可以使用下划線 `_`，點`.` 連字元 `-` 字元。
 
 ### 電子郵件重試參數{#email-retry}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_retryperiod"
+>title="電子郵件重試時間段"
+>abstract="待完成"
 
 您可以配置 **電子郵件重試參數**。
 
