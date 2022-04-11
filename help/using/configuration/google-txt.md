@@ -6,18 +6,23 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d568480005d9b4aad5982c26184a5add0be6c83a
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 26%
+source-wordcount: '205'
+ht-degree: 21%
 
 ---
 
 # 將GoogleTXT記錄添加到子域 {#google-txt-record}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_google"
+>title="GoogleTXT記錄"
+>abstract="為確保成功將電子郵件發送到Gmail地址，您可以將特殊的Google站點驗證TXT記錄添加到子域，以確保已驗證。"
+
 TXT 記錄是一種 DNS 記錄，用於提供關於網域的文字資訊，可由外部來源讀取。
 
-為了確保電子郵件的良好傳送和成功地傳送到Gmail地址， [!DNL Journey Optimizer] 允許您向子域添加特殊的Google站點驗證TXT記錄，以確保驗證。
+為了確保電子郵件的最佳傳遞和成功的傳遞， [!DNL Journey Optimizer] 允許您向子域添加特殊的Google站點驗證TXT記錄，以確保已驗證。
 
 >[!CAUTION]
 >
