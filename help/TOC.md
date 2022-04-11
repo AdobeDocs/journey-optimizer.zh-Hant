@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -40,19 +40,19 @@ ht-degree: 92%
 + 設計內容 {#design}
    + [開始使用電子郵件設計](using/design/design-emails.md)
    + [從頭開始 ](using/design/create-email-content.md)
-   + [導入電子郵件內容](using/design/existing-content.md)
-   + [編碼您自己的內容](using/design/code-content.md)
+   + [匯入電子郵件內容](using/design/existing-content.md)
+   + [為您自己的內容撰寫程式碼](using/design/code-content.md)
    + 內容設計 {#design-content}
       + [使用內容元件](using/design/content-components.md)
       + [背景設定](using/design/backgrounds.md)
-      + [調整垂直對齊和填充](using/design/adjusting-vertical-alignment-and-padding.md)
+      + [調整垂直對齊與邊框間距](using/design/adjusting-vertical-alignment-and-padding.md)
       + [定義連結的樣式](using/design/styling-links.md)
-      + [添加內聯樣式屬性](using/design/adding-inline-styling-attributes.md)
+      + [加入內嵌樣式屬性](using/design/adding-inline-styling-attributes.md)
    + 電子郵件設定 {#design-email}
-      + [生成文本版本](using/design/text-version-email.md)
-      + [添加前標](using/design/preheader.md)
+      + [產生文字版本](using/design/text-version-email.md)
+      + [加入預告標題](using/design/preheader.md)
    + 新增及管理資產 {#manage-asset}
-      + [與Assets Essentials合作](using/design/assets-essentials.md)
+      + [配合 Assets Essentials](using/design/assets-essentials.md)
    + [新增個人化優惠方案](using/design/deliver-personalized-offers.md)
    + [新增連結及追蹤訊息](using/design/message-tracking.md)
    + [預覽和校樣](using/design/preview.md)
@@ -219,15 +219,15 @@ ht-degree: 92%
       + [歷程即時報告](using/reports/journey-live-report.md)
       + [以電子郵件傳送即時報告](using/reports/email-live-report.md)
       + [推播即時報告](using/reports/push-live-report.md)
-      + [登錄頁即時報告](using/reports/lp-report-live.md)
+      + [登陸頁面即時報告](using/reports/lp-report-live.md)
       + [訂閱清單即時報告](using/reports/subscription-report-live.md)
    + 全域報告 {#global-report}
       + [存取全域報告儀表板](using/reports/global-report.md)
       + [歷程全域報告](using/reports/journey-global-report.md)
       + [以電子郵件傳送全域報告](using/reports/email-global-report.md)
       + [推播全域報告](using/reports/push-global-report.md)
-      + [登錄頁全局報告](using/reports/lp-report-global.md)
-      + [訂閱清單全局報告](using/reports/subscription-report-global.md)
+      + [登陸頁面全域報告](using/reports/lp-report-global.md)
+      + [訂閱清單全域報告](using/reports/subscription-report-global.md)
    + 歷程報告 {#reports}
       + [建立歷程報告](using/reports/sharing-overview.md)
       + [步驟事件欄位清單](using/reports/sharing-field-list.md)
@@ -326,7 +326,7 @@ ht-degree: 92%
          + [刪除決定](using/offers/api-reference/activities-api/activities/delete.md)
       + 使用 API 的優惠傳遞 {#offer-delivery}
          + [決定 API](using/offers/api-reference/decisions-api/deliver-offers.md)
-         + [批處理決策API](using/offers/api-reference/batch-api/deliver-offers-batch.md)
+         + [批次決策 API](using/offers/api-reference/batch-api/deliver-offers-batch.md)
          + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
 + 資料管理 {#data-management}
    + [方案](using/start/get-started-schemas.md)
@@ -352,7 +352,7 @@ ht-degree: 92%
          + [變更電子郵件主要地址](using/configuration/primary-email-addresses.md)
       + [設定簡訊頻道](using/configuration/sms-configuration.md)
       + [建立訊息預設集](using/configuration/message-presets.md)
-      + [配置頻率規則](using/configuration/frequency-rules.md)
+      + [設定頻率規則](using/configuration/frequency-rules.md)
    + [設定登陸頁面](using/configuration/lp-configuration.md)
    + 設定歷程 {#configure-journeys}
       + [關於資料來源、事件和動作](using/configuration/about-data-sources-events-actions.md)

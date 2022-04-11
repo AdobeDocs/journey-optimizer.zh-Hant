@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
 workflow-type: tm+mt
 source-wordcount: '2938'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 92%
 
 本頁面列出[!DNL Journey Optimizer]所有新功能和改進項目。您還可以參閱[最新文件更新](documentation-updates.md)頁面以了解更多變更。
 
-![新聞稿](../assets/do-not-localize/nl-icon.png) 註冊 [Adobe Journey Optimizer季刊](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}，並每季度直接將最新產品更新、激動人心的故事、用例、提示等內容發送給您的收件箱。
+![電子報](../assets/do-not-localize/nl-icon.png) 立即註冊 [Adobe Journey Optimizer 每季電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} ，直接把每季最新產品更新、激勵人心的故事、使用按利、提示等內容傳送到您的收件匣。
 
 
 ## 2022 年 3 月發行 {#march-2022-release}
@@ -22,22 +22,22 @@ ht-degree: 92%
 
 **歷程**
 
-* 為避免統一配置檔案架構中存在不必要的欄位，預設情況下不再為配置檔案啟用「行程步驟事件」架構。 如果需要，可以激活它。 [了解更多](../reports/sharing-overview.md)
-* 與出口就業有關的新步驟活動現在由Journey Optimizer發送給Adobe Experience Platform。 查詢示例已添加到文檔中。 [進一步了解](../reports/query-examples.md)
+* 為避免統一設定檔綱要存在不必要的欄位，預設情況下不再為設定檔啟用「歷程步驟事件」綱要。 如有需要，可以啟用。 [了解更多](../reports/sharing-overview.md)
+* 跟匯出工作有關的新步驟活動現在由 Journey Optimizer 傳送到 Adobe Experience Platform。 已在文件中新增查詢範例。 [進一步了解](../reports/query-examples.md)
 
 **決定管理**
 
 * 現在，您可以指定是否在所有用戶或一個特定配置檔案中應用了優惠上限設定，以及是否在所有放置或每次放置中應用。 [了解更多](../offers/offer-library/add-constraints.md#capping)
-* 批決策API允許組織在一次調用中對給定段中的所有配置檔案使用offer decisioning功能。 段中每個配置檔案的提供內容都放在AEP資料集中，該資料集可用於自定義批處理工作流。 [進一步了解](../offers/api-reference/batch-api/deliver-offers-batch.md)
+* 批次決策 API 允許組織在一次呼叫中對給定區段中的所有設定檔使用 Offer Decisioning 功能。 區段中每個設定檔提供的內容都放在 AEP 資料集，可用於自訂批次處理工作流程。 [進一步了解](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
 **管理**
 
-* 現在，您可以在郵件預設級別啟用/禁用電子郵件頭中/郵件頭中的取消訂閱連結，並在郵件級別設定自定義取消訂閱URL。 [了解更多](../configuration/message-presets.md#list-unsubscribe)
-* 現在，允許的清單可以通過 [!DNL Journey Optimizer] 介面。 [進一步了解](../reports/allow-list.md#enable-allow-list)
+* 您現在可以在訊息預設層及在/從電子郵件標題啟用/停用取消訂閱連結，並在訊息層級設定自訂取消訂閱 URL。 [了解更多](../configuration/message-presets.md#list-unsubscribe)
+* 現在，可以透過生產或非生產沙箱的 [!DNL Journey Optimizer] 介面啟用或停用允許清單。 [進一步了解](../reports/allow-list.md#enable-allow-list)
 
 **個人化**
 
-* 您現在可以在庫中保存40多個個性化表達式。 [了解更多](../personalization/personalization-library.md)
+* 您現在可以在程式庫中儲存 40 多組個人化運算式。 [了解更多](../personalization/personalization-library.md)
 
 ## 2022 年 2 月發佈內容 {#feb-2022-release}
 

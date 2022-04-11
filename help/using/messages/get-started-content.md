@@ -9,7 +9,7 @@ exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 15%
+ht-degree: 97%
 
 ---
 
@@ -25,103 +25,103 @@ ht-degree: 15%
 
 * 根據這些內容&#x200B;**建立推播和電子郵件訊息** ，然後發佈。
 
-## 訪問消息 {#access-messages}
+## 存取訊息 {#access-messages}
 
-可從 **[!UICONTROL Messages]** 的下界。 所有消息均按發佈日期（對於已發佈消息）或建立日期（對於草稿消息）列出，排序。
+可從左側導覽的 **[!UICONTROL Messages]** 捷徑取得訊息。 所有訊息均按發佈日期 (已發佈的訊息) 或建立日期 (訊息草稿) 依序列出。
 
 >[!NOTE]
 >
->用戶可以根據其產品配置檔案訪問、建立、編輯和/或發佈消息。 瞭解有關用戶權限的詳細資訊 [此部分](../administration/permissions.md)。
+>使用者可以根據其產品設定檔存取、建立、編輯和/或發佈訊息。 [在此章節](../administration/permissions.md)瞭解有關使用者權限的詳細資訊。
 
 ![](assets/messages-list.png)
 
-* 使用 **[!UICONTROL Show recents]** 切換以將直接連結添加到您在過去5天內訪問的消息。
+* 利用 **[!UICONTROL Show recents]** 切換在您過去 5 天內存取的訊息加入直接連結。
 
    ![](assets/show-recent-messages.png)
 
-* 使用篩選器表徵圖僅顯示已起草、已發佈或正在發佈的消息。 您還可以在郵件標籤上搜索，如下所示：
+* 利用篩選圖示顯示草稿、已發佈或正在發佈的訊息。 您還可以搜尋訊息標籤，如下所示：
 
    ![](assets/filter-messages.png)
 
-* 您可以使用快速操作菜單中的專用表徵圖來存檔未使用的郵件以清除郵件清單。
+* 您可以利用快速操作功能表的專用圖示來封存未使用的訊息以便清理訊息清單。
 
    ![](assets/archive-message.png)
 
-   使用篩選器表徵圖顯示所有已存檔的郵件，然後按一下 **[!UICONTROL Unarchive]** 表徵圖，從已存檔郵件清單中刪除項目。
+   利用篩選圖示顯示所有封存的訊息，然後按一下 **[!UICONTROL Unarchive]** 圖示，從已封存的訊息清單刪除項目。
 
    >[!NOTE]
    >
-   >無法開啟存檔的郵件。 必須先取消存檔。
+   >無法開啟封存的訊息。 必須先取消封存。
 
-## 建立新郵件 {#create-new-message}
+## 建立新訊息。 {#create-new-message}
 
-要建立新消息，請執行以下步驟：
+若要建立新訊息，請遵照以下步驟：
 
-1. 訪問消息清單，然後按一下 **[!UICONTROL Create Message]**。
+1. 存取訊息清單，然後按一下 **[!UICONTROL Create Message]**。
 
-1. 定義消息屬性。
+1. 定義訊息屬性。
 
    ![](assets/create-message-properties.png)
 
-   * 輸入 **[!UICONTROL Title]** （強制）及 **[!UICONTROL Description]**。
+   * 輸入 **[!UICONTROL Title]** (強制) 及 **[!UICONTROL Description]**。
 
-   * 選擇 **[!UICONTROL Message category]**:市場營銷或事務性。
+   * 選擇 **[!UICONTROL Message category]**：行銷或異動。
 
-   * 選擇要用於該消息的通道：電子郵件和/或推送通知。 必須至少選擇一個通道才能建立消息。
+   * 選擇要用於訊息的通道：電子郵件和/或推播通知。 必須至少選擇一個通道才能建立訊息。
 
-   * 選擇 **[!UICONTROL Preset]** 的子菜單。
+   * 選擇 **[!UICONTROL Preset]** 用於訊息。
 
-      預設包含根據您的品牌發送電子郵件和/或推送通知所需的所有參數。 [瞭解有關預設的更多資訊](../configuration/message-presets.md)。
+      預設集包含所需的所有參數，以便根據您的品牌傳送電子郵件和/或推播通知。 [進一步瞭解預設集](../configuration/message-presets.md)。
    >[!CAUTION]
    >
    >必須為所選類別和頻道選擇有效的消息預設。
 
-   請注意，您可以隨時使用 **[!UICONTROL Properties]** 按鈕。
+   請注意，您可以隨時利用訊息介面的 **[!UICONTROL Properties]** 按鈕來存取及修改訊息標題、說明及預設集。
 
-1. 按一下 **[!UICONTROL Create]** 確認消息建立。 您的消息將添加到消息清單中， **[!UICONTROL Draft]** 狀態。
+1. 按一下 **[!UICONTROL Create]** 確認建立訊息。 您的訊息將加入訊息清單，呈現 **[!UICONTROL Draft]** 狀態。
 
-   每個選定頻道都可使用一個頁籤。 使用這些頁籤為每個頻道配置內容。 通過選擇頁籤並按一下 **[!UICONTROL Delete channel]** 按鈕。
+   每個選定通道都可使用一個標籤。 利用這些標籤為每個通道設定內容。 選擇標籤並在右側按一下 **[!UICONTROL Delete channel]** 按鈕您便可移除標籤。
 
    ![](assets/create-messages-content.png)
 
-   您現在可以建立消息的內容並調整設定。 有關電子郵件和推送通知配置的詳細資訊，請參見以下各節：
+   您現在可以建立訊息內容並調整設定。 有關電子郵件及推播通知設定的詳細資訊，請參見以下章節：
 
    * [建立電子郵件](create-email.md)
-   * [建立推送通知](create-push.md)
+   * [建立推播通知](create-push.md)
 
    >[!NOTE]
    >   
-   >可以使用表達式編輯器使用配置檔案的資料個性化您的消息。 有關個性化的詳細資訊，請參閱 [此部分](../personalization/personalize.md)。
+   >可以透過表達式編輯器利用設定檔的資料個人化您的訊息。 如需個人化的詳細資訊，請參閱[此章節](../personalization/personalize.md)。
 
-1. 使用左側的預覽部分控制消息的呈現，並使用test配置檔案檢查個性化設定。 如需詳細資訊，請參閱[本章節](../design/preview.md)。
+1. 利用左側預覽區段控制訊息的呈現，並利用測試設定檔來檢查個人化設定。 如需詳細資訊，請參閱[本章節](../design/preview.md)。
 
    ![](assets/messages-simple-preview.png)
 
-1. 檢查編輯器上半部分的警報。  其中一些是簡單的警告，但其他警告可能會阻止您發佈消息。 瞭解詳情 [此部分](alerts.md)。
+1. 檢查編輯器上半區段的警示。  其中一些是簡單的警告，但其他警告可能會阻止您發佈訊息。 請參閱[此章節](alerts.md)深入瞭解。
 
-1. 您現在可以通過按一下 **[!UICONTROL Publish]** 按鈕，或者將其作為草稿保存並稍後發佈。 有關如何發佈消息的詳細資訊，請參閱 [此部分](publish-manage-message.md)。
+1. 您現在可以按一下 **[!UICONTROL Publish]** 按鈕，或者將其儲存為草稿稍後再發佈。 有關如何發佈訊息的詳細資訊，請參閱[此章節](publish-manage-message.md)。
 
-## 複製消息 {#duplicate-message}
+## 複製訊息 {#duplicate-message}
 
-要從現有消息建立消息，請執行以下步驟。
+若要從現有訊息建立訊息，請遵照以下步驟。
 
-1. 開啟要複製的郵件。
+1. 開啟要複製的訊息。
 
-1. 使用 **[!UICONTROL Duplicate]** 按鈕。
+1. 利用訊息介面的 **[!UICONTROL Duplicate]** 按鈕。
 
    ![](assets/message-duplicate.png)
 
-   所有設定和配置都將複製到新消息中。
+   所有設定與組態都將複製到新訊息中。
 
-1. 您可以在確認複製之前更名消息。
+1. 您可以在確認複製之前重新命名訊息。
 
    ![](assets/message-duplicate-confirm.png)
 
-1. 建立新消息後，窗口底部將顯示一條確認消息。
+1. 一旦建立新訊息後，視窗底部會顯示一則確認訊息。
 
-也可以使用快速操作菜單中的專用表徵圖從消息清單中複製消息。
+也可利用快速操作功能的專用圖示從訊息清單複製訊息。
 
 ![](assets/message-duplicate-from-list.png)
 
-同樣的確認過程也適用。
+適用同樣的確認過程。
 

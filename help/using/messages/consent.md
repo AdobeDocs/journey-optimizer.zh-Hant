@@ -9,7 +9,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '1259'
-ht-degree: 74%
+ht-degree: 91%
 
 ---
 
@@ -161,7 +161,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
    >[!NOTE]
    >
-   >如果啟用 **清單 — 取消訂閱** 選項，當用戶按一下電子郵件標題中的取消訂閱連結時，也將使用此URL。 [了解更多](#unsubscribe-header)
+   >如果在訊息預設層級啟用 **List-Unsubscribe** 選項，當使用者按一下電子郵件標題中的取消訂閱連結時，也將使用此 URL。 [了解更多](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -175,11 +175,11 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="將取消訂閱連結添加到電子郵件標題"
->abstract="啟用List-Unsubscribe以向電子郵件標題添加取消訂閱連結。 要設定取消訂閱的URL，請在電子郵件內容中插入一個按一下選項退出連結。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=en#one-click-opt-out" text="一鍵選擇退出"
+>title="在電子郵件標題新增取消訂閱連結"
+>abstract="啟用 List-Unsubscribe 向電子郵件標題新增取消訂閱連結。 要設定取消訂閱的 URL，請在電子郵件內容中插入一鍵退出連結。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=zh-Hant#one-click-opt-out" text="一鍵選擇退出"
 
-如果 [List-Unsubscribe選項](../configuration/message-presets.md#list-unsubscribe) 在消息預設級別啟用，與 [!DNL Journey Optimizer] 將在電子郵件標題中包含取消訂閱連結。
+如果在訊息預設層級啟用 [List-Unsubscribe 選項](../configuration/message-presets.md#list-unsubscribe)，透過 [!DNL Journey Optimizer] 傳送的電子郵件將在電子郵件標題中包含取消訂閱連結。
 
 例如，取消訂閱連結在 Gmail 中顯示如下：
 
@@ -187,21 +187,21 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 >[!NOTE]
 >
->要在電子郵件標題中顯示取消訂閱連結，收件人的電子郵件客戶端必須支援此功能。
+>若要在電子郵件標題中顯示取消訂閱連結，收件者的電子郵件用戶端必須支援此功能。
 
-取消訂閱地址是預設地址 **[!UICONTROL Mailto (unsubscribe)]** 顯示在相應消息預設中的地址。 [了解更多](../configuration/message-presets.md#list-unsubscribe)。
+取消訂閱位址是預設 **[!UICONTROL Mailto (unsubscribe)]** 位址，顯示在訊息預設集的對應位址。 [了解更多](../configuration/message-presets.md#list-unsubscribe)。
 
-要設定個性化的取消訂閱URL，請在電子郵件內容中插入一個按一下選項退出連結，然後輸入您選擇的URL。 [了解更多](#one-click-opt-out)
+若要設定個人化取消訂閱 URL，請在電子郵件內容中插入一鍵退出連結，然後輸入您選擇的 URL。 [了解更多](#one-click-opt-out)
 
-根據電子郵件客戶端，按一下標題中的取消訂閱連結可能會產生以下影響：
+根據電子郵件用戶端，在標題按一下取消訂閱連結將產生下列其中一項影響：
 
-* 取消訂閱請求被發送到預設取消訂閱地址。
+* 取消訂閱請求將傳送到預設取消訂閱位址。
 
-* 收件人將定向到在將opt-out連結添加到郵件時指定的登錄頁URL。
+* 收件人將被導向在訊息中新增退出連結時指定的登陸頁面 URL。
 
    >[!NOTE]
    >
-   >如果您不在消息內容中添加一次按一下的「退出」連結，則不會顯示登錄頁。
+   >如果您未在訊息內容中新增一鍵退出連結，則不會顯示登陸頁面。
 
 * 對應的設定檔會立即退出，而此選項會在 Experience Platform 中更新。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}中進一步瞭解 。
 

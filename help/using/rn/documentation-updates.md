@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '1113'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -15,10 +15,10 @@ ht-degree: 91%
 
 ## 2022 年 3 月 {#march-2022}
 
-* 隨附的所有新功能和改進 [!DNL Journey Optimizer] 文檔中詳細列出了2003年3月的發行。 [閱讀全文](release-notes.md)
+* 有關所有 [!DNL Journey Optimizer]2022 年 3 月發行版本新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
 * 已在 AI 模型快速入門手冊的 **Offer Decisioning** 部分新增頁面，詳細說明了[自動最佳化模型](../offers/offer-library/ai-ranking.md#auto-optimization)、其所使用的演算法及其他技術細節。 [閱讀全文](../offers/offer-library/ai-ranking.md)
-* test配置檔案建立頁已移至  **段、配置檔案和標識** 的子菜單。 [閱讀全文](../segment/creating-test-profiles.md)
-* 在表達式編輯器中添加了一個如何將表達式作為預設值添加的示例。 [閱讀全文](../building-journeys/expression/field-references.md#default-value)
+* 測試設定檔建立頁面已移至&#x200B;**區段、設定檔及身分**&#x200B;的章節。 [閱讀全文](../segment/creating-test-profiles.md)
+* 在運算式編輯器中新增了如何加入運算式作為預設值的範例。[閱讀全文](../building-journeys/expression/field-references.md#default-value)
 * 的 **建立個性化服務** 已重組節，以提高可讀性。 [閱讀全文](../offers/offer-library/creating-personalized-offers.md)
 * 已添加新部分，以描述更改優惠的開始和/或結束日期可能對此優惠的頻率上限產生的影響。 [閱讀全文](../offers/offer-library/add-constraints.md#capping-change-date)
 * 的 **更改主電子郵件地址** 已更新部分以反映用戶介面的更改。 [閱讀全文](../configuration/primary-email-addresses.md)
