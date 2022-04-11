@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '907'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 99%
 * 改善工作流程：行銷團隊可以建立單一傳遞，並在範本的不同部分提供不同優惠方案，藉此改善工作流程，而無須建立多個傳遞或行銷活動；
 * 控制在電子郵件行銷活動中和向客戶顯示優惠方案的次數。
 
-➡️ [在這些視頻中瞭解有關決策管理的更多資訊](#video)
+➡️ [在這些影片中瞭解有關決策管理的更多資訊](#video)
 
 ## 關於優惠和決定 {#about-offers-and-decisions}
 
