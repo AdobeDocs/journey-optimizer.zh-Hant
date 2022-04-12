@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 2%
+source-wordcount: '762'
+ht-degree: 1%
 
 ---
 
@@ -31,9 +31,11 @@ ht-degree: 2%
 
 規則可從 **[!UICONTROL Administration]** > **[!UICONTROL Rules]** 的子菜單。 將列出所有規則，並按修改日期排序。
 
-![](assets/message-rules-access.png)
+>[!NOTE]
+>
+>要訪問、建立、編輯或刪除消息頻率規則，必須 [管理頻率規則](../administration/high-low-permissions.md#manage-frequency-rules) 權限。
 
-<!--To access, create, edit or delete message frequency rules, you must have the message configuration permission. [Learn more](../administration/high-low-permissions.md#administration-permissions)-->
+![](assets/message-rules-access.png)
 
 使用篩選器表徵圖可以篩選類別、狀態和/或通道。 您也可以在消息標籤上搜索。
 
@@ -134,6 +136,10 @@ ht-degree: 2%
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 您可以在中查看從交貨中排除的配置檔案數 [即時和全球視圖](../reports/message-monitoring.md)的 [電子郵件即時報告](../reports/email-live-report.md)，其中頻率規則將作為用戶從傳遞中排除的可能原因列出。
+
+>[!NOTE]
+>
+>幾個規則可以應用於同一渠道，但一旦達到下限，配置檔案將從下次交貨中排除。
 
 ## 示例：組合若干規則 {#frequency-rule-example}
 

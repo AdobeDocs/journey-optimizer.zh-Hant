@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1607'
 ht-degree: 10%
 
 ---
@@ -17,20 +17,28 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
->title="關於子域委派"
->abstract="Journey Optimizer允許您將子域完全委託給Adobe。 Adobe將能夠通過控制和維護DNS的所有方面來將消息作為托管服務進行傳遞。"
+>title="子域委派"
+>abstract="Journey Optimizer允許您將子域委託給Adobe。 您可以將子域完全委託給Adobe，或使用CNAME建立子域以指向特定於Adobe的記錄。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="子域配置方法"
 
-域名委派是一種允許域名所有者的方法(技術上為：DNS區域)，以委派其細分(技術上：DNS區域，可稱為子區域)。 基本上，作為客戶，如果您正在處理「example.com」區域，則可以將子區域「marketing.example.com」委託給Adobe。
-
-通過委託子域來使用 [!DNL Journey Optimizer]，客戶可以依靠Adobe來維護所需的DNS基礎架構，以滿足其電子郵件營銷發送域的行業標準可交付性要求，同時繼續維護和控制其內部電子郵件域的DNS。
+域名委派是一種允許域名所有者的方法(技術上為：DNS區域)，以委派其細分(技術上：DNS區域，可稱為子區域)。 基本上，作為客戶，如果您正在處理「example.com」區域，則可以將子區域「marketing.example.com」委託給Adobe。 瞭解更多 [子域授權](about-subdomain-delegation.md)
 
 >[!NOTE]
 >
 >預設情況下， [!DNL Journey Optimizer] 許可證合同允許您委託最多10個子域。 如果要增加此限制，請聯繫Adobe聯繫人。
 
+您可以完全委託子域，或使用CNAME建立子域，以指向特定於Adobe的記錄。 瞭解兩者之間的差異 [子域配置方法](about-subdomain-delegation.md#subdomain-delegation-methods)。
+
 ## 完全子網域委派 {#full-subdomain-delegation}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_dns"
+>title="生成匹配的DNS記錄"
+>abstract="要將新子域完全委託給Adobe，您需要複製Journey Optimizer介面中顯示的Adobe名稱伺服器資訊，並將其貼上到域托管解決方案中以生成匹配的DNS記錄。 檢查成功後，子域就可以用於傳遞消息。"
+
 [!DNL Journey Optimizer] 允許您完全委託子域直接從產品介面Adobe。 通過這樣做，Adobe將能夠通過控制和維護DNS的所有方面來將郵件作為托管服務傳遞，這些方面是傳遞、呈現和跟蹤電子郵件活動所需的。
+
+您可以依靠Adobe來維護所需的DNS基礎架構，以滿足電子郵件營銷發送域的行業標準可交付性要求，同時繼續維護和控制內部電子郵件域的DNS。
 
 要將新子域完全委託給Adobe，請執行以下步驟：
 
@@ -66,7 +74,7 @@ ht-degree: 10%
 
    ![](assets/subdomain-processing.png)
 
-   在能夠使用該子域發送消息之前，必須等待Adobe執行所需的檢查，這可能需要3個小時。 瞭解詳情 [此部分](#subdomain-validation)。
+   在能夠使用該子域發送消息之前，必須等待Adobe執行所需的檢查，這可能需要3個小時。 請參閱[此章節](#subdomain-validation)深入瞭解。
 
    >[!NOTE]
    >
@@ -87,6 +95,11 @@ ht-degree: 10%
 >中當前不支援並行執行子域 [!DNL Journey Optimizer]。 如果嘗試在另一個域具有 **[!UICONTROL Processing]** 狀態，您將收到錯誤消息。
 
 ## CNAME 子網域委派 {#cname-subdomain-delegation}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_dns_cname"
+>title="生成匹配的DNS和驗證記錄"
+>abstract="要使用CNAME委託子域，您需要將Journey Optimizer介面中顯示的Adobe名稱伺服器資訊和SSL CDN URL驗證記錄複製 — 貼上到您的托管平台中。 檢查成功後，子域就可以用於傳遞消息。"
 
 如果您具有特定於域的限制策略並且希望Adobe只對DNS進行部分控制，則可以選擇在您的一方執行所有與DNS相關的活動。
 
@@ -140,7 +153,7 @@ CNAME 子網域委派可讓您建立子網域，並使用 CNAME 指向 Adobe 特
 
 1. 提交CNAME子域委派後，子域將顯示在清單中， **[!UICONTROL Processing]** 狀態。 有關子域狀態的詳細資訊，請參閱 [此部分](access-subdomains.md)。
 
-   在能夠使用該子域發送消息之前，必須等待Adobe執行所需的檢查，這通常需要2到3個小時。 瞭解詳情 [此部分](#subdomain-validation)。
+   在能夠使用該子域發送消息之前，必須等待Adobe執行所需的檢查，這通常需要2到3個小時。 請參閱[此章節](#subdomain-validation)深入瞭解。
 
 1. 檢查成功後<!--i.e Adobe validates the record you created and installs it-->，子域獲取 **[!UICONTROL Success]** 狀態。 它已準備好用於傳遞消息。
 

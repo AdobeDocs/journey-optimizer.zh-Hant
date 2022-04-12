@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 22%
+source-wordcount: '190'
+ht-degree: 23%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 22%
 
 [!DNL Journey Optimizer] 可讓您定義並管理指派給不同使用者的權限。權限是一組權限和限制，用於授權或拒絕對產品內功能和功能的訪問。
 
-➡️ [瞭解有關此視頻中Adobe Journey Optimizer的訪問控制系統的詳細資訊](#video)
+➡️ [在此視頻中瞭解有關Adobe Journey Optimizer的訪問控制的詳細資訊](#video)
 
 用戶管理 [!DNL Journey Optimizer] 基於三個概念：
 
@@ -33,6 +33,6 @@ ht-degree: 22%
 
 ## How-to視頻{#video}
 
-瞭解有關Adobe Journey Optimizer訪問控制系統和八個定製產品配置檔案的更多資訊。 瞭解如何管理產品設定檔和權限，以及如何新增和管理使用者。
+瞭解有關Adobe Journey Optimizer的訪問控制系統和定制產品配置檔案的更多資訊。 瞭解如何管理產品設定檔和權限，以及如何新增和管理使用者。
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)

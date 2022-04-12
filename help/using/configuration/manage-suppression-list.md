@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 819e54313e3ec15b9c215455e25d9ff4fc60fb0b
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '992'
 ht-degree: 2%
 
 ---
@@ -103,6 +103,11 @@ ht-degree: 2%
 
 ## 手動添加地址和域 {#add-addresses-and-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list"
+>title="將電子郵件/域添加到禁止顯示清單"
+>abstract="您可以手動填充Journey Optimizer禁止清單，以將特定電子郵件地址和/或域從您的發送中排除。"
+
 當消息無法傳遞到電子郵件地址時，此地址將根據定義的抑制規則或彈出計數自動添加到抑制清單中。
 
 但是，您也可以手動填充 [!DNL Journey Optimizer] 禁止顯示清單，以將特定電子郵件地址和/或域從您的發送中排除。
@@ -114,6 +119,11 @@ ht-degree: 2%
 ![](assets/suppression-list-add-email.png)
 
 ### 添加一個地址或域 {#add-one-address-or-domain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_address"
+>title="向取消清單添加一項"
+>abstract="可以逐個添加電子郵件地址和/或域來填充隱藏清單。"
 
 1. 選取 **[!UICONTROL One by one]** 選項。
 
@@ -132,6 +142,11 @@ ht-degree: 2%
 1. 按一下「**[!UICONTROL Submit]**」。
 
 ### 上載CSV檔案 {#upload-csv-file}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_csv"
+>title="上載CSV以將項添加到禁止顯示清單"
+>abstract="可以通過上載一個填入了要排除的電子郵件地址/域的CSV檔案來填充隱藏清單。"
 
 1. 選取 **[!UICONTROL Upload CSV]** 選項。
 

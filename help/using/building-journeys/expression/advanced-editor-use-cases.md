@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '491'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 高級表達式編輯器是對時間系列執行查詢（如購買清單或以前對消息的按一下）的必備項。 無法使用簡單編輯器執行此類查詢。
 
-從Adobe Experience Platform以按時間順序倒序的集合檢索經驗事件，因此：
+從Adobe Experience Platform以按時間順序倒序的集合檢索體驗事件，因此：
 
 * 第一個函式將返回最近的事件
 * 最後一個函式將返回最舊的函式。

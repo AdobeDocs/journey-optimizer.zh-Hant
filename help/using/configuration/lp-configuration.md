@@ -4,9 +4,9 @@ description: 瞭解如何配置環境以建立和使用登錄頁與Journey Optim
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 62d8f4b0caa4ed74991e92475392c3278bdf5317
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '935'
 ht-degree: 2%
 
 ---
@@ -78,6 +78,11 @@ ht-degree: 2%
 1. 檢查成功後，子域將 **[!UICONTROL Success]** 狀態。 它已準備好用於建立登錄頁預設。
 
 ### 配置新子域 {#lp-configure-new-subdomain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_lp_subdomain_dns"
+>title="生成匹配的DNS記錄"
+>abstract="要配置新的登錄頁子域，您需要複製Journey Optimizer介面中顯示的Adobe名伺服器資訊，並將其貼上到域托管解決方案中以生成匹配的DNS記錄。 檢查成功後，子域即可用於建立登錄頁預設。"
 
 要配置新子域，請執行以下步驟。
 

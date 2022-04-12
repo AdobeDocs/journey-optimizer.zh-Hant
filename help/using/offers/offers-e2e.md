@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 5%
+source-wordcount: '1342'
+ht-degree: 6%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 5%
 
 1. 建立 **決策規則**。
 
-   決策規則將為Adobe Experience Platform的個人資料提供最佳報價。
+   決策規則將為Adobe Experience Platform的個人資料提供最佳條件。
 
    使用 **[!UICONTROL XDM Individual Profile > Person > Gender]** 屬性：
 
@@ -114,7 +114,7 @@ ht-degree: 5%
 
 您現在可以建立和配置您的優惠。 在本示例中，您將建立四個要根據每個特定配置檔案顯示的優惠。
 
-1. 建立優惠方案. 瞭解詳情 [此部分](../../using/offers/offer-library/creating-personalized-offers.md#create-offer)。
+1. 建立優惠方案. 請參閱[此章節](../../using/offers/offer-library/creating-personalized-offers.md#create-offer)深入瞭解。
 
 1. 在此產品中，建立三個表示法。 每個表示必須是先前建立的放置與資產的組合：
 
@@ -195,7 +195,7 @@ ht-degree: 5%
 
 要建立和配置優惠決定，請執行以下主要步驟：
 
-1. 建立決定. 瞭解詳情 [此部分](../../using/offers/offer-activities/create-offer-activities.md#create-activity)。
+1. 建立決定. 請參閱[此章節](../../using/offers/offer-activities/create-offer-activities.md#create-activity)深入瞭解。
 
 1. 選擇 *Web — 影像*。 *電子郵件 — 映像* 和 *非數字 — 文本* 的下界。
 
@@ -255,7 +255,7 @@ ht-degree: 5%
 
 ![](assets/offers-e2e-offers-displayed.png)
 
-使用 **[!UICONTROL Offers]** 或內容元件箭頭（右箭頭和左箭頭）來瀏覽資料。 您還可以顯示客戶配置檔案中決策的不同優惠。 瞭解詳情 [此部分](../../using/design/deliver-personalized-offers.md#preview-offers-in-email)。
+使用 **[!UICONTROL Offers]** 或內容元件箭頭（右箭頭和左箭頭）來瀏覽資料。 您還可以顯示客戶配置檔案中決策的不同優惠。 請參閱[此章節](../../using/design/deliver-personalized-offers.md#preview-offers-in-email)深入瞭解。
 
 保存更改後，一旦發佈消息，您的優惠就可以在將消息作為行程的一部分發送時顯示在相關配置檔案中。
 

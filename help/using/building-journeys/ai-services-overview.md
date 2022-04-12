@@ -5,9 +5,9 @@ description: AI服務概述
 role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '201'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 客戶AI是 [!DNL Adobe Intelligent Services]。 它有助於預測客戶可能做什麼。 查看 [Adobe Experience Platform文檔](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html){target=&quot;_blank&quot;}。
 
-客戶AI允許品牌建立基於流失或轉換的機器學習分數，這些分數將作為Adobe Experience Platform配置檔案（即時客戶配置檔案）中的配置檔案屬性提供。
+客戶AI允許品牌建立基於流失或轉換的機器學習的分數，這些分數將作為Adobe Experience Platform配置檔案（即時客戶配置檔案）中的配置檔案屬性提供。
 
 因此，它們可以用作Journey Optimizer條件（作出最佳決策）、行動或段構建中的任何其他配置檔案屬性。
 

@@ -2,16 +2,18 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '2938'
-ht-degree: 99%
+source-wordcount: '2973'
+ht-degree: 98%
 
 ---
 
 # 發行說明 {#release-notes}
 
 本頁面列出[!DNL Journey Optimizer]所有新功能和改進項目。您還可以參閱[最新文件更新](documentation-updates.md)頁面以了解更多變更。
+
+!DNLAdobe Journey Optimizer]本機構建於 [!DNL Adobe Experience Platform] 繼承了最新的創新和改進。 瞭解有關這些更改的詳細資訊 [Adobe Experience Platform發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 ![電子報](../assets/do-not-localize/nl-icon.png) 立即註冊 [Adobe Journey Optimizer 每季電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} ，直接把每季最新產品更新、激勵人心的故事、使用按利、提示等內容傳送到您的收件匣。
 

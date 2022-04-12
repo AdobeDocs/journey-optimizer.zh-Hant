@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4ae0f9a43ecacb031168ea455db49a9241ab38fa
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2266'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
-> * 消息預設配置限制為 [旅程管理員](../administration/ootb-product-profiles.md#journey-administrator)。 要建立、編輯和刪除消息預設，必須具有 [管理郵件預設](../administration/high-low-permissions.md#manage-message-presets)。
+> * 要建立、編輯和刪除消息預設，必須具有 [管理郵件預設](../administration/high-low-permissions.md#manage-message-presets)。
 >
 > * 必須執行 [電子郵件配置](#configure-email-settings) 和 [推送配置](../configuration/push-configuration.md) 建立消息預設之前的步驟。
 
@@ -29,6 +29,11 @@ ht-degree: 1%
 ➡️ [瞭解如何在此視頻中建立和使用電子郵件預設](#video-presets)
 
 ## 建立消息預設 {#create-message-preset}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_message_presets"
+>title="消息預設詳細資訊和設定"
+>abstract="通過設定消息預設，您可以選擇它所應用的頻道，並定義您的消息所需的所有技術參數，如電子郵件類型、要使用的子域、發件人姓名、移動應用等。"
 
 要建立消息預設，請執行以下步驟：
 
@@ -97,11 +102,11 @@ ht-degree: 1%
 
 * 選擇 **事務性** 非商業消息（例如，訂單確認、密碼重置通知或傳遞資訊）。
 
-當 [建立消息](../messages/get-started-content.md#create-new-message)，必須為所選類別和頻道選擇有效的消息預設。
-
 >[!CAUTION]
 >
 >**事務性** 消息可以發送到從營銷通信中取消訂閱的配置檔案。 這些消息只能在特定上下文中發送。
+
+當 [建立消息](../messages/get-started-content.md#create-new-message)，必須選擇與您為消息選擇的類別匹配的有效消息預設。
 
 ### 子域和IP池 {#subdomains-and-ip-pools}
 
@@ -110,6 +115,10 @@ ht-degree: 1%
 1. 選擇要用於發送電子郵件的子域。 [了解更多](about-subdomain-delegation.md)
 
 1. 選擇要與預設關聯的IP池。 [了解更多](ip-pools.md)
+
+>[!NOTE]
+>
+>對於非生產環境，Adobe不建立現成的test子域，也不授予對共用發送IP池的訪問權限。 你需要 [委派自己的子域](delegate-subdomain.md) 並使用分配給您組織的池中的IP。
 
 ### 清單 — 取消訂閱 {#list-unsubscribe}
 
@@ -212,6 +221,8 @@ ht-degree: 1%
 * 對於市場營銷電子郵件，最短重試時間為6小時。
 * 對於事務性電子郵件，最短重試時間為10分鐘。
 * 對於這兩種電子郵件類型，最大重試時間為84小時（或5040分鐘）。
+
+在中重試時瞭解更多資訊 [此部分](retries.md)。
 
 ## 配置推送設定 {#configure-push-settings}
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1553'
 ht-degree: 3%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >數字必須大於0。
+   >該數字必須是大於0的整數。
 
 1. 指定是希望將上限設定應用於所有用戶還是某個特定配置檔案：
 
@@ -147,15 +147,15 @@ ht-degree: 3%
 
       例如，如果您是一家提供「白金信用卡」優惠的銀行，則您不希望此優惠在每個配置檔案中顯示5次以上。 事實上，您認為，如果用戶看過5次並未對其採取行動，他們就更有機會對下一個最佳報價採取行動。
 
-1. 如果定義了 [表示](#representations) 指定是否要將封頂覆蓋應用於 **[!UICONTROL All placements]** 或 **[!UICONTROL Per placement]**。
+1. 如果定義了 [表示](#representations) 指定是否要應用封頂 **[!UICONTROL Across all placements]** 或 **[!UICONTROL For each placement]**。
 
    ![](../assets/offer-capping-placement.png)
 
-   * **[!UICONTROL All placements]**:上限計數將匯總與要約關聯的放置中的所有決定。
+   * **[!UICONTROL Across all placements]**:上限計數將匯總與要約關聯的放置中的所有決定。
 
       例如，如果優惠 **電子郵件** 放置和 **Web** 放置，並將封蓋設定為 **每個配置2個**&#x200B;然後，無論放置組合如何，每個配置檔案總共可收到2次優惠。
 
-   * **[!UICONTROL Per placement]**:封閉計數將分別應用每個放置的決策計數。
+   * **[!UICONTROL For each placement]**:封閉計數將分別應用每個放置的決策計數。
 
       例如，如果優惠 **電子郵件** 放置和 **Web** 放置，並將封蓋設定為 **每放置2個輪廓**&#x200B;然後，每個配置檔案最多可以收到兩次電子郵件放置服務，另外兩次則可以收到兩次網路放置服務。
 
