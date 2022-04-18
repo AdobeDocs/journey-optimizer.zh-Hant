@@ -1,15 +1,15 @@
 ---
 title: 開始使用決定管理
-description: 開始使用決定管理。 瞭解更多有關其結構、優惠方案和決定，以及可讓您執行的常見使用案例
+description: 瞭解Adobe Journey Optimizer如何幫助您在適當的時間向客戶發送適當的優惠
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
-workflow-type: ht
-source-wordcount: '907'
-ht-degree: 100%
+source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+workflow-type: tm+mt
+source-wordcount: '944'
+ht-degree: 93%
 
 ---
 
@@ -17,9 +17,7 @@ ht-degree: 100%
 
 使用 [!DNL Journey Optimizer] 可在適當的時間為所有接觸點的客戶提供最佳優惠和體驗。設計完成後，透過個人化優惠目標定位對象。
 
->[!NOTE]
->
->如果您是 [Adobe Experience 平台](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target=&quot;_blank&quot;} 使用者，正在利用&#x200B;**優惠方案決策**&#x200B;應用程式服務，本節中介紹的所有決策管理功能也適用於您。
+offer decisioning通過集中的營銷優惠庫和決策引擎輕鬆實現個性化，決策引擎將規則和約束應用於Adobe Experience Platform建立的豐富的即時配置檔案，以幫助您在適當的時間向客戶發送合適的優惠。
 
 「決定管理」功能由兩個主要元件組成：
 
@@ -35,6 +33,11 @@ ht-degree: 100%
 * 控制在電子郵件行銷活動中和向客戶顯示優惠方案的次數。
 
 ➡️ [在這些影片中瞭解有關決策管理的更多資訊](#video)
+
+
+>[!NOTE]
+>
+>如果您是 [Adobe Experience 平台](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target=&quot;_blank&quot;} 使用者，正在利用&#x200B;**優惠方案決策**&#x200B;應用程式服務，本節中介紹的所有決策管理功能也適用於您。
 
 ## 關於優惠和決定 {#about-offers-and-decisions}
 
