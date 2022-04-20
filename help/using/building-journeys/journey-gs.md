@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1793'
 ht-degree: 6%
 
 ---
@@ -36,6 +36,11 @@ ht-degree: 6%
    ![](assets/create-content-push.png)
 
 ## 構建您的旅程{#jo-build}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_create"
+>title="構建您的旅程"
+>abstract="此螢幕顯示先前建立的行程清單。 開啟行程或按一下「建立行程」，並將不同的事件、業務流程和操作活動組合起來，以構建您的多步跨渠道方案。"
 
 此步驟由 **業務用戶**。 這是你建立旅程的地方。 結合不同的事件、協調和動作活動，以建立您的多步驟跨管道情境。
 

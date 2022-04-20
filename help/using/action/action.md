@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
+source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 56%
@@ -17,9 +17,9 @@ ht-degree: 56%
 # 關於動作 {#about_actions}
 
 >[!CONTEXTUALHELP]
->id="jo_actions"
+>id="ajo_journey_action_list"
 >title="關於動作"
->abstract="您可在此處定義會用於傳送訊息的系統連線，接著，在「動作」類別的歷程左側浮動視窗中，就會顯示此處定義的動作。 "
+>abstract="您可在此處定義會用於傳送訊息的系統連線，接著，在「動作」類別的歷程左側浮動視窗中，就會顯示此處定義的動作。"
 
 動作是您向客戶提供個人化即時體驗時使用的連結，這些體驗包含推播通知、電子郵件、簡訊或您在業務中使用的任何其他數位互動方式。
 
