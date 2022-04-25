@@ -5,17 +5,17 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b02981f2c0cf74c8dba657570157709bc422d94c
+source-git-commit: d18a0cb38bf5a3014a87f1dc5f1c3a3c21982b09
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 3%
+source-wordcount: '1050'
+ht-degree: 2%
 
 ---
 
 
 # 使用邊緣決策API提供服務 {#edge-decisioning-api}
 
-## 入門和先決條件 {#aep-web-sdk-overview-and-prerequisites}
+## 入門和先決條件 {#edge-overview-and-prerequisites}
 
 的 [Adobe Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) 是客戶端JavaScript庫，它允許Adobe Experience Cloud客戶通過Experience Platform邊緣網路與Experience Cloud中的各種服務進行交互。
 
@@ -29,7 +29,7 @@ Experience PlatformWeb SDK支援在Adobe查詢個性化解決方案，包括決�
 >
 >Adobe Experience PlatformWeb SDK中的決策管理目前可以提前訪問選定用戶。 此功能並非所有IMS組織都可用。
 
-## Adobe Experience Platform Web SDK  {#aep-web-sdk-overview-and-prerequisites}
+## Adobe Experience Platform Web SDK {#aep-web-sdk}
 
 平台Web SDK取代了以下SDK:
 
@@ -94,6 +94,164 @@ SDK沒有將這些庫合併，而是從頭開始的新實現。 要使用它，�
 
 在選項2中包括以下JavaScript代碼段：上預構建的獨立版本 [此頁](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) 的 `<head>` 的子菜單。
 
+```
+javascript
+    <script>
+        !function(n,o){o.forEach(function(o){n[o]||((n.__alloyNS=n.__alloyNS||
+        []).push(o),n[o]=function(){var u=arguments;return new Promise(
+        function(i,l){n[o].q.push([i,l,u])})},n[o].q=[])})}
+        (window,["alloy"]);
+    </script>
+    <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script>
+```
+
+您需要Adobe帳戶內的兩個ID來設定SDK配置 — edgeConfigId和orgId。 edgeConfigId與Datastream ID相同，您應在先決條件中配置該ID。
+
+要查找edgeConfigID/datastream ID，請轉到「資料收集」並選擇「資料流」。 要查找組織ID，請轉到您的個人資料。
+
+按照本頁上的說明在JavaScript中配置SDK。 您將始終在配置函式中使用edgeConfigId和orgId。 文檔還介紹了配置中存在哪些可選參數。 您的最終配置可能會是這樣的：
+
+```
+javascript
+    alloy("configure", {
+        "edgeConfigId": "12345678-0ABC-DEF-GHIJ-KLMNOPQRSTUV",                            
+        "orgId":"ABCDEFGHIJKLMNOPQRSTUVW@AdobeOrg",
+        "debugEnabled": true,
+        "edgeDomain": "edge.adobedc.net",
+        "clickCollectionEnabled": true,
+        "idMigrationEnabled": true,
+        "thirdPartyCookiesEnabled": true,
+        "defaultConsent":"in"  
+    });
+```
+
+安裝調試程式Chrome擴展以用於調試。 可在以下位置找到： <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob>
+
+接下來，在調試器中登錄帳戶。 然後，轉到「日誌」(Logs)，確保已連接到正確的工作區。 現在，從您的優惠中複製base64編碼的決策範圍版本。
+
+編輯網站時，請包括包含配置和 `sendEvent` 函式將決策範圍發送到Adobe。
+
+**範例**:
+
+```
+javascript
+    alloy("sendEvent", {
+        "decisionScopes": 
+        [
+        "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTXXXXXXXXXX"
+        ]
+    });
+```
+
+有關如何處理響應的示例，請參見以下內容：
+
+```
+javascript
+    alloy("sendEvent", {
+        "decisionScopes":
+        [
+        "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTXXXXXXXXXX"
+        ]
+    }).then(function(result) {
+        Object.entries(result).forEach(([key, value]) => {
+            console.log(key, value);
+        });
+    });
+```
+
+您可以使用調試器驗證是否已成功連接到邊緣網路。
+
+>[!NOTE]
+>
+>如果未在日誌中看到與邊緣的連接，則可能需要禁用廣告攔截程式。
+
+請參閱您如何建立優惠和使用的格式。 根據決策中滿足的條件，將向您返回一份要約，其中包含您在Adobe Experience Platform內建立要約時指定的資訊。
+
+在此示例中，要返回的JSON為：
+
+```
+json
+{
+   "name":"ABC Test",
+   "description":"This is a test offer", 
+   "link":"https://sampletesting.online/",
+   "image":"https://sample-demo-URL.png"
+}
+```
+
+處理響應對象並分析所需資料。 因為您可以在一個 `sendEvent` 電話，你的反應可能有點不同。
+
+```
+json
+    {
+        "id": "abrxgl843d913",
+        "scope": "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTVlNWRmOSJ9",
+        "items": 
+        [
+            {
+                "id": "xcore:fallback-offer:14ea7f1ea26ebd0a",
+                "etag": "1",
+                "schema": "https://ns.adobe.com/experience/offer-management/content-component-json",
+                "data": {
+                    "id": "xcore:fallback-offer:14ea7f1ea26ebd0a",
+                    "format": "application/json",
+                    "language": [
+                        "en-us"
+                    ],
+                    "content": "{\"name\":\"ABC Test\",\"description\":\"This is a test offer\", \"link\":\"https://sampletesting.online/\",\"image\":\"https://sample-demo-URL.png\"}"
+                }
+            }
+        ]
+    }
+]
+}
+```
+
+```
+json
+{
+    "propositions": 
+    [
+    {
+        "renderAttempted": false,
+        "id": "e15ecb09-993e-4b66-93d8-0a4c77e3d913",
+        "scope": "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTVlNWRmOSJ9",
+        "items": 
+        [
+            {
+                "id": "xcore:fallback-offer:14ea7f1ea26ebd0a",
+                "etag": "1",
+                "schema": "https://ns.adobe.com/experience/offer-management/content-component-json",
+                "data": {
+                    "id": "xcore:fallback-offer:14ea7f1ea26ebd0a",
+                    "format": "application/json",
+                    "language": [
+                        "en-us"
+                    ],
+                    "content": "{\"name\":\"Claire Hubacek Test\",\"description\":\"This is a test offer\", \"link\":\"https://sampletesting.online/\",\"image\":\"https://sample-demo-URL.png\"}"
+                }
+            }
+        ]
+    }
+    ]
+}
+```
+
+在此示例中，處理和使用網頁中特定於服務的詳細資訊所需的路徑是： `result['decisions'][0]['items'][0]['data']['content']`
+
+設定JS變數：
+
+```
+javascript
+const offer = JSON.parse(result['decisions'][0]['items'][0]['data']['content']);
+
+let offerURL = offer['link'];
+let offerDescription = offer['description'];
+let offerImageURL = offer['image'];
+
+document.getElementById("offerDescription").innerHTML = offerDescription;
+document.getElementById('offerImage').src = offerImageURL;
+```
 
 ## 限制
 
