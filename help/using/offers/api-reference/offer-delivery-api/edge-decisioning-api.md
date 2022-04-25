@@ -5,9 +5,9 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: acd91848e24d5ca5340f6d0e22fca8b88523aed3
+source-git-commit: ecd7b3095bf825742cad44e20d68bb3c787bcb6b
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1049'
 ht-degree: 2%
 
 ---
@@ -42,11 +42,11 @@ SDK沒有將這些庫合併，而是從頭開始的新實現。 要使用它，�
 
 1. 確保您的組織具有使用SDK的適當權限，並且您已正確配置了權限。
 
-<!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
+   <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-2. [配置資料流](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) 在您在Adobe Experience Cloud的帳戶中的「資料收集」頁籤中。
+1. [配置資料流](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) 在您在Adobe Experience Cloud的帳戶中的「資料收集」頁籤中。
 
-3. 安裝SDK。 有多種方法可以執行此操作， [安裝SDK頁](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en)。 本頁將繼續介紹每種不同的實現方法。
+1. 安裝SDK。 有多種方法可以執行此操作， [安裝SDK頁](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en)。 本頁將繼續介紹每種不同的實現方法。
 
 要使用SDK，必須有 [架構](../../../start/get-started-schemas.md) 和 [資料流](../../../start/get-started-datasets.md) 定義。
 
@@ -64,21 +64,21 @@ SDK沒有將這些庫合併，而是從頭開始的新實現。 要使用它，�
 
 1. [建立標籤屬性](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=en)
 
-2. [添加嵌入代碼](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
+1. [添加嵌入代碼](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
 
-3. 從「Datastream」下拉清單中選擇配置，使用您建立的Datastream安裝和配置平台Web SDK擴展。 請參閱 [擴展](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en)。
+1. 從「Datastream」下拉清單中選擇配置，使用您建立的Datastream安裝和配置平台Web SDK擴展。 請參閱 [擴展](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en)。
 
    ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 
    ![配置擴展](../../assets/configure-sdk-extension.png)
 
-4. 建立必要 [資料元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en)。 至少，必須建立平台Web SDK標識映射和平台Web SDK XDM對象資料元素。
+1. 建立必要 [資料元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en)。 至少，必須建立平台Web SDK標識映射和平台Web SDK XDM對象資料元素。
 
    ![身分對應](../../assets/sdk-identity-map.png)
 
    ![XDM 物件](../../assets/xdm-object.png)
 
-5. 建立 [規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
+1. 建立 [規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
 
    我。添加平台Web SDK發送事件操作，並將相關decisionScope添加到該操作的配置中
 
@@ -86,7 +86,7 @@ SDK沒有將這些庫合併，而是從頭開始的新實現。 要使用它，�
 
    ![請求優惠](../../assets/rule-request-offer.png)
 
-6. [建立和發佈](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) 包含您配置的所有相關規則、資料元素和擴展的庫
+1. [建立和發佈](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) 包含您配置的所有相關規則、資料元素和擴展的庫
 
 ## 選項2 — 使用預構建的獨立版本手動實施
 
@@ -125,7 +125,7 @@ javascript
     });
 ```
 
-安裝調試程式Chrome擴展以用於調試。 可在以下位置找到：https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob
+安裝調試程式Chrome擴展以用於調試。 可在以下位置找到： <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob>
 
 接下來，在調試器中登錄帳戶。 然後，轉到「日誌」(Logs)，確保已連接到正確的工作區。 現在，從您的優惠中複製base64編碼的決策範圍版本。
 
