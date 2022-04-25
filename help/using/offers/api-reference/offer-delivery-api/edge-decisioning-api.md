@@ -1,13 +1,13 @@
 ---
-title: Adobe Experience Platform Web SDK
+title: 使用邊緣決策API提供服務
 description: Adobe Experience PlatformWeb SDK允許您檢索和呈現您使用API或服務庫建立的個性化服務。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 58ebc89bf2dfc3d1e23f22c1aa37144c572b74b9
+source-git-commit: fbceab397e836c0166df595e87a7ae3a74087477
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1050'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Experience PlatformWeb SDK支援在Adobe查詢個性化解決方案，包括決�
 >
 >Adobe Experience PlatformWeb SDK中的決策管理目前可以提前訪問選定用戶。 此功能並非所有IMS組織都可用。
 
-## Adobe Experience PlatformWeb SDK  {#aep-web-sdk-overview-and-prerequisites}
+## Adobe Experience Platform Web SDK  {#aep-web-sdk-overview-and-prerequisites}
 
 平台Web SDK取代了以下SDK:
 
@@ -80,7 +80,7 @@ SDK沒有將這些庫合併，而是從頭開始的新實現。 要使用它，�
 
 1. 建立 [規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
 
-   我。添加平台Web SDK發送事件操作，並將相關decisionScope添加到該操作的配置中
+   添加平台Web SDK發送事件操作，並將相關decisionScope添加到該操作的配置中
 
    ![呈現優惠](../../assets/rule-render-offer.png)
 
