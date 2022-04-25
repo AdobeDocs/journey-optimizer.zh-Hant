@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->此功能將單個請求模擬到 [!DNL Decisions] API。 瞭解更多 [使用決策API提供服務](../api-reference/decisions-api/deliver-offers.md)。
+>此功能將單個請求模擬到 [!DNL Decisioning] API。 瞭解更多 [使用決策API提供服務](../api-reference/offer-delivery-api/decisioning-api.md)。
 
 要訪問此功能，請選擇 **[!UICONTROL Simulation]** 的 **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** 的子菜單。
 
@@ -130,7 +130,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >預設情況下，所有重複資料消除標誌都啟用模擬，這意味著決策引擎允許重複項，因此可以在多個決策/放置中做出相同的主張。 瞭解 [!DNL Decisions] API請求屬性 [此部分](../api-reference/decisions-api/deliver-offers.md)。
+   >預設情況下，所有重複資料消除標誌都啟用模擬，這意味著決策引擎允許重複項，因此可以在多個決策/放置中做出相同的主張。 瞭解 [!DNL Decisioning] API請求屬性 [此部分](../api-reference/offer-delivery-api/decisioning-api.md)。
 
 1. 在 **[!UICONTROL Response format]** 部分，您可以選擇在代碼視圖中包括元資料。 選中相應選項，然後選擇您選擇的元資料。 在選擇請求和響應負載時，它們將顯示在 **[!UICONTROL View code]**。 在 [查看模擬結果](#simulation-results) 的子菜單。
 

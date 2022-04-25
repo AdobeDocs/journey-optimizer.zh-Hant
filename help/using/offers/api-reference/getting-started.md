@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 5%
+source-wordcount: '668'
+ht-degree: 4%
 
 ---
 
@@ -127,6 +127,10 @@ curl -X GET \
 ## 後續步驟 {#next-steps}
 
 本文檔涵蓋了呼叫 [!DNL Offer Library] API，包括獲取容器ID。 現在，您可以繼續閱讀本開發人員指南中提供的示例調用，並按照其說明進行操作。
+
+>[!NOTE]
+>
+> Adobe Journey Optimizer的In-app消息通道使用offer decisioning對象。 如果您的組織使用應用內消息傳遞通道，則對象的API清單請求將包括應用內消息傳遞服務建立的對象，並且可以忽略這些對象以用於offer decisioning使用案例。 為應用內消息建立的對象將具有 `createdBy = “Mobile_Sheliak”`。
 
 ## How-to視頻 {#video}
 

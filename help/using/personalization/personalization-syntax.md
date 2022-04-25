@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '706'
 ht-degree: 9%
 
 ---
 
 # 個人化語法 {#personalization-syntax}
 
-Personalization [!DNL Journey Optimizer] 是基於稱為Handlebar的模板語法。
+個性化 [!DNL Journey Optimizer] 是基於稱為Handlebar的模板語法。
 有關Handlebar語法的完整說明，請參閱 [HandlebarsJS文檔](https://handlebarsjs.com/)。
 
 它使用模板和輸入對象生成HTML或其它文本格式。 車把模板看起來像帶有嵌入式車把表達式的常規文本。
@@ -41,7 +41,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 詞 **真**。 **假**。 **空** 和 **未定義** 僅允許在路徑表達式的第一部分中。
 
-在Handlebar中，{{expression}}返回的值為 **HTML逃逸**。 如果表達式包含 `&`，然後生成返回的HTML轉義輸出 `&amp;`。 如果你不想Handlebar逃出一個值，請使用「三重存貨」。
+在Handlebar中， {{expression}} 是 **HTML逃逸**。 如果表達式包含 `&`，然後生成返回的HTML轉義輸出 `&amp;`。 如果你不想Handlebar逃出一個值，請使用「三重存貨」。
 
 ## 設定檔
 
@@ -92,7 +92,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 * `Placement Id` 和 `Activity Id` 是放置和活動標識符
 * `Attributes` 提供取決於服務類型的特定屬性。 示例： `deliveryUrl` 用於影像
 
-有關決策API和優惠表示法的詳細資訊，請參閱 [此頁](../../using/offers/api-reference/decisions-api/deliver-offers.md)
+有關決策API和優惠表示法的詳細資訊，請參閱 [此頁](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 所有引用都通過「提供方案」進行驗證，驗證機制如所述 [此頁](personalization-validation.md)
 
