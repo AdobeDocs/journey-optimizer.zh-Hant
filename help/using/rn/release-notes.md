@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '2969'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 本頁面列出[!DNL Journey Optimizer]所有新功能和改進項目。您還可以參閱[最新文件更新](documentation-updates.md)頁面以了解更多變更。
 
-[!DNL Adobe Journey Optimizer] 本機構建 [!DNL Adobe Experience Platform] 繼承了最新的創新和改進。 瞭解有關這些更改的詳細資訊 [Adobe Experience Platform發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target=&quot;_blank&quot;}。
+[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變動，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 ![電子報](../assets/do-not-localize/nl-icon.png) 立即註冊 [Adobe Journey Optimizer 每季電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} ，直接把每季最新產品更新、激勵人心的故事、使用按利、提示等內容傳送到您的收件匣。
 
@@ -29,7 +29,7 @@ ht-degree: 98%
 
 **決定管理**
 
-* 現在，您可以指定是否在所有用戶或一個特定配置檔案中應用了優惠上限設定，以及是否在所有放置或每次放置中應用。 [了解更多](../offers/offer-library/add-constraints.md#capping)
+* 現在您可以指定在所有使用者或單個特定設定檔中套用優惠上限設定，以及指定在個別或所有投放位置上套用。[了解更多](../offers/offer-library/add-constraints.md#capping)
 * 批次決策 API 允許組織在一次呼叫中對給定區段中的所有設定檔使用 Offer Decisioning 功能。 區段中每個設定檔提供的內容都放在 AEP 資料集，可用於自訂批次處理工作流程。 [進一步了解](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **管理**

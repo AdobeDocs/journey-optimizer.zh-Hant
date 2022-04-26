@@ -2,7 +2,7 @@
 product: Journey Optimizer
 audience: end-user
 user-guide-title: Journey Optimizer 指南
-user-guide-description: 使用 Journey Optimizer 為您的客戶建置並傳遞連通、情境式和個人化的體驗
+user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
@@ -257,11 +257,11 @@ ht-degree: 98%
       + 建立 AI 排名模型 {#create-ai-ranking-models}
          + [關於 AI 模型](using/offers/offer-library/ai-ranking.md)
          + [建立 AI 模型](using/offers/offer-library/create-ranking-strategies.md)
-   + 建立和管理優惠 {#managing-offers-in-the-offer-library}
-      + 配置優惠 {#configure-offers}
+   + 建立和管理優惠方案 {#managing-offers-in-the-offer-library}
+      + 設定優惠方案 {#configure-offers}
          + [建立個人化優惠方案](using/offers/offer-library/creating-personalized-offers.md)
-         + [添加表示法](using/offers/offer-library/add-representations.md)
-         + [添加約束](using/offers/offer-library/add-constraints.md)
+         + [新增代表](using/offers/offer-library/add-representations.md)
+         + [新增限制](using/offers/offer-library/add-constraints.md)
       + [建立遞補優惠](using/offers/offer-library/creating-fallback-offers.md)
       + [建立集合](using/offers/offer-library/creating-collections.md)
    + 建立和管理決定 {#create-manage-activities}
