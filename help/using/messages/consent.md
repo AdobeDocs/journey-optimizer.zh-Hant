@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1259'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 ## 電子郵件選擇退出管理 {#opt-out-management}
 
-法律規定必須讓收件者提供能夠取消訂閱來自品牌的通訊。 進一步了解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hant){target=&quot;_blank&quot;} 中的適用法規。
+法律規定必須讓收件者提供能夠取消訂閱來自品牌的通訊。 進一步了解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hant#regulations){target=&quot;_blank&quot;} 中的適用法規。
 
 因此，您必須在每封傳送給收件者的電子郵件中一律包含&#x200B;**取消訂閱連結**：
 
@@ -41,7 +41,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 >[!NOTE]
 >
->市場營銷類型的電子郵件必須包括一個選擇退出連結，這對於事務性郵件是不必需的。 消息類別(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [消息預設值](../configuration/message-presets.md#email-type) 當 [建立消息](get-started-content.md#create-new-message)。
+>行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 訊息類別 (**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) 會在[訊息預設層級](../configuration/message-presets.md#email-type)和[建立訊息](get-started-content.md#create-new-message)時定義。
 
 ### 外部選擇退出 {#opt-out-external-lp}
 
@@ -75,9 +75,9 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 #### 實施選擇退出的 API 呼叫 {#opt-out-api}
 
-要在收件人從登錄頁提交其選擇時選擇退出，您必須實施 **訂閱API調用** 通 [Adobe開發人員](https://developer.adobe.com){target=&quot;_blank&quot;}以更新相應配置檔案的首選項。
+要在收件者從登陸頁面提交選擇時選擇退出，您必須實施 **Subscription API** 呼叫，透過 [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} 更新對應設定檔的偏好設定。
 
-此POST呼叫如下：
+此 POST 呼叫如下：
 
 端點：platform.adobe.io/journey/imp/consent/preferences
 
@@ -113,7 +113,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 }
 ```
 
-[!DNL Journey Optimizer] 將使用這些參數通過 [Adobe開發人員](https://developer.adobe.com){target=&quot;_blank&quot;} API調用。
+透過 [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} API 呼叫，[!DNL Journey Optimizer] 會利用這些參數更新對應設定檔的選擇。
 
 #### 傳送包含取消訂閱連結的訊息 {#send-message-unsubscribe-link}
 
@@ -125,7 +125,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
    ![](assets/opt-out-lp-example.png)
 
-1. 如果收件人提交表單(此處，按 **取消訂閱** 按鈕)，通過 [API調用](#opt-out-api)。
+1. 收件者一旦提交表單 (在此按一下登陸頁面中的&#x200B;**取消訂閱**&#x200B;按鈕)，則會透過 [API 呼叫](#opt-out-api)更新設定檔資料。
 
 1. 然後，選擇退出的收件者會被重新導向至確認訊息畫面，表示成功選擇退出。
 
@@ -203,7 +203,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
    >
    >如果您未在訊息內容中新增一鍵退出連結，則不會顯示登陸頁面。
 
-* 對應的設定檔會立即退出，而此選項會在 Experience Platform 中更新。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}中進一步瞭解 。
+* 對應的設定檔會立即退出，而此選項會在 Experience Platform 中更新。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}中進一步瞭解 。
 
 ## 推播選擇退出管理 {#push-opt-out-management}
 
