@@ -1,15 +1,15 @@
 ---
 title: 開始使用訊息
-description: 瞭解如何在Journey Optimizer建立、test和發佈個性化消息
+description: 瞭解如何在 Journey Optimizer 建立、測試和發佈個人化訊息
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 96%
       預設集包含所需的所有參數，以便根據您的品牌傳送電子郵件和/或推播通知。 [進一步瞭解預設集](../configuration/message-presets.md)。
    >[!CAUTION]
    >
-   >必須為所選類別和頻道選擇有效的消息預設。
+   >您必須為所選類別和頻道選擇有效的訊息預設集。
 
    請注意，您可以隨時利用訊息介面的 **[!UICONTROL Properties]** 按鈕來存取及修改訊息標題、說明及預設集。
 
