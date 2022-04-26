@@ -3,9 +3,9 @@ title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1113'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 95%
 * 已在 AI 模型快速入門手冊的 **Offer Decisioning** 部分新增頁面，詳細說明了[自動最佳化模型](../offers/offer-library/ai-ranking.md#auto-optimization)、其所使用的演算法及其他技術細節。 [閱讀全文](../offers/offer-library/ai-ranking.md)
 * 測試設定檔建立頁面已移至&#x200B;**區段、設定檔及身分**&#x200B;的章節。 [閱讀全文](../segment/creating-test-profiles.md)
 * 在運算式編輯器中新增了如何加入運算式作為預設值的範例。[閱讀全文](../building-journeys/expression/field-references.md#default-value)
-* 的 **建立個性化服務** 已重組節，以提高可讀性。 [閱讀全文](../offers/offer-library/creating-personalized-offers.md)
-* 已添加新部分，以描述更改優惠的開始和/或結束日期可能對此優惠的頻率上限產生的影響。 [閱讀全文](../offers/offer-library/add-constraints.md#capping-change-date)
-* 的 **更改主電子郵件地址** 已更新部分以反映用戶介面的更改。 [閱讀全文](../configuration/primary-email-addresses.md)
+* **建立個人化優惠**&#x200B;區段已重新整理，以提高可讀性。 [閱讀全文](../offers/offer-library/creating-personalized-offers.md)
+* 新的區段說明了變更優惠方案的開始和/或結束日期可能對此優惠方案的頻率上限產生的影響。 [閱讀全文](../offers/offer-library/add-constraints.md#capping-change-date)
+* **變更主要電子郵件地址**&#x200B;區段已更新，以反映使用者介面的變動。 [閱讀全文](../configuration/primary-email-addresses.md)
 
 ## 2022 年 2 月 {#feb-2022}
 
