@@ -2,9 +2,9 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 4402e8f98d732f7c11460c1ea1ce9e2de141b587
 workflow-type: tm+mt
-source-wordcount: '3200'
+source-wordcount: '3192'
 ht-degree: 93%
 
 ---
@@ -19,25 +19,6 @@ ht-degree: 93%
 
 
 ## 2022 年 4 月發行版本 {#april-2022-release}
-
-### 新功能
-
-<table>
-<thead>
-<tr>
-<th><strong>與Adobe Campaign Standard</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>作為Adobe Campaign Standard的客戶，您現在可以使用Journey Optimizer發送電子郵件、推送通知和簡訊。 使用新的內置操作將Campaign Standard事務性消息傳遞功能利用到Journey Optimizer。</p>
-<p>如需詳細資訊，請參閱<a href="../action/acs-action.md">詳細文件</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 ### 改進項目
 
@@ -62,6 +43,11 @@ ht-degree: 93%
 **使用者介面**
 
 * **Journey OptimizerUI中的上下文幫助**  — 上下文幫助連結已添加到Journey Optimizer的多個頁面。 如果可用，按一下「i」表徵圖可查看當前功能和訪問相關文章的快速說明。
+
+**與Adobe Campaign Standard**
+
+作為Adobe Campaign Standard的客戶，您現在可以使用Journey Optimizer發送電子郵件、推送通知和簡訊。 使用新的內置操作將Campaign Standard事務性消息傳遞功能利用到Journey Optimizer。
+[了解更多](../action/acs-action.md)
 
 <!--
 ### Fixes
