@@ -2,7 +2,7 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4402e8f98d732f7c11460c1ea1ce9e2de141b587
+source-git-commit: 150b724c94f656d8846f98acd774a87eef1c29d8
 workflow-type: tm+mt
 source-wordcount: '3192'
 ht-degree: 93%
@@ -46,8 +46,7 @@ ht-degree: 93%
 
 **與Adobe Campaign Standard**
 
-作為Adobe Campaign Standard的客戶，您現在可以使用Journey Optimizer發送電子郵件、推送通知和簡訊。 使用新的內置操作將Campaign Standard事務性消息傳遞功能利用到Journey Optimizer。
-[了解更多](../action/acs-action.md)
+作為Adobe Campaign Standard的客戶，您現在可以使用Journey Optimizer發送電子郵件、推送通知和簡訊。 使用新的內置操作將Campaign Standard事務性消息傳遞功能利用到Journey Optimizer。  [了解更多](../action/acs-action.md)
 
 <!--
 ### Fixes
