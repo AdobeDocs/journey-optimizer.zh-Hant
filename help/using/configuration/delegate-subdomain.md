@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: cc7a544b58c0caff4fd0b3d02c53622b506e98e2
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1636'
 ht-degree: 10%
 
 ---
@@ -27,7 +27,11 @@ ht-degree: 10%
 >
 >預設情況下， [!DNL Journey Optimizer] 許可證合同允許您委託最多10個子域。 如果要增加此限制，請聯繫Adobe聯繫人。
 
-您可以完全委託子域，或使用CNAME建立子域，以指向特定於Adobe的記錄。 瞭解兩者之間的差異 [子域配置方法](about-subdomain-delegation.md#subdomain-delegation-methods)。
+您可以完全委託子域，或使用CNAME建立子域，以指向特定於Adobe的記錄。
+
+>[!CAUTION]
+>
+>建議使用完全子域委派。 瞭解兩者之間的差異 [子域配置方法](about-subdomain-delegation.md#subdomain-delegation-methods)。
 
 ## 完全子網域委派 {#full-subdomain-delegation}
 
