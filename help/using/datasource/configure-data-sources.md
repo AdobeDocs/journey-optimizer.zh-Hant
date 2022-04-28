@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '553'
 ht-degree: 10%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 10%
 
 對於每個資料源，可以定義多個欄位組。
 
-例如，您可以建立一個欄位組，其中包含電話號碼、電子郵件、配置檔案的名字和地址。 然後，您就可以在旅途中使用此資料來建立條件。 例如，只有在配置檔案的電話號碼不為空時，您才可以決定發送SMS。 如果為空，則可以發送電子郵件。
+例如，您可以建立一個欄位組，其中包含電話號碼、電子郵件、配置檔案的名字和地址。 然後，您就可以在旅途中使用此資料來建立條件。 例如，只有在客戶安裝了移動應用程式時，您才能決定發送推送通知。 如果為空，則可以發送電子郵件。
 
 即使自動添加預設名稱，我們建議您為欄位組指定名稱。 實際上，欄位組名稱將對中的其他用戶可見 [!DNL Journey Optimizer]。 為欄位組指定相關名稱是最佳做法。
 

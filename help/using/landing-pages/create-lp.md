@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '1047'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 1%
 
    ![](assets/lp_open-designer.png)
 
-1. 定義登錄頁URL。 URL的第一部分要求您先前設定登錄頁子域。 [了解更多](../configuration/lp-configuration.md#lp-subdomains)
+1. 定義登錄頁URL。 URL的第一部分要求您先前設定登錄頁子域作為 [預設](../configuration/lp-configuration.md#lp-create-preset) 的上界。 [了解更多](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -92,6 +92,16 @@ ht-degree: 1%
    >[!NOTE]
    >
    >即使已發佈，您也無法通過將此URL複製貼上到Web瀏覽器來訪問登錄頁。 相反，您可以使用預覽功能test它，如中所述 [此部分](#test-landing-page)。
+
+1. 如果希望登錄頁預先載入已可用的表單資料，請選擇 **[!UICONTROL Pre-fill form fields with profile information]**。
+
+   ![](assets/lp_prefill-form-fields.png)
+
+   啟用此選項後，如果配置檔案已選擇加入/退出或已添加到訂閱清單，則在顯示登錄頁時，將反映其選擇。
+
+   例如，如果配置檔案選擇接收有關將來事件的通信，則在下次將登錄頁顯示到該配置檔案時，將已選中相應的複選框。
+
+   ![](assets/lp_prefill-form-ex.png)
 
 1. 您可以為頁面定義到期日期。 在這種情況下，必須在頁面到期時選擇操作：
 

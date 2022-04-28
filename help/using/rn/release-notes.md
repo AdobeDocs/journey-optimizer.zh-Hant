@@ -2,10 +2,10 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '2969'
-ht-degree: 100%
+source-wordcount: '3200'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,59 @@ ht-degree: 100%
 
 ![電子報](../assets/do-not-localize/nl-icon.png) 立即註冊 [Adobe Journey Optimizer 每季電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} ，直接把每季最新產品更新、激勵人心的故事、使用按利、提示等內容傳送到您的收件匣。
 
+
+## 2022 年 4 月發行版本 {#april-2022-release}
+
+### 新功能
+
+<table>
+<thead>
+<tr>
+<th><strong>與Adobe Campaign Standard</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>作為Adobe Campaign Standard的客戶，您現在可以使用Journey Optimizer發送電子郵件、推送通知和簡訊。 使用新的內置操作將Campaign Standard事務性消息傳遞功能利用到Journey Optimizer。</p>
+<p>如需詳細資訊，請參閱<a href="../action/acs-action.md">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### 改進項目
+
+**登陸頁面**
+
+* **「選擇加入/選擇退出」複選框的新選項**  — 現在，您可以在訂閱登錄頁中插入一個選擇加入/選擇退出複選框。 用戶需要選中該框以同意（選擇加入），並取消選中該框以刪除其同意（選擇退出）。 [了解更多](../landing-pages/design-lp.md#define-lp-specific-content)
+
+* **預填充登錄頁欄位**  — 現在，用戶可以使用配置檔案資訊預先填充登錄頁欄位。 [進一步了解](../landing-pages/create-lp.md#configure-primary-page)
+
+**決定管理**
+
+* **在邊緣上確定API**  — 邊緣決策API可以提供和呈現以Offer decisioning管理的個性化服務。 您可以使用Offer decisioning用戶介面(UI)或API建立您的優惠和其他相關對象。 [進一步了解](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+
+**管理**
+
+* **PTR提交持續時間** - PTR編輯生效的持續時間現在為幾個小時。 [了解更多](../configuration/ptr-records.md#processing)
+
+**電子郵件設計**
+
+* **新電子郵件模板** 現在可在Journey Optimizer設計您的電子郵件內容。
+
+**使用者介面**
+
+* **Journey OptimizerUI中的上下文幫助**  — 上下文幫助連結已添加到Journey Optimizer的多個頁面。 如果可用，按一下「i」表徵圖可查看當前功能和訪問相關文章的快速說明。
+
+<!--
+### Fixes
+
+* Fixed an issue which caused tracking reports not to be available as the `JourneyActionId` was not properly populated. PLATIR-19854, CJM-26006
+* Fixed an error on business events which could block the journey publication. CJM-25931
+* Fixed an issue which could prevent images in Email Designer templates from being displayed. PLATIR-18176, CJM-25008
+-->
 
 ## 2022 年 3 月發行 {#march-2022-release}
 

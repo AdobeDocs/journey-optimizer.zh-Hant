@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
@@ -56,6 +56,12 @@ ht-degree: 1%
 1. 定義此複選框是選擇用戶加入還是退出：他們是同意接收通信，還是要求不再聯繫？
 
    ![](assets/lp_designer-form-update.png)
+
+   從以下三個選項中選擇：
+
+   * **[!UICONTROL Opt in if checked]**:用戶需要選中該框才能同意（選擇加入）。
+   * **[!UICONTROL Opt out if checked]**:用戶需要選中該框以刪除其同意（選擇退出）。
+   * **[!UICONTROL Opt in if checked, opt out if unchecked]**:此選項允許您插入一個選中/選中退出複選框。 用戶需要選中該框以同意（選擇加入），並取消選中該框以刪除其同意（選擇退出）。
 
 1. 選擇以下三個選項之間將更新的內容：
 

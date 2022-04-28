@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 2%
+source-wordcount: '362'
+ht-degree: 3%
 
 ---
 
@@ -18,9 +18,11 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"
 >title="反應事件"
->abstract="本練習允許您對與同一行程中發送的郵件相關的跟蹤資料做出響應。 我們在與Adobe Experience Platform分享資訊時即時捕獲這些資訊。 對於推送通知，您可以對按一下的、發送的或失敗的消息做出響應。 對於SMS消息，您可以對已發送或失敗的消息做出響應。 對於電子郵件，您可以對按一下的、發送的、開啟的或失敗的郵件做出反應。"
+>abstract="本練習允許您對與同一行程中發送的郵件相關的跟蹤資料做出響應。 我們在與Adobe Experience Platform分享資訊時即時捕獲這些資訊。"
 
-在元件面板中提供的不同事件活動中，您將發現 **[!UICONTROL Reactions]** 的子菜單。 本練習允許您對與同一行程中發送的郵件相關的跟蹤資料做出響應。 我們在與Adobe Experience Platform分享資訊時即時捕獲這些資訊。 對於推送通知，您可以對按一下的、發送的或失敗的消息做出響應。 對於SMS消息，您可以對已發送或失敗的消息做出響應。 對於電子郵件，您可以對按一下的、發送的、開啟的或失敗的郵件做出反應。
+在元件面板中提供的不同事件活動中，您將發現 **[!UICONTROL Reactions]** 的子菜單。 本練習允許您對與同一行程中發送的郵件相關的跟蹤資料做出響應。 我們在與Adobe Experience Platform分享資訊時即時捕獲這些資訊。
+
+您可以對按一下或開啟的消息做出反應。
 
 您還可以使用此機制在消息沒有反應時執行操作。 為此，請建立與反應活動平行的第二條路徑，並添加等待活動。 如果在等待活動中定義的期間內沒有反應，則將選擇第二條路徑。 您可以選擇發送後續消息。
 

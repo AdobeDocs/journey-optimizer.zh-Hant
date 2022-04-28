@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 35%
+source-wordcount: '714'
+ht-degree: 32%
 
 ---
 
@@ -49,6 +49,12 @@ ht-degree: 35%
 * **將子網域完全委派給 Adobe**（建議）：子網域已完全委派給 Adobe。Adobe能夠控制和維護傳遞、呈現和跟蹤消息所需的DNS的所有方面。 [瞭解有關完整子域委派的詳細資訊](delegate-subdomain.md#full-subdomain-delegation)
 
 * **CNAME的使用**:建立子域並使用CNAME指向特定於Adobe的記錄。 使用此設定，您和Adobe共用維護DNS的責任。 [瞭解有關CNAME子域委派的詳細資訊](delegate-subdomain.md#cname-subdomain-delegation)
+
+>[!CAUTION]
+>
+>Full子域委派是首選方法。
+>
+>如果組織的策略限制了完整的子域委派方法，則建議使用CNAMEs方法。 此方法要求您自行維護和管理DNS記錄。 Adobe將無法幫助更改、維護或管理通過CNAME方法配置的子域的DNS。
 
 下表提供這些方法的運作方式摘要，以及所需投入的精力：
 

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -93,11 +93,15 @@ ht-degree: 0%
 
 ## 檢查PTR記錄更新詳細資訊 {#check-ptr-record-update}
 
-A **[!UICONTROL Processing]** 表徵圖顯示在清單中PTR記錄的名稱旁邊。
+確認PTR記錄編輯後， **[!UICONTROL Processing]** 表徵圖顯示在清單中PTR記錄的名稱旁邊。
 
 ![](assets/ptr-record-updating.png)
 
-要檢查PTR記錄更新詳細資訊，請按一下 **[!UICONTROL Updating]** 或 **[!UICONTROL Recent updates]** 表徵圖
+>[!NOTE]
+>
+>的 [更新處理](#processing) 可能需要幾個小時。
+
+要檢查PTR記錄更新詳細資訊，請按一下其旁邊的表徵圖。 瞭解有關與中的不同表徵圖關聯的狀態的詳細資訊 [此部分](#ptr-record-update-statuses)。
 
 ![](assets/ptr-record-recent-update.png)
 
@@ -115,7 +119,7 @@ PTR記錄更新可以具有以下狀態：
 
 ### 正在處理 {#processing}
 
-將執行若干可傳送性檢查，以驗證要與IP地址關聯的新子域是否有效。 <!--The processing time is around **48h-72h**, and can take up to **7-10 days**.-->
+將執行若干可傳送性檢查，以驗證要與IP地址關聯的新子域是否有效。 這可能需要幾個小時。
 
 >[!NOTE]
 >

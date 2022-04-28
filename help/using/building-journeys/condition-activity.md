@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 7%
 
 當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
 
-在簡單編輯器中，您還將在事件和資料源類別下找到「行程屬性」類別。 此類別包含與給定配置檔案的行程相關的技術欄位。 這是系統從即時行程中檢索的資訊，如行程ID或遇到的特定錯誤。 [了解更多](expression/journey-properties.md)
+在簡單編輯器中，您還將在事件和資料源類別下找到「行程屬性」類別。 此類別包含與給定配置檔案的行程相關的技術欄位。 這是系統從即時歷程擷取的資訊，例如歷程 ID 或遇到的特定錯誤。 [了解更多](expression/journey-properties.md)
 
 ## 資料源條件 {#data_source_condition}
 
@@ -79,7 +79,7 @@ ht-degree: 7%
 
 ## 時間條件{#time_condition}
 
-這允許您根據一天中的小時和/或一週中的某天執行不同的操作。 例如，您可以決定在白天發送SMS消息，在工作日發送夜間電子郵件。
+這允許您根據一天中的小時和/或一週中的某天執行不同的操作。 例如，您可以決定在白天發送推送通知，在工作日的晚上發送電子郵件。
 
 >[!NOTE]
 >

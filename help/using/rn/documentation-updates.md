@@ -2,16 +2,26 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
-workflow-type: ht
-source-wordcount: '1113'
-ht-degree: 100%
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+workflow-type: tm+mt
+source-wordcount: '1254'
+ht-degree: 89%
 
 ---
 
 # 文件更新 {#latest-updates}
 
 本頁面列出 [!DNL Journey Optimizer] 所有文件更新。
+
+## 2022 年 4 月 {#april-2022}
+
+* 隨附的所有新功能和改進 [!DNL Journey Optimizer] 文檔中詳細列出了2004年4月的發行。 [閱讀全文](release-notes.md)
+* 的 **反應** 事件文檔頁面已更新。 [閱讀全文](../building-journeys/reaction-events.md)
+* 已更新了用於決策管理功能的視頻，以反映Journey Optimizer用戶介面。 [閱讀全文](../offers/get-started/starting-offer-decisioning.md)
+* 的 **開始使用資料集** 部分已改進以詳細說明如何訪問和建立資料集。 [閱讀全文](../start/get-started-datasets.md)
+* 指向幫助指南和產品發行說明的連結已添加到 **Adobe Journey Optimizer文檔** 的子菜單。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer.html)
+* 的 **建立消息預設** 部分現在指定在所選IP池處於版本(**[!UICONTROL Processing]** 狀態)，且從未與所選子域關聯。 [閱讀全文](../configuration/message-presets.md#subdomains-and-ip-pools)
+* 消息預設 **URL跟蹤** 部分已更新以反映用戶介面中的細微更改。 [閱讀全文](../configuration/message-presets.md#url-tracking)
 
 ## 2022 年 3 月 {#march-2022}
 

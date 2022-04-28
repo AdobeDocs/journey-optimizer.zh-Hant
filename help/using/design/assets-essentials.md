@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 3%
@@ -67,6 +67,13 @@ ht-degree: 3%
 1. 在電子郵件內容中拖放您的資產。
 
    ![](assets/media_library_6.png)
+<!--
+1. After adding your asset to your email, use the **[!UICONTROL Find similar Stock photos]** option to locate Stock photos that match the content, color, and composition of your image. [Learn more about Adobe Stock](stock.md).
+
+    Note that this option is available for licensed/unlicensed Stock images and images from your Assets folder. 
+
+    ![](assets/media_library_14.png)
+-->
 
 1. 您可以進一步自定義資產，例如添加外部連結或使用 **[!UICONTROL Components settings]**。 [瞭解有關元件設定的詳細資訊](content-components.md)
 

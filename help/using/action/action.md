@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 56%
+source-wordcount: '252'
+ht-degree: 44%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 56%
 >title="關於動作"
 >abstract="您可在此處定義會用於傳送訊息的系統連線，接著，在「動作」類別的歷程左側浮動視窗中，就會顯示此處定義的動作。"
 
-動作是您向客戶提供個人化即時體驗時使用的連結，這些體驗包含推播通知、電子郵件、簡訊或您在業務中使用的任何其他數位互動方式。
+操作是您向客戶提供個性化的即時體驗的連接，如推送通知、電子郵件或您在業務中使用的任何其他數字參與方式。
 
 ➡️ [在影片中探索此功能](#video)
 

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1628'
 ht-degree: 10%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="子域委派"
->abstract="Journey Optimizer允許您將子域委託給Adobe。 您可以將子域完全委託給Adobe，或使用CNAME建立子域以指向特定於Adobe的記錄。"
+>abstract="Journey Optimizer允許您將子域委託給Adobe。 可以將子域完全委託給Adobe，這是推薦的方法。 您也可以使用CNAME建立子域，以指向特定於Adobe的記錄，但此方法要求您自己維護和管理DNS記錄。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="子域配置方法"
 
 域名委派是一種允許域名所有者的方法(技術上為：DNS區域)，以委派其細分(技術上：DNS區域，可稱為子區域)。 基本上，作為客戶，如果您正在處理「example.com」區域，則可以將子區域「marketing.example.com」委託給Adobe。 瞭解更多 [子域授權](about-subdomain-delegation.md)

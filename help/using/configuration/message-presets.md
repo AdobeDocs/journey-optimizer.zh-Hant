@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2406'
 ht-degree: 1%
 
 ---
@@ -58,6 +58,12 @@ ht-degree: 1%
 1. 配置完所有參數後，按一下 **[!UICONTROL Submit]** 確認。 您也可以將消息預設保存為草稿，並稍後恢復其配置。
 
    ![](assets/preset-submit.png)
+
+   >[!NOTE]
+   >
+   >當所選IP池位於以下位置時，無法繼續建立預設 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** 狀態)，且從未與所選子域關聯。 [了解更多](#subdomains-and-ip-pools)
+   >
+   >將預設另存為草稿，並等待IP池 **[!UICONTROL Success]** 狀態以繼續建立預設。
 
 1. 建立消息預設後，它將顯示在清單中 **[!UICONTROL Processing]** 狀態。
 
@@ -116,6 +122,10 @@ ht-degree: 1%
 
 1. 選擇要與預設關聯的IP池。 [了解更多](ip-pools.md)
 
+![](assets/preset-subdomain-ip-pool.png)
+
+當所選IP池位於以下位置時，無法繼續建立預設 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** 狀態)，且從未與所選子域關聯。 否則，仍將使用IP池/子域關聯的最舊版本。 如果是這種情況，請將預設另存為草稿，並在IP池具有 **[!UICONTROL Success]** 狀態。
+
 >[!NOTE]
 >
 >對於非生產環境，Adobe不建立現成的test子域，也不授予對共用發送IP池的訪問權限。 你需要 [委派自己的子域](delegate-subdomain.md) 並使用分配給您組織的池中的IP。
@@ -155,28 +165,6 @@ ht-degree: 1%
 瞭解有關將標題取消訂閱連結添加到郵件的詳細資訊 [此部分](../messages/consent.md#unsubscribe-header)。
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
-
-### URL跟蹤{#url-tracking}
-
-要確定人員按一下連結的位置和原因，可以在中添加UTM參數以跟蹤URL  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** 的子菜單。
-
-根據您定義的參數，UTM代碼將應用到消息內容中包含的URL的末尾。 然後，您將能夠在Web分析工具(如Google Analytics)中比較結果。
-
-![](assets/preset-url-tracking.png)
-
-預設情況下，有三個UTM參數可用。 最多可以添加10個跟蹤參數。 要添加UTM參數，請選擇 **[!UICONTROL Add new UTM param]** 按鈕
-
-要配置UTM參數，可以在 **[!UICONTROL Name]** 和 **[!UICONTROL Value]** ，或導航到以下對象從預定義值清單中進行選擇：
-
-* 行程屬性：源ID、源名稱、源版本ID
-* 消息屬性：操作ID，操作名稱
-* Offer decisioning屬性：優惠ID，優惠名稱
-
-![](assets/preset-url-tracking-source.png)
-
->[!CAUTION]
->
->不選擇資料夾：確保瀏覽到必要的資料夾，並選擇要用作UTM值的配置檔案屬性。
 
 ### 標題參數{#email-header}
 
@@ -223,6 +211,35 @@ ht-degree: 1%
 * 對於這兩種電子郵件類型，最大重試時間為84小時（或5040分鐘）。
 
 在中重試時瞭解更多資訊 [此部分](retries.md)。
+
+### URL跟蹤{#url-tracking}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_utm"
+>title="UTM參數"
+>abstract="使用此部分可自動將跟蹤參數附加到電子郵件內容中存在的市場活動URL。"
+
+要確定人員按一下連結的位置和原因，您可以選擇在中為URL跟蹤添加UTM參數  **[!UICONTROL URL Tracking Parameters]** 的子菜單。
+
+根據您定義的參數，UTM代碼將應用到消息內容中包含的URL的末尾。 然後，您將能夠在Web分析工具(如Google Analytics)中比較結果。
+
+![](assets/preset-url-tracking.png)
+
+預設情況下，有三個UTM參數可用。 最多可以添加10個跟蹤參數。 要添加UTM參數，請選擇 **[!UICONTROL Add new parameter]** 按鈕
+
+要配置UTM參數，可以在 **[!UICONTROL Name]** 和 **[!UICONTROL Value]** ，或導航到以下對象從預定義值清單中進行選擇：
+
+* 行程屬性： **源ID**。 **源名稱**。 **源版本ID**
+* 消息屬性： **操作ID**。 **操作名稱**
+* Offer decisioning屬性： **服務ID**。 **優惠名稱**
+
+![](assets/preset-url-tracking-source.png)
+
+>[!CAUTION]
+>
+>不選擇資料夾：確保瀏覽到必要的資料夾，並選擇要用作UTM值的配置檔案屬性。
+
+可以將鍵入的文本值與選擇預定義的值合併。 每個 **[!UICONTROL Value]** 欄位總共最多可包含255個字元。
 
 ## 配置推送設定 {#configure-push-settings}
 

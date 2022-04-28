@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 1%
+source-wordcount: '1456'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 的 **調色板** 在螢幕的左側。 所有可用活動都分為幾類： **[!UICONTROL Events]**。 **[!UICONTROL Orchestration]** 和 **[!UICONTROL Actions]**。 通過按一下不同類別的名稱，可以展開/折疊它們。 要在旅途中使用活動，請將其從調色板拖放到畫布中。
 
-開始新行程時，無法作為第一步放入畫布中的元素將被隱藏。 這涉及所有操作、條件活動、等待和反應。
+開始新行程時，無法作為第一步放入畫布中的元素將被隱藏。 這關係到所有動作、狀況活動、等待和反應。
 
 ![](assets/journey38.png)
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 * **僅顯示可用項**:隱藏或顯示調色板中不可用的元素，例如使用與旅途中使用的命名空間不同命名空間的事件。 依預設，系統會隱藏無法使用的項目。如果選擇顯示它們，則它們將顯示為灰色。
 
-* **僅顯示最近的項目**:此篩選器允許您僅顯示使用的前五個事件和操作，而不是現成的事件和操作。 這特定於每個用戶。 預設情況下，將顯示所有項目。
+* **僅顯示最近的項目**:此篩選器允許您僅顯示使用的前五個事件和操作，而不是現成的事件和操作。 這特定於每位使用者。 預設情況下，所有項目都會顯示。 
 
 您還可以使用 **[!UICONTROL Search]** 的子菜單。 只篩選事件和操作。
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 
 ## 在畫布中使用路徑 {#paths}
 
-若幹活動(**[!UICONTROL Condition]**。 **[!UICONTROL Action]** 活動)允許您在出現錯誤或超時時定義回退操作。 在活動配置窗格中，選中該框： **[!UICONTROL Add an alternative path in case of a timeout or an error]**。 在活動後添加另一個路徑。 超時持續時間在行程的屬性中定義(請參閱 [此頁](../building-journeys/journey-gs.md#change-properties) 管理員用戶。 例如，如果電子郵件發送時間過長或出錯，您可以決定發送SMS。
+若幹活動(**[!UICONTROL Condition]**。 **[!UICONTROL Action]** 活動)允許您在出現錯誤或超時時定義回退操作。 在活動配置窗格中，選中該框： **[!UICONTROL Add an alternative path in case of a timeout or an error]**。 在活動後添加另一個路徑。 超時持續時間在行程的屬性中定義(請參閱 [此頁](../building-journeys/journey-gs.md#change-properties) 管理員用戶。 例如，如果電子郵件發送時間過長或出錯，您可以決定發送推送通知。
 
 ![](assets/journey42.png)
 
