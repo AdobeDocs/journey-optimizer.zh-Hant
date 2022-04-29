@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: a473ffa25871cdf0e5acb48c6902f883bd8f74a2
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '278'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 可在 [屬性](../building-journeys/journey-gs.md#change-properties) 你的旅程。
 
-要訪問「屬性」，請按一下螢幕右上角的鉛筆表徵圖。
+要訪問「旅程屬性」，請按一下螢幕右上角的鉛筆表徵圖。
 
 此時區將用於包含時間元素的行程的每個活動，如：
 
