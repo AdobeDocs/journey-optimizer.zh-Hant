@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: cc7a544b58c0caff4fd0b3d02c53622b506e98e2
+source-git-commit: d1204d7653a1fe32d068f974f425e10949065bc1
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 10%
+source-wordcount: '1637'
+ht-degree: 9%
 
 ---
 
@@ -111,7 +111,7 @@ CNAME 子網域委派可讓您建立子網域，並使用 CNAME 指向 Adobe 特
 
 >[!CAUTION]
 >
->如果貴司的原則限制完整的子網域委派法，則建議使用此方法。此方法要求您自行維護和管理DNS記錄。 Adobe將無法幫助更改、維護或管理通過CNAME方法配置的子域的DNS。
+>如果組織的策略限制了完整的子域委派方法，則建議使用CNAME方法。 此方法要求您自行維護和管理DNS記錄。 Adobe將無法幫助更改、維護或管理通過CNAME方法配置的子域的DNS。
 
 ➡️ [瞭解如何使用CNAME建立子域以指向此視頻中特定於Adobe的記錄](#video)
 
