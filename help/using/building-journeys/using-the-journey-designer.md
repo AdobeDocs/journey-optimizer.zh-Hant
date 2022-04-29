@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1457'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 通過旅程介面，您可以輕鬆地將活動從調色板拖放到畫布中。 您還可以按兩下某個活動，在下一步可用步驟的畫布中將其添加。 每個活動都在流程中具有特定的角色和位置。 活動被排序。 完成活動後，流將繼續並處理下一個活動，依此類推。
 
-## 開始行程設計
+## 開始行程設計 {#gs-journey-design}
 
 的 **調色板** 在螢幕的左側。 所有可用活動都分為幾類： **[!UICONTROL Events]**。 **[!UICONTROL Orchestration]** 和 **[!UICONTROL Actions]**。 通過按一下不同類別的名稱，可以展開/折疊它們。 要在旅途中使用活動，請將其從調色板拖放到畫布中。
 
@@ -52,7 +52,7 @@ ht-degree: 3%
 
 ![](assets/journey41.png)
 
-## 開始你的旅程
+## 開始您的旅程 {#start-your-journey}
 
 在設計行程時，首先要問的問題是配置式如何進入行程。 有兩種可能：
 
@@ -60,7 +60,7 @@ ht-degree: 3%
 
 **從讀取段開始**:你可以設定你聽Adobe Experience Platform段的旅程。 在這種情況下，屬於指定段的所有個人都會輸入行程。 您行程中包含的消息將發送給屬於該段的個人。 [瞭解有關閱讀段的詳細資訊](read-segment.md)。
 
-## 定義後續步驟
+## 定義後續步驟{#define-next-steps}
 
 在第一個事件或「讀取段」之後，您可以組合不同的活動來構建多步跨渠道方案。 從調色板中選擇所需的步驟。
 
@@ -86,9 +86,11 @@ ht-degree: 3%
 
 您還將找到配置為通過第三方系統發送消息的自定義操作。 瞭解更多資訊 [節](about-journey-activities.md#action-activities)。
 
-## 在畫布中使用路徑 {#paths}
+## 添加備用路徑{#paths}
 
-若幹活動(**[!UICONTROL Condition]**。 **[!UICONTROL Action]** 活動)允許您在出現錯誤或超時時定義回退操作。 在活動配置窗格中，選中該框： **[!UICONTROL Add an alternative path in case of a timeout or an error]**。 在活動後添加另一個路徑。 超時持續時間在行程的屬性中定義(請參閱 [此頁](../building-journeys/journey-gs.md#change-properties) 管理員用戶。 例如，如果電子郵件發送時間過長或出錯，您可以決定發送推送通知。
+如果出現以下行程活動的錯誤或超時，您可以定義回退操作： **[!UICONTROL Condition]** 和 **[!UICONTROL Action]**。
+
+要為活動添加回退操作，請選擇 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 框中，選擇「 CSV文本」：在活動後添加另一個路徑。 超時持續時間由管理員用戶在 [旅程屬性](../building-journeys/journey-gs.md#change-properties)。 例如，如果電子郵件發送時間過長或出錯，您可以決定發送推送通知。
 
 ![](assets/journey42.png)
 

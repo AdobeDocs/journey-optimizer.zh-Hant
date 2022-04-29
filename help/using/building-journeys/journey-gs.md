@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: c5ddc1a5a3dc133819ba2f887dae73fc48690fe9
+source-git-commit: 832abe25f79c8c526dd5da0ff37eb91755d687e4
 workflow-type: tm+mt
 source-wordcount: '1846'
 ht-degree: 6%
@@ -77,7 +77,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="歷程屬性"
->abstract="本節顯示行程屬性。 預設情況下，只讀參數將隱藏。 可用設定取決於行程的狀態、權限和產品配置。"
+>abstract="本節顯示行程屬性。 預設情況下，只讀參數是隱藏的。 可用設定取決於行程的狀態、權限和產品配置。"
 
 按一下右上角的鉛筆表徵圖以訪問行程的屬性。
 
