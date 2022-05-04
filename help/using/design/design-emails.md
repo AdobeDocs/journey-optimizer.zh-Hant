@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '195'
 ht-degree: 6%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 6%
 1. 在「電子郵件設計器」首頁中，從以下選項中選擇設計電子郵件的方式：
 
    * **從頭開始設計電子郵件** 通過電子郵件設計器的介面，並利用 [Adobe Experience Manager Assets Essentials](assets-essentials.md)。 瞭解如何設計電子郵件內容或使用內置模板 [此部分](create-email-content.md)。
+
+   * **從現有電子郵件中複製** 從示例模板清單中。
 
    * **代碼或貼上原始HTML** 直接在電子郵件設計器中。 瞭解如何編碼您自己的內容 [此部分](code-content.md)。
 

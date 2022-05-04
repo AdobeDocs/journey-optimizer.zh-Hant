@@ -5,7 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
+source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -29,17 +30,25 @@ ht-degree: 0%
 
 * 設定 **[!UICONTROL Background color]** 整封郵件。 確保在可從左側元件面板訪問的導航樹中選擇主體設定。
 
+   ![](assets/background_1.png)
+
 * 通過選擇 **[!UICONTROL Viewport background color]**。 此選項允許您從背景顏色中選擇其他設定。
+
+   ![](assets/background_2.png)
 
 * 為每個結構元件設定不同的背景顏色。 在導航樹中選擇一個結構，該結構可從左側的調色板訪問，以僅將特定背景顏色應用於該結構。
 
    請確保未設定視區背景顏色，因為它可能隱藏結構背景顏色。
+
+   ![](assets/background_3.png)
 
 * 設定 **[!UICONTROL Background image]** 的子菜單。
 
    >[!NOTE]
    >
    >某些電子郵件程式不支援背景影像。 不支援時，將改用行背景顏色。 確保在無法顯示影像時選擇適當的後退背景顏色。
+
+   ![](assets/background_4.png)
 
 * 在列級別設定背景顏色。
 
@@ -48,3 +57,5 @@ ht-degree: 0%
    >這是最常見的使用案例。 Adobe建議在列級別設定背景顏色，因為這樣在編輯整個電子郵件內容時就更加靈活。
 
    也可以在列級別設定背景影像，但很少使用。
+
+   ![](assets/background_5.png)

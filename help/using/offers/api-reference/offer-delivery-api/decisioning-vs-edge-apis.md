@@ -5,9 +5,10 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
+source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '409'
 ht-degree: 1%
 
 ---
@@ -43,7 +44,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->要儲存上下文資料，需要配置專用的XDM架構。 （+連結到XDM文檔）
+>要儲存上下文資料，需要配置專用的XDM架構。
 
 ## 確定API功能 {#decisioning}
 
