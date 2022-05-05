@@ -3,9 +3,9 @@ title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1254'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 89%
 
 ## 2022 年 4 月 {#april-2022}
 
-* 隨附的所有新功能和改進 [!DNL Journey Optimizer] 文檔中詳細列出了2004年4月的發行。 [閱讀全文](release-notes.md)
-* 的 **反應** 事件文檔頁面已更新。 [閱讀全文](../building-journeys/reaction-events.md)
-* 已更新了用於決策管理功能的視頻，以反映Journey Optimizer用戶介面。 [閱讀全文](../offers/get-started/starting-offer-decisioning.md)
-* 的 **開始使用資料集** 部分已改進以詳細說明如何訪問和建立資料集。 [閱讀全文](../start/get-started-datasets.md)
-* 指向幫助指南和產品發行說明的連結已添加到 **Adobe Journey Optimizer文檔** 的子菜單。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer.html)
-* 的 **建立消息預設** 部分現在指定在所選IP池處於版本(**[!UICONTROL Processing]** 狀態)，且從未與所選子域關聯。 [閱讀全文](../configuration/message-presets.md#subdomains-and-ip-pools)
-* 消息預設 **URL跟蹤** 部分已更新以反映用戶介面中的細微更改。 [閱讀全文](../configuration/message-presets.md#url-tracking)
+* 有關 [!DNL Journey Optimizer]2022 年 4 月發佈內容的新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
+* 此&#x200B;**反應**&#x200B;事件文件頁面已更新。 [閱讀全文](../building-journeys/reaction-events.md)
+* 用於決策管理功能的影片已更新，以反映 Journey Optimizer 使用者介面。 [閱讀全文](../offers/get-started/starting-offer-decisioning.md)
+* **開始使用資料集**&#x200B;章節已改善以詳細說明如何存取和建立資料集。 [閱讀全文](../start/get-started-datasets.md)
+* 說明手冊和產品發行說明的連結已新增到 **Adobe Journey Optimizer 文件**&#x200B;的首頁。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=zh-Hant)
+* **建立新增訊息預設集**&#x200B;章節現在詳細說明，在選取的 IP 池在編輯中 (**[!UICONTROL Processing]** 狀態) 且從未關聯所選子網域的情況下，您無法繼續建立預設集。 [閱讀全文](../configuration/message-presets.md#subdomains-and-ip-pools)
+* 訊息預設集 **URL 追蹤**&#x200B;章節已更新，以反映使用者介面中的微幅變更。 [閱讀全文](../configuration/message-presets.md#url-tracking)
 
 ## 2022 年 3 月 {#march-2022}
 
