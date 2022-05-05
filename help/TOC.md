@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '993'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 97%
       + [加入預告標題](using/design/preheader.md)
    + 新增及管理資產 {#manage-asset}
       + [配合 Assets Essentials](using/design/assets-essentials.md)
-      + [與Adobe Stock合作](using/design/stock.md)
+      + [使用 Adobe Stock](using/design/stock.md)
    + [新增個人化優惠方案](using/design/deliver-personalized-offers.md)
    + [新增連結及追蹤訊息](using/design/message-tracking.md)
    + [預覽和校樣](using/design/preview.md)
@@ -118,7 +118,7 @@ ht-degree: 97%
       + [讀取區段](using/building-journeys/read-segment.md)
       + [訊息](using/building-journeys/journeys-message.md)
       + [自訂動作](using/building-journeys/using-custom-actions.md)
-      + [Adobe Campaign Standard行動](using/building-journeys/using-adobe-campaign-standard.md)
+      + [Adobe Campaign Standard 動作](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 動作](using/building-journeys/using-adobe-campaign-classic.md)
       + [跳轉](using/building-journeys/jump.md)
       + [更新設定檔](using/building-journeys/update-profiles.md)
@@ -327,9 +327,9 @@ ht-degree: 97%
          + [更新決定](using/offers/api-reference/activities-api/activities/update.md)
          + [刪除決定](using/offers/api-reference/activities-api/activities/delete.md)
       + 使用 API 的優惠傳遞 {#offer-delivery-api}
-         + [關於判定和邊判定API](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
-         + [決策API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
-         + [邊緣判定API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+         + [關於決策與邊緣決策 API](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
+         + [決策 API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
+         + [邊緣決策 API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [批次決策 API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + 資料管理 {#data-management}
    + [方案](using/start/get-started-schemas.md)
@@ -376,7 +376,7 @@ ht-degree: 97%
       + 動作設定 {#action-journeys}
          + [關於動作](using/action/action.md)
          + [設定動作](using/action/about-custom-action-configuration.md)
-         + [與Adobe Campaign Standard整合](using/action/acs-action.md)
+         + [與 Adobe Campaign Standard 整合](using/action/acs-action.md)
          + [與 Adobe Campaign v7/v8 整合](using/action/acc-action.md)
          + [同意](using/action/consent.md)
    + [來源](using/start/get-started-sources.md)
