@@ -3,9 +3,9 @@ title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 76adefcc5436678bd5662d463b2e2e89d4f73b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3192'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 [!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變動，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
-![電子報](../assets/do-not-localize/nl-icon.png) 立即註冊 [Adobe Journey Optimizer 每季電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} ，直接把每季最新產品更新、激勵人心的故事、使用按利、提示等內容傳送到您的收件匣。
+![電子報](../assets/do-not-localize/nl-icon.png) 立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} ，直接把每季最新產品更新、激勵人心的故事、使用案例、提示等內容傳送到您的收件匣。
 
 
 ## 2022 年 4 月發行版本 {#april-2022-release}
@@ -24,29 +24,29 @@ ht-degree: 93%
 
 **登陸頁面**
 
-* **「選擇加入/選擇退出」複選框的新選項**  — 現在，您可以在訂閱登錄頁中插入一個選擇加入/選擇退出複選框。 用戶需要選中該框以同意（選擇加入），並取消選中該框以刪除其同意（選擇退出）。 [了解更多](../landing-pages/design-lp.md#define-lp-specific-content)
+* **核取方塊的新選項「選擇加入/選擇退出」** - 現在，您可以在訂閱項目登錄頁面中插入選擇加入/選擇退出的核取方塊。 使用者需要勾選方塊同意 (選擇加入)，並取消勾選方塊移除其同意 (選擇退出)。 [了解更多](../landing-pages/design-lp.md#define-lp-specific-content)
 
-* **預填充登錄頁欄位**  — 現在，用戶可以使用配置檔案資訊預先填充登錄頁欄位。 [進一步了解](../landing-pages/create-lp.md#configure-primary-page)
+* **預先填寫登陸頁面欄位** - 現在，使用者可以使用個人資料預先填寫登陸頁面欄位。 [進一步了解](../landing-pages/create-lp.md#configure-primary-page)
 
 **決定管理**
 
-* **在邊緣上確定API**  — 邊緣決策API可以提供和呈現以Offer decisioning管理的個性化服務。 您可以使用Offer decisioning用戶介面(UI)或API建立您的優惠和其他相關對象。 [進一步了解](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **邊緣決策 API** - 邊緣決策 API 可以提供並轉譯受 Offer Decisioning 管理的個人化服務。 您可以使用 Offer Decisioning 使用者介面 (UI) 或 API 建立您的優惠方案與其他相關物件。 [進一步了解](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **管理**
 
-* **PTR提交持續時間** - PTR編輯生效的持續時間現在為幾個小時。 [了解更多](../configuration/ptr-records.md#processing)
+* **PTR 提交期間** - PTR 編輯的生效期間現在為幾個小時。 [了解更多](../configuration/ptr-records.md#processing)
 
 **電子郵件設計**
 
-* **20個新電子郵件模板** 現在可在Journey Optimizer設計您的電子郵件內容。
+* 提供 **20 個新電子郵件範本**，可在 Journey Optimizer 設計您的電子郵件內容。
 
 **使用者介面**
 
-* **Journey OptimizerUI中的上下文幫助**  — 上下文幫助連結已添加到Journey Optimizer的多個頁面。 如果可用，按一下「i」表徵圖可查看當前功能和訪問相關文章的快速說明。
+* **Journey Optimizer UI 內容說明** - 內容說明連結已新增到 Journey Optimizer 的多個頁面。 可用時，請按一下「i」圖示可針對目前功能及存取權限的相關文章查看快速說明。
 
-**與Adobe Campaign Standard**
+**整合 Adobe Campaign Standard**
 
-作為Adobe Campaign Standard的客戶，您現在可以使用Journey Optimizer發送電子郵件、推送通知和簡訊。 使用新的內置操作將Campaign Standard事務性消息傳遞功能利用到Journey Optimizer。  [了解更多](../action/acs-action.md)
+作為 Adobe Campaign Standard 的客戶，您現在可以使用 Journey Optimizer 傳送電子郵件、推播通知和 SMS。 使用新的內建動作在 Journey Optimizer 善用 Campaign Standard 異動訊息傳送功能。  [了解更多](../action/acs-action.md)
 
 <!--
 ### Fixes
