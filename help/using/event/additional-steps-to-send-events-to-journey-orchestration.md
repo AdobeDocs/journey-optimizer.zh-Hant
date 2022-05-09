@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 5%
 1. 使用從中複製的負載 [!DNL Journey Optimizer] API調用的正文（「資料部分」）中。 有關示例，請參閱下面
 1. 確定從何處獲取負載中存在的所有變數。 示例：如果事件應傳遞地址，則貼上的負載將顯示「地址」：&quot;字串&quot;。 &quot;string&quot;應替換為自動填充正確值的變數，即要向其發送消息的人員的電子郵件。 請注意，在負載預覽中， **[!UICONTROL Header]** 部分，我們將自動填充許多值以便您工作。
 1. 選擇「application/json」作為正文類型。
-1. 使用鍵「x-gw-ims-org-id」在題頭中傳遞您的IMS組織ID。 有關值，請使用IMS組織ID(「XXX@AdobeOrg」)。
+1. 使用鍵「x-gw-ims-org-id」在題頭中傳遞您的組織ID。 對於該值，請使用您的組織ID(「XXX@AdobeOrg」)。
 
 以下是流接收API事件的示例：
 

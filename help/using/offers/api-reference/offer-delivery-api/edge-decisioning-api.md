@@ -5,13 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: d18a0cb38bf5a3014a87f1dc5f1c3a3c21982b09
+exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1049'
 ht-degree: 2%
 
 ---
-
 
 # 使用邊緣決策API提供服務 {#edge-decisioning-api}
 
@@ -27,7 +27,7 @@ Experience PlatformWeb SDK支援在Adobe查詢個性化解決方案，包括決�
 
 >[!NOTE]
 >
->Adobe Experience PlatformWeb SDK中的決策管理目前可以提前訪問選定用戶。 此功能並非所有IMS組織都可用。
+>Adobe Experience PlatformWeb SDK中的決策管理目前可以提前訪問選定用戶。 此功能不適用於所有組織。
 
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 

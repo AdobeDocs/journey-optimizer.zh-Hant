@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 2%
+source-wordcount: '698'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 的 [!DNL Journey Optimizer] 隱藏清單由您自己的環境級別管理。
 
-它收集在單個客戶端環境中所有郵件中隱藏的電子郵件地址和域，這意味著特定於與沙盒ID關聯的IMS組織ID。
+它收集在單個客戶端環境中所有郵件中隱藏的電子郵件地址和域，這意味著特定於與沙盒ID關聯的組織ID。
 
 ## 為什麼要列禁令？ {#why-suppression-list}
 

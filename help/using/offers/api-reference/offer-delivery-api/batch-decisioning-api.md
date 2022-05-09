@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '856'
 ht-degree: 3%
 
 ---
@@ -124,8 +124,8 @@ curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-90
 | 屬性 | 說明 | 範例 |
 | -------- | ----------- | ------- |
 | `@id` | 由標識單個工作負載的Offer decisioning生成的UUID。 | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
-| `xdm:imsOrgId` | IMS組織的ID。 | `9GTO98D5F@AdobeOrg` |
-| `xdm:containerId` | 您的容器ID。 | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
+| `xdm:imsOrgId` | 組織ID。 | `9GTO98D5F@AdobeOrg` |
+| `xdm:containerId` | 容器ID。 | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | 建立決策工作量請求的時間。 | `1648078924834` |
 | `ode:status` | 工作負荷的狀態。 | `ode:status: "QUEUED"` |
 
@@ -173,7 +173,7 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 | 屬性 | 說明 | 範例 |
 | -------- | ----------- | ------- |
 | `@id` | 由標識單個工作負載的Offer decisioning生成的UUID。 | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
-| `xdm:imsOrgId` | IMS組織ID | `9GTO98D5F@AdobeOrg` |
+| `xdm:imsOrgId` | 組織ID | `9GTO98D5F@AdobeOrg` |
 | `xdm:containerId` | 容器ID | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | 建立決策工作量請求的時間。 | `1648076994405` |
 | `ode:status` | 工作負荷的狀態以「QUEUED」開頭，並更改為「PROCESSING」、「INGESTING」、「COMPLETED」或「ERROR」。 | `ode:status: "COMPLETED"` |

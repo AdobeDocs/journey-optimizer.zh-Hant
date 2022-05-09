@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: d1204d7653a1fe32d068f974f425e10949065bc1
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1639'
 ht-degree: 9%
 
 ---
@@ -191,7 +191,7 @@ CNAME 子網域委派可讓您建立子網域，並使用 CNAME 指向 Adobe 特
 
 1. **建立跟蹤和鏡像URL**:如果域是email.example.com ，則tracking/mirror域將是data.email.example.com。 通過安裝SSL證書來保護它。
 
-1. **預配CDN CloudFront**:如果尚未設定CDN，則Adobe會為導入設定CDN。
+1. **預配CDN CloudFront**:如果尚未設定CDN，則Adobe會為組織的ID設定CDN。
 
 1. **建立CDN域**:如果域為email.example.com，則CDN域將為cdn.email.example.com。
 
