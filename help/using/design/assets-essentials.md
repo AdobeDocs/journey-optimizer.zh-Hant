@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: ccc78d8d4276c33164adc4cc0ba46486c2093955
+source-git-commit: 97bb3497d3cdab53511610da600d0e646572ed77
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 4%
+source-wordcount: '476'
+ht-degree: 3%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 4%
 
 將營銷和創意工作流結合使用 [!DNL Adobe Experience Manager Assets Essentials]。 與 [!DNL Adobe Journey Optimizer]訪問 [!DNL Assets Essentials] 儲存、管理、發現和分發數字資產。 它提供了單個集中的資產儲存庫，您可以使用它來填充郵件。
 
-[!DNL Adobe Experience Manager Assets Essentials] 是一個協作和集中的資產工作區，可擴展您的創造性系統並將數字資產整合到其中，以獲得體驗。 您可以輕鬆組織、標籤和查找經批准的生產資產，以確保跨團隊的品牌一致性。 憑借其直觀的用戶體驗，您可以即時訪問AdobeCreative和Experience Cloud應用中的共用資產。
+[!DNL Adobe Experience Manager Assets Essentials] 是一個協作和集中的資產工作區，它擴展了您的創意系統，並將數字資產統一起來，以便提供體驗。 您可以輕鬆組織、標籤和查找經批准的生產資產，以確保跨團隊的品牌一致性。 憑借其直觀的用戶體驗、訪問 [!DNL Assets Essentials] 即時在您的AdobeCreative和Experience Cloud應用中共用資產。
 
 瞭解詳情 [Adobe Experience Manager Assets Essentials文檔](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}。
 
-[!DNL Adobe Experience Manager Assets Essentials] 可以直接從 [!DNL Adobe Journey Optimizer] 通過 **[!UICONTROL Assets]** 的子菜單。 您還可以在 [設計電子郵件內容](design-emails.md)。
+[!DNL Adobe Experience Manager Assets Essentials] 可以直接從 [!DNL Adobe Journey Optimizer] 菜單 **[!UICONTROL Assets]** 的子菜單。 您還可以在 [設計電子郵件內容](design-emails.md)。
 
 ## 先決條件{#assets-prerequisites}
 
