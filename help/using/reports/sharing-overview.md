@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 22db9d3997e84d33ddb2febe7a07aaef4063a880
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '479'
 ht-degree: 5%
 
 ---
@@ -53,8 +53,6 @@ ht-degree: 5%
 
 * [步驟事件欄位清單](../reports/sharing-field-list.md)
 * [舊版步驟事件欄位](../reports/sharing-legacy-fields.md)
-
-有關向Adobe Experience Platform報告的步驟事件的詳細資訊，請觀看此 [教程視頻](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target=&quot;_blank&quot;}。
 
 ## 與Customer Journey Analytics整合 {#integration-cja}
 

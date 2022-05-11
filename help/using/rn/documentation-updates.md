@@ -2,16 +2,26 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
-workflow-type: ht
-source-wordcount: '1254'
-ht-degree: 100%
+source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
+workflow-type: tm+mt
+source-wordcount: '1326'
+ht-degree: 95%
 
 ---
 
 # 文件更新 {#latest-updates}
 
 本頁面列出 [!DNL Journey Optimizer] 所有文件更新。
+
+
+## 2022 年 5 月 {#may-2022}
+
+* 電子郵件設計部分現在提到了新的內置模板，可以用於開始內容。 相關螢幕截圖已更新。 [閱讀全文](../design/design-emails.md)
+* Journey Optimizer文檔首頁更新了關鍵資源的連結。
+* 已更新登錄頁和訂閱報告的螢幕截圖。 [閱讀全文](../reports/live-report.md)
+* 已添加註釋，說明自定義操作不支援Delete方法。 [閱讀全文](../action/about-custom-action-configuration.md)
+* 已更新指向如何操作視頻的連結。
+
 
 ## 2022 年 4 月 {#april-2022}
 

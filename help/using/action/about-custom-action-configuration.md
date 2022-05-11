@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0dedeae2e33615c3191e6277fc6f258118b49822
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '944'
 ht-degree: 6%
 
 ---
@@ -83,6 +83,11 @@ ht-degree: 6%
    >定義自定義操作時僅允許預設埠：80表示http,443表示https。
 
 1. 選擇呼叫 **[!UICONTROL Method]**:它可以 **[!UICONTROL POST]** 或 **[!UICONTROL PUT]**。
+
+   >[!NOTE]
+   >
+   > 的 **DELETE** 方法不受支援。 如果需要更新現有資源，請選擇 **PUT** 的雙曲餘切值。
+
 1. 在 **[!UICONTROL Headers]** 定義要發送到外部服務的請求消息的HTTP標頭：
    1. 要添加標題欄位，請按一下 **[!UICONTROL Add a header field]**。
    1. 輸入標題欄位的鍵。
@@ -103,7 +108,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >根據欄位分析規則驗證標頭。 [了解更多](https://tools.ietf.org/html/rfc7230#section-3.2.4)。
+   >根據欄位分析規則驗證標頭。 瞭解詳情 [本文檔](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}。
 
 ## 定義操作參數 {#define-the-message-parameters}
 

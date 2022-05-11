@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -145,4 +145,4 @@ substr(
 
 說明：此示例使用 `substr` 和 `lastIndexOf` 函式，用於刪除用移動應用啟動事件傳遞的CRM ID所包圍的大括弧。
 
-有關如何使用高級表達式編輯器的詳細資訊，請觀察 [這個視頻](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。
+有關如何使用高級表達式編輯器的詳細資訊，請觀察 [這個視頻](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=zh-Hant)。

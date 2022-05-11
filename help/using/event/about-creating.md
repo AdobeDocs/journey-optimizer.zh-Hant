@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1482'
 ht-degree: 13%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 13%
 
 1. 按一下「**[!UICONTROL Save]**」。
 
-   條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。請參閱[此頁面](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+   條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。請參閱[此頁面](../event/additional-steps-to-send-events-to-journey.md)。
 
 ## 定義負載欄位 {#define-the-payload-fields}
 
@@ -125,27 +125,27 @@ ht-degree: 13%
 
 ## 定義配置檔案標識符 {#define-the-event-key}
 
-關鍵字是欄位或欄位組合是事件負載資料的一部分，它將允許系統標識與事件關聯的人員。 密鑰可以是Experience CloudID、CRM ID或電子郵件地址。
+關鍵字是欄位或欄位組合，它是事件負載資料的一部分，允許系統標識與事件關聯的人。 密鑰可以是Experience CloudID、CRM ID或電子郵件地址。
 
-如果您計畫利用儲存在Real-time Customer Profile資料庫中的資料，則必須選擇在中定義為配置檔案標識的資訊作為事件鍵 [即時客戶配置檔案服務](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}。
+要使用儲存在AdobeReal-time Customer Profile資料庫中的資料，事件鍵必須是在中定義為配置檔案標識的資訊 [即時客戶配置檔案服務](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}。
 
-它將允許系統執行事件與個人配置檔案之間的協調。 如果選擇具有主標識的架構，則 **[!UICONTROL Profile identifier]** 和 **[!UICONTROL Namespace]** 欄位已預填充。 如果沒有定義標識，我們將選擇 _identityMap > id_ 鍵。 然後，必須選擇一個命名空間，並且該鍵將預填充(位於 **[!UICONTROL Namespace]** 欄位使用 _identityMap > id_。
+配置檔案標識符允許系統執行事件與個人配置檔案之間的協調。 如果選擇具有主標識的架構，則 **[!UICONTROL Profile identifier]** 和 **[!UICONTROL Namespace]** 欄位已預填充。 如果沒有定義標識， _identityMap > id_ 是主鍵。 然後，必須選擇一個命名空間，並且該鍵會自動使用 _identityMap > id_。
 
 選擇欄位時，將標籤主標識欄位。
 
 ![](assets/primary-identity.png)
 
-如果您需要使用其他密鑰，例如CRM ID或電子郵件地址，則需要手動添加：
+如果您需要使用其他密鑰，如CRM ID或電子郵件地址，則需要手動添加，如下所述：
 
-1. 在 **[!UICONTROL Profile identifier]** 表徵圖。
+1. 在 **[!UICONTROL Profile identifier]** 或鉛筆表徵圖。
 
    ![](assets/journey16.png)
 
-1. 在有效負載欄位清單中選擇作為鍵的欄位。 您還可以切換到高級表達式編輯器來建立更複雜的鍵（例如，兩個事件欄位的串聯）。 請參閱下面的本節。
+1. 在有效負載欄位清單中選擇作為鍵的欄位。 您還可以切換到高級表達式編輯器來建立更複雜的鍵（例如，兩個事件欄位的串聯）。
 
    ![](assets/journey20.png)
 
-當收到事件時，該鍵的值將允許系統標識與該事件關聯的人員。 與命名空間關聯(請參見 [此部分](../event/about-creating.md#select-the-namespace))，該鍵可用於對Adobe Experience Platform執行查詢。 請參閱[此頁面](../building-journeys/about-journey-activities.md#orchestration-activities)。鑰匙還用於檢查人是否在旅途中。 事實上，一個人不可能在同一旅程中處於兩個不同的位置。 因此，系統不允許相同的密鑰（例如，密鑰CRMID=3224）在相同行程的不同位置處。
+當接收到事件時，該鍵的值允許系統識別與該事件相關聯的人。 與命名空間關聯(請參見 [此部分](../event/about-creating.md#select-the-namespace))，該鍵可用於對Adobe Experience Platform執行查詢。 請參閱[此頁面](../building-journeys/about-journey-activities.md#orchestration-activities)。鑰匙還用於檢查人是否在旅途中。 事實上，一個人不可能在同一旅程中處於兩個不同的位置。 因此，系統不允許相同的密鑰（例如，密鑰CRMID=3224）在相同行程的不同位置處。
 
 您還可以訪問高級表達式函式(**[!UICONTROL Advanced mode]**)。 通過這些函式，您可以處理用於執行特定查詢的值，例如更改格式、執行欄位連接，只考慮欄位的一部分（例如10個首字元）。 請參閱此[頁面](../building-journeys/expression/expressionadvanced.md)。
 
@@ -167,4 +167,4 @@ ht-degree: 13%
 
 1. 檢查預覽以驗證負載定義。
 
-1. 然後，您可以與負責事件發送的人員共用負載預覽。 此負載可以幫助他們設計推送到的事件的設定 [!DNL Journey Optimizer]。 請參閱[此頁面](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+1. 然後，您可以與負責事件發送的人員共用負載預覽。 此負載可以幫助他們設計推送到的事件的設定 [!DNL Journey Optimizer]。 請參閱[此頁面](../event/additional-steps-to-send-events-to-journey.md)。

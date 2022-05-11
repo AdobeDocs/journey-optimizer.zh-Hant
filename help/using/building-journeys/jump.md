@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 3%
+source-wordcount: '821'
+ht-degree: 5%
 
 ---
 
@@ -22,16 +22,12 @@ ht-degree: 3%
 
 的 **[!UICONTROL Jump]** 「操作」活動允許您將個人從一個旅程推向另一個旅程。 此功能允許您：
 
-* 將複雜旅程分成若干個，簡化其設計
-* 基於常用和可重複使用的行程模式構建行程
+* 將複雜歷程分割為數個歷程，以簡化極為複雜的設計
+* 根據常見且可重複使用的歷程模式來建立歷程
 
 在原點行程中，只需添加 **[!UICONTROL Jump]** 活動並選擇目標行程。 當個人進入 **[!UICONTROL Jump]** 步驟，將內部事件發送到目標行程的第一事件。 如果 **[!UICONTROL Jump]** 行動成功了，個人在旅途中繼續前進。 該行為與其他操作類似。
 
 在目標行程中，由 **[!UICONTROL Jump]** 活動會使個體在旅途中流動。
-
->[!NOTE]
->
->另請參閱教程視頻 [這裡](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=zh-Hant){target=&quot;_blank&quot;
 
 ## 生命週期
 

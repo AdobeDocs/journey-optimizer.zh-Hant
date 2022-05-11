@@ -4,9 +4,9 @@ description: 瞭解如何配置環境以向Journey Optimizer發送推送通知
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: a6fabce744cb85c447327b6ceb809bf399d4b610
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1434'
 ht-degree: 4%
 
 ---
@@ -253,7 +253,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 ## 第3步：Test您的移動應用與活動 {#mobile-app-test}
 
-在Adobe Experience Platform和 [!DNL Adobe Experience Platform Data Collection]，您現在可以在將推送通知發送到您的配置檔案之前test它。 在此使用情形中，我們將建立一個行程，以我們的移動應用為目標，並設定一個事件以觸發推送通知。
+在Adobe Experience Platform和 [!DNL Adobe Experience Platform Data Collection]，您現在可以在將推送通知發送到您的配置檔案之前test它。 在此使用情形中，我們建立一個行程，以我們的移動應用為目標，並設定觸發推送通知的事件。
 
 <!--
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
@@ -307,7 +307,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
    ![](assets/test_push_7b.png)
 
-1. 按一下 **[!UICONTROL Edit]** 的 **[!UICONTROL Event ID condition]** 的子菜單。 拖放先前添加的欄位，以定義系統將用來標識將觸發行程的事件的條件。
+1. 按一下 **[!UICONTROL Edit]** 的 **[!UICONTROL Event ID condition]** 的子菜單。 拖放先前添加的欄位以定義系統將用於標識觸發行程的事件的條件。
 
    ![](assets/test_push_8.png)
 

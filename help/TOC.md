@@ -5,8 +5,8 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
-workflow-type: ht
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 100%
 
@@ -367,7 +367,7 @@ ht-degree: 100%
             + [關於 ExperienceEvent 方案](using/event/experience-event-schema.md)
             + [利用 Adobe Analytics](using/event/about-analytics.md)
          + [設定業務事件](using/event/about-creating-business.md)
-         + [傳送事件的其他步驟](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+         + [傳送事件的其他步驟](using/event/additional-steps-to-send-events-to-journey.md)
       + 資料來源設定{#data-source-journeys}
          + [關於資料來源](using/datasource/about-data-sources.md)
          + [設定資料來源](using/datasource/configure-data-sources.md)

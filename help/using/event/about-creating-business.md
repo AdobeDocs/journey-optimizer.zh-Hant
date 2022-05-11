@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 11%
+source-wordcount: '1103'
+ht-degree: 10%
 
 ---
 
@@ -80,15 +80,16 @@ ht-degree: 11%
 
 1. 使用此事件的歷程次數會顯示在 **[!UICONTROL Used in]** 欄位中。您可以按一下 **[!UICONTROL View journeys]** 圖示，以顯示使用此事件的歷程清單。
 
-1. 定義架構和負載欄位：這是您選擇事件資訊（通常稱為有效負載）旅行預期接收的地方。 接著，您就可以在歷程中使用這項資訊。請參閱[本節](../event/about-creating-business.md#define-the-payload-fields)。
+1. 定義架構和負載欄位：這是您選擇預期接收的事件資訊（或負載）行程的位置。 稍後您將在旅途中使用此資訊。 請參閱[本節](../event/about-creating-business.md#define-the-payload-fields)。
 
    ![](assets/jo-event5-business.png)
 
-   只有時間系列方案可用。 「體驗事件」、「決策事件」和「行程步驟事件」架構不可用。 事件架構必須包含非基於人的主標識。 定義事件時必須選擇以下欄位： `_id` 和 `timestamp`
+   只有時間系列方案可用。 `Experience Events`。 `Decision Events` 和 `Journey Step Events` 架構不可用。 事件架構必須包含非基於人的主標識。 定義事件時必須選擇以下欄位： `_id` 和 `timestamp`
 
    ![](assets/test-profiles-4.png)
 
-1. 在 **[!UICONTROL Event ID condition]** 的子菜單。 使用簡單表達式編輯器，定義系統將用於標識將觸發行程的事件的條件。
+1. 在 **[!UICONTROL Event ID condition]** 的子菜單。 使用簡單表達式編輯器定義系統用於標識觸發行程的事件的條件。
+
    ![](assets/jo-event6-business.png)
 
    在示例中，我們根據產品的id編寫了條件。 這意味著，每當系統收到符合此條件的事件時，它都會將其傳遞到行程。
@@ -101,7 +102,7 @@ ht-degree: 11%
 
    ![](assets/journey7-business.png)
 
-   條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。請參閱[此頁面](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+   條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。在[本頁](../event/additional-steps-to-send-events-to-journey.md)中瞭解更多。
 
 ## 定義負載欄位 {#define-the-payload-fields}
 
@@ -123,13 +124,13 @@ ht-degree: 11%
 
 1. 選擇完所需欄位後，按一下 **[!UICONTROL Save]** 按 **[!UICONTROL Enter]**。
 
-   所選欄位的數量顯示在 **[!UICONTROL Fields]** 的子菜單。
+   所選欄位的數量顯示在 **[!UICONTROL Fields]**。
 
    ![](assets/journey12-business.png)
 
 ## 預覽負載 {#preview-the-payload}
 
-負載預覽允許您驗證負載定義。
+使用負載預覽驗證負載定義。
 
 1. 按一下 **[!UICONTROL View Payload]** 表徵圖，預覽系統所需的負載。
 
@@ -141,4 +142,4 @@ ht-degree: 11%
 
 1. 檢查預覽以驗證負載定義。
 
-1. 然後，您可以與負責事件發送的人員共用負載預覽。 此負載可以幫助他們設計推送到的事件的設定 [!DNL Journey Optimizer]。 請參閱[此頁面](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+1. 然後，您可以與負責事件發送的人員共用負載預覽。 此負載可以幫助他們設計推送到的事件的設定 [!DNL Journey Optimizer]。 請參閱[此頁面](../event/additional-steps-to-send-events-to-journey.md)。

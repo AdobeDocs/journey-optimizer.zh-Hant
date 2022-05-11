@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 74%
+source-wordcount: '313'
+ht-degree: 73%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 74%
 >
 >現在，資料源支援架構關係。
 
-有關如何配置Adobe Experience Platform資料源和外部資料源以及如何查找和使用行程中的資料的詳細資訊，請觀看此資訊 [教程視頻](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target=&quot;_blank&quot;}。
+有關如何配置Adobe Experience Platform資料源和外部資料源以及如何查找和使用行程中的資料的詳細資訊，請觀看此資訊 [教程視頻](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target=&quot;_blank&quot;}。
 
 ## How-to視頻 {#video}
 
