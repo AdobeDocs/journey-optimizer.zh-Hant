@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
+source-git-commit: fe9ae9b7068a883dac61f3b9c9a4aead2ccfb5c7
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 98%
@@ -168,6 +168,7 @@ ht-degree: 98%
     <li>
       <a href="using/segment/get-started-identity.md">身分</a>
     </li>
+    <p>
     <p>隱私</p>
     <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant" target="_blank">原則</a>
@@ -175,7 +176,6 @@ ht-degree: 98%
     <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant"target="_blank">請求</a>
     </li>
-    <p>
     <p>
     <p>管理</p>
     <li>
