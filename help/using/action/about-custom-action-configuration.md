@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: bb582374f69e5c4113e22c7caed1a23d2c9ac231
+source-git-commit: a9c4bf20b170afd30ac17f6dec3778c1ae4be70c
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 4%
+source-wordcount: '944'
+ht-degree: 6%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 4%
 
 另請注意，自定義操作參數具有預期格式(例如：字串、小數等)。 您必須小心遵守這些預期格式。 瞭解更多資訊 [用例](../building-journeys/collections.md)。
 
+
 ## 設定步驟 {#configuration-steps}
 
 以下是配置自定義操作所需的主要步驟：
@@ -49,12 +50,9 @@ ht-degree: 4%
 
 1. 向操作添加說明。 此步驟為選填。
 1. 使用此操作的行程數顯示在 **[!UICONTROL Used in]** 的子菜單。 您可以按一下 **[!UICONTROL View journeys]** 按鈕來顯示使用此操作的行程清單。
-1. 選擇與此自定義操作相關的通道： **電子郵件**。 **簡訊**&#x200B;或 **推送通知**。 它將用所選渠道的預設市場營銷操作預填所需的市場營銷操作欄位。 如果選擇 **其他**，將不定義市場營銷操作。
-1. 如果要將此自定義操作應用同意規則，請選擇相應的 **必需的市場營銷操作**。 請參閱[本節](../action/about-custom-action-configuration.md#consent-management)。
-1. 定義不同 **[!UICONTROL URL Configuration]** 參數。 請參閱[本節](../action/about-custom-action-configuration.md#url-configuration)。
+1. 定義不同 **[!UICONTROL URL Configuration]** 參數。 請參閱[此頁面](../action/about-custom-action-configuration.md#url-configuration)。
 1. 配置 **[!UICONTROL Authentication]** 的子菜單。 此配置與資料源相同。  請參閱[本節](../datasource/external-data-sources.md#custom-authentication-mode)。
-1. 定義 **[!UICONTROL Action parameters]**。 請參閱[本節](../action/about-custom-action-configuration.md#define-the-message-parameters)。
-1. 
+1. 定義 **[!UICONTROL Action parameters]**。 請參閱[此頁面](../action/about-custom-action-configuration.md#define-the-message-parameters)。
 1. 按一下「**[!UICONTROL Save]**」。
 
    現在已配置自定義操作，並準備在您的旅途中使用。 請參閱[此頁面](../building-journeys/about-journey-activities.md#action-activities)。
@@ -132,37 +130,3 @@ ht-degree: 4%
 * 變數表示參數的值將發生變化。 在行程中使用此自定義操作的營銷人員可以免費傳遞他們想要的值，或指定在何處檢索此參數的值(例如從事件、從Adobe Experience Platform等)。 在這種情況下，切換常數/變數右側的欄位是標籤商在命名此參數的旅程中將看到的標籤。
 
 ![](assets/customactionpayloadmessage2.png)
-
-## 同意管理 {#consent-management}
-
-客戶現在可以定義與隱私相關的同意策略，以在執行操作期間控制傳出資料。 同意策略用作配置檔案屬性的表達式，設定規則以定義是否可以對給定配置檔案執行操作。
-
-Conxent在Content的Conter Content中提供了一種Tel類型的通信利用，即donnée champs dans profile qu vont nicte Concence，包含AEP nuvelles regles de type policies auj gouvernance。 Par例行了Restric電子郵件目標。 關聯標籤(C4/C5)是市場營銷活動。 確定目標，鍵入市場營銷活動。 前SFTP在出口方面的價值，在銷售方面的價值。 在定制行動、電子郵件/簡訊/推送式營銷行動中，市場行動的&quot;egelement&quot;概念。 您自定義。
-
-標籤：quand tu def data set(où stocker tes données)、onglet data gouvernance、pr chaque attribut tu peux definir le type de label associate a cet a a atttribut。 國家代碼標籤C3/C4。 標籤ootb、tu peux en def d&#39;autres en fonction besoin。
-
-
-
- — 吉拉評論 — 
-
-將「附加營銷活動」描述為從業人員解釋自定義活動「意圖」的一種方式，例如：我的定製活動是鍛鍊溝通、通訊、健身溝通等。
-
-描述第一次發佈的同意範圍：
-
-- 在自定義操作中個性化中使用的市場營銷操作和屬性都會考慮在內
-- 對於段觸發的行程（以讀取段開始），該段中用作條件的屬性會被考慮
-- 行程中使用的所有活動（讀取段或自定義操作除外）均未被考慮
-- 不考慮段資格，即使用於開始行程
-
-描述在自定義操作中由同意策略排除的配置檔案仍將繼續完成該過程(iso with Message and suppression list)
-
-描述預期延遲的提醒：https://wiki.corp.adobe.com/display/DMSArchitecture/Consent+Latency
-+ 正確AJO延遲從1h到6h
-
-我們應記錄的兩種延遲類型：
-
-- 用戶延遲，在Carolina Infante上，我不確定我們能說什麼，看這個：
-
-是否需要「UPS投影/導出」，以在配置檔案級別更新「contentTo」欄位（知道我們在運行時使用的內容），我們可以確認嗎？ 因為如果是這種情況，我想我們應該說需要48小時，但如果不是，我們只談到「攝入延遲+收集延遲」（因此，如果攝入中出現高峰或中斷，和/或客戶需要很長時間才能從用戶收集更新，則最壞情況是幾秒到幾小時）。
-
-- 同意政策延遲，我會說「最多6小時」，因為即時旅行將每隔6小時取消同意政策。 Carolina Infante ，您知道我們是否受到篩選延遲的影響嗎？
