@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 94c2e889b38608aa173b62edb498eba7756e68e6
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 29%
+source-wordcount: '336'
+ht-degree: 28%
 
 ---
 
@@ -61,7 +61,3 @@ ht-degree: 29%
 ## 操作參數
 
 在 **[!UICONTROL Action parameters]** 部分，您將看到定義為 _&quot;變數&quot;_。 對於這些參數，可以定義獲取此資訊的位置(例如：事件、資料源)、手動傳遞值或使用高級表達式編輯器進行高級使用案例。 高級使用案例可以是資料操作和其他函式使用。 請參閱此 [頁](expression/expressionadvanced.md)。
-
-**相關主題**
-
-[設定動作](../action/about-custom-action-configuration.md)
