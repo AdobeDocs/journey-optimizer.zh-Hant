@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 107145aab223ad2c6789f46e6b467f2366c59dc2
+source-git-commit: 6958b03907bdc2e57e336efe27d7528cc60f86f2
 workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 0%
@@ -57,7 +57,7 @@ There are two types of latency regarding the use of consent policies:
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action_admin"
 >title="定義必需的市場營銷活動"
->abstract="「必需的市場營銷活動」允許您定義與自定義活動相關的市場營銷活動。 例如，如果您使用該自定義操作發送電子郵件，則可以選擇「電子郵件目標」。 在行程中使用時，將檢索並利用與該市場營銷操作相關的所有同意策略。 無法在畫布上修改此內容。"
+>abstract="「必需的市場營銷」活動允許您定義與自定義活動相關的市場營銷活動。 例如，如果您使用該自定義操作發送電子郵件，則可以選擇「電子郵件目標」。 在行程中使用時，將檢索並利用與該市場營銷操作相關的所有同意策略。 無法在畫布上修改此內容。"
 
 配置自定義操作時，可以使用兩個欄位進行同意管理。
 
