@@ -2,10 +2,10 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 95%
+source-wordcount: '1355'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,8 @@ ht-degree: 95%
 * 已更新登錄頁和訂閱報告的螢幕截圖。 [閱讀全文](../reports/live-report.md)
 * 已添加註釋，說明自定義操作不支援Delete方法。 [閱讀全文](../action/about-custom-action-configuration.md)
 * 已更新指向如何操作視頻的連結。
-
+* 的 [電子郵件配置](../configuration/about-subdomain-delegation.md)。 [消息預設](../configuration/message-presets.md) 和 [配置登錄頁](../configuration/lp-subdomains.md) 已重組了部分，以提高可讀性。
+* 的 **URL跟蹤** 已通過實例更新和改進。 [閱讀全文](../configuration/email-settings.md#url-tracking)
 
 ## 2022 年 4 月 {#april-2022}
 

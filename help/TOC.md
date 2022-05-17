@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 100%
+source-wordcount: '1010'
+ht-degree: 97%
 
 ---
 
@@ -338,25 +338,30 @@ ht-degree: 100%
 + 設定{#configuration}
    + [開始使用 Journey Optimizer 設定](using/configuration/get-started-configuration.md)
    + 設定訊息 {#configuration-message}
-      + 推播通知設定{#push-config}
+      + 配置推送通知{#push-config}
          + [開始使用推播設定](using/configuration/push-gs.md)
          + [設定推播通知頻道](using/configuration/push-configuration.md)
-      + 電子郵件設定 {#email-configuration}
+      + 配置電子郵件 {#email-configuration}
          + 委派子網域 {#delegate-subdomains}
             + [開始使用子網域委派](using/configuration/about-subdomain-delegation.md)
             + [委派子網域](using/configuration/delegate-subdomain.md)
             + [存取委派的子網域](using/configuration/access-subdomains.md)
+         + 管理與子域相關的操作 {#subdomain-related-actions}
             + [新增 Google TXT 記錄](using/configuration/google-txt.md)
             + [存取和編輯 PTR 記錄](using/configuration/ptr-records.md)
-         + [建立 IP 池](using/configuration/ip-pools.md)
+            + [建立 IP 池](using/configuration/ip-pools.md)
          + 監視電子郵件地址 {#monitor-reputation}
             + [管理隱藏清單](using/configuration/manage-suppression-list.md)
             + [重試次數](using/configuration/retries.md)
-         + [變更電子郵件主要地址](using/configuration/primary-email-addresses.md)
       + [設定簡訊頻道](using/configuration/sms-configuration.md)
-      + [建立訊息預設集](using/configuration/message-presets.md)
+      + 設定消息預設 {#set-up-message-presets}
+         + [建立訊息預設集](using/configuration/message-presets.md)
+         + [配置電子郵件設定](using/configuration/email-settings.md)
+      + [管理執行地址](using/configuration/primary-email-addresses.md)
       + [設定頻率規則](using/configuration/frequency-rules.md)
-   + [設定登陸頁面](using/configuration/lp-configuration.md)
+   + 設定登陸頁面 {#lp-configuration}
+      + [配置登錄頁子域](using/configuration/lp-subdomains.md)
+      + [定義登錄頁預設](using/configuration/lp-presets.md)
    + 設定歷程 {#configure-journeys}
       + [關於資料來源、事件和動作](using/configuration/about-data-sources-events-actions.md)
       + [與外部系統整合](using/configuration/external-systems.md)

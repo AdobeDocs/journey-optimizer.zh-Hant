@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 1%
@@ -53,7 +53,7 @@ ht-degree: 1%
 
    ![](assets/lp_create-lp-details.png)
 
-1. 選擇預設。 瞭解如何在中建立登錄頁預設 [此部分](../configuration/lp-configuration.md#lp-create-preset)。
+1. 選擇預設。 瞭解如何在中建立登錄頁預設 [此部分](../configuration/lp-presets.md#lp-create-preset)。
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -81,7 +81,7 @@ ht-degree: 1%
 
    ![](assets/lp_open-designer.png)
 
-1. 定義登錄頁URL。 URL的第一部分要求您先前設定登錄頁子域作為 [預設](../configuration/lp-configuration.md#lp-create-preset) 的上界。 [了解更多](../configuration/lp-configuration.md#lp-subdomains)
+1. 定義登錄頁URL。 URL的第一部分要求您先前設定登錄頁子域作為 [預設](../configuration/lp-presets.md#lp-create-preset) 的上界。 [了解更多](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -133,7 +133,7 @@ ht-degree: 1%
 
 1. 使用內容設計器編輯頁面的內容。 瞭解如何定義登錄頁內容 [這裡](design-lp.md)。
 
-1. 定義登錄頁URL。 URL的第一部分要求您先前設定登錄頁子域。 [了解更多](../configuration/lp-configuration.md#lp-subdomains)
+1. 定義登錄頁URL。 URL的第一部分要求您先前設定登錄頁子域。 [了解更多](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >
