@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 44fb6b2721d1f0c2ab1bb2755aa9cf5970dbad09
 workflow-type: tm+mt
 source-wordcount: '1409'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 89%
 
 * 隨附的所有新功能和改進 [!DNL Journey Optimizer] 5月22日的版本已在文檔中詳細列出。 [閱讀全文](release-notes.md)
 * 與相關的新查詢示例 [分部資格](../reports/query-examples.md#segment-qualification-queries) 和 [事件](../reports/query-examples.md#event-based-queries) 已添加。
-* 電子郵件設計部分現在提到了新的內置模板，可以用於開始內容。 相關螢幕截圖已更新。 [閱讀全文](../design/design-emails.md)
-* Journey Optimizer文檔首頁更新了關鍵資源的連結。
-* 已更新登錄頁和訂閱報告的螢幕截圖。 [閱讀全文](../reports/live-report.md)
-* 已添加註釋，說明自定義操作不支援Delete方法。 [閱讀全文](../action/about-custom-action-configuration.md)
-* 已更新指向如何操作視頻的連結。
+* 電子郵件設計部分現在提到了新的內建範本，可以用於開始撰寫內容。 已更新相關螢幕擷取畫面。[閱讀全文](../design/design-emails.md)
+* Journey Optimizer 文件首頁更新了重要資源的連結。
+* 已更新登陸頁面和訂閱報告的螢幕擷取畫面。 [閱讀全文](../reports/live-report.md)
+* 已加入備註，說明自訂動作不支援 DELETE 方法。 [閱讀全文](../action/about-custom-action-configuration.md)
+* 已更新說明影片的連結。
 * 的 [電子郵件配置](../configuration/about-subdomain-delegation.md)。 [消息預設](../configuration/message-presets.md) 和 [配置登錄頁](../configuration/lp-subdomains.md) 已重組了部分，以提高可讀性。
 * 的 **URL跟蹤** 已通過實例更新和改進。 [閱讀全文](../configuration/email-settings.md#url-tracking)
 * 已添加有關設定轉發電子郵件地址的新子節。 請注意，您不能通過用戶介面進行此操作。 [閱讀全文](../configuration/email-settings.md#forward-email)
