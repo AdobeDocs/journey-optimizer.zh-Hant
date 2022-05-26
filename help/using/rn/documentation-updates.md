@@ -2,9 +2,9 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
+source-git-commit: 44fb6b2721d1f0c2ab1bb2755aa9cf5970dbad09
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1409'
 ht-degree: 89%
 
 ---
@@ -13,13 +13,10 @@ ht-degree: 89%
 
 本頁面列出 [!DNL Journey Optimizer] 所有文件更新。
 
-## 2022 年 6 月 {#june-2022}
-
-* 與相關的新查詢示例 [分部資格](../reports/query-examples.md#segment-qualification-queries) 和 [事件](../reports/query-examples.md#event-based-queries) 已添加到此
-
 ## 2022 年 5 月 {#may-2022}
 
 * 隨附的所有新功能和改進 [!DNL Journey Optimizer] 5月22日的版本已在文檔中詳細列出。 [閱讀全文](release-notes.md)
+* 與相關的新查詢示例 [分部資格](../reports/query-examples.md#segment-qualification-queries) 和 [事件](../reports/query-examples.md#event-based-queries) 已添加。
 * 電子郵件設計部分現在提到了新的內置模板，可以用於開始內容。 相關螢幕截圖已更新。 [閱讀全文](../design/design-emails.md)
 * Journey Optimizer文檔首頁更新了關鍵資源的連結。
 * 已更新登錄頁和訂閱報告的螢幕截圖。 [閱讀全文](../reports/live-report.md)
