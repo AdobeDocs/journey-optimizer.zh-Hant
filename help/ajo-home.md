@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: fe9ae9b7068a883dac61f3b9c9a4aead2ccfb5c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '336'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -169,7 +169,7 @@ ht-degree: 98%
       <a href="using/segment/get-started-identity.md">身分</a>
     </li>
     <p>
-    <p>隱私</p>
+    <p>隱私權</p>
     <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant" target="_blank">原則</a>
     </li>
