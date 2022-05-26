@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: c41bc43643bac4d8715469a18d6908846ddd6bf7
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '867'
 ht-degree: 3%
 
 ---
@@ -193,7 +193,7 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 
 使用 [!DNL Batch Decisioning] API，請牢記以下限制：
 
-* **每個資料集單個批處理作業**:當前，每個資料集一次只能運行單個批處理作業。 具有相同輸出資料集的任何其他請求在上一個請求完成之前都會使用HTTP 429（請求太多）進行響應。
+* **每個資料集正在運行的批處理作業數**:每個資料集一次最多可運行五個批處理作業。 具有相同輸出資料集的任何其他批處理請求都會添加到隊列。 已排隊的作業在前一作業完成運行後被拾取處理。
 * **頻率封蓋**:批處理將運行每天發生一次的配置檔案快照。 的 [!DNL Batch Decisioning] API會限制頻率，並始終從最近的快照載入配置檔案。
 
 ## 後續步驟 {#next-steps}

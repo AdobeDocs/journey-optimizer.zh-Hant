@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: c8e03687d82c6dcfea1195cf8ef091e3d9bc80a5
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1141'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ## 消息/操作錯誤 {#message-action-errors}
 
-### 行程中遇到的每個錯誤清單 {#error-list-journey}
+**行程中遇到的每個錯誤清單**
 
 通過此查詢，可以列出執行消息/操作時在行程中遇到的每個錯誤。
 
@@ -49,7 +49,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 ## 基於配置檔案的查詢 {#profile-based-queries}
 
-### 查找配置檔案是否輸入了特定行程 {#profile-entered-journey}
+**查找配置檔案是否輸入了特定行程**
 
 _資料湖查詢_
 
@@ -71,9 +71,9 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 結果應大於0。 此查詢返回配置檔案輸入行程的確切次數。
 
-### 查找配置檔案是否已發送特定消息 {#profile-specific-message}
+**查找配置檔案是否已發送特定消息**
 
-**方法1:** 如果郵件名稱在行程中不唯一（它在多個位置使用）。
+方法1:如果郵件名稱在行程中不唯一（它在多個位置使用）。
 
 _資料湖查詢_
 
@@ -97,7 +97,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 結果應大於0。 此查詢僅告訴我們消息操作是否在行程端成功執行。
 
-**方法2:** 消息的名稱在旅途中唯一。
+方法2:消息的名稱在旅途中唯一。
 
 _資料湖查詢_
 
@@ -121,7 +121,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 查詢返回所有消息的清單以及為所選配置檔案調用的消息計數。
 
-## 查找配置檔案在過去30天內收到的所有郵件 {#message-received-30-days}
+**查找配置檔案在過去30天內收到的所有郵件**
 
 _資料湖查詢_
 
@@ -147,7 +147,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 查詢返回所有消息的清單以及為所選配置檔案調用的消息計數。
 
-### 查找配置檔案在過去30天內輸入的所有行程 {#profile-entered-30-days}
+**查找配置檔案在過去30天內輸入的所有行程**
 
 _資料湖查詢_
 
@@ -171,7 +171,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 查詢返回所有行程名稱的清單以及查詢的配置檔案輸入行程的次數。
 
-### 每日符合行程條件的配置檔案數 {#profile-qualified}
+**每日符合行程條件的配置檔案數**
 
 _資料湖查詢_
 
@@ -197,7 +197,7 @@ ORDER BY DATE(timestamp) desc
 
 ## 與讀取段相關的查詢 {#read-segment-queries}
 
-### 完成段導出作業所花費的時間
+**完成段導出作業所花費的時間**
 
 _資料湖查詢_
 
@@ -229,7 +229,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 查詢返回段導出作業排隊時間與最終結束時間之間的時間差（以分鐘為單位）。
 
-### 因為配置檔案是重複項而被行程丟棄的配置檔案數
+**因為配置檔案是重複項而被行程丟棄的配置檔案數**
 
 _資料湖查詢_
 
@@ -251,7 +251,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 該查詢將返回因為ID是重複項而被行程丟棄的所有配置檔案ID。
 
-### 由於命名空間無效而被行程丟棄的配置檔案數
+**由於命名空間無效而被行程丟棄的配置檔案數**
 
 _資料湖查詢_
 
@@ -273,7 +273,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 該查詢返回由此行程丟棄的所有配置檔案ID，因為它們具有無效的命名空間或沒有該命名空間的標識。
 
-### 由於沒有身份映射而被行程丟棄的配置檔案數
+**由於沒有身份映射而被行程丟棄的配置檔案數**
 
 _資料湖查詢_
 
@@ -295,7 +295,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 查詢返回因缺少標識映射而被行程丟棄的所有配置檔案Id。
 
-### 由於行程位於test節點且配置檔案不是test配置檔案而被行程丟棄的配置檔案數
+**由於行程位於test節點且配置檔案不是test配置檔案而被行程丟棄的配置檔案數**
 
 _資料湖查詢_
 
@@ -317,7 +317,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 查詢返回由於導出作業在test模式下運行而被行程丟棄的所有配置檔案ID，但配置檔案沒有將testProfile屬性設定為true。
 
-### 由於內部錯誤而被行程丟棄的配置檔案數
+**由於內部錯誤而被行程丟棄的配置檔案數**
 
 _資料湖查詢_
 
@@ -339,7 +339,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 該查詢返回因內部錯誤而被行程丟棄的所有配置檔案ID。
 
-### 給定行程版本的讀段概覽
+**給定行程版本的讀段概覽**
 
 _資料湖查詢_
 
@@ -377,7 +377,7 @@ WHERE
 * 行程版本未達到計畫
 * 如果旅程版本應通過調用orchestrator觸發導出作業，則上行流出現問題：旅程部署問題、業務事件或計畫程式問題。
 
-### 獲取給定行程版本的讀段錯誤
+**獲取給定行程版本的讀段錯誤**
 
 _資料湖查詢_
 
@@ -403,7 +403,7 @@ WHERE
     )
 ```
 
-### 獲取導出作業處理狀態
+**獲取導出作業處理狀態**
 
 _資料湖查詢_
 
@@ -432,7 +432,7 @@ WHERE
 * 建立主題或導出作業期間出錯
 * 導出作業仍在運行
 
-### 獲取導出配置檔案的度量，包括每個導出作業的丟棄和導出作業度量
+**獲取導出配置檔案的度量，包括每個導出作業的丟棄和導出作業度量**
 
 _資料湖查詢_
 
@@ -492,7 +492,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-### 獲取所有導出作業的聚合度量（段導出作業和丟棄）
+**獲取所有導出作業的聚合度量（段導出作業和丟棄）**
 
 _資料湖查詢_
 
@@ -557,31 +557,59 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 ## 與段資格相關的查詢 {#segment-qualification-queries}
 
-### 由於實現的段與配置的段不同，配置檔案被丟棄
+**由於實現的段與配置的段不同，配置檔案被丟棄**
 
 _資料湖查詢_
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
+FROM journey_step_events
 where
-_experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
+_experience.journeyOrchestration.journey.versionID = '<journey-version id>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
 _範例_
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
+FROM journey_step_events
 where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
+_experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94cdf1c4159d' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
 此查詢返回由於段實現錯誤而被行程版本丟棄的所有配置檔案ID。
 
+**段特定配置檔案的任何其他原因放棄的限定事件**
+
+_資料湖查詢_
+
+```sql
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID = '<profile-id>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+_範例_
+
+```sql
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+此查詢返回因配置檔案的任何其他原因而被放棄的所有事件（外部事件/段限定事件）。
+
 ## 基於事件的查詢 {#event-based-queries}
 
-### 檢查是否收到出差的業務事件
+**檢查是否收到出差的業務事件**
 
 _資料湖查詢_
 
@@ -607,9 +635,101 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
+**檢查配置檔案的外部事件是否因未找到相關行程而被丟棄**
+
+_資料湖查詢_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
+_experience.journeyOrchestration.profile.ID = '<profileId>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
+```
+
+_範例_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '515bff852185e434ca5c83bcfc4f24626b1545ca615659fc4cfff91626ce61a6' AND
+_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
+```
+
+**檢查配置檔案的外部事件是否因任何其他原因而被放棄**
+
+_資料湖查詢_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID='<profileID>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='<eventID>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+_範例_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID='mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='81c51be978d8bdf9ef497076b3e12b14533615522ecea9f5080a81c736491656' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+**檢查stateMachine by errorCode丟棄的所有事件的計數**
+
+_資料湖查詢_
+
+```sql
+SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
+```
+
+_範例_
+
+```sql
+SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
+```
+
+**檢查所有已放棄的事件，因為不允許重新進入**
+
+_資料湖查詢_
+
+```sql
+SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
+_experience.journeyOrchestration.journey.versionID,
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
+FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
+```
+
+_範例_
+
+```sql
+SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
+_experience.journeyOrchestration.journey.versionID,
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
+FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
+```
+
 ## 基於行程的常見查詢 {#journey-based-queries}
 
-### 每日活動行程數 {#daily-active-journeys}
+**每日活動行程數**
 
 _資料湖查詢_
 
@@ -633,7 +753,7 @@ ORDER BY DATE(timestamp) desc
 
 ## 旅程實例查詢 {#journey-instances-queries}
 
-### 在特定時間內處於特定狀態的配置檔案數
+**在特定時間內處於特定狀態的配置檔案數**
 
 _資料湖查詢_
 
@@ -781,7 +901,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-### 在特定時間段內離開行程的配置檔案數
+**在特定時間段內離開行程的配置檔案數**
 
 _資料湖查詢_
 
@@ -819,7 +939,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-### 在具有節點/狀態的特定時間段內退出行程的配置檔案數
+**在具有節點/狀態的特定時間段內退出行程的配置檔案數**
 
 _資料湖查詢_
 

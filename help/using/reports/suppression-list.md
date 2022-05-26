@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 3%
+source-wordcount: '769'
+ht-degree: 2%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 3%
 的 [!DNL Journey Optimizer] 隱藏清單由您自己的環境級別管理。
 
 它收集在單個客戶端環境中所有郵件中隱藏的電子郵件地址和域，這意味著特定於與沙盒ID關聯的組織ID。
+
+>[!NOTE]
+>
+>Adobe會保留已知錯誤電子郵件地址的更新清單，這些地址已被證明有害於參與和郵寄聲譽，並確保不會將電子郵件發送給他們。 此清單在全局禁止清單中管理，該清單在所有Adobe客戶中都是通用的。 全局隱藏清單中包含的地址和域名將被隱藏。 在傳遞報告中只指示排除的收件人數。
 
 ## 為什麼要列禁令？ {#why-suppression-list}
 

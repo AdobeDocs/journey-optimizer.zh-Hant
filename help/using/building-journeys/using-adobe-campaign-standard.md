@@ -1,18 +1,19 @@
 ---
-title: Adobe Campaign Standard行動
+title: Adobe Campaign Standard 動作
 description: 瞭解Adobe Campaign Standard操作
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
+source-git-commit: d1902ac35d78ba73051b41b4fc82dc284382d1a4
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Adobe Campaign Standard行動 {#using_campaign_action}
+# Adobe Campaign Standard 動作 {#using_campaign_action}
 
 如果您有Adobe Campaign Standard，則可以使用以下內置操作活動： **[!UICONTROL Email]**。 **[!UICONTROL Push]** 和 **[!UICONTROL SMS]**。
 

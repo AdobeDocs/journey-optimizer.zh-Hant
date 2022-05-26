@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 97%
+source-wordcount: '1040'
+ht-degree: 92%
 
 ---
 
@@ -16,16 +16,19 @@ ht-degree: 97%
 
 + [Journey Optimizer 文件](ajo-home.md)
 + 有什麼新功能？ {#whats-new}
-   + [發行說明](using/rn/release-notes.md)
-   + [最新更新](using/rn/documentation-updates.md)
+   + [最新發行說明](using/rn/release-notes.md)
+   + 舊版版本注意事項 {#previous-rn-new}
+      + [《2022年發行說明》](using/rn/release-notes-2022.md)
+      + [《2021年發行說明》](using/rn/release-notes-2021.md)
+   + [文件更新](using/rn/documentation-updates.md)
 + 快速入門{#get-started}
    + [什麼是 Journey Optimizer](using/start/get-started.md)
    + 快速入門{#quick-start}
       + [總覽](using/start/quick-start.md)
-      + [行銷人員快速入門](using/start/path/marketer.md)
-      + [資料工程師快速入門](using/start/path/data-engineer.md)
-      + [管理員快速入門](using/start/path/administrator.md)
-      + [開發人員快速入門](using/start/path/developer.md)
+      + [作為營銷員開始](using/start/path/marketer.md)
+      + [以資料工程師身份開始](using/start/path/data-engineer.md)
+      + [以管理員身份開始](using/start/path/administrator.md)
+      + [以開發人員身份開始](using/start/path/developer.md)
    + [使用者介面](using/start/user-interface.md)
    + [限制](using/start/limitations.md)
 + 訊息 {#messages}
@@ -60,7 +63,11 @@ ht-degree: 97%
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
    + [建立登陸頁面](using/landing-pages/create-lp.md)
-   + [設計登陸頁面](using/landing-pages/design-lp.md)
+   + 設計內容 {#landing-pages-design}
+      + [關於登錄頁設計](using/landing-pages/design-lp.md)
+      + [建立登錄頁內容](using/landing-pages/lp-content.md)
+      + [建立範本](using/landing-pages/lp-templates.md)
+      + [添加自定義JavaScript](using/landing-pages/lp-custom-js.md)
    + [建立訂閱清單](using/landing-pages/subscription-list.md)
    + [使用案例](using/landing-pages/lp-use-cases.md)
 + 個人化{#personalization}
@@ -179,6 +186,7 @@ ht-degree: 97%
             + [在 ](using/building-journeys/functions/functionin.md)
             + [相交](using/building-journeys/functions/functionintersect.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
+            + [限](using/building-journeys/functions/functionlimit.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
          + Math {#math}
@@ -245,6 +253,7 @@ ht-degree: 97%
       + [開始使用傳遞能力](using/reports/deliverability.md)
       + [隱藏清單](using/reports/suppression-list.md)
       + [允許清單](using/reports/allow-list.md)
+   + [對Journey Optimizer資源的審計行動](using/reports/audit-logs.md)
 + 決定管理 {#offer-decisioniong}
    + 開始使用決定管理 {#get-started-decision}
       + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
@@ -391,3 +400,5 @@ ht-degree: 97%
    + [管理使用者和產品設定檔](using/administration/permissions.md)
    + [權限層級](using/administration/high-low-permissions.md)
    + [沙盒管理](using/administration/sandboxes.md)
+   + [基於屬性的訪問控制](using/administration/attribute-based-access.md)
+

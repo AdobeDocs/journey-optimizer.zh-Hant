@@ -110,7 +110,7 @@ ht-degree: 6%
    >
    >在本例中，我們只使用優先順序分數。 瞭解更多 [資格規則和約束](../../using/offers/offer-library/creating-personalized-offers.md#eligibility)。
 
-## 配置優惠 {#configure-offers}
+## 設定優惠方案 {#configure-offers}
 
 您現在可以建立和配置您的優惠。 在本示例中，您將建立四個要根據每個特定配置檔案顯示的優惠。
 

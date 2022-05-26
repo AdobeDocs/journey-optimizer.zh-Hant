@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1100'
 ht-degree: 1%
 
 ---
@@ -132,6 +132,10 @@ ht-degree: 1%
 1. 可以更改頁面名稱， **[!UICONTROL Subpage 1]** 預設值。
 
 1. 使用內容設計器編輯頁面的內容。 瞭解如何定義登錄頁內容 [這裡](design-lp.md)。
+
+   >[!NOTE]
+   >
+   >可以從同一登錄頁的任何子頁插入指向首頁的連結。 例如，要重定向出錯並想重新訂閱的用戶，可以將確認子頁的連結添加到訂閱首頁。 瞭解如何在 [此部分](../design/message-tracking.md#insert-links)。
 
 1. 定義登錄頁URL。 URL的第一部分要求您先前設定登錄頁子域。 [了解更多](../configuration/lp-subdomains.md)
 

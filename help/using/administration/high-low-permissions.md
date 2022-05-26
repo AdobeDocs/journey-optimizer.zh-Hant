@@ -5,9 +5,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -431,22 +431,24 @@ ht-degree: 0%
    * landing_page_preset_write
    * landing_page_preset_delete
 
-### [!DNL Manage frequency rules] 權限 {#manage-frequency-rules}
+<!--
+### [!DNL Manage frequency rules] permission {#manage-frequency-rules}
 
-的 **[!DNL Manage frequency rules]** 高級權限允許用戶讀取、建立、編輯、刪除和激活/停用頻率規則。
+The **[!DNL Manage frequency rules]** high-level permission allows users to read, create, edit, delete and activate/deactivate frequency rules.
 
-它包括以下低級權限：
+It includes the following low-level permissions:
 
-* Journey Optimizer特別：
-   * frequency_rules_read
-   * frequency_rules_write
-   * frequency_rules_delete
+* Journey Optimizer specific: 
+  * frequency_rules.read
+  * frequency_rules.write
+  * frequency_rules.delete
 
-### [!DNL View frequency rules] 權限 {#view-frequency-rules}
+### [!DNL View frequency rules] permission {#view-frequency-rules}
 
-的 **[!DNL View frequency rules]** 高級權限允許用戶查看頻率規則。
+The **[!DNL View frequency rules]** high-level permission allows users to view frequency rules. 
 
-它包括以下低級權限：
+It includes the following low-level permissions:
 
-* Journey Optimizer特別：
-   * frequency_rules_read
+* Journey Optimizer specific: 
+  * frequency_rules.read
+-->

@@ -6,19 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '164'
 ht-degree: 6%
 
 ---
 
-# 更改主電子郵件地址 {#change-primary-email}
+# 更改主地址 {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
 >title="定義要使用的地址"
->abstract="當資料庫中有多個地址（個人地址、專業地址等）可用時，您可以選擇優先發送的電子郵件地址。"
+>abstract="當資料庫中有多個地址（個人地址、專業地址等）可用時，您可以選擇發送的優先順序。"
 
 當您針對配置檔案時，資料庫中可能有幾個電子郵件地址（個人、專業電子郵件地址等）。
 

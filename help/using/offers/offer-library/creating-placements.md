@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '234'
 ht-degree: 15%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 15%
 
    * **[!UICONTROL Name]**:放置的名稱。 確保定義有意義的名稱，以便更輕鬆地檢索它。
    * **[!UICONTROL Channel type]**:將使用放置的通道。
-   * **[!UICONTROL Content type]**:允許放置顯示的內容類型：文本、HTML或影像連結。
+   * **[!UICONTROL Content type]**:允許放置顯示的內容類型：文本、HTML、影像連結或JSON。
    * **[!UICONTROL Description]**:位置的說明（可選）。
 
    ![](../assets/offers_placement_creation_properties.png)

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1527'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,6 @@ ht-degree: 2%
 >
 >在測試您的行程之前，必須解決所有錯誤（如果有）。 瞭解如何在測試之前檢查錯誤 [此部分](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)。
 
-
 要使用test模式，請執行以下步驟：
 
 1. 要激活test模式，請激活 **[!UICONTROL Test]** 切換，位於右上角。
@@ -41,7 +40,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >在行程中使用反應事件時，等待時間預設值為40秒。 請參閱[本節](../building-journeys/reaction-events.md)。
+   >在行程中使用超時的反應事件時，等待時間預設值為40秒。 請參閱[本節](../building-journeys/reaction-events.md)。
 
 1. 使用 **[!UICONTROL Trigger an event]** 按鈕來配置事件並將事件發送到旅程。
 
@@ -102,7 +101,7 @@ ht-degree: 2%
 
 在test中開啟行程時，顯示的路徑對應於執行的最後一個test。
 
-無論事件是通過介面觸發還是從外部觸發（例如使用Postman），可視流都有效。
+無論事件是通過介面觸發還是從外部觸發(例如使用Postman)，可視流都有效。
 
 ## 基於規則的行程的test模式 {#test-rule-based}
 

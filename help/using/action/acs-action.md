@@ -1,18 +1,19 @@
 ---
-title: 與Adobe Campaign Standard整合
+title: 與 Adobe Campaign Standard 整合
 description: 瞭解如何與Adobe Campaign Standard整合
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
+source-git-commit: d1902ac35d78ba73051b41b4fc82dc284382d1a4
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# 與Adobe Campaign Standard整合 {#using_adobe_campaign_standard}
+# 與 Adobe Campaign Standard 整合 {#using_adobe_campaign_standard}
 
 您可以使用Adobe Campaign Standard的事務性消息傳遞功能發送電子郵件、推送通知和SMS。
 

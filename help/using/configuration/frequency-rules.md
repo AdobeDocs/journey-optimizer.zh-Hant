@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '865'
 ht-degree: 1%
 
 ---
@@ -31,15 +31,19 @@ ht-degree: 1%
 
 規則可從 **[!UICONTROL Administration]** > **[!UICONTROL Rules]** 的子菜單。 將列出所有規則，並按修改日期排序。
 
->[!NOTE]
->
->要訪問、建立、編輯或刪除消息頻率規則，必須 [管理頻率規則](../administration/high-low-permissions.md#manage-frequency-rules) 權限。
-
-![](assets/message-rules-access.png)
-
 使用篩選器表徵圖可以篩選類別、狀態和/或通道。 您也可以在消息標籤上搜索。
 
 ![](assets/message-rules-filter.png)
+
+### 權限{#permissions-frequency-rules}
+
+要訪問、建立、編輯或刪除消息頻率規則，必須 **[!UICONTROL Manage frequency rules]** 權限。
+
+具有 **[!UICONTROL View frequency rules]** 權限可以查看規則，但不能修改或刪除規則。
+
+![](assets/message-rules-access.png)
+
+瞭解有關中權限的詳細資訊 [此部分](../administration/high-low-permissions.md)。
 
 ## 建立規則 {#create-new-rule}
 
@@ -77,9 +81,9 @@ ht-degree: 1%
 
 1. 如果要將覆蓋覆蓋覆蓋覆蓋覆蓋覆蓋覆蓋所有選定通道作為總計數，請選擇多個通道。
 
-   例如，將上限設定為15並同時選擇電子郵件和推送通道。 如果某個配置檔案已收到10封營銷電子郵件和5封營銷推送通知，則此配置檔案將從任何營銷電子郵件或推送通知的下一次交付中排除。
+   例如，將上限設定為15，然後同時選擇電子郵件和推送通道。 如果某個配置檔案已收到10封營銷電子郵件和5封營銷推送通知，則此配置檔案將從任何營銷電子郵件或推送通知的下一次交付中排除。
 
-1. 按一下 **[!UICONTROL Save as draft]** 確認規則建立。 您的消息將添加到規則清單中， **[!UICONTROL Draft]** 狀態。
+1. 按一下 **[!UICONTROL Save as draft]** 確認規則建立。 您的消息將添加到規則清單， **[!UICONTROL Draft]** 狀態。
 
    ![](assets/message-rules-created.png)
 
@@ -93,7 +97,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->您無需修改或重新發佈消息或行程，規則即可生效。
+>完全激活規則可能需要10分鐘。 您無需修改或重新發佈消息或行程，規則即可生效。
 
 要取消激活消息頻率規則，請按一下該規則旁邊的省略號，然後選擇 **[!UICONTROL Deactivate]**。
 
@@ -132,6 +136,10 @@ ht-degree: 1%
 1. [設計](../design/design-emails.md) 和 [發佈](../messages/publish-manage-message.md) 你的留言。
 
 所有與所選類別和通道匹配的頻率規則將自動應用於此消息。
+
+>[!NOTE]
+>
+>消息 <!--that do not have any selected category or messages -->其中選定的類別 **[!UICONTROL Transactional]** 不會根據頻率規則進行評估。
 
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
@@ -178,3 +186,7 @@ ht-degree: 1%
 在此方案中，單個配置檔案：
 * 每月最多可收到12條營銷資訊；
 * 但在收到4個推送通知後，將不再提供營銷推送通知。
+
+>[!NOTE]
+>
+>在測試頻率規則時，從新建立的規則開始可能會很有幫助 [test配置檔案](../segment/creating-test-profiles.md)，因為一旦達到配置檔案的頻率上限，則直到下個月才能重置計數器。 停用規則將允許封閉配置檔案接收消息，但不會刪除或刪除任何計數器增量。

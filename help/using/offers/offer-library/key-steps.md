@@ -41,7 +41,7 @@ ht-degree: 13%
 <td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../offer-library/create-ranking-formulas.md">建立排名公式</a></p></td>
 </table>
 
-## 建立和管理優惠 {#create-and-manage-offers}
+## 建立和管理優惠方案 {#create-and-manage-offers}
 
 1. **建立優惠**，並配置其內容和屬性。
 

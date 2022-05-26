@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
-workflow-type: ht
-source-wordcount: '651'
-ht-degree: 100%
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 96%
 
 ---
 
@@ -69,9 +69,15 @@ ht-degree: 100%
 
    * 選擇要用於訊息的通道：電子郵件和/或推播通知。 必須至少選擇一個通道才能建立訊息。
 
+   <!--
+   >[!NOTE]
+   >
+   >You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). Learn more on [frequency rules](../configuration/frequency-rules.md).
+   -->
+
    * 選擇 **[!UICONTROL Preset]** 用於訊息。
 
-      預設集包含所需的所有參數，以便根據您的品牌傳送電子郵件和/或推播通知。 [進一步瞭解預設集](../configuration/message-presets.md)。
+      預設集包含所需的所有參數，以便根據您的品牌傳送電子郵件和/或推播通知。 瞭解更多 [預設](../configuration/message-presets.md)。
    >[!CAUTION]
    >
    >您必須為所選類別和頻道選擇有效的訊息預設集。
@@ -83,6 +89,10 @@ ht-degree: 100%
    每個選定通道都可使用一個標籤。 利用這些標籤為每個通道設定內容。 選擇標籤並在右側按一下 **[!UICONTROL Delete channel]** 按鈕您便可移除標籤。
 
    ![](assets/create-messages-content.png)
+
+   >[!NOTE]
+   >
+   >如果啟用 **[!UICONTROL BCC email]** 選項中，BCC電子郵件地址將顯示在發件人電子郵件下。 [了解更多](../configuration/email-settings.md#bcc-email)
 
    您現在可以建立訊息內容並調整設定。 有關電子郵件及推播通知設定的詳細資訊，請參見以下章節：
 
