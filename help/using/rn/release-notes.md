@@ -2,9 +2,9 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
+source-git-commit: 53a625c0e62fbfae703b40bb1d47105c168730ea
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '387'
 ht-degree: 34%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 34%
 <tbody>
 <tr>
 <td>
+<p>可用日期： <strong>5月31日</strong></p>
 <p>您現在可以使用電子郵件密件抄送（Email BCC，盲碳拷貝）功能來儲存Adobe Journey Optimizer發送的電子郵件。 在電子郵件預設中啟用此選項，以便將發送的每封電子郵件都盲目複製到您的密件抄送地址。</p>
 <img src="assets/bcc-rn.gif"/>
 <p>如需詳細資訊，請參閱<a href="../configuration/email-settings.md#bcc-email">詳細文件</a>。</p>

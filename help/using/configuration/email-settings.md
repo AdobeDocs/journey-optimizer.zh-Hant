@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 13fbe0583affb48269932134ea6bc214180903dd
+source-git-commit: c48d083445d4e4c7cdbed1a61cee13ed3fcfcc8b
 workflow-type: tm+mt
-source-wordcount: '2152'
+source-wordcount: '2166'
 ht-degree: 2%
 
 ---
@@ -138,6 +138,10 @@ ht-degree: 2%
 
 您可以發送由 [!DNL Journey Optimizer] 收件箱。 此可選功能允許您保留您發送給用戶的電子郵件通信副本，以便符合和/或存檔。 這對遞送收件人是不可見的。
 
+>[!CAUTION]
+>
+>此功能將可以啟動 **5月31日**。
+
 ### 啟用密件抄送電子郵件 {#enable-bcc}
 
 啟用 **[!UICONTROL BCC email]** 選項，在「專用」欄位中輸入您選擇的電子郵件地址。 您可以以正確的格式指定任何外部地址，但委派子域上定義的電子郵件地址除外。 例如，如果委派的子域是 *營銷.luma.com*&#x200B;任何地址 *abc@marketing.luma.com* 禁止。
@@ -145,6 +149,8 @@ ht-degree: 2%
 >[!NOTE]
 >
 >您只能定義一個密件抄送電子郵件地址。 確保BCC地址具有足夠的接收容量來儲存使用當前預設發送的所有電子郵件。
+>
+>中列出了更多建議 [此部分](#bcc-recommendations-limitations)。
 
 ![](assets/preset-bcc.png)
 
@@ -168,23 +174,26 @@ BCC電子郵件地址設定將立即保存並處理在預設級別。 當你 [�
 >
 >您不需要重新發佈消息或行程以接收BCC設定。
 
-### Recommendations和限制 {#recommendations-limitations}
+### Recommendations和限制 {#bcc-recommendations-limitations}
 
-* 確保正確設定密件抄送電子郵件地址。 如果不是，您的客戶的個人身份資訊(PII)可能會發送到不需要的地址。
+* 為確保您的隱私合規性，BCC電子郵件必須由能夠安全儲存個人身份資訊(PII)的存檔系統處理。
 
-* 出於隱私原因，BCC電子郵件必須由能夠安全儲存個人身份資訊(PII)的存檔系統處理。
-
-* 此功能可能在傳遞給收件人之前傳遞給BCC電子郵件地址，這可能導致發送BCC郵件，即使原始傳遞可能具有 [彈](../reports/suppression-list.md#delivery-failures)。
-
-   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
-
-* 如果開啟並按一下發送到密件抄送地址的電子郵件，則在開啟和按一下發送分析中的總次數中將考慮此問題，這可能會導致在 [報告](../reports/message-monitoring.md)。 同樣，將BCC電子郵件標籤為垃圾郵件會導致電子郵件落入收件箱的垃圾郵件資料夾中。
+* 由於郵件可以包含敏感或私有資料，因此請確保BCC地址正確，並確保對郵件的訪問安全。
 
 * 您用於密件抄送的收件箱應正確管理空間和傳遞。 如果收件箱返回回復，則可能無法接收某些電子郵件，因此無法存檔。
 
+* 郵件可以在目標收件人之前傳送到密件抄送電子郵件地址。 即使原始消息可能具有 [彈](../reports/suppression-list.md#delivery-failures)。
+
+   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+
+* 不要開啟或按一下發送到密件抄送地址的電子郵件，因為在發送分析的總開啟和按一下時會考慮電子郵件，這可能會導致在 [報告](../reports/message-monitoring.md)。
+
+* 不要在密件抄送收件箱中將郵件標籤為垃圾郵件，因為它會影響發送到此地址的所有其他電子郵件。
+
+
 >[!CAUTION]
 >
->避免在發送到密件抄送地址的電子郵件中按一下取消訂閱連結，因為您將立即取消訂閱相應收件人。
+>不要在發送到密件抄送地址的電子郵件中按一下取消訂閱連結，因為您將立即取消訂閱相應收件人。
 
 ### GDPR合規性 {#gdpr-compliance}
 
