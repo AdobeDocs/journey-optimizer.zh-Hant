@@ -2,7 +2,7 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 44fb6b2721d1f0c2ab1bb2755aa9cf5970dbad09
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 94%
@@ -39,7 +39,7 @@ ht-degree: 94%
 ## 2022 年 3 月 {#march-2022}
 
 * 有關所有 [!DNL Journey Optimizer]2022 年 3 月發行版本新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
-* 已在 AI 模型快速入門手冊的 **Offer Decisioning** 部分新增頁面，詳細說明了[自動最佳化模型](../offers/offer-library/ai-ranking.md#auto-optimization)、其所使用的演算法及其他技術細節。 [閱讀全文](../offers/offer-library/ai-ranking.md)
+* 已在 AI 模型快速入門手冊的 **Offer Decisioning** 部分新增頁面，詳細說明了[自動最佳化模型](../offers/ranking/auto-optimization-model.md)、其所使用的演算法及其他技術細節。 [閱讀全文](../offers/ranking/ai-models.md)
 * 測試設定檔建立頁面已移至&#x200B;**區段、設定檔及身分**&#x200B;的章節。 [閱讀全文](../segment/creating-test-profiles.md)
 * 在運算式編輯器中新增了如何加入運算式作為預設值的範例。[閱讀全文](../building-journeys/expression/field-references.md#default-value)
 * **建立個人化優惠**&#x200B;區段已重新整理，以提高可讀性。 [閱讀全文](../offers/offer-library/creating-personalized-offers.md)
@@ -55,8 +55,8 @@ ht-degree: 94%
 ## 2022 年 1 月 {#january-2022}
 
 * 有關所有 [!DNL Journey Optimizer]2022 年 1 月發行版本新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
-* **Offer decisioning AI 排名**&#x200B;區段已更新，針對自動最佳化模型提供更詳細的說明。[閱讀全文](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
-* 加入關於方案要求的新部分，以便在使用排名策略時能夠在事件類型中傳送。 [閱讀全文](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
+* **Offer decisioning AI 排名**&#x200B;區段已更新，針對自動最佳化模型提供更詳細的說明。[閱讀全文](../offers/ranking/auto-optimization-model.md)
+* 加入關於方案要求的新部分，以便在使用排名策略時能夠在事件類型中傳送。 [閱讀全文](../offers/ranking/schema-requirement.md)
 * 有關 [!DNL Journey Optimizer] 個人化功能的章節已重新整理，以便更容易閱讀。 [閱讀全文](../personalization/personalize.md)
 * 為了提高清晰度，**建立訊息預設集**&#x200B;部分改為若干部分。 [閱讀全文](../configuration/message-presets.md#create-message-preset)
 * **選擇退出管理**&#x200B;區段變得清晰，並稍作重組。 [閱讀全文](../messages/consent.md#opt-out-management)
@@ -106,7 +106,7 @@ ht-degree: 94%
 
 * 新增子區段，在套用限制在指定版位限制優惠選擇時，釐清使用區段與決定規則之間的差異。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
-* 新增特定排名公式範例，以說明一些實際使用案例。 [閱讀全文](../offers/offer-library/create-ranking-formulas.md#ranking-formula-examples)
+* 新增特定排名公式範例，以說明一些實際使用案例。 [閱讀全文](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
 * 新增如何編輯 IP 集區的子區段。 [閱讀更多](../configuration/ip-pools.md#edit-ip-pool)
 

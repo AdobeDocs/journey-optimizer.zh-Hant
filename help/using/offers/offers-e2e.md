@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 6%
@@ -104,7 +104,7 @@ ht-degree: 6%
 
 1. 如果要定義規則，確定應首先為給定的職位提供哪個聘用（而不是考慮聘用的優先順序分數），您可以建立 **排序公式**。
 
-   有關建立排名公式的詳細步驟，請參見 [此部分](../../using/offers/offer-library/create-ranking-formulas.md#create-ranking-formula)。
+   有關建立排名公式的詳細步驟，請參見 [此部分](../../using/offers/ranking/create-ranking-formulas.md#create-ranking-formula)。
 
    >[!NOTE]
    >

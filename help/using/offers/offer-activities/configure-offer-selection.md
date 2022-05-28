@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 5%
+source-wordcount: '441'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 5%
 如果幾個優惠適合給定的放置，則您可以選擇在配置決策時為每個配置檔案選擇最佳優惠的方法。 您可以按以下方式對優惠進行排序：
 * 提供優先順序
 * 排名公式
-* [AI排名](#use-ranking-strategy) （僅限於選定用戶的早期訪問）
+* [AI 排名](#use-ranking-strategy)
 
 ![](../assets/offer-rank-by.png)
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 
 例如，您可以提高結束日期在24小時以內的所有優惠的優先順序，或者，如果配置檔案的興趣點是「正在運行」，則提高「正在運行」類別中的優惠。
 
-瞭解如何在中建立排名公式 [此部分](../offer-library/create-ranking-formulas.md)。
+瞭解如何在中建立排名公式 [此部分](../ranking/create-ranking-formulas.md)。
 
 一旦建立了排名公式，您就可以將其分配給決策中的位置。 請依照下列步驟執行此操作：
 
@@ -62,11 +62,7 @@ ht-degree: 5%
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-您還可以使用經過培訓的模型系統自動對提供的服務進行評級，通過選擇評級策略來顯示給定配置檔案。 瞭解如何在 [此部分](../offer-library/create-ranking-strategies.md)。
-
->[!CAUTION]
->
->AI排名的使用目前僅在選擇用戶的早期訪問中可用。
+您還可以使用經過培訓的模型系統自動對提供的服務進行評級，通過選擇評級策略來顯示給定配置檔案。 瞭解如何在 [此部分](../ranking/create-ranking-strategies.md)。
 
 一旦建立了排名策略，您就可以將其分配給決策中的位置。 要執行此操作，請執行以下步驟：
 

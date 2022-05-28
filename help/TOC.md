@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 92%
+source-wordcount: '1058'
+ht-degree: 90%
 
 ---
 
@@ -264,10 +264,16 @@ ht-degree: 92%
       + [建立位置](using/offers/offer-library/creating-placements.md)
       + [建立決定規則](using/offers/offer-library/creating-decision-rules.md)
       + [建立標籤](using/offers/offer-library/creating-tags.md)
-      + [建立排名公式](using/offers/offer-library/create-ranking-formulas.md)
-      + 建立 AI 排名模型 {#create-ai-ranking-models}
-         + [關於 AI 模型](using/offers/offer-library/ai-ranking.md)
-         + [建立 AI 模型](using/offers/offer-library/create-ranking-strategies.md)
+   + 建立排名 {#rankings}
+      + [開始排名](using/offers/ranking/get-started-rankings.md)
+      + [排序公式](using/offers/ranking/create-ranking-formulas.md)
+      + AI模型 {#ai-models}
+         + [關於 AI 模型](using/offers/ranking/ai-models.md)
+         + [自動優化模型](using/offers/ranking/auto-optimization-model.md)
+         + 建立 AI 模型 {#configure-ai-model}
+            + [建立資料集以收集事件](using/offers/ranking/create-dataset.md)
+            + [建立AI模型](using/offers/ranking/create-ranking-strategies.md)
+            + [配置事件捕獲](using/offers/ranking/schema-requirement.md)
    + 建立和管理優惠方案 {#managing-offers-in-the-offer-library}
       + 設定優惠方案 {#configure-offers}
          + [建立個人化優惠方案](using/offers/offer-library/creating-personalized-offers.md)
