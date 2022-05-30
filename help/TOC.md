@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 9f7339069a9ccfbe3fa2bf8bf8e06fe90bd0d407
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 90%
@@ -185,8 +185,8 @@ ht-degree: 90%
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
             + [在 ](using/building-journeys/functions/functionin.md)
             + [相交](using/building-journeys/functions/functionintersect.md)
-            + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [限](using/building-journeys/functions/functionlimit.md)
+            + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
          + Math {#math}
