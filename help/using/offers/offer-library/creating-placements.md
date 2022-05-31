@@ -36,7 +36,7 @@ ht-degree: 15%
 
 1. 按一下「**[!UICONTROL Create placement]**」。
 
-   !![](../assets/offirs _placement_creation.png)
+   ![](../assets/offers_placement_creation.png)
 
 1. 定義放置的屬性：
 
