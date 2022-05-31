@@ -2,10 +2,10 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
+source-git-commit: 65c2ba7e0931f449a29d1e7ff01d6d68fccca448
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 33%
+source-wordcount: '372'
+ht-degree: 36%
 
 ---
 
@@ -39,23 +39,23 @@ ht-degree: 33%
 </table-->
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>電子郵件密件抄送</strong><br/></th>
+<th><strong>Email BCC</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>可用日期： <strong>5月31日</strong></p>
-<p>您現在可以使用電子郵件密件抄送（Email BCC，盲碳拷貝）功能來儲存Adobe Journey Optimizer發送的電子郵件。 在電子郵件預設中啟用此選項，以便將發送的每封電子郵件都盲目複製到您的密件抄送地址。</p>
+<p>Availability date: <strong>May, 31</strong></p>
+<p>You can now use the Email BCC (blind carbon copy) capability to store emails sent by Adobe Journey Optimizer. Enable this option in your email presets so that every email sent is blind-copied to your BCC address.</p>
 <img src="assets/bcc-rn.gif"/>
-<p>如需詳細資訊，請參閱<a href="../configuration/email-settings.md#bcc-email">詳細文件</a>。</p>
+<p>For more information, refer to the <a href="../configuration/email-settings.md#bcc-email">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <table>
