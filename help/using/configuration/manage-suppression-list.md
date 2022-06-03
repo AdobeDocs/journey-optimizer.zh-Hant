@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 2%
+source-wordcount: '1105'
+ht-degree: 1%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 2%
 * 對您的電子郵件發出某種垃圾郵件投訴的收件人。
 
 這些電子郵件地址自動收集到Journey Optimizer **隱藏清單**。 瞭解有關禁止顯示清單概念和中使用的詳細資訊 [此部分](../reports/suppression-list.md)。
+
+您也可以 [**手動** 添加地址或域](#add-addresses-and-domains) 到禁止清單。
+
+>[!NOTE]
+>
+>需要0到60分鐘 [!DNL Journey Optimizer] 考慮傳出電子郵件中隱藏的地址。
 
 ## 訪問禁止顯示清單 {#access-suppression-list}
 
@@ -105,7 +111,7 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
->title="將電子郵件/域添加到禁止顯示清單"
+>title="將電子郵件或域添加到禁止顯示清單"
 >abstract="您可以手動填充Journey Optimizer禁止清單，以將特定電子郵件地址和/或域從您的發送中排除。"
 
 當消息無法傳遞到電子郵件地址時，此地址將根據定義的抑制規則或彈出計數自動添加到抑制清單中。
@@ -139,6 +145,10 @@ ht-degree: 2%
 
 1. 根據需要指定原因。
 
+   >[!NOTE]
+   >
+   >只允許包含32到126之間的ASCII字元。 完整清單可在 [此頁](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如{target=&quot;_blank&quot;}。
+
 1. 按一下「**[!UICONTROL Submit]**」。
 
 ### 上載CSV檔案 {#upload-csv-file}
@@ -159,6 +169,9 @@ ht-degree: 2%
    EMAIL,abc@somedomain.com,Comment
    DOMAIN,somedomain.com,Comment
    ```
+   >[!NOTE]
+   >
+   >對於「注釋」列，只允許包含32到126之間的ASCII字元。 完整清單可在 [此頁](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如{target=&quot;_blank&quot;}。
 
    您也可以從 **[!UICONTROL Suppression list]** 的子菜單。
 
@@ -175,6 +188,10 @@ ht-degree: 2%
    ![](assets/suppression-list-upload-file-button.png)
 
 1. 按一下「**[!UICONTROL Submit]**」。
+
+>[!NOTE]
+>
+>上載完成後，請通過從介面檢查其狀態來確保上載成功。 [瞭解如何](#recent-uploads)
 
 ### 檢查最近上載狀態 {#recent-uploads}
 

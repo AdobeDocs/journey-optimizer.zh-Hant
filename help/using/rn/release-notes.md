@@ -2,10 +2,10 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 35%
+source-wordcount: '465'
+ht-degree: 31%
 
 ---
 
@@ -122,11 +122,11 @@ ht-degree: 35%
 * **返回首頁**  — 現在，您可以從同一登錄頁內的任何子頁添加到首頁的連結。
 * **自定義JavaScript支援**  — 現在，您可以將自定義JavaScript添加到登錄頁內容中，以執行高級樣式設定或將自定義行為添加到登錄頁。	[了解更多](../landing-pages/lp-custom-js.md)
 
-<!--**Decision management**
-
-* **HTML and JSON files support** - You can now drag and drop external HTML and JSON files from the AEM repository into the offer representation content.-->
-
 **歷程**
 
 * **讀取段**  — 一次性讀取段行程現在在行程執行30天後移至「已完成」狀態。 對於計畫的讀取段，它是在上次執行該事件後30天。 [閱讀全文](../building-journeys/read-segment.md)
 * **表達式編輯器** - [限](../building-journeys/functions/functionlimit.md) 已添加函式，以允許您限制清單的項數。 的 [排序](../building-journeys/functions/functionsort.md) 函式現在允許您對清單對象進行排序。 對listObject的支援也添加到 [斷層](../building-journeys/functions/functiondistinct.md) 和 [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 的子菜單。
+
+**管理**
+
+**許可證使用儀表板更新** -Adobe Experience PlatformUI中提供的許可證使用儀表板現在反映了 **許可** 平均配置檔案豐富度。 作為Journey Optimizer的客戶，您將看到此度量表示法中的一個下降，這意味著您獲得許可的使用情況現在已正確報告。 [進一步了解](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target=&quot;_blank&quot;}

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '245'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->要瞭解旅程版本限制的更多資訊，請參閱 [此頁](../start/limitations.md#journey-versions-limitations)
+>要瞭解有關旅程版本的護欄和限制的更多資訊，請參見 [此頁](../start/guardrails.md#journey-versions-limitations)
 
 1. 開啟您的即時旅程的最新版本，按一下 **[!UICONTROL Create a new version]** 確認一下。
 

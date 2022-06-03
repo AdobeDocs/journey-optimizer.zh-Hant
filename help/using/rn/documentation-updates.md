@@ -2,7 +2,7 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 94%
@@ -98,7 +98,7 @@ ht-degree: 94%
 
 * 新增在資料湖中查詢歷程步驟事件的常用範例。 [閱讀更多](../reports/query-examples.md)
 
-* 新增&#x200B;**限制**&#x200B;頁面。 [閱讀全文](../start/limitations.md)
+* 新增&#x200B;**限制**&#x200B;頁面。 [閱讀全文](../start/guardrails.md)
 
 * 改進&#x200B;**快速入門**&#x200B;頁面，包含不同角色步驟。 [閱讀全文](../start/quick-start.md)
 
@@ -144,7 +144,7 @@ ht-degree: 94%
 * 在文件和畫面中，將「優惠方案活動」重新命名為「決定」，將「決定」重新命名為「決定範圍」。 [閱讀全文](../offers/get-started/starting-offer-decisioning.md)
 * 新使用案例： [透過協助工具功能個人化訊息](../personalization/personalization-use-case-helper-functions.md)
 * 更新讀取區段文件以凸顯具體化區段的影響。 [閱讀全文](../building-journeys/read-segment.md)
-* 更新歷程限制。 [閱讀全文](../start/limitations.md)
+* 更新歷程限制。 [閱讀全文](../start/guardrails.md)
 * 更新「在決定中設定優惠」區段。 [閱讀全文](../offers/offer-activities/configure-offer-selection.md)
 * 新增警告，提示目前不支援事件型優惠。 [閱讀全文](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * 記錄「決定管理」新 **[!UICONTROL Overview]** 標籤。 [閱讀全文](../offers/get-started/user-interface.md#overview)

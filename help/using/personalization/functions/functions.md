@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1361'
 ht-degree: 4%
 
 ---
@@ -198,6 +198,9 @@ ht-degree: 4%
     </tr>
     <tr>
         <td><a href="string.md#matches">符合</a></td><td>此函式用於確定字串是否與特定規則運算式匹配</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#mask">蒙版</a></td><td>此函式用「X」字元替換字串的一部分。</td>
     </tr>
     <tr>
         <td><a href="string.md#notEqualTo">不等於</a></td><td>此函式用於確定字串是否不等於指定的字串</td>
