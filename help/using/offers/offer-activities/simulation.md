@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '819'
 ht-degree: 1%
 
 ---
@@ -41,11 +41,17 @@ ht-degree: 1%
 
 ## 選擇test配置檔案 {#select-test-profiles}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_simulation_test_profile"
+>title="添加test配置檔案"
+>abstract="可以通過選擇標識命名空間和相應的標識值來添加test配置檔案。 您必須具有可用的test配置檔案才能使用它們進行模擬。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="建立測試設定檔"
+
 首先，您需要選擇要用於模擬的test配置檔案。
 
 >[!CAUTION]
 >
->您必須具有test配置檔案才能預覽郵件和發送校樣。 瞭解如何 [建立test配置檔案](../../segment/creating-test-profiles.md)。
+>您必須具有test配置檔案，以模擬將向其提供哪些優惠。 瞭解如何 [建立test配置檔案](../../segment/creating-test-profiles.md)。
 
 1. 按一下「**[!UICONTROL Manage profile]**」。
 
