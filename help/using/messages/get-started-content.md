@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -70,11 +70,11 @@ ht-degree: 95%
    * 選擇要用於訊息的通道：電子郵件和/或推播通知。 必須至少選擇一個通道才能建立訊息。
    >[!NOTE]
    >
-   >您可以按一下 **[!UICONTROL Frequency rule]** 連結，以查看將應用於選定類別和通道的頻率規則。 瞭解更多 [頻率規則](../configuration/frequency-rules.md)。
+   >您可以按一下 **[!UICONTROL Frequency rule]** 連結，檢視將套用於選取的類別和頻道的頻率規則。 瞭解更多 [頻率規則](../configuration/frequency-rules.md) 的內容。
 
    * 選擇 **[!UICONTROL Preset]** 用於訊息。
 
-      預設集包含所需的所有參數，以便根據您的品牌傳送電子郵件和/或推播通知。 瞭解更多 [預設](../configuration/message-presets.md)。
+      預設集包含所需的所有參數，以便根據您的品牌傳送電子郵件和/或推播通知。 瞭解更多關於 [預設集](../configuration/message-presets.md) 的內容。
    >[!CAUTION]
    >
    >您必須為所選類別和頻道選擇有效的訊息預設集。
