@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8db51560c5733afac64785d1ef07cbd9558a0bbe
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 90%
+source-wordcount: '1064'
+ht-degree: 89%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 90%
          + [聚合函式](using/personalization/functions/aggregation.md)
          + [算術函式](using/personalization/functions/arithmetic-functions.md)
          + [陣列和清單功能](using/personalization/functions/arrays-list.md)
-         + [日期函式](using/personalization/functions/dates.md)
+         + [日期時間函式](using/personalization/functions/dates.md)
          + [布林值和比較函式](using/personalization/functions/operators.md)
          + [輔助程式](using/personalization/functions/helpers.md)
          + [地圖函式](using/personalization/functions/maps.md)
@@ -103,6 +103,7 @@ ht-degree: 90%
       + [開始使用設定檔](using/segment/get-started-profiles.md)
       + [建立測試設定檔](using/segment/creating-test-profiles.md)
    + [身分](using/segment/get-started-identity.md)
+   + [許可證使用儀表板](using/start/licence-usage.md)
 + 歷程 {#orchestrate-journeys}
    + 關於歷程{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)

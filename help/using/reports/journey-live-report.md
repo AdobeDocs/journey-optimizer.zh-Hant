@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '799'
 ht-degree: 1%
 
 ---
@@ -54,22 +54,6 @@ ht-degree: 1%
 * **[!UICONTROL Actions executed]**:成功執行行程的操作總數。
 
 * **[!UICONTROL Error in actions]**:為操作發生的錯誤總數。
-
-<!--
-![](assets/live_report_7.png)
-
->[!NOTE]
->
->The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
-
-The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
-
-* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
-
-* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
-
-* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
--->
 
 ## 電子郵件頁籤 {#email-live}
 
@@ -120,6 +104,20 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 的 **[!UICONTROL Error Reasons]** 和 **[!UICONTROL Exclude Reasons]** 圖形和表格允許您查看在交付期間發生的錯誤和排除。
 
 的 **[!UICONTROL Email - Top recipient domain]** 圖表和表詳細資訊，哪些域是收件人開啟電子郵件時最常用的域。
+
+![](assets/live_report_7.png)
+
+>[!NOTE]
+>
+>只有在電子郵件中插入了決定時，「提供」小部件和度量才可用。 有關決策管理的詳細資訊，請參閱 [頁](../offers/get-started/starting-offer-decisioning.md)。
+
+的 **[!UICONTROL Offers statistic]** 和 **[!UICONTROL Offers statistics]** 隨著時間推移，小部件可衡量您的產品的成功程度以及對目標受眾的影響。 它使用KPI詳細列出與消息相關的主要資訊：
+
+* **[!UICONTROL Offer sent]**:發送要約的總數。
+
+* **[!UICONTROL Offer impression]**:在交貨中開啟要約的次數。
+
+* **[!UICONTROL Offer clicks]**:在交貨中按一下要約的次數。
 
 ## 推式頁籤 {#push-live}
 

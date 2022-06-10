@@ -2,10 +2,10 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 31%
+source-wordcount: '445'
+ht-degree: 32%
 
 ---
 
@@ -124,9 +124,9 @@ ht-degree: 31%
 
 **歷程**
 
-* **讀取段**  — 一次性讀取段行程現在在行程執行30天後移至「已完成」狀態。 對於計畫的讀取段，它是在上次執行該事件後30天。 [閱讀全文](../building-journeys/read-segment.md)
+* **讀取段**  — 一次性讀取段行程現在在行程執行30天後移至「已完成」狀態。 對於計畫的讀取段，它是在上次執行該事件後30天。 [了解更多](../building-journeys/read-segment.md)
 * **表達式編輯器** - [限](../building-journeys/functions/functionlimit.md) 已添加函式，以允許您限制清單的項數。 的 [排序](../building-journeys/functions/functionsort.md) 函式現在允許您對清單對象進行排序。 對listObject的支援也添加到 [斷層](../building-journeys/functions/functiondistinct.md) 和 [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 的子菜單。
 
 **管理**
 
-**許可證使用儀表板更新** -Adobe Experience PlatformUI中提供的許可證使用儀表板現在反映了 **許可** 平均配置檔案豐富度。 作為Journey Optimizer的客戶，您將看到此度量表示法中的一個下降，這意味著您獲得許可的使用情況現在已正確報告。 [進一步了解](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target=&quot;_blank&quot;}
+* **許可證使用儀表板更新**  — 許可證使用儀表板，位於 [!DNL Adobe Journey Optimizer] 用戶介面現在反映 **許可** 平均配置檔案豐富度。 您將看到此度量表示法中的一個刪除，這意味著現在已正確報告許可證限制。 [了解更多](../start/licence-usage.md)

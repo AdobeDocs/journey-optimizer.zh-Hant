@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 1%
+source-wordcount: '734'
+ht-degree: 0%
 
 ---
 
@@ -91,33 +91,32 @@ ht-degree: 1%
 
 * **[!UICONTROL Unique Opens]**:開啟交貨的收件人數。
 
-<!--
 ![](assets/global_report_20.png)
 
 >[!NOTE]
 >
->The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
+>只有在電子郵件中插入了決定時，「提供」小部件和度量才可用。 有關決策管理的詳細資訊，請參閱 [頁](../offers/get-started/starting-offer-decisioning.md)。
 
-The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
+的 **[!UICONTROL Offers statistic]** 和 **[!UICONTROL Offers statistics]** 隨著時間推移，小部件可衡量您的產品的成功程度以及對目標受眾的影響。 它使用KPI詳細列出與消息相關的主要資訊：
 
-* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
+* **[!UICONTROL Offer sent]**:發送要約的總數。
 
-* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
+* **[!UICONTROL Offer impression]**:在交貨中開啟要約的次數。
 
-* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
+* **[!UICONTROL Offer clicks]**:在交貨中按一下要約的次數。
 
-The **[!UICONTROL Offers detailed statistic]** table contains the available data for recipient activity with your offer:
+的 **[!UICONTROL Offers detailed statistic]** 表包含與您的優惠一起用於收件人活動的可用資料：
 
-* **[!UICONTROL Placement name]**: Name of your placement used to display your offer. For more information on placement, refer to this [page](../offers/offer-library/creating-placements.md).
+* **[!UICONTROL Placement name]**:用於顯示優惠的位置的名稱。 有關放置的詳細資訊，請參閱 [頁](../offers/offer-library/creating-placements.md)。
 
-* **[!UICONTROL Offer name]**: Name of the offer added in the delivery. For more information on placement, refer to this [page](../offers/offer-library/creating-personalized-offers.md).
+* **[!UICONTROL Offer name]**:在交貨中添加的要約的名稱。 有關放置的詳細資訊，請參閱 [頁](../offers/offer-library/creating-personalized-offers.md)。
 
-* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
+* **[!UICONTROL Offer sent]**:發送要約的總數。
 
-* **[!UICONTROL Offer impression rate]**: Percentage of opened offers compared to the number of sent offers.
+* **[!UICONTROL Offer impression rate]**:已開啟的優惠與已發送的優惠數目相比的百分比。
 
-* **[!UICONTROL Offer click rate]**: Percentage of users who interacted with the offer.
--->
+* **[!UICONTROL Offer click rate]**:與報價互動的用戶百分比。
+
 >[!NOTE]
 >
 >配置檔案 **[!UICONTROL Suppressed]** 或 **[!UICONTROL Not allowed]** 在消息發送過程中，狀態被排除。 因此，當 **行程報告** 將顯示這些配置檔案在旅途中移動([讀取段](../building-journeys/read-segment.md) 和 [消息](../building-journeys/journeys-message.md) 活動), **電子郵件報告** 不會把它們包括在 **[!UICONTROL Sent]** 在發送電子郵件之前過濾掉度量。
