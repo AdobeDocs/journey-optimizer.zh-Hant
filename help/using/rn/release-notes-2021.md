@@ -1,16 +1,17 @@
 ---
-title: 上一版說明(2021)
-description: Journey Optimizer2021年發行說明
-source-git-commit: 4626237ce629dcaec8d20c89db3cb8b517671502
-workflow-type: tm+mt
+title: 舊版發行說明 (2021 年)
+description: Journey Optimizer 2021 年發行說明
+exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
+source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+workflow-type: ht
 source-wordcount: '2070'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # 2021 年發行說明 {#release-notes-2021}
 
-此頁列出了 [!DNL Journey Optimizer] 於2021年發佈。
+此頁面列出了於 2021 年發行的[!DNL Journey Optimizer]所有功能和改善。
 
 
 ## 2021 年 11 月發行版本 {#november-2021-release}
