@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 06eb2ebec284f807de7ddca5d26e13fc08194642
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 32%
+ht-degree: 90%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 32%
 <table>
 <thead>
 <tr>
-<th><strong>消息頻率規則</strong><br/></th>
+<th><strong>訊息頻率規則</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在，您可以設定跨渠道業務規則，這些業務規則將自動從消息和操作中排除過度請求的配置檔案。</p>
+<p>您現在可以設定跨頻道的業務規則，這些業務規則將自動從訊息和動作中排除過度請求的設定檔。</p>
 <img src="assets/frequency-rn.gif"/>
 <p>如需詳細資訊，請參閱<a href="../configuration/frequency-rules.md">詳細文件</a>。</p>
 </td>
@@ -61,13 +61,13 @@ ht-degree: 32%
 <table>
 <thead>
 <tr>
-<th><strong>決策管理 — AI排序自動優化模型</strong><br/></th>
+<th><strong>決定管理 - AI 排名自動最佳化模型</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在，您可以在決策管理中使用經過培訓的模型系統。 此新功能等級可為給定配置檔案顯示。</p>
+<p>現在，您可以在決定管理中使用經過訓練的模型系統。 此新功能排名可於指定的設定檔顯示。</p>
 <img src="assets/optimization.gif"/>
 <p>如需詳細資訊，請參閱<a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">詳細文件</a>。</p>
 </td>
@@ -95,13 +95,13 @@ ht-degree: 32%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Optimizer審計日誌</strong><br/></th>
+<th><strong>Journey Optimizer 稽核記錄</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以監視用戶對Adobe Journey Optimizer資源執行的操作。</p>
+<p>您現在可以監視使用者對 Adobe Journey Optimizer 資源執行的動作。</p>
 <img src="assets/audit-rn.gif"/>
 <p>如需詳細資訊，請參閱<a href="../reports/audit-logs.md">詳細文件</a>。</p>
 </td>
@@ -113,19 +113,19 @@ ht-degree: 32%
 
 **個人化**
 
-* **用於字元隱藏的新幫助程式函式** - `mask` helper函式允許您將字串的一部分替換為「X」字元。 [了解更多](../personalization/functions/string.md#mask)
+* **用於字元隱藏的新輔助函式**—`mask`輔助函式允許您將字串的一部分替換為「X」字元。 [了解更多](../personalization/functions/string.md#mask)
 
 **登陸頁面**
 
-* **沒有表單的登錄頁**  — 您現在可以建立並發佈不包含表單且不需要訪問者執行任何操作的登錄頁。
-* **登錄頁模板**  — 現在，您可以將登錄頁另存為模板，並在建立其他登錄頁時重新使用它。 [了解更多](../landing-pages/lp-templates.md)
-* **返回首頁**  — 現在，您可以從同一登錄頁內的任何子頁添加到首頁的連結。
-* **自定義JavaScript支援**  — 現在，您可以將自定義JavaScript添加到登錄頁內容中，以執行高級樣式設定或將自定義行為添加到登錄頁。	[了解更多](../landing-pages/lp-custom-js.md)
+* **沒有表單的登陸頁面** - 您現在可以建立並發佈不包含表單且不需要訪客操作的登陸頁面。
+* **登陸頁面範本** - 您現在可以將登陸頁面儲存為範本，並在建立其他登陸頁面時重複使用它。 [了解更多](../landing-pages/lp-templates.md)
+* **返回主要頁面** - 您現在可以從同一登陸頁面內的任何子頁面新增到主要頁面的連結。
+* **自訂 JavaScript 支援** - 您現在可以新增自訂 JavaScript 到登陸頁面的內容中，以執行進階樣式或新增自訂行為到登陸頁面。	[了解更多](../landing-pages/lp-custom-js.md)
 
 **歷程**
 
-* **讀取段**  — 一次性讀取段行程現在在行程執行30天後移至「已完成」狀態。 對於計畫的讀取段，它是在上次執行該事件後30天。 [了解更多](../building-journeys/read-segment.md)
-* **表達式編輯器** - [限](../building-journeys/functions/functionlimit.md) 已添加函式，以允許您限制清單的項數。 的 [排序](../building-journeys/functions/functionsort.md) 函式現在允許您對清單對象進行排序。 對listObject的支援也添加到 [斷層](../building-journeys/functions/functiondistinct.md) 和 [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 的子菜單。
+* **讀取區段** - 一次性讀取區段歷程現在在歷程執行 30 天後移至「已完成」狀態。 對於已排程的讀取區段，是在上次執行該事件後的 30 天。 [了解更多](../building-journeys/read-segment.md)
+* **運算式編輯器** - 已新增[限制](../building-journeys/functions/functionlimit.md)函式，以允許您限制清單項目的數目。 [排序](../building-journeys/functions/functionsort.md)函式現在允許您對清單物件進行排序。 對清單物件的支援也已新增到 [distinct](../building-journeys/functions/functiondistinct.md) 和 [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 的函式。
 
 **管理**
 

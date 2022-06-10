@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -18,18 +18,18 @@ ht-degree: 89%
 + 有什麼新功能？ {#whats-new}
    + [最新發行說明](using/rn/release-notes.md)
    + 舊版版本注意事項 {#previous-rn-new}
-      + [《2022年發行說明》](using/rn/release-notes-2022.md)
-      + [《2021年發行說明》](using/rn/release-notes-2021.md)
+      + [2022 年發行說明](using/rn/release-notes-2022.md)
+      + [2021 年發行說明](using/rn/release-notes-2021.md)
    + [文件更新](using/rn/documentation-updates.md)
    + [消息遷移](using/rn/inline-messages.md)
 + 快速入門{#get-started}
    + [什麼是 Journey Optimizer](using/start/get-started.md)
    + 快速入門{#quick-start}
       + [總覽](using/start/quick-start.md)
-      + [作為營銷員開始](using/start/path/marketer.md)
-      + [以資料工程師身份開始](using/start/path/data-engineer.md)
-      + [以管理員身份開始](using/start/path/administrator.md)
-      + [以開發人員身份開始](using/start/path/developer.md)
+      + [行銷人員快速入門](using/start/path/marketer.md)
+      + [資料工程師快速入門](using/start/path/data-engineer.md)
+      + [管理員快速入門](using/start/path/administrator.md)
+      + [開發人員快速入門](using/start/path/developer.md)
    + [使用者介面](using/start/user-interface.md)
    + [護欄](using/start/guardrails.md)
 + 訊息 {#messages}
@@ -65,10 +65,10 @@ ht-degree: 89%
    + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
    + [建立登陸頁面](using/landing-pages/create-lp.md)
    + 設計內容 {#landing-pages-design}
-      + [關於登錄頁設計](using/landing-pages/design-lp.md)
-      + [建立登錄頁內容](using/landing-pages/lp-content.md)
+      + [關於登陸頁面設計](using/landing-pages/design-lp.md)
+      + [建立登陸頁面內容](using/landing-pages/lp-content.md)
       + [建立範本](using/landing-pages/lp-templates.md)
-      + [添加自定義JavaScript](using/landing-pages/lp-custom-js.md)
+      + [新增自訂 JavaScript](using/landing-pages/lp-custom-js.md)
    + [建立訂閱清單](using/landing-pages/subscription-list.md)
    + [使用案例](using/landing-pages/lp-use-cases.md)
 + 個人化{#personalization}
@@ -187,7 +187,7 @@ ht-degree: 89%
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
             + [在 ](using/building-journeys/functions/functionin.md)
             + [相交](using/building-journeys/functions/functionintersect.md)
-            + [限](using/building-journeys/functions/functionlimit.md)
+            + [limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
@@ -255,7 +255,7 @@ ht-degree: 89%
       + [開始使用傳遞能力](using/reports/deliverability.md)
       + [隱藏清單](using/reports/suppression-list.md)
       + [允許清單](using/reports/allow-list.md)
-   + [對Journey Optimizer資源的審計行動](using/reports/audit-logs.md)
+   + [對 Journey Optimizer 資源的稽核動作](using/reports/audit-logs.md)
 + 決定管理 {#offer-decisioniong}
    + 開始使用決定管理 {#get-started-decision}
       + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
@@ -267,15 +267,15 @@ ht-degree: 89%
       + [建立決定規則](using/offers/offer-library/creating-decision-rules.md)
       + [建立標籤](using/offers/offer-library/creating-tags.md)
    + 建立排名 {#rankings}
-      + [開始排名](using/offers/ranking/get-started-rankings.md)
-      + [排序公式](using/offers/ranking/create-ranking-formulas.md)
-      + AI模型 {#ai-models}
+      + [開始使用排名](using/offers/ranking/get-started-rankings.md)
+      + [排名公式](using/offers/ranking/create-ranking-formulas.md)
+      + AI 模型 {#ai-models}
          + [關於 AI 模型](using/offers/ranking/ai-models.md)
-         + [自動優化模型](using/offers/ranking/auto-optimization-model.md)
+         + [自動最佳化模型](using/offers/ranking/auto-optimization-model.md)
          + 建立 AI 模型 {#configure-ai-model}
             + [建立資料集以收集事件](using/offers/ranking/create-dataset.md)
-            + [建立AI模型](using/offers/ranking/create-ranking-strategies.md)
-            + [配置事件捕獲](using/offers/ranking/schema-requirement.md)
+            + [建立 AI 模型](using/offers/ranking/create-ranking-strategies.md)
+            + [設定事件擷取](using/offers/ranking/schema-requirement.md)
    + 建立和管理優惠方案 {#managing-offers-in-the-offer-library}
       + 設定優惠方案 {#configure-offers}
          + [建立個人化優惠方案](using/offers/offer-library/creating-personalized-offers.md)
@@ -355,15 +355,15 @@ ht-degree: 89%
 + 設定{#configuration}
    + [開始使用 Journey Optimizer 設定](using/configuration/get-started-configuration.md)
    + 設定訊息 {#configuration-message}
-      + 配置推送通知{#push-config}
+      + 設定推播通知 {#push-config}
          + [開始使用推播設定](using/configuration/push-gs.md)
          + [設定推播通知頻道](using/configuration/push-configuration.md)
-      + 配置電子郵件 {#email-configuration}
+      + 設定電子郵件 {#email-configuration}
          + 委派子網域 {#delegate-subdomains}
             + [開始使用子網域委派](using/configuration/about-subdomain-delegation.md)
             + [委派子網域](using/configuration/delegate-subdomain.md)
             + [存取委派的子網域](using/configuration/access-subdomains.md)
-         + 管理與子域相關的操作 {#subdomain-related-actions}
+         + 管理與子網域相關的動作 {#subdomain-related-actions}
             + [新增 Google TXT 記錄](using/configuration/google-txt.md)
             + [存取和編輯 PTR 記錄](using/configuration/ptr-records.md)
             + [建立 IP 池](using/configuration/ip-pools.md)
@@ -371,14 +371,14 @@ ht-degree: 89%
             + [管理隱藏清單](using/configuration/manage-suppression-list.md)
             + [重試次數](using/configuration/retries.md)
       + [設定簡訊頻道](using/configuration/sms-configuration.md)
-      + 設定消息預設 {#set-up-message-presets}
+      + 設定訊息預設集 {#set-up-message-presets}
          + [建立訊息預設集](using/configuration/message-presets.md)
-         + [配置電子郵件設定](using/configuration/email-settings.md)
+         + [設定電子郵件設定](using/configuration/email-settings.md)
       + [管理執行地址](using/configuration/primary-email-addresses.md)
       + [設定頻率規則](using/configuration/frequency-rules.md)
    + 設定登陸頁面 {#lp-configuration}
-      + [配置登錄頁子域](using/configuration/lp-subdomains.md)
-      + [定義登錄頁預設](using/configuration/lp-presets.md)
+      + [設定登陸頁面子網域](using/configuration/lp-subdomains.md)
+      + [定義登陸頁面預設集](using/configuration/lp-presets.md)
    + 設定歷程 {#configure-journeys}
       + [關於資料來源、事件和動作](using/configuration/about-data-sources-events-actions.md)
       + [與外部系統整合](using/configuration/external-systems.md)
@@ -408,5 +408,5 @@ ht-degree: 89%
    + [管理使用者和產品設定檔](using/administration/permissions.md)
    + [權限層級](using/administration/high-low-permissions.md)
    + [沙盒管理](using/administration/sandboxes.md)
-   + [基於屬性的訪問控制](using/administration/attribute-based-access.md)
+   + [以屬性為基礎的存取控制](using/administration/attribute-based-access.md)
 
