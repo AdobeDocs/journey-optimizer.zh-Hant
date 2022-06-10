@@ -1,18 +1,19 @@
 ---
-title: 發行說明2022
-description: Journey Optimizer2022年發行說明
-source-git-commit: 4626237ce629dcaec8d20c89db3cb8b517671502
-workflow-type: tm+mt
+title: 2022 年發行說明
+description: Journey Optimizer 2022 年發行說明
+exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
+source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+workflow-type: ht
 source-wordcount: '1069'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 2022 年發行說明 {#release-notes-2022}
 
-此頁列出了 [!DNL Journey Optimizer] 於2022年發佈。
+此頁面列出了於 2022 年發行的所有 [!DNL Journey Optimizer] 功能和改善。
 
-最新發行說明可用 [此頁](release-notes.md)。
+可在[此頁面](release-notes.md)找到最新發行說明。
 
 ## 2022 年 4 月發行版本 {#april-2022-release}
 
