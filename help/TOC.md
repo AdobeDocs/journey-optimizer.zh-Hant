@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1063'
 ht-degree: 89%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 89%
       + [開始使用設定檔](using/segment/get-started-profiles.md)
       + [建立測試設定檔](using/segment/creating-test-profiles.md)
    + [身分](using/segment/get-started-identity.md)
-   + [許可證使用儀表板](using/start/licence-usage.md)
+   + [許可證使用](using/segment/licence-usage.md)
 + 歷程 {#orchestrate-journeys}
    + 關於歷程{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
