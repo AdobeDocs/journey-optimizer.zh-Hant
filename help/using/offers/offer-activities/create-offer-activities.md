@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1214'
 ht-degree: 2%
 
 ---
 
 # 建立決定 {#create-offer-activities}
 
-決策（以前稱為聘用活動）是您的聘用的容器，它將利用聘用決策引擎來根據交貨目標選擇要交付的最佳聘用。
+決策是您的報價的容器，它將利用「報價決策引擎」來選擇要交付的最佳報價，具體取決於交貨目標。
 
 ➡️ [瞭解如何在此視頻中建立優惠活動](#video)
 

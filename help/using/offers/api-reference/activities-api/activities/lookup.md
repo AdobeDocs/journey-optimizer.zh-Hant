@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
-source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '152'
 ht-degree: 3%
 
 ---
 
 # 查找決定 {#look-up-decision}
 
-您可以通過向以下站點發出GET請求來查找特定決策（以前稱為聘用活動） [!DNL Offer Library] 包括任一決策的API `@id` 或請求路徑中的決定名稱。
+您可以通過向以下站點發出GET請求來查找特定決策 [!DNL Offer Library] 包括任一決策的API `@id` 或請求路徑中的決定名稱。
 
 **API格式**
 

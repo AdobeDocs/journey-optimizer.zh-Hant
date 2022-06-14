@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >只允許包含32到126之間的ASCII字元。 完整清單可在 [此頁](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如{target=&quot;_blank&quot;}。
+   >中允許包含32到126之間的所有ASCII字元 **[!UICONTROL Reason]** 的子菜單。 完整清單可在 [此頁](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如{target=&quot;_blank&quot;}。
 
 1. 按一下「**[!UICONTROL Submit]**」。
 
@@ -171,7 +171,7 @@ ht-degree: 1%
    ```
    >[!NOTE]
    >
-   >對於「注釋」列，只允許包含32到126之間的ASCII字元。 完整清單可在 [此頁](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如{target=&quot;_blank&quot;}。
+   >中允許包含32到126之間的所有ASCII字元 **注釋** 的雙曲餘切值。 完整清單可在 [此頁](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如{target=&quot;_blank&quot;}。
 
    您也可以從 **[!UICONTROL Suppression list]** 的子菜單。
 

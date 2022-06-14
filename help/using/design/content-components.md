@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -179,9 +179,9 @@ ht-degree: 2%
 
 ## 提供決定 {#offer-decision}
 
-使用 **[!UICONTROL Offer decision]** 元件，將決定（以前稱為聘用活動）插入到消息中。 決策將利用決策管理來選擇向客戶提供的最佳服務。
+使用 **[!UICONTROL Offer decision]** 元件，將決策插入消息中。 決策將利用決策管理來選擇向客戶提供的最佳服務。
 
 相關主題：
 
-* [開始使用決定管理](../offers/get-started/starting-offer-decisioning.md).
+* [開始使用決策管理](../offers/get-started/starting-offer-decisioning.md).
 * [將個性化優惠添加到消息中](deliver-personalized-offers.md)。

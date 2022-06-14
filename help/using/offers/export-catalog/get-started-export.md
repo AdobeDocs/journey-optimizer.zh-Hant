@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 14%
+source-wordcount: '126'
+ht-degree: 15%
 
 ---
 
@@ -22,7 +22,7 @@ Journey Optimizer允許您自動將優惠目錄導出到Adobe Experience Platfor
 * 個人化優惠
 * 遞補優惠
 * 版位
-* 決定（以前稱為優惠活動）
+* 決策
 
 每次在提供庫中修改其中一個對象時，都會自動執行新的導出作業以更新資料集。
 

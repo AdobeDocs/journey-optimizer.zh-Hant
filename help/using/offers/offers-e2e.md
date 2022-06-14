@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1061'
 ht-degree: 6%
 
 ---
@@ -223,56 +223,6 @@ ht-degree: 6%
 
 ## 在電子郵件中插入決定 {#insert-decision-in-email}
 
-既然您的決定是即時的，您可以將其插入電子郵件。 要執行此操作，請遵循下列步驟：
-
-1. 建立電子郵件，然後開啟 [電子郵件設計器](../../using/design/design-emails.md) 配置其內容。
-
-1. 從左側調色板添加結構元件。
-
-1. 添加 **[!UICONTROL Offer decision]** 內容元件。 瞭解如何在 [此部分](../../using/design/content-components.md)。
-
-   ![](assets/offers-e2e-decision-component.png)
-
-1. 請選取模式。在右調色板中，按一下 **[!UICONTROL Select offer decision]** 以添加決定。
-
-   ![](assets/offers-e2e-select-offer-decision.png)
-
-1. 從中選擇與要顯示的優惠相對應的位置 **[!UICONTROL Placements]** 下拉清單。
-
-   在本例中，從先前作為本示例一部分建立的位置，僅 **電子郵件 — 映像** 在電子郵件中使用此決定時，位置即可用。 瞭解更多 [建立放置](../../using/offers/offer-library/creating-placements.md)。
-
-   ![](assets/offers-e2e-select-placement-in-decision.png)
-
-1. 與 **電子郵件 — 映像** 的下界。 選擇要在內容元件中使用的決定，然後按一下 **[!UICONTROL Add]**。
-
-   ![](assets/offers-e2e-matching-placement-in-decision.png)
-
-   >[!NOTE]
-   >
-   >清單中只顯示與所選放置相容的決定。
-
-您現在可以在電子郵件設計器中看到所有個性化優惠和備用優惠。
+既然您的決定是即時的，您可以將其插入電子郵件。 為此，請執行中詳細介紹的步驟 [此頁](../../using/design/deliver-personalized-offers.md)。
 
 ![](assets/offers-e2e-offers-displayed.png)
-
-使用 **[!UICONTROL Offers]** 或內容元件箭頭（右箭頭和左箭頭）來瀏覽資料。 您還可以顯示客戶配置檔案中決策的不同優惠。 請參閱[此章節](../../using/design/deliver-personalized-offers.md#preview-offers-in-email)深入瞭解。
-
-保存更改後，一旦發佈消息，您的優惠就可以在將消息作為行程的一部分發送時顯示在相關配置檔案中。
-
->[!NOTE]
->
->更新聘用、回退聘用、聘用集合或聘用決策時，該決策在 [出版](../../using/messages/publish-manage-message.md) 消息，更新現在自動反映在相應消息中，而不需要重新發佈。
-
-**相關主題：**
-
-* 瞭解如何在中檢查郵件預覽 [此部分](../../using/design/preview.md#preview-your-messages)。
-
-* 瞭解如何在 [此部分](../../using/messages/publish-manage-message.md)。
-
-* 瞭解消息如何由中的一個或多個行程觸發 [此部分](../building-journeys/journey.md)。
-
-<!--
-* Learn how to measure your offer's success and impact on your targeted audience with reports in [this section](../reports/journey-global-report.md).
--->
-
-

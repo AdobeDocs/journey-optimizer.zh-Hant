@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 66%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 使用者介面 {#user-interface}
 
-「優惠資料庫」可讓您在單一位置建立和管理您的位置和優惠，並存取所有已建立的決定 (先前稱為優惠活動)。
+「聘用庫」允許您在一個位置建立和管理您的職位安排和聘用，並訪問所有建立的決定。
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ ht-degree: 66%
 
 按照螢幕上的步驟開始建立放置、聘用和收藏。
 
-完成這些第一步後，系統會提示您建立聘用決定（以前稱為聘用活動）。
+完成這些第一步後，系統會提示您建立提供決策。
 
 ![](../assets/overview_collection-created.png)
 

@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 * 建立並設計推送通知消息，而不發佈它。 請參閱此 [節](../messages/get-started-content.md)。
 * 配置訂單事件，包括訂單編號、狀態和物料名稱。 請參閱此 [節](../event/about-events.md)。
-* 建立決定（以前稱為「聘用活動」），請參閱此 [節](../offers/offer-activities/create-offer-activities.md)。
+* 建立決定，請參閱 [節](../offers/offer-activities/create-offer-activities.md)。
 
 ## 步驟1 — 在配置檔案上添加個性化 {#add-perso}
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
    ![](assets/perso-uc13.png)
 
-1. 從左菜單中，選擇 **提供決策** 的子菜單。 選取放置，然後按一下 **+** 表徵圖，將其添加到正文中。
+1. 從左菜單中，選擇 **提供決策** 的子菜單。 選取放置，然後按一下 **+** 表徵圖。
 
    ![](assets/perso-uc14.png)
 

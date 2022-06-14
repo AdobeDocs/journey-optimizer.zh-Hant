@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 新增個人化優惠方案 {#deliver-personalized-offers}
 
-在 [!DNL Journey Optimizer] 電子郵件中，您可以插入決策（以前稱為「聘用活動」），這些決策將利用「聘用決策引擎」來選擇向客戶提供的最佳聘用。
+在 [!DNL Journey Optimizer] 電子郵件，您可以插入利用「優惠決定引擎」的決策，以便選擇向客戶提供的最佳優惠。
 
 例如，您可以添加一個將在電子郵件中顯示特殊折扣優惠的決定，該折扣優惠會因收件人的忠誠度而有所不同。
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
    [放置](../offers/offer-library/creating-placements.md) 是用來展示您優惠的容器。 在本示例中，我們將使用「電子郵件頂部影像」位置。 此位置已在「提供庫」中建立，以顯示位於消息頂部的影像類型提供。
 
-1. 選擇要在內容元件中使用的聘用活動，然後按一下 **[!UICONTROL Add]**。
+1. 與所選放置顯示匹配的決定。 選擇要在內容元件中使用的決定，然後按一下 **[!UICONTROL Add]**。
 
    >[!NOTE]
    >
@@ -59,6 +59,11 @@ ht-degree: 1%
 
 現在，將提供活動添加到元件中。
 
+保存更改後，一旦發佈消息，您的優惠就可以在將消息作為行程的一部分發送時顯示在相關配置檔案中。
+
+>[!NOTE]
+>
+>當您更新在已發佈消息中直接或間接引用的聘用、回退聘用、聘用集合或聘用決定時，更新將自動反映在相應消息中，而無需重新發佈。
 
 ## 通過電子郵件預覽優惠 {#preview-offers-in-email}
 

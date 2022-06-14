@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 99%
       + [開始使用設定檔](using/segment/get-started-profiles.md)
       + [建立測試設定檔](using/segment/creating-test-profiles.md)
    + [身分](using/segment/get-started-identity.md)
-   + [許可證使用](using/segment/licence-usage.md)
+   + [許可證使用](using/segment/license-usage.md)
 + 歷程 {#orchestrate-journeys}
    + 關於歷程{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
@@ -253,8 +253,7 @@ ht-degree: 99%
       + [查詢範例](using/reports/query-examples.md)
    + 傳遞能力 {#deliverability}
       + [開始使用傳遞能力](using/reports/deliverability.md)
-      + [隱藏清單](using/reports/suppression-list.md)
-      + [允許清單](using/reports/allow-list.md)
+      + [關於禁止顯示清單](using/reports/suppression-list.md)
    + [對 Journey Optimizer 資源的稽核動作](using/reports/audit-logs.md)
 + 決定管理 {#offer-decisioniong}
    + 開始使用決定管理 {#get-started-decision}
@@ -368,8 +367,9 @@ ht-degree: 99%
             + [存取和編輯 PTR 記錄](using/configuration/ptr-records.md)
             + [建立 IP 池](using/configuration/ip-pools.md)
          + 監視電子郵件地址 {#monitor-reputation}
-            + [管理隱藏清單](using/configuration/manage-suppression-list.md)
+            + [隱藏清單](using/configuration/manage-suppression-list.md)
             + [重試次數](using/configuration/retries.md)
+            + [允許清單](using/configuration/allow-list.md)
       + [設定簡訊頻道](using/configuration/sms-configuration.md)
       + 設定訊息預設集 {#set-up-message-presets}
          + [建立訊息預設集](using/configuration/message-presets.md)

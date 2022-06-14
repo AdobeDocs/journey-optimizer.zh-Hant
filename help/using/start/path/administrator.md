@@ -3,7 +3,7 @@ title: Journey Optimizer系統管理入門
 description: 作為系統管理員，瞭解如何與Journey Optimizer合作
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 2%
@@ -65,5 +65,5 @@ ht-degree: 2%
    * A [隱藏清單](../../reports/suppression-list.md) 包含您要從交貨中排除的電子郵件地址，因為發送到這些聯繫人可能會損害您的發送信譽和交貨率。 您可以監視在途中自動被排除在發送之外的所有電子郵件地址，如無效地址、始終軟反彈的地址，以及可能對您的電子郵件信譽產生負面影響的地址，以及針對您的某封郵件發出某種垃圾郵件投訴的收件人。 瞭解如何管理 [隱藏清單](../../configuration/manage-suppression-list.md) 和 [重試](../../configuration/retries.md)。
    ![](../assets/suppression-list-filtering-example.png)
 
-   * 的 [允許的清單](../../reports/allow-list.md) 允許您指定單個電子郵件地址或域，這些地址或域將是唯一有權接收您從特定沙箱發送的電子郵件的收件人或域。 這可以防止您在測試環境中意外地將電子郵件發送到真實的客戶地址。 瞭解如何 [啟用允許的清單](../../reports/allow-list.md)。
+   * 的 [允許的清單](../../configuration/allow-list.md) 允許您指定單個電子郵件地址或域，這些地址或域將是唯一有權接收您從特定沙箱發送的電子郵件的收件人或域。 這可以防止您在測試環境中意外地將電子郵件發送到真實的客戶地址。 瞭解如何 [啟用允許的清單](../../configuration/allow-list.md)。
    瞭解有關中的可交付性管理的詳細資訊 [!DNL Adobe Journey Optimizer] [此頁](../../reports/deliverability.md)。
