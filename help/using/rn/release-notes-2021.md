@@ -2,9 +2,9 @@
 title: 舊版發行說明 (2021 年)
 description: Journey Optimizer 2021 年發行說明
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: ht
-source-wordcount: '2070'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -278,7 +278,7 @@ ht-degree: 100%
 
 **電子郵件設定**
 
-* **允許清單**  - 您現在可以透過 API 呼叫，在非生產沙箱上啟用和停用允許清單。 [進一步了解](../reports/allow-list.md#enable-allow-list)
+* **允許清單**  - 您現在可以透過 API 呼叫，在非生產沙箱上啟用和停用允許清單。 [進一步了解](../configuration/allow-list.md#enable-allow-list)
 * **導覽**  - 可在 **管理 > 管道 > 電子郵件設定 > 一般** 功能表中存取的隱藏清單，已移至新的 **隱藏清單** 子功能表，收集所有相關功能以便更輕鬆存取。 [進一步了解](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **決定管理**
@@ -325,7 +325,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>您現在可以在沙箱層級定義特定的傳送安全清單，以便擁有可用於測試目的的安全環境。 在可能發生錯誤的非生產執行個體上，允許清單可確保避免您將不需要的訊息傳送給客戶的風險。 此功能需透過隱藏 API 來啟用。</p>
-<p>如需詳細資訊，請參閱<a href="../reports/allow-list.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/allow-list.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
