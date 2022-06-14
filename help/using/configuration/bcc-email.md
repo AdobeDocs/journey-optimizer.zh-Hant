@@ -1,18 +1,18 @@
 ---
 title: 使用密件抄送電子郵件
-description: 瞭解如何在郵件預設級別配置電子郵件設定
+description: 瞭解如何在郵件預設級別配置密件抄送電子郵件
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 4f6d018d5e5d127e5eb26b2d1b59dc0a248db45b
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1068'
 ht-degree: 3%
 
 ---
 
-# 使用密件抄送電子郵件 {#bcc-email}
+# 密件抄送電子郵件 {#bcc-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
