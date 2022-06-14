@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1067'
+ht-degree: 98%
 
 ---
 
@@ -374,6 +374,7 @@ ht-degree: 0%
       + 設定訊息預設集 {#set-up-message-presets}
          + [建立訊息預設集](using/configuration/message-presets.md)
          + [設定電子郵件設定](using/configuration/email-settings.md)
+         + [使用密件抄送電子郵件](using/configuration/bcc-email.md)
       + [管理執行地址](using/configuration/primary-email-addresses.md)
       + [設定頻率規則](using/configuration/frequency-rules.md)
    + 設定登陸頁面 {#lp-configuration}
