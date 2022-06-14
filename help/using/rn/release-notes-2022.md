@@ -2,9 +2,9 @@
 title: 2022 年發行說明
 description: Journey Optimizer 2022 年發行說明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: ht
-source-wordcount: '1069'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 100%
 **管理**
 
 * 您現在可以在訊息預設層及在/從電子郵件標題啟用/停用取消訂閱連結，並在訊息層級設定自訂取消訂閱 URL。 [了解更多](../configuration/message-presets.md#list-unsubscribe)
-* 現在，可以透過生產或非生產沙箱的 [!DNL Journey Optimizer] 介面啟用或停用允許清單。 [進一步了解](../reports/allow-list.md#enable-allow-list)
+* 現在，可以透過生產或非生產沙箱的 [!DNL Journey Optimizer] 介面啟用或停用允許清單。 [進一步了解](../configuration/allow-list.md#enable-allow-list)
 
 **個人化**
 
