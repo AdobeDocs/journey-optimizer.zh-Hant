@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 2%
+source-wordcount: '1329'
+ht-degree: 3%
 
 ---
 
@@ -139,7 +139,7 @@ Test配置檔案在使用 [test模式](../building-journeys/testing-the-journey.
 1. 添加 **[!UICONTROL Update Profile]** 操作活動。
 1. 選擇方案， **測試配置檔案** 欄位，資料集，並將值設定為 **真**。 要執行此操作，請在 **[!UICONTROL VALUE]** ，按一下 **筆** 表徵圖，選擇 **[!UICONTROL Advanced mode]** 輸入 **真**。
    ![](assets/test-profiles-26.png)
-1. 添加 **結束** 活動，按一下 **[!UICONTROL Publish]**。
+1. 按一下「**[!UICONTROL Publish]**」。
 1. 在 **[!UICONTROL Segments]** 部分，檢查配置式是否已正確更新。
    ![](assets/test-profiles-28.png)
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: b07075c225136ab17a0c3b106f89503d95abb581
+source-git-commit: 3513f5415ebbac1be889ba390877611ad5a71030
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '580'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 使用 [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}，需要部署 [!DNL Assets Essentials] 確保用戶是組織的一部分 **Assets Essentials消費者用戶** 或 **Assets Essentials用戶** 產品配置檔案。 瞭解更多 [此頁](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
+> 使用 [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}，需要部署 [!DNL Assets Essentials] 確保用戶是組織的一部分 **Assets Essentials消費者用戶** 或 **Assets Essentials用戶** 產品配置檔案。 瞭解更多 [此頁](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target=&quot;_blank&quot;}。
 
 1. 選取 **[!UICONTROL Asset library]** 選項。
 
@@ -85,6 +85,16 @@ ht-degree: 1%
 1. 按一下「**[!UICONTROL Select]**」。
 
    ![](../assets/offer-select-asset.png)
+
+### 添加HTML或JSON檔案 {#html-json}
+
+如果所選位置是HTML類型，則還可以添加HTML或來自 [Adobe Experience Cloud資產庫](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;})。
+
+例如，您在中建立了HTML電子郵件模板 [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target=&quot;_blank&quot;}，並且您希望將該檔案用於您的優惠內容。 您只需將模板上載到 **資產庫** 能夠在報價表中重新使用它。
+
+要在表示形式中重用內容，請瀏覽 **資產庫** 如所述 [此部分](#images) 並選擇您選擇的HTML或JSON檔案。
+
+![](../assets/offer-browse-asset-library-json.png)
 
 ### 添加URL {#urls}
 
@@ -115,3 +125,4 @@ ht-degree: 1%
    >[!NOTE]
    >
    >僅 **[!UICONTROL Profile attributes]**。 **[!UICONTROL Segment memberships]** 和 **[!UICONTROL Helper functions]** 源可用於決策管理。
+

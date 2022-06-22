@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---
@@ -65,9 +65,9 @@ ht-degree: 1%
 
 的 **[!UICONTROL Email Sending Statistics]** 小部件詳細列出與消息相關的主要資訊：
 
-* **[!UICONTROL Delivered]**:成功發送的消息數，與已發送的消息總數相關。
+* **[!UICONTROL Delivered]**:成功發送的消息數。
 
-* **[!UICONTROL Bounces]**:在傳遞和自動返回處理期間累積的與已發送消息總數有關的錯誤總數。
+* **[!UICONTROL Bounces]**:在交貨和自動退貨處理期間累積的錯誤總數。
 
 * **[!UICONTROL Errors]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
 
@@ -75,9 +75,9 @@ ht-degree: 1%
 
 * **[!UICONTROL Sent]**:交貨的發送總數。
 
-* **[!UICONTROL Delivered]**:成功發送的消息數，與已發送的消息總數相關。
+* **[!UICONTROL Delivered]**:成功發送的消息數。
 
-* **[!UICONTROL Bounces]**:在傳遞和自動返回處理期間累積的與已發送消息總數有關的錯誤總數。
+* **[!UICONTROL Bounces]**:在交貨和自動退貨處理期間累積的錯誤總數。
 
 * **[!UICONTROL Errors]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
 
@@ -131,9 +131,9 @@ ht-degree: 1%
 
 * **[!UICONTROL Sent]**:交貨的發送總數。
 
-* **[!UICONTROL Delivered]**:成功發送的消息數，與已發送的消息總數相關。
+* **[!UICONTROL Delivered]**:成功發送的消息數。
 
-* **[!UICONTROL Bounces]**:在傳遞和自動返回處理期間累積的與已發送消息總數有關的錯誤總數。
+* **[!UICONTROL Bounces]**:在交貨和自動退貨處理期間累積的錯誤總數。
 
 * **[!UICONTROL Errors]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
 
@@ -152,3 +152,33 @@ ht-degree: 1%
 ![](assets/report_push_2.png)
 
 的 **[!UICONTROL Tracking by platform]**。 **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 圖表和表根據作業系統詳細說明了推送通知的成功。
+
+## SMS頁籤 {#sms-live}
+
+的 **[!UICONTROL SMS - Sending statistics]** 表詳細列出了您交付的成功：
+
+* **[!UICONTROL Targeted]**:符合此傳遞目標配置檔案的用戶配置檔案數。
+
+* **[!UICONTROL Excluded]**:未接收消息的從目標配置檔案中排除的用戶配置檔案數。
+
+* **[!UICONTROL Sent]**:交貨的發送總數。
+
+* **[!UICONTROL Delivered]**:成功發送的消息數。
+
+* **[!UICONTROL Opens]**:在傳遞中開啟消息的次數。
+
+* **[!UICONTROL Clicks]**:在傳遞中按一下內容的次數。
+
+* **[!UICONTROL Bounces]**:在交貨和自動退貨處理期間累積的錯誤總數。
+
+* **[!UICONTROL Errors]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
+
+的 **[!UICONTROL SMS Summary]** 圖表詳細說明了您交付的成功：
+
+* **[!UICONTROL Delivered]**:成功發送的消息數。
+
+* **[!UICONTROL Bounces]**:在交貨和自動退貨處理期間累積的錯誤總數。
+
+* **[!UICONTROL Errors]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
+
+的 **[!UICONTROL Exclude Reasons]** 圖形和表格允許您查看在交付期間發生的錯誤和排除。

@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -104,7 +104,6 @@ ht-degree: 3%
 
 1. 建立從此事件開始的行程。
 1. 將消息添加到旅程。
-1. 以結束活動結束旅程。
 
    由於您尚未發佈該消息，因此您既不能test也不能發佈該行程。
 
@@ -336,7 +335,7 @@ ht-degree: 3%
 
 ### 使用案例 {#use-case}
 
-* [Personalization，提供個人資料資訊、上下文和優惠](personalization-use-case.md)
+* [個性化配置檔案資訊、上下文和服務](personalization-use-case.md)
 
 * [基於決策的個性化服務](../offers/offers-e2e.md)
 

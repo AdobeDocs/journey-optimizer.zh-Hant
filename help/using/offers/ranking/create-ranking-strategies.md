@@ -10,7 +10,7 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 8%
 >
 >要建立、編輯或刪除AI模型，必須 **管理排名策略** 權限。 [了解更多](../../administration/high-low-permissions.md#manage-ranking-strategies)
 
-## 建立AI模型 {#create-ranking-strategy}
+## 建立 AI 模型 {#create-ranking-strategy}
 
 要建立AI模型，請執行以下步驟：
 

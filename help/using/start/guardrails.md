@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 1acc5a137661a47abd60c03167e9ef39998de621
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '722'
 ht-degree: 2%
 
 ---
@@ -39,6 +39,8 @@ ht-degree: 2%
 * 在出現錯誤時系統地執行三次重試。 無法根據收到的錯誤消息調整重試次數。
 * 內置 **反應** 事件允許您對現成操作做出反應。 在[本頁面](../building-journeys/reaction-events.md)深入瞭解。如果要對通過自定義操作發送的消息做出反應，則需要配置專用事件。
 * 不能並行放置兩個操作，必須依次添加它們。
+* 今天的行程中存在技術限制，使配置檔案在同一行程中多次出現。 配置檔案仍然可以重新輸入行程（基於設定），但只有在他完全退出此行程的上一個實例後才能執行。
+* 在大多數情況下，配置檔案不能在同一行程中同時出現多次。 如果啟用重新入門，則配置檔案可以重新輸入行程，但在他完全退出此行程的上一個實例之前，無法重新輸入。 [閱讀全文](../building-journeys/journey-end.md)
 
 ### 消息操作 {#message-action}
 

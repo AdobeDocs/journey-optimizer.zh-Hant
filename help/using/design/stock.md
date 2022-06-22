@@ -5,11 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: cc7a544b58c0caff4fd0b3d02c53622b506e98e2
+exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
+source-git-commit: f2426b8696983b22dd2c80296e2c9dfc2426c439
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '447'
 ht-degree: 3%
 
 ---
@@ -17,10 +16,6 @@ ht-degree: 3%
 # 管理 [!DNL Adobe Stock] 影像 {#stock}
 
 ## 開始使用 [!DNL Adobe Stock] {#get-started-stock}
-
->[!IMPORTANT]
->
-> 使用 [!DNL Adobe Stock] 整合當前僅可提前訪問選定用戶。 如果您想利用此功能，請與Adobe客戶經理聯繫。
 
 [!DNL Adobe Stock] 提供對數百萬高質量、可策劃、免版稅照片、視頻、插圖和向量圖形的訪問。 您可以選擇購買信用包以授權資產，或僅購買所需資產的一個標準或擴展許可證。 Adobe Stock還提供免費的資產收集服務。
 
@@ -30,6 +25,10 @@ ht-degree: 3%
 [瞭解有關電子郵件設計的詳細資訊](design-emails.md)。
 
 ## 插入和導入 [!DNL Adobe Stock] 影像 {#add-stock-image}
+
+>[!NOTE]
+>
+> 的 **[!UICONTROL Find Adobe Stock photos]** 選項將僅對有權訪問AEM Assets軟體包產品配置檔案的用戶可用。 有關此內容的詳細資訊，請參閱 [資產基本文檔](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials)。
 
 編輯和個性化電子郵件後，您可以從 [!DNL Adobe Stock] 到模板：
 
@@ -54,7 +53,8 @@ ht-degree: 3%
 
 1. 從 [!DNL Adobe Stock] 網站，您需要購買資產才能下載影像並刪除水印。
 
-   此購買將取決於您的Adobe Stock計畫或訂購。 如需關於此項目的詳細資訊，請參閱此[頁面](https://stock.adobe.com/plans)。
+   此購買將取決於您的Adobe Stock計畫或訂購。 請注意，如果您有多個Adobe Stock帳戶，則系統會將您重定向到上次使用的庫存ID。 在這種情況下，請確保在授權資產之前登錄到正確的帳戶。
+如需關於此項目的詳細資訊，請參閱此[頁面](https://stock.adobe.com/plans)。
 
    >[!WARNING]
    > 如果發送包含未授權影像的電子郵件，則影像將保留其未授權的表單和水印。

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 1acc5a137661a47abd60c03167e9ef39998de621
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 2%
+source-wordcount: '289'
+ht-degree: 3%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 2%
 搜索行程時，首次開啟應用程式時，最新版本會出現在清單頂部。 然後，您可以定義所需的排序，應用程式將將其保留為用戶首選項。 行程版本也顯示在行程版本介面的頂部，位於畫布上方。
 
 ![](assets/journeyversions1.png)
+
+>[!NOTE]
+>
+>在大多數情況下，配置檔案不能在同一行程中同時出現多次。 如果啟用重新入門，則配置檔案可以重新輸入行程，但在他完全退出此行程的上一個實例之前，無法重新輸入。 [閱讀全文](../building-journeys/journey-end.md)
 
 如果您需要修改到即時旅程，則需要建立新版本的旅程。
 

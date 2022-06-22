@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 832abe25f79c8c526dd5da0ff37eb91755d687e4
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 6%
+source-wordcount: '1277'
+ht-degree: 8%
 
 ---
 
@@ -134,7 +134,7 @@ ht-degree: 6%
 突發消息傳送附帶以下要求：
 
 * 旅程必須以 **讀取段** 的子菜單。 不允許發生事件。
-* 下一步必須是推送消息。 不允許其他渠道、活動或步驟(可選 **結束** )。
+* 下一步必須是推送消息。 不允許使用其他渠道、活動或步驟。
 * 推送消息中不允許個性化。
 * 消息必須小(&lt;2KB)。
 
@@ -155,73 +155,3 @@ ht-degree: 6%
 瞭解在此視頻中突發消息的適用使用案例，以及如何配置突發消息的行程：
 
 >[!VIDEO](https://video.tv.adobe.com/v/334523?quality=12)
-
-
-## 結束、停止或結束行程{#end-journey}
-
-在以下兩種特定情況下，個人可以結束行程：
-
-* 該人到達了路徑的最後一個活動。 最後一個活動可以是 **結束** 活動或其他活動。 使用 **結束** 活動不是必需的。 請參閱[此頁面](../building-journeys/end-activity.md)。
-* 這個人到達 **條件** 活動(或 **等待** 具有條件的活動)，且與任何條件不匹配。
-
-如果允許重新進入，則人員可以重新進入旅程。 請參閱 [此頁](../building-journeys/journey-gs.md#change-properties)
-
-行程可能會關閉，原因如下：
-
-* 通過 **[!UICONTROL Close to new entrances]** 按鈕
-* 已完成執行的基於單次段的行程。
-* 上次出現基於週期段的行程之後。
-
-當行程關閉時（出於以上任何原因），它將具有 **[!UICONTROL Closed]**。 旅程不再讓新人進入旅程。 已經在旅途中的人可以正常地完成旅程。 在預設全局超時30天後，該行程將切換到 **已完成** 狀態。 查看 [節](../building-journeys/journey-gs.md#global_timeout)。
-
-如果你需要阻止所有人在旅途中的進步，你可以阻止它。 停止行程將超時行程中的所有人。
-
-以下是手動關閉或停止行程的方式：
-
-的 **[!UICONTROL Stop]** 和 **[!UICONTROL Close to new entrances]** 選項允許您終止 **活** 旅程。 結束旅程需要 **新客戶在旅途中的抵達被阻止** 而且已經進入旅程的顧客能夠體驗到它的結束。 這是結束旅程的最推薦方法，因為它為客戶提供了最佳體驗。 停止旅行意味著已經踏上旅程的人都會停止前進。 旅程基本上被關閉了。
-
->[!NOTE]
->
->請注意，您無法恢復已關閉或已停止的行程。
-
-### 結束旅程
-
-您可以手動結束行程，以確保已輸入行程的客戶可以完成其路徑，但新用戶無法進入行程。
-
-關閉時，行程將具有 **[!UICONTROL Closed]**。 在預設全局超時30天後，該行程將切換到 **已完成** 狀態。 查看 [節](../building-journeys/journey-gs.md#global_timeout)。
-
-無法重新啟動或刪除已結束的行程版本。 您可以建立新版本或複製該版本。 只能刪除已完成的行程。
-
-要從旅程清單中關閉行程，請按一下 **[!UICONTROL Ellipsis]** 按鈕，選擇 **[!UICONTROL Close to new entrances]**。
-
-![](assets/journey-finish-quick-action.png)
-
-您也可以：
-
-1. 在 **[!UICONTROL Journeys]** 清單中，按一下要關閉的行程。
-1. 在右上角，按一下向下箭頭。
-
-   ![](assets/finish_drop_down_list.png)
-
-1. 按一下 **[!UICONTROL Close to new entrances]**，並在對話框中進行確認。
-
-### 停止旅行
-
-當發生緊急情況並且所有處理都需要在旅途中立即結束時，您可以停止旅程。
-
-無法重新啟動已停止的行程版本。
-
-停止時，行程狀態設定為 **[!UICONTROL Stopped]**。
-
-例如，如果營銷人員意識到此行程針對的是錯誤的受眾，或者傳遞消息的自定義操作不能正常工作，您就可以停止此行程。 要停止從行程清單中的行程，請按一下 **[!UICONTROL Ellipsis]** 按鈕，選擇 **[!UICONTROL Stop]**。
-
-![](assets/journey-finish-quick-action.png)
-
-您也可以：
-
-1. 在 **[!UICONTROL Journeys]** 清單中，按一下要停止的行程。
-1. 在右上角，按一下向下箭頭。
-
-![](assets/finish_drop_down_list.png)
-
-1. 按一下 **[!UICONTROL Stop]**，並在對話框中進行確認。

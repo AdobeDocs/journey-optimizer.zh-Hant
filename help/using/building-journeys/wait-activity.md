@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 3%
+source-wordcount: '339'
+ht-degree: 4%
 
 ---
 
@@ -30,15 +30,9 @@ ht-degree: 3%
 
 ## 關於等待活動{#about_wait}
 
-以下是並行使用多個等待時如何排定優先順序。 如果它們具有相同的時間配置和不同但重疊的條件，則位於上方的等待將是按優先順序排序的等待。 例如，第一次等待的條件是「為女人」，而第二次並行等待的條件是「為VIP女人」。 第一個等待活動將按優先順序排列。
+最大等待持續時間為30天。 在test模式下， **[!UICONTROL Wait time in test]** 參數允許您定義每個等待活動將持續的時間。 預設時間為 10 秒。這將確保您快速獲得test結果。 請參閱 [此頁](../building-journeys/testing-the-journey.md)
 
-另請注意，如果兩個不同的等待並行，則無論其垂直位置如何，都會優先排定第一個出現的等待。 例如，如果1小時的等待時間高於30分鐘的等待時間，則30分鐘後將處理30分鐘的等待時間。
-
->[!NOTE]
->
->最大等待持續時間為30天。
->
->在test模式下， **[!UICONTROL Wait time in test]** 參數允許您定義每個等待活動將持續的時間。 預設時間為 10 秒。這將確保您快速獲得test結果。 請參閱 [此頁](../building-journeys/testing-the-journey.md)
+當在行程中使用多個等待活動時要小心，因為全局行程超時為30天，這意味著配置檔案在他/她輸入行程後將始終從行程中退出。
 
 ## 持續時間等待{#duration}
 

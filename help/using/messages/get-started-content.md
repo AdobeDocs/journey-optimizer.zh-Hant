@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
-workflow-type: ht
-source-wordcount: '676'
-ht-degree: 100%
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+workflow-type: tm+mt
+source-wordcount: '681'
+ht-degree: 97%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
    * 選擇 **[!UICONTROL Message category]**：行銷或異動。
 
-   * 選擇要用於訊息的通道：電子郵件和/或推播通知。 必須至少選擇一個通道才能建立訊息。
+   * 選擇要用於該消息的通道：電子郵件、推送通知和/或簡訊 必須至少選擇一個通道才能建立訊息。
    >[!NOTE]
    >
    >您可以按一下 **[!UICONTROL Frequency rule]** 連結，檢視將套用於選取的類別和頻道的頻率規則。 瞭解更多 [頻率規則](../configuration/frequency-rules.md) 的內容。
@@ -97,6 +97,7 @@ ht-degree: 100%
 
    * [建立電子郵件](create-email.md)
    * [建立推播通知](create-push.md)
+   * [建立 SMS 訊息](create-sms.md)
 
    >[!NOTE]
    >   

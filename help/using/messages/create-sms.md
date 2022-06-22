@@ -5,13 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 12%
+source-wordcount: '220'
+ht-degree: 15%
 
 ---
 
@@ -22,10 +20,9 @@ ht-degree: 12%
 >title="SMS建立"
 >abstract="添加文本消息，然後使用表達式編輯器開始個性化它。"
 
-
->[!CAUTION]
+>[!NOTE]
 >
-> SMS通道的使用目前僅在提前訪問選定用戶時可用。 如果您想利用此功能，請與Adobe客戶經理聯繫。
+>管理法規要求SMS收件人可以使用選擇加入和選擇退出關鍵字進行回復。 Adobe Journey Optimizer自動處理以下關鍵字：開始、停止和取消停止。
 
 一旦 [已建立消息](get-started-content.md)，使用 **[!UICONTROL SMS]** 的子菜單。
 
@@ -56,5 +53,6 @@ ht-degree: 12%
 **相關主題**
 
 * [設定簡訊頻道](../configuration/sms-configuration.md)
-* [建立新郵件](get-started-content.md)
+* [簡訊報告](../reports/journey-global-report.md#sms-global)
+* [建立新訊息。](get-started-content.md)
 * [在歷程中新增訊息](../building-journeys/journeys-message.md)

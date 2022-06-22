@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 8f089e885098917d2ebf455b807ac5e6da020190
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 1%
+source-wordcount: '1192'
+ht-degree: 2%
 
 ---
 
@@ -163,10 +163,15 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="URL跟蹤參數"
->abstract="使用此部分可自動將跟蹤參數附加到電子郵件內容中存在的市場活動URL。"
+>title="定義URL跟蹤參數"
+>abstract="使用此部分可自動將跟蹤參數附加到電子郵件內容中存在的URL。 此功能是選取性的。"
 
-您可以使用 **[!UICONTROL URL Tracking Parameters]** 以衡量您跨渠道的營銷工作的成效。 此功能是選取性的。
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_url_preview"
+>title="預覽URL跟蹤參數"
+>abstract="查看跟蹤參數將如何附加到電子郵件內容中存在的URL。"
+
+您可以使用 **[!UICONTROL URL tracking parameters]** 以衡量您跨渠道的營銷工作的成效。 此功能是選取性的。
 
 本節中定義的參數將附加到電子郵件內容中包含的URL的末尾。 然後，您可以在Web分析工具(如Adobe Analytics或Google Analytics)中捕獲這些參數，並建立各種效能報告。
 
@@ -174,8 +179,9 @@ ht-degree: 1%
 
 建立消息預設時，會自動填充三個URL跟蹤參數。 您可以使用 **[!UICONTROL Add new parameter]** 按鈕
 
-要配置URL跟蹤參數，可以直接在 **[!UICONTROL Name]** 和 **[!UICONTROL Value]** ，或導航到以下對象從預定義值清單中進行選擇：
+要配置URL跟蹤參數，可以直接在 **[!UICONTROL Name]** 和 **[!UICONTROL Value]** 的子菜單。
 
+也可以通過導航到以下對象從預定義值清單中進行選擇：
 * 行程屬性： **源ID**。 **源名稱**。 **源版本ID**
 * 操作屬性： **操作ID**。 **操作名稱**
 * Offer decisioning屬性： **服務ID**。 **優惠名稱**
@@ -186,6 +192,10 @@ ht-degree: 1%
 >
 >不選擇資料夾：確保瀏覽到必要的資料夾，並選擇一個配置檔案屬性作為跟蹤參數值。
 
+<!--or edit it using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+
+You can drag and drop the parameters to reorder them.-->
+
 以下是與Adobe Analytics和Google Analytics相容的URL的示例。
 
 * Adobe Analytics相容URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
@@ -195,3 +205,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >可以將鍵入的文本值與選擇預定義的值合併。 每個 **[!UICONTROL Value]** 欄位總共最多可包含255個字元。
+
+可動態預覽結果的跟蹤URL。 每次添加、編輯或刪除參數時，預覽都會自動更新。
+
+![](assets/preset-url-tracking-preview.png)

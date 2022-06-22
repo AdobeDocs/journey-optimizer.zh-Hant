@@ -4,9 +4,9 @@ description: 瞭解如何在Adobe Journey Optimizer使用Adobe Experience Platfo
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: a196df7318e0c87afb5a5ee4498eaf20eab137ad
+source-git-commit: 1de18fa479a54c09751324a67793ce50e5657ce3
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '622'
 ht-degree: 8%
 
 ---
@@ -70,6 +70,8 @@ ht-degree: 8%
 瞭解有關在中建立資料集的詳細資訊 [Adobe Experience Platform文檔](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}。
 
 瞭解如何在 [資料接收概述文檔](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+
+提供了包含查詢示例的使用案例清單 [這裡](../start/datasets-query-examples.md)。
 
 **另請參閱**
 

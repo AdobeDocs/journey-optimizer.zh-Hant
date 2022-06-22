@@ -4,9 +4,9 @@ description: 瞭解如何配置環境以向Journey Optimizer發送推送通知
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: a6fabce744cb85c447327b6ceb809bf399d4b610
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1426'
 ht-degree: 4%
 
 ---
@@ -334,8 +334,6 @@ You can use a test mobile app for this use case. For more on this, refer to this
 1. 從 **[!UICONTROL Actions]** 拖放 **[!UICONTROL Message]** 你旅途的活動。
 
 1. 選擇以前建立的消息。 有關如何建立推送通知的詳細資訊，請參閱此 [頁](../messages/get-started-content.md)。
-
-1. 拖放 **[!UICONTROL End]** 你旅途的活動。
 
 1. 按一下 **[!UICONTROL Test]** 切換以開始測試推送通知，然後按一下 **[!UICONTROL Trigger an event]**。
 

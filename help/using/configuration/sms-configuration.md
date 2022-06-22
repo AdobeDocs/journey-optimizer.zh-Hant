@@ -3,21 +3,15 @@ title: SMS配置
 description: 瞭解如何配置環境以向Journey Optimizer發送SMS消息
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '350'
 ht-degree: 4%
 
 ---
 
 # 設定簡訊頻道 {#sms-configuration}
-
->[!CAUTION]
->
-> SMS通道的使用目前僅在提前訪問選定用戶時可用。 如果您想利用此功能，請與Adobe客戶經理聯繫。
 
 [!DNL Journey Optimizer] 允許您建立行程並向目標受眾發送消息。
 
@@ -29,15 +23,14 @@ ht-degree: 4%
 
    ![](assets/sms_4.png)
 
-1. 選擇Sinch作為 **[!UICONTROL SMS vendor]**。
+1. 選擇 **[!UICONTROL SMS vendor]**:
+
+   * [!DNL Sinch]。查找 **[!UICONTROL Service ID]** 和 **[!UICONTROL API Token]**，從您的Sinch帳戶訪問SMS > APIs菜單。
+   * [!DNL Twilio]。查找 **[!UICONTROL Service ID]** 和 **[!UICONTROL API Token]**，訪問「控制台儀表板」頁的「帳戶資訊」窗格。
 
 1. 輸入 **[!UICONTROL Name]** API憑據。
 
 1. 輸入 **[!UICONTROL Service ID]** 和 **[!UICONTROL API Token]**。
-
-   >[!NOTE]
-   >
-   > Sinch需要特殊的API憑據。 查找 **[!UICONTROL Service ID]** 和 **[!UICONTROL API Token]**，從您的Sinch帳戶訪問SMS > APIs菜單，
 
    ![](assets/sms_5.png)
 
@@ -74,6 +67,8 @@ ht-degree: 4%
       有關如何配置環境以發送SMS消息的詳細資訊，請參閱 [此部分](sms-configuration.md)。
 
    * 輸入 **[!UICONTROL Sender number]** 你&#x200B;想用來溝通。
+
+   * 選擇 **[!UICONTROL SMS Execution Field]** 的 **[!UICONTROL Profile attribute]** 與配置檔案的電話號碼關聯。
 
 1. 配置完所有參數後，按一下 **[!UICONTROL Submit]** 確認。 您也可以將消息預設保存為草稿，並稍後恢復其配置。
 

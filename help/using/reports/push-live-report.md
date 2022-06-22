@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Sent]**:交貨的發送總數。
 
-* **[!UICONTROL Delivered]**:成功發送的消息數，與已發送的消息總數相關。
+* **[!UICONTROL Delivered]**:成功發送的消息數。
 
-* **[!UICONTROL Bounces]**:在傳遞和自動返回處理期間累積的與已發送消息總數有關的錯誤總數。
+* **[!UICONTROL Bounces]**:在交貨和自動退貨處理期間累積的錯誤總數。
 
 * **[!UICONTROL Errors]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
 
@@ -49,9 +49,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Sent]**:交貨的發送總數。
 
-* **[!UICONTROL Delivered]**:成功發送的消息數，與已發送的消息總數相關。
+* **[!UICONTROL Delivered]**:成功發送的消息數。
 
-* **[!UICONTROL Bounces]**:在傳遞和自動返回處理期間累積的與已發送消息總數有關的錯誤總數。
+* **[!UICONTROL Bounces]**:在交貨和自動退貨處理期間累積的錯誤總數。
 
 * **[!UICONTROL Errors]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
 

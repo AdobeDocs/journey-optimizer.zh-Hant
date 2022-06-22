@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 6%
+source-wordcount: '951'
+ht-degree: 5%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->負載中的欄位名稱不能包含「。」 字元. 它們不能以「$」字元開頭。
+>負載示例不能包含空值。 負載中的欄位名稱不能包含「。」 字元. 它們不能以「$」字元開頭。
 
 您將能夠定義參數類型(例如：字串、整數等)。
 

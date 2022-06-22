@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 98%
+source-wordcount: '1104'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,13 @@ ht-degree: 98%
       + [開發人員快速入門](using/start/path/developer.md)
    + [使用者介面](using/start/user-interface.md)
    + [護欄](using/start/guardrails.md)
++ 行銷活動 {#campaigns}
+   + [開始活動](using/campaigns/get-started-with-campaigns.md)
+   + [建立促銷活動](using/campaigns/create-campaign.md)
+   + [修改或停止市場活動](using/campaigns/modify-stop-campaign.md)
+   + 報表 {#reports}
+      + [市場活動實況報告](using/campaigns/campaign-live-report.md)
+      + [市場活動全局報告](using/campaigns/campaign-global-report.md)
 + 訊息 {#messages}
    + [開始使用訊息](using/messages/get-started-content.md)
    + [建立電子郵件](using/messages/create-email.md)
@@ -107,6 +114,7 @@ ht-degree: 98%
 + 歷程 {#orchestrate-journeys}
    + 關於歷程{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
+      + [旅程生命週期](using/building-journeys/journey-end.md)
       + [歷程版本](using/building-journeys/journey-versions.md)
       + [與 Intelligent Services 整合](using/building-journeys/ai-services-overview.md)
    + 建立歷程{#create-journey}
@@ -115,6 +123,7 @@ ht-degree: 98%
       + [測試您的歷程](using/building-journeys/testing-the-journey.md)
       + [發佈您的歷程](using/building-journeys/publishing-the-journey.md)
       + [時區管理](using/building-journeys/timezone-management.md)
+      + [複製行程](using/building-journeys/copy-to-sandbox.md)
       + [疑難排解您的歷程](using/building-journeys/troubleshooting.md)
    + 活動 {#about-journey-building}
       + [關於歷程活動](using/building-journeys/about-journey-activities.md)
@@ -254,7 +263,6 @@ ht-degree: 98%
    + 傳遞能力 {#deliverability}
       + [開始使用傳遞能力](using/reports/deliverability.md)
       + [關於禁止顯示清單](using/reports/suppression-list.md)
-   + [對 Journey Optimizer 資源的稽核動作](using/reports/audit-logs.md)
 + 決定管理 {#offer-decisioniong}
    + 開始使用決定管理 {#get-started-decision}
       + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
@@ -349,7 +357,9 @@ ht-degree: 98%
          + [批次決策 API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + 資料管理 {#data-management}
    + [方案](using/start/get-started-schemas.md)
-   + [資料集](using/start/get-started-datasets.md)
+   + 資料集 {#datasets}
+      + [開始使用資料集](using/start/get-started-datasets.md)
+      + [查詢示例](using/start/datasets-query-examples.md)
    + [查詢](using/start/get-started-queries.md)
 + 設定{#configuration}
    + [開始使用 Journey Optimizer 設定](using/configuration/get-started-configuration.md)
@@ -410,4 +420,7 @@ ht-degree: 98%
    + [權限層級](using/administration/high-low-permissions.md)
    + [沙盒管理](using/administration/sandboxes.md)
    + [以屬性為基礎的存取控制](using/administration/attribute-based-access.md)
-
++ 隱私權 {#privacy}
+   + [資料使用策略](using/privacy/policies.md)
+   + [隱私權請求](using/privacy/requests.md)
+   + [對 Journey Optimizer 資源的稽核動作](using/privacy/audit-logs.md)

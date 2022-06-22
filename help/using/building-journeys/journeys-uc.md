@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -120,8 +120,6 @@ ht-degree: 2%
 1. 將三條路徑連接到先前建立的採購事件。 當個人進行購買時，將觸發事件。
 
 1. 事件後，刪除 **消息** 並選擇「謝謝」電子郵件。
-
-1. 添加 **結束** 的子菜單。
 
 ## 測試並發佈歷程
 
