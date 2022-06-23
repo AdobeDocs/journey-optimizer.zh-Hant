@@ -1,19 +1,19 @@
 ---
-title: 設定消息預設
+title: 設定訊息預設集
 description: 瞭解如何配置和監視消息預設
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 1%
+source-wordcount: '1495'
+ht-degree: 2%
 
 ---
 
-# 設定消息預設 {#message-presets-creation}
+# 設定訊息預設集 {#message-presets-creation}
 
 與 [!DNL Journey Optimizer]，您可以設定消息預設，這些預設定義電子郵件和推送通知消息所需的所有技術參數：電子郵件類型、發件人電子郵件和姓名、移動應用等。
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 
 1. 配置 **推送通知** 的子菜單。 [了解更多](#configure-push-settings)
 
-   <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
+1. 配置 **簡訊** 的子菜單。 [了解更多](sms-configuration.md)
 
 1. 配置完所有參數後，按一下 **[!UICONTROL Submit]** 確認。 您也可以將消息預設保存為草稿，並稍後恢復其配置。
 
@@ -87,7 +87,7 @@ ht-degree: 1%
 
    ![](assets/preset-active.png)
 
-## 配置電子郵件設定 {#configure-email-settings}
+## 設定電子郵件設定 {#configure-email-settings}
 
 電子郵件設定在消息預設配置的專用部分中定義。
 

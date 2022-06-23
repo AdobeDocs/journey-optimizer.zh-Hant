@@ -4,16 +4,18 @@ description: 瞭解如何配置環境以向Journey Optimizer發送SMS消息
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 67fcddc77ad5493905a0f1894a0cf497b0bfa2f9
+source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 4%
+source-wordcount: '404'
+ht-degree: 3%
 
 ---
 
 # 設定簡訊頻道 {#sms-configuration}
 
 [!DNL Journey Optimizer] 允許您建立行程並向目標受眾發送消息。
+
+在發送SMS之前，請配置實例。 你需要 [整合提供程式設定](#create-api) 和Journey Optimizer [建立SMS預設](#message-preset-sms)。 這些步驟必須由 [Adobe Journey Optimizer系統管理員](../start/path/administrator.md)。
 
 >[!AVAILABILITY]
 >

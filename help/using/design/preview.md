@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
+source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1018'
 ht-degree: 3%
 
 ---
 
 # 預覽和test郵件{#preview-and-proof}
 
-定義消息內容後，可以使用test配置檔案預覽和test它。 如果插入 [個性化內容](../personalization/personalize.md)，您將能夠利用test配置檔案資料檢查此內容在消息中的顯示方式。
+定義消息內容後，可以使用test配置檔案預覽和test它。 如果插入 [個性化內容](../personalization/personalize.md)，您可以利用test配置檔案資料檢查此內容在消息中的顯示方式。
 
 要檢測電子郵件內容或個性化設定中可能的錯誤，請將校樣發送到test配置檔案。 每次更改時都應發送證明，以驗證最新內容。
 
