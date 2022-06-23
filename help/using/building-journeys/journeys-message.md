@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 67fcddc77ad5493905a0f1894a0cf497b0bfa2f9
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 5%
@@ -72,7 +72,7 @@ ht-degree: 5%
 
 Adobe Journey Optimizer的「發送時間優化」功能由Adobe的AI服務提供支援，可以根據歷史開啟和點擊率預測發送電子郵件或推送消息的最佳時間，以最大限度地提高參與度。 使用我們的機器學習模型為每個用戶安排個性化發送時間，以增加消息的開啟和點擊率。
 
->[!NOTE]
+>[!AVAILABILITY]
 >
 >此功能目前為測試版本，僅供測試版客戶使用。 若要加入測試版計畫，請連絡 Adobe 客戶服務。
 
