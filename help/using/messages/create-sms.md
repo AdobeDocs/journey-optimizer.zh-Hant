@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 9%
@@ -57,7 +57,6 @@ ht-degree: 9%
 
 如需詳細資訊，請參閱[本章節](../design/preview.md)。
 
-
 ## 發佈您的SMS {#sms-publish}
 
 一旦您的消息準備就緒，您就可以發佈它，使其可以與 **[!UICONTROL Publish]** 按鈕 此操作將發佈消息的新版本，該新版本將用於您的行程中的下一個執行。
@@ -69,7 +68,6 @@ ht-degree: 9%
 對於所有營銷消息，SMS必須包含一種方法，讓收件人能夠輕鬆取消訂閱。 一旦取消訂閱，這些配置檔案將自動從未來營銷消息的受眾中刪除。 對於事務性消息，不必添加未訂閱連結。
 
 SMS收件人可以使用選擇加入和選擇退出關鍵字進行回復。 根據行業標準和法規，Adobe Journey Optimizer自動處理傳入消息中的以下關鍵字：開始、停止和停止。 這些關鍵字觸發來自SMS提供程式的自動標準答復。
-
 
 **相關主題**
 
