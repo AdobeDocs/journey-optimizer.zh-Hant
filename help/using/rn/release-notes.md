@@ -2,10 +2,10 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 52cc27108ed4d99511ef612c0bd81d3435d1f45b
+source-git-commit: a60afd8a2948da5386b75421ffdb36735ed091e6
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 42%
+source-wordcount: '352'
+ht-degree: 36%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 42%
 <table>
 <thead>
 <tr>
-<th><strong>將SMS發送給用戶</strong><br/></th>
+<th><strong>將SMS發送給用戶（可用性有限）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -34,7 +34,8 @@ ht-degree: 42%
 <p></p>
 <p>您現在可以通過與Windows的整合在Journey Optimizer建立、個性化和發送SMS <b>辛奇</b> 或 <b>Twilio</b>。</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>如需詳細資訊，請參閱<a href="../messages/create-sms.md">詳細文件</a>。</p>
+<p>SMS通道當前僅可用於一組組織（有限可用性）。 有關詳細資訊，請與Adobe代表聯繫。</p>
+<p>瞭解如何在此中建立和發送SMS <a href="../messages/create-sms.md">詳細文檔</a>。</p>
 </td>
 </tr>
 </tbody>
