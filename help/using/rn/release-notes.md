@@ -2,7 +2,7 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a60afd8a2948da5386b75421ffdb36735ed091e6
+source-git-commit: bd30bbd6ac1230bdb02e1b5a4f9eba19c1fa2ccc
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 36%
@@ -51,7 +51,7 @@ ht-degree: 36%
 <tbody>
 <tr>
 <td>
-<p>可用日期： <b>6月23日</b></p>
+<p>可用日期： <b>6月27日</b></p>
 <p></p>
 <p>Adobe Stock和Adobe Journey Optimizer電子郵件設計器整合插件為客戶提供了導航、許可和保存影像以用於郵件創作的簡單方法。 </br> 新 <b>查找類似的股票照片</b> 選項還允許您查找與影像內容、顏色和組成匹配的「儲存」照片。 </p>
 <img src="assets/do-not-localize/stock-rn.gif"/>
