@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: fb56b69a74aa8c727bf75f1c7988ece845f43b5f
+source-git-commit: d172be602766a22c51018376d81de363c0ffe54b
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 1%
@@ -48,6 +48,28 @@ ht-degree: 1%
    如果您選擇的映像未獲得許可，則必須 [拿到許可證](#license-stock-image)。
 
 
+## 查找類似照片 {#similar-stock-image}
+
+您可以通過照片替換電子郵件內容中的任何現有影像 [!DNL Adobe Stock]。 請注意，此選項適用於所有映像：從Assets資料夾中獲得許可/未許可的庫存影像和影像。
+
+要瀏覽類似照片，請執行以下步驟：
+
+1. 選擇要替換的影像。
+1. 按一下 **[!UICONTROL Find similar Stock photos]** 按鈕在中顯示資產 [!DNL Adobe Stock] 匹配影像的內容、顏色和組成。
+
+   ![](assets/stock-similar.png)
+
+1. 選擇所選影像並按一下 **[!UICONTROL Save]**。
+
+   ![](assets/stock-similar-results.png)
+
+   如果您選擇的映像未獲得許可，則必須 [拿到許可證](#license-stock-image)。
+
+1. 根據需要，使用 **[!UICONTROL Components settings]** 的子菜單。 [瞭解有關元件設定的詳細資訊](content-components.md)
+
+建立並個性化您的郵件後，您可以發佈它以使其可用於執行。 [了解更多](../messages/publish-manage-message.md)
+
+
 ## 獲取許可證 [!DNL Adobe Stock] {#license-stock-image}
 
 如果映像已獲得許可，則它由 ![](assets/stock_10.png) 表徵圖 否則，你必須許可。
@@ -77,29 +99,7 @@ ht-degree: 1%
 
 1. 選擇儲存資產的資料夾。 有關 [!DNL Assets Essentials]，請參閱 [頁](assets-essentials.md#get-started-assets-essentials)。
 
-## 查找類似照片 {#similar-stock-image}
-
-您可以通過照片替換電子郵件內容中的任何現有影像 [!DNL Adobe Stock]。 請注意，此選項適用於所有映像：從Assets資料夾中獲得許可/未許可的庫存影像和影像。
-
-要瀏覽類似照片，請執行以下步驟：
-
-1. 選擇要替換的影像。
-1. 按一下 **[!UICONTROL Find similar Stock photos]** 按鈕在中顯示資產 [!DNL Adobe Stock] 匹配影像的內容、顏色和組成。
-
-   ![](assets/stock-similar.png)
-
-1. 選擇所選影像並按一下 **[!UICONTROL Save]**。
-
-   ![](assets/stock-similar-results.png)
-
-   如果您選擇的映像未獲得許可，則必須 [拿到許可證](#license-stock-image)。
-
-1. 根據需要，使用 **[!UICONTROL Components settings]** 的子菜單。 [瞭解有關元件設定的詳細資訊](content-components.md)
-
-建立並個性化您的郵件後，您可以發佈它以使其可用於執行。 [了解更多](../messages/publish-manage-message.md)
-
-
-### 相關主題{#stock-related-topics}
+## 相關主題{#stock-related-topics}
 
 * [Journey Optimizer電子郵件設計](design-emails.md)
 * [電子郵件設計的元件設定](content-components.md)
