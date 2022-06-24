@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
       + [2022 年發行說明](using/rn/release-notes-2022.md)
       + [2021 年發行說明](using/rn/release-notes-2021.md)
    + [文件更新](using/rn/documentation-updates.md)
-   + [消息遷移](using/rn/inline-messages.md)
+   + [訊息移轉](using/rn/inline-messages.md)
 + 快速入門{#get-started}
    + [什麼是 Journey Optimizer](using/start/get-started.md)
    + 快速入門{#quick-start}
@@ -110,7 +110,7 @@ ht-degree: 96%
       + [開始使用設定檔](using/segment/get-started-profiles.md)
       + [建立測試設定檔](using/segment/creating-test-profiles.md)
    + [身分](using/segment/get-started-identity.md)
-   + [許可證使用](using/segment/license-usage.md)
+   + [授權使用情況](using/segment/license-usage.md)
 + 歷程 {#orchestrate-journeys}
    + 關於歷程{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
@@ -262,7 +262,7 @@ ht-degree: 96%
       + [查詢範例](using/reports/query-examples.md)
    + 傳遞能力 {#deliverability}
       + [開始使用傳遞能力](using/reports/deliverability.md)
-      + [關於禁止顯示清單](using/reports/suppression-list.md)
+      + [關於隱藏清單](using/reports/suppression-list.md)
 + 決定管理 {#offer-decisioniong}
    + 開始使用決定管理 {#get-started-decision}
       + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
@@ -384,7 +384,7 @@ ht-degree: 96%
       + 設定訊息預設集 {#set-up-message-presets}
          + [建立訊息預設集](using/configuration/message-presets.md)
          + [設定電子郵件設定](using/configuration/email-settings.md)
-         + [使用密件抄送電子郵件](using/configuration/bcc-email.md)
+         + [使用密件副本電子郵件](using/configuration/bcc-email.md)
       + [管理執行地址](using/configuration/primary-email-addresses.md)
       + [設定頻率規則](using/configuration/frequency-rules.md)
    + 設定登陸頁面 {#lp-configuration}
