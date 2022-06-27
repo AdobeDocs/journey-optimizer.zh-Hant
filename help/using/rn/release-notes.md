@@ -2,10 +2,10 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bd30bbd6ac1230bdb02e1b5a4f9eba19c1fa2ccc
+source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 36%
+source-wordcount: '375'
+ht-degree: 35%
 
 ---
 
@@ -134,13 +134,14 @@ ht-degree: 36%
 
 **決策管理**
 
-* **HTML和JSON檔案支援**  — 您現在可以將外部HTML和JSON檔案從Adobe Experience Cloud資產庫拖放到優惠表示內容中。 [進一步了解](../offers/offer-library/add-representations.md#html-json)
+* **HTML和JSON檔案支援**  — 您現在可以將外部HTML和JSON檔案從Adobe Experience Cloud資產庫拖放到優惠表示內容中。 [了解更多](../offers/offer-library/add-representations.md#html-json)
+
+
+**電子郵件**
+
+* **另存為模板**  — 現在，您可以將電子郵件內容另存為模板，並在建立其他郵件時重新使用它。 [進一步了解](../design/email-templates.md)
 
 <!--
-**Email**
-
-* **Save as template** - You can now save an email content as a template and reuse it when creating other messages.
-
 **Journeys**
 
 * **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.

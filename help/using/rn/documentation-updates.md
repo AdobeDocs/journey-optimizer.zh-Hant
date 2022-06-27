@@ -2,10 +2,10 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 33b079e0ee1d81e06de24f7170a5f29e10df657b
+source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 91%
+source-wordcount: '1590'
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 91%
 * 已更新「等待」活動頁。 [閱讀全文](../building-journeys/wait-activity.md)
 * 已添加帶查詢示例的Adobe Journey Optimizer資料集清單。 [閱讀全文](../start/datasets-query-examples.md)
 * 「允許」清單頁已移到「配置」部分。 [閱讀全文](../configuration/allow-list.md)
-* 已更新「隱藏」清單頁。 [閱讀全文](../configuration/manage-suppression-list.md)
+* 已更新「隱藏」清單頁以澄清某些資訊，包括禁止顯示欄位中允許包含32到126之間的所有ASCII字元。 [閱讀全文](../configuration/manage-suppression-list.md)
 * 已添加到用於決策管理的護欄和靜態限制的連結。 [閱讀全文](../start/guardrails.md)
 
 

@@ -5,16 +5,17 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
+source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 13%
+source-wordcount: '158'
+ht-degree: 15%
 
 ---
 
-# 編碼您自己的內容 {#code-content}
+# 為您自己的內容撰寫程式碼 {#code-content}
 
-使用 **[!UICONTROL Code your own]** 模式，可導入原始HTML和/或對電子郵件內容進行代碼。 此方法需要HTML技能。
+使用 **[!UICONTROL Code your own]** 模式導入原始HTML和/或對電子郵件內容進行代碼。 此方法需要HTML技能。
 
 ➡️ [在影片中探索此功能](#video)
 

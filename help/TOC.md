@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
+source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1107'
 ht-degree: 97%
 
 ---
@@ -53,6 +53,7 @@ ht-degree: 97%
    + [從頭開始 ](using/design/create-email-content.md)
    + [匯入電子郵件內容](using/design/existing-content.md)
    + [為您自己的內容撰寫程式碼](using/design/code-content.md)
+   + [使用模板](using/design/email-templates.md)
    + 內容設計 {#design-content}
       + [使用內容元件](using/design/content-components.md)
       + [背景設定](using/design/backgrounds.md)
