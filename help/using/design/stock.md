@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: d953fc78ffdc5c84823a903e0b4032b45f45bfcd
+source-git-commit: 7f524b7ed9092465be996eeca36e6102e8e1c405
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 [Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;}提供了對數百萬高質量、可策劃、免版稅照片、視頻、插圖和向量圖形的訪問。 您可以選擇購買信用包以授權資產，或僅購買所需資產的一個標準或擴展許可證。 Adobe Stock還提供免費的資產收集服務。
 
-與 [!DNL Adobe Journey Optimizer]您可以直接從 [!DNL Adobe Stock] 並使用 **[!UICONTROL Find Adobe Stock photos]** 的雙曲餘切值。 另外， **[!UICONTROL Find Similar Image]** 選項可幫助您查找與交付中使用的資產的內容、顏色和組成相匹配的影像。
+與 [!DNL Adobe Journey Optimizer]您可以直接從 [!DNL Adobe Stock] 並使用 **[!UICONTROL Find Adobe Stock photos]** 的雙曲餘切值。 另外， **[!UICONTROL Find Similar Stock photos]** 選項可幫助您查找與交付中使用的資產的內容、顏色和組成相匹配的影像。
 
 ## 權限{#stock-permissions}
 
