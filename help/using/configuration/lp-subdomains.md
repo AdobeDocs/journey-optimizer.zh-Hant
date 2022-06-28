@@ -1,16 +1,17 @@
 ---
-title: 配置登錄頁子域
+title: 設定登陸頁面子網域
 description: 瞭解如何使用Journey Optimizer配置登錄頁子域
 role: Admin
 level: Intermediate
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
+source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 0%
+source-wordcount: '687'
+ht-degree: 1%
 
 ---
 
-# 配置登錄頁子域 {#lp-subdomains}
+# 設定登陸頁面子網域 {#lp-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
@@ -58,6 +59,10 @@ ht-degree: 0%
 
    ![](assets/lp_prefix-and-subdomain.png)
 
+   請注意，不能使用同一父域的多個委託子域。 例如，如果已將您的登錄頁的Adobe委託為marketing1.yourcompany.com，則您將無法使用marketing2.yourcompany.com。 但是，登錄頁支援多級子域，因此您可以使用「email.marketing1.yourcompany.com」。
+
+   <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
+
    >[!CAUTION]
    >
    >如果您選擇的域是使用 [CNAME方法](delegate-subdomain.md#cname-subdomain-delegation)，必須在托管平台上建立DNS記錄。 要生成DNS記錄，該過程與配置新登錄頁子域時的過程相同。 瞭解 [此部分](#lp-configure-new-subdomain)。
@@ -99,7 +104,11 @@ ht-degree: 0%
 
    不允許將無效的子域委託給Adobe。 確保輸入組織擁有的有效子域，如marketing.yourcompany.com。
 
-   當前不支援「email.marketing.yourcompany.com」等多級子域。
+   >[!NOTE]
+   >
+   >對於登錄頁，支援多級子域。 例如，您可以使用「email.marketing.yourcompany.com」。
+
+   <!--Journey Optimizer currently does not support multiple subdomains of the same parent domain for landing page configuration-->
 
 1. 將顯示要放置在DNS伺服器中的記錄。 複製此記錄，或下載CSV檔案，然後導航到域托管解決方案以生成匹配的DNS記錄。
 

@@ -1,13 +1,14 @@
 ---
-title: 使用密件抄送電子郵件
+title: 使用密件副本電子郵件
 description: 瞭解如何在郵件預設級別配置密件抄送電子郵件
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 4f6d018d5e5d127e5eb26b2d1b59dc0a248db45b
+exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
+source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1088'
 ht-degree: 3%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="定義密件抄送電子郵件地址"
->abstract="您可以通過將已發送的電子郵件發送到密件抄送收件箱來保留其副本。 輸入您選擇的電子郵件地址，以便將發送的每封電子郵件盲目複製到此密件抄送地址。 此功能是選取性的。"
+>abstract="您可以通過將已發送的電子郵件發送到密件抄送收件箱來保留其副本。 輸入您選擇的電子郵件地址，以便將發送的每封電子郵件盲目複製到此密件抄送地址。 請注意，BCC地址域不應與委託給Adobe的任何子域相同。 此功能是選取性的。"
 
 您可以發送由 [!DNL Journey Optimizer] 收件箱。 此可選功能允許您保留您發送給用戶的電子郵件通信副本，以便符合和/或存檔。 這對遞送收件人是不可見的。
 
 ## 啟用密件抄送電子郵件 {#enable-bcc}
 
-啟用 **[!UICONTROL BCC email]** 選項，在「專用」欄位中輸入您選擇的電子郵件地址。 您可以以正確的格式指定任何外部地址，但委派子域上定義的電子郵件地址除外。 例如，如果委派的子域是 *營銷.luma.com*&#x200B;任何地址 *abc@marketing.luma.com* 禁止。
+啟用 **[!UICONTROL BCC email]** 選項，在「專用」欄位中輸入您選擇的電子郵件地址。 您可以以正確的格式指定任何外部地址，但子域上已定義的電子郵件地址除外，該子域已委派給Adobe。 例如，如果您委託 *營銷.luma.com* 子域到Adobe，任何類似 *abc@marketing.luma.com* 禁止。
 
 >[!NOTE]
 >
