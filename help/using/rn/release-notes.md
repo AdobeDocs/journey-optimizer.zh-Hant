@@ -2,9 +2,9 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
+source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '369'
 ht-degree: 35%
 
 ---
@@ -30,8 +30,6 @@ ht-degree: 35%
 <tbody>
 <tr>
 <td>
-<p>可用日期： <b>6月27日</b></p>
-<p></p>
 <p>您現在可以通過與Windows的整合在Journey Optimizer建立、個性化和發送SMS <b>辛奇</b> 或 <b>Twilio</b>。</p>
 <img src="assets/do-not-localize/SMS.gif"/>
 <p>SMS通道當前僅可用於一組組織（有限可用性）。 有關詳細資訊，請與Adobe代表聯繫。</p>
@@ -51,8 +49,6 @@ ht-degree: 35%
 <tbody>
 <tr>
 <td>
-<p>可用日期： <b>6月27日</b></p>
-<p></p>
 <p>Adobe Stock和Adobe Journey Optimizer電子郵件設計器整合插件為客戶提供了導航、許可和保存影像以用於郵件創作的簡單方法。 </br> 新 <b>查找類似的股票照片</b> 選項還允許您查找與影像內容、顏色和組成匹配的「儲存」照片。 </p>
 <img src="assets/do-not-localize/stock-rn.gif"/>
 <p>如需詳細資訊，請參閱<a href="../design/stock.md">詳細文件</a>。</p>

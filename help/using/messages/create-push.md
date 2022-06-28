@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1423'
 ht-degree: 9%
 
 ---
@@ -94,6 +94,11 @@ ht-degree: 9%
 
 ## 發送無提示通知 {#silent-notification}
 
+>[!CONTEXTUALHELP]
+>id="ajo_message_push_silent_notification"
+>title="關於無提示通知"
+>abstract="在不干擾用戶的情況下發送通知，通知不會顯示在通知中心或通知欄中。"
+
 靜默推送通知（或後台通知）是傳遞給應用程式的隱藏指令。 例如，它用於通知您的應用程式新內容的可用性或在後台啟動下載。
 
 選擇 **[!UICONTROL Silent Notification]** 選項以靜默通知應用程式：在這種情況下，通知會直接轉送到申請。 設備螢幕上未顯示警報。
@@ -128,5 +133,5 @@ ht-degree: 9%
 -->
 
 * [配置推送通道](../configuration/push-gs.md)
-* [建立新郵件](get-started-content.md)
+* [建立新訊息。](get-started-content.md)
 * [在歷程中新增訊息](../building-journeys/journeys-message.md)

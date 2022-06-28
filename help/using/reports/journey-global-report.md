@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
 workflow-type: tm+mt
 source-wordcount: '1605'
 ht-degree: 0%
@@ -253,6 +253,8 @@ ht-degree: 0%
 簡訊 **[!UICONTROL Global report]** 被分成不同的小部件，詳細列出交付的成功和錯誤。 如果需要，可以調整每個小部件的大小並將其刪除。 有關此項的詳細資訊，請參閱 [節](global-report.md#modify-dashboard)。
 
 ## SMS頁籤 {#sms-global}
+
+![](assets/report_sms_global.png)
 
 的 **[!UICONTROL SMS - Sending statistics]** 表詳細列出了您交付的成功：
 
