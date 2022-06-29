@@ -5,11 +5,9 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
+source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -80,7 +78,7 @@ Journey Optimizer允許您將整個行程從一個沙箱複製到另一個沙箱
 
 * 區段
 
-   一個段只能從一個沙箱複製到另一個沙箱。 後續複製段的請求將失敗。 複製段後，該段在目標沙盒上不可編輯。
+   一個段只能從一個沙箱複製到另一個沙箱。 複製段後，該段在目標沙盒上不可編輯。
 
 * 方案
 
@@ -103,4 +101,8 @@ Journey Optimizer允許您將整個行程從一個沙箱複製到另一個沙箱
    系統將複製行程中使用的活動和活動詳細資訊。
 
 預設不會複製。 系統根據消息類型和預設名稱自動選擇目標沙箱上最接近的匹配項。 如果在目標沙盒上找不到預設，則預設副本將失敗。 這將意味著消息副本也將失敗，因為消息需要預設才能進行設定。 在這種情況下，至少需要為消息的正確通道建立一個預設，以便副本工作。
+
+對於方案、合併策略和段，當這些對象第二次嘗試複製時，將只引用它們。 它們將被視為已存在的對象，並將再次複製。 這意味著這些對象只能複製一次。
+
+在Adobe Journey Optimizer引用架構、合併策略和段之前有五分鐘的延遲，但在畫布中未看到錯誤。 等待5分鐘，這些參考資料將可用。
 
