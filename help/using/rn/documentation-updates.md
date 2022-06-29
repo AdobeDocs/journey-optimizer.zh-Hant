@@ -2,10 +2,10 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
+source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 90%
+source-wordcount: '1606'
+ht-degree: 89%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 90%
 * 「允許」清單頁已移到「配置」部分。 [閱讀全文](../configuration/allow-list.md)
 * 已更新「隱藏」清單頁以澄清某些資訊，包括禁止顯示欄位中允許包含32到126之間的所有ASCII字元。 [閱讀全文](../configuration/manage-suppression-list.md)
 * 已添加到用於決策管理的護欄和靜態限制的連結。 [閱讀全文](../start/guardrails.md)
+* 發送時間優化現在可供所有客戶使用。 已刪除測試版提及。 [閱讀全文](../building-journeys/journeys-message.md#send-time-optimization)
+
 
 
 ## 2022 年 5 月 {#may-2022}
