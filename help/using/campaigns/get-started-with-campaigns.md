@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b9fa6bff926eb8cee476fa53feb38ed783e048fc
+source-git-commit: 1e4c5ab80336238283df041fdb4d323005acd325
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -28,12 +28,11 @@ ht-degree: 2%
 
 與按順序執行活動的行程不同，市場活動可以同時執行活動，或者立即執行，或者按指定的時間表執行。 例如，您可以使用它們來提供促銷優惠、訂約活動、公告、法律通知或策略更新。
 
-<!--Additionally, campaigns' content experiment feature allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.-->
-
-瞭解如何管理活動 &lt;!> — 和內容實驗&lt;>
+瞭解如何處理市場活動：
 * [建立促銷活動](create-campaign.md)
 * [修改或停止市場活動](modify-stop-campaign.md)
-<!--* [Create a content experiment](content-experiment.md)-->
+* [市場活動實況報告](campaign-live-report.md)
+* [市場活動全局報告](campaign-global-report.md)
 
 ## 存取行銷活動 {#access}
 
