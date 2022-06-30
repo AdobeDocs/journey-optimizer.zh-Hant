@@ -5,7 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
+source-git-commit: f75ed263fd8226a6b5f55bbb50f4aae17cbfe9d4
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 >title="從屬對象"
 >abstract="這是行程中使用的關聯對象的清單。 此清單顯示名稱、對象類型以及內部Journey OptimizerID。"
 
-Journey Optimizer允許您將整個行程從一個沙箱複製到另一個沙箱。 例如，您可以將行程從階段沙盒環境複製到生產沙盒。 除了旅程本身，Journey Optimizer還複製了旅程所依賴的大部分物品：消息、段、預設、模式、事件和操作。 請參閱 [限制](../event/about-events.md)
+Journey Optimizer允許您將整個行程從一個沙箱複製到另一個沙箱。 例如，您可以將行程從階段沙盒環境複製到生產沙盒。 除了旅程本身，Journey Optimizer還複製了旅程所依賴的大部分物品：消息、段、預設、模式、事件和操作。 請參閱 [限制](../building-journeys/copy-to-sandbox.md#limitations)
 
 >[!CAUTION]
 >
