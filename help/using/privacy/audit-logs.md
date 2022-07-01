@@ -1,56 +1,56 @@
 ---
 title: 對 Journey Optimizer 資源的稽核動作
-description: 瞭解如何跟蹤在Journey Optimizer資源上執行的操作。
+description: 了解如何在 Journey Optimizer 資源上追蹤執行的動作。
 feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 source-git-commit: 771828da23ab0656fc5726845305fe6949620545
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 # 對 Journey Optimizer 資源的稽核動作 {#track-changes}
 
-## 關於審核日誌 {#audit-logs}
+## 關於稽核記錄 {#audit-logs}
 
-使用Journey Optimizer，您可以識別系統中的用戶對各種服務和功能（如旅程、消息、登錄頁等）執行的操作。
+使用 Journey Optimizer，您可以識別系統中的使用者對各種服務和功能（如歷程、訊息、登陸頁面）執行的動作。
 
-這使您能夠提高系統中所執行活動的可見性，解決問題，並幫助您的企業遵守法規和公司資料管理策略。
+這使您能夠提高系統中所執行的活動的可見度，疑難排解問題，並幫助您的企業遵守法規和公司資料管理策略。
 
-每項行動都記錄在可在Adobe Experience Platform訪問的&quot;審計日誌&quot;中的元資料。 有關審核日誌的詳細資訊，包括如何在UI或API中查看和管理這些日誌，請參閱 [Adobe體驗平台文檔](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html)。
+每項動作都記錄在可在 Adobe Experience Platform 中存取的「稽核記錄」中的中繼資料。 有關稽核記錄的詳細資訊，包括如何在 UI 或 API 中檢視和管理這些記錄，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=zh-Hant)。
 
 ![](assets/audit-logs.png)
 
-## 由審核日誌捕獲的事件類型 {#events}
+## 由稽核記錄擷取的事件類型 {#events}
 
-下表概述了審計日誌記錄Journey Optimizer資源的行動。
+下表概述了稽核記錄的 Journey Optimizer 資源行動。
 
 >[!NOTE]
 >
->在「審核」日誌中捕獲的操作的完整清單可在 [Adobe體驗平台文檔](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html#category)。
+>可在 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=zh-Hant#category)找到在稽核記錄中擷取的完整操作清單。
 
 | 資源 | 動作 |
 |-----------|------------------|
-| AJO頻道常規設定 | 建立/刪除/更新 |
-| AJO IP池 | 建立/刪除/更新 |
-| AJO登錄頁 | 建立/刪除/更新/發佈/取消發佈 |
-| AJO登錄頁HTML模板 | 建立/刪除/更新 |
-| AJO登錄頁預設 | 建立/刪除/更新 |
-| AJO登錄頁子域 | 建立/刪除/更新 |
-| AJO消息 | 建立/刪除/更新/發佈 |
-| AJO消息預設 | 建立/刪除/更新 |
-| AJO PTR記錄 | 建立/刪除/更新 |
-| AJO保存的表達式模板 | 建立/刪除/更新 |
-| AJO SMS API憑據 | 建立/刪除/更新 |
-| AJO子域 | 建立/刪除/更新 |
-| AJO禁止清單 | 建立/刪除/下載CSV |
-| 欄位組 | 建立/刪除/更新 |
+| AJO 管道一般設定 | 建立/刪除/更新 |
+| AJO IP 池 | 建立/刪除/更新 |
+| AJO 登陸頁面 | 建立/刪除/更新/發佈/取消發佈 |
+| AJO 登陸頁面 HTML 範本 | 建立/刪除/更新 |
+| AJO 登陸頁面預設集 | 建立/刪除/更新 |
+| AJO 登陸頁面子網域 | 建立/刪除/更新 |
+| AJO 訊息 | 建立/刪除/更新/發佈 |
+| AJO 訊息預設集 | 建立/刪除/更新 |
+| AJO PTR 記錄 | 建立/刪除/更新 |
+| AJO 儲存的運算式範本 | 建立/刪除/更新 |
+| AJO SMS API 認證 | 建立/刪除/更新 |
+| AJO 子網域 | 建立/刪除/更新 |
+| AJO 隱藏清單 | 建立/刪除/下載 CSV |
+| 欄位群組 | 建立/刪除/更新 |
 | 歷程 | 建立/刪除/更新/停止/發佈 |
-| 行程自定義操作 | 建立/刪除/更新 |
-| 旅程資料源 | 建立/刪除/更新 |
-| 旅程事件 | 建立/刪除/更新 |
-| 消息頻率規則 | 建立/刪除/更新 |
+| 歷程自訂動作 | 建立/刪除/更新 |
+| 歷程資料來源 | 建立/刪除/更新 |
+| 歷程事件 | 建立/刪除/更新 |
+| 訊息頻率規則 | 建立/刪除/更新 |
 | 排名策略 | 建立/刪除/更新 |
