@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1314'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -203,7 +203,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
    >
    >如果您未在訊息內容中新增一鍵退出連結，則不會顯示登陸頁面。
 
-* 對應的設定檔會立即退出，而此選項會在 Experience Platform 中更新。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}中進一步瞭解 。
+* 對應的設定檔會立即退出，而此選項會在 Experience Platform 中更新。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}中進一步瞭解 。
 
 ## 推播選擇退出管理 {#push-opt-out-management}
 
@@ -211,9 +211,8 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 例如，在下載或使用您的應用程式時，他們可以選擇停止通知。 同樣地，他們也可以透過行動裝置作業系統變更通知設定。
 
-## SMS選擇退出管理 {#sms-opt-out-management}
+## 簡訊選擇退出管理 {#sms-opt-out-management}
 
-根據行業標準和法規，SMS接收者可以使用選擇加入和選擇退出關鍵字進行回復。
-Adobe Journey Optimizer自動處理傳入消息中的以下關鍵字：開始、停止和停止。 這些關鍵字觸發來自SMS提供程式的自動標準答復。
+依據業界標準和法規，簡訊收件者可以使用選擇加入和選擇退出關鍵字進行回覆。Adobe Journey Optimizer 自動處理傳入訊息中的以下關鍵字：開始、停止和不停止。 這些關鍵字觸發來自簡訊提供者的自動標準回覆。
 
-有關SMS選擇退出的詳細資訊，請參閱此 [頁](../messages/create-sms.md#opt-in-and-opt-out)。
+如需簡訊選擇退出的詳細資訊，請參閱本[頁面](../messages/create-sms.md#opt-in-and-opt-out)。
