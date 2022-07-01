@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
 workflow-type: tm+mt
 source-wordcount: '1606'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 89%
 
 ## 2022 年 6 月 {#june-2022}
 
-* 隨附的所有新功能和改進 [!DNL Journey Optimizer] 文檔中詳細列出了6月22日的發行。 [閱讀全文](release-notes.md)
-* 有關資料使用策略的新部分已添加到文檔中。 [閱讀全文](../privacy/policies.md)
-* 文檔中已添加了有關隱私請求的新部分。 [閱讀全文](../privacy/requests.md)
-* 文檔中已添加了有關資源上的審核日誌的新部分。 [閱讀全文](../privacy/audit-logs.md)
-* 文檔中已添加了有關如何將來自Adobe Experience Cloud資產庫的HTML或JSON內容添加到優惠表示形式的新部分。 [閱讀全文](../offers/offer-library/add-representations.md#html-json)
-* 在行程生命週期中添加了新頁面。 [閱讀全文](../building-journeys/journey-end.md)
-* 已更新「等待」活動頁。 [閱讀全文](../building-journeys/wait-activity.md)
-* 已添加帶查詢示例的Adobe Journey Optimizer資料集清單。 [閱讀全文](../start/datasets-query-examples.md)
-* 「允許」清單頁已移到「配置」部分。 [閱讀全文](../configuration/allow-list.md)
-* 已更新「隱藏」清單頁以澄清某些資訊，包括禁止顯示欄位中允許包含32到126之間的所有ASCII字元。 [閱讀全文](../configuration/manage-suppression-list.md)
-* 已添加到用於決策管理的護欄和靜態限制的連結。 [閱讀全文](../start/guardrails.md)
+* 有關 [!DNL Journey Optimizer] 2022 年 6 月發佈內容的新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
+* 已新增有關資料使用原則的新章節到文件中。 [閱讀全文](../privacy/policies.md)
+* 文件中已新增了有關隱私權請求的新章節。 [閱讀全文](../privacy/requests.md)
+* 文件中已新增了有關資源稽核記錄的新章節。 [閱讀全文](../privacy/audit-logs.md)
+* 文件中已新增了有關如何將來自 Adobe Experience Cloud 資料庫的 HTML 或 JSON 內容新增到優惠方案聲明的新章節。 [閱讀全文](../offers/offer-library/add-representations.md#html-json)
+* 在歷程生命週期中新增了新頁面。 [閱讀全文](../building-journeys/journey-end.md)
+* 已更新「等待」活動頁面。 [閱讀全文](../building-journeys/wait-activity.md)
+* 已新增含有查詢範例的 Adobe Journey Optimizer 資料集清單。 [閱讀全文](../start/datasets-query-examples.md)
+* 「允許」清單頁面已移到「設定」部分。 [閱讀全文](../configuration/allow-list.md)
+* 已更新「隱藏」清單頁面以澄清一些資訊，包括隱藏欄位中允許包含 32 到 126 之間的所有 ASCII 字元。 [閱讀全文](../configuration/manage-suppression-list.md)
+* 已新增到用於決定管理的護欄和靜態限制的連結。 [閱讀全文](../start/guardrails.md)
 * 發送時間優化現在可供所有客戶使用。 已刪除測試版提及。 [閱讀全文](../building-journeys/journeys-message.md#send-time-optimization)
 
 

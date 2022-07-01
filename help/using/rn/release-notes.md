@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 108a7aab025aa92fab59c26d0bf5bf5339b81bb3
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 31%
+ht-degree: 84%
 
 ---
 
@@ -24,16 +24,16 @@ ht-degree: 31%
 <table>
 <thead>
 <tr>
-<th><strong>將SMS發送給用戶（可用性有限）</strong><br/></th>
+<th><strong>傳送簡訊給使用者（可用性限制）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以通過與Windows的整合在Journey Optimizer建立、個性化和發送SMS <b>辛奇</b> 或 <b>Twilio</b>。</p>
+<p>您現在可以透過與 <b>Sinch</b> 或 <b>Twilio</b> 的整合在 Journey Optimizer 裡建立、個人化和傳送簡訊。</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>SMS通道當前僅可用於一組組織（有限可用性）。 有關詳細資訊，請與Adobe代表聯繫。</p>
-<p>瞭解如何在此中建立和發送SMS <a href="../messages/create-sms.md">詳細文檔</a>。</p>
+<p>簡訊管道目前僅可用於一組組織（可用性限制）。 如需詳細資訊，請聯絡您的 Adobe 代表。</p>
+<p>在<a href="../messages/create-sms.md">詳細文件</a>中了解如何建立和傳送簡訊。</p>
 </td>
 </tr>
 </tbody>
@@ -43,13 +43,13 @@ ht-degree: 31%
 <table>
 <thead>
 <tr>
-<th><strong>通過Adobe Stock整合，更快地查找影響力更大的映像</strong><br/></th>
+<th><strong>透過與 Adobe Stock 整合，更快找到影響力更大的圖片</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Stock和Adobe Journey Optimizer電子郵件設計器整合插件為客戶提供了導航、許可和保存影像以用於郵件創作的簡單方法。 </br> 新 <b>查找類似的股票照片</b> 選項還允許您查找與影像內容、顏色和組成匹配的「儲存」照片。 </p>
+<p>Adobe Stock 和 Adobe Journey Optimizer 電子郵件設計工具整合外掛程式，為客戶提供了用於訊息製作的導覽、授權和儲存影像的簡單方法。 您還可以藉由</br>新的<b>找到類似的相片庫</b>選項找出與影像內容、顏色和組成相符的影像庫。 </p>
 <img src="assets/do-not-localize/stock-rn.gif"/>
 <p>如需詳細資訊，請參閱<a href="../design/stock.md">詳細文件</a>。</p>
 </td>
@@ -60,13 +60,13 @@ ht-degree: 31%
 <table>
 <thead>
 <tr>
-<th><strong>在所有電子郵件上使用電子郵件密件抄送</strong><br/></th>
+<th><strong>在所有電子郵件上使用密件副本電子郵件</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以使用電子郵件密件抄送（Email BCC，盲碳拷貝）功能來儲存Adobe Journey Optimizer發送的電子郵件。 在電子郵件預設中啟用此選項，以便將發送的每封電子郵件都盲目複製到您的密件抄送地址。</p>
+<p>您現在可以使用密件副本電子郵件（密件副本）功能來儲存 Adobe Journey Optimizer 傳送的電子郵件。 在電子郵件預設集中啟用此選項，以便將每封傳送的電子郵件以密件副本方式寄至密件副本地址。</p>
 <img src="assets/do-not-localize/bcc-rn.gif"/>
 <p>如需詳細資訊，請參閱<a href="../configuration/bcc-email.md">詳細文件</a>。</p>
 </td>
@@ -129,12 +129,12 @@ ht-degree: 31%
 
 **決策管理**
 
-* **HTML和JSON檔案支援**  — 您現在可以將外部HTML和JSON檔案從Adobe Experience Cloud資產庫拖放到優惠表示內容中。 [了解更多](../offers/offer-library/add-representations.md#html-json)
+* **HTML 和 JSON 檔案支援** — 您現在可以將外部 HTML 和 JSON 檔案從 Adobe Experience Cloud 資產庫拖放到優惠方案聲明內容中。 [了解更多](../offers/offer-library/add-representations.md#html-json)
 
 
 **電子郵件**
 
-* **另存為模板**  — 現在，您可以將電子郵件內容另存為模板，並在建立其他郵件時重新使用它。 [進一步了解](../design/email-templates.md)
+* **另存為範本** — 您現在可以將電子郵件內容另存為範本，並在建立其他郵件時重複使用它。 [進一步了解](../design/email-templates.md)
 
 <!--
 **Journeys**
@@ -147,7 +147,7 @@ ht-degree: 31%
 
 <!--* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.-->
 
-* **預覽跟蹤URL參數**  — 配置消息預設時，如果定義URL跟蹤參數，則現在將顯示結果跟蹤URL的動態預覽。 [了解更多](../configuration/email-settings.md#url-tracking)
+* **預覽追蹤 URL 參數** — 設定訊息預設集時，如果定義 URL 追蹤參數，則將顯示結果追蹤 URL 的動態預覽。 [了解更多](../configuration/email-settings.md#url-tracking)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 

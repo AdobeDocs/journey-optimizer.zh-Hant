@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -33,12 +33,12 @@ ht-degree: 96%
    + [使用者介面](using/start/user-interface.md)
    + [護欄](using/start/guardrails.md)
 + 行銷活動 {#campaigns}
-   + [開始活動](using/campaigns/get-started-with-campaigns.md)
-   + [建立促銷活動](using/campaigns/create-campaign.md)
-   + [修改或停止市場活動](using/campaigns/modify-stop-campaign.md)
-   + 報表 {#reports}
-      + [市場活動實況報告](using/campaigns/campaign-live-report.md)
-      + [市場活動全局報告](using/campaigns/campaign-global-report.md)
+   + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
+   + [建立行銷活動](using/campaigns/create-campaign.md)
+   + [修改或停止行銷活動](using/campaigns/modify-stop-campaign.md)
+   + 報告 {#reports}
+      + [行銷活動即時報告](using/campaigns/campaign-live-report.md)
+      + [行銷活動全域報告](using/campaigns/campaign-global-report.md)
 + 訊息 {#messages}
    + [開始使用訊息](using/messages/get-started-content.md)
    + [建立電子郵件](using/messages/create-email.md)
@@ -53,7 +53,7 @@ ht-degree: 96%
    + [從頭開始 ](using/design/create-email-content.md)
    + [匯入電子郵件內容](using/design/existing-content.md)
    + [為您自己的內容撰寫程式碼](using/design/code-content.md)
-   + [使用模板](using/design/email-templates.md)
+   + [使用範本](using/design/email-templates.md)
    + 內容設計 {#design-content}
       + [使用內容元件](using/design/content-components.md)
       + [背景設定](using/design/backgrounds.md)
@@ -115,7 +115,7 @@ ht-degree: 96%
 + 歷程 {#orchestrate-journeys}
    + 關於歷程{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
-      + [旅程生命週期](using/building-journeys/journey-end.md)
+      + [歷程生命週期](using/building-journeys/journey-end.md)
       + [歷程版本](using/building-journeys/journey-versions.md)
       + [與 Intelligent Services 整合](using/building-journeys/ai-services-overview.md)
    + 建立歷程{#create-journey}
@@ -124,7 +124,7 @@ ht-degree: 96%
       + [測試您的歷程](using/building-journeys/testing-the-journey.md)
       + [發佈您的歷程](using/building-journeys/publishing-the-journey.md)
       + [時區管理](using/building-journeys/timezone-management.md)
-      + [將行程複製到其他沙箱](using/building-journeys/copy-to-sandbox.md)
+      + [複製歷程 到另一個沙箱](using/building-journeys/copy-to-sandbox.md)
       + [疑難排解您的歷程](using/building-journeys/troubleshooting.md)
    + 活動 {#about-journey-building}
       + [關於歷程活動](using/building-journeys/about-journey-activities.md)
@@ -300,7 +300,7 @@ ht-degree: 96%
       + [決定管理事件重要資訊](using/offers/reports/key-information.md)
       + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
    + 匯出優惠目錄 {#export-catalog}
-      + [開始使用優惠目錄匯出   ](using/offers/export-catalog/get-started-export.md)
+      + [開始使用優惠目錄匯出 ](using/offers/export-catalog/get-started-export.md)
       + [存取匯出的優惠目錄](using/offers/export-catalog/access-dataset.md)
       + [個人化優惠資料集](using/offers/export-catalog/export-offers.md)
       + [決定資料集](using/offers/export-catalog/export-decisions.md)
@@ -360,7 +360,7 @@ ht-degree: 96%
    + [方案](using/start/get-started-schemas.md)
    + 資料集 {#datasets}
       + [開始使用資料集](using/start/get-started-datasets.md)
-      + [查詢示例](using/start/datasets-query-examples.md)
+      + [查詢範例](using/start/datasets-query-examples.md)
    + [查詢](using/start/get-started-queries.md)
 + 設定{#configuration}
    + [開始使用 Journey Optimizer 設定](using/configuration/get-started-configuration.md)
@@ -422,6 +422,6 @@ ht-degree: 96%
    + [沙盒管理](using/administration/sandboxes.md)
    + [以屬性為基礎的存取控制](using/administration/attribute-based-access.md)
 + 隱私權 {#privacy}
-   + [資料使用策略](using/privacy/policies.md)
+   + [資料使用原則](using/privacy/policies.md)
    + [隱私權請求](using/privacy/requests.md)
    + [對 Journey Optimizer 資源的稽核動作](using/privacy/audit-logs.md)
