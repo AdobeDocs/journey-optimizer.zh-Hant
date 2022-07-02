@@ -2,10 +2,10 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 108a7aab025aa92fab59c26d0bf5bf5339b81bb3
+source-git-commit: fedc0f70f336a9fa7917ad34a06e4d1845c1fdd4
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 84%
+source-wordcount: '486'
+ht-degree: 78%
 
 ---
 
@@ -148,6 +148,10 @@ ht-degree: 84%
 <!--* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.-->
 
 * **預覽追蹤 URL 參數** — 設定訊息預設集時，如果定義 URL 追蹤參數，則將顯示結果追蹤 URL 的動態預覽。 [了解更多](../configuration/email-settings.md#url-tracking)
+
+* **消息預設建立**  — 現在，建立消息預設時的處理時間最多只需要3小時。 [了解更多](../configuration/message-presets.md#create-message-preset)
+
+* **IP池版本**  — 現在， IP池更新的處理時間最多只需3小時。 [了解更多](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
