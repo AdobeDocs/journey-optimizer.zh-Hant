@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 492acb7c7474964bb27cd562db5cd4cb2ed42784
+source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1498'
 ht-degree: 2%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 2%
 
 1. 建立消息預設後，它將顯示在清單中 **[!UICONTROL Processing]** 狀態。
 
-   在此步驟中，將執行多項檢查，以驗證是否已正確配置了該步驟。 處理時間可能需要 **3小時**。
+   在此步驟中，將執行多項檢查，以驗證是否已正確配置了該步驟。 處理時間在 **48小時–72小時**，並且 **7-10個工作日**。
 
    這些檢查包括由Adobe團隊執行的配置和技術test:
 
@@ -179,7 +179,7 @@ ht-degree: 2%
    >
    >您還可以將消息預設保存為草稿，稍後繼續更新。
 
-提交更改後，消息預設將經過與當時的驗證週期類似的驗證週期 [建立預設](#create-message-preset)。
+提交更改後，消息預設將經過與當時的驗證週期類似的驗證週期 [建立預設](#create-message-preset)。 編輯處理時間可能 **3小時**。
 
 >[!NOTE]
 >
