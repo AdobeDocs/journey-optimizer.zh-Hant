@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1054'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Experience PlatformWeb SDK支援在Adobe查詢個性化解決方案，包括決�
 
 >[!NOTE]
 >
->Adobe Experience PlatformWeb SDK中的決策管理目前可以提前訪問選定用戶。 此功能不適用於所有組織。
+>在Adobe Experience PlatformWeb SDK中使用決策管理僅適用於一組組織（有限可用性）。 如果您想利用此功能，請與Adobe客戶經理聯繫。
 
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 

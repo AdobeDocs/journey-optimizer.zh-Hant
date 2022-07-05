@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 2%
+source-wordcount: '1476'
+ht-degree: 1%
 
 ---
 
@@ -49,11 +49,25 @@ ht-degree: 2%
    >
    > 名稱必須以字母(A-Z)開頭。 它只能包含字母數字字元。 您還可以使用下划線 `_`，點`.` 連字元 `-` 字元。
 
-1. 配置 **電子郵件** 的子菜單。 [了解更多](#configure-email-settings)
+1. 如果選擇了 **[!UICONTROL Email]** 頻道，配置設定，如中所述 [此部分](email-settings.md)。
 
-1. 配置 **推送通知** 的子菜單。 [了解更多](#configure-push-settings)
+   ![](assets/preset-email.png)
 
-1. 配置 **簡訊** 的子菜單。 [了解更多](sms-configuration.md)
+1. 如果選擇了 **[!UICONTROL Push Notification]** 通道，選擇至少一個平台(**iOS** 和/或 **安卓**)，並選擇要用於每個平台的移動應用程式。
+
+   ![](assets/preset-push.png)
+
+   >[!NOTE]
+   >
+   >有關如何配置環境以發送推送通知的詳細資訊，請參閱 [此部分](push-gs.md)。
+
+1. 如果選擇了 **[!UICONTROL SMS]** 頻道，配置設定，如中所述 [此部分](sms-configuration.md#message-preset-sms)。
+
+   ![](assets/preset-sms.png)
+
+   >[!NOTE]
+   >
+   >有關如何配置環境以發送SMS消息的詳細資訊，請參閱 [此部分](sms-configuration.md)。
 
 1. 配置完所有參數後，按一下 **[!UICONTROL Submit]** 確認。 您也可以將消息預設保存為草稿，並稍後恢復其配置。
 
@@ -86,42 +100,6 @@ ht-degree: 2%
 1. 檢查成功後，消息預設將獲取 **[!UICONTROL Active]** 狀態。 它已準備好用於傳遞消息。
 
    ![](assets/preset-active.png)
-
-## 設定電子郵件設定 {#configure-email-settings}
-
-電子郵件設定在消息預設配置的專用部分中定義。
-
-![](assets/preset-email.png)
-
-按中所述配置設定 [此部分](email-settings.md)。
-
-## 配置推送設定 {#configure-push-settings}
-
-推送設定在消息預設配置的專用部分中定義。
-
-要定義與消息預設關聯的推送設定，請執行以下步驟：
-
-1. 至少選擇一個平台： **iOS** 和/或 **安卓**。
-
-1. 選擇要用於每個平台的移動應用程式。
-
-![](assets/preset-push.png)
-
-有關如何配置環境以發送推送通知的詳細資訊，請參閱 [此部分](../configuration/push-gs.md)。
-
-<!--
-## Configure SMS settings {#configure-sms-settings}
-
-1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
-
-    ![](assets/preset-sms.png)
-    
-1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
-        
-    For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
-
-1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
--->
 
 ## 監視消息預設 {#monitor-message-presets}
 
@@ -185,6 +163,8 @@ ht-degree: 2%
 >
 >如果僅編輯 **[!UICONTROL Description]**。 **[!UICONTROL Email type]** 和/或 **[!UICONTROL Email retry parameters]** 欄位，更新是即時的。
 
+### 更新詳細資訊 {#update-details}
+
 對於具有 **[!UICONTROL Active]** 狀態，您可以檢查更新的詳細資訊。 若要這麼做：
 
 * 按一下 **[!UICONTROL Recent update]** 表徵圖。
@@ -209,7 +189,7 @@ ht-degree: 2%
 
 每種狀態詳見下文。
 
-### 正在處理
+#### 正在處理
 
 將執行多次可傳送性檢查，以驗證預設是否已正確更新。
 
@@ -231,13 +211,13 @@ ht-degree: 2%
 >
 >更新正在進行時，無法修改消息預設。 您仍然可以按一下其名稱，但所有欄位都呈灰色顯示。 在更新成功之前，不會反映更改。
 
-### 成功 {#success}
+#### 成功 {#success}
 
 驗證過程成功後，使用此預設的所有消息中將自動使用新版本的預設。 但是，您可能必須等待：
 * 在被統一消息消耗前幾分鐘，
 * 直到預設在批消息中生效的下一個批。
 
-### 已失敗 {#failed}
+#### 已失敗 {#failed}
 
 如果驗證過程失敗，則仍將使用預設的舊版本。
 

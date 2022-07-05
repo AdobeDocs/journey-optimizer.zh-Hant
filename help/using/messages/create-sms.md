@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 9%
+source-wordcount: '420'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->SMS通道當前僅可用於一組組織（有限可用性）。 有關詳細資訊，請與Adobe代表聯繫。
+>簡訊管道目前僅可用於一組組織（可用性限制）。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 ![](assets/sms_1.png)
 
@@ -67,7 +67,17 @@ ht-degree: 9%
 
 對於所有營銷消息，SMS必須包含一種方法，讓收件人能夠輕鬆取消訂閱。 一旦取消訂閱，這些配置檔案將自動從未來營銷消息的受眾中刪除。 對於事務性消息，不必添加未訂閱連結。
 
-SMS收件人可以使用選擇加入和選擇退出關鍵字進行回復。 根據行業標準和法規，Adobe Journey Optimizer自動處理傳入消息中的以下關鍵字：開始、停止和停止。 這些關鍵字觸發來自SMS提供程式的自動標準答復。
+SMS收件人可以使用選擇加入和選擇退出關鍵字進行回復。 根據行業標準和法規，Adobe Journey Optimizer自動處理傳入消息中的以下關鍵字：開始、停止和停止。 這些關鍵字觸發來自簡訊提供者的自動標準回覆。
+
+要瞭解SMS的本機入站關鍵字支援（啟動、停止和取消停止）的工作原理的詳細資訊，請參閱以下視頻。
+
+>[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
+
+## How-to視頻
+
+瞭解如何配置、編寫和將SMS消息包括到您的客戶旅程中。
+
+>[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
 
 **相關主題**
 

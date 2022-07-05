@@ -2,10 +2,10 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 99%
+source-wordcount: '1632'
+ht-degree: 97%
 
 ---
 
@@ -13,6 +13,9 @@ ht-degree: 99%
 
 本頁面列出 [!DNL Journey Optimizer] 所有文件更新。
 
+## 2022 年 7 月 {#july-2022}
+
+* 的 **建立消息預設** 部分已被澄清，並已使用指向描述如何配置SMS通道的頁面的連結進行更新。 [閱讀全文](../configuration/message-presets.md#create-message-preset)
 
 ## 2022 年 6 月 {#june-2022}
 
@@ -30,7 +33,6 @@ ht-degree: 99%
 * 發送時間優化現在可供所有客戶使用。 已刪除測試版提及。 [閱讀全文](../building-journeys/journeys-message.md#send-time-optimization)
 
 
-
 ## 2022 年 5 月 {#may-2022}
 
 * 有關 [!DNL Journey Optimizer] 2022 年 5 月發佈內容的新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
@@ -41,7 +43,7 @@ ht-degree: 99%
 * 已加入備註，說明自訂動作不支援 DELETE 方法。 [閱讀全文](../action/about-custom-action-configuration.md)
 * 已更新說明影片的連結。
 * 已重新組織[電子郵件設定](../configuration/about-subdomain-delegation.md)、[訊息預設集](../configuration/message-presets.md)和[設定登陸頁面](../configuration/lp-subdomains.md)的部分，以提高可讀性。
-* **URL 追蹤**&#x200B;部分已經過範例更新和改善。 [閱讀全文](../configuration/email-settings.md#url-tracking)
+* URL 追蹤部分已經過範例更新和改善。 [閱讀全文](../configuration/email-settings.md#url-tracking)
 * 已新增有關設定轉寄電子郵件地址的新子區段。 請注意，您不能透過使用者介面進行此操作。 [閱讀全文](../configuration/email-settings.md#forward-email)
 
 ## 2022 年 4 月 {#april-2022}

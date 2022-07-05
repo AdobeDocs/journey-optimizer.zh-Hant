@@ -1,5 +1,5 @@
 ---
-title: 基於屬性的訪問控制
+title: 以屬性為基礎的存取控制
 description: 瞭解基於屬性的訪問控制
 feature: Access Management
 topic: Administration
@@ -7,18 +7,19 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f00d503ef5ea38b35b7f56821a9f523dca9fbb94
+exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 0%
+source-wordcount: '914'
+ht-degree: 2%
 
 ---
 
-# 基於屬性的訪問控制 {#attribute-based-access}
+# 以屬性為基礎的存取控制 {#attribute-based-access}
 
 >[!IMPORTANT]
 >
->目前，只有選擇用戶才能提前訪問基於屬性的訪問控制。 如果您想利用此功能，請與Adobe客戶經理聯繫。
+>當前僅對一組組織（有限可用性）使用基於屬性的訪問控制。 如果您想利用此功能，請與Adobe客戶經理聯繫。
 
 基於屬性的訪問控制(ABAC)允許您定義管理特定團隊或用戶組資料存取的授權。 其目的是保護敏感數字資產免受未經授權用戶的侵害，從而進一步保護個人資料。
 
@@ -45,7 +46,7 @@ ht-degree: 0%
 
 請注意，您還可以  **[!UICONTROL Label]** 至  **[!UICONTROL Schema]**。  **[!UICONTROL Datasets]** 和  **[!UICONTROL Segments]**。
 
-1. 建立 **[!UICONTROL Schema]**。 有關此內容的詳細資訊，請參閱 [本文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en)。
+1. 建立 **[!UICONTROL Schema]**。 有關此內容的詳細資訊，請參閱 [本文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant)。
 
    ![](assets/label_1.png)
 
@@ -159,4 +160,3 @@ ht-degree: 0%
 * 用戶Y將無法test行程或消息。
 
 * 用戶Y將無法發佈行程或消息。
-

@@ -4,9 +4,9 @@ description: 瞭解如何使用Journey Optimizer配置登錄頁子域
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 911df5b5b81c0e803c41e4e12817c4773d498b73
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '699'
 ht-degree: 1%
 
 ---
@@ -59,9 +59,7 @@ ht-degree: 1%
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   請注意，不能使用同一父域的多個委託子域。 例如，如果已將「marketing1.yourcompany.com」委託給登錄頁的Adobe，則您將無法使用「marketing2.yourcompany.com」。 但是，登錄頁支援多級子域，因此您可以使用「email.marketing1.yourcompany.com」。
-
-   <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
+   請注意，不能使用同一父域的多個委託子域。 例如，如果已將「marketing1.yourcompany.com」委託給登錄頁的Adobe，則您將無法使用「marketing2.yourcompany.com」。 但是，登錄頁支援多級子域，您可以繼續使用「marketing1.yourcompany.com」（如「email.marketing1.yourcompany.com」）的子域或其他父域。
 
    >[!CAUTION]
    >
@@ -107,8 +105,6 @@ ht-degree: 1%
    >[!NOTE]
    >
    >對於登錄頁，支援多級子域。 例如，您可以使用「email.marketing.yourcompany.com」。
-
-   <!--Journey Optimizer currently does not support multiple subdomains of the same parent domain for landing page configuration-->
 
 1. 將顯示要放置在DNS伺服器中的記錄。 複製此記錄，或下載CSV檔案，然後導航到域托管解決方案以生成匹配的DNS記錄。
 

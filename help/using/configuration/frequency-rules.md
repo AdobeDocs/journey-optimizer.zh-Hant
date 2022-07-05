@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 1%
+source-wordcount: '883'
+ht-degree: 6%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 1%
 >[!NOTE]
 >
 >消息頻率規則不同於選擇退出管理，它允許用戶取消訂閱從品牌接收通信。 [了解更多](../messages/consent.md#opt-out-management)
+
+➡️ [在影片中探索此功能](#video)
 
 ## 訪問規則 {#access-rules}
 
@@ -125,7 +127,7 @@ ht-degree: 1%
 
    ![](assets/message-rules-msg-channels.png)
 
-1. 您可以按一下 **[!UICONTROL Frequency rule]** 連結，以查看將應用於選定類別和通道的頻率規則。
+1. 您可以按一下 **[!UICONTROL Frequency rule]** 連結，檢視將套用於選取的類別和頻道的頻率規則。 
 
    ![](assets/message-rules-msg-link.png)
 
@@ -177,7 +179,7 @@ ht-degree: 1%
 
    ![](assets/message-rules-ex-channels.png)
 
-1. 您可以按一下 **[!UICONTROL Frequency rule]** 連結，以查看將應用於選定類別和通道的頻率規則。
+1. 您可以按一下 **[!UICONTROL Frequency rule]** 連結，檢視將套用於選取的類別和頻道的頻率規則。 
 
 1. [設計](../design/design-emails.md) 和 [發佈](../messages/publish-manage-message.md) 你的留言。
 
@@ -188,3 +190,9 @@ ht-degree: 1%
 >[!NOTE]
 >
 >在測試頻率規則時，從新建立的規則開始可能會很有幫助 [test配置檔案](../segment/creating-test-profiles.md)，因為一旦達到配置檔案的頻率上限，則直到下個月才能重置計數器。 停用規則將允許封閉配置檔案接收消息，但不會刪除或刪除任何計數器增量。
+
+## How-to視頻 {#video}
+
+瞭解如何建立、激活、test和報告頻率規則。
+
+>[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)
