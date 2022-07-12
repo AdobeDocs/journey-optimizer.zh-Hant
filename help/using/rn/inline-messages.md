@@ -4,39 +4,36 @@ description: 瞭解如何遷移郵件
 hide: true
 hidefromtoc: true
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 99a6a9d771cf519210caeab02d4a993185083439
+source-git-commit: d30795051ed71e568d6529f8fb97b9f0688878b0
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
 
+# 遷移到旅程內聯創作{#inline-authoring}
 
-# 內聯創作遷移概述{#inline-authoring}
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_before"
 >title="瞭解有關新內聯創作消息的詳細資訊"
->abstract="從2022年7月25日起，郵件直接從Journey中編寫。 現有消息將自動遷移到新模型。 遷移後需要執行其他操作。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="遷移步驟"
+>abstract="從Journey Optimizer7月22日的發行開始，留言直接從Journey中撰寫。 現有消息將自動遷移到新模型。 遷移後需要執行其他操作。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_during"
 >title="瞭解發生的情況"
->abstract="從2022年7月25日起，郵件直接從Journey中編寫。 正在遷移您的環境。 遷移後需要執行其他操作。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="遷移步驟"
+>abstract="從Journey Optimizer7月22日的發行開始，留言直接從Journey中撰寫。 正在遷移您的環境。 遷移後需要執行其他操作。"
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_after"
 >title="瞭解如何遷移郵件"
->abstract="從2022年7月25日起，郵件直接從Journey中編寫。 現有消息已遷移到新模型。 作為旅行實踐者，現在需要採取其他行動。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="遷移步驟"
+>abstract="從Journey Optimizer7月22日的發行開始，留言直接從Journey中撰寫。 現有消息已遷移到新模型。 作為旅行實踐者，現在需要採取其他行動。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
 >title="瞭解如何遷移郵件"
->abstract="從2022年7月25日起，「消息」菜單消失，消息直接從「旅程」中創作。 如果要在行程中重新使用舊消息，則需要將它們另存為模板。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="將郵件另存為模板"
+>abstract="從2022年7月25日起，「消息」菜單消失，消息將直接從「旅程」中創作。 如果要在行程中重新使用舊消息，則需要將它們另存為模板。"
 
 Adobe Journey Optimizer正在發佈一項新功能，該功能可改進您為Journey Optimizer頻道（電子郵件、推送、簡訊）編寫內容的方式。 作為Journey Optimizer的實踐者，您現在將直接從旅程建立和編寫您的資訊。
 
