@@ -2,7 +2,7 @@
 title: 遷移到旅程內聯創作
 description: 瞭解如何遷移郵件
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 3f9844dec9caf520ab59c5f2b433a5c2e86ef44f
+source-git-commit: 8404cbe345879bdd3c90a4ce542135fb7cbf1eb3
 workflow-type: tm+mt
 source-wordcount: '1700'
 ht-degree: 0%
@@ -114,8 +114,8 @@ Adobe的願景是不斷簡化產品，以提供高效和優化用戶流。 這�
 
 每個區域在夜間通過多次迭代進行遷移。 以下是遷移時間表：
 
-* 2002年7月25日：GA — 第1次迭代
-* 2002年8月1日：第2次迭代
+* 2022年7月25日：GA — 第1次迭代
+* 2022年8月1日：第2次迭代
 * 2022年9月5日：第3次迭代
 * 2022年9月6日：棄用
 
