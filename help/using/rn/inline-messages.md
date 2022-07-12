@@ -4,9 +4,9 @@ description: 瞭解如何遷移郵件
 hide: true
 hidefromtoc: true
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 696855bad3638a83c865b3d1d47fb4b05924155a
+source-git-commit: 944caac5de05169e39f65e222854788737854b8c
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,6 @@ ht-degree: 0%
 >id="ajo_messages_migration_after"
 >title="瞭解如何遷移郵件"
 >abstract="從Journey Optimizer7月22日的發行開始，留言直接從Journey中撰寫。 現有消息已遷移到新模型。 作為旅行實踐者，現在需要採取其他行動。"
-
->[!CONTEXTUALHELP]
->id="ajo_messages_depecrated_inventory"
->title="瞭解如何遷移郵件"
->abstract="從2022年7月25日起，「消息」菜單消失，消息將直接從「旅程」中創作。 如果要在行程中重新使用舊消息，則需要將它們另存為模板。"
 
 Adobe Journey Optimizer正在發佈一項新功能，該功能改善了Journey Optimizer為其提供電子郵件、推送、簡訊等渠道的從業人員的創作體驗。 此功能需要遷移使用消息的現有旅程。
 
