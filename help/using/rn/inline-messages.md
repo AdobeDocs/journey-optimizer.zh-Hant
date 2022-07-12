@@ -4,9 +4,9 @@ description: 瞭解如何遷移郵件
 hide: true
 hidefromtoc: true
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 8aecf71f61efb4c2a8f80991d30089a90e2b4705
+source-git-commit: 99a6a9d771cf519210caeab02d4a993185083439
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,9 @@ ht-degree: 0%
 >abstract="從2022年7月25日起，「消息」菜單消失，消息直接從「旅程」中創作。 如果要在行程中重新使用舊消息，則需要將它們另存為模板。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="將郵件另存為模板"
 
-Adobe Journey Optimizer正在發佈一項新功能，該功能改善了Journey Optimizer為其提供電子郵件、推送、簡訊等渠道的從業人員的創作體驗。 此功能需要遷移使用消息的現有旅程。
+Adobe Journey Optimizer正在發佈一項新功能，該功能可改進您為Journey Optimizer頻道（電子郵件、推送、簡訊）編寫內容的方式。 作為Journey Optimizer的實踐者，您現在將直接從旅程建立和編寫您的資訊。
 
-作為旅程實踐者，您現在可以直接從Journey建立和創作您的消息。
+此功能需要遷移使用消息的現有行程。
 
 ![](assets/inline-message.png)
 
