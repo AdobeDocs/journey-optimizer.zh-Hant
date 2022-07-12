@@ -5,10 +5,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 771828da23ab0656fc5726845305fe6949620545
-workflow-type: ht
-source-wordcount: '297'
-ht-degree: 100%
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 | AJO 子網域 | 建立/刪除/更新 |
 | AJO 隱藏清單 | 建立/刪除/下載 CSV |
 | 欄位群組 | 建立/刪除/更新 |
-| 歷程 | 建立/刪除/更新/停止/發佈 |
+| 歷程 | 建立/刪除/停止/發佈 |
 | 歷程自訂動作 | 建立/刪除/更新 |
 | 歷程資料來源 | 建立/刪除/更新 |
 | 歷程事件 | 建立/刪除/更新 |

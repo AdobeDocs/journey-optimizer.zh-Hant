@@ -1,5 +1,5 @@
 ---
-title: 開始活動
+title: 開始使用行銷活動
 description: 瞭解有關中的市場活動的更多資訊 [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
@@ -7,15 +7,15 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 1e4c5ab80336238283df041fdb4d323005acd325
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 2%
+source-wordcount: '300'
+ht-degree: 8%
 
 ---
 
 
-# 開始活動 {#get-started-campaigns}
+# 開始使用行銷活動 {#get-started-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
@@ -24,15 +24,19 @@ ht-degree: 2%
 
 ## 關於市場活動 {#about}
 
-市場活動允許您使用多個渠道將一次性內容交付到特定市場。
+市場活動允許您使用多個渠道將一次性內容交付到特定市場。 與按順序執行活動的行程不同，市場活動可以同時執行活動，或者立即執行，或者按指定的時間表執行。
 
-與按順序執行活動的行程不同，市場活動可以同時執行活動，或者立即執行，或者按指定的時間表執行。 例如，您可以使用它們來提供促銷優惠、訂約活動、公告、法律通知或策略更新。
+您可以建立兩種類型的市場活動：
+
+* **計畫的市場活動** 允許針對促銷優惠、接洽活動、公告、法律通知或策略更新等市場營銷用例進行簡單的臨時批通信。
+* **API觸發的市場活動** 允許使用REST API（密碼重置、卡放棄等）執行簡單的事務/操作消息，其中需要可能涉及使用配置檔案屬性和負載的上下文資料進行個性化。
 
 瞭解如何處理市場活動：
-* [建立促銷活動](create-campaign.md)
-* [修改或停止市場活動](modify-stop-campaign.md)
-* [市場活動實況報告](campaign-live-report.md)
-* [市場活動全局報告](campaign-global-report.md)
+* [建立行銷活動](create-campaign.md)
+* [建立API觸發的市場活動](api-triggered-campaigns.md)
+* [修改或停止行銷活動](modify-stop-campaign.md)
+* [行銷活動即時報告](campaign-live-report.md)
+* [行銷活動全域報告](campaign-global-report.md)
 
 ## 存取行銷活動 {#access}
 

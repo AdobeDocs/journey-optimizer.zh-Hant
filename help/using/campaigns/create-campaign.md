@@ -1,5 +1,5 @@
 ---
-title: 建立促銷活動
+title: 建立行銷活動
 description: 瞭解如何在 [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
@@ -7,15 +7,15 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b9fa6bff926eb8cee476fa53feb38ed783e048fc
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 建立促銷活動 {#create-campaign}
+# 建立行銷活動 {#create-campaign}
 
 >[!NOTE]
 >
@@ -33,20 +33,22 @@ ht-degree: 3%
 
    ![](assets/create-campaign.png)
 
-<!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
+1. 在 **[!UICONTROL Properties]** 部分，指定要執行市場活動的時間：
 
-    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date,
-    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. In this case, profiles to be targeted and triggers for actions need to be set via the API call.-->
+   * **[!UICONTROL Scheduled]**:立即或在指定日期執行市場活動。 計畫的市場活動旨在發送 **營銷** 鍵入消息。
+   * **[!UICONTROL API-triggered]**:使用API調用執行市場活動。 API觸發的市場活動旨在發送 **事務** 消息，即在個人執行的操作後發送的消息：密碼重置、卡棄用等。 [瞭解如何使用API觸發市場活動](api-triggered-campaigns.md)
 
-1. 在 **[!UICONTROL Actions]** 部分，選擇用於發送消息的通道和消息表面（即消息預設）。
+1. 在 **[!UICONTROL Actions]** 選擇用於發送消息的通道和消息面（即消息預設），然後按一下 **[!UICONTROL Create]**。
 
    ![](assets/create-campaign-action.png)
+
+   >[!NOTE]
+   >
+   >下拉清單中只列出與市場活動類型（市場營銷或事務性）相容的消息曲面。
 
 1. 指定市場活動的標題和說明。
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
-
-   ![](assets/create-campaign-properties.png)
 
 1. 在 **[!UICONTROL Actions]** 部分，配置要隨市場活動一起發送的消息：
 
@@ -60,13 +62,11 @@ ht-degree: 3%
 
       市場活動一旦執行，便可以從市場活動報告訪問跟蹤結果。 [瞭解有關市場活動報告的更多資訊](campaign-global-report.md)
 
-      ![](assets/create-campaign-action-properties.png)
-
 1. 定義目標受眾。 要執行此操作，請按一下 **[!UICONTROL Select audience]** 按鈕來顯示可用的Adobe Experience Platform段清單。 [瞭解有關網段的更多資訊](../segment/about-segments.md)
 
-   ![](assets/create-campaign-audience.png)
-
-   <!--By default, the targeted audience for in-app messages includes all the users of the selected mobile application.-->
+   >[!NOTE]
+   >
+   >對於API觸發的市場活動，需要通過API調用來設定受眾。 [了解更多](api-triggered-campaigns.md)
 
    在 **[!UICONTROL Identity namespace]** 欄位中，選擇要用於標識選定段中的個體的命名空間。 [瞭解有關命名空間的詳細資訊](../event/about-creating.md#select-the-namespace)
 
@@ -74,18 +74,19 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >該活動不會針對屬於在其不同身份中沒有選定身份（命名空間）的段的個人。 <!--info vue dans section journeys, read segment-->
+   >該活動不會針對屬於在其不同身份中沒有選定身份（命名空間）的段的個人。
 
-   <!--If you are creating a campaign to send an in-app message, you can choose how and when the message will be shown to the audience using existing mobile app triggers.-->
-   <!-- where are triggers configured?-->
+1. 配置市場活動的開始和結束日期。 預設情況下，市場活動配置為在手動激活市場活動後啟動，並在消息已發送一次時以暫停結束。
 
-1. 配置市場活動的開始和結束日期。
+1. 此外，您還可以指定執行市場活動中配置的操作的頻率。
 
-   預設情況下，市場活動配置為在手動激活市場活動後啟動，並在消息已發送一次時以暫停結束。
-
-1. 此外，您還可以配置執行市場活動中配置的操作的頻率。
+   >[!NOTE]
+   >
+   >對於API觸發的市場活動，由於通過API觸發活動，因此在特定日期和時間進行具有重複的計畫不可用。 但是，開始和結束日期與確保在窗口之後進行API調用之前，這些調用將出錯。
 
    ![](assets/create-campaign-schedule.png)
+
+1. 如果要建立API觸發的市場活動， **[!UICONTROL cURL request]** 部分允許您檢索 **[!UICONTROL Campaign ID]** 在API調用中使用。 [了解更多](api-triggered-campaigns.md)
 
 市場活動準備好後，您可以查看並發佈它(請參閱 [複查並激活市場活動](#review-activate))。
 
@@ -124,3 +125,11 @@ ht-degree: 3%
    >[!IMPORTANT]
    >
    >在市場活動中建立的消息特定於 [!DNL Journey Optimizer] 市場活動能力。 建立後，將只能從市場活動訪問它們，並且不會顯示在 **[!UICONTROL Messages]** 的子菜單。
+
+## 其他資源
+
+* [開始使用行銷活動](get-started-with-campaigns.md)
+* [建立API觸發的市場活動](api-triggered-campaigns.md)
+* [修改或停止行銷活動](modify-stop-campaign.md)
+* [行銷活動即時報告](campaign-live-report.md)
+* [行銷活動全域報告](campaign-global-report.md)

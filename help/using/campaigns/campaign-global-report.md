@@ -1,5 +1,5 @@
 ---
-title: 市場活動全局報告
+title: 行銷活動全域報告
 description: 瞭解如何從市場活動全局報告中使用資料
 feature: Reporting
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: cc20ecf0a019cecb8a4ae9420c5dbdcb28443c91
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# 市場活動全局報告 {#campaign-global-report}
+# 行銷活動全域報告 {#campaign-global-report}
 
 您可以直接從市場活動訪問市場活動全局報告， **[!UICONTROL Global view]** 按鈕
 
@@ -205,3 +205,11 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 的 **[!UICONTROL Excluded reasons]** 圖形和表顯示阻止從目標配置檔案中排除的用戶配置檔案接收消息的不同原因。
 
 的 **[!UICONTROL Tracking by platform]**。 **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 圖表和表格根據收件人的作業系統詳細說明推送通知的成功。
+
+## 其他資源
+
+* [開始使用行銷活動](get-started-with-campaigns.md)
+* [建立行銷活動](create-campaign.md)
+* [建立API觸發的市場活動](api-triggered-campaigns.md)
+* [修改或停止行銷活動](modify-stop-campaign.md)
+* [行銷活動即時報告](campaign-live-report.md)

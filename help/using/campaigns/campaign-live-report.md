@@ -1,5 +1,5 @@
 ---
-title: 市場活動實況報告
+title: 行銷活動即時報告
 description: 瞭解如何使用市場活動即時報告中的資料
 feature: Reporting
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 43a076632d2f2195ce0293f741dfbc28d4eea24a
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 0%
+source-wordcount: '618'
+ht-degree: 4%
 
 ---
 
-# 市場活動實況報告 {#campaign-live-report}
+# 行銷活動即時報告 {#campaign-live-report}
 
 您可以通過 **[!UICONTROL Live view]** 按鈕
 
@@ -110,3 +110,11 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 的 **[!UICONTROL Sending statistics - Failed]** 小部件允許您查看發生了多少個錯誤和彈出。
 
 的 **[!UICONTROL Tracking by platform]**。 **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 圖表和表根據作業系統詳細說明了推送通知的成功。
+
+## 其他資源
+
+* [開始使用行銷活動](get-started-with-campaigns.md)
+* [建立行銷活動](create-campaign.md)
+* [建立API觸發的市場活動](api-triggered-campaigns.md)
+* [修改或停止行銷活動](modify-stop-campaign.md)
+* [行銷活動全域報告](campaign-global-report.md)
