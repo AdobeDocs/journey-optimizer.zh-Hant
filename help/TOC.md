@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ebc96f7dfd3f3e4b49e0379904dd2244dda04bc3
+source-git-commit: 3f9844dec9caf520ab59c5f2b433a5c2e86ef44f
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1116'
 ht-degree: 99%
 
 ---
@@ -21,7 +21,9 @@ ht-degree: 99%
       + [2022 年發行說明](using/rn/release-notes-2022.md)
       + [2021 年發行說明](using/rn/release-notes-2021.md)
    + [文件更新](using/rn/documentation-updates.md)
-   + [訊息移轉](using/rn/inline-messages.md)
+   + 新的內聯創作功能 {#inline-authoring}
+      + [移轉概述](using/rn/inline-messages.md)
+      + [遷移步驟](using/rn/inline-messages-steps.md)
 + 快速入門{#get-started}
    + [什麼是 Journey Optimizer](using/start/get-started.md)
    + 快速入門{#quick-start}
