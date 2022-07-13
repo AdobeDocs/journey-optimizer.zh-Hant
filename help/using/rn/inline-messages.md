@@ -2,9 +2,9 @@
 title: 遷移到旅程內聯創作
 description: 瞭解如何遷移郵件
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 5ff9e34c70f13a6ebf12d106759c927f0b506520
+source-git-commit: 3146071854a02650c6f1632839e3dcd913a46676
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1684'
 ht-degree: 0%
 
 ---
@@ -16,25 +16,25 @@ ht-degree: 0%
 >id="ajo_messages_migration_before"
 >title="瞭解有關新內聯創作功能的詳細資訊"
 >abstract="從2022年7月25日起，郵件直接從Journey中編寫。 現有消息將自動遷移到新模型。 如果您當前在行程中使用消息，則遷移後將需要其他操作。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="遷移步驟"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="遷移步驟"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_during"
 >title="瞭解發生的情況"
 >abstract="從2022年7月25日起，郵件直接從Journey中編寫。 正在遷移您的環境。 遷移後需要執行其他操作。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="遷移步驟"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="遷移步驟"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_after"
 >title="瞭解如何遷移郵件"
 >abstract="從2022年7月25日起，郵件直接從Journey中編寫。 現有消息已遷移到新模型。 作為旅行實踐者，現在需要採取其他行動。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="遷移步驟"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="遷移步驟"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
 >title="瞭解如何遷移郵件"
 >abstract="從2022年7月25日起，「消息」菜單消失，消息直接從「旅程」中創作。 如果要在行程中重新使用舊消息，則需要將它們另存為模板。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template?lang=en" text="將郵件另存為模板"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="將郵件另存為模板"
 
 Adobe Journey Optimizer正在發佈一項新功能，該功能可改進您為Journey Optimizer頻道（電子郵件、推送、簡訊）編寫內容的方式。 作為Journey Optimizer的實踐者，您現在可以直接從旅途中建立和撰寫資訊。
 
