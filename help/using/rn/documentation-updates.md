@@ -2,10 +2,10 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 97%
+source-wordcount: '1651'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 97%
 * 已更新「隱藏」清單頁面以澄清一些資訊，包括隱藏欄位中允許包含 32 到 126 之間的所有 ASCII 字元。 [閱讀全文](../configuration/manage-suppression-list.md)
 * 已新增到用於決定管理的護欄和靜態限制的連結。 [閱讀全文](../start/guardrails.md)
 * 發送時間優化現在可供所有客戶使用。 已刪除測試版提及。 [閱讀全文](../building-journeys/journeys-message.md#send-time-optimization)
-
+* 批決策API已添加到可用API清單中，以交付個性化優惠。 [閱讀全文](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022 年 5 月 {#may-2022}
 
@@ -169,3 +169,4 @@ ht-degree: 97%
 * 新增警告，提示目前不支援事件型優惠。 [閱讀全文](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * 記錄「決定管理」新 **[!UICONTROL Overview]** 標籤。 [閱讀全文](../offers/get-started/user-interface.md#overview)
 * 新增區段，說明優惠和決定清單的可用動作： [優惠方案清單](../offers/offer-library/creating-personalized-offers.md#offer-list)和[決定清單](../offers/offer-activities/create-offer-activities.md#decision-list)。
+
