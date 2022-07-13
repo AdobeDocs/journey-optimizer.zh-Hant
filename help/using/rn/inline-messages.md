@@ -2,9 +2,9 @@
 title: 遷移到旅程內聯創作
 description: 瞭解如何遷移郵件
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: d27bcae95f1890292eb8f2eae8b2e72c3ad501e3
+source-git-commit: 5ff9e34c70f13a6ebf12d106759c927f0b506520
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1692'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_before"
->title="瞭解有關新內聯創作消息的詳細資訊"
->abstract="從2022年7月25日起，郵件直接從Journey中編寫。 現有消息將自動遷移到新模型。 遷移後需要執行其他操作。"
+>title="瞭解有關新內聯創作功能的詳細資訊"
+>abstract="從2022年7月25日起，郵件直接從Journey中編寫。 現有消息將自動遷移到新模型。 如果您當前在行程中使用消息，則遷移後將需要其他操作。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="遷移步驟"
 
 >[!CONTEXTUALHELP]
