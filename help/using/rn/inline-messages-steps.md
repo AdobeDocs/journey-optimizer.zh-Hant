@@ -1,9 +1,9 @@
 ---
 title: 遷移到旅程的內聯創作步驟
 description: 遷移至旅程的內聯創作步驟
-source-git-commit: 3f9844dec9caf520ab59c5f2b433a5c2e86ef44f
+source-git-commit: f98ef26fa9c6075c852d33d19c796351296a3f94
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1048'
 ht-degree: 1%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 # 內聯創作遷移步驟{#migration-steps}
 
-本文介紹了在Adobe Journey Optimizer創作消息的新過程 [頁](../rn/inline-messages.md)。 將為您執行自動轉換行程。 話雖如此，我們需要你的幫助。
+本文介紹了在Adobe Journey Optimizer創作內容的新過程 [頁](../rn/inline-messages.md)。 將為您執行自動轉換行程。 話雖如此，我們需要你的幫助。
 
 >[!VIDEO](https://video.tv.adobe.com/v/344699)
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 1. 列出由遷移建立的所有新版本。 [閱讀全文](../rn/inline-messages-steps.md#migration-step-2-2)
 1. Test，一個一個地出版。 [閱讀全文](../rn/inline-messages-steps.md#migration-step-2-3)
 1. 列出所有即時版本。 [閱讀全文](../rn/inline-messages-steps.md#migration-step-2-4)
-1. 查看草稿版本遷移的錯誤。 [閱讀全文](../rn/inline-messages-steps.md#migration-step-2-5)
+1. 檢查遷移的草稿版本上的錯誤。 [閱讀全文](../rn/inline-messages-steps.md#migration-step-2-5)
 
 **[在第二次迭代之後](../rn/inline-messages-steps.md#migration-step-3)**
 
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 ### 1。停止所有即時和封閉的旅程{#migration-step-1-1}
 
-開 **非生產沙箱**，停止所有實況和關閉的旅程。 這將使自動遷移過程能夠從這些沙箱遷移所有行程，而無需您執行任何操作。 遷移後，您將能夠複製已停止的行程版本並使用它們。
+開 **非生產沙箱**，停止所有實況和關閉的旅程。 這使自動遷移過程能夠從這些沙箱中遷移所有行程，而無需您執行任何操作。 遷移後，您將能夠複製已停止的行程版本並使用它們。
 
 ### 2.停止所有即時即席旅程，而不保留配置檔案{#migration-step-1-2}
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 
 +++如何查找這些旅程？
 
-要查找這些旅程，請導航到 **旅程** 菜單並過濾「狀態=活動」和「類型=讀取段」上的清單。 您還可以按時間順序從最早到最晚的「已發佈」日期訂購。
+要查找這些旅程，請導航到 **旅程** 菜單並過濾「狀態=活動」和「類型=讀取段」上的清單。 您還可以按時間順序訂購從最早到最晚「已發佈」日期的旅程。
 
 ![](assets/inline-migration-steps1.png)
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
    ![](assets/inline-migration-steps2.png)
 
-* 如果在這些行程中使用了等待或事件偵聽器，則配置檔案可能仍位於其中。 查看行程執行日期，並添加您在等待或事件偵聽器中定義的任何小時/天，以推斷當沒有配置檔案保留時的實際日期。 如果那天已經過去了，你可以停止這趟旅程。 否則，此行程將在行程執行日期後30天自動移至「已完成」狀態。
+* 如果在這些行程中使用了等待或事件偵聽器，則配置檔案可能仍位於其中。 查看行程執行日期，並添加您在等待或事件偵聽器中定義的任何小時/天，以推斷當沒有配置檔案保留時的實際日期。 如果那天已經過去了，你可以停止這趟旅程。 否則，此行程在行程執行日期後30天自動移至「已完成」狀態。
 
 +++
 
@@ -74,15 +74,13 @@ ht-degree: 1%
 
 * 如果您有非最新版本的即時行程，則表示您在草稿中建立了另一個行程版本、發佈或刪除它。
 
-* 如果您有未在行程中使用且要保留的消息，請將其另存為模板。 請注意，在棄用之前，您仍可以訪問它們。
+* 如果您有未在行程中使用且要保留的消息，請將其另存為模板。 請參閱此 [頁](../design/email-templates.md#save-as-template)。 請注意，在棄用之前，您仍可以訪問它們。
 
 ## 遷移第一次迭代後（7月25日）{#migration-step-2}
 
 遷移按兩個階段進行排序：自動化階段（7月25日至7月26日夜間）和手動階段（7月26日起），需要採取行動。
 
-有關自動化階段，請參閱 [頁](../rn/inline-messages.md#process)。
-
-對於手動階段，以下是要對 **生產沙盒**:
+有關自動化階段，請參閱 [頁](../rn/inline-messages.md#process)。 對於手動階段，以下是要對 **生產沙盒**:
 
 <!--
 _On non-production sandboxes:_
@@ -108,7 +106,9 @@ _On the production sandbox:_
 
 ### 1。檢查遷移的即時旅程中是否有錯誤{#migration-step-2-1}
 
-在狀態報告中檢查自動遷移的即時行程上是否有錯誤。
+在狀態報告中檢查自動遷移的即時行程上是否有錯誤([瞭解更多](../rn/inline-messages.md#status)。 按一下 **檢查狀態** 按鈕。
+
+![](assets/inline-migration-steps3.png)
 
 查找「ERROR_NEW_VERSION_CREATION」：
 
@@ -117,6 +117,8 @@ _On the production sandbox:_
 * 如果沒有錯誤，則表示已處理所有需要遷移的即時行程版本，並且已自動建立新的遷移草稿版本。
 
 * 如果您看到錯誤，可以搜索「errorMessage」並檢查日誌中的錯誤消息。 不遷移多通道消息。 你必須創造另一段旅程。
+
+   ![](assets/inline-migration-steps5.png)
 
 * 有關其他錯誤，請與您的CSM或任何Adobe代表聯繫以獲得指導。
 
@@ -132,7 +134,7 @@ _On the production sandbox:_
 
 Test您現在包含內聯渠道操作的旅程的草稿版本。
 
-發佈您的新旅程版本。 您以前的即時版本將變為「已關閉」狀態。
+發佈您的新旅程版本。 您以前的即時版本隨後將移到「已關閉」狀態。
 
 ### 4.列出所有即時版本{#migration-step-2-4}
 
@@ -140,9 +142,9 @@ Test您現在包含內聯渠道操作的旅程的草稿版本。
 
 ![](assets/inline-migration-steps8.png)
 
-### 5.查看草稿版本遷移的錯誤{#migration-step-2-5}
+### 5.檢查遷移的草稿版本上的錯誤 {#migration-step-2-5}
 
-按一下 **檢查狀態** 按鈕，並檢查自動遷移期間是否沒有錯誤，以及是否沒有要遷移的內容。 請注意，任何出錯行程（含消息）將在9月5日之後（在所有沙箱上）被棄用。
+按一下 **檢查狀態** 按鈕([瞭解更多](../rn/inline-messages.md#status) 並檢查自動遷移期間是否沒有錯誤，以及是否沒有剩餘的可遷移內容。 請注意，任何出錯行程（含消息）將在9月5日之後（在所有沙箱上）被棄用。
 
 ![](assets/inline-migration-steps11.png)
 
@@ -154,11 +156,11 @@ Test您現在包含內聯渠道操作的旅程的草稿版本。
 
 * 如果有錯誤，請通過搜索&quot;errorMessage&quot;查找錯誤。 由於不支援多通道消息的遷移，應出現以下錯誤：&quot;不支援多通道消息的遷移&quot;。 你必須重建這段旅程。
 
-![](assets/inline-migration-steps6.png)
+![](assets/inline-migration-steps5.png)
 
 ## 第二次迭代（8月1日）後{#migration-step-3}
 
-第二次迭代將於8月1日至8月2日的夜間進行。
+第二次迭代發生在8月1日至8月2日的夜間。
 
 <!--
 _On non-production sandboxes:_
@@ -179,7 +181,11 @@ Click the **Check status** button in the top banner and check that all journeys 
 
 ### 2.停止以前的版本{#migration-step-3-2}
 
-如果您尚未發佈較新的行程版本(請參閱 [節](../rn/inline-messages-steps.md#migration-step-2-3))在第2版（8月1日）之前的時間含義，然後發佈較新版本和 **停止以前的版本，否則您將丟失** 及其相關報告。
+如果您尚未發佈較新的行程版本(請參閱 [節](../rn/inline-messages-steps.md#migration-step-2-3))，然後發佈較新版本。
+
+>[!NOTE]
+>
+>停止以前的版本，否則您將丟失該版本及其關聯的報告。
 
 ## 第三次和最後一次迭代（9月5日）之前{#migration-step-4}
 
