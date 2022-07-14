@@ -3,9 +3,9 @@ title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -95,13 +95,13 @@ ht-degree: 78%
 <table>
 <thead>
 <tr>
-<th><strong>在沙箱之間複製對象</strong><br/></th>
+<th><strong>在沙箱之間複製物件</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在，您可以將體驗從Journey Optimizer沙盒重新建立到另一個沙盒，例如從非生產沙盒重新建立到生產沙盒。 此新功能可將整個Journey從一個環境複製到另一個環境，包括Journey依賴的任何正確運行對象。 除了Journeys之外，您還可以複製其他元件，如Offirs 、 Messages 、 Schemas 、 Datasets 、 Data Sources 、 Events和Actions。</p>
+<p>現在，您可以從 Journey Optimizer 沙箱將體驗重新建立到另一個沙箱，例如從非生產沙箱重新建立到生產沙箱。 這個新功能可將整個 Journey 從一個環境複製到另一個環境，包括 Journey 賴以正確運作的任何物件。 除了 Journeys 之外，您還可以複製其他元件，如 Offirs、Messages、Schemas、Datasets、Data Sources、Events 和 Actions。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/copy-to-sandbox.md">詳細文件</a>。
 </td>
 </tr>
@@ -149,9 +149,9 @@ ht-degree: 78%
 
 * **預覽追蹤 URL 參數** — 設定訊息預設集時，如果定義 URL 追蹤參數，則將顯示結果追蹤 URL 的動態預覽。 [了解更多](../configuration/email-settings.md#url-tracking)
 
-* **消息預設版本**  — 現在，更新消息預設時，處理時間最多只需3小時。 [了解更多](../configuration/message-presets.md#edit-message-preset)
+* **訊息預設集版本** — 現在，當更新訊息預設集時，處理時間最多只需 3 小時。 [了解更多](../configuration/message-presets.md#edit-message-preset)
 
-* **IP池版本**  — 現在，更新IP池時，處理時間最多只需3小時。 [了解更多](../configuration/ip-pools.md#edit-ip-pool)
+* **IP 池版本** — 現在，當更新 IP 池時，處理時間最多只需 3 小時。 [了解更多](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
