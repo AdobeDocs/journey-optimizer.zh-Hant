@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '1120'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -127,7 +127,7 @@ ht-degree: 97%
       + [測試您的歷程](using/building-journeys/testing-the-journey.md)
       + [發佈您的歷程](using/building-journeys/publishing-the-journey.md)
       + [時區管理](using/building-journeys/timezone-management.md)
-      + [複製歷程 到另一個沙箱](using/building-journeys/copy-to-sandbox.md)
+      + [複製歷程到另一個沙箱](using/building-journeys/copy-to-sandbox.md)
       + [疑難排解您的歷程](using/building-journeys/troubleshooting.md)
    + 活動 {#about-journey-building}
       + [關於歷程活動](using/building-journeys/about-journey-activities.md)

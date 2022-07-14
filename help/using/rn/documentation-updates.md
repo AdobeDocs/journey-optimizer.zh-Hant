@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '1651'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 ## 2022 年 7 月 {#july-2022}
 
-* 的 **建立消息預設** 部分已被澄清，並已使用指向描述如何配置SMS通道的頁面的連結進行更新。 [閱讀全文](../configuration/message-presets.md#create-message-preset)
+* 澄清&#x200B;**建立訊息預設集**&#x200B;部分，並已透過連結指向如何設定 SMS 頻道的說明頁面加以更新。 [閱讀全文](../configuration/message-presets.md#create-message-preset)
 
 ## 2022 年 6 月 {#june-2022}
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 * 「允許」清單頁面已移到「設定」部分。 [閱讀全文](../configuration/allow-list.md)
 * 已更新「隱藏」清單頁面以澄清一些資訊，包括隱藏欄位中允許包含 32 到 126 之間的所有 ASCII 字元。 [閱讀全文](../configuration/manage-suppression-list.md)
 * 已新增到用於決定管理的護欄和靜態限制的連結。 [閱讀全文](../start/guardrails.md)
-* 發送時間優化現在可供所有客戶使用。 已刪除測試版提及。 [閱讀全文](../building-journeys/journeys-message.md#send-time-optimization)
+* 傳送時間最佳化現在可供所有客戶使用。 已刪除測試版的描述。 [閱讀全文](../building-journeys/journeys-message.md#send-time-optimization)
 * 批決策API已添加到可用API清單中，以交付個性化優惠。 [閱讀全文](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022 年 5 月 {#may-2022}
