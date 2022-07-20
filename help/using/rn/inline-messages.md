@@ -2,9 +2,9 @@
 title: 遷移到旅程內聯創作
 description: 瞭解如何遷移郵件
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: ea8e133475eb86ff7ad9463950d81d36fe3b5504
+source-git-commit: 3ba2c604a99c53e95c4ef083f5ee43d2d6f5477a
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -287,7 +287,10 @@ The **details** section gives, for each of the above indicators, the list of rel
 
 ### 是否會丟失功能？{#functionality}
 
-您撰寫郵件的方式將發生變化。 不會丟失功能。
+您撰寫郵件的方式將發生變化。 不會丟失功能。 請注意，在7月25日（內聯創作功能發佈）之後，限制將應用於可以使用以下方式對行程執行的操作 **消息** 活動：
+
+* 您將無法複製/貼上任何 **消息** 的子菜單。 但是，您將能夠複製/貼上新的渠道操作活動。
+* 對於這些行程，您將無法執行以下操作：test、發佈、複製、建立新版本、關閉或複製到其他沙盒。 這些限制只要適用 **消息** 這些旅程中有活動。 您可以等待遷移過程運行和更新 **消息** 活動引導活動，或者您可以刪除 **消息** 手動。
 
 ### 在遷移過程中是否可以訪問環境？
 
