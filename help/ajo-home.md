@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 83%
+source-wordcount: '401'
+ht-degree: 80%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 83%
     <div>
       <a href="using/messages/get-started-content.md">傳送訊息</a>
     </div>
-    <p>瞭解如何在客戶歷程中新增推播和電子郵件訊息
+    <p>瞭解如何在客戶旅程中添加推送、簡訊和電子郵件
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">建立您的第一個歷程</a>
