@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,11 @@ ht-degree: 0%
 使用 **[!UICONTROL Live report]** 即時測量和可視化您的行程和消息在內置儀表板中的影響和效能。
 資料在 **[!UICONTROL Live report]** 只要你的送貨上門或旅程被執行。
 
-* 如果要在行程上下文中確定行程或交貨，請從 **[!UICONTROL Journeys]** 菜單，訪問您的旅程，然後按一下 **[!UICONTROL Live report]** 表徵圖 然後，您可以找到「旅程」、「電子郵件」和「推送」即時報告。
+* 如果要在行程上下文中確定行程或交貨，請從 **[!UICONTROL Journeys]** 菜單，訪問您的旅程，然後按一下 **[!UICONTROL View report]** 按鈕 然後，您可以找到「旅程」、「電子郵件」、「簡訊」和「推送」即時報告。
 
    ![](assets/report_journey.png)
 
-* 如果要針對特定交貨，請從 **[!UICONTROL Live view]** 的 **[!UICONTROL Executions]** 頁籤，選擇 **[!UICONTROL Live Report]** 的子菜單。
-
-   ![](assets/report_2.png)
-
-* 如果要從 **[!UICONTROL Live report]** 到 **[!UICONTROL Global report]** 對於您的交貨，按一下 **[!UICONTROL Global view]** 按鈕。
+* 如果要從 **[!UICONTROL Live report]** 到 **[!UICONTROL Live report]** 對於您的交貨，按一下 **[!UICONTROL Live view]** 按鈕。
 
    ![](assets/report_3.png)
 

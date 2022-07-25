@@ -3,9 +3,9 @@ title: Journey Optimizer系統管理入門
 description: 作為系統管理員，瞭解如何與Journey Optimizer合作
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '722'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 1. **瞭解產品配置檔案**。 產品配置檔案是一組單一權限，允許用戶訪問介面中的某些功能或對象。 在 [現成產品配置檔案](../../administration/ootb-product-profiles.md) 的子菜單。
 
-1. **設定權限** 用於產品配置檔案，包括 **沙箱**，並通過將團隊成員分配給不同的產品配置檔案來授予他們訪問權限。 此步驟在 [Admin Console](https://adminconsole.adobe.com/){_blank}。 權限是唯一權限，允許您定義分配給 **[!UICONTROL Product profile]**。 每個權限都在功能（如旅程、消息或優惠）下收集，這些功能表示中的不同功能或對象 [!DNL Journey Optimizer]。 在 [權限級別](../../administration/high-low-permissions.md) 的子菜單。
+1. **設定權限** 用於產品配置檔案，包括 **沙箱**，並通過將團隊成員分配給不同的產品配置檔案來授予他們訪問權限。 此步驟在 [Admin Console](https://adminconsole.adobe.com/){_blank}。 權限是唯一權限，允許您定義分配給 **[!UICONTROL Product profile]**。 每個權限都在功能（如旅程或優惠）下收集，這些功能表示中的不同功能或對象 [!DNL Journey Optimizer]。 在 [權限級別](../../administration/high-low-permissions.md) 的子菜單。
 
 此外，您必須將需要訪問Assets Essentials的用戶添加到 **Assets Essentials消費者用戶** 或 **Assets Essentials用戶** 產品配置檔案。 [閱讀Assets Essentials文檔中的更多內容](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
 
@@ -44,11 +44,11 @@ ht-degree: 3%
 
 按照以下步驟操作：
 
-1. **配置消息和通道**:定義預設、調整和自定義電子郵件和推送消息設定
+1. **配置消息和通道**:定義曲面、調整和定制電子郵件和推送消息設定
 
    * 定義 **推送通知設定** 同時 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]。 [了解更多](../../configuration/push-gs.md)
 
-   * 建立 **消息預設** 配置電子郵件和推送通知消息所需的所有技術參數。 [了解更多](../../configuration/message-presets.md)
+   * 建立 **通道曲面** （即消息預設），以配置電子郵件和推送通知消息所需的所有技術參數。 [了解更多](../../configuration/message-presets.md)
 
    * 配置 **簡訊頻道** 配置SMS所需的所有技術參數。 [了解更多](../../configuration/sms-configuration.md)
 

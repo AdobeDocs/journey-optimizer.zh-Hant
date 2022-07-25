@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,6 @@ ISP通常有一種突出的方法將收到的郵件報告為垃圾郵件。 這�
 的 **[!UICONTROL Executions]** 頁籤，您可以通過一組即時指示器檢查交貨的執行情況。 此頁籤顯示以下內容：
 * 成功執行、發送和傳遞的消息數。
 * 已開啟的消息數和已按一下的消息/連結數。
-
-[瞭解有關監視消息執行的詳細資訊](message-monitoring.md)。
 
 ## 調整消息內容 {#adapt-message-content}
 

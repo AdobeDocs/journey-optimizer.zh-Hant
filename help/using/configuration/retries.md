@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '387'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 預設情況下，將為 **3.5天** 或 **84小時**)。
 
-但是，為了確保不再需要重試嘗試時不再執行，可以在建立或編輯時根據需要更改此設定 [消息預設](message-presets.md) 應用到電子郵件通道。
+但是，為了確保不再需要重試嘗試時不再執行，可以在建立或編輯時根據需要更改此設定 [通道表面](message-presets.md) （即消息預設）應用到電子郵件通道。
 
 例如，對於與密碼重置相關的事務性電子郵件，您可以將重試週期設定為24小時，並且包含僅有效一天的連結。 同樣，對於午夜銷售，您可能需要定義6小時的重試期。
 
@@ -61,5 +61,5 @@ ht-degree: 2%
 >
 >重試期限不能超過84小時。 市場營銷電子郵件的最小重試時間為6小時，事務性電子郵件的重試時間為10分鐘。
 
-瞭解如何在中建立郵件預設時調整電子郵件重試參數 [此部分](message-presets.md#create-message-preset)。
+瞭解如何在中建立通道曲面時調整電子郵件重試參數 [此部分](message-presets.md#create-message-preset)。
 

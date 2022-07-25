@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1543'
 ht-degree: 9%
 
 ---
@@ -18,18 +18,23 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
 >title="推送消息建立"
->abstract="添加推送消息，然後使用表達式編輯器對其進行個性化設定。"
+>abstract="添加推送消息，然後使用表達式編輯器開始個性化它。"
 
 
 推送通知可幫助您隨時聯繫您的移動應用用戶 — 尤其是當他們沒有主動使用您的應用時。 推式通知可以幫助您實現各種使用情形，如提供有關服務的更新、要求用戶採取行動、提醒用戶進行新交易等。 設備平台要求在最終用戶接收或查看您的通知之前選擇加入。 用戶選擇加入最早可以在應用首次在安裝後啟動之後接收，也可以在後續會話或工作流中接收。
 
 [!DNL Journey Optimizer] 支援推送通知，並幫助您以業界領先的吞吐率發送高度相關的通知。 推送通知可能包括個性化和基於旅程的上下文，以便利用您的品牌對Adobe Experience Cloud的資料洞察力。
 
-一旦 [已建立消息](get-started-content.md)，按一下 **[!UICONTROL Push Notification]** 頁籤，以定義推送通知的設定和內容。
+一旦 [添加推](get-started-content.md) 活動到您的旅程，並定義基本設定，使用 **[!UICONTROL Actions: Push]** 右窗格，為推送通知建立內容。
+
+![](assets/add-a-push.png)
+
+
+使用專用頁籤定義推送通知設定 **iOS** 和 **安卓** 作業系統。
 
 ![](assets/create-content-push.png)
 
-使用專用頁籤定義推送通知設定 **iOS** 和 **安卓** 作業系統。
+如果這是您首次建立推送通知，請確保已配置了推送通道。 [了解更多](../configuration/push-gs.md)。
 
 >[!NOTE]
 >
@@ -52,7 +57,7 @@ ht-degree: 9%
 
 ![](assets/title-body-push.png)
 
-* 要開啟應用，請選擇 **[!UICONTROL Open app]** 的雙曲餘切值。 與通知關聯的應用在消息中定義 **[!UICONTROL Preset]**。 [瞭解更多資訊](../configuration/message-presets.md) 關於消息預設。
+* 要開啟應用，請選擇 **[!UICONTROL Open app]** 的雙曲餘切值。 與通知關聯的應用在 [通道表面](../configuration/message-presets.md) （即消息預設）。
 * 要將用戶重定向到應用程式內的特定內容，請選擇 **[!UICONTROL Deeplink]** 的雙曲餘切值。  特定內容可以是特定視圖、頁面的特定部分或特定頁籤。 選中該選項後，在關聯欄位中輸入deplink。
 * 要將用戶重定向到外部URL，請使用 **[!UICONTROL Web URL]** 的雙曲餘切值。 選中該選項後，在關聯欄位中輸入URL。
 
@@ -125,6 +130,17 @@ ht-degree: 9%
 | **[!UICONTROL Notification visibility]** （僅限Android） | 定義推送通知的可見性。 <br/><b>私人</b> 將在所有鎖屏上顯示通知，但在安全的鎖屏上隱藏敏感或隱私資訊。 <br/><b>公共</b> 將在所有鎖屏上顯示完整的通知。 <br/><b>秘密</b> 不會在安全鎖屏上顯示通知的任何部分。 <br/>有關詳細資訊，請參閱 [Android開發人員文檔](https://developer.android.com/reference/android/app/Notification)。 |
 | **[!UICONTROL Notification priority]** （僅限Android） | 將推送通知的重要性從「低」定義為「最大」。 這確定推送通知在傳送時的「侵入性」。 有關詳細資訊，請參閱 [Android開發人員文檔](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
 | **[!UICONTROL Delivery priority]** （僅限Android） | 設定推送通知的高優先順序或普通優先順序。 如需訊息優先順序的詳細資訊，請參閱 [Google 開發人員檔案](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)。 |
+
+
+## 驗證推送通知{#push-preview}
+
+定義消息內容後，可以使用test配置檔案預覽和test它。 如果插入 [個性化內容](../personalization/personalize.md)，您可以利用test配置檔案資料檢查此內容在消息中的顯示方式。
+
+要直觀顯示推送通知在移動設備上的顯示方式，請按一下 **[!UICONTROL Simulate content]** 頁籤。 瞭解有關中內容模擬的詳細資訊 [此部分](../design/preview.md)。
+
+您還必須檢查編輯器上半部分的警報。  其中一些是簡單的警告，但其他警告可能會阻止您使用該消息。 請參閱[此章節](alerts.md)深入瞭解。
+
+![](assets/push-alert-button.png)
 
 **相關主題**
 

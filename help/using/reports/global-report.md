@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,11 @@ ht-degree: 0%
 
 使用 **[!UICONTROL Global report]** 以測量所選時段內的行程和交貨的影響。
 
-* 如果要在行程上下文中確定行程或交貨，請從 **[!UICONTROL Journeys]** 菜單，訪問您的旅程，然後按一下 **[!UICONTROL Global report]** 表徵圖 然後，您可以找到「旅程」、「電子郵件」和「推送」 **[!UICONTROL Global report]**。
+* 如果要在行程上下文中確定行程或交貨，請從 **[!UICONTROL Journeys]** 菜單，訪問您的旅程，然後按一下 **[!UICONTROL View report]** 按鈕 然後，您可以找到「旅程」、「電子郵件」、「簡訊」和「推送」全局報告。
 
-   ![](assets/report_6.png)
+   ![](assets/report_journey.png)
 
-* 如果要針對特定交貨，請從 **[!UICONTROL Global view]** 的 **[!UICONTROL Executions]** 頁籤，選擇 **[!UICONTROL Global Report]** 的子菜單。
-
-   ![](assets/report_4.png)
-
-* 如果要從 **[!UICONTROL Global report]** 到 **[!UICONTROL Live report]** 對於您的交貨，按一下 **[!UICONTROL Live view]** 按鈕。
+* 如果要從 **[!UICONTROL Live report]** 到 **[!UICONTROL Global report]** 對於您的交貨，按一下 **[!UICONTROL Global view]** 按鈕。
 
    ![](assets/report_5.png)
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1082'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->如果取消發佈在未發佈消息中引用的登錄頁，則在重新發佈登錄頁之前無法發佈該消息。 如果消息已發佈，則登錄頁的連結將斷開，並顯示錯誤頁。
+>如果取消發佈在未發佈消息中引用的登錄頁，則指向登錄頁的連結將斷開，並顯示錯誤頁。
 
 按一下登錄頁旁邊的三個點以選擇所需的操作。
 

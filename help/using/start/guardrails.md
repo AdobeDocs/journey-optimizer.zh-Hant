@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 80a5edec92377753e6bfd96699591b1a87e25248
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 2%
+source-wordcount: '730'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 權利、產品限制和效能保護欄列於 [Adobe Journey Optimizer產品說明頁](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}。
 
-使用時，您將在下面找到其他護欄和限制 [!DNL Adobe Journey Optimizer]。
+當使用 [!DNL Adobe Journey Optimizer] 時，您將找到下面其他護欄和限制。
 
 ## 消息護欄 {#message-guardrails}
 
@@ -47,10 +47,6 @@ ht-degree: 2%
 * 不能並行放置兩個操作，必須依次添加它們。
 * 今天的行程中存在技術限制，使配置檔案在同一行程中多次出現。 配置檔案仍然可以重新輸入行程（基於設定），但只有在他完全退出此行程的上一個實例後才能執行。
 * 在大多數情況下，配置檔案不能在同一行程中同時出現多次。 如果啟用重新入門，則配置檔案可以重新輸入行程，但在他完全退出此行程的上一個實例之前，無法重新輸入。 [閱讀全文](../building-journeys/journey-end.md)
-
-### 消息操作 {#message-action-g}
-
-* 添加多通道消息時，將發送兩條消息。
 
 ### 歷程版本 {#journey-versions-g}
 

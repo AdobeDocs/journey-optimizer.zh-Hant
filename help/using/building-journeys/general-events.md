@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '427'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
 >title="一般事件"
->abstract="對於此類事件，只能添加標籤和說明。 無法編輯配置的其餘部分。 由技術用戶執行。"
+>abstract="通過事件，您可以觸發整個行程，以即時向流入旅程的個體發送消息。 對於此類事件，只能添加標籤和說明。 事件配置由資料工程師執行，無法編輯。"
+
+通過事件，您可以觸發整個行程，以即時向流入旅程的個體發送消息。
 
 對於此類事件，只能添加標籤和說明。 無法編輯配置的其餘部分。 由技術用戶執行。 請參閱[此頁面](../event/about-events.md)。
 

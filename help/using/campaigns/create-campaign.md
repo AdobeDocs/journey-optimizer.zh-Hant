@@ -7,21 +7,21 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '699'
+ht-degree: 5%
 
 ---
-
 
 # 建立行銷活動 {#create-campaign}
 
 >[!NOTE]
 >
->在建立新市場活動之前，請確保您已預置了消息，並且已準備好使用Adobe Experience Platform段。 在以下各節中瞭解更多資訊：
+>在建立新市場活動之前，請確保您有一個表面通道（即消息預設）和一個Adobe Experience Platform段可供使用。 在以下各節中瞭解更多資訊：
 >
->* [建立訊息預設集](../configuration/message-presets.md)
+>* [建立通道曲面](../configuration/message-presets.md)
 >* [開始使用區段](../segment/about-segments.md)
 
 
@@ -38,13 +38,13 @@ ht-degree: 0%
    * **[!UICONTROL Scheduled]**:立即或在指定日期執行市場活動。 計畫的市場活動旨在發送 **營銷** 鍵入消息。
    * **[!UICONTROL API-triggered]**:使用API調用執行市場活動。 API觸發的市場活動旨在發送 **事務** 消息，即在個人執行的操作後發送的消息：密碼重置、卡棄用等。 [瞭解如何使用API觸發市場活動](api-triggered-campaigns.md)
 
-1. 在 **[!UICONTROL Actions]** 選擇用於發送消息的通道和消息面（即消息預設），然後按一下 **[!UICONTROL Create]**。
+1. 在 **[!UICONTROL Actions]** ，選擇用於發送消息的通道和通道曲面，然後按一下 **[!UICONTROL Create]**。
 
    ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >下拉清單中只列出與市場活動類型（市場營銷或事務性）相容的消息曲面。
+   >下拉清單中只列出與市場活動類型（市場營銷或事務性）相容的渠道曲面。
 
 1. 指定市場活動的標題和說明。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 1. 在 **[!UICONTROL Actions]** 部分，配置要隨市場活動一起發送的消息：
 
-   1. 按一下 **[!UICONTROL Edit content]** 按鈕，然後配置和設計消息。 [瞭解如何配置消息](../messages/get-started-content.md)。
+   1. 按一下 **[!UICONTROL Edit content]** 按鈕，然後配置和設計消息內容。 [瞭解有關郵件的更多資訊](../messages/get-started-content.md)。
 
       內容準備好後，按一下箭頭返回市場活動建立螢幕。
 
@@ -121,10 +121,6 @@ ht-degree: 0%
    您還可以通過按一下 **[!UICONTROL Reports]** 按鈕 [了解更多](campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)
-
-   >[!IMPORTANT]
-   >
-   >在市場活動中建立的消息特定於 [!DNL Journey Optimizer] 市場活動能力。 建立後，將只能從市場活動訪問它們，並且不會顯示在 **[!UICONTROL Messages]** 的子菜單。
 
 ## 其他資源
 

@@ -4,9 +4,9 @@ description: 瞭解如何配置環境以向Journey Optimizer發送推送通知
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1427'
 ht-degree: 4%
 
 ---
@@ -75,7 +75,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
    * **[!UICONTROL Manage App Configurations]**
    * **[!UICONTROL Manage Properties]**
 
-   這些權限是移動應用程式開發人員在中設定推送憑據所必需的 **Adobe體驗啟動** 並在中定義「推送通知」預設 **Adobe Journey Optimizer**。
+   這些權限是移動應用程式開發人員在中設定推送憑據所必需的 **Adobe體驗啟動** 並在中定義「推送通知」通道曲面（即消息預設） **Adobe Journey Optimizer**。
 
    ![](assets/push_product_5.png)
 
@@ -125,7 +125,7 @@ Adobe Experience Platform移動SDK通過Android和iOS相容的SDK為您的手機
 
 1. 從 [!DNL Adobe Experience Platform Data Collection]，選擇 **[!UICONTROL App Surfaces]** 的下界。
 
-1. 按一下 **[!UICONTROL Create App Surfaces]** 的子菜單。
+1. 按一下 **[!UICONTROL Create App Surface]** 的子菜單。
 
    ![](assets/add-app-config.png)
 
@@ -331,9 +331,9 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
    ![](assets/test_push_11.png)
 
-1. 從 **[!UICONTROL Actions]** 拖放 **[!UICONTROL Message]** 你旅途的活動。
+1. 從 **[!UICONTROL Actions]** 拖放 **[!UICONTROL Push]** 你旅途的活動。
 
-1. 選擇以前建立的消息。 有關如何建立推送通知的詳細資訊，請參閱此 [頁](../messages/get-started-content.md)。
+1. 配置推送通知。 有關如何建立推送通知的詳細資訊，請參閱此 [頁](../messages/get-started-content.md)。
 
 1. 按一下 **[!UICONTROL Test]** 切換以開始測試推送通知，然後按一下 **[!UICONTROL Trigger an event]**。
 
@@ -347,13 +347,13 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 您的事件將被觸發，您將收到您的移動應用推送通知。
 
-## 第4步：建立用於推送的消息預設{#message-preset}
+## 第4步：建立用於推的通道曲面{#message-preset}
 
-在中設定你的移動應用後 [!DNL Adobe Experience Platform Data Collection]，您需要建立消息預設，以便能夠從 **[!DNL Journey Optimizer]**。
+在中設定你的移動應用後 [!DNL Adobe Experience Platform Data Collection]，您需要建立一個表面，以便能夠從 **[!DNL Journey Optimizer]**。
 
-瞭解如何在中建立和配置消息預設 [此部分](../configuration/message-presets.md)。
+瞭解如何在中建立和配置通道曲面 [此部分](../configuration/message-presets.md)。
 
 您現在已準備好向Journey Optimizer發送推送通知。
 
 * 瞭解如何在中建立推送消息 [此頁](../messages/create-push.md)。
-* 瞭解如何在行程中添加消息 [此部分](../building-journeys/journeys-message.md)。
+* 瞭解如何將消息添加到行程 [此部分](../building-journeys/journeys-message.md)。

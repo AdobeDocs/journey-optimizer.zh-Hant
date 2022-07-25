@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: f75ed263fd8226a6b5f55bbb50f4aae17cbfe9d4
+exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ ht-degree: 0%
 >title="從屬對象"
 >abstract="這是行程中使用的關聯對象的清單。 此清單顯示名稱、對象類型以及內部Journey OptimizerID。"
 
-Journey Optimizer允許您將整個行程從一個沙箱複製到另一個沙箱。 例如，您可以將行程從階段沙盒環境複製到生產沙盒。 除了旅程本身，Journey Optimizer還複製了旅程所依賴的大部分物品：消息、段、預設、模式、事件和操作。 請參閱 [限制](../building-journeys/copy-to-sandbox.md#limitations)
+Journey Optimizer允許您將整個行程從一個沙箱複製到另一個沙箱。 例如，您可以將行程從階段沙盒環境複製到生產沙盒。 除了旅程本身，Journey Optimizer還複製了旅程所依賴的大部分物品：段、曲面（即預設）、模式、事件和操作。 請參閱 [限制](../building-journeys/copy-to-sandbox.md#limitations)
 
 >[!CAUTION]
 >
@@ -86,7 +87,7 @@ Journey Optimizer允許您將整個行程從一個沙箱複製到另一個沙箱
 
 * 訊息
 
-   旅途中使用的物理消息（電子郵件或推送消息）。 消息中用於個性化的欄位未檢查是否完整。 不複製內容塊。
+   旅途中使用的渠道操作活動。 消息中用於個性化的欄位未檢查是否完整。 不複製內容塊。
 
 * 行程 — 畫布詳細資訊
 
@@ -100,9 +101,8 @@ Journey Optimizer允許您將整個行程從一個沙箱複製到另一個沙箱
 
    系統將複製行程中使用的活動和活動詳細資訊。
 
-預設不會複製。 系統根據消息類型和預設名稱自動選擇目標沙箱上最接近的匹配項。 如果在目標沙盒上找不到預設，則預設副本將失敗。 這將意味著消息副本也將失敗，因為消息需要預設才能進行設定。 在這種情況下，至少需要為消息的正確通道建立一個預設，以便副本工作。
+曲面（即預設）不會複製到上方。 系統根據消息類型和表面名稱自動選擇目標沙箱上盡可能接近的匹配項。 如果在目標沙盒上找不到任何曲面，則曲面複製將失敗。 這將意味著消息副本也將失敗，因為消息需要一個可用於設定的曲面。 在這種情況下，至少需要為消息的正確通道建立一個曲面，以便副本能夠工作。
 
 對於方案、合併策略和段，當這些對象第二次嘗試複製時，將只引用它們。 它們將被視為已存在的對象，並將再次複製。 這意味著這些對象只能複製一次。
 
 在Adobe Journey Optimizer引用架構、合併策略和段之前有五分鐘的延遲，但在畫布中未看到錯誤。 等待5分鐘，這些參考資料將可用。
-

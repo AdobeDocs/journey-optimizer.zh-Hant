@@ -1,14 +1,14 @@
 ---
 title: 建立 IP 池
-description: '"瞭解如何管理ip池"'
+description: 瞭解如何管理IP池
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '530'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 要建立IP池，請執行以下步驟：
 
-1. 訪問 **[!UICONTROL Channels]** / **[!UICONTROL IP pools]** 菜單，然後按一下 **[!UICONTROL Create IP Pool]**。
+1. 訪問 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL IP pools]** 菜單，然後按一下 **[!UICONTROL Create IP Pool]**。
 
    ![](assets/ip-pool-create.png)
 
@@ -50,7 +50,7 @@ ht-degree: 2%
    >
    >清單中提供了隨實例設定的所有IP地址。
 
-IP池現在已建立並顯示在清單中。 您可以選擇它以訪問其屬性並顯示關聯的消息預設。 有關如何將消息預設與IP池關聯的詳細資訊，請參閱 [此部分](message-presets.md)。
+IP池現在已建立並顯示在清單中。 您可以選擇它以訪問其屬性並顯示關聯的通道表面（即消息預設）。 有關如何將通道表面與IP池關聯的詳細資訊，請參閱 [此部分](message-presets.md)。
 
 ![](assets/ip-pool-created.png)
 
@@ -64,6 +64,10 @@ IP池現在已建立並顯示在清單中。 您可以選擇它以訪問其屬�
 
 1. 根據需要編輯其屬性。 您可以修改說明，並添加或刪除IP地址。
 
+   >[!NOTE]
+   >
+   >IP池名稱不可編輯。 如果要修改它，需要刪除IP池，然後使用您選擇的名稱建立另一個池。
+
    ![](assets/ip-pool-edit.png)
 
    >[!CAUTION]
@@ -72,18 +76,14 @@ IP池現在已建立並顯示在清單中。 您可以選擇它以訪問其屬�
 
 1. 儲存您的變更。
 
->[!NOTE]
->
->IP池名稱不可編輯。 如果要修改它，需要刪除IP池，然後使用您選擇的名稱建立另一個池。
+更新會立即生效或非同步生效，具體取決於與 [通道表面](message-presets.md) 或否：
 
-更新會立即生效或非同步生效，具體取決於與 [消息預設](message-presets.md) 或否：
-
-* 如果IP池為 **不** 與任何消息預設相關聯，更新是即時(**[!UICONTROL Success]** 狀態)。
-* 如果IP池 **是** 與消息預設關聯，更新最多需要3小時(**[!UICONTROL Processing]** 狀態)。
+* 如果IP池為 **不** 與任何通道曲面相關，更新是瞬時(**[!UICONTROL Success]** 狀態)。
+* 如果IP池 **是** 與通道表面關聯，更新最多需要3小時(**[!UICONTROL Processing]** 狀態)。
 
 >[!NOTE]
 >
->當 [建立消息預設](message-presets.md#create-message-preset)，如果選擇的IP池位於版本(**[!UICONTROL Processing]** 狀態)，並且從未與為該預設選擇的子域關聯，您無法繼續建立預設。 [了解更多](message-presets.md#subdomains-and-ip-pools)
+>當 [建立通道曲面](message-presets.md#create-message-preset)，如果選擇的IP池位於版本(**[!UICONTROL Processing]** 狀態)，並且從未與為該曲面選擇的子域關聯，因此無法繼續建立曲面。 [了解更多](message-presets.md#subdomains-and-ip-pools)
 
 要檢查IP池更新狀態，請按一下 **[!UICONTROL More actions]** 按鈕 **[!UICONTROL Recent updates]**。
 
@@ -96,5 +96,5 @@ IP池現在已建立並顯示在清單中。 您可以選擇它以訪問其屬�
 >* 直到IP池在批處理消息中生效的下一個批處理。
 
 
-您還可以使用 **[!UICONTROL Delete]** 按鈕以刪除IP池。 請注意，無法刪除已與消息預設關聯的IP池。
+您還可以使用 **[!UICONTROL Delete]** 按鈕以刪除IP池。 請注意，不能刪除已與通道表面關聯的IP池。
 

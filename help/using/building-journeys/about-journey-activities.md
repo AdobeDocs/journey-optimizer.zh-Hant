@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 29%
+source-wordcount: '264'
+ht-degree: 28%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 29%
 
 從調色板，在螢幕左側，在下面 **[!UICONTROL Events]** 和 **[!UICONTROL Orchestration]**&#x200B;的 **[!UICONTROL Actions]** 的子菜單。 以下活動可用：
 
-* [訊息](../building-journeys/journeys-message.md)
+* [電子郵件、簡訊、推送](../building-journeys/journeys-message.md)
 * [自訂動作](../building-journeys/using-custom-actions.md)
 * [跳轉](../building-journeys/jump.md)
 

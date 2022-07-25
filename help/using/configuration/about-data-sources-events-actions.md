@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '402'
 ht-degree: 44%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 44%
 
 ## 動作 {#actions}
 
-Journey Optimizer消息功能是內置的：您只需設計內容並發佈消息。 如果您使用第三方系統發送消息，則可以建立自定義操作。 [了解更多](../../using/action/action.md)
+Journey Optimizer消息功能是內置的：您只需將渠道操作活動添加到您的旅程中。 如果您使用第三方系統發送消息，則可以建立自定義操作。 [了解更多](../../using/action/action.md)
 
 ## 透過 Adobe Experience Platform 欄位瀏覽 {#friendly-names-display}
 

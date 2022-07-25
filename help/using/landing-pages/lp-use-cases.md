@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 17%
+source-wordcount: '888'
+ht-degree: 15%
 
 ---
 
@@ -47,7 +47,11 @@ ht-degree: 17%
 
 1. [發佈](create-lp.md#publish) 登錄頁。
 
-1. [建立電子郵件](../messages/get-started-content.md) 以宣佈註冊現已開啟，您可以參加活動。
+1. 在 [旅程](../building-journeys/journey.md)，添加 **電子郵件** 活動，將流量驅動到註冊登錄頁。
+
+   ![](assets/lp_subscription-uc-journey.png)
+
+1. [設計電子郵件](../messages/get-started-content.md) 以宣佈註冊現已開啟，您可以參加活動。
 
 1. [插入連結](../design/message-tracking.md#insert-links) 內容。 選擇 **[!UICONTROL Landing page]** 的 **[!UICONTROL Link type]** 選擇 [登錄頁](create-lp.md#configure-primary-page) 為註冊而建立的。
 
@@ -55,13 +59,7 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >若要發佈消息，請確保您選擇的登錄頁尚未過期。 瞭解如何更新到期日期 [此部分](create-lp.md#configure-primary-page)。
-
-1. 儲存您的內容並[發佈您的訊息](../messages/publish-manage-message.md)。
-
-1. 通過 [旅程](../building-journeys/journey.md) 將流量驅動到註冊登錄頁。
-
-   ![](assets/lp_subscription-uc-journey.png)
+   >若要發送消息，請確保您選擇的登錄頁尚未過期。 瞭解如何更新到期日期 [此部分](create-lp.md#configure-primary-page)。
 
    收到電子郵件後，如果您的收件人按一下登錄頁的連結，他們將被定向到「感謝您」頁，並將被添加到訂閱清單。
 
@@ -79,7 +77,7 @@ ht-degree: 17%
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
-1. 選擇您選擇的確認電子郵件，並在旅程中發送。
+1. 添加您選擇的確認電子郵件，並在旅途中發送。
 
    ![](assets/lp_subscription-uc-confirm-email.png)
 
@@ -128,7 +126,7 @@ ht-degree: 17%
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [建立電子郵件](../messages/get-started-content.md) 在 [!DNL Journey Optimizer]。
+1. [建立電子郵件](../messages/get-started-content.md) 在旅途中。
 
 1. 選擇內容中的文字，並使用內容相關工具列[插入連結](../design/message-tracking.md#insert-links)。您還可以使用按鈕上的連結。
 
@@ -140,11 +138,9 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >若要發佈消息，請確保您選擇的登錄頁尚未過期。 瞭解如何更新到期日期 [此部分](create-lp.md#configure-primary-page)。
+   >若要發送消息，請確保您選擇的登錄頁尚未過期。 瞭解如何更新到期日期 [此部分](create-lp.md#configure-primary-page)。
 
-1. 儲存您的內容並[發佈您的訊息](../messages/publish-manage-message.md)。
-
-1. 在旅途中發送您的資訊。 [了解更多](../building-journeys/journey.md)。
+1. 發佈並運行此行程。 [了解更多](../building-journeys/journey.md)。
 
 1. 一旦收到消息，如果收件人按一下電子郵件中的取消訂閱連結，則會顯示登錄頁。
 

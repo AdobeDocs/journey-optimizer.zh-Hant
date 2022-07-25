@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '864'
 ht-degree: 1%
 
 ---
 
 # 歷程即時報告 {#journey-live-report}
 
-您可以直接通過 **[!UICONTROL Live report]** 按鈕
+您可以直接通過 **[!UICONTROL View report]** 按鈕
 
-![](assets/report_1.png)
+![](assets/report_journey.png)
 
 旅程 **[!UICONTROL Live report]** 的子菜單。
 
@@ -44,8 +44,6 @@ ht-degree: 1%
 
 * **[!UICONTROL Failed individual journeys]**:未成功執行的單個行程的總數。
 
-![](assets/report_journey_3.png)
-
 的 **[!UICONTROL Event executed over the last 24 hours]** 和 **[!UICONTROL Events]** 通過小部件，您可以通過摘要編號、圖形和表來查看哪些事件已成功執行。
 
 ![](assets/report_journey_4.png)
@@ -59,8 +57,6 @@ ht-degree: 1%
 ## 電子郵件頁籤 {#email-live}
 
 從你的旅程 **[!UICONTROL Live report]**，也請參見Wiki頁。 **[!UICONTROL Email]** 頁籤，詳細列出與在旅途中發送的電子郵件遞送相關的主要資訊。
-
-有關特定電子郵件傳遞的詳細報告，請參閱 [電子郵件即時報告](email-live-report.md) 的子菜單。
 
 ![](assets/report_email_1.png)
 
@@ -123,8 +119,6 @@ ht-degree: 1%
 ## 推式頁籤 {#push-live}
 
 從你的旅程 **[!UICONTROL Live report]**，也請參見Wiki頁。 **[!UICONTROL Push]** 頁籤詳細列出與在行程中發送的推送交貨相關的主要資訊。
-
-有關特定推送交付的詳細報告，請參閱 [推送即時報告](push-live-report.md) 的子菜單。
 
 ![](assets/report_push_1.png)
 

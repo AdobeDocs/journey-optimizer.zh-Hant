@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1459'
 ht-degree: 3%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 3%
 
 **動作**
 
-你會在這裡找到 **消息** 活動，它允許您包含 [!DNL Journey Optimizer]。 [瞭解有關消息活動的詳細資訊](journeys-message.md)
+您將在此處找到渠道操作活動，該活動允許您在 [!DNL Journey Optimizer]。 [瞭解有關渠道操作活動的詳細資訊](journeys-message.md)
 
 您還將找到配置為通過第三方系統發送消息的自定義操作。 瞭解更多資訊 [節](about-journey-activities.md#action-activities)。
 

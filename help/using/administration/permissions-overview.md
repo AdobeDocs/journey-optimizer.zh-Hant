@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '189'
 ht-degree: 23%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 23%
 
 * **[!UICONTROL Product profile]**:允許用戶訪問介面中的某些功能或對象的一組統一權限。 請參閱 [現成產品配置檔案](ootb-product-profiles.md) 節
 
-* **[!UICONTROL Permissions]**:用於定義分配給的授權的統一權限 **[!UICONTROL Product profile]**。 每個權限都在功能（如旅程、消息或優惠）下收集，這些功能表示中的不同功能或對象 [!DNL Journey Optimizer]。 請參閱 [權限級別](high-low-permissions.md) 的子菜單。
+* **[!UICONTROL Permissions]**:用於定義分配給的授權的統一權限 **[!UICONTROL Product profile]**。 每個權限都在功能（如旅程或優惠）下收集，這些功能表示中的不同功能或對象 [!DNL Journey Optimizer]。 請參閱 [權限級別](high-low-permissions.md) 的子菜單。
 
 * **[!UICONTROL Sandbox]**:將實例分區到獨立虛擬環境的虛擬沙箱。 請參閱 [使用沙箱](sandboxes.md)
 

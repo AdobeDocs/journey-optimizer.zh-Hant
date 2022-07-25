@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1738'
 ht-degree: 3%
@@ -19,11 +19,11 @@ ht-degree: 3%
 
 ➡️ [瞭解如何在此視頻中使用幫助程式功能](#video)
 
-模板化語言用於表達式編輯器個性化下拉清單中提供的幫助函式，如下所示：
+模板化語言在表達式編輯器的個性化下拉清單中提供的幫助函式中得到利用，如下所示：
 
 ![](../assets/access-helper-functions.png)
 
-在 [!DNL Journey Optimizer] 表達式編輯器中，幫助程式函式分為三類： [函式](#functions-helper)。 [幫手](#helper-helper) 和 [運算子](#operators-helper)。
+在 [!DNL Journey Optimizer] 表達式編輯器、幫助程式函式分為三類： [函式](#functions-helper)。 [幫手](#helper-helper) 和 [運算子](#operators-helper)。
 
 選擇一個類別，以訪問子類別和函式。
 

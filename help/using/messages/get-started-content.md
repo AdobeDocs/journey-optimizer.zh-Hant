@@ -1,137 +1,164 @@
 ---
 title: 開始使用訊息
-description: 瞭解如何在 Journey Optimizer 建立、測試和發佈個人化訊息
+description: 瞭解如何在Journey Optimizer建立和傳遞個性化郵件
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 100%
+source-wordcount: '811'
+ht-degree: 5%
 
 ---
 
-# 開始使用訊息 {#get-started-contents-messages}
+# 開始使用渠道操作 {#get-started-messages}
 
-使用 [!DNL Journey Optimizer] 在單一位置運用多種資源 (如資產和內容)，並建立和發佈個人化推播通知和電子郵件訊息。
+>[!CONTEXTUALHELP]
+>id="ajo_journey_message"
+>title="渠道操作"
+>abstract="使用通道操作發送推送、SMS或電子郵件。"
 
-* 運用[!DNL Journey Optimizer] **電子郵件設計功能**&#x200B;建立或匯入回應式電子郵件。
+使用 [!DNL Journey Optimizer] 建立和傳遞個性化推送通知、SMS和電子郵件。 所有郵件都可以在行內編輯，作為Journey Canvas上操作的一部分。  使用「另存為模板」功能可輕鬆重用內容。 您可以：
 
-* 運用 **Adobe Experience Manager Assets Essentials** 建立您自己的資產資料庫，並豐富您的電子郵件。
+* 使用 [!DNL Journey Optimizer] **電子郵件設計功能** 建立或導入響應電子郵件。
 
-* 根據客戶的設定檔屬性建立&#x200B;**個人化推播和電子郵件訊息**，以增強客戶體驗。
+* 利用 **Adobe Experience Manager Assets Essentials** 豐富您的電子郵件，構建和管理您自己的資產資料庫。
 
-* 根據這些內容&#x200B;**建立推播和電子郵件訊息** ，然後發佈。
+* 查找 **Adobe Stock照片** 構建內容並改進電子郵件設計。
 
-## 存取訊息 {#access-messages}
+* 通過建立個性化的客戶體驗 **推送通知、簡訊和電子郵件** 基於其配置檔案屬性。
 
-可從左側導覽的 **[!UICONTROL Messages]** 捷徑取得訊息。 所有訊息均按發佈日期 (已發佈的訊息) 或建立日期 (訊息草稿) 依序列出。
+* **發送交貨** 並跟蹤客戶行為。
 
 >[!NOTE]
 >
->使用者可以根據其產品設定檔存取、建立、編輯和/或發佈訊息。 [在此章節](../administration/permissions.md)瞭解有關使用者權限的詳細資訊。
+>用戶可以根據其產品配置檔案訪問、建立、編輯和/或發佈行程。 [在此章節](../administration/permissions.md)瞭解有關使用者權限的詳細資訊。
 
-![](assets/messages-list.png)
 
-* 利用 **[!UICONTROL Show recents]** 切換在您過去 5 天內存取的訊息加入直接連結。
+## 在您的行程中添加消息{#messages-in-journeys}
 
-   ![](assets/show-recent-messages.png)
+>[!CONTEXTUALHELP]
+>id="ajo_message_category"
+>title="消息類別"
+>abstract="為商業消息選擇「市場營銷」，或為非商業消息選擇「事務處理」，如訂單確認、密碼重置通知或交貨資訊"
 
-* 利用篩選圖示顯示草稿、已發佈或正在發佈的訊息。 您還可以搜尋訊息標籤，如下所示：
+>[!CONTEXTUALHELP]
+>id="ajo_message_surface"
+>title="通道表面"
+>abstract="渠道曲面是該渠道的一個實例，它具有通過市場活動或行程成功傳遞行動的所有設定。 它由系統管理員定義。"
 
-   ![](assets/filter-messages.png)
+要在您的行程中添加消息，只需在行程卡中添加推送、簡訊或電子郵件活動即可。
 
-* 您可以利用快速操作功能表的專用圖示來封存未使用的訊息以便清理訊息清單。
+1. 開始您的旅程 [事件](../building-journeys/general-events.md) 或 [讀取段](../building-journeys/read-segment.md) 的子菜單。
 
-   ![](assets/archive-message.png)
+1. 從 **操作** ，拖放 **電子郵件**&#x200B;的 **簡訊** 或 **推** 的下界。
 
-   利用篩選圖示顯示所有封存的訊息，然後按一下 **[!UICONTROL Unarchive]** 圖示，從已封存的訊息清單刪除項目。
+   ![](assets/add-a-message.png)
+
+1. 輸入標籤和說明。
+
+1. 選擇消息 **[!UICONTROL Category]**:選擇 **營銷** 用於商業消息，或 **事務性** 非商業消息（如訂單確認、密碼重置通知或傳遞資訊）。
 
    >[!NOTE]
    >
-   >無法開啟封存的訊息。 必須先取消封存。
+   >如果您定義 [頻率規則](../configuration/frequency-rules.md) 對於特定的頻道和類別，在選擇該頻道和類別後，這些頻道和類別將自動應用到消息。 當前僅 **[!UICONTROL Marketing]** 類別可用於頻率規則。
 
-## 建立新訊息。 {#create-new-message}
+   ![](assets/inline-message-category.png)
 
-若要建立新訊息，請遵照以下步驟：
-
-1. 存取訊息清單，然後按一下 **[!UICONTROL Create Message]**。
-
-1. 定義訊息屬性。
-
-   ![](assets/create-message-properties.png)
-
-   * 輸入 **[!UICONTROL Title]** (強制) 及 **[!UICONTROL Description]**。
-
-   * 選擇 **[!UICONTROL Message category]**：行銷或異動。
-
-   * 選取要用於訊息的通道：電子郵件、推播通知和/或簡訊。 必須至少選擇一個通道才能建立訊息。
-   >[!NOTE]
-   >
-   >您可以按一下 **[!UICONTROL Frequency rule]** 連結，檢視將套用於選取的類別和頻道的頻率規則。 瞭解更多 [頻率規則](../configuration/frequency-rules.md) 的內容。
-
-   * 選擇 **[!UICONTROL Preset]** 用於訊息。
-
-      預設集包含所需的所有參數，以便根據您的品牌傳送電子郵件和/或推播通知。 瞭解更多關於 [預設集](../configuration/message-presets.md) 的內容。
    >[!CAUTION]
    >
-   >您必須為所選類別和頻道選擇有效的訊息預設集。
+   >市場營銷類型消息必須包括 [選擇退出連結](../messages/consent.md#opt-out-management)。 對於事務性消息，不需要這樣做，因為這些消息可以發送到從市場營銷通信中取消訂閱的配置檔案。
 
-   請注意，您可以隨時利用訊息介面的 **[!UICONTROL Properties]** 按鈕來存取及修改訊息標題、說明及預設集。
+1. 選擇頻道 **[!UICONTROL Surface]** （即消息預設），用於發送您的消息。
 
-1. 按一下 **[!UICONTROL Create]** 確認建立訊息。 您的訊息將加入訊息清單，呈現 **[!UICONTROL Draft]** 狀態。
+   曲面是由 [系統管理員](../start/path/administrator.md)。 它包含所有用於發送消息的技術參數，如報頭參數、子域、移動應用等。 [了解更多](../configuration/message-presets.md)。
 
-   每個選定通道都可使用一個標籤。 利用這些標籤為每個通道設定內容。 選擇標籤並在右側按一下 **[!UICONTROL Delete channel]** 按鈕您便可移除標籤。
-
-   ![](assets/create-messages-content.png)
-
-   <!--
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >If you enabled the **[!UICONTROL BCC email]** option in the preset, the BCC email address will display under the sender email. [Learn more](../configuration/email-settings.md#bcc-email)
-   -->
+   >必須為所選消息類別和通道選擇有效的通道曲面。
 
-   您現在可以建立訊息內容並調整設定。 有關電子郵件及推播通知設定的詳細資訊，請參見以下章節：
+   您可以隨時使用 **[!UICONTROL Properties]** 按鈕。
+
+1. 建立消息內容。
+
+   瞭解在以下頁面中建立消息內容的詳細步驟：
 
    * [建立電子郵件](create-email.md)
    * [建立推播通知](create-push.md)
    * [建立 SMS 訊息](create-sms.md)
 
-   >[!NOTE]
-   >   
-   >可以透過表達式編輯器利用設定檔的資料個人化您的訊息。 如需個人化的詳細資訊，請參閱[此章節](../personalization/personalize.md)。
+## 啟用發送時優化{#sto-in-journeys}
 
-1. 利用左側預覽區段控制訊息的呈現，並利用測試設定檔來檢查個人化設定。 如需詳細資訊，請參閱[本章節](../design/preview.md)。
+對於電子郵件和推送通知，您可以啟用 **[!UICONTROL Send-time optimization]**。
 
-   ![](assets/messages-simple-preview.png)
+使用 **[!UICONTROL Send-time optimization]** 為每個用戶安排個性化發送時間以增加開啟時間並按一下消息的速率。 [了解更多](../messages/send-time-optimization.md)。
 
-1. 檢查編輯器上半區段的警示。  其中一些是簡單的警告，但其他警告可能會阻止您發佈訊息。 請參閱[此章節](alerts.md)深入瞭解。
 
-1. 您現在可以按一下 **[!UICONTROL Publish]** 按鈕，或者將其儲存為草稿稍後再發佈。 有關如何發佈訊息的詳細資訊，請參閱[此章節](publish-manage-message.md)。
+## 高級參數{#adv-settings}
+
+預設情況下，高級參數為只讀和隱藏。
+
+要訪問高級參數，請按一下 **[!UICONTROL Show read-only fields]** 表徵圖。
+
+![](assets/show-read-only.png)
+
+高級參數顯示在消息窗格的底部。 這些參數由 [系統管理員](../start/path/administrator.md) 的 [通道表面](../configuration/message-presets.md) （即消息預設）與消息關聯。
+
+對於推式通知，您可以顯示以下參數：令牌、AppID、AppPlatform。
+
+![](assets/push-adv-parameters.png)
+
+對於電子郵件，可以顯示主電子郵件地址。
+
+對於特定用途，可以在特定上下文中覆蓋這些值。 要強制值，請按一下 **啟用參數覆蓋** 表徵圖 此選項可能對以下項目非常有用：
+
+* Test電子郵件，您可以添加電子郵件地址。 在您發佈了此旅程後，會向您發送電子郵件。
+* 請參閱清單訂閱者的電子郵件地址。 瞭解詳情 [此使用案例](../building-journeys/message-to-subscribers-uc.md)。
+
+按一下同一表徵圖以重置為預設參數。
+
+
+## 瀏覽消息{#browse-message}
+
+當在旅途中使用多條消息時，您可以從 **編輯內容** 的上界。
+
+![](assets/inline-messages-multi-content.png)
+
+你可以 [檢查警報](alerts.md) 和 [模擬](../design/preview.md) 每個內容都來自一個視圖。
 
 ## 複製訊息 {#duplicate-message}
 
-若要從現有訊息建立訊息，請遵照以下步驟。
+可以從行程畫布複製現有郵件。
 
-1. 開啟要複製的訊息。
+要執行此操作，請執行以下步驟：
 
-1. 利用訊息介面的 **[!UICONTROL Duplicate]** 按鈕。
+1. 選擇要複製的消息。
+
+1. 使用 **[!UICONTROL Copy]** 按鈕 **[!UICONTROL Action]** 的子菜單。
 
    ![](assets/message-duplicate.png)
 
-   所有設定與組態都將複製到新訊息中。
+1. 輸入 **crtl+V** 按鈕。
 
-1. 您可以在確認複製之前重新命名訊息。
+   該消息將添加到行程中。 所有設定與組態都將複製到新訊息中。
 
-   ![](assets/message-duplicate-confirm.png)
+   ![](assets/message-duplicated.png)
 
-1. 一旦建立新訊息後，視窗底部會顯示一則確認訊息。
+1. 將消息更名為能夠將初始消息與副本區分，例如，在編輯消息時，如下所示：
 
-也可利用快速操作功能的專用圖示從訊息清單複製訊息。
+   ![](assets/multi-message.png)
 
-![](assets/message-duplicate-from-list.png)
 
-適用同樣的確認過程。
+>[!NOTE]
+>
+>對於電子郵件，您還可以將現有郵件轉換為模板。 [了解更多](../design/email-templates.md)。
 
+## 刪除消息
+
+要刪除消息，請使用渠道操作活動窗格頂部的資源回收筒表徵圖。
+
+![](assets/delete-message.png)
+
+使用 **[!UICONTROL Confirm]** 按鈕來驗證。

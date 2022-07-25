@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1284'
 ht-degree: 8%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 8%
 
    ![](assets/jo-datasource.png)
 
-1. **配置操作**:Journey Optimizer郵件功能是內置的，您只需設計內容並發佈郵件即可。 請參閱[本節](../messages/get-started-content.md)。如果您使用第三方系統發送消息，則可以建立自定義操作。 瞭解更多資訊 [節](../action/action.md)。 此步驟由&#x200B;**技術使用者**&#x200B;執行。
+1. **配置操作**:如果您使用第三方系統發送消息，則可以建立自定義操作。 瞭解更多資訊 [節](../action/action.md)。 此步驟由&#x200B;**技術使用者**&#x200B;執行。如果您使用的是Journey Optimizer內置的消息功能，您只需在旅途中添加渠道操作並設計內容即可。 請參閱[本節](../messages/get-started-content.md)。
 
-   ![](assets/create-content-push.png)
+   ![](assets/custom2.png)
 
 ## 構建您的旅程{#jo-build}
 
@@ -60,7 +60,7 @@ ht-degree: 8%
 
    ![](assets/read-segment.png)
 
-1. 拖放個人將遵循的後續步驟。 例如，可以添加一個條件，然後添加一條消息。 要瞭解有關活動的詳細資訊，請參閱 [此部分](using-the-journey-designer.md)。
+1. 拖放個人將遵循的後續步驟。 例如，可以添加一個條件，然後是通道操作。 要瞭解有關活動的詳細資訊，請參閱 [此部分](using-the-journey-designer.md)。
 
 1. 使用test配置檔案test您的旅程。 瞭解更多資訊 [節](testing-the-journey.md)
 

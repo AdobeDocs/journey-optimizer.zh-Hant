@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,24 @@ ht-degree: 0%
 
 對於此用例，需要以下先決條件：
 
-* 建立並設計推送通知消息，而不發佈它。 請參閱此 [節](../messages/get-started-content.md)。
 * 配置訂單事件，包括訂單編號、狀態和物料名稱。 請參閱此 [節](../event/about-events.md)。
 * 建立決定，請參閱 [節](../offers/offer-activities/create-offer-activities.md)。
 
-## 步驟1 — 在配置檔案上添加個性化 {#add-perso}
+## 步驟1 — 建立行程 {#create-journey}
 
-1. 按一下 **[!UICONTROL Message]** ，然後選擇消息。
+1. 按一下 **[!UICONTROL Journeys]** 菜單並建立新的行程。
 
-   ![](assets/perso-uc.png)
+   ![](assets/perso-uc4.png)
+
+1. 添加您的條目事件和 **推** 操作活動。
+
+   ![](assets/perso-uc5.png)
+
+1. 配置和設計推送通知消息。 請參閱此 [節](../messages/get-started-content.md)。
+
+## 步驟2 — 在配置檔案上添加個性化 {#add-perso}
+
+1. 在 **推** 活動，按一下 **編輯內容**。
 
 1. 按一下 **標題** 的子菜單。
 
@@ -43,45 +52,15 @@ ht-degree: 0%
 
    ![](assets/perso-uc3.png)
 
-   >[!NOTE]
-   >
-   >留下草稿中的留言。 暫不發佈。
-
-## 步驟2 — 建立行程 {#create-journey}
-
-1. 按一下 **[!UICONTROL Journeys]** 菜單並建立新的行程。
-
-   ![](assets/perso-uc4.png)
-
-1. 添加您的條目事件和 **消息** 的子菜單。
-
-   ![](assets/perso-uc5.png)
-
-1. 在 **消息** 活動，選擇先前建立的消息。 按一下 **確定**。
-
-   ![](assets/perso-uc6.png)
-
-   將顯示一條消息，通知您輸入事件資料和行程屬性已傳遞到該消息。
-
-   ![](assets/perso-uc7.png)
-
-   >[!NOTE]
-   >
-   >此時將顯示一條警告表徵圖。 這是因為消息尚未發佈。
-
 ## 步驟3 — 在上下文資料上添加個性化 {#add-perso-contextual-data}
 
-1. 從 **消息** 活動，按一下 **開啟郵件** 表徵圖 該消息將在新頁籤中開啟。
-
-   ![](assets/perso-uc8.png)
-
-1. 按一下 **標題** 的子菜單。
+1. 在 **推** 活動，按一下 **編輯內容** 並按一下 **標題** 的子菜單。
 
    ![](assets/perso-uc9.png)
 
 1. 選擇 **上下文屬性** 的子菜單。 上下文屬性僅在行程將上下文資料傳遞到消息時才可用。 按一下 **Journey Orchestration**。 將顯示以下上下文資訊：
 
-   * **事件**:此類別將放置在前面的事件中的所有欄位重新分組 **消息** 旅途中的活動。
+   * **事件**:此類別重新分組行程中通道操作活動之前發生的事件中的所有欄位。
    * **旅程屬性**:與給定配置檔案的行程相關的技術欄位，例如行程ID或遇到的特定錯誤。 瞭解詳情 [Journey Orchestration文檔](../building-journeys/expression/journey-properties.md)。
 
    ![](assets/perso-uc10.png)
@@ -106,13 +85,9 @@ ht-degree: 0%
 
    ![](assets/perso-uc15.png)
 
-1. 現在，發佈消息。
-
-   ![](assets/perso-uc16.png)
-
 ## 步驟4 -Test並發佈行程 {#test-publish}
 
-1. 再次開啟旅程。 如果行程已開啟，請確保刷新頁面。 現在，消息已發佈，您可以看到在旅途中沒有錯誤。 按一下 **Test** 按鈕，然後按一下 **觸發事件**。
+1. 按一下 **Test** 按鈕，然後按一下 **觸發事件**。
 
    ![](assets/perso-uc17.png)
 

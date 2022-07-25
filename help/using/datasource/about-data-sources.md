@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '314'
 ht-degree: 73%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 73%
 
 ➡️ [在影片中探索此功能](#video)
 
-如果您的歷程僅運用來自事件裝載的本機資料，則不需要進行此設定。例如，如果行程由一個事件組成，然後是一個僅使用事件資料的消息活動，則無需配置資料源。
+如果您的歷程僅運用來自事件裝載的本機資料，則不需要進行此設定。例如，如果行程由一個事件組成，然後是一個僅使用事件資料的渠道操作活動，則無需配置資料源。
 
 資料來源有兩種類型：
 

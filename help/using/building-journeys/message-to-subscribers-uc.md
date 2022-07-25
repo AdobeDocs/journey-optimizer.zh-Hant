@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '256'
 ht-degree: 5%
 
 ---
@@ -24,14 +24,12 @@ ht-degree: 5%
 要配置此行程，請執行以下步驟：
 
 1. 建立以 **[!UICONTROL Read]** 的子菜單。 [閱讀全文](journey-gs.md)。
-1. 添加 **[!UICONTROL Message]** 活動，通過電子郵件，到旅程。 [閱讀全文](journeys-message.md)。
-1. 在 **[!UICONTROL Email parameters]** 的下界 **[!UICONTROL Message]** 活動設定，替換預設電子郵件地址(`PersonalEmail.adress`)，其電子郵件地址為：
+1. 添加 **[!UICONTROL Email]** 到旅程的活動。 [閱讀全文](journeys-message.md)。
+1. 在 **[!UICONTROL Email parameters]** 的下界 **[!UICONTROL Email]** 活動設定，替換預設電子郵件地址(`PersonalEmail.adress`)，其電子郵件地址為：
 
    1. 按一下 **[!UICONTROL Enable parameter override]** 表徵圖 **[!UICONTROL Address]** ，然後按一下 **[!UICONTROL Edit]** 表徵圖
 
       ![](assets/message-to-subscribers-uc-1.png)
-
-      若要修改電子郵件地址，您必須先已發佈該郵件。
 
    1. 在表達式編輯器中，輸入用於檢索訂閱者電子郵件地址的表達式。 [閱讀全文](expression/expressionadvanced.md)。
 
@@ -55,4 +53,3 @@ ht-degree: 5%
       ![](assets/message-to-subscribers-uc-2.png)
 
    1. 在 **[!UICONTROL Add an expression]** 對話框，按一下 **[!UICONTROL Ok]**。
-   ![](assets/message-to-subscribers-uc-3.png)

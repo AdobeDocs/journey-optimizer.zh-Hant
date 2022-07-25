@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -93,4 +93,3 @@ ht-degree: 0%
 
 1. 當您的電子郵件準備好後，按一下 **[!UICONTROL Save & Close]**。
 
-您的電子郵件內容現在可以用在郵件中。 [瞭解如何發送消息](../messages/publish-manage-message.md)。

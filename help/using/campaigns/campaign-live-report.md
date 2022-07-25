@@ -7,9 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '586'
 ht-degree: 4%
 
 ---
@@ -42,8 +43,6 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 ## 電子郵件頁籤 {#email-live}
 
 從您的活動 **[!UICONTROL Live report]**，也請參見Wiki頁。 **[!UICONTROL Email]** 頁籤詳細列出與市場活動中發送的電子郵件交貨相關的主要資訊。
-
-有關特定電子郵件傳遞的詳細報告，請參閱 [電子郵件即時報告](../reports/email-live-report.md) 的子菜單。
 
 的 **[!UICONTROL Email Sending Statistics]** 小部件詳細列出與消息相關的主要資訊：
 
@@ -86,8 +85,6 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 ## 推式頁籤 {#push-live}
 
 從您的活動 **[!UICONTROL Live report]**，也請參見Wiki頁。 **[!UICONTROL Push]** 頁籤詳細列出與市場活動中發送的推送交貨相關的主要資訊。
-
-有關特定推送交付的詳細報告，請參閱 [推送即時報告](../reports/push-live-report.md) 的子菜單。
 
 **[!UICONTROL Push notification sending performance]**。 **[!UICONTROL Push notification summary]** 和 **[!UICONTROL Sending metrics - by Push]** 小部件詳細列出與您的消息相關的主要資訊：
 

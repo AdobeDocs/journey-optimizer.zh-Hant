@@ -7,16 +7,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: fe9ae9b7068a883dac61f3b9c9a4aead2ccfb5c7
-workflow-type: ht
-source-wordcount: '336'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 83%
 
 ---
 
 # Adobe [!DNL Journey Optimizer] 文件 {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
+
+>[!CAUTION]
+>
+>7月25日，Adobe Journey Optimizer發佈 [新特徵](using/rn/inline-messages.md) 這改進了您為Journey Optimizer頻道（電子郵件、推送、SMS）創作內容的方式。 作為Journey Optimizer的醫生，你現在 [建立和創作](using/messages/get-started-content.md) 你直接從旅途中傳來的資訊。 將為您執行自動轉換行程。 話雖如此，我們需要你的幫助。 瞭解 [所需步驟](using/rn/inline-messages-steps.md)。
 
 <table style="table-layout:fixed">
 <tr>
@@ -50,7 +54,7 @@ ht-degree: 100%
     設計新電子郵件或匯入現有 HTML 內容
     <p>
     <div>
-      <a href="using/building-journeys/journeys-message.md">傳送訊息</a>
+      <a href="using/messages/get-started-content.md">傳送訊息</a>
     </div>
     <p>瞭解如何在客戶歷程中新增推播和電子郵件訊息
     <p>
@@ -114,9 +118,6 @@ ht-degree: 100%
     <p>歷程管理</p>
     <li>
       <a href="using/building-journeys/journey-gs.md">歷程</a>
-    </li>
-    <li>
-      <a href="using/messages/get-started-content.md">訊息</a>
     </li>
     <li>
       <a href="using/landing-pages/get-started-lp.md">登陸頁面</a>

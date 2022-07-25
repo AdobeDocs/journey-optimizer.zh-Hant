@@ -1,21 +1,21 @@
 ---
 title: 設定電子郵件設定
-description: 瞭解如何在郵件預設級別配置電子郵件設定
+description: 瞭解如何在渠道表面級別配置電子郵件設定
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1198'
 ht-degree: 2%
 
 ---
 
 # 設定電子郵件設定 {#email-settings}
 
-在郵件預設配置的專用部分定義電子郵件設定。 瞭解如何在中建立消息預設 [此部分](message-presets.md)。
+在通道表面（即消息預設）配置的專用部分中定義電子郵件設定。 瞭解如何在 [此部分](message-presets.md)。
 
 ![](assets/preset-email-settings.png)
 
@@ -24,19 +24,19 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="定義電子郵件類別"
->abstract="選擇使用此預設時將發送的消息類型：需要用戶同意的促銷消息的市場營銷，或非商業消息的事務性，這些消息也可以在特定上下文中發送到未訂閱的配置檔案。"
+>abstract="選擇使用此通道曲面時將發送的電子郵件類型：需要用戶同意的促銷電子郵件的營銷，或非商業電子郵件的事務性，也可以在特定上下文中將其發送到未訂閱的配置檔案。"
 
-在 **電子郵件類型** 部分，選擇將使用預設發送的消息類型： **營銷** 或 **事務性**。
+在 **電子郵件類型** 部分，選擇將與通道曲面一起發送的消息類型： **營銷** 或 **事務性**。
 
-* 選擇 **營銷** 對於促銷消息：這些消息需要用戶同意。
+* 選擇 **營銷** 用於促銷電子郵件：這些消息需要用戶同意。
 
-* 選擇 **事務性** 非商業消息（例如，訂單確認、密碼重置通知或傳遞資訊）。
+* 選擇 **事務性** 非商業電子郵件（例如，訂單確認、密碼重置通知或交貨資訊）。
 
 >[!CAUTION]
 >
->**事務性** 消息可以發送到從營銷通信中取消訂閱的配置檔案。 這些消息只能在特定上下文中發送。
+>**事務性** 電子郵件可以發送到從營銷通信中取消訂閱的個人資料。 這些消息只能在特定上下文中發送。
 
-當 [建立消息](../messages/get-started-content.md#create-new-message)，必須選擇與您為消息選擇的類別匹配的有效消息預設。
+當 [建立消息](../messages/get-started-content.md#create-new-message)，必須選擇與您為電子郵件選擇的類別匹配的有效通道曲面。
 
 ## 子域和IP池 {#subdomains-and-ip-pools}
 
@@ -44,11 +44,11 @@ ht-degree: 2%
 
 1. 選擇要用於發送電子郵件的子域。 [了解更多](about-subdomain-delegation.md)
 
-1. 選擇要與預設關聯的IP池。 [了解更多](ip-pools.md)
+1. 選擇要與曲面關聯的IP池。 [了解更多](ip-pools.md)
 
 ![](assets/preset-subdomain-ip-pool.png)
 
-當所選IP池位於以下位置時，無法繼續建立預設 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** 狀態)，且從未與所選子域關聯。 否則，仍將使用IP池/子域關聯的最舊版本。 如果是這種情況，請將預設另存為草稿，並在IP池具有 **[!UICONTROL Success]** 狀態。
+當所選IP池位於以下位置時，無法繼續建立曲面 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** 狀態)，且從未與所選子域關聯。 否則，仍將使用IP池/子域關聯的最舊版本。 如果是這種情況，請將曲面另存為草稿，並在IP池具有 **[!UICONTROL Success]** 狀態。
 
 >[!NOTE]
 >
@@ -72,13 +72,13 @@ ht-degree: 2%
 
 * 安 **取消訂閱電子郵件地址**，所有取消訂閱請求都發送到。
 
-   在 [!DNL Journey Optimizer]，取消訂閱電子郵件地址是 **[!UICONTROL Mailto (unsubscribe)]** 在消息預設中顯示的地址，基於 [選定子域](#subdomains-and-ip-pools)。
+   在 [!DNL Journey Optimizer]，取消訂閱電子郵件地址是 **[!UICONTROL Mailto (unsubscribe)]** 顯示在通道表面的地址，根據 [選定子域](#subdomains-and-ip-pools)。
 
    ![](assets/preset-list-unsubscribe-mailto.png)
 
 * 的 **取消訂閱URL**，即登錄頁的URL，在取消訂閱後將重定向用戶。
 
-   如果添加 [按一下選擇退出連結](../messages/consent.md#one-click-opt-out) 對於使用此預設建立的消息，取消訂閱URL將是為一次按一下選擇退出連結定義的URL。
+   如果添加 [按一下選擇退出連結](../messages/consent.md#one-click-opt-out) 對於使用此曲面建立的消息，取消訂閱URL將是為按一下「選擇退出」連結定義的URL。
 
    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
@@ -92,7 +92,7 @@ ht-degree: 2%
 
 ## 標題參數{#email-header}
 
-在 **[!UICONTROL HEADER PARAMETERS]** 部分，輸入與使用該預設發送的郵件類型關聯的發件人姓名和電子郵件地址。
+在 **[!UICONTROL HEADER PARAMETERS]** 部分，輸入與使用該曲面發送的電子郵件類型關聯的發件人姓名和電子郵件地址。
 
 >[!CAUTION]
 >
@@ -120,12 +120,12 @@ ht-degree: 2%
 
 * 您選擇的轉發電子郵件地址。 請注意，轉發電子郵件地址域與委託給Adobe的任何子域不匹配。
 * 沙盒名稱。
-* 使用轉發電子郵件地址的預設名稱。
-* 當前 **[!UICONTROL Reply to (email)]** 地址設定在預設級別。
+* 將使用轉發電子郵件地址的表面名稱。
+* 當前 **[!UICONTROL Reply to (email)]** 在通道表面層設定的地址。
 
 >[!NOTE]
 >
->每個子域只能有一個轉發電子郵件地址。 因此，如果多個預設使用相同的子域，則所有預設都必須使用相同的轉發電子郵件地址。
+>每個子域只能有一個轉發電子郵件地址。 因此，如果多個曲面使用同一子域，則所有這些曲面都必須使用相同的轉發電子郵件地址。
 
 轉發電子郵件地址將通過Adobe設定。 這可能需要3到4天。
 
@@ -133,7 +133,7 @@ ht-degree: 2%
 
 您可以發送由 [!DNL Journey Optimizer] 發送到密件抄送收件箱，在該收件箱中，這些郵件將儲存為符合性或存檔目的。
 
-為此，請啟用 **[!UICONTROL BCC email]** 可選功能。 [了解更多](bcc-email.md)
+為此，請啟用 **[!UICONTROL BCC EMAIL]** 在通道曲面級上可選特徵。 [了解更多](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 
@@ -142,7 +142,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
 >title="調整重試時間段"
->abstract="當電子郵件由於臨時軟彈回錯誤而失敗時，將執行3.5天（84小時）的重試。 您可以調整此預設重試時間段，以更好地滿足您的需要。"
+>abstract="當由於臨時軟彈回錯誤而導致電子郵件傳遞失敗時，重試時間為3.5天（84小時）。 您可以調整此預設重試時間段，以更好地滿足您的需要。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="關於重試"
 
 您可以配置 **電子郵件重試參數**。
@@ -171,13 +171,13 @@ ht-degree: 2%
 >title="預覽URL跟蹤參數"
 >abstract="查看跟蹤參數將如何附加到電子郵件內容中存在的URL。"
 
-您可以使用 **[!UICONTROL URL tracking parameters]** 以衡量您跨渠道的營銷工作的成效。 此功能是選取性的。
+您可以使用 **[!UICONTROL URL TRACKING PARAMETERS]** 以衡量您跨渠道的營銷工作的成效。 此功能是選取性的。
 
 本節中定義的參數將附加到電子郵件內容中包含的URL的末尾。 然後，您可以在Web分析工具(如Adobe Analytics或Google Analytics)中捕獲這些參數，並建立各種效能報告。
 
 ![](assets/preset-url-tracking.png)
 
-建立消息預設時，會自動填充三個URL跟蹤參數。 您可以使用 **[!UICONTROL Add new parameter]** 按鈕
+作為建立通道曲面時的示例，會自動填充三個URL跟蹤參數。 您可以使用 **[!UICONTROL Add new parameter]** 按鈕
 
 要配置URL跟蹤參數，可以直接在 **[!UICONTROL Name]** 和 **[!UICONTROL Value]** 的子菜單。
 
@@ -192,7 +192,7 @@ ht-degree: 2%
 >
 >不選擇資料夾：確保瀏覽到必要的資料夾，並選擇一個配置檔案屬性作為跟蹤參數值。
 
-<!--or edit it using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+<!--or edit it using the Expression editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
 
 You can drag and drop the parameters to reorder them.-->
 

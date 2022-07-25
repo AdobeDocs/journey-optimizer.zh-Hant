@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '977'
+ht-degree: 3%
 
 ---
 
@@ -28,22 +28,38 @@ ht-degree: 0%
 ➡️ [瞭解如何在此視頻中使用幫助程式功能](#video)
 
 在開始之前，請確保知道如何配置這些元素：
-* 電子郵件。 [了解更多](../messages/get-started-content.md)
-* 電子郵件的正文。 [了解更多](../design/create-email-content.md)。
+
 * 單一事件。 [了解更多](../event/about-events.md)。
 * 從事件開始的旅程。 [了解更多](../building-journeys/using-the-journey-designer.md)。
+* 旅途中的一封電子郵件。 [了解更多](../messages/get-started-content.md)
+* 電子郵件的正文。 [了解更多](../design/create-email-content.md)。
 
 執行以下步驟：
+
+1. [建立初始事件和行程](#create-context)。
 1. [建立電子郵件](#configure-email)。
 1. [在大寫字母中插入客戶的名字](#uppercase-function)。
-1. [建立初始事件和行程](#create-context)。
 1. [將購物車內容添加到電子郵件](#each-helper)。
 1. [插入特定於產品的注釋](#if-helper)。
 1. [測試並發佈歷程](#test-and-publish).
 
-## 步驟1:建立電子郵件{#configure-email}
+## 步驟1:建立初始事件和相關行程 {#create-context}
 
-1. 建立或修改電子郵件，然後按一下 **[!UICONTROL Email Designer]**。
+購物車內容是旅程中的上下文資訊。 因此，您必須先將初始事件和電子郵件添加到行程中，然後才能將特定於購物車的資訊添加到電子郵件中。
+
+1. 建立其架構包括 `productListItems` 陣列。
+1. 將此陣列中的所有欄位定義為此事件的負載欄位。
+
+   瞭解有關產品清單項資料類型的詳細資訊 [Adobe Experience Platform文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}。
+
+1. 建立從此事件開始的行程。
+1. 添加 **電子郵件** 活動到旅程。
+
+   ![](assets/personalization-uc-helpers-8.png)
+
+## 步驟2:建立電子郵件{#configure-email}
+
+1. 在 **電子郵件** 活動，按一下 **[!UICONTROL Edit content]**，然後按一下 **[!UICONTROL Email Designer]**。
    ![](assets/personalization-uc-helpers-1.png)
 
 1. 從「電子郵件設計器」首頁的左側調色板，將三個結構元件拖放到消息的正文上。
@@ -52,7 +68,7 @@ ht-degree: 0%
 
    ![](assets/personalization-uc-helpers-2.png)
 
-## 步驟2:在大寫字母中插入客戶的名字 {#uppercase-function}
+## 第3步：在大寫字母中插入客戶的名字 {#uppercase-function}
 
 1. 在「電子郵件設計器」首頁上，按一下要添加客戶名的HTML元件。
 1. 在上下文工具欄上，按一下 **[!UICONTROL Show the source code]**。
@@ -93,33 +109,9 @@ ht-degree: 0%
    ![](assets/personalization-uc-helpers-6.png)
 1. 保存郵件。
 
-## 第3步：建立初始事件和相關行程 {#create-context}
-
-購物車內容是旅程中的上下文資訊。 因此，您必須先將初始事件和電子郵件添加到行程中，然後才能將特定於購物車的資訊添加到電子郵件中。
-
-1. 建立其架構包括 `productListItems` 陣列。
-1. 將此陣列中的所有欄位定義為此事件的負載欄位。
-
-   瞭解有關產品清單項資料類型的詳細資訊 [Adobe Experience Platform文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}。
-
-1. 建立從此事件開始的行程。
-1. 將消息添加到旅程。
-
-   由於您尚未發佈該消息，因此您既不能test也不能發佈該行程。
-
-   ![](assets/personalization-uc-helpers-7.png)
-
-1. 按一下「**[!UICONTROL OK]**」。
-
-   一條消息通知您行程上下文已傳遞到該消息。
-
-   ![](assets/personalization-uc-helpers-8.png)
-
 ## 第4步：插入購物車中的物料清單 {#each-helper}
 
-1. 重新開啟郵件。
-
-   ![](assets/personalization-uc-helpers-18.png)
+1. 重新開啟郵件內容。
 
 1. 在「電子郵件設計器」首頁上，按一下要列出購物車內容的HTML元件。
 1. 在上下文工具欄上，按一下 **[!UICONTROL Show the source code]**。
@@ -299,14 +291,11 @@ ht-degree: 0%
 
    ![](assets/personalization-uc-helpers-14.png)
 
-1. 保存並發佈消息。
+1. 保存郵件。
 
 ## 步驟6:Test並發表旅程 {#test-and-publish}
 
-1. 開啟旅程。 如果行程已開啟，則刷新頁面。
 1. 開啟 **[!UICONTROL Test]** 切換，然後按一下 **[!UICONTROL Trigger an event]**。
-
-   只有在發佈消息後，才可以開啟test模式。
 
    ![](assets/personalization-uc-helpers-15.png)
 

@@ -8,9 +8,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '913'
 ht-degree: 2%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 2%
 **[!UICONTROL Roles]** 是您組織內共用相同權限、標籤和沙箱的一組用戶。 屬於 **[!UICONTROL Role]** 享有該產品中的Adobe應用和服務。
 您還可以建立自己的 **[!UICONTROL Roles]** 的子菜單。
 
-現在，我們要授予選定用戶訪問 **國籍** 欄位，標籤為C2。 為此，我們需要建立 **[!UICONTROL Role]** 為特定用戶集授予標籤C2 ，允許他們使用 **國籍** 詳細資訊 **[!UICONTROL Message]** 或 **[!UICONTROL Journey]**。
+現在，我們要授予選定用戶訪問 **國籍** 欄位，標籤為C2。 為此，我們需要建立 **[!UICONTROL Role]** 為特定用戶集授予標籤C2 ，允許他們使用 **國籍** 詳細資訊 **[!UICONTROL Journey]**。
 
 1. 從 [!DNL Permissions] 產品，選擇 **[!UICONTROL Role]** 按一下 **[!UICONTROL Create role]**。 請注意，您還可以 **[!UICONTROL Label]** 內置角色。
 

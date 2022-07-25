@@ -6,22 +6,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 0%
+source-wordcount: '444'
+ht-degree: 3%
 
 ---
 
-# 檢查郵件的警報 {#publish-manage-messages}
+# 檢查郵件的警報 {#messages-alerts}
 
-## 發佈前檢查 {#message-alerting}
+## 發送前檢查 {#message-alerting}
 
-在建立郵件時，在發佈郵件之前需要採取重要操作時，會發出警告。
+在設計消息時，當缺少鍵設定時，會在介面中顯示警報。
 
-警報顯示在螢幕的右上方，如下所示：
+編輯消息內容時，警報顯示在螢幕右上方。
 
-![](assets/message-alerts.png)
+![](assets/alerts-details.png)
 
 >[!NOTE]
 >
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 * **警告** 請參閱建議和最佳做法。 例如，如果缺少opt-out連結，則將顯示一條消息。
 
-* **錯誤** 只要郵件未解決，就阻止您發佈。 例如，一條消息將警告您主題行丟失。
+* **錯誤** 只要未解決，就阻止您測試或激活行程。 例如，一條消息將警告您主題行丟失。
 
 所有可能的警告和錯誤都已詳細列出 [下](#alerts-and-warnings)。
 
 >[!CAUTION]
 >
-> 你需要解決所有 **錯誤** 發佈前發出警報。
+> 你需要解決所有 **錯誤** 使用消息測試或激活行程之前發出警報。
 
 ## 警告和錯誤清單 {#alerts-and-warnings}
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >市場營銷類型的電子郵件必須包括一個選擇退出連結，這對於事務性郵件是不必需的。 消息類別(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [消息預設值](../configuration/message-presets.md#email-type) 當 [建立消息](get-started-content.md#create-new-message)。
+   >行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 消息類別(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [通道表面](../configuration/message-presets.md#email-type) （即消息預設）級別和時間 [建立消息](get-started-content.md#create-new-message)。
 
 * **[!UICONTROL Text version of HTML is empty]**:不要忘記定義電子郵件正文的文本版本，因為當無法顯示HTML內容時，將使用它。 瞭解如何在中建立文本版本 [此部分](../design/text-version-email.md)。
 
@@ -67,13 +67,13 @@ ht-degree: 0%
 
 * **[!UICONTROL The email version of the message is empty]**:未配置電子郵件內容時，將顯示此錯誤。 瞭解如何在 [此部分](../design/design-emails.md)。
 
-* **[!UICONTROL Preset doesn’t exist]**:如果您選擇的預設在消息建立後被刪除，則不能發佈消息。 如果出現此錯誤，請在消息中選擇另一個預設 **[!UICONTROL Properties]**。 瞭解有關品牌推廣的更多資訊 [此部分](../configuration/about-subdomain-delegation.md)。
+* **[!UICONTROL Surface doesn’t exist]**:如果在建立消息後刪除了所選曲面，則不能使用消息。 如果出現此錯誤，請在消息中選擇另一個曲面 **[!UICONTROL Properties]**。 瞭解有關中的通道曲面的詳細資訊 [此部分](../configuration/message-presets.md)。
 
 * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**:推送通知大小不能超過4KB。 要尊重此限制，請嘗試減少使用影像或表情符號。 瞭解如何在中管理推送通知內容 [此部分](create-push.md)。
 
 >[!CAUTION]
 >
-> 要能夠發佈您的郵件，您需要解決所有 **錯誤** 警報。
+> 要能夠使用您的消息，您需要解決所有 **錯誤** 警報。
 
 <!--Other issues can stop publication such as:
 * The push notification title is empty-->

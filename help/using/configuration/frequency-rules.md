@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 6%
+source-wordcount: '827'
+ht-degree: 3%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->完全激活規則可能需要10分鐘。 您無需修改或重新發佈消息或行程，規則即可生效。
+>完全激活規則可能需要10分鐘。 您無需修改消息或重新發佈行程，規則即可生效。
 
 要取消激活消息頻率規則，請按一下該規則旁邊的省略號，然後選擇 **[!UICONTROL Deactivate]**。
 
@@ -113,37 +113,26 @@ ht-degree: 6%
 
 要將頻率規則應用於消息，請執行以下步驟。
 
-1. 建立訊息. [了解更多](../messages/get-started-content.md#create-new-message)
+1. [建立消息](../messages/get-started-content.md#create-new-message) 通過選擇為規則定義的通道之一。
 
 1. 選擇為 [已建立的規則](#create-new-rule)。
 
-   ![](assets/message-rules-msg-properties.png)
+   ![](assets/inline-message-category.png)
 
    >[!NOTE]
    >
    >當前僅 **[!UICONTROL Marketing]** 類別可用於消息頻率規則。
 
-1. 選擇您為郵件選擇的頻道。
+   <!--
+   1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). A new tab will open to display the matching message frequency rules.-->
 
-   ![](assets/message-rules-msg-channels.png)
+1. 所有與所選類別和通道匹配的頻率規則將自動應用於此消息。
 
-1. 您可以按一下 **[!UICONTROL Frequency rule]** 連結，檢視將套用於選取的類別和頻道的頻率規則。 
+   >[!NOTE]
+   >
+   >選擇類別的消息 **[!UICONTROL Transactional]** 不會根據頻率規則進行評估。
 
-   ![](assets/message-rules-msg-link.png)
-
-   將開啟一個新頁籤以顯示匹配的消息頻率規則。
-
-1. [設計](../design/design-emails.md) 和 [發佈](../messages/publish-manage-message.md) 你的留言。
-
-所有與所選類別和通道匹配的頻率規則將自動應用於此消息。
-
->[!NOTE]
->
->消息 <!--that do not have any selected category or messages -->其中選定的類別 **[!UICONTROL Transactional]** 不會根據頻率規則進行評估。
-
-<!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
-
-您可以在中查看從交貨中排除的配置檔案數 [即時和全球視圖](../reports/message-monitoring.md)的 [電子郵件即時報告](../reports/email-live-report.md)，其中頻率規則將作為用戶從傳遞中排除的可能原因列出。
+1. 您可以在中查看從交貨中排除的配置檔案數 [全局報告](../reports/global-report.md)的 [即時報告](../reports/live-report.md)，其中頻率規則將作為用戶從傳遞中排除的可能原因列出。
 
 >[!NOTE]
 >
@@ -155,7 +144,7 @@ ht-degree: 6%
 
 1. [建立規則](#create-new-rule) 調用 *總體營銷上限*:
 
-   * 選擇所有通道（電子郵件、推送）。
+   * 選擇「電子郵件」和「推送」通道。
    * 將上限設定為12。
 
    ![](assets/message-rules-ex-overall-cap.png)
@@ -169,19 +158,9 @@ ht-degree: 6%
 
 1. 保存和 [激活](#activate-rule) 規則。
 
-1. 建立訊息. [了解更多](../messages/get-started-content.md#create-new-message)
+1. 建立電子郵件並選擇 **[!UICONTROL Marketing]** 的下界。 [了解更多](../messages/get-started-content.md#create-new-message)
 
-1. 選擇 **[!UICONTROL Marketing]** 的子菜單。
-
-   ![](assets/message-rules-ex-category-maktg.png)
-
-1. 選擇 **[!UICONTROL Email]** 和 **[!UICONTROL Push Notification]** 頻道。
-
-   ![](assets/message-rules-ex-channels.png)
-
-1. 您可以按一下 **[!UICONTROL Frequency rule]** 連結，檢視將套用於選取的類別和頻道的頻率規則。 
-
-1. [設計](../design/design-emails.md) 和 [發佈](../messages/publish-manage-message.md) 你的留言。
+1. 建立推送通知並選擇 **[!UICONTROL Marketing]** 的下界。 [了解更多](../messages/get-started-content.md#create-new-message)
 
 在此方案中，單個配置檔案：
 * 每月最多可收到12條營銷資訊；
@@ -189,10 +168,10 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->在測試頻率規則時，從新建立的規則開始可能會很有幫助 [test配置檔案](../segment/creating-test-profiles.md)，因為一旦達到配置檔案的頻率上限，則直到下個月才能重置計數器。 停用規則將允許封閉配置檔案接收消息，但不會刪除或刪除任何計數器增量。
+>測試頻率規則時，建議使用新建立的 [test配置檔案](../segment/creating-test-profiles.md)，因為一旦達到配置檔案的頻率上限，則直到下個月才能重置計數器。 停用規則將允許封閉配置檔案接收消息，但不會刪除或刪除任何計數器增量。
 
 ## How-to視頻 {#video}
 
-瞭解如何建立、激活、test和報告頻率規則。
+瞭解如何建立、啟動、測試並報告頻率規則。 
 
 >[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

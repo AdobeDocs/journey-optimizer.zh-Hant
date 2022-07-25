@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '972'
+ht-degree: 2%
 
 ---
 
@@ -183,5 +183,5 @@ ht-degree: 0%
 
 相關主題：
 
-* [開始使用決策管理](../offers/get-started/starting-offer-decisioning.md).
-* [將個性化優惠添加到消息中](deliver-personalized-offers.md)。
+* [開始使用決策管理](../offers/get-started/starting-offer-decisioning.md)
+* [在電子郵件中添加個性化優惠](deliver-personalized-offers.md)

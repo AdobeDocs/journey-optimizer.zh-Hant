@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 1%
 
 ### 如何避免過載{#overloads-speed-segment-qualification}
 
-以下是一些有助於避免使系統超載的最佳實踐(資料源、自定義操作、 **消息** 活動)。
+以下是一些有助於避免使系統超載的最佳實踐（資料源、自定義操作、渠道操作活動）。
 
 不在 **[!UICONTROL Segment Qualification]** 活動，即建立後立即的批段。 避免了第一個計算峰。 請注意，如果您將要使用從未計算過的段，行程畫布中將出現黃色警告。
 

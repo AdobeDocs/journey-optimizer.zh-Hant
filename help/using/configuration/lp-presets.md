@@ -1,17 +1,17 @@
 ---
-title: 定義登錄頁預設
+title: 定義登陸頁面預設集
 description: 瞭解如何配置環境以建立和使用登錄頁與Journey Optimizer
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 4%
+source-wordcount: '300'
+ht-degree: 7%
 
 ---
 
-# 定義登錄頁預設 {#lp-presets}
+# 定義登陸頁面預設集 {#lp-presets}
 
 當 [建立登錄頁](../landing-pages/create-lp.md#create-a-lp)，必須選擇登錄頁預設才能生成登錄頁並利用它 **[!DNL Journey Optimizer]**。
 
@@ -74,10 +74,10 @@ ht-degree: 4%
    ![](assets/lp-preset-active-temp.png)
 
 您現在已準備好 [建立登錄頁](../landing-pages/create-lp.md) 在 [!DNL Journey Optimizer]。
-
+<!--
 >[!NOTE]
 >
->瞭解如何為中的推送通知和電子郵件建立郵件預設 [此部分](message-presets.md)。
+>Learn how to create channel surfaces for push notifications and emails in [this section](message-presets.md).-->
 
 **相關主題**：
 

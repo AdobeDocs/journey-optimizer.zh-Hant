@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 5%
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 設計由以下功能支援的多步高級方案：
 
-* 即時發送 **單一消息** 接收事件時觸發，或 **批** 使用Adobe Experience Platform段。
+* 即時發送 **單一遞送** 接收事件時觸發，或 **批** 使用Adobe Experience Platform段。
 
 * 利用 **上下文資料** 來自事件、來自Adobe Experience Platform的資訊或來自第三方API服務的資料。
 

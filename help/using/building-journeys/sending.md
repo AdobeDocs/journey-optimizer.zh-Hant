@@ -1,10 +1,10 @@
 ---
 title: 開始行程執行
 description: 瞭解如何開始您的旅程併發送消息
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 3%
+source-wordcount: '274'
+ht-degree: 4%
 
 ---
 
@@ -34,13 +34,9 @@ ht-degree: 3%
 
 ## 傳送訊息 {#send-messages}
 
-當您的郵件定義了內容並已發佈時，即可通過 [旅程](journey.md)。
+當您的郵件定義了內容時，即可通過 [旅程](journey.md)。
 
->[!NOTE]
->
->您可以向旅程添加仍處於草稿模式的郵件，但是在發佈該旅程之前，請確保已發佈該郵件。
-
-一旦發送消息，您就可以通過多個指示器監視其執行。 [瞭解有關監視消息執行的詳細資訊](../message-monitoring.md)。
+一旦發送消息，您就可以通過多個指示器監視其執行。 [瞭解有關報告的更多資訊](../global-report.md)。
 
 ## 計畫消息 {#schedule-messages}
 

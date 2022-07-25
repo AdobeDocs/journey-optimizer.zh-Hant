@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: 7f524b7ed9092465be996eeca36e6102e8e1c405
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '550'
 ht-degree: 1%
 
 ---
@@ -65,10 +65,7 @@ ht-degree: 1%
 
    如果您選擇的映像未獲得許可，則必須 [拿到許可證](#license-stock-image)。
 
-1. 根據需要，使用 **[!UICONTROL Components settings]** 的子菜單。 [瞭解有關元件設定的詳細資訊](content-components.md)
-
-建立並個性化您的郵件後，您可以發佈它以使其可用於執行。 [了解更多](../messages/publish-manage-message.md)
-
+1. 根據需要，使用 **[!UICONTROL Components settings]** 的子菜單。 [瞭解有關元件設定的詳細資訊](content-components.md)。
 
 ## 獲取許可證 [!DNL Adobe Stock] {#license-stock-image}
 

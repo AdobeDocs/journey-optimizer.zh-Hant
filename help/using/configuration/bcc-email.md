@@ -1,14 +1,14 @@
 ---
 title: 使用密件副本電子郵件
-description: 瞭解如何在郵件預設級別配置密件抄送電子郵件
+description: 瞭解如何在渠道表面級別配置密件抄送電子郵件
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1094'
 ht-degree: 3%
 
 ---
@@ -24,23 +24,23 @@ ht-degree: 3%
 
 ## 啟用密件抄送電子郵件 {#enable-bcc}
 
-啟用 **[!UICONTROL BCC email]** 選項，在「專用」欄位中輸入您選擇的電子郵件地址。 您可以以正確的格式指定任何外部地址，但子域上已定義的電子郵件地址除外，該子域已委派給Adobe。 例如，如果您委託 *營銷.luma.com* 子域到Adobe，任何類似 *abc@marketing.luma.com* 禁止。
+啟用 **[!UICONTROL BCC email]** 選項，在 [通道表面](message-presets.md) （即消息預設）。 您可以以正確的格式指定任何外部地址，但子域上已定義的電子郵件地址除外，該子域已委派給Adobe。 例如，如果您委託 *營銷.luma.com* 子域到Adobe，任何類似 *abc@marketing.luma.com* 禁止。
 
 >[!NOTE]
 >
->您只能定義一個密件抄送電子郵件地址。 確保BCC地址具有足夠的接收容量來儲存使用當前預設發送的所有電子郵件。
+>您只能定義一個密件抄送電子郵件地址。 確保BCC地址具有足夠的接收容量來儲存使用當前通道表面發送的所有電子郵件。
 >
 >中列出了更多建議 [此部分](#bcc-recommendations-limitations)。
 
 ![](assets/preset-bcc.png)
 
-使用此預設的所有電子郵件將被盲目複製到您輸入的密件抄送電子郵件地址。 從那裡，可以使用外部系統處理和存檔這些檔案。
+使用此表面的所有電子郵件將盲目複製到您輸入的BCC電子郵件地址。 從那裡，可以使用外部系統處理和存檔這些檔案。
 
 >[!CAUTION]
 >
->您的密件抄送功能使用情況將根據您獲得許可的郵件數計算。 因此，僅在用於要存檔的關鍵通信的預設中啟用它。 檢查您的合同中是否有許可的卷。
+>您的密件抄送功能使用情況將根據您獲得許可的郵件數計算。 因此，僅在用於要存檔的關鍵通信的曲面中啟用它。 檢查您的合同中是否有許可的卷。
 
-BCC電子郵件地址設定將立即保存並處理在預設級別。 當你 [建立新消息](../messages/get-started-content.md#create-new-message) 使用此預設，系統會自動顯示密件抄送電子郵件地址。
+BCC電子郵件地址設定將立即在表面級保存和處理。 當你 [建立新消息](../messages/get-started-content.md#create-new-message) 使用此表面，將自動顯示BCC電子郵件地址。
 
 ![](assets/preset-bcc-in-msg.png)
 
@@ -52,7 +52,7 @@ BCC電子郵件地址設定將立即保存並處理在預設級別。 當你 [�
 
 >[!NOTE]
 >
->您不需要重新發佈消息或行程以接收BCC設定。
+>您不需要重新發佈您的行程，以便接收BCC設定。
 
 ## Recommendations和限制 {#bcc-recommendations-limitations}
 
@@ -66,7 +66,7 @@ BCC電子郵件地址設定將立即保存並處理在預設級別。 當你 [�
 
    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* 不要開啟或按一下發送到密件抄送地址的電子郵件，因為在發送分析的總開啟和按一下時會考慮電子郵件，這可能會導致在 [報告](../reports/message-monitoring.md)。
+* 不要開啟或按一下發送到密件抄送地址的電子郵件，因為在發送分析的總開啟和按一下時會考慮電子郵件，這可能會導致在 [報告](../reports/global-report.md)。
 
 * 不要在密件抄送收件箱中將郵件標籤為垃圾郵件，因為它會影響發送到此地址的所有其他電子郵件。
 

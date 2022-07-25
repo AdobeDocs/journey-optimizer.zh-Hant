@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 98%
+source-wordcount: '1106'
+ht-degree: 96%
 
 ---
 
@@ -47,10 +47,9 @@ ht-degree: 98%
    + [建立電子郵件](using/messages/create-email.md)
    + [建立推播通知](using/messages/create-push.md)
    + [建立 SMS 訊息](using/messages/create-sms.md)
-   + 驗證並發佈{#validate}
-      + [檢查警報](using/messages/alerts.md)
-      + [發佈訊息](using/messages/publish-manage-message.md)
+   + [檢查警報](using/messages/alerts.md)
    + [管理同意](using/messages/consent.md)
+   + [發送時間優化](using/messages/send-time-optimization.md)
 + 設計內容 {#design}
    + [開始使用電子郵件設計](using/design/design-emails.md)
    + [從頭開始 ](using/design/create-email-content.md)
@@ -87,8 +86,8 @@ ht-degree: 98%
    + [個人化內容](using/personalization/personalization-contexts.md)
    + 建立運算式 {#build-expressions}
       + [個人化語法](using/personalization/personalization-syntax.md)
-      + 使用運算式編輯器 {#expression-editor}
-         + [關於運算式編輯器](using/personalization/personalization-build-expressions.md)
+      + 使用表達式編輯器 {#expression-editor}
+         + [關於表達式編輯器](using/personalization/personalization-build-expressions.md)
          + [將屬性加入我的最愛](using/personalization/personalization-favorites.md)
          + [使用儲存的運算式](using/personalization/personalization-library.md)
          + [個人化驗證](using/personalization/personalization-validation.md)
@@ -138,7 +137,7 @@ ht-degree: 98%
       + [結尾](using/building-journeys/end-activity.md)
       + [等待](using/building-journeys/wait-activity.md)
       + [讀取區段](using/building-journeys/read-segment.md)
-      + [訊息](using/building-journeys/journeys-message.md)
+      + [電子郵件、簡訊、推送](using/building-journeys/journeys-message.md)
       + [自訂動作](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 動作](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 動作](using/building-journeys/using-adobe-campaign-classic.md)
@@ -238,19 +237,14 @@ ht-degree: 98%
       + [傳送訊息給訂閱者](using/building-journeys/message-to-subscribers-uc.md)
       + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
 + 追蹤和監視 {#reporting}
-   + [訊息監視](using/reports/message-monitoring.md)
    + 即時報告 {#live-report}
       + [存取即時報告儀表板](using/reports/live-report.md)
       + [歷程即時報告](using/reports/journey-live-report.md)
-      + [以電子郵件傳送即時報告](using/reports/email-live-report.md)
-      + [推播即時報告](using/reports/push-live-report.md)
       + [登陸頁面即時報告](using/reports/lp-report-live.md)
       + [訂閱清單即時報告](using/reports/subscription-report-live.md)
    + 全域報告 {#global-report}
       + [存取全域報告儀表板](using/reports/global-report.md)
       + [歷程全域報告](using/reports/journey-global-report.md)
-      + [以電子郵件傳送全域報告](using/reports/email-global-report.md)
-      + [推播全域報告](using/reports/push-global-report.md)
       + [登陸頁面全域報告](using/reports/lp-report-global.md)
       + [訂閱清單全域報告](using/reports/subscription-report-global.md)
    + 歷程報告 {#reports}
@@ -385,8 +379,8 @@ ht-degree: 98%
             + [重試次數](using/configuration/retries.md)
             + [允許清單](using/configuration/allow-list.md)
       + [設定簡訊頻道](using/configuration/sms-configuration.md)
-      + 設定訊息預設集 {#set-up-message-presets}
-         + [建立訊息預設集](using/configuration/message-presets.md)
+      + 設定通道曲面 {#set-up-message-presets}
+         + [建立通道曲面](using/configuration/message-presets.md)
          + [設定電子郵件設定](using/configuration/email-settings.md)
          + [使用密件副本電子郵件](using/configuration/bcc-email.md)
       + [管理執行地址](using/configuration/primary-email-addresses.md)

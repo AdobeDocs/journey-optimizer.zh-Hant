@@ -5,9 +5,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -123,88 +123,6 @@ ht-degree: 0%
    * queries.read
    * queries.write
    * queries.delete
-
-## 消息功能 {#message-capability}
-
-### [!DNL Manage messages] 權限 {#manage-messages}
-
-的 **[!DNL Manage messages]** 高級權限允許用戶建立和編輯/刪除消息。
-
-它包括以下低級權限：
-
-* Journey Optimizer特別：
-   * messages.write
-   * messages.read
-   * messages.delete
-   * messages_presets_read
-
-* Adobe Experience Platform特別：
-   * segments.read
-   * schemas.read
-
-### [!DNL Manage messages preview and test] 權限 {#mange-messages-preview}
-
-的 **[!DNL Manage messages preview and test]** 高級權限允許用戶預覽個性化消息。
-
-它包括以下低級權限：
-
-* Journey Optimizer特別：
-   * messages.publish
-   * messages_preview_and_test.write
-   * messages.publish
-
-* Adobe Experience Platform特別：
-   * profiles.read
-   * profiles.write
-   * schemas.read
-   * datasets.write
-   * datasets.read
-   * identity_namespace_read
-   * segments.read
-   * queries.write
-   * merge_policies_read
-
-### [!DNL Publish messages] 權限 {#publish-messages}
-
-的 **[!DNL Publish messages]** 高級權限允許用戶發佈消息。
-
-它包括以下低級權限：
-
-* Journey Optimizer特別：
-   * messages.publish
-
-* Adobe Experience Platform特別：
-   * profiles.read
-   * schemas.read
-   * datasets.read
-
-### [!DNL View messages] 權限 {#view-messages}
-
-的 **[!DNL View messages]** 高級權限允許用戶只讀消息。
-
-它包括以下低級權限：
-
-* Journey Optimizer特別：
-   * messages.read
-   * messages_presets_read
-
-* Adobe Experience Platform特別：
-   * schemas.read
-   * segments.read
-
-### [!DNL View messages report] 權限 {#view-message-reports}
-
-的 **[!DNL View messages report]** 高級權限允許用戶只讀電子郵件和推送報告。
-
-它包括以下低級權限：
-
-* Journey Optimizer特別：
-   * messages_report_read
-   * datasets.read
-   * queries.read
-   * queries.write
-   * queries.delete
-   * journey.read
 
 ## 決策管理能力 {#decisions-permissions}
 
@@ -330,33 +248,34 @@ ht-degree: 0%
 * IP_pools.write
 * IP_pools.delete
 
-### [!DNL Manage messages general settings] 權限 {#manage-message-settings}
+<!--
+### [!DNL Manage messages general settings] permission {#manage-message-settings}
 
-的 **[!DNL Manage messages general settings]** 高級權限允許用戶在沙盒級別建立、編輯和刪除全局設定。
+The **[!DNL Manage messages general settings]** high-level permission allows users to create, edit and delete global settings at the sandbox level.
 
-它包括以下低級權限：
+It includes the following low-level permissions: 
 
-* Journey Optimizer特別：
-   * messages_general_settings.read
-   * messages_general_settings.write
-   * messages_general_settings.delete
-* Adobe Experience Platform特別：
-   * schemas.read
+* Journey Optimizer specific: 
+  * messages_general_settings.read
+  * messages_general_settings.write
+  * messages_general_settings.delete
+* Adobe Experience Platform specific:
+  * schemas.read
 
-### [!DNL View messages general settings] 權限 {#view-message-settings}
+### [!DNL View messages general settings] permission {#view-message-settings}
 
-的 **[!DNL View messages general settings]** 高級權限允許用戶查看消息常規設定，如執行地址。
+The **[!DNL View messages general settings]** high-level permission allows users to view messages general settings such as the execution address.
 
-它包括以下低級權限：
+It includes the following low-level permissions:
 
-* Journey Optimizer特別：
-   * messages_general_settings.read
-* Adobe Experience Platform特別：
-   * schemas.read
+* Journey Optimizer specific: 
+  * messages_general_settings.read
+* Adobe Experience Platform specific: 
+  * schemas.read
+-->
+### [!DNL Manage channel surface] 權限 {#manage-channel-surface}
 
-### [!DNL Manage messages presets] 權限 {#manage-message-presets}
-
-的 **[!DNL Manage messages presets]** 高級權限允許用戶在沙盒級別跨通道建立、編輯和刪除消息預設。
+的 **[!DNL Manage channel surface]** 高級權限允許用戶在沙盒級別跨通道建立、編輯和刪除通道曲面。
 
 它包括以下低級權限：
 
@@ -368,9 +287,9 @@ ht-degree: 0%
    * IP_pools.read
    * mobile_setting.read(來自Adobe Experience Platform Launch)
 
-### [!DNL View messages presets] 權限 {#view-message-presets}
+### [!DNL View channel surface] 權限 {#view-channel-surface}
 
-的 **[!DNL View messages presets]** 高級權限允許用戶查看消息預設，以便知道在建立消息時要使用哪些消息預設。
+的 **[!DNL View channel surface]** 高級權限允許用戶查看通道曲面，以便知道要使用哪些通道曲面。
 
 它包括以下低級權限：
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 3%
+source-wordcount: '1049'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 >
 >預覽消息或發送校樣時，只顯示配置檔案個性化資料。 基於上下文資料（例如事件資訊）的個性化只能在旅程的上下文中測試。 瞭解如何test個性化 [此使用案例](../personalization/personalization-use-case.md)。
 
-➡️ [瞭解如何在此視頻中預覽、校樣和發佈電子郵件](#video-preview)
+➡️ [瞭解如何在此視頻中預覽和校驗電子郵件](#video-preview)
 
 ## 選擇test配置檔案{#select-test-profiles}
 
@@ -53,7 +53,7 @@ ht-degree: 3%
 
 要選擇test配置檔案，請執行以下步驟：
 
-1. 在消息介面或電子郵件設計器中，按一下 **[!UICONTROL Show preview]** 按鈕，來查看test配置檔案選擇。
+1. 在消息介面或電子郵件設計器中，按一下 **[!UICONTROL Simulate Content]** 按鈕，來查看test配置檔案選擇。
 
    ![](assets/email-preview-button.png)
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 
    ![](assets/preview-email-namespace.png)
 
-1. 輸入標識test配置檔案的值，然後按一下 **[!UICONTROL Find test profile]**。
+1. 輸入標識test配置檔案的值，然後按一下 **[!UICONTROL Add profile]**。
 
    ![](assets/preview-identity-value.png)
 
@@ -83,7 +83,11 @@ ht-degree: 3%
 
 一次 [test配置檔案](#select-test-profiles) 選項，您可以預覽消息並檢查內容。
 
-1. 按一下 **[!UICONTROL Preview]** 頁籤test消息。
+### 電子郵件預覽{#preview-email}
+
+要預覽電子郵件內容，請執行以下步驟：
+
+1. 按一下 **[!UICONTROL Simulate content]** 按鈕。
 
 1. 選擇test配置檔案。 可以檢查列中的可用值。 使用右/左箭頭瀏覽資料。
 
@@ -103,11 +107,15 @@ ht-degree: 3%
 
 1. 選擇其他test配置檔案，以預覽郵件的每個變體的電子郵件呈現。
 
-對於推送通知預覽：
+### 推送預覽{#preview-push}
 
-1. 切換到 **[!UICONTROL Push]** 頻道 **[!UICONTROL Channels]** 右上角的下拉清單 **[!UICONTROL Preview]** 的上界。
+要預覽推送通知內容，請執行以下步驟：
 
-   ![](assets/preview-select-channel.png)
+1. 按一下 **[!UICONTROL Simulate content]** 按鈕。
+
+1. 選擇test配置檔案。 可以檢查列中的可用值。 使用右/左箭頭瀏覽資料。
+
+1. 切換到 **[!UICONTROL Push]** 。
 
 1. 應用上述相同步驟以選擇test配置檔案，並選擇要預覽內容的設備類型： **[!UICONTROL iOS]** 或 **[!UICONTROL Android]**。
 
@@ -188,6 +196,6 @@ ht-degree: 3%
 
 ## How-to視頻{#video-preview}
 
-瞭解如何測試各收件匣間的電子郵件呈現、如何根據測試設定檔預覽您的個人化電子郵件、傳送校樣及發佈您的電子郵件。
+瞭解如何在收件箱中test電子郵件呈現，如何根據test配置檔案預覽個性化電子郵件併發送校樣。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)

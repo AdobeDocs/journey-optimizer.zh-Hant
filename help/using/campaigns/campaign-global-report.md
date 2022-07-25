@@ -7,10 +7,11 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1213'
+ht-degree: 2%
 
 ---
 
@@ -49,8 +50,6 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 ## 電子郵件頁籤 {#email-global}
 
 從您的活動 **[!UICONTROL Global report]**，也請參見Wiki頁。 **[!UICONTROL Email]** 頁籤詳細列出與「市場活動」中發送的電子郵件交貨相關的主要資訊。
-
-有關特定電子郵件傳遞的詳細報告，請參閱 [電子郵件全局報告](../reports/email-global-report.md) 的子菜單。
 
 的 **[!UICONTROL Email Sending Statistics]** 圖表詳細說明了您交付的成功：
 
@@ -122,7 +121,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 
 >[!NOTE]
 >
->的 **[!UICONTROL Optimized vs non optimized]** 和 **[!UICONTROL Send time optimization]**  只有在為您的交貨激活「發送時間優化」選項時，小部件才可用。 有關發送時間優化的詳細資訊，請參閱此 [頁](../building-journeys/journeys-message.md#send-time-optimization)。
+>的 **[!UICONTROL Optimized vs non optimized]** 和 **[!UICONTROL Send time optimization]**  只有在為您的交貨激活「發送時間優化」選項時，小部件才可用。 有關發送時間優化的詳細資訊，請參閱 [此頁](../messages/send-time-optimization.md)。
 
 的 **[!UICONTROL Optimized vs non optimized]** 圖表詳細列出了與消息相關的主要資訊，這些資訊是否已優化：
 
@@ -138,8 +137,6 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 ## 推式頁籤 {#push-global}
 
 從您的活動 **[!UICONTROL Global report]**，也請參見Wiki頁。 **[!UICONTROL Push]** 頁籤詳細列出與市場活動中發送的推送交貨相關的主要資訊。
-
-有關特定推送交付的詳細報告，請參閱 [推送全局報告](../reports/push-global-report.md)。
 
 的 **[!UICONTROL Push notification - Sending statistics]** 表詳細列出了與使用圖表和KPI的推送通知相關的主要資訊：
 
@@ -187,7 +184,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 
 >[!NOTE]
 >
->的 **[!UICONTROL Optimized vs non optimized]** 和 **[!UICONTROL Send time optimization]**  只有在為您的交貨激活「發送時間優化」選項時，小部件才可用。 有關發送時間優化的詳細資訊，請參閱此 [頁](../building-journeys/journeys-message.md#send-time-optimization)。
+>的 **[!UICONTROL Optimized vs non optimized]** 和 **[!UICONTROL Send time optimization]**  只有在為您的交貨激活「發送時間優化」選項時，小部件才可用。 有關發送時間優化的詳細資訊，請參閱 [此頁](../messages/send-time-optimization.md)。
 
 的 **[!UICONTROL Optimized vs non optimized]** 圖表詳細列出了與消息相關的主要資訊，這些資訊是否已優化：
 

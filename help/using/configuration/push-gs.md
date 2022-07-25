@@ -6,18 +6,18 @@ feature: Push
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 3%
+source-wordcount: '680'
+ht-degree: 6%
 
 ---
 
 # 開始使用推播設定 {#get-started-push}
 
-此頁將幫助您設定和瞭解與推送通知相關的關鍵服務和工作流 [!DNL Journey Optimizer]。 瞭解如何在中建立推送通知 [此頁](../messages/create-push.md)。
+此頁將幫助您設定和瞭解與推送通知相關的關鍵服務和工作流 [!DNL Journey Optimizer]。 瞭解如何在上建立推送通知 [此頁](../messages/create-push.md)。
 
-在中配置推送通道的步驟 [!DNL Adobe Journey Optimizer] 詳見 [此頁](push-configuration.md)。
+在中配置推送通道的步驟 [!DNL Adobe Journey Optimizer] 詳細 [此頁](push-configuration.md)。
 
 ## 推送通知和 [!DNL Adobe Journey Optimizer] {#push-notifications-and-journey-optimizer}
 
@@ -28,7 +28,7 @@ ht-degree: 3%
 1. 在Apple的APNs和GoogleFCM推送消息服務中註冊您的品牌移動應用(Android或iOS)
 1. 消息服務生成推令牌，該令牌是 [!DNL Adobe Journey Optimizer] 將用於使用推式通知瞄準特定設備。
 1. 先前生成的推令牌被傳遞給Adobe Experience Platform並與即時客戶配置檔案同步；這是通過易於整合的客戶端SDK完成的
-1. 推送消息創作於 [!DNL Adobe Journey Optimizer]，根據消息預設建立推送消息
+1. 推送消息創作於 [!DNL Adobe Journey Optimizer]，針對通道表面建立推送消息（即消息預設）
 1. 推送消息可能包含在Rougners中的業務流程畫布中
 1. 在Journey發佈後，基於Journey條件的客戶配置檔案經鑑定可接收推送通知，推送消息負載在此步驟中個性化
 1. 將個性化推送有效載荷轉發到內部推送消息傳遞服務
@@ -54,7 +54,7 @@ ht-degree: 3%
    * 建立客戶端移動屬性並添加擴展。 SDK與這些擴展緊密整合，以提供無縫的資料收集體驗。
    * 註冊移動應用捆綁標識符和應用憑據
 
-* **Adobe Experience Platform即時客戶概要**  通過合併來自多個渠道（包括web 、 mobile 、 CRM和第三方）的資料，維護每個客戶的整體視圖。 配置檔案允許您將客戶資料整合到一個統一視圖中，為每次客戶交互提供一個可操作且時間戳記的帳戶。 將給定應用用戶的推送令牌作為記錄資料根據用戶的配置檔案儲存，同時將用戶與推送通知的交互作為時間序列事件資料進行跟蹤。 [瞭解有關Adobe Experience Platform即時客戶概要資訊的更多資訊](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+* **Adobe Experience Platform即時客戶概要**  通過合併來自多個渠道（包括web 、 mobile 、 CRM和第三方）的資料，維護每個客戶的整體視圖。 個人檔案可讓您將客戶資料合併成統一的檢視畫面，針對每個客戶互動提供可採取行動且附有時間戳記的說明。將給定應用用戶的推送令牌作為記錄資料根據用戶的配置檔案儲存，同時將用戶與推送通知的交互作為時間序列事件資料進行跟蹤。 [瞭解有關Adobe Experience Platform即時客戶概要資訊的更多資訊](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 * **[!DNL Adobe Journey Optimizer]** :一旦您的移動應用與上述元件的整合到位，並且您的客戶配置檔案在Adobe Experience Platform，您就可以編寫並協調推送通知 [!DNL Adobe Journey Optimizer] 與您的用戶接洽。
 

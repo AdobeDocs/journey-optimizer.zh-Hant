@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 5%
+source-wordcount: '1096'
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 5%
 >title="閱讀區段活動"
 >abstract="「讀取段」(Read Segment)活動允許您使屬於Adobe Experience Platform段的所有個人進入行程。 進入歷程可以執行一次，也可以定期執行。"
 
-「讀取段」(Read Segment)活動允許您使屬於Adobe Experience Platform段的所有個人進入行程。 進入歷程可以執行一次，也可以定期執行。
+使用 **讀取段** 活動，使段中的所有個人進入行程。 進入歷程可以執行一次，也可以定期執行。
 
 讓我們舉一個在中建立的「Luma應用程式開啟和簽出」段的示例 [生成段](../segment/about-segments.md) 用例。 通過「讀取段」活動，您可以讓屬於此段的所有個人進入行程，並讓他們進入個性化的行程，從而利用所有行程功能：條件，計時器，事件，動作。
 
@@ -105,7 +105,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->一次性讀取段行程在行程執行30天後移至「已完成」狀態。 對於計畫的讀取段，它是在上次執行該事件後30天。
+>一次性讀取段行程在行程執行30天後移至「已完成」狀態。 對於已排程的讀取區段，是在上次執行該事件後的 30 天。 
 
 ### 測試並發佈歷程 {#testing-publishing}
 

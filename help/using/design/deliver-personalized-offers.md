@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '570'
+ht-degree: 1%
 
 ---
 
 # 新增個人化優惠方案 {#deliver-personalized-offers}
 
-在 [!DNL Journey Optimizer] 電子郵件，您可以插入利用「優惠決定引擎」的決策，以便選擇向客戶提供的最佳優惠。
+在 [!DNL Journey Optimizer] 電子郵件中，您可以插入利用「優惠決定引擎」的決策，以便選擇向客戶交付的最佳優惠。
 
 例如，您可以添加一個將在電子郵件中顯示特殊折扣優惠的決定，該折扣優惠會因收件人的忠誠度而有所不同。
 
@@ -59,11 +59,11 @@ ht-degree: 0%
 
 現在，將提供活動添加到元件中。
 
-保存更改後，一旦發佈消息，您的優惠就可以在將消息作為行程的一部分發送時顯示在相關配置檔案中。
+保存更改後，您的優惠隨時可以顯示到相關配置檔案中，以作為行程的一部分發送消息。
 
 >[!NOTE]
 >
->當您更新在已發佈消息中直接或間接引用的聘用、回退聘用、聘用集合或聘用決定時，更新將自動反映在相應消息中，而無需重新發佈。
+>當您更新消息中直接或間接引用的聘用、回退聘用、聘用集合或聘用決定時，更新將自動反映在相應消息中。
 
 ## 通過電子郵件預覽優惠 {#preview-offers-in-email}
 

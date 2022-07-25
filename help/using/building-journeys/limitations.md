@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,6 @@ ht-degree: 0%
 * 在出現錯誤時系統地執行三次重試。 無法根據收到的錯誤消息調整重試次數。 
 * 內置 **反應** 事件允許您對現成操作做出反應(請參閱 [頁](../building-journeys/reaction-events.md))。 如果要對通過自定義操作發送的消息做出反應，則需要配置專用事件。 
 * 不能並行放置兩個操作，必須依次添加它們。
-
-## 消息操作限制
-
-* 添加多通道消息時，將發送兩條消息。
 
 ## 行程版本限制 {#journey-versions-limitations}
 

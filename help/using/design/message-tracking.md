@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 5%
+source-wordcount: '586'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 ## 啟用跟蹤 {#enable-tracking}
 
-您可以通過檢查 **[!UICONTROL Open Tracking for email]** 和/或 **[!UICONTROL Click Tracking for email]** 選項 [建立留言](../messages/get-started-content.md)。
+您可以通過檢查 **[!UICONTROL Email opens]** 和/或 **[!UICONTROL Click on email]** 選項 [建立留言](../messages/get-started-content.md)。
 
 ![](assets/message-tracking.png)
 
@@ -29,8 +29,8 @@ ht-degree: 5%
 
 這將允許您通過以下方式跟蹤收件人的行為：
 
-* **[!UICONTROL Open Tracking for email]**:已開啟的郵件。
-* **[!UICONTROL Click Tracking for email]**:按一下電子郵件中的連結。
+* **[!UICONTROL Email opens]**:已開啟的郵件。
+* **[!UICONTROL Click on email]**:按一下電子郵件中的連結。
 
 ## 插入連結 {#insert-links}
 
@@ -52,13 +52,13 @@ ht-degree: 5%
 
    * **[!UICONTROL Landing page]**:插入到登錄頁的連結。 請參閱[本節](../landing-pages/get-started-lp.md)以進一步瞭解
 
-   * **[!UICONTROL One click Opt-out]**:插入連結，使用戶能夠快速取消訂閱您的通信，而無需確認退出。 瞭解詳情 [此部分](../messages/consent.md#one-click-opt-out)。
+   * **[!UICONTROL One click Opt-out]**:插入連結，使用戶能夠快速取消訂閱您的通信，而無需確認退出。 請參閱[此章節](../messages/consent.md#one-click-opt-out)深入瞭解。
 
    * **[!UICONTROL External Opt-in/Subscription]**:插入一個連結以接受來自您品牌的通信。
 
    * **[!UICONTROL External Opt-out/Unsubscription]**:插入連結以取消訂閱從您的品牌接收通信。 進一步瞭解[本章節](../messages/consent.md#opt-out-management)中的選擇退出管理。
 
-   * **[!UICONTROL Mirror page]**:插入連結以在Web瀏覽器中顯示電子郵件內容。 瞭解詳情 [此部分](#mirror-page)。
+   * **[!UICONTROL Mirror page]**:插入連結以在Web瀏覽器中顯示電子郵件內容。 請參閱[此章節](#mirror-page)深入瞭解。
 
    ![](assets/message-tracking-links.png)
 
@@ -75,7 +75,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->市場營銷類型的電子郵件必須包括 [選擇退出連結](../messages/consent.md#opt-out-management)，事務性消息不需要。 消息類別(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [消息預設值](../configuration/message-presets.md#email-type) 當 [建立消息](../messages/get-started-content.md#create-new-message)。
+>市場營銷類型的電子郵件必須包括 [選擇退出連結](../messages/consent.md#opt-out-management)，事務性消息不需要。 消息類別(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [通道表面](../configuration/message-presets.md#email-type) （即消息預設）級別和時間 [建立消息](../messages/get-started-content.md#create-new-message)。
 
 ## 連結到鏡像頁 {#mirror-page}
 
@@ -122,6 +122,4 @@ ht-degree: 5%
    * **[!UICONTROL Mirror page]**:認為此URL是鏡像頁URL。
    * **[!UICONTROL Never]**:從不激活此URL的跟蹤。 <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-已開啟的消息數和已按一下的連結數列在 [「執行」頁籤](../reports/message-monitoring.md)。
-
-有關開放和點擊的報告，請參見 [電子郵件即時報告](../reports/email-live-report.md) 在 [電子郵件全局報告](../reports/email-global-report.md)。
+有關開放和點擊的報告，請參見 [即時報告](../reports/live-report.md) 在 [全局報告](../reports/global-report.md)。
