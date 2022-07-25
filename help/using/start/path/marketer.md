@@ -3,9 +3,9 @@ title: Journey Optimizer開始營銷
 description: 作為一名旅行實踐者，學習如何與Journey Optimizer合作
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '447'
 ht-degree: 8%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 8%
 
    * 利用 **上下文資料** 來自事件、來自Adobe Experience Platform的資訊或來自第三方API服務的資料。
 
-   * 使用 **內置通道操作** 發送設計為 [!DNL Journey Optimizer] 建立 **自定義操作** 使用第三方系統發送消息。
+   * 使用 **內置通道操作** （電子郵件、簡訊、推送） [!DNL Journey Optimizer] 建立 **自定義操作** 使用第三方系統發送消息。
 
    * 使用 **旅程設計師**，構建多步使用案例：輕鬆拖放條目事件或讀取段活動、添加條件和發送個性化消息。
 
