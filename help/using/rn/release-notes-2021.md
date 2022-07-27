@@ -2,7 +2,7 @@
 title: 舊版發行說明 (2021 年)
 description: Journey Optimizer 2021 年發行說明
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '2067'
 ht-degree: 97%
@@ -91,7 +91,7 @@ ht-degree: 97%
 
 **管理**
 
-* **編輯訊息預設集**  - 您現在可以編輯訊息預設集並監視其更新狀態。 [進一步了解](../configuration/message-presets.md#edit-message-preset)
+* **編輯訊息預設集**  - 您現在可以編輯訊息預設集並監視其更新狀態。 [進一步了解](../configuration/channel-surfaces.md#edit-channel-surface)
 * **編輯 PTR 記錄**  - 您現在可以編輯 PTR 記錄並監視其更新狀態。 [進一步了解](../configuration/ptr-records.md#edit-ptr-record)
 
 **個人化**

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 9%
+source-wordcount: '1329'
+ht-degree: 8%
 
 ---
 
@@ -112,6 +112,10 @@ ht-degree: 9%
 ## 輪廓帽 {#profile_cap}
 
 使用此條件類型可設定行程路徑的最大配置檔案數。 當達到此限制後，輸入的個人資料將採用替代路徑。 這可確保您的行程永遠不會超過定義的限制。
+
+    >[！注釋]
+    >
+    >我們建議您定義高值輪廓帽。 種群達到準確上限數的精確度和可能性只會隨著上限的增加而增加。 對於小數字（例如，上限為50），數字不會始終匹配，因為在配置檔案採用備用路徑之前可能無法達到限制。
 
 您可以使用此條件類型來增加交貨量。 查看 [用例](ramp-up-deliveries-uc.md)。
 

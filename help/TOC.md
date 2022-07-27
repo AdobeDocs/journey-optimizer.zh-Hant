@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1108'
 ht-degree: 96%
 
 ---
@@ -261,7 +261,7 @@ ht-degree: 96%
    + 傳遞能力 {#deliverability}
       + [開始使用傳遞能力](using/reports/deliverability.md)
       + [關於隱藏清單](using/reports/suppression-list.md)
-+ 決定管理 {#offer-decisioniong}
++ 決定管理 {#offer-decisioning}
    + 開始使用決定管理 {#get-started-decision}
       + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
       + [使用者介面](using/offers/get-started/user-interface.md)
@@ -292,6 +292,7 @@ ht-degree: 96%
       + [建立決定](using/offers/offer-activities/create-offer-activities.md)
       + [設定決定中的優惠選擇](using/offers/offer-activities/configure-offer-selection.md)
       + [建立模擬](using/offers/offer-activities/simulation.md)
+   + [批量決策](using/offers/batch-delivery.md)
    + 建立決定管理報告 {#create-reports}
       + [開始使用決定管理事件](using/offers/reports/get-started-events.md)
       + [決定管理事件重要資訊](using/offers/reports/key-information.md)
@@ -379,8 +380,8 @@ ht-degree: 96%
             + [重試次數](using/configuration/retries.md)
             + [允許清單](using/configuration/allow-list.md)
       + [設定簡訊頻道](using/configuration/sms-configuration.md)
-      + 設定通道曲面 {#set-up-message-presets}
-         + [建立通道曲面](using/configuration/message-presets.md)
+      + 設定通道曲面 {#set-up-channels}
+         + [建立通道曲面](using/configuration/channel-surfaces.md)
          + [設定電子郵件設定](using/configuration/email-settings.md)
          + [使用密件副本電子郵件](using/configuration/bcc-email.md)
       + [管理執行地址](using/configuration/primary-email-addresses.md)

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 6%
@@ -61,7 +61,7 @@ ht-degree: 6%
 
 1. 選擇消息 **[!UICONTROL Category]**:選擇 **營銷** 用於商業消息，或 **事務性** 非商業消息（如訂單確認、密碼重置通知或傳遞資訊）。
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >如果您定義 [頻率規則](../configuration/frequency-rules.md) 對於特定的頻道和類別，在選擇該頻道和類別後，這些頻道和類別將自動應用到消息。 當前僅 **[!UICONTROL Marketing]** 類別可用於頻率規則。
 
@@ -73,7 +73,7 @@ ht-degree: 6%
 
 1. 選擇頻道 **[!UICONTROL Surface]** （即消息預設），用於發送您的消息。
 
-   曲面是由 [系統管理員](../start/path/administrator.md)。 它包含所有用於發送消息的技術參數，如報頭參數、子域、移動應用等。 [了解更多](../configuration/message-presets.md)。
+   曲面是由 [系統管理員](../start/path/administrator.md)。 它包含所有用於發送消息的技術參數，如報頭參數、子域、移動應用等。 [了解更多](../configuration/channel-surfaces.md)。
 
    >[!CAUTION]
    >
@@ -104,7 +104,7 @@ ht-degree: 6%
 
 ![](assets/show-read-only.png)
 
-高級參數顯示在消息窗格的底部。 這些參數由 [系統管理員](../start/path/administrator.md) 的 [通道表面](../configuration/message-presets.md) （即消息預設）與消息關聯。
+高級參數顯示在消息窗格的底部。 這些參數由 [系統管理員](../start/path/administrator.md) 的 [通道表面](../configuration/channel-surfaces.md) （即消息預設）與消息關聯。
 
 對於推式通知，您可以顯示以下參數：令牌、AppID、AppPlatform。
 
@@ -155,7 +155,7 @@ ht-degree: 6%
 >
 >對於電子郵件，您還可以將現有郵件轉換為模板。 [了解更多](../design/email-templates.md)。
 
-## 刪除消息
+## 刪除消息{#delete-message}
 
 要刪除消息，請使用渠道操作活動窗格頂部的資源回收筒表徵圖。
 

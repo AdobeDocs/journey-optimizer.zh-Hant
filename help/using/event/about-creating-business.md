@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1117'
 ht-degree: 10%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 10%
 * 觸發業務事件後，將延遲將段從15分鐘導出到最多1小時。
 * 在測試業務事件時，您必須傳遞事件參數和test配置檔案的標識符，該配置檔案將輸入test行程。 此外，在測試基於業務事件的行程時，您只能觸發單個配置檔案入口。 請參閱[本節](../building-journeys/testing-the-journey.md#test-business)。在test模式下，沒有可用的「代碼視圖」模式。
 * 如果新業務活動到來，當前在旅途中的個人會如何？ 它的行為方式與當新的重複發生時個體仍處於循環過程中時的行為方式相同。 他們的道路結束了。 因此，如果市場營銷人員預期商業活動頻繁，就必須注意避免長途旅行。
+* 業務事件不能與單一事件或分部資格活動一起使用。
 
 ## 多個業務事件 {#multiple-business-events}
 
@@ -106,7 +107,7 @@ ht-degree: 10%
 
 ## 定義負載欄位 {#define-the-payload-fields}
 
-有效負載定義允許您選擇系統希望從行程中的事件接收的資訊以及確定與事件關聯的人員的密鑰。 負載基於Experience CloudXDM欄位定義。 有關XDM的詳細資訊，請參閱 [Adobe Experience Platform文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}。
+有效負載定義允許您選擇系統希望從行程中的事件接收的資訊以及確定與事件關聯的人員的密鑰。 負載基於Experience CloudXDM欄位定義。 有關XDM的詳細資訊，請參閱 [Adobe Experience Platform文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 1. 從清單中選擇XDM架構，然後按一下 **[!UICONTROL Fields]** 或 **[!UICONTROL Edit]** 表徵圖
 

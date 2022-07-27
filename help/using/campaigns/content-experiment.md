@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
    ![](assets/content_experiment_1.png)
 
-1. 選擇 **[!UICONTROL Email]** 然後 **[!UICONTROL Surface]** 您想用於此交貨。 有關詳細資訊，請參閱 [通道曲面](../configuration/message-presets.md) 的子菜單。
+1. 選擇 **[!UICONTROL Email]** 然後 **[!UICONTROL Surface]** 您想用於此交貨。 有關詳細資訊，請參閱 [通道曲面](../configuration/channel-surfaces.md) 的子菜單。
 
    ![](assets/content_experiment_2.png)
 

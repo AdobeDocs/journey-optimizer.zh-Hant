@@ -6,7 +6,7 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 11%
@@ -22,7 +22,7 @@ ht-degree: 11%
 
 1. **配置消息和通道**:定義通道曲面、調整和定制消息。
 
-   * 建立通道曲面以配置傳遞消息所需的所有技術參數。 [了解更多](message-presets.md)
+   * 建立通道曲面以配置傳遞消息所需的所有技術參數。 [了解更多](channel-surfaces.md)
 
    * 確定在Adobe Experience Platform有多個地址可用時優先使用的收件人電子郵件地址。 [了解更多](primary-email-addresses.md)
 

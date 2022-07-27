@@ -6,16 +6,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1173'
 ht-degree: 2%
 
 ---
 
 # 設定電子郵件設定 {#email-settings}
 
-在通道表面（即消息預設）配置的專用部分中定義電子郵件設定。 瞭解如何在 [此部分](message-presets.md)。
+在通道表面（即消息預設）配置的專用部分中定義電子郵件設定。 瞭解如何在 [此部分](channel-surfaces.md)。
 
 ![](assets/preset-email-settings.png)
 
@@ -24,9 +24,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="定義電子郵件類別"
->abstract="選擇使用此通道曲面時將發送的電子郵件類型：需要用戶同意的促銷電子郵件的營銷，或非商業電子郵件的事務性，也可以在特定上下文中將其發送到未訂閱的配置檔案。"
+>abstract="選擇使用此曲面時將發送的消息類型：需要用戶同意的促銷消息的市場營銷，或非商業消息的事務性，這些消息也可以在特定上下文中發送到未訂閱的配置檔案。"
 
-在 **電子郵件類型** 部分，選擇將與通道曲面一起發送的消息類型： **營銷** 或 **事務性**。
+在 **電子郵件類型** 部分，選擇將與曲面一起發送的消息類型： **營銷** 或 **事務性**。
 
 * 選擇 **營銷** 用於促銷電子郵件：這些消息需要用戶同意。
 
@@ -181,20 +181,22 @@ ht-degree: 2%
 
 要配置URL跟蹤參數，可以直接在 **[!UICONTROL Name]** 和 **[!UICONTROL Value]** 的子菜單。
 
-也可以通過導航到以下對象從預定義值清單中進行選擇：
-* 行程屬性： **源ID**。 **源名稱**。 **源版本ID**
-* 操作屬性： **操作ID**。 **操作名稱**
-* Offer decisioning屬性： **服務ID**。 **優惠名稱**
+<!--You can also choose from a list of predefined values by navigating to the following objects:
+* Journey attributes: **Source id**, **Source name**, **Source version id**
+* Action attributes: **Action id**, **Action name**
+* Offer decisioning attributes: **Offer id**, **Offer name**
 
 ![](assets/preset-url-tracking-source.png)
 
 >[!CAUTION]
 >
->不選擇資料夾：確保瀏覽到必要的資料夾，並選擇一個配置檔案屬性作為跟蹤參數值。
+>Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-<!--or edit it using the Expression editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+也可以編輯每個 **[!UICONTROL Value]** 欄位 [表達式編輯器](../personalization/personalization-build-expressions.md)。 按一下「版本」表徵圖以開啟表達式編輯器。 從中，您可以選擇所選的上下文屬性和/或直接編輯文本。
 
-You can drag and drop the parameters to reorder them.-->
+![](assets/preset-url-tracking-editor.png)
+
+<!--You can drag and drop the parameters to reorder them.-->
 
 以下是與Adobe Analytics和Google Analytics相容的URL的示例。
 
@@ -204,7 +206,7 @@ You can drag and drop the parameters to reorder them.-->
 
 >[!NOTE]
 >
->可以將鍵入的文本值與選擇預定義的值合併。 每個 **[!UICONTROL Value]** 欄位總共最多可包含255個字元。
+>您可以將鍵入的文本值與使用表達式編輯器中的上下文屬性結合起來。 每個 **[!UICONTROL Value]** 欄位總共最多可包含255個字元。
 
 可動態預覽結果的跟蹤URL。 每次添加、編輯或刪除參數時，預覽都會自動更新。
 

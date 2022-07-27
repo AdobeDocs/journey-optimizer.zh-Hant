@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 3%
@@ -49,7 +49,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 消息類別(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [通道表面](../configuration/message-presets.md#email-type) （即消息預設）級別和時間 [建立消息](get-started-content.md#create-new-message)。
+   >行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 消息類別(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [通道表面](../configuration/channel-surfaces.md#email-type) （即消息預設）級別和時間 [建立消息](get-started-content.md#create-new-message)。
 
 * **[!UICONTROL Text version of HTML is empty]**:不要忘記定義電子郵件正文的文本版本，因為當無法顯示HTML內容時，將使用它。 瞭解如何在中建立文本版本 [此部分](../design/text-version-email.md)。
 
@@ -67,7 +67,7 @@ ht-degree: 3%
 
 * **[!UICONTROL The email version of the message is empty]**:未配置電子郵件內容時，將顯示此錯誤。 瞭解如何在 [此部分](../design/design-emails.md)。
 
-* **[!UICONTROL Surface doesn’t exist]**:如果在建立消息後刪除了所選曲面，則不能使用消息。 如果出現此錯誤，請在消息中選擇另一個曲面 **[!UICONTROL Properties]**。 瞭解有關中的通道曲面的詳細資訊 [此部分](../configuration/message-presets.md)。
+* **[!UICONTROL Surface doesn’t exist]**:如果在建立消息後刪除了所選曲面，則不能使用消息。 如果出現此錯誤，請在消息中選擇另一個曲面 **[!UICONTROL Properties]**。 瞭解有關中的通道曲面的詳細資訊 [此部分](../configuration/channel-surfaces.md)。
 
 * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**:推送通知大小不能超過4KB。 要尊重此限制，請嘗試減少使用影像或表情符號。 瞭解如何在中管理推送通知內容 [此部分](create-push.md)。
 

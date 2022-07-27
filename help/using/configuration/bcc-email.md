@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 ## 啟用密件抄送電子郵件 {#enable-bcc}
 
-啟用 **[!UICONTROL BCC email]** 選項，在 [通道表面](message-presets.md) （即消息預設）。 您可以以正確的格式指定任何外部地址，但子域上已定義的電子郵件地址除外，該子域已委派給Adobe。 例如，如果您委託 *營銷.luma.com* 子域到Adobe，任何類似 *abc@marketing.luma.com* 禁止。
+啟用 **[!UICONTROL BCC email]** 選項，在 [通道表面](channel-surfaces.md) （即消息預設）。 您可以以正確的格式指定任何外部地址，但子域上已定義的電子郵件地址除外，該子域已委派給Adobe。 例如，如果您委託 *營銷.luma.com* 子域到Adobe，任何類似 *abc@marketing.luma.com* 禁止。
 
 >[!NOTE]
 >

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 7%
@@ -75,7 +75,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->市場營銷類型的電子郵件必須包括 [選擇退出連結](../messages/consent.md#opt-out-management)，事務性消息不需要。 消息類別(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [通道表面](../configuration/message-presets.md#email-type) （即消息預設）級別和時間 [建立消息](../messages/get-started-content.md#create-new-message)。
+>市場營銷類型的電子郵件必須包括 [選擇退出連結](../messages/consent.md#opt-out-management)，事務性消息不需要。 消息類別(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [通道表面](../configuration/channel-surfaces.md#email-type) （即消息預設）級別和時間 [建立消息](../messages/get-started-content.md#create-new-message)。
 
 ## 連結到鏡像頁 {#mirror-page}
 

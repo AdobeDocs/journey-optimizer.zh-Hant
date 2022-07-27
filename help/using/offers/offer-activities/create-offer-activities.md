@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1036'
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 1. 使用 **[!UICONTROL Eligibility]** 欄位，以限制此位置的聘用選擇。
 
-   此約束可通過使用 **決策規則**&#x200B;或 **Adobe Experience Platform段**。 詳情見 [此部分](#segments-vs-decision-rules)。
+   此約束可通過使用 **決策規則**&#x200B;或 **Adobe Experience Platform段**。 詳情見 [此部分](../offer-library/add-constraints.md#segments-vs-decision-rules)。
 
    * 要將聘用的選擇限制為Experience Platform段的成員，請選擇 **[!UICONTROL Segments]**，然後按一下 **[!UICONTROL Add segments]**。
 
@@ -87,6 +87,10 @@ ht-degree: 2%
       ![](../assets/activity_constraint_rule.png)
 
       瞭解如何在中建立決策規則 [此部分](../offer-library/creating-decision-rules.md)。
+
+      >[!NOTE]
+      >
+      >選擇段或決策規則時，將顯示有關估計的限定配置檔案的資訊。 按一下 **[!UICONTROL Refresh]** 更新資料。
 
 1. 定義要用於為每個配置檔案選擇最佳優惠的排名方法。
 
@@ -117,26 +121,6 @@ ht-degree: 2%
 1. 要在此決定中為您的優惠添加其他位置，請使用 **[!UICONTROL New scope]** 按鈕 對每個決策範圍重複上述步驟。
 
    ![](../assets/activity_new-scope.png)
-
-### 使用段與決策規則 {#segments-vs-decision-rules}
-
-<!--to move to create-offers?-->
-
-要應用約束，可以將聘用的選擇限制為一個或多個成員 **Adobe Experience Platform段**，或者 **決策規則**，兩個解決方案對應於不同的用途。
-
-基本上，段的輸出是簡檔清單，而決策規則是在決策過程中根據需要針對單個簡檔執行的函式。 下面詳細說明了這兩種用途的區別。
-
-* **區段**
-
-   一方面，段是一組基於配置檔案屬性和經驗事件的Adobe Experience Platform配置檔案，它們與特定邏輯匹配。 然而，要約管理不會重新計算該段，該段在提出要約時可能不是最新的。
-
-   瞭解有關 [此部分](../../segment/about-segments.md)。
-
-* **決定規則**
-
-   另一方面，決策規則基於Adobe Experience Platform的可用資料，並確定可向誰顯示報價。 一旦在某個要約或某個給定位置的決定中選擇了該規則，則每次作出決定時都會執行該規則，這可確保每個配置檔案都獲得最新和最佳的要約。
-
-   瞭解有關中的決策規則的詳細資訊 [此部分](../offer-library/creating-decision-rules.md)。
 
 ## 添加回退優惠 {#add-fallback}
 

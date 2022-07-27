@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 9%
@@ -57,7 +57,7 @@ ht-degree: 9%
 
 ![](assets/title-body-push.png)
 
-* 要開啟應用，請選擇 **[!UICONTROL Open app]** 的雙曲餘切值。 與通知關聯的應用在 [通道表面](../configuration/message-presets.md) （即消息預設）。
+* 要開啟應用，請選擇 **[!UICONTROL Open app]** 的雙曲餘切值。 與通知關聯的應用在 [通道表面](../configuration/channel-surfaces.md) （即消息預設）。
 * 要將用戶重定向到應用程式內的特定內容，請選擇 **[!UICONTROL Deeplink]** 的雙曲餘切值。  特定內容可以是特定視圖、頁面的特定部分或特定頁籤。 選中該選項後，在關聯欄位中輸入deplink。
 * 要將用戶重定向到外部URL，請使用 **[!UICONTROL Web URL]** 的雙曲餘切值。 選中該選項後，在關聯欄位中輸入URL。
 

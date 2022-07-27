@@ -5,7 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -36,8 +37,7 @@ Adobe Journey Optimizer的「發送時間優化」功能由Adobe的AI服務提�
 
 >[!CAUTION]
 >
->* 此功能與拆分模式不相容。
-
+>此功能與拆分模式不相容。
 
 ### 激活發送時間優化{#activate-send-time-optimization}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 6%
+source-wordcount: '1140'
+ht-degree: 5%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 6%
 
    ![](assets/read-segment-schedule-list.png)
 
-   的 **增量讀取** 選項允許您僅針對自上次執行行程後進入段的個人。 第一次執行始終將目標設定在所有區段成員。此選項僅可用於循環 **讀取段** 活動。
+   **增量讀取** 選項：一次性的旅行 **讀取段** 首次執行時，段中的所有配置檔案都會進入行程。 在下次出現時，所有配置檔案都再次進入行程，即使它們已經在內部。 行程中配置檔案的舊實例將停止，並建立新實例。 的 **增量讀取** 選項允許您在第一次出現後瞄準自上次執行行程後進入段的個人。
 
 <!--
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 3%
+source-wordcount: '1600'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
->title="優先順序"
+>title="設定優先順序"
 >abstract="如果用戶有資格獲得多個優惠，則優先順序有助於定義優惠與其他優惠相比的優先順序。 優先順序越高，優先順序就越高。"
 
 約束允許您定義顯示要約的條件。
@@ -40,6 +40,10 @@ ht-degree: 3%
 1. 配置 **[!UICONTROL Offer eligibility]**。 [了解更多](#eligibility)
 
    ![](../assets/offer-eligibility.png)
+
+   >[!NOTE]
+   >
+   >選擇段或決策規則時，將顯示有關估計的限定配置檔案的資訊。 按一下 **[!UICONTROL Refresh]** 更新資料。
 
 1. 定義 **[!UICONTROL Priority]** 如果用戶有資格獲得多個優惠，則與其他優惠相比。 優先順序越高，優先順序就越高。
 
@@ -63,8 +67,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
->title="資格"
->abstract="聘用資格允許您將聘用限制為使用段或決策規則定義的特定配置檔案。"
+>title="定義資格"
+>abstract="預設情況下，任何配置檔案都有資格向您提供優惠，但您可以使用段或決策規則將優惠限制到特定配置檔案。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -114,7 +118,7 @@ ht-degree: 3%
 
    瞭解有關中的決策規則的詳細資訊 [此部分](creating-decision-rules.md)。
 
-## 頻率封蓋 {#capping}
+## 封頂 {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
@@ -123,8 +127,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="封頂"
->abstract="封閉設定用作約束來定義提供的最大次數。"
+>title="使用封蓋"
+>abstract="為避免過度吸引客戶，請使用上限設定來定義提供服務的最大次數。"
 
 封閉設定用作約束來定義提供的最大次數。
 
@@ -178,8 +182,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="更改日期可能會影響上限設定"
->abstract="如果對此優惠應用了上限設定，則更改起始日期或終止日期時可能會影響該限制。"
+>title="更改日期會影響封頂"
+>abstract="如果對此優惠應用了上限設定，則更改起始日期或終止日期時可能會影響它。"
 
 更改要約日期時，必須小心行事，因為如果滿足以下條件，這可能會對封頂產生影響：
 
@@ -191,7 +195,7 @@ ht-degree: 3%
 >
 >瞭解如何在中定義優惠日期 [此部分](creating-personalized-offers.md#create-offer)。
 
-每個配置檔案的頻率封蓋儲存每個配置檔案的封蓋計數。 更改批准的優惠的開始和結束日期時，某些配置檔案的上限設定計數可能會根據下面介紹的不同方案受到影響。
+每個配置檔案的封頂儲存每個配置檔案的封頂計數。 更改批准的優惠的開始和結束日期時，某些配置檔案的上限設定計數可能會根據下面介紹的不同方案受到影響。
 
 ![](../assets/offer-capping-change-date.png)
 

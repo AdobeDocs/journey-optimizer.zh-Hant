@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 9aa8b8c33eae6fd595643c5fefb4b4ea46ae7b73
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '751'
 ht-degree: 3%
 
 ---
@@ -32,19 +32,20 @@ ht-degree: 3%
 
 <!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en) to learn more about exporting segments.) -->
 
+>[!NOTE]
+>
+>批量判定也可使用Journey Optimizer介面執行。 有關詳細資訊，請參閱 [此部分](../../batch-delivery.md)，它提供有關使用批決策時要考慮的全局先決條件和限制的資訊。
+
+* **每個資料集正在運行的批處理作業數**:每個資料集一次最多可運行五個批處理作業。 具有相同輸出資料集的任何其他批處理請求都會添加到隊列。 已排隊的作業在前一作業完成運行後被拾取處理。
+* **頻率封蓋**:批處理將運行每天發生一次的配置檔案快照。 的 [!DNL Batch Decisioning] API會限制頻率，並始終從最近的快照載入配置檔案。
+
 ## 快速入門 {#getting-started}
 
 使用此API之前，請確保完成以下必備步驟。
 
 ### 準備決定 {#prepare-decision}
 
-按照以下步驟準備一個或多個決策：
-
-* 為了導出決策結果，請使用「ODE DecisionEvents」架構建立資料集。
-
-* 建立一個平台段，該段應進行評估並更新。 請參閱 [分段文檔](http://www.adobe.com/go/segmentation-overview-en) 瞭解有關如何更新段成員資格評估的詳細資訊。
-
-* 在Adobe Journey Optimizer建立決策（其決策範圍由決策ID和放置ID組成）。 請參閱 [定義決策範圍一節](../../offer-activities/create-offer-activities.md) 以瞭解更多資訊。
+要準備一個或多個決策，請確保已建立資料集、段和決策。 這些先決條件詳見 [此部分](../../batch-delivery.md)。
 
 ### API要求 {#api-requirements}
 
@@ -58,6 +59,10 @@ ht-degree: 3%
 ## 啟動批處理 {#start-a-batch-process}
 
 要啟動工作量以批處理決策，請向 `/workloads/decisions` 端點。
+
+>[!NOTE]
+>
+>有關批處理作業處理時間的詳細資訊，請參閱 [此部分](../../batch-delivery.md)。
 
 **API格式**
 
@@ -178,33 +183,6 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 | `ode:createDate` | 建立決策工作量請求的時間。 | `1648076994405` |
 | `ode:status` | 工作負荷的狀態以「QUEUED」開頭，並更改為「PROCESSING」、「INGESTING」、「COMPLETED」或「ERROR」。 | `ode:status: "COMPLETED"` |
 | `ode:statusDetail` | 如果狀態為「PROCESSING」或「INGESTING」，則顯示sparkJobId和batchID等詳細資訊。 如果狀態為「ERROR（錯誤）」，則顯示錯誤詳細資訊。 |  |
-
-## 服務級別 {#service-levels}
-
-每個批處理決策的端到端時間是從建立工作量到在輸出資料集中提供決策結果的持續時間。 POST請求負載中的段大小是影響端到端批處理決策時間的主要因素。 如果合格的優惠啟用了全局頻率上限，則完成批量確定需要額外時間。 下面是針對其各自段大小的端到端處理時間的一些近似值，其中包括對合格報價進行頻率封頂和不進行頻率封頂：
-
-啟用頻率上限後，可提供以下服務：
-
-| 段大小 | 端到端處理時間 |
-|--------------|----------------------------|
-| 一萬個配置檔案或更少 | 7 分鐘 |
-| 100萬個配置檔案或更少 | 30 分鐘 |
-| 1500萬個配置檔案或更少 | 50 分鐘 |
-
-沒有合格報價的頻率上限：
-
-| 段大小 | 端到端處理時間 |
-|--------------|----------------------------|
-| 一萬個配置檔案或更少 | 6 分鐘 |
-| 100萬個配置檔案或更少 | 8 分鐘 |
-| 1500萬個配置檔案或更少 | 16 分鐘 |
-
-## 限制 {#limitations}
-
-使用 [!DNL Batch Decisioning] API，請牢記以下限制：
-
-* **每個資料集正在運行的批處理作業數**:每個資料集一次最多可運行五個批處理作業。 具有相同輸出資料集的任何其他批處理請求都會添加到隊列。 已排隊的作業在前一作業完成運行後被拾取處理。
-* **頻率封蓋**:批處理將運行每天發生一次的配置檔案快照。 的 [!DNL Batch Decisioning] API會限制頻率，並始終從最近的快照載入配置檔案。
 
 ## 後續步驟 {#next-steps}
 

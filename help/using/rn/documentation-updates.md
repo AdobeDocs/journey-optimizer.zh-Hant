@@ -2,10 +2,10 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 98%
+source-wordcount: '1731'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,13 @@ ht-degree: 98%
 
 ## 2022 年 7 月 {#july-2022}
 
-* 澄清&#x200B;**建立訊息預設集**&#x200B;部分，並已透過連結指向如何設定 SMS 頻道的說明頁面加以更新。 [閱讀全文](../configuration/message-presets.md#create-message-preset)
+* 隨附的所有新功能和改進 [!DNL Journey Optimizer] 文檔中詳細列出了7月22日的發行。 [閱讀全文](release-notes.md)
+* 的 **設定通道曲面** 部分已被澄清，並已使用指向描述如何配置SMS通道的頁面的連結進行更新。 [閱讀全文](../configuration/channel-surfaces.md#create-channel-surface)
+* 在旅程中， **配置檔案時區** 選項現在預設為禁用。 [閱讀全文](../building-journeys/timezone-management.md#timezone-from-profiles)
+* 在 **等待** 活動， **固定日期** 選項。 [閱讀全文](../building-journeys/wait-activity.md)
+* 已添加有關 **增量讀取** 的上界 **讀取段** 的子菜單。 [閱讀全文](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 關於 **輪廓帽** 條件類型。 [閱讀全文](../building-journeys/condition-activity.md#profile_cap)
+* 增加了對業務事件的限制。 [閱讀全文](../start/guardrails.md#events-g)
 
 ## 2022 年 6 月 {#june-2022}
 
@@ -42,7 +48,7 @@ ht-degree: 98%
 * 已更新登陸頁面和訂閱報告的螢幕擷取畫面。 [閱讀全文](../reports/live-report.md)
 * 已加入備註，說明自訂動作不支援 DELETE 方法。 [閱讀全文](../action/about-custom-action-configuration.md)
 * 已更新說明影片的連結。
-* 已重新組織[電子郵件設定](../configuration/about-subdomain-delegation.md)、[訊息預設集](../configuration/message-presets.md)和[設定登陸頁面](../configuration/lp-subdomains.md)的部分，以提高可讀性。
+* 已重新組織[電子郵件設定](../configuration/about-subdomain-delegation.md)、[訊息預設集](../configuration/channel-surfaces.md)和[設定登陸頁面](../configuration/lp-subdomains.md)的部分，以提高可讀性。
 * URL 追蹤部分已經過範例更新和改善。 [閱讀全文](../configuration/email-settings.md#url-tracking)
 * 已新增有關設定轉寄電子郵件地址的新子區段。 請注意，您不能透過使用者介面進行此操作。 [閱讀全文](../configuration/email-settings.md#forward-email)
 
@@ -53,8 +59,8 @@ ht-degree: 98%
 * 用於決策管理功能的影片已更新，以反映 Journey Optimizer 使用者介面。 [閱讀全文](../offers/get-started/starting-offer-decisioning.md)
 * **開始使用資料集**&#x200B;章節已改善以詳細說明如何存取和建立資料集。 [閱讀全文](../start/get-started-datasets.md)
 * 說明手冊和產品發行說明的連結已新增到 **Adobe Journey Optimizer 文件**&#x200B;的首頁。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=zh-Hant)
-* **建立新增訊息預設集**&#x200B;章節現在詳細說明，在選取的 IP 池在編輯中 (**[!UICONTROL Processing]** 狀態) 且從未關聯所選子網域的情況下，您無法繼續建立預設集。 [閱讀全文](../configuration/message-presets.md#subdomains-and-ip-pools)
-* 訊息預設集 **URL 追蹤**&#x200B;章節已更新，以反映使用者介面中的微幅變更。 [閱讀全文](../configuration/message-presets.md#url-tracking)
+* **建立新增訊息預設集**&#x200B;章節現在詳細說明，在選取的 IP 池在編輯中 (**[!UICONTROL Processing]** 狀態) 且從未關聯所選子網域的情況下，您無法繼續建立預設集。 [閱讀全文](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
+* 訊息預設集 **URL 追蹤**&#x200B;章節已更新，以反映使用者介面中的微幅變更。 [閱讀全文](../configuration/channel-surfaces.md#url-tracking)
 
 ## 2022 年 3 月 {#march-2022}
 
@@ -78,7 +84,7 @@ ht-degree: 98%
 * **Offer decisioning AI 排名**&#x200B;區段已更新，針對自動最佳化模型提供更詳細的說明。[閱讀全文](../offers/ranking/auto-optimization-model.md)
 * 加入關於方案要求的新部分，以便在使用排名策略時能夠在事件類型中傳送。 [閱讀全文](../offers/ranking/schema-requirement.md)
 * 有關 [!DNL Journey Optimizer] 個人化功能的章節已重新整理，以便更容易閱讀。 [閱讀全文](../personalization/personalize.md)
-* 為了提高清晰度，**建立訊息預設集**&#x200B;部分改為若干部分。 [閱讀全文](../configuration/message-presets.md#create-message-preset)
+* 為了提高清晰度，**建立訊息預設集**&#x200B;部分改為若干部分。 [閱讀全文](../configuration/channel-surfaces.md#create-channel-surface)
 * **選擇退出管理**&#x200B;區段變得清晰，並稍作重組。 [閱讀全文](../messages/consent.md#opt-out-management)
 *  更新&#x200B;**插入連結**&#x200B;區段來反映近期的使用者介面變更。 [閱讀全文](../design/message-tracking.md#insert-links)
 
@@ -93,14 +99,13 @@ ht-degree: 98%
 * 所有新功能和改進項目 [!DNL Journey Optimizer] 均包含在 2021年 10 月發行版本，並在本文件詳細說明。 [閱讀全文](release-notes.md)
 * 已新增&#x200B;**日期時間函式**&#x200B;清單。 [閱讀全文](../personalization/functions/dates.md)
 * 新增&#x200B;**每個使用者角色的快速入門區段**。採取自己的路徑，更快達到目標！ [閱讀全文](../start/quick-start.md)
-* 新增&#x200B;**編輯訊息預設集**&#x200B;區段。 [閱讀全文](../configuration/message-presets.md#edit-message-preset)
+* 新增&#x200B;**編輯訊息預設集**&#x200B;區段。 [閱讀全文](../configuration/channel-surfaces.md#edit-channel-surface)
 * 新增&#x200B;**編輯 PTR 記錄**&#x200B;區段。 [閱讀全文](../configuration/ptr-records.md#edit-ptr-record)
-* 新增&#x200B;**停用訊息預設集**&#x200B;區段。 [閱讀全文](../configuration/message-presets.md#edit-message-preset#deactivate-preset)
+* 新增&#x200B;**停用訊息預設集**&#x200B;區段。 [閱讀全文](../configuration/channel-surfaces.md#edit-channel-surface#deactivate-a-surface)
 * 在&#x200B;**決定管理 API 開發人員指南**&#x200B;新增限制，用於行動[!DNL Experience Edge]工作流程不支援的優惠限制。[閱讀全文](../offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * 新增&#x200B;**建立模擬**&#x200B;區段。 [閱讀全文](../offers/offer-activities/simulation.md)
 * 更新&#x200B;**新增決定範圍**&#x200B;區段。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 * 更新&#x200B;**定義表示的內容**&#x200B;區段，包括有關如何定義及個人化自訂文字的新增[子區段](../offers/offer-library/creating-personalized-offers.md#custom-text)。[閱讀全文](../offers/offer-library/creating-personalized-offers.md#content)
-
 
 ## 2021 年 9 月 {#september-2021}
 
@@ -142,7 +147,7 @@ ht-degree: 98%
 * 在「隱藏」清單、「允許」清單和「電子郵件全域/即時」報告區段中新增附註，以指定從「電子郵件報告傳送」指標中排除狀態為「隱藏」和「不允許」設定檔。 [閱讀全文](../reports/global-report.md)
 * 新增區段，針對未列在允許清單病從傳送中排除的電子郵件地址或網域，說明如何加以擷取。 [閱讀全文](../configuration/allow-list.md#reporting)
 * 更新「啟用允許清單」區段。 [進一步了解](../configuration/allow-list.md#enable-allow-list)
-* 更新「監視」訊息預設集區段，其中包含預設集建立失敗的可能原因，以及這類錯誤的詳細資訊。 [閱讀全文](../configuration/message-presets.md#monitor-message-presets)
+* 更新「監視」訊息預設集區段，其中包含預設集建立失敗的可能原因，以及這類錯誤的詳細資訊。 [閱讀全文](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * 更新並重新命名「重試時段」區段，凸顯您現在可以在訊息預設集中調整電子郵件重試設定。 [閱讀全文](../configuration/retries.md#retry-duration)
 * 新增區段，說明如何在電子郵件內容中插入一鍵選擇退出的連結。 [閱讀全文](../messages/consent.md#one-click-opt-out-link)
 * 更新委派子網域區段，針對 Adobe 執行的驗證流程提供詳細資訊。 [閱讀全文](../configuration/delegate-subdomain.md#subdomain-validation)

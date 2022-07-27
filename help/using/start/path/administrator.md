@@ -3,7 +3,7 @@ title: Journey Optimizer系統管理入門
 description: 作為系統管理員，瞭解如何與Journey Optimizer合作
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 3%
@@ -48,7 +48,7 @@ ht-degree: 3%
 
    * 定義 **推送通知設定** 同時 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]。 [了解更多](../../configuration/push-gs.md)
 
-   * 建立 **通道曲面** （即消息預設），以配置電子郵件、簡訊和推送通知所需的所有技術參數。 [了解更多](../../configuration/message-presets.md)
+   * 建立 **通道曲面** （即消息預設），以配置電子郵件、簡訊和推送通知所需的所有技術參數。 [了解更多](../../configuration/channel-surfaces.md)
 
    * 配置 **簡訊頻道** 配置SMS所需的所有技術參數。 [了解更多](../../configuration/sms-configuration.md)
 

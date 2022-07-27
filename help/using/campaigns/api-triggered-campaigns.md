@@ -4,9 +4,9 @@ description: 瞭解如何使用 [!DNL Journey Optimizer] API
 hide: true
 hidefromtoc: true
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '696'
 ht-degree: 3%
 
 ---
@@ -15,15 +15,16 @@ ht-degree: 3%
 
 ## 關於API觸發的市場活動 {#about}
 
+>[!NOTE]
+>
+>互動式消息執行API當前處於測試版中，它可能需要頻繁更新，恕不另行通知。
+
+
 與 [!DNL Journey Optimizer]，您可以建立市場活動，然後使用用戶觸發器從外部系統調用它們 [互動式消息執行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution)。 這允許您滿足各種操作和事務性消息傳遞需求，如密碼重置、OTP令牌等。
 
 為此，您首先需要在Journey Optimizer建立API觸發的市場活動，然後通過API調用啟動其執行。
 
 API觸發的市場活動的可用渠道是電子郵件、簡訊和推送消息。
-
->[!NOTE]
->
->互動式消息執行API當前處於測試版中，它可能需要頻繁更新，恕不另行通知。
 
 ## 建立API觸發的市場活動 {#create}
 
@@ -86,9 +87,11 @@ API觸發的市場活動的可用渠道是電子郵件、簡訊和推送消息�
 
 然後，您可以將此ID用於API負載以觸發市場活動。 請參閱 [互動式消息執行API文檔](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) 的子菜單。
 
+請注意，如果在建立市場活動時配置了特定的起始日期和/或終止日期，則不會在這些日期之外執行該日期，API調用將失敗。
+
 >[!NOTE]
 >
->如果在建立市場活動時配置了特定的起始日期和/或終止日期，則在這些日期之外將不執行該日期，API調用將失敗。
+>在某些情況下，您可能需要向系統中不存在的配置檔案發送事務性消息。 例如，如果未知用戶嘗試登錄您的網站。 在這種情況下，相應的配置檔案會自動建立到Adobe Experience Platform, **AJO交互消息配置檔案資料集** 資料集。
 
 ## 其他資源
 

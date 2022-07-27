@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '744'
 ht-degree: 4%
 
 ---
@@ -67,6 +67,7 @@ ht-degree: 4%
 ### 活動 {#events-g}
 
 * 對於系統生成的事件，必須先在Journey Optimizer內配置用於啟動客戶行程的流資料，才能獲取唯一的業務流程ID。 此業務流程ID必須附加到流負載中進入Adobe Experience Platform。 此限制不適用於基於規則的事件。
+* 業務事件不能與單一事件或分部資格活動一起使用。
 
 ### 資料源 {#data-sources-g}
 

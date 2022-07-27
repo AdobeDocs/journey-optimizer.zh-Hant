@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->的 [更新處理](#processing) 可能需要幾個小時。
+>的 [更新處理](#processing) 最多需要3小時。
 
 要檢查PTR記錄更新詳細資訊，請按一下其旁邊的表徵圖。 瞭解有關與中的不同表徵圖關聯的狀態的詳細資訊 [此部分](#ptr-record-update-statuses)。
 
@@ -119,7 +119,7 @@ PTR記錄更新可以具有以下狀態：
 
 ### 正在處理 {#processing}
 
-將執行若干可傳送性檢查，以驗證要與IP地址關聯的新子域是否有效。 這可能需要幾個小時。
+將執行若干可傳送性檢查，以驗證要與IP地址關聯的新子域是否有效。 這最多需要3小時。
 
 >[!NOTE]
 >

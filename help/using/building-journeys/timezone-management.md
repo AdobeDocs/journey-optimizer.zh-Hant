@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '280'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,10 @@ ht-degree: 2%
 * [時間條件](../building-journeys/condition-activity.md#time_condition)
 * [日期條件](../building-journeys/condition-activity.md#date_condition)
 * [自定義等待](../building-journeys/wait-activity.md#custom)
-* [固定日期等待](../building-journeys/wait-activity.md#fixed_date)
+
+<!--
+* [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
+-->
 
 您可以選擇一個時區，或選擇使用用戶配置檔案中定義的時區。
 
@@ -42,13 +45,9 @@ ht-degree: 2%
 
 ## 使用配置檔案定義行程時區 {#timezone-from-profiles}
 
-如果旅程的入門事件具有命名空間，即旅程可以到達Adobe Experience Platform的即時客戶概要檔案服務，則時區是預先定義的，該時區在旅程中流動的個人概要檔案中指定。
+如果旅程的入門事件具有命名空間，即此旅程可以到達Adobe Experience Platform的即時客戶概要檔案服務，則您可能希望使用在概要檔案級別定義的時區。 為此，請在 **屬性**&#x200B;選中 **在等待和條件中使用配置檔案時區**。 預設情況下不選中此選項。
 
-如果在Adobe Experience Platform配置檔案中定義了時區，則可以在行程中檢索該時區。
-
-如果個人的配置檔案不包含時區，則檢索到的時區將是時區欄位中定義的時區。
-
-為此，請在 **[!UICONTROL Properties]**&#x200B;選中 **[!UICONTROL Use Profile timezone in waits and conditions]**。
+如果已為配置檔案定義了時區，則該時區將被行程檢索並使用。 如果沒有，則使用的時區將是時區欄位中定義的時區。
 
 ![](assets/journey73.png)
 
