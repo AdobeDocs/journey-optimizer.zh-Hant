@@ -2,10 +2,10 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 28%
+source-wordcount: '569'
+ht-degree: 26%
 
 ---
 
@@ -73,25 +73,23 @@ ht-degree: 28%
 </tbody>
 </table>
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Automatically use the best performing offer in your decisions (limited availability)</strong><br/></th>
+<th><strong>在您的決策中自動使用效能最佳的產品（有限的可用性）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
-<p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
+<p>現在，您可以在決策管理中使用個性化優化模型系統。 此新型機型允許您根據細分市場優化和個性化產品並提供效能。</p>
+<p>個性化優化AI模型的使用目前僅限於選定用戶，並將在未來版本中部署到所有環境。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>For more information, refer to the detailed documentation.</p>
+<p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 ### 改進項目
 

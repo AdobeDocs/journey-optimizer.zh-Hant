@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '310'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,15 @@ ht-degree: 3%
 
 ## AI模型類型 {#ai-model-types}
 
-目前， [!DNL Journey Optimizer]**提供一種AI模型， **自動優化**&#x200B;根據過去的產品效能優化產品。 有關此類AI模型的詳細資訊，請參閱 [此部分](auto-optimization-model.md)。
+有兩種類型的AI模型可在 [!DNL Journey Optimizer]:
+
+* **自動優化模型** 旨在為業務客戶設定之回報最大化(KPI)之服務。 該等主要表現指標可以以兌換率、收入等形式呈列。 此時，自動優化將重點放在優化服務點擊量，同時將服務轉換作為我們的目標。 自動優化是非個性化的，並且基於產品的「全局」效能進行優化。 [了解更多](auto-optimization-model.md)
+
+* **個性化模型** 允許您定義業務目標並利用客戶資料來培訓面向業務的模型，以便提供個性化的服務並最大化KPI。 [了解更多](personalized-optimization-model.md)
+
+>[!CAUTION]
+>
+>目前，只有選擇用戶才可以提前訪問個性化優化模型。
 
 ## 建立AI模型 {#create-ai-model}
 

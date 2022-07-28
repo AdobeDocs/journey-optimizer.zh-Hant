@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 96%
+source-wordcount: '1114'
+ht-degree: 95%
 
 ---
 
@@ -276,7 +276,9 @@ ht-degree: 96%
       + [排名公式](using/offers/ranking/create-ranking-formulas.md)
       + AI 模型 {#ai-models}
          + [關於 AI 模型](using/offers/ranking/ai-models.md)
-         + [自動最佳化模型](using/offers/ranking/auto-optimization-model.md)
+         + AI模型類型 {#ai-model-types}
+            + [自動最佳化模型](using/offers/ranking/auto-optimization-model.md)
+            + [個性化優化模型](using/offers/ranking/personalized-optimization-model.md)
          + 建立 AI 模型 {#configure-ai-model}
             + [建立資料集以收集事件](using/offers/ranking/create-dataset.md)
             + [建立 AI 模型](using/offers/ranking/create-ranking-strategies.md)
