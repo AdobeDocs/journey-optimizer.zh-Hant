@@ -2,9 +2,9 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
+source-git-commit: 16bda5dcdfdc65f236d814ec02c6222b98a5652f
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '634'
 ht-degree: 24%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 24%
 
 **歷程**
 
-* **結束旅程**  — 在旅程畫布中， **結束** 活動已從調色板中刪除。 現在，每個路徑的末尾預設添加結束標籤，無法刪除。 這種改進可以更好地報告客戶從旅途中掉出的位置，而無需用戶採取任何操作。 [了解更多](../building-journeys/journey-end.md)
+* **結束旅程**  — 在旅程畫布中， **結束** 活動已從調色板中刪除。 現在，每個路徑的末尾預設添加結束標籤，無法刪除。 這種改進能夠更好地報告客戶從行程中退出的位置，而無需從行程從業者處採取任何操作。 請參閱 [文檔](../building-journeys/journey-end.md) 和 [特徵視頻](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}。
 
 **訊息**
 
