@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: 7f6bbcb40dd07ae4d8013653f89b03c80df961dc
+source-git-commit: d740b9efdba164f548fb07d6d9a96fc2c2796eff
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 1%
@@ -53,7 +53,7 @@ ht-degree: 1%
 
 ### 行程結束標籤{#end-tag}
 
-在編寫行程時，每個路徑的末尾顯示一個「結束taf」。 此節點不能由用戶添加，無法刪除，只能更改其標籤。 它標誌著旅程的每條路的結束。 如果行程中有多條路徑，建議您在每一端添加一個標籤，以便更容易閱讀報告。 請參閱[此頁面](../reports/live-report.md)。
+在編寫行程時，每個路徑的末尾顯示「結束標籤」。 此節點不能由用戶添加，無法刪除，只能更改其標籤。 它標誌著旅程的每條路的結束。 如果行程中有多條路徑，建議您在每一端添加一個標籤，以便更容易閱讀報告。 請參閱[此頁面](../reports/live-report.md)。
 
 ![](assets/journey-end.png)
 
