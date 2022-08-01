@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: ad3ac3bb34b8ca7a5bf490a7156f88849b77f438
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '765'
 ht-degree: 1%
 
 ---
@@ -51,21 +51,21 @@ ht-degree: 1%
 >
 >請注意，您無法恢復已關閉或已停止的行程。
 
-<!--
+### 行程結束標籤{#end-tag}
 
-### Journey end tag{#end-tag}
-
-While authoring a journey, an "end node" is displayed at the end of each path. This node cannot be added by a user, cannot be removed and only its label can be changed. It marks the end of each path of the journey. If the journey has several paths, we recommend that you add a label to each end to make reports easier to read. See [this page](../reports/live-report.md).
+在編寫行程時，每個路徑的末尾顯示一個「結束節點」。 此節點不能由用戶添加，無法刪除，只能更改其標籤。 它標誌著旅程的每條路的結束。 如果行程中有多條路徑，建議您在每一端添加一個標籤，以便更容易閱讀報告。 請參閱[此頁面](../reports/live-report.md)。
 
 ![](assets/journey-end.png)
 
--->
+<!--
 
-### 結束活動{#journey-end-activity}
+### End activity{#journey-end-activity}
 
-的 **[!UICONTROL End]** 活動允許您標籤旅程的每條路徑的結束。 它不是強制性的，但建議使視覺清晰。 請參閱 [此頁](../building-journeys/end-activity.md)
+The **[!UICONTROL End]** activity allows you to mark the end of each path of the journey. It is not mandatory but recommended for visual clarity. See [this page](../building-journeys/end-activity.md)
 
 ![](assets/journey54.png)
+
+-->
 
 ### 結束旅程{#close-journey}
 
