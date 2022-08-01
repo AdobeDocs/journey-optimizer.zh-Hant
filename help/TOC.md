@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1113'
 ht-degree: 95%
 
 ---
@@ -134,7 +134,6 @@ ht-degree: 95%
       + [反應](using/building-journeys/reaction-events.md)
       + [區段資格](using/building-journeys/segment-qualification-events.md)
       + [條件](using/building-journeys/condition-activity.md)
-      + [結尾](using/building-journeys/end-activity.md)
       + [等待](using/building-journeys/wait-activity.md)
       + [讀取區段](using/building-journeys/read-segment.md)
       + [電子郵件、簡訊、推送](using/building-journeys/journeys-message.md)

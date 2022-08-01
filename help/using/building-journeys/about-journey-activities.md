@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '263'
 ht-degree: 28%
 
 ---
@@ -36,7 +36,6 @@ ht-degree: 28%
 在螢幕左側的調色板中，可以使用以下業務流程活動：
 
 * [條件](../building-journeys/condition-activity.md)
-* [結尾](../building-journeys/end-activity.md)
 * [等待](../building-journeys/wait-activity.md)
 * [讀取段](../building-journeys/read-segment.md)
 
