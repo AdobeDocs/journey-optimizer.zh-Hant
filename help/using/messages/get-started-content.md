@@ -1,6 +1,6 @@
 ---
 title: 開始使用訊息
-description: 瞭解如何在Journey Optimizer建立和傳遞個性化郵件
+description: 了解如何在 Journey Optimizer 中建立和傳遞個人化訊息
 feature: Overview
 topic: Content Management
 role: User
@@ -9,7 +9,7 @@ exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
