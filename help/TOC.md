@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
+source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 95%
+source-wordcount: '1127'
+ht-degree: 94%
 
 ---
 
@@ -38,6 +38,10 @@ ht-degree: 95%
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
    + [建立行銷活動](using/campaigns/create-campaign.md)
    + [修改或停止行銷活動](using/campaigns/modify-stop-campaign.md)
+   + 內容實驗 {#content-experiment}
+      + [開始內容實驗](using/campaigns/get-started-experiment.md)
+      + [建立內容實驗](using/campaigns/content-experiment.md)
+      + [瞭解統計計算](using/campaigns/experiment-calculations.md)
    + [使用API觸發市場活動](using/campaigns/api-triggered-campaigns.md)
    + 報告 {#reports}
       + [行銷活動即時報告](using/campaigns/campaign-live-report.md)

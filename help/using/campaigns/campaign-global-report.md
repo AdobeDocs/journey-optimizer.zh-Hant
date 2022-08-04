@@ -1,6 +1,6 @@
 ---
-title: 行銷活動全域報告
-description: 瞭解如何從市場活動全局報告中使用資料
+title: 市場活動全局報表
+description: 瞭解如何使用「市場活動全局」報表中的資料
 feature: Reporting
 topic: Content Management
 role: User
@@ -8,16 +8,16 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1542'
 ht-degree: 2%
 
 ---
 
-# 行銷活動全域報告 {#campaign-global-report}
+# 市場活動全局報表 {#campaign-global-report}
 
-您可以直接從市場活動訪問市場活動全局報告， **[!UICONTROL Global view]** 按鈕
+您可以通過 **[!UICONTROL Global view]** 按鈕
 
 市場活動 **[!UICONTROL Global report]** 的子菜單。
 
@@ -41,11 +41,53 @@ ht-degree: 2%
 
 * **[!UICONTROL Actions failed in %]**:在行程中某個操作失敗的唯一次數與已傳遞操作的唯一次數之和。
 
-<!--
-### Experimentation tab (#experimentation-global)
+### 目標(#objectives — 全球)
 
-From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
--->
+>[!AVAILABILITY]
+>
+>「內容」實驗功能目前僅適用於一組組織（有限可用性）。 如需詳細資訊，請聯絡您的 Adobe 代表。
+
+![](assets/performance_report.gif)
+
+的 **[!UICONTROL Objectives]** 「促銷活動」報告的標籤允許您通過確定一個特定指標來更好地調整交貨報告。
+
+的 **[!UICONTROL Objectives]** 列出 **[!UICONTROL Datasets]** 定義與系統的連接以檢索附加資訊。 內置清單 **[!UICONTROL Objectives]** 可用，但您可以通過添加新 **[!UICONTROL Dataset]**。 有關詳細過程，請參閱本文檔。
+
+選擇要針對的目標後， **[!UICONTROL Performance overview]** 和 **[!UICONTROL Campaign objective]** 小部件將提供交付效能的詳細摘要。
+
+使用 **[!UICONTROL Campaign objective]** 小部件，您還可以選擇將主目標與其他度量進行比較。
+
+請注意，如果需要，可以調整每個小部件的大小並將其刪除。 有關此的詳細資訊，請參閱此 [節](../reports/global-report.md#modify-dashboard)。
+
+### 實驗(#experimentation — 全球)
+
+>[!AVAILABILITY]
+>
+>「內容」實驗功能目前僅適用於一組組織（有限可用性）。 如需詳細資訊，請聯絡您的 Adobe 代表。
+
+![](assets/experimentation_report_3.png)
+
+從您的活動 **[!UICONTROL Global report]**，也請參見Wiki頁。 **[!UICONTROL Experimentation]** 頁籤詳細列出與每個變型的執行方式以及是否存在最佳執行者相關的主要資訊。
+
+請注意，定義最佳執行者可能需要一些時間，它將由此表徵圖表示 ![](assets/experimentation_report_1.png)。
+
+的 **[!UICONTROL Experiment result]** 小部件詳細列出每個變數的效能。 通過從 **[!UICONTROL Baseline]** 下拉。 最佳治療方式將用星形表徵圖來表示。
+
+該表顯示以下度量：
+
+* **[!UICONTROL Profiles]**:針對此治療的配置檔案數。
+
+* **[!UICONTROL Unique outbound clicks]**:出站通道上的按一下總數。
+
+* **[!UICONTROL Count per profile]**:實驗目標度量的總值除以輪廓數。
+
+* **[!UICONTROL Confidence interval]**:基線與最佳處理之間效能差異的百分比。 [了解更多](../campaigns/experiment-calculations.md#confidence-intervals)。
+
+* **[!UICONTROL Average lift]**:給定治療的轉換率比基線提高百分比。 [了解更多](../campaigns/experiment-calculations.md#understand-lift)
+
+* **[!UICONTROL Confidence]**:有證據表明，某一治療與基準治療相同。 [了解更多](../campaigns/experiment-calculations.md#understand-confidence)
+
+有關這些結果的深入瞭解和解釋方法，請參閱 [此頁](../campaigns/get-started-experiment.md#interpret-results)。
 
 ## 電子郵件頁籤 {#email-global}
 
@@ -73,7 +115,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 
 * **[!UICONTROL Excluded]**:被Adobe Journey Optimizer排除的檔案數。
 
-的 **[!UICONTROL Email - Tracking statistics]** 包含您交貨的收件人活動的可用資料：
+的 **[!UICONTROL Email - Tracking statistics]** 小部件包含用於您遞送的收件人活動的可用資料：
 
 * **[!UICONTROL Opens]**:在交貨中開啟交貨的次數。
 

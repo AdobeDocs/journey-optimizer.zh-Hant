@@ -5,14 +5,20 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+hide: true
+hidefromtoc: true
+source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 0%
+source-wordcount: '574'
+ht-degree: 1%
 
 ---
 
 # 建立內容實驗 {#content-experiment}
+
+>[!AVAILABILITY]
+>
+>「內容」實驗功能目前僅適用於一組組織（有限可用性）。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 內容實驗功能允許您定義多個傳遞處理。 興趣對象被隨機地分配到每個治療中，以確定哪個在興趣度量方面表現最佳。 您可以選擇更改電子郵件的內容、主題或發件人。
 
@@ -121,4 +127,12 @@ ht-degree: 0%
 1. 檢查市場活動配置是否正確，然後按一下 **[!UICONTROL Activate]** 啟動它。
 
    ![](assets/content_experiment_14.png)
+
+## 試驗報告 {#experimentation-report}
+
+![](assets/experimentation_report_3.png)
+
+從您的活動 **[!UICONTROL Global report]**，也請參見Wiki頁。 **[!UICONTROL Experimentation]** 頁籤詳細列出與每個變型的執行方式以及在test期間是否存在最佳執行者相關的主要資訊。
+
+有關此報告的更多詳細資訊，請參閱 [市場活動全局報表](../campaigns/content-experiment.md#experimentation-report) 的子菜單。
 
