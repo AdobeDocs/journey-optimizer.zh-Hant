@@ -8,9 +8,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+source-git-commit: b56df2c22f041114805e10fee7156855c2cbbfa9
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1540'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 * **[!UICONTROL Actions failed in %]**:在行程中某個操作失敗的唯一次數與已傳遞操作的唯一次數之和。
 
-### 目標(#objectives — 全球)
+### 目標 {#objectives-global}
 
 >[!AVAILABILITY]
 >
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 請注意，如果需要，可以調整每個小部件的大小並將其刪除。 有關此的詳細資訊，請參閱此 [節](../reports/global-report.md#modify-dashboard)。
 
-### 實驗(#experimentation — 全球)
+### 實驗 {#experimentation-global}
 
 >[!AVAILABILITY]
 >
