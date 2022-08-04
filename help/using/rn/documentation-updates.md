@@ -2,10 +2,10 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 93%
+source-wordcount: '1772'
+ht-degree: 91%
 
 ---
 
@@ -13,11 +13,17 @@ ht-degree: 93%
 
 本頁面列出 [!DNL Journey Optimizer] 所有文件更新。
 
+## 2022 年 8 月 {#august-2022}
+
+* 已更新「頻率規則」部分以反映新的聯機消息傳遞流。 [閱讀全文](../configuration/frequency-rules.md#apply-frequency-rule)
+* 現在，「開始使用登錄頁」部分將參考一個顯示如何配置訂閱和建立登錄頁的視頻。 [閱讀全文](../landing-pages/get-started-lp.md#video)
+
 ## 2022 年 7 月 {#july-2022}
 
 * 隨附的所有新功能和改進 [!DNL Journey Optimizer] 文檔中詳細列出了7月22日的發行。 [閱讀全文](release-notes.md)
 * 的 **設定通道曲面** 部分已被澄清，並已使用指向描述如何配置SMS通道的頁面的連結進行更新。 [閱讀全文](../configuration/channel-surfaces.md#create-channel-surface)
 * 在旅程中， **配置檔案時區** 選項現在預設為禁用。 [閱讀全文](../building-journeys/timezone-management.md#timezone-from-profiles)
+
 * 在 **等待** 活動， **固定日期** 選項。 [閱讀全文](../building-journeys/wait-activity.md)
 * 已添加有關 **增量讀取** 的上界 **讀取段** 的子菜單。 [閱讀全文](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * 關於 **輪廓帽** 條件類型。 [閱讀全文](../building-journeys/condition-activity.md#profile_cap)

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -192,9 +192,13 @@ ht-degree: 2%
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-也可以編輯每個 **[!UICONTROL Value]** 欄位 [表達式編輯器](../personalization/personalization-build-expressions.md)。 按一下「版本」表徵圖以開啟表達式編輯器。 從中，您可以選擇所選的上下文屬性和/或直接編輯文本。
+也可以編輯每個 **[!UICONTROL Value]** 欄位 [表達式編輯器](../personalization/personalization-build-expressions.md)。 按一下「版本」表徵圖以開啟編輯器。 從中，您可以選擇所選的上下文屬性和/或直接編輯文本。
 
 ![](assets/preset-url-tracking-editor.png)
+
+>[!NOTE]
+>
+>您可以將鍵入的文本值與使用表達式編輯器中的上下文屬性結合起來。 每個 **[!UICONTROL Value]** 欄位總共最多可包含255個字元。
 
 <!--You can drag and drop the parameters to reorder them.-->
 
@@ -203,10 +207,6 @@ ht-degree: 2%
 * Adobe Analytics相容URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
 * Google Analytics相容URL: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
-
->[!NOTE]
->
->您可以將鍵入的文本值與使用表達式編輯器中的上下文屬性結合起來。 每個 **[!UICONTROL Value]** 欄位總共最多可包含255個字元。
 
 可動態預覽結果的跟蹤URL。 每次添加、編輯或刪除參數時，預覽都會自動更新。
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 11%
+source-wordcount: '198'
+ht-degree: 8%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 11%
 登錄頁是用戶在從電子郵件、網站、廣告或任何其他數字位置按一下後指向的獨立網頁。
 
 [!DNL Journey Optimizer] 允許您建立和設計登錄頁，以引導您的用戶訪問線上表單，在此表單中，他們可以選擇加入或拒絕接收您的通信，或訂閱特定服務，如新聞稿。
+
+➡️ [瞭解有關配置訂閱和在此視頻中建立登錄頁的詳細資訊](#video)
 
 * 利用 [!DNL Journey Optimizer] 內容設計功能可輕鬆構建 **響應登錄頁**。
 * 設定 **選擇加入和選擇退出流** 快速而無縫地。
@@ -34,8 +36,8 @@ ht-degree: 11%
 </tr>
 </table>
 
-<!--
+## How-to視頻{#video}
 
-<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Use cases</a></p></td>
+以下視頻顯示如何建立訂閱清單、設定登錄頁以提供對服務的訂閱或取消訂閱、將(un)訂閱選項整合到消息並配置相關旅程。
 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

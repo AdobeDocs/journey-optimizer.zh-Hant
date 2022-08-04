@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '287'
 ht-degree: 13%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 13%
 
 1. 按一下 **[!UICONTROL Save]** 確認。
 
-1. 建立規則後，該規則將顯示在規則清單中。 可以選擇它以顯示其屬性，並編輯或刪除它。
+1. 建立規則後，將在 **[!UICONTROL Rules]** 清單框。 可以選擇它以顯示其屬性，並編輯或刪除它。
 
    ![](../assets/rule_created.png)
 

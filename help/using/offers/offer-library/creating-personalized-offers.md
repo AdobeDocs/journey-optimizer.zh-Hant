@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 4%
+source-wordcount: '648'
+ht-degree: 3%
 
 ---
 
@@ -63,6 +63,10 @@ ht-degree: 4%
 
 1. 添加約束以設定要顯示的要約的條件。 [了解更多](add-constraints.md)
 
+   >[!NOTE]
+   >
+   >在選擇段或決策規則時，可以查看有關估計的限定配置檔案的資訊。 按一下 **[!UICONTROL Refresh]** 更新資料。
+
    ![](../assets/offer-constraints-example.png)
 
 1. 查看並保存優惠。 [了解更多](#review)
@@ -72,6 +76,10 @@ ht-degree: 4%
 一旦定義了資格規則和約束，將顯示聘用屬性的摘要。
 
 1. 確保所有內容都配置正確。
+
+1. 您可以顯示有關估計的限定配置檔案的資訊。 按一下 **[!UICONTROL Refresh]** 更新資料。
+
+   ![](../assets/offer-summary-estimate.png)
 
 1. 當您的產品可供向用戶展示時，按一下 **[!UICONTROL Finish]**。
 

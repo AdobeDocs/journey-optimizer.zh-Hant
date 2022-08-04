@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1050'
 ht-degree: 2%
 
 ---
@@ -88,9 +88,9 @@ ht-degree: 2%
 
       瞭解如何在中建立決策規則 [此部分](../offer-library/creating-decision-rules.md)。
 
-      >[!NOTE]
-      >
-      >選擇段或決策規則時，將顯示有關估計的限定配置檔案的資訊。 按一下 **[!UICONTROL Refresh]** 更新資料。
+1. 在選擇段或決策規則時，可以查看有關估計的限定配置檔案的資訊。 按一下 **[!UICONTROL Refresh]** 更新資料。
+
+   ![](../assets/activity_constraint-estimate.png)
 
 1. 定義要用於為每個配置檔案選擇最佳優惠的排名方法。
 
@@ -142,7 +142,7 @@ ht-degree: 2%
 
    ![](../assets/review-decision.png)
 
-   可展開或折疊每個放置。 您還可以預覽每個職位安排的可用聘用、資格和排名詳細資訊。
+1. 可展開或折疊每個放置。 您可以預覽每個職位安排的可用聘用、資格和排名詳細資訊。 您還可以顯示有關估計的合格配置檔案的資訊。 按一下 **[!UICONTROL Refresh]** 更新資料。
 
    ![](../assets/review-decision-details.png)
 

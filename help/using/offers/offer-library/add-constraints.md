@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1601'
 ht-degree: 2%
 
 ---
@@ -40,10 +40,6 @@ ht-degree: 2%
 1. 配置 **[!UICONTROL Offer eligibility]**。 [了解更多](#eligibility)
 
    ![](../assets/offer-eligibility.png)
-
-   >[!NOTE]
-   >
-   >選擇段或決策規則時，將顯示有關估計的限定配置檔案的資訊。 按一下 **[!UICONTROL Refresh]** 更新資料。
 
 1. 定義 **[!UICONTROL Priority]** 如果用戶有資格獲得多個優惠，則與其他優惠相比。 優先順序越高，優先順序就越高。
 
@@ -99,6 +95,10 @@ ht-degree: 2%
    >[!CAUTION]
    >
    >當前不支援基於事件的服務 [!DNL Journey Optimizer]。 如果根據 [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}，您將無法在優惠中利用它。
+
+在選擇段或決策規則時，可以查看有關估計的限定配置檔案的資訊。 按一下 **[!UICONTROL Refresh]** 更新資料。
+
+![](../assets/offer-eligibility-segment-estimate.png)
 
 ### 使用段與決策規則 {#segments-vs-decision-rules}
 

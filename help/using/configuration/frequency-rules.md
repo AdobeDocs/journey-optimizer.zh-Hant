@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 5%
+source-wordcount: '827'
+ht-degree: 3%
 
 ---
 
@@ -128,19 +128,11 @@ ht-degree: 5%
 
 1. 所有與所選類別和通道匹配的頻率規則將自動應用於此消息。
 
-1. 您可以按一下 **[!UICONTROL Frequency rule]** 連結，檢視將套用於選取的類別和頻道的頻率規則。 
+   >[!NOTE]
+   >
+   >消息 <!--that do not have any selected category or messages -->其中選定的類別 **[!UICONTROL Transactional]** 不會根據頻率規則進行評估。
 
-   ![](assets/message-rules-msg-link.png)
-
-   將開啟一個新頁籤以顯示匹配的消息頻率規則。
-
-所有與所選類別和通道匹配的頻率規則將自動應用於此消息。
-
->[!NOTE]
->
->消息 <!--that do not have any selected category or messages -->其中選定的類別 **[!UICONTROL Transactional]** 不會根據頻率規則進行評估。
-
-<!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
+   <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 1. 您可以在中查看從交貨中排除的配置檔案數 [全局報告](../reports/global-report.md)的 [即時報告](../reports/live-report.md)，其中頻率規則將作為用戶從傳遞中排除的可能原因列出。
 

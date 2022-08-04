@@ -2,9 +2,9 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 16bda5dcdfdc65f236d814ec02c6222b98a5652f
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '633'
 ht-degree: 24%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 24%
 
 * **允許的清單邏輯更新**  — 現在，即使清單為空，允許的清單邏輯在功能啟用後即會應用。 [了解更多](../configuration/allow-list.md#logic)
 
-* **URL跟蹤參數**  — 現在，您可以使用表達式編輯器在電子郵件曲面中配置URL跟蹤參數（即消息預設）。 [了解更多](../configuration/email-settings.md#url-tracking)
+* **URL跟蹤參數**  — 現在，您可以使用表達式編輯器在電子郵件曲面（即預設）中配置URL跟蹤參數。 [了解更多](../configuration/email-settings.md#url-tracking)
 
 **Offer Decisioning**
 
