@@ -9,7 +9,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1456'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,25 +28,25 @@ ht-degree: 92%
 
 ## 左側導覽 {#left-nav}
 
-瀏覽左側的連結以訪問 [!DNL Journey Optimizer] 功能。
+瀏覽左側連結來存取[!DNL Journey Optimizer]功能。
 
 ![](assets/ajo-home.png)
 
 >[!NOTE]
 >
->可用功能可能因您的權限和許可協定而異。
+>可用功能可能會視您的權限與授權合約而有所不同。
 
-您可以在左側導航和指向相關幫助頁的連結中找到服務和功能的完整清單。
+您可以在下方左側導覽找到完整的服務與功能清單，以及相關協助頁面的連結。
 
 **首頁**
 
-[!DNL Journey Optimizer] 首頁包含要啟動的主要連結和資源。的 **[!UICONTROL Recents]** 清單提供了最近建立的事件和行程的快捷方式。 此清單顯示其建立和修改日期和狀態。
+[!DNL Journey Optimizer] 首頁包含要啟動的主要連結和資源。**[!UICONTROL Recents]**&#x200B;清單提供最近建立事件與歷程的捷徑。 此清單顯示其建立和修改日期和狀態。
 
 **[!UICONTROL JOURNEY MANAGEMENT]**
 
 * **[!UICONTROL Journeys]** - 建立、設定和協調客戶歷程。[進一步了解](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Landing pages]**  — 建立、設計、test和發佈登錄頁。 [進一步了解](../landing-pages/get-started-lp.md)
+* **[!UICONTROL Landing pages]** - 建立、設計、測試及發佈登陸頁面。 [進一步了解](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL DECISION MANAGEMENT]**
 
@@ -127,7 +127,7 @@ ht-degree: 92%
 | 在使用者介面元素、區段和功能表群組之間向後移動 | Shift + Tab 鍵 |
 | 在區段內移動並將焦點設定為個別元素 | 箭頭 |
 | 選取或清除焦點中的元素 | 輸入或空格鍵 |
-| 取消選擇、折疊窗格或關閉對話框 | Esc 鍵 |
+| 取消選取、摺疊窗格或關閉對話方塊 | Esc 鍵 |
 
 在 Adobe Experience Platform 文件中[進一步了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
@@ -274,7 +274,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ## 搜尋{#unified-search}
 
-從Adobe Journey Optimizer介面的任何位置，都可使用頂欄中心的統一Adobe Experience Cloud搜索功能，在沙箱中查找資產、行程、資料集等。
+在 Adobe Journey Optimizer 介面的任意處，利用頂端列中央的 Unified Adobe Experience Cloud 搜尋功能，在您的沙盒尋找資產、歷程、資料集等等。 
 
 開始輸入內容以顯示排名最前的結果。有關輸入關鍵字的說明文章也會顯示在結果中。
 
@@ -304,6 +304,6 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ![](assets/journey3bis.png)
 
-在清單中，可以對每個元素執行基本操作。 例如，您可以複製或刪除項目。
+您可以對清單的每一元素執行基本動作。例如，您可以複製或刪除項目。
 
 ![](assets/journey4.png)

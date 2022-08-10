@@ -9,11 +9,11 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 3%
+ht-degree: 24%
 
 ---
 
-# 電子郵件、簡訊、推送{#add-a-message-in-a-journey}
+# 電子郵件、簡訊、推播{#add-a-message-in-a-journey}
 
 [!DNL Journey Optimizer] 內置消息功能。 您只需在旅途中添加推送、簡訊或電子郵件活動， [定義設定和內容](../messages/get-started-content.md)。 然後，在旅程的上下文中執行併發送
 
@@ -28,9 +28,9 @@ ht-degree: 3%
 
 要在行程中添加消息，請執行以下步驟：
 
-1. 開始您的旅程 [事件](general-events.md) 或 [讀取段](read-segment.md) 的子菜單。
+1. 利用[事件](general-events.md)或[讀取區段](read-segment.md)活動來開始您的歷程。
 
-1. 從 **操作** ，拖放 **電子郵件**&#x200B;的 **簡訊** 或 **推** 的下界。
+1. 從調色盤的&#x200B;**動作**&#x200B;區段 ，拖放&#x200B;**電子郵件**、**簡訊**&#x200B;或&#x200B;**推播**&#x200B;活動至畫布。
 
    ![](../messages/assets/add-a-message.png)
 

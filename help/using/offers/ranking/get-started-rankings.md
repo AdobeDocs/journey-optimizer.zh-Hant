@@ -1,17 +1,18 @@
 ---
-title: 開始排名
+title: 開始使用排名
 description: 瞭解如何使用排名
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+exl-id: f736dcc7-6f6e-42ff-a940-4602299ae2b6
+source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# 開始排名 {#create-fallback-offers}
+# 開始使用排名 {#create-fallback-offers}
 
 [!DNL Journey Optimizer] 允許您使用排名來對顯示給定配置檔案的優惠進行排名：
 

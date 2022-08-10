@@ -1,5 +1,5 @@
 ---
-title: 關於表達式編輯器
+title: 關於運算式編輯器
 description: 瞭解如何使用表達式編輯器。
 feature: Personalization
 topic: Personalization
@@ -9,15 +9,15 @@ exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
-# 關於表達式編輯器 {#build-personalization-expressions}
+# 關於運算式編輯器 {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
->title="關於表達式編輯器"
+>title="關於運算式編輯器"
 >abstract="表達式編輯器允許您選擇、排列、自定義和驗證所有資料，以便為您的內容建立自定義個性化。"
 
 表達式編輯器是中個性化的核心 [!DNL Journey Optimizer]。 它適用於您需要定義個性化的每個上下文，如電子郵件、推送和提供。
@@ -32,7 +32,7 @@ ht-degree: 6%
 
 可用源包括：
 
-* **[!UICONTROL Profile attributes]** :列出與中所述的配置檔案架構關聯的所有引用 [Adobe Experience Platform資料模型(XDM)文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+* **[!UICONTROL Profile attributes]** :列出與中所述的配置檔案架構關聯的所有引用 [Adobe Experience Platform資料模型(XDM)文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}。
 * **[!UICONTROL Segment memberships]** :列出了在Adobe Experience Platform分割服務中建立的所有段。 有關分段的詳細資訊 [這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}。
 * **[!UICONTROL Offer decisions]** :列出與特定位置關聯的所有優惠。 選擇位置，然後在內容中插入聘用。 有關如何管理優惠的完整文檔，請參閱 [此部分](../design/deliver-personalized-offers.md)。
 * **[!UICONTROL Contextual attributes]** :在行程中使用渠道活動（電子郵件、推送、SMS）時，上下文行程欄位可通過此菜單使用。 請參閱[此章節](personalization-use-case.md)深入瞭解。

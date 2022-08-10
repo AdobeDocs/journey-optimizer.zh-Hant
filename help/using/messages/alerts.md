@@ -9,7 +9,7 @@ exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 消息類別(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [通道表面](../configuration/channel-surfaces.md#email-type) （即消息預設）級別和時間 [建立消息](get-started-content.md#create-new-message)。
+   >行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 訊息類別 (**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**) 會在[頻道介面](../configuration/channel-surfaces.md#email-type) (即訊息預設) 層級[建立訊息](get-started-content.md#create-new-message)時定義。
 
 * **[!UICONTROL Text version of HTML is empty]**:不要忘記定義電子郵件正文的文本版本，因為當無法顯示HTML內容時，將使用它。 瞭解如何在中建立文本版本 [此部分](../design/text-version-email.md)。
 

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 94%
       + [2022 年發行說明](using/rn/release-notes-2022.md)
       + [2021 年發行說明](using/rn/release-notes-2021.md)
    + [文件更新](using/rn/documentation-updates.md)
-   + 新的內聯創作功能 {#inline-authoring}
+   + 全新內嵌編寫功能{#inline-authoring}
       + [移轉概述](using/rn/inline-messages.md)
-      + [遷移步驟](using/rn/inline-messages-steps.md)
+      + [移轉步驟](using/rn/inline-messages-steps.md)
 + 快速入門{#get-started}
    + [什麼是 Journey Optimizer](using/start/get-started.md)
    + 快速入門{#quick-start}
@@ -42,7 +42,7 @@ ht-degree: 94%
       + [開始內容實驗](using/campaigns/get-started-experiment.md)
       + [建立內容實驗](using/campaigns/content-experiment.md)
       + [瞭解統計計算](using/campaigns/experiment-calculations.md)
-   + [使用API觸發市場活動](using/campaigns/api-triggered-campaigns.md)
+   + [利用 API 觸發行銷活動](using/campaigns/api-triggered-campaigns.md)
    + 報告 {#reports}
       + [行銷活動即時報告](using/campaigns/campaign-live-report.md)
       + [行銷活動全域報告](using/campaigns/campaign-global-report.md)
@@ -53,7 +53,7 @@ ht-degree: 94%
    + [建立 SMS 訊息](using/messages/create-sms.md)
    + [檢查警報](using/messages/alerts.md)
    + [管理同意](using/messages/consent.md)
-   + [發送時間優化](using/messages/send-time-optimization.md)
+   + [傳送時間最佳化](using/messages/send-time-optimization.md)
 + 設計內容 {#design}
    + [開始使用電子郵件設計](using/design/design-emails.md)
    + [從頭開始 ](using/design/create-email-content.md)
@@ -90,8 +90,8 @@ ht-degree: 94%
    + [個人化內容](using/personalization/personalization-contexts.md)
    + 建立運算式 {#build-expressions}
       + [個人化語法](using/personalization/personalization-syntax.md)
-      + 使用表達式編輯器 {#expression-editor}
-         + [關於表達式編輯器](using/personalization/personalization-build-expressions.md)
+      + 使用運算式編輯器{#expression-editor}
+         + [關於運算式編輯器](using/personalization/personalization-build-expressions.md)
          + [將屬性加入我的最愛](using/personalization/personalization-favorites.md)
          + [使用儲存的運算式](using/personalization/personalization-library.md)
          + [個人化驗證](using/personalization/personalization-validation.md)
@@ -140,7 +140,7 @@ ht-degree: 94%
       + [條件](using/building-journeys/condition-activity.md)
       + [等待](using/building-journeys/wait-activity.md)
       + [讀取區段](using/building-journeys/read-segment.md)
-      + [電子郵件、簡訊、推送](using/building-journeys/journeys-message.md)
+      + [電子郵件、簡訊、推播](using/building-journeys/journeys-message.md)
       + [自訂動作](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 動作](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 動作](using/building-journeys/using-adobe-campaign-classic.md)
@@ -279,9 +279,9 @@ ht-degree: 94%
       + [排名公式](using/offers/ranking/create-ranking-formulas.md)
       + AI 模型 {#ai-models}
          + [關於 AI 模型](using/offers/ranking/ai-models.md)
-         + AI模型類型 {#ai-model-types}
+         + AI 模型類型{#ai-model-types}
             + [自動最佳化模型](using/offers/ranking/auto-optimization-model.md)
-            + [個性化優化模型](using/offers/ranking/personalized-optimization-model.md)
+            + [個人化最佳化模型](using/offers/ranking/personalized-optimization-model.md)
          + 建立 AI 模型 {#configure-ai-model}
             + [建立資料集以收集事件](using/offers/ranking/create-dataset.md)
             + [建立 AI 模型](using/offers/ranking/create-ranking-strategies.md)
@@ -297,7 +297,7 @@ ht-degree: 94%
       + [建立決定](using/offers/offer-activities/create-offer-activities.md)
       + [設定決定中的優惠選擇](using/offers/offer-activities/configure-offer-selection.md)
       + [建立模擬](using/offers/offer-activities/simulation.md)
-   + [批量決策](using/offers/batch-delivery.md)
+   + [批次決策](using/offers/batch-delivery.md)
    + 建立決定管理報告 {#create-reports}
       + [開始使用決定管理事件](using/offers/reports/get-started-events.md)
       + [決定管理事件重要資訊](using/offers/reports/key-information.md)
@@ -354,8 +354,8 @@ ht-degree: 94%
          + [建立決定](using/offers/api-reference/activities-api/activities/create.md)
          + [更新決定](using/offers/api-reference/activities-api/activities/update.md)
          + [刪除決定](using/offers/api-reference/activities-api/activities/delete.md)
-      + 使用API提供服務 {#offer-delivery-api}
-         + [開始提供交付API](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+      + 利用 API 傳遞優惠方案{#offer-delivery-api}
+         + [開始使用傳遞優惠方案 API](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
          + [決策 API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [邊緣決策 API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [批次決策 API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
@@ -385,8 +385,8 @@ ht-degree: 94%
             + [重試次數](using/configuration/retries.md)
             + [允許清單](using/configuration/allow-list.md)
       + [設定簡訊頻道](using/configuration/sms-configuration.md)
-      + 設定通道曲面 {#set-up-channels}
-         + [建立通道曲面](using/configuration/channel-surfaces.md)
+      + 設定頻道介面{#set-up-channels}
+         + [建立頻道介面](using/configuration/channel-surfaces.md)
          + [設定電子郵件設定](using/configuration/email-settings.md)
          + [使用密件副本電子郵件](using/configuration/bcc-email.md)
       + [管理執行地址](using/configuration/primary-email-addresses.md)

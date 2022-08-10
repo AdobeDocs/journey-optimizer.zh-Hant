@@ -11,7 +11,7 @@ exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 5%
 >
 >在建立新市場活動之前，請確保您有一個表面通道（即消息預設）和一個Adobe Experience Platform段可供使用。 在以下各節中瞭解更多資訊：
 >
->* [建立通道曲面](../configuration/channel-surfaces.md)
+>* [建立頻道介面](../configuration/channel-surfaces.md)
 >* [開始使用區段](../segment/about-segments.md)
 
 

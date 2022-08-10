@@ -10,7 +10,7 @@ exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
 source-wordcount: '310'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 例如，您可以為電子郵件通道選擇AI模型，為推送通道選擇另一個模型。 對於每個渠道，經過培訓的模型系統將利用多個資料點來確定在給定位置應首先提供哪個優惠，而不是考慮優惠的優先順序分數或 [排序公式](create-ranking-formulas.md)。
 
-## AI模型類型 {#ai-model-types}
+## AI 模型類型 {#ai-model-types}
 
 有兩種類型的AI模型可在 [!DNL Journey Optimizer]:
 

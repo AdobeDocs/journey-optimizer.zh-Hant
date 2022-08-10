@@ -33,4 +33,4 @@ ht-degree: 8%
 
 ![](assets/jo-event9.png)
 
-瞭解有關中的Adobe Analytics源連接器的詳細資訊  [Adobe Experience Platform文檔](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant){target=&quot;_blank&quot;和 [教程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+瞭解有關中的Adobe Analytics源連接器的詳細資訊  [Adobe Experience Platform文檔](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target=&quot;_blank&quot;和 [教程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target=&quot;_blank&quot;}。

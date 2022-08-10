@@ -1,5 +1,5 @@
 ---
-title: 使用API觸發市場活動
+title: 利用 API 觸發行銷活動
 description: 瞭解如何使用 [!DNL Journey Optimizer] API
 hide: true
 hidefromtoc: true
@@ -7,11 +7,11 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '696'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# 使用API觸發市場活動 {#trigger-campaigns}
+# 利用 API 觸發行銷活動 {#trigger-campaigns}
 
 ## 關於API觸發的市場活動 {#about}
 

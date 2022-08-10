@@ -9,7 +9,7 @@ exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 28%
 
 從調色板，在螢幕左側，在下面 **[!UICONTROL Events]** 和 **[!UICONTROL Orchestration]**&#x200B;的 **[!UICONTROL Actions]** 的子菜單。 以下活動可用：
 
-* [電子郵件、簡訊、推送](../building-journeys/journeys-message.md)
+* [電子郵件、簡訊、推播](../building-journeys/journeys-message.md)
 * [自訂動作](../building-journeys/using-custom-actions.md)
 * [跳轉](../building-journeys/jump.md)
 

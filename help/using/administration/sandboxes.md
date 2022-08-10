@@ -20,7 +20,7 @@ ht-degree: 64%
 [!DNL Journey Optimizer] 可讓您將執行個體分割到名為沙箱的個別虛擬環境中。會透過 Admin Console 中的產品設定檔指派沙箱。[瞭解如何指派 sandbox](permissions.md#create-product-profile)。
 
 [!DNL Journey Optimizer] 反映針對指定組織建立的 Adobe Experience Platform sandbox。
-可從 Adobe Experience Platform 執行個體建立或重設 Adobe Experience Platform sandbox。[在「沙盒」使用手冊中瞭解更多資訊](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+可從 Adobe Experience Platform 執行個體建立或重設 Adobe Experience Platform sandbox。[在「沙盒」使用手冊中瞭解更多資訊](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target=&quot;_blank&quot;}。
 
 您可以在您的組織名稱旁的螢幕右上角找到沙盒切換器控制項。 若要從一個沙箱切換至另一個沙箱，請按一下切換器中目前作用中的沙箱，然後從下拉式清單中選取另一個沙箱。
 
@@ -68,7 +68,7 @@ ht-degree: 64%
 
 請注意，若要讓內容與正確的 sandbox 同步，您必須遵循與 sandbox 相同的語法，例如，如果您的 sandbox 被稱為開發，您的共用資料夾應具有相同的名稱。
 
-[瞭解如何管理共用資料夾](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target=&quot;_blank&quot;}。
+[瞭解如何管理共用資料夾](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target=&quot;_blank&quot;}。
 
 ## How-to視頻{#video}
 

@@ -35,7 +35,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >請注意，左窗格中的可用欄位因 **XDM個人配置檔案** 和 **XDM體驗事件** 已為您的組織配置了架構。  在 [體驗資料模型(XDM)文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+   >請注意，左窗格中的可用欄位因 **XDM個人配置檔案** 和 **XDM體驗事件** 已為您的組織配置了架構。  在 [體驗資料模型(XDM)文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}。
 
    ![](assets/drag-fields.png)
 

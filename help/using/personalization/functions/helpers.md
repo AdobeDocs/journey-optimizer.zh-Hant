@@ -8,7 +8,7 @@ level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '370'
 ht-degree: 4%
 
 ---
@@ -144,7 +144,8 @@ Some edu specific content Content
 ## 每個{#each}
 
 的 `each` 幫助程式用於在陣列上迭代。
-幫助程式的語法為 ```{{#each ArrayName}}``` YourContent {{/each}}我們可以使用關鍵字引用各個陣列項 **這個** 在街區內。 可以使用{{@index}}呈現陣列元素的索引。
+幫助程式的語法為 ```{{#each ArrayName}}``` 內容 {{/each}}
+我們可以使用關鍵字來引用各個陣列項 **這個** 在街區內。 可以使用 {{@index}}。
 
 **語法**
 

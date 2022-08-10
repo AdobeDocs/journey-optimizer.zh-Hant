@@ -10,7 +10,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 80%
 
 >[!CAUTION]
 >
->7月25日，Adobe Journey Optimizer發佈 [新特徵](using/rn/inline-messages.md) 這改進了您為Journey Optimizer頻道（電子郵件、推送、SMS）創作內容的方式。 作為Journey Optimizer的醫生，你現在 [建立和創作](using/messages/get-started-content.md) 你直接從旅途中傳來的資訊。 將為您執行自動轉換行程。 話雖如此，我們需要你的幫助。 瞭解 [所需步驟](using/rn/inline-messages-steps.md)。
+>7月25日，Adobe Journey Optimizer 發行 [新功能](using/rn/inline-messages.md) 改進了您為 Journey Optimizer 頻道 (電子郵件、推播、簡訊) 編寫內容的方式。 作為 Journey Optimizer 的從業人員，現在可直接 [建立和編寫](using/messages/get-started-content.md) 從歷程中傳來的訊息。 將為您執行自動轉換歷程。 話雖如此，我們需要你協助幾個步驟。 了解更多 [必要步驟](using/rn/inline-messages-steps.md)。
 
 <table style="table-layout:fixed">
 <tr>
@@ -56,7 +56,7 @@ ht-degree: 80%
     <div>
       <a href="using/messages/get-started-content.md">傳送訊息</a>
     </div>
-    <p>瞭解如何在客戶旅程中添加推送、簡訊和電子郵件
+    <p>瞭解如何在客戶歷程中新增推播、簡訊和電子郵件訊息
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">建立您的第一個歷程</a>

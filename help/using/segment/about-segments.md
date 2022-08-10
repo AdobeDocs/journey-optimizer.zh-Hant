@@ -9,7 +9,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 * 使用 **分部資格** 活動，讓個人根據Adobe Experience Platform段出入口進入或前進行程。 例如，您可以讓所有新銀客戶輸入行程併發送消息。 有關如何使用此活動的詳細資訊，請參閱 [此部分](../building-journeys/segment-qualification-events.md)。
 
-* 生成 **複雜條件** 使用簡單或高級表達式編輯器執行。 瞭解詳情 [此部分](../building-journeys/condition-activity.md#using-a-segment)。
+* 生成 **複雜條件** 使用簡單或高級表達式編輯器執行。 請參閱[此章節](../building-journeys/condition-activity.md#using-a-segment)深入瞭解。
 
 ## Adobe Journey Optimizer評價方法 {#evaluation-method-in-journey-optimizer}
 

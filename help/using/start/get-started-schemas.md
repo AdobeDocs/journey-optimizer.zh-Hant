@@ -40,7 +40,7 @@ ht-degree: 11%
 **另請參閱**
 
 * [建立模式、資料集和接收資料以添加Journey Optimizer的Test配置檔案](../segment/creating-test-profiles.md)
-* [XDM系統概述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;
+* [XDM系統概述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;
 * [資料建模的最佳做法](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html){target=&quot;_blank&quot;
 * [使用架構註冊表API建立架構](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html){target=&quot;_blank&quot;
 * [使用架構編輯器定義兩個架構之間的關係](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html){target=&quot;_blank&quot;

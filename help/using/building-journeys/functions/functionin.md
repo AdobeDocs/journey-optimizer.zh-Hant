@@ -9,7 +9,7 @@ exl-id: 629b7aa3-8904-453b-ba3c-c6a333b13c81
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 17%
 | 參數 | 類型 |
 |-----------|------------------|
 | 字串 | 字串 |
-| 布爾型 | 布爾型 |
+| 布林值 | 布林值 |
 | 整數 | 整數 |
 | 十進位 | 十進位 |
 | 持續時間 | 持續時間 |

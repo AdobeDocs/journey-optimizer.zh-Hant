@@ -1,17 +1,17 @@
 ---
 title: 遷移到旅程的內聯創作步驟
 description: 遷移至旅程的內聯創作步驟
-source-git-commit: f98ef26fa9c6075c852d33d19c796351296a3f94
+exl-id: 8412a0bd-674c-4d6a-aa5b-443655d2943a
+source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
 workflow-type: tm+mt
 source-wordcount: '1048'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-
 # 內聯創作遷移步驟{#migration-steps}
 
-本文介紹了在Adobe Journey Optimizer創作內容的新過程 [頁](../rn/inline-messages.md)。 將為您執行自動轉換行程。 話雖如此，我們需要你的幫助。
+本文介紹了在Adobe Journey Optimizer創作內容的新過程 [頁](../rn/inline-messages.md)。 將為您執行自動轉換歷程。 話雖如此，我們需要你協助幾個步驟。 
 
 >[!VIDEO](https://video.tv.adobe.com/v/344699)
 
@@ -190,4 +190,3 @@ Click the **Check status** button in the top banner and check that all journeys 
 ## 第三次和最後一次迭代（9月5日）之前{#migration-step-4}
 
 在8月1日至9月5日之間，您需要驗證是否已遷移所有內容，以及是否沒有剩餘的使用消息的行程，否則將在9月5日棄用這些內容。
-

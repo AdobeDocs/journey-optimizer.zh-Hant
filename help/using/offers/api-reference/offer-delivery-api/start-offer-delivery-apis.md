@@ -1,5 +1,5 @@
 ---
-title: 開始提供交付API
+title: 開始使用傳遞優惠方案 API
 description: 瞭解有關可提供個性化服務的API的更多資訊。
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# 開始提供交付API {#about-decisioning-apis}
+# 開始使用傳遞優惠方案 API {#about-decisioning-apis}
 
 您可以使用 **決定** 或 **邊判別** API。 此外， **批決策** API允許您在一次調用中向給定段中的所有配置檔案提供優惠。 段中每個配置檔案的提供內容都放在Adobe Experience Platform資料集中，在該資料集中可用於自定義批處理工作流。
 

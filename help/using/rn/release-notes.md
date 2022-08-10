@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 24%
+ht-degree: 86%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 24%
 <table>
 <thead>
 <tr>
-<th><strong>新的線上消息傳遞流</strong><br/></th>
+<th><strong>全新內嵌訊息流程</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer為「旅程」中的消息創作提供了新流。 線上消息傳遞將為用戶節省大量時間，並簡化在Journey Optimizer建立和傳遞電子郵件、推送通知或簡訊的工作流程。 通過將消息作為單獨的步驟刪除，而將其作為Journey Canvas上操作的一部分進行串聯可編輯，用戶將需要按一下較少的按鈕並導航較少的螢幕來設計和編輯其內容。</p>
+<p>Journey Optimizer 為歷程的訊息編寫提供全新流程。 線上傳送訊息消息將為使用者節省大量時間，並簡化在 Journey Optimizer 建立和傳遞電子郵件、推播通知或簡訊的工作流程。 透過將訊息作為單獨的步驟刪除，作為 Journey Canvas 動作的一部分都可內嵌編輯，使用者需要按更少的按鈕並導覽較少的畫面來設計和編輯其內容。</p>
 <img src="assets/do-not-localize/inline.gif"/>
 <p>如需詳細資訊，請參閱<a href="../messages/get-started-content.md">詳細文件</a>。</p>
 </td>
@@ -42,14 +42,14 @@ ht-degree: 24%
 <table>
 <thead>
 <tr>
-<th><strong>基於屬性的訪問控制（有限的可用性）</strong><br/></th>
+<th><strong>以屬性為基礎的存取控制 (可用性限制)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在，您可以使用定義組織或資料使用範圍的標籤來標識架構欄位。 管理員可以使用「權限」介面定義涵蓋XDM架構欄位的訪問策略，並更好地管理授予用戶或用戶組（內部、外部或第三方用戶）的訪問權限，以及管理對特定類型資料（即敏感個人資料/SPD）的訪問權限。</p>
-<p>基於屬性的訪問控制目前僅限於選定用戶，將在以後的版本中部署到所有環境。</p>
+<p>現在，您可以使用定義組織或資料使用範圍的標籤標示身分綱要欄位。 管理員可以使用權限介面定義涵蓋 XDM 綱要欄位的存取原則，並更好地管理使用者或使用者群組 (內部、外部或協力廠商使用者) 的存取權限，以及管理對特定類型資料 (即敏感個人資料/SPD) 的存取權限。</p>
+<p>以屬性為基礎的存取控制目前僅限於選定使用者，將在未來的版本中同步到所有環境。</p>
 <p>如需詳細資訊，請參閱<a href="../administration/attribute-based-access.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -59,13 +59,13 @@ ht-degree: 24%
 <table>
 <thead>
 <tr>
-<th><strong>批量決策作業</strong><br/></th>
+<th><strong>批次決策作業</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在，您可以從用戶介面運行批決策作業，這樣我就不需要開發人員來運行批API作業，而且我可以減少營銷所需的時間。 此新介面允許您建立作業和管理當前/過去的作業。</p>
+<p>現在，您可以從使用者介面執行批次決策作業，這樣我就不需要開發人員來執行批次 API 作業，而且我可以減少行銷所需的時間。 此新介面允許您建立作業及管理目前/過去的作業。</p>
 <img src="assets/do-not-localize/batch.gif"/>
 <p>如需詳細資訊，請參閱<a href="../offers/batch-delivery.md">詳細文件。</p>
 </td>
@@ -76,14 +76,14 @@ ht-degree: 24%
 <table>
 <thead>
 <tr>
-<th><strong>在您的決策中自動使用效能最佳的產品（有限的可用性）</strong><br/></th>
+<th><strong>在您的決定中自動執行最佳優惠方案 (可用性限制)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在，您可以在決策管理中使用個性化優化模型系統。 此新型機型允許您根據細分市場優化和個性化產品並提供效能。</p>
-<p>個性化優化AI模型的使用目前僅限於選定用戶，並將在未來版本中部署到所有環境。</p>
+<p>現在，您可以在決策管理中使用個人化最佳化模型系統。 這種新種類模型允許您根據區段及優惠方案市場對優惠進行最佳化及個人化。</p>
+<p>個人化最佳化 AI 模型的使用目前僅限於選定使用者，將在未來的版本中同步到所有環境。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細文件</a>。</p>
 </td>
@@ -99,18 +99,18 @@ ht-degree: 24%
 
 **訊息**
 
-* 現在是消息預設 **通道曲面**。 [進一步了解](../configuration/channel-surfaces.md)
+* 訊息預設集現在是 **頻道介面**。 [進一步了解](../configuration/channel-surfaces.md)
 
 **管理**
 
-* **PTR記錄版本**  — 現在，更新PTR記錄時，處理時間最多只需3小時。 [了解更多](../configuration/ptr-records.md#processing)
+* **PTR 記錄版本** - 現在當更新 PTR 記錄時，處理時間最多只需 3 小時。 [了解更多](../configuration/ptr-records.md#processing)
 
-* **允許清單UI**  — 您現在可以使用Journey Optimizer用戶介面將新電子郵件地址或域添加到允許的清單中。 [了解更多](../configuration/allow-list.md)
+* **允許清單 UI** — 您現在可以使用 Journey Optimizer 使用者介面將新電子郵件地址或網域新增到允許清單。 [了解更多](../configuration/allow-list.md)
 
-* **允許的清單邏輯更新**  — 現在，即使清單為空，允許的清單邏輯在功能啟用後即會應用。 [了解更多](../configuration/allow-list.md#logic)
+* **允許清單邏輯更新** - 現在，即使清單為空，允許清單邏輯在功能啟用後立即適用。 [了解更多](../configuration/allow-list.md#logic)
 
 * **URL跟蹤參數**  — 現在，您可以使用表達式編輯器在電子郵件曲面（即預設）中配置URL跟蹤參數。 [了解更多](../configuration/email-settings.md#url-tracking)
 
 **Offer Decisioning**
 
-* **受眾大小**  — 當建立決策規則、選擇段或規則以設定聘用資格或將段或規則添加到決策範圍時，新的受眾規模估計元件現在顯示在用戶介面中。
+* **對象規模** - 當建立決定規則、選擇區段或規則以設定優惠方案適用性或將區段或規則新增到決定範圍時，新的對象規模預估元件現在顯示在使用者介面中。

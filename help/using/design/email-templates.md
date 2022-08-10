@@ -5,7 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
+exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
+source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 8%
@@ -63,4 +64,3 @@ ht-degree: 8%
 1. 按一下 **[!UICONTROL Use this email]** 右上角。
 
 1. 使用電子郵件設計器根據需要編輯內容。
-

@@ -9,13 +9,13 @@ exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
 # 快速入門 {#cjm-quick-start}
 
-與 [!DNL Adobe Journey Optimizer]，您可以導入現有消息內容或設計新內容、使用客戶配置檔案資料對消息進行個性化設定、建立事件以觸發消息、定義段和細化受眾、建立和添加優惠，以及訪問一套完整的報告和監控工具以衡量消息和客戶行程的影響。
+透過[!DNL Adobe Journey Optimizer]，您可以匯入現有訊息內容或設計新內容、使用客戶個人檔案資料個人化訊息、建立事件以觸發訊息、定義區段並調整對象、建立並新增優惠方案，以及存取一套完整的報告與監控工具來評估您訊息造成的影響以及客戶歷程。
 
 您可以根據您的組織定義數種使用者類型，並依其權限授予他們特定功能的存取權。
 

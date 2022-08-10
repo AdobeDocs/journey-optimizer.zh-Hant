@@ -1,5 +1,5 @@
 ---
-title: '開始使用優惠目錄匯出  '
+title: 開始使用優惠目錄匯出
 description: 瞭解如何將優惠目錄導出為資料集
 feature: Offers
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 15%
 
 ---
 
-# 開始使用優惠目錄匯出   {#export-catalog}
+# 開始使用優惠目錄匯出 {#export-catalog}
 
 Journey Optimizer允許您自動將優惠目錄導出到Adobe Experience Platform。
 

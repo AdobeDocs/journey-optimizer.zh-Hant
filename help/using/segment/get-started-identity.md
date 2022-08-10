@@ -26,9 +26,9 @@ ht-degree: 9%
 
 ## 標識命名空間 {#identity-namespaces}
 
-****&#x200B;身分識別命名空間是 Identity Service 的元件，用途是作為身分識別相關內容的指標。例如，它們將 `name@email.com` 電子郵件地址或 `443522` 作為數字CRM ID。 使用標識命名空間需要瞭解涉及的各種Adobe Experience Platform服務。 開始使用命名空間之前，請查看以下服務的文檔：
+****&#x200B;身分識別命名空間是 Identity Service 的元件，用途是作為身分識別相關內容的指標。 例如，它們將 `name@email.com` 電子郵件地址或 `443522` 作為數字CRM ID。 使用標識命名空間需要瞭解涉及的各種Adobe Experience Platform服務。 開始使用命名空間之前，請查看以下服務的文檔：
 
-瞭解有關 **標識命名空間** 在 [本文檔](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+瞭解有關 **標識命名空間** 在 [本文檔](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target=&quot;_blank&quot;}。
 
 ## 標識圖{#id-graph}
 

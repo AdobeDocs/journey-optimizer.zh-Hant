@@ -1,12 +1,13 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: 個性化優化模型
+title: 個人化最佳化模型
 description: 瞭解有關個性化優化模型的更多資訊
 feature: Ranking Formulas
 role: User
 level: Intermediate
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+exl-id: c73b3092-e96d-4957-88e6-500e99542782
+source-git-commit: bfed2a150c1c1568e666d16753b032b203749033
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 0%

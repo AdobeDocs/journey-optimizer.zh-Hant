@@ -7,7 +7,8 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
+source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 1%
@@ -135,4 +136,3 @@ ht-degree: 1%
 從您的活動 **[!UICONTROL Global report]**，也請參見Wiki頁。 **[!UICONTROL Experimentation]** 頁籤詳細列出與每個變型的執行方式以及在test期間是否存在最佳執行者相關的主要資訊。
 
 有關此報告的更多詳細資訊，請參閱 [市場活動全局報表](../campaigns/content-experiment.md#experimentation-report) 的子菜單。
-

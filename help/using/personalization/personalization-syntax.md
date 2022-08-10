@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 9%
+source-wordcount: '704'
+ht-degree: 10%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 9%
 其中：
 
 * `profile` 是命名空間。
-* `person.name` 是由屬性組成的標籤。 屬性結構在Adobe Experience PlatformXDM架構中定義。 [進一步了解](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;}.
+* `person.name` 是由屬性組成的標籤。 屬性結構在Adobe Experience PlatformXDM架構中定義。 [進一步了解](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
 
 ## 語法一般規則 {#general-rules}
 
@@ -121,7 +121,7 @@ Handlebars幫助程式是一個簡單的標識符，可以跟隨參數。
 每個參數都是Handlebars表達式。 可以從模板中的任何上下文訪問這些幫助程式。
 
 這些塊幫助程式由幫助程式名稱前的#標識，並需要具有相同名稱的匹配關閉/。
-塊是具有塊開口({{# }})和關閉({{/}})。
+塊是具有塊開口({{# }}) and closing ({{/}})。
 
 
 >[!NOTE]
@@ -135,7 +135,7 @@ Handlebars幫助程式是一個簡單的標識符，可以跟隨參數。
 | 文字 | 定義 |
 | ------- | ---------- |
 | 字串 | 一種資料類型，由雙引號環繞的字元組成。 <br>範例: `"prospect"`, `"jobs"`, `"articles"` |
-| 布爾型 | 為true或false的資料類型。 |
+| 布林值 | 為true或false的資料類型。 |
 | 整數 | 表示整數的資料類型。 可以是正的、負的或零的。 <br>範例: `-201`, `0`, `412` |
 | 陣列 | 作為一組其他文字值組成的資料類型。 它使用方括弧對不同值進行分組，使用逗號分隔。 <br> **注：** 不能直接訪問陣列中項的屬性。 <br> 範例: `[1, 4, 7]`, `["US", "FR"]` |
 

@@ -7,7 +7,8 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
+source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 0%
@@ -144,5 +145,3 @@ Adobe宣稱，當信心超過95%時，實驗是決定性的。
    >[!CAUTION]
    >
    >更多的分析意味著發現虛假效應或假陽性的幾率更高。
-
-

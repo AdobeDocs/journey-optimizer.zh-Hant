@@ -56,7 +56,7 @@ ht-degree: 5%
 
 ## 與Customer Journey Analytics整合 {#integration-cja}
 
-[!DNL Journey Optimizer] 步驟事件可以連結到中的其他資料集 [AdobeCustomer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+[!DNL Journey Optimizer] 步驟事件可以連結到中的其他資料集 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 一般工作流是：
 

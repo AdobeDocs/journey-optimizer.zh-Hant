@@ -1,5 +1,5 @@
 ---
-title: 設定通道曲面
+title: 設定頻道介面
 description: 瞭解如何配置和監視通道曲面
 feature: Application Settings
 topic: Administration
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 ---
 
-# 設定通道曲面 {#set-up-channel-surfaces}
+# 設定頻道介面 {#set-up-channel-surfaces}
 
 與 [!DNL Journey Optimizer]，可以設定通道曲面（即消息預設），以定義消息所需的所有技術參數：電子郵件類型、發件人電子郵件和姓名、移動應用等。
 

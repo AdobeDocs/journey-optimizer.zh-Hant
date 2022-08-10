@@ -1,15 +1,15 @@
 ---
-title: 批量決策
+title: 批次決策
 description: 瞭解如何向給定的Adobe Experience Platform部門中的所有配置檔案提供服務決策。
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
+source-git-commit: f3f38e7db95bd1a6dc41b1626177c800280fb71c
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-
-# 批量決策 {#deliver}
+# 批次決策 {#deliver}
 
 ## 開始批量決策 {#start}
 

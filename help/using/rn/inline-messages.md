@@ -5,7 +5,7 @@ exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1732'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 0%
 >id="ajo_messages_migration_before"
 >title="瞭解有關新內聯創作功能的詳細資訊"
 >abstract="從2022年7月25日起，郵件直接從Journey中編寫。 現有消息將自動遷移到新模型。 如果您當前在行程中使用消息，則遷移後將需要其他操作。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="遷移步驟"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="移轉步驟"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_during"
 >title="瞭解發生的情況"
 >abstract="從2022年7月25日起，郵件直接從Journey中編寫。 正在遷移您的環境。 遷移後，如果您當前在行程中使用消息，則需要執行其他操作。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="遷移步驟"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="移轉步驟"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_after"
 >title="瞭解如何遷移郵件"
 >abstract="從2022年7月25日起，郵件直接從Journey中編寫。 現有消息已遷移到新模型。 作為旅行實踐者，使用消息進行旅行時現在需要附加操作。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="遷移步驟"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="移轉步驟"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
@@ -36,7 +36,7 @@ ht-degree: 0%
 >abstract="從2022年7月25日起，「消息」菜單消失，消息直接從「旅程」中創作。 如果要在行程中重新使用舊消息，則需要將它們另存為模板。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="將郵件另存為模板"
 
-Adobe Journey Optimizer正在發佈一項新功能，該功能可改進您為Journey Optimizer頻道（電子郵件、推送、簡訊）編寫內容的方式。 作為Journey Optimizer的實踐者，您現在可以直接從旅途中建立和撰寫資訊。
+Adobe Journey Optimizer正在發佈一項新功能，該功能可改進您為Journey Optimizer頻道（電子郵件、推送、簡訊）編寫內容的方式。 作為 Journey Optimizer 的從業人員，現在可直接 建立和編寫 從歷程中傳來的訊息。 
 
 此功能需要遷移使用消息的現有行程。 在此頁中，您將找到有關此更改的必要資訊以及所需的步驟。
 
@@ -65,7 +65,7 @@ Here are the main changes in the interface:
 
    ![](assets/inline-migration-timeline.png)
 
-* **所需操作**:為您執行自動轉換行程。 話雖如此，我們需要你的幫助。 瞭解有關此步驟中所需步驟的更多資訊 [頁](../rn/inline-messages-steps.md)。
+* **所需操作**:為您執行自動轉換行程。 話雖如此，我們需要你協助幾個步驟。 瞭解有關此步驟中所需步驟的更多資訊 [頁](../rn/inline-messages-steps.md)。
 
 * **棄用**:9月6日之後，所有仍使用舊版消息的旅程均停止，稍後將刪除。
 
@@ -108,7 +108,7 @@ Adobe的願景是不斷簡化產品，以提供高效和優化的用戶流。 �
 
 ## 遷移時間表{#iterations}
 
-需要遷移才能使用 **消息** 使用內聯創作的操作進入旅程。 將為您執行自動轉換行程。 話雖如此，我們需要你的幫助。
+需要遷移才能使用 **消息** 使用內聯創作的操作進入旅程。 將為您執行自動轉換歷程。 話雖如此，我們需要你協助幾個步驟。 
 
 每個區域在夜間通過多次迭代進行遷移。 以下是遷移時間表：
 
