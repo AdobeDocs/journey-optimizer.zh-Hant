@@ -4,11 +4,11 @@ description: 瞭解有關運行實驗時使用的統計計算的詳細資訊
 feature: Overview
 topic: Content Management
 role: User
-level: advanced
+level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
+source-git-commit: 29c9b8d9e48192b940cb726ed0c116d0782d849a
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 0%
@@ -62,7 +62,7 @@ A **置信序列** 是一個 **置信區間**&#x200B;例如，如果您重複實
 
 ![](assets/experimentation_report_2.png)
 
-每次您查看實驗報告時，Adobe都會分析在實驗中累計到此時的資料，並會宣稱當任何有效置信度超過至少一種治療的95%的閾值時，實驗是「決定性的」。
+每次您查看實驗報告時，Adobe都會分析在實驗中累計到這一點的資料，並且當任何時間有效置信度超過95%的閾值時，當至少一個治療的有效置信度超過95%時，將宣佈實驗為「結論性」。
 
 此時，執行最佳處理（基於轉換率或輪廓標準化度量值）的處理將在報告螢幕頂部突出顯示，並在表格報告中以星號表示。 在此確定中只考慮具有大於95%的置信度和基線的處理。
 
