@@ -8,7 +8,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: b56df2c22f041114805e10fee7156855c2cbbfa9
+source-git-commit: 11f7ce37dc1a99de4ed29fa7793f126e259f518d
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 2%
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 的 **[!UICONTROL Objectives]** 「促銷活動」報告的標籤允許您通過確定一個特定指標來更好地調整交貨報告。
 
-的 **[!UICONTROL Objectives]** 列出 **[!UICONTROL Datasets]** 定義與系統的連接以檢索附加資訊。 內置清單 **[!UICONTROL Objectives]** 可用，但您可以通過添加新 **[!UICONTROL Dataset]**。 有關詳細過程，請參閱本文檔。
+的 **[!UICONTROL Objectives]** 列出 **[!UICONTROL Datasets]** 定義與系統的連接以檢索附加資訊。 內置清單 **[!UICONTROL Objectives]** 可用，但您可以通過添加新 **[!UICONTROL Dataset]**。 有關詳細過程，請參閱 [節](reporting-configuration.md)。
 
 選擇要針對的目標後， **[!UICONTROL Performance overview]** 和 **[!UICONTROL Campaign objective]** 小部件將提供交付效能的詳細摘要。
 
