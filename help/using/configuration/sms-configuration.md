@@ -4,10 +4,10 @@ description: 瞭解如何配置環境以向Journey Optimizer發送SMS消息
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: f44638ac7cfb078b6914635433feedb0f48ef099
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 8%
+source-wordcount: '481'
+ht-degree: 7%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 8%
 >簡訊管道目前僅可用於一組組織（可用性限制）。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 ## 建立新API憑據 {#create-api}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api"
+>title="配置您的SMS供應商"
+>abstract="選擇您的供應商並填寫您的SMS API憑據。"
 
 要使用Journey Optimizer配置您的SMS供應商，請執行以下步驟：
 
@@ -45,6 +50,12 @@ ht-degree: 8%
 建立和配置API憑據後，您現在需要為SMS消息建立通道表面（即消息預設）。
 
 ## 為SMS消息建立通道表 {#message-preset-sms}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_surface_sms_type"
+>title="定義SMS類別"
+>abstract="選擇使用此表面時將發送的SMS消息的類型：需要用戶同意的促銷SMS消息的營銷，或非商業SMS消息的事務性營銷，這些消息也可以發送到特定上下文中的未訂閱配置檔案。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/create-sms.html#sms-opt-in-out" text="選擇退出營銷SMS消息"
 
 配置SMS通道後，您需要建立一個通道表，以便能夠從 **[!DNL Journey Optimizer]**。
 
