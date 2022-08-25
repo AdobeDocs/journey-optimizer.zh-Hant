@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 1%
+source-wordcount: '878'
+ht-degree: 3%
 
 ---
 
@@ -129,10 +129,52 @@ ht-degree: 1%
 
    ![](assets/content_experiment_14.png)
 
-## 試驗報告 {#experimentation-report}
+在配置了您的試驗和促銷活動後，您可以通過「促銷活動」報告跟蹤交付的成功。
+
+## 目標報告 {#objectives-global}
+
+>[!AVAILABILITY]
+>
+>「內容」實驗功能目前僅適用於一組組織（有限可用性）。 如需詳細資訊，請聯絡您的 Adobe 代表。
+
+![](assets/performance_report.gif)
+
+的 **[!UICONTROL Objectives]** 「促銷活動」報告的標籤允許您通過確定一個特定指標來更好地調整交貨報告。
+
+的 **[!UICONTROL Objectives]** 列出 **[!UICONTROL Datasets]** 定義與系統的連接以檢索附加資訊。 內置清單 **[!UICONTROL Objectives]** 可用，但您可以通過添加新 **[!UICONTROL Dataset]**。 有關詳細過程，請參閱 [節](reporting-configuration.md)。
+
+選擇要針對的目標後， **[!UICONTROL Performance overview]** 和 **[!UICONTROL Campaign objective]** 小部件將提供交付效能的詳細摘要。
+
+使用 **[!UICONTROL Campaign objective]** 小部件，您還可以選擇將主目標與其他度量進行比較。
+
+請注意，如果需要，可以調整每個小部件的大小並將其刪除。 有關此的詳細資訊，請參閱此 [節](../reports/global-report.md#modify-dashboard)。
+
+## 試驗報告 {#experimentation-global}
+
+>[!AVAILABILITY]
+>
+>「內容」實驗功能目前僅適用於一組組織（有限可用性）。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 ![](assets/experimentation_report_3.png)
 
-從您的活動 **[!UICONTROL Global report]**，也請參見Wiki頁。 **[!UICONTROL Experimentation]** 頁籤詳細列出與每個變型的執行方式以及在test期間是否存在最佳執行者相關的主要資訊。
+從您的活動 **[!UICONTROL Global report]**，也請參見Wiki頁。 **[!UICONTROL Experimentation]** 頁籤詳細列出與每個變型的執行方式以及是否存在最佳執行者相關的主要資訊。
 
-有關此報告的更多詳細資訊，請參閱 [市場活動全局報表](../campaigns/content-experiment.md#experimentation-report) 的子菜單。
+請注意，定義最佳執行者可能需要一些時間，它將由此表徵圖表示 ![](assets/experimentation_report_1.png)。
+
+的 **[!UICONTROL Experiment result]** 小部件詳細列出每個變數的效能。 通過從 **[!UICONTROL Baseline]** 下拉。 最佳治療方式將用星形表徵圖來表示。
+
+該表顯示以下度量：
+
+* **[!UICONTROL Profiles]**:針對此治療的配置檔案數。
+
+* **[!UICONTROL Unique outbound clicks]**:出站通道上的按一下總數。
+
+* **[!UICONTROL Count per profile]**:實驗目標度量的總值除以輪廓數。
+
+* **[!UICONTROL Confidence interval]**:基線與最佳處理之間效能差異的百分比。 [了解更多](../campaigns/experiment-calculations.md#confidence-intervals)。
+
+* **[!UICONTROL Average lift]**:給定治療的轉換率比基線提高百分比。 [了解更多](../campaigns/experiment-calculations.md#understand-lift)
+
+* **[!UICONTROL Confidence]**:有證據表明，某一治療與基準治療相同。 [了解更多](../campaigns/experiment-calculations.md#understand-confidence)
+
+有關這些結果的深入瞭解和解釋方法，請參閱 [此頁](../campaigns/get-started-experiment.md#interpret-results)。

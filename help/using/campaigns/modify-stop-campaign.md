@@ -1,27 +1,27 @@
 ---
 title: 修改或停止行銷活動
-description: 瞭解如何建立或停止中激活的市場活動 [!DNL Journey Optimizer]
+description: 瞭解如何在中修改、停止或複製即時市場活動 [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 15%
+source-wordcount: '227'
+ht-degree: 2%
 
 ---
 
-# 修改或停止行銷活動 {#modify-stop-campaign}
+# 管理即時市場活動 {#modify-stop-campaign}
 
-激活市場活動後，您可以隨時編輯或停止它。 請依照下列步驟以執行此操作。
+激活市場活動後，您可以隨時修改或停止它。 這些操作僅適用於定期執行的市場活動。
 
-## 修改激活的市場活動 {#modify}
+此外，您還可以複製即時市場活動（執行一次或循環執行）以建立新市場活動。
 
-要修改和建立市場活動的新版本，請執行以下步驟：
+## 修改定期市場活動 {#modify}
+
+要修改和建立定期市場活動的新版本，請執行以下步驟：
 
 1. 開啟市場活動，然後按一下 **[!UICONTROL Modify campaign]** 按鈕
 
@@ -39,20 +39,20 @@ ht-degree: 15%
    >
    >激活草稿將替換活動的即時版本。
 
-## 停止市場活動 {#stop}
+## 停止定期市場活動 {#stop}
 
-要停止市場活動，請開啟市場活動，然後按一下 **[!UICONTROL Stop campaign]** 按鈕
+要停止定期市場活動，請開啟它，然後按一下 **[!UICONTROL Stop campaign]** 按鈕
 
 ![](assets/create-campaign-stop.png)
 
 >[!IMPORTANT]
 >
->停止市場活動後，它將僅以只讀模式可用。 您將無法再次激活它，或使用它建立新市場活動。
+>停止市場活動不會停止正在進行的發送，但如果發送已在進行，它將停止計畫的發送或下一次發生。
 
-## 其他資源
+<!-- inbound campaign (inapp): can stop and resume -->
 
-* [開始使用行銷活動](get-started-with-campaigns.md)
-* [建立行銷活動](create-campaign.md)
-* [建立API觸發的市場活動](api-triggered-campaigns.md)
-* [行銷活動即時報告](campaign-live-report.md)
-* [行銷活動全域報告](campaign-global-report.md)
+## 複製市場活動 {#duplicate}
+
+您可以複製即時市場活動以建立新市場活動。 要執行此操作，請開啟市場活動，然後按一下 **[!UICONTROL Duplicate]**。
+
+![](assets/create-campaign-duplicate.png)

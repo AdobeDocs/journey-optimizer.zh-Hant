@@ -4,10 +4,10 @@ description: 瞭解如何使用 [!DNL Journey Optimizer] API
 hide: true
 hidefromtoc: true
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 4%
+source-wordcount: '676'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,6 @@ ht-degree: 4%
 >
 >互動式消息執行API當前處於測試版中，它可能需要頻繁更新，恕不另行通知。
 
-
 與 [!DNL Journey Optimizer]，您可以建立市場活動，然後使用用戶觸發器從外部系統調用它們 [互動式消息執行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution)。 這允許您滿足各種操作和事務性消息傳遞需求，如密碼重置、OTP令牌等。
 
 為此，您首先需要在Journey Optimizer建立API觸發的市場活動，然後通過API調用啟動其執行。
@@ -28,7 +27,7 @@ API觸發的市場活動的可用渠道是電子郵件、簡訊和推送消息�
 
 ## 建立API觸發的市場活動 {#create}
 
-建立API觸發的市場活動的過程與計畫的市場活動保持相同，但在API負載中執行的受眾選擇除外。 有關如何建立市場活動的詳細資訊，請參閱 [此部分](create-campaign.md)。
+建立API觸發的市場活動的過程與計畫的市場活動相同，但在API負載中執行的受眾選擇除外。 有關如何建立市場活動的詳細資訊，請參閱 [此部分](create-campaign.md)。
 
 要建立API觸發的市場活動，請執行以下步驟：
 
@@ -92,11 +91,3 @@ API觸發的市場活動的可用渠道是電子郵件、簡訊和推送消息�
 >[!NOTE]
 >
 >在某些情況下，您可能需要向系統中不存在的配置檔案發送事務性消息。 例如，如果未知用戶嘗試登錄您的網站。 在這種情況下，相應的配置檔案會自動建立到Adobe Experience Platform, **AJO交互消息配置檔案資料集** 資料集。
-
-## 其他資源
-
-* [開始使用行銷活動](get-started-with-campaigns.md)
-* [建立行銷活動](create-campaign.md)
-* [修改或停止行銷活動](modify-stop-campaign.md)
-* [行銷活動即時報告](campaign-live-report.md)
-* [行銷活動全域報告](campaign-global-report.md)

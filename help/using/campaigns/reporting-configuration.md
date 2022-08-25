@@ -7,7 +7,8 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 11f7ce37dc1a99de4ed29fa7793f126e259f518d
+exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 4%
@@ -94,7 +95,7 @@ ht-degree: 4%
    >
    >如果選擇了非事件類型的資料集，則無法繼續。
 
-在生成交貨報告時，您現在可以使用此資料集中的資料來檢索其他自定義資訊，並更好地調整報告。 [了解更多](campaign-global-report.md#objectives-global)
+在生成交貨報告時，您現在可以使用此資料集中的資料來檢索其他自定義資訊，並更好地調整報告。 [了解更多](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >

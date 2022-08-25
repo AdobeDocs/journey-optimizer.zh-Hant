@@ -5,13 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 8%
+source-wordcount: '307'
+ht-degree: 3%
 
 ---
 
@@ -24,19 +22,18 @@ ht-degree: 8%
 
 ## 關於市場活動 {#about}
 
+>[!IMPORTANT]
+>
+>此功能僅對具有市場活動相關產品配置檔案（如市場活動管理員、市場活動審批人、市場活動經理和/或市場活動查看者）訪問權限的用戶可用。 有關如何分配產品配置檔案的詳細資訊，請參閱 [此頁](../administration/permissions.md)。
+
 市場活動允許您使用多個渠道將一次性內容交付到特定市場。 與按順序執行活動的行程不同，市場活動可以同時執行活動，或者立即執行，或者按指定的時間表執行。
 
-您可以建立兩種類型的市場活動：
+這樣，您就可以發送簡單的臨時批通信，用於市場營銷使用案例，如促銷優惠、接洽活動、公告、法律通知或策略更新。
 
-* **計畫的市場活動** 允許針對促銷優惠、接洽活動、公告、法律通知或策略更新等市場營銷用例進行簡單的臨時批通信。
-* **API觸發的市場活動** 允許使用REST API（密碼重置、卡放棄等）執行簡單的事務/操作消息，其中需要可能涉及使用配置檔案屬性和負載的上下文資料進行個性化。
+<!--You can create two types of campaigns:
 
-瞭解如何處理市場活動：
-* [建立行銷活動](create-campaign.md)
-* [建立API觸發的市場活動](api-triggered-campaigns.md)
-* [修改或停止行銷活動](modify-stop-campaign.md)
-* [行銷活動即時報告](campaign-live-report.md)
-* [行銷活動全域報告](campaign-global-report.md)
+* **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
+* **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
 
 ## 存取行銷活動 {#access}
 
@@ -55,7 +52,7 @@ ht-degree: 8%
 * **[!UICONTROL Live]**:活動已激活。
 * **[!UICONTROL Scheduled]**:市場活動已配置為在特定開始日期激活。
 * **[!UICONTROL Stopped]**:市場活動已手動停止。 您不能再激活或重新使用它(請參見 [停止市場活動](modify-stop-campaign.md#stop))
-* **[!UICONTROL Completed]**:市場活動已完成。
+* **[!UICONTROL Completed]**:市場活動已完成。 在激活市場活動3天後，或在市場活動結束日期（如果市場活動已定期執行）自動分配此狀態。
 * **[!UICONTROL Archived]**:市場活動已存檔。
 
 >[!NOTE]

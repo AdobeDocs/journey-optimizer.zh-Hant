@@ -2,10 +2,10 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 30d197f3eab05e2e38025189a6948a6c0fbd6d54
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 63%
+source-wordcount: '280'
+ht-degree: 50%
 
 ---
 
@@ -21,21 +21,22 @@ ht-degree: 63%
 
 ### 新功能
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Create and manage campaigns in Journey Optimizer</strong><br/></th>
+<th><strong>在Journey Optimizer建立和管理市場活動</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Use Journey Optimizer campaigns to deliver one-time content to a specific segment using various channels. When using journeys, actions are designed to be executed in sequence. With campaigns actions are performed simultaneously, either immediately, or based on a specified schedule. </p>
-<p>For more information, refer to the <a href="../campaigns/get-started-with-campaigns.md">detailed documentation</a>.
+<p>使用Journey Optimizer市場活動，通過各種渠道將一次性內容交付到特定市場。 使用行程時，按順序執行動作。 對於市場活動，活動可以同時執行，也可以立即執行，或者根據指定的時間表執行。 </p>
+<img src="assets/do-not-localize/campaigns.gif"/>
+<p>瞭解如何建立此活動 <a href="../campaigns/get-started-with-campaigns.md">詳細文檔</a>。
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <table>
 <thead>

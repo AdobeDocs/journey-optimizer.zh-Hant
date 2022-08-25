@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 98%
+source-wordcount: '1124'
+ht-degree: 97%
 
 ---
 
@@ -37,16 +37,13 @@ ht-degree: 98%
 + 行銷活動 {#campaigns}
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
    + [建立行銷活動](using/campaigns/create-campaign.md)
-   + [修改或停止行銷活動](using/campaigns/modify-stop-campaign.md)
+   + [管理即時市場活動](using/campaigns/modify-stop-campaign.md)
    + 內容實驗 {#content-experiment}
       + [開始內容實驗](using/campaigns/get-started-experiment.md)
       + [建立內容實驗](using/campaigns/content-experiment.md)
       + [瞭解統計計算](using/campaigns/experiment-calculations.md)
-   + [利用 API 觸發行銷活動](using/campaigns/api-triggered-campaigns.md)
-   + 報告 {#reports}
-      + [行銷活動即時報告](using/campaigns/campaign-live-report.md)
-      + [行銷活動全域報告](using/campaigns/campaign-global-report.md)
       + [報告配置](using/campaigns/reporting-configuration.md)
+   + [利用 API 觸發行銷活動](using/campaigns/api-triggered-campaigns.md)
 + 訊息 {#messages}
    + [開始使用訊息](using/messages/get-started-content.md)
    + [建立電子郵件](using/messages/create-email.md)
@@ -244,11 +241,13 @@ ht-degree: 98%
    + 即時報告 {#live-report}
       + [存取即時報告儀表板](using/reports/live-report.md)
       + [歷程即時報告](using/reports/journey-live-report.md)
+      + [市場活動即時報告](using/reports/campaign-live-report.md)
       + [登陸頁面即時報告](using/reports/lp-report-live.md)
       + [訂閱清單即時報告](using/reports/subscription-report-live.md)
    + 全域報告 {#global-report}
       + [存取全域報告儀表板](using/reports/global-report.md)
       + [歷程全域報告](using/reports/journey-global-report.md)
+      + [市場活動全局報表](using/reports/campaign-global-report.md)
       + [登陸頁面全域報告](using/reports/lp-report-global.md)
       + [訂閱清單全域報告](using/reports/subscription-report-global.md)
    + 歷程報告 {#reports}

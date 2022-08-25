@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1595'
 ht-degree: 9%
 
 ---
@@ -25,10 +25,15 @@ ht-degree: 9%
 
 [!DNL Journey Optimizer] 支援推送通知，並幫助您以業界領先的吞吐率發送高度相關的通知。 推送通知可能包括個性化和基於旅程的上下文，以便利用您的品牌對Adobe Experience Cloud的資料洞察力。
 
-一旦 [添加推](get-started-content.md) 活動到您的旅程，並定義基本設定，使用 **[!UICONTROL Actions: Push]** 右窗格，為推送通知建立內容。
+可以建立推式通知：
 
-![](assets/add-a-push.png)
+* 在 **旅程**:在行程中添加推送活動並定義基本設定後，使用 **[!UICONTROL Actions: Push]** 右窗格，為推送通知建立內容。
 
+   有關如何配置行程的詳細資訊，請參閱此 [頁](../building-journeys/journey-gs.md)。
+
+* 在 **活動**:建立市場活動後，選擇「推送通知」作為活動並定義基本設定。
+
+   有關如何配置市場活動的詳細資訊，請參閱此 [頁](../campaigns/create-campaign.md#configure)。
 
 使用專用頁籤定義推送通知設定 **iOS** 和 **安卓** 作業系統。
 

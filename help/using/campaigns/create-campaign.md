@@ -5,13 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 6%
+source-wordcount: '580'
+ht-degree: 4%
 
 ---
 
@@ -33,10 +31,14 @@ ht-degree: 6%
 
    ![](assets/create-campaign.png)
 
-1. 在 **[!UICONTROL Properties]** 部分，指定要執行市場活動的時間：
+   >[!NOTE]
+   >
+   >您還可以複製現有的即時市場活動，以建立新市場活動。[了解更多](modify-stop-campaign.md#duplicate) <!-- check if only live campaigns-->
 
-   * **[!UICONTROL Scheduled]**:立即或在指定日期執行市場活動。 計畫的市場活動旨在發送 **營銷** 鍵入消息。
-   * **[!UICONTROL API-triggered]**:使用API調用執行市場活動。 API觸發的市場活動旨在發送 **事務** 消息，即在個人執行的操作後發送的消息：密碼重置、卡棄用等。 [瞭解如何使用API觸發市場活動](api-triggered-campaigns.md)
+<!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
+
+    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date. Scheduled campaigns are aimed at sending **marketing** type messages.
+    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. API-triggered campaigns are aimed at sending **transactional** messages, i.e. messages sent out following an action performed by an individual: password reset, card abandonment etc. [Learn how to trigger a campaign using APIs](api-triggered-campaigns.md)-->
 
 1. 在 **[!UICONTROL Actions]** ，選擇用於發送消息的通道和通道曲面，然後按一下 **[!UICONTROL Create]**。
 
@@ -52,21 +54,23 @@ ht-degree: 6%
 
 1. 在 **[!UICONTROL Actions]** 部分，配置要隨市場活動一起發送的消息：
 
-   1. 按一下 **[!UICONTROL Edit content]** 按鈕，然後配置和設計消息內容。 [瞭解有關郵件的更多資訊](../messages/get-started-content.md)。
+   1. 按一下 **[!UICONTROL Edit content]** 按鈕，然後配置和設計消息內容。 [瞭解有關郵件的更多資訊](../messages/get-started-content.md)
 
-      內容準備好後，按一下箭頭返回市場活動建立螢幕。
+      >[!NOTE]
+      >
+      >的 **[!UICONTROL Simulate content]** 按鈕，您可以使用test配置式預覽和test內容。 [了解更多](../design/preview.md)
+
+   1. 內容準備好後，按一下箭頭返回市場活動建立螢幕。
 
       ![](assets/create-campaign-design.png)
 
    1. 在 **[!UICONTROL Actions tracking]** 部分，指定是否要跟蹤收件人對交貨的反應。
 
-      市場活動一旦執行，便可以從市場活動報告訪問跟蹤結果。 [瞭解有關市場活動報告的更多資訊](campaign-global-report.md)
+      市場活動一旦執行，便可以從市場活動報告訪問跟蹤結果。 [瞭解有關市場活動報告的更多資訊](../reports/campaign-global-report.md)
 
 1. 定義目標受眾。 要執行此操作，請按一下 **[!UICONTROL Select audience]** 按鈕來顯示可用的Adobe Experience Platform段清單。 [瞭解有關網段的更多資訊](../segment/about-segments.md)
 
-   >[!NOTE]
-   >
-   >對於API觸發的市場活動，需要通過API調用來設定受眾。 [了解更多](api-triggered-campaigns.md)
+   <!-- NOTE For API-triggered campaigns, the audience needs to be set via API call. [Learn more](api-triggered-campaigns.md)-->
 
    在 **[!UICONTROL Identity namespace]** 欄位中，選擇要用於標識選定段中的個體的命名空間。 [瞭解有關命名空間的詳細資訊](../event/about-creating.md#select-the-namespace)
 
@@ -80,13 +84,11 @@ ht-degree: 6%
 
 1. 此外，您還可以指定執行市場活動中配置的操作的頻率。
 
-   >[!NOTE]
-   >
-   >對於API觸發的市場活動，由於通過API觸發活動，因此在特定日期和時間進行具有重複的計畫不可用。 但是，開始和結束日期與確保在窗口之後進行API調用之前，這些調用將出錯。
+   <!-- NOTE For API-triggered campaigns, scheduling at a specific date and time with recurrence is not available as action is triggered via API. However, start and end date are relevant to ensure that, if an API call is made prior of after the window, then those get errored.-->
 
    ![](assets/create-campaign-schedule.png)
 
-1. 如果要建立API觸發的市場活動， **[!UICONTROL cURL request]** 部分允許您檢索 **[!UICONTROL Campaign ID]** 在API調用中使用。 [了解更多](api-triggered-campaigns.md)
+<!--1. If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 市場活動準備好後，您可以查看並發佈它(請參閱 [複查並激活市場活動](#review-activate))。
 
@@ -108,24 +110,16 @@ ht-degree: 6%
 
    ![](assets/create-campaign-review.png)
 
-1. 該活動現已啟動，並 **[!UICONTROL Live]** 狀態(或 **[!UICONTROL Scheduled]**  )的正平方根。 [瞭解有關市場活動狀態的詳細資訊](get-started-with-campaigns.md#statuses)
-
-   市場活動中配置的消息將立即或在指定日期執行。
+1. 該活動現已啟動，並 **[!UICONTROL Live]** 狀態(或 **[!UICONTROL Scheduled]**  )的正平方根。 [瞭解有關市場活動狀態的詳細資訊](get-started-with-campaigns.md#statuses)。 市場活動中配置的消息將立即或在指定日期執行。
 
    >[!NOTE]
    >
-   >一旦激活了市場活動，即使在消息執行後，它仍將保持「即時」狀態。 要更改其狀態，需要手動停止它。 [瞭解如何停止活動](modify-stop-campaign.md)
+   >的 **[!UICONTROL Completed]** 狀態在市場活動激活3天後自動分配給市場活動，如果市場活動有定期執行，則在市場活動的結束日期自動分配。
+   >
+   >如果未指定結束日期，市場活動將保持「即時」狀態。 要更改市場活動，您需要手動停止市場活動。 [瞭解如何停止活動](modify-stop-campaign.md)
 
 1. 激活市場活動後，您可以隨時通過開啟市場活動資訊來檢查其資訊。 該摘要允許您獲取有關目標配置檔案數量以及交付和失敗操作的統計資訊。
 
-   您還可以通過按一下 **[!UICONTROL Reports]** 按鈕 [了解更多](campaign-global-report.md)
+   您還可以通過按一下 **[!UICONTROL Reports]** 按鈕 [了解更多](../reports/campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)
-
-## 其他資源
-
-* [開始使用行銷活動](get-started-with-campaigns.md)
-* [建立API觸發的市場活動](api-triggered-campaigns.md)
-* [修改或停止行銷活動](modify-stop-campaign.md)
-* [行銷活動即時報告](campaign-live-report.md)
-* [行銷活動全域報告](campaign-global-report.md)

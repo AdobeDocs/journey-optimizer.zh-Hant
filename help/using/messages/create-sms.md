@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: ad09f4ec728e95da23f862e0e59fe827c71f0024
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 10%
+source-wordcount: '461'
+ht-degree: 9%
 
 ---
 
@@ -22,9 +22,15 @@ ht-degree: 10%
 
 使用 [!DNL Journey Optimizer] 將簡訊發送給客戶的移動設備。 您可以從SMS編輯器建立、個性化和預覽文本格式的消息。
 
-一旦 [添加了一條簡訊](get-started-content.md) 行程中的活動和定義的基本設定，使用 **[!UICONTROL Actions: SMS]** 右窗格，建立SMS消息的內容。
+可以建立SMS傳遞：
 
-![](assets/sms-edit-content.png)
+* 在 **旅程**:在您的行程中添加SMS活動並定義基本設定後，使用 **[!UICONTROL Actions: SMS]** 右窗格，建立SMS消息的內容。
+
+   有關如何配置行程的詳細資訊，請參閱此 [頁](../building-journeys/journey-gs.md)。
+
+* 在 **活動**:建立市場活動後，選擇SMS作為您的活動並定義基本設定。
+
+   有關如何配置市場活動的詳細資訊，請參閱此 [頁](../campaigns/create-campaign.md#configure)。
 
 如果這是您首次建立SMS消息，請確保已配置SMS通道。 [了解更多](../configuration/sms-configuration.md)。
 
