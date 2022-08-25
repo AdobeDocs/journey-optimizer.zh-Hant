@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 13%
+source-wordcount: '317'
+ht-degree: 12%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 13%
 1. 在工作區中添加和配置新欄位時， **[!UICONTROL Segment properties]** 窗格顯示屬於段的估計配置檔案的資訊。 按一下 **[!UICONTROL Refresh estimate]** 更新資料。
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
+
+   >[!NOTE]
+   >
+   >當規則參數包括不在配置檔案中的資料（如上下文資料）時，配置檔案估計不可用。 例如，要求當前天氣為≥80度的資格規則。
 
 1. 按一下 **[!UICONTROL Save]** 確認。
 

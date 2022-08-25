@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: d431673dd55b41b8d2de21ec82fa4b15baa13a0f
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1664'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,13 @@ ht-degree: 0%
 * **[!UICONTROL Actions successfully executed]**:總數 **[!UICONTROL Actions]** 成功執行。
 
 * **[!UICONTROL Error in action]**:發生的錯誤總數 **[!UICONTROL Actions]**。
+
+![](assets/global_report_25.png)
+
+的 **[!UICONTROL Consent policies]** 表和圖形顯示自定義操作中從每個策略中排除的配置檔案數。
+有關自定義操作的詳細資訊，請參閱 [詳細文檔](../action/about-custom-action-configuration.md)。
+
+請注意，要使這些小部件顯示在您的「行程」報表中，您需要重置儀表板。 為此，請按一下 **[!UICONTROL Modify]** 然後 **[!UICONTROL Reset]** 在報告的頂部。
 
 ## 電子郵件頁籤 {#email-global}
 

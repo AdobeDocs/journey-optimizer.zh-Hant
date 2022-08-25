@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 5087c5a13eda0b9b5894197b393788f82413690b
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 9%
+source-wordcount: '684'
+ht-degree: 8%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer正在發佈一項新功能，即「內聯創作」，它
 此產品設定檔包含下列權限：
 
 |功能 |權限| |-|-| |旅程| <ul><li> **[!DNL Manage journeys]**:讀取、建立、編輯和刪除旅程。</li><li>**[!DNL Publish journeys]**:發佈旅程。</li><li>**[!DNL Manage journeys events, data sources and actions]**:讀取、建立、編輯和刪除事件、源或操作。</li><li>**[!DNL View journeys report]**:閱讀和編輯旅程報告。</li></ul>|
-|管理|<ul><li>**[!DNL Manage subdomains delegation]**:讀取、建立、編輯和刪除子域委派。</li><li>**[!DNL Manage IP pools]**:讀取、建立、編輯和刪除ip池。</li><li>**[!DNL Manage PTR records]**:讀取和編輯PTR記錄。</li><li>**[!DNL View PTR records]**:對PTR記錄的只讀訪問。</li><li> **[!DNL Manage messages general settings]**:讀取、建立、編輯和刪除消息常規設定。</li><li>**[!DNL Manage channel surfaces]**:讀取、建立、編輯和刪除內容品牌。</li><li>**[!DNL Manage suppression rules]**:訪問讀取、建立、編輯和刪除禁止規則。</li><li>**[!DNL View suppression list]**:讀取並導出本地抑制清單。</li><li>**[!DNL Manage alerts]**:啟用/禁用旅程和權利的警報。</li></ul>|
+|管理|<ul><li>**[!DNL Manage subdomains delegation]**:讀取、建立、編輯和刪除子域委派。</li><li>**[!DNL Manage IP pools]**:讀取、建立、編輯和刪除ip池。</li><li>**[!DNL Manage PTR records]**:讀取和編輯PTR記錄。</li><li>**[!DNL View PTR records]**:對PTR記錄的只讀訪問。</li><li>**[!DNL Manage channel surfaces]**:讀取、建立、編輯和刪除內容品牌。</li><li>**[!DNL Manage Landing page settings]**:建立、編輯和刪除登錄頁子域和登錄頁預設。</li><li> **[!DNL Manage messages general settings]**:讀取、建立、編輯和刪除消息常規設定。</li><li>**[!DNL Manage SMS settings]**:建立、編輯和刪除啟用SMS通道所需的API憑據和SMS通道曲面。</li><li>**[!DNL Manage suppression rules]**:訪問讀取、建立、編輯和刪除禁止規則。</li><li>**[!DNL View suppression list]**:讀取並導出本地抑制清單。</li><li>**[!DNL Manage alerts]**:啟用/禁用旅程和權利的警報。</li></ul>|
 |決策管理|<ul><li>**[!DNL Manage decisions]**:讀取、建立、編輯和刪除決策。</li><li>**[!DNL Manage ranking strategies]**:讀取、建立、編輯和刪除排名策略。</li></ul>|
 |Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**:授予對沙箱的訪問權限。</li><li>**[!DNL Manage segments]**:讀取、建立、編輯和刪除段。</li><li>**[!DNL Manage profiles]**:讀取、建立、編輯和刪除配置檔案。</li><li>**[!DNL Read datasets]**:對資料集的只讀訪問。</li><li>**[!DNL Read schemas]**:對架構的只讀訪問。</li><li>**[!DNL Read Identity namespace]**:對標識命名空間的只讀訪問。</li><li>**[!DNL Manage merge policies]**:讀取、建立、編輯和刪除合併策略。</li></ul>| |Journey Optimizer庫|<ul><li>**[!DNL Manage Library Items]**:添加和刪除中保存的表達式 [!DNL Journey Optimizer] 庫。</li></ul>|
 

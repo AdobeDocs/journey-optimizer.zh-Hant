@@ -2,16 +2,119 @@
 title: 2022 年發行說明
 description: Journey Optimizer 2022 年發行說明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 5aae2f685969460329f241720b0faf9c681fa668
 workflow-type: tm+mt
-source-wordcount: '1790'
-ht-degree: 100%
+source-wordcount: '2337'
+ht-degree: 95%
 
 ---
 
 # 2022 年發行說明 {#release-notes-2022}
 
 此頁面列出了於 2022 年發行的所有 [!DNL Journey Optimizer] 功能和改善。
+
+
+## 2022 年 7 月發行版本 {#july-2022-release}
+
+### 新功能
+
+<table>
+<thead>
+<tr>
+<th><strong>全新內嵌訊息流程</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer 為歷程的訊息編寫提供全新流程。 線上傳送訊息消息將為使用者節省大量時間，並簡化在 Journey Optimizer 建立和傳遞電子郵件、推播通知或簡訊的工作流程。 透過將訊息作為單獨的步驟刪除，作為 Journey Canvas 動作的一部分都可內嵌編輯，使用者需要按更少的按鈕並導覽較少的畫面來設計和編輯其內容。</p>
+<img src="assets/do-not-localize/inline.gif"/>
+<p>如需詳細資訊，請參閱<a href="../messages/get-started-content.md">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>以屬性為基礎的存取控制 (可用性限制)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>現在，您可以使用定義組織或資料使用範圍的標籤標示身分綱要欄位。 管理員可以使用權限介面定義涵蓋 XDM 綱要欄位的存取原則，並更好地管理使用者或使用者群組 (內部、外部或協力廠商使用者) 的存取權限，以及管理對特定類型資料 (即敏感個人資料/SPD) 的存取權限。</p>
+<p>以屬性為基礎的存取控制目前僅限於選定使用者，將在未來的版本中同步到所有環境。</p>
+<p>如需詳細資訊，請參閱<a href="../administration/attribute-based-access.md">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>批次決策作業</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>現在，您可以從使用者介面執行批次決策作業，這樣我就不需要開發人員來執行批次 API 作業，而且我可以減少行銷所需的時間。 此新介面允許您建立作業及管理目前/過去的作業。</p>
+<img src="assets/do-not-localize/batch.gif"/>
+<p>如需詳細資訊，請參閱<a href="../offers/batch-delivery.md">詳細文件。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>在您的決定中自動執行最佳優惠方案 (可用性限制)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>現在，您可以在決策管理中使用個人化最佳化模型系統。 這種新種類模型允許您根據區段及優惠方案市場對優惠進行最佳化及個人化。</p>
+<p>個人化最佳化 AI 模型的使用目前僅限於選定使用者，將在未來的版本中同步到所有環境。</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改進項目
+
+**歷程**
+
+* **結束旅程**  — 在旅程畫布中， **結束** 活動已從調色板中刪除。 現在，每個路徑的末尾預設添加結束標籤，無法刪除。 這種改進能夠更好地報告客戶從行程中退出的位置，而無需從行程從業者處採取任何操作。 請參閱 [文檔](../building-journeys/journey-end.md) 和 [特徵視頻](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}。
+
+
+* 的 **配置檔案時區** 選項。 [了解更多](../building-journeys/timezone-management.md#timezone-from-profiles)
+
+**訊息**
+
+* 訊息預設集現在是 **頻道介面**。 [進一步了解](../configuration/channel-surfaces.md)
+
+**管理**
+
+* **PTR 記錄版本** - 現在當更新 PTR 記錄時，處理時間最多只需 3 小時。 [了解更多](../configuration/ptr-records.md#processing)
+
+* **允許清單 UI** — 您現在可以使用 Journey Optimizer 使用者介面將新電子郵件地址或網域新增到允許清單。 [了解更多](../configuration/allow-list.md)
+
+* **允許清單邏輯更新** - 現在，即使清單為空，允許清單邏輯在功能啟用後立即適用。 [了解更多](../configuration/allow-list.md#logic)
+
+* **URL跟蹤參數**  — 現在，您可以使用表達式編輯器在電子郵件曲面（即預設）中配置URL跟蹤參數。 [了解更多](../configuration/email-settings.md#url-tracking)
+
+**Offer Decisioning**
+
+* **對象規模** - 當建立決定規則、選擇區段或規則以設定優惠方案適用性或將區段或規則新增到決定範圍時，新的對象規模預估元件現在顯示在使用者介面中。
+
 
 ## 2022 年 6 月發行版本 {#june-2022-release}
 
@@ -27,7 +130,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>您現在可以透過與 <b>Sinch</b> 或 <b>Twilio</b> 的整合在 Journey Optimizer 裡建立、個人化和傳送簡訊。</p>
-<img src="assets/do-not-localize/SMS.gif"/>
+<!--img src="assets/do-not-localize/SMS.gif"/-->
 <p>簡訊管道目前僅可用於一組組織（可用性限制）。 如需詳細資訊，請聯絡您的 Adobe 代表。</p>
 <p>在<a href="../messages/create-sms.md">詳細文件</a>中了解如何建立和傳送簡訊。</p>
 </td>
@@ -46,7 +149,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>Adobe Stock 和 Adobe Journey Optimizer 電子郵件設計工具整合外掛程式，為客戶提供了用於訊息製作的導覽、授權和儲存影像的簡單方法。 您還可以藉由</br>新的<b>找到類似的相片庫</b>選項找出與影像內容、顏色和組成相符的影像庫。 </p>
-<img src="assets/do-not-localize/stock-rn.gif"/>
+<!--img src="assets/do-not-localize/stock-rn.gif"/-->
 <p>如需詳細資訊，請參閱<a href="../design/stock.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -63,7 +166,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>您現在可以使用密件副本電子郵件（密件副本）功能來儲存 Adobe Journey Optimizer 傳送的電子郵件。 在電子郵件預設集中啟用此選項，以便將每封傳送的電子郵件以密件副本方式寄至密件副本地址。</p>
-<img src="assets/do-not-localize/bcc-rn.gif"/>
+<!--img src="assets/do-not-localize/bcc-rn.gif"/-->
 <p>如需詳細資訊，請參閱<a href="../configuration/bcc-email.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -104,21 +207,7 @@ ht-degree: 100%
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Dynamic Expression Builder</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
-</td>
-</tr>
-</tbody>
-</table-->
+
 
 
 ### 改進項目
@@ -158,7 +247,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>您現在可以設定跨頻道的業務規則，這些業務規則將自動從訊息和動作中排除過度請求的設定檔。</p>
-<img src="assets/do-not-localize/frequency-rn.gif"/>
+<!--img src="assets/do-not-localize/frequency-rn.gif"/-->
 <p>如需詳細資訊，請參閱<a href="../configuration/frequency-rules.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -175,7 +264,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>現在，您可以在決定管理中使用經過訓練的模型系統。 此新功能排名可於指定的設定檔顯示。</p>
-<img src="assets/do-not-localize/optimization.gif"/>
+<!--img src="assets/do-not-localize/optimization.gif"/-->
 <p>如需詳細資訊，請參閱<a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">詳細文件</a>。</p>
 </td>
 </tr>
@@ -209,7 +298,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>您現在可以監視使用者對 Adobe Journey Optimizer 資源執行的動作。</p>
-<img src="assets/do-not-localize/audit-rn.gif"/>
+<!--img src="assets/do-not-localize/audit-rn.gif"/-->
 <p>如需詳細資訊，請參閱<a href="../privacy/audit-logs.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -435,7 +524,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * Journey Optimizer 步驟事件現在可以連結到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 中的其他資料集。  內建「歷程步驟事件」方案中的 **profileID** 欄位現在定義為身分欄位。 [了解更多](../reports/sharing-overview.md#integration-cja)
 
-**Offer Decisioning**
+**offer decisioning**
 
 * 對於在已發佈訊息中直接或間接引用的優惠方案、遞補優惠、優惠收藏或優惠決定，現在將在對應訊息中自動反映您的更新，無需重新發佈。 [了解更多](../offers/offers-e2e.md#insert-decision-in-email)
 

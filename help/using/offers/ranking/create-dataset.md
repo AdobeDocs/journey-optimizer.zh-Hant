@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
+source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 13%
+source-wordcount: '237'
+ht-degree: 12%
 
 ---
 
@@ -28,8 +28,11 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >    瞭解有關中的XDM架構和欄位組的詳細資訊 [XDM系統概述文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)。
+   >瞭解有關中的XDM架構和欄位組的詳細資訊 [XDM系統概述文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
+1. 從 **[!UICONTROL Field groups]** ，選擇 **[!UICONTROL Add]**。
+
+   ![](../assets/ai-ranking-fields-groups.png)
 
 1. 在 **[!UICONTROL Search]** 欄位，鍵入「命題交互」並選擇 **[!UICONTROL Experience Event - Proposition Interactions]** 欄位組。
 
@@ -37,7 +40,7 @@ ht-degree: 13%
 
    >[!CAUTION]
    >
-   >    將在資料集中使用的架構必須具有 **[!UICONTROL Experience Event - Proposition Interactions]** 與其關聯的欄位組。 否則，您將無法在排名策略中使用它。
+   >將在資料集中使用的架構必須具有 **[!UICONTROL Experience Event - Proposition Interactions]** 與其關聯的欄位組。 否則，您將無法在排名策略中使用它。
 
 1. 按一下「**[!UICONTROL Add field groups]**」。
 
@@ -46,11 +49,11 @@ ht-degree: 13%
    >[!NOTE]
    >欄位組以前稱為mixin。
 
-1. 鍵入名稱並保存架構。<!--How do you edit the fields in this new schema? Examples?-->
+1. 鍵入名稱並保存架構。
 
 >[!NOTE]
 >
->    瞭解有關在中構建架構的詳細資訊 [架構組合的基礎](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas)。
+>瞭解有關在中構建架構的詳細資訊 [架構組合的基礎](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target=&quot;_blank&quot;}。
 
 您現在已準備好使用此架構建立資料集。 請依照下列步驟執行此操作：
 

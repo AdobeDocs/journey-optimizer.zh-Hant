@@ -2,10 +2,10 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 97%
+source-wordcount: '1812'
+ht-degree: 96%
 
 ---
 
@@ -15,15 +15,17 @@ ht-degree: 97%
 
 ## 2022 年 8 月 {#august-2022}
 
+* 隨附的所有新功能和改進 [!DNL Journey Optimizer] 文檔中詳細列出了2022年8月的版本。 [閱讀全文](release-notes.md)
 * 已更新「頻率規則」部分以反映新的聯機消息傳遞流。 [閱讀全文](../configuration/frequency-rules.md#apply-frequency-rule)
 * 現在，「開始使用登錄頁」部分將參考一個顯示如何配置訂閱和建立登錄頁的視頻。 [閱讀全文](../landing-pages/get-started-lp.md#video)
+* 已對使用讀取段活動的旅程添加限制。 [閱讀全文](../building-journeys/read-segment.md)
+* 已對表達式編輯器運算子頁進行了改進。 [閱讀全文](../building-journeys/expression/operators.md)
 
 ## 2022 年 7 月 {#july-2022}
 
 * 針對 [!DNL Journey Optimizer]2022 年 7 月發行版本的新功能及改進項目，請參閱本文件以獲得所有詳細資料。 [閱讀全文](release-notes.md)
 * 已澄清&#x200B;**設定頻道介面**&#x200B;部分，並已更新連結頁面，說明如何設定 SMS 頻道。 [閱讀全文](../configuration/channel-surfaces.md#create-channel-surface)
 * 歷程屬性的&#x200B;**個人資料時區**&#x200B;選項現在預設為停用。 [閱讀全文](../building-journeys/timezone-management.md#timezone-from-profiles)
-
 * **等待**&#x200B;活動的&#x200B;**固定日期**&#x200B;選項不再提供。 [閱讀全文](../building-journeys/wait-activity.md)
 * 在&#x200B;**讀取區段**&#x200B;活動，已新增資訊至&#x200B;**增量讀取**&#x200B;選項。[閱讀全文](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * 已新增建議至&#x200B;**個人資料上限**&#x200B;條件類型。 [閱讀全文](../building-journeys/condition-activity.md#profile_cap)

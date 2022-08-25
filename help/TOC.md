@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7c801e7a63d3e5c899549fa0c0dd5d48f9fbc245
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1127'
 ht-degree: 98%
 
 ---
@@ -264,7 +264,7 @@ ht-degree: 98%
       + [查詢範例](using/reports/query-examples.md)
    + 傳遞能力 {#deliverability}
       + [開始使用傳遞能力](using/reports/deliverability.md)
-      + [關於隱藏清單](using/reports/suppression-list.md)
+      + [隱藏清單](using/reports/suppression-list.md)
 + 決定管理 {#offer-decisioning}
    + 開始使用決定管理 {#get-started-decision}
       + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)

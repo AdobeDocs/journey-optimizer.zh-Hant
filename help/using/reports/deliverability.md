@@ -1,19 +1,19 @@
 ---
-title: 監視消息執行
-description: 瞭解監控和交付性指導
+title: 開始使用傳遞能力
+description: 瞭解交付性指導
 feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: ad1aadd8b10b05d96ee0de5988d82728aca57d5e
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 0%
+source-wordcount: '649'
+ht-degree: 2%
 
 ---
 
-# 管理可交付性 {#manage-deliverability}
+# 開始使用傳遞能力 {#manage-deliverability}
 
 送貨能力是您送貨到收件人收件箱的成功度量。
 

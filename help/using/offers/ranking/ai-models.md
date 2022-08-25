@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+source-git-commit: 12bc2373ac5c391764df3880c5c87666a19e99b2
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 4%
@@ -30,9 +30,9 @@ ht-degree: 4%
 
 * **個性化模型** 允許您定義業務目標並利用客戶資料來培訓面向業務的模型，以便提供個性化的服務並最大化KPI。 [了解更多](personalized-optimization-model.md)
 
->[!CAUTION]
->
->目前，只有選擇用戶才可以提前訪問個性化優化模型。
+   >[!CAUTION]
+   >
+   >目前，只有選擇用戶才可以提前訪問個性化優化模型。
 
 ## 建立AI模型 {#create-ai-model}
 

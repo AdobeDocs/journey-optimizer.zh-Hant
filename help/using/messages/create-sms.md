@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: ad09f4ec728e95da23f862e0e59fe827c71f0024
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 15%
+source-wordcount: '410'
+ht-degree: 10%
 
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 15%
 使用 [!DNL Journey Optimizer] 將簡訊發送給客戶的移動設備。 您可以從SMS編輯器建立、個性化和預覽文本格式的消息。
 
 一旦 [添加了一條簡訊](get-started-content.md) 行程中的活動和定義的基本設定，使用 **[!UICONTROL Actions: SMS]** 右窗格，建立SMS消息的內容。
-
->[!AVAILABILITY]
->
->簡訊管道目前僅可用於一組組織（可用性限制）。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 ![](assets/sms-edit-content.png)
 
@@ -46,8 +42,11 @@ ht-degree: 15%
 
    ![](assets/sms-content-preview.png)
 
-
 ## 驗證您的SMS{#sms-preview}
+
+>[!NOTE]
+>
+> 為了獲得更好的交付能力，您應始終使用提供商支援的格式中的電話號碼。 例如， Twilio和Sinch僅支援E.164格式的電話號碼。
 
 定義消息內容後，可以使用test配置檔案預覽和test它。 如果插入 [個性化內容](../personalization/personalize.md)，您可以利用test配置檔案資料檢查此內容在消息中的顯示方式。
 

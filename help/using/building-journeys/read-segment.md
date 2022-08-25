@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1203'
 ht-degree: 5%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 5%
 讓我們舉一個在中建立的「Luma應用程式開啟和簽出」段的示例 [生成段](../segment/about-segments.md) 用例。 通過「讀取段」活動，您可以讓屬於此段的所有個人進入行程，並讓他們進入個性化的行程，從而利用所有行程功能：條件，計時器，事件，動作。
 
 >[!NOTE]
+>
+>對於使用「讀取段」活動的行程，可以同時啟動的行程數最多。 系統將執行重試，但請避免在同一時間開始超過5次旅程（使用讀取段、計畫或「盡快」），方法是將它們隨時間分佈，例如5到10分鐘。
 >
 >Burst付費附加模組允許快速推送消息以大容量發送，用於包括讀取段和簡單推送消息的簡單旅程。 有關詳細資訊，請參閱 [此部分](../building-journeys/journey-gs.md#burst)
 

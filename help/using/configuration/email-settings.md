@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="定義電子郵件類別"
->abstract="選擇使用此曲面時將發送的消息類型：需要用戶同意的促銷消息的市場營銷，或非商業消息的事務性，這些消息也可以在特定上下文中發送到未訂閱的配置檔案。"
+>abstract="選擇使用此表面時將發送的電子郵件類型：需要用戶同意的促銷電子郵件的營銷，或非商業電子郵件的事務性，也可以在特定上下文中將其發送到未訂閱的配置檔案。"
 
 在 **電子郵件類型** 部分，選擇將與曲面一起發送的消息類型： **營銷** 或 **事務性**。
 

@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
+source-git-commit: 4b9de36d951308425e54924908b7b80b83c94e51
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 100%
+source-wordcount: '400'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->7月25日，Adobe Journey Optimizer 發行 [新功能](using/rn/inline-messages.md) 改進了您為 Journey Optimizer 頻道 (電子郵件、推播、簡訊) 編寫內容的方式。 作為 Journey Optimizer 的從業人員，現在可直接 [建立和編寫](using/messages/get-started-content.md) 從歷程中傳來的訊息。 將為您執行自動轉換歷程。 話雖如此，我們需要你協助幾個步驟。 了解更多 [必要步驟](using/rn/inline-messages-steps.md)。
+>7月22日，Adobe Journey Optimizer [新特徵](using/rn/inline-messages.md) 這改進了您為Journey Optimizer頻道（電子郵件、推送、SMS）創作內容的方式。 作為 Journey Optimizer 的從業人員，現在可直接 [建立和編寫](using/messages/get-started-content.md) 從歷程中傳來的訊息。 將為您執行自動轉換歷程。 話雖如此，我們需要你協助幾個步驟。 了解更多 [必要步驟](using/rn/inline-messages-steps.md)。
 
 <table style="table-layout:fixed">
 <tr>

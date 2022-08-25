@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '680'
 ht-degree: 3%
 
 ---
@@ -66,6 +66,8 @@ ht-degree: 3%
    >[!NOTE]
    >
    >在選擇段或決策規則時，可以查看有關估計的限定配置檔案的資訊。 按一下 **[!UICONTROL Refresh]** 更新資料。
+   >
+   >請注意，當規則參數包括不在配置檔案中的資料（如上下文資料）時，配置檔案估計不可用。 例如，要求當前天氣為≥80度的資格規則。
 
    ![](../assets/offer-constraints-example.png)
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1631'
 ht-degree: 2%
 
 ---
@@ -99,6 +99,10 @@ ht-degree: 2%
 在選擇段或決策規則時，可以查看有關估計的限定配置檔案的資訊。 按一下 **[!UICONTROL Refresh]** 更新資料。
 
 ![](../assets/offer-eligibility-segment-estimate.png)
+
+>[!NOTE]
+>
+>當規則參數包括不在配置檔案中的資料（如上下文資料）時，配置檔案估計不可用。 例如，要求當前天氣為≥80度的資格規則。
 
 ### 使用段與決策規則 {#segments-vs-decision-rules}
 

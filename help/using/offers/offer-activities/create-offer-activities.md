@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1080'
 ht-degree: 2%
 
 ---
@@ -89,6 +89,10 @@ ht-degree: 2%
       瞭解如何在中建立決策規則 [此部分](../offer-library/creating-decision-rules.md)。
 
 1. 在選擇段或決策規則時，可以查看有關估計的限定配置檔案的資訊。 按一下 **[!UICONTROL Refresh]** 更新資料。
+
+   >[!NOTE]
+   >
+   >當規則參數包括不在配置檔案中的資料（如上下文資料）時，配置檔案估計不可用。 例如，要求當前天氣為≥80度的資格規則。
 
    ![](../assets/activity_constraint-estimate.png)
 

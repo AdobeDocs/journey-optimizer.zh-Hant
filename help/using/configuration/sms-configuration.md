@@ -4,10 +4,10 @@ description: 瞭解如何配置環境以向Journey Optimizer發送SMS消息
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f44638ac7cfb078b6914635433feedb0f48ef099
+source-git-commit: 44ef82f03752933269c1a8d9e65266c3132dd664
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 7%
+source-wordcount: '606'
+ht-degree: 2%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 7%
 
 在發送SMS之前，請配置實例。 你需要 [整合提供程式設定](#create-api) 和Journey Optimizer [建立SMS曲面](#message-preset-sms) （即SMS預設）。 這些步驟必須由 [Adobe Journey Optimizer系統管理員](../start/path/administrator.md)。
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->簡訊管道目前僅可用於一組組織（可用性限制）。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>Adobe Journey Optimizer目前與Sinch和Twilio等第三方提供商進行整合，後者提供獨立於Adobe Journey Optimizer的簡訊服務。  在SMS配置之前，必須使用這些SMS提供程式之一建立帳戶以接收API令牌和服務ID，這使您能夠在Adobe Journey Optimizer和適用的SMS提供程式之間建立連接。 您使用SMS服務將受適用SMS提供商的附加條款和條件的約束。 由於Sinch和Twilio是通過整合提供給Adobe Journey Optimizer用戶的第三方產品，因此對於任何與SMS服務相關的問題或查詢，Sinch或Twilio的用戶需要聯繫適用的SMS提供商以獲得幫助。 Adobe不控制第三方產品，也不負責。
 
 ## 建立新API憑據 {#create-api}
 
@@ -27,6 +27,11 @@ ht-degree: 7%
 >id="ajo_admin_sms_api"
 >title="配置您的SMS供應商"
 >abstract="選擇您的供應商並填寫您的SMS API憑據。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_configuration"
+>title="配置您的SMS供應商"
+>abstract="選擇為SMS供應商配置的API憑據。"
 
 要使用Journey Optimizer配置您的SMS供應商，請執行以下步驟：
 

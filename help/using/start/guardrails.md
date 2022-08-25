@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '807'
 ht-degree: 4%
 
 ---
@@ -88,3 +88,4 @@ ht-degree: 4%
 ### 讀取區段 {#read-segment-g}
 
 * 流化段始終是最新的，但在檢索時不會計算批段。 它們僅在每日批處理評估時間進行評估。
+* 對於使用「讀取段」活動的行程，可以同時啟動的行程數最多。 系統將執行重試，但請避免在同一時間開始超過5次旅程（使用讀取段、計畫或「盡快」），方法是將它們隨時間分佈，例如5到10分鐘。
