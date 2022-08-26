@@ -2,10 +2,10 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bc036fc52424adaf129ab379872dedfc5994c3bb
+source-git-commit: 4576fbc4f75951e0576787b7631e164a87fdb83d
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 50%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 50%
 <td>
 <p>使用Journey Optimizer市場活動，通過各種渠道將一次性內容交付到特定市場。 使用行程時，按順序執行動作。 對於市場活動，活動可以同時執行，也可以立即執行，或者根據指定的時間表執行。 </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>瞭解如何在 <a href="../campaigns/get-started-with-campaigns.md">詳細文檔</a> 和 <a href="https://video.tv.adobe.com/v/345376">特徵視頻</a>。
+<p>瞭解如何在 <a href="../campaigns/get-started-with-campaigns.md">詳細文檔</a> 和 <a href="https://video.tv.adobe.com/v/346680">特徵視頻</a>。
 </td>
 </tr>
 </tbody>
