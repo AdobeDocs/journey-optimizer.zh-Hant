@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: bc036fc52424adaf129ab379872dedfc5994c3bb
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 3%
+source-wordcount: '321'
+ht-degree: 4%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 3%
 市場活動允許您使用多個渠道將一次性內容交付到特定市場。 與按順序執行活動的行程不同，市場活動可以同時執行活動，或者立即執行，或者按指定的時間表執行。
 
 這樣，您就可以發送簡單的臨時批通信，用於市場營銷使用案例，如促銷優惠、接洽活動、公告、法律通知或策略更新。
+
+➡️ [在影片中探索此功能](#video)
 
 <!--You can create two types of campaigns:
 
@@ -58,3 +60,9 @@ ht-degree: 3%
 >[!NOTE]
 >
 >「開啟草稿版本」表徵圖 **[!UICONTROL Live]** 或 **[!UICONTROL Scheduled]** 狀態表示已建立市場活動的新版本，但尚未激活(請參閱 [修改市場活動](modify-stop-campaign.md#modify))。
+
+## How-to視頻 {#video}
+
+瞭解如何建立您的第一個市場活動。
+
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
