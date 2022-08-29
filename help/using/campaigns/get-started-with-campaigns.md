@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 8d8586a6c70b6fc01dbd1c2a8833079f422c93f7
+source-git-commit: d747cc9a4d065ea9110cb8065c113326959e2a41
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '488'
 ht-degree: 4%
 
 ---
@@ -18,13 +18,11 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campaigns"
->abstract="使用「市場活動」，您可以跨多個渠道將一次性內容交付到特定市場。 在建立新市場活動之前，請確保您有一個頻道表面（即消息預設）和一個Adobe Experience Platform段可供使用。"
+>abstract="建立活動，跨各種渠道將一次性內容交付到特定領域。 在建立市場活動之前，請確保您有一個頻道表面（即消息預設）和一個Adobe Experience Platform段可供使用。"
 
-## 關於市場活動 {#about}
+使用Journey Optimizer市場活動，通過各種渠道將一次性內容交付到特定市場。 使用行程時，按順序執行動作。 對於市場活動，活動可以同時執行，也可以立即執行，或者根據指定的時間表執行。
 
-市場活動允許您使用多個渠道將一次性內容交付到特定市場。 與按順序執行活動的行程不同，市場活動可以同時執行活動，或者立即執行，或者按指定的時間表執行。
-
-這樣，您就可以發送簡單的臨時批通信，用於市場營銷使用案例，如促銷優惠、接洽活動、公告、法律通知或策略更新。
+建立市場活動，以發送簡單的臨時批通信，以用於市場營銷用例，如促銷優惠、接洽活動、公告、法律通知或策略更新。
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -33,9 +31,13 @@ ht-degree: 4%
 * **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
 * **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
 
-## 先決條件 {#campaign-prerequisites}
+## 開始之前 {#campaign-prerequisites}
 
-市場活動僅對具有與市場活動相關的訪問權限的用戶可用 **[!UICONTROL Product profile]** 例如市場活動管理員、市場活動批准者、市場活動經理和/或市場活動查看者。
+在開始在Journey Optimizer建立第一個市場活動之前，請檢查以下先決條件：
+
+1. **您需要適當的權限**。 市場活動僅對有權訪問與市場活動相關的用戶可用 **[!UICONTROL Product profile]** 例如市場活動管理員、市場活動批准者、市場活動經理和/或市場活動查看者。 如果無法訪問市場活動，則必須擴展您的權限。 如果您有權訪問 [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}，請執行以下步驟。 否則，請與您的Journey Optimizer管理員聯繫。
+
++++瞭解如何分配市場活動權限
 
 分配相應 **[!UICONTROL Product profile]** 到用戶：
 
@@ -43,7 +45,7 @@ ht-degree: 4%
 
 1. 從 **[!UICONTROL Product profile]** 頁籤，選擇與市場活動相關的內置市場活動之一 **[!UICONTROL Product profile]**:市場活動管理員、市場活動批准者、市場活動經理或市場活動查看者。
 
-   有關市場活動的詳細資訊 **[!UICONTROL Product profiles]** 和 **[!UICONTROL Permissions]**，請參閱 [頁](../administration/ootb-product-profiles.md)。
+   有關Journey Optimizer活動的詳細資訊 **[!UICONTROL Product profiles]** 和 **[!UICONTROL Permissions]**。 [請參閱此頁](../administration/ootb-product-profiles.md)。
 
    ![](assets/do-not-localize/admin_1.png)
 
@@ -54,6 +56,11 @@ ht-degree: 4%
 1. 鍵入用戶的名稱、組或電子郵件地址，然後按一下 **[!UICONTROL Save]**。
 
 您的用戶現在將能夠訪問 **[!UICONTROL Campaigns]**。
+
++++
+
+1. **你需要一個觀眾**。 在建立市場活動之前，需要提供受眾群。 瞭解有關受眾建立的更多資訊 [此頁](../segment/about-segments.md)。
+1. **你需要一個通道表面**。 要能夠選取通道，必須建立並可用相應的通道曲面。 瞭解有關通道曲面（即預設）的詳細資訊 [此頁](../configuration/channel-surfaces.md)
 
 ## 存取行銷活動 {#access}
 
