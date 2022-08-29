@@ -6,20 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 3afef10461ce29b811cb20a2c8c4e94f452daf1f
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1113'
 ht-degree: 9%
 
 ---
 
 # 內建的產品設定檔 {#ootb-product-profiles}
 
-Adobe Journey Optimizer正在發佈一項新功能，即「內聯創作」，它允許您直接從旅途中建立和創作消息。 有關此新功能的詳細資訊，請參閱此頁。
 
->[!WARNING]
->
->如果已為 **[!DNL Message Manager]** 僅產品配置檔案，沒有 **[!DNL Journey manager]** 產品配置檔案，您需要為他們分配新的產品配置檔案，以便能夠繼續編輯內容。
+## 關於與消息相關的權限{#message-permissions}
+
+Adobe Journey Optimizer發佈了新的內聯創作功能，允許您直接從行程或市場活動建立和創作您的消息。 有關此新功能的詳細資訊， [請參閱此頁](../rn/inline-messages.md)。
 
 此功能將影響以下權限：
 
@@ -31,9 +30,14 @@ Adobe Journey Optimizer正在發佈一項新功能，即「內聯創作」，它
 | **[!DNL Publish Messages]** | **[!DNL Publish Journeys]** |
 | **[!DNL Manage Messages Preview and Test]** | **[!DNL Manage Journeys]** |
 
-**7月25日之後**，與消息相關的權限仍將可用，因為仍然可以訪問消息以啟用轉換，並且您仍可以將其另存為模板。
+**7月25日之後**，相關權限 **消息** 仍然可用，因為仍然可以訪問消息以啟用轉換，並且您仍可以將其另存為模板。
 
-**截至9月6日**，將刪除與消息相關的權限，並且消息將不再可訪問。
+**截至9月6日**，相關權限 **消息** 將被刪除，消息將不再可訪問。
+
+>[!WARNING]
+>
+>如果已為 **[!DNL Message Manager]** 僅產品配置檔案，沒有 **[!DNL Journey manager]** 產品配置檔案，您需要為它們分配新的產品配置檔案，以便能夠繼續編輯內容。
+
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 
@@ -64,9 +68,9 @@ Adobe Journey Optimizer正在發佈一項新功能，即「內聯創作」，它
 |決策管理| <ul><li>**[!DNL Manage decisions]**:讀取、建立、編輯和刪除決策實體。</li><li>**[!DNL Manage ranking strategies]**:讀取、建立、編輯和刪除自定義消息報告和使用操作功能。</li></ul>| |Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**:讀取、建立、編輯和刪除段。</li><li>**[!DNL Manage profiles]**:讀取、建立、編輯和刪除配置檔案。</li><li>**[!DNL Read datasets]**:對資料集的只讀訪問。</li><li>**[!DNL Read schemas]**:對架構的只讀訪問。</li><li>**[!DNL Manage merge policies]**:讀取、建立、編輯和刪除合併策略。</li></ul>|
 |管理| <ul><li>**[!DNL View messages presets]**:對消息預設的只讀訪問。</li></ul>|
 
-## [!DNL Campaign viewer] {#campaign-viewer}
+## [!DNL Campaign Viewer] {#campaign-viewer}
 
-的 **[!DNL Campaign viewer]** 產品配置檔案允許對 **[!UICONTROL Campaigns]** 和 **[!UICONTROL Decision management]** 功能。
+的 **[!DNL Campaign Viewer]** 產品配置檔案允許對 **[!UICONTROL Campaigns]** 和 **[!UICONTROL Decision management]** 功能。
 
 分配給此產品配置檔案的用戶將無法編輯或發佈。
 

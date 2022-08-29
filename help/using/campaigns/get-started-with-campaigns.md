@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: b73d4495a231a40d833f4fee4dc094b808d659bd
+source-git-commit: bbcafe364ca13501972b3d8e1150aa2f51ba88a0
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 4%
+source-wordcount: '486'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 >title="Campaigns"
 >abstract="建立活動，跨各種渠道將一次性內容交付到特定領域。 在建立市場活動之前，請確保您有一個頻道表面（即消息預設）和一個Adobe Experience Platform段可供使用。"
 
-使用Journey Optimizer市場活動，通過各種渠道將一次性內容交付到特定市場。 使用行程時，按順序執行動作。 對於市場活動，活動可以同時執行，也可以立即執行，或者根據指定的時間表執行。
+使用Journey Optimizer市場活動，通過各種渠道將一次性內容交付到特定市場。 使用行程時，按順序執行操作。 對於市場活動，活動可以同時執行，也可以立即執行，或者根據指定的時間表執行。
 
 建立市場活動，以發送簡單的臨時批通信，以用於市場營銷用例，如促銷優惠、接洽活動、公告、法律通知或策略更新。
 
@@ -43,9 +43,9 @@ ht-degree: 4%
 
    分配相應 **[!UICONTROL Product profile]** 到用戶：
 
-   1. 從 [!DNL Admin console]，選擇 [!DNL Adobe Experience Platform] 產品。
+   1. 從 [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}，選擇 [!DNL Adobe Experience Platform] 產品。
 
-   1. 從 **[!UICONTROL Product profile]** 頁籤，選擇與市場活動相關的內置市場活動之一 **[!UICONTROL Product profile]**:市場活動管理員、市場活動批准者、市場活動經理或市場活動查看者。
+   1. 瀏覽到 **[!UICONTROL Product profile]** 頁籤，選擇與內置市場活動相關的內置市場活動之一 **[!UICONTROL Product profile]**:市場活動管理員、市場活動批准者、市場活動經理或市場活動查看者。
 
       有關Journey Optimizer活動的詳細資訊 **[!UICONTROL Product profiles]** 和 **[!UICONTROL Permissions]**。 [請參閱此頁](../administration/ootb-product-profiles.md)。
 
@@ -56,12 +56,12 @@ ht-degree: 4%
       ![](assets/do-not-localize/admin_2.png)
 
    1. 鍵入用戶的名稱、組或電子郵件地址，然後按一下 **[!UICONTROL Save]**。
-   您的用戶現在將能夠訪問 **[!UICONTROL Campaigns]**。
+   您的用戶現在可以訪問 **[!UICONTROL Campaigns]**。
 
 +++
 
 1. **你需要一個觀眾**。 在建立市場活動之前，需要提供受眾群。 瞭解有關受眾建立的更多資訊 [此頁](../segment/about-segments.md)。
-1. **你需要一個通道表面**。 要能夠選擇通道，必須建立並可用相應的通道曲面（即預設）。 瞭解有關通道曲面的詳細資訊 [此頁](../configuration/channel-surfaces.md)
+1. **你需要一個通道表面**。 要能夠選擇通道，必須建立並可用相應的通道曲面（即預設）。 瞭解有關通道曲面的詳細資訊 [此頁](../configuration/channel-surfaces.md)。
 
 ## 存取行銷活動 {#access}
 
@@ -78,14 +78,14 @@ ht-degree: 4%
 * **[!UICONTROL Draft]**:市場活動正在編輯，尚未激活。
 * **[!UICONTROL Activating]**:活動正在激活。
 * **[!UICONTROL Live]**:活動已激活。
-* **[!UICONTROL Scheduled]**:市場活動已配置為在特定開始日期激活。
-* **[!UICONTROL Stopped]**:市場活動已手動停止。 您不能再激活或重新使用它(請參見 [停止市場活動](modify-stop-campaign.md#stop))
+* **[!UICONTROL Scheduled]**:市場活動配置為在特定開始日期激活。
+* **[!UICONTROL Stopped]**:市場活動已手動停止。 您不能再激活或重新使用它。 [了解更多](modify-stop-campaign.md#stop)
 * **[!UICONTROL Completed]**:市場活動已完成。 在激活市場活動3天後，或在市場活動結束日期（如果市場活動已定期執行）自動分配此狀態。
 * **[!UICONTROL Archived]**:市場活動已存檔。
 
 >[!NOTE]
 >
->「開啟草稿版本」表徵圖 **[!UICONTROL Live]** 或 **[!UICONTROL Scheduled]** 狀態表示已建立市場活動的新版本，但尚未激活(請參閱 [修改市場活動](modify-stop-campaign.md#modify))。
+>「開啟草稿版本」表徵圖 **[!UICONTROL Live]** 或 **[!UICONTROL Scheduled]** 狀態表示已建立市場活動的新版本，但尚未激活。 [了解更多](modify-stop-campaign.md#modify)。
 
 ## How-to視頻 {#video}
 
