@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5b8a895f628a71291684c8a17d8d7a2cf947fb2f
+source-git-commit: 14b0928821e0c1815869711a0bb68a09beb1b7e4
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 98%
@@ -44,7 +44,81 @@ ht-degree: 98%
       + [瞭解統計計算](using/campaigns/experiment-calculations.md)
       + [報告設定](using/campaigns/reporting-configuration.md)
    + [利用 API 觸發行銷活動](using/campaigns/api-triggered-campaigns.md)
-+ 歷程{#orchestrate-journeys}
++ 訊息 {#messages}
+   + [開始使用訊息](using/messages/get-started-content.md)
+   + [添加消息行程](using/messages/messages-in-journeys.md)
+   + [添加消息市場活動](using/messages/messages-in-campaigns.md)
+   + [建立電子郵件](using/messages/create-email.md)
+   + [建立推播通知](using/messages/create-push.md)
+   + [建立 SMS 訊息](using/messages/create-sms.md)
+   + [檢查警報](using/messages/alerts.md)
+   + [管理同意](using/messages/consent.md)
+   + [傳送時間最佳化](using/messages/send-time-optimization.md)
++ 設計內容 {#design}
+   + [開始使用電子郵件設計](using/design/design-emails.md)
+   + [從頭開始 ](using/design/create-email-content.md)
+   + [匯入電子郵件內容](using/design/existing-content.md)
+   + [為您自己的內容撰寫程式碼](using/design/code-content.md)
+   + [使用範本](using/design/email-templates.md)
+   + 內容設計 {#design-content}
+      + [使用內容元件](using/design/content-components.md)
+      + [背景設定](using/design/backgrounds.md)
+      + [調整垂直對齊與邊框間距](using/design/adjusting-vertical-alignment-and-padding.md)
+      + [定義連結的樣式](using/design/styling-links.md)
+      + [加入內嵌樣式屬性](using/design/adding-inline-styling-attributes.md)
+   + 電子郵件設定 {#design-email}
+      + [產生文字版本](using/design/text-version-email.md)
+      + [加入預告標題](using/design/preheader.md)
+   + 新增及管理資產 {#manage-asset}
+      + [配合 Assets Essentials](using/design/assets-essentials.md)
+      + [使用 Adobe Stock](using/design/stock.md)
+   + [新增個人化優惠方案](using/design/deliver-personalized-offers.md)
+   + [新增連結及追蹤訊息](using/design/message-tracking.md)
+   + [預覽和校樣](using/design/preview.md)
++ 登陸頁面 {#landing-pages}
+   + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
+   + [建立登陸頁面](using/landing-pages/create-lp.md)
+   + 設計內容 {#landing-pages-design}
+      + [關於登陸頁面設計](using/landing-pages/design-lp.md)
+      + [建立登陸頁面內容](using/landing-pages/lp-content.md)
+      + [建立範本](using/landing-pages/lp-templates.md)
+      + [新增自訂 JavaScript](using/landing-pages/lp-custom-js.md)
+   + [建立訂閱清單](using/landing-pages/subscription-list.md)
+   + [使用案例](using/landing-pages/lp-use-cases.md)
++ 個人化{#personalization}
+   + [開始使用使用個人化](using/personalization/personalize.md)
+   + [個人化內容](using/personalization/personalization-contexts.md)
+   + 建立運算式 {#build-expressions}
+      + [個人化語法](using/personalization/personalization-syntax.md)
+      + 使用運算式編輯器{#expression-editor}
+         + [關於運算式編輯器](using/personalization/personalization-build-expressions.md)
+         + [將屬性加入我的最愛](using/personalization/personalization-favorites.md)
+         + [使用儲存的運算式](using/personalization/personalization-library.md)
+         + [個人化驗證](using/personalization/personalization-validation.md)
+      + 輔助函式{#functions}
+         + [開始使用輔助函式](using/personalization/functions/functions.md)
+         + [聚合函式](using/personalization/functions/aggregation.md)
+         + [算術函式](using/personalization/functions/arithmetic-functions.md)
+         + [陣列和清單功能](using/personalization/functions/arrays-list.md)
+         + [日期時間函式](using/personalization/functions/dates.md)
+         + [布林值和比較函式](using/personalization/functions/operators.md)
+         + [輔助程式](using/personalization/functions/helpers.md)
+         + [地圖函式](using/personalization/functions/maps.md)
+         + [物件函式](using/personalization/functions/objects.md)
+         + [字串函式](using/personalization/functions/string.md)
+   + 使用案例{#personalization-use-cases}
+      + [訂單狀態通知](using/personalization/personalization-use-case.md)
+      + [放棄購物車電子郵件](using/personalization/personalization-use-case-helper-functions.md)
++ 區段、設定檔與身分{#segment}
+   + 區段 {#segments}
+      + [開始使用區段](using/segment/about-segments.md)
+      + [建立區段](using/segment/creating-a-segment.md)
+   + 設定檔{#profiles}
+      + [開始使用設定檔](using/segment/get-started-profiles.md)
+      + [建立測試設定檔](using/segment/creating-test-profiles.md)
+   + [身分](using/segment/get-started-identity.md)
+   + [授權使用情況](using/segment/license-usage.md)
++ 歷程 {#orchestrate-journeys}
    + 關於歷程{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
       + [歷程生命週期](using/building-journeys/journey-end.md)
@@ -165,80 +239,6 @@ ht-degree: 98%
       + [使用自訂動作以動態方式傳遞集合](using/building-journeys/collections.md)
       + [傳送訊息給訂閱者](using/building-journeys/message-to-subscribers-uc.md)
       + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
-+ 訊息 {#messages}
-   + [開始使用訊息](using/messages/get-started-content.md)
-   + [添加消息行程](using/messages/messages-in-journeys.md)
-   + [添加消息市場活動](using/messages/messages-in-campaigns.md)
-   + [建立電子郵件](using/messages/create-email.md)
-   + [建立推播通知](using/messages/create-push.md)
-   + [建立 SMS 訊息](using/messages/create-sms.md)
-   + [檢查警報](using/messages/alerts.md)
-   + [管理同意](using/messages/consent.md)
-   + [傳送時間最佳化](using/messages/send-time-optimization.md)
-+ 設計內容 {#design}
-   + [開始使用電子郵件設計](using/design/design-emails.md)
-   + [從頭開始 ](using/design/create-email-content.md)
-   + [匯入電子郵件內容](using/design/existing-content.md)
-   + [為您自己的內容撰寫程式碼](using/design/code-content.md)
-   + [使用範本](using/design/email-templates.md)
-   + 內容設計 {#design-content}
-      + [使用內容元件](using/design/content-components.md)
-      + [背景設定](using/design/backgrounds.md)
-      + [調整垂直對齊與邊框間距](using/design/adjusting-vertical-alignment-and-padding.md)
-      + [定義連結的樣式](using/design/styling-links.md)
-      + [加入內嵌樣式屬性](using/design/adding-inline-styling-attributes.md)
-   + 電子郵件設定 {#design-email}
-      + [產生文字版本](using/design/text-version-email.md)
-      + [加入預告標題](using/design/preheader.md)
-   + 新增及管理資產 {#manage-asset}
-      + [配合 Assets Essentials](using/design/assets-essentials.md)
-      + [使用 Adobe Stock](using/design/stock.md)
-   + [新增個人化優惠方案](using/design/deliver-personalized-offers.md)
-   + [新增連結及追蹤訊息](using/design/message-tracking.md)
-   + [預覽和校樣](using/design/preview.md)
-+ 登陸頁面 {#landing-pages}
-   + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
-   + [建立登陸頁面](using/landing-pages/create-lp.md)
-   + 設計內容 {#landing-pages-design}
-      + [關於登陸頁面設計](using/landing-pages/design-lp.md)
-      + [建立登陸頁面內容](using/landing-pages/lp-content.md)
-      + [建立範本](using/landing-pages/lp-templates.md)
-      + [新增自訂 JavaScript](using/landing-pages/lp-custom-js.md)
-   + [建立訂閱清單](using/landing-pages/subscription-list.md)
-   + [使用案例](using/landing-pages/lp-use-cases.md)
-+ 個人化{#personalization}
-   + [開始使用使用個人化](using/personalization/personalize.md)
-   + [個人化內容](using/personalization/personalization-contexts.md)
-   + 建立運算式 {#build-expressions}
-      + [個人化語法](using/personalization/personalization-syntax.md)
-      + 使用運算式編輯器{#expression-editor}
-         + [關於運算式編輯器](using/personalization/personalization-build-expressions.md)
-         + [將屬性加入我的最愛](using/personalization/personalization-favorites.md)
-         + [使用儲存的運算式](using/personalization/personalization-library.md)
-         + [個人化驗證](using/personalization/personalization-validation.md)
-      + 輔助函式{#functions}
-         + [開始使用輔助函式](using/personalization/functions/functions.md)
-         + [聚合函式](using/personalization/functions/aggregation.md)
-         + [算術函式](using/personalization/functions/arithmetic-functions.md)
-         + [陣列和清單功能](using/personalization/functions/arrays-list.md)
-         + [日期時間函式](using/personalization/functions/dates.md)
-         + [布林值和比較函式](using/personalization/functions/operators.md)
-         + [輔助程式](using/personalization/functions/helpers.md)
-         + [地圖函式](using/personalization/functions/maps.md)
-         + [物件函式](using/personalization/functions/objects.md)
-         + [字串函式](using/personalization/functions/string.md)
-   + 使用案例{#personalization-use-cases}
-      + [訂單狀態通知](using/personalization/personalization-use-case.md)
-      + [放棄購物車電子郵件](using/personalization/personalization-use-case-helper-functions.md)
-+ 區段、設定檔與身分{#segment}
-   + 區段 {#segments}
-      + [開始使用區段](using/segment/about-segments.md)
-      + [建立區段](using/segment/creating-a-segment.md)
-   + 設定檔{#profiles}
-      + [開始使用設定檔](using/segment/get-started-profiles.md)
-      + [建立測試設定檔](using/segment/creating-test-profiles.md)
-   + [身分](using/segment/get-started-identity.md)
-   + [授權使用情況](using/segment/license-usage.md)
 + 追蹤和監視 {#reporting}
    + 即時報告 {#live-report}
       + [存取即時報告儀表板](using/reports/live-report.md)
