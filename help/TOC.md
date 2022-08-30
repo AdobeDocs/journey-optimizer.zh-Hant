@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8b2796fd5a133fe1a11b79927be0919ccae65ddb
+source-git-commit: 5b8a895f628a71291684c8a17d8d7a2cf947fb2f
 workflow-type: tm+mt
 source-wordcount: '1130'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -34,17 +34,17 @@ ht-degree: 97%
       + [開發人員快速入門](using/start/path/developer.md)
    + [使用者介面](using/start/user-interface.md)
    + [護欄](using/start/guardrails.md)
-+ 行銷活動 {#campaigns}
++ 行銷活動{#campaigns}
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
    + [建立行銷活動](using/campaigns/create-campaign.md)
    + [管理即時市場活動](using/campaigns/modify-stop-campaign.md)
    + 內容實驗 {#content-experiment}
-      + [開始內容實驗](using/campaigns/get-started-experiment.md)
+      + [開始使用內容實驗](using/campaigns/get-started-experiment.md)
       + [建立內容實驗](using/campaigns/content-experiment.md)
       + [瞭解統計計算](using/campaigns/experiment-calculations.md)
-      + [報告配置](using/campaigns/reporting-configuration.md)
+      + [報告設定](using/campaigns/reporting-configuration.md)
    + [利用 API 觸發行銷活動](using/campaigns/api-triggered-campaigns.md)
-+ 歷程 {#orchestrate-journeys}
++ 歷程{#orchestrate-journeys}
    + 關於歷程{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
       + [歷程生命週期](using/building-journeys/journey-end.md)

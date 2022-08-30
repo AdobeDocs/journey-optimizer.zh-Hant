@@ -9,8 +9,8 @@ hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '573'
 ht-degree: 100%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >只能選擇事件類型資料集，該資料集必須至少包含支援的 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target=&quot;_blank&quot;}：**experienceevent-web**、 **experienceevent-application**、**experienceevent-commerce**。 如果選取的資料集與這些條件不相符，將無法儲存變更。
+   >只能選擇事件類型資料集，該資料集必須至少包含支援的 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;}：**experienceevent-web**、 **experienceevent-application**、**experienceevent-commerce**。 如果選取的資料集與這些條件不相符，將無法儲存變更。
 
    ![](assets/reporting-config-datasets.png)
 

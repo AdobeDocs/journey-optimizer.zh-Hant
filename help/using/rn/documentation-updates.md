@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
 workflow-type: tm+mt
 source-wordcount: '1812'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 96%
 ## 2022 年 8 月 {#august-2022}
 
 * 隨附的所有新功能和改進 [!DNL Journey Optimizer] 文檔中詳細列出了2022年8月的版本。 [閱讀全文](release-notes.md)
-* 已更新「頻率規則」部分以反映新的聯機消息傳遞流。 [閱讀全文](../configuration/frequency-rules.md#apply-frequency-rule)
-* 現在，「開始使用登錄頁」部分將參考一個顯示如何配置訂閱和建立登錄頁的視頻。 [閱讀全文](../landing-pages/get-started-lp.md#video)
+* 已更新「頻率規則」區段以反映全新內嵌訊息流程。 [閱讀全文](../configuration/frequency-rules.md#apply-frequency-rule)
+* 現在，開始使用登陸頁面區段將引用一份如何設定訂閱和建立登陸頁面的展示影片。 [閱讀全文](../landing-pages/get-started-lp.md#video)
 * 已對使用讀取段活動的旅程添加限制。 [閱讀全文](../building-journeys/read-segment.md)
 * 已對表達式編輯器運算子頁進行了改進。 [閱讀全文](../building-journeys/expression/operators.md)
 
