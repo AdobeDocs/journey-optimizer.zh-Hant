@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 3%
@@ -40,7 +40,7 @@ ht-degree: 3%
 >
 >您的密件抄送功能使用情況將根據您獲得許可的郵件數計算。 因此，僅在用於要存檔的關鍵通信的曲面中啟用它。 檢查您的合同中是否有許可的卷。
 
-BCC電子郵件地址設定將立即在表面級保存和處理。 當你 [建立新消息](../messages/get-started-content.md#create-new-message) 使用此表面，將自動顯示BCC電子郵件地址。
+BCC電子郵件地址設定將立即在表面級保存和處理。 當你 [建立新消息](../messages/get-started-content.md) 使用此表面，將自動顯示BCC電子郵件地址。
 
 ![](assets/preset-bcc-in-msg.png)
 

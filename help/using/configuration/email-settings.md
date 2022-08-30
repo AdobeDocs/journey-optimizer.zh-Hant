@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 2%
@@ -36,7 +36,7 @@ ht-degree: 2%
 >
 >**事務性** 電子郵件可以發送到從營銷通信中取消訂閱的個人資料。 這些消息只能在特定上下文中發送。
 
-當 [建立消息](../messages/get-started-content.md#create-new-message)，必須選擇與您為電子郵件選擇的類別匹配的有效通道曲面。
+當 [建立消息](../messages/get-started-content.md)，必須選擇與您為電子郵件選擇的類別匹配的有效通道曲面。
 
 ## 子域和IP池 {#subdomains-and-ip-pools}
 

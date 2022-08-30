@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 24%
@@ -15,7 +15,7 @@ ht-degree: 24%
 
 # 電子郵件、簡訊、推播{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] 內置消息功能。 您只需在旅途中添加推送、簡訊或電子郵件活動， [定義設定和內容](../messages/get-started-content.md)。 然後，在旅程的上下文中執行併發送
+[!DNL Journey Optimizer] 內置消息功能。 您只需在旅途中添加推送、簡訊或電子郵件活動， [定義設定和內容](../messages/messages-in-journeys.md)。 然後，在旅程的上下文中執行併發送。
 
 您還可以設定特定操作以發送消息：
 

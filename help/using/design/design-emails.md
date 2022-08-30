@@ -6,16 +6,28 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 6%
+source-wordcount: '246'
+ht-degree: 20%
 
 ---
 
 # 開始使用電子郵件設計 {#get-started-content-design}
 
+您可以在 [!DNL Journey Optimizer] 或利用內容設計功能：
+
+* 使用 [!DNL Journey Optimizer] **電子郵件設計功能** 設計或導入響應性電子郵件。 [了解更多](../design/create-email-content.md)
+
+* 利用 **Adobe Experience Manager Assets Essentials** 豐富您的電子郵件，建構並管理您自己的資產資料庫。[了解更多](../design/assets-essentials.md)
+
+* 查找 **Adobe Stock 相片**&#x200B;建構內容並改進電子郵件設計。[了解更多](../design/stock.md)
+
+* 通過根據客戶配置檔案屬性建立個性化消息來增強客戶體驗。 [了解更多](../personalization/personalize.md)
+
 ➡️ [在影片中探索此功能](#video)
+
+一旦你 [已建立郵件](../messages/get-started-content.md)，您可以開始建立電子郵件內容。
 
 1. 從新建立的郵件中，選擇 **[!UICONTROL Email designer]** 的 **[!UICONTROL Body]** 的子菜單。
 
@@ -35,11 +47,6 @@ ht-degree: 6%
 
 從消息建立螢幕訪問電子郵件設計器時，這些功能都可用。 [瞭解有關郵件建立的更多資訊](../messages/get-started-content.md)。
 
->[!NOTE]
->
->請注意，下部區域中的模板是靜態的，無法編輯。 這些僅供說明之用。
->
->一旦你 [已建立郵件](../messages/get-started-content.md)，您可以開始建立電子郵件內容。
 
 ## How-to視頻 {#video}
 
