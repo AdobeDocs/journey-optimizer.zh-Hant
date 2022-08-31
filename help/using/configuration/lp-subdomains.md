@@ -4,7 +4,7 @@ description: 瞭解如何使用Journey Optimizer配置登錄頁子域
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 1%
@@ -17,13 +17,13 @@ ht-degree: 1%
 >id="ajo_admin_config_lp_subdomain"
 >title="建立登錄頁預設"
 >abstract="要能夠建立登錄頁預設，請確保您以前至少配置了一個登錄頁子域，以便從子域名清單中進行選擇。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="建立登錄頁預設"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html" text="建立登錄頁預設"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
 >title="委託登錄頁子域"
 >abstract="您必須配置子域以用於登錄頁，因為您需要此子域來建立登錄頁預設。 可以使用已委託給Adobe的子域或配置新的子域。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="建立登錄頁預設"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html" text="建立登錄頁預設"
 
 能夠 [建立登錄頁預設](lp-presets.md)，必須設定用於登錄頁的子域。
 

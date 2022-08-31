@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '449'
 ht-degree: 2%
 
 ---
@@ -28,6 +28,14 @@ ht-degree: 2%
 * 如果存在不同的遞送並且至少24小時之外出現兩個錯誤，則每次錯誤時誤差計數器遞增，並且在第五次嘗試時地址也被抑制。
 
 如果重試後傳遞成功，則重新初始化地址的錯誤計數器。
+
+## 編輯重試閾值 {#edit-retry-threshold}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_bounces"
+>title="更新錯誤數閾值"
+>abstract="如果預設值不適合您的需要，則可以修改允許的連續可變邊界數。 當重試計數器達到特定電子郵件地址的錯誤閾值時，此地址將添加到禁止顯示清單。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="瞭解訂閱清單"
 
 如果預設值5不適合您的需要，則可以按照以下步驟修改錯誤閾值。
 

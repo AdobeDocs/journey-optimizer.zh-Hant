@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 3%
+source-wordcount: '899'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,11 @@ ht-degree: 3%
 >
 >「內容」實驗功能目前僅適用於一組組織（有限可用性）。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-內容實驗功能允許您定義多個傳遞處理。 興趣對象被隨機地分配到每個治療中，以確定哪個在興趣度量方面表現最佳。 您可以選擇更改電子郵件的內容、主題或發件人。
+>[!NOTE]
+>
+>在使用內容實驗之前，請確保為自定義資料集設定了報告配置。 請參閱[此章節](reporting-configuration.md)深入瞭解。
+
+「內容」實驗功能允許您定義多個傳遞處理。 興趣對象被隨機地分配到每個治療中，以確定哪個在興趣度量方面表現最佳。 您可以選擇更改電子郵件的內容、主題或發件人。
 
 在下例中，交貨目標已分解為兩個組，每個組佔目標人口的45%，而拒絕組佔10%，他們將不接收交貨。
 

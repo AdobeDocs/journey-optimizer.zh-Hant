@@ -2,10 +2,10 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '1812'
-ht-degree: 98%
+source-wordcount: '1825'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 98%
 * 現在，開始使用登陸頁面區段將引用一份如何設定訂閱和建立登陸頁面的展示影片。 [閱讀全文](../landing-pages/get-started-lp.md#video)
 * 已對使用讀取段活動的旅程添加限制。 [閱讀全文](../building-journeys/read-segment.md)
 * 已對表達式編輯器運算子頁進行了改進。 [閱讀全文](../building-journeys/expression/operators.md)
+* 已添加有關如何安排市場活動的部分。 [閱讀全文](../campaigns/create-campaign.md)
 
 ## 2022 年 7 月 {#july-2022}
 

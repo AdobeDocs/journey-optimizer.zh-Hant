@@ -4,9 +4,9 @@ description: 瞭解如何配置環境以向Journey Optimizer發送SMS消息
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 44ef82f03752933269c1a8d9e65266c3132dd664
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '608'
 ht-degree: 2%
 
 ---
@@ -25,12 +25,12 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="配置您的SMS供應商"
+>title="選擇SMS供應商配置"
 >abstract="選擇您的供應商並填寫您的SMS API憑據。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
->title="配置您的SMS供應商"
+>title="選擇SMS供應商配置"
 >abstract="選擇為SMS供應商配置的API憑據。"
 
 要使用Journey Optimizer配置您的SMS供應商，請執行以下步驟：

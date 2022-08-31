@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 87f9a4661b64cf24a8cd62bb9c70d5f1c9fcaddf
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 13%
+source-wordcount: '700'
+ht-degree: 11%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 13%
 >* [開始使用區段](../segment/about-segments.md)
 
 
-建立市場活動的步驟如下：
+## 建立第一次市場活動 {#create}
 
 1. 訪問 **[!UICONTROL Campaigns]** 菜單，然後按一下 **[!UICONTROL Create campaign]**。
 
-   ![](assets/create-campaign.png)
-
    >[!NOTE]
    >
-   >您還可以複製現有的即時市場活動，以建立新市場活動。 [了解更多](modify-stop-campaign.md#duplicate) <!-- check if only live campaigns-->
+   >您還可以複製現有的即時市場活動，以建立新市場活動。 [了解更多](modify-stop-campaign.md#duplicate)
+
+   ![](assets/create-campaign.png)
 
 <!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
 
@@ -40,13 +40,15 @@ ht-degree: 13%
 
 1. 在 **[!UICONTROL Actions]** ，選擇用於發送消息的通道和通道曲面，然後按一下 **[!UICONTROL Create]**。
 
-   ![](assets/create-campaign-action.png)
-
    介面是由[系統管理員](../start/path/administrator.md)定義的設定。 它包含所有用於春頌訊息的技術參數，如標頭參數、子網域、行動應用程式等等。[了解更多](../configuration/channel-surfaces.md)。
+
+   ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >下拉清單中只列出與市場活動類型（市場營銷或事務性）相容的渠道曲面。
+   >下拉清單中只列出與市場營銷活動類型相容的渠道曲面。
+
+<!--Only channel surfaces compatible with the campaign type (marketing or transactional) are listed in the drop-down list.-->
 
 1. 指定市場活動的標題和說明。
 
@@ -62,6 +64,7 @@ ht-degree: 13%
       * [建立推播通知](../messages/create-push.md)
       * [建立 SMS 訊息](../messages/create-sms.md)
    1. 定義內容後，使用 **[!UICONTROL Simulate content]** 按鈕，使用test配置檔案預覽和test內容。 [了解更多](../design/preview.md)。
+
    1. 按一下箭頭返回市場活動建立螢幕。
 
       ![](assets/create-campaign-design.png)
@@ -83,17 +86,11 @@ ht-degree: 13%
    >
    >該活動不會針對屬於在其不同身份中沒有選定身份（命名空間）的段的個人。
 
-1. 在「起始日期」和「終止日期」欄位中配置市場活動的計畫。 預設情況下，市場活動在手動激活後開始，並在消息發送一次後立即結束。
+   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
-1. 此外，您還可以指定執行市場活動中配置的操作的頻率。
+1. 要在特定日期或循環頻率上執行市場活動，請配置 **[!UICONTROL Schedule]** 的子菜單。 [瞭解如何安排市場活動](#schedule)
 
-   <!-- NOTE For API-triggered campaigns, scheduling at a specific date and time with recurrence is not available as action is triggered via API. However, start and end date are relevant to ensure that, if an API call is made prior of after the window, then those get errored.-->
-
-   ![](assets/create-campaign-schedule.png)
-
-<!--1. If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
-
-一旦您的市場活動準備就緒，您就可以查看並發佈它。 [了解更多](#review-activate);
+一旦您的市場活動準備就緒，您就可以查看並發佈它。 [了解更多](#review-activate)
 
 ## 複查並激活市場活動 {#review-activate}
 
@@ -128,3 +125,13 @@ ht-degree: 13%
    您還可以通過按一下 **[!UICONTROL Reports]** 按鈕 [了解更多](../reports/campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)
+
+## 計畫市場活動 {#schedule}
+
+預設情況下，市場活動在手動激活後開始，並在消息發送一次後立即結束。
+
+您可以定義市場活動消息的發送頻率。 要執行此操作，請使用 **[!UICONTROL Action triggers]** 選項，指定是否應每日、每週或每月執行市場活動。
+
+如果您不想在市場活動激活後立即執行市場活動，則可以使用 **[!UICONTROL Campaign start]** 的雙曲餘切值。 的  **[!UICONTROL Campaign end]** 選項，您可以指定週期性市場活動停止執行的時間。
+
+![](assets/create-campaign-schedule.png)

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: bbcafe364ca13501972b3d8e1150aa2f51ba88a0
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '496'
 ht-degree: 5%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 5%
 使用Journey Optimizer市場活動，通過各種渠道將一次性內容交付到特定市場。 使用行程時，按順序執行操作。 對於市場活動，活動可以同時執行，也可以立即執行，或者根據指定的時間表執行。
 
 建立市場活動，以發送簡單的臨時批通信，以用於市場營銷用例，如促銷優惠、接洽活動、公告、法律通知或策略更新。
+
+建立市場活動的主要步驟如下：
+
+![](assets/create-campaign-process.png)
 
 ➡️ [在影片中探索此功能](#video)
 
