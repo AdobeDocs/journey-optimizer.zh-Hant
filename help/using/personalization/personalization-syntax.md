@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
+source-git-commit: 7476c50f82c0fdd63f282b3ee2dc3756862f598c
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 9%
@@ -43,7 +43,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 在Handlebars中， {{expression}} 為 **HTML逸出**. 如果運算式包含 `&`，則傳回的HTML逸出輸出會產生為 `&amp;`. 如果你不希望Handlebars逸出某個值，請使用「三藏」。
 
-關於常值函式引數，模板語言解析器不支援單個未逸出反斜線(「\」)符號。 此字元必須以其他反斜線(「\」)符號逸出。 範例 :
+關於常值函式引數，模板語言解析器不支援單個非逸出反斜線(`\`)符號。 此字元必須以其他反斜線(`\`)符號。 範例 :
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
