@@ -1,5 +1,5 @@
 ---
-title: 報告設定
+title: 設定Journey Optimizer報表以進行實驗
 description: 瞭解如何設定報告資料來源
 feature: Data Sources
 topic: Administration
@@ -8,34 +8,34 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 43%
+source-wordcount: '704'
+ht-degree: 42%
 
 ---
 
-# 報告設定 {#reporting-configuration}
+# 設定報表以供實驗 {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="設定資料集以進行報告"
->abstract="報告配置允許您檢索將在市場活動報告的「目標」標籤中使用的其他度量。 必須由技術使用者執行。"
+>abstract="報表設定可讓您擷取將用於促銷活動報表之「目標」標籤的其他量度。 必須由技術使用者執行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="選取資料集"
->abstract="您只能選擇一個事件類型資料集，該資料集必須至少包含一個受支援的欄位組：應用程式詳細資訊、商務詳細資訊、Web詳細資訊。"
+>abstract="您只能選取至少包含一個支援欄位群組的事件類型資料集：應用程式詳細資訊、商務詳細資訊、Web詳細資訊。"
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
-報告資料源配置允許您檢索將在 **[!UICONTROL Objectives]** 頁籤。 [了解更多](content-experiment.md#objectives-global)
+報表資料來源設定可讓您擷取將用於 **[!UICONTROL Objectives]** 標籤。 [了解更多](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >
->報告配置必須由技術用戶執行。 <!--Rights?-->
+>報表設定必須由技術使用者執行。 <!--Rights?-->
 
-對於此配置，您需要添加一個或多個資料集，其中包含要用於報表的其他元素。 要執行此操作，請執行步驟 [下](#add-datasets)。
+針對此設定，您需要新增一或多個資料集，其中包含您要用於報表的其他元素。 要執行此操作，請遵循步驟 [low](#add-datasets).
 
 <!--
 ➡️ [Discover this feature in video](#video)
@@ -44,39 +44,39 @@ ht-degree: 43%
 ## 先決條件
 
 
-必須先建立該資料集，然後才能將資料集添加到報告配置。 在 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant#create){target=&quot;_blank&quot;} 中進一步瞭解。
+您必須先建立該資料集，才能將資料集新增至報表設定。 在 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant#create){target=&quot;_blank&quot;} 中進一步瞭解。
 
-* 只能添加事件類型資料集。
+* 您只能新增事件類型資料集。
 
-* 這些資料集必須至少包含以下其中之一 [欄位組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target=&quot;_blank&quot;: **應用程式詳細資訊**。 **商業詳細資訊**。 **Web詳細資訊**。
+* 這些資料集至少必須包含下列其中一項 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target=&quot;_blank&quot;}: **應用程式詳細資訊**, **商務詳細資訊**, **Web詳細資訊**.
 
    >[!NOTE]
    >
-   >當前僅支援這些欄位組。
+   >目前僅支援這些欄位群組。
 
-   例如，如果您想瞭解電子郵件活動對商業資料（如採購或訂單）的影響，則需要使用 **商業詳細資訊** 欄位組。
+   例如，如果您想要了解電子郵件促銷活動對商務資料（例如購買或訂購）的影響，您需要使用 **商務詳細資訊** 欄位群組。
 
-   同樣，如果要報告移動交互，則需要使用 **應用程式詳細資訊** 欄位組。
+   同樣地，如果您想要回報行動互動，則需要使用 **應用程式詳細資訊** 欄位群組。
 
-   列出與每個欄位組對應的度量 [這裡](#objective-list)。
+   會列出與每個欄位群組對應的量度 [此處](#objective-list).
 
-* 您可以將這些欄位組添加到一個或多個方案中，這些方案將用於一個或多個資料集。
+* 您可以將這些欄位群組新增至一或多個結構，以用於一或多個資料集。
 
 >[!NOTE]
 >
 >在 [XDM 系統總覽文件](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解更多有關 XDM 方案和欄位群組的詳細資訊。
 
-## 對應於每個欄位組的目標 {#objective-list}
+## 與每個欄位組對應的目標 {#objective-list}
 
-下表顯示了將添加到 **[!UICONTROL Objectives]** 按鈕。
+下表顯示要新增哪些量度至 **[!UICONTROL Objectives]** 標籤。
 
 | 欄位群組 | 目標 |
 |--- |--- |
-| 商業詳細資訊 | 價格合計<br>付款金額<br>（唯一）簽出<br>（唯一）產品清單添加<br>（唯一）產品清單開啟<br>（唯一）刪除產品清單<br>（唯一）產品清單視圖<br>（唯一）產品視圖<br>（唯一）購買<br>（唯一）為後台保存<br>產品價格合計<br>產品數量 |
-| 應用程式詳細資訊 | （唯一）應用程式啟動<br>首次應用啟動<br>（唯一）應用程式安裝<br>（唯一）應用程式升級 |
-| Web詳細資訊 | （唯一）頁面視圖 |
+| 商務詳細資訊 | 價格總計<br>付款金額<br>（不重複）結帳<br>（不重複）產品清單新增<br>（不重複）產品清單開啟<br>（不重複）移除產品清單<br>（不重複）產品清單檢視<br>（不重複）產品檢視<br>（不重複）購買<br>（唯一）為延遲儲存<br>產品價格合計<br>產品數量 |
+| 應用程式詳細資訊 | （不重複）應用程式啟動<br>首次應用程式啟動<br>（唯一）應用程式安裝<br>（不重複）應用程式升級 |
+| Web詳細資訊 | （不重複）頁面檢視 |
 
-## 添加資料集 {#add-datasets}
+## 新增資料集 {#add-datasets}
 
 1. 從 **[!UICONTROL ADMINISTRATION]** 功能表，選取 **[!UICONTROL Configurations]**。在 **[!UICONTROL Reporting]** 區段，按一下 **[!UICONTROL Manage]**。
 
@@ -96,7 +96,7 @@ ht-degree: 43%
 
    >[!CAUTION]
    >
-   >只能選擇事件類型資料集，該資料集必須至少包含支援的 [欄位組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;: **應用程式詳細資訊**。 **商業詳細資訊**。 **Web詳細資訊**。 如果選取的資料集與這些條件不相符，將無法儲存變更。
+   >您只能選取事件類型資料集，該資料集必須至少包含一個支援的 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;}: **應用程式詳細資訊**, **商務詳細資訊**, **Web詳細資訊**. 如果選取的資料集與這些條件不相符，將無法儲存變更。
 
    ![](assets/reporting-config-datasets.png)
 
@@ -122,7 +122,7 @@ ht-degree: 43%
    >
    >如果選取了非事件類型的資料集，則無法繼續。
 
-在生成市場活動報告時，您現在可以查看與添加的資料集中使用的欄位組相對應的度量。 轉到 **[!UICONTROL Objectives]** 頁籤，然後選擇您選擇的度量以更好地調整報告。 [了解更多](content-experiment.md#objectives-global)
+建立促銷活動報表時，您現在可以看到與您新增資料集中使用之欄位群組相對應的量度。 前往 **[!UICONTROL Objectives]** 標籤，並選取您選取的量度，以更精確調整報表。 [了解更多](content-experiment.md#objectives-global)
 
 ![](assets/reporting-config-objectives.png)
 
