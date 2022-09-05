@@ -1,16 +1,16 @@
 ---
 title: Adobe Journey Optimizer實驗使用的統計計算
 description: 進一步了解執行實驗時使用的統計計算
-feature: Content Management, A/B Testing
+feature: A/B Testing
 topic: Content Management
 role: User
 level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 14a428a0f8b17d9f29d9dfff18c5e9bb7eb77b97
+source-git-commit: f0e2f80a815aebb7574582fbf33770aa5da0abab
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ![](assets/technote_1.png)
 
-如上表所示，許多統計參考方法的設計目的是控制兩類錯誤：
+如上表所示，許多統計參考方法的設計目的是控制兩種錯誤：
 
 * **誤判（I類錯誤）**:是對null假設的錯誤拒絕，但事實上為true。 線上上實驗中，這意味著我們錯誤地認為每次治療的結果度量是不同的，儘管是相同的。
    </br>在執行實驗之前，我們通常會選取臨界值 `\alpha`. 實驗執行後， `p-value` 是計算的，我們拒絕 `null if p < \alpha`. 常用的臨界值為 `\alpha = 0.05`，這表示從長遠來看，每100個實驗中就有5個會是誤判。
