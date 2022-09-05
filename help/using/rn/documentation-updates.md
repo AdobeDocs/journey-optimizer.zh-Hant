@@ -2,10 +2,10 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '1825'
-ht-degree: 97%
+source-wordcount: '1871'
+ht-degree: 95%
 
 ---
 
@@ -15,12 +15,13 @@ ht-degree: 97%
 
 ## 2022 年 8 月 {#august-2022}
 
-* 隨附的所有新功能和改進 [!DNL Journey Optimizer] 文檔中詳細列出了2022年8月的版本。 [閱讀全文](release-notes.md)
+* 隨附的所有新功能和改善項目 [!DNL Journey Optimizer] 』22年8月的發行詳情請參閱本檔案。 [閱讀全文](release-notes.md)
 * 已更新「頻率規則」區段以反映全新內嵌訊息流程。 [閱讀全文](../configuration/frequency-rules.md#apply-frequency-rule)
 * 現在，開始使用登陸頁面區段將引用一份如何設定訂閱和建立登陸頁面的展示影片。 [閱讀全文](../landing-pages/get-started-lp.md#video)
-* 已對使用讀取段活動的旅程添加限制。 [閱讀全文](../building-journeys/read-segment.md)
-* 已對表達式編輯器運算子頁進行了改進。 [閱讀全文](../building-journeys/expression/operators.md)
-* 已添加有關如何安排市場活動的部分。 [閱讀全文](../campaigns/create-campaign.md)
+* 已新增使用讀取區段活動之歷程的限制。 [閱讀全文](../building-journeys/read-segment.md)
+* 已改善運算式編輯器運算子頁面。 [閱讀全文](../building-journeys/expression/operators.md)
+* 已新增如何排程促銷活動的區段。 [閱讀全文](../campaigns/create-campaign.md)
+* 已更新運算式編輯器的一般語法規則區段，以考慮常值函式中反斜線符號逸出的新規則。 此變更不會影響現有的已發佈訊息。 只能更新新訊息或草稿訊息。 [閱讀全文](../personalization/personalization-syntax.md#general-rules)
 
 ## 2022 年 7 月 {#july-2022}
 
