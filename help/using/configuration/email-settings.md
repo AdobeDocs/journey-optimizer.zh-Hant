@@ -1,21 +1,21 @@
 ---
 title: 設定電子郵件設定
-description: 瞭解如何在渠道表面級別配置電子郵件設定
+description: 了解如何在通道表面層級配置電子郵件設定
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1153'
 ht-degree: 2%
 
 ---
 
 # 設定電子郵件設定 {#email-settings}
 
-在通道表面（即消息預設）配置的專用部分中定義電子郵件設定。 瞭解如何在 [此部分](channel-surfaces.md)。
+在通道表面的專用區段（即訊息預設集）設定中定義電子郵件設定。 了解如何在 [本節](channel-surfaces.md).
 
 ![](assets/preset-email-settings.png)
 
@@ -24,116 +24,116 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="定義電子郵件類別"
->abstract="選擇使用此表面時將發送的電子郵件類型：需要用戶同意的促銷電子郵件的營銷，或非商業電子郵件的事務性，也可以在特定上下文中將其發送到未訂閱的配置檔案。"
+>abstract="選取使用此表面時要傳送的電子郵件類型：行銷促銷電子郵件，需要使用者同意，或非商業電子郵件的交易式，也可在特定內容中傳送給取消訂閱的設定檔。"
 
-在 **電子郵件類型** 部分，選擇將與曲面一起發送的消息類型： **營銷** 或 **事務性**。
+在 **電子郵件類型** 節，選擇將與曲面一起發送的消息類型： **行銷** 或 **交易**.
 
-* 選擇 **營銷** 用於促銷電子郵件：這些消息需要用戶同意。
+* 選擇 **行銷** 促銷電子郵件：這些訊息需要使用者同意。
 
-* 選擇 **事務性** 非商業電子郵件（例如，訂單確認、密碼重置通知或交貨資訊）。
+* 選擇 **交易** 例如，非商業電子郵件（例如訂單確認、密碼重設通知或傳送資訊）。
 
 >[!CAUTION]
 >
->**事務性** 電子郵件可以發送到從營銷通信中取消訂閱的個人資料。 這些消息只能在特定上下文中發送。
+>**交易** 可以傳送電子郵件給從行銷通訊取消訂閱的設定檔。 這些訊息只能在特定內容中傳送。
 
-當 [建立消息](../messages/get-started-content.md)，必須選擇與您為電子郵件選擇的類別匹配的有效通道曲面。
+當 [建立訊息](../messages/get-started-content.md)，您必須選擇符合您為電子郵件選取之類別的有效管道表面。
 
-## 子域和IP池 {#subdomains-and-ip-pools}
+## 子網域和IP池 {#subdomains-and-ip-pools}
 
-在 **子域和IP池詳細資訊** ，您必須：
+在 **子網域和IP池** 部分，您必須：
 
-1. 選擇要用於發送電子郵件的子域。 [了解更多](about-subdomain-delegation.md)
+1. 選取用來傳送電子郵件的子網域。 [了解更多](about-subdomain-delegation.md)
 
 1. 選擇要與曲面關聯的IP池。 [了解更多](ip-pools.md)
 
 ![](assets/preset-subdomain-ip-pool.png)
 
-當所選IP池位於以下位置時，無法繼續建立曲面 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** 狀態)，且從未與所選子域關聯。 否則，仍將使用IP池/子域關聯的最舊版本。 如果是這種情況，請將曲面另存為草稿，並在IP池具有 **[!UICONTROL Success]** 狀態。
+在所選IP池下時，無法繼續建立曲面 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** 狀態)，且從未與選取的子網域相關聯。 否則，仍將使用最舊版本的IP池/子域關聯。 如果是這種情況，請將曲面另存為草稿，然後在IP池具有 **[!UICONTROL Success]** 狀態。
 
 >[!NOTE]
 >
->對於非生產環境，Adobe不建立現成的test子域，也不授予對共用發送IP池的訪問權限。 你需要 [委派自己的子域](delegate-subdomain.md) 並使用分配給您組織的池中的IP。
+>對於非生產環境，Adobe不會建立現成可用的測試子網域，也不會授予對共用傳送IP池的存取權。 您需要 [委派您自己的子網域](delegate-subdomain.md) 並使用分配給您組織的池中的IP。
 
 ## 清單 — 取消訂閱 {#list-unsubscribe}
 
-在 [選擇子域](#subdomains-and-ip-pools) 清單中， **[!UICONTROL Enable List-Unsubscribe]** 按鈕。
+上 [選取子網域](#subdomains-and-ip-pools) 從清單中， **[!UICONTROL Enable List-Unsubscribe]** 選項。
 
 ![](assets/preset-list-unsubscribe.png)
 
 依預設，會啟用此選項。
 
-如果保持啟用狀態，則取消訂閱連結將自動包含在電子郵件標題中，例如：
+如果您保留為啟用，取消訂閱的連結會自動納入電子郵件標題中，例如：
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-如果禁用此選項，則電子郵件標題中不會顯示取消訂閱連結。
+如果停用此選項，電子郵件標題中將不會顯示取消訂閱連結。
 
 取消訂閱連結包含兩個元素：
 
-* 安 **取消訂閱電子郵件地址**，所有取消訂閱請求都發送到。
+* 安 **取消訂閱電子郵件地址**，所有取消訂閱的請求都會傳送至。
 
-   在 [!DNL Journey Optimizer]，取消訂閱電子郵件地址是 **[!UICONTROL Mailto (unsubscribe)]** 顯示在通道表面的地址，根據 [選定子域](#subdomains-and-ip-pools)。
+   在 [!DNL Journey Optimizer]，則預設會是「取消訂閱電子郵件地址」 **[!UICONTROL Mailto (unsubscribe)]** 顯示於通道表面的地址，根據 [選取的子網域](#subdomains-and-ip-pools).
 
    ![](assets/preset-list-unsubscribe-mailto.png)
 
-* 的 **取消訂閱URL**，即登錄頁的URL，在取消訂閱後將重定向用戶。
+* 此 **取消訂閱URL**，即登錄頁面的URL，一旦取消訂閱，系統會將使用者重新導向。
 
-   如果添加 [按一下選擇退出連結](../messages/consent.md#one-click-opt-out) 對於使用此曲面建立的消息，取消訂閱URL將是為按一下「選擇退出」連結定義的URL。
+   如果您新增 [一鍵式選擇退出連結](../messages/consent.md#one-click-opt-out) 若要使用此介面建立訊息，取消訂閱URL將為一鍵式選擇退出連結所定義的URL。
 
    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
    >[!NOTE]
    >
-   >如果您不在消息內容中添加一鍵退出選項連結，則不會向用戶顯示登錄頁。
+   >若您未在訊息內容中新增一鍵式選擇退出連結，則不會向使用者顯示任何登陸頁面。
 
-瞭解有關將標題取消訂閱連結添加到郵件的詳細資訊 [此部分](../messages/consent.md#unsubscribe-header)。
+進一步了解如何在 [本節](../messages/consent.md#unsubscribe-header).
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 
 ## 標題參數{#email-header}
 
-在 **[!UICONTROL HEADER PARAMETERS]** 部分，輸入與使用該曲面發送的電子郵件類型關聯的發件人姓名和電子郵件地址。
+在 **[!UICONTROL Header parameters]** 部分，輸入與使用該曲面發送的電子郵件類型相關聯的發件人姓名和電子郵件地址。
 
 >[!CAUTION]
 >
->電子郵件地址必須使用當前選定的 [委託子域](about-subdomain-delegation.md)。
+>電子郵件地址必須使用目前選取的 [委派子網域](about-subdomain-delegation.md).
 
-* **[!UICONTROL Sender name]**:發件人的名稱，如您的品牌名稱。
+* **[!UICONTROL Sender name]**:寄件者的名稱，例如您的品牌名稱。
 
-* **[!UICONTROL Sender email]**:要用於通信的電子郵件地址。 例如，如果委派的子域是 *營銷.luma.com*，您可以使用 *contact@marketing.luma.com*。
+* **[!UICONTROL Sender email]**:您要用於通訊的電子郵件地址。 例如，如果委派的子網域為 *marketing.luma.com*，您可以使用 *contact@marketing.luma.com*.
 
-* **[!UICONTROL Reply to (name)]**:收件人按一下 **答復** 按鈕。
+* **[!UICONTROL Reply to (name)]**:收件者點按 **回覆** 按鈕。
 
-* **[!UICONTROL Reply to (email)]**:收件人按一下 **答復** 按鈕。 必須使用在委派子域上定義的地址(例如， *reply@marketing.luma.com*)，否則將刪除電子郵件。
+* **[!UICONTROL Reply to (email)]**:收件者點按 **回覆** 按鈕。 您必須使用在委派子網域上定義的位址(例如 *reply@marketing.luma.com*)，否則會捨棄電子郵件。
 
-* **[!UICONTROL Error email]**:ISP在發送數天郵件（非同步綁定）後生成的所有錯誤都會在此地址上接收。
+* **[!UICONTROL Error email]**:在傳送數天郵件（非同步退信）後，ISP產生的所有錯誤都會在此位址上接收。
 
 ![](assets/preset-header.png)
 
 >[!NOTE]
 >
->地址必須以字母(A-Z)開頭，並且只能包含字母數字字元。 您還可以使用下划線 `_`，點`.` 連字元 `-` 字元。
+>地址必須以字母(A-Z)開頭，並且只能包含英數字元。 您也可以使用底線 `_`，點`.` 連字型大小 `-` 字元。
 
-### 轉發電子郵件 {#forward-email}
+### 轉寄電子郵件 {#forward-email}
 
-如果要轉發到特定電子郵件地址，則所有收到的電子郵件 [!DNL Journey Optimizer] 對於委派的子域，請與Adobe客戶服務部門聯繫。 您需要提供：
+如果您想要轉送至特定電子郵件地址，則收到的所有電子郵件 [!DNL Journey Optimizer] 如需委派的子網域，請聯絡Adobe客戶服務。 您需要提供：
 
-* 您選擇的轉發電子郵件地址。 請注意，轉發電子郵件地址域與委託給Adobe的任何子域不匹配。
-* 沙盒名稱。
-* 將使用轉發電子郵件地址的表面名稱。
-* 當前 **[!UICONTROL Reply to (email)]** 在通道表面層設定的地址。
+* 您選擇的轉寄電子郵件地址。 請注意，轉送電子郵件地址網域不能符合委派給Adobe的任何子網域。
+* 您的沙箱名稱。
+* 要使用轉發電子郵件地址的表面名稱。
+* 目前 **[!UICONTROL Reply to (email)]** 在通道表面層設定的地址。
 
 >[!NOTE]
 >
->每個子域只能有一個轉發電子郵件地址。 因此，如果多個曲面使用同一子域，則所有這些曲面都必須使用相同的轉發電子郵件地址。
+>每個子網域只能有一個轉寄電子郵件地址。 因此，如果多個曲面使用相同的子域，則所有曲面都必須使用相同的轉發電子郵件地址。
 
-轉發電子郵件地址將通過Adobe設定。 這可能需要3到4天。
+轉寄電子郵件地址由Adobe設定。 這可能需要3到4天。
 
-## 密件抄送電子郵件 {#bcc-email}
+## 密件副本電子郵件 {#bcc-email}
 
-您可以發送由 [!DNL Journey Optimizer] 發送到密件抄送收件箱，在該收件箱中，這些郵件將儲存為符合性或存檔目的。
+您可以傳送由 [!DNL Journey Optimizer] 到BCC收件箱，在該收件箱中儲存這些郵件，以滿足合規性或歸檔目的。
 
-為此，請啟用 **[!UICONTROL BCC EMAIL]** 在通道曲面級上可選特徵。 [了解更多](bcc-email.md)
+要執行此操作，請啟用 **[!UICONTROL BCC email]** 通道曲面層的可選特徵。 [了解更多](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 
@@ -142,44 +142,46 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
 >title="調整重試時間段"
->abstract="當由於臨時軟彈回錯誤而導致電子郵件傳遞失敗時，重試時間為3.5天（84小時）。 您可以調整此預設重試時間段，以更好地滿足您的需要。"
+>abstract="當電子郵件傳送因暫時軟退信錯誤而失敗時，將執行3.5天（84小時）的重試。 您可以調整此預設的重試時間段，以更符合您的需求。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="關於重試"
 
-您可以配置 **電子郵件重試參數**。
+您可以設定 **電子郵件重試參數**.
 
 ![](assets/preset-retry-parameters.png)
 
-預設情況下， [重試時間](retries.md#retry-duration) 設定為84小時，但您可以調整此設定以更好地滿足您的需要。
+依預設， [重試時間段](retries.md#retry-duration) 設為84小時，但您可以調整此設定以更符合您的需求。
 
-必須在以下範圍內輸入整數值（以小時或分鐘為單位）:
+您必須在以下範圍內輸入整數值（以小時或分鐘為單位）:
 
-* 對於市場營銷電子郵件，最短重試時間為6小時。
-* 對於事務性電子郵件，最短重試時間為10分鐘。
+* 若是行銷電子郵件，最低重試時間為6小時。
+* 對於交易式電子郵件，最低重試期間為10分鐘。
 * 對於這兩種電子郵件類型，最大重試時間為84小時（或5040分鐘）。
 
-在中重試時瞭解更多資訊 [此部分](retries.md)。
+深入了解中的重試次數 [本節](retries.md).
 
-## URL跟蹤 {#url-tracking}
+## URL追蹤 {#url-tracking}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="定義URL跟蹤參數"
->abstract="使用此部分可自動將跟蹤參數附加到電子郵件內容中存在的URL。 此功能是選取性的。"
+>title="定義URL追蹤參數"
+>abstract="使用本節來自動將追蹤參數附加至您電子郵件內容中出現的URL。 此功能是選取性的。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
->title="預覽URL跟蹤參數"
->abstract="查看跟蹤參數將如何附加到電子郵件內容中存在的URL。"
+>title="預覽URL追蹤參數"
+>abstract="檢閱如何將追蹤參數附加至電子郵件內容中出現的URL。"
 
-您可以使用 **[!UICONTROL URL TRACKING PARAMETERS]** 以衡量您跨渠道的營銷工作的成效。 此功能是選取性的。
+您可以使用 **[!UICONTROL URL tracking parameters]** 來評估跨管道行銷工作的成效。 此功能是選取性的。
 
-本節中定義的參數將附加到電子郵件內容中包含的URL的末尾。 然後，您可以在Web分析工具(如Adobe Analytics或Google Analytics)中捕獲這些參數，並建立各種效能報告。
+本節中定義的參數會附加至電子郵件訊息內容中所包含的URL結尾。 接著，您就可以在網頁分析工具(例如Adobe Analytics或Google Analytics)中擷取這些參數，並建立各種效能報表。
+
+<!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
+
+您可以使用 **[!UICONTROL Add new parameter]** 按鈕。
 
 ![](assets/preset-url-tracking.png)
 
-作為建立通道曲面時的示例，會自動填充三個URL跟蹤參數。 您可以使用 **[!UICONTROL Add new parameter]** 按鈕
-
-要配置URL跟蹤參數，可以直接在 **[!UICONTROL Name]** 和 **[!UICONTROL Value]** 的子菜單。
+若要設定URL追蹤參數，您可以直接在 **[!UICONTROL Name]** 和 **[!UICONTROL Value]** 欄位。
 
 <!--You can also choose from a list of predefined values by navigating to the following objects:
 * Journey attributes: **Source id**, **Source name**, **Source version id**
@@ -192,22 +194,22 @@ ht-degree: 2%
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-也可以編輯每個 **[!UICONTROL Value]** 欄位 [表達式編輯器](../personalization/personalization-build-expressions.md)。 按一下「版本」表徵圖以開啟編輯器。 從中，您可以選擇所選的上下文屬性和/或直接編輯文本。
+您也可以編輯 **[!UICONTROL Value]** 欄位使用 [運算式編輯器](../personalization/personalization-build-expressions.md). 按一下版本圖示以開啟編輯器。 從那裡，您可以選取所選內容屬性及/或直接編輯文字。
 
 ![](assets/preset-url-tracking-editor.png)
 
 >[!NOTE]
 >
->您可以將鍵入的文本值與使用表達式編輯器中的上下文屬性結合起來。 每個 **[!UICONTROL Value]** 欄位總共最多可包含255個字元。
+>您可以從運算式編輯器中結合輸入文字值和使用內容屬性。 每個 **[!UICONTROL Value]** 欄位總共可包含最多255個字元。
 
 <!--You can drag and drop the parameters to reorder them.-->
 
-以下是與Adobe Analytics和Google Analytics相容的URL的示例。
+以下是Adobe Analytics和Google Analytics相容URL的範例。
 
 * Adobe Analytics相容URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
 * Google Analytics相容URL: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
 
-可動態預覽結果的跟蹤URL。 每次添加、編輯或刪除參數時，預覽都會自動更新。
+您可以動態預覽產生的追蹤URL。 每次添加、編輯或刪除參數時，預覽都會自動更新。
 
 ![](assets/preset-url-tracking-preview.png)

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 100%
+source-wordcount: '702'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 * **現代全通路協調 &amp; 執行** - 在單一畫布上協調並最佳化客戶歷程，以實現 1:1 客戶參與和行銷拓展，以協助品牌在客戶生命週期中提供更多價值。在[!DNL Adobe Journey Optimizer]中設計的客戶歷程可以是動態且以事件為基礎，以協助品牌對即時訊號做出反應，並將這些互動與已排程的行銷活動進行連結，以便針對要傳送客戶的通訊、傳送時間及透過哪些頻道做出正確的決定。
 
-* **智慧決策 &amp; 個人化** - 品牌可套用集中決定，並整合人工智慧和機器學習，以在客戶體驗中呈現預測性深入分析，更輕鬆自動化決策並大規模最佳化體驗。優惠決定可透過[!DNL Adobe Journey Optimizer]大規模提供跨頻道的集中式優惠。
+* **智慧決策 &amp; 個人化** - 品牌可套用集中決定，並整合人工智慧和機器學習，以在客戶體驗中呈現預測性深入分析，更輕鬆自動化決策並大規模最佳化體驗。決策功能可大規模提供跨管道的集中優惠方案， [!DNL Adobe Journey Optimizer].
 
 ## 架構 {#architecture}
 

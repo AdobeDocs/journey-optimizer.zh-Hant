@@ -6,32 +6,32 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '341'
 ht-degree: 13%
 
 ---
 
 # 建立和管理優惠的重要步驟 {#key-steps-to-manage-offers}
 
-下面介紹了建立、配置和管理優惠以及在決策中使用這些優惠的主要步驟。
+建立、設定和管理優惠方案以及在決策中使用優惠方案的主要步驟如下。
 
 ![](../assets/offer-create-manage-process.png)
 
-有關如何配置優惠的完整端到端示例，請在決策中使用它們，並在電子郵件中利用此決定，簽出 [此頁](../offers-e2e.md)。
+如需完整的端對端範例，說明如何設定優惠方案、在決策中使用優惠方案，以及在電子郵件中運用此決策、結帳 [本頁](../offers-e2e.md).
 
 ## 建立元件 {#create-components}
 
-在開始建立聘用之前，必須定義幾個要在聘用中使用的元件。
+開始建立選件之前，您必須定義要在選件中使用的數個元件。
 
-1. **建立放置**，這些容器將用於展示您的優惠。 例如，您可以建立一個僅以影像格式專用於優惠的位置，並位於消息頂部。
+1. **建立版位**，這些容器將用來展示您的選件。 例如，您可以建立僅以影像格式專用於優惠方案的版位，並位於訊息頂端。
 
-1. **建立決策規則** 將說明提出要約的條件。
+1. **建立決策規則** 以指定要呈現選件的條件。
 
-1. **建立標籤** 您可以將其與服務關聯，從而輕鬆地組織和搜索到庫中。
+1. **建立標籤** 建立選件的關聯，讓您可輕鬆組織選件，並將其搜尋至資料庫。
 
-1. 如果要定義規則，確定應首先為給定的職位提供哪個聘用（而不是考慮聘用的優先順序分數），您可以 **建立排名公式**。
+1. 如果您想要定義規則，以決定應先針對指定版位呈現哪個優惠方案（而非考慮優惠方案的優先順序分數），您可以 **建立排名公式**.
 
 <table>
 <tr>
@@ -43,31 +43,31 @@ ht-degree: 13%
 
 ## 建立和管理優惠方案 {#create-and-manage-offers}
 
-1. **建立優惠**，並配置其內容和屬性。
+1. **建立優惠方案**，並設定其內容和屬性。
 
-1. **建立回退優惠**，如果客戶不符合任何選定的優惠條件，則這是最後展示的優惠條件。
+1. **建立回退優惠方案**，這是客戶不符合任何所選選件資格時，最後要顯示的優惠方案。
 
-1. **建立集合** 將您建立的個性化優惠包括在決策中使用。
+1. **建立集合** 納入您建立的個人化優惠方案，並用於決策中。
 
 <table>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">建立優惠</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">建立優惠方案</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">建立遞補優惠</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">建立集合</a></p></td></tr>
 </table>
 
-## 建立和配置決策 {#create-and-configure-decisions}
+## 建立和設定決策 {#create-and-configure-decisions}
 
-1. **建立決策** 將定位與個性化優惠和備用優惠結合起來。 此組合將由Offer decisioning引擎用於為特定配置檔案找到最佳服務。
+1. **建立決策** 可結合版位與個人化優惠方案和備援優惠方案。 決策引擎會使用此組合來尋找特定設定檔的最佳選件。
 
-1. **配置決策**。 要執行此操作，請選擇放置，並為每個放置選擇一個集合和回退。
+1. **設定決策**. 若要這麼做，請選取版位，然後針對每個版位選取集合和後援。
 
-1. 如果需要，你可以 **分配排名公式** 配置決策時的位置。
+1. 如有需要，您可以 **指派排名公式** 設定決策時的位置。
 
 <table>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md">建立決定</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md#add-offers">配置決策</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-assign-ranking.svg" width="60px"><p><a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">分配排名</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md#add-offers">設定決策</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-assign-ranking.svg" width="60px"><p><a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">指派排名</a></p></td>
 </tr>
 </table>

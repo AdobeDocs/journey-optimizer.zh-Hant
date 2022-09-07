@@ -2,10 +2,10 @@
 title: 2022 年發行說明
 description: Journey Optimizer 2022 年發行說明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 5aae2f685969460329f241720b0faf9c681fa668
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '2337'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -92,10 +92,10 @@ ht-degree: 95%
 
 **歷程**
 
-* **結束旅程**  — 在旅程畫布中， **結束** 活動已從調色板中刪除。 現在，每個路徑的末尾預設添加結束標籤，無法刪除。 這種改進能夠更好地報告客戶從行程中退出的位置，而無需從行程從業者處採取任何操作。 請參閱 [文檔](../building-journeys/journey-end.md) 和 [特徵視頻](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}。
+* **結束歷程** — 在歷程畫布中， **結束**&#x200B;活動已從調色盤中刪除。 現在，每個路徑的末端預設新增結束標籤而且無法移除。 這種改善能夠更好地報告客戶從歷程退出的位置，不需要由歷程業者採取任何動作。 請參閱 [文件](../building-journeys/journey-end.md) 及 [功能影片](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}。
 
 
-* 的 **配置檔案時區** 選項。 [了解更多](../building-journeys/timezone-management.md#timezone-from-profiles)
+* 此 **設定檔時區** 「歷程屬性」中的「 」選項現在預設為未勾選。 [了解更多](../building-journeys/timezone-management.md#timezone-from-profiles)
 
 **訊息**
 
@@ -109,9 +109,9 @@ ht-degree: 95%
 
 * **允許清單邏輯更新** - 現在，即使清單為空，允許清單邏輯在功能啟用後立即適用。 [了解更多](../configuration/allow-list.md#logic)
 
-* **URL跟蹤參數**  — 現在，您可以使用表達式編輯器在電子郵件曲面（即預設）中配置URL跟蹤參數。 [了解更多](../configuration/email-settings.md#url-tracking)
+* **URL 追蹤參數** - 現在，您可以使用運算式編輯器在電子郵件介面中設定 URL 追蹤參數 (即預設集)。 [了解更多](../configuration/email-settings.md#url-tracking)
 
-**Offer Decisioning**
+**決策管理**
 
 * **對象規模** - 當建立決定規則、選擇區段或規則以設定優惠方案適用性或將區段或規則新增到決定範圍時，新的對象規模預估元件現在顯示在使用者介面中。
 
@@ -340,7 +340,7 @@ ht-degree: 95%
 
 **決定管理**
 
-* **邊緣決策 API** - 邊緣決策 API 可以提供並轉譯受 Offer Decisioning 管理的個人化服務。 您可以使用 Offer Decisioning 使用者介面 (UI) 或 API 建立您的優惠方案與其他相關物件。 [進一步了解](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **Edge上的決策API** - Edge Decisioning API可提供及呈現決策管理中管理的個人化優惠方案。 您可以使用決策管理使用者介面(UI)或API來建立選件和其他相關物件。 [進一步了解](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **管理**
 
@@ -378,7 +378,7 @@ ht-degree: 95%
 **決定管理**
 
 * 現在您可以指定在所有使用者或單個特定設定檔中套用優惠上限設定，以及指定在個別或所有投放位置上套用。[了解更多](../offers/offer-library/add-constraints.md#capping)
-* 批次決策 API 允許組織在一次呼叫中對給定區段中的所有設定檔使用 Offer Decisioning 功能。 區段中每個設定檔提供的內容都放在 AEP 資料集，可用於自訂批次處理工作流程。 [進一步了解](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* 批次決策API可讓組織在一次呼叫中，針對指定區段中的所有設定檔使用決策管理功能。 區段中每個設定檔提供的內容都放在 AEP 資料集，可用於自訂批次處理工作流程。 [進一步了解](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **管理**
 
@@ -476,7 +476,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * 您現在可以存取有關最佳化傳送時間資料的報告：即時訊息的人數，以及經過 1 小時最佳化、2 小時最佳化等訊息的人數。
 
-<!--* Offer Decisioning reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
+<!--* decision management reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 
 **決策管理**
 
@@ -524,7 +524,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * Journey Optimizer 步驟事件現在可以連結到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 中的其他資料集。  內建「歷程步驟事件」方案中的 **profileID** 欄位現在定義為身分欄位。 [了解更多](../reports/sharing-overview.md#integration-cja)
 
-**offer decisioning**
+**決策管理**
 
 * 對於在已發佈訊息中直接或間接引用的優惠方案、遞補優惠、優惠收藏或優惠決定，現在將在對應訊息中自動反映您的更新，無需重新發佈。 [了解更多](../offers/offers-e2e.md#insert-decision-in-email)
 

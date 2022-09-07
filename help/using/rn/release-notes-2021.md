@@ -2,10 +2,10 @@
 title: 舊版發行說明 (2021 年)
 description: Journey Optimizer 2021 年發行說明
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '2067'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 97%
 <tbody>
 <tr>
 <td>
-<p>您現在可以模擬將哪些優惠傳遞至測試設定檔中 Journey Optimizer UI 的指定位置。 這可讓您在投入生產之前，輕鬆驗證決定邏輯，包括資格限制和排名演算法。 此功能可讓非技術和技術使用者快速測試 Offer Decisioning 並針對潛在問題進行疑難排解。</p>
+<p>您現在可以模擬將哪些優惠傳遞至測試設定檔中 Journey Optimizer UI 的指定位置。 這可讓您在投入生產之前，輕鬆驗證決定邏輯，包括資格限制和排名演算法。 此功能可讓非技術和技術使用者快速測試決策管理，並疑難排解潛在問題。</p>
 <p>如需詳細資訊，請參閱<a href="../offers/offer-activities/simulation.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -274,7 +274,7 @@ ht-degree: 97%
 
 **個人化**
 
-* **表達式編輯器**  — 現在，在定義個性化設定時，您可以輕鬆添加回退值：當配置檔案的個性化欄位為空時，將顯示回退值。 [進一步了解](../personalization/functions/helpers.md)
+* **運算式編輯器**  — 您現在可在定義個人化時輕鬆新增回傳值：當設定檔的個人化欄位空白時，將顯示回傳值。 [進一步了解](../personalization/functions/helpers.md)
 
 **電子郵件設定**
 
@@ -289,7 +289,7 @@ ht-degree: 97%
 
 * 修正訊息標籤導覽的協助工具問題。
 * 修正電子郵件設計工具標籤的本地化問題。
-* 在行程中選擇多個節點並按一下屬性窗格上的「刪除」時，已修復問題。
+* 修正在歷程中選取多個節點並按一下屬性窗格上「刪除」時的問題。
 * 修正無法將新標題加入歷程使用的動作問題。
 * 您現在可以透過使用者介面中更明確的警告，找出訊息預設集建立失敗的原因。
 
@@ -342,7 +342,7 @@ ht-degree: 97%
 * 在歷程清單畫面中，已新增歷程類型篩選器。 [閱讀全文](../start/user-interface.md#filter-lists)
 * **[!UICONTROL Throttling rate]** 參數已新增至讀取區段活動中。 [閱讀全文](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-**預覽和test**
+**預覽和測試**
 
 * 身分和命名空間現在會顯示在 **[!UICONTROL Preview]** 畫面中。 [閱讀全文](../design/preview.md#preview-your-messages)
 * 校樣的測試電子郵件數目現在限制為 10 則。
@@ -357,6 +357,6 @@ ht-degree: 97%
 * 修正導致批次電子郵件傳遞重複傳送訊息的問題。
 * 當重試期間結束後未執行電子郵件傳送時，現在會據此產生事件。
 * 修正「PTR 記錄」畫面中缺少 IP 資訊的問題。
-* 現在已在Expression編輯器中實現提供連結的本地化。
+* 現已實作運算式編輯器中選件邊欄的本地化。
 * 修正資訊快顯視窗的間距錯誤。
 * 修正當電子郵件設計工具中上傳 HTML 檔案時，內部樣式表包含未支援的 `background-image` 屬性問題。
