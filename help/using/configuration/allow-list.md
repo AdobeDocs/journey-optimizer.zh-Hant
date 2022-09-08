@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: c90dd7bb12461ada1d70da52a5024a5c6e860647
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '952'
 ht-degree: 3%
 
 ---
@@ -149,6 +149,11 @@ ht-degree: 3%
 進一步了解在 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target=&quot;_blank&quot;}參考檔案。
 
 ## 允許的清單邏輯 {#logic}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_allowed_list_logic"
+>title="管理允許的清單"
+>abstract="啟用允許清單時，只有包含在允許清單中的收件者才會收到來自此沙箱的電子郵件訊息。"
 
 允許的清單為 [活動](#enable-allow-list)，則套用下列邏輯：
 
