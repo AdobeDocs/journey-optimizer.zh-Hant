@@ -3,9 +3,9 @@ title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4576fbc4f75951e0576787b7631e164a87fdb83d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '283'
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>在Journey Optimizer建立和管理市場活動</strong><br/></th>
+<th><strong>在 Journey Optimizer 中建立和管理行銷活動</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>使用Journey Optimizer市場活動，通過各種渠道將一次性內容交付到特定市場。 使用行程時，按順序執行動作。 對於市場活動，活動可以同時執行，也可以立即執行，或者根據指定的時間表執行。 </p>
+<p>使用 Journey Optimizer 行銷活動，透過各種管道將一次性內容傳遞至特定區段。 使用歷程時，會設計為依照序列執行動作。 透過行銷活動，可同時執行動作 (立即執行或根據指定的排程執行)。 </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>瞭解如何在 <a href="../campaigns/get-started-with-campaigns.md">詳細文檔</a> 和 <a href="https://video.tv.adobe.com/v/346680">特徵視頻</a>。
+<p>在 <a href="../campaigns/get-started-with-campaigns.md">詳細文件</a> 及 <a href="https://video.tv.adobe.com/v/346680">功能影片</a> 中了解如何建立行銷活動。
 </td>
 </tr>
 </tbody>
@@ -41,7 +41,7 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>將SMS發送給用戶（一般可用性）</strong><br/></th>
+<th><strong>傳送簡訊給使用者 (可用性限制)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -78,10 +78,10 @@ ht-degree: 0%
 
 **報告**
 
-* 同意策略表和圖表現在可在Journey全球報告中找到。 這些小部件允許您跟蹤自定義操作中策略中排除的配置檔案。 [了解更多](../reports/journey-global-report.md#journey-global)
+* 同意原則表格和圖表現在可在歷程全域報告中使用。 這些介面工具集可讓您從自訂動作中的原則追蹤排除的設定檔。 [了解更多](../reports/journey-global-report.md#journey-global)
 
-   要訪問最新小部件，請注意，您必須重置不同的報告儀表板。 有關儀表板自定義的詳細資訊，請參閱 [詳細文檔](../reports/global-report.md)。
+   若要存取最新的介面工具集，請注意您必須重設不同的報告儀表板。 如需儀表板自訂的詳細資訊，請參閱[詳細文件](../reports/global-report.md)。
 
 **管理**
 
-* 現在，可以更新主電話號碼以用於SMS頻道。 [了解更多](../configuration/primary-email-addresses.md)
+* 現在可以更新主要電話號碼以用於簡訊頻道。 [了解更多](../configuration/primary-email-addresses.md)
