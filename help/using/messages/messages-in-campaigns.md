@@ -1,26 +1,26 @@
 ---
-title: 在市場活動中添加消息
-description: 瞭解如何在市場活動中添加消息
+title: 在行銷活動中新增訊息
+description: 了解如何在行銷活動中新增訊息
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 source-git-commit: bd27e094ae437e6e0bffdb128f70d1e9f2d7de40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
 
-# 在市場活動中添加消息{#messages-in- campaigns}
+# 在行銷活動中新增訊息{#messages-in- campaigns}
 
-在市場活動中，選擇要設計並個性化發送給受眾的消息的渠道。 當您添加電子郵件、簡訊或「推送」到您的市場活動時，您可以立即發送它或安排消息。
+在您的行銷活動中，選取通道以設計並個人化您要傳送給閱聽眾的訊息。 當您新增電子郵件、簡訊或推播至行銷活動時，可以立即傳送或排程訊息。
 
 >[!NOTE]
->您還可以建立行程以發送觸發消息。 請參閱[本節](messages-in-journeys.md).
+>您也可以建立歷程以傳送觸發訊息。 請參閱[本節](messages-in-journeys.md)。
 
-瞭解如何在市場活動中添加和配置郵件 [此部分](../campaigns/create-campaign.md)。
+[在本節](../campaigns/create-campaign.md)中了解如何在行銷活動中新增和設定訊息。
 
 若要瞭解建立訊息內容的詳細步驟，請至以下頁面：
 
