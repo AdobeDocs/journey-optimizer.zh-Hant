@@ -1,19 +1,19 @@
 ---
-title: 在旅程中添加消息
-description: 瞭解如何在旅途中添加郵件
+title: 在歷程新增訊息
+description: 了解如何在歷程中新增訊息
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 source-git-commit: a36f0b1c8d59d49e38b21725621d5b276741bd8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
-# 在旅程中添加消息{#messages-in-journeys}
+# 在歷程新增訊息{#messages-in-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_category"
@@ -25,14 +25,14 @@ ht-degree: 85%
 >title="頻道介面"
 >abstract="頻道介面是該頻道的執行個體，具備所有設定，可透過行銷活動或歷程成功傳遞行動。 它由系統管理員定義。"
 
-在您的旅程中，使用渠道操作來設計並個性化您要發送給受眾的消息。 當您向旅程中添加電子郵件、SMS或「推送」操作時，將建立觸發發送。 當聯繫人到達該頻道操作時，Adobe Journey Optimizer會自動發送消息。
+在您的歷程中，使用管道動作來設計並個人化您要傳送給閱聽眾的訊息。 當您新增電子郵件、簡訊或推播動作至歷程畫布時，就會建立觸發傳送。 當連絡人達成該通道動作時，Adobe Journey Optimizer 會自動傳送訊息。
 
 
 >[!NOTE]
->您還可以建立市場活動以發送計畫消息。 請參閱[本節](../campaigns/get-started-with-campaigns.md).
+>您也可以建立行銷活動以傳送排程訊息。 請參閱[本節](../campaigns/get-started-with-campaigns.md)。
 
 
-要在行程中添加消息，請在行程中添加推送、簡訊或電子郵件活動。
+若要在您的歷程新增訊息，在歷程畫布新增推播、簡訊或電子郵件活動即可。
 
 1. 利用[事件](../building-journeys/general-events.md)或[讀取區段](../building-journeys/read-segment.md)活動來開始您的歷程。
 
@@ -99,7 +99,7 @@ ht-degree: 85%
 * 測試電子郵件，您可以新增電子郵件地址。 在您發佈了此歷程後，會向您寄送電子郵件。
 * 請參閱訂閱者清單的電子郵件地址。 在[此使用案例](../building-journeys/message-to-subscribers-uc.md)中了解更多。
 
-按一下同一表徵圖隱藏高級設定。
+按一下相同圖示以隱藏進階設定。
 
 ## 瀏覽訊息{#browse-message}
 
