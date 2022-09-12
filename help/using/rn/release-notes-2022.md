@@ -5,7 +5,7 @@ exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '2337'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 96%
 * **結束歷程** — 在歷程畫布中， **結束**&#x200B;活動已從調色盤中刪除。 現在，每個路徑的末端預設新增結束標籤而且無法移除。 這種改善能夠更好地報告客戶從歷程退出的位置，不需要由歷程業者採取任何動作。 請參閱 [文件](../building-journeys/journey-end.md) 及 [功能影片](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}。
 
 
-* 此 **設定檔時區** 「歷程屬性」中的「 」選項現在預設為未勾選。 [了解更多](../building-journeys/timezone-management.md#timezone-from-profiles)
+* 此 **個人資料時區** 「歷程屬性」中的選項現在預設為未勾選。 [了解更多](../building-journeys/timezone-management.md#timezone-from-profiles)
 
 **訊息**
 

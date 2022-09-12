@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d4ea9786983d7919ea1598c91ec523826ba7a689
 workflow-type: tm+mt
 source-wordcount: '1137'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -244,13 +244,13 @@ ht-degree: 97%
    + 即時報告 {#live-report}
       + [存取即時報告儀表板](using/reports/live-report.md)
       + [歷程即時報告](using/reports/journey-live-report.md)
-      + [行銷活動上線報表](using/reports/campaign-live-report.md)
+      + [行銷活動即時報告](using/reports/campaign-live-report.md)
       + [登陸頁面即時報告](using/reports/lp-report-live.md)
       + [訂閱清單即時報告](using/reports/subscription-report-live.md)
    + 全域報告 {#global-report}
       + [存取全域報告儀表板](using/reports/global-report.md)
       + [歷程全域報告](using/reports/journey-global-report.md)
-      + [行銷活動全域報表](using/reports/campaign-global-report.md)
+      + [行銷活動全域報告](using/reports/campaign-global-report.md)
       + [登陸頁面全域報告](using/reports/lp-report-global.md)
       + [訂閱清單全域報告](using/reports/subscription-report-global.md)
    + 歷程報告 {#reports}
@@ -266,7 +266,7 @@ ht-degree: 97%
       + [查詢範例](using/reports/query-examples.md)
    + 傳遞能力 {#deliverability}
       + [開始使用傳遞能力](using/reports/deliverability.md)
-      + [了解隱藏清單](using/reports/suppression-list.md)
+      + [瞭解隱藏清單](using/reports/suppression-list.md)
 + 決定管理 {#offer-decisioning}
    + 開始使用決定管理 {#get-started-decision}
       + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
