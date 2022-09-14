@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1193'
 ht-degree: 1%
 
 ---
@@ -112,12 +112,15 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
 >title="將電子郵件或網域新增至隱藏清單"
->abstract="您可以手動填入Journey Optimizer隱藏清單，從您的傳送中排除特定的電子郵件地址和/或網域。"
+>abstract="您可以手動填入Journey Optimizer隱藏清單，以從您的傳送中排除特定的電子郵件地址和/或網域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
 >title="將電子郵件或網域新增至隱藏清單"
->abstract="若要填入Journey Optimizer隱藏清單，您可以手動新增電子郵件地址或網域 — 一次新增一個，或透過CSV檔案上傳以大量模式新增。 您的傳送將排除這些特定電子郵件地址和/或網域。"
+>abstract="您可以手動填入Journey Optimizer隱藏清單，從您的傳送中排除特定的電子郵件地址和/或網域。"
+
+<!--New contextual help content for September release:
+To populate the Journey Optimizer suppression list, you can manually add email addresses or domains - one at a time, or in bulk mode through a CSV file upload. These specific email addresses and/or domains will be excluded from your sending.-->
 
 當郵件無法傳遞至電子郵件地址時，系統會根據定義的隱藏規則或退信計數，自動將此地址新增至隱藏清單。
 
