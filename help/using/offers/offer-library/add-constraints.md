@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: e9aab8f3e686a6858e401101f751a35933a21c0a
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1715'
 ht-degree: 2%
 
 ---
@@ -37,19 +37,19 @@ ht-degree: 2%
 
 限制可讓您定義顯示優惠方案的條件。
 
-1. 設定 **[!UICONTROL Offer eligibility]**. [了解更多](#eligibility)
+1. 設定 **[!UICONTROL 優惠方案資格]**. [了解更多](#eligibility)
 
    ![](../assets/offer-eligibility.png)
 
-1. 定義 **[!UICONTROL Priority]** 選件的數量，而非其他選件（如果使用者符合多個選件的資格）。 優惠方案的優先順序越高，優先順序與其他優惠方案相比就越高。
+1. 定義 **[!UICONTROL 優先順序]** 選件的數量，而非其他選件（如果使用者符合多個選件的資格）。 優惠方案的優先順序越高，優先順序與其他優惠方案相比就越高。
 
    ![](../assets/offer-priority.png)
 
-1. 指定選件的 **[!UICONTROL Capping]**，表示將呈現選件的次數。 [了解更多](#capping)
+1. 指定選件的 **[!UICONTROL 限定]**，表示將呈現選件的次數。 [了解更多](#capping)
 
    ![](../assets/offer-capping.png)
 
-1. 按一下 **[!UICONTROL Next]** 以確認您定義的所有限制。
+1. 按一下 **[!UICONTROL 下一個]** 以確認您定義的所有限制。
 
 例如，若您設定下列限制：
 
@@ -77,23 +77,23 @@ ht-degree: 2%
 >title="設定檔估計總計"
 >abstract="選取區段或決策規則時，您可以看到預估合格設定檔的相關資訊。"
 
-此 **[!UICONTROL Offer eligibility]** 區段可讓您限制選件使用區段或決策規則定義的特定設定檔。
+此 **[!UICONTROL 優惠方案資格]** 區段可讓您限制選件使用區段或決策規則定義的特定設定檔。
 
 >[!NOTE]
 >
 >深入了解使用 **區段** vers **決策規則** in [本節](#segments-vs-decision-rules).
 
-* 依預設， **[!UICONTROL All visitors]** 選項，表示任何設定檔都有資格呈現選件。
+* 依預設， **[!UICONTROL 所有訪客]** 選項，表示任何設定檔都有資格呈現選件。
 
    ![](../assets/offer-eligibility-default.png)
 
 * 您也可以將優惠方案的呈現方式限制為一或數個 [Adobe Experience Platform區段](../../segment/about-segments.md).
 
-   若要這麼做，請啟用 **[!UICONTROL Visitors who fall into one or multiple segments]** 選項，然後從左側窗格新增一或多個區段，並使用 **[!UICONTROL And]** / **[!UICONTROL Or]** 邏輯運算子。
+   若要這麼做，請啟用 **[!UICONTROL 落入一或多個區段的訪客]** 選項，然後從左側窗格新增一或多個區段，並使用 **[!UICONTROL 和]** / **[!UICONTROL 或]** 邏輯運算子。
 
    ![](../assets/offer-eligibility-segment.png)
 
-* 如果您想關聯特定 [決策規則](../offer-library/creating-decision-rules.md) 選取 **[!UICONTROL By defined decision rule]**，然後將所需規則從左窗格拖曳至 **[!UICONTROL Decision rule]** 的上界。
+* 如果您想關聯特定 [決策規則](../offer-library/creating-decision-rules.md) 選取 **[!UICONTROL 依定義的決策規則]**，然後將所需規則從左窗格拖曳至 **[!UICONTROL 決策規則]** 的上界。
 
    ![](../assets/offer_rule.png)
 
@@ -101,7 +101,7 @@ ht-degree: 2%
    >
    >目前不支援以事件為基礎的選件 [!DNL Journey Optimizer]. 如果您根據 [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}，您將無法在選件中運用它。
 
-選取區段或決策規則時，您可以看到預估合格設定檔的相關資訊。 按一下 **[!UICONTROL Refresh]** 更新資料。
+選取區段或決策規則時，您可以看到預估合格設定檔的相關資訊。 按一下 **[!UICONTROL 重新整理]** 更新資料。
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -162,33 +162,32 @@ ht-degree: 2%
 
    ![](../assets/offer-capping-total.png)
 
-   * 選擇 **[!UICONTROL In total]** 定義可在合併的目標對象中建議某個優惠方案的次數，亦即在所有使用者中。
+   * 選擇 **[!UICONTROL 總計]** 定義可在合併的目標對象中建議某個優惠方案的次數，亦即在所有使用者中。
 
       例如，如果您是電子產品零售商，且有「電視門衛交易」，則您希望在所有設定檔中僅傳回選件200次。
 
-   * 選擇 **[!UICONTROL Per profile]** 定義可向相同使用者建議某個優惠方案的次數。
+   * 選擇 **[!UICONTROL 每個設定檔]** 定義可向相同使用者建議某個優惠方案的次數。
 
       例如，如果您是擁有「白金信用卡」優惠的銀行，您不希望此優惠在每個設定檔中顯示超過5次。 事實上，您認為如果使用者看過選件5次而未對其採取行動，他們就更有機會對下一個最佳選件採取行動。
+   <!--
+    Set the **[!UICONTROL Frequency]** to define how often the capping count is reset. To do so, define the time period for the counting (daily, weekly or monthly) and enter the number of days/weeks/months of your choice.
+    ![](../assets/offer-capping-frequency.png)
+    >[!NOTE]
+    >
+    >The reset happens at 12am UTC, on the day that you defined or on the first day of the week/month when applicable. The week start day is Sunday.
+    
+    For example, if you want the capping count to be reset every 2 weeks, select **[!UICONTROL Weekly]** from the **[!UICONTROL Repeat]** drop-down list and type **2** in the other field. The reset will happen every other Sunday at 12pm UTC.
+    -->
 
-1. 設定 **[!UICONTROL Frequency]** 定義上限計數重設的頻率。 要執行此操作，請定義計數的時段（每日、每週或每月），並輸入您選擇的天數/周數/月數。
-
-   ![](../assets/offer-capping-frequency.png)
-
-   >[!NOTE]
-   >
-   >重設發生在UTC的上午12:00、您定義的當天，或適用的當周/月的第一天。 周開始日是星期日。
-
-   例如，如果您希望每2週重設上限計數，請選取 **[!UICONTROL Weekly]** 從 **[!UICONTROL Repeat]** 下拉式清單和類型 **2** 在第二個欄位。 每隔週日UTC中午12點，就會重設一次。
-
-1. 如果您已定義數個 [表示](#representations) 指定您是否要套用上限 **[!UICONTROL Across all placements]** 或 **[!UICONTROL For each placement]**.
+1. 如果您已定義數個 [表示](add-representations.md) 指定您是否要套用上限 **[!UICONTROL 所有版位]** 或 **[!UICONTROL 對於每個版位]**.
 
    ![](../assets/offer-capping-placement.png)
 
-   * **[!UICONTROL Across all placements]**:上限計數將總計與優惠方案相關聯之所有版位上的所有決策。
+   * **[!UICONTROL 所有版位]**:上限計數將總計與優惠方案相關聯之所有版位上的所有決策。
 
       例如，如果選件具有 **電子郵件** 版位和 **Web** 放置，並且在 **所有版位中每個設定檔2個**，則無論版位組合為何，每個設定檔總共可接收優惠方案最多2次。
 
-   * **[!UICONTROL For each placement]**:上限計數將分別套用每個版位的決策計數。
+   * **[!UICONTROL 對於每個版位]**:上限計數將分別套用每個版位的決策計數。
 
       例如，如果選件具有 **電子郵件** 版位和 **Web** 放置，並且在 **每個版位每個設定檔2個**，則每個設定檔最多可接收電子郵件版位的2次優惠，而網路版位則可接收2次優惠。
 

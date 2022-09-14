@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1212'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 訪問隱藏清單 {#access-suppression-list}
 
-若要存取排除的電子郵件地址的詳細清單，請前往 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**，然後選取 **[!UICONTROL Suppression list]**.
+若要存取排除的電子郵件地址的詳細清單，請前往 **[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]**，然後選取 **[!UICONTROL 隱藏清單]**.
 
 >[!CAUTION]
 >
@@ -43,15 +43,15 @@ ht-degree: 1%
 
 ![](assets/suppression-list-filters.png)
 
-您可以篩選 **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**，或 **[!UICONTROL Reason]**. 為每個條件選取您選取的選項。 選取後，您就可以清除每個篩選器，或清單頂端顯示的所有篩選器。
+您可以篩選 **[!UICONTROL 隱藏類別]**, **[!UICONTROL 地址類型]**，或 **[!UICONTROL 原因]**. 為每個條件選取您選取的選項。 選取後，您就可以清除每個篩選器，或清單頂端顯示的所有篩選器。
 
 ![](assets/suppression-list-filtering-example.png)
 
-如果您手動錯誤新增電子郵件地址或網域， **[!UICONTROL Delete]** 按鈕可以刪除該條目。
+如果您手動錯誤新增電子郵件地址或網域， **[!UICONTROL 刪除]** 按鈕可以刪除該條目。
 
 >[!CAUTION]
 >
->絕不使用 **[!UICONTROL Delete]** 按鈕，移除隱藏的電子郵件地址或網域。
+>絕不使用 **[!UICONTROL 刪除]** 按鈕，移除隱藏的電子郵件地址或網域。
 
 ![](assets/suppression-list-delete.png)
 
@@ -61,15 +61,15 @@ ht-degree: 1%
 >
 >考慮刪除任何電子郵件地址或網域時，請格外小心。 如有疑問，請聯絡傳遞能力專家。
 
-從 **[!UICONTROL Suppression list]** 視圖中，也可以編輯隱藏規則。 [了解更多](retries.md)
+從 **[!UICONTROL 隱藏清單]** 視圖中，也可以編輯隱藏規則。 [了解更多](retries.md)
 
-要將隱藏清單導出為CSV檔案，請選擇 **[!UICONTROL Download CSV]** 按鈕。
+要將隱藏清單導出為CSV檔案，請選擇 **[!UICONTROL 下載CSV]** 按鈕。
 
 ![](assets/suppression-list-download-csv.png)
 
 ## 隱藏類別和原因 {#suppression-categories-and-reasons}
 
-當郵件無法傳遞至電子郵件地址時， [!DNL Journey Optimizer] 判斷傳送失敗的原因，並將其與 **[!UICONTROL Suppression category]**.
+當郵件無法傳遞至電子郵件地址時， [!DNL Journey Optimizer] 判斷傳送失敗的原因，並將其與 **[!UICONTROL 隱藏類別]**.
 
 隱藏類別如下：
 
@@ -87,7 +87,7 @@ ht-degree: 1%
 >
 >進一步了解軟退信和硬退信，位於 [傳送失敗類型](../reports/suppression-list.md#delivery-failures) 區段。
 
-對於所列的每個電子郵件地址，您也可以檢查 **[!UICONTROL Type]** （電子郵件或網域）, **[!UICONTROL Reason]** 排除、新增者，以及新增至隱藏清單的日期/時間。
+對於所列的每個電子郵件地址，您也可以檢查 **[!UICONTROL 類型]** （電子郵件或網域）, **[!UICONTROL 原因]** 排除、新增者，以及新增至隱藏清單的日期/時間。
 
 ![](assets/suppression-list.png)
 
@@ -95,13 +95,13 @@ ht-degree: 1%
 
 | 原因 | 說明 | 隱藏類別 |
 | --- | --- | --- |
-| **[!UICONTROL Invalid Recipient]** | 收件者無效或不存在。 | 硬 |
-| **[!UICONTROL Soft Bounce]** | 消息軟退信的原因不是此表中列出的軟錯誤，例如當發送超過ISP建議的允許速率時。 | 軟 |
-| **[!UICONTROL DNS Failure]** | 由於DNS失敗而退信。 | 軟 |
-| **[!UICONTROL Mailbox Full]** | 由於收件者的信箱已滿而無法接受更多訊息，訊息已退信。 | 軟 |
-| **[!UICONTROL Relaying Denied]** | 由於不允許中繼，因此接收器阻止了該消息。 | 軟 |
-| **[!UICONTROL Challenge-Response]** | 該消息是挑戰 — 響應探測。 | 軟 |
-| **[!UICONTROL Spam Complaint]** | 由於收件者將郵件標示為垃圾訊息，因此已封鎖訊息。 | 硬 |
+| **[!UICONTROL 收件者無效]** | 收件者無效或不存在。 | 硬 |
+| **[!UICONTROL 軟跳出]** | 消息軟退信的原因不是此表中列出的軟錯誤，例如當發送超過ISP建議的允許速率時。 | 軟 |
+| **[!UICONTROL DNS失敗]** | 由於DNS失敗而退信。 | 軟 |
+| **[!UICONTROL 郵箱已滿]** | 由於收件者的信箱已滿而無法接受更多訊息，訊息已退信。 | 軟 |
+| **[!UICONTROL 拒絕中繼]** | 由於不允許中繼，因此接收器阻止了該消息。 | 軟 |
+| **[!UICONTROL 挑戰 — 響應]** | 該消息是挑戰 — 響應探測。 | 軟 |
+| **[!UICONTROL 垃圾郵件投訴]** | 由於收件者將郵件標示為垃圾訊息，因此已封鎖訊息。 | 硬 |
 
 >[!NOTE]
 >
@@ -110,9 +110,14 @@ ht-degree: 1%
 ## 手動新增地址和網域 {#add-addresses-and-domains}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_suppression_list"
+>id="ajo_admin_suppression_list_header"
 >title="將電子郵件或網域新增至隱藏清單"
 >abstract="您可以手動填入Journey Optimizer隱藏清單，從您的傳送中排除特定的電子郵件地址和/或網域。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list"
+>title="將電子郵件或網域新增至隱藏清單"
+>abstract="若要填入Journey Optimizer隱藏清單，您可以手動新增電子郵件地址或網域 — 一次新增一個，或透過CSV檔案上傳以大量模式新增。 您的傳送將排除這些特定電子郵件地址和/或網域。"
 
 當郵件無法傳遞至電子郵件地址時，系統會根據定義的隱藏規則或退信計數，自動將此地址新增至隱藏清單。
 
@@ -120,7 +125,7 @@ ht-degree: 1%
 
 您可以新增電子郵件地址或網域 [一次一個](#add-one-address-or-domain)，或 [在大量模式中](#upload-csv-file) 透過CSV檔案上傳。
 
-若要這麼做，請選取 **[!UICONTROL Add email or domain]** 按鈕，然後遵循以下方法之一。
+若要這麼做，請選取 **[!UICONTROL 新增電子郵件或網域]** 按鈕，然後遵循以下方法之一。
 
 ![](assets/suppression-list-add-email.png)
 
@@ -131,11 +136,11 @@ ht-degree: 1%
 >title="將一個項添加到隱藏清單"
 >abstract="您可以逐一新增電子郵件地址和/或網域，以填入隱藏清單。"
 
-1. 選取 **[!UICONTROL One by one]** 選項。
+1. 選取 **[!UICONTROL 逐一]** 選項。
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. 選擇地址類型： **[!UICONTROL Email address]** 或 **[!UICONTROL Domain address]**.
+1. 選擇地址類型： **[!UICONTROL 電子郵件地址]** 或 **[!UICONTROL 網域位址]**.
 
 1. 輸入要從傳送中排除的電子郵件地址或網域。
 
@@ -147,9 +152,9 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >在 **[!UICONTROL Reason]** 欄位。 您可以在 [本頁](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如{target=&quot;_blank&quot;}。
+   >在 **[!UICONTROL 原因]** 欄位。 您可以在 [本頁](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如{target=&quot;_blank&quot;}。
 
-1. 按一下「**[!UICONTROL Submit]**」。
+1. 按一下&#x200B;**[!UICONTROL 提交]**。
 
 ### 上傳CSV檔案 {#upload-csv-file}
 
@@ -158,7 +163,7 @@ ht-degree: 1%
 >title="上傳CSV以新增項目至隱藏清單"
 >abstract="您可以上傳填入您要排除的電子郵件地址/網域的CSV檔案，以填入隱藏清單。"
 
-1. 選取 **[!UICONTROL Upload CSV]** 選項。
+1. 選取 **[!UICONTROL 上傳CSV]** 選項。
 
    ![](assets/suppression-list-upload-csv.png)
 
@@ -173,7 +178,7 @@ ht-degree: 1%
    >
    >在 **註解** 欄。 您可以在 [本頁](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如{target=&quot;_blank&quot;}。
 
-   您也可以從 **[!UICONTROL Suppression list]** 主檢視。
+   您也可以從 **[!UICONTROL 隱藏清單]** 主檢視。
 
    >[!CAUTION]
    >
@@ -183,7 +188,7 @@ ht-degree: 1%
 
 1. 在CSV範本中填入您要新增至隱藏清單的電子郵件地址和/或網域。
 
-1. 完成後，拖放CSV檔案，然後按一下 **[!UICONTROL Submit]**.
+1. 完成後，拖放CSV檔案，然後按一下 **[!UICONTROL 提交]**.
 
    ![](assets/suppression-list-upload-csv-submit.png)
 
@@ -195,7 +200,7 @@ ht-degree: 1%
 
 您可以檢查您上傳的最新CSV檔案清單。
 
-若要這麼做，請從 **[!UICONTROL Suppression list]** 檢視，按一下 **[!UICONTROL Recent uploads]** 按鈕。
+若要這麼做，請從 **[!UICONTROL 隱藏清單]** 檢視，按一下 **[!UICONTROL 最近上載]** 按鈕。
 
 ![](assets/suppression-list-recent-uploads-button.png)
 

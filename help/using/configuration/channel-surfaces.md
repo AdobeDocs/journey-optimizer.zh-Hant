@@ -6,16 +6,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1541'
 ht-degree: 1%
 
 ---
 
 # 設定頻道介面 {#set-up-channel-surfaces}
 
-使用 [!DNL Journey Optimizer]，您可以設定可定義訊息所需所有技術參數的通道曲面（即訊息預設集）:電子郵件類型、寄件者電子郵件和名稱、行動應用程式等。
+使用 [!DNL Journey Optimizer]，您可以設定可定義訊息所需所有技術參數的通道曲面（即訊息預設集）:電子郵件類型、寄件者電子郵件和名稱、行動應用程式、SMS設定等。
 
 >[!CAUTION]
 >
@@ -33,13 +33,18 @@ ht-degree: 1%
 ## 建立通道曲面 {#create-channel-surface}
 
 >[!CONTEXTUALHELP]
+>id="ajo_admin_message_presets_header"
+>title="通道表面設定"
+>abstract="設定通道表面時，請選取其套用的通道，並定義訊息所需的所有技術參數，例如電子郵件類型、子網域、寄件者名稱、行動應用程式、SMS設定等。"
+
+>[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="通道表面設定"
->abstract="設定通道表面時，請選取它要套用的通道，並定義訊息所需的所有技術參數，例如訊息類型、子網域、寄件者名稱、行動應用程式等。"
+>abstract="通道表面會定義訊息所需的所有技術參數（電子郵件類型、寄件者名稱、行動應用程式、SMS設定等）:設定後，您就能在從歷程或行銷活動建立動作時選取它。 請注意，您必須具有「管理通道曲面」權限，才能建立、編輯和刪除通道曲面。"
 
 要建立通道曲面，請執行以下步驟：
 
-1. 存取 **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** ，然後按一下 **[!UICONTROL Create channel surface]**.
+1. 存取 **[!UICONTROL 管道]** > **[!UICONTROL 品牌推廣]** > **[!UICONTROL 通道曲面]** ，然後按一下 **[!UICONTROL 建立通道曲面]**.
 
    ![](assets/preset-create.png)
 
@@ -51,11 +56,11 @@ ht-degree: 1%
    >
    > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線 `_`，點`.` 連字型大小 `-` 字元。
 
-1. 如果您選取 **[!UICONTROL Email]** 管道，如 [本節](email-settings.md).
+1. 如果您選取 **[!UICONTROL 電子郵件]** 管道，如 [本節](email-settings.md).
 
    ![](assets/preset-email.png)
 
-1. 若 **[!UICONTROL Push Notification]** 通道，選擇至少一個平台 —   **iOS** 和/或 **Android** -，以及用於每個平台的行動應用程式。
+1. 若 **[!UICONTROL 推播通知]** 通道，選擇至少一個平台 —   **iOS** 和/或 **Android** -，以及用於每個平台的行動應用程式。
 
    ![](assets/preset-push.png)
 
@@ -63,7 +68,7 @@ ht-degree: 1%
    >
    >如需如何設定您的環境以傳送推播通知的詳細資訊，請參閱 [本節](push-gs.md).
 
-1. 若 **[!UICONTROL SMS]** 管道，定義您的設定，詳見 [本節](sms-configuration.md#message-preset-sms).
+1. 若 **[!UICONTROL 簡訊]** 管道，定義您的設定，詳見 [本節](sms-configuration.md#message-preset-sms).
 
    ![](assets/preset-sms.png)
 
@@ -71,17 +76,17 @@ ht-degree: 1%
    >
    >如需如何設定環境以傳送SMS訊息的詳細資訊，請參閱 [本節](sms-configuration.md).
 
-1. 完成所有參數設定後，按一下 **[!UICONTROL Submit]** 確認。 也可以將通道曲面另存為草稿，並稍後恢復其配置。
+1. 完成所有參數設定後，按一下 **[!UICONTROL 提交]** 確認。 也可以將通道曲面另存為草稿，並稍後恢復其配置。
 
    ![](assets/preset-submit.png)
 
    >[!NOTE]
    >
-   >在所選IP池下時，無法繼續建立曲面 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** 狀態)，且從未與選取的子網域相關聯。 [了解更多](#subdomains-and-ip-pools)
+   >在所選IP池下時，無法繼續建立曲面 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL 處理]** 狀態)，且從未與選取的子網域相關聯。 [了解更多](#subdomains-and-ip-pools)
    >
-   >將曲面另存為草稿，然後等待IP池具有 **[!UICONTROL Success]** 恢復曲面建立的狀態。
+   >將曲面另存為草稿，然後等待IP池具有 **[!UICONTROL 成功]** 恢復曲面建立的狀態。
 
-1. 建立通道曲面後，該曲面將顯示在清單中，其中 **[!UICONTROL Processing]** 狀態。
+1. 建立通道曲面後，該曲面將顯示在清單中，其中 **[!UICONTROL 處理]** 狀態。
 
    在此步驟中，將執行數項檢查，以確認其已正確設定。 處理時間已到 **48h-72h**，並可以 **7-10個工作天**.
 
@@ -99,23 +104,23 @@ ht-degree: 1%
    >
    >如果檢查未成功，請進一步了解中可能的失敗原因。 [本節](#monitor-channel-surfaces).
 
-1. 檢查成功後，通道曲面將獲取 **[!UICONTROL Active]** 狀態。 它已準備好用於傳送訊息。
+1. 檢查成功後，通道曲面將獲取 **[!UICONTROL 作用中]** 狀態。 它已準備好用於傳送訊息。
 
    ![](assets/preset-active.png)
 
 ## 監視通道表面 {#monitor-channel-surfaces}
 
-所有通道曲面都顯示在 **[!UICONTROL Channels]** > **[!UICONTROL Channel surfaces]** 功能表。 篩選器可協助您瀏覽清單（管道、使用者、狀態）。
+所有通道曲面都顯示在 **[!UICONTROL 管道]** > **[!UICONTROL 通道曲面]** 功能表。 篩選器可協助您瀏覽清單（管道、使用者、狀態）。
 
 ![](assets/preset-filters.png)
 
 建立通道曲面後，其狀態如下：
 
-* **[!UICONTROL Draft]**:通道曲面已另存為草稿，但尚未提交。 開啟它以繼續設定。
-* **[!UICONTROL Processing]**:通道表面已提交，正在執行數個驗證步驟。
-* **[!UICONTROL Active]**:通道表面已驗證，可以選中以建立消息。
-* **[!UICONTROL Failed]**:在通道表面驗證期間，一個或多個檢查失敗。
-* **[!UICONTROL Deactivated]**:通道表面被停用。 它無法用於建立新郵件。
+* **[!UICONTROL 草稿]**:通道曲面已另存為草稿，但尚未提交。 開啟它以繼續設定。
+* **[!UICONTROL 處理]**:通道表面已提交，正在執行數個驗證步驟。
+* **[!UICONTROL 作用中]**:通道表面已驗證，可以選中以建立消息。
+* **[!UICONTROL 失敗]**:在通道表面驗證期間，一個或多個檢查失敗。
+* **[!UICONTROL 已停用]**:通道表面被停用。 它無法用於建立新郵件。
 
 如果通道曲面建立失敗，下面將說明每個可能失敗原因的詳細資訊。
 
@@ -139,7 +144,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->您無法編輯 **[!UICONTROL Push notification settings]**. 如果管道表面僅針對推播通知管道進行設定，則無法編輯。
+>您無法編輯 **[!UICONTROL 推播通知設定]**. 如果管道表面僅針對推播通知管道進行設定，則無法編輯。
 
 1. 從清單中，按一下管道曲面名稱以開啟它。
 
@@ -149,9 +154,9 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >如果通道曲面具有 **[!UICONTROL Active]** 狀態、 **[!UICONTROL Name]**, **[!UICONTROL Select channel]** 和 **[!UICONTROL Subdomain]** 欄位會呈現灰色且無法編輯。
+   >如果通道曲面具有 **[!UICONTROL 作用中]** 狀態、 **[!UICONTROL 名稱]**, **[!UICONTROL 選取通道]** 和 **[!UICONTROL 子網域]** 欄位會呈現灰色且無法編輯。
 
-1. 按一下 **[!UICONTROL Submit]** 確認變更。
+1. 按一下 **[!UICONTROL 提交]** 確認變更。
 
    >[!NOTE]
    >
@@ -161,19 +166,19 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->如果您只編輯 **[!UICONTROL Description]**, **[!UICONTROL Email type]** 和/或 **[!UICONTROL Email retry parameters]** 欄位，更新即時。
+>如果您只編輯 **[!UICONTROL 說明]**, **[!UICONTROL 電子郵件類型]** 和/或 **[!UICONTROL 電子郵件重試參數]** 欄位，更新即時。
 
 ### 更新詳細資訊 {#update-details}
 
-對於具有 **[!UICONTROL Active]** 狀態，您可以檢查更新的詳細資訊。 若要這麼做：
+對於具有 **[!UICONTROL 作用中]** 狀態，您可以檢查更新的詳細資訊。 若要這麼做：
 
-按一下 **[!UICONTROL Recent update]** 表徵圖，該表徵圖顯示在活動曲面名稱旁邊。
+按一下 **[!UICONTROL 最近更新]** 表徵圖，該表徵圖顯示在活動曲面名稱旁邊。
 
 ![](assets/preset-recent-update-icon.png)
 
 <!--You can also access the update details from an active channel surface while update is in progress.-->
 
-在 **[!UICONTROL Recent update]** 螢幕上，您可以看到更新狀態和請求更改清單等資訊。
+在 **[!UICONTROL 最近更新]** 螢幕上，您可以看到更新狀態和請求更改清單等資訊。
 
 <!--![](assets/preset-recent-update-screen.png)-->
 
@@ -181,9 +186,9 @@ ht-degree: 1%
 
 通道曲面更新可具有以下狀態：
 
-* **[!UICONTROL Processing]**:通道表面更新已提交，且正在執行數個驗證步驟。
-* **[!UICONTROL Success]**:已驗證更新的通道表面，可以選擇它以建立消息。
-* **[!UICONTROL Failed]**:在通道表面更新驗證期間，一個或多個檢查失敗。
+* **[!UICONTROL 處理]**:通道表面更新已提交，且正在執行數個驗證步驟。
+* **[!UICONTROL 成功]**:已驗證更新的通道表面，可以選擇它以建立消息。
+* **[!UICONTROL 失敗]**:在通道表面更新驗證期間，一個或多個檢查失敗。
 
 每個狀態的詳細資訊如下。
 
@@ -193,15 +198,15 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->如果您只編輯 **[!UICONTROL Description]**, **[!UICONTROL Email type]** 和/或 **[!UICONTROL Email retry parameters]** 欄位，更新即時。
+>如果您只編輯 **[!UICONTROL 說明]**, **[!UICONTROL 電子郵件類型]** 和/或 **[!UICONTROL 電子郵件重試參數]** 欄位，更新即時。
 
 處理時間可能需要 **3小時**. 進一步了解在驗證週期期間執行的檢查，位於 [本節](#create-channel-surface).
 
 如果編輯已處於活動狀態的曲面：
 
-* 其地位仍然 **[!UICONTROL Active]** 當驗證程式進行中時。
+* 其地位仍然 **[!UICONTROL 作用中]** 當驗證程式進行中時。
 
-* 此 **[!UICONTROL Recent update]** 表徵圖顯示在「通道曲面」(channel surfaces)清單中曲面的名稱旁。
+* 此 **[!UICONTROL 最近更新]** 表徵圖顯示在「通道曲面」(channel surfaces)清單中曲面的名稱旁。
 
 * 在驗證過程中，使用此曲面配置的消息仍使用較舊版本的曲面。
 
@@ -225,7 +230,7 @@ ht-degree: 1%
 
 ## 停用通道曲面 {#deactivate-a-surface}
 
-若要將 **[!UICONTROL Active]** 通道表面無法建立新消息，您可以將其停用。 不過，目前使用此介面的歷程訊息將不會受影響，且會繼續運作。
+若要將 **[!UICONTROL 作用中]** 通道表面無法建立新消息，您可以將其停用。 不過，目前使用此介面的歷程訊息將不會受影響，且會繼續運作。
 
 >[!NOTE]
 >
@@ -233,9 +238,9 @@ ht-degree: 1%
 
 1. 訪問通道曲面清單。
 
-1. 對於所選的活動曲面，按一下 **[!UICONTROL More actions]** 按鈕。
+1. 對於所選的活動曲面，按一下 **[!UICONTROL 更多動作]** 按鈕。
 
-1. 選擇「**[!UICONTROL Deactivate]**」。
+1. 選擇 **[!UICONTROL 停用]**.
 
    ![](assets/preset-deactivate.png)
 
