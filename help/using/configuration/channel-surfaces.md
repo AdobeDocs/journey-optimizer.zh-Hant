@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
+source-git-commit: 59da1d75885ffc6f4b97e218ea131233c198a7ae
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,139 +42,139 @@ ht-degree: 1%
 >title="通道表面設定"
 >abstract="設定通道表面時，請選取其套用的通道，並定義訊息所需的所有技術參數，例如電子郵件類型、寄件者名稱、行動應用程式、SMS設定等。"
 
-<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.
+<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.-->
 
-To create a channel surface, follow these steps:
+要建立通道曲面，請執行以下步驟：
 
-1. Access the **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** menu, then click **[!UICONTROL Create channel surface]**.
+1. 存取 **[!UICONTROL 管道]** > **[!UICONTROL 品牌推廣]** > **[!UICONTROL 通道曲面]** ，然後按一下 **[!UICONTROL 建立通道曲面]**.
 
-    ![](assets/preset-create.png)
+   ![](assets/preset-create.png)
 
-1. Enter a name and a description (optional) for the surface, then select the channel(s) to configure.
+1. 輸入曲面的名稱和說明（可選），然後選取要配置的通道。
 
-    ![](assets/preset-general.png)
+   ![](assets/preset-general.png)
 
-    >[!NOTE]
-    >
-    > Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters. 
+   >[!NOTE]
+   >
+   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線 `_`，點`.` 連字型大小 `-` 字元。
 
-1. If you selected the **[!UICONTROL Email]** channel, configure your settings as described in [this section](email-settings.md).
+1. 如果您選取 **[!UICONTROL 電子郵件]** 管道，如 [本節](email-settings.md).
 
-    ![](assets/preset-email.png)
+   ![](assets/preset-email.png)
 
-1. For the **[!UICONTROL Push Notification]** channel, select at least one platform  -  **iOS** and/or **Android** -, and the mobile applications to use for each platform.
+1. 若 **[!UICONTROL 推播通知]** 通道，選擇至少一個平台 —   **iOS** 和/或 **Android** -，以及用於每個平台的行動應用程式。
 
-    ![](assets/preset-push.png)
-        
-    >[!NOTE]
-    >
-    >For more on how to configure your environment to send push notifications, refer to [this section](push-gs.md).
+   ![](assets/preset-push.png)
 
-1. For the **[!UICONTROL SMS]** channel, define your settings as detailed in [this section](sms-configuration.md#message-preset-sms).
+   >[!NOTE]
+   >
+   >如需如何設定您的環境以傳送推播通知的詳細資訊，請參閱 [本節](push-gs.md).
 
-    ![](assets/preset-sms.png)
+1. 若 **[!UICONTROL 簡訊]** 管道，定義您的設定，詳見 [本節](sms-configuration.md#message-preset-sms).
 
-    >[!NOTE]
-    >
-    >For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
+   ![](assets/preset-sms.png)
 
-1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the channel surface as draft and resume its configuration later on.
+   >[!NOTE]
+   >
+   >如需如何設定環境以傳送SMS訊息的詳細資訊，請參閱 [本節](sms-configuration.md).
 
-    ![](assets/preset-submit.png)
+1. 完成所有參數設定後，按一下 **[!UICONTROL 提交]** 確認。 也可以將通道曲面另存為草稿，並稍後恢復其配置。
 
-    >[!NOTE]
-    >
-    >You cannot proceed with surface creation while the selected IP pool is under [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status), and has never been associated with the selected subdomain. [Learn more](#subdomains-and-ip-pools)
-    >
-    >Save the surface as draft and wait until the IP pool has the **[!UICONTROL Success]** status to resume surface creation.
-    
-1. Once the channel surface has been created, it displays in the list with the **[!UICONTROL Processing]** status.
+   ![](assets/preset-submit.png)
 
-    During this step, several checks will be performed to verify that it has been configured properly. The processing time is around **48h-72h**, and can take up to **7-10 business days**.
+   >[!NOTE]
+   >
+   >在所選IP池下時，無法繼續建立曲面 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL 處理]** 狀態)，且從未與選取的子網域相關聯。 [了解更多](#subdomains-and-ip-pools)
+   >
+   >將曲面另存為草稿，然後等待IP池具有 **[!UICONTROL 成功]** 恢復曲面建立的狀態。
 
-    These checks include configuration and technical tests that are performed by the Adobe team:
+1. 建立通道曲面後，該曲面將顯示在清單中，其中 **[!UICONTROL 處理]** 狀態。
 
-    * SPF validation
-    * DKIM validation
-    * MX record validation
-    * Check IPs denylisting
-    * Helo host check
-    * IP pool verification
-    * A/PTR record, t/m/res subdomain verification
+   在此步驟中，將執行數項檢查，以確認其已正確設定。 處理時間已到 **48h-72h**，並可以 **7-10個工作天**.
 
-    >[!NOTE]
-    >
-    >If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-channel-surfaces).  
+   這些檢查包括由Adobe團隊執行的設定和技術測試：
 
-1. Once the checks are successful, the channel surface gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
+   * SPF驗證
+   * DKIM驗證
+   * MX記錄驗證
+   * 檢查IP密碼清單
+   * 主機檢查
+   * IP池驗證
+   * A/PTR記錄、t/m/res子域驗證
 
-    ![](assets/preset-active.png)
+   >[!NOTE]
+   >
+   >如果檢查未成功，請進一步了解中可能的失敗原因。 [本節](#monitor-channel-surfaces).
 
-## Monitor channel surfaces {#monitor-channel-surfaces}
+1. 檢查成功後，通道曲面將獲取 **[!UICONTROL 作用中]** 狀態。 它已準備好用於傳送訊息。
 
-All your channel surfaces display in the **[!UICONTROL Channels]** > **[!UICONTROL Channel surfaces]** menu. Filters are available to help you browse through the list (channel, user, status).
+   ![](assets/preset-active.png)
+
+## 監視通道表面 {#monitor-channel-surfaces}
+
+所有通道曲面都顯示在 **[!UICONTROL 管道]** > **[!UICONTROL 通道曲面]** 功能表。 篩選器可協助您瀏覽清單（管道、使用者、狀態）。
 
 ![](assets/preset-filters.png)
 
-Once created, channel surfaces can have the following statuses:
+建立通道曲面後，其狀態如下：
 
-* **[!UICONTROL Draft]**: The channel surface has been saved as a draft and has not been submitted yet. Open it to resume the configuration.
-* **[!UICONTROL Processing]**: The channel surface has been submitted and is going through several verifications steps.
-* **[!UICONTROL Active]**: The channel surface has been verified and can be selected to create messages.
-* **[!UICONTROL Failed]**: One or several checks have failed during the channel surface verification.
-* **[!UICONTROL Deactivated]**: The channel surface is deactivated. It cannot be used to create new messages.
+* **[!UICONTROL 草稿]**:通道曲面已另存為草稿，但尚未提交。 開啟它以繼續設定。
+* **[!UICONTROL 處理]**:通道表面已提交，正在執行數個驗證步驟。
+* **[!UICONTROL 作用中]**:通道表面已驗證，可以選中以建立消息。
+* **[!UICONTROL 失敗]**:在通道表面驗證期間，一個或多個檢查失敗。
+* **[!UICONTROL 已停用]**:通道表面被停用。 它無法用於建立新郵件。
 
-In case a channel surface creation fails, the details on each possible failure reason are described below.
+如果通道曲面建立失敗，下面將說明每個可能失敗原因的詳細資訊。
 
-If one of these errors occurs, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} to get assistance.
+如果發生其中一個錯誤，請與 [Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}以取得協助。
 
-* **SPF validation failed**: SPF (Sender Policy Framework) is an email authentication protocol that allows to specify authorized IPs that can send emails from a given subdomain. SPF validation failure means that the IP addresses in the SPF record do not match the IP addresses used for sending emails to the mailbox providers. 
+* **SPF驗證失敗**:SPF（發件人策略框架）是一種電子郵件驗證協定，它允許指定可從給定子域發送電子郵件的授權IP。 SPF驗證失敗意味著SPF記錄中的IP地址與用於向郵箱提供程式發送電子郵件的IP地址不匹配。
 
-* **DKIM validation failed**: DKIM (DomainKeys Identified Mail) allows the recipient server to verify that the received message was sent by the genuine sender of the associated domain and that the content of the original message was not altered on its way. DKIM validation failure means that the receiving mail servers are unable to verify the authenticity of the message content and its association with the sending domain.:
+* **DKIM驗證失敗**:DKIM(DomainKeys Indified Mail)允許接收伺服器驗證接收的郵件是由關聯域的正版發件人發送的，並且原始郵件的內容在其過程中沒有更改。 DKIM驗證失敗意味著接收郵件伺服器無法驗證郵件內容的真實性及其與發送域的關聯。
 
-* **MX record validation failed**: MX (Mail eXchange) record validation failure means that the mail servers responsible for accepting inbound emails on behalf of a given subdomain are not correctly configured.
+* **MX記錄驗證失敗**:MX(Mail eXchange)記錄驗證失敗表示代表指定子網域接受入站電子郵件的郵件伺服器未正確設定。
 
-* **Deliverability configurations failed**: Deliverability configurations failure can happen due to any of the following reasons:
-    * Blocklisting of the allocated IPs
-    * Invalid `helo` name
-    * Emails being sent from IPs other than the ones specified in the IP pool of the corresponding surface
-    * Unable to deliver emails to inboxes of major ISPs like Gmail and Yahoo
+* **傳遞能力配置失敗**:傳遞能力配置可能會因下列原因而失敗：
+   * 已分配IP的封鎖清單
+   * 無效 `helo` 名稱
+   * 從IP發送的電子郵件，而不是在相應表面的IP池中指定的IP
+   * 無法傳送電子郵件至Gmail和Yahoo等主要ISP的收件匣
 
-## Edit a channel surface {#edit-channel-surface}
+## 編輯通道曲面 {#edit-channel-surface}
 
-To edit a channel surface, follow the steps below.
-
->[!NOTE]
->
->You cannot edit the **[!UICONTROL Push notification settings]**. If a channel surface is only configured for the Push notification channel, it is not editable.
-
-1. From the list, click a channel surface name to open it.
-
-    ![](assets/preset-name.png)
-
-1. Edit its properties as desired.
-
-    >[!NOTE]
-    >
-    >If a channel surface has the **[!UICONTROL Active]** status, the **[!UICONTROL Name]**, **[!UICONTROL Select channel]** and **[!UICONTROL Subdomain]** fields are greyed out and cannot be edited.
-
-1. Click **[!UICONTROL Submit]** to confirm your changes.
-
-    >[!NOTE]
-    >
-    >You can also save the channel surface as draft and resume update later on.
-
-Once the changes are submitted, the channel surface will go through a validation cycle similar to the one in place when [creating a channel surface](#create-channel-surface). The edition processing time can take up to **3 hours**.
+要編輯通道曲面，請執行以下步驟。
 
 >[!NOTE]
 >
->If you only edit the **[!UICONTROL Description]**, **[!UICONTROL Email type]** and/or **[!UICONTROL Email retry parameters]** fields, the update is instantaneous.
+>您無法編輯 **[!UICONTROL 推播通知設定]**. 如果管道表面僅針對推播通知管道進行設定，則無法編輯。
 
-### Update details {#update-details}
+1. 從清單中，按一下管道曲面名稱以開啟它。
 
-For channel surfaces that have the **[!UICONTROL Active]** status, you can check the details of the update. To do so:
+   ![](assets/preset-name.png)
 
-Click the **[!UICONTROL Recent update]** icon that is displayed next to the active surface name.
+1. 視需要編輯其屬性。
+
+   >[!NOTE]
+   >
+   >如果通道曲面具有 **[!UICONTROL 作用中]** 狀態、 **[!UICONTROL 名稱]**, **[!UICONTROL 選取通道]** 和 **[!UICONTROL 子網域]** 欄位會呈現灰色且無法編輯。
+
+1. 按一下 **[!UICONTROL 提交]** 確認變更。
+
+   >[!NOTE]
+   >
+   >也可以將通道曲面另存為草稿，並稍後繼續更新。
+
+提交變更後，通道曲面會經過與原位置的驗證週期類似的驗證週期，當 [建立通道曲面](#create-channel-surface). 版本處理時間可能 **3小時**.
+
+>[!NOTE]
+>
+>如果您只編輯 **[!UICONTROL 說明]**, **[!UICONTROL 電子郵件類型]** 和/或 **[!UICONTROL 電子郵件重試參數]** 欄位，更新即時。
+
+### 更新詳細資訊 {#update-details}
+
+對於具有 **[!UICONTROL 作用中]** 狀態，您可以檢查更新的詳細資訊。 若要這麼做：
+
+按一下 **[!UICONTROL 最近更新]** 表徵圖，該表徵圖顯示在活動曲面名稱旁邊。
 
 ![](assets/preset-recent-update-icon.png)
 
