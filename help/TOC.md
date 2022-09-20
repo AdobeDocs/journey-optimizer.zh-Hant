@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4ea9786983d7919ea1598c91ec523826ba7a689
+source-git-commit: 1f0b9507c557140efe5e2aa170d4acfa28ed4b88
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 99%
+source-wordcount: '1149'
+ht-degree: 98%
 
 ---
 
@@ -110,6 +110,10 @@ ht-degree: 99%
    + 使用案例{#personalization-use-cases}
       + [訂單狀態通知](using/personalization/personalization-use-case.md)
       + [放棄購物車電子郵件](using/personalization/personalization-use-case-helper-functions.md)
+   + 動態內容 {#dynamic}
+      + [開始使用動態內容](using/personalization/get-started-dynamic-content.md)
+      + [建立條件](using/personalization/create-conditions.md)
+      + [建立條件式內容](using/personalization/dynamic-content.md)
 + 區段、設定檔與身分{#segment}
    + 區段 {#segments}
       + [開始使用區段](using/segment/about-segments.md)

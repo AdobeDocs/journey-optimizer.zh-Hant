@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
+source-git-commit: 769c5cb4c609a9c97223103216713dbec44847a4
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1181'
 ht-degree: 1%
 
 ---
@@ -177,11 +177,6 @@ To populate the Journey Optimizer suppression list, you can manually add email a
    EMAIL,abc@somedomain.com,Comment
    DOMAIN,somedomain.com,Comment
    ```
-   >[!NOTE]
-   >
-   >在 **註解** 欄。 您可以在 [本頁](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如{target=&quot;_blank&quot;}。
-
-   您也可以從 **[!UICONTROL 隱藏清單]** 主檢視。
 
    >[!CAUTION]
    >
@@ -190,6 +185,10 @@ To populate the Journey Optimizer suppression list, you can manually add email a
    >檔案大小不應超過1 MB。
 
 1. 在CSV範本中填入您要新增至隱藏清單的電子郵件地址和/或網域。
+
+   >[!NOTE]
+   >
+   >在 **註解** 欄。 您可以在 [本頁](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如{target=&quot;_blank&quot;}。
 
 1. 完成後，拖放CSV檔案，然後按一下 **[!UICONTROL 提交]**.
 

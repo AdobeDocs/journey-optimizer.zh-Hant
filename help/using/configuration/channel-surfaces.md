@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 59da1d75885ffc6f4b97e218ea131233c198a7ae
+source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1515'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,7 @@ ht-degree: 1%
    * 已分配IP的封鎖清單
    * 無效 `helo` 名稱
    * 從IP發送的電子郵件，而不是在相應表面的IP池中指定的IP
-   * 無法傳送電子郵件至Gmail和Yahoo等主要ISP的收件匣
+   * 無法傳送電子郵件至主要ISP的收件匣
 
 ## 編輯通道曲面 {#edit-channel-surface}
 
