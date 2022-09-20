@@ -8,10 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
+source-git-commit: 16c156d715a6b39652191909ca88f90e7f971706
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 42%
+source-wordcount: '727'
+ht-degree: 29%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="選取資料集"
->abstract="您只能選取至少包含一個支援欄位群組的事件類型資料集：應用程式詳細資訊、商務詳細資訊、Web詳細資訊。"
+>abstract="您只能選取事件類型資料集，該資料集必須至少包含一個支援的欄位群組：應用程式詳細資訊、商務詳細資訊、Web詳細資訊。"
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
-報表資料來源設定可讓您擷取將用於 **[!UICONTROL Objectives]** 標籤。 [了解更多](content-experiment.md#objectives-global)
+報表資料來源設定可讓您擷取將用於 **[!UICONTROL 目標]** 標籤。 [了解更多](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ ht-degree: 42%
 
 ## 與每個欄位組對應的目標 {#objective-list}
 
-下表顯示要新增哪些量度至 **[!UICONTROL Objectives]** 標籤。
+下表顯示要新增哪些量度至 **[!UICONTROL 目標]** 標籤。
 
 | 欄位群組 | 目標 |
 |--- |--- |
@@ -78,21 +78,21 @@ ht-degree: 42%
 
 ## 新增資料集 {#add-datasets}
 
-1. 從 **[!UICONTROL ADMINISTRATION]** 功能表，選取 **[!UICONTROL Configurations]**。在 **[!UICONTROL Reporting]** 區段，按一下 **[!UICONTROL Manage]**。
+1. 從 **[!UICONTROL 管理]** 菜單，選擇 **[!UICONTROL 配置]**. 在  **[!UICONTROL 報表]** ，按一下 **[!UICONTROL 管理]**.
 
    ![](assets/reporting-config-menu.png)
 
    將顯示已新增的資料集清單。
 
-1. 在 **[!UICONTROL Dataset]** 索引標籤中，按一下 **[!UICONTROL Add dataset]**。
+1. 從 **[!UICONTROL 資料集]** 按一下 **[!UICONTROL 新增資料集]**.
 
    ![](assets/reporting-config-add.png)
 
    >[!NOTE]
    >
-   >如果選取 **[!UICONTROL System dataset]** 標籤，僅顯示由系統建立的資料集。 您將無法新增其他資料集。
+   >如果您選取 **[!UICONTROL 系統資料集]** 索引標籤中，只會顯示系統建立的資料集。 您將無法新增其他資料集。
 
-1. 從 **[!UICONTROL Dataset]** 下拉式清單，選取要用於報告的資料集。
+1. 從 **[!UICONTROL 資料集]** 下拉式清單中，選取您要用於報表的資料集。
 
    >[!CAUTION]
    >
@@ -102,7 +102,7 @@ ht-degree: 42%
 
    在 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target=&quot;_blank&quot;} 資料集中了解更多。
 
-1. 從 **[!UICONTROL Profile ID]** 下拉式清單中，選取用於定義每一份個人資料報告的資料集欄位屬性。
+1. 從 **[!UICONTROL 設定檔ID]** 下拉式清單中，選取要用來識別報表中每個設定檔的資料集欄位屬性。
 
    ![](assets/reporting-config-profile-id.png)
 
@@ -110,7 +110,7 @@ ht-degree: 42%
    >
    >只顯示可用於報告的 ID。
 
-1. 此 **[!UICONTROL Use Primary ID namespace]** 選項已預設啟用。如果選取的 **[!UICONTROL Profile ID]** 是 **[!UICONTROL Identity Map]**，可以禁用此選項，然後從顯示的下拉式清單中選擇另一個命名空間。
+1. 此 **[!UICONTROL 使用主要ID命名空間]** 選項。 如果選取 **[!UICONTROL 設定檔ID]** is **[!UICONTROL 身分對應]**，您可以停用此選項，然後從顯示的下拉式清單中選擇其他命名空間。
 
    ![](assets/reporting-config-namespace.png)
 
@@ -122,7 +122,7 @@ ht-degree: 42%
    >
    >如果選取了非事件類型的資料集，則無法繼續。
 
-建立促銷活動報表時，您現在可以看到與您新增資料集中使用之欄位群組相對應的量度。 前往 **[!UICONTROL Objectives]** 標籤，並選取您選取的量度，以更精確調整報表。 [了解更多](content-experiment.md#objectives-global)
+建立促銷活動報表時，您現在可以看到與您新增資料集中使用之欄位群組相對應的量度。 前往 **[!UICONTROL 目標]** 標籤，並選取您選取的量度，以更精確調整報表。 [了解更多](content-experiment.md#objectives-global)
 
 ![](assets/reporting-config-objectives.png)
 
