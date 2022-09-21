@@ -3,9 +3,9 @@ title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
-workflow-type: tm+mt
-source-wordcount: '1871'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1873'
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 97%
 * 已更新「頻率規則」區段以反映全新內嵌訊息流程。 [閱讀全文](../configuration/frequency-rules.md#apply-frequency-rule)
 * 現在，開始使用登陸頁面區段將引用一份如何設定訂閱和建立登陸頁面的展示影片。 [閱讀全文](../landing-pages/get-started-lp.md#video)
 * 已新增使用讀取區段活動之歷程的限制。 [閱讀全文](../building-journeys/read-segment.md)
-* 已改善運算式編輯器運算子頁面。 [閱讀全文](../building-journeys/expression/operators.md)
+* 已改善運算式編輯器操作者頁面。 [閱讀全文](../building-journeys/expression/operators.md)
 * 已新增如何排程行銷活動的區段。 [閱讀全文](../campaigns/create-campaign.md)
-* 已更新運算式編輯器的一般語法規則區段，以考慮常值函式中反斜線符號逸出的新規則。 此變更不會影響現有的已發佈訊息。 只能更新新訊息或草稿訊息。 [閱讀全文](../personalization/personalization-syntax.md#general-rules)
+* 已更新運算式編輯器的一般語法規則區段，以考慮有關常值函式中反斜線符號轉義的新規則。 此變更不會影響現有的已發佈訊息。 只有新訊息或草稿訊息必須更新。[閱讀全文](../personalization/personalization-syntax.md#general-rules)
 
 ## 2022 年 7 月 {#july-2022}
 
@@ -69,7 +69,7 @@ ht-degree: 97%
 * 用於決策管理功能的影片已更新，以反映 Journey Optimizer 使用者介面。 [閱讀全文](../offers/get-started/starting-offer-decisioning.md)
 * **開始使用資料集**&#x200B;章節已改善以詳細說明如何存取和建立資料集。 [閱讀全文](../start/get-started-datasets.md)
 * 說明手冊和產品發行說明的連結已新增到 **Adobe Journey Optimizer 文件**&#x200B;的首頁。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=zh-Hant)
-* **建立新增訊息預設集**&#x200B;章節現在詳細說明，在選取的 IP 池在編輯中 (**[!UICONTROL Processing]** 狀態) 且從未關聯所選子網域的情況下，您無法繼續建立預設集。 [閱讀全文](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
+* **建立新增訊息預設集**&#x200B;章節現在詳細說明，在選取的 IP 池在編輯中 (**[!UICONTROL 正在處理]**&#x200B;狀態) 且從未關聯所選子網域的情況下，您無法繼續建立預設集。 [閱讀全文](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * 訊息預設集 **URL 追蹤**&#x200B;章節已更新，以反映使用者介面中的微幅變更。 [閱讀全文](../configuration/channel-surfaces.md#url-tracking)
 
 ## 2022 年 3 月 {#march-2022}
@@ -182,6 +182,6 @@ ht-degree: 97%
 * 更新歷程限制。 [閱讀全文](../start/guardrails.md)
 * 更新「在決定中設定優惠」區段。 [閱讀全文](../offers/offer-activities/configure-offer-selection.md)
 * 新增警告，提示目前不支援事件型優惠。 [閱讀全文](../offers/offer-library/creating-personalized-offers.md#eligibility)
-* 記錄「決定管理」新 **[!UICONTROL Overview]** 標籤。 [閱讀全文](../offers/get-started/user-interface.md#overview)
+* 記錄「決策管理」新 **[!UICONTROL 概觀]**&#x200B;標籤。[閱讀全文](../offers/get-started/user-interface.md#overview)
 * 新增區段，說明優惠和決定清單的可用動作： [優惠方案清單](../offers/offer-library/creating-personalized-offers.md#offer-list)和[決定清單](../offers/offer-activities/create-offer-activities.md#decision-list)。
 
