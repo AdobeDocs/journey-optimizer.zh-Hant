@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1f0b9507c557140efe5e2aa170d4acfa28ed4b88
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -246,13 +246,13 @@ ht-degree: 98%
       + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
 + 追蹤和監視 {#reporting}
    + 即時報告 {#live-report}
-      + [存取即時報告儀表板](using/reports/live-report.md)
+      + [開始使用即時報表](using/reports/live-report.md)
       + [歷程即時報告](using/reports/journey-live-report.md)
       + [行銷活動即時報告](using/reports/campaign-live-report.md)
       + [登陸頁面即時報告](using/reports/lp-report-live.md)
       + [訂閱清單即時報告](using/reports/subscription-report-live.md)
    + 全域報告 {#global-report}
-      + [存取全域報告儀表板](using/reports/global-report.md)
+      + [開始使用全域報表](using/reports/global-report.md)
       + [歷程全域報告](using/reports/journey-global-report.md)
       + [行銷活動全域報告](using/reports/campaign-global-report.md)
       + [登陸頁面全域報告](using/reports/lp-report-global.md)
