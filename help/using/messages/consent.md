@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
-workflow-type: tm+mt
-source-wordcount: '1311'
+workflow-type: ht
+source-wordcount: '1331'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 >[!NOTE]
 >
->行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 訊息類別 (**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**) 會在[頻道介面](../configuration/channel-surfaces.md#email-type) (即訊息預設) 層級[建立訊息](get-started-content.md#create-new-message)時定義。
+>行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 訊息類別 (**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 交易]**) 會在[頻道介面](../configuration/channel-surfaces.md#email-type) (即訊息預設) 層級[建立訊息](get-started-content.md#create-new-message)時定義。
 
 ### 外部選擇退出 {#opt-out-external-lp}
 
@@ -61,15 +61,15 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
    ![](assets/opt-out-insert-link.png)
 
-1. 從 **[!UICONTROL Link type]** 下拉式清單中選取 **[!UICONTROL External Opt-out/Unsubscription]**。
+1. 從&#x200B;**[!UICONTROL 連結類型]**&#x200B;下拉式清單中選擇 **[!UICONTROL 外部選擇退出/取消訂閱]** 。
 
    ![](assets/opt-out-link-type.png)
 
-1. 在 **[!UICONTROL Link]** 欄位貼上第三方登陸頁面的連結。
+1. 在&#x200B;**[!UICONTROL 連結]**&#x200B;欄位貼上第三方登陸頁面的連結。
 
    ![](assets/opt-out-link-url.png)
 
-1. 按一下「**[!UICONTROL Save]**」。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
 #### 實施選擇退出的 API 呼叫 {#opt-out-api}
 
@@ -135,7 +135,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
    ![](assets/opt-out-profile-choice.png)
 
-   在 **[!UICONTROL Attributes]** 標籤中，您可以看到 **[!UICONTROL choice]** 的值已變更為 **[!UICONTROL no]**。
+   在&#x200B;**[!UICONTROL 屬性]**&#x200B;標籤中，您可以看到&#x200B;**[!UICONTROL 選擇]**&#x200B;的值已變更為&#x200B;**[!UICONTROL 否]**。
 
 ### 一鍵選擇退出 {#one-click-opt-out}
 
@@ -143,7 +143,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 要在電子郵件加入選擇退出連結，請遵照以下步驟。
 
-1. [插入連結](../design/message-tracking.md#insert-links)並選擇 **[!UICONTROL One click Opt-out]** 作為連結類型。
+1. [插入連結](../design/message-tracking.md#insert-links)並選擇&#x200B;**[!UICONTROL 按一下退出]**&#x200B;作為連結類型。
 
    ![](assets/message-tracking-opt-out.png)
 
@@ -151,9 +151,9 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
    ![](assets/message-tracking-opt-out-level.png)
 
-   * **[!UICONTROL Channel]**：選擇退出適用於未來的訊息，傳送到目前頻道的設定檔目標（即電子郵件地址）。 如果設定檔連結數個目標，選擇退出將套用於該頻道設定檔的所有目標 (即電子郵件地址)。
-   * **[!UICONTROL Identity]**：選擇退出適用於未來的訊息，傳送給目前郵件使用的特定目標 (即電子郵件地址)。
-   * **[!UICONTROL Subscription]**：選擇退出適用於未來的訊息，連結特定訂閱項目清單。 僅當目前的訊息連結訂閱項目清單時，才能選擇此選項。
+   * **[!UICONTROL 頻道]**：選擇退出適用於未來的訊息，傳送到目前頻道的設定檔目標 (即電子郵件地址)。 如果設定檔連結數個目標，選擇退出將套用於該頻道設定檔的所有目標 (即電子郵件地址)。
+   * **[!UICONTROL 識別]**：選擇退出適用於未來的訊息，傳送給目前郵件使用的特定目標 (即電子郵件地址)。
+   * **[!UICONTROL 訂閱]**：選擇退出適用於未來的訊息，連結特定訂閱項目清單。 僅當目前的訊息連結訂閱項目清單時，才能選擇此選項。
 
 1. 輸入登陸頁面 URL，一旦取消訂閱，將重新導向使用者。 此頁僅用於確認選擇退出成功。
 
@@ -187,7 +187,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 >
 >若要在電子郵件標題中顯示取消訂閱連結，收件者的電子郵件用戶端必須支援此功能。
 
-取消訂閱地址是預設的&#x200B;**[!UICONTROL Mailto (unsubscribe)]**&#x200B;地址，顯示在相應的頻道介面。 [了解更多](../configuration/channel-surfaces.md#list-unsubscribe)。
+取消訂閱地址是預設的&#x200B;**[!UICONTROL Mailto (取消訂閱)]**&#x200B;地址顯示在相應的頻道介面。 [了解更多](../configuration/channel-surfaces.md#list-unsubscribe)。
 
 若要設定個人化取消訂閱 URL，請在電子郵件內容中插入一鍵退出連結，然後輸入您選擇的 URL。 [了解更多](#one-click-opt-out)
 
@@ -201,7 +201,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
    >
    >如果您未在訊息內容中新增一鍵退出連結，則不會顯示登陸頁面。
 
-* 對應的設定檔會立即退出，而此選項會在 Experience Platform 中更新。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}中進一步瞭解 。
+* 對應的設定檔會立即退出，而此選項會在 Experience Platform 中更新。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}中進一步瞭解 。
 
 ## 推播選擇退出管理 {#push-opt-out-management}
 
