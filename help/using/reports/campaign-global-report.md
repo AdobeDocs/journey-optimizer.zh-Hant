@@ -1,198 +1,254 @@
 ---
-title: 市場活動全局報表
-description: 瞭解如何使用「市場活動全局」報表中的資料
+title: 行銷活動全域報告
+description: 了解如何使用Campaign全域報表中的資料
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 0%
+source-wordcount: '1660'
+ht-degree: 1%
 
 ---
 
-# 市場活動全局報表 {#campaign-global-report}
+# 行銷活動全域報告 {#campaign-global-report}
 
-您可以通過 **[!UICONTROL Reports]** 按鈕
+您可以使用 **[!UICONTROL 所有時間]** 按鈕。
 
-![](assets/campaign_report_1.png)
+![](assets/campaign_report_global_5.png)
 
-選擇 **[!UICONTROL All time]** 頁籤 **[!UICONTROL Global report]** 的子菜單。
+行銷活動 **[!UICONTROL 全域報表]** 頁面中顯示以下索引標籤：
 
 * [Campaign](#campaign-global)
 * [電子郵件](#email-global)
 * [推播](#push-global)
+* [SMS](#sms-global)
 
-市場活動 **[!UICONTROL Global report]** 被分成不同的小部件，詳細列出您的活動的成功和錯誤。 如果需要，可以調整每個小部件的大小並將其刪除。 有關此的詳細資訊，請參閱此 [節](../reports/global-report.md#modify-dashboard)。
+行銷活動 **[!UICONTROL 全域報表]** 會分為不同的小工具，詳細說明促銷活動的成功和錯誤。 如有需要，可對每個介面工具集調整大小並加以刪除。 有關詳細資訊，請參閱 [節](../reports/global-report.md#modify-dashboard).
 
-## 市場活動頁籤 {#campaign-global}
+如需Adobe Journey Optimizer中可用每個量度的詳細清單，請參閱 [本頁](global-report.md#list-of-components-global.md)
+
+## 行銷活動標籤 {#campaign-global}
 
 ### 傳遞 {#delivery-global}
 
 ![](assets/campaign_report_global_1.png)
 
-的 **[!UICONTROL Campaign's Statistics]** 小部件詳細列出與市場活動相關的主要資訊：
+此 **[!UICONTROL 促銷活動的統計資料]** 介面工具集詳細說明與促銷活動相關的主要資訊：
 
-* **[!UICONTROL Entered profiles]**:開始此行程的配置檔案數。
+* **[!UICONTROL 輸入的設定檔]**:開始歷程的設定檔數。
 
-* **[!UICONTROL Actions delivered]**:在行程中執行操作的唯一時間總數。
+* **[!UICONTROL 已傳遞的動作]**:歷程中某個動作已傳送的不重複總次數。
 
-* **[!UICONTROL Actions failed in %]**:在行程中某個操作失敗的唯一次數與已傳遞操作的唯一次數之和。
+* **[!UICONTROL 操作在%中失敗]**:歷程中某個動作失敗的不重複次數總計，與已傳送動作的不重複次數總計相比。
 
-## 電子郵件頁籤 {#email-global}
+## 電子郵件索引標籤 {#email-global}
 
-從您的活動 **[!UICONTROL Global report]**，也請參見Wiki頁。 **[!UICONTROL Email]** 頁籤詳細列出與「市場活動」中發送的電子郵件交貨相關的主要資訊。
+![](assets/campaign_report_global_2.png)
 
-的 **[!UICONTROL Email Sending Statistics]** 圖表詳細說明了您交付的成功：
+從您的行銷活動 **[!UICONTROL 全域報表]**, **[!UICONTROL 電子郵件]** 索引標籤會詳細說明與在促銷活動中傳送的電子郵件傳送相關的主要資訊。
 
-* **[!UICONTROL Targeted]**:在傳遞分析期間處理的郵件總數。
++++進一步了解「電子郵件」報表中可用的不同量度和小工具。
 
-* **[!UICONTROL Sent]**:交貨的發送總數。
+此 **[!UICONTROL 電子郵件傳送統計資料]** 圖表會詳細說明您的傳送是否成功：
 
-* **[!UICONTROL Delivered]**:成功發送的消息數，與已發送的消息總數相關。
+* **[!UICONTROL 已鎖定]**:傳送分析期間處理的訊息總數。
 
-* **[!UICONTROL Delivery Rate]**:成功發送的郵件百分比。
+* **[!UICONTROL 已傳送]**:傳送的傳送總數。
 
-* **[!UICONTROL Bounces]**:在傳遞和自動返回處理期間累積的與已發送消息總數有關的錯誤總數。
+* **[!UICONTROL 傳遞]**:已成功傳送的訊息數，與已傳送的訊息總數相關。
 
-* **[!UICONTROL Bounce Rate]**:與發送的電子郵件相比，已跳轉的電子郵件的百分比。
+* **[!UICONTROL 傳送率]**:已成功發送的消息的百分比。
 
-* **[!UICONTROL Errors]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
+* **[!UICONTROL 跳出數]**:傳送和自動回傳處理期間累積的錯誤總數，與已傳送訊息的總數相關。
 
-* **[!UICONTROL Error Rate]**:與發送的電子郵件相比，在發送過程中發生的阻止發送錯誤的百分比。
+* **[!UICONTROL 反彈率]**:跳出的電子郵件與傳送的電子郵件的百分比。
 
-* **[!UICONTROL Retries]**:隊列中重試的電子郵件數。
+* **[!UICONTROL 錯誤]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
 
-* **[!UICONTROL Excluded]**:被Adobe Journey Optimizer排除的檔案數。
+* **[!UICONTROL 錯誤率]**:傳送期間發生、無法傳送的錯誤百分比，與已傳送的電子郵件相比。
 
-的 **[!UICONTROL Email - Tracking statistics]** 小部件包含用於您遞送的收件人活動的可用資料：
+* **[!UICONTROL 重試]**:佇列中重試的電子郵件數。
 
-* **[!UICONTROL Opens]**:在交貨中開啟交貨的次數。
+* **[!UICONTROL 已排除]**:已由Adobe Journey Optimizer排除的設定檔數目。
 
-* **[!UICONTROL Unique Opens]**:已開啟交貨的百分比。
+此 **[!UICONTROL 電子郵件 — 追蹤統計資料]** 介面工具集包含您傳送之收件者活動的可用資料：
 
-* **[!UICONTROL Open Rate]**:已開啟電子郵件的總數與已發送電子郵件的數量相比。
+* **[!UICONTROL 開啟]**:傳送中開啟傳送的次數。
 
-* **[!UICONTROL Clicks]**:在電子郵件中按一下內容的次數。
+* **[!UICONTROL 不重複開啟次數]**:已開啟傳遞的百分比。
 
-* **[!UICONTROL Unique Clicks]**：按一下電子郵件內容的收件人數。
+* **[!UICONTROL 開放率]**:已開啟電子郵件的總數與已傳送電子郵件的總數相比。
 
-* **[!UICONTROL Unique Click Rate]**:與遞送互動的用戶百分比。
+* **[!UICONTROL 點按次數]**:電子郵件中內容被點按的次數。
 
-* **[!UICONTROL Unsubscriptions]**:取消訂閱連結上的按一下次數。
+* **[!UICONTROL 不重複點按次數]**：按一下電子郵件內容的收件者人數。
 
-* **[!UICONTROL Spam complaints]**:將郵件聲明為垃圾郵件或垃圾郵件的次數。
+* **[!UICONTROL 不重複點按率]**:與傳送互動的使用者百分比。
 
-的 **[!UICONTROL Sending Statistics]** 圖形包含可用於已發送電子郵件的資料，如：
+* **[!UICONTROL 取消訂閱]**:取消訂閱連結的點按次數。
 
-* **[!UICONTROL Delivered]**:成功發送的消息數，與已發送的消息總數相關。
+* **[!UICONTROL 垃圾郵件投訴]**:宣告郵件為垃圾郵件或垃圾郵件的次數。
 
-* **[!UICONTROL Bounces]**:在傳遞和自動返回處理期間累積的與已發送消息總數有關的錯誤總數。
+此 **[!UICONTROL 傳送統計資料]** 圖表包含可用於傳送電子郵件的資料，例如：
 
-* **[!UICONTROL Retries]**:隊列中重試的電子郵件數。
+* **[!UICONTROL 傳遞]**:已成功傳送的訊息數，與已傳送的訊息總數相關。
 
-* **[!UICONTROL Errors]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
+* **[!UICONTROL 跳出數]**:傳送和自動回傳處理期間累積的錯誤總數，與已傳送訊息的總數相關。
 
-的 **[!UICONTROL Bounce Reasons]** 和 **[!UICONTROL Bounce categories]** 小部件包含與已恢復消息相關的可用資料，如：
+* **[!UICONTROL 重試]**:佇列中重試的電子郵件數。
 
-* **[!UICONTROL Hard bounce]**:永久錯誤（如錯誤的電子郵件地址）的總數。 這涉及一條錯誤消息，該錯誤消息明確指出地址無效，如「未知用戶」。
+* **[!UICONTROL 錯誤]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
 
-* **[!UICONTROL Soft bounce]**:臨時錯誤（如完整收件箱）的總數。
+此 **[!UICONTROL 退回原因]** 和 **[!UICONTROL 跳出類別]** 小工具包含與退信消息相關的可用資料，例如：
 
-* **[!UICONTROL Ignored]**:臨時（如「外出」）或技術錯誤（例如，如果發件人類型是郵遞員）的總數。
+* **[!UICONTROL 硬跳出]**:永久錯誤的總數，例如錯誤的電子郵件地址。 這包含明確指出地址無效的錯誤訊息，例如「未知」使用者。
 
-有關退貨的詳細資訊，請參閱 [隱藏清單](../reports/suppression-list.md) 的子菜單。
+* **[!UICONTROL 軟跳出]**:臨時錯誤（如完整收件箱）的總數。
 
-的 **[!UICONTROL Error Reasons]** 圖形和表格允許您查看在交付期間發生的錯誤。
+* **[!UICONTROL 已忽略]**:臨時的總數，例如「不在辦公室」或技術錯誤，例如，如果發送者類型是郵遞區號。
 
-的 **[!UICONTROL Excluded reasons]** 圖形和表顯示阻止從目標配置檔案中排除的用戶配置檔案接收消息的不同原因。
+如需退信的詳細資訊，請參閱 [隱藏清單](../reports/suppression-list.md) 頁面。
 
-的 **[!UICONTROL Email - Top Url]** 圖表和表詳細資訊，您傳遞的URL訪問量最大。
+此 **[!UICONTROL 錯誤原因]** 圖形和表格可讓您查看在傳送期間發生的錯誤。
 
-的 **[!UICONTROL Email - Top recipient domain]** 圖表和表詳細資訊，哪些域是收件人開啟電子郵件時最常用的域。
+此 **[!UICONTROL 排除的原因]** 圖表和表格顯示阻止從目標設定檔排除的使用者設定檔接收訊息的不同原因。
+
+此 **[!UICONTROL 電子郵件 — 頂端Url]** 圖表和表格會詳細說明哪些URL最常被瀏覽。
+
+此 **[!UICONTROL 電子郵件 — 最上層收件者網域]** 圖表和表格詳細說明收件者最常使用哪些網域來開啟電子郵件。
 
 >[!NOTE]
 >
->的 **[!UICONTROL Optimized vs non optimized]** 和 **[!UICONTROL Send time optimization]**  只有在為您的交貨激活「發送時間優化」選項時，小部件才可用。 有關發送時間優化的詳細資訊，請參閱 [此頁](../messages/send-time-optimization.md)。
+>此 **[!UICONTROL 最佳化與非最佳化]** 和 **[!UICONTROL 傳送時間最佳化]**  只有在為您的傳送啟動「傳送時間最佳化」選項時，介面工具集才可用。 如需傳送時間最佳化的詳細資訊，請參閱 [本頁](../messages/send-time-optimization.md).
 
-的 **[!UICONTROL Optimized vs non optimized]** 圖表詳細列出了與消息相關的主要資訊，這些資訊是否已優化：
+此 **[!UICONTROL 最佳化與非最佳化]** 圖表詳細說明了與訊息相關的主要資訊（無論訊息是否已最佳化）:
 
-* **[!UICONTROL Sent]**:交貨的發送總數。
-* **[!UICONTROL Opens]**:在交貨中開啟交貨的次數。
-* **[!UICONTROL Clicks]**:在電子郵件中按一下內容的次數。
+* **[!UICONTROL 已傳送]**:傳送的傳送總數。
+* **[!UICONTROL 開啟]**:傳送中開啟傳送的次數。
+* **[!UICONTROL 點按次數]**:電子郵件中內容被點按的次數。
 
-的 **[!UICONTROL Send time optimization]** 根據發送方法詳細說明您的交付成功：已優化或正常。
+此 **[!UICONTROL 傳送時間最佳化]** 根據傳送方法，詳細說明傳送是否成功：優化或正常。
 
-* **[!UICONTROL Delivered]**:成功發送的消息數，與已發送的消息總數相關。
-* **[!UICONTROL Bounces]**:在傳遞和自動返回處理期間累積的與已發送消息總數有關的錯誤總數。
+* **[!UICONTROL 傳遞]**:已成功傳送的訊息數，與已傳送的訊息總數相關。
+* **[!UICONTROL 跳出數]**:傳送和自動回傳處理期間累積的錯誤總數，與已傳送訊息的總數相關。
++++
 
-## 推式頁籤 {#push-global}
+## 推播通知標籤 {#push-global}
 
-從您的活動 **[!UICONTROL Global report]**，也請參見Wiki頁。 **[!UICONTROL Push]** 頁籤詳細列出與市場活動中發送的推送交貨相關的主要資訊。
+從您的行銷活動 **[!UICONTROL 全域報表]**, **[!UICONTROL 推播通知]** 索引標籤會詳細說明與促銷活動中傳送的推送傳送相關的主要資訊。
 
-的 **[!UICONTROL Push notification - Sending statistics]** 表詳細列出了與使用圖表和KPI的推送通知相關的主要資訊：
+![](assets/campaign_report_global_3.png)
 
-* **[!UICONTROL Targeted]**:在傳遞分析期間處理的郵件總數。
++++進一步了解「推送」報表可用的不同量度和Widget。
 
-* **[!UICONTROL Sent]**:交貨的發送總數。
+此 **[!UICONTROL 推播通知 — 傳送統計資料]** 表格會透過圖表和KPI，詳細說明與推播通知相關的主要資訊：
 
-* **[!UICONTROL Delivered]**:成功發送的消息數，與已發送的消息總數相關。
+* **[!UICONTROL 已鎖定]**:傳送分析期間處理的訊息總數。
 
-* **[!UICONTROL Delivery Rate]**:成功發送的郵件百分比。
+* **[!UICONTROL 已傳送]**:傳送的傳送總數。
 
-* **[!UICONTROL Bounces]**:在傳遞和自動返回處理期間累積的與已發送消息總數有關的錯誤總數。
+* **[!UICONTROL 傳遞]**:已成功傳送的訊息數，與已傳送的訊息總數相關。
 
-* **[!UICONTROL Bounce Rate]**:與發送的推送通知相比，已跳轉的推送通知的百分比。
+* **[!UICONTROL 傳送率]**:已成功發送的消息的百分比。
 
-* **[!UICONTROL Errors]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
+* **[!UICONTROL 跳出數]**:傳送和自動回傳處理期間累積的錯誤總數，與已傳送訊息的總數相關。
 
-* **[!UICONTROL Error Rate]**:與發送的推送通知相比，在發送過程中發生的錯誤阻止發送的百分比。
+* **[!UICONTROL 反彈率]**:跳出的推播通知與傳送的推播通知的百分比。
 
-* **[!UICONTROL Excluded]**:被Adobe Journey Optimizer排除的檔案數。
+* **[!UICONTROL 錯誤]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
 
-的 **[!UICONTROL Push - Tracking statistics]** 包含您交貨的收件人活動的可用資料：
+* **[!UICONTROL 錯誤率]**:與傳送的推播通知相比，傳送期間發生而無法傳送的錯誤百分比。
 
-* **[!UICONTROL Opens]**:在傳遞中開啟消息的次數。
+* **[!UICONTROL 已排除]**:已由Adobe Journey Optimizer排除的設定檔數目。
 
-* **[!UICONTROL Open Rate]**:開啟的推送通知百分比。
+此 **[!UICONTROL 推播 — 追蹤統計資料]** 包含您傳送的收件者活動可用資料：
 
-* **[!UICONTROL Actions]**:已傳遞的推送通知操作總數，例如按一下按鈕或解除按鈕。
+* **[!UICONTROL 開啟]**:傳送中開啟訊息的次數。
 
-* **[!UICONTROL Engagements]**:此推送通知的開啟和操作總數，即，如果配置檔案開啟了推送或按一下了按鈕。
+* **[!UICONTROL 開放率]**:已開啟推播通知的百分比。
 
-* **[!UICONTROL Engagement Rate]**:此推送通知的開啟和操作的百分比，即，如果配置檔案開啟了推送或按一下了按鈕。
+* **[!UICONTROL 動作]**:已傳送推播通知的動作總數，例如按鈕點擊或解除。
 
-的 **[!UICONTROL Push notification summary]** 圖形包含可用於發送推送通知的資料，如：
+* **[!UICONTROL 參與]**:此推播通知的開啟次數和動作總數，亦即設定檔開啟了推播或按了按鈕。
 
-* **[!UICONTROL Opens]**:在傳遞中開啟消息的次數。
+* **[!UICONTROL 參與率]**:此推播通知的開啟次數和動作百分比，亦即設定檔開啟了推播或按鈕被點按時。
 
-* **[!UICONTROL Actions]**:已傳遞的推送通知操作總數，例如按一下按鈕或解除按鈕。
+此 **[!UICONTROL 推播通知摘要]** 圖形包含可用於傳送推播通知的資料，例如：
 
-* **[!UICONTROL Bounces]**:在傳遞和自動返回處理期間累積的與已發送消息總數有關的錯誤總數。
+* **[!UICONTROL 開啟]**:傳送中開啟訊息的次數。
 
-* **[!UICONTROL Delivered]**:成功發送的消息數，與已發送的消息總數相關。
+* **[!UICONTROL 動作]**:已傳送推播通知的動作總數，例如按鈕點擊或解除。
 
-* **[!UICONTROL Errors]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
+* **[!UICONTROL 跳出數]**:傳送和自動回傳處理期間累積的錯誤總數，與已傳送訊息的總數相關。
+
+* **[!UICONTROL 傳遞]**:已成功傳送的訊息數，與已傳送的訊息總數相關。
+
+* **[!UICONTROL 錯誤]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
 
 >[!NOTE]
 >
->的 **[!UICONTROL Optimized vs non optimized]** 和 **[!UICONTROL Send time optimization]**  只有在為您的交貨激活「發送時間優化」選項時，小部件才可用。 有關發送時間優化的詳細資訊，請參閱 [此頁](../messages/send-time-optimization.md)。
+>此 **[!UICONTROL 最佳化與非最佳化]** 和 **[!UICONTROL 傳送時間最佳化]**  只有在為您的傳送啟動「傳送時間最佳化」選項時，介面工具集才可用。 如需傳送時間最佳化的詳細資訊，請參閱 [本頁](../messages/send-time-optimization.md).
 
-的 **[!UICONTROL Optimized vs non optimized]** 圖表詳細列出了與消息相關的主要資訊，這些資訊是否已優化：
+此 **[!UICONTROL 最佳化與非最佳化]** 圖表詳細說明了與訊息相關的主要資訊（無論訊息是否已最佳化）:
 
-* **[!UICONTROL Delivered]**:成功發送的消息數，與已發送的消息總數相關。
-* **[!UICONTROL Opens]**:在交貨中開啟交貨的次數。
-* **[!UICONTROL Actions]**:已傳遞的推送通知操作總數，例如按一下按鈕或解除按鈕。
+* **[!UICONTROL 傳遞]**:已成功傳送的訊息數，與已傳送的訊息總數相關。
+* **[!UICONTROL 開啟]**:傳送中開啟傳送的次數。
+* **[!UICONTROL 動作]**:已傳送推播通知的動作總數，例如按鈕點擊或解除。
 
-的 **[!UICONTROL Send time optimization]** 根據發送方法詳細說明您的交付成功：已優化或正常。
+此 **[!UICONTROL 傳送時間最佳化]** 根據傳送方法，詳細說明傳送是否成功：優化或正常。
 
-* **[!UICONTROL Delivered]**:成功發送的消息數，與已發送的消息總數相關。
-* **[!UICONTROL Bounces]**:在傳遞和自動返回處理期間累積的與已發送消息總數有關的錯誤總數。
+* **[!UICONTROL 傳遞]**:已成功傳送的訊息數，與已傳送的訊息總數相關。
+* **[!UICONTROL 跳出數]**:傳送和自動回傳處理期間累積的錯誤總數，與已傳送訊息的總數相關。
 
-的 **[!UICONTROL Error Reasons]** 圖形和表格允許您查看在交付期間發生的錯誤。
+此 **[!UICONTROL 錯誤原因]** 圖形和表格可讓您查看在傳送期間發生的錯誤。
 
-的 **[!UICONTROL Excluded reasons]** 圖形和表顯示阻止從目標配置檔案中排除的用戶配置檔案接收消息的不同原因。
+此 **[!UICONTROL 排除的原因]** 圖表和表格顯示阻止從目標設定檔排除的使用者設定檔接收訊息的不同原因。
 
-的 **[!UICONTROL Tracking by platform]**。 **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 圖表和表格根據收件人的作業系統詳細說明推送通知的成功。
+此 **[!UICONTROL 依平台追蹤]**, **[!UICONTROL 依平台傳送]** 和 **[!UICONTROL 依平台劃分]** 圖形和表格會根據收件者的作業系統，詳細說明推播通知的成功。
++++
+
+## SMS標籤 {#sms-global}
+
+從您的行銷活動 **[!UICONTROL 全域報表]**, **[!UICONTROL 簡訊]** 索引標籤會詳細說明與促銷活動中傳送的SMS傳送相關的主要資訊。
+
+![](assets/campaign_report_global_4.png)
+
++++進一步了解SMS報表可用的不同量度和Widget。
+
+此 **[!UICONTROL SMS — 傳送統計資料]** 表格會詳細說明傳送的成功：
+
+* **[!UICONTROL 已鎖定]**:符合此傳送目標設定檔資格的使用者設定檔數目。
+
+* **[!UICONTROL 已排除]**:未接收訊息的使用者設定檔數目，已從目標設定檔中排除。
+
+* **[!UICONTROL 已傳送]**:傳送的傳送總數。
+
+* **[!UICONTROL 傳遞]**:已成功傳送的訊息數，與已傳送的訊息總數相關。
+
+* **[!UICONTROL 跳出數]**:傳送和自動回傳處理期間累積的錯誤總數，與已傳送訊息的總數相關。
+
+* **[!UICONTROL 錯誤]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
+
+此 **[!UICONTROL 按日期的SMS效能]** 介面工具集會透過圖表詳細說明與訊息相關的主要資訊：
+
+* **[!UICONTROL 已傳送]**:傳送的傳送總數。
+
+* **[!UICONTROL 傳遞]**:已成功傳送的訊息數，與已傳送的訊息總數相關。
+
+* **[!UICONTROL 跳出數]**:傳送和自動回傳處理期間累積的錯誤總數，與已傳送訊息的總數相關。
+
+* **[!UICONTROL 錯誤]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
+
+此 **[!UICONTROL 排除原因]**, **[!UICONTROL 跳出原因]** 和 **[!UICONTROL 錯誤原因]** 圖形和表格可讓您查看在傳送期間發生的錯誤和排除。
++++
+
+## 其他資源
+
+* [開始使用行銷活動](../campaigns/get-started-with-campaigns.md)
+* [建立行銷活動](../campaigns/create-campaign.md)
+* [建立API觸發的促銷活動](../campaigns/api-triggered-campaigns.md)
+* [修改或停止行銷活動](../campaigns/modify-stop-campaign.md)
+* [行銷活動即時報告](campaign-live-report.md)

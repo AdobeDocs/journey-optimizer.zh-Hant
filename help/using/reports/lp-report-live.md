@@ -1,54 +1,55 @@
 ---
-title: 登錄頁即時報告
-description: 瞭解如何使用登錄頁中的資料即時報告
+title: 登陸頁面即時報表
+description: 了解如何使用登錄頁面即時報表中的資料
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
 
-# 登錄頁即時報告 {#lp-report-live}
+# 登陸頁面即時報表 {#lp-report-live}
 
-登錄頁 **[!UICONTROL Live report]** 報告僅顯示過去24小時內登錄頁影響的詳細資訊。 要測量所選時段的登錄頁資料，請參閱 [登錄頁全局報告](lp-report-global.md)。
+登錄頁面 **[!UICONTROL 即時報表]** 報表只會顯示過去24小時內登錄頁面影響的詳細資訊。 若要測量所選時段內的登錄頁面資料，請參閱 [登錄頁面全域報表](lp-report-global.md).
 
-要訪問報表，請選擇 **[!UICONTROL Live report]** 的子菜單。
+若要存取您的報表，請選取 **[!UICONTROL 報表]** 從您所選登錄頁面的進階功能表。
 
-![](assets/landing_page_report_1.png)
+![](assets/landing_page_report.png)
 
-登錄頁 **[!UICONTROL Live report]** 被分成不同的小部件，詳細列出交付的成功和錯誤。 如果需要，可以調整每個小部件的大小並將其刪除。 有關此項的詳細資訊，請參閱 [節](live-report.md)。
+登錄頁面 **[!UICONTROL 即時報表]** 會分為不同的小工具，詳述傳送的成功和錯誤。 如有需要，可對每個介面工具集調整大小並加以刪除。 如需詳細資訊，請參閱 [節](live-report.md).
 
-![](assets/landing_page_report_2.png)
++++進一步了解「登錄頁面即時」報表中可用的不同量度和Widget。
 
-的 **[!UICONTROL Landing page performance]** 小部件通過KPI詳細列出過去24小時內與消息相關的主要資訊：
+此 **[!UICONTROL 登錄頁面效能]** 介面工具集會透過KPI，詳細說明過去24小時與訊息相關的主要資訊：
 
-* **[!UICONTROL Total visits]**:從行程或其他來源訪問登錄頁的總次數，包括一個收件人的多次訪問。
+* **[!UICONTROL 瀏覽總數]**:從歷程或其他來源造訪您的登陸頁面的總次數，包括一個收件者的多次造訪。
 
-* **[!UICONTROL Conversions]**:與登錄頁互動的人數，例如訂閱表格。
+* **[!UICONTROL 轉換]**:與登錄頁面互動的人數，例如訂閱表單。
 
-* **[!UICONTROL Bounces]**:未與登錄頁交互且未完成訂閱操作的人數。
+* **[!UICONTROL 跳出數]**:未與登錄頁面互動且未完成訂閱動作的人數。
 
-的 **[!UICONTROL Visit sources]** 構件表示訪問者訪問登錄頁的方式：
+此 **[!UICONTROL 瀏覽來源]** widget代表訪客如何存取您的登陸頁面：
 
-* **[!UICONTROL Journey(s)]**:從旅程訪問登錄頁的次數。
+* **[!UICONTROL 歷程]**:來自歷程的登錄頁面造訪次數。
 
-* **[!UICONTROL Other sources]**:從外部來源而不是旅程訪問登錄頁的次數。
+* **[!UICONTROL 其他來源]**:來自外部來源而非歷程的著陸頁面造訪次數。
 
-的 **[!UICONTROL Top clicked links]** 標識訪問者與登錄頁的交互：
+此 **[!UICONTROL 熱門點按連結]** 識別訪客與登錄頁面的互動：
 
-* **[!UICONTROL Clicks]**:在登錄頁中按一下內容的次數。
+* **[!UICONTROL 點按次數]**:登陸頁面中內容被點按的次數。
 
-的 **[!UICONTROL Journey(s)]** 構件表示從旅程到登錄頁的訪問次數。
+此 **[!UICONTROL 歷程]** widget代表從歷程到登陸頁面的造訪次數。
 
-的 **[!UICONTROL Other sources]** 小部件表示從外部源而不是旅程訪問登錄頁的次數。
+此 **[!UICONTROL 其他來源]** 介面工具集代表從外部來源（而非歷程）瀏覽您的登陸頁面的次數。
 
-![](assets/landing_page_report_3.png)
+此 **[!UICONTROL 依訊息的瀏覽次數]** / **[!UICONTROL 依訊息的轉換]** 圖形會根據已傳送的訊息，代表過去24小時內與您的登陸頁面成功互動的造訪和人員總數。
 
-的 **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** 圖形表示在過去24小時內與登錄頁成功交互的訪問和人員總數，具體取決於發送的消息。
+此 **[!UICONTROL 依管道的瀏覽次數]** / **[!UICONTROL 依管道的轉換]** 圖表代表根據管道，過去24小時內與您的登陸頁面成功互動的造訪和人員總數。
++++
 
-的 **[!UICONTROL Visits by channels]** / **[!UICONTROL Conversions by channels]** 圖形表示過去24小時內與您登錄頁面成功互動的訪問和人員總數，具體取決於渠道。
+如需Adobe Journey Optimizer中可用每個量度的詳細清單，請參閱 [本頁](live-report.md#list-of-components-live).
