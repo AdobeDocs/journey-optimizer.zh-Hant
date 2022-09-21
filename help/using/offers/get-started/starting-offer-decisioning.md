@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
-workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '939'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 使用 [!DNL Journey Optimizer] 可在適當的時間為所有接觸點的客戶提供最佳優惠和體驗。設計完成後，透過個人化優惠目標定位對象。
 
-決策管理提供集中的行銷優惠方案資料庫，以及將規則和限制套用至Adobe Experience Platform建立的豐富即時設定檔的決策引擎，協助您在適當的時間為客戶傳送正確的優惠方案，讓個人化更為輕鬆。
+決策管理透過集中行銷優惠資料庫和決定引擎輕鬆實現個人化，該決策引擎將規則和限制套用於 Adobe Experience Platform 建立的豐富即時設定檔，以幫助您在適當的時間向客戶傳送合適的優惠。
 
 「決定管理」功能由兩個主要元件組成：
 
@@ -69,9 +69,9 @@ ht-degree: 93%
 
 ## 授予決策管理的存取權限 {#granting-acess-to-decision-management}
 
-存取和使用決策功能的權限是透過 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}。
+使用 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html){target=&quot;_blank&quot;} 管理存取及使用決策功能的權限。
 
-要授與決策管理功能的存取權限，您需要建立 **[!UICONTROL Product profile]** 並將對應權限分配給使用者。 在[本節](../../administration/permissions.md)瞭解有關管理 [!DNL Journey Optimizer] 使用者及權限的更多資訊。
+要授予對決策管理功能的存取權限，您需要建立&#x200B;**[!UICONTROL 產品設定檔]**，並將對應權限指派給使用者。在[本節](../../administration/permissions.md)瞭解有關管理 [!DNL Journey Optimizer] 使用者及權限的更多資訊。
 
 [本節](../../administration/high-low-permissions.md#decisions-permissions)列出了決策管理的特定權限。
 
