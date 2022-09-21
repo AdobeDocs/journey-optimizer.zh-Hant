@@ -7,7 +7,7 @@ role: User
 level: Beginner
 source-git-commit: a36f0b1c8d59d49e38b21725621d5b276741bd8e
 workflow-type: ht
-source-wordcount: '727'
+source-wordcount: '741'
 ht-degree: 100%
 
 ---
@@ -42,11 +42,11 @@ ht-degree: 100%
 
 1. 輸入標籤與說明。
 
-1. 選擇訊息&#x200B;**[!UICONTROL Category]**：針對商業性訊息，選擇&#x200B;**行銷**，或針對非商業性訊息，選擇&#x200B;**交易**，如訂單確認、密碼重設通知或傳遞資訊。
+1. 選擇訊息&#x200B;**[!UICONTROL 類別]**：針對商業性訊息，選擇&#x200B;**行銷**，或針對非商業性訊息，選擇&#x200B;**交易**，如訂單確認、密碼重設通知或傳遞資訊。
 
    >[!CAUTION]
    >
-   >若您針對特定頻道與類別定義[頻率規則](../configuration/frequency-rules.md)，在選擇該頻道與類別後，這些規則將自動套用到訊息。 目前僅&#x200B;**[!UICONTROL Marketing]**&#x200B;類別適用於頻率規則。
+   >若您針對特定頻道與類別定義[頻率規則](../configuration/frequency-rules.md)，在選擇該頻道與類別後，這些規則將自動套用到訊息。 目前僅&#x200B;**[!UICONTROL 行銷]**&#x200B;類別適用於頻率規則。
 
    ![](assets/inline-message-category.png)
 
@@ -54,7 +54,7 @@ ht-degree: 100%
    >
    >行銷類型訊息必須包括[退出連結](../messages/consent.md#opt-out-management)。 交易訊息無需如此，因為這些訊息可以傳送到個人資料對象，後者可從行銷通訊取消訂閱。
 
-1. 選擇頻道&#x200B;**[!UICONTROL Surface]** (即訊息預設集)，以用於傳送您的訊息。
+1. 選擇頻道&#x200B;**[!UICONTROL 介面]** (即訊息預設集)，以用於傳送您的訊息。
 
    介面是由[系統管理員](../start/path/administrator.md)定義的設定。 它包含所有用於春頌訊息的技術參數，如標頭參數、子網域、行動應用程式等等。[了解更多](../configuration/channel-surfaces.md)。
 
@@ -62,7 +62,7 @@ ht-degree: 100%
    >
    >您必須為所選的訊息類別與頻道選擇有效的頻道介面。
 
-   您可以利用訊息介面的&#x200B;**[!UICONTROL Properties]**&#x200B;按鈕，隨時存取及修改訊息的標籤、說明及介面。
+   您可以利用訊息介面的&#x200B;**[!UICONTROL 屬性]**&#x200B;按鈕，隨時存取及修改訊息的標籤、說明及介面。
 
 1. 建立訊息內容。
 
@@ -74,15 +74,15 @@ ht-degree: 100%
 
 ## 啟用傳送時間最佳化{#sto-in-journeys}
 
-針對電子郵件與推播通知，您可以啟用&#x200B;**[!UICONTROL Send-time optimization]**。
+針對電子郵件與推播通知，您可以啟用&#x200B;**[!UICONTROL 傳送時間最佳化]**。
 
-利用&#x200B;**[!UICONTROL Send-time optimization]**&#x200B;為每位使用者安排個人化的傳送時間，以提高您訊息的開啟及點閱率。 [了解更多](../messages/send-time-optimization.md)。
+利用&#x200B;**[!UICONTROL 傳送時間最佳化]**&#x200B;為每位使用者排定個人化的傳送時間，以提高您訊息的開啟及點閱率。 [了解更多](../messages/send-time-optimization.md)。
 
 ## 進階參數{#adv-settings}
 
 進階參數預設為唯讀並隱藏。
 
-若要存取進階參數，請按一下訊息窗格頂端的&#x200B;**[!UICONTROL Show read-only fields]**&#x200B;圖示。
+若要存取進階參數，請按一下訊息窗格頂端的&#x200B;**[!UICONTROL 顯示唯讀欄位]**&#x200B;圖示。
 
 ![](assets/show-read-only.png)
 
@@ -117,7 +117,7 @@ ht-degree: 100%
 
 1. 選取要複製的訊息。
 
-1. 使用窗格的 **[!UICONTROL Copy]** 按鈕 **[!UICONTROL Action]** 。
+1. 使用&#x200B;**[!UICONTROL 動作]**&#x200B;窗格中的&#x200B;**[!UICONTROL 複製]**&#x200B;按鈕。
 
    ![](assets/message-duplicate.png)
 
@@ -142,4 +142,4 @@ ht-degree: 100%
 
 ![](assets/delete-message.png)
 
-使用 **[!UICONTROL Confirm]** 按鈕來驗證。
+使用&#x200B;**[!UICONTROL 確認]**&#x200B;按鈕來驗證。
