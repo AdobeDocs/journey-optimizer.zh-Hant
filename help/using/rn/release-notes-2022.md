@@ -3,9 +3,9 @@ title: 2022 年發行說明
 description: Journey Optimizer 2022 年發行說明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2337'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -340,7 +340,7 @@ ht-degree: 97%
 
 **決定管理**
 
-* **Edge上的決策API** - Edge Decisioning API可提供及呈現決策管理中管理的個人化優惠方案。 您可以使用決策管理使用者介面(UI)或API來建立選件和其他相關物件。 [進一步了解](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **邊緣決策 API** - 邊緣決策 API 可以提供並轉譯受決策管理管理的個人化服務。 您可以使用決策管理使用者介面 (UI) 或 API 建立您的優惠方案與其他相關物件。 [進一步了解](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **管理**
 
@@ -378,7 +378,7 @@ ht-degree: 97%
 **決定管理**
 
 * 現在您可以指定在所有使用者或單個特定設定檔中套用優惠上限設定，以及指定在個別或所有投放位置上套用。[了解更多](../offers/offer-library/add-constraints.md#capping)
-* 批次決策API可讓組織在一次呼叫中，針對指定區段中的所有設定檔使用決策管理功能。 區段中每個設定檔提供的內容都放在 AEP 資料集，可用於自訂批次處理工作流程。 [進一步了解](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* 批次決策 API 允許組織在一次呼叫中對給定區段中的所有設定檔使用決策管理功能。 區段中每個設定檔提供的內容都放在 AEP 資料集，可用於自訂批次處理工作流程。 [進一步了解](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **管理**
 
