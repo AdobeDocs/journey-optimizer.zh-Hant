@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '1151'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -41,8 +41,8 @@ ht-degree: 97%
    + 內容實驗 {#content-experiment}
       + [開始使用內容實驗](using/campaigns/get-started-experiment.md)
       + [建立內容實驗](using/campaigns/content-experiment.md)
-      + [了解統計計算](using/campaigns/experiment-calculations.md)
-      + [設定實驗報表](using/campaigns/reporting-configuration.md)
+      + [瞭解統計計算](using/campaigns/experiment-calculations.md)
+      + [設定實驗報告](using/campaigns/reporting-configuration.md)
    + [利用 API 觸發行銷活動](using/campaigns/api-triggered-campaigns.md)
 + 訊息 {#messages}
    + [開始使用訊息](using/messages/get-started-content.md)

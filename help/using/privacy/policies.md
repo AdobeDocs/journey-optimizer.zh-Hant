@@ -7,8 +7,8 @@ level: Intermediate
 exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
 source-git-commit: cdd5f963e11874d15591dad80712ca2d2ee8026f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '156'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 為此， 您可以藉由資料控管服務將資料使用標籤應用到資料集和欄位，並依據相關資料使用原則對每個欄位進行分類。
 
-資料使用原則是描述允許或限制您對 Experience Platform 內的資料執行何種行銷動作的規則。 您可從 **[!UICONTROL 原則]** 功能表。
+資料使用原則是描述允許或限制您對 Experience Platform 內的資料執行何種行銷動作的規則。 可從&#x200B;**[!UICONTROL 政策]**&#x200B;功能表存取。
 
 ![](assets/policies.png)
 
