@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: d21ab858913844d655a2b23d22b562b62eb7743c
-workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1572'
+ht-degree: 100%
 
 ---
 
@@ -40,53 +40,53 @@ ht-degree: 97%
 
 **首頁**
 
-[!DNL Journey Optimizer] 首頁包含要啟動的主要連結和資源。**[!UICONTROL Recents]**&#x200B;清單提供最近建立事件與歷程的捷徑。 此清單顯示其建立和修改日期和狀態。
+[!DNL Journey Optimizer] 首頁包含要啟動的主要連結和資源。**[!UICONTROL 最近]**&#x200B;清單提供最近建立事件與歷程的捷徑。 此清單顯示其建立和修改日期和狀態。
 
-**[!UICONTROL JOURNEY MANAGEMENT]**
+**[!UICONTROL 歷程管理]**
 
-* **[!UICONTROL Journeys]** - 建立、設定和協調客戶歷程。[進一步了解](../building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL 歷程]** - 建立、設定和協調客戶歷程。[了解更多](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Landing pages]** - 建立、設計、測試及發佈登陸頁面。 [進一步了解](../landing-pages/get-started-lp.md)
+* **[!UICONTROL 登陸頁面]** - 建立、設計、測試及發佈登陸頁面。 [了解更多](../landing-pages/get-started-lp.md)
 
-**[!UICONTROL DECISION MANAGEMENT]**
+**[!UICONTROL 決策管理]**
 
-* **[!UICONTROL Offers]** - 從此功能表存取您最近的資源和資料集。使用此區段建立新優惠。 [了解更多](../offers/offer-library/creating-personalized-offers.md)
+* **[!UICONTROL 訂閱詳情]** - 從此功能表存取您最近的資源和資料集。使用此區段建立新優惠。 [了解更多](../offers/offer-library/creating-personalized-offers.md)
 
-* **[!UICONTROL Components]** - 建立位置、規則和標記。[進一步了解](../offers/offer-library/key-steps.md)
+* **[!UICONTROL 元件]** - 建立位置、規則和標記。[了解更多](../offers/offer-library/key-steps.md)
 
-**[!UICONTROL CONTENT MANAGEMENT]**
+**[!UICONTROL 內容管理]**
 
-* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] 為資產集中存放庫，可用來填入訊息。[進一步了解](../design/assets-essentials.md)
+* **[!UICONTROL 資產]** - [!DNL Adobe Experience Manager Assets Essentials]為資產集中存放庫，可用來填入訊息。[了解更多](../design/assets-essentials.md)
 
-**[!UICONTROL DATA MANAGEMENT]**
+**[!UICONTROL 資料管理]**
 
-* **[!UICONTROL Schemas]** - 使用 Adobe Experience Platform 在稱為「方案編輯器」的互動式視覺畫布中建立並管理體驗資料模型 (XDM) 方案。[進一步了解](get-started-schemas.md)
+* **[!UICONTROL 結構描述]** - 使用 Adobe Experience Platform 在「方案編輯器」這個互動式視覺畫布中建立和管理體驗資料模型 (XDM) 方案。[了解更多](get-started-schemas.md)
 
-* **[!UICONTROL Datasets]** - 所有內嵌至 Adobe Experience Platform 的資料都會以資料集的形式保留在資料湖中。資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄 (列) 的表格。 [進一步了解](get-started-datasets.md)
+* **[!UICONTROL 資料集]** - 所有內嵌至 Adobe Experience Platform 的資料都會以資料集的形式保留在資料湖中。資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄 (列) 的表格。 [進一步了解](get-started-datasets.md)
 
-* **[!UICONTROL Queries]** - 使用 Adobe Experience Platform 查詢服務來寫入和執行查詢、檢視過去執行的查詢，存取組織內使用者儲存的查詢。[進一步了解](get-started-queries.md)
+* **[!UICONTROL 查詢]** - 使用 Adobe Experience Platform 查詢服務來寫入和執行查詢、檢視以前執行的查詢，以及存取由您組織內的使用者儲存的查詢。[了解更多](get-started-queries.md)
 
-* **[!UICONTROL Monitoring]** - 使用此功能表在 Adobe Experience Platform 使用者介面中監視資料擷取。[進一步了解](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hant){target=&quot;_blank&quot;}
+* **[!UICONTROL 監視]** - 使用此功能表在 Adobe Experience Platform 使用者介面中監視資料擷取。[了解更多](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-**[!UICONTROL CONNECTIONS]**
+**[!UICONTROL 連線]**
 
-* **[!UICONTROL Sources]** - 使用此功能表從多種來源 (例如 Adobe 應用程式、雲端儲存、資料庫等) 擷取資料，並建構、標示和增強傳入資料。[進一步了解](get-started-sources.md)
+* **[!UICONTROL 來源]** - 使用此功能表從多種來源 (例如 Adobe 應用程式、雲端儲存、資料庫等) 擷取資料，並建構、標示和增強傳入資料。[了解更多](get-started-sources.md)
 
-**[!UICONTROL CUSTOMER]**
+**[!UICONTROL 客戶]**
 
-* **[!UICONTROL Segments]** - 建立和管理 Experience Platform 區段定義，並將它們運用在您的歷程中。[進一步了解](../segment/about-segments.md)
+* **[!UICONTROL 區段]** - 建立和管理 Experience Platform 區段定義，並將它們運用在您的歷程中。[了解更多](../segment/about-segments.md)
 
-* **[!UICONTROL Profiles]** - 即時客戶設定檔可為個別客戶建立整體檢視，並結合來自多個管道的資料，包括線上、離線、CRM 和第三方資料。[進一步了解](../segment/get-started-profiles.md)
+* **[!UICONTROL 設定檔]** - 即時客戶設定檔可為個別客戶建立整體檢視，並結合來自多個頻道的資料，包括線上、離線、CRM 和第三方資料。[了解更多](../segment/get-started-profiles.md)
 
-* **[!UICONTROL Identities]** - Adobe Experience Platform 身分服務透過 Adobe Experience Platform 的身分圖表，管理跨裝置、跨頻道及幾乎即時的客戶身分識別。[進一步了解](../segment/get-started-identity.md)
+* **[!UICONTROL 識別]** - Adobe Experience Platform 身分服務透過 Adobe Experience Platform 的身分圖表，管理跨裝置、跨頻道及幾乎即時的客戶身分識別。[了解更多](../segment/get-started-identity.md)
 
-**[!UICONTROL ADMINISTRATION]**
+**[!UICONTROL 管理]**
 
-* **[!UICONTROL Journey Administration]** - 使用此選單來設定 [事件](../event/about-events.md)、[資料來源](../datasource/about-data-sources.md)和[動作](../action/action.md) ，以用於您的歷程。
+* **[!UICONTROL 歷程管理]** - 使用此選單來設定 [事件](../event/about-events.md)、[資料來源](../datasource/about-data-sources.md)和[動作](../action/action.md) ，以用於您的歷程。
 
-* **[!UICONTROL Sandboxes]** - Adobe Experience 平台提供的沙箱可將單一執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。[進一步了解](../administration/sandboxes.md)
+* **[!UICONTROL 沙箱]** - Adobe Experience 平台提供的沙箱可將單一執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。[了解更多](../administration/sandboxes.md)
 
-* **[!UICONTROL Alerts]**  — 使用者介面可讓您根據Adobe Experience Platform可觀察性深入分析揭示的量度，檢視收到警報的歷史記錄。 UI也可讓您檢視、啟用和停用可用的警報規則。 [進一步了解](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target=&quot;_blank&quot;}
+* **[!UICONTROL 警報]** - 使用者介面可讓您根據 Adobe Experience Platform 可檢視性深入解析顯示的指標查看收到警報的歷史記錄。UI 也可讓您檢視、啟用和停用可用的警報規則。 [了解跟多](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
 
 ## 產品內使用案例 {#in-product-uc}
@@ -102,11 +102,11 @@ ht-degree: 97%
 * **傳送電子郵件以吸引新客戶**，輕鬆傳送最多兩封電子郵件來歡迎新註冊的客戶。(即將推出)
 * **傳送推播訊息至匯入的客戶清單**，以快速將推播通知傳送至從 CSV 檔案匯入的客戶清單。(即將推出)
 
-按一下&#x200B;**[!UICONTROL View details]**&#x200B;以進一步瞭解每個使用案例。
+按一下&#x200B;**[!UICONTROL 檢視詳細資料]**&#x200B;以進一步瞭解每個使用案例。
 
-按一下 **[!UICONTROL Begin]** 按鈕以開始使用案例。
+按一下&#x200B;**[!UICONTROL 開始]**&#x200B;按鈕以開始使用案例。
 
-您可以從&#x200B;**[!UICONTROL View use case library]**&#x200B;按鈕存取已執行的使用案例。
+您可以從&#x200B;**[!UICONTROL 檢視使用案例庫]**&#x200B;按鈕存取已執行的案例。
 
 ## 協助工具{#accessibility}
 
@@ -194,7 +194,7 @@ ht-degree: 97%
   <tr>
     <td>
 
-在區段型歷程中觸發事件，其 **[!UICONTROL Single profile at a time]** 選項為開啟
+在以區段為基礎的歷程中觸發事件，並為其啟用了&#x200B;**[!UICONTROL 一次單一設定檔]**&#x200B;選項
 
 </td>
     <td>P</td>
@@ -289,17 +289,17 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 按一下清單左上方的篩選圖示，即可存取篩選器 。篩選功能表可讓您根據不同的條件篩選顯示的元素。您可以選擇僅顯示某一類型或狀態的元素、您建立的元素，或者在過去 30 天內修改的元素。選項會因內容而異。
 
-在歷程清單中，您可以根據歷程的狀態、類型和版本從 **[!UICONTROL Status and version filters]** 篩選歷程。 類型可以是： **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**、**[!UICONTROL Read segment]**、**[!UICONTROL Business event]** 或 **[!UICONTROL Burst]**。您可以選擇只顯示使用來自&#x200B;**[!UICONTROL Activity filters]** 與 **[!UICONTROL Data filters]**&#x200B;的特定事件、欄位群組或動作的歷程。**[!UICONTROL Publication filters]**&#x200B;可讓您選擇出版物日期或使用者。 舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。[了解更多](../building-journeys/using-the-journey-designer.md)。
+在歷程清單中，您可以從&#x200B;**[!UICONTROL 狀態及版本篩選器]**&#x200B;中根據歷程的狀態、類型與版本來篩選歷程。 類型可以是： **[!UICONTROL 單一事件]**、**[!UICONTROL 區段資格]**、**[!UICONTROL 讀取區段]**、**[!UICONTROL 企業活動]**&#x200B;或 **[!UICONTROL 突發事件]**。您可以選擇僅顯示使用&#x200B;**[!UICONTROL 事件篩選器]**&#x200B;與&#x200B;**[!UICONTROL 資料篩選器]**&#x200B;中的特定事件、欄位群組或動作的歷程。**[!UICONTROL 出版物篩選器]**&#x200B;可讓您選擇出版物日期或使用者。 舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。[了解更多](../building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
 >請注意，顯示的欄可使用清單右上角的設定按鈕進行個人化。系統會為每位使用者儲存個人化設定。
 
-使用 **[!UICONTROL Last update]** 和 **[!UICONTROL Last update by]** 欄來檢查您的歷程上次更新發生的時間以及儲存者。
+使用&#x200B;**[!UICONTROL 上次更新]**&#x200B;及&#x200B;**[!UICONTROL 最後更新者]**&#x200B;欄來檢查您的歷程上次更新發生的時間以及儲存者。
 
 ![](assets/filter-journeys.png)
 
-在事件、資料來源和動作設定窗格中，**[!UICONTROL Used in]** 欄位會顯示使用該特定事件、欄位群組或動作的歷程次數。您可以按一下 **[!UICONTROL View journeys]** 按鈕以顯示對應歷程的清單。
+在事件、資料來源和動作設定窗格中，**[!UICONTROL 使用位置]**&#x200B;欄位會顯示使用該特定事件、欄位群組或操作的歷程次數。您可以按一下&#x200B;**[!UICONTROL 檢視歷程]**&#x200B;按鈕以顯示對應歷程的清單。
 
 ![](assets/journey3bis.png)
 
