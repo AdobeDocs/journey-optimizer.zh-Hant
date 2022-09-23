@@ -5,20 +5,14 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
-source-git-commit: cdd5f963e11874d15591dad80712ca2d2ee8026f
+source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 97%
+source-wordcount: '152'
+ht-degree: 100%
 
 ---
 
 # 資料使用原則 {#Policies}
-
->[!CONTEXTUALHELP]
->id="ajo_olac_manage_access"
->title="Olac管理訪問"
->abstract="TBC"
-
 
 藉由 Adobe Experience Platform **資料控管服務**，您可以透過使用標籤、行銷動作和原則來強制實施資料使用限制。
 
