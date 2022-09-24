@@ -5,7 +5,7 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
-source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
+source-git-commit: 8b9f2a51b758583cc23f3d21c79235825b26ca0c
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
@@ -13,6 +13,7 @@ ht-degree: 100%
 ---
 
 # 資料使用原則 {#Policies}
+
 
 藉由 Adobe Experience Platform **資料控管服務**，您可以透過使用標籤、行銷動作和原則來強制實施資料使用限制。
 
