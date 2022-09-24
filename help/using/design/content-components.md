@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
+source-git-commit: 030dc5f3a5d1927076c87aa600097a3b5761e803
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -150,25 +150,21 @@ ht-degree: 1%
 >id="ac_edition_video_email"
 >title="視訊設定"
 >abstract="使用此元件在電子郵件中插入視訊。 請注意，視訊無法用於所有電子郵件用戶端。 建議設定後援影像。"
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="其他資訊"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_landing_page"
 >title="視訊設定"
 >abstract="使用此元件在您的登錄頁面中插入影片。 請注意，視訊無法用於所有訊息用戶端。 建議設定後援影像。"
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="其他資訊"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_fragment"
 >title="視訊設定"
 >abstract="使用此元件在片段中插入視訊。 請注意，視訊無法用於所有訊息用戶端。 建議設定後援影像。"
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="其他資訊"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_template"
 >title="視訊設定"
 >abstract="使用此元件在範本中插入視訊。 請注意，視訊無法用於所有訊息用戶端。 建議設定後援影像。"
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="其他資訊"
 
 使用 **[!UICONTROL 影片]** 元件，透過URL連結在電子郵件中插入視訊。
 
