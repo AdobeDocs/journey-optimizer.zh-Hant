@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 769c5cb4c609a9c97223103216713dbec44847a4
+source-git-commit: b720134ae82a596321aa2815a36e92e6b19c71ba
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1213'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,11 @@ ht-degree: 1%
 >需要0到60分鐘才能 [!DNL Journey Optimizer] 考慮傳出電子郵件中隱藏的地址。
 
 ## 訪問隱藏清單 {#access-suppression-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_download"
+>title="將清單匯出為CSV檔案"
+>abstract="要下載隱藏清單，可以通過生成新檔案導出當前清單，或者下載以前生成的檔案。"
 
 若要存取排除的電子郵件地址的詳細清單，請前往 **[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]**，然後選取 **[!UICONTROL 隱藏清單]**.
 
