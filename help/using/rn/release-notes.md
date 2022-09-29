@@ -2,7 +2,7 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3895b0d6a73c1618f417d28e971c5b3c9b89b4e
+source-git-commit: 056ff0d4532126e22884d73e92fb2e7d3a2319b9
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 19%
@@ -198,7 +198,7 @@ ht-degree: 19%
 
 ### 其他變更{#sept-2022-other}
 
-* 「促銷活動快速傳送」模式已取代「歷程突發模式」。 [了解更多](../campaigns/create-campaign.md#rapid-delivery})
+* 「促銷活動快速傳送」模式已取代「歷程突發模式」。 [了解更多](../campaigns/create-campaign.md#rapid-delivery)
 * 為了改善效能，從「讀取」區段、「區段」資格或業務事件活動開始的歷程中，無法再使用體驗事件欄位群組。 此變更僅適用於新歷程。 現有行為會保留目前的行為。 [了解更多](../start/guardrails.md#expression-editor)
 * 已移除已排程讀取區段歷程的1小時限制。 這些歷程現在可立即執行。
 
