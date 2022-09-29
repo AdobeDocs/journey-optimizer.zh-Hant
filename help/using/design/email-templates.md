@@ -1,35 +1,40 @@
 ---
-title: 使用電子郵件模板
-description: 瞭解如何將電子郵件內容另存為模板並在Journey Optimizer重新使用
+title: 使用電子郵件範本
+description: 了解如何將電子郵件內容儲存為範本，並在Journey Optimizer中重複使用
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 8%
+source-wordcount: '242'
+ht-degree: 5%
 
 ---
 
-# 使用電子郵件模板 {#email-templates}
+# 使用電子郵件範本 {#email-templates}
 
-使用 **[!UICONTROL Select design template]** 的子菜單。
+使用 **[!UICONTROL 選取設計範本]** 區段，開始從範本建立內容。
 
 ![](assets/email_designer-templates.png)
 
 您可以選擇：
-* 20個現成電子郵件模板。
-* 保存的模板。 [了解更多](#save-as-template)
+* 20個現成可用的電子郵件範本。
+* 已儲存的範本。 [了解更多](#save-as-template)
 
 ## 另存為範本 {#save-as-template}
 
-一旦你設計好 [電子郵件內容](design-emails.md)，您可以保存它以備將來重新使用。 請依照下列步驟以執行此操作。
+>[!CONTEXTUALHELP]
+>id="ajo_messages_depecrated_inventory"
+>title="了解如何移轉訊息"
+>abstract="2022年7月25日，訊息功能表消失，訊息現在直接從歷程中撰寫。 如果您想在歷程中重複使用舊版訊息，需要將其儲存為範本。"
 
-1. 按一下螢幕右上角的省略號。
+在您設計 [電子郵件內容](design-emails.md)，您可以儲存它以供日後重複使用。 請依照下列步驟以執行此操作。
 
-1. 選擇 **[!UICONTROL Save design template]** 的下界。
+1. 按一下螢幕右上方的刪節號。
+
+1. 選擇 **[!UICONTROL 儲存設計範本]** 從下拉式功能表。
 
    ![](assets/email_designer-save-template.png)
 
@@ -37,30 +42,30 @@ ht-degree: 8%
 
    ![](assets/email_designer-template-name.png)
 
-1. 按一下「**[!UICONTROL Save]**」。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
-下次建立電子郵件時，您可以使用此模板來生成內容。 [瞭解如何](#use-saved-template)
+下次您建立電子郵件時，可以使用此範本來建置內容。 [了解如何](#use-saved-template)
 
 ![](assets/email_designer-saved-template.png)
 
-## 使用保存的模板 {#use-saved-template}
+## 使用已儲存的範本 {#use-saved-template}
 
-1. 開啟 [電子郵件設計器](create-email-content.md)。
+1. 開啟 [電子郵件設計工具](create-email-content.md).
 
-1. 在 **[!UICONTROL Create your email screen]**，也請參見Wiki頁。 **[!UICONTROL Sample templates]** 頁籤 選取 **[!UICONTROL Saved templates]** 索引標籤。
+1. 在 **[!UICONTROL 建立您的電子郵件畫面]**, **[!UICONTROL 範本範例]** 標籤。 選取 **[!UICONTROL 已儲存的範本]** 標籤。
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. 以前所有的清單 [已保存模板](#save-as-template) 顯示。 你可以對它們進行排序 **[!UICONTROL By name]**。 **[!UICONTROL Last modified]** 和 **[!UICONTROL Last created]**。
+1. 先前所有的清單 [已儲存的範本](#save-as-template) 顯示。 你可以對它們進行排序 **[!UICONTROL 依名稱]**, **[!UICONTROL 上次修改時間]** 和 **[!UICONTROL 上次建立時間]**.
 
    ![](assets/email_designer-saved-templates.png)
 
-1. 從清單中選擇您選擇的模板。
+1. 從清單中選取您選取的範本。
 
-1. 選中後，可以使用左和右箭頭在所有保存的模板之間導航。
+1. 選取後，您可以使用左右箭頭在所有儲存的範本之間導覽。
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. 按一下 **[!UICONTROL Use this email]** 右上角。
+1. 按一下 **[!UICONTROL 使用此電子郵件]** 在螢幕的右上角。
 
-1. 使用電子郵件設計器根據需要編輯內容。
+1. 使用電子郵件設計工具，視需要編輯內容。

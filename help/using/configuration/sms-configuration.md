@@ -4,9 +4,9 @@ description: 了解如何設定您的環境，使用Journey Optimizer傳送SMS�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
+source-git-commit: bb90f582b9767b1aaeb5d86b0e68f500871fab3a
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '711'
 ht-degree: 2%
 
 ---
@@ -31,10 +31,8 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
 >title="使用Journey Optimizer設定您的SMS廠商"
->abstract="選取您的廠商，並填入您的SMS API憑證。"
-
-<!--New contextual help content for September release: >abstract="Before sending SMS, you must integrate the provider settings with Journey Optimizer. Once done, you will need to create an SMS surface. These steps must be performed by an Adobe Journey Optimizer system administrator."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/sms-configuration.html#message-preset-sms" text="Create an SMS channel surface"-->
+>abstract="傳送SMS之前，您必須整合提供者設定與Journey Optimizer。 完成後，您需要建立SMS表面。 這些步驟必須由Adobe Journey Optimizer系統管理員執行。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/sms-configuration.html#message-preset-sms" text="建立SMS通道表面"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"

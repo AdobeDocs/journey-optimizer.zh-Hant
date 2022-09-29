@@ -1,187 +1,226 @@
 ---
 title: 建立登陸頁面
-description: 瞭解如何在Journey Optimizer配置和發佈登錄頁
+description: 了解如何在Journey Optimizer中設定和發佈登錄頁面
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 1%
+source-wordcount: '1469'
+ht-degree: 2%
 
 ---
 
-# 建立和發佈登錄頁 {#create-lp}
+# 建立和發佈登錄頁面 {#create-lp}
 
-## 訪問登錄頁 {#access-landing-pages}
+## 存取登錄頁面 {#access-landing-pages}
 
-要訪問登錄頁清單，請選擇 **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** 的下界。
+若要存取登錄頁面清單，請選取 **[!UICONTROL 歷程管理]** > **[!UICONTROL 登錄頁面]** 的上界。
 
 ![](assets/lp_access-list.png)
 
-的 **[!UICONTROL Landing Pages]** 清單顯示所有建立的項目。 您可以根據其狀態或修改日期來篩選它們。
+此 **[!UICONTROL 登錄頁面]** 清單會顯示所有已建立的項目。 您可以根據狀態或修改日期來篩選這些變數。
 
 ![](assets/lp_access-list-filter.png)
 
-在此清單中，您可以訪問 [登錄頁即時報告](../reports/lp-report-live.md) 或 [登錄頁全局報告](../reports/lp-report-global.md) 的子菜單。
+從此清單，您可以存取 [登陸頁面即時報表](../reports/lp-report-live.md) 或 [登陸頁面全域報表](../reports/lp-report-global.md) 的URL。
 
-您還可以刪除、複製和取消發佈登錄頁。
+您也可以刪除、複製和取消發佈登錄頁面。
 
 >[!CAUTION]
 >
->如果取消發佈在未發佈消息中引用的登錄頁，則指向登錄頁的連結將斷開，並顯示錯誤頁。
+>如果您取消發佈訊息中參考的登錄頁面，登陸頁面的連結將會損毀，並顯示錯誤頁面。
 
-按一下登錄頁旁邊的三個點以選擇所需的操作。
+按一下登錄頁面旁的三個點，以選取所需的動作。
 
 ![](assets/lp_access-list-actions.png)
 
 >[!NOTE]
 >
->無法刪除已發佈的登錄頁。 要刪除它，必須先取消發佈它。
+>您無法刪除 [已發佈](#publish-landing-page) 登陸頁面。 若要刪除，您必須先取消發佈。
 
 ## 建立登陸頁面 {#create-landing-page}
 
-建立登錄頁的步驟如下。
+>[!CONTEXTUALHELP]
+>id="ajo_lp_create"
+>title="定義並設定登錄頁面"
+>abstract="若要建立登錄頁面，您需要選取預設集，然後設定主要頁面和子頁面，最後在發佈頁面之前測試頁面。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="建立登錄頁面預設集"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="發佈登錄頁面"
 
-1. 在登錄頁清單中，按一下 **[!UICONTROL Create landing page]**。
+建立登錄頁面的步驟如下。
+
+1. 在登錄頁面清單中，按一下 **[!UICONTROL 建立登錄頁面]**.
 
    ![](assets/lp_create-lp.png)
 
-1. 添加標題。 如果需要，可以添加說明。
+1. 新增標題。 您可以視需要新增說明。
 
    ![](assets/lp_create-lp-details.png)
 
-1. 選擇預設。 瞭解如何在中建立登錄頁預設 [此部分](../configuration/lp-presets.md#lp-create-preset)。
+1. 若要將自訂或核心資料使用量標籤指派至登陸頁面，請選取 **[!UICONTROL 管理存取]**. [進一步了解物件層級存取控制(OLAC)](../administration/object-based-access.md)
+
+   <!--You can add a tag. See AEP documentation?-->
+
+1. 選取預設集。 了解如何在中建立登錄頁面預設集 [本節](../configuration/lp-presets.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
 
-1. 按一下「**[!UICONTROL Create]**」。
+1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
-1. 顯示首頁及其屬性。 瞭解如何配置首頁設定 [這裡](#configure-primary-page)。
+1. 主要頁面及其屬性隨即顯示。 了解如何設定主要頁面設定 [此處](#configure-primary-page).
 
    ![](assets/lp_primary-page.png)
 
-1. 按一下+表徵圖可添加子頁。 瞭解如何配置子頁設定 [這裡](#configure-subpages)。
+1. 按一下+圖示以新增子頁面。 了解如何設定子頁面設定 [此處](#configure-subpages).
 
    ![](assets/lp_add-subpage.png)
 
-配置和設計 [首頁](#configure-primary-page)的 [子頁](#configure-subpages) 如果有，你可以 [test](#test-landing-page) 和 [發佈](#publish-landing-page) 登錄頁。
+在您設定並設計 [主要頁面](#configure-primary-page)，和 [子頁面](#configure-subpages) 若有，您可以 [測試](#test-landing-page) 和 [發佈](#publish-landing-page) 您的登錄頁面。
 
-## 配置首頁 {#configure-primary-page}
+## 設定主要頁面 {#configure-primary-page}
 
-首頁面是用戶按一下登錄頁面的連結後立即顯示給用戶的頁面，如電子郵件或網站。
+>[!CONTEXTUALHELP]
+>id="ajo_lp_primary_page"
+>title="定義主要頁面設定"
+>abstract="使用者點按登錄頁面的連結（例如來自電子郵件或網站）後，主要頁面會立即顯示給使用者。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="設計登錄頁面內容"
 
-要定義首頁設定，請執行以下步驟。
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_settings"
+>title="定義登錄頁面URL"
+>abstract="在本節中，定義唯一的登錄頁面URL。 URL的第一部分需要您先前設定登錄頁面子網域，作為您選取之預設集的一部分。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="設定登陸頁面子網域"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="建立登錄頁面預設集"
 
-1. 可以更改頁面名稱， **[!UICONTROL Primary page]** 預設值。
+主要頁面是使用者點按登錄頁面的連結（例如來自電子郵件或網站）後，立即顯示給他們的頁面。
 
-1. 使用內容設計器編輯頁面的內容。 瞭解如何定義登錄頁內容 [這裡](design-lp.md)。
+若要定義主要頁面設定，請遵循下列步驟。
+
+1. 您可以變更頁面名稱，即 **[!UICONTROL 主要頁面]** 依預設。
+
+1. 使用內容設計工具編輯頁面的內容。 了解如何定義登錄頁面內容 [此處](design-lp.md).
 
    ![](assets/lp_open-designer.png)
 
-1. 定義登錄頁URL。 URL的第一部分要求您先前設定登錄頁子域作為 [預設](../configuration/lp-presets.md#lp-create-preset) 的上界。 [了解更多](../configuration/lp-subdomains.md)
+1. 定義您的登錄頁面URL。 URL的第一部分需要您先前設定登錄頁面子網域，作為 [預設集](../configuration/lp-presets.md#lp-create-preset) 您已選取。 [了解更多](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >
-   >登錄頁URL必須唯一。
+   >登錄頁面URL必須是唯一的。
 
    ![](assets/lp_access-url.png)
 
    >[!NOTE]
    >
-   >即使已發佈，您也無法通過將此URL複製貼上到Web瀏覽器來訪問登錄頁。 相反，您可以使用預覽功能test它，如中所述 [此部分](#test-landing-page)。
+   >您無法只將此URL複製貼入網頁瀏覽器，即使已發佈亦然，以存取登錄頁面。 反之，您可以使用預覽函式來測試，如 [本節](#test-landing-page).
 
-1. 如果希望登錄頁預先載入已可用的表單資料，請選擇 **[!UICONTROL Pre-fill form fields with profile information]**。
+1. 如果您希望登錄頁面預先載入已可用的表單資料，請選取 **[!UICONTROL 使用設定檔資訊預先填寫表單欄位]**.
 
    ![](assets/lp_prefill-form-fields.png)
 
-   啟用此選項後，如果配置檔案已選擇加入/退出或已添加到訂閱清單，則在顯示登錄頁時，將反映其選擇。
+   啟用此選項時，如果設定檔已選擇加入/退出或已新增至訂閱清單，則顯示登錄頁面時會反映其選擇。
 
-   例如，如果配置檔案選擇接收有關將來事件的通信，則在下次將登錄頁顯示到該配置檔案時，將已選中相應的複選框。
+   例如，如果設定檔已選擇接收有關未來事件的通訊，則下次將登錄頁面顯示給該設定檔時，將會選取對應的核取方塊。
 
    ![](assets/lp_prefill-form-ex.png)
 
-1. 您可以為頁面定義到期日期。 在這種情況下，必須在頁面到期時選擇操作：
+1. 您可以定義頁面的到期日。 在此情況下，您必須在頁面過期時選取動作：
 
-   * **[!UICONTROL Redirect URL]**:輸入頁面過期時用戶將重定向到的頁面的URL。
-   * **[!UICONTROL Custom page]**: [配置子頁](#configure-subpages) 並從顯示的下拉清單中選擇它。
-   * **[!UICONTROL Browser error]**:鍵入將顯示的錯誤文本，而不是頁面。
+   * **[!UICONTROL 重新導向URL]**:輸入頁面過期時，系統會將使用者重新導向至的頁面URL。
+   * **[!UICONTROL 自訂頁面]**: [設定子頁面](#configure-subpages) 並從顯示的下拉式清單中選取。
+   * **[!UICONTROL 瀏覽器錯誤]**:輸入將顯示的錯誤文本，而非頁面。
 
    ![](assets/lp_expiry-date.png)
 
-   <!--1. In the **[!UICONTROL Additional data]** section, define a **[!UICONTROL Key]** and the corresponding **[!UICONTROL Parameter value]**. // you can define how the data entered in the landing page is managed once it has been submitted by a user??-->
+1. 在 **[!UICONTROL 其他資料]** 部分，定義一個或多個鍵及其相應的參數值。 您將能在主要頁面和子頁面的內容中，運用這些索引鍵，使用 [運算式編輯器](../personalization/personalization-build-expressions.md). 請參閱[此章節](lp-content.md#use-form-component#use-additional-data)深入瞭解。
 
-1. 如果您在 [設計首頁](design-lp.md)，它們顯示在 **[!UICONTROL Subscription list]** 的子菜單。
+   ![](assets/lp_create-lp-additional-data.png)
+
+1. 如果您在 [設計主要頁面](design-lp.md)，則會顯示在 **[!UICONTROL 訂閱清單]** 區段。
 
    ![](assets/lp_subscription-list.png)
 
-1. 從登錄頁，您可以直接 [建立旅程](../building-journeys/journey-gs.md#jo-build) 在用戶提交表單時向其發送確認消息。 學習如何在此之後構建這樣的旅程 [用例](lp-use-cases.md#subscription-to-a-service)。
+1. 從登錄頁面，您可以直接 [建立歷程](../building-journeys/journey-gs.md#jo-build) 會在使用者提交表單時傳送確認訊息給使用者。 了解如何在此結尾建立此類歷程 [使用案例](lp-use-cases.md#subscription-to-a-service).
 
    ![](assets/lp_create-journey.png)
 
-   按一下 **[!UICONTROL Create journey]** 要重定向到 **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** 清單框。
+   按一下 **[!UICONTROL 建立歷程]** 被重定向到 **[!UICONTROL 歷程管理]** > **[!UICONTROL 歷程]** 清單。
 
-## 配置子頁 {#configure-subpages}
+## 設定子頁面 {#configure-subpages}
 
-最多可以添加2個子頁。 例如，您可以建立一個「感謝」頁面，在用戶提交表單後，該頁面將顯示，並且您可以定義一個錯誤頁面，如果登錄頁出現問題，將調用該錯誤頁面。
+>[!CONTEXTUALHELP]
+>id="ajo_lp_subpage"
+>title="定義子頁面設定"
+>abstract="您最多可以新增2個子頁面。 例如，您可以建立「感謝」頁面，在使用者提交表單後顯示，而您可以定義錯誤頁面，在登錄頁面發生問題時呼叫該錯誤頁面。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="設計登錄頁面內容"
 
-要定義子頁設定，請執行以下步驟。
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_settings-subpage"
+>title="定義登錄頁面URL"
+>abstract="在本節中，定義唯一的登錄頁面URL。 URL的第一部分需要您先前設定登錄頁面子網域，作為您選取之預設集的一部分。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="設定登陸頁面子網域"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="建立登錄頁面預設集"
 
-1. 可以更改頁面名稱， **[!UICONTROL Subpage 1]** 預設值。
+您最多可以新增2個子頁面。 例如，您可以建立「感謝」頁面，在使用者提交表單後顯示，而您可以定義錯誤頁面，在登錄頁面發生問題時呼叫該錯誤頁面。
 
-1. 使用內容設計器編輯頁面的內容。 瞭解如何定義登錄頁內容 [這裡](design-lp.md)。
+若要定義子頁面設定，請遵循下列步驟。
+
+1. 您可以變更頁面名稱，即 **[!UICONTROL 子頁面1]** 依預設。
+
+1. 使用內容設計工具編輯頁面的內容。 了解如何定義登錄頁面內容 [此處](design-lp.md).
 
    >[!NOTE]
    >
-   >可以從同一登錄頁的任何子頁插入指向首頁的連結。 例如，要重定向出錯並想重新訂閱的用戶，可以將確認子頁的連結添加到訂閱首頁。 瞭解如何在 [此部分](../design/message-tracking.md#insert-links)。
+   >您可以從相同登錄頁面的任何子頁面插入主要頁面的連結。 例如，若要將發生錯誤且想要重新訂閱的使用者重新導向，您可以從確認子頁面新增連結至訂閱主要頁面。 了解如何在 [本節](../design/message-tracking.md#insert-links).
 
-1. 定義登錄頁URL。 URL的第一部分要求您先前設定登錄頁子域。 [了解更多](../configuration/lp-subdomains.md)
+1. 定義您的登錄頁面URL。 URL的第一部分需要您先前設定登錄頁面子網域。 [了解更多](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >
-   >登錄頁URL必須唯一。
+   >登錄頁面URL必須是唯一的。
 
 ![](assets/lp_subpage-settings.png)
 
-## Test登錄頁 {#test-landing-page}
+## 測試登錄頁面 {#test-landing-page}
 
-定義登錄頁設定和內容後，可以使用test配置式預覽它。 如果插入 [個性化內容](../personalization/personalize.md)，您將能夠利用test配置檔案資料檢查登錄頁中此內容的顯示方式。
+定義登錄頁面設定和內容後，您就可以使用測試設定檔來預覽。 如果您已插入 [個人化內容](../personalization/personalize.md)，您將可以運用測試設定檔資料，檢查此內容在登錄頁面中的顯示方式。
 
 >[!CAUTION]
 >
->您必須具有test配置檔案才能預覽郵件和發送校樣。 瞭解如何 [建立test配置檔案](../segment/creating-test-profiles.md)。
+>您必須有可用的測試設定檔，才能預覽訊息並傳送校樣。 了解如何 [建立測試設定檔](../segment/creating-test-profiles.md).
 
-1. 在登錄頁介面中，按一下 **[!UICONTROL Preview & test]** 按鈕，來查看test配置檔案選擇。
+1. 在登錄頁面介面中，按一下 **[!UICONTROL 預覽和測試]** 按鈕來存取測試設定檔選取項目。
 
    ![](assets/lp_preview-button.png)
 
    >[!NOTE]
    >
-   >的 **[!UICONTROL Preview]** 按鈕也可以從內容設計器訪問。
+   >此 **[!UICONTROL 預覽]** 按鈕也可從內容設計器存取。
 
-1. 從 **[!UICONTROL Preview & test]** 螢幕中，選擇一個或多個test配置檔案。
+1. 從 **[!UICONTROL 預覽和測試]** 螢幕上，選取一或多個測試設定檔。
 
    ![](assets/lp_test-profiles.png)
 
-   選擇test配置檔案的步驟與測試消息時的步驟相同。 詳細資訊 [此部分](../design/preview.md#select-test-profiles)。
+   選取測試設定檔的步驟與測試訊息時的步驟相同。 詳細資訊於 [本節](../design/preview.md#select-test-profiles).
 
-1. 選擇 **[!UICONTROL Preview]** 頁籤 **[!UICONTROL Open preview]** test登錄頁。
+1. 選取 **[!UICONTROL 預覽]** 按一下 **[!UICONTROL 開啟預覽]** 來測試您的登錄頁面。
 
    ![](assets/lp_open-preview.png)
 
-1. 登錄頁的預覽將在新頁籤中開啟。 個性化元素被所選test配置檔案資料替換。
+1. 登錄頁面的預覽會在新索引標籤中開啟。 個人化元素會由選取的測試設定檔資料取代。
 
    ![](assets/lp_preview.png)
 
-1. 選擇其他test配置檔案以預覽登錄頁的每個變體的呈現。
+1. 選取其他測試設定檔，以預覽登錄頁面每個變體的呈現。
 
 ## 檢查警報 {#check-alerts}
 
-在建立登錄頁時，在發佈前必須執行重要操作時，會發出警告。
+建立登錄頁面時，當您必須在發佈前採取重要動作時，系統會發出警告。
 
-警報顯示在螢幕的右上方，如下所示：
+警報會顯示在畫面右上方，如下所示：
 
 ![](assets/lp_alerts.png)
 
@@ -189,11 +228,11 @@ ht-degree: 1%
 >
 >如果未看到此按鈕，則未檢測到任何警報。
 
-可以發生兩種類型的警報：
+可能會發生兩種警報：
 
-* **警告** 請參閱建議和最佳做法。 <!--For example, a message will display if -->
+* **警告** 請參閱建議和最佳實務。 <!--For example, a message will display if -->
 
-* **錯誤** 只要未解決登錄頁，就阻止您發佈登錄頁。 例如，如果首頁URL丟失，則會收到警告。
+* **錯誤** 只要登錄頁面未解析，就無法加以發佈。 例如，如果主要頁面URL遺失，則會收到警告。
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 
@@ -216,21 +255,21 @@ ht-degree: 1%
 > To be able to publish your message, you must resolve all **error** alerts.
 -->
 
-## 發佈登錄頁 {#publish-landing-page}
+## 發佈登錄頁面 {#publish-landing-page}
 
-登錄頁準備好後，您可以發佈它，使其在消息中可用。
+登錄頁面準備就緒後，您就可以發佈它，以便在訊息中使用。
 
 ![](assets/lp_publish.png)
 
 >[!CAUTION]
 >
->在發佈之前，請檢查並解決警報。 [了解更多](#check-alerts)
+>發佈前，請檢查並解決警報。 [了解更多](#check-alerts)
 
-登錄頁發佈後，它將添加到登錄頁清單中 **[!UICONTROL Published]** 狀態。
+登錄頁面發佈後，就會以 **[!UICONTROL 已發佈]** 狀態。
 
-它現在可以在 [!DNL Journey Optimizer] [消息](../messages/get-started-content.md) 將通過 [旅程](../building-journeys/journey.md)。
+它現在已上線，且已準備好用於 [!DNL Journey Optimizer] [訊息](../messages/get-started-content.md) 會透過 [歷程](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->您可以通過特定報告監控登錄頁的影響。 [了解更多](../reports/lp-report-live.md)
+>您可以透過特定報告來監控登錄頁面的影響。 [了解更多](../reports/lp-report-live.md)
 

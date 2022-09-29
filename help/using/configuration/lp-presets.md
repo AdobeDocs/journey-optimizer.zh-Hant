@@ -4,9 +4,9 @@ description: 了解如何設定您的環境，以使用Journey Optimizer建立�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
+source-git-commit: 8bc6b3a5b8836b547e9c697f9420532fdea4acbc
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '342'
 ht-degree: 5%
 
 ---
@@ -70,9 +70,9 @@ ht-degree: 5%
 
    例如，如果登錄頁面URL為「pages.mail.luma.com」，而追蹤URL為「data.mail.luma.com」，您可以選擇「pages.mail.luma.com」作為追蹤子網域。
 
-1. 按一下 **[!UICONTROL 提交]** 以確認建立登錄頁面預設集。 您也可以將預設集儲存為草稿，稍後繼續其設定。
+1. 按一下 **[!UICONTROL 提交]** 以確認建立登錄頁面預設集。 <!--You can also save the preset as draft and resume its configuration later on.-->
 
-   ![](assets/lp_preset-subdomain-settings-submit.png)
+   <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 
 1. 建立登錄頁面預設集後，該預設集會顯示在清單中，且包含 **[!UICONTROL 作用中]** 狀態。 已準備好用於您的登錄頁面。
 

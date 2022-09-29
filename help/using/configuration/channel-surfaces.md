@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
+source-git-commit: bb90f582b9767b1aaeb5d86b0e68f500871fab3a
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1571'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 > * 您必須執行 [電子郵件設定](#configure-email-settings), [推送設定](../configuration/push-configuration.md) 和 [SMS設定](../configuration/sms-configuration.md) 建立通道曲面之前的步驟。
 
 
-設定管道表面後，您就能在從歷程建立訊息時選取它們。
+設定管道表面後，您就能在從歷程或行銷活動建立訊息時選取管道表面。
 
 <!--
 ➡️ [Learn how to create and use email surfaces in this video](#video-presets)
@@ -35,14 +35,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="通道表面設定"
->abstract="設定通道表面時，請選取其套用的通道，並定義訊息所需的所有技術參數，例如電子郵件類型、子網域、寄件者名稱、行動應用程式、SMS設定等。"
+>abstract="設定通道表面時，請選取其套用的通道，並定義傳送所需的所有技術參數，例如電子郵件類型、寄件者名稱、行動應用程式、SMS設定等。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="通道表面設定"
->abstract="設定通道表面時，請選取其套用的通道，並定義訊息所需的所有技術參數，例如電子郵件類型、寄件者名稱、行動應用程式、SMS設定等。"
-
-<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.-->
+>abstract="若要建立動作，例如來自歷程或行銷活動的電子郵件，您必須先建立管道表面，定義訊息所需的所有技術設定。 必須具有「管理管道曲面」權限，才能建立、編輯和刪除管道曲面。"
 
 要建立通道曲面，請執行以下步驟：
 
@@ -90,7 +88,10 @@ ht-degree: 1%
 
 1. 建立通道曲面後，該曲面將顯示在清單中，其中 **[!UICONTROL 處理]** 狀態。
 
-   在此步驟中，將執行數項檢查，以確認其已正確設定。 處理時間已到 **48h-72h**，並可以 **7-10個工作天**.
+   在此步驟中，將執行數項檢查，以確認其已正確設定。 <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
+
+   >[!NOTE]
+   >為指定子網域建立第一通道曲面時，處理時間可能需要 **10分鐘到10天**. 如果選定的子域已在另一個曲面中使用，則最多只需3小時。
 
    這些檢查包括由Adobe團隊執行的設定和技術測試：
 
@@ -101,6 +102,7 @@ ht-degree: 1%
    * 主機檢查
    * IP池驗證
    * A/PTR記錄、t/m/res子域驗證
+   * FBL註冊（此檢查僅在首次為指定子網域建立電子郵件表面時執行）
 
    >[!NOTE]
    >

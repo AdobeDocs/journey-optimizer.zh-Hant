@@ -5,12 +5,10 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
-source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
+source-git-commit: 61293a2ad45d30d24e1b38d8a5df81534dc19b40
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 4%
+source-wordcount: '438'
+ht-degree: 3%
 
 ---
 
@@ -20,6 +18,10 @@ ht-degree: 4%
 >id="ajo_olac_manage_access"
 >title="對象級訪問控制"
 >abstract="如果您套用您無權存取的任何標籤，則您對此物件的存取權將遭撤銷。"
+
+>[!IMPORTANT]
+>
+>對象級訪問控制的使用目前僅限於選定客戶，將在將來的版本中部署到所有環境。
 
 對象級訪問控制(OLAC)允許您定義授權，以管理對選定對象的資料訪問：
 
@@ -86,6 +88,7 @@ ht-degree: 4%
 1. 按一下 **[!UICONTROL 儲存]** 來應用此標籤限制。
 
 若要存取此物件，使用者必須具備 **[!UICONTROL 標籤]** 包含在 **[!UICONTROL 角色]**.
+例如，具有C1標籤的用戶將只能訪問C1標籤或未標籤的對象。
 
 如需如何指派的詳細資訊 **[!UICONTROL 標籤]** 到 **[!UICONTROL 角色]**，請參閱 [本頁](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role).
 

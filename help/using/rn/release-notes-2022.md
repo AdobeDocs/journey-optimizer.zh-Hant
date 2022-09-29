@@ -2,16 +2,84 @@
 title: 2022 年發行說明
 description: Journey Optimizer 2022 年發行說明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
+workflow-type: tm+mt
+source-wordcount: '2519'
+ht-degree: 98%
 
 ---
 
 # 2022 年發行說明 {#release-notes-2022}
 
 此頁面列出了於 2022 年發行的所有 [!DNL Journey Optimizer] 功能和改善。
+
+## 2022 年 8 月發行版本 {#aug-2022-release}
+
+### 新功能
+
+<table>
+<thead>
+<tr>
+<th><strong>在 Journey Optimizer 中建立和管理行銷活動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>使用 Journey Optimizer 行銷活動，透過各種管道將一次性內容傳遞至特定區段。 使用歷程時，會設計為依照序列執行動作。 透過行銷活動，可同時執行動作 (立即執行或根據指定的排程執行)。 </p>
+<img src="assets/do-not-localize/campaigns.gif"/>
+<p>在 <a href="../campaigns/get-started-with-campaigns.md">詳細文件</a> 及 <a href="https://video.tv.adobe.com/v/346680">功能影片</a> 中了解如何建立行銷活動。
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>傳送簡訊給使用者 (可用性限制)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以透過與 <b>Sinch</b> 或 <b>Twilio</b> 的整合在 Journey Optimizer 裡建立、個人化和傳送簡訊。</p>
+<img src="assets/do-not-localize/SMS.gif"/>
+<p>在<a href="../messages/create-sms.md">詳細文件</a>中了解如何建立和傳送簡訊。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>New Dynamic Expression Builder</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
+<p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+### 改進項目
+
+**報告**
+
+* 同意原則表格和圖表現在可在歷程全域報告中使用。 這些介面工具集可讓您從自訂動作中的原則追蹤排除的設定檔。 [了解更多](../reports/journey-global-report.md#journey-global)
+
+   若要存取最新的介面工具集，請注意您必須重設不同的報告儀表板。 如需儀表板自訂的詳細資訊，請參閱[詳細文件](../reports/global-report.md)。
+
+**管理**
+
+* 現在可以更新主要電話號碼以用於簡訊頻道。 [了解更多](../configuration/primary-email-addresses.md)
 
 
 ## 2022 年 7 月發行版本 {#july-2022-release}
@@ -79,7 +147,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>現在，您可以在決策管理中使用個人化最佳化模型系統。 這種新種類模型允許您根據區段及優惠方案市場對優惠進行最佳化及個人化。</p>
+<p>您現在可以在決策管理中使用個人化最佳化模型系統。 這種新種類模型允許您根據區段及優惠方案市場對優惠進行最佳化及個人化。</p>
 <p>個人化最佳化 AI 模型的使用目前僅限於選定使用者，將在未來的版本中同步到所有環境。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細文件</a>。</p>
@@ -111,7 +179,7 @@ ht-degree: 100%
 
 * **URL 追蹤參數** - 現在，您可以使用運算式編輯器在電子郵件介面中設定 URL 追蹤參數 (即預設集)。 [了解更多](../configuration/email-settings.md#url-tracking)
 
-**決策管理**
+**決定管理**
 
 * **對象規模** - 當建立決定規則、選擇區段或規則以設定優惠方案適用性或將區段或規則新增到決定範圍時，新的對象規模預估元件現在顯示在使用者介面中。
 
@@ -167,7 +235,7 @@ ht-degree: 100%
 <td>
 <p>您現在可以使用密件副本電子郵件（密件副本）功能來儲存 Adobe Journey Optimizer 傳送的電子郵件。 在電子郵件預設集中啟用此選項，以便將每封傳送的電子郵件以密件副本方式寄至密件副本地址。</p>
 <!--img src="assets/do-not-localize/bcc-rn.gif"/-->
-<p>如需詳細資訊，請參閱<a href="../configuration/bcc-email.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/archiving-support.md#bcc-email">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -212,7 +280,7 @@ ht-degree: 100%
 
 ### 改進項目
 
-**決策管理**
+**決定管理**
 
 * **HTML 和 JSON 檔案支援** — 您現在可以將外部 HTML 和 JSON 檔案從 Adobe Experience Cloud 資產庫拖放到優惠方案聲明內容中。 [了解更多](../offers/offer-library/add-representations.md#html-json)
 
@@ -438,7 +506,7 @@ ht-degree: 100%
 <p>Journey Optimizer provide RESTful APIs that allow you to programmatically perform key operations in your applications.
 Developer SDK for Journey Optimizer is now available with the Suppression API (beta).</p>
 <p>With this API, you can control your outgoing messages using suppression and allow lists.
-The suppression list helps you with honoring the ISPs’ feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
+The suppression list helps you with honoring the ISPs' feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
 <p>See <a href="https://developer.adobe.com/journey-optimizer-apis/">Adobe Journey Optimizer APIs</a>.</p>
 </td>
 </tr>
@@ -478,7 +546,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 <!--* decision management reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 
-**決策管理**
+**決定管理**
 
 * 排名和 AI 排名現在分類在單一標籤。
 
@@ -524,7 +592,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * Journey Optimizer 步驟事件現在可以連結到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 中的其他資料集。  內建「歷程步驟事件」方案中的 **profileID** 欄位現在定義為身分欄位。 [了解更多](../reports/sharing-overview.md#integration-cja)
 
-**決策管理**
+**決定管理**
 
 * 對於在已發佈訊息中直接或間接引用的優惠方案、遞補優惠、優惠收藏或優惠決定，現在將在對應訊息中自動反映您的更新，無需重新發佈。 [了解更多](../offers/offers-e2e.md#insert-decision-in-email)
 
@@ -536,4 +604,4 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **個人化**
 
-* **加入收藏夾** — 為了協助在使用個人化功能時提高效率，我們引進了儲存收藏夾的概念。 將不同屬性加入收藏夾功能表可快速存取您使用頻率最高的項目。 [了解更多](../personalization/personalize.md#fav)
+* **添加到收藏夾**  — 為了在使用個人化時協助提高效率，我們導入了儲存我的最愛的概念。 將不同屬性加入收藏夾功能表可快速存取您使用頻率最高的項目。 [了解更多](../personalization/personalize.md#fav)

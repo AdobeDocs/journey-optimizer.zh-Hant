@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: toDateOnly
-description: 瞭解函式toDateOnly
+description: 了解函式toDateOnly
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 21%
+source-wordcount: '96'
+ht-degree: 9%
 
 ---
 
 # toDateOnly{#toDateOnly}
 
-將參數值轉換為僅日期值。
+將引數轉換為dateOnly類型值。 若要進一步了解資料類型，請參閱 [節](../expression/data-types.md).
 
 ## 類別
 
@@ -29,19 +29,33 @@ ht-degree: 21%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| ISO-8601或「YYYY-MM-DD」格式的日期（XDM日期格式） | 字串 |
-| 日期 | 日期 |
+| 日期的字串表示方式為「YYYY-MM-DD」（XDM格式）。 也支援ISO-8601格式：僅限 **完整日期** 部分(請參閱 [RFC 3339，第5.6節](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | 字串 |
+| 日期時間 | dateTime |
+| 無時區的日期時間 | dateTimeOnly |
+| 以毫秒為單位的整數值 | 整數 |
 
 ## 簽名和返回的類型
 
-`toDateOnly(<date>)`
+`toDateOnly(<dateTime>)`
+
+`toDateOnly(<dateTimeOnly>)`
 
 `toDateOnly(<string>)`
 
-返回不考慮時區的日期時間。
+`toDateOnly(<integer>, <integer>, <integer>)`
+
+傳回dateOnly類型值。
 
 ## 範例
 
 `toDateOnly("2016-08-18")`
 
-返回表示2016-08-18的dateOnly對象。
+`toDateOnly("2016-08-18T00:00:00.000Z")`
+
+`toDateOnly("2016-08-18T00:00:00")`
+
+所有報表都會傳回代表2016-08-18的dateOnly物件。
+
+`toDateOnly(#{ExperiencePlatform.ProfileFieldGroup.person.birthDate})`
+
+傳回dateOnly。

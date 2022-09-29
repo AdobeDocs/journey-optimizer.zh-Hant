@@ -6,24 +6,108 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: c8e03687d82c6dcfea1195cf8ef091e3d9bc80a5
+source-git-commit: e75f26d7112627d63977cafa8a7fbf602c5a3eb1
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1339'
 ht-degree: 2%
 
 ---
 
 # 查詢範例{#query-examples}
 
-本節列出了查詢Data Lake中的Journey Step Events的幾個常用示例。
+本節列出數個在Data Lake中查詢歷程步驟事件的常用範例。
 
-確保查詢中使用的欄位在相應架構中具有關聯值。
+請確定查詢中使用的欄位在對應的結構中具有關聯值。
+
+**id、instanceid和profileid之間有何差異**
+
+* id:所有步驟事件項的唯一值。 兩個不同的步驟事件不能有相同的id。
+* instanceId:對於歷程執行中與設定檔相關聯的所有步驟事件，instanceID都相同。 如果設定檔重新進入歷程，則會使用不同的instanceId。 這個新instanceId對於重新輸入的例項的所有步驟事件（從開始到結束）都相同。
+* profileID:設定檔的身分會與歷程命名空間相對應。
+
+## 基本使用案例/常見查詢 {#common-queries}
+
+**在特定時間範圍內進入歷程的設定檔數**
+
+此查詢會提供在指定時間範圍內輸入指定歷程的不同設定檔數目。
+
+_資料湖查詢_
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>'
+AND _experience.journeyOrchestration.stepEvents.nodeType='start'
+AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
+
+**特定歷程中每個節點在特定時間內發生多少錯誤**
+
+_資料湖查詢_
+
+```sql
+SELECT
+_experience.journeyOrchestration.stepEvents.nodeName,
+count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersiionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (_experience.journeyOrchestration.stepEvents.actionExecutionError not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchError not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode  not NULL
+  )
+GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
+```
+
+**在特定時間範圍內，從特定歷程中捨棄了多少事件**
+
+_資料湖查詢_
+
+```sql
+SELECT
+count(_id) AS NUMBER_OF_EVENTS_DISCARDED
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersiionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
+
+**在特定時間範圍內，特定歷程中的特定設定檔會發生什麼事**
+
+_資料湖查詢_
+
+此查詢會依時間順序，傳回指定設定檔和歷程的所有步驟事件和服務事件。
+
+```sql
+SELECT
+timestamp,
+_experience.journeyOrchestration.stepEvents.journeyVersionID,
+_experience.journeyOrchestration.stepEvents.profileID,
+_experience.journeyOrchestration.stepEvents.nodeName,
+_experience.journeyOrchestration.stepEvents.journeyNodeProcessed,
+_experience.journeyOrchestration.serviceType,
+to_json(_experience.journeyOrchestration.profile),
+to_json(_experience.journeyOrchestration.serviceEvents)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (
+    _experience.journeyOrchestration.stepEvents.profileID='<profileID>'
+    OR _experience.journeyOrchestration.profile.ID='<profileID>'
+  );
+ORDER BY timestamp;
+```
+
 
 ## 消息/操作錯誤 {#message-action-errors}
 
-**行程中遇到的每個錯誤清單**
+**歷程中遇到的每個錯誤清單**
 
-通過此查詢，可以列出執行消息/操作時在行程中遇到的每個錯誤。
+此查詢可讓您列出執行訊息/動作時在歷程中遇到的每個錯誤。
 
 _資料湖查詢_
 
@@ -45,11 +129,11 @@ AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143
 GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 ```
 
-此查詢返回在執行行程中的操作時發生的所有不同錯誤以及發生的次數。
+此查詢會傳回在歷程中執行動作時發生的所有不同錯誤，以及發生次數的計數。
 
-## 基於配置檔案的查詢 {#profile-based-queries}
+## 設定檔查詢 {#profile-based-queries}
 
-**查找配置檔案是否輸入了特定行程**
+**尋找設定檔是否進入特定歷程**
 
 _資料湖查詢_
 
@@ -69,11 +153,11 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-結果應大於0。 此查詢返回配置檔案輸入行程的確切次數。
+結果應大於0。 此查詢會傳回設定檔已進入歷程的確切次數。
 
-**查找配置檔案是否已發送特定消息**
+**尋找設定檔是否已傳送特定訊息**
 
-方法1:如果郵件名稱在行程中不唯一（它在多個位置使用）。
+方法1:如果訊息名稱在歷程中並非唯一（會在多個位置使用）。
 
 _資料湖查詢_
 
@@ -95,9 +179,9 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-結果應大於0。 此查詢僅告訴我們消息操作是否在行程端成功執行。
+結果應大於0。 此查詢只會告訴我們訊息動作是否已在歷程端成功執行。
 
-方法2:消息的名稱在旅途中唯一。
+方法2:如果訊息的名稱在歷程中是唯一的。
 
 _資料湖查詢_
 
@@ -119,7 +203,7 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-查詢返回所有消息的清單以及為所選配置檔案調用的消息計數。
+查詢會傳回所有訊息的清單，以及為所選設定檔叫用的訊息計數。
 
 **查找配置檔案在過去30天內收到的所有郵件**
 
@@ -145,9 +229,9 @@ timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 ```
 
-查詢返回所有消息的清單以及為所選配置檔案調用的消息計數。
+查詢會傳回所有訊息的清單，以及為所選設定檔叫用的訊息計數。
 
-**查找配置檔案在過去30天內輸入的所有行程**
+**尋找設定檔在過去30天內輸入的所有歷程**
 
 _資料湖查詢_
 
@@ -169,9 +253,9 @@ timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 ```
 
-查詢返回所有行程名稱的清單以及查詢的配置檔案輸入行程的次數。
+查詢會傳回所有歷程名稱的清單，以及查詢的設定檔進入歷程的次數。
 
-**每日符合行程條件的配置檔案數**
+**每日符合歷程資格的設定檔數**
 
 _資料湖查詢_
 
@@ -193,11 +277,11 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-查詢將在定義的期間中列出每天輸入行程的配置檔案數。 如果通過多個身份輸入的配置檔案，則將對其計數兩次。 如果啟用重新入門，則如果在不同日期重新進入行程，則可能會在不同日期複製配置檔案計數。
+查詢會在定義的期間內，停止每天輸入歷程的設定檔數。 如果透過多個身分輸入的設定檔，則會計算兩次。 如果已啟用重新入口，如果設定檔計數在不同日重新進入歷程，則可能會在不同日期重複計算。
 
 ## 與讀取段相關的查詢 {#read-segment-queries}
 
-**完成段導出作業所花費的時間**
+**完成區段匯出作業所花的時間**
 
 _資料湖查詢_
 
@@ -227,9 +311,9 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
-查詢返回段導出作業排隊時間與最終結束時間之間的時間差（以分鐘為單位）。
+查詢會傳回區段匯出作業排入佇列的時間與結束時間之間的時間差異（以分鐘為單位）。
 
-**因為配置檔案是重複項而被行程丟棄的配置檔案數**
+**由於是重複項目，而被歷程捨棄的設定檔數**
 
 _資料湖查詢_
 
@@ -249,9 +333,9 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_DUPLICATION'
 ```
 
-該查詢將返回因為ID是重複項而被行程丟棄的所有配置檔案ID。
+查詢會傳回歷程捨棄的所有設定檔ID，因為這些ID是重複的。
 
-**由於命名空間無效而被行程丟棄的配置檔案數**
+**由於命名空間無效而由歷程捨棄的設定檔數**
 
 _資料湖查詢_
 
@@ -271,9 +355,9 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_BAD_NAMESPACE'
 ```
 
-該查詢返回由此行程丟棄的所有配置檔案ID，因為它們具有無效的命名空間或沒有該命名空間的標識。
+查詢會傳回歷程捨棄的所有設定檔ID，因為它們的命名空間無效，或該命名空間沒有身分識別。
 
-**由於沒有身份映射而被行程丟棄的配置檔案數**
+**因無身分對應而被歷程捨棄的設定檔數**
 
 _資料湖查詢_
 
@@ -293,9 +377,9 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NO_IDENTITY_MAP'
 ```
 
-查詢返回因缺少標識映射而被行程丟棄的所有配置檔案Id。
+查詢會傳回歷程捨棄的所有設定檔ID，因為遺失身分對應。
 
-**由於行程位於test節點且配置檔案不是test配置檔案而被行程丟棄的配置檔案數**
+**由於歷程位於測試節點中，且設定檔不是測試設定檔，因此歷程捨棄的設定檔數**
 
 _資料湖查詢_
 
@@ -315,9 +399,9 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
 ```
 
-查詢返回由於導出作業在test模式下運行而被行程丟棄的所有配置檔案ID，但配置檔案沒有將testProfile屬性設定為true。
+查詢會傳回歷程捨棄的所有設定檔Id，因為匯出工作是在測試模式中執行，但設定檔未將testProfile屬性設為true。
 
-**由於內部錯誤而被行程丟棄的配置檔案數**
+**因內部錯誤而由歷程捨棄的設定檔數**
 
 _資料湖查詢_
 
@@ -337,9 +421,9 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_INTERNAL'
 ```
 
-該查詢返回因內部錯誤而被行程丟棄的所有配置檔案ID。
+查詢會傳回歷程因部分內部錯誤而捨棄的所有設定檔ID。
 
-**給定行程版本的讀段概覽**
+**指定歷程版本的讀取區段概觀**
 
 _資料湖查詢_
 
@@ -359,25 +443,25 @@ WHERE
     _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventType = 'segmenttrigger-orchestrator'
 ```
 
-它將返回與給定行程版本相關的所有服務事件。 我們可以遵循運營鏈：
+它會傳回與指定歷程版本相關的所有服務事件。 我們可以按照運營鏈：
 
 * 主題建立
 * 導出作業建立
-* 導出任務終止（使用導出配置檔案的度量）
-* 工作進程終止
+* 匯出作業終止（含匯出設定檔的量度）
+* 工作人員處理終止
 
-我們還可以發現以下問題：
+我們也可以偵測下列問題：
 
-* 主題或導出作業建立中的錯誤（包括段導出API調用的超時）
-* 導出可能卡住的作業（對於給定的行程版本，我們沒有任何與導出作業終止相關的事件）
-* 工作人員問題，如果我們收到導出作業終止事件但沒有工作人員處理終止事件
+* 主題或匯出工作建立中發生錯誤（包括區段匯出API呼叫的逾時）
+* 匯出可能卡住的工作（若為指定的歷程版本，我們沒有任何與匯出工作終止相關的事件）
+* 工作人員問題，如果我們收到導出任務終止事件但沒有工作人員處理終止事件
 
-重要提示：如果此查詢未返回任何事件，則可能是由於以下原因之一：
+重要：如果此查詢未傳回任何事件，則可能是因為下列其中一個原因：
 
-* 行程版本未達到計畫
-* 如果旅程版本應通過調用orchestrator觸發導出作業，則上行流出現問題：旅程部署問題、業務事件或計畫程式問題。
+* 歷程版本未達到排程
+* 如果journey version本應通過呼叫orchestrator觸發導出作業，則上傳流程中出現問題：歷程部署、業務事件或排程器問題。
 
-**獲取給定行程版本的讀段錯誤**
+**取得指定歷程版本的讀取區段錯誤**
 
 _資料湖查詢_
 
@@ -427,9 +511,9 @@ WHERE
     )
 ```
 
-如果未返回任何記錄，則意味著以下任一操作：
+如果未傳回任何記錄，則表示：
 
-* 建立主題或導出作業期間出錯
+* 建立主題或導出作業時出錯
 * 導出作業仍在運行
 
 **獲取導出配置檔案的度量，包括每個導出作業的丟棄和導出作業度量**
@@ -492,7 +576,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**獲取所有導出作業的聚合度量（段導出作業和丟棄）**
+**在所有匯出作業上取得匯總量度（區段匯出作業和捨棄）**
 
 _資料湖查詢_
 
@@ -551,13 +635,13 @@ FROM
 WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 ```
 
-此查詢與上一個查詢不同。
+此查詢與前一個查詢不同。
 
-它返回給定行程版本的總體度量，而不管可為其運行的作業（在循環行程的情況下，利用主題重用觸發的業務事件）。
+它會傳回指定歷程版本的整體量度，無論可為其執行的工作為何（若為循環歷程，會利用主題重複使用而觸發業務事件）。
 
-## 與段資格相關的查詢 {#segment-qualification-queries}
+## 與區段資格相關的查詢 {#segment-qualification-queries}
 
-**由於實現的段與配置的段不同，配置檔案被丟棄**
+**由於區段實現與設定的不同，會捨棄設定檔**
 
 _資料湖查詢_
 
@@ -579,9 +663,9 @@ _experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
-此查詢返回由於段實現錯誤而被行程版本丟棄的所有配置檔案ID。
+此查詢會傳回歷程版本因區段實現錯誤而捨棄的所有設定檔Id。
 
-**段特定配置檔案的任何其他原因放棄的限定事件**
+**因特定設定檔的任何其他原因而捨棄的區段資格事件**
 
 _資料湖查詢_
 
@@ -605,11 +689,11 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-此查詢返回因配置檔案的任何其他原因而被放棄的所有事件（外部事件/段限定事件）。
+此查詢會傳回因設定檔的任何其他原因而遭捨棄的所有事件（外部事件/區段資格事件）。
 
-## 基於事件的查詢 {#event-based-queries}
+## 事件型查詢 {#event-based-queries}
 
-**檢查是否收到出差的業務事件**
+**檢查是否收到歷程的業務事件**
 
 _資料湖查詢_
 
@@ -635,7 +719,7 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
-**檢查配置檔案的外部事件是否因未找到相關行程而被丟棄**
+**檢查設定檔的外部事件是否因找不到相關歷程而遭到捨棄**
 
 _資料湖查詢_
 
@@ -659,7 +743,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-**檢查配置檔案的外部事件是否因任何其他原因而被放棄**
+**檢查設定檔的外部事件是否因任何其他原因而遭到捨棄**
 
 _資料湖查詢_
 
@@ -685,7 +769,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-**檢查stateMachine by errorCode丟棄的所有事件的計數**
+**檢查stateMachine by errorCode捨棄的所有事件計數**
 
 _資料湖查詢_
 
@@ -703,7 +787,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-**檢查所有已放棄的事件，因為不允許重新進入**
+**檢查所有已捨棄的事件，因為不允許重新入**
 
 _資料湖查詢_
 
@@ -727,9 +811,9 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
-## 基於行程的常見查詢 {#journey-based-queries}
+## 常見歷程型查詢 {#journey-based-queries}
 
-**每日活動行程數**
+**每日作用中歷程次數**
 
 _資料湖查詢_
 
@@ -749,11 +833,11 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-對於定義的期間，查詢返回每天觸發的唯一行程的計數。 單次多日行程觸發將每天計算一次。
+查詢會在定義的期間內，傳回每天觸發的不重複歷程計數。 在多天觸發的單一歷程每天會計為一次。
 
-## 旅程實例查詢 {#journey-instances-queries}
+## 歷程例項的查詢 {#journey-instances-queries}
 
-**在特定時間內處於特定狀態的配置檔案數**
+**特定時間中處於特定狀態的設定檔數**
 
 _資料湖查詢_
 
@@ -901,7 +985,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-**在特定時間段內離開行程的配置檔案數**
+**在特定時段內有多少個設定檔退出歷程**
 
 _資料湖查詢_
 
@@ -939,7 +1023,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-**在具有節點/狀態的特定時間段內退出行程的配置檔案數**
+**在具有節點/狀態的特定時段內，有多少個設定檔已退出歷程**
 
 _資料湖查詢_
 

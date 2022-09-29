@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
+source-git-commit: d6ff34a36abcf2b2233079aeddb5a5f0919f2590
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 97%
+source-wordcount: '1153'
+ht-degree: 96%
 
 ---
 
@@ -21,9 +21,6 @@ ht-degree: 97%
       + [2022 年發行說明](using/rn/release-notes-2022.md)
       + [2021 年發行說明](using/rn/release-notes-2021.md)
    + [文件更新](using/rn/documentation-updates.md)
-   + 全新內嵌編寫功能{#inline-authoring}
-      + [移轉概述](using/rn/inline-messages.md)
-      + [移轉步驟](using/rn/inline-messages-steps.md)
 + 快速入門{#get-started}
    + [什麼是 Journey Optimizer](using/start/get-started.md)
    + 快速入門{#quick-start}
@@ -37,6 +34,7 @@ ht-degree: 97%
 + 行銷活動{#campaigns}
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
    + [建立行銷活動](using/campaigns/create-campaign.md)
+   + [檢閱及啟動行銷活動](using/campaigns/review-activate-campaign.md)
    + [管理即時行銷活動](using/campaigns/modify-stop-campaign.md)
    + 內容實驗 {#content-experiment}
       + [開始使用內容實驗](using/campaigns/get-started-experiment.md)
@@ -271,6 +269,7 @@ ht-degree: 97%
    + 傳遞能力 {#deliverability}
       + [開始使用傳遞能力](using/reports/deliverability.md)
       + [瞭解隱藏清單](using/reports/suppression-list.md)
+   + [警報](using/reports/alerts.md)
 + 決定管理 {#offer-decisioning}
    + 開始使用決定管理 {#get-started-decision}
       + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
@@ -395,7 +394,7 @@ ht-degree: 97%
       + 設定頻道介面{#set-up-channels}
          + [建立頻道介面](using/configuration/channel-surfaces.md)
          + [設定電子郵件設定](using/configuration/email-settings.md)
-         + [使用密件副本電子郵件](using/configuration/bcc-email.md)
+      + [支援封存](using/configuration/archiving-support.md)
       + [管理執行地址](using/configuration/primary-email-addresses.md)
       + [設定頻率規則](using/configuration/frequency-rules.md)
    + 設定登陸頁面 {#lp-configuration}
@@ -422,7 +421,6 @@ ht-degree: 97%
          + [設定動作](using/action/about-custom-action-configuration.md)
          + [與 Adobe Campaign Standard 整合](using/action/acs-action.md)
          + [與 Adobe Campaign v7/v8 整合](using/action/acc-action.md)
-         + [同意](using/action/consent.md)
    + [來源](using/start/get-started-sources.md)
 + 存取控制 {#access-control}
    + [存取控制概覽](using/administration/permissions-overview.md)
@@ -435,4 +433,6 @@ ht-degree: 97%
 + 隱私權 {#privacy}
    + [資料使用原則](using/privacy/policies.md)
    + [隱私權請求](using/privacy/requests.md)
-   + [對 Journey Optimizer 資源的稽核動作](using/privacy/audit-logs.md)
+   + [對資源執行審計操作](using/privacy/audit-logs.md)
+   + [同意](using/action/consent.md)
+   + [資料治理](using/action/action-privacy.md)

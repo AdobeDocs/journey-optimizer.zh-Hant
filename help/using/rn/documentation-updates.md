@@ -2,16 +2,29 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: a5bbcfb84cb1be5770d91cc844e42e808dbe2957
+workflow-type: tm+mt
+source-wordcount: '2002'
+ht-degree: 94%
 
 ---
 
 # 文件更新 {#latest-updates}
 
 本頁面列出 [!DNL Journey Optimizer] 所有文件更新。
+
+## 2022 年 9 月 {#september-2022}
+
+* 隨附的所有新功能和改善項目 [!DNL Journey Optimizer] 』22年9月的發行詳情請參閱本檔案。 [閱讀全文](release-notes.md)
+* 新增在循環讀取區段歷程中使用等待活動的相關最佳實務。 [閱讀全文](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 新增新的步驟事件查詢範例，以及id、instanceid和profileid之間差異的資訊。 [閱讀全文](../reports/query-examples.md)。
+* 更新與 [toDateOnly](../building-journeys/functions/functiontodateonly.md) 和 [toString](../building-journeys/functions/functiontostring.md) 函式。
+* 已新增時間條件參數的詳細資訊。 [閱讀全文](../building-journeys/condition-activity.md#time_condition)
+* 已新增內建資料集的相關資訊。 [閱讀全文](../start/get-started-datasets.md#access-datasets)
+* 已重新整理「全域報表」和「即時報表」區段，以改善可讀性。 [閱讀全文](../reports/global-report.md)
+* 已新增Adobe Journey Optimizer中可用的每個報表量度的清單。
+   [閱讀全文](../reports/global-report.md#email-and-sms-metrics)
+* 「密件副本」電子郵件區段已移至新的「支援封存」頁面。 [閱讀全文](../configuration/archiving-support.md)
 
 ## 2022 年 8 月 {#august-2022}
 

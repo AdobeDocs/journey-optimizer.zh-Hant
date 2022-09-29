@@ -5,10 +5,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 2f89b3a2e067d269a6316ae26d280924a530fe51
-workflow-type: ht
-source-wordcount: '297'
-ht-degree: 100%
+source-git-commit: 0167ce16198acc485da687a4a05c13fae85d088d
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 97%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 100%
 
 | 資源 | 動作 |
 |-----------|------------------|
+| AJO行銷活動 | 建立/刪除/更新/啟動/停止 |
 | AJO 管道一般設定 | 建立/刪除/更新 |
 | AJO IP 池 | 建立/刪除/更新 |
 | AJO 登陸頁面 | 建立/刪除/更新/發佈/取消發佈 |
@@ -41,7 +42,7 @@ ht-degree: 100%
 | AJO 登陸頁面預設集 | 建立/刪除/更新 |
 | AJO 登陸頁面子網域 | 建立/刪除/更新 |
 | AJO 訊息 | 建立/刪除/更新/發佈 |
-| AJO 頻道介面 | 建立/刪除/更新 |
+| AJO 訊息預設集 | 建立/刪除/更新 |
 | AJO PTR 記錄 | 建立/刪除/更新 |
 | AJO 儲存的運算式範本 | 建立/刪除/更新 |
 | AJO SMS API 認證 | 建立/刪除/更新 |
