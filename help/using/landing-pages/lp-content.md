@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 75f29dacf54d29172039ac0a098ecafe467ad35d
+source-git-commit: ad04aeddac78a6910258d924148fceca8fd7b6d9
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1018'
 ht-degree: 3%
 
 ---
@@ -166,41 +166,42 @@ ht-degree: 3%
 >
 >如果用戶選擇了兩個複選框，則兩個文本都將顯示。
 
+<!--
+## Use landing page additional data {#use-additional-data}
 
-## 使用登錄頁面其他資料 {#use-additional-data}
-
-當 [設定主要頁面](create-lp.md#configure-primary-page)，您可以建立其他資料，以在提交登錄頁面時儲存資訊。
+When [configuring the primary page](create-lp.md#configure-primary-page), you can create additional data to enable storing information when the landing page is being submitted.
 
 >[!NOTE]
 >
->造訪頁面的使用者可能看不到此資料。
+>This data may not be visible to users who visit the page.
 
-若您已定義一或多個索引鍵，且其對應值在 [設定主要頁面](create-lp.md#configure-primary-page)，您可以在主要頁面和子頁面的內容中運用這些索引鍵，方法為 [運算式編輯器](../personalization/personalization-build-expressions.md).
+If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [Expression editor](../personalization/personalization-build-expressions.md).
 
-<!--When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
+///When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
 
-For example, if you define the company name as a key, you can quickly update it everywhere (on all the pages of a given landing page) by changing it only once in the [primary page settings](create-lp.md#configure-primary-page).-->
+For example, if you define the company name as a key, you can quickly update it everywhere (on all the pages of a given landing page) by changing it only once in the [primary page settings](create-lp.md#configure-primary-page).///
 
-若要在登錄頁面中運用這些金鑰，請遵循下列步驟：
+To leverage these keys in a landing page, follow the steps below:
 
-1. 設定主要頁面時，請在 **[!UICONTROL 其他資料]** 區段。 [了解更多](create-lp.md#configure-primary-page)
+1. When configuring the primary page, define a key and its corresponding value in the **[!UICONTROL Additional data]** section. [Learn more](create-lp.md#configure-primary-page)
 
-   ![](assets/lp_create-lp-additional-data.png)
+    ![](assets/lp_create-lp-additional-data.png)
 
-1. 使用設計器編輯首頁時，請將滑鼠的指針置於要插入鍵的位置並選擇 **[!UICONTROL 新增個人化]** 中。
+1. When editing your primary page with the designer, place the pointer of your mouse where you want to insert your key and select **[!UICONTROL Add personalization]** from the contextual toolbar.
 
-   ![](assets/lp_designer-context-add-perso.png)
+    ![](assets/lp_designer-context-add-perso.png)
 
-1. 在 **[!UICONTROL 編輯個人化]** 窗口，選擇 **[!UICONTROL 內容屬性]** > **[!UICONTROL 登錄頁面]** > **[!UICONTROL 其他內容]**.
+1. In the **[!UICONTROL Edit Personalization]** window, select **[!UICONTROL Contextual attributes]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Additional Context]**.
 
-   ![](assets/lp_designer-contextual-attributes.png)
+    ![](assets/lp_designer-contextual-attributes.png)
 
-1. 系統會列出您在設定主要頁面時建立的所有索引鍵。 使用+圖示選取您選取的鍵值。
+1. All the keys that you created when configuring the primary page are listed. Select the key of your choice using the + icon.
 
-   ![](assets/lp_designer-context-select-key.png)
+    ![](assets/lp_designer-context-select-key.png)
 
-1. 儲存您的變更，並視需要重複上述步驟多次。
+1. Save your changes and repeat the steps above as many times as needed.
 
-   ![](assets/lp_designer-context-keys-inserted.png)
+    ![](assets/lp_designer-context-keys-inserted.png)
 
-   您可以看到，對應至金鑰的個人化項目現在會顯示在您插入項目的所有位置。
+    You can see that the personalization item corresponding to your key is now displayed everywhere you inserted it.
+-->
