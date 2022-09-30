@@ -2,9 +2,9 @@
 title: 利用 API 觸發行銷活動
 description: 了解如何使用 [!DNL Journey Optimizer] API
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 9fbfeef292e4b71396680573007e062b525b24c9
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '800'
 ht-degree: 1%
 
 ---
@@ -88,11 +88,15 @@ API觸發促銷活動的可用通道為電子郵件、簡訊及推送訊息。
 
 ## 行銷活動執行時建立設定檔 {#profile-creation}
 
-在某些情況下，您可能需要傳送交易式訊息至系統中不存在的設定檔。 例如，如果未知的使用者嘗試登入您的網站。
+在某些情況下，您可能需要傳送交易式訊息至系統中不存在的設定檔。 例如，如果未知的使用者嘗試重設您網站上的密碼。
 
 當資料庫中不存在設定檔時，Journey Optimizer可讓您在執行促銷活動時自動建立設定檔，以允許傳送訊息給此設定檔。
 
-若要這麼做，請切換 **[!UCONTROL 建立新設定檔]** 在 **[!UICONTROL 對象]** 區段。
+>[!IMPORTANT]
+>
+>此功能是為 **小量配置檔案建立** 在大量交易式傳送使用案例中，平台中已存在大量設定檔。
+
+若要在行銷活動執行時啟動設定檔建立，請切換 **[!UCONTROL 建立新設定檔]** 在 **[!UICONTROL 對象]** 區段。
 
 ![](assets/api-triggered-create-profile.png)
 

@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: bb1a9b35ce93f9b0ba635a89e781856f19b7d655
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 9%
@@ -115,7 +115,6 @@ ht-degree: 9%
 當訊息傳送延遲是業務關鍵型時，或您想在行動電話上傳送緊急推播警報（例如，向已安裝您的新聞頻道應用程式的使用者傳送重大新聞），則會使用快速傳送。
 
 如需使用快速傳送模式時效能的詳細資訊，請參閱 [Adobe Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html).
-
 
 ### 先決條件 {#prerequisites}
 

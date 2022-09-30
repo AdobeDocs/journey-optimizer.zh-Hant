@@ -4,7 +4,7 @@ description: 了解如何設定您的環境，以使用Journey Optimizer建立�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8bc6b3a5b8836b547e9c697f9420532fdea4acbc
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 5%
@@ -64,7 +64,7 @@ ht-degree: 5%
 
    隨即顯示與所選子網域對應的設定。
 
-1. 如果您想要選取登錄頁面子網域作為追蹤URL，請核取 **[!UICONTROL 與登錄頁面子網域相同]** 選項。 [進一步了解追蹤](../design/message-tracking.md)
+1. 如果您想要為追蹤URL選取登錄頁面子網域，請核取 **[!UICONTROL 與登錄頁面子網域相同]** 選項。 [進一步了解追蹤](../design/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
