@@ -1,47 +1,47 @@
 ---
-title: Journey Optimizer開始營銷
-description: 作為一名旅行實踐者，學習如何與Journey Optimizer合作
+title: Journey Optimizer行銷人員快速入門
+description: As a Journey Pricioner，深入了解如何使用Journey Optimizer
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 8%
+source-wordcount: '453'
+ht-degree: 7%
 
 ---
 
-# 面向營銷人員的入門 {#get-started-marketers}
+# 行銷人員快速入門 {#get-started-marketers}
 
-作為 **營銷商** 或 **行程練習者**，您負責建立優惠、行程和設計內容。 你可以開始使用 [!DNL Adobe Journey Optimizer] 一次 [系統管理員](administrator.md) 和 [資料工程師](data-engineer.md) 授予您訪問權限並準備您的環境。
+As a **行銷人員** 或 **歷程實踐者**，您必須負責建立選件和歷程以及設計內容。 您可以開始使用 [!DNL Adobe Journey Optimizer] once [系統管理員](administrator.md) 和 [資料工程師](data-engineer.md) 授予您存取權並準備您的環境。
 
-請參閱以下部分以設定您的首次行程、添加優惠和資產以及發送消息：
+請參閱下列章節，以設定您的第一個歷程、新增選件和資產，以及傳送訊息：
 
-1. **建立區段**. Journey Optimizer允許您直接從 **段** 把菜單和它們融入你的旅程。  瞭解有關網段的詳細資訊 [此頁](../../segment/about-segments.md)。 瞭解如何構建段 [在這個樣本中](../../segment/creating-a-segment.md)。
+1. **建立區段**. Journey Optimizer可讓您直接從 **區段** 功能表，並將其運用於您的歷程中。  深入了解區段 [在本頁](../../segment/about-segments.md). 探索如何建立區段 [在此範例中](../../segment/creating-a-segment.md).
 
-1. **新增個人化**. 利用Journey Optimizer個性化功能，將您的消息適應您的受眾。 瞭解有關個性化的更多資訊 [此部分](../../personalization/personalize.md)。
+1. **新增個人化和動態內容**. 運用Journey Optimizer個人化和動態內容功能，讓您的訊息能與對象相適應。 深入了解 [個人化](../../personalization/personalize.md) 和 [動態內容](../../personalization/get-started-dynamic-content.md).
 
    ![](../assets/perso_ee2.png)
 
-1. **建立和管理資產**。 [!DNL Adobe Experience Manager Assets Essentials] 提供單個集中的資產儲存庫，您可以使用它來填充郵件。 請參閱[本節](../../design/assets-essentials.md).
+1. **建立和管理資產**. [!DNL Adobe Experience Manager Assets Essentials] 提供單一的集中資產存放庫，供您用來填入訊息。 請參閱[本節](../../design/assets-essentials.md)。
 
-1. **新增優惠方案**. 使用 [!DNL Journey Optimizer] 可在適當的時間為所有接觸點的客戶提供最佳優惠和體驗。設計完成後，透過個人化優惠目標定位對象。瞭解有關決策管理的更多資訊 [此部分](../../offers/get-started/starting-offer-decisioning.md)。
+1. **新增優惠方案**. 使用 [!DNL Journey Optimizer] 可在適當的時間為所有接觸點的客戶提供最佳優惠和體驗。設計完成後，透過個人化優惠目標定位對象。深入了解決策管理 [在本節](../../offers/get-started/starting-offer-decisioning.md).
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **Test和驗證**。 定義內容後，可以使用test配置檔案預覽和test內容。 如果插入 [個性化內容](../../personalization/personalize.md)，您將能夠利用test配置檔案資料檢查此內容在消息中的顯示方式。 另外，利用 **斜石** 帳戶 [!DNL Journey Optimizer] 立即預覽 **電子郵件呈現** 常用電子郵件客戶端。 然後，您可以確保電子郵件內容看起來非常出色，並且在每個收件箱中都能正常工作。 瞭解如何test和驗證您的郵件 [此部分](../../design/preview.md)。
+1. **測試和驗證**. 定義內容後，您就可以使用測試設定檔來預覽和測試內容。 如果您已插入 [個人化內容](../../personalization/personalize.md)，您將可以運用測試設定檔資料，檢查訊息中此內容的顯示方式。 此外，還要利用 **利特穆斯** 帳戶 [!DNL Journey Optimizer] 立即預覽 **電子郵件呈現** 常見電子郵件用戶端。 然後，您可以確保您的電子郵件內容看起來很棒，並且在每個收件匣中都正常運作。 了解如何測試和驗證您的訊息 [在本節](../../design/preview.md).
 
-1. **設計客戶旅程** 提供個性化的背景體驗。 [!DNL Journey Optimizer] 允許您利用事件或資料源中儲存的上下文資料構建即時業務流程使用案例。 設計由以下功能支援的多步高級方案：
+1. **設計客戶歷程** 提供個人化的情境式體驗。 [!DNL Journey Optimizer] 可讓您善用儲存在事件或資料來源中的情境資料，建立即時協調使用案例。 設計由下列功能提供支援的多步驟進階案例：
 
-   * 即時發送 **單一遞送** 接收事件時觸發，或 **批** 使用Adobe Experience Platform段。
+   * 即時傳送 **單一傳送** 在收到事件時觸發，或 **批次** 使用Adobe Experience Platform區段。
 
-   * 利用 **上下文資料** 來自事件、來自Adobe Experience Platform的資訊或來自第三方API服務的資料。
+   * 運用 **內容資料** 來自事件、來自Adobe Experience Platform的資訊，或來自協力廠商API服務的資料。
 
-   * 使用 **內置通道操作** （電子郵件、簡訊、推送） [!DNL Journey Optimizer] 建立 **自定義操作** 使用第三方系統發送消息。
+   * 使用 **內建管道動作** （電子郵件、簡訊、推播）以傳送 [!DNL Journey Optimizer] 或建立 **自訂動作** 如果您使用協力廠商系統來傳送訊息。
 
-   * 使用 **旅程設計師**，構建多步使用案例：輕鬆拖放條目事件或讀取段活動、添加條件和發送個性化消息。
+   * 使用 **歷程設計器**，建立您的多步驟使用案例：輕鬆拖放登入事件或讀取區段活動、新增條件及傳送個人化訊息。
 
    ![](../assets/journey-design.png)
 
-   瞭解如何設計和執行行程 [此部分](../../building-journeys/journey-gs.md)
+   了解如何設計和執行歷程 [在本節](../../building-journeys/journey-gs.md)
 
-1. **監視消息和行程**。 為確保成功執行、發送和傳遞您的消息， [!DNL Journey Optimizer] 提供了監視當前發佈和觸發的消息的功能。 瞭解如何監視效能 [此部分](../../reports/global-report.md)。
+1. **監控訊息和歷程**. 為確保您的訊息成功執行、傳送及傳送， [!DNL Journey Optimizer] 提供可監控目前發佈及觸發之訊息的功能。 了解如何監控效能 [在本節](../../reports/global-report.md).

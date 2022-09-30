@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 030dc5f3a5d1927076c87aa600097a3b5761e803
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 2%
+source-wordcount: '1246'
+ht-degree: 1%
 
 ---
 
@@ -89,8 +89,7 @@ ht-degree: 2%
    * **[!UICONTROL 複製]**:新增文字元件的復本。
    * **[!UICONTROL 刪除]**:從電子郵件中刪除選取的文字元件。
    * **[!UICONTROL 新增個人化]**:新增個人化欄位以自訂來自您設定檔資料的內容。 [深入了解內容個人化](../personalization/personalize.md).
-
-1. 為獲得更好的使用者體驗，您可以新增個人化欄位以鎖定您的對象。 如需詳細資訊，請參閱本[區段](../personalization/personalize.md)。
+   * **[!UICONTROL 啟用條件式內容]**:新增條件式內容，以調整元件的內容與目標設定檔。 [深入了解動態內容](../personalization/get-started-dynamic-content.md).
 
 1. 調整 **[!UICONTROL 文字顏色]**, **[!UICONTROL 字型系列]** 和 **[!UICONTROL 大小]** 在 **[!UICONTROL 元件設定]**.
 
@@ -208,7 +207,7 @@ ht-degree: 2%
 
 ## 優惠方案決策 {#offer-decision}
 
-使用 **[!UICONTROL 優惠方案決策]** 元件，將決策插入訊息中。 決策會利用決策管理來挑選最適合提供給客戶的優惠方案。
+使用 **[!UICONTROL 優惠方案決策]** 元件，將決策（先前稱為優惠方案活動）插入訊息中。 決策會利用決策管理來挑選最適合提供給客戶的優惠方案。
 
 相關主題：
 

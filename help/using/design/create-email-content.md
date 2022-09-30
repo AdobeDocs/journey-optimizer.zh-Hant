@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,10 @@ ht-degree: 0%
 1. 新增個人化欄位，以自訂來自您設定檔資料的內容。 [深入了解內容個人化](../personalization/personalize.md).
 
    ![](assets/email_designer_6.png)
+
+1. 新增動態內容，以根據條件規則調整內容以符合目標設定檔。 [開始使用動態內容](../personalization/get-started-dynamic-content.md).
+
+   ![](assets/email_designer_dynamic-content.png)
 
 1. 在 **[!UICONTROL 連結]** 頁簽，檢查要追蹤的內容的所有URL清單。 您可以修改其 **[!UICONTROL 追蹤類型]**, **[!UICONTROL 標籤]** 和 **[!UICONTROL 標籤]** 如有需要。
 

@@ -5,12 +5,10 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-hidefromtoc: true
-hide: true
-source-git-commit: 0fbcdbbf547f24ef78f810e34ba14c78956c760c
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 2%
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
@@ -18,6 +16,15 @@ ht-degree: 2%
 # 開始使用動態內容 {#start-dynamic-content}
 
 >[!CONTEXTUALHELP]
->id="ajo_expression_editor_conditions"
+>id="ajo_conditions_list"
 >title="條件"
->abstract="條件是一組規則，定義應根據各種條件（例如設定檔屬性、區段成員資格或情境事件）在訊息中顯示的內容。"
+>abstract="條件規則可讓您根據設定檔屬性、內容事件或對象區段，在訊息中顯示多個內容變體。"
+
+動態內容可讓您根據由設定檔屬性、情境事件或對象區段組成的條件規則來調整訊息內容。
+
+條件式規則是使用運算式編輯器中的視覺化規則產生器來建立，您可以在其中儲存，以便在歷程和行銷活動中重複使用。
+
+![](assets/conditions-overview.png)
+
+* [了解如何使用條件式規則](create-conditions.md)
+* [了解如何建立動態內容](dynamic-content.md)

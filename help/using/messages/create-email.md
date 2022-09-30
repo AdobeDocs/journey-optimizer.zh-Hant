@@ -1,15 +1,15 @@
 ---
 title: 建立電子郵件
-description: 瞭解如何在Journey Optimizer建立電子郵件
+description: 了解如何在Journey Optimizer中建立電子郵件
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 9%
+source-wordcount: '314'
+ht-degree: 8%
 
 ---
 
@@ -18,47 +18,49 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="電子郵件建立"
->abstract="只需三個簡單步驟即可定義電子郵件參數。"
+>abstract="只需三個簡單步驟，即可定義電子郵件參數。"
 
-可以建立電子郵件：
+可建立電子郵件：
 
-* 在 **旅程**:在您的旅途中添加電子郵件活動並定義基本設定後，使用 **[!UICONTROL Actions: Email]** 右窗格，為推送通知建立內容。
+* 在 **歷程**:在歷程中新增電子郵件活動並定義基本設定後，請使用 **[!UICONTROL 動作：電子郵件]** 右窗格，以建立推播通知的內容。
 
-   有關如何配置行程的詳細資訊，請參閱此 [頁](../building-journeys/journey-gs.md)。
+   如需如何設定歷程的詳細資訊，請參閱 [頁面](../building-journeys/journey-gs.md).
 
    ![](assets/email-edit-content.png)
 
-* 在 **活動**:建立市場活動後，選擇「電子郵件」作為活動並定義基本設定。
+* 在 **行銷活動**:建立促銷活動後，請選取「電子郵件」作為您的動作並定義基本設定。
 
-   有關如何配置市場活動的詳細資訊，請參閱此 [頁](../campaigns/create-campaign.md#configure)。
+   如需如何設定促銷活動的詳細資訊，請參閱 [頁面](../campaigns/create-campaign.md#configure).
 
    ![](assets/email_campaign.png)
 
 ## 定義您的電子郵件內容{#email-content}
 
-使用 [!DNL Journey Optimizer] 電子郵件設計器 [從頭開始設計電子郵件](../design/create-email-content.md)。 如果您有現有內容，則 [在電子郵件設計器中導入它](../design/existing-content.md)或 [對自己的內容進行編碼](../design/code-content.md) 在 [!DNL Journey Optimizer]。
+使用 [!DNL Journey Optimizer] 電子郵件設計工具 [從草稿開始設計電子郵件](../design/create-email-content.md). 如果您有現有內容，您可以 [在電子郵件設計工具中匯入](../design/existing-content.md)，或 [編寫您自己的內容](../design/code-content.md) in [!DNL Journey Optimizer].
 
-[!DNL Journey Optimizer] 有一套 [內置模板](../design/email-templates.md) 來幫助你。 任何電子郵件也可以另存為模板。
+[!DNL Journey Optimizer] 隨附一組 [內建範本](../design/email-templates.md) 幫助你開始。 任何電子郵件也可儲存為範本。
 
-使用 [!DNL Journey Optimizer] Expression編輯器，使用配置檔案的資料個性化您的消息。 如需個人化的詳細資訊，請參閱[此章節](../personalization/personalize.md)。
+使用 [!DNL Journey Optimizer] 運算式編輯器，使用設定檔資料個人化您的訊息。 如需個人化的詳細資訊，請參閱[此章節](../personalization/personalize.md)。
 
-## 電子郵件跟蹤{#email-tracking}
+利用 [!DNL Journey Optimizer] 動態內容功能。 [開始使用動態內容](../personalization/get-started-dynamic-content.md)
 
-如果要通過開啟和/或按一下連結來跟蹤收件人的行為，請啟用以下選項： **[!UICONTROL Email opens]** 和 **[!UICONTROL Click on email]**。
+## 電子郵件追蹤{#email-tracking}
 
-瞭解有關跟蹤的詳細資訊 [此部分](../design/message-tracking.md)。
+如果要通過開啟和/或點擊連結來跟蹤收件者的行為，請啟用以下選項： **[!UICONTROL 電子郵件開啟]** 和 **[!UICONTROL 按一下電子郵件]**.
+
+進一步了解 [本節](../design/message-tracking.md).
 
 ## 驗證您的電子郵件內容{#email-content-validate}
 
-使用左側的預覽部分控制電子郵件的呈現，並使用test配置檔案檢查個性化設定。 如需詳細資訊，請參閱[本章節](../design/preview.md)。
+使用左側的預覽區段，控制電子郵件的呈現，並使用測試設定檔檢查個人化設定。 如需詳細資訊，請參閱[本章節](../design/preview.md)。
 
 ![](assets/messages-simple-preview.png)
 
 
-您還必須檢查編輯器上半部分的警報。  其中一些是簡單的警告，但其他警告可能會阻止您使用該消息。 請參閱[此章節](alerts.md)深入瞭解。
+您也必須檢查編輯器上方區段的警報。  其中有些是簡單警告，但有些警告可能會阻止您使用訊息。 請參閱[此章節](alerts.md)深入瞭解。
 
 
 >[!NOTE]
 >
->的 **[!UICONTROL From email]** 和 **[!UICONTROL From name]** 由 **[!UICONTROL Surface]** 在 [建立消息](get-started-content.md)。
+>此 **[!UICONTROL 從電子郵件]** 和 **[!UICONTROL 從名稱]** 由 **[!UICONTROL 曲面]** 當 [建立訊息](get-started-content.md).
 
