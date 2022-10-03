@@ -5,9 +5,9 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: 3205b992a1dd6774d3ef89533d9ae6af9ff50ba3
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 >title="條件"
 >abstract="條件規則可讓您根據設定檔屬性、內容事件或對象區段，在訊息中顯示多個內容變體。"
 
-動態內容可讓您根據由設定檔屬性、情境事件或對象區段組成的條件規則來調整訊息內容。
+動態內容可讓您根據 **條件規則** 可由設定檔屬性、情境事件或對象區段組成。 條件式規則是使用運算式編輯器中的視覺化規則產生器來建立，您可以在其中儲存，以便在歷程和行銷活動中重複使用。
 
-條件式規則是使用運算式編輯器中的視覺化規則產生器來建立，您可以在其中儲存，以便在歷程和行銷活動中重複使用。
+條件式規則可運用至電子郵件設計工具和運算式編輯器，以 **建立動態內容** 會適應訊息中鎖定的設定檔。
 
 ![](assets/conditions-overview.png)
 
