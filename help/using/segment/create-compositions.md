@@ -68,7 +68,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 草稿]**:該構成正在進行中，尚未公佈。
 * **[!UICONTROL 已發佈]**:已發佈合成，因此已儲存對象。 <!-- and are available for use.-->
-* **[!UICONTROL 已封存]**:已封存了構圖。
+* **[!UICONTROL 已封存]**:已封存了構成。
 
 ![](assets/audiences-compositions.png)
 
