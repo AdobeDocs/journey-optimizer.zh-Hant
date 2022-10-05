@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f439e4387139b3136c46d25ecb43f304e29b0f17
+source-git-commit: e68a234e52b40fbf988b74dfa90b347659203ea0
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,11 @@ ht-degree: 0%
 >title="排名活動"
 >abstract="「排名」活動可讓您根據特定屬性來排名設定檔，並將其納入您的構成中。 例如，包含50個設定檔，其忠誠度點數最多。"
 
+>[!CONTEXTUALHELP]
+>id="ajo_ao_rank_profilelimit_text"
+>title="新增設定檔限制"
+>abstract="開啟此選項可指定要包含在合成中的設定檔數目上限。
+
 此 **[!UICONTROL 排名]** 活動可讓您根據特定屬性來排名設定檔，並將其納入您的構成中。 例如，您可以包含50個設定檔，其忠誠度點數最多。
 
 1. 選取您要查詢的屬性，並指定排名順序（遞增或遞減）。
@@ -126,7 +131,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
->title="控制組為"
+>title="控制組"
 >abstract="使用控制組來隔離部分設定檔。 這可讓您測量行銷活動的影響，並與其他人口的行為進行比較。"
 
 >[!CONTEXTUALHELP]
@@ -138,6 +143,11 @@ ht-degree: 0%
 >id="ajo_ao_split_type"
 >title="分割類型"
 >abstract="使用「百分比分割」類型將設定檔隨機分割為多個路徑。 屬性分割類型可讓您根據特定屬性來分割設定檔。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_otherprofiles_text"
+>title="其他設定檔"
+>abstract="開啟此選項，以建立其他路徑，其餘設定檔不符合其他路徑中指定的任何條件。"
 
 此 **[!UICONTROL 分割]** 活動可讓您將構圖分割為多個路徑。
 
