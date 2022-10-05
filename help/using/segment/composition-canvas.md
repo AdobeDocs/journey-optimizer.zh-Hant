@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: e68a234e52b40fbf988b74dfa90b347659203ea0
+source-git-commit: b6f61a7a3ad1aaab90119c3a3a69254e55733271
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 0%
@@ -113,7 +113,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
 >title="新增設定檔限制"
->abstract="開啟此選項可指定要包含在合成中的設定檔數目上限。
+>abstract="開啟此選項可指定要包含在合成中的設定檔數目上限。"
 
 此 **[!UICONTROL 排名]** 活動可讓您根據特定屬性來排名設定檔，並將其納入您的構成中。 例如，您可以包含50個設定檔，其忠誠度點數最多。
 
