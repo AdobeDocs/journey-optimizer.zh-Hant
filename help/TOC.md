@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9d9183a8114aff2d17fc65eddaf2a7a8424e3f95
+source-git-commit: d8537d27fab4472c64bd46b056cf221825051bfe
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -121,11 +121,12 @@ ht-degree: 94%
       + [開始使用設定檔](using/segment/get-started-profiles.md)
       + [建立測試設定檔](using/segment/creating-test-profiles.md)
    + [身分](using/segment/get-started-identity.md)
+   + 撰寫對象 {#audience-orchestration}
+      + [開始使用受眾構成](using/segment/get-started-audience-orchestration.md)
+      + [建立合成工作流程](using/segment/create-compositions.md)
+      + [使用合成畫布](using/segment/composition-canvas.md)
+      + [存取及管理對象](using/segment/access-audiences.md)
    + [授權使用情況](using/segment/license-usage.md)
-   + [開始使用受眾構成](using/segment/get-started-audience-orchestration.md)
-   + [建立合成工作流程](using/segment/create-compositions.md)
-   + [使用合成畫布](using/segment/composition-canvas.md)
-   + [存取及管理對象](using/segment/access-audiences.md)
 + 歷程 {#orchestrate-journeys}
    + 關於歷程{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
