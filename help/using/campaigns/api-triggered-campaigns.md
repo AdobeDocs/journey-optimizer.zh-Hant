@@ -2,7 +2,7 @@
 title: 利用 API 觸發行銷活動
 description: 了解如何使用 [!DNL Journey Optimizer] API
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 1fb9c759032211979d24daf8a885e82fc359060e
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 1%
@@ -96,7 +96,7 @@ API觸發促銷活動的可用通道為電子郵件、簡訊及推送訊息。
 >
 >此功能是為 **小量配置檔案建立** 在大量交易式傳送使用案例中，平台中已存在大量設定檔。
 
-若要在行銷活動執行時啟動設定檔建立，請切換 **[!UCONTROL 建立新設定檔]** 在 **[!UICONTROL 對象]** 區段。
+若要在行銷活動執行時啟動設定檔建立，請切換 **[!UICONTROL 建立新設定檔]** 在 **[!UICONTROL 對象]** 區段。
 
 ![](assets/api-triggered-create-profile.png)
 
