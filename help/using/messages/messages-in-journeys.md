@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a36f0b1c8d59d49e38b21725621d5b276741bd8e
-workflow-type: ht
+source-git-commit: ed1ae405367a0b0f37e61ceb81fc1f1d1b907ea7
+workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 100%
 >title="頻道介面"
 >abstract="頻道介面是該頻道的執行個體，具備所有設定，可透過行銷活動或歷程成功傳遞行動。 它由系統管理員定義。"
 
-在您的歷程中，使用管道動作來設計並個人化您要傳送給閱聽眾的訊息。 當您新增電子郵件、簡訊或推播動作至歷程畫布時，就會建立觸發傳送。 當連絡人達成該通道動作時，Adobe Journey Optimizer 會自動傳送訊息。
+在您的歷程中，使用管道動作來設計並個人化您要傳送給閱聽眾的訊息。 當您新增電子郵件、簡訊或推播動作至歷程畫布時，會建立觸發傳送。 當連絡人達成該通道動作時，Adobe Journey Optimizer 會自動傳送訊息。
 
 
 >[!NOTE]
 >您也可以建立行銷活動以傳送排程訊息。 請參閱[本節](../campaigns/get-started-with-campaigns.md)。
 
 
-若要在您的歷程新增訊息，在歷程畫布新增推播、簡訊或電子郵件活動即可。
+若要在歷程中新增訊息，請在歷程畫布中新增推送、簡訊或電子郵件活動。
 
 1. 利用[事件](../building-journeys/general-events.md)或[讀取區段](../building-journeys/read-segment.md)活動來開始您的歷程。
 
@@ -123,7 +123,7 @@ ht-degree: 100%
 
 1. 輸入 **crtl+V** 貼上訊息。
 
-   該訊息將新增到歷程畫布。 所有設定與組態都將複製到新訊息中。
+   訊息會新增至歷程畫布。 所有設定與組態都將複製到新訊息中。
 
    ![](assets/message-duplicated.png)
 
