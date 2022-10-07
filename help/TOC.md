@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d8537d27fab4472c64bd46b056cf221825051bfe
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -250,13 +250,13 @@ ht-degree: 94%
       + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
 + 追蹤和監視 {#reporting}
    + 即時報告 {#live-report}
-      + [開始使用即時報表](using/reports/live-report.md)
+      + [開始使用即時報告](using/reports/live-report.md)
       + [歷程即時報告](using/reports/journey-live-report.md)
       + [行銷活動即時報告](using/reports/campaign-live-report.md)
       + [登陸頁面即時報告](using/reports/lp-report-live.md)
       + [訂閱清單即時報告](using/reports/subscription-report-live.md)
    + 全域報告 {#global-report}
-      + [開始使用全域報表](using/reports/global-report.md)
+      + [開始使用全域報告](using/reports/global-report.md)
       + [歷程全域報告](using/reports/journey-global-report.md)
       + [行銷活動全域報告](using/reports/campaign-global-report.md)
       + [登陸頁面全域報告](using/reports/lp-report-global.md)
@@ -276,7 +276,7 @@ ht-degree: 94%
       + [開始使用傳遞能力](using/reports/deliverability.md)
       + [瞭解隱藏清單](using/reports/suppression-list.md)
    + [警報](using/reports/alerts.md)
-   + [使用Customer Journey Analytics](using/reports/cja-ajo.md)
+   + [使用 Customer Journey Analytics](using/reports/cja-ajo.md)
 + 決定管理 {#offer-decisioning}
    + 開始使用決定管理 {#get-started-decision}
       + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
@@ -436,10 +436,10 @@ ht-degree: 94%
    + [權限層級](using/administration/high-low-permissions.md)
    + [沙盒管理](using/administration/sandboxes.md)
    + [以屬性為基礎的存取控制](using/administration/attribute-based-access.md)
-   + [對象級訪問控制](using/administration/object-based-access.md)
+   + [物件等級存取控制](using/administration/object-based-access.md)
 + 隱私權 {#privacy}
    + [資料使用原則](using/privacy/policies.md)
    + [隱私權請求](using/privacy/requests.md)
-   + [對資源執行審計操作](using/privacy/audit-logs.md)
+   + [針對資源的稽核動作](using/privacy/audit-logs.md)
    + [同意](using/action/consent.md)
    + [資料治理](using/action/action-privacy.md)
