@@ -3,9 +3,9 @@ title: 2022 年發行說明
 description: Journey Optimizer 2022 年發行說明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2519'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 98%
 <tbody>
 <tr>
 <td>
-<p>您現在可以在決策管理中使用個人化最佳化模型系統。 這種新種類模型允許您根據區段及優惠方案市場對優惠進行最佳化及個人化。</p>
+<p>現在，您可以在決策管理中使用個人化最佳化模型系統。 這種新種類模型允許您根據區段及優惠方案市場對優惠進行最佳化及個人化。</p>
 <p>個人化最佳化 AI 模型的使用目前僅限於選定使用者，將在未來的版本中同步到所有環境。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細文件</a>。</p>
@@ -280,7 +280,7 @@ ht-degree: 98%
 
 ### 改進項目
 
-**決定管理**
+**決策管理**
 
 * **HTML 和 JSON 檔案支援** — 您現在可以將外部 HTML 和 JSON 檔案從 Adobe Experience Cloud 資產庫拖放到優惠方案聲明內容中。 [了解更多](../offers/offer-library/add-representations.md#html-json)
 
@@ -384,7 +384,7 @@ ht-degree: 98%
 * **沒有表單的登陸頁面** - 您現在可以建立並發佈不包含表單且不需要訪客操作的登陸頁面。
 * **登陸頁面範本** - 您現在可以將登陸頁面儲存為範本，並在建立其他登陸頁面時重複使用它。 [了解更多](../landing-pages/lp-templates.md)
 * **返回主要頁面** - 您現在可以從同一登陸頁面內的任何子頁面新增到主要頁面的連結。
-* **自訂 JavaScript 支援** - 您現在可以新增自訂 JavaScript 到登陸頁面的內容中，以執行進階樣式或新增自訂行為到登陸頁面。	[了解更多](../landing-pages/lp-custom-js.md)
+* **自訂 JavaScript 支援** - 您現在可以新增自訂 JavaScript 到登陸頁面的內容中，以執行進階樣式或新增自訂行為到登陸頁面。[了解更多](../landing-pages/lp-custom-js.md)
 
 **歷程**
 
@@ -534,7 +534,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 **歷程**
 
 * 為了最佳化效能，所有處於測試模式且一週內未觸發的歷程現在將切換回「草稿」狀態。 [閱讀全文](../building-journeys/testing-the-journey.md#important_notes)
-* 已最佳化 Journey Optimizer 和 Adobe Campaign Classic 的整合，以便提高效能。 上限預設設定已變更為 4000 次呼叫 / 5 分鐘。	[閱讀全文](../action/acc-action.md#important-notes)
+* 已最佳化 Journey Optimizer 和 Adobe Campaign Classic 的整合，以便提高效能。 上限預設設定已變更為 4000 次呼叫 / 5 分鐘。[閱讀全文](../action/acc-action.md#important-notes)
 
 **報告**
 
@@ -546,7 +546,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 <!--* decision management reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 
-**決定管理**
+**決策管理**
 
 * 排名和 AI 排名現在分類在單一標籤。
 
@@ -604,4 +604,4 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 **個人化**
 
-* **添加到收藏夾**  — 為了在使用個人化時協助提高效率，我們導入了儲存我的最愛的概念。 將不同屬性加入收藏夾功能表可快速存取您使用頻率最高的項目。 [了解更多](../personalization/personalize.md#fav)
+* **新增至最愛** — 為了協助在使用個人化功能時提高效率，我們引進了儲存最愛的概念。 將不同屬性加入收藏夾功能表可快速存取您使用頻率最高的項目。 [了解更多](../personalization/personalize.md#fav)
