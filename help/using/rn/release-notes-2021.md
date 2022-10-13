@@ -2,10 +2,10 @@
 title: 舊版發行說明 (2021 年)
 description: Journey Optimizer 2021 年發行說明
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '2067'
-ht-degree: 96%
+source-wordcount: '2070'
+ht-degree: 95%
 
 ---
 
@@ -270,7 +270,7 @@ ht-degree: 96%
 **內容設計**
 
 * **背景**  - 即時預覽現在支援背景影像。 [進一步了解](../design/preview.md)
-* **一鍵選擇退出的連結**  - 您可以在電子郵件內容中插入新類型的連結：**選擇退出**&#x200B;連結可讓使用者只要按一下即可取消訂閱接收您的通訊，無須重新導向至登陸頁面以確認選擇退出。 [進一步了解](../messages/consent.md#one-click-opt-out-link)
+* **一鍵選擇退出的連結**  - 您可以在電子郵件內容中插入新類型的連結：**選擇退出**&#x200B;連結可讓使用者只要按一下即可取消訂閱接收您的通訊，無須重新導向至登陸頁面以確認選擇退出。 [進一步了解](../privacy/opt-out.md#one-click-opt-out-link)
 
 **個人化**
 
@@ -340,11 +340,11 @@ ht-degree: 96%
 * 對於外部資料來源，現在會自動定義每秒 15 次呼叫的上限規則。 [閱讀全文](../configuration/external-systems.md#capping)
 * 對於即時歷程，歷程屬性畫面現在會顯示發佈日期和發佈歷程的使用者名稱。 [閱讀全文](../building-journeys/journey-gs.md#change-properties)
 * 在歷程清單畫面中，已新增歷程類型篩選器。 [閱讀全文](../start/user-interface.md#filter-lists)
-* **[!UICONTROL Throttling rate]** 參數已新增至讀取區段活動中。 [閱讀全文](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 此 **[!UICONTROL 節流率]** 參數已新增至讀取區段活動中。 [閱讀全文](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **預覽和測試**
 
-* 身分和命名空間現在會顯示在 **[!UICONTROL Preview]** 畫面中。 [閱讀全文](../design/preview.md#preview-your-messages)
+* 身分和命名空間現在會顯示在 **[!UICONTROL 預覽]** 螢幕。 [閱讀全文](../design/preview.md#preview-your-messages)
 * 校樣的測試電子郵件數目現在限制為 10 則。
 * 已在校樣中限制&#x200B;**主旨行首碼** 允許的字元。 [閱讀全文](../design/preview.md#send-proofs)
 

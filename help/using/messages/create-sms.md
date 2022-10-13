@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 8%
+source-wordcount: '401'
+ht-degree: 7%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 8%
 >abstract="新增文字訊息，並開始使用運算式編輯器進行個人化。"
 
 使用 [!DNL Journey Optimizer] 在客戶的行動裝置上傳送簡訊給客戶。 您可以從SMS編輯器建立、個人化及預覽文字格式的訊息。
+
+>[!NOTE]
+>
+>根據業界標準和法規，所有SMS行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 若要這麼做，SMS收件者可以使用選擇加入和選擇退出關鍵字回覆。 [了解如何管理選擇退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 可建立SMS傳遞：
 
@@ -61,17 +65,6 @@ ht-degree: 8%
 您也必須檢查編輯器上方區段的警報。  其中有些是簡單警告，但有些警告可能會阻止您使用訊息。 請參閱[此章節](alerts.md)深入瞭解。
 
 ![](assets/sms-alert-button.png)
-
-
-## 加入和退出{#sms-opt-in-out}
-
-對於所有行銷訊息，SMS必須包含讓收件者輕鬆取消訂閱的方式。 取消訂閱後，設定檔會自動從未來行銷訊息的對象中移除。 交易式訊息不強制新增取消訂閱連結。
-
-SMS收件者可以使用選擇加入和選擇退出關鍵字回覆。 根據業界標準和法規，Adobe Journey Optimizer會自動處理傳入訊息中的下列關鍵字：開始，停止，停止。 這些關鍵字觸發來自簡訊提供者的自動標準回覆。
-
-若要進一步了解SMS原生傳入關鍵字支援（開始、停止和取消停止）的運作方式，請參閱下列影片。
-
->[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
 
 <!--
 ## How-to video

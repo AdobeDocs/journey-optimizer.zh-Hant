@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 3c830d6e5ee577b0cfa0064550d1429754fbb366
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 1%
@@ -122,7 +122,7 @@ When downloading the CSV file, you can choose to either:
 
 >[!NOTE]
 >
->取消訂閱的使用者不會收到來自 [!DNL Journey Optimizer]，因此其電子郵件地址無法傳送至隱藏清單。 其選項會在Experience Platform層級處理。 [進一步了解選擇退出](../messages/consent.md)
+>取消訂閱的使用者不會收到來自 [!DNL Journey Optimizer]，因此其電子郵件地址無法傳送至隱藏清單。 其選項會在Experience Platform層級處理。 [進一步了解選擇退出](../privacy/opt-out.md)
 
 ## 手動新增地址和網域 {#add-addresses-and-domains}
 

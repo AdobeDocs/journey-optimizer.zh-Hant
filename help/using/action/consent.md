@@ -1,24 +1,24 @@
 ---
 solution: Journey Optimizer
-title: 同意
-description: 同意
+title: 使用同意政策
+description: 了解如何使用Adobe Experience Platform同意政策
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 30171e362e0dc70f5647bb2413031946062e8df3
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 1%
+source-wordcount: '913'
+ht-degree: 5%
 
 ---
 
-# 同意管理 {#consent-management}
+# 使用同意政策 {#consent-management}
 
-Adobe Experience Platform可讓您輕鬆採用及強制執行行銷政策，以尊重客戶的同意偏好設定。 同意原則在Adobe Experience Platform中定義。 請參閱 [本檔案](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
+Adobe Experience Platform 可讓您輕鬆採用及強制執行行銷政策，以尊重客戶的同意偏好設定。 在 Adobe Experience Platform 中定義的同意原則。 請參閱 [本檔案](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
 
-在Journey Optimizer中，您可以將這些同意政策套用至自訂動作。 例如，您可以定義同意原則，以排除尚未同意接收電子郵件、推播或簡訊通訊的客戶。
+在 Journey Optimizer 中，您可以將這些同意政策套用至自訂動作。 例如，您可以定義同意原則，以排除尚未同意接收電子郵件、推播或簡訊通訊的客戶。
 
 >[!NOTE]
 >

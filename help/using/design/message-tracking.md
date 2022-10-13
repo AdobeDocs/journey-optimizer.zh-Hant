@@ -1,64 +1,64 @@
 ---
-title: 跟蹤您的郵件
-description: 瞭解如何添加連結和跟蹤已發送的郵件
+title: 追蹤您的訊息
+description: 了解如何新增連結及追蹤已傳送的訊息
 feature: Monitoring
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '628'
 ht-degree: 10%
 
 ---
 
 # 新增連結及追蹤訊息 {#tracking}
 
-使用 [!DNL Journey Optimizer] 添加內容連結並跟蹤發送的郵件以監視收件人的行為。
+使用 [!DNL Journey Optimizer] 新增內容連結並追蹤傳送的訊息，以監控收件者的行為。
 
-## 啟用跟蹤 {#enable-tracking}
+## 啟用追蹤 {#enable-tracking}
 
-您可以通過檢查 **[!UICONTROL Email opens]** 和/或 **[!UICONTROL Click on email]** 選項 [建立留言](../messages/get-started-content.md)。
+您可以檢查 **[!UICONTROL 電子郵件開啟]** 和/或 **[!UICONTROL 按一下電子郵件]** 選項 [建立您的訊息](../messages/get-started-content.md).
 
 ![](assets/message-tracking.png)
 
 >[!NOTE]
 >
->預設情況下，兩個選項都處於啟用狀態。
+>預設會啟用這兩個選項。
 
-這將允許您通過以下方式跟蹤收件人的行為：
+這可讓您透過以下方式追蹤收件者的行為：
 
-* **[!UICONTROL Email opens]**:已開啟的郵件。
-* **[!UICONTROL Click on email]**:按一下電子郵件中的連結。
+* **[!UICONTROL 電子郵件開啟]**:已開啟的訊息。
+* **[!UICONTROL 按一下電子郵件]**:點按電子郵件中的連結。
 
 ## 插入連結 {#insert-links}
 
-設計消息時，可以向內容添加連結。
+設計訊息時，您可以新增連結至內容。
 
 >[!NOTE]
 >
->當 [已啟用跟蹤](#enable-tracking)，將跟蹤消息內容中包含的所有連結。
+>當 [追蹤已啟用](#enable-tracking)，則會追蹤訊息內容中包含的所有連結。
 
-要將連結插入電子郵件內容，請執行以下步驟：
+若要將連結插入電子郵件內容，請遵循下列步驟：
 
-1. 選擇元素並按一下 **[!UICONTROL Insert link]** 的子菜單。
+1. 選取元素並按一下 **[!UICONTROL 插入連結]** 中。
 
    ![](assets/message-tracking-insert-link.png)
 
 1. 選擇要建立的連結類型：
 
-   * **[!UICONTROL External link]**:插入指向外部URL的連結。
+   * **[!UICONTROL 外部連結]**:插入外部URL的連結。
 
-   * **[!UICONTROL Landing page]**:插入到登錄頁的連結。 請參閱[本節](../landing-pages/get-started-lp.md)以進一步瞭解
+   * **[!UICONTROL 登陸頁面]**:插入登錄頁面的連結。 請參閱[本節](../landing-pages/get-started-lp.md)以進一步瞭解
 
-   * **[!UICONTROL One click Opt-out]**:插入連結，使用戶能夠快速取消訂閱您的通信，而無需確認退出。 請參閱[此章節](../messages/consent.md#one-click-opt-out)深入瞭解。
+   * **[!UICONTROL 按一下「選擇退出」]**:插入連結，讓使用者無需確認選擇退出即可快速取消訂閱您的通訊內容。 請參閱[此章節](../privacy/opt-out.md#one-click-opt-out)深入瞭解。
 
-   * **[!UICONTROL External Opt-in/Subscription]**:插入一個連結以接受來自您品牌的通信。
+   * **[!UICONTROL 外部選擇加入/訂閱]**:插入連結以接受來自您品牌的通訊。
 
-   * **[!UICONTROL External Opt-out/Unsubscription]**:插入連結以取消訂閱從您的品牌接收通信。 進一步瞭解[本章節](../messages/consent.md#opt-out-management)中的選擇退出管理。
+   * **[!UICONTROL 外部選擇退出/取消訂閱]**:插入連結以取消訂閱以免接收來自您品牌的通訊。 進一步瞭解[本章節](../privacy/opt-out.md#opt-out-management)中的選擇退出管理。
 
-   * **[!UICONTROL Mirror page]**:插入連結以在Web瀏覽器中顯示電子郵件內容。 請參閱[此章節](#mirror-page)深入瞭解。
+   * **[!UICONTROL 鏡像頁面]**:插入連結以在網頁瀏覽器中顯示電子郵件內容。 請參閱[此章節](#mirror-page)深入瞭解。
 
    ![](assets/message-tracking-links.png)
 
@@ -66,60 +66,60 @@ ht-degree: 10%
 
 1. 儲存您的變更。
 
-1. 建立連結後，您仍可以從 **[!UICONTROL Component settings]** 的子菜單。
+1. 建立連結後，您仍可從 **[!UICONTROL 元件設定]** 窗格。
 
-   * 可以編輯連結並更改其類型。
-   * 您可以通過選中相應選項來選擇是否為連結加下划線。
+   * 您可以編輯連結並變更其類型。
+   * 您可以核取對應的選項，選擇是否將連結加底線。
 
    ![](assets/message-tracking-link-settings.png)
 
 >[!NOTE]
 >
->市場營銷類型的電子郵件必須包括 [選擇退出連結](../messages/consent.md#opt-out-management)，事務性消息不需要。 訊息類別 (**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**) 會在[頻道介面](../configuration/channel-surfaces.md#email-type) (即訊息預設) 層級[建立訊息](../messages/get-started-content.md#create-new-message)時定義。
+>行銷類型的電子郵件訊息必須包含 [退出連結](../privacy/opt-out.md#opt-out-management)，這對交易式訊息並非必要。 訊息類別 (**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 交易]**) 會在[頻道介面](../configuration/channel-surfaces.md#email-type) (即訊息預設) 層級[建立訊息](../messages/get-started-content.md#create-new-message)時定義。
 
-## 連結到鏡像頁 {#mirror-page}
+## 連結至鏡像頁面 {#mirror-page}
 
-鏡像頁是通過Web瀏覽器線上訪問的HTML頁。 其內容與您的電子郵件內容相同。
+鏡像頁面是可透過網頁瀏覽器線上存取的HTML頁面。 其內容與您的電子郵件內容相同。
 
-要在電子郵件中添加鏡像頁的連結， [插入連結](#insert-links) 選擇 **[!UICONTROL Mirror page]** 作為連結的類型。
+若要將連結新增至電子郵件中的鏡像頁面， [插入連結](#insert-links) 選取 **[!UICONTROL 鏡像頁面]** 作為連結的類型。
 
 ![](assets/message-tracking-mirror-page.png)
 
-鏡像頁面將自動建立。
+鏡像頁面會自動建立。
 
 >[!NOTE]
 >
->無法編輯自動生成的連結。
+>您無法編輯自動產生的連結。
 
-發送電子郵件後，當收件人按一下鏡像頁面連結時，電子郵件的內容將顯示在其預設的Web瀏覽器中。
+傳送電子郵件後，當收件者按一下鏡像頁面連結時，電子郵件的內容會顯示在其預設的網頁瀏覽器中。
 
 >[!NOTE]
 >
->在 [證明](preview.md#send-proofs) 發送到test配置檔案時，指向鏡像頁面的連結不處於活動狀態。 僅在最後消息中激活。
+>在 [證明](preview.md#send-proofs) 傳送至測試設定檔時，鏡像頁面的連結沒有作用中。 它只會在最終訊息中啟動。
 
-鏡像頁的保留期為60天。 延遲後，鏡像頁將不再可用。
+鏡像頁面的保留期為60天。 延遲後，鏡像頁面將不再可用。
 
-## 管理跟蹤 {#manage-tracking}
+## 管理追蹤 {#manage-tracking}
 
-的 [電子郵件設計器](create-email-content.md) 允許您管理跟蹤的URL，例如編輯每個連結的跟蹤類型。
+此 [電子郵件設計工具](create-email-content.md) 可讓您管理追蹤的URL，例如編輯每個連結的追蹤類型。
 
-1. 按一下 **[!UICONTROL Links]** 表徵圖，顯示要跟蹤的內容的所有URL的清單。
+1. 按一下 **[!UICONTROL 連結]** 圖示，顯示將被追蹤之內容的所有URL清單。
 
-   此清單使您能夠有一個集中的視圖並查找電子郵件內容中的每個URL。
+   此清單可讓您集中檢視，並找出電子郵件內容中的每個URL。
 
-1. 要編輯連結，請按一下相應的鉛筆表徵圖。
+1. 若要編輯連結，請按一下對應的鉛筆圖示。
 
    ![](assets/message-tracking-edit-links.png)
 
-1. 可以修改 **[!UICONTROL Tracking Type]** 如需：
+1. 您可以修改 **[!UICONTROL 追蹤類型]** 如有需要：
 
    ![](assets/message-tracking-edit-a-link.png)
 
-   對於每個跟蹤的URL，可以將跟蹤模式設定為以下值之一：
+   對於每個追蹤的URL，您可以將追蹤模式設為下列其中一個值：
 
-   * **[!UICONTROL Tracked]**:在此URL上激活跟蹤。
-   * **[!UICONTROL Opt out]**:將此URL視為選擇退出或取消訂閱的URL。
-   * **[!UICONTROL Mirror page]**:認為此URL是鏡像頁URL。
-   * **[!UICONTROL Never]**:從不激活此URL的跟蹤。 <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL 追蹤]**:在此URL上啟用追蹤。
+   * **[!UICONTROL 選擇退出]**:將此URL視為選擇退出或取消訂閱URL。
+   * **[!UICONTROL 鏡像頁面]**:將此URL視為鏡像頁面URL。
+   * **[!UICONTROL 從不]**:切勿啟用此URL的追蹤。 <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-有關開放和點擊的報告，請參見 [即時報告](../reports/live-report.md) 在 [全局報告](../reports/global-report.md)。
+可在 [即時報表](../reports/live-report.md) 和 [全域報表](../reports/global-report.md).

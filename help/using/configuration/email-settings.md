@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8a8950dbbda9a0a3aa498e304e41294ad343d0be
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '1188'
 ht-degree: 2%
@@ -78,7 +78,7 @@ ht-degree: 2%
 
 * 此 **取消訂閱URL**，即登錄頁面的URL，一旦取消訂閱，系統會將使用者重新導向。
 
-   如果您新增 [一鍵式選擇退出連結](../messages/consent.md#one-click-opt-out) 若要使用此介面建立訊息，取消訂閱URL將為一鍵式選擇退出連結所定義的URL。
+   如果您新增 [一鍵式選擇退出連結](../privacy/opt-out.md#one-click-opt-out) 若要使用此介面建立訊息，取消訂閱URL將為一鍵式選擇退出連結所定義的URL。
 
    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
@@ -86,7 +86,7 @@ ht-degree: 2%
    >
    >若您未在訊息內容中新增一鍵式選擇退出連結，則不會向使用者顯示任何登陸頁面。
 
-進一步了解如何在 [本節](../messages/consent.md#unsubscribe-header).
+進一步了解如何在 [本節](../privacy/opt-out.md#unsubscribe-header).
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 

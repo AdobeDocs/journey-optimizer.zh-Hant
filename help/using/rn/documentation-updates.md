@@ -2,16 +2,20 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a5bbcfb84cb1be5770d91cc844e42e808dbe2957
-workflow-type: ht
-source-wordcount: '2002'
-ht-degree: 100%
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+workflow-type: tm+mt
+source-wordcount: '2020'
+ht-degree: 99%
 
 ---
 
 # 文件更新 {#latest-updates}
 
 本頁面列出 [!DNL Journey Optimizer] 所有文件更新。
+
+## 2022 年 10 月 {#october-2022}
+
+* 與選擇退出管理和同意政策相關的資訊已重新整理至新章節。 [閱讀全文](../privacy/opt-out.md)
 
 ## 2022 年 9 月 {#september-2022}
 
@@ -108,7 +112,7 @@ ht-degree: 100%
 * 加入關於方案要求的新部分，以便在使用排名策略時能夠在事件類型中傳送。 [閱讀全文](../offers/ranking/schema-requirement.md)
 * 有關 [!DNL Journey Optimizer] 個人化功能的章節已重新整理，以便更容易閱讀。 [閱讀全文](../personalization/personalize.md)
 * 為了提高清晰度，**建立訊息預設集**&#x200B;部分改為若干部分。 [閱讀全文](../configuration/channel-surfaces.md#create-channel-surface)
-* **選擇退出管理**&#x200B;區段變得清晰，並稍作重組。 [閱讀全文](../messages/consent.md#opt-out-management)
+* **選擇退出管理**&#x200B;區段變得清晰，並稍作重組。 [閱讀全文](../privacy/opt-out.md#opt-out-management)
 *  更新&#x200B;**插入連結**&#x200B;區段來反映近期的使用者介面變更。 [閱讀全文](../design/message-tracking.md#insert-links)
 
 ## 2021 年 11 月 {#november-2021}
@@ -172,7 +176,7 @@ ht-degree: 100%
 * 更新「啟用允許清單」區段。 [進一步了解](../configuration/allow-list.md#enable-allow-list)
 * 更新「監視」訊息預設集區段，其中包含預設集建立失敗的可能原因，以及這類錯誤的詳細資訊。 [閱讀全文](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * 更新並重新命名「重試時段」區段，凸顯您現在可以在訊息預設集中調整電子郵件重試設定。 [閱讀全文](../configuration/retries.md#retry-duration)
-* 新增區段，說明如何在電子郵件內容中插入一鍵選擇退出的連結。 [閱讀全文](../messages/consent.md#one-click-opt-out-link)
+* 新增區段，說明如何在電子郵件內容中插入一鍵選擇退出的連結。 [閱讀全文](../privacy/opt-out.md#one-click-opt-out-link)
 * 更新委派子網域區段，針對 Adobe 執行的驗證流程提供詳細資訊。 [閱讀全文](../configuration/delegate-subdomain.md#subdomain-validation)
 * 新增區段，說明如何手動將電子郵件地址和網域加入隱藏清單。 [閱讀全文](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * 更新[存取隱藏清單](../configuration/manage-suppression-list.md#access-suppression-list)區段與 [重試](../configuration/retries.md)區段來凸顯新的使用者介面。

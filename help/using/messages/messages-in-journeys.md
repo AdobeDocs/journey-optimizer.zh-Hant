@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 13e4e261c2dede334f5eb9f180ca784e83c5c75f
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 92%
@@ -50,7 +50,7 @@ ht-degree: 92%
    >
    >* 若您針對特定頻道與類別定義[頻率規則](../configuration/frequency-rules.md)，在選擇該頻道與類別後，這些規則將自動套用到訊息。 目前僅&#x200B;**[!UICONTROL 行銷]**&#x200B;類別適用於頻率規則。
    >
-   >* 行銷訊息必須包含 [退出連結](../messages/consent.md#opt-out-management). 交易訊息無需如此，因為這些訊息可以傳送到個人資料對象，後者可從行銷通訊取消訂閱。
+   >* 行銷訊息必須包含 [退出連結](../privacy/opt-out.md#opt-out-management). 交易訊息無需如此，因為這些訊息可以傳送到個人資料對象，後者可從行銷通訊取消訂閱。
 
 
 1. 選擇頻道&#x200B;**[!UICONTROL 介面]** (即訊息預設集)，以用於傳送您的訊息。
