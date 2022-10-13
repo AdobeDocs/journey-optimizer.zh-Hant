@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+source-git-commit: 405d99f14512727f8d5e4aa9513f07f1e87f1a39
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -175,7 +175,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 >id="ajo_admin_preset_unsubscribe"
 >title="在電子郵件標題新增取消訂閱連結"
 >abstract="啟用 List-Unsubscribe 向電子郵件標題新增取消訂閱連結。 若要設定取消訂閱 URL，請在電子郵件內容插入一鍵式選擇退出連結。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=zh-Hant#one-click-opt-out" text="一鍵選擇退出"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent.html?lang=en#one-click-opt-out" text="一鍵選擇退出"
 
 如果在頻道介面層級啟用 [List-Unsubscribe 選項](../configuration/channel-surfaces.md#list-unsubscribe)，透過[!DNL Journey Optimizer]傳送的相應電子郵件將在電子郵件標頭包含取消訂閱連結。
 
