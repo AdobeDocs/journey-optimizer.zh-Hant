@@ -5,9 +5,9 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 6b77133cb0b0e8d91cc9012d5b338628846c08b3
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '853'
 ht-degree: 9%
 
 ---
@@ -108,7 +108,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="快速傳遞模式"
->abstract="快速傳送模式是Journey Optimizer附加元件，可讓您在3000萬個設定檔下，為對象執行非個人化訊息的高速支出。"
+>abstract="快速傳送模式可讓您在推播通道上執行高速訊息傳送，傳送至低於30M的對象大小。"
 
 快速傳送模式（歷程中先前稱為突發模式）是 [!DNL Journey Optimizer] 可透過促銷活動以大量傳送非常快速的推送訊息的附加元件。
 
