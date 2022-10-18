@@ -44,7 +44,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->此 **[!UICONTROL 撰寫訊息]** 區段對兩者都很常見 **[!UICONTROL iOS]** 和 **[!UICONTROL Android]** 標籤。 本節中的任何變更都會套用至這兩項設定。
+>此 **[!UICONTROL 撰寫訊息]** 區段對兩者都很常見 **[!UICONTROL iOS]** 和 **[!UICONTROL Android]** 頁簽。 本節中的任何變更都會套用至這兩項設定。
 
 ## 標題與內文 {#push-title-body}
 

@@ -169,7 +169,7 @@ The result will be:
 >[!NOTE]
 >
 >**[!UICONTROL currentEventField]** 僅在操作事件集合和 **currentDataPackField**
->操作資料源集合時。 使用處理集合時 **[!UICONTROL all]**, **[!UICONTROL first]** 和 **[!UICONTROL 最近]**，我們
+>處理資料源集合時。 使用處理集合時 **[!UICONTROL all]**, **[!UICONTROL first]** 和 **[!UICONTROL 最近]**，我們
 >逐一循環在集合的每個元素上。 **[!UICONTROL currentEventField]** 和 **currentDataPackField**
 >對應於循環的元件。
 
