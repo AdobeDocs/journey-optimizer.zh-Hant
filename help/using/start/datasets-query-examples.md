@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 3012d5492205e99f4d6c22d4cc07ddef696e6f1f
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -311,7 +311,17 @@ _介面中的名稱：ajo_entity_dataset（系統資料集）_
 
 相關架構為AJO實體架構。
 
-此資料集可讓您使用行銷人員易記的重要中繼資料，豐富各種資料集。 messageID屬性可協助拼接各種資料集，例如訊息意見資料集和體驗事件追蹤資料集，以在設定檔層級取得從傳送到追蹤的訊息傳送詳細資訊。
+此資料集可讓您存取行銷人員定義的中繼資料，當Journey Optimizer資料集匯出為外部工具的報表視覺效果時，可讓您取得更深入的報表分析。 這是使用messageID屬性來達成的，可協助匯整各種資料集（例如訊息意見資料集和體驗事件追蹤資料集），以在設定檔層級取得從傳送到追蹤訊息傳送的詳細資訊。
+
+**重要備註**
+
+* 訊息的項目只有在歷程或行銷活動發佈後才會建立。
+
+* 行銷活動/歷程發佈後30分鐘，您就會看到項目。
+
+>[!NOTE]
+>
+>由於未來的相容性原因，目前實體資料集中每個訊息發佈有兩個項目。 這不會影響您在資料集間視需要使用加入查詢來擷取所需資訊的能力。
 
 下列查詢可協助您取得指定促銷活動的相關訊息範本：
 

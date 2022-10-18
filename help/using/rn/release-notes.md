@@ -2,10 +2,10 @@
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 95%
+source-wordcount: '1101'
+ht-degree: 90%
 
 ---
 
@@ -16,6 +16,15 @@ ht-degree: 95%
 [!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變動，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 ![電子報](../assets/do-not-localize/nl-icon.png) 立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} ，直接把每季最新產品更新、激勵人心的故事、使用案例、提示等內容傳送到您的收件匣。
+
+
+## 2022 年 10 月 {#oct-2022-release}
+
+### 改進項目{#oct-2022-improvements}
+
+**歷程**
+
+* 此 **重複時強制重新進入** 已在循環讀取區段排程參數中新增選項。 此選項可讓您讓歷程中仍存在的所有設定檔在下次執行時自動退出。 停用選項時，設定檔必須先完成歷程，才能在另一個發生次數中重新輸入。 [了解更多](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 ## 2022 年 9 月發行版本{#sept-2022-release}
 

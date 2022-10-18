@@ -2,9 +2,9 @@
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2005'
 ht-degree: 99%
 
 ---
@@ -53,7 +53,6 @@ ht-degree: 99%
 ## 2022 年 6 月 {#june-2022}
 
 * 有關 [!DNL Journey Optimizer] 2022 年 6 月發佈內容的新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
-* 已新增有關資料使用原則的新章節到文件中。 [閱讀全文](../privacy/policies.md)
 * 文件中已新增了有關隱私權請求的新章節。 [閱讀全文](../privacy/requests.md)
 * 文件中已新增了有關資源稽核記錄的新章節。 [閱讀全文](../privacy/audit-logs.md)
 * 文件中已新增了有關如何將來自 Adobe Experience Cloud 資料庫的 HTML 或 JSON 內容新增到優惠方案聲明的新章節。 [閱讀全文](../offers/offer-library/add-representations.md#html-json)

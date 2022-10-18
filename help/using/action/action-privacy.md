@@ -6,10 +6,10 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: f2f55f42739509c50223d01e25fb1f16bf19a0de
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 0%
+source-wordcount: '922'
+ht-degree: 15%
 
 ---
 
@@ -18,13 +18,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->資料使用標籤和實作(DULE)的使用目前僅限選定客戶使用，並將在未來版本中部署至所有環境。
+>資料使用標籤和實作 (DULE) 的使用目前僅限選定客戶使用，並將在未來版本中部署至所有環境。
 
-透過其資料使用標籤與實作(DULE)控管架構，Journey Optimizer現在可以運用Adobe Experience Platform控管政策，防止敏感欄位透過自訂動作匯出至協力廠商系統。 如果系統在自訂動作參數中識別限制欄位，系統會顯示錯誤，使您無法發佈歷程。
+透過其資料使用標籤與實作 (DULE) 控管架構，Journey Optimizer 現在可以運用 Adobe Experience Platform 控管政策，防止敏感欄位透過自訂動作匯出至協力廠商系統。 如果系統在自訂動作參數中識別限制欄位，系統會顯示錯誤，使您無法發佈歷程。
 
 Adobe Experience Platform可讓您標示欄位，並建立每個管道的行銷動作。 然後，您會定義連結至標籤和行銷動作的控管政策。
 
 在Journey Optimizer中，您可以將這些原則套用至自訂動作，以防止特定欄位匯出至協力廠商系統。
+
+有關資料控管框架以及如何使用標籤和原則的詳細資訊，請參閱 Adobe Experience Platform 文件：
+
+* [資料控管服務總覽](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=zh-Hant)
+* [資料使用標籤總覽](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hant)
+* [資料使用原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant)
 
 ## 重要備註 {#important-notes}
 
