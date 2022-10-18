@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 以屬性為基礎的存取控制
 description: 了解基於屬性的訪問控制
 feature: Access Management
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 61293a2ad45d30d24e1b38d8a5df81534dc19b40
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -17,7 +19,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->基於屬性的訪問控制目前僅限於選定的客戶使用，並將在將來的版本中部署到所有環境。
+>以屬性為基礎的存取控制目前僅限於選定客戶，將在未來的版本中同步到所有環境。
 
 基於屬性的訪問控制(ABAC)允許您定義授權，以管理特定團隊或用戶組的資料訪問。 其目的是保護敏感數位資產，使其免受未經授權的使用者之害，以進一步保護個人資料。
 

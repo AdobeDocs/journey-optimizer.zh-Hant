@@ -1,11 +1,13 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 利用 API 觸發行銷活動
 description: 了解如何使用 [!DNL Journey Optimizer] API
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 1fb9c759032211979d24daf8a885e82fc359060e
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -13,7 +15,7 @@ ht-degree: 1%
 
 ## 關於API觸發的促銷活動 {#about}
 
-使用 [!DNL Journey Optimizer]，您可以建立促銷活動，然後使用從外部系統根據使用者觸發來叫用促銷活動 [互動式訊息執行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). 這可讓您涵蓋各種操作和交易式訊息需求，例如密碼重設、OTP Token等。
+使用 [!DNL Journey Optimizer]，您可以建立促銷活動，然後使用從外部系統根據使用者觸發來叫用促銷活動 [互動式訊息執行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). 這允許您涵蓋各種操作和異動訊息需求，例如密碼重設、OTP 權杖等。
 
 若要這麼做，您必須先在Journey Optimizer中建立API觸發的促銷活動，然後透過API呼叫啟動其執行。
 

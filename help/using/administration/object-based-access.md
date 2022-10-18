@@ -1,22 +1,24 @@
 ---
-title: 對象級訪問控制
+solution: Journey Optimizer
+product: journey optimizer
+title: 物件等級存取控制
 description: 了解物件層級存取控制
 feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 61293a2ad45d30d24e1b38d8a5df81534dc19b40
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# 對象級訪問控制 {#object-level-access}
+# 物件等級存取控制 {#object-level-access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
->title="對象級訪問控制"
+>title="物件等級存取控制"
 >abstract="如果您套用您無權存取的任何標籤，則您對此物件的存取權將遭撤銷。"
 
 >[!IMPORTANT]

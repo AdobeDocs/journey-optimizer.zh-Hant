@@ -1,21 +1,21 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: toInteger
-description: 瞭解函式toInteger
+description: 了解函式toInteger
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 901a91d1-13dd-4283-b87f-223196eb072f
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 14%
 
 ---
 
-# 到整數 {#toInteger}
+# toInteger {#toInteger}
 
-將參數值轉換為整數。
+將引數值轉換為整數。
 
 ## 類別
 
@@ -30,11 +30,11 @@ ht-degree: 14%
 | 參數 | 說明 |
 |--- |--- |
 | 字串 | 將字串值轉換為整數 |
-| 日期時間 | 將日期轉換為毫秒數（新紀元毫秒） |
-| 小數 | 通過刪除小數部分轉換為整數(示例：1.5變為1 |
-| 布林值 | 如果為true，則將布爾值轉換為1；如果為false，則將布爾值轉換為0 |
+| dateTime | 將日期轉換為毫秒數（epoch毫秒） |
+| 小數 | 通過刪除小數部分將轉換為整數(示例：1.5變成1) |
+| 布林值 | 若為true，則將布林值轉換為1，若為false，則將0 |
 
-## 簽名和返回的類型
+## 簽名和返回類型
 
 `toInteger(<dateTime>)`
 
@@ -46,7 +46,7 @@ ht-degree: 14%
 
 `toInteger(<boolean>)`
 
-返回整數。
+傳回整數。
 
 ## 範例
 

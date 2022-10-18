@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 在 Journey Optimizer 中使用 Assets Essentials
 description: 開始使用Assets Essentials
 feature: Overview
@@ -6,73 +8,73 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 3%
+source-wordcount: '477'
+ht-degree: 2%
 
 ---
 
-# 建立和管理資產 [!DNL Assets Essentials]{#experience-manager-assets}
+# 使用建立和管理資產 [!DNL Assets Essentials]{#experience-manager-assets}
 
 ## 開始使用 [!DNL Assets Essentials] {#get-started-assets-essentials}
 
-將營銷和創意工作流結合使用 [!DNL Adobe Experience Manager Assets Essentials]。 與 [!DNL Adobe Journey Optimizer]訪問 [!DNL Assets Essentials] 儲存、管理、發現和分發數字資產。 它提供了單個集中的資產儲存庫，您可以使用它來填充郵件。
+使用將行銷和創意工作流程整合在一起 [!DNL Adobe Experience Manager Assets Essentials]. 與本機整合 [!DNL Adobe Journey Optimizer]，存取 [!DNL Assets Essentials] 儲存、管理、探索及分發數位資產。 它提供單一、集中的資產存放庫，供您用來填入訊息。
 
-[!DNL Adobe Experience Manager Assets Essentials] 是一個協作和集中的資產工作區，它擴展了您的創意系統，並將數字資產統一起來，以便提供體驗。 您可以輕鬆組織、標籤和查找經批准的生產資產，以確保跨團隊的品牌一致性。 憑借其直觀的用戶體驗、訪問 [!DNL Assets Essentials] 即時在您的AdobeCreative和Experience Cloud應用中共用資產。
+[!DNL Adobe Experience Manager Assets Essentials] 是協作式且集中的資產工作區，可擴充您的創意系統，並統一數位資產以提供體驗。 您可以輕鬆組織、標籤及尋找已核准的生產資產，以確保各團隊的品牌一致性。 憑借其直覺式的使用者體驗， [!DNL Assets Essentials] 立即在您的AdobeCreative和Experience Cloud應用程式中共用資產。
 
-瞭解詳情 [Adobe Experience Manager Assets Essentials文檔](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}。
+深入了解 [Adobe Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}。
 
-[!DNL Adobe Experience Manager Assets Essentials] 可以直接從 [!DNL Adobe Journey Optimizer] 菜單 **[!UICONTROL Assets]** 的子菜單。 您還可以在 [設計電子郵件內容](design-emails.md)。
+[!DNL Adobe Experience Manager Assets Essentials] 可直接從 [!DNL Adobe Journey Optimizer] 從左菜單 **[!UICONTROL 資產]** 區段。 您也可以在 [設計電子郵件內容](design-emails.md).
 
 ## 先決條件{#assets-prerequisites}
 
-使用前 [!DNL Adobe Experience Manager Assets Essentials]，必須將用戶添加到 **Assets Essentials消費者用戶** 或 **Assets Essentials用戶** 產品配置檔案。 更多內容 [Assets Essentials文檔](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
+使用前 [!DNL Adobe Experience Manager Assets Essentials]，您必須將使用者新增至 **Assets Essentials消費者使用者** 或/和 **Assets Essentials使用者** 產品設定檔。 深入了解 [Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
 
 >[!NOTE]
->對於2022年1月6日之前獲得的Journey Optimizer產品，必須部署 [!DNL Adobe Experience Manager Assets Essentials] 為您的組織。 在 [部署Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}部分。
+>針對2022年1月6日之前取得的Journey Optimizer產品，您必須部署 [!DNL Adobe Experience Manager Assets Essentials] 貴組織。 了解更多 [部署Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}區段。
 
-## 上載和插入資產{#add-asset}
+## 上傳和插入資產{#add-asset}
 
-將檔案導入到 [!DNL Assets Essentials]，您首先需要瀏覽或建立要儲存到的資料夾。 然後，您將能夠將它們插入到您的電子郵件內容中。
+要將檔案導入 [!DNL Assets Essentials]，您首先需要瀏覽或建立要儲存到的資料夾。 然後，您就能將它們插入您的電子郵件內容。
 
-有關如何上載資產的詳細資訊，請參閱 [Adobe Experience Manager Assets Essentials文檔](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target=&quot;_blank&quot;}。
+如需上傳資產的詳細資訊，請參閱 [Adobe Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target=&quot;_blank&quot;}。
 
-1. 從 [!DNL Adobe Journey Optimizer] 首頁，選擇 **[!UICONTROL Assets]** 頁籤 **[!UICONTROL Content management]** 菜單 [!DNL Assets Essentials]。
+1. 從 [!DNL Adobe Journey Optimizer] 首頁，選擇 **[!UICONTROL 資產]** 標籤 **[!UICONTROL 內容管理]** 存取功能表 [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
 
-1. 在中央部分或樹視圖中按兩下資料夾以將其開啟。
+1. 按兩下中央部分或樹視圖中的資料夾以開啟它。
 
-   也可以按一下 **[!UICONTROL Create folder]** 的子菜單。
+   您也可以按一下 **[!UICONTROL 建立資料夾]** 來建立新資料夾。
 
    ![](assets/media_library_8.png)
 
-1. 在選定或建立的資料夾中，按一下 **[!UICONTROL Add Assets]** 將新資產上載到資料夾。
+1. 在選取或建立的資料夾中，按一下 **[!UICONTROL 新增資產]** 上傳新資產至您的資料夾。
 
    ![](assets/media_library_2.png)
 
-1. 從 **[!UICONTROL Upload files]**&#x200B;按一下 **[!UICONTROL Browse]** 選擇 **[!UICONTROL Browse files]** 或 **[!UICONTROL Browse folders]**。
+1. 從 **[!UICONTROL 上傳檔案]**，按一下 **[!UICONTROL 瀏覽]** 選擇是否 **[!UICONTROL 瀏覽檔案]** 或 **[!UICONTROL 瀏覽資料夾]**.
 
    ![](assets/media_library_3.png)
 
-1. 選擇要上載的檔案。 完成後，按一下&#x200B;**[!UICONTROL Upload]**。
+1. 選取要上傳的檔案。 完成後，按一下 **[!UICONTROL 上傳]**.
 
-   有關如何管理資產的詳細資訊，請參閱此 [頁](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html)。
+   若要進一步了解如何管理您的資產，請參閱 [頁面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
-1. 上載資產後，您現在可以通過電子郵件設計器將資產插入到您的郵件中。
+1. 上傳資產後，您現在可以透過電子郵件設計工具，將資產插入其中一則訊息中。
 
-   您的資產也可通過 **編輯** 模式 [!DNL Assets Essentials]。 [進一步了解](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target=&quot;_blank&quot;}.
+   您的資產也可以透過 **編輯** 模式 [!DNL Assets Essentials]. [了解更多](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target=&quot;_blank&quot;}.
 
    ![](assets/media_library_12.png)
 
-1. 從 [!DNL Adobe Journey Optimizer]選中 **[!UICONTROL Asset picker]** 按鈕。
+1. 從 [!DNL Adobe Journey Optimizer]，選取 **[!UICONTROL 資產選擇器]** 從電子郵件設計工具的左窗格。
 
    ![](assets/media_library_5.png)
 
-1. 選擇「資產」資料夾。 您還可以在搜索欄中搜索資產或資料夾。
+1. 選取您的「資產」資料夾。 您也可以在搜尋列中搜尋資產或資料夾。
 
-1. 在電子郵件內容中拖放您的資產。
+1. 將資產拖放至電子郵件內容中。
 
    ![](assets/media_library_6.png)
 <!--
@@ -83,7 +85,7 @@ ht-degree: 3%
     ![](assets/media_library_14.png)
 -->
 
-1. 您可以進一步自定義資產，例如添加外部連結或使用 **[!UICONTROL Components settings]**。 [瞭解有關元件設定的詳細資訊](content-components.md)
+1. 您可以進一步自訂資產，例如使用 **[!UICONTROL 元件設定]**. [進一步了解元件設定](content-components.md)
 
    ![](assets/media_library_13.png)
 

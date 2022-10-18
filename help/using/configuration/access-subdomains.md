@@ -1,35 +1,37 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 存取委派的子網域
-description: 瞭解如何訪問委派的子域。
+description: 了解如何存取委派的子網域。
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '169'
 ht-degree: 4%
 
 ---
 
 # 存取委派的子網域 {#access-delegated-subdomains}
 
-所有委派的子域都顯示在 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** 的子菜單。 篩選器可幫助您細化清單（委派日期、用戶或狀態）。
+所有委派的子網域都會顯示在 **[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 子網域]** 功能表。 篩選器可協助您調整清單（委派日期、使用者或狀態）。
 
 ![](assets/subdomain-list.png)
 
-的 **[!UICONTROL Status]** 列提供有關子域委派進程的資訊：
+此 **[!UICONTROL 狀態]** 欄提供子網域委派程式的相關資訊：
 
-* **[!UICONTROL Draft]**:子域委託已保存為草稿。 按一下子域名以繼續委派進程，
-* **[!UICONTROL Processing]**:子域在使用前正在進行多次配置檢查，
-* **[!UICONTROL Success]**:子域已成功通過檢查，可用於傳遞消息，
-* **[!UICONTROL Failed]**:提交子域委派後，一個或多個檢查失敗。
+* **[!UICONTROL 草稿]**:子網域委派已儲存為草稿。 按一下子網域名稱以繼續委派程式，
+* **[!UICONTROL 處理]**:子網域會先執行數個設定檢查，才能使用。
+* **[!UICONTROL 成功]**:子網域已成功完成檢查，且可用於傳送訊息、
+* **[!UICONTROL 失敗]**:提交子網域委派後，一或數項檢查失敗。
 
-要訪問有關子域的詳細資訊，請從清單中將其開啟。 您可以：
+若要存取子網域的詳細資訊，請從清單中開啟該子網域。 您可以：
 
-* 檢索在委派過程中配置的子域名（只讀）以及生成的URL（資源、鏡像頁、跟蹤URL）,
+* 擷取委派程式期間設定的子網域名稱（唯讀），以及產生的URL（資源、鏡像頁面、追蹤URL）,
 
-* 將Google站點驗證TXT記錄添加到子域以確保其已驗證(請參閱 [將GoogleTXT記錄添加到子域](google-txt.md))。
+* 將Google網站驗證TXT記錄新增至您的子網域，以確保該記錄已驗證(請參閱 [將Google TXT記錄新增至子網域](google-txt.md))。
 
 ![](assets/subdomain-delegated.png)

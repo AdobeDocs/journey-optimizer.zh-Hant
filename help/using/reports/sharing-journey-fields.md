@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 歷程欄位
 description: 歷程欄位
 feature: Reporting
@@ -6,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 25%
@@ -15,34 +17,34 @@ ht-degree: 25%
 
 # 歷程欄位 {#sharing-journey-fields}
 
-此欄位組用於行程架構（與journeyStepEvent相關）。 它包含以下欄位：
+此欄位群組用於歷程結構（與journeyStepEvent相關）。 它包含下列欄位：
 
-## 旅程ID {#journeyid-field}
+## journeyID {#journeyid-field}
 
-主行程的ID。
+主要歷程的ID。
 
 類型: 字串
 
 ## journeyVersionID {#journeyversionid-field}
 
-行程版本的ID。 此id表示旅程的標識。
+歷程版本ID。 此id代表歷程的身分。
 
 類型: 字串
 
 ## 名稱 {#name-field}
 
-旅程名稱。
+歷程的名稱。
 
 類型: 字串
 
-## 描述 {#description-field}
+## 說明 {#description-field}
 
-旅程描述。
+歷程說明。
 
 類型: 字串
 
 ## 版本 {#version-field}
 
-版本，表示為 `major`。`minor`
+版本，表示為 `major`.`minor`
 
 類型: 字串

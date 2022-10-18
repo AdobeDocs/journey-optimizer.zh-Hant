@@ -1,21 +1,21 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: isEmpty
-description: 瞭解函式為Empty
+description: 了解函式isEmpty
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: f5347f59-7197-4d6c-af88-13b724c0af87
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '36'
 ht-degree: 19%
 
 ---
 
-# 為空 {#isEmpty}
+# isEmpty {#isEmpty}
 
-如果參數中的字串沒有字元，則返回true。
+如果參數中的字串沒有字元，則傳回true。
 
 ## 類別
 
@@ -29,18 +29,18 @@ ht-degree: 19%
 
 * 字串
 
-## 簽名和返回的類型
+## 簽名和返回類型
 
 `isEmpty(<string>)`
 
-返回布爾值。
+傳回布林值。
 
 ## 範例
 
 `isEmpty("")`
 
-返回true。
+傳回true。
 
 `isEmpty("Hello World")`
 
-返回false。
+傳回false。

@@ -1,21 +1,21 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: round
-description: 瞭解函式捨入
+description: 了解函式回合
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b9d5fd2f-9c7f-4811-b34f-23ce1d2c833f
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 15%
 
 ---
 
-# 圓 {#round}
+# round {#round}
 
-返回與參數最接近的整數值，並將捨入到正無窮大。
+傳回引數的最接近整數值，並系結捨入至正無窮大。
 
 ## 類別
 
@@ -30,13 +30,13 @@ ht-degree: 15%
 * 小數
 * 整數
 
-## 簽名和返回的類型
+## 簽名和返回類型
 
 `round(<decimal>)`
 
 `round(<integer>)`
 
-返回整數。
+傳回整數。
 
 ## 範例
 

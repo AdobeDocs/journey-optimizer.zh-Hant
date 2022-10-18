@@ -1,12 +1,13 @@
 ---
-product: adobe campaign
+solution: Journey Optimizer
+product: journey optimizer
 title: 函式
-description: 瞭解函式
+description: 了解函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
-source-git-commit: 4aa710dfa4f24cf9491e3dd5c57603b8e29fd990
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 75%
@@ -15,15 +16,15 @@ ht-degree: 75%
 
 # 函式 {#functions}
 
-函式可以具有不同的簽名（一組不同的有序參數）。 函式簽名可以具有0-N表達式作為有序參數。
+函式可以有不同的簽名（一組不同的有序參數）。 函式簽名可以有0-N個表達式作為有序參數。
 
-`<function name>`(`<expression as param 1>`。 `<expression as param 2>`,...。`<expression as param N>`)
+`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
-每個函式都具有特定的返回類型。
+每個函式都有特定的傳回類型。
 
-下面是支援的函式清單。
+以下是支援的函式清單。
 
-## 主要功能
+## 主要函式
 
 | 類別 | 函數 |
 |-------------|-----------------------|
@@ -45,7 +46,7 @@ ht-degree: 75%
 | 轉換 | [toDuration](../functions/functiontoduration.md) |
 | 轉換 | [toInteger](../functions/functiontointeger.md) |
 | 轉換 | [toString](../functions/functiontostring.md) |
-| 日期 | [當前時間](../functions/functioncurrenttimeinmillis.md) |
+| 日期 | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
 | 日期 | [inLastDays](../functions/functioninlastdays.md) |
 | 日期 | [inLastHours](../functions/functioninlasthours.md) |
 | 日期 | [inLastMonths](../functions/functioninlastmonths.md) |
@@ -66,7 +67,7 @@ ht-degree: 75%
 | 清單 | [在 ](../functions/functionin.md) |
 | 清單 | [相交](../functions/functionintersect.md) |
 | 清單 | [listSize](../functions/functionlimit.md) |
-| 清單 | [清單大小](../functions/functionlistsize.md) |
+| 清單 | [listSize](../functions/functionlistsize.md) |
 | 清單 | [serializeList](../functions/functionserializelist.md) |
 | 清單 | [sort](../functions/functionsort.md) |
 | Math | [random](../functions/functionrandom.md) |

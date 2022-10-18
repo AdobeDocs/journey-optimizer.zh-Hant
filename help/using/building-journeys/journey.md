@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 一般原則
 description: 一般原則
 feature: Journeys
@@ -6,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 5%
@@ -15,14 +17,14 @@ ht-degree: 5%
 
 # 一般原則{#jo-general-principle}
 
-[!DNL Journey Optimizer] 允許您利用事件或資料源中儲存的上下文資料構建即時業務流程使用案例。
+[!DNL Journey Optimizer] 可讓您善用儲存在事件或資料來源中的情境資料，建立即時協調使用案例。
 
-設計由以下功能支援的多步高級方案：
+設計由下列功能提供支援的多步驟進階案例：
 
-* 即時發送 **單一遞送** 接收事件時觸發，或 **批** 使用Adobe Experience Platform段。
+* 即時傳送 **單一傳送** 在收到事件時觸發，或 **批次** 使用Adobe Experience Platform區段。
 
-* 利用 **上下文資料** 來自事件、來自Adobe Experience Platform的資訊或來自第三方API服務的資料。
+* 運用 **內容資料** 來自事件、來自Adobe Experience Platform的資訊，或來自協力廠商API服務的資料。
 
-* 使用 **內置操作** 發送設計為 [!DNL Journey Optimizer] 建立 **自定義操作** 使用第三方系統發送消息。
+* 使用 **內建動作** 發送設計在 [!DNL Journey Optimizer] 或建立 **自訂動作** 如果您使用協力廠商系統來傳送訊息。
 
-* 使用 **旅程設計師**，構建多步使用案例：輕鬆拖放條目事件或讀取段活動、添加條件和發送個性化消息。
+* 使用 **歷程設計器**，建立您的多步驟使用案例：輕鬆拖放登入事件或讀取區段活動、新增條件及傳送個人化訊息。

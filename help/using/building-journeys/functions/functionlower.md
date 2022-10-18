@@ -1,21 +1,21 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: lower
-description: 瞭解函式下部
+description: 了解函式下方
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 3514f505-f934-4425-acce-39b06de7373c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '30'
 ht-degree: 23%
 
 ---
 
-# 下 {#lower}
+# lower {#lower}
 
-返回參數的小寫版本。
+傳回參數的小寫版本。
 
 ## 類別
 
@@ -29,14 +29,14 @@ ht-degree: 23%
 
 * 字串
 
-## 簽名和返回的類型
+## 簽名和返回類型
 
 `lower(<string>)`
 
-返回字串。
+傳回字串。
 
 ## 範例
 
 `lower("A")`
 
-返回&quot;a&quot;。
+傳回&quot;a&quot;。

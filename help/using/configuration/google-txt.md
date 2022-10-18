@@ -1,39 +1,41 @@
 ---
-title: 將GoogleTXT記錄添加到子域
-description: 瞭解如何將GoogleTXT記錄添加到子域
+solution: Journey Optimizer
+product: journey optimizer
+title: 將Google TXT記錄新增至子網域
+description: 了解如何將Google TXT記錄新增至子網域
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: d568480005d9b4aad5982c26184a5add0be6c83a
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '212'
 ht-degree: 21%
 
 ---
 
-# 將GoogleTXT記錄添加到子域 {#google-txt-record}
+# 將Google TXT記錄新增至子網域 {#google-txt-record}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_google"
->title="GoogleTXT記錄"
->abstract="為確保成功將電子郵件發送到Gmail地址，您可以將特殊的Google站點驗證TXT記錄添加到子域，以確保已驗證。"
+>title="Google TXT記錄"
+>abstract="若要確保將電子郵件成功傳送至Gmail地址，您可以將特殊的Google網站驗證TXT記錄新增至子網域，以確認其已驗證。"
 
 TXT 記錄是一種 DNS 記錄，用於提供關於網域的文字資訊，可由外部來源讀取。
 
-為了確保電子郵件的最佳傳遞和成功的傳遞， [!DNL Journey Optimizer] 允許您向子域添加特殊的Google站點驗證TXT記錄，以確保已驗證。
+為確保最佳傳遞能力，以及成功傳送電子郵件至Gmail地址， [!DNL Journey Optimizer] 可讓您將特殊的Google網站驗證TXT記錄新增至子網域，以確認其已驗證。
 
 >[!CAUTION]
 >
-> 只有子域具有 **[!UICONTROL Success]** 狀態。 有關子域狀態的詳細資訊，請參閱 [此部分](access-subdomains.md)。
+> 只有在子網域具有 **[!UICONTROL 成功]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](access-subdomains.md).
 
-要將GoogleTXT記錄添加到子域，請執行以下步驟：
+若要將Google TXT記錄新增至子網域，請執行下列步驟：
 
-1. 從 **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** 的子菜單。
+1. 從 **[!UICONTROL 管道]** / **[!UICONTROL 子網域]** 功能表。
 
-1. 在 **[!UICONTROL Google txt record]** 部分，輸入從 [Google工作區](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;<!--G Suite Admin tools-->，然後按一下 **[!UICONTROL Save]**。
+1. 在 **[!UICONTROL Google txt記錄]** 部分，輸入從 [Google Workspace](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools-->，然後按一下 **[!UICONTROL 儲存]**.
 
    ![](assets/subdomain-google-txt.png)
 
-1. 新增 TXT 記錄後，該記錄必須獲得 Google 驗證。要執行此操作，請導航至 [Google工作區](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;<!--G Suite Admin tools-->，然後啟動驗證步驟。
+1. 新增 TXT 記錄後，該記錄必須獲得 Google 驗證。若要這麼做，請導覽至 [Google Workspace](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools-->，然後啟動驗證步驟。

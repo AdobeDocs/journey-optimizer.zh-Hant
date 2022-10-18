@@ -1,44 +1,46 @@
 ---
-title: 在Journey Optimizer中調整垂直對齊和填充
-description: 瞭解如何調整垂直對齊和填充
+solution: Journey Optimizer
+product: journey optimizer
+title: 在Journey Optimizer中調整垂直對齊和邊框間距
+description: 了解如何調整垂直對齊和邊框間距
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '152'
 ht-degree: 5%
 
 ---
 
 # 調整垂直對齊與邊框間距 {#adjusting-vertical-alignment-and-padding}
 
-在本示例中，我們將調整由三列組成的結構元件內的填充和垂直對齊。
+在此示例中，我們將調整由三列組成的結構元件內的邊框間距和垂直對齊方式。
 
-1. 直接在電子郵件中選擇結構元件，或使用 **[!UICONTROL Navigation tree]** 的下界。
+1. 直接在電子郵件中選取結構元件，或使用 **[!UICONTROL 導航樹]** 左側功能表。
 
    ![](assets/alignment_1.png)
 
-1. 在工具欄中，按一下 **[!UICONTROL Select a column]** 選擇要編輯的。 也可以從結構樹中選取它。
+1. 在工具列中，按一下 **[!UICONTROL 選取欄]** 並選擇要編輯的。 您也可以從結構樹中選取它。
 
-   該列的可編輯參數顯示在 **[!UICONTROL Column settings]** 的子菜單。
+   該列的可編輯參數顯示在 **[!UICONTROL 欄設定]** 功能表。
 
    ![](assets/alignment_2.png)
 
-1. 下 **[!UICONTROL Vertical alignment]**&#x200B;選中 **[!UICONTROL Bottom]**。
+1. 在 **[!UICONTROL 垂直對齊]**，選取 **[!UICONTROL 底部]**.
 
-   內容元件將移到列的底部。
+   內容元件會移至欄底部。
 
    ![](assets/alignment_3.png)
 
-1. 下 **[!UICONTROL Padding]**，定義列內的頂部填充。 按一下鎖定表徵圖以用底部填充中斷同步。
+1. 在 **[!UICONTROL 邊框間距]**，定義欄內的上邊框間距。 按一下鎖定圖示以中斷與底部邊框間距的同步。
 
-   定義該列的左邊距和右邊距。
+   定義該欄的左邊框和右邊框間距。
 
    ![](assets/alignment_4.png)
 
-1. 同樣，繼續調整其他列的對齊和填充。
+1. 以類似方式繼續調整其他列的對齊方式和邊框間距。
 
 1. 儲存您的變更。

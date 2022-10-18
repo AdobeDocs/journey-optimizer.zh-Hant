@@ -1,21 +1,21 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: inNextDays
-description: 瞭解NextDays中的函式
+description: 了解NextDays中的函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 0cb3e0db-dc5b-4d4e-a057-af030d9bdb21
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 18%
 
 ---
 
-# 在下一天 {#inNextDays}
+# inNextDays {#inNextDays}
 
-如果給定日期或dateTime介於現在和現在+增量天之間，則返回true。
+如果指定的日期或dateTime介於現在和現在+差異天之間，則傳回true。
 
 ## 類別
 
@@ -29,17 +29,17 @@ ht-degree: 18%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| 日期時間 | 日期時間 |
-| 三角 | 整數 |
+| 日期時間 | dateTime |
+| delta | 整數 |
 
-## 簽名和返回的類型
+## 簽名和返回類型
 
 `inNextDays(<dateTime>,<integer>)`
 
-返回布爾值。
+傳回布林值。
 
 ## 範例
 
 `inNextDays(toDateTime('2010-12-12T01:11:00Z'), 4)`
 
-返回true。
+傳回true。

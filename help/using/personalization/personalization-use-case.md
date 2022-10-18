@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 個人化使用案例&冒號；訂單狀態通知
 description: 了解如何使用設定檔、選件決策和內容資訊來個人化訊息。
 feature: Personalization
@@ -6,9 +8,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -30,7 +32,7 @@ ht-degree: 0%
 
 ## 步驟1 — 建立歷程 {#create-journey}
 
-1. 按一下 **[!UICONTROL Journeys]** 功能表和建立新歷程。
+1. 按一下 **[!UICONTROL 歷程]** 功能表和建立新歷程。
 
    ![](assets/perso-uc4.png)
 
@@ -73,7 +75,7 @@ ht-degree: 0%
 
    ![](assets/perso-uc12.png)
 
-1. 輸入訊息並插入，從 **[!UICONTROL Contextual attributes]** 菜單、訂單項目名稱和訂單進度。
+1. 輸入訊息並插入，從 **[!UICONTROL 內容屬性]** 菜單、訂單項目名稱和訂單進度。
 
    ![](assets/perso-uc13.png)
 

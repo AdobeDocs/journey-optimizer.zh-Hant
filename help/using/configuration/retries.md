@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 重試次數
 description: 了解如何在將地址發送到隱藏清單之前執行重試
 feature: Application Settings
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 2%
+source-wordcount: '454'
+ht-degree: 1%
 
 ---
 
@@ -39,9 +41,9 @@ ht-degree: 2%
 
 如果預設值5不符合您的需求，您可以依照下列步驟修改錯誤臨界值。
 
-1. 前往 **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Suppression list]**。
+1. 前往 **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL 隱藏清單]**.
 
-1. 選取 **[!UICONTROL Edit suppression rules]** 按鈕。
+1. 選取 **[!UICONTROL 編輯隱藏規則]** 按鈕。
 
    ![](assets/suppression-list-edit-retries.png)
 

@@ -1,71 +1,73 @@
 ---
-title: Journey Optimizer系統管理入門
-description: 作為系統管理員，瞭解如何與Journey Optimizer合作
+solution: Journey Optimizer
+product: journey optimizer
+title: Journey Optimizer系統管理員快速入門
+description: 身為系統管理員，了解如何使用Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '732'
 ht-degree: 3%
 
 ---
 
-# 系統管理員入門 {#get-started-sys-admins}
+# 系統管理員快速入門 {#get-started-sys-admins}
 
-開始使用前 [!DNL Adobe Journey Optimizer]，準備環境需要幾個步驟。  必須執行這些步驟， [資料工程師](data-engineer.md) 和 [行程練習者](marketer.md) 可以開始使用 [!DNL Adobe Journey Optimizer]。
+開始使用之前 [!DNL Adobe Journey Optimizer]，準備環境需執行數個步驟。  您必須執行這些步驟，才能 [資料工程師](data-engineer.md) 和 [歷程實踐者](marketer.md) 可以開始使用 [!DNL Adobe Journey Optimizer].
 
 
-作為 **系統管理員**&#x200B;你需要 **瞭解產品配置檔案並分配權限** 用於沙盒管理和通道配置。 您還需要設定沙盒，並管理它們以獲取可用的產品配置檔案。 然後，您將能夠將團隊成員分配給產品配置檔案。
+As a **系統管理員**，您需要 **了解產品設定檔並指派權限** 用於沙箱管理和通道設定。 您也需要設定沙箱，並針對可用的產品設定檔進行管理。 然後，您便能將團隊成員指派給產品設定檔。
 
-這些功能可由 **[!UICONTROL Product administrators]** 可以訪問管理控制台。 [瞭解有關Adobe Admin Console的詳細資訊](https://helpx.adobe.com/tw/enterprise/admin-guide.html){target=&quot;_blank&quot;}。
+這些功能可由管理 **[!UICONTROL 產品管理員]** 具有Admin Console存取權限。 [深入了解Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/admin-guide.html){target=&quot;_blank&quot;}。
 
-瞭解以下頁面中的訪問管理：
+請前往下列頁面，了解存取管理：
 
-1. **建立沙箱** 將實例分區到獨立的虛擬環境。 **沙箱** 建立於 [!DNL Journey Optimizer]。 在 [沙箱](../../administration/sandboxes.md) 的子菜單。
+1. **建立沙箱** 將實例分區到獨立的虛擬環境中。 **沙箱** 在中建立 [!DNL Journey Optimizer]. 了解更多 [沙箱](../../administration/sandboxes.md) 區段。
 
    >[!NOTE]
-   >作為 **系統管理員**，則 **[!UICONTROL Sandboxes]** 菜單 [!DNL Journey Optimizer]，更新您在 [Admin Console](https://adminconsole.adobe.com/){_blank}。 瞭解如何在中更新產品配置檔案 [此頁](../../administration/permissions.md#edit-product-profile)。
+   >As a **系統管理員**，如果您看不到 **[!UICONTROL 沙箱]** 功能表 [!DNL Journey Optimizer]，請在 [Admin Console](https://adminconsole.adobe.com/){_blank}。 了解如何在 [本頁](../../administration/permissions.md#edit-product-profile).
 
-1. **瞭解產品配置檔案**。 產品配置檔案是一組單一權限，允許用戶訪問介面中的某些功能或對象。 在 [現成產品配置檔案](../../administration/ootb-product-profiles.md) 的子菜單。
+1. **了解產品設定檔**. 產品設定檔是一組統一權限，可讓使用者存取介面中的特定功能或物件。 了解更多 [現成可用的產品設定檔](../../administration/ootb-product-profiles.md) 區段。
 
-1. **設定權限** 用於產品配置檔案，包括 **沙箱**，並通過將團隊成員分配給不同的產品配置檔案來授予他們訪問權限。 此步驟在 [Admin Console](https://adminconsole.adobe.com/){_blank}。 權限是唯一權限，允許您定義分配給 **[!UICONTROL Product profile]**。 每個權限都在功能（如旅程或優惠）下收集，這些功能表示中的不同功能或對象 [!DNL Journey Optimizer]。 在 [權限級別](../../administration/high-low-permissions.md) 的子菜單。
+1. **設定權限** 針對產品設定檔，包括 **沙箱**，並將團隊成員指派至不同的產品設定檔，以授予其存取權。 此步驟會在 [Admin Console](https://adminconsole.adobe.com/){_blank}。 權限是統一權限，允許您定義分配給的授權 **[!UICONTROL 產品設定檔]**. 每個權限都是透過功能（例如歷程或選件）收集而得，這些功能代表中的不同功能或物件 [!DNL Journey Optimizer]. 了解更多 [權限層級](../../administration/high-low-permissions.md) 區段。
 
-此外，您必須將需要訪問Assets Essentials的用戶添加到 **Assets Essentials消費者用戶** 或 **Assets Essentials用戶** 產品配置檔案。 [閱讀Assets Essentials文檔中的更多內容](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
-
->[!NOTE]
->對於2022年1月6日之前獲得的Journey Optimizer產品，必須部署 [!DNL Adobe Experience Manager Assets Essentials] 為您的組織。 在 [部署Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}部分。
-
-訪問 [!DNL Journey Optimizer] 您首次配置了生產沙盒並根據合同分配了特定數量的IP。
-
-要能夠建立您的行程和發送消息，請訪問 **管理** 的子菜單。 瀏覽 **[!UICONTROL Channels]** 的子菜單。
+此外，您必須將需要存取Assets Essentials的使用者新增至 **Assets Essentials消費者使用者** 或/和 **Assets Essentials使用者** 產品設定檔。 [如需詳細資訊，請參閱Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
 
 >[!NOTE]
->作為 **系統管理員**，則 **[!UICONTROL Channels]** 菜單 [!DNL Journey Optimizer]，更新您在 [Admin Console](https://adminconsole.adobe.com/){_blank}。 瞭解如何在中更新產品配置檔案 [此頁](../../administration/permissions.md#edit-product-profile)。
+>針對2022年1月6日之前取得的Journey Optimizer產品，您必須部署 [!DNL Adobe Experience Manager Assets Essentials] 貴組織。 了解更多 [部署Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}區段。
 
-按照以下步驟操作：
+存取 [!DNL Journey Optimizer] 系統會首次布建生產沙箱，並根據您的合約分配特定數量的IP。
 
-1. **配置消息和通道**:定義曲面、調整和定制電子郵件、簡訊和推送消息設定
+若要建立您的歷程並傳送訊息，請存取 **管理** 功能表。 瀏覽 **[!UICONTROL 管道]** 功能表來設定訊息和通道表面（即訊息預設集）。
 
-   * 定義 **推送通知設定** 同時 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]。 [了解更多](../../configuration/push-gs.md)
+>[!NOTE]
+>As a **系統管理員**，如果您看不到 **[!UICONTROL 管道]** 功能表 [!DNL Journey Optimizer]，請在 [Admin Console](https://adminconsole.adobe.com/){_blank}。 了解如何在 [本頁](../../administration/permissions.md#edit-product-profile).
 
-   * 建立 **通道曲面** （即消息預設），以配置電子郵件、簡訊和推送通知所需的所有技術參數。 [了解更多](../../configuration/channel-surfaces.md)
+請遵循下列步驟：
 
-   * 配置 **簡訊頻道** 配置SMS所需的所有技術參數。 [了解更多](../../configuration/sms-configuration.md)
+1. **設定訊息和通道**:定義介面、調整和自訂電子郵件、簡訊和推播訊息設定
 
-   * 管理天數 **重試** 在將電子郵件地址發送到禁止顯示清單之前執行。 [了解更多](../../configuration/manage-suppression-list.md)
+   * 定義 **推播通知設定** 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]. [了解更多](../../configuration/push-gs.md)
 
-1. **委託子域**:對於在Journey Optimizer使用的任何新子域，第一步是將其委派。 [了解更多](../../configuration/about-subdomain-delegation.md)
+   * 建立 **通道曲面** （即訊息預設集），以設定電子郵件、簡訊和推播通知所需的所有技術參數。 [了解更多](../../configuration/channel-surfaces.md)
+
+   * 設定 **SMS通道** 來設定簡訊所需的所有技術參數。 [了解更多](../../configuration/sms-configuration.md)
+
+   * 管理 **重試** 會先執行，再將電子郵件地址傳送至隱藏清單。 [了解更多](../../configuration/manage-suppression-list.md)
+
+1. **委派子網域**:若要在Journey Optimizer中使用任何新子網域，第一步是將其委派。 [了解更多](../../configuration/about-subdomain-delegation.md)
 
    ![](../assets/subdomain.png)
 
-1. **建立IP池**:通過將隨實例配置的IP地址組合在一起，提高電子郵件的可傳遞性和信譽。 [了解更多](../../configuration/ip-pools.md)
+1. **建立IP池**:將與您執行個體布建的IP位址分組，以改善電子郵件傳遞能力和信譽。 [了解更多](../../configuration/ip-pools.md)
 
    ![](../assets/ip-pool.png)
 
-1. **管理禁止顯示和允許清單**:通過抑制和允許清單提高交付能力
+1. **管理隱藏和允許的清單**:透過隱藏和允許清單改善您的傳遞能力
 
-   * A [隱藏清單](../../reports/suppression-list.md) 包含您要從交貨中排除的電子郵件地址，因為發送到這些聯繫人可能會損害您的發送信譽和交貨率。 您可以監視在途中自動被排除在發送之外的所有電子郵件地址，如無效地址、始終軟反彈的地址，以及可能對您的電子郵件信譽產生負面影響的地址，以及針對您的某封郵件發出某種垃圾郵件投訴的收件人。 瞭解如何管理 [隱藏清單](../../configuration/manage-suppression-list.md) 和 [重試](../../configuration/retries.md)。
+   * A [隱藏清單](../../reports/suppression-list.md) 包含您要從傳送中排除的電子郵件地址，因為傳送給這些聯絡人可能會損害您的傳送信譽和傳送率。 您可以監控自動排除而無法傳送歷程的所有電子郵件地址，例如無效地址、持續軟退信且可能對電子郵件信譽造成負面影響的地址，以及對您的其中一封電子郵件發出某種垃圾郵件投訴的收件者。 了解如何管理 [隱藏清單](../../configuration/manage-suppression-list.md) 和 [重試](../../configuration/retries.md).
    ![](../assets/suppression-list-filtering-example.png)
 
-   * 的 [允許的清單](../../configuration/allow-list.md) 允許您指定單個電子郵件地址或域，這些地址或域將是唯一有權接收您從特定沙箱發送的電子郵件的收件人或域。 這可以防止您在測試環境中意外地將電子郵件發送到真實的客戶地址。 瞭解如何 [啟用允許的清單](../../configuration/allow-list.md)。
-   瞭解有關中的可交付性管理的詳細資訊 [!DNL Adobe Journey Optimizer] [此頁](../../reports/deliverability.md)。
+   * 此 [允許清單](../../configuration/allow-list.md) 可讓您指定個別電子郵件地址或網域，這些地址或網域將是唯一獲授權接收您從特定沙箱傳送之電子郵件的收件者或網域。 這可防止您在測試環境中意外傳送電子郵件至真實的客戶地址。 了解如何 [啟用允許的清單](../../configuration/allow-list.md).
+   深入了解傳遞能力管理，位於 [!DNL Adobe Journey Optimizer] [在本頁](../../reports/deliverability.md).

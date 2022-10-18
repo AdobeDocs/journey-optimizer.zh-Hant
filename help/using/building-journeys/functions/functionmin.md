@@ -1,21 +1,21 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: min
-description: 瞭解函式min
+description: 了解函式主要
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 1c425d1d-08b4-446b-83ce-db376b2bf39f
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 6%
 
 ---
 
-# 分鐘 {#min}
+# min {#min}
 
-返回一組表達式中的最小值，以清單或兩個表達式的形式給定。 忽略空值。
+傳回一組運算式中的最小值，以清單或兩個運算式的形式提供。 忽略Null值。
 
 ## 類別
 
@@ -27,31 +27,31 @@ ht-degree: 6%
 
 ## 參數
 
-* listDuration（持續時間）
+* listDuration
 * listInteger
-* 清單十進位
-* 清單日期時間
+* listDecimal
+* listDateTime
 * listDateTimeOnly
 * listDateOnly
 * 持續時間
 * 整數
 * 小數
-* 日期時間
-* 日期僅時間
+* dateTime
+* dateTimeOnly
 
 ## 簽名和返回的類型
 
 `min(<listDuration>)`
 
-返回持續時間。
+傳回持續時間。
 
 `min(<listInteger>)`
 
-返回持續時間。
+傳回持續時間。
 
 `min(<listDateTimeOnly>)`
 
-返回不考慮時區的日期時間。
+返回日期時間，而不考慮時區。
 
 `min(<listDateTime>)`
 
@@ -59,19 +59,19 @@ ht-degree: 6%
 
 `min(<listDateOnly>)`
 
-返回日期。
+傳回日期。
 
 `min(<listDecimal>)`
 
-返回十進位。
+傳回小數。
 
 `min(<decimal>,<decimal>)`
 
-返回十進位。
+傳回小數。
 
 `min(<duration>,<duration>)`
 
-返回持續時間。
+傳回持續時間。
 
 `min(<dateTime>,<dateTime>)`
 
@@ -79,11 +79,11 @@ ht-degree: 6%
 
 `min(<dateTimeOnly>,<dateTimeOnly>)`
 
-返回不考慮時區的日期時間。
+返回日期時間，而不考慮時區。
 
 `min(<integer>,<integer>)`
 
-返回整數。
+傳回整數。
 
 ## 範例
 
@@ -95,4 +95,4 @@ ht-degree: 6%
 
 `min([10,null,8])`
 
-返回8。
+傳回8。

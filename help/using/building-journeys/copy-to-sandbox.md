@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 將歷程複製至其他非道
 description: 了解如何將歷程複製至其他非道
 feature: Journeys
@@ -6,18 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 將歷程複製至其他沙箱 {#copy-to-sandbox}
+# 將歷程複製到另一個沙箱 {#copy-to-sandbox}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
->title="將歷程複製至其他沙箱"
+>title="將歷程複製到另一個沙箱"
 >abstract="Journey Optimizer可讓您將整個歷程從一個沙箱複製到另一個沙箱。 例如，您可以將歷程從階段沙箱環境複製到生產沙箱。 除了歷程本身，Journey Optimizer也會複製歷程所仰賴的大部分物件。"
 
 >[!CONTEXTUALHELP]

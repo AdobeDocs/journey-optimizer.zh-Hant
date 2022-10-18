@@ -1,12 +1,12 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: getListItem
-description: 瞭解gstListItem函式
+description: 了解函式gstListItem
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 20%
@@ -29,33 +29,33 @@ ht-degree: 20%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| list | 清單字串 |
-| 清單 | list布爾 |
+| list | listString |
+| 清單 | listBoolean |
 | 清單 | listInteger |
-| 清單 | 清單十進位 |
-| 清單 | listDuration（持續時間） |
-| 清單 | 清單日期時間 |
+| 清單 | listDecimal |
+| 清單 | listDuration |
+| 清單 | listDateTime |
 | 清單 | listDateTimeOnly |
 | 清單 | listDateOnly |
 | 索引 | 整數 |
 
-## 簽名和返回的類型
+## 簽名和返回類型
 
 `getListItem(<listInteger>,<index>)`
 
-返回整數。
+傳回整數。
 
 `getListItem(<listDecimal>,<index>)`
 
-返回十進位。
+傳回小數。
 
 `getListItem(<listString>,<index>)`
 
-返回字串。
+傳回字串。
 
 `getListItem(<listDateTimeOnly>,<index>)`
 
-返回不考慮時區的日期時間。
+返回日期時間，而不考慮時區。
 
 `getListItem(<listDateTime>,<index>)`
 
@@ -63,26 +63,26 @@ ht-degree: 20%
 
 `getListItem(<listDateOnly>,<index>)`
 
-返回日期清單。
+傳回日期清單。
 
 `getListItem(<listBoolean>,<index>)`
 
-返回布爾值。
+傳回布林值。
 
 `getListItem(<listDuration>,<index>)`
 
-返回持續時間。
+傳回持續時間。
 
 ## 範例
 
 `getListItem([10, 2, 3], 1)`
 
-返回&quot;2&quot;
+傳回&quot;2&quot;
 
 `getListItem(["A", "B", "C"], 2)`
-返回&quot;C&quot;
+傳回&quot;C&quot;
 
-事件欄位「event.appVersion」的示例，其值為：&quot;20.45.2.3434&quot;
+事件欄位為「event.appVersion」且具有值的範例：&quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 
@@ -90,4 +90,4 @@ ht-degree: 20%
 
 `getListItem(split(@{event.appVersion}, "\\."), 0)`
 
-返回&quot;20&quot;
+傳回&quot;20&quot;

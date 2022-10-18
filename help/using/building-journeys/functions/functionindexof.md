@@ -1,21 +1,21 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: indexOf
-description: 瞭解函式indexOf
+description: 了解函式indexOf
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
-# 索引 {#indexOf}
+# indexOf {#indexOf}
 
-檢查第一個參數字串是否以特定字串結尾（第二個參數字串）。 如果找不到字串，則返回–1。
+檢查第一個引數字串結尾是否為特定字串（第二個引數字串）。 如果找不到字串，則返回–1。
 
 ## 類別
 
@@ -32,18 +32,18 @@ ht-degree: 18%
 | 字串 | 字串 |
 | 指定值 | 字串 |
 
-## 簽名和返回的類型
+## 簽名和返回類型
 
 `indexOf(<string>,<string>)`
 
-返回整數。
+傳回整數。
 
 ## 範例
 
 `indexOf("Hello", "l")`
 
-返回2。
+傳回2。
 
-說明：
+解釋:
 
 在&quot;Hello&quot;中，第一個出現的&quot;l&quot;位於位置2。

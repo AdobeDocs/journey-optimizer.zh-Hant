@@ -1,15 +1,17 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 設定歷程
-description: 瞭解如何配置資料源、事件和操作。
+description: 了解如何設定資料來源、事件和動作。
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 44%
+source-wordcount: '406'
+ht-degree: 43%
 
 ---
 
@@ -17,32 +19,32 @@ ht-degree: 44%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
->title="關於行程配置"
->abstract="為了隨行程發送消息，您需要配置資料源、事件和操作。 資料源允許您定義到系統的連接，以檢索將在您的行程中使用的附加資訊，例如在您的條件中。 事件允許您在收到事件時觸發行程。 自定義操作允許您連接到第三方系統以發送消息。 如果您使用的是Journey Optimizer內置的消息功能，則無需配置操作。"
+>title="關於歷程設定"
+>abstract="若要隨歷程傳送訊息，您需要設定資料來源、事件和動作。 資料來源可讓您定義系統連線，以擷取將用於歷程的其他資訊，例如在您的條件中。 事件可讓您在收到事件時觸發歷程。 自訂動作可讓您連線至協力廠商系統以傳送訊息。 如果您使用Journey Optimizer內建的訊息功能，則不需要設定動作。"
 
-為了發送包含行程的消息，您需要配置 **[!UICONTROL Data Sources]**。 **[!UICONTROL Events]** 和 **[!UICONTROL Actions]**。
+若要隨歷程傳送訊息，您需要設定 **[!UICONTROL 資料來源]**, **[!UICONTROL 事件]** 和 **[!UICONTROL 動作]**.
 
 ![](assets/admin-menu.png)
 
 ## 資料來源 {#data-sources}
 
-資料源配置允許您定義到系統的連接，以檢索將在您的行程中使用的其他資訊。 [了解更多](../../using/datasource/about-data-sources.md)
+資料來源設定可讓您定義系統連線，以擷取將用於歷程的其他資訊。 [了解更多](../../using/datasource/about-data-sources.md)
 
 ## 活動 {#events}
 
-通過事件，您可以觸發整個行程，以即時向流入旅程的個體發送消息。
+事件可讓您整體觸發歷程，以即時傳送訊息給流入歷程的個人。
 
-在事件配置中，您可以配置行程中預期的事件。 傳入事件的資料按照Adobe體驗資料模型(XDM)進行規範化。 事件來自串流獲取 API，適用於驗證和未驗證的事件（例如 Adobe Mobile SDK 事件）。[了解更多](../../using/event/about-events.md)
+在事件設定中，您會設定歷程中預期的事件。 會依照Adobe Experience Data Model(XDM)，對傳入事件的資料進行標準化。 事件來自串流獲取 API，適用於驗證和未驗證的事件（例如 Adobe Mobile SDK 事件）。[了解更多](../../using/event/about-events.md)
 
 ## 動作 {#actions}
 
-Journey Optimizer消息功能是內置的：您只需將渠道操作活動添加到您的旅程中。 如果您使用第三方系統發送消息，則可以建立自定義操作。 [了解更多](../../using/action/action.md)
+Journey Optimizer訊息功能內建：您只需將管道動作活動新增至歷程即可。 如果您使用協力廠商系統來傳送訊息，則可建立自訂動作。 [了解更多](../../using/action/action.md)
 
 ## 透過 Adobe Experience Platform 欄位瀏覽 {#friendly-names-display}
 
 定義[事件有效負載](../event/about-creating.md#define-the-payload-fields)、[欄位群組有效負載](../datasource/configure-data-sources.md#define-field-groups)，以及在[運算式編輯器](../building-journeys/expression/expressionadvanced.md)中選取欄位時，除了欄位名稱外，還會顯示顯示名稱。此資訊會從「Experience 資料模型」的結構定義中擷取。
 
-如果在設定結構時提供了 &quot;xdm:alternateDisplayInfo&quot; 之類的描述元，則好記的名稱會取代顯示名稱。它在使用「eVar」和一般欄位時特別有用。 您可以透過 API 呼叫來設定好記名稱描述因子。 有關詳細資訊，請參見 [架構註冊表開發人員指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+如果在設定結構時提供了 &quot;xdm:alternateDisplayInfo&quot; 之類的描述元，則好記的名稱會取代顯示名稱。它在使用「eVar」和一般欄位時特別有用。 您可以透過 API 呼叫來設定好記名稱描述因子。 如需詳細資訊，請參閱 [Schema Registry開發人員指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 ![](assets/xdm-from-descriptors.png)
 

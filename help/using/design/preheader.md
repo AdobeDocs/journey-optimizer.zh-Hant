@@ -1,14 +1,16 @@
 ---
-title: 在Journey Optimizer添加前標
-description: 瞭解如何設計電子郵件內容
+solution: Journey Optimizer
+product: journey optimizer
+title: 在Journey Optimizer中新增前置標題
+description: 了解如何設計您的電子郵件內容
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '193'
 ht-degree: 2%
 
 ---
@@ -17,35 +19,35 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="添加前標"
->abstract="前標是一個簡短的摘要文本，在查看來自電子郵件客戶端的電子郵件時，它跟在主題行後。 在許多情況下，它提供了電子郵件的簡短摘要，並且通常是一句長。"
+>title="新增前置詞"
+>abstract="前置詞是摘要文字，在從電子郵件用戶端檢視電子郵件時，會遵循主旨行。 在許多情況下，它會提供電子郵件的簡短摘要，且通常為一句長。"
 
-前標是一個簡短的摘要文本，在查看來自電子郵件客戶端的電子郵件時，它跟在主題行後。 在許多情況下，它提供了電子郵件的簡短摘要，並且通常是一句長。
+前置詞是摘要文字，在從電子郵件用戶端檢視電子郵件時，會遵循主旨行。 在許多情況下，它會提供電子郵件的簡短摘要，且通常為一句長。
 
 >[!NOTE]
 >
->並非所有電子郵件客戶端都支援預標頭。 不支援時，不顯示前標。
+>所有電子郵件用戶端均不支援預先標題。 若不支援，則不會顯示預先標題。
 
-要定義電子郵件前標，請執行以下步驟：
+若要定義電子郵件預先標題，請遵循下列步驟：
 
-1. 在電子郵件設計器中添加 **[!UICONTROL Structure components]** 開始設計電子郵件。
+1. 從電子郵件設計工具中，新增 **[!UICONTROL 結構元件]** 開始設計電子郵件。
 
    ![](assets/preheader_1.png)
 
-1. 從 **[!UICONTROL Body settings]** 右窗格，按一下 **編輯** 的 **[!UICONTROL Preheader]** 的子菜單。
+1. 從 **[!UICONTROL 內文設定]** 右窗格，按一下 **編輯** 旁邊 **[!UICONTROL Preheader]** 欄位來新增內容。
 
    ![](assets/preheader_2.png)
 
-1. 添加前標。 您可以通過按一下 **[!UICONTROL Add personalization]** 表徵圖
+1. 新增您的標題。 您可以按一下 **[!UICONTROL 新增個人化]** 表徵圖。
 
    ![](assets/preheader_3.png)
 
-1. 從 **[!UICONTROL Edit Personalization]** 窗口 **[!UICONTROL Content block]**。 **[!UICONTROL Dynamic content]** 或 **[!UICONTROL Personalization fields]**。
+1. 從 **[!UICONTROL 編輯個人化]** 視窗中，您可以新增 **[!UICONTROL 內容區塊]**, **[!UICONTROL 動態內容]** 或 **[!UICONTROL 個人化欄位]**.
 
-1. 按一下 **[!UICONTROL Validate]** 來檢查個性化語法。
+1. 按一下 **[!UICONTROL 驗證]** 以檢查個人化語法。
 
    ![](assets/preheader_4.png)
 
-1. 按一下「**[!UICONTROL Save]**」。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
-您的前標現在已配置為您的電子郵件。
+您的電子郵件現在已設定前置標題。

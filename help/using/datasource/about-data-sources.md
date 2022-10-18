@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 關於資料來源
 description: 瞭解如何設定資料來源
 feature: Data Sources
@@ -6,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 73%
@@ -29,7 +31,7 @@ ht-degree: 73%
 
 ➡️ [在影片中探索此功能](#video)
 
-如果您的歷程僅運用來自事件裝載的本機資料，則不需要進行此設定。例如，如果行程由一個事件組成，然後是一個僅使用事件資料的渠道操作活動，則無需配置資料源。
+如果您的歷程僅運用來自事件裝載的本機資料，則不需要進行此設定。例如，如果您的歷程是由事件組成，接著僅使用來自事件資料的管道動作活動，則不需要設定資料來源。
 
 資料來源有兩種類型：
 
@@ -40,11 +42,11 @@ ht-degree: 73%
 
 >[!NOTE]
 >
->現在，資料源支援架構關係。
+>資料來源現在支援結構關係。
 
-有關如何配置Adobe Experience Platform資料源和外部資料源以及如何查找和使用行程中的資料的詳細資訊，請觀看此資訊 [教程視頻](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target=&quot;_blank&quot;}。
+如需如何設定Adobe Experience Platform資料來源和外部資料來源，以及如何在歷程中尋找和使用資料的詳細資訊，請觀看此影片 [教學課程影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target=&quot;_blank&quot;}。
 
-## How-to視頻 {#video}
+## 作法影片 {#video}
 
 了解資料來源為何，以及如何設定 Experience Platform 和外部資料來源。
 

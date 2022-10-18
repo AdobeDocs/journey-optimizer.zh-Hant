@@ -1,14 +1,16 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 等待活動
-description: 瞭解等待活動
+description: 了解等候活動
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '327'
 ht-degree: 4%
 
 ---
@@ -18,9 +20,9 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="等待活動"
->abstract="如果要在執行路徑中的下一個活動之前等待，可以使用「等待」活動。 它允許您定義執行下一個活動的時間。 有兩個選項：持續時間和自定義。"
+>abstract="如果要在路徑中執行下一個活動之前等待，則可以使用等待活動。 它可讓您定義下一個活動的執行時間。 有兩個選項可用：持續時間和自訂。"
 
-如果要在執行路徑中的下一個活動之前等待，可以使用 **[!UICONTROL Wait]** 的子菜單。 它允許您定義執行下一個活動的時間。 有三種選擇：
+如果您想在路徑中執行下一個活動之前等待，可以使用 **[!UICONTROL 等待]** 活動。 它可讓您定義下一個活動的執行時間。 有三個可用選項：
 
 * [持續時間](#duration)
 * [自訂](#custom)
@@ -32,13 +34,13 @@ ht-degree: 4%
 
 ## 關於等待活動{#about_wait}
 
-最大等待持續時間為30天。 在test模式下， **[!UICONTROL Wait time in test]** 參數允許您定義每個等待活動將持續的時間。 預設時間為 10 秒。這將確保您快速獲得test結果。 請參閱 [此頁](../building-journeys/testing-the-journey.md)
+等待時間上限為30天。 在測試模式中， **[!UICONTROL 測試等待時間]** 參數可讓您定義每個等待活動的持續時間。 預設時間為 10 秒。這可確保您快速取得測試結果。 請參閱 [本頁](../building-journeys/testing-the-journey.md)
 
-當在行程中使用多個等待活動時要小心，因為全局行程超時為30天，這意味著配置檔案在他/她輸入行程後將始終從行程中退出。
+在歷程中使用多個等待活動時請小心，因為全域歷程逾時為30天，這表示設定檔在其輸入後最多30天將一律從歷程中退出。
 
-## 持續時間等待{#duration}
+## 持續等待{#duration}
 
-選擇在執行下一活動之前等待的持續時間。
+選取下一個活動執行之前等待的持續時間。
 
 ![](assets/journey55.png)
 
@@ -51,15 +53,15 @@ Select the date for the execution of the next activity.
 
 -->
 
-## 自定義等待{#custom}
+## 自訂等待{#custom}
 
-此選項允許您使用基於來自事件或資料源的欄位的高級表達式來定義自定義日期，例如2020年7月12日下午5點。 它不允許您定義自定義持續時間，例如7天。 表達式編輯器中的表達式應提供dateTimeOnly格式。 請參閱此 [頁](expression/expressionadvanced.md)。 有關dateTimeOnly格式的詳細資訊，請參閱 [頁](expression/data-types.md)。
+此選項可讓您根據來自事件或資料來源的欄位，使用進階運算式來定義自訂日期，例如2020年7月12日下午5點。 它不會讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 請參閱 [頁面](expression/expressionadvanced.md). 如需dateTimeOnly格式的詳細資訊，請參閱 [頁面](expression/data-types.md).
 
 >[!NOTE]
 >
->可以利用dateTimeOnly表達式或使用函式轉換為dateTimeOnly。 例如：toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位為2016-08-12T09:46:06Z。
+>您可以運用dateTimeOnly運算式，或使用函式來轉換為dateTimeOnly。 例如：toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位為2016-08-12T09格式:46:06Z。
 >
->的 **時區** 在你旅程的屬性中。 因此，目前無法從介面直接指向完全ISO-8601時間戳混合時間和時區偏移，如2016-08-12T09:46:06.982-05。 請參閱[此頁面](../building-journeys/timezone-management.md)。
+>此 **時區** 在歷程的屬性中是預期的。 因此，今天無法從介面直接指向完整的ISO-8601時間戳，混合時間和時區偏移，如2016-08-12T09:46:06.982-05。 請參閱[此頁面](../building-journeys/timezone-management.md)。
 
 ![](assets/journey57.png)
 

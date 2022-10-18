@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 全域報告
 description: 了解如何使用全域報表中的資料
 feature: Reporting
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1201'
+ht-degree: 4%
 
 ---
 
@@ -193,7 +195,7 @@ ht-degree: 0%
    <td> 臨時錯誤（如完整收件箱）的總數。<br/> </td> 
 </tr>
   <tr> 
-   <td> 垃圾郵件投訴<br/> </td> 
+   <td> 垃圾郵件投訴數<br/> </td> 
    <td> 宣告郵件為垃圾郵件或垃圾郵件的次數。<br/> </td> 
 </tr>
   <tr> 

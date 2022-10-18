@@ -1,21 +1,21 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: setDays
-description: 瞭解函式setDays
+description: 了解函式setDays
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: c2757e41-8206-44f7-9dbb-1fa79c0ba6e6
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 12%
 
 ---
 
-# 設定天數 {#setDays}
+# setDays {#setDays}
 
-僅設定日期時間或日期時間的日期。 例如，如果要等到月中某一天，則可以強制該日。
+僅設定日期時間或日期時間的日期。 例如，如果您想要等到當月的某一天，可以強制該天。
 
 ## 類別
 
@@ -29,11 +29,11 @@ ht-degree: 12%
 
 | 參數 | 類型 |
 |--- |--- |
-| 日期時間 | 日期時間 |
-| 不考慮區域的日期時間 | 日期僅時間 |
+| 日期時間 | dateTime |
+| 不考慮時區的日期時間 | dateTimeOnly |
 | 天 | 整數 |
 
-## 簽名和返回的類型
+## 簽名和返回類型
 
 `setDays(<dateTime>,<days>)`
 
@@ -41,12 +41,12 @@ ht-degree: 12%
 
 `setDays(<dateTimeOnly>,<days>)`
 
-返回不考慮時區的日期時間。
+返回日期時間，而不考慮時區。
 
 ## 範例
 
 `setDays(toDateTime('2010-12-12T01:11:00Z'), 25)`
 
-返回2010-12-25T01:11:00Z。
+傳回2010-12-25T01:11:00Z。
 
 `setDays(toDateTimeOnly(@{MyEvent.registrationDate}), 1)`

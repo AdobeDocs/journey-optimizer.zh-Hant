@@ -1,21 +1,21 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: substr
-description: 瞭解函式子字串
+description: 了解函式子字串
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 58a3107a-b4f3-43da-b454-5ce597515847
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 15%
 
 ---
 
-# 子str {#substr}
+# substr {#substr}
 
-返回開始索引和結束索引之間字串表達式的子字串。 如果未定義結束索引，則它介於開始索引和結束之間。
+返回起始索引和結束索引之間的字串表達式的子字串。 如果未定義結束索引，則它介於開始索引和結束之間。
 
 ## 類別
 
@@ -31,15 +31,15 @@ ht-degree: 15%
 |-------------|----------|
 | 字串 | 字串 |
 | beginIndex | 整數 |
-| 結束索引 | 整數 |
+| endIndex | 整數 |
 
-## 簽名和返回的類型
+## 簽名和返回類型
 
 `substr(<string>,<beginIndex>)`
 
 `substr(<string>,<beginIndex>,<endIndex>)`
 
-返回字串。
+傳回字串。
 
 ## 範例
 
@@ -49,4 +49,4 @@ ht-degree: 15%
 
 `substr("Hello World", 0, 5)`
 
-返回&quot;Hello&quot;。
+傳回&quot;Hello&quot;。

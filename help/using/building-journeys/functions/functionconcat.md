@@ -1,21 +1,21 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: concat
-description: 瞭解函式概念
+description: 了解函式概念
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 690c8aa9-f754-4720-b4ed-a338e5d3b79d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 27%
 
 ---
 
-# 康 {#concat}
+# concat {#concat}
 
-連接兩個字串參數或字串清單。
+串連兩個字串參數或字串清單。
 
 ## 類別
 
@@ -29,16 +29,16 @@ ht-degree: 27%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| 清單 | 清單字串 |
+| 清單 | listString |
 | 字串 | 字串 |
 
-## 簽名和返回的類型
+## 簽名和返回類型
 
 `concat(<string>,<string>)`
 
 `concat(<listString>)`
 
-返回字串。
+傳回字串。
 
 ## 範例
 
@@ -48,4 +48,4 @@ ht-degree: 27%
 
 `concat(["Hello"," ","World"])`
 
-返回「Hello World」。
+返回&quot;Hello World&quot;。

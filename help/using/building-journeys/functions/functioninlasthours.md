@@ -1,21 +1,21 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: inLastHours
-description: 瞭解LastHours中的函式
+description: 了解inLastHours的函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: c648d711-c81b-403b-9adb-792c7e79e4e2
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 17%
 
 ---
 
-# 在最後時間 {#inLastHours}
+# inLastHours {#inLastHours}
 
-如果給定日期時間介於現在和現在之間 — 增量小時數，則返回true。
+如果指定的日期時間介於現在和現在之間 — 差值小時，則傳回true。
 
 ## 類別
 
@@ -29,21 +29,21 @@ ht-degree: 17%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| 日期時間 | 日期時間 |
-| 三角 | 整數 |
+| 日期時間 | dateTime |
+| delta | 整數 |
 
-## 簽名和返回的類型
+## 簽名和返回類型
 
 `inLastHours(<dateTime>,<integer>)`
 
-返回布爾值。
+傳回布林值。
 
 ## 範例
 
 `inLastHours(toDateTime('2019-12-12T01:11:00Z'), 4)`
 
-返回true。
+傳回true。
 
 `inLastHours(@{MyEvent.timestamp}, 4)`
 
-返回true。
+傳回true。

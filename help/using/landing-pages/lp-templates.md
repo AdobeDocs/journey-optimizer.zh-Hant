@@ -1,27 +1,29 @@
 ---
-title: 使用登錄頁模板
-description: 瞭解如何將登錄頁另存為模板並在Journey Optimizer重新使用
+solution: Journey Optimizer
+product: journey optimizer
+title: 使用登錄頁面範本
+description: 了解如何將登錄頁面儲存為範本，並在Journey Optimizer中重複使用
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 5%
+source-wordcount: '192'
+ht-degree: 4%
 
 ---
 
-# 使用登錄頁模板 {#work-with-templates}
+# 使用登錄頁面範本 {#work-with-templates}
 
-## 將頁面另存為模板 {#save-as-template}
+## 將頁面儲存為範本 {#save-as-template}
 
-一旦你設計好 [登錄頁內容](lp-content.md)，您可以保存它以備將來重新使用。 請依照下列步驟以執行此操作。
+在您設計 [登陸頁面內容](lp-content.md)，您可以儲存它以供日後重複使用。 請依照下列步驟以執行此操作。
 
-1. 按一下螢幕右上角的省略號。
+1. 按一下螢幕右上方的刪節號。
 
-1. 選擇 **[!UICONTROL Save design template]** 的下界。
+1. 選擇 **[!UICONTROL 儲存設計範本]** 從下拉式功能表。
 
    ![](assets/lp_designer-save-template.png)
 
@@ -29,30 +31,30 @@ ht-degree: 5%
 
    ![](assets/lp_designer-template-name.png)
 
-1. 按一下「**[!UICONTROL Save]**」。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
-下次建立登錄頁時，可以使用此模板構建內容。 瞭解 [節](#use-saved-template) 下。
+下次您建立登錄頁面時，可以使用此範本來建置內容。 了解 [節](#use-saved-template) 下方。
 
 ![](assets/lp_designer-saved-template.png)
 
-## 使用保存的模板 {#use-saved-template}
+## 使用已儲存的範本 {#use-saved-template}
 
-1. 開啟 [登錄頁內容設計](design-lp.md)。 將顯示所有先前保存的模板的清單。
+1. 開啟 [登陸頁面內容設計工具](design-lp.md). 隨即顯示所有先前儲存的範本清單。
 
-1. 你可以對它們進行排序 **[!UICONTROL By name]**。 **[!UICONTROL Last modified]** 和 **[!UICONTROL Last created]**。
+1. 你可以對它們進行排序 **[!UICONTROL 依名稱]**, **[!UICONTROL 上次修改時間]** 和 **[!UICONTROL 上次建立時間]**.
 
    ![](assets/lp_designer-saved-templates.png)
 
-1. 從清單中選擇您選擇的模板。
+1. 從清單中選取您選取的範本。
 
-1. 選中後，可以使用左和右箭頭在所有保存的模板之間導航。
+1. 選取後，您可以使用左右箭頭在所有儲存的範本之間導覽。
 
    ![](assets/lp_designer-saved-templates-navigate.png)
 
-1. 按一下「**[!UICONTROL Use this landing page]**」。
+1. 按一下 **[!UICONTROL 使用此登錄頁面]**.
 
-1. 使用登錄頁設計器根據需要編輯內容。
+1. 使用登錄頁面設計工具，視需要編輯內容。
 
 >[!NOTE]
 >
->首頁模板和子頁模板是單獨管理的，這意味著不能使用首頁模板建立子頁，反之亦然。
+>主要頁面範本和子頁面範本是分別管理的，這表示您無法使用主要頁面範本來建立子頁面，反之亦然。

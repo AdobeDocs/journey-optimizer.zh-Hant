@@ -1,24 +1,24 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: toBool
-description: 瞭解到Bool的函式
+description: 了解函式至Bool
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 0bb68d05-bb90-48b7-aff3-82ab15d55ebe
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 10%
 
 ---
 
-# 到布爾 {#toBool}
+# toBool {#toBool}
 
-根據參數值的類型將參數值轉換為布爾值。
+根據參數值的類型，將參數值轉換為布爾值。
 
-* 從字串：嘗試將字串值轉換為布爾值，如果字串值為&quot;true&quot;，則從&quot;true&quot;轉換為false，否則
-* 從數字：如果數值不等於0，則返回true；否則返回false
+* 從字串：嘗試將字串值轉換為布林值（如果字串值為「true」，則從「true」），否則從false
+* 從數值：若數值不等於0，則為true；否則為false
 
 ## 類別
 
@@ -45,7 +45,7 @@ ht-degree: 10%
 
 `toBool(<integer>)`
 
-返回布爾值。
+傳回布林值。
 
 ## 範例
 
@@ -53,8 +53,8 @@ ht-degree: 10%
 
 `toBool(1)`
 
-返回true。
+傳回true。
 
 `toBool("this is not a boolean")`
 
-返回false。
+傳回false。

@@ -1,21 +1,21 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: limit
-description: 瞭解函式限制
+description: 了解函式限制
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 8%
 
 ---
 
-# 限 {#limit}
+# 限制 {#limit}
 
-返回清單的第一個或最後一個N元素。
+傳回清單的第一個或最後一個N個元素。
 
 ## 類別
 
@@ -29,51 +29,51 @@ ht-degree: 8%
 
 | 參數 | 類型 | 說明 |
 |-----------|------------------|------------------|
-| 清單至進程 | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 清單進行排序。 對於listObject，它必須是欄位引用。 |
-| 項目數 | 整數 | 要從給定清單返回的項數。 |
-| firstOrLastItems | 布林值 | 此參數是可選的（預設為true）。 true將返回第一個項。 false返回最後一個項。 |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly, or listObject | 清單。 對於listObject，它必須是欄位參考。 |
+| numberOfItems | 整數 | 要從給定清單返回的項目數。 |
+| firstOrLastItems | 布林值 | 此參數為選用項目（預設為true）。 true會傳回第一個項目。 false會傳回最後一個項目。 |
 
-## 簽名和返回的類型
+## 簽名和返回類型
 
 `limit(<listString>,<integer>)`
 `limit(<listString>,<integer>,<boolean>)`
 
-返回字串清單。
+傳回字串清單。
 
 `limit(<listInteger>,<integer>)`
 `limit(<listInteger>,<integer>,<boolean>)`
 
-返回整數清單。
+傳回整數清單。
 
 `limit(<listDecimal>,<integer>)`
 `limit(<listDecimal>,<integer>,<boolean>)`
 
-返回小數位清單。
+傳回小數清單。
 
 `limit(<listBoolean>,<integer>)`
 `limit(<listBoolean>,<integer>,<boolean>)`
 
-返回布爾值清單。
+傳回布林值清單。
 
 `limit(<listDateOnly>,<integer>)`
 `limit(<listDateOnly>,<integer>,<boolean>)`
 
-返回日期清單。
+傳回日期清單。
 
 `limit(<listDateTimeOnly>,<integer>)`
 `limit(<listDateTimeOnly>,<integer>,<boolean>)`
 
-返回不考慮時區的日期時間清單。
+返回不考慮時區的datetimes清單。
 
 `limit(<listDateTime>,integer>)`
 `limit(<listDateTime>,<integer>,<boolean>)`
 
-返回日期時間清單。
+返回datetimes清單。
 
 `limit(<listDuration>,<integer>)`
 `limit(<listDuration>,<integer>,<boolean>)`
 
-返回持續時間清單。
+傳回持續時間清單。
 
 `limit(<listObject>,<integer>)`
 `limit(<listObject>,<integer>,<boolean>)`

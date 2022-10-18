@@ -1,21 +1,21 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: containIgnoreCase
-description: 瞭解包含IgnoreCase的函式
+description: 了解函式containIgnoreCase
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 26074584-a215-4515-8a61-7460bd9d4447
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 22%
 
 ---
 
-# 包含IgnoreCase {#containIgnoreCase}
+# containIgnoreCase {#containIgnoreCase}
 
-檢查第二個參數字串是否包含在第一個參數字串中，而不考慮大小寫。
+檢查第二個引數字串是否包含在第一個引數字串中，而不考慮大小寫。
 
 ## 類別
 
@@ -30,16 +30,16 @@ ht-degree: 22%
 | 參數 | 類型 |
 |-----------|------------------|
 | 字串 | 字串 |
-| 字串搜索 | 字串 |
+| 搜尋的字串 | 字串 |
 
-## 簽名和返回的類型
+## 簽名和返回類型
 
 `containIgnoreCase(<string>,<string>)`
 
-返回布爾值。
+傳回布林值。
 
 ## 範例
 
 `containIgnoreCase("rowing is great", "GREAT")`
 
-返回true。
+傳回true。
