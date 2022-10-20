@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
+source-git-commit: e3ae60321aac340328e1fcd7b1060192fbc7ee06
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1188'
 ht-degree: 96%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 96%
       + [測試您的歷程](using/building-journeys/testing-the-journey.md)
       + [發佈您的歷程](using/building-journeys/publishing-the-journey.md)
       + [時區管理](using/building-journeys/timezone-management.md)
-      + [複製歷程到另一個沙箱](using/building-journeys/copy-to-sandbox.md)
+      + [將歷程複製到另一個沙箱](using/building-journeys/copy-to-sandbox.md)
       + [疑難排解您的歷程](using/building-journeys/troubleshooting.md)
    + 活動 {#about-journey-building}
       + [關於歷程活動](using/building-journeys/about-journey-activities.md)
@@ -398,6 +398,7 @@ ht-degree: 96%
             + [重試次數](using/configuration/retries.md)
             + [允許清單](using/configuration/allow-list.md)
       + [設定簡訊頻道](using/configuration/sms-configuration.md)
+      + [配置直接郵件](using/configuration/direct-mail-configuration.md)
       + 設定頻道介面{#set-up-channels}
          + [建立頻道介面](using/configuration/channel-surfaces.md)
          + [設定電子郵件設定](using/configuration/email-settings.md)
