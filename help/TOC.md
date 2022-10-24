@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e3ae60321aac340328e1fcd7b1060192fbc7ee06
+source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 96%
+source-wordcount: '1203'
+ht-degree: 95%
 
 ---
 
@@ -243,11 +243,14 @@ ht-degree: 96%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + 使用實例 {#journey-use-cases}
-      + [傳送多頻道訊息](using/building-journeys/journeys-uc.md)
-      + [使用 Campaign v7/v8 傳送訊息](using/building-journeys/campaign-classic-use-case.md)
-      + [使用自訂動作以動態方式傳遞集合](using/building-journeys/collections.md)
-      + [傳送訊息給訂閱者](using/building-journeys/message-to-subscribers-uc.md)
-      + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
+      + 業務使用案例 {#business-use-cases}
+         + [傳送多頻道訊息](using/building-journeys/journeys-uc.md)
+         + [使用 Campaign v7/v8 傳送訊息](using/building-journeys/campaign-classic-use-case.md)
+         + [傳送訊息給訂閱者](using/building-journeys/message-to-subscribers-uc.md)
+      + 技術使用案例 {#technical-use-cases}
+         + [使用自訂動作以動態方式傳遞集合](using/building-journeys/collections.md)
+         + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
+         + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
 + 追蹤和監視 {#reporting}
    + 即時報告 {#live-report}
       + [開始使用即時報告](using/reports/live-report.md)

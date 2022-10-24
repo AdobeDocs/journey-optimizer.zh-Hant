@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
 workflow-type: tm+mt
-source-wordcount: '2005'
-ht-degree: 99%
+source-wordcount: '2054'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,9 @@ ht-degree: 99%
 
 ## 2022 年 10 月 {#october-2022}
 
+* 新增如何使用外部資料來源和自訂動作來限制輸送量的歷程使用案例。 [閱讀全文](../building-journeys/limit-throughput.md)
+* 歷程使用案例區段已重新組織為兩個類別： [業務使用案例](../building-journeys/journeys-uc.md) 和 [技術使用案例](../building-journeys/collections.md).
+* 此 **實體資料集** 區段已更新，其中包含更多詳細資訊。 [了解更多](../start/datasets-query-examples.md#entity-dataset)
 * 與選擇退出管理和同意政策相關的資訊已重新整理至新章節。 [閱讀全文](../privacy/opt-out.md)
 
 ## 2022 年 9 月 {#september-2022}
