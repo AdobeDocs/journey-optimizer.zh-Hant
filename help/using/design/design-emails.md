@@ -11,7 +11,7 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 18%
 
 * 查找 **Adobe Stock 相片**&#x200B;建構內容並改進電子郵件設計。[了解更多](../design/stock.md)
 
-* 根據客戶的設定檔屬性建立個人化和動態訊息，以增強客戶體驗。 深入了解 [個人化](../personalization/personalize.md) 和 [動態內容](../personalization/get-started-dynamic-content.md).
+* 根據客戶的設定檔屬性建立個人化和動態訊息，以增強客戶體驗。 深入瞭解[個人化](../personalization/personalize.md)及[動態內容](../personalization/get-started-dynamic-content.md)。
 
 ➡️ [在影片中探索此功能](#video)
 

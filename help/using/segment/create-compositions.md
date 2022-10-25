@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 建立合成工作流程
+title: 建立組合工作流程
 description: 了解如何建立構圖工作流程，以結合和排列現有對象。
 feature: Journeys
 topic: Content Management
@@ -12,11 +12,11 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# 建立合成工作流程 {#create-compositions}
+# 建立組合工作流程 {#create-compositions}
 
 合成工作流程可讓您結合併排列現有對象以建立新對象。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 草稿]**:該構成正在進行中，尚未公佈。
 * **[!UICONTROL 已發佈]**:已發佈合成，因此已儲存對象。 <!-- and are available for use.-->
-* **[!UICONTROL 已封存]**:已封存了構圖。
+* **[!UICONTROL 已封存]**:已封存了構成。
 
 ![](assets/audiences-compositions.png)
 
@@ -80,6 +80,6 @@ ht-degree: 0%
 
 更多詳情:
 
-* [開始使用受眾構成](get-started-audience-orchestration.md)
-* [使用合成畫布](composition-canvas.md)
+* [開始使用對象組合](get-started-audience-orchestration.md)
+* [使用組合畫布](composition-canvas.md)
 * [存取及管理對象](access-audiences.md)

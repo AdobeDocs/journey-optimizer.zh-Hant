@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -128,9 +128,9 @@ ht-degree: 94%
       + [建立測試設定檔](using/segment/creating-test-profiles.md)
    + [身分](using/segment/get-started-identity.md)
    + 撰寫對象 {#audience-orchestration}
-      + [開始使用受眾構成](using/segment/get-started-audience-orchestration.md)
-      + [建立合成工作流程](using/segment/create-compositions.md)
-      + [使用合成畫布](using/segment/composition-canvas.md)
+      + [開始使用對象組合](using/segment/get-started-audience-orchestration.md)
+      + [建立組合工作流程](using/segment/create-compositions.md)
+      + [使用組合畫布](using/segment/composition-canvas.md)
       + [存取及管理對象](using/segment/access-audiences.md)
    + [授權使用情況](using/segment/license-usage.md)
 + 歷程 {#orchestrate-journeys}
@@ -452,5 +452,5 @@ ht-degree: 94%
    + [針對資源的稽核動作](using/privacy/audit-logs.md)
    + 管理同意 {#consent}
       + [管理選擇退出](using/privacy/opt-out.md)
-      + [使用同意政策](using/action/consent.md)
+      + [使用同意原則](using/action/consent.md)
    + [資料治理](using/action/action-privacy.md)

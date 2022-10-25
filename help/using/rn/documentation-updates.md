@@ -20,7 +20,7 @@ ht-degree: 97%
 * 新增如何使用外部資料來源和自訂動作來限制輸送量的歷程使用案例。 [閱讀全文](../building-journeys/limit-throughput.md)
 * 歷程使用案例區段已重新組織為兩個類別： [業務使用案例](../building-journeys/journeys-uc.md) 和 [技術使用案例](../building-journeys/collections.md).
 * 此 **實體資料集** 區段已更新，其中包含更多詳細資訊。 [了解更多](../start/datasets-query-examples.md#entity-dataset)
-* 與選擇退出管理和同意政策相關的資訊已重新整理至新章節。 [閱讀全文](../privacy/opt-out.md)
+* 與選擇退出管理和同意原則相關的資訊已重新整理至新章節。 [閱讀全文](../privacy/opt-out.md)
 
 ## 2022 年 9 月 {#september-2022}
 

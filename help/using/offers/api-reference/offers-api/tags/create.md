@@ -1,6 +1,6 @@
 ---
 title: 建立標籤
-description: 標籤使您能夠更好地組織和整理您的優惠。
+description: 標籤可讓您更妥善地組織和排序優惠方案。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,11 +15,11 @@ ht-degree: 10%
 
 # 建立標籤 {#create-tag}
 
-可以通過向 [!DNL Offer Library] API，同時提供容器ID。
+您可以透過向 [!DNL Offer Library] API，同時提供容器ID。
 
 ## 接受和內容類型標題 {#accept-and-content-type-headers}
 
-下表顯示了組成 *內容類型* 和 *接受* 請求標題中的欄位：
+下表顯示了 *內容類型* 和 *接受* 請求標題中的欄位：
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
@@ -34,7 +34,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 標籤所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **要求**
@@ -55,7 +55,7 @@ curl -X POST \
 
 **回應**
 
-成功的響應返回有關新建立的標籤的資訊，包括其唯一實例ID和位置 `@id`。 您可以在後續步驟中使用實例ID來更新或刪除標籤。 可以使用您的唯一標籤 `@id` 以建立收藏和個性化服務。
+成功的回應會傳回新建立標籤的相關資訊，包括其唯一例項ID和位置 `@id`. 您可以在後續步驟中使用例項ID來更新或刪除您的標籤。 您可以使用您的唯一標籤 `@id` 在稍後的教學課程中，建立集合和個人化優惠方案。
 
 ```json
 {

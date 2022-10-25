@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用合成畫布
+title: 使用組合畫布
 description: 了解如何使用構圖畫布
 feature: Journeys
 topic: Content Management
@@ -12,11 +12,11 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '990'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 使用合成畫布 {#composition-canvas}
+# 使用組合畫布 {#composition-canvas}
 
 合成畫布是視覺畫布，可讓您運用對象和活動（分割、排除……）來建立合成。
 
@@ -181,6 +181,6 @@ ht-degree: 0%
 
 更多詳情:
 
-* [開始使用受眾構成](get-started-audience-orchestration.md)
-* [建立合成工作流程](create-compositions.md)
+* [開始使用對象組合](get-started-audience-orchestration.md)
+* [建立組合工作流程](create-compositions.md)
 * [存取及管理對象](access-audiences.md)

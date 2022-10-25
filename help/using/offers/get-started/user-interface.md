@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 63%
+source-wordcount: '642'
+ht-degree: 39%
 
 ---
 
@@ -21,33 +21,33 @@ ht-degree: 63%
 >
 >如果您在存取優惠方案程式庫或其部分功能時遇到問題，請洽詢已授予您必要權限的管理員使用者。 請參閱 [授予Decision Management的存取權](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
-使用 **[!UICONTROL Offers]** 功能表管理個人化和遞補優惠，將其組織成系列，並透過建立決定來傳遞：
+使用  **[!UICONTROL 選件]** 功能表，管理個人化和備援優惠方案、將優惠方案整理到集合中，並透過建立決策來傳送優惠方案：
 
-* **[!UICONTROL Overview]**:新增至 [!DNL decision management]? 請依照畫面上的步驟，開始設定版位、選件和系列。 已熟悉時 [!DNL decision management]，取得最新選件、集合和決策的概觀。 請參閱[總覽](#overview)。
+* **[!UICONTROL 概述]**:新增至 [!DNL decision management]? 請依照畫面上的步驟，開始設定版位、選件和系列。 已熟悉時 [!DNL decision management]，取得最新選件、集合和決策的概觀。 請參閱[總覽](#overview)。
 
-* **[!UICONTROL Offers]**：存取您的個人化和遞補優惠，或建立新優惠。請參閱 [建立優惠 ](../offer-library/creating-personalized-offers.md)和[建立遞補優惠](../offer-library/creating-fallback-offers.md)。
+* **[!UICONTROL 選件]**:存取您的個人化和備援優惠方案，或建立新優惠方案。 請參閱 [建立優惠 ](../offer-library/creating-personalized-offers.md)和[建立遞補優惠](../offer-library/creating-fallback-offers.md)。
 
-* **[!UICONTROL Collections]**：建立並管理靜態和動態優惠集合。請參閱[關於優惠方案](../offer-library/creating-collections.md)。
+* **[!UICONTROL 集合]**:建立和管理靜態和動態選件集合。 請參閱[關於優惠方案](../offer-library/creating-collections.md)。
 
-* **[!UICONTROL Decisions]**：建立並管理決定，以傳遞您的優惠。請參閱[建立決定](../offer-activities/create-offer-activities.md)。
+* **[!UICONTROL 決策]**:建立和管理傳遞優惠方案的決策。 請參閱[建立決定](../offer-activities/create-offer-activities.md)。
 
 ![](../assets/offers_menu.png)
 
-使用&#x200B;**[!UICONTROL Components]**&#x200B;功能表管理建立優惠所需的元件：
+使用  **[!UICONTROL 元件]** 功能表來管理建立優惠方案所需的元件：
 
-* **[!UICONTROL Placements]**：建立並管理您的優惠將顯示的位置。請參閱[建立位置](../offer-library/creating-placements.md)。
+* **[!UICONTROL 版位]**:建立和管理將顯示優惠方案的版位。 請參閱[建立位置](../offer-library/creating-placements.md)。
 
-* **[!UICONTROL Tags]**：建立和管理標記以組織及篩選您的優惠。請參閱[建立標記](../offer-library/creating-tags.md)。
+* **[!UICONTROL 標籤]**:建立和管理標籤，以組織和篩選優惠方案。 請參閱[建立標記](../offer-library/creating-tags.md)。
 
-* **[!UICONTROL Rules]**：管理提供您優惠的條件。請參閱[建立決定規則](../offer-library/creating-decision-rules.md)。
+* **[!UICONTROL 規則]**:管理顯示優惠方案的條件。 請參閱[建立決定規則](../offer-library/creating-decision-rules.md)。
 
-* **[!UICONTROL Rankings]**：建立並管理排名公式，以決定應先針對指定位置顯示哪個優惠。請參閱[建立排名公式](../ranking/create-ranking-formulas.md)。
+* **[!UICONTROL 排名]**:建立並管理排名公式，以決定應先針對指定版位呈現哪個優惠方案。 請參閱[建立排名公式](../ranking/create-ranking-formulas.md)。
 
 ![](../assets/offer_activities.png)
 
 ## 總覽 {#overview}
 
-當您剛接觸 [!DNL decision management], **[!UICONTROL Overview]** 標籤會引導您完成開始建立第一個優惠方案決策所需的主要步驟。
+當您剛接觸 [!DNL decision management], **[!UICONTROL 概述]** 標籤會引導您完成開始建立第一個優惠方案決策所需的主要步驟。
 
 ![](../assets/overview_onboarding.png)
 
@@ -61,11 +61,11 @@ ht-degree: 63%
 >
 >建立選件及在決策中使用選件的主要步驟顯示在 [本節](../offer-library/key-steps.md).
 
-當您更熟悉 [!DNL decision management] 而您已建立至少一個選件決策， **[!UICONTROL Overview]** 索引標籤會顯示您最近的選件、集合和決策。
+當您更熟悉 [!DNL decision management] 而您已建立至少一個選件決策， **[!UICONTROL 概述]** 索引標籤會顯示您最近的選件、集合和決策。
 
 按一下選件或決定直接存取所選項目的詳細資訊。
 
-按一下 **[!UICONTROL View all]** 按鈕來存取選件、集合或決策清單。
+按一下 **[!UICONTROL 查看全部]** 按鈕來存取選件、集合或決策清單。
 
 ![](../assets/overview_view-all.png)
 
@@ -97,13 +97,13 @@ ht-degree: 63%
 
 ![](../assets/bulk-actions.png)
 
-請注意，您也可以複製現有優惠或決定，以建立具有 **[!UICONTROL Draft]** 狀態的復本。 您可以從資訊窗格或優惠或決定的詳細檢視來執行此動作。
+請注意，您也可以複製現有選件或決策，以便使用 **[!UICONTROL 草稿]** 狀態。 您可以從資訊窗格或優惠或決定的詳細檢視來執行此動作。
 
 ![](../assets/duplicate-offer.png)
 
 ## 優惠和決定變更記錄 {#changes-logs}
 
-優惠方案程式庫可讓您視覺化對優惠方案或決策所做的所有變更。 若要這麼做，請按一下清單中優惠或決定的名稱，然後選取 **[!UICONTROL Change log]** 標籤。
+優惠方案程式庫可讓您視覺化對優惠方案或決策所做的所有變更。 若要這麼做，請按一下清單中的選件名稱，然後選取 **[!UICONTROL 變更記錄]** 標籤。
 
 所有已進行的變更及執行變更的使用者名稱都會顯示在此畫面中。
 

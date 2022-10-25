@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 90%
+ht-degree: 95%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 90%
 <tr>
 <td>
 <p>您現在可以建立動態內容，以根據條件規則調整訊息的內容。</p> 
-<p>條件式規則是使用運算式編輯器中的視覺化規則產生器來建立，您可以在其中儲存，以便在歷程和行銷活動中重複使用。</p>
+<p>條件式規則是使用運算式編輯器中的視覺化規則產生器來建立，您可以在其中儲存這些規則，以便在歷程及行銷活動中重複使用。</p>
 <img src="assets/do-not-localize/dynamic-content.gif"/>
 <p>如需詳細資訊，請參閱<a href="../personalization/get-started-dynamic-content.md">詳細文件</a>。
 </td>

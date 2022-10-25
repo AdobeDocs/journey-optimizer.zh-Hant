@@ -12,7 +12,7 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 1%
+ht-degree: 14%
 
 ---
 
@@ -43,6 +43,6 @@ ht-degree: 1%
 
 更多詳情:
 
-* [開始使用受眾構成](get-started-audience-orchestration.md)
-* [建立合成工作流程](create-compositions.md)
-* [使用合成畫布](composition-canvas.md)
+* [開始使用對象組合](get-started-audience-orchestration.md)
+* [建立組合工作流程](create-compositions.md)
+* [使用組合畫布](composition-canvas.md)

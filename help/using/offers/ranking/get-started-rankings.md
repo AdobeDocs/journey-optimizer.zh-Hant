@@ -1,6 +1,6 @@
 ---
 title: 開始使用排名
-description: 瞭解如何使用排名
+description: 了解如何使用排名
 topic: Integrations
 role: User
 level: Intermediate
@@ -14,10 +14,10 @@ ht-degree: 6%
 
 # 開始使用排名 {#create-fallback-offers}
 
-[!DNL Journey Optimizer] 允許您使用排名來對顯示給定配置檔案的優惠進行排名：
+[!DNL Journey Optimizer] 可讓您使用排名來排名選件，以針對指定的設定檔顯示：
 
-* **排序公式** 允許您定義規則，以確定在給定的職位安排中應首先提供哪個職位，而不是考慮聘用的優先順序分數。 [瞭解有關排名公式的詳細資訊](create-ranking-formulas.md)
+* **排名公式** 可讓您定義規則，以決定應先針對指定版位呈現哪個優惠方案，而非考慮優惠方案的優先順序分數。 [進一步了解排名公式](create-ranking-formulas.md)
 
-* **AI模型** 允許您使用經過培訓的模型系統，該系統將利用多個資料點來確定在給定位置應首先提供哪些服務。 [瞭解有關AI模型的詳細資訊](ai-models.md)
+* **AI模型** 可讓您使用經過訓練的模型系統，運用多個資料點來判斷應先針對指定版位呈現哪個優惠方案。 [深入了解AI模型](ai-models.md)
 
-一旦建立了排名公式或AI模型，您就可以將其分配給決策中的放置。 有關此的詳細資訊，請參閱 [在決策中配置服務選擇](../offer-activities/configure-offer-selection.md)。
+一旦建立了排名公式或AI模型，您就可以將其指派給決策中的版位。 有關詳細資訊，請參閱 [在決策中設定選件選取項目](../offer-activities/configure-offer-selection.md).

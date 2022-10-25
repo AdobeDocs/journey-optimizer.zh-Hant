@@ -10,7 +10,7 @@ level: Beginner
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 92%
 >title="頻道介面"
 >abstract="頻道介面是該頻道的執行個體，具備所有設定，可透過行銷活動或歷程成功傳遞行動。 它由系統管理員定義。"
 
-在您的歷程中，使用管道動作來設計並個人化您要傳送給閱聽眾的訊息。 當您新增電子郵件、簡訊或推播動作至歷程畫布時，會建立觸發傳送。 當連絡人達成該通道動作時，Adobe Journey Optimizer 會自動傳送訊息。
+在您的歷程中，使用管道動作來設計並個人化您要傳送給閱聽眾的訊息。 當您將電子郵件、簡訊或推播動作新增至歷程畫布時，就會建立觸發傳送。 當連絡人達成該通道動作時，Adobe Journey Optimizer 會自動傳送訊息。
 
 
 >[!NOTE]
 >您也可以建立行銷活動以傳送排程訊息。 請參閱[本節](../campaigns/get-started-with-campaigns.md)。
 
 
-若要在歷程中新增訊息，請在歷程畫布中新增推送、簡訊或電子郵件活動。
+若要在歷程新增訊息，在歷程畫布新增推播、簡訊或電子郵件活動即可。
 
 1. 利用[事件](../building-journeys/general-events.md)或[讀取區段](../building-journeys/read-segment.md)活動來開始您的歷程。
 
@@ -52,7 +52,7 @@ ht-degree: 92%
    >
    >* 若您針對特定頻道與類別定義[頻率規則](../configuration/frequency-rules.md)，在選擇該頻道與類別後，這些規則將自動套用到訊息。 目前僅&#x200B;**[!UICONTROL 行銷]**&#x200B;類別適用於頻率規則。
    >
-   >* 行銷訊息必須包含 [退出連結](../privacy/opt-out.md#opt-out-management). 交易訊息無需如此，因為這些訊息可以傳送到個人資料對象，後者可從行銷通訊取消訂閱。
+   >* 行銷訊息必須包括[退出連結](../privacy/opt-out.md#opt-out-management)。 異動訊息無需如此，因為這些訊息可以傳送到個人資料對象，後者可從行銷通訊取消訂閱。
 
 
 1. 選擇頻道&#x200B;**[!UICONTROL 介面]** (即訊息預設集)，以用於傳送您的訊息。
@@ -124,7 +124,7 @@ ht-degree: 92%
 
 1. 輸入 **crtl+V** 貼上訊息。
 
-   訊息會新增至歷程畫布。 所有設定與組態都將複製到新訊息中。
+   該訊息將新增到歷程畫布。 所有設定與組態都將複製到新訊息中。
 
    ![](assets/message-duplicated.png)
 

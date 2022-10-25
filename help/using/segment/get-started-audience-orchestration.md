@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 開始使用受眾構成
+title: 開始使用對象組合
 description: 進一步了解受眾構成
 feature: Journeys
 topic: Content Management
@@ -12,11 +12,11 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# 開始使用受眾構成 {#get-start-audience-composition}
+# 開始使用對象組合 {#get-start-audience-composition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
@@ -55,6 +55,6 @@ ht-degree: 0%
 
 更多詳情:
 
-* [建立合成工作流程](create-compositions.md)
-* [使用合成畫布](composition-canvas.md)
+* [建立組合工作流程](create-compositions.md)
+* [使用組合畫布](composition-canvas.md)
 * [存取及管理對象](access-audiences.md)

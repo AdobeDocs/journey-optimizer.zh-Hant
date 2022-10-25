@@ -1,6 +1,6 @@
 ---
 title: 建立位置
-description: 放置是用於顯示優惠的容器。
+description: 版位是用來展示優惠方案的容器。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,11 +15,11 @@ ht-degree: 10%
 
 # 建立位置 {#create-placement}
 
-可通過向 [!DNL Offer Library] API，同時提供容器ID。
+您可以向 [!DNL Offer Library] API，同時提供容器ID。
 
 ## 接受和內容類型標題 {#accept-and-content-type-headers}
 
-下表顯示了組成 *內容類型* 和 *接受* 請求標題中的欄位：
+下表顯示了 *內容類型* 和 *接受* 請求標題中的欄位：
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
@@ -34,8 +34,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 放置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 版位所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **要求**
 
@@ -58,7 +58,7 @@ curl -X POST \
 
 **回應**
 
-成功的響應返回新建立的放置的詳細資訊，包括其唯一實例ID和放置 `@id`。 可以在後續步驟中使用實例ID來更新或刪除放置。 可以使用您的獨特位置 `@id` 在以後的教程中，建立決策、決策規則和回退選項。
+成功的回應會傳回新建立版位的詳細資訊，包括其唯一例項ID和版位 `@id`. 您可以在後續步驟中使用例項ID來更新或刪除您的版位。 您可以使用不重複位置 `@id` 在稍後的教學課程中，建立決策、決策規則和備援優惠方案。
 
 ```json
 {

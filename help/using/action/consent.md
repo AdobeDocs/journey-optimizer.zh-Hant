@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用同意政策
+title: 使用同意原則
 description: 了解如何使用Adobe Experience Platform同意政策
 feature: Actions
 topic: Administration
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 ---
 
-# 使用同意政策 {#consent-management}
+# 使用同意原則 {#consent-management}
 
 Adobe Experience Platform 可讓您輕鬆採用及強制執行行銷政策，以尊重客戶的同意偏好設定。 在 Adobe Experience Platform 中定義的同意原則。 請參閱 [本檔案](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
 

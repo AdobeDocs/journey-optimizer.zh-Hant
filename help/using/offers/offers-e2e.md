@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1085'
 ht-degree: 6%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 6%
 
 開始建立選件之前，您必須定義要在選件中使用的數個元件。
 
-您會在 **[!UICONTROL Decision Management]** > **[!UICONTROL Components menu]**.
+您會在 **[!UICONTROL 決策管理]** > **[!UICONTROL 元件功能表]**.
 
 1. 從建立 **刊登** 來取得。
 
@@ -83,7 +83,7 @@ ht-degree: 6%
 
    決策規則會為Adobe Experience Platform中的設定檔提供最佳選件。
 
-   使用 **[!UICONTROL XDM Individual Profile > Person > Gender]** 屬性：
+   使用 **[!UICONTROL XDM個人設定檔>人員>性別]** 屬性：
 
    * *女性客戶*
    * *男性客戶*
@@ -132,13 +132,13 @@ ht-degree: 6%
 
    ![](assets/offers-e2e-representations.png)
 
-1. 在 **[!UICONTROL Offer eligibility]** 部分，選擇 **[!UICONTROL By defined decision rule]** 並拖放您所選擇的規則。
+1. 在 **[!UICONTROL 優惠方案資格]** 部分，選擇 **[!UICONTROL 依定義的決策規則]** 並拖放您所選擇的規則。
 
    ![](assets/offers-e2e-eligibility.png)
 
-1. 填寫 **[!UICONTROL Priority]**. 在此範例中，新增 *25*.
+1. 填寫 **[!UICONTROL 優先順序]**. 在此範例中，新增 *25*.
 
-1. 檢閱您的優惠方案，然後按一下 **[!UICONTROL Save and approve]**.
+1. 檢閱您的優惠方案，然後按一下 **[!UICONTROL 儲存並核准]**.
 
    ![](assets/offers-e2e-review.png)
 
@@ -167,7 +167,7 @@ ht-degree: 6%
 
    ![](assets/offers-e2e-fallback-representations.png)
 
-1. 檢閱您的備援優惠方案，然後按一下 **[!UICONTROL Save and approve]**.
+1. 檢閱您的備援優惠方案，然後按一下 **[!UICONTROL 儲存並核准]**.
 
 ![](assets/offers-e2e-fallback.png)
 
@@ -213,7 +213,7 @@ ht-degree: 6%
 
    ![](assets/offers-e2e-decision-fallback.png)
 
-1. 檢閱您的決定，然後按一下 **[!UICONTROL Save and approve]**.
+1. 檢閱您的決定，然後按一下 **[!UICONTROL 儲存並核准]**.
 
    ![](assets/offers-e2e-review-decision.png)
 

@@ -11,20 +11,20 @@ exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 5%
+ht-degree: 80%
 
 ---
 
 # 一般原則{#jo-general-principle}
 
-[!DNL Journey Optimizer] 可讓您善用儲存在事件或資料來源中的情境資料，建立即時協調使用案例。
+[!DNL Journey Optimizer]可讓您善用儲存在事件或資料來源中的情境資料，建立即時協調使用案例。
 
 設計由下列功能提供支援的多步驟進階案例：
 
-* 即時傳送 **單一傳送** 在收到事件時觸發，或 **批次** 使用Adobe Experience Platform區段。
+* 傳送在收到事件時觸發的即時&#x200B;**單一傳遞**，或使用 Adobe Experience Platform 分段&#x200B;**批次**&#x200B;傳遞。
 
-* 運用 **內容資料** 來自事件、來自Adobe Experience Platform的資訊，或來自協力廠商API服務的資料。
+* 利用來自事件的&#x200B;**情境資料** 、來自 Adobe Experience Platform 的資訊，或來自協力廠商 API 服務的資料。
 
 * 使用 **內建動作** 發送設計在 [!DNL Journey Optimizer] 或建立 **自訂動作** 如果您使用協力廠商系統來傳送訊息。
 
-* 使用 **歷程設計器**，建立您的多步驟使用案例：輕鬆拖放登入事件或讀取區段活動、新增條件及傳送個人化訊息。
+* 使用&#x200B;**歷程設計器**，建立您的多步驟使用案例：輕鬆拖放登入事件或讀取區段活動、新增條件及傳送個人化訊息。

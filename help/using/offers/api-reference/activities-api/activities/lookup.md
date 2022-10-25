@@ -1,6 +1,6 @@
 ---
-title: 查找決定
-description: 決定包含通知選擇要約的邏輯。
+title: 查找決策
+description: 決策包含通知選件選擇的邏輯。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -13,9 +13,9 @@ ht-degree: 3%
 
 ---
 
-# 查找決定 {#look-up-decision}
+# 查找決策 {#look-up-decision}
 
-您可以通過向以下站點發出GET請求來查找特定決策 [!DNL Offer Library] 包括任一決策的API `@id` 或請求路徑中的決定名稱。
+您可以向 [!DNL Offer Library] 包含決策的API `@id` 或請求路徑中的決策名稱。
 
 **API格式**
 
@@ -25,11 +25,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 決策所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ACTIVITIES}` | 定義與決策關聯的架構。 | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
-| `id` | 用於匹配 `@id` 屬性。 字串完全匹配。 參數 `id` 和 `name` 不能一起使用。 | `xcore:offer-activity:124527ab00b2ebbc` |
-| `name` | 用於匹配實體的xdm:name屬性的字串。 字串與大寫完全匹配，但可以使用通配符。 參數&quot;id&quot;和&quot;name&quot;不能一起使用 | `LBAR` |
+| `{SCHEMA_ACTIVITIES}` | 定義與決策相關聯的架構。 | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
+| `id` | 用來比對 `@id` 實體的屬性。 字串完全匹配。 參數 `id` 和 `name` 無法一起使用。 | `xcore:offer-activity:124527ab00b2ebbc` |
+| `name` | 用來比對實體xdm:name屬性的字串。 字串與大小寫完全相符，但可使用萬用字元。 參數&quot;id&quot;和&quot;name&quot;不能一起使用 | `LBAR` |
 
 **要求**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **回應**
 
-成功的響應將返回放置的詳細資訊，包括有關容器ID、實例ID和唯一決策的資訊 `@id`。
+成功的回應會傳回版位的詳細資訊，包括容器ID、例項ID和唯一決策的相關資訊 `@id`.
 
 ```json
 {

@@ -11,7 +11,7 @@ exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 然後，您就能 [傳送校樣](#send-proofs) 至測試設定檔。
 
-此外，還要利用 **利特穆斯** 帳戶 [!DNL Journey Optimizer] 立即預覽 **電子郵件呈現** 常見電子郵件用戶端。 然後，您可以確保您的電子郵件內容看起來很棒，並且在每個收件匣中都正常運作。 了解如何在中解鎖Litmus電子郵件預覽 [本節](#email-rendering)
+此外，利用您的 **Litmus** 帳戶登入，即可在&#x200B;**常見電子郵件用戶端[!DNL Journey Optimizer]立即預覽**&#x200B;電子郵件呈現。 您可以確保電子郵件內容都能看起來不錯，並且在每個收件匣中都正常運作。 了解如何在中解鎖Litmus電子郵件預覽 [本節](#email-rendering)
 
 >[!CAUTION]
 >
