@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '1011'
 ht-degree: 4%
 
 ---
@@ -228,25 +228,13 @@ ht-degree: 4%
   <td>跳出<br/> </td> 
    <td>未與登錄頁面互動且未完成訂閱動作的人數。<br/> </td> 
 </tr>
- <tr> 
-   <td>跳出率<br/> </td> 
-   <td>未與登錄頁面互動且未完成訂閱動作的人數。<br/> </td> 
-</tr>
  <tr>
   <tr> 
    <td>點擊次數<br/> </td> 
    <td>登陸頁面中內容被點按的次數。<br/> </td> 
 </tr>
- <tr> 
-   <td>點按率<br/> </td> 
-   <td>登錄頁面中的點按百分比。<br/> </td>
-</tr>
 <tr>
 <td>轉換<br/> </td> 
-   <td>與登錄頁面互動的人數，例如訂閱表單。<br/> </td> 
-</tr>
-<tr>
-   <td>轉換率<br/> </td> 
    <td>與登錄頁面互動的人數，例如訂閱表單。<br/> </td> 
 </tr>
  <tr> 
@@ -272,3 +260,77 @@ ht-degree: 4%
  </tbody> 
 </table>
 
+### 推播通知量度 {#push-notification-metrics}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> 量度<br/> </th> 
+   <th> 定義<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>動作<br/> </td> 
+   <td> 已傳送推播通知的動作總數，例如按鈕點擊或解除。<br/> </td> 
+</tr>
+  <tr> 
+   <td>跳出<br/> </td> 
+   <td> 傳送和自動回訪處理期間累積的錯誤總數。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 已傳遞<br/> </td> 
+   <td> 已成功發送的消息數。<br/> </td> 
+</tr> 
+  <tr> 
+   <td>參與<br/> </td> 
+   <td> 此推播通知的開啟次數和動作總數，亦即設定檔開啟了推播或按了按鈕。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 錯誤<br/> </td> 
+   <td> 傳送期間發生的錯誤總數，使其無法傳送至設定檔。<br/> </td> 
+</tr>
+  <tr> 
+   <td> 已排除<br/> </td> 
+   <td> 已由Adobe Journey Optimizer排除的設定檔數目。<br/> </td> 
+</tr>
+  <tr> 
+   <td> 開啟數<br/> </td> 
+   <td> 傳送至裝置並由使用者點按以開啟應用程式的推播通知總數。 這類似於推播點擊，但若關閉通知，則不會觸發推播開啟。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 已傳送<br/> </td> 
+   <td> 傳送的傳送總數。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 已鎖定<br/> </td> 
+   <td> 傳送分析期間處理的推送訊息總數。<br/> </td> 
+</tr>  
+ </tbody> 
+</table>
+
+<!--
+### In-app metrics {#inapp-metrics}
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metric<br/> </th> 
+   <th> Definition<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Clicks<br/> </td> 
+   <td>Total number of recipients who interacted with the buttons included in the In-app message.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Impressions<br/> </td> 
+   <td> Total number of In-app messages delivered to all users.<br/> </td>
+</tr>
+  <tr> 
+   <td>Unique impressions<br/> </td> 
+   <td>Number of unique users to whom the In-app message was delivered.<br/> </td>
+</tr>
+ </tbody> 
+</table>
+-->

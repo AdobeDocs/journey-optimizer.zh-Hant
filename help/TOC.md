@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 97%
+source-wordcount: '1242'
+ht-degree: 95%
 
 ---
 
@@ -59,6 +59,12 @@ ht-degree: 97%
    + [製作網頁](using/web/author-web.md)
    + [Visual Editing Helper 擴充功能](using/web/visual-editing-helper.md)
    + [網站報告](using/web/web-report.md)
++ 應用程式內管道{#in-app}
+   + [開始使用應用程式內管道](using/in-app/get-started-in-app.md)
+   + [設定應用程式內通道](using/in-app/inapp-configuration.md)
+   + [建立應用程式內訊息](using/in-app/create-in-app.md)
+   + [設計您的應用程式內內容](using/in-app/design-in-app.md)
+   + [應用程式內報表](using/in-app/inapp-report.md)
 + 設計內容 {#design}
    + [開始使用電子郵件設計](using/design/design-emails.md)
    + [從頭開始 ](using/design/create-email-content.md)

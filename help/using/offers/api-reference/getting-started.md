@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '587'
 ht-degree: 5%
 
 ---
@@ -127,10 +127,11 @@ curl -X GET \
 ## 後續步驟 {#next-steps}
 
 本檔案說明呼叫 [!DNL Offer Library] API，包括取得容器ID。 您現在可以繼續閱讀開發人員指南中提供的範例呼叫，並遵循其指示。
-
+<!--
 >[!NOTE]
 >
-> Adobe Journey Optimizer中的應用程式內訊息通道使用決策管理物件。 如果您的組織使用應用程式內傳訊通道，則物件的API清單請求將包含應用程式內傳訊服務建立的物件，且可在決策管理使用案例中忽略。 為應用程式內訊息建立的物件將 `createdBy = “Mobile_Sheliak”`.
+> The In-app messaging channel in Adobe Journey Optimizer uses decision management objects. If your organization uses the in-app messaging channel, then API list requests for objects will include objects created by the in-app messaging service and can be ignored for decision management use cases. Objects created for in-app messages will have `createdBy = “Mobile_Sheliak”`.
+-->
 
 ## 作法影片 {#video}
 
