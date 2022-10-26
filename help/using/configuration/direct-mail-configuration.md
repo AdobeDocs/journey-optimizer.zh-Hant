@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ef66b30870fabf882bd368294e8a3b388d7ec182
+source-git-commit: 1f6b29d781abc17e238e4a3e051dc61d250b37a0
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '823'
 ht-degree: 3%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 3%
 
    ![](assets/file-routing-config-sftp-details.png)
 
-1. 如果您選取 **[!UICONTROL Amazon S3]**，您可以選擇要匯出和上傳直接郵件檔案的AWS地區。
+1. 如果您選取 **[!UICONTROL Amazon S3]**，選擇您要匯出和上傳直接郵件檔案的AWS地區。
 
    ![](assets/file-routing-config-aws-region.png)
 
