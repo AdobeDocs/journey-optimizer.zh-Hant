@@ -8,18 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 3%
+source-wordcount: '308'
+ht-degree: 2%
 
 ---
 
-# 管理即時行銷活動 {#modify-stop-campaign}
+# 管理行銷活動 {#modify-stop-campaign}
 
 促銷活動啟動後，您可以隨時修改或停止。 這些操作僅適用於具有循環執行的促銷活動。
 
-此外，您可以複製已上線的促銷活動（執行一次或執行循環）以建立新促銷活動。
+此外，您可以複製已上線的促銷活動（執行一次或執行循環）以建立新的促銷活動，並封存已完成或已停止的促銷活動。
 
 ## 修改循環促銷活動 {#modify}
 
@@ -58,3 +58,13 @@ ht-degree: 3%
 您可以複製已上線的促銷活動以建立新促銷活動。 若要這麼做，請開啟促銷活動，然後按一下 **[!UICONTROL 複製]**.
 
 ![](assets/create-campaign-duplicate.png)
+
+## 封存行銷活動 {#archive}
+
+隨著時間推移，促銷活動清單會持續增長，最終會讓瀏覽已完成和已停止的促銷活動變得更困難。
+
+為避免此情況，您可以封存已完成和已停止您不再需要的促銷活動。 要執行此操作，請按一下橢圓按鈕，然後選取 **[!UICONTROL 封存]**.
+
+![](assets/create-campaign-archive.png)
+
+然後，您就可以使用清單中的專用篩選器來擷取已封存的促銷活動。 [了解如何存取行銷活動](get-started-with-campaigns.md#access)

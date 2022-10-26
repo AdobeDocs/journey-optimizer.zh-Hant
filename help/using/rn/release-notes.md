@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 95%
+source-wordcount: '1112'
+ht-degree: 94%
 
 ---
 
@@ -27,6 +27,10 @@ ht-degree: 95%
 **歷程**
 
 * 此 **重複時強制重新進入** 已在循環讀取區段排程參數中新增選項。 此選項可讓您讓歷程中仍存在的所有設定檔在下次執行時自動退出。 停用選項時，設定檔必須先完成歷程，才能在另一個發生次數中重新輸入。 [了解更多](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**行銷活動**
+
+* 您現在可以封存已完成和已停止的促銷活動。 [了解更多](../campaigns/modify-stop-campaign.md#archive)
 
 ## 2022 年 9 月發行版本{#sept-2022-release}
 

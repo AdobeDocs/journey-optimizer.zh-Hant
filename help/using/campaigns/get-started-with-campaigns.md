@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '573'
 ht-degree: 9%
 
 ---
@@ -71,7 +71,9 @@ ht-degree: 9%
 
 您可從 **[!UICONTROL 行銷活動]** 功能表。
 
-依預設，清單會以 **[!UICONTROL 草稿]**, **[!UICONTROL 已排程]**，和 **[!UICONTROL 即時]** 狀態。 若要顯示已停止、已完成和已封存的促銷活動，您必須清除篩選器。
+依預設，清單會以 **[!UICONTROL 草稿]**, **[!UICONTROL 已排程]**，和 **[!UICONTROL 即時]** 狀態。
+
+若要顯示已停止、已完成和已封存的促銷活動，您必須清除篩選器。
 
 ![](assets/create-campaign-list.png)
 
@@ -83,9 +85,9 @@ ht-degree: 9%
 * **[!UICONTROL 啟用]**:促銷活動正在啟動。
 * **[!UICONTROL 即時]**:促銷活動已啟動。
 * **[!UICONTROL 已排程]**:促銷活動設定為在特定開始日期啟動。
-* **[!UICONTROL 已停止]**:已手動停止促銷活動。 您無法再啟動或重複使用它。 [了解更多](modify-stop-campaign.md#stop)
+* **[!UICONTROL 已停止]**:已手動停止促銷活動。 您無法再啟動或重複使用它。 [了解如何停止行銷活動](modify-stop-campaign.md#stop)
 * **[!UICONTROL 已完成]**:促銷活動已完成。 此狀態會在促銷活動啟動後3天自動指派，或是在促銷活動結束日期（如果有循環執行）自動指派。
-* **[!UICONTROL 已封存]**:已封存促銷活動。
+* **[!UICONTROL 已封存]**:已封存促銷活動。 [了解如何封存行銷活動](modify-stop-campaign.md#archive)
 
 >[!NOTE]
 >

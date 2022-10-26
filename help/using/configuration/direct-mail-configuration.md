@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: f64a6571609c69262670ac45a88cda0112aea5fa
+source-git-commit: ef66b30870fabf882bd368294e8a3b388d7ec182
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '825'
 ht-degree: 3%
 
 ---
@@ -27,12 +27,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="定義檔案路由配置的設定"
->abstract="您需要定義要匯出和上傳檔案的位置，以供直接郵件提供者使用。"
+>abstract="建立直接郵件訊息時，您將產生包含所有必要設定檔資訊的檔案。 需要將此檔案導出並上傳到伺服器上，以便您的直接郵件提供程式可以訪問並使用該檔案來發送直接郵件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
 >title="定義檔案路由配置的設定"
->abstract="建立直接郵件訊息時，您將產生包含所有必要設定檔資訊的檔案。 需要將此檔案導出並上傳到伺服器上，以便您的直接郵件提供程式可以訪問並使用該檔案來發送直接郵件。"
+>abstract="您需要定義要匯出和上傳檔案的位置，以供直接郵件提供者使用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
@@ -42,12 +42,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="為檔案路由選擇伺服器類型"
->abstract="選擇要用於上傳和儲存直接郵件檔案的伺服器。"
+>abstract="選擇要用於上傳和儲存直接郵件檔案的伺服器。 目前僅支援Amazon S3和SFTP。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="選擇AWS地區"
->abstract="選擇要用於上傳和儲存直接郵件檔案的伺服器。 目前僅支援Amazon S3和SFTP。"
+>abstract="選取您要匯出和上傳直接郵件檔案的地理區域。 為獲得最佳使用率，建議選擇托管雲基礎架構的最近區域。"
 
 1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 檔案路由配置]** > **[!UICONTROL 檔案路由]** ，然後按一下 **[!UICONTROL 建立路由配置]**.
 
@@ -55,7 +55,7 @@ ht-degree: 3%
 
 1. 設定配置的名稱。
 
-1. 選取設定 **[!UICONTROL 類型]**，即要用於上傳和儲存直接郵件檔案的伺服器。<!--why is it Type and not Server or Server type? asked to PM-->
+1. 選取設定 **[!UICONTROL 伺服器類型]**，即要用於上傳和儲存直接郵件檔案的伺服器。
 
    ![](assets/file-routing-config-type.png)
 
@@ -65,9 +65,7 @@ ht-degree: 3%
 
    建立直接郵件訊息時，您將產生包含所有必要設定檔資訊的檔案。 需要將此檔案導出並上傳到伺服器上，以便您的直接郵件提供程式可以訪問並使用該檔案來發送直接郵件。
 
-1. 填寫選定配置類型的特定詳細資訊和憑據，如伺服器地址、訪問密鑰等。 <!--need to detail more?-->
-
-   <!--![](assets/file-routing-config-aws-details.png)-->
+1. 填寫選定配置類型的特定詳細資訊和憑據，如伺服器地址、訪問密鑰等。
 
    ![](assets/file-routing-config-sftp-details.png)
 
@@ -90,12 +88,13 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="定義直接郵件設定"
->abstract="直接郵件表面包含與包含直接郵件的配置檔案資料的檔案格式相關的設定。 您可以（定義排序配置）、刪除重複行、將記錄拆分為多個檔案並選擇檔案路由配置。"
+>abstract="直接郵件表面包含與包含直接郵件的配置檔案資料的檔案格式相關的設定。 您還必須通過選擇檔案路由配置來定義要導出檔案的位置。"
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_sort"
->title="定義排序順序"
->abstract="如果您選取此選項，則會依設定檔ID（遞增或遞減）排序。 如果您取消選取，則會在歷程或行銷活動中建立直接郵件訊息時定義的排序設定。"
+>title="Define the sort order"
+>abstract="If you select this option, the sort will be by profile ID, ascending or descending. If you unselect it, the sorting configuration defined when creating the direct mail message within a journey or a campaign."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
@@ -128,7 +127,7 @@ ht-degree: 3%
    >
    >您可以設定介於1到200,000條記錄之間的任何數字，這表示每個檔案至少必須包含1列，且不得超過200,000列。
 
-1. 最後，選取 [檔案路由配置](#file-routing-configuration) 在您建立的群體中。 這會定義檔案匯出和上傳的位置，供直接郵件提供者使用。
+1. 最後，選取 **[!UICONTROL 檔案路由配置]** 在您建立的群體中。 這會定義檔案匯出和上傳的位置，供直接郵件提供者使用。
 
    >[!CAUTION]
    >
