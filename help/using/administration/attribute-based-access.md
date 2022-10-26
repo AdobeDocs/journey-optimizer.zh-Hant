@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 3%
@@ -127,7 +127,7 @@ ht-degree: 3%
 
    ![](assets/journey_1.png)
 
-1. 新增 **[!UICONTROL 欄位組]** 新建立 **[!UICONTROL 結構]** 內建 **[!UICONTROL 資料來源]**. 您也可以建立新的外部 **[!UICONTROLD資料來源]** 關聯 **[!UICONTROL 欄位群組]**.
+1. 新增 **[!UICONTROL 欄位組]** 新建立 **[!UICONTROL 結構]** 內建 **[!UICONTROL 資料來源]**. 您也可以建立新的外部 **[!UICONTROL 資料來源]** 關聯 **[!UICONTROL 欄位群組]**.
 
    ![](assets/journey_2.png)
 

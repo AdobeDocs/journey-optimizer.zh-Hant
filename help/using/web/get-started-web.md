@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 透過直覺式的視覺介面，此功能可讓您輕鬆修改Web屬性，以便試驗、最佳化和個人化您的使用者行銷活動。
 
-<!-->
-➡️ [透過此影片深入了解網頁頻道](#video)
-—>
+<!--
+[Learn more on web channel in this video](#video)
+-->
 
 <table>
 <tr>
@@ -42,10 +42,10 @@ ht-degree: 0%
 </tr>
 </table>
 
-<!-->
-## 作法影片{#video}
+<!--
+## How-to video{#video}
 
-以下影片說明如何
+The video below shows how to 
 
 >[!VIDEO]()
 -->

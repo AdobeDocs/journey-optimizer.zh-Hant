@@ -4,7 +4,7 @@ product: journey optimizer
 title: 2022 年發行說明
 description: Journey Optimizer 2022 年發行說明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '2519'
 ht-degree: 100%
@@ -525,7 +525,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tr>
 <td>
 <p>在 Journey Optimizer 訊息內容中，您現在可以將 UTM 參數加入連結：提供有關該連結的其他資料，幫助您確定某人按下連結的位置及原因。</p>
-<p>如需詳細資訊，請參閱<a href="../configuration/channel-surfaces.md#configure-email-settings">詳細文件</a>。</p-->
+<p>如需詳細資訊，請參閱<a href="../configuration/channel-surfaces.md#configure-email-settings">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>

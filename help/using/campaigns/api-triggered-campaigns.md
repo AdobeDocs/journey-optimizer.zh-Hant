@@ -4,7 +4,7 @@ product: journey optimizer
 title: 利用 API 觸發行銷活動
 description: 了解如何使用 [!DNL Journey Optimizer] API
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 3%
@@ -76,6 +76,7 @@ API觸發促銷活動的可用通道為電子郵件、簡訊及推送訊息。
 >[!IMPORTANT]
 >
 >此 `context.system` 語法僅限於Adobe內部使用，且不應用於傳遞內容屬性。
+
 請注意，目前沒有內容屬性可供左側邊欄功能表使用。 屬性必須直接在個人化運算式中輸入，且不需執行任何檢查 [!DNL Journey Optimizer].
 
 ## 執行促銷活動 {#execute}

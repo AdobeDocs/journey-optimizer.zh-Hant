@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '352'
 ht-degree: 6%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 6%
 
    ![](assets/audiences-publish.png)
 
-1. 當您的構圖準備就緒後，按一下 [**!UICONTROL發佈]**按鈕，發佈構圖並將產生的對象儲存至Adobe Experience Platform。
+1. 當您的構圖準備就緒後，按一下 **[!UICONTROL 發佈]** 按鈕來發佈構圖，並將產生的對象儲存至Adobe Experience Platform。
 
    如果發佈期間發生任何錯誤，則會顯示警報，其中包含如何解決問題的資訊。
 

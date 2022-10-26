@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: fe6fedfd3fb0a8b083f7b047e2879ef6510b041b
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 8%
@@ -30,6 +30,7 @@ ht-degree: 8%
 >[!IMPORTANT]
 >
 >傳送直接郵件訊息之前，請確定您已設定：
+>
 >* A [檔案路由配置](../configuration/direct-mail-configuration.md#file-routing-configuration) 它指定應上載和儲存解壓縮檔案的伺服器，
 >* A [直接郵件報文表面](../configuration/direct-mail-configuration.md#direct-mail-surface) 將引用檔案路由配置。
 
