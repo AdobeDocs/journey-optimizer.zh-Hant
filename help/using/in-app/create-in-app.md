@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 74f24c4ccdecd5afe52706e1ecb2d323c3200152
+source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '606'
 ht-degree: 3%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 3%
    1. 從左側下拉式清單中，選取觸發訊息所需的事件。
    1. 從右下拉式清單中，選取所選事件所需的驗證。
    1. 按一下 **[!UICONTROL 新增]** 按鈕。 然後，重複上述步驟。
-   1. 選取事件的連結方式，例如 **[!UICONTROL 和]** 如果您想要 **both** 觸發為true，以便顯示訊息和 **[!UICONTROL 或]** 如果您想要顯示訊息，如果 **heer** 觸發器是真的。
+   1. 選取事件的連結方式，例如選擇 **[!UICONTROL 和]** 如果您想要 **both** 觸發為true，以便顯示或選擇訊息 **[!UICONTROL 或]** 如果您想要顯示訊息，如果 **heer** 觸發器是真的。
 
    ![](assets/in_app_create_3.png)
 
