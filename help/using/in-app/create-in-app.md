@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+source-git-commit: 74f24c4ccdecd5afe52706e1ecb2d323c3200152
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 5%
+source-wordcount: '604'
+ht-degree: 3%
 
 ---
 
@@ -43,9 +43,18 @@ ht-degree: 5%
 
 1. 選擇應用程式內訊息作用中時觸發的頻率：
 
-   * **[!UICONTROL 每次顯示]**
-   * **[!UICONTROL 顯示一次]**
-   * **[!UICONTROL 顯示直到點進]**
+   * **[!UICONTROL 每次顯示]**:在 **[!UICONTROL 行動應用程式觸發器]** 下拉式清單中。
+   * **[!UICONTROL 顯示一次]**:只會在第一次選取事件時顯示此訊息， **[!UICONTROL 行動應用程式觸發器]** 下拉式清單中。
+   * **[!UICONTROL 顯示直到點進]**:當 **[!UICONTROL 行動應用程式觸發器]** 下拉式清單，直到SDK以「已點按」動作傳送interact事件為止。
+
+1. 從 **[!UICONTROL 行動應用程式觸發器]** 下拉式清單，選擇將觸發訊息的事件和條件：
+
+   1. 從左側下拉式清單中，選取觸發訊息所需的事件。
+   1. 從右下拉式清單中，選取所選事件所需的驗證。
+   1. 按一下 **[!UICONTROL 新增]** 按鈕。 然後，重複上述步驟。
+   1. 選取事件的連結方式，例如 **[!UICONTROL 和]** 如果您想要 **both** 觸發為true，以便顯示訊息和 **[!UICONTROL 或]** 如果您想要顯示訊息，如果 **heer** 觸發器是真的。
+
+   ![](assets/in_app_create_3.png)
 
 1. 從 **[!UICONTROL 行動應用程式觸發器]**
 下拉式清單。
