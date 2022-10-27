@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
+source-git-commit: 0b91aa647b2f12bf6864af008406fff845488b94
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# 在行銷活動中新增訊息{#messages-in-campaigns}
+# 在行銷活動中新增訊息
 
 在您的行銷活動中，選取通道以設計並個人化您要傳送給閱聽眾的訊息。 當您新增電子郵件、簡訊或推播至行銷活動時，可以立即傳送或排程訊息。
 
