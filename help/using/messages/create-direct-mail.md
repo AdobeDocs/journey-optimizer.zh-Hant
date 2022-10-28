@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: bca233ab888e2ca33b866bc3def31653f2d55ea9
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 8%
+source-wordcount: '478'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 8%
 
 直接郵件是離線通道，可讓您個人化並產生直接郵件提供者傳送郵件給客戶所需的解壓縮檔案。
 
-建立直接郵件時，Journey Optimizer會產生一個檔案，其中包含所有目標設定檔和選取的資料（郵遞區號、設定檔屬性等）。 然後，您就可以將此檔案傳送給直接郵件提供者，由他們負責實際傳送。
+建立直接郵件時，Journey Optimizer會產生一個檔案，其中包含所有目標設定檔和選取的資料（郵遞區號、設定檔屬性等）。 然後，您的直接郵件提供者便能擷取該檔案，並處理實際傳送。
 
 直接郵件訊息只能在已排程促銷活動的內容中建立。 它們無法用於API觸發的行銷活動或歷程中。
 
@@ -31,15 +31,15 @@ ht-degree: 8%
 >
 >傳送直接郵件訊息之前，請確定您已設定：
 >
->* A [檔案路由配置](../configuration/direct-mail-configuration.md#file-routing-configuration) 它指定應上載和儲存解壓縮檔案的伺服器，
->* A [直接郵件報文表面](../configuration/direct-mail-configuration.md#direct-mail-surface) 將引用檔案路由配置。
+>1. A [檔案路由配置](../configuration/direct-mail-configuration.md#file-routing-configuration) 它指定應上載和儲存解壓縮檔案的伺服器，
+>1. A [直接郵件報文表面](../configuration/direct-mail-configuration.md#direct-mail-surface) 將引用檔案路由配置。
 
 
 ## 建立直接郵件訊息 {#create}
 
-建立和發送直接郵件的步驟如下：
+建立和傳送直接郵件訊息的步驟如下：
 
-1. 建立新的排程促銷活動，請選取 **[!UICONTROL 直接郵件]** 作為操作，並選擇要使用的消息曲面。
+1. 建立新的排程促銷活動，請選取 **[!UICONTROL 直接郵件]** 作為操作，並選擇要使用的通道曲面。 [了解如何建立直接郵件表面](../configuration/direct-mail-configuration.md#direct-mail-surface)
 
    ![](assets/direct-mail-campaign.png)
 
@@ -75,4 +75,4 @@ ht-degree: 8%
 
 1. 定義直接郵件內容後，請完成促銷活動的設定。
 
-   當促銷活動開始時，解壓縮檔案會自動產生並上傳至您 [檔案路由配置](../configuration/direct-mail-configuration.md).
+   當促銷活動開始時，解壓縮檔案會自動產生並匯出至您 [檔案路由配置](../configuration/direct-mail-configuration.md).
