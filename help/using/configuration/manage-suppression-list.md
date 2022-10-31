@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 0c5a4291cdd46572faf2ab10c1c06987e4073b54
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1293'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->隱藏清單在沙箱層級操作。
+>隱藏清單是在沙箱層級管理。
 
 這些電子郵件地址會自動收集到Journey Optimizer **隱藏清單**. 進一步了解隱藏清單概念和在 [本節](../reports/suppression-list.md).
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >下載時間取決於檔案大小，亦即隱藏清單上的電子郵件地址數。
+   >下載時間取決於檔案大小，即隱藏清單上的地址數。
    >
    >給定沙箱一次可處理一個下載請求。
 
