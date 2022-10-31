@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '192'
 ht-degree: 4%
 
 ---
@@ -28,10 +28,17 @@ ht-degree: 4%
 * **[!UICONTROL 成功]**:子網域已成功完成檢查，且可用於傳送訊息、
 * **[!UICONTROL 失敗]**:提交子網域委派後，一或數項檢查失敗。
 
-若要存取子網域的詳細資訊，請從清單中開啟該子網域。 您可以：
+若要使用存取子網域的詳細資訊， **[!UICONTROL 成功]** 狀態，從清單中開啟它。
+
+![](assets/subdomain-delegated.png)
+
+您可以：
 
 * 擷取委派程式期間設定的子網域名稱（唯讀），以及產生的URL（資源、鏡像頁面、追蹤URL）,
 
 * 將Google網站驗證TXT記錄新增至您的子網域，以確保該記錄已驗證(請參閱 [將Google TXT記錄新增至子網域](google-txt.md))。
 
-![](assets/subdomain-delegated.png)
+
+>[!CAUTION]
+>
+>子網域設定是所有環境的共同設定。 因此，對子網域的任何修改也會影響生產沙箱。

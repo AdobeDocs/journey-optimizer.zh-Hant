@@ -6,9 +6,9 @@ description: 了解如何使用Journey Optimizer設定登錄頁面子網域
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '810'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,12 @@ ht-degree: 1%
 才能 [建立登錄頁面預設集](lp-presets.md)，您必須設定要用於登錄頁面的子網域。
 
 您可以使用已委派給Adobe的子網域，或可以設定其他子網域。 進一步了解如何將子網域委派至Adobe [本節](delegate-subdomain.md).
+
+>[!CAUTION]
+>
+>登錄頁面子網域設定是所有環境的共同設定。 因此，對登錄頁面子網域所做的任何修改也會影響生產沙箱。
+
+請注意，子網域中不應允許使用大寫字母
 
 ## 使用現有的子網域 {#lp-use-existing-subdomain}
 
@@ -63,6 +69,8 @@ ht-degree: 1%
    >[!NOTE]
    >
    >您無法選取已用作登錄頁面子網域的子網域。
+
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
    ![](assets/lp_prefix-and-subdomain.png)
 
@@ -106,6 +114,8 @@ ht-degree: 1%
    >[!CAUTION]
    >
    >您無法使用現有的登錄頁面子網域。
+   >
+   >子網域中不允許使用大寫字母。
 
    不允許將無效的子網域委派至Adobe。 請務必輸入貴組織擁有的有效子網域，例如marketing.yourcompany.com。
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '770'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 隱藏清單包含您要從傳遞中排除的電子郵件地址，因為向這些聯繫人發送可能會損害您的傳送信譽和傳遞率。
 
-此 [!DNL Journey Optimizer] 隱藏清單是在您自己的環境層級管理。
+此 [!DNL Journey Optimizer] 隱藏清單是在您自己的環境層級（即針對指定的沙箱）進行管理。
 
 它會收集會在單一用戶端環境中隱藏於所有郵件的電子郵件地址和網域，這表示是專屬於與沙箱ID相關聯的組織ID。
 

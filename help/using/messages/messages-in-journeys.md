@@ -7,10 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 100%
+source-wordcount: '786'
+ht-degree: 89%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 
 進階參數預設為唯讀並隱藏。
 
-若要存取進階參數，請按一下訊息窗格頂端的&#x200B;**[!UICONTROL 顯示唯讀欄位]**&#x200B;圖示。
+若要存取進階參數，請按一下訊息窗格頂端的&#x200B;**[!UICONTROL 顯示唯讀欄位]**&#x200B;圖示。按一下相同圖示以隱藏進階設定。
 
 ![](assets/show-read-only.png)
 
@@ -93,14 +93,20 @@ ht-degree: 100%
 
 ![](assets/push-adv-parameters.png)
 
-針對電子郵件，您可以顯示主要電子郵件地址。
+若是電子郵件，您可以顯示 [主要電子郵件地址](../configuration/primary-email-addresses.md).
 
-針對特定用途，您可以在特定內容覆寫這些值。 若要強制執行值，請按一下欄位右側的&#x200B;**啟用參數覆寫**&#x200B;圖示。此選項可能對如下項目非常有用：
+在特定內容中，您可以覆寫這些值以供特定使用。 若要強制執行值，請按一下欄位右側的&#x200B;**[!UICONTROL 啟用參數覆寫]**&#x200B;圖示。
 
-* 測試電子郵件，您可以新增電子郵件地址。 在您發佈了此歷程後，會向您寄送電子郵件。
+![](assets/email-adv-parameters.png)
+
+此選項可能對如下項目非常有用：
+
+* 測試電子郵件。 您可以新增電子郵件地址；在您發佈歷程後，會傳送電子郵件給您。
 * 請參閱訂閱者清單的電子郵件地址。 在[此使用案例](../building-journeys/message-to-subscribers-uc.md)中了解更多。
 
-按一下相同圖示以隱藏進階設定。
+>[!NOTE]
+>
+>電子郵件地址覆蓋僅應用於特定使用案例。 在大多數情況下，您不需要變更電子郵件地址，因為 **[!UICONTROL 執行欄位]** 才應該使用。 [了解更多](../configuration/primary-email-addresses.md)
 
 ## 瀏覽訊息{#browse-message}
 

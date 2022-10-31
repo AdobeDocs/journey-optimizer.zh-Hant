@@ -6,9 +6,9 @@ description: 了解如何設定您的環境，使用Journey Optimizer傳送SMS
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '711'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 2%
 >id="ajo_admin_surface_sms_type"
 >title="定義SMS類別"
 >abstract="選取使用此表面時將傳送的SMS訊息類型：促銷SMS訊息的行銷，需要使用者同意，或非商業SMS訊息的交易式，也可以在特定內容中傳送給取消訂閱的設定檔。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/create-sms.html#sms-opt-in-out" text="行銷SMS訊息中的選擇退出"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="行銷SMS訊息中的選擇退出"
 
 設定SMS通道後，您需要建立通道表面，才能傳送來自 **[!DNL Journey Optimizer]**.
 

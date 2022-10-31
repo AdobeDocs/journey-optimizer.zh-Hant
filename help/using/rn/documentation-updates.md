@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '2054'
-ht-degree: 97%
+source-wordcount: '2128'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 97%
 * 歷程使用案例區段已重新組織為兩個類別： [業務使用案例](../building-journeys/journeys-uc.md) 和 [技術使用案例](../building-journeys/collections.md).
 * 此 **實體資料集** 區段已更新，其中包含更多詳細資訊。 [了解更多](../start/datasets-query-examples.md#entity-dataset)
 * 與選擇退出管理和同意原則相關的資訊已重新整理至新章節。 [閱讀全文](../privacy/opt-out.md)
+* 歷程訊息中進階參數的區段已經釐清，現在指定電子郵件地址覆寫僅應用於特定使用案例。 在大部分時間中，定義為 **執行欄位** 才應該使用。 [閱讀全文](../messages/messages-in-journeys.md#adv-settings)
+* 在 **設定登錄頁面子網域** 區段來指定登錄頁面子網域中不允許使用大寫字母。 [閱讀全文](../configuration/lp-subdomains.md)
 
 ## 2022 年 9 月 {#september-2022}
 

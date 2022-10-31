@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1725'
 ht-degree: 9%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 9%
 >[!CAUTION]
 >
 >建議使用完全子網域委派。 深入了解兩者的差異 [子網域配置方法](about-subdomain-delegation.md#subdomain-delegation-methods).
+>
+>子網域設定是所有環境的共同設定。 因此，對子網域的任何修改也會影響生產沙箱。
 
 ## 完全子網域委派 {#full-subdomain-delegation}
 
@@ -67,6 +69,8 @@ ht-degree: 9%
    >
    >請注意，目前不支援電子郵件.marketing.yourcompany.com等多層級子網域。
 
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
+
 1. 要放置在 DNS 伺服器顯示中的記錄清單。 逐一複製這些記錄，或下載 CSV 檔案，然後導覽至您的網域託管解決方案，以產生相符的 DNS 記錄。
 
 1. 請確定所有DNS記錄都已產生至您的網域托管解決方案。 如果所有項目皆已正確設定，請核取「I confirm...」方塊，然後按一下 **[!UICONTROL 提交]**.
@@ -92,8 +96,6 @@ ht-degree: 9%
    >[!NOTE]
    >
    >子網域將標示為 **[!UICONTROL 失敗]** 如果您未在托管解決方案上建立驗證記錄。
-
-   <!-- later on, users will be notified in Pulse -->
 
 將子網域委派至Adobe後， [!DNL Journey Optimizer]，則會自動建立PTR記錄並與此子域關聯。 [了解更多](ptr-records.md)
 
@@ -133,6 +135,8 @@ CNAME 子網域委派可讓您建立子網域，並使用 CNAME 指向 Adobe 特
    >不允許將無效的子網域委派至Adobe。 請務必輸入貴組織擁有的有效子網域，例如marketing.yourcompany.com。
    >
    >請注意，目前不支援電子郵件.marketing.yourcompany.com等多層級子網域。
+
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
 1. 要放置在 DNS 伺服器顯示中的記錄清單。 逐一複製這些記錄，或下載 CSV 檔案，然後導覽至您的網域託管解決方案，以產生相符的 DNS 記錄。
 
