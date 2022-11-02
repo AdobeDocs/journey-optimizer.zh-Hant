@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 10%
@@ -44,7 +44,7 @@ ht-degree: 10%
 
 使用 [!DNL Journey Optimizer] 運算式編輯器，使用設定檔資料個人化您的訊息。 如需個人化的詳細資訊，請參閱[此章節](../personalization/personalize.md)。
 
-利用 [!DNL Journey Optimizer] 動態內容功能。 [開始使用動態內容](../personalization/get-started-dynamic-content.md)
+使用調整訊息的內容，使其與目標設定檔相符 [!DNL Journey Optimizer] 動態內容功能。 [開始使用動態內容](../personalization/get-started-dynamic-content.md)
 
 ## 電子郵件追蹤{#email-tracking}
 

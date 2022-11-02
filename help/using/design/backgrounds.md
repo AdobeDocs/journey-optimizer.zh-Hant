@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 若是使用電子郵件設計工具來設定背景，Adobe建議使用下列項目：
 
 1. 如果設計需要，請將背景顏色套用至電子郵件的正文。
-1. 在大多數情況下，在列級別設定背景顏色。
+1. 通常在列級別設定背景顏色。
 1. 請盡量不要在影像或文字元件上使用背景顏色，因為這些顏色難以管理。
 
 以下是您可使用的可用背景設定。
