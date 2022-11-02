@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
+source-git-commit: ab2956ab1dc3dfdf2ff67c3b6bcb1e3090d34ee3
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 19%
+source-wordcount: '573'
+ht-degree: 18%
 
 ---
 
@@ -32,27 +32,38 @@ ht-degree: 19%
 
 ## 建立歷程的步驟{#steps-journey}
 
-Adobe Journey Optimizer包含全通路協調畫布，可讓行銷人員協調行銷外展與一對一客戶互動。 使用者介面可讓您輕鬆將活動從浮動視窗拖放至畫布中，以建立您的歷程。 請注意，您也可以在下一個可用步驟，連按兩下某個活動以將其新增至畫布中。
+使用Adobe Journey Optimizer來設計和協調從單一畫布的個人化歷程。
+
+Adobe Journey Optimizer包含全通路協調畫布，可讓行銷人員協調行銷外展與一對一客戶互動。 使用者介面可讓您輕鬆將活動從浮動視窗拖放至畫布中，以建立您的歷程。
+
+![](assets/interface-journeys.png)
 
 了解如何在 [本頁](journey-gs.md).
 
-了解如何使用歷程設計工具和結合活動，以協調強大的全通路歷程 [本節](using-the-journey-designer.md).
+全通路歷程設計程式可協助您使用直覺式的拖放介面，以鎖定目標對象、根據即時客戶或業務互動進行更新，以及全通路訊息來建立多步驟歷程。
 
-身為資料工程師，了解如何設定您的歷程，包括 [本節](../configuration/about-data-sources-events-actions.md).
+![](assets/journey38.png)
+
+深入了解 [本節](using-the-journey-designer.md).
+
+身為資料工程師，設定歷程的步驟（包括資料來源、事件和動作）在 [本節](../configuration/about-data-sources-events-actions.md).
 
 
 ## 使用案例{#uc-journey}
 
-探索下列端對端使用案例，以運用
-* 業務使用案例
-   * [傳送多頻道訊息](journeys-uc.md)
-   * [使用 Campaign v7/v8 傳送訊息](campaign-classic-use-case.md)
-   * [傳送訊息給訂閱者](message-to-subscribers-uc.md)
+了解如何在下列端對端使用案例中建立歷程。
 
-* 技術使用案例
-   * [使用自訂動作以動態方式傳遞集合](collections.md)
-   * [加快傳遞速度](ramp-up-deliveries-uc.md)
-   * [使用外部資料來源和自訂動作限制輸送量](limit-throughput.md)
+業務使用案例：
+
+* [傳送多頻道訊息](journeys-uc.md)
+* [使用 Campaign v7/v8 傳送訊息](campaign-classic-use-case.md)
+* [傳送訊息給訂閱者](message-to-subscribers-uc.md)
+
+技術使用案例：
+
+* [使用自訂動作以動態方式傳遞集合](collections.md)
+* [加快傳遞速度](ramp-up-deliveries-uc.md)
+* [使用外部資料來源和自訂動作限制輸送量](limit-throughput.md)
 
 ## 歷程版本{#journey-versions}
 
