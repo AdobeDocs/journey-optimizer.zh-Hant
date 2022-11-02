@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 412f7efe2da9f9b1a8fa49f1243ca63c4e0d01c0
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 9%
+source-wordcount: '1012'
+ht-degree: 10%
 
 ---
 
@@ -93,15 +93,9 @@ ht-degree: 9%
 
 ### 入口{#entrance}
 
-依預設，新歷程允許重新進入。 您可以取消勾選「一次性」歷程的選項，例如當某人進入商店時，如果您想要提供一次性禮品。 在此情況下，您不會希望客戶能夠重新進入歷程並再次收到優惠方案。
+依預設，新歷程允許重新進入。 您可以取消勾選「一次性」歷程的選項，例如當某人進入商店時，如果您想要提供一次性禮品。
 
-歷程「結束」時，其狀態為 **[!UICONTROL 已關閉]**. 歷程將停止讓新人進入歷程。 已在歷程中的人員會正常完成歷程。
-
-在30天的預設全域逾時後，歷程會切換至 **已完成** 狀態。 看這個 [節](../building-journeys/journey-gs.md#global_timeout).
-
->[!NOTE]
->
->單一歷程（從事件或區段資格開始）包含防止同一事件多次錯誤觸發歷程的護欄。 設定檔重新進入預設會暫時封鎖5分鐘。 例如，如果某個事件在12:01對特定設定檔觸發歷程，而另一個事件在12:03到達（無論是相同事件或是不同事件觸發相同歷程），該歷程將不會對此設定檔重新開始。
+進一步了解設定檔入口管理，位於 [本節](entry-management.md).
 
 ### 歷程活動的逾時和錯誤 {#timeout_and_error}
 
