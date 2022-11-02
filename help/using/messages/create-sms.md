@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 13%
@@ -60,7 +60,7 @@ ht-degree: 13%
 >
 > 為了獲得更好的傳遞能力，您應始終使用提供商支援的格式的電話號碼。 例如， Twilio和Sinch僅支援E.164格式的電話號碼。
 
-定義訊息內容後，您就可以使用測試設定檔來預覽和測試。 如果您已插入 [個人化內容](../personalization/personalize.md)，您可以運用測試設定檔資料，檢查訊息中此內容的顯示方式。
+定義訊息內容後，您就可以使用測試設定檔來預覽和測試。 如果您已插入 [個人化內容](../personalization/personalize.md)，您可以使用測試設定檔資料，檢查訊息中此內容的顯示方式。
 
 若要視覺化您的SMS訊息在行動裝置上的顯示方式，請按一下 **[!UICONTROL 模擬內容]** 標籤。 深入了解內容模擬，位於 [本節](../design/preview.md).
 
