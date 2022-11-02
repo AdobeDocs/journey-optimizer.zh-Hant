@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 95%
+source-wordcount: '1253'
+ht-degree: 94%
 
 ---
 
@@ -38,7 +38,10 @@ ht-degree: 95%
       + [設計您的歷程](using/building-journeys/using-the-journey-designer.md)
       + [測試您的歷程](using/building-journeys/testing-the-journey.md)
       + [發佈您的歷程](using/building-journeys/publishing-the-journey.md)
+   + 管理您的歷程{#mannage-journey}
+      + [結束您的歷程](using/building-journeys/end-journey.md)
       + [時區管理](using/building-journeys/timezone-management.md)
+      + [設定檔項目管理](using/building-journeys/entry-management.md)
       + [將歷程複製到另一個沙箱](using/building-journeys/copy-to-sandbox.md)
       + [疑難排解您的歷程](using/building-journeys/troubleshooting.md)
       + [與 Intelligent Services 整合](using/building-journeys/ai-services-overview.md)
@@ -144,6 +147,14 @@ ht-degree: 95%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + 使用實例 {#journey-use-cases}
+      + 業務使用案例 {#business-use-cases}
+         + [傳送多頻道訊息](using/building-journeys/journeys-uc.md)
+         + [使用 Campaign v7/v8 傳送訊息](using/building-journeys/campaign-classic-use-case.md)
+         + [傳送訊息給訂閱者](using/building-journeys/message-to-subscribers-uc.md)
+      + 技術使用案例 {#technical-use-cases}
+         + [使用自訂動作以動態方式傳遞集合](using/building-journeys/collections.md)
+         + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
+         + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
 + 行銷活動{#campaigns}
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
    + [建立行銷活動](using/campaigns/create-campaign.md)
@@ -252,14 +263,6 @@ ht-degree: 95%
       + [建立組合工作流程](using/segment/create-compositions.md)
       + [使用組合畫布](using/segment/composition-canvas.md)
       + [存取及管理對象](using/segment/access-audiences.md)
-      + 業務使用案例 {#business-use-cases}
-         + [傳送多頻道訊息](using/building-journeys/journeys-uc.md)
-         + [使用 Campaign v7/v8 傳送訊息](using/building-journeys/campaign-classic-use-case.md)
-         + [傳送訊息給訂閱者](using/building-journeys/message-to-subscribers-uc.md)
-      + 技術使用案例 {#technical-use-cases}
-         + [使用自訂動作以動態方式傳遞集合](using/building-journeys/collections.md)
-         + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
 + 追蹤和監視 {#reporting}
    + 即時報告 {#live-report}
       + [開始使用即時報告](using/reports/live-report.md)
