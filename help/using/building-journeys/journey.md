@@ -1,24 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 一般原則
-description: 一般原則
+title: 開始使用歷程
+description: 開始使用歷程
 feature: Journeys
-topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: ab2956ab1dc3dfdf2ff67c3b6bcb1e3090d34ee3
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 18%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 一般原則{#jo-general-principle}
+# 開始使用歷程{#jo-general-principle}
 
-使用 [!DNL Journey Optimizer] 善用儲存在事件或資料來源中的情境資料，建立即時協調使用案例。
+使用 [!DNL Journey Optimizer] 使用儲存在事件或資料來源中的內容資料，建立即時協調使用案例。
 
 設計由下列功能提供支援的多步驟進階案例：
 
@@ -75,7 +74,7 @@ Adobe Journey Optimizer包含全通路協調畫布，可讓行銷人員協調行
 
 >[!NOTE]
 >
->在大多數情況下，設定檔無法同時在同一歷程中出現多次。 如果已啟用重新進入，設定檔可以重新進入歷程，但必須完全退出歷程的先前例項，才能執行此動作。 [閱讀全文](end-journey.md)。
+>一個設定檔通常無法在同一歷程中同時出現多次。 如果已啟用重新進入，設定檔可以重新進入歷程，但必須完全退出歷程的先前例項，才能執行此動作。 [閱讀全文](end-journey.md)。
 
 如果您需要修改至即時歷程，請建立新版本的歷程。
 
