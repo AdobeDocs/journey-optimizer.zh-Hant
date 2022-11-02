@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '256'
 ht-degree: 9%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 9%
 
 對象構成可讓您建立 **組成工作流程**，您可以將現有的Adobe Experience Platform對象結合至視覺畫布，並運用各種活動（分割、排除……）來建立新對象。
 
-完成後， **產生的對象** 與現有對象一起儲存至Adobe Experience Platform，而且 **在行銷活動中運用** 來鎖定客戶。
+完成後， **產生的對象** 與現有對象一起儲存至Adobe Experience Platform，而且 **在行銷活動中運用** 來鎖定客戶。 [了解如何使用行銷活動](../campaigns/get-started-with-campaigns.md)
 
 ![](assets/audiences-process.png)
 

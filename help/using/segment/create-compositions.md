@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 7%
+source-wordcount: '367'
+ht-degree: 5%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 7%
 
    ![](assets/audiences-alerts.png)
 
-1. 作文已發佈。 產生的對象會儲存至Adobe Experience Platform中，且已準備好在Journey Optimizer行銷活動中定位。 [開始使用行銷活動](../campaigns/get-started-with-campaigns.md)
+1. 作文已發佈。 產生的對象會儲存至Adobe Experience Platform中，且已準備好在Journey Optimizer行銷活動中定位。 [了解如何使用行銷活動](../campaigns/get-started-with-campaigns.md)
 
 ## 存取組合物 {#access}
 

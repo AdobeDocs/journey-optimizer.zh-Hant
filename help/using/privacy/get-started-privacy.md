@@ -6,9 +6,9 @@ description: 深入了解Adobe Journey Optimizer和Adobe Experience Platform的�
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '201'
 ht-degree: 9%
 
 ---
@@ -24,11 +24,9 @@ Adobe Experience Platform和Journey Optimizer提供各種工具，協助您確�
 
 * **稽核使用者的動作**:利用審核日誌識別系統中用戶執行的操作、排解問題，並幫助您的企業遵守法規和公司資料管理策略。 [了解更多](audit-logs.md)
 
-* **追蹤及管理同意**:
+* **追蹤及管理同意**:追蹤客戶對通訊的同意，並管理其偏好設定和訂閱。 [了解更多](opt-out.md)
 
-   追蹤客戶對通訊的同意，並管理其偏好設定和訂閱。 [了解更多](opt-out.md)
-
-   定義Adobe Experience Platform同意原則並將其套用至您的自訂動作，以尊重客戶的偏好設定。 [了解更多](../action/consent.md)
+* **套用同意政策**:定義Adobe Experience Platform同意原則並將其套用至您的自訂動作，以尊重客戶的偏好設定。 [了解更多](../action/consent.md)
 
 * **應用治理策略**:運用Adobe Experience Platform控管政策，防止敏感欄位透過自訂動作匯出至協力廠商系統。 [了解更多](../action/action-privacy.md)
 
@@ -37,7 +35,7 @@ Adobe Experience Platform和Journey Optimizer提供各種工具，協助您確�
 <td><img src="../assets/do-not-localize/icon-privacy-request.svg" width="60px"><p><a href="requests.md">管理資料請求</a></p></td>
 <td><img src="../assets/do-not-localize/icon-privacy-audit.svg" width="60px"><p><a href="audit-logs.md">稽核使用者的動作</a></p></td>
 <td><img src="../assets/do-not-localize/icon-privacy-optout.svg" width="60px"><p><a href="opt-out.md">追蹤及管理同意</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-consent.svg" width="60px"><p><a href="../action/consent.md">追蹤及管理同意</a></p></td>
+<td><img src="../assets/do-not-localize/icon-privacy-consent.svg" width="60px"><p><a href="../action/consent.md">套用同意政策</a></p></td>
 <td><img src="../assets/do-not-localize/icon-privacy-governance.svg" width="60px"><p><a href="../action/action-privacy.md">應用治理策略</a></p></td>
 </tr>
 </table>
