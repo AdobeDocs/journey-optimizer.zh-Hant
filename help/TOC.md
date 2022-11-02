@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1248'
 ht-degree: 95%
 
 ---
@@ -32,19 +32,19 @@ ht-degree: 95%
    + [使用者介面](using/start/user-interface.md)
    + [護欄](using/start/guardrails.md)
 + 歷程 {#orchestrate-journeys}
-   + 關於歷程{#about-journeys}
+   + 開始使用歷程{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
       + [歷程生命週期](using/building-journeys/journey-end.md)
       + [歷程版本](using/building-journeys/journey-versions.md)
-      + [與 Intelligent Services 整合](using/building-journeys/ai-services-overview.md)
    + 建立歷程{#create-journey}
-      + [開始使用歷程](using/building-journeys/journey-gs.md)
+      + [建立您的第一個歷程](using/building-journeys/journey-gs.md)
       + [設計您的歷程](using/building-journeys/using-the-journey-designer.md)
       + [測試您的歷程](using/building-journeys/testing-the-journey.md)
       + [發佈您的歷程](using/building-journeys/publishing-the-journey.md)
       + [時區管理](using/building-journeys/timezone-management.md)
       + [將歷程複製到另一個沙箱](using/building-journeys/copy-to-sandbox.md)
       + [疑難排解您的歷程](using/building-journeys/troubleshooting.md)
+      + [與 Intelligent Services 整合](using/building-journeys/ai-services-overview.md)
    + 活動 {#about-journey-building}
       + [關於歷程活動](using/building-journeys/about-journey-activities.md)
       + [一般事件](using/building-journeys/general-events.md)

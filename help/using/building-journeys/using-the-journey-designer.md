@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1507'
 ht-degree: 3%
 
 ---
@@ -22,11 +22,13 @@ ht-degree: 3%
 >title="設計您的歷程"
 >abstract="歷程介面可讓您輕鬆將活動從浮動視窗拖放至畫布中。 您也可以連按兩下某個活動，以在下一個可用步驟將其新增至畫布中。"
 
-歷程介面可讓您輕鬆將活動從浮動視窗拖放至畫布中。 您也可以連按兩下某個活動，以在下一個可用步驟將其新增至畫布中。 每個活動在流程中都有特定角色和位置。 活動會排序。 活動完成後，流程會繼續並處理下一個活動，以此類推。
+Adobe Journey Optimizer包含全通路協調畫布，可讓行銷人員協調行銷外展與一對一客戶互動。 使用者介面可讓您輕鬆將活動從浮動視窗拖放至畫布中，以建立您的歷程。 請注意，您也可以在下一個可用步驟，連按兩下某個活動以將其新增至畫布中。
+
+活動、協調和行動活動在過程中具有特定的作用和地位。 活動已排序：活動完成後，流程會繼續並處理下一個活動，以此類推。
 
 ## 開始進行歷程設計 {#gs-journey-design}
 
-此 **浮動視窗** 在畫面的左側。 所有可用活動皆分為數個類別： **[!UICONTROL 事件]**, **[!UICONTROL 協調]** 和 **[!UICONTROL 動作]**. 您可以按一下不同類別的名稱，以展開/收合其他類別。 若要在歷程中使用活動，請將其從浮動視窗拖放至畫布中。
+此 **浮動視窗** 在畫面的左側。 所有可用活動皆分為數個類別： [事件](#jo-event), [協調](#jo-orch) 和 [動作](#jo-actions). 您可以按一下不同類別的名稱，以展開/收合其他類別。 若要在歷程中使用活動，請將其從浮動視窗拖放至畫布中。
 
 開始新歷程時，無法將第一個步驟放置在畫布中的元素隱藏。 這關係到所有動作、狀況活動、等待和反應。
 
@@ -66,27 +68,27 @@ ht-degree: 3%
 
 在第一個事件或讀取區段之後，您可以結合不同的活動以建立您的多步驟跨通道案例。 從浮動視窗中選擇您需要的步驟。
 
-**事件**
+### 活動{#jo-event}
 
-當您從事件開始歷程時，會在收到事件時觸發歷程。 然後，人員會個別遵循您歷程中定義的後續步驟。
+當您從事件開始歷程時，會在收到事件時觸發歷程。 歷程中的每個人接著分別依照歷程中定義的後續步驟操作。
 
-您可以新增 **數個事件** 在您的歷程中，只要他們使用相同的命名空間即可。 事件會預先設定。 [深入了解事件](about-journey-activities.md#event-activities)
+您可以新增 **數個事件** 在您的歷程中，只要他們使用相同的命名空間即可。 事件會預先設定。 [深入了解歷程事件](about-journey-activities.md#event-activities)
 
-您也可以新增 **反應** 事件，以回應與訊息相關的追蹤資料。 舉例來說，當個人開啟前一則訊息或按一下其內部訊息時，這可讓您傳送另一則訊息。 了解更多資訊 [節](reaction-events.md).
+您也可以新增 **反應** 事件，以回應與訊息相關的追蹤資料。 舉例來說，當個人開啟前一則訊息或按一下其內部訊息時，這可讓您傳送另一則訊息。 [進一步了解反應事件](reaction-events.md).
 
-此 **區段資格** 事件活動可讓您根據Adobe Experience Platform區段入口和出口，讓個人進入或前進歷程。 您可以讓所有新的銀級客戶進入歷程並傳送個人化訊息。 了解更多資訊 [節](segment-qualification-events.md).
+使用 **區段資格** 事件活動，根據Adobe Experience Platform區段入口和出口，讓個人進入或前進歷程。 您可以讓所有新的銀級客戶進入歷程並傳送個人化訊息。 了解更多資訊 [節](segment-qualification-events.md).
 
-**協調**
+### 協調{#jo-orch}
 
-在協調活動中，您會找到 **讀取區段** 活動，可讓您設定歷程以監聽Adobe Experience Platform區段。 [深入了解「讀取區段」活動](read-segment.md).
+在協調活動中，使用 **讀取區段** 設定歷程以監聽Adobe Experience Platform區段的活動。 [深入了解「讀取區段」活動](read-segment.md).
 
-其他活動可讓您新增條件至歷程，以定義數個路徑、設定在執行下一個活動之前的等待時間，或結束您的歷程。 了解更多資訊 [節](about-journey-activities.md#orchestration-activities).
+其他活動可讓您新增條件至歷程，以定義數個路徑、設定在執行下一個活動之前的等待時間，或結束您的歷程。 [進一步了解協調活動](about-journey-activities.md#orchestration-activities).
 
-**動作**
+### 動作{#jo-actions}
 
-您會在這裡找到管道動作活動，可讓您包含中設計的訊息 [!DNL Journey Optimizer]. [深入了解管道動作活動](journeys-message.md)
+管道動作活動可讓您包含中設計的訊息 [!DNL Journey Optimizer]. [深入了解管道動作活動](journeys-message.md)
 
-您也會找到您已設定為透過第三方系統傳送訊息的自訂動作。 了解更多資訊 [節](about-journey-activities.md#action-activities).
+在動作活動中，使用自訂動作以透過協力廠商系統傳送訊息。 [深入了解自訂動作](about-journey-activities.md#action-activities).
 
 ## 新增替代路徑{#paths}
 
