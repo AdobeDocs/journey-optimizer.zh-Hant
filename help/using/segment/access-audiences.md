@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 14%
+source-wordcount: '146'
+ht-degree: 15%
 
 ---
 
@@ -20,10 +20,6 @@ ht-degree: 14%
 # 存取及管理對象 {#access-manage-audiences}
 
 您可以透過 **[!UICONTROL 對象]** 標籤 **[!UICONTROL 區段]** 功能表。
-
->[!IMPORTANT]
->
->目前，合成工作流程產生的對象無法定位至Journey Optimizer。
 
 此索引標籤會列出儲存至Adobe Experience Platform的所有對象。 使用對象合成內容建立的對象可由 **[!UICONTROL 受眾構成]** 來源。
 

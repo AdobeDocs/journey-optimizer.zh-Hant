@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 6%
+source-wordcount: '365'
+ht-degree: 7%
 
 ---
 
@@ -39,13 +39,11 @@ ht-degree: 6%
    * **[!UICONTROL 儲存]**:作品的最後一步。 此活動可讓您將工作流程的結果儲存至新對象。
    有關如何在合成工作流程畫布中配置活動的詳細資訊，請參閱 [使用合成畫布](composition-canvas.md).
 
-1. 選取 **[!UICONTROL 對象]** 活動，然後指定合成的標籤。
+1. 開啟合成屬性以指定標題和說明。
 
-   >[!IMPORTANT]
-   >
-   >此 **[!UICONTROL 對象]** 活動標籤是合成的標籤。 請務必提供有意義的名稱，以便更輕鬆地在清單中擷取構圖。
+   如果屬性中未定義任何標題，則合成標籤將是開始 **[!UICONTROL 對象]** 活動。
 
-   ![](assets/audiences-new-composition.png)
+   ![](assets/audiences-properties.png)
 
 1. 視需要在 **[!UICONTROL 對象]** 和 **[!UICONTROL 儲存]** 活動。 [了解如何使用構圖畫布](composition-canvas.md)
 
@@ -57,7 +55,7 @@ ht-degree: 6%
 
    ![](assets/audiences-alerts.png)
 
-1. 作文已發佈。 產生的對象會儲存至Adobe Experience Platform。 <!-- and are ready to be targeted in Journey Optimizer campaigns. [Get started with campaigns](../campaigns/get-started-with-campaigns.md)-->
+1. 作文已發佈。 產生的對象會儲存至Adobe Experience Platform中，且已準備好在Journey Optimizer行銷活動中定位。 [開始使用行銷活動](../campaigns/get-started-with-campaigns.md)
 
 ## 存取組合物 {#access}
 
@@ -69,7 +67,7 @@ ht-degree: 6%
 所有建立的組合皆可從 **[!UICONTROL 組合物]** 標籤。 它們可以有多種狀態：
 
 * **[!UICONTROL 草稿]**:該構成正在進行中，尚未公佈。
-* **[!UICONTROL 已發佈]**:已發佈合成，因此已儲存對象。 <!-- and are available for use.-->
+* **[!UICONTROL 已發佈]**:合成內容已發佈，因此已儲存對象並可供使用。
 * **[!UICONTROL 已封存]**:已封存了構成。
 
 ![](assets/audiences-compositions.png)

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1040'
 ht-degree: 2%
 
 ---
@@ -28,24 +28,28 @@ ht-degree: 2%
 
 ## 選取開始對象 {#starting-audience}
 
->[!CONTEXTUALHELP]
->id="ajo_ao_merge_types"
->title="合併類型"
->abstract="指定應如何合併所選對象的設定檔。"
-
 建立構圖的第一個步驟是選取一或多個現有對象，作為構圖的基礎。
 
-選取 **[!UICONTROL 對象]** 活動，然後按一下 **[!UICONTROL 新增對象]** 按鈕，然後選取一或多個對象。
+1. 選取 **[!UICONTROL 對象]** 活動然後提供活動的標籤。
+
+1. 選擇要定位的對象：
+
+   * 按一下 **[!UICONTROL 新增對象]** 按鈕，以選取一或多個現有對象，
+   * 按一下 **[!UICONTROL 建置規則]** 按鈕，使用 [區段服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+
+   ![](assets/audiences-choose-audience.png)
+
+1. 如果選取了多個對象，請指定應如何合併這些對象的設定檔：
+
+* **[!UICONTROL 聯合]**:包含來自所選對象的所有設定檔，
+* **[!UICONTROL 交集]**:包含所有所選對象共同的設定檔，
+* **[!UICONTROL 排除重疊]**:包含僅屬於其中一個對象的設定檔。 不會包含屬於多個對象的設定檔。
 
 在此範例中，我們想要鎖定屬於金級和銀級受眾的所有設定檔。
 
 ![](assets/audiences-starting-audience.png)
 
-如果您選取多個對象，請指定如何合併這些對象的設定檔：
-
-* **[!UICONTROL 聯合]**:包含來自所選對象的所有設定檔，
-* **[!UICONTROL 交集]**:包含所有所選對象共同的設定檔，
-* **[!UICONTROL 排除重疊]**:包含僅屬於其中一個對象的設定檔。 不會包含屬於多個對象的設定檔。
+選取對象後，預估的設定檔數量會顯示在活動底部。
 
 ## 新增活動 {#action-activities}
 
@@ -74,6 +78,11 @@ ht-degree: 2%
 >id="ajo_ao_audience"
 >title="對象活動"
 >abstract="「對象」活動可讓您在合成中包含屬於現有對象的其他設定檔。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_merge_types"
+>title="合併類型"
+>abstract="指定應如何合併所選對象的設定檔。"
 
 此 **[!UICONTROL 對象]** 活動可讓您在構成中包含屬於現有對象的其他設定檔。
 

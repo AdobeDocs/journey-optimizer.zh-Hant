@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '250'
 ht-degree: 9%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 9%
 
 對象構成可讓您建立 **組成工作流程**，您可以將現有的Adobe Experience Platform對象結合至視覺畫布，並運用各種活動（分割、排除……）來建立新對象。
 
-完成後， **產生的對象** 會與現有對象一起儲存至Adobe Experience Platform。<!--, and can be **leveraged in campaigns** to target customers.-->
+完成後， **產生的對象** 與現有對象一起儲存至Adobe Experience Platform，而且 **在行銷活動中運用** 來鎖定客戶。
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->目前，合成工作流程產生的對象無法定位至Journey Optimizer。 在Adobe Experience Platform目的地中，兩者皆無法設為目標。
+>合成工作流程產生的對象只能鎖定在Journey Optimizer促銷活動中。 它們無法用於歷程。
 
 ## 存取受眾構成 {#access}
 
