@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 3%
@@ -47,7 +47,7 @@ ht-degree: 3%
 * 發生錯誤時會系統地執行三次重試。 您無法根據收到的錯誤訊息調整重試次數。
 * 內建 **反應** 事件可讓您對現成可用的動作做出反應。 在[本頁](../building-journeys/reaction-events.md)中瞭解更多。如果您想對透過自訂動作傳送的訊息做出反應，需要設定專用事件。
 * 您無法同時放置兩個動作，您必須逐一新增。
-* 在大多數情況下，設定檔無法同時在同一歷程中出現多次。 如果已啟用重新進入，設定檔可以重新進入歷程，但必須完全退出歷程的先前例項，才能執行此動作。 [閱讀全文](../building-journeys/journey-end.md)
+* 在大多數情況下，設定檔無法同時在同一歷程中出現多次。 如果已啟用重新進入，設定檔可以重新進入歷程，但必須完全退出歷程的先前例項，才能執行此動作。 [閱讀全文](../building-journeys/journey.md#journey-ending)
 
 ### 歷程版本 {#journey-versions-g}
 

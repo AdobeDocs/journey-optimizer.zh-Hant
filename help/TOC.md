@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1244'
 ht-degree: 95%
 
 ---
@@ -32,10 +32,7 @@ ht-degree: 95%
    + [使用者介面](using/start/user-interface.md)
    + [護欄](using/start/guardrails.md)
 + 歷程 {#orchestrate-journeys}
-   + 開始使用歷程{#about-journeys}
-      + [一般原則](using/building-journeys/journey.md)
-      + [歷程生命週期](using/building-journeys/journey-end.md)
-      + [歷程版本](using/building-journeys/journey-versions.md)
+   + [開始使用歷程](using/building-journeys/journey.md)
    + 建立歷程{#create-journey}
       + [建立您的第一個歷程](using/building-journeys/journey-gs.md)
       + [設計您的歷程](using/building-journeys/using-the-journey-designer.md)
@@ -46,7 +43,7 @@ ht-degree: 95%
       + [疑難排解您的歷程](using/building-journeys/troubleshooting.md)
       + [與 Intelligent Services 整合](using/building-journeys/ai-services-overview.md)
    + 活動 {#about-journey-building}
-      + [關於歷程活動](using/building-journeys/about-journey-activities.md)
+      + [開始使用歷程活動](using/building-journeys/about-journey-activities.md)
       + [一般事件](using/building-journeys/general-events.md)
       + [反應](using/building-journeys/reaction-events.md)
       + [區段資格](using/building-journeys/segment-qualification-events.md)

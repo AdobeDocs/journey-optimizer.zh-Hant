@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '1507'
-ht-degree: 3%
+source-wordcount: '1605'
+ht-degree: 2%
 
 ---
 
@@ -60,15 +60,17 @@ Adobe Journey Optimizer包含全通路協調畫布，可讓行銷人員協調行
 
 當您設計歷程時，您想要詢問的第一個問題是設定檔將如何進入歷程。 有兩種可能性：
 
-**從事件開始**:當歷程設定為監聽事件時，個人會進入歷程 **一體** 即時。 您歷程中包含的訊息會傳送給目前流入歷程的人員。 [深入了解事件](../event/about-events.md)
+1. **從事件開始**:當歷程設定為監聽事件時，個人會進入歷程 **一體** 即時。 您歷程中包含的訊息會傳送給目前流入歷程的人員。 [深入了解事件](../event/about-events.md)
 
-**從讀取區段開始**:您可以設定歷程以監聽Adobe Experience Platform區段。 在此情況下，屬於指定區段的所有個人都會進入歷程。 歷程中包含的訊息會傳送給屬於區段的個人。 [深入了解閱讀區段](read-segment.md).
+1. **從讀取區段開始**:您可以設定歷程以監聽Adobe Experience Platform區段。 在此情況下，屬於指定區段的所有個人都會進入歷程。 歷程中包含的訊息會傳送給屬於區段的個人。 [深入了解閱讀區段](read-segment.md).
 
 ## 定義後續步驟{#define-next-steps}
 
 在第一個事件或讀取區段之後，您可以結合不同的活動以建立您的多步驟跨通道案例。 從浮動視窗中選擇您需要的步驟。
 
 ### 活動{#jo-event}
+
+事件是觸發個人化歷程（例如線上購買）的因素。 一旦有人進入歷程，他們就會以個人身份移動，沒有兩個人會以相同的速度或相同的路徑移動。
 
 當您從事件開始歷程時，會在收到事件時觸發歷程。 歷程中的每個人接著分別依照歷程中定義的後續步驟操作。
 
@@ -80,11 +82,15 @@ Adobe Journey Optimizer包含全通路協調畫布，可讓行銷人員協調行
 
 ### 協調{#jo-orch}
 
-在協調活動中，使用 **讀取區段** 設定歷程以監聽Adobe Experience Platform區段的活動。 [深入了解「讀取區段」活動](read-segment.md).
+協調活動是不同的條件，有助於決定歷程的下一步。
+
+在協調活動中，使用 **讀取區段** 活動來設定您的歷程以監聽Adobe Experience Platform區段。 [深入了解「讀取區段」活動](read-segment.md).
 
 其他活動可讓您新增條件至歷程，以定義數個路徑、設定在執行下一個活動之前的等待時間，或結束您的歷程。 [進一步了解協調活動](about-journey-activities.md#orchestration-activities).
 
 ### 動作{#jo-actions}
+
+動作是您希望在某種觸發（例如傳送訊息）後發生的動作。 這是客戶體驗的歷程片段。 這可以是電子郵件、簡訊或推送訊息，或第三方動作，例如Slack訊息。
 
 管道動作活動可讓您包含中設計的訊息 [!DNL Journey Optimizer]. [深入了解管道動作活動](journeys-message.md)
 

@@ -4,8 +4,8 @@ product: journey optimizer
 title: 2022 年發行說明
 description: Journey Optimizer 2022 年發行說明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
-workflow-type: ht
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+workflow-type: tm+mt
 source-wordcount: '3461'
 ht-degree: 100%
 
@@ -347,7 +347,7 @@ ht-degree: 100%
 
 **歷程**
 
-* **結束歷程** — 在歷程畫布中， **結束**&#x200B;活動已從調色盤中刪除。 現在，每個路徑的末端預設新增結束標籤而且無法移除。 這種改善能夠更好地報告客戶從歷程退出的位置，不需要由歷程業者採取任何動作。 請參閱 [文件](../building-journeys/journey-end.md) 及 [功能影片](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}。
+* **結束歷程** — 在歷程畫布中， **結束**&#x200B;活動已從調色盤中刪除。 現在，每個路徑的末端預設新增結束標籤而且無法移除。 這種改善能夠更好地報告客戶從歷程退出的位置，不需要由歷程業者採取任何動作。 請參閱 [文件](../building-journeys/journey.md#journey-ending) 及 [功能影片](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}。
 
 
 * 此 **個人資料時區** 「歷程屬性」中的選項現在預設為未勾選。 [了解更多](../building-journeys/timezone-management.md#timezone-from-profiles)

@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '1305'
 ht-degree: 3%
@@ -156,7 +156,7 @@ GDPR等法規規定資料主體應可隨時修改其同意。 因為您隨Journe
    
    >[!NOTE]
    >
-   >若要取得 `<journey version id>`參數，選擇相應的 [歷程版本](../building-journeys/journey-versions.md) 從 **[!UICONTROL 歷程管理]** > **[!UICONTROL 歷程]** 功能表。 歷程版本ID會顯示在網頁瀏覽器中顯示之URL的結尾。
+   >若要取得 `<journey version id>`參數，選擇相應的 [歷程版本](../building-journeys/journey.md#journey-versions) 從 **[!UICONTROL 歷程管理]** > **[!UICONTROL 歷程]** 功能表。 歷程版本ID會顯示在網頁瀏覽器中顯示之URL的結尾。
    >
    >![](assets/preset-bcc-action-id.png)
 

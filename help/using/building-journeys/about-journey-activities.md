@@ -1,24 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-description: 了解歷程活動
+title: 開始使用歷程活動
+description: 開始使用歷程活動
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 22%
+source-wordcount: '428'
+ht-degree: 14%
 
 ---
 
-# 關於歷程活動 {#about-journey-activities}
+# 開始使用歷程活動 {#about-journey-activities}
 
 結合不同的事件、協調和動作活動，以建立您的多步驟跨管道情境。
 
 ## 事件活動 {#event-activities}
+
+事件是觸發個人化歷程（例如線上購買）的因素。 一旦有人進入歷程，他們就會以個人身份移動，沒有兩個人會以相同的速度或相同的路徑移動。 當您從事件開始歷程時，會在收到事件時觸發歷程。 歷程中的每個人接著分別依照歷程中定義的後續步驟操作。
 
 由技術使用者設定的事件(請參閱 [本頁](../event/about-events.md))會顯示在浮動視窗的第一個類別中，位於畫面左側。 可使用下列事件活動：
 
@@ -34,6 +37,8 @@ ht-degree: 22%
 
 ## 協調活動 {#orchestration-activities}
 
+協調活動是不同的條件，有助於決定歷程的下一步。 可能是該人員是否有未結的支援案例、當前位置的天氣預報、是否完成購買，或是達到10,000個忠誠點數。
+
 從浮動視窗的畫面左側，可使用下列協調活動：
 
 * [條件](../building-journeys/condition-activity.md)
@@ -44,7 +49,9 @@ ht-degree: 22%
 
 ## 動作活動 {#action-activities}
 
-從浮動視窗的畫面左側，位於下方 **[!UICONTROL 事件]** 和 **[!UICONTROL 協調]**，您會找到 **[!UICONTROL 動作]** 類別。 可使用下列動作活動：
+動作是您希望在某種觸發（例如傳送訊息）後發生的動作。 這是客戶體驗的歷程片段。
+
+從浮動視窗的畫面左側，位於下方 **[!UICONTROL 事件]** 和 **[!UICONTROL 協調]**，您可以找到 **[!UICONTROL 動作]** 類別。 可使用下列動作活動：
 
 * [電子郵件、簡訊、推播](../building-journeys/journeys-message.md)
 * [自訂動作](../building-journeys/using-custom-actions.md)
@@ -54,7 +61,7 @@ ht-degree: 22%
 
 這些活動代表不同的可用通訊通道。您可以結合這些量度，以建立跨管道情境。
 
-如果您已設定自訂動作，這些動作會顯示在此處(請參閱 [本頁](../building-journeys/using-custom-actions.md))。
+如果您已設定自訂動作，它們也會顯示在此處。 [了解更多](../building-journeys/using-custom-actions.md)).
 
 ## 最佳做法 {#best-practices}
 

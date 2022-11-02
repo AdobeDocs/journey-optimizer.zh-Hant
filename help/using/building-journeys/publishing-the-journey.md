@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 8%
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 ➡️ [在影片中探索此功能](#video)
 
-如果您需要修改已發佈的歷程，則需要建立歷程的新版本。 請參閱[此頁面](../building-journeys/journey-versions.md)。當歷程為唯讀時，您只能修改活動標籤和說明、歷程的名稱和歷程的說明。
+如果您需要修改已發佈的歷程，則需要建立歷程的新版本。 請參閱[此頁面](../building-journeys/journey.md)。當歷程為唯讀時，您只能修改活動標籤和說明、歷程的名稱和歷程的說明。
 
 如果您停止歷程，則會永久停止。 所有在歷程中流動的人將永久停止，而歷程將停止允許新的入口。 如果您需要再次使用歷程，則需要複製並發佈歷程。
 
