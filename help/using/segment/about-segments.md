@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: df16e6be53629ef529b765c9e36a293234244867
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '463'
 ht-degree: 2%
 
 ---
@@ -35,8 +35,9 @@ ht-degree: 2%
 
 在Adobe Journey Optimizer中，受眾是使用下列其中一種評估方法從區段定義產生：
 
-* 串流區段 — 當新資料流入系統時，區段的對象清單會即時保持最新。
-* 批次區段 — 區段的對象清單會根據過去一小時內到達的資料，每小時更新一次。
+* 串流區段 — 當新資料流入系統時，區段的對象清單會即時保持最新。 串流區段是持續進行的資料選取程式，會根據使用者活動更新您的區段。 建立並儲存區段後，會對傳入的資料套用區段定義至Journey Optimizer。 會定期處理區段新增和移除，確保目標受眾仍具相關性。
+
+* 批次區段 — 每24小時評估一次區段的對象清單。 作為持續資料選取程式的替代方法，批次區段會透過區段定義一次移動所有設定檔資料，以產生對應的對象。 建立後，會儲存此區段，供您匯出使用。
 
 系統會根據評估區段規則的複雜度和成本，對每個區段定義進行批次分段和串流分段之間的決定。
 
