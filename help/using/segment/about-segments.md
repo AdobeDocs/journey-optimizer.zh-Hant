@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: adfd47f23188935f6382a18d0de4a6101f022d78
+source-git-commit: bfd262db2fd12afbb7df6c73c68b29d18a1abf98
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 * 建置 **複雜條件** 在歷程中，使用簡單或進階運算式編輯器。 請參閱[此章節](../building-journeys/condition-activity.md#using-a-segment)深入瞭解。
 
-## 受眾評估方法 {#evaluation-method-in-journey-optimizer}
+## 受眾評估方法{#evaluation-method-in-journey-optimizer}
 
 在Adobe Journey Optimizer中，受眾是使用下列其中一種評估方法從區段定義產生：
 
