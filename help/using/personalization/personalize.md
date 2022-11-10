@@ -8,10 +8,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 27%
+source-wordcount: '322'
+ht-degree: 28%
 
 ---
 
@@ -58,6 +58,6 @@ Discover [!DNL Adobe Journey Optimizer] 個人化功能，運用您擁有的相�
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-瞭解如何使用歷程中的內容事件資訊來個人化訊息。
+瞭解如何將以設定檔為基礎的個人化新增至訊息，以及如何使用區段成員資格作為個人化區塊的先決條件。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

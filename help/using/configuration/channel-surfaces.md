@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
 source-wordcount: '1572'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 >
 > * 要建立、編輯和刪除通道曲面，必須具有 [管理通道表面](../administration/high-low-permissions.md#manage-channel-surface) 權限。
 >
-> * 您必須執行 [電子郵件設定](#configure-email-settings), [推送設定](../configuration/push-configuration.md) 和 [SMS設定](../configuration/sms-configuration.md) 建立通道曲面之前的步驟。
+> * 您必須執行 [電子郵件設定](email-settings.md), [推送設定](../configuration/push-configuration.md) 和 [SMS設定](../configuration/sms-configuration.md) 建立通道曲面之前的步驟。
 
 
 設定管道表面後，您就能在從歷程或行銷活動建立訊息時選取管道表面。

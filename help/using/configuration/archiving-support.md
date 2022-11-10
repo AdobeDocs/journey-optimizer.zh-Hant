@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1235'
 ht-degree: 3%
 
 ---
@@ -64,15 +64,7 @@ HIPAA等法規要求 [!DNL Journey Optimizer] 應提供封存傳送給個人之�
 
 ![](assets/preset-bcc-in-msg.png)
 
-不過，系統會依照下列邏輯擷取BCC位址，以傳送通訊：
-
-* 對於批次和突發歷程，它不適用於在進行BCC設定之前已啟動的批次或突發執行。 下次重複或新執行時，將擷取變更。
-
-* 對於交易式訊息，會立即擷取變更以進行下次通訊（最多1分鐘延遲）。
-
->[!NOTE]
->
->您不需要重新發佈歷程，便可擷取BCC設定。
+不過，會依照所述邏輯擷取BCC位址以傳送通訊 [此處](email-settings.md).
 
 ### Recommendations和限制 {#bcc-recommendations-limitations}
 

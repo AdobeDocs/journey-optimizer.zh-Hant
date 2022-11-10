@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 2%
+source-wordcount: '1418'
+ht-degree: 1%
 
 ---
 
@@ -20,6 +20,16 @@ ht-degree: 2%
 在通道表面的專用區段（即訊息預設集）設定中定義電子郵件設定。 了解如何在 [本節](channel-surfaces.md).
 
 ![](assets/preset-email-settings.png)
+
+系統會依照下列邏輯擷取電子郵件表面設定，以傳送通訊：
+
+* 對於批次和突發歷程，它不適用於進行電子郵件表面設定之前已啟動的批次或突發執行。 下次重複或新執行時，將擷取變更。
+
+* 對於交易式訊息，會立即擷取變更以進行下次通訊（最多5分鐘延遲）。
+
+>[!NOTE]
+>
+>更新的電子郵件表面設定會自動擷取到歷程或使用表面的促銷活動中。
 
 ## 電子郵件類型 {#email-type}
 
@@ -96,25 +106,39 @@ ht-degree: 2%
 
 在 **[!UICONTROL 標題參數]** 部分，輸入與使用該曲面發送的電子郵件類型相關聯的發件人姓名和電子郵件地址。
 
->[!CAUTION]
->
->電子郵件地址必須使用目前選取的 [委派子網域](about-subdomain-delegation.md).
-
 * **[!UICONTROL 寄件者名稱]**:寄件者的名稱，例如您的品牌名稱。
 
-* **[!UICONTROL 寄件者電子郵件]**:您要用於通訊的電子郵件地址。 例如，如果委派的子網域為 *marketing.luma.com*，您可以使用 *contact@marketing.luma.com*.
+* **[!UICONTROL 寄件者電子郵件]**:您要用於通訊的電子郵件地址。
 
 * **[!UICONTROL 答復（姓名）]**:收件者點按 **回覆** 按鈕。
 
-* **[!UICONTROL 回覆（電子郵件）]**:收件者點按 **回覆** 按鈕。 您必須使用在委派子網域上定義的位址(例如 *reply@marketing.luma.com*)，否則會捨棄電子郵件。
+* **[!UICONTROL 回覆（電子郵件）]**:收件者點按 **回覆** 按鈕。 [了解更多](#reply-to-email)
 
 * **[!UICONTROL 錯誤電子郵件]**:在傳送數天郵件（非同步退信）後，ISP產生的所有錯誤都會在此位址上接收。
+
+>[!CAUTION]
+>
+>此 **[!UICONTROL 寄件者電子郵件]** 和 **[!UICONTROL 錯誤電子郵件]** 地址必須使用當前選定的地址 [委派子網域](about-subdomain-delegation.md). 例如，如果委派的子網域為 *marketing.luma.com*，您可以使用 *contact@marketing.luma.com* 和 *error@marketing.luma.com*.
 
 ![](assets/preset-header.png)
 
 >[!NOTE]
 >
 >地址必須以字母(A-Z)開頭，並且只能包含英數字元。 您也可以使用底線 `_`，點`.` 連字型大小 `-` 字元。
+
+### 回覆電子郵件 {#reply-to-email}
+
+定義 **[!UICONTROL 回覆（電子郵件）]** 地址，您可以指定任何電子郵件地址（只要地址是有效地址），格式正確，且無任何類型。
+
+為確保回復管理正確，請遵循以下建議：
+
+* 用於回覆的收件匣將會收到所有回覆電子郵件，包括離職通知和質詢回應，因此，請確定您有手動或自動的程式來處理登入此收件匣的電子郵件。
+
+* 確保專用收件箱有足夠的接收容量來接收使用電子郵件表面發送的所有回復電子郵件。 如果收件匣傳回退件，則可能不會收到客戶的部分回覆。
+
+* 處理回覆時必須牢記隱私權和法規遵循的義務，因為回覆可能包含個人識別資訊(PII)。
+
+* 請勿在回覆收件匣中將訊息標示為垃圾訊息，因為這會影響傳送至此位址的所有其他回覆。
 
 ### 轉寄電子郵件 {#forward-email}
 
