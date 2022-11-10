@@ -7,9 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: bca233ab888e2ca33b866bc3def31653f2d55ea9
+exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
+source-git-commit: dbb668b219b8d2ccea4d340c019918d6a6e387bb
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
@@ -129,21 +130,11 @@ ht-degree: 0%
 
    ![](assets/surface-direct-mail-settings.png)
 
+   <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
+
 1. 選取檔案格式： **[!UICONTROL CSV]** 或 **[!UICONTROL 文字分隔]**.
 
-1. 在 **[!UICONTROL 插入]** 區段中，您可以選擇自動移除重複列。
-
-1. 為每個包含設定檔資料的檔案定義記錄數上限（即列）。 達到指定的臨界值後，將為剩餘記錄建立另一個檔案。
-
-   ![](assets/surface-direct-mail-split.png)
-
-   例如，如果檔案中有100,000條記錄，且臨界值限制設為60,000，則記錄將分割為兩個檔案。 第一個檔案將包含60,000列，第二個檔案將包含其餘40,000列。
-
-   >[!NOTE]
-   >
-   >您可以設定介於1到200,000條記錄之間的任何數字，這表示每個檔案至少必須包含1列，且不得超過200,000列。
-
-1. 最後，選取 **[!UICONTROL 檔案路由配置]** 在您建立的群體中。 這會定義檔案匯出的位置，以供直接郵件提供者使用。
+1. 選取 **[!UICONTROL 檔案路由配置]** 在您建立的群體中。 這會定義檔案匯出的位置，以供直接郵件提供者使用。
 
    >[!CAUTION]
    >
@@ -151,6 +142,29 @@ ht-degree: 0%
 
    ![](assets/surface-direct-mail-file-routing.png)
 
+   <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
+
 1. 提交直接郵件表面。
 
 您現在可以 [建立直接郵件訊息](../messages/create-direct-mail.md) 行銷活動內。 促銷活動開始後，包含目標對象資料的檔案會自動匯出至您定義的伺服器。 然後，直接郵件提供者將能夠擷取該檔案，並繼續進行直接郵件傳送。
+
+>[!NOTE]
+>
+>將自動移除重複的列。
+>
+>如果每個包含設定檔資料的檔案的記錄數上限（即列）過高，系統會自動為其餘記錄建立另一個檔案。
+
+<!--
+    In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.
+
+    Define the maximum number of records (i.e. rows) for each file containing profile data. After the specified threshold is reached, another file will be created for the remaining records.
+
+    ![](assets/surface-direct-mail-split.png)
+
+    For example, if there are 100,000 records in the file and the threshold limit is set to 60,000, the records will be split into two files. The first file will contain 60,000 rows, and the second file will contain the remaining 40,000 rows.
+
+    >[!NOTE]
+    >
+    >NOTE You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
+
+-->

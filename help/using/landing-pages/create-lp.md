@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: 38ad3289def56440ef8e78db870a36ee14e965df
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1505'
 ht-degree: 2%
 
 ---
@@ -51,6 +51,12 @@ ht-degree: 2%
 >abstract="若要建立登錄頁面，您需要選取預設集，然後設定主要頁面和子頁面，最後在發佈頁面之前測試頁面。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="建立登錄頁面預設集"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="發佈登錄頁面"
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_management_labels"
+>title="將標籤指派至您的登錄頁面"
+>abstract="若要保護敏感數位資產，您可以定義授權，使用標籤管理對登錄頁面的資料存取。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="建立登錄頁面預設集"
 
 建立登錄頁面的步驟如下。
 
