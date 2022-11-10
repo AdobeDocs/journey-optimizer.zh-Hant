@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -93,9 +93,9 @@ ht-degree: 89%
 
 ![](assets/push-adv-parameters.png)
 
-若是電子郵件，您可以顯示 [主要電子郵件地址](../configuration/primary-email-addresses.md).
+針對電子郵件，您可以顯示[主要電子郵件地址](../configuration/primary-email-addresses.md)。
 
-在特定內容中，您可以覆寫這些值以供特定使用。 若要強制執行值，請按一下欄位右側的&#x200B;**[!UICONTROL 啟用參數覆寫]**&#x200B;圖示。
+在特定內容中，您可以覆寫這些值以供特定用途。 若要強制執行值，請按一下欄位右側的&#x200B;**[!UICONTROL 啟用參數覆寫]**&#x200B;圖示。
 
 ![](assets/email-adv-parameters.png)
 
@@ -106,7 +106,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->電子郵件地址覆蓋僅應用於特定使用案例。 在大多數情況下，您不需要變更電子郵件地址，因為 **[!UICONTROL 執行欄位]** 才應該使用。 [了解更多](../configuration/primary-email-addresses.md)
+>電子郵件地址覆寫僅用於特定使用案例。 在大多數情況下，您不需要變更電子郵件地址，因為&#x200B;**[!UICONTROL 執行欄位]**&#x200B;中定義為主要電子郵件的值才是應該使用的值。 [了解更多](../configuration/primary-email-addresses.md)
 
 ## 瀏覽訊息{#browse-message}
 
