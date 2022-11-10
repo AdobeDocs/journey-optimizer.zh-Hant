@@ -5,9 +5,9 @@ title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -48,13 +48,13 @@ ht-degree: 48%
 
 **歷程**
 
-* 此 **重複時強制重新進入** 已在循環讀取區段排程參數中新增選項。 此選項可讓您讓歷程中仍存在的所有設定檔在下次執行時自動退出。 停用選項時，設定檔必須先完成歷程，才能在另一個發生次數中重新輸入。 [進一步了解](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 此&#x200B;**重複時強制重新進入**&#x200B;選項已在循環讀取區段排程參數中新增。 此選項可讓您讓歷程中仍存在的所有設定檔在下次執行時自動退出。 停用選項時，設定檔必須先完成歷程，才能在另一個發生次數中重新輸入。 [進一步了解](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **管理**
 
-* 使用者介面新增訊息，以警告子網域、登錄頁面子網域、PTR記錄和IP池設定是所有沙箱的共同設定，因此，對其中一個設定所做的任何修改也會影響生產沙箱。
-* 已修改從使用者介面上傳隱藏清單為CSV檔案的步驟。 [了解更多](../configuration/manage-suppression-list.md#download-suppression-list)
+* 使用者介面已新增訊息，以警告子網域、登陸頁面子網域、PTR 記錄和 IP 集區設定是所有沙箱的共同設定，因此，對其中一個設定所做的任何修改也會影響生產沙箱。
+* 已修改從使用者介面上傳隱藏清單為 CSV 檔案的步驟。 [了解更多](../configuration/manage-suppression-list.md#download-suppression-list)
 
 **行銷活動**
 
-* 您現在可以封存已完成和已停止的促銷活動。 [了解更多](../campaigns/modify-stop-campaign.md#archive)
+* 您現在可以封存已完成和已停止的行銷活動。 [了解更多](../campaigns/modify-stop-campaign.md#archive)
