@@ -6,7 +6,7 @@ description: 了解如何在Adobe Journey Optimizer中使用Adobe Experience Pla
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 7%
@@ -91,7 +91,7 @@ ht-degree: 7%
 
 了解如何在 [資料擷取概述檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
-提供查詢範例的使用案例清單 [此處](../start/datasets-query-examples.md).
+提供查詢範例的使用案例清單 [此處](../data/datasets-query-examples.md).
 
 **另請參閱**
 

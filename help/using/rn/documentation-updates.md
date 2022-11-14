@@ -4,8 +4,8 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
-workflow-type: ht
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+workflow-type: tm+mt
 source-wordcount: '2128'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 * 新增如何使用外部資料來源和自訂動作來限制輸送量的歷程使用案例。 [閱讀全文](../building-journeys/limit-throughput.md)
 * 歷程使用案例區段已重新組織為兩個類別： [業務使用案例](../building-journeys/journeys-uc.md)和[技術使用案例](../building-journeys/collections.md)。
-* 此 **實體資料集**&#x200B;章節已更新，其中包含更多詳細資訊。 [了解更多](../start/datasets-query-examples.md#entity-dataset)
+* 此 **實體資料集**&#x200B;章節已更新，其中包含更多詳細資訊。 [了解更多](../data/datasets-query-examples.md#entity-dataset)
 * 與選擇退出管理和同意原則相關的資訊已重新整理至新章節。 [閱讀全文](../privacy/opt-out.md)
 * 歷程訊息中進階參數的區段已經釐清，現在指定電子郵件地址覆寫僅用於特定使用案例。 在大部分時間中，**執行欄位**&#x200B;中定義為主要電子郵件的值才是應該使用的值。[閱讀全文](../messages/messages-in-journeys.md#adv-settings)
 * 在&#x200B;**設定登陸頁面子網域**&#x200B;區段來指定登陸頁面子網域中不允許使用大寫字母。[閱讀全文](../configuration/lp-subdomains.md)
@@ -31,7 +31,7 @@ ht-degree: 100%
 * 新增新的步驟事件查詢範例，以及 id、instanceid 和 profileid 之間差異的資訊。 [閱讀全文](../reports/query-examples.md)。
 * 更新與 [toDateOnly](../building-journeys/functions/functiontodateonly.md) 和 [toString](../building-journeys/functions/functiontostring.md) 函式相關的頁面。
 * 已新增時間條件參數的詳細資訊。 [閱讀全文](../building-journeys/condition-activity.md#time_condition)
-* 已新增內建資料集的相關資訊。 [閱讀全文](../start/get-started-datasets.md#access-datasets)
+* 已新增內建資料集的相關資訊。 [閱讀全文](../data/get-started-datasets.md#access-datasets)
 * 已重新整理「全域報告」和「即時報告」區段，以改善可讀性。 [閱讀全文](../reports/global-report.md)
 * 已新增 Adobe Journey Optimizer 中可用的每個報告量度的清單。
    [閱讀全文](../reports/global-report.md#email-and-sms-metrics)
@@ -65,7 +65,7 @@ ht-degree: 100%
 * 文件中已新增了有關如何將來自 Adobe Experience Cloud 資料庫的 HTML 或 JSON 內容新增到優惠方案聲明的新章節。 [閱讀全文](../offers/offer-library/add-representations.md#html-json)
 * 在歷程生命週期中新增了新頁面。 [閱讀全文](../building-journeys/journey.md#journey-versions)
 * 已更新「等待」活動頁面。 [閱讀全文](../building-journeys/wait-activity.md)
-* 已新增含有查詢範例的 Adobe Journey Optimizer 資料集清單。 [閱讀全文](../start/datasets-query-examples.md)
+* 已新增含有查詢範例的 Adobe Journey Optimizer 資料集清單。 [閱讀全文](../data/datasets-query-examples.md)
 * 「允許」清單頁面已移到「設定」部分。 [閱讀全文](../configuration/allow-list.md)
 * 已更新「隱藏」清單頁面以澄清一些資訊，包括隱藏欄位中允許包含 32 到 126 之間的所有 ASCII 字元。 [閱讀全文](../configuration/manage-suppression-list.md)
 * 已新增到用於決定管理的護欄和靜態限制的連結。 [閱讀全文](../start/guardrails.md)
@@ -90,7 +90,7 @@ ht-degree: 100%
 * 有關 [!DNL Journey Optimizer]2022 年 4 月發佈內容的新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
 * 此&#x200B;**反應**&#x200B;事件文件頁面已更新。 [閱讀全文](../building-journeys/reaction-events.md)
 * 用於決策管理功能的影片已更新，以反映 Journey Optimizer 使用者介面。 [閱讀全文](../offers/get-started/starting-offer-decisioning.md)
-* **開始使用資料集**&#x200B;章節已改善以詳細說明如何存取和建立資料集。 [閱讀全文](../start/get-started-datasets.md)
+* **開始使用資料集**&#x200B;章節已改善以詳細說明如何存取和建立資料集。 [閱讀全文](../data/get-started-datasets.md)
 * 說明手冊和產品發行說明的連結已新增到 **Adobe Journey Optimizer 文件**&#x200B;的首頁。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=zh-Hant)
 * **建立新增訊息預設集**&#x200B;章節現在詳細說明，在選取的 IP 池在編輯中 (**[!UICONTROL 正在處理]**&#x200B;狀態) 且從未關聯所選子網域的情況下，您無法繼續建立預設集。 [閱讀全文](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * 訊息預設集 **URL 追蹤**&#x200B;章節已更新，以反映使用者介面中的微幅變更。 [閱讀全文](../configuration/channel-surfaces.md#url-tracking)

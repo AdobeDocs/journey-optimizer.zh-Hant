@@ -4,8 +4,8 @@ product: journey optimizer
 title: 2022 年發行說明
 description: Journey Optimizer 2022 年發行說明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
-workflow-type: ht
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+workflow-type: tm+mt
 source-wordcount: '3461'
 ht-degree: 100%
 
@@ -165,7 +165,7 @@ ht-degree: 100%
 
 **歷程**
 
-* 此 **實體資料集** 現在可作為 Adobe Journey Optimizer 中的現成可用資料集。 此查詢資料集包含中繼資料，讓追蹤和意見回饋資料集資訊更為豐富。 這可協助您使用更易理解的資料，改善報告和查詢。 [了解更多](../start/datasets-query-examples.md#entity-dataset)
+* 此 **實體資料集** 現在可作為 Adobe Journey Optimizer 中的現成可用資料集。 此查詢資料集包含中繼資料，讓追蹤和意見回饋資料集資訊更為豐富。 這可協助您使用更易理解的資料，改善報告和查詢。 [了解更多](../data/datasets-query-examples.md#entity-dataset)
 * 已將新護欄新增至單一歷程（從事件或區段資格開始），以防止同一事件多次錯誤觸發歷程。 設定檔重新進入現在會依預設暫時封鎖 5 分鐘。 [進一步了解](../start/guardrails.md#events-g)
 
 **管理**
