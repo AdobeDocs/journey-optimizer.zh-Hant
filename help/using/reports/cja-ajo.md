@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 8%
@@ -29,9 +29,9 @@ ht-degree: 8%
 1. [建立連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) in [!DNL Customer Journey Analytics] 和 **[!UICONTROL 資料集]** 您想要傳送至Adobe Experience Platform。
 
    以下 [!DNL Journey Optimizer] 可設定：
-   * [歷程步驟事件](../start/datasets-query-examples.md#journey-step-event):可讓您檢視進入您歷程的人員，以及他們到達的距離。
-   * [訊息意見/追蹤資料集](../start/datasets-query-examples.md#message-feedback-event-dataset):可讓您檢視透過傳送之訊息的傳送資訊 [!DNL Journey Optimizer].
-   * [實體和歷程資料集](../start/datasets-query-examples.md#entity-dataset):可讓您搜尋好記名稱，並在報表中使用。
+   * [歷程步驟事件](../data/datasets-query-examples.md#journey-step-event):可讓您檢視進入您歷程的人員，以及他們到達的距離。
+   * [訊息意見/追蹤資料集](../data/datasets-query-examples.md#message-feedback-event-dataset):可讓您檢視透過傳送之訊息的傳送資訊 [!DNL Journey Optimizer].
+   * [實體和歷程資料集](../data/datasets-query-examples.md#entity-dataset):可讓您搜尋好記名稱，並在報表中使用。
 
 1. [建立資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) 來設定您要用於報表的維度和量度。
 
