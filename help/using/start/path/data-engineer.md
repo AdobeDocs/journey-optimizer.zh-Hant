@@ -5,8 +5,8 @@ title: Journey Optimizer 資料工程師快速入門
 description: 作為資料工程師，深入瞭解如何使用 Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: ht
+source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 1. **建立身分命名空間**。在 Adobe[!DNL Journey Optimizer]，**身分** 連結跨裝置和管道的消費者，結果會是身分圖表。 連結的身分圖表可依據您所有業務接觸點的互動，來個人化體驗。  [在本頁](../../segment/get-started-identity.md)進一步了解身分識別與身分識別命名空間。
 
-1. **建立結構**&#x200B;並為設定檔啟用它。 結構是一組規則，可代表及驗證資料的結構和格式。 從高層面來說，結構提供了真實對象 (如人) 的抽象定義，並概述應包含在該對象的每個執行個體中的資料 (如名字、姓氏、生日等)。  [在本頁](../get-started-schemas.md)深入瞭解結構描述。
+1. **建立結構**&#x200B;並為設定檔啟用它。 結構是一組規則，可代表及驗證資料的結構和格式。 從高層面來說，結構提供了真實對象 (如人) 的抽象定義，並概述應包含在該對象的每個執行個體中的資料 (如名字、姓氏、生日等)。  [在本頁](../../data/get-started-schemas.md)深入瞭解結構描述。
 
 1. **建立資料集**&#x200B;並為設定檔啟用它。 資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。 資料集也包含中繼資料，可說明其儲存資料的各個層面。 建立資料集後，您可以將資料集對應至現有結構並新增資料。 [在本頁](../get-started-datasets.md)深入瞭解資料集。
 

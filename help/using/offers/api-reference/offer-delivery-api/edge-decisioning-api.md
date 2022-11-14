@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
 workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 2%
@@ -48,7 +48,7 @@ SDK並未結合這些程式庫，而是從頭開始的新實作。 若要使用�
 
 1. 安裝SDK。 執行此作業有多種方法，相關說明請參閱 [安裝SDK頁面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). 本頁面會繼續提供各種不同的實施方法。
 
-若要使用SDK，您必須有 [綱要](../../../start/get-started-schemas.md) 和 [資料流](../../../start/get-started-datasets.md) 已定義。
+若要使用SDK，您必須有 [綱要](../../../data/get-started-schemas.md) 和 [資料流](../../../start/get-started-datasets.md) 已定義。
 
 <!-- ****TODO - Configure schema**** -->
 
