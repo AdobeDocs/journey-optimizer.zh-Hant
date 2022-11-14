@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2acc398732805d5fdb9f6ba2feaabcb0fa22093e
+source-git-commit: 56b0726c0d8db3025d3ba3ef2b863fec7f03c726
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -146,7 +146,7 @@ ht-degree: 94%
             + [trim](using/building-journeys/functions/functiontrim.md)
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
-   + 使用實例 {#journey-use-cases}
+   + 使用案例 {#journey-use-cases}
       + 業務使用案例 {#business-use-cases}
          + [傳送多頻道訊息](using/building-journeys/journeys-uc.md)
          + [使用 Campaign v7/v8 傳送訊息](using/building-journeys/campaign-classic-use-case.md)
@@ -177,18 +177,18 @@ ht-degree: 94%
    + [建立直接郵件](using/messages/create-direct-mail.md)
    + [檢查警報](using/messages/alerts.md)
    + [傳送時間最佳化](using/messages/send-time-optimization.md)
-+ 網頁頻道{#web}
-   + [開始使用網頁頻道](using/web/get-started-web.md)
-   + [建立網路體驗](using/web/create-web.md)
++ 網路頻道{#web}
+   + [開始使用網路頻道](using/web/get-started-web.md)
+   + [建立網站體驗](using/web/create-web.md)
    + [製作網頁](using/web/author-web.md)
    + [Visual Editing Helper 擴充功能](using/web/visual-editing-helper.md)
    + [網站報告](using/web/web-report.md)
-+ 應用程式內管道{#in-app}
-   + [開始使用應用程式內管道](using/in-app/get-started-in-app.md)
-   + [設定應用程式內通道](using/in-app/inapp-configuration.md)
++ 應用程式內頻道{#in-app}
+   + [開始使用應用程式內頻道](using/in-app/get-started-in-app.md)
+   + [設定應用程式內頻道](using/in-app/inapp-configuration.md)
    + [建立應用程式內訊息](using/in-app/create-in-app.md)
    + [設計您的應用程式內內容](using/in-app/design-in-app.md)
-   + [應用程式內報表](using/in-app/inapp-report.md)
+   + [應用程式內報告](using/in-app/inapp-report.md)
 + 設計內容 {#design}
    + [開始使用電子郵件設計](using/design/design-emails.md)
    + [從頭開始 ](using/design/create-email-content.md)
@@ -257,12 +257,12 @@ ht-degree: 94%
       + [開始使用設定檔](using/segment/get-started-profiles.md)
       + [建立測試設定檔](using/segment/creating-test-profiles.md)
    + [身分](using/segment/get-started-identity.md)
-   + [授權使用情況](using/segment/license-usage.md)
    + 撰寫對象 {#audience-orchestration}
       + [開始使用對象組合](using/segment/get-started-audience-orchestration.md)
       + [建立組合工作流程](using/segment/create-compositions.md)
       + [使用組合畫布](using/segment/composition-canvas.md)
       + [存取及管理對象](using/segment/access-audiences.md)
+   + [授權使用情況](using/segment/license-usage.md)
 + 追蹤和監視 {#reporting}
    + 即時報告 {#live-report}
       + [開始使用即時報告](using/reports/live-report.md)
@@ -413,7 +413,7 @@ ht-degree: 94%
             + [重試次數](using/configuration/retries.md)
             + [允許清單](using/configuration/allow-list.md)
       + [設定簡訊頻道](using/configuration/sms-configuration.md)
-      + [配置直接郵件](using/configuration/direct-mail-configuration.md)
+      + [設定直接郵件](using/configuration/direct-mail-configuration.md)
       + 設定頻道介面{#set-up-channels}
          + [建立頻道介面](using/configuration/channel-surfaces.md)
          + [設定電子郵件設定](using/configuration/email-settings.md)
