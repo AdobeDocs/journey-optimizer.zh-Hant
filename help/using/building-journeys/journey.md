@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 19%
+ht-degree: 26%
 
 ---
 
@@ -52,13 +52,13 @@ Adobe Journey Optimizer包含全通路協調畫布，可讓行銷人員協調行
 
 了解如何在下列端對端使用案例中建立歷程。
 
-業務使用案例：
+業務使用案例:
 
 * [傳送多頻道訊息](journeys-uc.md)
-* [使用 Campaign v7/v8 傳送訊息](campaign-classic-use-case.md)
+* [使用 Campaign v7/v8 傳送訊息](ajo-ac.md)
 * [傳送訊息給訂閱者](message-to-subscribers-uc.md)
 
-技術使用案例：
+技術使用案例:
 
 * [使用自訂動作以動態方式傳遞集合](collections.md)
 * [加快傳遞速度](ramp-up-deliveries-uc.md)
@@ -74,7 +74,7 @@ Adobe Journey Optimizer包含全通路協調畫布，可讓行銷人員協調行
 
 >[!NOTE]
 >
->一個設定檔通常無法在同一歷程中同時出現多次。 如果已啟用重新進入，設定檔可以重新進入歷程，但必須完全退出歷程的先前例項，才能執行此動作。 [閱讀全文](end-journey.md)。
+>一個設定檔通常無法在同一歷程中同時出現多次。 如果啟用重新進入，設定檔可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。 [閱讀全文](end-journey.md)。
 
 如果您需要修改至即時歷程，請建立新版本的歷程。
 

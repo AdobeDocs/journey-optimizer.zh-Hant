@@ -7,9 +7,10 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 6%
 
 ---
@@ -29,7 +30,7 @@ Journey Optimizer運用Adobe Experience Platform警報功能。 這可讓您透�
 
 ![](assets/alerts2.png)
 
-當 [在平台UI中檢視警報規則](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html)，您可以個別訂閱每個規則。 訂閱警報時透過 [I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)不過，警報規則會組織成不同的訂閱套件。 與讀取區段警報對應的I/O事件訂閱名稱為：「歷程閱讀區段延遲、失敗和錯誤」。
+當 [在Adobe Experience Platform UI中檢視警報規則](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html)，您可以個別訂閱每個規則。 訂閱警報時透過 [I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)不過，警報規則會組織成不同的訂閱套件。 與讀取區段警報對應的I/O事件訂閱名稱為：「歷程閱讀區段延遲、失敗和錯誤」。
 
 >[!WARNING]
 >

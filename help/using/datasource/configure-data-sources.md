@@ -8,20 +8,21 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 10%
+source-wordcount: '566'
+ht-degree: 8%
 
 ---
 
 # 設定資料來源 {#configure-data-source}
 
-以下是主要的資料來源設定步驟：
 
 >[!NOTE]
 >
 >資料來源設定一律會由&#x200B;**技術使用者**&#x200B;執行。
+
+若要設定資料來源，請遵循下列步驟：
 
 1. 在「管理」(ADMINISTRATION)菜單部分中，選擇 **[!UICONTROL 配置]**. 在  **[!UICONTROL 資料來源]** ，按一下 **[!UICONTROL 管理]**. 畫面隨即顯示資料來源。請參閱 [本頁](../start/user-interface.md) 以取得介面的詳細資訊。
 

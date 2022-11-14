@@ -8,18 +8,18 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: c92587670a56adf6811fcad49873a8ef0c5b7e84
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 2%
+source-wordcount: '418'
+ht-degree: 1%
 
 ---
 
 # 與其他解決方案整合 {#integration}
 
-Adobe Journey Optimizer可與各種Adobe和外部解決方案整合。
+使用Adobe Journey Optimizer，您可以輕鬆管理、保留這些資料，並將其匯出至屬於您技術堆疊一部分的平台或系統。
 
-## 使用Adobe Customer Journey Analytics
+## 使用Adobe Customer Journey Analytics{#integration-cja}
 
 您可以匯出Journey Optimizer產生的資料，以在Customer Journey Analytics中執行進階分析。
 
@@ -27,28 +27,36 @@ Journey Optimizer與Customer Journey Analytics的整合提供您所有歷程的�
 
 在Journey Optimizer中建立您的歷程後，您可以將客戶資料匯入Customer Journey Analytics，以開始報告並了解客戶與您歷程的每次互動的影響。
 
-## 使用Adobe Analytics
+深入了解 [Journey Optimizer +Customer Journey Analytics](../reports/cja-ajo.md).
 
-您可以運用您已擷取並串流至Platform的所有Adobe Analytics行為事件資料，以觸發歷程並自動化客戶體驗。
+## 使用Adobe Analytics{#integration-aa}
+
+您可以運用您已擷取並串流至Adobe Experience Platform的所有Adobe Analytics行為事件資料，以觸發歷程並自動化客戶體驗。
+
+深入了解 [Journey Optimizer + Analytics](../reports/cja-ajo.md).
 
 
-## 使用Adobe Real-time Customer Data Platform(RTCDP)
+## 使用Adobe即時客戶個人檔案{#integration-profile}
 
 Adobe Experience Platform資料來源定義與即時客戶個人檔案服務的連線。 此資料來源已內建並預先設定。 無法刪除。 此資料來源的設計目的，是從即時客戶個人檔案服務中擷取和使用資料（例如，檢查進入歷程的人員是否為女性）。 它可讓您使用設定檔資料和體驗事件資料。 如需即時客戶個人檔案服務的詳細資訊，請參閱Adobe Experience Platform檔案。
 
 
-## 使用Adobe智慧服務
+## 使用Adobe智慧服務{#integration-ai}
 
 與Adobe智慧服務的整合可讓您在客戶體驗使用案例中運用人工智慧和機器學習的強大功能。 這可讓行銷分析人員使用業務層級設定，針對公司的需求設定專屬預測，而不需要資料科學的專業知識。
 
-## 使用Adobe Campaign
+## 使用Adobe Campaign{#integration-ac}
 
 如果您有Adobe Campaign v7或v8，則可使用整合。 它可讓您使用Adobe Campaign交易訊息功能來傳送電子郵件、推播通知和簡訊。
 
-## 使用外部系統
+深入了解 [Journey Optimizer + Campaign](../building-journeys/ajo-ac.md).
+
+
+## 使用外部系統{#integration-external-systems}
 
 Journey Optimizer可讓您透過自訂資料來源和自訂動作來設定與外部系統的連線。 舉例來說，這可讓您透過來自外部訂房系統的資料來豐富您的歷程，或使用協力廠商系統(例如Epsilon或Facebook)來傳送訊息。
 
+了解如何使用外部資料來源來定義與協力廠商系統的連線，位於 [本節](../datasource/external-data-sources.md).
 
 
 

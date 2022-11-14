@@ -7,9 +7,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '338'
 ht-degree: 8%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 8%
 
 使用前 [!DNL Customer Journey Analytics] 對於您的歷程，您必須先設定此整合：
 
-1. [建立連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) in [!DNL Customer Journey Analytics] 和 **[!UICONTROL 資料集]** 您要傳送至平台。
+1. [建立連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) in [!DNL Customer Journey Analytics] 和 **[!UICONTROL 資料集]** 您想要傳送至Adobe Experience Platform。
 
    以下 [!DNL Journey Optimizer] 可設定：
    * [歷程步驟事件](../start/datasets-query-examples.md#journey-step-event):可讓您檢視進入您歷程的人員，以及他們到達的距離。

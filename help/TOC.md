@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c92587670a56adf6811fcad49873a8ef0c5b7e84
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 98%
+source-wordcount: '1264'
+ht-degree: 97%
 
 ---
 
@@ -150,7 +150,7 @@ ht-degree: 98%
    + 使用案例 {#journey-use-cases}
       + 業務使用案例 {#business-use-cases}
          + [傳送多頻道訊息](using/building-journeys/journeys-uc.md)
-         + [使用 Campaign v7/v8 傳送訊息](using/building-journeys/campaign-classic-use-case.md)
+         + [使用 Campaign v7/v8 傳送訊息](using/building-journeys/ajo-ac.md)
          + [傳送訊息給訂閱者](using/building-journeys/message-to-subscribers-uc.md)
       + 技術使用案例 {#technical-use-cases}
          + [使用自訂動作以動態方式傳遞集合](using/building-journeys/collections.md)
@@ -389,11 +389,12 @@ ht-degree: 98%
          + [邊緣決策 API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [批次決策 API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + 資料管理 {#data-management}
-   + [方案](using/start/get-started-schemas.md)
-   + 資料集 {#datasets}
-      + [開始使用資料集](using/start/get-started-datasets.md)
-      + [查詢範例](using/start/datasets-query-examples.md)
-   + [查詢](using/start/get-started-queries.md)
+   + [開始使用資料管理](using/data/gs-data.md)
+   + [使用方案](using/data/get-started-schemas.md)
+   + Journey Optimizer資料集 {#datasets}
+      + [開始使用資料集](using/data/get-started-datasets.md)
+      + [查詢範例](using/data/datasets-query-examples.md)
+   + [查詢](using/data/get-started-queries.md)
 + 設定{#configuration}
    + [開始使用 Journey Optimizer 設定](using/configuration/get-started-configuration.md)
    + 設定訊息 {#configuration-message}

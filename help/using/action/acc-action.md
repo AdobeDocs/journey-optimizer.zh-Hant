@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 5%
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 Journey Optimizer和Campaign執行個體之間的連線是在布建時Adobe設定。
 
-本節提供端對端使用案例 [節](../building-journeys/campaign-classic-use-case.md).
+本節提供端對端使用案例 [節](../building-journeys/ajo-ac.md).
 
 對於已設定的每個動作，歷程設計器浮動視窗中都會提供動作活動。 請參閱 [節](../building-journeys/using-adobe-campaign-classic.md).
 
