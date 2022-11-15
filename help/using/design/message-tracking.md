@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 440c75dfd69c945ce01b73d8241138a70c7dd02b
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 10%
+source-wordcount: '677'
+ht-degree: 9%
 
 ---
 
@@ -89,9 +89,9 @@ ht-degree: 10%
 
 鏡像頁面會自動建立。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->您無法編輯自動產生的連結。
+>鏡像頁面連結會自動產生，且無法編輯。 它們包含呈現原始電子郵件所需的所有加密個人化資料。 因此，使用具有大值的個人化屬性可能會產生長的鏡像頁面URL，而這會使連結無法在URL長度上限的網頁瀏覽器中運作。
 
 傳送電子郵件後，當收件者按一下鏡像頁面連結時，電子郵件的內容會顯示在其預設的網頁瀏覽器中。
 
