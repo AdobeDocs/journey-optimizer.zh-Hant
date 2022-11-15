@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 12ae84646e69870564406066e102c540ac920df7
+source-git-commit: 6c322a979ec4918228162799453b144765d69b28
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 6%
+source-wordcount: '516'
+ht-degree: 5%
 
 ---
 
@@ -24,9 +24,8 @@ ht-degree: 6%
 >
 > Adobe Journey Optimizer以Adobe Experience Platform為基礎，以原生方式連線至 [Adobe即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。 此內建資料來源已預先設定，且設計為從即時客戶設定檔中擷取和使用資料（例如，檢查進入歷程的人員是否為客戶）。 它可讓您使用設定檔資料和體驗事件資料。 [了解更多](../datasource/adobe-experience-platform-data-source.md)。
 
-## 報告{#integration-reporting}
 
-### Adobe Customer Journey Analytics{#integration-cja}
+## Adobe Customer Journey Analytics{#integration-cja}
 
 您可以匯出Journey Optimizer產生的資料，以在Customer Journey Analytics中執行進階分析。
 
@@ -36,7 +35,7 @@ Journey Optimizer與Customer Journey Analytics的整合提供您所有歷程的�
 
 深入了解 [Journey Optimizer +Customer Journey Analytics](../reports/cja-ajo.md).
 
-### Adobe Analytics{#integration-aa}
+## Adobe Analytics{#integration-aa}
 
 您可以運用您已擷取並串流至Adobe Experience Platform的所有Adobe Analytics行為事件資料，以觸發歷程並自動化客戶體驗。
 
@@ -46,11 +45,8 @@ Journey Optimizer與Customer Journey Analytics的整合提供您所有歷程的�
 
 與Adobe智慧服務的整合可讓您在客戶體驗使用案例中運用人工智慧和機器學習的強大功能。 這可讓行銷分析人員使用業務層級設定，針對公司的需求設定專屬預測，而不需要資料科學的專業知識。 [了解更多](../building-journeys/ai-services-overview.md)。
 
-## 傳送訊息 {#integration-messages}
 
-您可以使用協力廠商系統來傳送訊息。
-
-### Adobe Campaign{#integration-ac}
+## Adobe Campaign{#integration-ac}
 
 如果您有Adobe Campaign v7或v8，則可使用整合。 使用此整合，使用Adobe Campaign交易訊息功能來傳送電子郵件、推播通知和簡訊。
 
@@ -60,7 +56,7 @@ Journey Optimizer與Customer Journey Analytics的整合提供您所有歷程的�
 
 深入了解 [Journey Optimizer +Campaign Standard](../building-journeys/ajo-ac.md).
 
-### 自訂通道{#integration-custom}
+## 自訂通道{#integration-custom}
 
 如果您使用協力廠商系統來傳送訊息，或想要歷程將API呼叫傳送至協力廠商系統，請使用自訂動作來設定其與歷程的連線。 例如，您可以使用自訂動作連線至下列系統：ε,Slack, [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}、Firebase等
 
