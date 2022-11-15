@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 34d768502bfb2ce792beae8b1257fdddefc55ed7
+source-git-commit: 9331c5de057a8de0b52bc4db34c17bc3ab79f193
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '525'
 ht-degree: 5%
 
 ---
@@ -71,6 +71,6 @@ Journey Optimizer與Customer Journey Analytics的整合提供您所有歷程的�
 
 ## 外部系統{#integration-external-systems}
 
-Journey Optimizer可讓您透過自訂資料來源和自訂動作來設定與外部系統的連線。 舉例來說，這可讓您透過來自外部訂房系統的資料來豐富您的歷程，或使用協力廠商系統(例如Epsilon或Facebook)來傳送訊息。
+Journey Optimizer可讓您透過自訂資料來源和自訂動作來設定與外部系統的連線。 舉例來說，這可讓您透過來自外部訂房系統的資料，讓您的歷程更為豐富。
 
 了解如何使用外部資料來源來定義與協力廠商系統的連線，位於 [本節](../datasource/external-data-sources.md).
