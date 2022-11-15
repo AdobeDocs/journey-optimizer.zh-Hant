@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 6c322a979ec4918228162799453b144765d69b28
+source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '517'
 ht-degree: 5%
 
 ---
@@ -41,7 +41,7 @@ Journey Optimizer與Customer Journey Analytics的整合提供您所有歷程的�
 
 深入了解 [Journey Optimizer + Analytics](../event/about-analytics.md).
 
-## 機器學習{#integration-intelligent-service}
+## AdobeIntelligent Services{#integration-intelligent-service}
 
 與Adobe智慧服務的整合可讓您在客戶體驗使用案例中運用人工智慧和機器學習的強大功能。 這可讓行銷分析人員使用業務層級設定，針對公司的需求設定專屬預測，而不需要資料科學的專業知識。 [了解更多](../building-journeys/ai-services-overview.md)。
 

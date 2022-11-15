@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 10%
+source-wordcount: '422'
+ht-degree: 9%
 
 ---
 
@@ -20,17 +20,19 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
 >title="Adobe Experience Platform 資料來源"
->abstract="Adobe Experience Platform資料來源定義與即時客戶個人檔案服務的連線。 此資料來源已內建並預先設定。 無法刪除。 此資料來源的設計目的，是從即時客戶個人檔案服務中擷取和使用資料（例如，檢查進入歷程的人員是否為女性）。 它可讓您使用設定檔資料和體驗事件資料。"
+>abstract="Adobe Experience Platform資料來源定義與Adobe即時客戶設定檔的連線。 此資料來源已內建並預先設定，無法刪除。 其設計旨在擷取及使用即時客戶個人檔案服務中的資料（例如，檢查進入歷程的人員是否為女性）。 它可讓您使用設定檔資料和體驗事件資料。"
 
-Adobe Experience Platform資料來源定義與即時客戶個人檔案服務的連線。 此資料來源已內建並預先設定。 無法刪除。 此資料來源的設計目的，是從即時客戶個人檔案服務中擷取和使用資料（例如，檢查進入歷程的人員是否為女性）。 它可讓您使用設定檔資料和體驗事件資料。 如需即時客戶個人檔案服務的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+Adobe Experience Platform資料來源定義與Adobe即時客戶設定檔的連線。 此資料來源已內建並預先設定，無法刪除。 此資料來源的設計目的，是從即時客戶個人檔案服務中擷取和使用資料（例如，檢查進入歷程的人員是否為女性）。 它可讓您使用設定檔資料和體驗事件資料。 如需「Adobe即時客戶設定檔」的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+
+
+若要允許連線至即時客戶個人檔案服務，我們必須使用金鑰來識別人員，並使用將金鑰與之結合的命名空間。 因此，只有在您的歷程以包含索引鍵和命名空間的事件開始時，才能使用此資料來源。 [了解更多](../building-journeys/journey.md)。
+
+您可以編輯名為「ProfileFieldGroup」的預先設定的欄位群組、新增欄位，以及移除任何草稿或即時歷程中未使用的欄位群組。 [了解更多](../datasource/configure-data-sources.md#define-field-groups)。
+
 
 >[!NOTE]
 >
 >您可以擷取不到一年前建立的1000個最新體驗事件。
-
-若要允許連線至即時客戶個人檔案服務，我們必須使用金鑰來識別人員，並使用將金鑰與之結合的命名空間。 因此，只有在您的歷程以包含索引鍵和命名空間的事件開始時，才能使用此資料來源。 請參閱[此頁面](../building-journeys/journey.md)。
-
-您可以編輯名為「ProfileFieldGroup」的預先設定的欄位群組、新增欄位，以及移除任何草稿或即時歷程中未使用的欄位群組。 請參閱[此頁面](../datasource/configure-data-sources.md#define-field-groups)。
 
 以下是將欄位群組新增至內建資料來源的主要步驟。
 
@@ -40,7 +42,7 @@ Adobe Experience Platform資料來源定義與即時客戶個人檔案服務的�
 
    ![](assets/journey23.png)
 
-1. 按一下 **[!UICONTROL 新增欄位群組]** 定義要檢索的新系列欄位。 請參閱[此頁面](../datasource/configure-data-sources.md#define-field-groups)。
+1. 按一下 **[!UICONTROL 新增欄位群組]** 定義要檢索的新系列欄位。 [了解更多](../datasource/configure-data-sources.md#define-field-groups)。
 
    ![](assets/journey24.png)
 
