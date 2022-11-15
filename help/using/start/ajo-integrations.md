@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 9331c5de057a8de0b52bc4db34c17bc3ab79f193
+source-git-commit: 12ae84646e69870564406066e102c540ac920df7
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 5%
+source-wordcount: '529'
+ht-degree: 6%
 
 ---
 
@@ -22,8 +22,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
-> Adobe Journey Optimizer以Adobe Experience Platform為基礎，以原生方式連線至 [Adobe即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。 此內建資料來源已預先設定，且設計為從即時客戶設定檔中擷取和使用資料（例如，檢查進入歷程的人員是否為客戶）。 它可讓您使用設定檔資料和體驗事件資料。
-
+> Adobe Journey Optimizer以Adobe Experience Platform為基礎，以原生方式連線至 [Adobe即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。 此內建資料來源已預先設定，且設計為從即時客戶設定檔中擷取和使用資料（例如，檢查進入歷程的人員是否為客戶）。 它可讓您使用設定檔資料和體驗事件資料。 [了解更多](../datasource/adobe-experience-platform-data-source.md)。
 
 ## 報告{#integration-reporting}
 
@@ -45,7 +44,7 @@ Journey Optimizer與Customer Journey Analytics的整合提供您所有歷程的�
 
 ## 機器學習{#integration-intelligent-service}
 
-與Adobe智慧服務的整合可讓您在客戶體驗使用案例中運用人工智慧和機器學習的強大功能。 這可讓行銷分析人員使用業務層級設定，針對公司的需求設定專屬預測，而不需要資料科學的專業知識。
+與Adobe智慧服務的整合可讓您在客戶體驗使用案例中運用人工智慧和機器學習的強大功能。 這可讓行銷分析人員使用業務層級設定，針對公司的需求設定專屬預測，而不需要資料科學的專業知識。 [了解更多](../building-journeys/ai-services-overview.md)。
 
 ## 傳送訊息 {#integration-messages}
 
