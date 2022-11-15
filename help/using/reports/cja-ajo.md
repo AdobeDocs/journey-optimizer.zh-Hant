@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 8%
@@ -17,8 +17,10 @@ ht-degree: 8%
 
 # 使用 [!DNL Customer Journey Analytics] {#cja-ajo}
 
-![](assets/cja.png)
+
 [!DNL Journey Optimizer] 整合 [!DNL Customer Journey Analytics] 透過自動化報表分送和資料的自訂視覺效果，提供您所有歷程的全方位檢視。
+
+![](assets/cja.png)
 
 在中建立您的歷程後 [!DNL Journey Optimizer]，您可以將客戶資料匯入 [!DNL Customer Journey Analytics] 以開始報告並了解客戶與您歷程的每次互動的影響。
 
