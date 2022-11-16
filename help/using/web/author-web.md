@@ -7,10 +7,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
+source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 2%
+source-wordcount: '916'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +29,11 @@ ht-degree: 2%
 
 從促銷活動建立網頁動作後，您就可以使用網頁設計工具來編輯內容。 若要這麼做，請遵循下列步驟。
 
-1. 從 **[!UICONTROL 動作]** 選取 **[!UICONTROL 編輯內容]** 開始編寫網頁行銷活動。 [了解更多](create-web.md#configure-web-campaign)
+>[!CAUTION]
+>
+>要在 [!DNL Journey Optimizer]，您的網頁必須使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+
+1. 從 **[!UICONTROL 動作]** 選取 **[!UICONTROL 編輯內容]** 開始編寫網頁行銷活動。
 
 1. 如果您建立的頁面符合規則，則必須輸入任何符合此規則的URL。 變更會套用至符合規則的所有頁面。
 
@@ -42,7 +47,7 @@ ht-degree: 2%
 
    >[!CAUTION]
    >
-   >若要存取，必須使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+   >網頁必須包含 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}。
 
 1. 按一下 **[!UICONTROL 開啟網頁設計工具]** 來編輯。 [了解更多](author-web.md)
 
