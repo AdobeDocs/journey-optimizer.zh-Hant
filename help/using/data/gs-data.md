@@ -9,9 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 34f6f25560cbe7873f8aea9edda3d63dab63935a
+exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
+source-git-commit: f418570a82d7b56dfb4c83df22b8109f506ec73a
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
@@ -30,32 +31,23 @@ ht-degree: 0%
 <table style="table-layout:fixed">
 <tr style="border: 0;">
   <td>
-    <img alt="目的地" src="assets/do-not-localize/dest.png" />
-    <br>
-  </td>
-  <td>
-    <div>其他目的地皆可使用 — 雖然Journey Optimizer可協同化及整合資料，以提供超個人化的客戶體驗，但您仍希望將這些資料整合至整體技術版圖中的其他系統，同時尋找其他運用這些資料的方式。
+    <div><img alt="目的地" src="assets/do-not-localize/dest.png" /> 
+    <br>其他目的地皆可使用 — 雖然Journey Optimizer可協同化及整合資料，以提供超個人化的客戶體驗，但您仍希望將這些資料整合至整體技術版圖中的其他系統，同時尋找其他運用這些資料的方式。
     <div>
      <a href="../start/ajo-integrations.md">了解更多</a></div>
     </div>
     <br>
   </td>
 </tr>
-<tr style="border: 0;">
   <td>
-    <img alt="保留" src="assets/do-not-localize/retention.png" />
-  </td>
-  <td>
-    <div>保留的時間符合規定 — 產業或地區法規（例如GDPR或CCPA）或內部資料控管政策規定在Adobe Experience Platform Data Lake中需要維護或封存資料的時間長度或時間短。 <a href="../privacy/get-started-privacy.md">了解更多</a></div>
+    <div><img alt="保留" src="assets/do-not-localize/retention.png" />  
+    <br>保留的時間符合規定 — 產業或地區法規（例如GDPR或CCPA）或內部資料控管政策規定在Adobe Experience Platform Data Lake中需要維護或封存資料的時間長度或時間短。 <a href="../privacy/get-started-privacy.md">了解更多</a></div>
   </td>
 </tr>
 <tr style="border: 0;">
   <td>
-    <img alt="原則" src="assets/do-not-localize/policy.png" />
-    <br>
-  </td>
-  <td>
-    <div>根據商定的時間表或您的策略刪除資料 — 資料刪除是資料保護的一個關鍵方面，是所有資料治理過程中的關鍵步驟。 Journey Optimizer可能產生的資料多於需求。 此外，您也想在資料集的必要持續時間過後，盡量處理所發生的情況，無論是因為公用程式或法規的緣故。 您需要的控制是在任何指定時間點刪除資料。</div>
+    <div><img alt="原則" src="assets/do-not-localize/policy.png" /> 
+    <br>根據商定的時間表或您的策略刪除資料 — 資料刪除是資料保護的一個關鍵方面，是所有資料治理過程中的關鍵步驟。 Journey Optimizer可能產生的資料多於需求。 此外，您也想在資料集的必要持續時間過後，盡量處理所發生的情況，無論是因為公用程式或法規的緣故。 您需要的控制是在任何指定時間點刪除資料。 <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html">進一步了解Adobe Experience Platform檔案中的資料衛生</a></div>
   </td>
 </tr>
 </table>
@@ -66,18 +58,23 @@ Adobe Experience Platform是Journey Optimizer的建置基礎，可讓您在參�
 
 您可以使用Journey Optimizer的資料靈活性，滿足與資料保留、存檔或刪除相關的特定需求：
 
-* **資料擷取/匯出**:您可以隨時透過資料存取API開始擷取來源資料，不會受到任何懲罰或延遲。 此 [資料存取API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html) 為使用者提供RESTful介面，著重於Experience Platform中所擷取資料集的可探索性和協助功能。 <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **資料擷取/匯出**:您可以隨時透過資料存取API開始擷取來源資料，不會受到任何懲罰或延遲。 此 [資料存取API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target=&quot;_blank&quot;}為使用者提供RESTful介面，著重於Experience Platform內所擷取資料集的可探索性和可存取性。 <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
    請注意，歷程或行銷活動中使用的內容無法透過上述API或目的地方法擷取。
 
 * **設定檔服務資料保留**:對於附加至任何設定檔的行為和時間系列資料，您可以選擇使用Journey Optimizer的預設設定，從新增至設定檔之日，或直到您選取的替代時段為止，將此資料保留最多30天。 Adobe保留這些資料的時間因合約而異，具體列於組織的資料保留政策中。
 
+   進一步了解中的體驗事件過期時間 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target=&quot;_blank&quot;}。
+
 * **清除和歸檔機制**:在Journey Optimizer中，資料和封存的清除可以自由定義並自動化，以自動執行資料保留政策。 可以為不同的資料實體定義不同的老化策略。 也可以定義匯出機制，以在清除或封存老化資料前自動匯出。
+
+   Adobe Experience Platform UI中的資料衛生工作區可讓您建立和監控各種資料衛生工作，包括刪除消費者身分和排程資料集有效期。 深入了解 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}。
 
 * **資料湖和刪除**:儲存在Data Lake中的客戶資料可由Journey Optimizer保留：
 
    * 為期7天，以便將客戶資料帶入設定檔服務，之後可能會永久刪除，或
    * 直到被您刪除
+
 
 * **參與終止/退出時擷取資料**:合約終止時，您的資料會從Adobe的儲存空間中完全移除。 此外，您也可以在終止協定前提取完整的設定檔擷取。 此功能不需額外付費。 您可以隨時執行此作業，而不只是在終止時。
 
