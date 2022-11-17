@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 440c75dfd69c945ce01b73d8241138a70c7dd02b
+source-git-commit: f635c6995c453ed6d1042ef3e699d977e824f01e
 workflow-type: tm+mt
-source-wordcount: '2143'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,13 +17,14 @@ ht-degree: 99%
 
 ## 2022 年 11 月 {#november-2022}
 
-已新增有關鏡像頁面URL長度的建議。 [閱讀全文](../design/message-tracking.md)
+<!--* Added a new page about Journey Optimizer integration. [Read more](../start/ajo-integrations.md)-->
+* 已新增有關鏡像頁面URL長度的建議。 [閱讀全文](../design/message-tracking.md)
 
 ## 2022 年 10 月 {#october-2022}
 
 * 新增如何使用外部資料來源和自訂動作來限制輸送量的歷程使用案例。 [閱讀全文](../building-journeys/limit-throughput.md)
 * 歷程使用案例區段已重新組織為兩個類別： [業務使用案例](../building-journeys/journeys-uc.md)和[技術使用案例](../building-journeys/collections.md)。
-* 此 **實體資料集**&#x200B;章節已更新，其中包含更多詳細資訊。 [了解更多](../data/datasets-query-examples.md#entity-dataset)
+* 此 **實體資料集**&#x200B;章節已更新，其中包含更多詳細資訊。 [閱讀全文](../data/datasets-query-examples.md#entity-dataset)
 * 與選擇退出管理和同意原則相關的資訊已重新整理至新章節。 [閱讀全文](../privacy/opt-out.md)
 * 歷程訊息中進階參數的區段已經釐清，現在指定電子郵件地址覆寫僅用於特定使用案例。 在大部分時間中，**執行欄位**&#x200B;中定義為主要電子郵件的值才是應該使用的值。[閱讀全文](../messages/messages-in-journeys.md#adv-settings)
 * 在&#x200B;**設定登陸頁面子網域**&#x200B;區段來指定登陸頁面子網域中不允許使用大寫字母。[閱讀全文](../configuration/lp-subdomains.md)
