@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 2%
@@ -62,6 +62,7 @@ ht-degree: 2%
 ## 步驟2:建立電子郵件{#configure-email}
 
 1. 在 **電子郵件** 活動，按一下 **[!UICONTROL 編輯內容]**，然後按一下 **[!UICONTROL 電子郵件設計工具]**.
+
    ![](assets/personalization-uc-helpers-1.png)
 
 1. 從電子郵件設計工具首頁的左側浮動視窗，將三個結構元件拖放至訊息內文。
@@ -109,6 +110,7 @@ ht-degree: 2%
 1. 按一下 **[!UICONTROL 驗證]**，然後按一下 **[!UICONTROL 儲存]**.
 
    ![](assets/personalization-uc-helpers-6.png)
+
 1. 儲存訊息。
 
 ## 步驟4:插入購物車中的項目清單 {#each-helper}
@@ -164,6 +166,8 @@ ht-degree: 2%
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
+
+
 1. 將此程式碼貼到開頭 `{{#each}}` 標籤和結尾 `{/each}}` 標籤：
 
    ```html
@@ -184,6 +188,7 @@ ht-degree: 2%
    1. 從先前的搜尋結果中，新增 **[!UICONTROL 名稱]** 代號至運算式。
 
    重複這些步驟兩次：
+
    * 將預留位置「#quantity」取代為 **[!UICONTROL 數量]** 代號。
    * 將預留位置「#priceTotal」取代為 **[!UICONTROL 總價]** 代號。
 
@@ -202,7 +207,9 @@ ht-degree: 2%
       </table>
    {{/each}}
    ```
+
 1. 按一下 **[!UICONTROL 驗證]**，然後按一下 **[!UICONTROL 儲存]**.
+
    ![](assets/personalization-uc-helpers-11.png)
 
 ## 步驟5:插入產品特定附註 {#if-helper}
@@ -225,6 +232,7 @@ ht-degree: 2%
          {%else%} default_render
       {%/if%}
       ```
+
       ![](assets/personalization-uc-helpers-12.png)
 
 1. 從運算式中移除此條件：
@@ -258,6 +266,7 @@ ht-degree: 2%
          {%else%} default_render
       {%/if%}
       ```
+
       ![](assets/personalization-uc-helpers-13.png)
 
 1. 修改運算式：
@@ -288,6 +297,7 @@ ht-degree: 2%
          {%else%} default_render
       {%/if%}
       ```
+
    1. 從運算式中移除「default_render」預留位置。
 1. 按一下 **[!UICONTROL 驗證]**，然後按一下 **[!UICONTROL 儲存]**.
 

@@ -4,7 +4,7 @@ product: journey optimizer
 title: 使用自訂動作以動態方式傳遞集合
 description: 使用 Campaign v7/v8 傳送訊息
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 5%
@@ -67,6 +67,7 @@ ht-degree: 5%
     ]
    }
    ```
+
 * 若要使用測試模式來測試集合，您必須使用程式碼檢視模式。 目前商業事件不支援程式碼檢視模式。 您只能傳送包含單一元素的集合。
 
 ## 一般程式 {#general-procedure}
