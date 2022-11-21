@@ -6,12 +6,10 @@ description: 進一步了解如何整合Journey Optimizer與其他解決方案
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: f635c6995c453ed6d1042ef3e699d977e824f01e
+source-git-commit: 90d7d4d39fe04198707be3d5b24888cfe5bed308
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '580'
 ht-degree: 5%
 
 ---
@@ -26,23 +24,27 @@ ht-degree: 5%
 
 ## Adobe Customer Journey Analytics{#integration-cja}
 
-您可以匯出Journey Optimizer產生的資料，以在Customer Journey Analytics中執行進階分析。
+您可以使用Customer Journey Analytics對Journey Optimizer產生的資料執行進階分析。
 
-Journey Optimizer與Customer Journey Analytics的整合提供您所有歷程、行銷活動和選件的全方位檢視，並提供自動化報表分送和資料的自訂視覺效果。
+Journey Optimizer會將資料儲存在Adobe Experience Platform中，並透過「Customer Journey Analytics」，透過自動化的報表分送和資料的自訂視覺效果，全面掌握您的所有歷程、行銷活動和選件。
 
-在Journey Optimizer中建立您的歷程後，您可以將客戶資料匯入Customer Journey Analytics，以開始報告並了解客戶與您歷程的每次互動的影響。
+在Journey Optimizer中建立您的歷程後，Customer Journey Analytics可從平台擷取資料以開始報告，並了解客戶與您歷程的每次互動的影響。
 
 深入了解 [Journey Optimizer +Customer Journey Analytics](../reports/cja-ajo.md).
 
 ## Adobe Analytics{#integration-aa}
 
-您可以運用您已擷取並串流至Adobe Experience Platform的所有Adobe Analytics行為事件資料，以觸發即時歷程，並為客戶自動化體驗。
+您可以運用您已擷取並串流至Adobe Experience Platform的所有Adobe Analytics行為事件資料，觸發即時歷程，並為客戶自動化體驗。 此資料也可用來建立可使用Journey Optimizer參與的區段。
 
 深入了解 [Journey Optimizer + Analytics](../event/about-analytics.md).
 
 ## AdobeIntelligent Services{#integration-intelligent-service}
 
-與Adobe智慧服務的整合可讓您在客戶體驗使用案例中運用人工智慧和機器學習的強大功能。 這可讓行銷分析人員使用業務層級設定，針對公司的需求設定專屬預測，而不需要資料科學的專業知識。 例如，Adobe智慧服務可讓品牌建立流失率或轉換機器學習的分數，這些分數將在Adobe Experience Platform中以描述檔屬性的形式提供，並可用於個人化歷程。 [了解更多](../building-journeys/ai-services-overview.md)。
+Adobe智慧服務是即時客戶資料平台的原生功能，可讓您在客戶體驗使用案例中運用人工智慧和機器學習的強大功能。 這可讓行銷分析人員使用業務層級設定，針對公司的需求設定專屬預測，而不需要資料科學的專業知識。
+
+Customer AI可讓品牌建立流失率或轉換機器學習型分數，這些分數將在Adobe Experience Platform中以描述檔屬性的形式提供，且可用來個人化歷程。
+
+[了解更多](../building-journeys/ai-services-overview.md)。
 
 
 ## Adobe Campaign{#integration-ac}
@@ -57,9 +59,9 @@ Journey Optimizer與Customer Journey Analytics的整合提供您所有歷程、�
 
 ## 自訂通道{#integration-custom}
 
-如果您使用協力廠商系統來傳送訊息，或想要歷程將API呼叫傳送至協力廠商系統，請使用自訂動作來設定其與歷程的連線。 例如，您可以使用自訂動作連線至下列系統：ε,Slack, [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}、Firebase等
+如果您使用協力廠商系統來傳送訊息，或想要歷程將API呼叫傳送至協力廠商系統，請使用自訂動作來連線至您的歷程。 例如，您可以使用自訂動作連線至下列系統：ε,Slack, [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}、Firebase等
 
-自訂動作是技術使用者定義的其他動作，可供行銷人員使用。 設定後，它們會顯示在歷程的左側浮動視窗中，位於 **[!UICONTROL 動作]** 類別。 在[本頁](../building-journeys/about-journey-activities.md#action-activities)中瞭解更多。
+自訂動作是技術使用者定義的其他動作，可供行銷人員使用。 設定後，它們會顯示在您歷程的左側浮動視窗中，位於 **[!UICONTROL 動作]** 類別。 在[本頁](../building-journeys/about-journey-activities.md#action-activities)中瞭解更多。
 
 深入了解 [自訂動作](../action/about-custom-action-configuration.md).
 
