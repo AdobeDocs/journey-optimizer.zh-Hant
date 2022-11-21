@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: f418570a82d7b56dfb4c83df22b8109f506ec73a
+source-git-commit: 2dcfcc8d7006c92e046152db5ac1288bdde8b063
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Adobe Experience Platform是Journey Optimizer的建置基礎，可讓您在參�
 
 * **清除和歸檔機制**:在Journey Optimizer中，資料和封存的清除可以自由定義並自動化，以自動執行資料保留政策。 可以為不同的資料實體定義不同的老化策略。 也可以定義匯出機制，以在清除或封存老化資料前自動匯出。
 
-   Adobe Experience Platform UI中的資料衛生工作區可讓您建立和監控各種資料衛生工作，包括刪除消費者身分和排程資料集有效期。 深入了解 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}。
+   Adobe Experience Platform UI中的資料衛生工作區可讓您建立和監控各種資料衛生工作，包括刪除消費者身分和排程資料集有效期。 此工作區隨「安全與隱私保護」和「醫療保健防護」一起提供。 深入了解 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}。
 
 * **資料湖和刪除**:儲存在Data Lake中的客戶資料可由Journey Optimizer保留：
 
