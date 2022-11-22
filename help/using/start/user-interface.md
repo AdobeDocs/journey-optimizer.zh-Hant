@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
-workflow-type: ht
-source-wordcount: '1572'
-ht-degree: 100%
+source-git-commit: 29f01b1c92c2b82a7cb11264b29604e74252b19b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -262,6 +262,11 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 英文
 * 法文
 * 德文
+* 義大利文
+* 西班牙文
+* 葡萄牙文（巴西）
+* 日文
+* 韓文
 
 您的預設介面語言是由使用者設定檔中指定的偏好語言所決定。
 
