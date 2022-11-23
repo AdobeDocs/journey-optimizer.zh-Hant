@@ -1,5 +1,5 @@
 ---
-title: 建立網路體驗
+title: 建立網站體驗
 description: 了解如何在Journey Optimizer中撰寫網頁及編輯其內容
 feature: Overview
 topic: Content Management
@@ -7,14 +7,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: d94f0690629f924245d7a672ecf81decd0724861
+exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1073'
 ht-degree: 6%
 
 ---
 
-# 建立網路體驗 {#create-web}
+# 建立網站體驗 {#create-web}
 
 >[!AVAILABILITY]
 >
@@ -57,6 +58,11 @@ ht-degree: 6%
    ![](assets/web-aep-merge-policy.png)
 
 ## 建立網路行銷活動 {#create-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_surface"
+>title="定義網面"
+>abstract="網頁表面可以符合單一頁面URL或多個頁面，讓您能夠跨一或多個網頁提供內容修改。"
 
 若要開始透過促銷活動建立您的網頁體驗，請遵循下列步驟。
 

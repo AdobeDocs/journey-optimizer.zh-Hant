@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '1051'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,14 @@ ht-degree: 3%
 若要存取及編寫 [!DNL Journey Optimizer] 使用者介面，遵循 [本節](create-web.md#prerequesites).
 
 ## 編輯網頁內容 {#edit-web-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_personalize_header"
+>title="輸入要編輯的URL"
+>abstract="輸入要用於編輯要應用於上面定義的Web曲面的內容的特定Web頁的URL。 必須使用Adobe Experience Platform Web SDK實作頁面。"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="更多詳情"
+
+<!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
 
 從促銷活動建立網頁動作後，您就可以使用網頁設計工具來編輯內容。 若要這麼做，請遵循下列步驟。
 
@@ -73,6 +81,11 @@ ht-degree: 3%
 
 ## 使用內容元件 {#content-components}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_components"
+>title="將內容元件新增至網頁"
+>abstract="您可以新增許多元件至您的網頁，並視需要加以編輯。"
+
 1. 從 **[!UICONTROL 元件]** 窗格，您可以將下列元件新增至您的網頁，並視需要加以編輯：
 
    * [除法器](../design/content-components.md#divider)
@@ -113,6 +126,11 @@ ht-degree: 3%
 
 ### 切換為瀏覽模式 {#browse-mode}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_browse"
+>title="使用瀏覽模式"
+>abstract="在此模式中，您可以從您要個人化的選定曲面導覽至確切頁面。"
+
 您可以從預設值交換 **[!UICONTROL 設計]** 模式 **[!UICONTROL 瀏覽]** 模式。
 
 ![](assets/web-designer-browse-mode.png)
@@ -130,6 +148,11 @@ ht-degree: 3%
 ![](assets/web-designer-device.png)
 
 ## 管理修改 {#manage-modifications}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_modifications"
+>title="輕鬆管理您的所有變更"
+>abstract="使用此窗格，您可以瀏覽並管理您添加到網頁的所有調整和樣式。"
 
 您可以輕鬆管理新增至網頁的所有元件、調整和樣式。
 
@@ -164,6 +187,11 @@ ht-degree: 3%
 ![](assets/web-designer-offer.png)
 
 ## 測試網路促銷活動 {#test-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_preview"
+>title="預覽您的網路體驗"
+>abstract="取得網路體驗的模擬外觀。"
 
 若要顯示已修改之網路體驗的預覽，請遵循下列步驟。
 

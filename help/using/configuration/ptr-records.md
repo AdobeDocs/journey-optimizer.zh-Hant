@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 0%
 >id="ajo_admin_ptr_record"
 >title="子域的PTR記錄"
 >abstract="指針記錄(PTR)是一種DNS記錄，它提供連結到IP地址的域名，這有助於接收郵件伺服器驗證發件人的IP地址。 只有在與您的傳遞能力專家進行適當考慮和討論後才編輯PTR記錄。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ptr_record_header"
+>title="子域的PTR記錄"
+>abstract="將子網域委派給Journey Optimizer中的Adobe後，就會自動建立PTR記錄並與此子網域相關聯。"
 
 ## 關於PTR記錄 {#about-ptr-records}
 
