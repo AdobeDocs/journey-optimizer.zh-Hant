@@ -28,7 +28,7 @@ ht-degree: 9%
 >title="子網域委派"
 >abstract="若要開始傳送電子郵件，您會將子網域委派給Adobe。 完成後，系統會為您設定DNS記錄、收件匣、寄件者、回覆和退信地址。"
 
-域名委派是一種允許域名所有者的方法(技術上：DNS區域)，以委派DNS區域(技術上：其下的DNS區域，可稱為子區域)，傳至其他實體。 基本上，身為客戶，如果您處理「example.com」區域，您可以委派子區域「marketing.example.com」給Adobe。 深入了解 [子網域委派](about-subdomain-delegation.md)
+域名委派是一種允許域名所有者的方法(技術上：DNS區域)，以委派DNS的細分(技術上：其下的DNS區域，可稱為子區域)，傳至其他實體。 基本上，身為客戶，如果您處理「example.com」區域，您可以委派子區域「marketing.example.com」給Adobe。 深入了解 [子網域委派](about-subdomain-delegation.md)
 
 >[!NOTE]
 >
