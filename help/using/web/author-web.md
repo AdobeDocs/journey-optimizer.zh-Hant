@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
+source-git-commit: f39e2094db24e7d0e8a304750624c985ff631572
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 3%
+source-wordcount: '1101'
+ht-degree: 4%
 
 ---
 
@@ -28,9 +28,15 @@ ht-degree: 3%
 ## 編輯網頁內容 {#edit-web-content}
 
 >[!CONTEXTUALHELP]
->id="ajo_web_url_to_personalize_header"
+>id="ajo_web_url_to_edit_surface"
 >title="輸入要編輯的URL"
->abstract="輸入要用於編輯要應用於上面定義的Web曲面的內容的特定Web頁的URL。 必須使用Adobe Experience Platform Web SDK實作頁面。"
+>abstract="輸入要用於編輯要應用於上面定義的Web曲面的內容的特定Web頁的URL。 網頁必須使用Adobe Experience Platform Web SDK實作。"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="更多詳情"
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_edit_rule"
+>title="輸入要編輯的URL"
+>abstract="輸入要用於編輯內容的特定網頁的URL，該內容將應用於符合規則的所有頁面。 網頁必須使用Adobe Experience Platform Web SDK實作。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="更多詳情"
 
 <!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
