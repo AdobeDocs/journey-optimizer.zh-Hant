@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3d496efc-1bf9-4895-906c-3757f92c6fe3
-source-git-commit: 6b3207f8da2f022d6094e6a2f321ac1b4f137e83
+source-git-commit: a153db2adcea4d65cac0d6a4f08c7b997b9ddda1
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '274'
 ht-degree: 3%
 
 ---
@@ -63,72 +63,3 @@ ht-degree: 3%
 * [建立應用程式內訊息](../in-app/create-in-app.md)
 * [設計應用程式內訊息](../in-app/design-in-app.md)
 * [應用程式內設定](../in-app/inapp-configuration.md)
-
-
->[!BEGINTABS]
-
->[!TAB 新增推送至歷程]
-
-1. 開啟您的歷程，然後從浮動視窗的「動作」區段拖放推播活動。
-
-1. 提供訊息的基本資訊（標籤、說明、類別），然後選擇要使用的訊息表面。
-
->[!TAB 新增推送至促銷活動]
-
-1. 建立新的排程或API觸發促銷活動，請選取 **[!UICONTROL 推播通知]** 作為您的動作，並選取 **[!UICONTROL 應用程式表面]** 來使用。
-
-1. 按一下&#x200B;**[!UICONTROL 建立]**。
-
-1. 從 **[!UICONTROL 屬性]** 區段，編輯您的促銷活動 **[!UICONTROL 標題]** 和 **[!UICONTROL 說明]**.
-
-1. 按一下 **[!UICONTROL 選取對象]** 按鈕，從可用的Adobe Experience Platform區段清單中定義要鎖定的對象。
-
-1. 在 **[!UICONTROL 身分命名空間]** 欄位中，選擇要使用的命名空間，以識別所選區段中的個人。
-
-1. 促銷活動設計為在特定日期或循環頻率上執行。 了解如何設定 **[!UICONTROL 排程]** 你的競選。
-
-1. 從 **[!UICONTROL 動作觸發器]** 菜單，選擇 **[!UICONTROL 頻率]** 推播通知的：
-
-   * 一次
-   * 每日
-   * 每週
-   * 每月
-
->[!ENDTABS]
-
-測試3:
-
-1. 這是個測試
-
->[!BEGINTABS]
-
->[!TAB 新增推送至歷程]
-
-1. 開啟您的歷程，然後從浮動視窗的「動作」區段拖放推播活動。
-
-1. 提供訊息的基本資訊（標籤、說明、類別），然後選擇要使用的訊息表面。
-
->[!TAB 新增推送至促銷活動]
-
-1. 建立新的排程或API觸發促銷活動，請選取 **[!UICONTROL 推播通知]** 作為您的動作，並選取 **[!UICONTROL 應用程式表面]** 來使用。
-
-1. 按一下&#x200B;**[!UICONTROL 建立]**。
-
-1. 從 **[!UICONTROL 屬性]** 區段，編輯您的促銷活動 **[!UICONTROL 標題]** 和 **[!UICONTROL 說明]**.
-
-1. 按一下 **[!UICONTROL 選取對象]** 按鈕，從可用的Adobe Experience Platform區段清單中定義要鎖定的對象。
-
-1. 在 **[!UICONTROL 身分命名空間]** 欄位中，選擇要使用的命名空間，以識別所選區段中的個人。
-
-1. 促銷活動設計為在特定日期或循環頻率上執行。 了解如何設定 **[!UICONTROL 排程]** 你的競選。
-
-1. 從 **[!UICONTROL 動作觸發器]** 菜單，選擇 **[!UICONTROL 頻率]** 推播通知的：
-
-   * 一次
-   * 每日
-   * 每週
-   * 每月
-
->[!ENDTABS]
-
-1. 這是測試的一部分
