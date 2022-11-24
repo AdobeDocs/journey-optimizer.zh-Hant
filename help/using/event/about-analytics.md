@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: a6735063ec68b40b1441b379a20cba8953b59447
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 8%
+source-wordcount: '203'
+ht-degree: 11%
 
 ---
 
@@ -23,11 +23,12 @@ ht-degree: 8%
 >
 >本節內容僅適用於需要使用Adobe Analytics資料的規則型事件和客戶。
 
-為了讓此功能發揮作用，您需要在Adobe Experience Platform中啟用您要運用的報表套裝：
+若要讓此功能發揮作用，您必須在Adobe Experience Platform中啟用您要使用的報表套裝。 請依照下列步驟執行此操作：
 
-1. 在Adobe Experience Platform中，選取 **[!UICONTROL 來源]** then **[!UICONTROL 新增資料]** 在Adobe Analytics區段。 隨即顯示可用的Adobe Analytics報表套裝清單。
+1. 連線至Adobe Experience Platform並瀏覽至 **[!UICONTROL 來源]**.
+1. 在Adobe Analytics區段中，選取 **[!UICONTROL 新增資料]**:隨即顯示可用的Adobe Analytics報表套裝清單。
 
-1. 選擇要啟用的報表套裝，按一下 **[!UICONTROL 下一個]** 按一下 **[!UICONTROL 完成]**.
+1. 選取要啟用的報表套裝，按一下 **[!UICONTROL 下一個]** 和 **[!UICONTROL 完成]**.
 
 1. 與測試版計畫聯絡點共用來源資料ID。
 
