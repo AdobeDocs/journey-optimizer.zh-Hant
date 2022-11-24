@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 4%
@@ -22,7 +22,7 @@ ht-degree: 4%
 **語法**
 
 ```sql
-Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
+Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
 在此範例中，值 `there` 若 `firstName` 此配置檔案的屬性為空或null。
