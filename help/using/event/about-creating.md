@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1530'
 ht-degree: 11%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >針對系統產生的事件，請確定您已將「協調」欄位群組新增至XDM架構。 這可確保您的架構包含要搭配使用的所有必要資訊 [!DNL Journey Optimizer].
+   >針對系統產生的事件，請確定您已將「協調」欄位群組新增至XDM架構。 這可確保您的架構包含所有要使用的必要資訊 [!DNL Journey Optimizer].
 
    ![](assets/journey9.png)
 
@@ -107,6 +107,11 @@ ht-degree: 11%
    ![](assets/journey12.png)
 
 ## 選取命名空間 {#select-the-namespace}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_namespace"
+>title="身分識別命名空間"
+>abstract="TBC"
 
 命名空間可讓您定義用於識別與事件相關聯之人員的索引鍵類型。 其設定為選用。 如果您想在歷程中擷取來自 [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。 如果您只使用來自協力廠商系統的資料（透過自訂資料來源），則不需要命名空間定義。
 

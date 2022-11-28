@@ -7,9 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 5c12ea559876d30a08f9aaf593d1b40b1f5b8bae
+exl-id: 617d623c-e038-4b5b-a367-5254116b7815
+source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '897'
 ht-degree: 9%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 9%
 >* [開始使用區段](../segment/about-segments.md)
 
 
-## 建立您的第1個行銷活動 {#create}
+## 建立您的第一個行銷活動 {#create}
 
 1. 存取 **[!UICONTROL 行銷活動]** ，然後按一下 **[!UICONTROL 建立行銷活動]**.
 
@@ -34,10 +35,12 @@ ht-degree: 9%
 
    ![](assets/create-campaign.png)
 
-1. 在 **[!UICONTROL 屬性]** 區段，指定您要執行促銷活動的時間：
+1. 在 **[!UICONTROL 屬性]** 區段，指定您要如何執行促銷活動：
 
-   * **[!UICONTROL 已排程]**:立即執行促銷活動或在指定日期執行。 排程的行銷活動旨在傳送 **行銷** 輸入訊息。
-   * **[!UICONTROL API觸發]**:使用API呼叫執行促銷活動。 API觸發的行銷活動旨在傳送 **異動** 訊息，即在個人執行的動作後傳出的訊息：密碼重設、卡放棄等。 [了解如何使用API觸發行銷活動](api-triggered-campaigns.md)
+   * **[!UICONTROL 已排程]**
+   * **[!UICONTROL API觸發]**
+
+   如需促銷活動類型和相關參與的詳細資訊，請參閱 [節](#campaigntype).
 
 1. 在 **[!UICONTROL 動作]** 區段，選取要用來傳送訊息的通道和通道表面，然後按一下 **[!UICONTROL 建立]**.
 
@@ -95,7 +98,40 @@ ht-degree: 9%
 
 一旦您的促銷活動準備就緒，您就可以檢閱並發佈。 [了解更多](#review-activate)
 
+## 促銷活動類型 {#campaigntype}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_type"
+>title="促銷活動類型"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_category"
+>title="促銷活動類別"
+>abstract="TBC"
+
+可用的促銷活動有兩種類型：
+
+* **[!UICONTROL 已排程]**:立即執行促銷活動或在指定日期執行。 排程的行銷活動旨在傳送 **行銷** 輸入訊息。
+
+* **[!UICONTROL API觸發]**:使用API呼叫執行促銷活動。 API觸發的行銷活動旨在傳送 **異動** 訊息，即在個人執行的動作後傳出的訊息：密碼重設、卡放棄等。 [了解如何使用API觸發行銷活動](api-triggered-campaigns.md)
+
 ## 排程促銷活動 {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_start"
+>title="促銷活動開始"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_end"
+>title="促銷活動結束"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_triggers"
+>title="Campaign動作觸發程式"
+>abstract="TBC"
 
 依預設，促銷活動在手動啟動後就會開始，而在訊息傳送一次後立即結束。
 
@@ -105,7 +141,7 @@ ht-degree: 9%
 
 ![](assets/create-campaign-schedule.png)
 
-## 快速傳遞模式 {#rapid-delivery}
+## 推播促銷活動的快速傳送模式 {#rapid-delivery}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"

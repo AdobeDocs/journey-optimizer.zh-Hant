@@ -8,14 +8,20 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
+source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
 workflow-type: tm+mt
-source-wordcount: '1572'
-ht-degree: 1%
+source-wordcount: '1605'
+ht-degree: 3%
 
 ---
 
 # 設定頻道介面 {#set-up-channel-surfaces}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_channel_surfaces"
+>title="應用程式表面"
+>abstract="介面是由系統管理員定義的設定。 它包含所有用於春頌訊息的技術參數，如標頭參數、子網域、行動應用程式等等。"
+
 
 使用 [!DNL Journey Optimizer]，您可以設定可定義訊息所需所有技術參數的通道曲面（即訊息預設集）:電子郵件類型、寄件者電子郵件和名稱、行動應用程式、SMS設定等。
 
