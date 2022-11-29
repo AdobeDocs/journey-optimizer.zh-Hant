@@ -6,16 +6,20 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 8%
+source-wordcount: '152'
+ht-degree: 7%
 
 ---
 
 # 限制 {#limit}
 
 傳回清單的第一個或最後一個N個元素。
+
+>[!NOTE]
+>
+>如果目標清單為listObject，則此函式只能用於自訂動作運算式。
 
 ## 類別
 

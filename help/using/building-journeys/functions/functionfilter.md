@@ -6,16 +6,20 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 10%
+source-wordcount: '126'
+ht-degree: 8%
 
 ---
 
 # 篩選{#filter}
 
 傳回listObject，其物件的索引鍵屬性與指定索引鍵值之一相符。
+
+>[!NOTE]
+>
+>如果目標清單為listObject，則此函式只能用於自訂動作運算式。
 
 ## 類別
 

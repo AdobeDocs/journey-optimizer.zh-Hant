@@ -6,16 +6,20 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 9%
+source-wordcount: '148'
+ht-degree: 8%
 
 ---
 
 # 排序 {#sort}
 
 按自然順序對值或對象清單進行排序。
+
+>[!NOTE]
+>
+>如果目標清單為listObject，則此函式只能用於自訂動作運算式。
 
 ## 類別
 

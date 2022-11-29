@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 97%
+source-wordcount: '2189'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 97%
 * 新增Journey Optimizer整合的頁面。 [閱讀全文](../start/ajo-integrations.md)
 * 新增關於鏡像頁面URL長度的建議。 [閱讀全文](../design/message-tracking.md)
 * 電子郵件設定設定的新小節已新增至電子郵件地址的回覆，包括確保正確回覆管理的建議。 [閱讀全文](../configuration/email-settings.md#reply-to-email)
+* 已新增如何修改即時歷程中訊息內容的區段。 [閱讀全文](../building-journeys/journeys-message.md#update-live-content)
 
 ## 2022 年 10 月 {#october-2022}
 

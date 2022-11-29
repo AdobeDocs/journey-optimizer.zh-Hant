@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: acb5b65b-8787-4428-9924-36aa0a115926
-source-git-commit: 88182f9f685efbd45dd5ecf8a09745f55305a78f
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 97%
+source-wordcount: '800'
+ht-degree: 95%
 
 ---
 
@@ -92,6 +92,10 @@ ht-degree: 97%
 針對推播通知，您可以顯示以下參數：代號、AppID、AppPlatform。
 
 ![](assets/push-adv-parameters.png)
+
+>[!NOTE]
+>
+>如果您覆寫其中一個屬性，則也需覆寫這三個屬性。
 
 針對電子郵件，您可以顯示[主要電子郵件地址](../configuration/primary-email-addresses.md)。
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -325,6 +325,8 @@ _介面中的名稱：ajo_entity_dataset（系統資料集）_
 >[!NOTE]
 >
 >由於未來的相容性原因，目前實體資料集中每個訊息發佈有兩個項目。 這不會影響您在資料集間視需要使用加入查詢來擷取所需資訊的能力。
+
+如果您想在報表中，根據傳送給特定歷程的動作，來排序由特定歷程傳送的電子郵件。 您可以將「訊息回饋」資料集與「實體」資料集加入。 要使用的欄位包括： `_experience.decisioning.propositions.scopeDetails.correlationID` 和 `_id field in entity dataset`.
 
 下列查詢可協助您取得指定促銷活動的相關訊息範本：
 
