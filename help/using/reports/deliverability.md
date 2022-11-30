@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 146e2384e44fc040ddb73a96742cae0dea6f17da
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '695'
 ht-degree: 2%
 
 ---
@@ -19,9 +19,13 @@ ht-degree: 2%
 
 傳遞能力是您傳送至收件者收件匣的成功度量。
 
+>[!NOTE]
+>
+>對於授權Healthcare Shield的Adobe,Healtch Layer Security(TLS)1.2可保護使用者系統（收件者）與Journey Optimizer（寄件者）之間的資料交換。 如果接收郵件伺服器不支援TLS 1.2，客戶將會遇到傳送能力問題，包括電子郵件反彈回原始寄件者。
+
 **電子郵件傳遞** 指一組特性，這些特性決定了郵件通過個人電子郵件地址在短時間內以預期的質量和內容和格式到達目的地的能力。 這些特徵分為四大類：資料質量、訊息和內容、傳送基礎架構和信譽。 它們共同構成了成功電子郵件傳遞計畫的基礎。
 
-此 **傳遞率** 是點擊收件者收件匣的訊息數，與已傳送的訊息數相比。 這取決於許多因素，尤其是：
+此 **傳遞率** 是點擊收件者收件匣的訊息數，與已傳送的訊息數相較。 這取決於許多因素，尤其是：
 
 * 垃圾郵件投訴有限
 * 低硬反彈率
