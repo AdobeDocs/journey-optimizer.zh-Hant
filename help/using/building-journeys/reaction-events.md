@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 9b7898d0fe008a0e7ef711b1303230c6f901b712
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 您也可以使用此機制，在訊息沒有反應時執行動作。 要執行此操作，請建立與反應活動平行的第二個路徑，並新增等待活動。 如果在等待活動中定義的期間內沒有反應，則會選擇第二個路徑。 例如，您可以選擇傳送後續訊息。
 
-請注意，只有在之前有管道動作活動（電子郵件、推播、簡訊）時，您才能在畫布中使用反應活動。
+請注意，只有在之前有管道動作活動（電子郵件和推播）時，您才可以在畫布中使用反應活動。
 
 請參閱 [關於動作活動](../building-journeys/about-journey-activities.md#action-activities).
 
