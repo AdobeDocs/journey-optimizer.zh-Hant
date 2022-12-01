@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
+source-git-commit: 5e5b078fa61e2c615a2242f50439c2f20ea5216a
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 7%
@@ -22,7 +22,7 @@ ht-degree: 7%
 >
 >根據行業標準及法規，所有簡訊行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 若要這麼做，SMS收件者可以使用選擇加入和選擇退出關鍵字回覆。
 
-## 在歷程或行銷活動中建立SMS訊息 {#sms-content}
+## 在歷程或行銷活動中建立SMS訊息
 
 若要開始個人化SMS訊息，請遵循下列步驟：
 
@@ -65,7 +65,7 @@ ht-degree: 7%
 
 >[!ENDTABS]
 
-## 定義您的SMS內容{#sms-content}
+## 定義您的SMS內容
 
 1. 在歷程或行銷活動設定畫面中，按一下 **[!UICONTROL 編輯內容]** 按鈕來設定SMS內容。
 
@@ -77,7 +77,7 @@ ht-degree: 7%
 
 1. 當您的SMS訊息準備就緒時，請完成的設定以傳送訊息。
 
-## 驗證您的簡訊{#sms-preview}
+## 驗證您的簡訊
 
 >[!NOTE]
 >

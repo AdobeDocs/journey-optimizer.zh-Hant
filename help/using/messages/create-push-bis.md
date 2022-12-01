@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
+source-git-commit: 5e5b078fa61e2c615a2242f50439c2f20ea5216a
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # 建立推播通知 {#create-push-notification-bis}
 
-## 在歷程或行銷活動中建立推播通知 {#create}
+## 在歷程或行銷活動中建立推播通知
 
 若要建立推播通知，請遵循下列步驟：
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 >[!ENDTABS]
 
-## 快速傳遞模式 {#rapid-delivery}
+## 快速傳遞模式
 
 快速傳送模式（歷程中先前稱為突發模式）是 [!DNL Journey Optimizer] 可透過促銷活動以大量傳送非常快速的推送訊息的附加元件。
 
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 有關使用快速傳送模式時的效能的詳細資訊，請參閱。
 
-### 先決條件 {#prerequisites}
+### 先決條件
 
 快速傳遞報文傳送附帶下列要求：
 
