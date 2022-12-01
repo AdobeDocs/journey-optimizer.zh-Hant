@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
+source-git-commit: 50a6e19640c497176022b17370e3ae810686b84f
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 96%
+source-wordcount: '1268'
+ht-degree: 97%
 
 ---
 
@@ -176,8 +176,6 @@ ht-degree: 96%
    + [建立電子郵件行](using/messages/create-email-bis.md)
    + [建立推播通知](using/messages/create-push.md)
    + [建立 SMS 訊息](using/messages/create-sms.md)
-   + [建立簡訊之二](using/messages/create-sms-bis.md)
-   + [建立推播通知行](using/messages/create-push-bis.md)
    + [建立直接郵件](using/messages/create-direct-mail.md)
    + [檢查警報](using/messages/alerts.md)
    + [傳送時間最佳化](using/messages/send-time-optimization.md)
