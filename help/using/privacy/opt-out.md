@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b35ae530ec23da1ecb0ae99c4d9659481d296f09
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1687'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -203,7 +203,7 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
    >
    >如果您未在訊息內容中新增一鍵退出連結，則不會顯示登陸頁面。
 
-* 對應的設定檔會立即退出，而此選項會在 Experience Platform 中更新。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}中進一步瞭解 。
+* 對應的設定檔會立即退出，而此選項會在 Experience Platform 中更新。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}中進一步瞭解 。
 
 ## 推播選擇退出管理 {#push-opt-out-management}
 
@@ -215,28 +215,28 @@ GDPR 等法規規定，您必須符合特定要求，才能使用資料主體的
 
 根據行業標準及法規，所有簡訊行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 取消訂閱後，個人資料將自動從未來行銷訊息的對象中移除。
 
-預設情況下，Adobe Journey Optimizer會根據Sinch和Twilio等本機整合的行業標準，處理STOP、UNSTOP和START等標準英語回復報文，以免付費和長代碼報文。 這些關鍵字通常會觸發您第三方提供者（例如Twilio、Sinch等）的自動標準回覆。 您可以直接向提供者或透過其檔案網站確認。
+預設情況下，Adobe Journey Optimizer 會根據 Sinch 和 Twilio 等原生整合的行業標準，處理 STOP、UNSTOP 和 START 等標準英文回覆訊息，以實現免付費和長程式碼訊息。 這些關鍵字通常會觸發您協力廠商提供者 (例如 Twilio、Sinch 等) 的自動標準回覆。 您可以直接向提供者或透過其文件網站確認。
 
-無需任何步驟，即可確保SMS選擇退出功能在Adobe Journey Optimizer中運作，因為關鍵字回應STOP、UNSTOP和START將會自動辨識。
+無需任何步驟，即可確保 SMS 選擇退出功能在 Adobe Journey Optimizer 中運作，因為關鍵字回應 STOP、UNSTOP 和 START 將會自動識別。
 
-除了Adobe Journey Optimizer根據選擇退出狀態（用於與Twilio或Sinch直接整合）停止傳送外，大部分的SMS閘道提供者也會維護封鎖清單，確保SMS訊息不會傳送給已選擇退出的個人。 如果您使用Sinch或Twilio以外的提供者，並透過 [自訂頻道](../building-journeys/using-custom-actions.md)，您需要向提供者確認。
+除了 Adobe Journey Optimizer 根據選擇退出狀態 (用於與 Twilio 或 Sinch 直接整合) 停止傳送外，大部分的 SMS 閘道提供者也會維護封鎖清單，確保 SMS 訊息不會傳送給已選擇退出的個人。 如果您使用 Sinch 或 Twilio 以外的提供者，並透過[自訂頻道](../building-journeys/using-custom-actions.md)傳送 SMS，您需要向提供者確認。
 
 >[!IMPORTANT]
 >
->簡訊行銷活動可能會受到各種法律法規遵循要求的約束，具體取決於您的簡訊行銷活動的性質、您發送簡訊的位置，以及收件者的位置。 <br>雖然Adobe Journey Optimizer會處理上述長碼和免付費號碼的訊息，但您應諮詢法律顧問，以確保您的簡訊傳送行銷活動符合所有適用的法律規範要求。
+>文字訊息行銷活動可能會受到各種法律法規遵循要求的約束，具體取決於您的文字訊息行銷活動的性質、您傳送訊息的位置，以及收件者的位置。 <br>雖然 Adobe Journey Optimizer 會處理上述長程式碼和免付費號碼的訊息，但您應諮詢法律顧問，以確保您的文字訊息傳送行銷活動符合所有適用的法律規範要求。
 
-### 短代碼 {#short-codes}
+### 短程式碼 {#short-codes}
 
-依預設，Adobe Journey Optimizer不會處理短程式碼的選擇退出、選擇加入或說明關鍵字。
+預設情況下，Adobe Journey Optimizer 不會處理短程式碼的選擇退出、選擇加入或說明關鍵字。
 
-您必須確保您的簡短程式碼符合選擇退出處理的所有產業規則和法規。
+您必須確保您的短程式碼符合選擇退出處理的所有產業規則和法規。
 
-### 字母數字發件人ID {#alphanumeric}
+### 英數字元寄件者 ID {#alphanumeric}
 
-英數字元寄件者ID僅用於單向傳訊，無法接收傳入訊息。 因此，Adobe Journey Optimizer的SMS STOP、START、HELP關鍵字不適用於Alpha傳送者ID。 您必須提供其他指示，如寫入支援團隊、呼叫支援電話線或發簡訊給其他電話號碼或代碼，以允許用戶選擇退出通過字母數字發件人ID發送的郵件。
+英數字元寄件者 ID 僅用於單向傳訊，無法接收傳入訊息。 因此，Adobe Journey Optimizer 的 SMS STOP、START、HELP 關鍵字不適用於 Alpha 傳送者 ID。 您必須提供其他指示，如寫入支援團隊、呼叫支援電話熱線或傳送文字訊息給其他電話號碼或程式碼，以允許使用者選擇退出透過英數字元寄件者 ID 傳送的訊息。
 
 #### 影片 {#video-sms}
 
-若要進一步了解SMS原生傳入關鍵字支援（START、STOP及UNSTOP）的運作方式，請參閱下列影片：
+若要深入瞭解原生輸入關鍵字如何支援 (START、STOP 和 UNSTOP) 的運作方式，請參閱下列影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
