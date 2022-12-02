@@ -2,33 +2,33 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 開始使用隱私權
-description: 深入了解Adobe Journey Optimizer和Adobe Experience Platform的隱私權。
+description: 深入了解 Adobe Journey Optimizer 和 Adobe Experience Platform 的隱私權。
 feature: Monitoring
 role: User
 level: Intermediate
 exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
 source-git-commit: a153db2adcea4d65cac0d6a4f08c7b997b9ddda1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '205'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
 # 開始使用隱私權 {#privacy}
 
-Journey Optimizer是一款功能強大的工具，可收集和處理包括個人資訊和敏感資料在內的超大資料。 這就是需要謹慎管理隱私權的原因。
+Adobe Campaign 是一款強大的工具，用於收集和處理包括個人資訊及敏感資料在內的超大資料。這就是需要謹慎管理隱私權的原因。
 
-Adobe Experience Platform和Journey Optimizer提供各種工具，協助您確保隱私權管理。
+Adobe Experience Platform 和 Journey Optimizer 提供各種工具，協助您確保隱私權管理。
 
-* **管理資料請求**:使用Adobe Experience Platform Privacy Service管理客戶存取和刪除個人資料的請求。 [了解更多](requests.md)
+* **管理資料請求**：使用 Adobe Experience Platform Privacy Service 管理客戶存取和刪除個人資料的請求。 [了解更多](requests.md)
 
-* **稽核使用者的動作**:利用審核日誌識別系統中用戶執行的操作、排解問題，並幫助您的企業遵守法規和公司資料管理策略。 [了解更多](audit-logs.md)
+* **稽核使用者的動作**：利用稽核記錄識別系統中使用者執行的動作、疑難排解問題，並幫助您的企業遵守法規和公司資料管理政策。 [了解更多](audit-logs.md)
 
-* **追蹤及管理同意**:追蹤客戶對通訊的同意，並管理其偏好設定和訂閱。 [了解更多](opt-out.md)
+* **追蹤及管理同意**：追蹤客戶對通訊的同意，並管理其偏好設定和訂閱。 [了解更多](opt-out.md)
 
-* **套用同意政策**:定義Adobe Experience Platform同意原則並將其套用至您的自訂動作，以尊重客戶的偏好設定。 [了解更多](../action/consent.md)
+* **套用同意政策**：定義 Adobe Experience Platform 同意政策並將其套用至您的自訂動作，以尊重客戶的偏好設定。 [了解更多](../action/consent.md)
 
-* **應用治理策略**:運用Adobe Experience Platform控管政策，防止敏感欄位透過自訂動作匯出至協力廠商系統。 [了解更多](../action/action-privacy.md)
+* **套用治理策略**：運用 Adobe Experience Platform 治理政策，防止敏感欄位透過自訂動作匯出至協力廠商系統。 [了解更多](../action/action-privacy.md)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -70,7 +70,7 @@ Adobe Experience Platform和Journey Optimizer提供各種工具，協助您確�
 <img alt="驗證" src="../assets/do-not-localize/privacy-governance.jpeg">
 </a>
 <div>
-<a href="../action/action-privacy.md"><strong>應用治理策略</strong></a>
+<a href="../action/action-privacy.md"><strong>套用治理政策</strong></a>
 </div>
 <p>
 </td>
