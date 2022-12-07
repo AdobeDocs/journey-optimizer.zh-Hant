@@ -4,9 +4,9 @@ product: journey optimizer
 title: 2022 年發行說明
 description: Journey Optimizer 2022 年發行說明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: ht
-source-wordcount: '3461'
+source-wordcount: '3453'
 ht-degree: 100%
 
 ---
@@ -232,7 +232,7 @@ ht-degree: 100%
 <td>
 <p>您現在可以透過與 <b>Sinch</b> 或 <b>Twilio</b> 的整合在 Journey Optimizer 裡建立、個人化和傳送簡訊。</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>在<a href="../messages/create-sms.md">詳細文件</a>中了解如何建立和傳送簡訊。</p>
+<p>在<a href="../sms/create-sms.md">詳細文件</a>中了解如何建立和傳送簡訊。</p>
 </td>
 </tr>
 </tbody>
@@ -284,7 +284,6 @@ ht-degree: 100%
 <td>
 <p>Journey Optimizer 為歷程的訊息編寫提供全新流程。 線上傳送訊息消息將為使用者節省大量時間，並簡化在 Journey Optimizer 建立和傳遞電子郵件、推播通知或簡訊的工作流程。 透過將訊息作為單獨的步驟刪除，作為 Journey Canvas 動作的一部分都可內嵌編輯，使用者需要按更少的按鈕並導覽較少的畫面來設計和編輯其內容。</p>
 <img src="assets/do-not-localize/inline.gif"/>
-<p>如需詳細資訊，請參閱<a href="../messages/get-started-content.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -364,7 +363,7 @@ ht-degree: 100%
 
 * **允許清單邏輯更新** - 現在，即使清單為空，允許清單邏輯在功能啟用後立即適用。 [了解更多](../configuration/allow-list.md#logic)
 
-* **URL 追蹤參數** - 現在，您可以使用運算式編輯器在電子郵件介面中設定 URL 追蹤參數 (即預設集)。 [了解更多](../configuration/email-settings.md#url-tracking)
+* **URL 追蹤參數** - 現在，您可以使用運算式編輯器在電子郵件介面中設定 URL 追蹤參數 (即預設集)。 [了解更多](../email/email-settings.md#url-tracking)
 
 **決定管理**
 
@@ -387,7 +386,7 @@ ht-degree: 100%
 <p>您現在可以透過與 <b>Sinch</b> 或 <b>Twilio</b> 的整合在 Journey Optimizer 裡建立、個人化和傳送簡訊。</p>
 <!--img src="assets/do-not-localize/SMS.gif"/-->
 <p>簡訊管道目前僅可用於一組組織（可用性限制）。 如需詳細資訊，請聯絡您的 Adobe 代表。</p>
-<p>在<a href="../messages/create-sms.md">詳細文件</a>中了解如何建立和傳送簡訊。</p>
+<p>在<a href="../sms/create-sms.md">詳細文件</a>中了解如何建立和傳送簡訊。</p>
 </td>
 </tr>
 </tbody>
@@ -405,7 +404,7 @@ ht-degree: 100%
 <td>
 <p>Adobe Stock 和 Adobe Journey Optimizer 電子郵件設計工具整合外掛程式，為客戶提供了用於訊息製作的導覽、授權和儲存影像的簡單方法。 您還可以藉由</br>新的<b>找到類似的相片庫</b>選項找出與影像內容、顏色和組成相符的影像庫。 </p>
 <!--img src="assets/do-not-localize/stock-rn.gif"/-->
-<p>如需詳細資訊，請參閱<a href="../design/stock.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/stock.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -474,12 +473,12 @@ ht-degree: 100%
 
 **電子郵件**
 
-* **另存為範本** — 您現在可以將電子郵件內容另存為範本，並在建立其他郵件時重複使用它。 [進一步了解](../design/email-templates.md)
+* **另存為範本** — 您現在可以將電子郵件內容另存為範本，並在建立其他郵件時重複使用它。 [進一步了解](../email/email-templates.md)
 
 
 **管理**
 
-* **預覽追蹤 URL 參數** — 設定訊息預設集時，如果定義 URL 追蹤參數，則將顯示結果追蹤 URL 的動態預覽。 [了解更多](../configuration/email-settings.md#url-tracking)
+* **預覽追蹤 URL 參數** — 設定訊息預設集時，如果定義 URL 追蹤參數，則將顯示結果追蹤 URL 的動態預覽。 [了解更多](../email/email-settings.md#url-tracking)
 
 * **訊息預設集版本** — 現在，當更新訊息預設集時，處理時間最多只需 3 小時。 [了解更多](../configuration/channel-surfaces.md#edit-channel-surface)
 
