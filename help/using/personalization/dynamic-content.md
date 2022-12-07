@@ -7,13 +7,13 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 1%
 
 ---
-
 
 # 建立動態內容 {#dynamic-content}
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer可讓您運用程式庫中建立的條件式規則，將
 
    ![](assets/conditions-language-sample.png)
 
-1. 內容準備就緒後，您可以使用 **[!UICONTROL 模擬內容]** 按鈕。 [了解如何測試和預覽訊息](../design/preview.md)
+1. 內容準備就緒後，您可以使用 **[!UICONTROL 模擬內容]** 按鈕。 [了解如何測試和預覽訊息](../email/preview.md)
 
    ![](assets/conditions-preview.png)
 

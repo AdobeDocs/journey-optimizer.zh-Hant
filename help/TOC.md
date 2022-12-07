@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8026a214919e468b355aeb030ac1b387307e3e67
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 97%
+source-wordcount: '1301'
+ht-degree: 94%
 
 ---
 
@@ -160,57 +160,71 @@ ht-degree: 97%
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
    + [建立行銷活動](using/campaigns/create-campaign.md)
    + [檢閱及啟動行銷活動](using/campaigns/review-activate-campaign.md)
-   + [管理即時行銷活動](using/campaigns/modify-stop-campaign.md)
+   + [管理行銷活動](using/campaigns/modify-stop-campaign.md)
    + 內容實驗 {#content-experiment}
       + [開始使用內容實驗](using/campaigns/get-started-experiment.md)
       + [建立內容實驗](using/campaigns/content-experiment.md)
       + [瞭解統計計算](using/campaigns/experiment-calculations.md)
       + [設定實驗報告](using/campaigns/reporting-configuration.md)
    + [利用 API 觸發行銷活動](using/campaigns/api-triggered-campaigns.md)
-+ 訊息 {#messages}
-   + 開始使用訊息{#get-started-msg}
-      + [總覽](using/messages/get-started-content.md)
-      + [在歷程新增訊息](using/messages/messages-in-journeys.md)
-      + [在行銷活動中新增訊息](using/messages/messages-in-campaigns.md)
-   + [建立電子郵件](using/messages/create-email.md)
-   + [建立推播通知](using/messages/create-push.md)
-   + [建立 SMS 訊息](using/messages/create-sms.md)
-   + [建立直接郵件](using/messages/create-direct-mail.md)
-   + [檢查警報](using/messages/alerts.md)
-   + [傳送時間最佳化](using/messages/send-time-optimization.md)
-+ 網路頻道{#web}
-   + [開始使用網路頻道](using/web/get-started-web.md)
-   + [建立網站體驗](using/web/create-web.md)
-   + [製作網頁](using/web/author-web.md)
-   + [Visual Editing Helper 擴充功能](using/web/visual-editing-helper.md)
-   + [網站報告](using/web/web-report.md)
++ 電子郵件通道 {#email}
+   + [開始使用電子郵件](using/email/get-started-email.md)
+   + [建立電子郵件](using/email/create-email.md)
+   + 設計您的電子郵件內容 {#design-email}
+      + [開始使用電子郵件設計](using/email/get-started-email-design.md)
+      + 開始建立內容 {#start-creating-content}
+         + [從頭開始](using/email/content-from-scratch.md)
+         + [匯入電子郵件內容](using/email/existing-content.md)
+         + [為您自己的內容撰寫程式碼](using/email/code-content.md)
+         + [使用範本](using/email/email-templates.md)
+      + 設計您的內容 {#add-content}
+         + [使用內容元件](using/email/content-components.md)
+         + [新增連結及追蹤訊息](using/email/message-tracking.md)
+         + 管理資產 {#manage-asset}
+            + [配合 Assets Essentials](using/email/assets-essentials.md)
+            + [使用 Adobe Stock](using/email/stock.md)
+         + [新增個人化優惠方案](using/email/add-offers-email.md)
+         + [產生文字版本](using/email/text-version-email.md)
+         + [加入預告標題](using/email/preheader.md)
+      + 編輯樣式 {#edit-style}
+         + [編輯背景設定](using/email/backgrounds.md)
+         + [調整垂直對齊與邊框間距](using/email/alignment-and-padding.md)
+         + [定義連結的樣式](using/email/styling-links.md)
+         + [加入內嵌樣式屬性](using/email/inline-styling.md)
+   + [預覽和測試您的電子郵件](using/email/preview.md)
+   + [管理電子郵件選擇退出](using/email/email-opt-out.md)
+   + 設定電子郵件通道 {#configure-email}
+      + [開始使用電子郵件設定](using/email/get-started-email-config.md)
+      + [配置電子郵件表面設定](using/email/email-settings.md)
 + 應用程式內頻道{#in-app}
    + [開始使用應用程式內頻道](using/in-app/get-started-in-app.md)
    + [設定應用程式內頻道](using/in-app/inapp-configuration.md)
    + [建立應用程式內訊息](using/in-app/create-in-app.md)
    + [設計您的應用程式內內容](using/in-app/design-in-app.md)
    + [應用程式內報告](using/in-app/inapp-report.md)
-+ 設計內容 {#design}
-   + [開始使用電子郵件設計](using/design/design-emails.md)
-   + [從頭開始 ](using/design/create-email-content.md)
-   + [匯入電子郵件內容](using/design/existing-content.md)
-   + [為您自己的內容撰寫程式碼](using/design/code-content.md)
-   + [使用範本](using/design/email-templates.md)
-   + 內容設計 {#design-content}
-      + [使用內容元件](using/design/content-components.md)
-      + [背景設定](using/design/backgrounds.md)
-      + [調整垂直對齊與邊框間距](using/design/adjusting-vertical-alignment-and-padding.md)
-      + [定義連結的樣式](using/design/styling-links.md)
-      + [加入內嵌樣式屬性](using/design/adding-inline-styling-attributes.md)
-   + 電子郵件設定 {#design-email}
-      + [產生文字版本](using/design/text-version-email.md)
-      + [加入預告標題](using/design/preheader.md)
-   + 新增及管理資產 {#manage-asset}
-      + [配合 Assets Essentials](using/design/assets-essentials.md)
-      + [使用 Adobe Stock](using/design/stock.md)
-   + [新增個人化優惠方案](using/design/deliver-personalized-offers.md)
-   + [新增連結及追蹤訊息](using/design/message-tracking.md)
-   + [預覽和校樣](using/design/preview.md)
++ 推播通知通道{#push}
+   + [推播通知快速入門](using/push/get-started-push.md)
+   + [建立推播通知](using/push/create-push.md)
+   + [設計推播通知](using/push/design-push.md)
+   + [傳送推播通知](using/push/send-push.md)
+   + 設定推播通知 {#push-config}
+      + [推播通知與Adobe Journey Optimizer](using/push/push-gs.md)
+      + [設定推播通知頻道](using/push/push-configuration.md)
++ SMS 頻道{#sms}
+   + [開始使用簡訊](using/sms/get-started-sms.md)
+   + [建立 SMS 訊息](using/sms/create-sms.md)
+   + [傳送SMS訊息](using/sms/send-sms.md)
+   + [管理SMS選擇退出](using/sms/sms-opt-out.md)
+   + [設定簡訊頻道](using/sms/sms-configuration.md)
++ 直接郵件{#direct-mail}
+   + [建立直接郵件](using/direct-mail/create-direct-mail.md)
+   + [設定直接郵件](using/direct-mail/direct-mail-configuration.md)
++ 網路頻道{#web}
+   + [開始使用網路頻道](using/web/get-started-web.md)
+   + [建立網站體驗](using/web/create-web.md)
+   + [製作網頁](using/web/author-web.md)
+   + [Visual Editing Helper 擴充功能](using/web/visual-editing-helper.md)
+   + [網站報告](using/web/web-report.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
    + [建立登陸頁面](using/landing-pages/create-lp.md)
@@ -391,16 +405,13 @@ ht-degree: 97%
 + 資料管理 {#data-management}
    + [開始使用資料管理](using/data/gs-data.md)
    + [使用方案](using/data/get-started-schemas.md)
-   + Journey Optimizer資料集 {#datasets}
+   + Journey Optimizer 資料集 {#datasets}
       + [開始使用資料集](using/data/get-started-datasets.md)
       + [查詢範例](using/data/datasets-query-examples.md)
    + [查詢](using/data/get-started-queries.md)
 + 設定{#configuration}
    + [開始使用 Journey Optimizer 設定](using/configuration/get-started-configuration.md)
    + 設定訊息 {#configuration-message}
-      + 設定推播通知 {#push-config}
-         + [開始使用推播設定](using/configuration/push-gs.md)
-         + [設定推播通知頻道](using/configuration/push-configuration.md)
       + 設定電子郵件 {#email-configuration}
          + 委派子網域 {#delegate-subdomains}
             + [開始使用子網域委派](using/configuration/about-subdomain-delegation.md)
@@ -414,11 +425,8 @@ ht-degree: 97%
             + [隱藏清單](using/configuration/manage-suppression-list.md)
             + [重試次數](using/configuration/retries.md)
             + [允許清單](using/configuration/allow-list.md)
-      + [設定簡訊頻道](using/configuration/sms-configuration.md)
-      + [設定直接郵件](using/configuration/direct-mail-configuration.md)
       + 設定頻道介面{#set-up-channels}
          + [建立頻道介面](using/configuration/channel-surfaces.md)
-         + [設定電子郵件設定](using/configuration/email-settings.md)
       + [支援封存](using/configuration/archiving-support.md)
       + [管理執行地址](using/configuration/primary-email-addresses.md)
       + [設定頻率規則](using/configuration/frequency-rules.md)

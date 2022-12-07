@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 2%
@@ -23,13 +23,13 @@ ht-degree: 2%
 
 若要將自訂JavaScript插入登陸頁面內容，您可以執行下列操作：
 
-* 開始建立內容時，請匯入現有的HTML內容，並選取包含自訂JavaScript程式碼的檔案。 了解如何匯入內容 [在本節](../design/existing-content.md).
+* 開始建立內容時，請匯入現有的HTML內容，並選取包含自訂JavaScript程式碼的檔案。 了解如何匯入內容 [在本節](../email/existing-content.md).
 
-* 從草稿開始或從儲存的範本設計您的登錄頁面。 拖放 **[!UICONTROL HTML]** 內容元件並顯示原始碼，以將您的JavaSCript新增至元件。 了解如何在 [本節](../design/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* 從草稿開始或從儲存的範本設計您的登錄頁面。 拖放 **[!UICONTROL HTML]** 內容元件並顯示原始碼，以將您的JavaSCript新增至元件。 了解如何在 [本節](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
    ![](assets/lp_designer-html-component.png)
 
-* 直接在內容設計器中輸入或貼上JavaScript程式碼。 了解如何編寫您自己的內容 [在本節](../design/code-content.md).
+* 直接在內容設計器中輸入或貼上JavaScript程式碼。 了解如何編寫您自己的內容 [在本節](../email/code-content.md).
 
 >[!NOTE]
 >

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 6%
@@ -223,6 +223,6 @@ ht-degree: 6%
 
 ## 在電子郵件中插入決策 {#insert-decision-in-email}
 
-現在您的決策已上線，您可以將其插入電子郵件訊息中。 若要這麼做，請遵循 [本頁](../../using/design/deliver-personalized-offers.md).
+現在您的決策已上線，您可以將其插入電子郵件訊息中。 若要這麼做，請遵循 [本頁](../../using/email/add-offers-email.md).
 
 ![](assets/offers-e2e-offers-displayed.png)

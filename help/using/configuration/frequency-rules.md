@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 3%
@@ -115,7 +115,7 @@ ht-degree: 3%
 
 若要將頻率規則套用至訊息，請遵循下列步驟。
 
-1. [建立訊息](../messages/get-started-content.md#create-new-message) 選取您為規則定義的其中一個管道。
+1. 選取您為規則定義的其中一個管道，以建立訊息。
 
 1. 選取您為 [已建立的規則](#create-new-rule).
 
@@ -162,9 +162,9 @@ ht-degree: 3%
 
 1. 儲存和 [啟用](#activate-rule) 規則。
 
-1. 建立電子郵件並選取 **[!UICONTROL 行銷]** 類別。 [了解更多](../messages/get-started-content.md#create-new-message)
+1. 建立電子郵件並選取 **[!UICONTROL 行銷]** 類別。 [了解更多](../email/create-email.md)
 
-1. 建立推播通知並選取 **[!UICONTROL 行銷]** 類別。 [了解更多](../messages/get-started-content.md#create-new-message)
+1. 建立推播通知並選取 **[!UICONTROL 行銷]** 類別。 [了解更多](../push/create-push.md)
 
 在此案例中，個別設定檔：
 * 每月最多可接收12則行銷訊息；

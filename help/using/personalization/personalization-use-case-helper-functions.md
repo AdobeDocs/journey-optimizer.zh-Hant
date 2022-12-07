@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 2%
@@ -33,8 +33,8 @@ ht-degree: 2%
 
 * 單一事件。 [了解更多](../event/about-events.md)。
 * 以事件開始的歷程。 [了解更多](../building-journeys/using-the-journey-designer.md)。
-* 您歷程中的電子郵件訊息。 [了解更多](../messages/get-started-content.md)
-* 電子郵件的正文。 [了解更多](../design/create-email-content.md)。
+* 您歷程中的電子郵件訊息。 [了解更多](../email/create-email.md)
+* 電子郵件的正文。 [了解更多](../email/content-from-scratch.md)。
 
 請依照下列步驟操作：
 

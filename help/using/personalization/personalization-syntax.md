@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 9%
@@ -155,7 +155,7 @@ Handlebars幫手是簡單的標識符，後面可能有參數。
 
 Journey Optimizer可讓您透過新增個人化欄位，個人化訊息中的一或多個URL。 若要個人化URL，請遵循下列步驟：
 
-1. 在訊息內容中建立連結。 [了解更多](../design/message-tracking.md#insert-links)
+1. 在訊息內容中建立連結。 [了解更多](../email/message-tracking.md#insert-links)
 1. 從個人化圖示中，選取屬性。 個人化圖示僅適用於下列類型的連結： **外部連結**, **取消訂閱連結** 和 **退出**.
 
 ![](assets/perso-url.png)

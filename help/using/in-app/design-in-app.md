@@ -7,10 +7,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -80,7 +81,7 @@ ht-degree: 4%
 
 ![](assets/in_app_content_3.png)
 
-輸入您的媒體URL，或按一下 **[!UICONTROL 選取資產]** 圖示將儲存在「資產」資料庫中的資產直接新增至應用程式內訊息。 [深入了解資產管理](../design/assets-essentials.md).
+輸入您的媒體URL，或按一下 **[!UICONTROL 選取資產]** 圖示將儲存在「資產」資料庫中的資產直接新增至應用程式內訊息。 [深入了解資產管理](../email/assets-essentials.md).
 您也可以新增 **[!UICONTROL 替代文字]** 用於螢幕讀取應用程式。
 
 +++更多具有高級格式的選項
@@ -190,6 +191,5 @@ UI接管選項（預設為啟用）可讓您拖曳應用程式內訊息背後的
 **相關主題：**
 
 * [建立應用程式內訊息](create-in-app.md)
-* [應用程式內報表](inapp-report.md)
+* [應用程式內報告](inapp-report.md)
 * [應用程式內設定](inapp-configuration.md)
-

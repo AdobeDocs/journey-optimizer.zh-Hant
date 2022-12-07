@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: f39e2094db24e7d0e8a304750624c985ff631572
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 4%
@@ -94,13 +94,13 @@ ht-degree: 4%
 
 1. 從 **[!UICONTROL 元件]** 窗格，您可以將下列元件新增至您的網頁，並視需要加以編輯：
 
-   * [除法器](../design/content-components.md#divider)
-   * [HTML](../design/content-components.md#HTML)
-   * [影像](../design/content-components.md#image)
-   * 標題 — 使用此元件類似於使用 **[!UICONTROL 文字]** 元件。 [了解更多](../design/content-components.md#text)
-   * 段落 — 使用此元件類似於使用 **[!UICONTROL 文字]** 元件。 [了解更多](../design/content-components.md#text)
-   * 連結 — 了解如何在 [本節](../design/styling-links.md)
-   * [優惠方案決策](../design/deliver-personalized-offers.md)
+   * [除法器](../email/content-components.md#divider)
+   * [HTML](../email/content-components.md#HTML)
+   * [影像](../email/content-components.md#image)
+   * 標題 — 使用此元件類似於使用 **[!UICONTROL 文字]** 元件。 [了解更多](../email/content-components.md#text)
+   * 段落 — 使用此元件類似於使用 **[!UICONTROL 文字]** 元件。 [了解更多](../email/content-components.md#text)
+   * 連結 — 了解如何在 [本節](../email/styling-links.md)
+   * [優惠方案決策](../email/add-offers-email.md)
 
    ![](assets/web-designer-components.png)
 
@@ -188,7 +188,7 @@ ht-degree: 4%
 
 ![](assets/web-designer-personalization.png)
 
-使用 **[!UICONTROL 優惠方案決策]** 插入元件 [優惠](../offers/get-started/starting-offer-decisioning.md) 填入您的網頁。 程式與 [將優惠方案新增至電子郵件](../design/deliver-personalized-offers.md). 它將利用決策管理來挑選最適合客戶的優惠方案。
+使用 **[!UICONTROL 優惠方案決策]** 插入元件 [優惠](../offers/get-started/starting-offer-decisioning.md) 填入您的網頁。 程式與 [將優惠方案新增至電子郵件](../email/add-offers-email.md). 它將利用決策管理來挑選最適合客戶的優惠方案。
 
 ![](assets/web-designer-offer.png)
 

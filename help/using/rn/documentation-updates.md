@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '2189'
-ht-degree: 96%
+source-wordcount: '2187'
+ht-degree: 99%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 96%
 
 ## 2022 年 11 月 {#november-2022}
 
-* 新增Journey Optimizer整合的頁面。 [閱讀全文](../start/ajo-integrations.md)
-* 新增關於鏡像頁面URL長度的建議。 [閱讀全文](../design/message-tracking.md)
-* 電子郵件設定設定的新小節已新增至電子郵件地址的回覆，包括確保正確回覆管理的建議。 [閱讀全文](../configuration/email-settings.md#reply-to-email)
+* 新增 Journey Optimizer 整合的頁面。 [閱讀全文](../start/ajo-integrations.md)
+* 新增關於鏡像頁面 URL 長度的建議。 [閱讀全文](../email/message-tracking.md)
+* 電子郵件設定組態的新小節已新增至電子郵件地址的回覆，包括確保正確回覆管理的建議。 [閱讀全文](../email/email-settings.md#reply-to-email)
 * 已新增如何修改即時歷程中訊息內容的區段。 [閱讀全文](../building-journeys/journeys-message.md#update-live-content)
 
 ## 2022 年 10 月 {#october-2022}
@@ -28,7 +28,7 @@ ht-degree: 96%
 * 歷程使用案例區段已重新組織為兩個類別： [業務使用案例](../building-journeys/journeys-uc.md)和[技術使用案例](../building-journeys/collections.md)。
 * 此 **實體資料集**&#x200B;章節已更新，其中包含更多詳細資訊。 [閱讀全文](../data/datasets-query-examples.md#entity-dataset)
 * 已重新組織「退出管理」和「同意」政策章節。 [閱讀全文](../privacy/opt-out.md)
-* 歷程訊息中進階參數的區段已經釐清，現在指定電子郵件地址覆寫僅用於特定使用案例。 在大部分時間中，**執行欄位**&#x200B;中定義為主要電子郵件的值才是應該使用的值。[閱讀全文](../messages/messages-in-journeys.md#adv-settings)
+* 歷程訊息中進階參數的區段已經釐清，現在指定電子郵件地址覆寫僅用於特定使用案例。 在大部分時間中，**執行欄位**&#x200B;中定義為主要電子郵件的值才是應該使用的值。
 * 在&#x200B;**設定登陸頁面子網域**&#x200B;區段來指定登陸頁面子網域中不允許使用大寫字母。[閱讀全文](../configuration/lp-subdomains.md)
 
 ## 2022 年 9 月 {#september-2022}
@@ -39,7 +39,7 @@ ht-degree: 96%
 * 更新與 [toDateOnly](../building-journeys/functions/functiontodateonly.md) 和 [toString](../building-journeys/functions/functiontostring.md) 函式相關的頁面。
 * 已新增時間條件參數的詳細資訊。 [閱讀全文](../building-journeys/condition-activity.md#time_condition)
 * 已新增內建資料集的相關資訊。 [閱讀全文](../data/get-started-datasets.md#access-datasets)
-* 改善並重新組織「全域報表」和「即時報表」章節。 [閱讀全文](../reports/global-report.md)
+* 改善並重新組織「全域報告」和「即時報告」章節。 [閱讀全文](../reports/global-report.md)
 * 已新增 Adobe Journey Optimizer 中可用的每個報告量度的清單。
    [閱讀全文](../reports/global-report.md#email-and-sms-metrics)
 * 「密件副本」電子郵件區段已移至新的「支援封存」頁面。 [閱讀全文](../configuration/archiving-support.md)
@@ -76,21 +76,21 @@ ht-degree: 96%
 * 「允許」清單頁面已移到「設定」部分。 [閱讀全文](../configuration/allow-list.md)
 * 已更新「隱藏」清單頁面以澄清一些資訊，包括隱藏欄位中允許包含 32 到 126 之間的所有 ASCII 字元。 [閱讀全文](../configuration/manage-suppression-list.md)
 * 已新增到用於決定管理的護欄和靜態限制的連結。 [閱讀全文](../start/guardrails.md)
-* 傳送時間最佳化現在可供所有客戶使用。 已刪除測試版的描述。 [閱讀全文](../messages/send-time-optimization.md)
+* 傳送時間最佳化現在可供所有客戶使用。 已刪除測試版的描述。 [閱讀全文](../building-journeys/journeys-message.md#send-time-optimization)
 * 批次決策 API 已新增至可用 API 清單，以傳遞個人化優惠。 [閱讀全文](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022 年 5 月 {#may-2022}
 
 * 有關 [!DNL Journey Optimizer] 2022 年 5 月發佈內容的新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
 * 已新增與[區段資格](../reports/query-examples.md#segment-qualification-queries)和[事件](../reports/query-examples.md#event-based-queries)相關的新查詢範例。
-* 電子郵件設計部分現在提到了新的內建範本，可以用於開始撰寫內容。 已更新相關螢幕擷取畫面。[閱讀全文](../design/design-emails.md)
+* 電子郵件設計部分現在提到了新的內建範本，可以用於開始撰寫內容。 已更新相關螢幕擷取畫面。[閱讀全文](../email/get-started-email-design.md)
 * Journey Optimizer 文件首頁更新了重要資源的連結。
 * 已更新登陸頁面和訂閱報告的螢幕擷取畫面。 [閱讀全文](../reports/live-report.md)
 * 已加入備註，說明自訂動作不支援 DELETE 方法。 [閱讀全文](../action/about-custom-action-configuration.md)
 * 已更新說明影片的連結。
 * 已重新組織[電子郵件設定](../configuration/about-subdomain-delegation.md)、[訊息預設集](../configuration/channel-surfaces.md)和[設定登陸頁面](../configuration/lp-subdomains.md)的部分，以提高可讀性。
-* URL 追蹤部分已經過範例更新和改善。 [閱讀全文](../configuration/email-settings.md#url-tracking)
-* 已新增有關設定轉寄電子郵件地址的新子區段。 請注意，您不能透過使用者介面進行此操作。 [閱讀全文](../configuration/email-settings.md#forward-email)
+* URL 追蹤部分已經過範例更新和改善。 [閱讀全文](../email/email-settings.md#url-tracking)
+* 已新增有關設定轉寄電子郵件地址的新子區段。 請注意，您不能透過使用者介面進行此操作。 [閱讀全文](../email/email-settings.md#forward-email)
 
 ## 2022 年 4 月 {#april-2022}
 
@@ -126,7 +126,7 @@ ht-degree: 96%
 * 有關 [!DNL Journey Optimizer] 個人化功能的章節已重新整理，以便更容易閱讀。 [閱讀全文](../personalization/personalize.md)
 * 為了提高清晰度，**建立訊息預設集**&#x200B;部分改為若干部分。 [閱讀全文](../configuration/channel-surfaces.md#create-channel-surface)
 * **選擇退出管理**&#x200B;區段變得清晰，並稍作重組。 [閱讀全文](../privacy/opt-out.md#opt-out-management)
-*  更新&#x200B;**插入連結**&#x200B;區段來反映近期的使用者介面變更。 [閱讀全文](../design/message-tracking.md#insert-links)
+*  更新&#x200B;**插入連結**&#x200B;區段來反映近期的使用者介面變更。 [閱讀全文](../email/message-tracking.md#insert-links)
 
 ## 2021 年 11 月 {#november-2021}
 
@@ -204,8 +204,8 @@ ht-degree: 96%
 * 新增連結至首頁的 [!DNL Journey Optimizer] 產品說明
 * 在多個頁面中新增教學課程影片
 * 最佳化首頁影像
-* 改進、重新命名「訊息追蹤」區段並移動至「新增連結及追蹤訊息」。 [閱讀全文](../design/message-tracking.md)
-* 在鏡像頁面上新增子區段。 [閱讀全文](../design/message-tracking.md#mirror-page)
+* 改進、重新命名「訊息追蹤」區段並移動至「新增連結及追蹤訊息」。 [閱讀全文](../email/message-tracking.md)
+* 在鏡像頁面上新增子區段。 [閱讀全文](../email/message-tracking.md#mirror-page)
 * 在文件和畫面中，將「優惠方案活動」重新命名為「決定」，將「決定」重新命名為「決定範圍」。 [閱讀全文](../offers/get-started/starting-offer-decisioning.md)
 * 新使用案例： [透過協助工具功能個人化訊息](../personalization/personalization-use-case-helper-functions.md)
 * 更新讀取區段文件以凸顯具體化區段的影響。 [閱讀全文](../building-journeys/read-segment.md)

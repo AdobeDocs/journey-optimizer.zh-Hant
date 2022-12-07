@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 15%
@@ -53,9 +53,9 @@ ht-degree: 15%
 
    ![](assets/lp_subscription-uc-journey.png)
 
-1. [設計電子郵件](../messages/get-started-content.md) 宣佈您的活動現在已開放註冊。
+1. [設計電子郵件](../email/get-started-email-design.md) 宣佈您的活動現在已開放註冊。
 
-1. [插入連結](../design/message-tracking.md#insert-links) 填入訊息內容。 選擇 **[!UICONTROL 登陸頁面]** 作為 **[!UICONTROL 連結類型]** 並選擇 [登陸頁面](create-lp.md#configure-primary-page) 您為註冊而建立的。
+1. [插入連結](../email/message-tracking.md#insert-links) 填入訊息內容。 選擇 **[!UICONTROL 登陸頁面]** 作為 **[!UICONTROL 連結類型]** 並選擇 [登陸頁面](create-lp.md#configure-primary-page) 您為註冊而建立的。
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -128,9 +128,9 @@ ht-degree: 15%
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [建立電子郵件訊息](../messages/get-started-content.md) 在歷程中。
+1. [建立電子郵件訊息](../email/get-started-email-design.md) 在歷程中。
 
-1. 選擇內容中的文字，並使用內容相關工具列[插入連結](../design/message-tracking.md#insert-links)。您也可以在按鈕上使用連結。
+1. 選擇內容中的文字，並使用內容相關工具列[插入連結](../email/message-tracking.md#insert-links)。您也可以在按鈕上使用連結。
 
    ![](assets/lp_opt-out-insert-link.png)
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 2%
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->啟動後，執行歷程時，以及透過測試訊息時，都會採用允許的清單功能 [校樣](../design/preview.md#send-proofs) 和使用 [測試模式](../building-journeys/testing-the-journey.md).
+>啟動後，執行歷程時，以及透過測試訊息時，都會採用允許的清單功能 [校樣](../email/preview.md#send-proofs) 和使用 [測試模式](../building-journeys/testing-the-journey.md).
 
 ## 停用允許的清單 {#deactivate-allow-list}
 

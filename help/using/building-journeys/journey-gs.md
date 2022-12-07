@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 412f7efe2da9f9b1a8fa49f1243ca63c4e0d01c0
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1009'
 ht-degree: 10%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 10%
 
    ![](assets/jo-datasource.png)
 
-1. **設定動作**:如果您使用協力廠商系統來傳送訊息，則可建立自訂動作。 了解更多資訊 [節](../action/action.md). 此步驟由&#x200B;**技術使用者**&#x200B;執行。如果您使用Journey Optimizer內建的訊息功能，只需將管道動作新增至歷程並設計內容即可。 請參閱[本節](../messages/get-started-content.md)。
+1. **設定動作**:如果您使用協力廠商系統來傳送訊息，則可建立自訂動作。 了解更多資訊 [節](../action/action.md). 此步驟由&#x200B;**技術使用者**&#x200B;執行。如果您使用Journey Optimizer內建的訊息功能，只需將管道動作新增至歷程並設計內容即可。
 
    ![](assets/custom2.png)
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 38ad3289def56440ef8e78db870a36ee14e965df
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1505'
 ht-degree: 2%
@@ -182,7 +182,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >您可以從相同登錄頁面的任何子頁面插入主要頁面的連結。 例如，若要將發生錯誤且想要重新訂閱的使用者重新導向，您可以從確認子頁面新增連結至訂閱主要頁面。 了解如何在 [本節](../design/message-tracking.md#insert-links).
+   >您可以從相同登錄頁面的任何子頁面插入主要頁面的連結。 例如，若要將發生錯誤且想要重新訂閱的使用者重新導向，您可以從確認子頁面新增連結至訂閱主要頁面。 了解如何在 [本節](../email/message-tracking.md#insert-links).
 
 1. 定義您的登錄頁面URL。 URL的第一部分需要您先前設定登錄頁面子網域。 [了解更多](../configuration/lp-subdomains.md)
 
@@ -212,7 +212,7 @@ ht-degree: 2%
 
    ![](assets/lp_test-profiles.png)
 
-   選取測試設定檔的步驟與測試訊息時的步驟相同。 詳細資訊於 [本節](../design/preview.md#select-test-profiles).
+   選取測試設定檔的步驟與測試訊息時的步驟相同。 詳細資訊於 [本節](../email/preview.md#select-test-profiles).
 
 1. 選取 **[!UICONTROL 預覽]** 按一下 **[!UICONTROL 開啟預覽]** 來測試您的登錄頁面。
 
@@ -275,7 +275,7 @@ ht-degree: 2%
 
 登錄頁面發佈後，就會以 **[!UICONTROL 已發佈]** 狀態。
 
-它現在已上線，且已準備好用於 [!DNL Journey Optimizer] [訊息](../messages/get-started-content.md) 會透過 [歷程](../building-journeys/journey.md).
+它現在已上線，且已準備好用於 [!DNL Journey Optimizer] 將透過 [歷程](../building-journeys/journey.md).
 
 >[!NOTE]
 >

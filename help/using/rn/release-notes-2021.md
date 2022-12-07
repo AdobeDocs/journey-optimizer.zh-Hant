@@ -4,7 +4,7 @@ product: journey optimizer
 title: 舊版發行說明 (2021 年)
 description: Journey Optimizer 2021 年發行說明
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 95%
@@ -182,7 +182,7 @@ ht-degree: 95%
 <td>
 <p>使用 Adobe Journey Optimizer 在最適當的時間自動向您接洽的每個客戶傳送推播通知或電子郵件。「傳送時間最佳化」採用 Adobe 的 AI 服務，可根據立即可用的歷史開啟率和點按率，預測傳送電子郵件或推送訊息的最佳時機，最大化參與程度。</p>
 <p>此功能目前為測試版本，僅供測試版客戶使用。 若要加入測試版計畫，請連絡 Adobe 客戶服務。</p>
-<p>如需詳細資訊，請參閱<a href="../messages/send-time-optimization.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/journeys-message.md#send-time-optimization">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -271,7 +271,7 @@ ht-degree: 95%
 
 **內容設計**
 
-* **背景**  - 即時預覽現在支援背景影像。 [進一步了解](../design/preview.md)
+* **背景**  - 即時預覽現在支援背景影像。 [進一步了解](../email/preview.md)
 * **一鍵選擇退出的連結**  - 您可以在電子郵件內容中插入新類型的連結：**選擇退出**&#x200B;連結可讓使用者只要按一下即可取消訂閱接收您的通訊，無須重新導向至登陸頁面以確認選擇退出。 [進一步了解](../privacy/opt-out.md#one-click-opt-out-link)
 
 **個人化**
@@ -346,9 +346,9 @@ ht-degree: 95%
 
 **預覽和測試**
 
-* 身分和命名空間現在會顯示在 **[!UICONTROL 預覽]** 螢幕。 [閱讀全文](../design/preview.md#preview-your-messages)
+* 身分和命名空間現在會顯示在 **[!UICONTROL 預覽]** 螢幕。 [閱讀全文](../email/preview.md#preview-your-messages)
 * 校樣的測試電子郵件數目現在限制為 10 則。
-* 已在校樣中限制&#x200B;**主旨行首碼** 允許的字元。 [閱讀全文](../design/preview.md#send-proofs)
+* 已在校樣中限制&#x200B;**主旨行首碼** 允許的字元。 [閱讀全文](../email/preview.md#send-proofs)
 
 **個人化運算式編輯器**
 

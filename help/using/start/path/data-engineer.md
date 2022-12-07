@@ -5,8 +5,8 @@ title: Journey Optimizer 資料工程師快速入門
 description: 作為資料工程師，深入瞭解如何使用 Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
-workflow-type: ht
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 1. **設定來源連接器**。Adobe 歷程最佳化可讓您從外部來源擷取資料，同時可以使用 Platform 服務來建構、加標籤及增強傳入資料。 您可以從多種來源 (如 Adobe 應用程式、雲端型的儲存空間、資料庫和其他許多來源) 內嵌資料。 [在本頁](../get-started-sources.md)深入瞭解來源連接器。
 
-1. **建立測試設定檔**。使用[測試模式](../../building-journeys/testing-the-journey.md)在傳送前於歷程中[預覽和測試訊息](../../design/preview.md)。 建立測試設定檔的步驟已[在本頁](../../segment/creating-test-profiles.md)詳細說明。
+1. **建立測試設定檔**。使用[測試模式](../../building-journeys/testing-the-journey.md)在傳送前於歷程中[預覽和測試訊息](../../email/preview.md)。 建立測試設定檔的步驟已[在本頁](../../segment/creating-test-profiles.md)詳細說明。
 
 
 此外，若要在歷程中傳送訊息，您必須設定&#x200B;**[!UICONTROL 資料來源]**、**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 動作]**。請參閱[本節](../../configuration/about-data-sources-events-actions.md)以了解更多資訊。
@@ -44,4 +44,4 @@ ht-degree: 100%
 
 * **事件**&#x200B;可讓您一直觸發歷程，以即時傳送訊息給流入歷程的個人。 在事件設定中，您會設定歷程中預期的事件。 會依照 Adobe Experience Data Model (XDM)，對傳入事件的資料進行標準化。事件來自串流獲取 API，適用於驗證和未驗證的事件（例如 Adobe Mobile SDK 事件）。[在此章節](../../event/about-events.md)深入瞭解事件相關內容。
 
-* [!DNL Journey Optimizer]隨附[內建訊息功能](../../messages/get-started-content.md)：您可以在歷程中建立訊息，並設計內容。 如果您使用協力廠商系統來傳送訊息，例如 Adobe Campaign，請建立&#x200B;**自訂動作**。[在本節](../../action/action.md)中進一步了解動作。
+* [!DNL Journey Optimizer]隨附內建訊息功能：您可以在歷程中建立訊息，並設計內容。 如果您使用協力廠商系統來傳送訊息，例如 Adobe Campaign，請建立&#x200B;**自訂動作**。[在本節](../../action/action.md)中進一步了解動作。

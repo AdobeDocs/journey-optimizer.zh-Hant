@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 146e2384e44fc040ddb73a96742cae0dea6f17da
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 2%
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 **電子郵件傳遞** 指一組特性，這些特性決定了郵件通過個人電子郵件地址在短時間內以預期的質量和內容和格式到達目的地的能力。 這些特徵分為四大類：資料質量、訊息和內容、傳送基礎架構和信譽。 它們共同構成了成功電子郵件傳遞計畫的基礎。
 
-此 **傳遞率** 是點擊收件者收件匣的訊息數，與已傳送的訊息數相較。 這取決於許多因素，尤其是：
+此 **傳遞率** 是點擊收件者收件匣的訊息數，與已傳送的訊息數相比。 這取決於許多因素，尤其是：
 
 * 垃圾郵件投訴有限
 * 低硬反彈率
@@ -71,7 +71,7 @@ ISP通常會以明顯的方式將收到的郵件報告為垃圾郵件。 這使�
 
 * **取消訂閱連結和登錄頁面**:取消訂閱連結至關重要。 表單必須可見且有效，且必須可運作。
 
-[深入了解如何設計電子郵件內容](../design/design-emails.md).
+[深入了解如何設計電子郵件內容](../email/get-started-email-design.md).
 
 ## 建立寄件者的聲譽
 

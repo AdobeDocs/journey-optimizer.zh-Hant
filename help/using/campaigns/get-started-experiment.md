@@ -10,7 +10,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1943'
 ht-degree: 1%
@@ -61,7 +61,7 @@ Adobe Journey Optimizer中的內容實驗會使用訪客身分的偽隨機雜湊
 * 直接量度，使用者會直接回應處理方式，例如開啟電子郵件或按一下連結。
 * 間接或「漏斗底部」量度，這會在使用者接觸到處理程式後發生。
 
-對於Adobe Journey Optimizer會追蹤訊息的直接目標量度，一般使用者的回應事件會自動以促銷活動和處理識別碼加上標籤，使得回應量度和處理能直接關聯。 [進一步了解追蹤](../design/message-tracking.md).
+對於Adobe Journey Optimizer會追蹤訊息的直接目標量度，一般使用者的回應事件會自動以促銷活動和處理識別碼加上標籤，使得回應量度和處理能直接關聯。 [進一步了解追蹤](../email/message-tracking.md).
 
 ![](assets/technote_2.png)
 

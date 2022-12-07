@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1605'
 ht-degree: 3%
@@ -22,14 +22,13 @@ ht-degree: 3%
 >title="應用程式表面"
 >abstract="介面是由系統管理員定義的設定。 它包含所有用於春頌訊息的技術參數，如標頭參數、子網域、行動應用程式等等。"
 
-
 使用 [!DNL Journey Optimizer]，您可以設定可定義訊息所需所有技術參數的通道曲面（即訊息預設集）:電子郵件類型、寄件者電子郵件和名稱、行動應用程式、SMS設定等。
 
 >[!CAUTION]
 >
 > * 要建立、編輯和刪除通道曲面，必須具有 [管理通道表面](../administration/high-low-permissions.md#manage-channel-surface) 權限。
 >
-> * 您必須執行 [電子郵件設定](email-settings.md), [推送設定](../configuration/push-configuration.md) 和 [SMS設定](../configuration/sms-configuration.md) 建立通道曲面之前的步驟。
+> * 您必須執行 [電子郵件設定](../email/get-started-email-config.md), [推送設定](../push/push-configuration.md) 和 [SMS設定](../sms/sms-configuration.md) 建立通道曲面之前的步驟。
 
 
 設定管道表面後，您就能在從歷程或行銷活動建立訊息時選取管道表面。
@@ -64,7 +63,7 @@ ht-degree: 3%
    >
    > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線 `_`，點`.` 連字型大小 `-` 字元。
 
-1. 如果您選取 **[!UICONTROL 電子郵件]** 管道，如 [本節](email-settings.md).
+1. 如果您選取 **[!UICONTROL 電子郵件]** 管道，如 [本節](../email/email-settings.md).
 
    ![](assets/preset-email.png)
 
@@ -74,15 +73,15 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >如需如何設定您的環境以傳送推播通知的詳細資訊，請參閱 [本節](push-gs.md).
+   >如需如何設定您的環境以傳送推播通知的詳細資訊，請參閱 [本節](../push/push-gs.md).
 
-1. 若 **[!UICONTROL 簡訊]** 管道，定義您的設定，詳見 [本節](sms-configuration.md#message-preset-sms).
+1. 若 **[!UICONTROL 簡訊]** 管道，定義您的設定，詳見 [本節](../sms/sms-configuration.md#message-preset-sms).
 
    ![](assets/preset-sms.png)
 
    >[!NOTE]
    >
-   >如需如何設定環境以傳送SMS訊息的詳細資訊，請參閱 [本節](sms-configuration.md).
+   >如需如何設定環境以傳送SMS訊息的詳細資訊，請參閱 [本節](../sms/sms-configuration.md).
 
 1. 完成所有參數設定後，按一下 **[!UICONTROL 提交]** 確認。 也可以將通道曲面另存為草稿，並稍後恢復其配置。
 

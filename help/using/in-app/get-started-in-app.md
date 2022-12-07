@@ -7,14 +7,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 4%
+source-wordcount: '148'
+ht-degree: 15%
 
 ---
 
-# 開始使用應用程式內管道 {#gs-in-app}
+# 開始使用應用程式內頻道 {#gs-in-app}
 
 應用程式內訊息是您可傳送給應用程式內使用者的通知，以將他們導向特定的地標。 應用程式內通知可用來建議服務、推廣新功能、特殊優惠方案，或讓新使用者上線。
 
@@ -32,9 +33,39 @@ ht-degree: 4%
 
 完成後，您可以建立、設定和傳送您的第一個應用程式內訊息。 了解如何在 [本節](create-in-app.md).
 
-**相關主題：**
-
-* [建立應用程式內訊息](create-in-app.md)
-* [設計應用程式內訊息](design-in-app.md)
-* [應用程式內報表](inapp-report.md)
-* [應用程式內設定](inapp-configuration.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-in-app.md">
+<img alt="銷售機會" src="../assets/do-not-localize/inapp-create.jpeg">
+</a>
+<div><a href="create-in-app.md"><strong>建立應用程式內訊息</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="design-in-app.md">
+<img alt="不頻繁" src="../assets/do-not-localize/inapp-design.jpg">
+</a>
+<div>
+<a href="design-in-app.md"><strong>設計您的應用程式內內容</strong></a>
+</div>
+<p></td>
+<td>
+<a href="inapp-report.md">
+<img alt="驗證" src="../assets/do-not-localize/inapp-report.jpg">
+</a>
+<div>
+<a href="inapp-report.md"><strong>應用程式內報告</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="inapp-configuration.md">
+<img alt="驗證" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="inapp-configuration.md"><strong>設定應用程式內頻道</strong></a>
+</div>
+<p>
+</td>
+</tr></table>

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1977'
 ht-degree: 0%
@@ -138,7 +138,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此 **[!UICONTROL 最佳化與非最佳化]** 和 **[!UICONTROL 傳送時間最佳化]**  只有在為您的傳送啟動「傳送時間最佳化」選項時，介面工具集才可用。 如需傳送時間最佳化的詳細資訊，請參閱 [本頁](../messages/send-time-optimization.md).
+>此 **[!UICONTROL 最佳化與非最佳化]** 和 **[!UICONTROL 傳送時間最佳化]**  只有在為您的傳送啟動「傳送時間最佳化」選項時，介面工具集才可用。 如需傳送時間最佳化的詳細資訊，請參閱 [本頁](../building-journeys/journeys-message.md#send-time-optimization).
 
 此 **[!UICONTROL 最佳化與非最佳化]** 圖表詳細說明了與訊息相關的主要資訊（無論訊息是否已最佳化）:
 
@@ -228,7 +228,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此 **[!UICONTROL 最佳化與非最佳化]** 和 **[!UICONTROL 傳送時間最佳化]**  只有在為您的傳送啟動「傳送時間最佳化」選項時，介面工具集才可用。 如需傳送時間最佳化的詳細資訊，請參閱 [本頁](../messages/send-time-optimization.md).
+>此 **[!UICONTROL 最佳化與非最佳化]** 和 **[!UICONTROL 傳送時間最佳化]**  只有在為您的傳送啟動「傳送時間最佳化」選項時，介面工具集才可用。 如需傳送時間最佳化的詳細資訊，請參閱 [本頁](../building-journeys/journeys-message.md#send-time-optimization).
 
 此 **[!UICONTROL 最佳化與非最佳化]** 圖表詳細說明了與訊息相關的主要資訊（無論訊息是否已最佳化）:
 

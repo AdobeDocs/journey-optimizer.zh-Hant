@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 1%
@@ -88,7 +88,7 @@ ht-degree: 1%
 
    ![](assets/jo-uc4.png)
 
-1. 放置 **電子郵件** 動作活動，並定義「第一則訊息」的內容。 此訊息會傳送給歷程中的所有個人。 請參閱 [節](../messages/create-email.md) 了解如何設定和設計電子郵件。
+1. 放置 **電子郵件** 動作活動，並定義「第一則訊息」的內容。 此訊息會傳送給歷程中的所有個人。 請參閱 [節](../email/create-email.md) 了解如何設定和設計電子郵件。
 
    ![](assets/jo-uc5.png)
 
@@ -104,11 +104,11 @@ ht-degree: 1%
    >
    >在多個事件上設定逾時時（此例中為兩種反應）時，您只需在其中一個事件上設定逾時。
 
-1. 在逾時路徑中，將 **電子郵件** 動作活動，並定義「後續」訊息的內容。 此訊息會傳送給未在隔天開啟電子郵件或推送第一則訊息的個人。 請參閱 [節](../messages/create-email.md) 了解如何設定和設計電子郵件。
+1. 在逾時路徑中，將 **電子郵件** 動作活動，並定義「後續」訊息的內容。 此訊息會傳送給未在隔天開啟電子郵件或推送第一則訊息的個人。 請參閱 [節](../email/create-email.md) 了解如何設定和設計電子郵件。
 
 1. 將三個路徑連結至先前建立的購買事件。 事件會在個人購買時觸發。
 
-1. 在事件之後，將 **推播** 動作活動，並定義「感謝」訊息的內容。 請參閱 [節](../messages/create-push.md) 了解如何設定和設計推播。
+1. 在事件之後，將 **推播** 動作活動，並定義「感謝」訊息的內容。 請參閱 [節](../push/create-push.md) 了解如何設定和設計推播。
 
 ## 測試並發佈歷程
 

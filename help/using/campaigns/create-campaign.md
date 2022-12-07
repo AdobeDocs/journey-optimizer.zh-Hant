@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 9%
+source-wordcount: '559'
+ht-degree: 11%
 
 ---
 
@@ -56,25 +56,58 @@ ht-degree: 9%
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
-1. 在 **[!UICONTROL 動作]** 區段，設定要與促銷活動一起傳送的訊息：
+1. 若要將自訂或核心資料使用量標籤指派給促銷活動，請按一下 **[!UICONTROL 管理存取]** 按鈕。 [進一步了解對象級訪問控制(OLA)](../administration/object-based-access.md)
 
-   1. 按一下 **[!UICONTROL 編輯內容]** 按鈕，然後配置和設計您的消息內容。 [進一步了解訊息](../messages/get-started-content.md).
+## 建立訊息 {#content}
 
-      若要瞭解建立訊息內容的詳細步驟，請至以下頁面：
+在 **[!UICONTROL 動作]** 區段中，建立要與促銷活動一起傳送的訊息。
 
-      * [建立電子郵件](../messages/create-email.md)
-      * [建立推播通知](../messages/create-push.md)
-      * [建立 SMS 訊息](../messages/create-sms.md)
-   1. 定義內容後，請使用 **[!UICONTROL 模擬內容]** 按鈕，使用測試設定檔預覽和測試您的內容。 [了解更多](../design/preview.md)。
+1. 按一下 **[!UICONTROL 編輯內容]** 按鈕，然後建立和設計您的訊息內容。
 
-   1. 按一下箭頭，返回行銷活動建立畫面。
+   在下列頁面中了解建立訊息內容的詳細步驟：
 
-      ![](assets/create-campaign-design.png)
+   <table style="table-layout:fixed">
+    <tr style="border: 0;">
+    <td>
+    <a href="../email/create-email.md">
+    <img alt="銷售機會" src="../assets/do-not-localize/email.jpg">
+    </a>
+    <div><a href="../email/create-email.md"><strong>建立電子郵件</strong>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../push/create-push.md">
+      <img alt="不頻繁" src="../assets/do-not-localize/push.jpg">
+    </a>
+    <div>
+    <a href="../push/create-push.md"><strong>建立推播通知</strong></a>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../sms/create-sms.md">
+      <img alt="驗證" src="../assets/do-not-localize/sms.jpg">
+    </a>
+    <div>
+    <a href="../sms/create-sms.md"><strong>建立SMS訊息</strong></a>
+    </div>
+    <p>
+    </td>
+    </tr>
+    </table>
 
-   1. 在 **[!UICONTROL 動作追蹤]** 區段中，指定是否要追蹤收件者對您傳送的反應：您可以追蹤點按和/或開啟次數。
+1. 定義內容後，請使用 **[!UICONTROL 模擬內容]** 按鈕，使用測試設定檔預覽和測試您的內容。 [了解更多](../email/preview.md)。
 
-      執行促銷活動後，即可從促銷活動報表存取追蹤結果。 [進一步了解行銷活動報告](../reports/campaign-global-report.md)
+1. 按一下箭頭，返回行銷活動建立畫面。
 
+   ![](assets/create-campaign-design.png)
+
+1. 在 **[!UICONTROL 動作追蹤]** 區段中，指定是否要追蹤收件者對您傳送的反應：您可以追蹤點按和/或開啟次數。
+
+   執行促銷活動後，即可從促銷活動報表存取追蹤結果。 [進一步了解行銷活動報告](../reports/campaign-global-report.md)
+
+## 定義對象 {#audience}
 
 1. 定義要鎖定的對象。 若要這麼做，請按一下 **[!UICONTROL 選取對象]** 按鈕以顯示可用的Adobe Experience Platform區段清單。 [深入了解區段](../segment/about-segments.md)
 
@@ -91,6 +124,8 @@ ht-degree: 9%
    >屬於某個區段的個人若未在其不同身分之間選取身分（命名空間），該促銷活動將不會鎖定該目標。
 
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+
+## 排程促銷活動 {#schedule}
 
 1. 若要在特定日期或循環頻率上執行促銷活動，請設定 **[!UICONTROL 排程]** 區段。 [了解如何排程行銷活動](#schedule)
 
@@ -115,64 +150,3 @@ ht-degree: 9%
 * **[!UICONTROL 已排程]**:立即執行促銷活動或在指定日期執行。 排程的行銷活動旨在傳送 **行銷** 輸入訊息。
 
 * **[!UICONTROL API觸發]**:使用API呼叫執行促銷活動。 API觸發的行銷活動旨在傳送 **異動** 訊息，即在個人執行的動作後傳出的訊息：密碼重設、卡放棄等。 [了解如何使用API觸發行銷活動](api-triggered-campaigns.md)
-
-## 排程促銷活動 {#schedule}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_schedule_start"
->title="促銷活動開始"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_schedule_end"
->title="促銷活動結束"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_schedule_triggers"
->title="Campaign動作觸發程式"
->abstract="TBC"
-
-依預設，促銷活動在手動啟動後就會開始，而在訊息傳送一次後立即結束。
-
-您可以定義應傳送促銷活動訊息的頻率。 若要這麼做，請使用 **[!UICONTROL 動作觸發器]** 選項，以指定促銷活動應按日、每週或每月執行。
-
-如果您不想在促銷活動啟動後立即執行，您可以使用 **[!UICONTROL 促銷活動開始]** 選項。 此  **[!UICONTROL 促銷活動結束]** 選項可讓您指定循環促銷活動何時應停止執行。
-
-![](assets/create-campaign-schedule.png)
-
-## 推播促銷活動的快速傳送模式 {#rapid-delivery}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_rapid_delivery"
->title="快速傳遞模式"
->abstract="快速傳送模式可讓您在推播通道上執行高速訊息傳送，傳送至低於30M的對象大小。"
-
-快速傳送模式（歷程中先前稱為突發模式）是 [!DNL Journey Optimizer] 可透過促銷活動以大量傳送非常快速的推送訊息的附加元件。
-
-當訊息傳送延遲是業務關鍵型時，或您想在行動電話上傳送緊急推播警報（例如，向已安裝您的新聞頻道應用程式的使用者傳送重大新聞），則會使用快速傳送。
-
-如需使用快速傳送模式時效能的詳細資訊，請參閱 [Adobe Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html).
-
-### 先決條件 {#prerequisites}
-
-快速傳遞報文傳送附帶下列要求：
-
-* 可快速傳送 **[!UICONTROL 已排程]** 僅限促銷活動，且不適用於API觸發的促銷活動、
-* 推送訊息中不允許任何個人化，
-* 目標受眾必須包含少於3000萬個設定檔，
-* 您可以使用快速傳送模式同時執行最多5個促銷活動。
-
-### 啟動快速傳遞模式
-
-1. 建立推播通知促銷活動並切換 **[!UICONTROL 快速傳遞]** 選項。
-
-![](assets/create-campaign-burst.png)
-
-1. 設定訊息內容並選取要鎖定的對象。 [了解如何建立行銷活動](#create)
-
-   >[!IMPORTANT]
-   >
-   >確保訊息內容不包含任何個人化，且對象包含少於3000個設定檔。
-
-1. 照常檢閱並啟動您的行銷活動。 請注意，在測試模式中，訊息不會透過快速傳送模式傳送。 [了解如何檢閱及啟動行銷活動](review-activate-campaign.md)

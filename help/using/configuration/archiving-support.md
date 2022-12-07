@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 3%
@@ -60,11 +60,11 @@ HIPAA等法規要求 [!DNL Journey Optimizer] 應提供封存傳送給個人之�
 >
 >您的密件副本功能使用量將根據您授權的郵件數量計算。 因此，僅在用於要存檔的關鍵通信的曲面中啟用它。 檢查您的合同中是否有許可的卷。
 
-系統會立即儲存BCC電子郵件地址設定，並在表面層級進行處理。 當您 [建立新訊息](../messages/get-started-content.md) 使用此表面，會自動顯示密件副本電子郵件地址。
+系統會立即儲存BCC電子郵件地址設定，並在表面層級進行處理。 使用此表面建立新郵件時，會自動顯示BCC電子郵件地址。
 
 ![](assets/preset-bcc-in-msg.png)
 
-不過，會依照所述邏輯擷取BCC位址以傳送通訊 [此處](email-settings.md).
+不過，會依照所述邏輯擷取BCC位址以傳送通訊 [此處](../email/email-settings.md).
 
 ### Recommendations和限制 {#bcc-recommendations-limitations}
 
