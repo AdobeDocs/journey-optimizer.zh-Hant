@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 978751263ba2ed21e35e41e767f1e31ddbe59d53
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,8 @@ ht-degree: 0%
 >id="ajo_dm_file_routing_details"
 >title="定義檔案路由配置"
 >abstract="建立直接郵件訊息後，將會產生包含目標對象資料的檔案，並匯出至伺服器。 您需要指定伺服器詳細資訊，以便直接郵件提供者可以存取並使用該檔案來傳送直接郵件。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="建立直接郵件訊息"
+<!-->
+>additional-url=&quot;https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html&quot; text=&quot;建立直接郵件&quot;—>
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"

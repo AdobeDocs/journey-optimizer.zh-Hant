@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 開始使用歷程
+title: 建立您的第一個歷程
 description: 使用 Adobe Journey Optimizer 建置您的第一個歷程的關鍵步驟
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 978751263ba2ed21e35e41e767f1e31ddbe59d53
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 10%
 
 ---
 
-# 開始使用歷程{#jo-quick-start}
+# 建立您的第一個歷程{#jo-quick-start}
 
 ## 先決條件{#start-prerequisites}
 
