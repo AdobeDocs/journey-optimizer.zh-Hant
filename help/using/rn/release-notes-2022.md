@@ -5,7 +5,7 @@ title: 2022 年發行說明
 description: Journey Optimizer 2022 年發行說明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3453'
 ht-degree: 100%
 
