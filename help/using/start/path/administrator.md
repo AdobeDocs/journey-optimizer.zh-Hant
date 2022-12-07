@@ -5,7 +5,7 @@ title: Journey Optimizer 系統管理員快速入門
 description: 作為系統管理員，深入瞭解如何使用 Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: ht
 source-wordcount: '732'
 ht-degree: 100%
@@ -48,11 +48,11 @@ ht-degree: 100%
 
 1. **設定訊息和通道**&#x200B;定義介面、調整和自訂電子郵件、簡訊和推播訊息設定
 
-   * 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch] 中定義&#x200B;**推播通知設定**[了解更多](../../configuration/push-gs.md)
+   * 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch] 中定義&#x200B;**推播通知設定**[了解更多](../../push/push-gs.md)
 
    * 建立&#x200B;**通道表面** (即訊息預設集)，以設定電子郵件、簡訊和推播通知所需的所有技術參數。 [了解更多](../../configuration/channel-surfaces.md)
 
-   * 設定 **SMS 通道**&#x200B;來設定簡訊所需的所有技術參數。 [了解更多](../../configuration/sms-configuration.md)
+   * 設定 **SMS 通道**&#x200B;來設定簡訊所需的所有技術參數。 [了解更多](../../sms/sms-configuration.md)
 
    * 管理將電子郵件地址傳送至隱藏清單前執行&#x200B;**重試**&#x200B;的天數。[了解更多](../../configuration/manage-suppression-list.md)
 
