@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 設計電子郵件
-description: 了解如何調整您的電子郵件內容樣式
+title: 開始使用電子郵件樣式
+description: 探索您調整電子郵件內容樣式的不同方式
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0e9037ddcbb61ae84a6487ec24be45462e871169
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 1%
+source-wordcount: '115'
+ht-degree: 0%
 
 ---
 
-# 開始使用電子郵件內容樣式 {#get-started-email-style}
+# 開始使用電子郵件樣式 {#get-started-email-style}
 
 開始在 [!DNL Journey Optimizer]，您可以從「電子郵件設計工具」設定窗格調整一些樣式參數和屬性。
 

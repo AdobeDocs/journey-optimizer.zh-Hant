@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 9%
@@ -86,7 +86,7 @@ ht-degree: 9%
    >
    >您稍後可以使用 **[!UICONTROL 另存為草稿]** 按鈕。 然後，您就可以從子網域清單中開啟子網域委派，以繼續進行子網域委派。
 
-1. 提交完整的子網域委派後，子網域會顯示在清單中，並搭配 **[!UICONTROL 處理]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](access-subdomains.md).
+1. 提交完整的子網域委派後，子網域會顯示在清單中，並搭配 **[!UICONTROL 處理]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](about-subdomain-delegation.md#access-delegated-subdomains).
 
    ![](assets/subdomain-processing.png)
 
@@ -167,7 +167,7 @@ CNAME 子網域委派可讓您建立子網域，並使用 CNAME 指向 Adobe 特
    >
    >您也可以建立驗證記錄，並稍後使用 **[!UICONTROL 另存為草稿]** 按鈕。 然後，您就可以從子網域清單中開啟子網域委派，以繼續進行子網域委派。
 
-1. 提交CNAME子網域委派後，子網域會顯示在清單中，並搭配 **[!UICONTROL 處理]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](access-subdomains.md).
+1. 提交CNAME子網域委派後，子網域會顯示在清單中，並搭配 **[!UICONTROL 處理]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](about-subdomain-delegation.md#access-delegated-subdomains).
 
    在能夠使用該子網域來傳送訊息之前，您必須等到Adobe執行所需的檢查，這通常需要2到3小時。 請參閱[此章節](#subdomain-validation)深入瞭解。
 

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 94%
+source-wordcount: '1296'
+ht-degree: 93%
 
 ---
 
@@ -183,10 +183,11 @@ ht-degree: 94%
          + 管理資產 {#manage-asset}
             + [配合 Assets Essentials](using/email/assets-essentials.md)
             + [使用 Adobe Stock](using/email/stock.md)
-         + [新增個人化優惠方案](using/email/add-offers-email.md)
+         + [插入個人化優惠方案](using/email/add-offers-email.md)
          + [產生文字版本](using/email/text-version-email.md)
          + [加入預告標題](using/email/preheader.md)
       + 編輯樣式 {#edit-style}
+         + [開始使用電子郵件樣式](using/email/get-started-email-style.md)
          + [編輯背景設定](using/email/backgrounds.md)
          + [調整垂直對齊與邊框間距](using/email/alignment-and-padding.md)
          + [定義連結的樣式](using/email/styling-links.md)
@@ -234,7 +235,10 @@ ht-degree: 94%
       + [建立範本](using/landing-pages/lp-templates.md)
       + [新增自訂 JavaScript](using/landing-pages/lp-custom-js.md)
    + [建立訂閱清單](using/landing-pages/subscription-list.md)
-   + [使用案例](using/landing-pages/lp-use-cases.md)
+   + [透過使用案例了解](using/landing-pages/lp-use-cases.md)
+   + 設定登陸頁面 {#lp-configuration}
+      + [設定登陸頁面子網域](using/landing-pages/lp-subdomains.md)
+      + [定義登陸頁面預設集](using/landing-pages/lp-presets.md)
 + 個人化和動態內容 {#personalized-dynamic-content}
    + 個人化 {#personalization}
       + [開始使用個人化](using/personalization/personalize.md)
@@ -411,28 +415,20 @@ ht-degree: 94%
    + [查詢](using/data/get-started-queries.md)
 + 設定{#configuration}
    + [開始使用 Journey Optimizer 設定](using/configuration/get-started-configuration.md)
-   + 設定訊息 {#configuration-message}
-      + 設定電子郵件 {#email-configuration}
-         + 委派子網域 {#delegate-subdomains}
-            + [開始使用子網域委派](using/configuration/about-subdomain-delegation.md)
-            + [委派子網域](using/configuration/delegate-subdomain.md)
-            + [存取委派的子網域](using/configuration/access-subdomains.md)
-         + 管理與子網域相關的動作 {#subdomain-related-actions}
-            + [新增 Google TXT 記錄](using/configuration/google-txt.md)
-            + [存取和編輯 PTR 記錄](using/configuration/ptr-records.md)
-            + [建立 IP 池](using/configuration/ip-pools.md)
-         + 監視電子郵件地址 {#monitor-reputation}
-            + [隱藏清單](using/configuration/manage-suppression-list.md)
-            + [重試次數](using/configuration/retries.md)
-            + [允許清單](using/configuration/allow-list.md)
-      + 設定頻道介面{#set-up-channels}
-         + [建立頻道介面](using/configuration/channel-surfaces.md)
-      + [支援封存](using/configuration/archiving-support.md)
-      + [管理執行地址](using/configuration/primary-email-addresses.md)
-      + [設定頻率規則](using/configuration/frequency-rules.md)
-   + 設定登陸頁面 {#lp-configuration}
-      + [設定登陸頁面子網域](using/configuration/lp-subdomains.md)
-      + [定義登陸頁面預設集](using/configuration/lp-presets.md)
+   + 委派電子郵件子網域 {#delegate-subdomains}
+      + [開始使用子網域委派](using/configuration/about-subdomain-delegation.md)
+      + [委派子網域](using/configuration/delegate-subdomain.md)
+      + [新增 Google TXT 記錄](using/configuration/google-txt.md)
+      + [存取和編輯 PTR 記錄](using/configuration/ptr-records.md)
+      + [建立 IP 池](using/configuration/ip-pools.md)
+   + [設定頻道介面](using/configuration/channel-surfaces.md)
+   + 監視電子郵件地址 {#monitor-reputation}
+      + [隱藏清單](using/configuration/manage-suppression-list.md)
+      + [重試次數](using/configuration/retries.md)
+      + [允許清單](using/configuration/allow-list.md)
+   + [支援封存](using/configuration/archiving-support.md)
+   + [設定頻率規則](using/configuration/frequency-rules.md)
+   + [管理執行地址](using/configuration/primary-email-addresses.md)
    + 設定歷程 {#configure-journeys}
       + [關於資料來源、事件和動作](using/configuration/about-data-sources-events-actions.md)
       + [與外部系統整合](using/configuration/external-systems.md)

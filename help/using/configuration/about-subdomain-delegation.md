@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 32%
+source-wordcount: '897'
+ht-degree: 26%
 
 ---
 
@@ -69,3 +69,31 @@ ht-degree: 32%
 有關域配置的其他資訊，請參見 [本檔案](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
 
 如果您對子網域設定方法有任何疑問，請聯絡Adobe，或最終聯絡客戶服務以要求傳遞能力諮詢。
+
+## 存取委派的子網域 {#access-delegated-subdomains}
+
+所有委派的子網域都會顯示在 **[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 子網域]** 功能表。 篩選器可協助您調整清單（委派日期、使用者或狀態）。
+
+![](assets/subdomain-list.png)
+
+此 **[!UICONTROL 狀態]** 欄提供子網域委派程式的相關資訊：
+
+* **[!UICONTROL 草稿]**:子網域委派已儲存為草稿。 按一下子網域名稱以繼續委派程式，
+* **[!UICONTROL 處理]**:子網域會先執行數個設定檢查，才能使用。
+* **[!UICONTROL 成功]**:子網域已成功完成檢查，且可用於傳送訊息、
+* **[!UICONTROL 失敗]**:提交子網域委派後，一或數項檢查失敗。
+
+若要使用存取子網域的詳細資訊， **[!UICONTROL 成功]** 狀態，從清單中開啟它。
+
+![](assets/subdomain-delegated.png)
+
+您可以：
+
+* 擷取委派程式期間設定的子網域名稱（唯讀），以及產生的URL（資源、鏡像頁面、追蹤URL）,
+
+* 將Google網站驗證TXT記錄新增至您的子網域，以確保該記錄已驗證(請參閱 [將Google TXT記錄新增至子網域](google-txt.md))。
+
+
+>[!CAUTION]
+>
+>子網域設定是所有環境的共同設定。 因此，對子網域的任何修改也會影響生產沙箱。

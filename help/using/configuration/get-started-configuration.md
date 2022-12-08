@@ -8,10 +8,10 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 40%
+source-wordcount: '381'
+ht-degree: 34%
 
 ---
 
@@ -24,21 +24,31 @@ ht-degree: 40%
 
 ## 設定訊息和通道
 
-定義通道表面、調整和自訂訊息。
+1. 若要建立和傳送訊息，您需要根據通道執行特定設定。
 
-* [委派以Adobe子網域](about-subdomain-delegation.md) 您想要用來傳送電子郵件和 [建立IP池](ip-pools.md) 將布建的IP位址與您的執行個體分組。
+   * 若 **電子郵件** 管道時，您需要將子網域委派給Adobe，並建立IP池以將IP位址群組在一起。 [了解更多](../email/get-started-email-config.md)
 
-* 管理將電子郵件地址傳送至隱藏清單前執行重試的天數。[了解更多](manage-suppression-list.md)
+   * 若 **推播** 管道，您必須在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]. [了解更多](../push/push-configuration.md)
 
-* 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch] 中定義推播通知設定[了解更多](../push/push-gs.md)
+   * 若 **簡訊** 通道時，您需要設定執行個體以傳送簡訊，包括整合提供者設定與 [!DNL Journey Optimizer]. [了解更多](../sms/sms-configuration.md)
 
-   <!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
+1. 完成後，您必須建立 **通道曲面** 設定傳送訊息所需的所有技術參數。 [了解更多](channel-surfaces.md)
 
-* 設定您的執行個體以傳送SMS（目前僅適用於一組組織 — 有限可用性）。 [了解更多](../sms/sms-configuration.md)
+1. 您也可以：
 
-* 建立通道表面以配置傳送訊息所需的所有技術參數。 [了解更多](channel-surfaces.md)
+   * 管理將電子郵件地址傳送至隱藏清單前執行重試的天數。[了解更多](manage-suppression-list.md)
 
-* 在Adobe Experience Platform中提供數個地址/號碼時，決定要優先用於收件者的電子郵件地址和/或電話號碼。 [了解更多](primary-email-addresses.md)
+   * 啟用 **BBC電子郵件選項** 保存傳送給個人的訊息副本。 [了解更多](archiving-support.md#enable-bcc)
+
+   * 設定 **頻率規則** 以避免過度關注收件者。 [了解更多](frequency-rules.md)
+
+   * 在Adobe Experience Platform中提供數個地址/號碼時，決定要優先用於收件者的電子郵件地址和/或電話號碼。 [了解更多](primary-email-addresses.md)
+
+<!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
+
+>[!NOTE]
+>
+>這些步驟必須由 [Adobe Journey Optimizer系統管理員](../start/path/administrator.md).
 
 ## 設定歷程
 

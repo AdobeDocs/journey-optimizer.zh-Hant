@@ -4,16 +4,24 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '2187'
-ht-degree: 99%
+source-wordcount: '2209'
+ht-degree: 98%
 
 ---
 
 # 文件更新 {#latest-updates}
 
 本頁面列出 [!DNL Journey Optimizer] 所有文件更新。
+
+## 2022 年 12 月  {#december-2022}
+
+* 「訊息指南」已重新整理，並分割為每個管道的專用指南：
+
+   * [電子郵件通道](../email/get-started-email.md)
+   * [推播通知通道](../push/get-started-push.md)
+   * [SMS 頻道](../sms/get-started-sms.md)
 
 ## 2022 年 11 月 {#november-2022}
 
@@ -29,7 +37,7 @@ ht-degree: 99%
 * 此 **實體資料集**&#x200B;章節已更新，其中包含更多詳細資訊。 [閱讀全文](../data/datasets-query-examples.md#entity-dataset)
 * 已重新組織「退出管理」和「同意」政策章節。 [閱讀全文](../privacy/opt-out.md)
 * 歷程訊息中進階參數的區段已經釐清，現在指定電子郵件地址覆寫僅用於特定使用案例。 在大部分時間中，**執行欄位**&#x200B;中定義為主要電子郵件的值才是應該使用的值。
-* 在&#x200B;**設定登陸頁面子網域**&#x200B;區段來指定登陸頁面子網域中不允許使用大寫字母。[閱讀全文](../configuration/lp-subdomains.md)
+* 在&#x200B;**設定登陸頁面子網域**&#x200B;區段來指定登陸頁面子網域中不允許使用大寫字母。[閱讀全文](../landing-pages/lp-subdomains.md)
 
 ## 2022 年 9 月 {#september-2022}
 
@@ -88,7 +96,7 @@ ht-degree: 99%
 * 已更新登陸頁面和訂閱報告的螢幕擷取畫面。 [閱讀全文](../reports/live-report.md)
 * 已加入備註，說明自訂動作不支援 DELETE 方法。 [閱讀全文](../action/about-custom-action-configuration.md)
 * 已更新說明影片的連結。
-* 已重新組織[電子郵件設定](../configuration/about-subdomain-delegation.md)、[訊息預設集](../configuration/channel-surfaces.md)和[設定登陸頁面](../configuration/lp-subdomains.md)的部分，以提高可讀性。
+* 已重新組織[電子郵件設定](../configuration/about-subdomain-delegation.md)、[訊息預設集](../configuration/channel-surfaces.md)和[設定登陸頁面](../landing-pages/lp-subdomains.md)的部分，以提高可讀性。
 * URL 追蹤部分已經過範例更新和改善。 [閱讀全文](../email/email-settings.md#url-tracking)
 * 已新增有關設定轉寄電子郵件地址的新子區段。 請注意，您不能透過使用者介面進行此操作。 [閱讀全文](../email/email-settings.md#forward-email)
 
