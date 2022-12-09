@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 10%
+source-wordcount: '148'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 10%
 | 參數 | 類型 |
 |-----------|--------------|
 | 基礎 | 字串 |
-| Target | 字串(RegExp) |
+| 目標 | 字串(RegExp) |
 | 更換 | 字串 |
 
 ## 簽名和返回類型
@@ -41,15 +41,15 @@ ht-degree: 10%
 
 傳回字串。
 
-## 範例 1
+## 範例1
 
 `replace("Hello World", "l", "x")`
 
 返回&quot;Hexlo World&quot;。
 
-## 範例 2 {#example_2}
+## 範例2 {#example_2}
 
-由於目標參數為RegExp，因此根據您要取代的字串，您可能需要逸出某些字元。 其範例如下：
+由於目標參數是RegExp，因此根據您要取代的字串，您可能需要逸出某些字元。 以下是範例：
 
 * 要評估的字串： `|OFFER_A|OFFER_B`
 * 由設定檔屬性提供 `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`

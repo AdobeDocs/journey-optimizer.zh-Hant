@@ -1,5 +1,5 @@
 ---
-title: 建立個人化優惠
+title: 建立個人化優惠方案
 description: 個人化優惠方案是根據適用性規則和限制而自訂的行銷訊息。
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 9%
+ht-degree: 0%
 
 ---
 
-# 建立個人化優惠 {#create-personalized-offer}
+# 建立個人化優惠方案 {#create-personalized-offer}
 
 個人化優惠方案是根據適用性規則和限制而自訂的行銷訊息。
 
@@ -25,8 +25,8 @@ ht-degree: 9%
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
+| 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| 內容類型 | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
 **API格式**
 

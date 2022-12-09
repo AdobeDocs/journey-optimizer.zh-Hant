@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 6%
+source-wordcount: '161'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_tags"
->title="標記"
+>title="標籤"
 >abstract="將一或多個標籤與選件建立關聯，讓您的選件資料庫保持井然有序，並更輕鬆地找出選件。 標籤是從「元件」功能表建立。"
 
 將標籤與優惠方案建立關聯，可讓優惠方案更輕鬆有條理。 例如，您可以使用「黑色星期五」標籤來標示黑色星期五優惠方案。 然後，您就可以使用優惠方案庫中的搜尋功能，輕鬆找到所有具有該標籤的優惠方案。
@@ -26,15 +26,15 @@ ht-degree: 6%
 
 ➡️ [在影片中探索此功能](#video)
 
-建立的標籤清單可在 **[!UICONTROL 元件]** 功能表。
+建立的標籤清單可在 **[!UICONTROL Components]** 功能表。
 
 ![](../assets/tags_list.png)
 
 若要建立標籤，請依照下列步驟操作：
 
-1. 前往 **[!UICONTROL 標籤]** ，然後按一下 **[!UICONTROL 建立標籤]**.
+1. 前往 **[!UICONTROL Tags]** ，然後按一下 **[!UICONTROL Create tag]**.
 
-1. 指定標籤的名稱，然後按一下 **[!UICONTROL 儲存]**.
+1. 指定標籤的名稱，然後按一下 **[!UICONTROL Save]**.
 
    ![](../assets/tags_create.png)
 

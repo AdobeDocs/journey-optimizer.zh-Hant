@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用組合畫布
+title: 使用合成畫布
 description: 了解如何使用構圖畫布
 feature: Journeys
 topic: Content Management
@@ -9,14 +9,15 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 2%
+source-wordcount: '1002'
+ht-degree: 0%
 
 ---
 
-# 使用組合畫布 {#composition-canvas}
+# 使用合成畫布 {#composition-canvas}
 
 合成畫布是視覺畫布，可讓您運用對象和活動（分割、排除……）來建立合成。
 
@@ -30,20 +31,20 @@ ht-degree: 2%
 
 建立構圖的第一個步驟是選取一或多個現有對象，作為構圖的基礎。
 
-1. 選取 **[!UICONTROL 對象]** 活動然後提供活動的標籤。
+1. 選取 **[!UICONTROL Audience]** 活動然後提供活動的標籤。
 
 1. 選擇要定位的對象：
 
-   * 按一下 **[!UICONTROL 新增對象]** 按鈕，以選取一或多個現有對象，
-   * 按一下 **[!UICONTROL 建置規則]** 按鈕，使用 [區段服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   * 按一下 **[!UICONTROL Add audience]** 按鈕，以選取一或多個現有對象，
+   * 按一下 **[!UICONTROL Build rule]** 按鈕，使用 [區段服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/audiences-choose-audience.png)
 
 1. 如果選取了多個對象，請指定應如何合併這些對象的設定檔：
 
-* **[!UICONTROL 聯合]**:包含來自所選對象的所有設定檔，
-* **[!UICONTROL 交集]**:包含所有所選對象共同的設定檔，
-* **[!UICONTROL 排除重疊]**:包含僅屬於其中一個對象的設定檔。 不會包含屬於多個對象的設定檔。
+* **[!UICONTROL Union]**:包含來自所選對象的所有設定檔，
+* **[!UICONTROL Intersection]**:包含所有所選對象共同的設定檔，
+* **[!UICONTROL Exclude overlap]**:包含僅屬於其中一個對象的設定檔。 不會包含屬於多個對象的設定檔。
 
 在此範例中，我們想要鎖定屬於金級和銀級受眾的所有設定檔。
 
@@ -61,7 +62,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->您可以新增 **[!UICONTROL 對象]** 和 **[!UICONTROL 排除]** 活動。 不過，在 **[!UICONTROL 排名]** 和 **[!UICONTROL 分割]** 活動。
+>您可以新增 **[!UICONTROL Audience]** 和 **[!UICONTROL Exclude]** 活動。 不過，在 **[!UICONTROL Rank]** 和 **[!UICONTROL Split]** 活動。
 
 您可以隨時按一下右窗格中的刪除按鈕，從畫布中移除活動。 在此活動之後新增的所有活動也將從畫布中移除。
 
@@ -84,7 +85,7 @@ ht-degree: 2%
 >title="合併類型"
 >abstract="指定應如何合併所選對象的設定檔。"
 
-此 **[!UICONTROL 對象]** 活動可讓您在構成中包含屬於現有對象的其他設定檔。
+此 **[!UICONTROL Audience]** 活動可讓您在構成中包含屬於現有對象的其他設定檔。
 
 此活動的設定與開始 [對象活動](#starting-audience).
 
@@ -100,15 +101,15 @@ ht-degree: 2%
 >title="排除活動"
 >abstract="「排除」活動可讓您選取現有對象或使用規則，從您的構成中排除設定檔。"
 
-此 **[!UICONTROL 排除]** 活動可讓您從構成中排除設定檔。 有兩種排除類型可供使用：
+此 **[!UICONTROL Exclude]** 活動可讓您從構成中排除設定檔。 有兩種排除類型可供使用：
 
-* **[!UICONTROL 排除對象]**:排除屬於現有對象的設定檔。
+* **[!UICONTROL Exclude Audience]**:排除屬於現有對象的設定檔。
 
-   按一下 **[!UICONTROL 新增對象]** 按鈕，然後選取要排除的對象。
+   按一下 **[!UICONTROL Add audience]** 按鈕，然後選取要排除的對象。
 
    ![](assets/audiences-exclude-audience.png)
 
-* **[!UICONTROL 使用屬性排除]**:根據特定屬性排除設定檔。
+* **[!UICONTROL Exclude using attribute]**:根據特定屬性排除設定檔。
 
    選取要查詢的屬性，然後指定要排除的值。 在此範例中，我們會從其首頁位址位於日本的構成設定檔中排除。
 
@@ -126,7 +127,7 @@ ht-degree: 2%
 >title="新增設定檔限制"
 >abstract="開啟此選項可指定要包含在合成中的設定檔數目上限。"
 
-此 **[!UICONTROL 排名]** 活動可讓您根據特定屬性來排名設定檔，並將其納入您的構成中。 例如，您可以包含50個設定檔，其忠誠度點數最多。
+此 **[!UICONTROL Rank]** 活動可讓您根據特定屬性來排名設定檔，並將其納入您的構成中。 例如，您可以包含50個設定檔，其忠誠度點數最多。
 
 1. 選取您要查詢的屬性，並指定排名順序（遞增或遞減）。
 
@@ -134,7 +135,7 @@ ht-degree: 2%
    >
    >您可以選取具有下列資料類型的屬性：整數，數字，短 <!--(other?)-->
 
-1. 切換 **[!UICONTROL 新增設定檔限制]** 選項，並指定要包含在合成中的設定檔數目上限。
+1. 切換 **[!UICONTROL Add profile limit]** 選項，並指定要包含在合成中的設定檔數目上限。
 
    ![](assets/audiences-rank.png)
 
@@ -148,7 +149,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
 >title="分割活動"
->abstract="「分割」活動可讓您將構圖分割為多個路徑。 發佈構圖時，每個路徑會將一個對象儲存至Adobe Experience Platform。"
+>abstract="「分割」活動可讓您將構圖分割為多個路徑。 發佈構圖時，系統會針對每個路徑將一個對象儲存至Adobe Experience Platform。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
@@ -160,36 +161,36 @@ ht-degree: 2%
 >title="其他設定檔"
 >abstract="開啟此選項，以建立其他路徑，其餘設定檔不符合其他路徑中指定的任何條件。"
 
-此 **[!UICONTROL 分割]** 活動可讓您將構圖分割為多個路徑。
+此 **[!UICONTROL Split]** 活動可讓您將構圖分割為多個路徑。
 
-此操作會自動新增 **[!UICONTROL 儲存]** 活動。 發佈構圖時，每個路徑會將一個對象儲存至Adobe Experience Platform。
+此操作會自動新增 **[!UICONTROL Save]** 活動。 發佈構圖時，系統會針對每個路徑將一個對象儲存至Adobe Experience Platform。
 
 可使用兩種類型的拆分操作：
 
-* **[!UICONTROL 百分比分割]**:將設定檔隨機分割為兩個或多個路徑。 例如，您可以將設定檔分割為2個不同的路徑，每個路徑45%，然後為控制組新增其他路徑。
+* **[!UICONTROL Percent split]**:將設定檔隨機分割為兩個或多個路徑。 例如，您可以將設定檔分割為2個不同的路徑，每個路徑45%，然後為控制組新增其他路徑。
 
    ![](assets/audiences-split-percentage.png)
 
-* **[!UICONTROL 屬性分割]**:根據特定屬性分割設定檔。 在此示例中，我們將根據檔案室類型首選項拆分配置檔案。
+* **[!UICONTROL Attribute split]**:根據特定屬性分割設定檔。 在此示例中，我們將根據檔案室類型首選項拆分配置檔案。
 
    ![](assets/audiences-split.png)
 
    >[!NOTE]
    >
-   >此 **[!UICONTROL 其他設定檔]** 選項可讓您使用其餘設定檔建立其他路徑，這些設定檔不符合其他路徑中指定的任何條件。
+   >此 **[!UICONTROL Other profiles]** 選項可讓您使用其餘設定檔建立其他路徑，這些設定檔不符合其他路徑中指定的任何條件。
 
 ## 儲存您的對象 {#save}
 
-設定將儲存至Adobe Experience Platform的產生對象。
+設定要儲存至Adobe Experience Platform的產生對象。
 
-若要這麼做，請選取 **[!UICONTROL 儲存對象]** 活動（在每個路徑結尾），然後指定要建立的新對象的名稱。
+若要這麼做，請選取 **[!UICONTROL Save audience]** 活動（在每個路徑結尾），然後指定要建立的新對象的名稱。
 
 ![](assets/audiences-publish.png)
 
 您的構圖準備就緒後，即可發佈。 [了解如何建立作品](create-compositions.md)
 
-更多詳情:
+更多詳情：
 
-* [開始使用對象組合](get-started-audience-orchestration.md)
-* [建立組合工作流程](create-compositions.md)
+* [開始使用受眾構成](get-started-audience-orchestration.md)
+* [建立合成工作流程](create-compositions.md)
 * [存取及管理對象](access-audiences.md)

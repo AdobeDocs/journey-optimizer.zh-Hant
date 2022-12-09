@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 4%
+source-wordcount: '403'
+ht-degree: 0%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 4%
 
 若要建立訂閱清單，請遵循下列步驟。
 
-1. 若要存取訂閱清單，請選取 **[!UICONTROL 客戶]** > **[!UICONTROL 訂閱清單]**.
+1. 若要存取訂閱清單，請選取 **[!UICONTROL Customer]** > **[!UICONTROL Subscription list]**.
 
    ![](assets/lp_subscription-lists.png)
 
-1. 選取 **[!UICONTROL 建立訂閱清單]** 按鈕。
+1. 選取 **[!UICONTROL Create subscription list]** 按鈕。
 
    ![](assets/lp_create-subscription-list.png)
 
@@ -55,13 +55,13 @@ ht-degree: 4%
 
    >[!CAUTION]
    >
-   >目前，您無法使用間距，或在 **[!UICONTROL 標題]** 欄位。
+   >目前，您無法使用間距，或在 **[!UICONTROL Title]** 欄位。
 
 1. 您可以定義開始日期和結束日期。
 
    ![](assets/lp_subscription-list-dates.png)
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下 **[!UICONTROL Save]**.
 
 清單會顯示已建立的所有訂閱清單。 您可以根據建立日期或修改日期及其狀態來篩選。
 
@@ -69,14 +69,14 @@ ht-degree: 4%
 
 可能的狀態如下：
 
-* **[!UICONTROL 未啟動]**:您定義的開始日期晚於當天。 訂閱的設定檔將不會收到與此訂閱清單相關的通訊。
-* **[!UICONTROL 即時]**:當天由訂閱清單開始日期和結束日期組成，或您未定義結束/開始日期，這表示訂閱清單一律為上線狀態。
-* **[!UICONTROL 過期]**:結束日期已過，因此訂閱清單已無效。 任何訂閱的配置檔案將不會再接收與此訂閱清單相關的任何通信。
+* **[!UICONTROL Not started]**:您定義的開始日期晚於當天。 訂閱的設定檔將不會收到與此訂閱清單相關的通訊。
+* **[!UICONTROL Live]**:當天由訂閱清單開始日期和結束日期組成，或您未定義結束/開始日期，這表示訂閱清單一律為上線狀態。
+* **[!UICONTROL Expired]**:結束日期已過，因此訂閱清單已無效。 任何訂閱的配置檔案將不會再接收與此訂閱清單相關的任何通信。
 
-建立訂閱清單後，您就可以在登錄頁面中使用它。 會將透過登錄頁面表單選擇加入的設定檔新增至清單。 [了解更多](design-lp.md)
+建立訂閱清單後，您就可以在登錄頁面中使用它。 會將透過登錄頁面表單選擇加入的設定檔新增至清單。 [深入了解](design-lp.md)
 
 您也可以在 [建立歷程](../building-journeys/journey-gs.md#jo-build) 和新增個人化。
 
 >[!NOTE]
 >
->您可以透過特定報告來監控訂閱清單的影響。 [了解更多](../reports/subscription-report-live.md)
+>您可以透過特定報告來監控訂閱清單的影響。 [深入了解](../reports/subscription-report-live.md)

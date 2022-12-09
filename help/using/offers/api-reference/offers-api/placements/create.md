@@ -1,5 +1,5 @@
 ---
-title: 建立位置
+title: 建立版位
 description: 版位是用來展示優惠方案的容器。
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 10%
+ht-degree: 0%
 
 ---
 
-# 建立位置 {#create-placement}
+# 建立版位 {#create-placement}
 
 您可以向 [!DNL Offer Library] API，同時提供容器ID。
 
@@ -23,8 +23,8 @@ ht-degree: 10%
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
+| 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| 內容類型 | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
 
 **API格式**
 

@@ -1,5 +1,5 @@
 ---
-title: 列舉決定
+title: 清單決策
 description: 決策包含通知選件選擇的邏輯。
 feature: Offers
 topic: Integrations
@@ -9,15 +9,15 @@ exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
-# 列舉決定 {#list-decisions}
+# 清單決策 {#list-decisions}
 
 決策包含通知選件選擇的邏輯。
 
-您可以對執行單一GET請求，以檢視容器內所有決策的清單 [!DNL Offer Library] API。
+您可以對 [!DNL Offer Library] API。
 
 **API格式**
 

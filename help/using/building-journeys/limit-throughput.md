@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 title: 使用外部資料來源和自訂動作限制輸送量
 description: 使用外部資料來源和自訂動作限制輸送量
-source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
+exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
-
 
 # 使用案例：使用外部資料來源和自訂動作來限制輸送量{#limit-throughput}
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer可讓從業人員透過使用自訂動作和資料來源
 
 ## 實作
 
-針對 **區段觸發歷程**，您可以定義將影響歷程吞吐量的讀取區段活動的限制率。  [閱讀全文](../building-journeys/read-segment.md)
+針對 **區段觸發歷程**，您可以定義將影響歷程吞吐量的讀取區段活動的限制率。  [了解詳情](../building-journeys/read-segment.md)
 
 ![](assets/limit-throughput-1.png)
 
@@ -65,4 +65,3 @@ Adobe Journey Optimizer可讓從業人員透過使用自訂動作和資料來源
 >[!NOTE]
 >
 >與以全域方式對沙箱的所有歷程保護端點的設定上限功能不同，此因應措施僅適用於歷程層級。 這表示，如果多個歷程並行執行，且目標為相同端點，則在設計歷程時需要將此納入考量。 因此，此因應措施不適用於所有使用案例。
-

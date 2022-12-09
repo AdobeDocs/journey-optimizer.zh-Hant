@@ -7,10 +7,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
+source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 10%
+source-wordcount: '145'
+ht-degree: 0%
 
 ---
 
@@ -18,17 +19,17 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->如果這是您第一次建立電子郵件，請確定已設定電子郵件通道。 [了解更多](email-settings.md)
+>如果這是您第一次建立電子郵件，請確定已設定電子郵件通道。 [深入了解](email-settings.md)
 
 使用 [!DNL Journey Optimizer] 傳送電子郵件訊息給客戶。 您可以在電子郵件設計工具中建立、個人化和預覽訊息。
 
 可以建立電子郵件傳遞：
 
-* 在 **歷程**:新增 **[!UICONTROL 電子郵件]** 活動至您的歷程，並定義基本設定，請使用 **[!UICONTROL 動作：電子郵件]** 右窗格，以建立SMS訊息的內容。
+* 在 **歷程**:新增 **[!UICONTROL Email]** 活動至您的歷程，並定義基本設定，請使用 **[!UICONTROL Actions: Email]** 右窗格，以建立SMS訊息的內容。
 
    如需如何設定歷程的詳細資訊，請參閱 [頁面](../building-journeys/journey-gs.md).
 
-* 在 **行銷活動**:建立促銷活動後，請選取 **[!UICONTROL 電子郵件]** 作為動作並定義基本設定。
+* 在 **行銷活動**:建立促銷活動後，請選取 **[!UICONTROL Email]** 作為動作並定義基本設定。
 
    如需如何設定促銷活動的詳細資訊，請參閱 [頁面](../campaigns/create-campaign.md#configure).
 
@@ -68,4 +69,3 @@ ht-degree: 10%
 <p>
 </td>
 </tr></table>
-

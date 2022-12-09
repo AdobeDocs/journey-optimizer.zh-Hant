@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: a67cabc2078debb981ee17fae9202f9fd80ec977
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 1%
+source-wordcount: '467'
+ht-degree: 0%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 1%
 
 若要建立排名公式，請遵循下列步驟：
 
-1. 存取 **[!UICONTROL 元件]** ，然後選取 **[!UICONTROL 排名]** 標籤。 將顯示先前建立的排名清單。
+1. 存取 **[!UICONTROL Components]** ，然後選取 **[!UICONTROL Rankings]** 標籤。 將顯示先前建立的排名清單。
 
    ![](../assets/rankings-list.png)
 
-1. 按一下 **[!UICONTROL 建立排名]** 來建立新排名公式。
+1. 按一下 **[!UICONTROL Create ranking]** 來建立新排名公式。
 
    ![](../assets/ranking-create-formula.png)
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 
    ![](../assets/ranking-syntax.png)
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。排名公式已建立，您可以從清單中選取它以取得詳細資訊，並加以編輯或刪除。
+1. 按一下 **[!UICONTROL Save]**. 排名公式已建立，您可以從清單中選取它以取得詳細資訊，並加以編輯或刪除。
 
    現在已可用於決定對符合資格的優惠方案排名以刊登版位(請參閱 [在決策中設定選件選取項目](../offer-activities/configure-offer-selection.md))。
 

@@ -1,5 +1,5 @@
 ---
-title: 建立遞補優惠
+title: 建立回退優惠方案
 description: 如果客戶不符合其他優惠方案的資格，系統會將備援優惠方案傳送給他們
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 11%
+ht-degree: 0%
 
 ---
 
-# 建立遞補優惠 {#create-fallback-offer}
+# 建立回退優惠方案 {#create-fallback-offer}
 
 您可以向 [!DNL Offer Library] API，同時提供容器ID。
 
@@ -23,8 +23,8 @@ ht-degree: 11%
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
+| 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| 內容類型 | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
 
 **API格式**
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 開始使用Journey Optimizer中的身分識別
+title: 在Journey Optimizer中開始使用身分識別
 description: 了解如何在Adobe Journey Optimizer中管理身分
 feature: Profiles
 role: User
@@ -9,8 +9,8 @@ level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 9%
+source-wordcount: '332'
+ht-degree: 0%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 9%
 
 ![](assets/identities-home.png)
 
-深入了解 **Identity服務** in [本檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+深入了解 **Identity服務** in [本檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target=&quot;_blank&quot;}。
 
 ## 身分識別命名空間 {#identity-namespaces}
 
-****&#x200B;身分識別命名空間是 Identity Service 的元件，用途是作為身分識別相關內容的指標。 例如，它們會區分 `name@email.com` 作為電子郵件地址或 `443522` 作為數值CRM ID。 使用身分識別命名空間需要先了解所涉及的各種Adobe Experience Platform服務。 開始使用命名空間之前，請先檢閱以下服務的檔案：
+**身分識別命名空間** 是身分識別服務的元件，可作為身分識別相關內容的指標。 例如，它們會區分 `name@email.com` 作為電子郵件地址或 `443522` 作為數值CRM ID。 使用身分識別命名空間需要先了解相關的各種Adobe Experience Platform服務。 開始使用命名空間之前，請先檢閱以下服務的檔案：
 
-深入了解 **身分識別命名空間** in [本檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+深入了解 **身分識別命名空間** in [本檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target=&quot;_blank&quot;}。
 
 ## 身分圖{#id-graph}
 

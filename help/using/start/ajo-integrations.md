@@ -2,71 +2,71 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 與其他解決方案整合
-description: 進一步了解如何整合 Journey Optimizer 與其他解決方案
+description: 進一步了解如何整合Journey Optimizer與其他解決方案
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 90d7d4d39fe04198707be3d5b24888cfe5bed308
-workflow-type: ht
-source-wordcount: '580'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 0%
 
 ---
 
 # 與其他解決方案整合 {#integration}
 
-透過 Adobe Journey Optimizer，您可以輕鬆管理、保留這些資料，並將其匯出至屬於您技術堆疊一部分的平台或系統。 這些整合可協助您處理特定使用案例，並延伸 Adobe Journey Optimizer 功能範圍。
+透過Adobe Journey Optimizer，您可以輕鬆管理、保留這些資料，並將其匯出至屬於您技術堆疊一部分的平台或系統。 這些整合可協助您處理特定使用案例，並擴充Adobe Journey Optimizer功能範圍。
 
 >[!NOTE]
 >
-> Adobe Journey Optimizer 以 Adobe Experience Platform 為基礎，以原生方式連線至 [Adobe 即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。 此內建資料來源已預先設定，且設計旨在從即時客戶個人檔案擷取並使用資料 (例如，檢查進入歷程的人員是否為客戶)。 其可讓您使用個人檔資料與體驗事件資料。 [了解更多](../datasource/adobe-experience-platform-data-source.md)。
+> Adobe Journey Optimizer以Adobe Experience Platform為基礎，以原生方式連線至 [Adobe即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}。 此內建資料來源已預先設定，且設計為從即時客戶設定檔中擷取和使用資料（例如，檢查進入歷程的人員是否為客戶）。 它可讓您使用設定檔資料和體驗事件資料。 [深入了解](../datasource/adobe-experience-platform-data-source.md).
 
 ## Adobe Customer Journey Analytics{#integration-cja}
 
-在 Journey Optimizer 產生資料之後，您可利用 Customer Journey Analytics 對該資料執行進階分析。
+您可以使用Customer Journey Analytics對Journey Optimizer產生的資料執行進階分析。
 
-Journey Optimizer 會將資料儲存在 Adobe Experience Platform，並利用 Customer Journey Analytics，透過自動化報告分送與資料的自訂視覺效果，全面掌握您的所有歷程、行銷活動及優惠方案。
+Journey Optimizer將資料儲存在Adobe Experience Platform中，而透過Customer Journey Analytics，您可透過自動化的報表分送和資料的自訂視覺效果，全面掌握所有歷程、行銷活動和優惠方案。
 
-在 Journey Optimizer 建立您的歷程之後，Customer Journey Analytics 可從平台擷取資料以開始報告，並了解客戶與您歷程每次互動的影響。
+在Journey Optimizer中建立您的歷程後，Customer Journey Analytics可從平台內嵌資料以開始報告，並了解客戶與您歷程的每次互動的影響。
 
-深入了解 [Journey Optimizer + Customer Journey Analytics](../reports/cja-ajo.md)。
+深入了解 [Journey Optimizer + Customer Journey Analytics](../reports/cja-ajo.md).
 
 ## Adobe Analytics{#integration-aa}
 
-您現在可運用您已擷取並串流至 Adobe Experience Platform 的所有 Adobe Analytics 行為事件資料，以觸發即時歷程並自動化客戶體驗。此資料也可用來建立區段，後者可利用 Journey Optimizer 參與。
+您可以運用您已擷取並串流至Adobe Experience Platform的所有Adobe Analytics行為事件資料，觸發即時歷程，並為客戶自動化體驗。 此資料也可用來建立可使用Journey Optimizer參與的區段。
 
-深入了解 [Journey Optimizer + Analytics](../event/about-analytics.md)。
+深入了解 [Journey Optimizer + Analytics](../event/about-analytics.md).
 
 ## Adobe Intelligent Services{#integration-intelligent-service}
 
-Adobe Intelligent Services 是即時客戶資料平台的原生功能，可讓您在客戶體驗使用案例中運用人工智慧與機器學習的強大功能。 這可讓行銷分析人員利用業務層級設定，針對公司需求設定專屬預測，而無需資料科學的專業知識。
+即時客戶資料平台原生的Adobe智慧型服務可讓您在客戶體驗使用案例中運用人工智慧和機器學習的強大功能。 這可讓行銷分析人員使用業務層級設定，針對公司的需求設定專屬預測，而不需要資料科學的專業知識。
 
-Customer AI 可讓品牌建立流失率或轉換機器學習型分數，這些分數將在 Adobe Experience Platform 以設定檔屬性形式提供，且可用來個人化歷程。
+Customer AI可讓品牌建立流失率或轉換機器學習型分數，這些分數將在Adobe Experience Platform中作為設定檔屬性提供，且可用來個人化歷程。
 
-[了解更多](../building-journeys/ai-services-overview.md)。
+[深入了解](../building-journeys/ai-services-overview.md).
 
 
 ## Adobe Campaign{#integration-ac}
 
-如果您有 Adobe Campaign v7 或 v8，則可整合。 透過整合，您可使用 Adobe Campaign 異動訊息功能來傳送電子郵件、推播通知與簡訊。
+如果您有Adobe Campaign v7或v8，則可使用整合。 使用此整合，使用Adobe Campaign交易訊息功能來傳送電子郵件、推播通知和簡訊。
 
-深入瞭解 [Journey Optimizer + Campaign](../building-journeys/ajo-ac.md)。
+深入了解 [Journey Optimizer + Campaign](../building-journeys/ajo-ac.md).
 
-您也可設定整合至 Adobe Campaign Standard，以在歷程中傳送訊息。
+您也可以設定與Adobe Campaign Standard的整合，以在歷程中傳送訊息。
 
-深入了解 [Journey Optimizer + Campaign Standard](../building-journeys/ajo-ac.md)。
+深入了解 [Journey Optimizer + Campaign Standard](../building-journeys/ajo-ac.md).
 
 ## 自訂通道{#integration-custom}
 
-如果您使用協力廠商系統來傳送訊息，或想要歷程傳送 API 呼叫至協力廠商系統，請使用自訂動作來連線至您的歷程。 例如，您可利用自訂動作連線至下列系統：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}、Firebase 等等
+如果您使用協力廠商系統來傳送訊息，或想要歷程將API呼叫傳送至協力廠商系統，請使用自訂動作來連線至您的歷程。 例如，您可以使用自訂動作連線至下列系統：ε,Slack, [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}、Firebase等
 
-自訂動作是技術使用者定義的其他動作，可供行銷人員使用。 在設定之後，其會顯示在您歷程的左側浮動視窗，位於&#x200B;**[!UICONTROL 動作]**&#x200B;類別。 在[本頁](../building-journeys/about-journey-activities.md#action-activities)中瞭解更多。
+自訂動作是技術使用者定義的其他動作，可供行銷人員使用。 設定後，它們會顯示在您歷程的左側浮動視窗中，位於 **[!UICONTROL Action]** 類別。 深入了解 [本頁](../building-journeys/about-journey-activities.md#action-activities).
 
-深入了解[自訂動作](../action/about-custom-action-configuration.md)。
+深入了解 [自訂動作](../action/about-custom-action-configuration.md).
 
 ## 外部資料來源{#integration-external-systems}
 
-Journey Optimizer 可讓您透過自訂資料來源與自訂動作來設定與外部系統的連線。 舉例來說，這可讓您利用來自外部訂房系統的資料，讓您的歷程更為豐富。
+Journey Optimizer可讓您透過自訂資料來源和自訂動作來設定與外部系統的連線。 舉例來說，這可讓您透過來自外部訂房系統的資料，讓您的歷程更為豐富。
 
-請參見[本節](../datasource/external-data-sources.md)，了解如何利用外部資料來源以定義與協力廠商系統的連線。
+了解如何使用外部資料來源來定義與協力廠商系統的連線，位於 [本節](../datasource/external-data-sources.md).

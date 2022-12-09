@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 1%
+source-wordcount: '840'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 然後等待購買，並傳送推送訊息以感謝客戶。
 
-## 先決條件
+## 必要條件
 
 若要讓此使用案例正常運作，您必須設定下列項目：
 
@@ -44,15 +44,15 @@ ht-degree: 1%
 
 如需區段的詳細資訊，請參閱 [頁面](../segment/about-segments.md).
 
-1. 從「客戶」功能表區段中，選取 **[!UICONTROL 區段]**.
+1. 從「客戶」功能表區段中，選取 **[!UICONTROL Segments]**.
 
-1. 按一下 **[!UICONTROL 建立區段]** 按鈕（位於區段清單的右上角）。
+1. 按一下 **[!UICONTROL Create segment]** 按鈕（位於區段清單的右上角）。
 
-1. 在 **[!UICONTROL 區段屬性]** ，輸入段的名稱。
+1. 在 **[!UICONTROL Segment properties]** ，輸入段的名稱。
 
 1. 將需要的欄位從左窗格拖曳至中央工作區，然後根據您的需求進行設定。 在此範例中，我們會使用 **城市** 和 **出生年** 屬性欄位。
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下 **[!UICONTROL Save]**.
 
    ![](assets/add-attributes.png)
 
@@ -64,19 +64,19 @@ ht-degree: 1%
 
 為此，我們使用規則型事件。 如需事件的詳細資訊，請參閱 [頁面](../event/about-events.md).
 
-1. 在「管理」(ADMINISTRATION)菜單部分中，選擇 **[!UICONTROL 配置]**，然後按一下 **[!UICONTROL 事件]**. 按一下 **[!UICONTROL 建立事件]** 來建立新事件。
+1. 在「管理」(ADMINISTRATION)菜單部分中，選擇 **[!UICONTROL Configurations]**，然後按一下 **[!UICONTROL Events]**. 按一下 **[!UICONTROL Create event]** 來建立新事件。
 
 1. 輸入事件名稱。
 
-1. 在 **[!UICONTROL 事件ID類型]** 欄位，選擇 **[!UICONTROL 規則型]**.
+1. 在 **[!UICONTROL Event ID type]** 欄位，選擇 **[!UICONTROL Rule Based]**.
 
-1. 定義 **[!UICONTROL 結構]** 和裝載 **[!UICONTROL 欄位]**. 您可以使用數個欄位，例如購買的產品、購買日期和購買id。
+1. 定義 **[!UICONTROL Schema]** 和裝載 **[!UICONTROL Fields]**. 您可以使用數個欄位，例如購買的產品、購買日期和購買id。
 
-1. 在 **[!UICONTROL 事件ID條件]** 欄位中，定義系統用來識別觸發歷程的事件的條件。 例如，您可以新增 `purchaseMessage` 欄位並定義下列規則： `purchaseMessage="thank you"`
+1. 在 **[!UICONTROL Event ID condition]** 欄位中，定義系統用來識別觸發歷程的事件的條件。 例如，您可以新增 `purchaseMessage` 欄位並定義下列規則： `purchaseMessage="thank you"`
 
-1. 定義 **[!UICONTROL 命名空間]** 和 **[!UICONTROL 設定檔識別碼]**.
+1. 定義 **[!UICONTROL Namespace]** 和 **[!UICONTROL Profile Identifier]**.
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下 **[!UICONTROL Save]**.
 
    ![](assets/jo-uc2.png)
 

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用同意原則
-description: 了解如何使用Adobe Experience Platform同意政策
+title: 使用同意政策
+description: 了解如何使用Adobe Experience PLatform同意政策
 feature: Actions
 topic: Administration
 role: Admin
@@ -10,27 +10,27 @@ level: Intermediate
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 5%
+source-wordcount: '905'
+ht-degree: 0%
 
 ---
 
-# 使用同意原則 {#consent-management}
+# 使用同意政策 {#consent-management}
 
-Adobe Experience Platform 可讓您輕鬆採用及強制執行行銷政策，以尊重客戶的同意偏好設定。 在 Adobe Experience Platform 中定義的同意原則。 請參閱 [本檔案](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
+Adobe Experience Platform可讓您輕鬆採用及執行行銷政策，以遵循客戶的同意偏好設定。 同意原則是在Adobe Experience Platform中定義。 請參閱 [本檔案](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
 
-在 Journey Optimizer 中，您可以將這些同意政策套用至自訂動作。 例如，您可以定義同意原則，以排除尚未同意接收電子郵件、推播或簡訊通訊的客戶。
+在Journey Optimizer中，您可以將這些同意原則套用至自訂動作。 例如，您可以定義同意原則，以排除尚未同意接收電子郵件、推播或簡訊通訊的客戶。
 
 >[!NOTE]
 >
 >目前，僅購買了Healthcare Shield附加產品的組織才能使用同意策略。
 
-在Journey Optimizer中，同意定義於數個層級：
+在Journey Optimizer中，同意會定義於數個層級：
 
 * when **設定自訂動作**，您可以定義管道和行銷動作。 看這個 [節](../action/consent.md#consent-custom-action).
 * 新增 **歷程中的自訂動作**，您可以定義其他行銷動作。 看這個 [節](../action/consent.md#consent-journey).
 
-## 重要備註 {#important-notes}
+## 重要附註 {#important-notes}
 
 在Journey Optimizer中，可在自訂動作中運用同意。 如果您想要將其與內建訊息功能搭配使用，您需要使用條件活動來篩選歷程中的客戶。
 
@@ -98,7 +98,7 @@ There are two types of latency regarding the use of consent policies:
 
 ![](assets/consent4.png)
 
-您可以定義 **其他行銷動作** 來設定自訂動作類型。 這可讓您定義此歷程中自訂動作的用途。 除了必要的行銷動作（通常是管道專用的）之外，您還可以定義其他行銷動作，這將是特定歷程中的自訂動作專用。 例如：鍛鍊通訊、通訊、健身通訊等。 所需的行銷動作和其他行銷動作皆適用。
+您可以定義 **其他行銷動作** 來設定自訂動作類型。 這可讓您定義此歷程中自訂動作的用途。 除了必要的行銷動作（通常是管道專用的）之外，您還可以定義其他行銷動作，這將是特定歷程中的自訂動作專用。 例如：鍛鍊通訊、通訊、健身通訊等。 所需的行銷動作和其他行銷動作都適用。
 
 ![](assets/consent3.png)
 

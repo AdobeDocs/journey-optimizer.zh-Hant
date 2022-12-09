@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 source-git-commit: 9b7898d0fe008a0e7ef711b1303230c6f901b712
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 2%
+source-wordcount: '369'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"
 >title="反應事件"
->abstract="此活動可讓您對與相同歷程中傳送之訊息相關的追蹤資料做出反應。 我們會在與Adobe Experience Platform共用資訊的當下即時擷取這些資訊。"
+>abstract="此活動可讓您對與相同歷程中傳送之訊息相關的追蹤資料做出反應。 我們會在與Adobe Experience Platform共用此資訊時即時擷取此資訊。"
 
-浮動視窗中可用的不同事件活動中，會有內建的 **[!UICONTROL 反應]** 事件。 此活動可讓您對與相同歷程中傳送之訊息相關的追蹤資料做出反應。 我們會在與Adobe Experience Platform共用資訊的當下即時擷取這些資訊。
+浮動視窗中可用的不同事件活動中，會有內建的 **[!UICONTROL Reactions]** 事件。 此活動可讓您對與相同歷程中傳送之訊息相關的追蹤資料做出反應。 我們會在與Adobe Experience Platform共用此資訊時即時擷取此資訊。
 
 您可以對已點按或已開啟的訊息做出反應。
 
@@ -36,10 +36,10 @@ ht-degree: 2%
 
 以下是設定反應事件的不同步驟：
 
-1. 新增 **[!UICONTROL 標籤]** 反應。 此步驟為選填。
+1. 新增 **[!UICONTROL Label]** 反應。 此步驟為選用。
 1. 從下拉式清單中，選取您要回應的動作活動。 您可以選取位於路徑前幾個步驟中的任何動作活動。
 1. 根據您選取的動作，選擇您要回應的項目。
-1. 您可以定義事件逾時（40秒到30天之間）和逾時路徑。 這會為在定義期間內未反應的個人建立第二個路徑。 測試使用反應事件的歷程時，即測試模式 **[!UICONTROL 等待時間]** 預設值和最小值為40秒。 請參閱[本節](../building-journeys/testing-the-journey.md)。
+1. 您可以定義事件逾時（40秒到30天之間）和逾時路徑。 這會為在定義期間內未反應的個人建立第二個路徑。 測試使用反應事件的歷程時，即測試模式 **[!UICONTROL Wait time]** 預設值和最小值為40秒。 請參閱 [本節](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >

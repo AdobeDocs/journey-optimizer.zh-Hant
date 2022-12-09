@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 4%
+source-wordcount: '178'
+ht-degree: 0%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 4%
 
 ## 將頁面儲存為範本 {#save-as-template}
 
-在您設計 [登陸頁面內容](lp-content.md)，您可以儲存它以供日後重複使用。 請依照下列步驟以執行此操作。
+在您設計 [登陸頁面內容](lp-content.md)，您可以儲存它以供日後重複使用。 若要這麼做，請遵循下列步驟。
 
 1. 按一下螢幕右上方的刪節號。
 
-1. 選擇 **[!UICONTROL 儲存設計範本]** 從下拉式功能表。
+1. 選擇 **[!UICONTROL Save design template]** 從下拉式功能表。
 
    ![](assets/lp_designer-save-template.png)
 
@@ -31,7 +31,7 @@ ht-degree: 4%
 
    ![](assets/lp_designer-template-name.png)
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下 **[!UICONTROL Save]**.
 
 下次您建立登錄頁面時，可以使用此範本來建置內容。 了解 [節](#use-saved-template) 下方。
 
@@ -41,7 +41,7 @@ ht-degree: 4%
 
 1. 開啟 [登陸頁面內容設計工具](design-lp.md). 隨即顯示所有先前儲存的範本清單。
 
-1. 你可以對它們進行排序 **[!UICONTROL 依名稱]**, **[!UICONTROL 上次修改時間]** 和 **[!UICONTROL 上次建立時間]**.
+1. 你可以對它們進行排序 **[!UICONTROL By name]**, **[!UICONTROL Last modified]** 和 **[!UICONTROL Last created]**.
 
    ![](assets/lp_designer-saved-templates.png)
 
@@ -51,7 +51,7 @@ ht-degree: 4%
 
    ![](assets/lp_designer-saved-templates-navigate.png)
 
-1. 按一下 **[!UICONTROL 使用此登錄頁面]**.
+1. 按一下 **[!UICONTROL Use this landing page]**.
 
 1. 使用登錄頁面設計工具，視需要編輯內容。
 

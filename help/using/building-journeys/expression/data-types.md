@@ -9,8 +9,8 @@ level: Experienced
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 5%
+source-wordcount: '611'
+ht-degree: 0%
 
 ---
 
@@ -74,7 +74,7 @@ JSON格式：數字
 
 **說明**
 
-小數位數. 其代表浮動值：
+小數位數。 其代表浮動值：
 
 * 雙型最大正有限值，(2-2^-52)x2^1023
 * 雙型最小正常值，2-1022
@@ -134,7 +134,7 @@ JSON格式：字串。
 
 它可封裝在toDateOnly函式中。
 
-它使用DateTimeFormatter ISO_LOCAL_DATE_TIME反序列化和序列化值。 [了解更多](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+它使用DateTimeFormatter ISO_LOCAL_DATE_TIME反序列化和序列化值。 [深入了解](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
 
 **常值表示**
 
@@ -164,7 +164,7 @@ JSON格式：字串。
 
 序列化格式：ISO-8601延長偏移日期時間格式。
 
-它使用DateTimeFormatter ISO_LOCAL_DATE_TIME反序列化和序列化值。 [了解更多](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+它使用DateTimeFormatter ISO_LOCAL_DATE_TIME反序列化和序列化值。 [深入了解](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
 **常值表示**
 
@@ -193,9 +193,9 @@ JSON格式：字串。
 
 序列化格式：ISO-8601延長偏移日期時間格式。
 
-它使用DateTimeFormatter ISO_OFFSET_DATE_TIME反序列化和序列化值。 [了解更多](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+它使用DateTimeFormatter ISO_OFFSET_DATE_TIME反序列化和序列化值。 [深入了解](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-您也可以傳遞一個傳遞Epoch值的整數。 [閱讀全文](https://www.epochconverter.com)
+您也可以傳遞一個傳遞Epoch值的整數。 [了解詳情](https://www.epochconverter.com)
 
 時區可由偏移或時區代碼指定(範例：歐洲/巴黎，Z — 表示UTC)。
 
@@ -257,7 +257,7 @@ JSON格式：字串。
 
 序列化格式：若要反序列化時區ID，會使用java函式java.time。
 
-Duration.parse:接受的格式基於ISO-8601持續時間格式PnDTnHnMn.nS，天數被認為恰好為24小時。 [了解更多](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse:接受的格式基於ISO-8601持續時間格式PnDTnHnMn.nS，天數被認為恰好為24小時。 [深入了解](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
 **常值表示**
 
@@ -311,7 +311,7 @@ toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
-## list {#list}
+## 清單 {#list}
 
 **說明**
 

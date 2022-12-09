@@ -1,5 +1,5 @@
 ---
-title: 清單決定規則
+title: 清單決策規則
 description: 決策規則是新增至個人化優惠方案的限制，並套用至設定檔以判斷資格。
 feature: Offers
 topic: Integrations
@@ -9,13 +9,13 @@ exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 5%
+ht-degree: 0%
 
 ---
 
-# 清單決定規則 {#list-decision-rules}
+# 清單決策規則 {#list-decision-rules}
 
-決策規則是新增至個人化優惠方案的限制，並套用至設定檔以判斷資格。 您可以對執行單一GET請求，以檢視容器內現有決策規則的清單 [!DNL Offer Library] API。
+決策規則是新增至個人化優惠方案的限制，並套用至設定檔以判斷資格。 您可以對 [!DNL Offer Library] API。
 
 **API格式**
 

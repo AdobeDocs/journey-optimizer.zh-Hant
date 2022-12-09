@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 1%
+source-wordcount: '834'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="區段資格事件"
->abstract="此活動可讓您的歷程監聽Adobe Experience Platform區段中設定檔的入口和出口，以便讓個人進入歷程或在歷程中前進。"
+>abstract="此活動可讓您的歷程聆聽Adobe Experience Platform區段中設定檔的入口和出口，以便讓個人在歷程中進入或前進。"
 
-此活動可讓您的歷程監聽Adobe Experience Platform區段中設定檔的入口和出口，以便讓個人進入歷程或在歷程中前進。 如需區段建立的詳細資訊，請參閱 [節](../segment/about-segments.md).
+此活動可讓您的歷程聆聽Adobe Experience Platform區段中設定檔的入口和出口，以便讓個人在歷程中進入或前進。 如需區段建立的詳細資訊，請參閱 [節](../segment/about-segments.md).
 
 假設您有「銀色客戶」區段。 透過此活動，您可以讓所有新銀級客戶進入歷程，並傳送一系列個人化訊息。
 
@@ -32,20 +32,20 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->請記住，Adobe Experience Platform區段每天計算一次(**批次** 區段)或即時(**流式** 區段，使用Adobe Experience Platform的「高頻率對象」選項。
+>請記住，Adobe Experience Platform區段每天計算一次(**批次** 區段)或即時(**流式** 區段，使用Adobe Experience Platform的「高頻率受眾」選項。
 >
->如果將選取的區段串流化，屬於此區段的個人可能會即時進入歷程。 如果區段為批次，新符合此區段資格的人員可能會在Adobe Experience Platform上執行區段計算時進入歷程。
+>如果將選取的區段串流化，屬於此區段的個人可能會即時進入歷程。 如果區段為批次，在Adobe Experience Platform上執行區段計算時，新符合此區段資格的人員可能會進入歷程。
 >
 >從讀取區段、區段資格或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。
 
 
-1. 展開 **[!UICONTROL 事件]** 類別和拖放 **[!UICONTROL 區段資格]** 活動進入您的畫布。
+1. 展開 **[!UICONTROL Events]** 類別和拖放 **[!UICONTROL Segment Qualification]** 活動進入您的畫布。
 
    ![](assets/segment5.png)
 
-1. 新增 **[!UICONTROL 標籤]** 至活動。 此步驟為選填。
+1. 新增 **[!UICONTROL Label]** 至活動。 此步驟為選用。
 
-1. 按一下 **[!UICONTROL 區段]** 欄位，並選取您要運用的區段。
+1. 按一下 **[!UICONTROL Segment]** 欄位，並選取您要運用的區段。
 
    >[!NOTE]
    >
@@ -53,17 +53,17 @@ ht-degree: 1%
 
    ![](assets/segment6.png)
 
-   新增區段後， **[!UICONTROL 複製]** 按鈕可讓您複製其名稱和ID:
+   新增區段後， **[!UICONTROL Copy]** 按鈕可讓您複製其名稱和ID:
 
    `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/segment-copy.png)
 
-1. 在 **[!UICONTROL 行為]** 欄位，選擇您要監聽區段入口、出口還是兩者。
+1. 在 **[!UICONTROL Behaviour]** 欄位，選擇您要監聽區段入口、出口還是兩者。
 
    >[!NOTE]
    >
-   >請注意 **[!UICONTROL 輸入]** 和 **[!UICONTROL 退出]** 對應至 **已實現** 和 **退出** 來自Adobe Experience Platform的區段參與狀態。 如需如何評估區段的詳細資訊，請參閱 [區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}。
+   >請注意 **[!UICONTROL Enter]** 和 **[!UICONTROL Exit]** 對應至 **已實現** 和 **退出** 來自Adobe Experience Platform的區段參與狀態。 如需如何評估區段的詳細資訊，請參閱 [區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}。
 
 1. 選取命名空間。 唯有將事件定位為歷程的第一步時，才需要此選項。
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 * 資格時間戳記
 * 區段id
 
-在遵循的條件或動作中使用運算式編輯器時 **[!UICONTROL 區段資格]** 活動，您可以存取 **[!UICONTROL SegmentQualification]** 節點。 您可以選擇 **[!UICONTROL 上次資格時間]** 和 **[!UICONTROL 狀態]** （輸入或退出）。
+在遵循的條件或動作中使用運算式編輯器時 **[!UICONTROL Segment Qualification]** 活動，您可以存取 **[!UICONTROL SegmentQualification]** 節點。 您可以選擇 **[!UICONTROL Last qualification time]** 和 **[!UICONTROL status]** （輸入或退出）。
 
 請參閱 [條件活動](../building-journeys/condition-activity.md#about_condition).
 
@@ -83,9 +83,9 @@ ht-degree: 1%
 
 包含區段資格事件的新歷程會在您發佈後10分鐘內運作。 此時間間隔對應於專用服務的快取刷新間隔。 因此，您必須等待10分鐘才能使用此歷程。
 
-## 最佳做法 {#best-practices-segments}
+## 最佳實務 {#best-practices-segments}
 
-此 **[!UICONTROL 區段資格]** 活動可讓從Adobe Experience Platform區段中取得資格或取消資格之個人的歷程立即進入。
+此 **[!UICONTROL Segment Qualification]** 活動可讓符合Adobe Experience Platform區段資格或被取消資格的個人，在歷程中立即進入。
 
 這種資訊的接收速度很快。 進行的測量顯示每秒收到10,000個事件的速度。 因此，你應該確保你明白，如何達到入口高峰，如何避開它們，以及如何為它們做好準備。
 
@@ -105,12 +105,12 @@ ht-degree: 1%
 
 以下是一些最佳實務，可協助避免歷程中運用的系統超載（資料來源、自訂動作、管道動作活動）。
 
-請勿在 **[!UICONTROL 區段資格]** 活動，即建立後立即批次區段。 它將避免第一個計算峰值。 請注意，如果您要使用從未計算過的區段，歷程畫布中會出現黃色警告。
+請勿在 **[!UICONTROL Segment Qualification]** 活動，即建立後立即批次區段。 它將避免第一個計算峰值。 請注意，如果您要使用從未計算過的區段，歷程畫布中會出現黃色警告。
 
 ![](assets/segment-error.png)
 
-為歷程中使用的資料來源和動作設定上限規則，以避免超出負載。 深入了解 [Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}。 請注意，上限規則沒有重試。 如果您需要重試，您必須核取方塊，以在歷程中使用替代路徑 **[!UICONTROL 新增替代路徑以防逾時或發生錯誤]** 在條件或動作中。
+為歷程中使用的資料來源和動作設定上限規則，以避免超出負載。 深入了解 [Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}。 請注意，上限規則沒有重試。 如果您需要重試，您必須核取方塊，以在歷程中使用替代路徑 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 在條件或動作中。
 
-在生產歷程中使用區段之前，請務必先評估每天符合此區段資格的個人數量。 若要這麼做，您可以檢查 **[!UICONTROL 區段]** 功能表，開啟區段，然後查看 **[!UICONTROL 一段時間的設定檔]** 圖表。
+在生產歷程中使用區段之前，請務必先評估每天符合此區段資格的個人數量。 若要這麼做，您可以檢查 **[!UICONTROL Segments]** 功能表，開啟區段，然後查看 **[!UICONTROL Profiles over time]** 圖表。
 
 ![](assets/segment-overload.png)

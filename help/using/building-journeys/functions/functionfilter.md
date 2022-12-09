@@ -9,7 +9,7 @@ exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 |-----------|------------------|------------------|
 | listToFilter | listObject | 要篩選的對象清單。 它必須是欄位參考。 |
 | keyAttributeName | 字串 | 屬性名稱（在給定清單的對象中），用作篩選的鍵 |
-| keyValueList | list | 篩選的索引鍵值陣列 |
+| keyValueList | 清單 | 篩選的索引鍵值陣列 |
 
 ## 簽名和返回的類型
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 7%
+source-wordcount: '1103'
+ht-degree: 0%
 
 ---
 
@@ -32,16 +32,16 @@ ht-degree: 7%
 >
 >您也可以觀看業務事件使用案例 [教學課程](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html). 請注意，不需要為設定檔啟用結構。
 
-## 重要備註 {#important-notes}
+## 重要附註 {#important-notes}
 
 * 只有時間序列結構可用。 無法使用體驗事件、決策事件和歷程步驟事件結構。
 * 事件結構必須包含非以人為基礎的主要身分。 定義事件時必須選取下列欄位： `_id` 和 `timestamp`
 * 業務事件只能視為歷程的第一步。
 * 將業務事件拖放為歷程的第一步時，歷程的排程器類型將是「業務事件」。
 * 在業務事件後，只能捨棄讀取區段活動。 系統會自動新增為下一個步驟。
-* 若要允許執行多個業務事件，請在 **[!UICONTROL 執行]** 區段。
+* 若要允許執行多個業務事件，請在 **[!UICONTROL Execution]** 區段。
 * 觸發業務事件後，將區段從15分鐘匯出至最多1小時會有延遲。
-* 測試業務事件時，您必須傳遞事件參數以及測試設定檔的識別碼，以便在測試中輸入歷程。 此外，在測試以業務事件為基礎的歷程時，您只能觸發單一設定檔入口。 請參閱[本節](../building-journeys/testing-the-journey.md#test-business)。在測試模式中，沒有可用的「程式碼檢視」模式。
+* 測試業務事件時，您必須傳遞事件參數以及測試設定檔的識別碼，以便在測試中輸入歷程。 此外，在測試以業務事件為基礎的歷程時，您只能觸發單一設定檔入口。 請參閱 [本節](../building-journeys/testing-the-journey.md#test-business). 在測試模式中，沒有可用的「程式碼檢視」模式。
 * 如果新的業務事件到達，目前處於歷程中的個人會發生什麼事？ 其運作方式與當新週期發生時，個人仍處於循環歷程中的情況相同。 他們的路終了。 因此，如果行銷人員預期會發生頻繁的業務事件，就必須注意避免建立過長的歷程。
 * 業務事件不能與單一事件或區段資格活動搭配使用。
 
@@ -55,17 +55,17 @@ ht-degree: 7%
 
 **避免過載實體化段的護欄是什麼？**
 
-若是即時業務事件，對於指定的歷程，由第一個事件工作推播的資料會在1小時的時間範圍內重複使用。 對於已排程的歷程，沒有護欄。 進一步了解 [Adobe Experience Platform區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+若是即時業務事件，對於指定的歷程，由第一個事件工作推播的資料會在1小時的時間範圍內重複使用。 對於已排程的歷程，沒有護欄。 進一步了解 [Adobe Experience Platform細分服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 ## 開始使用業務活動 {#gs-business-events}
 
 以下是設定業務事件的前幾個步驟：
 
-1. 在「管理」(ADMINISTRATION)菜單部分中，選擇 **[!UICONTROL 配置]**. 在  **[!UICONTROL 事件]** ，按一下 **[!UICONTROL 管理]**. 畫面隨即顯示事件清單。
+1. 在「管理」(ADMINISTRATION)菜單部分中，選擇 **[!UICONTROL Configurations]**. 在  **[!UICONTROL Events]** ，按一下 **[!UICONTROL Manage]**. 隨即顯示事件清單。
 
    ![](assets/jo-event1.png)
 
-1. 按一下 **[!UICONTROL 建立事件]** 來建立新事件。 事件設定窗格會在畫面右側開啟。
+1. 按一下 **[!UICONTROL Create Event]** 來建立新事件。 事件設定窗格會在畫面右側開啟。
 
    ![](assets/jo-event2.png)
 
@@ -75,15 +75,15 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >請勿使用空格或特殊字元。請勿使用超過 30 個字元。
+   >請勿使用空格或特殊字元。 請勿使用超過30個字元。
 
-1. 在 **[!UICONTROL 類型]** 欄位，選擇 **企業**.
+1. 在 **[!UICONTROL Type]** 欄位，選擇 **企業**.
 
    ![](assets/jo-event3bis-business.png)
 
-1. 使用此事件的歷程次數會顯示在 **[!UICONTROL 用於]** 欄位。 您可以按一下 **[!UICONTROL 檢視歷程]** 圖示以顯示使用此事件的歷程清單。
+1. 使用此事件的歷程次數會顯示在 **[!UICONTROL Used in]** 欄位。 您可以按一下 **[!UICONTROL View journeys]** 圖示以顯示使用此事件的歷程清單。
 
-1. 定義結構和裝載欄位：這是您選取歷程預期會收到的事件資訊（或裝載）的位置。 您稍後將在歷程中使用此資訊。 請參閱[本節](../event/about-creating-business.md#define-the-payload-fields)。
+1. 定義結構和裝載欄位：這是您選取歷程預期會收到的事件資訊（或裝載）的位置。 您稍後將在歷程中使用此資訊。 請參閱 [本節](../event/about-creating-business.md#define-the-payload-fields).
 
    ![](assets/jo-event5-business.png)
 
@@ -91,7 +91,7 @@ ht-degree: 7%
 
    ![](assets/test-profiles-4.png)
 
-1. 按一下內部 **[!UICONTROL 事件ID條件]** 欄位。 使用簡單運算式編輯器來定義條件，系統用來識別會觸發歷程的事件。
+1. 按一下內部 **[!UICONTROL Event ID condition]** 欄位。 使用簡單運算式編輯器來定義條件，系統用來識別會觸發歷程的事件。
 
    ![](assets/jo-event6-business.png)
 
@@ -101,17 +101,17 @@ ht-degree: 7%
    >
    >在簡單運算式編輯器中，並非所有運算子都可用，它們取決於資料類型。 例如，對於欄位的字串類型，您可以使用「包含」或「等於」。
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下 **[!UICONTROL Save]**.
 
    ![](assets/journey7-business.png)
 
-   條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。在[本頁](../event/additional-steps-to-send-events-to-journey.md)中瞭解更多。
+   事件現在已設定完畢，且準備好放入歷程中。 接收事件需要執行其他設定步驟。 深入了解 [本頁](../event/additional-steps-to-send-events-to-journey.md).
 
 ## 定義裝載欄位 {#define-the-payload-fields}
 
-有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯之人員的金鑰。 裝載以Experience CloudXDM欄位定義為基礎。 如需XDM的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯之人員的金鑰。 裝載是以Experience Cloud XDM欄位定義為基礎。 如需XDM的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}。
 
-1. 從清單中選取XDM架構，然後按一下 **[!UICONTROL 欄位]** 欄位或 **[!UICONTROL 編輯]** 表徵圖。
+1. 從清單中選取XDM架構，然後按一下 **[!UICONTROL Fields]** 欄位或 **[!UICONTROL Edit]** 表徵圖。
 
    ![](assets/journey8-business.png)
 
@@ -125,9 +125,9 @@ ht-degree: 7%
 
 1. 選取您要從事件接收的欄位。 這些是業務使用者在歷程中將利用的欄位。
 
-1. 選取完所需欄位後，按一下 **[!UICONTROL 儲存]** 或按下 **[!UICONTROL 輸入]**.
+1. 選取完所需欄位後，按一下 **[!UICONTROL Save]** 或按下 **[!UICONTROL Enter]**.
 
-   選取的欄位數會顯示在 **[!UICONTROL 欄位]**.
+   選取的欄位數會顯示在 **[!UICONTROL Fields]**.
 
    ![](assets/journey12-business.png)
 
@@ -135,7 +135,7 @@ ht-degree: 7%
 
 使用裝載預覽來驗證裝載定義。
 
-1. 按一下 **[!UICONTROL 檢視裝載]** 圖示來預覽系統預期的裝載。
+1. 按一下 **[!UICONTROL View Payload]** 圖示來預覽系統預期的裝載。
 
    ![](assets/journey13-business.png)
 
@@ -145,4 +145,4 @@ ht-degree: 7%
 
 1. 檢查預覽以驗證有效負載定義。
 
-1. 接著，您可以將裝載預覽與事件傳送的負責人共用。 此裝載可協助他們設計推送至的事件設定 [!DNL Journey Optimizer]. 請參閱[此頁面](../event/additional-steps-to-send-events-to-journey.md)。
+1. 接著，您可以將裝載預覽與事件傳送的負責人共用。 此裝載可協助他們設計推送至的事件設定 [!DNL Journey Optimizer]. 請參閱 [本頁](../event/additional-steps-to-send-events-to-journey.md).

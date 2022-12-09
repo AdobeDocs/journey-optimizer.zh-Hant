@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: journeyStep 事件動作執行欄位
-description: journeyStep 事件動作執行欄位
+title: journeyStep事件動作執行欄位
+description: journeyStep事件動作執行欄位
 feature: Reporting
 topic: Content Management
 role: User
@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 12%
+source-wordcount: '323'
+ht-degree: 0%
 
 ---
 
-# journeyStep 事件動作執行欄位 {#sharing-execution-fields}
+# journeyStep事件動作執行欄位 {#sharing-execution-fields}
 
 此欄位群組將由journeyStepEvent和journeyStepProfileEvent共用。
 
@@ -25,25 +25,25 @@ ht-degree: 12%
 
 正在執行的動作ID。
 
-類型: 字串
+類型：字串
 
 ## actionName {#actionname-field}
 
 動作名稱。 如果未設定名稱，則會採用stepName。
 
-類型: 字串
+類型：字串
 
 ## actionType {#actionType-field}
 
 動作的類型。
 
-類型: 字串
+類型：字串
 
 ## actionParametered {#actionparameterized-field}
 
 指示操作是否為參數化。
 
-類型: 布林值
+類型：布林值
 
 ## actionExecutionTime {#actionexecutiontime-field}
 
@@ -55,19 +55,19 @@ ht-degree: 12%
 
 呼叫動作時發生的錯誤類型。
 
-類型: 字串
+類型：字串
 
 值：
 * http
 * 上限
-* timeout
-* error
+* 逾時
+* 錯誤
 
 ## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
 動作執行錯誤的程式碼。 如果錯誤有程式碼（例如HTTP程式碼），則顯示。
 
-類型: 字串
+類型：字串
 
 ## actionExecutionOriginError {#actionexecutionoriginerror-field}
 
@@ -89,13 +89,13 @@ ht-degree: 12%
     "actionExecOrigErrorCode": "500"
 ```
 
-類型: 字串
+類型：字串
 
 ## actionExecutionOriginCode {#actionexecutionorigincode-field}
 
 actionExecOrigError的錯誤代碼。
 
-類型: 字串
+類型：字串
 
 ## actionBusinessType {#actionbusinesstype-field}
 
@@ -111,25 +111,25 @@ actionExecOrigError的錯誤代碼。
 * Epsilon
 * ...
 
-類型: 字串
+類型：字串
 
 ## deliveryJobID {#deliveryjobid-field}
 
 這說明批次歷程的傳送作業ID。
 
-類型: 字串
+類型：字串
 
 ## batchDeliveryID {#batchdeliveryid-field}
 
 這說明批次歷程的傳送ID。
 
-類型: 字串
+類型：字串
 
 ## fromSegmentTrigger {#fromsegmenttrigger-field}
 
 此說明批次歷程是否從受眾區段觸發。
 
-類型: 布林值
+類型：布林值
 
 ## actionSchedulerCount {#actionschedulercount-field}
 

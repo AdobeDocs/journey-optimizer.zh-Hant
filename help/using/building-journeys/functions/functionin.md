@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: 在
+title: in
 description: 了解中的函式
 feature: Journeys
 role: Data Engineer
@@ -9,11 +9,11 @@ exl-id: 629b7aa3-8904-453b-ba3c-c6a333b13c81
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 19%
+ht-degree: 0%
 
 ---
 
-# 在  {#in}
+# in {#in}
 
 檢查清單中是否有第一個引數值。 檢查是通過每個參數值的Equal來執行的。 若找到引數值，則傳回true，否則傳回false。
 

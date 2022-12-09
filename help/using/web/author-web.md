@@ -1,6 +1,6 @@
 ---
 title: 製作網頁
-description: 了解如何在Journey Optimizer中撰寫網頁及編輯其內容
+description: 了解如何在Journey Optimizer中製作網頁及編輯其內容
 feature: Overview
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 4%
+source-wordcount: '1045'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 >
 >網路頻道功能目前僅供選取使用者的測試版使用。
 
-在 [!DNL Journey Optimizer] Adobe Experience Cloud Visual Helper chrome瀏覽器擴充功能提供網頁編寫功能。 [了解更多](visual-editing-helper.md)
+在 [!DNL Journey Optimizer] 網頁製作由Adobe Experience Cloud Visual Helper chrome瀏覽器擴充功能提供技術支援。 [深入了解](visual-editing-helper.md)
 
 若要存取及編寫 [!DNL Journey Optimizer] 使用者介面，遵循 [本節](create-web.md#prerequesites).
 
@@ -31,13 +31,13 @@ ht-degree: 4%
 >id="ajo_web_url_to_edit_surface"
 >title="輸入要編輯的URL"
 >abstract="輸入要用於編輯要應用於上面定義的Web曲面的內容的特定Web頁的URL。 網頁必須使用Adobe Experience Platform Web SDK實作。"
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="更多詳情"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="深入了解"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="輸入要編輯的URL"
 >abstract="輸入要用於編輯內容的特定網頁的URL，該內容將應用於符合規則的所有頁面。 網頁必須使用Adobe Experience Platform Web SDK實作。"
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="更多詳情"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="深入了解"
 
 <!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
 
@@ -45,9 +45,9 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->要在 [!DNL Journey Optimizer]，您的網頁必須使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+>要在 [!DNL Journey Optimizer]，您的網頁必須使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}。
 
-1. 從 **[!UICONTROL 動作]** 選取 **[!UICONTROL 編輯內容]** 開始編寫網頁行銷活動。
+1. 從 **[!UICONTROL Action]** 選取 **[!UICONTROL Edit content]** 開始編寫網頁行銷活動。
 
 1. 如果您建立的頁面符合規則，則必須輸入任何符合此規則的URL。 變更會套用至符合規則的所有頁面。
 
@@ -63,7 +63,7 @@ ht-degree: 4%
    >
    >網頁必須包含 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}。
 
-1. 按一下 **[!UICONTROL 開啟網頁設計工具]** 來編輯。 [了解更多](author-web.md)
+1. 按一下 **[!UICONTROL Open web designer]** 來編輯。 [深入了解](author-web.md)
 
    ![](assets/web-open-designer.png)
 
@@ -92,19 +92,19 @@ ht-degree: 4%
 >title="將內容元件新增至網頁"
 >abstract="您可以新增許多元件至您的網頁，並視需要加以編輯。"
 
-1. 從 **[!UICONTROL 元件]** 窗格，您可以將下列元件新增至您的網頁，並視需要加以編輯：
+1. 從 **[!UICONTROL Components]** 窗格，您可以將下列元件新增至您的網頁，並視需要加以編輯：
 
    * [除法器](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [影像](../email/content-components.md#image)
-   * 標題 — 使用此元件類似於使用 **[!UICONTROL 文字]** 元件。 [了解更多](../email/content-components.md#text)
-   * 段落 — 使用此元件類似於使用 **[!UICONTROL 文字]** 元件。 [了解更多](../email/content-components.md#text)
+   * 標題 — 使用此元件類似於使用 **[!UICONTROL Text]** 元件。 [深入了解](../email/content-components.md#text)
+   * 段落 — 使用此元件類似於使用 **[!UICONTROL Text]** 元件。 [深入了解](../email/content-components.md#text)
    * 連結 — 了解如何在 [本節](../email/styling-links.md)
    * [優惠方案決策](../email/add-offers-email.md)
 
    ![](assets/web-designer-components.png)
 
-1. 將滑鼠指標暫留在頁面中，按一下 **[!UICONTROL 插入在前]** 或 **[!UICONTROL 插入在後]** 按鈕，將元件附加至頁面上的現有元素。
+1. 將滑鼠指標暫留在頁面中，按一下 **[!UICONTROL Insert before]** 或 **[!UICONTROL Insert after]** 按鈕，將元件附加至頁面上的現有元素。
 
    ![](assets/web-designer-insert-components.png)
 
@@ -112,7 +112,7 @@ ht-degree: 4%
 
    ![](assets/web-designer-edit-html.png)
 
-1. 調整從 **[!UICONTROL 容器]** 窗格，如背景、文字顏色、邊框、大小、位置等。 取決於所選元件。
+1. 調整從 **[!UICONTROL Container]** 窗格，如背景、文字顏色、邊框、大小、位置等。 取決於所選元件。
 
    ![](assets/web-designer-html-style.png)
 
@@ -122,7 +122,7 @@ ht-degree: 4%
 
 1. 從畫布選取任何元素。
 
-1. 按一下 **[!UICONTROL 展開/折疊階層連結]** 按鈕，快速顯示所選元素的相關資訊。
+1. 按一下 **[!UICONTROL Expand/Collapse Breadcrumbs]** 按鈕，快速顯示所選元素的相關資訊。
 
    ![](assets/web-designer-breadcrumbs.png)
 
@@ -137,17 +137,17 @@ ht-degree: 4%
 >title="使用瀏覽模式"
 >abstract="在此模式中，您可以從您要個人化的選定曲面導覽至確切頁面。"
 
-您可以從預設值交換 **[!UICONTROL 設計]** 模式 **[!UICONTROL 瀏覽]** 模式。
+您可以從預設值交換 **[!UICONTROL Design]** 模式 **[!UICONTROL Browse]** 模式。
 
 ![](assets/web-designer-browse-mode.png)
 
-從 **[!UICONTROL 瀏覽]** 模式中，您可以從要個性化的選定曲面導航到確切頁面。
+從 **[!UICONTROL Browse]** 模式中，您可以從要個性化的選定曲面導航到確切頁面。
 
-在處理驗證後面的頁面，或從某個URL開始就無法使用的頁面時，它特別有用。 例如，您將能夠驗證、導覽至您的帳戶頁面或購物車頁面，然後切換回 **[!UICONTROL 設計]** 模式，以在您想要的頁面上執行變更。
+在處理驗證後面的頁面，或從某個URL開始就無法使用的頁面時，它特別有用。 例如，您將能夠驗證、導覽至您的帳戶頁面或購物車頁面，然後切換回 **[!UICONTROL Design]** 模式，以在您想要的頁面上執行變更。
 
 ### 更改設備大小
 
-您可以將裝置大小變更為預先定義的大小，例如 **[!UICONTROL 平板電腦]** 或 **[!UICONTROL 行動橫向]**，或定義自訂大小。 輸入要定義自訂大小的像素數。
+您可以將裝置大小變更為預先定義的大小，例如 **[!UICONTROL Tablet]** 或 **[!UICONTROL Mobile landscape]**，或定義自訂大小。 輸入要定義自訂大小的像素數。
 
 您也可以將縮放焦點從25%變更為400%。
 
@@ -162,7 +162,7 @@ ht-degree: 4%
 
 您可以輕鬆管理新增至網頁的所有元件、調整和樣式。
 
-1. 選取 **[!UICONTROL 修改]** 按鈕，在左側顯示相應的窗格。
+1. 選取 **[!UICONTROL Modifications]** 按鈕，在左側顯示相應的窗格。
 
    ![](assets/web-designer-modifications-pane.png)
 
@@ -176,19 +176,19 @@ ht-degree: 4%
    >
    >刪除動作可能會影響後續動作時，請謹慎處理。
 
-1. 您也可以使用 **[!UICONTROL 還原/重做]** 按鈕。
+1. 您也可以使用 **[!UICONTROL Undo/Redo]** 按鈕。
 
    ![](assets/web-designer-undo-redo.png)
 
-   按一下並按住按鈕，以在 **[!UICONTROL 還原]** 和 **[!UICONTROL 取消復原]** 選項。 然後按一下按鈕本身以套用所需的動作。
+   按一下並按住按鈕，以在 **[!UICONTROL Undo]** 和 **[!UICONTROL Redo]** 選項。 然後按一下按鈕本身以套用所需的動作。
 
 ## 新增個人化和選件
 
-若要新增個人化，請選取容器，然後從顯示的內容功能表列中選取個人化圖示。 使用運算式編輯器新增變更。 [了解更多](../personalization/personalization-build-expressions.md)
+若要新增個人化，請選取容器，然後從顯示的內容功能表列中選取個人化圖示。 使用運算式編輯器新增變更。 [深入了解](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
 
-使用 **[!UICONTROL 優惠方案決策]** 插入元件 [優惠](../offers/get-started/starting-offer-decisioning.md) 填入您的網頁。 程式與 [將優惠方案新增至電子郵件](../email/add-offers-email.md). 它將利用決策管理來挑選最適合客戶的優惠方案。
+使用 **[!UICONTROL Offer decision]** 插入元件 [優惠](../offers/get-started/starting-offer-decisioning.md) 填入您的網頁。 程式與 [將優惠方案新增至電子郵件](../email/add-offers-email.md). 它將利用決策管理來挑選最適合客戶的優惠方案。
 
 ![](assets/web-designer-offer.png)
 
@@ -205,11 +205,11 @@ ht-degree: 4%
 >
 >您必須有可用的測試設定檔，以模擬將會提供哪些選件給他們。 了解如何 [建立測試設定檔](../segment/creating-test-profiles.md).
 
-1. 從 **[!UICONTROL 編輯內容]** 螢幕或Web設計器，選擇 **[!UICONTROL 模擬內容]**.
+1. 從 **[!UICONTROL Edit content]** 螢幕或Web設計器，選擇 **[!UICONTROL Simulate content]**.
 
    ![](assets/web-designer-simulate.png)
 
-1. 按一下 **[!UICONTROL 管理測試設定檔]** 來選取一或多個測試設定檔。
+1. 按一下 **[!UICONTROL Manage test profiles]** 來選取一或多個測試設定檔。
 1. 將顯示已修改網頁的預覽。
 
    ![](assets/web-designer-preview.png)

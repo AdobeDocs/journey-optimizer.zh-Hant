@@ -10,8 +10,8 @@ hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 3%
+source-wordcount: '464'
+ht-degree: 0%
 
 ---
 
@@ -40,19 +40,19 @@ ht-degree: 3%
 
 建立和傳送直接郵件訊息的步驟如下：
 
-1. 建立新的排程促銷活動，請選取 **[!UICONTROL 直接郵件]** 作為操作，並選擇要使用的通道曲面。 [了解如何建立直接郵件表面](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
+1. 建立新的排程促銷活動，請選取 **[!UICONTROL Direct mail]** 作為操作，並選擇要使用的通道曲面。 [了解如何建立直接郵件表面](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
 
    ![](assets/direct-mail-campaign.png)
 
-1. 按一下 **[!UICONTROL 建立]** 然後定義行銷活動的基本資訊（名稱、說明）。 [了解如何設定行銷活動](../campaigns/create-campaign.md)
+1. 按一下 **[!UICONTROL Create]** 然後定義行銷活動的基本資訊（名稱、說明）。 [了解如何設定行銷活動](../campaigns/create-campaign.md)
 
    ![](assets/direct-mail-edit.png)
 
-1. 按一下 **[!UICONTROL 編輯內容]** 按鈕來設定要傳送至直接郵件提供者的解壓縮檔案。
+1. 按一下 **[!UICONTROL Edit content]** 按鈕來設定要傳送至直接郵件提供者的解壓縮檔案。
 
-1. 在 **[!UICONTROL 檔案名]** 欄位。
+1. 在 **[!UICONTROL Filename]** 欄位。
 
-   有時候，您可能需要在解壓縮檔案的開頭或結尾新增資訊。若要這麼做，請使用 **[!UICONTROL 附註]** 欄位，然後指定是否要將注釋作為頁眉或頁腳。
+   有時候，您可能需要在解壓縮檔案的開頭或結尾新增資訊。 若要這麼做，請使用 **[!UICONTROL Notes]** 欄位，然後指定是否要將注釋作為頁眉或頁腳。
 
    <!--Click on the button to the right of the Output file field and enter the desired label. You can use personalization fields, content blocks and dynamic text (see Defining content). For example, you can complete the label with the delivery ID or the extraction date.-->
 
@@ -60,19 +60,19 @@ ht-degree: 3%
 
 1. 使用左側區域來定義要在解壓縮檔案中顯示為列的資訊：
 
-   1. 按一下 **[!UICONTROL 新增]** 按鈕來添加新列，然後從清單中選擇該列。
+   1. 按一下 **[!UICONTROL Add]** 按鈕來添加新列，然後從清單中選擇該列。
 
-   1. 在 **[!UICONTROL 格式]** 區段，指定欄的標籤，然後定義要使用 [運算式編輯器](../personalization/personalization-build-expressions.md).
+   1. 在 **[!UICONTROL Formatting]** 區段，指定欄的標籤，然後定義要使用 [運算式編輯器](../personalization/personalization-build-expressions.md).
 
       ![](assets/direct-mail-content.png)
 
-   1. 若要使用選取的欄來排序解壓縮檔案，請切換 **[!UICONTROL 排序依據]** 選項。 此 **[!UICONTROL 排序依據]** 圖示便會顯示在檔案結構中欄標籤旁。
+   1. 若要使用選取的欄來排序解壓縮檔案，請切換 **[!UICONTROL Sort by]** 選項。 此 **[!UICONTROL Sort By]** 圖示便會顯示在檔案結構中欄標籤旁。
 
 1. 重複這些步驟，視需要新增多欄，以建立解壓縮檔案。 請注意，您最多可以新增50欄。
 
    ![](assets/direct-mail-complete.png)
 
-   您隨時可以選取欄並按一下 **[!UICONTROL 移除]** 按鈕 **[!UICONTROL 格式]** 區段。
+   您隨時可以選取欄並按一下 **[!UICONTROL Remove]** 按鈕 **[!UICONTROL Formatting]** 區段。
 
 1. 定義直接郵件內容後，請完成促銷活動的設定。
 

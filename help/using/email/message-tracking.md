@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 9%
+source-wordcount: '652'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 
 ## 啟用追蹤 {#enable-tracking}
 
-您可以檢查 **[!UICONTROL 電子郵件開啟]** 和/或 **[!UICONTROL 按一下電子郵件]** 選項。
+您可以檢查 **[!UICONTROL Email opens]** 和/或 **[!UICONTROL Click on email]** 選項。
 
 >[!BEGINTABS]
 
@@ -41,8 +41,8 @@ ht-degree: 9%
 
 這可讓您透過以下方式追蹤收件者的行為：
 
-* **[!UICONTROL 電子郵件開啟]**:已開啟的訊息。
-* **[!UICONTROL 按一下電子郵件]**:點按電子郵件中的連結。
+* **[!UICONTROL Email opens]**:已開啟的訊息。
+* **[!UICONTROL Click on email]**:點按電子郵件中的連結。
 
 ## 插入連結 {#insert-links}
 
@@ -54,31 +54,31 @@ ht-degree: 9%
 
 若要將連結插入電子郵件內容，請遵循下列步驟：
 
-1. 選取元素並按一下 **[!UICONTROL 插入連結]** 中。
+1. 選取元素並按一下 **[!UICONTROL Insert link]** 中。
 
    ![](assets/message-tracking-insert-link.png)
 
 1. 選擇要建立的連結類型：
 
-   * **[!UICONTROL 外部連結]**:插入外部URL的連結。
+   * **[!UICONTROL External link]**:插入外部URL的連結。
 
-   * **[!UICONTROL 登陸頁面]**:插入登錄頁面的連結。 請參閱[本節](../landing-pages/get-started-lp.md)以進一步瞭解
+   * **[!UICONTROL Landing page]**:插入登錄頁面的連結。 深入了解 [本節](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL 按一下「選擇退出」]**:插入連結，讓使用者無需確認選擇退出即可快速取消訂閱您的通訊內容。 請參閱[此章節](../privacy/opt-out.md#one-click-opt-out)深入瞭解。
+   * **[!UICONTROL One click Opt-out]**:插入連結，讓使用者無需確認選擇退出即可快速取消訂閱您的通訊內容。 深入了解 [本節](../privacy/opt-out.md#one-click-opt-out).
 
-   * **[!UICONTROL 外部選擇加入/訂閱]**:插入連結以接受來自您品牌的通訊。
+   * **[!UICONTROL External Opt-in/Subscription]**:插入連結以接受來自您品牌的通訊。
 
-   * **[!UICONTROL 外部選擇退出/取消訂閱]**:插入連結以取消訂閱以免接收來自您品牌的通訊。 進一步瞭解[本章節](../privacy/opt-out.md#opt-out-management)中的選擇退出管理。
+   * **[!UICONTROL External Opt-out/Unsubscription]**:插入連結以取消訂閱以免接收來自您品牌的通訊。 進一步了解 [本節](../privacy/opt-out.md#opt-out-management).
 
-   * **[!UICONTROL 鏡像頁面]**:插入連結以在網頁瀏覽器中顯示電子郵件內容。 請參閱[此章節](#mirror-page)深入瞭解。
+   * **[!UICONTROL Mirror page]**:插入連結以在網頁瀏覽器中顯示電子郵件內容。 深入了解 [本節](#mirror-page).
 
    ![](assets/message-tracking-links.png)
 
-1. 您可以個人化連結。 進一步瞭解[本章節](../personalization/personalization-syntax.md#perso-urls)的個人化 URL。
+1. 您可以個人化您的連結。 進一步了解個人化URL，位於 [本節](../personalization/personalization-syntax.md#perso-urls).
 
 1. 儲存您的變更。
 
-1. 建立連結後，您仍可從 **[!UICONTROL 元件設定]** 窗格。
+1. 建立連結後，您仍可從 **[!UICONTROL Component settings]** 窗格。
 
    * 您可以編輯連結並變更其類型。
    * 您可以核取對應的選項，選擇是否將連結加底線。
@@ -87,13 +87,13 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->行銷類型的電子郵件訊息必須包含 [退出連結](../privacy/opt-out.md#opt-out-management)，這對交易式訊息並非必要。 訊息類別 (**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 交易]**) 會在[頻道介面](../configuration/channel-surfaces.md#email-type) (即訊息預設) 層級建立訊息時定義。
+>行銷類型的電子郵件訊息必須包含 [退出連結](../privacy/opt-out.md#opt-out-management)，這對交易式訊息並非必要。 訊息類別(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**)是在 [通道表面](../configuration/channel-surfaces.md#email-type) （即訊息預設集）層級和建立訊息時。
 
 ## 連結至鏡像頁面 {#mirror-page}
 
 鏡像頁面是可透過網頁瀏覽器線上存取的HTML頁面。 其內容與您的電子郵件內容相同。
 
-若要將連結新增至電子郵件中的鏡像頁面， [插入連結](#insert-links) 選取 **[!UICONTROL 鏡像頁面]** 作為連結的類型。
+若要將連結新增至電子郵件中的鏡像頁面， [插入連結](#insert-links) 選取 **[!UICONTROL Mirror page]** 作為連結的類型。
 
 ![](assets/message-tracking-mirror-page.png)
 
@@ -115,7 +115,7 @@ ht-degree: 9%
 
 此 [電子郵件設計工具](content-from-scratch.md) 可讓您管理追蹤的URL，例如編輯每個連結的追蹤類型。
 
-1. 按一下 **[!UICONTROL 連結]** 圖示，顯示將被追蹤之內容的所有URL清單。
+1. 按一下 **[!UICONTROL Links]** 圖示，顯示將被追蹤之內容的所有URL清單。
 
    此清單可讓您集中檢視，並找出電子郵件內容中的每個URL。
 
@@ -123,15 +123,15 @@ ht-degree: 9%
 
    ![](assets/message-tracking-edit-links.png)
 
-1. 您可以修改 **[!UICONTROL 追蹤類型]** 如有需要：
+1. 您可以修改 **[!UICONTROL Tracking Type]** 如有需要：
 
    ![](assets/message-tracking-edit-a-link.png)
 
    對於每個追蹤的URL，您可以將追蹤模式設為下列其中一個值：
 
-   * **[!UICONTROL 追蹤]**:在此URL上啟用追蹤。
-   * **[!UICONTROL 選擇退出]**:將此URL視為選擇退出或取消訂閱URL。
-   * **[!UICONTROL 鏡像頁面]**:將此URL視為鏡像頁面URL。
-   * **[!UICONTROL 從不]**:切勿啟用此URL的追蹤。 <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Tracked]**:在此URL上啟用追蹤。
+   * **[!UICONTROL Opt out]**:將此URL視為選擇退出或取消訂閱URL。
+   * **[!UICONTROL Mirror page]**:將此URL視為鏡像頁面URL。
+   * **[!UICONTROL Never]**:切勿啟用此URL的追蹤。 <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 可在 [即時報表](../reports/live-report.md) 和 [全域報表](../reports/global-report.md).

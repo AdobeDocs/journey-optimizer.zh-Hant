@@ -1,6 +1,6 @@
 ---
 title: 在電子郵件中使用個人化優惠方案
-description: 探索端對端範例，以說明設定優惠方案並將其用於電子郵件所需的所有步驟。
+description: 探索端對端範例，展示設定優惠方案並在電子郵件中使用這些優惠方案所需的所有步驟。
 feature: Offers
 topic: Integrations
 role: User
@@ -8,12 +8,12 @@ level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 6%
+source-wordcount: '1065'
+ht-degree: 0%
 
 ---
 
-# 使用案例：設定個人化優惠以在電子郵件中使用 {#configure-add-personalized-offers-email}
+# 使用案例：設定個人化優惠方案以在電子郵件中使用 {#configure-add-personalized-offers-email}
 
 本節提供端對端範例，說明如何根據您先前建立的決策，設定優惠方案並在電子郵件中使用優惠方案。
 
@@ -23,8 +23,8 @@ ht-degree: 6%
 
 1. 建立優惠方案之前， [定義元件](#define-components)
 
-   * 建立位置
-   * 建立決定規則
+   * 建立版位
+   * 建立決策規則
    * 建立標籤
    * 建立排名（可選）
 
@@ -37,13 +37,13 @@ ht-degree: 6%
       * 為每個選件新增規則
       * 為每個選件定義優先順序
 
-1. [建立遞補優惠](#create-fallback)
+1. [建立回退優惠方案](#create-fallback)
 
 1. [建立集合](#create-collection) 納入您建立的個人化優惠方案
 
 1. [設定決策](#configure-decision)
 
-   * 建立決定
+   * 建立決策
    * 選取您建立的版位
    * 為每個版位選取集合
    * 對於每個版位，選取排名（選用）
@@ -63,7 +63,7 @@ ht-degree: 6%
 
 開始建立選件之前，您必須定義要在選件中使用的數個元件。
 
-您會在 **[!UICONTROL 決策管理]** > **[!UICONTROL 元件功能表]**.
+您會在 **[!UICONTROL Decision Management]** > **[!UICONTROL Components menu]**.
 
 1. 從建立 **刊登** 來取得。
 
@@ -83,7 +83,7 @@ ht-degree: 6%
 
    決策規則會為Adobe Experience Platform中的設定檔提供最佳選件。
 
-   使用 **[!UICONTROL XDM個人設定檔>人員>性別]** 屬性：
+   使用 **[!UICONTROL XDM Individual Profile > Person > Gender]** 屬性：
 
    * *女性客戶*
    * *男性客戶*
@@ -114,7 +114,7 @@ ht-degree: 6%
 
 您現在可以建立和設定優惠方案。 在此範例中，您將建立四個要根據每個特定設定檔顯示的選件。
 
-1. 建立優惠方案. 請參閱[此章節](../../using/offers/offer-library/creating-personalized-offers.md#create-offer)深入瞭解。
+1. 建立優惠方案。 深入了解 [本節](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
 
 1. 在此選件中，建立三個表示法。 每個表示都必須是您先前建立的版位與資產的組合：
 
@@ -132,13 +132,13 @@ ht-degree: 6%
 
    ![](assets/offers-e2e-representations.png)
 
-1. 在 **[!UICONTROL 優惠方案資格]** 部分，選擇 **[!UICONTROL 依定義的決策規則]** 並拖放您所選擇的規則。
+1. 在 **[!UICONTROL Offer eligibility]** 部分，選擇 **[!UICONTROL By defined decision rule]** 並拖放您所選擇的規則。
 
    ![](assets/offers-e2e-eligibility.png)
 
-1. 填寫 **[!UICONTROL 優先順序]**. 在此範例中，新增 *25*.
+1. 填寫 **[!UICONTROL Priority]**. 在此範例中，新增 *25*.
 
-1. 檢閱您的優惠方案，然後按一下 **[!UICONTROL 儲存並核准]**.
+1. 檢閱您的優惠方案，然後按一下 **[!UICONTROL Save and approve]**.
 
    ![](assets/offers-e2e-review.png)
 
@@ -153,9 +153,9 @@ ht-degree: 6%
 
 建立和設定選件的詳細步驟於 [本節](../../using/offers/offer-library/creating-personalized-offers.md).
 
-## 建立遞補優惠 {#create-fallback}
+## 建立回退優惠方案 {#create-fallback}
 
-1. 建立遞補優惠.
+1. 建立備援優惠方案。
 
 1. 為選件定義相同的表示法，並搭配適當的資產（這些表示法應與選件中使用的表示法不同）。
 
@@ -167,7 +167,7 @@ ht-degree: 6%
 
    ![](assets/offers-e2e-fallback-representations.png)
 
-1. 檢閱您的備援優惠方案，然後按一下 **[!UICONTROL 儲存並核准]**.
+1. 檢閱您的備援優惠方案，然後按一下 **[!UICONTROL Save and approve]**.
 
 ![](assets/offers-e2e-fallback.png)
 
@@ -195,7 +195,7 @@ ht-degree: 6%
 
 若要建立和設定優惠方案決策，請遵循下列主要步驟：
 
-1. 建立決定. 請參閱[此章節](../../using/offers/offer-activities/create-offer-activities.md#create-activity)深入瞭解。
+1. 建立決策。 深入了解 [本節](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
 
 1. 選取 *Web — 影像*, *電子郵件 — 影像* 和 *非數位 — 文字* 版位。
 
@@ -213,7 +213,7 @@ ht-degree: 6%
 
    ![](assets/offers-e2e-decision-fallback.png)
 
-1. 檢閱您的決定，然後按一下 **[!UICONTROL 儲存並核准]**.
+1. 檢閱您的決定，然後按一下 **[!UICONTROL Save and approve]**.
 
    ![](assets/offers-e2e-review-decision.png)
 

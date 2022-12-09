@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -26,37 +26,37 @@ ht-degree: 0%
 
 若要新增一或多個表示法並加以設定，請遵循下列步驟。
 
-1. 對於第一個表示，請從選取 **[!UICONTROL 管道]** 會使用。
+1. 對於第一個表示，請從選取 **[!UICONTROL Channel]** 會使用。
 
    ![](../assets/channel-placement.png)
 
    >[!NOTE]
    >
-   >只有所選管道的可用位置會顯示在 **[!UICONTROL 版位]** 下拉式清單。
+   >只有所選管道的可用位置會顯示在 **[!UICONTROL Placement]** 下拉式清單。
 
 1. 從清單中選取位置。
 
-   您也可以使用 **[!UICONTROL 版位]** 下拉式清單來瀏覽所有版位。
+   您也可以使用 **[!UICONTROL Placement]** 下拉式清單來瀏覽所有版位。
 
    ![](../assets/browse-button-placements.png)
 
-   您仍可在此根據版位的頻道和/或內容類型篩選版位。 選擇位置並按一下 **[!UICONTROL 選擇]**.
+   您仍可在此根據版位的頻道和/或內容類型篩選版位。 選擇位置並按一下 **[!UICONTROL Select]**.
 
    ![](../assets/browse-placements.png)
 
 1. 將內容新增至您的表示法。 了解 [本節](#content).
 
-1. 新增內容（例如影像或URL）時，您可以指定 **[!UICONTROL 目的地連結]**:點按選件的使用者會導向至對應的頁面。
+1. 新增內容（例如影像或URL）時，您可以指定 **[!UICONTROL Destination link]**:點按選件的使用者會導向至對應的頁面。
 
    ![](../assets/offer-destination-link.png)
 
 1. 最後，選取您選擇的語言，以協助識別及管理要向使用者顯示的內容。
 
-1. 要添加其他表示，請使用 **[!UICONTROL 添加表示]** 按鈕，並視需要新增表示法。
+1. 要添加其他表示，請使用 **[!UICONTROL Add representation]** 按鈕，並視需要新增表示法。
 
    ![](../assets/offer-add-representation.png)
 
-1. 添加所有表示形式後，請選擇 **[!UICONTROL 下一個]**.
+1. 添加所有表示形式後，請選擇 **[!UICONTROL Next]**.
 
 ## 定義表示的內容 {#content}
 
@@ -74,21 +74,21 @@ ht-degree: 0%
 >
 > 使用 [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}，您需要部署 [!DNL Assets Essentials] 確認使用者是 **Assets Essentials消費者使用者** 或/和 **Assets Essentials使用者** 產品設定檔。 深入了解 [本頁](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target=&quot;_blank&quot;}。
 
-1. 選擇 **[!UICONTROL 資產庫]** 選項。
+1. 選擇 **[!UICONTROL Asset library]** 選項。
 
-1. 選擇 **[!UICONTROL 瀏覽]**.
+1. 選擇 **[!UICONTROL Browse]**.
 
    ![](../assets/offer-browse-asset-library.png)
 
 1. 瀏覽資產以選取您所選的影像
 
-1. 按一下&#x200B;**[!UICONTROL 「選取」]**。
+1. 按一下 **[!UICONTROL Select]**.
 
    ![](../assets/offer-select-asset.png)
 
 ### 新增HTML或JSON檔案 {#html-json}
 
-如果選取的版位是HTML類型，您也可以新增來自的HTML或JSON內容 [Adobe Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;})。
+如果選取的版位是HTML類型，您也可以新增來自 [Adobe Experience Cloud Asset資料庫](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;})。
 
 例如，您在 [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target=&quot;_blank&quot;}，而您想要將該檔案用於選件內容。 您只需將範本上傳至 **資產庫** 以便在優惠方案的陳述式中重複使用。
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 選取相容的版位時，您也可以插入文字類型內容。
 
-1. 選取 **[!UICONTROL 自訂]** 選項，然後按一下 **[!UICONTROL 新增內容]**.
+1. 選取 **[!UICONTROL Custom]** 選項，然後按一下 **[!UICONTROL Add content]**.
 
    ![](../assets/offer-add-content.png)
 
@@ -124,5 +124,5 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >僅 **[!UICONTROL 設定檔屬性]**, **[!UICONTROL 區段成員資格]** 和 **[!UICONTROL 輔助函式]** 來源可用於決策管理。
+   >僅 **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** 和 **[!UICONTROL Helper functions]** 來源可用於決策管理。
 

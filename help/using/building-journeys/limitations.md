@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -39,14 +39,14 @@ ht-degree: 0%
 
 * 自訂動作URL不支援動態參數。 
 * 僅支援POST和PUT呼叫方法。 
-* 查詢參數或標題的名稱不得以「。」開頭 或 &quot;$&quot;. 
+* 查詢參數或標題的名稱不得以「。」開頭 或「$」。 
 * 不允許IP地址。 
 * 內部Adobe地址(.adobe.) 不允許。
  
 
 ## 事件限制
 
-* 針對系統產生的事件，在Journey Optimizer中必須先設定用來起始客戶歷程的串流資料，才能取得唯一的協調ID。 此協調ID必須附加至傳入Adobe Experience Platform的串流裝載。 此限制不適用於規則型事件。
+* 對於系統產生的事件，必須先在Journey Optimizer中設定用來起始客戶歷程的串流資料，才能取得唯一的協調ID。 此協調ID必須附加至傳入Adobe Experience Platform的串流裝載。 此限制不適用於規則型事件。
  
 
 ## 資料來源限制
@@ -55,13 +55,13 @@ ht-degree: 0%
 
 ## 從建立設定檔的同時開始的歷程 {#journeys-limitation-profile-creation}
 
-在Adobe Experience Platform中建立/更新以API為基礎的設定檔會有延遲。 延遲方面的服務級別目標(SLT)從接收到第95個百分位數請求的統一配置檔案小於1分鐘，每秒20K請求(RPS)量。
+在Adobe Experience Platform中建立/更新以API為基礎的設定檔時會有延遲。 延遲方面的服務級別目標(SLT)從接收到第95個百分位數請求的統一配置檔案小於1分鐘，每秒20K請求(RPS)量。
 
 如果歷程同時觸發至設定檔建立，並立即從設定檔服務檢查/擷取資訊，則可能無法正常運作。
 
 您可以從以下兩種解決方案中選擇一種：
 
-* 在第一個事件後新增等待活動，為Adobe Experience Platform提供執行擷取至設定檔服務所需的時間。
+* 在第一個事件後新增等待活動，讓Adobe Experience Platform有時間執行擷取至設定檔服務。
 
 * 設定不會立即運用設定檔的歷程。 例如，如果歷程的設計是要確認帳戶的建立，則體驗事件可能包含傳送第一個確認訊息（名字、姓氏、電子郵件地址等）所需的資訊。
 

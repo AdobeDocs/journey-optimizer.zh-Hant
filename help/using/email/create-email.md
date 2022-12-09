@@ -10,8 +10,8 @@ level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 4%
+source-wordcount: '737'
+ht-degree: 0%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 4%
 
 ## 在歷程或行銷活動中建立電子郵件 {#create-email-journey-campaign}
 
-新增 **[!UICONTROL 電子郵件]** 動作至歷程或行銷活動，並根據您的案例遵循下列步驟。
+新增 **[!UICONTROL Email]** 動作至歷程或行銷活動，並根據您的案例遵循下列步驟。
 
 >[!BEGINTABS]
 
 >[!TAB 新增電子郵件至歷程]
 
-1. 開啟您的歷程，然後拖放 **[!UICONTROL 電子郵件]** 活動 **[!UICONTROL 動作]** 區段。
+1. 開啟您的歷程，然後拖放 **[!UICONTROL Email]** 活動 **[!UICONTROL Actions]** 區段。
 
 1. 提供訊息的基本資訊（標籤、說明、類別）。
 
@@ -48,13 +48,13 @@ ht-degree: 4%
 
 >[!TAB 新增電子郵件至行銷活動]
 
-1. 建立新的排程或API觸發促銷活動，然後選取 **[!UICONTROL 電子郵件]** 作為您的動作。
+1. 建立新的排程或API觸發促銷活動，然後選取 **[!UICONTROL Email]** 作為您的動作。
 
 1. 選擇 [電子郵件表面](email-settings.md) 來使用。
 
    ![](assets/email_campaign.png)
 
-1. 按一下&#x200B;**[!UICONTROL 建立]**。
+1. 按一下 **[!UICONTROL Create]**.
 
 1. 完成建立電子郵件促銷活動的步驟，例如促銷活動屬性、 [對象](../segment/about-segments.md)，和 [排程](../campaigns/create-campaign.md#schedule).
 
@@ -72,27 +72,27 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 ## 定義您的電子郵件內容 {#define-email-content}
 
-1. 在歷程或行銷活動設定畫面中，按一下 **[!UICONTROL 編輯內容]** 按鈕來設定電子郵件內容。 [了解更多](get-started-email-design.md)
+1. 在歷程或行銷活動設定畫面中，按一下 **[!UICONTROL Edit content]** 按鈕來設定電子郵件內容。 [深入了解](get-started-email-design.md)
 
    ![](assets/email_campaign_edit_content.png)
 
-1. 在 **[!UICONTROL 標題]** 區段 **[!UICONTROL 編輯內容]** 螢幕， **[!UICONTROL 從名稱]**, **[!UICONTROL 從電子郵件]** 和 **[!UICONTROL 密件副本]** 欄位來自您選取的電子郵件表面。 [了解更多](email-settings.md) <!--check if same for journey-->
+1. 在 **[!UICONTROL Header]** 區段 **[!UICONTROL Edit content]** 螢幕， **[!UICONTROL From name]**, **[!UICONTROL From email]** 和 **[!UICONTROL BCC]** 欄位來自您選取的電子郵件表面。 [深入了解](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
 1. 您可以新增主旨行。 直接在對應欄位中輸入純文字，或使用 [運算式編輯器](../personalization/personalization-build-expressions.md) 個人化您的主旨行。
 
-1. 按一下 **[!UICONTROL 編輯電子郵件內文]** 按鈕，開始使用 [!DNL Journey Optimizer] 電子郵件設計工具。 [了解更多](get-started-email-design.md)
+1. 按一下 **[!UICONTROL Edit email body]** 按鈕，開始使用 [!DNL Journey Optimizer] 電子郵件設計工具。 [深入了解](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
-1. 如果您在促銷活動中，也可以按一下 **[!UICONTROL 代碼編輯器]** 按鈕，使用顯示的彈出窗口以純HTML編寫您自己的內容。
+1. 如果您在促銷活動中，也可以按一下 **[!UICONTROL Code Editor]** 按鈕，使用顯示的彈出窗口，以純HTML編寫您自己的內容。
 
    ![](assets/email_designer_edit_code_editor.png)
 
    >[!NOTE]
    >
-   >如果您已透過電子郵件設計工具建立或匯入內容，此內容將以HTML顯示。
+   >如果您已透過電子郵件設計工具建立或匯入內容，則此內容會以HTML顯示。
 
 ## 檢查警報 {#check-email-alerts}
 
@@ -110,27 +110,27 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 * **警告** 請參閱建議和最佳實務，例如：
 
-   * **[!UICONTROL 電子郵件內文中沒有選擇退出連結]**:將取消訂閱連結新增至電子郵件內文是最佳作法。 了解如何在 [本節](../privacy/opt-out.md#opt-out-management).
+   * **[!UICONTROL The opt-out link is not present in the email body]**:將取消訂閱連結新增至電子郵件內文是最佳作法。 了解如何在 [本節](../privacy/opt-out.md#opt-out-management).
 
       >[!NOTE]
       >
-      >行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 訊息類別(**[!UICONTROL 行銷]** 或 **[!UICONTROL 交易]**)是在 [通道表面](email-settings.md#email-type) 級別和時間 [建立訊息](#create-email-journey-campaign) 從歷程或行銷活動。
+      >行銷類型的電子郵件訊息必須包含選擇退出連結，這對於交易式訊息並非必要。 訊息類別(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**)是在 [通道表面](email-settings.md#email-type) 級別和時間 [建立訊息](#create-email-journey-campaign) 從歷程或行銷活動。
 
-   * **[!UICONTROL HTML的文本版本為空]**:別忘了定義電子郵件內文的文字版本，因為當無法顯示HTML內容時，會使用它。 了解如何在 [本節](text-version-email.md).
+   * **[!UICONTROL Text version of HTML is empty]**:別忘了定義電子郵件內文的文字版本，因為當無法顯示HTML內容時，會使用它。 了解如何在 [本節](text-version-email.md).
 
-   * **[!UICONTROL 電子郵件內文中存在空連結]**:檢查電子郵件中的所有連結是否正確。 了解如何管理 [本節](content-from-scratch.md).
+   * **[!UICONTROL Empty link is present in email body]**:檢查電子郵件中的所有連結是否正確。 了解如何管理 [本節](content-from-scratch.md).
 
-   * **[!UICONTROL 電子郵件大小已超過100KB的限制]**:為獲得最佳傳送，請確定您的電子郵件大小不超過100KB。 了解如何在 [本節](content-from-scratch.md).
+   * **[!UICONTROL Email size has exceeded the limit of 100KB]**:為獲得最佳傳送，請確定您的電子郵件大小不超過100KB。 了解如何在 [本節](content-from-scratch.md).
 
 * **錯誤** 只要未解決歷程/行銷活動，就會阻止您測試或啟動這些活動，例如：
 
-   * **[!UICONTROL 主題行缺失]**:電子郵件主旨行是必填欄位。 了解如何在 [本節](create-email.md).
+   * **[!UICONTROL The subject line is missing]**:電子郵件主旨行是必填欄位。 了解如何在 [本節](create-email.md).
 
    <!--HTML is empty when Amp HTML is present-->
 
-   * **[!UICONTROL 郵件的電子郵件版本為空]**:未設定電子郵件內容時，會顯示此錯誤。 了解如何在 [本節](get-started-email-design.md).
+   * **[!UICONTROL The email version of the message is empty]**:未設定電子郵件內容時，會顯示此錯誤。 了解如何在 [本節](get-started-email-design.md).
 
-   * **[!UICONTROL 曲面不存在]**:如果在建立消息後刪除了所選曲面，則無法使用消息。 如果發生此錯誤，請在消息中選取另一個曲面 **[!UICONTROL 屬性]**. 進一步了解 [本節](../configuration/channel-surfaces.md).
+   * **[!UICONTROL Surface doesn't exist]**:如果在建立消息後刪除了所選曲面，則無法使用消息。 如果發生此錯誤，請在消息中選取另一個曲面 **[!UICONTROL Properties]**. 進一步了解 [本節](../configuration/channel-surfaces.md).
 
 
 >[!CAUTION]
@@ -139,7 +139,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 ## 預覽並傳送您的電子郵件
 
-定義訊息內容後，您可以預覽訊息內容以控制電子郵件的呈現，並使用測試設定檔檢查個人化設定。 [了解更多](preview.md)
+定義訊息內容後，您可以預覽訊息內容以控制電子郵件的呈現，並使用測試設定檔檢查個人化設定。 [深入了解](preview.md)
 
 ![](assets/email_designer_edit_simulate.png)
 
@@ -147,7 +147,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 >[!NOTE]
 >
->若要透過電子郵件開啟和/或互動來追蹤收件者的行為，請確定 **[!UICONTROL 追蹤]** 區段會在歷程的 [電子郵件活動](../building-journeys/journeys-message.md) 或在電子郵件中 [行銷活動](../campaigns/create-campaign.md).<!--to move?-->
+>若要透過電子郵件開啟和/或互動來追蹤收件者的行為，請確定 **[!UICONTROL Tracking]** 區段會在歷程的 [電子郵件活動](../building-journeys/journeys-message.md) 或在電子郵件中 [行銷活動](../campaigns/create-campaign.md).<!--to move?-->
 
 <!--
 

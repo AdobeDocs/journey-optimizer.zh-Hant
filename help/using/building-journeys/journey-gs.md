@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 建立您的第一個歷程
-description: 使用 Adobe Journey Optimizer 建置您的第一個歷程的關鍵步驟
+description: 使用Adobe Journey Optimizer建立您第一個歷程的關鍵步驟
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,30 +10,30 @@ level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 978751263ba2ed21e35e41e767f1e31ddbe59d53
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 10%
+source-wordcount: '1004'
+ht-degree: 0%
 
 ---
 
 # 建立您的第一個歷程{#jo-quick-start}
 
-## 先決條件{#start-prerequisites}
+## 必要條件{#start-prerequisites}
 
 若要隨歷程傳送訊息，需要下列設定：
 
-1. **設定事件**:如果您想要在收到事件時一直觸發歷程，則需要設定事件。 您可以定義預期的資訊，以及處理資訊的方式。 此步驟由&#x200B;**技術使用者**&#x200B;執行。[閱讀全文](../event/about-events.md)。
+1. **設定事件**:如果您想要在收到事件時一直觸發歷程，則需要設定事件。 您可以定義預期的資訊，以及處理資訊的方式。 此步驟由 **技術使用者**. [了解詳情](../event/about-events.md).
 
    ![](assets/jo-event7bis.png)
 
-1. **建立區段**:您的歷程也可以監聽Adobe Experience Platform區段，以便將訊息批次傳送至指定的一組設定檔。 為此，您需要建立區段。 [閱讀全文](../segment/about-segments.md)。
+1. **建立區段**:您的歷程也可以監聽Adobe Experience Platform區段，以便將訊息批次傳送至指定的一組設定檔。 為此，您需要建立區段。 [了解詳情](../segment/about-segments.md).
 
    ![](assets/segment2.png)
 
-1. **設定資料來源**:您可以定義與系統的連線，以擷取將用於歷程的其他資訊，例如在您的條件中。 佈建時也會設定內建的 Adobe Experience Platform 資料來源。如果您只會運用歷程中事件的資料，則不需要執行此步驟。此步驟由&#x200B;**技術使用者**&#x200B;執行。[閱讀全文](../datasource/about-data-sources.md)
+1. **設定資料來源**:您可以定義與系統的連線，以擷取將用於歷程的其他資訊，例如在您的條件中。 布建時也會設定內建的Adobe Experience Platform資料來源。 如果您只運用歷程中事件的資料，則不需要執行此步驟。 此步驟由 **技術使用者**. [了解詳情](../datasource/about-data-sources.md)
 
    ![](assets/jo-datasource.png)
 
-1. **設定動作**:如果您使用協力廠商系統來傳送訊息，則可建立自訂動作。 了解更多資訊 [節](../action/action.md). 此步驟由&#x200B;**技術使用者**&#x200B;執行。如果您使用Journey Optimizer內建的訊息功能，只需將管道動作新增至歷程並設計內容即可。
+1. **設定動作**:如果您使用協力廠商系統來傳送訊息，則可建立自訂動作。 了解更多資訊 [節](../action/action.md). 此步驟由 **技術使用者**. 如果您使用Journey Optimizer內建的訊息功能，只需將通道動作新增至歷程並設計內容即可。
 
    ![](assets/custom2.png)
 
@@ -44,17 +44,17 @@ ht-degree: 10%
 >title="建立您的歷程"
 >abstract="此畫面會顯示現有歷程的清單。 開啟歷程或按一下「建立歷程」，然後結合不同的事件、協調和動作活動，以建立您的多步驟跨通道案例。"
 
-此步驟由 **業務使用者**. 這是您建立歷程的位置。 結合不同的事件、協調和動作活動，以建立您的多步驟跨管道情境。
+此步驟由 **業務使用者**. 這是您建立歷程的位置。 結合不同的事件、協調和動作活動，以建立您的多步驟跨通道案例。
 
 以下是透過歷程傳送訊息的主要步驟：
 
-1. 在「歷程管理」功能表區段中，按一下 **[!UICONTROL 歷程]**. 歷程清單隨即顯示。
+1. 在「歷程管理」功能表區段中，按一下 **[!UICONTROL Journeys]**. 歷程清單隨即顯示。
 
    ![](assets/interface-journeys.png)
 
-1. 按一下 **[!UICONTROL 建立歷程]** 來建立新歷程。
+1. 按一下 **[!UICONTROL Create Journey]** 來建立新歷程。
 
-1. 在右側顯示的設定窗格中，編輯歷程的屬性。了解更多資訊 [節](journey-gs.md#change-properties).
+1. 在右側顯示的設定窗格中編輯歷程的屬性。 了解更多資訊 [節](journey-gs.md#change-properties).
 
    ![](assets/jo-properties.png)
 
@@ -83,7 +83,7 @@ ht-degree: 10%
 
 按一下右上角的鉛筆圖示，以存取歷程的屬性。
 
-您可以變更歷程的名稱、新增說明、允許重新進入、選擇開始和結束日期，以及以管理員使用者的身分定義 **[!UICONTROL 逾時和錯誤]** 持續時間。
+您可以變更歷程的名稱、新增說明、允許重新進入、選擇開始和結束日期，以及以管理員使用者的身分定義 **[!UICONTROL Timeout and error]** 持續時間。
 
 對於即時歷程，此畫面會顯示發佈日期以及發佈歷程的使用者名稱。
 
@@ -99,11 +99,11 @@ ht-degree: 10%
 
 ### 歷程活動的逾時和錯誤 {#timeout_and_error}
 
-編輯動作或條件活動時，您可以定義替代路徑以防發生錯誤或逾時。 如果查詢協力廠商系統的活動處理超過歷程屬性中定義的逾時期間(**[!UICONTROL 逾時和錯誤]** 欄位)，則將選擇第二個路徑以執行潛在的備援動作。
+編輯動作或條件活動時，您可以定義替代路徑以防發生錯誤或逾時。 如果查詢協力廠商系統的活動處理超過歷程屬性中定義的逾時期間(**[!UICONTROL Timeout and  error]** 欄位)，則將選擇第二個路徑以執行潛在的備援動作。
 
 授權值介於1到30秒之間。
 
-建議您定義非常短的 **[!UICONTROL 逾時和錯誤]** 值（若您的歷程具時效性）(範例：回應人員的即時位置)，因為您無法將動作延遲超過幾秒。 如果您的歷程不太時間敏感，您可以使用較長的值，讓系統有更多時間呼叫以傳送有效的回應。
+建議您定義非常短的 **[!UICONTROL Timeout and error]** 值（若您的歷程具時效性）(範例：回應人員的即時位置)，因為您無法將動作延遲超過幾秒。 如果您的歷程不太時間敏感，您可以使用較長的值，讓系統有更多時間呼叫以傳送有效的回應。
 
 歷程也會使用全域逾時。 請參閱 [下一節](#global_timeout).
 
@@ -123,12 +123,12 @@ ht-degree: 10%
 
 您可以輸入固定時區，或使用Adobe Experience Platform設定檔來定義歷程時區。
 
-如果在Adobe Experience Platform設定檔中定義時區，則可在歷程中擷取。
+如果在Adobe Experience Platform設定檔中定義時區，則可在歷程中擷取該時區。
 
 如需時區管理的詳細資訊，請參閱 [本頁](../building-journeys/timezone-management.md).
 
 ### 管理存取 {#access}
 
-若要將自訂或核心資料使用量標籤指派至歷程，請按一下 **[!UICONTROL 管理存取]** 按鈕。 [進一步了解對象級訪問控制(OLA)](../administration/object-based-access.md)
+若要將自訂或核心資料使用量標籤指派至歷程，請按一下 **[!UICONTROL Manage access]** 按鈕。 [進一步了解對象級訪問控制(OLA)](../administration/object-based-access.md)
 
 ![](assets/journeys-manage-access.png)

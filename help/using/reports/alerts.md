@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 6%
+source-wordcount: '251'
+ht-degree: 0%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 6%
 
 Journey Optimizer運用Adobe Experience Platform警報功能。 這可讓您透過使用者介面存取系統警報。 您可以檢視可用警報並訂閱警報。 當您的操作中達到某組條件時（例如，當系統違反閾值時可能出現問題），警報消息將傳送給您組織中已訂閱這些條件的任何用戶。 這些訊息可在預先定義的時間間隔內重複，直到解析警報為止。
 
-進一步了解Adobe Experience Platform中的警報 [檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hant).
+進一步了解Adobe Experience Platform中的警報 [檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html).
 若要了解如何訂閱警報及進行設定，請參閱 [頁面](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
 
-在左側功能表的下方 **管理**，按一下 **警報**. 提供預先設定的Journey Optimizer警報。 如果讀取段節點在定義的時間範圍內未處理任何配置檔案，則此警報將警告您。
+在左側功能表的下方 **管理**，按一下 **警報**. 提供Journey Optimizer預先設定的警報。 如果讀取段節點在定義的時間範圍內未處理任何配置檔案，則此警報將警告您。
 
 ![](assets/alerts1.png)
 
-如果發生這種意外行為，則會通過介面右上角的電子郵件向警報的訂閱者發送警報通知。
+如果發生這種非預期的行為，則會透過介面右上角的電子郵件，傳送警報通知給警報的訂閱者。
 
 ![](assets/alerts2.png)
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 開始使用登陸頁面
+title: 開始使用登錄頁面
 description: 了解Journey Optimizer中的登錄頁面
 feature: Landing Pages
 topic: Content Management
@@ -10,12 +10,12 @@ level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: c4683e10e4a15f99206a3e8702c1ad20591f1d67
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 9%
+source-wordcount: '203'
+ht-degree: 0%
 
 ---
 
-# 開始使用登陸頁面 {#get-sarted-lp}
+# 開始使用登錄頁面 {#get-sarted-lp}
 
 登錄頁面是獨立網頁，從電子郵件、網站、廣告或任何其他數位位置點進後，會將使用者導向至該網頁。
 
@@ -25,9 +25,9 @@ ht-degree: 9%
 
 * 運用 [!DNL Journey Optimizer] 輕鬆構建內容設計功能 **回應式登錄頁面**.
 * 設定 **加入和退出流程** 快速無縫。
-* 建立訂閱清單以讓使用者 **訂閱服務**. [閱讀全文](lp-use-cases.md#subscription-to-a-service)
-* 將 **取消訂閱的功能** 接收你的通信。 [閱讀全文](lp-use-cases.md#opt-out)
-* 傳送 **確認電子郵件** 選擇加入或選擇退出時。 [閱讀全文](lp-use-cases.md#send-confirmation-email)
+* 建立訂閱清單以讓使用者 **訂閱服務**. [了解詳情](lp-use-cases.md#subscription-to-a-service)
+* 將 **取消訂閱的功能** 接收你的通信。 [了解詳情](lp-use-cases.md#opt-out)
+* 傳送 **確認電子郵件** 選擇加入或選擇退出時。 [了解詳情](lp-use-cases.md#send-confirmation-email)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -60,7 +60,7 @@ ht-degree: 9%
 <img alt="驗證" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="../reports/lp-report-live.md"><strong>報告</strong></a>
+<a href="../reports/lp-report-live.md"><strong>報表</strong></a>
 </div>
 <p>
 </td>

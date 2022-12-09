@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 2%
+source-wordcount: '562'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 ## 程式碼初始化
 
-若要初始化JavaScript程式碼，您必須使用 `lpRuntimeReady` 事件。 成功初始化程式庫後，將觸發此事件。 回呼將使用 `lpRuntime` 物件以公開程式庫方法和鈎點。
+若要初始化JavaScript程式碼，您必須使用 `lpRuntimeReady` 事件。 程式庫初始化成功後，將觸發此事件。 回呼將使用 `lpRuntime` 物件以公開程式庫方法和鈎點。
 
 `LpRuntime` 代表「登錄頁面執行階段」。 此物件是主要程式庫識別碼。 它會公開鈎點、表單提交方法，以及可用於自訂JavaScript的其他公用程式方法。
 
@@ -59,7 +59,7 @@ function init(lpRuntime){
 }
 ```
 
-## 勾點
+## 鈎點
 
 使用鈎點，您可以在表單提交的生命週期期間附加方法。 例如，您可以在實際提交表單之前，使用鈎點執行某些表單驗證。
 

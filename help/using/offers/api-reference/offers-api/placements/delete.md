@@ -8,14 +8,14 @@ level: Experienced
 exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 5%
+source-wordcount: '145'
+ht-degree: 0%
 
 ---
 
-# 刪除位置 {#delete-placement}
+# 刪除投放位置 {#delete-placement}
 
-有時可能需要移除(DELETE)版位。 只能刪除您在租用戶容器中建立的版位。 若要這麼做，請對 [!DNL Offer Library] 使用您要刪除之版位的例項ID的API。
+有時可能需要移除（刪除）版位。 只能刪除您在租用戶容器中建立的版位。 若要這麼做，請對 [!DNL Offer Library] 使用您要刪除之版位的例項ID的API。
 
 **API格式**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 成功的回應會傳回HTTP狀態202（無內容）和空白內文。
 
-您可以嘗試對版位進行查閱(GET)，以確認刪除。 您需要在請求中加入Accept標題，但應會收到HTTP狀態404（找不到），因為版位已從容器中移除。
+您可以嘗試對版位進行查詢(GET)以確認刪除。 您需要在請求中加入Accept標題，但應會收到HTTP狀態404（找不到），因為版位已從容器中移除。

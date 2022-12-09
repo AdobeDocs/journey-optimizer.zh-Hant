@@ -1,24 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 定義登陸頁面預設集
+title: 定義登錄頁面預設集
 description: 了解如何設定您的環境，以使用Journey Optimizer建立和使用登錄頁面
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 5%
+source-wordcount: '317'
+ht-degree: 0%
 
 ---
 
-# 定義登陸頁面預設集 {#lp-presets}
+# 定義登錄頁面預設集 {#lp-presets}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain_header"
 >title="建立登錄頁面預設集"
->abstract="若要建立登錄頁面並透過Journey Optimizer運用該頁面，您必須建立包含要使用之子網域的登錄頁面預設集。"
+>abstract="若要建立登錄頁面並透過Journey Optimizer運用該頁面，您必須建立包含要使用的子網域的登錄頁面預設集。"
 
 當 [建立登錄頁面](../landing-pages/create-lp.md#create-a-lp)，您必須選取登錄頁面預設集，才能建立登錄頁面並運用它 **[!DNL Journey Optimizer]**.
 
@@ -26,9 +26,9 @@ ht-degree: 5%
 
 若要存取登錄頁面預設集，請遵循下列步驟。
 
-1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 管道]** 功能表。
+1. 存取 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** 功能表。
 
-1. 選擇 **[!UICONTROL 品牌推廣]** > **[!UICONTROL 登錄頁面預設集]**.
+1. 選擇 **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
 
    ![](assets/lp_presets-access.png)
 
@@ -44,9 +44,9 @@ ht-degree: 5%
 >
 >若要建立預設集，請確定您先前已設定至少一個登錄頁面子網域。 [了解如何](lp-subdomains.md)
 
-1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 管道]** ，然後選取 **[!UICONTROL 品牌推廣]** > **[!UICONTROL 登錄頁面預設集]**.
+1. 存取 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** ，然後選取 **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
 
-1. 選擇 **[!UICONTROL 建立登錄頁面預設集]**.
+1. 選擇 **[!UICONTROL Create landing page preset]**.
 
    ![](assets/lp_create-preset-temp.png)
 
@@ -66,17 +66,17 @@ ht-degree: 5%
 
    隨即顯示與所選子網域對應的設定。
 
-1. 如果您想要為追蹤URL選取登錄頁面子網域，請核取 **[!UICONTROL 與登錄頁面子網域相同]** 選項。 [進一步了解追蹤](../email/message-tracking.md)
+1. 如果您想要為追蹤URL選取登錄頁面子網域，請核取 **[!UICONTROL Same as landing page subdomain]** 選項。 [進一步了解追蹤](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
    例如，如果登錄頁面URL為「pages.mail.luma.com」，而追蹤URL為「data.mail.luma.com」，您可以選擇「pages.mail.luma.com」作為追蹤子網域。
 
-1. 按一下 **[!UICONTROL 提交]** 以確認建立登錄頁面預設集。 <!--You can also save the preset as draft and resume its configuration later on.-->
+1. 按一下 **[!UICONTROL Submit]** 以確認建立登錄頁面預設集。 <!--You can also save the preset as draft and resume its configuration later on.-->
 
    <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 
-1. 建立登錄頁面預設集後，該預設集會顯示在清單中，且包含 **[!UICONTROL 作用中]** 狀態。 已準備好用於您的登錄頁面。
+1. 建立登錄頁面預設集後，該預設集會顯示在清單中，且包含 **[!UICONTROL Active]** 狀態。 已準備好用於您的登錄頁面。
 
    ![](assets/lp-preset-active-temp.png)
 
@@ -86,7 +86,7 @@ ht-degree: 5%
 >
 >Learn how to create channel surfaces for push notifications and emails in [this section](channel-surfaces.md).-->
 
-**相關主題**：
+**相關主題**:
 
-* [開始使用登陸頁面](../landing-pages/get-started-lp.md)
-* [建立登陸頁面](../landing-pages/create-lp.md#create-a-lp)
+* [開始使用登錄頁面](../landing-pages/get-started-lp.md)
+* [建立登錄頁面](../landing-pages/create-lp.md#create-a-lp)

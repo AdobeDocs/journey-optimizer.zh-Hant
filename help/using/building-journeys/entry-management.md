@@ -6,13 +6,13 @@ description: 了解如何管理設定檔項目
 feature: Journeys
 role: User
 level: Intermediate
-source-git-commit: 412f7efe2da9f9b1a8fa49f1243ca63c4e0d01c0
+exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 1%
+source-wordcount: '349'
+ht-degree: 0%
 
 ---
-
 
 # 設定檔項目管理 {#entry-management}
 
@@ -20,16 +20,16 @@ ht-degree: 1%
 
 ![](assets/journey-re-entrance.png)
 
-歷程結束時，其狀態為 **[!UICONTROL 已關閉]**. 新的個人無法再進入歷程。 已在歷程中的人員會正常完成歷程。
+歷程結束時，其狀態為 **[!UICONTROL Closed]**. 新的個人無法再進入歷程。 已在歷程中的人員會正常完成歷程。
 
-在30天的預設全域逾時後，歷程會切換為 **已完成** 狀態。  [了解更多](journey-gs.md#global_timeout)。
+在30天的預設全域逾時後，歷程會切換為 **已完成** 狀態。  [深入了解](journey-gs.md#global_timeout).
 
 
 ## 單一歷程{#entry-unitary}
 
 單一歷程（從事件或區段資格開始）包含防止同一事件多次錯誤觸發歷程的護欄。 設定檔重新進入預設會暫時封鎖5分鐘。 例如，如果某個事件在12:01對特定設定檔觸發歷程，而另一個事件在12:03到達（無論是相同事件或是不同事件觸發相同歷程），該歷程將不會對此設定檔重新開始。
 
-除此之外：
+此外：
 
 * 如果已啟用重新進入，設定檔可以進入歷程數次，但必須完全退出歷程的先前例項，才能進行。
 

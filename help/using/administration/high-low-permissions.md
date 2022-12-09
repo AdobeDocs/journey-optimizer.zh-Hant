@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 每個產品設定檔都包含允許使用者存取不同功能的權限。
 可分為兩種類型：
 
-* **高級權限**:代表可指派給的不同權限 **[!UICONTROL 產品設定檔]** 在 [!DNL Admin console]，例如 **[!DNL Publish journeys]** 和 **[!DNL Manage subdomains delegation]**. 高階權限包含低階權限。
+* **高級權限**:代表可指派給的不同權限 **[!UICONTROL Product profile]** 在 [!DNL Admin console]，例如 **[!DNL Publish journeys]** 和 **[!DNL Manage subdomains delegation]**. 高階權限包含低階權限。
 
 * **低階權限**:代表來自高階權限的不同權限。
 
@@ -288,7 +288,7 @@ It includes the following low-level permissions:
    * messages_presets.delete
    * subdomains_delegation_read
    * IP_pools.read
-   * mobile_setting.read(來自Adobe Experience Platform Launch)
+   * mobile_setting.read（從Adobe Experience Platform Launch）
 
 ### [!DNL View channel surface] 權限 {#view-channel-surface}
 
@@ -299,7 +299,7 @@ It includes the following low-level permissions:
 * messages_presets.read
 * subdomains_delegation_read
 * IP_pools.read
-* mobile_setting.read(從Adobe Experience Platform資料收集)
+* mobile_setting.read（從Adobe Experience Platform資料收集）
 
 ### [!DNL Manage suppression] 權限 {#manage-suppression}
 

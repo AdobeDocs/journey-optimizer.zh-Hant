@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 7%
+source-wordcount: '1678'
+ht-degree: 0%
 
 ---
 
@@ -166,7 +166,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= encode64(string) %}
 ```
 
-## 終止於{#endsWith}
+## 結尾為{#endsWith}
 
 此 `endsWith` 函式可用來判斷字串結尾是否為指定的子字串。
 
@@ -332,7 +332,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 返回6。
 
-## Is empty {#isEmpty}
+## 空白 {#isEmpty}
 
 此 `isEmpty` 函式來判斷字串是否空白。
 
@@ -401,7 +401,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= leftTrim(string) %}
 ```
 
-## Length {#length}
+## 長度 {#length}
 
 此 `length` 函式來取得字串或運算式中的字元數。
 
@@ -586,7 +586,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= regexGroup(emailAddress,"@(\\w+)", 1) %}
 ```
 
-## Replace {#replace}
+## 取代 {#replace}
 
 此 `replace` 函式，可將字串中的指定子字串取代為其他子字串。
 
@@ -630,7 +630,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= rightTrim(string) %}
 ```
 
-## Split {#split}
+## 分割 {#split}
 
 此 `split` 函式來依指定字元分割字串。
 
@@ -640,7 +640,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= split(string,string) %}
 ```
 
-## 開始於{#startsWith}
+## 開頭為{#startsWith}
 
 此 `startsWith` 函式可用來判斷字串是否以指定的子字串開頭。
 

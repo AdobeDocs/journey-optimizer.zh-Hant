@@ -7,13 +7,13 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+exl-id: 1d3d3804-dd1a-4939-b41a-f572d2bfd136
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 3%
+source-wordcount: '155'
+ht-degree: 0%
 
 ---
-
 
 # 網路報表 {#web-report}
 
@@ -25,13 +25,13 @@ ht-degree: 3%
 
 將顯示「促銷活動」報表頁面，其中包含下列標籤：
 
-* [Campaign](../reports/campaign-global-report.md#campaign-live)
+* [行銷活動](../reports/campaign-global-report.md#campaign-live)
 * [電子郵件](../reports/campaign-global-report.md#email-live)
 * [推播](../reports/campaign-global-report.md#push-live)
-* [SMS](../reports/campaign-global-report.md#sms-live)
+* [簡訊](../reports/campaign-global-report.md#sms-live)
 * [Web](#web-tab)
 
-行銷活動 **[!UICONTROL 全域報表]** 會分為不同的小工具，詳細說明促銷活動的成功和錯誤。 如有需要，可對每個介面工具集調整大小並加以刪除。 有關詳細資訊，請參閱 [節](../reports/global-report.md#modify-dashboard).
+行銷活動 **[!UICONTROL Global report]** 會分為不同的小工具，詳細說明促銷活動的成功和錯誤。 如有需要，可對每個介面工具集調整大小並加以刪除。 有關詳細資訊，請參閱 [節](../reports/global-report.md#modify-dashboard).
 
 如需Adobe Journey Optimizer中可用每個量度的詳細清單，請參閱 [本頁](../reports/global-report.md#list-of-components-global.md)
 
@@ -39,10 +39,10 @@ ht-degree: 3%
 
 ![](assets/web-report.png)
 
-此 **[!UICONTROL Web效能]** KPI會詳細說明與訪客與您的網路體驗互動相關的主要資訊，例如：
+此 **[!UICONTROL Web performance]** KPI會詳細說明與訪客與您網路體驗互動相關的主要資訊，例如：
 
-* **[!UICONTROL 不重複曝光數]**:將網站體驗傳送至的不重複使用者人數。
+* **[!UICONTROL Unique impressions]**:將網站體驗傳送至的不重複使用者人數。
 
-* **[!UICONTROL 曝光數]**:傳送給所有使用者的網站體驗總數。
+* **[!UICONTROL Impressions]**:傳送給所有使用者的網站體驗總數。
 
-此 **[!UICONTROL 網路摘要]** 圖表顯示相關時段的網路體驗（曝光數和不重複曝光數）演變。
+此 **[!UICONTROL Web summary]** 圖表顯示相關時段的網路體驗（曝光數和不重複曝光數）演變。

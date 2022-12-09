@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 利用 API 觸發行銷活動
+title: 使用API觸發促銷活動
 description: 了解如何使用 [!DNL Journey Optimizer] API
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 3%
+source-wordcount: '769'
+ht-degree: 0%
 
 ---
 
-# 利用 API 觸發行銷活動 {#trigger-campaigns}
+# 使用API觸發促銷活動 {#trigger-campaigns}
 
 ## 關於API觸發的促銷活動 {#about}
 
-使用 [!DNL Journey Optimizer]，您可以建立促銷活動，然後使用從外部系統根據使用者觸發來叫用促銷活動 [互動式訊息執行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). 這允許您涵蓋各種操作和異動訊息需求，例如密碼重設、OTP 權杖等。
+使用 [!DNL Journey Optimizer]，您可以建立促銷活動，然後使用從外部系統根據使用者觸發來叫用促銷活動 [互動式訊息執行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). 這可讓您涵蓋各種操作和交易式訊息需求，例如密碼重設、OTP Token等。
 
 若要這麼做，您必須先在Journey Optimizer中建立API觸發的促銷活動，然後透過API呼叫啟動其執行。
 
@@ -27,9 +27,9 @@ API觸發促銷活動的可用通道為電子郵件、簡訊及推送訊息。
 
 若要建立API觸發的促銷活動，請執行下列步驟：
 
-1. 使用 **[!UICONTROL API觸發]** 類型。
+1. 使用 **[!UICONTROL API-triggered]** 類型。
 
-1. 選擇要用來傳送訊息的通道和通道表面，然後按一下 **[!UICONTROL 建立]**.
+1. 選擇要用來傳送訊息的通道和通道表面，然後按一下 **[!UICONTROL Create]**.
 
    ![](assets/api-triggered-type.png)
 
@@ -39,23 +39,23 @@ API觸發促銷活動的可用通道為電子郵件、簡訊及推送訊息。
 
    >[!NOTE]
    >
-   >您可以將其他資料傳遞至API裝載，以便運用這些資料來個人化您的訊息。 [了解更多](#contextual)
+   >您可以將其他資料傳遞至API裝載，以便運用這些資料來個人化您的訊息。 [深入了解](#contextual)
    >
    >在您的內容中使用大量或大量的內容資料可能會影響效能。
 
-1. 在 **[!UICONTROL 對象]** 區段中指定要用來識別區段中個人的命名空間。
+1. 在 **[!UICONTROL Audience]** 區段中指定要用來識別區段中個人的命名空間。
 
-   此 **[!UICONTROL 建立新設定檔]** 選項可讓您自動建立資料庫中不存在的設定檔。 [進一步了解在行銷活動執行時建立設定檔](#profile-creation)
+   此 **[!UICONTROL Create new profiles]** 選項可讓您自動建立資料庫中不存在的設定檔。 [進一步了解在行銷活動執行時建立設定檔](#profile-creation)
 
 1. 設定促銷活動的開始和結束日期。
 
    如果您為促銷活動設定特定的開始和/或結束日期，則不會在這些日期以外執行，而如果API觸發促銷活動，API呼叫將會失敗。
 
-1. 在 **[!UICONTROL cURL要求]** 部分，檢索 **[!UICONTROL 促銷活動ID]** 以用於API裝載。
+1. 在 **[!UICONTROL cURL request]** 部分，檢索 **[!UICONTROL Campaign ID]** 以用於API裝載。
 
    ![](assets/api-triggered-curl.png)
 
-1. 按一下 **[!UICONTROL 審核以激活]** 檢查促銷活動是否已正確設定，然後啟用它。
+1. 按一下 **[!UICONTROL Review to activate]** 檢查促銷活動是否已正確設定，然後啟用它。
 
 ## 在API觸發的行銷活動中使用內容屬性 {#contextual}
 
@@ -75,13 +75,13 @@ API觸發促銷活動的可用通道為電子郵件、簡訊及推送訊息。
 
 >[!IMPORTANT]
 >
->此 `context.system` 語法僅限於Adobe內部使用，且不應用於傳遞內容屬性。
+>此 `context.system` 語法僅限Adobe內部使用，不應用於傳遞內容屬性。
 
 請注意，目前沒有內容屬性可供左側邊欄功能表使用。 屬性必須直接在個人化運算式中輸入，且不需執行任何檢查 [!DNL Journey Optimizer].
 
 ## 執行促銷活動 {#execute}
 
-若要執行API觸發的促銷活動，您必須先擷取其ID，並將其傳遞至API裝載。 若要這麼做，請開啟促銷活動，然後從 **[!UICONTROL cURL要求]** 區段。
+若要執行API觸發的促銷活動，您必須先擷取其ID，並將其傳遞至API裝載。 若要這麼做，請開啟促銷活動，然後從 **[!UICONTROL cURL request]** 區段。
 
 ![](assets/api-triggered-id.png)
 
@@ -99,7 +99,7 @@ API觸發促銷活動的可用通道為電子郵件、簡訊及推送訊息。
 >
 >此功能是為 **小量配置檔案建立** 在大量交易式傳送使用案例中，平台中已存在大量設定檔。
 
-若要在行銷活動執行時啟動設定檔建立，請切換 **[!UICONTROL 建立新設定檔]** 在 **[!UICONTROL 對象]** 區段。
+若要在行銷活動執行時啟動設定檔建立，請切換 **[!UICONTROL Create new profiles]** 在 **[!UICONTROL Audience]** 區段。
 
 ![](assets/api-triggered-create-profile.png)
 

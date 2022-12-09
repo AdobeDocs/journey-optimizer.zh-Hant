@@ -1,5 +1,5 @@
 ---
-title: 批次決策 API
+title: 批次決策API
 description: 了解如何使用Batch Decisioning API為預先定義的決策範圍內的分段設定檔選取最佳選件。
 feature: Offers
 topic: Integrations
@@ -8,17 +8,17 @@ level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 3%
+source-wordcount: '752'
+ht-degree: 0%
 
 ---
 
 
 # 使用 [!DNL Batch Decisioning] API {#deliver-offers-batch}
 
-此 [!DNL Batch Decisioning] API可讓組織對單一呼叫中指定區段中的所有設定檔使用決策功能。 區段中每個設定檔的選件內容會放置於Adobe Experience Platform資料集中，供自訂批次工作流程使用。
+此 [!DNL Batch Decisioning] API可讓組織對單一呼叫中指定區段中的所有設定檔使用決策功能。 區段中每個設定檔的選件內容會放置在Adobe Experience Platform資料集中，供自訂批次工作流程使用。
 
-使用 [!DNL Batch Decisioning] API，您可以為資料集填入Adobe Experience Platform區段中所有設定檔的最佳選件，以供決策範圍使用。 例如，組織可能想要執行 [!DNL Batch Decisioning] 以便他們能將選件傳送給訊息傳送廠商。 然後，這些選件會作為內容，傳送出去以批次傳送訊息給相同的使用者區段。
+使用 [!DNL Batch Decisioning] API，您可以為Adobe Experience Platform區段中所有設定檔填入最佳選件資料集，以供決策範圍使用。 例如，組織可能想要執行 [!DNL Batch Decisioning] 以便他們能將選件傳送給訊息傳送廠商。 然後，這些選件會作為內容，傳送出去以批次傳送訊息給相同的使用者區段。
 
 為此，本組織將：
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->批次決策也可使用Journey Optimizer介面來執行。 如需詳細資訊，請參閱 [本節](../../batch-delivery.md)，提供使用批次決策時需考量的全域先決條件和限制資訊。
+>您也可以使用Journey Optimizer介面執行批次決策。 如需詳細資訊，請參閱 [本節](../../batch-delivery.md)，提供使用批次決策時需考量的全域先決條件和限制資訊。
 
 * **每個資料集正在運行的批處理作業數**:每個資料集一次最多可執行5個批次作業。 具有相同輸出資料集的任何其他批次請求都會新增至佇列。 系統會擷取已排入佇列的作業，以在上一個作業完成執行後進行處理。
 * **頻率限定**:批次會關閉每天發生一次的設定檔快照。 此 [!DNL Batch Decisioning] API會將頻率設為上限，並一律從最新的快照載入設定檔。
@@ -58,7 +58,7 @@ ht-degree: 3%
 
 ## 啟動批處理 {#start-a-batch-process}
 
-要啟動工作量以批次處理決策，請向 `/workloads/decisions` 端點。
+要啟動工作量以批處理決策，請向 `/workloads/decisions` 端點。
 
 >[!NOTE]
 >
@@ -110,7 +110,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-90
 | `xdm:activityId` | 決策的唯一識別碼。 | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | 唯一版位識別碼。 | `xcore:offer-placement:1410c4117306488a` |
 | `xdm:itemCount` | 這是選用欄位，顯示決策範圍所請求的選項等項目數。 依預設，API會針對每個範圍傳回一個選項，但您可以指定此欄位，明確要求更多選項。 每個範圍最少可請求1個選項，最多可請求30個選項。 | `1` |
-| `xdm:includeContent` | 這是選用欄位，是 `false` 依預設。 若 `true`，則選件內容會包含在資料集的決策事件中。 | `false` |
+| `xdm:includeContent` | 此為選用欄位，是 `false` 依預設。 若 `true`，則選件內容會包含在資料集的決策事件中。 | `false` |
 
 請參閱 [決策管理檔案](../../get-started/starting-offer-decisioning.md) ，以了解主要概念和屬性的概觀。
 

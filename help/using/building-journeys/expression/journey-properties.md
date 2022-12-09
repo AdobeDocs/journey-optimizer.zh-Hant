@@ -10,13 +10,13 @@ exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 5%
+ht-degree: 0%
 
 ---
 
 # 歷程屬性屬性 {#journey-properties}
 
-在進階運算式編輯器中，您會找到 **歷程屬性** 類別，位於事件和資料來源類別下方。 此類別包含指定設定檔之歷程的相關技術欄位。 這是系統從即時歷程擷取的資訊，例如歷程 ID 或遇到的特定錯誤。 
+在進階運算式編輯器中，您會找到 **歷程屬性** 類別，位於事件和資料來源類別下方。 此類別包含指定設定檔之歷程的相關技術欄位。 這是系統從即時歷程擷取的資訊，例如歷程ID或遇到的特定錯誤。
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ ht-degree: 5%
 |  | organizationId | 組織識別碼 | 品牌組織 |
 |  | sandboxName | 沙箱名稱 | 沙箱名稱 |
 | 身分 | profileId | 設定檔身分識別碼 | 歷程中的設定檔識別碼 |
-|  | namespace | 設定檔身分命名空間 | 歷程中設定檔的命名空間(範例：ECID) |
+|  | 命名空間 | 設定檔身分命名空間 | 歷程中設定檔的命名空間(範例：ECID) |
 | 當前節點 | currentNodeId | 當前節點標識符 | 當前活動（節點）的標識符 |
 |  | currentNodeName | 當前節點名稱 | 當前活動的名稱（節點） |
 | 上一節點 | previousNodeId | 上一個節點標識符 | 前一個活動（節點）的標識符 |

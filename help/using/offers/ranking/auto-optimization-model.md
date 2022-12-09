@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * **多臂吃角子**:A [多臂吃角子](https://en.wikipedia.org/wiki/Multi-armed_bandit)最佳化的{target=&quot;_blank&quot;}方法可平衡探索學習與該學習的利用。
 
-* **Thomson採樣**:Thompson取樣是線上決策問題的演算法，其動作依序執行，必須在利用已知的項目來最大化即時效能與投資以累積可改善未來效能的新資訊之間取得平衡。 [了解更多](#thompson-sampling)
+* **Thomson採樣**:Thompson取樣是線上決策問題的演算法，其動作依序執行，必須在利用已知的項目來最大化即時效能與投資以累積可改善未來效能的新資訊之間取得平衡。 [深入了解](#thompson-sampling)
 
 * [**Beta發佈**](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}:連續集 [概率分佈](https://en.wikipedia.org/wiki/Probability_distribution)在間隔上定義的{target=&quot;_blank&quot;} [0, 1] [參數化](https://en.wikipedia.org/wiki/Statistical_parameter){target=&quot;_blank&quot;}) [形狀參數](https://en.wikipedia.org/wiki/Shape_parameter){target=&quot;_blank&quot;}。
 
@@ -79,10 +79,10 @@ ht-degree: 0%
 
 只要將成功和失敗次數加到現有參數即可計算後驗 ***α***, ***β***.
 
-針對自動最佳化，如上例所示，我們以先前的分佈開始 ***Beta(1, 1)*** （均勻分佈）適用於所有選件，在給定選件成功和失敗之後，後驗將變為含參數的Beta分佈 ***(s+α, f+β)*** 那個提議。
+針對自動最佳化，如上例所示，我們以先前的分佈開始 ***Beta(1, 1)*** （均勻分佈），所有選件在獲得成功後，以及給定選件的失敗後，後驗變為含參數的Beta分佈 ***(s+α, f+β)*** 那個提議。
 +++
 
-**相關主題**：
+**相關主題**:
 
 如需深入探討Thompson取樣，請閱讀下列研究論文：
 * [Thompson抽樣的實證評價](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target=&quot;_blank&quot;}

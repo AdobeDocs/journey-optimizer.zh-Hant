@@ -1,7 +1,7 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: 設定事件擷取
+title: 配置事件捕獲
 description: 了解如何設定優惠方案結構以擷取事件
 feature: Ranking Formulas
 role: User
@@ -9,12 +9,12 @@ level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 3%
+source-wordcount: '163'
+ht-degree: 0%
 
 ---
 
-# 設定事件擷取 {#schema-requirements}
+# 配置事件捕獲 {#schema-requirements}
 
 此時，您必須：
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 * 定義您要擷取的事件類型 — 顯示的選件（曝光）和/或已點按的選件（轉換）,
 * 以及您要收集事件資料的資料集。
 
-現在，每次顯示和/或點按選件時，您都會想要由 **[!UICONTROL 體驗事件 — 主張互動]** 欄位群組(使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;}或行動SDK。
+現在，每次顯示和/或點按選件時，您都會想要由 **[!UICONTROL Experience Event - Proposition Interactions]** 欄位群組(使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;}或行動SDK。
 
 若要傳送事件類型（顯示的選件或已點按的選件），您必須為傳送至Adobe Experience Platform的體驗事件中的每個事件類型設定正確的值。 以下是您在JavaScript程式碼中實作所需的結構需求：
 

@@ -7,13 +7,13 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 1%
+source-wordcount: '552'
+ht-degree: 0%
 
 ---
-
 
 # 使用條件式規則 {#conditions}
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 ## 存取條件式規則產生器 {#access}
 
-條件規則是從 **[!UICONTROL 條件]** 運算式編輯器中的功能表，可存取：
+條件規則是從 **[!UICONTROL Conditions]** 運算式編輯器中的功能表，可存取：
 
 * 從電子郵件設計工具，為電子郵件內文中的元件啟用動態內容時。 [了解如何將動態內容新增至電子郵件](dynamic-content.md#emails)
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 建立條件式規則的步驟如下：
 
-1. 存取 **[!UICONTROL 條件]** 表達式編輯器或電子郵件設計工具中的菜單，然後按一下 **[!UICONTROL 新建]**.
+1. 存取 **[!UICONTROL Conditions]** 表達式編輯器或電子郵件設計工具中的菜單，然後按一下 **[!UICONTROL Create new]**.
 
 1. 根據您的需求建立條件式規則。 若要這麼做，請從左側功能表將所需屬性拖放並排列至畫布中。
 
@@ -61,11 +61,11 @@ ht-degree: 1%
 
    屬性可組織為三個索引標籤：
 
-   * **[!UICONTROL 設定檔]**:
-      * **[!UICONTROL 區段成員資格]** 會列出所有區段屬性（例如狀態、版本等） for [Adobe Experience Platform細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
-      * **[!UICONTROL XDM個別設定檔]** 列出與 [Experience Data Model(XDM)結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) 定義於Adobe Experience Platform。
-   * **[!UICONTROL 內容]**:在歷程中使用您的訊息時，可透過此索引標籤使用內容歷程欄位。
-   * **[!UICONTROL 對象]**:會列出從中建立的區段產生的所有對象 [Adobe Experience Platform細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+   * **[!UICONTROL Profile]**:
+      * **[!UICONTROL Segment Membership]** 會列出所有區段屬性（例如狀態、版本等） for [Adobe Experience Platform細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
+      * **[!UICONTROL XDM Individual profiles]** 列出與 [Experience Data Model(XDM)結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) 在Adobe Experience Platform中定義。
+   * **[!UICONTROL Contextual]**:在歷程中使用您的訊息時，可透過此索引標籤使用內容歷程欄位。
+   * **[!UICONTROL Audiences]**:會列出從中建立的區段產生的所有對象 [Adobe Experience Platform細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 1. 條件式規則準備就緒後，您就可以將其新增至訊息，以建立動態內容。 [了解如何新增動態內容](dynamic-content.md)
 
@@ -79,9 +79,9 @@ ht-degree: 1%
 >
 >無法將運用歷程內容屬性的條件式規則儲存至資料庫。
 
-1. 在條件版本畫面中，按一下 **[!UICONTROL 儲存條件]** 按鈕。
+1. 在條件版本畫面中，按一下 **[!UICONTROL Save condition]** 按鈕。
 
-1. 為規則指定名稱和說明（選用），然後按一下 **[!UICONTROL 新增]**.
+1. 為規則指定名稱和說明（選用），然後按一下 **[!UICONTROL Add]**.
 
    ![](assets/conditions-name-description.png)
 

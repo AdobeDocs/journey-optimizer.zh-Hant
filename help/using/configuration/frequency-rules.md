@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 3%
+source-wordcount: '837'
+ht-degree: 0%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->訊息頻率規則與選擇退出管理不同，選擇退出管理可讓使用者取消訂閱，而無法接收來自品牌的通訊。 [了解更多](../privacy/opt-out.md#opt-out-management)
+>訊息頻率規則與選擇退出管理不同，選擇退出管理可讓使用者取消訂閱，而無法接收來自品牌的通訊。 [深入了解](../privacy/opt-out.md#opt-out-management)
 
 ➡️ [在影片中探索此功能](#video)
 
 ## 存取規則 {#access-rules}
 
-規則可從 **[!UICONTROL 管理]** > **[!UICONTROL 規則]** 功能表。 會列出所有規則，依修改日期排序。
+規則可從 **[!UICONTROL Administration]** > **[!UICONTROL Rules]** 功能表。 會列出所有規則，依修改日期排序。
 
 使用篩選圖示來篩選類別、狀態和/或通道。 您也可以在訊息標籤上搜尋。
 
@@ -39,9 +39,9 @@ ht-degree: 3%
 
 ### 權限{#permissions-frequency-rules}
 
-若要存取、建立、編輯或刪除訊息頻率規則，您必須具備 **[!UICONTROL 管理頻率規則]** 權限。
+若要存取、建立、編輯或刪除訊息頻率規則，您必須具備 **[!UICONTROL Manage frequency rules]** 權限。
 
-具有 **[!UICONTROL 檢視頻率規則]** 權限可以檢視規則，但無法修改或刪除規則。
+具有 **[!UICONTROL View frequency rules]** 權限可以檢視規則，但無法修改或刪除規則。
 
 ![](assets/message-rules-access.png)
 
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 若要建立新規則，請遵循下列步驟。
 
-1. 存取 **[!UICONTROL 訊息頻率規則]** 清單，然後按一下 **[!UICONTROL 建立規則]**.
+1. 存取 **[!UICONTROL Message frequency rules]** 清單，然後按一下 **[!UICONTROL Create rule]**.
 
    ![](assets/message-rules-create.png)
 
@@ -63,7 +63,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >目前僅 **[!UICONTROL 行銷]** 類別。
+   >目前僅 **[!UICONTROL Marketing]** 類別。
 
 1. 為規則設定上限，即每月可傳送至個別使用者設定檔的訊息數上限。
 
@@ -73,7 +73,7 @@ ht-degree: 3%
    >
    >頻率上限是根據每月日曆期間而定。 會在每月初重設。
 
-1. 選取要用於此規則的管道： **[!UICONTROL 電子郵件]** 或 **[!UICONTROL 推播通知]**.
+1. 選取要用於此規則的管道： **[!UICONTROL Email]** 或 **[!UICONTROL Push notification]**.
 
    ![](assets/message-rules-channels.png)
 
@@ -85,13 +85,13 @@ ht-degree: 3%
 
    例如，將上限設定為15，然後選取電子郵件和推播通道。 如果設定檔已收到10封行銷電子郵件和5封行銷推播通知，則此設定檔將從任何行銷電子郵件或推播通知的下一次傳送中排除。
 
-1. 按一下 **[!UICONTROL 另存為草稿]** 確認規則建立。 您的訊息會新增至規則清單，並搭配 **[!UICONTROL 草稿]** 狀態。
+1. 按一下 **[!UICONTROL Save as draft]** 確認規則建立。 您的訊息會新增至規則清單，並搭配 **[!UICONTROL Draft]** 狀態。
 
    ![](assets/message-rules-created.png)
 
 ## 啟動規則 {#activate-rule}
 
-建立後，訊息頻率規則會將 **[!UICONTROL 草稿]** 狀態且尚未影響任何訊息。 若要啟用，請按一下規則旁的刪節號，然後選取 **[!UICONTROL 啟動]**.
+建立後，訊息頻率規則會將 **[!UICONTROL Draft]** 狀態且尚未影響任何訊息。 若要啟用，請按一下規則旁的刪節號，然後選取 **[!UICONTROL Activate]**.
 
 ![](assets/message-rules-activate.png)
 
@@ -101,11 +101,11 @@ ht-degree: 3%
 >
 >完全啟動規則最多可能需要10分鐘。 您不需要修改訊息或重新發佈歷程，規則才會生效。
 
-若要停用訊息頻率規則，請按一下規則旁的省略號，然後選取 **[!UICONTROL 停用]**.
+若要停用訊息頻率規則，請按一下規則旁的省略號，然後選取 **[!UICONTROL Deactivate]**.
 
 ![](assets/message-rules-deactivate.png)
 
-規則的狀態會變更為 **[!UICONTROL 非作用中]** 並且該規則將不適用於將來的消息執行。 目前執行中的任何訊息將不受影響。
+規則的狀態會變更為 **[!UICONTROL Inactive]** 並且該規則將不適用於將來的消息執行。 目前執行中的任何訊息將不受影響。
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >目前僅 **[!UICONTROL 行銷]** 類別適用於訊息頻率規則。
+   >目前僅 **[!UICONTROL Marketing]** 類別適用於訊息頻率規則。
 
    <!--
    1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). A new tab will open to display the matching message frequency rules.-->
@@ -132,7 +132,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >訊息 <!--that do not have any selected category or messages -->其中選取的類別為 **[!UICONTROL 交易]** 不會根據頻率規則來評估。
+   >訊息 <!--that do not have any selected category or messages -->其中選取的類別為 **[!UICONTROL Transactional]** 不會根據頻率規則來評估。
 
    <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
@@ -162,9 +162,9 @@ ht-degree: 3%
 
 1. 儲存和 [啟用](#activate-rule) 規則。
 
-1. 建立電子郵件並選取 **[!UICONTROL 行銷]** 類別。 [了解更多](../email/create-email.md)
+1. 建立電子郵件並選取 **[!UICONTROL Marketing]** 類別。 [深入了解](../email/create-email.md)
 
-1. 建立推播通知並選取 **[!UICONTROL 行銷]** 類別。 [了解更多](../push/create-push.md)
+1. 建立推播通知並選取 **[!UICONTROL Marketing]** 類別。 [深入了解](../push/create-push.md)
 
 在此案例中，個別設定檔：
 * 每月最多可接收12則行銷訊息；
@@ -176,6 +176,6 @@ ht-degree: 3%
 
 ## 作法影片 {#video}
 
-瞭解如何建立、啟動、測試並報告頻率規則。 
+了解如何建立、啟用、測試和報告頻率規則。
 
 >[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

@@ -9,8 +9,8 @@ level: Beginner
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 12%
+source-wordcount: '105'
+ht-degree: 0%
 
 ---
 
@@ -26,5 +26,5 @@ ht-degree: 12%
 
 **另請參閱**
 
-* [查詢服務檔案](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant){target=&quot;_blank&quot;}
-* [查詢服務概述影片](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=zh-Hant){target=&quot;_blank&quot;}
+* [查詢服務檔案](https://experienceleague.adobe.com/docs/experience-platform/query/home.html){target=&quot;_blank&quot;}
+* [查詢服務概述影片](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target=&quot;_blank&quot;}

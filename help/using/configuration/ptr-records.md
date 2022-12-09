@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
 >title="子域的PTR記錄"
->abstract="將子網域委派給Journey Optimizer中的Adobe後，就會自動建立PTR記錄並與此子網域相關聯。"
+>abstract="在Journey Optimizer中將子網域委派給Adobe後，就會自動建立PTR記錄並與此子網域建立關聯。"
 
 ## 關於PTR記錄 {#about-ptr-records}
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 訪問子網域的PTR記錄 {#access-ptr-records}
 
-一次 [委派子網域](delegate-subdomain.md) 在Adobe Journey Optimizer中，會自動建立PTR記錄並與此子網域相關聯。 您可以從 **[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL PTR記錄]** 功能表。
+一次 [委派子網域](delegate-subdomain.md) 在Adobe Journey Optimizer中，會自動建立PTR記錄並與此子網域相關聯。 您可以從 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** 功能表。
 
 ![](assets/ptr-records.png)
 
@@ -59,35 +59,35 @@ ht-degree: 0%
 
 ### 完全委派的子網域 {#fully-delegated-subdomains}
 
-要編輯具有以下子域的PTR記錄： [完全授權](delegate-subdomain.md#full-subdomain-delegation) 若要Adobe，請遵循下列步驟。
+要編輯具有以下子域的PTR記錄： [完全授權](delegate-subdomain.md#full-subdomain-delegation) 前往Adobe，請遵循下列步驟。
 
 1. 從清單中，按一下PTR記錄名以開啟它。
 
    ![](assets/ptr-record-select.png)
 
-1. 選取子網域 [完全授權](delegate-subdomain.md#full-subdomain-delegation) Adobe。
+1. 選取子網域 [完全授權](delegate-subdomain.md#full-subdomain-delegation) 從清單傳到Adobe。
 
    ![](assets/ptr-record-subdomain.png)
 
-1. 按一下 **[!UICONTROL 儲存]** 確認變更。
+1. 按一下 **[!UICONTROL Save]** 確認變更。
 
 >[!NOTE]
 >
->您無法修改 **[!UICONTROL IP]** 和 **[!UICONTROL PTR記錄]** 欄位。
+>您無法修改 **[!UICONTROL IP]** 和 **[!UICONTROL PTR record]** 欄位。
 
 ### 使用CNAME方法委派的子網域 {#edit-ptr-subdomains-cname}
 
-要使用委派給Adobe的子域編輯PTR記錄，請使用 [CNAME方法](delegate-subdomain.md#cname-subdomain-delegation)，請遵循下列步驟。
+若要使用委派給Adobe的子網域來編輯PTR記錄，請使用 [CNAME方法](delegate-subdomain.md#cname-subdomain-delegation)，請遵循下列步驟。
 
 1. 從清單中，按一下PTR記錄名以開啟它。
 
    ![](assets/ptr-record-select-cname.png)
 
-1. 選取委派給Adobe的子網域，使用 [CNAME方法](delegate-subdomain.md#cname-subdomain-delegation) 從清單中。
+1. 使用 [CNAME方法](delegate-subdomain.md#cname-subdomain-delegation) 從清單中。
 
    ![](assets/ptr-record-subdomain-cname.png)
 
-1. 您需要在托管平台上建立新的轉送DNS記錄。 要執行此操作，請複製由Adobe產生的記錄。 完成後，核取「I confirm...」方塊。
+1. 您需要在托管平台上建立新的轉送DNS記錄。 若要這麼做，請複製Adobe產生的記錄。 完成後，核取「I confirm...」方塊。
 
    ![](assets/ptr-record-subdomain-confirm.png)
 
@@ -98,15 +98,15 @@ ht-degree: 0%
    >   * 跨DNS的記錄可能不會立即同步。 請等待幾分鐘，然後重試。
 
 
-1. 按一下 **[!UICONTROL 儲存]** 確認變更。
+1. 按一下 **[!UICONTROL Save]** 確認變更。
 
 >[!NOTE]
 >
->您無法修改 **[!UICONTROL IP]** 和 **[!UICONTROL PTR記錄]** 欄位。
+>您無法修改 **[!UICONTROL IP]** 和 **[!UICONTROL PTR record]** 欄位。
 
 ## 檢查PTR記錄更新詳細資訊 {#check-ptr-record-update}
 
-確認PTR記錄編輯後， **[!UICONTROL 處理]** 表徵圖顯示在清單中PTR記錄的名稱旁。
+確認PTR記錄編輯後， **[!UICONTROL Processing]** 表徵圖顯示在清單中PTR記錄的名稱旁。
 
 ![](assets/ptr-record-updating.png)
 
@@ -126,17 +126,17 @@ ht-degree: 0%
 
 PTR記錄更新可以具有以下狀態：
 
-* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL 處理]**:PTR記錄更新已提交，正在進行驗證過程。
-* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL 成功]**:已驗證更新的PTR記錄，並且新子域現在與IP地址關聯。
-* ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL 失敗]**:在PTR記錄更新驗證期間，一個或多個檢查失敗。
+* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**:PTR記錄更新已提交，正在進行驗證過程。
+* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**:已驗證更新的PTR記錄，並且新子域現在與IP地址關聯。
+* ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**:在PTR記錄更新驗證期間，一個或多個檢查失敗。
 
-### 正在處理 {#processing}
+### 處理 {#processing}
 
 將執行數項傳遞能力檢查，以確認要與IP位址關聯的新子網域是否有效。 最多需要3小時。
 
 >[!NOTE]
 >
->在進行更新時無法修改PTR記錄。 您仍可按一下其名稱，但 **[!UICONTROL 子網域]** 欄位會呈現灰色。 更新成功前，不會反映變更。
+>在進行更新時無法修改PTR記錄。 您仍可按一下其名稱，但 **[!UICONTROL Subdomain]** 欄位會呈現灰色。 更新成功前，不會反映變更。
 
 在驗證程式期間，舊的子網域仍與IP位址相關聯。
 
@@ -144,7 +144,7 @@ PTR記錄更新可以具有以下狀態：
 
 驗證程式一旦成功，新子網域就會自動與IP位址相關聯。
 
-### 已失敗 {#failes}
+### 失敗 {#failes}
 
 如果驗證過程失敗，則顯示較舊的PTR記錄。 先前與IP位址相關聯的有效子網域維持不變。
 

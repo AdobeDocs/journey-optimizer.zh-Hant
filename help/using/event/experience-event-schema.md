@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 4%
+source-wordcount: '762'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 [!DNL Journey Optimizer] 事件是透過串流獲取傳送至Adobe Experience Platform的XDM體驗事件。
 
-因此，設定事件的重要先決條件 [!DNL Journey Optimizer] 您應熟悉Adobe Experience Platform的Experience Data Model（或XDM），以及如何組成XDM體驗事件結構，以及如何將XDM格式化的資料串流至Adobe Experience Platform。
+因此，設定事件的重要先決條件 [!DNL Journey Optimizer] 您必須熟悉Adobe Experience Platform的Experience Data Model（或XDM）、如何組成XDM體驗事件結構，以及如何將XDM格式化資料串流至Adobe Experience Platform。
 
 ## 的結構需求 [!DNL Journey Optimizer] 事件  {#schema-requirements}
 
@@ -37,7 +37,7 @@ ht-degree: 4%
 
    ![](assets/schema3.png)
 
-* 宣告身分欄位，以識別事件的主題。 如果未指定身份，則可以使用身份映射。 不建議採用此做法。
+* 宣告身分欄位，以識別事件的主題。 如果未指定身份，則可以使用身份映射。 不建議使用。
 
    ![](assets/schema4.png)
 
@@ -53,9 +53,9 @@ ht-degree: 4%
 
    ![](assets/schema8.png)
 
-## 利用綱要關係{#leverage_schema_relationships}
+## 利用架構關係{#leverage_schema_relationships}
 
-Adobe Experience Platform 可讓您定義綱要之間的關係，以便將一個資料集用作另一個資料集的查詢表。 
+Adobe Experience Platform可讓您定義結構之間的關係，以使用一個資料集做為另一個資料集的查閱表格。
 
 假設您的品牌資料模型具有擷取購買的結構描述。 您也有產品目錄的結構。 您可以在購買結構中擷取產品ID，並使用關係從產品目錄中尋找更完整的產品詳細資訊。 這可讓您為購買筆記型電腦的所有客戶建立區段，例如，不需要明確列出所有筆記型電腦ID，或擷取交易系統中的每個單一產品詳細資訊。
 
@@ -73,7 +73,7 @@ Adobe Experience Platform 可讓您定義綱要之間的關係，以便將一個
 >
 >深入了解 [Experience Platform檔案](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
 
-在Journey Optimizer中，您接著可以運用連結表格中的所有欄位：
+然後，在Journey Optimizer中，您可以運用連結表格中的所有欄位：
 
 * 配置業務或統一事件時， [了解詳情](../event/experience-event-schema.md#unitary_event_configuration)
 * 在歷程中使用條件時， [了解詳情](../event/experience-event-schema.md#journey_conditions_using_event_context)

@@ -1,5 +1,5 @@
 ---
-title: 列出個人化優惠
+title: 列出個人化優惠方案
 description: 個人化優惠方案是根據適用性規則和限制而自訂的行銷訊息。
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 5%
+ht-degree: 0%
 
 ---
 
-# 列出個人化優惠 {#list-personalized-offers}
+# 列出個人化優惠方案 {#list-personalized-offers}
 
 個人化優惠方案是根據適用性規則和限制而自訂的行銷訊息。
 

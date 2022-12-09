@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用進階運算式編輯器
-description: 瞭解如何建立進階運算式
+description: 了解如何建立進階運算式
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 3%
+source-wordcount: '489'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 進階運算式編輯器是強制性的，可對時間序列執行查詢，例如購買清單或以前對訊息的點按。 無法使用簡單編輯器執行此類查詢。
 
-體驗事件會以反向時間順序從Adobe Experience Platform擷取為集合，因此：
+體驗事件是以反向時間順序從Adobe Experience Platform擷取的集合，因此：
 
 * 第一個函式會傳回最近的事件
 * 最後一個函式將返回最舊的函式。
@@ -146,4 +146,4 @@ substr(
 
 說明：此範例使用 `substr` 和 `lastIndexOf` 函式可移除大括弧，此大括弧會括住隨行動應用程式啟動事件傳遞的CRM ID。
 
-有關如何使用高級表達式編輯器的詳細資訊，請觀看 [此影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=zh-Hant).
+有關如何使用高級表達式編輯器的詳細資訊，請觀看 [此影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html).

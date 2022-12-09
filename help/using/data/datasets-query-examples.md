@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
 
 # 資料集使用案例 {#tracking-datasets}
 
-本頁提供Adobe Journey Optimizer資料集清單和相關使用案例：
+在本頁面中，您會找到Adobe Journey Optimizer資料集清單和相關使用案例：
 
 [電子郵件追蹤體驗事件資料集](#email-tracking-experience-event-dataset)
 [訊息意見事件資料集](#message-feedback-event-dataset)
@@ -148,7 +148,7 @@ SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefail
 
 _介面中的名稱：CJM推播追蹤體驗事件資料集_
 
-用於擷取行動追蹤體驗事件以從Journey Optimizer推播的資料集。
+用於從Journey Optimizer推送擷取行動追蹤體驗事件的資料集。
 
 相關結構為CJM推播追蹤體驗事件結構。
 
@@ -168,7 +168,7 @@ _內部名稱：歷程步驟事件（系統資料集）_
 
 用於擷取歷程中步驟事件的資料集。
 
-相關結構為Journey Orchestration的歷程步驟事件結構。
+相關結構為Journey Orchestration的Journey Step事件結構。
 
 此查詢會依指定歷程的動作標籤，顯示動作成功計數的劃分：
 
@@ -314,9 +314,9 @@ _介面中的名稱：ajo_entity_dataset（系統資料集）_
 
 相關架構為AJO實體架構。
 
-此資料集可讓您存取行銷人員定義的中繼資料，當Journey Optimizer資料集匯出為外部工具的報表視覺效果時，可讓您取得更深入的報表分析。 這是使用messageID屬性來達成的，可協助匯整各種資料集（例如訊息意見資料集和體驗事件追蹤資料集），以在設定檔層級取得從傳送到追蹤訊息傳送的詳細資訊。
+此資料集可讓您存取行銷人員定義的中繼資料，讓您在匯出Journey Optimizer資料集以供外部工具的報表視覺效果時，取得更深入的報表分析。 這是使用messageID屬性來達成的，可協助匯整各種資料集（例如訊息意見資料集和體驗事件追蹤資料集），以在設定檔層級取得從傳送到追蹤訊息傳送的詳細資訊。
 
-**重要備註**
+**重要附註**
 
 * 訊息的項目只有在歷程或行銷活動發佈後才會建立。
 

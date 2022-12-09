@@ -7,13 +7,13 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
+exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 3%
+source-wordcount: '543'
+ht-degree: 0%
 
 ---
-
 
 # 建立應用程式內訊息 {#create-in-app}
 
@@ -21,53 +21,53 @@ ht-degree: 3%
 
 若要建立應用程式內訊息，請遵循下列步驟：
 
-1. 存取 **[!UICONTROL 行銷活動]** ，然後按一下 **[!UICONTROL 建立行銷活動]**.
+1. 存取 **[!UICONTROL Campaigns]** ，然後按一下 **[!UICONTROL Create campaign]**.
 
-1. 在 **[!UICONTROL 屬性]** 區段，指定您要執行促銷活動的時間。
+1. 在 **[!UICONTROL Properties]** 區段，指定您要執行促銷活動的時間。
 
-1. 在 **[!UICONTROL 動作]** 區段，選擇 **[!UICONTROL 應用程式內訊息]** 和 **[!UICONTROL 應用程式表面]** 先前已針對您的應用程式內訊息設定。 然後，按一下 **[!UICONTROL 建立]**.
+1. 在 **[!UICONTROL Actions]** 區段，選擇 **[!UICONTROL In-app message]** 和 **[!UICONTROL App surface]** 先前已針對您的應用程式內訊息設定。 然後，按一下 **[!UICONTROL Create]**.
 
    [深入了解應用程式內設定](inapp-configuration.md).
 
    ![](assets/in_app_create_1.png)
 
-1. 從 **[!UICONTROL 屬性]** 區段，編輯您的促銷活動 **[!UICONTROL 標題]** 和 **[!UICONTROL 說明]**.
+1. 從 **[!UICONTROL Properties]** 區段，編輯您的促銷活動 **[!UICONTROL Title]** 和 **[!UICONTROL Description]**.
 
-1. 若要將自訂或核心資料使用量標籤指派至登陸頁面，請選取 **[!UICONTROL 管理存取]**. [了解更多](../administration/object-based-access.md)。
+1. 若要將自訂或核心資料使用量標籤指派至登陸頁面，請選取 **[!UICONTROL Manage access]**. [深入了解](../administration/object-based-access.md).
 
-1. 按一下 **[!UICONTROL 選取對象]** 按鈕，從可用的Adobe Experience Platform區段清單中定義要鎖定的對象。 [了解更多](../segment/about-segments.md)。
+1. 按一下 **[!UICONTROL Select audience]** 按鈕，從可用的Adobe Experience Platform區段清單中定義要鎖定的對象。 [深入了解](../segment/about-segments.md).
 
    ![](assets/in_app_create_2.png)
 
-1. 在 **[!UICONTROL 身分命名空間]** 欄位中，選擇要使用的命名空間，以識別所選區段中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
+1. 在 **[!UICONTROL Identity namespace]** 欄位中，選擇要使用的命名空間，以識別所選區段中的個人。 [深入了解](../event/about-creating.md#select-the-namespace).
 
 1. 選擇應用程式內訊息作用中時觸發的頻率：
 
-   * **[!UICONTROL 每次顯示]**:在 **[!UICONTROL 行動應用程式觸發器]** 下拉式清單中。
-   * **[!UICONTROL 顯示一次]**:只會在第一次選取事件時顯示此訊息， **[!UICONTROL 行動應用程式觸發器]** 下拉式清單中。
-   * **[!UICONTROL 顯示直到點進]**:當 **[!UICONTROL 行動應用程式觸發器]** 下拉式清單，直到SDK以「已點按」動作傳送interact事件為止。
+   * **[!UICONTROL Show every time]**:在 **[!UICONTROL Mobile app trigger]** 下拉式清單中。
+   * **[!UICONTROL Show once]**:只會在第一次選取事件時顯示此訊息， **[!UICONTROL Mobile app trigger]** 下拉式清單中。
+   * **[!UICONTROL Show until click through]**:當 **[!UICONTROL Mobile app trigger]** 下拉式清單，直到SDK以「已點按」動作傳送interact事件為止。
 
-1. 從 **[!UICONTROL 行動應用程式觸發器]** 下拉式清單，選擇將觸發訊息的事件和條件：
+1. 從 **[!UICONTROL Mobile app trigger]** 下拉式清單，選擇將觸發訊息的事件和條件：
 
    1. 從左側下拉式清單中，選取觸發訊息所需的事件。
    1. 從右下拉式清單中，選取所選事件所需的驗證。
-   1. 按一下 **[!UICONTROL 新增]** 按鈕。 然後，重複上述步驟。
-   1. 選取事件的連結方式，例如選擇 **[!UICONTROL 和]** 如果您想要 **both** 觸發為true，以便顯示或選擇訊息 **[!UICONTROL 或]** 如果您想要顯示訊息，如果 **heer** 觸發器是真的。
+   1. 按一下 **[!UICONTROL Add]** 按鈕。 然後，重複上述步驟。
+   1. 選取事件的連結方式，例如選擇 **[!UICONTROL And]** 如果您想要 **both** 觸發為true，以便顯示或選擇訊息 **[!UICONTROL Or]** 如果您想要顯示訊息，如果 **heer** 觸發器是真的。
 
    ![](assets/in_app_create_3.png)
 
-1. 從 **[!UICONTROL 行動應用程式觸發器]**
+1. 從 **[!UICONTROL Mobile app trigger]**
 下拉式清單。
 
    選擇觸發器後，您就會選擇要顯示應用程式內訊息的使用者動作。
 
    ![](assets/in_app_create_3.png)
 
-1. 促銷活動設計為在特定日期或循環頻率上執行。 了解如何設定 **[!UICONTROL 排程]** 在 [本節](../campaigns/create-campaign.md#schedule).
+1. 促銷活動設計為在特定日期或循環頻率上執行。 了解如何設定 **[!UICONTROL Schedule]** 在 [本節](../campaigns/create-campaign.md#schedule).
 
    ![](assets/in-app-schedule.png)
 
-1. 您現在可以開始使用 **[!UICONTROL 編輯內容]** 按鈕。
+1. 您現在可以開始使用 **[!UICONTROL Edit content]** 按鈕。
 
    ![](assets/in_app_create_4.png)
 
@@ -77,13 +77,13 @@ ht-degree: 3%
 
 您可以在特定裝置中預覽應用程式內通知。
 
-1. 按一下 **[!UICONTROL 在裝置上預覽]**.
+1. 按一下 **[!UICONTROL Preview on device]**.
 
    ![](assets/in_app_create_6.png)
 
-1. 從 **[!UICONTROL 連接到設備]** 按一下 **[!UICONTROL 開始]**.
+1. 從 **[!UICONTROL Connect to device]** 按一下 **[!UICONTROL Start]**.
 
-1. 在 **[!UICONTROL 基本URL]** 按一下 **[!UICONTROL 下一個]**.
+1. 在 **[!UICONTROL Base URL]** 按一下 **[!UICONTROL Next]**.
 
    ![](assets/in_app_create_7.png)
 
@@ -95,19 +95,19 @@ ht-degree: 3%
 
 建立應用程式內訊息，並定義及個人化其內容後，您就可以檢閱及啟用訊息。
 
-請依照下列步驟執行：
+若要執行此作業，請遵循下列步驟：
 
-1. 使用 **[!UICONTROL 審核以激活]** 按鈕以顯示訊息摘要。
+1. 使用 **[!UICONTROL Review to activate]** 按鈕以顯示訊息摘要。
 
    摘要可讓您視需要修改促銷活動，並檢查是否有任何參數不正確或遺失。
 
    ![](assets/in_app_create_5.png)
 
-1. 檢查促銷活動是否已正確設定，然後按一下 **[!UICONTROL 啟動]**.
+1. 檢查促銷活動是否已正確設定，然後按一下 **[!UICONTROL Activate]**.
 
 您的促銷活動現在已啟用。 行銷活動中設定的應用程式內通知會立即傳送，或在指定日期傳送。
 
-傳送後，您就可以在Campaign報表中測量應用程式內訊息的影響。 如需報告的詳細資訊，請參閱[本區段](inapp-report.md)。
+傳送後，您就可以在Campaign報表中測量應用程式內訊息的影響。 如需報告的詳細資訊，請參閱 [本節](inapp-report.md).
 
 **相關主題：**
 

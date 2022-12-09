@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在 Journey Optimizer 中個人化內容
+title: 在Journey Optimizer中個人化內容
 description: 開始使用個人化。
 feature: Personalization
 topic: Personalization
@@ -10,7 +10,7 @@ level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Discover [!DNL Adobe Journey Optimizer] 個人化功能，運用您擁有的相�
 
 ## 運用設定檔資料個人化您的訊息 {#data}
 
-根據由 Adobe Experience Platform 定義的 **XDM 個人設定檔**&#x200B;方案管理的設定檔資料進行個人化。 深入了解 [Adobe Experience Platform Data Model(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+個人化以由 **XDM個別設定檔** 在Adobe Experience Platform中定義的結構描述。 深入了解 [Adobe Experience Platform Data Model(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}。
 
 >[!CAUTION]
 >此 **XDM個別設定檔** 結構是您唯一可用來個人化 [!DNL Journey Optimizer].
@@ -54,10 +54,10 @@ Discover [!DNL Adobe Journey Optimizer] 個人化功能，運用您擁有的相�
 
 ## 作法影片{#video-perso}
 
-瞭解如何使用歷程中的內容事件資訊來個人化訊息。
+了解如何使用歷程中的情境事件資訊來個人化訊息。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-瞭解如何將以設定檔為基礎的個人化新增至訊息，以及如何使用區段成員資格作為個人化區塊的先決條件。
+了解如何將以設定檔為基礎的個人化新增至訊息，以及如何使用區段成員資格作為個人化區塊的先決條件。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

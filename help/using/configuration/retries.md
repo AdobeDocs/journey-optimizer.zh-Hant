@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 重試次數
+title: 重試
 description: 了解如何在將地址發送到隱藏清單之前執行重試
 feature: Application Settings
 topic: Administration
@@ -11,11 +11,11 @@ exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# 重試次數 {#retries}
+# 重試 {#retries}
 
 當電子郵件因暫時性而失敗時 **軟跳出** 錯誤，會執行多次重試。 每個錯誤都會增加一個錯誤計數器。 當此計數器達到限制閾值時，該地址將添加到隱藏清單中。
 
@@ -41,9 +41,9 @@ ht-degree: 1%
 
 如果預設值5不符合您的需求，您可以依照下列步驟修改錯誤臨界值。
 
-1. 前往 **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL 隱藏清單]**.
+1. 前往 **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Suppression list]**.
 
-1. 選取 **[!UICONTROL 編輯隱藏規則]** 按鈕。
+1. 選取 **[!UICONTROL Edit suppression rules]** 按鈕。
 
    ![](assets/suppression-list-edit-retries.png)
 
@@ -57,7 +57,7 @@ ht-degree: 1%
    >
    >超過10的值可能會造成傳遞能力信譽問題，以及IP限制或ISP封鎖名單。 [深入了解傳遞能力](../reports/deliverability.md)
 
-## 重試時段 {#retry-duration}
+## 重試時間段 {#retry-duration}
 
 此 **重試時間段** 是傳送中遇到暫時錯誤或軟退信的任何電子郵件訊息會重試的時間範圍。
 
