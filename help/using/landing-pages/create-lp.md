@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: e7add9627a9938b861ddbcc40f168f41c871119b
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
 >id="ajo_lp_create"
 >title="定義並設定登錄頁面"
 >abstract="若要建立登錄頁面，您需要選取預設集，然後設定主要頁面和子頁面，最後在發佈頁面之前測試頁面。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="建立登錄頁面預設集"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="建立登錄頁面預設集"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="發佈登錄頁面"
 
 >[!CONTEXTUALHELP]
@@ -100,8 +100,8 @@ ht-degree: 0%
 >id="ajo_lp_access_settings"
 >title="定義登錄頁面URL"
 >abstract="在本節中，定義唯一的登錄頁面URL。 URL的第一部分需要您先前設定登錄頁面子網域，作為您選取之預設集的一部分。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="設定登錄頁面子網域"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="建立登錄頁面預設集"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="設定登錄頁面子網域"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="建立登錄頁面預設集"
 
 主要頁面是使用者點按登錄頁面的連結（例如來自電子郵件或網站）後，立即顯示給他們的頁面。
 

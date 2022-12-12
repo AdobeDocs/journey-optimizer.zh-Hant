@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: e7add9627a9938b861ddbcc40f168f41c871119b
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 0%
@@ -171,7 +171,7 @@ ht-degree: 0%
 >id="ajo_admin_presets_retryperiod"
 >title="調整重試時間段"
 >abstract="當電子郵件傳送因暫時軟退信錯誤而失敗時，將執行3.5天（84小時）的重試。 您可以調整此預設的重試時間段，以更符合您的需求。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="關於重試"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="關於重試"
 
 您可以設定 **電子郵件重試參數**.
 
