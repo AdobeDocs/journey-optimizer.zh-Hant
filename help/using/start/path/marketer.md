@@ -1,49 +1,49 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer行銷人員快速入門
-description: 身為Journey Prociener，深入了解如何使用Journey Optimizer
+title: Journey Optimizer 行銷人員快速入門
+description: 作為歷程操作者，深入瞭解如何使用 Journey Optimizer
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # 行銷人員快速入門 {#get-started-marketers}
 
-As a **行銷人員** 或 **歷程實踐者**，您必須負責建立選件和歷程以及設計內容。 您可以開始使用 [!DNL Adobe Journey Optimizer] once [系統管理員](administrator.md) 和 [資料工程師](data-engineer.md) 授予您存取權並準備您的環境。
+作為&#x200B;**行銷人員**&#x200B;或&#x200B;**歷程操作者**，您必須負責建立優惠方案及歷程以及設計內容。 一旦[系統管理員](administrator.md)及[資料工程師](data-engineer.md)授予您存取權限並準備好您的環境，您就可以開始使用[!DNL Adobe Journey Optimizer]。
 
-請參閱下列章節，以設定您的第一個歷程、新增選件和資產，以及傳送訊息：
+請參閱下列章節，以設定您的第一個歷程、新增優惠方案及資產並傳送訊息：
 
-1. **建立區段**. Journey Optimizer可讓您直接從 **區段** 功能表，並將其運用於您的歷程中。  深入了解區段 [在本頁](../../segment/about-segments.md). 探索如何建立區段 [在此範例中](../../segment/creating-a-segment.md).
+1. **建立區段**。Journey Optimizer 可讓您直接從&#x200B;**區段**&#x200B;功能表建立細分對象群，並將其運用於您的歷程。  [在本頁](../../segment/about-segments.md)深入瞭解區段。[在此範例](../../segment/creating-a-segment.md)瞭解如何建立區段 
 
-1. **新增個人化和動態內容**. 運用Journey Optimizer個人化和動態內容功能，讓您的訊息能與您的對象相適應。 深入了解 [個人化](../../personalization/personalize.md) 和 [動態內容](../../personalization/get-started-dynamic-content.md).
+1. **新增個人化及動態內容**。 利用 Journey Optimizer 個人化及動態內容功能，使您的訊息能與對象相符合。 深入瞭解[個人化](../../personalization/personalize.md)及[動態內容](../../personalization/get-started-dynamic-content.md)。
 
    ![](../assets/perso_ee2.png)
 
-1. **建立和管理資產**. [!DNL Adobe Experience Manager Assets Essentials] 提供單一的集中資產存放庫，供您用來填入訊息。 深入了解 [在本節](../../email/assets-essentials.md).
+1. **建立及管理資產**。[!DNL Adobe Experience Manager Assets Essentials]提供了可用於填入訊息的單一、集中式資產存放庫。請參閱[本節](../../email/assets-essentials.md)。
 
-1. **新增優惠方案**. 使用 [!DNL Journey Optimizer] 以在適當的時間跨所有接觸點為客戶提供最佳選件和體驗。 設計完成後，透過個人化優惠方案鎖定您的對象。 深入了解決策管理 [在本節](../../offers/get-started/starting-offer-decisioning.md).
+1. **新增優惠方案**。使用 [!DNL Journey Optimizer] 可在適當的時間為所有接觸點的客戶提供最佳優惠和體驗。設計完成後，透過個人化優惠目標定位對象。[在此章節](../../offers/get-started/starting-offer-decisioning.md)深入瞭解決策管理相關內容。
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **測試和驗證**. 定義內容後，您就可以使用測試設定檔來預覽和測試內容。 如果您已插入 [個人化內容](../../personalization/personalize.md)，您將能使用測試設定檔資料，檢查訊息中此內容的顯示方式。 此外，還要利用 **利特穆斯** 帳戶 [!DNL Journey Optimizer] 立即預覽 **電子郵件呈現** 常見電子郵件用戶端。 然後，您可以確保您的電子郵件內容看起來很棒，並且在每個收件匣中都正常運作。 了解如何測試和驗證您的訊息 [在本節](../../email/preview.md).
+1. **測試及驗證**。 定義內容後，您就可以使用測試設定檔來預覽及測試。 如果您已插入[個人化內容](../../personalization/personalize.md)，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。此外，利用您的 **Litmus** 帳戶登入，即可在&#x200B;**常見電子郵件用戶端[!DNL Journey Optimizer]立即預覽**&#x200B;電子郵件呈現。 您可以確保電子郵件內容都能看起來不錯，並且在每個收件匣中都正常運作。 [在本節](../../email/preview.md)深入瞭解如何測試與驗證訊息。 
 
-1. **設計客戶歷程** 提供個人化的情境式體驗。 [!DNL Journey Optimizer] 可讓您建立即時協調使用案例，其中包含儲存在事件或資料來源中的內容資料。 設計由下列功能提供支援的多步驟進階案例：
+1. **設計客戶歷程**&#x200B;提供個人化的情境式體驗。 [!DNL Journey Optimizer]可讓您利用儲存在事件或資料來源中的情境資料，建立即時協調流程使用案例。設計由下列功能提供支援的多步驟進階案例：
 
-   * 即時傳送 **單一傳送** 在收到事件時觸發，或 **批次** 使用Adobe Experience Platform區段。
+   * 傳送在收到事件時觸發的即時&#x200B;**單一傳遞**，或使用 Adobe Experience Platform 分段&#x200B;**批次**&#x200B;傳遞。
 
-   * 運用 **內容資料** 來自事件、Adobe Experience Platform的資訊，或來自協力廠商API服務的資料。
+   * 利用來自事件的&#x200B;**情境資料** 、來自 Adobe Experience Platform 的資訊，或來自協力廠商 API 服務的資料。
 
-   * 使用 **內建管道動作** （電子郵件、簡訊、推播）以傳送 [!DNL Journey Optimizer] 或建立 **自訂動作** 如果您使用協力廠商系統來傳送訊息。
+   * 如果您使用協力廠商系統來傳送訊息，請使用&#x200B;**內建頻道操作** (電子郵件、簡訊、推播) 傳送設計的訊息[!DNL Journey Optimizer]或建立&#x200B;**自訂操作**。
 
-   * 使用 **歷程設計器**，建立您的多步驟使用案例：輕鬆拖放登入事件或讀取區段活動、新增條件及傳送個人化訊息。
+   * 使用&#x200B;**歷程設計器**，建立您的多步驟使用案例：輕鬆拖放登入事件或讀取區段活動、新增條件及傳送個人化訊息。
 
    ![](../assets/journey-design.png)
 
-   了解如何設計和執行歷程 [在本節](../../building-journeys/journey-gs.md)
+   [在本節](../../building-journeys/journey-gs.md)深入瞭解如何設計與執行歷程
 
-1. **監控訊息和歷程**. 為確保您的訊息成功執行、傳送及傳送， [!DNL Journey Optimizer] 提供可監控目前發佈及觸發之訊息的功能。 了解如何監控效能 [在本節](../../reports/global-report.md).
+1. **監控訊息及歷程**。為確保您的訊息成功執行、傳送及傳遞，[!DNL Journey Optimizer]提供可監控目前發佈及觸發之訊息的功能。 [在本節](../../reports/global-report.md)深入瞭解如何監控效能。
