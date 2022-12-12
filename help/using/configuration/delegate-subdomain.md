@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
 workflow-type: tm+mt
 source-wordcount: '1704'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 >id="ajo_admin_subdomainname"
 >title="子網域委派"
 >abstract="Journey Optimizer可讓您將子網域委派給Adobe。 您可以將子網域完全委派給Adobe，這是建議的方法。 您也可以使用CNAME建立子網域以指向Adobe專屬記錄，但此方法需要您自行維護和管理DNS記錄。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="子網域設定方法"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="子網域設定方法"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
@@ -48,7 +48,7 @@ ht-degree: 0%
 >id="ajo_admin_subdomain_dns"
 >title="生成匹配的DNS記錄"
 >abstract="若要將新子網域完全委派給Adobe，您必須將Journey Optimizer介面中顯示的Adobe名稱伺服器資訊複製並貼到您的網域托管解決方案中，以產生相符的DNS記錄。 若要使用CNAME委派子網域，您也需要複製並貼上SSL CDN URL驗證記錄。 檢查成功後，子網域即可供用來傳送訊息。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/delegate-subdomain.html#cname-subdomain-delegation" text="CNAME子網域委派"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain.html#cname-subdomain-delegation" text="CNAME子網域委派"
 
 [!DNL Journey Optimizer] 可讓您直接從產品介面將子網域完全委派給Adobe。 如此一來，Adobe就能控制並維護傳送、轉譯及追蹤電子郵件行銷活動所需的DNS的所有層面，以受管理的服務形式傳送訊息。
 

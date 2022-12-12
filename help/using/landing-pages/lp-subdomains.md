@@ -6,7 +6,7 @@ description: 了解如何使用Journey Optimizer設定登錄頁面子網域
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -24,13 +24,13 @@ ht-degree: 0%
 >id="ajo_admin_subdomain_lp"
 >title="委派登錄頁面子網域"
 >abstract="您必須設定要用於登錄頁面的子網域，因為您需要此子網域才能建立登錄頁面預設集。 您可以使用已委派給Adobe的子網域，或設定新的子網域。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html" text="建立登錄頁面預設集"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="建立登錄頁面預設集"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="建立登錄頁面預設集"
 >abstract="若要建立登錄頁面預設集，請確定您先前已設定至少一個要從子網域名稱清單挑選的登錄頁面子網域。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html" text="建立登錄頁面預設集"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="建立登錄頁面預設集"
 
 才能 [建立登錄頁面預設集](lp-presets.md)，您必須設定要用於登錄頁面的子網域。
 
