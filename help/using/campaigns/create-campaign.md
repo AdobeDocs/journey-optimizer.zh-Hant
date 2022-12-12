@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
+source-git-commit: 5f8a765eefe4033a642c46e18be518d29b196bc3
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -127,6 +127,21 @@ ht-degree: 0%
 
 ## 排程促銷活動 {#schedule}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_start"
+>title="促銷活動開始"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_end"
+>title="促銷活動結束"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_triggers"
+>title="Campaign動作觸發程式"
+>abstract="TBC"
+
 1. 若要在特定日期或循環頻率上執行促銷活動，請設定 **[!UICONTROL Schedule]** 區段。 [了解如何排程行銷活動](#schedule)
 
 1. 若要將自訂或核心資料使用量標籤指派給促銷活動，請按一下 **[!UICONTROL Manage access]** 按鈕。 [進一步了解對象級訪問控制(OLA)](../administration/object-based-access.md)
@@ -143,7 +158,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="促銷活動類別"
->abstract="類別值會直接連結至促銷活動類型值。 排程 **行銷** 類別和類別的API觸發類型 **交易**"
+>abstract="類別值直接與促銷活動類型值相關聯。 排程 **行銷** 類別和類別的API觸發類型 **交易**"
 
 可用的促銷活動有兩種類型：
 
