@@ -1,50 +1,50 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 建立促銷活動
+title: 建立行銷活動
 description: 了解如何在 [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 0%
+source-wordcount: '618'
+ht-degree: 10%
 
 ---
 
-# 建立促銷活動 {#create-campaign}
+# 建立行銷活動 {#create-campaign}
 
 >[!NOTE]
 >
 >建立新促銷活動之前，請確定您有表面通道（即訊息預設集）和Adobe Experience Platform區段可供使用。 了解更多資訊：
 >
->* [建立通道曲面](../configuration/channel-surfaces.md)
+>* [建立頻道介面](../configuration/channel-surfaces.md)
 >* [開始使用區段](../segment/about-segments.md)
 
 
 ## 建立您的第一個行銷活動 {#create}
 
-1. 存取 **[!UICONTROL Campaigns]** ，然後按一下 **[!UICONTROL Create campaign]**.
+1. 存取 **[!UICONTROL 行銷活動]** ，然後按一下 **[!UICONTROL 建立行銷活動]**.
 
    >[!NOTE]
    >
-   >您也可以複製現有的即時促銷活動以建立新促銷活動。 [深入了解](modify-stop-campaign.md#duplicate)
+   >您也可以複製現有的即時促銷活動以建立新促銷活動。 [了解更多](modify-stop-campaign.md#duplicate)
 
    ![](assets/create-campaign.png)
 
-1. 在 **[!UICONTROL Properties]** 區段，指定您要如何執行促銷活動：
+1. 在 **[!UICONTROL 屬性]** 區段，指定您要如何執行促銷活動：
 
-   * **[!UICONTROL Scheduled]**
-   * **[!UICONTROL API-triggered]**
+   * **[!UICONTROL 已排程]**
+   * **[!UICONTROL API觸發]**
 
    如需促銷活動類型和相關參與的詳細資訊，請參閱 [節](#campaigntype).
 
-1. 在 **[!UICONTROL Actions]** 區段，選取要用來傳送訊息的通道和通道表面，然後按一下 **[!UICONTROL Create]**.
+1. 在 **[!UICONTROL 動作]** 區段，選取要用來傳送訊息的通道和通道表面，然後按一下 **[!UICONTROL 建立]**.
 
-   曲面是由 [系統管理員](../start/path/administrator.md). 它包含傳送訊息的所有技術參數，例如標題參數、子網域、行動應用程式等。 [深入了解](../configuration/channel-surfaces.md).
+   介面是由[系統管理員](../start/path/administrator.md)定義的設定。 它包含所有用於春頌訊息的技術參數，如標頭參數、子網域、行動應用程式等等。[了解更多](../configuration/channel-surfaces.md)。
 
    ![](assets/create-campaign-action.png)
 
@@ -56,13 +56,13 @@ ht-degree: 0%
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
-1. 若要將自訂或核心資料使用量標籤指派給促銷活動，請按一下 **[!UICONTROL Manage access]** 按鈕。 [進一步了解對象級訪問控制(OLA)](../administration/object-based-access.md)
+1. 若要將自訂或核心資料使用量標籤指派給促銷活動，請按一下 **[!UICONTROL 管理存取]** 按鈕。 [進一步了解對象級訪問控制(OLA)](../administration/object-based-access.md)
 
 ## 建立訊息 {#content}
 
-在 **[!UICONTROL Actions]** 區段中，建立要與促銷活動一起傳送的訊息。
+在 **[!UICONTROL 動作]** 區段中，建立要與促銷活動一起傳送的訊息。
 
-1. 按一下 **[!UICONTROL Edit content]** 按鈕，然後建立和設計您的訊息內容。
+1. 按一下 **[!UICONTROL 編輯內容]** 按鈕，然後建立和設計您的訊息內容。
 
    在下列頁面中了解建立訊息內容的詳細步驟：
 
@@ -97,25 +97,25 @@ ht-degree: 0%
     </tr>
     </table>
 
-1. 定義內容後，請使用 **[!UICONTROL Simulate content]** 按鈕，使用測試設定檔預覽和測試您的內容。 [深入了解](../email/preview.md).
+1. 定義內容後，請使用 **[!UICONTROL 模擬內容]** 按鈕，使用測試設定檔預覽和測試您的內容。 [了解更多](../email/preview.md)。
 
 1. 按一下箭頭，返回行銷活動建立畫面。
 
    ![](assets/create-campaign-design.png)
 
-1. 在 **[!UICONTROL Actions tracking]** 區段中，指定是否要追蹤收件者對您傳送的反應：您可以追蹤點按和/或開啟次數。
+1. 在 **[!UICONTROL 動作追蹤]** 區段中，指定是否要追蹤收件者對您傳送的反應：您可以追蹤點按和/或開啟次數。
 
    執行促銷活動後，即可從促銷活動報表存取追蹤結果。 [進一步了解行銷活動報告](../reports/campaign-global-report.md)
 
 ## 定義對象 {#audience}
 
-1. 定義要鎖定的對象。 若要這麼做，請按一下 **[!UICONTROL Select audience]** 按鈕，以顯示可用的Adobe Experience Platform區段清單。 [深入了解區段](../segment/about-segments.md)
+1. 定義要鎖定的對象。 若要這麼做，請按一下 **[!UICONTROL 選取對象]** 按鈕以顯示可用的Adobe Experience Platform區段清單。 [深入了解區段](../segment/about-segments.md)
 
    >[!NOTE]
    >
-   >針對API觸發的促銷活動，對象必須透過API呼叫來設定。 [深入了解](api-triggered-campaigns.md)
+   >針對API觸發的促銷活動，對象必須透過API呼叫來設定。 [了解更多](api-triggered-campaigns.md)
 
-   在 **[!UICONTROL Identity namespace]** 欄位中，選擇要使用的命名空間，以識別所選區段中的個人。 [進一步了解命名空間](../event/about-creating.md#select-the-namespace)
+   在 **[!UICONTROL 身分命名空間]** 欄位中，選擇要使用的命名空間，以識別所選區段中的個人。 [進一步了解命名空間](../event/about-creating.md#select-the-namespace)
 
    ![](assets/create-campaign-namespace.png)
 
@@ -127,26 +127,26 @@ ht-degree: 0%
 
 ## 排程促銷活動 {#schedule}
 
-1. 若要在特定日期或循環頻率上執行促銷活動，請設定 **[!UICONTROL Schedule]** 區段。 [了解如何排程行銷活動](#schedule)
+1. 若要在特定日期或循環頻率上執行促銷活動，請設定 **[!UICONTROL 排程]** 區段。 [了解如何排程行銷活動](#schedule)
 
-1. 若要將自訂或核心資料使用量標籤指派給促銷活動，請按一下 **[!UICONTROL Manage access]** 按鈕。 [進一步了解對象級訪問控制(OLA)](../administration/object-based-access.md)
+1. 若要將自訂或核心資料使用量標籤指派給促銷活動，請按一下 **[!UICONTROL 管理存取]** 按鈕。 [進一步了解對象級訪問控制(OLA)](../administration/object-based-access.md)
 
-一旦您的促銷活動準備就緒，您就可以檢閱並發佈。 [深入了解](#review-activate)
+一旦您的促銷活動準備就緒，您就可以檢閱並發佈。 [了解更多](#review-activate)
 
 ## 促銷活動類型 {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="促銷活動類型"
->abstract="TBC"
+>abstract="針對行銷訊息，請指定傳送日期， **已排程** 類型最合適。 不過，如果您想要傳送交易式訊息，例如密碼重設或放棄卡片， **API觸發** 類型是最佳選擇。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="促銷活動類別"
->abstract="TBC"
+>abstract="類別值會直接連結至促銷活動類型值。 排程 **行銷** 類別和類別的API觸發類型 **交易**"
 
 可用的促銷活動有兩種類型：
 
-* **[!UICONTROL Scheduled]**:立即執行促銷活動或在指定日期執行。 排程的行銷活動旨在傳送 **行銷** 輸入訊息。
+* **[!UICONTROL 已排程]**:立即執行促銷活動或在指定日期執行。 排程的行銷活動旨在傳送 **行銷** 輸入訊息。
 
-* **[!UICONTROL API-triggered]**:使用API呼叫執行促銷活動。 API觸發的行銷活動旨在傳送 **異動** 訊息，即在個人執行的動作後傳出的訊息：密碼重設、卡放棄等。 [了解如何使用API觸發行銷活動](api-triggered-campaigns.md)
+* **[!UICONTROL API觸發]**:使用API呼叫執行促銷活動。 API觸發的行銷活動旨在傳送 **異動** 訊息，即在個人執行的動作後傳出的訊息：密碼重設、卡放棄等。 [了解如何使用API觸發行銷活動](api-triggered-campaigns.md)
