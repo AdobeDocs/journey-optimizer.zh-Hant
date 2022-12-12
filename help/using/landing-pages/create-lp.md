@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 建立登錄頁面
+title: 建立登陸頁面
 description: 了解如何在Journey Optimizer中設定和發佈登錄頁面
 feature: Landing Pages
 topic: Content Management
@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
 workflow-type: tm+mt
-source-wordcount: '1397'
-ht-degree: 0%
+source-wordcount: '1505'
+ht-degree: 2%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 ## 存取登錄頁面 {#access-landing-pages}
 
-若要存取登錄頁面清單，請選取 **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** 的上界。
+若要存取登錄頁面清單，請選取 **[!UICONTROL 歷程管理]** > **[!UICONTROL 登錄頁面]** 的上界。
 
 ![](assets/lp_access-list.png)
 
-此 **[!UICONTROL Landing Pages]** 清單會顯示所有已建立的項目。 您可以根據狀態或修改日期來篩選這些變數。
+此 **[!UICONTROL 登錄頁面]** 清單會顯示所有已建立的項目。 您可以根據狀態或修改日期來篩選這些變數。
 
 ![](assets/lp_access-list-filter.png)
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 >
 >您無法刪除 [已發佈](#publish-landing-page) 登陸頁面。 若要刪除，您必須先取消發佈。
 
-## 建立登錄頁面 {#create-landing-page}
+## 建立登陸頁面 {#create-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_create"
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 建立登錄頁面的步驟如下。
 
-1. 在登錄頁面清單中，按一下 **[!UICONTROL Create landing page]**.
+1. 在登錄頁面清單中，按一下 **[!UICONTROL 建立登錄頁面]**.
 
    ![](assets/lp_create-lp.png)
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    ![](assets/lp_create-lp-details.png)
 
-1. 若要將自訂或核心資料使用量標籤指派至登陸頁面，請選取 **[!UICONTROL Manage access]**. [進一步了解物件層級存取控制(OLAC)](../administration/object-based-access.md)
+1. 若要將自訂或核心資料使用量標籤指派至登陸頁面，請選取 **[!UICONTROL 管理存取]**. [進一步了解物件層級存取控制(OLAC)](../administration/object-based-access.md)
 
    <!--You can add a tag. See AEP documentation?-->
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
    ![](assets/lp_create-lp-presets.png)
 
-1. 按一下 **[!UICONTROL Create]**.
+1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
 1. 主要頁面及其屬性隨即顯示。 了解如何設定主要頁面設定 [此處](#configure-primary-page).
 
@@ -100,20 +100,20 @@ ht-degree: 0%
 >id="ajo_lp_access_settings"
 >title="定義登錄頁面URL"
 >abstract="在本節中，定義唯一的登錄頁面URL。 URL的第一部分需要您先前設定登錄頁面子網域，作為您選取之預設集的一部分。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="設定登錄頁面子網域"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="設定登陸頁面子網域"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="建立登錄頁面預設集"
 
 主要頁面是使用者點按登錄頁面的連結（例如來自電子郵件或網站）後，立即顯示給他們的頁面。
 
 若要定義主要頁面設定，請遵循下列步驟。
 
-1. 您可以變更頁面名稱，即 **[!UICONTROL Primary page]** 依預設。
+1. 您可以變更頁面名稱，即 **[!UICONTROL 主要頁面]** 依預設。
 
 1. 使用內容設計工具編輯頁面的內容。 了解如何定義登錄頁面內容 [此處](design-lp.md).
 
    ![](assets/lp_open-designer.png)
 
-1. 定義您的登錄頁面URL。 URL的第一部分需要您先前設定登錄頁面子網域，作為 [預設集](../landing-pages/lp-presets.md#lp-create-preset) 您已選取。 [深入了解](../landing-pages/lp-subdomains.md)
+1. 定義您的登錄頁面URL。 URL的第一部分需要您先前設定登錄頁面子網域，作為 [預設集](../landing-pages/lp-presets.md#lp-create-preset) 您已選取。 [了解更多](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -125,7 +125,7 @@ ht-degree: 0%
    >
    >您無法只將此URL複製貼入網頁瀏覽器，即使已發佈亦然，以存取登錄頁面。 反之，您可以使用預覽函式來測試，如 [本節](#test-landing-page).
 
-1. 如果您希望登錄頁面預先載入已可用的表單資料，請選取 **[!UICONTROL Pre-fill form fields with profile information]**.
+1. 如果您希望登錄頁面預先載入已可用的表單資料，請選取 **[!UICONTROL 使用設定檔資訊預先填寫表單欄位]**.
 
    ![](assets/lp_prefill-form-fields.png)
 
@@ -137,17 +137,17 @@ ht-degree: 0%
 
 1. 您可以定義頁面的到期日。 在此情況下，您必須在頁面過期時選取動作：
 
-   * **[!UICONTROL Redirect URL]**:輸入頁面過期時，系統會將使用者重新導向至的頁面URL。
-   * **[!UICONTROL Custom page]**: [設定子頁面](#configure-subpages) 並從顯示的下拉式清單中選取。
-   * **[!UICONTROL Browser error]**:輸入將顯示的錯誤文本，而非頁面。
+   * **[!UICONTROL 重新導向URL]**:輸入頁面過期時，系統會將使用者重新導向至的頁面URL。
+   * **[!UICONTROL 自訂頁面]**: [設定子頁面](#configure-subpages) 並從顯示的下拉式清單中選取。
+   * **[!UICONTROL 瀏覽器錯誤]**:輸入將顯示的錯誤文本，而非頁面。
 
    ![](assets/lp_expiry-date.png)
 
-1. 在 **[!UICONTROL Additional data]** 部分，定義一個或多個鍵及其相應的參數值。 您將能在主要頁面和子頁面的內容中，運用這些索引鍵，使用 [運算式編輯器](../personalization/personalization-build-expressions.md). 深入了解 [本節](lp-content.md#use-form-component#use-additional-data).
+1. 在 **[!UICONTROL 其他資料]** 部分，定義一個或多個鍵及其相應的參數值。 您將能在主要頁面和子頁面的內容中，運用這些索引鍵，使用 [運算式編輯器](../personalization/personalization-build-expressions.md). 請參閱[此章節](lp-content.md#use-form-component#use-additional-data)深入瞭解。
 
    ![](assets/lp_create-lp-additional-data.png)
 
-1. 如果您在 [設計主要頁面](design-lp.md)，則會顯示在 **[!UICONTROL Subscription list]** 區段。
+1. 如果您在 [設計主要頁面](design-lp.md)，則會顯示在 **[!UICONTROL 訂閱清單]** 區段。
 
    ![](assets/lp_subscription-list.png)
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
    ![](assets/lp_create-journey.png)
 
-   按一下 **[!UICONTROL Create journey]** 被重定向到 **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** 清單。
+   按一下 **[!UICONTROL 建立歷程]** 被重定向到 **[!UICONTROL 歷程管理]** > **[!UICONTROL 歷程]** 清單。
 
 ## 設定子頁面 {#configure-subpages}
 
@@ -169,14 +169,14 @@ ht-degree: 0%
 >id="ajo_lp_access_settings-subpage"
 >title="定義登錄頁面URL"
 >abstract="在本節中，定義唯一的登錄頁面URL。 URL的第一部分需要您先前設定登錄頁面子網域，作為您選取之預設集的一部分。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="設定登錄頁面子網域"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="設定登陸頁面子網域"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="建立登錄頁面預設集"
 
 您最多可以新增2個子頁面。 例如，您可以建立「感謝」頁面，在使用者提交表單後顯示，而您可以定義錯誤頁面，在登錄頁面發生問題時呼叫該錯誤頁面。
 
 若要定義子頁面設定，請遵循下列步驟。
 
-1. 您可以變更頁面名稱，即 **[!UICONTROL Subpage 1]** 依預設。
+1. 您可以變更頁面名稱，即 **[!UICONTROL 子頁面1]** 依預設。
 
 1. 使用內容設計工具編輯頁面的內容。 了解如何定義登錄頁面內容 [此處](design-lp.md).
 
@@ -184,7 +184,7 @@ ht-degree: 0%
    >
    >您可以從相同登錄頁面的任何子頁面插入主要頁面的連結。 例如，若要將發生錯誤且想要重新訂閱的使用者重新導向，您可以從確認子頁面新增連結至訂閱主要頁面。 了解如何在 [本節](../email/message-tracking.md#insert-links).
 
-1. 定義您的登錄頁面URL。 URL的第一部分需要您先前設定登錄頁面子網域。 [深入了解](../landing-pages/lp-subdomains.md)
+1. 定義您的登錄頁面URL。 URL的第一部分需要您先前設定登錄頁面子網域。 [了解更多](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -200,21 +200,21 @@ ht-degree: 0%
 >
 >您必須有可用的測試設定檔，才能預覽訊息並傳送校樣。 了解如何 [建立測試設定檔](../segment/creating-test-profiles.md).
 
-1. 在登錄頁面介面中，按一下 **[!UICONTROL Preview & test]** 按鈕來存取測試設定檔選取項目。
+1. 在登錄頁面介面中，按一下 **[!UICONTROL 預覽和測試]** 按鈕來存取測試設定檔選取項目。
 
    ![](assets/lp_preview-button.png)
 
    >[!NOTE]
    >
-   >此 **[!UICONTROL Preview]** 按鈕也可從內容設計器存取。
+   >此 **[!UICONTROL 預覽]** 按鈕也可從內容設計器存取。
 
-1. 從 **[!UICONTROL Preview & test]** 螢幕上，選取一或多個測試設定檔。
+1. 從 **[!UICONTROL 預覽和測試]** 螢幕上，選取一或多個測試設定檔。
 
    ![](assets/lp_test-profiles.png)
 
    選取測試設定檔的步驟與測試訊息時的步驟相同。 詳細資訊於 [本節](../email/preview.md#select-test-profiles).
 
-1. 選取 **[!UICONTROL Preview]** 按一下 **[!UICONTROL Open preview]** 來測試您的登錄頁面。
+1. 選取 **[!UICONTROL 預覽]** 按一下 **[!UICONTROL 開啟預覽]** 來測試您的登錄頁面。
 
    ![](assets/lp_open-preview.png)
 
@@ -271,13 +271,13 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->發佈前，請檢查並解決警報。 [深入了解](#check-alerts)
+>發佈前，請檢查並解決警報。 [了解更多](#check-alerts)
 
-登錄頁面發佈後，就會以 **[!UICONTROL Published]** 狀態。
+登錄頁面發佈後，就會以 **[!UICONTROL 已發佈]** 狀態。
 
 它現在已上線，且已準備好用於 [!DNL Journey Optimizer] 將透過 [歷程](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->您可以透過特定報告來監控登錄頁面的影響。 [深入了解](../reports/lp-report-live.md)
+>您可以透過特定報告來監控登錄頁面的影響。 [了解更多](../reports/lp-report-live.md)
 
