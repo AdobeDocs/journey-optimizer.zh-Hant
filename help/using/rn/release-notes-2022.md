@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 發行說明2022年
-description: Journey Optimizer 2022發行說明
+title: 2022 年發行說明
+description: Journey Optimizer 2022 年發行說明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
-workflow-type: tm+mt
-source-wordcount: '3479'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '3453'
+ht-degree: 100%
 
 ---
 
-# 發行說明2022年 {#release-notes-2022}
+# 2022 年發行說明 {#release-notes-2022}
 
-本頁面列出 [!DNL Journey Optimizer] 於2022年發行。
+此頁面列出了於 2022 年發行的所有 [!DNL Journey Optimizer] 功能和改善。
 
 
-## 2022年9月發行{#sept-2022-release}
+## 2022 年 9 月發行版本{#sept-2022-release}
 
 ### 新功能{#sept-2022-features}
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 <tr>
 <td>
 <p>您現在可以建立動態內容，以根據條件規則調整訊息的內容。</p> 
-<p>條件式規則是使用運算式編輯器中的視覺化規則產生器來建立，您可以在其中儲存，以便在歷程和行銷活動中重複使用。</p>
+<p>條件式規則是使用運算式編輯器中的視覺化規則產生器來建立，您可以在其中儲存這些規則，以便在歷程及行銷活動中重複使用。</p>
 <img src="assets/do-not-localize/dynamic-content.gif"/>
-<p>如需詳細資訊，請參閱 <a href="../personalization/get-started-dynamic-content.md">詳細檔案</a>.
+<p>如需詳細資訊，請參閱<a href="../personalization/get-started-dynamic-content.md">詳細文件</a>。
 </td>
 </tr>
 </tbody>
@@ -41,16 +41,16 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>API觸發的行銷活動</strong><br/></th>
+<th><strong>API 觸發的行銷活動</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>除了現有的已排程促銷活動，您現在可以在Journey Optimizer中建立API觸發的促銷活動，並使用API從外部系統叫用它們。</p>
-<p>這可讓您涵蓋各種操作和交易式訊息需求，例如密碼重設、OTP Token等。</p>
+<p>除了現有的已排程行銷活動，您現在可以在 Journey Optimizer 中建立 API 觸發的行銷活動，並使用 API 從外部系統叫用它們。</p>
+<p>這允許您涵蓋各種操作和異動訊息需求，例如密碼重設、OTP 權杖等。</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
-<p>如需詳細資訊，請參閱 <a href="../campaigns/api-triggered-campaigns.md">詳細檔案</a>.
+<p>如需詳細資訊，請參閱<a href="../campaigns/api-triggered-campaigns.md">詳細文件</a>。
 </td>
 </tr>
 </tbody>
@@ -65,10 +65,10 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td>
-<p>通過基於屬性的訪問控制，管理員可以根據特定屬性控制對特定對象的訪問。 這些屬性可以是新增至物件的中繼資料，例如標籤。 從此版本開始，管理員還可以定義只能訪問特定欄位和/或對象以及與這些欄位和/或對象對應的資料的用戶角色。</p>
-<p> 基於屬性的訪問控制目前僅限於選定的客戶使用，並將在將來的版本中部署到所有環境。</p>
+<p>通過基於屬性的存取控制，管理員可以根據特定屬性控制對特定物件的存取。 這些屬性可以是新增至物件的中繼資料，例如標籤。 從此版本開始，管理員還可以定義只能存取特定欄位和/或物件，以及與這些欄位和/或物件對應資料的使用者角色。</p>
+<p> 以屬性為基礎的存取控制目前僅限於選定客戶，將在未來的版本中同步到所有環境。</p>
 <img src="assets/do-not-localize/olac.gif"/>
-<p>如需詳細資訊，請參閱 <a href="../administration/object-based-access.md">詳細檔案</a>.
+<p>如需詳細資訊，請參閱<a href="../administration/object-based-access.md">詳細文件</a>。
 </td>
 </tr>
 </tbody>
@@ -84,9 +84,9 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td>
-<p>透過其資料使用標籤和實作(DULE)控管架構，Journey Optimizer現在可以運用Adobe Experience Platform控管原則，防止敏感欄位透過自訂動作匯出至協力廠商系統。 如果系統在自訂動作參數中識別限制欄位，系統會顯示錯誤，使您無法發佈歷程。</p>
-<p>資料使用標籤和實作(DULE)的使用目前僅限選定客戶使用，並將在未來版本中部署至所有環境。</p>
-<p>如需詳細資訊，請參閱 <a href="../action/action-privacy.md">詳細檔案</a>.
+<p>透過其資料使用標籤與實作 (DULE) 控管架構，Journey Optimizer 現在可以運用 Adobe Experience Platform 控管政策，防止敏感欄位透過自訂動作匯出至協力廠商系統。 如果系統在自訂動作參數中識別限制欄位，系統會顯示錯誤，使您無法發佈歷程。</p>
+<p>資料使用標籤和實作 (DULE) 的使用目前僅限選定客戶使用，並將在未來版本中部署至所有環境。</p>
+<p>如需詳細資訊，請參閱<a href="../action/action-privacy.md">詳細文件</a>。
 </td>
 </tr>
 </tbody>
@@ -95,15 +95,15 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>自動同意強制（同意政策）</strong><br/></th>
+<th><strong>自動同意實作（同意政策）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform可讓您輕鬆採用及執行行銷政策，以遵循客戶的同意偏好設定。 同意原則是在Adobe Experience Platform中定義。 在Journey Optimizer中，您可以將這些同意原則套用至自訂動作。 例如，您可以定義同意原則，以排除尚未同意接收電子郵件、推播或簡訊通訊的客戶。
-<p>自動同意強制目前僅適用於已購買Healthcare Shield附加元件產品的組織。</p>
-<p>如需詳細資訊，請參閱 <a href="../action/consent.md">詳細檔案</a>.
+<p>Adobe Experience Platform 可讓您輕鬆採用及強制執行行銷政策，以尊重客戶的同意偏好設定。 在 Adobe Experience Platform 中定義的同意原則。 在 Journey Optimizer 中，您可以將這些同意政策套用至自訂動作。 例如，您可以定義同意原則，以排除尚未同意接收電子郵件、推播或簡訊通訊的客戶。
+<p>自動同意實作目前僅適用於已購買 Healthcare Shield 附加元件產品的組織。</p>
+<p>如需詳細資訊，請參閱<a href="../action/consent.md">詳細文件</a>。
 </td>
 </tr>
 </tbody>
@@ -118,9 +118,9 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer支援定義使用者角色和存取原則，以管理功能和物件的權限。 通過 <strong>Adobe Experience Cloud權限</strong>，您可以建立和管理角色，並為這些角色指派所需的資源權限。 權限也可讓您管理與特定角色相關聯的標籤、沙箱和使用者。</p>
-<p> 權限的使用目前僅限於選取的客戶，且將在未來版本中部署至所有環境。</p>
-<p>如需詳細資訊，請參閱 <a href="../administration/attribute-based-access.md">詳細檔案</a>.
+<p>Journey Optimizer 支援定義使用者角色和存取原則，以管理功能和物件的權限。 透過 <strong>Adobe Experience Cloud 權限</strong>，您可以建立和管理角色，並為這些角色指派所需的資源權限。 權限也可讓您管理與特定角色相關聯的標籤、沙箱和使用者。</p>
+<p> 以權限使用目前僅限於選定使用者，將在未來的版本中同步到所有環境。</p>
+<p>如需詳細資訊，請參閱<a href="../administration/attribute-based-access.md">詳細文件</a>。
 </td>
 </tr>
 </tbody>
@@ -135,8 +135,8 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td>
-<p>身為Journey Optimizer使用者，您現在可以透過使用者介面存取系統警報，以在歷程未如預期運作時收到通知。 您可以檢視可用警報並訂閱警報。 如果「讀取區段」活動在定義的時間範圍內未處理任何設定檔，則此版本提供的第一個警報將會警告您。 此工作流程已解除鎖定，將提供更多資訊。</p>
-<p>如需詳細資訊，請參閱 <a href="../reports/alerts.md">詳細檔案</a>.
+<p>身為 Journey Optimizer 使用者，您現在可以透過使用者介面存取系統警報，以在歷程未如預期運作時收到通知。 您可以檢視可用警報並訂閱警報。 如果「讀取區段」活動在定義的時間範圍內未處理任何設定檔，則此版本提供的第一個警報將會警告您。 此工作流程已解除鎖定，將提供更多資訊。</p>
+<p>如需詳細資訊，請參閱<a href="../reports/alerts.md">詳細文件</a>。
 </td>
 </tr>
 </tbody>
@@ -161,31 +161,31 @@ ht-degree: 0%
 </tbody>
 </table-->
 
-### 改良功能{#sept-2022-improvements}
+### 改進項目{#sept-2022-improvements}
 
 **歷程**
 
-* 此 **實體資料集** 現在可在Adobe Journey Optimizer中以現成可用的資料集形式使用。 此查詢資料集包含中繼資料，讓追蹤和意見資料集資訊更為豐富。 這可協助您使用更易理解的資料，改善報表和查詢。 [深入了解](../data/datasets-query-examples.md#entity-dataset)
-* 已將新護欄新增至單一歷程（從事件或區段資格開始），以防止同一事件多次錯誤觸發歷程。 設定檔重新進入現在會依預設暫時封鎖5分鐘。 [深入了解](../start/guardrails.md#events-g)
+* 此 **實體資料集** 現在可作為 Adobe Journey Optimizer 中的現成可用資料集。 此查詢資料集包含中繼資料，讓追蹤和意見回饋資料集資訊更為豐富。 這可協助您使用更易理解的資料，改善報告和查詢。 [了解更多](../data/datasets-query-examples.md#entity-dataset)
+* 已將新護欄新增至單一歷程（從事件或區段資格開始），以防止同一事件多次錯誤觸發歷程。 設定檔重新進入現在會依預設暫時封鎖 5 分鐘。 [進一步了解](../start/guardrails.md#events-g)
 
 **管理**
 
-* 現在啟用或停用允許的清單時，會顯示新警告以詳細說明每個動作的影響。 [深入了解](../configuration/allow-list.md#enable-allow-list)
-* 更新了用於建立通道表面、建立IP池、管理隱藏清單和允許清單以及配置SMS通道的用戶介面。
-* 現在，為指定子網域建立第一個通道曲面時，處理時間將需要10分鐘到10天，使用該子網域的後續曲面最多只需3小時。 [深入了解](../configuration/channel-surfaces.md#create-channel-surface)
-* 更新建立登錄頁面預設集和登錄頁面子網域的使用者介面。 [深入了解](../landing-pages/lp-subdomains.md)
+* 現在啟用或停用允許清單時，會顯示新警告以詳細說明每個動作的影響。 [了解更多](../configuration/allow-list.md#enable-allow-list)
+* 更新了用於建立管道表面、建立 IP 集區、管理隱藏清單和允許清單以及設定 SMS 管道的使用者介面。
+* 現在，為指定子網域建立第一個管道表面時，處理時間將需要 10 分鐘到 10 天，使用該子網域的後續表面最多只需 3 小時。 [了解更多](../configuration/channel-surfaces.md#create-channel-surface)
+* 更新建立登陸頁面預設集和登陸頁面子網域的使用者介面。 [了解更多](../landing-pages/lp-subdomains.md)
 
 **稽核控制**
 
-* 透過Journey Optimizer，您可以識別系統中的使用者在各種服務和功能（例如促銷活動、歷程、訊息、登陸頁面等）上執行的動作。 稽核記錄資源現在包含對各種其他動作的變更，並會在活動發生時自動記錄。 深入了解 [在本頁](../privacy/audit-logs.md).
+* 使用 Journey Optimizer，您可以識別系統中的使用者對各種服務和功能（如行銷活動、歷程、訊息、登陸頁面）執行的動作。稽核記錄資源現在包含對各種其他動作的變更，並會在活動發生時自動記錄。 在[本頁](../privacy/audit-logs.md)中深入瞭解。
 
 **封存支援**
 
-* 新 **實體資料集** 包含「範本」欄位，可讓您匯出所有通道上已傳送訊息的格式和結構，以用於封存。 [深入了解](../configuration/archiving-support.md)
+* 新 **實體資料集** 包含「範本」欄位，可讓您匯出所有管道上已傳送訊息的格式和結構，以用於封存。 [了解更多](../configuration/archiving-support.md)
 
-**登錄頁面**
+**登陸頁面**
 
-* 您現在可以使用來自相同登陸頁面內其他頁面的內容資料。 例如，如果您將核取方塊連結至主要登陸頁面上的訂閱清單，則可以在「感謝您」子頁面上使用該訂閱清單。 [深入了解](../landing-pages/lp-content.md#use-primary-page-context)
+* 您現在可以使用來自相同登陸頁面內其他頁面的內容資料。 例如，如果您將核取方塊連結至主要登陸頁面上的訂閱清單，則可以在「感謝您」子頁面上使用該訂閱清單。 [了解更多](../landing-pages/lp-content.md#use-primary-page-context)
 
 <!--* When configuring the primary page, you can now create additional data to enable storing information when the landing page is being submitted. [Learn more](../landing-pages/lp-content.md#use-additional-data)-->
 
@@ -193,29 +193,29 @@ ht-degree: 0%
 
 ### 其他變更{#sept-2022-other}
 
-* 「促銷活動快速傳送」模式已取代「歷程突發模式」。 [深入了解](../campaigns/create-campaign.md#rapid-delivery)
-* 為了改善效能，從「讀取」區段、「區段」資格或業務事件活動開始的歷程中，無法再使用體驗事件欄位群組。 此變更僅適用於新歷程。 現有行為會保留目前的行為。 [深入了解](../start/guardrails.md#expression-editor)
-* 已移除已排程讀取區段歷程的1小時限制。 這些歷程現在可立即執行。
+* 「行銷活動快速傳送」模式已取代「歷程突發模式」。 [了解更多](../campaigns/create-campaign.md#rapid-delivery)
+* 為了改善效能，從「讀取」區段、「區段」資格或業務事件活動開始的歷程中，無法再使用體驗事件欄位群組。 此變更僅適用於新歷程。 現有行為會保留目前的行為。 [了解更多](../start/guardrails.md#expression-editor)
+* 已移除已排程讀取區段歷程的 1 小時限制。 這些歷程現在可立即執行。
 
 
 
 
-## 2022年8月發行 {#aug-2022-release}
+## 2022 年 8 月發行版本 {#aug-2022-release}
 
 ### 新功能
 
 <table>
 <thead>
 <tr>
-<th><strong>在Journey Optimizer中建立和管理行銷活動</strong><br/></th>
+<th><strong>在 Journey Optimizer 中建立和管理行銷活動</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>使用Journey Optimizer促銷活動，透過各種管道將一次性內容提供至特定區段。 使用歷程時，會設計為依序執行動作。 使用促銷活動時，可同時執行動作（立即執行或根據指定的排程執行）。 </p>
+<p>使用 Journey Optimizer 行銷活動，透過各種管道將一次性內容傳遞至特定區段。 使用歷程時，會設計為依照序列執行動作。 透過行銷活動，可同時執行動作 (立即執行或根據指定的排程執行)。 </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>了解如何在 <a href="../campaigns/get-started-with-campaigns.md">詳細檔案</a> 和 <a href="https://video.tv.adobe.com/v/346680">功能影片</a>.
+<p>在 <a href="../campaigns/get-started-with-campaigns.md">詳細文件</a> 及 <a href="https://video.tv.adobe.com/v/346680">功能影片</a> 中了解如何建立行銷活動。
 </td>
 </tr>
 </tbody>
@@ -224,15 +224,15 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>傳送簡訊給您的使用者（正式發行）</strong><br/></th>
+<th><strong>傳送簡訊給使用者 (可用性限制)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以透過與的整合，在Journey Optimizer中建立、個人化及傳送SMS <b>辛奇</b> 或 <b>Twilio</b>.</p>
+<p>您現在可以透過與 <b>Sinch</b> 或 <b>Twilio</b> 的整合在 Journey Optimizer 裡建立、個人化和傳送簡訊。</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>了解如何在此建立和傳送簡訊 <a href="../sms/create-sms.md">詳細檔案</a>.</p>
+<p>在<a href="../sms/create-sms.md">詳細文件</a>中了解如何建立和傳送簡訊。</p>
 </td>
 </tr>
 </tbody>
@@ -256,33 +256,33 @@ ht-degree: 0%
 </table-->
 
 
-### 改良功能
+### 改進項目
 
-**報表**
+**報告**
 
-* 同意原則表格和圖表現在可在歷程全域報表中使用。 這些小工具可讓您從自訂動作中的原則追蹤排除的設定檔。 [深入了解](../reports/journey-global-report.md#journey-global)
+* 同意原則表格和圖表現在可在歷程全域報告中使用。 這些介面工具集可讓您從自訂動作中的原則追蹤排除的設定檔。 [了解更多](../reports/journey-global-report.md#journey-global)
 
-   若要存取最新的Widget，請注意您必須重設不同的報表控制面板。 如需控制面板自訂的詳細資訊，請參閱 [詳細檔案](../reports/global-report.md).
+   若要存取最新的介面工具集，請注意您必須重設不同的報告儀表板。 如需儀表板自訂的詳細資訊，請參閱[詳細文件](../reports/global-report.md)。
 
 **管理**
 
-* 現在可以更新主要電話號碼以用於SMS通道。 [深入了解](../configuration/primary-email-addresses.md)
+* 現在可以更新主要電話號碼以用於簡訊頻道。 [了解更多](../configuration/primary-email-addresses.md)
 
 
-## 2022年7月發行 {#july-2022-release}
+## 2022 年 7 月發行版本 {#july-2022-release}
 
 ### 新功能
 
 <table>
 <thead>
 <tr>
-<th><strong>新的線上傳訊流程</strong><br/></th>
+<th><strong>全新內嵌訊息流程</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer提供在Journeys中製作訊息的新流程。 線上傳訊功能可節省使用者大量時間，並簡化在Journey Optimizer中建立及傳送電子郵件、推播通知或簡訊的工作流程程式。 將訊息移除為個別步驟，而非在歷程畫布上的動作中讓訊息可內嵌編輯，讓使用者只需按一下較少的按鈕，並導覽較少的畫面即可設計和編輯其內容。</p>
+<p>Journey Optimizer 為歷程的訊息編寫提供全新流程。 線上傳送訊息消息將為使用者節省大量時間，並簡化在 Journey Optimizer 建立和傳遞電子郵件、推播通知或簡訊的工作流程。 透過將訊息作為單獨的步驟刪除，作為 Journey Canvas 動作的一部分都可內嵌編輯，使用者需要按更少的按鈕並導覽較少的畫面來設計和編輯其內容。</p>
 <img src="assets/do-not-localize/inline.gif"/>
 </td>
 </tr>
@@ -293,15 +293,15 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>基於屬性的訪問控制（有限可用性）</strong><br/></th>
+<th><strong>以屬性為基礎的存取控制 (可用性限制)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以識別具有標籤的結構欄位，這些標籤定義了組織或資料使用範圍。 管理員可以使用權限介面來定義涵蓋XDM架構欄位的存取原則，並更妥善地管理授予使用者或使用者群組（內部、外部或第三方使用者）的存取權，以及管理對特定資料類型（即敏感個人資料/SPD）的存取權。</p>
-<p>基於屬性的訪問控制目前僅限於選定的用戶，並將在未來版本中部署到所有環境。</p>
-<p>如需詳細資訊，請參閱 <a href="../administration/attribute-based-access.md">詳細檔案</a>.</p>
+<p>現在，您可以使用定義組織或資料使用範圍的標籤標示身分綱要欄位。 管理員可以使用權限介面定義涵蓋 XDM 綱要欄位的存取原則，並更好地管理使用者或使用者群組 (內部、外部或協力廠商使用者) 的存取權限，以及管理對特定類型資料 (即敏感個人資料/SPD) 的存取權限。</p>
+<p>以屬性為基礎的存取控制目前僅限於選定使用者，將在未來的版本中同步到所有環境。</p>
+<p>如需詳細資訊，請參閱<a href="../administration/attribute-based-access.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -310,15 +310,15 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>批次決策工作</strong><br/></th>
+<th><strong>批次決策作業</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以從使用者介面執行批次決策作業，因此我不需要開發人員來執行批次api作業，而且我可以縮短行銷所需的時間。 此新介面可讓您建立作業，以及管理目前/過去的作業。</p>
+<p>現在，您可以從使用者介面執行批次決策作業，這樣我就不需要開發人員來執行批次 API 作業，而且我可以減少行銷所需的時間。 此新介面允許您建立作業及管理目前/過去的作業。</p>
 <img src="assets/do-not-localize/batch.gif"/>
-<p>如需詳細資訊，請參閱 <a href="../offers/batch-delivery.md">詳細檔案。</p>
+<p>如需詳細資訊，請參閱<a href="../offers/batch-delivery.md">詳細文件。</p>
 </td>
 </tr>
 </tbody>
@@ -327,66 +327,66 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>在決策中自動使用效能最佳的選件（有限的可用性）</strong><br/></th>
+<th><strong>在您的決定中自動執行最佳優惠方案 (可用性限制)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在決策管理中使用個人化最佳化模型系統。 這種新類型的模型可讓您根據區段和選件效能來最佳化及個人化選件。</p>
-<p>個人化最佳化AI模型目前僅限選取的使用者使用，未來發行版本會部署至所有環境。</p>
+<p>現在，您可以在決策管理中使用個人化最佳化模型系統。 這種新種類模型允許您根據區段及優惠方案市場對優惠進行最佳化及個人化。</p>
+<p>個人化最佳化 AI 模型的使用目前僅限於選定使用者，將在未來的版本中同步到所有環境。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>如需詳細資訊，請參閱 <a href="../offers/ranking/personalized-optimization-model.md">詳細檔案</a>.</p>
+<p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 改良功能
+### 改進項目
 
 **歷程**
 
-* **結束歷程**  — 在歷程畫布中， **結束** 活動已從浮動視窗中移除。 現在，預設會在每個路徑的結尾新增結束標籤，且無法移除。 此項改善可讓您更妥善地報告客戶離開歷程的位置，而無需歷程從業者採取任何動作。 請參閱 [檔案](../building-journeys/end-journey.md) 和 [功能影片](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}。
+* **結束歷程** — 在歷程畫布中， **結束**&#x200B;活動已從調色盤中刪除。 現在，每個路徑的末端預設新增結束標籤而且無法移除。 這種改善能夠更好地報告客戶從歷程退出的位置，不需要由歷程業者採取任何動作。 請參閱 [文件](../building-journeys/end-journey.md) 及 [功能影片](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}。
 
 
-* 此 **設定檔時區** 「歷程屬性」中的「 」選項現在預設為未勾選。 [深入了解](../building-journeys/timezone-management.md#timezone-from-profiles)
+* 此 **個人資料時區** 「歷程屬性」中的選項現在預設為未勾選。 [了解更多](../building-journeys/timezone-management.md#timezone-from-profiles)
 
 **訊息**
 
-* 訊息預設集現在為 **通道曲面**. [深入了解](../configuration/channel-surfaces.md)
+* 訊息預設集現在是 **頻道介面**。 [進一步了解](../configuration/channel-surfaces.md)
 
 **管理**
 
-* **PTR記錄版本**  — 現在，更新PTR記錄時，處理時間最多只需3小時。 [深入了解](../configuration/ptr-records.md#processing)
+* **PTR 記錄版本** - 現在當更新 PTR 記錄時，處理時間最多只需 3 小時。 [了解更多](../configuration/ptr-records.md#processing)
 
-* **允許的清單UI**  — 您現在可以使用Journey Optimizer使用者介面，將新的電子郵件地址或網域新增至允許清單。 [深入了解](../configuration/allow-list.md)
+* **允許清單 UI** — 您現在可以使用 Journey Optimizer 使用者介面將新電子郵件地址或網域新增到允許清單。 [了解更多](../configuration/allow-list.md)
 
-* **允許的清單邏輯更新**  — 現在，即使清單為空，允許的清單邏輯也會在功能啟用時套用。 [深入了解](../configuration/allow-list.md#logic)
+* **允許清單邏輯更新** - 現在，即使清單為空，允許清單邏輯在功能啟用後立即適用。 [了解更多](../configuration/allow-list.md#logic)
 
-* **URL追蹤參數**  — 您現在可以使用運算式編輯器，在電子郵件介面中設定URL追蹤參數（即預設集）。 [深入了解](../email/email-settings.md#url-tracking)
+* **URL 追蹤參數** - 現在，您可以使用運算式編輯器在電子郵件介面中設定 URL 追蹤參數 (即預設集)。 [了解更多](../email/email-settings.md#url-tracking)
 
-**決策管理**
+**決定管理**
 
-* **對象大小**  — 建立決策規則、選取區段或規則以設定優惠方案資格，或將區段或規則新增至決策範圍時，使用者介面現在會顯示新的受眾規模預估元件。
+* **對象規模** - 當建立決定規則、選擇區段或規則以設定優惠方案適用性或將區段或規則新增到決定範圍時，新的對象規模預估元件現在顯示在使用者介面中。
 
 
-## 2022年6月發行 {#june-2022-release}
+## 2022 年 6 月發行版本 {#june-2022-release}
 
 ### 新功能
 
 <table>
 <thead>
 <tr>
-<th><strong>傳送簡訊給您的使用者（可用性有限）</strong><br/></th>
+<th><strong>傳送簡訊給使用者（可用性限制）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以透過與的整合，在Journey Optimizer中建立、個人化及傳送SMS <b>辛奇</b> 或 <b>Twilio</b>.</p>
+<p>您現在可以透過與 <b>Sinch</b> 或 <b>Twilio</b> 的整合在 Journey Optimizer 裡建立、個人化和傳送簡訊。</p>
 <!--img src="assets/do-not-localize/SMS.gif"/-->
-<p>SMS通道目前僅適用於一組組織（有限可用性）。 如需詳細資訊，請連絡您的Adobe代表。</p>
-<p>了解如何在此建立和傳送簡訊 <a href="../sms/create-sms.md">詳細檔案</a>.</p>
+<p>簡訊管道目前僅可用於一組組織（可用性限制）。 如需詳細資訊，請聯絡您的 Adobe 代表。</p>
+<p>在<a href="../sms/create-sms.md">詳細文件</a>中了解如何建立和傳送簡訊。</p>
 </td>
 </tr>
 </tbody>
@@ -396,15 +396,15 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>透過Adobe Stock整合，更快找到更具影響力的影像</strong><br/></th>
+<th><strong>透過與 Adobe Stock 整合，更快找到影響力更大的圖片</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Stock和Adobe Journey Optimizer電子郵件設計工具整合外掛程式可讓客戶輕鬆導覽、授權和儲存影像，以用於訊息製作。 </br> 新 <b>查找類似的Stock照片</b> 選項也可讓您找出符合影像內容、顏色和組成的Stock像片。 </p>
+<p>Adobe Stock 和 Adobe Journey Optimizer 電子郵件設計工具整合外掛程式，為客戶提供了用於訊息製作的導覽、授權和儲存影像的簡單方法。 您還可以藉由</br>新的<b>找到類似的相片庫</b>選項找出與影像內容、顏色和組成相符的影像庫。 </p>
 <!--img src="assets/do-not-localize/stock-rn.gif"/-->
-<p>如需詳細資訊，請參閱 <a href="../email/stock.md">詳細檔案</a>.</p>
+<p>如需詳細資訊，請參閱<a href="../email/stock.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -413,15 +413,15 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>在所有電子郵件上使用電子郵件密件副本</strong><br/></th>
+<th><strong>在所有電子郵件上使用密件副本電子郵件</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以使用電子郵件密件副本（盲目碳副本）功能，儲存Adobe Journey Optimizer傳送的電子郵件。 在您的電子郵件預設集中啟用此選項，以便將所傳送的每封電子郵件盲複製到您的密件副本地址。</p>
+<p>您現在可以使用密件副本電子郵件（密件副本）功能來儲存 Adobe Journey Optimizer 傳送的電子郵件。 在電子郵件預設集中啟用此選項，以便將每封傳送的電子郵件以密件副本方式寄至密件副本地址。</p>
 <!--img src="assets/do-not-localize/bcc-rn.gif"/-->
-<p>如需詳細資訊，請參閱 <a href="../configuration/archiving-support.md#bcc-email">詳細檔案</a>.</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/archiving-support.md#bcc-email">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -454,8 +454,8 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td>
-<p>您現在可以將體驗從Journey Optimizer沙箱重新建立至其他體驗，例如從非生產沙箱重新建立至生產沙箱。 這項新功能會複製整個歷程，包括歷程所仰賴的任何物件，以便從一個環境複製到另一個環境中正確執行。 除了歷程外，您也可以複製其他元件，例如選件、訊息、結構、資料集、資料來源、事件和動作。</p>
-<p>如需詳細資訊，請參閱 <a href="../building-journeys/copy-to-sandbox.md">詳細檔案</a>.
+<p>現在，您可以從 Journey Optimizer 沙箱將體驗重新建立到另一個沙箱，例如從非生產沙箱重新建立到生產沙箱。 這個新功能可將整個 Journey 從一個環境複製到另一個環境，包括 Journey 賴以正確運作的任何物件。 除了 Journeys 之外，您還可以複製其他元件，如 Offirs、Messages、Schemas、Datasets、Data Sources、Events 和 Actions。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/copy-to-sandbox.md">詳細文件</a>。
 </td>
 </tr>
 </tbody>
@@ -464,30 +464,30 @@ ht-degree: 0%
 
 
 
-### 改良功能
+### 改進項目
 
 **決策管理**
 
-* **HTML和JSON檔案支援**  — 您現在可以從Adobe Experience Cloud資產資料庫將外部HTML和JSON檔案拖放至選件表示內容。 [深入了解](../offers/offer-library/add-representations.md#html-json)
+* **HTML 和 JSON 檔案支援** — 您現在可以將外部 HTML 和 JSON 檔案從 Adobe Experience Cloud 資產庫拖放到優惠方案聲明內容中。 [了解更多](../offers/offer-library/add-representations.md#html-json)
 
 
 **電子郵件**
 
-* **另存為範本**  — 您現在可以將電子郵件內容儲存為範本，並在建立其他訊息時重複使用。 [深入了解](../email/email-templates.md)
+* **另存為範本** — 您現在可以將電子郵件內容另存為範本，並在建立其他郵件時重複使用它。 [進一步了解](../email/email-templates.md)
 
 
 **管理**
 
-* **預覽追蹤URL參數**  — 在設定訊息預設集時，如果您定義URL追蹤參數，現在會顯示所產生追蹤URL的動態預覽。 [深入了解](../email/email-settings.md#url-tracking)
+* **預覽追蹤 URL 參數** — 設定訊息預設集時，如果定義 URL 追蹤參數，則將顯示結果追蹤 URL 的動態預覽。 [了解更多](../email/email-settings.md#url-tracking)
 
-* **訊息預設集版本**  — 現在更新訊息預設集時，處理時間最多只需3小時。 [深入了解](../configuration/channel-surfaces.md#edit-channel-surface)
+* **訊息預設集版本** — 現在，當更新訊息預設集時，處理時間最多只需 3 小時。 [了解更多](../configuration/channel-surfaces.md#edit-channel-surface)
 
-* **IP池版本**  — 現在更新IP池時，處理時間最多只需3小時。 [深入了解](../configuration/ip-pools.md#edit-ip-pool)
-
-
+* **IP 池版本** — 現在，當更新 IP 池時，處理時間最多只需 3 小時。 [了解更多](../configuration/ip-pools.md#edit-ip-pool)
 
 
-## 2022年5月發行 {#may-2022-release}
+
+
+## 2022 年 5 月發行 {#may-2022-release}
 
 ### 新功能
 
@@ -500,9 +500,9 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td>
-<p>您現在可以設定跨管道業務規則，自動從訊息和動作中排除過度請求的設定檔。</p>
+<p>您現在可以設定跨頻道的業務規則，這些業務規則將自動從訊息和動作中排除過度請求的設定檔。</p>
 <!--img src="assets/do-not-localize/frequency-rn.gif"/-->
-<p>如需詳細資訊，請參閱 <a href="../configuration/frequency-rules.md">詳細檔案</a>.</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/frequency-rules.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -511,15 +511,15 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>決策管理 — AI排名自動優化模型</strong><br/></th>
+<th><strong>決定管理 - AI 排名自動最佳化模型</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在決策管理中使用經過訓練的模型系統。 這項新功能會對選件進行排名，以針對指定的設定檔顯示。</p>
+<p>現在，您可以在決定管理中使用經過訓練的模型系統。 此新功能排名可於指定的設定檔顯示。</p>
 <!--img src="assets/do-not-localize/optimization.gif"/-->
-<p>如需詳細資訊，請參閱 <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">詳細檔案</a>.</p>
+<p>如需詳細資訊，請參閱<a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -545,72 +545,72 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Optimizer稽核記錄</strong><br/></th>
+<th><strong>Journey Optimizer 稽核記錄</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以監視使用者在Adobe Journey Optimizer資源上執行的動作。</p>
+<p>您現在可以監視使用者對 Adobe Journey Optimizer 資源執行的動作。</p>
 <!--img src="assets/do-not-localize/audit-rn.gif"/-->
-<p>如需詳細資訊，請參閱 <a href="../privacy/audit-logs.md">詳細檔案</a>.</p>
+<p>如需詳細資訊，請參閱<a href="../privacy/audit-logs.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 改良功能
+### 改進項目
 
 **個人化**
 
-* **用於字元隱藏的新協助程式功能** - `mask` 協助程式函式可讓您將字串的一部分取代為「X」字元。 [深入了解](../personalization/functions/string.md#mask)
+* **用於字元隱藏的新輔助函式**—`mask`輔助函式允許您將字串的一部分替換為「X」字元。 [了解更多](../personalization/functions/string.md#mask)
 
-**登錄頁面**
+**登陸頁面**
 
-* **不含表單的登錄頁面**  — 您現在可以建立並發佈不含表單的登錄頁面，且不需要訪客採取任何動作。
-* **登錄頁面範本**  — 您現在可以將登錄頁面儲存為範本，並在建立其他登錄頁面時重複使用。 [深入了解](../landing-pages/lp-templates.md)
-* **返回主要頁面**  — 您現在可以從相同登錄頁面內的任何子頁面新增主要頁面的連結。
-* **自訂JavaScript支援**  — 您現在可以將自訂JavaScript新增至您的登錄頁面內容，以執行進階樣式，或將自訂行為新增至您的登錄頁面。    [深入了解](../landing-pages/lp-custom-js.md)
+* **沒有表單的登陸頁面** - 您現在可以建立並發佈不包含表單且不需要訪客操作的登陸頁面。
+* **登陸頁面範本** - 您現在可以將登陸頁面儲存為範本，並在建立其他登陸頁面時重複使用它。 [了解更多](../landing-pages/lp-templates.md)
+* **返回主要頁面** - 您現在可以從同一登陸頁面內的任何子頁面新增到主要頁面的連結。
+* **自訂 JavaScript 支援** - 您現在可以新增自訂 JavaScript 到登陸頁面的內容中，以執行進階樣式或新增自訂行為到登陸頁面。[了解更多](../landing-pages/lp-custom-js.md)
 
 **歷程**
 
-* **讀取區段**  — 單次讀取區段歷程現在會在歷程執行後30天移至已完成狀態。 若為已排程的讀取區段，則為上次發生次數執行後的30天。 [深入了解](../building-journeys/read-segment.md)
-* **運算式編輯器** - [限制](../building-journeys/functions/functionlimit.md) 函式，可讓您限制清單的項目數。 此 [排序](../building-journeys/functions/functionsort.md) 函式現在可讓您排序清單物件。 listObject的支援也已新增至 [盤旋](../building-journeys/functions/functiondistinct.md) 和 [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 函式。
+* **讀取區段** - 一次性讀取區段歷程現在在歷程執行 30 天後移至「已完成」狀態。 對於已排程的讀取區段，是在上次執行該事件後的 30 天。 [了解更多](../building-journeys/read-segment.md)
+* **運算式編輯器** - 已新增[限制](../building-journeys/functions/functionlimit.md)函式，以允許您限制清單項目的數目。 [排序](../building-journeys/functions/functionsort.md)函式現在允許您對清單物件進行排序。 對清單物件的支援也已新增到 [distinct](../building-journeys/functions/functiondistinct.md) 和 [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 的函式。
 
 **管理**
 
-* **許可證使用控制面板更新**  — 適用於 [!DNL Adobe Journey Optimizer] 使用者介面現在會反映 **授權** 平均設定檔豐富度。 此量度表示法中會出現下降，這表示現在已正確回報授權限制。 [深入了解](../segment/license-usage.md)
+* **授權使用儀表板更新** - [!DNL Adobe Journey Optimizer]使用者介面中現在提供了授權使用儀表板，反映了&#x200B;**授權**&#x200B;平均設定檔豐富度的精確值。 您將看到此量度表示法中的一個數值下降，表示現在已正確報告授權限制。 [了解更多](../segment/license-usage.md)
 
 
-## 2022年4月發行 {#april-2022-release}
+## 2022 年 4 月發行版本 {#april-2022-release}
 
-### 改良功能
+### 改進項目
 
-**登錄頁面**
+**登陸頁面**
 
-* **選擇加入/選擇退出核取方塊的新選項**  — 您現在可以在訂閱登錄頁面中插入選擇加入/選擇退出的單一核取方塊。 使用者必須核取同意（選擇加入）方塊，並取消勾選以移除其同意（選擇退出）。 [深入了解](../landing-pages/design-lp.md#define-lp-specific-content)
+* **核取方塊的新選項「選擇加入/選擇退出」** - 現在，您可以在訂閱項目登錄頁面中插入選擇加入/選擇退出的核取方塊。 使用者需要勾選方塊同意 (選擇加入)，並取消勾選方塊移除其同意 (選擇退出)。 [了解更多](../landing-pages/design-lp.md#define-lp-specific-content)
 
-* **預先填寫登錄頁面欄位**  — 現在可讓使用者使用設定檔資訊預先填入登錄頁面欄位。 [深入了解](../landing-pages/create-lp.md#configure-primary-page)
+* **預先填寫登陸頁面欄位** - 現在，使用者可以使用個人資料預先填寫登陸頁面欄位。 [進一步了解](../landing-pages/create-lp.md#configure-primary-page)
 
-**決策管理**
+**決定管理**
 
-* **Edge上的決策API** - Edge Decisioning API可提供及呈現決策管理中管理的個人化優惠方案。 您可以使用決策管理使用者介面(UI)或API來建立選件和其他相關物件。 [深入了解](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **邊緣決策 API** - 邊緣決策 API 可以提供並轉譯受決策管理管理的個人化服務。 您可以使用決策管理使用者介面 (UI) 或 API 建立您的優惠方案與其他相關物件。 [進一步了解](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **管理**
 
-* **PTR提交持續時間** - PTR編輯生效的持續時間現在為幾小時。 [深入了解](../configuration/ptr-records.md#processing)
+* **PTR 提交期間** - PTR 編輯的生效期間現在為幾個小時。 [了解更多](../configuration/ptr-records.md#processing)
 
 **電子郵件設計**
 
-* **20個全新電子郵件範本** 現在可在Journey Optimizer中設計您的電子郵件內容。
+* 提供 **20 個新電子郵件範本**，可在 Journey Optimizer 設計您的電子郵件內容。
 
 **使用者介面**
 
-* **Journey Optimizer UI中的內容說明** - Journey Optimizer中的多個頁面已新增內容說明連結。 若有，按一下「i」圖示即可檢視目前功能的快速說明並存取相關文章。
+* **Journey Optimizer UI 內容說明** - 內容說明連結已新增到 Journey Optimizer 的多個頁面。 可用時，請按一下「i」圖示可針對目前功能及存取權限的相關文章查看快速說明。
 
-**與Adobe Campaign Standard整合**
+**整合 Adobe Campaign Standard**
 
-身為Adobe Campaign Standard客戶，您現在可以使用Journey Optimizer傳送電子郵件、推播通知和簡訊。 使用新的內建動作，將Campaign Standard交易訊息功能運用到Journey Optimizer中。  [深入了解](../action/acs-action.md)
+作為 Adobe Campaign Standard 的客戶，您現在可以使用 Journey Optimizer 傳送電子郵件、推播通知和 SMS。 使用新的內建動作在 Journey Optimizer 善用 Campaign Standard 異動訊息傳送功能。  [了解更多](../action/acs-action.md)
 
 <!--
 ### Fixes
@@ -620,44 +620,44 @@ ht-degree: 0%
 * Fixed an issue which could prevent images in Email Designer templates from being displayed. PLATIR-18176, CJM-25008
 -->
 
-## 2022年3月發行 {#march-2022-release}
+## 2022 年 3 月發行 {#march-2022-release}
 
-### 改良功能
+### 改進項目
 
 **歷程**
 
-* 為避免統一的設定檔結構中有不必要的欄位，預設不再為設定檔啟用歷程步驟事件結構。 如有需要，您可以啟動它。 [深入了解](../reports/sharing-overview.md)
-* 與匯出工作相關的新步驟事件現在會由Journey Optimizer傳送至Adobe Experience Platform。 檔案已新增查詢範例。 [深入了解](../reports/query-examples.md)
+* 為避免統一設定檔綱要存在不必要的欄位，預設情況下不再為設定檔啟用「歷程步驟事件」綱要。 如有需要，可以啟用。 [了解更多](../reports/sharing-overview.md)
+* 跟匯出工作有關的新步驟活動現在由 Journey Optimizer 傳送到 Adobe Experience Platform。 已在文件中新增查詢範例。 [進一步了解](../reports/query-examples.md)
 
-**決策管理**
+**決定管理**
 
-* 您現在可以指定是否對所有使用者或特定設定檔，以及對所有版位或每個版位套用優惠方案限定。 [深入了解](../offers/offer-library/add-constraints.md#capping)
-* 批次決策API可讓組織在一次呼叫中，針對指定區段中的所有設定檔使用決策管理功能。 區段中每個設定檔的選件內容會放在AEP資料集中，供自訂批次工作流程使用。 [深入了解](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* 現在您可以指定在所有使用者或單個特定設定檔中套用優惠上限設定，以及指定在個別或所有投放位置上套用。[了解更多](../offers/offer-library/add-constraints.md#capping)
+* 批次決策 API 允許組織在一次呼叫中對給定區段中的所有設定檔使用決策管理功能。 區段中每個設定檔提供的內容都放在 AEP 資料集，可用於自訂批次處理工作流程。 [進一步了解](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **管理**
 
-* 您現在可以在訊息預設層級啟用/停用電子郵件標題中的/從中取消訂閱連結，並在訊息層級設定自訂取消訂閱URL。 [深入了解](../configuration/channel-surfaces.md#list-unsubscribe)
-* 現在，您可以透過 [!DNL Journey Optimizer] 介面。 [深入了解](../configuration/allow-list.md#enable-allow-list)
+* 您現在可以在訊息預設層及在/從電子郵件標題啟用/停用取消訂閱連結，並在訊息層級設定自訂取消訂閱 URL。 [了解更多](../configuration/channel-surfaces.md#list-unsubscribe)
+* 現在，可以透過生產或非生產沙箱的 [!DNL Journey Optimizer] 介面啟用或停用允許清單。 [進一步了解](../configuration/allow-list.md#enable-allow-list)
 
 **個人化**
 
-* 您現在可以在程式庫中儲存超過40個個人化運算式。 [深入了解](../personalization/personalization-library.md)
+* 您現在可以在程式庫中儲存 40 多組個人化運算式。 [了解更多](../personalization/personalization-library.md)
 
-## 2022年2月發行 {#feb-2022-release}
+## 2022 年 2 月發佈內容 {#feb-2022-release}
 
 ### 新功能
 
 <table>
 <thead>
 <tr>
-<th><strong>訂閱登錄頁面</strong><br/></th>
+<th><strong>訂閱項目登陸頁面</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在Journey Optimizer中建立和設計登錄頁面，並將使用者導向線上表單，讓他們可以選擇加入或選擇退出以接收您的通訊，或訂閱特定服務，例如電子報。</p>
-<p>如需詳細資訊，請參閱 <a href="../landing-pages/create-lp.md">詳細檔案</a> 與 <a href="../landing-pages/lp-use-cases.md">範例使用案例</a>.</p>
+<p>您現在可以在 Journey Optimizer 建立並設計登陸頁面，引導您的使用者存取線上表單，以便他們可以選擇加入或選擇退出接收您的通訊，或訂閱電子報等特定服務。</p>
+<p>有關詳細資訊，請參閱<a href="../landing-pages/create-lp.md">詳細文件</a>及相關<a href="../landing-pages/lp-use-cases.md">使用範例</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -666,14 +666,14 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>新的個人化運算式程式庫</strong><br/></th>
+<th><strong>全新個人化運算式資料庫</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer現在提供一個程式庫，您可在其中存取預先定義的個人化運算式。 這些運算式是由管理員使用者設定。</p>
-<p>如需詳細資訊，請參閱 <a href="../personalization/personalization-library.md">詳細檔案</a>.</p>
+<p>Journey Optimizer 現在提供資料庫，您可以在其中存取預先定義的個人化運算式。 這些運算式由管理員使用者設定。</p>
+<p>如需詳細資訊，請參閱<a href="../personalization/personalization-library.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -702,55 +702,55 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <table>
 <thead>
 <tr>
-<th><strong>使用UTM追蹤參數傳遞資訊以追蹤訊息</strong><br/></th>
+<th><strong>傳遞資訊透過 UTM 追蹤參數追蹤郵件</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>在Journey Optimizer訊息內容中，您現在可以將UTM參數新增至連結：他們可提供該連結的其他相關資料，並協助您識別使用者點按您連結的位置和原因。</p>
-<p>如需詳細資訊，請參閱 <a href="../configuration/channel-surfaces.md#configure-email-settings">詳細檔案</a>.</p>
+<p>在 Journey Optimizer 訊息內容中，您現在可以將 UTM 參數加入連結：提供有關該連結的其他資料，幫助您確定某人按下連結的位置及原因。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/channel-surfaces.md#configure-email-settings">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 改良功能
+### 改進項目
 
 **歷程**
 
-* 為了最佳化效能，所有處於測試模式且一週未觸發的歷程，現在都會切換回草稿狀態。 [了解詳情](../building-journeys/testing-the-journey.md#important_notes)
-* Journey Optimizer與Adobe Campaign Classic之間的整合已經過最佳化，以提升效能。 上限預設設定已變更為4000次呼叫/5分鐘。    [了解詳情](../action/acc-action.md#important-notes)
+* 為了最佳化效能，所有處於測試模式且一週內未觸發的歷程現在將切換回「草稿」狀態。 [閱讀全文](../building-journeys/testing-the-journey.md#important_notes)
+* 已最佳化 Journey Optimizer 和 Adobe Campaign Classic 的整合，以便提高效能。 上限預設設定已變更為 4000 次呼叫 / 5 分鐘。[閱讀全文](../action/acc-action.md#important-notes)
 
-**報表**
+**報告**
 
-* 您現在可以根據傳送的狀態來篩選傳送：
-   * 從「訊息執行」清單中，您現在可以從傳送的清單中排除校樣。
-   * 您可以從即時/全域報表中選擇排除測試事件。
+* 現在可以根據狀態篩選傳遞：
+   * 您現在可以從「訊息執行」清單排除傳遞清單中的證明。
+   * 您可以選擇從即時/全域報告排除測試事件。
 
-* 您現在可以存取「傳送時間最佳化」資料的報表：立即成為報文的人數，以1小時優化、2小時優化等方式發送報文的人數。
+* 您現在可以存取有關最佳化傳送時間資料的報告：即時訊息的人數，以及經過 1 小時最佳化、2 小時最佳化等訊息的人數。
 
 <!--* decision management reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 
 **決策管理**
 
-* 排名和人工智慧排名現在分組為單一索引標籤。
+* 排名和 AI 排名現在分類在單一標籤。
 
-## 2022年1月發行 {#january-2022-release}
+## 2022 年 1 月發行版本 {#january-2022-release}
 
 ### 新功能
 
 <table>
 <thead>
 <tr>
-<th><strong>歷程 — 使用設定檔上限條件最佳化您的IP加速</strong><br/></th>
+<th><strong>歷程 — 使用個人資料上限條件最佳化 IP 提升</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>設定 <strong>條件</strong> 歷程中的活動，您現在可以定義設定檔上限。 這個新條件類型可讓您設定歷程路徑的設定檔數目上限。 達到此限制時，輸入的設定檔會採取替代路徑。 這可讓您增加傳送量（IP增加）。 例如，您可能想要分割執行，以加速網域上的傳送：在第1天、第2天等時發送1000條消息。</p>
-<p>如需詳細資訊，請參閱 <a href="../building-journeys/condition-activity.md#profile_cap">詳細檔案</a> 與 <a href="../building-journeys/ramp-up-deliveries-uc.md">範例使用案例</a>.</p>
+<p>當在歷程中設定<strong>條件</strong>活動時，您現在可以定義個人資料上限。 此新條件類型允許您為歷程路徑設定個人資料的最大數量。 當達到此限制後，輸入的個人資料將採用替代路徑。 這樣，您就可以提高傳遞量 (IP 提升)。 例如，您可能希望透過分割執行來加快網域上的傳遞量：在第 1 天傳送 1000 則訊息，在第 2 天傳送 2000 則訊息等。</p>
+<p>有關詳細資訊，請參閱<a href="../building-journeys/condition-activity.md#profile_cap">詳細文件</a>及相關<a href="../building-journeys/ramp-up-deliveries-uc.md">使用範例</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -759,35 +759,35 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <table>
 <thead>
 <tr>
-<th><strong>歷程 — 閱讀區段改善</strong><br/></th>
+<th><strong>歷程 — 讀取區段改進</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>此 <strong>增量讀取</strong> 選項已新增至循環 <strong>讀取區段</strong> 活動。 此選項可讓您僅鎖定自上次執行歷程以來進入區段的個人。 第一次執行一律會鎖定所有區段成員。</p>
-<p>如需詳細資訊，請參閱 <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">詳細檔案</a>.
+<p><strong>增量讀取</strong>選項已加入循環<strong>讀取區段</strong>活動。 此選項允許您僅將目標設定在自上次執行歷程以來進入區段的個人。 第一次執行始終將目標設定在所有區段成員。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">詳細文件</a>。
 </td>
 </tr>
 </tbody>
 </table>
 
-### 改良功能
+### 改進項目
 
 **歷程**
 
-* Journey Optimizer步驟事件現在可連結至 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). 此 **profileID** 在內建的歷程步驟事件結構中，欄位現已定義為身分欄位。 [深入了解](../reports/sharing-overview.md#integration-cja)
+* Journey Optimizer 步驟事件現在可以連結到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 中的其他資料集。  內建「歷程步驟事件」方案中的 **profileID** 欄位現在定義為身分欄位。 [了解更多](../reports/sharing-overview.md#integration-cja)
 
-**決策管理**
+**決定管理**
 
-* 當您更新已發佈訊息中直接或間接參考的優惠方案、備援優惠方案、優惠方案收集或優惠方案決策時，更新現在會自動反映在對應的訊息中，而無需重新發佈。 [深入了解](../offers/offers-e2e.md#insert-decision-in-email)
+* 對於在已發佈訊息中直接或間接引用的優惠方案、遞補優惠、優惠收藏或優惠決定，現在將在對應訊息中自動反映您的更新，無需重新發佈。 [了解更多](../offers/offers-e2e.md#insert-decision-in-email)
 
-* 在模擬將針對指定測試設定檔傳送哪些選件時，您現在可以修改預設模擬設定，並檢視與您的模擬相對應的程式碼，以用於疑難排解目的。 [深入了解](../offers/offer-activities/simulation.md#define-simulation-settings)
+* 在模擬給定測試設定檔將提供哪些服務時，您現在可以修改預設模擬設定，並針對用於疑難排解的模擬查看對應的代碼。 [進一步了解](../offers/offer-activities/simulation.md#define-simulation-settings)
 
 **管理**
 
-* 管理員現在可以編輯PTR記錄，CNAME設定了子網域。 [深入了解](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
+* 管理員現在可以使用 CNAME 設定子網域來編輯 PTR 記錄。 [進一步了解](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 
 **個人化**
 
-* **添加到收藏夾**  — 為了在使用個人化時協助提高效率，我們導入了儲存我的最愛的概念。 將不同屬性新增至您的最愛功能表，可讓您快速存取最常使用的項目。 [深入了解](../personalization/personalize.md#fav)
+* **新增至最愛** — 為了協助在使用個人化功能時提高效率，我們引進了儲存最愛的概念。 將不同屬性加入收藏夾功能表可快速存取您使用頻率最高的項目。 [了解更多](../personalization/personalize.md#fav)
