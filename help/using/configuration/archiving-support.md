@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer中的封存支援
+title: Journey Optimizer的封存支援
 description: 了解如何封存訊息
 feature: Application Settings
 topic: Administration
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 43137871e8f45e05c6fe00c51bc3c9847fabd0da
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 0%
+source-wordcount: '1132'
+ht-degree: 3%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 HIPAA等法規要求 [!DNL Journey Optimizer] 應提供封存傳送給個人之訊息的方式。 事實上，如果您的客戶提出索賠，他們應該能夠獲得發送的郵件的副本以用於驗證目的。
 
-* 對於電子郵件通道， [!DNL Journey Optimizer] 提供內建的密件副本電子郵件功能。 [深入了解](#bcc-email)
+* 對於電子郵件通道， [!DNL Journey Optimizer] 提供內建的密件副本電子郵件功能。 [了解更多](#bcc-email)
 
-* 此外，對於所有管道，您可以在 **實體資料集**，包含非個人化訊息範本的詳細資訊。 使用此欄位匯出資料集以儲存中繼資料，例如：誰發送了資訊，誰和何時發送。 請注意，不會匯出個人化資料 — 只會考慮範本（訊息的格式和結構）。 [深入了解](../data/datasets-query-examples.md#entity-dataset)
+* 此外，對於所有管道，您可以在 **實體資料集**，包含非個人化訊息範本的詳細資訊。 使用此欄位匯出資料集以儲存中繼資料，例如：誰發送了資訊，誰和何時發送。 請注意，不會匯出個人化資料 — 只會考慮範本（訊息的格式和結構）。 [了解更多](../data/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
@@ -34,13 +34,13 @@ HIPAA等法規要求 [!DNL Journey Optimizer] 應提供封存傳送給個人之�
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="定義密件副本電子郵件地址"
->abstract="您可以將已傳送的電子郵件傳送至密件副本收件匣，以保留其副本。 輸入您選擇的電子郵件地址，以便將發送的每封電子郵件盲複製到此密件副本地址。 請注意，BCC位址網域不應與委派給Adobe的任何子網域相同。 此功能為選用功能。"
+>abstract="您可以將已傳送的電子郵件傳送至密件副本收件匣，以保留其副本。 輸入您選擇的電子郵件地址，以便將發送的每封電子郵件盲複製到此密件副本地址。 請注意，BCC位址網域不應與委派給Adobe的任何子網域相同。 此功能是選取性的。"
 
 您可以傳送由 [!DNL Journey Optimizer] 到密件副本收件匣。 此可選功能允許您保留發送給用戶的電子郵件通信副本，以實現合規性和/或存檔目的。 傳遞收件者將看不到此資訊。
 
 ### 啟用密件副本電子郵件 {#enable-bcc}
 
-若要啟用 **[!UICONTROL BCC email]** 選項，請在的專用欄位中輸入您選擇的電子郵件地址 [通道表面](channel-surfaces.md) （即訊息預設集）。 您可以以正確格式指定任何外部地址，但委派給Adobe的子網域上所定義的電子郵件地址除外。 例如，若您委派 *marketing.luma.com* 子網域傳送至Adobe，任何地址如 *abc@marketing.luma.com* 禁止。
+若要啟用 **[!UICONTROL 密件副本電子郵件]** 選項，請在的專用欄位中輸入您選擇的電子郵件地址 [通道表面](channel-surfaces.md) （即訊息預設集）。 您可以以正確格式指定任何外部地址，但委派給Adobe的子網域上所定義的電子郵件地址除外。 例如，若您委派 *marketing.luma.com* 子網域到Adobe，任何地址如 *abc@marketing.luma.com* 禁止。
 
 >[!CAUTION]
 >
@@ -66,7 +66,7 @@ HIPAA等法規要求 [!DNL Journey Optimizer] 應提供封存傳送給個人之�
 
 不過，會依照所述邏輯擷取BCC位址以傳送通訊 [此處](../email/email-settings.md).
 
-### 建議和限制 {#bcc-recommendations-limitations}
+### Recommendations和限制 {#bcc-recommendations-limitations}
 
 * 為確保您符合隱私權規範，必須由能夠安全地儲存個人識別資訊(PII)的封存系統處理BCC電子郵件。
 
@@ -89,41 +89,41 @@ HIPAA等法規要求 [!DNL Journey Optimizer] 應提供封存傳送給個人之�
 
 ### GDPR法規遵循 {#gdpr-compliance}
 
-GDPR等法規規定資料主體應可隨時修改其同意。 因為您隨Journey Optimizer傳送的密件副本電子郵件包含安全的個人識別資訊(PII)，您必須編輯 **[!UICONTROL CJM Email BCC Feedback Event Schema]** 以符合GDPR和類似法規的規範來管理這些PII。
+GDPR等法規規定資料主體應可隨時修改其同意。 因為您隨Journey Optimizer傳送的密件副本電子郵件包含安全的個人識別資訊(PII)，您必須編輯 **[!UICONTROL CJM電子郵件BCC意見事件結構]** 以符合GDPR和類似法規的規範來管理這些PII。
 
-若要這麼做，請遵循下列步驟。
+請依照下列步驟以執行此操作。
 
-1. 前往 **[!UICONTROL Data management]** > **[!UICONTROL Schemas]** > **[!UICONTROL Browse]** 選取 **[!UICONTROL CJM Email BCC Feedback Event Schema]**.
+1. 前往 **[!UICONTROL 資料管理]** > **[!UICONTROL 結構]** > **[!UICONTROL 瀏覽]** 選取 **[!UICONTROL CJM電子郵件BCC意見事件結構]**.
 
    ![](assets/preset-bcc-schema.png)
 
-1. 按一下以展開 **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagment]** then **[!UICONTROL secondaryRecipientDetail]**.
+1. 按一下以展開 **[!UICONTROL _體驗]**, **[!UICONTROL customerJourneyManagement]** then **[!UICONTROL secondaryRecipientDetail]**.
 
 1. 選擇 **[!UICONTROL originalRecipientAddress]**.
 
-1. 在 **[!UICONTROL Field properties]** 在右側，向下捲動至 **[!UICONTROL Identity]** 核取方塊。
+1. 在 **[!UICONTROL 欄位屬性]** 在右側，向下捲動至 **[!UICONTROL 身分]** 核取方塊。
 
-1. 選取它，也選取 **[!UICONTROL Primary identity]**.
+1. 選取它，也選取 **[!UICONTROL 主要身分]**.
 
 1. 從下拉式清單中選取命名空間。
 
    ![](assets/preset-bcc-schema-identity.png)
 
-1. 按一下 **[!UICONTROL Apply]**.
+1. 按一下&#x200B;**[!UICONTROL 套用]**。
 
 >[!NOTE]
 >
->深入了解管理隱私權及 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=&quot;_blank&quot;}。
+>在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target=&quot;_blank&quot;} 中進一步瞭解隱私權管理和相關法規。
 
 ### BCC報告資料 {#bcc-reporting}
 
-歷程和訊息報表中無法使用BCC的相關報表。 不過，資訊會儲存在名為 **[!UICONTROL AJO BCC Feedback Event Dataset]**. 您可以對此資料集執行查詢，以尋找偵錯用途的實用資訊。
+歷程和訊息報表中無法使用BCC的相關報表。 不過，資訊會儲存在名為 **[!UICONTROL AJO BCC意見事件資料集]**. 您可以對此資料集執行查詢，以尋找偵錯用途的實用資訊。
 
-您可以透過使用者介面存取此資料集。 選擇 **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** 並啟用 **[!UICONTROL Show system datasets]** 從篩選器切換，以顯示系統產生的資料集。 進一步了解如何在 [本節](../data/get-started-datasets.md#access-datasets).
+您可以透過使用者介面存取此資料集。 選擇 **[!UICONTROL 資料管理]** > **[!UICONTROL 資料集]** > **[!UICONTROL 瀏覽]** 並啟用 **[!UICONTROL 顯示系統資料集]** 從篩選器切換，以顯示系統產生的資料集。 進一步了解如何在 [本節](../data/get-started-datasets.md#access-datasets).
 
 ![](assets/preset-bcc-dataset.png)
 
-若要對此資料集執行查詢，您可以使用 [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}。 若要存取，請選取 **[!UICONTROL Data management]** > **[!UICONTROL Queries]** 按一下 **[!UICONTROL Create query]**. [深入了解](../data/get-started-queries.md)
+若要對此資料集執行查詢，您可以使用 [Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}。 若要存取，請選取 **[!UICONTROL 資料管理]** > **[!UICONTROL 查詢]** 按一下 **[!UICONTROL 建立查詢]**. [了解更多](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -148,7 +148,7 @@ GDPR等法規規定資料主體應可隨時修改其同意。 因為您隨Journe
 
    >[!NOTE]
    >
-   >若要取得 `<journey version id>`參數，選擇相應的 [歷程版本](../building-journeys/journey.md#journey-versions) 從 **[!UICONTROL Journey management]** > **[!UICONTROL Journeys]** 功能表。 歷程版本ID會顯示在網頁瀏覽器中顯示之URL的結尾。
+   >若要取得 `<journey version id>`參數，選擇相應的 [歷程版本](../building-journeys/journey.md#journey-versions) 從 **[!UICONTROL 歷程管理]** > **[!UICONTROL 歷程]** 功能表。 歷程版本ID會顯示在網頁瀏覽器中顯示之URL的結尾。
    >
    >![](assets/preset-bcc-action-id.png)
 
