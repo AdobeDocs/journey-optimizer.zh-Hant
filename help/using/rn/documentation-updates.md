@@ -4,9 +4,9 @@ product: journey optimizer
 title: 檔案更新
 description: 了解最新檔案更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
    * [電子郵件通道](../email/get-started-email.md)
    * [推播通知通道](../push/get-started-push.md)
    * [SMS通道](../sms/get-started-sms.md)
+
+* 已重新整理設定指南，以改善可讀性。 [了解詳情](../configuration/get-started-configuration.md)
 
 ## 2022年11月 {#november-2022}
 
