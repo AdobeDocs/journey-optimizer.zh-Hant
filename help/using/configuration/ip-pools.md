@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 建立IP池
+title: 建立 IP 池
 description: 了解如何管理IP池
 feature: Application Settings
 topic: Administration
@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 0%
+source-wordcount: '612'
+ht-degree: 1%
 
 ---
 
-# 建立IP池 {#create-ip-pools}
+# 建立 IP 池 {#create-ip-pools}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"
@@ -25,7 +25,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
 >title="設定IP池"
->abstract="透過Journey Optimizer，您可以建立IP池，將子網域的IP位址分組。 這可能會大幅改善電子郵件的傳遞能力，因為這麼做可防止子網域的信譽影響其他子網域。"
+>abstract="使用Journey Optimizer，您可以建立IP池，將子網域的IP位址分組。 這可能會大幅改善電子郵件的傳遞能力，因為這麼做可防止子網域的信譽影響其他子網域。"
 
 ## 關於IP池 {#about-ip-pools}
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 要建立IP池，請執行以下步驟：
 
-1. 存取 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL IP pools]** ，然後按一下 **[!UICONTROL Create IP Pool]**.
+1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL IP池]** ，然後按一下 **[!UICONTROL 建立IP池]**.
 
    ![](assets/ip-pool-create.png)
 
@@ -53,7 +53,7 @@ ht-degree: 0%
    >
    >名稱必須以字母(A-Z)開頭，且僅包含英數字元或特殊字元(_、.、-)。
 
-1. 從下拉清單中選擇要包含在池中的IP地址，然後按一下 **[!UICONTROL Submit]**.
+1. 從下拉清單中選擇要包含在池中的IP地址，然後按一下 **[!UICONTROL 提交]**.
 
    ![](assets/ip-pool-config.png)
 
@@ -89,14 +89,14 @@ IP池現在已建立並顯示在清單中。 您可以選取它以存取其屬�
 
 更新會立即或非同步生效，具體取決於與 [通道表面](channel-surfaces.md) 或否：
 
-* 如果IP池為 **not** 與任何通道表面相關聯，更新為瞬時(**[!UICONTROL Success]** 狀態)。
-* 如果IP池 **is** 與通道曲面相關聯，更新最多需要3小時(**[!UICONTROL Processing]** 狀態)。
+* 如果IP池為 **not** 與任何通道表面相關聯，更新為瞬時(**[!UICONTROL 成功]** 狀態)。
+* 如果IP池 **is** 與通道曲面相關聯，更新最多需要3小時(**[!UICONTROL 處理]** 狀態)。
 
 >[!NOTE]
 >
->當 [建立通道曲面](channel-surfaces.md#create-channel-surface)，如果選擇的IP池在版本(**[!UICONTROL Processing]** 狀態)，並且從未與為該曲面選擇的子域相關聯，則無法繼續建立曲面。 [深入了解](channel-surfaces.md#subdomains-and-ip-pools)
+>當 [建立通道曲面](channel-surfaces.md#create-channel-surface)，如果選擇的IP池在版本(**[!UICONTROL 處理]** 狀態)，並且從未與為該曲面選擇的子域相關聯，則無法繼續建立曲面。 [了解更多](channel-surfaces.md#subdomains-and-ip-pools)
 
-要檢查IP池更新狀態，請按一下 **[!UICONTROL More actions]** 按鈕並選取 **[!UICONTROL Recent updates]**.
+要檢查IP池更新狀態，請按一下 **[!UICONTROL 更多動作]** 按鈕並選取 **[!UICONTROL 最近更新]**.
 
 ![](assets/ip-pool-recent-update.png)
 
@@ -107,5 +107,5 @@ IP池現在已建立並顯示在清單中。 您可以選取它以存取其屬�
 >* 直到IP池的下一批處理在批處理消息中生效。
 
 
-您也可以使用 **[!UICONTROL Delete]** 按鈕刪除IP池。 請注意，您無法刪除已與通道表關聯的IP池。
+您也可以使用 **[!UICONTROL 刪除]** 按鈕刪除IP池。 請注意，您無法刪除已與通道表關聯的IP池。
 

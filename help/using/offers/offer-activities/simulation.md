@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 0%
+source-wordcount: '865'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >此功能可模擬 [!DNL Decisioning] API。 深入了解 [使用決策API提供優惠方案](../api-reference/offer-delivery-api/decisioning-api.md).
 
-若要存取此功能，請選取 **[!UICONTROL Simulation]** 標籤 **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** 功能表。
+若要存取此功能，請選取 **[!UICONTROL 模擬]** 標籤 **[!UICONTROL 決策管理]** > **[!UICONTROL 選件]** 功能表。
 
 ![](../assets/offers_simulation-tab.png)
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 >
 >您必須有可用的測試設定檔，以模擬將會提供哪些選件給他們。 了解如何 [建立測試設定檔](../../segment/creating-test-profiles.md).
 
-1. 按一下 **[!UICONTROL Manage profile]**.
+1. 按一下 **[!UICONTROL 管理設定檔]**.
 
    ![](../assets/offers_simulation-manage-profile.png)
 
@@ -61,9 +61,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >身分命名空間會定義識別碼的內容，例如電子郵件地址或CRM ID。 進一步了解Adobe Experience Platform身分識別命名空間 [在本節](../../segment/get-started-identity.md){target=&quot;_blank&quot;}。
+   >身分命名空間會定義識別碼的內容，例如電子郵件地址或CRM ID。 深入了解Adobe Experience Platform身分識別命名空間 [在本節](../../segment/get-started-identity.md){target=&quot;_blank&quot;}。
 
-1. 輸入身分值，然後按一下 **[!UICONTROL View]** 以列出可用的設定檔。
+1. 輸入身分值，然後按一下 **[!UICONTROL 檢視]** 以列出可用的設定檔。
 
    ![](../assets/offers_simulation-add-profile.png)
 
@@ -71,15 +71,15 @@ ht-degree: 0%
 
    ![](../assets/offers_simulation-save-profiles.png)
 
-1. 新增後，所有設定檔都會列在下方的下拉式清單中 **[!UICONTROL Test profile]**. 您可以在儲存的測試設定檔之間切換，以顯示每個選取設定檔的結果。
+1. 新增後，所有設定檔都會列在下方的下拉式清單中 **[!UICONTROL 測試設定檔]**. 您可以在儲存的測試設定檔之間切換，以顯示每個選取設定檔的結果。
 
    ![](../assets/offers_simulation-saved-profiles.png)
 
    >[!NOTE]
    >
-   >選取的設定檔將會在 **[!UICONTROL Simulation]** 從工作階段移除標籤，直到使用 **[!UICONTROL Manage profile]**.
+   >選取的設定檔將會在 **[!UICONTROL 模擬]** 從工作階段移除標籤，直到使用 **[!UICONTROL 管理設定檔]**.
 
-1. 您可以按一下 **[!UICONTROL Profile details]** 連結以顯示選取的設定檔資料。
+1. 您可以按一下 **[!UICONTROL 設定檔詳細資訊]** 連結以顯示選取的設定檔資料。
 
 <!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 現在，選取您要在測試設定檔上模擬的選件決策。
 
-1. 選擇 **[!UICONTROL Add decision scope]**.
+1. 選擇 **[!UICONTROL 添加決策範圍]**.
 
    ![](../assets/offers_simulation-add-decision.png)
 
@@ -98,9 +98,9 @@ ht-degree: 0%
 1. 將顯示可用的決策。
 
    * 您可以使用搜尋欄位來調整選取範圍。
-   * 您可以按一下 **[!UICONTROL Open offer decisions]** 連結以開啟您建立的所有決策的清單。 深入了解 [決策](create-offer-activities.md).
+   * 您可以按一下 **[!UICONTROL 開啟優惠方案決策]** 連結以開啟您建立的所有決策的清單。 深入了解 [決策](create-offer-activities.md).
 
-   選取您所選的決策，然後按一下 **[!UICONTROL Add]**.
+   選取您所選的決策，然後按一下 **[!UICONTROL 新增]**.
 
    ![](../assets/offers_simulation-add-decision-scope-add.png)
 
@@ -126,11 +126,11 @@ ht-degree: 0%
 
 若要編輯模擬的預設設定，請遵循下列步驟。
 
-1. 按一下 **[!UICONTROL Settings]**.
+1. 按一下 **[!UICONTROL 設定]**.
 
    ![](../assets/offers_simulation-settings.png)
 
-1. 在 **[!UICONTROL Deduplication]** 區段中，您可以選擇根據決策和/或版位允許重複優惠方案。 這表示可能會為多個決策/版位指派相同的優惠方案。
+1. 在 **[!UICONTROL 重複資料刪除]** 區段中，您可以選擇根據決策和/或版位允許重複優惠方案。 這表示可能會為多個決策/版位指派相同的優惠方案。
 
    ![](../assets/offers_simulation-settings-deduplication.png)
 
@@ -138,7 +138,7 @@ ht-degree: 0%
    >
    >依預設，所有重複資料刪除旗標都會啟用模擬功能，這表示決策引擎允許重複項目，因此可以在多個決策/位置間提出相同的主張。 深入了解 [!DNL Decisioning] 中的API要求屬性 [本節](../api-reference/offer-delivery-api/decisioning-api.md).
 
-1. 在 **[!UICONTROL Response format]** 區段中，您可以選擇在程式碼檢視中包含中繼資料。 核取對應的選項，然後選取您選取的中繼資料。 在選取 **[!UICONTROL View code]**. 了解更多 [查看模擬結果](#simulation-results) 區段。
+1. 在 **[!UICONTROL 回應格式]** 區段中，您可以選擇在程式碼檢視中包含中繼資料。 核取對應的選項，然後選取您選取的中繼資料。 在選取 **[!UICONTROL 檢視程式碼]**. 了解更多 [查看模擬結果](#simulation-results) 區段。
 
    ![](../assets/offers_simulation-settings-response-format.png)
 
@@ -146,11 +146,11 @@ ht-degree: 0%
    >
    >開啟選項時，預設會選取所有項目。
 
-1. 按一下 **[!UICONTROL Save]**.
+1. 按一下「**[!UICONTROL 儲存]**」。
 
 >[!NOTE]
 >
->目前，對於模擬資料，您只能使用 **[!UICONTROL Hub]** API。
+>目前，對於模擬資料，您只能使用 **[!UICONTROL 中樞]** API。
 
 <!--
 In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
@@ -170,7 +170,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 新增決策範圍並選取測試設定檔後，您就可以檢視結果。
 
-1. 按一下 **[!UICONTROL View results]**.
+1. 按一下 **[!UICONTROL 查看結果]**.
 
    ![](../assets/offers_simulation-view-results.png)
 
@@ -180,7 +180,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    ![](../assets/offers_simulation-offer-details.png)
 
-1. 按一下 **[!UICONTROL View code]** 來顯示請求和回應裝載。 [深入了解](#view-code)
+1. 按一下 **[!UICONTROL 檢視程式碼]** 來顯示請求和回應裝載。 [了解更多](#view-code)
 
 1. 從清單中選取其他設定檔，以顯示不同測試設定檔的選件決策結果。
 
@@ -188,23 +188,23 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 >[!NOTE]
 >
->每次變更設定檔或更新決策範圍時，您都需要使用 **[!UICONTROL View results]** 按鈕。
+>每次變更設定檔或更新決策範圍時，您都需要使用 **[!UICONTROL 查看結果]** 按鈕。
 
 ## 檢視程式碼 {#view-code}
 
-1. 使用 **[!UICONTROL View code]** 按鈕來顯示請求和回應裝載。
+1. 使用 **[!UICONTROL 檢視程式碼]** 按鈕來顯示請求和回應裝載。
 
    ![](../assets/offers_simulation-view-code.png)
 
-   程式碼檢視會顯示目前使用者的開發人員資訊。 依預設， **[!UICONTROL Response payload]** 的下界。
+   程式碼檢視會顯示目前使用者的開發人員資訊。 依預設， **[!UICONTROL 回應裝載]** 的下界。
 
    ![](../assets/offers_simulation-request-payload.png)
 
-1. 按一下 **[!UICONTROL Response payload]** 或 **[!UICONTROL Request payload]** 來導覽。
+1. 按一下 **[!UICONTROL 回應裝載]** 或 **[!UICONTROL 要求裝載]** 來導覽。
 
    ![](../assets/offers_simulation-response-payload.png)
 
-1. 在外部使用要求裝載 [!DNL Journey Optimizer]  — 以疑難排解為例，請使用 **[!UICONTROL Copy to clipboard]** 按鈕。
+1. 在外部使用要求裝載 [!DNL Journey Optimizer]  — 以疑難排解為例，請使用 **[!UICONTROL 複製到剪貼簿]** 按鈕。
 
    ![](../assets/offers_simulation-copy-payload.png)
 

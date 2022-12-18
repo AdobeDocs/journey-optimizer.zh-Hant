@@ -22,9 +22,9 @@ ht-degree: 0%
 >title="更新設定檔活動"
 >abstract="「更新設定檔」動作活動可讓您使用來自事件、資料來源或使用特定值的資訊來更新現有的Adobe Experience Platform設定檔。"
 
-使用 **[!UICONTROL Update Profile]** 動作活動，使用來自事件、資料來源或特定值的資訊來更新現有的Adobe Experience Platform設定檔。
+使用 **[!UICONTROL 更新配置檔案]** 動作活動，使用來自事件、資料來源或特定值的資訊來更新現有的Adobe Experience Platform設定檔。
 
-## 建議
+## Recommendations
 
 * 此 **更新配置檔案** 動作只能用於從具有命名空間的事件開始的歷程。
 * 動作只會更新現有欄位，不會建立新的設定檔欄位。

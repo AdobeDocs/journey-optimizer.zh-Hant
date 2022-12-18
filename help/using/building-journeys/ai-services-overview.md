@@ -8,16 +8,16 @@ level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 0%
+source-wordcount: '201'
+ht-degree: 1%
 
 ---
 
-# 與Intelligent Services整合 {#ai-overview}
+# 與 Intelligent Services 整合 {#ai-overview}
 
 與 **[!DNL Adobe Intelligent Services]** 可讓您在客戶體驗使用案例中運用人工智慧和機器學習的強大功能。 這可讓行銷分析人員使用業務層級設定，針對公司的需求設定專屬預測，而不需要資料科學的專業知識。
 
-[!DNL Intelligent Services]，以Adobe Experience Platform為基礎，為負責客戶體驗的行銷人員提供AI即服務存取權，讓任何人都能輕鬆預測客戶行為、評估行銷活動的影響，或確保每筆投資都能獲得更高回報。 如需 [!DNL Adobe Intelligent Services]，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html){target=&quot;_blank&quot;}。
+[!DNL Intelligent Services]，以Adobe Experience Platform為基礎，可讓行銷人員負責客戶體驗存取AI即服務，讓任何人都能輕鬆預測客戶行為、評估行銷活動的影響，或確保每筆投資都能獲得更高回報。 如需 [!DNL Adobe Intelligent Services]，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html){target=&quot;_blank&quot;}。
 
 整合 [!DNL Journey Optimizer] 和 [!DNL Intelligent Services] 可讓您運用客戶預測。
 

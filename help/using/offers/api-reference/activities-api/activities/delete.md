@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 0%
+source-wordcount: '141'
+ht-degree: 5%
 
 ---
 
-# 刪除決策 {#delete-decision}
+# 刪除決定 {#delete-decision}
 
-有時可能需要移除（刪除）決策。 只能刪除您在租用戶容器中建立的決策。 若要這麼做，請對 [!DNL Offer Library] API，使用您要刪除之備援優惠方案的$id。
+有時可能需要移除(DELETE)決定。 只能刪除您在租用戶容器中建立的決策。 若要這麼做，請對 [!DNL Offer Library] API，使用您要刪除之備援優惠方案的$id。
 
 **API格式**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 成功的回應會傳回HTTP狀態202（無內容）和空白內文。
 
-您可以嘗試對決策進行查詢(GET)，以確認刪除。 您需要在請求中加入Accept標題，但應會收到HTTP狀態404（找不到），因為已從容器中移除該決策。
+您可以嘗試對決策進行查詢(GET)以確認刪除。 您需要在請求中加入Accept標題，但應會收到HTTP狀態404（找不到），因為已從容器中移除該決策。

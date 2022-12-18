@@ -5,8 +5,8 @@ description: 使用外部資料來源和自訂動作限制輸送量
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 0%
+source-wordcount: '619'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer可讓從業人員透過使用自訂動作和資料來源
 
 ## 實作
 
-針對 **區段觸發歷程**，您可以定義將影響歷程吞吐量的讀取區段活動的限制率。  [了解詳情](../building-journeys/read-segment.md)
+針對 **區段觸發歷程**，您可以定義將影響歷程吞吐量的讀取區段活動的限制率。  [閱讀全文](../building-journeys/read-segment.md)
 
 ![](assets/limit-throughput-1.png)
 

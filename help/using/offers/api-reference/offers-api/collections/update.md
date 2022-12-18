@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 7d766f0a-4fcb-434a-bbfd-e18ade71ae56
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 0%
+source-wordcount: '166'
+ht-degree: 7%
 
 ---
 
 # 更新集合 {#update-collection}
 
-您可以向 [!DNL Offer Library] API
+您可以借由向 [!DNL Offer Library] API
 
 如需JSON修補程式的詳細資訊，包括可用的操作，請參閱 [JSON修補程式檔案](http://jsonpatch.com/).
 
@@ -25,8 +25,8 @@ ht-degree: 0%
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
-| 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| 內容類型 | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
 
 **API格式**
 

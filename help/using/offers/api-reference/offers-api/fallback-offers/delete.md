@@ -1,5 +1,5 @@
 ---
-title: 刪除回退優惠方案
+title: 刪除遞補優惠
 description: 如果客戶不符合其他優惠方案的資格，系統會將備援優惠方案傳送給他們
 feature: Offers
 topic: Integrations
@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 0%
+source-wordcount: '153'
+ht-degree: 8%
 
 ---
 
-# 刪除回退優惠方案 {#delete-fallback-offer}
+# 刪除遞補優惠 {#delete-fallback-offer}
 
-有時可能需要移除（刪除）備援優惠方案。 您在租用戶容器中建立的後援優惠方案只能刪除。 若要這麼做，請對 [!DNL Offer Library] API，使用您要刪除之備援優惠方案的$id。
+有時可能需要移除(DELETE)備援優惠方案。 您在租用戶容器中建立的後援優惠方案只能刪除。 若要這麼做，請對 [!DNL Offer Library] API，使用您要刪除之備援優惠方案的$id。
 
 **API格式**
 

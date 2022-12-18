@@ -5,8 +5,8 @@ title: 開始歷程執行
 description: 了解如何開始您的歷程並傳送訊息
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 0%
+source-wordcount: '292'
+ht-degree: 4%
 
 ---
 
@@ -42,25 +42,25 @@ ht-degree: 0%
 
 ## 排程訊息 {#schedule-messages}
 
-可透過 **[!UICONTROL Read Segment]** 活動 [歷程](journey.md). 您可以指定區段何時會進入歷程。 [深入了解「讀取區段」活動](read-segment.md).
+可透過 **[!UICONTROL 讀取區段]** 活動 [歷程](journey.md). 您可以指定區段何時會進入歷程。 [深入了解「讀取區段」活動](read-segment.md).
 
-若要這麼做，請遵循下列步驟：
+請依照下列步驟執行此操作：
 
-1. 編輯歷程，拖放 **[!UICONTROL Read Segment]** 活動並開始設定。 [深入了解設定讀取區段活動](read-segment.md#configuring-segment-trigger-activity).
+1. 編輯歷程，拖放 **[!UICONTROL 讀取區段]** 活動並開始設定。 [深入了解設定讀取區段活動](read-segment.md#configuring-segment-trigger-activity).
 
-1. 按一下 **[!UICONTROL Edit journey schedule]** 連結以存取歷程的屬性。
+1. 按一下 **[!UICONTROL 編輯歷程排程]** 連結以存取歷程的屬性。
 
    ![](assets/message-read-segment-schedule.png)
 
-1. 設定 **[!UICONTROL Scheduler type]** 欄位：從清單中選取所需值，讓區段以特定日期/時間或循環基準輸入歷程。
+1. 設定 **[!UICONTROL 排程器類型]** 欄位：從清單中選取所需值，讓區段以特定日期/時間或循環基準輸入歷程。
 
    >[!NOTE]
    >
-   >此 **[!UICONTROL Schedule]** 區段僅在 **[!UICONTROL Read Segment]** 活動已拖放至畫布中。
+   >此 **[!UICONTROL 排程]** 區段僅在 **[!UICONTROL 讀取區段]** 活動已拖放至畫布中。
 
    ![](assets/message-read-segment-scheduler.png)
 
-1. 如果您選取 **[!UICONTROL Once]**，定義區段將進入歷程的特定日期和時間。
+1. 如果您選取 **[!UICONTROL 一次]**，定義區段將進入歷程的特定日期和時間。
 
    ![](assets/message-read-segment-scheduler-once.png)
 
@@ -70,8 +70,8 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >依預設，區段會輸入歷程 **[!UICONTROL As soon as possible]**，表示歷程發佈後1小時。
+   >依預設，區段會輸入歷程 **[!UICONTROL 盡快]**，表示歷程發佈後1小時。
 
-1. 按一下 **[!UICONTROL OK]** 來儲存變更。
+1. 按一下 **[!UICONTROL 確定]** 來儲存變更。
 
 <!--Unitary messages that are triggered by an event within a journey cannot be scheduled.-->

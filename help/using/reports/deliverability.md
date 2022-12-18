@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 0%
+source-wordcount: '695'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->對於授權Healthcare Shield的客戶，Adobe會使用傳輸層安全性(TLS)1.2，以保護使用者系統（收件者）與Journey Optimizer（寄件者）之間的資料交換安全。 如果接收郵件伺服器不支援TLS 1.2，客戶將會遇到傳送能力問題，包括電子郵件反彈回原始寄件者。
+>對於授權Healthcare Shield的Adobe,Healtch Layer Security(TLS)1.2可保護使用者系統（收件者）與Journey Optimizer（寄件者）之間的資料交換。 如果接收郵件伺服器不支援TLS 1.2，客戶將會遇到傳送能力問題，包括電子郵件反彈回原始寄件者。
 
 **電子郵件傳遞** 指一組特性，這些特性決定了郵件通過個人電子郵件地址在短時間內以預期的質量和內容和格式到達目的地的能力。 這些特徵分為四大類：資料質量、訊息和內容、傳送基礎架構和信譽。 它們共同構成了成功電子郵件傳遞計畫的基礎。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 最佳化您的 [!DNL Journey Optimizer] 體驗，建議您使用本節所列的最佳實務。 傳遞能力問題通常與網際網路服務提供者(ISP)和郵件伺服器管理員實施的針對垃圾郵件的保護相關。
 
-如需深入了解什麼是傳遞能力，以及深入了解關鍵傳遞能力條款、概念和方法，請參閱 [Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target=&quot;_blank&quot;}。
+如需深入了解什麼是傳遞能力，以及深入了解關鍵傳遞能力條款、概念和方法，請參閱 [Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 ## 降低投訴率 {#reduce-complaint-rate}
 
@@ -57,7 +57,7 @@ ISP通常會以明顯的方式將收到的郵件報告為垃圾郵件。 這使�
 
 使用提供的功能 [!DNL Journey Optimizer] 監視傳遞能力。
 
-此 **[!UICONTROL Executions]** 訊息清單的索引標籤可讓您透過一組即時指標來檢查傳送的執行情形。 此標籤會顯示在其他項目中：
+此 **[!UICONTROL 執行]** 訊息清單的索引標籤可讓您透過一組即時指標來檢查傳送的執行情形。 此標籤會顯示在其他項目中：
 * 成功執行、傳送和傳送的訊息數。
 * 已開啟的訊息數，以及已點按的訊息/連結數。
 

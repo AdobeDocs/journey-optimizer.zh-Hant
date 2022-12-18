@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: 不重複
+title: distinct
 description: 了解不同的函式
 feature: Journeys
 role: Data Engineer
@@ -9,11 +9,11 @@ exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# 不重複 {#distinct}
+# distinct {#distinct}
 
 傳回指定清單的不同值或物件。 忽略Null項。
 

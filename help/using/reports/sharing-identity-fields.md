@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: journeyStep事件識別欄位
-description: journeyStep事件識別欄位
+title: journeyStep 事件識別欄位
+description: journeyStep 事件識別欄位
 feature: Reporting
 topic: Content Management
 role: User
@@ -11,11 +11,11 @@ exl-id: c447fcf0-51ec-4d88-8b2d-f15db076bfbc
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 0%
+ht-degree: 26%
 
 ---
 
-# journeyStep事件識別欄位 {#sharing-identity-fields}
+# journeyStep 事件識別欄位 {#sharing-identity-fields}
 
 此欄位群組是journeyStepEvent專屬的：此事件與歷程相關，沒有identityMap，用於說明設定檔身分（如果有）。
 
@@ -25,10 +25,10 @@ ht-degree: 0%
 
 設定檔識別碼
 
-類型：字串
+類型: 字串
 
 ## profileNamespace
 
 設定檔識別碼命名空間
 
-類型：字串
+類型: 字串

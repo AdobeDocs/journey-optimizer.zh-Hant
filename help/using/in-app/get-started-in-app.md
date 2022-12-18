@@ -11,25 +11,25 @@ exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
-# 開始使用應用程式內管道 {#gs-in-app}
+# 開始使用應用程式內頻道 {#gs-in-app}
 
 應用程式內訊息是您可傳送給應用程式內使用者的通知，以將他們導向特定的地標。 應用程式內通知可用來建議服務、推廣新功能、特殊優惠方案，或讓新使用者上線。
 
-使用Journey Optimizer建立應用程式內通知，並設定體驗選項，包括訊息配置和顯示、文字和按鈕選項。
+使用Journey Optimizer建立應用程式內通知，並設定體驗選項，包括訊息配置和顯示、文字及按鈕選項。
 
 ![](assets/new-in-app.png)
 
-## 必要條件{#prerequisites-in-app}
+## 先決條件{#prerequisites-in-app}
 
 傳送應用程式內訊息之前，您需要：
 
-* 設定應用程式內通道。 [深入了解](inapp-configuration.md)
+* 設定應用程式內通道。 [了解更多](inapp-configuration.md)
 
-* 開始之前，請確定您對Journey Optimizer促銷活動擁有正確的權限。 [深入了解](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+* 開始之前，請確定您擁有Journey Optimizer促銷活動的正確權限。 [了解更多](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
 完成後，您可以建立、設定和傳送您的第一個應用程式內訊息。 了解如何在 [本節](create-in-app.md).
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 <img alt="驗證" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="inapp-report.md"><strong>應用程式內報表</strong></a>
+<a href="inapp-report.md"><strong>應用程式內報告</strong></a>
 </div>
 <p>
 </td>
@@ -64,7 +64,7 @@ ht-degree: 0%
 <img alt="驗證" src="../assets/do-not-localize/inapp-config.jpg">
 </a>
 <div>
-<a href="inapp-configuration.md"><strong>設定應用程式內通道</strong></a>
+<a href="inapp-configuration.md"><strong>設定應用程式內頻道</strong></a>
 </div>
 <p>
 </td>

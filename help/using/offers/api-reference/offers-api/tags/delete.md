@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 0%
+source-wordcount: '143'
+ht-degree: 5%
 
 ---
 
 # 刪除標籤 {#delete-tag}
 
-有時可能需要移除（刪除）標籤。 只能刪除您在租用戶容器中建立的標籤。 若要這麼做，請對 [!DNL Offer Library] API使用您要刪除之標籤的$id。
+有時可能需要移除(DELETE)標籤。 只能刪除您在租用戶容器中建立的標籤。 若要這麼做，請對 [!DNL Offer Library] API使用您要刪除之標籤的$id。
 
 **API格式**
 

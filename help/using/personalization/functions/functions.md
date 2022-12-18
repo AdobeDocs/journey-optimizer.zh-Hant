@@ -1,6 +1,6 @@
 ---
 title: 開始使用Helper函式
-description: Journey Optimizer Helper函式程式庫
+description: Journey Optimizer Helper函式庫
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 0%
+source-wordcount: '1738'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 按一下 `>` 表徵圖。 按一下 `+` 圖示：函式會自動新增至個人化畫面。
 
-按一下 `...` 表徵圖，查看函式的說明並將其添加到收藏夾中。 [深入了解](../personalize.md#fav)
+按一下 `...` 表徵圖，查看函式的說明並將其添加到收藏夾中。 [了解更多](../personalize.md#fav)
 
 ## 函式{#functions-helper}
 
@@ -73,10 +73,10 @@ ht-degree: 0%
         <td><a href="arrays-list.md#last-n">陣列中的最後n個</a></td><td>此函式會根據指定的數值運算式，以遞增順序排序時，傳回陣列中的最後一個「N」項目</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#max">最大值</a></td><td>此函式會傳回陣列中所有選取值中最大的值</td>
+        <td><a href="aggregation.md#max">最大</a></td><td>此函式會傳回陣列中所有選取值中最大的值</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#min">最低</a></td><td>此函式會傳回陣列中所有選取值的最小值</td>
+        <td><a href="aggregation.md#min">最小</a></td><td>此函式會傳回陣列中所有選取值的最小值</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#notin">不在</a></td><td>此函式確定項目是否不是陣列或清單的成員</td>
@@ -105,10 +105,10 @@ ht-degree: 0%
         <td><a href="dates.md#date-diff">日期差異</a></td><td>此函式會擷取兩個日期之間的差異（以天為單位）</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-week">星期</a></td><td>此函式會擷取一週中的某天</td>
+        <td><a href="dates.md#day-week">週中的日</a></td><td>此函式會擷取一週中的某天</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-year">一年當中的第幾天</a></td><td>此函式會擷取一年當中的某天</td>
+        <td><a href="dates.md#day-year">年中的日</a></td><td>此函式會擷取一年當中的某天</td>
     </tr>
     <tr>
         <td><a href="dates.md#format-date">日期格式</a></td><td>此函式會格式化日期時間值</td>
@@ -149,7 +149,7 @@ ht-degree: 0%
         <td><a href="objects.md#absolute">絕對</a></td><td>此函式會轉換其絕對值的數字</td>
     </tr>
     <tr>
-        <td><a href="objects.md#random">隨機</a></td><td>此函式會傳回0到1之間的隨機值</td>
+        <td><a href="objects.md#random">Random</a></td><td>此函式會傳回0到1之間的隨機值</td>
     </tr>
     <tr>
         <td><a href="objects.md#round-down">向下捨入</a></td><td>此函式會捨入數字</td>
@@ -201,7 +201,7 @@ ht-degree: 0%
         <td><a href="string.md#encode64">編碼64</a></td><td>此函式用於對字串進行編碼或解碼</td>
     </tr>
     <tr>
-        <td><a href="string.md#endsWith">結尾為</a></td><td>此函式用於判斷字串結尾是否為指定的子字串</td>
+        <td><a href="string.md#endsWith">終止於</a></td><td>此函式用於判斷字串結尾是否為指定的子字串</td>
     </tr>
         </tr>
     <tr>
@@ -265,7 +265,7 @@ ht-degree: 0%
         <td><a href="string.md#regexGroup">規則運算式群組</a></td><td>此函式用於根據提供的規則運算式擷取特定資訊</td>
     </tr>
     <tr>
-        <td><a href="string.md#replace">取代</a></td><td>此函式會將字串中的指定子字串取代為另一個子字串</td>
+        <td><a href="string.md#replace">Replace</a></td><td>此函式會將字串中的指定子字串取代為另一個子字串</td>
     </tr>
     <tr>
         <td><a href="string.md#replaceAll">全部替換</a></td><td>此函式會以指定的常值「取代」字串，取代符合「目標」之文字的所有子字串</td>
@@ -274,10 +274,10 @@ ht-degree: 0%
         <td><a href="string.md#rightTrim">右修剪</a></td><td>此函式會從字串的結尾移除空格 </td>
     </tr>
     <tr>
-        <td><a href="string.md#split">分割</a></td><td>此函式可用來依指定字元分割字串</td>
+        <td><a href="string.md#split">Split</a></td><td>此函式可用來依指定字元分割字串</td>
     </tr>
     <tr>
-        <td><a href="string.md#startsWith">開頭為</a></td><td>此函式用於判斷字串是否以指定的子字串開頭</td>
+        <td><a href="string.md#startsWith">開始於</a></td><td>此函式用於判斷字串是否以指定的子字串開頭</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-date">至今的字串</a></td><td>此函式用於將字串轉換為日期。 它會傳回紀元日期作為無效輸入的輸出。</td>
@@ -318,7 +318,7 @@ ht-degree: 0%
 </table>
 
 
-## Helpers{#helper-helper}
+## 輔助程式{#helper-helper}
 
 Helpers在 [本頁](helpers.md).
 
@@ -331,7 +331,7 @@ Helpers在 [本頁](helpers.md).
         <td><a href="helpers.md#each">每個</a></td><td>此函式用於迭代過陣列</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#if-function">若</a></td><td>此函式用於定義條件塊 — 如果運算式計算傳回true，則會呈現區塊</td>
+        <td><a href="helpers.md#if-function">若  </a></td><td>此函式用於定義條件塊 — 如果運算式計算傳回true，則會呈現區塊</td>
     </tr>
     <tr>
         <td><a href="helpers.md#let">讓</a></td><td>此函式可讓運算式儲存為變數，以供稍後在查詢中使用</td>
@@ -344,7 +344,7 @@ Helpers在 [本頁](helpers.md).
     </tr>
 </table>
 
-## 運算子{#operators-helper}
+## 操作者{#operators-helper}
 
 ### 算術函式 {#arithmetic-helper}
 
@@ -392,7 +392,7 @@ Helpers在 [本頁](helpers.md).
         <td><a href="operators.md#equals">等於</a></td><td>此操作檢查值是否相等</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthan">大於</a></td><td>此運算子會檢查第一個值是否大於第二個值</td>
+        <td><a href="operators.md#greaterthan">Greater than</a></td><td>此運算子會檢查第一個值是否大於第二個值</td>
     </tr>
     <tr>
         <td><a href="operators.md#greaterthanorequal">大於或等於</a></td><td>此運算子會檢查第一值是否大於或等於第二值</td>
@@ -407,6 +407,6 @@ Helpers在 [本頁](helpers.md).
 
 ## 作法影片{#video}
 
-了解如何使用個人化協助程式函式來轉換個人化值，並了解協助程式函式的不同使用案例。
+瞭解如何使用個人化協助程式函式來轉換個人化值，並瞭解協助程式函式的不同使用案例。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 0%
+source-wordcount: '541'
+ht-degree: 1%
 
 ---
 
@@ -29,9 +29,9 @@ Adobe Journey Optimizer可讓您運用程式庫中建立的條件式規則，將
 
 1. 導覽至您要新增動態內容的欄位，然後開啟「運算式編輯器」。
 
-1. 選取 **[!UICONTROL Conditions]** 功能表來顯示可用條件規則清單。 按一下規則旁的+按鈕，將其新增至目前的運算式。
+1. 選取 **[!UICONTROL 條件]** 功能表來顯示可用條件規則清單。 按一下規則旁的+按鈕，將其新增至目前的運算式。
 
-   您也可以選取 **[!UICONTROL Create new]**. [了解如何建立條件](create-conditions.md)
+   您也可以選取 **[!UICONTROL 新建]**. [了解如何建立條件](create-conditions.md)
 
    ![](assets/conditions-expression.png)
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer可讓您運用程式庫中建立的條件式規則，將
 
    ![](assets/conditions-language-sample.png)
 
-1. 內容準備就緒後，您可以使用 **[!UICONTROL Simulate content]** 按鈕。 [了解如何測試和預覽訊息](../email/preview.md)
+1. 內容準備就緒後，您可以使用 **[!UICONTROL 模擬內容]** 按鈕。 [了解如何測試和預覽訊息](../email/preview.md)
 
    ![](assets/conditions-preview.png)
 
@@ -59,21 +59,21 @@ Adobe Journey Optimizer可讓您運用程式庫中建立的條件式規則，將
 
 在「電子郵件設計工具」中建立內容元件變體的步驟如下：
 
-1. 在電子郵件設計工具中，選取內容元件，然後按一下 **[!UICONTROL Enable conditional content]**.
+1. 在電子郵件設計工具中，選取內容元件，然後按一下 **[!UICONTROL 啟用條件式內容]**.
 
    ![](assets/conditions-enable-conditional.png)
 
-1. 此 **[!UICONTROL Conditional Content]** 窗格顯示在左側。 在此窗格中，您可以使用條件建立所選內容元件的多個變體。
+1. 此 **[!UICONTROL 條件式內容]** 窗格顯示在左側。 在此窗格中，您可以使用條件建立所選內容元件的多個變體。
 
-   選取 **[!UICONTROL Apply condition]** 按鈕。
+   選取 **[!UICONTROL 套用條件]** 按鈕。
 
    ![](assets/conditions-apply.png)
 
-1. 條件程式庫隨即顯示。 選取要關聯至變體的條件式規則，然後按一下 **[!UICONTROL Select]**. 在此範例中，我們會根據收件者的偏好語言來調整元件文字。
+1. 條件程式庫隨即顯示。 選取要關聯至變體的條件式規則，然後按一下 **[!UICONTROL 選擇]**. 在此範例中，我們會根據收件者的偏好語言來調整元件文字。
 
    ![](assets/conditions-select.png)
 
-   您也可以按一下「 **[!UICONTROL Create new]**. [了解如何建立條件](create-conditions.md)
+   您也可以按一下「 **[!UICONTROL 新建]**. [了解如何建立條件](create-conditions.md)
 
 1. 條件規則與變體相關聯。 為提高可讀性，建議您按一下橢圓功能表來重新命名變體。
 
@@ -84,6 +84,6 @@ Adobe Journey Optimizer可讓您運用程式庫中建立的條件式規則，將
 1. 視需要為內容元件新增多個變體。 您可以隨時在不同變體之間切換，以根據條件規則檢查內容元件的顯示方式。
 
    >[!NOTE]
-   >如果傳送訊息時不符合變體中定義的任何規則，內容元件將顯示 **[!UICONTROL Default variant]**.
+   >如果傳送訊息時不符合變體中定義的任何規則，內容元件將顯示 **[!UICONTROL 預設變體]**.
    >
    >系統會根據相關規則，依變體的顯示順序來評估條件式內容。 如果未符合其他條件，則一律會顯示預設變體。

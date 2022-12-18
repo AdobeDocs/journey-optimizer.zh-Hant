@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 0%
+source-wordcount: '1008'
+ht-degree: 4%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 然後，您就能 [傳送校樣](#send-proofs) 至測試設定檔。
 
-此外，還要利用 **利特穆斯** 帳戶 [!DNL Journey Optimizer] 立即預覽 **電子郵件呈現** 常見電子郵件用戶端。 然後，您可以確保您的電子郵件內容看起來很棒，並且在每個收件匣中都正常運作。 了解如何在中解鎖Litmus電子郵件預覽 [本節](#email-rendering).
+此外，利用您的 **Litmus** 帳戶登入，即可在&#x200B;**常見電子郵件用戶端[!DNL Journey Optimizer]立即預覽**&#x200B;電子郵件呈現。 您可以確保電子郵件內容都能看起來不錯，並且在每個收件匣中都正常運作。 了解如何在中解鎖Litmus電子郵件預覽 [本節](#email-rendering).
 
 >[!CAUTION]
 >
@@ -48,34 +48,34 @@ ht-degree: 0%
 >id="ac_preview_testprofiles"
 >title="預覽和測試您的訊息"
 >abstract="定義訊息內容後，您就可以使用測試設定檔來預覽和測試。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#email-rendering" text="電子郵件呈現"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#email-rendering" text="電子郵件轉譯"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#preview-email" text="預覽"
 
 使用 [測試設定檔](../segment/creating-test-profiles.md) 來鎖定不符合已定義定位准則的其他收件者。
 
 若要選取測試設定檔，請遵循下列步驟：
 
-1. 在 [編輯內容](create-email.md#define-email-content) 螢幕或電子郵件設計工具中，按一下 **[!UICONTROL Simulate content]** 按鈕來存取測試設定檔選取項目。
+1. 在 [編輯內容](create-email.md#define-email-content) 螢幕或電子郵件設計工具中，按一下 **[!UICONTROL 模擬內容]** 按鈕來存取測試設定檔選取項目。
 
    ![](assets/email-preview-button.png)
 
-1. 選擇 **[!UICONTROL Manage test profiles]**.
+1. 選擇 **[!UICONTROL 管理測試設定檔]**.
 
    ![](assets/email-preview_manage-test-profiles.png)
 
-1. 按一下 **[!UICONTROL Identity namespace]** 選項。
+1. 按一下 **[!UICONTROL 身分命名空間]** 選項。
 
    ![](assets/previewselect-namespace.png)
 
-   進一步了解Adobe Experience Platform身分識別命名空間 [在本節](../segment/get-started-identity.md).
+   深入了解Adobe Experience Platform身分識別命名空間 [在本節](../segment/get-started-identity.md).
 
    在以下範例中，我們將使用 **電子郵件** 命名空間。
 
-1. 使用搜尋欄位來尋找命名空間，選取命名空間，然後按一下 **[!UICONTROL Select]**
+1. 使用搜尋欄位來尋找命名空間，選取命名空間，然後按一下 **[!UICONTROL 選擇]**
 
    ![](assets/preview-email-namespace.png)
 
-1. 在 **[!UICONTROL Identity value]** 欄位中，輸入值（這裡是電子郵件地址）以識別測試設定檔，然後按一下 **[!UICONTROL Add profile]**.
+1. 在 **[!UICONTROL 身分值]** 欄位中，輸入值（這裡是電子郵件地址）以識別測試設定檔，然後按一下 **[!UICONTROL 新增設定檔]**.
 
    <!--![](assets/preview-identity-value.png)-->
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 一次 [測試設定檔](#select-test-profiles) ，您可以預覽電子郵件內容。 請遵循下列步驟：
 
-1. 在 [編輯內容](create-email.md#define-email-content) 螢幕或電子郵件設計工具中，按一下 **[!UICONTROL Simulate content]** 按鈕。
+1. 在 [編輯內容](create-email.md#define-email-content) 螢幕或電子郵件設計工具中，按一下 **[!UICONTROL 模擬內容]** 按鈕。
 
 1. 選取測試設定檔。 您可以檢查欄中可用的值。 使用向右/向左箭頭來瀏覽資料。
 
@@ -97,9 +97,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >若要新增更多測試設定檔，請選取 **[!UICONTROL Manage test profiles]**. [深入了解](#select-test-profiles)
+   >若要新增更多測試設定檔，請選取 **[!UICONTROL 管理測試設定檔]**. [了解更多](#select-test-profiles)
 
-1. 按一下 **[!UICONTROL Select data]** 表徵圖以添加或刪除列。
+1. 按一下 **[!UICONTROL 選擇資料]** 表徵圖以添加或刪除列。
 
    ![](assets/preview-select-data.png)
 
@@ -119,11 +119,11 @@ ht-degree: 0%
 
 一次 [測試設定檔](#select-test-profiles) ，您可以傳送校樣。
 
-1. 在 **[!UICONTROL Simulate]** 螢幕上，按一下 **[!UICONTROL Send proof]** 按鈕。
+1. 在 **[!UICONTROL 模擬]** 螢幕上，按一下 **[!UICONTROL 傳送校樣]** 按鈕。
 
    ![](assets/send-proof-button.png)
 
-1. 從 **[!UICONTROL Send proof]** 視窗中，輸入收件者的電子郵件，然後按一下 **[!UICONTROL Add]** 將校樣傳送給您自己或組織的成員。
+1. 從 **[!UICONTROL 傳送校樣]** 視窗中，輸入收件者的電子郵件，然後按一下 **[!UICONTROL 新增]** 將校樣傳送給您自己或組織的成員。
 
    請注意，您最多可為校樣傳送新增10個收件者。
 
@@ -135,11 +135,11 @@ ht-degree: 0%
 
 1. 您可以視需要在校樣的主旨行新增首碼。 僅限英數字元和特殊字元，例如。- _() [ ] 可做為主旨行的前置詞。
 
-1. 按一下 **[!UICONTROL Send proof]**.
+1. 按一下 **[!UICONTROL 傳送校樣]**.
 
    ![](assets/send-proof-select.png)
 
-1. 回到  **[!UICONTROL Simulate]** 螢幕上，按一下  **[!UICONTROL View proofs]** 按鈕，檢查狀態。
+1. 回到  **[!UICONTROL 模擬]** 螢幕上，按一下  **[!UICONTROL 檢視校樣]** 按鈕，檢查狀態。
 
    ![](assets/send-proof-view.png)
 
@@ -160,9 +160,9 @@ ht-degree: 0%
 
 接著，請依照下列步驟操作：
 
-1. 在 [編輯內容](create-email.md#define-email-content) 螢幕或電子郵件設計工具中，按一下 **[!UICONTROL Simulate content]** 按鈕。
+1. 在 [編輯內容](create-email.md#define-email-content) 螢幕或電子郵件設計工具中，按一下 **[!UICONTROL 模擬內容]** 按鈕。
 
-1. 選取 **[!UICONTROL Render email]** 按鈕。
+1. 選取 **[!UICONTROL 呈現電子郵件]** 按鈕。
 
    ![](assets/email-rendering-button.png)
 
@@ -182,7 +182,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->連接 **利特穆斯** 帳戶 [!DNL Journey Optimizer]，您同意將測試訊息傳送至Litmus:傳送後，Adobe將不再管理這些電子郵件。 因此，Litmus資料保留電子郵件原則會套用至這些電子郵件，包括可能包含在這些測試訊息中的個人化資料。
+>連接 **利特穆斯** 帳戶 [!DNL Journey Optimizer]，您同意將測試訊息傳送至Litmus:傳送後，這些電子郵件便不再由Adobe管理。 因此，Litmus資料保留電子郵件原則會套用至這些電子郵件，包括可能包含在這些測試訊息中的個人化資料。
 
 ## 作法影片 {#video-preview}
 

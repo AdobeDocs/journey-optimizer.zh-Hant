@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 0%
+source-wordcount: '209'
+ht-degree: 2%
 
 ---
 
-# 新增前置詞 {#preheader}
+# 加入預告標題 {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
@@ -32,26 +32,26 @@ ht-degree: 0%
 
 若要定義電子郵件預先標題，請遵循下列步驟：
 
-1. 從電子郵件設計工具中，至少新增 **[!UICONTROL Structure components]** 開始設計電子郵件。
+1. 從電子郵件設計工具中，至少新增 **[!UICONTROL 結構元件]** 開始設計電子郵件。
 
-1. 按一下 **[!UICONTROL Navigation tree]** 圖示，然後選取 **[!UICONTROL Body]**.
+1. 按一下 **[!UICONTROL 導航樹]** 圖示，然後選取 **[!UICONTROL 主體]**.
 
    ![](assets/preheader_body.png)
 
-1. 從 **[!UICONTROL Body settings]** 右窗格，按一下 **[!UICONTROL Preheader]** 欄位來新增內容。
+1. 從 **[!UICONTROL 內文設定]** 右窗格，按一下 **[!UICONTROL Preheader]** 欄位來新增內容。
 
    ![](assets/preheader_body_settings.png)
 
-1. 新增您的標題。 您可以按一下 **[!UICONTROL Add personalization]** 表徵圖。
+1. 新增您的標題。 您可以按一下 **[!UICONTROL 新增個人化]** 表徵圖。
 
    ![](assets/preheader_3.png)
 
-1. 從 **[!UICONTROL Edit Personalization]** 視窗中，您可以新增 **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** 或 **[!UICONTROL Personalization fields]**.
+1. 從 **[!UICONTROL 編輯個人化]** 視窗中，您可以新增 **[!UICONTROL 內容區塊]**, **[!UICONTROL 動態內容]** 或 **[!UICONTROL 個人化欄位]**.
 
-1. 按一下 **[!UICONTROL Validate]** 以檢查個人化語法。
+1. 按一下 **[!UICONTROL 驗證]** 以檢查個人化語法。
 
    ![](assets/preheader_4.png)
 
-1. 按一下 **[!UICONTROL Save]**.
+1. 按一下「**[!UICONTROL 儲存]**」。
 
 您的電子郵件現在已設定前置標題。

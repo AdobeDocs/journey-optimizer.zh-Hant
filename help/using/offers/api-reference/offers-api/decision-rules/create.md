@@ -1,5 +1,5 @@
 ---
-title: 建立決策規則
+title: 建立決定規則
 description: 決策規則是新增至個人化優惠方案的限制，並套用至設定檔以判斷資格。
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
 source-git-commit: a7d4ab7f7430a93fb87af390ba0a8defb36ea9e9
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
-# 建立決策規則 {#create-decision-rule}
+# 建立決定規則 {#create-decision-rule}
 
 決策規則是新增至個人化優惠方案的限制，並套用至設定檔以判斷資格。
 
@@ -23,8 +23,8 @@ ht-degree: 0%
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
-| 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| 內容類型 | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
 
 **API格式**
 

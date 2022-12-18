@@ -1,6 +1,6 @@
 ---
 title: 使用Edge Decisioning API提供優惠方案
-description: Adobe Experience Platform Web SDK可讓您使用API或選件資料庫擷取及呈現您已建立的個人化選件。
+description: Adobe Experience Platform Web SDK可讓您使用API或選件資料庫建立的擷取及呈現個人化選件。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 0%
+source-wordcount: '1056'
+ht-degree: 2%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 ## 快速入門與必要條件 {#edge-overview-and-prerequisites}
 
-此 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) 是用戶端JavaScript程式庫，可讓Adobe Experience Cloud客戶透過Experience Platform Edge Network與Experience Cloud中的各種服務互動。
+此 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) 是用戶端JavaScript程式庫，可讓Adobe Experience Cloud客戶透過Experience Platform邊緣網路與Experience Cloud中的各種服務互動。
 
-Experience Platform Web SDK支援在Adobe查詢個人化解決方案，包括決策管理，讓您能夠擷取及呈現您使用API或選件資料庫建立的個人化選件。 如需更多詳細指示，請參閱 [建立優惠方案](../../get-started/starting-offer-decisioning.md).
+Experience PlatformWeb SDK支援在Adobe（包括決策管理）查詢個人化解決方案，讓您能夠擷取及呈現您使用API或選件資料庫建立的個人化選件。 如需更多詳細指示，請參閱 [建立優惠方案](../../get-started/starting-offer-decisioning.md).
 
 有兩種方式可透過 [平台Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). 一種是面向開發人員，需要了解網站和程式設計。 另一種方式是使用Adobe Experience Platform使用者介面來設定選件，該選件只需要在HTML頁面的標題中參考小型指令碼。
 
@@ -44,7 +44,7 @@ SDK並未結合這些程式庫，而是從頭開始的新實作。 若要使用�
 
    <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-1. [設定您的資料流](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) 在Adobe Experience Cloud帳戶的「資料收集」標籤中。
+1. [設定您的資料流](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) 在Adobe Experience Cloud中您帳戶的「資料收集」標籤中。
 
 1. 安裝SDK。 執行此作業有多種方法，相關說明請參閱 [安裝SDK頁面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). 本頁面會繼續提供各種不同的實施方法。
 
@@ -66,7 +66,7 @@ SDK並未結合這些程式庫，而是從頭開始的新實作。 若要使用�
 
 1. [新增內嵌程式碼](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
 
-1. 使用您從「Datastream」下拉式清單中選取設定，以建立的Datastream安裝並設定Adobe Experience Platform Web SDK擴充功能。 請參閱 [擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
+1. 從「Datastream」下拉式清單中選取設定，使用您建立的Datastream安裝並設定Adobe Experience Platform Web SDK擴充功能。 請參閱 [擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
 
    ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 
@@ -76,7 +76,7 @@ SDK並未結合這些程式庫，而是從頭開始的新實作。 若要使用�
 
    ![身分對應](../../assets/sdk-identity-map.png)
 
-   ![XDM物件](../../assets/xdm-object.png)
+   ![XDM 物件](../../assets/xdm-object.png)
 
 1. 建立 [規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
 
@@ -92,7 +92,7 @@ SDK並未結合這些程式庫，而是從頭開始的新實作。 若要使用�
 
 以下是使用預先建置的Web SDK獨立安裝來進行決策管理所需的步驟。 本指南假設這是您首次實作SDK，因此所有步驟可能皆不適用。 本指南也假設有一些開發經驗。
 
-從選項2加入下列JavaScript程式碼片段：上預先建置的獨立版本 [本頁](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) 在 `<head>` 區段。
+從選項2加入下列JavaScript程式碼片段：上預先建置的獨立版本 [本頁](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) 在 `<head>` HTML頁面的區段。
 
 ```
 javascript
@@ -105,7 +105,7 @@ javascript
     <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script>
 ```
 
-您需要Adobe帳戶內的兩個ID才能設定SDK設定：您的edgeConfigId和您的orgId。 edgeConfigId與您的資料流ID相同，您應在「必要條件」中設定。
+您需要Adobe帳戶內的兩個ID來設定SDK設定：您的edgeConfigId和您的orgId。 edgeConfigId與您的資料流ID相同，您應在「必要條件」中設定。
 
 若要尋找您的edgeConfigID/datastream ID，請前往「資料收集」並選取您的「資料流」。 若要尋找您的orgId，請前往您的個人資料。
 
@@ -129,7 +129,7 @@ javascript
 
 接下來，在偵錯工具中登入您的帳戶。 接著，前往「記錄檔」，確認您已連線至正確的工作區。 現在，從選件中複製決策範圍的base64編碼版本。
 
-編輯網站時，請加入指令碼及設定，並 `sendEvent` 函式將決策範圍傳送至Adobe。
+編輯網站時，請加入指令碼及設定，並 `sendEvent` 函式，將決策範圍傳送至Adobe。
 
 **範例**:
 

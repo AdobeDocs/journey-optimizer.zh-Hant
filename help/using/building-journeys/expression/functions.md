@@ -10,7 +10,7 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 0%
+ht-degree: 75%
 
 ---
 
@@ -26,18 +26,18 @@ ht-degree: 0%
 
 ## 主要函式
 
-| 類別 | 函式 |
+| 類別 | 函數 |
 |-------------|-----------------------|
 | Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
-| 匯總 | [avg](../functions/functionavg.md) |
-| 匯總 | [計數](../functions/functioncount.md) |
-| 匯總 | [countOnlyNull](../functions/functioncountonlynull.md) |
-| 匯總 | [countWithNull](../functions/functioncountwithnull.md) |
-| 匯總 | [distinctCount](../functions/functiondistinctcount.md) |
-| 匯總 | [distinctCountWithNull](../functions/functiondistinctcountwithnull.md) |
-| 匯總 | [max](../functions/functionmax.md) |
-| 匯總 | [min](../functions/functionmin.md) |
-| 匯總 | [sum](../functions/functionsum.md) |
+| 彙總 | [avg](../functions/functionavg.md) |
+| 彙總 | [count](../functions/functioncount.md) |
+| 彙總 | [countOnlyNull](../functions/functioncountonlynull.md) |
+| 彙總 | [countWithNull](../functions/functioncountwithnull.md) |
+| 彙總 | [distinctCount](../functions/functiondistinctcount.md) |
+| 彙總 | [distinctCountWithNull](../functions/functiondistinctcountwithnull.md) |
+| 彙總 | [max](../functions/functionmax.md) |
+| 彙總 | [min](../functions/functionmin.md) |
+| 彙總 | [sum](../functions/functionsum.md) |
 | 轉換 | [toBool](../functions/functiontobool.md) |
 | 轉換 | [toDateOnly](../functions/functiontodateonly.md) |
 | 轉換 | [toDateTime](../functions/functiontodatetime.md) |
@@ -60,20 +60,20 @@ ht-degree: 0%
 | 日期 | [setHours](../functions/functionsethours.md) |
 | 日期 | [setDays](../functions/functionsetdays.md) |
 | 日期 | [updateTimeZone](../functions/functionupdatetimezone.md) |
-| 清單 | [不重複](../functions/functiondistinct.md) |
+| 清單 | [distinct](../functions/functiondistinct.md) |
 | 清單 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
 | 清單 | [篩選](../functions/functionfilter.md) |
 | 清單 | [getListItem](../functions/functiongetlistitem.md) |
-| 清單 | [in](../functions/functionin.md) |
+| 清單 | [在 ](../functions/functionin.md) |
 | 清單 | [相交](../functions/functionintersect.md) |
 | 清單 | [listSize](../functions/functionlimit.md) |
 | 清單 | [listSize](../functions/functionlistsize.md) |
 | 清單 | [serializeList](../functions/functionserializelist.md) |
-| 清單 | [排序](../functions/functionsort.md) |
-| 數學 | [隨機](../functions/functionrandom.md) |
-| 數學 | [round](../functions/functionround.md) |
+| 清單 | [sort](../functions/functionsort.md) |
+| Math | [random](../functions/functionrandom.md) |
+| Math | [round](../functions/functionround.md) |
 | 字串 | [concat](../functions/functionconcat.md) |
-| 字串 | [cont](../functions/functioncontain.md) |
+| 字串 | [contain](../functions/functioncontain.md) |
 | 字串 | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
 | 字串 | [endWith](../functions/functionendwith.md) |
 | 字串 | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
@@ -82,7 +82,7 @@ ht-degree: 0%
 | 字串 | [isEmpty](../functions/functionisempty.md) |
 | 字串 | [isNotEmpty](../functions/functionisnotempty.md) |
 | 字串 | [lastIndexOf](../functions/functionlastindexof.md) |
-| 字串 | [length](../functions/functionlength.md) |
+| 字串 | [長度](../functions/functionlength.md) |
 | 字串 | [lower](../functions/functionlower.md) |
 | 字串 | [matchRegExp](../functions/functionmatchregexp.md) |
 | 字串 | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
@@ -92,5 +92,5 @@ ht-degree: 0%
 | 字串 | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
 | 字串 | [substr](../functions/functionsubstr.md) |
 | 字串 | [trim](../functions/functiontrim.md) |
-| 字串 | [uper](../functions/functionupper.md) |
-| 字串 | [uid](../functions/functionuuid.md) |
+| 字串 | [upper](../functions/functionupper.md) |
+| 字串 | [uuid](../functions/functionuuid.md) |

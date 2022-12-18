@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 修改或停止促銷活動
+title: 修改或停止行銷活動
 description: 了解如何在中修改、停止或複製即時行銷活動 [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 0%
+source-wordcount: '478'
+ht-degree: 2%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 ## 存取行銷活動 {#access}
 
-您可從 **[!UICONTROL Campaigns]** 功能表。
+您可從 **[!UICONTROL 行銷活動]** 功能表。
 
-依預設，清單會以 **[!UICONTROL Draft]**, **[!UICONTROL Scheduled]**，和 **[!UICONTROL Live]** 狀態。
+依預設，清單會以 **[!UICONTROL 草稿]**, **[!UICONTROL 已排程]**，和 **[!UICONTROL 即時]** 狀態。
 
 若要顯示已停止、已完成和已封存的促銷活動，您必須清除篩選器。
 
@@ -35,29 +35,29 @@ ht-degree: 0%
 
 促銷活動可以有多種狀態：
 
-* **[!UICONTROL Draft]**:正在編輯促銷活動，尚未啟動。
-* **[!UICONTROL Activating]**:促銷活動正在啟動。
-* **[!UICONTROL Live]**:促銷活動已啟動。
-* **[!UICONTROL Scheduled]**:促銷活動設定為在特定開始日期啟動。
-* **[!UICONTROL Stopped]**:已手動停止促銷活動。 您無法再啟動或重複使用它。 [了解如何停止行銷活動](modify-stop-campaign.md#stop)
-* **[!UICONTROL Completed]**:促銷活動已完成。 此狀態會在促銷活動啟動後3天自動指派，或是在促銷活動結束日期（如果有循環執行）自動指派。
-* **[!UICONTROL Archived]**:已封存促銷活動。 [了解如何封存行銷活動](modify-stop-campaign.md#archive)
+* **[!UICONTROL 草稿]**:正在編輯促銷活動，尚未啟動。
+* **[!UICONTROL 啟用]**:促銷活動正在啟動。
+* **[!UICONTROL 即時]**:促銷活動已啟動。
+* **[!UICONTROL 已排程]**:促銷活動設定為在特定開始日期啟動。
+* **[!UICONTROL 已停止]**:已手動停止促銷活動。 您無法再啟動或重複使用它。 [了解如何停止行銷活動](modify-stop-campaign.md#stop)
+* **[!UICONTROL 已完成]**:促銷活動已完成。 此狀態會在促銷活動啟動後3天自動指派，或是在促銷活動結束日期（如果有循環執行）自動指派。
+* **[!UICONTROL 已封存]**:已封存促銷活動。 [了解如何封存行銷活動](modify-stop-campaign.md#archive)
 
 >[!NOTE]
 >
->旁邊的「開啟草稿版本」圖示 **[!UICONTROL Live]** 或 **[!UICONTROL Scheduled]** 狀態表示已建立新版本的促銷活動，但尚未啟動。 [深入了解](modify-stop-campaign.md#modify).
+>旁邊的「開啟草稿版本」圖示 **[!UICONTROL 即時]** 或 **[!UICONTROL 已排程]** 狀態表示已建立新版本的促銷活動，但尚未啟動。 [了解更多](modify-stop-campaign.md#modify)。
 
 ## 修改循環促銷活動 {#modify}
 
 若要修改並建立循環促銷活動的新版本，請遵循下列步驟：
 
-1. 開啟促銷活動，然後按一下 **[!UICONTROL Modify campaign]** 按鈕。
+1. 開啟促銷活動，然後按一下 **[!UICONTROL 修改促銷活動]** 按鈕。
 
-1. 促銷活動的新版本隨即建立。 您可以按一下「 」，以檢查即時版本 **[!UICONTROL Open live version]**.
+1. 促銷活動的新版本隨即建立。 您可以按一下「 」，以檢查即時版本 **[!UICONTROL 開啟即時版本]**.
 
    ![](assets/create-campaign-draft.png)
 
-   在促銷活動清單中，進行中草稿版本的已啟動促銷活動會在 **[!UICONTROL Status]** 欄。 按一下此圖示以開啟促銷活動的草稿版本。
+   在促銷活動清單中，進行中草稿版本的已啟動促銷活動會在 **[!UICONTROL 狀態]** 欄。 按一下此圖示以開啟促銷活動的草稿版本。
 
    ![](assets/create-campaign-edit-list.png)
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 停止循環促銷活動 {#stop}
 
-若要停止循環促銷活動，請開啟它，然後按一下 **[!UICONTROL Stop campaign]** 按鈕。
+若要停止循環促銷活動，請開啟它，然後按一下 **[!UICONTROL 停止促銷活動]** 按鈕。
 
 ![](assets/create-campaign-stop.png)
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 ## 複製促銷活動 {#duplicate}
 
-您可以複製已上線的促銷活動以建立新促銷活動。 若要這麼做，請開啟促銷活動，然後按一下 **[!UICONTROL Duplicate]**.
+您可以複製已上線的促銷活動以建立新促銷活動。 若要這麼做，請開啟促銷活動，然後按一下 **[!UICONTROL 複製]**.
 
 ![](assets/create-campaign-duplicate.png)
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 隨著時間推移，促銷活動清單會持續增長，最終會讓瀏覽已完成和已停止的促銷活動變得更困難。
 
-為避免此情況，您可以封存已完成和已停止您不再需要的促銷活動。 要執行此操作，請按一下橢圓按鈕，然後選取 **[!UICONTROL Archive]**.
+為避免此情況，您可以封存已完成和已停止您不再需要的促銷活動。 要執行此操作，請按一下橢圓按鈕，然後選取 **[!UICONTROL 封存]**.
 
 ![](assets/create-campaign-archive.png)
 

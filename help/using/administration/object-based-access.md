@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 對象級訪問控制
+title: 物件等級存取控制
 description: 了解物件層級存取控制
 feature: Access Management
 topic: Administration
@@ -10,16 +10,16 @@ level: Intermediate
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 0%
+source-wordcount: '438'
+ht-degree: 6%
 
 ---
 
-# 對象級訪問控制 {#object-level-access}
+# 物件等級存取控制 {#object-level-access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
->title="對象級訪問控制"
+>title="物件等級存取控制"
 >abstract="如果您套用您無權存取的任何標籤，則您對此物件的存取權將遭撤銷。"
 
 >[!IMPORTANT]
@@ -29,11 +29,11 @@ ht-degree: 0%
 對象級訪問控制(OLAC)允許您定義授權，以管理對選定對象的資料訪問：
 
 * 歷程
-* 行銷活動
+* Campaign
 * 登陸頁面
-* 選件
+* 優惠
 * 選件集合
-* Offer Decisioning
+* Offer decisioning
 
 其目的是保護敏感數位資產，使其免受未經授權的使用者之害，以進一步保護個人資料。
 
@@ -43,54 +43,54 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->若要建立標籤，您必須是角色的一部分，且 **[!UICONTROL Manage usage labels]** 權限。
+>若要建立標籤，您必須是角色的一部分，且 **[!UICONTROL 管理使用量標籤]** 權限。
 
-**[!UICONTROL Labels]** 可讓您根據套用至該資料的使用原則，對資料集和欄位進行分類。 **[!UICONTROL Labels]** 可隨時套用，提供您選擇控管資料的彈性。
+**[!UICONTROL 標籤]** 可讓您根據套用至該資料的使用原則，對資料集和欄位進行分類。 **[!UICONTROL 標籤]** 可隨時套用，提供您選擇控管資料的彈性。
 
-您可以在 [!DNL Permissions] 產品。 有關詳細資訊，請參閱 [本頁](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html).
+您可以在 [!DNL Permissions] 產品。 如需詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html)。
 
-**[!UICONTROL Labels]** 也可以直接在Journey Optimizer中建立：
+**[!UICONTROL 標籤]** 也可直接在Journey Optimizer中建立：
 
-1. 在Adobe Journey Optimizer物件中，此處是新建立的 **[!UICONTROL Campaign]**，按一下 **[!UICONTROL Manage access]** 按鈕。
+1. 從Adobe Journey Optimizer物件，此處是新建立的 **[!UICONTROL 行銷活動]**，按一下 **[!UICONTROL 管理存取]** 按鈕。
 
    ![](assets/olac_1.png)
 
-1. 從 **[!UICONTROL Manage access]** 按一下 **[!UICONTROL Create label]**.
+1. 從 **[!UICONTROL 管理存取]** 按一下 **[!UICONTROL 建立標籤]**.
 
    ![](assets/olac_2.png)
 
 1. 設定標籤時，您必須指定：
-   * **[!UICONTROL Name]**
-   * **[!UICONTROL Friendly name]**
-   * **[!UICONTROL Description]**
+   * **[!UICONTROL 名稱]**
+   * **[!UICONTROL 易記名稱]**
+   * **[!UICONTROL 說明]**
 
    ![](assets/olac_3.png)
 
-1. 按一下 **[!UICONTROL Create]** 儲存 **[!UICONTROL Label]**.
+1. 按一下 **[!UICONTROL 建立]** 儲存 **[!UICONTROL 標籤]**.
 
-新建立的 **[!UICONTROL Label]** 清單中現已可用。 如有需要，您可以在 [!DNL Permissions] 產品。
+新建立的 **[!UICONTROL 標籤]** 清單中現已可用。 如有需要，您可以在 [!DNL Permissions] 產品。
 
 ## 指派標籤 {#assign-labels}
 
 >[!IMPORTANT]
 >
->若要指派標籤，您必須是具有「管理」權限之角色的一部分，即 [!DNL Manage journeys], [!DNL Manage Campaigns] 或 [!DNL Manage decisions]. 若沒有此權限， **[!UICONTROL Manage access]** 按鈕會變灰。
+>若要指派標籤，您必須是具有「管理」權限之角色的一部分，即 [!DNL Manage journeys], [!DNL Manage Campaigns] 或 [!DNL Manage decisions]. 若沒有此權限， **[!UICONTROL 管理存取]** 按鈕會變灰。
 
-若要將自訂或核心資料使用量標籤指派給Journey Optimizer物件：
+若要將自訂或核心資料使用量標籤指派給您的Journey Optimizer物件：
 
-1. 在Adobe Journey Optimizer物件中，此處是新建立的 **[!UICONTROL Campaign]**，按一下 **[!UICONTROL Manage access]** 按鈕。
+1. 從Adobe Journey Optimizer物件，此處是新建立的 **[!UICONTROL 行銷活動]**，按一下 **[!UICONTROL 管理存取]** 按鈕。
 
    ![](assets/olac_1.png)
 
-1. 從 **[!UICONTROL Manage access]** 視窗中，選取您的自訂或核心資料使用量標籤，以管理此物件的存取權。
+1. 從 **[!UICONTROL 管理存取]** 視窗中，選取您的自訂或核心資料使用量標籤，以管理此物件的存取權。
 
    如需核心資料使用量標籤的詳細資訊，請參閱 [本頁](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html).
 
    ![](assets/olac_4.png)
 
-1. 按一下 **[!UICONTROL Save]** 來應用此標籤限制。
+1. 按一下 **[!UICONTROL 儲存]** 來應用此標籤限制。
 
-若要存取此物件，使用者必須具備 **[!UICONTROL Label]** 包含在 **[!UICONTROL Roles]**.
+若要存取此物件，使用者必須具備 **[!UICONTROL 標籤]** 包含在 **[!UICONTROL 角色]**.
 例如，具有C1標籤的用戶將只能訪問C1標籤或未標籤的對象。
 
-如需如何指派的詳細資訊 **[!UICONTROL Label]** 到 **[!UICONTROL Role]**，請參閱 [本頁](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role).
+如需如何指派的詳細資訊 **[!UICONTROL 標籤]** 到 **[!UICONTROL 角色]**，請參閱 [本頁](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role).

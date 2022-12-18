@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 即時報表
+title: 即時報告
 description: 了解如何使用即時報表中的資料
 feature: Reporting
 topic: Content Management
@@ -10,25 +10,25 @@ level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 0%
+source-wordcount: '1011'
+ht-degree: 4%
 
 ---
 
-# 開始使用即時報表 {#live-report}
+# 開始使用即時報告 {#live-report}
 
-使用 **[!UICONTROL Live report]** 以在內建控制面板中即時測量和視覺化您歷程和訊息的影響與效能。
-資料可在 **[!UICONTROL Live report]** 傳送您的傳送或從 **[!UICONTROL Last 24hrs]** 標籤。
+使用 **[!UICONTROL 即時報表]** 以在內建控制面板中即時測量和視覺化您歷程和訊息的影響與效能。
+資料可在 **[!UICONTROL 即時報表]** 傳送您的傳送或從 **[!UICONTROL 最近24小時]** 標籤。
 
-* 如果您想在歷程的內容中定位歷程，請從 **[!UICONTROL Journeys]** 功能表，存取您的歷程，然後按一下 **[!UICONTROL View report]** 按鈕。
+* 如果您想在歷程的內容中定位歷程，請從 **[!UICONTROL 歷程]** 功能表，存取您的歷程，然後按一下 **[!UICONTROL 檢視報表]** 按鈕。
 
    ![](assets/report_journey.png)
 
-* 如果您想定位促銷活動，請從 **[!UICONTROL Campaigns]** 功能表，存取您的促銷活動，然後按一下 **[!UICONTROL Reports]** 按鈕。
+* 如果您想定位促銷活動，請從 **[!UICONTROL 行銷活動]** 功能表，存取您的促銷活動，然後按一下 **[!UICONTROL 報表]** 按鈕。
 
    ![](assets/report_campaign.png)
 
-* 如果您想從 **[!UICONTROL Global report]** 到 **[!UICONTROL Live report]** 若要傳送，請按一下 **[!UICONTROL Last 24hrs]** 切換器。
+* 如果您想從 **[!UICONTROL 全域報表]** 到 **[!UICONTROL 即時報表]** 若要傳送，請按一下 **[!UICONTROL 最近24小時]** 切換器。
 
    ![](assets/report_3.png)
 
@@ -40,11 +40,11 @@ ht-degree: 0%
 
 1. 選擇是否要使用切換列從報表中排除測試事件。 如需測試事件的詳細資訊，請參閱 [本頁](../building-journeys/testing-the-journey.md).
 
-   請注意， **[!UICONTROL Exclude test events]** 選項僅適用於歷程報表。
+   請注意， **[!UICONTROL 排除測試事件]** 選項僅適用於歷程報表。
 
    ![](assets/report_modify_6.png)
 
-1. 要調整小部件的大小或移除小部件，請按一下 **[!UICONTROL Modify]**.
+1. 要調整小部件的大小或移除小部件，請按一下 **[!UICONTROL 修改]**.
 
    ![](assets/report_modify_7.png)
 
@@ -52,13 +52,13 @@ ht-degree: 0%
 
    ![](assets/report_modify_8.png)
 
-1. 按一下 **[!UICONTROL Remove]** 移除您不需要的任何小工具集。
+1. 按一下 **[!UICONTROL 移除]** 移除您不需要的任何小工具集。
 
    ![](assets/report_modify_9.png)
 
-1. 對顯示順序和小部件的大小感到滿意後，按一下 **[!UICONTROL Save]**.
+1. 對顯示順序和小部件的大小感到滿意後，按一下 **[!UICONTROL 儲存]**.
 
-您的控制面板現在已儲存。 您的不同變更將會重新套用，以供稍後使用您的即時報表。 如有需要，請使用 **[!UICONTROL Reset]** 選項，以還原預設小工具和小工具的順序。
+您的控制面板現在已儲存。 您的不同變更將會重新套用，以供稍後使用您的即時報表。 如有需要，請使用 **[!UICONTROL 重設]** 選項，以還原預設小工具和小工具的順序。
 
 ## 元件清單 {#list-of-components-live}
 
@@ -108,19 +108,19 @@ ht-degree: 0%
  </thead> 
  <tbody>
   <tr> 
-   <td> 跳出數<br/> </td> 
+   <td> 跳出<br/> </td> 
    <td> 傳送和自動回訪處理期間累積的錯誤總數。<br/> </td> 
 </tr> 
   <tr> 
-   <td> 反彈率<br/> </td> 
+   <td> 跳出率<br/> </td> 
    <td> 跳出的電子郵件與傳送的電子郵件的百分比。<br/> </td> 
 </tr>
   <tr> 
-   <td> 點按次數<br/> </td> 
+   <td> 點擊次數<br/> </td> 
    <td> 電子郵件中內容被點按的次數。<br/> </td> 
 </tr> 
   <tr> 
-   <td> 傳遞 <br/> </td> 
+   <td> 已傳遞 <br/> </td> 
    <td> 已成功發送的消息數。<br/></td> 
 </tr> 
   <tr> 
@@ -137,7 +137,7 @@ ht-degree: 0%
 </tr>
   <tr> 
    <td> 已排除<br/> </td> 
-   <td> Adobe Journey Optimizer已排除的設定檔數目。<br/> </td> 
+   <td> 已由Adobe Journey Optimizer排除的設定檔數目。<br/> </td> 
 </tr>
   <tr> 
    <td> 硬跳出<br/> </td> 
@@ -156,7 +156,7 @@ ht-degree: 0%
    <td>已開啟選件與已傳送選件數量的百分比。<br/> </td> 
 </tr>
    <tr> 
-   <td>選件名稱<br/> </td> 
+   <td>優惠方案名稱<br/> </td> 
    <td> 傳送中新增的選件名稱。 有關投放位置的詳細資訊，請參閱 <a href="../offers/offer-library/creating-personalized-offers.md">頁面</a>.<br/> </td> 
 </tr>
    <tr> 
@@ -164,7 +164,7 @@ ht-degree: 0%
    <td>選件的傳送總數。<br/> </td> 
 </tr> 
   <tr>
-   <td>開啟<br/> </td> 
+   <td>開啟數<br/> </td> 
    <td> 訊息開啟的次數。<br/> </td> 
 </tr> 
   <tr> 
@@ -176,7 +176,7 @@ ht-degree: 0%
    <td> 用來顯示優惠方案的版位名稱。 有關投放位置的詳細資訊，請參閱 <a href="../offers/offer-library/creating-placements.md">頁面</a>. </td> 
 </tr> 
   <tr> 
-   <td> 重試<br/> </td> 
+   <td> 重試次數<br/> </td> 
    <td> 佇列中重試的電子郵件數。<br/> </td> 
 </tr> 
   <tr> 
@@ -188,7 +188,7 @@ ht-degree: 0%
    <td> 臨時錯誤（如完整收件箱）的總數。<br/> </td> 
 </tr>
   <tr> 
-   <td> 垃圾郵件投訴<br/> </td> 
+   <td> 垃圾郵件投訴數<br/> </td> 
    <td> 宣告郵件為垃圾郵件或垃圾郵件的次數。<br/> </td> 
 </tr>
   <tr> 
@@ -225,12 +225,12 @@ ht-degree: 0%
  </thead> 
  <tbody>
  <tr> 
-  <td>跳出數<br/> </td> 
+  <td>跳出<br/> </td> 
    <td>未與登錄頁面互動且未完成訂閱動作的人數。<br/> </td> 
 </tr>
  <tr>
   <tr> 
-   <td>點按次數<br/> </td> 
+   <td>點擊次數<br/> </td> 
    <td>登陸頁面中內容被點按的次數。<br/> </td> 
 </tr>
 <tr>
@@ -254,7 +254,7 @@ ht-degree: 0%
    <td>瀏覽您的登錄頁面的人數，不會考慮一個收件者的多次瀏覽。<br/> </td> 
 </tr>
  <tr> 
-   <td>瀏覽<br/> </td> 
+   <td>造訪數<br/> </td> 
    <td>對登錄頁面的瀏覽次數，包括一個收件者的多次瀏覽。<br/> </td> 
 </tr>
  </tbody> 
@@ -275,11 +275,11 @@ ht-degree: 0%
    <td> 已傳送推播通知的動作總數，例如按鈕點擊或解除。<br/> </td> 
 </tr>
   <tr> 
-   <td>跳出數<br/> </td> 
+   <td>跳出<br/> </td> 
    <td> 傳送和自動回訪處理期間累積的錯誤總數。<br/> </td> 
 </tr> 
   <tr> 
-   <td> 傳遞<br/> </td> 
+   <td> 已傳遞<br/> </td> 
    <td> 已成功發送的消息數。<br/> </td> 
 </tr> 
   <tr> 
@@ -292,10 +292,10 @@ ht-degree: 0%
 </tr>
   <tr> 
    <td> 已排除<br/> </td> 
-   <td> Adobe Journey Optimizer已排除的設定檔數目。<br/> </td> 
+   <td> 已由Adobe Journey Optimizer排除的設定檔數目。<br/> </td> 
 </tr>
   <tr> 
-   <td> 開啟<br/> </td> 
+   <td> 開啟數<br/> </td> 
    <td> 傳送至裝置並由使用者點按以開啟應用程式的推播通知總數。 這類似於推播點擊，但若關閉通知，則不會觸發推播開啟。<br/> </td> 
 </tr> 
   <tr> 

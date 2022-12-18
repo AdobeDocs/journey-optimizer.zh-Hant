@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 0%
+source-wordcount: '587'
+ht-degree: 1%
 
 ---
 
@@ -37,13 +37,13 @@ ht-degree: 0%
 
 1. 建立您的電子郵件，然後開啟電子郵件設計工具來設定其內容。
 
-1. 新增 **[!UICONTROL Offer decision]** 內容元件。
+1. 新增 **[!UICONTROL 優惠方案決策]** 內容元件。
 
    ![](assets/deliver-offer-component.png)
 
    了解如何在 [本節](content-components.md).
 
-1. 此 **[!UICONTROL Offer decision]** 標籤。 按一下 **[!UICONTROL Select Offer decision]**.
+1. 此 **[!UICONTROL 優惠方案決策]** 標籤。 按一下 **[!UICONTROL 選擇優惠方案決策]**.
 
    ![](assets/deliver-offer-tab.png)
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
    [版位](../offers/offer-library/creating-placements.md) 是用來展示優惠方案的容器。 在此範例中，我們將使用「電子郵件至上影像」位置。 此版位已建立在優惠方案庫中，以顯示位於訊息頂端的影像類型優惠方案。
 
-1. 與所選版位相符的決策會顯示。 選取要在內容元件中使用的決策，然後按一下 **[!UICONTROL Add]**.
+1. 與所選版位相符的決策會顯示。 選取要在內容元件中使用的決策，然後按一下 **[!UICONTROL 新增]**.
 
    >[!NOTE]
    >
@@ -69,13 +69,13 @@ ht-degree: 0%
 
 ## 在電子郵件中預覽優惠方案 {#preview-offers-in-email}
 
-您可以使用 **[!UICONTROL Offers]** 或內容元件箭頭。
+您可以使用 **[!UICONTROL 選件]** 或內容元件箭頭。
 
 ![](assets/deliver-offer-preview.png)
 
 若要使用客戶設定檔顯示屬於決策一部分的不同選件，請遵循下列步驟。
 
-1. 按一下 **[!UICONTROL Preview]**.
+1. 按一下 **[!UICONTROL 預覽]**.
 
    ![](assets/deliver-offer-preview-button.png)
 
@@ -83,15 +83,15 @@ ht-degree: 0%
    >
    >您必須有測試設定檔可供預覽訊息。 了解如何 [建立測試設定檔](../segment/creating-test-profiles.md).
 
-1. 若要選擇用來識別測試設定檔的命名空間，請選取 **[!UICONTROL Email]** 從 **[!UICONTROL Identity namespace]** 欄位。
+1. 若要選擇用來識別測試設定檔的命名空間，請選取 **[!UICONTROL 電子郵件]** 從 **[!UICONTROL 身分命名空間]** 欄位。
 
    >[!NOTE]
    >
-   >在此範例中，我們將使用 **電子郵件** 命名空間。 進一步了解Adobe Experience Platform身分識別命名空間 [在本節](../segment/get-started-identity.md).
+   >在此範例中，我們將使用 **電子郵件** 命名空間。 深入了解Adobe Experience Platform身分識別命名空間 [在本節](../segment/get-started-identity.md).
 
-1. 在身分識別命名空間清單中，選取 **[!UICONTROL Email]** 按一下 **[!UICONTROL Select]**.
+1. 在身分識別命名空間清單中，選取 **[!UICONTROL 電子郵件]** 按一下 **[!UICONTROL 選擇]**.
 
-1. 在 **[!UICONTROL Identity value]** 欄位中，輸入要識別測試設定檔的值。 在此範例中，輸入測試設定檔的電子郵件地址。
+1. 在 **[!UICONTROL 身分值]** 欄位中，輸入要識別測試設定檔的值。 在此範例中，輸入測試設定檔的電子郵件地址。
 
    <!--For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.-->
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
    ![](assets/deliver-offer-test-profiles.png)
 
-1. 按一下 **[!UICONTROL Preview]** 標籤來測試訊息。
+1. 按一下 **[!UICONTROL 預覽]** 標籤來測試訊息。
 
 1. 選取測試設定檔。 會顯示與所選設定檔（女性）對應的選件。
 

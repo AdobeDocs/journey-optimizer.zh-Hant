@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用Campaign v7/v8傳送訊息
+title: 使用 Campaign v7/v8 傳送訊息
 description: 了解如何使用Campaign v7/v8傳送訊息
 feature: Actions
 topic: Administration
@@ -11,15 +11,15 @@ exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 # 使用案例：使用Campaign v7/v8傳送訊息 {#campaign-classic-use-case}
 
-此使用案例說明使用與Adobe Campaign Classic v7和Adobe Campaign v8整合來傳送電子郵件所需的所有步驟。
+此使用案例說明使用Adobe Campaign Classic v7和Adobe Campaign v8整合來傳送電子郵件所需的所有步驟。
 
-我們將先在Campaign中建立交易式電子郵件範本。 然後，在Journey Optimizer中，我們將建立事件、動作並設計歷程。
+我們將先在Campaign中建立交易式電子郵件範本。 接著，在Journey Optimizer中，我們將建立事件、動作並設計歷程。
 
 若要進一步了解Campaign整合，請參閱下列頁面：
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
    ![](assets/accintegration-uc-5.png)
 
-1. 然後，您需要在Journey Optimizer中建立與促銷活動範本對應的動作。 在 **動作類型** 下拉式清單，選取 **Adobe Campaign Classic**.
+1. 然後，您需要在Journey Optimizer中建立與您的促銷活動範本對應的動作。 在 **動作類型** 下拉式清單，選取 **Adobe Campaign Classic**.
 
    ![](assets/accintegration-uc-6.png)
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
    ![](assets/accintegration-uc-10.png)
 
-1. 測試您的歷程。
+1. 測試您的歷程.
 
    ![](assets/accintegration-uc-11.png)
 

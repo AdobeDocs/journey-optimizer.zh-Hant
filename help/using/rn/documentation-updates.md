@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
 workflow-type: tm+mt
 source-wordcount: '2220'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 98%
 
 ## 2022 年 12 月  {#december-2022}
 
-* 「訊息指南」已重新整理，並分割為每個管道的專用指南：
+* 「訊息指南」已重新整理，並分割為每個頻道的專用指南：
 
-   * [電子郵件通道](../email/get-started-email.md)
-   * [推播通知通道](../push/get-started-push.md)
-   * [SMS 頻道](../sms/get-started-sms.md)
+   * [電子郵件頻道](../email/get-started-email.md)
+   * [推播通知頻道](../push/get-started-push.md)
+   * [簡訊頻道](../sms/get-started-sms.md)
 
 * 已重新整理設定指南，以改善可讀性。 [閱讀全文](../configuration/get-started-configuration.md)
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 * 新增 Journey Optimizer 整合的頁面。 [閱讀全文](../start/ajo-integrations.md)
 * 新增關於鏡像頁面 URL 長度的建議。 [閱讀全文](../email/message-tracking.md)
 * 電子郵件設定組態的新小節已新增至電子郵件地址的回覆，包括確保正確回覆管理的建議。 [閱讀全文](../email/email-settings.md#reply-to-email)
-* 已新增如何修改即時歷程中訊息內容的區段。 [閱讀全文](../building-journeys/journeys-message.md#update-live-content)
+* 已新增如何修改即時歷程中訊息內容的章節。 [閱讀全文](../building-journeys/journeys-message.md#update-live-content)
 
 ## 2022 年 10 月 {#october-2022}
 

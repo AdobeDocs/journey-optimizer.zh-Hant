@@ -8,8 +8,8 @@ level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: f06e1e03b3660be36b32437647a8329d0c0d296e
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 0%
+source-wordcount: '262'
+ht-degree: 6%
 
 ---
 
@@ -78,7 +78,7 @@ The following operation gets all the values for the map `identityMap`.
 -->
 
 
-## 星期{#day-week}
+## 週中的日{#day-week}
 
 此 `dayOfWeek` 函式可用來擷取星期。
 
@@ -98,7 +98,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 一年當中的第幾天{#day-year}
+## 年中的日{#day-year}
 
 此 `dayOfYear` 函式可用來擷取一年當中的某天。
 
@@ -134,7 +134,7 @@ The following operation gets all the values for the map `identityMap`.
 >
 > 如果日期模式無效，日期將回復為ISO標準格式。
 >
-> 您可以使用Java日期格式化函式，如摘要 [在Oracle文檔中](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> 您可以使用Java日期格式化函式，如摘要 [在Oracle檔案中](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **範例**
 

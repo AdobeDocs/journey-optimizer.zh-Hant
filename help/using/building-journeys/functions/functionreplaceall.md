@@ -9,7 +9,7 @@ exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 | 參數 | 類型 |
 |-----------|--------------|
 | 基礎 | 字串 |
-| 目標 | 字串(RegExp) |
+| Target | 字串(RegExp) |
 | 更換 | 字串 |
 
 ## 簽名和返回類型
@@ -47,4 +47,4 @@ ht-degree: 0%
 
 返回&quot;Hexxo Worxd&quot;。
 
-由於目標參數是RegExp，因此根據您要取代的字串，您可能需要逸出某些字元。 請參閱 [本頁](../functions/functionreplace.md#example_2).
+由於目標參數為RegExp，因此根據您要取代的字串，您可能需要逸出某些字元。 請參閱 [本頁](../functions/functionreplace.md#example_2).

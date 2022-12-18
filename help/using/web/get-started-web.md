@@ -1,5 +1,5 @@
 ---
-title: 開始使用網頁頻道
+title: 開始使用網路頻道
 description: 了解Journey Optimizer中的網頁頻道
 feature: Overview
 topic: Content Management
@@ -11,11 +11,11 @@ exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
-# 開始使用網頁頻道 {#get-sarted-web}
+# 開始使用網路頻道 {#get-sarted-web}
 
 >[!AVAILABILITY]
 >
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 <table>
 <tr>
-<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-web.md">建立網路體驗</a></p></td>
+<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-web.md">建立網站體驗</a></p></td>
 <td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="author-web.md">製作網頁</a></p></td>
 <td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="web-report.md">網站報告</a></p></td>
 </tr>

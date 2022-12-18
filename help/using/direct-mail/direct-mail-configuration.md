@@ -10,7 +10,7 @@ hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 當 [建立直接郵件訊息](../direct-mail/create-direct-mail.md)，您可以定義目標對象資料，包括選取的聯絡資訊（例如郵遞區號）。 接著，系統會自動產生包含此資料的檔案，並匯出至伺服器，您的直接郵件提供者將能擷取該檔案，並處理實際傳送。
 
-您必須先建立以下檔案，才能產生此檔案：
+您必須先建立下列項目，才能產生此檔案：
 
 1. A [檔案路由配置](#file-routing-configuration) 指定要導出檔案的伺服器。
 
@@ -54,12 +54,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="選取檔案的伺服器類型"
->abstract="選擇要用於導出直接郵件檔案的伺服器類型。 目前Journey Optimizer僅支援Amazon S3和SFTP。"
+>abstract="選擇要用於導出直接郵件檔案的伺服器類型。 目前只有Amazon S3和SFTP受Journey Optimizer支援。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
->title="選擇AWS區域"
->abstract="選擇要導出直接郵件檔案的AWS伺服器的地理區域。 一般情況下，建議您選擇與直接郵件提供者位置最接近的地區。"
+>title="選擇AWS地區"
+>abstract="選取您要匯出直接郵件檔案的AWS伺服器的地理區域。 一般情況下，建議您選擇與直接郵件提供者位置最接近的地區。"
 
 要發送直接郵件， [!DNL Journey Optimizer] 產生包含目標對象資料的檔案並匯出至伺服器。
 
@@ -67,13 +67,13 @@ ht-degree: 0%
 
 要配置檔案路由，請執行以下步驟。
 
-1. 存取 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL File routing configuration]** > **[!UICONTROL File Routing]** ，然後按一下 **[!UICONTROL Create routing configuration]**.
+1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 檔案路由配置]** > **[!UICONTROL 檔案路由]** ，然後按一下 **[!UICONTROL 建立路由配置]**.
 
    ![](assets/file-routing-config-button.png)
 
 1. 設定配置的名稱。
 
-1. 選取 **[!UICONTROL Server type]** 用於導出直接郵件檔案。
+1. 選取 **[!UICONTROL 伺服器類型]** 用於導出直接郵件檔案。
 
    ![](assets/file-routing-config-type.png)
 
@@ -85,19 +85,19 @@ ht-degree: 0%
 
    ![](assets/file-routing-config-sftp-details.png)
 
-1. 如果您選取 **[!UICONTROL Amazon S3]**，選擇 **[!UICONTROL AWS region]** 伺服器基礎架構的位置。
+1. 如果您選取 **[!UICONTROL Amazon S3]**，選擇 **[!UICONTROL AWS地區]** 伺服器基礎架構的位置。
 
    ![](assets/file-routing-config-aws-region.png)
 
    >[!NOTE]
    >
-   >AWS區域是AWS用來托管其雲基礎設施的地理區域。 通常，最好選擇最靠近直接郵件提供者位置的區域。
+   >AWS地區是AWS用來托管其雲端基礎架構的地理區域。 通常，最好選擇最靠近直接郵件提供者位置的區域。
 
-1. 選擇 **[!UICONTROL Submit]**. 檔案路由配置是使用 **[!UICONTROL Active]** 狀態。 現在已可用於 [直接郵件表面](#direct-mail-surface).
+1. 選擇 **[!UICONTROL 提交]**. 檔案路由配置是使用 **[!UICONTROL 作用中]** 狀態。 現在已可用於 [直接郵件表面](#direct-mail-surface).
 
    >[!NOTE]
    >
-   >您也可以選取 **[!UICONTROL Save as draft]** 要建立檔案路由配置，但在曲面中選取它之前，您將無法 **[!UICONTROL Active]**.
+   >您也可以選取 **[!UICONTROL 另存為草稿]** 要建立檔案路由配置，但在曲面中選取它之前，您將無法 **[!UICONTROL 作用中]**.
 
 ## 建立直接郵件表面 {#direct-mail-surface}
 
@@ -122,9 +122,9 @@ ht-degree: 0%
 
 直接郵件表面還必須包含檔案路由配置，該配置定義將導出直接郵件檔案的伺服器。
 
-1. 建立通道曲面。 [深入了解](../configuration/channel-surfaces.md)
+1. 建立通道曲面。 [了解更多](../configuration/channel-surfaces.md)
 
-1. 選取 **[!UICONTROL Direct mail]** 頻道。
+1. 選取 **[!UICONTROL 直接郵件]** 頻道。
 
    ![](assets/surface-direct-mail-channel.png)
 
@@ -134,13 +134,13 @@ ht-degree: 0%
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
-1. 選取檔案格式： **[!UICONTROL CSV]** 或 **[!UICONTROL Text delimited]**.
+1. 選取檔案格式： **[!UICONTROL CSV]** 或 **[!UICONTROL 文字分隔]**.
 
-1. 選取 **[!UICONTROL File routing configuration]** 在您建立的群體中。 這會定義檔案匯出的位置，以供直接郵件提供者使用。
+1. 選取 **[!UICONTROL 檔案路由配置]** 在您建立的群體中。 這會定義檔案匯出的位置，以供直接郵件提供者使用。
 
    >[!CAUTION]
    >
-   >如果尚未配置任何檔案路由選項，則將無法建立直接郵件表面。 [深入了解](#file-routing-configuration)
+   >如果尚未配置任何檔案路由選項，則將無法建立直接郵件表面。 [了解更多](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png)
 

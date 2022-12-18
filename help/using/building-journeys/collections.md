@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用自訂動作以動態方式傳遞集合
-description: 使用Campaign v7/v8傳送訊息
+description: 使用 Campaign v7/v8 傳送訊息
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 0%
+source-wordcount: '430'
+ht-degree: 5%
 
 ---
 
@@ -100,13 +100,13 @@ ht-degree: 0%
 
 您可以看到「products」是兩個物件的陣列。 你至少需要一個對象。
 
-1. 建立自訂動作。 請參閱 [本頁](../action/about-custom-action-configuration.md).
+1. 建立自訂動作。 請參閱[此頁面](../action/about-custom-action-configuration.md)。
 
-1. 在 **[!UICONTROL Action parameters]** 區段，貼上JSON範例。 顯示的結構為靜態：貼上裝載時，所有欄位都定義為常數。
+1. 在 **[!UICONTROL 動作參數]** 區段，貼上JSON範例。 顯示的結構為靜態：貼上裝載時，所有欄位都定義為常數。
 
    ![](assets/uc-collection-1.png)
 
-1. 如有需要，請調整欄位類型。 集合支援下列欄位類型：listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listDateOnly, listOnty
+1. 如有需要，請調整欄位類型。 集合支援下列欄位類型：listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listDateOnly, listOntly
 
    >[!NOTE]
    >
@@ -122,9 +122,9 @@ ht-degree: 0%
 
    ![](assets/uc-collection-2.png)
 
-1. 建立您的歷程，並新增您建立的自訂動作。 請參閱 [本頁](../building-journeys/using-custom-actions.md).
+1. 建立您的歷程，並新增您建立的自訂動作。 請參閱[此頁面](../building-journeys/using-custom-actions.md)。
 
-1. 在 **[!UICONTROL Action parameters]** 區段，使用進階運算式編輯器定義陣列參數（此範例中為「products」）。
+1. 在 **[!UICONTROL 動作參數]** 區段，使用進階運算式編輯器定義陣列參數（此範例中為「products」）。
 
    ![](assets/uc-collection-3.png)
 

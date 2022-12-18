@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 0%
+source-wordcount: '210'
+ht-degree: 3%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 0%
 
 當您定位設定檔時，資料庫中可能會有數個電子郵件地址或電話號碼（專業電子郵件地址、個人電話號碼等）。
 
-使用 [!DNL Journey Optimizer]，您可以決定要從設定檔服務使用的電子郵件地址或電話號碼，以及在有數個地址時排定優先順序。 若要這麼做，請遵循下列步驟。
+使用 [!DNL Journey Optimizer]，您可以決定要從設定檔服務使用的電子郵件地址或電話號碼，以及在有數個地址時排定優先順序。 請依照下列步驟以執行此操作。
 
-1. 存取  **[!UICONTROL Channels]** > **[!UICONTROL General]** > **[!UICONTROL Executions fields]** 功能表。
+1. 存取  **[!UICONTROL 管道]** > **[!UICONTROL 一般]** > **[!UICONTROL 執行欄位]** 功能表。
 
    ![](assets/primary-address-execution-fields.png)
 
-1. 依預設，目前用於判斷設定檔電子郵件地址和電話號碼的欄位會顯示在此畫面上。 按一下 **[!UICONTROL Edit]** 來改變他們。
+1. 依預設，目前用於判斷設定檔電子郵件地址和電話號碼的欄位會顯示在此畫面上。 按一下 **[!UICONTROL 編輯]** 來改變他們。
 
    ![](assets/primary-address.png)
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
    ![](assets/primary-address-select-field.png)
 
-1. 按一下 **[!UICONTROL Save]** 確認您的選擇。
+1. 按一下 **[!UICONTROL 儲存]** 確認您的選擇。
 
 執行欄位會更新，現在會作為主要位址使用。
 

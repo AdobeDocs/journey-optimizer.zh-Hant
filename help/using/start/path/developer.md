@@ -1,6 +1,6 @@
 ---
 title: 開發人員快速入門
-description: 身為開發人員，了解如何使用Journey Optimizer
+description: 身為開發人員，深入了解如何使用Journey Optimizer
 level: Intermediate
 hide: true
 hidefromtoc: true

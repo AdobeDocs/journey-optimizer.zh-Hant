@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 0%
+source-wordcount: '403'
+ht-degree: 12%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
->title="行銷活動"
->abstract="建立行銷活動，跨不同管道將一次性內容傳送至特定區段。 建立行銷活動之前，請確定您有管道表面（即訊息預設集）和Adobe Experience Platform區段可供使用。"
+>title="Campaigns"
+>abstract="建立行銷活動，跨不同管道將一次性內容傳送至特定區段。 建立促銷活動之前，請確定您有通道表面（即訊息預設集）和Adobe Experience Platform區段可供使用。"
 
-使用Journey Optimizer促銷活動，透過各種管道將一次性內容提供至特定區段。 使用歷程時，動作會依序執行。 使用促銷活動時，可同時執行動作（立即執行或根據指定的排程執行）。
+使用 Journey Optimizer 行銷活動，透過各種管道將一次性內容傳遞至特定區段。 使用歷程時，動作會依序執行。 透過行銷活動，可同時執行動作 (立即執行或根據指定的排程執行)。
 
 您可以建立兩種類型的促銷活動：
 
@@ -37,30 +37,30 @@ ht-degree: 0%
 
 ## 開始之前 {#campaign-prerequisites}
 
-開始在Journey Optimizer中建立第一個促銷活動前，請先檢查下列必要條件：
+開始在Journey Optimizer中建立第一個促銷活動之前，請先檢查下列必要條件：
 
-1. **您需要適當的權限**. 促銷活動僅適用於可存取與促銷活動相關之促銷活動的使用者 **[!UICONTROL Product profile]** 例如促銷活動管理員、促銷活動核准者、促銷活動管理員和/或促銷活動檢視器。
+1. **您需要適當的權限**. 促銷活動僅適用於可存取與促銷活動相關之促銷活動的使用者 **[!UICONTROL 產品設定檔]** 例如促銷活動管理員、促銷活動核准者、促銷活動管理員和/或促銷活動檢視器。
 
    如果您無法存取行銷活動，則必須延長您的權限。 如果您有權存取 [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}，請遵循下列步驟。 否則請聯絡您的Journey Optimizer管理員。
 
    +++了解如何指派campaign權限
 
-   若要指派對應的 **[!UICONTROL Product profile]** 對您的使用者：
+   若要指派對應的 **[!UICONTROL 產品設定檔]** 對您的使用者：
 
    1. 從 [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}，請選取 [!DNL Adobe Experience Platform] 產品。
 
-   1. 瀏覽至 **[!UICONTROL Product profile]** 索引標籤，選取其中一個內建促銷活動相關項目 **[!UICONTROL Product profile]**:促銷活動管理員、促銷活動核准者、促銷活動管理員或促銷活動檢視器。
+   1. 瀏覽至 **[!UICONTROL 產品設定檔]** 索引標籤，選取其中一個內建促銷活動相關項目 **[!UICONTROL 產品設定檔]**:促銷活動管理員、促銷活動核准者、促銷活動管理員或促銷活動檢視器。
 
-      如需Journey Optimizer促銷活動的詳細資訊 **[!UICONTROL Product profiles]** 和 **[!UICONTROL Permissions]**, [請參閱本頁面](../administration/ootb-product-profiles.md).
+      如需Journey Optimizer促銷活動的詳細資訊 **[!UICONTROL 產品設定檔]** 和 **[!UICONTROL 權限]**, [請參閱本頁面](../administration/ootb-product-profiles.md).
 
       ![](assets/do-not-localize/admin_1.png)
 
-   1. 按一下 **[!UICONTROL Add user]** 指派給您所選取的使用者 **[!UICONTROL Product profile]**.
+   1. 按一下 **[!UICONTROL 新增使用者]** 指派給您所選取的使用者 **[!UICONTROL 產品設定檔]**.
 
       ![](assets/do-not-localize/admin_2.png)
 
-   1. 輸入您的使用者名稱、群組或電子郵件地址，然後按一下 **[!UICONTROL Save]**.
-   您的使用者現在可以存取 **[!UICONTROL Campaigns]**.
+   1. 輸入您的使用者名稱、群組或電子郵件地址，然後按一下 **[!UICONTROL 儲存]**.
+   您的使用者現在可以存取 **[!UICONTROL 行銷活動]**.
 
 +++
 

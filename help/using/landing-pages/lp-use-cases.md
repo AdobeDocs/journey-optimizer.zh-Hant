@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 登錄頁面使用案例
-description: 探索Journey Optimizer中登陸頁面最常見的使用案例
+description: 探索Journey Optimizer中登錄頁面最常見的使用案例
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 0%
+source-wordcount: '913'
+ht-degree: 15%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. [設計電子郵件](../email/get-started-email-design.md) 宣佈您的活動現在已開放註冊。
 
-1. [插入連結](../email/message-tracking.md#insert-links) 填入訊息內容。 選擇 **[!UICONTROL Landing page]** 作為 **[!UICONTROL Link type]** 並選擇 [登陸頁面](create-lp.md#configure-primary-page) 您為註冊而建立的。
+1. [插入連結](../email/message-tracking.md#insert-links) 填入訊息內容。 選擇 **[!UICONTROL 登陸頁面]** 作為 **[!UICONTROL 連結類型]** 並選擇 [登陸頁面](create-lp.md#configure-primary-page) 您為註冊而建立的。
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -69,13 +69,13 @@ ht-degree: 0%
 
 此外，您也可以傳送確認電子郵件給已註冊參加您活動的收件者。 若要這麼做，請遵循下列步驟。
 
-1. 建立其他 [歷程](../building-journeys/journey.md). 您可以按一下 **[!UICONTROL Create journey]** 按鈕。 深入了解 [此處](create-lp.md#configure-primary-page)
+1. 建立其他 [歷程](../building-journeys/journey.md). 您可以按一下 **[!UICONTROL 建立歷程]** 按鈕。 深入了解 [此處](create-lp.md#configure-primary-page)
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. 展開 **[!UICONTROL Events]** 類別和拖放 **[!UICONTROL Segment Qualification]** 活動進入您的畫布。 深入了解 [此處](../building-journeys/segment-qualification-events.md)
+1. 展開 **[!UICONTROL 事件]** 類別和拖放 **[!UICONTROL 區段資格]** 活動進入您的畫布。 深入了解 [此處](../building-journeys/segment-qualification-events.md)
 
-1. 按一下 **[!UICONTROL Segment]** 欄位，然後選取您建立的訂閱清單。
+1. 按一下 **[!UICONTROL 區段]** 欄位，然後選取您建立的訂閱清單。
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
@@ -93,24 +93,24 @@ ht-degree: 0%
 
 進一步了解如何管理收件者的同意，以及為何這在 [本節](../privacy/opt-out.md).
 
-### 退出管理 {#opt-out-management}
+### 選擇退出管理 {#opt-out-management}
 
-向收件者提供取消訂閱從品牌接收通訊的能力是一項法律規定。 深入了解 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target=&quot;_blank&quot;}。
+法律規定必須讓收件者提供能夠取消訂閱來自品牌的通訊。 進一步了解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hant){target=&quot;_blank&quot;} 中的適用法規。
 
-因此，您必須一律包含 **取消訂閱連結** 在發送給收件者的每封電子郵件中：
+因此，您必須在每封傳送給收件者的電子郵件中一律包含&#x200B;**取消訂閱連結**：
 
-* 按一下此連結時，收件者會被導向至登陸頁面，其中包含用於確認選擇退出的按鈕。
+* 按一下此連結後，收件者會被導向至包含確認選擇退出按鈕的登陸頁面。
 * 按一下選擇退出按鈕後，設定檔資料將會隨此資訊更新。
 
 ### 設定選擇退出 {#configure-opt-out}
 
 若要讓電子郵件的收件者透過登錄頁面取消訂閱您的通訊內容，請遵循下列步驟。
 
-1. 建立您的登錄頁面。 [深入了解](create-lp.md)
+1. 建立您的登錄頁面。 [了解更多](create-lp.md)
 
-1. 定義主要頁面。 [深入了解](create-lp.md#configure-primary-page)
+1. 定義主要頁面。 [了解更多](create-lp.md#configure-primary-page)
 
-1. [設計](design-lp.md) 主要頁面內容：使用登錄頁面特定 **[!UICONTROL Form]** 元件，定義 **[!UICONTROL Opt-out]** 複選框和選擇更新 **[!UICONTROL Channel (email)]**:會從您的所有通訊中選擇退出，而會在您的登陸頁面上勾選退出方塊的設定檔。
+1. [設計](design-lp.md) 主要頁面內容：使用登錄頁面特定 **[!UICONTROL 表單]** 元件，定義 **[!UICONTROL 選擇退出]** 複選框和選擇更新 **[!UICONTROL 通道（電子郵件）]**:會從您的所有通訊中選擇退出，而會在您的登陸頁面上勾選退出方塊的設定檔。
 
    ![](assets/lp_opt-out-primary-lp.png)
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >請務必參考主要頁面 **[!UICONTROL Call to action]** 區段 **[!UICONTROL Form]** 元件。 [深入了解](design-lp.md)
+   >請務必參考主要頁面 **[!UICONTROL 行動要求]** 區段 **[!UICONTROL 表單]** 元件。 [了解更多](design-lp.md)
 
 1. 設定並定義頁面內容後， [發佈](create-lp.md#publish) 登陸頁面。
 
@@ -130,11 +130,11 @@ ht-degree: 0%
 
 1. [建立電子郵件訊息](../email/get-started-email-design.md) 在歷程中。
 
-1. 選取內容中的文字，並 [插入連結](../email/message-tracking.md#insert-links) 使用內容工具列。 您也可以在按鈕上使用連結。
+1. 選擇內容中的文字，並使用內容相關工具列[插入連結](../email/message-tracking.md#insert-links)。您也可以在按鈕上使用連結。
 
    ![](assets/lp_opt-out-insert-link.png)
 
-1. 選擇 **[!UICONTROL Landing page]** 從 **[!UICONTROL Link type]** 下拉式清單，然後選取 [登陸頁面](create-lp.md#configure-primary-page) 您為選擇退出而建立的。
+1. 選擇 **[!UICONTROL 登陸頁面]** 從 **[!UICONTROL 連結類型]** 下拉式清單，然後選取 [登陸頁面](create-lp.md#configure-primary-page) 您為選擇退出而建立的。
 
    ![](assets/lp_opt-out-landing-page.png)
 
@@ -142,7 +142,7 @@ ht-degree: 0%
    >
    >若要傳送訊息，請確定您選取的登錄頁面尚未過期。 了解如何更新到期日 [在本節](create-lp.md#configure-primary-page).
 
-1. 發佈並執行歷程。 [深入了解](../building-journeys/journey.md).
+1. 發佈並執行歷程。 [了解更多](../building-journeys/journey.md)。
 
 1. 收到訊息後，如果收件者按一下電子郵件中的取消訂閱連結，則會顯示您的登錄頁面。
 
@@ -154,11 +154,11 @@ ht-degree: 0%
 
    * 設定檔資料會更新，除非再次訂閱，否則將不會從您的品牌接收通訊。
 
-若要檢查對應設定檔的選項是否已更新，請前往Experience Platform並選取身分命名空間和對應的身分值來存取設定檔。 了解更多 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}。
+若要檢查對應的設定檔選擇是否已更新，請前往 Experience Platform，並透過選取識別名稱空間和對應的識別值來存取設定檔。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}中進一步瞭解。
 
 ![](assets/lp_opt-out-profile-choice.png)
 
-在 **[!UICONTROL Attributes]** 標籤，您可以看到 **[!UICONTROL choice]** 已變更為 **[!UICONTROL no]**.
+在 **[!UICONTROL 屬性]** 標籤，您可以看到 **[!UICONTROL 選擇]** 已變更為 **[!UICONTROL no]**.
 
 <!--
 

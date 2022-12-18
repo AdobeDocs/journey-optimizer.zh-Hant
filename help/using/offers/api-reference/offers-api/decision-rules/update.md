@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 0%
+source-wordcount: '174'
+ht-degree: 8%
 
 ---
 
-# 更新決策規則 {#update-decision-rule}
+# 更新決定規則 {#update-decision-rule}
 
-您可以向 [!DNL Offer Library] API。
+您可以向以下項目提出PATCH請求，以修改或更新容器中的決策規則： [!DNL Offer Library] API。
 
 如需JSON修補程式的詳細資訊，包括可用的操作，請參閱 [JSON修補程式檔案](http://jsonpatch.com/).
 
@@ -25,8 +25,8 @@ ht-degree: 0%
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
-| 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| 內容類型 | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
 
 **API格式**
 

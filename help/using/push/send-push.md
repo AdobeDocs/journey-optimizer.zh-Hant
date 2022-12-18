@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 傳送推播通知
-description: 了解如何在Journey Optimizer中預覽和測試推播通知
+description: 了解如何在Journey Optimizer中預覽和測試您的推播通知
 feature: Overview
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 0%
+source-wordcount: '344'
+ht-degree: 2%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 定義訊息內容後，您就可以使用測試設定檔來預覽和測試。 如果您插入個人化內容，則可以利用測試設定檔資料，檢查訊息中此內容的顯示方式。
 
-1. 按一下 **[!UICONTROL Simulate content]**.
+1. 按一下 **[!UICONTROL 模擬內容]**.
 
-1. 按一下 **[!UICONTROL Manage test profiles]** 新增測試設定檔。
+1. 按一下 **[!UICONTROL 管理測試設定檔]** 新增測試設定檔。
 
-1. 使用 **[!UICONTROL Identity namespace]** 和 **[!UICONTROL Identity value]** 欄位。 然後，按一下 **[!UICONTROL Add profile]**.
+1. 使用 **[!UICONTROL 身分命名空間]** 和 **[!UICONTROL 身分值]** 欄位。 然後，按一下 **[!UICONTROL 新增設定檔]**.
 
    ![](assets/push_preview_1.png)
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 * **錯誤** 只要未解決歷程，就會阻止您測試或啟動歷程，例如：
 
-   * **[!UICONTROL The push version of the message is empty]**:遺失推播通知內文或標題時，會顯示此錯誤。 了解如何在中定義推播通知內容 [本節](create-push.md).
+   * **[!UICONTROL 訊息的推送版本為空]**:遺失推播通知內文或標題時，會顯示此錯誤。 了解如何在中定義推播通知內容 [本節](create-push.md).
 
-   * **[!UICONTROL Surface doesn't exist]**:如果在建立消息後刪除了所選曲面，則無法使用消息。 如果發生此錯誤，請在消息中選取另一個曲面 **[!UICONTROL Properties]**. 進一步了解 [本節](../configuration/channel-surfaces.md).
+   * **[!UICONTROL 曲面不存在]**:如果在建立消息後刪除了所選曲面，則無法使用消息。 如果發生此錯誤，請在消息中選取另一個曲面 **[!UICONTROL 屬性]**. 進一步了解 [本節](../configuration/channel-surfaces.md).
 
-   * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**:推播通知大小不能超過4KB。 若要遵守此限制，請嘗試減少使用影像或表情符號。 了解如何在 [本節](../push/create-push.md).
+   * **[!UICONTROL 推播iOS/Android裝載已超過4KB的限制]**:推播通知大小不能超過4KB。 若要遵守此限制，請嘗試減少使用影像或表情符號。 了解如何在 [本節](../push/create-push.md).
 
 ![](assets/push_alert.png)
 

@@ -11,7 +11,7 @@ exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 | VersionID | 字串 | 歷程版本ID。 此id代表歷程的身分 |
 | 名稱 | 字串 | 歷程名稱 |
 | 說明 | 字串 | 歷程說明 |
-| 版本 | 字串 | 版本，表示為 `major`.`minor` |
+| version | 字串 | 版本，表示為 `major`.`minor` |
 
 ## 設定檔 {#profile-field}
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 | 欄位名稱 | 類型 | 說明 |
 |---|---|------------|
 | ID | 字串 | 設定檔識別碼可識別歷程中傳送/使用的設定檔。 例如：foo@adobe.com。 |
-| 命名空間 | 字串 | 此欄位說明歷程中使用之設定檔參考的命名空間。 例如：電子郵件、ECID |
+| namespace | 字串 | 此欄位說明歷程中使用之設定檔參考的命名空間。 例如：電子郵件、ECID |
 
 ## serviceEvents {#servicevents-field}
 

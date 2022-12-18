@@ -1,5 +1,5 @@
 ---
-title: 列出回退優惠方案
+title: 列出遞補優惠
 description: 如果客戶不符合其他優惠方案的資格，系統會將備援優惠方案傳送給他們
 feature: Offers
 topic: Integrations
@@ -9,15 +9,15 @@ exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# 列出回退優惠方案 {#list-fallback-offers}
+# 列出遞補優惠 {#list-fallback-offers}
 
 如果客戶不符合其他優惠方案的資格，系統會將備援優惠方案傳送給他們。 建立備援優惠方案的步驟包括建立一或多個表示法，例如建立優惠方案時。
 
-您可以對 [!DNL Offer Library] API。
+您可以透過對 [!DNL Offer Library] API。
 
 **API格式**
 

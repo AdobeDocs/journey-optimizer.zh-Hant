@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 0%
+source-wordcount: '937'
+ht-degree: 2%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 0%
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
-| 接受 | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
-| 內容類型 | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
+| Accept | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
+| Content-Type | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
 
 **API格式**
 
@@ -119,8 +119,8 @@ curl -X POST \
 | `xdm:responseFormat.xdm:includeContent` | 布林值，若設為 `true`，包含回應的內容。 | `"xdm:includeContent": true` |
 | `xdm:responseFormat.xdm:includeMetadata` | 用於指定要傳回哪些其他中繼資料的物件。 若未包含此屬性，則 `xdm:id` 和 `repo:etag` 預設會傳回。 | `name` |
 | `xdm:responseFormat.xdm:activity` | 此標幟可識別傳回的特定中繼資料資訊 `xdm:activity`. | `name` |
-| `xdm:responseFormat.xdm:option` | 此標幟可識別傳回的特定中繼資料資訊 `xdm:option`. | `name`, `characteristics` |
-| `xdm:responseFormat.xdm:placement` | 此標幟可識別傳回的特定中繼資料資訊 `xdm:placement`. | `name`, `channel`, `componentType` |
+| `xdm:responseFormat.xdm:option` | 此標幟可識別傳回的特定中繼資料資訊 `xdm:option`. | `name`、`characteristics` |
+| `xdm:responseFormat.xdm:placement` | 此標幟可識別傳回的特定中繼資料資訊 `xdm:placement`. | `name`、`channel`、`componentType` |
 
 **回應**
 
@@ -199,7 +199,7 @@ curl -X POST \
 
 >[!NOTE]
 >
->此影片適用於以Adobe Experience Platform為基礎的Offer Decisioning應用程式服務。 不過，它也提供一般指引，以便在Journey Optimizer的內容中使用選件。
+>此影片適用於以Adobe Experience Platform為基礎的Offer decisioning應用程式服務。 不過，它提供在Journey Optimizer內容中使用Offer的一般指引。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
 

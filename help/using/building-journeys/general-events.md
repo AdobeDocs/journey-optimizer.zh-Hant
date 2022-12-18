@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 0%
+source-wordcount: '437'
+ht-degree: 11%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
 >title="一般事件"
->abstract="事件可讓您整體觸發歷程，以即時傳送訊息給流入歷程的個人。 對於此類型的事件，您只能新增標籤和說明。 事件配置由資料工程師執行，無法編輯。"
+>abstract="事件可讓您一直觸發歷程，以即時傳送訊息給流入歷程的個人。 對於此類型的事件，您只能新增標籤和說明。 事件配置由資料工程師執行，無法編輯。"
 
-事件可讓您整體觸發歷程，以即時傳送訊息給流入歷程的個人。
+事件可讓您一直觸發歷程，以即時傳送訊息給流入歷程的個人。 
 
-對於此類型的事件，您只能新增標籤和說明。 無法編輯其餘的配置。 由技術使用者執行。 請參閱 [本頁](../event/about-events.md).
+對於此類型的事件，您只能新增標籤和說明。 無法編輯其餘的配置。 由技術使用者執行。 請參閱[此頁面](../event/about-events.md)。
 
 ![](assets/general-events.png)
 
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 若要設定事件的逾時，請執行下列步驟：
 
-1. 啟動 **[!UICONTROL Define the event timeout]** 選項。
+1. 啟動 **[!UICONTROL 定義事件逾時]** 選項。
 
 1. 指定歷程等待事件的時間長度。
 
-1. 如果您想在指定逾時內未收到任何事件時，將個人傳送至逾時路徑，請啟用 **[!UICONTROL Set a timeout path]** 選項。 如果未啟用此選項，一旦逾時，個別的歷程就會結束。
+1. 如果您想在指定逾時內未收到任何事件時，將個人傳送至逾時路徑，請啟用 **[!UICONTROL 設定逾時路徑]** 選項。 如果未啟用此選項，一旦逾時，個別的歷程就會結束。
 
    ![](assets/event-timeout.png)
 
@@ -51,8 +51,8 @@ ht-degree: 0%
 * 如果在歡迎推播後不到1天收到餐廳事件，則會傳送餐點折扣推播活動。
 * 如果隔天內未收到餐廳事件，則人員會透過逾時路徑流動。
 
-請注意，如果您想在 **[!UICONTROL Wait]** 活動中，您只需要對其中一個事件設定逾時。
+請注意，如果您想在 **[!UICONTROL 等待]** 活動中，您只需要對其中一個事件設定逾時。
 
-逾時會套用至 **[!UICONTROL Wait]** 活動。 如果在指定的逾時前未收到任何事件，則個人會流入單一逾時路徑，或結束其歷程。
+逾時會套用至 **[!UICONTROL 等待]** 活動。 如果在指定的逾時前未收到任何事件，則個人會流入單一逾時路徑，或結束其歷程。
 
 ![](assets/event-timeout-group.png)

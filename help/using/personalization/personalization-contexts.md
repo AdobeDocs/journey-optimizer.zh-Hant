@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 0%
+source-wordcount: '283'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## 個人化您的電子郵件 {#personalize-emails}
 
-當您建立電子郵件時，可以在 **[!UICONTROL Subject line]** 欄位。
+當您建立電子郵件時，可以在 **[!UICONTROL 主旨行]** 欄位。
 
 ![](assets/perso_subject.png)
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ## 建立個人化URL{#personalize-urls}
 
-個人化URL會根據設定檔屬性，將收件者帶往網站的特定頁面或個人化微網站。 在Adobe Journey Optimizer中，您可以將個人化新增至訊息內容中的URL。 URL個人化可套用至文字和影像，以及使用設定檔資料或內容資料。
+個人化 URL 會根據設定檔屬性，將收件者帶往網站特定頁面或個人化微網站。 在Adobe Journey Optimizer中，您可以將個人化新增至訊息內容中的URL。 URL 個人化可套用至文字和影像，同時使用個人資料或內容資料。
 
 了解如何在插入個人化URL [本節](personalization-syntax.md#perso-urls).
 

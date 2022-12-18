@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 0%
+source-wordcount: '553'
+ht-degree: 3%
 
 ---
 
@@ -98,7 +98,7 @@ expression examples:
 
 ## 對集合內欄位的參考
 
-系列中定義的元素會使用特定函式來參照 `all`, `first` 和 `last`. 如需詳細資訊，請參閱 [本頁](../expression/collection-management-functions.md).
+系列中定義的元素會使用特定函式來參照 `all`, `first` 和 `last`. 如需詳細資訊，請參閱[本頁面](../expression/collection-management-functions.md)。
 
 範例：
 
@@ -108,7 +108,7 @@ expression examples:
 
 ## 對映射中定義的欄位的引用
 
-### `entry` 函式
+### `entry` 函數
 
 為了擷取地圖中的元素，我們使用包含指定鍵的登入函式。 例如，根據選取的命名空間定義事件的索引鍵時，會使用它。 如需詳細資訊，請參閱 [本頁](../../event/about-creating.md#select-the-namespace).
 
@@ -118,7 +118,7 @@ expression examples:
 
 在此運算式中，我們會取得事件「IdentityMap」欄位中「Email」索引鍵的項目。 「Email」項目是集合，我們會從中使用「first()」取得第一個元素中的「id」。 如需詳細資訊，請參閱 [本頁](../expression/collection-management-functions.md).
 
-### `firstEntryKey` 函式
+### `firstEntryKey` 函數
 
 若要擷取地圖的第一個項目索引鍵，請使用 `firstEntryKey` 函式。
 
@@ -130,7 +130,7 @@ expression examples:
 
 在此範例中，訂閱清單的名稱為 `daily-email`. 電子郵件地址定義為 `subscribers` 地圖，連結至訂閱清單地圖。
 
-### `keys` 函式
+### `keys` 函數
 
 若要擷取地圖的所有索引鍵，請使用 `keys` 函式。
 
@@ -142,7 +142,7 @@ expression examples:
 
 ## 資料源的參數值（資料源動態值）
 
-如果您從外部資料來源選取欄位，需要呼叫參數，右側會出現新索引標籤，讓您指定此參數。 請參閱 [本頁](../expression/expressionadvanced.md).
+如果您從外部資料來源選取欄位，需要呼叫參數，右側會出現新索引標籤，讓您指定此參數。 請參閱[此頁面](../expression/expressionadvanced.md)。
 
 對於更複雜的使用案例，如果您想將資料來源的參數納入主運算式中，則可以使用關鍵字定義其值 _params_. 參數可以是任何有效的運算式，即使來自另一個資料來源（也包含另一個參數）也是如此。
 

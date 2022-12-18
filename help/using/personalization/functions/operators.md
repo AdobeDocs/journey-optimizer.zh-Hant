@@ -8,12 +8,12 @@ level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 0%
+source-wordcount: '302'
+ht-degree: 11%
 
 ---
 
-# 運算子 {#operators}
+# 操作者 {#operators}
 
 ## 布林函式 {#boolean-functions}
 
@@ -116,7 +116,7 @@ not (homeAddress.countryISO = "CA")
 {%= profile.homeAddress.country != "France" %}
 ```
 
-### 大於{#greaterthan}
+### Greater than{#greaterthan}
 
 此 `>` （大於）函式用來檢查第一值是否大於第二值。
 
@@ -152,7 +152,7 @@ not (homeAddress.countryISO = "CA")
 {%= profile.person.birthYear >= 1970 %}
 ```
 
-### 小於{#lessthan}
+### 少於{#lessthan}
 
 此 `<` （小於）比較函式用來檢查第一值是否小於第二值。
 
@@ -170,7 +170,7 @@ not (homeAddress.countryISO = "CA")
 {%= profile.person.birthYear < 2000 %}
 ```
 
-### 小於或等於{#lessthanorequal}
+### Less than or equal to{#lessthanorequal}
 
 此 `<=` （小於或等於）比較函式用於檢查第一值是否小於或等於第二值。
 

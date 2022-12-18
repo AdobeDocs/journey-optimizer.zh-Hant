@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 0%
+source-wordcount: '681'
+ht-degree: 4%
 
 ---
 
@@ -40,11 +40,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果您要從歷程傳送推播通知，可以運用Adobe Journey Optimizer的「傳送時間最佳化」功能，根據歷史開啟率和點按率預測傳送訊息的最佳時間，以最大化參與。 [了解如何使用傳送時間最佳化](../building-journeys/journeys-message.md#send-time-optimization)
+   >如果您要從歷程傳送推播通知，您可以運用Adobe Journey Optimizer的「傳送時間最佳化」功能，根據歷史開啟率和點按率預測傳送訊息的最佳時機，以最大化參與。 [了解如何使用傳送時間最佳化](../building-journeys/journeys-message.md#send-time-optimization)
 
    如需如何設定歷程的詳細資訊，請參閱 [本頁](../building-journeys/journey-gs.md)
 
-1. 在歷程設定畫面中，按一下 **[!UICONTROL Edit content]** 按鈕來設定推播內容。 [設計推播通知](design-push.md)
+1. 在歷程設定畫面中，按一下 **[!UICONTROL 編輯內容]** 按鈕來設定推播內容。 [設計推播通知](design-push.md)
 
 1. 定義訊息內容後，您就可以使用測試設定檔來預覽和測試。
 
@@ -54,32 +54,32 @@ ht-degree: 0%
 
 >[!TAB 新增推送至促銷活動]
 
-1. 建立新的排程或API觸發促銷活動，請選取 **[!UICONTROL Push notification]** 作為您的動作，並選取 **[!UICONTROL App surface]** 來使用。 [進一步了解推播設定](push-configuration.md).
+1. 建立新的排程或API觸發促銷活動，請選取 **[!UICONTROL 推播通知]** 作為您的動作，並選取 **[!UICONTROL 應用程式表面]** 來使用。 [進一步了解推播設定](push-configuration.md).
 
    ![](assets/push_create_3.png)
 
-1. 按一下 **[!UICONTROL Create]**.
+1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
-1. 從 **[!UICONTROL Properties]** 區段，編輯您的促銷活動 **[!UICONTROL Title]** 和 **[!UICONTROL Description]**.
+1. 從 **[!UICONTROL 屬性]** 區段，編輯您的促銷活動 **[!UICONTROL 標題]** 和 **[!UICONTROL 說明]**.
 
    ![](assets/push_create_4.png)
 
-1. 按一下 **[!UICONTROL Select audience]** 按鈕，從可用的Adobe Experience Platform區段清單中定義要鎖定的對象。 [深入了解](../segment/about-segments.md).
+1. 按一下 **[!UICONTROL 選取對象]** 按鈕，從可用的Adobe Experience Platform區段清單中定義要鎖定的對象。 [了解更多](../segment/about-segments.md)。
 
-1. 在 **[!UICONTROL Identity namespace]** 欄位中，選擇要使用的命名空間，以識別所選區段中的個人。 [深入了解](../event/about-creating.md#select-the-namespace).
+1. 在 **[!UICONTROL 身分命名空間]** 欄位中，選擇要使用的命名空間，以識別所選區段中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
 
    ![](assets/push_create_5.png)
 
-1. 促銷活動設計為在特定日期或循環頻率上執行。 了解如何設定 **[!UICONTROL Schedule]** 在 [本節](../campaigns/create-campaign.md#schedule).
+1. 促銷活動設計為在特定日期或循環頻率上執行。 了解如何設定 **[!UICONTROL 排程]** 在 [本節](../campaigns/create-campaign.md#schedule).
 
-1. 從 **[!UICONTROL Action triggers]** 菜單，選擇 **[!UICONTROL Frequency]** 推播通知的：
+1. 從 **[!UICONTROL 動作觸發器]** 菜單，選擇 **[!UICONTROL 頻率]** 推播通知的：
 
    * 一次
    * 每日
    * 每週
    * 每月
 
-1. 在促銷活動設定畫面中，按一下 **[!UICONTROL Edit content]** 按鈕來設定推播內容。 [設計推播通知](design-push.md)
+1. 在促銷活動設定畫面中，按一下 **[!UICONTROL 編輯內容]** 按鈕來設定推播內容。 [設計推播通知](design-push.md)
 
 1. 定義訊息內容後，您就可以使用測試設定檔來預覽和測試。
 
@@ -105,20 +105,20 @@ ht-degree: 0%
 
 當訊息傳送延遲是業務關鍵型時，或您想在行動電話上傳送緊急推播警報（例如，向已安裝您的新聞頻道應用程式的使用者傳送重大新聞），則會使用快速傳送。
 
-如需使用快速傳送模式時效能的詳細資訊，請參閱 [Adobe Journey Optimizer產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html).
+如需使用快速傳送模式時效能的詳細資訊，請參閱 [Adobe Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html).
 
-### 必要條件 {#prerequisites}
+### 先決條件 {#prerequisites}
 
 快速傳遞報文傳送附帶下列要求：
 
-* 可快速傳送 **[!UICONTROL Scheduled]** 僅限促銷活動，且不適用於API觸發的促銷活動、
+* 可快速傳送 **[!UICONTROL 已排程]** 僅限促銷活動，且不適用於API觸發的促銷活動、
 * 推送訊息中不允許任何個人化，
 * 目標受眾必須包含少於3000萬個設定檔，
 * 您可以使用快速傳送模式，同時執行最多5個促銷活動。
 
 ### 啟動快速傳遞模式
 
-1. 建立推播通知促銷活動並切換 **[!UICONTROL Rapid delivery]** 選項。
+1. 建立推播通知促銷活動並切換 **[!UICONTROL 快速傳遞]** 選項。
 
 ![](assets/create-campaign-burst.png)
 

@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 52a5053d-3b94-47fd-a064-a20f9a595150
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 0%
+source-wordcount: '144'
+ht-degree: 6%
 
 ---
 
-# 刪除個人化優惠方案 {#delete-personalized-offer}
+# 刪除個人化優惠 {#delete-personalized-offer}
 
-有時可能需要移除（刪除）個人化優惠方案。 系統只會刪除您在租用戶容器中建立的個人化優惠方案。 若要這麼做，請對 [!DNL Offer Library] API，使用您要刪除之個人化優惠方案的$id。
+有時可能需要移除(DELETE)個人化優惠方案。 系統只會刪除您在租用戶容器中建立的個人化優惠方案。 若要這麼做，請對 [!DNL Offer Library] 使用您要刪除之個人化優惠方案的$id的API。
 
 **API格式**
 

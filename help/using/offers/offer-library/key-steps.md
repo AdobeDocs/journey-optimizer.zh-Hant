@@ -1,5 +1,5 @@
 ---
-title: 建立優惠方案的關鍵步驟
+title: 建立優惠的重要步驟
 description: 探索建立優惠方案所需的關鍵步驟
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
-# 建立和管理優惠方案的關鍵步驟 {#key-steps-to-manage-offers}
+# 建立和管理優惠的重要步驟 {#key-steps-to-manage-offers}
 
 建立、設定和管理優惠方案以及在決策中使用優惠方案的主要步驟如下。
 
@@ -35,8 +35,8 @@ ht-degree: 0%
 
 <table>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">建立版位</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">建立決策規則</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">建立位置</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">建立決定規則</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">建立標籤</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../ranking/create-ranking-formulas.md">建立排名公式</a></p></td>
 </table>
@@ -52,7 +52,7 @@ ht-degree: 0%
 <table>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">建立優惠方案</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">建立回退優惠方案</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">建立遞補優惠</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">建立集合</a></p></td></tr>
 </table>
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 <table>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md">建立決策</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md">建立決定</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md#add-offers">設定決策</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-assign-ranking.svg" width="60px"><p><a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">指派排名</a></p></td>
 </tr>

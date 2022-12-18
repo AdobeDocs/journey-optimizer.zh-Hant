@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 0%
+source-wordcount: '277'
+ht-degree: 6%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 0%
 
 定義訊息內容後，您就可以使用測試設定檔來預覽和測試。 如果您插入個人化內容，則可以利用測試設定檔資料，檢查訊息中此內容的顯示方式。
 
-1. 按一下 **[!UICONTROL Simulate content]**.
+1. 按一下 **[!UICONTROL 模擬內容]**.
 
-1. 按一下 **[!UICONTROL Manage test profiles]** 新增測試設定檔。
+1. 按一下 **[!UICONTROL 管理測試設定檔]** 新增測試設定檔。
 
-1. 使用 **[!UICONTROL Identity namespace]** 和 **[!UICONTROL Identity value]** 欄位。 然後，按一下 **[!UICONTROL Add profile]**.
+1. 使用 **[!UICONTROL 身分命名空間]** 和 **[!UICONTROL 身分值]** 欄位。 然後，按一下 **[!UICONTROL 新增設定檔]**.
 
    ![](assets/sms_preview_3.png)
 
-1. 選取測試設定檔後，您可以關閉 **[!UICONTROL Add test profile]** 窗口。
+1. 選取測試設定檔後，您可以關閉 **[!UICONTROL 新增測試設定檔]** 窗口。
 
    ![](assets/sms_preview_1.png)
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 **相關主題**
 
-* [設定SMS通道](sms-configuration.md)
-* [SMS報表](../reports/journey-global-report.md#sms-global)
-* [建立SMS訊息](create-sms.md)
+* [設定簡訊頻道](sms-configuration.md)
+* [簡訊報告](../reports/journey-global-report.md#sms-global)
+* [建立簡訊訊息](create-sms.md)
 * [在歷程中新增訊息](../building-journeys/journeys-message.md)

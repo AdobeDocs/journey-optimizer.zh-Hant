@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Campaign v7/v8動作
+title: Adobe Campaign v7/v8 動作
 description: 了解Adobe Campaign v7/v8動作
 feature: Actions
 topic: Administration
@@ -11,15 +11,15 @@ exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
-# Adobe Campaign v7/v8動作 {#using_campaign_classic}
+# Adobe Campaign v7/v8 動作 {#using_campaign_classic}
 
-如果您有Adobe Campaign v7或v8，則可使用整合。 它可讓您使用Adobe Campaign交易訊息功能來傳送電子郵件、推播通知和簡訊。
+如果您有 Adobe Campaign v7 或 v8，則可整合。 它可讓您使用Adobe Campaign交易訊息功能來傳送電子郵件、推播通知和簡訊。
 
-Adobe會在布建時設定Journey Optimizer與Campaign執行個體之間的連線。 聯絡Adobe。
+Journey Optimizer和Campaign執行個體之間的連線是在布建時Adobe設定。 聯繫Adobe。
 
 若要讓此功能發揮作用，您需要設定專用的動作。 請參閱 [節](../action/acc-action.md).
 

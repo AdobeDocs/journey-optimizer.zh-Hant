@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 0%
+source-wordcount: '327'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 >title="等待活動"
 >abstract="如果要在路徑中執行下一個活動之前等待，則可以使用等待活動。 它可讓您定義下一個活動的執行時間。 有兩個選項可用：持續時間和自訂。"
 
-如果您想在路徑中執行下一個活動之前等待，可以使用 **[!UICONTROL Wait]** 活動。 它可讓您定義下一個活動的執行時間。 有三個可用選項：
+如果您想在路徑中執行下一個活動之前等待，可以使用 **[!UICONTROL 等待]** 活動。 它可讓您定義下一個活動的執行時間。 有三個可用選項：
 
 * [持續時間](#duration)
 * [自訂](#custom)
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## 關於等待活動{#about_wait}
 
-等待時間上限為30天。 在測試模式中， **[!UICONTROL Wait time in test]** 參數可讓您定義每個等待活動的持續時間。 預設時間為10秒。 這可確保您快速取得測試結果。 請參閱 [本頁](../building-journeys/testing-the-journey.md)
+等待時間上限為30天。 在測試模式中， **[!UICONTROL 測試等待時間]** 參數可讓您定義每個等待活動的持續時間。 預設時間為 10 秒。這可確保您快速取得測試結果。 請參閱 [本頁](../building-journeys/testing-the-journey.md)
 
 在歷程中使用多個等待活動時請小心，因為全域歷程逾時為30天，這表示設定檔在其輸入後最多30天將一律從歷程中退出。
 
@@ -61,7 +61,7 @@ Select the date for the execution of the next activity.
 >
 >您可以運用dateTimeOnly運算式，或使用函式來轉換為dateTimeOnly。 例如：toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位為2016-08-12T09格式:46:06Z。
 >
->此 **時區** 在歷程的屬性中是預期的。 因此，今天無法從介面直接指向完整的ISO-8601時間戳，混合時間和時區偏移，如2016-08-12T09:46:06.982-05。 請參閱 [本頁](../building-journeys/timezone-management.md).
+>此 **時區** 在歷程的屬性中是預期的。 因此，今天無法從介面直接指向完整的ISO-8601時間戳，混合時間和時區偏移，如2016-08-12T09:46:06.982-05。 請參閱[此頁面](../building-journeys/timezone-management.md)。
 
 ![](assets/journey57.png)
 

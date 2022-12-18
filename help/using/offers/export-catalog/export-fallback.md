@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 0%
+source-wordcount: '1050'
+ht-degree: 3%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 0%
 >
 >了解如何在 [本節](../export-catalog/access-dataset.md).
 
-以下是可在 **[!UICONTROL Decision Object Repository - Fallback Offers]** 資料集。
+以下是可在 **[!UICONTROL 決策物件存放庫 — 後援優惠方案]** 資料集。
 
 ## 識別碼 {#identifier}
 
 **欄位：** _id
 **標題：** 識別碼
 **說明：** 記錄的唯一標識符。
-**類型：** 字串
+**類型:**&#x200B;字串
 
 ## _體驗 {#experience}
 
@@ -72,7 +72,7 @@ ht-degree: 0%
    **欄位：** _type
    **標題：** 內容元件類型
    **說明：** 枚舉的URI集，其中每個值映射到為內容元件指定的類型。 內容表示的某些使用者希望@type值能作為描述內容元件其他屬性的架構的參考。
-   **類型：** 字串
+   **類型:**&#x200B;字串
 
 * **「體驗>決策>內容>元件> _dc」**
 
@@ -85,7 +85,7 @@ ht-degree: 0%
       **欄位：** 格式
       **標題：** 格式
       **說明：** 資源的物理或數字表現。 通常，格式應包含資源的媒體類型。 可使用格式來確定顯示或操作資源所需的軟體、硬體或其它設備。 建議的最佳實務是從受控辭匯中選取值(例如 [Internet媒體類型](http://www.iana.org/工作總攬/media-types/)定義電腦媒體格式)。
-      **類型：** 字串
+      **類型:**字串
       **範例：** &quot;application/vnd.adobe.photoshop&quot;
 
    * **語言**
@@ -105,47 +105,47 @@ ht-degree: 0%
 
       **欄位：** id
       **說明：** 可選的唯一識別碼，用於參考內容存放庫中的資產。 當使用Platform API擷取表示法時，用戶端可能會預期其他屬性\&quot;repo:resolveUrl\&quot;來擷取資產。
-      **類型：** 字串
+      **類型:**字串
       **範例：** &quot;urn&quot;:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e」
 
    * **名稱**
 
       **欄位：** 名稱
       **說明：** 透過\&quot;repo:id\&quot;提供存放外部資產的存放庫位置相關提示。
-      **類型：** 字串
+      **類型:**&#x200B;字串
 
    * **repositoryID**
 
       **欄位：** repositoryID
       **說明：** 可選的唯一識別碼，用於參考內容存放庫中的資產。 當使用Platform API擷取表示法時，用戶端可能會預期其他屬性\&quot;repo:resolveUrl\&quot;來擷取資產。
-      **類型：** 字串
+      **類型:**字串
       **範例：** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
       **欄位：** resolveURL
       **說明：** 可選的唯一資源定位器，用於讀取內容存放庫中的資產。 如此一來，若客戶不了解資產的管理位置以及要呼叫的API，就能更輕鬆取得資產。 這類似於HAL連結，但語義更簡單、更有針對性。
-      **類型：** 字串
+      **類型:**字串
       **範例：** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **「體驗>決策>內容>元件」**
 
    **欄位：** 內容
    **說明：** 直接保留內容的選用欄位。 元件可直接保留簡單內容，而非參考資產存放庫中的內容。 此欄位不適用於複合、複雜和二進位內容資產。
-   **類型：** 字串
+   **類型:**&#x200B;字串
 
 * **_experience > decisioning > contents > components > deliveryURL**
 
    **欄位：** deliveryURL
    **說明：** 可選的唯一資源定位器，用於從內容傳送網路或服務端點取得資產。 此URL可供使用者代理公開存取資產。
-   **類型：** 字串
+   **類型:**字串
    **範例：** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisioning > contents > components > linkURL**
 
    **欄位：** linkURL
    **說明：** 用戶交互的可選唯一資源定位器。 此URL用於將使用者引用至使用者代理中，且可加以追蹤。
-   **類型：** 字串
+   **類型:**字串
    **範例：** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 **_experience > decisioning >內容>位置**
@@ -153,7 +153,7 @@ ht-degree: 0%
 **欄位：** 刊登
 **標題：** 版位
 **說明：** 符合的位置。 值是所參考之優惠方案版位的URI(@id)。 請參閱結構https://ns.adobe.com/experience/decisioning/placement。
-**類型：** 字串
+**類型:**&#x200B;字串
 
 #### _experience > decisioning >生命週期狀態
 
@@ -168,7 +168,7 @@ ht-degree: 0%
 **欄位：** 名稱
 **標題：** 決策選項名稱
 **說明：** 顯示在各種用戶介面中的選項名稱。
-**類型：** 字串
+**類型:**&#x200B;字串
 
 #### _experience > decisioning >標籤
 
@@ -189,4 +189,4 @@ ht-degree: 0%
 **欄位：** etag
 **標題：** 決策選項ETag
 **說明：** 建立快照時決策選項對象所在的修訂。
-**類型：** 字串
+**類型:**&#x200B;字串

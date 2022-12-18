@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 2%
 
 ---
 
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 時區也可以固定。 清除預先定義的時區，然後從下拉式清單中選取時區。 如果您使用固定時區，則所有進入歷程的個人都會使用相同時區。
 
-若要這麼做，請在 **[!UICONTROL Journey Properties]** ，請選擇時區。
+若要這麼做，請在 **[!UICONTROL 歷程屬性]** ，請選擇時區。
 
 ![](assets/journey72.png)
 
 ## 使用設定檔來定義歷程時區 {#timezone-from-profiles}
 
-如果歷程的登入事件具有命名空間，表示歷程可觸及Adobe Experience Platform的「即時客戶個人檔案」服務，您可能會想使用設定檔層級定義的時區。 若要這麼做，請輸入 **屬性**，檢查 **在等待和條件中使用設定檔時區**. 預設不會勾選此選項。
+如果歷程的登入事件具有命名空間，表示歷程可存取Adobe Experience Platform的即時客戶個人檔案服務，您可能會想使用設定檔層級定義的時區。 若要這麼做，請輸入 **屬性**，檢查 **在等待和條件中使用設定檔時區**. 預設不會勾選此選項。
 
 如果已為設定檔定義時區，則會由歷程擷取並使用。 如果尚未使用，則使用的時區將是時區欄位中定義的時區。
 

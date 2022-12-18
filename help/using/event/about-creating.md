@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 0%
+source-wordcount: '1541'
+ht-degree: 11%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 0%
 
 以下是設定新事件的前幾個步驟：
 
-1. 在「管理」(ADMINISTRATION)菜單部分中，選擇 **[!UICONTROL Configurations]**. 在  **[!UICONTROL Events]** ，按一下 **[!UICONTROL Manage]**. 隨即顯示事件清單。
+1. 在「管理」(ADMINISTRATION)菜單部分中，選擇 **[!UICONTROL 配置]**. 在  **[!UICONTROL 事件]** ，按一下 **[!UICONTROL 管理]**. 畫面隨即顯示事件清單。
 
    ![](assets/jo-event1.png)
 
-1. 按一下 **[!UICONTROL Create Event]** 來建立新事件。 事件設定窗格會在畫面右側開啟。
+1. 按一下 **[!UICONTROL 建立事件]** 來建立新事件。 事件設定窗格會在畫面右側開啟。
 
    ![](assets/jo-event2.png)
 
@@ -40,49 +40,49 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >請勿使用空格或特殊字元。 請勿使用超過30個字元。
+   >請勿使用空格或特殊字元。請勿使用超過 30 個字元。
 
-1. 在 **[!UICONTROL Type]** 欄位，選擇 **單一**.
+1. 在 **[!UICONTROL 類型]** 欄位，選擇 **單一**.
 
    ![](assets/jo-event3bis.png)
 
-1. 在 **[!UICONTROL Event ID type]** 欄位中，選取您要使用的事件ID類型： **規則型** 或 **系統生成**. 請參閱 [本節](../event/about-events.md#event-id-type).
+1. 在 **[!UICONTROL 事件ID類型]** 欄位中，選取您要使用的事件ID類型： **規則型** 或 **系統生成**. 請參閱 [本節](../event/about-events.md#event-id-type).
 
    ![](assets/jo-event4.png)
 
-1. 使用此事件的歷程次數會顯示在 **[!UICONTROL Used in]** 欄位。 您可以按一下 **[!UICONTROL View journeys]** 圖示以顯示使用此事件的歷程清單。
+1. 使用此事件的歷程次數會顯示在 **[!UICONTROL 用於]** 欄位。 您可以按一下 **[!UICONTROL 檢視歷程]** 圖示以顯示使用此事件的歷程清單。
 
-1. 定義結構和裝載欄位：這是您選取歷程預期會收到的事件資訊（通常稱為裝載）的位置。 然後，您就能在歷程中使用此資訊。 請參閱 [本節](../event/about-creating.md#define-the-payload-fields).
+1. 定義結構和裝載欄位：這是您選取歷程預期會收到的事件資訊（通常稱為裝載）的位置。 接著，您就可以在歷程中使用這項資訊。請參閱[本節](../event/about-creating.md#define-the-payload-fields)。
 
    ![](assets/jo-event5.png)
 
    >[!NOTE]
    >
-   >選取 **[!UICONTROL System Generated]** 類型，只有具有eventID type欄位的結構才可供使用。 選取 **[!UICONTROL Rule Based]** 類型，所有體驗事件結構皆可使用。
+   >選取 **[!UICONTROL 系統生成]** 類型，只有具有eventID type欄位的結構才可供使用。 選取 **[!UICONTROL 規則型]** 類型，所有體驗事件結構皆可使用。
 
-1. 若為規則型事件，請按一下 **[!UICONTROL Event ID condition]** 欄位。 使用簡單運算式編輯器，定義系統將使用的條件，以識別將觸發您歷程的事件。
+1. 若為規則型事件，請按一下 **[!UICONTROL 事件ID條件]** 欄位。 使用簡單運算式編輯器，定義系統將使用的條件，以識別將觸發您歷程的事件。
    ![](assets/jo-event6.png)
 
-   在範例中，我們根據設定檔的城市寫了條件。 這表示每當系統收到符合此條件的事件時(**[!UICONTROL City]** 欄位與 **[!UICONTROL Paris]** 值)，則會傳遞至歷程。
+   在範例中，我們根據設定檔的城市寫了條件。 這表示每當系統收到符合此條件的事件時(**[!UICONTROL 城市]** 欄位與 **[!UICONTROL 巴黎]** 值)，則會傳遞至歷程。
 
    >[!NOTE]
    >
-   >定義 **[!UICONTROL Event ID condition]**. 在簡單運算式編輯器中，並非所有運算子都可用，它們取決於資料類型。 例如，對於欄位的字串類型，您可以使用「包含」或「等於」。
+   >定義 **[!UICONTROL 事件ID條件]**. 在簡單運算式編輯器中，並非所有運算子都可用，它們取決於資料類型。 例如，對於欄位的字串類型，您可以使用「包含」或「等於」。
 
-1. 新增命名空間。 此步驟為選用，但建議您新增命名空間，以便運用儲存在即時客戶個人檔案服務中的資訊。 它會定義事件具有的索引鍵類型。 請參閱 [本節](../event/about-creating.md#select-the-namespace).
-1. 定義設定檔識別碼：從您的裝載欄位中選擇欄位，或定義公式以識別與事件相關聯的人員。 如果您選取命名空間，系統會自動設定此金鑰（但仍可編輯）。 事實上，歷程會挑選應該與命名空間對應的金鑰（例如，如果您選取電子郵件命名空間，系統便會選取電子郵件金鑰）。 請參閱 [本節](../event/about-creating.md#define-the-event-key).
+1. 新增命名空間。此步驟為選填，但建議您新增命名空間，以便運用儲存在「即時客戶個人檔案服務」的資訊。它會定義事件具備的金鑰類型。請參閱[本節](../event/about-creating.md#select-the-namespace)。
+1. 定義設定檔識別碼：從您的裝載欄位中選擇欄位，或定義公式以識別與事件相關聯的人員。 如果您選取命名空間，系統便會自動設定此金鑰（但您仍可加以編輯）。事實上，歷程會挑選應該與命名空間對應的金鑰（例如，如果您選取電子郵件命名空間，系統便會選取電子郵件金鑰）。 請參閱[本節](../event/about-creating.md#define-the-event-key)。
 
    ![](assets/jo-event7.png)
 
-1. 按一下 **[!UICONTROL Save]**.
+1. 按一下「**[!UICONTROL 儲存]**」。
 
-   事件現在已設定完畢，且準備好放入歷程中。 接收事件需要執行其他設定步驟。 請參閱 [本頁](../event/additional-steps-to-send-events-to-journey.md).
+   條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。請參閱[此頁面](../event/additional-steps-to-send-events-to-journey.md)。
 
 ## 定義裝載欄位 {#define-the-payload-fields}
 
-有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯之人員的金鑰。 裝載是以Experience Cloud XDM欄位定義為基礎。 如需XDM的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}。
+有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯之人員的金鑰。 裝載以Experience CloudXDM欄位定義為基礎。 如需XDM的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
-1. 從清單中選取XDM架構，然後按一下 **[!UICONTROL Fields]** 欄位或 **[!UICONTROL Edit]** 表徵圖。
+1. 從清單中選取XDM架構，然後按一下 **[!UICONTROL 欄位]** 欄位或 **[!UICONTROL 編輯]** 表徵圖。
 
    ![](assets/journey8.png)
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >針對系統產生的事件，請確定您已將「協調」欄位群組新增至XDM架構。 這可確保您的架構包含要搭配使用的所有必要資訊 [!DNL Journey Optimizer].
+   >針對系統產生的事件，請確定您已將「協調」欄位群組新增至XDM架構。 這可確保您的架構包含所有要使用的必要資訊 [!DNL Journey Optimizer].
 
    ![](assets/journey9.png)
 
@@ -98,11 +98,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >若為系統產生的事件， **[!UICONTROL eventID]** 欄位會自動新增至選取的欄位清單中，以便 [!DNL Journey Optimizer] 可識別事件。 推送事件的系統不應產生ID，而應使用有效負載預覽中可用的ID。 請參閱 [本節](../event/about-creating.md#preview-the-payload).
+   >若為系統產生的事件， **[!UICONTROL eventID]** 欄位會自動新增至選取的欄位清單中，以便 [!DNL Journey Optimizer] 可識別事件。 推送事件的系統不應產生ID，而應使用有效負載預覽中可用的ID。 請參閱[本節](../event/about-creating.md#preview-the-payload)。
 
-1. 選取完所需欄位後，按一下 **[!UICONTROL Ok]** 或按下 **[!UICONTROL Enter]**.
+1. 選取完所需欄位後，按一下 **[!UICONTROL 確定]** 或按下 **[!UICONTROL 輸入]**.
 
-   選取的欄位數會顯示在 **[!UICONTROL Fields]** 欄位。
+   選取的欄位數會顯示在 **[!UICONTROL 欄位]** 欄位。
 
    ![](assets/journey12.png)
 
@@ -110,14 +110,14 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"
->title="身分命名空間"
+>title="身分識別命名空間"
 >abstract="選取用於識別與事件相關聯的客戶設定檔的金鑰。"
 
-命名空間可讓您定義用於識別與事件相關聯之人員的索引鍵類型。 其設定為選用。 如果您想在歷程中擷取來自 [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}。 如果您只使用來自協力廠商系統的資料（透過自訂資料來源），則不需要命名空間定義。
+命名空間可讓您定義用於識別與事件相關聯之人員的索引鍵類型。 其設定為選用。 如果您想在歷程中擷取來自 [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。 如果您只使用來自協力廠商系統的資料（透過自訂資料來源），則不需要命名空間定義。
 
-您可以使用其中一個預先定義的命名空間，或使用身分命名空間服務建立新的一個。 請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target=&quot;_blank&quot;}。
+您可以使用其中一個預先定義的命名空間，或使用身分命名空間服務建立新的一個。 請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
-如果您選取的架構具有主要身分，則 **[!UICONTROL Profiler identifier]** 和 **[!UICONTROL Namespace]** 欄位已預填。 如果沒有定義標識，則我們選擇 _identityMap > id_ 作為主要金鑰。 然後，您必須選取命名空間，系統就會預先填入索引鍵(位於 **[!UICONTROL Namespace]** 欄位)使用 _identityMap > id_.
+如果您選取的架構具有主要身分，則 **[!UICONTROL 探查器標識符]** 和 **[!UICONTROL 命名空間]** 欄位已預填。 如果沒有定義標識，則我們選擇 _identityMap > id_ 作為主要金鑰。 然後，您必須選取命名空間，系統就會預先填入索引鍵(位於 **[!UICONTROL 命名空間]** 欄位)使用 _identityMap > id_.
 
 選取欄位時，會標籤主要身分欄位。
 
@@ -128,15 +128,15 @@ ht-degree: 0%
 
 ![](assets/journey17.png)
 
-每個歷程僅允許一個命名空間。 如果您在相同歷程中使用數個事件，則這些事件需要使用相同的命名空間。 請參閱 [本頁](../building-journeys/journey.md).
+每個歷程僅允許一個命名空間。 如果您在相同歷程中使用數個事件，則這些事件需要使用相同的命名空間。 請參閱[此頁面](../building-journeys/journey.md)。
 
 ## 定義設定檔識別碼 {#define-the-event-key}
 
-金鑰是欄位或欄位組合，欄位是事件有效負載資料的一部分，可讓系統識別與事件相關聯的人員。 金鑰可以是，例如Experience Cloud ID、CRM ID或電子郵件地址。
+金鑰是欄位或欄位組合，欄位是事件有效負載資料的一部分，可讓系統識別與事件相關聯的人員。 金鑰可以是Experience CloudID、CRM ID或電子郵件地址。
 
-若要使用儲存在Adobe Real-time Customer Profile資料庫中的資料，事件索引鍵必須是您在 [即時客戶個人檔案服務](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}。
+若要使用儲存在Adobe即時客戶設定檔資料庫中的資料，事件索引鍵必須是您在 [即時客戶個人檔案服務](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
-設定檔識別碼可讓系統執行事件與個人設定檔之間的調解。 如果您選取的架構具有主要身分，則 **[!UICONTROL Profile identifier]** 和 **[!UICONTROL Namespace]** 欄位已預填。 若未定義身分，則 _identityMap > id_ 是主要金鑰。 然後，您必須選取命名空間，系統會使用 _identityMap > id_.
+設定檔識別碼可讓系統執行事件與個人設定檔之間的調解。 如果您選取的架構具有主要身分，則 **[!UICONTROL 設定檔識別碼]** 和 **[!UICONTROL 命名空間]** 欄位已預填。 若未定義身分，則 _identityMap > id_ 是主要金鑰。 然後，您必須選取命名空間，系統會使用 _identityMap > id_.
 
 選取欄位時，會標籤主要身分欄位。
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 如果您需要使用不同的金鑰（例如CRM ID或電子郵件地址），則需要手動新增，如下所述：
 
-1. 按一下內部 **[!UICONTROL Profile identifier]** 欄位或鉛筆圖示上。
+1. 按一下內部 **[!UICONTROL 設定檔識別碼]** 欄位或鉛筆圖示上。
 
    ![](assets/journey16.png)
 
@@ -152,10 +152,9 @@ ht-degree: 0%
 
    ![](assets/journey20.png)
 
-收到事件時，鍵值允許系統識別與事件相關聯的人。 與命名空間相關聯(請參閱 [本節](../event/about-creating.md#select-the-namespace))，則可使用索引鍵在Adobe Experience Platform上執行查詢。 請參閱 [本頁](../building-journeys/about-journey-activities.md#orchestration-activities).
-金鑰也可用來檢查人員是否在歷程中。 事實上，一個人不可能在同一個旅程中處於兩個不同的位置。 因此，系統不允許相同的索引鍵（例如CRMID=3224）位於相同歷程中的不同位置。
+收到事件時，鍵值允許系統識別與事件相關聯的人。 與命名空間相關聯(請參閱 [本節](../event/about-creating.md#select-the-namespace))，則可使用索引鍵來對Adobe Experience Platform執行查詢。 請參閱[此頁面](../building-journeys/about-journey-activities.md#orchestration-activities)。金鑰也可用來檢查人員是否在歷程中。 事實上，一個人不可能在同一個旅程中處於兩個不同的位置。 因此，系統不允許相同的索引鍵（例如CRMID=3224）位於相同歷程中的不同位置。
 
-您也可以存取進階運算式函式(**[!UICONTROL Advanced mode]**)。 這些函式可讓您操控用於執行特定查詢的值，例如更改格式、執行欄位串連，而僅考慮欄位的一部分（例如10個前字元）。 看這個 [頁面](../building-journeys/expression/expressionadvanced.md).
+您也可以存取進階運算式函式(**[!UICONTROL 進階模式]**)。 這些函式可讓您操控用於執行特定查詢的值，例如更改格式、執行欄位串連，而僅考慮欄位的一部分（例如10個前字元）。 請參閱此[頁面](../building-journeys/expression/expressionadvanced.md)。
 
 ## 預覽裝載 {#preview-the-payload}
 
@@ -165,7 +164,7 @@ ht-degree: 0%
 >
 >對於系統產生的事件，當您建立事件時，在檢視裝載預覽之前，請先儲存事件並重新開啟它。 需要執行此步驟，才能在裝載中產生事件ID。
 
-1. 按一下 **[!UICONTROL View Payload]** 圖示來預覽系統預期的裝載。
+1. 按一下 **[!UICONTROL 檢視裝載]** 圖示來預覽系統預期的裝載。
 
    ![](assets/journey13.png)
 
@@ -175,4 +174,4 @@ ht-degree: 0%
 
 1. 檢查預覽以驗證有效負載定義。
 
-1. 接著，您可以將裝載預覽與事件傳送的負責人共用。 此裝載可協助他們設計推送至的事件設定 [!DNL Journey Optimizer]. 請參閱 [本頁](../event/additional-steps-to-send-events-to-journey.md).
+1. 接著，您可以將裝載預覽與事件傳送的負責人共用。 此裝載可協助他們設計推送至的事件設定 [!DNL Journey Optimizer]. 請參閱[此頁面](../event/additional-steps-to-send-events-to-journey.md)。

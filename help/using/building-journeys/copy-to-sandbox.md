@@ -10,16 +10,16 @@ level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 0%
+source-wordcount: '837'
+ht-degree: 2%
 
 ---
 
-# 將歷程複製至其他沙箱 {#copy-to-sandbox}
+# 將歷程複製到另一個沙箱 {#copy-to-sandbox}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
->title="將歷程複製至其他沙箱"
+>title="將歷程複製到另一個沙箱"
 >abstract="Journey Optimizer可讓您將整個歷程從一個沙箱複製到另一個沙箱。 例如，您可以將歷程從階段沙箱環境複製到生產沙箱。 除了歷程本身，Journey Optimizer也會複製歷程所仰賴的大部分物件。"
 
 >[!CONTEXTUALHELP]
@@ -47,7 +47,7 @@ Journey Optimizer可讓您將整個歷程從一個沙箱複製到另一個沙箱
 
 若要將歷程複製到另一個沙箱，請依照下列步驟操作：
 
-1. 在「歷程管理」功能表區段中，按一下 **[!UICONTROL Journeys]**. 歷程清單隨即顯示。
+1. 在「歷程管理」功能表區段中，按一下 **[!UICONTROL 歷程]**. 歷程清單隨即顯示。
 
 2. 搜尋您要複製的歷程，按一下 **更多動作** 圖示（歷程名稱旁的三個點），然後按一下 **複製至沙箱**.
 
@@ -83,7 +83,7 @@ Journey Optimizer可讓您將整個歷程從一個沙箱複製到另一個沙箱
 
    一個區段只能從一個沙箱複製到另一個沙箱。 複製區段後，就無法在目的地沙箱上編輯。
 
-* 結構
+* 方案
 
    系統會複製此歷程中使用的結構。
 
@@ -95,7 +95,7 @@ Journey Optimizer可讓您將整個歷程從一個沙箱複製到另一個沙箱
 
    畫布上歷程的表示，包括歷程中的物件，例如條件、動作、事件、讀取區段等。 從復本中排除跳轉活動。
 
-* 事件
+* 活動
 
    系統會複製歷程中使用的事件和事件詳細資料。
 
@@ -107,4 +107,4 @@ Journey Optimizer可讓您將整個歷程從一個沙箱複製到另一個沙箱
 
 對於方案、合併策略和段，第二次嘗試複製這些對象時，將只引用它們。 它們將被視為已存在的對象，並將被再次複製。 這表示這些物件只能複製一次。
 
-Adobe Journey Optimizer必須等待五分鐘，才能參考結構、合併原則和區段，而不會在畫布中看到錯誤。 等待5分鐘，即可使用這些參考。
+Adobe Journey Optimizer必須等上五分鐘，才能參考結構、合併原則和區段，而不會在畫布中看到錯誤。 等待5分鐘，即可使用這些參考。

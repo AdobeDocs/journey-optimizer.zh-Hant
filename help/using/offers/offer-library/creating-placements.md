@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 0%
+source-wordcount: '244'
+ht-degree: 11%
 
 ---
 
@@ -24,30 +24,30 @@ ht-degree: 0%
 
 ➡️ [了解如何在此影片中建立版位](#video)
 
-在下列範例中，有三個版位對應於不同的內容類型（影像、文字、HTML）。
+在下列範例中，有三個版位對應於不同的內容類型(影像、文字、HTML)。
 
 ![](../assets/offers_placement_schema.png)
 
-位置清單可在 **[!UICONTROL Components]** 功能表。 篩選器可協助您根據特定頻道或內容擷取版位。
+位置清單可在 **[!UICONTROL 元件]** 功能表。 篩選器可協助您根據特定頻道或內容擷取版位。
 
 ![](../assets/placements_filter.png)
 
 要建立版位，請執行以下步驟：
 
-1. 按一下 **[!UICONTROL Create placement]**.
+1. 按一下 **[!UICONTROL 建立版位]**.
 
    ![](../assets/offers_placement_creation.png)
 
 1. 定義版位的屬性：
 
-   * **[!UICONTROL Name]**:版位的名稱。 請務必定義有意義的名稱，以便更輕鬆擷取名稱。
-   * **[!UICONTROL Channel type]**:將使用版位的管道。
-   * **[!UICONTROL Content type]**:允許版位顯示的內容類型：文字、HTML、影像連結或JSON。
-   * **[!UICONTROL Description]**:版位的說明（選用）。
+   * **[!UICONTROL 名稱]**:版位的名稱。 請務必定義有意義的名稱，以便更輕鬆擷取名稱。
+   * **[!UICONTROL 通道類型]**:將使用版位的管道。
+   * **[!UICONTROL 內容類型]**:允許版位顯示的內容類型：文字、HTML、影像連結或JSON。
+   * **[!UICONTROL 說明]**:版位的說明（選用）。
 
    ![](../assets/offers_placement_creation_properties.png)
 
-1. 按一下 **[!UICONTROL Save]** 確認。
+1. 按一下 **[!UICONTROL 儲存]** 確認。
 
 1. 版位建立後，會顯示在版位清單中。 您可以選取它以顯示其屬性並加以編輯。
 

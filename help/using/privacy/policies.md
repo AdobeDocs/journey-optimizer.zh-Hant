@@ -2,31 +2,31 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 資料使用原則
-description: 進一步了解資料使用政策和資料控管服務。
+description: 了解有關資料使用原則和資料控管服務的更多資訊。
 feature: Monitoring
 role: User
 level: Intermediate
 exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 0%
+source-wordcount: '152'
+ht-degree: 100%
 
 ---
 
 # 資料使用原則 {#Policies}
 
 
-使用Adobe Experience Platform **資料控管服務**，您可以透過使用標籤、行銷動作和原則，強制執行資料使用限制。
+藉由 Adobe Experience Platform **資料控管服務**，您可以透過使用標籤、行銷動作和原則來強制實施資料使用限制。
 
-為此，資料控管服務可讓您將資料使用量標籤套用至資料集和欄位，並根據相關資料使用策略對每個資料集和欄位進行分類。
+為此， 您可以藉由資料控管服務將資料使用標籤應用到資料集和欄位，並依據相關資料使用原則對每個欄位進行分類。
 
-資料使用原則是描述您可在Experience Platform內對資料執行或受限於哪些行銷動作的規則。 您可從 **[!UICONTROL Policies]** 功能表。
+資料使用原則是描述允許或限制您對 Experience Platform 內的資料執行何種行銷動作的規則。 可從&#x200B;**[!UICONTROL 政策]**&#x200B;功能表存取。
 
 ![](assets/policies.png)
 
-如需資料控管架構及如何使用標籤和原則的詳細資訊，請參閱Adobe Experience Platform檔案：
+有關資料控管框架以及如何使用標籤和原則的詳細資訊，請參閱 Adobe Experience Platform 文件：
 
-* [資料控管服務概述](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html)
-* [資料使用量標籤概觀](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=en)
-* [資料使用原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html)
+* [資料控管服務總覽](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=zh-Hant)
+* [資料使用標籤總覽](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hant)
+* [資料使用原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant)

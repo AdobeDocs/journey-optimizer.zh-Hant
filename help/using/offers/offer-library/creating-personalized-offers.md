@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 0%
+source-wordcount: '734'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ➡️ [在影片中探索此功能](#video)
 
-個人化優惠方案清單可在 **[!UICONTROL Offers]** 功能表。
+個人化優惠方案清單可在 **[!UICONTROL 選件]** 功能表。
 
 ![](../assets/offers_list.png)
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 若要建立 **優惠方案**，請遵循下列步驟：
 
-1. 按一下 **[!UICONTROL Create offer]**，然後選取 **[!UICONTROL Personalized offer]**.
+1. 按一下 **[!UICONTROL 建立優惠方案]**，然後選取 **[!UICONTROL 個人化優惠方案]**.
 
    ![](../assets/create_offer.png)
 
@@ -51,31 +51,31 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >更新開始/結束日期可能會影響上限設定。 [深入了解](add-constraints.md#capping-change-date)
+   >更新開始/結束日期可能會影響上限設定。 [了解更多](add-constraints.md#capping-change-date)
 
-1. 您也可以關聯一或多個現有 **[!UICONTROL tags]** ，讓您更輕鬆搜尋和組織優惠方案庫。 [深入了解](creating-tags.md).
+1. 您也可以關聯一或多個現有 **[!UICONTROL 標籤]** ，讓您更輕鬆搜尋和組織優惠方案庫。 [了解更多](creating-tags.md)。
 
-1. 此 **[!UICONTROL Offer attributes]** 區段可讓您為報表和分析目的，將索引鍵值配對與選件建立關聯。
+1. 此 **[!UICONTROL 選件屬性]** 區段可讓您為報表和分析目的，將索引鍵值配對與選件建立關聯。
 
-1. 若要將自訂或核心資料使用量標籤指派給優惠方案，請選取 **[!UICONTROL Manage access]**. [進一步了解物件層級存取控制(OLAC)](../../administration/object-based-access.md)
+1. 若要將自訂或核心資料使用量標籤指派給優惠方案，請選取 **[!UICONTROL 管理存取]**. [進一步了解物件層級存取控制(OLAC)](../../administration/object-based-access.md)
 
    ![](../assets/offer_manage-access.png)
 
-1. 新增表示法以定義您的選件在訊息中的顯示位置。 [深入了解](add-representations.md)
+1. 新增表示法以定義您的選件在訊息中的顯示位置。 [了解更多](add-representations.md)
 
    ![](../assets/channel-placement.png)
 
-1. 新增限制以設定要顯示的選件的條件。 [深入了解](add-constraints.md)
+1. 新增限制以設定要顯示的選件的條件。 [了解更多](add-constraints.md)
 
    >[!NOTE]
    >
-   >選取區段或決策規則時，您可以看到預估合格設定檔的相關資訊。 按一下 **[!UICONTROL Refresh]** 更新資料。
+   >選取區段或決策規則時，您可以看到預估合格設定檔的相關資訊。 按一下 **[!UICONTROL 重新整理]** 更新資料。
    >
    >請注意，當規則參數包含不在設定檔中的資料（例如內容資料）時，設定檔估計將無法使用。 例如，適用性規則要求目前的天氣為≥80度。
 
    ![](../assets/offer-constraints-example.png)
 
-1. 檢閱並儲存選件。 [深入了解](#review)
+1. 檢閱並儲存選件。 [了解更多](#review)
 
 ## 檢閱優惠方案 {#review}
 
@@ -83,19 +83,19 @@ ht-degree: 0%
 
 1. 請確定所有項目皆已正確設定。
 
-1. 您可以顯示預估合格設定檔的資訊。 按一下 **[!UICONTROL Refresh]** 更新資料。
+1. 您可以顯示預估合格設定檔的資訊。 按一下 **[!UICONTROL 重新整理]** 更新資料。
 
    ![](../assets/offer-summary-estimate.png)
 
-1. 當您的優惠方案準備好呈現給使用者時，請按一下 **[!UICONTROL Finish]**.
+1. 當您的優惠方案準備好呈現給使用者時，請按一下 **[!UICONTROL 完成]**.
 
-1. 選擇 **[!UICONTROL Save and approve]**.
+1. 選擇 **[!UICONTROL 儲存並核准]**.
 
    ![](../assets/offer_review.png)
 
    您也可以將優惠方案儲存為草稿，以便稍後編輯並核准。
 
-選件會顯示在清單中，且 **[!UICONTROL Approved]** 或 **[!UICONTROL Draft]** 狀態，取決於您在上一步驟中是否核准。
+選件會顯示在清單中，且 **[!UICONTROL 已核准]** 或 **[!UICONTROL 草稿]** 狀態，取決於您在上一步驟中是否核准。
 
 現在已可供使用者使用。
 
@@ -107,20 +107,20 @@ ht-degree: 0%
 
 ![](../assets/offer_created.png)
 
-選取 **[!UICONTROL Edit]** 按鈕，返回優惠方案版本模式，您可在其中修改優惠方案的 [詳細資訊](#create-offer), [表示](#representations)，以及編輯 [適用性規則與限制](#eligibility).
+選取 **[!UICONTROL 編輯]** 按鈕，返回優惠方案版本模式，您可在其中修改優惠方案的 [詳細資訊](#create-offer), [表示](#representations)，以及編輯 [適用性規則與限制](#eligibility).
 
-選取已核准的優惠方案，然後按一下 **[!UICONTROL Undo approve]** 將優惠方案狀態設回 **[!UICONTROL Draft]**.
+選取已核准的優惠方案，然後按一下 **[!UICONTROL 撤消批准]** 將優惠方案狀態設回 **[!UICONTROL 草稿]**.
 
-將狀態再次設定為 **[!UICONTROL Approved]**，請選取現在顯示的對應按鈕。
+將狀態再次設定為 **[!UICONTROL 已核准]**，請選取現在顯示的對應按鈕。
 
 ![](../assets/offer_approve.png)
 
-此 **[!UICONTROL More actions]** 按鈕可啟用以下說明的動作。
+此 **[!UICONTROL 更多動作]** 按鈕可啟用以下說明的動作。
 
 ![](../assets/offer_more-actions.png)
 
-* **[!UICONTROL Duplicate]**:建立具有相同屬性、表示、適用性規則和限制的優惠方案。 依預設，新選件具有 **[!UICONTROL Draft]** 狀態。
-* **[!UICONTROL Delete]**:從清單中移除選件。
+* **[!UICONTROL 複製]**:建立具有相同屬性、表示、適用性規則和限制的優惠方案。 依預設，新選件具有 **[!UICONTROL 草稿]** 狀態。
+* **[!UICONTROL 刪除]**:從清單中移除選件。
 
    >[!CAUTION]
    >
@@ -128,7 +128,7 @@ ht-degree: 0%
    >
    >如果在集合或決策中使用選件，則無法刪除選件。 您必須先從任何物件中移除選件。
 
-* **[!UICONTROL Archive]**:將優惠方案狀態設為 **[!UICONTROL Archived]**. 選件仍可從清單中取得，但您無法將其狀態設回 **[!UICONTROL Draft]** 或 **[!UICONTROL Approved]**. 您只能複製或刪除它。
+* **[!UICONTROL 封存]**:將優惠方案狀態設為 **[!UICONTROL 已封存]**. 選件仍可從清單中取得，但您無法將其狀態設回 **[!UICONTROL 草稿]** 或 **[!UICONTROL 已核准]**. 您只能複製或刪除它。
 
 您也可以選取對應的核取方塊，以同時刪除或變更多個選件的狀態。
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 ![](../assets/offer_click-name.png)
 
-這可讓您存取該選件的詳細資訊。 選取 **[!UICONTROL Change log]** 標籤 [監視所有更改](../get-started/user-interface.md#monitoring-changes) 已經向你提出了。
+這可讓您存取該選件的詳細資訊。 選取 **[!UICONTROL 變更記錄]** 標籤 [監視所有更改](../get-started/user-interface.md#monitoring-changes) 已經向你提出了。
 
 ![](../assets/offer_information.png)
 

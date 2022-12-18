@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 0%
+source-wordcount: '730'
+ht-degree: 9%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 其中：
 
 * `profile` 是命名空間。
-* `person.name` 是由屬性組成的代號。 屬性結構是在Adobe Experience Platform XDM結構中定義。 [深入了解](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}。
+* `person.name` 是由屬性組成的代號。 屬性結構是在Adobe Experience Platform XDM結構中定義。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;}.
 
 ## 語法一般規則 {#general-rules}
 
@@ -43,7 +43,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 這些字 **true**, **false**, **null** 和 **未定義** 僅允許在路徑表達式的第一部分中。
 
-在Handlebars中， {{expression}} 為 **HTML逸出**. 如果運算式包含 `&`，則傳回的HTML逸出輸出會產生為 `&amp;`. 如果你不希望Handlebars逸出某個值，請使用「三重藏匿」。
+在Handlebars中， {{expression}} 為 **HTML逸出**. 如果運算式包含 `&`，則傳回的HTML逸出輸出會產生為 `&amp;`. 如果你不希望Handlebars逸出某個值，請使用「三藏」。
 
 關於常值函式引數，模板語言解析器不支援單個非逸出反斜線(`\`)符號。 此字元必須以其他反斜線(`\`)符號。 範例：
 
@@ -51,7 +51,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 ## 設定檔
 
-此命名空間可讓您參考描述檔架構中定義的所有屬性，如 [Adobe Experience Platform Data Model(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}。
+此命名空間可讓您參考描述檔架構中定義的所有屬性，如 [Adobe Experience Platform Data Model(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 屬性必須先在結構中定義，才能在 [!DNL Journey Optimizer] 個人化區塊。
 
@@ -82,7 +82,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 >[!NOTE]
 >若要進一步了解分段和分段服務，請參閱 [本節](../segment/about-segments.md).
 
-## 選件 {#offers-syntax}
+## 優惠 {#offers-syntax}
 
 此命名空間可讓您參考現有的選件決策。
 若要參考選件，您必須宣告路徑，其中包含定義選件的不同資訊。
@@ -116,12 +116,12 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* 來自決策引擎的選件HTML內容：
+* HTML來自決策引擎的優惠方案內容：
 
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
-## Helpers{#helpers-all}
+## 輔助程式{#helpers-all}
 
 Handlebars幫手是簡單的標識符，後面可能有參數。
 每個參數都是Handlebars運算式。 這些幫助器可從模板中的任何上下文中訪問。
@@ -140,10 +140,10 @@ Handlebars幫手是簡單的標識符，後面可能有參數。
 
 | 常值 | 定義 |
 | ------- | ---------- |
-| 字串 | 由雙引號包住的字元組成的資料類型。 <br>範例： `"prospect"`, `"jobs"`, `"articles"` |
+| 字串 | 由雙引號包住的字元組成的資料類型。 <br>範例: `"prospect"`, `"jobs"`, `"articles"` |
 | 布林值 | 資料類型為true或false。 |
-| 整數 | 代表整數的資料類型。 可以是正、負或零。 <br>範例： `-201`, `0`, `412` |
-| 陣列 | 由一組其他常值組成的資料類型。 它使用方括弧來分組，並以逗號來分隔不同的值。 <br> **注意：** 您無法直接存取陣列內項目的屬性。 <br> 範例： `[1, 4, 7]`, `["US", "FR"]` |
+| 整數 | 代表整數的資料類型。 可以是正、負或零。 <br>範例: `-201`, `0`, `412` |
+| 陣列 | 由一組其他常值組成的資料類型。 它使用方括弧來分組，並以逗號來分隔不同的值。 <br> **注意：** 您無法直接存取陣列內項目的屬性。 <br> 範例: `[1, 4, 7]`, `["US", "FR"]` |
 
 >[!CAUTION]
 >
@@ -151,11 +151,11 @@ Handlebars幫手是簡單的標識符，後面可能有參數。
 
 ## URL個人化{#perso-urls}
 
-個人化URL會根據設定檔屬性，將收件者帶往網站的特定頁面或個人化微網站。 在Adobe Journey Optimizer中，您可以將個人化新增至訊息內容中的URL。 URL個人化可套用至文字和影像，以及使用設定檔資料或內容資料。
+個人化 URL 會根據設定檔屬性，將收件者帶往網站特定頁面或個人化微網站。 在Adobe Journey Optimizer中，您可以將個人化新增至訊息內容中的URL。 URL 個人化可套用至文字和影像，同時使用個人資料或內容資料。
 
-Journey Optimizer可讓您將個人化欄位新增至訊息中，以個人化一或多個URL。 若要個人化URL，請遵循下列步驟：
+Journey Optimizer可讓您透過新增個人化欄位，個人化訊息中的一或多個URL。 若要個人化URL，請遵循下列步驟：
 
-1. 在訊息內容中建立連結。 [深入了解](../email/message-tracking.md#insert-links)
+1. 在訊息內容中建立連結。 [了解更多](../email/message-tracking.md#insert-links)
 1. 從個人化圖示中，選取屬性。 個人化圖示僅適用於下列類型的連結： **外部連結**, **取消訂閱連結** 和 **退出**.
 
 ![](assets/perso-url.png)

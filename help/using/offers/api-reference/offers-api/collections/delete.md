@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 0%
+source-wordcount: '152'
+ht-degree: 7%
 
 ---
 
 # 刪除集合 {#delete-collection}
 
-有時可能需要移除（刪除）集合。 只能刪除您在租用戶容器中建立的集合。 若要這麼做，請對 [!DNL Offer Library] API，使用您要刪除之集合的$id。
+有時可能需要移除(DELETE)集合。 只能刪除您在租用戶容器中建立的集合。 若要這麼做，請對 [!DNL Offer Library] API，使用您要刪除之集合的$id。
 
 **API格式**
 

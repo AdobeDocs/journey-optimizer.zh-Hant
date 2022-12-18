@@ -8,8 +8,8 @@ level: Experienced
 exl-id: e236efa9-91a8-4f08-94c6-45f1e060bb2f
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 0%
+source-wordcount: '79'
+ht-degree: 12%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 0%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| 清單1 | 清單 |
-| 清單2 | 清單 |
+| 清單1 | list |
+| 清單2 | list |
 
 ## 簽名和返回的類型
 

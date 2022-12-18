@@ -8,12 +8,12 @@ level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 0%
+source-wordcount: '561'
+ht-degree: 6%
 
 ---
 
-# 陣列和清單函式 {#arrays}
+# 陣列和清單功能 {#arrays}
 
 使用這些函式可讓您更輕鬆地與陣列、清單和字串互動。
 

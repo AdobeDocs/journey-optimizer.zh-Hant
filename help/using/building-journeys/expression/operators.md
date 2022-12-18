@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 運算子
+title: 操作者
 description: 了解進階運算式中的運算子
 feature: Journeys
 role: Data Engineer
@@ -9,12 +9,12 @@ level: Experienced
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 0%
+source-wordcount: '453'
+ht-degree: 7%
 
 ---
 
-# 運算子 {#operators}
+# 操作者 {#operators}
 
 運算子有兩種：一元運算子和二進位運算子。 有左一元運算子和右一元運算子。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
     (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com")
 ```
 
-## 重要附註{#important-notes}
+## 重要備註{#important-notes}
 
 * 使用乘法時(`*`)，則兩個操作欄位必須具有相同類型，可以是整數或小數。 範例：
    * 下列範例正確： `3.0 * 4.0`
@@ -382,7 +382,7 @@ Datetimeonly可與Datetimeonly進行比較。
 3 % 2 -- returns 1.
 ```
 
-## 數學 {#math}
+## Math {#math}
 
 ### 為數值
 
