@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 100%
+source-wordcount: '939'
+ht-degree: 91%
 
 ---
 
@@ -70,6 +70,7 @@ ht-degree: 100%
 * 對於系統產生的事件，必須先在 Journey Optimizer 中設定用於啟動客戶歷程的串流資料，才能取得唯一的協調流程 ID。 此協調流程 ID 必須附加至傳入 Adobe Experience Platform 的串流裝載。 此限制不適用於規則型事件。
 * 業務事件不能與單一事件或區段資格活動結合使用。
 * 單一歷程 (從事件或區段資格開始) 包含可防止為同一事件多次錯誤觸發歷程的護欄。 在預設情況下，設定檔重新進入時會暫時封鎖 5 分鐘。 例如，如果某個事件在 12:01 觸發特定設定檔的歷程，而另一個事件在 12:03 達到時間限制 (無論是相同事件或是不同事件觸發相同歷程)，則此設定檔的歷程將不會再次開始。
+* Journey Optimizer需要將事件串流至資料收集核心服務(DCCS)，才能觸發歷程。 以批次內嵌的事件，或內部Journey Optimizer資料集（訊息意見、電子郵件追蹤等） 無法用來觸發歷程。 若是無法取得串流事件的使用案例，請根據這些事件建立區段，然後使用 **讀取區段** 活動。 技術上可使用區段資格，但可能根據使用的動作造成下游挑戰。
 
 ### 資料來源 {#data-sources-g}
 

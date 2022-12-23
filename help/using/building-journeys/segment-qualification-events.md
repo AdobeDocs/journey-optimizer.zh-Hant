@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '924'
 ht-degree: 3%
 
 ---
@@ -66,6 +66,10 @@ ht-degree: 3%
    >請注意 **[!UICONTROL 輸入]** 和 **[!UICONTROL 退出]** 對應至 **已實現** 和 **退出** 來自Adobe Experience Platform的區段參與狀態。 如需如何評估區段的詳細資訊，請參閱 [區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}。
 
 1. 選取命名空間。 唯有將事件定位為歷程的第一步時，才需要此選項。
+
+   >[!NOTE]
+   >
+   >您只能選取以人物為基礎的身分命名空間。 如果您已為查詢表格定義命名空間(例如：產品查閱的ProductID命名空間)，將無法使用於 **命名空間** 下拉式清單。
 
    ![](assets/segment7.png)
 

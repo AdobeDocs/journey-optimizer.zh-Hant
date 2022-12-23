@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1577'
 ht-degree: 11%
 
 ---
@@ -70,6 +70,7 @@ ht-degree: 11%
    >定義 **[!UICONTROL 事件ID條件]**. 在簡單運算式編輯器中，並非所有運算子都可用，它們取決於資料類型。 例如，對於欄位的字串類型，您可以使用「包含」或「等於」。
 
 1. 新增命名空間。此步驟為選填，但建議您新增命名空間，以便運用儲存在「即時客戶個人檔案服務」的資訊。它會定義事件具備的金鑰類型。請參閱[本節](../event/about-creating.md#select-the-namespace)。
+
 1. 定義設定檔識別碼：從您的裝載欄位中選擇欄位，或定義公式以識別與事件相關聯的人員。 如果您選取命名空間，系統便會自動設定此金鑰（但您仍可加以編輯）。事實上，歷程會挑選應該與命名空間對應的金鑰（例如，如果您選取電子郵件命名空間，系統便會選取電子郵件金鑰）。 請參閱[本節](../event/about-creating.md#define-the-event-key)。
 
    ![](assets/jo-event7.png)
@@ -123,12 +124,15 @@ ht-degree: 11%
 
 ![](assets/primary-identity.png)
 
-
 從下拉式清單中選取命名空間。
 
 ![](assets/journey17.png)
 
 每個歷程僅允許一個命名空間。 如果您在相同歷程中使用數個事件，則這些事件需要使用相同的命名空間。 請參閱[此頁面](../building-journeys/journey.md)。
+
+>[!NOTE]
+>
+>您只能選取以人物為基礎的身分命名空間。 如果您已為查詢表格定義命名空間(例如：產品查閱的ProductID命名空間)，將無法使用於 **命名空間** 下拉式清單。
 
 ## 定義設定檔識別碼 {#define-the-event-key}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1328'
 ht-degree: 11%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >屬於某區段的個人若未在其不同身分之間選取身分（命名空間），便無法進入歷程。
+   >屬於某區段的個人若未在其不同身分之間選取身分（命名空間），便無法進入歷程。 您只能選取以人物為基礎的身分命名空間。 如果您已為查詢表格定義命名空間(例如：產品查閱的ProductID命名空間)，將無法使用於 **命名空間** 下拉式清單。
 
 1. 設定 **[!UICONTROL 節流率]** 欄位至讀取區段活動的輸送量限制。
 

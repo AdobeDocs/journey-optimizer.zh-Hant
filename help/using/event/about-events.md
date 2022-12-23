@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 55%
+source-wordcount: '975'
+ht-degree: 51%
 
 ---
 
@@ -57,7 +57,9 @@ ht-degree: 55%
 
 * **系統產生的** 事件：這些事件需要 eventID。建立事件時，會自動產生此 eventID 欄位。 推播事件的系統不應產生 ID，而應傳遞有效裝載預覽中可用的 ID。
 
-Journey Optimizer需要將事件串流或批次傳入Adobe Experience Platform。 此資料不一定需要前往即時設定檔。 如果您想要在個別歷程中使用事件進行細分或查詢，建議您為設定檔啟用資料集。
+>[!NOTE]
+>
+>Journey Optimizer需要將事件串流至資料收集核心服務(DCCS)，才能觸發歷程。 以批次內嵌的事件，或內部Journey Optimizer資料集（訊息意見、電子郵件追蹤等） 無法用來觸發歷程。 若是無法取得串流事件的使用案例，請根據這些事件建立區段，然後使用 **讀取區段** 活動。 技術上可使用區段資格，但可能根據使用的動作造成下游挑戰。 此資料不一定需要前往即時設定檔。 如果您想要在個別歷程中使用事件進行細分或查詢，建議您為設定檔啟用資料集。
 
 ## 資料週期 {#data-cycle}
 

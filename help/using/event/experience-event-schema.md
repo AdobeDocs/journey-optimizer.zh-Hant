@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 4%
+source-wordcount: '834'
+ht-degree: 3%
 
 ---
 
@@ -79,6 +79,16 @@ Adobe Experience Platform 可讓您定義綱要之間的關係，以便將一個
 * 在歷程中使用條件時， [了解詳情](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * 在訊息個人化中， [了解詳情](../event/experience-event-schema.md#message_personalization)
 * 在自訂動作個人化中， [了解詳情](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+
+### 陣列{#relationships_limitations}
+
+您可以在字串陣列上定義結構關係，例如產品ID清單。
+
+![](assets/schema15.png)
+
+但是，您無法定義與對象陣列內的屬性的架構關係，例如購買資訊清單（產品ID、產品名稱、價格、折扣）。 查詢值將無法用於歷程（條件、自訂動作等） 和訊息個人化。
+
+![](assets/schema16.png)
 
 ### 事件設定{#unitary_event_configuration}
 
