@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 3%
+source-wordcount: '973'
+ht-degree: 2%
 
 ---
 
@@ -48,6 +48,21 @@ ht-degree: 3%
 進一步了解權限，請參閱 [本節](../administration/high-low-permissions.md).
 
 ## 建立規則 {#create-new-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_category"
+>title="選擇消息規則類別"
+>abstract="啟用並套用至訊息時，所有符合所選類別的頻率規則會自動套用至此訊息。 目前只有行銷類別可供使用。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_capping"
+>title="設定規則的上限"
+>abstract="指定每月傳送至客戶設定檔的訊息數上限。 頻率上限將根據每月日曆期間，並將於每月初重設。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_channel"
+>title="定義規則套用的管道"
+>abstract="至少選擇一個通道。 上限設定會套用至所有管道，作為總計數。"
 
 若要建立新規則，請遵循下列步驟。
 
@@ -115,26 +130,23 @@ ht-degree: 3%
 
 若要將頻率規則套用至訊息，請遵循下列步驟。
 
-1. 選取您為規則定義的其中一個管道，以建立訊息。
+1. 建立 [歷程](../building-journeys/journey-gs.md)，請選取您為規則定義的其中一個管道，以新增訊息。
 
 1. 選取您為 [已建立的規則](#create-new-rule).
 
-   ![](assets/inline-message-category.png)
+   ![](assets/journey-message-category.png)
 
    >[!NOTE]
    >
    >目前僅 **[!UICONTROL 行銷]** 類別適用於訊息頻率規則。
 
-   <!--
-   1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). A new tab will open to display the matching message frequency rules.-->
+1. 您可以按一下 **[!UICONTROL 頻率規則]** 連結以在新索引標籤中檢視頻率規則畫面。 [了解更多](#access-rules)
 
-1. 符合所選類別和通道的所有頻率規則將自動應用於此消息。
+   符合所選類別和通道的所有頻率規則將自動應用於此消息。
 
    >[!NOTE]
    >
-   >訊息 <!--that do not have any selected category or messages -->其中選取的類別為 **[!UICONTROL 交易]** 不會根據頻率規則來評估。
-
-   <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
+   >所選類別為的訊息 **[!UICONTROL 交易]** 不會根據頻率規則來評估。
 
 1. 您可以在 [全域報表](../reports/global-report.md)，和 [即時報表](../reports/live-report.md)，其中頻率規則會列為將使用者排除在傳送之外的可能原因。
 

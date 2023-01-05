@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
 
 # 登陸頁面即時報表 {#lp-report-live}
+
+>[!CONTEXTUALHELP]
+>id="ajo_landing_page_live_report"
+>title="登陸頁面即時報表"
+>abstract="「登錄頁面即時」報表可讓您只在過去24小時內，即時測量並視覺化登錄頁面的影響和效能。 您的報表會分為不同的Widget，詳細說明登錄頁面的成功和錯誤。 每個報表控制面板都可借由調整大小或移除小工具來修改。"
 
 登錄頁面 **[!UICONTROL 即時報表]** 報表只會顯示過去24小時內登錄頁面影響的詳細資訊。 若要測量所選時段內的登錄頁面資料，請參閱 [登錄頁面全域報表](lp-report-global.md).
 

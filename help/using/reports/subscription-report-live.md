@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
 
 # 訂閱即時報表 {#subscription-report-live}
+
+>[!CONTEXTUALHELP]
+>id="ajo_subscription_live_report"
+>title="訂閱即時報表"
+>abstract="「訂閱即時」報表可讓您只在過去24小時內，即時測量並視覺化訂閱者的活動。 您的報表會分為不同的Widget，詳細說明您的訂閱和取消訂閱。 每個報表控制面板都可借由調整大小或移除小工具來修改。"
 
 訂閱 **[!UICONTROL 即時報表]** 僅顯示過去24小時訂閱者的活動詳細資訊。 若要測量選定時段內的訂閱，請參閱 [訂閱全域報告](subscription-report-global.md).
 

@@ -8,16 +8,21 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1704'
 ht-degree: 1%
 
 ---
 
 # 行銷活動全域報告 {#campaign-global-report}
 
-您可以使用 **[!UICONTROL 所有時間]** 按鈕。
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_report"
+>title="行銷活動全域報告"
+>abstract="「促銷活動全域」報表可讓您測量所選時段內促銷活動的影響。 您的報表會分為不同的Widget，詳述促銷活動的成功和錯誤。 每個報表控制面板都可借由調整大小或移除小工具來修改。"
+
+您可以使用 **[!UICONTROL 檢視報表]** 按鈕。
 
 ![](assets/campaign_report_global_5.png)
 
@@ -34,7 +39,7 @@ ht-degree: 1%
 
 ## 行銷活動標籤 {#campaign-global}
 
-### 傳遞 {#delivery-global}
+### 傳送 {#delivery-global}
 
 ![](assets/campaign_report_global_1.png)
 

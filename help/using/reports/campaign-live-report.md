@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '921'
 ht-degree: 3%
 
 ---
 
 # 行銷活動即時報告 {#campaign-live-report}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_report"
+>title="行銷活動即時報告"
+>abstract="「促銷活動即時」報表可讓您僅在過去24小時內即時測量和視覺化促銷活動的影響和效能。 您的報表會分為不同的Widget，詳述促銷活動的成功和錯誤。 每個報表控制面板都可借由調整大小或移除小工具來修改。"
 
 您可以使用 **[!UICONTROL 即時檢視]** 按鈕。
 
@@ -26,14 +31,13 @@ ht-degree: 3%
 * [推播](#push-live)
 * [SMS](#sms-live)
 
-
 行銷活動 **[!UICONTROL 即時報表]** 會分為不同的小工具，詳細說明促銷活動的成功和錯誤。 如有需要，可對每個介面工具集調整大小並加以刪除。 有關詳細資訊，請參閱 [節](../reports/live-report.md#modify-dashboard).
 
 如需Adobe Journey Optimizer中可用每個量度的詳細清單，請參閱 [本頁](live-report.md#list-of-components-live).
 
 ## 行銷活動標籤 {#campaign-global}
 
-### 傳遞 {#delivery-global}
+### 傳送 {#delivery-global}
 
 此 **[!UICONTROL 促銷活動統計資料]** 介面工具集詳細說明與促銷活動相關的主要資訊：
 

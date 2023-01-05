@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 0%
+source-wordcount: '1138'
+ht-degree: 1%
 
 ---
 
 # 歷程即時報告 {#journey-live-report}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_live_report"
+>title="歷程即時報告"
+>abstract="「歷程即時」報表可讓您僅在過去24小時內即時測量並視覺化您歷程的影響和效能。 您的報表會分為不同的Widget，詳述您歷程的成功和錯誤。 每個報表控制面板都可借由調整大小或移除小工具來修改。"
 
 您可以直接從歷程存取即時報告，其中包含 **[!UICONTROL 檢視報表]** 按鈕。
 

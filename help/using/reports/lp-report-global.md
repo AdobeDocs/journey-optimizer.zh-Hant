@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
 
 # 登錄頁面全域報表 {#lp-report-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_landing_page_global_report"
+>title="登錄頁面全域報表"
+>abstract="「登錄頁面全域」報表可讓您測量在選定時段內登錄頁面的影響。 您的報表會分為不同的Widget，詳細說明登錄頁面的成功和錯誤。 每個報表控制面板都可借由調整大小或移除小工具來修改。"
 
 登錄頁面 **[!UICONTROL 全域報表]** 報表會顯示所選時段內登錄頁面影響的詳細資訊。 若要僅測量過去24小時的登錄頁面資料，請參閱 [登陸頁面即時報表](lp-report-live.md).
 

@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '2022'
 ht-degree: 0%
 
 ---
 
 # 歷程全域報告 {#journey-global-report}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_global_report"
+>title="歷程全域報告"
+>abstract="「歷程全域」報表可讓您測量在選定時段內歷程的影響。 您的報表會分為不同的Widget，詳述您歷程的成功和錯誤。 每個報表控制面板都可借由調整大小或移除小工具來修改。"
 
 您可以直接從歷程存取歷程全域報表，其中包含 **[!UICONTROL 檢視報表]** 按鈕。
 
