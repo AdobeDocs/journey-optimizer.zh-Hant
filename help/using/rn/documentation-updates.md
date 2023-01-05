@@ -5,9 +5,9 @@ title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2220'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 99%
    * [推播通知頻道](../push/get-started-push.md)
    * [簡訊頻道](../sms/get-started-sms.md)
 
-* 已重新整理設定指南，以改善可讀性。 [閱讀全文](../configuration/get-started-configuration.md)
+* 設定指南已重新整理，以改善可讀性。[閱讀全文](../configuration/get-started-configuration.md)
 
 ## 2022 年 11 月 {#november-2022}
 
