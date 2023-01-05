@@ -6,9 +6,9 @@ description: 作為系統管理員，深入瞭解如何使用 Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 9f67172f31ddc1caef9d014c365f71e470e45390
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 92%
 1. **建立沙箱**&#x200B;以將執行個體分區到獨立的虛擬環境中。 在[!DNL Journey Optimizer]中建立的&#x200B;**沙箱**。在[沙箱](../../administration/sandboxes.md)一節中了解更多資訊。
 
    >[!NOTE]
-   >As a **系統管理員**，如果您看不到 **[!UICONTROL 沙箱]** 功能表 [!DNL Journey Optimizer]，請在 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}。 在[本頁](../../administration/permissions.md#edit-product-profile)了解如何更新您的產品設定檔。
+   >作為&#x200B;**系統管理員**，如果您無法您在[!DNL Journey Optimizer]看到&#x200B;**[!UICONTROL 沙箱]**&#x200B;選單，請在 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} 更新您的權限。 在[本頁](../../administration/permissions.md#edit-product-profile)了解如何更新您的產品設定檔。
 
 1. **了解產品設定檔**。產品設定檔是一組統一權限，可讓使用者存取介面中的特定功能或物件。 在[現成可用的產品設定檔](../../administration/ootb-product-profiles.md)區段中了解更多。
 
-1. 針對產品設定檔&#x200B;**設定權限**，包括&#x200B;**沙箱**，並將團隊成員指派至不同的產品設定檔，以授予其存取權。 此步驟會在 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}。 權限是統一權限，允許您定義分配至&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;的授權。每個權限都是透過功能 (例如歷程或優惠) 收集而得，這些功能代表 [!DNL Journey Optimizer] 中的不同功能或物件。在[權限層級](../../administration/high-low-permissions.md)一節中了解更多 。
+1. 針對產品設定檔&#x200B;**設定權限**，包括&#x200B;**沙箱**，並將團隊成員指派至不同的產品設定檔，以授予其存取權。 此步驟會在 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} 執行。 權限是統一權限，允許您定義分配至&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;的授權。每個權限都是透過功能 (例如歷程或優惠) 收集而得，這些功能代表 [!DNL Journey Optimizer] 中的不同功能或物件。在[權限層級](../../administration/high-low-permissions.md)一節中了解更多 。
 
 此外，您必須將需要存取 Assets Essentials 的使用者新增至 **Assets Essentials 消費者使用者**&#x200B;或/和 **Assets Essentials 使用者**&#x200B;產品設定檔。 [如需詳細資訊，請參閱 Assets Essentials 檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
@@ -42,7 +42,7 @@ ht-degree: 92%
 若要建立您的歷程並傳送訊息，請存取&#x200B;**系統管理**&#x200B;功能表。 瀏覽&#x200B;**[!UICONTROL 管道]**&#x200B;功能表來設定訊息和通道表面 (即訊息預設集)。
 
 >[!NOTE]
->As a **系統管理員**，如果您看不到 **[!UICONTROL 管道]** 功能表 [!DNL Journey Optimizer]，請在 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}。 在[本頁](../../administration/permissions.md#edit-product-profile)了解如何更新您的產品設定檔。
+>作為&#x200B;**系統管理員**，如果您在[!DNL Journey Optimizer]中看不到&#x200B;**[!UICONTROL 通道]**&#x200B;選單，請在 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} 中更新您的權限。在[本頁](../../administration/permissions.md#edit-product-profile)了解如何更新您的產品設定檔。
 
 請遵循以下步驟：
 
