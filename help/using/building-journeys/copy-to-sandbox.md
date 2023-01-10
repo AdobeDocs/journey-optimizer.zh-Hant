@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: b320a69b12abe14f745097403d7447e47c101596
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 2%
 >title="相依對象"
 >abstract="這是歷程中使用的關聯物件清單。 此清單會顯示名稱、物件類型，以及內部Journey Optimizer ID。"
 
-Journey Optimizer可讓您將整個歷程從一個沙箱複製到另一個沙箱。 例如，您可以將歷程從Stage沙箱環境複製到生產沙箱。 除了歷程本身，Journey Optimizer也會複製歷程所仰賴的大部分物件：區段、曲面（即預設集）、結構、事件和動作。 有關複製對象的詳細資訊，請參閱 [節](../building-journeys/copy-to-sandbox.md#limitations).
+Journey Optimizer可讓您將整個歷程從一個沙箱複製到另一個沙箱。 例如，您可以將歷程從Stage沙箱環境複製到生產沙箱。 除了歷程本身，Journey Optimizer也會複製歷程所仰賴的大部分物件：區段、曲面（即預設集）、結構、事件和動作。 有關複製對象的詳細資訊，請參閱 [節](#limitations).
 
 >[!CAUTION]
 >
@@ -75,7 +75,7 @@ Journey Optimizer可讓您將整個歷程從一個沙箱複製到另一個沙箱
 
 ## 複製流程和限制 {#limitations}
 
-我們不保證所有連結的元素都會複製到目的地沙箱。 強烈建議您執行徹底檢查。 找出任何可能遺失的物件，並在發佈歷程前手動建立。
+所有連結的元素可能不會複製到目的地沙箱。 Adobe強烈建議您執行徹底檢查。 找出任何可能遺失的物件，並在發佈歷程前手動建立。
 
 會複製下列物件：
 
