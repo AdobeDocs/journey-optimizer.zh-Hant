@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
+source-git-commit: 075a90130696877d5dea39b7bfe4e85b2aac4791
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1739'
 ht-degree: 3%
 
 ---
@@ -146,22 +146,22 @@ ht-degree: 3%
 
 <table>
     <tr>
-        <td><a href="objects.md#absolute">絕對</a></td><td>此函式會轉換其絕對值的數字</td>
+        <td><a href="math.md#absolute">絕對</a></td><td>此函式將轉換數字的絕對值</td>
     </tr>
     <tr>
-        <td><a href="objects.md#random">Random</a></td><td>此函式會傳回0到1之間的隨機值</td>
+        <td><a href="math.md#random">Random</a></td><td>此函式會傳回0到1之間的隨機值</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-down">向下捨入</a></td><td>此函式會捨入數字</td>
+        <td><a href="math.md#round-down">向下捨入</a></td><td>此函式會捨入數字</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-up">向上</a></td><td>此函式會四捨五入數字</td>
+        <td><a href="math.md#round-up">向上</a></td><td>此函式會四捨五入數字</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-percentage">結束百分比</a></td><td>此函式將數字轉換為百分比</td>
+        <td><a href="math.md#to-percentage">結束百分比</a></td><td>此函式將數字轉換為百分比</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-precision">精準</a></td><td>此函式將數字轉換為所需的精度</td>
+        <td><a href="math.md#to-precision">精準</a></td><td>此函式將數字轉換為所需的精度</td>
     </tr>
 </table>
 
@@ -292,7 +292,7 @@ ht-degree: 3%
         <td><a href="string.md#sub-string">子字串</a></td><td>此函式返回起始索引和結束索引之間的字串表達式的子字串。</td>
     </tr>
     <tr>
-        <td><a href="string.md#titleCase">標題案例</a></td><td>此函式用於大寫字串每個單詞的前字母</td>
+        <td><a href="string.md#titleCase">標題案例</a></td><td>此函式用於大寫字串每個單詞的首字母</td>
     </tr>
     <tr>
         <td><a href="string.md#to-bool">到布爾</a></td><td>此函式根據參數值的類型將參數值轉換為布爾值。</td>
@@ -325,7 +325,7 @@ Helpers在 [本頁](helpers.md).
 
 <table>
     <tr>
-        <td><a href="helpers.md#default">預設後援值</a></td><td>此函式可讓呈現預設的變數</td>
+        <td><a href="helpers.md#default">預設後援值</a></td><td>此函式可用來呈現預設的變數</td>
     </tr>
     <tr>
         <td><a href="helpers.md#each">每個</a></td><td>此函式用於迭代過陣列</td>
