@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 23f1ad4580d714acaefd7a5948ee674ce5203bc6
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '834'
 ht-degree: 5%
 
 ---
@@ -71,6 +71,13 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!ENDTABS]
 
 ## 定義您的電子郵件內容 {#define-email-content}
+
+<!-- update the quarry component with right ID value-->
+
+>[!CONTEXTUALHELP]
+>id="test_id"
+>title="設定電子郵件內容"
+>abstract="建立電子郵件的內容。 定義其主旨，然後運用電子郵件設計工具來建立並個人化電子郵件的內文。"
 
 1. 在歷程或行銷活動設定畫面中，按一下 **[!UICONTROL 編輯內容]** 按鈕來設定電子郵件內容。 [了解更多](get-started-email-design.md)
 
