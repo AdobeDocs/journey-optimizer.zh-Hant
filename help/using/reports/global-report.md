@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 7c7faa5e672d5ed6d7a083db50b206d11ecc4184
+source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1203'
 ht-degree: 4%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-### 電子郵件和簡訊量度 {#email-and-sms-metrics}
+### 電子郵件和簡訊維度與量度 {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -430,75 +430,6 @@ ht-degree: 4%
    <td>造訪數<br/> </td> 
    <td>對登錄頁面的瀏覽次數，包括一個收件者的多次瀏覽。<br/> </td> 
 </tr>
- </tbody> 
-</table>
-
-### 推播通知量度
-
-<table> 
- <thead> 
-  <tr> 
-   <th> 量度<br/> </th> 
-   <th> 定義<br/> </th> 
-</tr>
- </thead> 
- <tbody>
- <tr> 
-   <td>動作<br/> </td> 
-   <td> 已傳送推播通知的動作總數，例如按鈕點擊或解除。<br/> </td> 
-</tr>
-  <tr> 
-   <td>跳出<br/> </td> 
-   <td> 傳送和自動回傳處理期間累積的錯誤總數，與已傳送訊息的總數相關。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 跳出率<br/> </td> 
-   <td> 跳出的推播通知與傳送的推播通知的百分比。<br/> </td>
-</tr>
-  <tr> 
-   <td> 已傳遞<br/> </td> 
-   <td> 已成功傳送的訊息數，與已傳送的訊息總數相關。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 傳送率<br/> </td> 
-   <td> 成功傳送推播通知的百分比。<br/> </td> 
-</tr>
-  <tr> 
-   <td>參與<br/> </td> 
-   <td> 此推播通知的開啟次數和動作總數，亦即設定檔開啟了推播或按了按鈕。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 參與率<br/> </td> 
-   <td> 此推播通知的開啟次數和動作百分比，亦即設定檔開啟了推播或按鈕被點按時。<br/> </td> 
-</tr>
-  <tr> 
-   <td> 錯誤<br/> </td> 
-   <td> 傳送期間發生的錯誤總數，使其無法傳送至設定檔。<br/> </td> 
-</tr>
-  <tr> 
-   <td> 錯誤率<br/> </td> 
-   <td> 與傳送的推播通知相比，傳送期間發生而無法傳送的錯誤百分比。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 已排除<br/> </td> 
-   <td> 已由Adobe Journey Optimizer排除的設定檔數目。<br/> </td> 
-</tr>
-  <tr> 
-   <td> 開啟數<br/> </td> 
-   <td> 傳送至裝置並由使用者點按以開啟應用程式的推播通知總數。 這類似於推播點擊，但若關閉通知，則不會觸發推播開啟。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 開放率<br/> </td> 
-   <td> 已開啟推播通知的百分比。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 已傳送<br/> </td> 
-   <td> 傳送的傳送總數。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 已鎖定<br/> </td> 
-   <td> 傳送分析期間處理的推送訊息總數。<br/> </td> 
-</tr>  
  </tbody> 
 </table>
 
