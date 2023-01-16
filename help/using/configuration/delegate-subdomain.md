@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
+source-git-commit: fc88faceceea0312417e1176a5a61c1c03a6f01b
 workflow-type: tm+mt
-source-wordcount: '1751'
-ht-degree: 9%
+source-wordcount: '1775'
+ht-degree: 8%
 
 ---
 
@@ -114,6 +114,11 @@ ht-degree: 9%
 >id="ajo_admin_subdomain_dns_cname"
 >title="生成匹配的DNS和驗證記錄"
 >abstract="若要使用CNAME委派子網域，您必須將Journey Optimizer介面中顯示的Adobe名稱伺服器資訊和SSL CDN URL驗證記錄複製並貼上至您的托管平台。 檢查成功後，子網域即可供用來傳送訊息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_cdn_cname"
+>title="複製驗證記錄"
+>abstract="Adobe生成驗證記錄。 您必須在托管平台上建立對應的記錄，才能進行CDN URL驗證。"
 
 如果您有特定於域的限制策略，並且希望Adobe只對DNS有部分控制，則可以選擇在您的一方執行所有與DNS相關的活動。
 
