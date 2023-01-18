@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: f5d5c9dacd640b130dd4bcbaab803ecc7e999d10
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 2%
@@ -75,7 +75,7 @@ curl -X POST \
                 }
                 ]
             },
-            "xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"
+            "xdm:decisionRequestId": "0AA00002-0000-1224-c0de-cjf98Csj43"
             }
         ],
         "xdm:allowDuplicatePropositions": {
@@ -110,7 +110,7 @@ curl -X POST \
 | `xdm:itemCount` | 要傳回的選件數。 最大數為30。 | `"xdm:itemCount": 2` |
 | `xdm:profiles` | 此對象包含請求決策的配置檔案的相關資訊。 若為API請求，此請求將包含一個設定檔。 |
 | `xdm:profiles.xdm:identityMap` | 此物件會根據身分識別的命名空間整合程式碼，保留一組一般使用者身分識別。 身分對應可承載每個命名空間的多個身分。 如需命名空間的詳細資訊，請參閱 [本頁](../../../segment/get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
-| `xdm:profiles.xdm:decisionRequestId` | 用戶端產生的ID，可用來唯一識別設定檔決策請求。 此ID會在回應中回復，不會影響決策的結果。 | `"xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"` |
+| `xdm:profiles.xdm:decisionRequestId` | 用戶端產生的ID，可用來唯一識別設定檔決策請求。 此ID會在回應中回復，不會影響決策的結果。 | `"xdm:decisionRequestId": "0AA00002-0000-1224-c0de-cjf98Csj43"` |
 | `xdm:allowDuplicatePropositions` | 此對象是重複資料消除規則的控制結構。 它包含一系列標幟，指出是否可以在特定維度中建議相同的選項。 將設為true的標幟表示允許重複項目，且不應在標幟所指示的類別間移除。 將標幟設為false表示決策引擎不應在整個維度中提出相同的主張，而應為其中一個子決策選取下一個最佳選項。 |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | 如果設為true，可能會為多個決策指派相同的選項。 | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | 如果設為true，系統可能會為多個版位指派相同的選項。 | `"xdm:acrossPlacements": true` |
