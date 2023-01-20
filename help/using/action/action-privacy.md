@@ -3,16 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 資料治理
 description: 定義連結至標籤和行銷動作的控管政策
-feature: Data Governance
+feature: Privacy
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: 資料，治理， DULE，標籤，標籤，平台，政策
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '939'
+ht-degree: 97%
 
 ---
 
