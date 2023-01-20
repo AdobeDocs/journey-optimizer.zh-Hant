@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: a5b49f113fa0f1375f74368a63ea19789f3798c2
 workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 26%
+ht-degree: 25%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 26%
 >
 >您無法使用相同的傳送網域，從 [!DNL Adobe Journey Optimizer] 和其他產品，如 [!DNL Adobe Campaign] 或 [!DNL Adobe Marketo Engage].
 
-## 為什麼要設定子網域？ {#why-setting-up-subdomains}
+## 為什麼要設定子網域？ {#why-set-up-subdomains}
 
 子網域是您網域的分區，可用來隔離您的品牌或各種類型的流量，例如交易式訊息和行銷通訊。
 
