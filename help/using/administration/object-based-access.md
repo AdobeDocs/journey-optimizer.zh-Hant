@@ -2,16 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 物件等級存取控制
-description: 了解物件層級存取控制
+description: 了解對象級訪問控制，該控制允許您定義授權以管理對選定對象的資料訪問
 feature: Access Management
 topic: Administration
-role: Admin
-level: Intermediate
+role: Admin, Developer, Architect
+level: Experienced
+keywords: 對象，級別，訪問，控制，標籤，olac，授權
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -2,16 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 管理使用者和產品設定檔
-description: 瞭解如何管理權限
+description: 了解如何管理使用者和產品設定檔
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+keywords: 產品，設定檔，沙箱
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -99,7 +100,7 @@ ht-degree: 6%
 
 [!DNL Journey Optimizer] 可讓您建立自己的 **[!UICONTROL 產品設定檔]** 並將一組權限和沙箱指派給您的使用者。 使用 **[!UICONTROL 產品設定檔]**，您可以授權或拒絕存取介面中的特定功能或物件。
 
-如需如何建立和管理沙箱的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+如需如何建立和管理沙箱的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target="_blank"}.
 
 在此範例中，我們將建立名為 **歷程唯讀** 我們會授予歷程功能的唯讀權限。 使用者將只能存取及檢視歷程，而無法存取其他功能，例如 **[!DNL  Decision management]** in [!DNL Journey Optimizer].
 

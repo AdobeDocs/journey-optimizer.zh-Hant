@@ -5,13 +5,14 @@ title: 使用者管理概述
 description: 了解如何定義和管理權限
 feature: Access Management
 topic: Administration
-role: Admin
+role: Admin, Architect
 level: Intermediate
+keywords: 權限，權限，限制，存取，沙箱
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 30%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -2,16 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 以屬性為基礎的存取控制
-description: 了解基於屬性的訪問控制
+description: 基於屬性的訪問控制(ABAC)允許您定義授權，以管理特定團隊或用戶組的資料訪問。
 feature: Access Management
 topic: Administration
-role: Admin
+role: Admin,Leader
 level: Intermediate
+keywords: abac，屬性，授權，資料，訪問，敏感，資產
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -5,13 +5,14 @@ title: 關於動作
 description: 瞭解如何設定動作
 feature: Actions
 topic: Administration
-role: Admin
+role: Admin,Developer
 level: Intermediate
+keywords: 動作，歷程，訊息，傳送，連線
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 43%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +31,7 @@ ht-degree: 43%
 
 如果您有Adobe Campaign v7或v8，可應要求提供整合。 請參見[此頁面](../action/acc-action.md)。
 
-如果您使用協力廠商系統來傳送訊息，例如Epsilon、Facebook、 [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}、Firebase等，您需要新增及設定自訂動作。 請參見[此頁面](../action/about-custom-action-configuration.md)。
+如果您使用協力廠商系統來傳送訊息，例如Epsilon、Facebook、 [Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase等，您需要新增及設定自訂動作。 請參見[此頁面](../action/about-custom-action-configuration.md)。
 
 自訂動作可讓您設定協力廠商系統的連線，以傳送訊息或 API 呼叫。您可以使用任何提供者提供的任何服務來設定動作，這些服務可透過具有 JSON 格式的裝載，透過 REST API 進行呼叫。
 

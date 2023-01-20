@@ -2,16 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 與 Adobe Campaign v7/v8 整合
-description: 了解如何與Adobe Campaign v7/v8整合
+description: 了解如何將Journey Optimizer與Adobe Campaign v7/v8整合
 feature: Actions
 topic: Administration
-role: Admin
+role: Admin,Developer
 level: Intermediate
+keywords: campaign, acc，整合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +45,7 @@ Journey Optimizer和Campaign執行個體之間的連線是在布建時Adobe設�
 
 ## 先決條件 {#prerequisites}
 
-在Campaign中，您需要建立並發佈交易式訊息及其相關事件。 請參閱 [Adobe Campaign檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}。
+在Campaign中，您需要建立並發佈交易式訊息及其相關事件。 請參閱 [Adobe Campaign檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target="_blank"}.
 
 您可以依照下列模式，建立與每個訊息對應的JSON裝載。 然後您會在Journey Optimizer中設定動作時貼上此裝載（請參閱下方）
 
