@@ -7,10 +7,11 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: 事件，統一，建立，歷程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1573'
 ht-degree: 11%
 
 ---
@@ -81,7 +82,7 @@ ht-degree: 11%
 
 ## 定義裝載欄位 {#define-the-payload-fields}
 
-有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯之人員的金鑰。 裝載以Experience CloudXDM欄位定義為基礎。 如需XDM的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯之人員的金鑰。 裝載以Experience CloudXDM欄位定義為基礎。 如需XDM的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}.
 
 1. 從清單中選取XDM架構，然後按一下 **[!UICONTROL 欄位]** 欄位或 **[!UICONTROL 編輯]** 表徵圖。
 
@@ -114,9 +115,9 @@ ht-degree: 11%
 >title="身分識別命名空間"
 >abstract="選取用於識別與事件相關聯的客戶設定檔的金鑰。"
 
-命名空間可讓您定義用於識別與事件相關聯之人員的索引鍵類型。 其設定為選用。 如果您想在歷程中擷取來自 [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。 如果您只使用來自協力廠商系統的資料（透過自訂資料來源），則不需要命名空間定義。
+命名空間可讓您定義用於識別與事件相關聯之人員的索引鍵類型。 其設定為選用。 如果您想在歷程中擷取來自 [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}. 如果您只使用來自協力廠商系統的資料（透過自訂資料來源），則不需要命名空間定義。
 
-您可以使用其中一個預先定義的命名空間，或使用身分命名空間服務建立新的一個。 請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+您可以使用其中一個預先定義的命名空間，或使用身分命名空間服務建立新的一個。 請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target="_blank"}.
 
 如果您選取的架構具有主要身分，則 **[!UICONTROL 探查器標識符]** 和 **[!UICONTROL 命名空間]** 欄位已預填。 如果沒有定義標識，則我們選擇 _identityMap > id_ 作為主要金鑰。 然後，您必須選取命名空間，系統就會預先填入索引鍵(位於 **[!UICONTROL 命名空間]** 欄位)使用 _identityMap > id_.
 
@@ -138,7 +139,7 @@ ht-degree: 11%
 
 金鑰是欄位或欄位組合，欄位是事件有效負載資料的一部分，可讓系統識別與事件相關聯的人員。 金鑰可以是Experience CloudID、CRM ID或電子郵件地址。
 
-若要使用儲存在Adobe即時客戶設定檔資料庫中的資料，事件索引鍵必須是您在 [即時客戶個人檔案服務](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+若要使用儲存在Adobe即時客戶設定檔資料庫中的資料，事件索引鍵必須是您在 [即時客戶個人檔案服務](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}.
 
 設定檔識別碼可讓系統執行事件與個人設定檔之間的調解。 如果您選取的架構具有主要身分，則 **[!UICONTROL 設定檔識別碼]** 和 **[!UICONTROL 命名空間]** 欄位已預填。 若未定義身分，則 _identityMap > id_ 是主要金鑰。 然後，您必須選取命名空間，系統會使用 _identityMap > id_.
 

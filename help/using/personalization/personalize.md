@@ -7,10 +7,11 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
+keywords: 運算式，編輯器，開始，個人化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '324'
 ht-degree: 28%
 
 ---
@@ -35,7 +36,7 @@ Discover [!DNL Adobe Journey Optimizer] 個人化功能，運用您擁有的相�
 
 ## 運用設定檔資料個人化您的訊息 {#data}
 
-根據由 Adobe Experience Platform 定義的 **XDM 個人設定檔**&#x200B;方案管理的設定檔資料進行個人化。 深入了解 [Adobe Experience Platform Data Model(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+根據由 Adobe Experience Platform 定義的 **XDM 個人設定檔**&#x200B;方案管理的設定檔資料進行個人化。 深入了解 [Adobe Experience Platform Data Model(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}.
 
 >[!CAUTION]
 >此 **XDM個別設定檔** 結構是您唯一可用來個人化 [!DNL Journey Optimizer].

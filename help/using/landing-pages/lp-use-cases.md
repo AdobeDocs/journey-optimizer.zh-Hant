@@ -7,11 +7,12 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 登陸，登陸頁面，使用案例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 15%
+source-wordcount: '914'
+ht-degree: 13%
 
 ---
 
@@ -95,9 +96,9 @@ ht-degree: 15%
 
 ### 選擇退出管理 {#opt-out-management}
 
-法律規定必須讓收件者提供能夠取消訂閱來自品牌的通訊。 進一步了解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hant){target=&quot;_blank&quot;} 中的適用法規。
+法律規定必須讓收件者提供能夠取消訂閱來自品牌的通訊。 深入了解 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hant){target="_blank"}.
 
-因此，您必須在每封傳送給收件者的電子郵件中一律包含&#x200B;**取消訂閱連結**：
+因此，您必須在每封寄送給收件者的電子郵件中一律包含&#x200B;**取消訂閱連結**：
 
 * 按一下此連結後，收件者會被導向至包含確認選擇退出按鈕的登陸頁面。
 * 按一下選擇退出按鈕後，設定檔資料將會隨此資訊更新。
@@ -154,7 +155,7 @@ ht-degree: 15%
 
    * 設定檔資料會更新，除非再次訂閱，否則將不會從您的品牌接收通訊。
 
-若要檢查對應的設定檔選擇是否已更新，請前往 Experience Platform，並透過選取識別名稱空間和對應的識別值來存取設定檔。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}中進一步瞭解。
+若要檢查對應的設定檔選擇是否已更新，請前往 Experience Platform，並透過選取識別名稱空間和對應的識別值來存取設定檔。 了解更多 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}.
 
 ![](assets/lp_opt-out-profile-choice.png)
 

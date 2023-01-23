@@ -7,10 +7,11 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: analytics，整合， web sdk，平台
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 53d89f216961daba72e96a728301572b83824655
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '618'
 ht-degree: 10%
 
 ---
@@ -49,7 +50,7 @@ ht-degree: 10%
 
 ![](assets/ajo-aa_4.png)
 
-進一步了解Adobe Analytics來源連接器，位於  [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target=&quot;_blank&quot;}和 [教學課程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target=&quot;_blank&quot;}。
+進一步了解Adobe Analytics來源連接器，位於  [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}.
 
 ## 使用Adobe Analytics或Web SDK資料建立具有事件的歷程 {#event-analytics}
 

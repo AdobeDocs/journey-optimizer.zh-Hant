@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 退出，電子郵件，連結，取消訂閱
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 85%
+source-wordcount: '1037'
+ht-degree: 79%
 
 ---
 
@@ -59,7 +60,7 @@ ht-degree: 85%
 
 ### 實施選擇退出的 API 呼叫 {#opt-out-api}
 
-要在收件者從登陸頁面提交選擇時選擇退出，您必須實施 **Subscription API** 呼叫，透過 [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} 更新對應設定檔的偏好設定。
+若要讓收件者在從登錄頁面提交其選擇時選擇退出，您必須實作 **訂閱API呼叫** through [Adobe Developer](https://developer.adobe.com){target="_blank"} 以更新相應配置檔案的首選項。
 
 此 POST 呼叫如下：
 
@@ -97,7 +98,7 @@ ht-degree: 85%
 }
 ```
 
-透過 [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} API 呼叫，[!DNL Journey Optimizer] 會利用這些參數更新對應設定檔的選擇。
+[!DNL Journey Optimizer] 會使用這些參數，透過 [Adobe Developer](https://developer.adobe.com){target="_blank"} API呼叫。
 
 ### 傳送包含取消訂閱連結的訊息 {#send-message-unsubscribe-link}
 
@@ -117,7 +118,7 @@ ht-degree: 85%
 
    因此，除非再次訂閱，否則此使用者將不會收到您品牌的通訊。
 
-1. 若要檢查對應的設定檔選擇是否已更新，請前往 Experience Platform，並透過選取識別名稱空間和對應的識別值來存取設定檔。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}中進一步瞭解。
+1. 若要檢查對應的設定檔選擇是否已更新，請前往 Experience Platform，並透過選取識別名稱空間和對應的識別值來存取設定檔。 了解更多 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}.
 
    ![](assets/opt-out-profile-choice.png)
 
@@ -185,4 +186,4 @@ ht-degree: 85%
    >
    >如果您未在訊息內容中新增一鍵退出連結，則不會顯示登陸頁面。
 
-* 對應的設定檔會立即退出，而此選項會在 Experience Platform 中更新。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target=&quot;_blank&quot;}中進一步瞭解 。
+* 對應的設定檔會立即退出，而此選項會在 Experience Platform 中更新。 了解更多 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}.

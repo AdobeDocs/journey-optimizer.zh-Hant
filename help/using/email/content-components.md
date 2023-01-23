@@ -7,10 +7,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 元件，電子郵件設計工具，編輯器，電子郵件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1383'
 ht-degree: 0%
 
 ---
@@ -157,7 +158,7 @@ ht-degree: 0%
 
 1. 按一下 **[!UICONTROL 瀏覽]** 從資產中選擇影像檔案。
 
-   若要進一步了解 [!DNL Assets Essentials]，請參閱 [Adobe Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}。
+   若要進一步了解 [!DNL Assets Essentials]，請參閱 [Adobe Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
 1. 按一下新增的元件，並使用 **[!UICONTROL 元件設定]** 窗格：
 

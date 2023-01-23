@@ -7,10 +7,11 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+keywords: 運算式，編輯器，幫手，使用案例，個人化
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1051'
 ht-degree: 2%
 
 ---
@@ -52,7 +53,7 @@ ht-degree: 2%
 1. 建立其架構包含 `productListItems` 陣列。
 1. 將此陣列中的所有欄位定義為此事件的有效負載欄位。
 
-   深入了解產品清單項目資料類型 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}。
+   深入了解產品清單項目資料類型 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. 建立以此事件開始的歷程。
 1. 新增 **電子郵件** 活動至歷程。
@@ -105,7 +106,7 @@ ht-degree: 2%
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      深入了解人員名稱資料類型，位於 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}。
+      深入了解人員名稱資料類型，位於 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
 1. 按一下 **[!UICONTROL 驗證]**，然後按一下 **[!UICONTROL 儲存]**.
 

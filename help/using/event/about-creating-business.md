@@ -7,10 +7,11 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: 事件，歷程，業務，設定
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1141'
 ht-degree: 8%
 
 ---
@@ -109,7 +110,7 @@ ht-degree: 8%
 
 ## 定義裝載欄位 {#define-the-payload-fields}
 
-有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯之人員的金鑰。 裝載以Experience CloudXDM欄位定義為基礎。 如需XDM的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯之人員的金鑰。 裝載以Experience CloudXDM欄位定義為基礎。 如需XDM的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}.
 
 1. 從清單中選取XDM架構，然後按一下 **[!UICONTROL 欄位]** 欄位或 **[!UICONTROL 編輯]** 表徵圖。
 
