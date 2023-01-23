@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 2%
+source-wordcount: '1553'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 2%
 
 發佈前，請使用測試設定檔來測試您的歷程。 此模式可讓您執行歷程測試，並使用測試設定檔來識別問題。
 
-只有測試設定檔才能在測試模式中進入歷程。 您可以建立新的測試設定檔，或將現有設定檔轉換為測試設定檔。 進一步了解測試設定檔，位於 [本節](../segment/creating-test-profiles.md).
+只有測試設定檔才能進入旅程測試模式。您可以建立新的測試設定檔，或將現有設定檔轉換為測試設定檔。 進一步了解測試設定檔，位於 [本節](../segment/creating-test-profiles.md).
 
 >[!NOTE]
 >

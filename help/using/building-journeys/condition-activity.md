@@ -7,8 +7,9 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 活動，條件，畫布，歷程
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 7%
@@ -60,7 +61,7 @@ ht-degree: 7%
 
 ![](assets/journey64.png)
 
-如果您使用 [Adobe Experience Platform區段服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}若要建立區段，您可以在歷程條件中運用這些區段。 請參閱 [在條件中使用區段](../building-journeys/condition-activity.md#using-a-segment).
+如果您使用 [Adobe Experience Platform區段服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} 若要建立區段，您可以在歷程條件中運用這些區段。 請參閱 [在條件中使用區段](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
@@ -161,4 +162,4 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >請注意，只有 **已實現** 和 **現有** 區段參與狀態會視為區段的成員。 如需如何評估區段的詳細資訊，請參閱 [區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}。
+   >請注意，只有 **已實現** 和 **現有** 區段參與狀態會視為區段的成員。 如需如何評估區段的詳細資訊，請參閱 [區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

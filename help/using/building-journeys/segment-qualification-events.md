@@ -7,10 +7,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 資格，事件，區段，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '925'
 ht-degree: 3%
 
 ---
@@ -63,7 +64,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >請注意 **[!UICONTROL 輸入]** 和 **[!UICONTROL 退出]** 對應至 **已實現** 和 **退出** 來自Adobe Experience Platform的區段參與狀態。 如需如何評估區段的詳細資訊，請參閱 [區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}。
+   >請注意 **[!UICONTROL 輸入]** 和 **[!UICONTROL 退出]** 對應至 **已實現** 和 **退出** 來自Adobe Experience Platform的區段參與狀態。 如需如何評估區段的詳細資訊，請參閱 [區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. 選取命名空間。 唯有將事件定位為歷程的第一步時，才需要此選項。
 
@@ -113,7 +114,7 @@ ht-degree: 3%
 
 ![](assets/segment-error.png)
 
-為歷程中使用的資料來源和動作設定上限規則，以避免超出負載。 深入了解 [Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}。 請注意，上限規則沒有重試。 如果您需要重試，您必須核取方塊，以在歷程中使用替代路徑 **[!UICONTROL 新增替代路徑以防逾時或發生錯誤]** 在條件或動作中。
+為歷程中使用的資料來源和動作設定上限規則，以避免超出負載。 深入了解 [Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. 請注意，上限規則沒有重試。 如果您需要重試，您必須核取方塊，以在歷程中使用替代路徑 **[!UICONTROL 新增替代路徑以防逾時或發生錯誤]** 在條件或動作中。
 
 在生產歷程中使用區段之前，請務必先評估每天符合此區段資格的個人數量。 若要這麼做，您可以檢查 **[!UICONTROL 區段]** 功能表，開啟區段，然後查看 **[!UICONTROL 一段時間的設定檔]** 圖表。
 

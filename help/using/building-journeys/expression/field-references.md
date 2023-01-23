@@ -4,12 +4,13 @@ product: journey optimizer
 title: 欄位參考
 description: 了解進階運算式中的欄位參考
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: 歷程，欄位，運算式，事件
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '557'
 ht-degree: 3%
 
 ---

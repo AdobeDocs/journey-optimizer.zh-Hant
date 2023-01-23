@@ -6,11 +6,12 @@ description: 了解如何管理設定檔項目
 feature: Journeys
 role: User
 level: Intermediate
+keywords: 重新進入，歷程，設定檔，循環
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 23%
+source-wordcount: '350'
+ht-degree: 22%
 
 ---
 
