@@ -7,13 +7,14 @@ feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: 配置，實驗，報告，優化程式
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 29%
+source-wordcount: '719'
+ht-degree: 23%
 
 ---
 
@@ -46,11 +47,11 @@ ht-degree: 29%
 ## 先決條件
 
 
-您必須先建立該資料集，才能將資料集新增至報表設定。 在 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant#create){target=&quot;_blank&quot;} 中進一步瞭解。
+您必須先建立該資料集，才能將資料集新增至報表設定。 了解 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant#create){target="_blank"}.
 
 * 您只能新增事件類型資料集。
 
-* 這些資料集至少必須包含下列其中一項 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target=&quot;_blank&quot;}: **應用程式詳細資訊**, **商務詳細資訊**, **Web詳細資訊**.
+* 這些資料集至少必須包含下列其中一項 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}: **應用程式詳細資訊**, **商務詳細資訊**, **Web詳細資訊**.
 
    >[!NOTE]
    >
@@ -66,7 +67,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->在 [XDM 系統總覽文件](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解更多有關 XDM 方案和欄位群組的詳細資訊。
+>如需XDM結構和欄位群組的詳細資訊，請參閱 [XDM系統概觀檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}.
 
 ## 與每個欄位組對應的目標 {#objective-list}
 
@@ -98,11 +99,11 @@ ht-degree: 29%
 
    >[!CAUTION]
    >
-   >您只能選取事件類型資料集，該資料集必須至少包含一個支援的 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target=&quot;_blank&quot;}: **應用程式詳細資訊**, **商務詳細資訊**, **Web詳細資訊**. 如果選取的資料集與這些條件不相符，將無法儲存變更。
+   >您只能選取事件類型資料集，該資料集必須至少包含一個支援的 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}: **應用程式詳細資訊**, **商務詳細資訊**, **Web詳細資訊**. 如果選取的資料集與這些條件不相符，將無法儲存變更。
 
    ![](assets/reporting-config-datasets.png)
 
-   在 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target=&quot;_blank&quot;} 資料集中了解更多。
+   進一步了解 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target="_blank"}.
 
 1. 從 **[!UICONTROL 設定檔ID]** 下拉式清單中，選取要用來識別報表中每個設定檔的資料集欄位屬性。
 
@@ -116,7 +117,7 @@ ht-degree: 29%
 
    ![](assets/reporting-config-namespace.png)
 
-   在 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant) {target=&quot;_blank&quot;} 中了解更多有關命名空間的資訊。
+   進一步了解 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant){target="_blank"}.
 
 1. 儲存變更以將選取資料集新增到報告設定清單。
 

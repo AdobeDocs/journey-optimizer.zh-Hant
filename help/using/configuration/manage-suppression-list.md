@@ -7,10 +7,11 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: 隱藏，清單，跳出，電子郵件，優化程式
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0c5a4291cdd46572faf2ab10c1c06987e4073b54
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1294'
 ht-degree: 1%
 
 ---
@@ -195,7 +196,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >在 **[!UICONTROL 原因]** 欄位。 您可以在 [本頁](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如{target=&quot;_blank&quot;}。
+   >在 **[!UICONTROL 原因]** 欄位。 您可以在 [本頁](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} 例如，
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**。
 
@@ -228,7 +229,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >在 **註解** 欄。 您可以在 [本頁](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如{target=&quot;_blank&quot;}。
+   >在 **註解** 欄。 您可以在 [本頁](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} 例如，
 
 1. 完成後，拖放CSV檔案，然後按一下 **[!UICONTROL 提交]**.
 

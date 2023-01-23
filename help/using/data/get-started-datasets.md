@@ -5,11 +5,12 @@ title: 開始使用資料集
 description: 了解如何在Adobe Journey Optimizer中使用Adobe Experience Platform資料集
 role: User
 level: Beginner
+keywords: platform，資料湖，建立，湖，資料集，設定檔
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 7%
+source-wordcount: '813'
+ht-degree: 8%
 
 ---
 
@@ -66,8 +67,8 @@ ht-degree: 7%
 
 您可以：
 
-* 從結構建立資料集。 [深入了解本檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target=&quot;_blank&quot;}
-* 從CSV檔案建立資料集。 [深入了解本檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hant){target=&quot;_blank&quot;}
+* 從結構建立資料集。 [在本文件中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target="_blank"}
+* 從CSV檔案建立資料集。 [在本文件中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hant){target="_blank"}
 
 觀看此影片，了解如何建立資料集、將資料對應至結構、新增資料，以及確認資料已內嵌。
 
@@ -81,19 +82,19 @@ ht-degree: 7%
 
 [!DNL Adobe Experience Platform Data Governance] 可讓您管理客戶資料，並確保符合適用於資料使用的法規、限制和政策。 它在Experience Platform內的各個層級（包括編目、資料處理、資料使用標籤、資料使用策略）發揮關鍵作用，並控制資料在營銷操作中的使用。
 
-進一步了解資料控管和資料使用標籤，位於 [資料控管檔案](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html){target=&quot;_blank&quot;}
+進一步了解資料控管和資料使用標籤，位於 [資料控管檔案](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html){target="_blank"}
 
 ## 範例和使用案例{#uc-datasets}
 
 了解如何建立結構、資料集和內嵌資料，以在Adobe Journey Optimizer中新增測試設定檔，位於 [此端對端範例](../segment/creating-test-profiles.md)
 
-進一步了解在 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+進一步了解在 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target="_blank"}.
 
-了解如何在 [資料擷取概述檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+了解如何在 [資料擷取概述檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target="_blank"}.
 
 提供查詢範例的使用案例清單 [此處](../data/datasets-query-examples.md).
 
 **另請參閱**
 
-* [串流獲取概觀](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hant){target=&quot;_blank&quot;}
-* [將資料內嵌至Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}
+* [串流獲取概觀](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hant){target="_blank"}
+* [將資料內嵌至Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target="_blank"}

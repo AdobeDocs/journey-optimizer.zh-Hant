@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 檢閱及啟動行銷活動
-description: 了解如何在 [!DNL Journey Optimizer]
+description: 了解如何在Journey Optimizer中檢閱和啟動行銷活動
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 行銷活動，審核，驗證，啟動，啟動，最佳化程式
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: fa5a3cc25fa083754e00dbde7743e032c065f210
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '252'
 ht-degree: 7%
 
 ---

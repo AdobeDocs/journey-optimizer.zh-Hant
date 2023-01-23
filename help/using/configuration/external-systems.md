@@ -5,8 +5,9 @@ title: 將Journey Optimizer與外部系統整合
 description: 了解將Journey Optimizer與外部系統整合時的最佳實務
 role: User
 level: Beginner
+keywords: 外部， API，優化程式，限定
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 3%
@@ -43,7 +44,7 @@ Journey Optimizer 可讓您透過自訂資料來源與自訂動作來設定與�
 
 例如，假設您已為外部系統定義每秒100次呼叫的上限規則。 10個不同歷程中的自訂動作會呼叫您的系統。 如果一個歷程每秒收到200個呼叫，則會使用100個可用槽，並捨棄100個剩餘槽。 由於超出最大速率，其他9個歷程將沒有任何槽。 此粒度有助於保護外部系統免受過載和崩潰的影響。
 
-若要進一步了解上限API以及如何設定上限規則，請參閱 [Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}。
+若要進一步了解上限API以及如何設定上限規則，請參閱 [Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}.
 
 ## 逾時和重試{#timeout}
 
@@ -71,7 +72,7 @@ Journey Optimizer 可讓您透過自訂資料來源與自訂動作來設定與�
 
 **如何設定上限規則？ 是否有預設上限規則？**
 
-預設沒有上限規則。 上限規則是在沙箱層級使用上限設定API為特定端點（稱為的URL）定義。 請參閱 [本節](../configuration/external-systems.md#capping) 和 [Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}。
+預設沒有上限規則。 上限規則是在沙箱層級使用上限設定API為特定端點（稱為的URL）定義。 請參閱 [本節](../configuration/external-systems.md#capping) 和 [Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}.
 
 **執行了多少次重試？ 我可以變更重試次數或定義兩次重試之間的最短等待時間嗎？**
 

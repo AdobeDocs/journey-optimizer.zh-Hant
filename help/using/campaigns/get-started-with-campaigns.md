@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 開始使用行銷活動
-description: 進一步了解 [!DNL Journey Optimizer]
+description: 進一步了解Journey Optimizer中的行銷活動
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 行銷活動，如何，開始， optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '406'
 ht-degree: 12%
 
 ---
@@ -41,13 +42,13 @@ ht-degree: 12%
 
 1. **您需要適當的權限**. 促銷活動僅適用於可存取與促銷活動相關之促銷活動的使用者 **[!UICONTROL 產品設定檔]** 例如促銷活動管理員、促銷活動核准者、促銷活動管理員和/或促銷活動檢視器。
 
-   如果您無法存取行銷活動，則必須延長您的權限。 如果您有權存取 [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}，請遵循下列步驟。 否則請聯絡您的Journey Optimizer管理員。
+   如果您無法存取行銷活動，則必須延長您的權限。 如果您有權存取 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} 請依照下列步驟，為貴組織操作。 否則請聯絡您的Journey Optimizer管理員。
 
    +++了解如何指派campaign權限
 
    若要指派對應的 **[!UICONTROL 產品設定檔]** 對您的使用者：
 
-   1. 從 [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}，請選取 [!DNL Adobe Experience Platform] 產品。
+   1. 從 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}，請選取 [!DNL Adobe Experience Platform] 產品。
 
    1. 瀏覽至 **[!UICONTROL 產品設定檔]** 索引標籤，選取其中一個內建促銷活動相關項目 **[!UICONTROL 產品設定檔]**:促銷活動管理員、促銷活動核准者、促銷活動管理員或促銷活動檢視器。
 

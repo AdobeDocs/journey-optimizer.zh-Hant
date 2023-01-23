@@ -7,10 +7,11 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 允許的清單，清單，安全，配置
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1034'
 ht-degree: 2%
 
 ---
@@ -141,7 +142,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >在 **[!UICONTROL 原因]** 欄位。 您可以在 [本頁](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如{target=&quot;_blank&quot;}。
+   >在 **[!UICONTROL 原因]** 欄位。 您可以在 [本頁](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} 例如，
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**。
 
@@ -153,7 +154,7 @@ ht-degree: 2%
 
 您可以執行 **新增**, **刪除** 和 **取得** 操作。
 
-進一步了解在 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target=&quot;_blank&quot;}參考檔案。
+進一步了解在 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} 參考檔案。
 
 ## 允許的清單邏輯 {#logic}
 
@@ -180,7 +181,7 @@ ht-degree: 2%
 
 ## 排除報表 {#reporting}
 
-當允許的清單處於活動狀態時，您可以檢索因不在允許清單中而從發送中排除的電子郵件地址或域。 若要這麼做，您可以使用 [Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}以進行下方的API呼叫。
+當允許的清單處於活動狀態時，您可以檢索因不在允許清單中而從發送中排除的電子郵件地址或域。 若要這麼做，您可以使用 [Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} 以進行下列API呼叫。
 
 若要取得 **電子郵件數** 由於收件者未列在允許清單上，因此未傳送，請使用下列查詢：
 

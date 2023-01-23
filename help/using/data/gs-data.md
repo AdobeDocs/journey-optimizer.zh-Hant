@@ -1,16 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 開始使用 [!DNL Journey Optimizer]
-description: 了解如何在 [!DNL Journey Optimizer]
+title: 開始使用Journey Optimizer中的資料
+description: 了解如何在Journey Optimizer中使用資料
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 資料，管理，平台
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 504e93a5c21baadf6ac938a9298c1adeb2a2d878
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -60,7 +61,7 @@ ht-degree: 0%
 
 您可以使用 [!DNL Journey Optimizer]資料的靈活性，可滿足您與資料保留、存檔或刪除相關的特定要求：
 
-* **資料擷取/匯出**:您可以隨時透過資料存取API開始擷取來源資料，不會受到任何懲罰或延遲。 此 [資料存取API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target=&quot;_blank&quot;}為使用者提供RESTful介面，著重於探索及協助使用者在內擷取的資料集 [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **資料擷取/匯出**:您可以隨時透過資料存取API開始擷取來源資料，不會受到任何懲罰或延遲。 此 [資料存取API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target="_blank"} 為用戶提供RESTful介面，重點在於發現資料集並使其可訪問 [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
    請注意，歷程或行銷活動中使用的內容無法透過上述API或目的地方法擷取。
 
@@ -72,7 +73,7 @@ ht-degree: 0%
 
 * **清除和歸檔機制**:資料和存檔的清除可以在 [!DNL Adobe Journey Optimizer] 自動執行資料保留政策。 可以為不同的資料實體定義不同的老化策略。 也可以定義匯出機制，以在清除或封存老化資料前自動匯出。
 
-   Adobe Experience Platform UI中的資料衛生工作區可讓您建立和監控各種資料衛生工作，包括刪除消費者身分和排程資料集有效期。 此工作區隨「安全與隱私保護」和「醫療保健防護」一起提供。 深入了解 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}。
+   Adobe Experience Platform UI中的資料衛生工作區可讓您建立和監控各種資料衛生工作，包括刪除消費者身分和排程資料集有效期。 此工作區隨「安全與隱私保護」和「醫療保健防護」一起提供。 深入了解 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target="_blank"}.
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

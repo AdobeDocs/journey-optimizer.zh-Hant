@@ -7,11 +7,12 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: 存檔，郵件， HIPAA, BCC，電子郵件
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 43137871e8f45e05c6fe00c51bc3c9847fabd0da
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 3%
+source-wordcount: '1133'
+ht-degree: 2%
 
 ---
 
@@ -113,7 +114,7 @@ GDPR等法規規定資料主體應可隨時修改其同意。 因為您隨Journe
 
 >[!NOTE]
 >
->在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target=&quot;_blank&quot;} 中進一步瞭解隱私權管理和相關法規。
+>深入了解管理隱私權及 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target="_blank"}.
 
 ### BCC報告資料 {#bcc-reporting}
 
@@ -123,7 +124,7 @@ GDPR等法規規定資料主體應可隨時修改其同意。 因為您隨Journe
 
 ![](assets/preset-bcc-dataset.png)
 
-若要對此資料集執行查詢，您可以使用 [Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}。 若要存取，請選取 **[!UICONTROL 資料管理]** > **[!UICONTROL 查詢]** 按一下 **[!UICONTROL 建立查詢]**. [了解更多](../data/get-started-queries.md)
+若要對此資料集執行查詢，您可以使用 [Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. 若要存取，請選取 **[!UICONTROL 資料管理]** > **[!UICONTROL 查詢]** 按一下 **[!UICONTROL 建立查詢]**. [了解更多](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 

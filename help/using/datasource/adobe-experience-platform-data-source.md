@@ -5,12 +5,13 @@ title: Adobe Experience Platform 資料來源
 description: 了解如何設定Adobe Experience Platform資料來源
 feature: Data Sources
 topic: Administration
-role: Admin
+role: Admin, Developer
 level: Intermediate
+keywords: 內建，源，資料，平台，整合
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '425'
 ht-degree: 14%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 14%
 >title="Adobe Experience Platform 資料來源"
 >abstract="Adobe Experience Platform資料來源定義與Adobe即時客戶設定檔的連線。 此資料來源已內建並預先設定，無法刪除。 其設計旨在擷取及使用即時客戶個人檔案服務中的資料（例如，檢查進入歷程的人員是否為女性）。 其可讓您使用個人檔資料與體驗事件資料。 "
 
-Adobe Experience Platform資料來源定義與Adobe即時客戶設定檔的連線。 此資料來源已內建並預先設定，無法刪除。 此資料來源的設計目的，是從即時客戶個人檔案服務中擷取和使用資料（例如，檢查進入歷程的人員是否為女性）。 其可讓您使用個人檔資料與體驗事件資料。 如需「Adobe即時客戶設定檔」的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+Adobe Experience Platform資料來源定義與Adobe即時客戶設定檔的連線。 此資料來源已內建並預先設定，無法刪除。 此資料來源的設計目的，是從即時客戶個人檔案服務中擷取和使用資料（例如，檢查進入歷程的人員是否為女性）。 其可讓您使用個人檔資料與體驗事件資料。 如需「Adobe即時客戶設定檔」的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}.
 
 
 若要允許連線至即時客戶個人檔案服務，我們必須使用金鑰來識別人員，並使用將金鑰與之結合的命名空間。 因此，只有在您的歷程以包含索引鍵和命名空間的事件開始時，才能使用此資料來源。 [了解更多](../building-journeys/journey.md)。
