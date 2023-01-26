@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，首先，開始，快速入門，區段，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1061'
 ht-degree: 10%
 
 ---
@@ -94,9 +94,39 @@ ht-degree: 10%
 
 ### 入口{#entrance}
 
-依預設，新歷程允許重新進入。 您可以取消勾選「一次性」歷程的選項，例如當某人進入商店時，如果您想要提供一次性禮品。
+依預設，新歷程允許重新進入。 您可以取消勾選 **允許重新進入** 「一次性」歷程的選項，例如當某人進入商店時，您想要提供一次性禮品時。
+
+<!--
+When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
+-->
 
 進一步了解設定檔入口管理，位於 [本節](entry-management.md).
+
+### 管理存取 {#access}
+
+若要將自訂或核心資料使用量標籤指派至歷程，請按一下 **[!UICONTROL 管理存取]** 按鈕。 [進一步了解對象級訪問控制(OLA)](../administration/object-based-access.md)
+
+![](assets/journeys-manage-access.png)
+
+### 時區和設定檔時區 {#timezone}
+
+時區是在歷程層級定義。
+
+您可以輸入固定時區，或使用Adobe Experience Platform設定檔來定義歷程時區。
+
+如果在Adobe Experience Platform設定檔中定義時區，則可在歷程中擷取。
+
+如需時區管理的詳細資訊，請參閱 [本頁](../building-journeys/timezone-management.md).
+
+### 開始和結束日期 {#dates}
+
+<!--
+You can define a **Start date**. If you haven't specified one, it will be automatically defined at publication time. 
+
+You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read segment journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
+-->
+
+您可以定義 **開始日期**. 您也可以新增 **結束日期**. 這可讓設定檔在達到日期時自動退出。 如果您未指定結束日期，設定檔可持續到預設歷程逾時為止。
 
 ### 歷程活動的逾時和錯誤 {#timeout_and_error}
 
@@ -118,18 +148,3 @@ ht-degree: 10%
 
 由於30天的歷程逾時，當不允許歷程重新進入時，我們無法確定重新進入封鎖的作用超過30天。 事實上，由於我們刪除了有關在他們進入30天後進入歷程的所有資訊，因此我們無法知道在超過30天前進入的人。
 
-### 時區和設定檔時區 {#timezone}
-
-時區是在歷程層級定義。
-
-您可以輸入固定時區，或使用Adobe Experience Platform設定檔來定義歷程時區。
-
-如果在Adobe Experience Platform設定檔中定義時區，則可在歷程中擷取。
-
-如需時區管理的詳細資訊，請參閱 [本頁](../building-journeys/timezone-management.md).
-
-### 管理存取 {#access}
-
-若要將自訂或核心資料使用量標籤指派至歷程，請按一下 **[!UICONTROL 管理存取]** 按鈕。 [進一步了解對象級訪問控制(OLA)](../administration/object-based-access.md)
-
-![](assets/journeys-manage-access.png)

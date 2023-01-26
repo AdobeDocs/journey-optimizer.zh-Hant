@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1808'
 ht-degree: 7%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 此 `camelCase` 函式會大寫字串每個字詞的首字母。
 
-**格式**
+**語法**
 
 ```sql
 {%= camelCase(string)%}
@@ -35,11 +35,29 @@ ht-degree: 7%
 {%= camelCase(profile.homeAddress.street) %}
 ```
 
+## 字元碼位於 {#char-code-at}
+
+此 `charCodeAt` 函式會傳回字元的ASCII值，例如JavaScript中的charCodeAt函式。 它將字串和整數（定義字元的位置）作為輸入參數並返回其對應的ASCII值。
+
+**語法**
+
+```sql
+{%= charCodeAt(string,int) %}: int
+```
+
+**範例**
+
+以下函式返回ASCII值，即111。
+
+```sql
+{%= charCodeAt("some", 1)%}
+```
+
 ## Concat {#concate}
 
 此 `concat` 函式將兩個字串合併為一。
 
-**格式**
+**語法**
 
 ```sql
 {%= concat(string,string) %}
@@ -57,7 +75,7 @@ ht-degree: 7%
 
 此 `contains` 函式來判斷字串是否包含指定的子字串。
 
-**格式**
+**語法**
 
 ```sql
 {%= contains(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -87,7 +105,7 @@ ht-degree: 7%
 
 此 `doesNotContain` 函式來判斷字串是否不包含指定的子字串。
 
-**格式**
+**語法**
 
 ```sql
 {%= doesNotContain(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -112,7 +130,7 @@ ht-degree: 7%
 
 此 `doesNotEndWith` 函式來判斷字串是否未以指定的子字串結尾。
 
-**格式**
+**語法**
 
 ```sql
 {%= doesNotEndWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -136,7 +154,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `doesNotStartWith` 函式來判斷字串是否未以指定的子字串開頭。
 
-**格式**
+**語法**
 
 ```sql
 {%= doesNotStartWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -160,7 +178,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `encode64` 函式可用來編碼字串，以保留個人資訊(PI)，例如包含在URL中。
 
-**格式**
+**語法**
 
 ```sql
 {%= encode64(string) %}
@@ -170,7 +188,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `endsWith` 函式可用來判斷字串結尾是否為指定的子字串。
 
-**格式**
+**語法**
 
 ```sql
 {%= endsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -195,7 +213,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `equals` 函式可用來判斷字串是否等於指定的字串，且區分大小寫。
 
-**格式**
+**語法**
 
 ```sql
 {%= equals(STRING_1, STRING_2) %}
@@ -218,7 +236,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `equalsIgnoreCase` 函式可用來判斷字串是否等於指定的字串，不區分大小寫。
 
-**格式**
+**語法**
 
 ```sql
 {%= equalsIgnoreCase(STRING_1, STRING_2) %}
@@ -241,7 +259,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `extractEmailDomain` 函式可用來擷取電子郵件地址的網域。
 
-**格式**
+**語法**
 
 ```sql
 {%= extractEmailDomain(string) %}
@@ -255,11 +273,29 @@ doesNotEndWith(person.emailAddress,".com")
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
+## 格式貨幣 {#format-currency}
+
+此 `formatCurrency` 函式用於根據在第二個參數中作為字串傳遞的區域設定，將任何數字轉換為相應的語言敏感貨幣表示。
+
+**語法**
+
+```sql
+{%= formatCurrency(number/double,string) %}: string
+```
+
+**範例**
+
+此查詢返回£56.00
+
+```sql
+{%= formatCurrency(56L,"en_GB") %}
+```
+
 ## 取得url主機 {#get-url-host}
 
 此 `getUrlHost` 函式可用來擷取URL的主機名稱。
 
-**格式**
+**語法**
 
 ```sql
 {%= getUrlHost(string) %}: string
@@ -277,7 +313,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `getUrlPath` 函式可用來擷取URL網域名稱后面的路徑。
 
-**格式**
+**語法**
 
 ```sql
 {%= getUrlPath(string) %}: string
@@ -295,7 +331,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `getUrlProtocol` 函式來擷取URL的通訊協定。
 
-**格式**
+**語法**
 
 ```sql
 {%= getUrlProtocol(string) %}: string
@@ -313,7 +349,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `indexOf` 函式可用來傳回第二參數首次出現的位置（在第一引數中）。 如果不匹配，則返回–1。
 
-**格式**
+**語法**
 
 ```sql
 {%= indexOf(STRING_1, STRING_2) %}: integer
@@ -336,7 +372,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `isEmpty` 函式來判斷字串是否空白。
 
-**格式**
+**語法**
 
 ```sql
 {%= isEmpty(string) %}
@@ -354,7 +390,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `isNotEmpty` 函式來判斷字串是否非空。
 
-**格式**
+**語法**
 
 ```sql
 {= isNotEmpty(string) %}: boolean
@@ -372,7 +408,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `lastIndexOf` 函式可用來傳回第二個參數最後出現次數的位置（在第一個引數中）。 如果不匹配，則返回–1。
 
-**格式**
+**語法**
 
 ```sql
 {= lastIndexOf(STRING_1, STRING_2) %}: integer
@@ -395,7 +431,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `leftTrim` 函式可用來從字串的開頭移除空格。
 
-**格式**
+**語法**
 
 ```sql
 {%= leftTrim(string) %}
@@ -405,7 +441,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `length` 函式來取得字串或運算式中的字元數。
 
-**格式**
+**語法**
 
 ```sql
 {%= length(string) %}
@@ -423,7 +459,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `like` 函式來判斷字串是否符合指定的模式。
 
-**格式**
+**語法**
 
 ```sql
 {%= like(STRING_1, STRING_2) %}
@@ -464,7 +500,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `matches` 函式來判斷字串是否符合特定的規則運算式。 請參閱 [此文檔](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) ，以取得規則運算式中比對模式的詳細資訊。
 
-**格式**
+**語法**
 
 ```sql
 {%= matches(STRING_1, STRING_2) %}
@@ -482,7 +518,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `Mask` 函式來將字串的一部分取代為「X」字元。
 
-**格式**
+**語法**
 
 ```sql
 {%= mask(string,integer,integer) %}
@@ -502,7 +538,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `md5` 函式可用來計算並傳回字串的md5雜湊。
 
-**格式**
+**語法**
 
 ```sql
 {%= md5(string) %}: string
@@ -520,7 +556,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `notEqualTo` 函式來判斷字串是否不等於指定的字串。
 
-**格式**
+**語法**
 
 ```sql
 {%= notEqualTo(STRING_1, STRING_2) %}
@@ -543,7 +579,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `notEqualWithIgnoreCase` 函式來比較忽略大小寫的兩個字串。
 
-**格式**
+**語法**
 
 ```sql
 {= notEqualWithIgnoreCase(STRING_1,STRING_2) %}: boolean
@@ -566,7 +602,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `Group` 函式用於根據提供的規則運算式來擷取特定資訊。
 
-**格式**
+**語法**
 
 ```sql
 {%= regexGroup(STRING, EXPRESSION, GROUP) %}
@@ -590,7 +626,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `replace` 函式，可將字串中的指定子字串取代為其他子字串。
 
-**格式**
+**語法**
 
 ```sql
 {%= replace(STRING_1,STRING_2,STRING_3) %}:string
@@ -614,7 +650,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `replaceAll` 函式可用來將符合「target」的文字的所有子字串取代為指定的常值「取代」字串。 替換從字串的開頭到結尾，例如，將字串&quot;aaa&quot;中的&quot;aa&quot;取代為&quot;b&quot;將產生&quot;ba&quot;而非&quot;ab&quot;。
 
-**格式**
+**語法**
 
 ```sql
 {%= replaceAll(string,string,string) %}
@@ -624,7 +660,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `rightTrim` 函式會從字串的結尾移除空格。
 
-**格式**
+**語法**
 
 ```sql
 {%= rightTrim(string) %}
@@ -634,7 +670,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `split` 函式來依指定字元分割字串。
 
-**格式**
+**語法**
 
 ```sql
 {%= split(string,string) %}
@@ -644,7 +680,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `startsWith` 函式可用來判斷字串是否以指定的子字串開頭。
 
-**格式**
+**語法**
 
 ```sql
 {%= startsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -664,11 +700,27 @@ doesNotEndWith(person.emailAddress,".com")
 {%= startsWith(person.name,"Joe") %}
 ```
 
+## 至今的字串 {#string-to-date}
+
+此 `stringToDate` 函式會將字串值轉換為日期時間值。 需要兩個引數：格式化程式的日期 — 時間和字串表示的字串表示。
+
+**語法**
+
+```sql
+{= stringToDate("date-time value","formatter" %}
+```
+
+**範例**
+
+```sql
+{= stringToDate("2023-01-10 23:13:26", "yyyy-MM-dd HH:mm:ss") %}
+```
+
 ## 從字串轉換為整數 {#string-to-integer}
 
 此 `string_to_integer` 函式將字串值轉換為整數值。
 
-**格式**
+**語法**
 
 ```sql
 {= string_to_integer(string) %}: int
@@ -678,7 +730,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `stringToNumber` 函式將字串轉換為數字。 它會傳回與無效輸入的輸出相同的字串。
 
-**格式**
+**語法**
 
 ```sql
 {%= stringToNumber(string) %}: double
@@ -687,7 +739,7 @@ doesNotEndWith(person.emailAddress,".com")
 ## 子字串 {#sub-string}
 
 此 `Count string` 函式用於返回begin索引和end索引之間字串表達式的子字串。
-**格式**
+**語法**
 
 ```sql
 {= substr(string, integer, integer) %}: string
@@ -715,7 +767,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `toBool` 函式可用來將引數值轉換為布林值（視其類型而定）。
 
-**格式**
+**語法**
 
 ```sql
 {= toBool(string) %}: boolean
@@ -725,7 +777,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `toDateTime` 函式來將字串轉換為日期。 它會傳回紀元日期作為無效輸入的輸出。
 
-**格式**
+**語法**
 
 ```sql
 {%= toDateTime(string, string) %}: date-time
@@ -733,15 +785,15 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 僅限截止時間 {#to-date-time-only}
 
-此 `toDateTimeOnly` 函式用於將參數值轉換為僅限日期時間的值。 它會傳回紀元日期作為無效輸入的輸出。
+此 `toDateTimeOnly` 函式可將引數值轉換為僅限日期時間的值。 它會傳回紀元日期作為無效輸入的輸出。 此函式接受字串、日期、長欄位和整欄位類型。
 
-**格式**
+**語法**
 
 ```sql
-{%= toDateTimeOnly(string) %}: date-time
+{%= toDateTimeOnly(string/date/long/int) %}: date-time
 ```
 
-## 修剪{#trim}
+## 修剪 {#trim}
 
 此 **trim** 函式會從字串的開頭和結尾移除所有空格。
 
@@ -769,11 +821,11 @@ doesNotEndWith(person.emailAddress,".com")
 {%= upperCase(profile.person.name.lastName) %}
 ```
 
-## url解碼 {#url-decode}
+## Url解碼 {#url-decode}
 
 此 `urlDecode` 函式來解碼url編碼字串。
 
-**格式**
+**語法**
 
 ```sql
 {%= urlDecode(string) %}: string
@@ -783,7 +835,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 此 `Count only null` 函式可用來將字串編碼為url。
 
-**格式**
+**語法**
 
 ```sql
 {%= urlEncode(string) %}: string
