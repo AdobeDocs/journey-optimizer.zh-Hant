@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: 645db980155993155a10d27f4ff59967b000442f
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 20%
+source-wordcount: '461'
+ht-degree: 19%
 
 ---
 
@@ -36,10 +36,10 @@ ht-degree: 20%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform提供一套資料衛生功能，可讓您透過程式化刪除消費者記錄和資料集，管理儲存的資料。 此功能現在已可供Adobe Journey Optimizer使用。 </p>
+<p>Adobe Experience Platform提供一套資料衛生功能，可讓您透過程式化刪除消費者記錄和資料集，來管理儲存的資料。 此功能現在已可供Adobe Journey Optimizer使用。 </p>
 <p>您可以管理資料存放區，以確保資訊可如預期般使用、在需要修正錯誤資料時更新，以及在組織原則認為有需要時刪除。</p>
-<p><strong>注意</strong>  — 資料衛生功能目前僅適用於購買了Healthcare Shield附加產品的組織。</p>
-<p>如需詳細資訊，請參閱<a href="../privacy/data-hygiene.md">詳細文件</a>。
+<p><strong>注意</strong>  — 資料衛生功能目前僅適用於已購買 <strong>醫療保健盾</strong> 和 <strong>隱私與安全防護</strong> 附加產品。</p><p>如需詳細資訊，請參閱<a href="../privacy/data-hygiene.md">詳細文件</a>。
+
 </td>
 </tr>
 </tbody>
