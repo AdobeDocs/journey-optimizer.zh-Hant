@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: IP、池、組、子域、傳遞能力
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '717'
 ht-degree: 1%
 
 ---
@@ -61,6 +61,18 @@ ht-degree: 1%
    >[!NOTE]
    >
    >清單中會提供與您執行個體布建的所有IP位址。
+
+選擇IP時，可以從清單中看到與IP關聯的PTR記錄。 這允許您在建立IP池時驗證每個IP的品牌資訊，並選擇具有相同品牌資訊的IP。 [了解有關PTR記錄的更多資訊](ptr-records.md)
+
+![](assets/ip-pool-ptr-record.png)
+
+>[!NOTE]
+>
+>如果未為IP配置PTR記錄，則無法選擇該IP。 請洽詢您的Adobe代表以設定該IP的PTR記錄。
+
+建立IP池後，將游標暫留在IP池下拉清單下顯示的IP地址上時，PTR資訊將可見。
+
+![](assets/ip-pool-ptr-record-tooltip.png)
 
 IP池現在已建立並顯示在清單中。 您可以選取它以存取其屬性並顯示相關的通道表面（即訊息預設集）。 有關如何將通道表面與IP池關聯的詳細資訊，請參閱 [本節](channel-surfaces.md).
 

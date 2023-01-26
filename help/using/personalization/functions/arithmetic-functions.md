@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 21ef8f50-8389-4675-a8e5-0438a3eee592
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 7%
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 此 `+` (addition)函式可用來尋找兩個引數運算式的總和。
 
-**格式**
+**語法**
 
 ```sql
 {%= double + double %}
@@ -39,7 +39,7 @@ ht-degree: 7%
 
 此 `*` （乘法）函式用於查找兩個參數表達式的乘積。
 
-**格式**
+**語法**
 
 ```sql
 {%= double * double %}
@@ -57,7 +57,7 @@ ht-degree: 7%
 
 此 `-` （減法）函式用於尋找兩個引數運算式的差異。
 
-**格式**
+**語法**
 
 ```sql
 {%= double - double %}
@@ -75,7 +75,7 @@ ht-degree: 7%
 
 此 `/` （除法）函式用於求兩個參數表達式的商。
 
-**格式**
+**語法**
 
 ```sql
 {%= double / double %}
@@ -93,7 +93,7 @@ ht-degree: 7%
 
 此 `%` (modulo/remaind)函式用於在將兩個參數表達式除以後查找余數。
 
-**格式**
+**語法**
 
 ```sql
 {%= double % double %}

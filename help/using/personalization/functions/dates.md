@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: f06e1e03b3660be36b32437647a8329d0c0d296e
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 6%
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 此 `age` 函式可用來從指定日期擷取年齡。
 
-**格式**
+**語法**
 
 ```sql
  {%= age(datetime) %}
@@ -41,7 +41,7 @@ The following operation gets the value of the identity map for the key `example@
 
 此 `currentTimeInMillis` 函式可用來擷取目前時間（以epoch毫秒為單位）。
 
-**格式**
+**語法**
 
 ```sql
 {%= currentTimeInMillis() %}
@@ -61,7 +61,7 @@ The following operation gets all the keys for the map `identityMap`.
 
 此 `dateDiff` 函式可用來擷取兩個日期之間以天數表示的差異。
 
-**格式**
+**語法**
 
 ```sql
 {%= dateDiff(datetime,datetime) %}
@@ -82,7 +82,7 @@ The following operation gets all the values for the map `identityMap`.
 
 此 `dayOfWeek` 函式可用來擷取星期。
 
-**格式**
+**語法**
 
 ```sql
 {%= dayOfWeek(datetime) %}
@@ -102,7 +102,7 @@ The following operation gets all the values for the map `identityMap`.
 
 此 `dayOfYear` 函式可用來擷取一年當中的某天。
 
-**格式**
+**語法**
 
 ```sql
 {%= dayOfYear(datetime) %}
@@ -122,7 +122,7 @@ The following operation gets all the values for the map `identityMap`.
 
 此 `formatDate` 函式來設定日期時間值的格式。 格式應為有效的Java DateTimeFormat模式。
 
-**格式**
+**語法**
 
 ```sql
 {%= formatDate(datetime, format) %}
@@ -134,7 +134,7 @@ The following operation gets all the values for the map `identityMap`.
 >
 > 如果日期模式無效，日期將回復為ISO標準格式。
 >
-> 您可以使用Java日期格式化函式，如摘要 [在Oracle檔案中](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> 您可以使用Java日期格式功能，如 [Oracle檔案](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **範例**
 
@@ -148,7 +148,7 @@ The following operation gets all the values for the map `identityMap`.
 
 此 `setDays` 函式可用來設定指定日期時間的月中某天。
 
-**格式**
+**語法**
 
 ```sql
 {%= setDays(datetime, day) %}
@@ -168,7 +168,7 @@ The following operation gets all the values for the map `identityMap`.
 
 此 `setHours` 函式可用來設定日期時間的小時。
 
-**格式**
+**語法**
 
 ```sql
 {%= setHours(datetime, hour) %}
@@ -190,7 +190,7 @@ The following operation gets all the values for the map `identityMap`.
 此 `toUTC` 函式用於將datetime轉換為UTC。
 
 
-**格式**
+**語法**
 
 ```sql
 {%= toUTC(datetime) %}
@@ -211,7 +211,7 @@ The following operation gets all the values for the map `identityMap`.
 
 此 `weekOfYear` 函式可用來擷取一年中的某周。
 
-**格式**
+**語法**
 
 ```sql
 {%= weekOfYear(datetime) %}

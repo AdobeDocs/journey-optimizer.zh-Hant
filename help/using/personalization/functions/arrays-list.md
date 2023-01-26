@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 91f221781f1655066ec0f6b1c3f2c1faefd09d69
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 6%
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 此 `countOnlyNull` 函式來計算清單中空值的數量。
 
-**格式**
+**語法**
 
 ```sql
 {%= countOnlyNull(array) %}
@@ -39,7 +39,7 @@ ht-degree: 6%
 
 此 `countWithNull` 函式來計算清單中的所有元素，包括null值。
 
-**格式**
+**語法**
 
 ```sql
 {%= countWithNull(array) %}
@@ -57,7 +57,7 @@ ht-degree: 6%
 
 此 `distinct` 函式可用來從陣列或清單中取得值，並移除重複值。
 
-**格式**
+**語法**
 
 ```sql
 {%= distinct(array) %}
@@ -75,7 +75,7 @@ ht-degree: 6%
 
 此 `distinctCountWithNull` 函式來計算清單中包含空值的不同值數目。
 
-**格式**
+**語法**
 
 ```sql
 {%= distinctCountWithNull(array) %}
@@ -93,7 +93,7 @@ ht-degree: 6%
 
 此 `head` 函式可用來傳回陣列或清單中的第一個項目。
 
-**格式**
+**語法**
 
 ```sql
 {%= head(array) %}
@@ -111,7 +111,7 @@ ht-degree: 6%
 
 此 `topN` 函式來傳回第一個 `N` 陣列中的項目，根據指定的數值運算式以升序排序。
 
-**格式**
+**語法**
 
 ```sql
 {%= topN(array, value, amount) %}
@@ -135,7 +135,7 @@ ht-degree: 6%
 
 此 `in` 函式用於確定項是否為陣列或清單的成員。
 
-**格式**
+**語法**
 
 ```sql
 {%= in(value, array) %}
@@ -153,7 +153,7 @@ ht-degree: 6%
 
 此 `includes` 函式來判斷陣列或清單是否包含指定項目。
 
-**格式**
+**語法**
 
 ```sql
 {%= includes(array,item) %}
@@ -171,7 +171,7 @@ ht-degree: 6%
 
 此 `intersects` 函式用於確定兩個陣列或清單是否具有至少一個公共成員。
 
-**格式**
+**語法**
 
 ```sql
 {%= intersects(array1, array2) %}
@@ -190,7 +190,7 @@ ht-degree: 6%
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
-**Format**
+**Syntax**
 
 ```sql
 intersection({ARRAY},{ARRAY})
@@ -209,7 +209,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 此 `bottomN` 函式來傳回最後一個 `N` 陣列中的項目，根據指定的數值運算式以升序排序。
 
-**格式**
+**語法**
 
 ```sql
 {%= bottomN(array, value, amount) %}
@@ -237,7 +237,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 >
 >此 `notIn` 函式 *an* 確保兩個值均不等於null。 因此，結果並非對 `in` 函式。
 
-**格式**
+**語法**
 
 ```sql
 {%= notIn(value, array) %}
@@ -256,7 +256,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 此 `subsetOf` 函式用於確定特定陣列（陣列A）是否是另一陣列（陣列B）的子集。 換句話說，陣列A中的所有元素都是陣列B的元素。
 
-**格式**
+**語法**
 
 ```sql
 {%= subsetOf(array1, array2) %}
@@ -274,7 +274,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 此 `supersetOf` 函式用於確定特定陣列（陣列A）是否是另一陣列（陣列B）的超集。 換句話說，陣列A包含陣列B中的所有元素。
 
-**格式**
+**語法**
 
 ```sql
 {%= supersetOf(array1, array2) %}

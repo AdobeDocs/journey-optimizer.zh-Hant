@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 子網域，委派，網域， DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1779'
 ht-degree: 8%
@@ -167,13 +167,15 @@ CNAME 子網域委派可讓您建立子網域，並使用 CNAME 指向 Adobe 特
 
 1. Adobe會產生SSL CDN URL驗證記錄。 將此驗證記錄複製到您的托管平台。 如果您已在托管解決方案上正確建立此記錄，請核取方塊「I confirm...」，然後按一下 **[!UICONTROL 提交]**.
 
-   ![](assets/subdomain-cdn-url-validation.png)
+   <!--![](assets/subdomain-cdn-url-validation.png)-->
 
    >[!NOTE]
    >
    >您也可以建立驗證記錄，並稍後使用 **[!UICONTROL 另存為草稿]** 按鈕。 然後，您就可以從子網域清單中開啟子網域委派，以繼續進行子網域委派。
 
 1. 提交CNAME子網域委派後，子網域會顯示在清單中，並搭配 **[!UICONTROL 處理]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](about-subdomain-delegation.md#access-delegated-subdomains).
+
+   ![](assets/subdomain-cname-processing.png)
 
    在能夠使用該子網域來傳送訊息之前，您必須等到Adobe執行所需的檢查，這通常需要2到3小時。 請參閱[此章節](#subdomain-validation)深入瞭解。
 

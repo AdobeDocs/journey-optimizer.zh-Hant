@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 8%
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 此 `average` 函式返回陣列內所有選定值的算術平均值。
 
-**格式**
+**語法**
 
 ```sql
 {%= average(array) %}
@@ -39,7 +39,7 @@ ht-degree: 8%
 
 此 `count` 函式會傳回指定陣列中的元素數。
 
-**格式**
+**語法**
 
 ```sql
 {%= count(array) %}
@@ -57,7 +57,7 @@ ht-degree: 8%
 
 此 `max` 函式會傳回陣列中所有選取值中最大的值。
 
-**格式**
+**語法**
 
 ```sql
 {%= max(array) %}
@@ -75,7 +75,7 @@ ht-degree: 8%
 
 此 `min` 函式會傳回陣列中所有選取值的最小值。
 
-**格式**
+**語法**
 
 ```sql
 {%= min(array) %}
@@ -93,7 +93,7 @@ ht-degree: 8%
 
 此 `sum` 函式會傳回陣列內所有選取值的總和。
 
-**格式**
+**語法**
 
 ```sql
 {%= sum(array) %}

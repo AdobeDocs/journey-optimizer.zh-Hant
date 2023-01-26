@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 100%
+source-wordcount: '1642'
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 連線至 [Adobe Experience Cloud](http://experience.adobe.com) 並瀏覽至 [!DNL Journey Optimizer]。
 
-瀏覽使用者介面時的重要概念與 Adobe Experience Platform 相同。如需詳細資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hant#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}。
+瀏覽使用者介面時的重要概念與 Adobe Experience Platform 相同。如需詳細資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hant#adobe-experience-platform-ui-guide)。{target="_blank"}
 
-可用的 UI 元件及功能取決於您的[權限](../administration/permissions.md)和[授權套件](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}。如有任何問題，請聯絡您的 Adobe 客戶成功經理。
+可用的 UI 元件及功能取決於您的[權限](../administration/permissions.md)和[授權套件](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. 如有任何問題，請聯絡您的 Adobe 客戶成功經理。
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 查詢]** - 使用 Adobe Experience Platform 查詢服務來寫入和執行查詢、檢視以前執行的查詢，以及存取由您組織內的使用者儲存的查詢。[了解更多](../data/get-started-queries.md)
 
-* **[!UICONTROL 監視]** - 使用此功能表在 Adobe Experience Platform 使用者介面中監視資料擷取。[了解更多](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hant){target=&quot;_blank&quot;}
+* **[!UICONTROL 監視]** - 使用此功能表在 Adobe Experience Platform 使用者介面中監視資料擷取。[了解更多](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hant){target="_blank"}
 
 **[!UICONTROL 連線]**
 
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 沙箱]** - Adobe Experience 平台提供的沙箱可將單一執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。[了解更多](../administration/sandboxes.md)
 
-* **[!UICONTROL 警報]** - 使用者介面可讓您根據 Adobe Experience Platform 可檢視性深入解析顯示的指標查看收到警報的歷史記錄。UI 也可讓您檢視、啟用和停用可用的警報規則。 [了解跟多](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hant){target=&quot;_blank&quot;}
+* **[!UICONTROL 警報]** - 使用者介面可讓您根據 Adobe Experience Platform 可檢視性深入解析顯示的指標查看收到警報的歷史記錄。UI 也可讓您檢視、啟用和停用可用的警報規則。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hant){target="_blank"}
 
 
 ## 產品內使用案例 {#in-product-uc}
@@ -118,7 +118,7 @@ ht-degree: 100%
 * 顏色對比
 * 驗證必填欄位
 
-在 Adobe Experience Platform 文件中[進一步了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+[深入了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hant){target="_blank"} 在Adobe Experience Platform檔案中。
 
 您可以在 [!DNL Journey Optimizer] 使用這些常見的鍵盤快速鍵：
 
@@ -130,7 +130,7 @@ ht-degree: 100%
 | 選取或清除焦點中的元素 | 輸入或空格鍵 |
 | 取消選取、摺疊窗格或關閉對話方塊 | Esc 鍵 |
 
-在 Adobe Experience Platform 文件中[進一步了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+[深入了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=zh-Hant){target="_blank"} 在Adobe Experience Platform檔案中。
 
 您可以在 Journey Optimizer 的特定部分使用下列快速鍵：
 
@@ -154,12 +154,32 @@ ht-degree: 100%
   </tr>
   <tr>
     <td>選取所有活動</td>
-    <td>Ctrl + A (Windows)<br/> Command + A (Mac)</td>
+    <td>CTRL + A(Windows)<br/>CMD + A(Mac)</td>
   </tr>
   <tr>
     <td>刪除選取的活動</td>
     <td>刪除或退格，然後輸入以確認刪除</td>
   </tr>
+  <tr>
+    <td>放大和縮小（聚焦在畫布或其任何子元素上）</td>
+    <td>CTRL +/-(Windows)或CMD +/-(Mac)</td>
+  </tr>  
+  <tr>
+    <td>在每個活動和路徑之間導覽（聚焦在畫布上），或在工具列按鈕之間導覽（聚焦在工具列上）</td>
+    <td>方向鍵</td>
+  </tr>   
+  <tr>
+    <td>將焦點移至畫布上下一個可操作的元素，工具列是第一個</td>
+    <td>Tab 鍵</td>
+  </tr>  
+  <tr>
+    <td>開啟右側設定窗格（聚焦於活動）</td>
+    <td>輸入</td>
+  </tr>   
+  <tr>
+    <td>在畫布中移動活動（聚焦於活動）</td>
+    <td>SHIFT +箭頭鍵</td>
+  </tr>  
   <tr>
   <td rowspan="3">
 

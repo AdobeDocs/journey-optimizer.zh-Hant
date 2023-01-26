@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 隱藏，清單，跳出，電子郵件，優化程式
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1350'
 ht-degree: 1%
 
 ---
@@ -247,11 +247,17 @@ ht-degree: 1%
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
-系統會顯示您提交的最新上傳內容及其對應狀態。
+系統會顯示您提交的最新上傳內容及其對應狀態：
 
-如果錯誤報告與檔案相關聯，您可以下載該報告以檢查遇到的錯誤。
+* **[!UICONTROL 待定]**:檔案上傳正在處理中。
+* **[!UICONTROL 錯誤]**:檔案上傳程式因技術問題或檔案格式錯誤而失敗。
+* **[!UICONTROL 完成]**:檔案上載過程已成功完成。
 
-![](assets/suppression-list-recent-uploads-error.png)
+在上傳期間，如果某些位址的格式不正確，則不會將其新增至 [!DNL Journey Optimizer] 隱藏清單。
+
+在這種情況下，上傳完成時，就會與報表相關聯。 您可以下載它以檢查遇到的錯誤<!-- and understand why they were not added to the suppression list-->.
+
+![](assets/suppression-list-recent-uploads-report.png)
 
 以下是可在錯誤報表中找到的項目類型範例：
 

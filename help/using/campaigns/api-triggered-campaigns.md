@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 促銷活動， API觸發， REST，優化程式，訊息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '817'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 3%
 API觸發促銷活動的可用通道為電子郵件、簡訊及推送訊息。
 
 ## 建立API觸發的促銷活動 {#create}
+
+### 設定及啟動促銷活動 {#create-activate}
 
 建立API觸發促銷活動的程式與已排程的促銷活動相同，除了在API裝載中執行的對象選取。 有關如何建立促銷活動的詳細資訊，請參閱 [本節](create-campaign.md).
 
@@ -55,11 +57,23 @@ API觸發促銷活動的可用通道為電子郵件、簡訊及推送訊息。
 
    如果您為促銷活動設定特定的開始和/或結束日期，則不會在這些日期以外執行，而如果API觸發促銷活動，API呼叫將會失敗。
 
-1. 在 **[!UICONTROL cURL要求]** 部分，檢索 **[!UICONTROL 促銷活動ID]** 以用於API裝載。
+1. 按一下 **[!UICONTROL 審核以激活]** 檢查促銷活動是否已正確設定，然後啟用它。
+
+您現在可以從API執行促銷活動。 [了解更多](#execute)
+
+### 執行促銷活動 {#execute}
+
+啟動促銷活動後，您需要擷取產生的範例cURL要求，並將其用於API中，以建置裝載並觸發促銷活動。
+
+1. 開啟促銷活動，然後複製並貼上 **[!UICONTROL cURL要求]** 區段。
 
    ![](assets/api-triggered-curl.png)
 
-1. 按一下 **[!UICONTROL 審核以激活]** 檢查促銷活動是否已正確設定，然後啟用它。
+1. 將此cURL要求用於API中，以建置裝載並觸發促銷活動。 如需詳細資訊，請參閱 [互動式訊息執行API檔案](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+
+   >[!NOTE]
+   >
+   >如果您已在建立促銷活動時設定特定的開始和/或結束日期，則不會在這些日期以外執行，且API呼叫將會失敗。
 
 ## 在API觸發的行銷活動中使用內容屬性 {#contextual}
 
@@ -82,16 +96,6 @@ API觸發促銷活動的可用通道為電子郵件、簡訊及推送訊息。
 >此 `context.system` 語法僅限於Adobe內部使用，且不應用於傳遞內容屬性。
 
 請注意，目前沒有內容屬性可供左側邊欄功能表使用。 屬性必須直接在個人化運算式中輸入，且不需執行任何檢查 [!DNL Journey Optimizer].
-
-## 執行促銷活動 {#execute}
-
-若要執行API觸發的促銷活動，您必須先擷取其ID，並將其傳遞至API裝載。 若要這麼做，請開啟促銷活動，然後從 **[!UICONTROL cURL要求]** 區段。
-
-![](assets/api-triggered-id.png)
-
-然後，您可以將此ID用於API裝載中，以觸發促銷活動。 請參閱 [互動式訊息執行API檔案](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) 以取得更多資訊。
-
-請注意，如果您在建立促銷活動時已設定特定的開始和/或結束日期，則不會在這些日期以外執行，而API呼叫將會失敗。
 
 ## 行銷活動執行時建立設定檔 {#profile-creation}
 

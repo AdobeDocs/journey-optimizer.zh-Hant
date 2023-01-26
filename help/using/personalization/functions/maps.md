@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: de6a8da2-55cf-4105-ba93-40c556732626
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 6%
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 此 `get` 函式可用來擷取指定索引鍵的對應值。
 
-**格式**
+**語法**
 
 ```sql
 {%= get(map, string) %}
@@ -39,7 +39,7 @@ ht-degree: 6%
 
 此 `keys` 函式可用來擷取指定地圖的所有索引鍵。
 
-**格式**
+**語法**
 
 ```sql
 {%= keys(map) %}
@@ -57,7 +57,7 @@ ht-degree: 6%
 
 此 `values` 函式來擷取指定地圖的所有值。
 
-**格式**
+**語法**
 
 ```sql
 {%= values(map) %}

@@ -4,16 +4,57 @@ product: journey optimizer
 title: 2022 年發行說明
 description: Journey Optimizer 2022 年發行說明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '3453'
-ht-degree: 100%
+source-wordcount: '3583'
+ht-degree: 99%
 
 ---
 
 # 2022 年發行說明 {#release-notes-2022}
 
 此頁面列出了於 2022 年發行的所有 [!DNL Journey Optimizer] 功能和改善。
+
+
+
+## 2022 年 10 月發行版本 {#oct-2022-release}
+
+<!--
+
+### New capability{#oct-2022-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Direct Mail Channel (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now add direct mail messages in your campaigns and journeys. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+-->
+
+### 改進項目 {#oct-2022-improvements}
+
+**歷程**
+
+* 此&#x200B;**重複時強制重新進入**&#x200B;選項已在循環讀取區段排程參數中新增。 此選項可讓您讓歷程中仍存在的所有設定檔在下次執行時自動退出。 停用選項時，設定檔必須先完成歷程，才能在另一個發生次數中重新輸入。 [進一步了解](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**管理**
+
+* 使用者介面已新增訊息，以警告子網域、登陸頁面子網域、PTR 記錄和 IP 集區設定是所有沙箱的共同設定，因此，對其中一個設定所做的任何修改也會影響生產沙箱。
+* 已修改從使用者介面上傳隱藏清單為 CSV 檔案的步驟。 [了解更多](../configuration/manage-suppression-list.md#download-suppression-list)
+
+**行銷活動**
+
+* 您現在可以封存已完成和已停止的行銷活動。 [了解更多](../campaigns/modify-stop-campaign.md#archive)
 
 
 ## 2022 年 9 月發行版本{#sept-2022-release}
@@ -346,7 +387,7 @@ ht-degree: 100%
 
 **歷程**
 
-* **結束歷程** — 在歷程畫布中， **結束**&#x200B;活動已從調色盤中刪除。 現在，每個路徑的末端預設新增結束標籤而且無法移除。 這種改善能夠更好地報告客戶從歷程退出的位置，不需要由歷程業者採取任何動作。 請參閱 [文件](../building-journeys/end-journey.md) 及 [功能影片](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}。
+* **結束歷程** — 在歷程畫布中， **結束**&#x200B;活動已從調色盤中刪除。 現在，每個路徑的末端預設新增結束標籤而且無法移除。 這種改善能夠更好地報告客戶從歷程退出的位置，不需要由歷程業者採取任何動作。 請參閱 [檔案](../building-journeys/end-journey.md) 和 [功能影片](https://video.tv.adobe.com/v/345376){target="_blank"}.
 
 
 * 此 **個人資料時區** 「歷程屬性」中的選項現在預設為未勾選。 [了解更多](../building-journeys/timezone-management.md#timezone-from-profiles)

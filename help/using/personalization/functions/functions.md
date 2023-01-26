@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 075a90130696877d5dea39b7bfe4e85b2aac4791
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1805'
 ht-degree: 3%
 
 ---
@@ -146,7 +146,10 @@ ht-degree: 3%
 
 <table>
     <tr>
-        <td><a href="math.md#absolute">絕對</a></td><td>此函式將轉換數字的絕對值</td>
+        <td><a href="math.md#absolute">絕對</a></td><td>此函式將任何數字格式化為其語言敏感表示法。</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#format-number">格式編號</a></td><td>此函式將任何數字格式化為其語言敏感表示法。</td>
     </tr>
     <tr>
         <td><a href="math.md#random">Random</a></td><td>此函式會傳回0到1之間的隨機值</td>
@@ -158,10 +161,16 @@ ht-degree: 3%
         <td><a href="math.md#round-up">向上</a></td><td>此函式會四捨五入數字</td>
     </tr>
     <tr>
+    <td><a href="math.md#to-hex-string">到十六進位字串</a></td><td>將任何數字轉換為十六進位字串。</td>
+    </tr>
+    <tr>
         <td><a href="math.md#to-percentage">結束百分比</a></td><td>此函式將數字轉換為百分比</td>
     </tr>
     <tr>
         <td><a href="math.md#to-precision">精準</a></td><td>此函式將數字轉換為所需的精度</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#to-string">至字串</a></td><td>此函式將任何數字轉換為其字串表示。 </td>
     </tr>
 </table>
 
@@ -181,6 +190,9 @@ ht-degree: 3%
 <table>
     <tr>
         <td><a href="string.md#camelCase">駝峰</a></td><td>此函式用於大寫字串每個字詞的首字母</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#char-code-at">字元碼位於</a></td><td>此函式會傳回字元的ASCII值，例如JavaScript中的charCodeAt函式</td>
     </tr>
     <tr>
         <td><a href="string.md#concat">Concat</a></td><td>此函式用於將兩個字串合併為一個</td>
@@ -212,6 +224,9 @@ ht-degree: 3%
     </tr>
     <tr>
         <td><a href="string.md#extractEmailDomain">擷取電子郵件網域</a></td><td>此函式可用來擷取電子郵件地址的網域</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#format-currency">格式貨幣</a></td><td>此函式會根據第二個引數中作為字串傳遞的地區設定，將任何數字轉換為對應的語言敏感貨幣表示</td>
     </tr>
     <tr>
         <td><a href="string.md#get-url-host">取得url主機</a></td><td>此函式用於取得url主機。</td>
@@ -280,7 +295,7 @@ ht-degree: 3%
         <td><a href="string.md#startsWith">開始於</a></td><td>此函式用於判斷字串是否以指定的子字串開頭</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-date">至今的字串</a></td><td>此函式用於將字串轉換為日期。 它會傳回紀元日期作為無效輸入的輸出。</td>
+        <td><a href="string.md#string-to-date">至今的字串</a></td><td>此函式會將字串值轉換為日期 — 時間值</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-integer">從字串轉換為整數</a></td><td>此函式會將字串值轉換為整數值。</td>

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 外部， API，優化程式，限定
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 3%
+source-wordcount: '1070'
+ht-degree: 2%
 
 ---
 
@@ -35,6 +35,10 @@ Journey Optimizer 可讓您透過自訂資料來源與自訂動作來設定與�
 內建的上限設定API提供上游技術護欄，以協助保護您的外部系統。
 
 若為外部資料來源，則每秒的呼叫數上限設為15。 如果呼叫數超過每秒15次，則會捨棄剩餘的呼叫。 您可以提高私人外部資料來源的此限制。 請連絡Adobe，將端點納入允許清單中。 對於公用外部資料來源，則無法這麼做。
+
+>[!NOTE]
+>
+> 如果資料源使用的自定義身份驗證與用於資料源的終結點不同，則需要與Adobe聯繫，以將該終結點包含在允許清單中。
 
 若是自訂動作，您需要評估外部API的容量。 例如，如果Journey Optimizer每秒傳送1000次呼叫，而您的系統每秒只支援100次呼叫，則您需要定義上限規則，這樣您的系統就不會飽和。
 

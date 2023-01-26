@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 11%
@@ -23,7 +23,7 @@ ht-degree: 11%
 
 此 `and` 函式用來建立邏輯連接。
 
-**格式**
+**語法**
 
 ```sql
 {%= query1 and query2 %}
@@ -41,7 +41,7 @@ ht-degree: 11%
 
 此 `or` 函式用於建立邏輯分離。
 
-**格式**
+**語法**
 
 ```sql
 {%= query1 or query2 %}
@@ -60,7 +60,7 @@ ht-degree: 11%
 
 The `not` (or `!`) function is used to create a logical negation.
 
-**Format**
+**Syntax**
 
 ```sql
 not ({QUERY})
@@ -84,7 +84,7 @@ not (homeAddress.countryISO = "CA")
 
 此 `=` （等於）函式會檢查某個值或運算式是否等於另一個值或運算式。
 
-**格式**
+**語法**
 
 ```sql
 {%= expression = value %}
@@ -102,7 +102,7 @@ not (homeAddress.countryISO = "CA")
 
 此 `!=` （不等於）函式檢查一個值或表達式是否為 **not** 等於其他值或運算式。
 
-**格式**
+**語法**
 
 ```sql
 {%= expression != value %}
@@ -120,7 +120,7 @@ not (homeAddress.countryISO = "CA")
 
 此 `>` （大於）函式用來檢查第一值是否大於第二值。
 
-**格式**
+**語法**
 
 ```sql
 {%= expression1 > expression2 %}
@@ -138,7 +138,7 @@ not (homeAddress.countryISO = "CA")
 
 此 `>=` （大於或等於）函式用來檢查第一值是否大於或等於第二值。
 
-**格式**
+**語法**
 
 ```sql
 {%= expression1 >= expression2 %}
@@ -156,7 +156,7 @@ not (homeAddress.countryISO = "CA")
 
 此 `<` （小於）比較函式用來檢查第一值是否小於第二值。
 
-**格式**
+**語法**
 
 ```sql
 {%= expression1 < expression2 %}
@@ -174,7 +174,7 @@ not (homeAddress.countryISO = "CA")
 
 此 `<=` （小於或等於）比較函式用於檢查第一值是否小於或等於第二值。
 
-**格式**
+**語法**
 
 ```sql
 {%= expression1 <= expression2 %}

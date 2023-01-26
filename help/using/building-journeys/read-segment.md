@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，區段，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1342'
 ht-degree: 11%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 11%
 
    ![](assets/read-segment-copy.png)
 
-1. 在 **[!UICONTROL 命名空間]** 欄位中，選擇要用來識別個人的命名空間。 [進一步了解命名空間](../event/about-creating.md#select-the-namespace).
+1. 在 **[!UICONTROL 命名空間]** 欄位中，選擇要用來識別個人的命名空間。 依預設，欄位會預先填入上次使用的命名空間。 [進一步了解命名空間](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >

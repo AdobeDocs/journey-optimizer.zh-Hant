@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 設定，電子郵件，配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1478'
 ht-degree: 1%
 
 ---
@@ -68,6 +68,14 @@ ht-degree: 1%
 >[!NOTE]
 >
 >對於非生產環境，Adobe不會建立現成可用的測試子網域，也不會授予對共用傳送IP池的存取權。 您需要 [委派您自己的子網域](../configuration/delegate-subdomain.md) 並使用分配給您組織的池中的IP。
+
+選擇IP池後，當將游標暫留在IP池下拉清單下顯示的IP地址上時，將顯示PTR資訊。 [了解有關PTR記錄的更多資訊](../configuration/ptr-records.md)
+
+![](assets/email-surface-ptr-record.png)
+
+>[!NOTE]
+>
+>如果未配置PTR記錄，請聯繫您的Adobe代表。
 
 ## 清單 — 取消訂閱 {#list-unsubscribe}
 

@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 運算式，語法，運算子，編輯器，歷程
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '516'
 ht-degree: 6%
 
 ---
@@ -20,18 +20,20 @@ ht-degree: 6%
 運算子有兩種：一元運算子和二進位運算子。 有左一元運算子和右一元運算子。
 
 ```json
-    // left-hand unary operators
-    <operator> <operand> // operand is an expression
-    not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
+// left-hand unary operators
+// <operator> <operand> 
+// operand is an expression
+not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
-    // right-hand unary operators
-    <operand> <operator> // operand is an expression
-    @{LobbyBeacon.endUserIDs._experience.emailid.id} is not null
+// right-hand unary operators
+// <operator> <operand> 
+// operand is an expression
+@{LobbyBeacon.endUserIDs._experience.emailid.id} is not null
 
-    // binary operators
-    <operand1> <operator> <operand2>
-    (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example1@adobe.com") or
-    (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com")
+// binary operators
+// <operand1> <operator> <operand2>
+// operand is an expression
+(@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example1@adobe.com") or (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com") 
 ```
 
 ## 重要備註{#important-notes}
@@ -58,8 +60,6 @@ ht-degree: 6%
 
 ### 或
 
-
-
 ```json
 <expression1> or <expression2>
 ```
@@ -73,8 +73,6 @@ ht-degree: 6%
 ```
 
 ### not
-
-
 
 ```json
 not <expression>
@@ -92,8 +90,6 @@ not 3.15 < 1
 
 ### 為null
 
-
-
 ```json
 <expression> is null
 ```
@@ -109,8 +105,6 @@ not 3.15 < 1
 ```
 
 ### 非null
-
-
 
 ```json
 <expression> is not null
@@ -128,8 +122,6 @@ not 3.15 < 1
 
 ### 為null
 
-
-
 ```json
 <expression> has null
 ```
@@ -141,16 +133,18 @@ not 3.15 < 1
 範例：
 
 ```json
-["foo", "bar", null] has null --  returns true.
+["foo", "bar", null] has null
 ```
+
+傳回true
 
 ```json
-["foo", "bar", ""] has null -- returns false because "" is not considered as null.
+["foo", "bar", ""] has null
 ```
 
+傳回false，因為「」不視為Null。
+
 ### ==
-
-
 
 ```json
 <expression1> == <expression2>
@@ -172,8 +166,6 @@ not 3.15 < 1
 
 ### !=
 
-
-
 ```json
 <expression1> != <expression2>
 ```
@@ -194,8 +186,6 @@ not 3.15 < 1
 ```
 
 ### >
-
-
 
 ```json
 <expression1> > <expression2>
@@ -219,8 +209,6 @@ Datetimeonly可與Datetimeonly進行比較。
 
 ### >=
 
-
-
 ```json
 <expression1> >= <expression2>
 ```
@@ -243,8 +231,6 @@ Datetimeonly可與Datetimeonly進行比較。
 
 ### &lt;
 
-
-
 ```json
 <expression1> < <expression2>
 ```
@@ -266,8 +252,6 @@ Datetimeonly可與Datetimeonly進行比較。
 ```
 
 ### &lt;=
-
-
 
 ```json
 <expression1> <= <expression2>
@@ -293,8 +277,6 @@ Datetimeonly可與Datetimeonly進行比較。
 
 ### +
 
-
-
 ```json
 <expression1> + <expression2>
 ```
@@ -306,12 +288,12 @@ Datetimeonly可與Datetimeonly進行比較。
 範例：
 
 ```json
-1 + 2 -- returns 3
+1 + 2
 ```
 
+傳回3
+
 ### -
-
-
 
 ```json
 <expression1> - <expression2>
@@ -324,12 +306,12 @@ Datetimeonly可與Datetimeonly進行比較。
 範例：
 
 ```json
-2 - 1 -- returns 1
+2 - 1 
 ```
 
+傳回1
+
 ### /
-
-
 
 ```json
 <expression1> / <expression2>
@@ -344,12 +326,12 @@ Datetimeonly可與Datetimeonly進行比較。
 範例：
 
 ```json
-4 / 2 -- returns 2
+4 / 2
 ```
 
+傳回2
+
 ### *
-
-
 
 ```json
 <expression1> * <expression2>
@@ -362,12 +344,12 @@ Datetimeonly可與Datetimeonly進行比較。
 範例：
 
 ```json
-3 * 4 -- returns 12
+3 * 4
 ```
 
+傳回12
+
 ### %
-
-
 
 ```json
 <expression1> % <expression2>
@@ -380,14 +362,14 @@ Datetimeonly可與Datetimeonly進行比較。
 範例：
 
 ```json
-3 % 2 -- returns 1.
+3 % 2
 ```
+
+傳回1。
 
 ## Math {#math}
 
 ### 為數值
-
-
 
 ```json
 <expression> is numeric
@@ -403,8 +385,6 @@ Datetimeonly可與Datetimeonly進行比較。
 
 ### 為整數
 
-
-
 ```json
 <expression> is integer
 ```
@@ -418,8 +398,6 @@ Datetimeonly可與Datetimeonly進行比較。
 ```
 
 ### 小數
-
-
 
 ```json
 <expression> is decimal
@@ -437,8 +415,6 @@ Datetimeonly可與Datetimeonly進行比較。
 
 ### +
 
-
-
 ```json
 <string> + <expression>
 ```
@@ -454,22 +430,26 @@ Datetimeonly可與Datetimeonly進行比較。
 範例：
 
 ```json
-"the current time is " + (now()) -- returns "the current time is 2019-09-23T09:30:06.693Z"
+"the current time is " + (now())
 ```
 
-```json
-(now()) + " is the current time" -- returns "2019-09-23T09:30:06.693Z is the current time"
-```
+傳回「目前時間為2019-09-23T09:30:06.693Z」
 
 ```json
-"a" + "b" + "c" + 1234 -- returns "abc1234".
+(now()) + " is the current time"
 ```
+
+傳回「2019-09-23T09」:30:06.693Z是當前時間」
+
+```json
+"a" + "b" + "c" + 1234
+```
+
+傳回「abc1234」。
 
 ## 日期 {#date}
 
 ### +
-
-
 
 ```json
 <expression> + <duration>
@@ -480,17 +460,25 @@ Datetimeonly可與Datetimeonly進行比較。
 範例：
 
 ```json
-toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M") -- returns 2011-12-03T15:30:30Z
+(toDateTime("2011-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-```json
-toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M") -- returns 2011-12-03T15:30:30
-```
+傳回 _dateTime_ 2011-12-03T15:30:30Z
 
 ```json
-now() + toDuration("PT1H") -- returns a dateTime (with UTC time zone) one hour later from current time
+(toDateTimeOnly("2011-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
+傳回 _dateTimeOnly_ 2011-12-03T15:30:30
+
 ```json
-toDuration("PT1H") + toDuration("PT1H") -- returns  PT2H
+(now()) + (toDuration("PT1H"))
 ```
+
+傳回 _dateTime_ （含UTC時區）從目前時間起1小時後
+
+```json
+(toDuration("PT1H")) + (toDuration("PT1H"))
+```
+
+傳回 _持續時間_ PT2H

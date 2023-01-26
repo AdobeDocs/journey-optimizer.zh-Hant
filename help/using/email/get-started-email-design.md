@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 電子郵件，設計，庫存，資產
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 21%
+source-wordcount: '317'
+ht-degree: 18%
 
 ---
 
@@ -52,6 +52,10 @@ ht-degree: 21%
    * **選取現有內容** 從內建或自訂範本的清單。 了解如何使用電子郵件範本 [本節](email-templates.md).
 
    ![](assets/email_designer_create_options.png)
+
+1. 定義並個人化您的電子郵件內容後，您就可以匯出內容以供驗證或稍後使用。 按一下 **[!UICONTROL 匯出HTML]** 若要在您的電腦上儲存zip檔案，其中會包含您的HTML和資產。
+
+   ![](assets/email_designer_export.png)
 
 ## 作法影片 {#video}
 

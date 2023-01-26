@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 資格，事件，區段，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '936'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 3%
    >
    >請注意 **[!UICONTROL 輸入]** 和 **[!UICONTROL 退出]** 對應至 **已實現** 和 **退出** 來自Adobe Experience Platform的區段參與狀態。 如需如何評估區段的詳細資訊，請參閱 [區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
-1. 選取命名空間。 唯有將事件定位為歷程的第一步時，才需要此選項。
+1. 選取命名空間。 唯有將事件定位為歷程的第一步時，才需要此選項。 依預設，欄位會預先填入上次使用的命名空間。
 
    >[!NOTE]
    >
