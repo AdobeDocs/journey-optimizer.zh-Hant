@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 資料，管理，平台
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 61b800c7f987d2650c4fe6d9f08e1c02ac0f667c
+source-git-commit: ef34cb0207d3011eca6d76ad6568f3edc00e13a3
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,11 @@ ht-degree: 1%
 <tr style="border: 0;">
   <td>
     <div><img alt="原則" src="assets/do-not-localize/policy.png" /> 
-    <br>根據商定的時間表或您的策略刪除資料 — 資料刪除是資料保護的一個關鍵方面，是所有資料治理過程中的關鍵步驟。 [!DNL Adobe Journey Optimizer] 可能產生的資料多於需要。 此外，您也想在資料集的必要持續時間過後，盡量處理所發生的情況，無論是因為公用程式或法規的緣故。 您需要的控制是在任何指定時間點刪除資料。 <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html">進一步了解Adobe Experience Platform檔案中的資料衛生</a></div>
+    <br>根據商定的時間表或您的策略刪除資料 — 資料刪除是資料保護的一個關鍵方面，是所有資料治理過程中的關鍵步驟。 [!DNL Adobe Journey Optimizer] 可能產生的資料多於需要。 此外，您也想在資料集的必要持續時間過後，盡量處理所發生的情況，無論是因為公用程式或法規的緣故。 您需要的控制是在任何指定時間點刪除資料。 
+    </div>
+      <div>
+     <a href="../privacy/data-hygiene.md">了解更多</a></div>
+    </div>
   </td>
 </tr>
 </table>
