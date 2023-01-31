@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: a61cbb5b2a6cea21dbaf41a9fcb085fe1b814087
 workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 3%
@@ -61,7 +61,7 @@ ht-degree: 3%
 
 +++
 
-+++ _experience > decisioning >條件>說明**
++++ 「體驗>決策>條件>說明」
 
 **欄位：** 說明
 **標題：** 說明
@@ -110,7 +110,7 @@ ht-degree: 3%
 
 +++
 
-+++_體驗>決策>條件>位置**
++++_體驗>決策>條件>版位
 
 **欄位：** 刊登
 **標題：** 版位限制
@@ -125,7 +125,7 @@ ht-degree: 3%
 
 +++
 
-+++_體驗>決策>條件> profileConstraints**
++++_體驗>決策>條件> profileConstraints
 
 **欄位：** profileConstraints
 **標題：** 設定檔限制
@@ -205,7 +205,7 @@ ht-degree: 3%
 
 +++
 
-+++_體驗>決策>條件>排名**
++++_體驗>決策>條件>排名
 
 **欄位：** 排名
 **標題：** 排名詳細資料
@@ -292,7 +292,7 @@ ht-degree: 3%
 
 +++
 
-+++ _repo {#repo}
++++ _repo
 
 **欄位：** _repo
 **類型：** 物件
