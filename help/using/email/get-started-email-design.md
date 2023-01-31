@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 電子郵件，設計，庫存，資產
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 18%
@@ -45,7 +45,6 @@ ht-degree: 18%
       >[!NOTE]
       >
       >在促銷活動中，您也可以選取 **[!UICONTROL 代碼編輯器]** 按鈕 **[!UICONTROL 編輯內容]** 螢幕。 [了解更多](create-email.md#define-email-content)
-
 
    * **匯入現有HTML內容** 或.zip資料夾。 了解如何在 [本節](existing-content.md).
 

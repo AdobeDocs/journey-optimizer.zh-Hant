@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 權限，編寫，訊息
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1144'
 ht-degree: 10%
 
 ---
@@ -107,8 +107,18 @@ ht-degree: 10%
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
 
-此 **[!DNL Decisioning manager]** 產品設定檔僅允許 **[!UICONTROL 決策管理]** 功能表。 指派給此產品設定檔的使用者將只能管理、檢視和發佈決策。
+此 **[!DNL Decisioning manager]** 產品設定檔僅允許存取 **[!UICONTROL 決策管理]** 功能表。 指派給此產品設定檔的使用者將只能管理、檢視和發佈決策。
 
 此產品設定檔包含下列權限：
 
 |功能 |權限| |-|-| |決策管理| <ul><li>**[!DNL Manage decisions]**:讀取、建立、編輯和刪除決策實體。</li><li>**[!DNL View decisions]**:決策實體的唯讀存取權。</li><li>**[!DNL Manage ranking strategies]**:讀取、建立、編輯和刪除自訂報表及使用動作功能。</li><li>**[!DNL Publish decisions]**:啟用或停用決策活動。</li></ul>|
+
+## [!DNL Content Library Manager] {#content-library-manager}
+
+此 **[!DNL Content Library Manager]** 產品設定檔僅允許存取 **[!UICONTROL 內容範本]** 功能表。 指派給此產品設定檔的使用者將只能存取範本程式庫以建立內容，而不需存取歷程或行銷活動。
+
+此產品設定檔包含下列權限：
+
+|功能 |權限| |-|-| |Journey Optimizer程式庫| <ul><li>**[!DNL Manage library items]**:讀取、建立、編輯和刪除Journey Optimizer資料庫項目。</li><li>**[!DNL Manage simulate content]**:存取 **[!UICONTROL 模擬內容]** 預覽和校樣的選項。</li></ul>|
+|決策管理|<ul><li>**[!DNL Manage decisions]**:讀取、建立、編輯和刪除決策實體。</li><li>**[!DNL Manage ranking strategies]**:讀取、建立、編輯和刪除自訂報表及使用動作功能。</li></ul>|
+|Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**:讀取、建立、編輯和刪除區段。</li><li>**[!DNL Manage profiles]**:讀取、建立、編輯和刪除設定檔。</li><li>**[!DNL Read datasets]**:資料集的唯讀存取權。</li><li>**[!DNL Read schemas]**:綱要的唯讀存取權。</li><li>**[!DNL Manage merge policies]**:讀取、建立、編輯和刪除合併策略。</li></ul>|

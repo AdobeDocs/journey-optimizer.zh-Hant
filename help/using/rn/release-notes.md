@@ -4,9 +4,9 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 645db980155993155a10d27f4ff59967b000442f
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '509'
 ht-degree: 19%
 
 ---
@@ -45,22 +45,25 @@ ht-degree: 19%
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Email content templates</strong><br/></th>
+<th><strong>電子郵件內容範本</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now create standalone content templates that can be leveraged across journeys and campaigns for quick reuse.</p> 
-<p>For more information, refer to the <a href="../personalization/get-started-dynamic-content.md">detailed documentation</a>.
+<p>您現在可以建立獨立內容範本，這些範本可用於歷程和行銷活動，以快速重複使用。</p> 
+</p>
+<!--img src="assets/do-not-localize/"/-->
+<p>了解如何在 <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">此影片</a>.
+<p>如需詳細資訊，請參閱<a href="../email/content-templates.md">詳細文件</a>。
+</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 ### 改進項目 {#jan-2023-improvements}
 

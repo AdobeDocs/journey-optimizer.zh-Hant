@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 電子郵件，範本，設計
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 5%
+source-wordcount: '279'
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,8 @@ ht-degree: 5%
 
 您可以選擇：
 * 20個現成可用的電子郵件範本。
-* 已儲存的範本。 [了解更多](#use-saved-template)
+* 已儲存的電子郵件範本。 [了解更多](#use-saved-template)
+* 內容範本. [了解更多](content-templates.md)
 
 ## 另存為範本 {#save-as-template}
 
@@ -34,6 +35,10 @@ ht-degree: 5%
 >abstract="2022年7月25日，訊息功能表消失，訊息現在直接從歷程中撰寫。 如果您想在歷程中重複使用舊版訊息，需要將其儲存為範本。"
 
 在您設計 [電子郵件內容](get-started-email-design.md)，您可以儲存它以供日後重複使用。 請依照下列步驟以執行此操作。
+
+>[!CAUTION]
+>
+>若要將內容儲存為範本，您必須具備 **[!DNL Manage Library Items]** 包含在 **[!DNL Content Library Manager]** 產品設定檔。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
 
 1. 按一下螢幕右上方的刪節號。
 
@@ -46,6 +51,8 @@ ht-degree: 5%
    ![](assets/email_designer-template-name.png)
 
 1. 按一下「**[!UICONTROL 儲存]**」。
+
+此範本會儲存至內容範本清單中。 [了解更多](content-templates.md)
 
 下次您建立電子郵件時，可以使用此範本來建置內容。 [了解如何](#use-saved-template)
 
