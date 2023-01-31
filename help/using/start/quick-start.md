@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 快速入門
-description: 行銷人員、管理員或資料工程師可透過分步指南，學習和發掘 Adobe Journey Optimizer 的力量.
+description: 行銷人員、管理員或資料工程師可透過分步指南，學習和發掘 Adobe Journey Optimizer 的力量。
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 5fd4f8c5ffaf2c417d95f88fa31c850bc88db13f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
 ht-degree: 100%
 
