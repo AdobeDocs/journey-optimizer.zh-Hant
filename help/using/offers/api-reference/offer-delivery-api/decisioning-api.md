@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: f5d5c9dacd640b130dd4bcbaab803ecc7e999d10
+source-git-commit: 80ec1fb3f179a78526fcbee103466b3aeb5a9484
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 2%
+source-wordcount: '1058'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,9 @@ ht-degree: 2%
 | Accept | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
 | Content-Type | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
 
-**API格式**
+## API要求 {#request}
+
+### API格式
 
 ```https
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
@@ -43,7 +45,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/ode/` |
 | `{CONTAINER_ID}` | 決策所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
-**要求**
+### 請求
 
 ```shell
 curl -X POST \
@@ -122,7 +124,7 @@ curl -X POST \
 | `xdm:responseFormat.xdm:option` | 此標幟可識別傳回的特定中繼資料資訊 `xdm:option`. | `name`、`characteristics` |
 | `xdm:responseFormat.xdm:placement` | 此標幟可識別傳回的特定中繼資料資訊 `xdm:placement`. | `name`、`channel`、`componentType` |
 
-**回應**
+### 回應
 
 成功的回應會傳回您的主張的相關資訊，包括其獨特性 `xdm:propositionId`.
 
@@ -192,6 +194,20 @@ curl -X POST \
 | `xdm:propositions.xdm:fallback.dc:format` | 資源的物理或數字表現。 通常，格式應包含資源的媒體類型。 該格式可用於確定顯示或操作資源所需的軟體、硬體或其它設備。 建議您從受控辭匯(例如 [Internet媒體類型](http://www.iana.org/assignments/media-types/) 定義電腦媒體格式。 | `"dc:format": "image/png"` 或 `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | 可從內容傳送網路或服務端點讀取資產的選用URL。 此URL可用來從使用者代理公開存取資產。 | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | 建立決策回應訊息的時間。 這表示為紀元時間。 | `"ode:createDate": 1566497582038` |
+
+**回應代碼**
+
+下表列出回應中可傳回的所有程式碼：
+
+| 程式碼 | 說明 |
+|  ---  |  ---  |
+| 200 | 成功. 已就特定活動作出決定 |
+| 400 | 請求參數無效。 由於語法錯誤，伺服器無法理解該請求。 |
+| 403 | 禁止，權限不足。 |
+| 422 | 不可處理的實體。 但是，請求語法正確，因為語意錯誤，無法處理。 |
+| 429 | 請求太多。 使用者在指定的時間內傳送了太多請求。 |
+| 500 | 內部伺服器錯誤。 伺服器遇到非預期的條件，使其無法履行請求。 |
+| 503 | 由於伺服器過載，服務不可用。 由於臨時超載，伺服器當前無法處理該請求。 |
 
 ## 教學課程影片 {#video}
 
