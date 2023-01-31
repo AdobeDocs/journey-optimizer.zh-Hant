@@ -9,8 +9,8 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: 23f1ad4580d714acaefd7a5948ee674ce5203bc6
-workflow-type: tm+mt
-source-wordcount: '688'
+workflow-type: ht
+source-wordcount: '686'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 [!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 結合並統一即時客戶設定檔、API 優先開放框架、集中式 Offer Decisioning、人工智慧 (AI) 和機器學習 (ML)，以進行個人化和最佳化。Journey Optimizer 可讓品牌在整個客戶歷程中，以規模、速度和彈性的方式，聰明地決定下一個最佳的互動方式。 透過[!DNL Adobe Journey Optimizer]，公司可以在相同應用程式中建立並傳送排程行銷活動 (例如零售商店的每週促銷活動) 和量身打造的個別通訊 (例如忠誠應用程式客戶可能已查看過該項目，且該項目先前無存貨的推播通知)。
 
-➡️ [探索 Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=zh-Hant){target=&quot;_blank&quot;} (影片)
+➡️ [探索 Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=zh-Hant){target="_blank"} (影片)
 
 
 ## 使用案例 {#use-cases}
