@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 3%
@@ -27,40 +27,50 @@ ht-degree: 3%
 
 以下是可在 **[!UICONTROL 決策物件存放庫 — 後援優惠方案]** 資料集。
 
-## 識別碼 {#identifier}
++++ 識別碼
 
 **欄位：** _id
 **標題：** 識別碼
 **說明：** 記錄的唯一標識符。
 **類型:**&#x200B;字串
 
-## _體驗 {#experience}
++++
+
++++ _體驗
 
 **欄位：** _體驗
 **類型：** 物件
 
-### _experience > decisioning
++++
+
++++ _experience > decisioning
 
 **欄位：** 決策
 **類型：** 物件
 
-#### 「體驗>決策>特性」
++++
+
++++ 「體驗>決策>特性」
 
 **欄位：** 特徵
 **標題：** 決策選項特徵
 **說明：** 屬於此特定決策選項的其他屬性或屬性。 不同的例項可能具有不同的特性（地圖中的索引鍵）。 特徵是用於區分一個決策選項與其他決策選項的名稱值組。 特徵用作表示此決策選項的內容中的值，以及用於分析和優化選項效能的功能。 當每個例項都有相同的屬性或屬性時，該方面應該建模為衍生自決策選項詳細資料的擴充架構。
 **類型：** 物件
 
++++
+
 <!--Field under Characteristics without title = additionalProperties? Desc = Value of the property. Type: string-->
 
-#### 「體驗>決策>內容」
++++ 「體驗>決策>內容」
 
 **欄位：** 內容
 **標題：** 內容詳細資料
 **說明：** 內容項目，以在不同內容中呈現決策項目。 單一決策選項可以有多種內容變體。 內容是指針對受眾以在（數位）體驗中消費的資訊。 內容會透過管道傳遞至特定版位。
 **類型：** 陣列
 
-**「體驗>決策>內容>元件」**
++++
+
++++_體驗>決策>內容>元件
 
 **欄位：** 元件
 **說明：** 代表決策選項的內容元件，包括其所有語言變體。 特定元件由「dx:format」、「dc:subject」和「dc:language」或其組合找到。 此中繼資料可用來尋找或呈現與優惠方案相關聯的內容，並根據版位合約加以整合。
@@ -148,14 +158,18 @@ ht-degree: 3%
    **類型:**字串
    **範例：** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-**_experience > decisioning >內容>位置**
++++
+
++++ _experience > decisioning >內容>位置
 
 **欄位：** 刊登
 **標題：** 版位
 **說明：** 符合的位置。 值是所參考之優惠方案版位的URI(@id)。 請參閱結構https://ns.adobe.com/experience/decisioning/placement。
 **類型:**&#x200B;字串
 
-#### _experience > decisioning >生命週期狀態
++++
+
++++ _experience > decisioning >生命週期狀態
 
 **欄位：** lifecycleStatus
 **標題：** 生命週期狀態
@@ -163,30 +177,40 @@ ht-degree: 3%
 **類型：** 字串
 **可能的值：** 「草稿」（預設）、「已核准」、「已上線」、「已完成」、「已封存」
 
-#### _experience > decisioning >決策選項名稱
++++
+
++++ _experience > decisioning >決策選項名稱
 
 **欄位：** 名稱
 **標題：** 決策選項名稱
 **說明：** 顯示在各種用戶介面中的選項名稱。
 **類型:**&#x200B;字串
 
-#### _experience > decisioning >標籤
++++
+
++++ _experience > decisioning >標籤
 
 **欄位：** 標籤
 **標題：** 標籤
 **說明：** 與此實體相關聯的標籤集。 標籤用於篩選運算式，以將整體清單限制為子集（類別）。
 **類型：** 陣列
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++ _repo {#repo}
 
 **欄位：** _repo
 **類型：** 物件
 
-### _repo >決策選項ETag
++++
+
++++ _repo >決策選項ETag
 
 **欄位：** etag
 **標題：** 決策選項ETag
 **說明：** 建立快照時決策選項對象所在的修訂。
 **類型:**&#x200B;字串
+
++++

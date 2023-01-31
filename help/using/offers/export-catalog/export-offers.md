@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 3%
@@ -29,24 +29,30 @@ ht-degree: 3%
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
-## 識別碼 {#identifier}
++++ 識別碼
 
 **欄位：** _id
 **標題：** 識別碼
 **說明：** 記錄的唯一標識符。
 **類型:**&#x200B;字串
 
-## _體驗 {#experience}
++++
+
++++ _體驗 {#experience}
 
 **欄位：** _體驗
 **類型：** 物件
 
-### _experience > decisioning
++++
+
++++ _experience > decisioning
 
 **欄位：** 決策
 **類型：** 物件
 
-#### _experience > decisioning > calendarConstraints
++++
+
++++ _experience > decisioning > calendarConstraints
 
 **欄位：** calendarConstraints
 **標題：** 日曆約束詳細資訊
@@ -67,21 +73,27 @@ ht-degree: 3%
    **說明：** 決策選項有效的開始日期。 尚未達到開始日期的選項在決策程式中尚無法建議。
    **類型:**&#x200B;字串
 
-#### 「體驗>決策>特性」
++++
+
++++ 「體驗>決策>特性」
 
 **欄位：** 特徵
 **標題：** 決策選項特徵
 **說明：** 屬於此特定決策選項的其他屬性或屬性。 不同的例項可能具有不同的特性（地圖中的索引鍵）。 特徵是用於區分一個決策選項與其他決策選項的名稱值組。 特徵用作表示此決策選項的內容中的值，以及用於分析和優化選項效能的功能。 當每個例項都有相同的屬性或屬性時，該方面應該建模為衍生自決策選項詳細資料的擴充架構。
 **類型：** 物件
 
-#### 「體驗>決策>內容」
++++
+
++++ 「體驗>決策>內容」
 
 **欄位：** 內容
 **標題：** 內容詳細資料
 **說明：** 內容項目，以在不同內容中呈現決策項目。 單一決策選項可以有多種內容變體。 內容是指針對受眾以在（數位）體驗中消費的資訊。 內容會透過管道傳遞至特定版位。
 **類型：** 陣列
 
-**「體驗>決策>內容>元件」**
++++
+
++++_體驗>決策>內容>元件
 
 **欄位：** 元件
 **說明：** 代表決策選項的內容元件，包括其所有語言變體。 特定元件由「dx:format」、「dc:subject」和「dc:language」或其組合找到。 此中繼資料可用來尋找或呈現與優惠方案相關聯的內容，並根據版位合約加以整合。
@@ -168,14 +180,16 @@ ht-degree: 3%
    **類型:**字串
    **範例：** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-**_experience > decisioning >內容>位置**
++++_體驗>決策>內容>位置
 
 **欄位：** 刊登
 **標題：** 版位
 **說明：** 符合的位置。 值是所參考之優惠方案版位的URI(@id)。 請參閱結構https://ns.adobe.com/experience/decisioning/placement。
 **類型:**&#x200B;字串
 
-#### _experience > decisioning >生命週期狀態
++++
+
++++ _experience > decisioning >生命週期狀態
 
 **欄位：** lifecycleStatus
 **標題：** 生命週期狀態
@@ -183,35 +197,45 @@ ht-degree: 3%
 **類型：** 字串
 **可能的值：** 「草稿」（預設）、「已核准」、「已上線」、「已完成」、「已封存」
 
-#### _experience > decisioning >決策選項名稱
++++
+
++++ _experience > decisioning >決策選項名稱
 
 **欄位：** 名稱
 **標題：** 決策選項名稱
 **說明：** 顯示在各種用戶介面中的選項名稱。
 **類型:**&#x200B;字串
 
-#### _experience > decisioning > profileConstraints
++++
+
++++ _experience > decisioning > profileConstraints
 
 **欄位：** profileConstraints
 **標題：** 配置檔案約束詳細資訊
 **說明：** 設定檔限制會決定在此情境下，某個選項是否符合此設定檔身分識別的資格。 如果配置檔案約束不需要考慮每個選項的值，即選項選項中的選項是不變的，則評估為&#39;false&#39;的配置檔案約束將取消整個選項選項。 另一方面，會針對選項選取的每個合格選項評估以選項作為參數的設定檔約束規則。
 **類型：** 物件
 
-**_experience > decisioning > profileConstraints >說明**
++++
+
++++_體驗>決策>設定檔限制>說明
 
 **欄位：** 說明
 **標題：** 說明
 **說明：** 設定檔限制說明。 它用於傳達人類可讀的意圖，了解此設定檔限制是如何建構的，或為何建構，及/或將包含或排除哪個選項。
 **類型:**&#x200B;字串
 
-**_experience > decisioning > profileConstraints >適用性規則**
++++
+
++++_體驗>決策>設定檔限制>適用性規則
 
 **欄位：** 適用性規則
 **標題：** 適用性規則
 **說明：** 針對指定設定檔和/或其他指定情境式XDM物件，評估為true或false之決策規則的參考。 規則可用來決定選項是否符合指定設定檔的資格。 該值是引用的決策規則的URI(@id)。 請參閱結構https://ns.adobe.com/experience/decisioning/rule。
 **類型:**&#x200B;字串
 
-**_experience > decisioning > profileConstraints >設定檔約束類型**
++++
+
++++_體驗>決策>設定檔限制>設定檔限制類型
 
 **欄位：** profileConstraintType
 **標題：** 輪廓約束類型
@@ -224,7 +248,9 @@ ht-degree: 3%
 * &quot;allSegments&quot;:&quot;配置檔案約束以一個或多個段表示，配置檔案必須是所有段的成員，才允許執行受約束操作。&quot;
 * &quot;rules&quot;:「配置檔案約束被表示為許多不同的規則，例如資格、適用性、適用性，在允許約束操作之前，所有規則都必須評估為true。」
 
-**_experience > decisioning > profileConstrants >區段識別碼**
++++
+
++++_體驗>決策>設定檔限制>區段識別碼
 
 **欄位：** segmentIdentities
 **標題：** 區段識別碼
@@ -260,14 +286,18 @@ ht-degree: 3%
    **說明：** 如果存在，此值代表跨命名空間識別碼，此識別碼在所有命名空間中所有命名空間範圍的識別碼中都是唯一的。
    **類型:**&#x200B;字串
 
-#### _experience >決策>排名
++++
+
++++ _experience >決策>排名
 
 **欄位：** 排名
 **標題：** 排名詳細資料
 **說明：** 排名（優先順序）。 定義在決策准則的情境下，視為「最佳動作」的項目。 在符合資格限制的所有選取選項中，排名順序將決定要建議的前N個選項。
 **類型：** 物件
 
-**_experience > decisioning >排名>訂購評估**
++++
+
++++_體驗>決策>排名>訂單評估
 
 **欄位：** 訂購
 **標題：** 訂單評估
@@ -296,7 +326,9 @@ ht-degree: 3%
    **說明：** 對決策選項清單進行排名的策略的引用。 決策選項將以有序清單返回。 此屬性的值是一次使用on選項調用的函式的URI(@id)。 請參閱結構https://ns.adobe.com/experience/decisioning/rankingStrategy。
    **類型:**&#x200B;字串
 
-**_experience > decisioning >排名>優先順序**
++++
+
++++_體驗>決策>排名>優先順序
 
 **欄位：** 優先順序
 **標題：** 優先順序
@@ -305,23 +337,31 @@ ht-degree: 3%
 **最小值：** 0
 **預設值：** 0
 
-#### _experience > decisioning >標籤
++++
+
++++ _experience > decisioning >標籤
 
 **欄位：** 標籤
 **標題：** 標籤
 **說明：** 與此實體相關聯的標籤集。 標籤用於篩選運算式，以將整體清點限制為子集（類別）。
 **類型：** 陣列
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++_repo
 
 **欄位：** _repo
 **類型：** 物件
 
-### _repo >決策選項ETag
++++
+
++++ _repo >決策選項ETag
 
 **欄位：** etag
 **標題：** 決策選項ETag
 **說明：** 建立快照時決策選項對象所在的修訂。
 **類型:**&#x200B;字串
+
++++

@@ -4,7 +4,7 @@ product: journey optimizer
 title: 2022 年發行說明
 description: Journey Optimizer 2022 年發行說明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '3583'
 ht-degree: 99%
@@ -234,7 +234,7 @@ ht-degree: 99%
 
 ### 其他變更{#sept-2022-other}
 
-* 「行銷活動快速傳送」模式已取代「歷程突發模式」。 [了解更多](../campaigns/create-campaign.md#rapid-delivery)
+* 「行銷活動快速傳送」模式已取代「歷程突發模式」。 [了解更多](../push/create-push.md#rapid-delivery)
 * 為了改善效能，從「讀取」區段、「區段」資格或業務事件活動開始的歷程中，無法再使用體驗事件欄位群組。 此變更僅適用於新歷程。 現有行為會保留目前的行為。 [了解更多](../start/guardrails.md#expression-editor)
 * 已移除已排程讀取區段歷程的 1 小時限制。 這些歷程現在可立即執行。
 

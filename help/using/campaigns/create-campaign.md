@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 建立，優化程式，促銷活動，表面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '754'
 ht-degree: 8%
 
 ---
@@ -52,11 +52,13 @@ ht-degree: 8%
 
    介面是由[系統管理員](../start/path/administrator.md)定義的設定。 它包含所有用於春頌訊息的技術參數，如標頭參數、子網域、行動應用程式等等。[了解更多](../configuration/channel-surfaces.md)。
 
+   下拉式清單中只列出與行銷促銷活動類型相容的管道表面。
+
    ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >下拉式清單中只列出與行銷促銷活動類型相容的管道表面。
+   >如果您要建立推播通知促銷活動，您可以啟用 **[!UICONTROL 快速傳遞模式]**，此為Journey Optimizer附加元件，可允許以非常快速的方式傳送大量的推送訊息。 [了解更多](../push/create-push.md#rapid-delivery)
 
 1. 按一下 **[!UICONTROL 建立]** 來建立促銷活動。
 

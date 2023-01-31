@@ -1,0 +1,170 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Journey Optimizer的協助工具功能
+description: 進一步了解Journey Optimizer使用者介面中的協助工具
+feature: Overview
+role: User
+level: Beginner
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 54%
+
+---
+
+# Journey Optimizer中的協助工具{#accessibility}
+
+協助工具是指一系列功能，可讓軟體產品可供視覺、聽覺、認知、運動或其他類型的殘疾使用者使用，且盡量不費力。 Adobe是無障礙環境領先者，鼓勵開發人員製作可供所有使用者存取的豐富且吸引人的內容，進而支援建立出色的網頁體驗。 進一步了解Adobe對協助工具的承諾，請參閱 [Adobe協助工具頁面](https://www.adobe.com/accessibility.html){target="_blank"}.
+
+為協助達成無障礙環境一致性目標， [!DNL Journey Optimizer] 遵循網頁內容可及性指引(WCAG)2.1 A級和AA級中國際公認的最佳實務准則。 了解更多最新資訊 [Adobe Journey Optimizer無障礙合規報告](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}.
+
+
+[!DNL Adobe Journey Optimizer] 中的協助工具功能繼承自 Adobe Experience Platform：
+
+* 鍵盤協助工具
+* 顏色對比
+* 驗證必填欄位
+
+Adobe Experience Platform中的協助工具功能已詳細說明 [在本檔案中](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hant){target="_blank"}.
+
+下列通用鍵盤快速鍵可在 [!DNL Journey Optimizer]:
+
+| 動作 | 快速鍵 |
+| --- | --- |
+| 在使用者介面元素、區段和功能表群組之間移動 | Tab 鍵 |
+| 在使用者介面元素、區段和功能表群組之間向後移動 | Shift + Tab 鍵 |
+| 在區段內移動並將焦點設定為個別元素 | 箭頭 |
+| 選取或清除焦點中的元素 | 輸入或空格鍵 |
+| 取消選取、摺疊窗格或關閉對話方塊 | Esc 鍵 |
+
+您可以在 [!DNL Journey Optimizer] 使用者介面：
+
+<table>
+  <thead>
+    <tr>
+      <th>介面元素</th>
+      <th>動作</th>
+      <th>快速鍵</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>歷程、動作、資料來源或事件清單</td>
+    <td>建立歷程、動作、資料來源或事件</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">草稿狀態的歷程畫布</td>
+    <td>從左側色盤的第一個可用位置 (從上到下) 新增活動</td>
+    <td>在活動上按兩下</td>
+  </tr>
+  <tr>
+    <td>選取所有活動</td>
+    <td>CTRL + A(Windows)<br/>CMD + A(Mac)</td>
+  </tr>
+  <tr>
+    <td>刪除選取的活動</td>
+    <td>刪除或退格，然後輸入以確認刪除</td>
+  </tr>
+  <tr>
+    <td>放大和縮小（聚焦在畫布或其任何子元素上）</td>
+    <td>CTRL +/-(Windows)或CMD +/-(Mac)</td>
+  </tr>  
+  <tr>
+    <td>在每個活動和路徑之間導覽（聚焦在畫布上），或在工具列按鈕之間導覽（聚焦在工具列上）</td>
+    <td>方向鍵</td>
+  </tr>   
+  <tr>
+    <td>將焦點移至畫布上下一個可操作的元素，工具列是第一個</td>
+    <td>Tab 鍵</td>
+  </tr>  
+  <tr>
+    <td>開啟右側設定窗格（聚焦於活動）</td>
+    <td>輸入</td>
+  </tr>   
+  <tr>
+    <td>在畫布中移動活動（聚焦於活動）</td>
+    <td>SHIFT +箭頭鍵</td>
+  </tr>  
+  <tr>
+  <td rowspan="3">
+
+這些元素的設定窗格：
+
+<ul>
+  <li>歷程中的活動</li>
+  <li>事件</li>
+  <li>資料來源</li>
+  <li>動作</li>
+</ul>
+
+</td>
+    <td>移至下一個要設定的欄位</td>
+    <td>Tab 鍵</td>
+  </tr>
+  <tr>
+    <td>儲存變更並關閉設定窗格</td>
+    <td>Enter 鍵</td>
+  </tr>
+  <tr>
+    <td>放棄變更並關閉設定窗格</td>
+    <td>Esc 鍵</td>
+  </tr>
+  <tr>
+    <td rowspan="4">測試模式中的歷程</td>
+    <td>啟用或停用測試模式</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>觸發事件歷程中的事件</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
+
+在以區段為基礎的歷程中觸發事件，並為其啟用了&#x200B;**[!UICONTROL 一次單一設定檔]**&#x200B;選項
+
+</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>顯示測試記錄</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>文字欄位</td>
+    <td>選取所選欄位中的所有文字</td>
+    <td>Ctrl + A (Windows)<br/> Command + A (Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">快顯視窗</td>
+    <td>儲存變更或確認動作</td>
+    <td>Enter 鍵</td>
+  </tr>
+  <tr>
+    <td>關閉視窗</td>
+    <td>Esc 鍵</td>
+  </tr>
+  <tr>
+    <td>簡易運算式編輯器</td>
+    <td>選取並新增欄位</td>
+    <td>在欄位上按兩下</td>
+  </tr>
+  <tr>
+    <td>瀏覽 XDM 欄位</td>
+    <td>選取節點的所有欄位</td>
+    <td>選擇上層節點</td>
+  </tr>
+  <tr>
+    <td>內容預覽</td>
+    <td>選取內容</td>
+    <td>Ctrl + A (Windows)<br/> Command + A (Mac)</td>
+  </tr>
+</table>

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 94%
+source-wordcount: '1220'
+ht-degree: 97%
 
 ---
 
@@ -110,158 +110,6 @@ ht-degree: 94%
 
 您可以從&#x200B;**[!UICONTROL 檢視使用案例庫]**&#x200B;按鈕存取已執行的案例。
 
-## 協助工具{#accessibility}
-
-[!DNL Adobe Journey Optimizer] 中的協助工具功能繼承自 Adobe Experience Platform：
-
-* 鍵盤協助工具
-* 顏色對比
-* 驗證必填欄位
-
-[深入了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hant){target="_blank"} 在Adobe Experience Platform檔案中。
-
-您可以在 [!DNL Journey Optimizer] 使用這些常見的鍵盤快速鍵：
-
-| 動作 | 快速鍵 |
-| --- | --- |
-| 在使用者介面元素、區段和功能表群組之間移動 | Tab 鍵 |
-| 在使用者介面元素、區段和功能表群組之間向後移動 | Shift + Tab 鍵 |
-| 在區段內移動並將焦點設定為個別元素 | 箭頭 |
-| 選取或清除焦點中的元素 | 輸入或空格鍵 |
-| 取消選取、摺疊窗格或關閉對話方塊 | Esc 鍵 |
-
-[深入了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=zh-Hant){target="_blank"} 在Adobe Experience Platform檔案中。
-
-您可以在 Journey Optimizer 的特定部分使用下列快速鍵：
-
-<table>
-  <thead>
-    <tr>
-      <th>介面元素</th>
-      <th>動作</th>
-      <th>快速鍵</th>
-    </tr>
-  </thead>
-  <tr>
-    <td>歷程、動作、資料來源或事件清單</td>
-    <td>建立歷程、動作、資料來源或事件</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td rowspan="3">草稿狀態的歷程畫布</td>
-    <td>從左側色盤的第一個可用位置 (從上到下) 新增活動</td>
-    <td>在活動上按兩下</td>
-  </tr>
-  <tr>
-    <td>選取所有活動</td>
-    <td>CTRL + A(Windows)<br/>CMD + A(Mac)</td>
-  </tr>
-  <tr>
-    <td>刪除選取的活動</td>
-    <td>刪除或退格，然後輸入以確認刪除</td>
-  </tr>
-  <tr>
-    <td>放大和縮小（聚焦在畫布或其任何子元素上）</td>
-    <td>CTRL +/-(Windows)或CMD +/-(Mac)</td>
-  </tr>  
-  <tr>
-    <td>在每個活動和路徑之間導覽（聚焦在畫布上），或在工具列按鈕之間導覽（聚焦在工具列上）</td>
-    <td>方向鍵</td>
-  </tr>   
-  <tr>
-    <td>將焦點移至畫布上下一個可操作的元素，工具列是第一個</td>
-    <td>Tab 鍵</td>
-  </tr>  
-  <tr>
-    <td>開啟右側設定窗格（聚焦於活動）</td>
-    <td>輸入</td>
-  </tr>   
-  <tr>
-    <td>在畫布中移動活動（聚焦於活動）</td>
-    <td>SHIFT +箭頭鍵</td>
-  </tr>  
-  <tr>
-  <td rowspan="3">
-
-這些元素的設定窗格：
-
-<ul>
-  <li>歷程中的活動</li>
-  <li>事件</li>
-  <li>資料來源</li>
-  <li>動作</li>
-</ul>
-
-</td>
-    <td>移至下一個要設定的欄位</td>
-    <td>Tab 鍵</td>
-  </tr>
-  <tr>
-    <td>儲存變更並關閉設定窗格</td>
-    <td>Enter 鍵</td>
-  </tr>
-  <tr>
-    <td>放棄變更並關閉設定窗格</td>
-    <td>Esc 鍵</td>
-  </tr>
-  <tr>
-    <td rowspan="4">測試模式中的歷程</td>
-    <td>啟用或停用測試模式</td>
-    <td>T</td>
-  </tr>
-  <tr>
-    <td>觸發事件歷程中的事件</td>
-    <td>E</td>
-  </tr>
-  <tr>
-    <td>
-
-在以區段為基礎的歷程中觸發事件，並為其啟用了&#x200B;**[!UICONTROL 一次單一設定檔]**&#x200B;選項
-
-</td>
-    <td>P</td>
-  </tr>
-  <tr>
-    <td>顯示測試記錄</td>
-    <td>L</td>
-  </tr>
-<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
-  <tr>
-    <td>Page with a search bar</td>
-    <td>Select the search bar</td>
-    <td>Ctrl/Command + F</td>
-  </tr>
--->
-  <tr>
-    <td>文字欄位</td>
-    <td>選取所選欄位中的所有文字</td>
-    <td>Ctrl + A (Windows)<br/> Command + A (Mac)</td>
-  </tr>
-  <tr>
-    <td rowspan="2">快顯視窗</td>
-    <td>儲存變更或確認動作</td>
-    <td>Enter 鍵</td>
-  </tr>
-  <tr>
-    <td>關閉視窗</td>
-    <td>Esc 鍵</td>
-  </tr>
-  <tr>
-    <td>簡易運算式編輯器</td>
-    <td>選取並新增欄位</td>
-    <td>在欄位上按兩下</td>
-  </tr>
-  <tr>
-    <td>瀏覽 XDM 欄位</td>
-    <td>選取節點的所有欄位</td>
-    <td>選擇上層節點</td>
-  </tr>
-  <tr>
-    <td>內容預覽</td>
-    <td>選取內容</td>
-    <td>Ctrl + A (Windows)<br/> Command + A (Mac)</td>
-  </tr>
-</table>
 
 ## 尋找說明與支援 {#find-help}
 
@@ -312,9 +160,9 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ## 篩選清單{#filter-lists}
 
-在大多數清單中，搜尋列可讓您搜尋特定項目並選取篩選條件。
+在大部分清單中，使用搜尋列來尋找特定項目並定義篩選條件。
 
-按一下清單左上方的篩選圖示，即可存取篩選器 。篩選功能表可讓您根據不同的條件篩選顯示的元素。您可以選擇僅顯示某一類型或狀態的元素、您建立的元素，或者在過去 30 天內修改的元素。選項會因內容而異。
+您可以按一下清單左上方的篩選圖示來存取篩選器。 篩選功能表可讓您根據不同的條件篩選顯示的元素。您可以選擇僅顯示某一類型或狀態的元素、您建立的元素，或者在過去 30 天內修改的元素。選項會因內容而異。
 
 在歷程清單中，您可以從&#x200B;**[!UICONTROL 狀態及版本篩選器]**&#x200B;中根據歷程的狀態、類型與版本來篩選歷程。 類型可以是： **[!UICONTROL 單一事件]**、**[!UICONTROL 區段資格]**、**[!UICONTROL 讀取區段]**、**[!UICONTROL 企業活動]**&#x200B;或 **[!UICONTROL 突發事件]**。您可以選擇僅顯示使用&#x200B;**[!UICONTROL 事件篩選器]**&#x200B;與&#x200B;**[!UICONTROL 資料篩選器]**&#x200B;中的特定事件、欄位群組或動作的歷程。**[!UICONTROL 出版物篩選器]**&#x200B;可讓您選擇出版物日期或使用者。 舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。[了解更多](../building-journeys/using-the-journey-designer.md)。
 
