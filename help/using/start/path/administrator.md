@@ -6,8 +6,8 @@ description: 作為系統管理員，深入瞭解如何使用 Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 9f67172f31ddc1caef9d014c365f71e470e45390
-workflow-type: tm+mt
-source-wordcount: '735'
+workflow-type: ht
+source-wordcount: '723'
 ht-degree: 100%
 
 ---
@@ -19,30 +19,30 @@ ht-degree: 100%
 
 作為&#x200B;**系統管理員**，您需要&#x200B;**了解產品設定檔並指派權限**&#x200B;用於沙箱管理和通道設定。 您也需要設定沙箱，並針對可用的產品設定檔進行管理。 然後，您便能將團隊成員指派至產品設定檔。
 
-這些權限可由具有 Admin Console 存取權限的&#x200B;**[!UICONTROL 產品系統管理員]**&#x200B;加以管理。[進一步瞭解 Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/admin-guide.html){target=&quot;_blank&quot;}。
+這些權限可由具有 Admin Console 存取權限的&#x200B;**[!UICONTROL 產品系統管理員]**&#x200B;加以管理。[進一步了解 Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/admin-guide.html){target="_blank"}。
 
 請前往下列頁面，了解存取管理：
 
 1. **建立沙箱**&#x200B;以將執行個體分區到獨立的虛擬環境中。 在[!DNL Journey Optimizer]中建立的&#x200B;**沙箱**。在[沙箱](../../administration/sandboxes.md)一節中了解更多資訊。
 
    >[!NOTE]
-   >作為&#x200B;**系統管理員**，如果您無法您在[!DNL Journey Optimizer]看到&#x200B;**[!UICONTROL 沙箱]**&#x200B;選單，請在 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} 更新您的權限。 在[本頁](../../administration/permissions.md#edit-product-profile)了解如何更新您的產品設定檔。
+   >作為&#x200B;**系統管理員**，如果您在 [!DNL Journey Optimizer] 中看不到&#x200B;**[!UICONTROL 沙箱]**&#x200B;功能表，請在 [Admin Console](https://adminconsole.adobe.com/){target="_blank"} 更新您的權限。在[本頁](../../administration/permissions.md#edit-product-profile)了解如何更新您的產品設定檔。
 
 1. **了解產品設定檔**。產品設定檔是一組統一權限，可讓使用者存取介面中的特定功能或物件。 在[現成可用的產品設定檔](../../administration/ootb-product-profiles.md)區段中了解更多。
 
-1. 針對產品設定檔&#x200B;**設定權限**，包括&#x200B;**沙箱**，並將團隊成員指派至不同的產品設定檔，以授予其存取權。 此步驟會在 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} 執行。 權限是統一權限，允許您定義分配至&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;的授權。每個權限都是透過功能 (例如歷程或優惠) 收集而得，這些功能代表 [!DNL Journey Optimizer] 中的不同功能或物件。在[權限層級](../../administration/high-low-permissions.md)一節中了解更多 。
+1. 針對產品設定檔&#x200B;**設定權限**，包括&#x200B;**沙箱**，並將團隊成員指派至不同的產品設定檔，以授予其存取權。 此步驟會在 [Admin Console](https://adminconsole.adobe.com/){target="_blank"} 執行。權限是統一權限，允許您定義分配至&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;的授權。每個權限都是透過功能 (例如歷程或優惠) 收集而得，這些功能代表 [!DNL Journey Optimizer] 中的不同功能或物件。在[權限層級](../../administration/high-low-permissions.md)一節中了解更多 。
 
-此外，您必須將需要存取 Assets Essentials 的使用者新增至 **Assets Essentials 消費者使用者**&#x200B;或/和 **Assets Essentials 使用者**&#x200B;產品設定檔。 [如需詳細資訊，請參閱 Assets Essentials 檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+此外，您必須將需要存取 Assets Essentials 的使用者新增至 **Assets Essentials 消費者使用者**&#x200B;或/和 **Assets Essentials 使用者**&#x200B;產品設定檔。 [如需詳細資訊，請參閱 Assets Essentials 文件](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hant){target="_blank"}。
 
 >[!NOTE]
->針對 2022 年 1 月 6 日之前取得的 Journey Optimizer 產品，您必須為貴組織部署 [!DNL Adobe Experience Manager Assets Essentials] 。 在[部署 Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hant){target=&quot;_blank&quot;} 一節中了解更多。
+>針對 2022 年 1 月 6 日之前取得的 Journey Optimizer 產品，您必須為貴組織部署 [!DNL Adobe Experience Manager Assets Essentials] 。 在[部署 Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hant){target="_blank"} 一節中了解更多。
 
 首次存取 [!DNL Journey Optimizer] 系統時，會佈建生產沙箱，並根據您的合約分配特定數量的 IP。
 
 若要建立您的歷程並傳送訊息，請存取&#x200B;**系統管理**&#x200B;功能表。 瀏覽&#x200B;**[!UICONTROL 管道]**&#x200B;功能表來設定訊息和通道表面 (即訊息預設集)。
 
 >[!NOTE]
->作為&#x200B;**系統管理員**，如果您在[!DNL Journey Optimizer]中看不到&#x200B;**[!UICONTROL 通道]**&#x200B;選單，請在 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} 中更新您的權限。在[本頁](../../administration/permissions.md#edit-product-profile)了解如何更新您的產品設定檔。
+>作為&#x200B;**系統管理員**，如果您在 [!DNL Journey Optimizer] 中看不到&#x200B;**[!UICONTROL 管道]**&#x200B;功能表，請在 [Admin Console](https://adminconsole.adobe.com/){target="_blank"} 中更新您的權限。在[本頁](../../administration/permissions.md#edit-product-profile)了解如何更新您的產品設定檔。
 
 請遵循以下步驟：
 
