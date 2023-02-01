@@ -6,8 +6,8 @@ description: 作為資料工程師，深入瞭解如何使用 Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: tm+mt
-source-wordcount: '580'
+workflow-type: ht
+source-wordcount: '578'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->若要深入瞭解&#x200B;**資料內嵌**，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant) {target=&quot;_blank&quot;}。
+>若要深入瞭解&#x200B;**資料內嵌**，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target="_blank"}。
 
 建立身分命名空間和為設定檔啟用的資料集，以及測試設定檔的步驟在以下各節中詳細說明：
 
