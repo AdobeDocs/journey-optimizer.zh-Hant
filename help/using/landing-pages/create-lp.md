@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登陸，登錄頁面，建立，發佈
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 2%
@@ -59,7 +59,9 @@ ht-degree: 2%
 >abstract="若要保護敏感數位資產，您可以定義授權，使用標籤管理對登錄頁面的資料存取。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="物件等級存取控制"
 
-建立登錄頁面的步驟如下。
+建立登錄頁面的主要步驟如下：
+
+![](assets/lp-creation-process.png)
 
 1. 在登錄頁面清單中，按一下 **[!UICONTROL 建立登錄頁面]**.
 

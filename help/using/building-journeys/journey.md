@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 歷程，探索，快速入門
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 29%
+source-wordcount: '590'
+ht-degree: 28%
 
 ---
 
@@ -32,7 +32,9 @@ ht-degree: 29%
 
 ## 建立歷程的步驟{#steps-journey}
 
-使用Adobe Journey Optimizer來設計和協調從單一畫布的個人化歷程。
+使用Adobe Journey Optimizer來設計和協調從單一畫布的個人化歷程。 建立歷程的主要步驟如下：
+
+![](assets/journey-creation-process.png)
 
 Adobe Journey Optimizer包含全通路協調畫布，可讓行銷人員協調行銷外展與一對一客戶互動。 使用者介面可讓您輕鬆將活動從浮動視窗拖放至畫布中，以建立您的歷程。
 
