@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 促銷活動， API觸發， REST，優化程式，訊息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '827'
 ht-degree: 3%
 
 ---
@@ -91,7 +91,10 @@ API觸發促銷活動的可用通道為電子郵件、簡訊及推送訊息。
 
 ![](assets/api-triggered-context.png)
 
+
 >[!IMPORTANT]
+>
+>傳遞至要求的內容屬性不能超過50kb。
 >
 >此 `context.system` 語法僅限於Adobe內部使用，且不應用於傳遞內容屬性。
 
