@@ -2,9 +2,9 @@
 title: 批次決策
 description: 了解如何將優惠方案決策傳送至指定Adobe Experience Platform區段中的所有設定檔。
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: f3f38e7db95bd1a6dc41b1626177c800280fb71c
+source-git-commit: a56d675e014d55064073eba011fb50e2d363844d
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Journey Optimizer可讓您將優惠方案決策傳送至指定Adobe Experience P
 
    >[!NOTE]
    >
-   >批次作業會關閉每天發生一次的設定檔快照。 批次決策會限制頻率，並一律從最新快照載入設定檔。
+   >批次作業會關閉每天發生一次的設定檔快照。 批次決策會限制頻率，並一律從最新快照載入設定檔。 建立區段後，請等候最多24小時，再嘗試批次決策API。
 
 * **決定** 在Adobe Journey Optimizer。 [了解如何建立決策](offer-activities/create-offer-activities.md)
 
