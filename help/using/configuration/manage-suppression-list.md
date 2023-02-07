@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 隱藏，清單，退回，電子郵件，優化程式，隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0c5b0ff95ccfc1140eb380bf321c810a594946e6
+source-git-commit: 508576b1ee161a7efe46a2c553bd309db7ac2f7d
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,19 @@ ht-degree: 0%
 
 若要存取排除的電子郵件地址和網域的詳細清單，請瀏覽至 **[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]**，然後選取 **[!UICONTROL 隱藏清單]**.
 
+
+![](assets/suppression-list-access.png)
+
 >[!CAUTION]
 >
 >查看、導出和管理隱藏清單的權限限制為 [歷程管理員](../administration/ootb-product-profiles.md#journey-administrator). 深入了解管理 [!DNL Journey Optimizer] 中的使用者存取權限 [本節](../administration/permissions-overview.md).
 
-![](assets/suppression-list-access.png)
 
 篩選器可協助您瀏覽清單。
 
 ![](assets/suppression-list-filters.png)
 
-您可以篩選 **[!UICONTROL 隱藏類別]**, **[!UICONTROL 地址類型]**，或 **[!UICONTROL 原因]**. 為每個條件選取您選取的選項。 選取後，您就可以清除每個篩選器，或清單頂端顯示的所有篩選器。
+您可以篩選 **[!UICONTROL 隱藏類別]**, **[!UICONTROL 地址類型]**，或 **[!UICONTROL 原因]**. 為每個條件選擇一個或多個選項。 選取後，您就可以清除每個篩選器，或清單頂端顯示的所有篩選器。
 
 ![](assets/suppression-list-filtering-example.png)
 
@@ -57,7 +59,7 @@ ht-degree: 0%
 
 * **軟**:軟退信是針對有效電子郵件地址而發生的臨時電子郵件退信。 多次重試後，電子郵件地址會新增至隱藏清單。 一旦錯誤計數器達到限制臨界值，軟錯誤就會將地址發送到隱藏清單。 [深入了解重試次數](retries.md)
 
-* **手動**:手動將錯誤新增至隱藏清單。 [了解更多](#add-addresses-and-domains)
+* **手動**:手動將錯誤添加到隱藏清單。 [了解更多](#add-addresses-and-domains)
 
 對於所列的每個電子郵件地址，您也可以檢查 **[!UICONTROL 類型]** （電子郵件或網域）, **[!UICONTROL 原因]** 排除、新增者，以及新增至隱藏清單的日期/時間。
 
