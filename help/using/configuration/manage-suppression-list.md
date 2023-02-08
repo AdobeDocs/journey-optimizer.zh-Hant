@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 隱藏，清單，退回，電子郵件，優化程式，隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 508576b1ee161a7efe46a2c553bd309db7ac2f7d
+source-git-commit: 792eb6d042e748601c9810e6988ecc0b79061dda
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 0%
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ### 隱藏規則  {#suppression-rules}
 
-從 **[!UICONTROL 隱藏清單]** 視圖中，您也可以編輯與隱藏規則關聯的重試參數，該參數來自 **[!UICONTROL 編輯隱藏規則按鈕]**. 使用此選項可更新當前沙箱的重試閾值。 [了解更多](retries.md)
+從 **[!UICONTROL 隱藏清單]** 視圖中，您也可以編輯與隱藏規則關聯的重試參數，該參數來自 **[!UICONTROL 編輯隱藏規則]** 按鈕。 使用此選項可更新當前沙箱的重試閾值。 [深入了解重試次數](retries.md).
 
 
 ## 將地址和域添加到隱藏清單{#add-addresses-and-domains}
@@ -126,7 +126,7 @@ ht-degree: 0%
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. 選擇地址類型： **[!UICONTROL 電子郵件地址]** 或 **[!UICONTROL 網域位址]**.
+1. 選擇地址類型： **[!UICONTROL 電子郵件]** 或 **[!UICONTROL 網域]**.
 
 1. 輸入要從傳送中排除的電子郵件地址或網域。
 
