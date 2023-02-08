@@ -7,19 +7,14 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '985'
 ht-degree: 2%
 
 ---
 
 # 使用內容範本 {#content-templates}
-
->[!CONTEXTUALHELP]
->id="ajo_content_templates"
->title="建立內容範本"
->abstract="建立獨立範本，以在歷程和行銷活動中重複使用內容。"
 
 為加快並改善設計流程，您可以建立獨立範本，輕鬆在 [!DNL Journey Optimizer] 行銷活動和歷程。
 
@@ -58,6 +53,11 @@ ht-degree: 2%
 >編輯或刪除範本時，促銷活動或歷程（包括使用此範本建立的電子郵件）不會受到影響。
 
 ## 建立內容範本 {#create-content-templates}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_template"
+>title="定義您自己的內容範本"
+>abstract="從頭建立獨立自訂範本，讓內容可在多個歷程和行銷活動間重複使用。"
 
 建立內容範本的方式有兩種：
 

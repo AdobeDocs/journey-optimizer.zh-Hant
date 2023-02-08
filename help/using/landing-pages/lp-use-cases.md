@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 登陸，登陸頁面，使用案例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 13%
+source-wordcount: '952'
+ht-degree: 14%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 13%
 
 ### 選擇退出管理 {#opt-out-management}
 
-法律規定必須讓收件者提供能夠取消訂閱來自品牌的通訊。 深入了解 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hant){target="_blank"}.
+法律規定必須讓收件者能夠取消訂閱來自品牌的通訊。 進一步瞭解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hant)的適用法規。{target="_blank"}
 
 因此，您必須在每封寄送給收件者的電子郵件中一律包含&#x200B;**取消訂閱連結**：
 
@@ -160,6 +160,13 @@ ht-degree: 13%
 ![](assets/lp_opt-out-profile-choice.png)
 
 在 **[!UICONTROL 屬性]** 標籤，您可以看到 **[!UICONTROL 選擇]** 已變更為 **[!UICONTROL no]**.
+
+退出資訊會儲存在 **同意服務資料集**. [進一步了解資料集](../data/get-started-datasets.md)
+
+>[!NOTE]
+>
+>如果預設為合併方法 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"} **[!UICONTROL Profiles]** merge policy is **[!UICONTROL Dataset Precedence]**, make sure to enable the **[!UICONTROL AJO Consent Service Dataset]** and to prioritize it in the merge policy. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+
 
 <!--
 

@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 keywords: 應用程式內，消息，建立，開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '627'
 ht-degree: 4%
 
 ---
@@ -115,3 +115,9 @@ ht-degree: 4%
 * [設計應用程式內訊息](design-in-app.md)
 * [應用程式內報告](inapp-report.md)
 * [應用程式內設定](inapp-configuration.md)
+
+## 作法影片{#video}
+
+以下影片說明如何在行銷活動中建立、設定和發佈應用程式內訊息。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)

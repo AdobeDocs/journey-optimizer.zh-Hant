@@ -9,23 +9,33 @@ role: User
 level: Beginner
 keywords: 電子郵件，範本，設計
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '272'
 ht-degree: 1%
 
 ---
 
 # 使用電子郵件範本 {#email-templates}
 
+>[!CONTEXTUALHELP]
+>id="ajo_use_template"
+>title="從自訂範本建立內容"
+>abstract="若要開始建立電子郵件內容，請選取從草稿建立或從先前的電子郵件另存為範本的現有範本。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/content-templates.html#create-content-templates" text="建立內容範本"
+
 從 **[!UICONTROL 建立您的電子郵件]** 螢幕，使用 **[!UICONTROL 選取設計範本]** 區段，開始從範本建立內容。
 
 ![](assets/email_designer-templates.png)
 
 您可以選擇：
+
 * **範本範例**. 此 [!DNL Journey Optimizer] 介面提供20個現成可用的電子郵件範本，供您選擇。
+
 * **已儲存的範本**. 您也可以使用自訂範本，您可以：
+
    * 從草稿開始建立，使用 **[!UICONTROL 內容範本]** 功能表。 [了解更多](content-templates.md#create-template-from-scratch)
+
    * 從歷程或行銷活動中的電子郵件儲存，使用 **[!UICONTROL 另存為內容範本]** 選項。 [了解更多](content-templates.md#save-as-template)
 
 若要開始使用其中一個範例或儲存的範本建立內容，請遵循下列步驟。

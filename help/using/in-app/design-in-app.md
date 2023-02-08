@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 keywords: 應用程式內，消息，設計，格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '884'
 ht-degree: 5%
 
 ---
@@ -194,3 +194,9 @@ UI接管選項（預設為啟用）可讓您拖曳應用程式內訊息背後的
 * [建立應用程式內訊息](create-in-app.md)
 * [應用程式內報告](inapp-report.md)
 * [應用程式內設定](inapp-configuration.md)
+
+## 作法影片{#video}
+
+以下影片說明如何製作和測試您的應用程式內訊息。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

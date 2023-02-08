@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 元件，電子郵件設計工具，編輯器，電子郵件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -168,44 +168,6 @@ ht-degree: 0%
    ![](assets/email_designer_10.png)
 
 1. 調整其他樣式屬性，例如邊界、邊框等。 或新增連結，將您的對象重新導向至 **[!UICONTROL 元件設定]** 框。
-
-## 影片 {#Video}
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_email"
->title="視訊設定"
->abstract="使用此元件在電子郵件中插入視訊。 請注意，視訊無法用於所有電子郵件用戶端。 建議設定後援影像。"
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_landing_page"
->title="視訊設定"
->abstract="使用此元件在您的登錄頁面中插入影片。 請注意，視訊無法用於所有訊息用戶端。 建議設定後援影像。"
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_fragment"
->title="視訊設定"
->abstract="使用此元件在片段中插入視訊。 請注意，視訊無法用於所有訊息用戶端。 建議設定後援影像。"
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_template"
->title="視訊設定"
->abstract="使用此元件在範本中插入視訊。 請注意，視訊無法用於所有訊息用戶端。 建議設定後援影像。"
-
-使用 **[!UICONTROL 影片]** 元件，透過URL連結將視訊插入電子郵件內容中。
-
-1. 從 **[!UICONTROL 內容元件]**，拖放 **[!UICONTROL 影片]** 元件 **[!UICONTROL 結構元件]**.
-
-   ![](assets/email_designer_17.png)
-
-1. 按一下您新新增的元件。
-
-1. 在 **[!UICONTROL 影片連結]** 欄位 **[!UICONTROL 元件設定]** 窗格，添加視頻URL。
-
-   ![](assets/email_designer_18.png)
-
-1. 您可以新增 **[!UICONTROL 海報影像]** 來指定要顯示的影像，直到對象按一下播放按鈕為止。
-
-1. 調整其他樣式屬性，如樣式、邊界、邊框等。 從 **[!UICONTROL 元件設定]** 框。
 
 ## 社交 {#social}
 
