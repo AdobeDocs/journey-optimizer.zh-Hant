@@ -1,14 +1,14 @@
 ---
 title: Visual Editing Helper 擴充功能
 description: 探索Visual Editing Helper Chrome擴充功能，其可讓您在Journey Optimizer中製作和預覽網頁
-feature: Web channel
+feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 14%
