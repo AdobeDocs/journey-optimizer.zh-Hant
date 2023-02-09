@@ -1,16 +1,16 @@
 ---
 title: Visual Editing Helper 擴充功能
 description: 探索Visual Editing Helper Chrome擴充功能，其可讓您在Journey Optimizer中製作和預覽網頁
-feature: Overview
+feature: Web channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '396'
 ht-degree: 14%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 14%
 
 要獲取並安裝Visual Editing Helper瀏覽器擴展，請執行以下步驟。
 
-1. 從Google Chrome線上應用程式商店，導覽至 [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=&quot;_blank&quot;}瀏覽器擴充功能。
+1. 從Google Chrome線上應用程式商店，導覽至 [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} 瀏覽器擴充功能。
 
 1. 按一下「**[!UICONTROL 新增至 Chrome]** > **[!UICONTROL 新增擴充功能]**」。
 
@@ -56,7 +56,7 @@ Adobe Experience Cloud Visual Editing Helper現在會在 [!DNL Journey Optimizer
 
 使用Adobe時 [!DNL Journey Optimizer] 網頁設計工具，如果您嘗試載入無法載入的網站，會顯示訊息建議您安裝 [Visual Editing Helper瀏覽器擴充功能](#install-visual-editing-helper).
 
-如果網站上尚未實作Adobe Experience Platform Web SDK，網頁設計器中會顯示訊息，建議您安裝Visual Editing Helper瀏覽器擴充功能並實作 [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+如果網站上尚未實作Adobe Experience Platform Web SDK，網頁設計器中會顯示訊息，建議您安裝Visual Editing Helper瀏覽器擴充功能並實作 [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant){target="_blank"}.
 
 如果網站無法載入或意外運作，可能的修正是在瀏覽器中接受網站上的Cookie，再嘗試以Adobe載入 [!DNL Journey Optimizer].
 

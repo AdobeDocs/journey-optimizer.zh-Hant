@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 設定電子郵件設定
 description: 了解如何在通道表面層級配置電子郵件設定
-feature: Application Settings
+feature: Surface
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: 設定，電子郵件，配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '1478'
 ht-degree: 1%
@@ -83,7 +83,7 @@ ht-degree: 1%
 
 ![](assets/preset-list-unsubscribe.png)
 
-依預設，會啟用此選項。
+此選項已預設啟用。
 
 如果您保留為啟用，取消訂閱的連結會自動納入電子郵件標題中，例如：
 

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer的協助工具功能
 description: 進一步了解Journey Optimizer使用者介面中的協助工具
-feature: Overview
+feature: Accessibility
 role: User
 level: Beginner
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 54%
+ht-degree: 69%
 
 ---
 
@@ -60,31 +60,31 @@ Adobe Experience Platform中的協助工具功能已詳細說明 [在本檔案�
   </tr>
   <tr>
     <td>選取所有活動</td>
-    <td>CTRL + A(Windows)<br/>CMD + A(Mac)</td>
+    <td>Ctrl + A (Windows)<br/> CMD + A (Mac)</td>
   </tr>
   <tr>
     <td>刪除選取的活動</td>
     <td>刪除或退格，然後輸入以確認刪除</td>
   </tr>
   <tr>
-    <td>放大和縮小（聚焦在畫布或其任何子元素上）</td>
-    <td>CTRL +/-(Windows)或CMD +/-(Mac)</td>
+    <td>放大及縮小顯示 (聚焦在畫布或其任何子元素)</td>
+    <td>CTRL +/- (Windows) 或 CMD +/- (Mac)</td>
   </tr>  
   <tr>
-    <td>在每個活動和路徑之間導覽（聚焦在畫布上），或在工具列按鈕之間導覽（聚焦在工具列上）</td>
-    <td>方向鍵</td>
+    <td>在每個活動與路徑之間導覽 (聚焦在畫布)，或在工具列按鈕之間導覽 (聚焦在工具列)</td>
+    <td>箭頭鍵</td>
   </tr>   
   <tr>
-    <td>將焦點移至畫布上下一個可操作的元素，工具列是第一個</td>
+    <td>移動焦點至畫布的下個可操作元素，從工具列開始</td>
     <td>Tab 鍵</td>
   </tr>  
   <tr>
-    <td>開啟右側設定窗格（聚焦於活動）</td>
-    <td>輸入</td>
+    <td>開啟右側設定窗格 (聚焦在活動)</td>
+    <td>Enter 鍵</td>
   </tr>   
   <tr>
-    <td>在畫布中移動活動（聚焦於活動）</td>
-    <td>SHIFT +箭頭鍵</td>
+    <td>在畫布移動活動 (聚焦在活動)</td>
+    <td>SHIFT + 箭頭鍵</td>
   </tr>  
   <tr>
   <td rowspan="3">
