@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 資料集，優化程式，使用案例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -144,6 +144,28 @@ select hardBounceCount, case when sentCount > 0 then(hardBounceCount/sentCount)*
 ```sql
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
+
+### 在ISP中斷後識別隔離地址{#isp-outage-query}
+
+如果網際網路服務提供者(ISP)中斷，您需要在特定網域的時間範圍內，識別錯誤標示為退信（隔離）的電子郵件地址。 若要取得這些地址，請使用下列查詢：
+
+```sql
+SELECT
+    _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress,
+    timestamp AS EventTime,
+    _experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.reason AS "Invalid Recipient"
+FROM cjm_message_feedback_event_dataset
+WHERE
+    eventtype = 'message.feedback' AND
+    DATE(timestamp) BETWEEN '<start-date-time>' AND '<end-date-time>' AND
+    _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND
+    _experience.customerJourneyManagement.emailChannelContext.address ILIKE '%domain.com%'
+ORDER BY timestamp DESC;
+```
+
+其中日期格式為：YYYY-MM-DD HH:MM:SS。
+
+識別後，從Journey Optimizer隱藏清單中移除這些位址。 [了解更多](../configuration/manage-suppression-list.md#remove-from-suppression-list)。
 
 ## 推播追蹤體驗事件資料集 {#push-tracking-experience-event-dataset}
 

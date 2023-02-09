@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 隱藏，清單，退回，電子郵件，優化程式，隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1af4f6c0ec3b529eb53c45e1cfa2fd0148a98b04
+source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -219,16 +219,15 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 >
 >考慮刪除任何電子郵件地址或網域時，請格外小心。 如有疑問，請聯絡傳遞能力專家。
 
+例如，在網際網路服務提供者(ISP)中斷時，電子郵件會錯誤標示為硬退信，因為無法成功傳送給收件者。 必須從隱藏清單中移除這些電子郵件地址。
 
-例如，在網際網路服務提供者(ISP)中斷時，電子郵件可能會錯誤標示為硬退信，因為無法成功傳送給收件者。 必須從隱藏清單中移除這些電子郵件地址。
+若要擷取這些位址，請根據中斷情境，使用自訂參數執行特定查詢。 [在本範例進一步了解](../data/datasets-query-examples.md#isp-outageisp-outage-query).
 
-若要執行此操作，請篩選隱藏清單以顯示受影響的電子郵件地址或網域。 例如，2022年11月11日至2022年11月13日， **test.com** 域，篩選在該時間範圍內新增至隱藏清單的地址，如下所示：
+識別受影響的電子郵件地址後，篩選隱藏清單以顯示這些地址。 例如，2022年11月11日至2022年11月13日， **test.com** 域，篩選在該時間範圍內新增至隱藏清單的地址，如下所示：
 
 ![](assets/remove-from-supp-list.png)
 
-您也需要根據中斷的詳細資訊，對跳出類型新增篩選。 這些詳細資訊由ISP提供，例如傳回給寄件者的確切錯誤碼。 例如： `550 <email address> recipient rejected` 或 `550 5.1.1 ‘email address’: user lookup success but no user record found`.
-
-識別後，即可使用 **[!UICONTROL 刪除]** 按鈕。 這些位址隨後可納入未來的電子郵件行銷活動中。
+然後，您可以使用 **[!UICONTROL 刪除]** 按鈕。
 
 ## 下載隱藏清單 {#download-suppression-list}
 
@@ -236,7 +235,7 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_download"
 >title="Export the list as a CSV file"
->abstract="To download the suppression list, you can either export the current list by generating a new file, or download the file that was previously generated."
+>abstract="To download the suppression list, Qou can either export the current list by generating a new file, or download the file that was previously generated."
 -->
 
 要將隱藏清單導出為CSV檔案，請執行以下步驟：
