@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 隱藏，清單，退回，電子郵件，優化程式，隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
+source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
 ht-degree: 0%
@@ -221,7 +221,7 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 
 例如，在網際網路服務提供者(ISP)中斷時，電子郵件會錯誤標示為硬退信，因為無法成功傳送給收件者。 必須從隱藏清單中移除這些電子郵件地址。
 
-若要擷取這些位址，請根據中斷情境，使用自訂參數執行特定查詢。 [在本範例進一步了解](../data/datasets-query-examples.md#isp-outageisp-outage-query).
+若要擷取這些位址，請根據中斷情境，使用自訂參數執行特定查詢。 [在本範例進一步了解](../data/datasets-query-examples.md#isp-outage-query).
 
 識別受影響的電子郵件地址後，篩選隱藏清單以顯示這些地址。 例如，2022年11月11日至2022年11月13日， **test.com** 域，篩選在該時間範圍內新增至隱藏清單的地址，如下所示：
 
