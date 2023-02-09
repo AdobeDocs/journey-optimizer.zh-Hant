@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 隱藏，清單，退回，電子郵件，優化程式，隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 792eb6d042e748601c9810e6988ecc0b79061dda
+source-git-commit: 1af4f6c0ec3b529eb53c45e1cfa2fd0148a98b04
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 0%
@@ -220,13 +220,13 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 >考慮刪除任何電子郵件地址或網域時，請格外小心。 如有疑問，請聯絡傳遞能力專家。
 
 
-例如，在網際網路服務提供者(ISP)中斷時，電子郵件會錯誤標示為硬退信，因為無法成功傳送給收件者。 必須從隱藏清單中移除這些電子郵件地址。
+例如，在網際網路服務提供者(ISP)中斷時，電子郵件可能會錯誤標示為硬退信，因為無法成功傳送給收件者。 必須從隱藏清單中移除這些電子郵件地址。
 
 若要執行此操作，請篩選隱藏清單以顯示受影響的電子郵件地址或網域。 例如，2022年11月11日至2022年11月13日， **test.com** 域，篩選在該時間範圍內新增至隱藏清單的地址，如下所示：
 
 ![](assets/remove-from-supp-list.png)
 
-您也需要根據中斷的詳細資訊，針對硬退信類型新增篩選器。 這些詳細資訊由ISP提供，例如傳回給寄件者的確切錯誤碼。 例如： `550 <email address> recipient rejected` 或 `550 5.1.1 ‘email address’: user lookup success but no user record found`.
+您也需要根據中斷的詳細資訊，對跳出類型新增篩選。 這些詳細資訊由ISP提供，例如傳回給寄件者的確切錯誤碼。 例如： `550 <email address> recipient rejected` 或 `550 5.1.1 ‘email address’: user lookup success but no user record found`.
 
 識別後，即可使用 **[!UICONTROL 刪除]** 按鈕。 這些位址隨後可納入未來的電子郵件行銷活動中。
 
