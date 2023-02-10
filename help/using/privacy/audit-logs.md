@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->若要檢視和匯出稽核記錄，您必須具備 **[!DNL View User Activity Log]** 授予的權限。 [了解更多](../administration/ootb-product-profiles.md)
+>若要檢視並匯出稽核記錄，您必須擁有&#x200B;**[!DNL View User Activity Log]**&#x200B;權限。 [了解更多](../administration/ootb-product-profiles.md)
 
 使用 Journey Optimizer，您可以識別系統中的使用者對各種服務和功能（如歷程、訊息、登陸頁面）執行的動作。
 
 這使您能夠提高系統中所執行的活動的可見度，疑難排解問題，並幫助您的企業遵守法規和公司資料管理策略。
 
-每項動作都記錄在可在 Adobe Experience Platform 中存取的「稽核記錄」中的中繼資料。 如需稽核記錄的詳細資訊，包括如何在UI或API中檢視和管理稽核記錄，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=zh-Hant).
+每項動作都記錄在可在 Adobe Experience Platform 中存取的「稽核記錄」中的中繼資料。 有關稽核記錄的詳細資訊，包括如何在 UI 或 API 檢視並管理這些記錄，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=zh-Hant)。
 
 ![](assets/audit-logs.png)
 
