@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '2330'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 95%
 
 ## 2023 年 2 月 {#feb-2023}
 
-* API觸發的促銷活動檔案中已新增附註，以指定傳入請求的內容屬性不得超過50kb。 [閱讀全文](../campaigns/api-triggered-campaigns.md#contextual)
+* API 觸發的行銷活動檔案中已新增附註，以指定傳入請求的內容屬性不得超過 50kb。[閱讀全文](../campaigns/api-triggered-campaigns.md#contextual)
 
 * 已新增如何在 **同意服務資料集** 透過登錄頁面取消訂閱後。 [閱讀全文](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023 年 1 月 {#jan-2023}
 
-* 隨附的所有新功能和改善項目 [!DNL Journey Optimizer] 』23年1月發行版本已在檔案中詳細說明。 [閱讀全文](release-notes.md)
-* 中的協助工具功能 [!DNL Journey Optimizer] 現在會分組至專用頁面。 [閱讀全文](../start/accessibility.md)
-* 新增有關 [!DNL Journey Optimizer]. [閱讀全文](../data/gs-data.md)
-* 新增表格，列出使用Decisioning API傳送選件時，回應中可傳回的所有程式碼。 [閱讀全文](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+* 有關所有 [!DNL Journey Optimizer]2023 年 1 月發行版本新功能及改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
+* [!DNL Journey Optimizer]中的協助工具功能現在會分組至專用頁面。 [閱讀全文](../start/accessibility.md)
+* 在[!DNL Journey Optimizer]中新增有關資料管理的新頁面。[閱讀全文](../data/gs-data.md)
+* 新增表格，列出使用 Decisioning API 傳送優惠時，回應中可傳回的所有程式碼。[閱讀全文](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 ## 2022 年 12 月  {#december-2022}
 

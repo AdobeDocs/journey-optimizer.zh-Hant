@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -167,7 +167,7 @@ ht-degree: 99%
       + [建立內容實驗](using/campaigns/content-experiment.md)
       + [瞭解統計計算](using/campaigns/experiment-calculations.md)
       + [設定實驗報告](using/campaigns/reporting-configuration.md)
-      + [實驗報表中的統計計算](using/campaigns/experiment-report-calculations.md)
+      + [實驗報告中的統計計算](using/campaigns/experiment-report-calculations.md)
    + [利用 API 觸發行銷活動](using/campaigns/api-triggered-campaigns.md)
 + 電子郵件頻道 {#email}
    + [開始使用電子郵件](using/email/get-started-email.md)
@@ -467,7 +467,7 @@ ht-degree: 99%
    + [開始使用隱私權](using/privacy/get-started-privacy.md)
    + [隱私權請求](using/privacy/requests.md)
    + [針對資源的稽核動作](using/privacy/audit-logs.md)
-   + [執行資料衛生操作](using/privacy/data-hygiene.md)
+   + [執行資料整理操作](using/privacy/data-hygiene.md)
    + 管理同意 {#consent}
       + [管理選擇退出](using/privacy/opt-out.md)
       + [使用同意原則](using/action/consent.md)
