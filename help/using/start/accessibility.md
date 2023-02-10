@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer的協助工具功能
-description: 進一步了解Journey Optimizer使用者介面中的協助工具
+title: Journey Optimizer 的協助工具功能
+description: 深入瞭解 Journey Optimizer 使用者介面中的協助工具
 feature: Accessibility
 role: User
 level: Beginner
 source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer中的協助工具{#accessibility}
+# Journey Optimizer 的協助工具{#accessibility}
 
-協助工具是指一系列功能，可讓軟體產品可供視覺、聽覺、認知、運動或其他類型的殘疾使用者使用，且盡量不費力。 Adobe是無障礙環境領先者，鼓勵開發人員製作可供所有使用者存取的豐富且吸引人的內容，進而支援建立出色的網頁體驗。 進一步了解Adobe對協助工具的承諾，請參閱 [Adobe協助工具頁面](https://www.adobe.com/accessibility.html){target="_blank"}.
+協助工具是指一系列功能，這些功能使具有視覺、聽覺、認知、運動或其他類型的殘疾使用者能盡可能輕鬆使用軟體產品。Adobe 是協助工具領域的領先者，鼓勵開發人員製作可供所有使用者存取的豐富且吸引人的內容，進而支援建立出色的網頁體驗。深入瞭解 Adobe 對協助工具的承諾，請參閱 [Adobe 協助工具頁面](https://www.adobe.com/accessibility.html){target="_blank"}。
 
-為協助達成無障礙環境一致性目標， [!DNL Journey Optimizer] 遵循網頁內容可及性指引(WCAG)2.1 A級和AA級中國際公認的最佳實務准則。 了解更多最新資訊 [Adobe Journey Optimizer無障礙合規報告](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}.
+為協助達成協助工具一致性目標，[!DNL Journey Optimizer]遵循網頁內容協助工具指導方針 (WCAG) 2.1 A 級及 AA 級中國際公認的最佳作法。深入瞭解最新的 [Adobe Journey Optimizer 協助工具符合性報告](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}。
 
 
 [!DNL Adobe Journey Optimizer] 中的協助工具功能繼承自 Adobe Experience Platform：
@@ -26,9 +26,9 @@ ht-degree: 69%
 * 顏色對比
 * 驗證必填欄位
 
-Adobe Experience Platform中的協助工具功能已詳細說明 [在本檔案中](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hant){target="_blank"}.
+Adobe Experience Platform 中的協助工具功能請詳見[本文件](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hant){target="_blank"}。
 
-下列通用鍵盤快速鍵可在 [!DNL Journey Optimizer]:
+[!DNL Journey Optimizer]中提供了以下常用鍵盤快捷鍵：
 
 | 動作 | 快速鍵 |
 | --- | --- |
@@ -38,7 +38,7 @@ Adobe Experience Platform中的協助工具功能已詳細說明 [在本檔案�
 | 選取或清除焦點中的元素 | 輸入或空格鍵 |
 | 取消選取、摺疊窗格或關閉對話方塊 | Esc 鍵 |
 
-您可以在 [!DNL Journey Optimizer] 使用者介面：
+您可以在[!DNL Journey Optimizer]使用者介面的特定區域中使用這些捷徑：
 
 <table>
   <thead>
