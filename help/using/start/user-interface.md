@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1220'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 瀏覽使用者介面時的重要概念與 Adobe Experience Platform 相同。如需詳細資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hant#adobe-experience-platform-ui-guide)。{target="_blank"}
 
-可用的 UI 元件及功能取決於您的[權限](../administration/permissions.md)和[授權套件](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. 如有任何問題，請聯絡您的 Adobe 客戶成功經理。
+可用的使用者介面元件及功能取決於您的[權限](../administration/permissions.md)和[授權套件](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。如有任何問題，請聯絡您的 Adobe 客戶成功經理。
 
 >[!NOTE]
 >
@@ -160,9 +160,9 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ## 篩選清單{#filter-lists}
 
-在大部分清單中，使用搜尋列來尋找特定項目並定義篩選條件。
+在大部分清單中使用搜尋列來尋找特定項目並定義篩選條件。
 
-您可以按一下清單左上方的篩選圖示來存取篩選器。 篩選功能表可讓您根據不同的條件篩選顯示的元素。您可以選擇僅顯示某一類型或狀態的元素、您建立的元素，或者在過去 30 天內修改的元素。選項會因內容而異。
+按一下清單左上方的篩選圖示，即可存取篩選器。篩選功能表可讓您根據不同的條件篩選顯示的元素。您可以選擇僅顯示某一類型或狀態的元素、您建立的元素，或者在過去 30 天內修改的元素。選項會因內容而異。
 
 在歷程清單中，您可以從&#x200B;**[!UICONTROL 狀態及版本篩選器]**&#x200B;中根據歷程的狀態、類型與版本來篩選歷程。 類型可以是： **[!UICONTROL 單一事件]**、**[!UICONTROL 區段資格]**、**[!UICONTROL 讀取區段]**、**[!UICONTROL 企業活動]**&#x200B;或 **[!UICONTROL 突發事件]**。您可以選擇僅顯示使用&#x200B;**[!UICONTROL 事件篩選器]**&#x200B;與&#x200B;**[!UICONTROL 資料篩選器]**&#x200B;中的特定事件、欄位群組或動作的歷程。**[!UICONTROL 出版物篩選器]**&#x200B;可讓您選擇出版物日期或使用者。 舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。[了解更多](../building-journeys/using-the-journey-designer.md)。
 
