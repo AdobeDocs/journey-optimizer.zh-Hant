@@ -9,17 +9,17 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # 護欄和限制 {#limitations}
 
-權益、產品限制和效能護欄列於 [Adobe Journey Optimizer產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+權利、產品限制和效能護欄列於 [Adobe Journey Optimizer 產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
-您也需要注意 [開始前即時客戶設定檔資料的護欄](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hant){target="_blank"}.
+在啟動](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hant){target="_blank"}之前，您還需要注意即時客戶設定檔資料的[護欄。
 
 當使用 [!DNL Adobe Journey Optimizer] 時，您將找到下面其他護欄和限制。
 
@@ -31,7 +31,7 @@ ht-degree: 94%
 
 ## 決策管理護欄 {#offer-guardrails}
 
-決策的效能護欄和靜態限制列於 [AdobeOffer decisioning應用程式服務產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
+決策的效能護欄和靜態限制列於 [Adobe Offer Decisioning 應用程式服務產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}。
 
 
 ## 登陸頁面護欄 {#lp-guardrails}
