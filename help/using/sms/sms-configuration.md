@@ -6,9 +6,9 @@ description: 了解如何設定您的環境，使用Journey Optimizer傳送SMS
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: d0ef261f81bf9d193a426c0a260d701908afb4d9
+source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '790'
 ht-degree: 2%
 
 ---
@@ -73,12 +73,12 @@ Adobe Journey Optimizer目前與第三方提供商（如Sinch和Twilio）整合�
 
 建立和設定API憑證後，您現在需要為SMS訊息建立通道表面（即訊息預設集）。
 
-## 建立通道曲面 {#message-preset-sms}
+## 建立SMS表面 {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="定義SMS類別"
->abstract="選取使用此表面時將傳送的SMS訊息類型：促銷SMS訊息的行銷，需要使用者同意，或非商業SMS訊息的交易式，也可以在特定內容中傳送給取消訂閱的設定檔。"
+>abstract="使用此表面選取SMS訊息的類型：促銷SMS訊息的行銷（需要使用者同意），或非商業SMS訊息的交易（例如密碼重設）。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="行銷SMS訊息中的選擇退出"
 
 設定SMS通道後，您必須建立通道表面，才能傳送來自 **[!DNL Journey Optimizer]**.
@@ -103,6 +103,15 @@ Adobe Journey Optimizer目前與第三方提供商（如Sinch和Twilio）整合�
 
    * 選取 **[!UICONTROL SMS類型]** 將與表面一起發送： **[!UICONTROL 交易]** 或 **[!UICONTROL 行銷]**.
 
+      * 選擇 **行銷** 促銷簡訊：這些訊息需要使用者同意。
+      * 選擇 **交易** 例如，對於非商業性訊息，例如訂單確認、密碼重設通知或傳送資訊。
+
+      >[!CAUTION]
+      >
+      >**交易** SMS訊息可傳送給從行銷通訊取消訂閱的設定檔。 這些訊息只能在特定內容中傳送。
+
+      建立SMS訊息時，您必須選擇符合您為訊息選取的類別的有效通道表面。
+
    * 選取 **[!UICONTROL SMS設定]** 與曲面關聯。
 
       如需如何設定環境以傳送SMS訊息的詳細資訊，請參閱 [本節](#create-api).
@@ -110,6 +119,7 @@ Adobe Journey Optimizer目前與第三方提供商（如Sinch和Twilio）整合�
    * 輸入 **[!UICONTROL 寄件者編號]** &#x200B;你想用於溝通。
 
    * 選取 **[!UICONTROL SMS執行欄位]** ，選擇 **[!UICONTROL 設定檔屬性]** 與設定檔的電話號碼相關聯。
+
 
 1. 完成所有參數設定後，按一下 **[!UICONTROL 提交]** 確認。 也可以將通道曲面另存為草稿，並稍後恢復其配置。
 
