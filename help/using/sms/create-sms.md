@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: aca38b71ee06e678358bc1451e6d522ea5d0e1b6
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '449'
 ht-degree: 13%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 13%
 
 ## 新增SMS訊息 {#create-sms-journey-campaign}
 
-瀏覽下方的標籤，了解如何在行銷活動或歷程中新增簡訊。
+瀏覽下方的標籤，了解如何在行銷活動或歷程中新增SMS訊息。
 
 >[!BEGINTABS]
 
@@ -86,9 +86,11 @@ ht-degree: 13%
 
 1. 使用運算式編輯器來定義內容並新增動態內容。 您可以使用任何屬性，例如設定檔名稱或城市。 深入了解 [個人化](../personalization/personalize.md) 和 [動態內容](../personalization/get-started-dynamic-content.md) 在運算式編輯器中。
 
-1. 按一下 **[!UICONTROL 儲存]** 並在預覽中檢查您的訊息。 [了解更多](send-sms.md)
+1. 按一下 **[!UICONTROL 儲存]** 並在預覽中檢查您的訊息。
 
    ![](assets/sms-content-preview.png)
+
+您現在可以測試SMS訊息並傳送給您的對象。 [了解更多](send-sms.md)
 
 >[!NOTE]
 >
@@ -96,6 +98,7 @@ ht-degree: 13%
 
 **相關主題**
 
+* [預覽、測試和傳送您的SMS訊息](send-sms.md)
 * [設定簡訊頻道](sms-configuration.md)
 * [簡訊報告](../reports/journey-global-report.md#sms-global)
 * [在歷程中新增訊息](../building-journeys/journeys-message.md)
