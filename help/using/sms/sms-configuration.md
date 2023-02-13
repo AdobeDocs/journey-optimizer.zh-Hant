@@ -6,9 +6,9 @@ description: 了解如何設定您的環境，使用Journey Optimizer傳送SMS
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: d0ef261f81bf9d193a426c0a260d701908afb4d9
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
@@ -131,3 +131,5 @@ Adobe Journey Optimizer目前與第三方提供商（如Sinch和Twilio）整合�
 
 * [建立簡訊訊息](create-sms.md)
 * [在歷程中新增訊息](../building-journeys/journeys-message.md)
+* [在促銷活動中新增訊息](../campaigns/create-campaign.md)
+
