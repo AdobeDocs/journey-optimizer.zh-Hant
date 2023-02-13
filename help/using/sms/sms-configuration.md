@@ -1,14 +1,14 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS設定
+title: 設定SMS通道
 description: 了解如何設定您的環境，使用Journey Optimizer傳送SMS
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '727'
 ht-degree: 2%
 
 ---
@@ -19,9 +19,14 @@ ht-degree: 2%
 
 傳送SMS之前，請設定您的執行個體。 您需要 [整合提供者設定](#create-api) 與Journey Optimizer [建立SMS曲面](#message-preset-sms) （即簡訊預設集）。 這些步驟必須由 [Adobe Journey Optimizer系統管理員](../start/path/administrator.md).
 
->[!IMPORTANT]
->
->Adobe Journey Optimizer目前與第三方提供商（如Sinch和Twilio）整合，後者提供獨立於Adobe Journey Optimizer的簡訊服務。  在SMS設定前，您必須建立帳戶，使其中一個SMS提供者接收API Token和服務ID，以便您建立Adobe Journey Optimizer與適用SMS提供者之間的連線。 您使用簡訊服務將受適用簡訊提供者提供之其他條款和條件所規範。 由於Sinch和Twilio是通過整合提供給Adobe Journey Optimizer用戶的第三方產品，因此，對於與簡訊服務相關的任何問題或查詢，Sinch或Twilio的用戶需要聯繫適用的簡訊提供商以獲得幫助。 Adobe無法控制第三方產品，也不負責。
+## 先決條件{#sms-prerequisites}
+
+Adobe Journey Optimizer目前與第三方提供商（如Sinch和Twilio）整合，後者提供獨立於Adobe Journey Optimizer的簡訊服務。
+
+在SMS設定前，您必須建立帳戶，使其中一個SMS提供者接收API Token和服務ID，以便您建立Adobe Journey Optimizer與適用SMS提供者之間的連線。
+
+您使用簡訊服務將受適用簡訊提供者提供之其他條款和條件所規範。 由於Sinch和Twilio是通過整合提供給Adobe Journey Optimizer用戶的第三方產品，因此，對於與簡訊服務相關的任何問題或查詢，Sinch或Twilio的用戶需要聯繫適用的簡訊提供商以獲得幫助。 Adobe無法控制第三方產品，也不負責。
+
 
 ## 建立新的API憑證 {#create-api}
 
@@ -43,14 +48,20 @@ ht-degree: 2%
 
 若要使用Journey Optimizer設定您的SMS廠商，請遵循下列步驟：
 
-1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL API憑證]** ，然後按一下 **[!UICONTROL 建立API憑證]**.
+1. 在左側邊欄中，瀏覽至 **[!UICONTROL 管理]** > **[!UICONTROL 管道]** ，然後選取 **[!UICONTROL API憑證]** 功能表。 按一下 **[!UICONTROL 建立新API憑證]** 按鈕。
 
    ![](assets/sms_6.png)
 
 1. 選取 **[!UICONTROL 簡訊供應商]**:
 
-   * [!DNL Sinch]。若要尋找 **[!UICONTROL 服務ID]** 和 **[!UICONTROL API Token]**，從您的Sinch帳戶存取SMS > API功能表。
-   * [!DNL Twilio]。若要尋找 **[!UICONTROL 服務ID]** 和 **[!UICONTROL API Token]**，存取「控制台控制面板」頁面的「帳戶資訊」窗格。
+   * **[!DNL Sinch]**
+
+      若要尋找 **[!UICONTROL 服務ID]** 和 **[!UICONTROL API Token]**，從您的Sinch帳戶存取SMS > API功能表。
+
+   * **[!DNL Twilio]**
+
+      若要尋找 **[!UICONTROL 服務ID]** 和 **[!UICONTROL API Token]**，存取「控制台控制面板」頁面的「帳戶資訊」窗格。
+
 
 1. 輸入 **[!UICONTROL 名稱]** 來取得API憑證。
 
@@ -62,7 +73,7 @@ ht-degree: 2%
 
 建立和設定API憑證後，您現在需要為SMS訊息建立通道表面（即訊息預設集）。
 
-## 建立SMS訊息的通道表面 {#message-preset-sms}
+## 建立通道曲面 {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
@@ -70,11 +81,11 @@ ht-degree: 2%
 >abstract="選取使用此表面時將傳送的SMS訊息類型：促銷SMS訊息的行銷，需要使用者同意，或非商業SMS訊息的交易式，也可以在特定內容中傳送給取消訂閱的設定檔。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="行銷SMS訊息中的選擇退出"
 
-設定SMS通道後，您需要建立通道表面，才能傳送來自 **[!DNL Journey Optimizer]**.
+設定SMS通道後，您必須建立通道表面，才能傳送來自 **[!DNL Journey Optimizer]**.
 
 要建立通道曲面，請執行以下步驟：
 
-1. 存取 **[!UICONTROL 管道]** > **[!UICONTROL 品牌推廣]** > **[!UICONTROL 通道曲面]** ，然後按一下 **[!UICONTROL 建立通道曲面]**.
+1. 在左側邊欄中，瀏覽至 **[!UICONTROL 管理]** > **[!UICONTROL 管道]** 選取 **[!UICONTROL 品牌推廣]** > **[!UICONTROL 通道曲面]**. 按一下 **[!UICONTROL 建立通道曲面]** 按鈕。
 
    ![](assets/preset-create.png)
 
@@ -86,7 +97,7 @@ ht-degree: 2%
    >
    > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線 `_`，點`.` 連字型大小 `-` 字元。
 
-1. 設定 **簡訊** 設定。
+1. 定義 **SMS設定**.
 
    ![](assets/preset-sms.png)
 

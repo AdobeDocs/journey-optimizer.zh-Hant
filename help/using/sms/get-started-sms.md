@@ -8,18 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 22%
+source-wordcount: '173'
+ht-degree: 23%
 
 ---
 
 # 開始使用簡訊 {#get-started-sms}
-
->[!IMPORTANT]
->
->如果這是您第一次建立SMS，請確定已設定SMS通道。 [了解更多](sms-configuration.md)。
 
 使用 [!DNL Journey Optimizer] 在客戶的行動裝置上傳送簡訊給客戶。 您可以從SMS編輯器建立、個人化及預覽文字格式的訊息。
 
@@ -33,7 +29,10 @@ ht-degree: 22%
 
    如需如何設定促銷活動的詳細資訊，請參閱 [頁面](../campaigns/create-campaign.md#configure).
 
-如果這是您第一次建立SMS訊息，請確定已設定SMS通道。 [了解更多](sms-configuration.md)。
+
+>[!IMPORTANT]
+>
+>如果這是您第一次建立SMS，請確定已設定SMS通道。 [了解更多](sms-configuration.md)。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 100%
+source-wordcount: '1312'
+ht-degree: 99%
 
 ---
 
@@ -217,7 +217,7 @@ ht-degree: 100%
 + 簡訊頻道{#sms}
    + [開始使用簡訊](using/sms/get-started-sms.md)
    + [建立簡訊訊息](using/sms/create-sms.md)
-   + [傳送簡訊訊息](using/sms/send-sms.md)
+   + [預覽並測試您的SMS](using/sms/send-sms.md)
    + [管理簡訊選擇退出](using/sms/sms-opt-out.md)
    + [設定簡訊頻道](using/sms/sms-configuration.md)
 + 直接郵件 {#direct-mail}

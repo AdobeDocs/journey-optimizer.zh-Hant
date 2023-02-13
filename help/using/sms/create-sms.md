@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '430'
 ht-degree: 13%
 
 ---
@@ -19,22 +19,18 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="簡訊建立"
->abstract="新增文字訊息，並開始使用運算式編輯器進行個人化。"
+>title="建立簡訊訊息"
+>abstract="新增您的SMS訊息，並開始使用運算式編輯器進行個人化。"
 
->[!NOTE]
->
->根據行業標準及法規，所有簡訊行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 若要這麼做，SMS收件者可以使用選擇加入和選擇退出關鍵字回覆。 [了解如何管理選擇退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+## 新增SMS訊息 {#create-sms-journey-campaign}
 
-## 在歷程或行銷活動中建立SMS訊息 {#create-sms-journey-campaign}
-
-若要開始個人化SMS訊息，請遵循下列步驟：
+瀏覽下方的標籤，了解如何在行銷活動或歷程中新增簡訊。
 
 >[!BEGINTABS]
 
 >[!TAB 將SMS訊息新增至歷程]
 
-1. 開啟您的歷程，然後從浮動視窗的「動作」區段拖放SMS活動。
+1. 開啟您的歷程，然後從 **動作** 區段。
 
    ![](assets/sms_create_1.png)
 
@@ -44,7 +40,7 @@ ht-degree: 13%
 
    如需如何設定歷程的詳細資訊，請參閱 [本頁](../building-journeys/journey-gs.md)
 
-您現在可以開始從 **[!UICONTROL 編輯內容]** 按鈕。 [設計您的SMS內容](#sms-content)
+您現在可以開始從 **[!UICONTROL 編輯內容]** 按鈕。 [定義您的SMS內容](#sms-content)
 
 >[!TAB 新增SMS訊息至促銷活動]
 
@@ -79,6 +75,7 @@ ht-degree: 13%
 
 >[!ENDTABS]
 
+
 ## 定義您的SMS內容{#sms-content}
 
 1. 在歷程或行銷活動設定畫面中，按一下 **[!UICONTROL 編輯內容]** 按鈕來設定SMS內容。
@@ -93,8 +90,13 @@ ht-degree: 13%
 
    ![](assets/sms-content-preview.png)
 
+>[!NOTE]
+>
+>根據行業標準及法規，所有簡訊行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 若要這麼做，SMS收件者可以使用選擇加入和選擇退出關鍵字回覆。 [了解如何管理選擇退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+
 **相關主題**
 
 * [設定簡訊頻道](sms-configuration.md)
 * [簡訊報告](../reports/journey-global-report.md#sms-global)
 * [在歷程中新增訊息](../building-journeys/journeys-message.md)
+* [在促銷活動中新增訊息](../campaigns/create-campaign.md)
