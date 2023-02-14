@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 登陸，登錄頁面，建立，發佈
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1544'
 ht-degree: 2%
 
 ---
@@ -196,6 +196,12 @@ ht-degree: 2%
 ![](assets/lp_subpage-settings.png)
 
 ## 測試登錄頁面 {#test-landing-page}
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_lp_profiles"
+>title="預覽並測試您的登錄頁面"
+>abstract="定義登錄頁面設定和內容後，您就可以使用測試設定檔來預覽。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="選取測試設定檔"
 
 定義登錄頁面設定和內容後，您就可以使用測試設定檔來預覽。 如果您已插入 [個人化內容](../personalization/personalize.md)，您將能使用測試設定檔資料，檢查此內容在登錄頁面中的顯示方式。
 

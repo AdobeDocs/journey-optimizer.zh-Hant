@@ -9,22 +9,45 @@ role: User
 level: Beginner
 keywords: 著陸，著陸頁面，建立，頁面，表單，元件
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1194'
 ht-degree: 3%
 
 ---
 
 # 定義登錄頁面特定內容 {#lp-content}
 
-若要定義特定內容，讓使用者從您的登錄頁面選取並提交其選擇，請使用 **[!UICONTROL 表單]** 元件。 若要這麼做，請遵循下列步驟。
+>[!CONTEXTUALHELP]
+>id="ac_lp_components"
+>title="使用內容元件"
+>abstract="內容元件是空白的內容預留位置，可用來建立登錄頁面的版面。 若要定義特定內容，讓使用者可選擇並提交其選擇，請使用表單元件。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="新增內容元件"
+
+若要設計登錄頁面內容，您可以使用與電子郵件相同的元件。 [了解更多](../email/content-components.md#add-content-components)
+
+若要設計特定內容，讓使用者可選擇並提交其選擇， [使用表單元件](#use-form-component) 定義 [登陸頁面特定樣式](#lp-form-styles).
 
 >[!NOTE]
 >
 >您也可以建立點進登錄頁面，不使用 **[!UICONTROL 表單]** 元件。 在這種情況下，登錄頁面會向使用者顯示，但使用者不需要提交任何表單。 如果您只想要展示登錄頁面，而不要求收件者採取任何動作（例如選擇加入或選擇退出），或想要提供不需要使用者輸入的資訊，這個功能會很實用。
 
+使用登錄頁面內容設計工具，您也可以運用來自子頁面主要頁面的內容資料。 [了解更多](#use-primary-page-context)
+
 ## 使用表單元件 {#use-form-component}
+
+>[!CONTEXTUALHELP]
+>id="ac_lp_formfield"
+>title="設定表單元件欄位"
+>abstract="定義收件者將如何檢視，並從您的登錄頁面提交其選擇。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="定義登錄頁面表單樣式"
+
+>[!CONTEXTUALHELP]
+>id="ac_lp_submission"
+>title="按一下按鈕後會發生什麼事"
+>abstract="定義使用者提交登錄頁面表單時將發生什麼事。"
+
+若要定義特定內容，讓使用者從您的登錄頁面選取並提交其選擇，請使用 **[!UICONTROL 表單]** 元件。 若要這麼做，請遵循下列步驟。
 
 1. 拖放登錄頁面專用 **[!UICONTROL 表單]** 元件從左側浮動視窗移入主工作區。
 
@@ -129,13 +152,13 @@ ht-degree: 3%
 
 您可以使用來自相同登陸頁面內其他頁面的內容資料。
 
-例如，如果您連結核取方塊<!-- or the submission of the page--> 到 [訂閱清單](subscription-list.md) 在主要登陸頁面上，您可以在「感謝您」子頁面上使用該訂閱清單。
+例如，如果您連結核取方塊 <!-- or the submission of the page--> 到 [訂閱清單](subscription-list.md) 在主要登陸頁面上，您可以在「感謝您」子頁面上使用該訂閱清單。
 
 假設您將主要頁面上的兩個核取方塊連結至兩個不同的訂閱清單。 如果使用者訂閱其中一個表單，您會根據使用者選取的核取方塊，在提交表單時顯示特定訊息。
 
 要執行此操作，請遵循下列步驟：
 
-1. 在主要頁面上，將每個核取方塊連結至相關的訂閱清單。 [了解更多](#use-form-component)。
+1. 在主要頁面上，連結 **[!UICONTROL 表單]** 元件至相關訂閱清單。 [了解更多](#use-form-component)。
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 
