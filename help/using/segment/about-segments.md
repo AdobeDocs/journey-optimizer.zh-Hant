@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 6c255d66fb89ba756add062d8a4315dd622fd8e7
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 0%
+source-wordcount: '586'
+ht-degree: 1%
 
 ---
 
 # 開始使用Adobe Experience Platform區段 {#about-segments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_segment"
+>title="區段"
+>abstract="透過運用即時客戶設定檔資料，Adobe Experience Platform可讓您輕鬆建立目標區段，以擷取客戶的獨特行為和偏好。"
 
 [!DNL Journey Optimizer]  可讓您直接使用Adobe Experience Platform的即時客戶設定檔資料，建立 **[!UICONTROL 區段]** 功能表，並將其用於您的歷程或行銷活動中。
 
