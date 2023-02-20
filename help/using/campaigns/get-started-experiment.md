@@ -11,9 +11,9 @@ keywords: 開始，開始，內容，實驗
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1983'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ Adobe Journey Optimizer接著會使用進階的「隨時有效」統計方法來
 +++以適當的受眾規模或足夠長的時間執行測試
 
 如果您執行測試的時間更長，將能夠偵測不同處理之間目標量度的較小差異。 不過，如果目標量度的基線值較小，則需要較大的樣本大小。
-實驗中必須包含的使用者數量取決於您要偵測的效果大小、目標量度的變異或擴散，以及您對誤報和誤報的容忍度。 在經典實驗中，您可以使用 [樣本大小計算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){_blank}，確定必須運行測試的時間。
+實驗中必須包含的使用者數量取決於您要偵測的效果大小、目標量度的變異或擴散，以及您對誤報和誤報的容忍度。 在經典實驗中，您可以使用 [樣本大小計算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=zh-Hant){_blank}，確定必須運行測試的時間。
 +++
 
 +++了解統計不確定性
@@ -111,6 +111,11 @@ Adobe Journey Optimizer接著會使用進階的「隨時有效」統計方法來
 +++
 
 ## 解譯您的實驗結果 {#interpret-results}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_summary"
+>title="摘要Widget"
+>abstract="摘要Widget會提供實驗結果的概觀，包括結果是否確定。 它提供快速且簡單的方式，讓您了解實驗的結果。"
 
 ![](assets/experimentation_report_3.png)
 

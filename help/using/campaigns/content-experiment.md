@@ -11,9 +11,9 @@ keywords: 內容，實驗，多個，觀眾，治療
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1168'
 ht-degree: 4%
 
 ---
@@ -163,6 +163,11 @@ Journey Optimizer內容實驗可讓您定義多個傳送處理，以測量哪個
 請注意，可視需要對每個介面工具集調整大小並刪除。 有關詳細資訊，請參閱 [節](../reports/global-report.md#modify-dashboard).
 
 ## 實驗報告 {#experimentation-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_click"
+>title="每個設定檔的不重複點按次數"
+>abstract="每個設定檔的不重複點按次數量度可協助您了解實驗吸引對象以及將點按次數引導至目標目的地的效率。 它會計算特定連結上的不重複點按次數除以該連結公開的設定檔總數。"
 
 >[!AVAILABILITY]
 >
