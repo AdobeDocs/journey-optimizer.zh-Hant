@@ -5,9 +5,9 @@ title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2330'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 * API 觸發的行銷活動檔案中已新增附註，以指定傳入請求的內容屬性不得超過 50kb。[閱讀全文](../campaigns/api-triggered-campaigns.md#contextual)
 
-* 已新增如何在 **同意服務資料集** 透過登錄頁面取消訂閱後。 [閱讀全文](../landing-pages/lp-use-cases.md#configure-opt-out)
+* 已新增有關在收件人透過登陸頁面取消訂閱後如何將選擇退出資訊儲存在&#x200B;**同意服務資料集**&#x200B;的資訊。[閱讀全文](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023 年 1 月 {#jan-2023}
 
