@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5ef9fec615c39935184595d91e7b12d4cd08903f
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 61%
+source-wordcount: '919'
+ht-degree: 60%
 
 ---
 
@@ -28,15 +28,14 @@ ht-degree: 61%
 <table>
 <thead>
 <tr>
-<th><strong>應用程式內頻道</strong><br/></th>
+<th><strong>應用程式內頻道（測試版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>您現在可以在行銷活動中，將個人化的應用程式內訊息傳送給您的應用程式使用者。 使用Journey Optimizer來設計通知並自訂訊息版面、顯示、文字和按鈕，以建立順暢的體驗。</p>
-<p>
-此功能目前為測試版本，僅供測試版客戶使用。 若要加入測試版計畫，請連絡 Adobe 客戶服務。</p>
+<p><strong>注意</strong>  — 此功能目前為測試版，僅供測試版客戶使用。 若要加入測試版計畫，請連絡 Adobe 客戶服務。</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>如需詳細資訊，請參閱<a href="../in-app/get-started-in-app.md">詳細文件</a>。</p>
 </td>
@@ -55,9 +54,7 @@ ht-degree: 61%
 <td>
 <p>您現在可以與雲端儲存空間位置建立即時連線，以匯出資料集的內容。 可用目的地包括：Amazon S3雲端儲存空間， Azure Blob, Azure Data Lake Gen 2，資料登陸區，Google雲端儲存空間，SFTP。</p>
 <p><strong>注意</strong>  — 此功能目前為測試版，所有Adobe Journey Optimizer使用者都能使用。 如果您尚未擁有存取權，請與Adobe代表合作，取得目的地的存取權。</p>
-
 <img src="assets/do-not-localize/gif-destinations.gif"/>
-
 <p>如需詳細資訊，請參閱<a href="../data/export-datasets.md">詳細文件</a>。</p>
 </td>
 </tr>

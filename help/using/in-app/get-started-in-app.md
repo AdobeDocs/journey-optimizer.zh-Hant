@@ -8,7 +8,7 @@ level: Beginner
 keywords: 應用程式內，消息，建立，開始
 badge: label="Beta" type="Informity"
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 16%
@@ -17,7 +17,7 @@ ht-degree: 16%
 
 # 開始使用應用程式內頻道 {#gs-in-app}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >應用程式內功能目前僅供選取使用者作為測試版。 若要加入測試版計畫，請連絡 Adobe 客戶服務。
 
