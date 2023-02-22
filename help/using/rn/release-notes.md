@@ -4,7 +4,7 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5ef9fec615c39935184595d91e7b12d4cd08903f
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 61%
@@ -58,7 +58,7 @@ ht-degree: 61%
 
 <img src="assets/do-not-localize/gif-destinations.gif"/>
 
-<p>如需詳細資訊，請參閱<a href="../privacy/data-hygiene.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../data/export-datasets.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
