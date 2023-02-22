@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 設定，電子郵件，配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1652'
 ht-degree: 1%
 
 ---
@@ -151,6 +151,14 @@ ht-degree: 1%
 
 * 請勿在回覆收件匣中將訊息標示為垃圾訊息，因為這會影響傳送至此位址的所有其他回覆。
 
+此外，定義 **[!UICONTROL 回覆（電子郵件）]** 地址，請務必使用具有有效MX記錄配置的子域，否則電子郵件表面處理將失敗。
+
+如果您在提交電子郵件表面時收到錯誤，表示未針對您輸入的地址的子域配置MX記錄。 請與管理員聯繫以配置相應的MX記錄，或使用具有有效MX記錄配置的其他地址。
+
+>[!NOTE]
+>
+>如果您輸入的地址的子網域是 [完全授權](../configuration/delegate-subdomain.md#full-subdomain-delegation) 若要Adobe，請連絡您的Adobe帳戶主管。
+
 ### 轉寄電子郵件 {#forward-email}
 
 如果您想要轉送至特定電子郵件地址，則收到的所有電子郵件 [!DNL Journey Optimizer] 如需委派的子網域，請聯絡Adobe客戶服務。 您需要提供：
@@ -173,6 +181,10 @@ ht-degree: 1%
 要執行此操作，請啟用 **[!UICONTROL 密件副本電子郵件]** 通道曲面層的可選特徵。 [了解更多](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
+
+此外，定義 **[!UICONTROL 密件副本電子郵件]** 地址，請務必使用具有有效MX記錄配置的子域，否則電子郵件表面處理將失敗。
+
+如果您在提交電子郵件表面時收到錯誤，表示未針對您輸入的地址的子域配置MX記錄。 請與管理員聯繫以配置相應的MX記錄，或使用具有有效MX記錄配置的其他地址。
 
 ## 電子郵件重試參數 {#email-retry}
 
@@ -237,7 +249,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->您可以從運算式編輯器中結合輸入文字值和使用內容屬性。 每個 **[!UICONTROL 值]** 欄位總共可包含最多255個字元。
+>您可以從運算式編輯器中結合輸入文字值和使用內容屬性。 每個 **[!UICONTROL 值]** 欄位可包含最多5 KB的字元數。
 
 <!--You can drag and drop the parameters to reorder them.-->
 

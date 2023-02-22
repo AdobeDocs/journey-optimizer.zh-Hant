@@ -5,18 +5,21 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: 應用程式內，消息，設計，格式
+badge: label="Beta" type="Informity"
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 5%
+source-wordcount: '910'
+ht-degree: 6%
 
 ---
 
 # 設計您的應用程式內內容 {#design-content}
+
+>[!IMPORTANT]
+>
+>應用程式內功能目前僅供選取使用者作為測試版。 若要加入測試版計畫，請連絡 Adobe 客戶服務。
 
 您可以編輯應用程式內內容以設定體驗選項，包括訊息配置和顯示、文字及按鈕選項。
 
@@ -192,7 +195,7 @@ UI接管選項（預設為啟用）可讓您拖曳應用程式內訊息背後的
 **相關主題：**
 
 * [建立應用程式內訊息](create-in-app.md)
-* [應用程式內報告](inapp-report.md)
+* [應用程式內報告](../reports/campaign-global-report.md#inapp-report)
 * [應用程式內設定](inapp-configuration.md)
 
 ## 作法影片{#video}

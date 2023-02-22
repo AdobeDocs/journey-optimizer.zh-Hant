@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 存檔，郵件， HIPAA, BCC，電子郵件
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 2%
@@ -82,7 +82,6 @@ HIPAA等法規要求 [!DNL Journey Optimizer] 應提供封存傳送給個人之�
 * 請勿開啟或點進傳送至BCC位址的電子郵件，因為開啟總次數和來自傳送分析的點按次數皆已納入考量，這可能會造成 [報告](../reports/global-report.md).
 
 * 請勿在BCC收件匣中將郵件標示為垃圾訊息，因為這會影響傳送至此位址的所有其他電子郵件。
-
 
 >[!CAUTION]
 >

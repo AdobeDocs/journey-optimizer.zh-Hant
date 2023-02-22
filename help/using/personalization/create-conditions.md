@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，條件，規則
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 1%
@@ -90,7 +90,7 @@ ht-degree: 1%
 
 ## 編輯和刪除儲存的條件規則 {#edit-delete}
 
-您可以隨時使用橢圓按鈕刪除條件規則。
+您隨時都可以使用省略號按鈕刪除條件式規則。
 
 ![](assets/conditions-open.png)
 

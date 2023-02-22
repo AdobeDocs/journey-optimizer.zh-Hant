@@ -2,7 +2,7 @@
 title: 批次決策
 description: 了解如何將優惠方案決策傳送至指定Adobe Experience Platform區段中的所有設定檔。
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: a56d675e014d55064073eba011fb50e2d363844d
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 2%
@@ -76,7 +76,7 @@ Journey Optimizer可讓您將優惠方案決策傳送至指定Adobe Experience P
 
 >[!NOTE]
 >
->要確保獲取有關作業請求狀態的最新資訊，請使用作業旁的橢圓按鈕來刷新它。
+>若要確認您取得工作請求狀態的最新資訊，請使用工作旁的刪節號按鈕重新整理。
 
 1. **[!UICONTROL 已排隊]**:作業請求已建立，並已進入處理佇列。 每個資料集一次最多可執行5個批次作業。 具有相同輸出資料集的任何其他批次請求都會新增至佇列。 系統會擷取已排入佇列的作業，以在上一個作業完成執行後進行處理。
 1. **[!UICONTROL 處理]**:正在處理作業請求

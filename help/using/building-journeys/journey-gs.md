@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，首先，開始，快速入門，區段，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 10%
+source-wordcount: '1171'
+ht-degree: 9%
 
 ---
 
@@ -96,9 +96,7 @@ ht-degree: 10%
 
 依預設，新歷程允許重新進入。 您可以取消勾選 **允許重新進入** 「一次性」歷程的選項，例如當某人進入商店時，您想要提供一次性禮品時。
 
-<!--
-When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
--->
+當 **允許重新進入** 選項， **重新進入等待期** 欄位。 此欄位可讓您定義等待時間，再允許設定檔在單一歷程中再次進入歷程（從事件或區段資格開始）。 這可防止同一事件的歷程錯誤觸發多次。 依預設，欄位會設為5分鐘。
 
 進一步了解設定檔入口管理，位於 [本節](entry-management.md).
 
@@ -120,13 +118,9 @@ When the **Allow re-entrance** option is activated, the **Re-entrance wait perio
 
 ### 開始和結束日期 {#dates}
 
-<!--
-You can define a **Start date**. If you haven't specified one, it will be automatically defined at publication time. 
+您可以定義 **開始日期**. 如果您尚未指定，則會在發佈時自動定義。
 
-You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read segment journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
--->
-
-您可以定義 **開始日期**. 您也可以新增 **結束日期**. 這可讓設定檔在達到日期時自動退出。 如果您未指定結束日期，設定檔可持續到預設歷程逾時為止。
+您也可以新增 **結束日期**. 這可讓設定檔在達到日期時自動退出。 如果您未指定結束日期，則設定檔可持續到預設歷程逾時（通常為30天，若使用Healthcare Shield附加元件，則為7天）。 唯一的例外是重複讀取區段歷程，具有 **再次強制重新進入** 已啟動，在下次發生的開始日期結束。
 
 ### 歷程活動的逾時和錯誤 {#timeout_and_error}
 

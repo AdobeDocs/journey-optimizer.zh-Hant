@@ -3,18 +3,21 @@ title: 應用程式內設定
 description: 了解如何設定您的環境，以使用Journey Optimizer傳送應用程式內訊息
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: 應用程式內，訊息，設定，平台
+badge: label="Beta" type="Informity"
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 9%
+source-wordcount: '307'
+ht-degree: 13%
 
 ---
 
 # 設定應用程式內頻道 {#inapp-configuration}
+
+>[!IMPORTANT]
+>
+>應用程式內功能目前僅供選取使用者作為測試版。 若要加入測試版計畫，請連絡 Adobe 客戶服務。
 
 傳送應用程式內訊息之前，您需先在 [!DNL Adobe Experience Platform Data Collection].
 
@@ -71,4 +74,4 @@ ht-degree: 9%
 * [建立應用程式內訊息](create-in-app.md)
 * [建立行銷活動](../campaigns/create-campaign.md)
 * [設計應用程式內訊息](design-in-app.md)
-* [應用程式內報告](inapp-report.md)
+* [應用程式內報告](../reports/campaign-global-report.md#inapp-report)

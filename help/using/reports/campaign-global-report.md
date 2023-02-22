@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 1%
+source-wordcount: '1904'
+ht-degree: 2%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 1%
 
 * [Campaign](#campaign-global)
 * [電子郵件](#email-global)
+* [應用程式內](#inapp-global)
 * [推播](#push-global)
 * [SMS](#sms-global)
 
@@ -141,6 +142,37 @@ ht-degree: 1%
 
 * **[!UICONTROL 傳遞]**:已成功傳送的訊息數，與已傳送的訊息總數相關。
 * **[!UICONTROL 跳出數]**:傳送和自動回傳處理期間累積的錯誤總數，與已傳送訊息的總數相關。
++++
+
+## 應用程式內索引標籤 {#inapp-global}
+
+>[!IMPORTANT]
+>
+>應用程式內功能目前僅供選取使用者作為測試版。 若要加入測試版計畫，請連絡 Adobe 客戶服務。
+
+從您的行銷活動 **[!UICONTROL 全域報表]**, **[!UICONTROL 應用程式內]** 索引標籤會詳細列出與促銷活動中傳送的應用程式內傳送相關的主要資訊。
+
+![](assets/campaign_report_global_6.png)
+
++++進一步了解「應用程式內」報表可用的不同量度和Widget。
+
+此 **[!UICONTROL 應用程式內效能]** KPI會詳細說明與訪客對您應用程式內訊息的參與相關的主要資訊，例如：
+
+* **[!UICONTROL 不重複曝光數]**:將應用程式內訊息傳送至的不重複使用者人數。
+
+* **[!UICONTROL 曝光數]**:傳送給所有使用者的應用程式內訊息總數。
+
+* **[!UICONTROL 點按率]**:與已看見訊息的使用者相比，與應用程式內訊息中包含的按鈕互動的使用者百分比。
+
+* **[!UICONTROL 退出率]**:收件者已關閉的應用程式內訊息百分比。
+
+此 **[!UICONTROL 應用程式內摘要]** 圖表顯示相關時段內應用程式內曝光數的演變。
+
+此 **[!UICONTROL 按按鈕點按次數]** 圖形和表格包含每個按鈕的收件者行為可用資料：
+
+* **[!UICONTROL 點按次數]**:與應用程式內訊息中包含的按鈕互動的收件者總數。
+
+* **[!UICONTROL 點按率]**:與已看見訊息的使用者相比，與應用程式內訊息中包含的按鈕互動的使用者百分比。
 +++
 
 ## 推播通知標籤 {#push-global}

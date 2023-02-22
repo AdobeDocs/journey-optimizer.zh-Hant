@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
-workflow-type: ht
-source-wordcount: '1312'
-ht-degree: 100%
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+workflow-type: tm+mt
+source-wordcount: '1314'
+ht-degree: 99%
 
 ---
 
@@ -202,10 +202,9 @@ ht-degree: 100%
       + [設定電子郵件表面設定](using/email/email-settings.md)
 + 應用程式內頻道{#in-app}
    + [開始使用應用程式內頻道](using/in-app/get-started-in-app.md)
-   + [設定應用程式內頻道](using/in-app/inapp-configuration.md)
    + [建立應用程式內訊息](using/in-app/create-in-app.md)
    + [設計您的應用程式內內容](using/in-app/design-in-app.md)
-   + [應用程式內報告](using/in-app/inapp-report.md)
+   + [設定應用程式內頻道](using/in-app/inapp-configuration.md)
 + 推播通知頻道{#push}
    + [開始使用推播通知](using/push/get-started-push.md)
    + [建立推播通知](using/push/create-push.md)
@@ -416,6 +415,7 @@ ht-degree: 100%
    + [查詢](using/data/get-started-queries.md)
    + Journey Optimizer 資料集 {#datasets}
       + [開始使用資料集](using/data/get-started-datasets.md)
+      + [匯出Journey Optimizer資料集](using/data/export-datasets.md)
       + [查詢範例](using/data/datasets-query-examples.md)
 + 設定{#configuration}
    + [開始使用 Journey Optimizer 設定](using/configuration/get-started-configuration.md)

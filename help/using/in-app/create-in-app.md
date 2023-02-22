@@ -5,18 +5,21 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: 應用程式內，消息，建立，開始
+badge: label="Beta" type="Informity"
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 4%
+source-wordcount: '653'
+ht-degree: 5%
 
 ---
 
 # 建立應用程式內訊息 {#create-in-app}
+
+>[!IMPORTANT]
+>
+>應用程式內功能目前僅供選取使用者作為測試版。 若要加入測試版計畫，請連絡 Adobe 客戶服務。
 
 ## 建立促銷活動和應用程式內訊息{#create-in-app-in-a-campaign}
 
@@ -108,12 +111,12 @@ ht-degree: 4%
 
 您的促銷活動現在已啟用。 行銷活動中設定的應用程式內通知會立即傳送，或在指定日期傳送。
 
-傳送後，您就可以在Campaign報表中測量應用程式內訊息的影響。 如需報告的詳細資訊，請參閱[本區段](inapp-report.md)。
+傳送後，您就可以在Campaign報表中測量應用程式內訊息的影響。 如需報告的詳細資訊，請參閱[本區段](../reports/campaign-global-report.md#inapp-report)。
 
 **相關主題：**
 
 * [設計應用程式內訊息](design-in-app.md)
-* [應用程式內報告](inapp-report.md)
+* [應用程式內報告](../reports/campaign-global-report.md#inapp-report)
 * [應用程式內設定](inapp-configuration.md)
 
 ## 作法影片{#video}

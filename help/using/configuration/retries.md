@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 重試，跳出，軟，優化程式，錯誤
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 1%
@@ -72,5 +72,5 @@ ht-degree: 1%
 >
 >重試期不能超過84小時。 行銷電子郵件的最低重試時間為6小時，交易式電子郵件的最低重試時間為10分鐘。
 
-了解在中建立管道表面時，如何調整電子郵件重試參數 [本節](channel-surfaces.md#create-channel-surface).
+了解在中建立管道表面時，如何調整電子郵件重試參數 [本節](../email/email-settings.md#email-retry).
 

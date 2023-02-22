@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 允許的清單，清單，安全，配置
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 2%
+source-wordcount: '1129'
+ht-degree: 6%
 
 ---
 
@@ -128,21 +128,21 @@ ht-degree: 2%
 
    ![](assets/allowed-list-add-email.png)
 
-1. 選擇地址類型： **[!UICONTROL 電子郵件地址]** 或 **[!UICONTROL 網域位址]**.
+1. 選擇地址類型：**[!UICONTROL 電子郵件地址]**&#x200B;或&#x200B;**[!UICONTROL 網域地址]**。
 
 1. 輸入要向其發送電子郵件的電子郵件地址或域。
 
    >[!NOTE]
    >
-   >請務必輸入有效的電子郵件地址(如abc@company.com)或網域（如abc.company.com）。
+   >確定輸入有效的電子郵件地址 (例如 abc@company.com) 或網域 (例如 abc.company.com)。
 
-1. 視需要指定原因。
+1. 如果需要，請指定原因。
 
    ![](assets/allowed-list-add-email-address.png)
 
    >[!NOTE]
    >
-   >在 **[!UICONTROL 原因]** 欄位。 您可以在 [本頁](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} 例如，
+   >在 **[!UICONTROL 原因]** 欄位。 例如，完整清單可在[此頁面](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}中找到。
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**。
 
@@ -155,6 +155,34 @@ ht-degree: 2%
 您可以執行 **新增**, **刪除** 和 **取得** 操作。
 
 進一步了解在 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} 參考檔案。
+
+## 下載允許的清單 {#download-allowed-list}
+
+若要將允許的清單匯出為CSV檔案，請遵循下列步驟：
+
+1. 選取 **[!UICONTROL 下載CSV]** 按鈕。
+
+   ![](assets/allowed-list-download-csv.png)
+
+1. 等待檔案產生。
+
+   ![](assets/allowed-list-download-generate.png)
+
+   >[!NOTE]
+   >
+   >下載時間取決於檔案大小，即允許清單上的地址數。
+   >
+   >給定沙箱一次可處理一個下載請求。
+
+1. 產生檔案後，您會收到通知。 按一下畫面右上方的鈴聲圖示以顯示。
+
+1. 按一下通知本身即可下載檔案。
+
+   ![](assets/allowed-list-download-notification.png)
+
+   >[!NOTE]
+   >
+   >該連結有效期為24小時。
 
 ## 允許的清單邏輯 {#logic}
 

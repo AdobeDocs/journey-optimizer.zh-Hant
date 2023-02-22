@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，程式庫，個人化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 8%
@@ -70,7 +70,7 @@ ht-degree: 8%
 
 若要編輯現有運算式，請將其新增至編輯器，然後根據您的需求加以修改。 按一下 **[!UICONTROL 新增至程式庫]** 驗證語法並儲存運算式。
 
-要刪除表達式，請按一下橢圓按鈕，然後按一下 **[!UICONTROL 刪除]**.
+若要刪除運算式，請按一下省略號按鈕，然後按一下 **[!UICONTROL 刪除]**.
 
 ## 作法影片{#video}
 

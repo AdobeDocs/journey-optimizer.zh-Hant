@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 15%
@@ -31,13 +31,13 @@ ht-degree: 15%
 
 此 **[!UICONTROL 設定檔計數]** 欄提供對象中包含之設定檔數目的資訊。 按一下「i」按鈕，以取得計算此資訊之日期的詳細資訊。
 
-若要將自訂或核心資料使用量標籤指派給對象，請按一下橢圓按鈕，然後選取 **[!UICONTROL 管理存取]**. [進一步了解對象級訪問控制(OLA)](../administration/object-based-access.md)
+若要將自訂或核心資料使用量標籤指派給對象，請按一下省略號按鈕，然後選取 **[!UICONTROL 管理存取]**. [進一步了解對象級訪問控制(OLA)](../administration/object-based-access.md)
 
 <!--
 -edit an audience?
 -->
 
-了解更多:
+更多詳情:
 
 * [開始使用對象組合](get-started-audience-orchestration.md)
 * [建立組合工作流程](create-compositions.md)

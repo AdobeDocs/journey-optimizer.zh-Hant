@@ -5,24 +5,25 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: 應用程式內，消息，建立，開始
+badge: label="Beta" type="Informity"
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 15%
+source-wordcount: '197'
+ht-degree: 16%
 
 ---
 
 # 開始使用應用程式內頻道 {#gs-in-app}
 
-應用程式內訊息是您可傳送給應用程式內使用者的通知，以將他們導向特定的地標。 應用程式內通知可用來建議服務、推廣新功能、特殊優惠方案，或讓新使用者上線。
+>[!IMPORTANT]
+>
+>應用程式內功能目前僅供選取使用者作為測試版。 若要加入測試版計畫，請連絡 Adobe 客戶服務。
+
+應用程式內訊息是可傳送給應用程式內使用者的通知，可引導他們前往特定地標。 這些通知可用於不同的用途，例如推廣新功能、呈現特殊優惠方案或協助使用者上線。 運用應用程式內訊息，您可以有效地與對象互動，並引導他們進入應用程式的重要環節。
 
 使用Journey Optimizer建立應用程式內通知，並設定體驗選項，包括訊息配置和顯示、文字及按鈕選項。
-
-![](assets/new-in-app.png)
 
 ## 先決條件{#prerequisites-in-app}
 
@@ -52,11 +53,11 @@ ht-degree: 15%
 </div>
 <p></td>
 <td>
-<a href="inapp-report.md">
+<a href="../reports/campaign-global-report.md#inapp-global">
 <img alt="驗證" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="inapp-report.md"><strong>應用程式內報告</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>應用程式內報告</strong></a>
 </div>
 <p>
 </td>

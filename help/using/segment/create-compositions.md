@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 5%
@@ -75,9 +75,9 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->您可以隨時使用清單中的橢圓按鈕複製或刪除現有合成。
+>您可以隨時使用清單中的刪節號按鈕複製或刪除現有的合成內容。
 
-了解更多:
+更多詳情:
 
 * [開始使用對象組合](get-started-audience-orchestration.md)
 * [使用組合畫布](composition-canvas.md)

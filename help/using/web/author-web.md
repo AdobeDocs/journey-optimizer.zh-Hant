@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 4%
@@ -29,8 +29,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="輸入要編輯的URL"
->abstract="輸入要用於編輯要應用於上面定義的Web曲面的內容的特定Web頁的URL。 網頁必須使用Adobe Experience Platform Web SDK實作。"
+>title="確認要編輯的URL"
+>abstract="確認特定網頁的URL，以用於編輯將套用至上述定義之Web表面的內容。 網頁必須使用Adobe Experience Platform Web SDK實作。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="更多詳情"
 
 >[!CONTEXTUALHELP]

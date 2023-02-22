@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 管理促銷活動，狀態，排程，存取， optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 2%
@@ -90,7 +90,7 @@ ht-degree: 2%
 
 隨著時間推移，促銷活動清單會持續增長，最終會讓瀏覽已完成和已停止的促銷活動變得更困難。
 
-為避免此情況，您可以封存已完成和已停止您不再需要的促銷活動。 要執行此操作，請按一下橢圓按鈕，然後選取 **[!UICONTROL 封存]**.
+為避免此情況，您可以封存已完成和已停止您不再需要的促銷活動。 要執行此操作，請按一下省略號按鈕，然後選擇 **[!UICONTROL 封存]**.
 
 ![](assets/create-campaign-archive.png)
 
