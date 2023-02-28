@@ -8,7 +8,7 @@ level: Beginner
 keywords: 應用程式內，消息，建立，開始
 badge: label="Beta" type="Informity"
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # 建立應用程式內訊息 {#create-in-app}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >應用程式內功能目前僅供選取使用者作為測試版。 若要加入測試版計畫，請連絡 Adobe 客戶服務。
 

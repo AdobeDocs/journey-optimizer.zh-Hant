@@ -6,7 +6,7 @@ level: Intermediate
 keywords: 應用程式內，訊息，設定，平台
 badge: label="Beta" type="Informity"
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 13%
@@ -15,7 +15,7 @@ ht-degree: 13%
 
 # 設定應用程式內頻道 {#inapp-configuration}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >應用程式內功能目前僅供選取使用者作為測試版。 若要加入測試版計畫，請連絡 Adobe 客戶服務。
 
@@ -25,7 +25,7 @@ ht-degree: 13%
 
 1. 選取 [!DNL Adobe Experience Platform] 服務。
 
-   [!DNL Edge Segmentation], [!DNL Offer Decisioning] 和 [!DNL Adobe Journey Optimizer] 中指定的URL。
+   [!DNL Edge Segmentation] 和 [!DNL Adobe Journey Optimizer] 中指定的URL。
 
    ![](assets/inapp_config_6.png)
 
