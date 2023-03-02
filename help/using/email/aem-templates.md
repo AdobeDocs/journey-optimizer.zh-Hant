@@ -10,7 +10,7 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="Informity"
-source-git-commit: c909e366ba5e911f685656140caf53cc122552ee
+source-git-commit: a162f70dceb3bef635085840fc304e0da2c33eed
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 1%
@@ -89,7 +89,7 @@ ht-degree: 1%
 
    ![](assets/aem_ajo_2.png)
 
-1. 在「模板屬性」窗口中，按一下 **[!UICONTROL 管理存取]** 按鈕，將自訂或核心資料使用量標籤指派給範本。 [進一步了解物件層級存取控制(OLAC)](../administration/object-based-access.md)
+1. 在 **[!UICONTROL 範本屬性]** ，按一下 **[!UICONTROL 管理存取]** 按鈕，將自訂或核心資料使用量標籤指派給範本。 [進一步了解物件層級存取控制(OLAC)](../administration/object-based-access.md)
 
 1. 若要進一步個人化您的AEM範本，並將自訂個人化新增至您的內容，請按一下 **[!UICONTROL 編輯內容]**. 這可讓您輕鬆進行變更，並根據您的特定需求量身打造範本。 [了解更多](get-started-email-design.md)
 
