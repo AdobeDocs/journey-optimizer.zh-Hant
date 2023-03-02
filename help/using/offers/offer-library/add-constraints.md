@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: ccaad8c4d9d26c0fd968e627e7a6bf853f232000
+source-git-commit: 2e22b44b2139ab37c5b62573c9bdeaa0fbfc8b12
 workflow-type: tm+mt
-source-wordcount: '1735'
+source-wordcount: '1727'
 ht-degree: 2%
 
 ---
@@ -144,10 +144,10 @@ ht-degree: 2%
 >title="設定限定頻率"
 >abstract="您可以選擇每天、每週或每月重設優惠方案限定計數器。"
 
-[!CONTEXTUALHELP]
->id=&quot;ajo_decisioning_frequency_capping_impression&quot;
->title=&quot;Impression&quot;
->abstract=&quot;僅傳入頻道才可使用曝光數作為上限事件。&quot;
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping_impression"
+>title="曝光"
+>abstract="僅傳入頻道才可使用曝光數作為上限事件。"
 
 上限設定是用來定義可呈現選件的最大次數的限制。
 
