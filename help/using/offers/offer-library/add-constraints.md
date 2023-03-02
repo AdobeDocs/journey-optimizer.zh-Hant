@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: ccaad8c4d9d26c0fd968e627e7a6bf853f232000
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1735'
 ht-degree: 2%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 2%
 
    >[!CAUTION]
    >
-   >目前不支援以事件為基礎的選件 [!DNL Journey Optimizer]. 如果您根據 [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}，您將無法在選件中運用它。
+   >目前不支援以事件為基礎的選件 [!DNL Journey Optimizer]. 如果您根據 [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}，您將無法在優惠方案中運用它。
 
 選取區段或決策規則時，您可以看到預估合格設定檔的相關資訊。 按一下 **[!UICONTROL 重新整理]** 更新資料。
 
@@ -143,6 +143,11 @@ ht-degree: 2%
 >id="ajo_decisioning_frequency_capping"
 >title="設定限定頻率"
 >abstract="您可以選擇每天、每週或每月重設優惠方案限定計數器。"
+
+[!CONTEXTUALHELP]
+>id=&quot;ajo_decisioning_frequency_capping_impression&quot;
+>title=&quot;Impression&quot;
+>abstract=&quot;僅傳入頻道才可使用曝光數作為上限事件。&quot;
 
 上限設定是用來定義可呈現選件的最大次數的限制。
 
