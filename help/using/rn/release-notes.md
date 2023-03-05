@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
 workflow-type: tm+mt
 source-wordcount: '919'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 60%
 
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
-## 2023年2月發行說明 {#feb-2023}
+## 2023 年 2 月發行說明 {#feb-2023}
 
 ### 新功能{#feb-2023-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>應用程式內頻道（測試版）</strong><br/></th>
+<th><strong>應用程式內頻道 (測試版)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在行銷活動中，將個人化的應用程式內訊息傳送給您的應用程式使用者。 使用Journey Optimizer來設計通知並自訂訊息版面、顯示、文字和按鈕，以建立順暢的體驗。</p>
-<p><strong>注意</strong>  — 此功能目前為測試版，僅供測試版客戶使用。 若要加入測試版計畫，請連絡 Adobe 客戶服務。</p>
+<p>您現在可以在行銷活動中將個人化的應用程式內訊息傳送給您的應用程式使用者。使用 Journey Optimizer 來設計通知並自訂訊息版面、顯示、文字及按鈕，以建立順暢的體驗。</p>
+<p><strong>注意</strong> - 此功能目前為測試版，僅供測試版客戶使用。 若要加入測試版計畫，請連絡 Adobe 客戶服務。</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>如需詳細資訊，請參閱<a href="../in-app/get-started-in-app.md">詳細文件</a>。</p>
 </td>
@@ -46,14 +46,14 @@ ht-degree: 60%
 <table>
 <thead>
 <tr>
-<th><strong>將Journey Optimizer資料集匯出至雲端儲存目的地（測試版）</strong><br/></th>
+<th><strong>將 Journey Optimizer 資料集匯出至雲端儲存空間目的地 (測試版)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以與雲端儲存空間位置建立即時連線，以匯出資料集的內容。 可用目的地包括：Amazon S3雲端儲存空間， Azure Blob, Azure Data Lake Gen 2，資料登陸區，Google雲端儲存空間，SFTP。</p>
-<p><strong>注意</strong>  — 此功能目前為測試版，所有Adobe Journey Optimizer使用者都能使用。 如果您尚未擁有存取權，請與Adobe代表合作，取得目的地的存取權。</p>
+<p>您現在可以與雲端儲存空間位置建立即時連線，以匯出資料集的內容。 可用目的地包括：Amazon S3 雲端儲存空間、 Azure Blob、Azure Data Lake Gen 2、資料登陸區、Google 雲端儲存空間、SFTP。</p>
+<p><strong>注意</strong> - 此功能目前為測試版，所有 Adobe Journey Optimizer 使用者都能使用。 如果您尚未擁有存取權，請與 Adobe 代表合作，取得目的地的存取權。</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
 <p>如需詳細資訊，請參閱<a href="../data/export-datasets.md">詳細文件</a>。</p>
 </td>
@@ -117,9 +117,9 @@ Note that each widget can be resized and deleted as needed.
 
 **歷程**
 
-* 此 **重新進入等待期** 欄位已新增至歷程屬性。 此欄位可讓您定義等待時間，再允許設定檔在單一歷程中再次進入歷程（從事件或區段資格開始）。 這可防止同一事件的歷程錯誤觸發多次。 依預設，欄位會設為5分鐘。 [了解更多](../building-journeys/journey-gs.md#entrance)
+* 此&#x200B;**重新進入等待期**&#x200B;欄位已新增至歷程屬性。 此欄位可讓您定義在允許設定檔在單一歷程中再次進入歷程 (從事件或區段資格開始) 之前等待的時間。這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 [了解更多](../building-journeys/journey-gs.md#entrance)
 
-* 已對 **歷程開始和結束日期**. 如果您尚未指定開始日期，則現在會在發佈時自動新增開始日期。 針對 **讀取區段** 歷程，您現在可以新增結束日期。 這可讓設定檔在達到日期時自動退出。 [進一步了解](../building-journeys/journey-gs.md#dates)
+* 改進了&#x200B;**歷程開始與結束日期**。如果您尚未指定開始日期，則現在會在發佈時自動新增開始日期。針對&#x200B;**讀取區段**&#x200B;歷程，您現在可以新增結束日期。 這可讓設定檔在達到日期時自動退出。 [進一步了解](../building-journeys/journey-gs.md#dates)
 
 <!--
 
@@ -137,11 +137,11 @@ Note that each widget can be resized and deleted as needed.
 
 **管理**
 
-* **允許的清單**  — 您現在可以將允許的清單下載為.csv檔案。 [了解更多](../configuration/allow-list.md#download-allowed-list)
+* **允許清單** - 您現在可以將允許清單下載為 .csv 檔案。 [了解更多](../configuration/allow-list.md#download-allowed-list)
 
-* **電子郵件介面**  — 電子郵件表面設定已新增額外檢查：如果 **回覆（電子郵件）地址** 或 **密件副本電子郵件地址** 未正確設定，則無法再建立電子郵件表面。 您必須已設定或使用其他設定。 [了解更多](../email/email-settings.md#reply-to-email)
+* **電子郵件介面** - 電子郵件介面設定已新增額外檢查：如果&#x200B;**回覆 (電子郵件) 地址**&#x200B;或 **密件副本電子郵件地址**&#x200B;未正確設定，則無法再建立電子郵件介面。您必須已設定或使用其他設定。 [了解更多](../email/email-settings.md#reply-to-email)
 
-* **電子郵件介面**  — 在 **URL追蹤參數** 電子郵件表面設定的區段，每個 **值** 欄位已從255個字元更新為5 KB，以與Adobe Analytics追蹤相容。 [進一步了解](../email/email-settings.md#url-tracking)
+* **電子郵件介面** - 在 **URL 追蹤參數**&#x200B;電子郵件介面設定的區段，每個&#x200B;**值**&#x200B;欄位已從 255 個字元更新為 5 KB，以與 Adobe Analytics 追蹤相容。 [進一步了解](../email/email-settings.md#url-tracking)
 
 **決定管理**
 
@@ -149,7 +149,7 @@ Note that each widget can be resized and deleted as needed.
 * **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
 -->
 
-* **URL個人化**  — 將URL新增為選件表示法的內容時，您現在可以使用運算式編輯器來個人化這些URL。 [了解更多](../offers/offer-library/add-representations.md)
+* **URL 個人化** - 將 URL 新增為優惠方案表示法的內容時，您現在可以使用運算式編輯器對這些 URL 進行個人化設定。[了解更多](../offers/offer-library/add-representations.md)
 
 <!--
 * **Capping** - You can now reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)
