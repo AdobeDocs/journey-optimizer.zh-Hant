@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 97%
 * 僅支援 POST 和 PUT 呼叫方法
 * 查詢參數或標題的名稱不得以「.」開頭 或 &quot;$&quot;
 * 不允許使用 IP 位址
-* 內部Adobe地址(`.adobe.*`)在URL和API中皆不允許。
+* 內部 Adobe 地址 (`.adobe.*`) 不允許在 URL 及 API 中使用。
 
 ### 活動 {#events-g}
 
@@ -77,7 +77,7 @@ ht-degree: 97%
 ### 資料來源 {#data-sources-g}
 
 * 可在客戶歷程中利用外部資料來源即時查詢外部資料。 這些來源必須可透過 REST API 使用、支援 JSON 並且能夠處理大量請求。
-* 內部Adobe地址(`.adobe.*`)在URL和API中皆不允許。
+* 內部 Adobe 地址 (`.adobe.*`) 不允許在 URL 及 API 中使用。
 
 ### 歷程與設定檔建立 {#journeys-limitation-profile-creation}
 
