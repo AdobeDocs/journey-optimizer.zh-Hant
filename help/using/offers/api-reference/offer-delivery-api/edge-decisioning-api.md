@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
+source-git-commit: 7347bb56eb2785b2d9f3f641cbe3b7c1ae2d078f
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 2%
+source-wordcount: '1013'
+ht-degree: 3%
 
 ---
 
@@ -62,7 +62,7 @@ SDK並未結合這些程式庫，而是從頭開始的新實作。 若要使用�
 
 對於編碼體驗可能較少的人，此選項較方便使用。
 
-1. [建立標籤屬性](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=en)
+1. [建立標籤屬性](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=zh-Hant)
 
 1. [新增內嵌程式碼](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
 
@@ -253,6 +253,6 @@ document.getElementById("offerDescription").innerHTML = offerDescription;
 document.getElementById('offerImage').src = offerImageURL;
 ```
 
-## 限制
+<!--## Limitations
 
-行動體驗邊緣工作流程目前不支援某些選件限制，例如限定上限。 「限定」欄位值會指定可向所有使用者呈現選件的次數。 如需詳細資訊，請參閱 [新增限制至選件](../../offer-library/add-constraints.md#capping).
+Some offer constraints are currently not supported with the mobile Experience Edge workflows, for example Capping. The Capping field value specifies the number of times an offer can be presented across all users. For more details, see [Add constraints to an offer](../../offer-library/add-constraints.md#capping).-->
