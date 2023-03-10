@@ -10,9 +10,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="Informity"
-source-git-commit: a162f70dceb3bef635085840fc304e0da2c33eed
+source-git-commit: 84278edbfa479d9c7588594c0b389a442aa3fe7c
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
@@ -40,12 +40,11 @@ ht-degree: 1%
 
    若要在Adobe Journey Optimizer中建立、編輯和刪除內容範本，您必須具備 **[!DNL Manage Library Items]** 包含在 **[!DNL Content Library Manager]** 產品設定檔。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
 
-
 ## 護欄和限制{#aem-templates-limitations}
 
 若要進一步最佳化您搭配Adobe Journey Optimizer使用Adobe Experience Manager的方式，請務必注意下列額外護欄和限制：
 
-* Experience Manager範本不得包含個人化。 個人化僅應在Journey Optimizer中執行。
+* 若要讓Experience Manager範本中的個人化有效，需要適當的Journey Optimizer語法。 [了解更多](../personalization/personalization-syntax.md)
 
 * 目前不支援大量範本匯出，必須個別匯出範本。
 
@@ -59,13 +58,13 @@ ht-degree: 1%
 
    ![](assets/aem-outbound-menu.png)
 
-1. 存取您的內容庫，並選取您要匯出至Journey Optimizer的範本。
+1. 您可以從內容庫中使用先前設定的範本，或從頭建立範本。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page)
 
-   您也可以從草稿開始建立新頁面。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page)
+1. 將Journey Optimizer個人化語法整合至範本中，即可增強其自訂功能。 [了解更多](../personalization/personalization-syntax.md)
 
-   ![](assets/aem-send-template.png)
+   ![](assets/aem_ajo_4.png)
 
-1. 選取範本後，請選取 **[!UICONTROL 傳送至]** 的上界。
+1. 選取您要匯出至Journey Optimizer的範本，然後按一下 **[!UICONTROL 傳送至]** 的上界。
 
    ![](assets/aem-advanced-menu.png)
 
@@ -91,7 +90,7 @@ ht-degree: 1%
 
 1. 在 **[!UICONTROL 範本屬性]** ，按一下 **[!UICONTROL 管理存取]** 按鈕，將自訂或核心資料使用量標籤指派給範本。 [進一步了解物件層級存取控制(OLAC)](../administration/object-based-access.md)
 
-1. 若要進一步個人化您的AEM範本，並將自訂個人化新增至您的內容，請按一下 **[!UICONTROL 編輯內容]**. 這可讓您輕鬆進行變更，並根據您的特定需求量身打造範本。 [了解更多](get-started-email-design.md)
+1. 若要進一步個人化您的Experience Manager範本，並將自訂個人化新增至您的內容，請按一下 **[!UICONTROL 編輯內容]**. 這可讓您輕鬆進行變更，並根據您的特定需求量身打造範本。 [了解更多](get-started-email-design.md)
 
    >[!NOTE]
    >
@@ -101,8 +100,22 @@ ht-degree: 1%
 
 1. 定義內容後，您就可以瀏覽 **[!UICONTROL 已儲存的範本]** 集合。 然後，選取 **[!UICONTROL 使用此模板]**.
 
-   了解如何在 [本節](content-from-scratch.md).
-
    ![](assets/aem_ajo_3.png)
+
+1. 您現在可以編輯並個人化您的內容。 如需如何建立電子郵件內容的詳細資訊，請參閱 [頁面](content-from-scratch.md).
+
+   ![](assets/aem_ajo_5.png)
+
+1. 如果您將個人化內容新增至Experience Manager範本，請按一下 **[!UICONTROL 模擬內容]** 使用測試設定檔預覽訊息中的顯示方式。
+
+[進一步了解預覽和測試設定檔](../email/preview.md)
+
+   ![](assets/aem_ajo_6.png)
+
+1. 檢視訊息預覽時，任何個人化元素會自動取代為所選測試設定檔中的對應資料。
+
+   如有需要，可透過 **[!UICONTROL 管理測試設定檔]** 按鈕。
+
+   ![](assets/aem_ajo_7.png)
 
 當您的電子郵件準備就緒時，請完成 [歷程](../building-journeys/journey-gs.md) 或 [行銷活動](../campaigns/create-campaign.md)，然後啟用它以傳送訊息。
