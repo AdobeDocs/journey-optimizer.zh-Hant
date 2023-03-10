@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 1bb5fbdc08f8650132e191e659b03caadae8edf4
+source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2290'
 ht-degree: 2%
 
 ---
@@ -164,7 +164,9 @@ ht-degree: 2%
 
 1. 定義 **[!UICONTROL 限定事件]** 會考慮增加計數器。 [了解更多](#capping-event)
 
-1. 定義可呈現選件的次數。 [了解更多](#capping-type)
+1. 設定可呈現選件的次數。 [了解更多](#capping-count)
+
+1. 選擇是將限定套用至所有使用者，還是只套用一個設定檔。 [了解更多](#capping-type)
 
 1. 設定 **[!UICONTROL 頻率]** 定義上限計數重設的頻率。 [了解更多](#frequency-capping)
 
@@ -184,6 +186,8 @@ ht-degree: 2%
 
 此 **[!UICONTROL 限定事件]** 欄位可讓您定義 **[!UICONTROL 限定事件]** 會納入以增加計數器：
 
+![](../assets/offer-capping-event.png)
+
 * **[!UICONTROL 決策事件]** （預設值）:可呈現優惠方案的次數上限。
 * **[!UICONTROL 曝光]**:可向使用者顯示選件的次數上限。
 
@@ -192,21 +196,25 @@ ht-degree: 2%
    >可使用曝光數作為上限事件，適用於 **傳入頻道** 只有。
 
 * **[!UICONTROL 點按次數]**:使用者可點按選件的次數上限。
-* **[!UICONTROL 自訂事件]**:您可以定義自訂事件，用來限制傳送的選件數量。 例如，您可以在指定的設定檔贖回1次之前，限制贖回次數。 若要這麼做，請使用 [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"} 建立自訂事件規則的結構。
+* **[!UICONTROL 自訂事件]**:您可以定義自訂事件，用來限制傳送的選件數量。 例如，您可以在贖回次數等於10000或指定設定檔贖回1次之前，對贖回次數加上上限。 若要這麼做，請使用 [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"} 建立自訂事件規則的結構。
 
-   ![](../assets/offer-capping-event.png)
+   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. In the example below, you can cap on the number of subscriptions.-->
+   在下列範例中，您要限制訂閱的數量。 選擇 **[!UICONTROL 自訂事件]** ，並使用 **[!UICONTROL 建立自訂事件規則]** 建立器來選取相關事件。
 
-   <!--![](../assets/offer-capping-custom-event.png)-->
+   ![](../assets/offer-capping-custom-event.png)
+
+   規則建立後，就會顯示在 **[!UICONTROL 自訂事件查詢]** 欄位。
+
+   ![](../assets/offer-capping-custom-event-query.png)
 
    >[!CAUTION]
    >
    >對於除決策事件以外的所有限定事件，可能不會自動收集決策管理意見，因此請確定資料傳入。 [進一步了解資料收集](../data-collection/data-collection.md)
 
-### 封閉類型 {#capping-type}
+### 上限計數 {#capping-count}
 
-此 **[!UICONTROL 封閉類型]** 欄位可讓您指定可呈現選件的次數。
+此 **[!UICONTROL 上限計數]** 欄位可讓您指定可呈現選件的次數。
 
 ![](../assets/offer-capping-times.png)
 
@@ -214,9 +222,9 @@ ht-degree: 2%
 >
 >數字必須是大於0的整數。
 
-<!--For example, if you defined a custom capping event such as subsciptions are taken into account, if you enter 10 in the **[!UICONTROL Capping count]** field, no more offers will be sent after 10 subscriptions.-->
+例如，如果您定義了自訂上限事件（例如子項），則系統會考量這些事件，如果您在 **[!UICONTROL 上限計數]** 欄位，則10個訂閱後將不再傳送任何選件。
 
-<!--![](../assets/offer-capping-custom-example.png)-->
+### 封閉類型 {#capping-type}
 
 您也可以指定是否要將限定套用至所有使用者或某個特定設定檔：
 

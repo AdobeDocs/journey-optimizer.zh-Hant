@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
 workflow-type: tm+mt
-source-wordcount: '2366'
-ht-degree: 98%
+source-wordcount: '2367'
+ht-degree: 97%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 98%
 
 ## 2023 年 3 月 {#march-2023}
 
-* 「決策管理指南」中已建立新區段，說明如何在Adobe Experience Platform中收集offer decisioning意見，包括顯示哪些優惠方案以及使用者如何與其互動。  [閱讀全文](../offers/data-collection/data-collection.md)
+* 「決策管理指南」中已建立新區段，說明如何在Adobe Experience Platform中收集offer decisioning意見，包括顯示哪些優惠方案以及使用者如何與其互動。 [閱讀全文](../offers/data-collection/data-collection.md)
 
 ## 2023 年 2 月 {#feb-2023}
 
 * API 觸發的行銷活動檔案中已新增附註，以指定傳入請求的內容屬性不得超過 50kb。[閱讀全文](../campaigns/api-triggered-campaigns.md#contextual)
 
-* 已新增有關在收件人透過登陸頁面取消訂閱後如何將選擇退出資訊儲存在&#x200B;**同意服務資料集**&#x200B;的資訊。[閱讀全文](../landing-pages/lp-use-cases.md#configure-opt-out)
+* 已新增選擇退出資訊如何儲存在 **同意服務資料集** 透過登錄頁面取消訂閱後。 [閱讀全文](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023 年 1 月 {#jan-2023}
 
