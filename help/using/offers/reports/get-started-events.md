@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 56%
@@ -15,11 +15,11 @@ ht-degree: 56%
 
 # 開始使用決定管理事件 {#monitor-offer-events}
 
-每次Decision Management針對指定的設定檔進行決策時，與這些事件相關的資訊都會自動傳送至Adobe Experience Platform。
+每次決策管理人員針對指定的設定檔進行決策時，與這些事件相關的資訊都會自動傳送至Adobe Experience Platform。
 
 這可讓您匯出這些資料，以便將其分析至您自己的報吿系統。 您也可以善用 Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)與其他工具，以達到增強分析和報告的目的。
 
-包含Decision Management事件的資料集可從Adobe Experience Platform存取 **[!UICONTROL 資料集]** 功能表。 每個執行個體佈建時會自動建立一個資料集。
+包含Decision management事件的資料集可從Adobe Experience Platform存取 **[!UICONTROL 資料集]** 功能表。 每個執行個體佈建時會自動建立一個資料集。
 
 ![](../assets/events-datasets-list.png)
 

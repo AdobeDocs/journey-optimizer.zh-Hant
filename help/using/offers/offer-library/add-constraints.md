@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 2e22b44b2139ab37c5b62573c9bdeaa0fbfc8b12
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '2197'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 2%
 
 * 只有符合「金級忠誠客戶」決策規則的使用者才會考慮此優惠方案。
 * 優先順序設為「50」，這表示優惠方案會在優先順序介於1到49之間的優惠方案之前，以及優先順序至少為51的優惠方案之後呈現。
-* 優惠方案只會針對所有版位的每位使用者呈現一次。
+* 優惠方案只會在所有版位中，每個使用者每月呈現一次。
 
 ## 資格 {#eligibility}
 
@@ -138,63 +138,37 @@ ht-degree: 2%
 >id="ajo_decisioning_capping"
 >title="使用上限設定"
 >abstract="為避免過度吸引客戶，請使用上限來定義可呈現選件的次數上限。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="變更日期可能會影響限定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="設定限定頻率"
->abstract="您可以選擇每天、每週或每月重設優惠方案限定計數器。"
+>abstract="您可以選擇每天、每週或每月重設優惠方案限定計數器。 請注意，儲存優惠方案後，您將無法變更選取的頻率。"
 
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping_impression"
->title="曝光"
->abstract="僅傳入頻道才可使用曝光數作為上限事件。"
+[!CONTEXTUALHELP]
+>id=&quot;ajo_decisioning_frequency_capping_impression&quot;
+>title=&quot;Impression&quot;
+>abstract=&quot;僅傳入頻道才可使用曝光數作為上限事件。&quot;
 
 上限設定是用來定義可呈現選件的最大次數的限制。
 
 限制使用者取得特定優惠方案的次數，可讓您避免過度吸引客戶，進而以最佳優惠方案最佳化每個接觸點。
 
-要設定上限，請執行以下步驟。
+要設定封閉，請執行以下步驟。
 
-1. 定義可呈現選件的次數。
+1. 請確定 **[!UICONTROL 包括上限]** 切換按鈕。 預設會包含上限設定。
 
-   ![](../assets/offer-capping-times.png)
-
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >數字必須是大於0的整數。
+   >無法為先前建立的選件啟用或停用頻率限定。 若要這麼做，您需要複製選件或建立新選件。
 
-1. 指定您要將限定套用至所有使用者或特定設定檔：
+1. 定義 **[!UICONTROL 限定事件]** 會考慮增加計數器。 [了解更多](#capping-event)
 
-   ![](../assets/offer-capping-total.png)
+1. 定義可呈現選件的次數。 [了解更多](#capping-type)
 
-   * 選擇 **[!UICONTROL 總計]** 定義可在合併的目標對象中建議某個優惠方案的次數，亦即在所有使用者中。
+1. 設定 **[!UICONTROL 頻率]** 定義上限計數重設的頻率。 [了解更多](#frequency-capping)
 
-      例如，如果您是電子產品零售商，且有「電視門衛交易」，則您希望在所有設定檔中僅傳回選件200次。
-
-   * 選擇 **[!UICONTROL 每個設定檔]** 定義可向相同使用者建議某個優惠方案的次數。
-
-      例如，如果您是擁有「白金信用卡」優惠的銀行，您不希望此優惠在每個設定檔中顯示超過5次。 事實上，您認為如果使用者看過選件5次而未對其採取行動，他們就更有機會對下一個最佳選件採取行動。
-   <!--
-    Set the **[!UICONTROL Frequency]** to define how often the capping count is reset. To do so, define the time period for the counting (daily, weekly or monthly) and enter the number of days/weeks/months of your choice.
-    ![](../assets/offer-capping-frequency.png)
-    >[!NOTE]
-    >
-    >The reset happens at 12am UTC, on the day that you defined or on the first day of the week/month when applicable. The week start day is Sunday.
-    
-    For example, if you want the capping count to be reset every 2 weeks, select **[!UICONTROL Weekly]** from the **[!UICONTROL Repeat]** drop-down list and type **2** in the other field. The reset will happen every other Sunday at 12pm UTC.
-    -->
-
-1. 如果您已定義數個 [表示](add-representations.md) 指定您是否要套用上限 **[!UICONTROL 所有版位]** 或 **[!UICONTROL 對於每個版位]**.
-
-   ![](../assets/offer-capping-placement.png)
-
-   * **[!UICONTROL 所有版位]**:上限計數將總計與優惠方案相關聯之所有版位上的所有決策。
-
-      例如，如果選件具有 **電子郵件** 版位和 **Web** 放置，並且在 **所有版位中每個設定檔2個**，則無論版位組合為何，每個設定檔總共可接收優惠方案最多2次。
-
-   * **[!UICONTROL 對於每個版位]**:上限計數將分別套用每個版位的決策計數。
-
-      例如，如果選件具有 **電子郵件** 版位和 **Web** 放置，並且在 **每個版位每個設定檔2個**，則每個設定檔最多可接收電子郵件版位的2次優惠，而網路版位則可接收2次優惠。
+1. 如果您已定義數個 [表示](add-representations.md) 指定您是否要套用上限 **[!UICONTROL 所有版位]** 或 **[!UICONTROL 對於每個版位]**. [了解更多](#placements)
 
 1. 儲存並核准後，如果根據條件和您定義的時間範圍，向選件呈現您在此欄位中指定的次數，則其傳送將停止。
 
@@ -205,6 +179,86 @@ ht-degree: 2%
 >[!NOTE]
 >
 >優惠方案過期或優惠方案開始日期後2年（以先發生者為準）時，設定上限計數器會重設。 了解如何在 [本節](creating-personalized-offers.md#create-offer).
+
+### 限定事件 {#capping-event}
+
+此 **[!UICONTROL 限定事件]** 欄位可讓您定義 **[!UICONTROL 限定事件]** 會納入以增加計數器：
+
+* **[!UICONTROL 決策事件]** （預設值）:可呈現優惠方案的次數上限。
+* **[!UICONTROL 曝光]**:可向使用者顯示選件的次數上限。
+
+   >[!NOTE]
+   >
+   >可使用曝光數作為上限事件，適用於 **傳入頻道** 只有。
+
+* **[!UICONTROL 點按次數]**:使用者可點按選件的次數上限。
+* **[!UICONTROL 自訂事件]**:您可以定義自訂事件，用來限制傳送的選件數量。 例如，您可以在指定的設定檔贖回1次之前，限制贖回次數。 若要這麼做，請使用 [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"} 建立自訂事件規則的結構。
+
+   ![](../assets/offer-capping-event.png)
+
+   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. In the example below, you can cap on the number of subscriptions.-->
+
+   <!--![](../assets/offer-capping-custom-event.png)-->
+
+   >[!CAUTION]
+   >
+   >對於除決策事件以外的所有限定事件，可能不會自動收集決策管理意見，因此請確定資料傳入。 [進一步了解資料收集](../data-collection/data-collection.md)
+
+### 封閉類型 {#capping-type}
+
+此 **[!UICONTROL 封閉類型]** 欄位可讓您指定可呈現選件的次數。
+
+![](../assets/offer-capping-times.png)
+
+>[!NOTE]
+>
+>數字必須是大於0的整數。
+
+<!--For example, if you defined a custom capping event such as subsciptions are taken into account, if you enter 10 in the **[!UICONTROL Capping count]** field, no more offers will be sent after 10 subscriptions.-->
+
+<!--![](../assets/offer-capping-custom-example.png)-->
+
+您也可以指定是否要將限定套用至所有使用者或某個特定設定檔：
+
+![](../assets/offer-capping-total.png)
+
+* 選擇 **[!UICONTROL 總計]** 定義可在合併的目標對象中建議某個優惠方案的次數，亦即在所有使用者中。
+
+   例如，如果您是電子產品零售商，且有「電視門衛交易」，則您希望在所有設定檔中僅傳回選件200次。
+
+* 選擇 **[!UICONTROL 每個設定檔]** 定義可向相同使用者建議某個優惠方案的次數。
+
+   例如，如果您是擁有「白金信用卡」優惠的銀行，您不希望此優惠在每個設定檔中顯示超過5次。 事實上，您認為如果使用者看過選件5次而未對其採取行動，他們就更有機會對下一個最佳選件採取行動。
+
+### 頻率限定 {#frequency-capping}
+
+此 **[!UICONTROL 頻率]** 區段可讓您定義設定上限計數的重設頻率。 要執行此操作，請定義計數的時段（每日、每週或每月），並輸入您選擇的天數/周數/月數。
+
+![](../assets/offer-capping-frequency.png)
+
+>[!NOTE]
+>
+>重設發生在UTC的上午12:00、您定義的當天，或適用的當周/月的第一天。 周開始日是星期日。 您選擇的任何期間不得超過2年（即相應的月、周或天數）。
+
+例如，如果您希望每2週重設上限計數，請選取 **[!UICONTROL 每週]** 從 **[!UICONTROL 重複]** 下拉式清單和類型 **2** 在另一個欄位中。 每隔週日UTC中午12點，就會重設一次。
+
+>[!CAUTION]
+>
+>儲存優惠方案後，您將無法變更您針對頻率選取的時段（每月、每週或每日）。
+
+### 上限和位置 {#placements}
+
+如果您已定義數個 [表示](add-representations.md) 指定您是否要套用上限 **[!UICONTROL 所有版位]** 或 **[!UICONTROL 對於每個版位]**.
+
+![](../assets/offer-capping-placement.png)
+
+* **[!UICONTROL 所有版位]**:上限計數將總計與優惠方案相關聯之所有版位上的所有決策。
+
+   例如，如果選件具有 **電子郵件** 版位和 **Web** 放置，並且在 **所有版位中每個設定檔2個**，則無論版位組合為何，每個設定檔總共可接收優惠方案最多2次。
+
+* **[!UICONTROL 對於每個版位]**:上限計數將分別套用每個版位的決策計數。
+
+   例如，如果選件具有 **電子郵件** 版位和 **Web** 放置，並且在 **每個版位每個設定檔2個**，則每個設定檔最多可接收電子郵件版位的2次優惠，而網路版位則可接收2次優惠。
 
 ### 變更日期對限定的影響 {#capping-change-date}
 

@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 12bc2373ac5c391764df3880c5c87666a19e99b2
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 4%
@@ -38,7 +38,7 @@ ht-degree: 4%
 
 建立和使用AI模型的主要步驟如下：
 
-1. 建立將收集轉換和曝光事件的資料集。 [了解更多](create-dataset.md)
+1. 建立將收集轉換和曝光事件的資料集。 [了解更多](../data-collection/create-dataset.md)
 1. 建立AI模型，以運用資料集中的事件來排名選件。 [了解更多](create-ranking-strategies.md)
-1. 設定優惠方案結構以自動擷取事件。 [了解更多](schema-requirement.md)
+1. 設定優惠方案結構以自動擷取事件。 [了解更多](../data-collection/schema-requirement.md)
 1. 將AI模型指派給排名合格優惠方案的決策中的版位。 [了解更多](../offer-activities/configure-offer-selection.md)

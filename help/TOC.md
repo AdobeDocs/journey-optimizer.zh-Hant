@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 51f09bac0278182b1df3e36425b01fbbf7deddd8
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 97%
+source-wordcount: '1334'
+ht-degree: 96%
 
 ---
 
@@ -334,10 +334,7 @@ ht-degree: 97%
          + AI 模型類型{#ai-model-types}
             + [自動最佳化模型](using/offers/ranking/auto-optimization-model.md)
             + [個人化最佳化模型](using/offers/ranking/personalized-optimization-model.md)
-         + 建立 AI 模型 {#configure-ai-model}
-            + [建立資料集以收集事件](using/offers/ranking/create-dataset.md)
-            + [建立 AI 模型](using/offers/ranking/create-ranking-strategies.md)
-            + [設定事件擷取](using/offers/ranking/schema-requirement.md)
+         + [建立 AI 模型](using/offers/ranking/create-ranking-strategies.md)
    + 建立和管理優惠方案 {#managing-offers-in-the-offer-library}
       + 設定優惠方案 {#configure-offers}
          + [建立個人化優惠方案](using/offers/offer-library/creating-personalized-offers.md)
@@ -349,10 +346,14 @@ ht-degree: 97%
       + [建立決定](using/offers/offer-activities/create-offer-activities.md)
       + [設定決定中的優惠選擇](using/offers/offer-activities/configure-offer-selection.md)
       + [建立模擬](using/offers/offer-activities/simulation.md)
-   + [批次決策](using/offers/batch-delivery.md)
+   + [使用批次決策](using/offers/batch-delivery.md)
+   + 收集事件資料 {#collect-event-data}
+      + [資料收集快速入門](using/offers/data-collection/data-collection.md)
+      + [建立資料集以收集事件](using/offers/data-collection/create-dataset.md)
+      + [設定事件擷取](using/offers/data-collection/schema-requirement.md)
    + 建立決定管理報告 {#create-reports}
       + [開始使用決定管理事件](using/offers/reports/get-started-events.md)
-      + [決定管理事件重要資訊](using/offers/reports/key-information.md)
+      + [決策管理事件關鍵資訊](using/offers/reports/key-information.md)
       + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
    + 匯出優惠目錄 {#export-catalog}
       + [開始使用優惠目錄匯出 ](using/offers/export-catalog/get-started-export.md)

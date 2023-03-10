@@ -4,16 +4,20 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
-workflow-type: ht
-source-wordcount: '2330'
-ht-degree: 100%
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+workflow-type: tm+mt
+source-wordcount: '2366'
+ht-degree: 98%
 
 ---
 
 # 文件更新 {#latest-updates}
 
 本頁面列出 [!DNL Journey Optimizer] 所有文件更新。
+
+## 2023 年 3 月 {#march-2023}
+
+* 「決策管理指南」中已建立新區段，說明如何在Adobe Experience Platform中收集offer decisioning意見，包括顯示哪些優惠方案以及使用者如何與其互動。  [閱讀全文](../offers/data-collection/data-collection.md)
 
 ## 2023 年 2 月 {#feb-2023}
 
@@ -145,7 +149,7 @@ ht-degree: 100%
 
 * 有關所有 [!DNL Journey Optimizer]2022 年 1 月發行版本新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
 * **Offer decisioning AI 排名**&#x200B;區段已更新，針對自動最佳化模型提供更詳細的說明。[閱讀全文](../offers/ranking/auto-optimization-model.md)
-* 加入關於方案要求的新部分，以便在使用排名策略時能夠在事件類型中傳送。 [閱讀全文](../offers/ranking/schema-requirement.md)
+* 加入關於方案要求的新部分，以便在使用排名策略時能夠在事件類型中傳送。 [閱讀全文](../offers/data-collection/schema-requirement.md)
 * 有關 [!DNL Journey Optimizer] 個人化功能的章節已重新整理，以便更容易閱讀。 [閱讀全文](../personalization/personalize.md)
 * 為了提高清晰度，**建立訊息預設集**&#x200B;部分改為若干部分。 [閱讀全文](../configuration/channel-surfaces.md#create-channel-surface)
 * **選擇退出管理**&#x200B;區段變得清晰，並稍作重組。 [閱讀全文](../privacy/opt-out.md#opt-out-management)

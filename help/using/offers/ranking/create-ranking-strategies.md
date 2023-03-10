@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 7%
+source-wordcount: '401'
+ht-degree: 6%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 7%
 ## 建立 AI 模型 {#create-ranking-strategy}
 
 要建立AI模型，請執行以下步驟：
+
+1. 建立將收集轉換事件的資料集。 [了解作法](../data-collection/create-dataset.md)
 
 1. 在 **[!UICONTROL 元件]** 菜單，訪問 **[!UICONTROL 排名]** ，然後選取 **[!UICONTROL AI模型]**.
 
@@ -52,7 +54,7 @@ ht-degree: 7%
    >
    >這些事件會使用已提供的Web SDK或行動SDK自動擷取。 如需深入了解，請參閱 [Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant).
 
-1. 選取要收集轉換和曝光事件的資料集。 了解如何在 [本節](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
+1. 選取要收集轉換和曝光事件的資料集。 了解如何在 [本節](../data-collection/create-dataset.md). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
    ![](../assets/ai-ranking-dataset-id.png)
 
@@ -71,3 +73,13 @@ ht-degree: 7%
 1. 儲存並啟動AI模型。
 
    ![](../assets/ai-ranking-save-activate.png)
+
+<!--At this point, you must have:
+
+* created the AI model,
+* defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
+* and in which dataset you want to collect the event data.-->
+
+現在，每次顯示和/或點按選件時，您都會想要由 **[!UICONTROL 體驗事件 — 主張互動]** 欄位群組(使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} 或行動SDK。
+
+若要傳送事件類型（顯示的選件或已點按的選件），您必須為傳送至Adobe Experience Platform的體驗事件中的每個事件類型設定正確的值。 [了解作法](../data-collection/schema-requirement.md)
