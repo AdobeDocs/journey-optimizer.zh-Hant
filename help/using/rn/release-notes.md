@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: fee83ffd136ebe21ae62c7e0bd50dc31e0f4b948
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 87%
+source-wordcount: '1064'
+ht-degree: 86%
 
 ---
 
@@ -33,6 +33,12 @@ ht-degree: 87%
 為避免與Adobe Experience Platform上最近發行的標籤功能產生任何混淆，「決策管理」標籤已重新命名為「集合限定符」。
 
 請注意，雖然「標籤」一詞不再用於Decision Management使用者介面，但仍用於API和資料集等後端服務。
+
+**決策管理限定**
+
+* 您現在可以每天、每週或每月重設優惠方案限定計數器。 [了解更多](../offers/offer-library/add-constraints.md#capping)
+
+* 您也可以選擇應查看哪個Adobe Experience Platform事件以設定offer decisioning上限。 [了解更多](../offers/offer-library/add-constraints.md#capping)
 
 ## 2023 年 2 月發行說明 {#feb-2023}
 
@@ -163,10 +169,6 @@ Note that each widget can be resized and deleted as needed.
 -->
 
 * **URL 個人化** - 將 URL 新增為優惠方案表示法的內容時，您現在可以使用運算式編輯器對這些 URL 進行個人化設定。[了解更多](../offers/offer-library/add-representations.md)
-
-* **限定**  — 您現在可以每天、每週或每月重設優惠方案限定計數器。 [了解更多](../offers/offer-library/add-constraints.md#capping)
-
-* **限定**  — 您現在可以選擇應查看哪個Adobe Experience Platform事件以設定offer decisioning上限。 [了解更多](../offers/offer-library/add-constraints.md#capping)
 
 ## 2023 年 1 月發行版本 {#jan-2023-release}
 
