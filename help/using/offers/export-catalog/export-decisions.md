@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: a61cbb5b2a6cea21dbaf41a9fcb085fe1b814087
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '1546'
+source-wordcount: '1552'
 ht-degree: 3%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 3%
 
    **欄位：** 篩選
    **標題：** 選項篩選
-   **說明：** 參考標籤型篩選器，該篩選器使用其附加的標籤來比對清單中的選項。 該值是引用的決策規則的URI(@id)。 請參閱結構https://ns.adobe.com/experience/decisioning/filter。
+   **說明：** 對基於收集限定符（以前稱為「標籤」）的篩選器的引用，該篩選器使用其附加的收集限定符匹配庫存中的選項。 該值是引用的決策規則的URI(@id)。 請參閱結構https://ns.adobe.com/experience/decisioning/filter。
    **類型:**&#x200B;字串
 
 * 輪廓約束類型

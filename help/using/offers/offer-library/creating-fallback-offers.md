@@ -5,9 +5,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '299'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
 
    ![](../assets/create_fallback.png)
 
-1. 指定備援優惠方案的名稱。 您也可以將一或多個現有標籤與其建立關聯，讓您可以更輕鬆搜尋及組織優惠方案庫。
+1. 指定備援優惠方案的名稱。 您也可以將一或多個現有的集合限定符（先前稱為「標籤」）與其建立關聯，讓您更輕鬆搜尋和組織優惠方案庫。
 
    ![](../assets/fallback_details.png)
 

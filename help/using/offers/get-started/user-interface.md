@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 39%
+source-wordcount: '649'
+ht-degree: 38%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 39%
 
 * **[!UICONTROL 版位]**:建立和管理將顯示優惠方案的版位。 請參閱[建立位置](../offer-library/creating-placements.md)。
 
-* **[!UICONTROL 標籤]**:建立和管理標籤，以組織和篩選優惠方案。 請參閱[建立標記](../offer-library/creating-tags.md)。
+* **[!UICONTROL 收集限定符]**:建立和管理集合限定符（先前稱為「標籤」），以組織和篩選您的優惠方案。 請參閱 [建立收集限定符](../offer-library/creating-tags.md).
 
 * **[!UICONTROL 規則]**:管理顯示優惠方案的條件。 請參閱[建立決定規則](../offer-library/creating-decision-rules.md)。
 

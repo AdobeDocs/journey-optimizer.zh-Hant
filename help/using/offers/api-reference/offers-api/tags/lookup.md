@@ -1,21 +1,21 @@
 ---
-title: 查找標籤
-description: 標籤可讓您更妥善地組織和排序優惠方案。
+title: 查找收集限定符
+description: 集合限定符可讓您更妥善地組織和排序優惠方案。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '163'
 ht-degree: 3%
 
 ---
 
-# 查找標籤 {#look-up-tag}
+# 查找收集限定符 {#look-up-tag}
 
-您可以向發出GET要求，以查找特定標籤 [!DNL Offer Library] 包含標籤的API `@id` 或請求路徑中的標籤名稱。
+您可以向 [!DNL Offer Library] 包含收集限定符的API `@id` 或請求路徑中集合限定符的名稱。
 
 **API格式**
 
@@ -26,8 +26,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 標籤所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | 定義與標籤相關聯的架構。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `{CONTAINER_ID}` | 集合限定符所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | 定義與集合限定符關聯的架構。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
 | `id` | 用來比對 `@id` 實體的屬性。 字串完全匹配。 參數 `id` 和 `name` 無法一起使用。 | `xcore:tag:124e147572cd7866` |
 | `name` | 用來比對實體xdm:name屬性的字串。 字串與大小寫完全相符，但可使用萬用字元。 參數 `id` 和 `name` 無法一起使用 | `Holiday sales and promotions` |
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **回應**
 
-成功的回應會傳回標籤的詳細資訊，包括關於容器ID、例項ID和唯一標籤的資訊 `@id`.
+成功的回應會傳回收集限定符的詳細資訊，包括關於容器ID、例項ID和唯一收集限定符的資訊 `@id`.
 
 ```json
 {

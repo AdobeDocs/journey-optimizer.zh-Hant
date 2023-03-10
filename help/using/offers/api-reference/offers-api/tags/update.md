@@ -1,21 +1,21 @@
 ---
-title: 更新標籤
-description: 標籤可讓您更妥善地組織和排序優惠方案。
+title: 更新收集限定符
+description: 集合限定符可讓您更妥善地組織和排序優惠方案。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 8%
+source-wordcount: '171'
+ht-degree: 5%
 
 ---
 
-# 更新標籤 {#update-tag}
+# 更新收集限定符 {#update-collection qualifier}
 
-您可以借由向 [!DNL Offer Library] API。
+您可以對 [!DNL Offer Library] API。
 
 如需JSON修補程式的詳細資訊，包括可用的操作，請參閱 [JSON修補程式檔案](http://jsonpatch.com/).
 
@@ -68,7 +68,7 @@ curl -X PATCH \
 
 **回應**
 
-成功的回應會傳回標籤的更新詳細資料，包括其唯一例項ID和標籤 `@id`.
+成功的響應返回收集限定符的更新詳細資訊，包括其唯一實例ID和收集限定符 `@id`.
 
 ```json
 {

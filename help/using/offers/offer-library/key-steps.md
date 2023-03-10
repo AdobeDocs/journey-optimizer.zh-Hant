@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '346'
 ht-degree: 13%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 13%
 
 1. **建立決策規則** 以指定要呈現選件的條件。
 
-1. **建立標籤** 建立選件的關聯，讓您可輕鬆組織選件，並將其搜尋至資料庫。
+1. **建立收集限定符** （先前稱為「標籤」），您可將選件建立關聯，以便輕鬆組織選件並將其搜尋至資料庫。
 
 1. 如果您想要定義規則，以決定應先針對指定版位呈現哪個優惠方案（而非考慮優惠方案的優先順序分數），您可以 **建立排名公式**.
 

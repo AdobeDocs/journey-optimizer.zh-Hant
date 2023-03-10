@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ccaad8c4d9d26c0fd968e627e7a6bf853f232000
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 99%
+source-wordcount: '1328'
+ht-degree: 97%
 
 ---
 
@@ -325,7 +325,7 @@ ht-degree: 99%
    + 建立元件 {#create-components}
       + [建立位置](using/offers/offer-library/creating-placements.md)
       + [建立決定規則](using/offers/offer-library/creating-decision-rules.md)
-      + [建立標籤](using/offers/offer-library/creating-tags.md)
+      + [建立收集限定符](using/offers/offer-library/creating-tags.md)
    + 建立排名 {#rankings}
       + [開始使用排名](using/offers/ranking/get-started-rankings.md)
       + [排名公式](using/offers/ranking/create-ranking-formulas.md)
@@ -377,11 +377,11 @@ ht-degree: 99%
             + [更新決定規則](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [刪除決定規則](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + 標籤 {#tags}
-            + [清單標籤](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [查詢標籤](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [建立標籤](using/offers/api-reference/offers-api/tags/create.md)
-            + [更新標籤](using/offers/api-reference/offers-api/tags/update.md)
-            + [刪除標籤](using/offers/api-reference/offers-api/tags/delete.md)
+            + [列出集合限定符](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [查找收集限定符](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [建立集合限定符](using/offers/api-reference/offers-api/tags/create.md)
+            + [更新收集限定符](using/offers/api-reference/offers-api/tags/update.md)
+            + [刪除集合限定符](using/offers/api-reference/offers-api/tags/delete.md)
          + 個人化優惠 {#personalized-offers}
             + [列出個人化優惠](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
             + [查詢個人化優惠](using/offers/api-reference/offers-api/personalized-offers/lookup.md)

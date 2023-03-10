@@ -1,21 +1,21 @@
 ---
-title: 建立標籤
-description: 標籤可讓您更妥善地組織和排序優惠方案。
+title: 建立集合限定符
+description: 集合限定符可讓您更妥善地組織和排序優惠方案。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
-source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 10%
+source-wordcount: '141'
+ht-degree: 5%
 
 ---
 
-# 建立標籤 {#create-tag}
+# 建立集合限定符 {#create-tag}
 
-您可以透過向 [!DNL Offer Library] API，同時提供容器ID。
+您可以對 [!DNL Offer Library] API，同時提供容器ID。
 
 ## 接受和內容類型標題 {#accept-and-content-type-headers}
 
@@ -35,7 +35,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 標籤所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | 集合限定符所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **要求**
 
@@ -55,7 +55,7 @@ curl -X POST \
 
 **回應**
 
-成功的回應會傳回新建立標籤的相關資訊，包括其唯一例項ID和位置 `@id`. 您可以在後續步驟中使用例項ID來更新或刪除您的標籤。 您可以使用您的唯一標籤 `@id` 在稍後的教學課程中，建立集合和個人化優惠方案。
+成功的回應會傳回新建立之收集限定符的相關資訊，包括其唯一例項ID和位置 `@id`. 您可以在後續步驟中使用執行個體ID來更新或刪除收集限定符。 您可以使用唯一的收集限定符 `@id` 在稍後的教學課程中，建立集合和個人化優惠方案。
 
 ```json
 {

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1095'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 6%
 
    * 建立位置
    * 建立決定規則
-   * 建立標籤
+   * 建立集合限定符（以前稱為「標籤」）
    * 建立排名（可選）
 
 1. [設定優惠方案](#configure-offers)
@@ -92,15 +92,15 @@ ht-degree: 6%
 
    建立規則的詳細步驟於 [本節](../../using/offers/offer-library/creating-decision-rules.md).
 
-1. 您也可以建立 **標籤**.
+1. 您也可以建立 **集合限定符**.
 
-   然後，您就能將選件與選件建立關聯，並使用此標籤將您的選件群組到集合中。
+   然後，您就可以將選件與選件建立關聯，並使用此集合限定符將選件分組到集合中。
 
-   在此範例中，建立 *瑜伽* 標籤。
+   在此範例中，建立 *瑜伽* 收集限定符。
 
    ![](assets/offers-e2e-tag.png)
 
-   建立標籤的詳細步驟於 [本節](../../using/offers/offer-library/creating-tags.md).
+   有關建立收集限定符的詳細步驟，請參閱 [本節](../../using/offers/offer-library/creating-tags.md).
 
 1. 如果您想要定義規則，以決定應先針對指定版位呈現哪個優惠方案（而非考慮優惠方案的優先順序分數），您可以建立 **排名公式**.
 
@@ -181,7 +181,7 @@ ht-degree: 6%
 
 1. 若要加速決策程式，請建立動態集合。
 
-1. 使用 *瑜伽* 標籤來選取您先前建立的四個個人化選件。
+1. 使用 *瑜伽* 收集限定符，用於選擇您先前建立的四個個人化選件。
 
    ![](assets/offers-e2e-collection-using-tag.png)
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '741'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 * A **刊登** 顯示選件的。 請參閱 [建立版位](../offer-library/creating-placements.md)
 * 如果要新增資格條件：a **決策規則** 以定義將呈現選件的條件。 請參閱 [建立決策規則](../offer-library/creating-decision-rules.md).
-* 一或多個 **標籤** 您可能想要與選件建立關聯。 請參閱 [建立標籤](../offer-library/creating-tags.md).
+* 一或多個 **集合限定符** （先前稱為「標籤」），您可能想要與選件建立關聯。 請參閱 [建立收集限定符](../offer-library/creating-tags.md).
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -53,7 +53,7 @@ ht-degree: 3%
    >
    >更新開始/結束日期可能會影響上限設定。 [了解更多](add-constraints.md#capping-change-date)
 
-1. 您也可以關聯一或多個現有 **[!UICONTROL 標籤]** ，讓您更輕鬆搜尋和組織優惠方案庫。 [了解更多](creating-tags.md)。
+1. 您也可以關聯一或多個現有 **[!UICONTROL 集合限定符]** ，讓您更輕鬆搜尋和組織優惠方案庫。 [了解更多](creating-tags.md)。
 
 1. 此 **[!UICONTROL 選件屬性]** 區段可讓您為報表和分析目的，將索引鍵值配對與選件建立關聯。
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '321'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 您可以建立兩種類型的集合：
 
-* **動態集合** 是根據標籤的選件集合。 這些集合會自動更新。 例如，如果以選取的標籤建立新選件，則會自動將其新增至集合。
+* **動態集合** 是根據集合限定符的選件集合（先前稱為「標籤」）。 這些集合會自動更新。 例如，如果使用選取的集合限定符建立了新選件，則會自動將其新增至集合。
 
 * **靜態集合** 是透過手動選取要包含在集合中的個別選件來建立集合。 只能手動新增更多選件來更新集合。
 
@@ -42,13 +42,13 @@ ht-degree: 2%
 
    ![](../assets/collection_create.png)
 
-1. 若要建立動態系列，請使用左窗格選取要新增至系列的選件標籤，然後按一下 **[!UICONTROL 儲存]**. 所有具有選取標籤的選件都會儲存在集合中。
+1. 若要建立動態集合，請使用左窗格選取要新增至集合之選件的集合限定符，然後按一下 **[!UICONTROL 儲存]**. 所有具有所選集合限定符的選件都將保存在集合中。
 
-   如需建立標籤的詳細資訊，請參閱 [建立標籤](../offer-library/creating-tags.md).
+   有關建立收集限定符的詳細資訊，請參閱 [建立收集限定符](../offer-library/creating-tags.md).
 
    ![](../assets/dynamic_collection.png)
 
-1. 若要建立靜態集合，請使用左窗格篩選選件清單（狀態、標籤、日期、頻道、內容類型），然後選取要新增至集合的選件。
+1. 若要建立靜態集合，請使用左窗格篩選選件清單（狀態、集合限定符、日期、頻道、內容類型），然後選取要新增至集合的選件。
 
    ![](../assets/static_collection.png)
 

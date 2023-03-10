@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2014'
 ht-degree: 3%
 
 ---
@@ -343,12 +343,12 @@ ht-degree: 3%
 
 **欄位：** 標籤
 **標題：** 標籤
-**說明：** 與此實體相關聯的標籤集。 標籤用於篩選運算式，以將整體清點限制為子集（類別）。
+**說明：** 與此實體關聯的集合限定符集（以前稱為「標籤」）。 集合限定符用於篩選運算式，以將整體庫存限制為子集（類別）。
 **類型：** 陣列
 
 +++
 
-<!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
+<!--Field without name under tags: Description: An identifier of a collection qualifier object. The value is the @id of the collection qualifier that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
 +++_repo
 

@@ -1,21 +1,21 @@
 ---
-title: 刪除標籤
-description: 標籤可讓您更妥善地組織和排序優惠方案。
+title: 刪除收集限定符
+description: 集合限定符可讓您更妥善地組織和排序優惠方案。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 5%
+source-wordcount: '157'
+ht-degree: 3%
 
 ---
 
-# 刪除標籤 {#delete-tag}
+# 刪除集合限定符 {#delete-tag}
 
-有時可能需要移除(DELETE)標籤。 只能刪除您在租用戶容器中建立的標籤。 若要這麼做，請對 [!DNL Offer Library] API使用您要刪除之標籤的$id。
+有時可能需要移除(DELETE)集合限定符（先前稱為「標籤」）。 只能刪除您在租用戶容器中建立的集合限定符。 若要這麼做，請對 [!DNL Offer Library] API使用您要刪除的集合限定符的$id。
 
 **API格式**
 
@@ -26,8 +26,8 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 標籤所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 您要更新之標籤的例項ID。 | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| `{CONTAINER_ID}` | 集合限定符所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | 要更新的集合限定符的實例ID。 | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **要求**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 成功的回應會傳回HTTP狀態202（無內容）和空白內文。
 
-您可以嘗試對標籤進行查詢(GET)以確認刪除。 您需要在請求中加入Accept標題，但應會收到HTTP狀態404（找不到），因為標籤已從容器中移除。
+您可以嘗試對收集限定符進行查閱(GET)請求，以確認刪除。 您需要在請求中加入Accept標題，但應會收到HTTP狀態404（找不到），因為集合限定符已從容器中移除。

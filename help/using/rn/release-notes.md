@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4fbb879f40952aaef5b197b170578bf9e27f10f9
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 95%
+source-wordcount: '1025'
+ht-degree: 89%
 
 ---
 
@@ -27,6 +27,12 @@ ht-degree: 95%
 **管理歷程中的標籤**
 
 身為Journey Optimizer從業人員，您現在可以使用標籤來組織業務物件。 標籤是一種快速、簡便的對象分類方法，用於改進搜索。 此功能目前為測試版，僅適用於歷程。 [了解更多](../building-journeys/tags.md)
+
+**已將決策管理標籤更名為「集合」限定符**
+
+為避免與Adobe Experience Platform上最近發行的標籤功能產生任何混淆，「決策管理」標籤已重新命名為「集合限定符」。
+
+請注意，雖然「標籤」一詞不再用於Decision Management使用者介面，但仍用於API和資料集等後端服務。
 
 ## 2023 年 2 月發行說明 {#feb-2023}
 
