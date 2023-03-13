@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
+source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
 workflow-type: tm+mt
-source-wordcount: '2290'
+source-wordcount: '2323'
 ht-degree: 2%
 
 ---
@@ -200,14 +200,21 @@ ht-degree: 2%
 
    <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   在下列範例中，您要限制訂閱的數量。 選擇 **[!UICONTROL 自訂事件]** ，並使用 **[!UICONTROL 建立自訂事件規則]** 建立器來選取相關事件。
+   在下列範例中，您要限制結帳數。
 
-   ![](../assets/offer-capping-custom-event.png)
+   1. 選擇 **[!UICONTROL 自訂事件]** ，並使用 **[!UICONTROL 新增自訂事件]** 按鈕。
 
-   規則建立後，就會顯示在 **[!UICONTROL 自訂事件查詢]** 欄位。
+      ![](../assets/offer-capping-custom-event-add.png)
 
-   ![](../assets/offer-capping-custom-event-query.png)
+   1. 使用 **[!UICONTROL 建立自訂事件規則]** 建立器來選取相關事件。 您可以選擇要限制優惠方案的任何使用者動作。
 
+      在這裡選擇 **[!UICONTROL 商務]** > **[!UICONTROL 結帳]** > **[!UICONTROL 值]** 選取 **[!UICONTROL 存在]** 從下拉式清單中。
+
+      ![](../assets/offer-capping-custom-event.png)
+
+   1. 規則建立後，就會顯示在 **[!UICONTROL 自訂事件查詢]** 欄位。
+
+      ![](../assets/offer-capping-custom-event-query.png)
    >[!CAUTION]
    >
    >對於除決策事件以外的所有限定事件，可能不會自動收集決策管理意見，因此請確定資料傳入。 [進一步了解資料收集](../data-collection/data-collection.md)
@@ -222,7 +229,7 @@ ht-degree: 2%
 >
 >數字必須是大於0的整數。
 
-例如，如果您定義了自訂上限事件（例如子項），則系統會考量這些事件，如果您在 **[!UICONTROL 上限計數]** 欄位，則10個訂閱後將不再傳送任何選件。
+例如，您定義了自訂上限事件，例如結帳數量會納入考量。 如果您在 **[!UICONTROL 上限計數]** 欄位，則在10次結帳後將不會傳送任何選件。
 
 ### 封閉類型 {#capping-type}
 
