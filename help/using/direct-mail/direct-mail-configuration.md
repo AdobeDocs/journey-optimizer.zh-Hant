@@ -9,14 +9,24 @@ keyword: direct, mail, configuration, direct-mail, provider
 hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+badge: label="Beta" type="Informity"
+source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 0%
+source-wordcount: '883'
+ht-degree: 1%
 
 ---
 
 # 直接郵件配置 {#direct-mail-configuration}
+
+>[!BEGINSHADEBOX]
+
+本檔案提供下列內容：
+
+* [建立直接郵件](create-direct-mail.md)
+* **[設定直接郵件](direct-mail-configuration.md)**
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] 可讓您個人化並產生直接郵件提供者傳送郵件給客戶所需的檔案。
 
@@ -94,7 +104,7 @@ ht-degree: 0%
    >
    >AWS地區是AWS用來托管其雲端基礎架構的地理區域。 通常，最好選擇最靠近直接郵件提供者位置的區域。
 
-1. 選擇 **[!UICONTROL 提交]**. 檔案路由配置是使用 **[!UICONTROL 作用中]** 狀態。 現在已可用於 [直接郵件表面](#direct-mail-surface).
+1. 選取「**[!UICONTROL 提交]**」。檔案路由配置是使用 **[!UICONTROL 作用中]** 狀態。 現在已可用於 [直接郵件表面](#direct-mail-surface).
 
    >[!NOTE]
    >
