@@ -10,18 +10,25 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+badge: label="Beta" type="Informity"
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 2%
+source-wordcount: '1353'
+ht-degree: 1%
 
 ---
 
 # 使用組合畫布 {#composition-canvas}
 
-合成畫布是視覺畫布，可讓您運用對象和活動（分割、排除……）來建立合成。
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>本檔案提供下列內容：<br/><ul>
+<li><a href="get-started-audience-orchestration.md">開始使用對象組合</a></li>
+<li><a href="create-compositions.md">建立您的第一個合成工作流程</a></li>
+<li><b><a href="composition-canvas.md">使用組合畫布</a></b></li>
+<li><a href="access-audiences.md">存取及管理對象</a></li></ul></td></tr></table>
 
-在合成畫布中配置合成的步驟如下：
+對象構成提供視覺畫布，可讓您建立對象並使用各種活動（分割、擴充等）。
+
+在畫布中撰寫對象的步驟如下：
 
 1. [定義起始對象](#starting-audience)
 1. [新增一或多個活動](#action-activities)
@@ -56,22 +63,21 @@ ht-degree: 2%
 
 在選取您的起始對象後新增活動，以調整您的選取範圍。
 
-若要這麼做，請按一下構成路徑上的+按鈕，然後選取所需的活動。 右窗格隨即開啟，可讓您設定活動。
+若要這麼做，請按一下構成路徑上的+按鈕，然後選取所需的活動。 右窗格隨即開啟，可讓您設定新新增的活動。
 
 ![](assets/audiences-select-activity.png)
-
->[!NOTE]
->
->您可以新增 **[!UICONTROL 對象]** 和 **[!UICONTROL 排除]** 活動。 不過，在 **[!UICONTROL 排名]** 和 **[!UICONTROL 分割]** 活動。
-
-您可以隨時按一下右窗格中的刪除按鈕，從畫布中移除活動。 在此活動之後新增的所有活動也將從畫布中移除。
 
 可用活動包括：
 
 * [對象](#audience):包含屬於一或多個現有對象的其他設定檔，
 * [排除](#exclude):排除屬於現有對象的設定檔，或根據特定屬性排除設定檔，
+* [豐富]{#enrich}:來自Adobe Experience Platform資料集的其他屬性，讓您的受眾更為豐富，
 * [排名](#rank):根據特定屬性來排名設定檔，指定要保留的設定檔數目，並將其納入您的構成中，
 * [分割](#split):根據隨機百分比或屬性，將您的構圖分割成多個路徑。
+
+您可以新增 **[!UICONTROL 對象]** 和 **[!UICONTROL 排除]** 活動。 不過，在 **[!UICONTROL 排名]** 和 **[!UICONTROL 分割]** 活動。
+
+您可以隨時按一下右窗格中的刪除按鈕，從畫布中移除活動。  如果要刪除的活動是構成中其他活動的父項，則會顯示一條消息，允許您指定是否僅刪除所選活動或其所有子活動。
 
 ### 對象活動 {#audience}
 
@@ -115,6 +121,46 @@ ht-degree: 2%
 
    ![](assets/audiences-exclude-attribute.png)
 
+### 豐富 {#enrich}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich"
+>title="擴充活動"
+>abstract="使用「擴充」活動來排除屬於現有對象的設定檔。 使用屬性類型排除可讓您根據特定屬性排除設定檔。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_dataset"
+>title="擴充資料集"
+>abstract="選取包含您要與對象建立關聯之資料的擴充資料集。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_criteria"
+>title="擴充條件"
+>abstract="選取要用作來源資料集（即對象）與擴充資料集之間調解金鑰的欄位。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_attributes"
+>title="擴充屬性"
+>abstract="從擴充資料集中選取一或多個屬性，以關聯至對象。 發佈構圖後，這些屬性就會與對象相關聯，並可在行銷活動中運用，以個人化傳送。"
+
+此 **[!UICONTROL 豐富]** 活動可讓您透過來自Adobe Experience Platform資料集的其他屬性，讓對象更為豐富。 例如，您可以新增與購買產品相關的資訊，如其名稱、價格或製造商ID，並運用這些資訊來個人化傳送給對象的傳送。
+
+>[!IMPORTANT]
+>
+>目前，資料集上的標籤（無論是在資料集層級或欄位層級）都不會傳播至新建立的對象。 這可能會影響所產生對象的存取控制和/或資料控管。 因此，合成對象時，請僅使用測試資料。
+
+若要設定活動，請遵循下列步驟：
+
+1. 選取 **[!UICONTROL 擴充資料集]** 包含您要與對象建立關聯的資料。
+
+1. 在 **[!UICONTROL 擴充條件]** 區段，選取要作為來源資料集（即對象）與擴充資料集之間調解金鑰的欄位。 在此範例中，我們使用已購買產品的ID作為調解金鑰。
+
+1. 按一下 **[!UICONTROL 新增屬性]** 按鈕，然後從擴充資料集中選取一或多個屬性，以關聯至對象。
+
+   ![](assets/audiences-enrich-activity.png)
+
+發佈構圖後，選取的屬性會與對象相關聯，並可在行銷活動中運用，以個人化傳送。
+
 ### 排名活動 {#rank}
 
 >[!CONTEXTUALHELP]
@@ -141,10 +187,10 @@ ht-degree: 2%
 
 ### 分割活動 {#split}
 
->[!CONTEXTUALHELP]
+<!-- [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
->title="控制組"
->abstract="使用控制組來隔離部分設定檔。 這可讓您測量行銷活動的影響，並與其他人口的行為進行比較。"
+>title="Control Group"
+>abstract="Use control groups to isolate a portion of the profiles. This allows you to measure the impact of a marketing activity and make a comparison with the behavior of the rest of the population."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
@@ -167,7 +213,7 @@ ht-degree: 2%
 
 可使用兩種類型的拆分操作：
 
-* **[!UICONTROL 百分比分割]**:將設定檔隨機分割為兩個或多個路徑。 例如，您可以將設定檔分割為2個不同的路徑，每個路徑45%，然後為控制組新增其他路徑。
+* **[!UICONTROL 百分比分割]**:將設定檔隨機分割為兩個或多個路徑。 例如，您可以將設定檔分割為2個不同的路徑，每個路徑50%。 <!--and add an additional path for control group.-->
 
    ![](assets/audiences-split-percentage.png)
 
@@ -188,9 +234,3 @@ ht-degree: 2%
 ![](assets/audiences-publish.png)
 
 您的構圖準備就緒後，即可發佈。 [了解如何建立作品](create-compositions.md)
-
-了解更多:
-
-* [開始使用對象組合](get-started-audience-orchestration.md)
-* [建立組合工作流程](create-compositions.md)
-* [存取及管理對象](access-audiences.md)

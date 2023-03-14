@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 建立，優化程式，促銷活動，表面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 8%
@@ -35,7 +35,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="促銷活動類型"
->abstract="針對行銷訊息，請指定傳送日期， **已排程** 類型最合適。 不過，如果您想要傳送交易式訊息，例如密碼重設或放棄卡片， **API觸發** 類型是最佳選擇。"
+>abstract="針對行銷訊息，請指定傳送日期， **已排程** 類型最合適。 不過，如果您想要傳送交易式訊息，例如密碼重設或購物車放棄，則 **API觸發** 類型是最佳選擇。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
@@ -46,7 +46,7 @@ ht-degree: 8%
 
    * **[!UICONTROL 已排程]**:立即執行促銷活動或在指定日期執行。 排程的行銷活動旨在傳送 **行銷** 輸入訊息。
 
-   * **[!UICONTROL API觸發]**:使用API呼叫執行促銷活動。 API觸發的行銷活動旨在傳送 **異動** 訊息，即在個人執行的動作後傳出的訊息：密碼重設、卡放棄等。 [了解如何使用API觸發行銷活動](api-triggered-campaigns.md)
+   * **[!UICONTROL API觸發]**:使用API呼叫執行促銷活動。 API觸發的行銷活動旨在傳送 **異動** 訊息，即在個人執行的動作後傳出的訊息：密碼重設、購物車放棄等。 [了解如何使用API觸發行銷活動](api-triggered-campaigns.md)
 
 1. 在 **[!UICONTROL 動作]** 區段中，選擇要用來傳送訊息的通道和通道表面。
 

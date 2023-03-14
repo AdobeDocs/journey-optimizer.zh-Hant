@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 行銷活動，如何，開始， optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 12%
@@ -28,7 +28,7 @@ ht-degree: 12%
 您可以建立兩種類型的促銷活動：
 
 * **已排程的行銷活動** 允許針對促銷優惠方案、參與促銷活動、公告、法律通知或政策更新等行銷使用案例進行簡單的臨機批次通訊。
-* **API觸發的促銷活動** 允許使用REST API（密碼重設、卡放棄等）執行簡單的交易/操作訊息，其中需要可能涉及使用設定檔屬性和裝載的內容資料進行個人化。
+* **API觸發的促銷活動** 允許使用REST API（密碼重設、購物車放棄等）提供簡單的交易/操作訊息，其中需要使用設定檔屬性和裝載的內容資料來進行個人化。
 
 建立促銷活動的主要步驟如下：
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 建立組合工作流程
+title: 建立您的第一個合成工作流程
 description: 了解如何建立構圖工作流程，以結合和排列現有對象。
 feature: Journeys
 topic: Content Management
@@ -10,18 +10,25 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+badge: label="Beta" type="Informity"
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 5%
+source-wordcount: '380'
+ht-degree: 3%
 
 ---
 
-# 建立組合工作流程 {#create-compositions}
+# 建立您的第一個合成工作流程 {#create-compositions}
 
-合成工作流程可讓您結合併排列現有對象以建立新對象。
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>本檔案提供下列內容：<br/><ul>
+<li><a href="get-started-audience-orchestration.md">開始使用對象組合</a></li>
+<li><b><a href="create-compositions.md">建立您的第一個合成工作流程</a></b></li>
+<li><a href="composition-canvas.md">使用組合畫布</a></li>
+<li><a href="access-audiences.md">存取及管理對象</a></li></ul></td></tr></table>
 
 ## 建立合成工作流程 {#create}
+
+要建立合成工作流，請執行以下步驟：
 
 1. 存取 **[!UICONTROL 區段]** 選取 **[!UICONTROL 建立對象]**.
 
@@ -42,7 +49,7 @@ ht-degree: 5%
 
 1. 開啟合成屬性以指定標題和說明。
 
-   如果屬性中未定義任何標題，則合成標籤將是開始 **[!UICONTROL 對象]** 活動。
+   如果屬性中未定義標題，則合成的標籤將設定為「合成」，隨後將設定其建立日期和時間。
 
    ![](assets/audiences-properties.png)
 
@@ -76,9 +83,3 @@ ht-degree: 5%
 >[!NOTE]
 >
 >您可以隨時使用清單中的刪節號按鈕複製或刪除現有的合成內容。
-
-更多詳情:
-
-* [開始使用對象組合](get-started-audience-orchestration.md)
-* [使用組合畫布](composition-canvas.md)
-* [存取及管理對象](access-audiences.md)
