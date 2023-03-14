@@ -8,18 +8,27 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
+badge: label="Beta" type="Informity"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 6%
+source-wordcount: '1041'
+ht-degree: 8%
 
 ---
 
 # 建立網站體驗 {#create-web}
 
->[!AVAILABILITY]
->
->網路頻道功能目前僅供選取使用者的測試版使用。
+>[!BEGINSHADEBOX]
+
+本檔案提供下列內容：
+
+* [開始使用網路頻道](get-started-web.md)
+* **[建立網站體驗](create-web.md)**
+* [製作網頁](author-web.md)
+* [Visual Editing Helper 擴充功能](visual-editing-helper.md)
+* [網站報告](web-report.md)
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] 可讓您透過傳入的網頁行銷活動，個人化您提供給客戶的網頁體驗。
 
@@ -43,7 +52,7 @@ ht-degree: 6%
 
 * 在 [Adobe Experience Platform資料收集](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target="_blank"}，請確定您有定義的資料流，例如在 **[!UICONTROL Adobe Experience Platform]** 服務 **[!UICONTROL 邊緣分割]** 和 **[!UICONTROL Adobe Journey Optimizer]** 選項。
 
-   這可確保Journey Optimizer入站事件由Adobe Experience Platform Edge正確處理。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
+   這可確保Journey Optimizer入站事件由Adobe Experience Platform Edge正確處理。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant){target="_blank"}
 
    ![](assets/web-aep-datastream-ajo.png)
 

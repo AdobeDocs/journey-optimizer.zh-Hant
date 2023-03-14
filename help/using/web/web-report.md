@@ -8,27 +8,36 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 1d3d3804-dd1a-4939-b41a-f572d2bfd136
-source-git-commit: 3217cdd366cd61096a232306aa85c075a7542b0e
+badge: label="Beta" type="Informity"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 3%
+source-wordcount: '177'
+ht-degree: 12%
 
 ---
 
 # 網路報表 {#web-report}
 
-「促銷活動」報表中提供「網頁」報表。
+>[!BEGINSHADEBOX]
 
->[!NOTE]
->
->網路頻道功能目前僅供選取使用者的測試版使用。
+本檔案提供下列內容：
+
+* [開始使用網路頻道](get-started-web.md)
+* [建立網站體驗](create-web.md)
+* [製作網頁](author-web.md)
+* [Visual Editing Helper 擴充功能](visual-editing-helper.md)
+* **[網站報告](web-report.md)**
+
+>[!ENDSHADEBOX]
+
+「促銷活動」報表中提供「網頁」報表。
 
 將顯示「促銷活動」報表頁面，其中包含下列標籤：
 
 * [Campaign](../reports/campaign-global-report.md#campaign-live)
 * [電子郵件](../reports/campaign-global-report.md#email-live)
 * [推播](../reports/campaign-global-report.md#push-live)
-* [SMS](../reports/campaign-global-report.md#sms-live)
+* [簡訊](../reports/campaign-global-report.md#sms-live)
 * [Web](#web-tab)
 
 行銷活動 **[!UICONTROL 全域報表]** 會分為不同的小工具，詳細說明促銷活動的成功和錯誤。 如有需要，可對每個介面工具集調整大小並加以刪除。 有關詳細資訊，請參閱 [節](../reports/global-report.md#modify-dashboard).

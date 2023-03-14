@@ -8,18 +8,27 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+badge: label="Beta" type="Informity"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 4%
+source-wordcount: '1110'
+ht-degree: 5%
 
 ---
 
 # 製作網頁 {#author-web}
 
->[!AVAILABILITY]
->
->網路頻道功能目前僅供選取使用者的測試版使用。
+>[!BEGINSHADEBOX]
+
+本檔案提供下列內容：
+
+* [開始使用網路頻道](get-started-web.md)
+* [建立網站體驗](create-web.md)
+* **[製作網頁](author-web.md)**
+* [Visual Editing Helper 擴充功能](visual-editing-helper.md)
+* [網站報告](web-report.md)
+
+>[!ENDSHADEBOX]
 
 在 [!DNL Journey Optimizer] Adobe Experience Cloud Visual Helper chrome瀏覽器擴充功能提供網頁編寫功能。 [了解更多](visual-editing-helper.md)
 

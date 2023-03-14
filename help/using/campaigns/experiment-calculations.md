@@ -11,18 +11,27 @@ keywords: 內容，實驗，統計，計算
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+badge: label="Beta" type="Informity"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 1%
+source-wordcount: '909'
+ht-degree: 2%
 
 ---
 
 # 瞭解統計計算 {#experiment-calculations}
 
->[!AVAILABILITY]
->
->此 **內容實驗** 功能目前僅適用於一組組織（有限可用性）。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>[!BEGINSHADEBOX]
+
+本檔案提供下列內容：
+
+* [開始使用內容實驗](get-started-experiment.md)
+* [建立內容實驗](content-experiment.md)
+* **[瞭解統計計算](experiment-calculations.md)**
+* [設定實驗報告](reporting-configuration.md)
+* [實驗報告中的統計計算](experiment-report-calculations.md)
+
+>[!ENDSHADEBOX]
 
 本文說明在Adobe Journey Optimizer中執行實驗時所使用的統計計算。
 

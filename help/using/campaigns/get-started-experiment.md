@@ -11,14 +11,27 @@ keywords: 開始，開始，內容，實驗
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
+badge: label="Beta" type="Informity"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '1983'
-ht-degree: 1%
+source-wordcount: '2013'
+ht-degree: 2%
 
 ---
 
 # 開始進行內容實驗 {#get-started-experiment}
+
+>[!BEGINSHADEBOX]
+
+本檔案提供下列內容：
+
+* **[開始使用內容實驗](get-started-experiment.md)**
+* [建立內容實驗](content-experiment.md)
+* [瞭解統計計算](experiment-calculations.md)
+* [設定實驗報告](reporting-configuration.md)
+* [實驗報告中的統計計算](experiment-report-calculations.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

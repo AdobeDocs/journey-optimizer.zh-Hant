@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Beta" type="Informity"
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 11%
@@ -20,11 +20,16 @@ ht-degree: 11%
 
 # 存取及管理對象 {#access-manage-audiences}
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>本檔案提供下列內容：<br/><ul>
-<li><a href="get-started-audience-orchestration.md">開始使用對象組合</a></li>
-<li><a href="create-compositions.md">建立您的第一個合成工作流程</a></li>
-<li><a href="composition-canvas.md">使用組合畫布</a></li>
-<li><b><a href="access-audiences.md">存取及管理對象</a></b></li></ul></td></tr></table>
+>[!BEGINSHADEBOX]
+
+本檔案提供下列內容：
+
+* [開始使用對象組合](get-started-audience-orchestration.md)
+* [建立您的第一個合成工作流程](create-compositions.md)
+* [使用組合畫布](composition-canvas.md)
+* **[存取及管理對象](access-audiences.md)**
+
+>[!ENDSHADEBOX]
 
 從受眾構成產生的受眾可從 **[!UICONTROL 瀏覽]** 標籤 **[!UICONTROL 區段]** 功能表。
 

@@ -8,14 +8,27 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
+badge: label="Beta" type="Informity"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 15%
+source-wordcount: '147'
+ht-degree: 23%
 
 ---
 
 # 開始使用網路頻道 {#get-sarted-web}
+
+>[!BEGINSHADEBOX]
+
+本檔案提供下列內容：
+
+* **[開始使用網路頻道](get-started-web.md)**
+* [建立網站體驗](create-web.md)
+* [製作網頁](author-web.md)
+* [Visual Editing Helper 擴充功能](visual-editing-helper.md)
+* [網站報告](web-report.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

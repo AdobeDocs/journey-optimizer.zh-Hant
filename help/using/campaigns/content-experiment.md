@@ -11,10 +11,11 @@ keywords: 內容，實驗，多個，觀眾，治療
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 2bf4883fa4b649a807608403d48f6a68b73a8626
+badge: label="Beta" type="Informity"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 4%
+source-wordcount: '1145'
+ht-degree: 5%
 
 ---
 
@@ -25,9 +26,17 @@ ht-degree: 4%
 >title="內容實驗"
 >abstract="您可以選擇變更傳遞內容、主旨或傳送者，以定義多個傳遞處理方式，並為您的對象決定最佳組合。"
 
->[!AVAILABILITY]
->
->此 **內容實驗** 功能目前僅適用於一組組織（有限可用性）。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>[!BEGINSHADEBOX]
+
+本檔案提供下列內容：
+
+* [開始使用內容實驗](get-started-experiment.md)
+* **[建立內容實驗](content-experiment.md)**
+* [瞭解統計計算](experiment-calculations.md)
+* [設定實驗報告](reporting-configuration.md)
+* [實驗報告中的統計計算](experiment-report-calculations.md)
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer內容實驗可讓您定義多個傳送處理，以測量哪個處理對目標對象執行效果最佳。 您可以選擇變更傳送內容、主旨或寄件者。 興趣對象會隨機分配給每個處理，以決定哪個處理對指定量度最有效。
 

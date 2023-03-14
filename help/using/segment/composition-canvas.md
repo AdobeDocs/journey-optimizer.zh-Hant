@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informity"
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 1%
@@ -20,11 +20,16 @@ ht-degree: 1%
 
 # 使用組合畫布 {#composition-canvas}
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>本檔案提供下列內容：<br/><ul>
-<li><a href="get-started-audience-orchestration.md">開始使用對象組合</a></li>
-<li><a href="create-compositions.md">建立您的第一個合成工作流程</a></li>
-<li><b><a href="composition-canvas.md">使用組合畫布</a></b></li>
-<li><a href="access-audiences.md">存取及管理對象</a></li></ul></td></tr></table>
+>[!BEGINSHADEBOX]
+
+本檔案提供下列內容：
+
+* [開始使用對象組合](get-started-audience-orchestration.md)
+* [建立您的第一個合成工作流程](create-compositions.md)
+* **[使用組合畫布](composition-canvas.md)**
+* [存取及管理對象](access-audiences.md)
+
+>[!ENDSHADEBOX]
 
 對象構成提供視覺畫布，可讓您建立對象並使用各種活動（分割、擴充等）。
 

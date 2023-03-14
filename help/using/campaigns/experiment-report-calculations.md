@@ -7,14 +7,27 @@ role: User
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+badge: label="Beta" type="Informity"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 0%
+source-wordcount: '961'
+ht-degree: 3%
 
 ---
 
-# 實驗報表中的統計計算 {#experiment-report-calculations}
+# 實驗報告中的統計計算 {#experiment-report-calculations}
+
+>[!BEGINSHADEBOX]
+
+本檔案提供下列內容：
+
+* [開始使用內容實驗](get-started-experiment.md)
+* [建立內容實驗](content-experiment.md)
+* [瞭解統計計算](experiment-calculations.md)
+* [設定實驗報告](reporting-configuration.md)
+* **[實驗報告中的統計計算](experiment-report-calculations.md)**
+
+>[!ENDSHADEBOX]
 
 本頁記錄在Adobe Journey Optimizer中「行銷活動實驗」報表中使用的詳細統計計算。
 

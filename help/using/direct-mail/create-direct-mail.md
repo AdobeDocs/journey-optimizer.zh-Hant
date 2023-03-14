@@ -9,10 +9,11 @@ keywords: 直接郵件，郵件，行銷活動
 hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+badge: label="Beta" type="Informity"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 3%
+source-wordcount: '517'
+ht-degree: 4%
 
 ---
 
@@ -22,6 +23,19 @@ ht-degree: 3%
 >id="ajo_direct_mail"
 >title="直接郵件建立"
 >abstract="在排程的行銷活動中建立直接郵件訊息，並設計直接郵件提供者傳送郵件給客戶所需的解壓縮檔案。"
+
+>[!BEGINSHADEBOX]
+
+本檔案提供下列內容：
+
+* **[建立直接郵件](create-direct-mail.md)**
+* [設定直接郵件](direct-mail-configuration.md)
+
+>[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>直接郵件目前以私人測試版形式提供，且可能會經常更新，恕不另行通知。
 
 直接郵件是離線通道，可讓您個人化並產生直接郵件提供者傳送郵件給客戶所需的解壓縮檔案。
 

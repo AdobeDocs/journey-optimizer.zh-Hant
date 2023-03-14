@@ -8,20 +8,29 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
-source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
+badge: label="Beta" type="Informity"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 14%
+source-wordcount: '409'
+ht-degree: 18%
 
 ---
 
 # Visual Editing Helper 擴充功能 {#visual-editing-helper}
 
-為了快速撰寫和預覽您的網頁體驗，Google Chrome的Adobe Experience Cloud Visual Editing Helper瀏覽器擴充功能可讓您在Adobe中妥善地載入網站 [!DNL Journey Optimizer] 網頁設計工具。
+>[!BEGINSHADEBOX]
 
->[!NOTE]
->
->網路頻道功能目前僅供選取使用者的測試版使用。
+本檔案提供下列內容：
+
+* [開始使用網路頻道](get-started-web.md)
+* [建立網站體驗](create-web.md)
+* [製作網頁](author-web.md)
+* **[Visual Editing Helper 擴充功能](visual-editing-helper.md)**
+* [網站報告](web-report.md)
+
+>[!ENDSHADEBOX]
+
+為了快速撰寫和預覽您的網頁體驗，Google Chrome的Adobe Experience Cloud Visual Editing Helper瀏覽器擴充功能可讓您在Adobe中妥善地載入網站 [!DNL Journey Optimizer] 網頁設計工具。
 
 ## 安裝Visual Editing Helper擴充功能 {#install-visual-editing-helper}
 
@@ -31,7 +40,7 @@ ht-degree: 14%
 
 1. 按一下「**[!UICONTROL 新增至 Chrome]** > **[!UICONTROL 新增擴充功能]**」。
 
-1. 在中建立網頁頻道行銷活動 [!DNL Journey Optimizer]. [了解如何](author-web.md#create-web-campaign)
+1. 在中建立網頁頻道行銷活動 [!DNL Journey Optimizer]. [了解作法](author-web.md#create-web-campaign)
 
 1. 開啟 [!DNL Journey Optimizer] 網頁設計工具，開始編寫您的網頁體驗。 [了解更多](author-web.md)
 
