@@ -4,9 +4,9 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
+source-git-commit: 60514a739a2b3380260b6d1e33e33467cc88baad
 workflow-type: tm+mt
-source-wordcount: '2367'
+source-wordcount: '2386'
 ht-degree: 97%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 97%
 
 ## 2023 年 2 月 {#feb-2023}
 
+* 隨附的所有新功能和改善項目 [!DNL Journey Optimizer] 』23年2月發行版本已在檔案中詳細說明。 [閱讀全文](release-notes.md)
 * API 觸發的行銷活動檔案中已新增附註，以指定傳入請求的內容屬性不得超過 50kb。[閱讀全文](../campaigns/api-triggered-campaigns.md#contextual)
-
 * 已新增選擇退出資訊如何儲存在 **同意服務資料集** 透過登錄頁面取消訂閱後。 [閱讀全文](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023 年 1 月 {#jan-2023}
@@ -31,6 +31,8 @@ ht-degree: 97%
 * [!DNL Journey Optimizer]中的協助工具功能現在會分組至專用頁面。 [閱讀全文](../start/accessibility.md)
 * 在[!DNL Journey Optimizer]中新增有關資料管理的新頁面。[閱讀全文](../data/gs-data.md)
 * 新增表格，列出使用 Decisioning API 傳送優惠時，回應中可傳回的所有程式碼。[閱讀全文](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+
++++ 2022
 
 ## 2022 年 12 月  {#december-2022}
 
@@ -155,11 +157,14 @@ ht-degree: 97%
 * **選擇退出管理**&#x200B;區段變得清晰，並稍作重組。 [閱讀全文](../privacy/opt-out.md#opt-out-management)
 *  更新&#x200B;**插入連結**&#x200B;區段來反映近期的使用者介面變更。 [閱讀全文](../email/message-tracking.md#insert-links)
 
++++
+
++++ 2021
+
 ## 2021 年 11 月 {#november-2021}
 
 * 現在提供完整說明，在歷程中使用&#x200B;**進階運算式編輯器**。[閱讀全文](../building-journeys/expression/expressionadvanced.md)
 * 加入有關 **CNAME 子網域委派方法**&#x200B;的新區段。 [閱讀全文](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
-
 
 ## 2021 年 10 月 {#october-2021}
 
@@ -202,7 +207,6 @@ ht-degree: 97%
 
 * 新增如何編輯 IP 集區的子區段。 [閱讀更多](../configuration/ip-pools.md#edit-ip-pool)
 
-
 ## 2021 年 8 月 {#august-2021}
 
 * 有關 [!DNL Journey Optimizer] 2021 年 8 月發行版本的所有新功能和改進項目詳情，請參閱本文件。 [閱讀全文](release-notes.md)
@@ -221,7 +225,6 @@ ht-degree: 97%
 * 新增區段，說明如何手動將電子郵件地址和網域加入隱藏清單。 [閱讀全文](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * 更新[存取隱藏清單](../configuration/manage-suppression-list.md#access-suppression-list)區段與 [重試](../configuration/retries.md)區段來凸顯新的使用者介面。
 * 建立優惠時新增及設定代表的新流程已記錄下來。 [閱讀全文](../offers/offer-library/creating-personalized-offers.md#representations)
-
 
 ## 2021 年 7 月 {#july-2021}
 
@@ -242,3 +245,4 @@ ht-degree: 97%
 * 記錄「決策管理」新 **[!UICONTROL 概觀]**&#x200B;標籤。[閱讀全文](../offers/get-started/user-interface.md#overview)
 * 新增區段，說明優惠和決定清單的可用動作： [優惠方案清單](../offers/offer-library/creating-personalized-offers.md#offer-list)和[決定清單](../offers/offer-activities/create-offer-activities.md#decision-list)。
 
++++
