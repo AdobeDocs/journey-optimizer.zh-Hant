@@ -5,10 +5,10 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: d690e066e5a6ec51b0cc86f9e4f375e72cd7f661
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,17 +43,15 @@ ht-degree: 1%
 
    * 由撰寫的電子郵件 [!DNL Journey Optimizer]
    * 由製作的行動推播通知 [!DNL Journey Optimizer]
-   * 使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} 或行動SDK<!--TBC--> 呈現選件 <!--need more info + link-->
 
-   >[!NOTE]
-   >
-   >如果Adobe以視覺化方式將選件轉譯給管道上的一般使用者，您可以假設Adobe會自動傳入意見。
+   <!--If Adobe renders the offer visually to the end user on the channel, you can assume that Adobe will auto-send in the feedback.-->
 
 1. 另一方面，有些管道需要將曝光數和點按資料以 **體驗事件**.
 
-   除了使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} 或行動SDK<!--TBC-->，所有使用決策API請求來接收選件的管道都需要以體驗事件的形式傳送意見。 其中包括:
+   所有使用決策API請求來接收選件的管道都需要以體驗事件的形式傳送意見。 其中包括:
 
-   * 網頁
+   * 網頁使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant){target="_blank"} 呈現選件
+   * 使用 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} 呈現選件
    * 資訊站
    * 透過協力廠商應用程式傳送的訊息
 
