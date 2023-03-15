@@ -5,10 +5,10 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: d690e066e5a6ec51b0cc86f9e4f375e72cd7f661
+source-git-commit: c9e970bc231fc3d19f0243b71256ea0f5a981af7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 3%
 
 ---
 
@@ -39,25 +39,20 @@ ht-degree: 0%
 
 會根據 [!DNL Journey Optimizer] 使用的通道。
 
-1. 一方面，有些管道 **自動** 追蹤曝光次數和點按次數。 具體如下：
+**電子郵件** 由 [!DNL Journey Optimizer] **自動** 追蹤曝光次數和點按次數。
 
-   * 由撰寫的電子郵件 [!DNL Journey Optimizer]
-   * 由製作的行動推播通知 [!DNL Journey Optimizer]
+不過， **最多通道** 需要將曝光次數和點按次數資料以 **體驗事件**. 其中包括:
 
-   <!--If Adobe renders the offer visually to the end user on the channel, you can assume that Adobe will auto-send in the feedback.-->
+* 網頁使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant){target="_blank"} 呈現選件
 
-1. 另一方面，有些管道需要將曝光數和點按資料以 **體驗事件**.
+* 使用 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* 資訊站
+* 透過協力廠商應用程式傳送的訊息
+   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
 
-   所有使用決策API請求來接收選件的管道都需要以體驗事件的形式傳送意見。 其中包括:
-
-   * 網頁使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant){target="_blank"} 呈現選件
-   * 使用 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} 呈現選件
-   * 資訊站
-   * 透過協力廠商應用程式傳送的訊息
-
-   >[!NOTE]
-   >
-   >如果選件需要有關如何呈現的指示，您可以假設您應將意見傳入作為體驗事件。
+>[!NOTE]
+>
+>使用決策API請求來接收選件的管道需要以體驗事件的形式傳送意見。 換言之，如果選件需要有關如何呈現的指示，您可以假設您應將意見以體驗事件的形式傳入。
 
 ### 自訂事件
 
