@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 676e2d6788c8110b76a38e857a62ba9c1be5842c
+source-git-commit: 63237c02f632d289dba845acdcd0859f2d6de9c9
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 45%
+source-wordcount: '442'
+ht-degree: 31%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 45%
 
 ## 原生傳入關鍵字{#sms-native-keywords}
 
-預設情況下，Adobe Journey Optimizer 會根據 Sinch 和 Twilio 等原生整合的行業標準，處理 STOP、UNSTOP 和 START 等標準英文回覆訊息，以實現免付費和長程式碼訊息。 
+依預設，Adobe Journey Optimizer會處理下列免付費和長碼訊息的標準英文回覆訊息：停止、取消停止、開始、結束、取消訂閱。 請注意，與Journey Optimizer搭配使用時，只有Sinch支援原生關鍵字。
 
-這些關鍵字通常會觸發您的第三方提供者（例如Twilio或Sinch）的自動標準回覆。 您可以直接向提供者或透過其文件網站確認。
+這些關鍵字通常會觸發您第三方提供者的自動標準回覆。 您可以直接向提供者或透過其文件網站確認。
 
-無需任何步驟，即可確保SMS選擇退出功能在Adobe Journey Optimizer中運作，因為關鍵字回應STOP、UNSTOP和START會自動辨識。 設定檔選擇退出狀態會在Adobe Journey Optimizer中即時更新。
+無需任何步驟，即可確保SMS選擇退出功能在Adobe Journey Optimizer中運作，因為會自動辨識關鍵字回應STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE。 設定檔選擇退出狀態會在Adobe Journey Optimizer中即時更新。
 
 
 ## 封鎖名單{#sms-blocklists}
@@ -39,7 +39,9 @@ ht-degree: 45%
 
 ## 短程式碼 {#short-codes}
 
-依預設，Adobe Journey Optimizer不會處理短程式碼的選擇退出、選擇加入或說明關鍵字。 您必須確保您的短程式碼符合選擇退出處理的所有產業規則和法規。
+根據預設，短程式碼碼的選擇加入或說明關鍵字不會由Adobe Journey Optimizer處理。 為確保符合退出處理的業界法規和規則，請務必確認您的簡短程式碼是否遵守所有准則。
+
+不過，Journey Optimizer不支援根據傳入關鍵字以及不同寄件者ID的全域選擇退出。
 
 ## 英數字元寄件者 ID {#alphanumeric}
 
