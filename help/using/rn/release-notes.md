@@ -5,9 +5,9 @@ title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: fee83ffd136ebe21ae62c7e0bd50dc31e0f4b948
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1064'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -22,23 +22,23 @@ ht-degree: 86%
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
 
-## 2023年3月改進 {#march-2023}
+## 2023 年 3 月改進項目 {#march-2023}
 
 **管理歷程中的標籤**
 
-身為Journey Optimizer從業人員，您現在可以使用標籤來組織業務物件。 標籤是一種快速、簡便的對象分類方法，用於改進搜索。 此功能目前為測試版，僅適用於歷程。 [了解更多](../building-journeys/tags.md)
+身為 Journey Optimizer 從業人員，您現在可以使用標籤來組織業務物件。標籤是一種快速、簡便的物件分類方法，用於改進搜尋。此功能目前處於測試階段，僅適用於歷程。[了解更多](../building-journeys/tags.md)
 
-**已將決策管理標籤更名為「集合」限定符**
+**已將決策管理標籤重新命名為「集合」限定詞**
 
-為避免與Adobe Experience Platform上最近發行的標籤功能產生任何混淆，「決策管理」標籤已重新命名為「集合限定符」。
+為避免與 Adobe Experience Platform 最近發佈的標籤功能產生混淆，「決策管理」標籤已重新命名為「集合限定詞」。 
 
-請注意，雖然「標籤」一詞不再用於Decision Management使用者介面，但仍用於API和資料集等後端服務。
+請注意，雖然「標籤」一詞不再用於決策管理使用者介面，但仍用於 API 及資料集等後端服務。
 
 **決策管理限定**
 
-* 您現在可以每天、每週或每月重設優惠方案限定計數器。 [了解更多](../offers/offer-library/add-constraints.md#capping)
+* 您現在可以每天、每週或每月重設優惠方案限定計數器。[了解更多](../offers/offer-library/add-constraints.md#capping)
 
-* 您也可以選擇應查看哪個Adobe Experience Platform事件以設定offer decisioning上限。 [了解更多](../offers/offer-library/add-constraints.md#capping)
+* 您也可以選擇應查看哪個 Adobe Experience Platform 事件以設定 Offer Decisioning 上限。[了解更多](../offers/offer-library/add-constraints.md#capping)
 
 ## 2023 年 2 月發行說明 {#feb-2023}
 
