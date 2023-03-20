@@ -9,7 +9,7 @@ exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 11%
+ht-degree: 25%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"
 >title="版位"
->abstract="版位是用來展示優惠方案的容器。 它有助於確保在訊息中的正確位置顯示正確的選件內容。 版位是從「元件」功能表建立。"
+>abstract="位置是用於展示優惠的容器。它有助於確保正確的優惠內容顯示在訊息中的正確位置。位置是從「元件」選單建立的。"
 
 版位有助於確保正確的優惠方案內容顯示在訊息中的正確位置。 將內容新增至優惠方案時，系統會要求您選取可顯示該內容的版位。
 

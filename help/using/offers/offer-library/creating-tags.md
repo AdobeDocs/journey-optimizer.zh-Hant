@@ -1,5 +1,5 @@
 ---
-title: 建立收集限定符
+title: 建立集合限定詞
 description: 了解如何為您的優惠方案建立集合限定符
 feature: Offers
 topic: Integrations
@@ -9,16 +9,16 @@ exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 2%
+ht-degree: 22%
 
 ---
 
-# 建立收集限定符 {#create-tags}
+# 建立集合限定詞 {#create-tags}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_tags"
->title="收集限定符"
->abstract="將一或多個集合限定符與選件建立關聯，以便讓您的選件資料庫保持井然有序，並更輕鬆地找到選件。 集合限定符從「元件」菜單中建立。"
+>title="集合限定詞"
+>abstract="將一個或多個集合限定詞與優惠相關聯，以保持您的優惠資料庫井然有序並更輕鬆地找到優惠。集合限定詞是從「元件」選單建立的。"
 
 將集合限定符（先前稱為「標籤」）與您的選件關聯，可讓選件更輕鬆地加以組織。 例如，您可以使用「黑色星期五」集合限定符來標籤黑色星期五優惠方案。 然後，您可以使用優惠方案庫中的搜尋功能，輕鬆找到所有包含該集合限定符的優惠方案。
 

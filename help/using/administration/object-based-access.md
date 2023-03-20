@@ -11,8 +11,8 @@ keywords: 對象，級別，訪問，控制，標籤，olac，授權
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '459'
+ht-degree: 10%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 >
 >若要建立標籤，您必須是角色的一部分，且 **[!UICONTROL 管理使用量標籤]** 權限。
 
-**[!UICONTROL 標籤]** 可讓您根據套用至該資料的使用原則，對資料集和欄位進行分類。 **[!UICONTROL 標籤]** 可隨時套用，提供您選擇控管資料的彈性。
+**[!UICONTROL 標籤可讓您根據適用於該資料的使用原則對資料集和欄位進行分類。]****[!UICONTROL 標籤]** 可隨時套用，提供您選擇控管資料的彈性。
 
 您可以在 [!DNL Permissions] 產品。 如需詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html)。
 

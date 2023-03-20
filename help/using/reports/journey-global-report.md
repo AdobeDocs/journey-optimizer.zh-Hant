@@ -31,7 +31,7 @@ ht-degree: 0%
 * [歷程](#journey-global)
 * [電子郵件](#email-global)
 * [推播](#push-global)
-* [SMS](#sms-global)
+* [簡訊](#sms-global)
 
 歷程 **[!UICONTROL 全域報表]** 會分為不同的Widget，詳述您歷程的成功與錯誤。 如有需要，可對每個介面工具集調整大小並加以刪除。 有關詳細資訊，請參閱 [節](global-report.md#modify-dashboard).
 
@@ -259,7 +259,7 @@ ht-degree: 0%
 
 ![](assets/journey_global_4.png)
 
-+++進一步了解SMS報表可用的不同量度和Widget。
++++進一步了解SMS報表可用的不同量度和小工具。
 
 此 **[!UICONTROL SMS — 傳送統計資料]** 表格會詳細說明傳送的成功：
 

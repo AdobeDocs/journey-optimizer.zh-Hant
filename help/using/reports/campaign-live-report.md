@@ -29,7 +29,7 @@ ht-degree: 3%
 * [Campaign](#campaign-live)
 * [電子郵件](#email-live)
 * [推播](#push-live)
-* [SMS](#sms-live)
+* [簡訊](#sms-live)
 
 行銷活動 **[!UICONTROL 即時報表]** 會分為不同的小工具，詳細說明促銷活動的成功和錯誤。 如有需要，可對每個介面工具集調整大小並加以刪除。 有關詳細資訊，請參閱 [節](../reports/live-report.md#modify-dashboard).
 

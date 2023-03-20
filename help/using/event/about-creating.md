@@ -92,7 +92,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >針對系統產生的事件，請確定您已將「協調」欄位群組新增至XDM架構。 這可確保您的架構包含所有要使用的必要資訊 [!DNL Journey Optimizer].
+   >針對系統產生的事件，請確定您已將「協調」欄位群組新增至XDM架構。 這可確保您的架構包含要搭配使用的所有必要資訊 [!DNL Journey Optimizer].
 
    ![](assets/journey9.png)
 

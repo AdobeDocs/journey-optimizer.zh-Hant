@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
 workflow-type: tm+mt
 source-wordcount: '2323'
-ht-degree: 2%
+ht-degree: 17%
 
 ---
 
@@ -17,23 +17,23 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
->title="關於選件限制"
->abstract="有了限制，您可以指定相較於其他選件，優先順序和呈現給使用者的方式。"
+>title="關於優惠限制"
+>abstract="透過限制，您可以指定與其他優惠相比，如何確定優惠的優先順序並呈現給使用者。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_constraints"
->title="關於選件限制"
->abstract="有了限制，您可以指定相較於其他選件，優先順序和呈現給使用者的方式。"
+>title="關於優惠限制"
+>abstract="透過限制，您可以指定與其他優惠相比，如何確定優惠的優先順序並呈現給使用者。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
->title="關於選件優先順序"
->abstract="在此欄位中，您可以指定選件的優先順序設定。 優先順序是用來對符合資格、日期和上限等所有限制的優惠方案排名的數字。"
+>title="關於優惠優先順序"
+>abstract="在此欄位中，您可以指定優惠的優先順序設定。優先順序是一個數字，用於對滿足所有限制 (例如資格、日期和上限) 的優惠進行排名。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
 >title="設定優先順序"
->abstract="如果使用者符合多個優惠方案的資格，優先順序有助於定義優惠方案的優先順序，而非其他優惠方案。 優惠方案的優先順序越高，優先順序與其他優惠方案相比就越高。"
+>abstract="如果使用者符合資格可獲得多個優惠，則優先順序有助於定義優惠相較於其他優惠的優先順序。優惠的優先順序越高，相較於其他優惠的優先順序就越高。"
 
 限制可讓您定義顯示優惠方案的條件。
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 
    ![](../assets/offer-eligibility.png)
 
-1. 定義 **[!UICONTROL 優先順序]** 選件的數量，而非其他選件（如果使用者符合多個選件的資格）。 優惠方案的優先順序越高，優先順序與其他優惠方案相比就越高。
+1. 定義 **[!UICONTROL 優先順序]** 選件的數量，而非其他選件（如果使用者符合多個選件的資格）。 優惠的優先順序越高，相較於其他優惠的優先順序就越高。
 
    ![](../assets/offer-priority.png)
 
@@ -64,18 +64,18 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="定義資格"
->abstract="依預設，任何設定檔都有資格呈現選件，但您可以使用區段或決策規則，將選件限制在特定設定檔。"
+>abstract="依預設，任何設定檔都有資格獲得優惠，但您可以使用區段或決定規則將優惠限制給特定設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
->title="關於優惠方案資格"
->abstract="在本節中，您可以使用決策規則來判斷哪些使用者符合該優惠方案的資格。"
+>title="關於優惠資格"
+>abstract="在此部分，您可以使用決定規則來確定哪些使用者有資格獲得優惠。"
 >additional-url="https://video.tv.adobe.com/v/329373" text="觀看示範影片"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
->title="設定檔估計總計"
->abstract="選取區段或決策規則時，您可以看到預估合格設定檔的相關資訊。"
+>title="總設定檔估計值"
+>abstract="當您選擇區段或決定規則時，您可以看到有關預估合格設定檔的資訊。"
 
 此 **[!UICONTROL 優惠方案資格]** 區段可讓您限制選件使用區段或決策規則定義的特定設定檔。
 
@@ -101,7 +101,7 @@ ht-degree: 2%
    >
    >目前不支援以事件為基礎的選件 [!DNL Journey Optimizer]. 如果您根據 [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}，您將無法在優惠方案中運用它。
 
-選取區段或決策規則時，您可以看到預估合格設定檔的相關資訊。 按一下 **[!UICONTROL 重新整理]** 更新資料。
+當您選擇區段或決定規則時，您可以看到有關預估合格設定檔的資訊。按一下 **[!UICONTROL 重新整理]** 更新資料。
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -131,24 +131,24 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
->title="關於選件限定"
->abstract="在此欄位中，您可以指定可呈現選件的次數。"
+>title="關於優惠上限"
+>abstract="在此欄位中，您可以指定優惠可以呈現的次數。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="使用上限設定"
->abstract="為避免過度吸引客戶，請使用上限來定義可呈現選件的次數上限。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="變更日期可能會影響限定"
+>title="使用上限"
+>abstract="為避免過度招攬客戶，請使用上限來定義優惠的呈現次數上限。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="變更日期會影響上限"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
->title="設定限定頻率"
->abstract="您可以選擇每天、每週或每月重設優惠方案限定計數器。 請注意，儲存優惠方案後，您將無法變更選取的頻率。"
+>title="設定上限頻率"
+>abstract="您可以選擇每天、每週或每月重設優惠上限計數器。請注意，儲存優惠後，您將無法變更所選頻率。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping_impression"
 >title="曝光"
->abstract="僅傳入頻道才可使用曝光數作為上限事件。"
+>abstract="使用曝光數做為上限事件僅適用於傳入管道。"
 
 上限設定是用來定義可呈現選件的最大次數的限制。
 
@@ -279,8 +279,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="變更日期可能會影響限定"
->abstract="如果對此選件套用上限設定，當您變更開始或結束日期時，可能會受到影響。"
+>title="變更日期會影響上限"
+>abstract="如果將上限套用到此優惠，則當您變更開始或結束日期時，它可能會受到影響。"
 
 變更優惠方案的日期時，您必須小心處理，因為若符合下列條件，這可能會對限定產生影響：
 

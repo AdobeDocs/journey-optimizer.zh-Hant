@@ -9,7 +9,7 @@ exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_collection"
->title="關於選件集合"
->abstract="有了優惠方案集合，您可以將優惠方案重新分組到您所選擇的類別，借此組織優惠方案。"
+>title="關於優惠集合"
+>abstract="有了優惠集合，您可以將優惠重新群組到您選擇的類別中以組織優惠。"
 
 集合可讓您將選件重新分組為您選擇的類別，借此組織選件。 例如，您可以建立「體育」系列，其中僅包含與體育相關的優惠方案。
 

@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
->title="關於選件屬性"
->abstract="使用選件屬性時，您可以為報表和分析目的，將索引鍵值配對與選件建立關聯。"
+>title="關於優惠屬性"
+>abstract="有了優惠屬性，您可以將索引鍵值組與優惠相關聯以用於報告和分析。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_attributes"
->title="選件屬性"
->abstract="使用選件屬性時，您可以為報表和分析目的，將索引鍵值配對與選件建立關聯。"
+>title="優惠屬性"
+>abstract="有了優惠屬性，您可以將索引鍵值組與優惠相關聯以用於報告和分析。"
 
 若要建立 **優惠方案**，請遵循下列步驟：
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >選取區段或決策規則時，您可以看到預估合格設定檔的相關資訊。 按一下 **[!UICONTROL 重新整理]** 更新資料。
+   >當您選擇區段或決定規則時，您可以看到有關預估合格設定檔的資訊。按一下 **[!UICONTROL 重新整理]** 更新資料。
    >
    >請注意，當規則參數包含不在設定檔中的資料（例如內容資料）時，設定檔估計將無法使用。 例如，適用性規則要求目前的天氣為≥80度。
 
