@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 資料集，優化程式，使用案例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
+source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 0%
 [同意服務資料集](#consent-service-dataset)
 [BCC意見事件資料集](#bcc-feedback-event-dataset)
 [實體資料集](#entity-dataset)
+
+若要檢視每個結構的欄位和屬性完整清單，請參閱 [Journey Optimizer結構字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 ## 電子郵件追蹤體驗事件資料集{#email-tracking-experience-event-dataset}
 

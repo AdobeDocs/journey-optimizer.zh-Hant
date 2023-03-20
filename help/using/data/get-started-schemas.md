@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 結構，平台，資料，結構
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 30%
+source-wordcount: '332'
+ht-degree: 28%
 
 ---
 
@@ -32,6 +32,8 @@ ht-degree: 30%
 了解如何在 [本檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target="_blank"}
 
 使用結構編輯器建立結構的逐步檔案位於 [本頁](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant){target="_blank"}
+
+若要檢視每個結構的欄位和屬性完整清單，請參閱 [Journey Optimizer結構字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 
 ## 作法影片{#video-schema}

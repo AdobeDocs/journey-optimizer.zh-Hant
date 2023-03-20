@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: platform，資料湖，建立，湖，資料集，設定檔
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 8%
+source-wordcount: '836'
+ht-degree: 9%
 
 ---
 
@@ -55,6 +55,8 @@ ht-degree: 8%
 
 * _傳送時間最佳化分數/參與分數_:輸出Journey AI的分數。
 
+若要檢視每個結構的欄位和屬性完整清單，請參閱 [Journey Optimizer結構字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+
 ## 預覽資料集{#preview-datasets}
 
 在「資料集活動」畫面中，選取 **預覽資料集** 在畫面的右上角附近，預覽此資料集中最新成功的批次資料。 資料集空白時，預覽連結會停用。
@@ -67,7 +69,7 @@ ht-degree: 8%
 
 您可以：
 
-* 從結構建立資料集。 [在本文件中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target="_blank"}
+* 從結構建立資料集. [在本文件中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target="_blank"}
 * 從CSV檔案建立資料集。 [在本文件中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hant){target="_blank"}
 
 觀看此影片，了解如何建立資料集、將資料對應至結構、新增資料，以及確認資料已內嵌。
