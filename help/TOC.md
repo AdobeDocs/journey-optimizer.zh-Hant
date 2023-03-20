@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1334'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -197,7 +197,7 @@ ht-degree: 96%
          + [加入內嵌樣式屬性](using/email/inline-styling.md)
    + [預覽和測試您的電子郵件](using/email/preview.md)
    + [建立內容範本](using/email/content-templates.md)
-   + [使用Experience Manager範本](using/email/aem-templates.md)
+   + [使用 Experience Manager 範本](using/email/aem-templates.md)
    + [管理電子郵件選擇退出](using/email/email-opt-out.md)
    + 設定電子郵件頻道 {#configure-email}
       + [開始使用電子郵件設定](using/email/get-started-email-config.md)
@@ -325,7 +325,7 @@ ht-degree: 96%
    + 建立元件 {#create-components}
       + [建立位置](using/offers/offer-library/creating-placements.md)
       + [建立決定規則](using/offers/offer-library/creating-decision-rules.md)
-      + [建立收集限定符](using/offers/offer-library/creating-tags.md)
+      + [建立集合限定詞](using/offers/offer-library/creating-tags.md)
    + 建立排名 {#rankings}
       + [開始使用排名](using/offers/ranking/get-started-rankings.md)
       + [排名公式](using/offers/ranking/create-ranking-formulas.md)
@@ -347,13 +347,13 @@ ht-degree: 96%
       + [設定決定中的優惠選擇](using/offers/offer-activities/configure-offer-selection.md)
       + [建立模擬](using/offers/offer-activities/simulation.md)
    + [使用批次決策](using/offers/batch-delivery.md)
-   + 收集事件資料 {#collect-event-data}
-      + [資料收集快速入門](using/offers/data-collection/data-collection.md)
+   + 收集事件資料{#collect-event-data}
+      + [開始使用資料收集](using/offers/data-collection/data-collection.md)
       + [建立資料集以收集事件](using/offers/data-collection/create-dataset.md)
       + [設定事件擷取](using/offers/data-collection/schema-requirement.md)
    + 建立決定管理報告 {#create-reports}
       + [開始使用決定管理事件](using/offers/reports/get-started-events.md)
-      + [決策管理事件關鍵資訊](using/offers/reports/key-information.md)
+      + [決策管理事件重要資訊](using/offers/reports/key-information.md)
       + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
    + 匯出優惠目錄 {#export-catalog}
       + [開始使用優惠目錄匯出 ](using/offers/export-catalog/get-started-export.md)
@@ -377,12 +377,12 @@ ht-degree: 96%
             + [建立決定規則](using/offers/api-reference/offers-api/decision-rules/create.md)
             + [更新決定規則](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [刪除決定規則](using/offers/api-reference/offers-api/decision-rules/delete.md)
-         + 收集限定符 {#tags}
-            + [列出集合限定符](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [查找收集限定符](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [建立集合限定符](using/offers/api-reference/offers-api/tags/create.md)
-            + [更新收集限定符](using/offers/api-reference/offers-api/tags/update.md)
-            + [刪除集合限定符](using/offers/api-reference/offers-api/tags/delete.md)
+         + 集合限定詞{#tags}
+            + [列出集合限定詞](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [查詢集合限定詞](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [建立集合限定詞](using/offers/api-reference/offers-api/tags/create.md)
+            + [更新集合限定詞](using/offers/api-reference/offers-api/tags/update.md)
+            + [刪除集合限定詞](using/offers/api-reference/offers-api/tags/delete.md)
          + 個人化優惠 {#personalized-offers}
             + [列出個人化優惠](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
             + [查詢個人化優惠](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
