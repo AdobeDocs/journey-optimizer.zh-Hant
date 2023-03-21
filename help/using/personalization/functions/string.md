@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: db7c57ce9f5c46d8beb6ff0037a8854fd136cb4a
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 7%
+source-wordcount: '1868'
+ht-degree: 6%
 
 ---
 
@@ -648,13 +648,20 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 全部替換{#replaceAll}
 
-此 `replaceAll` 函式可用來將符合「target」的文字的所有子字串取代為指定的常值「取代」字串。 替換從字串的開頭到結尾，例如，將字串&quot;aaa&quot;中的&quot;aa&quot;取代為&quot;b&quot;將產生&quot;ba&quot;而非&quot;ab&quot;。
+此 `replaceAll` 函式可用來將符合「regex」運算式的文字的所有子字串取代為指定的常值「取代」字串。 Regex對「\」和「+」有特殊的處理方式，所有Regex運算式都遵循PQL逸出策略。 替換從字串的開頭到結尾，例如，將字串&quot;aaa&quot;中的&quot;aa&quot;取代為&quot;b&quot;將產生&quot;ba&quot;而非&quot;ab&quot;。
 
 **語法**
 
 ```sql
 {%= replaceAll(string,string,string) %}
 ```
+>[!NOTE]
+>
+> 如果作為第二個引數的regex運算式是特殊的regex字元，則我們需要使用雙反斜線(`//`)來處理這類案例。
+>
+> 特殊規則運算式字元清單[., +, *, ?, ^, $,(,), [, ], {, }, |, \.]
+> 
+> 摘要於 [Oracle檔案](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}
 
 ## 右修剪 {#rightTrim}
 
