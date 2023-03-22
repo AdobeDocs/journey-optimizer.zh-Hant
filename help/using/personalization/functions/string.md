@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: db7c57ce9f5c46d8beb6ff0037a8854fd136cb4a
+source-git-commit: 9301d02be37c6aabad9c10a4cc43c20d3e3ee23e
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1857'
 ht-degree: 6%
 
 ---
@@ -655,13 +655,12 @@ doesNotEndWith(person.emailAddress,".com")
 ```sql
 {%= replaceAll(string,string,string) %}
 ```
+
 >[!NOTE]
 >
-> 如果作為第二個引數的regex運算式是特殊的regex字元，則我們需要使用雙反斜線(`//`)來處理這類案例。
->
-> 特殊規則運算式字元清單[., +, *, ?, ^, $,(,), [, ], {, }, |, \.]
+> 當視為第二個引數的運算式是特殊的規則運算式字元時，請使用雙反斜線(`//`)。  特殊的規則運算式字元包括：[., +, *, ?, ^, $,(,) [, ], {, }, |, \.]
 > 
-> 摘要於 [Oracle檔案](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}
+> 深入了解 [Oracle檔案](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}。
 
 ## 右修剪 {#rightTrim}
 
