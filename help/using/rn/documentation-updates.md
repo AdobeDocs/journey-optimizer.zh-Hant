@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 60514a739a2b3380260b6d1e33e33467cc88baad
+source-git-commit: 371bd375d2c93b0694fa7eaf148f5c0793d59c8e
 workflow-type: tm+mt
-source-wordcount: '2386'
-ht-degree: 99%
+source-wordcount: '2399'
+ht-degree: 98%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 99%
 
 ## 2023 年 3 月 {#march-2023}
 
+* 新增在您的歷程中啟用Adobe Analytics事件的步驟。 [閱讀全文](../event/about-analytics.md)
 * 在「決策管理指南」中已建立新區段，說明如何在 Adobe Experience Platform 收集 Offer Decisioning 意見回饋，包括顯示哪些優惠方案以及使用者如何與其進行互動。[閱讀全文](../offers/data-collection/data-collection.md)
 
 ## 2023 年 2 月 {#feb-2023}
