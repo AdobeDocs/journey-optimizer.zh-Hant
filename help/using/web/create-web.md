@@ -12,7 +12,7 @@ badge: label="Beta" type="Informity"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1041'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -70,8 +70,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
->title="定義網面"
->abstract="網頁表面可以符合單一頁面URL或多個頁面，讓您能夠跨一或多個網頁提供內容修改。"
+>title="定義網路表面"
+>abstract="網頁表面可能會和單次頁面 URL 或多個頁面相符，可讓您在一個或多個網頁上傳遞內容修改。"
 
 若要開始透過促銷活動建立您的網頁體驗，請遵循下列步驟。
 
@@ -81,7 +81,7 @@ ht-degree: 8%
 
    ![](assets/web-create-campaign.png)
 
-1. 定義網面。
+1. 定義網路表面.
 
    >[!NOTE]
    >

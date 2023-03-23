@@ -12,7 +12,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '980'
-ht-degree: 60%
+ht-degree: 63%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="關於事件"
->abstract="事件會連結至人員，它與人的行為相關（例如，某人購買產品、造訪商店、離開網站等等）或是某人發生的事（例如，某人達到 10,000 點忠誠點數）。這是Journey Optimizer在歷程中會監聽的事項，以便協調下一個最佳動作。"
+>abstract="事件會連結至人員，它與人的行為相關（例如，某人購買產品、造訪商店、離開網站等等）或是某人發生的事（例如，某人達到 10,000 點忠誠點數）。這是 Journey Optimizer 在歷程中會監聽的事件，以便協調下一個最佳動作。"
 
-事件設定可讓您定義 [!DNL Journey Optimizer] 會接收以作為事件的資訊。您可以使用多個事件（在歷程的不同步驟中），而數個歷程可以使用相同的事件。
+事件設定可讓您定義 [!DNL Journey Optimizer] 會接收以作為事件的資訊。您可以使用多個事件 (在歷程的不同步驟中)，而好幾個歷程可以使用同一個事件。
 
 >[!CAUTION]
 >

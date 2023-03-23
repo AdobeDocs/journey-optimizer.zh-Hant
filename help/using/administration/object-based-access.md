@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="物件等級存取控制"
->abstract="如果您套用您無權存取的任何標籤，則您對此物件的存取權將遭撤銷。"
+>abstract="如果您套用任何您無權存取的標籤，則您對此物件的存取權限將被撤銷。"
 
 >[!IMPORTANT]
 >

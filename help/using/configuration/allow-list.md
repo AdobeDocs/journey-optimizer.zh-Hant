@@ -12,7 +12,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
@@ -108,13 +108,13 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add_header"
->title="將地址或域添加到允許的清單"
->abstract="您可以逐一選取新電子郵件地址或網域，手動將其新增至允許清單。"
+>title="將地址或網域新增到允許清單"
+>abstract="您可以透過逐一選取來手動將新的電子郵件地址或網域新增到允許清單中。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add"
->title="將地址或域添加到允許的清單"
->abstract="您可以逐一選取新電子郵件地址或網域，手動將其新增至允許清單。"
+>title="將地址或網域新增到允許清單"
+>abstract="您可以透過逐一選取來手動將新的電子郵件地址或網域新增到允許清單中。"
 
 您可以手動填入 [!DNL Journey Optimizer] 允許清單，方法是透過使用者介面新增電子郵件地址或網域。
 
@@ -188,8 +188,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
->title="管理允許的清單"
->abstract="啟用允許清單時，只有包含在允許清單中的收件者才會收到來自此沙箱的電子郵件訊息。 停用後，所有收件者都會收到電子郵件。"
+>title="管理允許清單"
+>abstract="啟動允許清單後，只有包含在允許清單中的收件者才能接收來自此沙箱的電子郵件訊息。停用時，所有收件者都會收到電子郵件。"
 
 允許的清單為 [活動](#enable-allow-list)，則套用下列邏輯：
 

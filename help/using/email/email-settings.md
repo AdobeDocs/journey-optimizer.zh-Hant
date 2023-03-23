@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1652'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="定義電子郵件類別"
->abstract="選取使用此表面時要傳送的電子郵件類型：行銷促銷電子郵件，需要使用者同意，或非商業電子郵件的交易式，也可在特定內容中傳送給取消訂閱的設定檔。"
+>abstract="選取使用此表面時將傳送的電子郵件類型：促銷用電子郵件的行銷 (需要使用者同意)，或非商業電子郵件的異動 (還可以傳送至特定內容中取消訂閱的設定檔)。"
 
 在 **電子郵件類型** 節，選擇將與曲面一起發送的消息類型： **行銷** 或 **交易**.
 
@@ -190,8 +190,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
->title="調整重試時間段"
->abstract="當電子郵件傳送因暫時軟退信錯誤而失敗時，將執行3.5天（84小時）的重試。 您可以調整此預設的重試時間段，以更符合您的需求。"
+>title="調整重試時段"
+>abstract="當電子郵件由於暫時性的軟退信錯誤而傳遞失敗時，將重試 3.5 天 (84 小時)。您可以調整此預設的重試時段以進一步滿足您的需求。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="關於重試"
 
 您可以設定 **電子郵件重試參數**.
@@ -212,15 +212,15 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="定義URL追蹤參數"
->abstract="使用本節來自動將追蹤參數附加至您電子郵件內容中出現的URL。 此功能是選取性的。"
+>title="定義 URL 追蹤參數"
+>abstract="使用此區段以將追蹤參數自動附加到電子郵件內容中的 URL。此功能為選用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
->title="預覽URL追蹤參數"
->abstract="檢閱如何將追蹤參數附加至電子郵件內容中出現的URL。"
+>title="預覽 URL 追蹤參數"
+>abstract="重新探討要如何將追蹤參數附加到電子郵件內容中出現的 URL。"
 
-您可以使用 **[!UICONTROL URL追蹤參數]** 來評估跨管道行銷工作的成效。 此功能是選取性的。
+您可以使用 **[!UICONTROL URL追蹤參數]** 來評估跨管道行銷工作的成效。 此功能為選用。
 
 本節中定義的參數會附加至電子郵件訊息內容中所包含的URL結尾。 接著，您就可以在網頁分析工具(例如Adobe Analytics或Google Analytics)中擷取這些參數，並建立各種效能報表。
 

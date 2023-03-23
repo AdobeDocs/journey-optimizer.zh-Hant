@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1904'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_report"
 >title="行銷活動全域報告"
->abstract="「促銷活動全域」報表可讓您測量所選時段內促銷活動的影響。 您的報表會分為不同的Widget，詳述促銷活動的成功和錯誤。 每個報表控制面板都可借由調整大小或移除小工具來修改。"
+>abstract="行銷活動全域報告可測量您的行銷活動在選取時段內的影響。您的報告會分為不同的 Widget，詳細說明您的行銷活動的成功和錯誤。每個報告儀表板都可以透過調整大小或移除 Widget 來修改。"
 
 您可以使用 **[!UICONTROL 檢視報表]** 按鈕。
 
@@ -255,7 +255,7 @@ ht-degree: 2%
 
 ![](assets/campaign_report_global_4.png)
 
-+++進一步了解SMS報表可用的不同量度和小工具。
++++進一步了解SMS報表可用的不同量度和Widget。
 
 此 **[!UICONTROL SMS — 傳送統計資料]** 表格會詳細說明傳送的成功：
 

@@ -12,7 +12,7 @@ exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '1611'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="設計您的歷程"
->abstract="歷程介面可讓您輕鬆將活動從浮動視窗拖放至畫布中。 您也可以連按兩下某個活動，以在下一個可用步驟將其新增至畫布中。"
+>abstract="歷程介面可讓您輕鬆地將活動從調色盤拖放到畫布中。您還可以按兩下活動以在下一步可用時將其新增到畫布中。"
 
 Adobe Journey Optimizer包含全通路協調畫布，可讓行銷人員協調行銷外展與一對一客戶互動。 使用者介面可讓您輕鬆將活動從浮動視窗拖放至畫布中，以建立您的歷程。 請注意，您也可以在下一個可用步驟，連按兩下某個活動以將其新增至畫布中。
 

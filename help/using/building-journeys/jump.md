@@ -12,7 +12,7 @@ exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_jump"
 >title="跳轉活動"
->abstract="「跳轉」動作活動可讓您將個人從一個歷程推送至另一個歷程。 此功能可讓您簡化複雜歷程的設計，並根據常見且可重複使用的歷程模式建立歷程。"
+>abstract="此跳轉動作活動可讓您將個人從一個歷程推送到另一個歷程。 本功能可讓您簡化非常複雜的歷程的設計，並根據常見且可重複使用的歷程模式建置歷程。"
 
 此 **[!UICONTROL 跳]** 動作活動可讓您將個人從一個歷程推送至另一個歷程。 此功能可讓您：
 

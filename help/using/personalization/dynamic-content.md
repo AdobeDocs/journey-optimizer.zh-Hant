@@ -12,7 +12,7 @@ exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -51,12 +51,12 @@ Adobe Journey Optimizer可讓您運用程式庫中建立的條件式規則，將
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content"
 >title="條件式內容"
->abstract="使用條件規則來建立內容元件的多個變體。 如果傳送訊息時未符合任何條件，則會顯示來自預設變體的內容。"
+>abstract="使用條件式規則建立內容元件的多個變體。如果傳送訊息時未符合任何條件，將顯示預設變體的內容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content_select"
 >title="條件式內容"
->abstract="使用儲存至程式庫的條件式規則或建立新規則。"
+>abstract="使用儲存在資料庫中的條件式規則或建立新規則。"
 
 在「電子郵件設計工具」中建立內容元件變體的步驟如下：
 

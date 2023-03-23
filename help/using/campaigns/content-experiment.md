@@ -15,7 +15,7 @@ badge: label="Beta" type="Informity"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1145'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="內容實驗"
->abstract="您可以選擇變更傳遞內容、主旨或傳送者，以定義多個傳遞處理方式，並為您的對象決定最佳組合。"
+>abstract="您可以選擇改變傳遞內容、主題或寄件者，以便定義多種傳遞處理方式並確定最適合您的對象的組合。"
 
 >[!BEGINSHADEBOX]
 
@@ -176,7 +176,7 @@ Journey Optimizer內容實驗可讓您定義多個傳送處理，以測量哪個
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
 >title="成功量度"
->abstract="成功量度的總值（先前建立實驗時選取）除以設定檔數目。"
+>abstract="先前在建立實驗時選取的成功量度的總值除以設定檔的數量。"
 
 >[!AVAILABILITY]
 >

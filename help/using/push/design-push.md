@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-onclick"
 >title="關於點按時行為"
->abstract="選取收件者點按推播通知內文時的行為。"
+>abstract="選取收件者點擊推播通知內文時的行為。"
 
 您可以選取使用者點按推播通知內文時的行為。
 
@@ -79,7 +79,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_message_push_silent_notification"
 >title="關於靜音通知"
->abstract="在不干擾使用者的情況下傳送通知，通知不會顯示在通知中心或通知列中。"
+>abstract="在不打擾使用者的情況下傳送通知，通知不會顯示在通知中心或通知列中。"
 
 靜默推播通知（或背景通知）是傳遞至應用程式的隱藏指示。 例如，它用於通知您的應用程式新內容的可用性或在後台啟動下載。
 

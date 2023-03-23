@@ -12,7 +12,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"
->title="子域的PTR記錄"
->abstract="指針記錄(PTR)是一種DNS記錄，它提供連結到IP地址的域名，這有助於接收郵件伺服器驗證發件人的IP地址。 只有在與您的傳遞能力專家進行適當考慮和討論後才編輯PTR記錄。"
+>title="子網域的 PTR 記錄"
+>abstract="指標記錄 (PTR) 是一種 DNS 記錄，會提供連結至 IP 位址的域名，可協助接收郵件伺服器驗證寄件者的 IP 位址。只有在和您的傳遞能力專家完成適當考量和討論後，才能編輯 PTR 記錄。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
->title="子域的PTR記錄"
->abstract="將子網域委派給Journey Optimizer中的Adobe後，就會自動建立PTR記錄並與此子網域相關聯。"
+>title="子網域的 PTR 記錄"
+>abstract="在 Journey Optimizer 中將子網域委派給 Adobe 後，會自動建立 PTR 記錄並將其和此子網域建立關聯。"
 
 ## 關於PTR記錄 {#about-ptr-records}
 

@@ -12,7 +12,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '1176'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -21,22 +21,22 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
 >title="關於內容元件"
->abstract="內容元件是空白的內容預留位置，可用來建立電子郵件版面。"
+>abstract="內容元件指可用於建立電子郵件版面的空白內容預留位置。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
 >title="關於內容元件"
->abstract="內容元件是空白的內容預留位置，可用來建立登錄頁面的版面。"
+>abstract="內容元件指可用於建立登陸頁面版面的空白內容預留位置。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
 >title="關於內容元件"
->abstract="內容元件是空白的內容預留位置，可用來建立片段的版面。"
+>abstract="內容元件指可用於建立片段版面的空白內容預留位置。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
 >title="關於內容元件"
->abstract="內容元件是空白的內容預留位置，可用來建立範本的版面。"
+>abstract="內容元件指可用於建立範本版面的空白內容預留位置。"
 
 建立電子郵件內容時， **[!UICONTROL 內容元件]** 可讓您使用原始元件進一步個人化電子郵件，放入電子郵件後，即可編輯這些原始元件。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 若要新增內容元件至您的電子郵件並根據您的需求進行調整，請遵循下列步驟。
 
-1. 在電子郵件設計工具中，使用現有內容或拖放 **[!UICONTROL 結構元件]** 填入空白內容，以定義電子郵件的版面。 [了解如何](content-from-scratch.md)
+1. 在電子郵件設計工具中，使用現有內容或拖放 **[!UICONTROL 結構元件]** 填入空白內容，以定義電子郵件的版面。 [了解作法](content-from-scratch.md)
 
 1. 若要存取 **[!UICONTROL 內容元件]** 節，從「電子郵件設計工具」左窗格中選擇相應的按鈕。
 

@@ -12,7 +12,7 @@ exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
 source-wordcount: '1014'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
 >title="預覽和測試您的訊息"
->abstract="定義訊息內容後，您就可以使用測試設定檔來預覽和測試。"
+>abstract="定義訊息內容後，您就可以使用測試設定檔進行預覽及測試。 "
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#email-rendering" text="電子郵件轉譯"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#preview-email" text="預覽"
 

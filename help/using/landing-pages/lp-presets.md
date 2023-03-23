@@ -10,7 +10,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 5%
+ht-degree: 17%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain_header"
->title="建立登錄頁面預設集"
->abstract="若要建立登錄頁面並透過Journey Optimizer運用該頁面，您必須建立包含要使用之子網域的登錄頁面預設集。"
+>title="建立一個登陸頁面預設集"
+>abstract="為了建置登陸頁面並透過 Journey Optimizer 加以利用，您必須建立一個包含要使用的子網域的登陸頁面預設集。"
 
 當 [建立登錄頁面](../landing-pages/create-lp.md#create-a-lp)，您必須選取登錄頁面預設集，才能建立登錄頁面並運用它 **[!DNL Journey Optimizer]**.
 
@@ -37,13 +37,13 @@ ht-degree: 5%
 
    ![](assets/lp_preset-details.png)
 
-## 建立登錄頁面預設集 {#lp-create-preset}
+## 建立一個登陸頁面預設集 {#lp-create-preset}
 
 若要建立登錄頁面預設集，請遵循下列步驟。
 
 >[!NOTE]
 >
->若要建立預設集，請確定您先前已設定至少一個登錄頁面子網域。 [了解如何](lp-subdomains.md)
+>若要建立預設集，請確定您先前已設定至少一個登錄頁面子網域。 [了解作法](lp-subdomains.md)
 
 1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 管道]** ，然後選取 **[!UICONTROL 品牌推廣]** > **[!UICONTROL 登錄頁面預設集]**.
 
@@ -63,7 +63,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >若要選取子網域，請確定您先前已設定至少一個登錄頁面子網域。 [了解如何](#lp-subdomains)
+   >若要選取子網域，請確定您先前已設定至少一個登錄頁面子網域。 [了解作法](#lp-subdomains)
 
    隨即顯示與所選子網域對應的設定。
 

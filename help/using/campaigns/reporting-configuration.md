@@ -15,7 +15,7 @@ badge: label="Beta" type="Informity"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 25%
+ht-degree: 31%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="設定資料集以進行報告"
->abstract="報表設定可讓您擷取將用於促銷活動報表之「目標」標籤的其他量度。 必須由技術使用者執行。"
+>abstract="報告設定可讓您擷取將在行銷活動報表的「物件」索引標籤中使用的其他量度。必須由技術使用者執行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="選取資料集"
->abstract="您只能選取事件類型資料集，該資料集必須至少包含一個支援的欄位群組：應用程式詳細資訊、商務詳細資訊、Web詳細資訊。"
+>abstract="您只能選取一個事件類型的資料集，該資料集必須至少包含一個受支援的欄位群組：應用程式詳細資訊、商務詳細資訊、Web 詳細資訊。"
 
 >[!BEGINSHADEBOX]
 

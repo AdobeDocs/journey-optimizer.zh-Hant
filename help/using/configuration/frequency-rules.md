@@ -12,7 +12,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '977'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
@@ -52,18 +52,18 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_category"
->title="選擇消息規則類別"
->abstract="啟用並套用至訊息時，所有符合所選類別的頻率規則會自動套用至此訊息。 目前只有行銷類別可供使用。"
+>title="選取訊息規則類別"
+>abstract="啟動並套用至訊息時，和所選類別相符的所有頻率規則會自動應用至該訊息。目前只有行銷類別可用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="設定規則的上限"
->abstract="指定每月傳送至客戶設定檔的訊息數上限。 頻率上限將根據每月日曆期間，並將於每月初重設。"
+>abstract="指定每月傳送到客戶設定檔的最大訊息數。頻率上限將依據每月的行事曆期間設定，並會在每個月的月初重設。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
->title="定義規則套用的管道"
->abstract="至少選擇一個通道。 上限設定會套用至所有管道，作為總計數。"
+>title="定義套用規則的管道"
+>abstract="選取至少一個管道。上限會以總計數套用在所有管道上。"
 
 若要建立新規則，請遵循下列步驟。
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 
    ![](assets/message-rules-details.png)
 
-1. 選取訊息規則類別。
+1. 選取訊息規則類別.
 
    >[!NOTE]
    >

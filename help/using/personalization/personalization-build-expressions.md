@@ -12,7 +12,7 @@ exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 9%
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
 >title="關於運算式編輯器"
->abstract="運算式編輯器可讓您選取、排列、自訂和驗證所有資料，以針對您的內容建立自訂的個人化。"
+>abstract="運算式編輯器可讓您選取、排列、自訂和驗證所有資料，打造個人化的專屬內容。"
 
 運算式編輯器是 [!DNL Journey Optimizer]. 它適用於您需要定義電子郵件、推送和選件之類個人化的每個內容。
 

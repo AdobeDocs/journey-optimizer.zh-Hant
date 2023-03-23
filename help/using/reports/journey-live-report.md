@@ -11,7 +11,7 @@ exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
 source-wordcount: '1138'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_live_report"
 >title="歷程即時報告"
->abstract="「歷程即時」報表可讓您僅在過去24小時內即時測量並視覺化您歷程的影響和效能。 您的報表會分為不同的Widget，詳述您歷程的成功和錯誤。 每個報表控制面板都可借由調整大小或移除小工具來修改。"
+>abstract="歷程即時報告可讓您僅在過去 24 小時內對歷程的影響和效能進行即時測量和視覺化。您的報告會分為不同的 Widget，詳細說明您的歷程的成功和錯誤。每個報告儀表板都可以透過調整大小或移除 Widget 來修改。"
 
 您可以直接從歷程存取即時報告，其中包含 **[!UICONTROL 檢視報表]** 按鈕。
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 * [歷程](#journey-live)
 * [電子郵件](#email-live)
 * [推播](#push-live)
-* [SMS](#sms-live)
+* [簡訊](#sms-live)
 
 歷程 **[!UICONTROL 即時報表]** 會分為不同的Widget，詳述您歷程的成功與錯誤。 如有需要，可對每個介面工具集調整大小並加以刪除。 有關詳細資訊，請參閱 [節](live-report.md#modify-dashboard).
 
@@ -158,7 +158,7 @@ ht-degree: 1%
 
 ![](assets/journey_live_4.png)
 
-+++進一步了解SMS報表可用的不同量度和Widget。
++++進一步了解SMS報表可用的不同量度和小工具。
 
 此 **[!UICONTROL SMS — 傳送統計資料]** 表格會詳細說明傳送的成功：
 

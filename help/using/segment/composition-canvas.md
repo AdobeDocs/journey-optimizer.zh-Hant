@@ -14,7 +14,7 @@ badge: label="Beta" type="Informity"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 1%
+ht-degree: 27%
 
 ---
 
@@ -89,12 +89,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"
 >title="對象活動"
->abstract="「對象」活動可讓您在合成中包含屬於現有對象的其他設定檔。"
+>abstract="對象活動可讓您在組合中包含屬於現有對象的其他設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_merge_types"
 >title="合併類型"
->abstract="指定應如何合併所選對象的設定檔。"
+>abstract="指定應如何合併選取對象的設定檔。"
 
 此 **[!UICONTROL 對象]** 活動可讓您在構成中包含屬於現有對象的其他設定檔。
 
@@ -105,12 +105,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude_type"
 >title="排除類型"
->abstract="使用排除對象類型來排除屬於現有對象的設定檔。 使用屬性類型排除可讓您根據特定屬性排除設定檔。"
+>abstract="使用排除對象類型以排除屬於現有對象的設定檔。使用屬性類型的排除可讓您根據特定屬性排除設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
 >title="排除活動"
->abstract="「排除」活動可讓您選取現有對象或使用規則，從您的構成中排除設定檔。"
+>abstract="排除活動可讓您透過選取現有對象或使用規則從您的組合中排除設定檔。"
 
 此 **[!UICONTROL 排除]** 活動可讓您從構成中排除設定檔。 有兩種排除類型可供使用：
 
@@ -131,22 +131,22 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="擴充活動"
->abstract="使用「擴充」活動來排除屬於現有對象的設定檔。 使用屬性類型排除可讓您根據特定屬性排除設定檔。"
+>abstract="使用擴充活動以排除屬於現有對象的設定檔。使用屬性類型的排除可讓您根據特定屬性排除設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
 >title="擴充資料集"
->abstract="選取包含您要與對象建立關聯之資料的擴充資料集。"
+>abstract="選取擴充資料集，其中會包含要和對象建立關聯的資料。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_criteria"
 >title="擴充條件"
->abstract="選取要用作來源資料集（即對象）與擴充資料集之間調解金鑰的欄位。"
+>abstract="選取欄位以用作來源資料集 (即對象) 和擴充資料集之間的調解金鑰。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="擴充屬性"
->abstract="從擴充資料集中選取一或多個屬性，以關聯至對象。 發佈構圖後，這些屬性就會與對象相關聯，並可在行銷活動中運用，以個人化傳送。"
+>abstract="從擴充資料集中選取要和對象相關聯的一或多個屬性。一旦發佈組合，這些屬性就會和對象相關聯，並且可以在行銷活動中加以利用以將傳遞個人化。"
 
 此 **[!UICONTROL 豐富]** 活動可讓您透過來自Adobe Experience Platform資料集的其他屬性，讓對象更為豐富。 例如，您可以新增與購買產品相關的資訊，如其名稱、價格或製造商ID，並運用這些資訊來個人化傳送給對象的傳送。
 
@@ -171,12 +171,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
 >title="排名活動"
->abstract="「排名」活動可讓您根據特定屬性來排名設定檔，並將其納入您的構成中。 例如，包含50個設定檔，其忠誠度點數最多。"
+>abstract="排名可讓您根據特定屬性對設定檔進行排名，並將它們包含在您的組合中。例如，包含忠誠度點數最多的 50 個設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
 >title="新增設定檔限制"
->abstract="開啟此選項可指定要包含在合成中的設定檔數目上限。"
+>abstract="開啟此選項以指定要包含在組合中的設定檔的最大數量。"
 
 此 **[!UICONTROL 排名]** 活動可讓您根據特定屬性來排名設定檔，並將其納入您的構成中。 例如，您可以包含50個設定檔，其忠誠度點數最多。
 
@@ -200,21 +200,21 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
 >title="分割活動"
->abstract="「分割」活動可讓您將構圖分割為多個路徑。 發佈構圖時，每個路徑會將一個對象儲存至Adobe Experience Platform。"
+>abstract="分割活動可讓您將組合分成多個路徑。發佈組合時，會針對每個路徑儲存一個對象到 Adobe Experience Platform 中。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
 >title="分割類型"
->abstract="使用「百分比分割」類型將設定檔隨機分割為多個路徑。 屬性分割類型可讓您根據特定屬性來分割設定檔。"
+>abstract="使用百分比分割類型將設定檔隨機分割為多個路徑。屬性分割類型可讓您根據特定屬性分割設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_otherprofiles_text"
 >title="其他設定檔"
->abstract="開啟此選項，以建立其他路徑，其餘設定檔不符合其他路徑中指定的任何條件。"
+>abstract="開啟此選項以建立額外路徑，其中剩餘的設定檔和其他路徑中指定的任何條件都不相符。"
 
 此 **[!UICONTROL 分割]** 活動可讓您將構圖分割為多個路徑。
 
-此操作會自動新增 **[!UICONTROL 儲存]** 活動。 發佈構圖時，每個路徑會將一個對象儲存至Adobe Experience Platform。
+此操作會自動新增 **[!UICONTROL 儲存]** 活動。 發佈組合時，會針對每個路徑儲存一個對象到 Adobe Experience Platform 中。
 
 可使用兩種類型的拆分操作：
 

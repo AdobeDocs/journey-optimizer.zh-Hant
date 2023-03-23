@@ -12,7 +12,7 @@ exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '1573'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_unitary"
 >title="單一事件"
->abstract="事件設定可讓您定義Journey Optimizer將接收做為事件的資訊。 您可以使用多個事件（在歷程的不同步驟中），而數個歷程可以使用相同的事件。 單一事件會連結至特定設定檔。 可由規則型或系統產生。"
+>abstract="事件設定可讓您定義 Journey Optimizer 會接收為事件的資訊。您可以使用多個事件 (在歷程的不同步驟中)，而好幾個歷程可以使用同一個事件。單一事件會連結到特定的設定檔。它們可能是以規則為基礎或由系統產生。"
 
-單一事件會連結至特定設定檔。 可由規則型或系統產生。  深入了解單一事件 [本節](../event/about-events.md).
+單一事件會連結到特定的設定檔。它們可能是以規則為基礎或由系統產生。深入了解單一事件 [本節](../event/about-events.md).
 
 以下是設定新事件的前幾個步驟：
 
@@ -113,7 +113,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"
 >title="身分識別命名空間"
->abstract="選取用於識別與事件相關聯的客戶設定檔的金鑰。"
+>abstract="選取索引鍵以識別和事件相關聯的客戶設定檔。"
 
 命名空間可讓您定義用於識別與事件相關聯之人員的索引鍵類型。 其設定為選用。 如果您想在歷程中擷取來自 [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}. 如果您只使用來自協力廠商系統的資料（透過自訂資料來源），則不需要命名空間定義。
 

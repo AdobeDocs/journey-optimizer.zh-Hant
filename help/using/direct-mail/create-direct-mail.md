@@ -13,7 +13,7 @@ badge: label="Beta" type="Informity"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '517'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="直接郵件建立"
->abstract="在排程的行銷活動中建立直接郵件訊息，並設計直接郵件提供者傳送郵件給客戶所需的解壓縮檔案。"
+>abstract="在排程的行銷活動中建立直接郵件訊息，並設計直接郵件提供者向您的客戶傳送郵件所需的解壓縮檔案。"
 
 >[!BEGINSHADEBOX]
 

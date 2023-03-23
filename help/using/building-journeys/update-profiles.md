@@ -12,7 +12,7 @@ exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
 >title="更新設定檔活動"
->abstract="「更新設定檔」動作活動可讓您使用來自事件、資料來源或使用特定值的資訊來更新現有的Adobe Experience Platform設定檔。"
+>abstract="更新設定檔的動作活動可讓您利用來自事件、資料來源或使用特定值的資訊來更新現有的 Adobe Experience Platform 設定檔。"
 
 使用 **[!UICONTROL 更新配置檔案]** 動作活動，使用來自事件、資料來源或特定值的資訊來更新現有的Adobe Experience Platform設定檔。
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 
 ## 使用設定檔更新
 
-1. 從事件開始，設計您的歷程。 看這個 [節](../building-journeys/journey.md).
+1. 從事件開始，設計您的歷程。 請參閱[本章節](../building-journeys/journey.md)。
 
 1. 在 **動作** 區段，將 **更新配置檔案** 活動進入畫布。
 

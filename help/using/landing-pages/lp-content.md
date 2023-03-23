@@ -12,7 +12,7 @@ exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
 workflow-type: tm+mt
 source-wordcount: '1194'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="使用內容元件"
->abstract="內容元件是空白的內容預留位置，可用來建立登錄頁面的版面。 若要定義特定內容，讓使用者可選擇並提交其選擇，請使用表單元件。"
+>abstract="內容元件指可用於建立登陸頁面版面的空白內容預留位置。若要定義讓使用者能夠選取並提交他們的選擇的特定內容，請使用表單元件。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="新增內容元件"
 
 若要設計登錄頁面內容，您可以使用與電子郵件相同的元件。 [了解更多](../email/content-components.md#add-content-components)
@@ -39,13 +39,13 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
 >title="設定表單元件欄位"
->abstract="定義收件者將如何檢視，並從您的登錄頁面提交其選擇。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="定義登錄頁面表單樣式"
+>abstract="定義您的收件者將如何從您的登陸頁面查看和提交他們的選擇。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="定義登陸頁面表單樣式"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
->title="按一下按鈕後會發生什麼事"
->abstract="定義使用者提交登錄頁面表單時將發生什麼事。"
+>title="按一下按鈕時會發生什麼事"
+>abstract="定義使用者提交登陸頁面表單後會發生什麼事。"
 
 若要定義特定內容，讓使用者從您的登錄頁面選取並提交其選擇，請使用 **[!UICONTROL 表單]** 元件。 若要這麼做，請遵循下列步驟。
 
@@ -122,7 +122,7 @@ ht-degree: 3%
 
    ![](assets/lp_designer-form-save.png)
 
-## 定義登錄頁面表單樣式 {#lp-form-styles}
+## 定義登陸頁面表單樣式 {#lp-form-styles}
 
 1. 若要修改表單元件內容的樣式，請隨時切換至 **[!UICONTROL 表單樣式]** 標籤。
 

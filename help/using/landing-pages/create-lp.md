@@ -12,7 +12,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
 workflow-type: tm+mt
 source-wordcount: '1544'
-ht-degree: 3%
+ht-degree: 28%
 
 ---
 
@@ -48,15 +48,15 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_create"
->title="定義並設定登錄頁面"
->abstract="若要建立登錄頁面，您需要選取預設集，然後設定主要頁面和子頁面，最後在發佈頁面之前測試頁面。"
+>title="定義和設定您的登陸頁面"
+>abstract="若要建立登陸頁面，您需要選取一個預設集，然後設定主要頁面和子頁面，最後在發佈頁面之前進行測試。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="建立登陸頁面預設集"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="發佈登錄頁面"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="發佈登陸頁面"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_management_labels"
->title="將標籤指派至您的登錄頁面"
->abstract="若要保護敏感數位資產，您可以定義授權，使用標籤管理對登錄頁面的資料存取。"
+>title="為您的登陸頁面指派標籤"
+>abstract="為了保護敏感的數位資產，您可以定義授權，以使用標籤來管理對登陸頁面的資料存取。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="物件等級存取控制"
 
 建立登錄頁面的主要步驟如下：
@@ -95,14 +95,14 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_primary_page"
->title="定義主要頁面設定"
->abstract="使用者點按登錄頁面的連結（例如來自電子郵件或網站）後，主要頁面會立即顯示給使用者。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="設計登錄頁面內容"
+>title="定義您的主要頁面設定"
+>abstract="使用者點選您的登陸頁面連結 (例如從電子郵件或網站) 後，主要頁面會隨即向使用者顯示。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="設計登陸頁面內容"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
->title="定義登錄頁面URL"
->abstract="在本節中，定義唯一的登錄頁面URL。 URL的第一部分需要您先前設定登錄頁面子網域，作為您選取之預設集的一部分。"
+>title="定義您的登陸頁面 URL"
+>abstract="在本區段中，定義一個唯一的登陸頁面 URL。URL 的第一部分需要您預先設定一個登陸頁面子網域作為您選取的預設集的一部分。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="設定登陸頁面子網域"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="建立登陸頁面預設集"
 
@@ -116,7 +116,7 @@ ht-degree: 3%
 
    ![](assets/lp_open-designer.png)
 
-1. 定義您的登錄頁面URL。 URL的第一部分需要您先前設定登錄頁面子網域，作為 [預設集](../landing-pages/lp-presets.md#lp-create-preset) 您已選取。 [了解更多](../landing-pages/lp-subdomains.md)
+1. 定義您的登陸頁面 URL. URL的第一部分需要您先前設定登錄頁面子網域，作為 [預設集](../landing-pages/lp-presets.md#lp-create-preset) 您已選取。 [了解更多](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -165,17 +165,17 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_subpage"
 >title="定義子頁面設定"
->abstract="您最多可以新增2個子頁面。 例如，您可以建立「感謝」頁面，在使用者提交表單後顯示，而您可以定義錯誤頁面，在登錄頁面發生問題時呼叫該錯誤頁面。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="設計登錄頁面內容"
+>abstract="您最多可新增 2 個子頁面。例如，您可以建立一個「感謝」頁面，該頁面將在使用者提交表單後顯示，而且您可以定義一個錯誤頁面，如果登陸頁面出現問題，將呼叫該頁面。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="設計登陸頁面內容"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"
->title="定義登錄頁面URL"
->abstract="在本節中，定義唯一的登錄頁面URL。 URL的第一部分需要您先前設定登錄頁面子網域，作為您選取之預設集的一部分。"
+>title="定義您的登陸頁面 URL"
+>abstract="在本區段中，定義一個唯一的登陸頁面 URL。URL 的第一部分需要您預先設定一個登陸頁面子網域作為您選取的預設集的一部分。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="設定登陸頁面子網域"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="建立登陸頁面預設集"
 
-您最多可以新增2個子頁面。 例如，您可以建立「感謝」頁面，在使用者提交表單後顯示，而您可以定義錯誤頁面，在登錄頁面發生問題時呼叫該錯誤頁面。
+您最多可新增 2 個子頁面。例如，您可以建立一個「感謝」頁面，該頁面將在使用者提交表單後顯示，而且您可以定義一個錯誤頁面，如果登陸頁面出現問題，將呼叫該頁面。
 
 若要定義子頁面設定，請遵循下列步驟。
 
@@ -187,7 +187,7 @@ ht-degree: 3%
    >
    >您可以從相同登錄頁面的任何子頁面插入主要頁面的連結。 例如，若要將發生錯誤且想要重新訂閱的使用者重新導向，您可以從確認子頁面新增連結至訂閱主要頁面。 了解如何在 [本節](../email/message-tracking.md#insert-links).
 
-1. 定義您的登錄頁面URL。 URL的第一部分需要您先前設定登錄頁面子網域。 [了解更多](../landing-pages/lp-subdomains.md)
+1. 定義您的登陸頁面 URL. URL的第一部分需要您先前設定登錄頁面子網域。 [了解更多](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -199,8 +199,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"
->title="預覽並測試您的登錄頁面"
->abstract="定義登錄頁面設定和內容後，您就可以使用測試設定檔來預覽。"
+>title="預覽和測試您的登陸頁面"
+>abstract="定義登陸頁面設定和內容後，您就可以使用測試設定檔進行預覽。 "
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="選取測試設定檔"
 
 定義登錄頁面設定和內容後，您就可以使用測試設定檔來預覽。 如果您已插入 [個人化內容](../personalization/personalize.md)，您將能使用測試設定檔資料，檢查此內容在登錄頁面中的顯示方式。
@@ -272,7 +272,7 @@ ht-degree: 3%
 > To be able to publish your message, you must resolve all **error** alerts.
 -->
 
-## 發佈登錄頁面 {#publish-landing-page}
+## 發佈登陸頁面 {#publish-landing-page}
 
 登錄頁面準備就緒後，您就可以發佈它，以便在訊息中使用。
 

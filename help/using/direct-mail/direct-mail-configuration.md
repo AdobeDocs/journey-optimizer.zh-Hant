@@ -13,7 +13,7 @@ badge: label="Beta" type="Informity"
 source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 1%
+ht-degree: 32%
 
 ---
 
@@ -42,35 +42,35 @@ ht-degree: 1%
 >
 >如果尚未配置任何檔案路由選項，則將無法建立直接郵件表面。
 
-## 配置檔案路由 {#file-routing-configuration}
+## 設定檔案路由 {#file-routing-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
->title="定義檔案路由配置"
->abstract="建立直接郵件訊息後，將會產生包含目標對象資料的檔案，並匯出至伺服器。 您需要指定伺服器詳細資訊，以便直接郵件提供者可以存取並使用該檔案來傳送直接郵件。"
+>title="定義檔案路由設定"
+>abstract="建立直接郵件訊息後，會產生包含目標對象資料的檔案並將其匯出到伺服器。您需要指定伺服器的詳細資訊，以便您的直接郵件提供者可以存取和使用該檔案來傳遞直接郵件。"
 
 <!--
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
->title="定義檔案路由配置"
->abstract="您需要定義要匯出檔案的位置，以便直接郵件提供者使用。"
+>title="定義檔案路由設定"
+>abstract="您需要定義將檔案匯出到何處以供直接郵件提供者使用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
->title="檔案路由配置"
->abstract="選取您選擇的檔案路由設定，定義將匯出檔案的位置，以供直接郵件提供者使用。"
+>title="檔案路由設定"
+>abstract="選取您選擇的檔案路由設定，這會定義將檔案匯出到何處以供您的直接郵件提供者使用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
->title="選取檔案的伺服器類型"
->abstract="選擇要用於導出直接郵件檔案的伺服器類型。 目前只有Amazon S3和SFTP受Journey Optimizer支援。"
+>title="選取您的檔案的伺服器類型"
+>abstract="選擇要用於匯出直接郵件檔案的伺服器類型。Journey Optimizer 目前僅支援 Amazon S3 和 SFTP。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
->title="選擇AWS地區"
->abstract="選取您要匯出直接郵件檔案的AWS伺服器的地理區域。 一般情況下，建議您選擇與直接郵件提供者位置最接近的地區。"
+>title="選擇 AWS 區域"
+>abstract="選取要將直接郵件檔案匯出到哪個 AWS 伺服器的地理區域。一般做法是，最好選擇離您的直接郵件提供者所在位置最近的區域。"
 
 要發送直接郵件， [!DNL Journey Optimizer] 產生包含目標對象資料的檔案並匯出至伺服器。
 
@@ -115,8 +115,8 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="定義直接郵件設定"
->abstract="直接郵件表面包含檔案格式設定，該檔案包含目標對象資料，供郵件提供者使用。 您還必須通過選擇檔案路由配置來定義要導出檔案的位置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=en#file-routing-configuration" text="配置檔案路由"
+>abstract="直接郵件表面包含檔案格式的設定，其中會包含目標對象資料並將由郵件提供者使用。您還必須選取檔案路由設定以定義檔案匯出的位置。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=en#file-routing-configuration" text="設定檔案路由"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -127,7 +127,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
 >title="定義檔案分割臨界值"
->abstract="您必須為包含對象資料的每個檔案設定記錄數上限。 您可以選取1到200,000筆記錄之間的任何數字。 達到指定的臨界值後，將為剩餘記錄建立另一個檔案。"
+>abstract="您必須為包含對象資料的每個檔案設定最大記錄數。您可以選取 1 到 200,000 筆記錄之間的任一數字。達到指定的臨界值後，將為剩餘記錄建立另一個檔案。"
 
 能夠使用 [!DNL Journey Optimizer]，您需要建立通道表面，以定義郵件提供者將使用之檔案的格式設定。
 

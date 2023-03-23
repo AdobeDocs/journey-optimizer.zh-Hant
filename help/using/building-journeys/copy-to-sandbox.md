@@ -12,7 +12,7 @@ exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 2%
+ht-degree: 20%
 
 ---
 
@@ -21,24 +21,24 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
 >title="將歷程複製到另一個沙箱"
->abstract="Journey Optimizer可讓您將整個歷程從一個沙箱複製到另一個沙箱。 例如，您可以將歷程從階段沙箱環境複製到生產沙箱。 除了歷程本身，Journey Optimizer也會複製歷程所仰賴的大部分物件。"
+>abstract="Journey Optimizer 可讓您將整個歷程從一個沙箱複製到另一個沙箱。例如，您可以將歷程從預備沙箱環境複製到生產沙箱。除了歷程本身外，Journey Optimizer 還會複製歷程所依賴的大部分物件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
 >title="沙箱詳細資料"
->abstract="選取您要將歷程複製到哪個目的地沙箱。 您IMS組織內只有沙箱可供使用。"
+>abstract="選取您要將歷程複製過去的目的地沙箱。只能使用您的 IMS 組織內的沙箱。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
->title="物件詳細資訊"
->abstract="這是您要複製的歷程。"
+>title="物件詳細資料"
+>abstract="這是您將要複製的歷程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_dependent_objects"
->title="相依對象"
->abstract="這是歷程中使用的關聯物件清單。 此清單會顯示名稱、物件類型，以及內部Journey Optimizer ID。"
+>title="相依物件"
+>abstract="這是歷程中使用的關聯物件清單。此清單會顯示名稱、物件類型以及內部的 Journey Optimizer ID。"
 
-Journey Optimizer可讓您將整個歷程從一個沙箱複製到另一個沙箱。 例如，您可以將歷程從Stage沙箱環境複製到生產沙箱。 除了歷程本身，Journey Optimizer也會複製歷程所仰賴的大部分物件：區段、曲面（即預設集）、結構、事件和動作。 有關複製對象的詳細資訊，請參閱 [節](#limitations).
+Journey Optimizer 可讓您將整個歷程從一個沙箱複製到另一個沙箱。例如，您可以將歷程從Stage沙箱環境複製到生產沙箱。 除了歷程本身，Journey Optimizer也會複製歷程所仰賴的大部分物件：區段、曲面（即預設集）、結構、事件和動作。 有關複製對象的詳細資訊，請參閱 [節](#limitations).
 
 >[!CAUTION]
 >
@@ -58,9 +58,9 @@ Journey Optimizer可讓您將整個歷程從一個沙箱複製到另一個沙箱
 
    ![](assets/copy-sandbox2.png)
 
-3. 選取 **目標沙箱** 從下拉式欄位。 您IMS組織內只有沙箱可供使用。
+3. 選取 **目標沙箱** 從下拉式欄位。 只能使用您的 IMS 組織內的沙箱。
 
-4. 檢閱 **相依對象** 區段。 這是歷程中使用的關聯物件清單。 此清單會顯示名稱、物件類型，以及內部Journey Optimizer ID。
+4. 檢閱 **相依對象** 區段。 這是歷程中使用的關聯物件清單。此清單會顯示名稱、物件類型以及內部的 Journey Optimizer ID。
 
 5. 按一下 **複製** 按鈕，以開始將歷程複製到target沙箱。
 

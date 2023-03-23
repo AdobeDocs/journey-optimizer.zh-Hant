@@ -12,7 +12,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1779'
-ht-degree: 8%
+ht-degree: 22%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="子網域委派"
->abstract="Journey Optimizer可讓您將子網域委派給Adobe。 您可以將子網域完全委派給Adobe，這是建議的方法。 您也可以使用CNAME建立子網域以指向Adobe特定記錄，但此方法需要您自行維護和管理DNS記錄。"
+>abstract="Journey Optimizer 可讓您將子網域委派給 Adobe。您可以將子網域完全委派給 Adobe，這是建議的方法。您還可以使用 CNAME 建立子網域以指向 Adobe 的特定記錄，但這種方法需要您自行維護和管理 DNS 記錄。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="子網域設定方法"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
 >title="子網域委派"
->abstract="若要開始傳送電子郵件，您會將子網域委派給Adobe。 完成後，系統會為您設定DNS記錄、收件匣、寄件者、回覆和退信地址。"
+>abstract="若要開始傳送電子郵件，您需要將您的子網域委派給 Adobe。完成後，將為您設定 DNS 記錄、收件匣、寄件者、回覆地址和退回地址。"
 
 域名委派是一種允許域名所有者的方法(技術上：DNS區域)，以委派DNS區域(技術上：其下的DNS區域，可稱為子區域)，傳至其他實體。 基本上，身為客戶，如果您處理「example.com」區域，您可以委派子區域「marketing.example.com」給Adobe。 深入了解 [子網域委派](about-subdomain-delegation.md)
 
@@ -47,8 +47,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
->title="生成匹配的DNS記錄"
->abstract="若要將新子網域完全委派給Adobe，您必須將Journey Optimizer介面中顯示的Adobe名稱伺服器資訊複製並貼到您的網域托管解決方案，以產生相符的DNS記錄。 若要使用CNAME委派子網域，您也需要複製並貼上SSL CDN URL驗證記錄。 檢查成功後，子網域即可供用來傳送訊息。"
+>title="產生相符的 DNS 記錄"
+>abstract="若要將新的子網域完全委派給 Adobe，您需要將 Journey Optimizer 介面中顯示的 Adobe 名稱伺服器資訊複製貼上您的網域託管解決方案中，以產生相符的 DNS 記錄。若要使用 CNAME 委派子網域，您還需要複製貼上 SSL CDN URL 驗證記錄。一旦檢查成功，子網域就準備好可用於傳遞訊息了。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain.html#cname-subdomain-delegation" text="CNAME 子網域委派"
 
 [!DNL Journey Optimizer] 可讓您直接從產品介面完全委派子網域以Adobe。 如此一來，Adobe便能控制並維護傳送、呈現及追蹤電子郵件行銷活動所需的DNS的所有層面，以托管服務的形式傳送訊息。
@@ -113,13 +113,13 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
->title="生成匹配的DNS和驗證記錄"
->abstract="若要使用CNAME委派子網域，您必須將Journey Optimizer介面中顯示的Adobe名稱伺服器資訊和SSL CDN URL驗證記錄複製並貼上至您的托管平台。 檢查成功後，子網域即可供用來傳送訊息。"
+>title="產生相符的 DNS 和驗證記錄"
+>abstract="若要使用 CNAME 委派子網域，您需要將 Journey Optimizer 介面中顯示的 Adobe 名稱伺服器資訊和 SSL CDN URL 驗證記錄複製貼上您的託管平台。一旦檢查成功，子網域就準備好可用於傳遞訊息了。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_cdn_cname"
 >title="複製驗證記錄"
->abstract="Adobe生成驗證記錄。 您必須在托管平台上建立對應的記錄，才能進行CDN URL驗證。"
+>abstract="Adobe 會產生驗證記錄。您需要在您的託管平台上建立相對應的記錄，以進行 CDN URL 驗證。"
 
 如果您有特定於域的限制策略，並且希望Adobe只對DNS有部分控制，則可以選擇在您的一方執行所有與DNS相關的活動。
 

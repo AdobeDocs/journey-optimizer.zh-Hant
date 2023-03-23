@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
 source-wordcount: '2022'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_global_report"
 >title="歷程全域報告"
->abstract="「歷程全域」報表可讓您測量在選定時段內歷程的影響。 您的報表會分為不同的Widget，詳述您歷程的成功和錯誤。 每個報表控制面板都可借由調整大小或移除小工具來修改。"
+>abstract="歷程全域報告可讓您測量您的歷程在選取時段內的影響。您的報告會分為不同的 Widget，詳細說明您的歷程的成功和錯誤。每個報告儀表板都可以透過調整大小或移除 Widget 來修改。"
 
 您可以直接從歷程存取歷程全域報表，其中包含 **[!UICONTROL 檢視報表]** 按鈕。
 
@@ -259,7 +259,7 @@ ht-degree: 0%
 
 ![](assets/journey_global_4.png)
 
-+++進一步了解SMS報表可用的不同量度和小工具。
++++進一步了解SMS報表可用的不同量度和Widget。
 
 此 **[!UICONTROL SMS — 傳送統計資料]** 表格會詳細說明傳送的成功：
 

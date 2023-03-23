@@ -10,7 +10,7 @@ exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 7%
+ht-degree: 24%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp_header"
 >title="委派登陸頁面子網域"
->abstract="您將設定您的子網域以供登錄頁面使用。 您可以使用已委派給Adobe的子網域，或設定其他子網域。"
+>abstract="您將設定您的子網域以供登陸頁面使用。您可以使用已委派給 Adobe 的子網域，或設定另一個子網域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
@@ -29,8 +29,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
->title="建立登錄頁面預設集"
->abstract="若要建立登錄頁面預設集，請確定您先前已設定至少一個要從子網域名稱清單挑選的登錄頁面子網域。"
+>title="建立一個登陸頁面預設集"
+>abstract="為了能夠建立登陸頁面預設集，請確保您之前已設定了至少一個登陸頁面子網域，才能從子網域名稱清單中挑選。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="建立登陸頁面預設集"
 
 才能 [建立登錄頁面預設集](lp-presets.md)，您必須設定要用於登錄頁面的子網域。
@@ -97,8 +97,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_lp_subdomain_dns"
->title="生成匹配的DNS記錄"
->abstract="若要設定新的登錄頁面子網域，您必須複製Journey Optimizer介面中顯示的Adobe名稱伺服器資訊，並貼到您的網域托管解決方案中，以產生相符的DNS記錄。 檢查成功後，子網域即可供用來建立登錄頁面預設集。"
+>title="產生相符的 DNS 記錄"
+>abstract="若要設定新的登陸頁面子網域，您需要將 Journey Optimizer 介面中顯示的 Adobe 名稱伺服器資訊複製後貼到您的網域託管解決方案中，以產生相符的 DNS 記錄。一旦檢查成功，子網域就準備好可用於建立登陸頁面預設集了。"
 
 若要設定新子網域，請遵循下列步驟。
 

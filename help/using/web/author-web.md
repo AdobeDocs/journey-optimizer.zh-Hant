@@ -12,7 +12,7 @@ badge: label="Beta" type="Informity"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 5%
+ht-degree: 21%
 
 ---
 
@@ -38,14 +38,14 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="確認要編輯的URL"
->abstract="確認特定網頁的URL，以用於編輯將套用至上述定義之Web表面的內容。 網頁必須使用Adobe Experience Platform Web SDK實作。"
+>title="確認要編輯的 URL"
+>abstract="確認特定網頁的 URL，以用於編輯將套用到上面定義的網頁表面的內容。必須使用此 Adobe Experience Platform Web SDK 實作此網頁。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="更多詳情"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
->title="輸入要編輯的URL"
->abstract="輸入要用於編輯內容的特定網頁的URL，該內容將應用於符合規則的所有頁面。 網頁必須使用Adobe Experience Platform Web SDK實作。"
+>title="輸入要編輯的 URL"
+>abstract="輸入特定網頁的 URL，以用於編輯將套用到符合規則的所有網頁的內容。必須使用 Adobe Experience Platform Web SDK 實作此網頁。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="更多詳情"
 
 <!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
@@ -98,8 +98,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
->title="將內容元件新增至網頁"
->abstract="您可以新增許多元件至您的網頁，並視需要加以編輯。"
+>title="將內容元件新增到您的網頁"
+>abstract="您可以將許多元件新增到您的網頁並根據需要進行編輯。"
 
 1. 從 **[!UICONTROL 元件]** 窗格，您可以將下列元件新增至您的網頁，並視需要加以編輯：
 
@@ -144,7 +144,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="使用瀏覽模式"
->abstract="在此模式中，您可以從您要個人化的選定曲面導覽至確切頁面。"
+>abstract="在此模式下，您可以從要個人化的選取表面瀏覽到精準的頁面。"
 
 您可以從預設值交換 **[!UICONTROL 設計]** 模式 **[!UICONTROL 瀏覽]** 模式。
 
@@ -166,8 +166,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
->title="輕鬆管理您的所有變更"
->abstract="使用此窗格，您可以瀏覽並管理您添加到網頁的所有調整和樣式。"
+>title="輕鬆管理所有變更"
+>abstract="使用此窗格，您可以瀏覽和管理您新增到網頁的所有調整和樣式。"
 
 您可以輕鬆管理新增至網頁的所有元件、調整和樣式。
 
@@ -205,8 +205,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"
->title="預覽您的網路體驗"
->abstract="取得網路體驗的模擬外觀。"
+>title="預覽您的網頁體驗"
+>abstract="取得您的網頁體驗的模擬。"
 
 若要顯示已修改之網路體驗的預覽，請遵循下列步驟。
 

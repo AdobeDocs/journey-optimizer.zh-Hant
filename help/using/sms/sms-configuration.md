@@ -9,7 +9,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 2%
+ht-degree: 18%
 
 ---
 
@@ -32,19 +32,19 @@ Adobe Journey Optimizer目前與第三方提供商（如Sinch和Twilio）整合�
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
->title="使用Journey Optimizer設定您的SMS廠商"
->abstract="選取您的廠商並填入您的SMS API憑證。"
+>title="使用 Journey Optimizer 設定您的簡訊供應商"
+>abstract="選取您的供應商並填寫您的簡訊 API 憑證。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="使用Journey Optimizer設定您的SMS廠商"
->abstract="傳送SMS之前，您必須整合提供者設定與Journey Optimizer。 完成後，您需要建立SMS表面。 這些步驟必須由Adobe Journey Optimizer系統管理員執行。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=en#message-preset-sms" text="建立SMS通道表面"
+>title="使用 Journey Optimizer 設定您的簡訊供應商"
+>abstract="在傳送簡訊之前，您必須將提供者設定和 Journey Optimizer 整合。完成後，您將需要建立一個簡訊表面。這些步驟必須由 Adobe Journey Optimizer 系統管理員執行。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=en#message-preset-sms" text="建立簡訊管道表面"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
->title="選擇SMS供應商配置"
->abstract="選取為您的SMS廠商設定的API憑證。"
+>title="選取簡訊供應商設定"
+>abstract="選取為您的簡訊供應商設定的 API 憑證。"
 
 若要使用Journey Optimizer設定您的SMS廠商，請遵循下列步驟：
 
@@ -77,9 +77,9 @@ Adobe Journey Optimizer目前與第三方提供商（如Sinch和Twilio）整合�
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
->title="定義SMS類別"
->abstract="使用此表面選取SMS訊息的類型：促銷SMS訊息的行銷（需要使用者同意），或非商業SMS訊息的交易（例如密碼重設）。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="行銷SMS訊息中的選擇退出"
+>title="定義簡訊類別"
+>abstract="選取使用此表面的簡訊訊息類型：需要使用者同意的促銷簡訊的行銷訊息，或非商業簡訊的異動訊息，例如密碼重設。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="選擇不接收行銷簡訊訊息"
 
 設定SMS通道後，您必須建立通道表面，才能傳送來自 **[!DNL Journey Optimizer]**.
 

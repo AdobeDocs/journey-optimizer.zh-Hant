@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="閱讀區段活動"
->abstract="「讀取區段」活動可讓您讓屬於Adobe Experience Platform區段的所有個人進入歷程。 進入歷程可以執行一次，也可以定期執行。"
+>abstract="「閱讀區段」活動可讓您安排屬於 Adobe Experience Platform 區段的所有個人進入歷程。進入歷程可以執行一次，也可以定期執行。"
 
 使用 **讀取區段** 活動，讓區段的所有個人進入歷程。 進入歷程可以執行一次，也可以定期執行。
 

@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 8%
+ht-degree: 22%
 
 ---
 
@@ -34,13 +34,13 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
->title="促銷活動類型"
->abstract="針對行銷訊息，請指定傳送日期， **已排程** 類型最合適。 不過，如果您想要傳送交易式訊息，例如密碼重設或購物車放棄，則 **API觸發** 類型是最佳選擇。"
+>title="行銷活動類型"
+>abstract="對於指定傳送日期的行銷訊息，**排程**&#x200B;類型最合適。但是，如果您想傳送密碼重設或購物車未結帳等異動訊息，**API 觸發**&#x200B;類型則是最佳選擇。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
->title="促銷活動類別"
->abstract="類別值直接與促銷活動類型值相關聯。 排程 **行銷** 類別和類別的API觸發類型 **交易**"
+>title="行銷活動類別"
+>abstract="類別值會直接關聯到活動類型值。**行銷**&#x200B;類別的排程行銷活動類型和&#x200B;**異動**&#x200B;類別的 API 觸發類型"
 
 1. 在 **[!UICONTROL 屬性]** 區段，指定您要如何執行促銷活動。 可用的促銷活動有兩種類型：
 
@@ -143,18 +143,18 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
->title="促銷活動開始"
->abstract="指定應傳送訊息的日期和時間。"
+>title="行銷活動開始"
+>abstract="指定傳送訊息的日期和時間。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_end"
->title="促銷活動結束"
->abstract="指定循環促銷活動何時應停止執行。"
+>title="行銷活動結束"
+>abstract="指定應停止執行週期性行銷活動的時間。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_triggers"
->title="Campaign動作觸發程式"
->abstract="定義應傳送促銷活動訊息的頻率。"
+>title="行銷活動動作觸發器"
+>abstract="定義應傳送行銷活動訊息的頻率。"
 
 依預設，促銷活動在手動啟動後就會開始，而在訊息傳送一次後立即結束。
 

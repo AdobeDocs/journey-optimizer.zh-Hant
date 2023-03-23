@@ -12,7 +12,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 >查看、導出和管理隱藏清單的權限限制為 [歷程管理員](../administration/ootb-product-profiles.md#journey-administrator). 深入了解管理 [!DNL Journey Optimizer] 中的使用者存取權限 [本節](../administration/permissions-overview.md).
 
 
-篩選器可協助您瀏覽清單。
+篩選器可幫助您瀏覽清單。
 
 ![](assets/suppression-list-filters.png)
 
@@ -91,13 +91,13 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
->title="將電子郵件或網域新增至隱藏清單"
->abstract="您可以手動填入Journey Optimizer隱藏清單，以從您的傳送中排除特定的電子郵件地址和/或網域。"
+>title="將電子郵件或網域新增到禁止名單"
+>abstract="您可以手動填入 Journey Optimizer 禁止名單，以便從您的傳送中排除特定的電子郵件地址和/或網域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
->title="將電子郵件或網域新增至隱藏清單"
->abstract="若要填入隱藏清單，您可以手動新增電子郵件地址或網域：一次一次，或透過CSV檔案上傳以大量模式。 您的傳送將排除這些特定電子郵件地址和/或網域。"
+>title="將電子郵件或網域新增到禁止名單"
+>abstract="若要填入禁止名單，您可以手動新增電子郵件地址或網域：一次一個，或在大量模式中透過 CSV 檔案上傳。這些特定的電子郵件地址和/或網域將被排除在您的傳送之外。"
 
 當郵件無法傳遞至電子郵件地址時，系統會根據定義的隱藏規則或退信計數，自動將此地址新增至隱藏清單。
 
@@ -107,14 +107,14 @@ ht-degree: 0%
 >
 >最多需要60分鐘 [!DNL Journey Optimizer] 考慮傳出電子郵件中隱藏的地址。
 
-您可以新增電子郵件地址或網域 [一次一個](#add-one-address-or-domain)，或 [在大量模式中](#upload-csv-file) 透過CSV檔案上傳。
+您可以[一次新增一個](#add-one-address-or-domain)電子郵件地址或網域，或[在大量模式中](#upload-csv-file)透過 CSV 檔案上傳的方式新增。
 
-### 添加一個地址或域 {#add-one-address-or-domain}
+### 新增一個地址或網域 {#add-one-address-or-domain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_address"
->title="將一個項添加到隱藏清單"
->abstract="您可以逐一新增電子郵件地址和/或網域，以填入隱藏清單。"
+>title="將一個項目新增到禁止名單"
+>abstract="您可以透過逐一新增電子郵件地址和/或網域來填入禁止名單。"
 
 要將電子郵件地址或域添加到隱藏清單，請執行以下步驟：
 
@@ -128,22 +128,22 @@ ht-degree: 0%
 
 1. 選擇地址類型： **[!UICONTROL 電子郵件]** 或 **[!UICONTROL 網域]**.
 
-1. 輸入要從傳送中排除的電子郵件地址或網域。
+1. 輸入您要從傳送中排除的電子郵件地址或網域。
 
    >[!NOTE]
    >
-   >請務必輸入有效的電子郵件地址(如abc@company.com)或網域（如abc.company.com）。
+   >確定輸入有效的電子郵件地址 (例如 abc@company.com) 或網域 (例如 abc.company.com)。
 
-1. （可選）輸入原因。 此欄位允許包含32到126之間的所有ASCII可打印字元。
+1. （可選）輸入原因。 此欄位允許包含 32 到 126 個字元之間組成的所有 ASCII 可列印字元。 
 
 1. 使用 **[!UICONTROL 提交]** 按鈕進行確認。
 
-### 上傳CSV檔案 {#upload-csv-file}
+### 上傳 CSV 檔案 {#upload-csv-file}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_csv"
->title="上傳CSV以新增項目至隱藏清單"
->abstract="您可以上傳填入您要排除的電子郵件地址/網域的CSV檔案，以填入隱藏清單。"
+>title="上傳 CSV 以將項目新增到禁止名單"
+>abstract="您可以透過上傳填滿您要排除的電子郵件地址/網域的 CSV 檔案來填入禁止名單。"
 
 若要將一組電子郵件地址或網域新增至隱藏清單，請遵循下列步驟：
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 
    ![](assets/suppression-list-upload-csv.png)
 
-1. 下載要使用的CSV範本，其中包含下列欄和格式：
+1. 下載要使用的 CSV 範本，其中包括以下欄和格式：
 
    ```
    TYPE,VALUE,COMMENT
@@ -166,7 +166,7 @@ ht-degree: 0%
    >
    >請勿變更CSV範本中的欄名稱。
    >
-   >檔案大小不應超過1 MB。
+   >檔案大小不應超過 1 MB。
 
 1. 完成後，拖放CSV檔案，然後使用 **[!UICONTROL 提交]** 按鈕進行確認。
 
@@ -180,15 +180,15 @@ ht-degree: 0%
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
-可能的狀態包括：
+可能的狀態有：
 
-* **[!UICONTROL 待定]**:檔案上傳正在處理中。
-* **[!UICONTROL 錯誤]**:檔案上傳程式因技術問題或檔案格式錯誤而失敗。
-* **[!UICONTROL 完成]**:檔案上載過程已成功完成。
+* **[!UICONTROL 擱置中]**：檔案上傳正在處理中。
+* **[!UICONTROL 錯誤]**：由於技術問題或檔案格式錯誤，文件上傳過程失敗。
+* **[!UICONTROL 完成]**：檔案上傳過程已成功完成。
 
 在上傳期間，如果某些位址的格式不正確，則不會將其新增至 [!DNL Journey Optimizer] 隱藏清單。
 
-在這種情況下，上傳完成時，就會與報表相關聯。 您可以下載它以檢查遇到的錯誤<!-- and understand why they were not added to the suppression list-->.
+在這種情況下，上傳完成後，即會與報告相關聯。 您可以下載它以檢查遇到的錯誤<!-- and understand why they were not added to the suppression list-->.
 
 ![](assets/suppression-list-recent-uploads-report.png)
 

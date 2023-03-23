@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_report"
 >title="行銷活動即時報告"
->abstract="「促銷活動即時」報表可讓您僅在過去24小時內即時測量和視覺化促銷活動的影響和效能。 您的報表會分為不同的Widget，詳述促銷活動的成功和錯誤。 每個報表控制面板都可借由調整大小或移除小工具來修改。"
+>abstract="行銷活動即時報告可讓您僅在過去 24 小時內對行銷活動的影響和效能進行即時測量和視覺化。您的報告會分為不同的 Widget，詳細說明您的行銷活動的成功和錯誤。每個報告儀表板都可以透過調整大小或移除 Widget 來修改。"
 
 您可以使用 **[!UICONTROL 即時檢視]** 按鈕。
 

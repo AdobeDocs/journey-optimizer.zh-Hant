@@ -9,7 +9,7 @@ exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
->title="表示"
->abstract="新增表示法以定義您的選件在訊息中的顯示位置。 優惠方案表示得越多，在不同版位內容中使用優惠方案的機會就越多。"
+>title="表示方式"
+>abstract="新增表示方式以定義您的優惠在訊息中顯示的位置。優惠具有的表示方式越多，在不同位置內容中使用優惠的機會就越多。"
 
-選件可顯示在訊息中的不同位置：在頂端橫幅中，以影像、段落中的文字、HTML區塊等形式顯示。 優惠方案表示得越多，在不同版位內容中使用優惠方案的機會就越多。
+選件可顯示在訊息中的不同位置：在頂端橫幅中，以影像、段落中的文字、HTML區塊等形式顯示。 優惠具有的表示方式越多，在不同位置內容中使用優惠的機會就越多。
 
 ## 設定優惠方案的陳述 {#representations}
 

@@ -12,7 +12,7 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 1%
+ht-degree: 23%
 
 ---
 
@@ -21,43 +21,43 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="關於結構元件"
->abstract="結構元件可定義電子郵件的版面。"
+>abstract="結構元件會定義電子郵件的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="關於結構元件"
->abstract="結構元件會定義登錄頁面的配置。"
+>abstract="結構元件會定義登陸頁面的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="關於結構元件"
->abstract="結構元件定義片段的佈局。"
+>abstract="結構元件會定義區段的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
 >title="關於結構元件"
->abstract="結構元件定義模板的佈局。"
+>abstract="結構元件會定義範本的版面。"
 
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="定義電子郵件欄"
->abstract="電子郵件設計工具可讓您透過定義欄結構來輕鬆定義電子郵件的版面。"
+>abstract="電子郵件設計工具可讓您透過定義欄結構輕鬆定義電子郵件的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="定義登錄頁面欄"
->abstract="電子郵件設計工具可讓您透過定義欄結構來輕鬆定義登錄頁面的版面。"
+>title="定義登陸頁面欄"
+>abstract="電子郵件設計工具可讓您透過定義欄結構輕鬆定義登陸頁面的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="定義片段欄"
->abstract="電子郵件設計工具可讓您透過定義欄結構來輕鬆定義片段的版面。"
+>title="定義區段欄"
+>abstract="電子郵件設計工具可讓您透過定義欄結構輕鬆定義區段的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
 >title="定義範本欄"
->abstract="電子郵件設計工具可讓您透過定義欄結構來輕鬆定義範本的版面。"
+>abstract="電子郵件設計工具可讓您透過定義欄結構輕鬆定義範本的版面。"
 
 
 電子郵件設計工具可讓您輕鬆定義電子郵件的結構。 透過新增和移動結構元素並執行簡單的拖放動作，您可以在數秒內設計電子郵件的形狀。

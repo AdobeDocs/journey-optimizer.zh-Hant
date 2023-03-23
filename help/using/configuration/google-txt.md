@@ -12,7 +12,7 @@ exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 10%
+ht-degree: 24%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_google"
->title="Google TXT記錄"
->abstract="若要確保將電子郵件成功傳送至Gmail地址，您可以將特殊的Google網站驗證TXT記錄新增至子網域，以確認其已驗證。"
+>title="Google TXT 記錄"
+>abstract="若要確保電子郵件成功傳遞到 Gmail 地址，您可以將特殊的 Google 網站驗證 TXT 記錄新增到您的子網域以確保它已通過驗證。"
 
 TXT記錄是一種DNS記錄，用於提供網域的文字資訊，可由外部來源讀取。
 

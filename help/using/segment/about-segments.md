@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 6c255d66fb89ba756add062d8a4315dd622fd8e7
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
 >title="區段"
->abstract="透過運用即時客戶設定檔資料，Adobe Experience Platform可讓您輕鬆建立目標區段，以擷取客戶的獨特行為和偏好。"
+>abstract="透過使用即時客戶設定檔資料，Adobe Experience Platform 使您能夠輕鬆建立鎖定區段，以擷取客戶的獨特行為和偏好。"
 
 [!DNL Journey Optimizer]  可讓您直接使用Adobe Experience Platform的即時客戶設定檔資料，建立 **[!UICONTROL 區段]** 功能表，並將其用於您的歷程或行銷活動中。
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 * **串流細分**:當新資料流入系統時，區段的對象清單會即時保持最新。
 
-   串流區段是持續進行的資料選取程式，會根據使用者活動更新您的區段。 建立並儲存區段後，會對傳入的資料套用區段定義至Journey Optimizer。 這表示個人的設定檔資料會隨著變更而新增或從區段中移除，確保您的目標對象始終具有相關性。
+   串流分段是一種持續的資料選取流程，會根據使用者活動更新您的區段。建立並儲存區段後，會對傳入的資料套用區段定義至Journey Optimizer。 這表示個人的設定檔資料會隨著變更而新增或從區段中移除，確保您的目標對象始終具有相關性。
 
 * **批次分段**:每24小時評估一次區段的對象清單。
 

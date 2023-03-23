@@ -10,7 +10,7 @@ level: Beginner
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
@@ -57,15 +57,15 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_create_template"
 >title="定義您自己的內容範本"
->abstract="從頭建立獨立自訂範本，讓內容可在多個歷程和行銷活動間重複使用。"
+>abstract="從頭開始建立獨立的自訂範本，使得您的內容可在多個歷程和行銷活動中重複使用。"
 
 建立內容範本的方式有兩種：
 
-* 使用左側邊欄，從草稿開始建立內容範本 **[!UICONTROL 內容範本]** 功能表。 [了解如何](#create-template-from-scratch)
+* 使用左側邊欄，從草稿開始建立內容範本 **[!UICONTROL 內容範本]** 功能表。 [了解作法](#create-template-from-scratch)
 
-* 在行銷活動或歷程中設計電子郵件時，請將電子郵件內容儲存為範本。 [了解如何](#save-as-template)
+* 在行銷活動或歷程中設計電子郵件時，請將電子郵件內容儲存為範本。 [了解作法](#save-as-template)
 
-儲存後，您的內容範本便可用於行銷活動或歷程。 無論是從草稿開始建立，還是從先前的電子郵件建立，您現在都可以在建置任何 [電子郵件](get-started-email-design.md) with [!DNL Journey Optimizer]. [了解如何](email-templates.md)
+儲存後，您的內容範本便可用於行銷活動或歷程。 無論是從草稿開始建立，還是從先前的電子郵件建立，您現在都可以在建置任何 [電子郵件](get-started-email-design.md) with [!DNL Journey Optimizer]. [了解作法](email-templates.md)
 
 >[!NOTE]
 >
@@ -110,7 +110,7 @@ ht-degree: 2%
 
    ![](assets/content-template-designer.png)
 
-1. 您可以視需要測試內容。 [了解如何](#test-template)
+1. 您可以視需要測試內容。 [了解作法](#test-template)
 
 1. 範本準備就緒後，按一下 **[!UICONTROL 儲存]**.
 
@@ -118,14 +118,14 @@ ht-degree: 2%
 
    ![](assets/content-template-designer-back.png)
 
-此範本現在已準備好在內建置任何電子郵件時使用 [!DNL Journey Optimizer]. [了解如何](email-templates.md)
+此範本現在已準備好在內建置任何電子郵件時使用 [!DNL Journey Optimizer]. [了解作法](email-templates.md)
 
 ### 另存為範本 {#save-as-template}
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
 >title="了解如何移轉訊息"
->abstract="2022年7月25日，訊息功能表消失，訊息現在直接從歷程中撰寫。 如果您想在歷程中重複使用舊版訊息，需要將其儲存為範本。"
+>abstract="在 2022 年 7 月 25 日，「訊息」選單已消失，現在會直接從歷程編寫訊息。如果您要在歷程中重複使用舊訊息，則需要將它們另存為範本。"
 
 設計 [電子郵件](get-started-email-design.md) 在行銷活動或歷程中，您可以儲存電子郵件內容以供日後重複使用。 請依照下列步驟以執行此操作。
 
@@ -143,7 +143,7 @@ ht-degree: 2%
 
 1. 範本會儲存至 **[!UICONTROL 內容範本]** 清單，可從 [!DNL Journey Optimizer] 專用功能表。 它會變成獨立內容範本，可作為該清單上的任何其他項目加以存取、編輯和刪除。 [了解更多](#access-manage-templates)
 
-您現在可以在建立任何 [電子郵件](get-started-email-design.md) with [!DNL Journey Optimizer]. [了解如何](email-templates.md)
+您現在可以在建立任何 [電子郵件](get-started-email-design.md) with [!DNL Journey Optimizer]. [了解作法](email-templates.md)
 
 >[!NOTE]
 >

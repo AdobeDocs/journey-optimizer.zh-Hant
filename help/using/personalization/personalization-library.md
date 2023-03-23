@@ -12,7 +12,7 @@ exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 8%
+ht-degree: 14%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
->title="關於運算式程式庫"
->abstract="[!DNL Journey Optimizer] 提供一個程式庫，您可在其中存取管理員使用者已設定的已儲存個人化運算式。 "
+>title="關於運算式資料庫"
+>abstract="[!DNL Journey Optimizer] 會提供資料庫，您可以在此存取已由管理員使用者設定的已儲存個人化運算式。 "
 
 [!DNL Journey Optimizer] 提供一個程式庫，您可在其中存取管理員使用者新增的先前儲存的個人化運算式。
 

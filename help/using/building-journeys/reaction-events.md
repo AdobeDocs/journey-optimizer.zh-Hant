@@ -12,7 +12,7 @@ exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 2%
+ht-degree: 21%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"
 >title="反應事件"
->abstract="此活動可讓您對與相同歷程中傳送之訊息相關的追蹤資料做出反應。 我們會在與Adobe Experience Platform共用資訊的當下即時擷取這些資訊。"
+>abstract="本活動可讓您回應和同一歷程中傳送的訊息相關的追蹤資料。我們會在和 Adobe Experience Platform 共用時即時擷取此資訊。"
 
-浮動視窗中可用的不同事件活動中，會有內建的 **[!UICONTROL 反應]** 事件。 此活動可讓您對與相同歷程中傳送之訊息相關的追蹤資料做出反應。 我們會在與Adobe Experience Platform共用資訊的當下即時擷取這些資訊。
+浮動視窗中可用的不同事件活動中，會有內建的 **[!UICONTROL 反應]** 事件。 本活動可讓您回應和同一歷程中傳送的訊息相關的追蹤資料。我們會在和 Adobe Experience Platform 共用時即時擷取此資訊。
 
 您可以對已點按或已開啟的訊息做出反應。
 

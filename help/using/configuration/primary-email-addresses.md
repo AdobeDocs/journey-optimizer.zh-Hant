@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '216'
-ht-degree: 3%
+ht-degree: 26%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
 >title="定義要使用的地址"
->abstract="當資料庫中有數個電子郵件地址或電話號碼時（個人、專業人員等），您可以選擇要排定傳送優先順序的電子郵件地址。"
+>abstract="當資料庫 (個人、專業等) 中有多個電子郵件地址或電話號碼時，您可以選擇優先傳送哪一個。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address_header"
 >title="定義要使用的地址"
->abstract="編輯用於決定設定檔電子郵件地址或電話號碼的欄位，以排定傳送的優先順序。"
+>abstract="編輯用於確定設定檔的電子郵件地址或電話號碼的欄位以優先傳送。"
 
 當您定位設定檔時，資料庫中可能會有數個電子郵件地址或電話號碼（專業電子郵件地址、個人電話號碼等）。
 

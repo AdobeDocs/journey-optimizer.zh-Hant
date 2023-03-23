@@ -11,7 +11,7 @@ exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 4%
+ht-degree: 15%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
->title="推送訊息建立"
->abstract="新增您的推送訊息，並開始使用運算式編輯器進行個人化。"
+>title="推播訊息建立"
+>abstract="新增您的推播訊息並開始使用運算式編輯器對其進行個人化。"
 
 ## 在歷程或行銷活動中建立推播通知 {#create}
 
@@ -46,7 +46,7 @@ ht-degree: 4%
 
 1. 在歷程設定畫面中，按一下 **[!UICONTROL 編輯內容]** 按鈕來設定推播內容。 [設計推播通知](design-push.md)
 
-1. 定義訊息內容後，您就可以使用測試設定檔來預覽和測試。
+1. 定義訊息內容後，您就可以使用測試設定檔進行預覽及測試。 
 
 1. 推送就緒時，請完成 [歷程](../building-journeys/journey-gs.md) 來發送。
 
@@ -81,7 +81,7 @@ ht-degree: 4%
 
 1. 在促銷活動設定畫面中，按一下 **[!UICONTROL 編輯內容]** 按鈕來設定推播內容。 [設計推播通知](design-push.md)
 
-1. 定義訊息內容後，您就可以使用測試設定檔來預覽和測試。
+1. 定義訊息內容後，您就可以使用測試設定檔進行預覽及測試。 
 
 1. 推送就緒時，請完成 [行銷活動](../campaigns/create-campaign.md) 來發送。
 
@@ -94,12 +94,12 @@ ht-degree: 4%
 * [設定推播通道](push-gs.md)
 * [在歷程中新增訊息](../building-journeys/journeys-message.md)
 
-## 快速傳遞模式 {#rapid-delivery}
+## 快速傳送模式 {#rapid-delivery}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
->title="快速傳遞模式"
->abstract="快速傳送模式可讓您在推播通道上執行高速訊息傳送，傳送至低於30M的對象大小。"
+>title="快速傳送模式"
+>abstract="快速傳送模式讓您可以在推播管道上向 30M 以下的對象規模執行高速訊息傳送。"
 
 快速傳送模式（歷程中先前稱為突發模式）是 [!DNL Journey Optimizer] 可透過促銷活動以大量傳送非常快速的推送訊息的附加元件。
 

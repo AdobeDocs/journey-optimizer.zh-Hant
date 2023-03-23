@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 登錄頁面全域報表
+title: 登陸頁面全域報告
 description: 了解如何使用登錄頁面全域報表中的資料
 feature: Journeys
 topic: Content Management
@@ -11,16 +11,16 @@ exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# 登錄頁面全域報表 {#lp-report-global}
+# 登陸頁面全域報告 {#lp-report-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_landing_page_global_report"
->title="登錄頁面全域報表"
->abstract="「登錄頁面全域」報表可讓您測量在選定時段內登錄頁面的影響。 您的報表會分為不同的Widget，詳細說明登錄頁面的成功和錯誤。 每個報表控制面板都可借由調整大小或移除小工具來修改。"
+>title="登陸頁面全域報告"
+>abstract="登陸頁面全域報告可讓您測量您的登陸頁面在選取時段內的影響。您的報告會分為不同的 Widget，詳細說明您的登陸頁面的成功和錯誤。每個報告儀表板都可以透過調整大小或移除 Widget 來修改。"
 
 登錄頁面 **[!UICONTROL 全域報表]** 報表會顯示所選時段內登錄頁面影響的詳細資訊。 若要僅測量過去24小時的登錄頁面資料，請參閱 [登陸頁面即時報表](lp-report-live.md).
 

@@ -12,7 +12,7 @@ exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 11%
+ht-degree: 20%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
 >title="一般事件"
->abstract="事件可讓您一直觸發歷程，以即時傳送訊息給流入歷程的個人。 對於此類型的事件，您只能新增標籤和說明。 事件配置由資料工程師執行，無法編輯。"
+>abstract="事件可讓您一直觸發歷程，以即時傳送訊息給流入歷程的個人。 對於這類事件，您只能新增標籤和說明。事件設定由資料工程師執行，並且無法編輯。"
 
 事件可讓您一直觸發歷程，以即時傳送訊息給流入歷程的個人。 
 
-對於此類型的事件，您只能新增標籤和說明。 無法編輯其餘的配置。 由技術使用者執行。 請參閱[此頁面](../event/about-events.md)。
+對於這類事件，您只能新增標籤和說明。無法編輯其餘的配置。 由技術使用者執行。 請參閱[此頁面](../event/about-events.md)。
 
 ![](assets/general-events.png)
 

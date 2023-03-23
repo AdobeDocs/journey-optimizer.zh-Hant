@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 1%
+source-wordcount: '861'
+ht-degree: 6%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation_test_profile"
 >title="新增測試設定檔"
->abstract="您可以選取身分命名空間和對應的身分值，以新增測試設定檔。 您必須有測試設定檔可供使用，才能用於模擬。"
+>abstract="您可以透過選取身分識別命名空間和相對應的身分識別值來新增測試設定檔。您必須擁有已可供使用的測試設定檔才能將它們用於模擬。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="建立測試設定檔"
 
 首先，您需要選取要用於模擬的測試設定檔。
@@ -61,7 +61,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >身分命名空間會定義識別碼的內容，例如電子郵件地址或CRM ID。 深入了解Adobe Experience Platform身分識別命名空間 [在本節](../../segment/get-started-identity.md){target=&quot;_blank&quot;}。
+   >身分命名空間會定義識別碼的內容，例如電子郵件地址或CRM ID。 深入了解Adobe Experience Platform身分識別命名空間 [在本節](../../segment/get-started-identity.md){target="_blank"}.
 
 1. 輸入身分值，然後按一下 **[!UICONTROL 檢視]** 以列出可用的設定檔。
 
@@ -212,5 +212,5 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    >[!NOTE]
    >
-   >將請求或回應裝載複製到您自己的程式碼時，請務必將{USER_TOKEN}和{API_KEY}取代為有效值。 了解如何在 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target=&quot;_blank&quot;}檔案。
+   >將請求或回應裝載複製到您自己的程式碼時，請務必將{USER_TOKEN}和{API_KEY}取代為有效值。 了解如何在 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} 檔案。
 

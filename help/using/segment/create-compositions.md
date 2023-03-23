@@ -14,7 +14,7 @@ badge: label="Beta" type="Informity"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
 >title="發佈您的對象"
->abstract="發佈您的構圖，將產生的受眾儲存至Adobe Experience Platform。"
+>abstract="發佈您的組合以將產生的對象儲存到 Adobe Experience Platform 中。"
 
 所有建立的組合皆可從 **[!UICONTROL 組合物]** 標籤。 它們可以有多種狀態：
 

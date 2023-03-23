@@ -12,7 +12,7 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1133'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -35,7 +35,7 @@ HIPAA等法規要求 [!DNL Journey Optimizer] 應提供封存傳送給個人之�
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="定義密件副本電子郵件地址"
->abstract="您可以將已傳送的電子郵件傳送至密件副本收件匣，以保留其副本。 輸入您選擇的電子郵件地址，以便將發送的每封電子郵件盲複製到此密件副本地址。 請注意，BCC位址網域不應與委派給Adobe的任何子網域相同。 此功能是選取性的。"
+>abstract="您可以透過將電子郵件傳送到密件副本收件匣來保留已傳送之電子郵件的副本。輸入您選擇的電子郵件地址，以便每封電子郵件都會以密件方式傳送至此密件副本地址。請注意，密件副本地址網域不應和委派給 Adobe 的任何子網域相同。此功能為選用。"
 
 您可以傳送由 [!DNL Journey Optimizer] 到密件副本收件匣。 此可選功能允許您保留發送給用戶的電子郵件通信副本，以實現合規性和/或存檔目的。 傳遞收件者將看不到此資訊。
 

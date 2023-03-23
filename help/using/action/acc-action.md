@@ -12,7 +12,7 @@ exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 5%
+ht-degree: 20%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
 >title="Adobe Campaign v7/v8 動作"
->abstract="此整合適用於Adobe Campaign Classic v7和v8。 它可讓您使用Adobe Campaign交易訊息功能來傳送電子郵件、推播通知和簡訊。 Journey Optimizer和Campaign執行個體之間的連線是在布建時Adobe設定。"
+>abstract="此整合適用於 Adobe Campaign Classic v7 和 v8。這可讓您使用 Adobe Campaign 異動訊息功能來傳送電子郵件、推播通知及 SMS。Journey Optimizer 和 Campaign 執行個體之間的連線在佈建時由 Adobe 設定。"
 
-此整合適用於從7.1版開始的Adobe Campaign Classic v7和Adobe Campaign v8。 它可讓您使用Adobe Campaign交易訊息功能來傳送電子郵件、推播通知和簡訊。
+此整合適用於從7.1版開始的Adobe Campaign Classic v7和Adobe Campaign v8。 這可讓您使用 Adobe Campaign 異動訊息功能來傳送電子郵件、推播通知及 SMS。
 
-Journey Optimizer和Campaign執行個體之間的連線是在布建時Adobe設定。
+Journey Optimizer 和 Campaign 執行個體之間的連線在佈建時由 Adobe 設定。
 
 本節提供端對端使用案例 [節](../building-journeys/ajo-ac.md).
 

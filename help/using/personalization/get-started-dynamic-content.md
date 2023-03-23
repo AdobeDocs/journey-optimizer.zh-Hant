@@ -12,7 +12,7 @@ exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '150'
-ht-degree: 24%
+ht-degree: 38%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_conditions_list"
 >title="條件"
->abstract="條件規則可讓您根據設定檔屬性、內容事件或對象區段，在訊息中顯示多個內容變體。"
+>abstract="條件式規則可讓您根據設定檔屬性、內容事件或對象區段在訊息中顯示多個內容變體。"
 
 動態內容可讓您根據 **條件規則** 可由設定檔屬性、情境事件或對象區段組成。 條件式規則是使用運算式編輯器中的視覺化規則產生器來建立，您可以在其中儲存這些規則，以便在歷程及行銷活動中重複使用。
 

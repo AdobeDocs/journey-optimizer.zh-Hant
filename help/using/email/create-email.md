@@ -12,7 +12,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="電子郵件建立"
->abstract="只需三個簡單步驟，即可定義電子郵件參數。"
+>abstract="僅需三個簡單的步驟即可定義您的電子郵件參數。"
 
 在中建立電子郵件 [!DNL Journey Optimizer]，請遵循下列步驟。
 
@@ -78,7 +78,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!CONTEXTUALHELP]
 >id="test_id"
 >title="設定電子郵件內容"
->abstract="建立電子郵件的內容。 定義其主旨，然後運用電子郵件設計工具來建立並個人化電子郵件的內文。"
+>abstract="建立您的電子郵件內容。定義其主旨，然後利用電子郵件設計工具建置和個人化電子郵件內文。"
 
 1. 在歷程或行銷活動設定畫面中，按一下 **[!UICONTROL 編輯內容]** 按鈕來設定電子郵件內容。 [了解更多](get-started-email-design.md)
 

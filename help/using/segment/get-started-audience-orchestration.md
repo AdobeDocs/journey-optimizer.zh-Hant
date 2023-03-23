@@ -14,7 +14,7 @@ badge: label="Beta" type="Informity"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 14%
+ht-degree: 23%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
->title="建立合成"
->abstract="建立合成工作流程，將現有的Adobe Experience Platform對象結合至視覺畫布，並運用各種活動（分割、排除……）來建立新對象。"
+>title="建立組合"
+>abstract="建立組合工作流程，以將現有的 Adobe Experience Platform 對象合併到視覺化畫布中，並利用各種活動 (分割、排除...) 建立新的對象。"
 
 >[!BEGINSHADEBOX]
 

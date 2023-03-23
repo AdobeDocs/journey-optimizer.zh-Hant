@@ -11,7 +11,7 @@ exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_global_report"
 >title="訂閱全域報告"
->abstract="訂閱提供報表可讓您測量並視覺化您訂閱者在選定時段內的活動。 您的報表會分為不同的Widget，詳細說明您的訂閱和取消訂閱。 每個報表控制面板都可借由調整大小或移除小工具來修改。"
+>abstract="訂閱會提供報告，可讓您測量和視覺化訂閱者在選取時段內的活動。您的報告會分為不同的 Widget，詳細說明您的訂閱和取消訂閱的內容。每個報告儀表板都可以透過調整大小或移除 Widget 來修改。"
 
 訂閱 **[!UICONTROL 全域報表]** 顯示選定時段內訂閱者活動的詳細資訊。 若要僅測量過去24小時的訂閱，請參閱 [訂閱即時報表](subscription-report-live.md).
 

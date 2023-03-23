@@ -12,7 +12,7 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="區段資格事件"
->abstract="此活動可讓您的歷程監聽Adobe Experience Platform區段中設定檔的入口和出口，以便讓個人進入歷程或在歷程中前進。"
+>abstract="本活動可讓您的歷程聆聽 Adobe Experience Platform 區段中設定檔的入口和出口，讓個人得以在歷程中進入或前進。"
 
-此活動可讓您的歷程監聽Adobe Experience Platform區段中設定檔的入口和出口，以便讓個人進入歷程或在歷程中前進。 如需區段建立的詳細資訊，請參閱 [節](../segment/about-segments.md).
+本活動可讓您的歷程聆聽 Adobe Experience Platform 區段中設定檔的入口和出口，讓個人得以在歷程中進入或前進。如需區段建立的詳細資訊，請參閱 [節](../segment/about-segments.md).
 
 假設您有「銀色客戶」區段。 透過此活動，您可以讓所有新銀級客戶進入歷程，並傳送一系列個人化訊息。
 

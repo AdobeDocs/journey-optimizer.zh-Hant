@@ -12,7 +12,7 @@ exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 8%
+ht-degree: 15%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_business"
->title="業務事件"
->abstract="事件設定可讓您定義Journey Optimizer將接收做為事件的資訊。 您可以使用多個事件（在歷程的不同步驟中），而數個歷程可以使用相同的事件。 與單一事件不同，業務事件不會連結至特定設定檔。 事件ID類型一律為規則型。"
+>title="商業事件 "
+>abstract="事件設定可讓您定義 Journey Optimizer 會接收為事件的資訊。您可以使用多個事件 (在歷程的不同步驟中)，而好幾個歷程可以使用同一個事件。和單一事件不同，商業事件並不會連結到特定的設定檔。事件 ID 類型一直都會以規則為基礎。"
 
-與單一事件不同，業務事件不會連結至特定設定檔。 事件ID類型一律為規則型。 深入了解 [本節](../event/about-events.md).
+和單一事件不同，商業事件並不會連結到特定的設定檔。事件 ID 類型一直都會以規則為基礎。深入了解 [本節](../event/about-events.md).
 
 事件發生時，排程器可定期或由業務事件一次性觸發以讀取區段為基礎的歷程。
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 5%
+source-wordcount: '340'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
 >title="建立規則"
->abstract="建置規則建立方法可讓您使用Adobe Experience Platform分段服務建立新的區段定義。"
+>abstract="建置規則建立方法可讓您使用 Adobe Experience Platform 分段服務建立新的區段定義。"
 
 在此範例中，我們將建立一個區段來鎖定居住在亞特蘭大、舊金山或西雅圖且在1980年後出生的所有客戶。 所有這些客戶應在過去7天內開啟Luma應用程式，然後在開啟應用程式後2小時內購買。
 
@@ -30,7 +30,7 @@ ht-degree: 5%
 
    ![](assets/create-segment.png)
 
-   區段定義畫面可讓您設定所有必填欄位來定義區段。 了解如何在 [區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target=&quot;_blank&quot;}。
+   區段定義畫面可讓您設定所有必填欄位來定義區段。 了解如何在 [區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
 
    ![](assets/segment-builder.png)
 
@@ -42,7 +42,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >請注意，左窗格中可用的欄位會依 **XDM個別設定檔** 和 **XDM ExperienceEvent** 已為貴組織配置結構。  了解更多 [Experience Data Model(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+   >請注意，左窗格中可用的欄位會依 **XDM個別設定檔** 和 **XDM ExperienceEvent** 已為貴組織配置結構。  了解更多 [Experience Data Model(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}.
 
    ![](assets/drag-fields.png)
 

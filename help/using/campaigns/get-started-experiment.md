@@ -15,7 +15,7 @@ badge: label="Beta" type="Informity"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '2013'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -127,8 +127,8 @@ Adobe Journey Optimizer接著會使用進階的「隨時有效」統計方法來
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_summary"
->title="摘要Widget"
->abstract="摘要Widget會提供實驗結果的概觀，包括結果是否確定。 它提供快速且簡單的方式，讓您了解實驗的結果。"
+>title="摘要 Widget"
+>abstract="摘要 Widget 會提供您的實驗結果的概觀，包括這些結果是否具有結論性。這會提供一種快速簡便的方法來了解您的實驗結果。"
 
 ![](assets/experimentation_report_3.png)
 

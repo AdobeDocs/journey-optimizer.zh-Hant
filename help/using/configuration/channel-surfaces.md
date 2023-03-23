@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '1607'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
->title="曲面"
+>title="表面"
 >abstract="介面是由系統管理員定義的設定。 它包含所有用於春頌訊息的技術參數，如標頭參數、子網域、行動應用程式等等。"
 
 使用 [!DNL Journey Optimizer]，您可以設定可定義訊息所需所有技術參數的通道曲面（即訊息預設集）:電子郵件類型、寄件者電子郵件和名稱、行動應用程式、SMS設定等。
@@ -42,13 +42,13 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
->title="通道表面設定"
->abstract="設定通道表面時，請選取其套用的通道，並定義傳送所需的所有技術參數，例如電子郵件類型、寄件者名稱、行動應用程式、SMS設定等。"
+>title="管道表面設定 "
+>abstract="設訂管道表面時，請選取它適用的管道，並定義您的傳送所需的所有技術參數，例如電子郵件類型、寄件者姓名、行動應用程式、簡訊設定等。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="通道表面設定"
->abstract="若要建立動作，例如來自歷程或行銷活動的電子郵件，您必須先建立管道表面，定義訊息所需的所有技術設定。 必須具有「管理管道曲面」權限，才能建立、編輯和刪除管道曲面。"
+>title="管道表面設定 "
+>abstract="為了能夠建立來自歷程或行銷活動的電子郵件之類的動作，您必須首先建立一個管道表面來定義訊息所需的所有技術設定。您必須具有管理管道表面權限才能建立、編輯和刪除管道表面。"
 
 要建立通道曲面，請執行以下步驟：
 
