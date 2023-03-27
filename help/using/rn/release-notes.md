@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fee83ffd136ebe21ae62c7e0bd50dc31e0f4b948
-workflow-type: ht
-source-wordcount: '1064'
-ht-degree: 100%
+source-git-commit: 4399d1665fd27fdd3b2cca6cfe448464c3c79f0c
+workflow-type: tm+mt
+source-wordcount: '1413'
+ht-degree: 77%
 
 ---
 
@@ -22,23 +22,96 @@ ht-degree: 100%
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
 
-## 2023 年 3 月改進項目 {#march-2023}
+## 2023年3月搶鮮版發行說明 {#mar-2023}
 
-**管理歷程中的標籤**
+以下資訊可能會有所變更，但恕不另行通知，直到發行發行日期為止。 更新的檔案將在發行日期發佈，且直接連結將會新增至此頁面。
 
-身為 Journey Optimizer 從業人員，您現在可以使用標籤來組織業務物件。標籤是一種快速、簡便的物件分類方法，用於改進搜尋。此功能目前處於測試階段，僅適用於歷程。[了解更多](../building-journeys/tags.md)
+**可用日期**:3月29日
 
-**已將決策管理標籤重新命名為「集合」限定詞**
+### 新功能{#mar-2023-features}
 
-為避免與 Adobe Experience Platform 最近發佈的標籤功能產生混淆，「決策管理」標籤已重新命名為「集合限定詞」。 
 
-請注意，雖然「標籤」一詞不再用於決策管理使用者介面，但仍用於 API 及資料集等後端服務。
+<table>
+<thead>
+<tr>
+<th><strong>應用程式內管道（一般可用性）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以在行銷活動中將個人化的應用程式內訊息傳送給您的應用程式使用者。使用 Journey Optimizer 來設計通知並自訂訊息版面、顯示、文字及按鈕，以建立順暢的體驗。</p>
+<img src="assets/do-not-localize/in-app.gif"/>
+<p>如需詳細資訊，請參閱<a href="../in-app/get-started-in-app.md">詳細文件</a>。</p>
+</tr>
+</tbody>
+</table>
 
-**決策管理限定**
+<table>
+<thead>
+<tr>
+<th><strong>SMS點擊追蹤</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>透過SMS點擊追蹤，您可以監控縮短URL的效能、識別誰點按了URL，並使用此資料透過後續促銷活動重新鎖定這些客戶。</p>
+<!--p>For more information, refer to the <a href="../sms/create-sms.md#sms-content">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
 
-* 您現在可以每天、每週或每月重設優惠方案限定計數器。[了解更多](../offers/offer-library/add-constraints.md#capping)
 
-* 您也可以選擇應查看哪個 Adobe Experience Platform 事件以設定 Offer Decisioning 上限。[了解更多](../offers/offer-library/add-constraints.md#capping)
+<table>
+<thead>
+<tr>
+<th><strong>在您的歷程中使用標籤（測試版）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>身為 Journey Optimizer 從業人員，您現在可以使用標籤來組織業務物件。標籤是一種快速、簡便的物件分類方法，用於改進搜尋。此功能目前處於測試階段，僅適用於歷程。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/tags.md">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### 改進項目 {#mar-2023-improvements}
+
+**歷程**
+
+* 新 **限制API** 可讓您設定每秒傳送事件數的上限，防止外部系統或API出現流量尖峰。 達到設定限制時，所有後續的API呼叫會以接收順序排入佇列並盡快處理。 請注意，此功能僅支援跨所有沙箱執行一個限制配置。
+* 已增強歷程畫布，提供更簡單且改善的使用者體驗。 畫布中每個路徑的結尾處，已移除空白預留位置。 您現在只需在路徑結尾拖曳活動即可新增活動。 <!--[Learn more](../building-journeys/using-the-journey-designer.md)-->
+* 歷程屬性中的預設逾時和錯誤持續時間已從5秒變更為30秒。 讀取段活動中的預設限制速率已從每秒20,000條消息更改為每秒5,000條消息。
+* 已將護欄新增至測試模式，僅監聽透過介面傳送的事件。 不會考慮透過外部工具傳送的事件。
+* 在歷程中新增電子郵件、簡訊或推播動作時，該曲面現在依預設會預先填入該管道的最後一個使用曲面。
+
+<!-- * A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)-->
+
+<!--
+* Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)
+
+* The Journey dashboard is now split in two tabs:
+    * Use the **Overview** tab to access a new dashboard which displays key metrics related to your journeys.
+    * Use the **Browse** tab to access list of all journeys.
+-->
+
+**決策管理**
+
+* 為避免與 Adobe Experience Platform 最近發佈的標籤功能產生混淆，「決策管理」標籤已重新命名為「集合限定詞」。 
+
+   請注意，雖然「標籤」一詞不再用於決策管理使用者介面，但仍用於 API 及資料集等後端服務。
+
+* 您現在可以每天、每週或每月重設優惠方案限定計數器。<!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
+
+* 您也可以選擇應查看哪個 Adobe Experience Platform 事件以設定 Offer Decisioning 上限。<!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
+
+* 已在版位建立畫面中新增其他參數。 它們可讓您控制某個優惠方案是否可在多個版位之間複製，以及指定是否應將該優惠方案的內容和中繼資料包含在API回應中。 <!--[Learn more](../offers/offer-library/creating-placements.md)-->
 
 ## 2023 年 2 月發行說明 {#feb-2023}
 
@@ -55,7 +128,6 @@ ht-degree: 100%
 <td>
 <p>您現在可以在行銷活動中將個人化的應用程式內訊息傳送給您的應用程式使用者。使用 Journey Optimizer 來設計通知並自訂訊息版面、顯示、文字及按鈕，以建立順暢的體驗。</p>
 <p><strong>注意</strong> - 此功能目前為測試版，僅供測試版客戶使用。 若要加入測試版計畫，請連絡 Adobe 客戶服務。</p>
-<img src="assets/do-not-localize/in-app.gif"/>
 <p>如需詳細資訊，請參閱<a href="../in-app/get-started-in-app.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -111,25 +183,6 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 Note that each widget can be resized and deleted as needed.
 +++
-
-
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Use Tags in your Journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. Tags are currently only available for Journeys.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 -->
 
 ### 改進項目 {#feb-2023-improvements}
@@ -163,10 +216,6 @@ Note that each widget can be resized and deleted as needed.
 * **電子郵件介面** - 在 **URL 追蹤參數**&#x200B;電子郵件介面設定的區段，每個&#x200B;**值**&#x200B;欄位已從 255 個字元更新為 5 KB，以與 Adobe Analytics 追蹤相容。 [進一步了解](../email/email-settings.md#url-tracking)
 
 **決定管理**
-
-<!--
-* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
--->
 
 * **URL 個人化** - 將 URL 新增為優惠方案表示法的內容時，您現在可以使用運算式編輯器對這些 URL 進行個人化設定。[了解更多](../offers/offer-library/add-representations.md)
 
