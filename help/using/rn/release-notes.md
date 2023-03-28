@@ -4,9 +4,9 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2a6c5ab81a1fa708756fd2da029febd056f81f7a
+source-git-commit: 1dcaab6dba62e3c8119e45ce87dbe6f902e37921
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1398'
 ht-degree: 77%
 
 ---
@@ -89,13 +89,11 @@ ht-degree: 77%
 * 已增強歷程畫布，提供更簡單且改善的使用者體驗。 畫布中每個路徑的結尾處，已移除空白預留位置。 您現在只需在路徑結尾拖曳活動即可新增活動。 <!--[Learn more](../building-journeys/using-the-journey-designer.md)-->
 * 歷程屬性中的預設逾時和錯誤持續時間已從5秒變更為30秒。 讀取段活動中的預設限制速率已從每秒20,000條消息更改為每秒5,000條消息。
 * 已將護欄新增至測試模式，僅監聽透過介面傳送的事件。 不會考慮透過外部工具傳送的事件。
-* 在歷程中新增電子郵件、簡訊或推播動作時，該曲面現在依預設會預先填入該管道的最後一個使用曲面。
 
-<!-- * A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)-->
-
-<!--
+<!-- 
+* When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
+* A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)
 * Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)
-
 * The Journey dashboard is now split in two tabs:
     * Use the **Overview** tab to access a new dashboard which displays key metrics related to your journeys.
     * Use the **Browse** tab to access list of all journeys.
@@ -112,6 +110,10 @@ ht-degree: 77%
 * 您也可以選擇應查看哪個 Adobe Experience Platform 事件以設定 Offer Decisioning 上限。<!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
 
 * 已在版位建立畫面中新增其他參數。 它們可讓您控制某個優惠方案是否可在多個版位之間複製，以及指定是否應將該優惠方案的內容和中繼資料包含在API回應中。 <!--[Learn more](../offers/offer-library/creating-placements.md)-->
+
+**個人化**
+
+* 您現在可以在運算式編輯器中納入字串式設定檔屬性的預設後援文字。 如果選取的屬性未傳回任何結果，則會顯示這些值。 <!--[Learn more](../personalization/personalization-build-expressions.md#add)-->
 
 ## 2023 年 2 月發行說明 {#feb-2023}
 
