@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 設計，畫布，歷程，介面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1611'
+source-wordcount: '1642'
 ht-degree: 5%
 
 ---
@@ -46,6 +46,12 @@ Adobe Journey Optimizer包含全通路協調畫布，可讓行銷人員協調行
 此 **畫布** 是歷程設計器中的中央區域。 您可以在此區域中放置活動並加以設定。 按一下畫布中的活動以進行設定。 這會開啟右側的活動設定窗格。
 
 ![](assets/journey39.png)
+
+此 **工具列**，位於畫布的右上角，可讓您顯示/隱藏格線、放大/縮小並下載畫布的螢幕擷取畫面。 請參閱[本章節](../building-journeys/journey-gs.md#timeout_and_error)。
+
+<!--and show/hide timeout and error paths-->
+
+![](assets/toolbar.png){width="70%" align="left"}
 
 此 **活動設定窗格** 當您按一下浮動視窗中的活動時，就會顯示。 填寫必填欄位。 按一下 **[!UICONTROL 刪除]** 圖示以刪除活動。 按一下 **[!UICONTROL 取消]** 取消修改或 **[!UICONTROL 確定]** 確認。 若要刪除活動，您也可以選取一個活動（或數個），然後按空格鍵。 按下逸出鍵會關閉活動設定窗格。
 

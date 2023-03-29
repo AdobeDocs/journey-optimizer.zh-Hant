@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1402'
 ht-degree: 3%
 
 ---
@@ -98,19 +98,19 @@ ht-degree: 3%
 
    ![](../assets/activity_constraint-estimate.png)
 
-1. 定義您要用來為每個設定檔選取最佳選件的排名方法。
+1. 定義您要用來為每個設定檔選取最佳選件的排名方法。 [了解更多](../offer-activities/configure-offer-selection.md)。
 
    ![](../assets/activity_ranking-method.png)
 
-   * 依預設，如果多個優惠方案符合此版位的資格，則會將優先順序分數最高的優惠方案傳送給客戶。
+   * 依預設，如果多個優惠方案符合此版位的資格，則 **[!UICONTROL 選件優先順序]** 方法使用選件中定義的值：優先順序分數最高的選件會傳送給使用者。
 
-   * 如果您想使用特定公式來選擇要交付的合格優惠方案，請選擇 **[!UICONTROL 排名公式]**. 了解如何在 [本節](../offer-activities/configure-offer-selection.md).
+   * 如果您想使用特定計算分數來選擇要傳送的合格優惠方案，請選取 **[!UICONTROL 公式]** 或 **[!UICONTROL AI模型]**. [了解更多](../offer-activities/configure-offer-selection.md)。
 
 1. 按一下 **[!UICONTROL 新增]** 為相同版位定義更多條件。
 
    ![](../assets/activity_add-collection.png)
 
-1. 新增多個條件時，會以特定順序評估這些條件。 系統會先評估新增至序列的第一個集合，以此類推。
+1. 新增多個條件時，會以特定順序評估這些條件。 系統會先評估新增至序列的第一個集合，以此類推。 [了解更多](#evaluation-criteria-order)
 
    若要變更預設序列，您可以拖放集合以視需要重新排序。
 
@@ -120,13 +120,27 @@ ht-degree: 3%
 
    ![](../assets/activity_move-collection.png)
 
-   他們現在擁有相同的排名，因此將同時評估。
+   他們現在擁有相同的排名，因此將同時評估。 [了解更多](#evaluation-criteria-order)
 
    ![](../assets/activity_same-rank-collections.png)
 
 1. 若要在此決策中為優惠方案新增其他版位，請使用 **[!UICONTROL 新範圍]** 按鈕。 對每個決策範圍重複上述步驟。
 
    ![](../assets/activity_new-scope.png)
+
+### 評估標準順序 {#evaluation-criteria-order}
+
+如上所述，評估標準包含收集、資格限制和排名方法。 您可以設定要評估評估標準的順序，但也可以組合多個評估標準，以便將它們一起評估，而不是單獨評估。
+
+例如，您有兩個集合，一個在評估標準A中，一個在評估標準B中。要求傳回兩個選件。 假設評估標準A有兩個合格選件，評估標準B有三個合格選件。
+
+* 如果兩個評估標準是 **未合併** 和/或依序（1和2），評估條件中前兩個合格選件會在第一列中傳回。 如果第一個評估條件沒有兩個符合資格的優惠方案，決策引擎會依序移至下一個評估條件，以尋找仍需要的優惠方案，並最終視需要傳回備援。
+
+   ![](../assets/activity_consecutive-rank-collections.png)
+
+* 如果兩個集合 **同時評估**，因為評估條件A有兩個合格選件，評估條件B有三個合格選件，五個選件將全部根據各自排名方法所決定的值組合在一起。 請求了兩個優惠方案，因此將會傳回這五個優惠方案中前兩個合格優惠方案。
+
+   ![](../assets/activity_same-rank-collections.png)
 
 ## 新增回退優惠方案 {#add-fallback}
 

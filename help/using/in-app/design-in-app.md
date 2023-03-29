@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: 應用程式內，消息，設計，格式
 badge: label="Beta" type="Informity"
+keywords: 應用程式內，消息，設計，格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 6%
@@ -25,7 +25,7 @@ ht-degree: 6%
 
 若要設定訊息內容，請按一下 **[!UICONTROL 編輯內容]** 按鈕，然後使用畫面右側的選項來設計您的應用程式內訊息內容。
 
-![](assets/edit-in-app-content.png)
+![](assets/in_app_create_4.png)
 
 此 **[!UICONTROL 進階格式]** 切換啟用其他選項以自訂體驗。
 

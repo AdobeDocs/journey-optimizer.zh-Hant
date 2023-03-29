@@ -3,10 +3,10 @@ title: 應用程式內設定
 description: 了解如何設定您的環境，以使用Journey Optimizer傳送應用程式內訊息
 role: Admin
 level: Intermediate
-keywords: 應用程式內，訊息，設定，平台
 badge: label="Beta" type="Informity"
+keywords: 應用程式內，訊息，設定，平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 13%

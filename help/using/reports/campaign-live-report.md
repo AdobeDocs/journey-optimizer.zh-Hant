@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '926'
 ht-degree: 8%
 
 ---
@@ -133,9 +133,9 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ![](assets/campaign_report_live_3.png)
 
-+++進一步了解SMS報表可用的不同量度和Widget。
++++進一步了解SMS報表可用的不同量度和小工具。
 
-此 **[!UICONTROL SMS — 傳送統計資料]** 表格會詳細說明傳送的成功：
+此 **[!UICONTROL SMS — 統計]** 表格會詳細說明傳送的成功：
 
 * **[!UICONTROL 已鎖定]**:符合此傳送目標設定檔資格的使用者設定檔數目。
 
@@ -148,6 +148,8 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 * **[!UICONTROL 跳出數]**:傳送和自動回訪處理期間累積的錯誤總數。
 
 * **[!UICONTROL 錯誤]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
+
+* **[!UICONTROL 點按次數]**:URL瀏覽總數。
 
 此 **[!UICONTROL 按日期的SMS效能]** 介面工具集會透過圖表詳細說明與訊息相關的主要資訊：
 

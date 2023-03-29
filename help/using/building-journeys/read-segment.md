@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，區段，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 12%
@@ -69,7 +69,7 @@ ht-degree: 12%
 
 1. 設定 **[!UICONTROL 節流率]** 欄位至讀取區段活動的輸送量限制。
 
-   此值會儲存在歷程版本裝載中。 預設值為每秒20,000條訊息。 您可以將此值從每秒500條修改為20,000條訊息。
+   此值會儲存在歷程版本裝載中。 預設值為每秒5,000條訊息。 您可以將此值從每秒500條修改為20,000條訊息。
 
    >[!NOTE]
    >

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '483'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 若要建立排名公式，請遵循下列步驟：
 
-1. 存取 **[!UICONTROL 元件]** ，然後選取 **[!UICONTROL 排名]** 標籤。 將顯示先前建立的排名清單。
+1. 存取 **[!UICONTROL 元件]** ，然後選取 **[!UICONTROL 排名]** 標籤。 此 **[!UICONTROL 公式]** 標籤。 將顯示以前建立的公式的清單。
 
    ![](../assets/rankings-list.png)
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
    ![](../assets/ranking-create-formula.png)
 
-1. 指定排名公式名稱、說明和公式。
+1. 指定配方名稱、說明和配方。
 
    在此範例中，如果實際天氣炎熱，我們想利用「hot」屬性提升所有選件的優先順序。 若要這麼做， **contextData.weather=hot** 在決策呼叫中傳遞。
 

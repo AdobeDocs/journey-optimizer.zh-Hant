@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
-workflow-type: ht
-source-wordcount: '969'
-ht-degree: 100%
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 97%
 
 ---
 
@@ -58,6 +58,7 @@ ht-degree: 100%
 * 在&#x200B;**區段資格** (第一個節點) 中選擇的區段和命名空間在新版本中無法變更。
 * 所有歷程版本中的重新進入規則必須相同。
 * 以&#x200B;**讀取區段**&#x200B;開始的歷程在下一個版本中無法以另一個事件開始。
+* 您無法建立具有增量讀取的讀取區段歷程的新版本。 您需要複製歷程。
 
 ### 自訂動作 {#custom-actions-g}
 

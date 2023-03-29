@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 371bd375d2c93b0694fa7eaf148f5c0793d59c8e
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '2399'
-ht-degree: 98%
+source-wordcount: '2445'
+ht-degree: 97%
 
 ---
 
@@ -17,8 +17,10 @@ ht-degree: 98%
 
 ## 2023 年 3 月 {#march-2023}
 
+* 隨附的所有新功能和改善項目 [!DNL Journey Optimizer] 』23年3月發行版本已在檔案中詳細說明。 [閱讀全文](release-notes.md)
 * 新增在您的歷程中啟用Adobe Analytics事件的步驟。 [閱讀全文](../event/about-analytics.md)
 * 在「決策管理指南」中已建立新區段，說明如何在 Adobe Experience Platform 收集 Offer Decisioning 意見回饋，包括顯示哪些優惠方案以及使用者如何與其進行互動。[閱讀全文](../offers/data-collection/data-collection.md)
+* 已將新子區段新增至 **建立決策** 區段，說明依循序或同時評估標準之間的差異。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
 
 ## 2023 年 2 月 {#feb-2023}
 

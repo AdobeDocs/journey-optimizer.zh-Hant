@@ -6,9 +6,9 @@ description: 了解如何設定您的環境，使用Journey Optimizer傳送SMS
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '830'
 ht-degree: 18%
 
 ---
@@ -120,6 +120,12 @@ Adobe Journey Optimizer目前與第三方提供商（如Sinch和Twilio）整合�
 
    * 選取 **[!UICONTROL SMS執行欄位]** ，選擇 **[!UICONTROL 設定檔屬性]** 與設定檔的電話號碼相關聯。
 
+
+1. 如果您想在SMS訊息中使用URL縮短功能，請從 **[!UICONTROL 子網域]** 清單。
+
+   >[!NOTE]
+   >
+   >若要選取子網域，請確定您先前至少已設定一個SMS子網域。 [了解作法](sms-subdomains.md)
 
 1. 完成所有參數設定後，按一下 **[!UICONTROL 提交]** 確認。 也可以將通道曲面另存為草稿，並稍後恢復其配置。
 

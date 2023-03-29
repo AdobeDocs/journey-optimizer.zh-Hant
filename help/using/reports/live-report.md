@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 4%
+source-wordcount: '1052'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,9 @@ ht-degree: 4%
 
 ## 自訂控制面板 {#modify-dashboard}
 
-每個報表控制面板都可借由調整大小或移除小工具來修改。 變更介面工具集只會影響目前使用者的控制面板。 其他使用者會看到自己的控制面板或預設設定的控制面板。
+每個報告儀表板都可以透過調整大小或移除 Widget 來修改。變更介面工具集只會影響目前使用者的控制面板。 其他使用者會看到自己的控制面板或預設設定的控制面板。
+
+1. 從 **[!UICONTROL 動作]** 下拉式清單，選擇是否要報告歷程的一個特定動作。
 
 1. 選擇是否要使用切換列從報表中排除測試事件。 如需測試事件的詳細資訊，請參閱 [本頁](../building-journeys/testing-the-journey.md).
 
@@ -57,6 +59,10 @@ ht-degree: 4%
    ![](assets/report_modify_9.png)
 
 1. 對顯示順序和小部件的大小感到滿意後，按一下 **[!UICONTROL 儲存]**.
+
+1. 若要自訂資料的顯示方式，您可以切換不同的視覺效果選項，例如圖形、表格和環圈圖。
+
+   ![](assets/report_modify_11.png)
 
 您的控制面板現在已儲存。 您的不同變更將會重新套用，以供稍後使用您的即時報表。 如有需要，請使用 **[!UICONTROL 重設]** 選項，以還原預設小工具和小工具的順序。
 

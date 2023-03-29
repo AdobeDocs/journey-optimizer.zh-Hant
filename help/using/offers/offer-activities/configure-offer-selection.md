@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '447'
 ht-degree: 6%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 6%
 
 了解如何在 [本節](../ranking/create-ranking-formulas.md).
 
-建立排名公式後，您可以將其指派給決策中的版位。 請依照下列步驟執行此操作：
+建立公式後，您可將其指派給決策中的版位。 請依照下列步驟執行此操作：
 
 1. 建立決策或編輯現有決策。 請參閱[建立決定](../offer-activities/create-offer-activities.md)。
 
@@ -46,17 +46,17 @@ ht-degree: 6%
 
 1. 為每個版位新增集合。 請參閱 [建立集合](../offer-library/creating-collections.md).
 
-1. 選擇 **[!UICONTROL 排名公式]** 作為排名方法，然後按一下 **[!UICONTROL 新增排名]**.
+1. 選擇 **[!UICONTROL 公式]** 作為排名方法，然後按一下 **[!UICONTROL 新增排名]**.
 
    ![](../assets/offer-activity-ranking.png)
 
-1. 選取所需的排名公式，然後按一下 **[!UICONTROL 選擇]**.
+1. 選取所需的公式，然後按一下 **[!UICONTROL 選擇]**.
 
    ![](../assets/ranking-selection.png)
 
 排名公式現在與版位相關聯。
 
-如果有多個優惠方案符合在此版位中呈現的資格，決策會使用排名公式的公式來計算要先傳送哪個優惠方案。
+如果有多個優惠方案符合在此版位中呈現的資格，決策會使用選取的公式來計算要先傳送哪個優惠方案。
 
 ## AI 排名 {#use-ranking-strategy}
 

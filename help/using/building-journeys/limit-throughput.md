@@ -8,9 +8,9 @@ role: User, Developer
 level: Experienced
 keywords: 歷程，資料來源，限制，總處理量，自訂，動作
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '644'
 ht-degree: 3%
 
 ---
@@ -27,9 +27,13 @@ Adobe Journey Optimizer可讓從業人員透過使用自訂動作和資料來源
 
 * **自訂動作**:傳送資訊至外部系統，例如透過外部解決方案傳送電子郵件，此解決方案使用Journey Optimizer的協調功能以及設定檔資訊、受眾資料和歷程內容。
 
-如果您使用外部資料來源或自訂動作，您可能想要限制歷程吞吐量，以保護外部系統：單一歷程最多5000個例項/秒，區段觸發歷程最多20000個例項/秒。 您可以在端點層級定義上限限制，以避免透過Journey Optimizer的上限API壓垮這些外部系統。 不過，系統會捨棄達到限制後的所有剩餘請求。
+如果您使用外部資料來源或自訂動作，您可能想要限制歷程吞吐量，以保護外部系統：單一歷程最多5000個例項/秒，區段觸發歷程最多20000個例項/秒。
 
-在本節中，您將找到可用來優化吞吐量的解決方法。 有關如何與外部系統整合的詳細資訊，請參閱 [頁面](../configuration/external-systems.md).
+對於自訂動作，可在產品層級使用限制功能。 請參閱 [頁面](../configuration/external-systems.md#capping).
+
+對於外部資料來源，您可以在端點層級定義上限限制，以避免透過Journey Optimizer的上限API壓垮那些外部系統。 不過，系統會捨棄達到限制後的所有剩餘請求。 在本節中，您將找到可用來優化吞吐量的解決方法。
+
+有關如何與外部系統整合的詳細資訊，請參閱 [頁面](../configuration/external-systems.md).
 
 ## 實作
 

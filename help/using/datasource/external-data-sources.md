@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 外部，源，資料，配置，連接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 71%
+source-wordcount: '1462'
+ht-degree: 70%
 
 ---
 
@@ -82,6 +82,11 @@ ht-degree: 71%
 * **[!UICONTROL 方法]**:選取POST或GET方法。 在本例中，我們選取 GET 方法。
 * **[!UICONTROL 動態值]**:在本例中，輸入以逗號分隔的不同參數，即&quot;long,lat&quot;。 由於參數值視執行內容而定，因此它們會在歷程中定義。[了解更多](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL 回應裝載]**:按一下內部 **[!UICONTROL 裝載]** 欄位，並貼上呼叫傳回之有效負載的範例。 例如，我們使用了氣象 API 網站上找到的有效負載。確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。請注意，您可以按一下 **[!UICONTROL 貼上新的裝載]** 如果您想要變更目前傳遞的裝載。
+
+   >[!NOTE]
+   >
+   >響應負載定義中不支援標量陣列。
+
 * **[!UICONTROL 已傳送裝載]**:此欄位不會出現在範例中。 只有選取 POST 方法時才能使用。貼上會傳送至協力廠商系統的有效負載。
 
 若是GET呼叫所需的參數，請在 **[!UICONTROL 動態值]** 欄位，且這些欄位會在呼叫結束時自動新增。 若是 POST 呼叫，您需要：

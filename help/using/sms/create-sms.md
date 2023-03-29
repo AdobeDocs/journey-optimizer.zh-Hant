@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: aca38b71ee06e678358bc1451e6d522ea5d0e1b6
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 15%
+source-wordcount: '560'
+ht-degree: 14%
 
 ---
 
@@ -39,6 +39,8 @@ ht-degree: 15%
    ![](assets/sms_create_2.png)
 
    如需如何設定歷程的詳細資訊，請參閱 [本頁](../building-journeys/journey-gs.md)
+
+<!-- The **[!UICONTROL Surface]**field is pre-filled, by default, with the last surface used for that channel by the user. -->
 
 您現在可以開始從 **[!UICONTROL 編輯內容]** 按鈕。 [定義您的SMS內容](#sms-content)
 
@@ -75,7 +77,6 @@ ht-degree: 15%
 
 >[!ENDTABS]
 
-
 ## 定義您的SMS內容{#sms-content}
 
 1. 在歷程或行銷活動設定畫面中，按一下 **[!UICONTROL 編輯內容]** 按鈕來設定SMS內容。
@@ -86,11 +87,24 @@ ht-degree: 15%
 
 1. 使用運算式編輯器來定義內容並新增動態內容。 您可以使用任何屬性，例如設定檔名稱或城市。 深入了解 [個人化](../personalization/personalize.md) 和 [動態內容](../personalization/get-started-dynamic-content.md) 在運算式編輯器中。
 
-1. 按一下 **[!UICONTROL 儲存]** 並在預覽中檢查您的訊息。
+1. 定義內容後，您可以將追蹤URL新增至訊息。 若要這麼做，請存取 **[!UICONTROL 輔助函式]** 選取 **[!UICONTROL Helpers]**.
+
+   請注意，若要使用URL縮短功能，您必須先設定子網域，然後將其連結至您的曲面。 [了解更多](sms-subdomains.md)
+
+   ![](assets/sms_tracking_1.png)
+
+1. 在 **[!UICONTROL 輔助函式]** 按一下 **[!UICONTROL URL函式]** 然後選取 **[!UICONTROL 新增URL]**.
+
+   ![](assets/sms_tracking_2.png)
+
+1. 在 `originalUrl` 欄位，貼上您要縮短的URL。
+
+1. 按一下 **[!UICONTROL 儲存]** 並在預覽中檢查您的訊息。 您可以使用 **[!UICONTROL 模擬內容]** 預覽縮短的URL或個人化內容。
 
    ![](assets/sms-content-preview.png)
 
-您現在可以測試SMS訊息並傳送給您的對象。 [了解更多](send-sms.md)
+您現在可以測試SMS訊息並傳送給您的對象。 [深入了解](send-sms.md)
+傳送後，您就可以在行銷活動或歷程報表中測量SMS的影響。 如需報告的詳細資訊，請參閱[本區段](../reports/campaign-global-report.md#sms-tab)。
 
 >[!NOTE]
 >

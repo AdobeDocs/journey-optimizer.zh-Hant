@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1298'
 ht-degree: 4%
 
 ---
@@ -64,6 +64,10 @@ ht-degree: 4%
    ![](assets/report_modify_5.png)
 
 1. 對顯示順序和小部件的大小感到滿意後，按一下 **[!UICONTROL 儲存]**.
+
+1. 若要自訂資料的顯示方式，您可以切換不同的視覺效果選項，例如圖形、表格和環圈圖。
+
+   ![](assets/report_modify_10.png)
 
 您的控制面板現在已儲存。 您的不同變更將會重新套用，以供稍後使用您的即時報表。 如有需要，請使用 **[!UICONTROL 重設]** 選項，以還原預設小工具和小工具的順序。
 

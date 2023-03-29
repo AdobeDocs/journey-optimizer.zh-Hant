@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 keywords: 登陸，登錄頁面，子網域，設定
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '807'
 ht-degree: 24%
 
 ---
@@ -40,8 +40,6 @@ ht-degree: 24%
 >[!CAUTION]
 >
 >登錄頁面子網域設定是所有環境的共同設定。 因此，對登錄頁面子網域所做的任何修改也會影響生產沙箱。
-
-請注意，子網域中不應允許使用大寫字母
 
 ## 使用現有的子網域 {#lp-use-existing-subdomain}
 
@@ -138,7 +136,7 @@ ht-degree: 24%
 
    >[!NOTE]
    >
-   >在能夠使用該子網域來傳送訊息之前，您必須等到Adobe執行所需的檢查，這最多需要4小時。<!--Learn more in [this section](#subdomain-validation).-->
+   >您必須先等到Adobe執行必要的檢查，才能將該子網域用於登錄頁面，這最多需要4小時。<!--Learn more in [this section](#subdomain-validation).-->
 
 1. 檢查成功後，子網域會取得 **[!UICONTROL 成功]** 狀態。 它已可用來建立登錄頁面預設集。
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1522'
 ht-degree: 11%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 11%
 
 ## 重要備註 {#important_notes}
 
-* 提供介面以引發事件至測試的歷程，但事件也可由協力廠商系統(例如Postman)傳送。
+* 在測試模式中，您可以使用介面引發事件。
 * 只有在即時客戶個人檔案服務中標示為「測試個人檔案」的個人，才能進入測試的歷程。 請參閱 [節](../segment/creating-test-profiles.md).
 * 測試模式僅適用於使用命名空間的草稿歷程。 測試模式需要檢查進入歷程的人員是否為測試設定檔，因此必須能夠存取Adobe Experience Platform。
 * 在測試工作階段期間，測試設定檔數量上限為100。
@@ -103,8 +103,6 @@ ht-degree: 11%
 當您在事件設定畫面中選取不同的測試設定檔並再次執行測試時，會清除視覺流程並顯示新個人的路徑。
 
 在測試中開啟歷程時，顯示的路徑對應於上次執行的測試。
-
-不論事件是透過介面還是從外部觸發(例如使用Postman)，視覺流程皆有效。
 
 ## 規則型歷程的測試模式 {#test-rule-based}
 

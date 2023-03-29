@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: abdc20ed5f73d3822d5cbfa21a60f568f7ad5e4d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 99%
+source-wordcount: '1355'
+ht-degree: 98%
 
 ---
 
@@ -221,6 +221,7 @@ ht-degree: 99%
    + [預覽和測試您的 SMS](using/sms/send-sms.md)
    + [管理簡訊選擇退出](using/sms/sms-opt-out.md)
    + [設定簡訊頻道](using/sms/sms-configuration.md)
+   + [設定SMS子網域](using/sms/sms-subdomains.md)
 + 直接郵件 {#direct-mail}
    + [建立直接郵件](using/direct-mail/create-direct-mail.md)
    + [設定直接郵件](using/direct-mail/direct-mail-configuration.md)
@@ -439,7 +440,10 @@ ht-degree: 99%
    + [管理執行地址](using/configuration/primary-email-addresses.md)
    + 設定歷程 {#configure-journeys}
       + [關於資料來源、事件和動作](using/configuration/about-data-sources-events-actions.md)
-      + [與外部系統整合](using/configuration/external-systems.md)
+      + 與外部系統整合 {#external-systems}
+         + [與外部系統整合的歷程](using/configuration/external-systems.md)
+         + [設定API上限](using/configuration/capping.md)
+         + [限制API](using/configuration/throttling.md)
       + 事件設定 {#events-journeys}
          + [一般原則](using/event/about-events.md)
          + 設定單一事件 {#unitary-events}

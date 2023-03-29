@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2044'
 ht-degree: 2%
 
 ---
@@ -286,4 +286,7 @@ ht-degree: 2%
 * **[!UICONTROL 錯誤]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
 
 此 **[!UICONTROL 排除原因]** 圖形和表格可讓您查看在傳送期間發生的錯誤和排除。
+
+此 **[!UICONTROL SMS — 依連結的點按次數]** 和 **[!UICONTROL SMS — 追蹤統計資料]** 小工具會詳細說明與訪客與URL的互動相關的主要資訊。
+
 +++
