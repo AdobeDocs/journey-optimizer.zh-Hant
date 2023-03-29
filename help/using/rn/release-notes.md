@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a1cad8ba5dd241659ad290ac1c92e3b01900547c
+source-git-commit: 416da542b6e0ea8c66cdcebcc0219db63a9608fb
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 81%
 ## 2023年3月發行說明 {#mar-2023}
 
 以下資訊可能會有所變更，但恕不另行通知，直到發行發行日期為止。 更新的檔案將在發行日期發佈，且直接連結將會新增至此頁面。
+
 
 ### 新功能{#mar-2023-features}
 
@@ -49,8 +50,7 @@ ht-degree: 81%
 <table>
 <thead>
 <tr>
-<th><p><strong>SMS點擊追蹤</strong></p><br/>
-</th>
+<th><strong>SMS點擊追蹤</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -68,7 +68,7 @@ ht-degree: 81%
 <table>
 <thead>
 <tr>
-<th><p><strong>在您的歷程中使用標籤（測試版）</strong></pr><br/></th>
+<th><strong>在您的歷程中使用標籤（測試版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
