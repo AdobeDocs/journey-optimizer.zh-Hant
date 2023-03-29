@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
+source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
       了解如何在 [本節](../offer-library/creating-decision-rules.md).
 
-1. 選取區段或決策規則時，您可以看到預估合格設定檔的相關資訊。 按一下 **[!UICONTROL 重新整理]** 更新資料。
+1. 當您選擇區段或決定規則時，您可以看到有關預估合格設定檔的資訊。按一下 **[!UICONTROL 重新整理]** 更新資料。
 
    >[!NOTE]
    >
