@@ -8,8 +8,8 @@ level: Intermediate
 keywords: SMS，子網域，設定
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
