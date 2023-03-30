@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 5e1485b33608d55d878d311c2448669f898486b3
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 99%
+source-wordcount: '1361'
+ht-degree: 98%
 
 ---
 
@@ -206,6 +206,7 @@ ht-degree: 99%
    + [開始使用應用程式內頻道](using/in-app/get-started-in-app.md)
    + [建立應用程式內訊息](using/in-app/create-in-app.md)
    + [設計您的應用程式內內容](using/in-app/design-in-app.md)
+   + [測試並傳送您的應用程式內通知](using/in-app/send-in-app.md)
    + [設定應用程式內頻道](using/in-app/inapp-configuration.md)
 + 推播通知頻道{#push}
    + [開始使用推播通知](using/push/get-started-push.md)
