@@ -7,28 +7,30 @@ role: User
 level: Beginner
 keywords: 應用程式內，消息，建立，開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
+source-git-commit: 1af9a3adeb6727e965e61434b0ed2c41ff3d4911
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 3%
+source-wordcount: '432'
+ht-degree: 4%
 
 ---
 
 # 建立應用程式內訊息 {#create-in-app}
 
+應用程式內訊息是在行銷活動的內容中建立。
+
 若要建立應用程式內訊息，請遵循下列步驟：
 
 1. 存取 **[!UICONTROL 行銷活動]** ，然後按一下 **[!UICONTROL 建立行銷活動]**.
 
-1. 在 **[!UICONTROL 屬性]** 區段，指定您要執行促銷活動的時間。
+1. 在 **[!UICONTROL 屬性]** 區段，選取促銷活動執行類型的時間：排程或API觸發。 進一步了解行銷活動類型，請參閱 [本頁](../campaigns/create-campaign.md#campaigntype).
 
 1. 在 **[!UICONTROL 動作]** 區段，選擇 **[!UICONTROL 應用程式內訊息]** 和 **[!UICONTROL 應用程式表面]** 先前已針對您的應用程式內訊息設定。 然後，按一下 **[!UICONTROL 建立]**.
 
-   [深入了解應用程式內設定](inapp-configuration.md).
+   深入了解應用程式內設定，位於 [本頁](inapp-configuration.md).
 
    ![](assets/in_app_create_1.png)
 
-1. 從 **[!UICONTROL 屬性]** 區段，編輯您的促銷活動 **[!UICONTROL 標題]** 和 **[!UICONTROL 說明]**.
+1. 從 **[!UICONTROL 屬性]** 部分，輸入 **[!UICONTROL 標題]** 和 **[!UICONTROL 說明]** 說明。
 
 1. 若要將自訂或核心資料使用量標籤指派至應用程式內訊息，請選取 **[!UICONTROL 管理存取]**. [了解更多](../administration/object-based-access.md)。
 
@@ -40,13 +42,13 @@ ht-degree: 3%
 
 1. 按一下 **[!UICONTROL 編輯觸發器]** 若要選擇將觸發訊息的事件和條件：
 
-   1. 按一下 **[!UICONTROL 新增] 條件** 如果您希望觸發器考慮多個事件或條件。
+   1. 按一下 **新增條件** 如果您希望觸發器考慮多個事件或條件。
    1. 選取事件的連結方式，例如選擇 **[!UICONTROL 和]** 如果您想要 **both** 觸發為true，以便顯示或選擇訊息 **[!UICONTROL 或]** 如果您想要顯示訊息，如果 **heer** 觸發器是真的。
    1. 按一下 **[!UICONTROL 建立群組]** 將觸發器分組。
 
    ![](assets/in_app_create_3.png)
 
-1. 選擇應用程式內訊息作用中時觸發的頻率：
+1. 選擇應用程式內訊息作用中時觸發的頻率。 提供下列選項：
 
    * **[!UICONTROL 每次]**:在 **[!UICONTROL 行動應用程式觸發器]** 下拉式清單中。
    * **[!UICONTROL 一次]**:只會在第一次選取事件時顯示此訊息， **[!UICONTROL 行動應用程式觸發器]** 下拉式清單中。
