@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 15b3b783f0a679e207a104d6333e96c92a02efb1
+source-git-commit: 51f93270c969875e94cc3e98919149d67d764ed1
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 79%
+source-wordcount: '1429'
+ht-degree: 75%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 79%
 
 * 您也可以選擇應查看哪個 Adobe Experience Platform 事件以設定 Offer Decisioning 上限。[了解更多](../offers/offer-library/add-constraints.md#capping)
 
-<!--* Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)-->
+* 已在版位建立畫面中新增其他參數。 它們可讓您控制某個優惠方案是否可在多個版位之間複製，以及指定是否應將該優惠方案的內容和中繼資料包含在API回應中。 [進一步了解](../offers/offer-library/creating-placements.md)
 
 **個人化**
 
@@ -249,9 +249,7 @@ Note that each widget can be resized and deleted as needed.
 
 **決定管理**
 
-<!--
-* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
--->
+* **版位**  — 版位建立畫面中已新增其他參數。 它們可讓您控制某個優惠方案是否可在多個版位之間複製，以及指定是否應將該優惠方案的內容和中繼資料包含在API回應中。 [了解更多](../offers/offer-library/creating-placements.md)
 
 * **URL 個人化** - 將 URL 新增為優惠方案表示法的內容時，您現在可以使用運算式編輯器對這些 URL 進行個人化設定。[了解更多](../offers/offer-library/add-representations.md)
 

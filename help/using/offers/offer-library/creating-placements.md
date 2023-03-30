@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
+source-git-commit: 51f93270c969875e94cc3e98919149d67d764ed1
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 25%
+source-wordcount: '550'
+ht-degree: 11%
 
 ---
 
@@ -46,6 +46,24 @@ ht-degree: 25%
    * **[!UICONTROL 說明]**:版位的說明（選用）。
 
    ![](../assets/offers_placement_creation_properties.png)
+
+
+1. 此 **[!UICONTROL 請求設定]** 和 **[!UICONTROL 回應格式]** 各節提供其他參數：
+
+   * **[!UICONTROL 允許跨版位重複項目]**:控制是否可以在不同版位間多次建議相同優惠方案。 如果已啟用，系統會針對多個版位考慮相同的優惠方案。 依預設，參數會設為false。
+
+      如果對決策請求中的任何版位將此選項設為false，則請求中的所有版位都會繼承「false」設定。
+
+   * **[!UICONTROL 要求選件]**:依預設，會為每個設定檔傳回一個決策範圍選件。 您可以使用此選項調整傳回選件的數量。 例如，若您選取2，則會針對所選決策範圍顯示最佳2個選件。
+
+   * **[!UICONTROL 包含內容]** / **[!UICONTROL 包含中繼資料]**:在API回應中指定是否應傳回選件的內容和中繼資料。 您只能包含所有中繼資料或特定欄位。 依預設，「包含中繼資料」值會設為true。
+   如果您使用的是 [決策API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). 不過，在使用者介面中設定這些參數可協助您節省時間，因為您不必在每個API請求中傳遞這些參數。 請注意，如果您同時在使用者介面和API請求中設定參數，則來自API請求的值將優於來自介面的值。
+
+   >[!NOTE]
+   >
+   >如果您使用 [Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?)，您無法將這些參數設定到您的請求中。 您需要在此畫面中定義它們。
+   >
+   >如果您使用 [批次決策API](../api-reference/offer-delivery-api/batch-decisioning-api.md)，您可以在此畫面或API請求中設定這些參數。 如果畫面與APi要求之間的參數值不符，則會使用要求值。
 
 1. 按一下 **[!UICONTROL 儲存]** 確認。
 
