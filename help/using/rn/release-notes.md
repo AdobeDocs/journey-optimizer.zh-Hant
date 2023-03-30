@@ -4,9 +4,9 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d0ce2c6f4f9ad46a74d3be7864dbfd23c941ee55
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1435'
 ht-degree: 77%
 
 ---
@@ -29,24 +29,23 @@ ht-degree: 77%
 
 ### 新功能{#mar-2023-features}
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>In-app channel (General Availability)</strong><br/></th>
+<th><strong>應用程式內管道（一般可用性）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now send personalized In-app messages to your app users within a campaign. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
+<p>您現在可以在行銷活動中將個人化的應用程式內訊息傳送給您的應用程式使用者。使用 Journey Optimizer 來設計通知並自訂訊息版面、顯示、文字及按鈕，以建立順暢的體驗。</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p>
+<p>如需詳細資訊，請參閱<a href="../in-app/get-started-in-app.md">詳細文件</a>。</p>
 </tr>
 </tbody>
 </table>
 
-
+<!--
 <table>
 <thead>
 <tr>

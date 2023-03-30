@@ -5,21 +5,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informity"
 keywords: 應用程式內，消息，設計，格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 6%
+source-wordcount: '884'
+ht-degree: 5%
 
 ---
 
 # 設計您的應用程式內內容 {#design-content}
-
->[!AVAILABILITY]
->
->應用程式內功能目前僅供選取使用者作為測試版。 若要加入測試版計畫，請連絡 Adobe 客戶服務。
 
 您可以編輯應用程式內內容以設定體驗選項，包括訊息配置和顯示、文字及按鈕選項。
 

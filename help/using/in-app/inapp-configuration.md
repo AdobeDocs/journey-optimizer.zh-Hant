@@ -3,21 +3,16 @@ title: 應用程式內設定
 description: 了解如何設定您的環境，以使用Journey Optimizer傳送應用程式內訊息
 role: Admin
 level: Intermediate
-badge: label="Beta" type="Informity"
 keywords: 應用程式內，訊息，設定，平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 13%
+source-wordcount: '281'
+ht-degree: 11%
 
 ---
 
 # 設定應用程式內頻道 {#inapp-configuration}
-
->[!AVAILABILITY]
->
->應用程式內功能目前僅供選取使用者作為測試版。 若要加入測試版計畫，請連絡 Adobe 客戶服務。
 
 傳送應用程式內訊息之前，您需先在 [!DNL Adobe Experience Platform Data Collection].
 

@@ -5,21 +5,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informity"
 keywords: 應用程式內，消息，建立，開始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 16%
+source-wordcount: '171'
+ht-degree: 13%
 
 ---
 
 # 開始使用應用程式內頻道 {#gs-in-app}
-
->[!AVAILABILITY]
->
->應用程式內功能目前僅供選取使用者作為測試版。 若要加入測試版計畫，請連絡 Adobe 客戶服務。
 
 應用程式內訊息是可傳送給應用程式內使用者的通知，可引導他們前往特定地標。 這些通知可用於不同的用途，例如推廣新功能、呈現特殊優惠方案或協助使用者上線。 運用應用程式內訊息，您可以有效地與對象互動，並引導他們進入應用程式的重要環節。
 

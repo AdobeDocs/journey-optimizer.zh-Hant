@@ -5,21 +5,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informity"
 keywords: 應用程式內，消息，建立，開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 6%
+source-wordcount: '598'
+ht-degree: 4%
 
 ---
 
 # 建立應用程式內訊息 {#create-in-app}
-
->[!AVAILABILITY]
->
->應用程式內功能目前僅供選取使用者作為測試版。 若要加入測試版計畫，請連絡 Adobe 客戶服務。
 
 ## 建立促銷活動和應用程式內訊息{#create-in-app-in-a-campaign}
 
