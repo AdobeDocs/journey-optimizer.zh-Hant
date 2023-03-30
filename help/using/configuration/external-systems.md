@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 外部， API，優化程式，限定
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 65da82fd67442cfa2b5d45ec753fb3c5a86d4cc7
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1197'
 ht-degree: 3%
 
 ---
@@ -52,6 +52,8 @@ Journeys API每秒可支援最多5000個事件，但某些外部系統或API的�
 
 * [設定API上限](capping.md)
 * [限制API](throttling.md)
+
+如需API的詳細說明，請參閱 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
 
 ### 資料來源和自訂動作容量 {#capacity}
 
