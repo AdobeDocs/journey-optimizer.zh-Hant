@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 著陸，著陸頁面，建立，頁面，表單，元件
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
+source-git-commit: abf0a3f87baf9aa822e2f4aa5a90777359767541
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -93,7 +93,19 @@ ht-degree: 12%
 
    ![](assets/lp_designer-form-checkbox-2.png)
 
-1. 新增所有需要的核取方塊後，按一下 **[!UICONTROL 行動要求]** 以展開對應的區段。 它可讓您定義 **[!UICONTROL 表單]** 元件。
+1. 您也可以新增 **[!UICONTROL 文字欄位]**.
+
+   ![](assets/lp_designer-form-add-text-field.png)
+
+   * 輸入 **[!UICONTROL 標籤]** 會顯示在表單的欄位頂端。
+
+   * 輸入 **[!UICONTROL 預留位置]** 文字。 使用者填入欄位之前，它會顯示在欄位內。
+
+   * 檢查 **[!UICONTROL 將表單欄位設為必填]** 選項。 在此情況下，只有在使用者已填入此欄位時，才能提交登錄頁面。 如果未填入必填欄位，當使用者提交頁面時，將會顯示錯誤訊息。
+
+   ![](assets/lp_designer-form-text-field.png)
+
+1. 新增所有需要的核取方塊和/或文字欄位後，按一下 **[!UICONTROL 行動要求]** 以展開對應的區段。 它可讓您定義 **[!UICONTROL 表單]** 元件。
 
    ![](assets/lp_designer-form-call-to-action.png)
 
