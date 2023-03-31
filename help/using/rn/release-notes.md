@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0199b6b2ce7f3e03c7b5e49ff45f744ecc7c1885
+source-git-commit: 3dffd032edb3ffda4a1bcd460d554f7ecc253a8e
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 76%
+source-wordcount: '1540'
+ht-degree: 74%
 
 ---
 
@@ -114,13 +114,11 @@ ht-degree: 76%
 
 * 您現在可以在運算式編輯器中納入字串式設定檔屬性的預設後援文字。 如果選取的屬性未傳回任何結果，則會顯示這些值。 [了解更多](../personalization/personalization-build-expressions.md#add)
 
-<!--
-**Reporting**
+**報告**
 
-* The reporting widget functionality has been improved with the ability to customize how users view their data. With this improvement, users can now choose between multiple visualization options, including graph, table, and donut charts.
+* 報告介面工具集功能已經過改良，可自訂使用者檢視其資料的方式。 透過這項改善，使用者現在可以在多個視覺效果選項之間進行選擇，包括圖表、表格和環圈圖。
 
-    To have access to the latest widgets, please note that you will have to reset the different reporting dashboards. For more information on dashboard customization, refer to the [detailed documentation](../reports/global-report.md#modify-dashboard).
--->
+   若要存取最新的介面工具集，請注意您必須重設不同的報告儀表板。 如需控制面板自訂的詳細資訊，請參閱 [詳細檔案](../reports/global-report.md#modify-dashboard).
 
 ## 2023 年 2 月發行說明 {#feb-2023}
 
