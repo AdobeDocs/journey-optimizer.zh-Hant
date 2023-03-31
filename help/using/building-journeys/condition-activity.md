@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活動，條件，畫布，歷程
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: c247fe725492a2f3997564bae52ebddeb69c5272
+source-git-commit: 603174032552214686cc0f2b9ea0854f348ce949
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1465'
 ht-degree: 17%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 17%
 
 預設上限為1000。
 
-計數器僅會套用至選取的歷程版本。 計數器會在一個月後、新歷程版本後或歷程的重複版本時重設為零。 重設後，進入的設定檔會再次取用公稱路徑，直到達到計數器限制為止。
+計數器僅會套用至選取的歷程版本。 計數器會在歷程重複或建立新版本時重設為零。 重設後，進入的設定檔會再次取用公稱路徑，直到達到計數器限制為止。
 
 若在循環歷程中定義設定檔上限，則計數器不會在每次循環後重設。
 
