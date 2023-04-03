@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 8a311d546829d0d80f32dfdddcdf30805688f757
 workflow-type: tm+mt
-source-wordcount: '1926'
-ht-degree: 4%
+source-wordcount: '1904'
+ht-degree: 3%
 
 ---
 
@@ -145,10 +145,6 @@ ht-degree: 4%
 +++
 
 ## 應用程式內索引標籤 {#inapp-global}
-
->[!IMPORTANT]
->
->應用程式內功能目前僅供選取使用者作為測試版。 若要加入測試版計畫，請連絡 Adobe 客戶服務。
 
 從您的行銷活動 **[!UICONTROL 全域報表]**, **[!UICONTROL 應用程式內]** 索引標籤會詳細列出與促銷活動中傳送的應用程式內傳送相關的主要資訊。
 
