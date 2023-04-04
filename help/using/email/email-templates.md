@@ -12,7 +12,7 @@ exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 5%
+ht-degree: 17%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_template"
->title="從範本建立內容"
->abstract="若要開始建立電子郵件內容，請選取現成可用的範本或自訂現有範本（從草稿建立，或從先前的電子郵件另存為範本）。"
+>title="從範本建置內容"
+>abstract="若要開始建立您的電子郵件內容，請選取一個立即可用範本或自訂的現有範本，可能是從頭開始建立的或將以前的電子郵件另存為範本。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/content-templates.html#create-content-templates" text="建立內容範本"
 
 從 **[!UICONTROL 建立您的電子郵件]** 螢幕，使用 **[!UICONTROL 選取設計範本]** 區段，開始從範本建立內容。

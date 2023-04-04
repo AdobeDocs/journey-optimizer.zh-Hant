@@ -8,8 +8,8 @@ level: Intermediate
 keywords: SMS，子網域，設定
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '741'
+ht-degree: 24%
 
 ---
 
@@ -17,20 +17,20 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
->title="委派SMS子網域"
->abstract="您將設定子網域以供SMS使用。 您可以使用已委派給 Adobe 的子網域，或設定另一個子網域。"
+>title="委派 SMS 子網域"
+>abstract="您將設定您的子網域以供 SMS 使用。您可以使用已委派給 Adobe 的子網域，或設定另一個子網域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
->title="委派SMS子網域"
->abstract="您必須設定子網域以用於您的SMS訊息，因為您將需要此子網域才能建立SMS表面。 您可以使用已委派給 Adobe 的子網域，或設定新的子網域。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="建立SMS曲面"
+>title="委派 SMS 子網域"
+>abstract="您必須設定要用於 SMS 訊息的子網域，因為您需要此子網域才能建立 SMS 表面。您可以使用已委派給 Adobe 的子網域，或設定新的子網域。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="建立 SMS 表面"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
->title="選取SMS子網域"
->abstract="若要建立SMS表面，請確定您先前已設定至少一個要從子網域名稱清單選取的SMS子網域。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="建立SMS曲面"
+>title="選取 SMS 子網域"
+>abstract="為了能夠建立 SMS 表面，請確保您之前已設定了至少一個 SMS 子網域，才能從子網域名稱清單中挑選。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="建立 SMS 表面"
 
 若要縮短新增至SMS訊息的URL，您必須設定要在 [建立SMS表面](sms-configuration.md#message-preset-sms).
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_subdomain_dns"
 >title="產生相符的 DNS 記錄"
->abstract="若要設定新的SMS子網域，您必須複製Journey Optimizer介面中顯示的Adobe名稱伺服器資訊，並貼到您的網域托管解決方案中，以產生相符的DNS記錄。 檢查成功後，子網域即可用於建立SMS曲面。"
+>abstract="若要設定新的 SMS 子網域，您需要將 Journey Optimizer 介面中顯示的 Adobe 名稱伺服器資訊複製後貼到您的網域託管解決方案中，以產生相符的 DNS 記錄。一旦檢查成功，子網域就準備好可用於建立 SMS 表面。"
 
 若要設定新子網域，請遵循下列步驟。
 
