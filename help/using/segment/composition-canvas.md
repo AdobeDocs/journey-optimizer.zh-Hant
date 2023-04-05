@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informity"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 27%
@@ -76,7 +76,7 @@ ht-degree: 27%
 
 * [對象](#audience):包含屬於一或多個現有對象的其他設定檔，
 * [排除](#exclude):排除屬於現有對象的設定檔，或根據特定屬性排除設定檔，
-* [豐富]{#enrich}:來自Adobe Experience Platform資料集的其他屬性，讓您的受眾更為豐富，
+* [豐富](#enrich):來自Adobe Experience Platform資料集的其他屬性，讓您的受眾更為豐富，
 * [排名](#rank):根據特定屬性來排名設定檔，指定要保留的設定檔數目，並將其納入您的構成中，
 * [分割](#split):根據隨機百分比或屬性，將您的構圖分割成多個路徑。
 
