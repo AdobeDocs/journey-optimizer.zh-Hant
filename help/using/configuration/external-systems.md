@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 外部， API，優化程式，限定
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 65da82fd67442cfa2b5d45ec753fb3c5a86d4cc7
+source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 3%
+source-wordcount: '1201'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ Journey Optimizer 可讓您透過自訂資料來源與自訂動作來設定與�
 
 Journeys API每秒可支援最多5000個事件，但某些外部系統或API的輸送量可能不相等。 要防止超出這些系統，可以使用 **限定** 和 **節流** 限制每秒傳送事件數的API。
 
-每次由歷程執行API呼叫時，都會通過API引擎。 如果達到API中設定的限制，若您使用上限設定API，則會拒絕呼叫，或如果您使用限制API，則會按照收到的順序盡快排入佇列並處理。
+每次由歷程執行API呼叫時，都會通過API引擎。 如果達到API中設定的限制，若您使用上限設定API，則會拒絕呼叫，或佇列最多6小時，若您使用限制API，則會盡快依照接收順序處理呼叫。
 
 例如，假設您已為外部系統定義每秒100次呼叫的上限或限制規則。 10個不同歷程中的自訂動作會呼叫您的系統。 如果一個歷程每秒收到200個呼叫，則會使用100個可用槽，並捨棄或將剩餘的100個槽加入佇列。 由於超出最大速率，其他9個歷程將沒有任何槽。 此粒度有助於保護外部系統免受過載和崩潰的影響。
 

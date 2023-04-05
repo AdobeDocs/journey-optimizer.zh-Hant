@@ -6,9 +6,9 @@ description: 了解如何使用Throttling API
 role: User
 level: Beginner
 keywords: 外部， API，優化程式，限定
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '813'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 2%
 >目前每個組織僅允許一個配置。 必須在生產沙箱上定義設定（透過標題中的x-sandbox-name提供）。
 >
 >組織層級會套用設定。
+>
+>達到API中設定的限制時，會將更多事件排入佇列，最多6小時。 無法修改此值。
 
 ## 限制API說明 {#description}
 
