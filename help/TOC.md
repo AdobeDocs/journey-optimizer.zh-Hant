@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5e1485b33608d55d878d311c2448669f898486b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1361'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -222,7 +222,7 @@ ht-degree: 98%
    + [預覽和測試您的 SMS](using/sms/send-sms.md)
    + [管理簡訊選擇退出](using/sms/sms-opt-out.md)
    + [設定簡訊頻道](using/sms/sms-configuration.md)
-   + [設定SMS子網域](using/sms/sms-subdomains.md)
+   + [設定 SMS 子網域](using/sms/sms-subdomains.md)
 + 直接郵件 {#direct-mail}
    + [建立直接郵件](using/direct-mail/create-direct-mail.md)
    + [設定直接郵件](using/direct-mail/direct-mail-configuration.md)
@@ -421,7 +421,7 @@ ht-degree: 98%
       + [開始使用資料集](using/data/get-started-datasets.md)
       + [匯出 Journey Optimizer 資料集](using/data/export-datasets.md)
       + [查詢範例](using/data/datasets-query-examples.md)
-      + [內建結構 > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh_Hant)
+      + [內建結構 > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant)
    + [查詢](using/data/get-started-queries.md)
 + 設定{#configuration}
    + [開始使用 Journey Optimizer 設定](using/configuration/get-started-configuration.md)
@@ -443,8 +443,8 @@ ht-degree: 98%
       + [關於資料來源、事件和動作](using/configuration/about-data-sources-events-actions.md)
       + 與外部系統整合 {#external-systems}
          + [與外部系統整合的歷程](using/configuration/external-systems.md)
-         + [設定API上限](using/configuration/capping.md)
-         + [限制API](using/configuration/throttling.md)
+         + [設定 API 上限](using/configuration/capping.md)
+         + [限制 API](using/configuration/throttling.md)
       + 事件設定 {#events-journeys}
          + [一般原則](using/event/about-events.md)
          + 設定單一事件 {#unitary-events}
