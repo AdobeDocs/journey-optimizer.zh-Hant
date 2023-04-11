@@ -5,9 +5,9 @@ title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3dffd032edb3ffda4a1bcd460d554f7ecc253a8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1540'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 74%
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
 
-## 2023年3月發行說明 {#mar-2023}
+## 2023 年 3 月發行說明 {#mar-2023}
 
-以下資訊可能會有所變更，但恕不另行通知，直到發行發行日期為止。 更新的檔案將在發行日期發佈，且直接連結將會新增至此頁面。
+至發行日期之前，以下資訊如有更改，恕不另行通知。更新的文件將在發行日期發佈，直接連結將會新增至此頁面。
 
 
 ### 新功能{#mar-2023-features}
@@ -32,7 +32,7 @@ ht-degree: 74%
 <table>
 <thead>
 <tr>
-<th><strong>應用程式內管道（一般可用性）</strong><br/></th>
+<th><strong>應用程式內通道 (一般可用性)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -48,13 +48,13 @@ ht-degree: 74%
 <table>
 <thead>
 <tr>
-<th><strong>SMS點擊追蹤</strong><br/></th>
+<th><strong>SMS 點擊追蹤</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>透過SMS點擊追蹤，您可以監控縮短URL的效能、識別誰點按了URL，並使用此資料透過後續促銷活動重新鎖定這些客戶。</p>
+<p>透過 SMS 點擊追蹤，您可以監控縮短 URL 的效果、識別誰點擊了 URL，並利用此資料透過後續行銷活動重新鎖定這些客戶。</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
 <p>如需詳細資訊，請參閱<a href="../sms/create-sms.md#sms-content">詳細文件</a>。</p>
 </td>
@@ -65,7 +65,7 @@ ht-degree: 74%
 <table>
 <thead>
 <tr>
-<th><strong>在您的歷程中使用標籤（測試版）</strong><br/></th>
+<th><strong>在您的歷程使用標籤 (測試版)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -83,11 +83,11 @@ ht-degree: 74%
 
 **歷程**
 
-* 新 **限制API** 可讓您設定每秒傳送事件數的上限，防止外部系統或API出現流量尖峰。 達到設定限制時，所有後續的API呼叫會以接收順序排入佇列並盡快處理。 請注意，此功能僅支援跨所有沙箱執行一個限制配置。 [了解更多](../configuration/external-systems.md)
-* 已增強歷程畫布，提供更簡單且改善的使用者體驗。 在畫布中每個路徑的結尾處，已移除空置保持器。 您現在只需在路徑結尾拖曳活動即可新增活動。
-* 在歷程畫布中， **結束** 標籤不再以先前活動的名稱自動設定。 使用者可視需要手動新增自訂標籤。
-* 歷程屬性中的預設逾時和錯誤持續時間已從5秒變更為30秒。 [了解更多](../configuration/external-systems.md#timeout)
-* 讀取段活動中的預設限制速率已從每秒20,000條消息更改為每秒5,000條消息。 [進一步了解](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 新&#x200B;**限制 API** 可讓您設定每秒傳送事件數的上限，防止外部系統或 API 出現流量尖峰。當達到設定限制時，所有後續 API 呼叫會以接收順序排入佇列並盡快處理。請注意，此功能僅支援跨所有沙箱進行一種限制設定。[了解更多](../configuration/external-systems.md)
+* 已增強歷程畫布，提供更簡單且改善的使用者體驗。 在畫布的每個路徑結尾處，已移除空白預留位置。 您現在只需將活動拖曳到路徑結尾即可新增活動。
+* 在歷程畫布，**結束**&#x200B;標籤的標籤不再自動設定為先前活動的名稱。使用者可視需要手動新增自訂標籤。
+* 歷程屬性中的預設逾時和錯誤持續時間已從 5 秒變更為 30 秒。[了解更多](../configuration/external-systems.md#timeout)
+* 讀取區段活動的預設限制速率已從每秒 20,000 則訊息變更為每秒 5,000 則訊息。[進一步了解](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 <!-- 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
@@ -108,17 +108,17 @@ ht-degree: 74%
 
 * 您也可以選擇應查看哪個 Adobe Experience Platform 事件以設定 Offer Decisioning 上限。[了解更多](../offers/offer-library/add-constraints.md#capping)
 
-* 已在版位建立畫面中新增其他參數。 它們可讓您控制某個優惠方案是否可在多個版位之間複製，以及指定是否應將該優惠方案的內容和中繼資料包含在API回應中。 [進一步了解](../offers/offer-library/creating-placements.md)
+* 已在版位建立畫面中新增其他參數。它們可讓您控制某個活動內容是否可在多個版位之間複製，以及指定是否應將該活動內容的內容與中繼資料包含在 API 回應中。 [進一步了解](../offers/offer-library/creating-placements.md)
 
 **個人化**
 
-* 您現在可以在運算式編輯器中納入字串式設定檔屬性的預設後援文字。 如果選取的屬性未傳回任何結果，則會顯示這些值。 [了解更多](../personalization/personalization-build-expressions.md#add)
+* 您現在可以在運算式編輯器中包含字串式設定檔屬性的預設遞補文字。如果選取的屬性未傳回任何結果，則會顯示這些值。[了解更多](../personalization/personalization-build-expressions.md#add)
 
 **報告**
 
-* 報告介面工具集功能已經過改良，可自訂使用者檢視其資料的方式。 透過這項改善，使用者現在可以在多個視覺效果選項之間進行選擇，包括圖表、表格和環圈圖。
+* 報告介面控件功能已得到改善，可自訂使用者檢視其資料的方式。透過這項改善，使用者現在可以在多個視覺效果選項之間進行選擇，包括圖表、表格和環圈圖。 
 
-   若要存取最新的介面工具集，請注意您必須重設不同的報告儀表板。 如需控制面板自訂的詳細資訊，請參閱 [詳細檔案](../reports/global-report.md#modify-dashboard).
+   若要存取最新的介面工具集，請注意您必須重設不同的報告儀表板。 如需儀表板客製化的詳細資訊，請參閱[詳細文件](../reports/global-report.md#modify-dashboard)。
 
 ## 2023 年 2 月發行說明 {#feb-2023}
 
@@ -244,7 +244,7 @@ Note that each widget can be resized and deleted as needed.
 
 **決定管理**
 
-* **版位**  — 版位建立畫面中已新增其他參數。 它們可讓您控制某個優惠方案是否可在多個版位之間複製，以及指定是否應將該優惠方案的內容和中繼資料包含在API回應中。 [了解更多](../offers/offer-library/creating-placements.md)
+* **版位** - 版位建立畫面中已新增其他參數。 它們可讓您控制某個活動內容是否可在多個版位之間複製，以及指定是否應將該活動內容的內容與中繼資料包含在 API 回應中。 [了解更多](../offers/offer-library/creating-placements.md)
 
 * **URL 個人化** - 將 URL 新增為優惠方案表示法的內容時，您現在可以使用運算式編輯器對這些 URL 進行個人化設定。[了解更多](../offers/offer-library/add-representations.md)
 
