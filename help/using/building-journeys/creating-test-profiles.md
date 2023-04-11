@@ -142,7 +142,7 @@ ht-degree: 3%
 1. 新增 **[!UICONTROL 更新配置檔案]** 動作活動。
 1. 選取架構， **testProfiles** 欄位、資料集，並將值設為 **True**. 若要執行此作業，請在 **[!UICONTROL 值]** 欄位，按一下 **筆** 表徵圖，選擇 **[!UICONTROL 進階模式]** 輸入 **true**.
    ![](assets/test-profiles-26.png)
-1. 按一下 **[!UICONTROL 發佈]**.
+1. 點擊&#x200B;**[!UICONTROL 發佈]**。
 1. 在 **[!UICONTROL 區段]** 區段，檢查設定檔是否已正確更新。
    ![](assets/test-profiles-28.png)
 

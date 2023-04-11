@@ -12,11 +12,11 @@ exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# 設計登錄頁面內容 {#design-lp}
+# 設計登陸頁面內容 {#design-lp}
 
 若要開始建立登錄內容 [主要頁面](create-lp.md#configure-primary-page) 或 [子頁面](create-lp.md#configure-subpages)，將滑鼠移至頁面內容上，然後按一下 **[!UICONTROL 開啟設計工具]**. 您也可以按一下右側浮動視窗中對應的按鈕。
 

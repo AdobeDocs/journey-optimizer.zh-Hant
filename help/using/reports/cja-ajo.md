@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '336'
 ht-degree: 8%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 8%
 
 在中建立您的歷程後 [!DNL Journey Optimizer]，您可以將客戶資料匯入 [!DNL Customer Journey Analytics] 以開始報告並了解客戶與您歷程的每次互動的影響。
 
-➡️ [DiscoverCustomer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html){target=&quot;_blank&quot;}
+➡️ [DiscoverCustomer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html){target="_blank"}
 
 使用前 [!DNL Customer Journey Analytics] 對於您的歷程，您必須先設定此整合：
 
-1. [建立連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) in [!DNL Customer Journey Analytics] 和 **[!UICONTROL 資料集]** 您想要傳送至Adobe Experience Platform。
+1. [建立連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant) in [!DNL Customer Journey Analytics] 和 **[!UICONTROL 資料集]** 您想要傳送至Adobe Experience Platform。
 
    以下 [!DNL Journey Optimizer] 可設定：
    * [歷程步驟事件](../data/datasets-query-examples.md#journey-step-event):可讓您檢視進入您歷程的人員，以及他們到達的距離。

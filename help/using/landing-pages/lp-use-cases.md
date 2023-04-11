@@ -48,7 +48,7 @@ ht-degree: 14%
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [發佈](create-lp.md#publish) 登陸頁面。
+1. [發佈登陸頁面.](create-lp.md#publish)
 
 1. 在 [歷程](../building-journeys/journey.md)，新增 **電子郵件** 活動，將流量導向註冊登錄頁面。
 

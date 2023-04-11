@@ -12,13 +12,13 @@ badge: label="Beta" type="Informity"
 source-git-commit: 4fbb879f40952aaef5b197b170578bf9e27f10f9
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
 # 管理歷程中的標籤 {#journey_tags}
 
-身為Journey Optimizer從業人員，您可以使用標籤來組織歷程。 標籤是一種快速、簡便的對象分類方法，用於改進搜索。
+身為Journey Optimizer從業人員，您可以使用標籤來組織歷程。 標籤是一種快速、簡便的物件分類方法，用於改進搜尋。
 
 >[!AVAILABILITY]
 >

@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
 workflow-type: tm+mt
 source-wordcount: '2518'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 95%
 
 ## 2023 年 3 月 {#march-2023}
 
-* Journey Optimizer結構字典現已可用。 您會找到每個結構之欄位和屬性的完整清單。  [閱讀全文](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh_Hant)
-* 隨附的所有新功能和改善項目 [!DNL Journey Optimizer] 』23年3月發行版本已在檔案中詳細說明。 [閱讀全文](release-notes.md)
+* Journey Optimizer 結構字典現已可用。您會找到每個結構之欄位和屬性的完整清單。  [閱讀全文](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant)
+* [!DNL Journey Optimizer]3 月 23日發行版本新功能和改進項目的詳情，請參閱本文件。[閱讀全文](release-notes.md)
 * 在您的歷程加入了啟用 Adobe Analytics 事件的步驟。 [閱讀全文](../event/about-analytics.md)
 * 在「決策管理指南」中已建立新區段，說明如何在 Adobe Experience Platform 收集 Offer Decisioning 意見回饋，包括顯示哪些優惠方案以及使用者如何與其進行互動。[閱讀全文](../offers/data-collection/data-collection.md)
-* 已將新子區段新增至 **建立決策** 區段，說明依循序或同時評估標準之間的差異。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
-* 已新增具有增量讀取的讀取區段歷程的防護欄。 您無法建立新版本，需要複製歷程。 [閱讀全文](../start/guardrails.md#journey-versions-g)
+* 已將新子區段新增至&#x200B;**建立決策**&#x200B;區段，以說明按順序或同時評估標準之間的差異。[閱讀全文](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* 已新增具有增量讀取的讀取區段歷程的護欄。您無法建立新版本，需要複製歷程。[閱讀全文](../start/guardrails.md#journey-versions-g)
 
 ## 2023 年 2 月 {#feb-2023}
 

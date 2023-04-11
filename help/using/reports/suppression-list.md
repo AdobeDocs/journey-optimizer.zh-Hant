@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 3%
+source-wordcount: '765'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Adobe會保留已知錯誤地址的更新清單，這些地址已被證明對參與和郵件信譽有害，並確保不會向他們發送電子郵件。 此清單會以全域隱藏清單來管理，所有Adobe客戶都會看到這份清單。 全局隱藏清單中包含的地址和域名將被隱藏。 傳送報告中只會指出已排除的收件者數目。
+>Adobe會保留已知錯誤地址的更新清單，這些地址已被證明對參與和郵件信譽有害，並確保不會向他們發送電子郵件。 此清單在所有 Adobe 客戶通用的全球禁止名單中進行管理。 全球禁止名單中包含的地址和網域名稱都會隱藏起來。 傳遞報告中僅顯示排除的收件者人數。
 
 ## 為什麼要查禁清單？ {#why-suppression-list}
 
@@ -57,7 +57,7 @@ ht-degree: 3%
 >
 >具有 **[!UICONTROL 隱藏]** 在訊息傳送程式期間會排除狀態。 因此，若 **歷程報表** 會將這些設定檔顯示為已在歷程中移動([讀取區段](../building-journeys/read-segment.md) 和 [訊息活動](../building-journeys/journeys-message.md)), **電子郵件報表** 不會將其納入 **[!UICONTROL 已傳送]** 量度，因為在傳送電子郵件前會先將量度篩選掉。
 >
->深入了解 [即時報表](../reports/live-report.md) 和 [全域報表](../reports/global-report.md). 若要找出所有排除案例的原因，您可以使用 [Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}。
+>深入了解 [即時報表](../reports/live-report.md) 和 [全域報表](../reports/global-report.md). 若要找出所有排除案例的原因，您可以使用 [Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
 
 ### 傳遞失敗 {#delivery-failures}
 

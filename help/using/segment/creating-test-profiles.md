@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1363'
 ht-degree: 3%
 
 ---
@@ -27,9 +27,9 @@ ht-degree: 3%
 
    除了這兩種方法，Adobe Journey Optimizer也提供特定 [產品內使用案例](#use-case-1) 以方便建立測試設定檔。
 
-您也可以上傳現有資料集中的JSON檔案。 有關詳細資訊，請參閱 [資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target=&quot;_blank&quot;}。
+您也可以上傳現有資料集中的JSON檔案。 有關詳細資訊，請參閱 [資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}.
 
-請注意，建立測試設定檔與在Adobe Experience Platform中建立一般設定檔類似。 如需詳細資訊，請參閱 [即時客戶個人檔案檔案檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+請注意，建立測試設定檔與在Adobe Experience Platform中建立一般設定檔類似。 如需詳細資訊，請參閱 [即時客戶個人檔案檔案檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}.
 
 ➡️ [了解如何在此影片中建立測試設定檔](#video)
 
@@ -65,7 +65,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->有關架構建立的詳細資訊，請參閱 [XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target=&quot;_blank&quot;}。
+>有關架構建立的詳細資訊，請參閱 [XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}.
 
 那你需要 **建立資料集** 中匯入設定檔。 請依照下列步驟操作：
 
@@ -82,7 +82,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
-> 如需建立資料集的詳細資訊，請參閱 [目錄服務檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target=&quot;_blank&quot;}。
+> 如需建立資料集的詳細資訊，請參閱 [目錄服務檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}.
 
 ## 產品內使用案例{#use-case-1}
 
@@ -141,7 +141,7 @@ ht-degree: 3%
 1. 新增 **[!UICONTROL 更新配置檔案]** 動作活動。
 1. 選取架構， **testProfiles** 欄位、資料集，並將值設為 **True**. 若要執行此作業，請在 **[!UICONTROL 值]** 欄位，按一下 **筆** 表徵圖，選擇 **[!UICONTROL 進階模式]** 輸入 **true**.
    ![](assets/test-profiles-26.png)
-1. 按一下 **[!UICONTROL 發佈]**.
+1. 點擊&#x200B;**[!UICONTROL 發佈]**。
 1. 在 **[!UICONTROL 區段]** 區段，檢查設定檔是否已正確更新。
    ![](assets/test-profiles-28.png)
 
@@ -177,11 +177,11 @@ ht-degree: 3%
 系統會新增您的測試設定檔，現在可用於測試歷程。 請參閱[本節](../building-journeys/testing-the-journey.md)。
 >[!NOTE]
 >
-> 如需csv匯入的詳細資訊，請參閱 [資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target=&quot;_blank&quot;}。
+> 如需csv匯入的詳細資訊，請參閱 [資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
 
 ## 使用API呼叫建立測試設定檔{#create-test-profiles-api}
 
-您也可以透過API呼叫建立測試設定檔。 深入了解 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+您也可以透過API呼叫建立測試設定檔。 深入了解 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}.
 
 您必須使用包含「設定檔測試詳細資料」欄位群組的設定檔結構。 testProfile標幟是此欄位群組的一部分。
 建立設定檔時，請務必傳遞值：testProfile = true。

@@ -259,7 +259,7 @@ ht-degree: 2%
 
 ![](assets/journey_global_4.png)
 
-+++進一步了解SMS報表可用的不同量度和Widget。
++++進一步了解SMS報表可用的不同量度和小工具。
 
 此 **[!UICONTROL SMS — 傳送統計資料]** 表格會詳細說明傳送的成功：
 

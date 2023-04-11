@@ -29,7 +29,7 @@ ht-degree: 0%
 [BCC意見事件資料集](#bcc-feedback-event-dataset)
 [實體資料集](#entity-dataset)
 
-若要檢視每個結構的欄位和屬性完整清單，請參閱 [Journey Optimizer結構字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+若要檢視每個結構的欄位和屬性完整清單，請參閱 [Journey Optimizer結構字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}.
 
 ## 電子郵件追蹤體驗事件資料集{#email-tracking-experience-event-dataset}
 

@@ -10,7 +10,7 @@ exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 9%
 
 * _傳送時間最佳化分數/參與分數_:輸出Journey AI的分數。
 
-若要檢視每個結構的欄位和屬性完整清單，請參閱 [Journey Optimizer結構字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+若要檢視每個結構的欄位和屬性完整清單，請參閱 [Journey Optimizer結構字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}.
 
 ## 預覽資料集{#preview-datasets}
 

@@ -11,7 +11,7 @@ exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 ## 預覽您的SMS {#preview-sms}
 
-定義訊息內容後，您就可以使用測試設定檔來預覽和測試。 如果您插入個人化內容，則可使用測試設定檔資料，檢查此內容在訊息中的顯示方式。
+定義訊息內容後，您就可以使用測試設定檔進行預覽及測試。 如果您插入個人化內容，則可使用測試設定檔資料，檢查此內容在訊息中的顯示方式。
 
 1. 按一下 **[!UICONTROL 模擬內容]**.
 

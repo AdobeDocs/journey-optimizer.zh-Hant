@@ -73,7 +73,7 @@ ht-degree: 2%
 
 在「資料來源條件」活動中，您可以檢查 **[!UICONTROL all]** 函式為null或非null。 您也可以結合 **[!UICONTROL all]** 函式與其他函式(例如 **[!UICONTROL 計數]**. 如需詳細資訊，請參閱 [資料來源條件活動](../condition-activity.md#data_source_condition).
 
-**範例 1：**
+**範例 1:**
 
 我們想檢查使用者是否已安裝特定版本的應用程式。 為此，我們會取得與版本為1.0的行動應用程式相關聯的所有推播通知Token。然後，我們會使用 **[!UICONTROL 計數]** 函式，以檢查傳回的Token清單是否包含至少一個元素。
 
@@ -83,7 +83,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 結果為true。
 
-**範例 2：**
+**範例 2:**
 
 在此，我們使用 **[!UICONTROL 計數]** 函式來檢查集合中是否有推播通知Token。
 
@@ -182,7 +182,7 @@ _`<listExpression>.first(<condition>)`_
 
 _`<listExpression>.last(<condition>)`_
 
-**範例 1：**
+**範例 1:**
 
 此運算式會傳回與版本為1.0的行動應用程式相關聯的第一個推播通知Token。
 
@@ -192,7 +192,7 @@ _`<listExpression>.last(<condition>)`_
 
 結果為「token_1」。
 
-**範例 2：**
+**範例 2:**
 
 此運算式會傳回與版本為1.0的行動應用程式相關聯的最後一個推播通知Token。
 

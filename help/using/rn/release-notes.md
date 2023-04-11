@@ -5,7 +5,7 @@ title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3dffd032edb3ffda4a1bcd460d554f7ecc253a8e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 100%
 
@@ -108,7 +108,7 @@ ht-degree: 100%
 
 * 您也可以選擇應查看哪個 Adobe Experience Platform 事件以設定 Offer Decisioning 上限。[了解更多](../offers/offer-library/add-constraints.md#capping)
 
-* 已在版位建立畫面中新增其他參數。它們可讓您控制某個活動內容是否可在多個版位之間複製，以及指定是否應將該活動內容的內容與中繼資料包含在 API 回應中。 [進一步了解](../offers/offer-library/creating-placements.md)
+* 已在版位建立畫面中新增其他參數。它們可讓您控制某個活動內容是否可在多個版位之間複製，以及指定是否應將該活動內容的內容與中繼資料包含在 API 回應中。 [了解更多](../offers/offer-library/creating-placements.md)
 
 **個人化**
 

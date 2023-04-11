@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 限制API
+title: 限制 API
 description: 了解如何使用Throttling API
 role: User
 level: Beginner

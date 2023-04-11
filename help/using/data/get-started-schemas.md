@@ -11,7 +11,7 @@ exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 28%
 
 使用結構編輯器建立結構的逐步檔案位於 [本頁](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant){target="_blank"}
 
-若要檢視每個結構的欄位和屬性完整清單，請參閱 [Journey Optimizer結構字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+若要檢視每個結構的欄位和屬性完整清單，請參閱 [Journey Optimizer結構字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}.
 
 
 ## 作法影片{#video-schema}

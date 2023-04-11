@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 設定API上限
+title: 設定 API 上限
 description: 了解如何使用上限設定API
 role: User
 level: Beginner

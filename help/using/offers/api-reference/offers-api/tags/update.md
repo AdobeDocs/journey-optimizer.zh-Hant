@@ -9,11 +9,11 @@ exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 source-git-commit: 230f4915baedf557fe8effe216f463fca6af4849
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
-# 更新收集限定符 {#update-collection-qualifier}
+# 更新集合限定詞 {#update-collection-qualifier}
 
 您可以對 [!DNL Offer Library] API。
 

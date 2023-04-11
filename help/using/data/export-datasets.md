@@ -10,7 +10,7 @@ keywords: platform，資料湖，建立，湖，資料集，設定檔
 source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->資料集匯出功能目前為測試版，可供所有Adobe Journey Optimizer使用者使用。 如果您尚未擁有存取權，請與Adobe代表合作，取得目的地的存取權。
+>資料集匯出功能目前為測試版，可供所有Adobe Journey Optimizer使用者使用。 如果您尚未擁有存取權，請與 Adobe 代表合作，取得目的地的存取權。
 
 Journey Optimizer可讓您與雲端儲存位置建立即時連線，以匯出資料集的內容。
 

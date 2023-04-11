@@ -9,8 +9,8 @@ level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 14%
+source-wordcount: '342'
+ht-degree: 15%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 14%
 
 ![](assets/identities-home.png)
 
-深入了解 **Identity服務** in [本檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+深入了解 **Identity服務** in [本檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target="_blank"}.
 
 ## 身分識別命名空間 {#identity-namespaces}
 
 ****&#x200B;身分識別命名空間是 Identity Service 的元件，用途是作為身分識別相關內容的指標。 例如，它們會區分 `name@email.com` 作為電子郵件地址或 `443522` 作為數值CRM ID。 使用身分識別命名空間需要先了解所涉及的各種Adobe Experience Platform服務。 開始使用命名空間之前，請先檢閱以下服務的檔案：
 
-深入了解 **身分識別命名空間** in [本檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+深入了解 **身分識別命名空間** in [本檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant){target="_blank"}.
 
 ## 身分圖{#id-graph}
 
@@ -38,4 +38,4 @@ ht-degree: 14%
 
 中的身分圖表檢視器 [!DNL Adobe Journey Optimizer] 使用者介面可讓您視覺化並更清楚了解哪些客戶身分識別已匯整在一起，以及以哪些方式匯整。 檢視器可讓您拖曳圖形的不同部分並加以互動，讓您檢查複雜的身分關係、更有效率地偵錯，並透過資訊的使用方式提高透明度而獲益。
 
-深入了解 **身分圖** in [本檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html){target=&quot;_blank&quot;}。
+深入了解 **身分圖** in [本檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html){target="_blank"}.

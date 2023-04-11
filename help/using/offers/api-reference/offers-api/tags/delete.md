@@ -9,11 +9,11 @@ exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# 刪除集合限定符 {#delete-tag}
+# 刪除集合限定詞 {#delete-tag}
 
 有時可能需要移除(DELETE)集合限定符（先前稱為「標籤」）。 只能刪除您在租用戶容器中建立的集合限定符。 若要這麼做，請對 [!DNL Offer Library] API使用您要刪除的集合限定符的$id。
 

@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '675'
 ht-degree: 6%
 
 ---
@@ -48,13 +48,13 @@ ht-degree: 6%
 
 * **Adobe Experience Platform Mobile SDK** 可透過Android和iOS相容的SDK，為您的行動裝置提供用戶端整合API。 SDK提供 [!DNL Adobe Journey Optimizer] 擴充功能會公開各種專用於推送訊息的API，並啟用資料流，例如註冊推送代號或傳送推送追蹤事件或任何其他自訂體驗事件至Adobe Experience Platform。 SDK也提供多種其他擴充功能，以啟用其他Adobe Experience Cloud和第三方合作夥伴功能。
 
-   SDK整合也需要設定Adobe Experience Platform [資料收集](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html){target=&quot;_blank&quot;}服務，如：
+   SDK整合也需要設定Adobe Experience Platform [資料收集](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html){target="_blank"} 服務，例如：
 
    * 建立資料流，以設定資料流入Adobe Experience Platform的設定檔和體驗事件資料集
    * 建立用戶端行動屬性並新增擴充功能。 SDK與這些擴充功能緊密整合，提供順暢的資料收集體驗。
    * 註冊行動應用程式套件識別碼和應用程式憑證
 
-* **Adobe Experience Platform即時客戶個人檔案**  透過結合來自多個管道（包括網路、行動裝置、CRM和協力廠商）的資料，維護每個客戶的整體檢視。 個人檔案可讓您將客戶資料合併成統一的檢視畫面，針對每個客戶互動提供可採取行動且附有時間戳記的說明。指定應用程式使用者的推送代號會根據使用者的設定檔儲存為記錄資料，而使用者與推送通知的互動則會以時間序列事件資料來追蹤。 [深入了解Adobe Experience Platform Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+* **Adobe Experience Platform即時客戶個人檔案**  透過結合來自多個管道（包括網路、行動裝置、CRM和協力廠商）的資料，維護每個客戶的整體檢視。 個人檔案可讓您將客戶資料合併成統一的檢視畫面，針對每個客戶互動提供可採取行動且附有時間戳記的說明。指定應用程式使用者的推送代號會根據使用者的設定檔儲存為記錄資料，而使用者與推送通知的互動則會以時間序列事件資料來追蹤。 [深入了解Adobe Experience Platform Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}.
 
 * **[!DNL Adobe Journey Optimizer]** :在您與上述元件的行動應用程式整合就緒且Adobe Experience Platform中的客戶設定檔完成後，即可在中撰寫和協調推播通知 [!DNL Adobe Journey Optimizer] 與使用者互動。
 

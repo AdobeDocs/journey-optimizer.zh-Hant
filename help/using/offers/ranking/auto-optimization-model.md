@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -29,17 +29,17 @@ ht-degree: 0%
 
 討論自動最佳化時，下列詞語相當實用：
 
-* **多臂吃角子**:A [多臂吃角子](https://en.wikipedia.org/wiki/Multi-armed_bandit)最佳化的{target=&quot;_blank&quot;}方法可平衡探索學習與該學習的利用。
+* **多臂吃角子**:A [多臂吃角子](https://en.wikipedia.org/wiki/Multi-armed_bandit){target="_blank"} 最佳化方法平衡了探索學習和該學習的利用。
 
 * **Thomson採樣**:Thompson取樣是線上決策問題的演算法，其動作依序執行，必須在利用已知的項目來最大化即時效能與投資以累積可改善未來效能的新資訊之間取得平衡。 [了解更多](#thompson-sampling)
 
-* [**Beta發佈**](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}:連續集 [概率分佈](https://en.wikipedia.org/wiki/Probability_distribution)在間隔上定義的{target=&quot;_blank&quot;} [0, 1] [參數化](https://en.wikipedia.org/wiki/Statistical_parameter){target=&quot;_blank&quot;}) [形狀參數](https://en.wikipedia.org/wiki/Shape_parameter){target=&quot;_blank&quot;}。
+* [**Beta發佈**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: Set of continuous [probability distributions](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} defined on the interval [0, 1] [parameterized](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} by two positive [shape parameters](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}.
 
 ## Thompson取樣 {#thompson-sampling}
 
 作為自動最佳化基礎的演算法為 **Thompson抽樣**. 在本節中，我們討論了Thompson採樣背後的直覺。
 
-[Thompson抽樣](https://en.wikipedia.org/wiki/Thompson_sampling){target=&quot;_blank&quot;}或Bayesian強盜是多臂強盜問題的貝葉斯方法。  其基本思想是對待平均獎勵??以 **隨機變數** 利用我們迄今收集到的資料來更新我們對平均回報的「信念」。 這個「信念」用數學上的 **後驗概率分佈**  — 基本上是平均獎勵的值範圍，以及獎勵對每個選件具有該值的可信度（或機率）。 那麼，每個決定，我們 **從這些後獎勵分佈中的每個點樣本** 並選擇其抽樣獎勵具有最高價值的優惠方案。
+[Thompson抽樣](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}而貝葉斯強盜是多臂吃角子老虎機問題的貝葉斯方法。  其基本思想是對待平均獎勵??以 **隨機變數** 利用我們迄今收集到的資料來更新我們對平均回報的「信念」。 這個「信念」用數學上的 **後驗概率分佈**  — 基本上是平均獎勵的值範圍，以及獎勵對每個選件具有該值的可信度（或機率）。 那麼，每個決定，我們 **從這些後獎勵分佈中的每個點樣本** 並選擇其抽樣獎勵具有最高價值的優惠方案。
 
 下圖說明此程式，我們提供3個不同選件。 最初，我們沒有從資料中得到任何證據，我們假設所有的獎勵都具有統一的後獎勵分佈。 我們會從每個優惠方案的後獎勵分佈中抽取樣本。 從選件2的分送中選取的範例具有最高值。 這是 **探勘**. 展示選件2後，我們收集任何潛在獎勵（例如轉換/無轉換），並使用貝葉斯定理更新選件2的後驗分佈，如下所述。  我們會繼續進行此程式，並在每次顯示優惠方案並收集獎勵時更新後續分配。 在第二個數字中，選擇了選件3 — 儘管選件1的平均獎勵最高（其後獎勵分佈最靠右），但從每個分佈進行採樣的過程導致我們選擇了明顯次優的選件3。 通過這樣做，我們有機會進一步了解優惠方案3的真正獎勵分配。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-如上所述，似然函式是以二項式分佈模型，成功（轉換）和失敗（無轉換）,q是 [隨機變數](https://en.wikipedia.org/wiki/Random_variable){target=&quot;_blank&quot;}，帶有 [β分佈](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}。
+如上所述，似然函式是以二項式分佈模型，成功（轉換）和失敗（無轉換）,q是 [隨機變數](https://en.wikipedia.org/wiki/Random_variable){target="_blank"} with a [beta distribution](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}.
 
 驗前分佈採用Beta分佈模型，驗後分佈採用以下形式：
 
@@ -85,8 +85,8 @@ ht-degree: 0%
 **相關主題**：
 
 如需深入探討Thompson取樣，請閱讀下列研究論文：
-* [Thompson抽樣的實證評價](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target=&quot;_blank&quot;}
-* [多臂吃角子老虎機問題的Thompson抽樣分析](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target=&quot;_blank&quot;}
+* [Thompson抽樣的實證評價](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
+* [多臂吃角子老虎機問題的Thompson抽樣分析](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 
 ## 冷啟動問題 {#cold-start}
 

@@ -1,5 +1,5 @@
 ---
-title: 列出集合限定符
+title: 列出集合限定詞
 description: 集合限定符可讓您更妥善地組織和排序優惠方案。
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# 列出集合限定符 {#list-tags}
+# 列出集合限定詞 {#list-tags}
 
 集合限定符（先前稱為「標籤」）可讓您更妥善地組織和排序優惠方案。 例如，您可以使用「黑色星期五」集合限定符來標籤黑色星期五優惠方案。 然後，您可以使用優惠方案庫中的搜尋功能，輕鬆找到所有包含該集合限定符的優惠方案。
 
