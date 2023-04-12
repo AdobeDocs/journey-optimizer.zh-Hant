@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 子網域，委派，網域， DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 54ea3573e4fb6e24c3e56349292528bc6da42d67
 workflow-type: tm+mt
-source-wordcount: '1779'
-ht-degree: 22%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -72,8 +72,6 @@ ht-degree: 22%
    >[!CAUTION]
    >
    >不允許將無效的子網域委派至Adobe。 請務必輸入貴組織擁有的有效子網域，例如marketing.yourcompany.com。
-   >
-   >請注意，目前不支援電子郵件.marketing.yourcompany.com等多層級子網域。
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -144,8 +142,6 @@ CNAME 子網域委派可讓您建立子網域，並使用 CNAME 指向 Adobe 特
    >[!CAUTION]
    >
    >不允許將無效的子網域委派至Adobe。 請務必輸入貴組織擁有的有效子網域，例如marketing.yourcompany.com。
-   >
-   >請注意，目前不支援電子郵件.marketing.yourcompany.com等多層級子網域。
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 

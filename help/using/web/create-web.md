@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 badge: label="Beta" type="Informity"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: c21c0386be33eea6f7053fb891ebad3d9a1154c9
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -72,6 +72,11 @@ ht-degree: 11%
 >id="ajo_web_surface"
 >title="定義網路表面"
 >abstract="網頁表面可能會和單次頁面 URL 或多個頁面相符，可讓您在一個或多個網頁上傳遞內容修改。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_surface_rule"
+>title="建立符合規則的頁面"
+>abstract="頁面比對規則可讓您鎖定符合相同規則的多個URL，例如，如果您想要將變更套用至整個網站的主圖橫幅，或新增顯示在網站所有產品頁面上的頂端影像。"
 
 若要開始透過促銷活動建立您的網頁體驗，請遵循下列步驟。
 
