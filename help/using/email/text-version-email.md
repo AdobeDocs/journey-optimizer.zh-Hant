@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 文字，電子郵件，版本，純文字，編輯器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 如果您偏好對純文字版本使用不同內容，請遵循下列步驟：
 
-1. 從您的電子郵件中，選取 **[!UICONTROL 純文字]** 標籤。
+1. 從您的電子郵件中，選取 **[!UICONTROL 純文字]** 表徵圖。
 
    ![](assets/text_version_3.png)
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 內嵌，樣式，屬性，編輯器
 exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '122'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,8 @@ ht-degree: 6%
 在「電子郵件設計工具」介面中，當您選取元素並在側面板顯示其設定時，可以自訂該特定元素的內嵌屬性及其值。
 
 1. 在內容中選取元素。
-1. 在側面板上，查找 **[!UICONTROL 內嵌樣式]** 設定。
+
+1. 從 **[!UICONTROL 樣式]** 頁簽，查找 **[!UICONTROL 內嵌樣式]** 設定 **[!UICONTROL 進階]** 下拉式清單。
 
    ![](assets/styles_1.png)
 

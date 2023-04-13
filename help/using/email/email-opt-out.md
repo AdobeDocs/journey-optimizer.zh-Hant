@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 退出，電子郵件，連結，取消訂閱
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 79%
@@ -132,14 +132,6 @@ ht-degree: 79%
 
    ![](assets/message-tracking-opt-out.png)
 
-1. 選擇要如何套用選擇退出：在頻道、身分或訂閱項目層級。
-
-   ![](assets/message-tracking-opt-out-level.png)
-
-   * **[!UICONTROL 頻道]**：選擇退出適用於未來的訊息，傳送到目前頻道的設定檔目標 (即電子郵件地址)。 如果設定檔連結數個目標，選擇退出將套用於該頻道設定檔的所有目標 (即電子郵件地址)。
-   * **[!UICONTROL 識別]**：選擇退出適用於未來的訊息，傳送給目前郵件使用的特定目標 (即電子郵件地址)。
-   * **[!UICONTROL 訂閱]**：選擇退出適用於未來的訊息，連結特定訂閱項目清單。 僅當目前的訊息連結訂閱項目清單時，才能選擇此選項。
-
 1. 輸入登陸頁面 URL，一旦取消訂閱，將重新導向使用者。 此頁僅用於確認選擇退出成功。
 
    >[!NOTE]
@@ -149,6 +141,14 @@ ht-degree: 79%
    ![](assets/message-tracking-opt-out-confirmation.png)
 
    您可以個人化連結。 進一步瞭解[本章節](../personalization/personalization-syntax.md)的個人化 URL。
+
+1. 選擇要如何套用選擇退出：在頻道、身分或訂閱項目層級。
+
+   ![](assets/message-tracking-opt-out-level.png)
+
+   * **[!UICONTROL 頻道]**：選擇退出適用於未來的訊息，傳送到目前頻道的設定檔目標 (即電子郵件地址)。 如果設定檔連結數個目標，選擇退出將套用於該頻道設定檔的所有目標 (即電子郵件地址)。
+   * **[!UICONTROL 識別]**：選擇退出適用於未來的訊息，傳送給目前郵件使用的特定目標 (即電子郵件地址)。
+   * **[!UICONTROL 訂閱]**：選擇退出適用於未來的訊息，連結特定訂閱項目清單。 僅當目前的訊息連結訂閱項目清單時，才能選擇此選項。
 
 1. 儲存您的變更。
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 選件，決策，電子郵件，個人化，決策
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -79,9 +79,7 @@ ht-degree: 0%
 
 若要使用客戶設定檔顯示屬於決策一部分的不同選件，請遵循下列步驟。
 
-1. 按一下 **[!UICONTROL 預覽]**.
-
-   ![](assets/deliver-offer-preview-button.png)
+1. 按一下 **[!UICONTROL 「模擬內容」按鈕]** 按鈕。
 
    >[!NOTE]
    >
@@ -120,4 +118,3 @@ ht-degree: 0%
 了解如何將決策管理元件新增至 [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
-

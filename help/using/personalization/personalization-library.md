@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，程式庫，個人化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 14%
@@ -31,9 +31,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->您可以使用資訊按鈕來取得有關已儲存運算式內容的詳細資訊。 如果您有管理程式庫項目的適當權限，資訊按鈕將出現在橢圓菜單中。
-
-![](assets/library-list.png)
+>您可以從省略號按鈕獲取有關保存的表達式內容的更多資訊。 請注意，如果您具有管理程式庫項目的適當權限，資訊按鈕會出現在省略號中。
 
 按一下+將運算式插入編輯器中。 然後，您可以照常自訂及驗證您的個人化內容。 [了解更多](../personalization/personalization-build-expressions.md)
 

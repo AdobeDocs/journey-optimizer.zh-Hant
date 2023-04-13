@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登陸，登錄頁面，建立，發佈
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 28%
@@ -209,15 +209,15 @@ ht-degree: 28%
 >
 >您必須有可用的測試設定檔，才能預覽訊息並傳送校樣。 了解如何 [建立測試設定檔](../segment/creating-test-profiles.md).
 
-1. 在登錄頁面介面中，按一下 **[!UICONTROL 預覽和測試]** 按鈕來存取測試設定檔選取項目。
+1. 在登錄頁面介面中，按一下 **[!UICONTROL 模擬內容]** 按鈕來存取測試設定檔選取項目。
 
-   ![](assets/lp_preview-button.png)
+   ![](assets/lp_simulate-button.png)
 
    >[!NOTE]
    >
-   >此 **[!UICONTROL 預覽]** 按鈕也可從內容設計器存取。
+   >此 **[!UICONTROL 模擬內容]** 按鈕也可從內容設計器存取。
 
-1. 從 **[!UICONTROL 預覽和測試]** 螢幕上，選取一或多個測試設定檔。
+1. 從 **[!UICONTROL 模擬]** 螢幕上，選取一或多個測試設定檔。
 
    ![](assets/lp_test-profiles.png)
 

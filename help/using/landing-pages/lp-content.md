@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 著陸，著陸頁面，建立，頁面，表單，元件
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: abf0a3f87baf9aa822e2f4aa5a90777359767541
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1324'
 ht-degree: 11%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >切換至 **[!UICONTROL 表單樣式]** 頁簽，隨時編輯表單元件內容的樣式。 [了解更多](#define-lp-styles)
+   >切換至 **[!UICONTROL 樣式]** 頁簽，隨時編輯表單元件內容的樣式。 [了解更多](#define-lp-styles)
 
 1. 從 **[!UICONTROL 核取方塊1]** 區段中，您可以編輯與此核取方塊對應的標籤。
 
@@ -83,7 +83,7 @@ ht-degree: 11%
 
    * **[!UICONTROL 訂閱清單]**:如果配置檔案選中此複選框，則必須選擇要更新的訂閱清單。 深入了解 [訂閱清單](subscription-list.md).
 
-      ![](assets/lp_designer-form-subs-list.png)
+      <!--![](assets/lp_designer-form-subs-list.png)-->
 
    * **[!UICONTROL 通道（電子郵件）]**:選擇加入或選擇退出會套用至整個管道。 例如，如果選擇退出的設定檔有兩個電子郵件地址，則這兩個地址都將從您的所有通訊中排除。
 
@@ -136,21 +136,25 @@ ht-degree: 11%
 
 ## 定義登陸頁面表單樣式 {#lp-form-styles}
 
-1. 若要修改表單元件內容的樣式，請隨時切換至 **[!UICONTROL 表單樣式]** 標籤。
+1. 若要修改表單元件內容的樣式，請隨時切換至 **[!UICONTROL 樣式]** 標籤。
 
    ![](assets/lp_designer-form-style.png)
 
-1. 展開 **[!UICONTROL 複選框]** 區段來定義核取方塊的外觀和對應文字。 例如，您可以調整字型系列或大小，以及核取方塊邊框顏色。
+1. 此 **[!UICONTROL 欄位]** 預設會展開「 」部分，並允許您編輯文本欄位的外觀，如標籤和佔位符字型、標籤的位置、欄位背景顏色或欄位邊框。
+
+   ![](assets/lp_designer-form-style-fields.png)
+
+1. 展開 **[!UICONTROL 複選框]** 區段來定義核取方塊的外觀和對應文字。 例如，您可以調整字型系列或大小，或核取方塊邊框顏色。
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. 展開 **[!UICONTROL 按鈕]** 區段，修改元件表單中按鈕的外觀。 例如，您可以新增邊框、在暫留時編輯標籤顏色，或調整按鈕的對齊方式。
+1. 展開 **[!UICONTROL 按鈕]** 區段，修改元件表單中按鈕的外觀。 例如，您可以變更字型、新增邊框、在暫留時編輯標籤顏色，或調整按鈕的對齊方式。
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   您可以使用 **[!UICONTROL 預覽]** 按鈕。 進一步了解測試登錄頁面 [此處](create-lp.md#test-landing-page).
+   您可以使用 **[!UICONTROL 模擬內容]** 按鈕。 進一步了解測試登錄頁面 [此處](create-lp.md#test-landing-page).
 
-   ![](assets/lp_designer-form-style-buttons-preview.png)
+   <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
 1. 展開 **[!UICONTROL 表單版面]** 區段來編輯版面設定，例如背景顏色、邊框間距或邊界。
 
@@ -194,11 +198,15 @@ ht-degree: 11%
 
 1. 儲存您的變更。
 
+現在，當用戶選中一個複選框時，
+
 ![](assets/lp_designer-form-preview-checked-box.png)
 
-現在，當使用者選取其中一個核取方塊時，在提交表單時，會顯示與所選核取方塊對應的訊息。
+提交表單時，將顯示與所選複選框相對應的消息。
 
 ![](assets/lp_designer-form-thankyou-preview.png)
+
+<!--![](assets/lp_designer-form-subscription-preview.png)-->
 
 >[!NOTE]
 >

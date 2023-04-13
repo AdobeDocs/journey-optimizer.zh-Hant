@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 6%
@@ -73,8 +73,6 @@ ht-degree: 6%
 
    * **[!UICONTROL 鏡像頁面]**:插入連結以在網頁瀏覽器中顯示電子郵件內容。 請參閱[此章節](#mirror-page)深入瞭解。
 
-   ![](assets/message-tracking-links.png)
-
 1. 您可以個人化連結。 進一步瞭解[本章節](../personalization/personalization-syntax.md#perso-urls)的個人化 URL。
 
 1. 儲存您的變更。
@@ -121,8 +119,6 @@ ht-degree: 6%
    此清單可讓您集中檢視，並找出電子郵件內容中的每個URL。
 
 1. 若要編輯連結，請按一下對應的鉛筆圖示。
-
-   ![](assets/message-tracking-edit-links.png)
 
 1. 您可以修改 **[!UICONTROL 追蹤類型]** 如有需要：
 

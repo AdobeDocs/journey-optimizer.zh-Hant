@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 內容，編輯器，電子郵件，開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '569'
 ht-degree: 23%
 
 ---
@@ -82,15 +82,13 @@ ht-degree: 23%
 
    選取 **[!UICONTROL n:n欄]** 元件，定義您選取的欄數（介於3和10之間）。 您也可以移動每欄底部的箭頭，以定義每欄的寬度。
 
-   ![](assets/email_designer_structure_n-n-colum.png)
-
    >[!NOTE]
    >
    >每個列大小不能低於結構元件總寬度的10%。 無法刪除非空的列。
 
-1. 展開 **[!UICONTROL 內容元件]** 區段，並視需要新增多個元素至一或多個結構元件。 [深入了解內容元件](content-components.md)
+1. 從 **[!UICONTROL 內容元件]** 清單中，將您需要的元素新增至一或多個結構元件。 [深入了解內容元件](content-components.md)
 
-1. 每個元件可透過 **[!UICONTROL 元件設定]** 窗格。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。 [進一步了解對齊方式和邊框間距](alignment-and-padding.md)
+1. 每個元件可透過 **[!UICONTROL 設定]** 或 **[!UICONTROL 樣式]** 標籤。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。 [進一步了解對齊方式和邊框間距](alignment-and-padding.md)
 
    ![](assets/email_designer_structure_component.png)
 
@@ -104,7 +102,7 @@ ht-degree: 23%
 
    ![](assets/email_designer_personalization.png)
 
-1. 新增動態內容，以根據條件規則調整內容以符合目標設定檔。 [開始使用動態內容](../personalization/get-started-dynamic-content.md)
+1. 按一下 **[!UICONTROL 啟用條件內容]** 新增動態內容並根據條件規則調整內容以定位設定檔。 [開始使用動態內容](../personalization/get-started-dynamic-content.md)
 
    ![](assets/email_designer_dynamic-content.png)
 
@@ -112,7 +110,7 @@ ht-degree: 23%
 
    ![](assets/email_designer_links.png)
 
-1. 如有需要，您可以按一下 **[!UICONTROL 切換至程式碼編輯器]** 的上界。 [進一步了解程式碼編輯器](code-content.md)
+1. 您可以按一下 **[!UICONTROL 切換至程式碼編輯器]** 的上界。 [進一步了解程式碼編輯器](code-content.md)
 
    ![](assets/email_designer_switch-to-code.png)
 

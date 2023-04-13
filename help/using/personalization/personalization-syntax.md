@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，語法，個人化
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 9%
@@ -159,7 +159,7 @@ Journey Optimizer可讓您透過新增個人化欄位，個人化訊息中的一
 1. 在訊息內容中建立連結。 [了解更多](../email/message-tracking.md#insert-links)
 1. 從個人化圖示中，選取屬性。 個人化圖示僅適用於下列類型的連結： **外部連結**, **取消訂閱連結** 和 **退出**.
 
-![](assets/perso-url.png)
+   ![](assets/perso-url.png)
 
 >[!NOTE]
 >

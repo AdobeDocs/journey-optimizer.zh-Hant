@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 垂直對齊，電子郵件編輯器，填充
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '148'
 ht-degree: 5%
 
 ---
@@ -22,23 +22,19 @@ ht-degree: 5%
 
 1. 直接在電子郵件中選取結構元件，或使用 **[!UICONTROL 導航樹]** 左側功能表。
 
-   ![](assets/alignment_1.png)
-
 1. 在工具列中，按一下 **[!UICONTROL 選取欄]** 並選擇要編輯的。 您也可以從結構樹中選取它。
 
-   該列的可編輯參數顯示在 **[!UICONTROL 欄設定]** 功能表。
+   該列的可編輯參數顯示在 **[!UICONTROL 樣式]** 標籤。
 
    ![](assets/alignment_2.png)
 
-1. 在 **[!UICONTROL 垂直對齊]**，選取 **[!UICONTROL 底部]**.
-
-   內容元件會移至欄底部。
+1. 在 **[!UICONTROL 對齊方式]**，選取 **[!UICONTROL 頂端]**, **[!UICONTROL 中間]** 或 **[!UICONTROL 底部]**.
 
    ![](assets/alignment_3.png)
 
-1. 在 **[!UICONTROL 邊框間距]**，定義欄內的上邊框間距。 按一下鎖定圖示以中斷與底部邊框間距的同步。
+1. 在 **[!UICONTROL 邊框間距]**，定義所有邊的邊框間距。
 
-   定義該欄的左邊框和右邊框間距。
+   選擇 **[!UICONTROL 每側的邊框間距不同]** 如果要微調邊框間距。 按一下鎖定表徵圖以中斷同步。
 
    ![](assets/alignment_4.png)
 

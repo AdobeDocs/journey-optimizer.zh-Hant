@@ -7,7 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 9%
@@ -108,9 +109,7 @@ ht-degree: 9%
 
 1. 此 [電子郵件設計工具](get-started-email-design.md) 顯示。 視需要編輯內容，如同根據您選取的選項，對歷程或行銷活動內的任何電子郵件所執行的操作。
 
-   ![](assets/content-template-designer.png)
-
-1. 您可以視需要測試內容。 [了解作法](#test-template)
+   您可以視需要測試內容。 [了解作法](#test-template)
 
 1. 範本準備就緒後，按一下 **[!UICONTROL 儲存]**.
 
@@ -139,7 +138,7 @@ ht-degree: 9%
 
    ![](assets/email_designer-template-name.png)
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 1. 範本會儲存至 **[!UICONTROL 內容範本]** 清單，可從 [!DNL Journey Optimizer] 專用功能表。 它會變成獨立內容範本，可作為該清單上的任何其他項目加以存取、編輯和刪除。 [了解更多](#access-manage-templates)
 

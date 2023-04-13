@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 庫存，影像，整合，照片
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,6 @@ ht-degree: 1%
 
    如果您選擇的映像未獲得許可，則必須 [拿到許可證](#license-stock-image).
 
-
 ## 查找類似照片 {#similar-stock-image}
 
 您可以透過照片取代電子郵件內容中任何現有影像 [!DNL Adobe Stock]. 請注意，此選項適用於所有影像：從您的Assets資料夾取得授權/未授權的Stock影像和影像。
@@ -68,7 +67,7 @@ ht-degree: 1%
 
    如果您選擇的映像未獲得許可，則必須 [拿到許可證](#license-stock-image).
 
-1. 視需要使用 **[!UICONTROL 元件設定]** 功能表。 [進一步了解元件設定](content-components.md).
+1. 視需要使用 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 標籤。 [進一步了解元件設定](content-components.md).
 
 ## 從取得授權 [!DNL Adobe Stock] {#license-stock-image}
 
@@ -80,7 +79,7 @@ ht-degree: 1%
 
    ![](assets/stock-license-icon.png)
 
-   接著，系統會將您重新導向至 [!DNL Adobe Stock] 除了許可證。
+   接著，系統會將您重新導向至 [!DNL Adobe Stock] 購買許可證的網站。
 
    ![](assets/stock-license-photo.png)
 

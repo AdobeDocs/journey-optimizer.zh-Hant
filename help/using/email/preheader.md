@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 前置詞，編輯器，摘要，電子郵件
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 38%
+source-wordcount: '197'
+ht-degree: 41%
 
 ---
 
@@ -39,13 +39,9 @@ ht-degree: 38%
 
    ![](assets/preheader_body.png)
 
-1. 從 **[!UICONTROL 內文設定]** 右窗格，按一下 **[!UICONTROL Preheader]** 欄位來新增內容。
+1. 從 **[!UICONTROL 設定]** ，按一下 **[!UICONTROL Preheader]** 欄位來新增內容。
 
    ![](assets/preheader_body_settings.png)
-
-1. 新增您的標題。 您可以按一下 **[!UICONTROL 新增個人化]** 表徵圖。
-
-   ![](assets/preheader_3.png)
 
 1. 從 **[!UICONTROL 編輯個人化]** 視窗中，您可以新增 **[!UICONTROL 內容區塊]**, **[!UICONTROL 動態內容]** 或 **[!UICONTROL 個人化欄位]**.
 
@@ -53,6 +49,6 @@ ht-degree: 38%
 
    ![](assets/preheader_4.png)
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 您的電子郵件現在已設定前置標題。

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 背景，電子郵件，顏色，編輯器
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 8%
@@ -60,5 +60,3 @@ ht-degree: 8%
    >這是最常見的使用案例。 Adobe建議在欄層級設定背景顏色，因為這樣在編輯整個電子郵件內容時可提供更大的彈性。
 
    您也可以在欄層級設定背景影像，但此功能很少使用。
-
-   ![](assets/background_5.png)

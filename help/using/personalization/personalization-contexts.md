@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，內容，個人化
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '283'
 ht-degree: 15%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 15%
 
 在電子郵件設計工具中，您可以個人化內容：
 
-* 在 **訊息**:按一下文字區塊內的，按一下 **個人化** 圖示並選取 **插入個人化** 欄位。 如需電子郵件設計工具介面的詳細資訊，請參閱 [節](../email/get-started-email-design.md).
+* 在 **訊息**:按一下文字區塊內的，按一下 **新增個人化** 圖示。 如需電子郵件設計工具介面的詳細資訊，請參閱 [節](../email/get-started-email-design.md).
 
    ![](assets/perso_insert.png)
 

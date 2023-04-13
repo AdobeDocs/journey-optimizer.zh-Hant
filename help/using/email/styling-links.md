@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 樣式，連結，顏色，電子郵件，編輯器
 exl-id: d5e148a8-a6d9-4e17-9cf0-46ff3c14871c
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '149'
 ht-degree: 8%
 
 ---
@@ -22,11 +22,7 @@ ht-degree: 8%
 
 1. 文字 **[!UICONTROL 內容元件]** 插入連結時，請選取您的連結。
 
-1. 在 **[!UICONTROL 元件設定]** 菜單，檢查 **[!UICONTROL 底線連結]** 將連結的標籤文字加上底線。
-
-   ![](assets/link_1.png)
-
-1. 選擇將對象重新導向至 **[!UICONTROL 目標]** 下拉式清單：
+1. 從 **[!UICONTROL 設定]** 索引標籤，選取要如何透過 **[!UICONTROL 目標]** 下拉式清單：
 
    * **[!UICONTROL 無]**:在與點按連結相同的時間格中開啟連結（預設）。
    * **[!UICONTROL 空白]**:在新視窗或索引標籤中開啟連結。
@@ -36,10 +32,12 @@ ht-degree: 8%
 
    ![](assets/link_2.png)
 
-1. 若要變更連結的顏色，請按一下 **[!UICONTROL 連結顏色]**.
+1. 檢查 **[!UICONTROL 底線連結]** 將連結的標籤文字加上底線。
+
+   ![](assets/link_1.png)
+
+1. 若要變更連結的顏色，請按一下 **[!UICONTROL 連結顏色]** 從 **[!UICONTROL 樣式]** 標籤。
 
    ![](assets/link_3.png)
-
-1. 選擇所需的顏色。
 
 1. 儲存您的變更。
