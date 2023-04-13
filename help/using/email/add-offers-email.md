@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 選件，決策，電子郵件，個人化，決策
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 1%
+source-wordcount: '639'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +22,12 @@ ht-degree: 1%
 
 例如，您可以新增決策，在電子郵件中顯示特別折扣優惠，該優惠會根據收件者的忠誠度而有所不同。
 
-如需如何建立和管理優惠方案的詳細資訊，請參閱 [本節](../offers/get-started/starting-offer-decisioning.md).
+>[!IMPORTANT]
+>
+>如果對歷程訊息中使用的優惠方案決策進行變更，您需要取消發佈歷程並重新發佈。  這可確保將變更納入歷程的訊息中，且訊息與最新更新一致。
 
-若 **完整端對端範例** 顯示如何設定優惠方案、在決策中使用優惠方案，以及在電子郵件中運用此決策、結帳 [本節](../offers/offers-e2e.md#insert-decision-in-email).
+* 如需如何建立和管理優惠方案的詳細資訊，請參閱 [本節](../offers/get-started/starting-offer-decisioning.md).
+* 若 **完整端對端範例** 顯示如何設定優惠方案、在決策中使用優惠方案，以及在電子郵件中運用此決策、結帳 [本節](../offers/offers-e2e.md#insert-decision-in-email).
 
 ➡️ [了解如何在此影片中將選件新增為個人化](#video-offers)
 

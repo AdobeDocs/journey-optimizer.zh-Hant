@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7cb9b4102459e7a33e683fdb8a19ae6d9f8b3328
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2572'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 0%
 
 * Adobe Experience Manager Assets Essentials和Adobe Stock已新增至多解決方案整合頁面。 [閱讀全文](../start/ajo-integrations.md)
 * 不允許的多層級電子郵件子網域警告已移除，因為現在已支援。 [閱讀全文](../configuration/delegate-subdomain.md)
+* 已新增附註，以指定如果對歷程訊息中使用的優惠方案決策進行變更，您需要取消發佈歷程並重新發佈。 [閱讀全文](../building-journeys/publishing-the-journey.md)
 
 ## 2023 年 3 月 {#march-2023}
 

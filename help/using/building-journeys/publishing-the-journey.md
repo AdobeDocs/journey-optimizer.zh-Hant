@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 8%
+source-wordcount: '242'
+ht-degree: 7%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 8%
    ![](assets/journeyuc1_18.png)
 
 歷程發佈時，會處於唯讀模式。
+
+>[!IMPORTANT]
+>
+>如果對歷程訊息中使用的優惠方案決策進行變更，您需要取消發佈歷程並重新發佈。  這可確保將變更納入歷程的訊息中，且訊息與最新更新一致。
 
 ## 作法影片 {#video}
 

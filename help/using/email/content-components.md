@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 元件，電子郵件設計工具，編輯器，電子郵件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 8%
+source-wordcount: '1223'
+ht-degree: 7%
 
 ---
 
@@ -197,3 +197,6 @@ ht-degree: 8%
 
 了解如何在 [本節](add-offers-email.md).
 
+>[!IMPORTANT]
+>
+>如果對歷程訊息中使用的優惠方案決策進行變更，您需要取消發佈歷程並重新發佈。  這可確保將變更納入歷程的訊息中，且訊息與最新更新一致。

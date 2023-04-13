@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 3%
+source-wordcount: '1449'
+ht-degree: 2%
 
 ---
 
@@ -184,6 +184,10 @@ ht-degree: 3%
 ![](../assets/decision_created.png)
 
 選取 **[!UICONTROL 編輯]** 按鈕，返回決策版本模式，在此可以修改決策 [詳細資訊](#create-activity), [決策範圍](#add-decision-scopes) 和 [回退優惠方案](#add-fallback).
+
+>[!IMPORTANT]
+>
+>如果對歷程訊息中使用的優惠方案決策進行變更，您需要取消發佈歷程並重新發佈。  這可確保將變更納入歷程的訊息中，且訊息與最新更新一致。
 
 選取即時決策，然後按一下 **[!UICONTROL 停用]** 將決策狀態設回 **[!UICONTROL 草稿]**.
 
