@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 電子郵件，開始，建立，預覽
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: ce6dc6eec59ad61bec2c00e811f6f6e006eb20da
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 17%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 17%
 
 可以建立電子郵件傳遞：
 
-* 在 **歷程**:新增 **[!UICONTROL 電子郵件]** 活動至您的歷程，並定義基本設定，請使用 **[!UICONTROL 動作：電子郵件]** 右窗格，以建立SMS訊息的內容。
+* 在 **歷程**:新增 **[!UICONTROL 電子郵件]** 活動至您的歷程，並定義基本設定，請使用 **[!UICONTROL 動作：電子郵件]** 右窗格，為訊息建立內容。
 
    如需如何設定歷程的詳細資訊，請參閱 [頁面](../building-journeys/journey-gs.md).
 
