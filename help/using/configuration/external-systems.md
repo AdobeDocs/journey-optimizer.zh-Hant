@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 外部， API，優化程式，限定
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
+source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1202'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Journey Optimizer 可讓您透過自訂資料來源與自訂動作來設定與�
 
 1. 套用上限或限制規則：如果達到最大速率，則會捨棄或排入佇列剩餘的呼叫。
 
-2. 超時並重試：如果符合上限規則，Journey Optimizer會嘗試執行呼叫，直到逾時期間結束為止。
+2. 超時並重試：如果符合上限或限制規則，Journey Optimizer會嘗試執行呼叫，直到逾時期間結束為止。
 
 ## 設定上限與限制API {#capping}
 

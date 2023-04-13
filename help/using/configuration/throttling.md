@@ -6,16 +6,17 @@ description: 了解如何使用Throttling API
 role: User
 level: Beginner
 keywords: 外部， API，優化程式，限定
-source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
+exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
+source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '824'
 ht-degree: 2%
 
 ---
 
 # 使用限制API
 
-限制API可幫助您建立、配置和監視限制配置。
+限制API可協助您建立、設定和監控限制設定，以限制每秒傳送的事件數。
 
 本節提供如何使用API的全域資訊。 如需詳細的API說明，請參閱 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/).
 
