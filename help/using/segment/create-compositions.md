@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informity"
-source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
+source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '411'
 ht-degree: 7%
 
 ---
@@ -63,6 +63,10 @@ ht-degree: 7%
    ![](assets/audiences-publish.png)
 
 1. 當您的構圖準備就緒後，按一下 **[!UICONTROL 發佈]** 按鈕來發佈構圖，並將產生的對象儲存至Adobe Experience Platform。
+
+   >[!IMPORTANT]
+   >
+   >您可以在指定的沙箱中發佈最多75個構圖。 如果您達到此臨界值，則需要刪除構圖以釋放空間並發佈新的構圖。
 
    如果發佈期間發生任何錯誤，則會顯示警報，其中包含如何解決問題的資訊。
 
