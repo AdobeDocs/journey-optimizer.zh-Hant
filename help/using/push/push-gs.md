@@ -1,23 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 推播通知和 Adobe Journey Optimizer
+title: Adobe Journey Optimizer中的推播通知流程
 description: 了解推播通知資料流程和元件
 topic: Mobile
 feature: Push
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '699'
 ht-degree: 6%
 
 ---
 
-# 推播通知和 Adobe Journey Optimizer {#get-started-push}
+# 推播通知資料流程和元件 {#get-started-push}
 
-此頁面將協助您設定及了解與推播通知相關的重要服務和工作流程，位於 [!DNL Journey Optimizer]. 了解如何在 [本頁](create-push.md).
+此頁面可協助您設定及了解與推播通知相關的重要服務和工作流程，位於 [!DNL Journey Optimizer].
+
+<!--
+>[!AVAILABILITY]
+>
+>The new **mobile onboarding quick start workflow** is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and to send mobile push notifications. This capability is accessible via the Data Collection home page as a public beta. [Learn more](mobile-onboarding-wf.md)
+>
+-->
+
+了解如何在 [本頁](create-push.md).
 
 在中設定推播通道的步驟 [!DNL Adobe Journey Optimizer] 詳細資訊 [本頁](push-configuration.md).
 
@@ -63,3 +72,11 @@ ht-degree: 6%
 下圖顯示了端對端配置構成推送資料流骨架的元件時涉及的各種步驟。 已根據執行配置的角色和要配置的元件對操作項進行分類。
 
 ![](assets/user-flow.png)
+
+**相關主題**
+
+* [設定推播通道](push-configuration.md)
+* [推播通知報告](../reports/journey-global-report.md#push-global)
+* [建立推播通知](create-push.md)
+* [在歷程中新增訊息](../building-journeys/journeys-message.md)
+* [在促銷活動中新增訊息](../campaigns/create-campaign.md)

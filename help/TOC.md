@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
+source-git-commit: 15973fd7bf85a428be24252e9eb1bf3834a581f3
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 99%
+source-wordcount: '1363'
+ht-degree: 98%
 
 ---
 
@@ -214,8 +214,9 @@ ht-degree: 99%
    + [設計推播通知](using/push/design-push.md)
    + [傳送推播通知](using/push/send-push.md)
    + 設定推播通知{#push-config}
-      + [推播通知和 Adobe Journey Optimizer](using/push/push-gs.md)
+      + [推播通知流程](using/push/push-gs.md)
       + [設定推播通知頻道](using/push/push-configuration.md)
+      + [行動上線快速入門工作流程](using/push/mobile-onboarding-wf.md)
 + 簡訊頻道{#sms}
    + [開始使用簡訊](using/sms/get-started-sms.md)
    + [建立簡訊訊息](using/sms/create-sms.md)

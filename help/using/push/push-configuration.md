@@ -6,7 +6,7 @@ description: 了解如何設定您的環境，以使用Journey Optimizer傳送�
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
 workflow-type: tm+mt
 source-wordcount: '1536'
 ht-degree: 3%
@@ -16,6 +16,13 @@ ht-degree: 3%
 # 設定推播通知頻道 {#push-notification-configuration}
 
 [!DNL Journey Optimizer] 可讓您建立歷程並傳送訊息給目標對象。 開始傳送推播通知之前，請使用 [!DNL Journey Optimizer]，您必須確保行動應用程式和Adobe Experience Platform中的標籤已就緒設定和整合。 若要了解推播通知資料在 [!DNL Adobe Journey Optimizer] 請參閱 [本頁](push-gs.md).
+
+<!--
+>[!AVAILABILITY]
+>
+>The new **mobile onboarding quick start workflow** is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and to send mobile push notifications. This capability is accessible via the Data Collection home page as a public beta. [Learn more](mobile-onboarding-wf.md)
+>
+-->
 
 ## 開始之前 {#before-starting}
 
@@ -81,7 +88,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
    ![](assets/push_product_5.png)
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 若要指派此 **[!UICONTROL 產品設定檔]** 若為使用者，請遵循下列步驟：
 
