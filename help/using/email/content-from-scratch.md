@@ -11,8 +11,8 @@ keywords: 內容，編輯器，電子郵件，開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,44 +20,44 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
->title="添加結構元件"
->abstract="結構元件會定義電子郵件的版面。拖放 **結構** 元件放入畫布中，以開始設計電子郵件內容。"
+>title="新增結構元件"
+>abstract="結構元件會定義電子郵件的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的電子郵件內容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
->title="添加結構元件"
->abstract="結構元件會定義登陸頁面的版面。拖放 **結構** 元件放入畫布中，以開始設計登錄頁面的內容。"
+>title="新增結構元件"
+>abstract="結構元件會定義登陸頁面的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的登入頁面內容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
->title="添加結構元件"
->abstract="結構元件會定義區段的版面。拖放 **結構** 元件放入畫布中，以開始設計片段的內容。"
+>title="新增結構元件"
+>abstract="結構元件會定義區段的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的片段內容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
->title="添加結構元件"
->abstract="結構元件會定義範本的版面。拖放 **結構** 元件放入畫布中，以開始設計範本的內容。"
+>title="新增結構元件"
+>abstract="結構元件會定義範本的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的範本內容。"
 
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="定義電子郵件欄"
->abstract="電子郵件設計工具可讓您透過選取欄結構，輕鬆定義電子郵件的版面。"
+>abstract="電子郵件設計工具可讓您透過選取欄結構輕鬆定義電子郵件的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="定義登錄頁面欄"
->abstract="設計工具可讓您透過選取欄結構來輕鬆定義登錄頁面的版面。"
+>title="定義登陸頁面欄"
+>abstract="Designer 可讓您透過選取欄結構輕鬆定義登陸頁面的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="定義片段欄"
->abstract="設計工具可讓您透過選取欄結構來輕鬆定義片段的版面。"
+>abstract="Designer 可讓您透過選取欄結構輕鬆定義片段的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
 >title="定義範本欄"
->abstract="設計器允許您通過選擇列結構輕鬆定義模板的佈局。"
+>abstract="Designer 可讓您透過選取欄結構輕鬆定義範本的版面。"
 
 
 使用Adobe Journey Optimizer Designer可輕鬆定義內容的結構。 通過添加和移動具有簡單拖放操作的結構元素，您可以在數秒內設計內容的形狀。
