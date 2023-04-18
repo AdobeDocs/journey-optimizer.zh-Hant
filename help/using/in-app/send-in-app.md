@@ -6,10 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 應用程式內，消息，建立，開始
-source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
+exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 17%
+source-wordcount: '285'
+ht-degree: 14%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 17%
 
 ## 在裝置上預覽 {#preview-device}
 
-一旦您 [建立應用程式內訊息](create-in-app.md) 和 [定義其內容](design-in-app.md)，您可以在特定裝置中預覽應用程式內通知。
+如果您想要在所有使用者使用應用程式內通知上線之前，先預覽該通知，就能在特定裝置上預覽。 此功能可讓您確保通知在所選裝置上的外觀和功能如預期般運作，為您的對象提供更佳的使用者體驗。
 
 請依照下列步驟執行：
 
@@ -37,7 +38,7 @@ ht-degree: 17%
 
 ## 檢閱並啟動您的應用程式內通知{#in-app-review}
 
-應用程式內訊息準備就緒後，您就可以檢閱並啟用它。
+建立應用程式內訊息，並定義及個人化其內容後，您就可以檢閱及啟用訊息。
 
 請依照下列步驟執行：
 

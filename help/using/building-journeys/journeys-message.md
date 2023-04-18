@@ -7,18 +7,18 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 歷程，訊息，推送，簡訊，電子郵件
+keywords: 歷程，訊息，推送，簡訊，電子郵件，應用程式內
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 45d508b284c23235518fab37095413091208e497
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 26%
+source-wordcount: '864'
+ht-degree: 22%
 
 ---
 
-# 電子郵件、簡訊、推播{#add-a-message-in-a-journey}
+# 電子郵件、應用程式內、推送、簡訊{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] 隨附內建的訊息功能。 您只需在歷程中新增推播、簡訊或電子郵件訊息活動，並定義設定和內容即可。 接著會在歷程的內容中執行及傳送。
+[!DNL Journey Optimizer] 隨附內建的訊息功能。 您只需在歷程中新增推播、簡訊、應用程式內或電子郵件訊息活動，並定義設定和內容即可。 接著會在歷程的內容中執行及傳送。
 
 您也可以設定特定動作以傳送訊息：
 
@@ -33,7 +33,7 @@ ht-degree: 26%
 
 1. 利用[事件](general-events.md)或[讀取區段](read-segment.md)活動來開始您的歷程。
 
-1. 從調色盤的&#x200B;**動作**&#x200B;區段 ，拖放&#x200B;**電子郵件**、**簡訊**&#x200B;或&#x200B;**推播**&#x200B;活動至畫布。
+1. 從 **動作** 區段，拖放 **電子郵件**, **應用程式內**, **簡訊** 或 **推播** 活動進入畫布。
 
 1. 設定您的活動。 在下列頁面中了解建立訊息內容的詳細步驟：
 
@@ -44,6 +44,14 @@ ht-degree: 26%
    <img alt="銷售機會" src="../assets/do-not-localize/email.jpg">
    </a>
    <div><a href="../email/create-email.md"><strong>建立電子郵件</strong>
+   </div>
+   <p>
+   </td>
+   <td>
+   <a href="../in-app/create-in-app.md">
+   <img alt="銷售機會" src="../assets/do-not-localize/in-app.jpg">
+   </a>
+   <div><a href="../in-app/create-in-app.md"><strong>建立應用程式內訊息</strong>
    </div>
    <p>
    </td>
@@ -70,13 +78,15 @@ ht-degree: 26%
 
 ## 更新即時內容{#update-live-content}
 
-您可以更新即時歷程中的訊息內容（電子郵件、簡訊、推播）。
+您可以更新即時歷程中的訊息內容（電子郵件、應用程式內、推送、簡訊）。
 
 若要這麼做，請開啟您的即時歷程，選取訊息活動，然後按一下 **編輯內容**.
 
 ![](assets/add-a-message2.png)
 
 不過，您無法變更個人化中使用的屬性，不論是設定檔屬性或內容資料（來自事件或歷程屬性）。
+
+請注意，對於應用程式內活動，您可以在歷程即時期間對內容進行任何變更，但無法修改應用程式內觸發器。
 
 ## 傳送時間最佳化{#send-time-optimization}
 

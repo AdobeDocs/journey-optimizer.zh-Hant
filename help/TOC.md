@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 15973fd7bf85a428be24252e9eb1bf3834a581f3
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1371'
 ht-degree: 98%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 98%
       + [條件](using/building-journeys/condition-activity.md)
       + [等待](using/building-journeys/wait-activity.md)
       + [讀取區段](using/building-journeys/read-segment.md)
-      + [電子郵件、簡訊、推播](using/building-journeys/journeys-message.md)
+      + [電子郵件、應用程式內、推送、簡訊](using/building-journeys/journeys-message.md)
       + [自訂動作](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 動作](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 動作](using/building-journeys/using-adobe-campaign-classic.md)
@@ -205,6 +205,7 @@ ht-degree: 98%
 + 應用程式內頻道{#in-app}
    + [開始使用應用程式內頻道](using/in-app/get-started-in-app.md)
    + [建立應用程式內訊息](using/in-app/create-in-app.md)
+   + [在歷程中建立應用程式內訊息](using/in-app/create-in-app-journey.md)
    + [設計您的應用程式內內容](using/in-app/design-in-app.md)
    + [測試並傳送您的應用程式內通知](using/in-app/send-in-app.md)
    + [設定應用程式內頻道](using/in-app/inapp-configuration.md)

@@ -7,24 +7,28 @@ role: User
 level: Beginner
 keywords: 應用程式內，消息，設計，格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '886'
 ht-degree: 5%
 
 ---
 
 # 設計您的應用程式內內容 {#design-content}
 
-您可以編輯應用程式內內容以設定體驗選項，包括訊息配置和顯示、文字及按鈕選項。
+您可以編輯應用程式內內容以設定體驗選項：
 
-若要設定訊息內容，請按一下 **[!UICONTROL 編輯內容]** 按鈕，然後使用畫面右側的選項來設計您的應用程式內訊息內容。
+* 在 **[!UICONTROL 行銷活動]**，從 **[!UICONTROL 動作]** 功能表，若要設定訊息內容，請按一下 **[!UICONTROL 編輯內容]** 按鈕。
 
-![](assets/in_app_create_4.png)
+   ![](assets/edit-in-app-content.png)
+
+* 在 **[!UICONTROL 歷程]**，從應用程式內的進階功能表 **[!UICONTROL 動作]**，您可以開始使用 **[!UICONTROL 編輯內容]** 按鈕。
+
+   ![](assets/design_inapp_journey.png)
 
 此 **[!UICONTROL 進階格式]** 切換啟用其他選項以自訂體驗。
 
-建立應用程式內訊息，並定義及個人化其內容後，您就可以檢閱及啟用訊息。 然後會根據促銷活動排程傳送通知。 在[本頁](create-in-app.md#in-app-send)中瞭解更多。
+建立應用程式內訊息，並定義及個人化其內容後，您就可以檢閱及啟用訊息。 然後會根據促銷活動排程傳送通知。 在[本頁](send-in-app.md)中瞭解更多。
 
 ## 訊息配置 {#message-layout}
 
