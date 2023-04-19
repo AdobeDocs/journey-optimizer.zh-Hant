@@ -11,8 +11,8 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 badge: label="Beta" type="Informity"
 source-git-commit: c21c0386be33eea6f7053fb891ebad3d9a1154c9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1091'
+ht-degree: 15%
 
 ---
 

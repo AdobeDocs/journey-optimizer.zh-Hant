@@ -7,13 +7,13 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informity"
 keywords: platform，資料湖，建立，湖，資料集，設定檔
-source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
+exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
+source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 4%
 
 ---
-
 
 # 將資料集匯出至雲端儲存位置 {#export-datasets}
 

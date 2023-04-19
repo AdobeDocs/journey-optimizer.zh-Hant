@@ -61,7 +61,7 @@ ht-degree: 53%
 
    ![](assets/sandbox_4.png)
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 ## 存取內容 {#content-access}
 

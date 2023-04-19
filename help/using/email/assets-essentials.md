@@ -12,7 +12,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 9%
+ht-degree: 19%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 9%
 
 ## 開始使用 [!DNL Assets Essentials] {#get-started-assets-essentials}
 
-使用將行銷和創意工作流程整合在一起 [!DNL Adobe Experience Manager Assets Essentials]. 與本機整合 [!DNL Adobe Journey Optimizer]，存取 [!DNL Assets Essentials] 儲存、管理、探索及分發數位資產。 它提供單一、集中的資產存放庫，供您用來填入訊息。
+利用 [!DNL Adobe Experience Manager Assets Essentials] 將行銷與創意內容工作流程結合在一起。與 [!DNL Adobe Journey Optimizer] 進行本機整合，存取 [!DNL Assets Essentials] 來儲存、管理、探索及分發數位資產。提供了可用於填入訊息的單一、集中式資產存放庫。
 
 [!DNL Adobe Experience Manager Assets Essentials] 是協作式且集中的資產工作區，可擴充您的創意系統，並統一數位資產以提供體驗。 您可以輕鬆組織、標籤及尋找已核准的生產資產，以確保各團隊的品牌一致性。 憑借其直覺式的使用者體驗， [!DNL Assets Essentials] 立即在您的AdobeCreative和Experience Cloud應用程式中共用資產。
 
 深入了解 [Adobe Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
-[!DNL Adobe Experience Manager Assets Essentials] 可直接從 [!DNL Adobe Journey Optimizer] 從左菜單 **[!UICONTROL 資產]** 區段。 您也可以在 [設計電子郵件內容](get-started-email-design.md).
+可以透過左側選單 [!DNL Adobe Experience Manager Assets Essentials]Assets[!DNL Adobe Journey Optimizer] 區段直接從 **[!UICONTROL 存取]**。您也可以在 [設計電子郵件內容](get-started-email-design.md).
 
 ## 先決條件{#assets-prerequisites}
 

@@ -33,7 +33,7 @@ ht-degree: 8%
 
    ![](assets/journey23.png)
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
    資料來源現在已設定完畢，且可供您在歷程中使用。
 

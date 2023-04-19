@@ -62,7 +62,7 @@ ht-degree: 12%
 
    ![](assets/lp_subscription-list-dates.png)
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 清單會顯示已建立的所有訂閱清單。 您可以根據建立日期或修改日期及其狀態來篩選。
 

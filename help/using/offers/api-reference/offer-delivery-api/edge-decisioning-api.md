@@ -44,7 +44,7 @@ SDK並未結合這些程式庫，而是從頭開始的新實作。 若要使用�
 
    <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-1. [設定您的資料流](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) 在Adobe Experience Cloud中您帳戶的「資料收集」標籤中。
+1. [設定您的資料流](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=zh-Hant) 在Adobe Experience Cloud中您帳戶的「資料收集」標籤中。
 
 1. 安裝SDK。 執行此作業有多種方法，相關說明請參閱 [安裝SDK頁面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). 本頁面會繼續提供各種不同的實施方法。
 

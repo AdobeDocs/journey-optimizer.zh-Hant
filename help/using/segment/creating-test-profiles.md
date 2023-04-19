@@ -61,7 +61,7 @@ ht-degree: 3%
    ![](assets/test-profiles-4bis.png)
 1. 選擇架構並啟用 **[!UICONTROL 設定檔]** 選項 **[!UICONTROL 架構屬性]** 框。
    ![](assets/test-profiles-5.png)
-1. 按一下「**儲存**」。
+1. 按一下&#x200B;**儲存**。
 
 >[!NOTE]
 >

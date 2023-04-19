@@ -62,7 +62,7 @@ ht-degree: 14%
 1. 定義不同的 **[!UICONTROL URL設定]** 參數。 請參閱[此頁面](../action/about-custom-action-configuration.md#url-configuration)。
 1. 設定 **[!UICONTROL 驗證]** 區段。 此設定與資料來源的設定相同。  請參閱[本節](../datasource/external-data-sources.md#custom-authentication-mode)。
 1. 定義 **[!UICONTROL 動作參數]**. 請參閱[此頁面](../action/about-custom-action-configuration.md#define-the-message-parameters)。
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
    自訂動作現在已設定完畢，且已準備好用於您的歷程。 請參閱[此頁面](../building-journeys/about-journey-activities.md#action-activities)。
 

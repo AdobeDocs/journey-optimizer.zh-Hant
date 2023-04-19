@@ -5,7 +5,8 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: c9e970bc231fc3d19f0243b71256ea0f5a981af7
+exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
+source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 3%
@@ -65,4 +66,3 @@ ht-degree: 3%
 * 了解如何建立要在中收集體驗事件的資料集 [本節](create-dataset.md).
 
 * 了解如何定義體驗事件，以便在 [本節](schema-requirement.md).
-

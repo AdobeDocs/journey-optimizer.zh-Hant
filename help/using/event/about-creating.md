@@ -76,7 +76,7 @@ ht-degree: 16%
 
    ![](assets/jo-event7.png)
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
    條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。請參閱[此頁面](../event/additional-steps-to-send-events-to-journey.md)。
 
@@ -92,7 +92,7 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >針對系統產生的事件，請確定您已將「協調」欄位群組新增至XDM架構。 這可確保您的架構包含要搭配使用的所有必要資訊 [!DNL Journey Optimizer].
+   >針對系統產生的事件，請確定您已將「協調」欄位群組新增至XDM架構。 這可確保您的架構包含所有要使用的必要資訊 [!DNL Journey Optimizer].
 
    ![](assets/journey9.png)
 

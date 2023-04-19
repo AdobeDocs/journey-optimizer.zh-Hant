@@ -32,7 +32,7 @@ ht-degree: 4%
 
    ![](assets/lp_designer-template-name.png)
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 下次您建立登錄頁面時，可以使用此範本來建置內容。 了解 [節](#use-saved-template) 下方。
 

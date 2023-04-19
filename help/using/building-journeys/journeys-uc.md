@@ -53,7 +53,7 @@ ht-degree: 1%
 
 1. 將需要的欄位從左窗格拖曳至中央工作區，然後根據您的需求進行設定。 在此範例中，我們會使用 **城市** 和 **出生年** 屬性欄位。
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
    ![](assets/add-attributes.png)
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 1. 定義 **[!UICONTROL 命名空間]** 和 **[!UICONTROL 設定檔識別碼]**.
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
    ![](assets/jo-uc2.png)
 
