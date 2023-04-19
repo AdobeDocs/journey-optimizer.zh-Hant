@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 登陸，登陸頁面，使用案例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 1e149c33159ba8b5d96f5752bddc7ebe9f3934fe
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '968'
 ht-degree: 14%
 
 ---
@@ -70,11 +70,11 @@ ht-degree: 14%
 
 此外，您也可以傳送確認電子郵件給已註冊參加您活動的收件者。 若要這麼做，請遵循下列步驟。
 
-1. 建立其他 [歷程](../building-journeys/journey.md). 您可以按一下 **[!UICONTROL 建立歷程]** 按鈕。 深入了解 [此處](create-lp.md#configure-primary-page)
+1. 建立其他 [歷程](../building-journeys/journey.md). 您可以按一下 **[!UICONTROL 建立歷程]** 按鈕。 [了解更多](create-lp.md#configure-primary-page)
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. 展開 **[!UICONTROL 事件]** 類別和拖放 **[!UICONTROL 區段資格]** 活動進入您的畫布。 深入了解 [此處](../building-journeys/segment-qualification-events.md)
+1. 展開 **[!UICONTROL 事件]** 類別和拖放 **[!UICONTROL 區段資格]** 活動進入您的畫布。 [了解更多](../building-journeys/segment-qualification-events.md)
 
 1. 按一下 **[!UICONTROL 區段]** 欄位，然後選取您建立的訂閱清單。
 
@@ -127,13 +127,9 @@ ht-degree: 14%
 
 1. 設定並定義頁面內容後， [發佈](create-lp.md#publish) 登陸頁面。
 
-   ![](assets/lp_opt-out-publish.png)
-
 1. [建立電子郵件訊息](../email/get-started-email-design.md) 在歷程中。
 
 1. 選擇內容中的文字，並使用內容相關工具列[插入連結](../email/message-tracking.md#insert-links)。您也可以在按鈕上使用連結。
-
-   ![](assets/lp_opt-out-insert-link.png)
 
 1. 選擇 **[!UICONTROL 登陸頁面]** 從 **[!UICONTROL 連結類型]** 下拉式清單，然後選取 [登陸頁面](create-lp.md#configure-primary-page) 您為選擇退出而建立的。
 
