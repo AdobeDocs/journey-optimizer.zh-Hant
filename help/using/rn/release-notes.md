@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
+source-git-commit: 0f36c42c5de52da3be894737ac4c73b7ad529fc4
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 100%
+source-wordcount: '1896'
+ht-degree: 81%
 
 ---
 
@@ -21,32 +21,112 @@ ht-degree: 100%
 
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
-<!--
-## April 2023 Updates {#apr-2023}
+
+## 2023年4月搶鮮版發行說明 {#apr-e-rn-2023}
+
+至發行日期之前，以下資訊如有更改，恕不另行通知。更新的文件將在發行日期發佈，直接連結將會新增至此頁面。
+
+**發行日期**:2023年4月27日
+
+### 新功能{#apr-2023-features}
 
 
 <table>
 <thead>
 <tr>
-<th><strong>Mobile onboarding quick start workflow (beta)</strong><br/></th>
+<th><strong>Web通道（一般可用性）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The new mobile onboarding quick start workflow is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and send mobile push notifications with Adobe Journey Optimizer. This capability is accessible via the Data Collection home page as a public beta.</p>
+<p>Adobe Journey Optimizer正透過新增對網頁頻道的支援，來擴充其跨頻道功能。 您現在可以透過智慧且直覺的視覺介面，以其他任何管道形式製作、變更和預覽網路體驗，以個人化您的使用者體驗。 請注意，目前您只能在Journey Optimizer中建立促銷活動中的網頁體驗。</p>
+<img src="assets/do-not-localize/create-web-campaign.gif"/>
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>行動上線快速入門工作流程（測試版）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>全新行動入門快速入門工作流程現已推出。 使用此新產品功能來快速設定Mobile SDK，以開始收集和驗證行動事件資料，並透過Adobe Journey Optimizer傳送行動推播通知。 這項功能可透過資料收集首頁公開測試版存取。</p>
 <img src="../push/assets/mobile-wf-home.png"/>
-<p>For more information, refer to the <a href="../push/mobile-onboarding-wf.md">detailed documentation</a>.</p>
+<p>如需詳細資訊，請參閱<a href="../push/mobile-onboarding-wf.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
-## 2023 年 3 月發行說明 {#mar-2023}
+<table>
+<thead>
+<tr>
+<th><strong>新的歷程儀表板（測試版）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> 「歷程」控制面板現在分割為兩個標籤：</p>
+<ul><li>使用 <strong>概述</strong> 標籤來存取新的控制面板，以顯示與您的歷程相關的關鍵量度。</li>
+<li>使用 <strong>瀏覽</strong> 索引標籤來存取所有歷程的清單。</li></ul>
+<p>此功能可在所有歷程中作為公開測試版存取。</p>
+<img src="assets/do-not-localize/journey-dashboard.gif"/>
+<!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
 
-<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.-->
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Personalized Optimization AI ranking model (General Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>-->
 
+### 改進項目 {#april-2023-improvements}
+
+**歷程**
+
+* 歷程畫布現在會在動作節點和結束標籤上顯示活動ID。 這可改進報表和重新定位。
+* 設定窗格的版面配置已得到改善，該面板會顯示在動作、資料來源、事件和歷程中。
+* 歷程已新增護欄：
+   * 歷程中的節點數目現在上限為50個
+   * 一個組織中的即時歷程數目現在上限為100個。 測試模式中的歷程不會納入考量。
+
+* 在歷程中新增電子郵件、簡訊或推播動作時，該曲面現在依預設會預先填入該管道的最後一個使用曲面。
+* 您現在可以在自訂動作中定義靜態或動態查詢參數。
+
+**報告**
+
+* 您現在可以匯出Journey Optimizer報表為PDF。
+
+**內容設計工具**
+
+* Adobe Journey Optimizer內容設計工具已更新，現在更輕鬆存取設計樣式和元件。 此新版本建議改善使用者體驗，並隨附效能提升、深色模式部分相容性，以及新的協助工具標準支援。
+
+
+
+## 2023年3月發行說明 {#mar-2023}
 
 ### 新功能{#mar-2023-features}
 
@@ -142,7 +222,7 @@ ht-degree: 100%
 
    若要存取最新的介面工具集，請注意您必須重設不同的報告儀表板。 如需儀表板客製化的詳細資訊，請參閱[詳細文件](../reports/global-report.md#modify-dashboard)。
 
-## 2023 年 2 月發行說明 {#feb-2023}
+## 2023年2月發行說明 {#feb-2023}
 
 ### 新功能{#feb-2023-features}
 
@@ -270,7 +350,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **URL 個人化** - 將 URL 新增為優惠方案表示法的內容時，您現在可以使用運算式編輯器對這些 URL 進行個人化設定。[了解更多](../offers/offer-library/add-representations.md)
 
-## 2023 年 1 月發行版本 {#jan-2023-release}
+## 2023 年 1 月發行說明{#jan-2023-release}
 
 ### 新功能{#jan-2023-features}
 

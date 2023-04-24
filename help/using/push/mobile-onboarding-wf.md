@@ -11,16 +11,16 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informity"
 exl-id: 82477d40-cfea-456b-a7b1-9cfebd76db35
-source-git-commit: 1332bc6caf18eaa735d1c99b8e5f70f8a4eaaf2b
+source-git-commit: 62954221f9797fc4ac7b5e066ffea6f99c17ad45
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 5%
+source-wordcount: '368'
+ht-degree: 6%
 
 ---
 
 # 行動上線快速入門工作流程 {#mobile-wf}
 
-新 **行動裝置入門快速入門工作流程** 是可快速設定行動SDK、開始收集和驗證行動事件資料，以及透過傳送推播通知的新產品功能 [!DNL Journey Optimizer].
+新 **行動裝置入門快速入門工作流程** 是可快速設定Adobe Experience Platform Mobile SDK、開始收集和驗證行動事件資料，以及透過傳送推播通知的新產品功能 [!DNL Journey Optimizer].
 
 此功能可透過 **[!DNL Adobe Experience Platform Data Collection]** 首頁（公開測試版）供所有客戶使用。
 
@@ -35,8 +35,8 @@ ht-degree: 5%
 以下是一些額外功能：
 
 * 簡單的四步工作流程和用戶介面。
-* 提供基本設定，可在數分鐘內開始透過行動SDK收集行動事件資料。
-* 運用「保證」測試及驗證基本行動推播事件的功能。
+* 提供基本設定，以便開始透過 [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} 幾分鐘內。
+* 運用以測試及驗證基本行動推送事件的功能 [Adobe Experience Platform保障](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
 * 自動建立及設定所有必要的資料收集和Journey Optimizer資產。
 * 在產品指南和工具提示中。
 * 視需要提供更進階實作的自然轉變。
