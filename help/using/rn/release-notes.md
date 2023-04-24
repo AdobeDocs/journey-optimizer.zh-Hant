@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0f36c42c5de52da3be894737ac4c73b7ad529fc4
+source-git-commit: c523783b0984a36f919a581053e994ca131a0115
 workflow-type: tm+mt
-source-wordcount: '1896'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 81%
 <td>
 <p> 「歷程」控制面板現在分割為兩個標籤：</p>
 <ul><li>使用 <strong>概述</strong> 標籤來存取新的控制面板，以顯示與您的歷程相關的關鍵量度。</li>
-<li>使用 <strong>瀏覽</strong> 索引標籤來存取所有歷程的清單。</li></ul>
+<li>使用 <strong>瀏覽</strong> 標籤來存取所有歷程的清單。</li></ul>
 <p>此功能可在所有歷程中作為公開測試版存取。</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
 <!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
