@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Informity"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 9%
@@ -85,9 +85,9 @@ ht-degree: 9%
 
 1. 重複這些步驟，視需要新增多欄，以建立解壓縮檔案。 請注意，您最多可以新增50欄。
 
-   ![](assets/direct-mail-complete.png)
-
    您隨時可以選取欄並按一下 **[!UICONTROL 移除]** 按鈕 **[!UICONTROL 格式]** 區段。
+
+   ![](assets/direct-mail-complete.png)
 
 1. 定義直接郵件內容後，請完成促銷活動的設定。
 
