@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 98%
       + [條件](using/building-journeys/condition-activity.md)
       + [等待](using/building-journeys/wait-activity.md)
       + [讀取區段](using/building-journeys/read-segment.md)
-      + [電子郵件、應用程式內、推送、簡訊](using/building-journeys/journeys-message.md)
+      + [電子郵件、應用程式內、推播、簡訊](using/building-journeys/journeys-message.md)
       + [自訂動作](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 動作](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 動作](using/building-journeys/using-adobe-campaign-classic.md)
@@ -176,8 +176,8 @@ ht-degree: 98%
    + 設計您的電子郵件內容 {#design-email}
       + [開始使用電子郵件設計](using/email/get-started-email-design.md)
       + 開始建立內容 {#start-creating-content}
-         + [從草稿開始設計內容](using/email/content-from-scratch.md)
-         + [匯入您的內容](using/email/existing-content.md)
+         + [從頭開始設計內容](using/email/content-from-scratch.md)
+         + [匯入內容](using/email/existing-content.md)
          + [為您自己的內容撰寫程式碼](using/email/code-content.md)
          + [使用範本](using/email/email-templates.md)
       + 設計您的內容 {#add-content}
@@ -205,7 +205,7 @@ ht-degree: 98%
 + 應用程式內頻道{#in-app}
    + [開始使用應用程式內頻道](using/in-app/get-started-in-app.md)
    + [建立應用程式內訊息](using/in-app/create-in-app.md)
-   + [在歷程中建立應用程式內訊息](using/in-app/create-in-app-journey.md)
+   + [在歷程建立應用程式內訊息](using/in-app/create-in-app-journey.md)
    + [設計您的應用程式內內容](using/in-app/design-in-app.md)
    + [測試並傳送您的應用程式內通知](using/in-app/send-in-app.md)
    + [設定應用程式內頻道](using/in-app/inapp-configuration.md)
@@ -215,9 +215,9 @@ ht-degree: 98%
    + [設計推播通知](using/push/design-push.md)
    + [傳送推播通知](using/push/send-push.md)
    + 設定推播通知{#push-config}
-      + [推播通知流程](using/push/push-gs.md)
+      + [推播通知流量](using/push/push-gs.md)
       + [設定推播通知頻道](using/push/push-configuration.md)
-      + [行動上線快速入門工作流程](using/push/mobile-onboarding-wf.md)
+      + [Mobile 上線快速入門工作流程](using/push/mobile-onboarding-wf.md)
 + 簡訊頻道{#sms}
    + [開始使用簡訊](using/sms/get-started-sms.md)
    + [建立簡訊訊息](using/sms/create-sms.md)
