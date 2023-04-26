@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 電子郵件，設計，庫存，資產
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 18%
+source-wordcount: '461'
+ht-degree: 12%
 
 ---
 
@@ -29,6 +29,14 @@ ht-degree: 18%
 * 根據客戶的設定檔屬性建立個人化和動態訊息，以增強客戶體驗。 深入瞭解[個人化](../personalization/personalize.md)及[動態內容](../personalization/get-started-dynamic-content.md)。
 
 ➡️ [在影片中探索此功能](#video)
+
+## 電子郵件設計最佳實務 {#best-practices}
+
+傳送電子郵件時，請務必考慮收件者可能會轉送電子郵件，這有時會導致電子郵件呈現問題。 當使用用於轉送的電子郵件提供者可能不支援的CSS類別時（例如，如果您使用「is-desktop-hidden」CSS類別來隱藏行動裝置上的影像），就更是如此。
+
+若要將這些轉譯問題降至最低，建議您盡可能維持電子郵件設計結構的簡單性。 請嘗試使用同時適用於案頭和行動裝置的單一設計，並避免使用可能並非所有電子郵件用戶端完全支援的複雜CSS類別或其他設計元素。 您可以遵循這些最佳實務，確保無論收件者檢視或轉送電子郵件的方式，電子郵件的呈現都一致正確。
+
+## 建立電子郵件內容的關鍵步驟 {#key-steps}
 
 一旦您 [新增電子郵件](create-email.md) 至歷程或行銷活動，您可以開始建立電子郵件內容。
 
