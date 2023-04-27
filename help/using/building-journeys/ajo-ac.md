@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 歷程，訊息，行銷活動，整合
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '412'
 ht-degree: 3%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 3%
 # 使用案例：使用Campaign v7/v8傳送訊息 {#campaign-classic-use-case}
 
 此使用案例說明使用Adobe Campaign Classic v7和Adobe Campaign v8整合來傳送電子郵件所需的所有步驟。
+
+>[!NOTE]
+>
+>若要使用此整合，您必須有Campaign Classic版本編號9125或更新版本。
 
 我們將先在Campaign中建立交易式電子郵件範本。 接著，在Journey Optimizer中，我們將建立事件、動作並設計歷程。
 

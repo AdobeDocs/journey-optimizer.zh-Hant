@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2357'
 ht-degree: 17%
 
 ---
@@ -215,9 +215,12 @@ ht-degree: 17%
    1. 規則建立後，就會顯示在 **[!UICONTROL 自訂事件查詢]** 欄位。
 
       ![](../assets/offer-capping-custom-event-query.png)
-   >[!CAUTION]
-   >
-   >對於除決策事件以外的所有限定事件，可能不會自動收集決策管理意見，因此請確定資料傳入。 [進一步了解資料收集](../data-collection/data-collection.md)
+
+>[!CAUTION]
+>
+>對於除決策事件以外的所有限定事件，可能不會自動收集決策管理意見，而可能導致限定計數器無法正確增加。 [了解更多](../data-collection/data-collection.md)
+>
+>若要確保每個限定事件都受到追蹤並在限定計數器中加以計數，請確定用於收集體驗事件的結構包含該事件的正確欄位群組。 [了解更多](../data-collection/schema-requirement.md)
 
 ### 上限計數 {#capping-count}
 

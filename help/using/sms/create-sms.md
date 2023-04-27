@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 14%
+source-wordcount: '578'
+ht-degree: 13%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 14%
 
    如需如何設定歷程的詳細資訊，請參閱 [本頁](../building-journeys/journey-gs.md)
 
-<!-- The **[!UICONTROL Surface]**field is pre-filled, by default, with the last surface used for that channel by the user. -->
+   此 **[!UICONTROL 曲面]** 依預設，欄位會預填，使用者會使用該管道的最後一個曲面。
 
 您現在可以開始從 **[!UICONTROL 編輯內容]** 按鈕。 [定義您的SMS內容](#sms-content)
 

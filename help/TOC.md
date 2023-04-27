@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1371'
 ht-degree: 99%
 
 ---
@@ -230,10 +230,10 @@ ht-degree: 99%
    + [設定直接郵件](using/direct-mail/direct-mail-configuration.md)
 + 網路頻道{#web}
    + [開始使用網路頻道](using/web/get-started-web.md)
+   + [網路通道必要條件](using/web/web-prerequisites.md)
    + [建立網站體驗](using/web/create-web.md)
    + [製作網頁](using/web/author-web.md)
-   + [Visual Editing Helper 擴充功能](using/web/visual-editing-helper.md)
-   + [網站報告](using/web/web-report.md)
+   + [設定Web子網域](using/web/web-delegated-subdomains.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
    + [建立登陸頁面](using/landing-pages/create-lp.md)
@@ -294,12 +294,14 @@ ht-degree: 99%
 + 追蹤和監視 {#reporting}
    + 即時報告 {#live-report}
       + [開始使用即時報告](using/reports/live-report.md)
+      + [元件清單](using/reports/live-report-components.md)
       + [歷程即時報告](using/reports/journey-live-report.md)
       + [行銷活動即時報告](using/reports/campaign-live-report.md)
       + [登陸頁面即時報告](using/reports/lp-report-live.md)
       + [訂閱清單即時報告](using/reports/subscription-report-live.md)
    + 全域報告 {#global-report}
       + [開始使用全域報告](using/reports/global-report.md)
+      + [元件清單](using/reports/global-report-components.md)
       + [歷程全域報告](using/reports/journey-global-report.md)
       + [行銷活動全域報告](using/reports/campaign-global-report.md)
       + [登陸頁面全域報告](using/reports/lp-report-global.md)

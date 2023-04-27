@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 11%
@@ -128,6 +128,7 @@ ht-degree: 11%
 此 **[!UICONTROL 顯示日誌]** 按鈕可讓您檢視測試結果。 本頁面以JSON格式顯示歷程的目前資訊。 按鈕可讓您複製整個節點。 您需要手動重新整理頁面，以更新歷程的測試結果。
 
 ![](assets/journeytest3.png)
+
 
 >[!NOTE]
 >

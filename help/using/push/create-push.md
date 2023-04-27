@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '699'
 ht-degree: 15%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 15%
 
    ![](assets/push_create_1.png)
 
-1. 提供訊息的基本資訊（標籤、說明、類別），然後選擇要使用的訊息表面。
+1. 提供訊息的基本資訊（標籤、說明、類別），然後選擇要使用的訊息表面。 此 **[!UICONTROL 曲面]** 依預設，欄位會預填，使用者會使用該管道的最後一個曲面。
 
    ![](assets/push_create_2.png)
 

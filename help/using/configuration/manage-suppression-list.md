@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 隱藏，清單，退回，電子郵件，優化程式，隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 19%
+source-wordcount: '1558'
+ht-degree: 21%
 
 ---
 
@@ -24,7 +24,9 @@ ht-degree: 19%
 
 進一步了解隱藏清單概念和在 [本節](../reports/suppression-list.md).
 
-
+>[!NOTE]
+>
+>Adobe會保留已知錯誤地址的更新清單，這些地址已被證明對參與和郵件信譽有害，並確保不會向他們發送電子郵件。 此清單在所有 Adobe 客戶通用的全球禁止名單中進行管理。 全球禁止名單中包含的地址和網域名稱都會隱藏起來。 傳遞報告中僅顯示排除的收件者人數。
 
 ## 訪問隱藏清單 {#access-suppression-list}
 

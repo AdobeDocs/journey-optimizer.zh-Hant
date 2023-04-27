@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 8a311d546829d0d80f32dfdddcdf30805688f757
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '2036'
 ht-degree: 3%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 3%
 * [應用程式內](#inapp-global)
 * [推播](#push-global)
 * [簡訊](#sms-global)
+* [Web](#web-tab)
 
 行銷活動 **[!UICONTROL 全域報表]** 會分為不同的小工具，詳細說明促銷活動的成功和錯誤。 如有需要，可對每個介面工具集調整大小並加以刪除。 有關詳細資訊，請參閱 [節](../reports/global-report.md#modify-dashboard).
 
@@ -251,7 +252,7 @@ ht-degree: 3%
 
 ![](assets/campaign_report_global_4.png)
 
-+++進一步了解SMS報表可用的不同量度和小工具。
++++進一步了解SMS報表可用的不同量度和Widget。
 
 此 **[!UICONTROL SMS — 傳送統計資料]** 表格會詳細說明傳送的成功：
 
@@ -281,6 +282,27 @@ ht-degree: 3%
 
 此 **[!UICONTROL SMS — 依連結的點按次數]** 和 **[!UICONTROL SMS — 追蹤統計資料]** 小工具會詳細說明與訪客與URL的互動相關的主要資訊。
 
++++
+
+## 網頁標籤 {#web-tab}
+
+從您的行銷活動 **[!UICONTROL 全域報表]**, **[!UICONTROL Web]** 頁簽詳細說明了與網頁相關的主要資訊。
+
+![](assets/web-report.png)
+
++++進一步了解網頁報表可用的不同量度和小工具。
+
+此 **[!UICONTROL Web效能]** KPI會詳細說明與訪客與您的網路體驗互動相關的主要資訊，例如：
+
+* **[!UICONTROL 不重複曝光數]**:將網站體驗傳送至的不重複使用者人數。
+
+* **[!UICONTROL 曝光數]**:傳送給所有使用者的網站體驗總數。
+
+* **[!UICONTROL 點按率]**:與您網頁上各種元素互動的訪客百分比。
+
+此 **[!UICONTROL 網路摘要]** 圖表顯示相關時段的網路體驗（曝光數、不重複曝光次數和點按次數）的演變。
+
+此 **[!UICONTROL 依元素點按]** 表格詳細說明與訪客在您的網頁上參與各種元素的相關主要資訊。
 +++
 
 ## 其他資源

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 行銷活動，審核，驗證，啟動，啟動，最佳化程式
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%
@@ -31,8 +31,6 @@ ht-degree: 7%
    ![](assets/create-campaign-alerts.png)
 
 1. 檢查促銷活動是否已正確設定，然後按一下 **[!UICONTROL 啟動]**.
-
-   ![](assets/create-campaign-review.png)
 
 1. 促銷活動現在已啟動。 其狀態為 **[!UICONTROL 即時]**，或 **[!UICONTROL 已排程]** 如果您輸入了開始日期。 [深入了解行銷活動狀態](get-started-with-campaigns.md#statuses).
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 3%
@@ -57,7 +57,7 @@ ht-degree: 3%
 
 ### 自訂事件
 
-根據您自己的偏好設定，可將與優惠方案相連結之自訂事件的意見傳送至Adobe Experience Platform。 例如，如果選件有多個按鈕，例如 *興趣*, *不感興趣*，以此類推，您可能想要個別傳入這些事件，但也可以以體驗事件的形式傳入。 <!--Not sure to get that part. How feedback is collected in the first case, i.e. when events are sent in separately? Does it mean the customer just handles it the wau he wants?-->
+根據您自己的偏好設定，可將與優惠方案相連結之自訂事件的意見傳送至Adobe Experience Platform。 例如，如果選件有多個按鈕，例如 *興趣*, *不感興趣*，以此類推，您可能想要個別傳入這些事件，但也可以以體驗事件的形式傳入。
 
 ## 傳送意見資料
 

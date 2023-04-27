@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: 內容，編輯器，電子郵件，開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '654'
 ht-degree: 31%
 
 ---
 
-# 從草稿開始設計內容 {#content-from-scratch}
+# 從頭開始設計內容 {#content-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
@@ -110,13 +110,11 @@ ht-degree: 31%
 
    ![](assets/email_designer_links.png)
 
-1. 如有需要，您可以按一下 **[!UICONTROL 切換至程式碼編輯器]** 從上方 **更多** 按鈕。 [進一步了解程式碼編輯器](code-content.md)
-
-   ![](assets/email_designer_switch-to-code.png)
+1. 如有需要，您可以按一下 **[!UICONTROL 切換至程式碼編輯器]** 的上界。 這可讓您編輯電子郵件原始碼，例如新增追蹤或自訂HTML標籤。 [進一步了解程式碼編輯器](code-content.md)
 
    >[!CAUTION]
    >
-   >切換到代碼編輯器後，無法回復到此內容的可視設計器。
+   >切換到代碼編輯器後，無法回復到此電子郵件的可視設計器。
 
 1. 內容準備就緒後，按一下 **[!UICONTROL 模擬內容]** 按鈕以檢查呈現。 您可以選擇案頭或行動檢視。 [進一步了解如何預覽您的電子郵件](preview.md)
 

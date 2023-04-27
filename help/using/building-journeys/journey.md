@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: 歷程，探索，快速入門
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '588'
 ht-degree: 28%
 
 ---
@@ -29,6 +29,11 @@ ht-degree: 28%
 * 使用 **內建動作** 發送設計在 [!DNL Journey Optimizer] 或建立 **自訂動作** 如果您使用協力廠商系統來傳送訊息。
 
 * 使用&#x200B;**歷程設計器**，建立您的多步驟使用案例：輕鬆拖放登入事件或讀取區段活動、新增條件及傳送個人化訊息。
+
+
+>[!NOTE]
+>
+>歷程護欄和限制在 [本頁](../start/guardrails.md)
 
 ## 建立歷程的步驟{#steps-journey}
 
@@ -98,7 +103,3 @@ Adobe Journey Optimizer包含全通路協調畫布，可讓行銷人員協調行
 歷程版本可個別停止。 所有版本的歷程都具有相同名稱。
 
 當您發佈新版本的歷程時，舊版會自動結束，並切換至 **已關閉** 狀態。 旅行中的入口是不可能的。 即使您停止最新版本，舊版仍會保持關閉狀態。
-
->[!NOTE]
->
->進一步了解歷程版本護欄和限制，位於 [本頁](../start/guardrails.md#journey-versions-limitations)

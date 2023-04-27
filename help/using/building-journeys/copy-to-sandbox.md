@@ -9,9 +9,9 @@ role: User, Developer
 level: Intermediate
 keywords: 沙箱，歷程，複製，環境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '835'
 ht-degree: 20%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
 >title="沙箱詳細資料"
->abstract="選取您要將歷程複製過去的目的地沙箱。只能使用您的 IMS 組織內的沙箱。"
+>abstract="選取您要將歷程複製過去的目的地沙箱。只能使用您的 組織內的沙箱。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
@@ -58,7 +58,7 @@ Journey Optimizer 可讓您將整個歷程從一個沙箱複製到另一個沙�
 
    ![](assets/copy-sandbox2.png)
 
-3. 選取 **目標沙箱** 從下拉式欄位。 只能使用您的 IMS 組織內的沙箱。
+3. 選取 **目標沙箱** 從下拉式欄位。 只能使用您的 組織內的沙箱。
 
 4. 檢閱 **相依對象** 區段。 這是歷程中使用的關聯物件清單。此清單會顯示名稱、物件類型以及內部的 Journey Optimizer ID。
 

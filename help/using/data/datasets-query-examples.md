@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 資料集，優化程式，使用案例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 0%
+source-wordcount: '850'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,6 @@ ht-degree: 0%
 [推播追蹤體驗事件資料集](#push-tracking-experience-event-dataset)
 [歷程步驟事件](#journey-step-event)
 [決策事件資料集](#ode-decisionevents)
-[同意服務資料集](#consent-service-dataset)
 [BCC意見事件資料集](#bcc-feedback-event-dataset)
 [實體資料集](#entity-dataset)
 
@@ -258,15 +257,16 @@ select explode(propositionexplode.selections) AS proposedOffers from
 group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.ranking.priority;
 ```
 
-## 同意服務資料集{#consent-service-dataset}
+<!--
+## Consent Service Dataset{#consent-service-dataset}
 
-_介面中的名稱：CJM同意服務資料集（系統資料集）_
+_Name in the interface: CJM Consent Service Dataset (system dataset)_
 
-Journey Optimizer同意服務資料集。
+Dataset for Journey Optimizer Consent service.
 
-相關結構為CJM同意服務結構。
+The related schema is CJM Consent Service Schema.
 
-查詢以列出同意接收電子郵件的電子郵件ID:
+Query to list email IDs that have consented to receive email:
 
 ```sql
 select key as email FROM (
@@ -278,7 +278,7 @@ select key as email FROM (
 where value.marketing.email.val == 'y'
 ```
 
-查詢以傳回以電子郵件ID為輸入之電子郵件ID的同意值：
+Query to return consent value for an email ID where email ID would be the input:
 
 ```sql
 select value.marketing.email.val FROM (
@@ -287,6 +287,7 @@ select value.marketing.email.val FROM (
   from cjm_consent_service_dataset
  )
 ```
+-->
 
 ## BCC意見事件資料集{#bcc-feedback-event-dataset}
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 選件，決策，電子郵件，個人化，決策
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -47,25 +47,21 @@ ht-degree: 0%
 
    了解如何在 [本節](content-components.md).
 
-1. 此 **[!UICONTROL 優惠方案決策]** 標籤。 按一下 **[!UICONTROL 選擇優惠方案決策]**.
+1. 此 **[!UICONTROL 優惠方案決策]** 標籤。 按一下 **[!UICONTROL 選擇優惠方案決策]**:
 
-   ![](assets/deliver-offer-tab.png)
+   1. 在顯示的視窗中，選取與您要顯示之選件相對應的位置。
 
-1. 在顯示的視窗中，選取與您要顯示之選件相對應的位置。
+      [版位](../offers/offer-library/creating-placements.md) 是用來展示優惠方案的容器。 在此範例中，我們將使用「電子郵件至上影像」位置。 此版位已建立在優惠方案庫中，以顯示位於訊息頂端的影像類型優惠方案。
 
-   [版位](../offers/offer-library/creating-placements.md) 是用來展示優惠方案的容器。 在此範例中，我們將使用「電子郵件至上影像」位置。 此版位已建立在優惠方案庫中，以顯示位於訊息頂端的影像類型優惠方案。
+   1. 與所選版位相符的決策會顯示。 選取要在內容元件中使用的決策，然後按一下 **[!UICONTROL 新增]**.
 
-1. 與所選版位相符的決策會顯示。 選取要在內容元件中使用的決策，然後按一下 **[!UICONTROL 新增]**.
+      >[!NOTE]
+      >
+      >只有與所選位置相容的決策才會顯示在清單中。 在此範例中，只有一個優惠方案活動符合「電子郵件最上層影像」位置。
 
-   >[!NOTE]
-   >
-   >只有與所選位置相容的決策才會顯示在清單中。 在此範例中，只有一個優惠方案活動符合「電子郵件最上層影像」位置。
+      ![](assets/deliver-offer-placement.png)
 
-   ![](assets/deliver-offer-placement.png)
-
-決定現在已新增至元件。
-
-儲存變更後，您的選件即可在歷程中傳送訊息時顯示給相關設定檔。
+決定現在已新增至元件。 儲存變更後，您的選件即可在歷程中傳送訊息時顯示給相關設定檔。
 
 >[!NOTE]
 >
@@ -79,37 +75,32 @@ ht-degree: 0%
 
 若要使用客戶設定檔顯示屬於決策一部分的不同選件，請遵循下列步驟。
 
-1. 按一下 **[!UICONTROL 「模擬內容」按鈕]** 按鈕。
+>[!NOTE]
+>
+>您必須有測試設定檔可供預覽訊息。 了解如何 [建立測試設定檔](../segment/creating-test-profiles.md).
 
-   >[!NOTE]
-   >
-   >您必須有測試設定檔可供預覽訊息。 了解如何 [建立測試設定檔](../segment/creating-test-profiles.md).
+1. 選取要用來預覽選件的測試設定檔：
 
-1. 若要選擇用來識別測試設定檔的命名空間，請選取 **[!UICONTROL 電子郵件]** 從 **[!UICONTROL 身分命名空間]** 欄位。
+   1. 按一下 **[!UICONTROL 「模擬內容」按鈕]** 按鈕，然後選擇要用於識別測試設定檔的命名空間 **[!UICONTROL 身分命名空間]** 欄位。
 
-   >[!NOTE]
-   >
-   >在此範例中，我們將使用 **電子郵件** 命名空間。 深入了解Adobe Experience Platform身分識別命名空間 [在本節](../segment/get-started-identity.md).
+      >[!NOTE]
+      >
+      >在此範例中，我們會使用 **電子郵件** 命名空間。 深入了解Adobe Experience Platform身分識別命名空間 [在本節](../segment/get-started-identity.md).
 
-1. 在身分識別命名空間清單中，選取 **[!UICONTROL 電子郵件]** 按一下 **[!UICONTROL 選擇]**.
-
-1. 在 **[!UICONTROL 身分值]** 欄位中，輸入要識別測試設定檔的值。 在此範例中，輸入測試設定檔的電子郵件地址。
+   1. 在 **[!UICONTROL 身分值]** 欄位中，輸入要識別測試設定檔的值。 在此範例中，輸入測試設定檔的電子郵件地址。
 
    <!--For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.-->
 
-1. 新增其他設定檔，以便根據設定檔資料測試不同的訊息變體。
+   1. 新增其他設定檔，以便根據設定檔資料測試不同的訊息變體。
 
-   ![](assets/deliver-offer-test-profiles.png)
+      ![](assets/deliver-offer-test-profiles.png)
 
-1. 按一下 **[!UICONTROL 預覽]** 標籤來測試訊息。
 
-1. 選取測試設定檔。 會顯示與所選設定檔（女性）對應的選件。
+1. 按一下 **[!UICONTROL 預覽]** 標籤來測試訊息，然後選取測試設定檔。 會顯示與所選設定檔（女性）對應的選件。
 
    ![](assets/deliver-offer-test-profile-female-preview.png)
 
-1. 選取其他測試設定檔，以預覽訊息每個變體的電子郵件內容。 在訊息內容中，現在會顯示與所選測試設定檔（現在為男性）對應的選件。
-
-   ![](assets/deliver-offer-test-profile-male-preview.png)
+   您可以選取其他測試設定檔，以預覽訊息每個變體的電子郵件內容。 在訊息內容中，現在會顯示與所選測試設定檔（現在為男性）對應的選件。
 
 進一步了解檢查訊息預覽的詳細步驟，位於 [本節](#preview-your-messages).
 

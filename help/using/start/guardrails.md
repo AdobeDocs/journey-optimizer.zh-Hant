@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b86e42f95e92d4fad3d20bfbab329ae6d80c2d50
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 100%
+source-wordcount: '1064'
+ht-degree: 92%
 
 ---
 
@@ -43,6 +43,11 @@ ht-degree: 100%
 
 ## 歷程護欄 {#journeys-guardrails}
 
+### 一般歷程護欄 {#journeys-guardrails-journeys}
+
+* 歷程中的活動數上限為50。 活動數會顯示在歷程畫布的左上方區段。
+* 數量 **即時歷程** 在一個組織中，每個沙箱最多只能有100個。 達到此限制時，您無法再發佈新的歷程。
+
 ### 一般動作 {#general-actions-g}
 
 * 沒有傳送限制。
@@ -67,6 +72,7 @@ ht-degree: 100%
 * 查詢參數或標題的名稱不得以「.」開頭 或 &quot;$&quot;
 * 不允許使用 IP 位址
 * 內部 Adobe 地址 (`.adobe.*`) 不允許在 URL 及 API 中使用。
+* 無法移除內建的自訂動作。
 
 ### 活動 {#events-g}
 
@@ -99,5 +105,6 @@ ht-degree: 100%
 
 ### 運算式編輯器 {#expression-editor}
 
-* 從「讀取」區段、「區段」資格或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。 
+* 從「讀取」區段、「區段」資格或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。 您需要建立新區段，並在歷程中使用內段條件。
+
 

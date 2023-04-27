@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: 動作，自訂， API，歷程，設定，服務
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 24%
+source-wordcount: '400'
+ht-degree: 25%
 
 ---
 
@@ -55,18 +55,13 @@ ht-degree: 24%
 
 ![](assets/journey-custom-action-url.png)
 
-### 標頭
+### 標題和查詢參數 {#headers}
 
-此 **[!UICONTROL URL設定]** 區段顯示動態標題欄位，但不顯示常數標題欄位。 動態標題欄位是HTTP標題欄位，其值設定為變數。 [了解更多](../action/about-custom-action-configuration.md)。
+此 **[!UICONTROL URL設定]** 區段顯示動態標題和查詢參數欄位，但不顯示常數欄位。 動態標題和查詢參數欄位在動作設定畫面中定義為變數。 [了解更多](../action/about-custom-action-configuration.md#url-configuration)
 
-如果需要，請指定動態標題欄位的值：
+若要指定動態標題和查詢參數欄位的值，請在欄位內按一下，或在鉛筆圖示上按一下，然後選取所需欄位。
 
-1. 選取歷程中的自訂動作。
-1. 在設定窗格中，按一下 **[!UICONTROL URL設定]** 區段。
-
-   ![](assets/journey-dynamicheaderfield.png)
-
-1. 選取欄位並按一下 **[!UICONTROL 確定]**.
+![](assets/journey-dynamicheaderfield.png)
 
 ## 動作參數
 

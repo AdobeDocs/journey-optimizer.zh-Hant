@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 資料、治理、DULE、標籤、標籤、平台、原則
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 100%
@@ -53,11 +53,9 @@ Adobe Experience Platform 可讓您為欄位加上標籤，並為每個頻道建
 以您需要標示為敏感並限制匯出至協力廠商的血液類型欄位為例。 不同的步驟如下：
 
 1. 在左側選單中的&#x200B;**隱私權**&#x200B;下方，按一下 **政策**。
-   ![](assets/action-privacy0.png)
 1. 選取&#x200B;**標籤**，按一下&#x200B;**建立標籤**。
    ![](assets/action-privacy1.png)
 1. 定義此標籤的名稱和易記名稱。 例如，_ePHI1_。
-   ![](assets/action-privacy2.png)
 1. 在左側選單中的&#x200B;**資料管理**&#x200B;下方，按一下&#x200B;**方案**，然後按一下&#x200B;**套用存取權和資料治理標籤**&#x200B;按鈕。 選取您的方案和欄位 (血液類型)，然後選取先前建立的標籤，例如範例中的 _ePHI1_。
    ![](assets/action-privacy3.png)
 1. 返回&#x200B;**政策**&#x200B;選單，選取&#x200B;**行銷動作**&#x200B;標籤，按一下&#x200B;**建立行銷動作**。建議您針對歷程中所使用的每個協力廠商自訂動作建立一個行銷動作。 例如，建立 _Slack 行銷動作_，其將用於您的 Slack 自訂動作。

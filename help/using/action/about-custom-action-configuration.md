@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 14%
+source-wordcount: '1045'
+ht-degree: 15%
 
 ---
 
@@ -97,35 +97,31 @@ ht-degree: 14%
    >
    > 此 **DELETE** 方法不受支援。 如果您需要更新現有資源，請選取 **PUT** 方法。
 
-1. 在 **[!UICONTROL 標題]** 一節，定義要傳送至外部服務的要求訊息的HTTP標題：
-   1. 若要新增標題欄位，請按一下 **[!UICONTROL 新增標題欄位]**.
-   1. 輸入標題欄位的鍵。
-   1. 若要設定機碼值組的動態值，請選取 **[!UICONTROL 變數]**. 否則，請選取 **[!UICONTROL 常數]**.
+1. 定義標題和查詢參數：
 
-      例如，對於時間戳記，您可以設定動態值。
+   * 在 **[!UICONTROL 標題]** ，按一下 **[!UICONTROL 新增標題欄位]** 定義要傳送至外部服務的要求訊息的HTTP標題。 此 **[!UICONTROL 內容類型]** 和 **[!UICONTROL Charset]** 預設會設定標題欄位。 您無法修改或刪除這些欄位。
 
-   1. 如果您已選取 **[!UICONTROL 常數]**，然後輸入常數值。
+   * 在 **[!UICONTROL 查詢參數]** ，按一下 **[!UICONTROL 新增查詢參數欄位]** 來定義要新增至URL的參數。
 
-      如果您已選取 **[!UICONTROL 變數]**，則會在將自訂動作新增至歷程時指定此變數。 [了解更多](../building-journeys/using-custom-actions.md)。
+   ![](assets/journeyurlconfiguration2bis.png)
 
-      ![](assets/journeyurlconfiguration2.png)
+1. 輸入欄位的標籤或名稱。
 
-   1. 若要刪除標題欄位，請指向標題欄位，然後按一下 **[!UICONTROL 刪除]** 表徵圖。
-   此 **[!UICONTROL 內容類型]** 和 **[!UICONTROL Charset]** 預設會設定標題欄位。 您無法修改或刪除這些欄位。
+1. 選取類型： **[!UICONTROL 常數]** 或 **[!UICONTROL 變數]**. 如果您已選取 **[!UICONTROL 常數]**，然後在 **[!UICONTROL 值]** 欄位。 如果您已選取 **[!UICONTROL 變數]**，則會在將自訂動作新增至歷程時指定此變數。 [了解更多](../building-journeys/using-custom-actions.md)。
 
-   將自訂動作新增至歷程後，如果歷程處於草稿狀態，您仍可新增標題欄位。 如果您不希望歷程受到設定變更的影響，請複製自訂動作，並將標題欄位新增至新的自訂動作。
+   ![](assets/journeyurlconfiguration2.png)
 
    >[!NOTE]
+   >
+   >將自訂動作新增至歷程後，如果歷程處於草稿狀態，您仍可新增標頭或查詢參數欄位。 如果您不希望歷程受到設定變更的影響，請複製自訂動作，並將欄位新增至新的自訂動作。
    >
    >標題會根據欄位剖析規則進行驗證。 深入了解 [本檔案](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}。
 
 ## 定義動作參數 {#define-the-message-parameters}
 
-![](assets/messageparameterssection.png)
-
 在 **[!UICONTROL 動作參數]** 區段中，貼上要傳送至外部服務的JSON裝載範例。
 
-![](assets/customactionpayloadmessage.png)
+![](assets/messageparameterssection.png)
 
 >[!NOTE]
 >
@@ -135,7 +131,7 @@ ht-degree: 14%
 
 您也可以選擇指定參數為常數或變數：
 
-* 常數表示參數的值是由技術人員在動作設定窗格中定義。 歷程中的值一律相同。 此值不會有所不同，且行銷人員在歷程中使用自訂動作時不會看到。 例如可能是協力廠商系統預期的ID。 在此情況下，切換常數/變數右側的欄位即為傳遞的值。
-* 變數表示參數的值會有所不同。 行銷人員在歷程中使用此自訂動作時，可以免費傳遞想要的值，或指定要擷取此參數值的位置(例如從事件、從Adobe Experience Platform等)。 在此情況下，切換常數/變數右側的欄位，就是行銷人員在歷程中看到的為此參數命名的標籤。
+* **常數** 表示參數的值是由技術人員在動作設定窗格中定義。 歷程中的值一律相同。 此值不會有所不同，且行銷人員在歷程中使用自訂動作時不會看到。 例如可能是協力廠商系統預期的ID。 在此情況下，切換常數/變數右側的欄位即為傳遞的值。
+* **變數** 表示參數的值會有所不同。 行銷人員在歷程中使用此自訂動作時，可以免費傳遞想要的值，或指定要擷取此參數值的位置(例如從事件、從Adobe Experience Platform等)。 在此情況下，切換常數/變數右側的欄位，就是行銷人員在歷程中看到的為此參數命名的標籤。
 
 ![](assets/customactionpayloadmessage2.png)

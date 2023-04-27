@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Informity"
-source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 9%
@@ -60,8 +60,6 @@ ht-degree: 9%
    ![](assets/direct-mail-campaign.png)
 
 1. 按一下 **[!UICONTROL 建立]** 然後定義行銷活動的基本資訊（名稱、說明）。 [了解如何設定行銷活動](../campaigns/create-campaign.md)
-
-   ![](assets/direct-mail-edit.png)
 
 1. 按一下 **[!UICONTROL 編輯內容]** 按鈕來設定要傳送至直接郵件提供者的解壓縮檔案。
 

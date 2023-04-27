@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，使用案例，訊息，訂閱者，清單，讀取
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 4%
+source-wordcount: '331'
+ht-degree: 17%
 
 ---
 
@@ -56,3 +56,7 @@ ht-degree: 4%
       ![](assets/message-to-subscribers-uc-2.png)
 
    1. 在 **[!UICONTROL 新增運算式]** 對話框，按一下 **[!UICONTROL 確定]**.
+
+>[!CAUTION]
+>
+>電子郵件地址覆寫僅用於特定使用案例。 在大多數情況下，您不需要變更電子郵件地址，因為&#x200B;**[!UICONTROL 執行欄位]**&#x200B;中定義為主要電子郵件的值才是應該使用的值。 [了解更多](../configuration/primary-email-addresses.md)

@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 設定，電子郵件，配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 9%
+source-wordcount: '1739'
+ht-degree: 8%
 
 ---
 
@@ -243,9 +243,23 @@ ht-degree: 9%
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-您也可以編輯 **[!UICONTROL 值]** 欄位使用 [運算式編輯器](../personalization/personalization-build-expressions.md). 按一下版本圖示以開啟編輯器。 從那裡，您可以選取所選內容屬性及/或直接編輯文字。
+您也可以編輯 **[!UICONTROL 值]** 欄位使用 [運算式編輯器](../personalization/personalization-build-expressions.md). 按一下版本圖示以開啟編輯器。 從那裡，您可以選取可用的內容屬性及/或直接編輯文字。
 
 ![](assets/preset-url-tracking-editor.png)
+
+下列預先定義的值可透過運算式編輯器使用：
+
+* **源操作ID**:新增至歷程或行銷活動之電子郵件動作的ID。
+
+* **源操作名稱**:新增至歷程或行銷活動的電子郵件動作名稱。
+
+* **源ID**:電子郵件所伴隨的歷程或行銷活動ID。
+
+* **源名稱**:電子郵件所伴隨的歷程或行銷活動名稱。
+
+* **源版本ID**:電子郵件傳送的歷程或行銷活動版本ID。
+
+* **選件ID**:電子郵件中使用的選件ID。
 
 >[!NOTE]
 >

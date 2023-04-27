@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，活動，快速入門，事件，動作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 17%
+source-wordcount: '507'
+ht-degree: 18%
 
 ---
 
@@ -66,9 +66,27 @@ ht-degree: 17%
 
 ## 最佳做法 {#best-practices}
 
+### 新增標籤
+
 大部分的活動都可讓您定義 **[!UICONTROL 標籤]**. 這會新增尾碼至將出現在畫布中活動底下的名稱。 如果您在歷程中多次使用相同的活動，並且想要更輕鬆地識別，這個功能會很實用。 這也可讓除錯在發生錯誤時更輕鬆，且讓報表更容易讀取。 您也可以新增選填 **[!UICONTROL 說明]**.
 
-![](assets/journey59bis.png)
+![](assets/journey-action-label.png)
+
+### 管理進階參數 {#advanced-parameters}
+
+大部分活動會顯示許多您無法修改的進階和/或技術參數。
+
+![](assets/journey-advanced-parameters.png)
+
+為了提高可讀性，您可以使用 **[!UICONTROL 隱藏只讀欄位]** 按鈕。
+
+![](assets/journey-hide-read-only-fields.png)
+
+在某些特定內容中，您可以覆寫這些參數的值以供特定使用。 若要強制執行值，請按一下欄位右側的&#x200B;**[!UICONTROL 啟用參數覆寫]**&#x200B;圖示。[了解更多](../configuration/primary-email-addresses.md#journey-parameters)
+
+![](assets/journey-enable-parameter-override.png)
+
+### 新增替代路徑
 
 當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL 新增替代路徑以防逾時或發生錯誤]**. 請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
 

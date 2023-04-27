@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: 歷程，訊息，推送，簡訊，電子郵件，應用程式內
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '894'
 ht-degree: 22%
 
 ---
 
-# 電子郵件、應用程式內、推送、簡訊{#add-a-message-in-a-journey}
+# 電子郵件、應用程式內、推播、簡訊{#add-a-message-in-a-journey}
 
 [!DNL Journey Optimizer] 隨附內建的訊息功能。 您只需在歷程中新增推播、簡訊、應用程式內或電子郵件訊息活動，並定義設定和內容即可。 接著會在歷程的內容中執行及傳送。
 
@@ -85,6 +85,10 @@ ht-degree: 22%
 ![](assets/add-a-message2.png)
 
 不過，您無法變更個人化中使用的屬性，不論是設定檔屬性或內容資料（來自事件或歷程屬性）。
+
+如果您修改了內容資料，則會顯示下列錯誤訊息：ERR_AUTHORING_JOURNEYVERSION_201
+
+如果您修改了設定檔屬性，則會顯示下列錯誤訊息：ERR_AUTHORING_JOURNEYVERSION_202
 
 請注意，對於應用程式內活動，您可以在歷程即時期間對內容進行任何變更，但無法修改應用程式內觸發器。
 

@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 促銷活動， API觸發， REST，優化程式，訊息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '831'
 ht-degree: 3%
 
 ---
@@ -39,9 +39,7 @@ API觸發促銷活動的可用通道為電子郵件、簡訊及推送訊息。
 
    ![](assets/api-triggered-type.png)
 
-1. 指定促銷活動的標題和說明，然後設定要傳送的訊息。
-
-   ![](assets/api-triggered-properties.png)
+1. 指定促銷活動的標題和說明，然後按一下 **[!UICONTROL 編輯內容]** 設定要傳送的訊息。
 
    >[!NOTE]
    >

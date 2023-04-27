@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 登陸，登錄頁面，建立，發佈
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1539'
 ht-degree: 28%
 
 ---
@@ -223,13 +223,13 @@ ht-degree: 28%
 
    選取測試設定檔的步驟與測試訊息時的步驟相同。 詳細資訊於 [本節](../email/preview.md#select-test-profiles).
 
-1. 選取 **[!UICONTROL 預覽]** 按一下 **[!UICONTROL 開啟預覽]** 來測試您的登錄頁面。
+1. 選擇 **[!UICONTROL 開啟預覽]** 來測試您的登錄頁面。
 
    ![](assets/lp_open-preview.png)
 
 1. 登錄頁面的預覽會在新索引標籤中開啟。 個人化元素會由選取的測試設定檔資料取代。
 
-   ![](assets/lp_preview.png)
+   <!--![](assets/lp_preview.png)-->
 
 1. 選取其他測試設定檔，以預覽登錄頁面每個變體的呈現。
 

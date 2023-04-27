@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 8%
+source-wordcount: '1049'
+ht-degree: 7%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 8%
 * [電子郵件](#email-live)
 * [推播](#push-live)
 * [簡訊](#sms-live)
+* [Web](#web-tab)
 
 行銷活動 **[!UICONTROL 即時報表]** 會分為不同的小工具，詳細說明促銷活動的成功和錯誤。 如有需要，可對每個介面工具集調整大小並加以刪除。 有關詳細資訊，請參閱 [節](../reports/live-report.md#modify-dashboard).
 
@@ -133,7 +134,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ![](assets/campaign_report_live_3.png)
 
-+++進一步了解SMS報表可用的不同量度和小工具。
++++進一步了解SMS報表可用的不同量度和Widget。
 
 此 **[!UICONTROL SMS — 統計]** 表格會詳細說明傳送的成功：
 
@@ -162,6 +163,25 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 * **[!UICONTROL 錯誤]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
 
 此 **[!UICONTROL 排除原因]**, **[!UICONTROL 跳出原因]** 和 **[!UICONTROL 錯誤原因]** 圖形和表格可讓您查看在傳送期間發生的錯誤和排除。
++++
+
+## 網頁標籤 {#web-tab}
+
+從您的行銷活動 **[!UICONTROL 全域報表]**, **[!UICONTROL Web]** 頁簽詳細說明了與網頁相關的主要資訊。
+
++++進一步了解網頁報表可用的不同量度和小工具。
+
+此 **[!UICONTROL Web效能]** KPI會詳細說明與訪客與您的網路體驗互動相關的主要資訊，例如：
+
+* **[!UICONTROL 不重複曝光數]**:將網站體驗傳送至的不重複使用者人數。
+
+* **[!UICONTROL 曝光數]**:傳送給所有使用者的網站體驗總數。
+
+* **[!UICONTROL 點按次數]**:URL瀏覽總數。
+
+此 **[!UICONTROL 網路摘要]** 圖表顯示相關時段的網路體驗（曝光數、不重複曝光次數和點按次數）的演變。
+
+此 **[!UICONTROL 依元素點按]** 表格詳細說明與訪客在您的網頁上參與各種元素的相關主要資訊。
 +++
 
 ## 其他資源

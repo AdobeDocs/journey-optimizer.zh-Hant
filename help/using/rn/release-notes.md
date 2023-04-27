@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 324ceaa981b3ce2025e4ba64c62cbe377d62e817
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1897'
-ht-degree: 81%
+source-wordcount: '1859'
+ht-degree: 82%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 81%
 
 ## 2023年4月搶鮮版發行說明 {#apr-e-rn-2023}
 
-至發行日期之前，以下資訊如有更改，恕不另行通知。更新的文件將在發行日期發佈，直接連結將會新增至此頁面。
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**發行日期**:2023年4月27日
+**Release date**: April 27, 2023-->
 
 ### 新功能{#apr-2023-features}
 
@@ -42,7 +42,7 @@ ht-degree: 81%
 <td>
 <p>Adobe Journey Optimizer正透過新增對網頁頻道的支援，來擴充其跨頻道功能。 您現在可以透過智慧且直覺的視覺介面，以其他任何管道形式製作、變更和預覽網路體驗，以個人化您的使用者體驗。 請注意，目前您只能在Journey Optimizer中建立促銷活動中的網頁體驗。</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>如需詳細資訊，請參閱<a href="../web/get-started-web.md">詳細文件</a>。</p>
 </tr>
 </tbody>
 </table>
@@ -65,27 +65,27 @@ ht-degree: 81%
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>新的歷程儀表板（測試版）</strong><br/></th>
+<th><strong>New Journey dashboard (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> 「歷程」控制面板現在分割為兩個標籤：</p>
-<ul><li>使用 <strong>概述</strong> 標籤來存取新的控制面板，以顯示與您的歷程相關的關鍵量度。</li>
-<li>使用 <strong>瀏覽</strong> 標籤來存取所有歷程的清單。</li></ul>
-<p>此功能可在所有歷程中作為公開測試版存取。</p>
+<p> The Journey dashboard is now split in two tabs:</p>
+<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
+<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
+<p>This capability is accessible in all journeys as a public beta.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
+
 <table>
 <thead>
 <tr>
@@ -107,14 +107,14 @@ ht-degree: 81%
 
 **歷程**
 
-* 歷程畫布現在會在動作節點和結束標籤上顯示活動ID。 這可改進報表和重新定位。
+* 歷程畫布現在會在訊息活動和結束標籤上顯示活動ID。 這可改進報表和重新定位。
 * 設定窗格的版面配置已得到改善，該面板會顯示在動作、資料來源、事件和歷程中。
 * 歷程已新增護欄：
-   * 歷程中的節點數目現在上限為50個
-   * 一個組織中的即時歷程數目現在上限為100個。 測試模式中的歷程不會納入考量。
+   * 歷程中的活動數目現在上限為50個。 [閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
+   * 數量 **即時歷程** 現在，一個組織的每個沙箱最多只能有100個。 測試模式中的歷程不會納入考量。 [閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
 
-* 在歷程中新增電子郵件、簡訊或推播動作時，該曲面現在依預設會預先填入該管道的最後一個使用曲面。
-* 您現在可以在自訂動作中定義靜態或動態查詢參數。
+* 新增 [電子郵件](../email/create-email.md), [簡訊](../sms/create-sms.md) 或 [推播](../push/create-push.md) 在歷程中執行動作時，現在依預設會在目前歷程中使用該管道的最後一個使用曲面預先填入曲面。
+* 您現在可以在自訂動作中定義靜態或動態查詢參數。 [了解更多](../action/about-custom-action-configuration.md#url-configuration)
 
 **報告**
 
@@ -189,7 +189,9 @@ ht-degree: 81%
 * 已增強歷程畫布，提供更簡單且改善的使用者體驗。 在畫布的每個路徑結尾處，已移除空白預留位置。 您現在只需將活動拖曳到路徑結尾即可新增活動。
 * 在歷程畫布，**結束**&#x200B;標籤的標籤不再自動設定為先前活動的名稱。使用者可視需要手動新增自訂標籤。
 * 歷程屬性中的預設逾時和錯誤持續時間已從 5 秒變更為 30 秒。[了解更多](../configuration/external-systems.md#timeout)
-* 讀取區段活動的預設限制速率已從每秒 20,000 則訊息變更為每秒 5,000 則訊息。[進一步了解](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 讀取區段活動的預設限制速率已從每秒 20,000 則訊息變更為每秒 5,000 則訊息。[了解更多](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 已將護欄新增至測試模式，僅監聽透過介面傳送的事件。 不會考慮透過外部工具傳送的事件。 [進一步了解](../building-journeys/testing-the-journey.md)
+
 
 <!-- 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.

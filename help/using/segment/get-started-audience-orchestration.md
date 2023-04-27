@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informity"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '306'
 ht-degree: 23%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 23%
 
 >[!AVAILABILITY]
 >
->受眾構成目前僅以私人測試版形式提供，且可能會經常更新，恕不另行通知。 測試版是在IMS組織層級布建，這表示會影響組織內的所有沙箱。
+>受眾構成目前僅以私人測試版形式提供，且可能會經常更新，恕不另行通知。 測試版是在組織層級布建，這表示會影響組織內的所有沙箱。
 
 對象構成可讓您建立 **組成工作流程**，您可以將現有的Adobe Experience Platform對象結合至視覺畫布，並運用各種活動（分割、排除……）來建立新對象。
 
