@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c523783b0984a36f919a581053e994ca131a0115
+source-git-commit: 324ceaa981b3ce2025e4ba64c62cbe377d62e817
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1897'
+ht-degree: 81%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 <tr>
 <td>
 <p>Adobe Journey Optimizer正透過新增對網頁頻道的支援，來擴充其跨頻道功能。 您現在可以透過智慧且直覺的視覺介面，以其他任何管道形式製作、變更和預覽網路體驗，以個人化您的使用者體驗。 請注意，目前您只能在Journey Optimizer中建立促銷活動中的網頁體驗。</p>
-<img src="assets/do-not-localize/create-web-campaign.gif"/>
+<img src="assets/do-not-localize/web-authoring.gif"/>
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
