@@ -5,14 +5,15 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
+source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '835'
 ht-degree: 11%
 
 ---
 
-# 網路通道必要條件 {#web-prerequisites}
+# 先決條件和護欄 {#web-prerequisites}
 
 若要存取及編寫 [!DNL Journey Optimizer] 使用者介面，請遵循下列必要條件：
 
@@ -21,6 +22,13 @@ ht-degree: 11%
 * 若要存取 [!DNL Journey Optimizer] 網頁設計工具中，您必須安裝特定的Google Chrome瀏覽器擴充功能。 [了解更多](#visual-authoring-prerequesites)
 
 * 若要正確傳送網頁體驗，請務必詳細定義Adobe Experience Platform設定 [此處](#delivery-prerequisites).
+
+## 警告
+
+目前在 [!DNL Journey Optimizer] 您只能使用 **行銷活動**. [了解更多](../campaigns/create-campaign.md#configure)
+
+
+[!DNL Journey Optimizer] 網頁行銷活動會鎖定之前未參與其他管道的新設定檔。 這將增加您可接合的配置檔案總數，如果您購買的可接合配置檔案的合約數量超過，則可能會造成成本影響。 每個套件的授權量度會列在 [Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html) 頁面。
 
 ## 實作必要條件 {#implementation-prerequisites}
 
@@ -123,6 +131,3 @@ Adobe Experience Cloud Visual Editing Helper現在會在 [!DNL Journey Optimizer
 Branded domains for assets
 
 When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content. [Learn more](web-delegated-subdomains.md)-->
-
-
-
