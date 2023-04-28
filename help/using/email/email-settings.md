@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 設定，電子郵件，配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 68a1a36c06b430d3fbb614ca24cc1e87399e1f38
+source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1779'
 ht-degree: 8%
 
 ---
@@ -263,3 +263,7 @@ ht-degree: 8%
 您可以動態預覽產生的追蹤URL。 每次添加、編輯或刪除參數時，預覽都會自動更新。
 
 ![](assets/preset-url-tracking-preview.png)
+
+>[!NOTE]
+>
+>您也可以將動態個人化追蹤參數新增至電子郵件內容中顯示的連結，但無法在表面層級進行。 使用電子郵件設計工具編寫郵件時，您需要執行此操作。 [了解更多](message-tracking.md#url-tracking)
