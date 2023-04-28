@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 126d3afcca9801cddeff451fac60f469905f3b85
 workflow-type: tm+mt
-source-wordcount: '2711'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 94%
 * 已新增附註，以指定如果對歷程訊息中使用的優惠方案決策進行變更，您需要取消發佈歷程並重新發佈。 [閱讀全文](../building-journeys/publishing-the-journey.md)
 * 在決策管理中已釐清如何確保限定計數器中正確記錄事件的說明 **限定事件** 區段。 [閱讀全文](../offers/offer-library/add-constraints.md#capping-event)
 * 已將新區段新增至 **更改執行地址** 頁面。 它指定可以覆寫歷程進階參數中全域設定的執行欄位，但電子郵件地址覆寫僅應用於特定使用案例。 在大部分時間中，**執行欄位**&#x200B;中定義為主要電子郵件的值才是應該使用的值。[閱讀全文](../configuration/primary-email-addresses.md#journey-parameters)
-* 此 **URL追蹤** 區段現在提供可在電子郵件通道表面中為URL追蹤設定的所有內容屬性的清單和說明。 [閱讀全文](../offers/offer-library/add-constraints.md)
+* 此 **URL追蹤** 區段現在提供可在電子郵件通道表面中為URL追蹤設定的所有內容屬性的清單和說明。 [閱讀全文](../email/email-settings.md#url-tracking)
 
 ## 2023 年 3 月 {#march-2023}
 
