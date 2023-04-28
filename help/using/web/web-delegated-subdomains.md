@@ -8,9 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: web，子網域，設定
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
+source-git-commit: 2d11233f1cf1fee5f500d233c3fcacf03b7e5c10
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -29,8 +30,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
->title="設定預設子網域"
->abstract="您可以建立數個Web子網域，但只會使用預設子網域。 您可以變更預設的Web子網域，但一次只能使用一個子網域。"
+>title="設定Web子網域"
+>abstract="從委派給Adobe的子網域清單中選取子網域。 您可以將此Web子網域設為預設子網域，但一次只能使用一個預設子網域。"
 
 撰寫網頁體驗時，如果您新增來自 [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) 程式庫，您必須設定將用來發佈此內容的子網域。
 
@@ -67,11 +68,15 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >僅 **預設** 會使用子網域。 您可以變更預設的Web子網域，但一次只能使用一個子網域。
+   >僅 **預設** 會使用子網域。
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**. 子網域會取得 **[!UICONTROL 成功]** 狀態。 它已準備好用於您的網頁體驗。
 
 1. 此 **[!UICONTROL 預設]** 徽章會顯示在目前作為預設的子網域旁。 若要變更預設子網域，請選取 **[!UICONTROL 設為預設值]** 從 **[!UICONTROL 更多動作]** 按鈕（位於所需子網域旁）。
+
+   >[!NOTE]
+   >
+   >您可以變更預設的Web子網域，但一次只能使用一個子網域。
 
    ![](assets/web-subdomain-default.png)
 
@@ -80,4 +85,3 @@ ht-degree: 0%
 1. 您只能刪除 **[!UICONTROL 失敗]** 子網域來清除清單。 若要這麼做，請選取 **[!UICONTROL 刪除]** 從 **[!UICONTROL 更多動作]** 按鈕（位於所需子網域旁）。
 
 <!--You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
-
