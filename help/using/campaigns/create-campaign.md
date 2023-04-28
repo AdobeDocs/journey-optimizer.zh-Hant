@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 建立，優化程式，促銷活動，表面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: bf058b13508c7ad644a3b1f63e9208740abf8602
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '753'
 ht-degree: 22%
 
 ---
@@ -27,7 +27,6 @@ ht-degree: 22%
 
 
 若要建立新促銷活動，請存取 **[!UICONTROL 行銷活動]** ，然後按一下 **[!UICONTROL 建立行銷活動]**. 您也可以複製現有的即時促銷活動以建立新促銷活動。 [了解更多](modify-stop-campaign.md#duplicate)
-
 
 ## 選擇促銷活動類型和渠道 {#campaigntype}
 
@@ -63,14 +62,13 @@ ht-degree: 22%
 
 ## 定義促銷活動屬性 {#create}
 
-1. 指定促銷活動的標題和說明。
+1. 在 **[!UICONTROL 屬性]** 區段，指定促銷活動的名稱和說明。
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
 1. 若要將自訂或核心資料使用量標籤指派給促銷活動，請按一下 **[!UICONTROL 管理存取]** 按鈕。 [進一步了解對象級訪問控制(OLA)](../administration/object-based-access.md)
 
-
-## 建立訊息 {#content}
+## 建立訊息並設定追蹤 {#content}
 
 在 **[!UICONTROL 動作]** 區段中，建立要與促銷活動一起傳送的訊息。
 
@@ -121,21 +119,21 @@ ht-degree: 22%
 
 ## 定義對象 {#audience}
 
-1. 定義要鎖定的對象。 若要這麼做，請按一下 **[!UICONTROL 選取對象]** 按鈕以顯示可用的Adobe Experience Platform區段清單。 [深入了解區段](../segment/about-segments.md)
+按一下 **[!UICONTROL 選取對象]** 按鈕以顯示可用的Adobe Experience Platform區段清單。 [深入了解區段](../segment/about-segments.md)
 
-   >[!NOTE]
-   >
-   >針對API觸發的促銷活動，對象必須透過API呼叫來設定。 [了解更多](api-triggered-campaigns.md)
+>[!NOTE]
+>
+>針對API觸發的促銷活動，對象必須透過API呼叫來設定。 [了解更多](api-triggered-campaigns.md)
 
-   在 **[!UICONTROL 身分命名空間]** 欄位中，選擇要使用的命名空間，以識別所選區段中的個人。 [進一步了解命名空間](../event/about-creating.md#select-the-namespace)
+在 **[!UICONTROL 身分命名空間]** 欄位中，選擇要使用的命名空間，以識別所選區段中的個人。 [進一步了解命名空間](../event/about-creating.md#select-the-namespace)
 
-   ![](assets/create-campaign-namespace.png)
+![](assets/create-campaign-namespace.png)
 
-   >[!NOTE]
-   >
-   >屬於某個區段的個人若未在其不同身分之間選取身分（命名空間），該促銷活動將不會鎖定該目標。
+>[!NOTE]
+>
+>屬於某個區段的個人若未在其不同身分之間選取身分（命名空間），該促銷活動將不會鎖定該目標。
 
-   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+<!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## 排程促銷活動 {#schedule}
 
