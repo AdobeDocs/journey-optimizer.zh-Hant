@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 設定，電子郵件，配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 68a1a36c06b430d3fbb614ca24cc1e87399e1f38
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 8%
@@ -224,24 +224,11 @@ ht-degree: 8%
 
 本節中定義的參數會附加至電子郵件訊息內容中所包含的URL結尾。 接著，您就可以在網頁分析工具(例如Adobe Analytics或Google Analytics)中擷取這些參數，並建立各種效能報表。
 
-<!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
-
 您可以使用 **[!UICONTROL 新增參數]** 按鈕。
 
 ![](assets/preset-url-tracking.png)
 
 若要設定URL追蹤參數，您可以直接在 **[!UICONTROL 名稱]** 和 **[!UICONTROL 值]** 欄位。
-
-<!--You can also choose from a list of predefined values by navigating to the following objects:
-* Journey attributes: **Source id**, **Source name**, **Source version id**
-* Action attributes: **Action id**, **Action name**
-* Offer decisioning attributes: **Offer id**, **Offer name**
-
-![](assets/preset-url-tracking-source.png)
-
->[!CAUTION]
->
->Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
 您也可以編輯 **[!UICONTROL 值]** 欄位使用 [運算式編輯器](../personalization/personalization-build-expressions.md). 按一下版本圖示以開啟編輯器。 從那裡，您可以選取可用的內容屬性及/或直接編輯文字。
 
