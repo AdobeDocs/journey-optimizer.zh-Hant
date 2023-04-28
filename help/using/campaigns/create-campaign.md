@@ -28,7 +28,6 @@ ht-degree: 22%
 
 若要建立新促銷活動，請存取 **[!UICONTROL 行銷活動]** ，然後按一下 **[!UICONTROL 建立行銷活動]**. 您也可以複製現有的即時促銷活動以建立新促銷活動。 [了解更多](modify-stop-campaign.md#duplicate)
 
-![](assets/create-campaign.png)
 
 ## 選擇促銷活動類型和渠道 {#campaigntype}
 
@@ -70,7 +69,6 @@ ht-degree: 22%
 
 1. 若要將自訂或核心資料使用量標籤指派給促銷活動，請按一下 **[!UICONTROL 管理存取]** 按鈕。 [進一步了解對象級訪問控制(OLA)](../administration/object-based-access.md)
 
-   ![](assets/create-campaign-properties.png)
 
 ## 建立訊息 {#content}
 
