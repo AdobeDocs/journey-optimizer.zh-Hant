@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 6%
+source-wordcount: '885'
+ht-degree: 5%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->行銷類型的電子郵件訊息必須包含 [退出連結](../privacy/opt-out.md#opt-out-management)，這對交易式訊息並非必要。 訊息類別(**[!UICONTROL 行銷]** 或 **[!UICONTROL 交易]**) [通道表面](../configuration/channel-surfaces.md#email-type) （即訊息預設集）。
+>行銷類型的電子郵件訊息必須包含 [退出連結](../privacy/opt-out.md#opt-out-management)，這對交易式訊息並非必要。 訊息類別(**[!UICONTROL 行銷]** 或 **[!UICONTROL 交易]**) [通道表面](../configuration/channel-surfaces.md#email-type) 建立訊息時。
 
 ## 連結至鏡像頁面 {#mirror-page}
 
@@ -132,3 +132,29 @@ ht-degree: 6%
    * **[!UICONTROL 從不]**:切勿啟用此URL的追蹤。 <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 可在 [即時報表](../reports/live-report.md) 和 [全域報表](../reports/global-report.md).
+
+## URL追蹤 {#url-tracking}
+
+通常 [URL追蹤](email-settings.md#url-tracking) 在曲面層管理，但不支援配置檔案屬性。 目前唯一的做法是 [個人化URL](../personalization/personalization-syntax.md#perso-urls) 在電子郵件設計工具中。
+
+若要新增個人化URL追蹤參數至您的連結，請遵循下列步驟。
+
+1. 選取連結並按一下 **[!UICONTROL 插入連結]** 中。
+
+1. 選取個人化圖示。 它僅適用於以下類型的連結： **外部連結**, **取消訂閱連結** 和 **退出**.
+
+   ![](assets/message-tracking-insert-link-perso.png)
+
+1. 新增URL追蹤參數，並從運算式編輯器中選取您選取的設定檔屬性。
+
+   ![](assets/message-tracking-perso-parameter.png)
+
+1. 儲存您的變更。
+
+1. 針對您要新增此追蹤參數的每個連結，重複上述步驟。
+
+現在，當電子郵件傳出時，此參數會自動附加至URL的結尾。 然後，您可以在網頁分析工具或效能報表中擷取此參數。
+
+>[!NOTE]
+>
+>若要驗證最終URL，您可以 [傳送校樣](preview.md#send-proofs) 收到校樣後，按一下電子郵件內容中的連結。 URL應會顯示追蹤參數。 在上述範例中，最終URL將是：https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number
