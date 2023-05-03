@@ -2,37 +2,37 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 開始使用簡訊
-description: 了解如何在Journey Optimizer中建立簡訊
+description: 了解如何在 Journey Optimizer 建立簡訊
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
 # 開始使用簡訊 {#get-started-sms}
 
-使用 [!DNL Journey Optimizer] 在客戶的行動裝置上傳送簡訊給客戶。 您可以從SMS編輯器建立、個人化及預覽文字格式的訊息。
+使用 [!DNL Journey Optimizer] 在客戶的行動裝置傳送簡訊給客戶。 您可以從簡訊編輯器建立、個人化及預覽文字格式的訊息。
 
-可建立SMS傳遞：
+可建立簡訊傳遞：
 
-* 在 **歷程**:在歷程中新增SMS活動並定義基本設定後，請使用 **[!UICONTROL 動作：簡訊]** 右窗格，以建立SMS訊息的內容。
+* 在&#x200B;**歷程**&#x200B;中：在歷程新增簡訊活動並定義基本設定後，使用&#x200B;**[!UICONTROL 動作：簡訊]**&#x200B;右側窗格，建立簡訊訊息的內容。
 
-   如需如何設定歷程的詳細資訊，請參閱 [頁面](../building-journeys/journey-gs.md).
+   請參閱本[頁面](../building-journeys/journey-gs.md)，深入了解如何設定歷程。
 
-* 在 **行銷活動**:建立促銷活動後，請選取SMS作為動作並定義基本設定。
+* 在&#x200B;**行銷活動**&#x200B;中：建立行銷活動後，請選取簡訊作為動作並定義基本設定。
 
-   如需如何設定促銷活動的詳細資訊，請參閱 [頁面](../campaigns/create-campaign.md#configure).
+   請參閱本[頁面](../campaigns/create-campaign.md#configure)，深入了解如何設定您的行銷活動。
 
 
 >[!IMPORTANT]
 >
->如果這是您第一次建立SMS，請確定已設定SMS通道。 [了解更多](sms-configuration.md)。
+>如果這是您第一次建立簡訊，請確定已設定簡訊通道。 [了解更多](sms-configuration.md)。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -71,7 +71,7 @@ ht-degree: 23%
 </td>
 </tr></table>
 
-## 作法影片
+## 操作說明影片
 
 瞭解如何設定、編寫並將簡訊納入您的客戶歷程中。
 
