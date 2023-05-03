@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 開始使用行銷活動
-description: 進一步了解Journey Optimizer中的行銷活動
+description: 深入了解 Journey Optimizer 的行銷活動
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 行銷活動，如何，開始， optimizer
+keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
->title="Campaigns"
+>title="行銷活動"
 >abstract="建立行銷活動以跨不同管道向特定區段提供一次性內容。建立您的行銷活動之前，請確保您已將管道表面 (即訊息預設集) 和 Adobe Experience Platform 區段準備就緒可供使用。"
 
-使用 Journey Optimizer 行銷活動，透過各種管道將一次性內容傳遞至特定區段。 使用歷程時，動作會依序執行。 透過行銷活動，可同時執行動作 (立即執行或根據指定的排程執行)。
+使用 Journey Optimizer 行銷活動，透過各種管道將一次性內容傳遞至特定區段。 當使用歷程時，動作會依序執行。 透過行銷活動，可同時執行動作 (立即執行或根據指定的排程執行)。
 
-您可以建立兩種類型的促銷活動：
+您可建立兩種類型的行銷活動：
 
-* **已排程的行銷活動** 允許針對促銷優惠方案、參與促銷活動、公告、法律通知或政策更新等行銷使用案例進行簡單的臨機批次通訊。
-* **API觸發的促銷活動** 允許使用REST API（密碼重設、購物車放棄等）提供簡單的交易/操作訊息，其中需要使用設定檔屬性和裝載的內容資料來進行個人化。
+* **已排程的 Campaign**&#x200B;允許針對促銷優惠方案、參與行銷活動、公告、法律注意事項知或原則更新等行銷案例進行簡單的臨時批次通訊。
+* **API 觸發的行銷活動** 允許使用 REST API 進行簡單的異動/操作訊息 (密碼重設、購物車放棄等)，其中可能需要使用設定檔屬性和承載的內容資料來進行個人化設定。
 
-建立促銷活動的主要步驟如下：
+建立行銷活動的主要步驟如下：
 
 ![](assets/create-campaign-process.png)
 
@@ -38,37 +38,37 @@ ht-degree: 20%
 
 ## 開始之前 {#campaign-prerequisites}
 
-開始在Journey Optimizer中建立第一個促銷活動之前，請先檢查下列必要條件：
+開始在 Journey Optimizer 建立第一個行銷活動之前，請先檢查下列必要條件：
 
-1. **您需要適當的權限**. 促銷活動僅適用於可存取與促銷活動相關之促銷活動的使用者 **[!UICONTROL 產品設定檔]** 例如促銷活動管理員、促銷活動核准者、促銷活動管理員和/或促銷活動檢視器。
+1. **您需要適當的權限**。行銷活動僅適用於具有行銷活動相關&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;存取權的使用者，例如 Campaign 管理員、Campaign 核准者、Campaign 主管和/或 Campaign 檢視者。
 
-   如果您無法存取行銷活動，則必須延長您的權限。 如果您有權存取 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} 請依照下列步驟，為貴組織操作。 否則請聯絡您的Journey Optimizer管理員。
+   如果您無法存取行銷活動，則必須延長您的權限。 如果您有權存取貴組織的 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}，請依照下列步驟操作。否則請聯絡您的 Journey Optimizer 管理員。
 
-   +++了解如何指派campaign權限
+   +++了解如何指派行銷活動權限
 
-   若要指派對應的 **[!UICONTROL 產品設定檔]** 對您的使用者：
+   若要將對應的&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;指派給使用者：
 
-   1. 從 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}，請選取 [!DNL Adobe Experience Platform] 產品。
+   1. 從 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}，選取 [!DNL Adobe Experience Platform] 產品。
 
-   1. 瀏覽至 **[!UICONTROL 產品設定檔]** 索引標籤，選取其中一個內建促銷活動相關項目 **[!UICONTROL 產品設定檔]**:促銷活動管理員、促銷活動核准者、促銷活動管理員或促銷活動檢視器。
+   1. 瀏覽至&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;索引標籤，選取與內建行銷活動相關的&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;之一：Campaign 管理員、Campaign 核准者、Campaign 經理或 Campaign 檢視者。
 
-      如需Journey Optimizer促銷活動的詳細資訊 **[!UICONTROL 產品設定檔]** 和 **[!UICONTROL 權限]**, [請參閱本頁面](../administration/ootb-product-profiles.md).
+      深入了解 Journey Optimizer 行銷活動&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;及&#x200B;**[!UICONTROL 權限]**，[請參閱本頁面](../administration/ootb-product-profiles.md)。
 
       ![](assets/do-not-localize/admin_1.png)
 
-   1. 按一下 **[!UICONTROL 新增使用者]** 指派給您所選取的使用者 **[!UICONTROL 產品設定檔]**.
+   1. 按一下&#x200B;**[!UICONTROL 新增使用者]**，將選定的&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;指派給您的使用者。
 
       ![](assets/do-not-localize/admin_2.png)
 
-   1. 輸入您的使用者名稱、群組或電子郵件地址，然後按一下 **[!UICONTROL 儲存]**.
-   您的使用者現在可以存取 **[!UICONTROL 行銷活動]**.
+   1. 輸入您的使用者名稱、群組或電子郵件地址，然後按一下&#x200B;**[!UICONTROL 儲存]**。
+   您的使用者現在可以存取&#x200B;**[!UICONTROL 行銷互動]**。
 
 +++
 
-1. **您需要對象**. 建立行銷活動之前必須有可用的受眾區段。 深入了解受眾建立 [在本頁](../segment/about-segments.md).
-1. **需要通道表面**. 要能夠選取通道，必須建立並可用相應的通道曲面（即預設）。 進一步了解通道曲面 [在本頁](../configuration/channel-surfaces.md).
+1. **您需要對象**。建立行銷活動之前必須有可用的對象區段。[在本頁](../segment/about-segments.md)深入了解對象建立。
+1. **需要管道表面**。若要選取管道，您必須建立相對應的管道表面 (即預設)，使其可供使用。[在本頁](../configuration/channel-surfaces.md)深入了解管道表面。
 
-## 作法影片 {#video}
+## 操作說明影片 {#video}
 
 了解如何建立您的第一個行銷活動。
 
