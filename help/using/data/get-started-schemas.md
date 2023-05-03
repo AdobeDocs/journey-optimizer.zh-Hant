@@ -1,42 +1,42 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 開始使用結構
-description: 了解如何使用Adobe Experience Platform的Adobe Journey Optimizer結構
+title: 開始使用結構描述
+description: 了解如何在 Adobe Journey Optimizer 使用 Adobe Experience Platform 結構描述
 feature: Schemas
 role: User
 level: Beginner
-keywords: 結構，平台，資料，結構
+keywords: 結構描述、平台、資料、結構
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '332'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
-# 開始使用結構 {#schemas-gs}
+# 開始使用結構描述 {#schemas-gs}
 
-結構是描述Experience Platform中資料的標準方式，可讓所有符合結構的資料在組織內重複使用，而不會產生衝突，甚至可在多個組織之間共用。
+結構描述是 Experience Platform 描述資料的標準方式，允許所有符合結構描述的資料在整個組織重複使用而不會產生衝突，甚至可在多個組織之間共用。
 
-➡️ [了解如何在此影片中建立和設定結構](#video-schema) （影片）
+➡️ [了解如何在此影片建立和設定結構描述](#video-schema) (影片)
 
 結構是一組規則，可代表及驗證資料的結構和格式。 從高層面來說，結構提供了真實對象 (如人) 的抽象定義，並概述應包含在該對象的每個執行個體中的資料 (如名字、姓氏、生日等)。  
 
-了解如何在 [本檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant){target="_blank"}
+在[本文件](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant){target="_blank"}了解如何建立結構描述
 
-此 **結構** 工作區 [!DNL Adobe Journey Optimizer] 使用者介面可讓您管理Experience Data Model(XDM)資源，包括結構、類別、結構欄位群組和資料類型。 您可以檢視並探索Adobe提供的核心資源，並為組織建立自訂資源和結構。
+此&#x200B;**結構描述**&#x200B;工作區[!DNL Adobe Journey Optimizer]使用者介面可讓您管理 Experience Data Model (XDM) 資源，包括結構描述、類別、結構描述欄位群組以及資料類型。 您可以檢視並探索 Adobe 提供的核心資源，並為貴組織建立自訂資源和結構描述。
 
 ![](assets/schemas-home.png)
 
-了解如何在 [本檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target="_blank"}
+在[本文件](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant){target="_blank"}了解如何使用結構描述使用者介面
 
-使用結構編輯器建立結構的逐步檔案位於 [本頁](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant){target="_blank"}
+請在[本頁面](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant){target="_blank"}參閱使用結構描述編輯器建立結構描述的逐步文件
 
-若要檢視每個結構的欄位和屬性完整清單，請參閱 [Journey Optimizer結構字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}.
+若要檢視每個結構描述的欄位與屬性完整清單，請參閱 [Journey Optimizer 結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}。
 
 
-## 作法影片{#video-schema}
+## 操作說明影片{#video-schema}
 
 瞭解如何建立結構、新增欄位群組、建立及設定自訂欄位群組。
 
@@ -44,8 +44,8 @@ ht-degree: 29%
 
 **另請參閱**
 
-* [建立結構、資料集和內嵌資料，以在Journey Optimizer中新增測試設定檔](../segment/creating-test-profiles.md)
-* [XDM系統概觀](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}
-* [資料模型最佳實務](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html){target="_blank"}
-* [使用結構註冊表API建立結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html){target="_blank"}
-* [使用結構編輯器定義兩個結構之間的關係](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html){target="_blank"}
+* [建立結構描述、資料集及擷取資料以在 Journey Optimizer 新增測試設定檔](../segment/creating-test-profiles.md)
+* [XDM 系統概觀](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}
+* [資料模式的最佳做法](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=zh-Hant){target="_blank"}
+* [使用結構描述登錄 API 建立結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=zh-Hant){target="_blank"}
+* [使用結構描述編輯器定義兩個結構描述之間的關係](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=zh-Hant){target="_blank"}
