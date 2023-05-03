@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 8%
+ht-degree: 14%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
 >title="建置頁面符合規則"
->abstract="頁面比對規則可讓您鎖定符合相同規則的多個URL，例如，如果您想要將變更套用至整個網站的主圖橫幅，或新增顯示在網站所有產品頁面上的頂端影像。"
+>abstract="頁面符合規則可以找出符合相同規則的多個 URL - 例如，如果您想要將變更套用到整個網站的主要橫幅，或新增顯示在網站所有產品頁面的頂端影像。"
 
 若要開始透過促銷活動建立您的網頁體驗，請遵循下列步驟。
 

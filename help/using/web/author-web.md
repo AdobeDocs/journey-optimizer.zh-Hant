@@ -9,7 +9,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1623'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
->title="將元件新增至您的網頁"
+>title="將元件新增到您的網頁"
 >abstract="您可以將許多元件新增到您的網頁並根據需要進行編輯。"
 
 1. 從 **[!UICONTROL 元件]** 窗格，選擇項目。 您可以將下列元件新增至您的網頁，並視需要加以編輯：

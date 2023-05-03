@@ -12,7 +12,7 @@ exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
 source-git-commit: 2d11233f1cf1fee5f500d233c3fcacf03b7e5c10
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 0%
+ht-degree: 27%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_header"
->title="委派Web子網域"
->abstract="您將設定子網域以供Web頻道使用。 從已委派給Adobe的子網域中選擇。"
+>title="委派網頁子網域"
+>abstract="您將設定您的子網域以供網頁管道使用。從已委派給 Adobe 的子網域進行選擇。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
->title="委派Web子網域"
->abstract="如果您將來自Adobe Experience Manager Assets Essentials的內容新增至您的Web體驗，您必須設定將用來發佈此內容的子網域。 在已委派給Adobe的子網域中選取。"
+>title="委派網頁子網域"
+>abstract="如果您將來自 Adobe Experience Manager Assets Essentials 的內容新增到您的網頁體驗中，則必須設定將用來發佈此內容的子網域。在已委派給 Adobe 的子網域中選取。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
->title="設定Web子網域"
->abstract="從委派給Adobe的子網域清單中選取子網域。 您可以將此Web子網域設為預設子網域，但一次只能使用一個預設子網域。"
+>title="設定網頁子網域"
+>abstract="從已委派給 Adobe 的子網域清單中選取一個子網域。您可以將此網頁子網域設定為預設子網域，但一次只能使用一個預設子網域。"
 
 撰寫網頁體驗時，如果您新增來自 [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) 程式庫，您必須設定將用來發佈此內容的子網域。
 
