@@ -2,40 +2,40 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 開始使用登陸頁面
-description: 了解Journey Optimizer中的登錄頁面
+description: 了解 Journey Optimizer 的登陸頁面
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-keywords: 登陸，登陸頁面，開始，開始
+keywords: 登陸、登陸頁面、開始、開始
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
 # 開始使用登陸頁面 {#get-sarted-lp}
 
-登錄頁面是獨立網頁，從電子郵件、網站、廣告或任何其他數位位置點進後，會將使用者導向至該網頁。
+登陸頁面是使用者從電子郵件、網站、廣告或任何其他數位位置按一下後被導向到的獨立網頁。
 
-[!DNL Journey Optimizer] 可讓您建立和設計登錄頁面，將您的使用者引導至線上表單，讓他們可以選擇加入或選擇退出，或訂閱電子報等特定服務。
+[!DNL Journey Optimizer] 可讓您建立和設計登陸頁面，將使用者引導至線上表單，讓他們可以選擇加入或選擇退出，或訂閱電子報等特定服務。
 
-➡️ [透過此影片進一步了解設定訂閱和建立登錄頁面](#video)
+➡️ [透過此影片深入了解設定訂閱和建立登陸頁面](#video)
 
-* 運用 [!DNL Journey Optimizer] 輕鬆構建內容設計功能 **回應式登錄頁面**.
-* 設定 **加入和退出流程** 快速無縫。
-* 建立訂閱清單以讓使用者 **訂閱服務**. [閱讀全文](lp-use-cases.md#subscription-to-a-service)
-* 將 **取消訂閱的功能** 接收你的通信。 [閱讀全文](lp-use-cases.md#opt-out)
-* 傳送 **確認電子郵件** 選擇加入或選擇退出時。 [閱讀全文](lp-use-cases.md#send-confirmation-email)
+* 利用[!DNL Journey Optimizer]內容設計功能輕鬆建立&#x200B;**回應式登陸頁面**。
+* 快速無縫設定&#x200B;**選擇加入和選擇退出流程**。
+* 建立訂閱清單，讓使用者能夠&#x200B;**訂閱服務**。[閱讀全文](lp-use-cases.md#subscription-to-a-service)
+* 為您的收件者提供&#x200B;**取消訂閱功能**，以取消訂閱接收您的通訊。[閱讀全文](lp-use-cases.md#opt-out)
+* 選擇加入或選擇退出時，傳送&#x200B;**確認電子郵件**。[閱讀全文](lp-use-cases.md#send-confirmation-email)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-lp.md">
 <img alt="銷售機會" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
-<div><a href="create-lp.md"><strong>建立登錄頁面</strong>
+<div><a href="create-lp.md"><strong>建立登陸頁面</strong>
 </div>
 <p>
 </td>
@@ -52,7 +52,7 @@ ht-degree: 10%
 <img alt="驗證" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
-<a href="design-lp.md"><strong>設計登錄頁面</strong></a>
+<a href="design-lp.md"><strong>設計登陸頁面</strong></a>
 </div>
 <p>
 </td>
@@ -67,8 +67,8 @@ ht-degree: 10%
 </td>
 </tr></table>
 
-## 作法影片{#video}
+## 操作說明影片{#video}
 
-以下影片說明如何建立訂閱清單、設定登錄頁面以提供服務的訂閱或取消訂閱、將（取消）訂閱選項整合至訊息，以及設定相關歷程。
+以下影片說明如何建立訂閱清單、設定登陸頁面以提供服務的訂閱或取消訂閱、將 (取消) 訂閱選項整合至訊息以及設定相關歷程。
 
 >[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
