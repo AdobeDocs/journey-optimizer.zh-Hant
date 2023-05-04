@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -230,10 +230,10 @@ ht-degree: 99%
    + [設定直接郵件](using/direct-mail/direct-mail-configuration.md)
 + 網路頻道{#web}
    + [開始使用網路頻道](using/web/get-started-web.md)
-   + [網路通道必要條件](using/web/web-prerequisites.md)
+   + [網路頻道先決條件](using/web/web-prerequisites.md)
    + [建立網站體驗](using/web/create-web.md)
    + [製作網頁](using/web/author-web.md)
-   + [設定Web子網域](using/web/web-delegated-subdomains.md)
+   + [設定網路子網域](using/web/web-delegated-subdomains.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
    + [建立登陸頁面](using/landing-pages/create-lp.md)
@@ -357,7 +357,7 @@ ht-degree: 99%
       + [開始使用資料收集](using/offers/data-collection/data-collection.md)
       + [建立資料集以收集事件](using/offers/data-collection/create-dataset.md)
       + [設定事件擷取](using/offers/data-collection/schema-requirement.md)
-   + 建立決定管理報告 {#create-reports}
+   + 建立決策管理報告 {#create-reports}
       + [使用決策管理事件](using/offers/reports/get-started-events.md)
       + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
    + 匯出優惠目錄 {#export-catalog}
