@@ -7,12 +7,12 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: 電子郵件，開始，建立，預覽
+keywords: 電子郵件、開始、建立、預覽
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: ce6dc6eec59ad61bec2c00e811f6f6e006eb20da
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 17%
 >
 >如果這是您第一次建立電子郵件，請確定已設定電子郵件通道。 [了解更多](email-settings.md)
 
-使用 [!DNL Journey Optimizer] 傳送電子郵件訊息給客戶。 您可以在電子郵件設計工具中建立、個人化和預覽訊息。
+使用 [!DNL Journey Optimizer] 傳送電子郵件訊息給客戶。 您可以在電子郵件設計工具建立、個人化以及預覽訊息。
 
-可以建立電子郵件傳遞：
+可建立的電子郵件傳遞：
 
-* 在 **歷程**:新增 **[!UICONTROL 電子郵件]** 活動至您的歷程，並定義基本設定，請使用 **[!UICONTROL 動作：電子郵件]** 右窗格，為訊息建立內容。
+* 在&#x200B;**歷程**&#x200B;中：將&#x200B;**[!UICONTROL 電子郵件]**&#x200B;活動新增至您的歷程，並定義基本設定，使用&#x200B;**[!UICONTROL 動作：電子郵件]**&#x200B;右側窗格建立訊息內容。
 
-   如需如何設定歷程的詳細資訊，請參閱 [頁面](../building-journeys/journey-gs.md).
+   請參閱本[頁面](../building-journeys/journey-gs.md)，深入了解如何設定歷程。
 
-* 在 **行銷活動**:建立促銷活動後，請選取 **[!UICONTROL 電子郵件]** 作為動作並定義基本設定。
+* 在&#x200B;**行銷活動**&#x200B;中：一旦建立行銷活動，請選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;作為動作並定義基本設定。
 
-   如需如何設定促銷活動的詳細資訊，請參閱 [頁面](../campaigns/create-campaign.md#configure).
+   請參閱本[頁面](../campaigns/create-campaign.md#configure)，深入了解如何設定行銷活動。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

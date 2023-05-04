@@ -1,6 +1,6 @@
 ---
 title: 使用決策管理事件
-description: 了解如何在Adobe Experience Platform中建立決策管理報表。
+description: 了解如何在 Adobe Experience Platform 建立決策管理報吿。
 feature: Offers
 topic: Integrations
 role: User
@@ -8,14 +8,14 @@ level: Beginner
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 21%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 開始使用決定管理事件 {#monitor-offer-events}
 
-每次決策管理人員針對指定的設定檔進行決策時，與這些事件相關的資訊都會自動傳送至Adobe Experience Platform。
+每當決策管理為特定設定檔做出決定時，這些事件的相關資訊就會自動傳送至 Adobe Experience Platform。
 
 這可讓您獲得決策的深入分析，例如，了解哪個選件已呈現給指定的設定檔。 您可以匯出這些資料，將其分析至您自己的報表系統，或運用Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant) 與其他工具結合，以增強分析和報告用途。
 
@@ -36,11 +36,11 @@ ht-degree: 21%
 
 ## 存取資料集 {#access-datasets}
 
-包含Decision management事件的資料集可從Adobe Experience Platform存取 **[!UICONTROL 資料集]** 功能表。 每個執行個體佈建時會自動建立一個資料集。
+包含決策管理事件的資料集可從 Adobe Experience Platform **[!UICONTROL 資料集]**&#x200B;選單存取。每個執行個體佈建時會自動建立一個資料集。
 
 ![](../assets/events-datasets-list.png)
 
-這些資料集以 **[!UICONTROL ODE DecisionEvents]** 結構，包含從決策管理傳送資訊至Adobe Experience Platform所需的所有XDM欄位。
+這些資料集以 **[!UICONTROL ODE DecisionEvents]** 結構描述為基礎，其中包含將資訊從決策管理傳送到 Adobe Experience Platform 所需的所有 XDM 欄位。
 
 >[!NOTE]
 >

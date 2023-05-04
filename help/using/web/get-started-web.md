@@ -1,6 +1,6 @@
 ---
 title: 開始使用網路頻道
-description: 了解Journey Optimizer中的網頁頻道
+description: 了解 Journey Optimizer 的網路頻道
 feature: Web Channel
 topic: Content Management
 role: User
@@ -8,20 +8,20 @@ level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 開始使用網路頻道 {#get-sarted-web}
 
-[!DNL Journey Optimizer] 可讓您以視覺化方式撰寫體驗，並提供個人化的網路體驗給客戶。
+[!DNL Journey Optimizer] 可讓您以視覺化方式創作並為客戶提供個人化的網路體驗。
 
-透過直覺式的視覺介面，此功能可讓您輕鬆修改Web屬性，以便試驗、最佳化和個人化您的使用者行銷活動。
+透過直覺式的視覺介面，此功能可讓您輕鬆修改網站屬性，以便試驗、最佳化和個人化您的終端使用者 Campaign。
 
-如果您已使用傳出通道（例如電子郵件、簡訊或推播通知），您現在可以運用傳入Web通道，提供跨越所有通道的真正個人化體驗。
+如果您已使用輸出通道 (例如電子郵件、簡訊或推播通知)，您現在可以善用輸入網路頻道，提供跨越所有通道的真正個人化體驗。
 
-建立促銷活動後，請選取 **Web** 作為動作並定義基本設定。 如需如何設定促銷活動的詳細資訊，請參閱 [頁面](../campaigns/create-campaign.md#configure).
+建立促銷活動後，請選取 **Web** 作為動作並定義基本設定。 請參閱本[頁面](../campaigns/create-campaign.md#configure)，深入了解如何設定您的行銷活動。
 
 >[!NOTE]
 >

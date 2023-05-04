@@ -7,26 +7,26 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 電子郵件，設計，庫存，資產
+keywords: 電子郵件、設計、素材、資產
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 開始使用電子郵件設計 {#get-started-content-design}
 
-您可以在 [!DNL Journey Optimizer] 或利用內容設計功能：
+您可在 [!DNL Journey Optimizer] 匯入現有內容或善用內容設計功能：
 
-* 使用 [!DNL Journey Optimizer] **電子郵件設計功能** 來設計或匯入回應式電子郵件。 [了解更多](content-from-scratch.md)
+* 利用[!DNL Journey Optimizer] **電子郵件設計功能**&#x200B;來建立或匯入回應式電子郵件。[了解更多](content-from-scratch.md)
 
-* 利用 **Adobe Experience Manager Assets Essentials** 豐富您的電子郵件，建構並管理您自己的資產資料庫。[了解更多](assets-essentials.md)
+* 利用 **Adobe Experience Manager Assets Essentials** 豐富您的電子郵件，建立並管理您自己的資產資料庫。[了解更多](assets-essentials.md)
 
-* 查找 **Adobe Stock 相片**&#x200B;建構內容並改進電子郵件設計。[了解更多](stock.md)
+* 查找 **Adobe Stock 相片**&#x200B;建立內容並改進電子郵件設計。[了解更多](stock.md)
 
-* 根據客戶的設定檔屬性建立個人化和動態訊息，以增強客戶體驗。 深入瞭解[個人化](../personalization/personalize.md)及[動態內容](../personalization/get-started-dynamic-content.md)。
+* 根據客戶的設定檔屬性建立個人化和動態訊息，以增強客戶體驗。深入瞭解[個人化](../personalization/personalize.md)及[動態內容](../personalization/get-started-dynamic-content.md)。
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -38,33 +38,33 @@ ht-degree: 12%
 
 ## 建立電子郵件內容的關鍵步驟 {#key-steps}
 
-一旦您 [新增電子郵件](create-email.md) 至歷程或行銷活動，您可以開始建立電子郵件內容。
+一旦[新增電子郵件](create-email.md)至歷程或行銷活動，您就可以開始建立電子郵件內容。
 
-1. 在歷程或行銷活動設定畫面中，逐一瀏覽 **[!UICONTROL 編輯內容]** 螢幕存取電子郵件設計工具。 [了解更多](create-email.md#define-email-content)
+1. 在歷程或行銷活動設定畫面，透過&#x200B;**[!UICONTROL 編輯內容]**&#x200B;畫面存取電子郵件設計工具。[了解更多](create-email.md#define-email-content)
 
    ![](assets/email_designer_edit_email_body.png)
 
-1. 在電子郵件設計工具首頁上，從以下選項選擇您要如何設計電子郵件：
+1. 在電子郵件設計工具首頁，從下列選項選取您希望如何設計電子郵件：
 
-   * **從草稿開始設計您的電子郵件** 透過電子郵件設計工具的介面，並運用 [Adobe Experience Manager Assets Essentials](assets-essentials.md). 了解如何在 [本節](content-from-scratch.md).
+   * 透過電子郵件設計工具介面&#x200B;**從頭開始設計您的電子郵件**，並善用 [Adobe Experience Manager Assets Essentials](assets-essentials.md) 的影像。在[本節](content-from-scratch.md)了解如何設計您的電子郵件內容。
 
-   * **程式碼或貼上原始HTML** 直接在電子郵件設計工具中。 了解如何在 [本節](code-content.md).
+   * 直接在電子郵件設計工具&#x200B;**撰寫或貼上原始 HTML**。在[本節](code-content.md)了解如何撰寫您自己的內容。
 
       >[!NOTE]
       >
-      >在促銷活動中，您也可以選取 **[!UICONTROL 代碼編輯器]** 按鈕 **[!UICONTROL 編輯內容]** 螢幕。 [了解更多](create-email.md#define-email-content)
+      >在行銷活動中，您還可以從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;畫面選取&#x200B;**[!UICONTROL 程式碼編輯器]**&#x200B;按鈕。[了解更多](create-email.md#define-email-content)
 
-   * **匯入現有HTML內容** 或.zip資料夾。 了解如何在 [本節](existing-content.md).
+   * 從檔案或 .zip 資料夾&#x200B;**匯入現有 HTML 內容**。在[本節](existing-content.md)了解如何匯入電子郵件內容。
 
-   * **選取現有內容** 從內建或自訂範本的清單。 了解如何使用電子郵件範本 [本節](email-templates.md).
+   * 從內建或自訂範本的清單&#x200B;**選取現有內容**。在[本節](email-templates.md)了解如何使用電子郵件範本。
 
    ![](assets/email_designer_create_options.png)
 
-1. 定義並個人化您的電子郵件內容後，您就可以匯出內容以供驗證或稍後使用。 按一下 **[!UICONTROL 匯出HTML]** 若要在您的電腦上儲存zip檔案，其中會包含您的HTML和資產。
+1. 一旦定義並個人化您的電子郵件內容，您就可以匯出內容以供驗證或稍後使用。按一下&#x200B;**[!UICONTROL 匯出 HTML]** 以在您的電腦儲存包含您的 HTML 及資產的 zip 檔。
 
    ![](assets/email_designer_export.png)
 
-## 作法影片 {#video}
+## 操作說明影片 {#video}
 
 了解如何使用訊息編輯器建立電子郵件內容。
 
