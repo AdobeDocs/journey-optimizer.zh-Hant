@@ -17,13 +17,13 @@ ht-degree: 0%
 
 ## 2023 年 4 月 {#apr-2023}
 
-* 隨附的所有新功能和改善項目 [!DNL Journey Optimizer] 』23年4月的發行版本已在本檔案中詳細說明。 [閱讀全文](release-notes.md)
+* 有關 [!DNL Journey Optimizer]2023 年 4 月發行版本所有新功能和改進項目的詳情，請參閱本文件。[閱讀全文](release-notes.md)
 * Adobe Experience Manager Assets Essentials 以及 Adobe Stock 已新增至多解決方案整合頁面。 [閱讀全文](../start/ajo-integrations.md)
 * 不允許的多層級電子郵件子網域警告已移除，因為現在已支援。[閱讀全文](../configuration/delegate-subdomain.md)
-* 已新增附註，以指定如果對歷程訊息中使用的優惠方案決策進行變更，您需要取消發佈歷程並重新發佈。 [閱讀全文](../building-journeys/publishing-the-journey.md)
-* 在決策管理中已釐清如何確保限定計數器中正確記錄事件的說明 **限定事件** 區段。 [閱讀全文](../offers/offer-library/add-constraints.md#capping-event)
-* 已將新區段新增至 **更改執行地址** 頁面。 它指定可以覆寫歷程進階參數中全域設定的執行欄位，但電子郵件地址覆寫僅應用於特定使用案例。 在大部分時間中，**執行欄位**&#x200B;中定義為主要電子郵件的值才是應該使用的值。[閱讀全文](../configuration/primary-email-addresses.md#journey-parameters)
-* 此 **URL追蹤** 區段現在提供可在電子郵件通道表面中為URL追蹤設定的所有內容屬性的清單和說明。 [閱讀全文](../email/email-settings.md#url-tracking)
+* 已新增備註，以指定如果對歷程訊息中使用的優惠決定進行變更，您需要取消發佈歷程並重新發佈。[閱讀全文](../building-journeys/publishing-the-journey.md)
+* 已在決策管理&#x200B;**限定事件**&#x200B;區段中，釐清如何確保在限定計數器中正確記錄事件的說明。[閱讀全文](../offers/offer-library/add-constraints.md#capping-event)
+* 已將新區段新增至&#x200B;**變更執行地址**&#x200B;頁面。其指定可以覆寫歷程進階參數中全域設定的執行欄位，但電子郵件地址覆寫僅用於特定使用案例。在大部分時間中，**執行欄位**&#x200B;中定義為主要電子郵件的值才是應該使用的值。[閱讀全文](../configuration/primary-email-addresses.md#journey-parameters)
+* 此 **URL 追蹤**&#x200B;區段現在提供可在電子郵件管道表面中為 URL 追蹤設定之所有內容屬性的清單和說明。[閱讀全文](../email/email-settings.md#url-tracking)
 
 ## 2023 年 3 月 {#march-2023}
 

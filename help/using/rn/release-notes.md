@@ -6,8 +6,8 @@ description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: e0c8aaf114e1e60a49a721c894d14b0cc6b9f764
 workflow-type: tm+mt
-source-wordcount: '1860'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 82%
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
 
-## 2023年4月發行說明 {#apr-rn-2023}
+## 2023 年 4 月發行說明 {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -33,13 +33,13 @@ ht-degree: 82%
 <table>
 <thead>
 <tr>
-<th><strong>Web通道（一般可用性）</strong><br/></th>
+<th><strong>網路頻道 (一般可用性)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer正透過新增對網頁頻道的支援，來擴充其跨頻道功能。 您現在可以透過智慧且直覺的視覺介面，以其他任何管道形式製作、變更和預覽網路體驗，以個人化您的使用者體驗。 請注意，目前您只能在Journey Optimizer中建立促銷活動中的網頁體驗。</p>
+<p>Adobe Journey Optimizer 透過新增網路頻道支援，來擴充其跨頻道功能。您現在可以和其他任何頻道一樣，透過直覺式的智慧型視覺介面編寫、變更和預覽網路體驗，打造自己的個人化使用者體驗。請注意，目前您只能在 Journey Optimizer 中建立行銷活動中的網路體驗。</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
 <p>如需詳細資訊，請參閱<a href="../web/get-started-web.md">詳細文件</a>。</p>
 </tr>
@@ -50,13 +50,13 @@ ht-degree: 82%
 <table>
 <thead>
 <tr>
-<th><strong>行動上線快速入門工作流程（測試版）</strong><br/></th>
+<th><strong>Mobile 上線快速入門工作流程 (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>全新行動入門快速入門工作流程現已推出。 使用此新產品功能來快速設定Mobile SDK，以開始收集和驗證行動事件資料，並透過Adobe Journey Optimizer傳送行動推播通知。 這項功能可透過資料收集首頁公開測試版存取。</p>
+<p>全新 Mobile 上線快速入門工作流程現已推出。使用此新產品功能來快速設定 Mobile SDK，以開始收集和驗證行動事件資料，並透過 Adobe Journey Optimizer 傳送行動推播通知。這項功能可透過「資料彙集」首頁以公開 Beta 版的形式存取。</p>
 <img src="../push/assets/mobile-wf-home.png"/>
 <p>如需詳細資訊，請參閱<a href="../push/mobile-onboarding-wf.md">詳細文件</a>。</p>
 </td>
@@ -106,26 +106,26 @@ ht-degree: 82%
 
 **歷程**
 
-* 歷程畫布現在會在訊息活動和結束標籤上顯示活動ID。 這可改進報表和重新定位。
-* 設定窗格的版面配置已得到改善，該面板會顯示在動作、資料來源、事件和歷程中。
+* 歷程畫布現在會在訊息活動和結束標籤上顯示活動 ID。這可改善報告和重新目標定位。
+* 顯示在動作、資料來源、事件和歷程中的設定窗格，其版面配置已有所改善。
 * 歷程已新增護欄：
-   * 歷程中的活動數目現在上限為50個。 [閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
-   * 數量 **即時歷程** 現在，一個組織的每個沙箱最多只能有100個。 測試模式中的歷程不會納入考量。 [閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
+   * 歷程中的活動數現在限定為最多 50 個。[閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
+   * 現在，一個組織的&#x200B;**即時歷程**&#x200B;數限定每個沙箱最多 100 個。測試模式中的歷程不會納入考量。[閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
 
-* 新增 [電子郵件](../email/create-email.md), [簡訊](../sms/create-sms.md) 或 [推播](../push/create-push.md) 在歷程中執行動作時，現在依預設會在目前歷程中使用該管道的最後一個使用曲面預先填入曲面。
-* 您現在可以在自訂動作中定義靜態或動態查詢參數。 [了解更多](../action/about-custom-action-configuration.md#url-configuration)
+* 在歷程中新增[電子郵件](../email/create-email.md)、[簡訊](../sms/create-sms.md)或[推播](../push/create-push.md)動作時，現在依預設會以目前歷程中，最後一個為該管道使用的表面來預先填入表面。
+* 您現在可以在自訂動作中定義靜態或動態查詢參數。[了解更多](../action/about-custom-action-configuration.md#url-configuration)
 
 **報告**
 
-* 您現在可以匯出Journey Optimizer報表為PDF。 [了解更多](../reports/global-report.md#export-reports)
+* 您現在可以將 Journey Optimizer 報告匯出為 PDF。[了解更多](../reports/global-report.md#export-reports)
 
 **內容設計工具**
 
-* Adobe Journey Optimizer內容設計工具已更新，現在更輕鬆存取設計樣式和元件。 此新版本建議改善使用者體驗，並隨附效能提升、深色模式部分相容性，以及新的協助工具標準支援。
+* Adobe Journey Optimizer 內容設計工具已更新，現在能更輕鬆存取設計樣式和元件。這個新版本提出經過改善的使用者體驗，並帶來效能提升、深色模式部分相容性，以及新的協助工具標準支援。
 
 
 
-## 2023年3月發行說明 {#mar-2023}
+## 2023 年 3 月發行說明 {#mar-2023}
 
 ### 新功能{#mar-2023-features}
 
@@ -189,7 +189,7 @@ ht-degree: 82%
 * 在歷程畫布，**結束**&#x200B;標籤的標籤不再自動設定為先前活動的名稱。使用者可視需要手動新增自訂標籤。
 * 歷程屬性中的預設逾時和錯誤持續時間已從 5 秒變更為 30 秒。[了解更多](../configuration/external-systems.md#timeout)
 * 讀取區段活動的預設限制速率已從每秒 20,000 則訊息變更為每秒 5,000 則訊息。[了解更多](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* 已將護欄新增至測試模式，僅監聽透過介面傳送的事件。 不會考慮透過外部工具傳送的事件。 [進一步了解](../building-journeys/testing-the-journey.md)
+* 已將護欄新增至測試模式，以只監聽透過介面傳送的事件。透過外部工具傳送的事件不會納入考量。[進一步了解](../building-journeys/testing-the-journey.md)
 
 
 <!-- 
@@ -223,7 +223,7 @@ ht-degree: 82%
 
    若要存取最新的介面工具集，請注意您必須重設不同的報告儀表板。 如需儀表板客製化的詳細資訊，請參閱[詳細文件](../reports/global-report.md#modify-dashboard)。
 
-## 2023年2月發行說明 {#feb-2023}
+## 2023 年 2 月發行說明 {#feb-2023}
 
 ### 新功能{#feb-2023-features}
 
