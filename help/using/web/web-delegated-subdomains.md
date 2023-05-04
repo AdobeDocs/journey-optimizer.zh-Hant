@@ -1,22 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 設定Web子網域
+title: 設定網路子網域
 description: 了解如何使用Journey Optimizer設定Web子網域
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: web，子網域，設定
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 2d11233f1cf1fee5f500d233c3fcacf03b7e5c10
+source-git-commit: 29070f0029c092782cf8a304f85e52869598a2fa
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 27%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 設定Web子網域 {#web-subdomains}
+# 設定網路子網域 {#web-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_header"
