@@ -7,10 +7,10 @@ role: Admin
 level: Intermediate
 keywords: web，子網域，設定
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 29070f0029c092782cf8a304f85e52869598a2fa
+source-git-commit: b05c7e88c223af44cd2f7d10ea76c39359662cbd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '377'
+ht-degree: 29%
 
 ---
 
@@ -60,6 +60,8 @@ ht-degree: 0%
    >
    >您無法選取已用作Web子網域的子網域。
 
+1. 系統會自動新增將在您的網頁URL中顯示的首碼。
+
 1. 若要將此子網域設為預設值，請選取對應的選項。
 
    ![](assets/web-subdomain-details-default.png)
@@ -78,8 +80,8 @@ ht-degree: 0%
 
    ![](assets/web-subdomain-default.png)
 
-   <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.-->
+   <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 
-1. 您只能刪除 **[!UICONTROL 失敗]** 子網域來清除清單。 若要這麼做，請選取 **[!UICONTROL 刪除]** 從 **[!UICONTROL 更多動作]** 按鈕（位於所需子網域旁）。
+    You can only delete a **[!UICONTROL Failed]** subdomain to clean up the list. To do so, select **[!UICONTROL Delete]** from the **[!UICONTROL More actions]** button next to the desired subdomain.
 
-<!--You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
+    You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
