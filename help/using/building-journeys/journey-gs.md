@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，首先，開始，快速入門，區段，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: bc88e1348e6d6408d2c1a5f318e631f8387c2c8f
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 19%
+source-wordcount: '1325'
+ht-degree: 18%
 
 ---
 
@@ -38,27 +38,26 @@ ht-degree: 19%
 
    ![](assets/custom2.png)
 
-<!--
-## Access journeys {#journey-access}
+## 存取歷程 {#journey-access}
 
-In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tabs are available:
+在「歷程管理」功能表區段中，按一下 **[!UICONTROL 歷程]**. 有兩個索引標籤可用：
 
-**Browse**: this tab displays the list of existing journeys. You can search for journeys, use filters and perform basic actions on each element. For example, you can duplicate or delete an item. For more information, refer to [this section](../start/user-interface.md#filter-lists).
+**瀏覽**:此索引標籤會顯示現有歷程的清單。 您可以搜尋歷程、使用篩選器並對每個元素執行基本動作。 例如，您可以複製或刪除項目。如需詳細資訊，請參閱[本區段](../start/user-interface.md#filter-lists)。
 
-![](assets/journeys-browse.png)  
+![](assets/journeys-browse.png)
 
-**Overview**: this tab displays a dashboard with key metrics related to your journeys:
+**概述**:此索引標籤會顯示控制面板，其中包含與您的歷程相關的關鍵量度：
 
-* **Profiles processed**: total number of profiles processed in last 24 hours
-* **Live journeys**: total number of live journeys
-* **Unitary journeys**: total number of unitary live journeys (event-based journeys)
-* **Batch journeys**: total number of batch live journeys (read segment journeys)
-* **Error rate**: ratio of all profiles in error compared with the total number of profiles who entered. 
-* **Discard rate**: ratio of all profiles dicarded compared with the total number of profiles who entered. 
+* **已處理的設定檔**:過去24小時內處理的設定檔總數
+* **即時歷程**:過去24小時內具有流量的即時歷程總數。 即時歷程包括 **單一歷程** （事件型）和 **批次歷程** （讀取區段）。
+* **錯誤率**:與過去24小時內輸入的設定檔總數相比，有錯誤的所有設定檔的比率。
+* **捨棄率**:所有描述檔的比率，與過去24小時內輸入的描述檔總數比較。
 
-![](assets/journeys-dashboard.png)  
+>[!NOTE]
+>
+>此控制面板會考量過去24小時內流量的歷程。 只會顯示您有權存取的歷程。
 
--->
+![](assets/journeys-dashboard.png)
 
 ## 建置您的歷程{#jo-build}
 
@@ -71,15 +70,7 @@ In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tab
 
 以下是透過歷程傳送訊息的主要步驟：
 
-1. 在「歷程管理」功能表區段中，按一下 **[!UICONTROL 歷程]**. 歷程清單隨即顯示。
-
-   ![](assets/interface-journeys.png)
-
-1. 按一下 **[!UICONTROL 建立歷程]** 來建立新歷程。
-
-<!--
-1. From the **Journeys** menu, click **[!UICONTROL Create Journey]** to create a new journey. 
--->
+1. 從 **瀏覽** 按一下 **[!UICONTROL 建立歷程]** 來建立新歷程。
 
 1. 在右側顯示的設定窗格中，編輯歷程的屬性。了解更多資訊 [節](journey-gs.md#change-properties).
 
