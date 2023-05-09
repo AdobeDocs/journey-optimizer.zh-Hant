@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: c212ecb02a8feee67d49610d8919d559a22bcfa0
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1037'
 ht-degree: 92%
 
 ---
@@ -27,11 +27,6 @@ ht-degree: 92%
 
 * 您無法向帶有[!DNL Journey Optimizer]的電子郵件新增附件。
 * 您無法使用相同的傳送網域從[!DNL Adobe Journey Optimizer]和其他產品 (例如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]) 傳送訊息。
-
-
-## 決策管理護欄 {#offer-guardrails}
-
-決策的效能護欄和靜態限制列於 [Adobe Offer Decisioning 應用程式服務產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}。
 
 
 ## 登陸頁面護欄 {#lp-guardrails}
