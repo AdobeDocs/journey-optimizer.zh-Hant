@@ -7,10 +7,10 @@ role: Admin
 level: Intermediate
 keywords: web，子網域，設定
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: b05c7e88c223af44cd2f7d10ea76c39359662cbd
+source-git-commit: 66ef57c263d29572ce0377e41bf0a8010e2f22d1
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 29%
+source-wordcount: '413'
+ht-degree: 27%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 29%
    >
    >您無法選取已用作Web子網域的子網域。
 
-1. 系統會自動新增將在您的網頁URL中顯示的首碼。
+1. 系統會自動新增將在您的網頁URL中顯示的首碼。 您無法變更。
 
 1. 若要將此子網域設為預設值，請選取對應的選項。
 
@@ -72,6 +72,10 @@ ht-degree: 29%
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**. 子網域會取得 **[!UICONTROL 成功]** 狀態。 它已準備好用於您的網頁體驗。
 
+   >[!NOTE]
+   >
+   >在極少數的情況下，子網域設定可能會失敗。 在此情況下，您可以刪除 **[!UICONTROL 失敗]** 子網域來清除清單，使用 **[!UICONTROL 刪除]** 按鈕 **[!UICONTROL 更多動作]** 表徵圖。
+
 1. 此 **[!UICONTROL 預設]** 徽章會顯示在目前作為預設的子網域旁。 若要變更預設子網域，請選取 **[!UICONTROL 設為預設值]** 從 **[!UICONTROL 更多動作]** 按鈕（位於所需子網域旁）。
 
    >[!NOTE]
@@ -81,7 +85,5 @@ ht-degree: 29%
    ![](assets/web-subdomain-default.png)
 
    <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
-
-    You can only delete a **[!UICONTROL Failed]** subdomain to clean up the list. To do so, select **[!UICONTROL Delete]** from the **[!UICONTROL More actions]** button next to the desired subdomain.
 
     You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
