@@ -4,16 +4,20 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 126d3afcca9801cddeff451fac60f469905f3b85
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 289dd11da2546b5ad8f9791fb9a5796127746829
+workflow-type: tm+mt
+source-wordcount: '2752'
+ht-degree: 98%
 
 ---
 
 # 文件更新 {#latest-updates}
 
 本頁面列出 [!DNL Journey Optimizer] 所有文件更新。
+
+## 2023 年 5 月 {#may-2023}
+
+* 此 **設定Web子網域** 頁面已建立：如果您將來自Adobe Experience Manager Assets Essentials的內容新增至網頁體驗，您必須設定將用來發佈此內容的子網域。 [閱讀全文](../web/web-delegated-subdomains.md)
 
 ## 2023 年 4 月 {#apr-2023}
 
