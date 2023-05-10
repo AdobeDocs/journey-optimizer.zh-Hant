@@ -1,15 +1,15 @@
 ---
-title: 網路通道必要條件
+title: 網路頻道先決條件
 description: 若要在Journey Optimizer使用者介面中存取及撰寫網頁，請遵循本頁面的必要條件
 feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
+source-git-commit: 65a33d6836c43564ef7c93660a8076677ea5cba8
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 11%
+source-wordcount: '872'
+ht-degree: 13%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 11%
 
 ## 警告
 
-目前在 [!DNL Journey Optimizer] 您只能使用 **行銷活動**. [了解更多](../campaigns/create-campaign.md#configure)
+目前在 [!DNL Journey Optimizer]，您只能使用&#x200B;**行銷活動**&#x200B;建立網路體驗。[了解更多](../campaigns/create-campaign.md#configure)
 
 
 [!DNL Journey Optimizer] 網頁行銷活動會鎖定之前未參與其他管道的新設定檔。 這將增加您可接合的配置檔案總數，如果您購買的可接合配置檔案的合約數量超過，則可能會造成成本影響。 每個套件的授權量度會列在 [Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html) 頁面。
@@ -123,11 +123,10 @@ Adobe Experience Cloud Visual Editing Helper現在會在 [!DNL Journey Optimizer
 
 * 在 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
-   此合併策略由 [!DNL Journey Optimizer] 傳入頻道，在邊緣上正確啟用和發佈傳入促銷活動。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}
+   此合併策略由 [!DNL Journey Optimizer] 傳入頻道，在邊緣上正確啟用和發佈傳入促銷活動。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant){target="_blank"}
 
    ![](assets/web-aep-merge-policy.png)
 
-<!--
-Branded domains for assets
+## 資產的品牌網域 {#branded-domains-for-assets}
 
-When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content. [Learn more](web-delegated-subdomains.md)-->
+撰寫網頁體驗時，如果您新增來自 [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) 程式庫，您必須設定將用來發佈此內容的子網域。 [了解更多](web-delegated-subdomains.md)
