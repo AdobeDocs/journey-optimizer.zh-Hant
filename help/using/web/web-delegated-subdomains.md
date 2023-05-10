@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 keywords: web，子網域，設定
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 66ef57c263d29572ce0377e41bf0a8010e2f22d1
+source-git-commit: 40cdcace9788206ad32dc6ae1e5f70c66e684bcb
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 27%
@@ -78,11 +78,11 @@ ht-degree: 27%
 
 1. 此 **[!UICONTROL 預設]** 徽章會顯示在目前作為預設的子網域旁。 若要變更預設子網域，請選取 **[!UICONTROL 設為預設值]** 從 **[!UICONTROL 更多動作]** 按鈕（位於所需子網域旁）。
 
+   ![](assets/web-subdomain-default.png)
+
    >[!NOTE]
    >
    >您可以變更預設的Web子網域，但一次只能使用一個子網域。
-
-   ![](assets/web-subdomain-default.png)
 
    <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 
