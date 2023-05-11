@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '850'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,6 @@ ht-degree: 100%
 >[!NOTE]
 >
 >本文件將經常更新，以反應此產品使用者介面的最新變更。不過，有些螢幕擷取畫面可能會與使用者介面稍有不同。
-
 
 ## 左側導覽 {#left-nav}
 
@@ -90,7 +89,6 @@ ht-degree: 100%
 
 * **[!UICONTROL 警報]** - 使用者介面可讓您根據 Adobe Experience Platform 可檢視性深入解析顯示的指標查看收到警報的歷史記錄。UI 也可讓您檢視、啟用和停用可用的警報規則。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hant){target="_blank"}
 
-
 ## 產品內使用案例 {#in-product-uc}
 
 善用首頁的[!DNL Adobe Journey Optimizer]使用案例，並提供一些快速輸入項目以建立客戶歷程。
@@ -110,7 +108,6 @@ ht-degree: 100%
 
 您可以從&#x200B;**[!UICONTROL 檢視使用案例庫]**&#x200B;按鈕存取已執行的案例。
 
-
 ## 尋找說明與支援 {#find-help}
 
 從首頁的下半頁面存取 Adobe Journey Optimizer 重要說明頁面。
@@ -118,10 +115,6 @@ ht-degree: 100%
 使用&#x200B;**說明**&#x200B;圖示來存取說明頁面、聯絡支援並分享意見。 您可以從搜尋欄位搜尋說明文章和影片。
 
 ![](assets/ajo-help.png)
-
-## 支援的瀏覽器 {#browsers}
-
-Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中以最佳方式運作。 您在舊版或其他瀏覽器上使用某些功能時可能會遇到問題。
 
 ## 語言偏好設定 {#language-pref}
 
@@ -145,39 +138,3 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 然後按一下您電子郵件地址下方顯示的語言
 * 選擇您偏好的語言，然後按一下 **「儲存」**。若您使用的元件未當地化為您的母語，您可選取第二種語言。
    ![](assets/select-language.png)
-
-## 搜尋{#unified-search}
-
-在 Adobe Journey Optimizer 介面的任意處，利用頂端列中央的 Unified Adobe Experience Cloud 搜尋功能，在您的沙盒尋找資產、歷程、資料集等等。 
-
-開始輸入內容以顯示排名最前的結果。有關輸入關鍵字的說明文章也會顯示在結果中。
-
-![](assets/unified-search.png)
-
-請按下 **Enter** 以存取所有結果，並按業務對象進行篩選。
-
-![](assets/search-and-filter.png)
-
-## 篩選清單{#filter-lists}
-
-在大部分清單中使用搜尋列來尋找特定項目並定義篩選條件。
-
-按一下清單左上方的篩選圖示，即可存取篩選器。篩選功能表可讓您根據不同的條件篩選顯示的元素。您可以選擇僅顯示某一類型或狀態的元素、您建立的元素，或者在過去 30 天內修改的元素。選項會因內容而異。
-
-在歷程清單中，您可以從&#x200B;**[!UICONTROL 狀態及版本篩選器]**&#x200B;中根據歷程的狀態、類型與版本來篩選歷程。 類型可以是： **[!UICONTROL 單一事件]**、**[!UICONTROL 區段資格]**、**[!UICONTROL 讀取區段]**、**[!UICONTROL 企業活動]**&#x200B;或 **[!UICONTROL 突發事件]**。您可以選擇僅顯示使用&#x200B;**[!UICONTROL 事件篩選器]**&#x200B;與&#x200B;**[!UICONTROL 資料篩選器]**&#x200B;中的特定事件、欄位群組或動作的歷程。**[!UICONTROL 出版物篩選器]**&#x200B;可讓您選擇出版物日期或使用者。 舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。[了解更多](../building-journeys/using-the-journey-designer.md)。
-
->[!NOTE]
->
->請注意，顯示的欄可使用清單右上角的設定按鈕進行個人化。系統會為每位使用者儲存個人化設定。
-
-使用&#x200B;**[!UICONTROL 上次更新]**&#x200B;及&#x200B;**[!UICONTROL 最後更新者]**&#x200B;欄來檢查您的歷程上次更新發生的時間以及儲存者。
-
-![](assets/filter-journeys.png)
-
-在事件、資料來源和動作設定窗格中，**[!UICONTROL 使用位置]**&#x200B;欄位會顯示使用該特定事件、欄位群組或操作的歷程次數。您可以按一下&#x200B;**[!UICONTROL 檢視歷程]**&#x200B;按鈕以顯示對應歷程的清單。
-
-![](assets/journey3bis.png)
-
-您可以對清單的每一元素執行基本動作。例如，您可以複製或刪除項目。
-
-![](assets/journey4.png)

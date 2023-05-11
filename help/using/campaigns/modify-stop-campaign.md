@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 管理促銷活動，狀態，排程，存取， optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '520'
 ht-degree: 2%
 
 ---
@@ -26,11 +26,11 @@ ht-degree: 2%
 
 您可從 **[!UICONTROL 行銷活動]** 功能表。
 
-依預設，清單會以 **[!UICONTROL 草稿]**, **[!UICONTROL 已排程]**，和 **[!UICONTROL 即時]** 狀態。
-
-若要顯示已停止、已完成和已封存的促銷活動，您必須清除篩選器。
+依預設，清單會以 **[!UICONTROL 草稿]**, **[!UICONTROL 已排程]**，和 **[!UICONTROL 即時]** 狀態。 若要顯示已停止、已完成和已封存的促銷活動，您必須清除篩選器。
 
 ![](assets/create-campaign-list.png)
+
+此外，您也可以根據促銷活動類型和管道，或建立促銷活動時指派給促銷活動的標籤來篩選清單。 [了解如何指派標籤至行銷活動](create-campaign.md#create)
 
 ## 促銷活動狀態 {#statuses}
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，首先，開始，快速入門，區段，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: bc88e1348e6d6408d2c1a5f318e631f8387c2c8f
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1325'
-ht-degree: 18%
+source-wordcount: '1512'
+ht-degree: 25%
 
 ---
 
@@ -42,10 +42,6 @@ ht-degree: 18%
 
 在「歷程管理」功能表區段中，按一下 **[!UICONTROL 歷程]**. 有兩個索引標籤可用：
 
-**瀏覽**:此索引標籤會顯示現有歷程的清單。 您可以搜尋歷程、使用篩選器並對每個元素執行基本動作。 例如，您可以複製或刪除項目。如需詳細資訊，請參閱[本區段](../start/user-interface.md#filter-lists)。
-
-![](assets/journeys-browse.png)
-
 **概述**:此索引標籤會顯示控制面板，其中包含與您的歷程相關的關鍵量度：
 
 * **已處理的設定檔**:過去24小時內處理的設定檔總數
@@ -58,6 +54,22 @@ ht-degree: 18%
 >此控制面板會考量過去24小時內流量的歷程。 只會顯示您有權存取的歷程。
 
 ![](assets/journeys-dashboard.png)
+
+**瀏覽**:此索引標籤會顯示現有歷程的清單。 您可以搜尋歷程、使用篩選器並對每個元素執行基本動作。 例如，您可以複製或刪除項目。如需詳細資訊，請參閱[本區段](../start/user-interface.md#filter-lists)。
+
+![](assets/journeys-browse.png)
+
+在歷程清單中，您可以從&#x200B;**[!UICONTROL 狀態及版本篩選器]**&#x200B;中根據歷程的狀態、類型與版本來篩選歷程。 類型可以是： **[!UICONTROL 單一事件]**、**[!UICONTROL 區段資格]**、**[!UICONTROL 讀取區段]**、**[!UICONTROL 企業活動]**&#x200B;或 **[!UICONTROL 突發事件]**。
+
+您可以選擇僅顯示使用&#x200B;**[!UICONTROL 事件篩選器]**&#x200B;與&#x200B;**[!UICONTROL 資料篩選器]**&#x200B;中的特定事件、欄位群組或動作的歷程。此外， **[!UICONTROL 發佈篩選器]** 可讓您選取出版日期或使用者。 舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。[了解更多](../building-journeys/using-the-journey-designer.md)。
+
+![](assets/filter-journeys.png)
+
+使用&#x200B;**[!UICONTROL 上次更新]**&#x200B;及&#x200B;**[!UICONTROL 最後更新者]**&#x200B;欄來檢查您的歷程上次更新發生的時間以及儲存者。
+
+在事件、資料來源和動作設定窗格中，**[!UICONTROL 使用位置]**&#x200B;欄位會顯示使用該特定事件、欄位群組或操作的歷程次數。您可以按一下&#x200B;**[!UICONTROL 檢視歷程]**&#x200B;按鈕以顯示對應歷程的清單。
+
+![](assets/journey3bis.png)
 
 ## 建置您的歷程{#jo-build}
 
@@ -101,7 +113,7 @@ ht-degree: 18%
 
 按一下右上角的鉛筆圖示，以存取歷程的屬性。
 
-您可以變更歷程的名稱、新增說明、允許重新進入、選擇開始和結束日期，以及以管理員使用者的身分定義 **[!UICONTROL 逾時和錯誤]** 持續時間。
+您可以變更歷程的名稱、新增說明、允許重新進入、選擇開始和結束日期，以及以管理員使用者的身分定義 **[!UICONTROL 逾時和錯誤]** 持續時間。 您也可以指派Adobe Experience Platform統一標籤至歷程。 這可讓您輕鬆分類，並改善促銷活動清單中的搜尋。 [了解如何使用標籤](../start/search-filter-categorize.md#tags)
 
 對於即時歷程，此畫面會顯示發佈日期以及發佈歷程的使用者名稱。
 

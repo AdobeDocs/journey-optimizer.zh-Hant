@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 建立，優化程式，促銷活動，表面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: bf058b13508c7ad644a3b1f63e9208740abf8602
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 22%
+source-wordcount: '789'
+ht-degree: 21%
 
 ---
 
@@ -65,6 +65,8 @@ ht-degree: 22%
 1. 在 **[!UICONTROL 屬性]** 區段，指定促銷活動的名稱和說明。
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
+
+1. 此 **標籤** 欄位可讓您將Adobe Experience Platform統一標籤指派至促銷活動。 這可讓您輕鬆分類，並改善促銷活動清單中的搜尋。 [了解如何使用標籤](../start/search-filter-categorize.md#tags)
 
 1. 若要將自訂或核心資料使用量標籤指派給促銷活動，請按一下 **[!UICONTROL 管理存取]** 按鈕。 [進一步了解對象級訪問控制(OLA)](../administration/object-based-access.md)
 
@@ -129,9 +131,9 @@ ht-degree: 22%
 
 ![](assets/create-campaign-namespace.png)
 
->[!NOTE]
->
->屬於某個區段的個人若未在其不同身分之間選取身分（命名空間），該促銷活動將不會鎖定該目標。
+    >[!NOTE]
+    >
+    >屬於某個區段、且其不同身分之間未選取身分（命名空間）的個人，將不會被促銷活動鎖定。
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 

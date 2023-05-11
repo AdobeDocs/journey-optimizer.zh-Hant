@@ -4,9 +4,9 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1071229582008d66b4184ec782aaf23bad111a93
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1910'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,24 @@ ht-degree: 97%
 
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
+## 2023年5月改善 {#may-improvements}
+
+<table>
+<thead>
+<tr>
+<th><strong>在您的行銷活動中使用標籤</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以將Adobe Experience Platform統一標籤指派給行銷活動。 這可讓您輕鬆分類，並改善促銷活動清單中的搜尋。 請注意，統一標籤功能目前仍在測試中。
+<img src="assets/do-not-localize/campaigns-tag.gif"/>
+<p>如需詳細資訊，請參閱<a href="../start/search-filter-categorize.md#tags">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2023 年 4 月發行說明 {#apr-rn-2023}
 
@@ -46,7 +64,6 @@ ht-degree: 97%
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -64,21 +81,22 @@ ht-degree: 97%
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>新的歷程儀表板（測試版）</strong><br/></th>
+<th><strong>New Journey dashboard (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> 「歷程」控制面板現在分割為兩個標籤：</p>
-<ul><li>使用 <strong>概述</strong> 標籤來存取新的控制面板，以顯示與您的歷程相關的關鍵量度。</li>
-<li>使用 <strong>瀏覽</strong> 標籤來存取所有歷程的清單。</li></ul>
-<p>此功能可在所有歷程中作為公開測試版存取。</p>
+<p> The Journey dashboard is now split in two tabs:</p>
+<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
+<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
+<p>This capability is accessible in all journeys as a public beta.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-gs.md#journey-access">詳細文件</a>。</p>
+<p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -173,13 +191,11 @@ ht-degree: 97%
 <tr>
 <td>
 <p>身為 Journey Optimizer 從業人員，您現在可以使用標籤來組織業務物件。標籤是一種快速、簡便的物件分類方法，用於改進搜尋。此功能目前處於測試階段，僅適用於歷程。</p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/tags.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../start/search-filter-categorize.md#tags">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
 
 ### 改進項目 {#mar-2023-improvements}
 

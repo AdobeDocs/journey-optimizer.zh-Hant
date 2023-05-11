@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 10%
+source-wordcount: '327'
+ht-degree: 11%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >與搭配使用的區段產生器相比，用於建立決策規則的區段產生器會呈現一些特性 **[!UICONTROL 對象目標]** 服務。 例如， **[!UICONTROL 區段]** 標籤無法使用。 不過， [區段產生器](../../segment/about-segments.md) 檔案對於建立優惠方案決策規則仍有效。 了解更多 [Adobe Experience Platform區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+   >與搭配使用的區段產生器相比，用於建立決策規則的區段產生器會呈現一些特性 **[!UICONTROL 區段]** 服務。 例如， **[!UICONTROL 區段]** 標籤無法使用。 不過， [區段產生器](../../segment/about-segments.md) 檔案對於建立優惠方案決策規則仍有效。 了解更多 [Adobe Experience Platform區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
 1. 當您新增和設定工作區中的新欄位時， **[!UICONTROL 區段屬性]** 窗格會顯示屬於區段的估計設定檔資訊。 按一下 **[!UICONTROL 重新整理估計值]** 更新資料。
 
