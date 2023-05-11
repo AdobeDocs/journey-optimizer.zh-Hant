@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: fc7f996fca8b1e8e5f6b7379cc3b2b7da764e0ed
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 33%
@@ -53,7 +53,7 @@ ht-degree: 33%
 >
 >統一標籤目前處於測試版。 文件和功能可能會有所變更。
 
-## 新增標籤至物件
+### 新增標籤至物件
 
 此 **標籤** 欄位，在 [歷程](../building-journeys/journey-gs.md#change-properties) 或 [行銷活動](../campaigns/create-campaign.md#create) 屬性，可讓您定義物件的標籤。 您可以選取現有標籤或建立新標籤。
 
@@ -69,7 +69,7 @@ ht-degree: 33%
 > 
 > 如果您複製或建立歷程或促銷活動的新版本，則會保留標籤。
 
-## 依標籤篩選
+### 依標籤篩選
 
 歷程和行銷活動清單會顯示專屬的欄，讓您輕鬆將標籤視覺化。
 
@@ -81,7 +81,7 @@ ht-degree: 33%
 
 ![](assets/tags3.png)
 
-## 管理標籤
+### 管理標籤
 
 管理員可以刪除標籤，並使用 **標籤** 菜單，在下 **管理**. 進一步了解 [統一標籤檔案](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
 
