@@ -6,10 +6,10 @@ description: 了解如何設定您的環境，使用Journey Optimizer傳送SMS
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 33dccf32b60a6afb58931823016821fc1effcbd8
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 18%
+source-wordcount: '848'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 18%
 
 [!DNL Journey Optimizer] 可讓您建立歷程並傳送訊息給目標對象。
 
-傳送SMS之前，請設定您的執行個體。 您需要 [整合提供者設定](#create-api) 與Journey Optimizer [建立SMS曲面](#message-preset-sms) （即簡訊預設集）。 這些步驟必須由 [Adobe Journey Optimizer系統管理員](../start/path/administrator.md).
+傳送SMS之前，請設定您的執行個體。 您需要 [整合提供者設定](#create-api) 與Journey Optimizer [建立SMS曲面](#message-preset-sms) （即簡訊預設集）。 這些步驟必須由 [Adobe Journey Optimizer 系統管理員](../start/path/administrator.md)執行。
 
 ## 先決條件{#sms-prerequisites}
 
@@ -27,6 +27,9 @@ Adobe Journey Optimizer目前與第三方提供商（如Sinch和Twilio）整合�
 
 您使用簡訊服務將受適用簡訊提供者提供之其他條款和條件所規範。 由於Sinch和Twilio是通過整合提供給Adobe Journey Optimizer用戶的第三方產品，因此，對於與簡訊服務相關的任何問題或查詢，Sinch或Twilio的用戶需要聯繫適用的簡訊提供商以獲得幫助。 Adobe無法控制第三方產品，也不負責。
 
+>[!CAUTION]
+>
+>若要存取及編輯SMS子網域，您必須具備 **[!UICONTROL 管理SMS子網域]** 對生產沙箱的權限。
 
 ## 建立新的API憑證 {#create-api}
 
