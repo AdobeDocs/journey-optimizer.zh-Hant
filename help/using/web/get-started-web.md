@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '160'
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 如果您已使用輸出通道 (例如電子郵件、簡訊或推播通知)，您現在可以善用輸入網路頻道，提供跨越所有通道的真正個人化體驗。
 
-建立促銷活動後，請選取 **Web** 作為動作並定義基本設定。 請參閱本[頁面](../campaigns/create-campaign.md#configure)，深入了解如何設定您的行銷活動。
+建立行銷活動後，請選取 **Web** 作為動作並定義基本設定。請參閱本[頁面](../campaigns/create-campaign.md#configure)，深入了解如何設定您的行銷活動。
 
 >[!NOTE]
 >
->如果這是您第一次建立網頁體驗，請務必遵循 [本節](web-prerequisites.md).
+>如果這是您第一次建立網頁體驗，請務必遵循[本章節](web-prerequisites.md)所說明的必要條件。
 
-探索建立Web促銷活動的詳細步驟，位於 [此影片](create-web.md#video).
+請觀看[此影片](create-web.md#video)，探索建立網頁行銷活動的詳細步驟。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -43,7 +43,7 @@ ht-degree: 0%
 <img alt="不頻繁" src="../assets/do-not-localize/web-create.jpg">
 </a>
 <div>
-<a href="create-web.md"><strong>建立網路體驗</strong></a>
+<a href="create-web.md"><strong>建立 Web 體驗</strong></a>。
 </div>
 <p></td>
 <td>
