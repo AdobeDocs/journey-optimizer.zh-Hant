@@ -6,8 +6,8 @@ description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 1c4a2f19bd929720e93f4019bb1646c82bed9265
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,18 +21,18 @@ ht-degree: 95%
 
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
-## 2023年5月改善 {#may-improvements}
+## 2023 年 5 月改進項目 {#may-improvements}
 
 <table>
 <thead>
 <tr>
-<th><strong>在您的行銷活動中使用標籤</strong><br/></th>
+<th><strong>在您的行銷活動使用標籤</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以將Adobe Experience Platform統一標籤指派給行銷活動。 這可讓您輕鬆分類，並改善促銷活動清單中的搜尋。 請注意，統一標籤功能目前仍在測試中。
+<p>您現可指派 Adobe Experience Platform 統一標籤至行銷活動。 這可讓您輕鬆分類，並改進行銷活動清單的搜尋。 請注意，統一標籤功能目前仍在測試中。
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>如需詳細資訊，請參閱<a href="../start/search-filter-categorize.md#tags">詳細文件</a>。</p>
 </td>
@@ -84,16 +84,16 @@ ht-degree: 95%
 <table>
 <thead>
 <tr>
-<th><strong>新的歷程儀表板（測試版）</strong><br/></th>
+<th><strong>新建行程儀表板(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> 「歷程」控制面板現在分割為兩個標籤：</p>
-<ul><li>使用 <strong>概述</strong> 標籤來存取新的控制面板，以顯示與您的歷程相關的關鍵量度。</li>
-<li>使用 <strong>瀏覽</strong> 標籤來存取所有歷程的清單。</li></ul>
-<p>此功能可在所有歷程中作為公開測試版存取。</p>
+<p> 「行程」操控板現在分成兩個頁籤：</p>
+<ul><li>使用 <strong>概述</strong> 頁籤，以訪問顯示與您的行程相關的關鍵度量的新儀表板。</li>
+<li>使用 <strong>瀏覽</strong> 頁籤。</li></ul>
+<p>此功能可在所有旅程中作為公共試用版訪問。</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/journey-gs.md#journey-access">詳細文件</a>。</p>
 </td>
