@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '299'
+ht-degree: 100%
 
 ---
 
@@ -17,20 +17,20 @@ ht-degree: 0%
 
 每當決策管理為特定設定檔做出決定時，這些事件的相關資訊就會自動傳送至 Adobe Experience Platform。
 
-這可讓您獲得決策的深入分析，例如，了解哪個選件已呈現給指定的設定檔。 您可以匯出這些資料，將其分析至您自己的報表系統，或運用Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant) 與其他工具結合，以增強分析和報告用途。
+這可讓您針對決策獲得深入分析，例如，了解哪項優惠已呈現給指定設定檔。 您可匯出這些資料，將其分析至您自己的報告系統，或善用 Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)與其他工具，以達到增強分析與報告的目的。
 
-## 資料集中可用的關鍵資訊 {#key-information}
+## 資料集的可用重要資訊 {#key-information}
 
-決策時傳送的每個事件都包含四個關鍵資料點，您可運用這些資料點進行分析和報告：
+每個在決策時傳送的事件都包含四個關鍵資料點，可供您用於分析和報告用途：
 
 ![](../assets/events-dataset-preview.png)
 
-* **[!UICONTROL 備援]**:備援優惠方案的名稱和ID，如果未選取個人化優惠方案，
-* **[!UICONTROL 版位]**:用於傳送優惠方案之版位的名稱、ID和管道，
-* **[!UICONTROL 選取項目]**:為設定檔選取之選件的名稱和ID,
-* **[!UICONTROL 活動]**:決策的名稱和ID。
+* **[!UICONTROL 遞補內容]**：遞補優惠的名稱和 ID，若未選取個人化優惠，
+* **[!UICONTROL 位置]**：用來傳遞優惠之位置的名稱、ID 和頻道，
+* **[!UICONTROL 選取項目]**：為設定檔選取之優惠的名稱和 ID，
+* **[!UICONTROL 活動]**：決策的名稱與 ID。
 
-此外，您也可以運用 **[!UICONTROL identityMap]** 和 **[!UICONTROL 時間戳記]** 欄位來擷取設定檔資訊和傳送選件的時間。
+此外，您也可以運用 **[!UICONTROL identityMap]** 與&#x200B;**[!UICONTROL 時間戳記]**&#x200B;欄位來擷取有關設定檔和傳遞優惠時間的資訊。
 
 有關隨每個決定傳送的所有 XDM 欄位的詳細資訊，請參閱[本節](xdm-fields.md)。
 
@@ -44,4 +44,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->請注意，ODE DecisionEvents 資料集是&#x200B;**非設定檔資料集**，這代表它們不能被獲取至 Experience Platform 中，以便由即時客戶設定檔所使用。
+>請注意，ODE DecisionEvents 資料集是&#x200B;**非設定檔資料集**，這代表它們不能擷取至 Experience Platform 中，以便由即時客戶設定檔所使用。
