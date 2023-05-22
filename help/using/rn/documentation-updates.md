@@ -5,9 +5,9 @@ title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 0a515afc2335a14c9c978f9cbf394850a88964c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2769'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 98%
 
 ## 2023 年 5 月 {#may-2023}
 
-* 已新增新頁面，說明如何設定子網域，以用於發佈來自網頁體驗中Adobe Experience Manager Assets Essentials的內容。 [閱讀全文](../web/web-delegated-subdomains.md)
-* 已新增新的子區段，說明如何在電子郵件設計工具中將個人化追蹤參數新增至URL。 [了解更多](../email/message-tracking.md#url-tracking)
+* 已新增新頁面說明如何設定子網域，以便用於發佈來自網頁體驗 Adobe Experience Manager Assets Essentials 的內容。 [閱讀全文](../web/web-delegated-subdomains.md)
+* 已新增新子區段，說明如何在電子郵件設計工具新增個人化追蹤參數至 URL。 [了解更多](../email/message-tracking.md#url-tracking)
 
 ## 2023 年 4 月 {#apr-2023}
 
