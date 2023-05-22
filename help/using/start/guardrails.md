@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1066'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -44,8 +44,8 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ### 一般歷程護欄 {#journeys-guardrails-journeys}
 
-* 歷程中的活動數上限為50。 活動數會顯示在歷程畫布的左上方區段。
-* 數量 **即時歷程** 在一個組織中，每個沙箱最多只能有100個。 達到此限制時，您無法再發佈新的歷程。
+* 歷程中的活動數限定為最多 50 個。活動數會顯示於歷程畫布的左上方區段。
+* 一個組織的&#x200B;**即時歷程**&#x200B;數限定每個沙箱最多 100 個。當達到此限制時，您無法再發佈新歷程。
 
 ### 一般動作 {#general-actions-g}
 
@@ -71,7 +71,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 查詢參數或標題的名稱不得以「.」開頭 或 &quot;$&quot;
 * 不允許使用 IP 位址
 * 內部 Adobe 地址 (`.adobe.*`) 不允許在 URL 及 API 中使用。
-* 無法移除內建的自訂動作。
+* 無法移除內建自訂動作。
 
 ### 活動 {#events-g}
 
@@ -104,6 +104,6 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ### 運算式編輯器 {#expression-editor}
 
-* 從「讀取」區段、「區段」資格或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。 您需要建立新區段，並在歷程中使用內段條件。
+* 從「讀取」區段、「區段」資格或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。 您需要建立新區段，並在歷程中使用區段內條件。
 
 
