@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: fc7f996fca8b1e8e5f6b7379cc3b2b7da764e0ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '498'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 33%
 
 在大部分清單中使用搜尋列來尋找特定項目並定義篩選條件。
 
-按一下清單左上方的篩選圖示，即可存取篩選器。篩選功能表可讓您根據不同的准則篩選顯示的元素：您可以選擇只顯示某種類型或狀態的元素、您建立的元素，或最近30天修改的元素。 選項會因內容而異。
+按一下清單左上方的篩選圖示，即可存取篩選器。篩選選單可讓您根據不同條件篩選顯示的元素：您可選擇僅顯示特定類型或狀態的元素、您建立的元素，或最近 30 天修改的元素。 選項會因內容而異。
 
-此外，您也可以使用統一標籤來篩選清單，視指派給物件的標籤而定。 目前，標籤可供歷程和行銷活動使用。 [了解如何使用標籤](#tags)
+此外，您也可利用統一標籤來篩選清單，視指派至物件的標籤而定。 目前，標籤可供歷程與行銷活動使用。 [了解如何使用標籤](#tags)
 
 >[!NOTE]
 >
@@ -45,46 +45,46 @@ ht-degree: 33%
 
 ![](assets/journey4.png)
 
-## 使用統一的標籤 {#tags}
+## 使用統一標籤 {#tags}
 
-使用Adobe Experience Platform [統一標籤](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html)，您可以輕鬆分類Journey Optimizer歷程和促銷活動，以改善清單中的搜尋。
+利用 Adobe Experience Platform [統一標籤](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=zh-Hant)，您可以輕鬆分類 Journey Optimizer 歷程與行銷活動，進而改進清單的搜尋。
 
 >[!AVAILABILITY]
 >
->統一標籤目前處於測試版。 文件和功能可能會有所變更。
+>統一標籤目前測試中。 文件和功能可能會有所變更。
 
 ### 新增標籤至物件
 
-此 **標籤** 欄位，在 [歷程](../building-journeys/journey-gs.md#change-properties) 或 [行銷活動](../campaigns/create-campaign.md#create) 屬性，可讓您定義物件的標籤。 您可以選取現有標籤或建立新標籤。
+[歷程](../building-journeys/journey-gs.md#change-properties)或[行銷活動](../campaigns/create-campaign.md#create)屬性中的&#x200B;**標籤**&#x200B;欄位，可讓您為物件定義標籤。 您可選取現有標籤或建立新標籤。
 
-開始輸入所需標籤的名稱，然後從清單中選取該名稱。 如果無法使用，請按一下 **建立** 來建立並新增。 您可以視需要定義任意數量的標籤。
+開始輸入所需標籤的名稱，然後從清單選取該名稱。 如果無法使用，請按一下&#x200B;**建立**&#x200B;來建立並新增。 您可視需要定義任意數量的標籤。
 
 ![](assets/tags1.png)
 
-定義的標籤清單會顯示在 **標籤** 欄位。
+定義的標籤清單會顯示在&#x200B;**標籤**&#x200B;欄位下方。
 
 >[!NOTE]
 >
-> 標籤區分大小寫
+> 標籤不區分大小寫
 > 
-> 如果您複製或建立歷程或促銷活動的新版本，則會保留標籤。
+> 如果您複製或建立新版本歷程或行銷活動，則會保留標籤。
 
 ### 依標籤篩選
 
-歷程和行銷活動清單會顯示專屬的欄，讓您輕鬆將標籤視覺化。
+歷程與行銷活動清單會顯示專屬欄，讓您輕鬆視覺化標籤。
 
-篩選器也僅可顯示具有特定標籤的歷程或行銷活動。
+利用篩選器也可僅顯示具特定標籤的歷程或行銷活動。
 
 ![](assets/tags2.png)
 
-您可以從任何類型的歷程或行銷活動（即時、草稿等）新增或移除標籤。 若要這麼做，請按一下 **更多動作** 表徵圖，然後選擇 **編輯標籤**.
+您可從任何類型的歷程或行銷活動 (即時、草稿等等) 新增或移除標籤。 若要這麼做，請按一下物件旁的&#x200B;**更多動作**&#x200B;圖示，然後選取&#x200B;**編輯標籤**。
 
 ![](assets/tags3.png)
 
 ### 管理標籤
 
-管理員可以刪除標籤，並使用 **標籤** 菜單，在下 **管理**. 進一步了解 [統一標籤檔案](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
+管理員可利用&#x200B;**管理**&#x200B;下方的&#x200B;**標籤**&#x200B;選單來刪除標籤，並依類別進行管理。請參閱[統一標籤文件](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=zh-Hant)，深入了解標籤管理。
 
 >[!NOTE]
 >
-> 直接從 **[!UICONTROL 標籤]** Journey Optimizer中的欄位會自動新增至內建的「未分類」類別。
+> 若標籤直接從 Journey Optimizer **[!UICONTROL 標籤]**&#x200B;欄位建立，則會自動新增至內建的「未分類」類別。
