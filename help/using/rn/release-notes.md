@@ -4,7 +4,7 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: da59efccc65d78ae357123d5f99e94cfcb52a68d
+source-git-commit: 3a6f66bd1b2b0050830e4ba5b102a3b48faa8202
 workflow-type: tm+mt
 source-wordcount: '2379'
 ht-degree: 82%
@@ -96,7 +96,7 @@ ht-degree: 82%
 <tr>
 <td>
 <p>現在，您可以編寫、使用和管理碎片，以快速組合電子郵件和內容模板。 碎片是預構建的可重複使用的元件，可以在跨Journey Optimizer市場活動和旅行的多封電子郵件中引用，以實現改進和加速的設計過程。</p>
-<img src="assets/fragment-insert.png"/>
+<img src="assets/do-not-localize/fragments.gif"/>
 <!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
 </td>
 </tr>
