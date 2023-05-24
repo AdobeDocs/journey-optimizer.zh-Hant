@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: 篩選
-description: 了解函式篩選器
+description: 瞭解函式篩選器
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: 篩選，函式，運算式，歷程
+keywords: 過濾器，函式，表達式，旅程
 exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,11 +16,11 @@ ht-degree: 8%
 
 # 篩選{#filter}
 
-傳回listObject，其物件的索引鍵屬性與指定索引鍵值之一相符。
+返回具有與給定鍵值之一匹配的鍵屬性的對象的listObject。
 
 >[!NOTE]
 >
->如果目標清單為listObject，則此函式只能用於自訂動作運算式。
+>如果目標清單是listObject，則此函式只能用於自定義操作表達式。
 
 ## 類別
 
@@ -34,9 +34,9 @@ ht-degree: 8%
 
 | 參數 | 類型 | 說明 |
 |-----------|------------------|------------------|
-| listToFilter | listObject | 要篩選的對象清單。 它必須是欄位參考。 |
-| keyAttributeName | 字串 | 屬性名稱（在給定清單的對象中），用作篩選的鍵 |
-| keyValueList | list | 篩選的索引鍵值陣列 |
+| 清單到篩選器 | listObject | 要篩選的對象清單。 它必須是欄位引用。 |
+| keyAttributeName | 字串 | 給定清單對象中的屬性名稱，用作篩選鍵 |
+| keyValueList | list | 用於篩選的鍵值陣列 |
 
 ## 簽名和返回的類型
 
@@ -56,11 +56,11 @@ ht-degree: 8%
 
 `filter(listObject, string, listBoolean)`
 
-傳回listObject。
+返回listObject。
 
 ## 範例
 
-以下是傳入事件「myevent」中傳遞之有效負載的範例：
+以下是傳入事件「myevent」中傳遞的負載示例：
 
 ```json
 "productListItems": [{
@@ -78,7 +78,7 @@ ht-degree: 8%
 }]
 ```
 
-您可以使用下列運算式：
+可以使用以下表達式：
 
 ```json
 filter(
@@ -88,4 +88,4 @@ filter(
 )
 ```
 
-傳回包含兩個物件（ID為「product2」和「product3」）的listObject。
+返回一個listObject，該對象包含兩個以&quot;product2&quot;和&quot;product3&quot;為id的對象。

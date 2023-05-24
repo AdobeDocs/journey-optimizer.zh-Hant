@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: nowWithDelta
-description: 了解函式nowWithDelta
+description: 瞭解函式nowWithDelta
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: nowWithDelta，函式，運算式，歷程
+keywords: nowWithDelta，函式，表達式，旅程
 exl-id: cb1eb221-8532-4637-ac6c-8e058463ac94
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 # nowWithDelta {#nowWithDelta}
 
-返回包含偏移的當前日期時間。 如果指定了時區ID，則會套用時區偏移。 如需資料類型的詳細資訊，請參閱 [本頁](../expression/data-types.md).
+返回當前日期時間（包括偏移）。 如果指定了時區ID，將應用時區偏移。 有關資料類型的詳細資訊，請參閱 [此頁](../expression/data-types.md)。
 
 ## 類別
 
@@ -30,17 +30,17 @@ ht-degree: 7%
 
 | 參數 | 說明 |
 |--- |--- |
-| delta | 正整數或負整數值 |
-| 日期部分 | 年、月、天、小時、分鐘或秒作為字串 |
-| 時區id | 時區值的字串表示法。 如需詳細資訊，請參閱 [資料類型](../expression/data-types.md). 時區ID必須是字串常數。 它不能是欄位參考或運算式。 |
+| 三角 | 正整數 |
+| 日期部分 | 年、月、天、小時、分或秒（字串） |
+| 時區ID | 時區值的字串表示法。 有關詳細資訊，請參見 [資料類型](../expression/data-types.md)。 時區ID必須是字串常數。 它不能是欄位引用或表達式。 |
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `nowWithDelta(<delta>,<date part>`
 
 `nowWithDelta(<delta>,<date part>,"<timeZone id>")`
 
-傳回dateTime。
+返回dateTime。
 
 ## 範例
 
@@ -48,4 +48,4 @@ ht-degree: 7%
 
 `nowWithDelta(-2, "hours", "Europe/Paris")`
 
-傳回2小時前的dateTime。
+返回2小時前的dateTime。

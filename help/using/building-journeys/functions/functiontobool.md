@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: toBool
-description: 了解函式至Bool
+description: 瞭解到Bool的函式
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: tobool，函式，運算式，歷程
+keywords: tobool，函式，表達，旅程
 exl-id: 0bb68d05-bb90-48b7-aff3-82ab15d55ebe
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,10 +16,10 @@ ht-degree: 11%
 
 # toBool {#toBool}
 
-根據參數值的類型，將參數值轉換為布爾值。
+根據參數值的類型將參數值轉換為布爾值。
 
-* 從字串：嘗試將字串值轉換為布林值（如果字串值為「true」，則從「true」），否則從false
-* 從數值：若數值不等於0，則為true；否則為false
+* 從字串：嘗試將字串值轉換為布爾值，如果字串值為&quot;true&quot;，則從&quot;true&quot;轉換為false，否則
+* 從數字：如果數值不等於0，則返回true；否則返回false
 
 ## 類別
 
@@ -46,7 +46,7 @@ ht-degree: 11%
 
 `toBool(<integer>)`
 
-傳回布林值。
+返回布爾值。
 
 ## 範例
 
@@ -54,8 +54,8 @@ ht-degree: 11%
 
 `toBool(1)`
 
-傳回true。
+返回true。
 
 `toBool("this is not a boolean")`
 
-傳回false。
+返回false。

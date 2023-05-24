@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: inNextDays
-description: 了解NextDays中的函式
+description: 瞭解NextDays中的函式
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: inNextDays，函式，運算式，歷程
+keywords: inNextDays，函式，表達式， journey
 exl-id: 0cb3e0db-dc5b-4d4e-a057-af030d9bdb21
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 # inNextDays {#inNextDays}
 
-如果指定的日期或dateTime介於現在和現在+差異天之間，則傳回true。
+如果給定日期或dateTime介於現在和現在+增量天之間，則返回true。
 
 ## 類別
 
@@ -30,17 +30,17 @@ ht-degree: 18%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| 日期時間 | dateTime |
-| delta | 整數 |
+| 日期時間 | 日期時間 |
+| 三角 | 整數 |
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `inNextDays(<dateTime>,<integer>)`
 
-傳回布林值。
+返回布爾值。
 
 ## 範例
 
 `inNextDays(toDateTime('2010-12-12T01:11:00Z'), 4)`
 
-傳回true。
+返回true。

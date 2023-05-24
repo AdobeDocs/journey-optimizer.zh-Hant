@@ -2,71 +2,71 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 個人化內容
-description: 進一步了解您個人化內容和顯示訊息的方式。
+description: 瞭解有關如何個性化內容和顯示消息的更多資訊。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-keywords: 運算式，編輯器，內容，個人化
+keywords: 表達式，編輯器，上下文，個性化
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 15%
+ht-degree: 21%
 
 ---
 
 # 個人化內容{#personalization-areas}
 
-傳遞的訊息的內容和顯示 [!DNL Journey Optimizer] 可以透過數種不同的方式進行個人化。
+通過 [!DNL Journey Optimizer] 可以通過多種不同的方式實現個性化。
 
-在具有編輯器圖示的每個欄位中，您可以開啟個人化編輯器（也稱為運算式編輯器）並定義個人化。
+在每個帶有編輯器表徵圖的欄位中，都可以開啟個性化編輯器（也稱為表達式編輯器）並定義個性化。
 
 ![](assets/perso_icon.png)
 
-## 個人化您的電子郵件 {#personalize-emails}
+## 個性化您的電子郵件 {#personalize-emails}
 
-當您建立電子郵件時，可以在 **[!UICONTROL 主旨行]** 欄位。
+建立電子郵件時，可以在 **[!UICONTROL 主題行]** 的子菜單。
 
 ![](assets/perso_subject.png)
 
-在電子郵件設計工具中，您可以個人化內容：
+在電子郵件設計器中，您可以個性化內容：
 
-* 在 **訊息**:按一下文字區塊內的，按一下 **新增個人化** 圖示。 如需電子郵件設計工具介面的詳細資訊，請參閱 [節](../email/get-started-email-design.md).
+* 在 **消息**:在文本塊內按一下，按一下 **添加個性化** 表徵圖。 有關電子郵件設計器介面的詳細資訊，請參閱 [節](../email/get-started-email-design.md)。
 
    ![](assets/perso_insert.png)
 
-* 若 **連結**:選取文字區塊內的文字或影像，按一下 **插入連結** 圖示。 在視窗中，您可以按一下 **新增個人化** 表徵圖。
+* 對於 **連結**:在文本塊中選擇一些文本或影像，按一下 **插入連結** 表徵圖。 在窗口中，可以通過按一下 **添加個性化** 表徵圖
 
    ![](assets/perso_link.png)
 
-在這兩種情況下，您都可存取個人化編輯器。
+在這兩種情況下，都可以訪問個性化編輯器。
 
 ![](assets/perso_ee.png)
 
-## 個人化您的推播通知 {#personalize-push}
+## 個性化推送通知 {#personalize-push}
 
-您也可以將 **推播通知** 在下列欄位中：
+您還可以個性化 **推送通知** 的子菜單。
 
 * **標題**
 * **內文**
-* **自訂音效**
+* **自定義聲音**
 * **徽章**
 * **自訂資料**
 
 ![](assets/perso_push.png)
 
-進一步了解推播通知設定，位於 [本節](../push/push-gs.md).
+瞭解有關中推送通知配置的詳細資訊 [此部分](../push/push-gs.md)。
 
-## 個人化您的優惠方案 {#personalize-offers}
+## 個人化您的優惠 {#personalize-offers}
 
-將文字類型內容新增至選件的表示時，您也可以存取個人化編輯器。
+您也可以在將文字類型的內容新增到優惠的表示時存取個人化編輯器。
 
-進一步了解如何透過 [本節](../offers/offer-library/creating-personalized-offers.md#custom-text).
+瞭解有關使用決策管理管理內容的更多資訊 [此部分](../offers/offer-library/creating-personalized-offers.md#custom-text)。
 
-## 建立個人化URL{#personalize-urls}
+## 建立個性化URL{#personalize-urls}
 
-個人化 URL 會根據設定檔屬性，將收件者帶往網站特定頁面或個人化微網站。 在Adobe Journey Optimizer中，您可以將個人化新增至訊息內容中的URL。 URL 個人化可套用至文字和影像，同時使用個人資料或內容資料。
+個人化 URL 會根據設定檔屬性，將收件者帶往網站特定頁面或個人化微網站。 在Adobe Journey Optimizer，您可以將個性化添加到消息內容中的URL。 URL 個人化可套用至文字和影像，同時使用個人資料或內容資料。
 
-了解如何在插入個人化URL [本節](personalization-syntax.md#perso-urls).
+瞭解如何在中插入個性化URL [此部分](personalization-syntax.md#perso-urls)。
 

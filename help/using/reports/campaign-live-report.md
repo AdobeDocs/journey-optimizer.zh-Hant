@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 行銷活動即時報告
-description: 了解如何使用Campaign即時報表中的資料
+description: 瞭解如何使用市場活動即時報告中的資料
 feature: Reporting
 topic: Content Management
 role: User
@@ -22,9 +22,9 @@ ht-degree: 7%
 >title="行銷活動即時報告"
 >abstract="行銷活動即時報告可讓您僅在過去 24 小時內對行銷活動的影響和效能進行即時測量和視覺化。您的報告會分為不同的 Widget，詳細說明您的行銷活動的成功和錯誤。每個報告儀表板都可以透過調整大小或移除 Widget 來修改。"
 
-您可以使用 **[!UICONTROL 即時檢視]** 按鈕。
+您可以通過 **[!UICONTROL 即時視圖]** 按鈕
 
-行銷活動 **[!UICONTROL 即時報表]** 頁面中顯示以下索引標籤：
+市場活動 **[!UICONTROL 即時報告]** 的子菜單。
 
 * [Campaign](#campaign-live)
 * [電子郵件](#email-live)
@@ -32,17 +32,17 @@ ht-degree: 7%
 * [簡訊](#sms-live)
 * [Web](#web-tab)
 
-行銷活動 **[!UICONTROL 即時報表]** 會分為不同的小工具，詳細說明促銷活動的成功和錯誤。 如有需要，可對每個介面工具集調整大小並加以刪除。 有關詳細資訊，請參閱 [節](../reports/live-report.md#modify-dashboard).
+市場活動 **[!UICONTROL 即時報告]** 被分成不同的小部件，詳細列出您的活動的成功和錯誤。 如果需要，可以調整每個小部件的大小並將其刪除。 有關此的詳細資訊，請參閱此 [節](../reports/live-report.md#modify-dashboard)。
 
-如需Adobe Journey Optimizer中可用每個量度的詳細清單，請參閱 [本頁](live-report.md#list-of-components-live).
+有關Adobe Journey Optimizer可用的每個指標的詳細清單，請參閱 [此頁](live-report.md#list-of-components-live)。
 
-## 行銷活動標籤 {#campaign-global}
+## 市場活動頁籤 {#campaign-global}
 
 ### 傳送 {#delivery-global}
 
-此 **[!UICONTROL 促銷活動統計資料]** 介面工具集詳細說明與促銷活動相關的主要資訊：
+的 **[!UICONTROL 市場活動統計]** 小部件詳細列出與市場活動相關的主要資訊：
 
-* **[!UICONTROL 輸入的設定檔]**:開始歷程的設定檔數。
+* **[!UICONTROL 輸入的配置檔案]**:開始此行程的配置檔案數。
 
 <!--
 ### Experimentation tab (#experimentation-live)
@@ -50,144 +50,144 @@ ht-degree: 7%
 From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
 -->
 
-## 電子郵件索引標籤 {#email-live}
+## 電子郵件頁籤 {#email-live}
 
-從您的行銷活動 **[!UICONTROL 即時報表]**, **[!UICONTROL 電子郵件]** 索引標籤會詳細列出與促銷活動中所傳送之電子郵件傳送相關的主要資訊。
+從您的活動 **[!UICONTROL 即時報告]**，也請參見Wiki頁。 **[!UICONTROL 電子郵件]** 頁籤詳細列出與市場活動中發送的電子郵件交貨相關的主要資訊。
 
 ![](assets/campaign_report_live_1.png)
 
-+++進一步了解「電子郵件」報表中可用的不同量度和小工具。
++++瞭解電子郵件報告中可用的不同度量和小部件的詳細資訊。
 
-此 **[!UICONTROL 電子郵件傳送統計資料]** 介面工具集詳細說明了與您的訊息相關的主要資訊：
+的 **[!UICONTROL 電子郵件發送統計資訊]** 小部件詳細列出與消息相關的主要資訊：
 
-* **[!UICONTROL 傳遞]**:已成功發送的消息數。
+* **[!UICONTROL 已交付]**:成功發送的消息數。
 
-* **[!UICONTROL 跳出數]**:傳送和自動回訪處理期間累積的錯誤總數。
+* **[!UICONTROL 邊界]**:在交貨和自動退貨處理期間累積的錯誤總數。
 
-* **[!UICONTROL 錯誤]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
+* **[!UICONTROL 錯誤]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
 
-此 **[!UICONTROL 依電子郵件傳送量度]** 表格和 **[!UICONTROL 電子郵件摘要]** 圖表會詳細說明您的傳送是否成功：
+的 **[!UICONTROL 通過電子郵件發送度量]** 表格 **[!UICONTROL 電子郵件摘要]** 圖表詳細說明了您交付的成功：
 
-* **[!UICONTROL 已傳送]**:傳送的傳送總數。
+* **[!UICONTROL 已發送]**:交貨的發送總數。
 
-* **[!UICONTROL 傳遞]**:已成功發送的消息數。
+* **[!UICONTROL 已交付]**:成功發送的消息數。
 
-* **[!UICONTROL 跳出數]**:傳送和自動回訪處理期間累積的錯誤總數。
+* **[!UICONTROL 邊界]**:在交貨和自動退貨處理期間累積的錯誤總數。
 
-* **[!UICONTROL 錯誤]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
+* **[!UICONTROL 錯誤]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
 
-* **[!UICONTROL 開啟]**:傳送中開啟訊息的次數。
+* **[!UICONTROL 開啟]**:在傳遞中開啟消息的次數。
 
-* **[!UICONTROL 點按次數]**:內容在傳送中被點按的次數。
+* **[!UICONTROL 按一下]**:在傳遞中按一下內容的次數。
 
-* **[!UICONTROL 取消訂閱]**:取消訂閱連結的點按次數。
+* **[!UICONTROL 取消訂閱]**:取消訂閱連結上的按一下次數。
 
-* **[!UICONTROL 垃圾郵件投訴]**:宣告郵件為垃圾郵件或垃圾郵件的次數。
+* **[!UICONTROL 垃圾郵件投訴]**:將郵件聲明為垃圾郵件或垃圾郵件的次數。
 
-此 **[!UICONTROL 退回原因]**, **[!UICONTROL 跳出類別]** 和 **[!UICONTROL 硬式和彈回 — 依電子郵件]** 小工具包含與退信消息相關的可用資料，例如：
+的 **[!UICONTROL 彈出原因]**。 **[!UICONTROL 彈出類別]** 和 **[!UICONTROL 硬體和彈出 — 通過電子郵件]** 小部件包含與已恢復消息相關的可用資料，如：
 
-* **[!UICONTROL 硬跳出]**:永久錯誤的總數，例如錯誤的電子郵件地址。 這包含明確指出地址無效的錯誤訊息，例如「未知」使用者。
+* **[!UICONTROL 硬彈]**:永久錯誤（如錯誤的電子郵件地址）的總數。 這涉及一條錯誤消息，該錯誤消息明確指出地址無效，如「未知用戶」。
 
-* **[!UICONTROL 軟跳出]**:臨時錯誤（如完整收件箱）的總數。
+* **[!UICONTROL 軟彈跳]**:臨時錯誤（如完整收件箱）的總數。
 
-* **[!UICONTROL 已忽略]**:臨時的總數，例如「不在辦公室」或技術錯誤，例如，如果發送者類型是郵遞區號。
+* **[!UICONTROL 已忽略]**:臨時（如「外出」）或技術錯誤（例如，如果發件人類型是郵遞員）的總數。
 
-此 **[!UICONTROL 錯誤原因]** 和 **[!UICONTROL 排除原因]** 圖形和表格可讓您查看在傳送期間發生的錯誤和排除。
+的 **[!UICONTROL 錯誤原因]** 和 **[!UICONTROL 排除原因]** 圖形和表格允許您查看在交付期間發生的錯誤和排除。
 
-此 **[!UICONTROL 電子郵件 — 最上層收件者網域]** 圖表和表格詳細說明收件者最常使用哪些網域來開啟電子郵件。
+的 **[!UICONTROL 電子郵件 — 頂級收件人域]** 圖表和表詳細資訊，哪些域是收件人開啟電子郵件時最常用的域。
 +++
 
-## 推播通知標籤 {#push-live}
+## 推送通知頁籤 {#push-live}
 
-從您的行銷活動 **[!UICONTROL 即時報表]**, **[!UICONTROL 推播通知]** 索引標籤會詳細說明與促銷活動中傳送的推送傳送相關的主要資訊。
+從您的活動 **[!UICONTROL 即時報告]**，也請參見Wiki頁。 **[!UICONTROL 推送通知]** 頁籤詳細列出與市場活動中發送的推送交貨相關的主要資訊。
 
 ![](assets/campaign_report_live_2.png)
 
-+++進一步了解「推送」報表可用的不同量度和Widget。
++++瞭解有關「推送」報告可用的不同度量和小部件的詳細資訊。
 
-**[!UICONTROL 推播通知傳送效能]**, **[!UICONTROL 推播通知摘要]** 和 **[!UICONTROL 傳送量度 — 依推播]** widget會詳細說明與訊息相關的主要資訊：
+**[!UICONTROL 推送通知發送效能]**。 **[!UICONTROL 推送通知摘要]** 和 **[!UICONTROL 發送度量 — 按推送]** 小部件詳細列出與您的消息相關的主要資訊：
 
-* **[!UICONTROL 已傳送]**:傳送的傳送總數。
+* **[!UICONTROL 已發送]**:交貨的發送總數。
 
-* **[!UICONTROL 傳遞]**:已成功發送的消息數。
+* **[!UICONTROL 已交付]**:成功發送的消息數。
 
-* **[!UICONTROL 跳出數]**:傳送和自動回訪處理期間累積的錯誤總數。
+* **[!UICONTROL 邊界]**:在交貨和自動退貨處理期間累積的錯誤總數。
 
-* **[!UICONTROL 錯誤]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
+* **[!UICONTROL 錯誤]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
 
-* **[!UICONTROL 開啟]**:傳送中開啟訊息的次數。
+* **[!UICONTROL 開啟]**:在傳遞中開啟消息的次數。
 
-* **[!UICONTROL 動作]**:已傳送推播通知的動作總數，例如按鈕點擊或解除。
+* **[!UICONTROL 操作]**:已傳遞的推送通知操作總數，例如按一下按鈕或解除按鈕。
 
-* **[!UICONTROL 參與]**:此推播通知的開啟次數和動作總數，亦即設定檔開啟了推播或按了按鈕。
+* **[!UICONTROL 預訂]**:此推送通知的開啟和操作總數，即，如果配置檔案開啟了推送或按一下了按鈕。
 
-此 **[!UICONTROL 錯誤原因]** 和 **[!UICONTROL 排除原因]** 圖形和表格可讓您查看在傳送期間發生的錯誤和排除。
+的 **[!UICONTROL 錯誤原因]** 和 **[!UICONTROL 排除原因]** 圖形和表格允許您查看在交付期間發生的錯誤和排除。
 
-此 **[!UICONTROL 發送統計資訊 — 失敗]** 介面工具集可讓您查看發生了多少錯誤和彈回。
+的 **[!UICONTROL 發送統計資訊 — 失敗]** 小部件允許您查看發生了多少個錯誤和彈出。
 
-此 **[!UICONTROL 依平台追蹤]**, **[!UICONTROL 依平台傳送]** 和 **[!UICONTROL 依平台劃分]** 圖表和表格會根據作業系統，詳細說明推播通知的成功。
+的 **[!UICONTROL 按平台跟蹤]**。 **[!UICONTROL 按平台發送]** 和 **[!UICONTROL 按平台細分]** 圖表和表根據作業系統詳細說明了推送通知的成功。
 +++
 
-## SMS標籤 {#sms-live}
+## SMS頁籤 {#sms-live}
 
-從您的行銷活動 **[!UICONTROL 即時報表]**, **[!UICONTROL 簡訊]** 索引標籤會詳細說明與促銷活動中傳送的SMS傳送相關的主要資訊。
+從您的活動 **[!UICONTROL 即時報告]**，也請參見Wiki頁。 **[!UICONTROL 簡訊]** 頁籤詳細列出與市場活動中發送的SMS遞送相關的主要資訊。
 
 ![](assets/campaign_report_live_3.png)
 
-+++進一步了解SMS報表可用的不同量度和Widget。
++++瞭解SMS報告中可用的不同度量和小部件的詳細資訊。
 
-此 **[!UICONTROL SMS — 統計]** 表格會詳細說明傳送的成功：
+的 **[!UICONTROL SMS — 統計]** 表詳細列出了您交付的成功：
 
-* **[!UICONTROL 已鎖定]**:符合此傳送目標設定檔資格的使用者設定檔數目。
+* **[!UICONTROL 目標]**:符合此傳遞目標配置檔案的用戶配置檔案數。
 
-* **[!UICONTROL 已排除]**:未接收訊息的使用者設定檔數目，已從目標設定檔中排除。
+* **[!UICONTROL 已排除]**:未接收消息的從目標配置檔案中排除的用戶配置檔案數。
 
-* **[!UICONTROL 已傳送]**:傳送的傳送總數。
+* **[!UICONTROL 已發送]**:交貨的發送總數。
 
-* **[!UICONTROL 傳遞]**:已成功發送的消息數。
+* **[!UICONTROL 已交付]**:成功發送的消息數。
 
-* **[!UICONTROL 跳出數]**:傳送和自動回訪處理期間累積的錯誤總數。
+* **[!UICONTROL 邊界]**:在交貨和自動退貨處理期間累積的錯誤總數。
 
-* **[!UICONTROL 錯誤]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
+* **[!UICONTROL 錯誤]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
 
-* **[!UICONTROL 點按次數]**:URL瀏覽總數。
+* **[!UICONTROL 按一下]**:URL訪問總數。
 
-此 **[!UICONTROL 按日期的SMS效能]** 介面工具集會透過圖表詳細說明與訊息相關的主要資訊：
+的 **[!UICONTROL 按日期顯示的SMS效能]** 小部件使用圖表詳細列出與消息相關的主要資訊：
 
-* **[!UICONTROL 已傳送]**:傳送的傳送總數。
+* **[!UICONTROL 已發送]**:交貨的發送總數。
 
-* **[!UICONTROL 傳遞]**:已成功發送的消息數。
+* **[!UICONTROL 已交付]**:成功發送的消息數。
 
-* **[!UICONTROL 跳出數]**:傳送和自動回訪處理期間累積的錯誤總數。
+* **[!UICONTROL 邊界]**:在交貨和自動退貨處理期間累積的錯誤總數。
 
-* **[!UICONTROL 錯誤]**:傳送期間發生的錯誤總數，使其無法傳送至設定檔。
+* **[!UICONTROL 錯誤]**:在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。
 
-此 **[!UICONTROL 排除原因]**, **[!UICONTROL 跳出原因]** 和 **[!UICONTROL 錯誤原因]** 圖形和表格可讓您查看在傳送期間發生的錯誤和排除。
+的 **[!UICONTROL 排除原因]**。 **[!UICONTROL 彈出原因]** 和 **[!UICONTROL 錯誤原因]** 圖形和表格允許您查看在交付期間發生的錯誤和排除。
 +++
 
-## 網頁標籤 {#web-tab}
+## Web頁籤 {#web-tab}
 
-從您的行銷活動 **[!UICONTROL 全域報表]**, **[!UICONTROL Web]** 頁簽詳細說明了與網頁相關的主要資訊。
+從您的活動 **[!UICONTROL 全局報告]**，也請參見Wiki頁。 **[!UICONTROL Web]** 頁籤詳細列出與網頁相關的主要資訊。
 
-+++進一步了解網頁報表可用的不同量度和小工具。
++++瞭解有關Web報告可用的不同度量和小部件的詳細資訊。
 
-此 **[!UICONTROL Web效能]** KPI會詳細說明與訪客與您的網路體驗互動相關的主要資訊，例如：
+的 **[!UICONTROL Web效能]** KPI將詳細列出與訪問者的Web體驗相關的主要資訊，例如：
 
-* **[!UICONTROL 不重複曝光數]**:將網站體驗傳送至的不重複使用者人數。
+* **[!UICONTROL 獨特印象]**:向其提供Web體驗的唯一用戶數。
 
-* **[!UICONTROL 曝光數]**:傳送給所有使用者的網站體驗總數。
+* **[!UICONTROL 印象]**:提供給所有用戶的Web體驗總數。
 
-* **[!UICONTROL 點按次數]**:URL瀏覽總數。
+* **[!UICONTROL 按一下]**:URL訪問總數。
 
-此 **[!UICONTROL 網路摘要]** 圖表顯示相關時段的網路體驗（曝光數、不重複曝光次數和點按次數）的演變。
+的 **[!UICONTROL Web摘要]** 圖形顯示了您在相關期間的Web體驗（印象、獨特印象和點擊）的演變。
 
-此 **[!UICONTROL 依元素點按]** 表格詳細說明與訪客在您的網頁上參與各種元素的相關主要資訊。
+的 **[!UICONTROL 按元素按一下]** 表詳細列出了與訪問者參與網頁中各種元素相關的主要資訊。
 +++
 
 ## 其他資源
 
 * [開始使用行銷活動](../campaigns/get-started-with-campaigns.md)
 * [建立行銷活動](../campaigns/create-campaign.md)
-* [建立API觸發的促銷活動](../campaigns/api-triggered-campaigns.md)
+* [建立API觸發的市場活動](../campaigns/api-triggered-campaigns.md)
 * [修改或停止行銷活動](../campaigns/modify-stop-campaign.md)
 * [行銷活動全域報告](campaign-global-report.md)

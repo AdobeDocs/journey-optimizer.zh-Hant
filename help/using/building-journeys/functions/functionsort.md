@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: sort
-description: 了解函式排序
+description: 瞭解函式排序
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: 排序，函式，表達式，歷程
+keywords: 排序，函式，表達式，旅程
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -20,7 +20,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->如果目標清單為listObject，則此函式只能用於自訂動作運算式。
+>如果目標清單是listObject，則此函式只能用於自定義操作表達式。
 
 ## 類別
 
@@ -34,39 +34,39 @@ ht-degree: 8%
 
 | 參數 | 類型 | 說明 |
 |-----------|------------------|------------------|
-| listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly, or listObject | 清單。 對於listObject，它必須是欄位參考。 |
-| keyAttributeName | 字串 | 此參數僅適用於listObject。 指定清單對象中的屬性名稱用作排序的鍵。 |
-| sortingOrder | 布林值 | 遞增(true)或遞減(false) |
+| 清單排序 | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 清單進行排序。 對於listObject，它必須是欄位引用。 |
+| keyAttributeName | 字串 | 此參數僅用於listObject。 給定清單對象中的屬性名稱用作排序的鍵。 |
+| 排序順序 | 布林值 | 升序(true)或降序(false) |
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `sort(<listInteger>,<boolean>)`
 
-傳回整數清單。
+返回整數清單。
 
 `sort(<listDecimal>,<boolean>)`
 
-傳回小數清單。
+返回小數位清單。
 
 `sort(<listString>,<boolean>)`
 
-傳回字串清單。
+返回字串清單。
 
 `sort(<listDateTimeOnly>,<boolean>)`
 
-返回不考慮時區的datetimes清單。
+返回不考慮時區的日期時間清單。
 
 `sort(<listDateTime>,<boolean>)`
 
-返回datetimes清單。
+返回日期時間清單。
 
 `sort(<listDateOnly>,<boolean>)`
 
-傳回日期清單。
+返回日期清單。
 
 `sort(<listBoolean>,<boolean>)`
 
-傳回布林值清單。
+返回布爾值清單。
 
 `sort(<listObject>,<string>,<boolean>)`
 

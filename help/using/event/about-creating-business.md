@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定業務事件
-description: 了解如何建立業務活動
+description: 瞭解如何建立業務事件
 feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: 事件，歷程，業務，設定
+keywords: 事件、行程、業務、配置
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
@@ -23,54 +23,54 @@ ht-degree: 15%
 >title="商業事件 "
 >abstract="事件設定可讓您定義 Journey Optimizer 會接收為事件的資訊。您可以使用多個事件 (在歷程的不同步驟中)，而好幾個歷程可以使用同一個事件。和單一事件不同，商業事件並不會連結到特定的設定檔。事件 ID 類型一直都會以規則為基礎。"
 
-和單一事件不同，商業事件並不會連結到特定的設定檔。事件 ID 類型一直都會以規則為基礎。深入了解 [本節](../event/about-events.md).
+和單一事件不同，商業事件並不會連結到特定的設定檔。事件 ID 類型一直都會以規則為基礎。閱讀有關中業務事件的更多資訊 [此部分](../event/about-events.md)。
 
-事件發生時，排程器可定期或由業務事件一次性觸發以讀取區段為基礎的歷程。
+基於讀段的行程可以在事件發生時由調度器定期或由業務事件一次性觸發。
 
-業務事件可以是「產品回頭有存貨」、「公司股價達到一定值」等。
+業務事件可以是「產品回到庫存」、「公司股價達到一定值」等。
 
 >[!NOTE]
 >
->您也可以觀看業務事件使用案例 [教學課程](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html). 請注意，不需要為設定檔啟用結構。
+>您還可以查看業務事件使用案例 [教程](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html)。 請注意，無需為配置檔案啟用架構。
 
 ## 重要備註 {#important-notes}
 
-* 只有時間序列結構可用。 無法使用體驗事件、決策事件和歷程步驟事件結構。
-* 事件結構必須包含非以人為基礎的主要身分。 定義事件時必須選取下列欄位： `_id` 和 `timestamp`
-* 業務事件只能視為歷程的第一步。
-* 將業務事件拖放為歷程的第一步時，歷程的排程器類型將是「業務事件」。
-* 在業務事件後，只能捨棄讀取區段活動。 系統會自動新增為下一個步驟。
-* 若要允許執行多個業務事件，請在 **[!UICONTROL 執行]** 區段。
-* 觸發業務事件後，將區段從15分鐘匯出至最多1小時會有延遲。
-* 測試業務事件時，您必須傳遞事件參數以及測試設定檔的識別碼，以便在測試中輸入歷程。 此外，在測試以業務事件為基礎的歷程時，您只能觸發單一設定檔入口。 請參閱[本節](../building-journeys/testing-the-journey.md#test-business)。在測試模式中，沒有可用的「程式碼檢視」模式。
-* 如果新的業務事件到達，目前處於歷程中的個人會發生什麼事？ 其運作方式與當新週期發生時，個人仍處於循環歷程中的情況相同。 他們的路終了。 因此，如果行銷人員預期會發生頻繁的業務事件，就必須注意避免建立過長的歷程。
+* 只有時間系列方案可用。 「體驗事件」、「決策事件」和「行程步驟事件」架構不可用。
+* 事件架構必須包含非基於人的主標識。 定義事件時必須選擇以下欄位： `_id` 和 `timestamp`
+* 商務活動只能作為旅程的第一步而丟棄。
+* 將業務事件作為行程的第一步放置時，行程的調度器類型將是「業務事件」。
+* 業務事件後，只能刪除讀段活動。 它將自動添加為下一步。
+* 要允許執行多個業務事件，請在 **[!UICONTROL 執行]** 的下界。
+* 觸發業務事件後，將延遲將段從15分鐘導出到最多1小時。
+* 在測試業務事件時，您必須傳遞事件參數和test配置檔案的標識符，該配置檔案將輸入test行程。 此外，在測試基於業務事件的行程時，您只能觸發單個配置檔案入口。 請參閱[本節](../building-journeys/testing-the-journey.md#test-business)。在test模式下，沒有可用的「代碼視圖」模式。
+* 如果新業務活動到來，當前在旅途中的個人會如何？ 它的行為方式與當新的重複發生時個體仍處於循環過程中時的行為方式相同。 他們的道路結束了。 因此，如果市場營銷人員預期商業活動頻繁，就必須注意避免長途旅行。
 * 業務事件不能與單一事件或區段資格活動結合使用。
 
 ## 多個業務事件 {#multiple-business-events}
 
-以下是幾個重要附註，當連續收到多個業務事件時適用。
+以下是在一行中接收多個業務事件時適用的幾個重要說明。
 
-**歷程處理期間收到業務事件時的行為為何？**
+**在行程處理期間接收業務事件時的行為是什麼？**
 
-商務活動遵循重新進入規則的方式與單一活動相同。 如果歷程允許重新進入，則會處理下一個業務事件。
+商業活動遵循與單一活動一樣的重新入場規則。 如果旅程允許重新入場，將處理下一個商務活動。
 
-**避免過載實體化段的護欄是什麼？**
+**哪些護欄可以避免過載實例化段？**
 
-若是即時業務事件，對於指定的歷程，由第一個事件工作推播的資料會在1小時的時間範圍內重複使用。 對於已排程的歷程，沒有護欄。 進一步了解 [Adobe Experience Platform區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+在即拍業務事件的情況下，對於給定行程，在1小時時間窗口期間重複利用由第一事件作業推送的資料。 對於預定行程，沒有護欄。 瞭解有關 [Adobe Experience Platform分段處檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)。
 
-## 開始使用業務活動 {#gs-business-events}
+## 開始業務活動 {#gs-business-events}
 
-以下是設定業務事件的前幾個步驟：
+以下是配置業務事件的第一步：
 
-1. 在「管理」(ADMINISTRATION)菜單部分中，選擇 **[!UICONTROL 配置]**. 在  **[!UICONTROL 事件]** ，按一下 **[!UICONTROL 管理]**. 畫面隨即顯示事件清單。
+1. 在「管理」(ADMINISTRATION)菜單部分，選擇 **[!UICONTROL 配置]**。 在  **[!UICONTROL 事件]** ，按一下 **[!UICONTROL 管理]**。 畫面隨即顯示事件清單。
 
    ![](assets/jo-event1.png)
 
-1. 按一下 **[!UICONTROL 建立事件]** 來建立新事件。 事件設定窗格會在畫面右側開啟。
+1. 按一下 **[!UICONTROL 建立事件]** 的子菜單。 事件設定窗格會在畫面右側開啟。
 
    ![](assets/jo-event2.png)
 
-1. 輸入事件名稱。 您也可以新增說明。
+1. 輸入事件名稱。 也可以添加說明。
 
    ![](assets/jo-event3-business.png)
 
@@ -78,29 +78,29 @@ ht-degree: 15%
    >
    >請勿使用空格或特殊字元。請勿使用超過 30 個字元。
 
-1. 在 **[!UICONTROL 類型]** 欄位，選擇 **企業**.
+1. 在 **[!UICONTROL 類型]** ，選擇 **業務**。
 
    ![](assets/jo-event3bis-business.png)
 
-1. 使用此事件的歷程次數會顯示在 **[!UICONTROL 用於]** 欄位。 您可以按一下 **[!UICONTROL 檢視歷程]** 圖示以顯示使用此事件的歷程清單。
+1. 使用此事件的行程數顯示在 **[!UICONTROL 用於]** 的子菜單。 您可以按一下 **[!UICONTROL 查看行程]** 表徵圖，顯示使用此事件的行程清單。
 
-1. 定義結構和裝載欄位：這是您選取歷程預期會收到的事件資訊（或裝載）的位置。 您稍後將在歷程中使用此資訊。 請參閱[本節](../event/about-creating-business.md#define-the-payload-fields)。
+1. 定義架構和負載欄位：這是您選擇預期接收的事件資訊（或負載）行程的位置。 稍後您將在旅途中使用此資訊。 請參閱[本節](../event/about-creating-business.md#define-the-payload-fields)。
 
    ![](assets/jo-event5-business.png)
 
-   只有時間序列結構可用。 `Experience Events`, `Decision Events` 和 `Journey Step Events` 結構無法使用。 事件結構必須包含非以人為基礎的主要身分。 定義事件時必須選取下列欄位： `_id` 和 `timestamp`
+   只有時間系列方案可用。 `Experience Events`。 `Decision Events` 和 `Journey Step Events` 架構不可用。 事件架構必須包含非基於人的主標識。 定義事件時必須選擇以下欄位： `_id` 和 `timestamp`
 
    ![](assets/test-profiles-4.png)
 
-1. 按一下內部 **[!UICONTROL 事件ID條件]** 欄位。 使用簡單運算式編輯器來定義條件，系統用來識別會觸發歷程的事件。
+1. 在 **[!UICONTROL 事件ID條件]** 的子菜單。 使用簡單表達式編輯器定義系統用於標識觸發行程的事件的條件。
 
    ![](assets/jo-event6-business.png)
 
-   在範例中，我們根據產品的id撰寫條件。 這表示每當系統收到符合此條件的事件時，都會將其傳遞至歷程。
+   在示例中，我們根據產品的id編寫了條件。 這意味著，每當系統收到符合此條件的事件時，它都會將其傳遞到行程。
 
    >[!NOTE]
    >
-   >在簡單運算式編輯器中，並非所有運算子都可用，它們取決於資料類型。 例如，對於欄位的字串類型，您可以使用「包含」或「等於」。
+   >在簡單表達式編輯器中，並非所有運算子都可用，它們取決於資料類型。 例如，對於欄位的字串類型，可以使用&quot;contains&quot;或&quot;equal to&quot;。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
@@ -108,42 +108,42 @@ ht-degree: 15%
 
    條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。在[本頁](../event/additional-steps-to-send-events-to-journey.md)中瞭解更多。
 
-## 定義裝載欄位 {#define-the-payload-fields}
+## 定義負載欄位 {#define-the-payload-fields}
 
-有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯之人員的金鑰。 裝載以Experience CloudXDM欄位定義為基礎。 如需XDM的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}.
+有效負載定義允許您選擇系統希望從行程中的事件接收的資訊以及確定與事件關聯的人員的密鑰。 負載基於Experience CloudXDM欄位定義。 有關XDM的詳細資訊，請參閱 [Adobe Experience Platform文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}。
 
-1. 從清單中選取XDM架構，然後按一下 **[!UICONTROL 欄位]** 欄位或 **[!UICONTROL 編輯]** 表徵圖。
+1. 從清單中選擇XDM架構，然後按一下 **[!UICONTROL 欄位]** 或 **[!UICONTROL 編輯]** 表徵圖
 
    ![](assets/journey8-business.png)
 
-   架構中定義的所有欄位都會顯示。 欄位清單因結構而異。 您可以搜尋特定欄位，或使用篩選器來顯示所有節點和欄位，或僅顯示選取的欄位。 根據架構定義，某些欄位可能是必填欄位，且已預先選取。 您無法取消選取它們。 依預設，會選取所有對於歷程正確接收事件而言為必要的欄位。
+   將顯示架構中定義的所有欄位。 欄位清單因方案而異。 您可以搜索特定欄位，或使用篩選器顯示所有節點和欄位，或僅顯示選定欄位。 根據架構定義，某些欄位可能是必需的並且預先選定。 不能取消選擇它們。 預設情況下，對於要由行程正確接收的事件，必須選擇的所有欄位。
 
    ![](assets/journey9-business.png)
 
    >[!NOTE]
    >
-   > 請確定已選取下列欄位： `_id` 和 `timestamp`
+   > 確保選擇了以下欄位： `_id` 和 `timestamp`
 
-1. 選取您要從事件接收的欄位。 這些是業務使用者在歷程中將利用的欄位。
+1. 選擇要從事件接收的欄位。 這些是業務用戶在旅途中將利用的欄位。
 
-1. 選取完所需欄位後，按一下 **[!UICONTROL 儲存]** 或按下 **[!UICONTROL 輸入]**.
+1. 選擇完所需欄位後，按一下 **[!UICONTROL 保存]** 按 **[!UICONTROL 輸入]**。
 
-   選取的欄位數會顯示在 **[!UICONTROL 欄位]**.
+   所選欄位的數量顯示在 **[!UICONTROL 欄位]**。
 
    ![](assets/journey12-business.png)
 
-## 預覽裝載 {#preview-the-payload}
+## 預覽負載 {#preview-the-payload}
 
-使用裝載預覽來驗證裝載定義。
+使用負載預覽驗證負載定義。
 
-1. 按一下 **[!UICONTROL 檢視裝載]** 圖示來預覽系統預期的裝載。
+1. 按一下 **[!UICONTROL 查看負載]** 表徵圖，預覽系統所需的負載。
 
    ![](assets/journey13-business.png)
 
-   您可以注意到已顯示選取的欄位。
+   您可以注意到，所選欄位將顯示。
 
    ![](assets/journey14-business.png)
 
-1. 檢查預覽以驗證有效負載定義。
+1. 檢查預覽以驗證負載定義。
 
-1. 接著，您可以將裝載預覽與事件傳送的負責人共用。 此裝載可協助他們設計推送至的事件設定 [!DNL Journey Optimizer]. 請參閱[此頁面](../event/additional-steps-to-send-events-to-journey.md)。
+1. 然後，您可以與負責事件發送的人員共用負載預覽。 此負載可以幫助他們設計推送到的事件的設定 [!DNL Journey Optimizer]。 請參閱[此頁面](../event/additional-steps-to-send-events-to-journey.md)。

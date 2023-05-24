@@ -1,23 +1,23 @@
 ---
-title: 建立直接郵件訊息
-description: 了解如何在Journey Optimizer中建立直接郵件訊息
+title: 建立直郵郵件
+description: 瞭解如何在Journey Optimizer建立直郵郵件
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: 直接郵件，郵件，行銷活動
+keywords: 直接郵件，郵件，促銷活動
 hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-badge: label="Beta" type="Informity"
+badge: label="Beta" type="Informative"
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '517'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
-# 建立直接郵件訊息 {#create-direct}
+# 建立直郵郵件 {#create-direct}
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
@@ -26,7 +26,7 @@ ht-degree: 9%
 
 >[!BEGINSHADEBOX]
 
-本檔案提供下列內容：
+本文件提供下列內容：
 
 * **[建立直接郵件](create-direct-mail.md)**
 * [設定直接郵件](direct-mail-configuration.md)
@@ -35,58 +35,58 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->直接郵件目前以私人測試版形式提供，且可能會經常更新，恕不另行通知。
+>直郵目前可作為專用測試版使用，並且可能會經常更新，恕不另行通知。
 
-直接郵件是離線通道，可讓您個人化並產生直接郵件提供者傳送郵件給客戶所需的解壓縮檔案。
+直接郵件是一種離線渠道，允許您個性化和生成直接郵件提供商向客戶發送郵件所需的提取檔案。
 
-建立直接郵件時，Journey Optimizer會產生一個檔案，其中包含所有目標設定檔和選取的資料（郵遞區號、設定檔屬性等）。 然後，您的直接郵件提供者便能擷取該檔案，並處理實際傳送。
+建立直郵時，Journey Optimizer會生成包含所有目標配置檔案和所選資料（例如，郵政地址、配置檔案屬性）的檔案。 您的直郵提供商將能夠檢索該檔案並處理實際發送。
 
-直接郵件訊息只能在已排程促銷活動的內容中建立。 它們無法用於API觸發的行銷活動或歷程中。
+只能在計畫的市場活動上下文中建立直接郵件消息。 它們不能用於API觸發的市場活動或旅程。
 
 >[!IMPORTANT]
 >
->傳送直接郵件訊息之前，請確定您已設定：
+>在發送直郵郵件之前，請確保已配置：
 >
->1. A [檔案路由配置](../direct-mail/direct-mail-configuration.md#file-routing-configuration) 它指定應上載和儲存解壓縮檔案的伺服器，
->1. A [直接郵件報文表面](../direct-mail/direct-mail-configuration.md#direct-mail-surface) 將引用檔案路由配置。
+>1. A [檔案路由配置](../direct-mail/direct-mail-configuration.md#file-routing-configuration) 指定抽取檔案應上載和儲存的伺服器，
+>1. A [直接郵件消息表](../direct-mail/direct-mail-configuration.md#direct-mail-surface) 將引用檔案路由配置。
 
 
-## 建立直接郵件訊息 {#create}
+## 建立直郵郵件 {#create}
 
-建立和傳送直接郵件訊息的步驟如下：
+建立和發送直郵郵件的步驟如下：
 
-1. 建立新的排程促銷活動，請選取 **[!UICONTROL 直接郵件]** 作為操作，並選擇要使用的通道曲面。 [了解如何建立直接郵件表面](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
+1. 建立新的計畫市場活動，選擇 **[!UICONTROL 直郵]** 頁籤。 [瞭解如何建立直郵表面](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
 
    ![](assets/direct-mail-campaign.png)
 
-1. 按一下 **[!UICONTROL 建立]** 然後定義行銷活動的基本資訊（名稱、說明）。 [了解如何設定行銷活動](../campaigns/create-campaign.md)
+1. 按一下 **[!UICONTROL 建立]** 然後定義有關市場活動的基本資訊（名稱、說明）。 [瞭解如何配置市場活動](../campaigns/create-campaign.md)
 
-1. 按一下 **[!UICONTROL 編輯內容]** 按鈕來設定要傳送至直接郵件提供者的解壓縮檔案。
+1. 按一下 **[!UICONTROL 編輯內容]** 按鈕，來配置要發送給直接郵件提供商的抽取檔案。
 
-1. 在 **[!UICONTROL 檔案名]** 欄位。
+1. 在 **[!UICONTROL 檔案名]** 的子菜單。
 
-   有時候，您可能需要在解壓縮檔案的開頭或結尾新增資訊。若要這麼做，請使用 **[!UICONTROL 附註]** 欄位，然後指定是否要將注釋作為頁眉或頁腳。
+   有時候，您可能需要在解壓縮檔案的開頭或結尾新增資訊。要執行此操作，請使用 **[!UICONTROL 注釋]** 欄位，然後指定是否要將注釋作為頁眉或頁腳包含。
 
    <!--Click on the button to the right of the Output file field and enter the desired label. You can use personalization fields, content blocks and dynamic text (see Defining content). For example, you can complete the label with the delivery ID or the extraction date.-->
 
    ![](assets/direct-mail-properties.png)
 
-1. 使用左側區域來定義要在解壓縮檔案中顯示為列的資訊：
+1. 使用左側區域定義要作為列顯示到抽取檔案中的資訊：
 
-   1. 按一下 **[!UICONTROL 新增]** 按鈕來添加新列，然後從清單中選擇該列。
+   1. 按一下 **[!UICONTROL 添加]** 按鈕來添加新列，然後從清單中選擇它。
 
-   1. 在 **[!UICONTROL 格式]** 區段，指定欄的標籤，然後定義要使用 [運算式編輯器](../personalization/personalization-build-expressions.md).
+   1. 在 **[!UICONTROL 格式]** 中，指定列的標籤，然後使用 [表達式編輯器](../personalization/personalization-build-expressions.md)。
 
       ![](assets/direct-mail-content.png)
 
-   1. 若要使用選取的欄來排序解壓縮檔案，請切換 **[!UICONTROL 排序依據]** 選項。 此 **[!UICONTROL 排序依據]** 圖示便會顯示在檔案結構中欄標籤旁。
+   1. 要使用選定列對抽取檔案進行排序，請切換 **[!UICONTROL 排序依據]** 的上界。 的 **[!UICONTROL 排序依據]** 表徵圖將顯示在檔案結構中列標籤的旁邊。
 
-1. 重複這些步驟，視需要新增多欄，以建立解壓縮檔案。 請注意，您最多可以新增50欄。
+1. 重複這些步驟，以根據需要添加多列以生成抽取檔案。 請注意，最多可以添加50列。
 
-   您隨時可以選取欄並按一下 **[!UICONTROL 移除]** 按鈕 **[!UICONTROL 格式]** 區段。
+   通過選擇列並按一下 **[!UICONTROL 刪除]** 按鈕 **[!UICONTROL 格式]** 的子菜單。
 
    ![](assets/direct-mail-complete.png)
 
-1. 定義直接郵件內容後，請完成促銷活動的設定。
+1. 定義直郵內容後，請完成市場活動的配置。
 
-   當促銷活動開始時，解壓縮檔案會自動產生並匯出至您 [檔案路由配置](../direct-mail/direct-mail-configuration.md).
+   當市場活動開始時，抽取檔案將自動生成並導出到您在 [檔案路由配置](../direct-mail/direct-mail-configuration.md)。

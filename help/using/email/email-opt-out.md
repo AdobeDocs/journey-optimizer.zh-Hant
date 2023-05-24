@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 電子郵件選擇退出管理
-description: 了解如何使用電子郵件管理選擇退出
+description: 瞭解如何通過電子郵件管理退出選項
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 退出，電子郵件，連結，取消訂閱
+keywords: 選擇退出、電子郵件、連結、取消訂閱
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
@@ -18,19 +18,19 @@ ht-degree: 79%
 
 # 電子郵件選擇退出管理 {#email-opt-out}
 
-為了讓收件者能夠取消訂閱收件者的電子郵件通訊，您必須一律包含 **取消訂閱連結** 寄送給收件者的每封電子郵件。 [深入了解隱私權和選擇退出管理](../privacy/opt-out.md)
+為了向收件人提供取消訂閱接收電子郵件通信的功能，您必須始終包括 **取消訂閱連結** 每封發給收件人的電子郵件。 [瞭解有關隱私和退出管理的更多資訊](../privacy/opt-out.md)
 
-若要這麼做，您可以：
+為此，您可以：
 
-* 插入 **連結至外部登錄頁面** 封電子郵件，讓使用者得以取消訂閱，而無法接收您品牌的通訊。 [了解如何新增外部選擇退出連結](#opt-out-external-lp)
+* 插入 **連結到外部登錄頁** 以便用戶取消訂閱從您的品牌接收通信。 [瞭解如何添加外部選擇退出連結](#opt-out-external-lp)
 
-* 新增 **一鍵式選擇退出連結** 填入您的電子郵件內容。 此連結可讓您的收件者快速取消訂閱您的通訊內容，無需重新導向至需要確認選擇退出的登陸頁面，加速取消訂閱的流程。 [了解如何新增一鍵式選擇退出連結](#one-click-opt-out)
+* 添加 **按一下選擇退出連結** 郵件內容。 此連結可讓您的收件者快速取消訂閱您的通訊內容，無需重新導向至需要確認選擇退出的登陸頁面，加速取消訂閱的流程。 [瞭解如何添加一次按一下的選擇退出連結](#one-click-opt-out)
 
-此外，若 **[!UICONTROL 清單 — 取消訂閱]** 選項，則隨Journey Optimizer傳送的對應電子郵件會在電子郵件標題中包含取消訂閱連結。 [進一步了解電子郵件標題中的選擇退出](#unsubscribe-header)
+此外，如果 **[!UICONTROL 清單 — 取消訂閱]** 選項，隨Journey Optimizer發送的相應電子郵件將在電子郵件標題中包含取消訂閱連結。 [瞭解有關電子郵件標題中選擇退出的詳細資訊](#unsubscribe-header)
 
 >[!NOTE]
 >
->行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 訊息類別(**[!UICONTROL 行銷]** 或 **[!UICONTROL 交易]**)是在 [通道表面](../configuration/channel-surfaces.md#email-type) （即訊息預設集）層級和建立訊息時)。
+>行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 消息類別(**[!UICONTROL 營銷]** 或 **[!UICONTROL 事務性]**) [通道表面](../configuration/channel-surfaces.md#email-type) （即消息預設）級別和建立消息時)。
 
 ## 外部選擇退出 {#opt-out-external-lp}
 
@@ -60,7 +60,7 @@ ht-degree: 79%
 
 ### 實施選擇退出的 API 呼叫 {#opt-out-api}
 
-若要讓收件者在從登錄頁面提交其選擇時選擇退出，您必須實作 **訂閱API呼叫** through [Adobe Developer](https://developer.adobe.com){target="_blank"} 以更新相應配置檔案的首選項。
+要在收件人從登錄頁提交其選擇時選擇退出，您必須實施 **訂閱API調用** 通 [Adobe Developer](https://developer.adobe.com){target="_blank"} 更新相應配置檔案的首選項。
 
 此 POST 呼叫如下：
 
@@ -98,7 +98,7 @@ ht-degree: 79%
 }
 ```
 
-[!DNL Journey Optimizer] 會使用這些參數，透過 [Adobe Developer](https://developer.adobe.com){target="_blank"} API呼叫。
+[!DNL Journey Optimizer] 將使用這些參數通過 [Adobe Developer](https://developer.adobe.com){target="_blank"} API調用。
 
 ### 傳送包含取消訂閱連結的訊息 {#send-message-unsubscribe-link}
 
@@ -118,7 +118,7 @@ ht-degree: 79%
 
    因此，除非再次訂閱，否則此使用者將不會收到您品牌的通訊。
 
-1. 若要檢查對應的設定檔選擇是否已更新，請前往 Experience Platform，並透過選取識別名稱空間和對應的識別值來存取設定檔。 了解更多 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}.
+1. 若要檢查對應的設定檔選擇是否已更新，請前往 Experience Platform，並透過選取識別名稱空間和對應的識別值來存取設定檔。 在 [Experience Platform文檔](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}。
 
    ![](assets/opt-out-profile-choice.png)
 
@@ -186,4 +186,4 @@ ht-degree: 79%
    >
    >如果您未在訊息內容中新增一鍵退出連結，則不會顯示登陸頁面。
 
-* 對應的設定檔會立即退出，而此選項會在 Experience Platform 中更新。 了解更多 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}.
+* 對應的設定檔會立即退出，而此選項會在 Experience Platform 中更新。 在 [Experience Platform文檔](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}。

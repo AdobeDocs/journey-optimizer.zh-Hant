@@ -6,7 +6,7 @@ description: 瞭解如何建立進階運算式
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: 運算式編輯器，資料，歷程
+keywords: 表達式編輯器，資料，旅程
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -36,7 +36,7 @@ _進階運算式編輯器介面_
 * 定義自訂[等待活動](../wait-activity.md#custom)
 * 定義動作參數對應
 
-如有可能，您可以使用 **[!UICONTROL 進階模式]** / **[!UICONTROL 簡單模式]** 按鈕。 [此處](../condition-activity.md#about_condition)會說明簡單模式。
+如果可能，可使用 **[!UICONTROL 高級模式]** / **[!UICONTROL 簡單模式]** 按鈕 [此處](../condition-activity.md#about_condition)會說明簡單模式。
 
 >[!NOTE]
 >
@@ -48,12 +48,12 @@ _進階運算式編輯器介面_
 
 您可以透過不同方式存取進階運算式編輯器：
 
-* 建立資料來源條件時，可按一下 **[!UICONTROL 進階模式]**.
+* 建立資料源條件時，可通過按一下 **[!UICONTROL 高級模式]**。
 
    ![](../assets/journeyuc2_33.png)
 
 * 建立自訂計時器時，會直接顯示進階編輯器。
-* 對應動作參數時，按一下 **[!UICONTROL 進階模式]**.
+* 映射操作參數時，按一下 **[!UICONTROL 高級模式]**。
 
 ## 探索介面{#discovering-the-interface}
 
@@ -63,11 +63,11 @@ _進階運算式編輯器介面_
 
 在畫面左側，會顯示可用的欄位和函式：
 
-* **[!UICONTROL 事件]**:從入站事件接收的其中一個欄位。 顯示的事件欄位清單會與情境相關，而且會根據歷程中新增的事件而有所不同。[閱讀全文](../../event/about-events.md)
-* **[!UICONTROL 區段]**:如果你掉了 **[!UICONTROL 區段資格]** 事件，選擇您要在運算式中使用的區段。 [閱讀全文](../condition-activity.md#using-a-segment)
-* **[!UICONTROL 資料來源]**:從資料來源欄位群組中的可用欄位清單中選擇。 [閱讀全文](../../datasource/about-data-sources.md)
-* **[!UICONTROL 歷程屬性]**:本節會重新分組指定設定檔之歷程的相關技術欄位。 [閱讀全文](journey-properties.md)
-* **[!UICONTROL 函式]**:從可執行複雜篩選的內建函式清單中選擇。 函式會依類別組織。[閱讀全文](functions.md)
+* **[!UICONTROL 事件]**:選擇從入站事件接收的欄位之一。 顯示的事件欄位清單會與情境相關，而且會根據歷程中新增的事件而有所不同。[閱讀全文](../../event/about-events.md)
+* **[!UICONTROL 段]**:如果你掉了 **[!UICONTROL 分部資格]** 事件，選擇要在表達式中使用的段。 [閱讀全文](../condition-activity.md#using-a-segment)
+* **[!UICONTROL 資料源]**:從資料源的欄位組中可用的欄位清單中選擇。 [閱讀全文](../../datasource/about-data-sources.md)
+* **[!UICONTROL 行程屬性]**:本節將為給定配置檔案重新分組與行程相關的技術欄位。 [閱讀全文](journey-properties.md)
+* **[!UICONTROL 函式]**:從允許執行複雜過濾的內置函式清單中進行選擇。 函式會依類別組織。[閱讀全文](functions.md)
 
 ![](../assets/journey65.png)
 
@@ -81,7 +81,7 @@ _進階運算式編輯器介面_
 
 **使用進階運算式編輯器建立條件時，需要使用參數**
 
-如果您從外部資料來源選取欄位，需要呼叫參數(請參閱 [本頁](../../datasource/external-data-sources.md). 例如，在天氣相關資料來源中，常用的參數為 &quot;city&quot;。因此，您必須選擇要取得此城市參數的位置。也可將函式套用至參數，以執行格式變更或串聯。
+如果從外部資料源中選擇一個需要調用參數的欄位(請參見 [此頁](../../datasource/external-data-sources.md)。 例如，在天氣相關資料來源中，常用的參數為 &quot;city&quot;。因此，您必須選擇要取得此城市參數的位置。也可將函式套用至參數，以執行格式變更或串聯。
 
 ![](../assets/journeyuc2_19.png)
 

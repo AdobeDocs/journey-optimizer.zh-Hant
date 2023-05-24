@@ -7,32 +7,32 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 文字，電子郵件，版本，純文字，編輯器
+keywords: 文本，電子郵件，版本，純文字檔案，編輯器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 0%
+ht-degree: 75%
 
 ---
 
 # 建立電子郵件的文字版本 {#text-version-email}
 
-建議您建立電子郵件內文的文字版本，以用於無法顯示HTML內容時。
+建議建立電子郵件內文的文字版本，當 HTML 內容無法顯示時可使用。
 
-依預設，電子郵件設計工具會建立 **[!UICONTROL 純文字]** 電子郵件的版本，包括個人化欄位。 此版本會自動產生，並與您的內容的HTML版本同步。
+依預設，電子郵件設計工具會建立電子郵件的&#x200B;**[!UICONTROL 純文字]**&#x200B;版本，包括個人化欄位。此版本是自動產生，並與內容的 HTML 版本同步。
 
-如果您偏好對純文字版本使用不同內容，請遵循下列步驟：
+如果您偏好為純文字版本使用不同的內容，請依照以下步驟操作：
 
-1. 從您的電子郵件中，選取 **[!UICONTROL 純文字]** 表徵圖。
+1. 從您的電子郵件中，選擇 **[!UICONTROL 純文字檔案]** 表徵圖
 
    ![](assets/text_version_3.png)
 
-1. 使用 **[!UICONTROL 與HTML同步]** 切換為禁用同步。
+1. 使用&#x200B;**[!UICONTROL 與 HTML 同步]**&#x200B;切換以停用同步。
 
    ![](assets/text_version_1.png)
 
-1. 按一下核取記號以確認您的選擇。
+1. 按一下勾選記號以確認您的選擇。
 
    ![](assets/text_version_2.png)
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->* 中所做的變更 **[!UICONTROL 純文字]** 檢視不會反映在HTML檢視中。
+>* 在&#x200B;**[!UICONTROL 純文字]**&#x200B;檢視所做的變更不會反映在 HTML 檢視中。
 >
->* 如果您重新啟用 **[!UICONTROL 與HTML同步]** 選項，您的變更將會遺失，並取代為從HTML版本產生的文字內容。
+>* 如果重新啟用 **[!UICONTROL 與HTML同步]** 選項更新純文字檔案內容後，您所做的更改將丟失，並替換為從HTML版本生成的文本內容。
 

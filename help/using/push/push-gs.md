@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Journey Optimizer中的推播通知流程
-description: 了解推播通知資料流程和元件
+title: 推送通知流在Adobe Journey Optimizer
+description: 瞭解推送通知資料流和元件
 topic: Mobile
 feature: Push
 role: Admin
@@ -11,70 +11,70 @@ exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 source-git-commit: 014cc551cb125ba6dc20a4f572e6cd7024d9fab5
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
-# 推播通知資料流程和元件 {#get-started-push}
+# 推送通知資料流和元件 {#get-started-push}
 
-此頁面可協助您設定及了解與推播通知相關的重要服務和工作流程，位於 [!DNL Journey Optimizer].
+此頁可幫助您設定和瞭解與推送通知相關的關鍵服務和工作流 [!DNL Journey Optimizer]。
 
 
 >[!AVAILABILITY]
 >
->新 **行動裝置入門快速入門工作流程** 現已可用。 使用此新產品功能來快速設定Mobile SDK，以開始收集和驗證行動事件資料，以及傳送行動推播通知。 這項功能可透過資料收集首頁公開測試版存取。 [了解更多](mobile-onboarding-wf.md)
+>新 **移動登陸快速啟動工作流** 的子菜單。 使用此新產品功能可快速配置移動SDK以開始收集和驗證移動事件資料，併發送移動推送通知。 這項功能可透過「資料彙集」首頁以公開 Beta 版的形式存取。[了解更多](mobile-onboarding-wf.md)
 
-了解如何在 [本頁](create-push.md).
+瞭解如何在上建立推送通知 [此頁](create-push.md)。
 
-在中設定推播通道的步驟 [!DNL Adobe Journey Optimizer] 詳細資訊 [本頁](push-configuration.md).
+在中配置推送通道的步驟 [!DNL Adobe Journey Optimizer] 詳細 [此頁](push-configuration.md)。
 
-下圖顯示與相關資料流有關的系統和服務，重點說明如何從端對端服務的角度傳送推播通知。
+下圖顯示了與關聯資料流相關的系統和服務，突出了從端到端服務的角度提供推送通知的方式。
 
 ![](assets/push-flow.png)
 
-1. 在Apple的APN和Google FCM推播訊息服務中註冊品牌行動應用程式(Android或iOS)
-1. 傳訊服務會產生推送代號，此代號是 [!DNL Adobe Journey Optimizer] 將用來鎖定具有推播通知的特定裝置。
-1. 先前產生的推送代號會傳遞至Adobe Experience Platform，並與即時客戶設定檔同步；這是透過易於整合的用戶端SDK所完成
-1. 推送訊息是在 [!DNL Adobe Journey Optimizer]，則會針對通道表面建立推送訊息（即訊息預設集）
-1. 推送訊息可能包含在歷程的協調畫布上
-1. 在歷程發佈時，根據歷程條件的客戶設定檔可符合接收推播通知的資格，在此步驟中會個人化推播訊息裝載
-1. 個人化推送裝載會轉送至內部推送訊息傳送服務
-1. 然後，此內部服務會驗證與訊息相關聯的應用程式憑證，並
-1. 傳送訊息至Apple與Google傳訊服務以進行最終傳送
-1. 會記錄來自傳訊服務的意見，並記錄錯誤和成功案例，以便在Journey Live &amp; Global報表中報告
-1. 推播通知會傳送至一般使用者裝置
-1. 一般使用者推播通知互動會透過SDK整合，從一般使用者用戶端以體驗事件的形式傳入
+1. 在Apple的APNs和GoogleFCM推送消息服務中註冊您的品牌移動應用(Android或iOS)
+1. 消息服務生成推令牌，該令牌是 [!DNL Adobe Journey Optimizer] 將用於使用推式通知瞄準特定設備。
+1. 先前生成的推令牌被傳遞給Adobe Experience Platform並與即時客戶配置檔案同步；這是通過易於整合的客戶端SDK完成的
+1. 推送消息創作於 [!DNL Adobe Journey Optimizer]，針對通道表面建立推送消息（即消息預設）
+1. 推送消息可能包含在Rougners中的業務流程畫布中
+1. 在Journey發佈後，基於Journey條件的客戶配置檔案經鑑定可接收推送通知，推送消息負載在此步驟中個性化
+1. 將個性化推送有效載荷轉發到內部推送消息傳遞服務
+1. 然後，此內部服務驗證與消息關聯的應用的憑據，並
+1. 將消息發送到Apple和Google消息服務以進行最終傳遞
+1. 在Journey Live和Global報告中記錄來自消息服務的反饋，記錄錯誤和成功
+1. 推送通知被傳送到最終用戶設備
+1. 最終用戶推送通知交互通過SDK整合作為體驗事件從最終用戶客戶端發送
 
-## 推播通知中關鍵服務的角色 {#roles-of-key-services}
+## 推送通知中關鍵服務的角色 {#roles-of-key-services}
 
-* **推播通知服務提供者** 是核心元件web服務，可從遠端伺服器傳送通知至行動應用程式。
+* **推送通知服務提供程式** 是核心元件Web服務，它將通知從遠程伺服器傳送到移動應用程式。
 
-   [!DNL Adobe Journey Optimizer]  支援Android和iOS平台，因此可與下列項目整合：
-   * [Firebase雲端傳訊(FCM)](https://firebase.google.com/docs/cloud-messaging)  — 傳送通知至Android行動應用程式
-   * [Apple推播通知服務(APN)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html)  — 將通知傳送至iOS行動應用程式
+   [!DNL Adobe Journey Optimizer]  支援Android和iOS平台，因此與以下產品整合：
+   * [Firebase雲消息(FCM)](https://firebase.google.com/docs/cloud-messaging)  — 向Android移動應用發送通知
+   * [Apple推送通知服務(APN)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html)  — 向iOS移動應用發送通知
 
-* **Adobe Experience Platform Mobile SDK** 可透過Android和iOS相容的SDK，為您的行動裝置提供用戶端整合API。 SDK提供 [!DNL Adobe Journey Optimizer] 擴充功能會公開各種專用於推送訊息的API，並啟用資料流，例如註冊推送代號或傳送推送追蹤事件或任何其他自訂體驗事件至Adobe Experience Platform。 SDK也提供多種其他擴充功能，以啟用其他Adobe Experience Cloud和第三方合作夥伴功能。
+* **Adobe Experience Platform移動SDK** 它通過Android和iOS相容的SDK為您的手機提供客戶端整合API。 SDK提供 [!DNL Adobe Journey Optimizer] 擴展顯示用於推送消息傳遞的各種特定API，並啟用資料流，如註冊推送令牌或將推送跟蹤事件或任何其他自定義體驗事件發送到Adobe Experience Platform。 SDK還提供了多種其他擴展，可支援其他Adobe Experience Cloud以及第三方合作夥伴功能。
 
-   SDK整合也需要設定Adobe Experience Platform [資料收集](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html){target="_blank"} 服務，例如：
+   SDK整合還需要設定Adobe Experience Platform [資料收集](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html){target="_blank"} 服務，如：
 
-   * 建立資料流，以設定資料流入Adobe Experience Platform的設定檔和體驗事件資料集
-   * 建立用戶端行動屬性並新增擴充功能。 SDK與這些擴充功能緊密整合，提供順暢的資料收集體驗。
-   * 註冊行動應用程式套件識別碼和應用程式憑證
+   * 建立資料流以配置資料流入Adobe Experience Platform的配置檔案和體驗事件資料集
+   * 建立客戶端移動屬性並添加擴展。 SDK與這些擴展緊密整合，以提供無縫的資料收集體驗。
+   * 註冊移動應用捆綁標識符和應用憑據
 
-* **Adobe Experience Platform即時客戶個人檔案**  透過結合來自多個管道（包括網路、行動裝置、CRM和協力廠商）的資料，維護每個客戶的整體檢視。 個人檔案可讓您將客戶資料合併成統一的檢視畫面，針對每個客戶互動提供可採取行動且附有時間戳記的說明。指定應用程式使用者的推送代號會根據使用者的設定檔儲存為記錄資料，而使用者與推送通知的互動則會以時間序列事件資料來追蹤。 [深入了解Adobe Experience Platform Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}.
+* **Adobe Experience Platform即時客戶概要**  通過合併來自多個渠道（包括web 、 mobile 、 CRM和第三方）的資料，維護每個客戶的整體視圖。 個人檔案可讓您將客戶資料合併成統一的檢視畫面，針對每個客戶互動提供可採取行動且附有時間戳記的說明。將給定應用用戶的推送令牌作為記錄資料根據用戶的配置檔案儲存，同時將用戶與推送通知的交互作為時間序列事件資料進行跟蹤。 [瞭解有關Adobe Experience Platform即時客戶概要資訊的更多資訊](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}。
 
-* **[!DNL Adobe Journey Optimizer]** :在您與上述元件的行動應用程式整合就緒且Adobe Experience Platform中的客戶設定檔完成後，即可在中撰寫和協調推播通知 [!DNL Adobe Journey Optimizer] 與使用者互動。
+* **[!DNL Adobe Journey Optimizer]** :一旦您的移動應用與上述元件的整合到位，並且您的客戶配置檔案在Adobe Experience Platform，您就可以編寫並協調推送通知 [!DNL Adobe Journey Optimizer] 與您的用戶接洽。
 
-## 推播技術設定與從業人員工作流程 {#push-technical-setup}
+## 推送技術設定和從業人員工作流 {#push-technical-setup}
 
-下圖顯示了端對端配置構成推送資料流骨架的元件時涉及的各種步驟。 已根據執行配置的角色和要配置的元件對操作項進行分類。
+下圖顯示了配置構成推送資料流骨架的元件時涉及的各種步驟。 已根據執行配置的角色和正在配置的元件對措施項進行分類。
 
 ![](assets/user-flow.png)
 
 **相關主題**
 
-* [設定推播通道](push-configuration.md)
+* [配置推送通道](push-configuration.md)
 * [推播通知報告](../reports/journey-global-report.md#push-global)
 * [建立推播通知](create-push.md)
 * [在歷程中新增訊息](../building-journeys/journeys-message.md)
-* [在促銷活動中新增訊息](../campaigns/create-campaign.md)
+* [在市場活動中添加消息](../campaigns/create-campaign.md)

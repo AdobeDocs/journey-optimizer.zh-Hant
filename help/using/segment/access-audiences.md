@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 存取及管理對象
-description: 了解如何存取和管理受眾
+description: 瞭解如何訪問和管理受眾
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,11 +10,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
-badge: label="Beta" type="Informity"
+badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 11%
+ht-degree: 19%
 
 ---
 
@@ -22,30 +22,30 @@ ht-degree: 11%
 
 >[!BEGINSHADEBOX]
 
-本檔案提供下列內容：
+本文件提供下列內容：
 
 * [開始使用對象組合](get-started-audience-orchestration.md)
-* [建立您的第一個合成工作流程](create-compositions.md)
+* [建立您的第一個組合工作流程](create-compositions.md)
 * [使用組合畫布](composition-canvas.md)
 * **[存取及管理對象](access-audiences.md)**
 
 >[!ENDSHADEBOX]
 
-從受眾構成產生的受眾可從 **[!UICONTROL 瀏覽]** 標籤 **[!UICONTROL 區段]** 功能表。
+觀眾構成產生的觀眾可從 **[!UICONTROL 瀏覽]** 的 **[!UICONTROL 段]** 的子菜單。
 
-此索引標籤會列出儲存至Adobe Experience Platform的所有對象。 使用對象合成內容建立的對象可由 **[!UICONTROL 受眾構成]** 來源。
+此頁籤列出儲存到Adobe Experience Platform的所有受眾。 使用觀眾作品創作的觀眾可由 **[!UICONTROL 受眾構成]** 原點。
 
 ![](assets/audiences-list.png)
 
 >[!NOTE]
 >
->對於此測試版，最初顯示在區段清單中的數個元件和/或中繼資料不會顯示在此索引標籤中（例如劃分、評估方法等）。
+>對於此測試版本，最初顯示在段清單中的幾個元件和/或元資料不會顯示在此頁籤中（例如，細分、評估方法等）。
 >
->如需Adobe Experience Platform中其他可用對象類型的詳細資訊，請參閱 [區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+>有關Adobe Experience Platform其他類型受眾的詳細資訊，請參閱 [分段服務文檔](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)。
 
-此 **[!UICONTROL 設定檔計數]** 欄提供對象中包含之設定檔數目的資訊。 按一下「i」按鈕，以取得計算此資訊之日期的詳細資訊。
+的 **[!UICONTROL 配置檔案計數]** 列提供了有關受眾中包括的配置檔案數的資訊。 按一下「i」按鈕，瞭解計算此資訊的日期的詳細資訊。
 
-若要將自訂或核心資料使用量標籤指派給對象，請按一下省略號按鈕，然後選取 **[!UICONTROL 管理存取]**. [進一步了解對象級訪問控制(OLA)](../administration/object-based-access.md)
+要將自定義或核心資料使用標籤分配給受眾，請按一下省略號按鈕，然後選擇 **[!UICONTROL 管理訪問]**。 [瞭解有關對象級訪問控制(OLA)的詳細資訊](../administration/object-based-access.md)
 
 <!--
 -edit an audience?

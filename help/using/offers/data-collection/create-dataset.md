@@ -2,7 +2,7 @@
 product: experience platform
 solution: Experience Platform
 title: 建立資料集以收集事件
-description: 了解如何建立資料集以收集事件
+description: 瞭解如何建立資料集以收集事件
 feature: Ranking Formulas
 role: User
 level: Intermediate
@@ -16,54 +16,54 @@ ht-degree: 10%
 
 # 建立資料集以收集事件 {#create-dataset}
 
-若要收集體驗事件，您必須先建立資料集，以便傳送這些事件。
+要收集體驗事件，您首先需要建立一個資料集，在該資料集中將發送這些事件。
 
-首先，請建立要在資料集中使用的結構：
+首先建立將在資料集中使用的架構：
 
-1. 從 **[!UICONTROL 資料管理]** 菜單，選擇 **[!UICONTROL 結構]** 然後前往 **[!UICONTROL 瀏覽]** 標籤。
+1. 從 **[!UICONTROL 資料管理]** 菜單，選擇 **[!UICONTROL 架構]** 去 **[!UICONTROL 瀏覽]** 頁籤。
 
-1. 按一下 **[!UICONTROL 建立結構]** 選擇 **[!UICONTROL XDM ExperienceEvent]**.
+1. 按一下 **[!UICONTROL 建立架構]** 選擇 **[!UICONTROL XDM體驗事件]**。
 
    ![](../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
-   >如需XDM結構和欄位群組的詳細資訊，請參閱 [XDM系統概觀檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}.
+   >瞭解有關中的XDM架構和欄位組的詳細資訊 [XDM系統概述文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}。
 
-1. 從 **[!UICONTROL 欄位群組]** 區段，選取 **[!UICONTROL 新增]**.
+1. 從 **[!UICONTROL 欄位組]** ，選擇 **[!UICONTROL 添加]**。
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. 在 **[!UICONTROL 搜尋]** 欄位中輸入「主張互動」。
+1. 在 **[!UICONTROL 搜索]** 鍵入「命題交互」。
 
-1. 選取 **[!UICONTROL 體驗事件 — 主張互動]** 欄位群組，按一下 **[!UICONTROL 新增欄位群組]**.
+1. 選擇 **[!UICONTROL 體驗事件 — 建議交互]** 欄位組，按一下 **[!UICONTROL 添加欄位組]**。
 
    ![](../assets/ai-ranking-add-field-group.png)
 
    >[!CAUTION]
    >
-   >資料集中使用的結構必須具有 **[!UICONTROL 體驗事件 — 主張互動]** 與其相關聯的欄位群組。 否則，您將無法在排名策略中使用它。
+   >將在資料集中使用的架構必須具有 **[!UICONTROL 體驗事件 — 建議交互]** 與其關聯的欄位組。 否則，您將無法在排名策略中使用它。
 
-1. 輸入名稱並儲存架構。
+1. 鍵入名稱並保存架構。
 
 >[!NOTE]
 >
->進一步了解如何建立結構 [結構構成基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target="_blank"}.
+>瞭解有關在中構建架構的詳細資訊 [架構組合的基礎](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target="_blank"}。
 
-您現在可以使用此結構建立資料集。 請依照下列步驟執行此操作：
+您現在已準備好使用此架構建立資料集。 請依照下列步驟執行此操作：
 
-1. 從 **[!UICONTROL 資料管理]** 菜單，選擇 **[!UICONTROL 資料集]** 然後前往 **[!UICONTROL 瀏覽]** 標籤。
+1. 從 **[!UICONTROL 資料管理]** 菜單，選擇 **[!UICONTROL 資料集]** 去 **[!UICONTROL 瀏覽]** 頁籤。
 
-1. 按一下 **[!UICONTROL 建立資料集]** 選取 **[!UICONTROL 從結構建立資料集]**.
+1. 按一下 **[!UICONTROL 建立資料集]** 選擇 **[!UICONTROL 從架構建立資料集]**。
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
-1. 從清單中選取剛建立的架構，然後按一下 **[!UICONTROL 下一個]**.
+1. 從清單中選擇剛建立的架構，然後按一下 **[!UICONTROL 下一個]**。
 
-1. 為 **[!UICONTROL 名稱]** 欄位，按一下 **[!UICONTROL 完成]**.
+1. 為中的資料集提供唯一名稱 **[!UICONTROL 名稱]** 按一下 **[!UICONTROL 完成]**。
 
    ![](../assets/ai-ranking-dataset-name.png)
 
 >[!NOTE]
 >
->現在可選取此資料集，以在 [建立排名策略](#create-ranking-strategy).
+>現在，可以選擇此資料集以在 [建立排名策略](#create-ranking-strategy)。

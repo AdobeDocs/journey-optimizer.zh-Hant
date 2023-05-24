@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 電子郵件、樣式、css、內文、結構
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 100%
 

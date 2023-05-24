@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: equalIgnoreCase
-description: 了解equalIgnoreCase函式
+description: 瞭解函式equalIgnoreCase
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: equalIgnoreCase，函式，表達式，歷程
+keywords: equalIgnoreCase，函式，表達式，旅程
 exl-id: b74ef5c9-0202-4a69-8870-77004a4397e0
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 17%
 
 # equalIgnoreCase {#equalIgnoreCase}
 
-比較第一個引數字串與第二個引數字串，忽略大小寫考量事項。
+將第一個參數字串與第二個參數字串進行比較，忽略大小寫注意事項。
 
 ## 類別
 
@@ -30,14 +30,14 @@ ht-degree: 17%
 
 * 字串
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `equalIgnoreCase(<string>,<string>)`
 
-傳回布林值。
+返回布爾值。
 
 ## 範例
 
 `equalIgnoreCase("rowing is great", "rowing is GREAT")`
 
-傳回true。
+返回true。

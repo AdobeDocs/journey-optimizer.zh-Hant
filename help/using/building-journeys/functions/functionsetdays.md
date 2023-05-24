@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: setDays
-description: 了解函式setDays
+description: 瞭解函式setDays
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: setDays，函式，運算式，歷程
+keywords: setDays，函式，表達式，旅程
 exl-id: c2757e41-8206-44f7-9dbb-1fa79c0ba6e6
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 # setDays {#setDays}
 
-僅設定日期時間或日期時間的日期。 例如，如果您想要等到當月的某一天，可以強制該天。
+僅設定日期時間或日期時間的日期。 例如，如果要等到月中某一天，則可以強制該日。
 
 ## 類別
 
@@ -30,11 +30,11 @@ ht-degree: 12%
 
 | 參數 | 類型 |
 |--- |--- |
-| 日期時間 | dateTime |
-| 不考慮時區的日期時間 | dateTimeOnly |
+| 日期時間 | 日期時間 |
+| 不考慮區域的日期時間 | 日期僅時間 |
 | 天 | 整數 |
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `setDays(<dateTime>,<days>)`
 
@@ -42,12 +42,12 @@ ht-degree: 12%
 
 `setDays(<dateTimeOnly>,<days>)`
 
-返回日期時間，而不考慮時區。
+返回不考慮時區的日期時間。
 
 ## 範例
 
 `setDays(toDateTime('2010-12-12T01:11:00Z'), 25)`
 
-傳回2010-12-25T01:11:00Z。
+返回2010-12-25T01:11:00Z。
 
 `setDays(toDateTimeOnly(@{MyEvent.registrationDate}), 1)`

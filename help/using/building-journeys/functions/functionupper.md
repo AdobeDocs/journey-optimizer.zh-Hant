@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: upper
-description: 了解函式上方
+description: 瞭解函式上部
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: upper，函式，表達式，歷程
+keywords: 上，函式，表達式，旅程
 exl-id: 09e11d52-2d52-4479-b67f-6dd53b00a861
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 15%
 
 # upper {#upper}
 
-傳回參數的大寫版本。
+返回參數的大寫版本。
 
 ## 類別
 
@@ -26,14 +26,14 @@ ht-degree: 15%
 
 `upper(<parameters>)`
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `upper(<string>)`
 
-傳回字串。
+返回字串。
 
 ## 範例
 
 `upper("b")`
 
-傳回&quot;B&quot;。
+返回&quot;B&quot;。

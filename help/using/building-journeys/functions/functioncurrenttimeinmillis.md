@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
-title: currentTimeInMillis
-description: 了解函式currentTimeInMillis
+title: 當前時間
+description: 瞭解函式currentTimeInMillis
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: currentTimeInMillis，函式，表達式，歷程
+keywords: currentTimeInMillis，函式，表達式，旅程
 exl-id: 8deec661-d504-4764-85d7-afe80b62c477
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -14,9 +14,9 @@ ht-degree: 11%
 
 ---
 
-# currentTimeInMillis {#currentTimeInMillis}
+# 當前時間 {#currentTimeInMillis}
 
-傳回目前時間（以Epoch毫秒為單位）。
+返回當前時間（以大紀元毫秒為單位）。
 
 ## 類別
 
@@ -30,14 +30,14 @@ ht-degree: 11%
 
 此函式不使用參數。
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `currentTimeInMillis()`
 
-傳回整數。
+返回整數。
 
 ## 範例
 
 `currentTimeInMillis()`
 
-傳回&quot;1544712617131&quot;。
+返回「1544712617131」。

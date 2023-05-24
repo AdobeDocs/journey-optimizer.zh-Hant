@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: lower
-description: 了解函式下方
+description: 瞭解函式下部
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: lower，函式，表達式，歷程
+keywords: lower，函式，表達式，youre
 exl-id: 3514f505-f934-4425-acce-39b06de7373c
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 20%
 
 # lower {#lower}
 
-傳回參數的小寫版本。
+返回參數的小寫版本。
 
 ## 類別
 
@@ -30,14 +30,14 @@ ht-degree: 20%
 
 * 字串
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `lower(<string>)`
 
-傳回字串。
+返回字串。
 
 ## 範例
 
 `lower("A")`
 
-傳回&quot;a&quot;。
+返回&quot;a&quot;。

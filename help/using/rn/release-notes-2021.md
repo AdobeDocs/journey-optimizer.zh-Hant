@@ -49,7 +49,7 @@ ht-degree: 94%
 <tbody>
 <tr>
 <td>
-<p>您現在可以模擬將哪些優惠傳遞至測試設定檔中 Journey Optimizer UI 的指定位置。 這可讓您在投入生產之前，輕鬆驗證決定邏輯，包括資格限制和排名演算法。 此功能可讓非技術和技術使用者快速測試決策管理，並疑難排解潛在問題。</p>
+<p>您現在可以模擬將哪些優惠傳遞至測試設定檔中 Journey Optimizer UI 的指定位置。 這可讓您在投入生產之前，輕鬆驗證決定邏輯，包括資格限制和排名演算法。 此功能允許非技術和技術用戶快速test決策管理並排除潛在問題。</p>
 <p>如需詳細資訊，請參閱<a href="../offers/offer-activities/simulation.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -73,7 +73,7 @@ ht-degree: 94%
 </table>
 
 
-另請參閱 [Adobe Experience Platform 10月發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=zh-Hant){target="_blank"} 以取得更多變更。
+另請參閱 [Adobe Experience Platform10月發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=zh-Hant){target="_blank"} 的子菜單。
 
 ### 改進項目
 
@@ -276,7 +276,7 @@ ht-degree: 94%
 
 **個人化**
 
-* **運算式編輯器**  — 您現在可在定義個人化時輕鬆新增回傳值：當設定檔的個人化欄位空白時，將顯示回傳值。 [進一步了解](../personalization/functions/helpers.md)
+* **表達式編輯器**  — 現在，在定義個性化設定時，您可以輕鬆添加回退值：當配置檔案的個性化欄位為空時，將顯示回退值。 [進一步了解](../personalization/functions/helpers.md)
 
 **電子郵件設定**
 
@@ -291,7 +291,7 @@ ht-degree: 94%
 
 * 修正訊息標籤導覽的協助工具問題。
 * 修正電子郵件設計工具標籤的本地化問題。
-* 修正在歷程中選取多個節點並按一下屬性窗格上「刪除」時的問題。
+* 在行程中選擇多個節點並按一下屬性窗格上的「刪除」時，已修復問題。
 * 修正無法將新標題加入歷程使用的動作問題。
 * 您現在可以透過使用者介面中更明確的警告，找出訊息預設集建立失敗的原因。
 
@@ -342,11 +342,11 @@ ht-degree: 94%
 * 對於外部資料來源，現在會自動定義每秒 15 次呼叫的上限規則。 [閱讀全文](../configuration/external-systems.md#capping)
 * 對於即時歷程，歷程屬性畫面現在會顯示發佈日期和發佈歷程的使用者名稱。 [閱讀全文](../building-journeys/journey-gs.md#change-properties)
 * 在歷程清單畫面中，已新增歷程類型篩選器。 [閱讀全文](../start/user-interface.md#filter-lists)
-* 此 **[!UICONTROL 節流率]** 參數已新增至讀取區段活動中。 [閱讀全文](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 的 **[!UICONTROL 限制速率]** 已在「讀取段」活動中添加參數。 [閱讀全文](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-**預覽和測試**
+**預覽和test**
 
-* 身分和命名空間現在會顯示在 **[!UICONTROL 預覽]** 螢幕。 [閱讀全文](../email/preview.md#preview-your-messages)
+* 標識和命名空間現在在中可見 **[!UICONTROL 預覽]** 的上界。 [閱讀全文](../email/preview.md#preview-your-messages)
 * 校樣的測試電子郵件數目現在限制為 10 則。
 * 已在校樣中限制&#x200B;**主旨行首碼** 允許的字元。 [閱讀全文](../email/preview.md#send-proofs)
 
@@ -359,6 +359,6 @@ ht-degree: 94%
 * 修正導致批次電子郵件傳遞重複傳送訊息的問題。
 * 當重試期間結束後未執行電子郵件傳送時，現在會據此產生事件。
 * 修正「PTR 記錄」畫面中缺少 IP 資訊的問題。
-* 現已實作運算式編輯器中選件邊欄的本地化。
+* 現在已在Expression編輯器中實現提供連結的本地化。
 * 修正資訊快顯視窗的間距錯誤。
 * 修正當電子郵件設計工具中上傳 HTML 檔案時，內部樣式表包含未支援的 `background-image` 屬性問題。

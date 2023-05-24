@@ -37,7 +37,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->如果您是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target="_blank"} 使用者運用 **offer decisioning** 應用程式服務，本節中描述的所有決策管理功能也適用於您。
+>如果你是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target="_blank"} 用戶利用 **offer decisioning** 應用程式服務，本節中介紹的所有決策管理功能也適用於您。
 
 ## 關於優惠和決定 {#about-offers-and-decisions}
 
@@ -69,7 +69,7 @@ ht-degree: 95%
 
 ## 授予決策管理的存取權限 {#granting-acess-to-decision-management}
 
-存取和使用決策功能的權限是透過 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html){target="_blank"}.
+使用 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html){target="_blank"}。
 
 要授予對決策管理功能的存取權限，您需要建立&#x200B;**[!UICONTROL 產品設定檔]**，並將對應權限指派給使用者。在[本節](../../administration/permissions.md)瞭解有關管理 [!DNL Journey Optimizer] 使用者及權限的更多資訊。
 

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 警報
-description: 了解如何管理警報
+description: 瞭解如何管理警報
 feature: Alerts
 topic: Administration
 role: Admin
@@ -17,29 +17,29 @@ ht-degree: 6%
 
 # 開始使用警報 {#alerts}
 
-Journey Optimizer運用Adobe Experience Platform警報功能。 這可讓您透過使用者介面存取系統警報。 您可以檢視可用警報並訂閱警報。 
+Journey Optimizer利用Adobe Experience Platform警報功能。 這允許您通過用戶介面訪問系統警報。 您可以檢視可用警報並訂閱警報。 
 
-當您的操作中達到某組條件時（例如，當系統違反閾值時可能出現問題），警報消息將傳送給您組織中已訂閱這些條件的任何用戶。 這些訊息可在預先定義的時間間隔內重複，直到解析警報為止。
+當您的操作中達到某組條件時（例如當系統違反閾值時可能出現的問題），警報消息將發送給組織中已訂閱這些條件的任何用戶。 這些消息可以在預定義的時間間隔內重複，直到警報解決。
 
-進一步了解Adobe Experience Platform中的警報 [檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hant).
-若要了解如何訂閱警報及進行設定，請參閱 [頁面](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
+瞭解有關Adobe Experience Platform警報的更多資訊 [文檔](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hant)。
+要瞭解如何訂閱和配置警報，請參閱此 [頁](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html)。
 
 >[!AVAILABILITY]
 >
->「讀取區段觸發器失敗」警報的部分設計變更正在進行中，因此此警報暫時暫停，已從使用者介面中移除。 這些變更一經發佈，警報就會再次呈現，您就能訂閱。
+>「讀取段觸發器不成功」警報的某些設計更改正在進行中，因此此警報暫時暫停，已從用戶介面中臨時刪除。 一旦這些更改發佈，警報將再次出現，您將能夠訂閱該警報。
 
-在左側功能表的下方 **管理**，按一下 **警報**.
+在左菜單中，在 **管理**&#x200B;按一下 **警報**。
 
 <!--A pre-configured alert for Journey Optimizer is available. This alert will warn you if a read segment node has not processed any profile during the defined time frame.
 
 ![](assets/alerts1.png)-->
 
-如果發生非預期的行為，則會透過介面右上角的電子郵件，傳送警報通知給警報的訂閱者。
+如果發生意外行為，則會通過電子郵件將警報通知發送給該警報的訂閱者，該通知位於介面右上角。
 
 <!--![](assets/alerts2.png)-->
 
 
-當 [在Adobe Experience Platform UI中檢視警報規則](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html)，您可以個別訂閱每個規則。 訂閱警報時透過 [I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)不過，警報規則會組織成不同的訂閱套件。
+當 [查看Adobe Experience PlatformUI中的警報規則](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html)，您可以單獨訂閱每個規則。 訂閱警報時 [I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)但是，警報規則被組織到不同的訂閱包中。
 
 <!--The I/O event subscription name corresponding to the Read segment alert is: "Journey read segment Delays, Failures and Errors".
 

@@ -18,44 +18,44 @@ ht-degree: 11%
 # 使用 [!DNL Customer Journey Analytics] {#cja-ajo}
 
 
-[!DNL Journey Optimizer] 整合 [!DNL Customer Journey Analytics] 透過自動化報表分送和資料的自訂視覺效果，提供您所有歷程的全方位檢視。
+[!DNL Journey Optimizer] 整合 [!DNL Customer Journey Analytics] 通過自動報告分發和資料的自定義可視化功能，提供所有行程的整體視圖。
 
 ![](assets/cja.png)
 
-在中建立您的歷程後 [!DNL Journey Optimizer]，您可以將客戶資料匯入 [!DNL Customer Journey Analytics] 以開始報告並了解客戶與您歷程的每次互動的影響。
+在建立您的旅程後 [!DNL Journey Optimizer]，您可以將客戶資料導入 [!DNL Customer Journey Analytics] 啟動報告並瞭解客戶與您的旅程之間的每次交互的影響。
 
-➡️ [DiscoverCustomer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html){target="_blank"}
+➡️ [發現Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html){target="_blank"}
 
 >[!NOTE]
 >
->除了這項整合外，您也可以將Adobe Journey Optimizer資料集的內容匯出至雲端儲存空間位置，並將此資訊用於報表或分析用途。 [了解如何將資料集匯出至雲端儲存空間位置](../data/export-datasets.md)
+>除此整合外，您還可以將Adobe Journey Optimizer資料集的內容導出到雲儲存位置，並將此資訊用於報告或分析目的。 [瞭解如何將資料集導出到雲儲存位置](../data/export-datasets.md)
 >
->請注意，資料集匯出功能目前為測試版，可供所有Adobe Journey Optimizer使用者使用。 如果您尚未擁有存取權，請與 Adobe 代表合作，取得目的地的存取權。
+>請注意，資料集導出功能當前處於測試版中，可供所有Adobe Journey Optimizer用戶使用。 如果您尚未擁有存取權，請與 Adobe 代表合作，取得目的地的存取權。
 
-使用前 [!DNL Customer Journey Analytics] 對於您的歷程，您必須先設定此整合：
+使用前 [!DNL Customer Journey Analytics] 對於您的行程，您必須首先配置此整合：
 
-1. [建立連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant) in [!DNL Customer Journey Analytics] 和 **[!UICONTROL 資料集]** 您想要傳送至Adobe Experience Platform。
+1. [建立連接](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant) 在 [!DNL Customer Journey Analytics] 和 **[!UICONTROL 資料集]** 你想送Adobe Experience Platform。
 
-   以下 [!DNL Journey Optimizer] 可設定：
-   * [歷程步驟事件](../data/datasets-query-examples.md#journey-step-event):可讓您檢視進入您歷程的人員，以及他們到達的距離。
-   * [訊息意見/追蹤資料集](../data/datasets-query-examples.md#message-feedback-event-dataset):可讓您檢視透過傳送之訊息的傳送資訊 [!DNL Journey Optimizer].
-   * [實體和歷程資料集](../data/datasets-query-examples.md#entity-dataset):可讓您搜尋好記名稱，並在報表中使用。
+   以下 [!DNL Journey Optimizer] 可以配置：
+   * [行程步驟事件](../data/datasets-query-examples.md#journey-step-event):讓您查看誰進入了您的旅程，以及他們到達的距離。
+   * [消息反饋/跟蹤資料集](../data/datasets-query-examples.md#message-feedback-event-dataset):允許您查看有關通過發送的郵件的傳遞資訊 [!DNL Journey Optimizer]。
+   * [實體和旅程資料集](../data/datasets-query-examples.md#entity-dataset):允許您搜索友好名稱並在報告中使用它們。
 
-1. [建立資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) 來設定您要用於報表的維度和量度。
+1. [建立資料視圖](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) 配置要用於報表的維和度量。
 
-   您可以建立Journey Optimizer特定量度，以更妥善地反映您的歷程資料。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
+   您可以建立Journey Optimizer特定的指標，以更好地反映您的旅程資料。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
 
-使用 [!DNL Journey Optimizer] with [!DNL Customer Journey Analytics] 可能會導致報表資料中因下列原因而出現某些差異：
+使用 [!DNL Journey Optimizer] 與 [!DNL Customer Journey Analytics] 可能導致報告資料出現一些差異，原因是：
 
-* **兩者 [!DNL Journey Optimizer] 和 [!DNL Customer Journey Analytics] 從Azure資料湖儲存(ADLS)同步資料以進行報告。**
+* **兩者 [!DNL Journey Optimizer] 和 [!DNL Customer Journey Analytics] 同步Azure資料湖儲存(ADLS)中的資料以進行報告。**
 
-   產品之間傳入資料的處理時間可能稍有不同。 因此，顯示從指定日期到當天的報表時，資料可能不相符。 若要減少差異，請使用排除當天的日期範圍。
+   輸入資料的處理時間在產品之間可能略有不同。 因此，當顯示從給定日期到當前日期的報告時，資料可能不匹配。 要減少差異，請使用日期範圍（不包括當天）。
 
-* **在 [!DNL Journey Optimizer] 報表中，已傳送量度也包含「重試」量度。**
+* **在 [!DNL Journey Optimizer] 報告，已發送度量還包括重試度量。**
 
-   **[!UICONTROL 重試]** 不會包含在 **[!UICONTROL 已傳送]** 量度 [!DNL Customer Journey Analytics]. 這會導致 [!DNL Customer Journey Analytics] **[!UICONTROL 已傳送]** 顯示小於 [!DNL Journey Optimizer]. 不過，重試資料會聚合到 **[!UICONTROL 已成功發送消息]** 或 **[!UICONTROL 跳出數]** 量度。
-若要減少差異，請使用一週前或更晚的日期範圍。
+   **[!UICONTROL 重試次數]** 將不包括在 **[!UICONTROL 已發送]** 度量 [!DNL Customer Journey Analytics]。 這會導致 [!DNL Customer Journey Analytics] **[!UICONTROL 已發送]** 顯示低於 [!DNL Journey Optimizer]。 但是，重試資料會聚到 **[!UICONTROL 已成功發送消息]** 或 **[!UICONTROL 邊界]** 度量。
+要減少差異，使用日期範圍為一週前甚至更晚。
 
-* **正在從不同的資料源提供報表。**
+* **正在從其他資料源提供報告。**
 
-   這可能會導致產品之間1%到2%的資料差異。
+   這可能導致產品之間1%至2%的資料差異。

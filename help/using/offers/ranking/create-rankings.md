@@ -1,6 +1,6 @@
 ---
 title: 建立排名
-description: 了解如何建立排名
+description: 瞭解如何建立排名
 feature: Offers
 topic: Integrations
 role: User
@@ -16,6 +16,6 @@ ht-degree: 26%
 
 概述
 
-差異排名公式/AI模型
+差分排序公式/AI模型
 
-連結至排名區段
+連結至排名部分

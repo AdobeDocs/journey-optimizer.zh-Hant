@@ -17,7 +17,7 @@ ht-degree: 50%
 
 # 關於舊版欄位 {#sharing-legacy-fields}
 
-此類別包含原始步驟事件欄位。 這些欄位是下列欄位群組的一部分：
+此類別包含原始步驟事件欄位。 這些欄位是以下欄位組的一部分：
 
 * [journeySteps 事件常見欄位](../reports/sharing-common-fields.md)
 * [journeyStep 事件動作執行欄位](../reports/sharing-execution-fields.md)

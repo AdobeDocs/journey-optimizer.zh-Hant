@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 運算式、編輯器、開始使用、條件、開始
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 100%
 

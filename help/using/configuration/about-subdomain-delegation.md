@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 子網域委派於 [!DNL Journey Optimizer]
-description: 了解如何委派子網域
+title: 子域委派 [!DNL Journey Optimizer]
+description: 瞭解如何委派子域
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -16,17 +16,17 @@ ht-degree: 26%
 
 ---
 
-# 子網域委派於 [!DNL Journey Optimizer] {#subdomain-delegation}
+# 子域委派 [!DNL Journey Optimizer] {#subdomain-delegation}
 
-為電子郵件行銷活動建立子網域可讓品牌將各種類型的流量（行銷與公司等）隔離至特定IP池和特定網域，以加速IP準備程式並改善整體傳遞能力。 如果您共用某個域，該域被阻止或添加到拒絕清單中，則可能會影響公司郵件的傳送。 不過，您電子郵件行銷通訊專屬網域的信譽問題或區塊，只會影響電子郵件的流程。 將主域用作多個郵件流的發件人地址或「發件人」地址也可能會中斷電子郵件身份驗證，從而導致郵件被阻止或放在垃圾郵件資料夾中。
+為電子郵件活動建立子域使品牌能夠將不同類型的通信（例如，營銷與公司）隔離到特定的IP池中，並與特定的域隔離，這將加快IP升溫過程並提高整體交付能力。 如果您共用一個域，並且該域被阻止或添加到拒絕清單中，它可能會影響您的公司郵件傳遞。 但是，特定於您的電子郵件營銷通信的域上的聲譽問題或阻止只會影響電子郵件流。 將主域用作多個郵件流的發件人地址或「發件人」地址也可能會中斷電子郵件身份驗證，導致您的郵件被阻止或放置在垃圾郵件資料夾中。
 
 >[!NOTE]
 >
->您無法使用相同的傳送網域，從 [!DNL Adobe Journey Optimizer] 和其他產品，如 [!DNL Adobe Campaign] 或 [!DNL Adobe Marketo Engage].
+>不能使用同一發送域從 [!DNL Adobe Journey Optimizer] 和其他產品，比如 [!DNL Adobe Campaign] 或 [!DNL Adobe Marketo Engage]。
 
-## 為什麼要設定子網域？ {#why-set-up-subdomains}
+## 為什麼設定子域？ {#why-set-up-subdomains}
 
-子網域是您網域的分區，可用來隔離您的品牌或各種類型的流量，例如交易式訊息和行銷通訊。
+子域是域的一個分區，可用於隔離您的品牌或各種類型的通信量，例如事務性消息和營銷通信。
 
 讓我們以「mybrand.com」網域為例，這是個用來傳送交易和行銷通訊的網域。在此情況下，您可以決定設定兩個子網域：
 
@@ -35,29 +35,29 @@ ht-degree: 26%
 
 您可以藉此維護網域和其他子網域的信譽。舉例來說，如果「marketing.mybrand.com」子網域因傳遞能力不佳，而被網際網路服務提供者新增至封鎖清單，如此就能防止整個「mybrand.com」網域和「info.mybrand.com」子網域被新增至封鎖清單。
 
-實施解決方案時，對外部元件有以下要求：包括設定要追蹤的連結和網頁、顯示鏡像頁面等。
+實施解決方案時，需要面向外部的元件：包括設定要跟蹤的連結和網頁、顯示鏡像頁等。
 
-雖然這些需求是透過Adobe和客戶托管的元件來管理，但其中包含URL，可供電子郵件的收件者看到。 為避免有指出基礎技術解決方案或托管提供者的URL，您可以設定子網域，讓這對電子郵件的收件者透明。
+雖然這些要求是通過由Adobe和客戶托管的元件進行管理的，但它們包括URL，這些URL可由電子郵件的收件人看到。 為了避免具有指示底層技術解決方案或托管提供商的URL，可以設定子域以使此對電子郵件的收件人透明。
 
 **了解更多**
 
-* 了解如何 [委派子網域](delegate-subdomain.md) 直接從介面
-* 了解如何 [新增Google TXT記錄](google-txt.md) 傳送至您的子網域，以確保電子郵件成功傳送至Gmail地址
-* 了解如何 [訪問PTR記錄](ptr-records.md) 為您的子網域產生，可透過傳送郵件伺服器來驗證
+* 瞭解如何 [委派子域](delegate-subdomain.md) 直接從介面
+* 瞭解如何 [添加GoogleTXT記錄](google-txt.md) 確保將電子郵件成功傳遞到Gmail地址
+* 瞭解如何 [訪問PTR記錄](ptr-records.md) 為子域生成，允許通過發送郵件伺服器來驗證
 
 ## 子網域設定方法 {#subdomain-delegation-methods}
 
-子網域設定可讓您設定網域的子區段（技術上稱為「DNS區域」），以便與Adobe Campaign搭配使用。 可用的設定方法有：
+子域配置允許您配置域的子部分（技術上是「DNS區域」），以便與Adobe Campaign配合使用。 可用的設定方法有：
 
-* **將子網域完全委派給 Adobe**（建議）：子網域已完全委派給 Adobe。Adobe能夠控制並維護傳遞、呈現和追蹤訊息所需的DNS的所有方面。 [深入了解完整子網域委派](delegate-subdomain.md#full-subdomain-delegation)
+* **將子網域完全委派給 Adobe**（建議）：子網域已完全委派給 Adobe。Adobe能夠控制和維護傳遞、呈現和跟蹤消息所需的DNS的所有方面。 [瞭解有關完整子域委派的詳細資訊](delegate-subdomain.md#full-subdomain-delegation)
 
-* **CNAME的使用**:建立子網域並使用CNAME指向Adobe特定記錄。 使用此設定，您和Adobe都有責任維護DNS。 [深入了解CNAME子網域委派](delegate-subdomain.md#cname-subdomain-delegation)
+* **CNAME的使用**:建立子域並使用CNAME指向特定於Adobe的記錄。 使用此設定，您和Adobe共用維護DNS的責任。 [瞭解有關CNAME子域委派的詳細資訊](delegate-subdomain.md#cname-subdomain-delegation)
 
 >[!CAUTION]
 >
->* 偏好使用完全子網域委派。
+>* 全子域委派是首選方法。
 >
->* 如果貴組織的原則限制完整的子網域委派方法，則建議使用CNAME方法。 此方法需要您自行維護和管理DNS記錄。 Adobe將無法協助變更、維護或管理透過CNAME方法設定之子網域的DNS。
+>* 如果組織的策略限制了完整的子域委派方法，則建議使用CNAME方法。 此方法要求您自行維護和管理DNS記錄。 Adobe將無法幫助更改、維護或管理通過CNAME方法配置的子域的DNS。
 
 
 下表提供這些方法的運作方式摘要，以及所需投入的精力：
@@ -67,34 +67,34 @@ ht-degree: 26%
 | **完全委派** | 建立子網域和命名空間記錄。Adobe 便會設定 Adobe Campaign 所需的所有 DNS 記錄。<br/><br/>在此設定中，Adobe 會完全負責管理子網域和所有 DNS 記錄。 | 低 |
 | **CNAME，自訂方法** | 建立子網域和命名空間記錄。Adobe 便會提供要放置在 DNS 伺服器中的記錄，並在 Adobe Campaign DNS 伺服器中設定對應的值。<br/><br/>在此設定中，您和 Adobe 都有責任維護 DNS。 | 高 |
 
-有關域配置的其他資訊，請參見 [本檔案](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
+有關域配置的其他資訊，請參見 [本文檔](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html)。
 
-如果您對子網域設定方法有任何疑問，請聯絡Adobe，或最終聯絡客戶服務以要求傳遞能力諮詢。
+如果您對子域配置方法有任何疑問，請聯繫Adobe，或最終聯繫客戶服務部門以請求提供性咨詢。
 
 ## 存取委派的子網域 {#access-delegated-subdomains}
 
-所有委派的子網域都會顯示在 **[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 子網域]** 功能表。 篩選器可協助您調整清單（委派日期、使用者或狀態）。
+所有委派的子域都顯示在 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL 子域]** 的子菜單。 篩選器可幫助您細化清單（委派日期、用戶或狀態）。
 
 ![](assets/subdomain-list.png)
 
-此 **[!UICONTROL 狀態]** 欄提供子網域委派程式的相關資訊：
+的 **[!UICONTROL 狀態]** 列提供有關子域委派進程的資訊：
 
-* **[!UICONTROL 草稿]**:子網域委派已儲存為草稿。 按一下子網域名稱以繼續委派程式，
-* **[!UICONTROL 處理]**:子網域會先執行數個設定檢查，才能使用。
-* **[!UICONTROL 成功]**:子網域已成功完成檢查，且可用於傳送訊息、
-* **[!UICONTROL 失敗]**:提交子網域委派後，一或數項檢查失敗。
+* **[!UICONTROL 草稿]**:子域委託已保存為草稿。 按一下子域名以繼續委派進程，
+* **[!UICONTROL 處理]**:子域在使用前正在進行多次配置檢查，
+* **[!UICONTROL 成功]**:子域已成功通過檢查，可用於傳遞消息，
+* **[!UICONTROL 失敗]**:提交子域委派後，一個或多個檢查失敗。
 
-若要使用存取子網域的詳細資訊， **[!UICONTROL 成功]** 狀態，從清單中開啟它。
+使用 **[!UICONTROL 成功]** 狀態，從清單中開啟它。
 
 ![](assets/subdomain-delegated.png)
 
 您可以：
 
-* 擷取委派程式期間設定的子網域名稱（唯讀），以及產生的URL（資源、鏡像頁面、追蹤URL）,
+* 檢索在委派過程中配置的子域名（只讀）以及生成的URL（資源、鏡像頁、跟蹤URL）,
 
-* 將Google網站驗證TXT記錄新增至您的子網域，以確保該記錄已驗證(請參閱 [將Google TXT記錄新增至子網域](google-txt.md))。
+* 將Google站點驗證TXT記錄添加到子域以確保其已驗證(請參閱 [將GoogleTXT記錄添加到子域](google-txt.md))。
 
 
 >[!CAUTION]
 >
->子網域設定是所有環境的共同設定。 因此，對子網域的任何修改也會影響生產沙箱。
+>子域配置對所有環境都是通用的。 因此，對子域的任何修改也會影響生產沙箱。

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 訂閱報表
-description: 了解如何透過訂閱全域報表使用訂閱服務的資料
+title: 訂閱報告
+description: 瞭解如何通過訂閱全局報告使用訂閱服務中的資料
 feature: Journeys
 topic: Content Management
 role: User
@@ -22,24 +22,24 @@ ht-degree: 20%
 >title="訂閱全域報告"
 >abstract="訂閱全域報告可讓您測量和視覺化訂閱者在選取時段內的活動。您的報告會分為不同的 Widget，詳細說明您的訂閱和取消訂閱的內容。每個報告儀表板都可以透過調整大小或移除 Widget 來修改。"
 
-訂閱 **[!UICONTROL 全域報表]** 顯示選定時段內訂閱者活動的詳細資訊。 若要僅測量過去24小時的訂閱，請參閱 [訂閱即時報表](subscription-report-live.md).
+訂閱 **[!UICONTROL 全局報告]** 顯示有關選定時間段內訂閱者活動的詳細資訊。 要僅測量過去24小時的訂閱，請參閱 [訂閱即時報告](subscription-report-live.md)。
 
-若要存取您的報表，請按一下 **[!UICONTROL 報表]** 表徵圖。
+要訪問報告，請按一下 **[!UICONTROL 報告]** 表徵圖。
 
 ![](assets/subscription_report_7.png)
 
-訂閱 **[!UICONTROL 全域報表]** 會分為不同的小工具集，詳述您的訂閱和取消訂閱。 如有需要，可對每個介面工具集調整大小並加以刪除。 如需詳細資訊，請參閱 [節](global-report.md).
+訂閱 **[!UICONTROL 全局報告]** 將分為不同的小部件，詳細列出您的訂閱和取消訂閱。 如果需要，可以調整每個小部件的大小並將其刪除。 有關此項的詳細資訊，請參閱 [節](global-report.md)。
 
 ![](assets/subscription_report_1.png)
 
-此 **[!UICONTROL 訂閱效能]** KPI與 **[!UICONTROL 依歷程的訂閱]**/**[!UICONTROL 依歷程取消訂閱]** 表格會詳細說明與訪客對登陸頁面的參與相關的主要資訊。 表格和KPI包含與您的登陸頁面相關的可用資料，例如：
+的 **[!UICONTROL 訂閱效能]** 關鍵績效指標 **[!UICONTROL 按行程的訂閱]**/**[!UICONTROL 各行程取消訂閱]** 表格詳細列出了訪問者與登錄頁面的接觸的相關資訊。 表和KPI包含與登錄頁相關的可用資料，例如：
 
-* **[!UICONTROL 訂閱數]**:有關期間的訂閱總數。
+* **[!UICONTROL 下標]**:有關期間的訂閱總數。
 
-* **[!UICONTROL 取消訂閱數]**:有關期間的取消訂閱總數。
+* **[!UICONTROL 取消訂閱]**:有關期間未訂閱的總數。
 
-此 **[!UICONTROL 訂閱效能]** 圖表顯示相關期間的訂閱演變。
+的 **[!UICONTROL 訂閱效能]** 圖形顯示相關時段的訂閱的演變。
 
 ![](assets/subscription_report_2.png)
 
-此 **訂閱 — 劃分** 和 **取消訂閱 — 劃分** 代表根據訊息、登錄頁面和管道，在選取的時段內訂閱或取消訂閱的總人數。
+的 **訂閱 — 細分** 和 **取消訂閱 — 細分** 表示根據消息、登錄頁和渠道在選定時間段內訂閱或取消訂閱的總人數。

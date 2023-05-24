@@ -1,6 +1,6 @@
 ---
 title: 建立決定規則
-description: 決策規則是新增至個人化優惠方案的限制，並套用至設定檔以判斷資格。
+description: 決策規則是添加到個性化優惠中的約束，並應用到配置檔案以確定資格。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,11 +15,11 @@ ht-degree: 11%
 
 # 建立決定規則 {#create-decision-rule}
 
-決策規則是新增至個人化優惠方案的限制，並套用至設定檔以判斷資格。
+決策規則是添加到個性化優惠中的約束，並應用到配置檔案以確定資格。
 
 ## 接受和內容類型標題 {#accept-and-content-type-headers}
 
-下表顯示了 *內容類型* 和 *接受* 請求標題中的欄位：
+下表顯示了組成 *內容類型* 和 *接受* 請求標題中的欄位：
 
 | 標題名稱 | 值 |
 | ----------- | ----- |
@@ -34,7 +34,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 決策規則所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **要求**
@@ -72,7 +72,7 @@ curl -X POST \
 
 **回應**
 
-成功的回應會傳回新建立決策規則的相關資訊，包括其唯一例項ID和位置 `@id`. 您可以在後續步驟中使用例項ID來更新或刪除您的決策規則。 您可以使用您的唯一決策規則 `@id` 在稍後的教學課程中，建立個人化優惠方案。
+成功的響應返回有關新建立的決策規則的資訊，包括其唯一實例ID和位置 `@id`。 您可以在後續步驟中使用實例ID來更新或刪除您的決策規則。 可以使用您的唯一決策規則 `@id` 在後面的教程中建立個性化服務。
 
 ```json
 {

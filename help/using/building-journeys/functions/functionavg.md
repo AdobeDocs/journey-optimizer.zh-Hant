@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: avg
-description: 了解函式平均
+description: 瞭解函式avg
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: avg，函式，表達式，歷程
+keywords: avg，函式，表達式，旅程
 exl-id: cc70f90c-2d12-42a0-829f-5f28c3c29cad
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 13%
 
 # avg {#avg}
 
-傳回一組運算式中的平均值，以清單或兩個運算式的形式提供。 忽略Null值。
+返回一組表達式中的平均值，以清單或兩個表達式的形式給出。 忽略空值。
 
 
 ## 類別
@@ -32,11 +32,11 @@ ht-degree: 13%
 支援的類型：
 
 * listInteger
-* listDecimal
+* 清單十進位
 * 小數
 * 整數
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `avg(<listInteger>)`
 
@@ -50,7 +50,7 @@ ht-degree: 13%
 
 `avg(<integer>,<integer>)`
 
-傳回小數。
+返回十進位。
 
 ## 範例
 
