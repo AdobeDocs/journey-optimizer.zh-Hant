@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 74318fe0e9f72fe6341c060f7113fc877fc7d116
+source-git-commit: 681b84869c3545d6cc58d53eff6289ef45f108c6
 workflow-type: tm+mt
 source-wordcount: '2818'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 98%
 
 * 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2023年5月版本的詳細資訊，請參閱本檔案。 [閱讀全文](release-notes.md)
 * 已新增新頁面說明如何設定子網域，以便用於發佈來自網頁體驗 Adobe Experience Manager Assets Essentials 的內容。 [閱讀全文](../web/web-delegated-subdomains.md)
-* 已新增新子區段，說明如何在電子郵件設計工具新增個人化追蹤參數至 URL。 [了解更多](../email/message-tracking.md#url-tracking)
-* 已新增新區段，說明如何確保選擇退出使用其設定檔資料進行個人化的客戶獲得尊重。 [了解更多](../privacy/opt-out.md#)
+* 已新增新的子區段，以說明如何在電子郵件設計工具中新增個人化追蹤引數至URL。 [閱讀全文](../email/message-tracking.md#url-tracking)
+* 已新增新區段，說明如何確保選擇退出使用其設定檔資料進行個人化的客戶獲得尊重。 [閱讀全文](../privacy/opt-out.md#opt-out-personalization)
 
 ## 2023 年 4 月 {#apr-2023}
 
