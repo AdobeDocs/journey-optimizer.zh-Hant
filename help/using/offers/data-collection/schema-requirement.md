@@ -2,39 +2,39 @@
 product: experience platform
 solution: Experience Platform
 title: 設定事件擷取
-description: 瞭解如何配置服務架構以捕獲事件
+description: 瞭解如何設定優惠方案以擷取事件
 feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 2%
+source-wordcount: '277'
+ht-degree: 3%
 
 ---
 
-# 配置資料收集 {#schema-requirements}
+# 設定資料彙集 {#schema-requirements}
 
-若要獲得有關決策事件以外的事件類型的反饋，必須為中的每個事件類型設定正確的值 **體驗活動** 被送到Adobe Experience Platform。
+為了能夠取得對決策事件以外的事件型別的意見反應，您必須為中的每種事件型別設定正確的值 **體驗事件** 會傳送至Adobe Experience Platform的ID。
 
 >[!CAUTION]
 >
->對於每個事件類型，確保資料集中使用的架構具有 **[!UICONTROL 體驗事件 — 建議交互]** 與其關聯的欄位組。 [了解更多](create-dataset.md)
+>對於每種事件型別，請確定資料集中使用的結構描述具有 **[!UICONTROL 體驗事件 — 主張互動]** 與其相關聯的欄位群組。 [了解更多](create-dataset.md)
 
-以下是在JavaScript代碼中實現的架構要求。
+以下是實作JavaScript程式碼所需的結構描述需求。
 
 >[!NOTE]
 >
->決策事件不需要發送到，因為決策管理將自動生成這些事件並將其放在 **[!UICONTROL ODE DecisionEvents]** 資料集<!--to check--> 自動生成。
+>決定事件不需要傳入，因為決定管理會自動產生這些事件，並將它們放入 **[!UICONTROL ODE DecisionEvents]** 資料集<!--to check--> 是自動產生的。
 
-## 跟蹤印象
+## 追蹤印象
 
-確保事件類型和源如下所示：
+請確定事件型別和來源如下：
 
-**體驗事件類型：** `decisioning.propositionDisplay`
-**來源：** Web.sdk/Alloy.js(`sendEvent command -> xdm : {eventType, interactionMixin}`)或批量攝取
-+++**示例負載：**
+**體驗事件型別：** `decisioning.propositionDisplay`
+**來源：** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`)或批次擷取
++++**範例裝載：**
 
 ```
 {
@@ -62,13 +62,13 @@ ht-degree: 2%
 
 +++
 
-## 跟蹤按一下
+## 追蹤點按
 
-確保事件類型和源如下所示：
+請確定事件型別和來源如下：
 
-**體驗事件類型：** `decisioning.propositionInteract`
-**來源：** Web.sdk/Alloy.js(`sendEvent command -> xdm : {eventType, interactionMixin}`)或批量攝取
-+++**示例負載：**
+**體驗事件型別：** `decisioning.propositionInteract`
+**來源：** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`)或批次擷取
++++**範例裝載：**
 
 ```
 {
@@ -96,9 +96,18 @@ ht-degree: 2%
 
 +++
 
-## 跟蹤自定義事件
+## 追蹤自訂事件
 
-對於自定義事件，資料集中使用的架構還必須具有 **[!UICONTROL 體驗事件 — 建議交互]** 與其關聯的欄位組，但是對於必須用於標籤這些事件的體驗事件類型沒有特定要求。
+對於自訂事件，資料集中使用的結構描述也必須具有 **[!UICONTROL 體驗事件 — 主張互動]** 欄位群組相關聯，但對必須用來標籤這些事件的體驗事件型別沒有特定要求。
+
+>[!NOTE]
+>
+>若要將您的自訂事件納入考量 [頻率限定](../offer-library/add-constraints.md#capping)，您需要將體驗事件傳送至以下兩個Edge資料收集端點之一，以將其連結至Adobe Experience Platform端點：
+>
+>* POST/ee/v2/interact
+>* POST/ee/v2/collect
+>
+>如果您使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}，則會自動建立連線。
 
 <!--
 ## Using a ranking strategy {#using-ranking}

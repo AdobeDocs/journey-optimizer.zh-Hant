@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 7dca239cbdb710b55e8a6c26b5fa3c1644edd778
+source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
-source-wordcount: '2355'
-ht-degree: 17%
+source-wordcount: '2385'
+ht-degree: 16%
 
 ---
 
@@ -140,16 +140,6 @@ ht-degree: 17%
 >abstract="為避免過度招攬客戶，請使用上限來定義優惠的呈現次數上限。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="變更日期會影響上限"
 
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping"
->title="設定上限頻率"
->abstract="您可以選擇每天、每週或每月重設優惠上限計數器。請注意，儲存優惠後，您將無法變更所選頻率。"
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping_impression"
->title="曝光"
->abstract="使用曝光數做為上限事件僅適用於傳入管道。"
-
 上限會用作限制，以定義可顯示優惠方案的最大次數。
 
 限制使用者取得特定優惠方案的次數，可讓您避免過度向客戶提供需求，進而使用最佳優惠方案最佳化每個接觸點。
@@ -183,6 +173,11 @@ ht-degree: 17%
 >優惠方案過期時或優惠方案開始日期後2年（以先到者為準）時，上限計數器會重設。 瞭解如何在中定義優惠方案的日期 [本節](creating-personalized-offers.md#create-offer).
 
 ### 事件上限 {#capping-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping_impression"
+>title="曝光"
+>abstract="使用曝光數做為上限事件僅適用於傳入管道。"
 
 此 **[!UICONTROL 事件上限]** 欄位可讓您定義 **[!UICONTROL 事件上限]** 將考慮以增加計數器：
 
@@ -250,6 +245,11 @@ ht-degree: 17%
 
 ### 頻率限定 {#frequency-capping}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping"
+>title="設定上限頻率"
+>abstract="您可以選擇每天、每週或每月重設優惠上限計數器。請注意，在啟用頻率上限的情況下發佈優惠方案後，您將無法變更已定義的頻率。"
+
 此 **[!UICONTROL 頻率]** 區段可讓您定義上限計數的重設頻率。 若要這麼做，請定義盤點期間（每日、每週或每月），並輸入您選擇的天數/周數/月數。
 
 ![](../assets/offer-capping-frequency.png)
@@ -262,7 +262,9 @@ ht-degree: 17%
 
 >[!CAUTION]
 >
->儲存您的優惠方案後，您將無法變更您為頻率選取的時間期間（每月、每週或每日）。
+>發佈優惠方案後，您將無法變更您為頻率選取的時間期間（每月、每週或每日）。
+>
+>如果優惠方案具有 **[!UICONTROL 草稿]** 狀態，且之前從未發佈且已啟用頻率限定。
 
 ### 上限和版位 {#placements}
 
