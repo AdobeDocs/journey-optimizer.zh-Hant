@@ -6,9 +6,9 @@ description: 瞭解如何設定您的環境，以使用Journey Optimizer傳送SM
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 33dccf32b60a6afb58931823016821fc1effcbd8
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '846'
 ht-degree: 19%
 
 ---
@@ -42,7 +42,7 @@ Adobe Journey Optimizer目前與Sinch和Twilio等協力廠商提供者整合，�
 >id="ajo_admin_sms_api"
 >title="使用 Journey Optimizer 設定您的簡訊供應商"
 >abstract="在傳送簡訊之前，您必須將提供者設定和 Journey Optimizer 整合。完成後，您將需要建立一個簡訊表面。這些步驟必須由 Adobe Journey Optimizer 系統管理員執行。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hant#message-preset-sms" text="建立簡訊管道表面"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="建立簡訊管道表面"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"

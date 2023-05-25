@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 將資料集匯出至雲端儲存空間位置
-description: 瞭解如何使用Adobe Experience Platform雲儲存目標導出資料集。
+description: 瞭解如何使用Adobe Experience Platform雲端儲存空間目的地匯出資料集。
 role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 keywords: platform、資料湖、建立、湖、資料集、設定檔
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '582'
 ht-degree: 8%
 
 ---
@@ -19,69 +19,69 @@ ht-degree: 8%
 
 >[!AVAILABILITY]
 >
->資料集導出功能目前處於測試版中，可供所有Adobe Journey Optimizer用戶使用。 如果您尚未擁有存取權，請與 Adobe 代表合作，取得目的地的存取權。
+>資料集匯出功能目前為測試版，可供所有Adobe Journey Optimizer使用者使用。 如果您尚未擁有存取權，請與 Adobe 代表合作，取得目的地的存取權。
 
-Journey Optimizer允許您與雲儲存位置建立即時連接，以導出資料集的內容。
+Journey Optimizer可讓您建立與雲端儲存位置的即時連線，以匯出資料集的內容。
 
-通過定期導出資料，您可以確保客戶交互記錄完整且最新，將此資訊用於報告或分析目的，並維護對法律要求的遵守。
+藉由定期匯出資料，您可以確保擁有完整且最新的客戶互動記錄、將此資訊用於報告或分析目的，以及維持符合法律規定。
 
-## 可用雲儲存目標 {#destinations}
+## 可用的雲端儲存空間目的地 {#destinations}
 
-您可以將資料集導出到6個雲儲存目標，這些目標可以從 **[!UICONTROL 目標]** 的 **[!UICONTROL 目錄]** 頁籤。
+您可以將資料集匯出至6個雲端儲存空間目的地，您可從以下位置存取： **[!UICONTROL 目的地]** 功能表，在 **[!UICONTROL 目錄]** 標籤。
 
 ![](assets/dataset-export-setup.png)
 
 >[!AVAILABILITY]
 >
->這些目的地均以Beta版提供，並且可能會更改。
+>這些目的地均提供測試版且隨時可能變更。
 
-有關每個目的地的詳細資訊可查閱Adobe Experience Platform檔案：
+Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
 
 * [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html)
 * [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html)
-* [Azure資料湖第2代](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html)
+* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html)
 * [Data Landing Zone](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html)
-* [Google雲儲存](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html)
+* [Google雲端儲存空間](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html)
 * [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html)
 
 ## 先決條件 {#prerequisites}
 
-在開始導出資料集之前，請檢查以下先決條件：
+開始匯出資料集之前，請先檢查下列必要條件：
 
-* 要導出資料集，您需要 **管理目標**。 **查看目標**。 **激活目標**, **管理和激活資料集目標** [訪問控制權限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions)。 閱讀 [訪問控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) 或聯繫您的產品管理員以獲取所需權限。
+* 若要匯出資料集，您需要 **管理目的地**， **檢視目的地**， **啟用目的地**、和 **管理和啟用資料集目的地** [存取控制許可權](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). 閱讀 [存取控制總覽](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) 或聯絡您的產品管理員以取得必要許可權。
 
-* 此功能僅支援第一代資料的導出，即在 [Real-time Customer Data Platform產品說明](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html)。 確保要導出的資料集不包含第二代資料。
+* 此功能僅支援匯出第一代資料，亦即中定義的原始資料 [Real-time Customer Data Platform產品說明](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). 請確定您要匯出的資料集未包含第二代資料。
 
-## 導出資料集的主要步驟 {#main-steps}
+## 匯出資料集的主要步驟 {#main-steps}
 
-將資料集導出到雲儲存位置的主要步驟如下：
+將資料集匯出至雲端儲存位置的主要步驟如下：
 
 ![](assets/dataset-export-process.png)
 
-有關每一步的詳細資訊可查閱Adobe Experience Platform檔案： [將資料集導出到雲儲存目標](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en)。
+Adobe Experience Platform檔案中提供每個步驟的詳細資訊： [將資料集匯出至雲端儲存空間目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html).
 
-1. **設定雲儲存目標**。 如果尚未執行此操作，請從目標目錄連接到雲儲存目標。 [瞭解如何建立新的目標連接](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=en#setup)
+1. **設定您的雲端儲存空間目的地**. 如果您尚未這樣做，請從目的地目錄連線至雲端儲存空間目的地。 [瞭解如何建立新的目的地連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup)
 
    <!--![](assets/dataset-export-setup.png)-->
 
-1. **選擇雲儲存目標** 要導出資料集的位置。 在目標目錄中，按一下 **[!UICONTROL 導出資料集]** 按鈕，選擇要使用的連接。
+1. **選取雲端儲存空間目的地** 匯出資料集的位置。 在目的地目錄中，按一下 **[!UICONTROL 匯出資料集]** 按鈕，並選取要使用的連線。
 
    <!--![](assets/dataset-export-destination.png)-->
 
    >[!NOTE]
    >
-   >如果您正在將Adobe Journey Optimizer與即時客戶配置檔案一起使用，目標卡將顯示「激活」按鈕，允許您根據已啟用的權限導出資料集和激活此目標的段。
+   >如果您使用Adobe Journey Optimizer以及即時客戶設定檔，目的地卡片會顯示「啟用」按鈕，讓您根據您啟用的許可權，匯出資料集並啟用此目的地的區段。
 
-1. **選擇資料集** 導出到選定目標。
+1. **選取資料集** 要匯出至所選目的地的檔案。
 
    <!--![](assets/dataset-export-dataset-selection.png)-->
 
-1. **計畫導出** 資料集。 指定導出應在何時啟動以及發生頻率。
+1. **排程匯出** 資料集的URL名稱。 指定開始匯出的時間以及開始匯出的頻率。
 
    <!--![](assets/dataset-export-schedule.png)-->
 
-1. **查看並確認導出** 檢查配置末尾顯示的摘要。
+1. **檢閱並確認匯出** 檢查設定結束時顯示的摘要。
 
    <!--![](assets/dataset-export-review.png)-->
 
-導出完成後，根據您配置的計畫將資料集的內容儲存在雲儲存位置。 [瞭解如何驗證資料集導出是否成功](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify)
+匯出完成後，資料集的內容會根據您設定的排程儲存在雲端儲存位置。 [瞭解如何驗證資料集匯出是否成功](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify)

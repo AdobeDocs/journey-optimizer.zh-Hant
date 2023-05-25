@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 元件清單
-description: 瞭解如何使用全局報告中的資料
+description: 瞭解如何使用全域報告中的資料
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: a41e82db-1fa4-478d-a5a2-324d1df1f8ee
-source-git-commit: 26456f7c2d879843eb533209377b83fc0ccb5617
+source-git-commit: 1539e996105aa242c529acf35883d9dd4146ca7a
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 5%
@@ -17,9 +17,9 @@ ht-degree: 5%
 
 # 元件清單 {#list-of-components-global}
 
-下表根據交付類型為您提供報告中使用的度量及其定義的清單。
+下表提供報表中使用的量度清單，以及量度定義（視傳送型別而定）。
 
-## 行程度量 {#journey-metrics}
+## 歷程量度 {#journey-metrics}
 
 <table> 
  <thead> 
@@ -30,29 +30,29 @@ ht-degree: 5%
  </thead> 
  <tbody> 
   <tr> 
-   <td>已成功執行操作<br/> </td> 
-   <td> 成功執行行程的活動總數。<br/> </td> 
+   <td>動作已成功執行<br/> </td> 
+   <td> 成功執行歷程的動作總數。<br/> </td> 
 </tr> 
   <tr> 
-   <td> 輸入的配置檔案<br/> </td> 
-   <td> 到達旅程的入門事件的個人總數。<br/> </td> 
+   <td> 輸入的設定檔<br/> </td> 
+   <td> 到達歷程進入事件的個人總數。<br/> </td> 
 </tr>
   <tr> 
-   <td> 操作中出錯<br/> </td> 
-   <td>為操作發生的錯誤總數。<br/> </td> 
+   <td> 動作中發生錯誤<br/> </td> 
+   <td>動作發生的錯誤總數。<br/> </td> 
 </tr> 
   <tr> 
-   <td> 退出配置檔案<br/> </td> 
-   <td> 離開旅程的個人總數。<br/> </td> 
+   <td> 已退出的設定檔<br/> </td> 
+   <td> 退出歷程的個人總數。<br/> </td> 
 </tr> 
   <tr> 
-   <td> 單程失敗<br/> </td> 
-   <td> 未成功執行的單個行程的總數。<br/> </td> 
+   <td> 失敗的個人歷程<br/> </td> 
+   <td> 未成功執行的個別歷程總數。<br/> </td> 
 </tr> 
  </tbody> 
 </table>
 
-## 電子郵件和SMS維度和度量 {#email-and-sms-metrics}
+## 電子郵件和簡訊維度和量度 {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -64,107 +64,107 @@ ht-degree: 5%
  <tbody>
   <tr> 
    <td> 跳出<br/> </td> 
-   <td> 在傳遞和自動返回處理期間累積的與已發送消息總數有關的錯誤總數。<br/> </td> 
+   <td> 傳遞和自動傳回處理期間累計的錯誤總數（與已傳送訊息總數相關）。<br/> </td> 
 </tr> 
   <tr> 
    <td> 跳出率<br/> </td> 
-   <td> 與發送的電子郵件相比，已跳轉的電子郵件的百分比。<br/> </td> 
+   <td> 與已傳送電子郵件相比跳出的電子郵件百分比。<br/> </td> 
 </tr>
   <tr> 
    <td> 點擊次數<br/> </td> 
-   <td> 在電子郵件中按一下內容的次數。<br/> </td> 
+   <td> 在電子郵件中點按內容的次數。<br/> </td> 
 </tr> 
   <tr> 
    <td> 已傳遞 <br/> </td> 
-   <td> 成功發送的消息數，與已發送的消息總數相關。<br/></td> 
+   <td> 成功傳送的訊息數（相對於已傳送的訊息總數）。<br/></td> 
 </tr> 
   <tr> 
-   <td> 交貨率<br/> </td> 
-   <td> 成功發送的郵件百分比。<br/> </td> 
+   <td> 傳遞率<br/> </td> 
+   <td> 成功傳送的訊息百分比。<br/> </td> 
 </tr>
   <tr> 
    <td> 錯誤<br/> </td> 
-   <td> 在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。<br/> </td> 
+   <td> 傳遞期間發生且無法傳送至設定檔的錯誤總數。<br/> </td> 
 </tr> 
   <tr> 
    <td> 錯誤率<br/> </td> 
-   <td> 與發送的電子郵件相比，在發送過程中發生的阻止發送錯誤的百分比。<br/> </td> 
+   <td> 與已傳送的電子郵件相較之下，在傳送期間發生且無法傳送的錯誤百分比。<br/> </td> 
 </tr>
   <tr> 
    <td> 已排除<br/> </td> 
-   <td> 被Adobe Journey Optimizer排除的檔案數。<br/> </td> 
+   <td> Adobe Journey Optimizer已排除的設定檔數。<br/> </td> 
 </tr>
   <tr> 
-   <td> 硬彈<br/> </td> 
-   <td> 永久錯誤（如錯誤的電子郵件地址）的總數。 這涉及一條錯誤消息，該錯誤消息明確指出地址無效，如「未知用戶」。<br/> </td>
+   <td> 硬跳出<br/> </td> 
+   <td> 永久錯誤的總數，例如錯誤的電子郵件地址。 這包含明確指出地址無效的錯誤訊息，例如「未知使用者」。<br/> </td>
 </tr>
   <tr> 
    <td> 已忽略<br/> </td> 
-   <td> 臨時（如「外出」）或技術錯誤（例如，如果發件人類型是郵遞員）的總數。<br/> </td> 
+   <td> 暫時性的總數，例如「不在辦公室」，或是技術錯誤，例如，如果寄件者型別是郵遞員。<br/> </td> 
 </tr>
    <tr> 
-   <td>服務點擊率<br/> </td> 
-   <td>與報價互動的用戶百分比。<br/> </td> 
+   <td>優惠點按率<br/> </td> 
+   <td>與優惠方案互動的使用者百分比。<br/> </td> 
 </tr>
    <tr> 
-   <td>提供印象率<br/> </td> 
-   <td>已開啟的優惠與已發送的優惠數目相比的百分比。<br/> </td> 
+   <td>優惠曝光率<br/> </td> 
+   <td>已開啟優惠方案與已傳送優惠方案數的百分比。<br/> </td> 
 </tr>
    <tr> 
    <td>優惠方案名稱<br/> </td> 
-   <td> 在交貨中添加的要約的名稱。 有關放置的詳細資訊，請參閱 <a href="../offers/offer-library/creating-personalized-offers.md">頁</a>。<br/> </td> 
+   <td> 在傳遞中新增的優惠方案名稱。 如需位置的詳細資訊，請參閱此 <a href="../offers/offer-library/creating-personalized-offers.md">頁面</a>.<br/> </td> 
 </tr>
    <tr> 
-   <td>已發送優惠<br/> </td> 
-   <td>發送要約的總數。<br/> </td> 
+   <td>已傳送的優惠<br/> </td> 
+   <td>優惠方案的傳送總數。<br/> </td> 
 </tr> 
   <tr>
    <td>開啟數<br/> </td> 
-   <td> 消息開啟的次數。<br/> </td> 
+   <td> 訊息開啟的次數。<br/> </td> 
 </tr> 
   <tr> 
-   <td> 開啟速率<br/> </td> 
-   <td> 已開啟電子郵件的總數與已發送電子郵件的數量相比。<br/> </td> 
+   <td> 開啟率<br/> </td> 
+   <td> 與已傳遞電子郵件數量相比較的已開啟電子郵件總數。<br/> </td> 
 </tr>
   <tr> 
-   <td>放置名稱<br/> </td> 
-   <td> 用於顯示優惠的位置的名稱。 有關放置的詳細資訊，請參閱 <a href="../offers/offer-library/creating-placements.md">頁</a>。 </td> 
+   <td>位置名稱<br/> </td> 
+   <td> 用來顯示優惠方案的位置名稱。 如需位置的詳細資訊，請參閱此 <a href="../offers/offer-library/creating-placements.md">頁面</a>. </td> 
 </tr> 
   <tr> 
    <td> 重試次數<br/> </td> 
-   <td> 隊列中重試的電子郵件數。<br/> </td> 
+   <td> 重試佇列中的電子郵件數目。<br/> </td> 
 </tr> 
   <tr> 
    <td> 已傳送<br/> </td> 
-   <td> 交貨的發送總數。<br/> </td> 
+   <td> 傳遞的傳送總數。<br/> </td> 
 </tr>
   <tr> 
-   <td> 軟彈跳<br/> </td> 
-   <td> 臨時錯誤（如完整收件箱）的總數。<br/> </td> 
+   <td> 軟退信<br/> </td> 
+   <td> 臨時錯誤總數，例如完整收件匣。<br/> </td> 
 </tr>
   <tr> 
    <td> 垃圾郵件投訴數<br/> </td> 
-   <td> 將郵件聲明為垃圾郵件或垃圾郵件的次數。<br/> </td> 
+   <td> 將郵件宣告為垃圾郵件或垃圾郵件的次數。<br/> </td> 
 </tr>
   <tr> 
-   <td> 目標<br/> </td> 
-   <td> 在傳遞分析期間處理的郵件總數。<br/> </td> 
+   <td> 已定位<br/> </td> 
+   <td> 傳遞分析期間處理的訊息總數。<br/> </td> 
 </tr> 
   <tr> 
    <td> 不重複點按次數<br/> </td> 
-   <td> 按一下電子郵件內容的收件人數。<br/> </td> 
+   <td> 點按電子郵件中內容的收件者人數。<br/> </td> 
 </tr> 
   <tr> 
-   <td>唯一按一下率<br/> </td> 
-   <td> 與遞送互動的用戶百分比。<br/> </td> 
+   <td>不重複點按率<br/> </td> 
+   <td> 與傳遞互動的使用者百分比。<br/> </td> 
 </tr>
   <tr> 
    <td> 不重複開啟次數<br/> </td> 
-   <td>開啟交貨的收件人數。<br/> </td> 
+   <td>開啟傳遞的收件者人數。<br/> </td> 
 </tr> 
   <tr> 
    <td> 取消訂閱<br/> </td> 
-   <td> 取消訂閱連結上的按一下次數。<br/> </td> 
+   <td> 對取消訂閱連結的點按次數。<br/> </td> 
 </tr> 
  </tbody> 
 </table>
@@ -205,11 +205,11 @@ ht-degree: 5%
 </tr>
   <tr> 
    <td>Email Opens<br/> </td> 
-   <td>.<br/> </td> 
+   <td>Number of times the email was opened.<br/> </td> 
 </tr>
   <tr> 
    <td>Email Unsubscribes<br/> </td> 
-   <td><br/> </td> 
+   <td>Number of clicks on the unsubscription link.<br/> </td> 
 </tr>
   <tr> 
    <td>First app launches<br/> </td> 
@@ -225,11 +225,11 @@ ht-degree: 5%
 </tr>
   <tr> 
    <td>Unique email opens<br/> </td> 
-   <td><br/> </td>
+   <td>Number of recipients who opened the email.<br/> </td>
 <tr>
   <tr> 
    <td>Unique email unsubscribes<br/> </td> 
-   <td><br/> </td>
+   <td>Number of recipients who clicked on the unsubscription link.<br/> </td>
 </tr>
   <tr> 
    <td>Unique installs<br/> </td> 
@@ -254,7 +254,7 @@ ht-degree: 5%
 </table>
 -->
 
-## 應用內度量 {#inapp-metrics}
+## 應用程式內量度 {#inapp-metrics}
 
 <table> 
  <thead> 
@@ -266,28 +266,28 @@ ht-degree: 5%
  <tbody>
  <tr> 
    <td>點擊次數<br/> </td> 
-   <td>與In-app消息中包含的按鈕交互的收件人總數。<br/> </td> 
+   <td>與應用程式內訊息所含按鈕互動的收件者總數。<br/> </td> 
 </tr>
   <tr> 
-   <td>按一下率<br/> </td> 
-   <td>與看到In-app消息的用戶相比，與In-app消息中包含的按鈕交互的用戶的百分比。<br/> </td> 
+   <td>點按率<br/> </td> 
+   <td>與已看到訊息的使用者相比，與應用程式內訊息中所包含按鈕互動的使用者百分比。<br/> </td> 
 </tr> 
   <tr> 
-   <td>消除率<br/> </td> 
-   <td> 接收者拒絕的應用內郵件的百分比。<br/> </td> 
+   <td>解除率<br/> </td> 
+   <td> 收件者已解除的應用程式內訊息的百分比。<br/> </td> 
 </tr> 
   <tr> 
    <td>曝光數<br/> </td> 
-   <td> 傳遞給所有用戶的應用內消息總數。<br/> </td>
+   <td> 傳送給所有使用者的應用程式內訊息總數。<br/> </td>
 </tr>
   <tr> 
-   <td>獨特印象<br/> </td> 
-   <td>將In-app消息傳遞給的唯一用戶數。<br/> </td>
+   <td>不重複曝光次數<br/> </td> 
+   <td>應用程式內訊息傳遞至的不重複使用者人數。<br/> </td>
 </tr>
  </tbody> 
 </table>
 
-## 推送通知度量
+## 推播通知量度
 
 <table> 
  <thead> 
@@ -299,64 +299,64 @@ ht-degree: 5%
  <tbody>
  <tr> 
    <td>動作<br/> </td> 
-   <td> 已傳遞的推送通知操作總數，例如按一下按鈕或解除按鈕。<br/> </td> 
+   <td> 推播通知已傳遞的動作總數，例如按鈕點選或解除。<br/> </td> 
 </tr>
   <tr> 
    <td>跳出<br/> </td> 
-   <td> 在傳遞和自動返回處理期間累積的與已發送消息總數有關的錯誤總數。<br/> </td> 
+   <td> 傳遞和自動傳回處理期間累計的錯誤總數（與已傳送訊息總數相關）。<br/> </td> 
 </tr> 
   <tr> 
    <td> 跳出率<br/> </td> 
-   <td> 與發送的推送通知相比，已跳轉的推送通知的百分比。<br/> </td>
+   <td> 與已傳送的推播通知相比，已跳出的推播通知的百分比。<br/> </td>
 </tr>
   <tr> 
    <td> 已傳遞<br/> </td> 
-   <td> 成功發送的消息數，與已發送的消息總數相關。<br/> </td> 
+   <td> 成功傳送的訊息數（相對於已傳送的訊息總數）。<br/> </td> 
 </tr> 
   <tr> 
-   <td> 交貨率<br/> </td> 
-   <td> 已成功發送推送通知的百分比。<br/> </td> 
+   <td> 傳遞率<br/> </td> 
+   <td> 成功傳送的推播通知百分比。<br/> </td> 
 </tr>
   <tr> 
-   <td>預訂<br/> </td> 
-   <td> 此推送通知的開啟和操作總數，即，如果配置檔案開啟了推送或按一下了按鈕。<br/> </td> 
+   <td>參與<br/> </td> 
+   <td> 此推播通知的開啟和動作總數，亦即設定檔是否已開啟推播，或按鈕是否已點按。<br/> </td> 
 </tr> 
   <tr> 
-   <td> 訂約率<br/> </td> 
-   <td> 此推送通知的開啟和操作的百分比，即，如果配置檔案開啟了推送或按一下了按鈕。<br/> </td> 
+   <td> 參與率<br/> </td> 
+   <td> 此推播通知的開啟和動作百分比，亦即設定檔是否已開啟推播，或按鈕是否已點按。<br/> </td> 
 </tr>
   <tr> 
    <td> 錯誤<br/> </td> 
-   <td> 在傳遞期間發生的錯誤總數，使其無法發送到配置檔案。<br/> </td> 
+   <td> 傳遞期間發生且無法傳送至設定檔的錯誤總數。<br/> </td> 
 </tr>
   <tr> 
    <td> 錯誤率<br/> </td> 
-   <td> 與發送的推送通知相比，在發送過程中發生的錯誤阻止發送的百分比。<br/> </td> 
+   <td> 與已傳送的推播通知相比，在傳送期間發生且無法傳送的錯誤百分比。<br/> </td> 
 </tr> 
   <tr> 
    <td> 已排除<br/> </td> 
-   <td> 被Adobe Journey Optimizer排除的檔案數。<br/> </td> 
+   <td> Adobe Journey Optimizer已排除的設定檔數。<br/> </td> 
 </tr>
   <tr> 
    <td> 開啟數<br/> </td> 
-   <td> 用戶通過點擊將推送通知發送到設備並開啟應用的總數。 這與「推式按一下」類似，但「推式開啟」在通知被撤消時不會觸發。<br/> </td> 
+   <td> 傳送至裝置並由使用者點按以開啟應用程式的推播通知總數。 這類似於「推送點按」，但如果通知已關閉，則不會觸發「推送開啟」。<br/> </td> 
 </tr> 
   <tr> 
    <td> 開啟率<br/> </td> 
-   <td> 開啟的推送通知百分比。<br/> </td> 
+   <td> 已開啟推播通知的百分比。<br/> </td> 
 </tr> 
   <tr> 
    <td> 已傳送<br/> </td> 
-   <td> 交貨的發送總數。<br/> </td> 
+   <td> 傳遞的傳送總數。<br/> </td> 
 </tr> 
   <tr> 
-   <td> 目標<br/> </td> 
-   <td> 在傳遞分析期間處理的推送消息總數。<br/> </td> 
+   <td> 已定位<br/> </td> 
+   <td> 傳遞分析期間處理的推送訊息總數。<br/> </td> 
 </tr>  
  </tbody> 
 </table>
 
-### 登錄頁度量 {#landing-page-metrics}
+### 登陸頁面量度 {#landing-page-metrics}
 
 <table> 
  <thead> 
@@ -368,48 +368,48 @@ ht-degree: 5%
  <tbody>
  <tr> 
   <td>跳出<br/> </td> 
-   <td>未與登錄頁交互且未完成訂閱操作的人數。<br/> </td> 
+   <td>未與登入頁面互動且未完成訂閱動作的人數。<br/> </td> 
 </tr>
  <tr> 
    <td>跳出率<br/> </td> 
-   <td>未與登錄頁互動且未完成訂閱行動的人數，與訪問總數相比。<br/> </td> 
+   <td>未與登入頁面互動且未完成訂閱動作的人數（相對於造訪總數）。<br/> </td> 
 </tr>
  <tr>
   <tr> 
    <td>點擊次數<br/> </td> 
-   <td>在登錄頁中按一下內容的次數。<br/> </td> 
+   <td>內容在登入頁面中的點按次數。<br/> </td> 
 </tr>
  <tr> 
-   <td>按一下率<br/> </td> 
-   <td>登錄頁中的按一下百分比。<br/> </td>
+   <td>點按率<br/> </td> 
+   <td>登陸頁面中的點按百分比。<br/> </td>
 </tr>
 <tr>
 <td>轉換<br/> </td> 
-   <td>與登錄頁互動的人數，例如訂閱表格。<br/> </td> 
+   <td>與登入頁面互動（例如訂閱表單）的人數。<br/> </td> 
 </tr>
 <tr>
    <td>轉換率<br/> </td> 
-   <td>與登錄頁互動的人數，例如訂閱表格，與訪問總數相比。<br/> </td> 
+   <td>與登入頁面互動的人數（例如訂閱了表單），與造訪總數相關。<br/> </td> 
 </tr>
  <tr> 
-   <td>旅程<br/> </td> 
-   <td>從旅程訪問登錄頁的次數。<br/> </td> 
+   <td>歷程<br/> </td> 
+   <td>來自歷程的登陸頁面造訪次數。<br/> </td> 
 </tr>
  <tr> 
    <td>其他來源<br/> </td> 
-   <td>從外部來源而不是旅程訪問登錄頁的次數。<br/> </td> 
+   <td>來自外部來源而非歷程的登陸頁面瀏覽次數。<br/> </td> 
 </tr>
  <tr> 
-   <td>訪問總數<br/> </td> 
-   <td> 來自行程和外部來源（包括一個收件人的多次訪問）的登錄頁訪問總數。<br/> </td> 
+   <td>造訪總數<br/> </td> 
+   <td> 來自歷程和外部來源的登陸頁面造訪總數，包括一位收件者的多次造訪。<br/> </td> 
 </tr>
  <tr> 
    <td>不重複訪客<br/> </td> 
-   <td>訪問登錄頁的人數，不考慮一個收件人的多次訪問。<br/> </td> 
+   <td>造訪您登陸頁面的使用者人數，不會將一位收件者的多次造訪納入考量。<br/> </td> 
 </tr>
  <tr> 
    <td>造訪數<br/> </td> 
-   <td>訪問登錄頁的次數，包括一個收件人的多次訪問。<br/> </td> 
+   <td>登陸頁面的瀏覽次數，包括一位收件者的多次瀏覽。<br/> </td> 
 </tr>
  </tbody> 
 </table>

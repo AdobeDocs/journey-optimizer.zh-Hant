@@ -1,34 +1,34 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 許可證使用儀表板
-description: 瞭解Journey Optimizer許可證使用儀表板
+title: 授權使用情況儀表板
+description: 瞭解Journey Optimizer授權使用儀表板
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '118'
 ht-degree: 12%
 
 ---
 
-# 許可證使用儀表板 {#license-usage}
+# 授權使用情況儀表板 {#license-usage}
 
-的 [!DNL Adobe Journey Optimizer] [用戶介面](../start/user-interface.md) 提供了一個儀表板，其中顯示了有關您組織的許可證使用情況的重要資訊，這些資訊在每日快照中捕獲。
+此 [!DNL Adobe Journey Optimizer] [使用者介面](../start/user-interface.md) 提供一個儀表板，顯示貴組織授權使用的重要資訊，如每日快照期間所擷取。
 
-要訪問此儀表板，請轉到 **[!UICONTROL 管理]** > **[!UICONTROL 許可證使用]**。 開啟 **[!UICONTROL 概述]** 頁籤。
+若要存取此儀表板，請前往 **[!UICONTROL 管理]** > **[!UICONTROL 授權使用情況]**. 如此將可開啟 **[!UICONTROL 概觀]** 標籤顯示控制面板。
 
 ![](assets/license-usage-dashboard.png)
 
 >[!NOTE]
 >
->要能夠查看儀表板，必須授予您 [查看許可證使用儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=en#available-permissions){target="_blank"} 權限。
+>若要檢視控制面板，您必須被授予 [檢視授權使用量儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"} 許可權。
 
-在Adobe Experience Platform文檔中瞭解更多資訊：
+在Adobe Experience Platform檔案中進一步瞭解：
 
-* [許可證使用儀表板概述](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hant){target="_blank"}
-* [瀏覽許可證使用儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
-* [可用度量](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hant#available-metrics){target="_blank"}
+* [授權使用情況儀表板總覽](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hant){target="_blank"}
+* [探索授權使用儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [可用量度](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hant#available-metrics){target="_blank"}

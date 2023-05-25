@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 100%
+source-wordcount: '1377'
+ht-degree: 98%
 
 ---
 
@@ -166,9 +166,10 @@ ht-degree: 100%
    + 內容實驗 {#content-experiment}
       + [開始使用內容實驗](using/campaigns/get-started-experiment.md)
       + [建立內容實驗](using/campaigns/content-experiment.md)
-      + [瞭解統計計算](using/campaigns/experiment-calculations.md)
       + [設定實驗報告](using/campaigns/reporting-configuration.md)
-      + [實驗報告中的統計計算](using/campaigns/experiment-report-calculations.md)
+      + 技術備忘稿 {#technotes}
+         + [瞭解統計計算](using/campaigns/experiment-calculations.md)
+         + [瞭解實驗報告中的統計計算](using/campaigns/experiment-report-calculations.md)
    + [利用 API 觸發行銷活動](using/campaigns/api-triggered-campaigns.md)
 + 電子郵件頻道 {#email}
    + [開始使用電子郵件](using/email/get-started-email.md)
@@ -193,11 +194,11 @@ ht-degree: 100%
          + [開始使用電子郵件樣式](using/email/get-started-email-style.md)
          + [編輯背景設定](using/email/backgrounds.md)
          + [調整垂直對齊與邊框間距](using/email/alignment-and-padding.md)
-         + [定義連結的樣式](using/email/styling-links.md)
          + [加入內嵌樣式屬性](using/email/inline-styling.md)
    + [預覽和測試您的電子郵件](using/email/preview.md)
    + [建立內容範本](using/email/content-templates.md)
    + [使用 Experience Manager 範本](using/email/aem-templates.md)
+   + [使用片段](using/email/fragments.md)
    + [管理電子郵件選擇退出](using/email/email-opt-out.md)
    + 設定電子郵件頻道 {#configure-email}
       + [開始使用電子郵件設定](using/email/get-started-email-config.md)
@@ -304,6 +305,7 @@ ht-degree: 100%
       + [元件清單](using/reports/global-report-components.md)
       + [歷程全域報告](using/reports/journey-global-report.md)
       + [行銷活動全域報告](using/reports/campaign-global-report.md)
+      + [目標報告](using/reports/objective-report.md)
       + [登陸頁面全域報告](using/reports/lp-report-global.md)
       + [訂閱清單全域報告](using/reports/subscription-report-global.md)
    + 歷程報告 {#reports}
@@ -468,13 +470,15 @@ ht-degree: 100%
          + [與 Adobe Campaign v7/v8 整合](using/action/acc-action.md)
    + [來源](using/start/get-started-sources.md)
 + 存取控制 {#access-control}
-   + [存取控制概覽](using/administration/permissions-overview.md)
-   + [內建的產品設定檔](using/administration/ootb-product-profiles.md)
-   + [管理使用者和產品設定檔](using/administration/permissions.md)
-   + [權限層級](using/administration/high-low-permissions.md)
-   + [沙盒管理](using/administration/sandboxes.md)
+   + 存取控制概覽 {#privacy}
+      + [開始使用使用者管理](using/administration/permissions-overview.md)
+      + [內建角色](using/administration/ootb-product-profiles.md)
+      + [內建許可權](using/administration/ootb-permissions.md)
+      + [權限層級](using/administration/high-low-permissions.md)
+   + [管理使用者和角色](using/administration/permissions.md)
    + [以屬性為基礎的存取控制](using/administration/attribute-based-access.md)
    + [物件等級存取控制](using/administration/object-based-access.md)
+   + [沙盒管理](using/administration/sandboxes.md)
 + 隱私權 {#privacy}
    + [開始使用隱私權](using/privacy/get-started-privacy.md)
    + [隱私權請求](using/privacy/requests.md)

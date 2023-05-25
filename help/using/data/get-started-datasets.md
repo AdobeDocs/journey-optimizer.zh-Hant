@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: platform、資料湖、建立、湖、資料集、設定檔
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 100%
+source-wordcount: '834'
+ht-degree: 99%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
 您可以：
 
-* 從結構建立資料集。[在本文件中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant#schema){target="_blank"}
+* 從結構建立資料集。[在本文件中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#schema){target="_blank"}
 * 從 CSV 檔案建立資料集。[在本文件中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hant){target="_blank"}
 
 觀看此影片，了解如何建立資料集、將資料對應至結構描述、新增資料，以及確認資料已擷取。

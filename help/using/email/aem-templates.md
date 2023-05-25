@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用模AEM板
-description: 瞭解如何在中建立模AEM板並將其導出到Journey Optimizer
+title: 使用AEM範本
+description: 瞭解如何在AEM中建立範本並將其匯出至Journey Optimizer
 hide: true
 hidefromtoc: true
 feature: Overview
@@ -11,112 +11,112 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '766'
 ht-degree: 3%
 
 ---
 
-# 使用Adobe Experience Manager模板 {#aem-templates}
+# 使用Adobe Experience Manager範本 {#aem-templates}
 
 >[!AVAILABILITY]
 >
->目前，與Adobe Experience Manager的整合只作為測試版提供給特定用戶。
-> 作為測試版用戶，使用 [此表格](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} 共用反饋。
+>與Adobe Experience Manager的整合目前僅供特定使用者使用，且為測試版。
+> 身為測試版使用者，請使用 [此表單](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} 以分享意見。
 
-使用Adobe Journey Optimizer，您可以通過Adobe Experience Manager網站建立定製的消息。 首先使用Adobe Experience Manager的內容源設計模板，然後將其發送到Adobe Journey Optimizer。 共用後，這些模板可以在Adobe Journey Optimizer的電子郵件設計師中訪問，從而簡化了為您所需的受眾製作和發送消息的過程。
+透過Adobe Journey Optimizer，您可以透過Adobe Experience Manager網站建立自訂的訊息。 首先，使用Adobe Experience Manager的內容來源設計範本，然後傳送至Adobe Journey Optimizer。 共用後，您就可以在Adobe Journey Optimizer的電子郵件設計工具中存取這些範本，以簡化製作及傳送訊息給所需對象的程式。
 
 ## 先決條件 {#prerequisites}
 
-開始使用此功能之前，請確保符合以下要求：
+開始使用此功能之前，請確定您已符合下列需求：
 
 * **Experience Manager設定**
 
-   此功能可用於 [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html){target="_blank"}。
+   此功能適用於 [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html){target="_blank"}.
 
-   作為測試程式的一部分，Cloud Service配置由Adobe Experience ManagerAdobe執行以連接到Adobe Journey Optimizer。
+   在Beta版計畫中，Cloud Service設定是由Adobe Experience Manager中的Adobe執行，以連線至Adobe Journey Optimizer。
 
 * **權限**
 
-   要在Adobe Journey Optimizer建立、編輯和刪除內容模板，必須 **[!DNL Manage Library Items]** 包含在 **[!DNL Content Library Manager]** 產品配置檔案。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
+   若要在Adobe Journey Optimizer中建立、編輯和刪除內容範本，您必須具備 **[!DNL Manage Library Items]** 許可權包含在 **[!DNL Content Library Manager]** 產品設定檔。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
 
 ## 護欄和限制{#aem-templates-limitations}
 
-為了進一步優化Adobe Experience Manager與Adobe Journey Optimizer的使用，必須注意以下附加的保障和限制：
+若要進一步最佳化Adobe Experience Manager與Adobe Journey Optimizer搭配使用，請務必注意下列額外護欄和限制：
 
-* 要有效地實現Experience Manager模板中的個性化，需要正確的Journey Optimizer語法。 [了解更多](../personalization/personalization-syntax.md)
+* Experience Manager範本中的個人化需使用正確的Journey Optimizer語法，才能生效。 [了解更多](../personalization/personalization-syntax.md)
 
-* 當前不支援批量模板導出，必須單獨導出模板。
+* 目前不支援大量範本匯出，必須個別匯出範本。
 
-* Experience Manager和Journey Optimizer之間的同步當前不可用。 如果在將Experience Manager模板發送到Journey Optimizer後對其進行了更改，則用戶需要重新導出該模板並將其重新發送到Journey Optimizer。
+* Experience Manager與Journey Optimizer之間目前無法同步。 如果Experience Manager範本在傳送至Journey Optimizer後有所變更，使用者必須重新匯出範本，並重新傳送至Journey Optimizer。
 
-## 向Journey Optimizer發送模板{#aem-templates-send}
+## 傳送範本至Journey Optimizer{#aem-templates-send}
 
-要將Adobe Experience Manager模板導出到Adobe Journey Optimizer，請執行以下步驟：
+若要將Adobe Experience Manager範本匯出至Adobe Journey Optimizer，請遵循下列步驟：
 
-1. 從您的Adobe Experience Manager首頁，選擇 **[!UICONTROL 出站市場營銷]**。
+1. 在您的Adobe Experience Manager首頁中，選取 **[!UICONTROL 對外行銷]**.
 
    ![](assets/aem-outbound-menu.png)
 
-1. 從內容庫中，您可以使用以前配置的模板或從頭建立一個模板。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page)
+1. 您可以從內容資料庫中使用先前設定的範本，或從頭開始建立範本。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
-1. 通過將Journey Optimizer個性化語法整合到模板中，您可以增強其自定義功能。 [了解更多](../personalization/personalization-syntax.md)
+1. 將Journey Optimizer個人化語法併入範本中，即可增強其自訂功能。 [了解更多](../personalization/personalization-syntax.md)
 
    ![](assets/aem_ajo_4.png)
 
-1. 選擇要導出到Journey Optimizer的模板，然後按一下 **[!UICONTROL 發送到]** 的子菜單。
+1. 選取您要匯出至Journey Optimizer的範本，然後按一下 **[!UICONTROL 傳送至]** 進階功能表中的。
 
    ![](assets/aem-advanced-menu.png)
 
-1. 輸入 **[!UICONTROL 名稱]** ，然後選擇目標 **[!UICONTROL 沙盒]**。
+1. 輸入 **[!UICONTROL 名稱]** 並選取目標 **[!UICONTROL Sandbox]**.
 
    ![](assets/aem-send-template-settings.png)
 
-1. 按一下後 **[!UICONTROL 發送]** 按鈕，將開始導出過程。 導出完成後，您將在用戶介面中看到以下消息：&quot;模板&quot;XX&quot;已成功發送到AJO&quot;。
+1. 在您按一下 **[!UICONTROL 傳送]** 按鈕，匯出程式就會開始。 匯出完成後，您會在使用者介面中看到下列訊息：「範本「XX」已成功傳送至AJO」。
 
-該模板將添加到所選沙盒的Adobe Journey Optimizer內容模板。
+範本會新增至所選沙箱的Adobe Journey Optimizer內容範本。
 
-## 使用並個性化Adobe Experience Manager模板{#aem-templates-perso}
+## 使用及個人化Adobe Experience Manager範本{#aem-templates-perso}
 
-一旦Experience Manager模板在Journey Optimizer作為內容模板可用，您就可以識別並合併電子郵件的必要內容，包括個性化。
+在Journey Optimizer中提供Experience Manager範本作為內容範本後，您就可以識別並整合電子郵件的必要內容，包括個人化。
 
-1. 在Journey Optimizer, **[!UICONTROL 內容模板]** 的子菜單。
+1. 在Journey Optimizer中，從 **[!UICONTROL 內容範本]** 功能表，存取您匯入的範本。
 
    ![](assets/aem_ajo_1.png)
 
-1. 按一下 **[!UICONTROL 警報]** 按鈕，您可以快速檢查是否缺少任何重要設定。 這將有助於確保正確配置您的消息並防止任何潛在錯誤或問題。
+1. 按一下 **[!UICONTROL 警報]** 按鈕時，您可以快速檢查是否有任何重要設定遺失。 這將有助於確保您的訊息已正確設定，並防止任何潛在錯誤或問題。
 
    ![](assets/aem_ajo_2.png)
 
-1. 在 **[!UICONTROL 模板屬性]** 的 **[!UICONTROL 管理訪問]** 按鈕，將自定義或核心資料用法標籤分配給模板。 [瞭解有關對象級訪問控制(OLAC)的詳細資訊](../administration/object-based-access.md)
+1. 在 **[!UICONTROL 範本屬性]** 視窗，按一下 **[!UICONTROL 管理存取權]** 按鈕來指派自訂或核心資料使用標籤給您的範本。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
 
-1. 要進一步個性化您的Experience Manager模板並將自定義個性化添加到您的內容，請按一下 **[!UICONTROL 編輯內容]**。 這樣，您就可以輕鬆進行更改並根據您的特定需求定制模板。 [了解更多](get-started-email-design.md)
+1. 若要進一步個人化您的Experience Manager範本並新增自訂個人化至您的內容，請按一下 **[!UICONTROL 編輯內容]**. 這可讓您輕鬆進行變更，並根據您的特定需求量身打造範本。 [了解更多](get-started-email-design.md)
 
-   >[!NOTE]
+   >[!WARNING]
    >
-   > 如果要編輯和個性化模板，則只能使用相容模式。
+   > 如果您想要編輯並個人化您的範本，則只能使用相容性模式。
 
-1. 內容模板準備好後， [test並驗證](content-templates.md#test-template)。
+1. 當您的內容範本準備就緒時， [測試及驗證](content-templates.md#test-template).
 
-1. 定義內容後，您可以通過瀏覽 **[!UICONTROL 保存的模板]** 的下界。 然後，選擇 **[!UICONTROL 使用此模板]**。
+1. 定義內容後，您可以在建立新電子郵件時透過瀏覽 **[!UICONTROL 已儲存的範本]** 集合。 然後，選取 **[!UICONTROL 使用此範本]**.
 
    ![](assets/aem_ajo_3.png)
 
-1. 您現在可以編輯和個性化您的內容。 有關如何構建電子郵件內容的詳細資訊，請參閱此 [頁](content-from-scratch.md)。
+1. 您現在可以編輯及個人化您的內容。 有關如何建立電子郵件內容的詳細資訊，請參閱此 [頁面](content-from-scratch.md).
 
    ![](assets/aem_ajo_5.png)
 
-1. 如果將個性化內容添加到Experience Manager模板，請按一下 **[!UICONTROL 模擬內容]** 使用test配置檔案預覽消息中的顯示方式。
+1. 如果您已將個人化內容新增至Experience Manager範本，請按一下 **[!UICONTROL 模擬內容]** 以使用測試設定檔預覽其顯示在訊息中的方式。
 
-[瞭解有關預覽和test配置檔案的詳細資訊](../email/preview.md)
+[進一步瞭解預覽和測試設定檔](../email/preview.md)
 
    ![](assets/aem_ajo_6.png)
 
-1. 當查看消息預覽時，任何個性化元素將自動替換為來自所選test配置檔案的相應資料。
+1. 檢視訊息預覽時，任何個人化元素都會自動取代為所選測試設定檔中的對應資料。
 
-   如果需要，可通過 **[!UICONTROL 管理test配置檔案]** 按鈕
+   如有需要，可透過新增其他測試設定檔 **[!UICONTROL 管理測試設定檔]** 按鈕。
 
    ![](assets/aem_ajo_7.png)
 
-當您的電子郵件準備好後，請完成您的 [旅程](../building-journeys/journey-gs.md) 或 [活動](../campaigns/create-campaign.md)，並激活它以發送消息。
+當您的電子郵件準備就緒時，請完成 [歷程](../building-journeys/journey-gs.md) 或 [行銷活動](../campaigns/create-campaign.md)，並啟動以傳送訊息。

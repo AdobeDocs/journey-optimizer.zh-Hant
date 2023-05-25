@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 資料、治理、DULE、標籤、標籤、平台、原則
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 100%
+source-wordcount: '900'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Experience Platform 可讓您為欄位加上標籤，並為每個頻道建
 有關資料控管框架以及如何使用標籤和原則的詳細資訊，請參閱 Adobe Experience Platform 文件：
 
 * [資料控管服務總覽](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=zh-Hant)
-* [資料使用標籤總覽](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hant)
+* [資料使用標籤總覽](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html)
 * [資料使用原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant)
 
 ## 重要備註 {#important-notes}
@@ -48,7 +48,7 @@ Adobe Experience Platform 可讓您為欄位加上標籤，並為每個頻道建
 * 為您歷程中所使用的每個協力廠商自訂動作定義行銷動作。
 * 建立治理政策，並將其與標籤和行銷動作建立關聯。
 
-有關如何管理政策的詳細資訊，請參閱本[文件](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#consent-policy)。
+有關如何管理政策的詳細資訊，請參閱本[文件](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy)。
 
 以您需要標示為敏感並限制匯出至協力廠商的血液類型欄位為例。 不同的步驟如下：
 

@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 物件等級存取控制
-description: 瞭解對象級訪問控制，它允許您定義管理對選定對象的資料存取權限的授權
+description: 瞭解物件層級存取控制，其可讓您定義授權以管理對所選物件的資料存取
 feature: Access Management
 topic: Administration
 role: Admin, Developer, Architect
 level: Experienced
-keywords: 對象、級別、訪問、控制、標籤、olac、授權
+keywords: 物件，層級，存取，控制，標籤， olac，授權
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '457'
 ht-degree: 14%
 
 ---
@@ -25,73 +25,73 @@ ht-degree: 14%
 
 >[!IMPORTANT]
 >
->對象級別訪問控制的使用目前僅限於選定客戶，將在以後的版本中部署到所有環境。
+>物件層級存取控制的使用目前僅限於選定客戶，將在未來的版本中同步到所有環境。
 
-對象級訪問控制(OLAC)允許您定義管理對選定對象的資料存取的授權：
+物件層級存取控制(OLAC)可讓您定義授權，以管理對所選物件的資料存取：
 
 * 歷程
 * Campaign
 * 登陸頁面
 * 優惠
-* 優惠集合
-* Offer decisioning
+* 優惠收藏
+* offer decisioning
 
-其目的是保護敏感數字資產免受未經授權用戶的侵害，從而進一步保護個人資料。
+其目的在於保護敏感數位資產，使其免受未經授權使用者的侵害，進而進一步保護個人資料。
 
-在Adobe Journey Optimizer,OLAC允許您保護資料並授予對特定對象的特定訪問權限。
+在Adobe Journey Optimizer中，OLAC可讓您保護資料並授與特定物件的特定存取權。
 
 ## 建立標籤 {#create-assign-labels}
 
 >[!IMPORTANT]
 >
->要能夠建立標籤，您必須是 **[!UICONTROL 管理使用標籤]** 權限。
+>若要建立標籤，您必須屬於具有下列專案的角色： **[!UICONTROL 管理使用標籤]** 許可權。
 
-**[!UICONTROL 標籤可讓您根據適用於該資料的使用原則對資料集和欄位進行分類。]****[!UICONTROL 標籤]** 可以隨時應用，在選擇如何管理資料方面提供了靈活性。
+**[!UICONTROL 標籤可讓您根據適用於該資料的使用原則對資料集和欄位進行分類。]****[!UICONTROL 標籤]** 可隨時套用，讓您靈活選擇控管資料的方式。
 
-可在 [!DNL Permissions] 產品。 如需詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html)。
+您可以在中建立標籤 [!DNL Permissions] 產品。 如需詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html)。
 
-**[!UICONTROL 標籤]** 也可以直接在Journey Optimizer建立：
+**[!UICONTROL 標籤]** 也可以直接在Journey Optimizer中建立：
 
-1. 從Adobe Journey Optimizer對象，這裡是新建立的 **[!UICONTROL 活動]**，按一下 **[!UICONTROL 管理訪問]** 按鈕
+1. 從Adobe Journey Optimizer物件，在這裡新建立一個 **[!UICONTROL Campaign]**，按一下 **[!UICONTROL 管理存取權]** 按鈕。
 
    ![](assets/olac_1.png)
 
-1. 從 **[!UICONTROL 管理訪問]** 窗口，按一下 **[!UICONTROL 建立標籤]**。
+1. 從 **[!UICONTROL 管理存取權]** 視窗，按一下 **[!UICONTROL 建立標籤]**.
 
    ![](assets/olac_2.png)
 
-1. 配置標籤時，必須指定：
+1. 設定您的標籤，您必須指定：
    * **[!UICONTROL 名稱]**
-   * **[!UICONTROL 友好名稱]**
+   * **[!UICONTROL 易記名稱]**
    * **[!UICONTROL 說明]**
 
    ![](assets/olac_3.png)
 
-1. 按一下 **[!UICONTROL 建立]** 保存 **[!UICONTROL 標籤]**。
+1. 按一下 **[!UICONTROL 建立]** 儲存您的 **[!UICONTROL 標籤]**.
 
-新建立的 **[!UICONTROL 標籤]** 清單中。 如果需要，可以在 [!DNL Permissions] 產品。
+您新建立的 **[!UICONTROL 標籤]** 現在可從清單中取得。 如有需要，您可以在下列位置修改它： [!DNL Permissions] 產品。
 
-## 分配標籤 {#assign-labels}
+## 指派標籤 {#assign-labels}
 
 >[!IMPORTANT]
 >
->要能夠分配標籤，您必須是具有「管理」權限的角色的一部分， [!DNL Manage journeys]。 [!DNL Manage Campaigns] 或 [!DNL Manage decisions]。 如果沒有此權限， **[!UICONTROL 管理訪問]** 按鈕將變灰。
+>若要指派標籤，您必須是具有管理許可權的角色的一部分，即 [!DNL Manage journeys]， [!DNL Manage Campaigns] 或 [!DNL Manage decisions]. 若無此許可權， **[!UICONTROL 管理存取權]** 按鈕會呈現灰色。
 
-要將自定義或核心資料使用標籤分配給您的Journey Optimizer對象：
+若要將自訂或核心資料使用標籤指派給您的Journey Optimizer物件：
 
-1. 從Adobe Journey Optimizer對象，這裡是新建立的 **[!UICONTROL 活動]**，按一下 **[!UICONTROL 管理訪問]** 按鈕
+1. 從Adobe Journey Optimizer物件，在這裡新建立一個 **[!UICONTROL Campaign]**，按一下 **[!UICONTROL 管理存取權]** 按鈕。
 
    ![](assets/olac_1.png)
 
-1. 從 **[!UICONTROL 管理訪問]** 窗口，選擇自定義或核心資料使用標籤以管理對此對象的訪問。
+1. 從 **[!UICONTROL 管理存取權]** 視窗中，選取您的自訂或核心資料使用標籤，以管理此物件的存取權。
 
-   有關核心資料使用標籤的詳細資訊，請參閱 [此頁](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html)。
+   如需核心資料使用標籤的詳細資訊，請參閱 [此頁面](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html).
 
    ![](assets/olac_4.png)
 
-1. 按一下 **[!UICONTROL 保存]** 以應用此標籤限制。
+1. 按一下 **[!UICONTROL 儲存]** 以套用此標籤限制。
 
-要訪問此對象，用戶需要具有 **[!UICONTROL 標籤]** 包括 **[!UICONTROL 角色]**。
-例如，具有C1標籤的用戶將只能訪問已標籤或未標籤的對象的C1。
+若要存取此物件，使用者需要具備特定 **[!UICONTROL 標籤]** 包含在其中 **[!UICONTROL 角色]**.
+例如，具有C1標籤的使用者將只能存取C1標籤或未標籤的物件。
 
-有關如何分配的詳細資訊 **[!UICONTROL 標籤]** 到 **[!UICONTROL 角色]**，請參閱 [此頁](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role)。
+如需如何指派的詳細資訊 **[!UICONTROL 標籤]** 至 **[!UICONTROL 角色]**，請參閱 [此頁面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role).

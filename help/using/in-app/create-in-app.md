@@ -1,15 +1,15 @@
 ---
-title: 建立應用內通知
-description: 瞭解如何在Journey Optimizer建立應用內消息
+title: 建立應用程式內通知
+description: 瞭解如何在Journey Optimizer中建立應用程式內訊息
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 9bebcde9edde40a0fadba34d8b40757036a6436d
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '440'
 ht-degree: 6%
 
 ---
@@ -68,48 +68,50 @@ For more information on how to configure a journey, refer to [this page](../buil
 >[!TAB Add an In-app message to a campaign]
 -->
 
-1. 訪問 **[!UICONTROL 市場活動]** 菜單，然後按一下 **[!UICONTROL 建立市場活動]**。
+1. 存取 **[!UICONTROL 行銷活動]** 功能表，然後按一下 **[!UICONTROL 建立行銷活動]**.
 
-1. 在 **[!UICONTROL 屬性]** 選擇市場活動執行類型：計畫或API觸發。 瞭解有關中市場活動類型的詳細資訊 [此頁](../campaigns/create-campaign.md#campaigntype)。
+1. 在 **[!UICONTROL 屬性]** 區段，選取行銷活動執行型別：已排程或API觸發。 進一步瞭解中的行銷活動型別 [此頁面](../campaigns/create-campaign.md#campaigntype).
 
-1. 在 **[!UICONTROL 操作]** 的 **[!UICONTROL 應用內消息]** 和 **[!UICONTROL 應用表面]** 先前為您的In-app消息配置的。 然後，按一下 **[!UICONTROL 建立]**。
+1. 在 **[!UICONTROL 動作]** 區段，選擇 **[!UICONTROL 應用程式內訊息]** 和 **[!UICONTROL 應用程式表面]** 先前為您的應用程式內訊息所設定。 然後，按一下 **[!UICONTROL 建立]**.
 
-   瞭解有關中的應用程式內配置的詳細資訊 [此頁](inapp-configuration.md)。
+   進一步瞭解中的應用程式內設定 [此頁面](inapp-configuration.md).
 
    ![](assets/in_app_create_1.png)
 
-1. 從 **[!UICONTROL 屬性]** ，輸入 **[!UICONTROL 標題]** 和 **[!UICONTROL 說明]** 說明。
+1. 從 **[!UICONTROL 屬性]** 區段，輸入 **[!UICONTROL 標題]** 和 **[!UICONTROL 說明]** 說明。
 
-1. 要將自定義或核心資料使用標籤分配給In-app消息，請選擇 **[!UICONTROL 管理訪問]**。 [了解更多](../administration/object-based-access.md)。
+1. 若要將自訂或核心資料使用標籤指派給應用程式內訊息，請選取 **[!UICONTROL 管理存取權]**. [了解更多](../administration/object-based-access.md)。
 
-1. 按一下 **[!UICONTROL 選擇受眾]** 按鈕，來定義可用Adobe Experience Platform段清單中的目標受眾。 [了解更多](../segment/about-segments.md)。
+1. 按一下 **[!UICONTROL 選取對象]** 按鈕，從可用的Adobe Experience Platform區段清單定義目標對象。 [了解更多](../segment/about-segments.md)。
 
    ![](assets/in_app_create_2.png)
 
-1. 在 **[!UICONTROL 標識命名空間]** 欄位中，選擇要用於標識選定段中的個體的命名空間。 [了解更多](../event/about-creating.md#select-the-namespace)。
+1. 在 **[!UICONTROL 身分名稱空間]** 欄位中，選擇要使用的名稱空間，以識別所選區段中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
 
-1. 按一下 **[!UICONTROL 編輯觸發器]** 選擇要觸發消息的事件和條件：
+1. 按一下 **[!UICONTROL 建立實驗]** 開始設定內容實驗並建立處理方式，以測量其效能並找出最適合目標對象的選項。 [了解更多](../campaigns/content-experiment.md)
 
-   1. 按一下 **添加條件** 的子菜單。
-   1. 選擇事件的連結方式，例如選擇 **[!UICONTROL 和]** 如果你願意 **兩者** 觸發器為true，以便顯示或選擇消息 **[!UICONTROL 或]** 的子菜單。 **或** 觸發器是真的。
-   1. 按一下 **[!UICONTROL 生成組]** 將觸發器分組。
+1. 按一下 **[!UICONTROL 編輯觸發程式]** 若要選擇將觸發訊息的事件和條件：
+
+   1. 按一下 **新增條件** 如果您希望觸發器考量多個事件或條件。
+   1. 選取事件的連結方式，例如，選擇 **[!UICONTROL 和]** 如果您需要 **兩者** 觸發器設為true，以便顯示或選擇訊息 **[!UICONTROL 或]** 如果您想要顯示訊息，如果 **兩者之一** 的觸發程式為true。
+   1. 按一下 **[!UICONTROL 建立群組]** 將觸發程式群組在一起。
 
    ![](assets/in_app_create_3.png)
 
-1. 選擇當In-app消息處於活動狀態時觸發器的頻率。 提供下列選項：
+1. 選擇應用程式內訊息生效時的觸發頻率。 提供下列選項：
 
-   * **[!UICONTROL 每次]**:在中選擇的事件時始終顯示消息 **[!UICONTROL 移動應用觸發器]** 下拉。
-   * **[!UICONTROL 一次]**:僅在第一次選擇的事件時顯示此消息 **[!UICONTROL 移動應用觸發器]** 下拉。
-   * **[!UICONTROL 直到按一下]**:在中選擇的事件時顯示此消息 **[!UICONTROL 移動應用觸發器]** 下拉，直到SDK使用「clicked」操作發送交互事件。
-   * **[!UICONTROL X次數]**:顯示此消息X時間。
+   * **[!UICONTROL 每次]**：一律顯示中選取的事件時的訊息 **[!UICONTROL 行動應用程式觸發程式]** 下拉式清單隨即出現。
+   * **[!UICONTROL 一次]**：只會在中第一次選取事件時顯示此訊息 **[!UICONTROL 行動應用程式觸發程式]** 下拉式清單隨即出現。
+   * **[!UICONTROL 直到點進為止]**：當在中選取事件時顯示此訊息 **[!UICONTROL 行動應用程式觸發程式]** 下拉式清單會一直出現，直到SDK以「已點按」的動作傳送互動事件為止。
+   * **[!UICONTROL X次數]**：顯示此訊息X次。
 
-1. 如果需要，選擇 **[!UICONTROL 星期幾]** 或 **[!UICONTROL 一天中的時間]** 將顯示應用內消息。
+1. 如有需要，請選擇要 **[!UICONTROL 星期]** 或 **[!UICONTROL 時間]** 將會顯示應用程式內訊息。
 
-1. 市場活動旨在在特定日期或循環頻率上執行。 瞭解如何配置 **[!UICONTROL 計畫]** 你的競選團隊 [此部分](../campaigns/create-campaign.md#schedule)。
+1. 行銷活動的設計目的是要在特定日期或循環頻率執行。 瞭解如何設定 **[!UICONTROL 排程]** 中的行銷活動 [本節](../campaigns/create-campaign.md#schedule).
 
    ![](assets/in-app-schedule.png)
 
-1. 您現在可以開始使用 **[!UICONTROL 編輯內容]** 按鈕 [了解更多](design-in-app.md)
+1. 您現在可以開始使用設計內容 **[!UICONTROL 編輯內容]** 按鈕。 [了解更多](design-in-app.md)
 
    ![](assets/in_app_create_4.png)
 
@@ -119,14 +121,14 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 ## 操作說明影片{#video}
 
-下面的視頻顯示如何在市場活動中建立、配置和發佈應用內消息。
+以下影片說明如何在行銷活動中建立、設定和發佈應用程式內訊息。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
 
 **相關主題：**
 
-* [設計應用內消息](design-in-app.md)
-* [Test併發送您的應用內消息](send-in-app.md)
+* [設計應用程式內訊息](design-in-app.md)
+* [測試並傳送您的應用程式內訊息](send-in-app.md)
 * [應用程式內報告](../reports/campaign-global-report.md#inapp-report)
-* [應用內配置](inapp-configuration.md)
+* [應用程式內設定](inapp-configuration.md)
