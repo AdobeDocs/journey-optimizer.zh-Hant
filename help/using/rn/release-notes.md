@@ -4,9 +4,9 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec2113d6789f53827c725573669e948e1385c2e4
+source-git-commit: 104a5d3def95272e09be050c822f5eafed6a6cb0
 workflow-type: tm+mt
-source-wordcount: '2477'
+source-wordcount: '2485'
 ht-degree: 78%
 
 ---
@@ -168,11 +168,11 @@ ht-degree: 78%
 **簡訊頻道**
 
 * 在設定您的SMS頻道介面時，Infobip已新增為供應商提供者。 [閱讀全文](../sms/sms-configuration.md)
-* Twilio - API認證設定現在包含新增傳訊服務SID的功能，以便與您的Twilio帳戶緊密整合。
+* Twilio - API認證設定現在包含新增傳訊服務SID的功能，以便與您的Twilio帳戶緊密整合。 [閱讀全文](../sms/sms-configuration.md)
 
 **應用程式內頻道**
 
-* 新增Adobe地標服務的訊息觸發規則。
+* 新增Adobe地標服務的訊息觸發規則。 [閱讀全文](../in-app/inapp-configuration.md)
 * 已新增新的Adobe Experience Platform保證功能，以擷取裝置事件並新增為觸發規則。
 
 **歷程**
@@ -181,13 +181,13 @@ ht-degree: 78%
 
 **行銷活動**
 
-* 現在可以使用省略符號動作選單從詳細目錄畫面複製行銷活動。
+* 現在可以使用省略符號動作選單從詳細目錄畫面複製行銷活動。 [閱讀全文](../campaigns/modify-stop-campaign.md#duplicate)
 * 您現在可以刪除即時行銷活動的草稿修改。
-* 啟用行銷活動的步驟現已簡化。
+* 啟用行銷活動的步驟現已簡化。 [閱讀全文](../campaigns/modify-stop-campaign.md)
 
 **決策管理**
 
-* 如果優惠方案具有 **[!UICONTROL 草稿]** 狀態，且之前從未發佈且已啟用頻率限定。 [進一步了解](../offers/offer-library/add-constraints.md#frequency-capping)
+* 如果優惠方案具有 **[!UICONTROL 草稿]** 狀態，且之前從未發佈且已啟用頻率限定。 [閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **個人化**
 
