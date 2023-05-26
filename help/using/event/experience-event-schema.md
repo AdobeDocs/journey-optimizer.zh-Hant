@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 結構描述， XDM，平台，串流，擷取，歷程
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 4%
+source-wordcount: '840'
+ht-degree: 3%
 
 ---
 
@@ -72,7 +72,7 @@ Adobe Experience Platform 可讓您定義綱要之間的關係，以便將一個
 
 >[!NOTE]
 >
->進一步瞭解 [Experience Platform檔案](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=zh-Hant).
+>進一步瞭解 [Experience Platform檔案](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
 
 在Journey Optimizer中，您可以善用連結表格中的所有欄位：
 

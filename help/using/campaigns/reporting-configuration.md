@@ -8,11 +8,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 設定，實驗，報告，最佳化工具
+hide: true
+hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 066bceb078f619e75e5776764f534619d5a0bd5a
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 28%
+source-wordcount: '749'
+ht-degree: 32%
 
 ---
 
@@ -27,6 +30,18 @@ ht-degree: 28%
 >id="ajo_admin_reporting_dataset"
 >title="選取資料集"
 >abstract="您只能選取一個事件類型的資料集，該資料集必須至少包含一個受支援的欄位群組：應用程式詳細資訊、商務詳細資訊、Web 詳細資訊。"
+
+>[!BEGINSHADEBOX]
+
+本文件提供下列內容：
+
+* [開始使用內容實驗](get-started-experiment.md)
+* [建立內容實驗](content-experiment.md)
+* [瞭解統計計算](experiment-calculations.md)
+* **[設定實驗報告](reporting-configuration.md)**
+* [實驗報告中的統計計算](experiment-report-calculations.md)
+
+>[!ENDSHADEBOX]
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
@@ -45,7 +60,7 @@ ht-degree: 28%
 ## 先決條件
 
 
-您必須先建立該資料集，才能將資料集新增至報表設定。 瞭解如何在 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
+您必須先建立該資料集，才能將資料集新增至報表設定。 瞭解如何在 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant#create){target="_blank"}.
 
 * 您只能新增事件型別資料集。
 

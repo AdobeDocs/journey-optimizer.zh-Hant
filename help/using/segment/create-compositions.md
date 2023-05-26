@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 建立您的第一個組合工作流程
-description: 瞭解如何建立合成工作流以組合和安排現有受眾。
+description: 瞭解如何建立構成工作流程，以組合和排列現有對象。
 feature: Journeys
 topic: Content Management
 role: User
@@ -31,64 +31,64 @@ ht-degree: 14%
 
 >[!ENDSHADEBOX]
 
-## 建立合成工作流 {#create}
+## 建立構成工作流程 {#create}
 
-要建立合成工作流，請執行以下步驟：
+若要建立構成工作流程，請遵循下列步驟：
 
-1. 訪問 **[!UICONTROL 段]** 的 **[!UICONTROL 建立受眾]**。
+1. 存取 **[!UICONTROL 區段]** 功能表並選取 **[!UICONTROL 建立對象]**.
 
-1. 選擇 **[!UICONTROL 撰寫受眾]**。
+1. 選取 **[!UICONTROL 組成對象]**.
 
    ![](assets/audiences-create.png)
 
    >[!NOTE]
    >
-   >的 **[!UICONTROL 生成規則]** 建立方法允許您使用 [分段服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)。
+   >此 **[!UICONTROL 建置規則]** 建立方法可讓您使用建立新的區段定義。 [細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
-1. 合成畫布顯示有兩個預設活動：
+1. 構成畫布會顯示兩個預設活動：
 
-   * **[!UICONTROL 觀眾]**:你作文的起點。 此活動允許您選擇一個或多個受眾作為工作流的基礎，
+   * **[!UICONTROL 對象]**：構成起點。 此活動可讓您選取一或多個對象作為工作流程的基礎。
 
-   * **[!UICONTROL 保存]**:最後一步。 此活動允許您將工作流的結果保存到新的受眾中。
-   有關如何在合成工作流畫布中配置活動的詳細資訊，請參閱 [使用合成畫布](composition-canvas.md)。
+   * **[!UICONTROL 儲存]**：構成的最後一步。 此活動可讓您將工作流程的結果儲存至新受眾。
+   如需如何在構成工作流程畫布中設定活動的詳細資訊，請參閱 [使用構成畫布](composition-canvas.md).
 
-1. 開啟合成屬性以指定標題和說明。
+1. 開啟構成屬性以指定標題和說明。
 
-   如果屬性中未定義標題，則合成的標籤將設定為「合成」，然後是其建立日期和時間。
+   如果屬性中未定義標題，構成標籤會設為「構成」，接著是建立日期和時間。
 
    ![](assets/audiences-properties.png)
 
-1. 通過根據需要在 **[!UICONTROL 觀眾]** 和 **[!UICONTROL 保存]** 活動。 [瞭解如何使用合成畫布](composition-canvas.md)
+1. 視需要在「 」之間新增任意數量的活動，以設定您的構成 **[!UICONTROL 對象]** 和 **[!UICONTROL 儲存]** 活動。 [瞭解如何使用構成畫布](composition-canvas.md)
 
    ![](assets/audiences-publish.png)
 
-1. 在您的作品準備好後，按一下 **[!UICONTROL 發佈]** 按鈕，可以發佈作文並將生成的觀眾保存到Adobe Experience Platform。
+1. 在構成準備就緒後，按一下 **[!UICONTROL 發佈]** 按鈕來發佈構成並將產生的對象儲存到Adobe Experience Platform中。
 
    >[!IMPORTANT]
    >
-   >在給定沙盒中，最多可發佈75種作品。 如果已達到此閾值，則需要刪除合成以釋放空間並發佈新合成。
+   >您可以在指定的沙箱中發佈最多75個組合。 如果您已達到此臨界值，則需要刪除構成以釋放空間並發佈新構成。
 
-   如果發佈期間發生任何錯誤，則將顯示警報，其中包含有關如何解決問題的資訊。
+   如果在發佈期間發生任何錯誤，將顯示警報，其中包含如何解決問題的資訊。
 
    ![](assets/audiences-alerts.png)
 
-1. 該作文已發佈。 由此產生的受眾被保存到Adobe Experience Platform，並準備成為Journey Optimizer運動的目標。 [了解如何使行銷活動](../campaigns/get-started-with-campaigns.md)
+1. 組合已發佈。 產生的對象會儲存至Adobe Experience Platform，並準備好在Journey Optimizer行銷活動中鎖定目標。 [了解如何使行銷活動](../campaigns/get-started-with-campaigns.md)
 
-## 存取組合物 {#access}
+## 存取組合 {#access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
 >title="發佈您的對象"
 >abstract="發佈您的組合以將產生的對象儲存到 Adobe Experience Platform 中。"
 
-可從 **[!UICONTROL 組合物]** 頁籤。 它們可以具有多個狀態：
+所有已建立的構成都可從以下網址存取： **[!UICONTROL 組合]** 標籤。 它們可以有多個狀態：
 
-* **[!UICONTROL 草稿]**:該組合正在進行中，尚未發佈。
-* **[!UICONTROL 已發佈]**:已發佈作文，因此已保存並可供使用。
-* **[!UICONTROL 存檔]**:作品已存檔。
+* **[!UICONTROL 草稿]**：構成正在進行中，尚未發佈。
+* **[!UICONTROL 已發佈]**：構成已發佈，產生的對象已儲存並可供使用。
+* **[!UICONTROL 已封存]**：構成已封存。
 
 ![](assets/audiences-compositions.png)
 
 >[!NOTE]
 >
->您可以隨時使用清單中的省略號按鈕複製或刪除現有合成。
+>您可以使用清單中的省略符號按鈕，隨時複製或刪除現有構成。

@@ -1,6 +1,6 @@
 ---
 title: 建立版位
-description: 瞭解如何為您的產品建立放置
+description: 瞭解如何為您的優惠方案建立刊登版位
 feature: Offers
 topic: Integrations
 role: User
@@ -20,60 +20,60 @@ ht-degree: 11%
 >title="版位"
 >abstract="位置是用於展示優惠的容器。它有助於確保正確的優惠內容顯示在訊息中的正確位置。位置是從「元件」選單建立的。"
 
-放置有助於確保在郵件中的適當位置顯示適當的優惠內容。 將內容新增至優惠方案時，系統會要求您選取可顯示該內容的版位。
+版位有助於確保正確的選件內容顯示在訊息的正確位置。 將內容新增至優惠方案時，系統會要求您選取可顯示該內容的版位。
 
-➡️ [瞭解如何在此視頻中建立放置](#video)
+➡️ [在本影片中瞭解如何建立刊登版位](#video)
 
-在下面的示例中，有三個放置位置，對應於不同類型的內容(影像、文本、HTML)。
+在下列範例中，有三個版位，分別對應至不同型別的內容(影像、文字、HTML)。
 
 ![](../assets/offers_placement_schema.png)
 
-可在 **[!UICONTROL 元件]** 的子菜單。 篩選器可幫助您根據特定渠道或內容檢索放置位置。
+位置清單可在 **[!UICONTROL 元件]** 功能表。 篩選器可協助您根據特定管道或內容擷取版位。
 
 ![](../assets/placements_filter.png)
 
-要建立放置，請執行以下步驟：
+若要建立版位，請遵循下列步驟：
 
-1. 按一下 **[!UICONTROL 建立放置]**。
+1. 按一下 **[!UICONTROL 建立位置]**.
 
    ![](../assets/offers_placement_creation.png)
 
-1. 定義放置的屬性：
+1. 定義位置的屬性：
 
-   * **[!UICONTROL 名稱]**:放置的名稱。 確保定義有意義的名稱，以便更輕鬆地檢索它。
-   * **[!UICONTROL 通道類型]**:將使用放置的通道。
-   * **[!UICONTROL 內容類型]**:允許放置顯示的內容類型：文本、HTML、影像連結或JSON。
-   * **[!UICONTROL 說明]**:位置的說明（可選）。
+   * **[!UICONTROL 名稱]**：位置的名稱。 請務必定義有意義的名稱，以便更輕鬆地擷取它。
+   * **[!UICONTROL 頻道型別]**：使用位置的管道。
+   * **[!UICONTROL 內容型別]**：允許位置顯示的內容型別：文字、HTML、影像連結或JSON。
+   * **[!UICONTROL 說明]**：位置的說明（選用）。
 
    ![](../assets/offers_placement_creation_properties.png)
 
 
-1. 的 **[!UICONTROL 請求設定]** 和 **[!UICONTROL 響應格式]** 各節提供了其他參數：
+1. 此 **[!UICONTROL 請求設定]** 和 **[!UICONTROL 回應格式]** 區段提供其他引數：
 
-   * **[!UICONTROL 允許跨放置重複項]**:控制是否可以在不同位置多次建議同一報價。 如果啟用，系統將考慮同一優惠進行多次放置。 預設情況下，參數設定為false。
+   * **[!UICONTROL 允許跨版位的重複專案]**：控制是否可以跨不同版位多次建議相同的選件。 如果啟用，系統會針對多個版位考慮相同的選件。 依預設，引數會設為false。
 
-      如果此選項對於決策請求中的任何放置設定為false，則請求中的所有放置都將繼承「false」設定。
+      如果決策請求中任何位置的此選項設為false，請求中的所有位置都將繼承「false」設定。
 
-   * **[!UICONTROL 請求聘用]**:預設情況下，每個配置檔案都返回一個決策範圍。 您可以使用此選項調整返回的優惠數量。 例如，如果選擇2，則最佳的2個優惠將顯示為所選決策範圍。
+   * **[!UICONTROL 請求優惠]**：依預設，會為每個設定檔傳回一個決定範圍選件。 您可以使用此選項調整傳回的優惠方案數量。 例如，如果您選取2，則會針對所選決定範圍顯示最佳的2個優惠方案。
 
-   * **[!UICONTROL 包括內容]** / **[!UICONTROL 包括元資料]**:指定是否應在API響應中返回提供的內容和元資料。 您只能包含所有元資料或特定欄位。 預設情況下，「包括」元資料值設定為true。
-   如果使用 [決策API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html)。 但是，在用戶介面中配置它們可以幫助您節省時間，因為您不必在每個API請求中傳遞它們。 請注意，如果在用戶介面和API請求中都配置了參數，則API請求中的值將優先於介面中的參數。
+   * **[!UICONTROL 包含內容]** / **[!UICONTROL 包含中繼資料]**：指定是否應在API回應中傳回選件的內容和中繼資料。 您只能包含所有中繼資料或特定欄位。 依預設，「包含中繼資料」值會設為true。
+   如果您使用，這些引數也可以直接設定到您的API請求中 [決策API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). 不過，在使用者介面中設定這些變數有助於節省時間，因為您不需要在每個API請求中傳遞這些變數。 請注意，如果您同時在使用者介面和API要求中設定引數，API要求的值將會優先於介面的值。
 
    >[!NOTE]
    >
-   >如果您使用 [邊緣判定API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?)，不能將這些參數設定到請求中。 您需要在此螢幕中定義它們。
+   >如果您使用 [Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?)，您無法在請求中設定這些引數。 您需要在此畫面中定義它們。
    >
-   >如果您使用 [批處理決策API](../api-reference/offer-delivery-api/batch-decisioning-api.md)，可以在此螢幕或API請求中設定這些參數。 如果螢幕和APi請求之間的參數值不匹配，將使用請求值。
+   >如果您使用 [批次決策API](../api-reference/offer-delivery-api/batch-decisioning-api.md)，您可以在此畫面或API請求中設定這些引數。 如果畫面和APi請求之間的引數值不相符，則會使用請求值。
 
-1. 按一下 **[!UICONTROL 保存]** 確認。
+1. 按一下 **[!UICONTROL 儲存]** 以確認。
 
-1. 建立放置後，它將顯示在放置清單中。 可以選擇它以顯示其屬性並對其進行編輯。
+1. 位置建立後，會顯示在「位置」清單中。 您可以選取它以顯示其屬性並加以編輯。
 
    ![](../assets/placement_created.png)
 
 ## 操作說明影片{#video}
 
-瞭解如何在決策管理中建立放置位置。
+瞭解如何在決定管理中建立刊登版位。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 

@@ -7,7 +7,7 @@ feature: Data Sources
 topic: Administration
 role: Admin, Developer
 level: Intermediate
-keywords: 資料，源，行程，平台
+keywords: 資料，來源，歷程，平台
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
@@ -32,7 +32,7 @@ ht-degree: 73%
 
 ➡️ [在影片中探索此功能](#video)
 
-如果您的歷程僅運用來自事件裝載的本機資料，則不需要進行此設定。例如，如果行程由一個事件組成，然後是一個僅使用事件資料的渠道操作活動，則無需配置資料源。
+如果您的歷程僅運用來自事件裝載的本機資料，則不需要進行此設定。例如，如果您的歷程由事件組成，接著是隻使用事件資料的管道動作活動，則不需要設定資料來源。
 
 資料來源有兩種類型：
 
@@ -43,9 +43,9 @@ ht-degree: 73%
 
 >[!NOTE]
 >
->資料源不支援架構關係。
+>資料來源不支援結構描述關係。
 
-有關如何配置Adobe Experience Platform資料源和外部資料源以及如何查找和使用行程中的資料的詳細資訊，請觀看此資訊 [教程視頻](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}。
+如需如何設定Adobe Experience Platform資料來源和外部資料來源，以及如何在歷程中尋找和使用資料的詳細資訊，請觀看此影片 [教學課程影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## 操作說明影片 {#video}
 

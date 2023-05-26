@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 生成段
-description: 瞭解如何構建網段
+title: 建立區段
+description: 瞭解如何建立區段
 feature: Journeys
 topic: Content Management
 role: User
@@ -22,50 +22,50 @@ ht-degree: 11%
 >title="建立規則"
 >abstract="建置規則建立方法可讓您使用 Adobe Experience Platform 分段服務建立新的區段定義。"
 
-在此示例中，我們將構建一個細分市場，以1980年後出生的所有居住在亞特蘭大、舊金山或西雅圖的客戶為目標。 所有這些客戶應在過去7天內開啟Luma應用程式，然後在開啟應用程式後2小時內進行購買。
+在此範例中，我們將建立一個區段，以鎖定亞特蘭大、舊金山或西雅圖居住且1980年後出生的所有客戶。 所有這些客戶應在過去7天內開啟Luma應用程式，然後在開啟應用程式後2小時內購買。
 
-➡️ [瞭解如何在此視頻中建立段](#video-segment)
+➡️ [在本影片中瞭解如何建立區段](#video-segment)
 
-1. 訪問 **[!UICONTROL 段]** ，然後按一下 **[!UICONTROL 建立段]** 按鈕
+1. 存取 **[!UICONTROL 區段]** 功能表，然後按一下 **[!UICONTROL 建立區段]** 按鈕。
 
    ![](assets/create-segment.png)
 
-   段定義螢幕允許您配置所有必需欄位以定義段。 瞭解如何在 [分段服務文檔](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}。
+   區段定義畫面可讓您設定定義區段所需的所有欄位。 瞭解如何在中設定區段 [Segment Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
 
    ![](assets/segment-builder.png)
 
-1. 在 **[!UICONTROL 段屬性]** 框中，為段提供名稱和說明（可選）。
+1. 在 **[!UICONTROL 區段屬性]** 窗格中，提供區段的名稱和說明（選擇性）。
 
    ![](assets/segment-properties.png)
 
-1. 將所需欄位從左窗格拖放到中心工作區中，然後根據需要配置它們。
+1. 將所需欄位從左窗格拖放至中央工作區，然後視需要加以設定。
 
    >[!NOTE]
    >
-   >請注意，左窗格中的可用欄位因 **XDM個人配置檔案** 和 **XDM體驗事件** 已為您的組織配置了架構。  在 [體驗資料模型(XDM)文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}。
+   >請注意，左窗格中可用的欄位會依以下方式而有所不同： **XDM個別設定檔** 和 **XDM ExperienceEvent** 已為貴組織設定結構描述。  進一步瞭解 [Experience Data Model (XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}.
 
    ![](assets/drag-fields.png)
 
-   在這個例子中，我們需要依靠 **屬性** 和 **事件** 要構建段的欄位：
+   在此範例中，我們需要仰賴 **屬性** 和 **事件** 要建立區段的欄位：
 
-   * **屬性**:1980年後出生在亞特蘭大、舊金山或西雅圖的檔案
+   * **屬性**：1980年後出生且生活在亞特蘭大、舊金山或西雅圖的設定檔
 
       ![](assets/add-attributes.png)
 
-   * **事件**:在過去7天內開啟Luma應用程式的配置檔案，然後在開啟應用程式後2小時內進行購買。
+   * **事件**：在過去7天內開啟Luma應用程式，然後在開啟應用程式後2小時內購買的使用者設定檔。
 
       ![](assets/add-events.png)
 
-1. 在工作區中添加和配置新欄位時， **[!UICONTROL 段屬性]** 窗格會自動更新，其中包含屬於段的估計配置檔案的資訊。
+1. 當您在工作區中新增及設定新欄位時， **[!UICONTROL 區段屬性]** 窗格會自動更新屬於該區段的預估設定檔資訊。
 
    ![](assets/segment-estimate.png)
 
-1. 段準備好後，按一下 **[!UICONTROL 保存]**。 它顯示在Adobe Experience Platform段清單中。 請注意，搜索欄可幫助您搜索清單中的特定段。
+1. 區段準備就緒後，按一下 **[!UICONTROL 儲存]**. 它會顯示在Adobe Experience Platform區段清單中。 請注意，搜尋列可協助您搜尋清單中的特定區段。
 
-此段現在可用於您的行程。 如需詳細資訊，請參閱[本章節](../segment/about-segments.md)。
+該區段現在可用於您的歷程。 如需詳細資訊，請參閱[本章節](../segment/about-segments.md)。
 
 ## 操作說明影片{#video-segment}
 
-瞭解如何建立段。
+瞭解如何建立區段。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)

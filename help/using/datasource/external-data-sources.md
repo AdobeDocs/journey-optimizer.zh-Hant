@@ -7,7 +7,7 @@ feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: 外部，源，資料，配置，連接，第三方
+keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
@@ -27,7 +27,7 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->使用外部系統時的護欄列於 [此頁](../configuration/external-systems.md)。
+>使用外部系統時的護欄列於 [此頁面](../configuration/external-systems.md).
 
 支援使用 POST 或 GET 以及傳回 JSON 的 REST API。支援 API 金鑰、基本和自訂驗證模式。
 
@@ -42,7 +42,7 @@ ht-degree: 70%
 
 以下是建立和設定新外部資料來源的主要步驟：
 
-1. 在資料源清單中，按一下 **[!UICONTROL 建立資料源]** 建立新的外部資料源。
+1. 從資料來源清單中，按一下 **[!UICONTROL 建立資料來源]** 以建立新的外部資料來源。
 
    ![](assets/journey25.png)
 
@@ -65,33 +65,33 @@ ht-degree: 70%
 
    ![](assets/journey27.png)
 
-1. 根據外部服務配置配置身份驗證： **[!UICONTROL 無身份驗證]**。 **[!UICONTROL 基本]**。 **[!UICONTROL 自定義]** 或 **[!UICONTROL API密鑰]**。 有關自定義身份驗證模式的詳細資訊，請參見 [此部分](../datasource/external-data-sources.md#custom-authentication-mode)。 在我們的範例中，我們選擇：
+1. 根據外部服務組態設定驗證： **[!UICONTROL 無驗證]**， **[!UICONTROL 基本]**， **[!UICONTROL 自訂]** 或 **[!UICONTROL API金鑰]**. 如需自訂驗證模式的詳細資訊，請參閱 [本節](../datasource/external-data-sources.md#custom-authentication-mode). 在我們的範例中，我們選擇：
 
-   * **[!UICONTROL 類型]**:&quot;API密鑰&quot;
-   * **[!UICONTROL 名稱]**:&quot;appid&quot;（這是API鍵參數名）
-   * **[!UICONTROL 值]**:&quot;1234&quot;（這是我們的API密鑰的值）
-   * **[!UICONTROL 位置]**:&quot;查詢參數&quot;（API鍵位於URL中）
+   * **[!UICONTROL 型別]**：「API金鑰」
+   * **[!UICONTROL 名稱]**：「appid」（這是API金鑰引數名稱）
+   * **[!UICONTROL 值]**：「1234」（這是我們API金鑰的值）
+   * **[!UICONTROL 位置]**：「查詢引數」（API金鑰位於URL）
 
    ![](assets/journey28.png)
 
-1. 通過按一下為每個API參數集添加新欄位組 **[!UICONTROL 添加新欄位組]**。 請勿在欄位群組名稱中使用空格或特殊字元。在我們的範例中，我們需要建立兩個欄位群組，每個群各有一個參數集（city 及 long/lat）。
+1. 按一下以為每個API引數集新增欄位群組 **[!UICONTROL 新增欄位群組]**. 請勿在欄位群組名稱中使用空格或特殊字元。在我們的範例中，我們需要建立兩個欄位群組，每個群各有一個參數集（city 及 long/lat）。
 
 在 &quot;long/lat&quot; 參數集中，我們會建立包含下列資訊的欄位群組：
 
-* **[!UICONTROL 用於]**:顯示使用欄位組的行程數。 您可以按一下 **[!UICONTROL 查看行程]** 表徵圖，顯示使用此欄位組的行程清單。
-* **[!UICONTROL 方法]**:選擇POST或GET方法。 在本例中，我們選取 GET 方法。
-* **[!UICONTROL 動態值]**:在我們的示例中輸入以彗差分隔的不同參數「long,lat」。 由於參數值視執行內容而定，因此它們會在歷程中定義。[了解更多](../building-journeys/expression/expressionadvanced.md)
-* **[!UICONTROL 響應負載]**:按一下 **[!UICONTROL 負載]** 欄位並貼上調用返回的負載示例。 例如，我們使用了氣象 API 網站上找到的有效負載。確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。請注意，您可以按一下 **[!UICONTROL 貼上新負載]** 的子菜單。
+* **[!UICONTROL 使用位置]**：顯示使用欄位群組的歷程次數。 您可以按一下 **[!UICONTROL 檢視歷程]** 圖示以顯示使用此欄位群組的歷程清單。
+* **[!UICONTROL 方法]**：選取POST或GET方法。 在本例中，我們選取 GET 方法。
+* **[!UICONTROL 動態值]**：在本例中，輸入以逗號分隔的不同引數，即&quot;long，lat&quot;。 由於參數值視執行內容而定，因此它們會在歷程中定義。[了解更多](../building-journeys/expression/expressionadvanced.md)
+* **[!UICONTROL 回應裝載]**：按一下 **[!UICONTROL 裝載]** 欄位並貼上呼叫傳回之裝載的範例。 例如，我們使用了氣象 API 網站上找到的有效負載。確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。請注意，您可以按一下 **[!UICONTROL 貼上新裝載]** 如果您想要變更目前已傳遞的裝載。
 
    >[!NOTE]
    >
-   >響應負載定義不支援標量陣列。
+   >回應裝載定義中不支援純量陣列。
 
-* **[!UICONTROL 已發送負載]**:此欄位不出現在示例中。 只有選取 POST 方法時才能使用。貼上會傳送至協力廠商系統的有效負載。
+* **[!UICONTROL 已傳送裝載]**：此欄位不會出現在我們的範例中。 只有選取 POST 方法時才能使用。貼上會傳送至協力廠商系統的有效負載。
 
-在需要參數的GET調用中，在 **[!UICONTROL 動態值]** 欄位，並在呼叫結束時自動添加。 若是 POST 呼叫，您需要：
+若是GET呼叫所需的引數，請在 **[!UICONTROL 動態值]** 欄位，它們就會在呼叫結束時自動新增。 若是 POST 呼叫，您需要：
 
-* 列出在調用時傳遞的參數 **[!UICONTROL 動態值]** 欄位(在以下示例中：&quot;標識符&quot;)。
+* 在中列出呼叫時要傳遞的引數 **[!UICONTROL 動態值]** 欄位（在以下範例中：「identifier」）。
 * 在已傳送有效負載的正文中，也使用完全相同的語法指定它們。若要這麼做，您必須新增：&quot;param&quot;: “name of your parameter”（在以下範例中：“identifier”）。請遵循下列語法：
 
    ```
@@ -132,10 +132,10 @@ ht-degree: 70%
 
 * 端點：用於產生端點的 URL
 * 端點上的 HTTP 要求方法（GET 或 POST）
-* 標題：鍵值對，如果需要，將作為此調用中的頭插入
-* 正文：說明方法為 POST 時呼叫的正文。我們支援在bodyParams（key-value對）中定義的有限主體結構。 bodyType 說明了呼叫內正文的格式和編碼：
-   * 「form」：意味著內容類型將是application/x-www-form-urlencoded(charset UTF-8)，密鑰值對將按如下方式序列化：key1=value1&amp;key2=value2&amp;...
-   * 「json」：意味著內容類型將是application/json(charset UTF-8)，並將key-value對序列化為json對象，原樣為： _{ &quot;key1&quot;:&quot;value1&quot;、&quot;key2&quot;:&quot;value2&quot;,..}_
+* 標頭：在此呼叫中插入做為標頭的機碼值組（如有需要）
+* 正文：說明方法為 POST 時呼叫的正文。我們支援有限的主體結構，在bodyParams （索引鍵值配對）中定義。 bodyType 說明了呼叫內正文的格式和編碼：
+   * &#39;form&#39;：表示內容型別將會是application/x-www-form-urlencoded （字元集UTF-8），而金鑰 — 值配對將會序列化為：key1=value1&amp;key2=value2&amp;...
+   * &#39;json&#39;：表示內容型別將會是application/json （字元集UTF-8），而機碼值組將會序列化為json物件，如下所示： _{ &quot;key1&quot;： &quot;value1&quot;， &quot;key2&quot;： &quot;value2&quot;， ...}_
 
 存取權杖插入動作之 HTTP 要求必須採用的方法定義：
 
@@ -176,7 +176,7 @@ ht-degree: 70%
 
 您可以針對自訂驗證資料來源變更權杖之快取期間的資訊。以下是自訂驗證有效負載的範例。會在　&quot;cacheDuration&quot;　參數中定義快取期間。其會指定快取中產生權杖的保留期間。單位可能是毫秒、秒、分鐘、小時、天、月、年。
 
-下面是承載驗證類型的示例：
+以下是持有人驗證型別的範例：
 
 ```
 {
@@ -208,9 +208,9 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->快取持續時間有助於避免對驗證終結點進行過多調用。 身份驗證令牌保留已快取到服務中，沒有持久性。 如果服務重新啟動，則它以乾淨的快取啟動。 預設情況下，快取持續時間為1小時。 在自定義驗證有效負載中，可以通過指定另一個保留持續時間來適應它。
+>快取持續時間有助於避免過多呼叫驗證端點。 驗證權杖保留在服務中會快取，沒有持續性。 如果重新啟動服務，它會從乾淨的快取開始。 快取持續時間預設為1小時。 在自訂驗證裝載中，可透過指定另一個保留期間來調整它。
 
-以下是標題驗證類型的示例：
+以下是標頭驗證型別的範例：
 
 ```
 {
@@ -233,7 +233,7 @@ ht-degree: 70%
 } 
 ```
 
-以下是登錄API調用響應的示例：
+以下是登入API呼叫的回應範例：
 
 ```
 {

@@ -7,7 +7,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-keywords: 表達式，編輯器，開始，個性化
+keywords: 運算式，編輯器，開始，個人化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
@@ -18,40 +18,40 @@ ht-degree: 28%
 
 # 開始使用個人化{#add-personalization}
 
-發現 [!DNL Adobe Journey Optimizer] 個性化功能，通過利用您擁有的有關郵件的資料和資訊，將郵件調整為每個特定收件人。 它可以是他們的名字、興趣、居住地、購買的東西，等等。
+探索 [!DNL Adobe Journey Optimizer] 個人化功能，可運用您擁有的訊息相關資料和資訊，根據每位特定收件者調整訊息。 可以是他們的名字、興趣、居住地、購買內容等。
 
-➡️ [瞭解如何個性化這些視頻中的郵件](#video-perso)
-➡️ [利用個性化發現使用案例](personalization-use-case.md)
+➡️ [瞭解如何在這些影片中個人化訊息](#video-perso)
+➡️ [探索運用個人化的使用案例](personalization-use-case.md)
 
-## 使用專用語法生成個性化表達式 {#syntax}
+## 使用專用語法建置個人化運算式 {#syntax}
 
-[!DNL Journey Optimizer] 使用 **內** 基於Handlebar的簡單個性化語法，允許您建立包含雙大括弧的內容的表達式 **{{}}**。 您可以在相同的內容或欄位中新增多個運算式，不受限制。 瞭解詳情 [個性化語法](personalization-syntax.md)。
+[!DNL Journey Optimizer] 使用 **內嵌** 以Handlebars為基礎的簡單個人化語法，可讓您建立包含雙大括弧之內容的運算式 **{{}}**. 您可以在相同的內容或欄位中新增多個運算式，不受限制。 進一步瞭解 [個人化語法](personalization-syntax.md).
 
 **範例：**
 
 * `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
 * `Hello {{profile.person.name.fullName}}`
 
-處理消息（電子郵件和推送）時，Journey Optimizer用Experience Platform資料庫中包含的資料替換表達式：  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` 變成&quot;你好，無名氏&quot;
+處理訊息（電子郵件和推播）時，Journey Optimizer會以Experience Platform資料庫中包含的資料取代運算式：  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` 會變成「Hello John Doe」。
 
-## 利用配置檔案資料個性化您的郵件 {#data}
+## 運用設定檔資料個人化您的訊息 {#data}
 
-根據由 Adobe Experience Platform 定義的 **XDM 個人設定檔**&#x200B;方案管理的設定檔資料進行個人化。 瞭解詳情 [Adobe Experience Platform資料模型(XDM)文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}。
+根據由 Adobe Experience Platform 定義的 **XDM 個人設定檔**&#x200B;方案管理的設定檔資料進行個人化。 進一步瞭解 [Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}.
 
 >[!CAUTION]
->的 **XDM個人配置檔案** 架構是唯一可用於個性化內容的架構 [!DNL Journey Optimizer]。
+>此 **XDM個別設定檔** 結構描述是您唯一可用來個人化內容的結構描述 [!DNL Journey Optimizer].
 
-## 在不同上下文中添加個性化 {#contexts}
+## 在不同內容中新增個人化 {#contexts}
 
-[!DNL Journey Optimizer] 允許您以多種不同方式個性化內容和顯示消息。 瞭解有關上下文的詳細資訊，您可以在 [此部分](personalization-contexts.md)。
+[!DNL Journey Optimizer] 可讓您以數種不同的方式個人化內容及顯示訊息。 進一步瞭解您可以在中執行個人化的內容 [本節](personalization-contexts.md).
 
-## 使用表達式編輯器 {#editor}
+## 使用運算式編輯器 {#editor}
 
-[!DNL Journey Optimizer] 提供表達式編輯器，在該編輯器中，您將選擇、排列、自定義和驗證所有資料，以便為您的內容建立自定義個性化。
+[!DNL Journey Optimizer] 提供運算式編輯器，您可在其中選取、排列、自訂及驗證所有資料，以建立內容的自訂個人化。
 
-有幾種工具可幫助構建個性化內容（幫助程式函式、預定義表達式庫、屬性優先……）
+有數種工具可協助您建置個人化內容（協助程式函式、預先定義的運算式程式庫、受歡迎的屬性……）
 
-瞭解有關 [!DNL Journey Optimizer] 表達式編輯器 [此部分](personalization-build-expressions.md)
+進一步瞭解 [!DNL Journey Optimizer] 中的運算式編輯器 [本節](personalization-build-expressions.md)
 
 ## 作法影片{#video-perso}
 

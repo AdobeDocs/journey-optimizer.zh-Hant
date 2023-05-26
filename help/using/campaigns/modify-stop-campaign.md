@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 修改或停止行銷活動
-description: 瞭解如何修改、停止或複製Journey Optimizer的即時活動
+description: 瞭解如何修改、停止或複製Journey Optimizer中的即時行銷活動
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 管理市場活動、狀態、時間表、訪問、優化程式
+keywords: 管理行銷活動、狀態、排程、存取、最佳化工具
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
@@ -18,80 +18,80 @@ ht-degree: 2%
 
 # 管理行銷活動 {#modify-stop-campaign}
 
-激活市場活動後，您可以隨時修改或停止它。 這些操作僅適用於定期執行的市場活動。
+行銷活動啟動後，您可以隨時修改或停止它。 這些操作僅適用於具有重複執行的行銷活動。
 
-此外，您還可以複製即時市場活動（執行一次或循環執行）以建立新市場活動，並存檔已完成或停止的市場活動。
+此外，您可以複製即時行銷活動（執行一次或循環執行）以建立新行銷活動，並封存已完成或停止的行銷活動。
 
 ## 存取行銷活動 {#access}
 
-可從 **[!UICONTROL 市場活動]** 的子菜單。
+行銷活動可從存取 **[!UICONTROL 行銷活動]** 功能表。
 
-預設情況下，清單顯示所有市場活動 **[!UICONTROL 草稿]**。 **[!UICONTROL 計畫]**, **[!UICONTROL 實況]** 狀態。 要顯示已停止、已完成和存檔的市場活動，您需要清除篩選器。
+依預設，清單會顯示所有促銷活動包含 **[!UICONTROL 草稿]**， **[!UICONTROL 已排程]**、和 **[!UICONTROL 即時]** 狀態。 若要顯示已停止、已完成和已封存的行銷活動，您必須清除篩選器。
 
 ![](assets/create-campaign-list.png)
 
-此外，您還可以根據市場活動類型和渠道或建立市場活動時分配給市場活動的標籤來篩選清單。 [瞭解如何為市場活動分配標籤](create-campaign.md#create)
+此外，您可以根據行銷活動型別和頻道，或是在建立行銷活動時指派給行銷活動的標籤來篩選清單。 [瞭解如何將標籤指派至行銷活動](create-campaign.md#create)
 
-## 市場活動狀態 {#statuses}
+## 行銷活動狀態 {#statuses}
 
-市場活動可以具有多種狀態：
+行銷活動可以有多個狀態：
 
-* **[!UICONTROL 草稿]**:市場活動正在編輯，尚未激活。
-* **[!UICONTROL 激活]**:活動正在激活。
-* **[!UICONTROL 實況]**:活動已激活。
-* **[!UICONTROL 計畫]**:市場活動配置為在特定開始日期激活。
-* **[!UICONTROL 已停止]**:市場活動已手動停止。 您不能再激活或重新使用它。 [瞭解如何停止活動](modify-stop-campaign.md#stop)
-* **[!UICONTROL 已完成]**:市場活動已完成。 在激活市場活動3天後，或在市場活動結束日期（如果市場活動已定期執行）自動分配此狀態。
-* **[!UICONTROL 存檔]**:市場活動已存檔。 [瞭解如何存檔市場活動](modify-stop-campaign.md#archive)
+* **[!UICONTROL 草稿]**：行銷活動正在編輯中，尚未啟用。
+* **[!UICONTROL 啟用]**：正在啟動行銷活動。
+* **[!UICONTROL 即時]**：行銷活動已啟用。
+* **[!UICONTROL 已排程]**：行銷活動已設定為在特定的開始日期啟動。
+* **[!UICONTROL 已停止]**：行銷活動已手動停止。 您無法再啟用或重複使用它。 [瞭解如何停止行銷活動](modify-stop-campaign.md#stop)
+* **[!UICONTROL 已完成]**：行銷活動完成。 此狀態會在行銷活動啟動3天後自動指派，如果行銷活動有週期性執行，則會在行銷活動的結束日期指派。
+* **[!UICONTROL 已封存]**：行銷活動已封存。 [瞭解如何封存行銷活動](modify-stop-campaign.md#archive)
 
 >[!NOTE]
 >
->「開啟草稿版本」表徵圖 **[!UICONTROL 實況]** 或 **[!UICONTROL 計畫]** 狀態表示已建立市場活動的新版本，但尚未激活。 [了解更多](modify-stop-campaign.md#modify)。
+>旁的「開啟草稿版本」圖示 **[!UICONTROL 即時]** 或 **[!UICONTROL 已排程]** status表示已建立新版本的行銷活動，但尚未啟用。 [了解更多](modify-stop-campaign.md#modify)。
 
-## 修改定期市場活動 {#modify}
+## 修改週期性行銷活動 {#modify}
 
-要修改和建立定期市場活動的新版本，請執行以下步驟：
+若要修改和建立循環行銷活動的新版本，請遵循下列步驟：
 
-1. 開啟市場活動，然後按一下 **[!UICONTROL 修改市場活動]** 按鈕
+1. 開啟行銷活動，然後按一下 **[!UICONTROL 修改行銷活動]** 按鈕。
 
-1. 將建立市場活動的新版本。 您可以通過按一下 **[!UICONTROL 開啟即時版本]**。
+1. 會建立新版本的行銷活動。 您可以按一下「 」以檢查即時版本 **[!UICONTROL 開啟即時版本]**.
 
    ![](assets/create-campaign-draft.png)
 
-   在市場活動清單中，具有正在進行的草稿版本的激活市場活動在中顯示一個特定表徵圖 **[!UICONTROL 狀態]** 的雙曲餘切值。 按一下此表徵圖可開啟市場活動的草稿版本。
+   在行銷活動清單中，正在進行草稿版本的已啟動行銷活動會在中顯示特定圖示 **[!UICONTROL 狀態]** 欄。 按一下此圖示以開啟行銷活動的草稿版本。
 
    ![](assets/create-campaign-edit-list.png)
 
-1. 更改準備好後，您可以激活市場活動的新版本(請參閱： [複查並激活市場活動](create-campaign.md#review-activate))。
+1. 準備好變更後，您就可以啟動新版本的行銷活動(請參閱 [檢閱及啟用行銷活動](create-campaign.md#review-activate))。
 
    >[!IMPORTANT]
    >
-   >激活草稿將替換活動的即時版本。
+   >啟用草稿將會取代行銷活動的即時版本。
 
-## 停止定期市場活動 {#stop}
+## 停止週期性行銷活動 {#stop}
 
-要停止定期市場活動，請開啟它，然後按一下 **[!UICONTROL 停止市場活動]** 按鈕
+若要停止週期性行銷活動，請開啟該行銷活動，然後按一下 **[!UICONTROL 停止行銷活動]** 按鈕。
 
 ![](assets/create-campaign-stop.png)
 
 >[!IMPORTANT]
 >
->停止市場活動不會停止正在進行的發送，但如果發送已在進行，它將停止計畫的發送或下一次發生。
+>停止行銷活動不會停止進行中的傳送，但會停止排程的傳送，如果傳送已在進行中，則會停止下一次發生。
 
 <!-- inbound campaign (inapp): can stop and resume -->
 
-## 複製市場活動 {#duplicate}
+## 複製行銷活動 {#duplicate}
 
-您可以複製即時市場活動以建立新市場活動。 要執行此操作，請開啟市場活動，然後按一下 **[!UICONTROL 重複]**。
+您可以複製即時行銷活動以建立新行銷活動。 若要這麼做，請開啟行銷活動，然後按一下 **[!UICONTROL 複製]**.
 
 ![](assets/create-campaign-duplicate.png)
 
-## 存檔市場活動 {#archive}
+## 封存行銷活動 {#archive}
 
-隨著時間的推移，市場活動清單不斷增長，最終使瀏覽已完成和停止的市場活動變得更加困難。
+隨著時間推移，行銷活動清單不斷成長，最終導致瀏覽已完成和已停止的行銷活動變得更加困難。
 
-為防止出現這種情況，您可以存檔已完成和停止的不再需要的市場活動。 要執行此操作，請按一下省略號按鈕，然後選擇 **[!UICONTROL 存檔]**。
+為避免此問題，您可以封存您不再需要的已完成和已停止的行銷活動。 若要這麼做，請按一下省略符號按鈕，然後選取 **[!UICONTROL 封存]**.
 
 ![](assets/create-campaign-archive.png)
 
-然後，可以使用清單中的專用過濾器來檢索存檔的市場活動。 [瞭解如何訪問市場活動](get-started-with-campaigns.md#access)
+然後可以使用清單中的專用篩選器來擷取已封存的行銷活動。 [瞭解如何存取行銷活動](get-started-with-campaigns.md#access)

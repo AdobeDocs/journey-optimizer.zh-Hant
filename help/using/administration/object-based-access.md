@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: 物件，層級，存取，控制，標籤， olac，授權
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '459'
 ht-degree: 14%
 
 ---
@@ -94,4 +94,4 @@ ht-degree: 14%
 若要存取此物件，使用者需要具備特定 **[!UICONTROL 標籤]** 包含在其中 **[!UICONTROL 角色]**.
 例如，具有C1標籤的使用者將只能存取C1標籤或未標籤的物件。
 
-如需如何指派的詳細資訊 **[!UICONTROL 標籤]** 至 **[!UICONTROL 角色]**，請參閱 [此頁面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role).
+如需如何指派的詳細資訊 **[!UICONTROL 標籤]** 至 **[!UICONTROL 角色]**，請參閱 [此頁面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role).

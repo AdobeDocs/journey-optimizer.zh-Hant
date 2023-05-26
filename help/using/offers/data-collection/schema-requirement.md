@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 3%
+source-wordcount: '206'
+ht-degree: 2%
 
 ---
 
@@ -99,15 +99,6 @@ ht-degree: 3%
 ## 追蹤自訂事件
 
 對於自訂事件，資料集中使用的結構描述也必須具有 **[!UICONTROL 體驗事件 — 主張互動]** 欄位群組相關聯，但對必須用來標籤這些事件的體驗事件型別沒有特定要求。
-
->[!NOTE]
->
->若要將您的自訂事件納入考量 [頻率限定](../offer-library/add-constraints.md#capping)，您需要將體驗事件傳送至以下兩個Edge資料收集端點之一，以將其連結至Adobe Experience Platform端點：
->
->* POST/ee/v2/interact
->* POST/ee/v2/collect
->
->如果您使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}，則會自動建立連線。
 
 <!--
 ## Using a ranking strategy {#using-ranking}

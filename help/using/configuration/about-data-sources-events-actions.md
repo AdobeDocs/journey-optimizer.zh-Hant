@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定歷程
-description: 瞭解如何配置資料源、事件和操作
+description: 瞭解如何設定資料來源、事件和動作
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: 配置、行程、儀表板、資料源、事件、操作
+keywords: 設定，歷程，控制面板，資料來源，事件，動作
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
@@ -23,7 +23,7 @@ ht-degree: 78%
 >title="關於歷程設定"
 >abstract="為了傳送包含歷程的訊息，您需要設定資料來源、事件和動作。資料來源可讓您定義系統的連線，以擷取將用於歷程的其他資訊，例如在您的條件中。事件可讓您在接收事件時觸發您的歷程。自訂動作可讓您連線到協力廠商系統以傳送訊息。如果您使用 Journey Optimizer 內建的訊息功能，則無需設定動作。"
 
-為了發送包含行程的消息，您需要配置 **[!UICONTROL 資料源]**。 **[!UICONTROL 事件]** 和 **[!UICONTROL 操作]**。
+若要在歷程中傳送訊息，您需要設定 **[!UICONTROL 資料來源]**， **[!UICONTROL 事件]** 和 **[!UICONTROL 動作]**.
 
 ![](assets/admin-menu.png)
 
@@ -35,17 +35,17 @@ ht-degree: 78%
 
 事件可讓您一直觸發歷程，以即時傳送訊息給流入歷程的個人。 
 
-在事件設定中，您會設定歷程中預期的事件。 傳入事件的資料按照Adobe體驗資料模型(XDM)進行規範化。 事件來自串流擷取 API，適用於驗證和未驗證的事件 (例如 Adobe Mobile SDK 事件)。[了解更多](../../using/event/about-events.md)
+在事件設定中，您會設定歷程中預期的事件。 會依照Adobe Experience Data Model (XDM)對傳入事件的資料進行標準化。 事件來自串流擷取 API，適用於驗證和未驗證的事件 (例如 Adobe Mobile SDK 事件)。[了解更多](../../using/event/about-events.md)
 
 ## 動作 {#actions}
 
-Journey Optimizer消息功能是內置的：您只需將渠道操作活動添加到您的旅程中。 如果您使用第三方系統發送消息，則可以建立自定義操作。 [了解更多](../../using/action/action.md)
+Journey Optimizer訊息功能內建：您只需要將頻道動作活動新增到歷程中。 如果您使用協力廠商系統來傳送訊息，可以建立自訂動作。 [了解更多](../../using/action/action.md)
 
 ## 透過 Adobe Experience Platform 欄位瀏覽 {#friendly-names-display}
 
 定義[事件有效負載](../event/about-creating.md#define-the-payload-fields)、[欄位群組有效負載](../datasource/configure-data-sources.md#define-field-groups)，以及在[運算式編輯器](../building-journeys/expression/expressionadvanced.md)中選取欄位時，除了欄位名稱外，還會顯示顯示名稱。此資訊會從「Experience 資料模型」的結構定義中擷取。
 
-如果在設定結構時提供了 &quot;xdm:alternateDisplayInfo&quot; 之類的描述元，則好記的名稱會取代顯示名稱。它在使用「eVar」和一般欄位時特別有用。 您可以透過 API 呼叫來設定好記名稱描述因子。 有關詳細資訊，請參見 [架構註冊表開發人員指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant){target="_blank"}。
+如果在設定結構時提供了 &quot;xdm:alternateDisplayInfo&quot; 之類的描述元，則好記的名稱會取代顯示名稱。它在使用「eVar」和一般欄位時特別有用。 您可以透過 API 呼叫來設定好記名稱描述因子。 如需詳細資訊，請參閱 [Schema Registry開發人員指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant){target="_blank"}.
 
 ![](assets/xdm-from-descriptors.png)
 

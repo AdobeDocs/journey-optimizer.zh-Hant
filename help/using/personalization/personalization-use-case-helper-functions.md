@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 個性化用例冒號(&C);車棄用電子郵件
-description: 瞭解如何通過使用案例個性化電子郵件正文。
+title: 個人化使用案例&colon；購物車放棄電子郵件
+description: 瞭解如何透過使用案例個人化電子郵件內文。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-keywords: 表達式，編輯器，幫助程式，用例，個性化
+keywords: 運算式，編輯器，協助程式，使用案例，個人化
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: 02fc8825f61bd365b02788bbcd3e0647f5842bfa
 workflow-type: tm+mt
@@ -16,75 +16,75 @@ ht-degree: 3%
 
 ---
 
-# 個性化用例：車棄用電子郵件 {#personalization-use-case-helper-functions}
+# 個人化使用案例：購物車放棄電子郵件 {#personalization-use-case-helper-functions}
 
-在此示例中，您將個性化電子郵件的正文。 此消息針對的是那些在購物車中留有物品但尚未完成購買的客戶。
+在此範例中，您將個人化電子郵件內文。 此訊息會鎖定購物車中仍有商品但尚未完成購買的客戶。
 
-您將使用以下類型的幫助程式函式：
+您將使用下列型別的協助程式功能：
 
-* 的 `upperCase` 的子菜單。 [了解更多](functions/string.md#upper)。
-* 的 `each` 幫助程式，列出購物車中的項目。 [了解更多](functions/helpers.md#each)。
-* 的 `if` 幫助程式，以在相關產品位於購物車中時插入特定於產品的注釋。 [了解更多](functions/helpers.md#if-function)。
+* 此 `upperCase` 字串函式，以大寫字母插入客戶的名字。 [了解更多](functions/string.md#upper)。
+* 此 `each` 協助程式，可列出購物車中的專案。 [了解更多](functions/helpers.md#each)。
+* 此 `if` 協助程式，在購物車中插入產品特定附註。 [了解更多](functions/helpers.md#if-function)。
 
 <!-- **Context**: personalization based on contextual data from the journey -->
 
-➡️ [瞭解如何在此視頻中使用幫助程式功能](#video)
+➡️ [在本影片中瞭解如何使用協助程式函式](#video)
 
-在開始之前，請確保知道如何配置這些元素：
+開始之前，請確定您知道如何設定這些元素：
 
 * 單一事件。 [了解更多](../event/about-events.md)。
-* 從事件開始的旅程。 [了解更多](../building-journeys/using-the-journey-designer.md)。
-* 旅途中的一封電子郵件。 [了解更多](../email/create-email.md)
-* 電子郵件的正文。 [了解更多](../email/content-from-scratch.md)。
+* 以事件開始的歷程。 [了解更多](../building-journeys/using-the-journey-designer.md)。
+* 歷程中的電子郵件訊息。 [了解更多](../email/create-email.md)
+* 電子郵件內文。 [了解更多](../email/content-from-scratch.md)。
 
 請按照以下步驟操作：
 
-1. [建立初始事件和行程](#create-context)。
-1. [建立電子郵件](#configure-email)。
-1. [在大寫字母中插入客戶的名字](#uppercase-function)。
-1. [將購物車內容添加到電子郵件](#each-helper)。
-1. [插入特定於產品的注釋](#if-helper)。
+1. [建立初始事件和歷程](#create-context).
+1. [建立電子郵件訊息](#configure-email).
+1. [以大寫字母插入客戶的名字](#uppercase-function).
+1. [將購物車內容新增至電子郵件](#each-helper).
+1. [插入產品專屬備註](#if-helper).
 1. [測試並發佈歷程](#test-and-publish).
 
-## 步驟1:建立初始事件和相關行程 {#create-context}
+## 步驟1：建立初始事件和相關歷程 {#create-context}
 
-購物車內容是旅程中的上下文資訊。 因此，您必須先將初始事件和電子郵件添加到行程中，然後才能將特定於購物車的資訊添加到電子郵件中。
+購物車內容是歷程中的內容相關資訊。 因此，您必須先將初始事件和電子郵件新增至歷程，才能將購物車特定資訊新增至電子郵件。
 
-1. 建立其架構包括 `productListItems` 陣列。
-1. 將此陣列中的所有欄位定義為此事件的負載欄位。
+1. 建立其結構描述包含 `productListItems` 陣列。
+1. 將此陣列中的所有欄位定義為此事件的裝載欄位。
 
-   瞭解有關產品清單項資料類型的詳細資訊 [Adobe Experience Platform文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}。
+   進一步瞭解產品清單專案資料型別 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
-1. 建立從此事件開始的行程。
-1. 添加 **電子郵件** 活動到旅程。
+1. 建立從此事件開始的歷程。
+1. 新增 **電子郵件** 活動至歷程。
 
    ![](assets/personalization-uc-helpers-8.png)
 
-## 步驟2:建立電子郵件{#configure-email}
+## 步驟2：建立電子郵件{#configure-email}
 
-1. 在 **電子郵件** 活動，按一下 **[!UICONTROL 編輯內容]**，然後按一下 **[!UICONTROL 電子郵件設計器]**。
+1. 在 **電子郵件** 活動，按一下 **[!UICONTROL 編輯內容]**，然後按一下 **[!UICONTROL 電子郵件設計工具]**.
 
    ![](assets/personalization-uc-helpers-1.png)
 
-1. 從「電子郵件設計器」首頁的左側調色板，將三個結構元件拖放到消息的正文上。
+1. 從電子郵件設計工具首頁的左側浮動視窗，將三個結構元件拖放至訊息內文上。
 
-1. 將HTML內容元件拖放到每個新結構元件上。
+1. 將HTML內容元件拖放至每個新結構元件上。
 
    ![](assets/personalization-uc-helpers-2.png)
 
-## 第3步：在大寫字母中插入客戶的名字 {#uppercase-function}
+## 步驟3：以大寫字母插入客戶的名字 {#uppercase-function}
 
-1. 在「電子郵件設計器」首頁上，按一下要添加客戶名的HTML元件。
-1. 在上下文工具欄上，按一下 **[!UICONTROL 顯示原始碼]**。
+1. 在電子郵件設計工具首頁上，按一下您要新增客戶名字的HTML元件。
+1. 在內容工具列上，按一下 **[!UICONTROL 顯示原始程式碼]**.
 
    ![](assets/personalization-uc-helpers-3.png)
 
-1. 在 **[!UICONTROL 編輯HTML]** 的 `upperCase` 字串函式：
-   1. 在左菜單中，選擇 **[!UICONTROL 幫助程式函式]**。
-   1. 使用搜索欄位查找「大寫」。
-   1. 從搜索結果中，添加 `upperCase` 的子菜單。 要執行此操作，請按一下旁邊的加號(+) `{%= upperCase(string) %}: string`。
+1. 在 **[!UICONTROL 編輯HTML]** 視窗，新增 `upperCase` 字串函式：
+   1. 在左側功能表中，選取 **[!UICONTROL 輔助函式]**.
+   1. 使用搜尋欄位來尋找「大寫」。
+   1. 從搜尋結果中新增 `upperCase` 函式。 若要這麼做，請按一下旁邊的加號(+) `{%= upperCase(string) %}: string`.
 
-      表達式編輯器顯示此表達式：
+      運算式編輯器會顯示此運算式：
 
       ```handlebars
       {%= upperCase(string) %}
@@ -92,13 +92,13 @@ ht-degree: 3%
 
       ![](assets/personalization-uc-helpers-4.png)
 
-1. 從表達式中刪除&quot;string&quot;佔位符。
-1. 添加名標籤：
-   1. 在左菜單中，選擇 **[!UICONTROL 配置檔案屬性]**。
-   1. 選擇 **[!UICONTROL 人員]** > **[!UICONTROL 全名]**。
-   1. 添加 **[!UICONTROL 名字]** 表達式的標籤。
+1. 從運算式中移除「字串」預留位置。
+1. 新增名字Token：
+   1. 在左側功能表中，選取 **[!UICONTROL 設定檔屬性]**.
+   1. 選取 **[!UICONTROL 個人]** > **[!UICONTROL 全名]**.
+   1. 新增 **[!UICONTROL 名字]** 運算式的Token。
 
-      表達式編輯器顯示此表達式：
+      運算式編輯器會顯示此運算式：
 
       ```handlebars
       {%= upperCase(profile.person.name.firstName) %}
@@ -106,29 +106,29 @@ ht-degree: 3%
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      瞭解有關中人員姓名資料類型的詳細資訊 [Adobe體驗平台文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}。
+      進一步瞭解中的個人名稱資料型別 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
-1. 按一下 **[!UICONTROL 驗證]**，然後按一下 **[!UICONTROL 保存]**。
+1. 按一下 **[!UICONTROL 驗證]**，然後按一下 **[!UICONTROL 儲存]**.
 
    ![](assets/personalization-uc-helpers-6.png)
 
-1. 保存郵件。
+1. 儲存訊息。
 
-## 第4步：插入購物車中的物料清單 {#each-helper}
+## 步驟4：插入購物車中的專案清單 {#each-helper}
 
-1. 重新開啟郵件內容。
+1. 重新開啟訊息內容。
 
-1. 在「電子郵件設計器」首頁上，按一下要列出購物車內容的HTML元件。
-1. 在上下文工具欄上，按一下 **[!UICONTROL 顯示原始碼]**。
+1. 在電子郵件設計工具首頁上，按一下您要列出購物車內容的HTML元件。
+1. 在內容工具列上，按一下 **[!UICONTROL 顯示原始程式碼]**.
 
    ![](assets/personalization-uc-helpers-3.png)
 
-1. 在 **[!UICONTROL 編輯HTML]** 的 `each` 幫助程式：
-   1. 在左菜單中，選擇 **[!UICONTROL 幫助程式函式]**。
-   1. 使用搜索欄位查找「每個」。
-   1. 從搜索結果中，添加 `each` 幫助程式。
+1. 在 **[!UICONTROL 編輯HTML]** 視窗，新增 `each` 協助程式：
+   1. 在左側功能表中，選取 **[!UICONTROL 輔助函式]**.
+   1. 使用搜尋欄位來尋找「each」。
+   1. 從搜尋結果中新增 `each` 協助程式。
 
-      表達式編輯器顯示此表達式：
+      運算式編輯器會顯示此運算式：
 
       ```handlebars
       {{#each someArray as |variable|}} {{/each}}
@@ -136,41 +136,41 @@ ht-degree: 3%
 
       ![](assets/personalization-uc-helpers-9.png)
 
-1. 添加 `productListItems` 陣列到表達式：
+1. 新增 `productListItems` 陣列至運算式：
 
-   1. 從表達式中刪除「someArray」佔位符。
-   1. 在左菜單中，選擇 **[!UICONTROL 上下文屬性]**。
+   1. 從運算式中移除「someArray」預留位置。
+   1. 在左側功能表中，選取 **[!UICONTROL 內容屬性]**.
 
-      **[!UICONTROL 上下文屬性]** 僅在將行程上下文傳遞到消息後才可用。
+      **[!UICONTROL 內容屬性]** 只有在歷程內容已傳遞至訊息後，才能使用。
 
-   1. 選擇 **[!UICONTROL Journey Optimizer]** > **[!UICONTROL 事件]** > ***[!UICONTROL 事件名稱]***，然後展開 **[!UICONTROL productListItems]** 的下界。
+   1. 選取 **[!UICONTROL Journey Optimizer]** > **[!UICONTROL 事件]** > ***[!UICONTROL event_name]***一下，然後展開 **[!UICONTROL productListItems]** 節點。
 
-      在本例中， *事件名稱* 表示您的活動名稱。
+      在此範例中， *event_name* 代表事件的名稱。
 
-   1. 添加 **[!UICONTROL 產品]** 表達式的標籤。
+   1. 新增 **[!UICONTROL 產品]** 運算式的Token。
 
-      表達式編輯器顯示此表達式：
+      運算式編輯器會顯示此運算式：
 
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems.product as |variable|}} {{/each}}
       ```
 
-      在本例中， *事件ID* 表示事件的ID。
+      在此範例中， *event_ID* 代表事件的ID。
 
       ![](assets/personalization-uc-helpers-10.png)
 
-   1. 修改表達式：
-      1. 刪除&quot;。product&quot;字串。
-      1. 將&quot;variable&quot;佔位符替換為&quot;product&quot;。
+   1. 修改運算式：
+      1. 移除「.product」字串。
+      1. 將「變數」預留位置取代為「產品」。
 
-      此示例顯示修改後的表達式：
+      此範例顯示修改後的運算式：
 
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
 
 
-1. 將此代碼貼上到開啟 `{{#each}}` 標籤和結束 `{/each}}` 標籤：
+1. 將此程式碼貼到開頭 `{{#each}}` 標籤與結尾 `{/each}}` 標籤：
 
    ```html
    <table>
@@ -184,17 +184,17 @@ ht-degree: 3%
    </table>
    ```
 
-1. 添加物料名稱、數量和價格的個性化標籤：
+1. 新增專案名稱、數量和價格的個人化代號：
 
-   1. 從HTML表中刪除佔位符「#name」。
-   1. 從上一個搜索結果中，添加 **[!UICONTROL 名稱]** 表達式的標籤。
+   1. 從HTML表格中移除預留位置「#name」。
+   1. 從先前的搜尋結果中新增 **[!UICONTROL 名稱]** 運算式的Token。
 
-   重複以下步驟兩次：
+   重複這些步驟兩次：
 
-   * 將佔位符「#quantity」替換為 **[!UICONTROL 數量]** 標籤。
-   * 將佔位符「#priceTotal」替換為 **[!UICONTROL 總價]** 標籤。
+   * 將預留位置「#quantity」取代為 **[!UICONTROL 數量]** token。
+   * 將預留位置「#priceTotal」取代為 **[!UICONTROL 總價]** token。
 
-   此示例顯示修改後的表達式：
+   此範例顯示修改後的運算式：
 
    ```handlebars
    {{#each context.journey.events.event_ID.productListItems as |product|}}
@@ -210,23 +210,23 @@ ht-degree: 3%
    {{/each}}
    ```
 
-1. 按一下 **[!UICONTROL 驗證]**，然後按一下 **[!UICONTROL 保存]**。
+1. 按一下 **[!UICONTROL 驗證]**，然後按一下 **[!UICONTROL 儲存]**.
 
    ![](assets/personalization-uc-helpers-11.png)
 
-## 第5步：插入特定於產品的注釋 {#if-helper}
+## 步驟5：插入產品特定附註 {#if-helper}
 
-1. 在「電子郵件設計器」首頁上，按一下要插入注釋的HTML元件。
-1. 在上下文工具欄上，按一下 **[!UICONTROL 顯示原始碼]**。
+1. 在「電子郵件設計工具」首頁上，按一下要插入附註的HTML元件。
+1. 在內容工具列上，按一下 **[!UICONTROL 顯示原始程式碼]**.
 
    ![](assets/personalization-uc-helpers-3.png)
 
-1. 在 **[!UICONTROL 編輯HTML]** 的 `if` 幫助程式：
-   1. 在左菜單中，選擇 **[!UICONTROL 幫助程式函式]**。
-   1. 使用搜索欄位查找&quot;if&quot;。
-   1. 從搜索結果中，添加 `if` 幫助程式。
+1. 在 **[!UICONTROL 編輯HTML]** 視窗，新增 `if` 協助程式：
+   1. 在左側功能表中，選取 **[!UICONTROL 輔助函式]**.
+   1. 使用搜尋欄位來尋找「if」。
+   1. 從搜尋結果中新增 `if` 協助程式。
 
-      表達式編輯器顯示此表達式：
+      運算式編輯器會顯示此運算式：
 
       ```handlebars
       {%#if condition1%} render_1
@@ -237,13 +237,13 @@ ht-degree: 3%
 
       ![](assets/personalization-uc-helpers-12.png)
 
-1. 從表達式中刪除此條件：
+1. 從運算式中移除此條件：
 
    ```handlebars
    {%else if condition2%} render_2
    ```
 
-   此示例顯示修改後的表達式：
+   此範例顯示修改後的運算式：
 
    ```handlebars
    {%#if condition1%} render_1
@@ -251,16 +251,16 @@ ht-degree: 3%
    {%/if%}
    ```
 
-1. 將產品名稱令牌添加到條件：
-   1. 從表達式中刪除&quot;condition1&quot;佔位符。
-   1. 在左菜單中，選擇 **[!UICONTROL 上下文屬性]**。
-   1. 選擇 **[!UICONTROL Journey Orchestration]** > **[!UICONTROL 事件]** > ***[!UICONTROL 事件名稱]***，然後展開 **[!UICONTROL productListItems]** 的下界。
+1. 將產品名稱Token新增至條件：
+   1. 從運算式中移除「condition1」預留位置。
+   1. 在左側功能表中，選取 **[!UICONTROL 內容屬性]**.
+   1. 選取 **[!UICONTROL Journey Orchestration]** > **[!UICONTROL 事件]** > ***[!UICONTROL event_name]***一下，然後展開 **[!UICONTROL productListItems]** 節點。
 
-      在本例中， *事件名稱* 表示您的活動名稱。
+      在此範例中， *event_name* 代表事件的名稱。
 
-   1. 添加 **[!UICONTROL 名稱]** 表達式的標籤。
+   1. 新增 **[!UICONTROL 名稱]** 運算式的Token。
 
-      表達式編輯器顯示此表達式：
+      運算式編輯器會顯示此運算式：
 
       ```handlebars
       {%#if context.journey.events.`event_ID`.productListItems.name%}
@@ -271,16 +271,16 @@ ht-degree: 3%
 
       ![](assets/personalization-uc-helpers-13.png)
 
-1. 修改表達式：
-   1. 在表達式編輯器中，在 `name` 標籤。
+1. 修改運算式：
+   1. 在運算式編輯器中，在「 」後面指定產品名稱 `name` token。
 
-      使用此語法，其中 *產品名稱* 表示產品名稱：
+      請使用此語法，其中 *product_name* 代表產品的名稱：
 
       ```javascript
       = "product_name"
       ```
 
-      在此示例中，產品名稱為「Juno Cacket」：
+      在此範例中，產品名稱為「Juno Jacket」：
 
       ```handlebars
       {%#if context.journey.events.`event_ID`.productListItems.name = "Juno Jacket" %}
@@ -289,7 +289,7 @@ ht-degree: 3%
       {%/if%}
       ```
 
-   1. 將&quot;render_1&quot;佔位符替換為注釋文本。
+   1. 將「render_1」預留位置替換為註記文字。
 
       範例：
 
@@ -300,37 +300,37 @@ ht-degree: 3%
       {%/if%}
       ```
 
-   1. 從表達式中刪除&quot;default_render&quot;佔位符。
-1. 按一下 **[!UICONTROL 驗證]**，然後按一下 **[!UICONTROL 保存]**。
+   1. 從運算式中移除&quot;default_render&quot;預留位置。
+1. 按一下 **[!UICONTROL 驗證]**，然後按一下 **[!UICONTROL 儲存]**.
 
    ![](assets/personalization-uc-helpers-14.png)
 
-1. 保存郵件。
+1. 儲存訊息。
 
-## 步驟6:Test並發表旅程 {#test-and-publish}
+## 步驟6：測試並發佈歷程 {#test-and-publish}
 
-1. 開啟 **[!UICONTROL Test]** 切換，然後按一下 **[!UICONTROL 觸發事件]**。
+1. 開啟 **[!UICONTROL 測試]** 切換，然後按一下 **[!UICONTROL 觸發事件]**.
 
    ![](assets/personalization-uc-helpers-15.png)
 
-1. 在 **[!UICONTROL 事件配置]** ，然後按一下 **[!UICONTROL 發送]**。
+1. 在 **[!UICONTROL 事件設定]** 視窗，輸入輸入值，然後按一下 **[!UICONTROL 傳送]**.
 
-   test模式僅適用於test配置檔案。
+   測試模式僅適用於測試設定檔。
 
    ![](assets/personalization-uc-helpers-16.png)
 
-   電子郵件將發送到test配置檔案的地址。
+   電子郵件會傳送至測試設定檔的地址。
 
-   在此示例中，電子郵件包含有關Juno Cacket的說明，因為此產品位於購物車中：
+   在此範例中，電子郵件會包含有關Juno Jacket的附註，因為此產品已在購物車中：
 
    ![](assets/personalization-uc-helpers-17.png)
 
-1. 驗證沒有錯誤，然後發佈行程。
+1. 確認沒有錯誤，然後發佈歷程。
 
 
 ## 相關主題 {#related-topics}
 
-### 車把函式 {#handlebars}
+### Handlebars函式 {#handlebars}
 
 * [輔助程式](functions/helpers.md)
 
@@ -338,12 +338,12 @@ ht-degree: 3%
 
 ### 使用案例 {#use-case}
 
-* [個性化配置檔案資訊、上下文和服務](personalization-use-case.md)
+* [使用設定檔資訊、內容和選件進行個人化](personalization-use-case.md)
 
-* [基於決策的個性化服務](../offers/offers-e2e.md)
+* [使用決策型優惠進行個人化](../offers/offers-e2e.md)
 
 ## 操作說明影片{#video}
 
-瞭解如何使用幫助程式功能。
+瞭解如何使用輔助函式。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

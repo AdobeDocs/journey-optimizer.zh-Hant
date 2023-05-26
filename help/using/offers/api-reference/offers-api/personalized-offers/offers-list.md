@@ -1,6 +1,6 @@
 ---
 title: 列出個人化優惠
-description: 個性化服務是基於資格規則和約束的可定製營銷資訊。
+description: 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,9 +15,9 @@ ht-degree: 5%
 
 # 列出個人化優惠 {#list-personalized-offers}
 
-個性化服務是基於資格規則和約束的可定製營銷資訊。
+個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 
-通過對容器執行單個GET請求，可以查看容器內所有個性化優惠的清單 [!DNL Offer Library] API。
+您可以透過對「 」執行單一GET請求，以檢視容器中所有個人化優惠方案的清單。 [!DNL Offer Library] API。
 
 **API格式**
 
@@ -27,10 +27,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 個性化優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_PERSONALIZED_OFFER}` | 定義與個性化優惠關聯的架構。 | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
-| `{QUERY_PARAMS}` | 用於篩選結果的可選查詢參數。 | `limit=1` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 個人化優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_PERSONALIZED_OFFER}` | 定義與個人化優惠相關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
+| `{QUERY_PARAMS}` | 篩選結果的選用查詢引數。 | `limit=1` |
 
 **要求**
 
@@ -44,25 +44,25 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## 使用查詢參數 {#using-query-parameters}
+## 使用查詢引數 {#using-query-parameters}
 
-在列出資源時，可以使用查詢參數來頁面和篩選結果。
+列出資源時，您可以使用查詢引數來分頁和篩選結果。
 
 ### 分頁 {#paging}
 
-用於分頁的最常見的查詢參數包括：
+分頁最常見的查詢引數包括：
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `q` | 要在所選欄位中搜索的可選查詢字串。 查詢字串應為小寫，並且可以用雙引號環繞，以防止其被標籤化並轉義特殊字元。 字元 `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊含義，在出現在查詢字串中時應使用反斜線進行轉義。 | `discounted offers` |
-| `qop` | 將AND或OR運算子應用於q查詢字串參數中的值。 | `AND` / `OR` |
-| `field` | 將搜索限制為的欄位的可選清單。 此參數可以重複，如下所示：欄位=欄位1[,field=field2,...] 和（路徑表達式採用點分隔路徑的形式，如_instance.xdm:name） | `_instance.xdm:name` |
-| `orderBy` | 按特定屬性對結果排序。 添加 `-` 前標題(B)`orderby=-title`)將按標題按降序(Z-A)排序。 | `-repo:createdDate` |
-| `limit` | 限制返回的個性化服務數量。 | `limit=5` |
+| `q` | 在選取的欄位中搜尋的可選查詢字串。 查詢字串應為小寫，並可由雙引號包圍，以防止其標籤化及逸出特殊字元。 字元 `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊意義，在查詢字串中出現時應該以反斜線逸出。 | `discounted offers` |
+| `qop` | 將AND或OR運運算元套用至q查詢字串引數中的值。 | `AND` / `OR` |
+| `field` | 要限制搜尋的選用欄位清單。 此引數可以重複執行，如下所示： field=field1[，field=field2，...] 和（路徑運算式的形式為點分隔的路徑，例如_instance.xdm：name） | `_instance.xdm:name` |
+| `orderBy` | 依特定屬性排序結果。 新增 `-` 在標題之前(`orderby=-title`)會依標題以遞減順序(Z-A)排序專案。 | `-repo:createdDate` |
+| `limit` | 限制傳回的個人化優惠方案數量。 | `limit=5` |
 
 **回應**
 
-成功的響應將返回您有權訪問的容器中存在的個性化優惠清單。
+成功的回應會傳回個人化優惠清單，這些優惠會顯示在您可存取的容器中。
 
 ```json
 {

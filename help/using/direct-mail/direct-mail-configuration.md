@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 badge: label="Beta" type="Informative"
-source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
+source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 32%
+source-wordcount: '883'
+ht-degree: 33%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 32%
 
    >[!NOTE]
    >
-   >目前支援Amazon S3、SFTP和Azure [!DNL Journey Optimizer].
+   >目前僅支援Amazon S3和SFTP [!DNL Journey Optimizer].
 
 1. 填寫伺服器的詳細資訊和認證，例如伺服器位址、存取金鑰等。
 
@@ -116,7 +116,7 @@ ht-degree: 32%
 >id="ajo_dm_surface_settings"
 >title="定義直接郵件設定"
 >abstract="直接郵件表面包含檔案格式的設定，其中會包含目標對象資料並將由郵件提供者使用。您還必須選取檔案路由設定以定義檔案匯出的位置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html#file-routing-configuration" text="設定檔案路由"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=zh-Hant#file-routing-configuration" text="設定檔案路由"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -146,10 +146,6 @@ ht-degree: 32%
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
 1. 選取檔案格式： **[!UICONTROL CSV]** 或 **[!UICONTROL 文字分隔]**.
-
-1. 如果您選取 **[!UICONTROL 文字分隔]**，定義您選擇的欄分隔符號：製表、分號、垂直號或&amp;符號。
-
-   ![](assets/surface-direct-mail-column-separator.png)
 
 1. 選取 **[!UICONTROL 檔案路由設定]** 在您建立的專案中。 這會定義檔案會匯出至何處以供直接郵件提供者使用。
 

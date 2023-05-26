@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用儲存的運算式
-description: 瞭解如何使用保存的表達式 [!DNL Journey Optimizer] 的下界。
+description: 瞭解如何使用儲存的運算式，從 [!DNL Journey Optimizer] 資料庫。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-keywords: 表達式、編輯器、庫、個性化
+keywords: 運算式，編輯器，資料庫，個人化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
@@ -23,52 +23,52 @@ ht-degree: 14%
 >title="關於運算式資料庫"
 >abstract="[!DNL Journey Optimizer] 會提供資料庫，您可以在此存取已由管理員使用者設定的已儲存個人化運算式。 "
 
-[!DNL Journey Optimizer] 提供了一個庫，您可以在其中訪問以前保存的由管理員用戶添加的個性化表達式。
+[!DNL Journey Optimizer] 提供資料庫，您可在其中存取管理員使用者新增的先前儲存的個人化運算式。
 
-➡️ [瞭解如何使用此視頻中保存的表達式](#video-preview)
+➡️ [在本影片中瞭解如何使用儲存的運算式](#video-preview)
 
-要訪問保存的表達式，請按一下 **[!UICONTROL 庫]** 按鈕。 該清單顯示管理員用戶保存的所有表達式(請參見 [將表達式保存到庫](#save-expressions))。
+若要存取儲存的運算式，請按一下 **[!UICONTROL 資料庫]** 按鈕。 清單會顯示管理員使用者儲存的所有運算式(請參閱 [將運算式儲存至程式庫](#save-expressions))。
 
 >[!NOTE]
 >
->可以從省略號按鈕獲取有關已保存表達式內容的詳細資訊。 請注意，如果您具有管理庫項目的適當權限，資訊按鈕將出現在省略號中。
+>您可以從省略符號按鈕取得有關已儲存運算式內容的詳細資訊。 請注意，如果您有管理程式庫專案的適當許可權，資訊按鈕將會以省略符號顯示。
 
-按一下+將表達式插入編輯器。 然後，您可以像往常一樣自定義和驗證個性化內容。 [了解更多](../personalization/personalization-build-expressions.md)
+按一下+以將運算式插入編輯器中。 然後，您可以照常自訂及驗證個人化內容。 [了解更多](../personalization/personalization-build-expressions.md)
 
 ![](assets/library-add.png)
 
-## 將表達式保存到庫 {#save-expressions}
+## 將運算式儲存至程式庫 {#save-expressions}
 
-[!DNL Journey Optimizer] 允許管理員用戶將個性化表達式保存到庫。 然後，所有用戶都可以使用這些表達式來生成個性化內容。
+[!DNL Journey Optimizer] 可讓管理員使用者將個人化運算式儲存至程式庫。 然後，所有使用者都可以使用這些運算式來建置個人化內容。
 
-要將表達式保存到庫，請執行以下步驟：
+若要將運算式儲存至程式庫，請遵循下列步驟：
 
-1. 在編輯器介面中，生成表達式，然後按一下 **[!UICONTROL 添加到庫]**。
+1. 在編輯器介面中，建立運算式，然後按一下 **[!UICONTROL 新增至程式庫]**.
 
    >[!NOTE]
    >
-   >如果按鈕不可見，請簽入您具有所需權限的Admin Console(請參閱 [權限級別](../administration/high-low-permissions.md))。
+   >如果按鈕不可見，請簽入您具有必要許可權的Admin Console(請參閱 [許可權層級](../administration/high-low-permissions.md))。
 
    ![](assets/library-save.png)
 
-1. 在右窗格中，輸入表達式的標題和說明以幫助用戶更輕鬆地找到它，然後按一下 **[!UICONTROL 添加]**。
+1. 在右窗格中，輸入運算式的標題和說明，以協助使用者更容易找到它，然後按一下 **[!UICONTROL 新增]**.
 
    ![](assets/add-expression.png)
 
-1. 表達式將添加到庫中。 用戶現在將能夠使用它來構建其個性化內容。
+1. 運算式會新增至程式庫。 使用者現在將能夠使用它來建置其個人化內容。
 
 
 >[!NOTE]
 >
->* 表達式不能超過200KB。
+>* 運算式不能超過200KB。
 >
->* 保存的表達式按建立日期排序：最近添加的表達式將首先顯示在清單中。
+>* 已儲存的運算式會依建立日期排序：最近新增的運算式會顯示在清單中的前面。
 
 
 
-要編輯現有表達式，請將其添加到編輯器中，然後根據需要修改它。 按一下 **[!UICONTROL 添加到庫]** 驗證語法並保存表達式。
+若要編輯現有運算式，請將其新增至編輯器，然後視需要加以修改。 按一下 **[!UICONTROL 新增至程式庫]** 驗證語法並儲存運算式。
 
-要刪除表達式，請按一下省略號按鈕，然後按一下 **[!UICONTROL 刪除]**。
+若要刪除運算式，請按一下省略符號按鈕，然後按一下 **[!UICONTROL 刪除]**.
 
 ## 操作說明影片{#video}
 

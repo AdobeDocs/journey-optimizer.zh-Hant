@@ -5,7 +5,7 @@ description: 瞭解函式avg
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: avg，函式，表達式，旅程
+keywords: 平均，函式，運算式，歷程
 exl-id: cc70f90c-2d12-42a0-829f-5f28c3c29cad
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 13%
 
 # avg {#avg}
 
-返回一組表達式中的平均值，以清單或兩個表達式的形式給出。 忽略空值。
+傳回一組運算式中的平均值，以清單或兩個運算式形式給出。 Null值會被忽略。
 
 
 ## 類別
@@ -29,14 +29,14 @@ ht-degree: 13%
 
 ## 參數
 
-支援的類型：
+支援的型別：
 
 * listInteger
-* 清單十進位
+* listDecimal
 * 小數
 * 整數
 
-## 簽名和返回的類型
+## 簽章和傳回型別
 
 `avg(<listInteger>)`
 
@@ -50,7 +50,7 @@ ht-degree: 13%
 
 `avg(<integer>,<integer>)`
 
-返回十進位。
+傳回小數。
 
 ## 範例
 
@@ -58,8 +58,8 @@ ht-degree: 13%
 
 `avg([10,3,8])`
 
-返回7.0。
+傳回7.0。
 
 `avg(10.2, 3)`
 
-返回6.6。
+傳回6.6。

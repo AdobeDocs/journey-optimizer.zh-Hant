@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: inLastDays
-description: 瞭解LastDays中的函式
+description: 瞭解函式inLastDays
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: inLastDays，函式，表達式， journey
+keywords: inLastDays，函式，運算式，歷程
 exl-id: 1b150568-17c2-454d-847e-17bac3d0b35d
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 # inLastDays {#inLastDays}
 
-如果給定日期或dateTime介於現在和現在之間 — 增量天，則返回true。
+如果指定的日期或日期時間介於現在和現在 — 差異天數之間，則傳回true。
 
 ## 類別
 
@@ -30,17 +30,17 @@ ht-degree: 18%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| 日期時間 | 日期時間 |
-| 三角 | 整數 |
+| 日期時間 | dateTime |
+| delta | 整數 |
 
-## 簽名和返回的類型
+## 簽章和傳回型別
 
 `inLastDays(<dateTime>,<integer>)`
 
-返回布爾值。
+傳回布林值。
 
 ## 範例
 
 `inLastDays(toDateTime('2019-12-12T01:11:00Z'), 4)`
 
-返回true。
+傳回true。

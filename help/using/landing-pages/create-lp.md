@@ -9,18 +9,14 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面，建立，發佈
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 27%
+source-wordcount: '1539'
+ht-degree: 28%
 
 ---
 
 # 建立並發佈登入頁面 {#create-lp}
-
->[!CAUTION]
->
->若要能夠測試和發佈登入頁面，您必須擁有 **[!UICONTROL 發佈訊息]** 許可權。
 
 ## 存取登入頁面 {#access-landing-pages}
 
@@ -211,8 +207,6 @@ ht-degree: 27%
 
 >[!CAUTION]
 >
->若要能夠測試登入頁面，您必須擁有 **[!UICONTROL 發佈訊息]** 許可權。
->
 >您必須有可用的測試設定檔，才能預覽訊息和傳送校樣。 瞭解如何 [建立測試設定檔](../segment/creating-test-profiles.md).
 
 1. 從登入頁面介面，按一下 **[!UICONTROL 模擬內容]** 按鈕以存取測試設定檔選項。
@@ -279,10 +273,6 @@ ht-degree: 27%
 -->
 
 ## 發佈登陸頁面 {#publish-landing-page}
-
->[!CAUTION]
->
->若要能夠發佈登入頁面，您必須擁有 **[!UICONTROL 發佈訊息]** 許可權。
 
 一旦登入頁面準備就緒後，您就可以發佈該頁面，以供訊息使用。
 

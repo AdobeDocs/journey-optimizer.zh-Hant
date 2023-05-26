@@ -1,6 +1,6 @@
 ---
-title: 查找收集限定符
-description: 收集限定詞使您能夠更好地組織和排序您的優惠。
+title: 查詢集合限定詞
+description: 集合限定詞可讓您更妥善地組織和排序優惠方案。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -13,9 +13,9 @@ ht-degree: 3%
 
 ---
 
-# 查找收集限定符 {#look-up-tag}
+# 查詢集合限定詞 {#look-up-tag}
 
-您可以通過向Oracle Server發出GET請求來查找特定的收集限定符（以前稱為「標籤」） [!DNL Offer Library] 包括集合限定符的API `@id` 或請求路徑中集合限定符的名稱。
+您可以透過向以下網址發出GET要求，查詢特定的集合限定詞（先前稱為「標籤」）： [!DNL Offer Library] 包含集合限定詞的API `@id` 或要求路徑中集合限定詞的名稱。
 
 **API格式**
 
@@ -25,11 +25,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 集合限定符所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | 定義與集合限定符關聯的架構。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
-| `id` | 用於匹配 `@id` 屬性。 字串完全匹配。 參數 `id` 和 `name` 不能一起使用。 | `xcore:tag:124e147572cd7866` |
-| `name` | 用於匹配實體的xdm:name屬性的字串。 字串與大寫完全匹配，但可以使用通配符。 參數 `id` 和 `name` 不能一起使用 | `Holiday sales and promotions` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 集合限定詞所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | 定義與集合限定詞相關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `id` | 用於比對 `@id` 個實體的屬性。 字串完全相符。 引數 `id` 和 `name` 不能一起使用。 | `xcore:tag:124e147572cd7866` |
+| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全符合，但可使用萬用字元。 引數 `id` 和 `name` 不能一起使用 | `Holiday sales and promotions` |
 
 **要求**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **回應**
 
-成功的響應將返回收集限定符的詳細資訊，包括有關容器ID、實例ID和唯一收集限定符的資訊 `@id`。
+成功的回應會傳回收集限定詞的詳細資訊，包括容器ID、執行個體ID和唯一收集限定詞的相關資訊 `@id`.
 
 ```json
 {

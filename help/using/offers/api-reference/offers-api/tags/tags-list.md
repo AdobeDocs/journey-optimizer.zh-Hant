@@ -1,6 +1,6 @@
 ---
 title: 列出集合限定詞
-description: 收集限定詞使您能夠更好地組織和排序您的優惠。
+description: 集合限定詞可讓您更妥善地組織和排序優惠方案。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,11 +15,11 @@ ht-degree: 4%
 
 # 列出集合限定詞 {#list-tags}
 
-收集限定詞（以前稱為「標籤」）使您能夠更好地組織和排序您的優惠。 例如，可以用「黑色星期五」集合限定符來標籤黑色星期五的優惠。 然後，您可以使用「聘用庫」中的搜索功能，輕鬆查找包含該收集限定符的所有聘用。
+集合限定詞（先前稱為「標籤」）可讓您更妥善地組織和排序優惠方案。 例如，您可以使用「黑色星期五」集合限定詞來標示「黑色星期五」優惠方案。 然後，您可以使用選件資料庫中的搜尋功能，輕鬆找到包含該集合限定詞的所有選件。
 
-收集限定詞也可用於將優惠組合到收集中。 有關詳細資訊，請參見上的教程 [建立集合](../../../offer-library/creating-collections.md)。
+集合限定詞也可用來將優惠方案分組為集合。 如需詳細資訊，請參閱以下教學課程： [建立集合](../../../offer-library/creating-collections.md).
 
-通過對容器執行單個GET請求，您可以查看容器內所有收集限定詞的清單 [!DNL Offer Library] API。
+您可以透過對容器執行單一GET要求，來檢視容器內所有收集限定元的清單。 [!DNL Offer Library] API。
 
 **API格式**
 
@@ -29,10 +29,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 集合限定符所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | 定義與集合限定符關聯的架構。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
-| `{QUERY_PARAMS}` | 用於篩選結果的可選查詢參數。 | `limit=2` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 集合限定詞所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | 定義與集合限定詞相關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `{QUERY_PARAMS}` | 篩選結果的選用查詢引數。 | `limit=2` |
 
 **要求**
 
@@ -46,25 +46,25 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## 使用查詢參數 {#using-query-parameters}
+## 使用查詢引數 {#using-query-parameters}
 
-在列出資源時，可以使用查詢參數來頁面和篩選結果。
+列出資源時，您可以使用查詢引數來分頁和篩選結果。
 
 ### 分頁 {#paging}
 
-用於分頁的最常見的查詢參數包括：
+分頁最常見的查詢引數包括：
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `q` | 要在所選欄位中搜索的可選查詢字串。 查詢字串應為小寫，並且可以用雙引號環繞，以防止其被標籤化並轉義特殊字元。 字元 `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊含義，在出現在查詢字串中時應使用反斜線進行轉義。 | 網站JSON |
-| `qop` | 將AND或OR運算子應用於q查詢字串參數中的值。 | `AND` / `OR` |
-| `field` | 將搜索限制為的欄位的可選清單。 此參數可以重複，如下所示：欄位=欄位1[,field=field2,...] 和（路徑表達式採用點分隔路徑的形式，如_instance.xdm:name） | `_instance.xdm:name` |
-| `orderBy` | 按特定屬性對結果排序。 添加 `-` 前標題(B)`orderby=-title`)將按標題按降序(Z-A)排序。 | `-repo:createdDate` |
-| `limit` | 限制返回的收集限定詞數。 | `limit=5` |
+| `q` | 在選取的欄位中搜尋的可選查詢字串。 查詢字串應為小寫，並可由雙引號包圍，以防止其標籤化及逸出特殊字元。 字元 `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊意義，在查詢字串中出現時應該以反斜線逸出。 | 網站JSON |
+| `qop` | 將AND或OR運運算元套用至q查詢字串引數中的值。 | `AND` / `OR` |
+| `field` | 要限制搜尋的選用欄位清單。 此引數可以重複執行，如下所示： field=field1[，field=field2，...] 和（路徑運算式的形式為點分隔的路徑，例如_instance.xdm：name） | `_instance.xdm:name` |
+| `orderBy` | 依特定屬性排序結果。 新增 `-` 在標題之前(`orderby=-title`)會依標題以遞減順序(Z-A)排序專案。 | `-repo:createdDate` |
+| `limit` | 限制傳回的集合限定詞數目。 | `limit=5` |
 
 **回應**
 
-成功的響應將返回您有權訪問的容器中存在的集合限定詞清單。
+成功的回應會傳回集合限定詞清單，這些限定詞存在於您可存取的容器中。
 
 ```json
 {

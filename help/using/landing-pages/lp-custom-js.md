@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在登錄頁中使用自定義JavaScript
-description: 瞭解如何設計Journey Optimizer登錄頁的內容
+title: 在登入頁面中使用自訂JavaScript
+description: 瞭解如何在Journey Optimizer中設計登入頁面的內容
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-keywords: 登錄，登錄頁，javascript，代碼
+keywords: 登陸，登陸頁面， javascript，程式碼
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
@@ -16,33 +16,33 @@ ht-degree: 2%
 
 ---
 
-# 在登錄頁中使用自定義JavaScript {#lp-custom-js}
+# 在登入頁面中使用自訂JavaScript {#lp-custom-js}
 
-可以使用自定義JavaScript定義登錄頁內容。 例如，如果需要執行高級樣式，或要向登錄頁添加自定義行為，則可以構建自己的控制項並在 [!DNL Journey Optimizer]。
+您可以使用自訂JavaScript來定義登入頁面內容。 例如，如果您需要執行進階樣式，或想要將自訂行為新增至登入頁面，您可以建立自己的控制項，並在中執行這些控制項 [!DNL Journey Optimizer].
 
-## 將JavaScript代碼插入登錄頁
+## 將JavaScript程式碼插入登陸頁面
 
-要將自定義JavaScript插入登錄頁內容，可以執行以下操作：
+若要將自訂JavaScript插入登入頁面內容，您可以執行下列任一項作業：
 
-* 在開始建立內容時導入現有HTML內容，並選擇包含自定義JavaScript代碼的檔案。 瞭解如何導入內容 [此部分](../email/existing-content.md)。
+* 開始建立您的內容時匯入現有的HTML內容，並選取包含自訂JavaScript程式碼的檔案。 瞭解如何匯入內容 [在本節中](../email/existing-content.md).
 
-* 從頭開始或從保存的模板中設計登錄頁。 拖放 **[!UICONTROL HTML]** 內容元件並顯示原始碼，以將JavaSCript添加到元件中。 瞭解如何使用HTML元件 [此部分](../email/content-components.md#HTML)。 <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* 從頭開始或從儲存的範本設計您的登入頁面。 拖放 **[!UICONTROL HTML]** 將內容元件加入畫布並顯示原始程式碼，以將您的JavaScript加入元件中。 瞭解如何在中使用HTML元件 [本節](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
    ![](assets/lp_designer-html-component.png)
 
-* 將JavaScript代碼直接輸入或貼上到內容設計器中。 瞭解如何編碼您自己的內容 [此部分](../email/code-content.md)。
+* 直接在內容設計工具中輸入或貼上JavaScript程式碼。 瞭解如何編寫您自己的內容的程式碼 [在本節中](../email/code-content.md).
 
 >[!NOTE]
 >
->當前無法在 [預覽登錄頁](create-lp.md#test-landing-page)。
+>目前，在下列情況下，您無法顯示JavaScript正在執行： [預覽登入頁面](create-lp.md#test-landing-page).
 
-要正確顯示登錄頁，請使用以下語法（如下各節所述）。
+若要正確顯示登入頁面，請依照以下各節所述使用下列語法。
 
-## 代碼初始化
+## 程式碼初始化
 
-要初始化JavaScript代碼，必須使用 `lpRuntimeReady` 的子菜單。 成功初始化庫後將觸發此事件。 將使用 `lpRuntime` 對象，用於公開庫方法和掛接。
+若要將JavaScript程式碼初始化，您必須使用 `lpRuntimeReady` 事件。 成功初始化程式庫後，將會觸發此事件。 回呼將以下列方式執行： `lpRuntime` 物件，以公開程式庫方法和鉤點。
 
-`LpRuntime` 表示「登錄頁運行時」。 此對象是主庫標識符。 它將公開可在自定義JavaScript中使用的掛接、表單提交方法和其他實用方法。
+`LpRuntime` 代表「Landing page Runtime」。 此物件是主要程式庫識別碼。 它會公開掛接、表單提交方法，以及可用於自訂JavaScript的其他公用程式方法。
 
 **範例：**
 
@@ -62,15 +62,15 @@ function init(lpRuntime){
 
 ## 勾點
 
-使用掛接，可以在表單提交的生命週期中附加方法。 例如，在實際提交表單之前，可以使用掛接執行某些表單驗證。
+您可以使用鉤點，在表單提交的生命週期中附加方法。 例如，您可以使用鉤點在實際提交表單之前執行某些表單驗證。
 
-以下是您可以使用的掛接：
+以下是您可以使用的鉤點：
 
 | 名稱 | 說明 |
 |--- |--- |
-| addBeforeSubmitHook | 在提交表單之前調用的自定義掛接。 返回true以繼續提交，否則返回false以阻止提交。 |
-| addOnFailureHook | 在失敗的表單提交時調用的自定義掛接。 |
-| addOnSuccessHook | 在成功提交表單時調用的自定義掛接。 |
+| addBeforeSubmitHook | 在提交表單前呼叫自訂掛接。 傳回true以繼續提交，否則傳回false以封鎖提交。 |
+| addOnFailureHook | 在失敗的表單提交上呼叫的自訂連結。 |
+| Addonsuccessfhook | 在成功提交表單時要呼叫的自訂連結。 |
 
 **範例：**
 
@@ -81,18 +81,18 @@ lpRuntime.hooks.addBeforeSubmitHook(function(){
 });
 ```
 
-## 自定義表單提交
+## 自訂表單提交
 
-下面列出的方法用於執行自定義表單提交。
+下列方法用於執行自訂表單提交。
 
 >[!NOTE]
 >
->由於表單提交由自定義JavaScript處理，因此需要通過設定全局變數來顯式禁用預設提交 `disableDefaultFormSubmission` 至 `true`。
+>由於表單提交是由自訂JavaScript處理，因此需要透過設定全域變數來明確停用預設提交 `disableDefaultFormSubmission` 至 `true`.
 
 | 名稱 | 說明 |
 |--- |--- |
-| 提交表單 | 此方法將提交表單，並處理後提交流程。 |
-| submitFormPartial | 此方法還將提交表單，但將跳過後提交流程。 例如，如果您已將重定向配置為成功提交後的成功頁面，則在提交部分表單時不會發生重定向。 |
+| submitForm | 此方法會提交表單，並處理貼文提交流程。 |
+| submitFormPart | 此方法也會提交表單，但會略過貼文提交流程。 例如，如果您已設定在提交成功後重新導向至成功頁面，則在提交部分表單時不會發生該重新導向。 |
 
 **範例：**
 
@@ -109,11 +109,11 @@ lpRuntime.submitFormPartial(formSubmissionData,{   // This will not trigger the 
 })
 ```
 
-## 實用程式函式
+## 公用程式函式
 
 | 名稱 | 說明 |
 |--- |--- |
-| getFormData | 該方法可用於 `formData` 的形式。 此對象可以傳遞到 `submitForm` 的子菜單。 |
+| getFormData | 此方法可用來取得 `formData` JSON物件的形式。 此物件可傳遞至 `submitForm` 用於表單提交。 |
 
 **範例：**
 
@@ -125,7 +125,7 @@ lpRuntime.submitForm(formData);
 
 ## 使用案例
 
-### 用例1:在提交表單之前添加驗證
+### 使用案例1：在提交表單前新增驗證
 
 ```
 <html>
@@ -160,9 +160,9 @@ lpRuntime.submitForm(formData);
 </html>
 ```
 
-### 用例2:部分表單提交
+### 使用案例2：部分表單提交
 
-例如，您的表單在頁面上具有多個複選框。 選中任何複選框時，您希望此資料保存到後端，而不等待用戶按一下提交按鈕。
+例如，您的一個表單在頁面上有多個核取方塊。 核取任何核取方塊時，您想要將此資料儲存到後端，而不等待使用者按一下提交按鈕。
 
 ```
 <html>
@@ -193,9 +193,9 @@ lpRuntime.submitForm(formData);
 </html>
 ```
 
-### 用例3:自定義分析標籤
+### 使用案例3：自訂分析標籤
 
-使用JavaScript，您可以添加輸入欄位的偵聽器並附加自定義分析調用觸發器。
+您可以使用JavaScript新增輸入欄位的監聽器，並附加自訂分析呼叫觸發程式。
 
 ```
 <html>
@@ -226,7 +226,7 @@ lpRuntime.submitForm(formData);
 </html>
 ```
 
-### 用例4:動態窗體
+### 使用案例4：動態表單
 
 ```
 <html>

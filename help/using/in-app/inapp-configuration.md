@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 keywords: 應用程式內、訊息、設定、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '281'
 ht-degree: 11%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 11%
    * 行動核心
    * 設定檔
 
-   請參閱 [此頁面](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html#add-a-new-extension) 以取得詳細程式。
+   請參閱 [此頁面](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en#add-a-new-extension) 以取得詳細程式。
 
    ![](assets/inapp_config_5.png)
 

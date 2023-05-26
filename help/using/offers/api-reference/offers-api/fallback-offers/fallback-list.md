@@ -1,6 +1,6 @@
 ---
 title: 列出遞補優惠
-description: 如果客戶不符合其他優惠條件，則會向他們發送備用優惠
+description: 如果客戶不符合其他優惠方案的資格，系統會傳送遞補優惠方案給客戶
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,9 +15,9 @@ ht-degree: 5%
 
 # 列出遞補優惠 {#list-fallback-offers}
 
-如果客戶不符合其他優惠條件，則會向客戶發送備用優惠。 建立回退要約的步驟包括建立一個或多個表示法，如建立要約時。
+如果客戶不符合其他優惠方案的資格，系統會傳送遞補優惠方案給客戶。 建立遞補優惠方案的步驟包括建立一或多個表示，例如建立優惠方案時。
 
-通過對容器執行單個GET請求，可以查看容器內所有回退優惠的清單 [!DNL Offer Library] API。
+您可以透過對「 」執行單一GET請求，來檢視容器中所有遞補優惠方案的清單。 [!DNL Offer Library] API。
 
 **API格式**
 
@@ -27,10 +27,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 回退優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FALLBACK_OFFER}` | 定義與回退優惠關聯的架構。 | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
-| `{QUERY_PARAMS}` | 用於篩選結果的可選查詢參數。 | `limit=1` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 遞補優惠方案所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_FALLBACK_OFFER}` | 定義與遞補優惠方案關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
+| `{QUERY_PARAMS}` | 篩選結果的選用查詢引數。 | `limit=1` |
 
 **要求**
 
@@ -44,25 +44,25 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## 使用查詢參數 {#using-query-parameters}
+## 使用查詢引數 {#using-query-parameters}
 
-在列出資源時，可以使用查詢參數來頁面和篩選結果。
+列出資源時，您可以使用查詢引數來分頁和篩選結果。
 
 ### 分頁 {#paging}
 
-用於分頁的最常見的查詢參數包括：
+分頁最常見的查詢引數包括：
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `q` | 要在所選欄位中搜索的可選查詢字串。 查詢字串應為小寫，並且可以用雙引號環繞，以防止其被標籤化並轉義特殊字元。 字元 `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊含義，在出現在查詢字串中時應使用反斜線進行轉義。 | `default` |
-| `qop` | 將AND或OR運算子應用於q查詢字串參數中的值。 | `AND` / `OR` |
-| `field` | 將搜索限制為的欄位的可選清單。 此參數可以重複，如下所示：欄位=欄位1[,field=field2,...] 和（路徑表達式採用點分隔路徑的形式，如_instance.xdm:name） | `_instance.xdm:name` |
-| `orderBy` | 按特定屬性對結果排序。 添加 `-` 前標題(B)`orderby=-title`)將按標題按降序(Z-A)排序。 | `-repo:createdDate` |
-| `limit` | 限制返回的回退優惠數量。 | `limit=5` |
+| `q` | 在選取的欄位中搜尋的可選查詢字串。 查詢字串應為小寫，並可由雙引號包圍，以防止其標籤化及逸出特殊字元。 字元 `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊意義，在查詢字串中出現時應該以反斜線逸出。 | `default` |
+| `qop` | 將AND或OR運運算元套用至q查詢字串引數中的值。 | `AND` / `OR` |
+| `field` | 要限制搜尋的選用欄位清單。 此引數可以重複執行，如下所示： field=field1[，field=field2，...] 和（路徑運算式的形式為點分隔的路徑，例如_instance.xdm：name） | `_instance.xdm:name` |
+| `orderBy` | 依特定屬性排序結果。 新增 `-` 在標題之前(`orderby=-title`)會依標題以遞減順序(Z-A)排序專案。 | `-repo:createdDate` |
+| `limit` | 限制傳回的遞補優惠方案數量。 | `limit=5` |
 
 **回應**
 
-成功的響應將返回您有權訪問的容器中存在的回退優惠的清單。
+成功的回應會傳回您在有權存取的容器內存在的遞補優惠方案清單。
 
 ```json
 {

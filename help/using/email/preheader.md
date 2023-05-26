@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在Journey Optimizer添加前標
+title: 在Journey Optimizer中新增預覽文字
 description: 了解如何設計您的電子郵件內容
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 頭，編輯器，摘要，電子郵件
+keywords: 預覽文字，編輯器，摘要，電子郵件
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
@@ -39,7 +39,7 @@ ht-degree: 86%
 
    ![](assets/preheader_body.png)
 
-1. 從 **[!UICONTROL 設定]** 的子菜單。 **[!UICONTROL 前標]** 的子菜單。
+1. 從 **[!UICONTROL 設定]** 索引標籤中，按一下旁邊的個人化圖示 **[!UICONTROL Preheader]** 欄位以新增內容。
 
    ![](assets/preheader_body_settings.png)
 

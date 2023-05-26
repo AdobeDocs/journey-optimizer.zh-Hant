@@ -6,9 +6,9 @@ description: 瞭解如何使用Journey Optimizer設定您的環境以傳送推�
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 60adbc8ad4c49b9282502d26a9a9aac73693d049
+source-git-commit: 014cc551cb125ba6dc20a4f572e6cd7024d9fab5
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1587'
 ht-degree: 4%
 
 ---
@@ -119,9 +119,9 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### 將行動應用程式與Adobe Experience Platform SDK整合 {#integrate-mobile-app}
 
-Adobe Experience Platform Mobile SDK透過與Android和iOS相容的SDK，為您的行動裝置提供使用者端整合API。 追隨 [Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} 以於應用程式中設定Adobe Experience Platform Mobile SDK。
+Adobe Experience Platform Mobile SDK透過與Android和iOS相容的SDK，為您的行動裝置提供使用者端整合API。 追隨 [Adobe Experience Platform Mobile SDK檔案](https://aep-sdks.gitbook.io/docs/getting-started/overview){target="_blank"} 以於應用程式中設定Adobe Experience Platform Mobile SDK。
 
-到最後，您也應該已在以下位置建立並設定行動屬性： [!DNL Adobe Experience Platform Data Collection]. 您通常會為想要管理的每個行動應用程式建立行動屬性。 瞭解如何在中建立和設定行動屬性 [Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+到最後，您也應該已在以下位置建立並設定行動屬性： [!DNL Adobe Experience Platform Data Collection]. 您通常會為想要管理的每個行動應用程式建立行動屬性。 瞭解如何在中建立和設定行動屬性 [Adobe Experience Platform Mobile SDK檔案](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target="_blank"}.
 
 
 ## 步驟1：在Adobe Experience Platform Data Collection中新增應用程式推送認證 {#push-credentials-launch}

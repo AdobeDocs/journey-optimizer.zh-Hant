@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 文本，電子郵件，版本，純文字檔案，編輯器
+keywords: 文字，電子郵件，版本，普通，編輯器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
@@ -24,7 +24,7 @@ ht-degree: 75%
 
 如果您偏好為純文字版本使用不同的內容，請依照以下步驟操作：
 
-1. 從您的電子郵件中，選擇 **[!UICONTROL 純文字檔案]** 表徵圖
+1. 從您的電子郵件中，選取 **[!UICONTROL 純文字]** 圖示。
 
    ![](assets/text_version_3.png)
 
@@ -42,5 +42,5 @@ ht-degree: 75%
 >
 >* 在&#x200B;**[!UICONTROL 純文字]**&#x200B;檢視所做的變更不會反映在 HTML 檢視中。
 >
->* 如果重新啟用 **[!UICONTROL 與HTML同步]** 選項更新純文字檔案內容後，您所做的更改將丟失，並替換為從HTML版本生成的文本內容。
+>* 如果您重新啟用 **[!UICONTROL 與HTML同步]** 選項在更新純文字內容後，您的變更將會遺失，並以HTML版本產生的文字內容取代。
 

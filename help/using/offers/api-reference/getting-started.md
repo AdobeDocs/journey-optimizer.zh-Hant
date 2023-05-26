@@ -1,6 +1,6 @@
 ---
 title: 快速入門
-description: 瞭解如何開始使用提供庫API使用決策引擎執行關鍵操作。
+description: 瞭解如何開始使用Offer Library API，使用決策引擎執行關鍵操作。
 feature: Offers
 topic: Integrations
 role: User
@@ -13,46 +13,46 @@ ht-degree: 6%
 
 ---
 
-# 決策管理API開發人員指南 {#decision-management-api-developer-guide}
+# Decision Management API開發人員指南 {#decision-management-api-developer-guide}
 
-本開發人員指南提供了幫助您開始使用 [!DNL Offer Library] API。 然後，指南提供了使用決策引擎執行鍵操作的示例API調用。
+本開發人員指南提供步驟，協助您開始使用 [!DNL Offer Library] API。 接著，指南會提供範例API呼叫，以利使用決策引擎執行關鍵作業。
 
-➡️ [瞭解有關此視頻中決策管理元件的更多資訊](#video)
+➡️ [在本影片中進一步了解決定管理的元件](#video)
 
 ## 先決條件 {#prerequisites}
 
-本指南要求對Adobe Experience Platform的下列組成部分有工作上的理解：
+本指南需要您實際瞭解下列Adobe Experience Platform元件：
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}:標準化框架 [!DNL Experience Platform] 組織客戶體驗資料。
-   * [架構組合的基礎](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant){target="_blank"}:瞭解XDM架構的基本構建塊。
-* [決策管理](../../../using/offers/get-started/starting-offer-decisioning.md):說明一般經驗決策（尤其是決策管理）使用的概念和元件。 說明了在客戶體驗期間用於選擇最佳選擇的策略。
-* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target="_blank"}:PQL是一種功能強大的語言，可在XDM實例上編寫表達式。 PQL用於定義決策規則。
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}：作為依據的標準化架構 [!DNL Experience Platform] 組織客戶體驗資料。
+   * [結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant){target="_blank"}：瞭解XDM結構描述的基本建置組塊。
+* [決定管理](../../../using/offers/get-started/starting-offer-decisioning.md)：說明用於一般體驗決策，尤其是決策管理的概念和元件。 說明用於選擇在客戶體驗期間呈現的最佳選項的策略。
+* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target="_blank"}： PQL是一種強大的語言，可透過XDM執行個體寫入運算式。 PQL可用來定義決定規則。
 
-## 讀取示例API調用 {#reading-sample-api-calls}
+## 讀取範例API呼叫 {#reading-sample-api-calls}
 
-本指南提供了示例API調用，以演示如何格式化請求。 這些包括路徑、必需的標頭和正確格式化的請求負載。 還提供了API響應中返回的示例JSON。 有關示例API調用文檔中使用的約定的資訊，請參見上的 [如何讀取示例API調用](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target="_blank"} 的 [!DNL Experience Platform] 疑難解答指南。
+本指南提供範例API呼叫，示範如何格式化您的請求。 這些包括路徑、必要的標頭，以及正確格式化的請求裝載。 此外，也提供API回應中傳回的範例JSON。 如需檔案中用於範例API呼叫的慣例相關資訊，請參閱以下章節： [如何讀取範例API呼叫](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target="_blank"} 在 [!DNL Experience Platform] 疑難排解指南。
 
-## 收集所需標題的值 {#gather-values-for-required-headers}
+## 收集必要標題的值 {#gather-values-for-required-headers}
 
-為了呼叫 [!DNL Adobe Experience Platform] API，必須首先完成 [驗證教程](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"}。 完成身份驗證教程將提供所有中每個必需標頭的值 [!DNL Experience Platform] API調用，如下所示：
+為了呼叫 [!DNL Adobe Experience Platform] API，您必須先完成 [驗證教學課程](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"}. 完成驗證教學課程後，會在所有標題中提供每個必要標題的值 [!DNL Experience Platform] API呼叫，如下所示：
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
 * `x-gw-ims-org-id: {IMS_ORG}`
 
-包含負載(POST、PUT、PATCH)的所有請求都需要附加的標頭：
+包含裝載(POST、PUT、PATCH)的所有請求都需要額外的標頭：
 
 * `Content-Type: application/json`
 
-## 管理對容器的訪問 {#manage-access-to-container}
+## 管理對容器的存取 {#manage-access-to-container}
 
-容器是一種隔離機構，用於將不同的問題分開。 容器ID是所有儲存庫API的第一個路徑元素。 所有決策對象都駐留在容器中。
+容器是一種隔離機制，可將不同的關注點分開。 容器ID是所有存放庫API的第一個路徑元素。 所有決策物件都位於容器內。
 
-管理員可以將類似的承擔者、資源和訪問權限分組到配置式中。 這減輕了管理負擔，並受 [Adobe Admin Console](https://adminconsole.adobe.com/)。 您必須是組織中Adobe Experience Platform的產品管理員才能建立配置檔案並為其分配用戶。 只需在一次性步驟中建立與某些權限相匹配的產品配置檔案，然後將用戶添加到這些配置檔案即可。 配置檔案充當已授予權限的組，該組中的每個實際用戶或技術用戶都繼承這些權限。
+管理員可以將類似的主體、資源和存取許可權分組到設定檔中。 這能減輕管理負擔，並由 [Adobe Admin Console](https://adminconsole.adobe.com/). 您必須是組織中Adobe Experience Platform的產品管理員，才能建立設定檔並將使用者指派給設定檔。 只要在一次性步驟中建立符合特定許可權的產品設定檔，然後只需將使用者新增到這些設定檔就足夠了。 設定檔會作為已授與許可權的群組，而該群組中的每個實際使用者或技術使用者都會繼承這些許可權。
 
-給定管理員權限，您可以通過 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}. For more information, see the [Access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant){target="_blank"}。
+授予管理員許可權，您可以透過授予或撤銷使用者許可權 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}. For more information, see the [Access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant){target="_blank"}.
 
-### 列出可供用戶和整合訪問的容器 {#list-containers-accessible-to-users-and-integrations}
+### 使用者和整合功能可存取的清單容器 {#list-containers-accessible-to-users-and-integrations}
 
 **API格式**
 
@@ -62,9 +62,9 @@ GET /{ENDPOINT_PATH}?product={PRODUCT_CONTEXT}&property={PROPERTY}==decisioning
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{PRODUCT_CONTEXT}` | 按容器與產品上下文的關聯篩選容器清單。 | `acp` |
-| `{PROPERTY}` | 篩選返回的容器類型。 | `_instance.containerType==decisioning` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{PRODUCT_CONTEXT}` | 依照容器與產品前後關聯的關聯來篩選容器清單。 | `acp` |
+| `{PROPERTY}` | 篩選傳回的容器型別。 | `_instance.containerType==decisioning` |
 
 **要求**
 
@@ -79,7 +79,7 @@ curl -X GET \
 
 **回應**
 
-成功的響應返回有關決策管理容器的資訊。 這包括 `instanceId` 屬性，其值為容器ID。
+成功的回應會傳回與決策管理容器相關的資訊。 這包括 `instanceId` 屬性，其值是您的容器ID。
 
 ```json
 {
@@ -126,7 +126,7 @@ curl -X GET \
 
 ## 後續步驟 {#next-steps}
 
-本文檔涵蓋了呼叫 [!DNL Offer Library] API，包括獲取容器ID。 現在，您可以繼續閱讀本開發人員指南中提供的示例調用，並按照其說明進行操作。
+本檔案說明呼叫「 」所需的必要條件知識。 [!DNL Offer Library] API，包括取得您的容器ID。 您現在可以繼續本開發人員指南中提供的範例呼叫，並依照其指示操作。
 <!--
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ curl -X GET \
 
 ## 操作說明影片 {#video}
 
-以下視頻旨在支援您對「決策管理」元件的瞭解。
+以下影片旨在協助您了解決定管理的元件。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
 

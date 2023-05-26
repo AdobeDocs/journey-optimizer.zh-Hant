@@ -1,6 +1,6 @@
 ---
 title: 建立網站體驗
-description: 瞭解如何在Journey Optimizer建立網頁並編輯其內容
+description: 瞭解如何在Journey Optimizer中編寫網頁及編輯其內容
 feature: Web Channel
 topic: Content Management
 role: User
@@ -15,13 +15,13 @@ ht-degree: 20%
 
 # 建立網站體驗 {#create-web}
 
-[!DNL Journey Optimizer] 允許您通過入站Web活動個性化您向客戶提供的Web體驗。
+[!DNL Journey Optimizer] 可讓您透過傳入的網頁行銷活動，個人化您提供給客戶的網頁體驗。
 
 >[!CAUTION]
 >
 >目前在 [!DNL Journey Optimizer]，您只能使用&#x200B;**行銷活動**&#x200B;建立網路體驗。
 
-[瞭解如何在此視頻中建立Web活動](#video)
+[透過此影片瞭解如何建立網路行銷活動](#video)
 
 ## 建立網路行銷活動 {#create-web-campaign}
 
@@ -35,7 +35,7 @@ ht-degree: 20%
 >title="建置頁面符合規則"
 >abstract="頁面符合規則可以找出符合相同規則的多個 URL - 例如，如果您想要將變更套用到整個網站的主要橫幅，或新增顯示在網站所有產品頁面的頂端影像。"
 
-要通過活動開始構建您的Web體驗，請執行以下步驟。
+若要透過行銷活動開始建立您的Web體驗，請遵循下列步驟。
 
 >[!NOTE]
 >
@@ -43,90 +43,90 @@ ht-degree: 20%
 
 1. 建立行銷活動. [了解更多](../campaigns/create-campaign.md)
 
-1. 選擇 **[!UICONTROL Web]** 操作。
+1. 選取 **[!UICONTROL Web]** 動作。
 
 1. 定義網路表面.
 
    >[!NOTE]
    >
-   >Web曲面是由內容將在其中傳遞的URL標識的Web屬性。 它可以匹配單頁URL或多頁，允許您跨一個或多個網頁進行修改。
+   >Web介面是由要傳送內容的URL所識別的Web屬性。 它可以比對單一頁面URL或多個頁面，讓您在一或多個網頁之間傳送修改。
 
-   您可以輸入 **[!UICONTROL 頁面URL]** 的子菜單。
+   您可以輸入 **[!UICONTROL 頁面URL]** 如果您只想將變更套用至單一頁面。
 
    ![](assets/web-campaign-surface.png)
 
-1. 或者你可以 **[!UICONTROL 頁面匹配規則]** 以針對匹配同一規則的多個URL，例如，如果要將更改應用於整個網站的英雄橫幅，或添加顯示在網站所有產品頁面上的頂部影像。
+1. 或者，您也可以建置 **[!UICONTROL 頁面比對規則]** 將多個符合相同規則的URL設為目標 — 例如，如果您想要將變更套用至整個網站的主圖橫幅，或新增顯示在網站所有產品頁面上的上層影像。
 
-   要執行此操作，請選擇 **[!UICONTROL 頁面匹配規則]** 按一下 **[!UICONTROL 建立規則]**。
+   若要這麼做，請選取 **[!UICONTROL 頁面比對規則]** 並按一下 **[!UICONTROL 建立規則]**.
 
    ![](assets/web-campaign-matching-rule.png)
 
-1. 為 **[!UICONTROL 域]** 和 **[!UICONTROL 頁面]** 的子菜單。
+1. 為以下專案定義條件： **[!UICONTROL 網域]** 和 **[!UICONTROL 頁面]** 欄位。
 
-   例如，如果要編輯Luma網站所有女性產品頁面上顯示的元素，請選擇 **[!UICONTROL 域]** > **[!UICONTROL 開始於]** > `luma` 和 **[!UICONTROL 頁面]** > **[!UICONTROL 包含]** > `women`。
+   例如，如果您想要編輯顯示在Luma網站所有女性產品頁面上的元素，請選取「 」 **[!UICONTROL 網域]** > **[!UICONTROL 開頭為]** > `luma` 和 **[!UICONTROL 頁面]** > **[!UICONTROL 包含]** > `women`.
 
    ![](assets/web-pages-matching-rule.png)
 
-1. 儲存您的變更。規則顯示在 **[!UICONTROL 建立市場活動]** 的上界。
+1. 儲存您的變更。此規則會顯示在 **[!UICONTROL 建立行銷活動]** 畫面。
 
    ![](assets/web-pages-matching-rule-example.png)
 
-1. 定義網格曲面後，選取 **[!UICONTROL 建立]**。
+1. 定義網頁表面後，選取 **[!UICONTROL 建立]**.
 
-1. 完成建立Web市場活動的步驟，如市場活動屬性、 [觀眾](../segment/about-segments.md), [計畫](../campaigns/create-campaign.md#schedule)。
+1. 完成步驟以建立網站行銷活動，例如行銷活動屬性、 [對象](../segment/about-segments.md)、和 [排程](../campaigns/create-campaign.md#schedule).
 
    ![](assets/web-campaign-steps.png)
 
-有關如何配置市場活動的詳細資訊，請參閱 [此頁](../campaigns/get-started-with-campaigns.md)。
+有關如何設定行銷活動的詳細資訊，請參閱 [此頁面](../campaigns/get-started-with-campaigns.md).
 
-## 激活Web市場活動 {#activate-web-campaign}
+## 啟動網站行銷活動 {#activate-web-campaign}
 
-一旦你定義了 [Web活動設定](#configure-web-campaign) 並根據需要使用 [web設計器](author-web.md)，您可以複查並激活您的Web活動。 按照以下步驟操作。
+定義您的 [網站行銷活動設定](#configure-web-campaign) 而且您已視需要使用 [網頁設計工具](author-web.md)，即可檢閱及啟用您的網站行銷活動。 請遵循下列步驟。
 
 >[!NOTE]
 >
->您還可以在激活Web促銷活動內容之前預覽它。 [了解更多](author-web.md#test-web-campaign)
+>您也可以在啟用網站行銷活動內容之前先預覽該內容。 [了解更多](author-web.md#test-web-campaign)
 
-1. 從Web市場活動中，選擇 **[!UICONTROL 複查以激活]**。
+1. 從您的網路行銷活動中，選取 **[!UICONTROL 檢閱以啟動]**.
 
-1. 如果需要，請檢查並編輯內容、屬性、表面、受眾和時間表。
+1. 視需要檢查並編輯內容、屬性、表面、對象和排程。
 
-1. 選擇 **[!UICONTROL 激活]**。
+1. 選取 **[!UICONTROL 啟動]**.
 
    ![](assets/web-campaign-activate.png)
 
    >[!NOTE]
    >
-   >按一下後 **[!UICONTROL 激活]**，網站上的網站活動更改最多需要15分鐘。
+   >在您按一下 **[!UICONTROL 啟動]**，網站行銷活動變更最多可能需要15分鐘才能即時上線。
 
-您的Web活動將 **[!UICONTROL 實況]** 狀態，現在對選定的受眾可見。 您活動的每個收件人都可以使用 [!DNL Journey Optimizer] web設計器。
+您的網路行銷活動會取得 **[!UICONTROL 即時]** 狀態，且現在對選取的對象可見。 行銷活動的每位收件者都能使用，檢視您新增至網站的修改 [!DNL Journey Optimizer] 網頁設計工具。
 
 >[!NOTE]
 >
->如果為Web促銷活動定義了計畫，則 **[!UICONTROL 計畫]** 直到達到開始日期和時間。
+>如果您為網頁行銷活動定義了排程，則它會 **[!UICONTROL 已排程]** 狀態直到達到開始日期和時間。
 >
->如果激活一個與另一個已進行的市場活動影響相同頁面的Web市場活動，則所有更改都將應用於您的網頁。
+>如果您啟用的網路行銷活動會影響與另一個已上線的行銷活動相同的頁面，則所有變更將會套用至您的網頁。
 
-瞭解有關在中激活市場活動的更多資訊 [此部分](../campaigns/review-activate-campaign.md)。
+進一步瞭解如何在中啟用行銷活動 [本節](../campaigns/review-activate-campaign.md).
 
-## 停止Web活動 {#stop-web-campaign}
+## 停止網站行銷活動 {#stop-web-campaign}
 
-當Web活動正在進行時，您可以停止它以防止觀眾看到您的修改。 按照以下步驟操作。
+當網站行銷活動上線時，您可以停止它以防止您的對象看到您的修改。 請遵循下列步驟。
 
-1. 從清單中選擇即時市場活動。
+1. 從清單中選取即時行銷活動。
 
-1. 從頂部菜單中，選擇 **[!UICONTROL 停止市場活動]**。
+1. 從頂端選單中選取 **[!UICONTROL 停止行銷活動]**.
 
    ![](assets/web-campaign-stop.png)
 
-1. 您添加的修改將不再對您定義的受眾可見。
+1. 您所定義的對象將無法再看見您新增的修改。
 
 >[!NOTE]
 >
->停止Web市場活動後，您將不能再編輯或激活它。 您只能複製並激活複製的市場活動。
+>網站行銷活動停止後，您就無法再編輯或啟動它。 您只能複製並啟動複製的促銷活動。
 
 ## 操作說明影片{#video}
 
-以下視頻顯示如何建立Web市場活動、配置其屬性、查看和發佈。
+以下影片說明如何建立網站行銷活動、設定其屬性、檢閱並發佈。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

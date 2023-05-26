@@ -1,6 +1,6 @@
 ---
 title: 建立集合限定詞
-description: 收集限定詞使您能夠更好地組織和排序您的優惠。
+description: 集合限定詞可讓您更妥善地組織和排序優惠方案。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,13 +15,13 @@ ht-degree: 11%
 
 # 建立集合限定詞 {#create-tag}
 
-您可以通過向Oracle Server發出POST請求來建立收集限定符（以前稱為「標籤」） [!DNL Offer Library] API，同時提供容器ID。
+您可以透過向以下專案發出POST要求，以建立集合限定詞（先前稱為「標籤」）： [!DNL Offer Library] API，同時提供容器ID。
 
-## 接受和內容類型標題 {#accept-and-content-type-headers}
+## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示了組成 *內容類型* 和 *接受* 請求標題中的欄位：
+下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
 
-| 標題名稱 | 值 |
+| 標頭名稱 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
@@ -34,8 +34,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 集合限定符所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 集合限定詞所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **要求**
 
@@ -55,7 +55,7 @@ curl -X POST \
 
 **回應**
 
-成功的響應返回有關新建立的收集限定符的資訊，包括其唯一實例ID和位置 `@id`。 您可以在後續步驟中使用實例ID來更新或刪除收集限定符。 您可以使用唯一的收集限定符 `@id` 以建立收藏和個性化服務。
+成功的回應會傳回新建立的集合辨識符號的相關資訊，包括其唯一的執行個體ID和位置 `@id`. 您可以在稍後的步驟中使用執行個體ID來更新或刪除您的集合限定詞。 您可以使用唯一的集合限定詞 `@id` 在稍後的教學課程中建立集合和個人化優惠。
 
 ```json
 {

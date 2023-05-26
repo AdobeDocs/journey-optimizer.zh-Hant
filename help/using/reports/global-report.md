@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 全域報告
-description: 瞭解如何使用全局報告中的資料
+description: 瞭解如何使用全域報告中的資料
 feature: Reporting
 topic: Content Management
 role: User
@@ -15,75 +15,75 @@ ht-degree: 0%
 
 ---
 
-# 全局報告入門 {#global-report}
+# 開始使用全域報告 {#global-report}
 
 >[!NOTE]
 >
-> 如果在使用查詢服務時通過API進行自定義查詢，請期望報告出現延遲。
+> 如果在使用查詢服務時透過API進行自訂查詢，預計報告會有一些延遲。
 
-使用 **[!UICONTROL 全局報告]** 以測量所選時段內的行程和交貨的影響。
+使用 **[!UICONTROL 全域報告]** 測量選定時段內您的歷程和傳送的影響。
 
-* 如果要在行程上下文中確定行程或交貨，請從 **[!UICONTROL 旅程]** 菜單，訪問您的旅程，然後按一下 **[!UICONTROL 查看報表]** 按鈕 然後，您可以找到「旅程」、「電子郵件」、「簡訊」和「推送」全局報告。
+* 如果您想要在歷程內容中定位歷程或傳送，請從 **[!UICONTROL 歷程]** 選單，存取您的歷程並按一下 **[!UICONTROL 檢視報告]** 按鈕。 然後您可以找到歷程、電子郵件、簡訊和推播全域報告。
 
    ![](assets/report_journey.png)
 
-* 如果要針對市場活動，請 **[!UICONTROL 市場活動]** 菜單，訪問您的市場活動，然後按一下 **[!UICONTROL 報告]** 按鈕
+* 若要鎖定行銷活動，請從 **[!UICONTROL 行銷活動]** 功能表，存取您的行銷活動，然後按一下 **[!UICONTROL 報表]** 按鈕。
 
    ![](assets/report_campaign.png)
 
-* 如果要從 **[!UICONTROL 即時報告]** 到 **[!UICONTROL 全局報告]** 對於您的交貨，按一下 **[!UICONTROL 所有時間]** 按鈕。
+* 如果您想從 **[!UICONTROL 即時報告]** 至 **[!UICONTROL 全域報告]** 針對您的傳遞，按一下 **[!UICONTROL 所有時間]** 標籤切換器。
 
    ![](assets/report_5.png)
 
-有關Adobe Journey Optimizer可用的每個指標的詳細清單，請參閱 [此頁](#list-of-components-global)
+如需Adobe Journey Optimizer中可用每個量度的詳細清單，請參閱 [此頁面](#list-of-components-global)
 
-## 自定義儀表板 {#modify-dashboard}
+## 自訂儀表板 {#modify-dashboard}
 
-可以通過更改時間段和調整小部件大小或刪除小部件來修改每個報告儀表板。 更改小部件僅影響當前用戶的儀表板。 其他用戶將看到自己的儀表板或預設設定的儀表板。
+每個報告儀表板都可透過變更時段、調整大小或移除Widget來修改。 變更Widget只會影響目前使用者的儀表板。 其他使用者將看到他們自己的儀表板或預設設定的儀表板。
 
-1. 從「全局」報告中，選擇「開始」和「結束時間」以針對特定資料。
+1. 從全域報表中，選取以特定資料為目標的「開始」和「結束」時間。
 
    ![](assets/report_modify_1.png)
 
-1. 選擇是否要使用切換欄從報表中排除test事件。 有關test事件的詳細資訊，請參閱 [此頁](../building-journeys/testing-the-journey.md)。
+1. 選擇是否要使用切換列從報告中排除測試事件。 如需測試事件的詳細資訊，請參閱 [此頁面](../building-journeys/testing-the-journey.md).
 
-   請注意 **[!UICONTROL 排除test事件]** 選項僅可用於行程報告。
+   請注意 **[!UICONTROL 排除測試事件]** 選項僅適用於歷程報告。
 
    ![](assets/report_modify_2.png)
 
-1. 按一下 **[!UICONTROL 修改]** 開始自定義儀表板。
+1. 按一下 **[!UICONTROL 修改]** 以開始自訂您的儀表板。
 
    ![](assets/report_modify_3.png)
 
-1. 通過拖動小部件的右下角來調整小部件大小。
+1. 拖曳Widget的右下角，調整其大小。
 
    ![](assets/report_modify_4.png)
 
-1. 按一下 **[!UICONTROL 刪除]** 刪除任何不需要的小部件。
+1. 按一下 **[!UICONTROL 移除]** 以移除您不需要的任何Widget。
 
    ![](assets/report_modify_5.png)
 
-1. 對顯示順序和小部件大小感到滿意後，按一下 **[!UICONTROL 保存]**。
+1. 在您滿意顯示順序和Widget大小後，請按一下 **[!UICONTROL 儲存]**.
 
-1. 要自定義資料的顯示方式，可以從不同的可視化選項（如圖形、表和圓形圖表）進行切換。
+1. 若要自訂資料的顯示方式，您可以切換不同的視覺效果選項，例如圖形、表格和環圈圖。
 
    ![](assets/report_modify_10.png)
 
-您的儀表板現在已保存。 將重新應用您的不同更改，以便以後使用您的即時報告。 如果需要，請使用 **[!UICONTROL 重置]** 選項以恢復預設小部件和小部件的順序。
+您的儀表板現在已儲存。 您的不同變更將會重新套用，以供稍後使用您的即時報告。 如有需要，請使用 **[!UICONTROL 重設]** 恢復預設Widget和Widget順序的選項。
 
-## 導出報告 {#export-reports}
+## 匯出您的報告 {#export-reports}
 
-您可以輕鬆將不同的報告導出為PDF格式，從而共用或打印它們。
+您可以輕鬆地將不同的報表匯出為PDF格式，以便共用或列印。
 
-1. 在報告中，按一下 **[!UICONTROL 導出]**。
+1. 在報表中，按一下 **[!UICONTROL 匯出]**.
 
    ![](assets/export_1.png)
 
-1. 在「打印」窗口中，根據需要配置文檔。 請注意，選項可能因瀏覽器而異。
+1. 在「列印」視窗中，視需要設定檔案。 請注意，選項可能會因您的瀏覽器而異。
 
-1. 選擇打印或將報表另存為PDF。
+1. 選擇將報表列印或儲存為PDF。
 
-1. 找到要保存檔案的資料夾，根據需要更名該檔案，然後按一下「保存」。
+1. 找到您要儲存檔案的資料夾，視需要重新命名，然後按一下「儲存」。
 
-您的報告現在可以查看或共用PDF檔案。
+您的報告現在可以在pdf檔案中檢視或共用。
 

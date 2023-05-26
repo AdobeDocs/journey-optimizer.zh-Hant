@@ -1,6 +1,6 @@
 ---
-title: 刪除決策規則
-description: 決策規則是添加到個性化優惠中的約束，並應用到配置檔案以確定資格。
+title: 刪除決定規則
+description: 決定規則是新增至個人化優惠的限制，並套用至設定檔以判斷適用性。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 刪除決定規則 {#delete-decision-rule}
 
-有時可能需要刪除(DELETE)決策規則。 只能刪除您在租戶容器中建立的決策規則。 這是通過對執行DELETE請求 [!DNL Offer Library] API使用要刪除的決策規則的實例ID。
+有時可能必須移除(DELETE)決定規則。 只能刪除您在租使用者容器中建立的決定規則。 這是透過對「 」執行DELETE請求來完成 [!DNL Offer Library] API使用您要刪除之決定規則的例項ID。
 
 **API格式**
 
@@ -25,9 +25,9 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 決策規則所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 要更新的決策規則的實例ID。 | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
+| `{INSTANCE_ID}` | 您要更新的決定規則的例項ID。 | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
 
 **要求**
 
@@ -43,6 +43,6 @@ curl -X DELETE \
 
 **回應**
 
-成功的響應返回HTTP狀態202（無內容）和空白正文。
+成功的回應會傳回HTTP狀態202 （無內容）和空白內文。
 
-您可以通過嘗試查找(GET)決策規則來確認刪除。 您需要在請求中包括「接受」標頭，但應接收HTTP狀態404（未找到），因為已從容器中刪除了決策規則。
+您可以嘗試向決定規則查詢(GET)請求以確認刪除。 您需要在請求中加入Accept標頭，但應該會收到HTTP狀態404 （找不到），因為決定規則已從容器中移除。

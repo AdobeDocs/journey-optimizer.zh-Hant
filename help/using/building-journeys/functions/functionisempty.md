@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: isEmpty
-description: 瞭解函式為Empty
+description: 瞭解函式isEmpty
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: 是空的，函式，表達式，旅程
+keywords: isEmpty，函式，運算式，歷程
 exl-id: f5347f59-7197-4d6c-af88-13b724c0af87
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 17%
 
 # isEmpty {#isEmpty}
 
-如果參數中的字串沒有字元，則返回true。
+如果引數中的字串沒有字元，則傳回true。
 
 ## 類別
 
@@ -30,18 +30,18 @@ ht-degree: 17%
 
 * 字串
 
-## 簽名和返回的類型
+## 簽章和傳回的型別
 
 `isEmpty(<string>)`
 
-返回布爾值。
+傳回布林值。
 
 ## 範例
 
 `isEmpty("")`
 
-返回true。
+傳回true。
 
 `isEmpty("Hello World")`
 
-返回false。
+傳回false。

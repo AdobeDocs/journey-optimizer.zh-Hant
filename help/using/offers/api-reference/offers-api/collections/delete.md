@@ -1,6 +1,6 @@
 ---
 title: 刪除集合
-description: 集合是基於由商家定義的預定義條件（例如要約的類別）的要約的子集。
+description: 集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 刪除集合 {#delete-collection}
 
-有時可能需要刪除(DELETE)集合。 只能刪除您在租戶容器中建立的集合。 這是通過對執行DELETE請求 [!DNL Offer Library] 使用要刪除的集合的$id的API。
+有時可能必須移除(DELETE)集合。 只能刪除您在租使用者容器中建立的集合。 這是透過對「 」執行DELETE請求來完成 [!DNL Offer Library] API使用您要刪除之集合的$id。
 
 **API格式**
 
@@ -25,9 +25,9 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 集合所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 要更新的集合的實例ID。 | `0bf31c20-13f1-11eb-a752-e58fd7dc4cb3` |
+| `{INSTANCE_ID}` | 您要更新之集合的執行個體ID。 | `0bf31c20-13f1-11eb-a752-e58fd7dc4cb3` |
 
 **要求**
 
@@ -43,6 +43,6 @@ curl -X DELETE \
 
 **回應**
 
-成功的響應返回HTTP狀態202（無內容）和空白正文。
+成功的回應會傳回HTTP狀態202 （無內容）和空白內文。
 
-您可以通過嘗試對集合進行查找(GET)請求來確認刪除。 您需要在請求中包含「接受」標頭，但應接收HTTP狀態404（未找到），因為集合已從容器中刪除。
+您可以嘗試對集合進行查詢(GET)請求以確認刪除。 您需要在請求中包含Accept標頭，但應該會收到HTTP狀態404 （找不到），因為集合已從容器中移除。

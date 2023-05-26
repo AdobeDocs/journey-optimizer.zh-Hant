@@ -1,6 +1,6 @@
 ---
 title: 建立遞補優惠
-description: 如果客戶不符合其他優惠條件，則會向他們發送備用優惠
+description: 如果客戶不符合其他優惠方案的資格，系統會傳送遞補優惠方案給客戶
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,13 +15,13 @@ ht-degree: 11%
 
 # 建立遞補優惠 {#create-fallback-offer}
 
-您可以通過向以下站點發出POST請求來建立回退優惠 [!DNL Offer Library] API，同時提供容器ID。
+您可以透過向以下網站發出POST請求來建立遞補優惠： [!DNL Offer Library] API，同時提供容器ID。
 
-## 接受和內容類型標題 {#accept-and-content-type-headers}
+## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示了組成 *內容類型* 和 *接受* 請求標題中的欄位：
+下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
 
-| 標題名稱 | 值 |
+| 標頭名稱 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
@@ -34,8 +34,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 回退優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 遞補優惠方案所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **要求**
 
@@ -71,7 +71,7 @@ curl -X POST \
 
 **回應**
 
-成功的響應返回有關新建立的回退優惠的資訊，包括其唯一實例ID和位置 `@id`。 您可以在後續步驟中使用實例ID來更新或刪除備用優惠。 您可以使用您唯一的備用優惠 `@id` 以建立決策。
+成功的回應會傳回新建立的遞補優惠的相關資訊，包括其唯一的執行個體ID和位置 `@id`. 您可在後續步驟中使用執行個體ID來更新或刪除您的遞補優惠。 您可以使用獨特的遞補優惠 `@id` 在稍後的教學課程中建立決定。
 
 
 ```json

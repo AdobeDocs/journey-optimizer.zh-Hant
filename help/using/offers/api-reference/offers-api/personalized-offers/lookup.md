@@ -1,6 +1,6 @@
 ---
-title: 查找個性化服務
-description: 個性化服務是基於資格規則和約束的可定製營銷資訊。
+title: 查詢個人化優惠
+description: 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -13,11 +13,11 @@ ht-degree: 2%
 
 ---
 
-# 查找個性化服務 {#look-up-personalized-offer}
+# 查詢個人化優惠 {#look-up-personalized-offer}
 
-個性化服務是基於資格規則和約束的可定製營銷資訊。
+個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 
-您可以通過向以下站點發出GET請求來查找特定的個性化服務 [!DNL Offer Library] 包括個性化服務的API `@id` 或請求路徑中個性化服務的名稱。
+您可以透過向以下網站發出GET請求，查詢特定的個人化優惠方案： [!DNL Offer Library] 包含個人化優惠的API `@id` 或請求路徑中個人化優惠的名稱。
 
 **API格式**
 
@@ -27,11 +27,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 個性化優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_PERSONALIZED_OFFER}` | 定義與個性化優惠關聯的架構。 | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
-| `id` | 用於匹配 `@id` 屬性。 字串完全匹配。 參數&quot;id&quot;和&quot;name&quot;不能一起使用。 | `xcore:personalized-offer:124cc332095cfa74` |
-| `name` | 用於匹配實體的xdm:name屬性的字串。 字串與大寫完全匹配，但可以使用通配符。 參數 `id` 和 `name` 不能一起使用 | `Discount offer` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 個人化優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_PERSONALIZED_OFFER}` | 定義與個人化優惠相關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
+| `id` | 用於比對 `@id` 個實體的屬性。 字串完全相符。 引數&quot;id&quot;和&quot;name&quot;不能一起使用。 | `xcore:personalized-offer:124cc332095cfa74` |
+| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全符合，但可使用萬用字元。 引數 `id` 和 `name` 不能一起使用 | `Discount offer` |
 
 **要求**
 
@@ -47,7 +47,7 @@ curl -X GET \
 
 **回應**
 
-成功的響應將返回放置的詳細資訊，包括有關容器ID、實例ID和唯一個性化優惠的資訊 `@id`。
+成功的回應會傳回位置的詳細資訊，包括容器ID、執行個體ID和獨特個人化優惠的相關資訊 `@id`.
 
 ```json
 {

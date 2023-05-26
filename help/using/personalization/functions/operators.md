@@ -1,6 +1,6 @@
 ---
-title: 運算子函式館
-description: 運算子函式館
+title: 運運算元函式庫
+description: 運運算元函式庫
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -15,13 +15,13 @@ ht-degree: 11%
 
 # 操作者 {#operators}
 
-## 布爾函式 {#boolean-functions}
+## 布林函式 {#boolean-functions}
 
-布爾函式用於對不同的元素執行布爾邏輯。
+布林值函式可用來在不同的元素上執行布林值邏輯。
 
 ### 和{#and}
 
-的 `and` 函式用於建立邏輯連接。
+此 `and` 函式用來建立邏輯結合。
 
 **語法**
 
@@ -31,7 +31,7 @@ ht-degree: 11%
 
 **範例**
 
-這次行動將把所有在法國和1985年出生的人送回本國。
+下列作業將傳回原籍國為France及1985年出生年份的所有人。
 
 ```sql
 {%= profile.homeAddress.country = "France" and profile.person.birthYear = 1985 %}
@@ -39,7 +39,7 @@ ht-degree: 11%
 
 ### 或{#or}
 
-的 `or` 函式用於建立邏輯斷開。
+此 `or` 函式用來建立邏輯分離。
 
 **語法**
 
@@ -49,7 +49,7 @@ ht-degree: 11%
 
 **範例**
 
-以下行動將返回所有在法國或1985年出生的人。
+下列作業將傳回原籍國為法國或1985年出生年份的所有人。
 
 ```sql
 {%= profile.homeAddress.country = "France" or profile.person.birthYear = 1985 %}
@@ -78,11 +78,11 @@ not (homeAddress.countryISO = "CA")
 
 ## 比較函式 {#comparison-functions}
 
-比較函式用於比較不同的表達式和值，從而返回true或false。
+比較函式可用來比較不同運算式和值之間的差異，並相應地傳回true或false。
 
 ### 等於{#equals}
 
-的 `=` （等於）函式檢查一個值或表達式是否等於另一個值或表達式。
+此 `=` （等於）函式檢查一個值或運算式是否等於另一個值或運算式。
 
 **語法**
 
@@ -92,7 +92,7 @@ not (homeAddress.countryISO = "CA")
 
 **範例**
 
-以下操作將檢查家庭地址國家是否為法國。
+下列作業會檢查住家地址（國家）是否為法國。
 
 ```sql
 {%= profile.homeAddress.country = "France" %}
@@ -100,7 +100,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 不等於{#notequal}
 
-的 `!=` （不相等）函式檢查一個值或表達式 **不** 等於另一個值或表達式。
+此 `!=` （不等於）函式檢查一個值或運算式是否為 **not** 等於另一個值或運算式。
 
 **語法**
 
@@ -110,7 +110,7 @@ not (homeAddress.countryISO = "CA")
 
 **範例**
 
-以下操作將檢查家庭地址國家（地區）是否不是法國。
+下列作業會檢查住家地址國家/地區是否不是法國。
 
 ```sql
 {%= profile.homeAddress.country != "France" %}
@@ -118,7 +118,7 @@ not (homeAddress.countryISO = "CA")
 
 ### Greater than{#greaterthan}
 
-的 `>` （大於）函式用於檢查第一值是否大於第二值。
+此 `>` （大於）函式來檢查第一個值是否大於第二個值。
 
 **語法**
 
@@ -128,7 +128,7 @@ not (homeAddress.countryISO = "CA")
 
 **範例**
 
-下面的操作對1970年後出生的人進行了嚴格的定義。
+下列作業會嚴格定義1970年後出生的人。
 
 ```sql
 {%= profile.person.birthYear > 1970 %}
@@ -136,7 +136,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 大於或等於{#greaterthanorequal}
 
-的 `>=` （大於或等於）函式用於檢查第一值是否大於或等於第二值。
+此 `>=` （大於或等於）函式來檢查第一個值是否大於或等於第二個值。
 
 **語法**
 
@@ -146,7 +146,7 @@ not (homeAddress.countryISO = "CA")
 
 **範例**
 
-以下操作定義1970年或之後出生的人。
+下列作業定義1970年或之後出生的人。
 
 ```sql
 {%= profile.person.birthYear >= 1970 %}
@@ -154,7 +154,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 少於{#lessthan}
 
-的 `<` （小於）比較函式用於檢查第一值是否小於第二值。
+此 `<` （小於）比較函式用於檢查第一個值是否小於第二個值。
 
 **語法**
 
@@ -164,7 +164,7 @@ not (homeAddress.countryISO = "CA")
 
 **範例**
 
-以下操作定義2000年以前出生的人。
+下列作業定義2000年以前出生的人。
 
 ```sql
 {%= profile.person.birthYear < 2000 %}
@@ -172,7 +172,7 @@ not (homeAddress.countryISO = "CA")
 
 ### Less than or equal to{#lessthanorequal}
 
-的 `<=` 比較函式用於檢查第一值是否小於或等於第二值。
+此 `<=` （小於或等於）比較函式用於檢查第一個值是否小於或等於第二個值。
 
 **語法**
 
@@ -182,10 +182,10 @@ not (homeAddress.countryISO = "CA")
 
 **範例**
 
-以下操作定義2000年或之前出生的人。
+下列作業會定義2000年或之前出生的人。
 
 ```sql
 {%= profile.person.birthYear <= 2000 %}
 ```
 
-**帶數字的操作**
+**含數字的作業**

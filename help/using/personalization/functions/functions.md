@@ -1,6 +1,6 @@
 ---
-title: 開始使用Helper函式
-description: Journey Optimizer幫助程式函式館
+title: 開始使用輔助函式
+description: Journey Optimizer Helper函式庫
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -13,82 +13,82 @@ ht-degree: 3%
 
 ---
 
-# 開始使用Helper函式{#functions}
+# 開始使用輔助函式{#functions}
 
-使用 [!DNL Journey Optimizer] 模板化語言，用於對資料執行操作，例如計算、資料格式化或轉換、條件，並在個性化的上下文中對它們進行操作。 瞭解中的個性化語法准則 [此頁](../personalization-syntax.md)。
+使用 [!DNL Journey Optimizer] 範本化語言，用於對資料執行操作，例如計算、資料格式或轉換、條件，並在個人化的環境中操作它們。 瞭解中的個人化語法指南 [此頁面](../personalization-syntax.md).
 
-➡️ [瞭解如何在此視頻中使用幫助程式功能](#video)
+➡️ [在本影片中瞭解如何使用協助程式函式](#video)
 
-模板化語言在表達式編輯器的個性化下拉清單中提供的幫助函式中得到利用，如下所示：
+範本化語言可在運算式編輯器的個人化下拉式清單中的協助程式功能中使用，如下所示：
 
 ![](../assets/access-helper-functions.png)
 
-在 [!DNL Journey Optimizer] 表達式編輯器、幫助程式函式分為三類： [函式](#functions-helper)。 [幫手](#helper-helper) 和 [運算子](#operators-helper)。
+在 [!DNL Journey Optimizer] 運算式編輯器、協助程式函式會分為三個類別： [函式](#functions-helper)， [輔助程式](#helper-helper) 和 [運運算元](#operators-helper).
 
-選擇一個類別，以訪問子類別和函式。
+選取類別，以存取子類別和函式。
 
-通過按一下 `>` 表徵圖 通過按一下 `+` 表徵圖：該函式自動添加到個性化螢幕。
+若要存取子類別，請按一下 `>` 圖示。 按一下 `+` 圖示：函式會自動新增至個人化畫面。
 
-按一下 `...` 表徵圖，查看函式的說明並將其添加到收藏夾。 [了解更多](../personalize.md#fav)
+按一下 `...` 圖示來檢視函式的說明，並將其新增至您的最愛。 [了解更多](../personalize.md#fav)
 
 ## 函式{#functions-helper}
 
-### 聚合和陣列函式
+### 彙總與陣列函式
 
 <table>
     <tr>
-        <td><a href="aggregation.md#average">平均</a></td><td>此函式返回陣列中所有選定值的算術平均值</td>
+        <td><a href="aggregation.md#average">平均</a></td><td>此函式傳回陣列中所有選取值的算術平均值</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count">計數</a></td><td>此函式返回給定陣列中的元素數</td>
+        <td><a href="aggregation.md#count">計數</a></td><td>此函式傳回給定陣列中的元素數</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count-only-null">僅計數Null</a></td><td>此函式計算清單中的空值數。</td>
+        <td><a href="aggregation.md#count-only-null">僅計算Null</a></td><td>此函式計算清單中null值的數量。</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count-with-null">Null計數</a></td><td>此函式計算清單的所有元素，包括空值</td>
+        <td><a href="aggregation.md#count-with-null">Null計數</a></td><td>此函式計算清單中的所有元素，包括null值</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#distinct">獨特</a></td><td>此函式從陣列或刪除重複值的清單中獲取值</td>
+        <td><a href="arrays-list.md#distinct">相異</a></td><td>此函式從已移除重複值的陣列或清單中取得值</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#distinct-count-with-null">非重複計數為空</a></td><td>此函式計算包括空值的不同值的數目</td>
+        <td><a href="arrays-list.md#distinct-count-with-null">Null的相異計數</a></td><td>此函式計算不同值的數量，包括null值</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#head">第一項</a></td><td>此函式返回陣列或清單中的第一項</td>
+        <td><a href="arrays-list.md#head">第一個專案</a></td><td>此函式傳回陣列或清單中的第一個專案</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#first-n">陣列中的第一個n</a></td><td>此函式返回陣列中第一個「N」項，當根據給定的數字表達式按升序排序時</td>
+        <td><a href="arrays-list.md#first-n">陣列中的前n個</a></td><td>當根據給定的數值運算式依遞增順序排序時，此函式傳回陣列中的前'N'個專案</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">在</a></td><td>此函式用於確定項目是否是陣列或清單的成員</td>
+        <td><a href="arrays-list.md#in">在</a></td><td>此函式用於決定專案是否為陣列或清單的成員</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#includes">包括</a></td><td>此函式確定陣列或清單是否包含給定項</td>
+        <td><a href="arrays-list.md#includes">包含</a></td><td>此函式決定陣列或清單是否包含給定專案</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#intersects">交叉</a></td><td>此函式確定兩個陣列或清單是否至少有一個公用成員</td>
+        <td><a href="arrays-list.md#intersects">相交</a></td><td>此函式決定兩個陣列或清單是否至少有一個通用成員</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#last-n">陣列中的最後一個n</a></td><td>此函式返回陣列中最後一個「N」項，當根據給定的數字表達式按升序排序時</td>
+        <td><a href="arrays-list.md#last-n">陣列中的最後n個</a></td><td>當根據給定的數值運算式依遞增順序排序時，此函式傳回陣列中的最後「N」個專案</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#max">最大</a></td><td>此函式返回陣列中所有選定值中的最大值</td>
+        <td><a href="aggregation.md#max">最大</a></td><td>此函式傳回陣列中所有選取值的最大值</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#min">最小</a></td><td>此函式返回陣列中所有選定值中最小值</td>
+        <td><a href="aggregation.md#min">最小</a></td><td>此函式傳回陣列中所有選取值的最小值</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#notin">不在</a></td><td>此函式確定項目是否不是陣列或清單的成員</td>
+        <td><a href="arrays-list.md#notin">不在……之內</a></td><td>此函式決定專案是否不是陣列或清單的成員</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#subset">子集</a></td><td>此函式確定特定陣列（陣列A）是否是另一陣列（陣列B）的子集，即陣列A中的所有元素是否都是陣列B的元素</td>
+        <td><a href="arrays-list.md#subset">子集：</a></td><td>此函式決定特定陣列（陣列A）是否是另一個陣列（陣列B）的子集，亦即，如果陣列A中的所有元素都是陣列B的元素</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#sum">和</a></td><td>此函式返回陣列內所有選定值的總和</td>
+        <td><a href="aggregation.md#sum">總和</a></td><td>此函式傳回陣列中所有選取值的總和</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">超集</a></td><td>此函式確定特定陣列（陣列A）是否是另一陣列（陣列B）的超集，即該陣列A是否包含陣列B中的所有元素</td>
+    <td><a href="arrays-list.md#superset">超集</a></td><td>此函式決定特定陣列（陣列A）是否為另一個陣列（陣列B）的超集，亦即該陣列A是否包含陣列B中的所有元素</td>
     </tr>
 </table>
 
@@ -96,52 +96,52 @@ ht-degree: 3%
 
 <table>
     <tr>
-        <td><a href="dates.md#age">年齡</a></td><td>此函式檢索給定日期的年齡</td>
+        <td><a href="dates.md#age">年齡</a></td><td>此函式從指定日期擷取年齡</td>
     </tr>
     <tr>
-        <td><a href="dates.md#current">當前時間（毫秒）</a></td><td>此函式檢索當前時間（以新紀元毫秒為單位）</td>
+        <td><a href="dates.md#current">目前時間（毫秒）</a></td><td>此函式擷取目前時間（以紀元毫秒為單位）</td>
     </tr>
     <tr>
-        <td><a href="dates.md#date-diff">日期差異</a></td><td>此函式檢索兩個日期（天數）之間的差值</td>
+        <td><a href="dates.md#date-diff">日期差異</a></td><td>此函式擷取兩個日期之間的天數差異</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-week">週中的日</a></td><td>此函式檢索星期幾</td>
+        <td><a href="dates.md#day-week">週中的日</a></td><td>此函式擷取星期幾</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-year">年中的日</a></td><td>此函式檢索年中的某一天</td>
+        <td><a href="dates.md#day-year">年中的日</a></td><td>此函式擷取一年當中的第幾天</td>
     </tr>
     <tr>
-        <td><a href="dates.md#format-date">格式日期</a></td><td>此函式格式化日期時間值</td>
+        <td><a href="dates.md#format-date">格式化日期</a></td><td>此函式將日期時間值格式化</td>
     </tr>
     <tr>
-        <td><a href="dates.md#format-date-locale">使用區域設定支援設定日期格式</a></td><td>此函式將日期時間值格式化為其相應的語言敏感表示，即在所需區域設定中。</td>
+        <td><a href="dates.md#format-date-locale">支援地區設定的日期格式</a></td><td>此函式將日期時間值格式化為對應的語言敏感表示法，即所需的地區設定。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-days">設定天數</a></td><td>此函式設定給定日期時間的月份日期</td>
+        <td><a href="dates.md#set-days">設定天數</a></td><td>此函式設定指定日期時間的月份日期</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-hours">設定小時數</a></td><td>此函式設定日期 — 時間的小時</td>
+        <td><a href="dates.md#set-hours">設定小時</a></td><td>此函式設定日期時間的小時</td>
     </tr>
     <tr>
         <td><a href="dates.md#to-utc">到UTC</a></td><td>此函式將日期時間轉換為UTC</td>
     </tr>
     <tr>
-        <td><a href="dates.md#week-of-year">每年</a></td><td>此函式返回年中的周</td>
+        <td><a href="dates.md#week-of-year">一年中的周</a></td><td>此函式傳回年中的周數</td>
     </tr>
 </table>
 </table>
 
-### 映射函式 {#map-functions}
+### 對應函式 {#map-functions}
 
 <table>
     <tr>
-        <td><a href="maps.md#get">取得</a></td><td>此函式用於檢索給定鍵的映射值</td>
+        <td><a href="maps.md#get">取得</a></td><td>此函式用於擷取給定索引鍵的對應值</td>
     </tr>
     <tr>
-        <td><a href="maps.md#keys">鍵</a></td><td>此函式用於檢索給定映射的所有鍵</td>
+        <td><a href="maps.md#keys">金鑰</a></td><td>此函式用於擷取給定對應的所有索引鍵</td>
     </tr>
     <tr>
-        <td><a href="maps.md#values">值</a></td><td>此函式檢索給定映射的所有值</td>
+        <td><a href="maps.md#values">值</a></td><td>此函式擷取給定對應的所有值</td>
     </tr>
 </table>
 
@@ -149,42 +149,42 @@ ht-degree: 3%
 
 <table>
     <tr>
-        <td><a href="math.md#absolute">絕對</a></td><td>此函式將任意數字格式化為其語言敏感表示法。</td>
+        <td><a href="math.md#absolute">絕對</a></td><td>此函式將任何數字格式化為語言敏感型表示法。</td>
     </tr>
     <tr>
-        <td><a href="math.md#format-number">格式編號</a></td><td>此函式將任意數字格式化為其語言敏感表示法。</td>
+        <td><a href="math.md#format-number">格式數字</a></td><td>此函式將任何數字格式化為語言敏感型表示法。</td>
     </tr>
     <tr>
-        <td><a href="math.md#random">Random</a></td><td>此函式返回0到1之間的隨機值</td>
+        <td><a href="math.md#random">Random</a></td><td>此函式傳回0到1之間的隨機值</td>
     </tr>
     <tr>
-        <td><a href="math.md#round-down">向下</a></td><td>此函式向下捨入一個數字</td>
+        <td><a href="math.md#round-down">向下四捨五入</a></td><td>此函式對數字進行向下四捨五入</td>
     </tr>
     <tr>
-        <td><a href="math.md#round-up">向上</a></td><td>此函式對數字進行捨入</td>
+        <td><a href="math.md#round-up">向上四捨五入</a></td><td>此函式對數字進行向上四捨五入</td>
     </tr>
     <tr>
-    <td><a href="math.md#to-hex-string">到十六進位字串</a></td><td>將任意數字轉換為其十六進位字串。</td>
+    <td><a href="math.md#to-hex-string">至十六進位字串</a></td><td>將任何數字轉換為十六進位字串。</td>
     </tr>
     <tr>
         <td><a href="math.md#to-percentage">至百分比</a></td><td>此函式將數字轉換為百分比</td>
     </tr>
     <tr>
-        <td><a href="math.md#to-precision">精確</a></td><td>此函式將數字轉換為所需精度</td>
+        <td><a href="math.md#to-precision">至精確度</a></td><td>此函式將數字轉換為所需的精確度</td>
     </tr>
     <tr>
-        <td><a href="math.md#to-string">到字串</a></td><td>此函式將任意數字轉換為其字串表示形式。 </td>
+        <td><a href="math.md#to-string">至字串</a></td><td>此函式將任何數字轉換為其字串表示法。 </td>
     </tr>
 </table>
 
-### 對象函式 {#object-functions}
+### 物件函式 {#object-functions}
 
 <table>
     <tr>
-        <td><a href="objects.md#isNotNull">不為空</a></td><td>此函式用於確定是否存在對象引用</td>
+        <td><a href="objects.md#isNotNull">不是Null</a></td><td>此函式用於決定物件參考是否存在</td>
     </tr>
     <tr>
-        <td><a href="objects.md#isNull">為空</a></td><td>此函式用於確定對象引用是否不存在</td>
+        <td><a href="objects.md#isNull">為null</a></td><td>此函式用於決定物件參考是否不存在</td>
     </tr>
 </table>
 
@@ -192,173 +192,173 @@ ht-degree: 3%
 
 <table>
     <tr>
-        <td><a href="string.md#camelCase">駝峰</a></td><td>此函式用於大寫字串中每個單詞的首字母</td>
+        <td><a href="string.md#camelCase">駝峰式大小寫</a></td><td>此函式用於將字串中每個字詞的第一個字母變成大寫</td>
     </tr>
     <tr>
-        <td><a href="string.md#char-code-at">字元代碼位於</a></td><td>此函式返回字元的ASCII值，如JavaScript中的charCodeAt函式</td>
+        <td><a href="string.md#char-code-at">字元代碼位於</a></td><td>此函式傳回字元的ASCII值，類似JavaScript中的charCodeAt函式</td>
     </tr>
     <tr>
-        <td><a href="string.md#concat">孔卡</a></td><td>此函式用於將兩個字串組合為一個</td>
+        <td><a href="string.md#concat">Concat</a></td><td>此函式用於將兩個字串合併為一個</td>
     </tr>
     <tr>
-        <td><a href="string.md#contains">包含</a></td><td>此函式用於確定字串是否包含指定的子字串</td>
+        <td><a href="string.md#contains">包含</a></td><td>此函式用於決定字串是否包含指定的子字串</td>
     </tr>
     <tr>
-        <td><a href="string.md#doesNotContain">不包含</a></td><td>此函式用於確定字串是否不包含指定的子字串</td>
+        <td><a href="string.md#doesNotContain">不包含</a></td><td>此函式用於決定字串是否不包含指定的子字串</td>
     </tr>
     <tr>
-        <td><a href="string.md#doesNotEndWith">不以</a></td><td>此函式用於確定字串是否不以指定的子字串結尾</td>
+        <td><a href="string.md#doesNotEndWith">結尾不是</a></td><td>此函式用於決定字串的結尾是否不是指定的子字串</td>
     </tr>
     <tr>
-        <td><a href="string.md#doesNotStartWith">不以開頭</a></td><td>此函式用於確定字串是否不以指定的子字串開頭</td>
+        <td><a href="string.md#doesNotStartWith">開頭不是</a></td><td>此函式用於決定字串的開頭是否不是指定的子字串</td>
     </tr>
     <tr>
-        <td><a href="string.md#encode64">編碼64</a></td><td>此函式用於對字串進行編碼或解碼</td>
+        <td><a href="string.md#encode64">編碼64</a></td><td>此函式用於編碼或解碼字串</td>
     </tr>
     <tr>
-        <td><a href="string.md#endsWith">終止於</a></td><td>此函式用於確定字串是否以指定的子字串結尾</td>
+        <td><a href="string.md#endsWith">終止於</a></td><td>此函式用於決定字串的結尾是否為指定的子字串</td>
     </tr>
         </tr>
     <tr>
-        <td><a href="string.md#equals">等於</a></td><td>此函式用於確定字串是否不以指定的子字串開頭，區分大小寫</td>
+        <td><a href="string.md#equals">等於</a></td><td>此函式用於決定字串的開頭是否不是指定的子字串，須區分大小寫</td>
     </tr>
     <tr>
-        <td><a href="string.md#equalsIgnoreCase">等於忽略大小寫</a></td><td>此函式用於確定字串是否不以指定的子字串開頭，而不區分大小寫</td>
+        <td><a href="string.md#equalsIgnoreCase">等於忽略大小寫</a></td><td>此函式用於決定字串的開頭是否不是指定的子字串，不區分大小寫</td>
     </tr>
     <tr>
-        <td><a href="string.md#extractEmailDomain">提取電子郵件域</a></td><td>此函式用於提取電子郵件地址的域</td>
+        <td><a href="string.md#extractEmailDomain">擷取電子郵件網域</a></td><td>此函式用於擷取電子郵件地址的網域</td>
     </tr>
     <tr>
-        <td><a href="string.md#format-currency">格式貨幣</a></td><td>此函式根據第二個參數中作為字串傳遞的區域設定，將任意數字轉換為其相應的語言敏感貨幣表示</td>
+        <td><a href="string.md#format-currency">格式化貨幣</a></td><td>此函式會根據第二個引數中作為字串傳遞的區域設定，將任何數字轉換為對應的語言敏感型貨幣表示法</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-host">獲取URL主機</a></td><td>此函式用於獲取url主機。</td>
+        <td><a href="string.md#get-url-host">取得url主機</a></td><td>此函式用於取得url主機。</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-path">獲取URL路徑</a></td><td>此函式用於獲取url路徑</td>
+        <td><a href="string.md#get-url-path">取得url路徑</a></td><td>此函式用於取得url路徑</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-protocol">獲取URL協定</a></td><td>此函式用於獲取URL協定</td>
+        <td><a href="string.md#get-url-protocol">取得url通訊協定</a></td><td>此函式用於取得url通訊協定</td>
     </tr>
     <tr>
-        <td><a href="string.md#index-of">索引</a></td><td>此函式返回第二個參數第一次出現的位置（在第一個參數中）。 如果沒有匹配項，則返回–1</td>
+        <td><a href="string.md#index-of">索引：</a></td><td>此函式傳回第二個引數第一次出現的位置（在第一個引數中）。 如果沒有相符專案，則傳回–1</td>
     </tr>
     <tr>
-        <td><a href="string.md#isEmpty">為空</a></td><td>此函式用於檢查字串或表達式是否為空。</td>
+        <td><a href="string.md#isEmpty">IsEmpty</a></td><td>此函式用於檢查字串或運算式是否為空。</td>
     </tr>
     <tr>
-        <td><a href="string.md#is-not-empty">不為空</a></td><td>如果參數中的字串不為空，則此函式返回true。</td>
+        <td><a href="string.md#is-not-empty">不是空的</a></td><td>如果引數中的字串非空白，此函式會傳回true。</td>
     </tr>
     <tr>
-        <td><a href="string.md#last-index-of">上次索引</a></td><td>此函式返回第二個參數上次出現的位置（在第一個參數中）。 如果沒有匹配項，則返回–1。</td>
+        <td><a href="string.md#last-index-of">最後一個索引：</a></td><td>此函式傳回第二個引數最後一次出現的位置（在第一個引數中）。 如果沒有相符專案，則傳回–1。</td>
     </tr>
     <tr>
-        <td><a href="string.md#leftTrim">左修剪</a></td><td>此函式從字串開頭刪除空格</td>
+        <td><a href="string.md#leftTrim">左側修剪</a></td><td>此函式移除字串開頭的空格</td>
     </tr>
     <tr>
-        <td><a href="string.md#length">長度</a></td><td>此函式用於獲取字串或表達式中的字元數</td>
+        <td><a href="string.md#length">長度</a></td><td>此函式用於取得字串或運算式中的字元數</td>
     </tr>
     <tr>
-        <td><a href="string.md#like">像</a></td><td>此函式用於確定字串是否與指定的模式匹配</td>
+        <td><a href="string.md#like">按讚</a></td><td>此函式用於決定字串是否符合指定的模式</td>
     </tr>
     <tr>
         <td><a href="string.md#lower">小寫</a></td><td>此函式將字串轉換為小寫字母</td>
     </tr>
     <tr>
-        <td><a href="string.md#mask">蒙版</a></td><td>此函式用「X」字元替換字串的一部分。</td>
+        <td><a href="string.md#mask">遮色片</a></td><td>此函式用於將字串的一部分取代為「X」字元。</td>
     </tr>
     <tr>
-        <td><a href="string.md#matches">符合</a></td><td>此函式用於確定字串是否與特定規則運算式匹配</td>
+        <td><a href="string.md#matches">符合</a></td><td>此函式用於決定字串是否符合特定的規則運算式</td>
     </tr>
     <tr>
-        <td><a href="string.md#md5">MD5</a></td><td>此函式返回輸入字串的md5哈希。</td>
+        <td><a href="string.md#md5">MD5</a></td><td>此函式傳回輸入字串的md5雜湊。</td>
     </tr>
     <tr>
-        <td><a href="string.md#notEqualTo">不等於</a></td><td>此函式用於確定字串是否不等於指定的字串</td>
+        <td><a href="string.md#notEqualTo">不等於</a></td><td>此函式用於決定字串是否不等於指定的字串</td>
     </tr>
     <tr>
-        <td><a href="string.md#not-equal-with-ignore-case">不等於忽略大小寫</a></td><td>此函式比較兩個忽略大小寫的字串。</td>
+        <td><a href="string.md#not-equal-with-ignore-case">不等於忽略大小寫</a></td><td>此函式比較兩個字串，忽略大小寫。</td>
     </tr>
     <tr>
-        <td><a href="string.md#regexGroup">規則運算式組</a></td><td>此函式用於根據所提供的規則運算式提取特定資訊</td>
+        <td><a href="string.md#regexGroup">規則運算式群組</a></td><td>此函式用於根據提供的規則運算式擷取特定資訊</td>
     </tr>
     <tr>
-        <td><a href="string.md#replace">Replace</a></td><td>此函式用另一個子字串替換字串中的給定子字串</td>
+        <td><a href="string.md#replace">Replace</a></td><td>此函式以其他子字串取代字串中的指定子字串</td>
     </tr>
     <tr>
-        <td><a href="string.md#replaceAll">全部替換</a></td><td>此函式將匹配"target"的文本的所有子字串替換為指定的文本"replacement"字串</td>
+        <td><a href="string.md#replaceAll">全部取代</a></td><td>此函式會將符合「target」的文字的所有子字串取代為指定的常值「replacement」字串</td>
     </tr>
     <tr>
-        <td><a href="string.md#rightTrim">右修剪</a></td><td>此函式從字串末尾刪除空格 </td>
+        <td><a href="string.md#rightTrim">右側修剪</a></td><td>此函式移除字串結尾的空格 </td>
     </tr>
     <tr>
-        <td><a href="string.md#split">Split</a></td><td>此函式用於按給定字元拆分字串</td>
+        <td><a href="string.md#split">Split</a></td><td>此函式用於依指定字元分割字串</td>
     </tr>
     <tr>
-        <td><a href="string.md#startsWith">開始於</a></td><td>此函式用於確定字串是否以指定的子字串開頭</td>
+        <td><a href="string.md#startsWith">開始於</a></td><td>此函式用於決定字串的開頭是否為指定的子字串</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-date">字串至今</a></td><td>此函式將字串值轉換為日期 — 時間值</td>
+        <td><a href="string.md#string-to-date">字串至日期</a></td><td>此函式將字串值轉換為日期時間值</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-integer">字串到整數</a></td><td>此函式將字串值轉換為整數值。</td>
+        <td><a href="string.md#string-to-integer">字串至整數</a></td><td>此函式將字串值轉換為整數值。</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-number">字串到數字</a></td><td>此函式用於將字串轉換為數字。 它返回與無效輸入的輸出相同的字串。</td>
+        <td><a href="string.md#string-to-number">字串至數字</a></td><td>此函式用於將字串轉換為數字。 對於無效的輸入，它會傳回相同的字串作為輸出。</td>
     </tr>
     <tr>
-        <td><a href="string.md#sub-string">子字串</a></td><td>此函式返回開始索引和結束索引之間字串表達式的子字串。</td>
+        <td><a href="string.md#sub-string">子字串</a></td><td>此函式傳回開始索引和結束索引之間字串運算式的子字串。</td>
     </tr>
     <tr>
-        <td><a href="string.md#titleCase">標題案例</a></td><td>此函式用於大寫字串中每個單詞的首字母</td>
+        <td><a href="string.md#titleCase">字首大寫</a></td><td>此函式用於字串中每個字詞的首字母大寫</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-bool">托布爾</a></td><td>此函式根據參數值的類型將參數值轉換為布爾值。</td>
+        <td><a href="string.md#to-bool">至Bool</a></td><td>此函式根據其型別將引數值轉換為布林值。</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time">結束日期時間</a></td><td>此函式用於將字串轉換為日期。 它將紀元日期返回為無效輸入的輸出。</td>
+        <td><a href="string.md#to-date-time">結束日期時間</a></td><td>此函式用於將字串轉換為日期。 針對無效輸入，它會傳回epoch日期作為輸出。</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time-only">僅截止日期</a></td><td>此函式將參數值轉換為僅日期時間值。 它將紀元日期返回為無效輸入的輸出。</td>
+        <td><a href="string.md#to-date-time-only">僅至日期時間</a></td><td>此函式將引數值轉換為僅日期時間值。 針對無效輸入，它會傳回epoch日期作為輸出。</td>
     </tr>
     <tr>
-        <td><a href="string.md#trim">修剪</a></td><td>此函式從字串的開頭和結尾刪除空格</td>
+        <td><a href="string.md#trim">修剪</a></td><td>此函式移除字串開頭和結尾的空格</td>
     </tr>
     <tr>
         <td><a href="string.md#upper">大寫</a></td><td>此函式將字串轉換為大寫字母</td>
     </tr>
     <tr>
-        <td><a href="string.md#url-decode">URL解碼</a></td><td>此函式用於解碼URL編碼字串。</td>
+        <td><a href="string.md#url-decode">Url解碼</a></td><td>此函式用於解碼url編碼的字串。</td>
     </tr>
     <tr>
-        <td><a href="string.md#url-encode">URL編碼</a></td><td>此函式用於url編碼字串。</td>
+        <td><a href="string.md#url-encode">Url編碼</a></td><td>此函式用於對字串進行url編碼。</td>
     </tr>
 </table>
 
 
 ## 輔助程式{#helper-helper}
 
-幫助程式詳見 [此頁](helpers.md)。
+協助程式的詳細資訊，請參閱 [此頁面](helpers.md).
 
 
 <table>
     <tr>
-        <td><a href="helpers.md#default">預設回退值</a></td><td>此函式用於呈現具有預設值的變數</td>
+        <td><a href="helpers.md#default">預設遞補值</a></td><td>此函式用於呈現具有預設值的變數</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#each">每個</a></td><td>此函式用於在陣列上迭代</td>
+        <td><a href="helpers.md#each">每個</a></td><td>此函式用於疊代陣列</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#if-function">若  </a></td><td>此函式用於定義條件塊 — 如果表達式求值返回true，則呈現該塊</td>
+        <td><a href="helpers.md#if-function">若  </a></td><td>此函式用於定義條件區塊 — 如果運算式評估傳回true，則會轉譯區塊</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#let">讓</a></td><td>此函式允許將表達式儲存為變數，以便稍後在查詢中使用</td>
+        <td><a href="helpers.md#let">Let</a></td><td>此函式允許運算式儲存為變數，以便稍後在查詢中使用</td>
     </tr>
    <tr>
-        <td><a href="helpers.md#unless">除非</a></td><td>此函式用於定義條件塊 — 如果表達式計算返回false，則呈現該塊</td>
+        <td><a href="helpers.md#unless">Unless</a></td><td>此函式用於定義條件區塊 — 如果運算式評估傳回false，則會轉譯區塊</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#with">與</a></td><td>此函式用於更改template-part的評估令牌</td>
+        <td><a href="helpers.md#with">替換為</a></td><td>此函式用於變更範本部分的評估權杖</td>
     </tr>
 </table>
 
@@ -370,56 +370,56 @@ ht-degree: 3%
 
 <table>
     <tr>
-        <td><a href="arithmetic-functions.md#add">添加</a></td><td>此運算子用於查找兩個參數表達式的和</td>
+        <td><a href="arithmetic-functions.md#add">加法</a></td><td>此運運算元用於尋找兩個引數運算式的總和</td>
     </tr>
     <tr>
-        <td><a href="arithmetic-functions.md#divide">除</a></td><td>此運算子用於查找兩個參數表達式的商</td>
+        <td><a href="arithmetic-functions.md#divide">除</a></td><td>此運運算元用於尋找兩個引數運算式的商</td>
     </tr>
     <tr>
-        <td><a href="arithmetic-functions.md#multiply">乘法</a></td><td>此運算子用於查找兩個參數表達式的乘積</td>
+        <td><a href="arithmetic-functions.md#multiply">乘法</a></td><td>此運運算元用於尋找兩個引數運算式的乘積</td>
     </tr>
     <tr>
-        <td><a href="arithmetic-functions.md#remainder">余數</a> </td><td>此運算子用於在分割兩個參數表達式後查找余數</td>
+        <td><a href="arithmetic-functions.md#remainder">餘數</a> </td><td>此運運算元用來找出兩個引數運算式相除後的餘數</td>
     </tr>
     <tr>
-        <td><a href="arithmetic-functions.md#substract">減法</a> </td><td>此運算子查找兩個表達式之間的差異</td>
+        <td><a href="arithmetic-functions.md#substract">減法</a> </td><td>此運運算元求兩個運算式之間的差異</td>
     </tr>
 </table>
 
 
-### 布爾函式 {#boolean-functions}
+### 布林函式 {#boolean-functions}
 
-布爾函式用於對不同的元素執行布爾邏輯。
+布林值函式可用來在不同的元素上執行布林值邏輯。
 
 <table>
     <tr>
-        <td><a href="operators.md#and">和</a></td><td>此運算子建立邏輯連接</td>
+        <td><a href="operators.md#and">和</a></td><td>此運運算元建立邏輯結合</td>
     </tr>
     <tr>
-        <td><a href="operators.md#or">或</a></td><td>此運算子建立邏輯斷開</td>
+        <td><a href="operators.md#or">或</a></td><td>此運運算元建立邏輯分離</td>
     </tr>
 </table>
 
 
 ### 比較函式 {#comparison-functions}
 
-比較函式用於比較不同的表達式和值，從而返回true或false。
+比較函式可用來比較不同運算式和值之間的差異，並相應地傳回true或false。
 
 <table>
     <tr>
-        <td><a href="operators.md#equals">等於</a></td><td>此操作檢查值是否相等</td>
+        <td><a href="operators.md#equals">等於</a></td><td>此操作會檢查值是否相等</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthan">Greater than</a></td><td>此運算子檢查第一個值是否大於第二個值</td>
+        <td><a href="operators.md#greaterthan">Greater than</a></td><td>此運運算元檢查第一個值是否大於第二個值</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthanorequal">大於或等於</a></td><td>此運算子檢查第一值是否大於或等於第二值</td>
+        <td><a href="operators.md#greaterthanorequal">大於或等於</a></td><td>此運運算元檢查第一個值是否大於或等於第二個值</td>
     </tr>
     <tr>
-        <td><a href="operators.md#lessthanorequal">小於或等於</a> </td><td>此運算子檢查第一值是否小於或等於第二值</td>
+        <td><a href="operators.md#lessthanorequal">小於或等於</a> </td><td>此運運算元檢查第一個值是否小於或等於第二個值</td>
     </tr>
     <tr>
-        <td><a href="operators.md#notequal">不等於</a></td><td>此運算子檢查給定表達式是否不等於賦值</td>
+        <td><a href="operators.md#notequal">不等於</a></td><td>此運運算元檢查給定的運算式是否不等於給定的值</td>
     </tr>
 </table>
 

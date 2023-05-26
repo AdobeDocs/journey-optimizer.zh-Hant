@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 旅程故障排除
-description: 瞭解如何排除旅程錯誤
+title: 歷程疑難排解
+description: 瞭解如何疑難排解歷程中的錯誤
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 故障排除，故障排除，旅程，檢查，錯誤
+keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -20,7 +20,7 @@ ht-degree: 74%
 
 在此區段中，您會瞭解如何先疑難排解歷程，然後再進行測試或發佈。下列所有檢查皆可在歷程處於測試模式或歷程為即時狀態時執行。建議您在測試模式中進行下列所有檢查，然後繼續發佈。請參閱[此頁面](../building-journeys/testing-the-journey.md)。
 
-## 測試前檢查錯誤{#checking-for-errors-before-testing}
+## 測試前先檢查錯誤{#checking-for-errors-before-testing}
 
 在測試和發佈您的歷程之前，請先確認所有活動皆已正確設定。如果系統仍偵測到錯誤，則無法進行測試或發佈。
 
@@ -32,29 +32,29 @@ ht-degree: 74%
 
 ![](assets/canvas-disconnected.png)
 
-在 **[!UICONTROL Test]** 切換 **[!UICONTROL 發佈]** 按鈕，將顯示警告標籤。 此警告符號會顯示系統偵測到的錯誤，而且可防止測試模式啟動或歷程發佈。在大多數情況下，系統偵測到的錯誤會連結到活動上的可見錯誤，但有時候會連結到其他問題。在這種情況下，您可以顯示這些問題，嘗試識別用於說明錯誤的問題。如果您無法識別問題，則可複製詳細資料並將之傳送給管理員或支援。請注意，會封鎖測試的錯誤和封鎖發佈的錯誤是類似的。
+旁邊 **[!UICONTROL 測試]** 切換及 **[!UICONTROL 發佈]** 按鈕時，會顯示警告符號。 此警告符號會顯示系統偵測到的錯誤，而且可防止測試模式啟動或歷程發佈。在大多數情況下，系統偵測到的錯誤會連結到活動上的可見錯誤，但有時候會連結到其他問題。在這種情況下，您可以顯示這些問題，嘗試識別用於說明錯誤的問題。如果您無法識別問題，則可複製詳細資料並將之傳送給管理員或支援。請注意，會封鎖測試的錯誤和封鎖發佈的錯誤是類似的。
 
 系統偵測到兩種問題：錯誤及警告。錯誤會封鎖發佈及測試啟動。警告指出未封鎖測試啟動或發佈的潛在問題。您會看到問題的說明，以及類型 ERR_XXX_XXX 的問題日誌 ID。這將有助於技術支援人員找出問題。
 
-可在旁邊的符號上顯示兩種不同的顏色 **[!UICONTROL Test]** 切換 **[!UICONTROL 發佈]** 按鈕 出現錯誤時，符號會以紅色顯示。若出現警告，則會顯示為橘色。
+兩個不同的顏色可以顯示在旁邊的符號上 **[!UICONTROL 測試]** 切換及 **[!UICONTROL 發佈]** 按鈕。 出現錯誤時，符號會以紅色顯示。若出現警告，則會顯示為橘色。
 
 ![](assets/journey75.png)
 
-與歷程相關的全域錯誤和警告會先出現在清單中。會依活動順序或外觀，由左至右地列出與特定活動相關的錯誤及警告。的 **[!UICONTROL 複製詳細資訊]** 按鈕複製有關支援團隊用於故障排除的旅程的技術資訊。
+與歷程相關的全域錯誤和警告會先出現在清單中。會依活動順序或外觀，由左至右地列出與特定活動相關的錯誤及警告。此 **[!UICONTROL 複製詳細資料]** 按鈕會複製支援團隊可用於疑難排解的歷程相關技術資訊。
 
-當動作或條件發生錯誤時，個人的歷程就會停止。唯一讓它繼續的方法是選中該框 **[!UICONTROL 在超時或出錯時添加備用路徑]**。 請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
+當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**. 請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
 
-## 檢查事件是否正確發送{#checking-that-events-are-properly-sent}
+## 檢查是否已正確傳送事件{#checking-that-events-are-properly-sent}
 
 歷程的起點永遠是一個事件。您可以使用 Postman 等工具執行測試。
 
 您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。如果您收到錯誤，則表示您的呼叫發生問題。再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。您可以諮詢管理員哪個是要點擊的正確 URL。
 
-事件不會直接從源推送到行程。 事實上，旅程依賴Adobe Experience Platform的流式接收API。 因此，在發生事件相關問題時，您可以參考 [Adobe Experience Platform文檔](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} 用於流式接收API故障排除。
+事件不會直接從來源推送到歷程。 事實上，歷程仰賴Adobe Experience Platform的串流獲取API。 因此，若發生事件相關問題，您可以參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} 適用於串流獲取API的疑難排解。
 
-## 檢查人員是否進入旅程{#checking-if-people-enter-the-journey}
+## 檢查是否有人進入歷程{#checking-if-people-enter-the-journey}
 
-旅程報告即時記錄人們的入口。
+歷程報告會即時測量歷程中的人員入口。
 
 如果您成功傳送活動，但在歷程中看不到任何入口，則表示在活動傳送以及在歷程中的事件接收之間發生錯誤。
 
@@ -65,27 +65,27 @@ ht-degree: 74%
 * 您的事件有效負載是否包含事件 ID？
 * 您是否點按了正確的 URL？
 * 您是否依照串流獲取 API 有效負載結構，而在事件設定窗格中使用有效負載結構預覽？請參閱[此頁面](../event/about-creating.md#preview-the-payload)。
-* 是否在事件標題中使用了正確的鍵值對？
+* 您在事件標頭中使用正確的機碼值組嗎？
 
    ```
    X-gw-ims-org-id - your organization's ID
    Content-type - application/json
    ```
 
-## 檢查人們如何在旅途中導航{#checking-how-people-navigate-through-the-journey}
+## 檢查人們如何導覽歷程{#checking-how-people-navigate-through-the-journey}
 
-旅程報告衡量的是旅途中個人的進度。 可輕鬆識別人員停止的位置及原因。
+歷程報告會衡量歷程中個人的進度。 可輕鬆識別人員停止的位置及原因。
 
 以下是一些要檢查的事項：
 
 * 是否是因為某個條件排除此人？例如，條件是 &quot;gender = male&quot;，但人員是女性。如果條件並非太複雜，則可由業務使用者執行此檢查。
 * 是否是因為呼叫資料來源未回應？當歷程處於測試模式時，可在測試模式日誌中看到此資訊。當歷程為即時狀態時，管理員可測試直接呼叫資料來源並檢查收到的答案。管理員也可以複製歷程並進行測試。
 
-## 檢查消息是否成功發送{#checking-that-messages-are-sent-successfully}
+## 檢查訊息是否成功傳送{#checking-that-messages-are-sent-successfully}
 
 如果個人在歷程中的進度正常，但並未收到應接收的訊息，您可以檢查：
 
-* [!DNL Journey Optimizer] 已正確考慮發送消息的請求。 商務用戶可以訪問要發送的消息，並檢查最新執行的時間是否與您旅途的執行時間相對應。 他們還可以檢查收到的最新API調用/事件。
-* [!DNL Journey Optimizer] 已成功發送消息。 檢查行程報告以確保沒有錯誤。
+* [!DNL Journey Optimizer] 已正確考量傳送訊息的要求。 商業使用者可以存取應傳送的訊息，並檢查最新執行的時間是否與歷程的執行時間對應。 他們也可以檢查收到的最新API呼叫/事件。
+* [!DNL Journey Optimizer] 已成功傳送訊息。 檢查歷程報告以確定沒有錯誤。
 
 若是透過自訂動作傳送訊息，在歷程測試期間唯一可以檢查的事項，就是自訂動作系統的呼叫是否會導致錯誤。如果呼叫與自訂動作相關聯的外部系統並未造成錯誤，但並未導致訊息傳送，則應在外部系統端進行一些調查。

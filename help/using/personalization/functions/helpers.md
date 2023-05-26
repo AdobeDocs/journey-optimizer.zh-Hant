@@ -15,9 +15,9 @@ ht-degree: 4%
 
 # 輔助程式 {#gs-helpers}
 
-## 預設回退值{#default-value}
+## 預設遞補值{#default-value}
 
-的 `Default Fallback Value` 如果屬性為空或為null，則使用helper返回預設回退值。 此機制適用於配置檔案屬性和行程事件。
+此 `Default Fallback Value` 如果屬性為空白或null，會使用helper傳回預裝置援值。 此機制適用於設定檔屬性和歷程事件。
 
 **語法**
 
@@ -25,12 +25,12 @@ ht-degree: 4%
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-在此示例中， `there` 的 `firstName` 此配置檔案的屬性為空或空。
+在此範例中，值 `there` 顯示條件為 `firstName` 此設定檔的屬性為空白或null。
 
 ## 條件{#if-function}
 
-的 `if` helper用於定義條件塊。
-如果表達式求值返回true，則呈現該塊，否則跳過該塊。
+此 `if` helper用於定義條件區塊。
+如果運算式評估傳回true，則會轉譯區塊，否則會略過該區塊。
 
 **語法**
 
@@ -39,8 +39,8 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-遵循 `if` 幫助程式，可以輸入 `else` 語句，以指定要執行的代碼塊（如果相同條件為false）。
-的 `elseif` 如果第一個語句返回false，則語句將指定要test的新條件。
+遵循 `if` helper，您可以輸入 `else` 陳述式，指定要在相同條件為false時執行的程式碼區塊。
+此 `elseif` 陳述式會指定新條件，以測試第一個陳述式是否傳回false。
 
 
 **格式**
@@ -58,7 +58,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 **範例**
 
-1. **基於條件表達式呈現不同的儲存連結**
+1. **根據條件運算式演算不同的存放區連結**
 
    ```sql
    {%#if profile.homeAddress.countryCode = "FR"%}
@@ -68,7 +68,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
    {%/if%}
    ```
 
-1. **確定電子郵件地址擴展**
+1. **決定電子郵件地址副檔名**
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -80,9 +80,9 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
    {%/if%}
    ```
 
-1. **添加條件連結**
+1. **新增條件式連結**
 
-   以下操作將添加一個連結至「www.adobe.com/academia&#39;」網站（僅包含「.edu」電子郵件地址的配置檔案）、「www.adobe.com/org&#39;網站（包含「.org」電子郵件地址的配置檔案）和預設URL「www.adobe.com/users&#39;」（用於所有其他配置檔案）:
+   下列作業會將連結新增至僅含有「.edu」電子郵件地址之設定檔的「www.adobe.com/academia&#39;網站」、含有「.org」電子郵件地址之設定檔的「www.adobe.com/org&#39;網站」，以及所有其他設定檔的預設URL「www.adobe.com/users&#39;」：
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -94,7 +94,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
    {%/if%}
    ```
 
-1. **基於段成員資格的條件內容**
+1. **以區段成員資格為基礎的條件式內容**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -106,12 +106,12 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 >[!NOTE]
 >
->要瞭解有關分段和分段服務的詳細資訊，請參閱此 [節](../../segment/about-segments.md)。
+>若要進一步瞭解細分和細分服務，請參閱此 [區段](../../segment/about-segments.md).
 
 
-## 除非{#unless}
+## Unless{#unless}
 
-的 `unless` helper用於定義條件塊。 反對The `if`  helper，如果表達式計算返回false，則呈現該塊。
+此 `unless` helper用於定義條件區塊。 反對The `if`  協助程式，如果運算式評估傳回false，則會轉譯區塊。
 
 **語法**
 
@@ -121,7 +121,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 **範例**
 
-根據電子郵件地址擴展呈現某些內容：
+根據電子郵件地址副檔名轉譯某些內容：
 
 ```sql
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
@@ -133,9 +133,9 @@ Some edu specific content Content
 
 ## 每個{#each}
 
-的 `each` 幫助程式用於在陣列上迭代。
-幫助程式的語法為 ```{{#each ArrayName}}``` 內容 {{/each}}
-我們可以使用關鍵字來引用各個陣列項 **這個** 在街區內。 可以使用 {{@index}}。
+此 `each` helper是用來反複運算陣列。
+協助程式的語法為 ```{{#each ArrayName}}``` 您的內容 {{/each}}
+我們可以使用關鍵字來參照個別陣列專案 **此** 區塊內部。 可以使用呈現陣列元素的索引 {{@index}}.
 
 **語法**
 
@@ -156,7 +156,7 @@ Some edu specific content Content
 
 **範例**
 
-呈現此用戶在其購物車中擁有的產品清單：
+呈現此使用者購物車中產品的清單：
 
 ```sql
 {{#each profile.products as |product|}}
@@ -165,9 +165,9 @@ Some edu specific content Content
 {{/each}}
 ```
 
-## 與{#with}
+## 替換為{#with}
 
-的 `with` helper用於更改template-part的評估令牌。
+此 `with` helper用於變更範本部分的評估權杖。
 
 **語法**
 
@@ -177,11 +177,11 @@ Some edu specific content Content
 {{/with}}
 ```
 
-的 `with` helper對於定義快捷方式變數也很有用。
+此 `with` 協助程式也可用來定義捷徑變數。
 
 **範例**
 
-用於將長變數名稱與短變數名稱混用：
+搭配使用可將長變數名稱等同為短變數名稱：
 
 ```sql
 {{#with profile.person.name as |name|}}
@@ -190,9 +190,9 @@ Some edu specific content Content
 {{/with}}
 ```
 
-## 讓{#let}
+## Let{#let}
 
-的 `let` 函式允許將表達式儲存為變數，以便稍後在查詢中使用。
+此 `let` 函式可將運算式儲存為變數，以便稍後在查詢中使用。
 
 **語法**
 
@@ -202,7 +202,7 @@ Some edu specific content Content
 
 **範例**
 
-以下示例允許以USD表示的交易記錄的所有產品合計，其合計大於$100且小於$1000。
+下列範例會允許交易總和大於$100且小於$1000時以USD表示的所有產品總和。
 
 ```sql
 {% let variable = expression %} {{variable}}

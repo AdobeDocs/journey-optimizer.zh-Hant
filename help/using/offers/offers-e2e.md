@@ -1,5 +1,5 @@
 ---
-title: 在電子郵件中使用個性化服務
+title: 在電子郵件中使用個人化優惠
 description: 探索端對端範例，以說明設定優惠方案並將其用於電子郵件所需的所有步驟。
 feature: Offers
 topic: Integrations
@@ -15,214 +15,214 @@ ht-degree: 6%
 
 # 使用案例：設定個人化優惠以在電子郵件中使用 {#configure-add-personalized-offers-email}
 
-本節將提供一個端到端示例，說明如何根據您以前建立的決定配置優惠並在電子郵件中使用這些優惠。
+本節提供端對端範例，說明如何根據您先前建立的決定，設定優惠方案並在電子郵件中使用。
 
 ## 主要步驟 {#main-steps}
 
-以下列出了配置優惠、將其納入決策以及在電子郵件中利用此決定的關鍵步驟：
+設定優惠（包含在決定中）並在電子郵件中運用此決定的關鍵步驟如下：
 
-1. 在建立優惠之前， [定義元件](#define-components)
+1. 建立優惠方案之前， [定義您的元件](#define-components)
 
    * 建立位置
    * 建立決定規則
-   * 建立集合限定詞 （以前稱為「標籤」）
-   * 建立排名（可選）
+   * 建立集合限定詞 （先前稱為「標籤」）
+   * 建立排名（選擇性）
 
-1. [配置優惠](#configure-offers)
+1. [設定優惠方案](#configure-offers)
 
-   * 建立優惠
-   * 對於每項服務：
+   * 建立優惠方案
+   * 對於每個選件：
 
-      * 建立表示法，並為每個表示法選擇放置和資產
-      * 為每個優惠添加規則
-      * 為每個優惠定義優先順序
+      * 建立表示，並為每個表示選取版位和資產
+      * 為每個選件新增規則
+      * 定義每個優惠方案的優先順序
 
 1. [建立遞補優惠](#create-fallback)
 
-1. [建立集合](#create-collection) 包括您建立的個性化服務
+1. [建立集合](#create-collection) 以包含您建立的個人化優惠方案
 
-1. [配置決策](#configure-decision)
+1. [設定決定](#configure-decision)
 
    * 建立決定
-   * 選擇您建立的放置
-   * 對於每個放置，選擇集合
-   * 對於每個位置，選擇一個排名（可選）
-   * 選擇回退
+   * 選取您建立的版位
+   * 針對每個位置，選取集合
+   * 選取每個位置的排名（選擇性）
+   * 選取遞補內容
 
 1. [在電子郵件中插入決定](#insert-decision-in-email)
 
-   * 選擇與要顯示的優惠匹配的位置
-   * 從與所選放置相容的項目中選擇決策
-   * 預覽您的優惠
+   * 選取符合您要顯示之優惠方案的位置
+   * 從與所選位置相容的專案中選取決定
+   * 預覽您的優惠方案
 
-在電子郵件中使用優惠的總體決策管理流程可描述如下：
+在電子郵件中使用優惠方案的整體決定管理程式可描述如下：
 
 ![](assets/offers-e2e-process.png)
 
 ## 定義元件 {#define-components}
 
-在開始建立聘用之前，必須定義幾個要在聘用中使用的元件。
+在開始建立優惠方案之前，您必須定義幾個要用於優惠方案的元件。
 
-你會在 **[!UICONTROL 決策管理]** > **[!UICONTROL 元件菜單]**。
+您會在 **[!UICONTROL 決定管理]** > **[!UICONTROL 元件功能表]**.
 
-1. 從建立開始 **植入** 你的報價。
+1. 從建立開始 **位置** 以取得優惠。
 
-   在定義聘用決策時，您將使用這些放置來定義結果聘用的顯示位置。
+   您將使用這些版位來定義定義定義優惠決定時，產生的優惠將顯示在何處。
 
-   在本示例中，使用以下渠道和內容類型建立三個放置：
+   在此範例中，使用下列頻道和內容型別建立三個版位：
 
-   * *Web — 影像*
-   * *電子郵件 — 映像*
-   * *非數字 — 文本*
+   * *網頁 — 影像*
+   * *電子郵件 — 影像*
+   * *非數位 — 文字*
 
    ![](assets/offers-e2e-placements.png)
 
-   有關建立放置的詳細步驟，請參見 [此部分](../../using/offers/offer-library/creating-placements.md)。
+   建立刊登版位的詳細步驟已說明，請參閱 [本節](../../using/offers/offer-library/creating-placements.md).
 
-1. 建立 **決策規則**。
+1. 建立 **決定規則**.
 
-   決策規則將為Adobe Experience Platform的個人資料提供最佳條件。
+   決定規則將為Adobe Experience Platform中的設定檔提供最佳優惠。
 
-   使用 **[!UICONTROL XDM個人簡介>人員>性別]** 屬性：
+   使用設定兩個簡單規則 **[!UICONTROL XDM個人設定檔>人員>性別]** 屬性：
 
    * *女性客戶*
    * *男性客戶*
 
    ![](assets/offers-e2e-rules.png)
 
-   有關建立規則的詳細步驟，請參見 [此部分](../../using/offers/offer-library/creating-decision-rules.md)。
+   建立規則的詳細步驟如下所述： [本節](../../using/offers/offer-library/creating-decision-rules.md).
 
-1. 也可以建立 **集合限定符**。
+1. 您也可以建立 **集合限定詞**.
 
-   然後，您就可以將其與您的優惠相關聯，並使用此收集限定符將您的優惠組合到一個集合中。
+   然後，您就可以將其與優惠方案建立關聯，並使用此集合限定詞將優惠方案群組在一起，形成一個集合。
 
-   在此示例中，建立 *瑜伽* 集合限定符。
+   在此範例中，建立 *瑜伽* 集合限定詞。
 
    ![](assets/offers-e2e-tag.png)
 
-   有關建立收集限定詞的詳細步驟，請參見 [此部分](../../using/offers/offer-library/creating-tags.md)。
+   建立集合限定詞的詳細步驟如下所述： [本節](../../using/offers/offer-library/creating-tags.md).
 
-1. 如果要定義規則，確定應首先為給定的職位提供哪個聘用（而不是考慮聘用的優先順序分數），您可以建立 **排序公式**。
+1. 如果您想要定義規則，以決定應先針對指定位置顯示哪個優惠方案（而不是考慮優惠方案的優先順序分數），您可以建立 **排名公式**.
 
-   有關建立排名公式的詳細步驟，請參見 [此部分](../../using/offers/ranking/create-ranking-formulas.md#create-ranking-formula)。
+   建立排名公式的詳細步驟如下所述： [本節](../../using/offers/ranking/create-ranking-formulas.md#create-ranking-formula).
 
    >[!NOTE]
    >
-   >在本例中，我們只使用優先順序分數。 瞭解更多 [資格規則和約束](../../using/offers/offer-library/creating-personalized-offers.md#eligibility)。
+   >在此範例中，我們將僅使用優先順序分數。 進一步瞭解 [適用性規則和限制](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
 
 ## 設定優惠方案 {#configure-offers}
 
-您現在可以建立和配置您的優惠。 在本示例中，您將建立四個要根據每個特定配置檔案顯示的優惠。
+您現在可以建立和設定優惠方案。 在此範例中，您將根據每個特定設定檔建立四個要顯示的選件。
 
 1. 建立優惠方案. 請參閱[此章節](../../using/offers/offer-library/creating-personalized-offers.md#create-offer)深入瞭解。
 
-1. 在此產品中，建立三個表示法。 每個表示必須是先前建立的放置與資產的組合：
+1. 在此選件中，建立三種宣告。 每個表示都必須是您先前建立的版位與資產的組合：
 
-   * 對應於 *Web — 影像* 放置
-   * 對應於 *電子郵件 — 映像* 放置
-   * 對應於 *非數字 — 文本* 放置
+   * 對應至 *網頁 — 影像* 刊登
+   * 對應至 *電子郵件 — 影像* 刊登
+   * 對應至 *非數位 — 文字* 刊登
 
    >[!NOTE]
    >
-   >在消息中的不同位置可以顯示一個要約，以建立更多機會在不同的放置上下文中使用該要約。
+   >優惠方案可顯示在訊息中的不同位置，以創造更多機會，以便在不同的版位內容中使用優惠方案。
 
-   瞭解有關中的表示法的更多資訊 [此部分](../../using/offers/offer-library/creating-personalized-offers.md#representations)。
+   進一步瞭解中的代表 [本節](../../using/offers/offer-library/creating-personalized-offers.md#representations).
 
-1. 為前兩個放置選擇適當的影像。 為 *非數字 — 文本* 的下界。
+1. 為前兩個版位選取適當的影像。 輸入自訂文字 *非數位 — 文字* 位置。
 
    ![](assets/offers-e2e-representations.png)
 
-1. 在 **[!UICONTROL 提供資格]** 選擇 **[!UICONTROL 按定義的決策規則]** 拖放你選擇的規則。
+1. 在 **[!UICONTROL 優惠資格]** 區段，選取 **[!UICONTROL 依定義的決定規則]** 並拖放您選擇的規則。
 
    ![](assets/offers-e2e-eligibility.png)
 
-1. 填寫 **[!UICONTROL 優先順序]**。 在此示例中，添加 *25*。
+1. 填寫 **[!UICONTROL 優先順序]**. 在此範例中，新增 *25*.
 
-1. 查看您的服務，然後按一下 **[!UICONTROL 保存和批准]**。
+1. 檢閱您的選件，然後按一下 **[!UICONTROL 儲存並核准]**.
 
    ![](assets/offers-e2e-review.png)
 
-1. 在本示例中，使用相同的表示法建立另外三個產品，但不同的資產。 使用不同的規則和優先順序分配它們，例如：
+1. 在此範例中，再建立三個具有相同表示但不同資產的優惠方案。 以不同的規則和優先順序指派他們，例如：
 
-   * 第一項優惠 — 決策規則： *女性客戶*，優先順序： *25*
-   * 第二項服務 — 決策規則： *女性客戶*，優先順序： *15*
-   * 第三項服務 — 決策規則： *男性客戶*，優先順序： *25*
-   * 第四項服務 — 決策規則： *男性客戶*，優先順序： *15*
+   * 第一個優惠 — 決定規則： *女性客戶*，優先順序： *25*
+   * 第二個優惠 — 決定規則： *女性客戶*，優先順序： *15*
+   * 第三個優惠 — 決定規則： *男性客戶*，優先順序： *25*
+   * 第四個優惠 — 決定規則： *男性客戶*，優先順序： *15*
 
    ![](assets/offers-e2e-offers-created.png)
 
-有關建立和配置服務的詳細步驟，請參見 [此部分](../../using/offers/offer-library/creating-personalized-offers.md)。
+建立和設定優惠方案的詳細步驟已詳述於 [本節](../../using/offers/offer-library/creating-personalized-offers.md).
 
 ## 建立遞補優惠 {#create-fallback}
 
 1. 建立遞補優惠.
 
-1. 定義與聘用相同的表示形式，並具有相應的資產（它們應與聘用中使用的不同）。
+1. 使用適當的資產，定義與優惠方案相同的表示（資產應與優惠方案中使用的資產不同）。
 
-   每個表示必須是先前建立的放置與資產的組合：
+   每個表示都必須是您先前建立的版位與資產的組合：
 
-   * 對應於 *Web — 影像* 放置
-   * 對應於 *電子郵件 — 映像* 放置
-   * 對應於 *非數字 — 文本* 放置
+   * 對應至 *網頁 — 影像* 刊登
+   * 對應至 *電子郵件 — 影像* 刊登
+   * 對應至 *非數位 — 文字* 刊登
 
    ![](assets/offers-e2e-fallback-representations.png)
 
-1. 查看備用優惠，然後按一下 **[!UICONTROL 保存和批准]**。
+1. 檢閱您的遞補優惠，然後按一下 **[!UICONTROL 儲存並核准]**.
 
 ![](assets/offers-e2e-fallback.png)
 
-您的備用優惠現已準備好用於決策。
+您的遞補優惠現在已準備好用於決定中。
 
-有關建立和配置備用優惠的詳細步驟，請參見 [此部分](../../using/offers/offer-library/creating-fallback-offers.md)。
+建立和設定遞補優惠方案的詳細步驟已說明，請參閱 [本節](../../using/offers/offer-library/creating-fallback-offers.md).
 
 ## 建立集合 {#create-collection}
 
-在配置決策時，您需要將您的個性化優惠添加為集合的一部分。
+設定決定時，您需要將個人化優惠新增為集合的一部分。
 
-1. 要加快決策過程，請建立動態集合。
+1. 若要加快決策流程，請建立動態集合。
 
-1. 使用 *瑜伽* 收集限定符，用於選擇您先前建立的四個個性化聘用。
+1. 使用 *瑜伽* 集合限定詞，以選取您先前建立的四個個人化優惠方案。
 
    ![](assets/offers-e2e-collection-using-tag.png)
 
-有關建立集合的詳細步驟，請參見 [此部分](../../using/offers/offer-library/creating-collections.md)。
+建立集合的詳細步驟如下所述： [本節](../../using/offers/offer-library/creating-collections.md).
 
-## 配置決策 {#configure-decision}
+## 設定決定 {#configure-decision}
 
-現在，您必須建立一個決策，該決策將放置與您剛剛建立的個性化優惠和備用優惠結合起來。
+現在您必須建立決定，將刊登版位與您剛建立的個人化優惠和遞補優惠結合使用。
 
-此組合將由決策引擎用於為特定配置檔案找到最佳服務：在本示例中，它將基於分配給每個優惠的優先順序和決策規則。
+決策引擎將使用此組合來尋找特定設定檔的最佳優惠方案：在此範例中，它會根據您指派給每個優惠方案的優先順序和決策規則。
 
-要建立和配置優惠決定，請執行以下主要步驟：
+若要建立並設定優惠決定，請遵循下列主要步驟：
 
 1. 建立決定. 請參閱[此章節](../../using/offers/offer-activities/create-offer-activities.md#create-activity)深入瞭解。
 
-1. 選擇 *Web — 影像*。 *電子郵件 — 映像* 和 *非數字 — 文本* 的下界。
+1. 選取 *網頁 — 影像*， *電子郵件 — 影像* 和 *非數位 — 文字* 位置。
 
    ![](assets/offers-e2e-decision-placements.png)
 
-1. 對於每個放置，添加您建立的集合。
+1. 對於每個位置，新增您建立的集合。
 
    ![](assets/offers-e2e-decision-collection.png)
 
-1. 如果定義了排名 [構建元件](#define-components)，可將其分配給決策中的位置。 如果多份報價符合在此配售中提交的條件，則此決定將使用此公式計算先交付哪份報價。
+1. 如果您在以下情況下定義排名： [建置元件](#define-components)，您可以將其指派給決定中的版位。 如果有多個優惠方案符合在此位置中顯示的資格，決策會使用此公式來計算要先傳送哪個優惠方案。
 
-   有關將排名公式分配給放置的詳細步驟，請參見 [此部分](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula)。
+   將排名公式指派至位置的詳細步驟如下所述： [本節](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula).
 
-1. 選擇您建立的回退優惠。 它將顯示為三個選定放置的可用回退優惠。
+1. 選取您建立的遞補優惠。 它將顯示為三個所選位置的可用遞補優惠。
 
    ![](assets/offers-e2e-decision-fallback.png)
 
-1. 查看您的決定，然後按一下 **[!UICONTROL 保存和批准]**。
+1. 檢閱您的決定，然後按一下 **[!UICONTROL 儲存並核准]**.
 
    ![](assets/offers-e2e-review-decision.png)
 
-您的決定現在已準備好用於提供優化和個性化的服務。
+您的決定現在已準備好用於提供最佳化和個人化優惠。
 
-有關建立和配置決策的詳細步驟，請參見 [此部分](../../using/offers/offer-activities/create-offer-activities.md)。
+建立及設定決策的詳細步驟已說明，請參閱 [本節](../../using/offers/offer-activities/create-offer-activities.md).
 
 ## 在電子郵件中插入決定 {#insert-decision-in-email}
 
-既然您的決定是即時的，您可以將其插入電子郵件。 為此，請執行中詳細介紹的步驟 [此頁](../../using/email/add-offers-email.md)。
+現在您的決定已上線，您可以將其插入電子郵件訊息。 若要這麼做，請遵循中詳述的步驟 [此頁面](../../using/email/add-offers-email.md).
 
 ![](assets/offers-e2e-offers-displayed.png)

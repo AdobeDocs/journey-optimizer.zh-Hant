@@ -5,7 +5,7 @@ description: 瞭解函式endWithIgnoreCase
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: endWithIgnoreCase，函式，表達式，旅程
+keywords: endWithIgnoreCase，函式，運算式，歷程
 exl-id: 278ef1a4-571c-4b5f-b4de-0cfc644ac7d7
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 17%
 
 # endWithIgnoreCase {#endWithIgnoreCase}
 
-檢查第一個參數字串是否以特定字串結尾（第二個參數字串），而不考慮大小寫。
+檢查第一個引數字串是否以特定字串（第二個引數字串）結尾，而不考慮大小寫。
 
 ## 類別
 
@@ -31,16 +31,16 @@ ht-degree: 17%
 | 參數 | 類型 |
 |-----------|------------------|
 | 字串 | 字串 |
-| 尾碼 | 字串 |
+| 字尾 | 字串 |
 
-## 簽名和返回的類型
+## 簽章和傳回的型別
 
 `endWithIgnoreCase(<string>,<string>)`
 
-返回布爾值。
+傳回布林值。
 
 ## 範例
 
 `endWithIgnoreCase("rowing is great", "AT")`
 
-返回true。
+傳回true。

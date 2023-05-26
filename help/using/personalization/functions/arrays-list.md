@@ -1,6 +1,6 @@
 ---
-title: 陣列函式館
-description: 陣列函式館
+title: 陣列函式庫
+description: 陣列函式庫
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -15,11 +15,11 @@ ht-degree: 6%
 
 # 陣列和清單功能 {#arrays}
 
-使用這些函式可使與陣列、清單和字串的交互更容易。
+使用這些函式可讓與陣列、清單和字串的互動更容易。
 
-## 僅計數空 {#count-only-null}
+## 僅計算null {#count-only-null}
 
-的 `countOnlyNull` 函式用於計數清單中空值的數量。
+此 `countOnlyNull` 函式用於計算清單中null值的數量。
 
 **語法**
 
@@ -33,11 +33,11 @@ ht-degree: 6%
 {%= countOnlyNull([4,0,1,6,0,0]) %}
 ```
 
-返回3。
+傳回3。
 
 ## Null計數 {#count-with-null}
 
-的 `countWithNull` 函式用於計算包括空值的清單的所有元素。
+此 `countWithNull` 函式用於計算包含null值之清單中的所有元素。
 
 **語法**
 
@@ -51,11 +51,11 @@ ht-degree: 6%
 {%= countOnlyNull([4,0,1,6,0,0]) %}
 ```
 
-返回6。
+傳回6。
 
-## 獨特{#distinct}
+## 相異{#distinct}
 
-的 `distinct` 函式用於從刪除重複值的陣列或清單中獲取值。
+此 `distinct` 函式用於從移除重複值的陣列或清單中取得值。
 
 **語法**
 
@@ -65,15 +65,15 @@ ht-degree: 6%
 
 **範例**
 
-以下操作指定在多個商店中下訂單的人員。
+下列作業會指定在多個商店下訂單的人。
 
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
 
-## 非重複計數為空 {#distinct-count-with-null}
+## Null的相異計數 {#distinct-count-with-null}
 
-的 `distinctCountWithNull` 函式用於計算包括空值的清單中不同值的數目。
+此 `distinctCountWithNull` 函式用於計算清單中包括null值的不同值數目。
 
 **語法**
 
@@ -87,11 +87,11 @@ ht-degree: 6%
 {%= distinctCountWithNull([10,2,10,null]) %}
 ```
 
-返回3。
+傳回3。
 
-## 第一項{#head}
+## 第一個專案{#head}
 
-的 `head` 函式用於返回陣列或清單中的第一項。
+此 `head` 函式用於傳回陣列或清單中的第一個專案。
 
 **語法**
 
@@ -101,7 +101,7 @@ ht-degree: 6%
 
 **範例**
 
-以下操作返回價格最高的前五個訂單中的第一個。 有關 `topN` 函式 [第一 `n` 在陣列中](#first-n) 的子菜單。
+下列作業會傳回價格最高的前五個訂單中的第一個。 更多關於「 」的資訊 `topN` 函式位於 [第一個 `n` 在陣列中](#first-n) 區段。
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
@@ -109,7 +109,7 @@ ht-degree: 6%
 
 ## 第一個 `n` 在陣列中 {#first-n}
 
-的 `topN` 函式用於返回第一個 `N` 陣列中的項，根據給定的數值表達式按升序排序。
+此 `topN` 函式用於傳回第一個 `N` 陣列中的專案（當根據給定的數值運算式依遞增順序排序時）。
 
 **語法**
 
@@ -120,12 +120,12 @@ ht-degree: 6%
 | 引數 | 說明 |
 | --------- | ----------- |
 | `{ARRAY}` | 要排序的陣列或清單。 |
-| `{VALUE}` | 對陣列或清單進行排序的屬性。 |
-| `{AMOUNT}` | 要返回的項數。 |
+| `{VALUE}` | 排序陣列或清單的屬性。 |
+| `{AMOUNT}` | 要傳回的專案數。 |
 
 **範例**
 
-以下操作返回價格最低的前五個訂單。
+下列作業會傳回價格最低的前五個訂單。
 
 ```sql
 {%= topN(orders,price, 5) %}
@@ -133,7 +133,7 @@ ht-degree: 6%
 
 ## 在{#in}
 
-的 `in` 函式用於確定項目是否是陣列或清單的成員。
+此 `in` 函式用來判斷專案是否為陣列或清單的成員。
 
 **語法**
 
@@ -143,15 +143,15 @@ ht-degree: 6%
 
 **範例**
 
-以下操作定義3月、6月或9月的人生日。
+下列作業會定義3月、6月或9月有生日的人。
 
 ```sql
 {%= in (person.birthMonth, [3, 6, 9]) %}
 ```
 
-## 包括{#includes}
+## 包含{#includes}
 
-的 `includes` 函式用於確定陣列或清單是否包含給定項。
+此 `includes` 函式用於確定陣列或清單是否包含給定專案。
 
 **語法**
 
@@ -161,15 +161,15 @@ ht-degree: 6%
 
 **範例**
 
-以下操作定義其喜愛顏色包括紅色的人。
+下列作業會定義其最喜愛顏色包含紅色的人員。
 
 ```sql
 {%= includes(person.favoriteColors,"red") %}
 ```
 
-## 交叉{#intersects}
+## 相交{#intersects}
 
-的 `intersects` 函式用於確定兩個陣列或清單是否具有至少一個公共成員。
+此 `intersects` 函式用來判斷兩個陣列或清單是否至少有一個通用成員。
 
 **語法**
 
@@ -179,7 +179,7 @@ ht-degree: 6%
 
 **範例**
 
-以下操作定義其喜愛的顏色至少包括紅色、藍色或綠色之一的人。
+下列作業會定義其最喜愛顏色至少包含紅色、藍色或綠色其中一種的人員。
 
 ```sql
 {%= intersects(person.favoriteColors,["red", "blue", "green"]) %}
@@ -205,9 +205,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## 最後 `n` 在陣列中{#last-n}
+## 上次 `n` 在陣列中{#last-n}
 
-的 `bottomN` 函式用於返回最後一個 `N` 陣列中的項，根據給定的數值表達式按升序排序。
+此 `bottomN` 函式用於傳回最後 `N` 陣列中的專案（當根據給定的數值運算式依遞增順序排序時）。
 
 **語法**
 
@@ -218,24 +218,24 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 | 引數 | 說明 |
 | --------- | ----------- | 
 | `{ARRAY}` | 要排序的陣列或清單。 |
-| `{VALUE}` | 對陣列或清單進行排序的屬性。 |
-| `{AMOUNT}` | 要返回的項數。 |
+| `{VALUE}` | 排序陣列或清單的屬性。 |
+| `{AMOUNT}` | 要傳回的專案數。 |
 
 **範例**
 
-以下操作返回價格最高的最後五個訂單。
+下列作業會傳回價格最高的最後五筆訂單。
 
 ```sql
 {%= bottomN(orders,price, 5) %}
 ```
 
-## 不在{#notin}
+## 不在……之內{#notin}
 
-的 `notIn` 函式用於確定項目是否不是陣列或清單的成員。
+此 `notIn` 函式用來判斷專案是否不是陣列或清單的成員。
 
 >[!NOTE]
 >
->的 `notIn` 函式 *也* 確保兩個值均不等於null。 因此，結果不是對 `in` 的子菜單。
+>此 `notIn` 函式 *另外* 確保這兩個值都不等於null。 因此，結果並非完全否定 `in` 函式。
 
 **語法**
 
@@ -245,16 +245,16 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 **範例**
 
-以下操作定義生日不在三月、六月或九月的人。
+下列作業會定義不在三月、六月或九月過生日的使用者。
 
 ```sql
 {%= notIn(person.birthMonth ,[3, 6, 9]) %}
 ```
 
 
-## 子集{#subset}
+## 子集：{#subset}
 
-的 `subsetOf` 函式用於確定特定陣列（陣列A）是否是另一陣列（陣列B）的子集。 換句話說，陣列A中的所有元素都是陣列B的元素。
+此 `subsetOf` 函式來判斷特定陣列（陣列A）是否為另一個陣列（陣列B）的子集。 換句話說，陣列A中的所有元素都是陣列B的元素。
 
 **語法**
 
@@ -264,7 +264,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 **範例**
 
-以下操作定義訪問了所有其喜愛城市的人員。
+下列作業會定義造訪過其所有最喜愛城市的人。
 
 ```sql
 {%= subsetOf(person.favoriteCities,person.visitedCities) %}
@@ -272,7 +272,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ## 超集{#superset}
 
-的 `supersetOf` 函式用於確定特定陣列（陣列A）是否是另一陣列（陣列B）的超集。 換句話說，陣列A包含陣列B中的所有元素。
+此 `supersetOf` 函式來判斷特定陣列（陣列A）是否為另一個陣列（陣列B）的超集。 換句話說，陣列A包含陣列B中的所有元素。
 
 **語法**
 
@@ -282,7 +282,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 **範例**
 
-以下操作定義了至少吃過一次壽司和披薩的人。
+下列作業會定義至少吃過一次壽司和比薩的人。
 
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+source-git-commit: 9bebcde9edde40a0fadba34d8b40757036a6436d
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '413'
 ht-degree: 6%
 
 ---
@@ -87,8 +87,6 @@ For more information on how to configure a journey, refer to [this page](../buil
    ![](assets/in_app_create_2.png)
 
 1. 在 **[!UICONTROL 身分名稱空間]** 欄位中，選擇要使用的名稱空間，以識別所選區段中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
-
-1. 按一下 **[!UICONTROL 建立實驗]** 開始設定內容實驗並建立處理方式，以測量其效能並找出最適合目標對象的選項。 [了解更多](../campaigns/content-experiment.md)
 
 1. 按一下 **[!UICONTROL 編輯觸發程式]** 若要選擇將觸發訊息的事件和條件：
 

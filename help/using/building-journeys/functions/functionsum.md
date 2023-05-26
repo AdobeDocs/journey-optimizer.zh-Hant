@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: sum
-description: 瞭解函式和
+description: 瞭解函式總和
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: 和，函式，表達式，行程
+keywords: sum，函式，運算式，歷程
 exl-id: a9085f4d-6434-4bc5-8e5d-3f2b6033defc
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 # sum {#sum}
 
-返回一組表達式的值之和。 忽略空值。
+傳回一組運算式的值總和。 Null值會被忽略。
 
 ## 類別
 
@@ -29,28 +29,28 @@ ht-degree: 12%
 ## 參數
 
 * listInteger
-* 清單十進位
+* listDecimal
 * 持續時間
 * 整數
 * 小數
 
-## 簽名和返回的類型
+## 簽章和傳回的型別
 
 `sum(<listDecimal>)`
 
-返回十進位。
+傳回小數。
 
 `sum(<listInteger>)`
 
-返回整數。
+傳回整數。
 
 `sum(<integer>,<integer>)`
 
-返回整數。
+傳回整數。
 
 `sum(<decimal>,<decimal>)`
 
-返回十進位。
+傳回小數。
 
 ## 範例
 
@@ -58,8 +58,8 @@ ht-degree: 12%
 
 `sum([10,3,8])`
 
-返回21。
+傳回21。
 
 `sum([10.5,null,8.1])`
 
-返回18.6。
+傳回18.6。

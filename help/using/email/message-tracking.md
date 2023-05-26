@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: af1bc66021f04dacee8cf674925af9e2d0c2f30b
+source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 34%
+source-wordcount: '885'
+ht-degree: 38%
 
 ---
 
@@ -63,59 +63,30 @@ ht-degree: 34%
 
    * **[!UICONTROL 外部連結]**：插入外部URL的連結。
 
-   * **[!UICONTROL 登陸頁面]**：插入登陸頁面的連結。 [了解更多 ](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL 登陸頁面]**：插入登陸頁面的連結。 請參閱[本節](../landing-pages/get-started-lp.md)以進一步瞭解
 
-   * **[!UICONTROL 一鍵選擇退出]**：插入連結以讓使用者快速取消訂閱您的通訊，而不需要確認選擇退出。 [了解更多](email-opt-out.md#one-click-opt-out)。
+   * **[!UICONTROL 一鍵選擇退出]**：插入連結以讓使用者快速取消訂閱您的通訊，而不需要確認選擇退出。 請參閱[此章節](../privacy/opt-out.md#one-click-opt-out)深入瞭解。
 
    * **[!UICONTROL 外部選擇加入/訂閱]**：插入連結以接受來自您品牌的通訊。
 
-   * **[!UICONTROL 外部選擇退出/取消訂閱]**：插入連結以取消訂閱接收來自您品牌的通訊。 進一步瞭解[本章節](email-opt-out.md#opt-out-management)中的選擇退出管理。
+   * **[!UICONTROL 外部選擇退出/取消訂閱]**：插入連結以取消訂閱接收來自您品牌的通訊。 進一步瞭解[本章節](../privacy/opt-out.md#opt-out-management)中的選擇退出管理。
 
-   * **[!UICONTROL 映象頁面]**：新增連結以在網頁瀏覽器中顯示電子郵件內容。 [了解更多](#mirror-page)
+   * **[!UICONTROL 映象頁面]**：插入在網頁瀏覽器中顯示電子郵件內容的連結。 請參閱[此章節](#mirror-page)深入瞭解。
 
-1. 在對應欄位中輸入所需的URL，或選取登入頁面，然後定義連結設定和樣式。 [了解更多](#adjust-links)
-
-   >[!NOTE]
-   >
-   >若要解譯URL， [!DNL Journey Optimizer] 符合URI語法([RFC 3986標準版](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"})，會停用URL中的某些特殊國際字元。 嘗試傳送校樣或電子郵件時，如果系統傳回的錯誤涉及新增至內容的URL，則您可以URL編碼字串當作因應措施。
-
-1. 您可以個人化連結。 [了解更多](../personalization/personalization-syntax.md#perso-urls)
+1. 您可以個人化連結。 進一步瞭解[本章節](../personalization/personalization-syntax.md#perso-urls)的個人化 URL。
 
 1. 儲存您的變更。
 
-1. 建立連結後，您仍然可以從以下位置修改連結： **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 右邊的窗格。
+1. 建立連結後，您仍然可以從右側的「**[!UICONTROL 元件設定]**」窗格中修改。
+
+   * 您可以編輯連結並變更其型別。
+   * 您可以透過勾選對應的選項來選擇是否為連結加底線。
 
    ![](assets/message-tracking-link-settings.png)
 
 >[!NOTE]
 >
 >行銷型別的電子郵件訊息必須包含 [退出連結](../privacy/opt-out.md#opt-out-management)，這是異動訊息不需要的。 訊息類別(**[!UICONTROL 行銷]** 或 **[!UICONTROL 異動]**)在中定義 [管道表面](../configuration/channel-surfaces.md#email-type) 建立訊息時。
-
-## 調整連結 {#adjust-links}
-
-您可以使用調整連結 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 右邊的窗格。 您可以為連結加上底線、編輯其顏色並選取其目標。
-
-1. 在插入連結的&#x200B;**[!UICONTROL 文字]**&#x200B;元件中，選取您的連結。
-
-1. 從 **[!UICONTROL 設定]** 索引標籤中，選擇將如何使用將您的對象重新導向 **[!UICONTROL Target]** 下拉式清單：
-
-   * **[!UICONTROL 無]**：當框架被點按時在相同框架中開啟連結 (預設)。
-   * **[!UICONTROL 空白]**：在新的視窗或索引標籤中開啟連結。
-   * **[!UICONTROL 自我]**：當框架被點按時在相同框架中開啟連結。
-   * **[!UICONTROL 父系]**：在父框架中開啟連結。
-   * **[!UICONTROL 頂端]**：在視窗的完整內文中開啟連結。
-
-   ![](assets/link_2.png)
-
-1. Check **[!UICONTROL 為連結加上底線]** 將連結的標籤文字加底線。
-
-   ![](assets/link_1.png)
-
-1. 若要變更連結的顏色，請按一下 **[!UICONTROL 連結顏色]** 從 **[!UICONTROL 樣式]** 標籤。
-
-   ![](assets/link_3.png)
-
-1. 儲存您的變更。
 
 ## 映象頁面的連結 {#mirror-page}
 

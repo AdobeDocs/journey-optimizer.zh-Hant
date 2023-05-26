@@ -2,11 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 操作者
-description: 瞭解高級表達式中的運算子
+description: 瞭解進階運算式中的運運算元
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: 表達式，語法，運算子，編輯器，旅程
+keywords: 運算式，語法，運運算元，編輯器，歷程
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # 操作者 {#operators}
 
-運算子有兩種：一元運算子和二進位運算子。 有左一元運算子和右一元運算子。
+運運算元有兩種型別：一元運運算元和二進位運運算元。 有左側一元運運算元和右側一元運運算元。
 
 ```json
 // left-hand unary operators
@@ -38,8 +38,8 @@ not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
 ## 重要備註{#important-notes}
 
-* 使用乘法時(`*`)，兩個操作欄位必須具有相同的類型（整數或小數）。 範例：
-   * 以下示例正確： `3.0 * 4.0`
+* 使用乘法時(`*`)，則兩個作業欄位都必須有相同的型別，可以是整數或小數。 範例：
+   * 以下範例是正確的： `3.0 * 4.0`
    * `3 * 4.0` 將導致錯誤
 
 ## 邏輯  {#logical}
@@ -50,7 +50,7 @@ not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 <expression1> and <expression2>
 ```
 
-兩者 &lt;expression1> 和 &lt;expression2> 必須是布爾型。 結果為布爾型。
+兩者 &lt;expression1> 和 &lt;expression2> 必須為布林值。 結果是布林值。
 
 範例：
 
@@ -64,7 +64,7 @@ not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 <expression1> or <expression2>
 ```
 
-兩者 &lt;expression1> 和 &lt;expression2> 必須是布爾型。 結果為布爾型。
+兩者 &lt;expression1> 和 &lt;expression2> 必須為布林值。 結果是布林值。
 
 範例：
 
@@ -72,13 +72,13 @@ not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 3.14 > 2 or 3.15 < 1
 ```
 
-### 不
+### not
 
 ```json
 not <expression>
 ```
 
-&lt;expression> 必須是布爾型。 結果為布爾型。
+&lt;expression> 必須為布林值。 結果是布林值。
 
 範例：
 
@@ -88,15 +88,15 @@ not 3.15 < 1
 
 ## 比較 {#comparison}
 
-### 空
+### 為null
 
 ```json
 <expression> is null
 ```
 
-結果為布爾型。
+結果是布林值。
 
-請注意，null表示表達式沒有計算值。
+請注意，null表示運算式沒有評估值。
 
 範例：
 
@@ -104,15 +104,15 @@ not 3.15 < 1
 @{BarBeacon.location} is null
 ```
 
-### 不為空
+### 不是null
 
 ```json
 <expression> is not null
 ```
 
-結果為布爾型。
+結果是布林值。
 
-請注意，null表示表達式沒有計算值。
+請注意，null表示運算式沒有評估值。
 
 範例：
 
@@ -120,15 +120,15 @@ not 3.15 < 1
 @{BarBeacon.location} is not null
 ```
 
-### 空
+### 具有null
 
 ```json
 <expression> has null
 ```
 
-&lt;expression> 必須是清單。 結果為布爾型。
+&lt;expression> 必須為清單。 結果是布林值。
 
-用於標識清單至少包含一個空值。
+用於識別清單是否包含至少一個Null值。
 
 範例：
 
@@ -136,13 +136,13 @@ not 3.15 < 1
 ["foo", "bar", null] has null
 ```
 
-返回true
+傳回true
 
 ```json
 ["foo", "bar", ""] has null
 ```
 
-返回false，因為「」不被視為null。
+傳回false，因為「」不視為null。
 
 ### ==
 
@@ -152,7 +152,7 @@ not 3.15 < 1
 
 >[!NOTE]
 >
->對於 &lt;expression1> 和 &lt;expression2> 沒有資料類型控制項。
+>對象 &lt;expression1> 和 &lt;expression2> 沒有資料型別控制項。
 
 範例：
 
@@ -171,9 +171,9 @@ not 3.15 < 1
 ```
 
 >[!NOTE]
-對於 &lt;expression1> 和 &lt;expression2> 沒有資料類型控制項。
+對象 &lt;expression1> 和 &lt;expression2> 沒有資料型別控制項。
 
-結果為布爾型。
+結果是布林值。
 
 範例：
 
@@ -191,15 +191,15 @@ not 3.15 < 1
 <expression1> > <expression2>
 ```
 
-可以將日期時間與日期時間進行比較。
+Datetime可以與Datetime比較。
 
-只能將DatetimeOnly與DatetimeOnly進行比較。
+Datetimeonly可與Datetimeonly比較。
 
-整數或小數都可以與整數或小數進行比較。
+整數或小數點都可與整數或小數點進行比較。
 
-任何其他組合都是禁止的。
+禁止任何其他組合。
 
-結果為布爾型。
+結果是布林值。
 
 範例：
 
@@ -213,15 +213,15 @@ not 3.15 < 1
 <expression1> >= <expression2>
 ```
 
-可以將日期時間與日期時間進行比較。
+Datetime可以與Datetime比較。
 
-只能將DatetimeOnly與DatetimeOnly進行比較。
+Datetimeonly可與Datetimeonly比較。
 
-整數或小數都可以與整數或小數進行比較。
+整數或小數點都可與整數或小數點進行比較。
 
-任何其他組合都是禁止的。
+禁止任何其他組合。
 
-結果為布爾型。
+結果是布林值。
 
 範例：
 
@@ -235,15 +235,15 @@ not 3.15 < 1
 <expression1> < <expression2>
 ```
 
-可以將日期時間與日期時間進行比較。
+Datetime可以與Datetime比較。
 
-只能將DatetimeOnly與DatetimeOnly進行比較。
+Datetimeonly可與Datetimeonly比較。
 
-整數或小數都可以與整數或小數進行比較。
+整數或小數點都可與整數或小數點進行比較。
 
-任何其他組合都是禁止的。
+禁止任何其他組合。
 
-結果為布爾型。
+結果是布林值。
 
 範例：
 
@@ -257,15 +257,15 @@ not 3.15 < 1
 <expression1> <= <expression2>
 ```
 
-可以將日期時間與日期時間進行比較。
+Datetime可以與Datetime比較。
 
-只能將DatetimeOnly與DatetimeOnly進行比較。
+Datetimeonly可與Datetimeonly比較。
 
-整數或小數都可以與整數或小數進行比較。
+整數或小數點都可與整數或小數點進行比較。
 
-任何其他組合都是禁止的。
+禁止任何其他組合。
 
-結果為布爾型。
+結果是布林值。
 
 範例：
 
@@ -281,7 +281,7 @@ not 3.15 < 1
 <expression1> + <expression2>
 ```
 
-這兩個表達式都必須是數字（整數或小數）。
+這兩個運算式都必須是數值（整數或小數）。
 
 結果也是數字。
 
@@ -291,7 +291,7 @@ not 3.15 < 1
 1 + 2
 ```
 
-返回3
+傳回3
 
 ### -
 
@@ -299,7 +299,7 @@ not 3.15 < 1
 <expression1> - <expression2>
 ```
 
-這兩個表達式都必須是數字（整數或小數）。
+這兩個運算式都必須是數值（整數或小數）。
 
 結果也是數字。
 
@@ -309,7 +309,7 @@ not 3.15 < 1
 2 - 1 
 ```
 
-返回1
+傳回1
 
 ### /
 
@@ -317,11 +317,11 @@ not 3.15 < 1
 <expression1> / <expression2>
 ```
 
-這兩個表達式都必須是數字（整數或小數）。
+這兩個運算式都必須是數值（整數或小數）。
 
 結果也是數字。
 
-&lt;expression2> 不能等於0（返回0）。
+&lt;expression2> 不得等於0 （傳回0）。
 
 範例：
 
@@ -329,7 +329,7 @@ not 3.15 < 1
 4 / 2
 ```
 
-返回2
+傳回2
 
 ### *
 
@@ -337,7 +337,7 @@ not 3.15 < 1
 <expression1> * <expression2>
 ```
 
-這兩個表達式都必須是數字（整數或小數）。
+這兩個運算式都必須是數值（整數或小數）。
 
 結果也是數字。
 
@@ -347,7 +347,7 @@ not 3.15 < 1
 3 * 4
 ```
 
-返回12
+傳回12
 
 ### %
 
@@ -355,7 +355,7 @@ not 3.15 < 1
 <expression1> % <expression2>
 ```
 
-這兩個表達式都必須是數字（整數或小數）。
+這兩個運算式都必須是數值（整數或小數）。
 
 結果也是數字。
 
@@ -365,17 +365,17 @@ not 3.15 < 1
 3 % 2
 ```
 
-返回1。
+傳回1。
 
 ## Math {#math}
 
-### 是數字
+### 為數值
 
 ```json
 <expression> is numeric
 ```
 
-表達式的類型為整數或十進位。
+運算式的型別是整數或小數。
 
 範例：
 
@@ -383,13 +383,13 @@ not 3.15 < 1
 @ is numeric
 ```
 
-### 整數
+### 為整數
 
 ```json
 <expression> is integer
 ```
 
-表達式的類型為整數。
+運算式的型別是整數。
 
 範例：
 
@@ -397,13 +397,13 @@ not 3.15 < 1
 @ is integer
 ```
 
-### 小數
+### 為小數
 
 ```json
 <expression> is decimal
 ```
 
-表達式的類型為十進位。
+運算式的型別是十進位。
 
 範例：
 
@@ -423,9 +423,9 @@ not 3.15 < 1
 <expression> + <string>
 ```
 
-它連接兩個表達式。
+它會串連兩個運算式。
 
-一個表達式必須是連結字串。
+一個運算式必須是鏈結字串。
 
 範例：
 
@@ -433,19 +433,19 @@ not 3.15 < 1
 "the current time is " + (now())
 ```
 
-返回「當前時間為2019-09-23T09:30:06.693Z」
+傳回「目前時間是2019-09-23T09:30:06.693盎司
 
 ```json
 (now()) + " is the current time"
 ```
 
-返回「2019-09-23T09:30:06.693Z是當前時間」
+傳回「2019-09-23T09」:30:06.693Z為目前時間」
 
 ```json
 "a" + "b" + "c" + 1234
 ```
 
-返回&quot;abc1234&quot;。
+傳回「abc1234」。
 
 ## 日期 {#date}
 
@@ -455,7 +455,7 @@ not 3.15 < 1
 <expression> + <duration>
 ```
 
-將持續時間追加到dateTime、dateTimeOnly或duration。
+將期間附加至dateTime、dateTimeOnly或duration。
 
 範例：
 
@@ -463,22 +463,22 @@ not 3.15 < 1
 (toDateTime("2011-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-返回 _日期時間_ 2011-12-03T15:30:30Z
+傳回 _dateTime_ 2011-12-03T15:30:30Z
 
 ```json
 (toDateTimeOnly("2011-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-返回 _日期僅時間_ 2011-12-03T15:30:30
+傳回 _dateTimeOnly_ 2011-12-03T15:30:30
 
 ```json
 (now()) + (toDuration("PT1H"))
 ```
 
-返回 _日期時間_ （使用UTC時區）從當前時間後1小時
+傳回 _dateTime_ （含UTC時區）從目前時間推後1小時
 
 ```json
 (toDuration("PT1H")) + (toDuration("PT1H"))
 ```
 
-返回 _持續時間_ PT2H
+傳回 _持續時間_ PT2H

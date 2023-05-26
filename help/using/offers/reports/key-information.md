@@ -1,6 +1,6 @@
 ---
 title: 決定管理事件重要資訊
-description: 瞭解有關每個決策管理事件所發送的關鍵資訊的詳細資訊。
+description: 進一步瞭解每個決定管理事件所傳送的重要資訊。
 feature: Offers
 topic: Integrations
 role: User

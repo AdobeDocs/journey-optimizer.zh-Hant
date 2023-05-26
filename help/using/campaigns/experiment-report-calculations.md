@@ -5,14 +5,30 @@ feature: A/B Testing
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+hide: true
+hidefromtoc: true
+badge: label="Beta" type="Informative"
+exl-id: b3336381-bc73-4c8f-938f-f10fe37305b0
+source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 0%
+source-wordcount: '961'
+ht-degree: 4%
 
 ---
 
-# 瞭解實驗報告中的統計計算 {#experiment-report-calculations}
+# 實驗報告中的統計計算 {#experiment-report-calculations}
+
+>[!BEGINSHADEBOX]
+
+本文件提供下列內容：
+
+* [開始使用內容實驗](get-started-experiment.md)
+* [建立內容實驗](content-experiment.md)
+* [瞭解統計計算](experiment-calculations.md)
+* [設定實驗報告](reporting-configuration.md)
+* **[實驗報告中的統計計算](experiment-report-calculations.md)**
+
+>[!ENDSHADEBOX]
 
 本頁會記錄Adobe Journey Optimizer行銷活動的Experimentation報告中使用的詳細統計計算。
 

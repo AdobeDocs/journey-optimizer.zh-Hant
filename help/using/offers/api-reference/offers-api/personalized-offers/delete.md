@@ -1,6 +1,6 @@
 ---
-title: 刪除個性化服務
-description: 個性化服務是基於資格規則和約束的可定製營銷資訊。
+title: 刪除個人化優惠
+description: 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # 刪除個人化優惠 {#delete-personalized-offer}
 
-有時可能需要刪除(DELETE)個性化優惠。 只能刪除您在租戶容器中建立的個性化優惠。 這是通過對執行DELETE請求 [!DNL Offer Library] 使用您要刪除的個性化優惠的$id的API。
+有時可能必須移除(DELETE)個人化優惠方案。 只能刪除您在租使用者容器中建立的個人化優惠。 這是透過對「 」執行DELETE請求來完成 [!DNL Offer Library] API使用您要刪除的個人化優惠的$id。
 
 **API格式**
 
@@ -25,8 +25,8 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 個性化優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 個人化優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **要求**
 
@@ -42,6 +42,6 @@ curl -X DELETE \
 
 **回應**
 
-成功的響應返回HTTP狀態202（無內容）和空白正文。
+成功的回應會傳回HTTP狀態202 （無內容）和空白內文。
 
-您可以通過嘗試對個性化優惠進行查找(GET)請求來確認刪除。 您需要在請求中包含「接受」標頭，但應收到HTTP狀態404（未找到），因為已從容器中刪除個性化服務。
+您可以嘗試對個人化優惠進行查詢(GET)請求，以確認刪除。 您需要在請求中加入Accept標頭，但應該會收到HTTP狀態404 （找不到），因為個人化優惠已從容器中移除。

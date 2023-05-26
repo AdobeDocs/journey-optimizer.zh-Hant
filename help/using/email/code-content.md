@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 代碼，HTML，編輯器
+keywords: 程式碼、HTML、編輯器
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
@@ -24,15 +24,15 @@ ht-degree: 67%
 
 >[!CAUTION]
 >
-> 來自 [Adobe Experience Manager Assets Essentials](assets-essentials.md) 無法在使用此方法時引用。 HTML代碼中引用的映像必須儲存到公共位置。
+> 影像來源 [Adobe Experience Manager Assets Essentials](assets-essentials.md) 使用此方法時無法參考。 HTML程式碼中參照的影像必須儲存至公共位置。
 
-1. 從「電子郵件設計器」首頁中，選擇 **[!UICONTROL 編碼您自己的]**。
+1. 從電子郵件設計工具首頁，選取 **[!UICONTROL 自行撰寫程式碼]**.
 
    ![](assets/code-your-own.png)
 
 1. 輸入或貼上原始 HTML 程式碼。
 
-1. 使用左窗格 [!DNL Journey Optimizer] 個性化功能。 [了解更多](../personalization/personalize.md)
+1. 使用左窗格來運用 [!DNL Journey Optimizer] 個人化功能。 [了解更多](../personalization/personalize.md)
 
    ![](assets/code-editor.png)
 
@@ -44,7 +44,7 @@ ht-degree: 67%
    >
    >此動作會在電子郵件設計工具中開啟選取的範本。從那裡，您可以完成電子郵件的設計，或者使用「**[!UICONTROL 切換到程式碼編輯器]**」選項回到程式碼編輯器。
 
-1. 按一下 **[!UICONTROL 預覽]** 按鈕，使用test配置檔案檢查消息設計和個性化。 [了解更多](preview.md)
+1. 按一下 **[!UICONTROL 預覽]** 按鈕以使用測試設定檔檢查訊息設計和個人化。 [了解更多](preview.md)
 
    ![](assets/code-editor-preview.png)
 

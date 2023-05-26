@@ -1,6 +1,6 @@
 ---
 title: 建立個人化優惠
-description: 個性化服務是基於資格規則和約束的可定製營銷資訊。
+description: 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,15 +15,15 @@ ht-degree: 9%
 
 # 建立個人化優惠 {#create-personalized-offer}
 
-個性化服務是基於資格規則和約束的可定製營銷資訊。
+個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 
-您可以通過向POST請求建立個性化服務 [!DNL Offer Library] API，同時提供容器ID。
+您可以透過向以下網站發出POST請求，建立個人化優惠方案： [!DNL Offer Library] API，同時提供容器ID。
 
-## 接受和內容類型標題 {#accept-and-content-type-headers}
+## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示了組成 *內容類型* 和 *接受* 請求標題中的欄位：
+下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
 
-| 標題名稱 | 值 |
+| 標頭名稱 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
@@ -36,8 +36,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 儲存庫API的終結點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 個性化優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 個人化優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **要求**
 
@@ -86,7 +86,7 @@ curl -X POST \
 
 **回應**
 
-成功的響應返回有關新建立的個性化服務的資訊，包括其唯一實例ID和位置 `@id`。 您可以在後續步驟中使用實例ID來更新或刪除您的個性化服務。
+成功的回應會傳回新建立的個人化優惠的相關資訊，包括其唯一的執行個體ID和位置 `@id`. 您可在後續步驟中使用執行個體ID來更新或刪除您的個人化優惠。
 
 ```json
 {
@@ -104,4 +104,4 @@ curl -X POST \
 
 ## 限制 {#limitations}
 
-當前移動設備不支援提供表示和某些提供限制 [!DNL Experience Edge] 工作流，例如 `Capping`。 的 `Capping` field value指定可在所有用戶間提供優惠的次數。 有關詳細資訊，請參閱 [提供資格規則和約束文檔](../../../offer-library/creating-personalized-offers.md)。
+行動裝置目前不支援優惠宣告和某些優惠限制 [!DNL Experience Edge] 例如，工作流程 `Capping`. 此 `Capping` 欄位值會指定某個選件在所有使用者中出現的次數。 如需詳細資訊，請參閱 [優惠方案適用性規則和限制檔案](../../../offer-library/creating-personalized-offers.md).

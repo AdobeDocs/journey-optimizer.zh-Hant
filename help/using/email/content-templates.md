@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 12%
@@ -81,6 +81,8 @@ ht-degree: 12%
 
 1. 透過存取內容範本清單 **[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]** 左側功能表。
 
+   ![](assets/content-template-list.png)
+
 1. 選取 **[!UICONTROL 建立範本]**.
 
 1. 填寫範本詳細資訊。
@@ -93,7 +95,7 @@ ht-degree: 12%
 
 1. 若要將自訂或核心資料使用標籤指派給範本，請選取 **[!UICONTROL 管理存取權]**. [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md).
 
-1. 按一下 **[!UICONTROL 建立]** 並從不同選項中選擇要如何設計範本：
+1. 按一下 **[!UICONTROL 建立]** 並從不同選項中選擇要如何設計電子郵件：
 
    * [從頭開始設計您的電子郵件](content-from-scratch.md) 透過電子郵件設計工具的介面。
 
