@@ -4,7 +4,7 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 245937875136d0a92cfab1506544d3e592ebd46f
+source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
 workflow-type: tm+mt
 source-wordcount: '2876'
 ht-degree: 95%
@@ -23,7 +23,7 @@ ht-degree: 95%
 * 已新增新區段，說明如何確保選擇退出使用其設定檔資料進行個人化的客戶獲得尊重。 [閱讀全文](../privacy/opt-out.md#opt-out-personalization)
 * 已新增附註，說明如何在電子郵件內容所包含的URL中使用特殊國際字元。 [閱讀全文](../email/message-tracking.md#insert-links)
 * 已新增測試和發佈登入頁面所需的許可權。 [閱讀全文](../landing-pages/create-lp.md)
-* 已新增附註，說明將自訂事件納入管理決策頻率上限所需的Adobe Experience Platform端點。 [閱讀全文](../offers/data-collection/schema-requirement.md#track-custom-events)
+* 已新增附註，說明將自訂事件納入決定管理頻率上限所需的Adobe Experience Platform端點。 [閱讀全文](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## 2023 年 4 月 {#apr-2023}
 
