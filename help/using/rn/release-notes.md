@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
+source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 78%
+source-wordcount: '2466'
+ht-degree: 79%
 
 ---
 
@@ -175,9 +175,11 @@ ht-degree: 78%
 * 新增Adobe地標服務的訊息觸發規則。 [閱讀全文](../in-app/inapp-configuration.md)
 * 已新增新的Adobe Experience Platform保證功能，以擷取裝置事件並新增為觸發規則。
 
-**歷程**
+<!--
+**Journeys**
 
-* 您現在可以在自訂動作中運用API呼叫回應，並根據這些回應協調您的歷程。
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+-->
 
 **行銷活動**
 
