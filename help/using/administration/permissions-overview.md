@@ -9,14 +9,14 @@ role: Admin, Architect
 level: Intermediate
 keywords: 許可權，許可權，限制，存取，沙箱
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: d99feb7b6b11f9bba4f4164e7febecfca1d7da3b
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 31%
+source-wordcount: '208'
+ht-degree: 29%
 
 ---
 
-# 使用者管理概述 {#permissions-overview}
+# 開始使用使用者管理 {#permissions-overview}
 
 [!DNL Journey Optimizer] 可讓您定義並管理指派給不同使用者的權限。許可權是授權或拒絕存取產品內功能的一組許可權和限制。
 

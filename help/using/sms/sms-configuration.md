@@ -6,10 +6,10 @@ description: 瞭解如何設定您的環境，以使用Journey Optimizer傳送SM
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 33dccf32b60a6afb58931823016821fc1effcbd8
+source-git-commit: 442e3213ad512b62332cd08d6639dfc52bdc766a
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 19%
+source-wordcount: '920'
+ht-degree: 18%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer目前與Sinch和Twilio等協力廠商提供者整合，�
 >id="ajo_admin_sms_api"
 >title="使用 Journey Optimizer 設定您的簡訊供應商"
 >abstract="在傳送簡訊之前，您必須將提供者設定和 Journey Optimizer 整合。完成後，您將需要建立一個簡訊表面。這些步驟必須由 Adobe Journey Optimizer 系統管理員執行。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hant#message-preset-sms" text="建立簡訊管道表面"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="建立簡訊管道表面"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
@@ -55,20 +55,25 @@ Adobe Journey Optimizer目前與Sinch和Twilio等協力廠商提供者整合，�
 
    ![](assets/sms_6.png)
 
-1. 選取您的 **[!UICONTROL 簡訊供應商]**：
+1. 設定您的SMS API認證：
 
-   * **[!DNL Sinch]**
+   * 對象 **[!DNL Sinch]**：
 
-      尋找您的 **[!UICONTROL 服務ID]** 和 **[!UICONTROL API權杖]**，從您的Sinch帳戶存取SMS > API功能表。
+      * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
 
-   * **[!DNL Twilio]**
+      * **[!UICONTROL 服務ID]** 和 **[!UICONTROL API權杖]**：存取API頁面，您可以在SMS標籤下找到憑證。  [了解更多](https://developers.sinch.com/docs/sms/getting-started/)
+   * 對象 **[!DNL Twilio]**：
 
-      尋找您的 **[!UICONTROL 服務ID]** 和 **[!UICONTROL API權杖]**，存取主控台控制面板頁面的「帳戶資訊」窗格。
+      * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
 
+      * **[!UICONTROL 帳戶SID]** 和 **[!UICONTROL 驗證權杖]**：存取您的Twilio主控台控制面板頁面的「帳戶資訊」窗格，以尋找您的認證。
 
-1. 輸入 **[!UICONTROL 名稱]** 以取得您的API認證。
+      * **[!UICONTROL 訊息SID]**：輸入指派給Twilio API所建立每則訊息的唯一識別碼。 [了解更多](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+   * 對象 **[!DNL Infobip]**：
 
-1. 輸入您的 **[!UICONTROL 服務ID]** 和 **[!UICONTROL API權杖]**.
+      * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
+
+      * **[!UICONTROL API基本URL]** 和 **[!UICONTROL API權杖]**：存取您的網頁介面首頁或API金鑰管理頁面以尋找您的認證。 [了解更多](https://www.infobip.com/docs/api)
 
    ![](assets/sms_7.png)
 
@@ -81,8 +86,8 @@ Adobe Journey Optimizer目前與Sinch和Twilio等協力廠商提供者整合，�
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="定義簡訊類別"
->abstract="選取使用此表面的簡訊訊息類型：需要使用者同意的促銷簡訊的行銷訊息，或非商業簡訊的異動訊息，例如密碼重設。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="選擇不接收行銷簡訊訊息"
+>abstract="選取使用此表面的簡訊類型：需要使用者同意的促銷簡訊的行銷訊息，或非商業簡訊的異動訊息，例如密碼重設。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="選擇不接收行銷簡訊"
 
 設定簡訊頻道後，您必須建立頻道介面，才能從傳送SMS訊息 **[!DNL Journey Optimizer]**.
 

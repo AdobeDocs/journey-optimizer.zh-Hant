@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: c9941a800783b399b587b952c4191ce906b70552
 workflow-type: tm+mt
-source-wordcount: '2036'
-ht-degree: 3%
+source-wordcount: '2262'
+ht-degree: 4%
 
 ---
 
@@ -52,6 +52,54 @@ ht-degree: 3%
 * **[!UICONTROL 動作已傳送]**：歷程中某個動作已傳送的不重複次數總計。
 
 * **[!UICONTROL 動作失敗百分比]**：歷程中動作失敗的不重複次數總計，與動作已傳送的不重複次數總數比較。
+
+<!--
+### Objectives report {#objectives-global}
+
+![](assets/performance_report.gif)
+
+The **[!UICONTROL Objectives]** tab allows you to better fine-tune your deliveries' reports by targeting one specific metric.
+
+The **[!UICONTROL Objectives]** listed are linked to **[!UICONTROL Datasets]** that define a connection to a system in order to retrieve additional information. A list of built-in **[!UICONTROL Objectives]** is available but you can add your own by adding new **[!UICONTROL Dataset]**. For the detailed procedure, refer to this [section](../campaigns/reporting-configuration.md).
+
+After selecting the Objectives you want to target on, the two **[!UICONTROL Performance overview]** and **[!UICONTROL Campaign objective]** widgets will provide a detailed summary of your delivery performance. 
+
+With the **[!UICONTROL Campaign objective]** widget, you can also choose to compare your main objective with another metric.
+-->
+
+### 實驗報告 {#experimentation-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_click"
+>title="成功量度"
+>abstract="先前在建立實驗時選取的成功量度的總值除以設定檔的數量。"
+
+![](assets/experimentation_report_3.png)
+
+此 **[!UICONTROL 實驗]** Tab提供每個變體效能的關鍵分析，並識別最成功的變體。
+
+請注意，定義績效最佳者可能需要一些時間，其將以此圖示表示 ![](assets/experimentation_report_1.png).
+
++++進一步瞭解Experimentation報告可用的不同量度和Widget。
+
+此 **[!UICONTROL 實驗結果]** Widget詳細說明每個變體的效能。 您可以變更基線，方法是從 **[!UICONTROL 基線]** 下拉式清單。 最佳處理方式將以星形圖示表示。
+
+此表格會顯示下列量度：
+
+* **[!UICONTROL 提升度超過基準線]**：測量指定處理的轉換率相對於基線的改善百分比。
+
+* **[!UICONTROL 信賴度]**：指定處理與基準處理相同的證據。 [了解更多](../campaigns/experiment-calculations.md#understand-confidence)
+
+* **[!UICONTROL 不重複傳出點按]**：跨傳出頻道的點按總數。
+
+* **[!UICONTROL 設定檔]**：針對此處理的設定檔數目。
+
+* **[!UICONTROL 不重複傳出點按次數/設定檔]**：建立實驗時先前選取的成功量度總值除以設定檔數目。
+
+此 **[!UICONTROL 信賴區間]** 圖表會測量改善的不確定性。 它詳細說明基準線和最佳績效處理之間的績效百分比差異。 [了解更多](../campaigns/experiment-calculations.md#confidence-intervals)。
++++
+
+如需這些結果的深入瞭解及如何解讀，請參閱 [此頁面](../campaigns/get-started-experiment.md#interpret-results).
 
 ## 電子郵件索引標籤 {#email-global}
 

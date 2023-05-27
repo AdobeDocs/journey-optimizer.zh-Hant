@@ -8,14 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 內容，實驗，多個，對象，處理
-hide: true
-hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-badge: label="Beta" type="Informative"
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 10%
+source-wordcount: '748'
+ht-degree: 6%
 
 ---
 
@@ -26,23 +23,11 @@ ht-degree: 10%
 >title="內容實驗"
 >abstract="您可以選擇改變傳遞內容、主題或寄件者，以便定義多種傳遞處理方式並確定最適合您的對象的組合。"
 
->[!BEGINSHADEBOX]
-
-本文件提供下列內容：
-
-* [開始使用內容實驗](get-started-experiment.md)
-* **[建立內容實驗](content-experiment.md)**
-* [瞭解統計計算](experiment-calculations.md)
-* [設定實驗報告](reporting-configuration.md)
-* [實驗報告中的統計計算](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
-
-Journey Optimizer內容實驗可讓您定義多個傳送處理方式，以衡量哪個方式最適合您的目標對象。 您可以選擇變更傳遞內容、主旨或寄件者。 感興趣的對象會隨機分配給每個處理，以決定哪個處理在指定的量度方面效果最佳。
-
 >[!NOTE]
 >
 >開始內容實驗之前，請確定您的報告設定已針對自訂資料集設定。 請參閱[此章節](reporting-configuration.md)深入瞭解。
+
+Journey Optimizer內容實驗可讓您定義多個傳送處理方式，以衡量哪個方式最適合您的目標對象。 您可以選擇變更傳遞內容、主旨或寄件者。 感興趣的對象會隨機分配給每個處理，以決定哪個處理在指定的量度方面效果最佳。
 
 在下列範例中，傳遞目標已分割為兩個群組，每個群組代表目標人口的45%，以及一個保留群組10%，這些群組將不會收到傳遞。
 
@@ -72,6 +57,8 @@ Journey Optimizer內容實驗可讓您定義多個傳送處理方式，以衡量
 -->
 1. 選取您的頻道，然後 **[!UICONTROL 表面]** 您要用於此傳遞，然後按一下 **[!UICONTROL 建立]**. 如需詳細資訊，請參閱 [管道表面](../configuration/channel-surfaces.md) 頁面。
 
+   在此範例中，我們選擇使用電子郵件傳送行銷活動。
+
    ![](assets/content_experiment_2.png)
 
 1. 設定 **[!UICONTROL 屬性]** 您的傳遞內容：
@@ -90,7 +77,7 @@ Journey Optimizer內容實驗可讓您定義多個傳送處理方式，以衡量
 
 1. 若要在特定日期或循環頻率執行行銷活動，請設定 **[!UICONTROL 排程]** 區段。 [了解更多](create-campaign.md)
 
-1. 按一下 **[!UICONTROL 編輯內容]** 以開始個人化您的傳遞。 [了解更多](../email/content-from-scratch.md)
+1. 按一下 **[!UICONTROL 編輯內容]** 以開始個人化您的傳遞。
 
    ![](assets/content_experiment_17.png)
 
@@ -160,57 +147,4 @@ Journey Optimizer內容實驗可讓您定義多個傳送處理方式，以衡量
 
    ![](assets/content_experiment_14.png)
 
-設定實驗與行銷活動後，您可以使用Campaign報告追蹤傳送成功。
-
-## 目標報表 {#objectives-global}
-
->[!AVAILABILITY]
->
->內容實驗功能目前僅適用於一組組織（可用性限制）。 如需詳細資訊，請聯絡您的 Adobe 代表。
-
-![](assets/performance_report.gif)
-
-此 **[!UICONTROL 目標]** Campaign報告的「 」索引標籤可讓您透過鎖定一個特定量度，更好地微調傳送的報告。
-
-此 **[!UICONTROL 目標]** 清單連結至 **[!UICONTROL 資料集]** 定義系統連線，以擷取其他資訊。 內建清單 **[!UICONTROL 目標]** 可使用，但您可以透過新增來新增您自己的 **[!UICONTROL 資料集]**. 如需詳細程式，請參閱此 [區段](reporting-configuration.md).
-
-選取您要鎖定目標之後，兩項 **[!UICONTROL 效能總覽]** 和 **[!UICONTROL 行銷活動目標]** Widget將提供您傳遞效能的詳細摘要。
-
-使用 **[!UICONTROL 行銷活動目標]** widget，您也可以選擇將主要目標與其他量度比較。
-
-請注意，如果需要，可以調整每個Widget的大小並將其刪除。 如需詳細資訊，請參閱此 [區段](../reports/global-report.md#modify-dashboard).
-
-## 實驗報告 {#experimentation-global}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_content_experiment_click"
->title="成功量度"
->abstract="先前在建立實驗時選取的成功量度的總值除以設定檔的數量。"
-
->[!AVAILABILITY]
->
->內容實驗功能目前僅適用於一組組織（可用性限制）。 如需詳細資訊，請聯絡您的 Adobe 代表。
-
-![](assets/experimentation_report_3.png)
-
-從您的行銷活動 **[!UICONTROL 全域報告]**，則 **[!UICONTROL 實驗]** tab會詳細說明與每個變體的表現以及是否有最佳表現相關的主要資訊。
-
-請注意，定義績效最佳者可能需要一些時間，其將以此圖示表示 ![](assets/experimentation_report_1.png).
-
-此 **[!UICONTROL 實驗結果]** Widget詳細說明每個變體的效能。 您可以變更基線，方法是從 **[!UICONTROL 基線]** 下拉式清單。 最佳處理方式將以星形圖示表示。
-
-此表格會顯示下列量度：
-
-* **[!UICONTROL 設定檔]**：針對此處理的設定檔數目。
-
-* **[!UICONTROL 不重複傳出點按]**：跨傳出頻道的點按總數。
-
-* **[!UICONTROL 每個設定檔計數]**：實驗目標量度的總值除以設定檔數量。
-
-* **[!UICONTROL 信賴區間]**：基準線和績效最佳的處理之間的績效差異百分比。 [了解更多](../campaigns/experiment-calculations.md#confidence-intervals)。
-
-* **[!UICONTROL 平均提升度]**：指定處理的轉換率超過基線的改善百分比。 [了解更多](../campaigns/experiment-calculations.md#understand-lift)
-
-* **[!UICONTROL 信賴度]**：指定處理與基準處理相同的證據。 [了解更多](../campaigns/experiment-calculations.md#understand-confidence)
-
-如需這些結果的深入瞭解及如何解讀，請參閱 [此頁面](../campaigns/get-started-experiment.md#interpret-results).
+設定實驗與行銷活動後，您可以使用Campaign報告追蹤傳送成功。 [了解更多](../reports/campaign-global-report.md#experimentation-report)

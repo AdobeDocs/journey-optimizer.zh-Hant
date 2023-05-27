@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 選擇退出，電子郵件，連結，取消訂閱
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 79%
+source-wordcount: '1033'
+ht-degree: 78%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 訊息類別(**[!UICONTROL 行銷]** 或 **[!UICONTROL 異動]**)定義於 [管道表面](../configuration/channel-surfaces.md#email-type) （即訊息預設集）層級，以及在建立訊息時)。
+>行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 訊息類別(**[!UICONTROL 行銷]** 或 **[!UICONTROL 異動]**)定義於 [管道表面](../configuration/channel-surfaces.md#email-type) 層級及建立訊息時)。
 
 ## 外部選擇退出 {#opt-out-external-lp}
 
@@ -64,12 +64,11 @@ ht-degree: 79%
 
 此 POST 呼叫如下：
 
-端點：platform.adobe.io/journey/imp/consent/preferences
+端點：https://platform.adobe.io/journey/imp/consent/preferences
 
 查詢參數：
 
 * **params**：包含加密的裝載
-* **sig**：簽名
 * **pid**：加密的設定檔 ID
 
 這三個參數將包括在傳送給收件者的第三方登陸頁面 URL 中：

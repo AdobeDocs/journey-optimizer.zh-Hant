@@ -9,18 +9,15 @@ keywords: 應用程式內、訊息、建立、開始
 hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-source-git-commit: 252011710574122c1f321a388b65bdafb7c666df
+badge: label="Beta" type="Informative"
+source-git-commit: 50afe137c618153278c596f1553216c20637e40b
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 5%
+source-wordcount: '535'
+ht-degree: 4%
 
 ---
 
 # 在歷程建立應用程式內訊息 {#create-in-app-journey}
-
->[!AVAILABILITY]
->
->應用程式內活動目前僅供選取使用者使用，且為測試版。 若要加入測試版計畫，請連絡 Adobe 客戶服務。
 
 1. 開啟您的歷程，然後拖放 **[!UICONTROL 應用程式內]** 活動來自 **[!UICONTROL 動作]** 區段。
 

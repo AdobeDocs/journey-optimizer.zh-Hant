@@ -8,9 +8,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 keywords: platform、資料湖、建立、湖、資料集、設定檔
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '582'
 ht-degree: 8%
 
 ---
@@ -58,9 +58,9 @@ Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
 
 ![](assets/dataset-export-process.png)
 
-Adobe Experience Platform檔案中提供每個步驟的詳細資訊： [將資料集匯出至雲端儲存空間目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en).
+Adobe Experience Platform檔案中提供每個步驟的詳細資訊： [將資料集匯出至雲端儲存空間目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html).
 
-1. **設定您的雲端儲存空間目的地**. 如果您尚未這樣做，請從目的地目錄連線至雲端儲存空間目的地。 [瞭解如何建立新的目的地連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=en#setup)
+1. **設定您的雲端儲存空間目的地**. 如果您尚未這樣做，請從目的地目錄連線至雲端儲存空間目的地。 [瞭解如何建立新的目的地連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup)
 
    <!--![](assets/dataset-export-setup.png)-->
 

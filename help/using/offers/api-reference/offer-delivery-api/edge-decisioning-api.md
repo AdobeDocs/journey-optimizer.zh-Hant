@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 7347bb56eb2785b2d9f3f641cbe3b7c1ae2d078f
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '993'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ Experience PlatformWeb SDK支援在Adobe查詢個人化解決方案，包括決�
 
 有兩種方式可透過實施決策管理 [平台Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). 一種方式是針對開發人員，需要網站和程式設計知識。 另一種方式是使用Adobe Experience Platform使用者介面來設定選件，該選件只需要在HTML頁面的標頭中參照小型指令碼。
 
-請參閱以下檔案： [決策管理](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) 有關如何使用Adobe Experience Platform Web SDK提供個人化優惠方案的詳細資訊。
+請參閱以下檔案： [決策管理](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning) 有關如何使用Adobe Experience Platform Web SDK提供個人化優惠方案的詳細資訊。
 
 >[!NOTE]
 >
@@ -44,9 +44,9 @@ SDK並未合併這些程式庫，而是全新實施。 若要使用它，您必�
 
    <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-1. [設定您的資料串流](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) (位於您在Adobe Experience Cloud帳戶中的「資料收集」標籤內)。
+1. [設定您的資料串流](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html) (位於您在Adobe Experience Cloud帳戶中的「資料收集」標籤內)。
 
-1. 安裝SDK。 有多種方法可以做到，詳見 [安裝SDK頁面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). 本頁將繼續顯示各種不同的實作方法。
+1. 安裝SDK。 有多種方法可以做到，詳見 [安裝SDK頁面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hant). 本頁將繼續顯示各種不同的實作方法。
 
 若要使用SDK，您必須擁有 [綱要](../../../data/get-started-schemas.md) 和 [資料串流](../../../data/get-started-datasets.md) 已定義。
 
@@ -62,23 +62,23 @@ SDK並未合併這些程式庫，而是全新實施。 若要使用它，您必�
 
 此選項對編碼體驗較差的人來說更容易使用。
 
-1. [建立標籤屬性](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=zh-Hant)
+1. [建立標籤屬性](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html)
 
-1. [新增內嵌程式碼](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
+1. [新增內嵌程式碼](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html)
 
-1. 使用您從「資料流」下拉式選單中選取設定而建立的資料流，安裝並設定Adobe Experience Platform Web SDK擴充功能。 請參閱以下說明檔案： [擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
+1. 使用您從「資料流」下拉式選單中選取設定而建立的資料流，安裝並設定Adobe Experience Platform Web SDK擴充功能。 請參閱以下說明檔案： [擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html).
 
    ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 
    ![設定擴充功能](../../assets/configure-sdk-extension.png)
 
-1. 建立必要的 [資料元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en). 您至少必須建立Platform Web SDK身分對應和Platform Web SDK XDM物件資料元素。
+1. 建立必要的 [資料元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hant). 您至少必須建立Platform Web SDK身分對應和Platform Web SDK XDM物件資料元素。
 
    ![身分對應](../../assets/sdk-identity-map.png)
 
    ![XDM 物件](../../assets/xdm-object.png)
 
-1. 建立您的 [規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en)：
+1. 建立您的 [規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)：
 
    新增Platform Web SDK傳送事件動作，並將相關decisionScopes新增至該動作的設定
 
@@ -86,13 +86,13 @@ SDK並未合併這些程式庫，而是全新實施。 若要使用它，您必�
 
    ![請求優惠](../../assets/rule-request-offer.png)
 
-1. [建立並發佈](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) 包含所有已設定相關規則、資料元素和擴充功能的程式庫。
+1. [建立並發佈](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html) 包含所有已設定相關規則、資料元素和擴充功能的程式庫。
 
 ## 選項2 — 使用預先建立的獨立版本手動實作
 
 以下是使用Web SDK預先建立的獨立安裝來使用決定管理所需的步驟。 本指南假設這是您首次實作SDK，因此所有步驟可能不適用於您。 本指南也假定您有一些開發經驗。
 
-包含選項2的以下JavaScript程式碼片段：上的預先建立獨立版本 [此頁面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) 在 `<head>` HTML部分。
+包含選項2的以下JavaScript程式碼片段：上的預先建立獨立版本 [此頁面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hant) 在 `<head>` HTML部分。
 
 ```
 javascript

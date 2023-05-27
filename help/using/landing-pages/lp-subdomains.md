@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 keywords: 登陸、登陸頁面、子網域、設定
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '827'
 ht-degree: 24%
 
 ---
@@ -39,7 +39,12 @@ ht-degree: 24%
 
 >[!CAUTION]
 >
->登陸頁面子網域設定對所有環境都是通用的。 因此，對登陸頁面子網域所做的任何修改也會影響生產沙箱。
+>登陸頁面子網域設定對所有環境都是通用的。 因此：
+>
+>* 若要存取及編輯登陸頁面子網域，您必須擁有 **[!UICONTROL 管理登陸頁面子網域]** 生產沙箱的許可權。
+>
+> * 對登陸頁面子網域所做的任何修改也會影響生產沙箱。
+
 
 ## 使用現有的子網域 {#lp-use-existing-subdomain}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '726'
 ht-degree: 16%
 
 ---
@@ -69,6 +69,8 @@ ht-degree: 16%
 1. 在 **[!UICONTROL 身分名稱空間]** 欄位中，選擇要使用的名稱空間，以識別所選區段中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
 
    ![](assets/push_create_5.png)
+
+1. 按一下 **[!UICONTROL 建立實驗]** 開始設定內容實驗並建立處理方式，以測量其效能並找出最適合目標對象的選項。 [了解更多](../campaigns/content-experiment.md)
 
 1. 行銷活動的設計目的是要在特定日期或循環頻率執行。 瞭解如何設定 **[!UICONTROL 排程]** 中的行銷活動 [本節](../campaigns/create-campaign.md#schedule).
 

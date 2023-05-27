@@ -11,9 +11,9 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '766'
 ht-degree: 3%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 3%
 
    ![](assets/aem-outbound-menu.png)
 
-1. 您可以從內容資料庫中使用先前設定的範本，或從頭開始建立範本。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page)
+1. 您可以從內容資料庫中使用先前設定的範本，或從頭開始建立範本。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. 將Journey Optimizer個人化語法併入範本中，即可增強其自訂功能。 [了解更多](../personalization/personalization-syntax.md)
 
@@ -93,7 +93,7 @@ ht-degree: 3%
 
 1. 若要進一步個人化您的Experience Manager範本並新增自訂個人化至您的內容，請按一下 **[!UICONTROL 編輯內容]**. 這可讓您輕鬆進行變更，並根據您的特定需求量身打造範本。 [了解更多](get-started-email-design.md)
 
-   >[!NOTE]
+   >[!WARNING]
    >
    > 如果您想要編輯並個人化您的範本，則只能使用相容性模式。
 

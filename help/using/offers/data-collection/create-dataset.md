@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 10%
+source-wordcount: '259'
+ht-degree: 12%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->進一步瞭解在中建立結構描述 [結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target="_blank"}.
+>進一步瞭解在中建立結構描述 [結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant#understanding-schemas){target="_blank"}.
 
 您現在已準備好使用此結構描述建立資料集。 請依照下列步驟執行此操作：
 

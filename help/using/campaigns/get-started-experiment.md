@@ -8,34 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
-hide: true
-hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '2013'
+source-wordcount: '1961'
 ht-degree: 100%
 
 ---
 
 # 開始使用內容實驗 {#get-started-experiment}
-
->[!BEGINSHADEBOX]
-
-本文件提供下列內容：
-
-* **[開始使用內容實驗](get-started-experiment.md)**
-* [建立內容實驗](content-experiment.md)
-* [瞭解統計計算](experiment-calculations.md)
-* [設定實驗報告](reporting-configuration.md)
-* [實驗報告中的統計計算](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->內容實驗功能目前僅可用於一組組織（可用性限制）。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 ## 什麼是內容實驗？
 
