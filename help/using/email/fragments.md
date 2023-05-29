@@ -7,13 +7,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
+exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
+source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1453'
 ht-degree: 3%
 
 ---
-
 
 # 使用片段 {#fragments}
 
@@ -21,8 +21,7 @@ ht-degree: 3%
 
 此功能可讓您預先建立多個自訂內容區塊，非技術行銷使用者可使用此區塊，在改良的設計程式中快速組合電子郵件內容。
 
-<!--
-➡️ [Learn how to create and use templates in this video](#video-templates)-->
+➡️ [在本影片中瞭解如何管理、編寫和使用片段](#video-fragments)
 
 >[!CAUTION]
 >
@@ -266,12 +265,9 @@ ht-degree: 3%
 
 1. 該片段會成為不再連結至原始片段的獨立元素。 編輯它，就像內容中的任何其他內容元件一樣。 [了解更多](content-components.md)
 
-<!--
+## 操作說明影片 {#video-fragments}
 
-## How-to video {#video-templates}
+瞭解如何在中管理、編寫和使用片段 [!DNL Journey Optimizer].
 
-Learn how to create, edit, and use fragments in [!DNL Journey Optimizer].
+>[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
->[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)
-
--->
