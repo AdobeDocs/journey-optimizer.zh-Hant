@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9b38eb37408be9603c0ec06e6f66b4e65465252f
+source-git-commit: 402ec28dc0087a64b3a91c1a937620d931ed28ef
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 99%
+source-wordcount: '869'
+ht-degree: 82%
 
 ---
 
@@ -51,9 +51,9 @@ ht-degree: 99%
 
 **[!UICONTROL 決策管理]**
 
-* **[!UICONTROL 訂閱詳情]** - 從此功能表存取您最近的資源和資料集。使用此區段建立新優惠。 [了解更多](../offers/offer-library/creating-personalized-offers.md)
+* **[!UICONTROL 訂閱詳情]** - 從此功能表存取您最近的資源和資料集。使用此區段來建立優惠方案。 [了解更多](../offers/offer-library/creating-personalized-offers.md)
 
-* **[!UICONTROL 元件]** - 建立位置、規則和標記。[了解更多](../offers/offer-library/key-steps.md)
+* **[!UICONTROL 元件]**  — 建立位置、規則和標籤。 [了解更多](../offers/offer-library/key-steps.md)
 
 **[!UICONTROL 內容管理]**
 
@@ -71,11 +71,11 @@ ht-degree: 99%
 
 **[!UICONTROL 連線]**
 
-* **[!UICONTROL 來源]** - 使用此功能表從多種來源 (例如 Adobe 應用程式、雲端儲存、資料庫等) 擷取資料，並建構、標示和增強傳入資料。[了解更多](get-started-sources.md)
+* **[!UICONTROL 來源]**  — 使用此功能表從多種來源(例如Adobe應用程式、雲端儲存、資料庫等)擷取資料。 您可以建構、標示和增強傳入資料。 [了解更多](get-started-sources.md)
 
 **[!UICONTROL 客戶]**
 
-* **[!UICONTROL 區段]** - 建立和管理 Experience Platform 區段定義，並將它們運用在您的歷程中。[了解更多](../segment/about-segments.md)
+* **[!UICONTROL 區段]**  — 建立和管理Experience Platform區段定義，並將其用於您的歷程。 [了解更多](../segment/about-segments.md)
 
 * **[!UICONTROL 設定檔]** - 即時客戶設定檔可為個別客戶建立整體檢視，並結合來自多個頻道的資料，包括線上、離線、CRM 和第三方資料。[了解更多](../segment/get-started-profiles.md)
 
@@ -83,7 +83,7 @@ ht-degree: 99%
 
 **[!UICONTROL 管理]**
 
-* **[!UICONTROL 歷程管理]** - 使用此選單來設定 [事件](../event/about-events.md)、[資料來源](../datasource/about-data-sources.md)和[動作](../action/action.md) ，以用於您的歷程。
+* **[!UICONTROL 歷程管理]**  — 使用此功能表來設定 [事件](../event/about-events.md)， [資料來源](../datasource/about-data-sources.md)、和 [動作](../action/action.md) ，以用於您的歷程。
 
 * **[!UICONTROL 沙箱]** - Adobe Experience 平台提供的沙箱可將單一執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。[了解更多](../administration/sandboxes.md)
 
@@ -91,7 +91,7 @@ ht-degree: 99%
 
 ## 產品內使用案例 {#in-product-uc}
 
-善用首頁的[!DNL Adobe Journey Optimizer]使用案例，並提供一些快速輸入項目以建立客戶歷程。
+從 [!DNL Adobe Journey Optimizer] 首頁，產品使用案例提供快速輸入以建立客戶歷程。
 
 ![](assets/use-cases-home.png)
 
@@ -102,9 +102,9 @@ ht-degree: 99%
 * **傳送電子郵件以吸引新客戶**，輕鬆傳送最多兩封電子郵件來歡迎新註冊的客戶。(即將推出)
 * **傳送推播訊息至匯入的客戶清單**，以快速將推播通知傳送至從 CSV 檔案匯入的客戶清單。(即將推出)
 
-按一下&#x200B;**[!UICONTROL 檢視詳細資料]**&#x200B;以進一步瞭解每個使用案例。
+若要進一步瞭解每個使用案例，請按一下 **[!UICONTROL 檢視詳細資料]** 連結。
 
-按一下&#x200B;**[!UICONTROL 開始]**&#x200B;按鈕以開始使用案例。
+若要執行使用案例，請按一下 **[!UICONTROL 開始]** 按鈕。
 
 您可以從&#x200B;**[!UICONTROL 檢視使用案例庫]**&#x200B;按鈕存取已執行的案例。
 
@@ -112,13 +112,15 @@ ht-degree: 99%
 
 從首頁的下半頁面存取 Adobe Journey Optimizer 重要說明頁面。
 
-使用&#x200B;**說明**&#x200B;圖示來存取說明頁面、聯絡支援並分享意見。 您可以從搜尋欄位搜尋說明文章和影片。
+使用 **說明** 圖示以存取說明頁面、聯絡支援並分享意見。 您可以從搜尋欄位搜尋說明文章和影片。
 
 ![](assets/ajo-help.png)
 
+在每個頁面中，使用內容說明按鈕來進一步瞭解功能，並瀏覽至 **[!DNL Adobe Experience League]** 說明檔案。
+
 ## 語言偏好設定 {#language-pref}
 
-使用者介面目前提供下列語言版本：
+使用者介面提供下列語言版本：
 
 * 英文
 * 法文
