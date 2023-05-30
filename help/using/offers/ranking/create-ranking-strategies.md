@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
+source-git-commit: d2f0a6db7cd86512febfd307039d06ae4b60232e
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 6%
+source-wordcount: '424'
+ht-degree: 7%
 
 ---
 
@@ -64,6 +64,8 @@ ht-degree: 6%
 
 1. 如果您要建立 **[!UICONTROL 個人化最佳化]** AI模型，選取要用來訓練AI模型的區段。
 
+   ➡️ [在影片中探索此功能](#video)
+
    ![](../assets/ai-ranking-segments.png)
 
    >[!NOTE]
@@ -83,3 +85,9 @@ ht-degree: 6%
 現在，每次顯示和/或按一下優惠方案時，您都希望對應的事件能由 **[!UICONTROL 體驗事件 — 主張互動]** 使用下列專案的欄位群組： [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} 或Mobile SDK。
 
 若要能夠在事件型別（顯示的優惠方案或按一下優惠方案）中傳送，您必須為傳送至Adobe Experience Platform的體驗事件中的每個事件型別設定正確的值。 [了解作法](../data-collection/schema-requirement.md)
+
+## 操作說明影片 {#video}
+
+瞭解如何建立個人化最佳化模型，以及如何將其套用至決定。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
