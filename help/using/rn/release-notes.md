@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
 workflow-type: tm+mt
 source-wordcount: '2466'
-ht-degree: 79%
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 79%
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
 
-## 2023年5月發行說明 {#may-rn-2023}
+## 2023 年 5 月發行說明 {#may-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -52,13 +52,13 @@ ht-degree: 79%
 <table>
 <thead>
 <tr>
-<th><strong>行銷活動中的內容實驗</strong><br/></th>
+<th><strong>行銷活動的內容實驗</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer現在支援行銷活動中的實驗。 實驗是隨機試驗，線上上測試的背景下，意指您讓一些隨機選取的使用者接觸到訊息的給定變數，讓另外一組隨機選取的使用者接觸到一些其他變數或處理方式。 曝光後，您就可以測量感興趣的結果量度，例如電子郵件開啟、訂閱或購買。</p>
+<p>Adobe Journey Optimizer 現在支援行銷活動實驗。 實驗是在線上測試的情境下進行的隨機試驗，意即某些隨機選取的使用者會接觸到訊息的指定變化，而另一組隨機選取的使用者則會接觸到一些其他處理方式。 接觸到後，您就可以測量感興趣的結果量度，例如電子郵件開啟、訂閱或購買數。</p>
 <img src="assets/do-not-localize/experiment.gif"/>
 <p>如需詳細資訊，請參閱<a href="../campaigns/content-experiment.md">詳細文件</a>。</p>
 </td>
@@ -107,14 +107,13 @@ ht-degree: 79%
 <table>
 <thead>
 <tr>
-<th><strong>在您的行銷活動中使用標籤(Beta)</strong><br/></th>
+<th><strong>在您的行銷活動中使用標籤 (測試版)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現可指派 Adobe Experience Platform 統一標籤至行銷活動。 這可讓您輕鬆分類，並改進行銷活動清單的搜尋。 請注意，統一標籤功能目前仍在測試中。
-</p>
+<p>您現可指派 Adobe Experience Platform 統一標籤至行銷活動。 這可讓您輕鬆分類，並改進行銷活動清單的搜尋。 請注意，統一標籤功能目前仍在測試中。</p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>如需詳細資訊，請參閱<a href="../start/search-filter-categorize.md#tags">詳細文件</a>。</p>
 </td>
@@ -127,13 +126,13 @@ ht-degree: 79%
 <table>
 <thead>
 <tr>
-<th><strong>Personalized Optimization AI排名模型（全面發佈）</strong><br/></th>
+<th><strong>Personalized Optimization AI 排名模型 (一般可用性)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Personalized Optimization AI排名模型現在通常可在決策管理中使用。 這種新種類模型允許您根據區段及優惠方案市場對優惠進行最佳化及個人化。</p>
+<p>Personalized Optimization AI 排名模型現在通常可在決策管理中使用。 這種新種類模型允許您根據區段及優惠方案市場對優惠進行最佳化及個人化。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細文件</a>。</p>
 </td>
@@ -147,16 +146,16 @@ ht-degree: 79%
 
 
 
-**受眾**
+**對象**
 
-* 為了因應Audience Portal功能的全面推出，Adobe Experience Platform正在更新系統和檔案內「對象」和「區段」的使用情況。
+* 為了因應全面推出的 Audience Portal 功能，Adobe Experience Platform 正在更新系統和文件內「對象」和「區段」的使用情況。
 
-   * 受眾：一組具有共同特徵和行為的人員、帳戶、家庭或其他實體。
-   * 區段定義：在Adobe Experience Platform中，用來描述目標對象之關鍵特性或行為的規則。 此辭彙先前稱為「區段」。
+   * 對象：一組具有共同特徵和行為的人員、帳戶、家庭或其他實體。
+   * 區段定義：在 Adobe Experience Platform 中，用來描述目標對象之關鍵特性或行為的規則。 此辭彙先前稱為「區段」。
 
-   因此，在Adobe Journey Optimizer和Adobe Experience Platform UI中，您會看到「區段」被「對象」取代，以反映建立和管理對象的新路徑。
+   因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，您會看到「區段」被「對象」取代，以反映建立和管理對象的新路徑。
 
-   在指稱目標為接收訊息的一組設定檔時，「對象」一詞的翻譯已針對某些語言的所有數位體驗產品進行協調：
+   在指稱目標為接收訊息的一組設定檔時，「對象」一詞的翻譯已在部分語言的所有數位體驗產品中保持一致：
 
    * 德文：Zielgruppe
    * 巴西葡萄牙文：público-alvo
@@ -167,13 +166,13 @@ ht-degree: 79%
 
 **簡訊頻道**
 
-* 在設定您的SMS頻道介面時，Infobip已新增為供應商提供者。 [閱讀全文](../sms/sms-configuration.md)
-* Twilio - API認證設定現在包含新增傳訊服務SID的功能，以便與您的Twilio帳戶緊密整合。 [閱讀全文](../sms/sms-configuration.md)
+* 在設定您的簡訊頻道介面時，Infobip 已新增為供應商提供者。 [閱讀全文](../sms/sms-configuration.md)
+* Twillio - API 認證設定現在包含新增傳送訊息服務 SID 的功能，以便與您的 Twillio 帳戶緊密整合。 [閱讀全文](../sms/sms-configuration.md)
 
 **應用程式內頻道**
 
-* 新增Adobe地標服務的訊息觸發規則。 [閱讀全文](../in-app/inapp-configuration.md)
-* 已新增新的Adobe Experience Platform保證功能，以擷取裝置事件並新增為觸發規則。
+* 新增 Adobe 地標服務的新訊息觸發規則。 [閱讀全文](../in-app/inapp-configuration.md)
+* 新增新的 Adobe Experience Platform 保證功能，以擷取裝置事件並新增為觸發規則。
 
 <!--
 **Journeys**
@@ -189,11 +188,11 @@ ht-degree: 79%
 
 **決策管理**
 
-* 如果優惠方案具有 **[!UICONTROL 草稿]** 狀態，且之前從未發佈且已啟用頻率限定。 [閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
+* 如果優惠方案具有&#x200B;**[!UICONTROL 草稿]** 狀態，之前從未發佈且已啟用頻率限定，您現在可以編輯頻率限定。 [閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **個人化**
 
-* 在HTML內容中工作時，您現在可以直接從「個人化編輯器」中選取和插入資產參考。
+* 在 HTML 內容中工作時，您現在可以直接從個人化編輯器中選取和插入資產參考。
 
 ### 修正{#may-2023-fixes}
 
@@ -227,7 +226,7 @@ ht-degree: 79%
 <table>
 <thead>
 <tr>
-<th><strong>行動入門快速入門工作流程（測試版）</strong><br/></th>
+<th><strong>Mobile 上線快速入門工作流程 (測試版)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -244,16 +243,16 @@ ht-degree: 79%
 <table>
 <thead>
 <tr>
-<th><strong>新歷程儀表板（測試版）</strong><br/></th>
+<th><strong>新歷程儀表板 (測試版)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> Journey儀表板現在分成兩個標籤：</p>
-<ul><li>使用 <strong>概觀</strong> 標籤來存取顯示與歷程相關之關鍵量度的新儀表板。</li>
-<li>使用 <strong>瀏覽</strong> 標籤以存取所有歷程的清單。</li></ul>
-<p>此功能可作為公開測試版存取，於所有歷程中使用。</p>
+<p> 歷程儀表板現在分成兩個標籤：</p>
+<ul><li>使用<strong>概觀</strong>標籤來存取顯示與您的歷程相關的關鍵量度新儀表板。</li>
+<li>使用<strong>瀏覽</strong>標籤來存取所有歷程的清單。</li></ul>
+<p>此功能可在公開測試版的所有歷程中使用。</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/journey-gs.md#journey-access">詳細文件</a>。</p>
 </td>
@@ -387,7 +386,7 @@ ht-degree: 79%
 <table>
 <thead>
 <tr>
-<th><strong>應用程式內頻道(Beta)</strong><br/></th>
+<th><strong>應用程式內頻道 (測試版)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -405,7 +404,7 @@ ht-degree: 79%
 <table>
 <thead>
 <tr>
-<th><strong>將Journey Optimizer資料集匯出至雲端儲存目標（測試版）</strong><br/></th>
+<th><strong>將 Journey Optimizer 資料集匯出至雲端儲存空間目的地 (測試版)</strong><br/></th>
 </tr>
 </thead>
 <tbody>

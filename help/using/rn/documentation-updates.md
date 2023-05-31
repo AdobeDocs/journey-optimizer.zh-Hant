@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
 workflow-type: tm+mt
 source-wordcount: '2876'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 95%
 
 ## 2023 年 5 月 {#may-2023}
 
-* 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2023年5月版本的詳細資訊，請參閱本檔案。 [閱讀全文](release-notes.md)
+* 有關[!DNL Journey Optimizer] 2023 年 5 月發佈內容的新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
 * 已新增新頁面說明如何設定子網域，以便用於發佈來自網頁體驗 Adobe Experience Manager Assets Essentials 的內容。 [閱讀全文](../web/web-delegated-subdomains.md)
-* 已新增新的子區段，以說明如何在電子郵件設計工具中新增個人化追蹤引數至URL。 [閱讀全文](../email/message-tracking.md#url-tracking)
+* 已新增新子區段，說明如何在電子郵件設計工具中新增個人化追蹤參數至 URL。 [閱讀全文](../email/message-tracking.md#url-tracking)
 * 已新增新區段，說明如何確保選擇退出使用其設定檔資料進行個人化的客戶獲得尊重。 [閱讀全文](../privacy/opt-out.md#opt-out-personalization)
-* 已新增附註，說明如何在電子郵件內容所包含的URL中使用特殊國際字元。 [閱讀全文](../email/message-tracking.md#insert-links)
-* 已新增測試和發佈登入頁面所需的許可權。 [閱讀全文](../landing-pages/create-lp.md)
+* 已新增附註，說明如何使用包含在電子郵件內容中的 URL 特殊國際字元。 [閱讀全文](../email/message-tracking.md#insert-links)
+* 已新增測試和發佈登陸頁面所需的權限。 [閱讀全文](../landing-pages/create-lp.md)
 * 已新增附註，說明將自訂事件納入決定管理頻率上限所需的Adobe Experience Platform端點。 [閱讀全文](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## 2023 年 4 月 {#apr-2023}

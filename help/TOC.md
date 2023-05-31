@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
 workflow-type: tm+mt
 source-wordcount: '1377'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -168,8 +168,8 @@ ht-degree: 98%
       + [建立內容實驗](using/campaigns/content-experiment.md)
       + [設定實驗報告](using/campaigns/reporting-configuration.md)
       + 技術備忘稿 {#technotes}
-         + [瞭解統計計算](using/campaigns/experiment-calculations.md)
-         + [瞭解實驗報告中的統計計算](using/campaigns/experiment-report-calculations.md)
+         + [了解統計計算](using/campaigns/experiment-calculations.md)
+         + [了解實驗報告中的統計計算](using/campaigns/experiment-report-calculations.md)
    + [利用 API 觸發行銷活動](using/campaigns/api-triggered-campaigns.md)
 + 電子郵件頻道 {#email}
    + [開始使用電子郵件](using/email/get-started-email.md)
@@ -473,7 +473,7 @@ ht-degree: 98%
    + 存取控制概覽 {#privacy}
       + [開始使用使用者管理](using/administration/permissions-overview.md)
       + [內建角色](using/administration/ootb-product-profiles.md)
-      + [內建許可權](using/administration/ootb-permissions.md)
+      + [內建權限](using/administration/ootb-permissions.md)
       + [權限層級](using/administration/high-low-permissions.md)
    + [管理使用者和角色](using/administration/permissions.md)
    + [以屬性為基礎的存取控制](using/administration/attribute-based-access.md)

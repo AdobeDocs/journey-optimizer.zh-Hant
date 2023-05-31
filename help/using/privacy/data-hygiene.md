@@ -10,7 +10,7 @@ exl-id: 8045b559-bf5e-4b5f-9da4-accd44641a68
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
 source-wordcount: '133'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,4 +30,4 @@ ht-degree: 95%
 有關 Privacy Service 以及如何執行資料整理操作的詳細資訊，請參閱 Adobe Experience Platform 文件：
 
 * [Privacy Service 概觀](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant)
-* [Adobe Experience Platform 的資料整理](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html)
+* [Adobe Experience Platform 的資料整理](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=zh-Hant)
