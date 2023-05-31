@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 設定，實驗，報告，最佳化工具
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 066bceb078f619e75e5776764f534619d5a0bd5a
+source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 28%
+source-wordcount: '564'
+ht-degree: 36%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 28%
 >title="選取資料集"
 >abstract="您只能選取一個事件類型的資料集，該資料集必須至少包含一個受支援的欄位群組：應用程式詳細資訊、商務詳細資訊、Web 詳細資訊。"
 
-<!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
+資料來源設定可讓您定義系統連線，以擷取將用於報告的其他資訊。
 
-報告資料來源設定可讓您擷取將用於以下專案的其他量度： **[!UICONTROL 目標]** 標籤內的任何專案。 [了解更多](content-experiment.md#objectives-global)
+<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports. [Learn more](content-experiment.md#objectives-global)-->
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ ht-degree: 28%
 
    同樣地，如果您想要報告行動互動，則需要建立體驗事件資料集， **應用程式詳細資料** 欄位群組。
 
-   會列出與每個欄位群組對應的量度 [此處](#objective-list).
+   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
 * 您可以將這些欄位群組新增到一個或多個方案中，這些方案將用於一個或多個資料集。
 
@@ -67,15 +67,17 @@ ht-degree: 28%
 >
 >瞭解更多關於XDM結構描述和欄位群組 [XDM系統概觀檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}.
 
-## 對應至每個欄位群組的目標 {#objective-list}
+<!--
+## Objectives corresponding to each field group {#objective-list}
 
-下表顯示要將哪些量度新增至 **[!UICONTROL 目標]** 標籤中每個欄位群組的行銷活動報告。
+The table below shows which metrics will be added to the **[!UICONTROL Objectives]** tab of your campaign reports for each field group.
 
-| 欄位群組 | 目標 |
+| Field group | Objectives |
 |--- |--- |
-| 商務詳細資料 | 總價<br>付款金額<br>（不重複）結帳<br>（不重複）產品清單新增<br>（唯一）產品清單開啟<br>（獨特）產品清單移除<br>（不重複）產品清單檢視<br>（不重複）產品檢視<br>（不重複）購買<br>（不重複）儲存供日後使用<br>產品總價<br>產品數量 |
-| 應用程式詳細資料 | （不重複）應用程式啟動次數<br>首次應用程式啟動<br>（不重複）應用程式安裝次數<br>（不重複）應用程式升級 |
-| 網頁詳細資訊 | （不重複）頁面檢視 |
+| Commerce Details | Price Total<br>Payment Amount<br>(Unique) Checkouts<br>(Unique) Product List Adds<br>(Unique) Product List Opens<br>(Unique) Product List Removal<br>(Unique) Product List Views<br>(Unique) Product Views<br>(Unique) Purchases<br>(Unique) Save For Laters<br>Product Price Total<br>Product Quantity |
+| Application Details | (Unique) App Launches<br>First App Launches<br>(Unique) App Installs<br>(Unique) App Upgrades |
+| Web Details | (Unique) Page Views |
+-->
 
 ## 新增資料集 {#add-datasets}
 
@@ -123,15 +125,16 @@ ht-degree: 28%
    >
    >如果選取了非事件類型的資料集，則無法繼續。
 
-建立行銷活動報表時，您現在可以看到與您新增的資料集中使用的欄位群組相對應的量度。 前往 **[!UICONTROL 目標]** 標籤並選取您選擇的量度，以更精細地調整報表。 [了解更多](content-experiment.md#objectives-global)
+<!--
+When building your campaign reports, you can now see the metrics corresponding to the field groups used in the datasets you added. Go to the **[!UICONTROL Objectives]** tab and select the metrics of your choice to better fine-tune your reports. [Learn more](content-experiment.md#objectives-global)
 
 ![](assets/reporting-config-objectives.png)
 
 >[!NOTE]
 >
->如果新增多個資料集，則所有資料集中的所有資料都可用於報告。
+>If you add several datasets, all data from all datasets will be available for reporting.
 
-<!--
+
 ## How-to video {#video}
 
 Understand how to configure Experience Platform reporting data sources.

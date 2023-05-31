@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '457'
 ht-degree: 6%
 
 ---
@@ -119,12 +119,15 @@ For more information on how to configure a journey, refer to [this page](../buil
 >[!ENDTABS]
 -->
 
-## 操作說明影片{#video}
+## 作法影片{#video}
 
 以下影片說明如何在行銷活動中建立、設定和發佈應用程式內訊息。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
+以下影片說明如何設定和分析A/B測試應用程式內訊息的內容實驗。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419898)
 
 **相關主題：**
 
