@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 2d3cb7e9981e7df1f2cdd6eff1506fce24a5a962
+source-git-commit: 8ca779efd237174c3ac9b7694b1cb81fc8b3ea3e
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '531'
 ht-degree: 4%
 
 ---
@@ -52,6 +52,8 @@ ht-degree: 4%
    * **[!UICONTROL 顯示一次]**：只會在中第一次選取事件時顯示此訊息 **[!UICONTROL 行動應用程式觸發程式]** 下拉式清單隨即出現。
    * **[!UICONTROL 顯示至點進為止]**：當在中選取事件時顯示此訊息 **[!UICONTROL 行動應用程式觸發程式]** 下拉式清單會一直出現，直到SDK以「已點按」的動作傳送互動事件為止。
 
+1. 選取一週中要觸發應用程式內訊息的日期和特定時間，然後按一下 **[!UICONTROL 儲存]**.
+
 1. 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解更多](../building-journeys/about-journey-activities.md)
 
 1. 應用程式內訊息準備就緒後，請完成設定並發佈您的歷程以將其啟用。
@@ -70,7 +72,7 @@ ht-degree: 4%
 
 * **[!UICONTROL 反應]** 活動無法用於對應用程式內開啟或點按做出反應。
 
-* 使用者設定檔到達畫布中的應用程式內活動時，與他們開始看到應用程式內訊息時，就會發生啟用延遲。 此延遲的範圍為15分鐘到1小時。
+* 使用者設定檔到達畫布中的應用程式內活動時，與他們開始看到應用程式內訊息時，可能會發生啟用延遲。
 
 **相關主題：**
 
