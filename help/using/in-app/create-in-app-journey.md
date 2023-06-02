@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 8ca779efd237174c3ac9b7694b1cb81fc8b3ea3e
+source-git-commit: 9994bc6076f55128f5aa2c316433986eeff714b3
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '555'
 ht-degree: 4%
 
 ---
@@ -51,6 +51,7 @@ ht-degree: 4%
    * **[!UICONTROL 每次都顯示]**：一律顯示中選取的事件時的訊息 **[!UICONTROL 行動應用程式觸發程式]** 下拉式清單隨即出現。
    * **[!UICONTROL 顯示一次]**：只會在中第一次選取事件時顯示此訊息 **[!UICONTROL 行動應用程式觸發程式]** 下拉式清單隨即出現。
    * **[!UICONTROL 顯示至點進為止]**：當在中選取事件時顯示此訊息 **[!UICONTROL 行動應用程式觸發程式]** 下拉式清單會一直出現，直到SDK以「已點按」的動作傳送互動事件為止。
+   * **[!UICONTROL X次數]**：僅顯示訊息的特定次數，由中設定的值決定。 **[!UICONTROL 顯示時間]** 欄位。
 
 1. 選取一週中要觸發應用程式內訊息的日期和特定時間，然後按一下 **[!UICONTROL 儲存]**.
 
