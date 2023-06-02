@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 50afe137c618153278c596f1553216c20637e40b
+source-git-commit: 2d3cb7e9981e7df1f2cdd6eff1506fce24a5a962
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '516'
 ht-degree: 4%
 
 ---
@@ -37,21 +37,20 @@ ht-degree: 4%
 
    ![](assets/in_app_journey_4.png)
 
-1. 選擇應用程式內訊息作用中時的觸發頻率：
+1. 從 **[!UICONTROL 應用程式內訊息觸發程式]** 視窗，選擇將觸發訊息的事件和條件：
+
+   1. 按一下 **[!UICONTROL 新增條件]** 如果您希望觸發器考量多個事件或條件。
+   1. 從 **[!UICONTROL 選取事件]** 下拉式清單，選取觸發器的事件型別。
+   1. 選取事件的連結方式，例如，選擇 **[!UICONTROL 和]** 如果您需要 **兩者** 觸發器設為true，以便顯示或選擇訊息 **[!UICONTROL 或]** 如果您想要顯示訊息，如果 **兩者之一** 的觸發程式為true。
+   1. 按一下 **[!UICONTROL 建立群組]** 將觸發程式群組在一起。
+
+   ![](assets/in_app_journey_3.png)
+
+1. 選擇應用程式內訊息生效時的觸發頻率：
 
    * **[!UICONTROL 每次都顯示]**：一律顯示中選取的事件時的訊息 **[!UICONTROL 行動應用程式觸發程式]** 下拉式清單隨即出現。
    * **[!UICONTROL 顯示一次]**：只會在中第一次選取事件時顯示此訊息 **[!UICONTROL 行動應用程式觸發程式]** 下拉式清單隨即出現。
    * **[!UICONTROL 顯示至點進為止]**：當在中選取事件時顯示此訊息 **[!UICONTROL 行動應用程式觸發程式]** 下拉式清單會一直出現，直到SDK以「已點按」的動作傳送互動事件為止。
-
-1. 從 **[!UICONTROL 行動應用程式觸發程式]** 在下拉式清單中，選擇將觸發訊息的事件和條件：
-
-   1. 從左側下拉式清單中，選取觸發訊息所需的事件。
-   1. 從右側的下拉式清單中，選取所選事件所需的驗證。
-   1. 按一下 **[!UICONTROL 新增]** 按鈕（如果要觸發器考慮多個事件或條件）。 然後，重複上述步驟。
-   1. 選取事件的連結方式，例如，選擇 **[!UICONTROL 和]** 如果您需要 **兩者** 觸發器設為true，以便顯示或選擇訊息 **[!UICONTROL 或]** 如果您想要顯示訊息，如果 **兩者之一** 的觸發程式為true。
-   1. 按一下 **[!UICONTROL 儲存]** 您的觸發器設定完成時。
-
-   ![](assets/in_app_journey_3.png)
 
 1. 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解更多](../building-journeys/about-journey-activities.md)
 
