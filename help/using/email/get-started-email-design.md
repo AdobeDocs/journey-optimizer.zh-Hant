@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 電子郵件、設計、素材、資產
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
 ht-degree: 100%
 
@@ -70,6 +70,6 @@ ht-degree: 100%
 
 >[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
-瞭解如何設定內容實驗以進行 A/B 測試並探索電子郵件內容，以最佳方式推動您的業務目標。
+了解如何設定內容實驗以進行 A/B 測試並探索電子郵件內容，以最佳方式推動您的業務目標。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419893)
