@@ -5,9 +5,9 @@ title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2876'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 99%
 * 已新增新區段，說明如何確保選擇退出使用其設定檔資料進行個人化的客戶獲得尊重。 [閱讀全文](../privacy/opt-out.md#opt-out-personalization)
 * 已新增附註，說明如何使用包含在電子郵件內容中的 URL 特殊國際字元。 [閱讀全文](../email/message-tracking.md#insert-links)
 * 已新增測試和發佈登陸頁面所需的權限。 [閱讀全文](../landing-pages/create-lp.md)
-* 已新增附註，說明將自訂事件納入決定管理頻率上限所需的Adobe Experience Platform端點。 [閱讀全文](../offers/data-collection/schema-requirement.md#track-custom-events)
+* 已新增備註，說明將自訂事件納入決策管理頻率限定所需的 Adobe Experience Platform 端點。 [閱讀全文](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## 2023 年 4 月 {#apr-2023}
 
