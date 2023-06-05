@@ -5,9 +5,9 @@ title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2466'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -89,13 +89,13 @@ ht-degree: 97%
 <table>
 <thead>
 <tr>
-<th><strong>在您的電子郵件內容中建立和使用片段</strong><br/></th>
+<th><strong>在電子郵件內容中建立和使用片段</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以創作、使用和管理片段，以快速組合您的電子郵件和內容範本。 片段是預先建立的可重複使用元件，可在跨Journey Optimizer行銷活動和歷程的多封電子郵件中參考，以改進並加快設計流程。</p>
+<p>您現在可以製作、使用和管理片段，以快速組合電子郵件與內容範本。 片段是預先建立的可重複使用元件，可在跨 Journey Optimizer 行銷活動和歷程的多封電子郵件中參考，以改進和加快設計流程。</p>
 <img src="assets/do-not-localize/fragments.gif"/>
 <p>如需詳細資訊，請參閱<a href="../email/fragments.md">詳細文件</a>。</p>
 </td>
