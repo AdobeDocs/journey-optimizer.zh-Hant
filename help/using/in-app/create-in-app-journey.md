@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 8b966ddc9f96485e27cc7e9aa360d6d2ead84153
+source-git-commit: e91ca6f6210fd883e7a483fe81dda59bdf6ab42a
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 4%
+source-wordcount: '735'
+ht-degree: 3%
 
 ---
 
@@ -74,6 +74,35 @@ ht-degree: 4%
 * **[!UICONTROL 反應]** 活動無法用於對應用程式內開啟或點按做出反應。
 
 * 使用者設定檔到達畫布中的應用程式內活動時，與他們開始看到應用程式內訊息時，可能會發生啟用延遲。
+
+## 應用程式內報告 {#inapp-report}
+
+從您的歷程 **[!UICONTROL 全域報告]**，則 **[!UICONTROL 應用程式內]** 索引標籤會詳細說明歷程中傳送之應用程式內傳遞的相關主要資訊。
+
+進一步瞭解 [歷程全域報告](../reports/journey-global-report.md).
+
+![](assets/in-app-journey-report.png)
+
++++進一步瞭解應用程式內報表可用的不同量度和Widget。
+
+此 **[!UICONTROL 應用程式內績效]** KPI會詳細說明與訪客與您應用程式內訊息的參與度相關的主要資訊，例如：
+
+* **[!UICONTROL 不重複曝光次數]**：應用程式內訊息傳遞至的不重複使用者人數。
+
+* **[!UICONTROL 曝光次數]**：傳送給所有使用者的應用程式內訊息總數。
+
+* **[!UICONTROL 點按率]**：與已看過訊息的使用者相比，與應用程式內訊息中所包含按鈕互動的使用者百分比。
+
+* **[!UICONTROL 解除率]**：收件者已解除的應用程式內訊息百分比。
+
+此 **[!UICONTROL 應用程式內摘要]** 圖表會顯示相關期間應用程式內曝光次數的演變。
+
+此 **[!UICONTROL 依據按鈕的點按次數]** 圖表和表格包含每個按鈕的收件者行為可用資料：
+
+* **[!UICONTROL 點按次數]**：與應用程式內訊息所含按鈕互動的收件者總數。
+
+* **[!UICONTROL 點按率]**：與已看過訊息的使用者相比，與應用程式內訊息中所包含按鈕互動的使用者百分比。
++++
 
 **相關主題：**
 
