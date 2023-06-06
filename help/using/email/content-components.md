@@ -12,7 +12,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 54%
+ht-degree: 57%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 54%
    >
    >您可以將多個元件新增到單一結構元件和結構元件的每個欄中。
 
-1. 使用調整每個元件的樣式屬性 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 索引標籤在右側。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。[進一步了解對齊方式和邊框間距](alignment-and-padding.md)
+1. 使用調整每個元件的樣式屬性 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 索引標籤在右側。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。[了解對齊方式和邊框間距的詳細資訊](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
@@ -137,7 +137,7 @@ ht-degree: 54%
 
 使用&#x200B;**[!UICONTROL 分隔線]**&#x200B;元件以插入分隔線來組織電子郵件的版面和內容。
 
-您可以從以下位置調整樣式屬性，例如線條的顏色、樣式和高度： **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 索引標籤。
+您可以從「**[!UICONTROL 設定]**」和「**[!UICONTROL 樣式]**」索引標籤調整樣式屬性，例如線條顏色、樣式和高度。
 
 ![](assets/email_designer_divider.png)
 
@@ -167,7 +167,7 @@ ht-degree: 54%
 
    ![](assets/email_designer_image_content.png)
 
-1. 按一下「**[!UICONTROL 瀏覽]**」從您的資產中選擇影像檔案。
+1. 按一下「**[!UICONTROL 瀏覽]**」，從您的資產中選擇影像檔案。
 
    若要深入瞭解 [!DNL Assets Essentials]，請參閱 [Adobe Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
@@ -190,7 +190,7 @@ ht-degree: 54%
 
 1. 選取您新新增的元件。
 
-1. 在 **[!UICONTROL 社交]** 的欄位 **[!UICONTROL 設定]** 標籤中，選擇要新增或移除的社群媒體。
+1. 在「**[!UICONTROL 設定]**」索引標籤的「**[!UICONTROL 社交]**」欄位中，選擇要新增或移除的社交媒體。
 
    ![](assets/email_designer_20.png)
 

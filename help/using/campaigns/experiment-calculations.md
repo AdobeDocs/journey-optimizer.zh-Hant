@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ---
 
-# 瞭解統計計算 {#experiment-calculations}
+# 了解統計計算 {#experiment-calculations}
 
 本文說明在Adobe Journey Optimizer中執行實驗時所使用的統計計算。
 

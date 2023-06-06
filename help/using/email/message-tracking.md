@@ -12,7 +12,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: af1bc66021f04dacee8cf674925af9e2d0c2f30b
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 34%
 >
 >時間 [已啟用追蹤](#enable-tracking)，則會追蹤訊息內容中包含的所有連結。
 
-若要將連結插入到電子郵件內容，請依照以下步驟操作：
+若要將連結插入到電子郵件內容，請依照以下步驟進行：
 
 1. 選取元素，然後從內容關聯式工具列中按一下「**[!UICONTROL 插入連結]**」。
 
@@ -111,7 +111,7 @@ ht-degree: 34%
 
    ![](assets/link_1.png)
 
-1. 若要變更連結的顏色，請按一下 **[!UICONTROL 連結顏色]** 從 **[!UICONTROL 樣式]** 標籤。
+1. 若要變更連結的顏色，請從「**[!UICONTROL 樣式]**&#x200B;索引標籤，按一下「**[!UICONTROL 連結顏色]**」。
 
    ![](assets/link_3.png)
 

@@ -12,7 +12,7 @@ exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 1e149c33159ba8b5d96f5752bddc7ebe9f3934fe
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 14%
 
 ### 傳送確認電子郵件 {#send-confirmation-email}
 
-此外，您也可以傳送確認電子郵件給註冊了您事件的收件者。 若要這麼做，請遵循下列步驟。
+此外，您也可以傳送確認電子郵件給註冊了您事件的收件者。 若要執行此操作，請遵循下列步驟。
 
 1. 建立另一個 [歷程](../building-journeys/journey.md). 您可以按一下「 」，直接從登入頁面執行此操作 **[!UICONTROL 建立歷程]** 按鈕。 [了解更多](create-lp.md#configure-primary-page)
 

@@ -26,7 +26,7 @@ ht-degree: 8%
 
 此外，區段也可以從區段服務本身建立。 進一步瞭解 [Adobe Experience Platform Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
-## 在中使用區段 [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+## 在 [!DNL Journey Optimizer] 中使用  區段 {#segments-in-journey-optimizer}
 
 您可以在中運用區段 **[!DNL Journey Optimizer]** 以不同方式：
 

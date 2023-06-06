@@ -88,7 +88,7 @@ ht-degree: 57%
 
 1. 展開 **[!UICONTROL 內容]** 區段，並視需要將任意數量的元素新增至一或多個結構元件中。 [進一步了解內容元件](content-components.md)
 
-1. 每個元件都可進一步透過以下方式自訂： **[!UICONTROL 設定]** 或 **[!UICONTROL 樣式]** 索引標籤在右側功能表中。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。[進一步了解對齊方式和邊框間距](alignment-and-padding.md)
+1. 每個元件都可進一步透過以下方式自訂： **[!UICONTROL 設定]** 或 **[!UICONTROL 樣式]** 索引標籤在右側功能表中。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。[了解對齊方式和邊框間距的詳細資訊](alignment-and-padding.md)
 
    ![](assets/email_designer_structure_component.png)
 

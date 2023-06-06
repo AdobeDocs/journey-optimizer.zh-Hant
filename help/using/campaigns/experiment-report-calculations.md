@@ -9,11 +9,11 @@ exl-id: 2ab7a205-5aa6-4430-a498-d703cda7b8aa
 source-git-commit: 8da2b22b36a21f95a49f4195c25ccec9b055bbd6
 workflow-type: tm+mt
 source-wordcount: '932'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 瞭解實驗報告中的統計計算 {#experiment-report-calculations}
+# 了解實驗報告中的統計計算 {#experiment-report-calculations}
 
 本頁會記錄Adobe Journey Optimizer行銷活動的Experimentation報告中使用的詳細統計計算。
 
