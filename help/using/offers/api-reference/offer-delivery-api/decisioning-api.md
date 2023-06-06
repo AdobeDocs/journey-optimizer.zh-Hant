@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: a2f4a7f7b08cce3980eab71fea0b2704975087ca
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 3%
@@ -191,7 +191,7 @@ curl -X POST \
 | `xdm:propositions.xdm:content` | 回應內容的格式。 | 回應內容可以是： `text`， `html block`，或 `image link` |
 | `xdm:score` | 根據與選項或決定相關聯的排名函式計算出的選項分數。 如果排名功能涉及在排名期間判斷優惠方案的分數，API會傳回此欄位。 | `"xdm:score": 45.65` |
 | `xdm:propositions.xdm:fallback` | 此物件包含單一遞補優惠，包括其唯一識別碼。 | `"xdm:id": "xcore:fallback:ccc0222"` |
-| `xdm:propositions.xdm:fallback.dc:format` | 資源的實體或數位表現形式。 通常，格式應包含資源的媒體型別。 格式可用於決定顯示或操作資源所需的軟體、硬體或其他裝置。 建議從受控辭彙表中選取值，例如 [網際網路媒體型別](http://www.iana.org/assignments/media-types/) 定義電腦媒體格式。 | `"dc:format": "image/png"` 或 `"image/jpeg"` |
+| `xdm:propositions.xdm:fallback.dc:format` | 資源的實體或數位表現形式。 通常，格式應包含資源的媒體型別。 格式可用於決定顯示或操作資源所需的軟體、硬體或其他裝置。 建議從受控辭彙表中選取值，例如 [網際網路媒體型別](https://www.iana.org/assignments/media-types/) 定義電腦媒體格式。 | `"dc:format": "image/png"` 或 `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | 從內容傳遞網路或服務端點讀取資產的可選URL。 此URL用於從使用者代理程式公開存取資產。 | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | 建立決定回應訊息的時間。 以紀元時間表示。 | `"ode:createDate": 1566497582038` |
 

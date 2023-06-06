@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: 應用程式內、訊息、設定、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 21aeac323a43ac95d98f4798ff3d51ad32f2ebf9
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 11%
+source-wordcount: '281'
+ht-degree: 12%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 在傳送應用程式內訊息之前，您必須在以下位置設定應用程式內頻道： [!DNL Adobe Experience Platform Data Collection].
 
-1. 從您的 [!DNL Adobe Experience Platform Data Collection] 帳戶，存取 **[!UICONTROL 資料流]** 功能表並按一下 **[!UICONTROL 新增資料串流]**. 如需資料流建立的詳細資訊，請參閱 [此頁面](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams).
+1. 從您的 [!DNL Adobe Experience Platform Data Collection] 帳戶，存取 **[!UICONTROL 資料流]** 功能表並按一下 **[!UICONTROL 新增資料串流]**. 如需資料流建立的詳細資訊，請參閱 [此頁面](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant).
 
 1. 選取 [!DNL Adobe Experience Platform] 服務。
 

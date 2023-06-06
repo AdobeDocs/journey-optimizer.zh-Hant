@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 3%
@@ -94,7 +94,7 @@ ht-degree: 3%
 
       **欄位：** 格式
       **標題：** 格式
-      **說明：** 資源的實體或數位表現形式。 通常，格式應包含資源的媒體型別。 格式可用於決定顯示或操作資源所需的軟體、硬體或其他裝置。 建議的最佳作法是從受控的辭彙(例如 [網際網路媒體型別](http://www.iana.org/ assignments/media-types/)定義電腦媒體格式)。
+      **說明：** 資源的實體或數位表現形式。 通常，格式應包含資源的媒體型別。 格式可用於決定顯示或操作資源所需的軟體、硬體或其他裝置。 建議的最佳作法是從受控的辭彙(例如 [網際網路媒體型別](https://www.iana.org/ assignments/media-types/)定義電腦媒體格式)。
       **類型:**字串
       **範例：** &quot;application/vnd.adobe.photoshop&quot;
 

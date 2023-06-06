@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 10%
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 您可以透過向發出PATCH請求，修改或更新容器中的遞補優惠。 [!DNL Offer Library] API。
 
-如需JSON修補程式的詳細資訊，包括可用操作，請參閱官方檔案 [JSON修補程式檔案](http://jsonpatch.com/).
+如需JSON修補程式的詳細資訊，包括可用操作，請參閱官方檔案 [JSON修補程式檔案](https://jsonpatch.com/).
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
@@ -62,7 +62,7 @@ curl -X PATCH \
 
 | 參數 | 說明 |
 | --------- | ----------- |
-| `op` | 用來定義更新連線所需動作的操作呼叫。 作業包括： `add`， `replace`、和 `remove`. |
+| `op` | 用於定義更新連線所需動作的操作呼叫。 作業包括： `add`， `replace`、和 `remove`. |
 | `path` | 要更新的引數路徑。 |
 | `value` | 您想要用來更新引數的新值。 |
 

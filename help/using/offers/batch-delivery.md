@@ -2,7 +2,7 @@
 title: 批次決策
 description: 瞭解如何將優惠決定傳遞至特定Adobe Experience Platform區段中的所有設定檔。
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Journey Optimizer可讓您將優惠決定傳送給特定Adobe Experience Platfor
 
 * **資料集** 在Adobe Experience Platform中。 此資料集將用於儲存使用「ODE DecisionEvents」結構描述的決策結果。 進一步瞭解 [資料集檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant).
 
-* **區段** 在Adobe Experience Platform中。 應評估該區段並加以更新。 瞭解如何更新中的區段會籍評估 [Segment Service檔案](http://www.adobe.com/go/segmentation-overview-en)
+* **區段** 在Adobe Experience Platform中。 應評估該區段並加以更新。 瞭解如何更新中的區段會籍評估 [Segment Service檔案](https://www.adobe.com/go/segmentation-overview-en)
 
    >[!NOTE]
    >

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 3%
@@ -260,7 +260,7 @@ ht-degree: 3%
 
 **欄位：** endTime
 **標題：** 活動結束日期和時間
-**說明：** 決定（先前稱為活動）結束日期和結束時間。 屬性具有在http://schema.org/Action上定義的schema.org的「endTime」屬性的語意。
+**說明：** 決定（先前稱為活動）結束日期和結束時間。 屬性具有在https://schema.org/Action上定義的schema.org的「endTime」屬性的語意。
 **類型:**&#x200B;字串
 
 +++
@@ -287,7 +287,7 @@ ht-degree: 3%
 
 **欄位：** startTime
 **標題：** 活動開始日期和時間
-**說明：** 決定（先前稱為活動）開始日期和結束時間。 屬性具有在http://schema.org/Action上定義的schema.org的「startTime」屬性的語意。
+**說明：** 決定（先前稱為活動）開始日期和結束時間。 屬性具有在https://schema.org/Action上定義的schema.org的「startTime」屬性的語意。
 **類型:**&#x200B;字串
 
 +++

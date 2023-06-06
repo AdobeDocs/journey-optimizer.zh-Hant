@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
-source-git-commit: 230f4915baedf557fe8effe216f463fca6af4849
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 8%
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 您可以透過向以下發出PATCH請求，修改或更新容器中的集合限定詞（先前稱為「標籤」）： [!DNL Offer Library] API。
 
-如需JSON修補程式的詳細資訊，包括可用操作，請參閱官方檔案 [JSON修補程式檔案](http://jsonpatch.com/).
+如需JSON修補程式的詳細資訊，包括可用操作，請參閱官方檔案 [JSON修補程式檔案](https://jsonpatch.com/).
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
