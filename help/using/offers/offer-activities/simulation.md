@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
+source-git-commit: c2cd44113223b9886f803da131e451440293a966
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '901'
 ht-degree: 6%
 
 ---
 
 # 建立模擬 {#create-simulations}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_simulation"
+>title="模擬優惠決定"
+>abstract="模擬可讓您針對指定位置，模擬將哪些優惠傳送至測試設定檔。 這可讓您測試和調整各種版本的優惠方案，而不會對目標收件者造成影響。
 
 ## 關於模擬 {#about-simulation}
 
