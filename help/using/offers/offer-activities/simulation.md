@@ -9,7 +9,7 @@ exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: 13c228c2409400da8c62189d96e9b47bcb94ee19
 workflow-type: tm+mt
 source-wordcount: '901'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation"
->title="模擬優惠決定"
->abstract="模擬可讓您針對指定位置，模擬將哪些優惠傳送至測試設定檔。 這可讓您測試和調整各種版本的優惠方案，而不會對目標收件者造成影響。"
+>title="模擬報價決策"
+>abstract="模擬功能可讓您模擬出特定位置有哪些報價會傳送至測試設定檔。這讓您能夠在不影響目標收件者的情況下，測試和改善各種版本的報價。"
 
 ## 關於模擬 {#about-simulation}
 
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 <!--Simulation allows you to view the results of offer decisions as a selected profile.-->
 
-這可讓您測試和調整各種版本的優惠方案，而不會對目標收件者造成影響。
+這讓您能夠在不影響目標收件者的情況下，測試和改善各種版本的報價。
 
 >[!NOTE]
 >
@@ -217,5 +217,5 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    >[!NOTE]
    >
-   >將請求或回應裝載複製到您自己的程式碼時，請務必將{USER_TOKEN}和{API_KEY}替換為有效值。 瞭解如何在中擷取這些值 [ADOBE EXPERIENCE PLATFORM API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} 說明檔案。
+   >將請求或回應裝載複製到您自己的程式碼時，請務必取代 {USER_TOKEN} 和 {API_KEY} ，則為有效值。 瞭解如何在中擷取這些值 [ADOBE EXPERIENCE PLATFORM API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} 說明檔案。
 
