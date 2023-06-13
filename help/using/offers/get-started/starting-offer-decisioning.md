@@ -57,15 +57,15 @@ ht-degree: 95%
 
 * 在您網站首頁顯示的優惠方案，將會根據 Adobe Experience Platform 的資料以符合造訪客戶的興趣。
 
-   ![](../assets/website.png)
+  ![](../assets/website.png)
 
 * 如果客戶靠近某家商店，請傳送推播通知，可依其屬性 (忠誠度、性別、之前的購物內容……) 提醒他們可使用的優惠方案。
 
-   ![](../assets/push_sample.png)
+  ![](../assets/push_sample.png)
 
 * 決定管理也可協助您在聯絡支援團隊時增強客戶體驗。 API 可讓您在呼叫中心代理的入口網站中顯示客戶的兌換資訊，以及下一個最佳優惠。
 
-   ![](../../assets/do-not-localize/call-center.png)
+  ![](../../assets/do-not-localize/call-center.png)
 
 ## 授予決策管理的存取權限 {#granting-acess-to-decision-management}
 
