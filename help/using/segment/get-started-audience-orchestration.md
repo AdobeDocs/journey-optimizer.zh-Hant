@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 82%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->對象組合目前僅以私人測試版 (Private Beta) 形式提供，且可能會經常更新，恕不另行通知。 測試版是在組織層級佈建，這表示會影響貴組織內的所有沙箱。
+>對象構成目前僅適用於有限的客戶群組。 如有任何問題，請聯絡您的Adobe代表。
 
 對象組合可讓您建立&#x200B;**組合工作流程**，您可以將現有的 Adobe Experience Platform 對象結合至視覺畫布，並善用各種活動 (分割、排除……) 來建立新對象。
 
@@ -49,6 +49,8 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >組合工作流程產生的對象只能設定在 Journey Optimizer 行銷活動。它們不適用於歷程。
+>
+>Adobe Journey Optimizer中的行銷活動尚未與原則執行服務整合。 因此，您套用至對象屬性的任何資料使用標籤都不會在Journey Optimizer行銷活動中強制執行。
 
 可從 Adobe Journey Optimizer **[!UICONTROL 區段]**&#x200B;功能表存取對象組合：
 

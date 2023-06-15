@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
-source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
+source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 14%
+source-wordcount: '405'
+ht-degree: 15%
 
 ---
 
@@ -50,6 +50,7 @@ ht-degree: 14%
    * **[!UICONTROL 對象]**：構成起點。 此活動可讓您選取一或多個對象作為工作流程的基礎。
 
    * **[!UICONTROL 儲存]**：構成的最後一步。 此活動可讓您將工作流程的結果儲存至新受眾。
+
    如需如何在構成工作流程畫布中設定活動的詳細資訊，請參閱 [使用構成畫布](composition-canvas.md).
 
 1. 開啟構成屬性以指定標題和說明。
@@ -66,7 +67,7 @@ ht-degree: 14%
 
    >[!IMPORTANT]
    >
-   >您可以在指定的沙箱中發佈最多75個組合。 如果您已達到此臨界值，則需要刪除構成以釋放空間並發佈新構成。
+   >您可以在指定的沙箱中發佈最多10個組合。 如果您已達到此臨界值，則需要刪除構成以釋放空間並發佈新構成。
 
    如果在發佈期間發生任何錯誤，將顯示警報，其中包含如何解決問題的資訊。
 
@@ -85,7 +86,6 @@ ht-degree: 14%
 
 * **[!UICONTROL 草稿]**：構成正在進行中，尚未發佈。
 * **[!UICONTROL 已發佈]**：構成已發佈，產生的對象已儲存並可供使用。
-* **[!UICONTROL 已封存]**：構成已封存。
 
 ![](assets/audiences-compositions.png)
 
