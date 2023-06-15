@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 70db4a6c235b8490fb80e24d133775f5f5a19eb1
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 100%
+source-wordcount: '1048'
+ht-degree: 99%
 
 ---
 
@@ -44,8 +44,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ### 一般歷程護欄 {#journeys-guardrails-journeys}
 
-* 歷程中的活動數限定為最多 50 個。活動數會顯示於歷程畫布的左上方區段。
-* 一個組織的&#x200B;**即時歷程**&#x200B;數限定每個沙箱最多 100 個。當達到此限制時，您無法再發佈新歷程。
+* 歷程中的活動數限定為最多 50 個。活動數會顯示於歷程畫布的左上方區段。這有助於提高可讀性、QA和疑難排解。
 
 ### 一般動作 {#general-actions-g}
 

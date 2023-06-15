@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
+source-git-commit: 70db4a6c235b8490fb80e24d133775f5f5a19eb1
 workflow-type: tm+mt
-source-wordcount: '2466'
-ht-degree: 100%
+source-wordcount: '2453'
+ht-degree: 98%
 
 ---
 
@@ -153,14 +153,13 @@ ht-degree: 100%
    * 對象：一組具有共同特徵和行為的人員、帳戶、家庭或其他實體。
    * 區段定義：在 Adobe Experience Platform 中，用來描述目標對象之關鍵特性或行為的規則。 此辭彙先前稱為「區段」。
 
-   因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，您會看到「區段」被「對象」取代，以反映建立和管理對象的新路徑。
+  因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，您會看到「區段」被「對象」取代，以反映建立和管理對象的新路徑。
 
-   在指稱目標為接收訊息的一組設定檔時，「對象」一詞的翻譯已在部分語言的所有數位體驗產品中保持一致：
+  在指稱目標為接收訊息的一組設定檔時，「對象」一詞的翻譯已在部分語言的所有數位體驗產品中保持一致：
 
    * 德文：Zielgruppe
    * 巴西葡萄牙文：público-alvo
    * 西班牙文：público destinatario
-
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
@@ -266,10 +265,7 @@ ht-degree: 100%
 
 * 歷程畫布現在會在訊息活動和結束標籤上顯示活動 ID。這可改善報告和重新目標定位。
 * 顯示在動作、資料來源、事件和歷程中的設定窗格，其版面配置已有所改善。
-* 歷程已新增護欄：
-   * 歷程中的活動數現在限定為最多 50 個。[閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
-   * 現在，一個組織的&#x200B;**即時歷程**&#x200B;數限定每個沙箱最多 100 個。測試模式中的歷程不會納入考量。[閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
-
+* 透過保障措施協助成長，提供畫布上節點數的新深入分析：讓歷程易於閱讀、品質保證及疑難排解，每個歷程的節點數上限為50。 [閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
 * 在歷程中新增[電子郵件](../email/create-email.md)、[簡訊](../sms/create-sms.md)或[推播](../push/create-push.md)動作時，現在依預設會以目前歷程中，最後一個為該管道使用的表面來預先填入表面。
 * 您現在可以在自訂動作中定義靜態或動態查詢參數。[了解更多](../action/about-custom-action-configuration.md#url-configuration)
 
@@ -361,7 +357,7 @@ ht-degree: 100%
 
 * 為避免與 Adobe Experience Platform 最近發佈的標籤功能產生混淆，「決策管理」標籤已重新命名為「集合限定詞」。 
 
-   請注意，雖然「標籤」一詞不再用於決策管理使用者介面，但仍用於 API 及資料集等後端服務。
+  請注意，雖然「標籤」一詞不再用於決策管理使用者介面，但仍用於 API 及資料集等後端服務。
 
 * 您現在可以每天、每週或每月重設優惠方案限定計數器。[了解更多](../offers/offer-library/add-constraints.md#capping)
 
@@ -377,7 +373,7 @@ ht-degree: 100%
 
 * 報告介面控件功能已得到改善，可自訂使用者檢視其資料的方式。透過這項改善，使用者現在可以在多個視覺效果選項之間進行選擇，包括圖表、表格和環圈圖。 
 
-   若要存取最新的介面工具集，請注意您必須重設不同的報告儀表板。 如需儀表板客製化的詳細資訊，請參閱[詳細文件](../reports/global-report.md#modify-dashboard)。
+  若要存取最新的介面工具集，請注意您必須重設不同的報告儀表板。 如需儀表板客製化的詳細資訊，請參閱[詳細文件](../reports/global-report.md#modify-dashboard)。
 
 ## 2023 年 2 月發行說明 {#feb-2023}
 
