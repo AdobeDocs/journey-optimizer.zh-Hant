@@ -6,9 +6,9 @@ description: 瞭解如何設定您的環境，以使用Journey Optimizer傳送SM
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 442e3213ad512b62332cd08d6639dfc52bdc766a
+source-git-commit: ce9ebee71f80ec28f1e98eff0ff15d728978e817
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '921'
 ht-degree: 18%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 18%
 
 ## 先決條件{#sms-prerequisites}
 
-Adobe Journey Optimizer目前與Sinch和Twilio等協力廠商提供者整合，這些協力廠商提供獨立於Adobe Journey Optimizer的SMS服務。
+Adobe Journey Optimizer目前與Sinch、Twilio和Infobip等協力廠商提供者整合，這些協力廠商提供獨立於Adobe Journey Optimizer的SMS服務。
 
 在SMS設定之前，您必須使用這些SMS提供者之一建立帳戶，以接收API權杖和服務ID，這可讓您在Adobe Journey Optimizer和適用的SMS提供者之間建立連線。
 
@@ -62,6 +62,7 @@ Adobe Journey Optimizer目前與Sinch和Twilio等協力廠商提供者整合，�
       * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
 
       * **[!UICONTROL 服務ID]** 和 **[!UICONTROL API權杖]**：存取API頁面，您可以在SMS標籤下找到憑證。  [了解更多](https://developers.sinch.com/docs/sms/getting-started/)
+
    * 對象 **[!DNL Twilio]**：
 
       * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
@@ -69,6 +70,7 @@ Adobe Journey Optimizer目前與Sinch和Twilio等協力廠商提供者整合，�
       * **[!UICONTROL 帳戶SID]** 和 **[!UICONTROL 驗證權杖]**：存取您的Twilio主控台控制面板頁面的「帳戶資訊」窗格，以尋找您的認證。
 
       * **[!UICONTROL 訊息SID]**：輸入指派給Twilio API所建立每則訊息的唯一識別碼。 [了解更多](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+
    * 對象 **[!DNL Infobip]**：
 
       * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
@@ -114,20 +116,19 @@ Adobe Journey Optimizer目前與Sinch和Twilio等協力廠商提供者整合，�
       * 選擇 **行銷** 促銷簡訊：這些訊息需要使用者同意。
       * 選擇 **異動** 非商業訊息，例如訂單確認、密碼重設通知或傳遞資訊。
 
-      >[!CAUTION]
-      >
-      >**異動** SMS訊息可傳送給從行銷通訊取消訂閱的設定檔。 這些訊息只能在特定內容中傳送。
+     >[!CAUTION]
+     >
+     >**異動** SMS訊息可傳送給從行銷通訊取消訂閱的設定檔。 這些訊息只能在特定內容中傳送。
 
-      建立SMS訊息時，您必須選擇符合您為訊息選取的類別的有效頻道介面。
+     建立SMS訊息時，您必須選擇符合您為訊息選取的類別的有效頻道介面。
 
    * 選取 **[!UICONTROL 簡訊設定]** 以與曲面相關聯。
 
-      有關如何設定環境以傳送SMS訊息的詳細資訊，請參閱 [本節](#create-api).
+     有關如何設定環境以傳送SMS訊息的詳細資訊，請參閱 [本節](#create-api).
 
    * 輸入 **[!UICONTROL 寄件者號碼]** 您&#x200B;想要用於通訊。
 
    * 選取您的 **[!UICONTROL 簡訊執行欄位]** 以選取 **[!UICONTROL 設定檔屬性]** 與設定檔的電話號碼相關聯。
-
 
 1. 如果您想要在SMS訊息中使用URL縮短功能，請從 **[!UICONTROL 子網域]** 清單。
 
