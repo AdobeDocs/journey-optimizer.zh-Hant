@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
+source-git-commit: 958e0c4352e150ebabdf53f0cc4f0eae2a478714
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1787'
 ht-degree: 8%
 
 ---
@@ -43,13 +43,9 @@ ht-degree: 8%
 
 在 **電子郵件型別** 區段，選取將與介面一起傳送的訊息型別： **行銷** 或 **異動**.
 
-* 選擇 **行銷** 促銷電子郵件：這些訊息需要使用者同意。
+* 選擇 **行銷** 促銷電子郵件，例如零售商店的每週促銷活動。 這些訊息需要使用者同意。
 
-* 選擇 **異動** 非商業電子郵件，例如訂單確認、密碼重設通知或傳遞資訊。
-
->[!CAUTION]
->
->**異動** 電子郵件可以傳送給從行銷通訊取消訂閱的設定檔。 這些訊息只能在特定內容中傳送。
+* 選擇 **異動** 非商業電子郵件，例如訂單確認、密碼重設通知或傳遞資訊。 這些電子郵件可以傳送給設定檔，設定檔 **已取消訂閱** 來自行銷通訊。 這些訊息只能在特定內容中傳送。
 
 建立訊息時，您必須選擇符合您為電子郵件選取之類別的有效管道表面。
 
@@ -95,19 +91,19 @@ ht-degree: 8%
 
 * 一個 **取消訂閱電子郵件地址**，所有取消訂閱的請求都會傳送至。
 
-   在 [!DNL Journey Optimizer]，預設為取消訂閱電子郵件地址 **[!UICONTROL Mailto （取消訂閱）]** 頻道介面中顯示的地址，根據 [選取的子網域](#subdomains-and-ip-pools).
+  在 [!DNL Journey Optimizer]，預設為取消訂閱電子郵件地址 **[!UICONTROL Mailto （取消訂閱）]** 頻道介面中顯示的地址，根據 [選取的子網域](#subdomains-and-ip-pools).
 
-   ![](assets/preset-list-unsubscribe-mailto.png)
+  ![](assets/preset-list-unsubscribe-mailto.png)
 
 * 此 **取消訂閱URL**，這是登陸頁面的URL，取消訂閱後，會將使用者重新導向。
 
-   如果您新增 [一鍵選擇退出連結](../privacy/opt-out.md#one-click-opt-out) 對於使用此介面建立的訊息，取消訂閱URL將為一鍵選擇退出連結定義的URL。
+  如果您新增 [一鍵選擇退出連結](../privacy/opt-out.md#one-click-opt-out) 對於使用此介面建立的訊息，取消訂閱URL將為一鍵選擇退出連結定義的URL。
 
-   ![](assets/preset-list-unsubscribe-opt-out-url.png)
+  ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   >[!NOTE]
-   >
-   >如果您未在訊息內容中新增一鍵退出連結，則不會向使用者顯示登陸頁面。
+  >[!NOTE]
+  >
+  >如果您未在訊息內容中新增一鍵退出連結，則不會向使用者顯示登陸頁面。
 
 進一步瞭解在中新增訊息的標頭取消訂閱連結 [本節](../privacy/opt-out.md#unsubscribe-header).
 
