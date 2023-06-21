@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: 歷程，探索，開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 17c13b54d59e254543eb3340f791745ea24208c8
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '596'
 ht-degree: 28%
 
 ---
@@ -47,7 +47,7 @@ Adobe Journey Optimizer包含全通路協調畫布，可讓行銷人員協調行
 
 瞭解如何開始並建立您的第一個歷程 [此頁面](journey-gs.md).
 
-全通路歷程設計工具可協助您使用直覺式的拖放介面，透過目標受眾、根據即時客戶或業務互動的更新以及全通路訊息來建立多步驟歷程。
+全通路歷程設計程式可協助您建構多步驟歷程，尤其是鎖定受眾，以及根據即時客戶或業務互動來合併更新。 它也可讓您透過直覺式的拖放介面建立全通路訊息。
 
 ![](assets/journey38.png)
 
