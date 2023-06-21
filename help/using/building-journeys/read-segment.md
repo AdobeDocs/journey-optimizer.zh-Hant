@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，區段，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 834e2bbf00d1169ca3f15127fe380f6ee40ae88a
+source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
 workflow-type: tm+mt
 source-wordcount: '1338'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -112,7 +112,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->一次性讀取區段歷程在歷程執行30天後會移至「已完成」狀態。 對於已排程的讀取區段，是在上次執行該事件後的 30 天。 
+>單次拍攝 **讀取區段** 歷程移至 **已完成** 歷程執行30天後的狀態。 針對已排程 **讀取區段**，則為上次執行後的30天。
 
 ### 測試並發佈歷程 {#testing-publishing}
 

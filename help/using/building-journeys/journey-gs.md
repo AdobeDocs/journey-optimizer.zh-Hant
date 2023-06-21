@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，區段，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 70db4a6c235b8490fb80e24d133775f5f5a19eb1
+source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1549'
 ht-degree: 26%
 
 ---
@@ -153,7 +153,7 @@ ht-degree: 26%
 
 ### 歷程活動中的逾時和錯誤 {#timeout_and_error}
 
-編輯動作或條件活動時，您可以定義替代路徑，以防錯誤或逾時。 如果處理詢問協力廠商系統的活動超過歷程屬性中定義的逾時期間(**[!UICONTROL 逾時和錯誤]** 欄位)，則會選擇第二個路徑來執行潛在的遞補動作。
+編輯動作或條件活動時，您可以選擇在錯誤或逾時事件中指定替代路徑。 如果活動的處理（包括查詢協力廠商系統）超過歷程屬性中指定的逾時和錯誤處理持續時間(**[!UICONTROL 逾時和錯誤]** 欄位)，如有必要，將會選取第二個路徑以執行遞補動作。
 
 授權值介於1到30秒之間。
 
