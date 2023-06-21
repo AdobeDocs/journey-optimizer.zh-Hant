@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 41c01f2a32e0f60d7b189dbe2e0be68e998881c8
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 74%
+source-wordcount: '1029'
+ht-degree: 73%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 74%
 
 如果您成功傳送活動，但在歷程中看不到任何入口，則表示在活動傳送以及在歷程中的事件接收之間發生錯誤。
 
-以下是管理員應留意的一些事項：
+您可以透過下列問題開始疑難排解：
 
 * 您確定您預期會發生傳入事件的歷程處於測試模式或是即時狀態？
 * 在從有效負載預覽複製有效負載之前，您是否已儲存事件？
@@ -67,10 +67,10 @@ ht-degree: 74%
 * 您是否依照串流獲取 API 有效負載結構，而在事件設定窗格中使用有效負載結構預覽？請參閱[此頁面](../event/about-creating.md#preview-the-payload)。
 * 您在事件標頭中使用正確的機碼值組嗎？
 
-   ```
-   X-gw-ims-org-id - your organization's ID
-   Content-type - application/json
-   ```
+  ```
+  X-gw-ims-org-id - your organization's ID
+  Content-type - application/json
+  ```
 
 ## 檢查人們如何導覽歷程{#checking-how-people-navigate-through-the-journey}
 
