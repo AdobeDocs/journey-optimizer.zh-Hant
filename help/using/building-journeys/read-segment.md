@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，區段，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 61acbad019ead6bfd86c6fb39d7de1920f28d984
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -116,13 +116,13 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### 測試並發佈歷程 {#testing-publishing}
 
-此 **[!UICONTROL 讀取區段]** 活動可讓您在單一設定檔上測試歷程，或在符合區段資格之設定檔中隨機選取的100個測試設定檔上測試歷程。
+此 **[!UICONTROL 讀取區段]** 活動可讓您在單一設定檔上測試歷程，或在符合區段資格之設定檔中選取的100個隨機測試設定檔上測試歷程。
 
-若要這麼做，請啟動測試模式，然後從左窗格中選取所需的選項。
+若要這麼做，請啟動 **測試模式**. 然後，從左窗格中選取所需的選項。
 
 ![](assets/read-segment-test-mode.png)
 
-然後您可以照常設定並執行測試模式。 [瞭解如何測試歷程](testing-the-journey.md).
+然後，您可以設定並執行 **測試模式** 一如既往。 [瞭解如何測試歷程](testing-the-journey.md).
 
 測試執行後， **[!UICONTROL 顯示記錄]** 按鈕可讓您根據選取的測試選項檢視測試結果：
 
@@ -130,9 +130,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 * **[!UICONTROL 一次最多100個設定檔]**：測試記錄檔可讓您追蹤從Adobe Experience Platform匯出區段的進度，以及所有進入歷程的人員的個人進度。
 
-   請注意，一次使用最多100個設定檔測試歷程不允許您使用視覺流程追蹤歷程中個人的進度。
+  請注意，一次使用最多100個設定檔測試歷程不允許您使用視覺流程追蹤歷程中個人的進度。
 
-   ![](assets/read-segment-log.png)
+  ![](assets/read-segment-log.png)
 
 測試成功後，您就可以發佈歷程(請參閱 [發佈歷程](publishing-the-journey.md))。 屬於區段的個人將在歷程屬性中指定的日期/時間進入歷程 **[!UICONTROL 排程器]** 區段。
 
