@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，區段，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
+source-git-commit: a278b217882f2646e106600e110226941e7e4f10
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1337'
 ht-degree: 11%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 11%
    >
    >每個沙箱的整體節流率設定為每秒20,000則訊息。 因此，在同一沙箱中同時執行的所有讀取區段的節流率每秒最多可新增20,000則訊息。 您無法修改此上限。
 
-1. 此 **[!UICONTROL 讀取區段]** 活動可讓您指定區段進入歷程的時間。 若要這麼做，請按一下 **[!UICONTROL 編輯歷程排程]** 連結以存取歷程的屬性，然後設定 **[!UICONTROL 排程器型別]** 欄位。
+1. 此 **[!UICONTROL 讀取區段]** 活動可讓您指定區段進入歷程的時間。 若要這麼做，請按一下 **[!UICONTROL 編輯歷程排程]** 存取歷程屬性的連結。然後，設定 **[!UICONTROL 排程器型別]** 欄位。
 
    ![](assets/read-segment-schedule.png)
 
