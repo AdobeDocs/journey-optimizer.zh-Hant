@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 4b3b7ef3ec83705758374ca9e9170ce2933fa8de
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%
@@ -25,6 +25,10 @@ ht-degree: 1%
 
 API觸發的行銷活動的可用管道包括電子郵件、簡訊和推播訊息。
 
+>[!NOTE]
+>
+>截至目前，推播通知API觸發的行銷活動不支援快速傳送。
+
 ## 建立API觸發的行銷活動 {#create}
 
 ### 設定並啟動行銷活動 {#create-activate}
@@ -38,10 +42,6 @@ API觸發的行銷活動的可用管道包括電子郵件、簡訊和推播訊�
 1. 選擇其中一個支援的頻道和相關聯的頻道介面，以用於傳送您的訊息，然後按一下 **[!UICONTROL 建立]**.
 
    ![](assets/api-triggered-type.png)
-
-   >[!NOTE]
-   >
-   >截至目前，推播通知API觸發的行銷活動不支援快速傳送。
 
 1. 指定行銷活動的標題和說明，然後按一下 **[!UICONTROL 編輯內容]** 以設定要傳送的訊息。
 
