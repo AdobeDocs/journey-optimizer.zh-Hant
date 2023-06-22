@@ -9,20 +9,20 @@ role: User
 level: Intermediate
 keywords: 電子郵件、樣式、css、內文、結構
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
 source-wordcount: '108'
-ht-degree: 100%
+ht-degree: 77%
 
 ---
 
 # 開始使用電子郵件樣式 {#get-started-email-style}
 
-在 [!DNL Journey Optimizer] 中開始建立電子郵件內容後，您可從電子郵件設計工具設定窗格調整許多樣式參數與屬性。
+一旦您開始在中建立您的電子郵件內容 [!DNL Journey Optimizer]，您可以從電子郵件設計工具調整一些樣式引數和屬性 **[!UICONTROL 樣式]** 窗格。
 
 您可將變更套用至電子郵件內文、結構元件或內容元件。
 
-![](assets/email_designer_content_components_settings.png)
+![](assets/email_designer_content_components_styles.png)
 
 請依照下列連結，了解如何調整電子郵件的某些樣式設定。
 

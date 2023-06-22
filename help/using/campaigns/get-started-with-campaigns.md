@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 您可建立兩種類型的行銷活動：
 
 * **已排程的 Campaign**&#x200B;允許針對促銷優惠方案、參與行銷活動、公告、法律注意事項知或原則更新等行銷案例進行簡單的臨時批次通訊。
-* **API 觸發的行銷活動** 允許使用 REST API 進行簡單的異動/操作訊息 (密碼重設、購物車放棄等)，其中可能需要使用設定檔屬性和承載的內容資料來進行個人化設定。
+* **api觸發的行銷活動** 允許行銷通訊在適當的時間聯絡對象，或允許交易/營運訊息聯絡個人，如密碼重設，其中需求可能涉及個人化，不僅使用設定檔屬性，還包括在觸發器中即時內容資料，這是REST API裝載。
 
 建立行銷活動的主要步驟如下：
 
@@ -61,6 +61,7 @@ ht-degree: 100%
       ![](assets/do-not-localize/admin_2.png)
 
    1. 輸入您的使用者名稱、群組或電子郵件地址，然後按一下&#x200B;**[!UICONTROL 儲存]**。
+
    您的使用者現在可以存取&#x200B;**[!UICONTROL 行銷互動]**。
 
 +++

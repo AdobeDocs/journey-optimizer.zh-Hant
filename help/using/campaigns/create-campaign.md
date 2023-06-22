@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 23%
+source-wordcount: '864'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,6 @@ ht-degree: 23%
 >* [建立頻道介面](../configuration/channel-surfaces.md)
 >* [開始使用區段](../segment/about-segments.md)
 
-
 若要建立新的行銷活動，請存取 **[!UICONTROL 行銷活動]** 功能表，然後按一下 **[!UICONTROL 建立行銷活動]**. 您也可以複製現有的即時行銷活動，以建立新的行銷活動。 [了解更多](modify-stop-campaign.md#duplicate)
 
 ## 選擇行銷活動型別和頻道 {#campaigntype}
@@ -33,18 +32,20 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="行銷活動類型"
->abstract="對於指定傳送日期的行銷訊息，**排程**&#x200B;類型最合適。但是，如果您想傳送密碼重設或購物車未結帳等異動訊息，**API 觸發**&#x200B;類型則是最佳選擇。"
+>abstract="**排程的行銷活動** 會立即執行或在指定日期執行，且旨在傳送行銷型別訊息。 **API觸發** 行銷活動是使用API呼叫執行的。 它們旨在傳送行銷訊息或交易式訊息，也就是在個人執行動作後傳送的訊息：密碼重設、購物車放棄等。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="行銷活動類別"
->abstract="類別值會直接關聯到活動類型值。**行銷**&#x200B;類別的排程行銷活動類型和&#x200B;**異動**&#x200B;類別的 API 觸發類型"
+>abstract="如果您要建立排程的行銷活動， **行銷** 型別會自動選取。 針對API觸發的行銷活動，選擇是否要傳送 **行銷** 或 **異動** 訊息，即在個人執行動作後傳送的訊息：密碼重設、購物車放棄等。"
 
 1. 在 **[!UICONTROL 屬性]** 區段，指定您要如何執行行銷活動。 可用的行銷活動型別有兩種：
 
-   * **[!UICONTROL 已排程]**：立即執行行銷活動或在指定日期執行。 已排程的行銷活動旨在傳送 **行銷** 輸入訊息。
+   * **[!UICONTROL 已排程]**：立即執行行銷活動或在指定日期執行。 已排程的行銷活動旨在傳送 **行銷** 訊息。 可從使用者介面設定及執行。
 
-   * **[!UICONTROL API觸發]**：使用API呼叫執行行銷活動。 API觸發的行銷活動旨在傳送 **異動** 訊息，即在個人執行動作後傳送的訊息：密碼重設、購物車放棄等。 [瞭解如何使用API觸發行銷活動](api-triggered-campaigns.md)
+   * **[!UICONTROL API觸發]**：使用API呼叫執行行銷活動。 API觸發的行銷活動旨在傳送 **行銷**，或 **異動** 訊息，即在個人執行動作後傳送的訊息：密碼重設、購物車購買等。 [瞭解如何使用API觸發行銷活動](api-triggered-campaigns.md)
+
+1. 如果您要建立排程的行銷活動， **行銷** 型別會自動選取。 針對API觸發的行銷活動，選擇是否要傳送 **行銷** 或 **異動** 訊息。」
 
 1. 在 **[!UICONTROL 動作]** 區段，選擇頻道和頻道介面來用於傳送您的訊息。
 
@@ -102,7 +103,7 @@ ht-degree: 23%
       <img alt="驗證" src="../assets/do-not-localize/sms.jpg">
     </a>
     <div>
-    <a href="../sms/create-sms.md"><strong>建立簡訊訊息</strong></a>
+    <a href="../sms/create-sms.md"><strong>建立簡訊</strong></a>
     </div>
     <p>
     </td>
