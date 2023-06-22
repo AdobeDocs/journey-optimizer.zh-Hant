@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，區段，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a278b217882f2646e106600e110226941e7e4f10
+source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 11%
@@ -27,7 +27,7 @@ ht-degree: 11%
 
 使用 **讀取區段** 活動，讓區段的所有個人進入歷程。 進入歷程可以執行一次，也可以定期執行。
 
-以中建立的「Luma應用程式開啟和結帳」區段為例 [建立區段](../segment/about-segments.md) 使用案例。 透過「讀取區段」活動，您可以讓屬於此區段的所有個人進入歷程，並讓他們流入將運用所有歷程功能（條件、計時器、事件、動作）的個人化歷程。
+以中建立的「Luma應用程式開啟和結帳」區段為例 [建立區段使用案例](../segment/about-segments.md). 使用 **[!UICONTROL 讀取區段]** 活動時，您可以讓屬於某個區段的所有個人進入歷程，並讓其流入將運用所有歷程功能（條件、計時器、事件、動作）的個人化歷程。
 
 >[!NOTE]
 >
