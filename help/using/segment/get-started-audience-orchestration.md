@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
+source-git-commit: bd805d9a52572e284b5846166e1f799f1f71fc59
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 82%
+source-wordcount: '329'
+ht-degree: 67%
 
 ---
 
@@ -42,13 +42,13 @@ ht-degree: 82%
 
 對象組合可讓您建立&#x200B;**組合工作流程**，您可以將現有的 Adobe Experience Platform 對象結合至視覺畫布，並善用各種活動 (分割、排除……) 來建立新對象。
 
-完成後， **產生的對象**&#x200B;將與現有對象一起儲存至 Adobe Experience Platform，並且可以在 **在行銷活動中加以善用**&#x200B;以設定客戶。 [了解如何使行銷活動](../campaigns/get-started-with-campaigns.md)
+完成後， **產生的對象** 連同現有受眾一起儲存至Adobe Experience Platform中，並可在以下位置鎖定客戶： [Journey Optimizer行銷活動](../campaigns/get-started-with-campaigns.md)，或Adobe [Real-time Customer Data Platform目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hant).
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->組合工作流程產生的對象只能設定在 Journey Optimizer 行銷活動。它們不適用於歷程。
+>截至目前，構成工作流程產生的對象不適用於歷程。
 >
 >Adobe Journey Optimizer中的行銷活動尚未與原則執行服務整合。 因此，您套用至對象屬性的任何資料使用標籤都不會在Journey Optimizer行銷活動中強制執行。
 
