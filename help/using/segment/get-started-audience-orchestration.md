@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: bd805d9a52572e284b5846166e1f799f1f71fc59
+source-git-commit: fdfee4f88b4ed29c5083d1f755f488a43cc38f95
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 67%
@@ -42,7 +42,7 @@ ht-degree: 67%
 
 對象組合可讓您建立&#x200B;**組合工作流程**，您可以將現有的 Adobe Experience Platform 對象結合至視覺畫布，並善用各種活動 (分割、排除……) 來建立新對象。
 
-完成後， **產生的對象** 連同現有受眾一起儲存至Adobe Experience Platform中，並可在以下位置鎖定客戶： [Journey Optimizer行銷活動](../campaigns/get-started-with-campaigns.md)，或Adobe [Real-time Customer Data Platform目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hant).
+完成後， **產生的對象** 連同現有受眾一起儲存至Adobe Experience Platform中，並可在以下位置鎖定客戶： [Journey Optimizer行銷活動](../campaigns/get-started-with-campaigns.md)，或Adobe [Real-time Customer Data Platform目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hant){target="_blank"}.
 
 ![](assets/audiences-process.png)
 
