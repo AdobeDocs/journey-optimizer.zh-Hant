@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，區段，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: b0b65ad119b6939a6d65d6f05edc67b2f2b22a31
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 26%
+source-wordcount: '1548'
+ht-degree: 25%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 26%
 
 ![](assets/journeys-browse.png)
 
-在歷程清單中，您可以從&#x200B;**[!UICONTROL 狀態及版本篩選器]**&#x200B;中根據歷程的狀態、類型與版本來篩選歷程。 類型可以是： **[!UICONTROL 單一事件]**、**[!UICONTROL 區段資格]**、**[!UICONTROL 讀取區段]**、**[!UICONTROL 企業活動]**&#x200B;或 **[!UICONTROL 突發事件]**。
+在歷程清單中，您可以從&#x200B;**[!UICONTROL 狀態及版本篩選器]**&#x200B;中根據歷程的狀態、類型與版本來篩選歷程。 型別可以是： **[!UICONTROL 單一事件]**， **[!UICONTROL 區段資格]**， **[!UICONTROL 讀取區段]** 或 **[!UICONTROL 業務事件]**.
 
 您可以選擇僅顯示使用&#x200B;**[!UICONTROL 事件篩選器]**&#x200B;與&#x200B;**[!UICONTROL 資料篩選器]**&#x200B;中的特定事件、欄位群組或動作的歷程。此外， **[!UICONTROL 發佈篩選器]** 可讓您選取出版日期或使用者。 舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。[了解更多](../building-journeys/using-the-journey-designer.md)。
 

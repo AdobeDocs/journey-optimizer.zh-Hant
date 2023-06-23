@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 傳送時間，傳送，訊息，最佳化，歷程， AI，智慧
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '482'
 ht-degree: 36%
 
 ---
@@ -37,10 +37,6 @@ Adobe Journey Optimizer 的傳送時間最佳化功能由 Adobe 的 AI 服務提
 * 評分 — 根據已訓練的模型，將評分套用至個別設定檔
 
 此資訊會儲存在使用者的設定檔中，並在歷程執行時參考，以告知Adobe Journey Optimizer何時傳送您的訊息。
-
->[!CAUTION]
->
->此功能與高載模式不相容。
 
 ## 啟動傳送時間最佳化{#activate-send-time-optimization}
 

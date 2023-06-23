@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 15%
@@ -39,8 +39,8 @@ ht-degree: 15%
 
 在Journey Optimizer中，您可以將資料控管和同意原則套用至自訂動作，以防止特定欄位匯出至協力廠商系統，或排除未同意接收電子郵件、推播或簡訊通訊的客戶。 如需詳細資訊，請參閱下列頁面：
 
-* [資料控管](../action/action.md).
-* [同意](../action/action.md).
+* [資料控管](../action/action-privacy.md).
+* [同意](../action/action-privacy.md).
 
 
 ## 設定步驟 {#configuration-steps}
@@ -82,9 +82,10 @@ ht-degree: 15%
 
    * 如果URL包含動態路徑，請只輸入URL的靜態部分，即配置、主機、連線埠，以及（選擇性）路徑的靜態部分。
 
-      範例：`https://xxx.yyy.com/somethingstatic/`
+     範例：`https://xxx.yyy.com/somethingstatic/`
 
-      將自訂動作新增至歷程時，您將指定URL的動態路徑。 [了解更多](../building-journeys/using-custom-actions.md)。
+     將自訂動作新增至歷程時，您將指定URL的動態路徑。 [了解更多](../building-journeys/using-custom-actions.md)。
+
    >[!NOTE]
    >
    >基於安全考量，強烈建議您針對URL使用HTTPS配置。 我們不允許使用非公開的Adobe位址和IP位址。
@@ -115,7 +116,7 @@ ht-degree: 15%
    >
    >將自訂動作新增到歷程後，如果歷程處於草稿狀態，您仍然可以新增標題或查詢引數欄位。 如果您不想讓歷程受設定變更影響，請複製自訂動作，並將欄位新增到新的自訂動作。
    >
-   >標頭會根據欄位剖析規則進行驗證。 進一步瞭解 [本檔案](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}。
+   >標頭會根據欄位剖析規則進行驗證。 進一步瞭解 [本檔案](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## 定義動作引數 {#define-the-message-parameters}
 

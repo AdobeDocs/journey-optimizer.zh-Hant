@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 22%
+source-wordcount: '886'
+ht-degree: 23%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 22%
    <img alt="驗證" src="../assets/do-not-localize/sms.jpg">
    </a>
    <div>
-   <a href="../sms/create-sms.md"><strong>建立簡訊訊息</strong></a>
+   <a href="../sms/create-sms.md"><strong>建立簡訊</strong></a>
    </div>
    <p>
    </td>
@@ -115,10 +115,6 @@ Adobe Journey Optimizer 的傳送時間最佳化功能由 Adobe 的 AI 服務提
 * 評分 — 根據已訓練的模型，將評分套用至個別設定檔
 
 此資訊會儲存在使用者的設定檔中，並在歷程執行時參考，以告知Adobe Journey Optimizer何時傳送您的訊息。
-
->[!CAUTION]
->
->此功能與高載模式不相容。
 
 ### 啟動傳送時間最佳化{#activate-send-time-optimization}
 

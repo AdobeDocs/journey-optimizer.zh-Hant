@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 958e0c4352e150ebabdf53f0cc4f0eae2a478714
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1783'
 ht-degree: 8%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 8%
 
 系統會擷取電子郵件表面設定，以便依照下列邏輯傳送通訊：
 
-* 對於批次和成組分解歷程，這不適用於在建立電子郵件表面設定之前已啟動的批次或成組分解執行。 變更將在下次循環或新執行時擷取。
+* 對於批次歷程，不適用於在設定電子郵件表面之前已啟動的批次執行。 變更將在下次循環或新執行時擷取。
 
 * 對於交易式訊息，變更會被立即擷取以供下次通訊使用（最多延遲5分鐘）。
 
