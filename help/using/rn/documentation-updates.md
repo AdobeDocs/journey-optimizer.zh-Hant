@@ -4,16 +4,22 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
+source-git-commit: ae7585473373e23da02f16c0b43ab0b1b29f356d
 workflow-type: tm+mt
-source-wordcount: '2876'
-ht-degree: 100%
+source-wordcount: '2949'
+ht-degree: 97%
 
 ---
 
 # 文件更新 {#latest-updates}
 
 本頁面列出 [!DNL Journey Optimizer] 所有文件更新。
+
+## 2023 年 6 月 {#june-2023}
+
+* 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2023年6月版本的詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
+* 評估准則順序的其他範例已新增至 **建立決定** 區段來說明使用多個條件和多個決定範圍的案例。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* 「決定管理」檔案已清楚說明物件層級存取控制的使用不適用於動態集合。 [閱讀全文](../offers/offer-library/creating-collections.md)
 
 ## 2023 年 5 月 {#may-2023}
 
@@ -95,7 +101,7 @@ ht-degree: 100%
 * 已新增內建資料集的相關資訊。 [閱讀全文](../data/get-started-datasets.md#access-datasets)
 * 改善並重新組織「全域報告」和「即時報告」章節。 [閱讀全文](../reports/global-report.md)
 * 已新增 Adobe Journey Optimizer 中可用的每個報告量度的清單。
-   [閱讀全文](../reports/global-report.md#email-and-sms-metrics)
+  [閱讀全文](../reports/global-report.md#email-and-sms-metrics)
 * 「密件副本」電子郵件區段已移至新的「支援封存」頁面。 [閱讀全文](../configuration/archiving-support.md)
 
 ## 2022 年 8 月 {#august-2022}

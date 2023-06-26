@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: e3628950dbc59b6f2570245651e79b4e203b75c3
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 9%
+source-wordcount: '364'
+ht-degree: 8%
 
 ---
 
@@ -57,6 +57,10 @@ ht-degree: 9%
    >靜態集合不會自動更新。 若要將優惠方案新增至靜態集合，您需要編輯並手動新增。
 
 1. 若要將自訂或核心資料使用標籤指派給靜態集合，請選取 **[!UICONTROL 管理存取權]**. [進一步瞭解物件層級存取控制(OLAC)](../../administration/object-based-access.md)
+
+   >[!NOTE]
+   >
+   >動態集合無法使用OLAC。 它必須在選件層級進行管理。 因此，如果您無權存取任何優惠方案，則可能會在動態集合中看不到任何優惠方案。
 
 1. 集合建立後，會顯示在清單中。 您可以選取它來進行編輯或刪除。
 

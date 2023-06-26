@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: 物件，層級，存取，控制，標籤， olac，授權
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: a2a5c081ee9a8ab04bf4c7b97097c0121ef8e4f8
+source-git-commit: e3628950dbc59b6f2570245651e79b4e203b75c3
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '460'
 ht-degree: 14%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 14%
 * 片段
 * 登陸頁面
 * 優惠
-* 優惠收藏
+* 靜態優惠集合
 * offer decisioning
 * 範本
 
