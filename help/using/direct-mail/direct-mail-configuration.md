@@ -116,7 +116,7 @@ ht-degree: 33%
 >id="ajo_dm_surface_settings"
 >title="定義直接郵件設定"
 >abstract="直接郵件表面包含檔案格式的設定，其中會包含目標對象資料並將由郵件提供者使用。您還必須選取檔案路由設定以定義檔案匯出的位置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html#file-routing-configuration" text="設定檔案路由"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=zh-Hant#file-routing-configuration" text="設定檔案路由"
 
 <!--
 >[!CONTEXTUALHELP]

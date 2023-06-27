@@ -42,7 +42,7 @@ Adobe Journey Optimizer目前與Sinch、Twilio和Infobip等協力廠商提供者
 >id="ajo_admin_sms_api"
 >title="使用 Journey Optimizer 設定您的簡訊供應商"
 >abstract="在傳送簡訊之前，您必須將提供者設定和 Journey Optimizer 整合。完成後，您將需要建立一個簡訊表面。這些步驟必須由 Adobe Journey Optimizer 系統管理員執行。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="建立簡訊管道表面"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hant#message-preset-sms" text="建立簡訊管道表面"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
@@ -89,7 +89,7 @@ Adobe Journey Optimizer目前與Sinch、Twilio和Infobip等協力廠商提供者
 >id="ajo_admin_surface_sms_type"
 >title="定義簡訊類別"
 >abstract="選取使用此表面的簡訊類型：需要使用者同意的促銷簡訊的行銷訊息，或非商業簡訊的異動訊息，例如密碼重設。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="選擇不接收行銷簡訊"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hant#sms-opt-out-management" text="選擇不接收行銷簡訊"
 
 設定簡訊頻道後，您必須建立頻道介面，才能從傳送SMS訊息 **[!DNL Journey Optimizer]**.
 

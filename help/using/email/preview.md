@@ -49,8 +49,8 @@ ht-degree: 11%
 >id="ac_preview_testprofiles"
 >title="預覽和測試您的訊息"
 >abstract="定義訊息內容後，您就可以使用測試設定檔進行預覽及測試。 "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html#email-rendering" text="電子郵件轉譯"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html#preview-email" text="預覽"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=zh-Hant#email-rendering" text="電子郵件轉譯"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=zh-Hant#preview-email" text="預覽"
 
 使用 [測試設定檔](../segment/creating-test-profiles.md) 鎖定不符合已定義定位准則的其他收件者。
 

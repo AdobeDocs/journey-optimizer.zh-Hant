@@ -22,7 +22,7 @@ ht-degree: 27%
 >id="ajo_use_template"
 >title="從範本建置內容"
 >abstract="若要開始建立您的電子郵件內容，請選取一個立即可用範本或自訂的現有範本，可能是從頭開始建立的或將以前的電子郵件另存為範本。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/content-templates.html#create-content-templates" text="建立內容範本"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/content-templates.html?lang=zh-Hant#create-content-templates" text="建立內容範本"
 
 從 **[!UICONTROL 建立您的電子郵件]** 畫面，使用 **[!UICONTROL 選取設計範本]** 區段，以開始從範本建立您的內容。
 

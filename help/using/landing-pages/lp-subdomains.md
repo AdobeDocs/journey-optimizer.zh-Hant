@@ -25,13 +25,13 @@ ht-degree: 24%
 >id="ajo_admin_subdomain_lp"
 >title="委派登陸頁面子網域"
 >abstract="您必須設定要用於登陸頁面的子網域，因為您需要此子網域才能建立登陸頁面預設集。 您可以使用已委派給 Adobe 的子網域，或設定新的子網域。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="建立登陸頁面預設集"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hant#lp-create-preset" text="建立登陸頁面預設集"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="建立一個登陸頁面預設集"
 >abstract="為了能夠建立登陸頁面預設集，請確保您之前已設定了至少一個登陸頁面子網域，才能從子網域名稱清單中挑選。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="建立登陸頁面預設集"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hant#lp-create-preset" text="建立登陸頁面預設集"
 
 能夠 [建立登陸頁面預設集](lp-presets.md)，您必須設定用於登入頁面的子網域。
 
@@ -44,7 +44,6 @@ ht-degree: 24%
 >* 若要存取及編輯登陸頁面子網域，您必須擁有 **[!UICONTROL 管理登陸頁面子網域]** 生產沙箱的許可權。
 >
 > * 對登陸頁面子網域所做的任何修改也會影響生產沙箱。
-
 
 ## 使用現有的子網域 {#lp-use-existing-subdomain}
 

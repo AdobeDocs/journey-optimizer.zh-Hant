@@ -22,7 +22,7 @@ ht-degree: 11%
 >id="ac_lp_components"
 >title="使用內容元件"
 >abstract="內容元件指可用於建立登陸頁面版面的空白內容預留位置。若要定義讓使用者能夠選取並提交他們的選擇的特定內容，請使用表單元件。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="新增內容元件"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html?lang=zh-Hant#add-content-components" text="新增內容元件"
 
 若要設計登入頁面內容，您可以使用與電子郵件的相同元件。 [了解更多](../email/content-components.md#add-content-components)
 
@@ -40,7 +40,7 @@ ht-degree: 11%
 >id="ac_lp_formfield"
 >title="設定表單元件欄位"
 >abstract="定義您的收件者將如何從您的登陸頁面查看和提交他們的選擇。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="定義登陸頁面表單樣式"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html?lang=zh-Hant#lp-form-styles" text="定義登陸頁面表單樣式"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
@@ -83,7 +83,7 @@ ht-degree: 11%
 
    * **[!UICONTROL 訂閱清單]**：如果設定檔選取此核取方塊，您必須選取將更新的訂閱清單。 進一步瞭解 [訂閱清單](subscription-list.md).
 
-      <!--![](assets/lp_designer-form-subs-list.png)-->
+     <!--![](assets/lp_designer-form-subs-list.png)-->
 
    * **[!UICONTROL 頻道（電子郵件）]**：選擇加入或選擇退出會套用至整個管道。 例如，如果選擇退出的設定檔有兩個電子郵件地址，則這兩個地址都會從您的所有通訊中排除。
 

@@ -25,13 +25,13 @@ ht-degree: 24%
 >id="ajo_admin_subdomain_sms"
 >title="委派簡訊子網域"
 >abstract="您必須設定要用於簡訊的子網域，因為您需要此子網域才能建立簡訊表面。您可以使用已委派給 Adobe 的子網域，或設定新的子網域。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="建立簡訊表面"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hant#message-preset-sms" text="建立簡訊表面"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
 >title="選取簡訊子網域"
 >abstract="為了能夠建立簡訊表面，請確保您之前已設定了至少一個簡訊子網域，才能從子網域名稱清單中挑選。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="建立簡訊表面"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hant#message-preset-sms" text="建立簡訊表面"
 
 若要能夠縮短新增至SMS訊息的URL，您必須設定將在下列情況下選取的子網域： [建立SMS表面](sms-configuration.md#message-preset-sms).
 
@@ -44,7 +44,6 @@ ht-degree: 24%
 >* 若要存取和編輯SMS子網域，您必須擁有 **[!UICONTROL 管理SMS子網域]** 生產沙箱的許可權。
 >
 > * 對SMS子網域所做的任何修改也會影響生產沙箱。
-
 
 ## 使用現有的子網域 {#sms-use-existing-subdomain}
 

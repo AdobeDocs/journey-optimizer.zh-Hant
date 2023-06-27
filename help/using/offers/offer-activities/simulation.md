@@ -50,7 +50,7 @@ ht-degree: 12%
 >id="ajo_decisioning_simulation_test_profile"
 >title="新增測試設定檔"
 >abstract="您可以透過選取身分識別命名空間和相對應的身分識別值來新增測試設定檔。您必須擁有已可供使用的測試設定檔才能將它們用於模擬。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="建立測試設定檔"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=zh-Hant" text="建立測試設定檔"
 
 首先，您需要選取要用於模擬的測試設定檔。
 

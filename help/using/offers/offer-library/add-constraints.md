@@ -85,21 +85,21 @@ ht-degree: 17%
 
 * 根據預設， **[!UICONTROL 所有訪客]** 選項已選取，這表示任何設定檔都符合呈現優惠方案的資格。
 
-   ![](../assets/offer-eligibility-default.png)
+  ![](../assets/offer-eligibility-default.png)
 
 * 您也可以將優惠方案的呈現方式限制在一或多個成員中 [Adobe Experience Platform區段](../../segment/about-segments.md).
 
-   若要這麼做，請啟動 **[!UICONTROL 屬於一或多個區段的訪客]** 選項，然後從左窗格新增一或多個區段，並使用 **[!UICONTROL 和]** / **[!UICONTROL 或]** 邏輯運運算元。
+  若要這麼做，請啟動 **[!UICONTROL 屬於一或多個區段的訪客]** 選項，然後從左窗格新增一或多個區段，並使用 **[!UICONTROL 和]** / **[!UICONTROL 或]** 邏輯運運算元。
 
-   ![](../assets/offer-eligibility-segment.png)
+  ![](../assets/offer-eligibility-segment.png)
 
 * 如果您想要關聯特定 [決定規則](../offer-library/creating-decision-rules.md) 至選件，選取 **[!UICONTROL 依定義的決定規則]**，然後將所需的規則從左窗格拖曳至 **[!UICONTROL 決定規則]** 區域。
 
-   ![](../assets/offer_rule.png)
+  ![](../assets/offer_rule.png)
 
-   >[!CAUTION]
-   >
-   >事件型優惠方案目前不支援 [!DNL Journey Optimizer]. 如果您根據以下專案建立決定規則： [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}，您將無法在選件中運用它。
+  >[!CAUTION]
+  >
+  >事件型優惠方案目前不支援 [!DNL Journey Optimizer]. 如果您根據以下專案建立決定規則： [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}，您將無法在選件中運用它。
 
 當您選擇區段或決定規則時，您可以看到有關預估合格設定檔的資訊。按一下 **[!UICONTROL 重新整理]** 以更新資料。
 
@@ -117,15 +117,15 @@ ht-degree: 17%
 
 * **區段**
 
-   一方面，區段是一組Adobe Experience Platform設定檔，可根據設定檔屬性和體驗事件符合特定邏輯。 不過，Offer Management不會重新計算區段，因為區段在展示優惠方案時可能不是最新的。
+  一方面，區段是一組Adobe Experience Platform設定檔，可根據設定檔屬性和體驗事件符合特定邏輯。 不過，Offer Management不會重新計算區段，因為區段在展示優惠方案時可能不是最新的。
 
-   深入瞭解中的區段 [本節](../../segment/about-segments.md).
+  深入瞭解中的區段 [本節](../../segment/about-segments.md).
 
 * **決定規則**
 
-   另一方面，決定規則會根據Adobe Experience Platform中可用的資料，並決定可向誰顯示優惠方案。 在優惠或指定位置的決定中選取後，每次做出決定時都會執行規則，以確保每個設定檔都能取得最新和最佳優惠。
+  另一方面，決定規則會根據Adobe Experience Platform中可用的資料，並決定可向誰顯示優惠方案。 在優惠或指定位置的決定中選取後，每次做出決定時都會執行規則，以確保每個設定檔都能取得最新和最佳優惠。
 
-   進一步瞭解中的決定規則 [本節](creating-decision-rules.md).
+  進一步瞭解中的決定規則 [本節](creating-decision-rules.md).
 
 ## 上限 {#capping}
 
@@ -138,7 +138,7 @@ ht-degree: 17%
 >id="ajo_decisioning_capping"
 >title="使用上限"
 >abstract="為避免過度招攬客戶，請使用上限來定義優惠的呈現次數上限。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="變更日期會影響上限"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=zh-Hant#capping-change-date" text="變更日期會影響上限"
 
 上限會用作限制，以定義可顯示優惠方案的最大次數。
 
@@ -186,16 +186,16 @@ ht-degree: 17%
 * **[!UICONTROL 決定事件]** （預設值）：可顯示選件的次數上限。
 * **[!UICONTROL 印象]**：優惠方案可向使用者顯示的最大次數。
 
-   >[!NOTE]
-   >
-   >閱聽作為上限事件可供使用 **傳入頻道** 僅限。
+  >[!NOTE]
+  >
+  >閱聽作為上限事件可供使用 **傳入頻道** 僅限。
 
 * **[!UICONTROL 點按次數]**：使用者可點按選件的次數上限。
 * **[!UICONTROL 自訂事件]**：您可以定義自訂事件，用於限制傳送的優惠方案數量。 例如，您可以限制贖回次數，直到它們等於10000，或直到指定的設定檔贖回1次。 若要這麼做，請使用 [ADOBE EXPERIENCE PLATFORM XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"} 用於建立自訂事件規則的結構描述。
 
-   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
+  <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   在以下範例中，您想要限制結帳次數。
+  在以下範例中，您想要限制結帳次數。
 
    1. 選取 **[!UICONTROL 自訂事件]** 從清單中使用 **[!UICONTROL 新增自訂事件]** 按鈕。
 
@@ -237,11 +237,11 @@ ht-degree: 17%
 
 * 選取 **[!UICONTROL 總計]** 定義可在合併的目標對象中建議多少次選件，亦即在所有使用者中建議多少次。
 
-   例如，如果您是擁有「TV doorbuster deal」的電子零售商，您只想要在所有設定檔中傳回200次選件。
+  例如，如果您是擁有「TV doorbuster deal」的電子零售商，您只想要在所有設定檔中傳回200次選件。
 
 * 選取 **[!UICONTROL 每個設定檔]** 以定義可向同一位使用者建議某個優惠方案的次數。
 
-   例如，如果您是擁有「白金信用卡」優惠方案的銀行，您不希望此優惠方案在每個設定檔中顯示超過5次。 事實上，您相信，如果使用者看過5次選件且未採取行動，則他們有較高機會對下一個最佳選件採取行動。
+  例如，如果您是擁有「白金信用卡」優惠方案的銀行，您不希望此優惠方案在每個設定檔中顯示超過5次。 事實上，您相信，如果使用者看過5次選件且未採取行動，則他們有較高機會對下一個最佳選件採取行動。
 
 ### 頻率限定 {#frequency-capping}
 
@@ -274,11 +274,11 @@ ht-degree: 17%
 
 * **[!UICONTROL 橫跨所有位置]**：上限計數會加總與優惠方案相關之刊登版位的所有決策。
 
-   例如，如果選件具有 **電子郵件** 位置和 **Web** 位置，而您將上限設定在 **所有版位中每個設定檔2個**，則無論版位組合為何，每個設定檔最多可以收到總共2次選件。
+  例如，如果選件具有 **電子郵件** 位置和 **Web** 位置，而您將上限設定在 **所有版位中每個設定檔2個**，則無論版位組合為何，每個設定檔最多可以收到總共2次選件。
 
 * **[!UICONTROL 針對每個位置]**：上限計數將分別套用每個位置的決定計數。
 
-   例如，如果選件具有 **電子郵件** 位置和 **Web** 位置，而您將上限設定在 **每個位置的每個設定檔2個**，則每個設定檔都會收到最多2次的電子郵件版位優惠，以及另外2次的網路版位優惠。
+  例如，如果選件具有 **電子郵件** 位置和 **Web** 位置，而您將上限設定在 **每個位置的每個設定檔2個**，則每個設定檔都會收到最多2次的電子郵件版位優惠，以及另外2次的網路版位優惠。
 
 ### 變更日期對上限的影響 {#capping-change-date}
 
