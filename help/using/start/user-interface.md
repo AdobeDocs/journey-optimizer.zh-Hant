@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: d9d73848acb40d8cba703309c38f0af2b89806a6
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 100%
+source-wordcount: '1284'
+ht-degree: 65%
 
 ---
 
 # 使用者介面 {#cjm-user-interface}
 
-連線至 [Adobe Experience Cloud](https://experience.adobe.com) 並瀏覽至 [!DNL Journey Optimizer]。
+若要存取  [!DNL Adobe Journey Optimizer]，連線至 [Adobe Experience Cloud](https://experience.adobe.com) 使用Adobe ID，並選取 [!DNL Journey Optimizer].
 
 瀏覽使用者介面時的重要概念與 Adobe Experience Platform 相同。如需詳細資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hant#adobe-experience-platform-ui-guide)。{target="_blank"}
 
@@ -39,27 +39,48 @@ ht-degree: 100%
 
 您可以在下方左側導覽找到完整的服務與功能清單，以及相關協助頁面的連結。
 
-**首頁**
+### 首頁 {#left-nav-home}
 
-[!DNL Journey Optimizer] 首頁包含要啟動的主要連結和資源。**[!UICONTROL 最近]**&#x200B;清單提供最近建立事件與歷程的捷徑。 此清單顯示其建立和修改日期和狀態。
+[!DNL Journey Optimizer] 首頁包含要啟動的主要連結和資源。
 
-**[!UICONTROL 歷程管理]**
+**[!UICONTROL 最近]**&#x200B;清單提供最近建立事件與歷程的捷徑。 此清單顯示其建立和修改日期和狀態。
 
-* **[!UICONTROL 歷程]** - 建立、設定並協調客戶歷程。[了解更多](../building-journeys/journey-gs.md#jo-build)
+瀏覽產品內使用案例，以開始建立資源和訊息。 [了解更多](#in-product-use-cases)。
 
-* **[!UICONTROL 登陸頁面]** - 建立、設計、測試並發佈登陸頁面。 [了解更多](../landing-pages/get-started-lp.md)
+使用首頁底部的連結來瞭解如何開始使用 [!DNL Journey Optimizer]. [了解更多](#find-help-and-support)。
 
-**[!UICONTROL 決策管理]**
+### [!UICONTROL 歷程管理] {#left-nav-journey}
+
+從此區段建立行銷活動和歷程。
+
+* **[!UICONTROL 行銷活動]**  — 建立、設定和協調行銷活動，使用各種管道將一次性內容傳送給特定對象。 [了解更多](../campaigns/get-started-with-campaigns.md)
+
+* **[!UICONTROL 歷程]**  — 建立、設定和協調客戶歷程：結合事件、協調和動作活動，以建立您的多步驟跨管道情境。 [了解更多](../building-journeys/journey-gs.md#jo-build)
+
+* **[!UICONTROL 登陸頁面]**  — 建立、設計、測試和發佈登入頁面：將使用者連結傳送至線上表單，使用者可以在其中選擇加入或選擇退出接收您的通訊，或訂閱特定服務。 [了解更多](../landing-pages/get-started-lp.md)
+
+
+### [!UICONTROL 決策管理] {#left-nav-offers}
+
+從此區段建立優惠方案和元件。
 
 * **[!UICONTROL 訂閱詳情]** - 從此功能表存取您最近的資源和資料集。使用此區段建立優惠。[了解更多](../offers/offer-library/creating-personalized-offers.md)
 
 * **[!UICONTROL 元件]** - 建立位置、規則和標記。 [了解更多](../offers/offer-library/key-steps.md)
 
-**[!UICONTROL 內容管理]**
+### [!UICONTROL 內容管理] {#left-nav-content}
+
+從此區段建立及管理內容。
 
 * **[!UICONTROL 資產]** - [!DNL Adobe Experience Manager Assets Essentials]為資產集中存放庫，可用來填入訊息。[了解更多](../email/assets-essentials.md)
 
-**[!UICONTROL 資料管理]**
+* **[!UICONTROL 內容範本]**  — 為了加快並改善設計流程，請建立獨立的範本，以便在Journey Optimizer促銷活動和歷程中輕鬆重複使用自訂內容。 [了解更多](../email/content-templates.md)
+
+* **[!UICONTROL 片段]**  — 建立和管理片段以順利進行電子郵件設計程式：預先建立可用於快速組合電子郵件內容的自訂內容區塊。 [了解更多](../email/fragments.md)
+
+### [!UICONTROL 資料管理] {#left-nav-data}
+
+從此區段管理您的資料。
 
 * **[!UICONTROL 結構描述]** - 使用 Adobe Experience Platform 在「方案編輯器」這個互動式視覺畫布中建立和管理體驗資料模型 (XDM) 方案。[了解更多](../data/get-started-schemas.md)
 
@@ -67,31 +88,59 @@ ht-degree: 100%
 
 * **[!UICONTROL 查詢]** - 使用 Adobe Experience Platform 查詢服務來寫入和執行查詢、檢視以前執行的查詢，以及存取由您組織內的使用者儲存的查詢。[了解更多](../data/get-started-queries.md)
 
-* **[!UICONTROL 監視]** - 使用此功能表在 Adobe Experience Platform 使用者介面中監視資料擷取。[了解更多](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hant){target="_blank"}
+* **[!UICONTROL 監視]** - 使用此功能表在 Adobe Experience Platform 使用者介面中監視資料擷取。進一步瞭解 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hant){target="_blank"}
 
-**[!UICONTROL 連線]**
+### [!UICONTROL 連線] {#left-nav-connections}
+
+從此區段管理您與其他應用程式和雲端的資料連線。
 
 * **[!UICONTROL 來源]** - 使用此功能表從多種來源 (例如 Adobe 應用程式、雲端儲存、資料庫等) 擷取資料。 您可以建構、加標籤和增強傳入資料。 [了解更多](get-started-sources.md)
 
-**[!UICONTROL 客戶]**
+* **[!UICONTROL 目的地]**  — 使用此功能表建立與雲端儲存位置的即時連線，以匯出資料集的內容。 [了解更多](../data/export-datasets.md)
+
+### [!UICONTROL 客戶] {#left-nav-customers}
+
+從此區段管理您的對象和設定檔資料。
 
 * **[!UICONTROL 區段]** - 建立和管理 Experience Platform 區段定義，並用於您的歷程。 [了解更多](../segment/about-segments.md)
+
+* **[!UICONTROL 訂閱清單]** - In [!DNL Journey Optimizer]，選擇加入訂閱服務的客戶會收集到訂閱清單中。 [了解更多](../landing-pages/subscription-list.md)
 
 * **[!UICONTROL 設定檔]** - 即時客戶設定檔可為個別客戶建立整體檢視，並結合來自多個頻道的資料，包括線上、離線、CRM 和第三方資料。[了解更多](../segment/get-started-profiles.md)
 
 * **[!UICONTROL 識別]** - Adobe Experience Platform 身分服務透過 Adobe Experience Platform 的身分圖表，管理跨裝置、跨頻道及幾乎即時的客戶身分識別。[了解更多](../segment/get-started-identity.md)
 
-**[!UICONTROL 管理]**
+### [!UICONTROL 隱私權] {#left-nav-privacy}
 
-* **[!UICONTROL 歷程管理]** - 使用此選單來設定[事件](../event/about-events.md)、[資料來源](../datasource/about-data-sources.md)和[動作](../action/action.md)，以用於您的歷程。
+從此區段控制您的隱私權管理和請求。
 
-* **[!UICONTROL 沙箱]** - Adobe Experience 平台提供的沙箱可將單一執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。[了解更多](../administration/sandboxes.md)
+* **[!UICONTROL 原則]** - Adobe Experience Platform可讓您為欄位加上標籤，並為每個管道建立行銷動作。 然後，您會定義連結至標籤和行銷動作的治理政策。[了解更多](../action/action-privacy.md)
 
-* **[!UICONTROL 警報]** - 使用者介面可讓您根據 Adobe Experience Platform 可檢視性深入解析顯示的指標查看收到警報的歷史記錄。UI 也可讓您檢視、啟用和停用可用的警報規則。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hant){target="_blank"}
+* **[!UICONTROL 請求]**  — 在Adobe Experience Platform Privacy Service中管理隱私權請求。 它提供RESTful API和使用者介面，幫助您管理客戶資料請求。 [了解更多](../privacy/requests.md)
+
+* **[!UICONTROL 稽核]**  — 瀏覽至此區段以檢查活動記錄。 [了解更多](../privacy/audit-logs.md)
+
+* **[!UICONTROL 資料衛生]**  — 本節可讓您設定及排程資料檢疫作業，以確保您的記錄受到適當的維護。 [了解更多](../privacy/data-hygiene.md)
+
+### [!UICONTROL 管理] {#left-nav-admin}
+
+* **[!UICONTROL 設定]**  — 使用此功能表來設定 [事件](../event/about-events.md)， [資料來源](../datasource/about-data-sources.md)、和 [動作](../action/action.md) ，以用於您的歷程。
+
+  您也可以存取 **報告** 區段來設定行銷活動實驗的報告。 [了解更多](../campaigns/reporting-configuration.md)
+
+* **[!UICONTROL 規則]**  — 使用此區段來建立跨頻道頻率規則，以控制使用者接收訊息或進入歷程的頻率。 [了解更多](../configuration/frequency-rules.md)
+
+* **[!UICONTROL 警報]** - 使用者介面可讓您根據 Adobe Experience Platform 可檢視性深入解析顯示的指標查看收到警報的歷史記錄。UI 也可讓您檢視、啟用和停用可用的警報規則。 [了解更多](../reports/alerts.md)
+
+* **[!UICONTROL 沙箱]** - Adobe Experience 平台提供的沙箱可將單一執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。瀏覽本節以管理您的沙箱。 [了解更多](../administration/sandboxes.md)
+
+* **[!UICONTROL 頻道]**  — 使用此區段來設定您的管道，包括子網域、表面和傳遞能力設定。 [了解更多](../configuration/get-started-configuration.md)
+
+* **[!UICONTROL 標籤]**  — 使用整合式標籤，您可以輕鬆將歷程和行銷活動分類，以改進清單中的搜尋。 [進一步了解](../start/search-filter-categorize.md#work-with-unified-tags)
 
 ## 產品內使用案例 {#in-product-uc}
 
-從 [!DNL Adobe Journey Optimizer] 首頁的產品使用案例可以快速輸入，以建立客戶歷程。
+從 [!DNL Adobe Journey Optimizer] 首頁、產品使用案例提供快速輸入以建立測試設定檔，或您的第一個客戶歷程。
 
 ![](assets/use-cases-home.png)
 
@@ -106,7 +155,7 @@ ht-degree: 100%
 
 若要執行使用案例，請按一下&#x200B;**[!UICONTROL 開始]**&#x200B;按鈕。
 
-您可以從&#x200B;**[!UICONTROL 檢視使用案例庫]**&#x200B;按鈕存取已執行的使用案例。
+您可以從以下位置存取已執行的使用案例： **[!UICONTROL 檢視資料庫]** 按鈕。
 
 ## 尋找說明與支援 {#find-help}
 
@@ -140,7 +189,7 @@ ht-degree: 100%
 若要變更您的語言：
 
 * 按一下右上角頭像處的&#x200B;**「偏好設定」**。
-   ![](assets/preferences.png)
+  ![](assets/preferences.png)
 * 然後按一下您電子郵件地址下方顯示的語言
 * 選擇您偏好的語言，然後按一下 **「儲存」**。若您使用的元件未當地化為您的母語，您可選取第二種語言。
-   ![](assets/select-language.png)
+  ![](assets/select-language.png)
