@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
+source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 100%
+source-wordcount: '1384'
+ht-degree: 99%
 
 ---
 
@@ -363,7 +363,7 @@ ht-degree: 100%
       + [使用決策管理事件](using/offers/reports/get-started-events.md)
       + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
    + 匯出優惠目錄 {#export-catalog}
-      + [開始使用優惠目錄匯出 ](using/offers/export-catalog/get-started-export.md)
+      + [開始使用優惠目錄匯出](using/offers/export-catalog/get-started-export.md)
       + [存取匯出的優惠目錄](using/offers/export-catalog/access-dataset.md)
       + [個人化優惠資料集](using/offers/export-catalog/export-offers.md)
       + [決定資料集](using/offers/export-catalog/export-decisions.md)
@@ -426,7 +426,7 @@ ht-degree: 100%
       + [開始使用資料集](using/data/get-started-datasets.md)
       + [匯出 Journey Optimizer 資料集](using/data/export-datasets.md)
       + [查詢範例](using/data/datasets-query-examples.md)
-      + [內建結構 > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant)
+      + [內建結構 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant)
    + [查詢](using/data/get-started-queries.md)
 + 設定{#configuration}
    + [開始使用 Journey Optimizer 設定](using/configuration/get-started-configuration.md)
@@ -488,3 +488,4 @@ ht-degree: 100%
       + [管理選擇退出](using/privacy/opt-out.md)
       + [使用同意原則](using/action/consent.md)
    + [資料治理](using/action/action-privacy.md)
+   + [設定及管理客戶自控金鑰](using/privacy/cmk.md)

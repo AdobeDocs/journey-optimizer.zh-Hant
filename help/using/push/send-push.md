@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 9%
@@ -39,7 +39,6 @@ ht-degree: 9%
 
 ## 驗證推播通知 {#push-validate}
 
-
 您必須在編輯器的上方區段中檢查警示。 其中一些是簡單的警告，但其他警告可能會阻止您傳送訊息。 可能會發生兩種型別的警報：警告和錯誤。
 
 * **警告** 請參閱建議和最佳實務。
@@ -52,7 +51,7 @@ ht-degree: 9%
 
    * **[!UICONTROL 推播iOS/Android承載已超過4KB的限制]**：推播通知大小不得超過4KB。 為遵守此限制，請嘗試減少使用影像或表情符號。 瞭解如何在中管理您的推播通知內容 [本節](../push/create-push.md).
 
-   ![](assets/push_alert.png)
+  ![](assets/push_alert.png)
 
 
 >[!NOTE]
