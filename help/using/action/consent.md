@@ -10,9 +10,9 @@ level: Experienced
 keywords: 原則、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '917'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Experience Platform 可讓您輕鬆採用及強制執行行銷政策，以
 
 歷程使用的所有其他活動都不會納入考量。 如果您以區段資格開始歷程，則不會考慮區段。
 
-在歷程中，如果自訂動作中的同意原則排除設定檔，則訊息不會傳送給設定檔，但會繼續歷程。 當使用條件時，設定檔不會前往逾時與錯誤路徑。
+在歷程中，如果設定檔遭到自訂動作的同意原則排除，則不會傳送訊息給他們，但他們會繼續歷程。 當使用條件時，設定檔不會前往逾時與錯誤路徑。
 
 在重新整理位於歷程自訂動作的原則之前，請確定您的歷程無誤。
 
