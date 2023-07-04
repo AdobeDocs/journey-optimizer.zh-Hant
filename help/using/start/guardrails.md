@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
 source-wordcount: '1119'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ### 一般歷程護欄 {#journeys-guardrails-journeys}
 
-* 歷程中的活動數限定為最多 50 個。活動數會顯示於歷程畫布的左上方區段。這有助於提高可讀性、QA和疑難排解。
+* 歷程中的活動數限定為最多 50 個。活動數會顯示於歷程畫布的左上方區段。這有助於提高可讀性、QA 及疑難排解。
 * 當您發佈歷程時，我們會自動縮放和調整，以確保最大的輸送量和穩定性。 當您接近一次包含100個即時歷程的里程碑時，您會看到此成果的UI中出現通知。 如果您看到此通知，並需要一次將您的歷程擴充到100個即時歷程以外，請建立客戶服務票證，我們將協助您達成目標。
 
 ### 一般動作 {#general-actions-g}
@@ -53,7 +53,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 如果出現錯誤，將系統地執行三次重試。您無法根據收到的錯誤訊息調整重試次數。
 * 內建的&#x200B;**反應**&#x200B;事件可讓您對開箱即用的動作做出反應。 在[本頁](../building-journeys/reaction-events.md)中瞭解更多。如果要對透過自訂動作傳送的訊息做出反應，則需設定專用事件。
 * 您無法同時進行兩個動作，必須逐一新增。
-* 設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，設定檔可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。 [閱讀全文](../building-journeys/end-journey.md)
+* 設定檔無法在同一歷程中同時出現多次。如果啟用重新進入，設定檔可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。 [閱讀全文](../building-journeys/end-journey.md)
 
 ### 歷程版本 {#journey-versions-g}
 

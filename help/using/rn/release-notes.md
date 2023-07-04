@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
 source-wordcount: '2595'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 
 
-## 2023年6月發行說明 {#june-rn-2023}
+## 2023 年 6 月發行說明 {#june-rn-2023}
 
 <!--
 Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
@@ -36,14 +36,14 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>適用於行銷使用案例的API觸發行銷活動</strong><br/></th>
+<th><strong>適用於行銷使用案例的 API 觸發行銷活動</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以從外部系統使用API在Adobe Journey Optimizer中觸發行銷活動。</p>
-<p>在此版本之前，API觸發的行銷活動功能涵蓋各種操作和異動訊息需求，例如密碼重設或OTP權杖，但無法用於建立行銷活動。 API觸發的行銷活動的可用管道包括：電子郵件、簡訊和推播訊息。</p>
+<p>您現在可以從外部系統使用 API，在 Adobe Journey Optimizer 中觸發行銷活動。</p>
+<p>在此發行版本之前，API 觸發的行銷活動功能涵蓋各種操作和異動訊息傳送需求，例如密碼重設或 OTP 權杖，但無法用於建立行銷活動。 API 觸發的行銷活動可用管道包括：電子郵件、簡訊及推播訊息。</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
 <p>如需詳細資訊，請參閱<a href="../campaigns/api-triggered-campaigns.md">詳細文件</a>。
 </td>
