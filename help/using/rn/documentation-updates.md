@@ -5,9 +5,9 @@ title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: ae7585473373e23da02f16c0b43ab0b1b29f356d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2949'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 97%
 
 ## 2023 年 6 月 {#june-2023}
 
-* 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2023年6月版本的詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
-* 評估准則順序的其他範例已新增至 **建立決定** 區段來說明使用多個條件和多個決定範圍的案例。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
-* 「決定管理」檔案已清楚說明物件層級存取控制的使用不適用於動態集合。 [閱讀全文](../offers/offer-library/creating-collections.md)
+* 有關 [!DNL Journey Optimizer] 2023 年 6 月發行版本所有新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
+* 評估準則順序的其他範例已新增至&#x200B;**建立決定**&#x200B;區段，以說明使用多個準則與多個決定範圍的案例。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* 「決策管理」文件已透過備註清楚說明，無法對動態集合使用物件層級存取控制。[閱讀全文](../offers/offer-library/creating-collections.md)
 
 ## 2023 年 5 月 {#may-2023}
 
