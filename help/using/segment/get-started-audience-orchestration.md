@@ -12,9 +12,9 @@ hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
 source-git-commit: fdfee4f88b4ed29c5083d1f755f488a43cc38f95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -38,19 +38,19 @@ ht-degree: 67%
 
 >[!AVAILABILITY]
 >
->對象構成目前僅適用於有限的客戶群組。 如有任何問題，請聯絡您的Adobe代表。
+>對象構成目前僅適用於有限的客戶群組。 如有任何疑問，請聯絡 Adobe 代表。
 
 對象組合可讓您建立&#x200B;**組合工作流程**，您可以將現有的 Adobe Experience Platform 對象結合至視覺畫布，並善用各種活動 (分割、排除……) 來建立新對象。
 
-完成後， **產生的對象** 連同現有受眾一起儲存至Adobe Experience Platform中，並可在以下位置鎖定客戶： [Journey Optimizer行銷活動](../campaigns/get-started-with-campaigns.md)，或Adobe [Real-time Customer Data Platform目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hant){target="_blank"}.
+完成後，**產生的對象**&#x200B;將與現有對象一起儲存至 Adobe Experience Platform 並且可加以善用，以便在 [Journey Optimizer 行銷活動](../campaigns/get-started-with-campaigns.md) 或 Adobe [Real-time Customer Data Platform 目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hant){target="_blank"}中鎖定客戶。
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->截至目前，構成工作流程產生的對象不適用於歷程。
+>目前，構成工作流程產生的對象無法於歷程中使用。
 >
->Adobe Journey Optimizer中的行銷活動尚未與原則執行服務整合。 因此，您套用至對象屬性的任何資料使用標籤都不會在Journey Optimizer行銷活動中強制執行。
+>Adobe Journey Optimizer 的行銷活動尚未與原則執行服務整合。 因此，您套用至對象屬性的任何資料使用標籤都不會在 Journey Optimizer 行銷活動中執行。
 
 可從 Adobe Journey Optimizer **[!UICONTROL 區段]**&#x200B;功能表存取對象組合：
 
