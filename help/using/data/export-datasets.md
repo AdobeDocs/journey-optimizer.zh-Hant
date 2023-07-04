@@ -8,10 +8,10 @@ level: Beginner
 badge: label="Beta" type="Informative"
 keywords: platform、資料湖、建立、湖、資料集、設定檔
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 98957bfff8fdc719dc81d3064eb3332c3f9f2cc4
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
 
 * 若要匯出資料集，您需要 **管理目的地**， **檢視目的地**， **啟用目的地**、和 **管理和啟用資料集目的地** [存取控制許可權](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). 閱讀 [存取控制總覽](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) 或聯絡您的產品管理員以取得必要許可權。
 
-* 此功能僅支援匯出第一代資料，亦即中定義的原始資料 [Real-time Customer Data Platform產品說明](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). 請確定您要匯出的資料集未包含第二代資料。
+* 請確定您要匯出的資料集未包含第二代資料。 此功能僅支援匯出第一代資料，亦即中定義的原始資料 [Real-time Customer Data Platform產品說明](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). 第一代資料包括透過Adobe Experience Platform來源傳入的資料集，或使用Analytics Data Connector和Journey Optimizer記錄/報告資料集等Adobe解決方案收集的資料集。
 
 ## 匯出資料集的主要步驟 {#main-steps}
 
