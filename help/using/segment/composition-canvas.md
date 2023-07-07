@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 66cf0332c62a9c3b034398c3a6046cbcec622d40
+source-git-commit: 715674d48d01526b5e6a328ed3951357edc2b73b
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 28%
+source-wordcount: '1373'
+ht-degree: 26%
 
 ---
 
@@ -116,22 +116,22 @@ ht-degree: 28%
 
 * **[!UICONTROL 排除對象]**：排除屬於現有對象的設定檔。
 
-   按一下 **[!UICONTROL 新增對象]** 按鈕，然後選取要排除的對象。
+  按一下 **[!UICONTROL 新增對象]** 按鈕，然後選取要排除的對象。
 
-   ![](assets/audiences-exclude-audience.png)
+  ![](assets/audiences-exclude-audience.png)
 
 * **[!UICONTROL 使用屬性排除]**：根據特定屬性排除設定檔。
 
-   選取要查詢的屬性，然後指定要排除的值。 在此範例中，我們將從住址位於日本的構成設定檔中排除。
+  選取要查詢的屬性，然後指定要排除的值。 在此範例中，我們將從住址位於日本的構成設定檔中排除。
 
-   ![](assets/audiences-exclude-attribute.png)
+  ![](assets/audiences-exclude-attribute.png)
 
 ### 擴充 {#enrich}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="擴充活動"
->abstract="使用擴充活動以排除屬於現有對象的設定檔。使用屬性類型的排除可讓您根據特定屬性排除設定檔。"
+>abstract="使用「擴充」活動，利用來自Adobe Experience Platform資料集的其他屬性來豐富您的對象。 例如，您可以新增與所購買產品相關的資訊，例如其名稱、價格或製造商ID，並運用這些資訊來個人化傳送給對象的傳送。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
@@ -220,15 +220,15 @@ ht-degree: 28%
 
 * **[!UICONTROL 百分比分割]**：將設定檔隨機分割成兩個或多個路徑。 例如，您可以將設定檔分割為2個各自為50%的相異路徑。 <!--and add an additional path for control group.-->
 
-   ![](assets/audiences-split-percentage.png)
+  ![](assets/audiences-split-percentage.png)
 
 * **[!UICONTROL 屬性分割]**：根據特定屬性分割設定檔。 在此範例中，我們根據它們的空間型別偏好來分割輪廓。
 
-   ![](assets/audiences-split.png)
+  ![](assets/audiences-split.png)
 
-   >[!NOTE]
-   >
-   >此 **[!UICONTROL 其他設定檔]** 選項可讓您使用不符合其他路徑中指定的任何條件的剩餘設定檔來建立其他路徑。
+  >[!NOTE]
+  >
+  >此 **[!UICONTROL 其他設定檔]** 選項可讓您使用不符合其他路徑中指定的任何條件的剩餘設定檔來建立其他路徑。
 
 ## 儲存您的對象 {#save}
 
