@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 20%
+source-wordcount: '262'
+ht-degree: 18%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 20%
 >title="訂閱全域報告"
 >abstract="訂閱全域報告可讓您測量和視覺化訂閱者在選取時段內的活動。您的報告會分為不同的 Widget，詳細說明您的訂閱和取消訂閱的內容。每個報告儀表板都可以透過調整大小或移除 Widget 來修改。"
 
-訂閱 **[!UICONTROL 全域報告]** 顯示所選時段內訂閱者的活動詳細資訊。 若只要測量過去24小時的訂閱，請參閱 [訂閱即時報告](subscription-report-live.md).
+全域報告可從「所有時間」標籤存取，顯示至少兩小時前發生的事件，以及涵蓋選定時段內的事件。 相較之下，即時報表著重於過去24小時內發生的事件，最短時間間隔為事件發生後的2分鐘。
 
 若要存取報告，請按一下 **[!UICONTROL 報告]** 圖示來尋找您選取的訂閱清單。
 

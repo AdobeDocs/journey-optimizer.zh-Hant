@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '532'
 ht-degree: 10%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 10%
 >title="登陸頁面全域報告"
 >abstract="登陸頁面全域報告可讓您測量您的登陸頁面在選取時段內的影響。您的報告會分為不同的 Widget，詳細說明您的登陸頁面的成功和錯誤。每個報告儀表板都可以透過調整大小或移除 Widget 來修改。"
 
-登陸頁面 **[!UICONTROL 全域報告]** 報表會顯示所選時段內登入頁面影響的詳細資訊。 若要僅測量過去24小時內的登陸頁面資料，請參閱 [登陸頁面即時報告](lp-report-live.md).
+全域報告可從「所有時間」標籤存取，顯示至少兩小時前發生的事件，以及涵蓋選定時段內的事件。 相較之下，即時報表著重於過去24小時內發生的事件，最短時間間隔為事件發生後的2分鐘。
 
 若要存取報告，請選取 **[!UICONTROL 報告]** 從您所選登陸頁面的進階功能表。
 

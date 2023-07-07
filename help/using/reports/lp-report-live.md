@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '447'
 ht-degree: 14%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 14%
 >title="登陸頁面即時報告"
 >abstract="登陸頁面即時報告可讓您僅在過去 24 小時內對登陸頁面的影響和效能進行即時測量和視覺化。您的報告會分為不同的 Widget，詳細說明您的登陸頁面的成功和錯誤。每個報告儀表板都可以透過調整大小或移除 Widget 來修改。"
 
-登陸頁面 **[!UICONTROL 即時報告]** 報告僅顯示登陸頁面過去24小時影響的詳細資訊。 若要測量選定時段內的登入頁面資料，請參閱 [登陸頁面全域報告](lp-report-global.md).
+即時報告（可從過去24小時索引標籤存取）會顯示過去24小時內發生的事件，最短時間間隔為事件發生後的2分鐘。 相較之下，全域報表著重於至少兩小時前發生的事件，並涵蓋選定時段內的事件。
 
 若要存取報告，請選取 **[!UICONTROL 報告]** 從您所選登陸頁面的進階功能表。
 
