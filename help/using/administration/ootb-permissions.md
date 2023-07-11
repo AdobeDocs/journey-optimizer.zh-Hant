@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 許可權，編寫，訊息
 exl-id: fd7a7564-bf67-4796-8182-0b9b04516f21
-source-git-commit: f5b4beb327804c23e58835de3218d67f1ab4e87e
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '573'
 ht-degree: 2%
 
 ---
@@ -19,12 +19,10 @@ ht-degree: 2%
 # 內建權限 {#ootb-permissions}
 
 | 功能 | 權限 |
-|---|---|
-| 警報 | **[!DNL Manage alerts]**：啟用/停用歷程和權益的警報規則。</br>**[!DNL Resolve alerts]**：可讓您解析觸發的警報。</br>**[!DNL View alerts]**：可讓您檢視收到的警示訊息，並存取「警示」標籤。 </br>**[!DNL View alerts history]**：可讓您檢視已接收警示的歷史記錄。 |
+|-|-|
 | 行銷活動 | **[!DNL Manage campaigns]**：讀取、建立、編輯和刪除行銷活動。 </br>**[!DNL Publish campaigns]**：發佈行銷活動的權利。</br>**[!DNL View campaigns]**：行銷活動的唯讀存取權。 </br>**[!DNL View campaigns report]**：讀取和編輯行銷活動報告。 |
-| 頻道設定 | **[!DNL View messages general settings]**：對訊息一般設定的唯讀存取權。</br>**[!DNL Manage web subdomain]**：讀取、建立、編輯和刪除網頁子網域。</br>**[!DNL Manage messages general settings]**：讀取、建立、編輯和刪除訊息一般設定。</br>**[!DNL Manage suppression]**：讀取、建立、編輯和刪除隱藏規則。</br>**[!DNL Manage messages presets]**：讀取、建立、編輯和刪除內容品牌。</br>**[!DNL View messages presets]**：訊息預設集的唯讀存取權。</br>**[!DNL Manage SMS subdomains]**：讀取、建立、編輯和刪除SMS子網域。</br>**[!DNL Manage subdomains delegation]**：讀取、建立、編輯和刪除子網域委派。</br>**[!DNL Manage IP pools]**：讀取、建立、編輯和刪除ip集區。</br>**[!DNL Manage PTR records]**：讀取和編輯PTR記錄。</br>**[!DNL View PTR records]**：對PTR記錄的唯讀存取權。</br>**[!DNL Manage channel surfaces]**：讀取、建立、編輯和刪除內容品牌。</br>**[!DNL Manage Landing page settings]**：讀取、建立、編輯和刪除登陸頁面子網域和登陸頁面預設集。</br>**[!DNL Manage SMS settings]**：讀取、建立、編輯和刪除API認證以及啟用SMS頻道所需的SMS頻道介面。</br>**[!DNL Export suppression list]**：存取將隱藏清單匯出為csv檔案。</br>**[!DNL View suppression list]**：讀取和匯出本機隱藏清單。 |
 | 儀表板 | **[!DNL View license usage dashboards]**：對授權使用儀表板的唯讀存取權。 </br>**[!DNL Manage custom dashboards]**：可讓您建立新儀表板或編輯現有儀表板。</br>**[!DNL View custom dashboards]**：對使用者定義儀表板的唯讀存取權。 </br>**[!DNL View standard dashboards]**：對設定檔、目的地和區段儀表板的唯讀存取權。</br>**[!DNL Manage standard dashboards]**：可讓您建立自訂Widget，並透過Widget資料庫編輯Widget結構。 |
-| 資料彙集 | **[!DNL Manage datastream]**：讀取、建立和編輯資料串流。</br>**[!DNL View datastream]**：資料串流的唯讀存取權。 |
+| 資料收藏集 | **[!DNL Manage datastream]**：讀取、建立和編輯資料串流。</br>**[!DNL View datastream]**：資料串流的唯讀存取權。 |
 | 資料控管 | **[!DNL Manage usage labels]**：讀取、建立、編輯和刪除標籤。</br>**[!DNL Manage data usage policies]**：讀取、建立、編輯和刪除資料使用原則。</br>**[!DNL View data usage policies]**：屬於您組織的資料使用原則的唯讀存取權。</br>**[!DNL View user activity log]**：唯讀存取權，可檢視Platform活動已記錄的稽核記錄。 |
 | 資料衛生 | **[!DNL View data hygiene]**：資料檢疫的唯讀存取。</br>**[!DNL Manage data hygiene]**：讀取、建立、編輯和刪除資料衛生。 |
 | 資料擷取 | **[!DNL Manage sources]**：讀取、建立、編輯和停用來源。</br>**[!DNL View sources]**：以唯讀方式存取「目錄」標籤中的可用來源，以及「瀏覽」標籤中的已驗證來源。 |

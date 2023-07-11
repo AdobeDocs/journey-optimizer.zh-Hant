@@ -9,18 +9,14 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac，屬性，授權，資料，存取，敏感，資產
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 3%
+source-wordcount: '1062'
+ht-degree: 1%
 
 ---
 
 # 以屬性為基礎的存取控制 {#attribute-based-access}
-
->[!IMPORTANT]
->
->以屬性為基礎的存取控制目前僅限於選定客戶，將在未來的版本中同步到所有環境。
 
 屬性型存取控制(ABAC)可讓您定義管理特定團隊或使用者群組之資料存取的授權。 其目的在於保護敏感數位資產，使其免受未經授權使用者的侵害，進而進一步保護個人資料。
 

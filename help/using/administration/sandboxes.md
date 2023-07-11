@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 沙箱，虛擬，環境，組織，平台
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 54%
+source-wordcount: '354'
+ht-degree: 55%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 54%
 
 ## 使用沙箱 {#using-sandbox}
 
-[!DNL Journey Optimizer] 可讓您將執行個體分割到名為沙箱的個別虛擬環境中。會透過 Admin Console 中的產品設定檔指派沙箱。[瞭解如何指派 sandbox](permissions.md#create-product-profile)。
+[!DNL Journey Optimizer] 可讓您將執行個體分割到名為沙箱的個別虛擬環境中。沙箱是透過許可權中的角色指派。 [瞭解如何指派 sandbox](permissions.md#create-product-profile)。
 
 [!DNL Journey Optimizer] 反映針對指定組織建立的 Adobe Experience Platform sandbox。
 可從 Adobe Experience Platform 執行個體建立或重設 Adobe Experience Platform sandbox。[進一步瞭解sandbox使用手冊](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target="_blank"}.
@@ -37,27 +37,21 @@ ht-degree: 54%
 >
 > 沙箱管理只能由 **[!UICONTROL 產品]** 或 **[!UICONTROL 系統]** 管理員。 如需詳細資訊，請參閱 [Admin Console檔案](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
 
-您可以選擇將不同的沙箱指派給現成可用的或自訂的 **[!UICONTROL 產品設定檔]**.
+您可以選擇將不同的沙箱指派給現成可用的或自訂的 **[!UICONTROL 角色]**.
 
 若要指派沙箱：
 
-1. 在 [!DNL Admin Console]，來自 **[!UICONTROL 產品]** 索引標籤中，選取 **[!UICONTROL Adobe Experience Platform應用程式]** 產品。
-
-1. 選取 **[!UICONTROL 產品設定檔]**.
+1. 在 [!DNL Permissions]，來自 **[!UICONTROL 角色]** 索引標籤中，選取 **[!UICONTROL 角色]**.
 
    ![](assets/sandbox_1.png)
 
-1. 選取 **[!UICONTROL 許可權]** 標籤。
+1. 按一下&#x200B;**[!UICONTROL 編輯]**。
 
-1. 選取 **[!UICONTROL 沙箱]** 功能。
-
-   ![](assets/sandbox_2.png)
-
-1. 下 **[!UICONTROL 可用的許可權專案]**，按一下加號(+)圖示，將沙箱指派給您的設定檔。 [進一步瞭解sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant){target="_blank"}.
+1. 從 **[!UICONTROL 沙箱]** resource下拉式清單，選取將指派給您的角色的沙箱。
 
    ![](assets/sandbox_3.png)
 
-1. 如有需要，在 **[!UICONTROL 包含的許可權專案]**，按一下旁邊的X圖示，以移除對您的 **[!UICONTROL 產品設定檔]**.
+1. 如有需要，請按一下旁邊的X圖示，以移除對您的裝置的沙箱存取權。 **[!UICONTROL 角色]**.
 
    ![](assets/sandbox_4.png)
 
