@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 715674d48d01526b5e6a328ed3951357edc2b73b
 workflow-type: tm+mt
 source-wordcount: '1373'
-ht-degree: 26%
+ht-degree: 31%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="擴充活動"
->abstract="使用「擴充」活動，利用來自Adobe Experience Platform資料集的其他屬性來豐富您的對象。 例如，您可以新增與所購買產品相關的資訊，例如其名稱、價格或製造商ID，並運用這些資訊來個人化傳送給對象的傳送。"
+>abstract="使用擴充活動透過來自 Adobe Experience Platform 資料集的其他屬性來擴充您的對象。例如，您可以新增與所購買產品相關的資訊 (例如名稱、價格或製造商 ID)，並利用這些資訊來個人化傳遞給對象的內容。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
@@ -148,7 +148,7 @@ ht-degree: 26%
 >title="擴充屬性"
 >abstract="從擴充資料集中選取要和對象相關聯的一或多個屬性。一旦發佈組合，這些屬性就會和對象相關聯，並且可以在行銷活動中加以利用以將傳遞個人化。"
 
-此 **[!UICONTROL 擴充]** 活動可讓您利用來自Adobe Experience Platform資料集的其他屬性來豐富受眾。 例如，您可以新增與所購買產品相關的資訊，例如其名稱、價格或製造商ID，並運用這些資訊來個人化傳送給對象的傳送。
+此 **[!UICONTROL 擴充]** 活動可讓您利用來自Adobe Experience Platform資料集的其他屬性來豐富受眾。 例如，您可以新增與所購買產品相關的資訊 (例如名稱、價格或製造商 ID)，並利用這些資訊來個人化傳遞給對象的內容。
 
 >[!IMPORTANT]
 >
