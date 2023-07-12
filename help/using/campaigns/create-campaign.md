@@ -152,7 +152,7 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_triggers"
->title="行銷活動動作觸發器"
+>title="行銷活動動作觸發程序"
 >abstract="定義應傳送行銷活動訊息的頻率。"
 
 依預設，行銷活動在手動啟動後開始，並在訊息傳送後立即結束。
