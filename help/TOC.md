@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: c67c7b7c6a8af1ea24c66df261ddd390e55675f7
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 99%
@@ -282,15 +282,15 @@ ht-degree: 99%
    + 受眾 {#audiences}
       + [開始使用 Audiences](using/audience/about-audiences.md)
       + [建立區段定義](using/audience/creating-a-segment-definition.md)
+      + 撰寫對象 {#audience-orchestration}
+         + [開始使用對象組合](using/audience/get-started-audience-orchestration.md)
+         + [建立組合工作流程](using/audience/create-compositions.md)
+         + [使用組合畫布](using/audience/composition-canvas.md)
+         + [存取及管理對象](using/audience/access-audiences.md)
    + 設定檔{#profiles}
       + [開始使用設定檔](using/audience/get-started-profiles.md)
       + [建立測試設定檔](using/audience/creating-test-profiles.md)
    + [身分](using/audience/get-started-identity.md)
-   + 撰寫對象 {#audience-orchestration}
-      + [開始使用對象組合](using/audience/get-started-audience-orchestration.md)
-      + [建立組合工作流程](using/audience/create-compositions.md)
-      + [使用組合畫布](using/audience/composition-canvas.md)
-      + [存取及管理對象](using/audience/access-audiences.md)
    + [授權使用情況](using/audience/license-usage.md)
 + 追蹤和監視 {#reporting}
    + 即時報告 {#live-report}
