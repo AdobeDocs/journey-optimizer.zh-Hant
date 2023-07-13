@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: 6f6fd6c032be7f86dca239d43732f3ab37223093
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1345'
 ht-degree: 30%
 
 ---
@@ -138,8 +138,6 @@ ht-degree: 30%
 此 **[!UICONTROL 擴充]** 活動可讓您利用來自Adobe Experience Platform資料集的其他屬性來豐富受眾。 例如，您可以新增與所購買產品相關的資訊 (例如名稱、價格或製造商 ID)，並利用這些資訊來個人化傳遞給對象的內容。
 
 >[!IMPORTANT]
->
->擴充可用於 **[!UICONOTROL Adobe Journey Optimizer]** 僅限使用者。
 >
 >目前，資料集上的標籤（在資料集層級或欄位層級）不會傳播至新建立的對象。 這可能會影響所產生對象的存取控制及/或資料控管。 因此，在構成對象時，請僅使用測試資料。
 
