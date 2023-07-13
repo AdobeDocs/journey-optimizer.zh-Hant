@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 14%
@@ -71,15 +71,15 @@ ht-degree: 14%
 
    * 內容選單，用於編輯其內容、配置、插入連結或個人化等。
 
-      ![](assets/web-designer-contextual-bar.png)
+     ![](assets/web-designer-contextual-bar.png)
 
    * 右側面板頂端的圖示可編輯、複製、刪除或隱藏每個元素。
 
-      ![](assets/web-designer-right-panel-icons.png)
+     ![](assets/web-designer-right-panel-icons.png)
 
    * 根據所選元素動態變更的右側面板。 例如，您可以編輯元素的背景、印刷樣式、框線、大小、位置、間距、效果或內嵌樣式。
 
-      ![](assets/web-designer-right-panel.png)
+     ![](assets/web-designer-right-panel.png)
 
 >[!NOTE]
 >
@@ -249,7 +249,7 @@ ht-degree: 14%
 
 >[!CAUTION]
 >
->您必須具備可用的測試設定檔，以模擬將傳送哪些優惠給他們。 瞭解如何 [建立測試設定檔](../segment/creating-test-profiles.md).
+>您必須具備可用的測試設定檔，以模擬將傳送哪些優惠給他們。 瞭解如何 [建立測試設定檔](../audience/creating-test-profiles.md).
 
 1. 從任一網路促銷活動編輯內容畫面中，選取 **[!UICONTROL 模擬內容]**.
 

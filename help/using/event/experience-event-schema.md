@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 結構描述， XDM，平台，串流，擷取，歷程
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 4%
@@ -32,33 +32,33 @@ ht-degree: 4%
 
 * 結構描述必須是XDM ExperienceEvent類別。
 
-   ![](assets/schema2.png)
+  ![](assets/schema2.png)
 
 * 對於系統產生的事件，結構描述必須包括Orchestration eventID欄位群組。 [!DNL Journey Optimizer] 使用此欄位來識別歷程中使用的事件。
 
-   ![](assets/schema3.png)
+  ![](assets/schema3.png)
 
 * 宣告識別事件中個別設定檔的身分欄位。 如果未指定身分，則可使用身分對應。 不建議採用此做法。
 
-   ![](assets/schema4.png)
+  ![](assets/schema4.png)
 
 * 如果您希望此資料稍後可在歷程中查詢，請標籤設定檔的結構描述和資料集。
 
-   ![](assets/schema5.png)
+  ![](assets/schema5.png)
 
-   ![](assets/schema6.png)
+  ![](assets/schema6.png)
 
 * 您可以隨意加入資料欄位，以擷取您要與事件一起加入的任何其他內容資料，例如關於使用者的資訊、產生事件的裝置、位置或與事件相關的任何其他有意義的情況。
 
-   ![](assets/schema7.png)
+  ![](assets/schema7.png)
 
-   ![](assets/schema8.png)
+  ![](assets/schema8.png)
 
 ## 利用綱要關係{#leverage_schema_relationships}
 
 Adobe Experience Platform 可讓您定義綱要之間的關係，以便將一個資料集用作另一個資料集的查詢表。 
 
-假設您的品牌資料模型有一個擷取購買資料的結構描述。 您也有產品目錄的結構描述。 您可以在購買結構描述中擷取產品ID，並使用關係從產品目錄中查詢更完整的產品詳細資訊。 舉例來說，這可讓您為所有購買筆記型電腦的客戶建立區段，而無須明確列出所有筆記型電腦ID，或擷取異動系統中的每個單一產品詳細資訊。
+假設您的品牌資料模型有一個擷取購買資料的結構描述。 您也有產品目錄的結構描述。 您可以在購買結構描述中擷取產品ID，並使用關係從產品目錄中查詢更完整的產品詳細資訊。 舉例來說，這可讓您為所有購買筆記型電腦的客戶建立受眾，而不需明確列出所有筆記型電腦ID，或擷取異動系統中的每個單一產品詳細資訊。
 
 若要定義關係，來源結構描述中必須有專用欄位，在此案例中是購買結構描述中的產品ID欄位。 此欄位需要參考目的地結構描述中的產品ID欄位。 必須為設定檔啟用來源和目的地資料表，而且目的地結構描述必須將該通用欄位定義為其主要身分。
 

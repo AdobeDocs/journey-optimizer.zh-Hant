@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 1832f3395b07580e62f32c886a0a4256267b2970
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 6%
@@ -26,7 +26,8 @@ Journey Optimizer會利用Adobe Experience Platform警報功能。 這可讓您�
 
 >[!AVAILABILITY]
 >
->「讀取區段觸發失敗」警報的部分設計變更正在進行中，因此此警報目前已暫停，並從使用者介面中暫時移除。 這些變更發佈後，警報將再次顯示，您可以訂閱。
+>「讀取對象觸發器失敗」警報的部分設計變更正在進行中，因此此警報目前已暫停，並從使用者介面暫時移除。 這些變更發佈後，警報將再次顯示，您可以訂閱。
+>
 
 在左側選單中的 **管理**，按一下 **警報**.
 

@@ -1,12 +1,12 @@
 ---
 title: 批次決策 API
-description: 瞭解如何使用批次決策API為預先定義的決策範圍內的分段設定檔選取最佳優惠。
+description: 瞭解如何使用批次決策API為預先定義的決策範圍內的對象設定檔選取最佳選件。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 3%
@@ -16,9 +16,9 @@ ht-degree: 3%
 
 # 使用傳遞優惠方案 [!DNL Batch Decisioning] API {#deliver-offers-batch}
 
-此 [!DNL Batch Decisioning] API可讓組織在一次呼叫中對特定區段中的所有設定檔使用決策功能。 區段中每個設定檔的選件內容都會放在Adobe Experience Platform資料集中，可用於自訂批次工作流程。
+此 [!DNL Batch Decisioning] API可讓組織在一次呼叫中對特定對象中的所有設定檔使用決策功能。 對象中每個設定檔的選件內容都會放在Adobe Experience Platform資料集中，可用於自訂批次工作流程。
 
-使用 [!DNL Batch Decisioning] api後，您可以在資料集中填入決策範圍之Adobe Experience Platform區段中所有設定檔的最佳選件。 例如，組織可能想要執行 [!DNL Batch Decisioning] 以便他們將優惠方案傳送給訊息傳遞廠商。 然後，這些選件會用作傳送以進行批次訊息傳送給相同使用者區段的內容。
+使用 [!DNL Batch Decisioning] api後，您可以在資料集中填入決策範圍之Adobe Experience Platform對象中所有設定檔的最佳選件。 例如，組織可能想要執行 [!DNL Batch Decisioning] 以便他們將優惠方案傳送給訊息傳遞廠商。 然後，這些選件會用作傳送以進行批次訊息傳送給相同使用者對象的內容。
 
 為此，組織將：
 
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 * 將資料集匯出至訊息傳遞供應商API。
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting segments.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 3%
 
 ### 準備決定 {#prepare-decision}
 
-若要準備一或多個決定，請確定您已建立資料集、區段和決定。 這些先決條件詳見 [本節](../../batch-delivery.md).
+若要準備一或多個決定，請確定您已建立資料集、對象和決定。 這些先決條件詳見 [本節](../../batch-delivery.md).
 
 ### API需求 {#api-requirements}
 
@@ -104,7 +104,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-90
 
 | 屬性 | 說明 | 範例 |
 | -------- | ----------- | ------- |
-| `xdm:segmentIds` | 值是包含區段唯一識別碼的陣列。 它只能包含一個值。 | `609028e4-e66c-4776-b0d9-c782887e2273` |
+| `xdm:segmentIds` | 值是包含對象唯一識別碼的陣列。 它只能包含一個值。 | `609028e4-e66c-4776-b0d9-c782887e2273` |
 | `xdm:dataSetId` | 可寫入決定事件的輸出資料集。 | `6196b4a1a63bd118dafe093c` |
 | `xdm:propositionRequests` | 包含 `placementId` 和 `activityId` |  |
 | `xdm:activityId` | 決定的唯一識別碼。 | `xcore:offer-activity:1410cdcda196707b` |

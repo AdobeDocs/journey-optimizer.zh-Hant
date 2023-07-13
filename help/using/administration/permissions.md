@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 產品，設定檔，沙箱
-source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 6%
@@ -109,7 +109,7 @@ ht-degree: 6%
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. 在不同的資源之間選取，例如 **[!DNL Journeys]**， **[!DNL Segments]** 或 **[!DNL Decision management]** 提供於 [!DNL Journey Optimizer] 列於左側功能表中。
+1. 在不同的功能之間選取，例如 **[!DNL Journeys]**， **[!DNL Segments]** <!--CHECK--> 或 **[!DNL Decision management]** 提供於 [!DNL Journey Optimizer] 列於左側功能表中。
 
    在此處，我們選取 **[!UICONTROL 歷程]** 資源。
 

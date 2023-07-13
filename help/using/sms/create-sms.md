@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 14%
@@ -56,9 +56,9 @@ ht-degree: 14%
 
    ![](assets/sms_create_4.png)
 
-1. 按一下 **[!UICONTROL 選取對象]** 按鈕，從可用的Adobe Experience Platform區段清單定義目標對象。 [了解更多](../segment/about-segments.md)。
+1. 按一下 **[!UICONTROL 選取對象]** 按鈕，從可用的Adobe Experience Platform受眾清單定義要定位的受眾。 [了解更多](../audience/about-audiences.md)。
 
-1. 在 **[!UICONTROL 身分名稱空間]** 欄位中，選擇要使用的名稱空間，以識別所選區段中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
+1. 在 **[!UICONTROL 身分名稱空間]** 欄位中，選擇要使用的名稱空間，以識別所選對象中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
 
    ![](assets/sms_create_5.png)
 

@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: 重新進入、歷程、結束、即時、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 1%
@@ -54,7 +54,7 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 
 * 已透過手動關閉歷程 **[!UICONTROL 關閉新入口]** 按鈕。
 * 已完成的單次區段型歷程。
-* 在重複產生區段型歷程的最後一次發生之後。
+* 在重複產生對象型歷程的最後一次發生之後。
 
 手動關閉歷程可確保已進入歷程的客戶完成其路徑，但新使用者無法進入歷程。 當歷程關閉時（基於上述任何原因），它將具有狀態 **[!UICONTROL 已關閉]**. 歷程停止讓新個人進入歷程。 已在歷程中的人可以正常完成歷程。 在預設全域逾時30天後，歷程將切換為 **已完成** 狀態。 請參閱[本章節](../building-journeys/journey-gs.md#global_timeout)。
 

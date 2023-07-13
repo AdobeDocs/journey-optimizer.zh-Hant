@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 元件，電子郵件設計工具，編輯器，電子郵件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1353'
 ht-degree: 57%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 57%
    >
    >您可以將多個元件新增到單一結構元件和結構元件的每個欄中。
 
-1. 使用調整每個元件的屬性和樣式 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 索引標籤在右側。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。[了解對齊方式和邊框間距的詳細資訊](alignment-and-padding.md)
+1. 使用調整每個元件的樣式屬性 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 索引標籤在右側。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。[了解對齊方式和邊框間距的詳細資訊](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 

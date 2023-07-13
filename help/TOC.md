@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1378'
 ht-degree: 99%
 
 ---
@@ -52,10 +52,10 @@ ht-degree: 99%
       + [開始使用歷程活動](using/building-journeys/about-journey-activities.md)
       + [一般事件](using/building-journeys/general-events.md)
       + [反應](using/building-journeys/reaction-events.md)
-      + [區段資格](using/building-journeys/segment-qualification-events.md)
+      + [對象資格](using/building-journeys/audience-qualification-events.md)
       + [條件](using/building-journeys/condition-activity.md)
       + [等待](using/building-journeys/wait-activity.md)
-      + [讀取區段](using/building-journeys/read-segment.md)
+      + [讀取對象](using/building-journeys/read-audience.md)
       + [電子郵件、應用程式內、推播、簡訊](using/building-journeys/journeys-message.md)
       + [自訂動作](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 動作](using/building-journeys/using-adobe-campaign-standard.md)
@@ -278,20 +278,20 @@ ht-degree: 99%
       + [開始使用動態內容](using/personalization/get-started-dynamic-content.md)
       + [建立條件式規則](using/personalization/create-conditions.md)
       + [建立動態內容](using/personalization/dynamic-content.md)
-+ 區段、設定檔與身分{#segment}
-   + 區段 {#segments}
-      + [開始使用區段](using/segment/about-segments.md)
-      + [建立區段](using/segment/creating-a-segment.md)
++ 對象、設定檔和身分{#audiences-profiles-identities}
+   + 受眾 {#audiences}
+      + [開始使用 Audiences](using/audience/about-audiences.md)
+      + [建立區段定義](using/audience/creating-a-segment-definition.md)
    + 設定檔{#profiles}
-      + [開始使用設定檔](using/segment/get-started-profiles.md)
-      + [建立測試設定檔](using/segment/creating-test-profiles.md)
-   + [身分](using/segment/get-started-identity.md)
+      + [開始使用設定檔](using/audience/get-started-profiles.md)
+      + [建立測試設定檔](using/audience/creating-test-profiles.md)
+   + [身分](using/audience/get-started-identity.md)
    + 撰寫對象 {#audience-orchestration}
-      + [開始使用對象組合](using/segment/get-started-audience-orchestration.md)
-      + [建立組合工作流程](using/segment/create-compositions.md)
-      + [使用組合畫布](using/segment/composition-canvas.md)
-      + [存取及管理對象](using/segment/access-audiences.md)
-   + [授權使用情況](using/segment/license-usage.md)
+      + [開始使用對象組合](using/audience/get-started-audience-orchestration.md)
+      + [建立組合工作流程](using/audience/create-compositions.md)
+      + [使用組合畫布](using/audience/composition-canvas.md)
+      + [存取及管理對象](using/audience/access-audiences.md)
+   + [授權使用情況](using/audience/license-usage.md)
 + 追蹤和監視 {#reporting}
    + 即時報告 {#live-report}
       + [開始使用即時報告](using/reports/live-report.md)
@@ -488,4 +488,3 @@ ht-degree: 99%
       + [管理選擇退出](using/privacy/opt-out.md)
       + [使用同意原則](using/action/consent.md)
    + [資料治理](using/action/action-privacy.md)
-   + [設定及管理客戶自控金鑰](using/privacy/cmk.md)

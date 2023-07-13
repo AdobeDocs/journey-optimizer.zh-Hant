@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 6%
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # 開始使用傳遞優惠方案 API {#about-decisioning-apis}
 
-您可以使用以下任一專案傳遞優惠方案： **決策** 或 **邊緣決策** API。 此外， **批次決策** API可讓您透過一次呼叫，將優惠傳送至指定區段中的所有設定檔。 區段中每個設定檔的選件內容都會放在Adobe Experience Platform資料集中，可用於自訂批次工作流程。
+您可以使用以下任一專案傳遞優惠方案： **決策** 或 **邊緣決策** API。 此外， **批次決策** API可讓您透過一次呼叫，將優惠方案傳送至指定對象中的所有設定檔。 對象中每個設定檔的選件內容都會放在Adobe Experience Platform資料集中，可用於自訂批次工作流程。
 
 在本頁中，您會找到特定功能的相關資訊，這些功能包括 **決策** 和 **邊緣決策** API。 雖然兩者皆可讓您將優惠方案傳送給客戶，我們建議您使用 **邊緣決策** API儘可能用於傳入使用案例，並確保平台上有更好的延遲和輸送量。
 

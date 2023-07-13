@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: 物件，層級，存取，控制，標籤， olac，授權
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '433'
 ht-degree: 15%
 
 ---
@@ -27,12 +27,10 @@ ht-degree: 15%
 
 * 歷程
 * Campaign
-* 範本
-* 片段
 * 登陸頁面
-* 選件
-* 靜態優惠集合
-* 優惠決定
+* 優惠
+* 優惠收藏
+* offer decisioning
 
 其目的在於保護敏感數位資產，使其免受未經授權使用者的侵害，進而進一步保護個人資料。
 

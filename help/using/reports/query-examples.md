@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1458'
 ht-degree: 2%
 
 ---
@@ -26,10 +26,6 @@ ht-degree: 2%
 * id：所有步驟事件專案均唯一。 兩個不同的步驟事件不能有相同的ID。
 * instanceId： instanceID對於歷程執行中與設定檔相關聯的所有步驟事件都是相同的。 如果設定檔重新進入歷程，將使用不同的instanceId。 此新instanceId對於重新進入的執行個體的所有步驟事件將是相同的（從開始到結束）。
 * profileID：與歷程名稱空間對應的設定檔身分。
-
->[!NOTE]
->
->基於疑難排解目的，我們建議在查詢歷程時使用journeyVersionID，而不是journeyVersionName。
 
 ## 基本使用案例/常見查詢 {#common-queries}
 
@@ -429,11 +425,11 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-在定義的期間，查詢會傳回每天進入歷程的設定檔數。 如果透過多個身分輸入的設定檔，將會計算兩次。 如果啟用重新進入，如果設定檔計數在不同日期重新進入歷程，則可能會跨不同日期複製。
+查詢會在定義的期間內傳回每天進入歷程的設定檔數。 如果透過多個身分輸入的設定檔，將會計算兩次。 如果啟用重新進入，如果設定檔計數在不同日期重新進入歷程，則可能會跨不同日期複製。
 
-## 與讀取區段相關的查詢 {#read-segment-queries}
+## 與讀取對象相關的查詢 {#read-segment-queries}
 
-**完成區段匯出作業所需的時間**
+**完成受眾匯出工作所需的時間**
 
 _Data Lake查詢_
 
@@ -463,7 +459,7 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
-查詢會傳回區段匯出作業排入佇列的時間與最終結束時間之間的時間差（以分鐘為單位）。
+查詢會傳回對象匯出作業排入佇列與最終結束之間的時間差（以分鐘為單位）。
 
 **歷程因重複而捨棄的設定檔數**
 
@@ -575,7 +571,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 查詢會傳回歷程由於某些內部錯誤而捨棄的所有設定檔ID。
 
-**特定歷程版本的讀取區段概觀**
+**特定歷程版本的讀取對象總覽**
 
 _Data Lake查詢_
 
@@ -604,7 +600,7 @@ WHERE
 
 我們也可以偵測下列問題：
 
-* 建立主題或匯出工作時發生錯誤（包括區段匯出API呼叫的逾時）
+* 建立主題或匯出工作時發生錯誤（包括對象匯出API呼叫的逾時）
 * 匯出作業可能卡住（針對特定歷程版本，我們沒有任何有關匯出作業終止的事件）
 * 如果我們已收到匯出工作終止事件，但沒有工作人員處理終止事件，則為工作人員問題
 
@@ -613,7 +609,7 @@ WHERE
 * 歷程版本尚未達到排程
 * 如果歷程版本應該透過呼叫orchestrator來觸發匯出作業，則上傳流程會出現問題：歷程部署問題、業務事件或排程器問題。
 
-**取得給定歷程版本的讀取區段錯誤**
+**取得特定歷程版本的讀取對象錯誤**
 
 _Data Lake查詢_
 
@@ -728,7 +724,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**取得所有匯出作業的彙總量度（區段匯出作業和捨棄）**
+**取得所有匯出作業的彙總量度（對象匯出作業和捨棄）**
 
 _Data Lake查詢_
 
@@ -791,9 +787,9 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 它會傳回給定歷程版本的整體量度，而不考慮可以為其執行的工作（如果是週期性歷程，則為利用主題重複使用而觸發的業務事件）。
 
-## 與區段資格相關的查詢 {#segment-qualification-queries}
+## 與對象資格相關的查詢 {#segment-qualification-queries}
 
-**設定檔已捨棄，因為區段實現與設定的區段實現不同**
+**由於與設定的對象實現不同，已捨棄設定檔**
 
 _Data Lake查詢_
 
@@ -815,9 +811,9 @@ _experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
-此查詢會傳回歷程版本因錯誤區段實現而捨棄的所有設定檔ID。
+此查詢會傳回歷程版本因對象認識錯誤而捨棄的所有設定檔ID。
 
-**特定設定檔因任何其他原因而捨棄的區段資格事件**
+**特定設定檔因任何其他原因而捨棄的對象資格事件**
 
 _Data Lake查詢_
 
@@ -841,7 +837,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-此查詢會傳回由於設定檔的任何其他原因而捨棄的所有事件（外部事件/區段資格事件）。
+此查詢會傳回由於設定檔的任何其他原因而捨棄的所有事件（外部事件/對象資格事件）。
 
 ## 事件型查詢 {#event-based-queries}
 

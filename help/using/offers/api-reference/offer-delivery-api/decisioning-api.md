@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 3%
@@ -111,7 +111,7 @@ curl -X POST \
 | `xdm:propositionRequests.xdm:activityId` | 唯一決定識別碼。 | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
 | `xdm:itemCount` | 要傳回的優惠方案數量。 最大數目為30。 | `"xdm:itemCount": 2` |
 | `xdm:profiles` | 此物件保有請求決策的設定檔相關資訊。 對於API請求，這將包含一個設定檔。 |
-| `xdm:profiles.xdm:identityMap` | 此物件根據身分的名稱空間整合程式碼，保留一組一般使用者身分。 身分對應可攜帶每個名稱空間多個身分。 如需名稱空間的詳細資訊，請參閱 [此頁面](../../../segment/get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:identityMap` | 此物件根據身分的名稱空間整合程式碼，保留一組一般使用者身分。 身分對應可攜帶每個名稱空間多個身分。 如需名稱空間的詳細資訊，請參閱 [此頁面](../../../audience/get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | 使用者端產生的ID，可用於唯一識別設定檔決定請求。 此ID會回應回來，不會影響決策的結果。 | `"xdm:decisionRequestId": "0AA00002-0000-1224-c0de-cjf98Csj43"` |
 | `xdm:allowDuplicatePropositions` | 此物件是去重複化規則的控制結構。 它包含一系列旗標，指示在特定維度中是否可以建議相同的選項。 若標幟設為true，表示允許重複專案，且此標幟指示的類別中不應移除重複專案。 設為false的標幟表示決定引擎不應跨維度提出相同主張，而應為其中一個子決定挑選下一個最佳選項。 |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | 若設為true，系統可能會將相同選項指派給多個決策。 | `"xdm:acrossActivities": true` |

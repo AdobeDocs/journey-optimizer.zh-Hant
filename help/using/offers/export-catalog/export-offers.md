@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2014'
 ht-degree: 3%
@@ -61,17 +61,17 @@ ht-degree: 3%
 
 * **結束日期和時間**
 
-   **欄位：** endDate
-   **標題：** 結束日期和時間
-   **說明：** 決定選項有效性的結束日期。 已超過其結束日期的選項無法再於決策程式中建議。
-   **類型:**&#x200B;字串
+  **欄位：** endDate
+  **標題：** 結束日期和時間
+  **說明：** 決定選項有效性的結束日期。 已超過其結束日期的選項無法再於決策程式中建議。
+  **類型:**&#x200B;字串
 
 * **開始日期和時間**
 
-   **欄位：** startDate
-   **標題：** 開始日期和時間
-   **說明：** 決定選項有效性的開始日期。 尚未到達開始日期的選項無法在決策程式中建議。
-   **類型:**&#x200B;字串
+  **欄位：** startDate
+  **標題：** 開始日期和時間
+  **說明：** 決定選項有效性的開始日期。 尚未到達開始日期的選項無法在決策程式中建議。
+  **類型:**&#x200B;字串
 
 +++
 
@@ -102,83 +102,83 @@ ht-degree: 3%
 
 * **_experience >決策>內容>元件>內容元件型別**
 
-   **欄位：** 型別(_t)
-   **標題：** 內容元件型別
-   **說明：** 列舉的一組URI，其中每個值對應到指定給內容元件的型別。 內容表示的某些消費者期望@type值是描述內容元件其他屬性的結構描述的參考。
-   **類型:**&#x200B;字串
+  **欄位：** 型別(_t)
+  **標題：** 內容元件型別
+  **說明：** 列舉的一組URI，其中每個值對應到指定給內容元件的型別。 內容表示的某些消費者期望@type值是描述內容元件其他屬性的結構描述的參考。
+  **類型:**&#x200B;字串
 
 * **_experience >決策>內容>元件> _dc**
 
-   **欄位：** _dc
-   **型別：** 物件
-   **必填：** &quot;format&quot;
+  **欄位：** _dc
+  **型別：** 物件
+  **必填：** &quot;format&quot;
 
    * **格式**
 
-      **欄位：** 格式
-      **標題：** 格式
-      **說明：** 資源的實體或數位表現形式。 通常，格式應包含資源的媒體型別。 格式可用於決定顯示或操作資源所需的軟體、硬體或其他裝置。 建議的最佳作法是從受控的辭彙(例如 [網際網路媒體型別](https://www.iana.org/assignments/media-types/) 定義電腦媒體格式)。
-      **類型:**字串
-      **範例：** &quot;application/vnd.adobe.photoshop&quot;
+     **欄位：** 格式
+     **標題：** 格式
+     **說明：** 資源的實體或數位表現形式。 通常，格式應包含資源的媒體型別。 格式可用於決定顯示或操作資源所需的軟體、硬體或其他裝置。 建議的最佳作法是從受控的辭彙(例如 [網際網路媒體型別](https://www.iana.org/assignments/media-types/) 定義電腦媒體格式)。
+     **類型:**字串
+     **範例：** &quot;application/vnd.adobe.photoshop&quot;
 
    * **語言**
-      **欄位：** 語言
-      **標題：** 語言
-      **說明：** 資源的語言。 \n語言是依照中定義的語言代碼指定的 [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt)，這是XDM其他位置所使用的BCP 47的一部分。
-      **型別：** 陣列
-      **範例：** &quot;\n&quot;、&quot;pt-BR&quot;、&quot;es-ES&quot;
+     **欄位：** 語言
+     **標題：** 語言
+     **說明：** 資源的語言。 \n語言是依照中定義的語言代碼指定的 [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt)，這是XDM其他位置所使用的BCP 47的一部分。
+     **型別：** 陣列
+     **範例：** &quot;\n&quot;、&quot;pt-BR&quot;、&quot;es-ES&quot;
 
 * **_experience >決策>內容>元件> _repo**
 
-   **欄位：** 存放庫(_R)
-   **型別：** 物件
+  **欄位：** 存放庫(_R)
+  **型別：** 物件
 
    * **id**
 
-      **欄位：** id
-      **說明：** 選用的唯一識別碼，可參考內容存放庫中的資產。 使用Platform API擷取表示法時，使用者端可期待額外屬性\&quot;repo：resolveUrl\&quot;來擷取資產。
-      **類型:**字串
-      **範例：** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e」
+     **欄位：** id
+     **說明：** 選用的唯一識別碼，可參考內容存放庫中的資產。 使用Platform API擷取表示法時，使用者端可期待額外屬性\&quot;repo：resolveUrl\&quot;來擷取資產。
+     **類型:**字串
+     **範例：** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e」
 
    * **名稱**
 
-      **欄位：** 名稱
-      **說明：** 對於透過\&quot;repo：id\&quot;尋找儲存外部資產的存放庫的位置，有一些提示。
-      **類型:**&#x200B;字串
+     **欄位：** 名稱
+     **說明：** 對於透過\&quot;repo：id\&quot;尋找儲存外部資產的存放庫的位置，有一些提示。
+     **類型:**&#x200B;字串
 
    * **repositoryID**
 
-      **欄位：** repositoryID
-      **說明：** 選用的唯一識別碼，可參考內容存放庫中的資產。 使用Platform API擷取表示法時，使用者端可期待額外屬性\&quot;repo：resolveUrl\&quot;來擷取資產。
-      **類型:**字串
-      **範例：** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
+     **欄位：** repositoryID
+     **說明：** 選用的唯一識別碼，可參考內容存放庫中的資產。 使用Platform API擷取表示法時，使用者端可期待額外屬性\&quot;repo：resolveUrl\&quot;來擷取資產。
+     **類型:**字串
+     **範例：** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
-      **欄位：** resolveURL
-      **說明：** 選用的唯一資源定位器，可讀取內容存放庫中的資產。 這可讓使用者端更容易取得資產，而無需瞭解資產的管理位置以及要呼叫的API。 這類似於HAL連結，但語意較簡單，且更有意義。
-      **類型:**字串
-      **範例：** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;
+     **欄位：** resolveURL
+     **說明：** 選用的唯一資源定位器，可讀取內容存放庫中的資產。 這可讓使用者端更容易取得資產，而無需瞭解資產的管理位置以及要呼叫的API。 這類似於HAL連結，但語意較簡單，且更有意義。
+     **類型:**字串
+     **範例：** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;
 
 * **_experience >決策>內容>元件>內容**
 
-   **欄位：** 內容
-   **說明：** 直接保留內容的選用欄位。 元件可以直接儲存簡單的內容，而不必參考資產存放庫中的內容。 此欄位不適用於複合、複雜和二進位內容資產。
-   **類型:**&#x200B;字串
+  **欄位：** 內容
+  **說明：** 直接保留內容的選用欄位。 元件可以直接儲存簡單的內容，而不必參考資產存放庫中的內容。 此欄位不適用於複合、複雜和二進位內容資產。
+  **類型:**&#x200B;字串
 
 * **_experience >決策>內容>元件> deliveryURL**
 
-   **欄位：** deliveryURL
-   **說明：** 選用的唯一資源定位器，可從內容傳遞網路或服務端點取得資產。 使用者代理程式會使用此URL來公開存取資產。
-   **類型:**字串
-   **範例：** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **欄位：** deliveryURL
+  **說明：** 選用的唯一資源定位器，可從內容傳遞網路或服務端點取得資產。 使用者代理程式會使用此URL來公開存取資產。
+  **類型:**字串
+  **範例：** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience >決策>內容>元件> linkURL**
 
-   **欄位：** linkURL
-   **說明：** 選擇性唯一資源定位器，用於使用者互動。 此URL用於在使用者代理中將一般使用者引薦至，並且可被追蹤。
-   **類型:**字串
-   **範例：** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **欄位：** linkURL
+  **說明：** 選擇性唯一資源定位器，用於使用者互動。 此URL用於在使用者代理中將一般使用者引薦至，並且可被追蹤。
+  **類型:**字串
+  **範例：** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_體驗>決策>內容>位置
 
@@ -239,13 +239,13 @@ ht-degree: 3%
 
 **欄位：** profileConstraintType
 **標題：** 設定檔限制型別
-**說明：** 決定目前是否設定了任何限制，以及如何表示限制。 可能是透過規則或一個或多個區段會籍。
+**說明：** 決定目前是否設定了任何限制，以及如何表示限制。 可透過規則或一或多個對象會籍進行。
 **型別：** 字串
 **可能的值：**
 * &quot;none&quot; （預設）
 * &quot;eligibilityRule&quot;：&quot;設定檔限制表示為單一規則，在允許限製作業之前，必須評估為true。&quot;
-* &quot;anySegments&quot;：&quot;設定檔限制表示為一或多個區段，而且設定檔必須是其中至少一個的成員，才允許限制動作。&quot;
-* &quot;allSegments&quot;：&quot;設定檔限制表示為一或多個區段，而且設定檔必須是所有區段的成員，才允許限制動作。&quot;
+* 「anySegments」：「設定檔限制會以一或多個對象來表示，而且設定檔必須是至少一個對象的成員，才能允許限制動作。」
+* &quot;allSegments&quot;：&quot;設定檔限制會以一或多個對象來表示，且在允許限制動作之前，設定檔必須是所有對象的成員。&quot;
 * &quot;rules&quot;：&quot;設定檔限制是以許多不同規則來表示，例如，適用性、適用性、適用性，在允許限制動作之前，這些規則都必須評估為true。&quot;
 
 +++
@@ -254,37 +254,37 @@ ht-degree: 3%
 
 **欄位：** segmentIdentities
 **標題：** 區段識別碼
-**說明：** 區段的識別碼
+**說明：** 對象的識別碼
 **型別：** 陣列
 
 * **識別碼**
 
-   **欄位：** _id
-   **標題：** 識別碼
-   **說明：** 相關名稱空間中區段的身分。
-   **類型:**&#x200B;字串
+  **欄位：** _id
+  **標題：** 識別碼
+  **說明：** 相關名稱空間中的對象身分。
+  **類型:**&#x200B;字串
 
 * **命名空間**
 
-   **欄位：** 名稱空間
-   **標題：** 名稱空間
-   **說明：** 與關聯的名稱空間 `xid` 屬性。
-   **型別：** 物件
-   **必填：** &quot;code&quot;
+  **欄位：** 名稱空間
+  **標題：** 名稱空間
+  **說明：** 與關聯的名稱空間 `xid` 屬性。
+  **型別：** 物件
+  **必填：** &quot;code&quot;
 
    * **程式碼**
 
-      **欄位：** 程式碼
-      **標題：** 程式碼
-      **說明：** 此程式碼是適用於名稱空間的可讀取識別碼，可用於請求技術性的名稱空間ID （用於身分圖表處理）。
-      **類型:**&#x200B;字串
+     **欄位：** 程式碼
+     **標題：** 程式碼
+     **說明：** 此程式碼是適用於名稱空間的可讀取識別碼，可用於請求技術性的名稱空間ID （用於身分圖表處理）。
+     **類型:**&#x200B;字串
 
 * **體驗識別碼**
 
-   **欄位：** xid
-   **標題：** 體驗識別碼
-   **說明：** 當出現時，這個值代表跨名稱空間的識別碼，在所有名稱空間中都是唯一，也就是所有名稱空間中的範圍識別碼。
-   **類型:**&#x200B;字串
+  **欄位：** xid
+  **標題：** 體驗識別碼
+  **說明：** 當出現時，這個值代表跨名稱空間的識別碼，在所有名稱空間中都是唯一，也就是所有名稱空間中的範圍識別碼。
+  **類型:**&#x200B;字串
 
 +++
 
@@ -306,25 +306,25 @@ ht-degree: 3%
 
 * **評分函式**
 
-   **欄位：** 函式
-   **標題：** 評分函式
-   **說明：** 計算此決定選項之數值分數之函式的參考。 決策選項將依該分數排序（排名）。 此屬性的值是每次使用on選項叫用之函式的URI (@id)。 請參閱結構描述https://ns.adobe.com/experience/decisioning/function 。
-   **類型:**&#x200B;字串
+  **欄位：** 函式
+  **標題：** 評分函式
+  **說明：** 計算此決定選項之數值分數之函式的參考。 決策選項將依該分數排序（排名）。 此屬性的值是每次使用on選項叫用之函式的URI (@id)。 請參閱結構描述https://ns.adobe.com/experience/decisioning/function 。
+  **類型:**&#x200B;字串
 
 * **訂單評估型別**
 
-   **欄位：** orderEvaluationType
-   **標題：** 訂單評估型別
-   **說明：** 指定使用哪個順序評估機制、決定選項的靜態優先順序、計算每個選項數值的評分函式，或接收排序清單的排名策略。
-   **類型:**字串
-   **可能的值：** &quot;static&quot;、&quot;scoringFunction&quot;、&quot;rankingStrategy&quot;
+  **欄位：** orderEvaluationType
+  **標題：** 訂單評估型別
+  **說明：** 指定使用哪個順序評估機制、決定選項的靜態優先順序、計算每個選項數值的評分函式，或接收排序清單的排名策略。
+  **類型:**字串
+  **可能的值：** &quot;static&quot;、&quot;scoringFunction&quot;、&quot;rankingStrategy&quot;
 
 * **排名策略**
 
-   **欄位：** 排名策略
-   **標題：** 排名策略
-   **說明：** 對決定選項清單進行排名的策略參考。 決策選項將會以有序清單傳回。 此屬性的值是每次使用on選項叫用之函式的URI (@id)。 請參閱結構描述https://ns.adobe.com/experience/decisioning/rankingStrategy 。
-   **類型:**&#x200B;字串
+  **欄位：** 排名策略
+  **標題：** 排名策略
+  **說明：** 對決定選項清單進行排名的策略參考。 決策選項將會以有序清單傳回。 此屬性的值是每次使用on選項叫用之函式的URI (@id)。 請參閱結構描述https://ns.adobe.com/experience/decisioning/rankingStrategy 。
+  **類型:**&#x200B;字串
 
 +++
 

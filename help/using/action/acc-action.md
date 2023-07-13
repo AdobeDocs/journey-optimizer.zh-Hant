@@ -9,7 +9,7 @@ role: Admin,Developer
 level: Intermediate
 keywords: campaign， acc，整合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 22%
@@ -33,7 +33,7 @@ Journey Optimizer 和 Campaign 執行個體之間的連線在佈建時由 Adobe 
 
 ## 重要備註 {#important-notes}
 
-* 無訊息限制。 系統會根據目前的Campaign SLA，將每5分鐘可傳送的訊息數量上限設為4000封。 因此，Journey Optimizer應僅用於單一使用案例（個別事件，而非區段）。
+* 無訊息限制。 系統會根據目前的Campaign SLA，將每5分鐘可傳送的訊息數量上限設為4000封。 因此，Journey Optimizer只應用於單一使用案例（個別事件，而非對象）。
 
 * 您必須在要使用的每個範本的畫布上設定一個動作。 您需要在Journey Optimizer中，為您要從Adobe Campaign使用的每個範本設定一個動作。
 
@@ -41,7 +41,7 @@ Journey Optimizer 和 Campaign 執行個體之間的連線在佈建時由 Adobe 
 
 * 沒有驗證裝載或Campaign訊息是否正確。
 
-* 促銷活動動作不可與區段資格事件搭配使用。
+* 您無法將Campaign動作與對象資格事件搭配使用。
 
 ## 先決條件 {#prerequisites}
 

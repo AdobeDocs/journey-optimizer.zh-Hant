@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 18%
@@ -59,12 +59,12 @@ ht-degree: 18%
 
 | 欄位名稱 | 類型 | 說明 |
 |---|---|------------|
-| ID | 字串 | 已觸發區段匯出作業的識別碼 |
-| 狀態 | 字串 | 區段匯出工作的狀態：已排入佇列、已啟動、已完成 |
-| exportCountTotal | 整數 | 區段匯出作業的最大可能值 |
-| exportCountRealized | 整數 | 透過工作匯出的實際區段數 |
-| exportCountFailed | 整數 | 透過工作匯出時失敗的區段數 |
-| exportSegmentID | 字串 | 正在匯出的區段識別碼 |
+| ID | 字串 | 已觸發的對象匯出工作的識別碼 |
+| 狀態 | 字串 | 對象匯出工作的狀態：已排入佇列、已啟動、已完成 |
+| exportCountTotal | 整數 | 受眾匯出工作的最大可能值 |
+| exportCountRealized | 整數 | 透過工作匯出的實際對象數量 |
+| exportCountFailed | 整數 | 透過工作匯出時失敗的對象數量 |
+| exportSegmentID | 字串 | 正在匯出的對象的識別碼 |
 | 事件型別 | 字串 | 表示它是否為資訊事件的錯誤事件的事件型別：資訊、錯誤 |
 | eventcode | 字串 | 指示對應eventType原因的錯誤代碼 |
 

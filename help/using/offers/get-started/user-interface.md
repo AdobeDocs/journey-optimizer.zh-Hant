@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: b5fa17bfc888236994e73474c35b1aaafcda3ebe
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 35%
@@ -26,7 +26,7 @@ ht-degree: 35%
 * **[!UICONTROL 選件]**：建立並存取您的個人化和遞補優惠。 瞭解如何建立 [優惠方案](../offer-library/creating-personalized-offers.md) 和 [遞補優惠](../offer-library/creating-fallback-offers.md)
 * **[!UICONTROL 集合]**：將優惠方案組織成靜態和動態集合。 [了解更多](../offer-library/creating-collections.md)
 * **[!UICONTROL 決定]**：建立和管理決定以傳遞您的優惠。 [了解更多](../offer-activities/create-offer-activities.md)
-* **[!UICONTROL 批次決策]**：將優惠決定傳送至指定Adobe Experience Platform區段中的所有設定檔。 [了解更多](../batch-delivery.md)
+* **[!UICONTROL 批次決策]**：將優惠決定傳送至特定Adobe Experience Platform對象中的所有設定檔。 [了解更多](../batch-delivery.md)
 * **[!UICONTROL 模擬]**：模擬會將哪些優惠傳遞至指定位置的測試設定檔，以驗證決策邏輯。 [了解更多](../offer-activities/simulation.md)
 
 使用 **[!UICONTROL 元件]** 建立和管理元件以建立優惠和決定的功能表：
@@ -42,7 +42,7 @@ ht-degree: 35%
 >
 >如果您在存取決策管理或其部分功能時遇到問題，請向管理員使用者確認您已獲得所需許可權。 另請參閱 [授與決策管理的存取權](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
-## 總覽 {#overview}
+## 概觀 {#overview}
 
 當您初次使用 [!DNL decision management]，則 **[!UICONTROL 概觀]** 索引標籤會引導您完成開始建立第一個優惠決定所需的主要步驟。 依照熒幕上的步驟開始建立版位、優惠和集合。 完成這些第一個步驟後，系統會提示您建立優惠決定。
 

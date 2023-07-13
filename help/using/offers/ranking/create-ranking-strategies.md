@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: d2f0a6db7cd86512febfd307039d06ae4b60232e
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 7%
+source-wordcount: '418'
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 7%
 1. 指定AI模型的唯一名稱和說明，然後選取您要建立的AI模型型別：
 
    * **[!UICONTROL 自動最佳化]** 會根據過去的優惠方案效能來最佳化優惠方案。 [了解更多](auto-optimization-model.md)
-   * **[!UICONTROL 個人化最佳化]** 根據區段和優惠方案效能最佳化並個人化優惠方案。 [了解更多](personalized-optimization-model.md)
+   * **[!UICONTROL 個人化]** 根據對象和選件效能最佳化及個人化選件。 [了解更多](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -50,7 +50,6 @@ ht-degree: 7%
    >[!DNL Journey Optimizer] 根據以下專案排名優惠： **轉換率** （轉換率=轉換事件總數/曝光事件總數）。 轉換率是使用兩種量度型別來計算：
    >* **曝光事件** （已顯示的優惠方案）
    >* **轉換事件** （可透過電子郵件或網頁點按的選件）。
-
    >
    >系統會使用提供的Web SDK或Mobile SDK自動擷取這些事件。 進一步瞭解，請參閱 [Adobe Experience Platform Web SDK總覽](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant).
 
@@ -62,15 +61,13 @@ ht-degree: 7%
    >
    >只有從關聯的結構描述建立的資料集 **[!UICONTROL 體驗事件 — 主張互動]** 欄位群組（先前稱為mixin）會顯示在下拉式清單中。
 
-1. 如果您要建立 **[!UICONTROL 個人化最佳化]** AI模型，選取要用來訓練AI模型的區段。
-
-   ➡️ [在影片中探索此功能](#video)
+1. 如果您要建立 **[!UICONTROL 個人化最佳化]** AI模型，選取要用來訓練AI模型的對象。
 
    ![](../assets/ai-ranking-segments.png)
 
    >[!NOTE]
    >
-   >您最多可以選取5個區段。
+   >您最多可以選取5個對象。
 
 1. 儲存並啟動AI模型。
 

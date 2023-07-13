@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 6%
@@ -82,11 +82,11 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 1. 若要將自訂或核心資料使用標籤指派給應用程式內訊息，請選取 **[!UICONTROL 管理存取權]**. [了解更多](../administration/object-based-access.md)。
 
-1. 按一下 **[!UICONTROL 選取對象]** 按鈕，從可用的Adobe Experience Platform區段清單定義目標對象。 [了解更多](../segment/about-segments.md)。
+1. 按一下 **[!UICONTROL 選取對象]** 按鈕，從可用的Adobe Experience Platform受眾清單定義要定位的受眾。 [了解更多](../audience/about-audiences.md)。
 
    ![](assets/in_app_create_2.png)
 
-1. 在 **[!UICONTROL 身分名稱空間]** 欄位中，選擇要使用的名稱空間，以識別所選區段中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
+1. 在 **[!UICONTROL 身分名稱空間]** 欄位中，選擇要使用的名稱空間，以識別所選對象中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
 
 1. 按一下 **[!UICONTROL 建立實驗]** 開始設定內容實驗並建立處理方式，以測量其效能並找出最適合目標對象的選項。 [了解更多](../campaigns/content-experiment.md)
 

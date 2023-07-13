@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 4b3b7ef3ec83705758374ca9e9170ce2933fa8de
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 1%
+source-wordcount: '831'
+ht-degree: 3%
 
 ---
 
@@ -19,27 +19,23 @@ ht-degree: 1%
 
 ## 關於API觸發的行銷活動 {#about}
 
-替換為 [!DNL Journey Optimizer]，您可以建立行銷活動，然後使用根據使用者觸發條件從外部系統叫用行銷活動。 [互動式訊息執行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). 這可讓您滿足各種行銷和交易式訊息需求，例如密碼重設、OTP權杖等。
+替換為 [!DNL Journey Optimizer]，您可以建立行銷活動，然後使用根據使用者觸發條件從外部系統叫用行銷活動。 [互動式訊息執行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). 這允許您涵蓋各種操作和異動訊息需求，例如密碼重設、OTP 權杖等。
 
 若要這麼做，您首先需要在Journey Optimizer中建立API觸發的行銷活動，然後透過API呼叫啟動其執行。
 
 API觸發的行銷活動的可用管道包括電子郵件、簡訊和推播訊息。
 
->[!NOTE]
->
->截至目前，推播通知API觸發的行銷活動不支援快速傳送。
-
 ## 建立API觸發的行銷活動 {#create}
 
 ### 設定並啟動行銷活動 {#create-activate}
 
-若要建立API觸發的行銷活動，請遵循下列步驟。 有關如何建立行銷活動的詳細資訊，請參閱 [本節](create-campaign.md).
+建立API觸發的行銷活動的程式與排程的行銷活動相同，除了在API裝載中執行的對象選擇。 有關如何建立行銷活動的詳細資訊，請參閱 [本節](create-campaign.md).
+
+若要建立API觸發的行銷活動，請遵循下列步驟：
 
 1. 使用建立新的行銷活動 **[!UICONTROL API觸發]** 型別。
 
-1. 選擇 **[!UICONTROL 行銷]** 或 **[!UICONTROL 異動]** 類別取決於您要傳送的通訊型別。
-
-1. 選擇其中一個支援的頻道和相關聯的頻道介面，以用於傳送您的訊息，然後按一下 **[!UICONTROL 建立]**.
+1. 選擇頻道和頻道介面以用來傳送您的訊息，然後按一下 **[!UICONTROL 建立]**.
 
    ![](assets/api-triggered-type.png)
 
@@ -51,11 +47,9 @@ API觸發的行銷活動的可用管道包括電子郵件、簡訊和推播訊�
    >
    >在內容中使用大量或繁重的內容相關資料可能會影響效能。
 
-1. 在 **[!UICONTROL 對象]** 區段，指定用於識別個人的名稱空間。
+1. 在 **[!UICONTROL 對象]** 區段，指定用來識別對象中個人的名稱空間。
 
-   * 如果您要建立 **異動**-type campaign，必須在API呼叫中定義目標設定檔。 此 **[!UICONTROL 建立新設定檔]** 選項可讓您自動建立資料庫中不存在的設定檔。 [進一步瞭解行銷活動執行時的設定檔建立](#profile-creation)
-
-   * 對象 **行銷**-type行銷活動，按一下 **[!UICONTROL 對象]** 按鈕以選擇要鎖定的對象。
+   此 **[!UICONTROL 建立新設定檔]** 選項可讓您自動建立資料庫中不存在的設定檔。 [進一步瞭解行銷活動執行時的設定檔建立](#profile-creation)
 
 1. 設定行銷活動的開始和結束日期。
 
@@ -74,8 +68,6 @@ API觸發的行銷活動的可用管道包括電子郵件、簡訊和推播訊�
    ![](assets/api-triggered-curl.png)
 
 1. 將此cURL請求用於API以建置您的裝載並觸發行銷活動。 如需詳細資訊，請參閱 [互動式訊息執行API檔案](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
-
-   API呼叫範例也可在以下網址取得： [此頁面](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
 
    >[!NOTE]
    >
@@ -100,7 +92,7 @@ API觸發的行銷活動的可用管道包括電子郵件、簡訊和推播訊�
 
 >[!IMPORTANT]
 >
->傳入要求的內容屬性不可超過50kb，且一律視為字串型別。
+>傳入要求的內容屬性不能超過50kb。
 >
 >此 `context.system` 語法限製為僅供Adobe內部使用，且不得用於傳遞內容屬性。
 
@@ -114,9 +106,9 @@ API觸發的行銷活動的可用管道包括電子郵件、簡訊和推播訊�
 
 >[!IMPORTANT]
 >
->若是交易式訊息，此功能僅適用於 **建立非常小的體積設定檔** 在大量交易式傳送使用案例中，大量設定檔已存在於平台中。
+>此功能提供給 **建立非常小的體積設定檔** 在大量交易式傳送使用案例中，大量設定檔已存在於平台中。
 
-若要在行銷活動執行時啟用設定檔建立，請切換 **[!UICONTROL 建立新設定檔]** 中的開啟選項 **[!UICONTROL 對象]** 區段。 如果停用此選項，則會拒絕任何傳送的未知設定檔，且API呼叫將失敗。
+若要在行銷活動執行時啟用設定檔建立，請切換 **[!UICONTROL 建立新設定檔]** 中的開啟選項 **[!UICONTROL 對象]** 區段。
 
 ![](assets/api-triggered-create-profile.png)
 

@@ -5,7 +5,7 @@ title: Journey Optimizer 資料工程師快速入門
 description: 作為資料工程師，深入瞭解如何使用 Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 建立身分命名空間和為設定檔啟用的資料集，以及測試設定檔的步驟在以下各節中詳細說明：
 
-1. **建立身分命名空間**。在 Adobe[!DNL Journey Optimizer]，**身分** 連結跨裝置和管道的消費者，結果會是身分圖表。 連結的身分圖表可依據您所有業務接觸點的互動，來個人化體驗。  [在本頁](../../segment/get-started-identity.md)進一步了解身分識別與身分識別命名空間。
+1. **建立身分命名空間**。在 Adobe[!DNL Journey Optimizer]，**身分** 連結跨裝置和管道的消費者，結果會是身分圖表。 連結的身分圖表可依據您所有業務接觸點的互動，來個人化體驗。  [在本頁](../../audience/get-started-identity.md)進一步了解身分識別與身分識別命名空間。
 
 1. **建立結構**&#x200B;並為設定檔啟用它。 結構是一組規則，可代表及驗證資料的結構和格式。 從高層面來說，結構提供了真實對象 (如人) 的抽象定義，並概述應包含在該對象的每個執行個體中的資料 (如名字、姓氏、生日等)。  [在本頁](../../data/get-started-schemas.md)深入瞭解結構描述。
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 1. **設定來源連接器**。Adobe 歷程最佳化可讓您從外部來源擷取資料，同時可以使用 Platform 服務來建構、加標籤及增強傳入資料。 您可以從多種來源 (如 Adobe 應用程式、雲端型的儲存空間、資料庫和其他許多來源) 內嵌資料。 [在本頁](../get-started-sources.md)深入瞭解來源連接器。
 
-1. **建立測試設定檔**。使用[測試模式](../../building-journeys/testing-the-journey.md)在傳送前於歷程中[預覽和測試訊息](../../email/preview.md)。 建立測試設定檔的步驟已[在本頁](../../segment/creating-test-profiles.md)詳細說明。
+1. **建立測試設定檔**。使用[測試模式](../../building-journeys/testing-the-journey.md)在傳送前於歷程中[預覽和測試訊息](../../email/preview.md)。 建立測試設定檔的步驟已[在本頁](../../audience/creating-test-profiles.md)詳細說明。
 
 
 此外，若要在歷程中傳送訊息，您必須設定&#x200B;**[!UICONTROL 資料來源]**、**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 動作]**。請參閱[本節](../../configuration/about-data-sources-events-actions.md)以了解更多資訊。

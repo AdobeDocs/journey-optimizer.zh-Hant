@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，語法，個人化
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '735'
 ht-degree: 9%
 
 ---
@@ -76,12 +76,12 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 `{{profile.faxPhone.number}}`
 
-## 區段{#perso-segments}
+## 對象{#perso-segments}
 
 瞭解如何在中利用條件中的設定檔屬性 [本節](functions/helpers.md#if-function).
 
 >[!NOTE]
->若要進一步瞭解細分和細分服務，請參閱 [本節](../segment/about-segments.md).
+>若要進一步瞭解細分服務，請參閱 [本檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
 
 ## 優惠 {#offers-syntax}
 
@@ -107,19 +107,19 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 * 影像的託管位置：
 
-   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
+  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
 * 當您按一下影像時的目標URL：
 
-   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
+  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
 * 來自決策引擎的優惠方案文字內容：
 
-   `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+  `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 * 來自決策引擎的優惠方案的HTML內容：
 
-   `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+  `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
 ## 輔助程式{#helpers-all}
@@ -134,6 +134,7 @@ Handlebars協助程式是簡單識別碼，後面可能會接著引數。
 >[!NOTE]
 >
 >協助程式函式的詳細說明，請參閱 [本節](functions/helpers.md).
+>
 
 ## 常值型別 {#literal-types}
 
@@ -163,7 +164,8 @@ Journey Optimizer可讓您新增個人化欄位，以個人化訊息中的一或
 
 >[!NOTE]
 >
->在運算式編輯器中，當您編輯個人化URL時，基於安全考量，會停用協助程式功能和區段成員資格。
+>在運算式編輯器中，當您編輯個人化URL時，基於安全考量，會停用協助程式功能和對象成員資格。
+>
 
 **個人化URL範例**
 

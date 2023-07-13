@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 歷程，整合， standard，行銷活動， ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 0f7a0732025e11a92292704743242f688b9629a1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '925'
+ht-degree: 4%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->針對電子郵件使用設定檔的交易式範本時，取消訂閱機制會由Adobe Campaign Standard自動處理。 若要實作，您可以輕鬆加入 **[!UICONTROL 取消訂閱連結]** 內容區塊範圍 [異動電子郵件範本](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant). 不過，如果您使用以事件為基礎的範本(rtEvent)，您必須在訊息中納入連結，將收件者的電子郵件當作URL引數傳遞，並導向至取消訂閱的登陸頁面。 您必須建立此登入頁面，並確保收件者的取消訂閱決定有效地傳輸至Adobe。
+>對於電子郵件，如果您使用設定檔交易式範本，則會由Campaign Standard內建處理取消訂閱機制。 您只需新增 **[!UICONTROL 取消訂閱連結]** 範本中的內容區塊([瞭解更多](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant))。 如果您使用以事件為基礎的範本(rtEvent)，則需要在訊息中新增連結，在URL引數中傳遞人員的電子郵件，並指向取消訂閱的登陸頁面。 您需要建立此登入頁面，並確保將人員取消訂閱的決策傳送至Adobe。
 
 首先，您需要選擇異動訊息範本。
 

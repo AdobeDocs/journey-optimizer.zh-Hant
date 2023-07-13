@@ -5,10 +5,10 @@ title: Journey Optimizer 行銷人員快速入門
 description: 作為歷程操作者，深入瞭解如何使用 Journey Optimizer
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 100%
+source-wordcount: '456'
+ht-degree: 82%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 請參閱下列章節，以設定您的第一個歷程、新增優惠方案及資產並傳送訊息：
 
-1. **建立區段**。Journey Optimizer 可讓您直接從&#x200B;**區段**&#x200B;功能表建立細分對象群，並將其運用於您的歷程。  [在本頁](../../segment/about-segments.md)深入瞭解區段。[在此範例](../../segment/creating-a-segment.md)瞭解如何建立區段 
+1. **建立對象**. Journey Optimizer可讓您直接從以下位置透過區段定義建立對象： **受眾** 選單，並將其運用在您的歷程中。  深入瞭解對象 [在此頁面中](../../audience/about-audiences.md). 探索如何建立區段定義 [在此範例中](../../audience/creating-a-segment-definition.md).
 
 1. **新增個人化及動態內容**。 利用 Journey Optimizer 個人化及動態內容功能，使您的訊息能與對象相符合。 深入瞭解[個人化](../../personalization/personalize.md)及[動態內容](../../personalization/get-started-dynamic-content.md)。
 
@@ -34,13 +34,13 @@ ht-degree: 100%
 
 1. **設計客戶歷程**&#x200B;提供個人化的情境式體驗。 [!DNL Journey Optimizer]可讓您利用儲存在事件或資料來源中的情境資料，建立即時協調流程使用案例。設計由下列功能提供支援的多步驟進階案例：
 
-   * 傳送在收到事件時觸發的即時&#x200B;**單一傳遞**，或使用 Adobe Experience Platform 分段&#x200B;**批次**&#x200B;傳遞。
+   * 即時傳送 **單一傳遞** 於收到事件時觸發，或 **批次** 使用Adobe Experience Platform對象。
 
    * 利用來自事件的&#x200B;**情境資料** 、來自 Adobe Experience Platform 的資訊，或來自協力廠商 API 服務的資料。
 
    * 如果您使用協力廠商系統來傳送訊息，請使用&#x200B;**內建頻道操作** (電子郵件、簡訊、推播) 傳送設計的訊息[!DNL Journey Optimizer]或建立&#x200B;**自訂操作**。
 
-   * 使用&#x200B;**歷程設計器**，建立您的多步驟使用案例：輕鬆拖放登入事件或讀取區段活動、新增條件及傳送個人化訊息。
+   * 使用 **歷程設計工具**，建立您的多步驟使用案例：輕鬆拖放登入事件或讀取對象活動、新增條件及傳送個人化訊息。
 
    ![](../assets/journey-design.png)
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 設定檔，更新，歷程，活動
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 9%
@@ -58,11 +58,11 @@ ht-degree: 9%
 
    * 使用簡單運算式編輯器，您可以從資料來源或傳入事件中選取欄位。
 
-      ![](assets/profileupdate4.png)
+     ![](assets/profileupdate4.png)
 
    * 如果要定義特定值或利用進階函式，請按一下 **進階模式**.
 
-      ![](assets/profileupdate3.png)
+     ![](assets/profileupdate3.png)
 
 此 **更新設定檔** 現已設定。
 
@@ -75,4 +75,4 @@ ht-degree: 9%
 
 只有測試設定檔才能進入旅程測試模式。您可以建立新的測試設定檔，或將現有設定檔轉換為測試設定檔。 在Adobe Experience Platform中，您可以透過csv檔案匯入或API呼叫更新設定檔屬性。 更簡單的方法是使用 **更新設定檔** 動作活動，並將測試設定檔布林值欄位從false變更為true。
 
-有關如何將現有設定檔轉換為測試設定檔的詳細資訊，請參閱此 [區段](../segment/creating-test-profiles.md#create-test-profiles-csv).
+有關如何將現有設定檔轉換為測試設定檔的詳細資訊，請參閱此 [區段](../audience/creating-test-profiles.md#create-test-profiles-csv).

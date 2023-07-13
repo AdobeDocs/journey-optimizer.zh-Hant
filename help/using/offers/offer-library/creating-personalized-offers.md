@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >當您選擇區段或決定規則時，您可以看到有關預估合格設定檔的資訊。按一下 **[!UICONTROL 重新整理]** 以更新資料。
+   >當您選取對象或決定規則時，您可以檢視有關預估合格設定檔的資訊。 按一下 **[!UICONTROL 重新整理]** 以更新資料。
    >
    >請注意，當規則引數包含不在設定檔中的資料（例如內容資料）時，設定檔預估不可用。 例如，適用性規則要求目前天氣為≥80度。
 
@@ -122,11 +122,11 @@ ht-degree: 12%
 * **[!UICONTROL 複製]**：使用相同的屬性、表示、適用規則和限制建立優惠方案。 依預設，新選件具有 **[!UICONTROL 草稿]** 狀態。
 * **[!UICONTROL 刪除]**：從清單中移除選件。
 
-   >[!CAUTION]
-   >
-   >將無法再存取選件及其內容。 此動作無法復原。
-   >
-   >如果優惠用於集合或決定中，則無法刪除。 您必須先從任何物件中移除選件。
+  >[!CAUTION]
+  >
+  >將無法再存取選件及其內容。 此動作無法復原。
+  >
+  >如果優惠用於集合或決定中，則無法刪除。 您必須先從任何物件中移除選件。
 
 * **[!UICONTROL 封存]**：將優惠方案狀態設為 **[!UICONTROL 已封存]**. 清單中仍提供選件，但您不能將其狀態設回 **[!UICONTROL 草稿]** 或 **[!UICONTROL 已核准]**. 您只能複製或刪除它。
 

@@ -9,16 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，條件，規則
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '596'
 ht-degree: 8%
 
 ---
 
 # 使用條件式規則 {#conditions}
 
-條件規則是一組規則，用來定義應在訊息中顯示哪些內容，需視各種條件而定，例如設定檔屬性、區段成員資格或內容相關事件。
+條件規則是一組規則，用來定義應在訊息中顯示哪些內容，需視各種條件而定，例如設定檔屬性、對象成員資格或內容相關事件。
 
 條件式規則是使用運算式編輯器建立的，如果您想要在整個內容中重複使用它們，可以儲存這些規則。 [瞭解如何將條件規則儲存至程式庫](#save)
 
@@ -32,11 +32,11 @@ ht-degree: 8%
 
 * 從電子郵件設計工具，為電子郵件內文中的元件啟用動態內容時。 [瞭解如何將動態內容新增至電子郵件](dynamic-content.md#emails)
 
-   ![](assets/conditions-access-email.png)
+  ![](assets/conditions-access-email.png)
 
 * 在任何您可以使用來新增個人化的欄位中 [運算式編輯器](personalization-build-expressions.md).
 
-   ![](assets/conditions-access-editor.png)
+  ![](assets/conditions-access-editor.png)
 
 ## 建立條件規則 {#create-condition}
 
@@ -56,17 +56,17 @@ ht-degree: 8%
 
 1. 根據您的需求建置條件式規則。 若要這麼做，請從左側選單拖放並排列所需的屬性至畫布中。
 
-   將屬性結合至畫布的步驟與區段建置體驗類似。 有關如何使用規則產生器畫布的詳細資訊，請參閱 [本檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
+   將屬性合併至畫布的步驟類似於區段定義建置體驗。 有關如何使用規則產生器畫布的詳細資訊，請參閱 [本檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#rule-builder-canvas).
 
    ![](assets/conditions-create.png)
 
    屬性會組織成三個標籤：
 
    * **[!UICONTROL 設定檔]**:
-      * **[!UICONTROL 區段會籍]** 列出所有區段屬性（即狀態、版本等） 的 [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)，
+      * **[!UICONTROL 受眾]** 列出所有對象屬性（即狀態、版本等） 的 [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)，
       * **[!UICONTROL XDM個別設定檔]** 列出所有與相關的設定檔屬性 [體驗資料模型(XDM)結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) 在Adobe Experience Platform中定義。
    * **[!UICONTROL 情境]**：當您的訊息用於歷程時，內容歷程欄位可透過此索引標籤使用。
-   * **[!UICONTROL 受眾]**：列出從建立的區段產生的所有對象 [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+   * **[!UICONTROL 受眾]**：列出根據中建立的區段定義產生的所有對象 [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 1. 條件式規則準備就緒後，您就可以將其新增至訊息，以建立動態內容。 [瞭解如何新增動態內容](dynamic-content.md)
 

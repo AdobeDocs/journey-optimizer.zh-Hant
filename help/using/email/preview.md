@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 預覽，內容，電子郵件，校樣，測試，設定檔
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 11%
@@ -26,7 +26,7 @@ ht-degree: 11%
 >
 >您需要有可用的測試設定檔，才能預覽訊息和傳送校樣。
 >
->瞭解如何在中建立測試設定檔 [此頁面](../segment/creating-test-profiles.md).
+>瞭解如何在中建立測試設定檔 [此頁面](../audience/creating-test-profiles.md).
 
 若要測試您的電子郵件內容，您需要：
 
@@ -52,7 +52,7 @@ ht-degree: 11%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=zh-Hant#email-rendering" text="電子郵件轉譯"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=zh-Hant#preview-email" text="預覽"
 
-使用 [測試設定檔](../segment/creating-test-profiles.md) 鎖定不符合已定義定位准則的其他收件者。
+使用 [測試設定檔](../audience/creating-test-profiles.md) 鎖定不符合已定義定位准則的其他收件者。
 
 若要選取測試設定檔，請遵循下列步驟：
 
@@ -68,7 +68,7 @@ ht-degree: 11%
 
    ![](assets/previewselect-namespace.png)
 
-   進一步瞭解Adobe Experience Platform身分識別名稱空間 [在本節中](../segment/get-started-identity.md).
+   進一步瞭解Adobe Experience Platform身分識別名稱空間 [在本節中](../audience/get-started-identity.md).
 
    在以下範例中，我們將使用 **電子郵件** 名稱空間。
 

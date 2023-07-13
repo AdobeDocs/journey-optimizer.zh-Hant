@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 運算式編輯器，資料，歷程
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 76%
@@ -50,7 +50,7 @@ _進階運算式編輯器介面_
 
 * 建立資料來源條件時，您可以按一下「 」以存取進階編輯器 **[!UICONTROL 進階模式]**.
 
-   ![](../assets/journeyuc2_33.png)
+  ![](../assets/journeyuc2_33.png)
 
 * 建立自訂計時器時，會直接顯示進階編輯器。
 * 對應動作引數時，按一下 **[!UICONTROL 進階模式]**.
@@ -64,7 +64,7 @@ _進階運算式編輯器介面_
 在畫面左側，會顯示可用的欄位和函式：
 
 * **[!UICONTROL 事件]**：選擇從傳入事件接收的其中一個欄位。 顯示的事件欄位清單會與情境相關，而且會根據歷程中新增的事件而有所不同。[閱讀全文](../../event/about-events.md)
-* **[!UICONTROL 區段]**：如果您已卸除 **[!UICONTROL 區段資格]** 事件，選擇您要在運算式中使用的區段。 [閱讀全文](../condition-activity.md#using-a-segment)
+* **[!UICONTROL 受眾]**：如果您已卸除 **[!UICONTROL 對象資格]** 事件，選擇您要在運算式中使用的對象。 [閱讀全文](../condition-activity.md#using-a-segment)
 * **[!UICONTROL 資料來源]**：從資料來源欄位群組中的可用欄位清單中選擇。 [閱讀全文](../../datasource/about-data-sources.md)
 * **[!UICONTROL 歷程屬性]**：本節會對特定設定檔中與歷程相關的技術欄位進行重新分組。 [閱讀全文](journey-properties.md)
 * **[!UICONTROL 函式]**：從可執行複雜篩選的內建函式清單中選擇。 函式會依類別組織。[閱讀全文](functions.md)

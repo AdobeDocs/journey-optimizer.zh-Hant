@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，關於，開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '420'
 ht-degree: 12%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 12%
 畫面左側會顯示網域選擇器，讓您選取個人化的來源。 可用的來源包括：
 
 * **[!UICONTROL 設定檔屬性]** ：列出中所述與設定檔結構描述相關聯的所有參考 [Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}.
-* **[!UICONTROL 區段會籍]** ：列出Adobe Experience Platform Segmentation服務中建立的所有區段。 有關區段的詳細資訊 [此處](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
+* **[!UICONTROL 受眾]** ：列出Adobe Experience Platform Segmentation服務中建立的所有對象。 有關區段的詳細資訊 [此處](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
 * **[!UICONTROL 優惠決定]** ：列出與特定位置相關聯的所有優惠方案。 選取位置，然後將優惠方案插入內容中。 如需有關如何管理優惠方案的完整檔案，請參閱 [本節](../offers/get-started/starting-offer-decisioning.md).
 * **[!UICONTROL 內容屬性]** ：當歷程中使用管道動作活動（電子郵件、推播、簡訊）時，可透過此選單使用內容歷程欄位。 請參閱[此章節](personalization-use-case.md)深入瞭解。
 * **[!UICONTROL 輔助函式]** ：列出所有可用於對資料執行操作（例如計算、資料格式或轉換、條件）的協助程式功能，並在個人化內容中操作它們。 請參閱[此章節](functions/functions.md)深入瞭解。

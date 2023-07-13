@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -123,7 +123,7 @@ Adobe Experience Platform 中的協助工具功能請詳見[本文件](https://e
   <tr>
     <td>
 
-在以區段為基礎的歷程中觸發事件，並為其啟用了&#x200B;**[!UICONTROL 一次單一設定檔]**&#x200B;選項
+在受眾型歷程中觸發事件，針對該事件 **[!UICONTROL 一次一個設定檔]** 選項已開啟
 
 </td>
     <td>P</td>

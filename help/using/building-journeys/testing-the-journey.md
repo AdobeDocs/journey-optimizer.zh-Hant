@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 11%
@@ -25,7 +25,7 @@ ht-degree: 11%
 
 在發佈您的歷程之前使用測試設定檔進行測試。此模式可讓您執行歷程測試並使用測試設定檔識別問題。
 
-只有測試設定檔才能進入旅程測試模式。您可以建立新的測試設定檔，或將現有的設定檔轉換為測試設定檔。 進一步瞭解中的測試設定檔 [本節](../segment/creating-test-profiles.md).
+只有測試設定檔才能進入旅程測試模式。您可以建立新的測試設定檔，或將現有的設定檔轉換為測試設定檔。 進一步瞭解中的測試設定檔 [本節](../audience/creating-test-profiles.md).
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ ht-degree: 11%
 ## 重要備註 {#important_notes}
 
 * 在測試模式中，您可以使用介面引發事件。
-* 只有在Real-time Customer Profile Service中標示為「測試設定檔」的個人才能進入測試歷程。 請參閱本[章節](../segment/creating-test-profiles.md)。
+* 只有在Real-time Customer Profile Service中標示為「測試設定檔」的個人才能進入測試歷程。 請參閱本[章節](../audience/creating-test-profiles.md)。
 * 測試模式僅適用於使用名稱空間的草稿歷程。 測試模式需要檢查進入歷程的人是否為測試設定檔，因此必須能夠存取Adobe Experience Platform。
 * 在測試工作階段期間可進入歷程的測試設定檔最大數量為100。
 * 停用測試模式時，它會從過去進入該模式或目前在該模式中的所有人員清空歷程。 這樣也會清除報表。
@@ -114,7 +114,7 @@ ht-degree: 11%
 
 ## 商業事件的測試模式 {#test-business}
 
-使用時 [業務事件](../event/about-events.md)，使用測試模式在歷程中觸發單一測試設定檔入口、模擬事件並傳遞正確的設定檔ID。 您必須傳遞事件引數，以及將進入測試中歷程之測試設定檔的識別碼。 您無法使用 **[!UICONTROL 一次最多100個設定檔]** 適用於其他以區段為基礎的歷程的選項。 在測試模式中，根據業務事件的歷程沒有「程式碼檢視」模式可用。
+使用時 [業務事件](../event/about-events.md)，使用測試模式在歷程中觸發單一測試設定檔入口、模擬事件並傳遞正確的設定檔ID。 您必須傳遞事件引數，以及將進入測試中歷程之測試設定檔的識別碼。 您無法使用 **[!UICONTROL 一次最多100個設定檔]** 適用於其他受眾型歷程的選項。 在測試模式中，根據業務事件的歷程沒有「程式碼檢視」模式可用。
 
 請注意，當您首次觸發業務事件時，無法在同一測試工作階段中變更業務事件定義。 您只能讓同一個人或不同人進入傳遞相同或其他識別碼的歷程。 若要變更業務事件引數，您必須停止並重新開始測試模式。
 

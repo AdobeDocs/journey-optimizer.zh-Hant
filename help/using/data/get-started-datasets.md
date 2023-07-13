@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: platform、資料湖、建立、湖、資料集、設定檔
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -40,9 +40,9 @@ ht-degree: 100%
 
 **報告**
 
-* _報告 - 訊息意見事件資料集_：訊息傳遞記錄檔。 關於從 Journey Optimizer 所有訊息傳遞的資訊，用於報告與區段建立目的。電子郵件 ISP 對退回郵件的意見也會記錄在此資料集。
-* _報告 - 電子郵件追蹤體驗事件資料集_：用於報告與區段建立目的之電子郵件通道的互動記錄。 儲存的資訊會通知終端使用者在電子郵件執行的動作 (開啟、按一下等)。
-* _報告 - 推播追蹤體驗事件資料集_：用於報告與區段建立用途的「推播」管道互動記錄。 儲存的資訊會通知終端使用者在推播通知執行的動作。
+* _報告 - 訊息意見事件資料集_：訊息傳遞記錄檔。 有關從Journey Optimizer傳送所有訊息的資訊，以用於報告和建立受眾。 電子郵件 ISP 對退回郵件的意見也會記錄在此資料集。
+* _報告 — 電子郵件追蹤體驗事件資料集_：用於報告和建立受眾的電子郵件頻道的互動記錄。 儲存的資訊會通知終端使用者在電子郵件執行的動作 (開啟、按一下等)。
+* _報告 — 推播追蹤體驗事件資料集_：用於報表和建立受眾之目的的推送管道的互動記錄。 儲存的資訊會通知終端使用者在推播通知執行的動作。
 * _報告 - 歷程步驟事件_：擷取從 Journey Optimizer 產生的所有歷程步驟體驗事件，供報告等服務使用。對於在 Customer Journey Analytics 建立 YoY 分析也很重要。繫結至歷程中繼資料。
 * _報告 - 歷程_：包含歷程每個步驟資訊的中繼資料資料集。
 * _報告 - 密件副本_：用於儲存密件副本電子郵件的傳遞記錄意見事件資料集。 用於報告用途。
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 ## 範例和使用案例{#uc-datasets}
 
-了解如何建立結構、資料集和擷取資料，以在 Adobe Journey Optimizer 新增測試設定檔，請參閱[此端對端範例](../segment/creating-test-profiles.md)
+了解如何建立結構、資料集和擷取資料，以在 Adobe Journey Optimizer 新增測試設定檔，請參閱[此端對端範例](../audience/creating-test-profiles.md)
 
 請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target="_blank"}，深入了解資料集建立。
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 9%
@@ -38,6 +38,7 @@ ht-degree: 9%
    ![](assets/push_preview_3.png)
 
 ## 驗證推播通知 {#push-validate}
+
 
 您必須在編輯器的上方區段中檢查警示。 其中一些是簡單的警告，但其他警告可能會阻止您傳送訊息。 可能會發生兩種型別的警報：警告和錯誤。
 

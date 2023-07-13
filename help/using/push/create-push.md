@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '726'
 ht-degree: 16%
 
 ---
@@ -64,9 +64,9 @@ ht-degree: 16%
 
    ![](assets/push_create_4.png)
 
-1. 按一下 **[!UICONTROL 選取對象]** 按鈕，從可用的Adobe Experience Platform區段清單定義目標對象。 [了解更多](../segment/about-segments.md)。
+1. 按一下 **[!UICONTROL 選取對象]** 按鈕，從可用的Adobe Experience Platform受眾清單定義要定位的受眾。 [了解更多](../audience/about-audiences.md)。
 
-1. 在 **[!UICONTROL 身分名稱空間]** 欄位中，選擇要使用的名稱空間，以識別所選區段中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
+1. 在 **[!UICONTROL 身分名稱空間]** 欄位中，選擇要使用的名稱空間，以識別所選對象中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
 
    ![](assets/push_create_5.png)
 
@@ -103,7 +103,7 @@ ht-degree: 16%
 >title="快速傳送模式"
 >abstract="快速傳送模式讓您可以在推播管道上向 30M 以下的對象規模執行高速訊息傳送。"
 
-快速傳遞模式是 [!DNL Journey Optimizer] 附加元件可讓您透過行銷活動以非常快的速度傳送大量推送訊息。
+快速傳送模式（先前在歷程中稱為高載模式）是 [!DNL Journey Optimizer] 附加元件可讓您透過行銷活動以非常快的速度傳送大量推送訊息。
 
 當您想要在行動電話上傳送緊急推播警報（例如傳送突發新聞給已安裝您新聞頻道應用程式的使用者）時，訊息傳送延遲對業務至關重要，可使用快速傳送。
 

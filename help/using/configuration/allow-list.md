@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 允許清單，清單，安全，設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 14%
@@ -201,7 +201,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->設定檔具有 **[!UICONTROL 不允許]** 在訊息傳送過程中會排除狀態。 因此，當 **歷程報告** 會將這些設定檔顯示為已移動通過歷程([讀取區段](../building-journeys/read-segment.md) 和 [訊息活動](../building-journeys/journeys-message.md))， **以電子郵件傳送報告** 不會將其納入 **[!UICONTROL 已傳送]** 量度，因為這些量度在傳送電子郵件前會被篩選掉。
+>設定檔具有 **[!UICONTROL 不允許]** 在訊息傳送過程中會排除狀態。 因此，當 **歷程報告** 會將這些設定檔顯示為已移動通過歷程([讀取對象](../building-journeys/read-audience.md) 和 [訊息活動](../building-journeys/journeys-message.md))， **以電子郵件傳送報告** 不會將其納入 **[!UICONTROL 已傳送]** 量度，因為這些量度在傳送電子郵件前會被篩選掉。
 >
 >進一步瞭解 [即時報告](../reports/live-report.md) 和 [全域報告](../reports/global-report.md).
 

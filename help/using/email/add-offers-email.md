@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 優惠，決定，電子郵件，個人化，決定
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 1%
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->您必須有可用的測試設定檔，才能預覽訊息。 瞭解如何 [建立測試設定檔](../segment/creating-test-profiles.md).
+>您必須有可用的測試設定檔，才能預覽訊息。 瞭解如何 [建立測試設定檔](../audience/creating-test-profiles.md).
 
 1. 選取要用於預覽選件的測試設定檔：
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
       >[!NOTE]
       >
-      >在此範例中，我們使用 **電子郵件** 名稱空間。 進一步瞭解Adobe Experience Platform身分識別名稱空間 [在本節中](../segment/get-started-identity.md).
+      >在此範例中，我們使用 **電子郵件** 名稱空間。 進一步瞭解Adobe Experience Platform身分識別名稱空間 [在本節中](../audience/get-started-identity.md).
 
    1. 在 **[!UICONTROL 身分值]** 欄位，輸入值以識別測試設定檔。 在此範例中，輸入測試設定檔的電子郵件地址。
 
@@ -94,7 +94,6 @@ ht-degree: 1%
    1. 新增其他設定檔，以便您根據設定檔資料測試訊息的不同變體。
 
       ![](assets/deliver-offer-test-profiles.png)
-
 
 1. 按一下 **[!UICONTROL 預覽]** 索引標籤以測試您的訊息，然後選取測試設定檔。 將顯示與所選設定檔（女性）對應的優惠方案。
 

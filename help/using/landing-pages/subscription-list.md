@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面，清單，訂閱，服務
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 12%
@@ -76,7 +76,7 @@ ht-degree: 12%
 
 建立訂閱清單後，您即可在登入頁面中加以使用。 選擇通過登入頁面表單的設定檔將新增至清單。 [了解更多](design-lp.md)
 
-在以下情況下，您也可以使用訂閱清單作為區段： [建立歷程](../building-journeys/journey-gs.md#jo-build) 以及新增個人化。
+您也可以在下列情況下使用訂閱清單作為對象： [建立歷程](../building-journeys/journey-gs.md#jo-build) 以及新增個人化。
 
 >[!NOTE]
 >

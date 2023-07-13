@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 382aa7089a84a9c4e0d37800ae77a53918c380f2
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 6%
@@ -65,9 +65,9 @@ Journey Optimizer內容實驗可讓您定義多個傳送處理方式，以衡量
    * **[!UICONTROL 名稱]**
    * **[!UICONTROL 說明]**
 
-1. 定義要定位的對象。 若要這麼做，請按一下 **[!UICONTROL 選取對象]** 按鈕來顯示可用Adobe Experience Platform區段的清單。 [深入瞭解區段](../segment/about-segments.md)
+1. 定義要定位的對象。 若要這麼做，請按一下 **[!UICONTROL 選取對象]** 按鈕來顯示可用Adobe Experience Platform對象清單。 [深入瞭解對象](../audience/about-audiences.md)
 
-   在 **[!UICONTROL 身分名稱空間]** 欄位中，選擇要使用的名稱空間，以識別所選區段中的個人。 [了解更多](get-started-experiment.md#content-experiment-work)
+   在 **[!UICONTROL 身分名稱空間]** 欄位中，選擇要使用的名稱空間，以識別所選對象中的個人。 [了解更多](get-started-experiment.md#content-experiment-work)
 
    ![](assets/content_experiment_16.png)
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 8%
@@ -55,7 +55,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->設定檔具有 **[!UICONTROL 已隱藏]** 在訊息傳送過程中會排除狀態。 因此，當 **歷程報告** 會將這些設定檔顯示為已移動通過歷程([讀取區段](../building-journeys/read-segment.md) 和 [訊息活動](../building-journeys/journeys-message.md))， **以電子郵件傳送報告** 不會將其納入 **[!UICONTROL 已傳送]** 量度，因為這些量度在傳送電子郵件前會被篩選掉。
+>設定檔具有 **[!UICONTROL 已隱藏]** 在訊息傳送過程中會排除狀態。 因此，當 **歷程報告** 會將這些設定檔顯示為已移動通過歷程([讀取對象](../building-journeys/read-audience.md) 和 [訊息活動](../building-journeys/journeys-message.md))， **以電子郵件傳送報告** 不會將其納入 **[!UICONTROL 已傳送]** 量度，因為這些量度在傳送電子郵件前會被篩選掉。
 >
 >進一步瞭解 [即時報告](../reports/live-report.md) 和 [全域報告](../reports/global-report.md). 若要找出所有排除案例的原因，您可以使用 [Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
 

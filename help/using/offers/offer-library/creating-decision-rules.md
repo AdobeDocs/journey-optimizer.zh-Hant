@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 13%
+source-wordcount: '322'
+ht-degree: 12%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 13%
 
 1. 為規則命名並提供說明，然後視需要設定規則。
 
-   若要這麼做， **區段產生器** 可協助您建置規則的條件。 [了解更多](../../segment/about-segments.md)
+   為此，請使用Adobe Experience Platform **區段產生器** 可協助您建置規則的條件。 [瞭解如何建立區段定義](../../audience/creating-a-segment-definition.md)
 
    <!--In this example, the rule will target customers that have the "Gold" loyalty level.-->
 
@@ -41,9 +41,9 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >用來建立決定規則的區段產生器有些許特性，但與搭配使用時有所不同 **[!UICONTROL 細分]** 服務。 例如， **[!UICONTROL 區段]** 索引標籤無法使用。 不過，以下說明的全域程式： [區段產生器](../../segment/about-segments.md) 建立優惠決定規則時，檔案仍有效。 進一步瞭解 [Adobe Experience Platform Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+   >用來建立決定規則的區段產生器有些許特性，但與搭配使用時有所不同 **[!UICONTROL 細分]** 服務。 不過，以下說明的全域程式： [區段產生器](../../audience/creating-a-segment-definition.md) 建立優惠決定規則時，檔案仍有效。 進一步瞭解 [Adobe Experience Platform Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
-1. 當您在工作區中新增及設定新欄位時， **[!UICONTROL 區段屬性]** 窗格顯示屬於區段的預估設定檔資訊。 按一下 **[!UICONTROL 重新整理預估值]** 以更新資料。
+1. 當您在工作區中新增及設定新欄位時， **[!UICONTROL 對象屬性]** 窗格顯示屬於對象的預估設定檔資訊。 按一下 **[!UICONTROL 重新整理預估值]** 以更新資料。
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 建立，電子郵件，開始，歷程，行銷活動
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 9%
@@ -59,7 +59,7 @@ ht-degree: 9%
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
-1. 完成步驟以建立電子郵件行銷活動，例如行銷活動屬性、 [對象](../segment/about-segments.md)、和 [排程](../campaigns/create-campaign.md#schedule).
+1. 完成步驟以建立電子郵件行銷活動，例如行銷活動屬性、 [對象](../audience/about-audiences.md)、和 [排程](../campaigns/create-campaign.md#schedule).
 
    ![](assets/email_campaign_steps.png)
 
@@ -122,9 +122,9 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    * **[!UICONTROL 電子郵件內文中不存在選擇退出連結]**：將取消訂閱連結新增至您的電子郵件內文為最佳實務。 瞭解如何在中設定它 [本節](../privacy/opt-out.md#opt-out-management).
 
-      >[!NOTE]
-      >
-      >行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 訊息類別(**[!UICONTROL 行銷]** 或 **[!UICONTROL 異動]**)定義於 [管道表面](email-settings.md#email-type) 層級與時間 [建立訊息](#create-email-journey-campaign) 來自歷程或行銷活動。
+     >[!NOTE]
+     >
+     >行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 訊息類別(**[!UICONTROL 行銷]** 或 **[!UICONTROL 異動]**)定義於 [管道表面](email-settings.md#email-type) 層級與時間 [建立訊息](#create-email-journey-campaign) 來自歷程或行銷活動。
 
    * **[!UICONTROL HTML的文字版本為空白]**：別忘了定義電子郵件內文的文字版本，因為當HTML內容無法顯示時將使用該版本。 瞭解如何在中建立文字版本 [本節](text-version-email.md).
 
@@ -136,12 +136,11 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    * **[!UICONTROL 缺少主旨列]**：電子郵件主旨行是必填欄位。 瞭解如何在中定義及個人化它 [本節](create-email.md).
 
-   <!--HTML is empty when Amp HTML is present-->
+  <!--HTML is empty when Amp HTML is present-->
 
    * **[!UICONTROL 訊息的電子郵件版本為空白]**：尚未設定電子郵件內容時會顯示此錯誤。 瞭解如何在中設計電子郵件內容 [本節](get-started-email-design.md).
 
    * **[!UICONTROL 表面不存在]**：如果您選取的表面在建立訊息後遭到刪除，則無法使用訊息。 如果發生此錯誤，請在訊息中選取另一個曲面 **[!UICONTROL 屬性]**. 進一步瞭解中的管道表面 [本節](../configuration/channel-surfaces.md).
-
 
 >[!CAUTION]
 >

@@ -1,8 +1,8 @@
 ---
 title: 批次決策
-description: 瞭解如何將優惠決定傳遞至特定Adobe Experience Platform區段中的所有設定檔。
+description: 瞭解如何將優惠決定傳遞至特定Adobe Experience Platform對象中的所有設定檔。
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 2%
@@ -13,9 +13,9 @@ ht-degree: 2%
 
 ## 開始使用批次決策 {#start}
 
-Journey Optimizer可讓您將優惠決定傳送給特定Adobe Experience Platform區段中的所有設定檔。
+Journey Optimizer可讓您將優惠決定傳送給特定Adobe Experience Platform對象中的所有設定檔。
 
-為此，您需要在Journey Optimizer中建立工作請求，其中包含要定位的區段資訊和要使用的優惠決定。 然後，區段中每個設定檔的選件內容會放入Adobe Experience Platform資料集，以供自訂批次工作流程使用。
+為此，您需要在Journey Optimizer中建立工作請求，其中包含要定位之對象和要使用的優惠方案決定的相關資訊。 然後，對象中每個設定檔的選件內容會放入Adobe Experience Platform資料集，以供自訂批次工作流程使用。
 
 也可以使用API執行批次傳送。 如需詳細資訊，請參閱 [批次決策API檔案](api-reference/offer-delivery-api/batch-decisioning-api.md).
 
@@ -25,11 +25,11 @@ Journey Optimizer可讓您將優惠決定傳送給特定Adobe Experience Platfor
 
 * **資料集** 在Adobe Experience Platform中。 此資料集將用於儲存使用「ODE DecisionEvents」結構描述的決策結果。 進一步瞭解 [資料集檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant).
 
-* **區段** 在Adobe Experience Platform中。 應評估該區段並加以更新。 瞭解如何更新中的區段會籍評估 [Segment Service檔案](https://www.adobe.com/go/segmentation-overview-en)
+* **對象** 在Adobe Experience Platform中。 應評估對象並加以更新。 瞭解如何更新中的對象成員資格評估 [Segment Service檔案](http://www.adobe.com/go/segmentation-overview-en)
 
-   >[!NOTE]
-   >
-   >批次工作會以每天發生一次的設定檔快照為單位執行。 批次決策會限制頻率，並一律從最近的快照載入設定檔。 嘗試批次決策API之前，在建立區段後，請等候最多24小時。
+  >[!NOTE]
+  >
+  >批次工作會以每天發生一次的設定檔快照為單位執行。 批次決策會限制頻率，並一律從最近的快照載入設定檔。 嘗試批次決策API之前，預計在建立對象後最多等待24小時。
 
 * **決定** 在Adobe Journey Optimizer中。 [瞭解如何建立決定](offer-activities/create-offer-activities.md)
 
@@ -45,9 +45,9 @@ Journey Optimizer可讓您將優惠決定傳送給特定Adobe Experience Platfor
 
 1. 為您的工作請求命名，然後選取應將工作資料傳送到的資料集。
 
-1. 選取要鎖定的Adobe Experience Platform區段。
+1. 選取要鎖定的Adobe Experience Platform對象。
 
-1. 選取您要用來將優惠傳送至區段的一或多個優惠決定範圍：
+1. 選取您要用來將優惠傳送給對象的一或多個優惠決定範圍：
    1. 從清單中選取位置。
    1. 所選位置可用的決定隨即顯示。 選取您選擇的決定並按一下 **[!UICONTROL 新增]**.
    1. 重複此作業，視需要新增儘可能多的決定範圍。
@@ -93,11 +93,11 @@ Journey Optimizer可讓您將優惠決定傳送給特定Adobe Experience Platfor
 
 每個批次工作的端對端時間是從工作負載建立到輸出資料集中有決策結果時的期間。
 
-區段大小是影響端對端批次決定時間的主要因素。 如果符合資格的優惠方案已啟用全域頻率上限，則批次決定需要額外的時間才能完成。 以下是其各自區段大小的端對端處理時間的一些近似值，包含和不包含合格優惠方案的頻率上限：
+對象人數是影響端對端批次決定時間的主要因素。 如果符合資格的優惠方案已啟用全域頻率上限，則批次決定需要額外的時間才能完成。 以下是其各自受眾規模的端對端處理時間的一些近似值，對符合資格的優惠方案有和不有頻率上限：
 
 已為合格優惠方案啟用頻率上限：
 
-| 區段大小 | 端對端處理時間 |
+| 對象規模 | 端對端處理時間 |
 |--------------|----------------------------|
 | 1萬個以下的設定檔 | 7 分鐘 |
 | 100萬個以下的設定檔 | 30 分鐘 |
@@ -105,7 +105,7 @@ Journey Optimizer可讓您將優惠決定傳送給特定Adobe Experience Platfor
 
 符合資格的優惠方案沒有頻率上限：
 
-| 區段大小 | 端對端處理時間 |
+| 對象規模 | 端對端處理時間 |
 |--------------|----------------------------|
 | 1萬個以下的設定檔 | 6 分鐘 |
 | 100萬個以下的設定檔 | 8 分鐘 |

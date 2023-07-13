@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 23%
+source-wordcount: '894'
+ht-degree: 22%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 23%
 
 若要在歷程中新增訊息，請遵循下列步驟：
 
-1. 利用[事件](general-events.md)或[讀取區段](read-segment.md)活動來開始您的歷程。
+1. 透過以下專案開始您的歷程 [事件](general-events.md) 或 [讀取對象](read-audience.md) 活動。
 
 1. 從 **動作** 區段，拖放 **電子郵件**，和 **應用程式內**，和 **簡訊** 或 **推播** 活動放入畫布。
 
@@ -115,6 +115,10 @@ Adobe Journey Optimizer 的傳送時間最佳化功能由 Adobe 的 AI 服務提
 * 評分 — 根據已訓練的模型，將評分套用至個別設定檔
 
 此資訊會儲存在使用者的設定檔中，並在歷程執行時參考，以告知Adobe Journey Optimizer何時傳送您的訊息。
+
+>[!CAUTION]
+>
+>此功能與高載模式不相容。
 
 ### 啟動傳送時間最佳化{#activate-send-time-optimization}
 

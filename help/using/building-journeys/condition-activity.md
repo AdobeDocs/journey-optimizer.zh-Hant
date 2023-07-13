@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 活動，條件，畫布，歷程
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 603174032552214686cc0f2b9ea0854f348ce949
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 17%
@@ -61,7 +61,7 @@ ht-degree: 17%
 
 ![](assets/journey64.png)
 
-如果您使用 [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} 若要建立區段，您可以在歷程條件中運用它們。 請參閱 [在條件中使用區段](../building-journeys/condition-activity.md#using-a-segment).
+如果您使用 [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} 若要建立您的對象，您可以在歷程條件中運用這些對象。 請參閱 [在條件中使用對象](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
@@ -145,11 +145,11 @@ ht-degree: 17%
 
 ![](assets/profile-cap-condition.png)
 
-## 在條件中使用區段 {#using-a-segment}
+## 在條件中使用對象 {#using-a-segment}
 
-本節說明如何在歷程條件中使用區段。 如需區段及如何建立區段的詳細資訊，請參閱 [本節](../segment/about-segments.md).
+本節說明如何在歷程條件中使用對象。 有關對象以及如何建立對象的詳細資訊，請參閱 [本節](../audience/about-audiences.md).
 
-若要在歷程條件中使用區段，請遵循下列步驟：
+若要在歷程條件中使用對象，請遵循下列步驟：
 
 1. 開啟歷程，拖放 **[!UICONTROL 條件]** 活動並選擇 **資料來源條件**.
    ![](assets/journey47.png)
@@ -158,10 +158,10 @@ ht-degree: 17%
 
    ![](assets/segment3.png)
 
-1. 在左側，展開 **[!UICONTROL 區段]** 節點。 拖放您要用於條件的區段。 依預設，區段的條件為true。
+1. 在左側，展開 **[!UICONTROL 受眾]** 節點。 拖放您要用於條件的對象。 依預設，對象的條件為true。
 
    ![](assets/segment4.png)
 
    >[!NOTE]
    >
-   >請注意，只有個人擁有 **已實現** 和 **現有** 區段參與狀態會視為區段的成員。 如需如何評估區段的詳細資訊，請參閱 [Segment Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >請注意，只有個人擁有 **已實現** 和 **現有** 對象參與狀態會視為對象的成員。 如需如何評估對象的詳細資訊，請參閱 [Segment Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

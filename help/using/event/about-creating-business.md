@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 事件，歷程，企業，設定
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 15%
 
 和單一事件不同，商業事件並不會連結到特定的設定檔。事件 ID 類型一直都會以規則為基礎。深入瞭解中的商業事件 [本節](../event/about-events.md).
 
-以讀取區段為基礎的歷程可由排程器定期觸發，或由事件發生時的業務事件觸發。
+讀取對象型歷程可由排程器定期觸發，或由業務事件（當事件發生時）觸發。
 
 業務事件可以是「產品重新上架」、「公司股價達到特定值」等。
 
@@ -39,12 +39,12 @@ ht-degree: 15%
 * 事件結構描述必須包含非以人員為基礎的主要身分。 定義事件時，必須選取下列欄位： `_id` 和 `timestamp`
 * 業務事件只能作為歷程的第一步捨棄。
 * 將商業事件捨棄為歷程的第一步時，歷程的排程器型別將為「商業事件」。
-* 業務事件後只能捨棄讀取區段活動。 它會自動新增為下一個步驟。
+* 業務事件後只能捨棄讀取對象活動。 它會自動新增為下一個步驟。
 * 若要允許多個業務事件執行，請啟動 **[!UICONTROL 執行]** 歷程屬性的區段。
-* 觸發業務事件後，匯出區段的時間會延遲，由15分鐘延遲至最多1小時。
+* 觸發業務事件後，將延遲讓對象從15分鐘匯出至最多1小時。
 * 測試業務事件時，您必須傳遞事件引數，以及將進入測試中歷程之測試設定檔的識別碼。 此外，在測試業務事件型歷程時，您只能觸發單一設定檔入口。 請參閱[本節](../building-journeys/testing-the-journey.md#test-business)。在測試模式中，沒有可用的「程式碼檢視」模式。
 * 如果新的業務事件到來，目前處於歷程中的個人會發生什麼事？ 其行為與當新週期發生時個人仍處於週期性歷程中的情況相同。 其路徑已結束。 因此，行銷人員如果預期業務事件頻繁，必須注意避免建立太長的歷程。
-* 業務事件不能與單一事件或區段資格活動結合使用。
+* 業務事件不能與單一事件或對象資格活動結合使用。
 
 ## 多個業務事件 {#multiple-business-events}
 
@@ -54,9 +54,9 @@ ht-degree: 15%
 
 業務事件會遵循與單一事件相同的重新進入規則。 如果歷程允許重新進入，將處理下一個業務事件。
 
-**有哪些護欄可避免過度載入具體化區段？**
+**避免過度載入具體化對象的護欄是什麼？**
 
-如果是拍攝中的業務事件，對於指定的歷程，第一個事件工作推送的資料會在1小時時段內重複使用。 對於已排程的歷程，沒有護欄。 深入瞭解中的區段 [Adobe Experience Platform Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+如果是拍攝中的業務事件，對於指定的歷程，第一個事件工作推送的資料會在1小時時段內重複使用。 對於已排程的歷程，沒有護欄。 進一步瞭解 [Adobe Experience Platform Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 ## 開始使用商業活動 {#gs-business-events}
 

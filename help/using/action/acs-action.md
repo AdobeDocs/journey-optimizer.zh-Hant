@@ -9,7 +9,7 @@ role: Admin,Developer
 level: Intermediate
 keywords: campaign， standard，整合，上限，動作
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 5%
@@ -30,7 +30,7 @@ ht-degree: 5%
 
 * Adobe Campaign Standard整合是透過動作清單中的專屬內建動作來設定。 需要為每個沙箱設定此設定。
 
-* 您無法搭配「區段」資格或「讀取區段」活動使用Campaign Standard動作。
+* 您無法將Campaign Standard動作與對象資格或讀取對象活動搭配使用。
 
 * 歷程不能同時使用訊息和Campaign Standard動作。
 

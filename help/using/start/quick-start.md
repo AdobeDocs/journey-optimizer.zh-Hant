@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 5fd4f8c5ffaf2c417d95f88fa31c850bc88db13f
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 72%
 
 ---
 
 # 快速入門 {#cjm-quick-start}
 
-透過[!DNL Adobe Journey Optimizer]，您可以匯入現有訊息內容或設計新內容、使用客戶個人檔案資料個人化訊息、建立事件以觸發訊息、定義區段並調整對象、建立並新增優惠方案，以及存取一套完整的報告與監控工具來評估您訊息造成的影響以及客戶歷程。
+替換為 [!DNL Adobe Journey Optimizer]，您可以匯入現有訊息內容或設計新內容、使用客戶設定檔資料個人化訊息、建立事件以觸發訊息、定義對象、建立並新增優惠，以及存取一套完整的報告與監控工具來評估訊息和客戶歷程的影響。
 
 您可以根據您的組織定義數種使用者類型，並依其權限授予他們特定功能的存取權。
 
@@ -27,12 +27,12 @@ ht-degree: 100%
 
 * **我是管理員**
 
-   準備環境、授予存取權限、編輯設定。[了解更多](path/administrator.md)
+  準備環境、授予存取權限、編輯設定。[了解更多](path/administrator.md)
 
 * **我是資料工程師**
 
-   匯入設定檔、建立對象、建立方案和資料集。[了解更多](path/data-engineer.md)
+  匯入設定檔、建立對象、建立方案和資料集。[了解更多](path/data-engineer.md)
 
 * **我是行銷人員**
 
-   設計訊息、新增優惠方案、資產和建立客戶歷程。[了解更多](path/marketer.md)
+  設計訊息、新增優惠方案、資產和建立客戶歷程。[了解更多](path/marketer.md)

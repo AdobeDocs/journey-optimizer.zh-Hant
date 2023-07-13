@@ -9,7 +9,7 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac，屬性，授權，資料，存取，敏感，資產
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 屬性型存取控制(ABAC)可讓您定義管理特定團隊或使用者群組之資料存取的授權。 其目的在於保護敏感數位資產，使其免受未經授權使用者的侵害，進而進一步保護個人資料。
 
-在Adobe Journey Optimizer中，ABAC可讓您保護資料並授予特定欄位元素的特定存取權，包括體驗資料模型(XDM)結構描述、設定檔屬性和區段。
+在Adobe Journey Optimizer中，ABAC可讓您保護資料，並授與特定欄位元素的特定存取權，包括體驗資料模型(XDM)結構描述、設定檔屬性和對象。
 
 如需ABAC所用術語的詳細清單，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html).
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 **[!UICONTROL 標籤]** 可使用以屬性為基礎的存取控制來指派特定特徵區域。
 在此範例中，我們要限制對 **國籍** 欄位。 此欄位僅供具有相應 **[!UICONTROL 標籤]** 至其  **[!UICONTROL 角色]**.
 
-請注意，您也可以新增  **[!UICONTROL 標籤]** 至  **[!UICONTROL 結構描述]**，  **[!UICONTROL 資料集]** 和  **[!UICONTROL 區段]**.
+請注意，您也可以新增  **[!UICONTROL 標籤]** 至  **[!UICONTROL 結構描述]**，  **[!UICONTROL 資料集]** 和  **[!UICONTROL 受眾]**.
 
 1. 建立您的 **[!UICONTROL 結構描述]**. 有關詳細資訊，請參閱 [本檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant).
 

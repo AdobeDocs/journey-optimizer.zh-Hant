@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 內容，編輯器，電子郵件，開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 57%
@@ -98,7 +98,7 @@ ht-degree: 57%
 
    ![](assets/email_designer_asset_picker.png)
 
-1. 插入個人化欄位，以從設定檔屬性、區段會籍、內容屬性等自訂內容。 [進一步了解內容個人化](../personalization/personalize.md)
+1. 插入個人化欄位，以從設定檔屬性、對象會籍、內容屬性等自訂內容。 [進一步了解內容個人化](../personalization/personalize.md)
 
    ![](assets/email_designer_personalization.png)
 

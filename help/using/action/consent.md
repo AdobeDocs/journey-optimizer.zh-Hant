@@ -9,10 +9,10 @@ role: Admin,Developer
 level: Experienced
 keywords: 原則、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
-workflow-type: ht
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -37,14 +37,14 @@ Adobe Experience Platform 可讓您輕鬆採用及強制執行行銷政策，以
 
 同意管理會分析兩種歷程活動：
 
-* 閱讀章節：擷取的區段會納入考量。
+* 讀取對象：擷取的對象會納入考量。
 * 自訂動作：同意管理會考量所使用的屬性 ([動作參數](../action/about-custom-action-configuration.md#define-the-message-parameters))，以及已定義的行銷動作 (必要的行銷動作與其他行銷動作)。
 * 不支援使用現成可用聯集結構的欄位群組所屬的屬性。 這些屬性將從介面中隱藏。 您需要使用不同方案建立其他欄位群組。
 * 僅在自訂動作層級設定行銷動作 (必要或其他) 時，才適用同意原則。
 
-歷程使用的所有其他活動都不會納入考量。 如果您以區段資格開始歷程，則不會考慮區段。
+歷程使用的所有其他活動都不會納入考量。 如果您以對象資格開始您的歷程，則不會考慮對象。
 
-在歷程中，如果設定檔遭到自訂動作的同意原則排除，則不會傳送訊息給他們，但他們會繼續歷程。 當使用條件時，設定檔不會前往逾時與錯誤路徑。
+在歷程中，如果自訂動作的同意原則排除設定檔，則不會傳送訊息給他，但他會繼續歷程。 當使用條件時，設定檔不會前往逾時與錯誤路徑。
 
 在重新整理位於歷程自訂動作的原則之前，請確定您的歷程無誤。
 
@@ -112,7 +112,7 @@ The following data is taken into account for consent:
 
 * marketing actions and additional marketing actions defined in the custom action
 * action parameters defined in the custom action, see this [section](../action/about-custom-action-configuration.md#define-the-message-parameters) 
-* attributes used as criteria in a segment when the journey starts with a Read segment, see this [section](../building-journeys/read-segment.md) 
+* attributes used as criteria in a segment when the journey starts with a Read segment, see this [section](../building-journeys/read-audience.md) 
 
 >[!NOTE]
 >

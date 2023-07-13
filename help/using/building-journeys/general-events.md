@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 自訂，一般，事件，歷程
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 20%
@@ -29,7 +29,7 @@ ht-degree: 20%
 
 ![](assets/general-events.png)
 
-當您刪除業務事件時，它會自動新增 **讀取區段** 活動。 有關業務事件的詳細資訊，請參閱 [本節](../event/about-events.md)
+當您刪除業務事件時，它會自動新增 **讀取對象** 活動。 有關業務事件的詳細資訊，請參閱 [本節](../event/about-events.md)
 
 ## 在特定時間接聽事件 {#events-specific-time}
 
