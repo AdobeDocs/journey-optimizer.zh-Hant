@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2385'
-ht-degree: 17%
+ht-degree: 15%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="定義資格"
->abstract="依預設，任何設定檔都有資格獲得優惠，但您可以使用區段或決定規則將優惠限制給特定設定檔。"
+>abstract="依預設，任何設定檔都符合呈現優惠方案的資格，但您可以使用對象或決定規則，將優惠方案限制在特定設定檔中。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -75,21 +75,21 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="總設定檔估計值"
->abstract="當您選擇區段或決定規則時，您可以看到有關預估合格設定檔的資訊。"
+>abstract="當您選取對象或決定規則時，您可以檢視有關預估合格設定檔的資訊。"
 
-此 **[!UICONTROL 優惠資格]** 區段可讓您將優惠限制在您使用區段或決定規則定義的特定設定檔中。
+此 **[!UICONTROL 優惠資格]** 區段可讓您將優惠限制在您使用對象或決定規則定義的特定設定檔中。
 
 >[!NOTE]
 >
->進一步瞭解使用 **區段** 與 **決定規則** 在 [本節](#segments-vs-decision-rules).
+>進一步瞭解使用 **對象** 與 **決定規則** 在 [本節](#segments-vs-decision-rules).
 
 * 根據預設， **[!UICONTROL 所有訪客]** 選項已選取，這表示任何設定檔都符合呈現優惠方案的資格。
 
   ![](../assets/offer-eligibility-default.png)
 
-* 您也可以將優惠方案的呈現方式限制在一或多個成員中 [Adobe Experience Platform區段](../../segment/about-segments.md).
+* 您也可以將優惠方案的呈現方式限制在一或多個成員中 [Adobe Experience Platform對象](../../audience/about-audiences.md).
 
-  若要這麼做，請啟動 **[!UICONTROL 屬於一或多個區段的訪客]** 選項，然後從左窗格新增一或多個區段，並使用 **[!UICONTROL 和]** / **[!UICONTROL 或]** 邏輯運運算元。
+  若要這麼做，請啟動 **[!UICONTROL 屬於一或多個對象的訪客]** 選項，然後從左窗格新增一或多個對象，並使用 **[!UICONTROL 和]** / **[!UICONTROL 或]** 邏輯運運算元。
 
   ![](../assets/offer-eligibility-segment.png)
 
@@ -101,7 +101,7 @@ ht-degree: 17%
   >
   >事件型優惠方案目前不支援 [!DNL Journey Optimizer]. 如果您根據以下專案建立決定規則： [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}，您將無法在選件中運用它。
 
-當您選擇區段或決定規則時，您可以看到有關預估合格設定檔的資訊。按一下 **[!UICONTROL 重新整理]** 以更新資料。
+當您選取對象或決定規則時，您可以檢視有關預估合格設定檔的資訊。 按一下 **[!UICONTROL 重新整理]** 以更新資料。
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -109,17 +109,17 @@ ht-degree: 17%
 >
 >當規則引數包含不在設定檔中的資料（例如內容資料）時，設定檔預估不可用。 例如，適用性規則要求目前天氣為≥80度。
 
-### 使用區段與決定規則 {#segments-vs-decision-rules}
+### 使用對象與決定規則 {#segments-vs-decision-rules}
 
-若要套用限制，您可以將優惠方案的選取限制在一或多個成員中 **Adobe Experience Platform區段**，或您可以使用 **決定規則**，這兩個解決方案分別對應於不同的使用方式。
+若要套用限制，您可以將優惠方案的選取限制在一或多個成員中 **Adobe Experience Platform對象**，或您可以使用 **決定規則**，這兩個解決方案分別對應於不同的使用方式。
 
-基本上，區段的輸出是設定檔清單，而決定規則是在決策流程期間，根據單一設定檔按需執行的函式。 這兩種使用方式的差異詳述如下。
+基本上，對象的輸出是設定檔清單，而決定規則是在決策流程期間，根據單一設定檔按需執行的函式。 這兩種使用方式的差異詳述如下。
 
-* **區段**
+* **對象**
 
-  一方面，區段是一組Adobe Experience Platform設定檔，可根據設定檔屬性和體驗事件符合特定邏輯。 不過，Offer Management不會重新計算區段，因為區段在展示優惠方案時可能不是最新的。
+  一方面，受眾是一組Adobe Experience Platform設定檔，根據設定檔屬性和體驗事件符合特定邏輯。 不過，Offer Management不會重新計算對象，因為對象在展示優惠方案時可能不是最新的。
 
-  深入瞭解中的區段 [本節](../../segment/about-segments.md).
+  進一步瞭解中的對象 [本節](../../audience/about-audiences.md).
 
 * **決定規則**
 

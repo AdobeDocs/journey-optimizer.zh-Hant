@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式、編輯器、開始使用、條件、開始
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 100%
+source-wordcount: '148'
+ht-degree: 68%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_conditions_list"
 >title="條件"
->abstract="條件式規則可讓您根據設定檔屬性、內容事件或對象區段在訊息中顯示多個內容變體。"
+>abstract="條件式規則可讓您根據設定檔屬性、情境式事件或對象，在訊息中顯示多個內容變體。"
 
-動態內容可讓您根據&#x200B;**條件規則**&#x200B;調整訊息內容，這些規則可由設定檔屬性、內容事件或對象區段組成。條件式規則是使用運算式編輯器中的視覺化規則產生器來建立，您可以在其中儲存這些規則，以便在歷程及行銷活動中重複使用。
+動態內容可讓您根據以下專案調整訊息的內容 **條件式規則** 可由設定檔屬性、情境式事件或對象所組成。 條件式規則是使用運算式編輯器中的視覺化規則產生器來建立，您可以在其中儲存這些規則，以便在歷程及行銷活動中重複使用。
 
 可以在電子郵件設計工具和運算式編輯器利用條件式規則來&#x200B;**建立動態內容**，這將適應於訊息的目標設定檔。
 

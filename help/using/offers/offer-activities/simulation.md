@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 13c228c2409400da8c62189d96e9b47bcb94ee19
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '901'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -50,13 +50,13 @@ ht-degree: 12%
 >id="ajo_decisioning_simulation_test_profile"
 >title="新增測試設定檔"
 >abstract="您可以透過選取身分識別命名空間和相對應的身分識別值來新增測試設定檔。您必須擁有已可供使用的測試設定檔才能將它們用於模擬。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=zh-Hant" text="建立測試設定檔"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audience/profiles/creating-test-profiles.html" text="建立測試設定檔"
 
 首先，您需要選取要用於模擬的測試設定檔。
 
 >[!CAUTION]
 >
->您必須具備可用的測試設定檔，以模擬將傳送哪些優惠給他們。 瞭解如何 [建立測試設定檔](../../segment/creating-test-profiles.md).
+>您必須具備可用的測試設定檔，以模擬將傳送哪些優惠給他們。 瞭解如何 [建立測試設定檔](../../audience/creating-test-profiles.md).
 
 1. 按一下 **[!UICONTROL 管理設定檔]**.
 
@@ -66,7 +66,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >身分名稱空間會定義識別碼的內容，例如電子郵件地址或CRM ID。 進一步瞭解Adobe Experience Platform身分識別名稱空間 [在本節中](../../segment/get-started-identity.md){target="_blank"}.
+   >身分名稱空間會定義識別碼的內容，例如電子郵件地址或CRM ID。 進一步瞭解Adobe Experience Platform身分識別名稱空間 [在本節中](../../audience/get-started-identity.md){target="_blank"}.
 
 1. 輸入身分值並按一下 **[!UICONTROL 檢視]** 以列出可用的設定檔。
 

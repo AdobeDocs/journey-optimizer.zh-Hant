@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
-workflow-type: ht
-source-wordcount: '431'
-ht-degree: 100%
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 83%
 
 ---
 
@@ -21,14 +21,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="行銷活動"
->abstract="建立行銷活動以跨不同管道向特定區段提供一次性內容。建立您的行銷活動之前，請確保您已將管道表面 (即訊息預設集) 和 Adobe Experience Platform 區段準備就緒可供使用。"
+>abstract="建立行銷活動，以跨各種管道將一次性內容傳送給特定對象。 在建立行銷活動之前，請確定您有頻道介面（即訊息預設集）和Adobe Experience Platform受眾且準備使用。"
 
-使用 Journey Optimizer 行銷活動，透過各種管道將一次性內容傳遞至特定區段。 當使用歷程時，動作會依序執行。 透過行銷活動，可同時執行動作 (立即執行或根據指定的排程執行)。
+使用Journey Optimizer行銷活動，透過各種管道將一次性內容傳送給特定對象。 當使用歷程時，動作會依序執行。 透過行銷活動，可同時執行動作 (立即執行或根據指定的排程執行)。
 
 您可建立兩種類型的行銷活動：
 
 * **已排程的 Campaign**&#x200B;允許針對促銷優惠方案、參與行銷活動、公告、法律注意事項知或原則更新等行銷案例進行簡單的臨時批次通訊。
-* **API 觸發的行銷活動**&#x200B;允許行銷通訊以在適當時間和對象聯絡，或允許與個人聯絡異動/操作訊息，如密碼重設，其中可能不僅需要使用設定檔屬性，還要使用其為 REST API 承載的觸發程序之中的即時內容資料，來進行個人化。
+* **API 觸發的行銷活動** 允許使用 REST API 進行簡單的異動/操作訊息 (密碼重設、購物車放棄等)，其中可能需要使用設定檔屬性和承載的內容資料來進行個人化設定。
 
 建立行銷活動的主要步驟如下：
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 +++
 
-1. **您需要對象**。建立行銷活動之前必須有可用的對象區段。[在本頁](../segment/about-segments.md)深入了解對象建立。
+1. **您需要對象**。建立行銷活動前，必須有可用的對象。 深入瞭解對象 [在此頁面中](../audience/about-audiences.md).
 1. **需要管道表面**。若要選取管道，您必須建立相對應的管道表面 (即預設)，使其可供使用。[在本頁](../configuration/channel-surfaces.md)深入了解管道表面。
 
 ## 操作說明影片 {#video}
