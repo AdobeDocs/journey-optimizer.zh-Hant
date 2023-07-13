@@ -7,14 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 91%
+source-wordcount: '273'
+ht-degree: 90%
 
 ---
 
@@ -24,21 +22,6 @@ ht-degree: 91%
 >id="ajo_ao_create_composition"
 >title="建立組合"
 >abstract="建立組合工作流程，以將現有的 Adobe Experience Platform 對象合併到視覺化畫布中，並利用各種活動 (分割、排除...) 建立新的對象。"
-
->[!BEGINSHADEBOX]
-
-本文件提供下列內容：
-
-* **[開始使用對象組合](get-started-audience-orchestration.md)**
-* [建立您的第一個組合工作流程](create-compositions.md)
-* [使用組合畫布](composition-canvas.md)
-* [存取及管理對象](access-audiences.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->對象構成目前僅適用於有限的客戶群組。 如有任何疑問，請聯絡 Adobe 代表。
 
 對象組合可讓您建立&#x200B;**組合工作流程**，您可以將現有的 Adobe Experience Platform 對象結合至視覺畫布，並善用各種活動 (分割、排除……) 來建立新對象。
 

@@ -7,29 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 31%
+source-wordcount: '1354'
+ht-degree: 30%
 
 ---
 
 # 使用組合畫布 {#composition-canvas}
-
->[!BEGINSHADEBOX]
-
-本文件提供下列內容：
-
-* [開始使用對象組合](get-started-audience-orchestration.md)
-* [建立您的第一個組合工作流程](create-compositions.md)
-* **[使用組合畫布](composition-canvas.md)**
-* [存取及管理對象](access-audiences.md)
-
->[!ENDSHADEBOX]
 
 對象構成提供視覺畫布，可讓您建立對象並使用各種活動（分割、擴充等）。
 
@@ -151,6 +138,8 @@ ht-degree: 31%
 此 **[!UICONTROL 擴充]** 活動可讓您利用來自Adobe Experience Platform資料集的其他屬性來豐富受眾。 例如，您可以新增與所購買產品相關的資訊 (例如名稱、價格或製造商 ID)，並利用這些資訊來個人化傳遞給對象的內容。
 
 >[!IMPORTANT]
+>
+>擴充可用於 **[!UICONOTROL Adobe Journey Optimizer]** 僅限使用者。
 >
 >目前，資料集上的標籤（在資料集層級或欄位層級）不會傳播至新建立的對象。 這可能會影響所產生對象的存取控制及/或資料控管。 因此，在構成對象時，請僅使用測試資料。
 

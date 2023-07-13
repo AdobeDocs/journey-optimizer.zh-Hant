@@ -7,29 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 17%
+source-wordcount: '136'
+ht-degree: 6%
 
 ---
 
 # 存取及管理對象 {#access-manage-audiences}
-
->[!BEGINSHADEBOX]
-
-本文件提供下列內容：
-
-* [開始使用對象組合](get-started-audience-orchestration.md)
-* [建立您的第一個組合工作流程](create-compositions.md)
-* [使用組合畫布](composition-canvas.md)
-* **[存取及管理對象](access-audiences.md)**
-
->[!ENDSHADEBOX]
 
 從以下位置可存取由對象構成產生的對象： **[!UICONTROL 瀏覽]** 索引標籤中的 **[!UICONTROL 受眾]** 功能表。
 
@@ -38,8 +25,6 @@ ht-degree: 17%
 ![](assets/audiences-list.png)
 
 >[!NOTE]
->
->對於此Beta版，最初顯示在對象詳細目錄中的數個元件和/或中繼資料不會出現在此索引標籤中（例如，劃分、評估方法等）。
 >
 >如需Adobe Experience Platform中其他對象型別的詳細資訊，請參閱 [Segment Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 

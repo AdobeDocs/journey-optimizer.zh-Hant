@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 11%
@@ -50,7 +50,7 @@ ht-degree: 11%
 >id="ajo_decisioning_simulation_test_profile"
 >title="新增測試設定檔"
 >abstract="您可以透過選取身分識別命名空間和相對應的身分識別值來新增測試設定檔。您必須擁有已可供使用的測試設定檔才能將它們用於模擬。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audience/profiles/creating-test-profiles.html" text="建立測試設定檔"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html" text="建立測試設定檔"
 
 首先，您需要選取要用於模擬的測試設定檔。
 
