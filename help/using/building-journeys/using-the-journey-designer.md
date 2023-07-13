@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 設計，畫布，歷程，介面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 9270f706d3b0693178ffc076aea2e631ba736afe
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 5%
@@ -69,11 +69,11 @@ Adobe Journey Optimizer包含全通路協調畫布，可讓行銷人員協調行
 
 1. **從事件開始**：當歷程設定為監聽事件時，個人會進入歷程 **單一** 即時。 歷程中包含的訊息會傳送給目前流入歷程的人。 [進一步瞭解事件](../event/about-events.md)
 
-1. **從讀取區段開始**：您可以設定接聽Adobe Experience Platform區段的歷程。 在這種情況下，屬於指定區段的所有個人都會進入歷程。 歷程中包含的訊息會傳送給屬於該區段的個人。 [進一步瞭解閱讀區段](read-segment.md).
+1. **從讀取對象開始**：您可以設定接聽Adobe Experience Platform對象的歷程。 在這種情況下，屬於指定受眾的所有個人都會進入歷程。 歷程中包含的訊息會傳送給屬於該對象的個人。 進一步瞭解 [讀取對象](read-audience.md).
 
 ## 定義後續步驟{#define-next-steps}
 
-在第一個事件或讀取區段後，您可以結合不同的活動以建立您的多步驟跨管道情境。 從浮動視窗中選擇所需的步驟。
+在第一個事件或讀取對象後，您可以結合不同的活動以建立您的多步驟跨管道情境。 從浮動視窗中選擇所需的步驟。
 
 ### 活動{#jo-event}
 
@@ -85,13 +85,13 @@ Adobe Journey Optimizer包含全通路協調畫布，可讓行銷人員協調行
 
 您也可以新增 **反應** 訊息後的事件，用於回應與訊息相關的追蹤資料。 舉例來說，若有人開啟前一條訊息或按一下該訊息內部，您便可藉此傳送另一條訊息。 [進一步瞭解反應事件](reaction-events.md).
 
-使用 **區段資格** 事件活動，可根據Adobe Experience Platform區段入口和出口，讓個人進入歷程或是在歷程中前進。 您可以讓所有新的銀級客戶進入歷程並傳送個人化訊息。 在本節瞭解更多 [區段](segment-qualification-events.md).
+使用 **對象資格** 事件活動，可根據Adobe Experience Platform對象進入和退出，讓個人進入歷程或是在歷程中前進。 您可以讓所有新的銀級客戶進入歷程並傳送個人化訊息。 在本節瞭解更多 [區段](audience-qualification-events.md).
 
 ### 協調流程{#jo-orch}
 
 協調活動是不同的條件，可協助判斷歷程的下一步。
 
-在協調活動中，使用 **讀取區段** 活動來設定您的歷程以聆聽Adobe Experience Platform區段。 [深入瞭解閱讀區段活動](read-segment.md).
+在協調活動中，使用 **讀取對象** 活動來設定您的歷程以聆聽Adobe Experience Platform對象。 [深入瞭解閱讀對象活動](read-audience.md).
 
 其他活動可讓您向歷程新增條件以定義數個路徑、在執行下一個活動之前設定等待時間，或結束歷程。 [進一步瞭解協調活動](about-journey-activities.md#orchestration-activities).
 
