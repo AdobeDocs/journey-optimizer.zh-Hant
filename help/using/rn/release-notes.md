@@ -4,7 +4,7 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2e3335372dca8c344773eaf365e8f90589ecfd7e
+source-git-commit: 781c83a2742989eb0bf7d68411ca3d7daa1eb1e0
 workflow-type: tm+mt
 source-wordcount: '2591'
 ht-degree: 93%
@@ -34,7 +34,7 @@ ht-degree: 93%
 <tbody>
 <tr>
 <td>
-<p>您現在可以建立構成工作流程，將現有Adobe Experience Platform對象合併到視覺畫布中，並利用各種活動（分割、擴充……）來建立新對象。 新建立的受眾會與現有受眾一起儲存至Adobe Experience Platform中，並可在Journey Optimizer行銷活動中運用於鎖定客戶。</p>
+<p>您現在可以建立構成工作流程，將現有Adobe Experience Platform對象合併到視覺畫布中，並利用各種活動（分割、擴充……）來建立新對象。 新建立的對象會與現有對象一起儲存回Adobe Experience Platform，並可在Journey Optimizer行銷活動中運用於鎖定客戶。</p>
 <img src="../audience/assets/audiences-publish.png"/>
 <p>如需詳細資訊，請參閱<a href="../audience/get-started-audience-orchestration.md">詳細文件</a>。</p>
 </td>
