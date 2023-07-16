@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: 許可權，編寫，訊息
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 6%
 | 行銷活動 | <ul><li> **[!DNL Manage campaigns]**：讀取、建立、編輯和刪除行銷活動。</li><li>**[!DNL Publish campaigns]**：發佈行銷活動。</li><li>**[!DNL View campaigns report]**：讀取和編輯行銷活動報告。</li></ul> |
 | 頻道設定 | <ul><li>**[!DNL Manage subdomains delegation]**：讀取、建立、編輯和刪除子網域委派。</li><li>**[!DNL Manage IP pools]**：讀取、建立、編輯和刪除ip集區。</li><li>**[!DNL Manage PTR records]**：讀取和編輯PTR記錄。</li><li>**[!DNL View PTR records]**：對PTR記錄的唯讀存取權。</li><li> **[!DNL Manage messages general settings]**：讀取、建立、編輯和刪除訊息一般設定。</li><li>**[!DNL Manage messages presets]**：讀取、建立、編輯和刪除內容品牌。</li><li>**[!DNL Manage suppression rules]**：存取讀取、建立、編輯和刪除隱藏規則。</li><li>**[!DNL Export suppression list]**：存取將隱藏清單匯出為CSV檔案。</li><li>**[!DNL View suppression list]**：讀取和匯出本機隱藏清單。</li><li>**[!DNL Manage alerts]**：啟用/停用行銷活動、訊息和權益的警報。</li><li>**[!DNL Manage landing page settings]**：讀取、建立、編輯和刪除登入頁面設定。</li><li>**[!DNL Manage SMS settings]**：讀取、建立、編輯和刪除SMS設定。</li></ul> |
 | 決策管理 | <ul><li>**[!DNL Manage decisions]**：讀取、建立、編輯和刪除決定。</li><li>**[!DNL Manage ranking strategies]**：讀取、建立、編輯和刪除排名策略。</li></ul> |
-| Adobe Experience Platform | <ul><li>**[!DNL Sandbox]**：授予沙箱的存取權。</li><li>**[!DNL Manage segments]**：讀取、建立、編輯和刪除區段定義。 <li><li>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除設定檔。</li><li>**[!DNL Read datasets]**：資料集的唯讀存取權。</li><li>**[!DNL Read schemas]**：結構描述的唯讀存取權。</li><li>**[!DNL Read Identity namespace]**：身分名稱空間的唯讀存取權。</li><li>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</li></ul> |
+| Adobe Experience Platform | <ul><li>**[!DNL Sandbox]**：授予沙箱的存取權。</li><li>**[!DNL Manage segments]**：讀取、建立、編輯和刪除區段定義。</li><li>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除設定檔。</li><li>**[!DNL Read datasets]**：資料集的唯讀存取權。</li><li>**[!DNL Read schemas]**：結構描述的唯讀存取權。</li><li>**[!DNL Read Identity namespace]**：身分名稱空間的唯讀存取權。</li><li>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</li></ul> |
 
 ## [!DNL Campaign Approver] {#campaign-approver}
 
@@ -40,7 +40,7 @@ ht-degree: 6%
 | 行銷活動 | <ul><li>**[!DNL Manage campaigns]**：讀取、建立、編輯和刪除行銷活動。</li><li>**[!DNL Publish campaigns]**：發佈行銷活動。</li><li>**[!DNL View Campaigns report]**：讀取、編輯歷程報告。</li></ul> |
 | 決策管理 | <ul><li>**[!DNL Manage decisions]**：讀取、建立、編輯和刪除決策實體。</li><li>**[!DNL Manage ranking strategies]**：讀取、建立、編輯和刪除自訂訊息報告，並使用動作功能。</li></ul> |
 | Adobe Experience Platform | <ul><li>**[!DNL Manage segments]**：讀取、建立、編輯和刪除區段定義。</li><li>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除設定檔。</li><li>**[!DNL Read datasets]**：資料集的唯讀存取權。</li><li>**[!DNL Read schemas]**：結構描述的唯讀存取權。</li><li>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</li></ul> |
-| 管理 | <ul><li>**[!DNL View messages presets]**：訊息預設集的唯讀存取權。</li></ul> |
+| 頻道設定 | <ul><li>**[!DNL View messages presets]**：訊息預設集的唯讀存取權。</li></ul> |
 
 ## [!DNL Campaign Manager] {#campaign-manager}
 
@@ -53,7 +53,7 @@ ht-degree: 6%
 | 行銷活動 | <ul><li>**[!DNL Manage campaigns]**：讀取、建立、編輯和刪除行銷活動。</li><li>**[!DNL View campaigns report]**：讀取、編輯歷程報告。</li></ul> |
 | 決策管理 | <ul><li>**[!DNL Manage decisions]**：讀取、建立、編輯和刪除決策實體。</li><li>**[!DNL Manage ranking strategies]**：讀取、建立、編輯和刪除自訂訊息報告，並使用動作功能。</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**：讀取、建立、編輯和刪除區段定義。</li><li>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除設定檔。</li><li>**[!DNL Read datasets]**：資料集的唯讀存取權。</li><li>**[!DNL Read schemas]**：結構描述的唯讀存取權。</li><li>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</li></ul> |
-| 管理 | <ul><li>**[!DNL View messages presets]**：訊息預設集的唯讀存取權。</li></ul> |
+| 頻道設定 | <ul><li>**[!DNL View messages presets]**：訊息預設集的唯讀存取權。</li></ul> |
 
 ## [!DNL Campaign Viewer] {#campaign-viewer}
 
@@ -94,7 +94,7 @@ ht-degree: 6%
 | 歷程 | <ul><li>**[!DNL Manage journeys]**：讀取、建立、編輯和刪除歷程。</li><li>**[!DNL Publish journey]**：發佈歷程。</li><li>**[!DNL View journeys events, data sources and actions]**：對歷程事件、歷程自訂動作和歷程資料來源的唯讀存取。</li><li>**[!DNL View journeys report]**：讀取、編輯歷程報告。</li></ul> |
 | 決策管理 | <ul><li>**[!DNL Manage decisions]**：讀取、建立、編輯和刪除決策實體。</li><li>**[!DNL Manage ranking strategies]**：讀取、建立、編輯和刪除自訂報表，並使用動作功能。</li></ul> |
 | Adobe Experience Platform | <ul><li>**[!DNL Manage segments]**：讀取、建立、編輯和刪除區段定義。</li><li>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除設定檔。</li><li>**[!DNL Read datasets]**：資料集的唯讀存取權。</li><li>**[!DNL Read schemas]**：結構描述的唯讀存取權。</li><li>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</li></ul> |
-| 管理 | <ul><li>**[!DNL View channel surfaces]**：對管道表面的唯讀存取。</li></ul> |
+| 頻道設定 | <ul><li>**[!DNL View channel surfaces]**：對管道表面的唯讀存取。</li></ul> |
 
 ## [!DNL Journey Manager] {#journey-manager}
 
@@ -107,7 +107,7 @@ ht-degree: 6%
 | 歷程 | <ul><li>**[!DNL Manage journeys]**：讀取、建立、編輯和刪除歷程。</li><li>**[!DNL View journeys events]**：對歷程事件、歷程自訂動作和歷程資料來源的唯讀存取。</li><li>**[!DNL View journeys report]**：讀取、編輯歷程報告。</li></ul> |
 | 決策管理 | <ul><li>**[!DNL Manage decisions]**：讀取、建立、編輯和刪除決策實體。</li><li>**[!DNL Manage ranking strategies]**：讀取、建立、編輯和刪除自訂報表，並使用動作功能。</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**：讀取、建立、編輯和刪除區段定義。</li><li>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除設定檔。</li><li>**[!DNL Read datasets]**：資料集的唯讀存取權。</li><li>**[!DNL Read schemas]**：結構描述的唯讀存取權。</li><li>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</li></ul> |
-| 管理 | <ul><li>**[!DNL View channel surfaces]**：對管道表面的唯讀存取。</li></ul> |
+| 頻道設定 | <ul><li>**[!DNL View channel surfaces]**：對管道表面的唯讀存取。</li></ul> |
 
 ## [!DNL Journey Viewer] {#journey-viewer}
 

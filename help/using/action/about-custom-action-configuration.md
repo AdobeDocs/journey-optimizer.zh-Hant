@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,8 +39,8 @@ ht-degree: 15%
 
 在Journey Optimizer中，您可以將資料控管和同意原則套用至自訂動作，以防止特定欄位匯出至協力廠商系統，或排除未同意接收電子郵件、推播或簡訊通訊的客戶。 如需詳細資訊，請參閱下列頁面：
 
-* [資料控管](../action/action.md).
-* [同意](../action/action.md).
+* [資料控管](../action/action-privacy.md).
+* [同意](../action/action-privacy.md).
 
 
 ## 設定步驟 {#configuration-steps}

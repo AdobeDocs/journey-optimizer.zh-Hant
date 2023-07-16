@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 16%
 >title="快速傳送模式"
 >abstract="快速傳送模式讓您可以在推播管道上向 30M 以下的對象規模執行高速訊息傳送。"
 
-快速傳送模式（先前在歷程中稱為高載模式）是 [!DNL Journey Optimizer] 附加元件可讓您透過行銷活動以非常快的速度傳送大量推送訊息。
+快速傳遞模式是 [!DNL Journey Optimizer] 附加元件可讓您透過行銷活動以非常快的速度傳送大量推送訊息。
 
 當您想要在行動電話上傳送緊急推播警報（例如傳送突發新聞給已安裝您新聞頻道應用程式的使用者）時，訊息傳送延遲對業務至關重要，可使用快速傳送。
 

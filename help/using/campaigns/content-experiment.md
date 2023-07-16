@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，條件，規則
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -56,17 +56,17 @@ ht-degree: 8%
 
 1. 根據您的需求建置條件式規則。 若要這麼做，請從左側選單拖放並排列所需的屬性至畫布中。
 
-   將屬性合併至畫布的步驟類似於區段定義建置體驗。 有關如何使用規則產生器畫布的詳細資訊，請參閱 [本檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#rule-builder-canvas).
+將屬性結合至畫布的步驟與區段建置體驗類似。 有關如何使用規則產生器畫布的詳細資訊，請參閱 [本檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
 
-   ![](assets/conditions-create.png)
-
-   屬性會組織成三個標籤：
-
-   * **[!UICONTROL 設定檔]**:
-      * **[!UICONTROL 受眾]** 列出所有對象屬性（即狀態、版本等） 的 [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)，
-      * **[!UICONTROL XDM個別設定檔]** 列出所有與相關的設定檔屬性 [體驗資料模型(XDM)結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) 在Adobe Experience Platform中定義。
-   * **[!UICONTROL 情境]**：當您的訊息用於歷程時，內容歷程欄位可透過此索引標籤使用。
-   * **[!UICONTROL 受眾]**：列出根據中建立的區段定義產生的所有對象 [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+    ![](assets/conditions-create.png)
+    
+    屬性會組織成三個標籤：
+    
+    * **[!UICONTROL 設定檔]**：
+    * **[!UICONTROL 受眾]**列出所有對象屬性（即狀態、版本等） 若為[Adobe Experience Platform區段服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)，
+    * **[!UICONTROL XDM個別設定檔]**列出與Adobe Experience Platform中定義的[Experience Data Model (XDM)架構](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)相關聯的所有設定檔屬性。
+    * **[!UICONTROL 情境]**：當您的訊息用於歷程時，內容歷程欄位可透過此索引標籤使用。
+    * **[!UICONTROL 受眾]**：列出從[Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)中建立的區段定義產生的所有對象。
 
 1. 條件式規則準備就緒後，您就可以將其新增至訊息，以建立動態內容。 [瞭解如何新增動態內容](dynamic-content.md)
 

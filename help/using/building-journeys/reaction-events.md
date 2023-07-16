@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，事件，反應，追蹤，平台
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 21%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

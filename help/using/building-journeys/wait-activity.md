@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 等待，活動，歷程，下一個，畫布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 20%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 20%
 >title="等待活動"
 >abstract="如果您要在執行路徑中的下一個活動之前等待，您可以使用等待活動。這項功能可讓您定義執行下一個活動的時刻。有兩個選項可用：期間和自訂。"
 
-如果您想在執行路徑中的下一個活動之前等待，可以使用 **[!UICONTROL 等待]** 活動。 這項功能可讓您定義執行下一個活動的時刻。有三個可用選項：
+如果您想在執行路徑中的下一個活動之前等待，可以使用 **[!UICONTROL 等待]** 活動。 這項功能可讓您定義執行下一個活動的時刻。提供下列選項：
 
 * [持續時間](#duration)
 * [自訂](#custom)

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 83%
 您可建立兩種類型的行銷活動：
 
 * **已排程的 Campaign**&#x200B;允許針對促銷優惠方案、參與行銷活動、公告、法律注意事項知或原則更新等行銷案例進行簡單的臨時批次通訊。
-* **API 觸發的行銷活動** 允許使用 REST API 進行簡單的異動/操作訊息 (密碼重設、購物車放棄等)，其中可能需要使用設定檔屬性和承載的內容資料來進行個人化設定。
+* **API 觸發的行銷活動**&#x200B;允許行銷通訊以在適當時間和對象聯絡，或允許與個人聯絡異動/操作訊息，如密碼重設，其中可能不僅需要使用設定檔屬性，還要使用其為 REST API 承載的觸發程序之中的即時內容資料，來進行個人化。
 
 建立行銷活動的主要步驟如下：
 

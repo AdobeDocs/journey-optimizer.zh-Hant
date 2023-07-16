@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 2%
 * id：所有步驟事件專案均唯一。 兩個不同的步驟事件不能有相同的ID。
 * instanceId： instanceID對於歷程執行中與設定檔相關聯的所有步驟事件都是相同的。 如果設定檔重新進入歷程，將使用不同的instanceId。 此新instanceId對於重新進入的執行個體的所有步驟事件將是相同的（從開始到結束）。
 * profileID：與歷程名稱空間對應的設定檔身分。
+
+>[!NOTE]
+>
+>基於疑難排解目的，我們建議在查詢歷程時使用journeyVersionID，而不是journeyVersionName。
 
 ## 基本使用案例/常見查詢 {#common-queries}
 

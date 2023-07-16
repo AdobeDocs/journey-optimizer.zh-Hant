@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -109,11 +109,19 @@ ht-degree: 9%
 
 類型: 字串
 
+>[!NOTE]
+>
+>基於疑難排解目的，我們建議在查詢歷程時使用journeyVersionID，而不是journeyVersionName。
+
 ## journeyVersionName {#journeyversionname-field}
 
 歷程版本的名稱。
 
 類型: 字串
+
+>[!NOTE]
+>
+>基於疑難排解目的，我們建議在查詢歷程時使用journeyVersionID，而不是journeyVersionName。
 
 ## journeyVersion {#journeyversion-field}
 

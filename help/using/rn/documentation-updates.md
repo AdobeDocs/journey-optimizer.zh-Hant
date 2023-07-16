@@ -4,16 +4,22 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '2876'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 文件更新 {#latest-updates}
 
 本頁面列出 [!DNL Journey Optimizer] 所有文件更新。
+
+## 2023 年 6 月 {#june-2023}
+
+* 有關 [!DNL Journey Optimizer] 2023 年 6 月發行版本所有新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
+* 評估準則順序的其他範例已新增至&#x200B;**建立決定**&#x200B;區段，以說明使用多個準則與多個決定範圍的案例。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* 「決策管理」文件已透過備註清楚說明，無法對動態集合使用物件層級存取控制。[閱讀全文](../offers/offer-library/creating-collections.md)
 
 ## 2023 年 5 月 {#may-2023}
 

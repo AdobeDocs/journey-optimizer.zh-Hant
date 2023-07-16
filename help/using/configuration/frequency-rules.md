@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 訊息，頻率，規則，壓力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 13%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +20,7 @@ ht-degree: 13%
 
 [!DNL Journey Optimizer] 可讓您設定跨管道規則，控制使用者接收訊息或進入歷程的頻率，這些規則會自動從訊息和動作中排除過度請求的設定檔。
 
-例如，您不希望品牌每月傳送超過3則行銷訊息給客戶。
-
-若要這麼做，您可以使用頻率規則，在日曆的每月期間，根據一或多個管道傳送的訊息數量會受到限制。
+例如，對於品牌，規則可能為每月向其客戶傳送超過3則行銷訊息。 若要這麼做，您可以使用頻率規則，在日曆的每月期間，根據一或多個管道傳送的訊息數量會受到限制。
 
 >[!NOTE]
 >

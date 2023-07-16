@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 74%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 74%
 
 如果您成功傳送活動，但在歷程中看不到任何入口，則表示在活動傳送以及在歷程中的事件接收之間發生錯誤。
 
-以下是管理員應留意的一些事項：
+您可以透過下列問題開始疑難排解：
 
 * 您確定您預期會發生傳入事件的歷程處於測試模式或是即時狀態？
 * 在從有效負載預覽複製有效負載之前，您是否已儲存事件？

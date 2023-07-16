@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 事件，單一，建立，歷程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -69,6 +69,8 @@ ht-degree: 16%
    >[!NOTE]
    >
    >定義時無法使用進階運算式編輯器 **[!UICONTROL 事件ID條件]**. 在簡單運算式編輯器中，並非所有運運算元都可用，它們取決於資料型別。 例如，對於欄位的字串型別，您可以使用「包含」或「等於」。
+   >
+   >如果您在建立事件後，使用新的列舉值修改您的結構，您需要按照以下步驟將變更套用至現有事件：從事件欄位中取消選取列舉欄位，確認選擇，然後再次選取列舉欄位。 現在會顯示新的分項清單值。
 
 1. 新增命名空間。此步驟為選填，但建議您新增命名空間，以便運用儲存在「即時客戶個人檔案服務」的資訊。它會定義事件具備的金鑰類型。請參閱[本節](../event/about-creating.md#select-the-namespace)。
 
