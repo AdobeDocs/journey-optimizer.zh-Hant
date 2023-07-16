@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
+source-git-commit: ceb37193797c69ee87f136f3abecf54b5927d6a2
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 28%
@@ -126,7 +126,8 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->針對API觸發的行銷活動，需透過API呼叫設定對象。 [瞭解更多](api-triggered-campaigns.md)
+>針對API觸發的行銷活動，需透過API呼叫設定對象。 [了解更多](api-triggered-campaigns.md)
+
 在 **[!UICONTROL 身分名稱空間]** 欄位中，選擇要使用的名稱空間，以識別所選區段中的個人。 [進一步瞭解名稱空間](../event/about-creating.md#select-the-namespace)
 
 ![](assets/create-campaign-namespace.png)
