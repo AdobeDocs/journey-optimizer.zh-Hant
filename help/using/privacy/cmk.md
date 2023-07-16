@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 客戶託管金鑰
 description: 了解如何在 Adobe Journey Optimizer 設定和管理客戶金鑰
-feature: Customer Managed Keys
+feature: Monitoring
 role: Developer, User, Admin, Leader
 level: Intermediate
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 53b37fbb0fc799a0757e3ba8da2c42093d460d00
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '262'
+ht-degree: 100%
 
 ---
 
