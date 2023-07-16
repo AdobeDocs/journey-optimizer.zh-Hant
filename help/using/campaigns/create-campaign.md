@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 24%
+source-wordcount: '863'
+ht-degree: 28%
 
 ---
 
@@ -32,18 +32,20 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="行銷活動類型"
->abstract="對於指定傳送日期的行銷訊息，**排程**&#x200B;類型最合適。但是，如果您想傳送密碼重設或購物車未結帳等異動訊息，**API 觸發**&#x200B;類型則是最佳選擇。"
+>abstract="**排程的行銷活動**&#x200B;會立即執行或在指定的日期執行，其目的在傳送行銷類型訊息。**API 觸發的**&#x200B;行銷活動是使用 API 呼叫執行的。其目的是在傳送行銷訊息或異動訊息，即在個人執行以下動作後傳送的訊息：重設密碼、放棄購物車等。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="行銷活動類別"
->abstract="類別值會直接關聯到活動類型值。**行銷**&#x200B;類別的排程行銷活動類型和&#x200B;**異動**&#x200B;類別的 API 觸發類型"
+>abstract="如果您正在建立排程的行銷活動，系統會自動選取&#x200B;**行銷**&#x200B;類型。如果是 API 觸發的行銷活動，請選擇要傳送&#x200B;**行銷**&#x200B;訊息還是&#x200B;**異動**&#x200B;訊息，即在個人執行以下動作後傳送的訊息：重設密碼、放棄購物車等。"
 
 1. 在 **[!UICONTROL 屬性]** 區段，指定您要如何執行行銷活動。 可用的行銷活動型別有兩種：
 
-   * **[!UICONTROL 已排程]**：立即執行行銷活動或在指定日期執行。 已排程的行銷活動旨在傳送 **行銷** 輸入訊息。
+   * **[!UICONTROL 已排程]**：立即執行行銷活動或在指定日期執行。 已排程的行銷活動旨在傳送 **行銷** 訊息。 可從使用者介面設定及執行。
 
-   * **[!UICONTROL API觸發]**：使用API呼叫執行行銷活動。 API觸發的行銷活動旨在傳送 **異動** 訊息，即在個人執行動作後傳送的訊息：密碼重設、購物車放棄等。 [瞭解如何使用API觸發行銷活動](api-triggered-campaigns.md)
+   * **[!UICONTROL API觸發]**：使用API呼叫執行行銷活動。 API觸發的行銷活動旨在傳送 **行銷**，或 **異動** 訊息，即在個人執行動作後傳送的訊息：密碼重設、購物車購買等。 [瞭解如何使用API觸發行銷活動](api-triggered-campaigns.md)
+
+1. 如果您正在建立排程的行銷活動，系統會自動選取&#x200B;**行銷**&#x200B;類型。針對API觸發的行銷活動，選擇是否要傳送 **行銷** 或 **異動** 訊息。」
 
 1. 在 **[!UICONTROL 動作]** 區段，選擇頻道和頻道介面來用於傳送您的訊息。
 
@@ -120,19 +122,18 @@ ht-degree: 24%
 
 ## 定義對象 {#audience}
 
-按一下 **[!UICONTROL 選取對象]** 按鈕來顯示可用Adobe Experience Platform對象清單。 [深入瞭解對象](../audience/about-audiences.md)
+按一下 **[!UICONTROL 選取對象]** 按鈕來顯示可用Adobe Experience Platform區段的清單。 [深入瞭解區段](../audience/about-audiences.md)
 
 >[!NOTE]
 >
->針對API觸發的行銷活動，需透過API呼叫設定對象。 [了解更多](api-triggered-campaigns.md)
-
-在 **[!UICONTROL 身分名稱空間]** 欄位中，選擇要使用的名稱空間，以識別所選對象中的個人。 [進一步瞭解名稱空間](../event/about-creating.md#select-the-namespace)
+>針對API觸發的行銷活動，需透過API呼叫設定對象。 [瞭解更多](api-triggered-campaigns.md)
+在 **[!UICONTROL 身分名稱空間]** 欄位中，選擇要使用的名稱空間，以識別所選區段中的個人。 [進一步瞭解名稱空間](../event/about-creating.md#select-the-namespace)
 
 ![](assets/create-campaign-namespace.png)
 
 >[!NOTE]
 >
->如果對象所屬的個人在不同身分中沒有選取的身分（名稱空間），則行銷活動不會鎖定這些個人。
+>如果屬於區段的個人在不同身分中沒有選取的身分（名稱空間），則行銷活動不會鎖定該個人。
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
