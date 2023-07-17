@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Beta" type="Informative"
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 6%
+source-wordcount: '169'
+ht-degree: 5%
 
 ---
 
 # 存取及管理對象 {#access-manage-audiences}
+
+>[!BEGINSHADEBOX]
+
+本檔案提供如何在Adobe Journey Optimizer中使用對象構成的詳細資訊。 如果您沒有使用Adobe Journey Optimizer， [按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 從以下位置可存取由對象構成產生的對象： **[!UICONTROL 瀏覽]** 索引標籤中的 **[!UICONTROL 受眾]** 功能表。
 

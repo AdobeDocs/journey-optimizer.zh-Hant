@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 6f6fd6c032be7f86dca239d43732f3ab37223093
+source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 30%
+source-wordcount: '1415'
+ht-degree: 29%
 
 ---
 
 # 使用組合畫布 {#composition-canvas}
+
+>[!BEGINSHADEBOX]
+
+本檔案提供如何在Adobe Journey Optimizer中使用對象構成的詳細資訊。 如果您沒有使用Adobe Journey Optimizer， [按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 對象構成提供視覺畫布，可讓您建立對象並使用各種活動（分割、擴充等）。
 
@@ -137,9 +143,11 @@ ht-degree: 30%
 
 此 **[!UICONTROL 擴充]** 活動可讓您利用來自Adobe Experience Platform資料集的其他屬性來豐富受眾。 例如，您可以新增與所購買產品相關的資訊 (例如名稱、價格或製造商 ID)，並利用這些資訊來個人化傳遞給對象的內容。
 
->[!IMPORTANT]
->
->目前，資料集上的標籤（在資料集層級或欄位層級）不會傳播至新建立的對象。 這可能會影響所產生對象的存取控制及/或資料控管。 因此，在構成對象時，請僅使用測試資料。
+使用時，請注意下列限制 **[!UICONTROL 擴充]** 活動：
+
+* **資料集** 擴充用途必須是記錄型別（相對於事件型別），而且不能是系統資料集，也不能標籤為設定檔。 它們必須小於1GB。
+* **擴充支援1:1聯結**. 也就是說，如果結合索引鍵在擴充資料集上有多個相符專案，系統會挑選其中一個相符專案，並將其用於1:1結合。
+* **可以在RTCDP目的地中啟用對象**，但其擴充屬性（若有的話）無法存取。
 
 若要設定活動，請遵循下列步驟：
 
