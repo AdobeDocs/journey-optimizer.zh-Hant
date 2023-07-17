@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 設定，實驗，報告，最佳化工具
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
+source-git-commit: c83305a27d987fdf7861b7c2fc720cc4a6aa260b
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 36%
+source-wordcount: '595'
+ht-degree: 35%
 
 ---
 
@@ -49,17 +49,19 @@ ht-degree: 36%
 
 * 您只能新增事件型別資料集。
 
-* 這些資料集必須至少包含下列其中一項 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： **應用程式詳細資料**， **商務詳細資料**， **網頁詳細資訊**.
+* 這些資料集必須包含 **體驗事件 — 主張互動** [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}.
 
-   >[!NOTE]
-   >
-   >目前僅支援這些欄位群組。
+* 這些資料集可能也包含下列其中一項 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： **應用程式詳細資料**， **商務詳細資料**， **網頁詳細資訊**.
 
-   例如，如果您想瞭解電子郵件行銷活動對商業資料（如購買或訂單）的影響，則需要使用建立體驗事件資料集 **商務詳細資料** 欄位群組。
+  >[!NOTE]
+  >
+  >可能還包括其他欄位群組，但Journey Optimizer報表中目前僅支援上述欄位群組。
 
-   同樣地，如果您想要報告行動互動，則需要建立體驗事件資料集， **應用程式詳細資料** 欄位群組。
+  例如，如果您想瞭解電子郵件行銷活動對商業資料（如購買或訂單）的影響，則需要使用建立體驗事件資料集 **商務詳細資料** 欄位群組。
 
-   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
+  同樣地，如果您想要報告行動互動，則需要建立體驗事件資料集， **應用程式詳細資料** 欄位群組。
+
+  <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
 * 您可以將這些欄位群組新增到一個或多個方案中，這些方案將用於一個或多個資料集。
 
