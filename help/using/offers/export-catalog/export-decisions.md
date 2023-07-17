@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 3%
@@ -232,7 +232,7 @@ ht-degree: 3%
 
   **欄位：** orderEvaluationType
   **標題：** 訂單評估型別
-  **說明：** 指定使用哪個順序評估機制、決定選項的靜態優先順序、計算每個選項數值的評分函式，或接收排序清單的排名策略。
+  **說明：** 指定使用哪個順序評估機制、決定選項的靜態優先順序、計算每個選項數值的評分函式，或接收要排序清單的AI模型。
   **類型:**字串
   **可能的值：** &quot;static&quot;、&quot;scoringFunction&quot;、&quot;rankingStrategy&quot;
 

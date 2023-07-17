@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 12%
@@ -42,7 +42,7 @@ ht-degree: 12%
 
    >[!CAUTION]
    >
-   >資料集中使用的結構描述必須具備 **[!UICONTROL 體驗事件 — 主張互動]** 與其相關聯的欄位群組。 否則，您將無法將其用於排名策略。
+   >資料集中使用的結構描述必須具備 **[!UICONTROL 體驗事件 — 主張互動]** 與其相關聯的欄位群組。 否則，您將無法在AI模型中使用它。
 
 1. 輸入名稱並儲存結構。
 
@@ -66,4 +66,4 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->現在可以選取此資料集，以便在下列情況下收集事件資料 [建立排名策略](#create-ranking-strategy).
+>現在可以選取此資料集，以便在下列情況下收集事件資料 [建立AI模型](../ranking/create-ranking-strategies.md).

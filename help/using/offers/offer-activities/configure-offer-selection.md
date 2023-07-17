@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 6%
 
 ---
@@ -62,9 +62,9 @@ ht-degree: 6%
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-您也可以使用經過訓練的模型系統，藉由選取排名策略，自動排名要針對指定設定檔顯示的優惠方案。 瞭解如何在中建立排名策略 [本節](../ranking/create-ranking-strategies.md).
+您也可以使用經過訓練的模型系統，藉由選取AI模型，自動為要針對指定設定檔顯示的選件排名。 瞭解如何在中建立AI模型 [本節](../ranking/create-ranking-strategies.md).
 
-建立排名策略後，您可以將其指派給決定中的位置。 若要這麼做，請遵循下列步驟：
+建立AI模型後，您可以將其指派給決定中的位置。 若要這麼做，請遵循下列步驟：
 
 1. 建立決定或編輯現有決定。 請參閱[建立決定](../offer-activities/create-offer-activities.md)。
 
@@ -76,11 +76,11 @@ ht-degree: 6%
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
-1. 選取您建立的排名策略。 會顯示排名策略的所有詳細資訊。
+1. 選取您建立的AI模型。 將顯示模型的所有細節。
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. 按一下&#x200B;**[!UICONTROL 「選取」]**。排名策略現在與位置相關聯。
+1. 按一下&#x200B;**[!UICONTROL 「選取」]**。AI模型現在與位置相關聯。
 
 如果多個優惠方案都符合條件，訓練有素的模型系統將決定應先針對指定位置顯示哪個優惠方案。
 
