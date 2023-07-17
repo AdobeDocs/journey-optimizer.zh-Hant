@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: 0996de79ae5b9593db8ec61ba51fc17073c0f458
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 90%
+source-wordcount: '306'
+ht-degree: 80%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 90%
 >id="ajo_ao_create_composition"
 >title="建立組合"
 >abstract="建立組合工作流程，以將現有的 Adobe Experience Platform 對象合併到視覺化畫布中，並利用各種活動 (分割、排除...) 建立新的對象。"
+
+>[!BEGINSHADEBOX]
+
+本檔案提供如何在Adobe Journey Optimizer中使用對象構成的詳細資訊。 如果您沒有使用Adobe Journey Optimizer， [按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 對象組合可讓您建立&#x200B;**組合工作流程**，您可以將現有的 Adobe Experience Platform 對象結合至視覺畫布，並善用各種活動 (分割、排除……) 來建立新對象。
 
