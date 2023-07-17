@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 208934b120d5273efc0a34ff35c254b819a84f3c
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2087'
 ht-degree: 2%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 2%
 
 此 **[!UICONTROL 電子郵件傳送統計資料]** 圖表會詳細說明您的傳送是否成功：
 
-* **[!UICONTROL 已定位]**：AdobeJourney Orchestration針對任何動作（例如傳送電子郵件或簡訊）鎖定的設定檔數。
+* **[!UICONTROL 已定位]**：任何動作（例如傳送電子郵件或簡訊）的目標設定檔數。
 
 * **[!UICONTROL 已傳送]**：傳遞的傳送總數。
 
@@ -193,7 +193,7 @@ ht-degree: 2%
 
 此 **[!UICONTROL 推播通知 — 傳送統計資料]** 表格會使用圖表和KPI詳細列出與推播通知相關的主要資訊：
 
-* **[!UICONTROL 已定位]**：AdobeJourney Orchestration針對任何動作（例如傳送電子郵件或簡訊）鎖定的設定檔數。
+* **[!UICONTROL 已定位]**：任何動作（例如傳送電子郵件或簡訊）的目標設定檔數。
 
 * **[!UICONTROL 已傳送]**：傳遞的傳送總數。
 
