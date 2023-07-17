@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 781c83a2742989eb0bf7d68411ca3d7daa1eb1e0
+source-git-commit: ec71600fdc50e812e627f246e8a5bd2c5ad7e835
 workflow-type: tm+mt
-source-wordcount: '2591'
-ht-degree: 93%
+source-wordcount: '2695'
+ht-degree: 90%
 
 ---
 
@@ -24,7 +24,6 @@ ht-degree: 93%
 
 ## 2023年7月更新
 
-
 <table>
 <thead>
 <tr>
@@ -35,13 +34,16 @@ ht-degree: 93%
 <tr>
 <td>
 <p>您現在可以建立構成工作流程，將現有Adobe Experience Platform對象合併到視覺畫布中，並利用各種活動（分割、擴充……）來建立新對象。 新建立的對象會與現有對象一起儲存回Adobe Experience Platform，並可在Journey Optimizer行銷活動中運用於鎖定客戶。</p>
+
 <img src="../audience/assets/audiences-publish.png"/>
+
 <p>如需詳細資訊，請參閱<a href="../audience/get-started-audience-orchestration.md">詳細文件</a>。</p>
+
+<p>對象構成已與新的Adobe Experience Platform「對象」功能表完全整合，該功能表可作為對象的一個集中入口網站。 您現在可以使用包含新儀表板（具有區段趨勢和重疊）的瀏覽頁面，來尋找新的深入分析，並探索用於摺疊和標籤的組織工具。 此體驗包含標準化對象標籤的治理控制項，以及管理啟用工作流程的對象生命週期管理功能。 有了這項全新的管理體驗，您現在可以輕鬆安全地從單一位置管理對象。 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html" target="_blank">Adobe Experience Platform檔案</a>.</p></p>
 </td>
 </tr>
 </tbody>
 </table>
-
 
 ## 2023 年 6 月發行說明 {#june-rn-2023}
 
