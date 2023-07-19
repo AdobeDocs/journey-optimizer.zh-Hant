@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
+source-git-commit: dfee69e3573bed6029a0e12fbf4d16c169686683
 workflow-type: tm+mt
-source-wordcount: '1415'
-ht-degree: 29%
+source-wordcount: '1417'
+ht-degree: 27%
 
 ---
 
@@ -139,7 +139,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="擴充屬性"
->abstract="從擴充資料集中選取要和對象相關聯的一或多個屬性。一旦發佈組合，這些屬性就會和對象相關聯，並且可以在行銷活動中加以利用以將傳遞個人化。"
+>abstract="從擴充資料集中選取要和對象相關聯的一或多個屬性。構成發佈後，這些屬性就會與對象建立關聯，並可在Journey Optimizer行銷活動中運用來個人化傳送。"
 
 此 **[!UICONTROL 擴充]** 活動可讓您利用來自Adobe Experience Platform資料集的其他屬性來豐富受眾。 例如，您可以新增與所購買產品相關的資訊 (例如名稱、價格或製造商 ID)，並利用這些資訊來個人化傳遞給對象的內容。
 
