@@ -12,7 +12,7 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="對象資格事件"
->abstract="此活動可讓您的歷程聆聽Adobe Experience Platform對象中設定檔的入口和出口，以便讓個人進入歷程或是在歷程中前進。"
+>abstract="本活動可讓您的歷程聆聽 Adobe Experience Platform 對象中設定檔的入口和出口，讓個人得以在歷程中進入或前進。"
 
-此活動可讓您的歷程聆聽Adobe Experience Platform對象中設定檔的入口和出口，以便讓個人進入歷程或是在歷程中前進。 如需對象建立的詳細資訊，請參閱此 [區段](../audience/about-audiences.md).
+本活動可讓您的歷程聆聽 Adobe Experience Platform 對象中設定檔的入口和出口，讓個人得以在歷程中進入或前進。如需對象建立的詳細資訊，請參閱此 [區段](../audience/about-audiences.md).
 
 假設您有「銀級客戶」受眾。 透過此活動，您可以讓所有新的銀級客戶進入歷程，並向他們傳送一系列個人化訊息。
 

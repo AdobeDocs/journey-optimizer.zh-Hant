@@ -11,8 +11,8 @@ keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '429'
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="行銷活動"
->abstract="建立行銷活動，以跨各種管道將一次性內容傳送給特定對象。 在建立行銷活動之前，請確定您有頻道介面（即訊息預設集）和Adobe Experience Platform受眾且準備使用。"
+>abstract="建立行銷活動以跨不同管道向特定對象傳遞一次性內容。建立您的行銷活動之前，請確保您有準備好可供使用的管道表面 (即訊息預設集) 和 Adobe Experience Platform 對象。"
 
 使用Journey Optimizer行銷活動，透過各種管道將一次性內容傳送給特定對象。 當使用歷程時，動作會依序執行。 透過行銷活動，可同時執行動作 (立即執行或根據指定的排程執行)。
 

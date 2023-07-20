@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
->title="讀取對象活動"
->abstract="「讀取對象」活動可讓您讓屬於Adobe Experience Platform對象的所有個人進入歷程。 進入歷程可以執行一次，也可以定期執行。"
+>title="閱讀對象活動"
+>abstract="「閱讀對象」活動可讓您安排屬於 Adobe Experience Platform 對象的所有個人進入歷程。進入歷程可以執行一次，也可以定期執行。"
 
 使用 **讀取對象** 讓對象的所有個人進入歷程的活動。 進入歷程可以執行一次，也可以定期執行。
 

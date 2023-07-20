@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2385'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="定義資格"
->abstract="依預設，任何設定檔都符合呈現優惠方案的資格，但您可以使用對象或決定規則，將優惠方案限制在特定設定檔中。"
+>abstract="依預設，任何設定檔都有資格獲得優惠，但您可以使用對象或決定規則將優惠限制給特定設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -75,7 +75,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="總設定檔估計值"
->abstract="當您選取對象或決定規則時，您可以檢視有關預估合格設定檔的資訊。"
+>abstract="當您選取對象或決定規則時，您可以看到有關預估合格設定檔的資訊。"
 
 此 **[!UICONTROL 優惠資格]** 區段可讓您將優惠限制在您使用對象或決定規則定義的特定設定檔中。
 
@@ -101,7 +101,7 @@ ht-degree: 15%
   >
   >事件型優惠方案目前不支援 [!DNL Journey Optimizer]. 如果您根據以下專案建立決定規則： [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}，您將無法在選件中運用它。
 
-當您選取對象或決定規則時，您可以檢視有關預估合格設定檔的資訊。 按一下 **[!UICONTROL 重新整理]** 以更新資料。
+當您選取對象或決定規則時，您可以看到有關預估合格設定檔的資訊。按一下 **[!UICONTROL 重新整理]** 以更新資料。
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 

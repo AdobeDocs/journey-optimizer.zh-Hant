@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
 >title="對象"
->abstract="善用即時客戶個人檔案資料，Adobe Experience Platform可讓您輕鬆建立區段定義，以建立目標受眾，擷取客戶的獨特行為和偏好。"
+>abstract="透過使用即時客戶設定檔資料，Adobe Experience Platform 使您能夠輕鬆建置區段定義，以建立可擷取客戶獨特行為和偏好的目標對象。"
 
 [!DNL Journey Optimizer] 可讓您直接從使用即時客戶個人檔案資料來建置和運用Adobe Experience Platform對象 **[!UICONTROL 受眾]** 選單，並用於您的歷程或行銷活動。
 
