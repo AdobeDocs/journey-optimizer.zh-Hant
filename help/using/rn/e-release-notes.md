@@ -5,10 +5,10 @@ title: 發行說明
 description: Journey Optimizer早期發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: c9e8088cd460992b0c84e3e14e63c2388fa94fd1
+source-git-commit: 88dff30c5128884ba72ba64cf8ca9ceb460ed4ca
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 25%
+source-wordcount: '636'
+ht-degree: 24%
 
 ---
 
@@ -106,6 +106,8 @@ ht-degree: 25%
 **歷程**
 
 * 您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。
+* 已引入新型別的系統警示。 您現在可以在自訂動作失敗時收到通知。
+
 
 
 **行銷活動**
@@ -123,5 +125,6 @@ ht-degree: 25%
 * 區段定義：在 Adobe Experience Platform 中，用來描述目標對象之關鍵特性或行為的規則。 此辭彙先前稱為「區段」。
 
 因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，您會看到「區段」被「對象」取代，以反映建立和管理對象的新路徑。
+
 
 
