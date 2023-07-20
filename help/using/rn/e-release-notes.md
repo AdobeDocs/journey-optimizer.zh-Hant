@@ -5,9 +5,9 @@ title: 發行說明
 description: Journey Optimizer早期發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: b677776becaabc15c85be0a5a46b741cebb9d87b
+source-git-commit: c9e8088cd460992b0c84e3e14e63c2388fa94fd1
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '617'
 ht-degree: 25%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 25%
 <tbody>
 <tr>
 <td>
-<p>除了行銷活動和歷程外，您現在可以指派Adobe Experience Platform統一標籤至您的登陸頁面、範本、內容片段和訂閱清單。 這可讓您輕鬆分類，並改善所有清單中的搜尋和導覽。 此功能目前處於GA階段（一般可用）。</p>
+<p>除了行銷活動和歷程之外，您現在還可以指派Adobe Experience Platform統一標籤至您的登入頁面、範本、內容片段和訂閱清單。 這可讓您輕鬆分類，並改善所有清單中的搜尋和導覽。 </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>如需詳細資訊，請參閱<a href="../start/search-filter-categorize.md#tags">詳細文件</a>。</p>
 </td>
@@ -103,6 +103,16 @@ ht-degree: 25%
 
 此版本隨附下列改善專案。
 
+**歷程**
+
+* 您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。
+
+
+**行銷活動**
+
+* 與行銷活動相關的內容事件現在可用於個人化編輯器「內容屬性」選單。
+
+
 **對象**
 
 已針對歷程或行銷活動中的對象選擇器進行增強功能，新增欄顯示對象的原始和更新頻率。
@@ -114,13 +124,4 @@ ht-degree: 25%
 
 因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，您會看到「區段」被「對象」取代，以反映建立和管理對象的新路徑。
 
-
-**歷程**
-
-* 您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。
-
-
-**行銷活動**
-
-* 與行銷活動相關的內容事件現在可用於個人化編輯器「內容屬性」選單。
 
