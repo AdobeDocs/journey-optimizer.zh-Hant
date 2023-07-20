@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 管道，表面，技術，引數，最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+source-git-commit: 729150262a1e6823349e8025a1632dd37968bde9
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1623'
 ht-degree: 8%
 
 ---
@@ -30,7 +30,6 @@ ht-degree: 8%
 > * 若要建立、編輯和刪除管道曲面，您必須擁有 [管理管道表面](../administration/high-low-permissions.md#manage-channel-surface) 許可權。
 >
 > * 您必須執行 [電子郵件設定](../email/get-started-email-config.md)， [推送設定](../push/push-configuration.md) 和 [簡訊設定](../sms/sms-configuration.md) 建立管道曲面之前的步驟。
-
 
 設定頻道介面後，您就可以在從歷程或行銷活動建立訊息時選取它們。
 
@@ -99,7 +98,10 @@ ht-degree: 8%
    在此步驟中，將會執行數個檢查以確認其已正確設定。 <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
-   >為指定子網域建立第一個電子郵件介面時，可能需要處理時間 **10分鐘到10天**. 如果選取的子網域已用於其他電子郵件介面，則最多只需3小時。
+   > 為子網域建立電子郵件介面時，處理時間會有所不同，如下所述：
+   >
+   > * 對於新的子網域，建立第一個管道曲面的過程可能需要一段時間 **10分鐘至10天**.
+   > * 對象 **非生產沙箱**，或如果選取的子網域為 **已使用** 在另一個管道表面，該程式只需3小時。
 
    這些檢查包括Adobe團隊執行的設定和技術測試：
 
