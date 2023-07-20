@@ -5,10 +5,10 @@ title: 發行說明
 description: Journey Optimizer早期發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: bef5bc9f86d1e11e6b1ed5853fc0b57a6e47d4ac
+source-git-commit: 1cfa4484329355310205421072af65f5dec32b5b
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 22%
+source-wordcount: '626'
+ht-degree: 25%
 
 ---
 
@@ -55,9 +55,10 @@ ht-degree: 22%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer正在新增對直接郵件頻道的支援，以擴充其跨頻道功能。 直接郵件是離線頻道，可讓您個人化並產生直接郵件供應商傳送郵件給客戶所需的擷取檔案。</p>
-<!--img src="assets/do-not-localize/web-authoring.gif"/>
-<p>For more information, refer to the <a href="../web/get-started-web.md">detailed documentation</a>.</p-->
+<p>您現在可以在行銷活動和歷程中新增直接郵件訊息。 直接郵件是離線頻道，可讓您個人化並產生直接郵件供應商傳送郵件給客戶所需的檔案。</p>
+<p>當您準備直接郵件傳送時，Journey Optimizer會產生一個檔案，其中包含所有目標設定檔和所選的聯絡資訊（例如郵寄地址）。 然後，您就可以將此檔案傳送給直接郵件提供者，由他們負責實際傳送。</p>
+<img src="../direct-mail/assets/direct-mail-properties.png">
+<p>如需詳細資訊，請參閱<a href="../direct-mail/create-direct-mail.md">詳細文件</a>。</p>
 </tr>
 </tbody>
 </table>
