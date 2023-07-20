@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 管道，表面，技術，引數，最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4d59989a32096190aec770364467a0a6fe31888f
+source-git-commit: 73ef16b03f76b61da95b48a411b07854c59c6487
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1626'
 ht-degree: 8%
 
 ---
@@ -101,7 +101,8 @@ ht-degree: 8%
    > 為子網域建立電子郵件介面時，處理時間會有所不同，詳細情況如下：
    >
    > * 對象 **新子網域**，建立第一個管道表面的程式可能需要 **10分鐘至10天**.
-   > * 對象 **非生產沙箱**，或如果選取的子網域為 **已使用** 在另一個管道曲面中，流程只需要 **3小時**.
+   > * 對象 **非生產沙箱**，或如果選取的子網域為 **已使用** 在另一個已核准的管道表面中，此程式最多只需 **3小時**.
+
 
    這些檢查包括Adobe團隊執行的設定和技術測試：
 
