@@ -5,10 +5,10 @@ title: 發行說明
 description: Journey Optimizer早期發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: 88dff30c5128884ba72ba64cf8ca9ceb460ed4ca
+source-git-commit: 1cfca1884bc35c93d36137b190e3062aa0d0de33
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 24%
+source-wordcount: '616'
+ht-degree: 22%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 24%
 <tbody>
 <tr>
 <td>
-<p>您現在可以在行銷活動和歷程中新增直接郵件訊息。 直接郵件是離線頻道，可讓您個人化並產生直接郵件供應商傳送郵件給客戶所需的檔案。</p>
+<p>您現在可以在行銷活動中新增直接郵件訊息。 直接郵件是離線頻道，可讓您個人化並產生直接郵件供應商傳送郵件給客戶所需的檔案。</p>
 <p>當您準備直接郵件傳送時，Journey Optimizer會產生一個檔案，其中包含所有目標設定檔和所選的聯絡資訊（例如郵寄地址）。 然後，您就可以將此檔案傳送給直接郵件提供者，由他們負責實際傳送。</p>
 <img src="../direct-mail/assets/direct-mail-properties.png">
 <p>如需詳細資訊，請參閱<a href="../direct-mail/create-direct-mail.md">詳細文件</a>。</p>
@@ -90,7 +90,7 @@ ht-degree: 24%
 <tbody>
 <tr>
 <td>
-<p>除了行銷活動和歷程之外，您現在還可以指派Adobe Experience Platform統一標籤至您的登入頁面、範本、內容片段和訂閱清單。 這可讓您輕鬆分類，並改善所有清單中的搜尋和導覽。 </p>
+<p>除了行銷活動和歷程之外，您現在還可以指派Adobe Experience Platform統一標籤至您的登入頁面、內容範本、片段和訂閱清單。 這可讓您輕鬆分類，並改善所有清單中的搜尋和導覽。 </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>如需詳細資訊，請參閱<a href="../start/search-filter-categorize.md#tags">詳細文件</a>。</p>
 </td>
@@ -105,7 +105,7 @@ ht-degree: 24%
 
 **歷程**
 
-* 您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。
+<!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
 * 已引入新型別的系統警示。 您現在可以在自訂動作失敗時收到通知。
 
 
