@@ -5,10 +5,10 @@ title: 發行說明
 description: Journey Optimizer早期發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: 1cfca1884bc35c93d36137b190e3062aa0d0de33
+source-git-commit: c75664f9b4d58fff1b073c385bcb839e9c11c8ec
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 22%
+source-wordcount: '740'
+ht-degree: 19%
 
 ---
 
@@ -26,6 +26,23 @@ ht-degree: 22%
 ### 新功能{#july-2023-features}
 
 此版本提供下列新功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>內容範本API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以使用專用的API來建立和管理Adobe Journey Optimizer內容範本，提供與現有內容系統的緊密整合。</p>
+<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -109,7 +126,6 @@ ht-degree: 22%
 * 已引入新型別的系統警示。 您現在可以在自訂動作失敗時收到通知。
 
 
-
 **行銷活動**
 
 * 與行銷活動相關的內容事件現在可用於個人化編輯器「內容屬性」選單。
@@ -126,5 +142,15 @@ ht-degree: 22%
 
 因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，您會看到「區段」被「對象」取代，以反映建立和管理對象的新路徑。
 
+**API**
+
+Adobe Journey Optimizer API驗證 — 不建議使用產生存取權杖的JWT方法。 所有新的整合都必須使用OAuth伺服器對伺服器驗證方法來建立。 Adobe也建議您將現有的整合移轉至OAuth方法。 [了解更多](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)
 
 
+**其他變更**
+
+所有客戶現在都能將Journey Optimizer資料集匯出至雲端儲存空間目的地。 此功能可讓您建立與雲端儲存位置的即時連線，以匯出資料集的內容。 [了解更多](../data/export-datasets.md)
+
+>[!AVAILABILITY]
+>
+>此功能目前為測試版，可能會有變動。</p>
