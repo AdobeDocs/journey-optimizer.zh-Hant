@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 208934b120d5273efc0a34ff35c254b819a84f3c
+source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2057'
 ht-degree: 2%
 
 ---
@@ -271,8 +271,6 @@ ht-degree: 2%
 
 * **[!UICONTROL 已傳送]**：傳遞的傳送總數。
 
-* **[!UICONTROL 已傳遞]**：成功傳送的訊息數，與已傳送訊息總數相關。
-
 * **[!UICONTROL 彈回數]**：與已傳送訊息總數相關的傳送和自動傳回處理期間累計的錯誤總數。
 
 * **[!UICONTROL 錯誤]**：傳送期間發生且無法傳送至設定檔的錯誤總數。
@@ -280,8 +278,6 @@ ht-degree: 2%
 此 **[!UICONTROL 簡訊摘要]** Widget會以圖表詳細列出與訊息相關的主要資訊：
 
 * **[!UICONTROL 已傳送]**：傳遞的傳送總數。
-
-* **[!UICONTROL 已傳遞]**：成功傳送的訊息數，與已傳送訊息總數相關。
 
 * **[!UICONTROL 彈回數]**：與已傳送訊息總數相關的傳送和自動傳回處理期間累計的錯誤總數。
 

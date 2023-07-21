@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1088'
 ht-degree: 7%
 
 ---
@@ -146,8 +146,6 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 已傳送]**：傳遞的傳送總數。
 
-* **[!UICONTROL 已傳遞]**：成功傳送的訊息數。
-
 * **[!UICONTROL 彈回數]**：傳送期間和自動傳回處理期間累計的錯誤總數。
 
 * **[!UICONTROL 錯誤]**：傳送期間發生且無法傳送至設定檔的錯誤總數。
@@ -157,8 +155,6 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 此 **[!UICONTROL 依日期的SMS效能]** Widget會以圖表詳細列出與訊息相關的主要資訊：
 
 * **[!UICONTROL 已傳送]**：傳遞的傳送總數。
-
-* **[!UICONTROL 已傳遞]**：成功傳送的訊息數。
 
 * **[!UICONTROL 彈回數]**：傳送期間和自動傳回處理期間累計的錯誤總數。
 

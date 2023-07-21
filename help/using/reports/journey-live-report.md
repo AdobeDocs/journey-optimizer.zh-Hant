@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1177'
 ht-degree: 5%
 
 ---
@@ -170,8 +170,6 @@ ht-degree: 5%
 
 * **[!UICONTROL 已傳送]**：傳遞的傳送總數。
 
-* **[!UICONTROL 已傳遞]**：成功傳送的訊息數。
-
 * **[!UICONTROL 開啟次數]**：在傳遞中開啟訊息的次數。
 
 * **[!UICONTROL 點按次數]**：內容在傳遞中的點按次數。
@@ -181,8 +179,6 @@ ht-degree: 5%
 * **[!UICONTROL 錯誤]**：傳送期間發生且無法傳送至設定檔的錯誤總數。
 
 此 **[!UICONTROL 簡訊摘要]** 圖表會詳細說明您的傳送是否成功：
-
-* **[!UICONTROL 已傳遞]**：成功傳送的訊息數。
 
 * **[!UICONTROL 彈回數]**：傳送期間和自動傳回處理期間累計的錯誤總數。
 
