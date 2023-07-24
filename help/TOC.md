@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: bef5bc9f86d1e11e6b1ed5853fc0b57a6e47d4ac
 workflow-type: tm+mt
 source-wordcount: '1388'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -279,10 +279,10 @@ ht-degree: 99%
       + [開始使用動態內容](using/personalization/get-started-dynamic-content.md)
       + [建立條件式規則](using/personalization/create-conditions.md)
       + [建立動態內容](using/personalization/dynamic-content.md)
-+ 對象、設定檔和身分{#audiences-profiles-identities}
-   + 受眾 {#audiences}
++ 對象、設定檔與身分{#audiences-profiles-identities}
+   + 對象 {#audiences}
       + [開始使用 Audiences](using/audience/about-audiences.md)
-      + [建立區段定義](using/audience/creating-a-segment-definition.md)
+      + [建置區段定義](using/audience/creating-a-segment-definition.md)
       + 撰寫對象 {#audience-orchestration}
          + [開始使用對象組合](using/audience/get-started-audience-orchestration.md)
          + [建立組合工作流程](using/audience/create-compositions.md)

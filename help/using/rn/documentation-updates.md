@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '2949'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 95%
 * 在您的歷程加入了啟用 Adobe Analytics 事件的步驟。 [閱讀全文](../event/about-analytics.md)
 * 在「決策管理指南」中已建立新區段，說明如何在 Adobe Experience Platform 收集 Offer Decisioning 意見回饋，包括顯示哪些優惠方案以及使用者如何與其進行互動。[閱讀全文](../offers/data-collection/data-collection.md)
 * 已將新子區段新增至&#x200B;**建立決策**&#x200B;區段，以說明按順序或同時評估標準之間的差異。[閱讀全文](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
-* 已針對使用增量讀取的讀取對象歷程新增護欄。 您無法建立新版本，需要複製歷程。[閱讀全文](../start/guardrails.md#journey-versions-g)
+* 已為使用增量讀取方式的讀取對象歷程新增護欄。 您無法建立新版本，需要複製歷程。[閱讀全文](../start/guardrails.md#journey-versions-g)
 
 ## 2023 年 2 月 {#feb-2023}
 
@@ -94,7 +94,7 @@ ht-degree: 95%
 ## 2022 年 9 月 {#september-2022}
 
 * 有關 [!DNL Journey Optimizer] 2022 年 9 月發佈內容的新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
-* 新增在循環讀取對象歷程中使用等待活動的相關最佳實務。 [閱讀全文](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 已在定期讀取對象歷程中新增使用等待活動的相關最佳實務。 [閱讀全文](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * 新增新的步驟事件查詢範例，以及 id、instanceid 和 profileid 之間差異的資訊。 [閱讀全文](../reports/query-examples.md)。
 * 更新與 [toDateOnly](../building-journeys/functions/functiontodateonly.md) 和 [toString](../building-journeys/functions/functiontostring.md) 函式相關的頁面。
 * 已新增時間條件參數的詳細資訊。 [閱讀全文](../building-journeys/condition-activity.md#time_condition)
@@ -109,7 +109,7 @@ ht-degree: 95%
 * 有關 [!DNL Journey Optimizer] 2022 年 8 月發行版本的所有新功能和改進項目詳情，請參閱本文件。 [閱讀全文](release-notes.md)
 * 已更新「頻率規則」區段以反映全新內嵌訊息流程。 [閱讀全文](../configuration/frequency-rules.md#apply-frequency-rule)
 * 現在，開始使用登陸頁面區段將引用一份如何設定訂閱和建立登陸頁面的展示影片。 [閱讀全文](../landing-pages/get-started-lp.md#video)
-* 已針對使用讀取對象活動的歷程新增限制。 [閱讀全文](../building-journeys/read-audience.md)
+* 已為使用讀取對象活動的歷程新增限制。 [閱讀全文](../building-journeys/read-audience.md)
 * 已改善運算式編輯器操作者頁面。 [閱讀全文](../building-journeys/expression/operators.md)
 * 已新增如何排程行銷活動的區段。 [閱讀全文](../campaigns/create-campaign.md)
 * 已更新運算式編輯器的一般語法規則區段，以考慮有關常值函式中反斜線符號轉義的新規則。 此變更不會影響現有的已發佈訊息。 只有新訊息或草稿訊息必須更新。[閱讀全文](../personalization/personalization-syntax.md#general-rules)
@@ -120,7 +120,7 @@ ht-degree: 95%
 * 已澄清&#x200B;**設定頻道介面**&#x200B;部分，並已更新連結頁面，說明如何設定 SMS 頻道。 [閱讀全文](../configuration/channel-surfaces.md#create-channel-surface)
 * 歷程屬性的&#x200B;**個人資料時區**&#x200B;選項現在預設為停用。 [閱讀全文](../building-journeys/timezone-management.md#timezone-from-profiles)
 * **等待**&#x200B;活動的&#x200B;**固定日期**&#x200B;選項不再提供。 [閱讀全文](../building-journeys/wait-activity.md)
-* 已新增以下專案的詳細資訊： **增量讀取** 中的選項 **讀取對象** 活動。 [閱讀全文](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 已在&#x200B;**讀取對象**&#x200B;活動中新增&#x200B;**增量讀取**&#x200B;選項的詳細資訊。 [閱讀全文](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * 已新增建議至&#x200B;**個人資料上限**&#x200B;條件類型。 [閱讀全文](../building-journeys/condition-activity.md#profile_cap)
 * 新增業務事件的限制。 [閱讀全文](../start/guardrails.md#events-g)
 
@@ -142,7 +142,7 @@ ht-degree: 95%
 ## 2022 年 5 月 {#may-2022}
 
 * 有關 [!DNL Journey Optimizer] 2022 年 5 月發佈內容的新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
-* 新的相關查詢範例 [對象資格](../reports/query-examples.md#segment-qualification-queries) 和 [事件](../reports/query-examples.md#event-based-queries) 已新增。
+* 已新增與[對象資格](../reports/query-examples.md#segment-qualification-queries)和[事件](../reports/query-examples.md#event-based-queries)相關的新查詢範例。
 * 電子郵件設計部分現在提到了新的內建範本，可以用於開始撰寫內容。 已更新相關螢幕擷取畫面。[閱讀全文](../email/get-started-email-design.md)
 * Journey Optimizer 文件首頁更新了重要資源的連結。
 * 已更新登陸頁面和訂閱報告的螢幕擷取畫面。 [閱讀全文](../reports/live-report.md)
@@ -166,7 +166,7 @@ ht-degree: 95%
 
 * 有關所有 [!DNL Journey Optimizer]2022 年 3 月發行版本新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
 * 已在 AI 模型快速入門手冊的 **Offer Decisioning** 部分新增頁面，詳細說明了[自動最佳化模型](../offers/ranking/auto-optimization-model.md)、其所使用的演算法及其他技術細節。 [閱讀全文](../offers/ranking/ai-models.md)
-* 測試設定檔建立頁面已移至  **對象、設定檔和身分** 區段。 [閱讀全文](../audience/creating-test-profiles.md)
+* 測試設定檔建立頁面已移至&#x200B;**對象、設定檔及身分**&#x200B;的章節。 [閱讀全文](../audience/creating-test-profiles.md)
 * 在運算式編輯器中新增了如何加入運算式作為預設值的範例。[閱讀全文](../building-journeys/expression/field-references.md#default-value)
 * **建立個人化優惠**&#x200B;區段已重新整理，以提高可讀性。 [閱讀全文](../offers/offer-library/creating-personalized-offers.md)
 * 新的區段說明了變更優惠方案的開始和/或結束日期可能對此優惠方案的頻率上限產生的影響。 [閱讀全文](../offers/offer-library/add-constraints.md#capping-change-date)
@@ -232,7 +232,7 @@ ht-degree: 95%
 
 * 透過 Offer decisioning 應用程式服務，Adobe Experience Platform 使用者現在也能運用專屬區段中所述的所有決定管理功能。 [閱讀全文](../offers/get-started/starting-offer-decisioning.md)
 
-* 新增子區段，在套用限制以限制指定位置的優惠選擇時，釐清使用對象與決定規則之間的差異。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
+* 新增子區段，在套用限制以對指定位置限制優惠選擇時，釐清使用對象與決定規則之間的差異。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
 * 新增特定排名公式範例，以說明一些實際使用案例。 [閱讀全文](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
@@ -245,7 +245,7 @@ ht-degree: 95%
 * 使用最新 UI 更新電子郵件設計工具的螢幕擷取畫面。
 * 更新具有動態 URL 路徑和動態標題之自訂動作的設定程式。 [閱讀全文](../action/about-custom-action-configuration.md#url-configuration)
 * 新增協助工具功能和捷徑的相關區段。 [閱讀全文](../start/user-interface.md#accessibility)
-* 新增受眾評估方法的相關章節。 [閱讀全文](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
+* 新增對象評估方法的相關章節。 [閱讀全文](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
 * 在「隱藏」清單、「允許」清單和「電子郵件全域/即時」報告區段中新增附註，以指定從「電子郵件報告傳送」指標中排除狀態為「隱藏」和「不允許」設定檔。 [閱讀全文](../reports/global-report.md)
 * 新增區段，針對未列在允許清單病從傳送中排除的電子郵件地址或網域，說明如何加以擷取。 [閱讀全文](../configuration/allow-list.md#reporting)
 * 更新「啟用允許清單」區段。 [進一步了解](../configuration/allow-list.md#enable-allow-list)
@@ -269,7 +269,7 @@ ht-degree: 95%
 * 在鏡像頁面上新增子區段。 [閱讀全文](../email/message-tracking.md#mirror-page)
 * 在文件和畫面中，將「優惠方案活動」重新命名為「決定」，將「決定」重新命名為「決定範圍」。 [閱讀全文](../offers/get-started/starting-offer-decisioning.md)
 * 新使用案例： [透過協助工具功能個人化訊息](../personalization/personalization-use-case-helper-functions.md)
-* 更新「讀取對象」檔案，以反映具體化區段的影響。 [閱讀全文](../building-journeys/read-audience.md)
+* 更新讀取對象文件以反映具體化區段的影響。 [閱讀全文](../building-journeys/read-audience.md)
 * 更新歷程限制。 [閱讀全文](../start/guardrails.md)
 * 更新「在決定中設定優惠」區段。 [閱讀全文](../offers/offer-activities/configure-offer-selection.md)
 * 新增警告，提示目前不支援事件型優惠。 [閱讀全文](../offers/offer-library/creating-personalized-offers.md#eligibility)

@@ -11,7 +11,7 @@ exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 657bed1a3419fd536c5a80f3b9fc8d7c52ae1325
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 78%
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 78%
 
 >[!BEGINSHADEBOX]
 
-本檔案提供如何在Adobe Journey Optimizer中使用對象構成的詳細資訊。 如果您是即時客戶設定檔的專屬客戶，且不使用Adobe Journey Optimizer， [按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html).
+此文件提供如何在 Adobe Journey Optimizer 中使用對象構成的詳細資訊。 如果您是即時客戶設定檔的專屬客戶，且不使用Adobe Journey Optimizer， [按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant).
 
 >[!ENDSHADEBOX]
 
@@ -40,11 +40,11 @@ ht-degree: 78%
 >
 >Adobe Journey Optimizer 的行銷活動尚未與原則執行服務整合。 因此，您套用至對象屬性的任何資料使用標籤都不會在 Journey Optimizer 行銷活動中執行。
 
-可從Adobe Journey Optimizer存取對象構成 **[!UICONTROL 受眾]** 功能表：
+可從 Adobe Journey Optimizer **[!UICONTROL 對象]**&#x200B;選單存取對象構成：
 
 ![](assets/audiences-browse.png)
 
-* 此 **[!UICONTROL 概觀]** tab提供與貴組織的受眾資料相關之關鍵量度的專用儀表板。 若要深入了解，請參閱 [Adobe Experience Platform 儀表板指南](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=zh-Hant)。
+* 此&#x200B;**[!UICONTROL 概觀]**&#x200B;標籤提供與貴組織的對象資料相關的關鍵量度專用儀表板。 若要深入了解，請參閱 [Adobe Experience Platform 儀表板指南](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=zh-Hant)。
 
 * 此&#x200B;**[!UICONTROL 瀏覽]**&#x200B;索引標籤會列出儲存至 Adobe Experience Platform 的所有現有對象。
 

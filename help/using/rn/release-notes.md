@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ec71600fdc50e812e627f246e8a5bd2c5ad7e835
 workflow-type: tm+mt
 source-wordcount: '2695'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 90%
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
 
-## 2023年7月更新
+## 2023 年 7 月更新
 
 <table>
 <thead>
@@ -33,13 +33,13 @@ ht-degree: 90%
 <tbody>
 <tr>
 <td>
-<p>您現在可以建立構成工作流程，將現有Adobe Experience Platform對象合併到視覺畫布中，並利用各種活動（分割、擴充……）來建立新對象。 新建立的對象會與現有對象一起儲存回Adobe Experience Platform，並可在Journey Optimizer行銷活動中運用於鎖定客戶。</p>
+<p>您現在可以建立構成工作流程，將現有 Adobe Experience Platform 對象與視覺畫布結合，並利用各種活動 (分割、擴充...) 來建立新對象。 新建立的對象會與現有對象一起儲存回 Adobe Experience Platform，並可在 Journey Optimizer 行銷活動中運用，來鎖定目標客戶。</p>
 
 <img src="../audience/assets/audiences-publish.png"/>
 
 <p>如需詳細資訊，請參閱<a href="../audience/get-started-audience-orchestration.md">詳細文件</a>。</p>
 
-<p>對象構成已與新的Adobe Experience Platform「對象」功能表完全整合，該功能表可作為對象的一個集中入口網站。 您現在可以使用包含新儀表板（具有區段趨勢和重疊）的瀏覽頁面，來尋找新的深入分析，並探索用於摺疊和標籤的組織工具。 此體驗包含標準化對象標籤的治理控制項，以及管理啟用工作流程的對象生命週期管理功能。 有了這項全新的管理體驗，您現在可以輕鬆安全地從單一位置管理對象。 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html" target="_blank">Adobe Experience Platform檔案</a>.</p></p>
+<p>對象構成已與新的Adobe Experience Platform「對象」功能表完全整合，該功能表可作為對象的一個集中入口網站。 您現在可以使用包含新儀表板（具有區段趨勢和重疊）的瀏覽頁面，來尋找新的深入分析，並探索用於摺疊和標籤的組織工具。 此體驗包含標準化對象標籤的治理控制項，以及管理啟用工作流程的對象生命週期管理功能。 有了這項全新的管理體驗，您現在可以輕鬆安全地從單一位置管理對象。 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant" target="_blank">Adobe Experience Platform檔案</a>.</p></p>
 </td>
 </tr>
 </tbody>
@@ -184,7 +184,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>Personalized Optimization AI 排名模型現在通常可在決策管理中使用。 此新型別的模型可讓您根據對象和優惠方案效能來最佳化和個人化優惠方案。</p>
+<p>Personalized Optimization AI 排名模型現在通常可在決策管理中使用。 這種新類型的模型可讓您根據對象與優惠方案績效來將優惠最佳化和個人化。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細文件</a>。</p>
 </td>
@@ -390,7 +390,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * 已增強歷程畫布，提供更簡單且改善的使用者體驗。 在畫布的每個路徑結尾處，已移除空白預留位置。 您現在只需將活動拖曳到路徑結尾即可新增活動。
 * 在歷程畫布，**結束**&#x200B;標籤的標籤不再自動設定為先前活動的名稱。使用者可視需要手動新增自訂標籤。
 * 歷程屬性中的預設逾時和錯誤持續時間已從 5 秒變更為 30 秒。[了解更多](../configuration/external-systems.md#timeout)
-* 讀取對象活動中的預設節流率已從每秒20,000則訊息變更為每秒5,000則訊息。 [了解更多](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 讀取對象活動的預設節流率已從每秒 20,000 則訊息變更為每秒 5,000 則訊息。 [了解更多](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * 已將護欄新增至測試模式，以只監聽透過介面傳送的事件。透過外部工具傳送的事件不會納入考量。[進一步了解](../building-journeys/testing-the-journey.md)
 
 
@@ -521,9 +521,9 @@ Note that each widget can be resized and deleted as needed.
 
 **歷程**
 
-* 此&#x200B;**重新進入等待期**&#x200B;欄位已新增至歷程屬性。 此欄位可讓您定義允許設定檔在單一歷程中再次進入歷程之前的等待時間（從事件或對象資格開始）。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 [了解更多](../building-journeys/journey-gs.md#entrance)
+* 此&#x200B;**重新進入等待期**&#x200B;欄位已新增至歷程屬性。 此欄位可讓您定義在允許設定檔在單一歷程中再次進入歷程 (從事件或對象資格開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 [了解更多](../building-journeys/journey-gs.md#entrance)
 
-* 改進了&#x200B;**歷程開始與結束日期**。如果您尚未指定開始日期，則現在會在發佈時自動新增開始日期。對象 **讀取對象** 歷程，您現在可以新增結束日期。 這可讓設定檔在達到日期時自動退出。 [進一步了解](../building-journeys/journey-gs.md#dates)
+* 改進了&#x200B;**歷程開始與結束日期**。如果您尚未指定開始日期，則現在會在發佈時自動新增開始日期。針對&#x200B;**讀取對象**&#x200B;歷程，您現在可以新增結束日期。 這可讓設定檔在達到日期時自動退出。 [進一步了解](../building-journeys/journey-gs.md#dates)
 
 <!--
 
@@ -597,7 +597,7 @@ Note that each widget can be resized and deleted as needed.
 
 **歷程**
 
-* 新增 **對象資格** 或 **讀取對象** 在歷程中，現在預設會使用上次使用的名稱空間預先填入名稱空間。 請參閱 [對象資格](../building-journeys/audience-qualification-events.md#about-segment-qualification) 和 [讀取對象](../building-journeys/read-audience.md#configuring-segment-trigger-activity) 區段。
+* 在歷程中新增&#x200B;**對象資格**&#x200B;或&#x200B;**讀取對象**&#x200B;時，現已預設為使用上次使用的命名空間預先填入命名空間。 請參閱[對象資格](../building-journeys/audience-qualification-events.md#about-segment-qualification)與[讀取對象](../building-journeys/read-audience.md#configuring-segment-trigger-activity)小節。
 
 * 在歷程畫布中，工具列提供新按鈕，可讓您下載歷程的螢幕擷取畫面。
 

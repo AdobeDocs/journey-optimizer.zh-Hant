@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="行銷活動"
->abstract="建立行銷活動以跨不同管道向特定對象傳遞一次性內容。建立您的行銷活動之前，請確保您有準備好可供使用的管道表面 (即訊息預設集) 和 Adobe Experience Platform 對象。"
+>abstract="建立行銷活動以跨不同管道向特定對象提供一次性內容。建立行銷活動之前，請務必備妥管道表面 (即訊息預設集) 和 Adobe Experience Platform 對象以供使用。"
 
-使用Journey Optimizer行銷活動，透過各種管道將一次性內容傳送給特定對象。 當使用歷程時，動作會依序執行。 透過行銷活動，可同時執行動作 (立即執行或根據指定的排程執行)。
+使用 Journey Optimizer 行銷活動，透過各種頻道將一次性內容傳遞至特定對象。 當使用歷程時，動作會依序執行。 透過行銷活動，可同時執行動作 (立即執行或根據指定的排程執行)。
 
 您可建立兩種類型的行銷活動：
 
@@ -66,7 +66,7 @@ ht-degree: 92%
 
 +++
 
-1. **您需要對象**。建立行銷活動前，必須有可用的對象。 深入瞭解對象 [在此頁面中](../audience/about-audiences.md).
+1. **您需要對象**。建立行銷活動之前必須有可用的對象。 [在此頁面中](../audience/about-audiences.md)了解更多有關對象的資訊。
 1. **需要管道表面**。若要選取管道，您必須建立相對應的管道表面 (即預設)，使其可供使用。[在本頁](../configuration/channel-surfaces.md)深入了解管道表面。
 
 ## 操作說明影片 {#video}
