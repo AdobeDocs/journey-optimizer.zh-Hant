@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 0e0c293b31e3b74b57b12e0ae06f6ea9eb4d0dc1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1283'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 98%
 
 從此區段管理對象與設定檔資料。
 
-* **[!UICONTROL 受眾]**  — 建立和管理Experience Platform對象，並將其用於您的歷程。 [了解更多](../audience/about-audiences.md)
+* **[!UICONTROL 對象]** - 建立和管理 Experience Platform 對象，並將其用於歷程之中。 [了解更多](../audience/about-audiences.md)
 
 * **[!UICONTROL 訂閱清單]** - 在 [!DNL Journey Optimizer] 中，選擇加入訂閱服務的客戶均會收集到訂閱清單中。 [了解更多](../landing-pages/subscription-list.md)
 
