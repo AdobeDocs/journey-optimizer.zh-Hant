@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1039'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
@@ -67,11 +67,11 @@ ht-degree: 42%
 >
 >[!DNL Journey Optimizer]發起管道中使用的決定範圍符合其所屬歷程或行銷活動的這項要求。
 
-1. 建立 [Adobe Experience Platform對象](../audience/access-audiences.md) 使用 [細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"} 並使用設定檔屬性，例如 **[!UICONTROL 個人化內容=是（選擇加入）]** 將目標鎖定在同意個人化的使用者。
+1. 建立 [Adobe Experience Platform 對象](../audience/access-audiences.md)，使用[細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}並使用設定檔屬性，例如&#x200B;**[!UICONTROL 個人化內容 = 是 (選擇加入)]**，以同意個人化的使用者為目標。
 
    ![](assets/perso-consent-od-audience.png)
 
-1. 建立時 [決定](../offers/offer-activities/create-offer-activities.md)，新增決定範圍，並根據此對象為包含個人化優惠的每個評估條件集合定義資格限制。
+1. 建立[決定](../offers/offer-activities/create-offer-activities.md)時，新增決定範圍，並根據此對象為包含個人化優惠的每個評估條件集合定義適用性限制。
 
    ![](assets/perso-consent-od-audience-decision.png)
 
@@ -97,24 +97,24 @@ ht-degree: 42%
 
 <!--Expressions Editor while personalizing images, text, subject line  ( Segment in Campaigns) - UI and Headless -->
 
-此 [運算式編輯器](../personalization/personalization-build-expressions.md) 本身不會執行任何同意檢查或強制執行，因為它並未涉及訊息的傳遞。
+[運算式編輯器](../personalization/personalization-build-expressions.md)本身不涉及傳送訊息，因此不會執行任何同意檢查或強制執行。 
 
-不過，使用以許可權為基礎的存取控制標籤可限制哪些欄位可用於個人化。 此 [訊息預覽](../email/preview.md#preview-email) 和 [電子郵件呈現服務](../email/preview.md#email-rendering) 會遮罩以敏感資訊識別的欄位。
+不過，使用以權限為基礎的存取控制標籤可限制哪些欄位能用於個人化。 此[訊息預覽](../email/preview.md#preview-email)和[電子郵件轉譯服務](../email/preview.md#email-rendering)會遮蔽以敏感資訊識別的欄位。
 
 >[!NOTE]
 >
->進一步瞭解中的物件層級存取控制(OLAC) [本節](../administration/object-based-access.md).
+>在[本節](../administration/object-based-access.md)中了解更多物件層級存取控制 (OLAC)。
 
 
-在 [!DNL Journey Optimizer] 行銷活動時，會依照以下方式執行同意原則：
+在 [!DNL Journey Optimizer] 行銷活動中，依照下列方式強制執行同意原則：
 
-* 您可以在建立對象時加入同意原則定義，以確保為行銷活動選取的對象已包含 **篩選出不符合約意條件的設定檔**.
+* 您可以在對象建立過程中加入同意原則定義，以確保為行銷活動選取的對象已&#x200B;**篩選掉不符合同意條件的設定檔**。 
 
-* [!DNL Journey Optimizer] 將在通道層級執行一般同意檢查，以 **確保設定檔已選擇加入** 以接收對應頻道上的行銷通訊。
+* [!DNL Journey Optimizer] 將在頻道層級執行一般同意檢查，**確保設定檔已選擇**&#x200B;接收對應頻道上的行銷通訊。
 
   >[!NOTE]
   >
-  >此 [!DNL Journey Optimizer] campaign物件本身目前不會執行任何其他同意原則執行檢查。
+  >[!DNL Journey Optimizer] 行銷活動物件本身目前不會執行任何其他同意原則執行檢查。
 
 若要在行銷活動中手動強制執行個人化同意，請遵循下列其中一個選項。
 
@@ -122,58 +122,58 @@ ht-degree: 42%
 
 您可以使用區段規則產生器，建立包含選擇退出設定檔的對象。
 
-1. 建立 [Adobe Experience Platform對象](../audience/access-audiences.md) 使用 [細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
+1. 使用[細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}建立 [Adobe Experience Platform 對象](../audience/access-audiences.md)。
 
    ![](assets/perso-consent-audience-build-rule.png)
 
-1. 選取設定檔屬性，例如 **[!UICONTROL 個人化內容=否（選擇退出）]** 排除未同意個人化的使用者。
+1. 選取設定檔屬性，例如&#x200B;**[!UICONTROL 個人化內容 = 否 (選擇退出)]**，排除未同意個人化的使用者。
 
    ![](assets/perso-consent-audience-no.png)
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-您現在可以使用此對象，從行銷活動中篩選出未同意個人化的設定檔。
+您現在可以使用此對象，從行銷活動中篩選掉未同意個人化的設定檔。
 
 ### 在構成工作流程中使用分割活動
 
-您也可以將分割活動新增至構成工作流程，以新增個人化同意檢查至對象。
+您也可以將分割活動新增至構成工作流程，以將個人化同意檢查新增至對象。
 
-1. 使用建立受眾 **[!UICONTROL 組成對象]** 選項。 [深入瞭解如何建立構成工作流程](../audience/create-compositions.md)
+1. 使用&#x200B;**[!UICONTROL 撰寫對象]**&#x200B;選項建立對象。 [了解更多如何建立構成工作流程的相關資訊](../audience/create-compositions.md)
 
    ![](assets/perso-consent-audience-compose.png)
 
-1. 使用右側的專用按鈕新增您的開始對象。
+1. 使用右側的專用按鈕新增起始對象。
 
-1. 按一下+圖示並選取 **[!UICONTROL Split]** 以建立分割對象。 [進一步瞭解分割活動](../audience/composition-canvas.md#split)
+1. 按一下 + 圖示，然後選取&#x200B;**[!UICONTROL 分割]**&#x200B;以建立分割對象。 [了解更多分割活動的相關資訊](../audience/composition-canvas.md#split)
 
    ![](assets/perso-consent-audience-split.png)
 
-1. 選取 **[!UICONTROL 屬性分割]** 作為右窗格中的分割型別。
+1. 在右窗格中選取&#x200B;**[!UICONTROL 屬性分割]**&#x200B;作為分割類型。
 
    ![](assets/perso-consent-audience-attribute-split.png)
 
-1. 按一下旁邊的鉛筆圖示 **[!UICONTROL 屬性]** 開啟「 」的欄位 **[!UICONTROL 選取設定檔屬性]** 視窗。
+1. 按一下&#x200B;**[!UICONTROL 屬性]**&#x200B;欄位旁邊的鉛筆圖示，以開啟&#x200B;**[!UICONTROL 選取設定檔屬性]**&#x200B;視窗。
 
-1. 搜尋個人化同意屬性(`profile.consents.personalize.content.val`)並選取它。
+1. 搜尋個人化同意屬性 (`profile.consents.personalize.content.val`) 並加以選取。
 
    ![](assets/perso-consent-audience-consent-attribute.png)
 
-1. **[!UICONTROL 路徑1]** 將會是非個人化的對象。 選擇相關標籤。
+1. **[!UICONTROL 路徑 1]** 將會是非個人化的對象。 選擇相關標籤。
 
-1. 從這裡選擇適當的值 [清單](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}.
+1. 從此[清單](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}中選擇適當的值。
 
    在此情況下，我們將使用 `n` 表示使用者不同意將其資料用於個人化。
 
    ![](assets/perso-consent-audience-path-1-n.png)
 
-1. 您可以為其他選擇值建立個別路徑。 您也可以選擇刪除其餘路徑並開啟 **[!UICONTROL 其他設定檔]** 以包含沒有選項值的所有其他設定檔 `n`.
+1. 您可以為其他選擇值建立個別路徑。 您也可以選擇刪除其餘路徑，然後開啟&#x200B;**[!UICONTROL 其他設定檔]**&#x200B;以包含沒有 `n` 選擇值的所有其他設定檔。
 
-1. 完成後，按一下 **[!UICONTROL 儲存對象]** 將工作流程的結果儲存至新對象的每個路徑。 每個路徑會儲存一個對象至Adobe Experience Platform。
+1. 完成後，請對每個路徑按一下&#x200B;**[!UICONTROL 儲存對象]**，以將工作流程的結果儲存至新對象。 每個路徑都會將一個對象儲存至 Adobe Experience Platform。
 
 1. 完成後，發佈構成工作流程。
 
-您現在可以使用此對象，從行銷活動中篩選出未同意個人化的設定檔。
+您現在可以使用此對象，從行銷活動中篩選掉未同意個人化的設定檔。
 
 >[!NOTE]
 >
->如果您建立的對象未同意個人化，然後在行銷活動中選取此對象，則個人化工具仍可使用。 您的行銷使用者必須瞭解，如果他們正與不應接收個人化的對象合作，則他們不應使用個人化工具。
+>如果您建立的對象未同意個人化，然後您在行銷活動中選取此對象，則個人化工具將仍然可用。 行銷使用者可自行了解，如果他們正與不應接收個人化的對象合作，則他們不應使用個人化工具。
