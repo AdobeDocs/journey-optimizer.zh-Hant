@@ -5,9 +5,9 @@ title: 2022 年發行說明
 description: Journey Optimizer 2022 年發行說明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3575'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 91%
 
 **歷程**
 
-* 此 **在重複時強制重新進入** 選項已新增至循環讀取對象排程引數。 此選項可讓您讓歷程中仍存在的所有設定檔在下次執行時自動退出。 停用選項時，設定檔必須先完成歷程，才能在另一個發生次數中重新輸入。 [進一步了解](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 已在定期讀取對象排程參數中新增&#x200B;**在重複時強制重新進入**&#x200B;選項。 此選項可讓您讓歷程中仍存在的所有設定檔在下次執行時自動退出。 停用選項時，設定檔必須先完成歷程，才能在另一個發生次數中重新輸入。 [進一步了解](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **管理**
 
@@ -176,7 +176,7 @@ ht-degree: 91%
 <tbody>
 <tr>
 <td>
-<p>身為 Journey Optimizer 使用者，您現在可以透過使用者介面存取系統警報，以在歷程未如預期運作時收到通知。 您可以檢視可用警報並訂閱警報。 如果「讀取對象」活動在定義的時間範圍內未處理任何設定檔，則此版本提供的第一個警報將警告您。 此工作流程已解除鎖定，將提供更多資訊。</p>
+<p>身為 Journey Optimizer 使用者，您現在可以透過使用者介面存取系統警報，以在歷程未如預期運作時收到通知。 您可以檢視可用警報並訂閱警報。 如果「讀取對象」活動在定義的時間段內未處理任何設定檔，則此版本提供的第一個警報將會警告您。 此工作流程已解除鎖定，將提供更多資訊。</p>
 <!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -207,7 +207,7 @@ ht-degree: 91%
 **歷程**
 
 * 此 **實體資料集** 現在可作為 Adobe Journey Optimizer 中的現成可用資料集。 此查詢資料集包含中繼資料，讓追蹤和意見回饋資料集資訊更為豐富。 這可協助您使用更易理解的資料，改善報告和查詢。 [了解更多](../data/datasets-query-examples.md#entity-dataset)
-* 已將新護欄新增至單一歷程（從事件或對象資格開始），以防止同一事件多次錯誤觸發歷程。 設定檔重新進入現在會依預設暫時封鎖 5 分鐘。 [進一步了解](../start/guardrails.md#events-g)
+* 已將新護欄新增至單一歷程 (從事件或對象資格開始)，以防止同一事件多次錯誤觸發歷程。 設定檔重新進入現在會依預設暫時封鎖 5 分鐘。 [進一步了解](../start/guardrails.md#events-g)
 
 **管理**
 
@@ -235,8 +235,8 @@ ht-degree: 91%
 ### 其他變更{#sept-2022-other}
 
 * 「行銷活動快速傳送」模式已取代「歷程突發模式」。 [了解更多](../push/create-push.md#rapid-delivery)
-* 為了改善效能，體驗事件欄位群組無法再用於以讀取對象、對象資格或業務事件活動開始的歷程。 此變更僅適用於新歷程。 現有行為會保留目前的行為。 [了解更多](../start/guardrails.md#expression-editor)
-* 已移除已排程讀取對象歷程的1小時限制。 這些歷程現在可立即執行。
+* 為了改善效能，從讀取對象、對象資格或業務事件活動開始的歷程中，無法再使用體驗事件欄位群組。 此變更僅適用於新歷程。 現有行為會保留目前的行為。 [了解更多](../start/guardrails.md#expression-editor)
+* 排程的讀取對象歷程以 1 小時為限的限制已經移除。 這些歷程現在可立即執行。
 
 
 
@@ -254,7 +254,7 @@ ht-degree: 91%
 <tbody>
 <tr>
 <td>
-<p>使用Journey Optimizer行銷活動，透過各種管道將一次性內容傳送給特定對象。 使用歷程時，會設計為依照序列執行動作。 透過行銷活動，可同時執行動作 (立即執行或根據指定的排程執行)。 </p>
+<p>使用 Journey Optimizer 行銷活動，透過各種頻道將一次性內容傳遞至特定對象。 使用歷程時，會設計為依照序列執行動作。 透過行銷活動，可同時執行動作 (立即執行或根據指定的排程執行)。 </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
 <p>在 <a href="../campaigns/get-started-with-campaigns.md">詳細文件</a> 及 <a href="https://video.tv.adobe.com/v/346680">功能影片</a> 中了解如何建立行銷活動。
 </td>
@@ -374,7 +374,7 @@ ht-degree: 91%
 <tbody>
 <tr>
 <td>
-<p>現在，您可以在決策管理中使用個人化最佳化模型系統。 此新型別的模型可讓您根據對象和優惠方案效能來最佳化和個人化優惠方案。</p>
+<p>現在，您可以在決策管理中使用個人化最佳化模型系統。 這種新類型的模型可讓您根據對象與優惠方案績效來將優惠最佳化和個人化。</p>
 <p>個人化最佳化 AI 模型的使用目前僅限於選定使用者，將在未來的版本中同步到所有環境。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細文件</a>。</p>
@@ -408,7 +408,7 @@ ht-degree: 91%
 
 **決定管理**
 
-* **對象人數**  — 現在，在建立決定規則、選擇對象或規則以設定優惠方案適用性或將對象或規則新增到決定範圍時，使用者介面中會顯示新的對象人數預估元件。
+* **對象規模** - 當建立決定規則、選擇對象或規則以設定優惠方案適用性或將對象或規則新增至決定範圍時，新的對象規模預估元件現在會顯示在使用者介面中。
 
 
 ## 2022 年 6 月發行版本 {#june-2022-release}
@@ -615,7 +615,7 @@ ht-degree: 91%
 
 **歷程**
 
-* **讀取對象**  — 一次性讀取對象歷程現在在歷程執行30天後移至「已完成」狀態。 對於已排程的讀取閱聽眾，是在上次執行後的30天。 [了解更多](../building-journeys/read-audience.md)
+* **讀取對象** - 現在，一次性讀取對象歷程會在歷程執行 30 天後移至「已完成」狀態。 對於排程的讀取對象，是在上次執行該事件後的 30 天。 [了解更多](../building-journeys/read-audience.md)
 * **運算式編輯器** - 已新增[限制](../building-journeys/functions/functionlimit.md)函式，以允許您限制清單項目的數目。 [排序](../building-journeys/functions/functionsort.md)函式現在允許您對清單物件進行排序。 對清單物件的支援也已新增到 [distinct](../building-journeys/functions/functiondistinct.md) 和 [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 的函式。
 
 **管理**
@@ -673,7 +673,7 @@ ht-degree: 91%
 **決定管理**
 
 * 現在您可以指定在所有使用者或單個特定設定檔中套用優惠上限設定，以及指定在個別或所有投放位置上套用。[了解更多](../offers/offer-library/add-constraints.md#capping)
-* 批次決策API允許組織在一次呼叫中對給定對象中的所有設定檔使用決策管理功能。 對象中每個設定檔的選件內容都會放在AEP資料集中，可用於自訂批次工作流程。 [進一步了解](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* 批次決策 API 允許組織在一次呼叫中，對指定對象中的所有設定檔使用決策管理功能。 對象中每個設定檔的優惠內容都放在 AEP 資料集，其可用於自訂批次處理工作流程。 [進一步了解](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **管理**
 
@@ -800,13 +800,13 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <table>
 <thead>
 <tr>
-<th><strong>歷程 — 讀取對象改善</strong><br/></th>
+<th><strong>歷程 - 讀取對象改善</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>此 <strong>增量讀取</strong> 選項已新增至週期性 <strong>讀取對象</strong> 活動。 此選項允許您僅將目標設定為自上次執行歷程以來進入對象的個人。 第一次執行一律會鎖定所有對象成員。</p>
+<p><strong>增量讀取</strong>選項已新增至定期<strong>讀取對象</strong>活動。 此選項允許您僅將目標定位在自上次執行歷程以來進入對象的個人。 第一次執行總是會將目標定位在所有對象成員。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">詳細文件</a>。
 </td>
 </tr>
