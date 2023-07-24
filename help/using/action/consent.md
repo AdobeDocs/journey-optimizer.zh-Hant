@@ -10,9 +10,9 @@ level: Experienced
 keywords: 原則、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '917'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Experience Platform 可讓您輕鬆採用及強制執行行銷政策，以
 * 不支援使用現成可用聯集結構的欄位群組所屬的屬性。 這些屬性將從介面中隱藏。 您需要使用不同方案建立其他欄位群組。
 * 僅在自訂動作層級設定行銷動作 (必要或其他) 時，才適用同意原則。
 
-歷程使用的所有其他活動都不會納入考量。 如果您以對象資格開始您的歷程，則不會考慮對象。
+歷程使用的所有其他活動都不會納入考量。 如果您以對象資格開始歷程，則不會將對象納入考量。
 
 在歷程中，如果自訂動作的同意原則排除設定檔，則不會傳送訊息給他，但他會繼續歷程。 當使用條件時，設定檔不會前往逾時與錯誤路徑。
 
