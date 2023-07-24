@@ -9,15 +9,15 @@ role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # 快速入門 {#cjm-quick-start}
 
-替換為 [!DNL Adobe Journey Optimizer]，您可以匯入現有訊息內容或設計新內容、使用客戶設定檔資料個人化訊息、建立事件以觸發訊息、定義對象、建立並新增優惠，以及存取一套完整的報告與監控工具來評估訊息和客戶歷程的影響。
+藉助 [!DNL Adobe Journey Optimizer]，您可以匯入現有訊息內容或設計新內容、使用客戶設定檔資料個人化訊息、建立事件以觸發訊息、定義對象、建立並新增優惠方案，以及存取一套完整的報告與監控工具來評估訊息造成的影響以及客戶歷程。
 
 您可以根據您的組織定義數種使用者類型，並依其權限授予他們特定功能的存取權。
 
