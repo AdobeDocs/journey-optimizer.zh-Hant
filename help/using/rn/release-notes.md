@@ -4,9 +4,9 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fa9b76803c286bb14925839e820fae1bab19e58
+source-git-commit: 380d07067a999de439ebf5a4198a203c1aa6b1d8
 workflow-type: tm+mt
-source-wordcount: '3126'
+source-wordcount: '3125'
 ht-degree: 85%
 
 ---
@@ -130,28 +130,26 @@ ht-degree: 85%
 **歷程**
 
 <!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
-* 已引入新型別的系統警示。 您現在可以在自訂動作失敗時收到通知。
+已引入新型別的系統警示。 您現在可以在自訂動作失敗時收到通知。
 
 
 **行銷活動**
 
-* 與行銷活動相關的內容事件現在可用於個人化編輯器「內容屬性」選單。
+與行銷活動相關的內容事件現在可用於個人化編輯器「內容屬性」選單。
 
 
 **對象**
 
-已針對歷程或行銷活動中的對象選擇器進行增強功能，新增欄顯示對象的原始和更新頻率。
-
-隨著對象構成入口網站的發行，Adobe Experience Platform和Adobe Journey Optimizer已更新系統和檔案內「對象」和「區段」的使用方式。
+已針對歷程或行銷活動中的對象選擇器進行增強功能，新增欄顯示對象的原始和更新頻率。 隨著對象構成入口網站的發行，Adobe Experience Platform和Adobe Journey Optimizer已更新系統和檔案內「對象」和「區段」的使用方式。
 
 * 對象：一組具有共同特徵和行為的人員、帳戶、家庭或其他實體。
 * 區段定義：在 Adobe Experience Platform 中，用來描述目標對象之關鍵特性或行為的規則。 此辭彙先前稱為「區段」。
 
-因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，您會看到「區段」被「對象」取代，以反映建立和管理對象的新路徑。
+因此，在Adobe Journey Optimizer和Adobe Experience Platform UI中，「區段」會取代為「對象」，以反映建立和管理對象的新路徑。
 
 **API**
 
-Adobe Journey Optimizer API驗證 — 不建議使用產生存取權杖的JWT方法。 所有新的整合都必須使用OAuth伺服器對伺服器驗證方法來建立。 Adobe也建議您將現有的整合移轉至OAuth方法。 [了解更多](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)
+已棄用為Adobe Journey Optimizer APIsauthentication產生存取權杖的JWT方法。 所有新的整合都必須使用OAuth伺服器對伺服器驗證方法來建立。 Adobe也建議您將現有的整合移轉至OAuth方法。 [了解更多](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
 
 
 **其他變更**
