@@ -5,10 +5,10 @@ title: 發行說明
 description: Journey Optimizer早期發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: c75664f9b4d58fff1b073c385bcb839e9c11c8ec
+source-git-commit: e384991599c19f72910f299350c0839fa16b4588
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 19%
+source-wordcount: '639'
+ht-degree: 27%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 19%
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每個月的最後一週合併 [發行說明](release-notes.md).
 
 以下早期發行說明在發行日期之前可能會有所變更，恕不另行通知。 連結、畫面和更新後的檔案會發佈在 [發行說明](release-notes.md)，於發行日期。
-
 
 ## 2023年7月早期發行說明 {#july-rn-2023}
 
@@ -30,55 +29,37 @@ ht-degree: 19%
 <table>
 <thead>
 <tr>
-<th><strong>內容範本API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以使用專用的API來建立和管理Adobe Journey Optimizer內容範本，提供與現有內容系統的緊密整合。</p>
-<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
 <th><strong>對象構成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以建立構成工作流程，將現有Adobe Experience Platform對象合併到視覺畫布中，並利用各種活動（分割、擴充……）來建立新對象。 新建立的對象會與現有對象一起儲存回Adobe Experience Platform，並可在Journey Optimizer行銷活動中運用於鎖定客戶。</p>
+<p>您現在可以建立構成工作流程，將現有 Adobe Experience Platform 對象與視覺畫布結合，並利用各種活動 (分割、擴充...) 來建立新對象。 新建立的對象會與現有對象一起儲存回 Adobe Experience Platform，並可在 Journey Optimizer 行銷活動中運用，來鎖定目標客戶。</p>
 <img src="../audience/assets/audiences-publish.png"/>
 <p>如需詳細資訊，請參閱<a href="../audience/get-started-audience-orchestration.md">詳細文件</a>。</p>
-<p>對象構成已與新的Adobe Experience Platform「對象」功能表完全整合，該功能表可作為對象的一個集中入口網站。 您現在可以使用包含新儀表板（具有區段趨勢和重疊）的瀏覽頁面，來尋找新的深入分析，並探索用於摺疊和標籤的組織工具。 此體驗包含標準化對象標籤的治理控制項，以及管理啟用工作流程的對象生命週期管理功能。 有了這項全新的管理體驗，您現在可以輕鬆安全地從單一位置管理對象。 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html" target="_blank">Adobe Experience Platform檔案</a>.</p></p>
+<p>對象構成已與新的Adobe Experience Platform「對象」功能表完全整合，該功能表可作為對象的一個集中入口網站。 您現在可以使用包含新儀表板（具有區段趨勢和重疊）的瀏覽頁面，來尋找新的深入分析，並探索用於摺疊和標籤的組織工具。 此體驗包含標準化對象標籤的治理控制項，以及管理啟用工作流程的對象生命週期管理功能。 有了這項全新的管理體驗，您現在可以輕鬆安全地從單一位置管理對象。 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant" target="_blank">Adobe Experience Platform檔案</a>.</p></p>
 </td>
 </tr>
 </tbody>
 </table>
 
-
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>直接郵件頻道</strong><br/></th>
+<th><strong>Direct mail channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在行銷活動中新增直接郵件訊息。 直接郵件是離線頻道，可讓您個人化並產生直接郵件供應商傳送郵件給客戶所需的檔案。</p>
-<p>當您準備直接郵件傳送時，Journey Optimizer會產生一個檔案，其中包含所有目標設定檔和所選的聯絡資訊（例如郵寄地址）。 然後，您就可以將此檔案傳送給直接郵件提供者，由他們負責實際傳送。</p>
+<p>You can now add direct mail messages in your campaigns. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
 <img src="../direct-mail/assets/direct-mail-properties.png">
-<p>如需詳細資訊，請參閱<a href="../direct-mail/create-direct-mail.md">詳細文件</a>。</p>
+<p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -110,6 +91,23 @@ ht-degree: 19%
 <p>除了行銷活動和歷程之外，您現在還可以指派Adobe Experience Platform統一標籤至您的登入頁面、內容範本、片段和訂閱清單。 這可讓您輕鬆分類，並改善所有清單中的搜尋和導覽。 </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>如需詳細資訊，請參閱<a href="../start/search-filter-categorize.md#tags">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>內容範本API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以使用專用的API來建立和管理Adobe Journey Optimizer內容範本，提供與現有內容系統的緊密整合。</p>
+<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
@@ -149,8 +147,8 @@ Adobe Journey Optimizer API驗證 — 不建議使用產生存取權杖的JWT方
 
 **其他變更**
 
-所有客戶現在都能將Journey Optimizer資料集匯出至雲端儲存空間目的地。 此功能可讓您建立與雲端儲存位置的即時連線，以匯出資料集的內容。 [了解更多](../data/export-datasets.md)
+現在，所有客戶都可將Journey Optimizer資料集匯出至雲端儲存空間目標，作為公開測試版使用。 此功能可讓您建立與雲端儲存位置的即時連線，以匯出資料集的內容。 [了解更多](../data/export-datasets.md)
 
->[!AVAILABILITY]
->
->此功能目前為測試版，可能會有變動。</p>
+
+
+
