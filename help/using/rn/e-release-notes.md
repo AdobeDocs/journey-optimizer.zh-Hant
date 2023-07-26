@@ -5,9 +5,9 @@ title: 發行說明
 description: Journey Optimizer早期發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: c58a238bf722eeb18864f145aadc85843a132212
+source-git-commit: df5f5b82d6463973ba7fb19713eb1dc49c00d9db
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '638'
 ht-degree: 27%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 27%
 <tr>
 <td>
 <p>您現在可以建立構成工作流程，將現有 Adobe Experience Platform 對象與視覺畫布結合，並利用各種活動 (分割、擴充...) 來建立新對象。 新建立的對象會與現有對象一起儲存回 Adobe Experience Platform，並可在 Journey Optimizer 行銷活動中運用，來鎖定目標客戶。</p>
-<img src="../audience/assets/gif-ao.gif"/>
+<img src="assets/do-not-localize/gif-ao.gif"/>
 <p>如需詳細資訊，請參閱<a href="../audience/get-started-audience-orchestration.md">詳細文件</a>。</p>
 <p>對象構成與新的Adobe Experience Platform「對象」功能表完全整合，可作為對象集中入口網站。 您現在可以使用包含新儀表板（具有區段趨勢和重疊）的瀏覽頁面，來尋找新的深入分析，並探索用於摺疊和標籤的組織工具。 此體驗包含標準化對象標籤的治理控制項，以及管理啟用工作流程的對象生命週期管理功能。 有了這項全新的管理體驗，您現在可以輕鬆安全地從單一位置管理對象。 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant" target="_blank">Adobe Experience Platform檔案</a>.</p></p>
 </td>
@@ -118,11 +118,12 @@ ht-degree: 27%
 
 此版本隨附下列改善專案。
 
-**歷程**
+<!--
+**Journeys**
 
-<!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
 * 已引入新型別的系統警示。 您現在可以在自訂動作失敗時收到通知。
-
+—>
 
 **行銷活動**
 
