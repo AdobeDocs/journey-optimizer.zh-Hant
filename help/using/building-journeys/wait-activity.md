@@ -7,12 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 等待，活動，歷程，下一個，畫布
+keywords: 等待，活動，歷程，下一步，畫布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '471'
+ht-degree: 18%
 
 ---
 
@@ -35,9 +35,13 @@ ht-degree: 0%
 
 ## 關於等待活動{#about_wait}
 
-最長等待時間為30天。 在測試模式中， **[!UICONTROL 測試中的等待時間]** 引數可讓您定義每個等待活動的持續時間。 預設時間為 10 秒。這可確保您快速獲得測試結果。 另請參閱 [此頁面](../building-journeys/testing-the-journey.md)
+最長等待時間為30天。 在測試模式中， **[!UICONTROL 測試等待時間]** 引數可讓您定義每個等待活動的持續時間。 預設時間為 10 秒。這將確保您能快速獲得測試結果。 請參閱[此頁面](../building-journeys/testing-the-journey.md)。
 
-在歷程中使用多個等待活動時請小心，因為全域歷程逾時為30天，這表示設定檔在進入歷程後，將一律退出歷程最多30天。
+在歷程中使用多個等待活動時請小心，因為全域歷程逾時為30天，這表示設定檔在進入歷程後，將一律退出歷程的最長30天。 請參閱[此頁面](../building-journeys/journey-gs.md#global_timeout)。
+
+個人只有在歷程剩餘的時間夠在30天歷程逾時前的等待期間完成時，才能進入等待活動。 例如，如果您新增兩個分別設為20天的等待活動，系統會偵測第二個等待將在30天逾時後結束。 因此，第二個等待將被忽略，個人將在開始歷程之前退出歷程。 在該範例中，客戶在歷程中總共將保留20天。
+
+最佳實務是不使用等待來封鎖重新進入。 請改用 **允許重新進入** 歷程屬性層級的選項。 請參閱[此頁面](../building-journeys/journey-gs.md#entrance)。
 
 ## 持續時間等待{#duration}
 
@@ -60,13 +64,13 @@ Select the date for the execution of the next activity.
 
 >[!NOTE]
 >
->您可以運用dateTimeOnly運算式，或使用函式轉換為dateTimeOnly。 例如： toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位格式為2016-08-12T09:46:06Z。
+>您可以利用dateTimeOnly運算式或使用函式來轉換為dateTimeOnly。 例如： toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位格式為2016-08-12T09:46:06Z
 >
->此 **時區** 應在您歷程的屬性中找到。 因此，目前無法從介面直接指向完整的ISO-8601時間戳記，混合時間和時區位移，例如2016-08-12T09:46:06.982-05。 請參閱[此頁面](../building-journeys/timezone-management.md)。
+>此 **時區** 應在您歷程的屬性中找到。 因此，現今無法從介面直接指向完整的ISO-8601時間戳記混合時間和時區位移，例如2016-08-12T09:46:06.982-05。 請參閱[此頁面](../building-journeys/timezone-management.md)。
 
 ![](assets/journey57.png)
 
-若要驗證等待活動是否如預期般運作，您可以使用步驟事件。 請參閱[此頁面](../reports/query-examples.md#common-queries)。
+若要驗證等待活動是否如預期運作，您可以使用步驟事件。 請參閱[此頁面](../reports/query-examples.md#common-queries)。
 
 <!--## Email send time optimization{#email_send_time_optimization}
 
@@ -88,4 +92,4 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
 
 ![](assets/journey57bis.png)-->
 
-
+請您圍繞此草稿內容嗎？

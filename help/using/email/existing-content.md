@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 電子郵件，匯入，內容， html， zip， css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 52%
+source-wordcount: '228'
+ht-degree: 33%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 52%
 
 [!DNL Journey Optimizer] 可讓您匯入現有的HTML內容，以設計您的電子郵件。 此內容可以是：
 
-* 一個 **HTML檔案** 含內建樣式表；
+* 一個 **HTML檔案** 合併樣式表；
 * A **.zip資料夾** 包括HTML檔案、樣式表(.css)和影像。
 
-   >[!NOTE]
-   >
-   >.zip 檔案結構沒有限制。不過，參照必須是相對參照，而且符合.zip資料夾的樹狀結構。
+  >[!NOTE]
+  >
+  >.zip 檔案結構沒有限制。不過，參照必須是相對參照，而且符合.zip資料夾的樹狀結構。
 
 若要匯入包含 HTML 內容的檔案，請依照以下步驟操作：
 
@@ -33,11 +33,23 @@ ht-degree: 52%
 
    ![](assets/import-html_2.png)
 
-1. 拖放包含您HTML內容的HTML或.zip檔案。
+1. 拖放包含 HTML 內容的 HTML 或 .zip 檔案，然後按一下「**[!UICONTROL 匯入]**」。
 
-1. 上傳 HTML 內容後，您可以利用電子郵件設計工具功能來編輯和預覽您的電子郵件。[了解更多](content-from-scratch.md)
+   ![](assets/html-imported_2.png)
+
+1. 上傳HTML內容後，您的內容將會進入 **[!UICONTROL 相容性模式]**.
+
+   在此模式中，您只能個人化您的文字、新增連結或包含資產至您的內容。
+
+1. 若要善用電子郵件設計工具內容元件，請存取 **[!UICONTROL HTML轉換工具]** 標籤並按一下 **[!UICONTROL 轉換]**.
 
    ![](assets/html-imported.png)
+
+   >[!NOTE]
+   >
+   > 使用 `<table>` 標籤作為HTML檔案中的第一個圖層可能會造成樣式遺失，包括頂層圖層標籤中的背景和寬度設定。
+
+1. 您現在可以根據需要使用電子郵件設計工具功能個人化匯入的檔案 [瞭解更多](content-from-scratch.md).
 
 ## 操作說明影片 {#video}
 

@@ -9,22 +9,22 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面，建立，發佈
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 26%
+source-wordcount: '1604'
+ht-degree: 27%
 
 ---
 
-# 建立並發佈登入頁面 {#create-lp}
+# 建立及發佈登陸頁面 {#create-lp}
 
 >[!CAUTION]
 >
 >若要能夠測試和發佈登入頁面，您必須擁有 **[!UICONTROL 發佈訊息]** 許可權。
 
-## 存取登入頁面 {#access-landing-pages}
+## 存取登陸頁面 {#access-landing-pages}
 
-若要存取登入頁面清單，請選取「 」 **[!UICONTROL 歷程管理]** > **[!UICONTROL 登陸頁面]** 從左側功能表。
+若要存取登入頁面清單，請選取 **[!UICONTROL 歷程管理]** > **[!UICONTROL 登陸頁面]** 從左側功能表。
 
 ![](assets/lp_access-list.png)
 
@@ -32,13 +32,13 @@ ht-degree: 26%
 
 ![](assets/lp_access-list-filter.png)
 
-從此清單，您可以存取 [登陸頁面即時報告](../reports/lp-report-live.md) 或 [登陸頁面全域報告](../reports/lp-report-global.md) （已發佈專案）。
+從此清單中，您可以存取 [登陸頁面即時報告](../reports/lp-report-live.md) 或 [登陸頁面全域報告](../reports/lp-report-global.md) 已發佈專案的資訊。
 
 您也可以刪除、複製和取消發佈登入頁面。
 
 >[!CAUTION]
 >
->如果您取消發佈訊息中參照的登入頁面，則連結至登入頁面的連結會中斷，並顯示錯誤頁面。
+>如果取消發佈訊息中參照的登入頁面，則連結至登入頁面的連結將會中斷，並顯示錯誤頁面。
 
 按一下登入頁面旁的三個點，以選取所需的動作。
 
@@ -75,11 +75,11 @@ ht-degree: 26%
 
    ![](assets/lp_create-lp-details.png)
 
-1. 若要將自訂或核心資料使用標籤指派給登陸頁面，請選取 **[!UICONTROL 管理存取權]**. [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
+1. 若要將自訂或核心資料使用標籤指派給登入頁面，請選取 **[!UICONTROL 管理存取權]**. [深入瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
 
-   <!--You can add a tag. See AEP documentation?-->
+1. 選擇或建立Adobe Experience Platform標籤，從 **[!UICONTROL 標籤]** 將您的登入頁面分類以改善搜尋的欄位。 [了解更多](../start/search-filter-categorize.md#tags)
 
-1. 選取預設集。 瞭解如何在中建立登入頁面預設集 [本節](../landing-pages/lp-presets.md#lp-create-preset).
+1. 選取預設集。 瞭解如何在中建立登陸頁面預設集 [本節](../landing-pages/lp-presets.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -93,7 +93,7 @@ ht-degree: 26%
 
    ![](assets/lp_add-subpage.png)
 
-設定並設計 [主要頁面](#configure-primary-page)，以及 [子頁面](#configure-subpages) 如果有的話，您可以 [測試](#test-landing-page) 和 [發佈](#publish-landing-page) 您的登陸頁面。
+設定並設計 [主要頁面](#configure-primary-page)，以及 [子頁面](#configure-subpages) 如果有，您可以 [測試](#test-landing-page) 和 [發佈](#publish-landing-page) 您的登陸頁面。
 
 ## 設定主要頁面 {#configure-primary-page}
 
@@ -110,17 +110,17 @@ ht-degree: 26%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html?lang=zh-Hant" text="設定登陸頁面子網域"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hant#lp-create-preset" text="建立登陸頁面預設集"
 
-主要頁面是使用者點按登陸頁面連結後（例如從電子郵件或網站）立即顯示給使用者的頁面。
+主要頁面是使用者按一下登陸頁面連結後（例如從電子郵件或網站）立即顯示給使用者的頁面。
 
 若要定義主要頁面設定，請遵循下列步驟。
 
-1. 您可以變更頁面名稱，即 **[!UICONTROL 主要頁面]** 依預設。
+1. 您可以變更頁面名稱， **[!UICONTROL 主要頁面]** 依預設。
 
 1. 使用內容設計工具編輯頁面的內容。 瞭解如何定義登入頁面內容 [此處](design-lp.md).
 
    ![](assets/lp_open-designer.png)
 
-1. 定義您的登陸頁面 URL. URL的第一部分要求您先前將登陸頁面子網域設定為 [預設集](../landing-pages/lp-presets.md#lp-create-preset) 您已選取。 [了解更多](../landing-pages/lp-subdomains.md)
+1. 定義您的登陸頁面 URL. URL的第一部分要求您先前將登陸頁面子網域設定為 [預設集](../landing-pages/lp-presets.md#lp-create-preset) 您已選取「 」。 [了解更多](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -130,31 +130,31 @@ ht-degree: 26%
 
    >[!NOTE]
    >
-   >您無法將此URL複製貼上至網頁瀏覽器，即使已發佈，仍可存取您的登入頁面。 相反地，您可以使用預覽函式來測試它，如中所述 [本節](#test-landing-page).
+   >您無法將此URL複製貼入網頁瀏覽器，即使已發佈，仍可存取您的登入頁面。 相反地，您可以使用預覽函式來測試它，如中所述 [本節](#test-landing-page).
 
 1. 如果您希望登入頁面預先載入已可用的表單資料，請選取 **[!UICONTROL 使用設定檔資訊預先填寫表單欄位]**.
 
    ![](assets/lp_prefill-form-fields.png)
 
-   啟用此選項時，如果設定檔已選擇加入/退出或已新增至訂閱清單，其選擇將在顯示登入頁面時反映出來。
+   啟用此選項時，如果設定檔已選擇加入/退出或已新增至訂閱清單，則其選擇會在顯示登入頁面時反映出來。
 
-   例如，如果設定檔已選擇加入以接收有關未來事件的通訊，則下次向該設定檔顯示登入頁面時，將會選取對應的核取方塊。
+   例如，如果設定檔已選擇加入以接收有關未來事件的通訊，則下次向該設定檔顯示登入頁面時，將會選取相對應的核取方塊。
 
    ![](assets/lp_prefill-form-ex.png)
 
 1. 您可以定義頁面的到期日。 在這種情況下，您必須在頁面到期時選取動作：
 
-   * **[!UICONTROL 重新導向URL]**：輸入當頁面過期時，會將使用者重新導向到的頁面URL。
+   * **[!UICONTROL 重新導向URL]**：輸入當頁面過期時，系統會將使用者重新導向的頁面URL。
    * **[!UICONTROL 自訂頁面]**： [設定子頁面](#configure-subpages) 並從顯示的下拉式清單中選取它。
-   * **[!UICONTROL 瀏覽器錯誤]**：輸入將顯示而非頁面的錯誤文字。
+   * **[!UICONTROL 瀏覽器錯誤]**：輸入將顯示的錯誤文字，而非頁面。
 
    ![](assets/lp_expiry-date.png)
 
-1. 在 **[!UICONTROL 其他資料]** 區段，定義一或多個索引鍵及其對應的引數值。 您將能夠使用以下工具在首頁面和子頁面的內容中運用這些金鑰 [運算式編輯器](../personalization/personalization-build-expressions.md). 請參閱[此章節](lp-content.md#use-form-component#use-additional-data)深入瞭解。
+1. 在 **[!UICONTROL 其他資料]** 區段，定義一或多個索引鍵及其對應的引數值。 您將能夠使用，在首頁面和子頁面的內容中運用這些金鑰。 [運算式編輯器](../personalization/personalization-build-expressions.md). 請參閱[此章節](lp-content.md#use-form-component#use-additional-data)深入瞭解。
 
    ![](assets/lp_create-lp-additional-data.png)
 
-1. 如果您在下列情況下選取一或多個訂閱清單： [設計主要頁面](design-lp.md)，它們會顯示在 **[!UICONTROL 訂閱清單]** 區段。
+1. 若您選取一或多個訂閱清單，當 [設計主要頁面](design-lp.md)，它們會顯示在 **[!UICONTROL 訂閱清單]** 區段。
 
    ![](assets/lp_subscription-list.png)
 
@@ -183,13 +183,13 @@ ht-degree: 26%
 
 若要定義子頁面設定，請遵循下列步驟。
 
-1. 您可以變更頁面名稱，即 **[!UICONTROL 子頁面1]** 依預設。
+1. 您可以變更頁面名稱， **[!UICONTROL 子頁面1]** 依預設。
 
 1. 使用內容設計工具編輯頁面的內容。 瞭解如何定義登入頁面內容 [此處](design-lp.md).
 
    >[!NOTE]
    >
-   >您可以從相同登陸頁面的任何子頁面插入主要頁面的連結。 例如，若要重新導向發生錯誤並想要再次訂閱的使用者，您可以從確認子頁面新增連結至訂閱主要頁面。 瞭解如何在中插入連結 [本節](../email/message-tracking.md#insert-links).
+   >您可以從相同登入頁面的任何子頁面插入主要頁面的連結。 例如，若要重新導向發生錯誤而想要再次訂閱的使用者，您可以從確認子頁面新增連結至訂閱主要頁面。 瞭解如何在中插入連結 [本節](../email/message-tracking.md#insert-links).
 
 1. 定義您的登陸頁面 URL. URL的第一部分要求您先前設定登陸頁面子網域。 [了解更多](../landing-pages/lp-subdomains.md)
 
@@ -227,7 +227,7 @@ ht-degree: 26%
 
    ![](assets/lp_test-profiles.png)
 
-   選取測試設定檔的步驟與測試訊息時的步驟相同。 如需詳細資訊，請參閱 [本節](../email/preview.md#select-test-profiles).
+   選取測試設定檔的步驟與測試訊息時相同。 其詳細資訊請參閱 [本節](../email/preview.md#select-test-profiles).
 
 1. 選取 **[!UICONTROL 開啟預覽]** 以測試您的登入頁面。
 
@@ -241,7 +241,7 @@ ht-degree: 26%
 
 ## 檢查警報 {#check-alerts}
 
-當您建立登入頁面時，發佈之前必須採取重要動作時，系統會發出警告。
+當您建立登入頁面時，發佈之前必須執行重要動作時，系統會發出警告。
 
 警示會顯示在畫面的右上方，如下所示：
 
@@ -249,13 +249,13 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->如果您沒有看到此按鈕，則表示未偵測到任何警示。
+>如果您沒有看到此按鈕，則表示未偵測到任何警報。
 
 可能會發生兩種型別的警報：
 
 * **警告** 請參閱建議和最佳實務。 <!--For example, a message will display if -->
 
-* **錯誤** 只要登入頁面未解決，防止您發佈登入頁面。 例如，如果缺少主要頁面URL，您會收到警告。
+* **錯誤** 防止您發佈登入頁面，前提是登入頁面未解析。 例如，如果缺少主要頁面URL，您會收到警告。
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 
@@ -282,7 +282,7 @@ ht-degree: 26%
 
 >[!CAUTION]
 >
->若要能夠發佈登入頁面，您必須擁有 **[!UICONTROL 發佈訊息]** 許可權。
+>若要發佈登入頁面，您必須擁有 **[!UICONTROL 發佈訊息]** 許可權。
 
 一旦登入頁面準備就緒後，您就可以發佈該頁面，以供訊息使用。
 
@@ -292,9 +292,9 @@ ht-degree: 26%
 >
 >發佈之前，請先檢查並解決警報。 [了解更多](#check-alerts)
 
-您的登入頁面發佈後，會透過新增至登入頁面清單 **[!UICONTROL 已發佈]** 狀態。
+發佈登入頁面後，會透過將其新增至登入頁面清單 **[!UICONTROL 已發佈]** 狀態。
 
-它現在已上線，並準備好用於 [!DNL Journey Optimizer] 將透過 [歷程](../building-journeys/journey.md).
+它現在已上線並準備好用於 [!DNL Journey Optimizer] 將透過傳送的訊息 [歷程](../building-journeys/journey.md).
 
 >[!NOTE]
 >

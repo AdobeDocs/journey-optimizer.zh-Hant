@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 100%
+source-wordcount: '189'
+ht-degree: 90%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 100%
 應用程式內訊息是可傳送給應用程式內使用者的通知，可引導他們前往特定興趣點。這些通知可用於不同的用途，例如推廣新功能、呈現特殊優惠方案或協助使用者上線。 藉由善用應用程式內訊息，您可有效與對象進行互動，並引導他們關注應用程式的重要環節。
 
 使用 Journey Optimizer 建立應用程式內通知，並設定體驗選項，包括訊息版面及顯示、文字與按鈕選項。 
+
+>[!AVAILABILITY]
+>
+>目前，應用程式內頻道不適用於已購買Adobe Healthcare Shield附加產品的組織。
+>
 
 ## 先決條件{#prerequisites-in-app}
 

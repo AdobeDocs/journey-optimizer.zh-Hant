@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 0d09f7d7-d0a4-4831-90e8-8c2062de06b9
-source-git-commit: 8da2b22b36a21f95a49f4195c25ccec9b055bbd6
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 100%
+source-wordcount: '514'
+ht-degree: 76%
 
 ---
 
@@ -49,41 +49,52 @@ ht-degree: 100%
 
 利用 Adobe Experience Platform [統一標籤](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=zh-Hant)，您可以輕鬆分類 Journey Optimizer 歷程與行銷活動，進而改進清單的搜尋。
 
->[!AVAILABILITY]
->
->統一標籤目前測試中。 文件和功能可能會有所變更。
-
 ### 新增標籤至物件
 
-[歷程](../building-journeys/journey-gs.md#change-properties)或[行銷活動](../campaigns/create-campaign.md#create)屬性中的&#x200B;**標籤**&#x200B;欄位，可讓您為物件定義標籤。 您可選取現有標籤或建立新標籤。
+此 **[!UICONTROL 標籤]** 欄位可讓您定義物件的標籤。 標籤可用於下列物件：
 
-開始輸入所需標籤的名稱，然後從清單選取該名稱。 如果無法使用，請按一下&#x200B;**建立**&#x200B;來建立並新增。 您可視需要定義任意數量的標籤。
+* [歷程](../building-journeys/journey-gs.md#change-properties)
+* [行銷活動](../campaigns/create-campaign.md#create)
+* [範本](../email/content-templates.md)
+* [片段](../email/fragments.md)
+* [訂閱清單](../landing-pages/subscription-list.md)
+* [登陸頁面](../landing-pages/create-lp.md)
 
-![](assets/tags1.png)
+您可選取現有標籤或建立新標籤。若要執行此操作，請遵循下列步驟。
 
-定義的標籤清單會顯示在&#x200B;**標籤**&#x200B;欄位下方。
+1. 開始輸入所需標籤的名稱，和/或從清單中選取它。
+
+   ![](assets/tags1.png)
+
+   >[!NOTE]
+   >
+   > 標籤不區分大小寫。
+
+1. 如果您要搜尋的標籤無法使用，請按一下 **[!UICONTROL 建立「」]** 定義新物件 — 它會自動加入目前的物件中，並可供所有其他物件使用。
+
+   ![](assets/tags4.png)
+
+1. 所選或建立的標籤清單會顯示在 **[!UICONTROL 標籤]** 欄位。 您可視需要定義任意數量的標籤。
 
 >[!NOTE]
->
-> 標籤不區分大小寫
 > 
-> 如果您複製或建立新版本歷程或行銷活動，則會保留標籤。
+> 如果您複製或建立新版本的物件，則會保留標籤。
 
 ### 依標籤篩選
 
-歷程與行銷活動清單會顯示專屬欄，讓您輕鬆視覺化標籤。
+每個物件清單都會顯示專屬欄，讓您輕鬆地將標籤視覺化。
 
-利用篩選器也可僅顯示具特定標籤的歷程或行銷活動。
+篩選也僅可用於顯示具有特定標籤的物件。
 
 ![](assets/tags2.png)
 
-您可從任何類型的歷程或行銷活動 (即時、草稿等等) 新增或移除標籤。 若要這麼做，請按一下物件旁的&#x200B;**更多動作**&#x200B;圖示，然後選取&#x200B;**編輯標籤**。
+您可從任何類型的歷程或行銷活動 (即時、草稿等等) 新增或移除標籤。 若要這麼做，請按一下物件旁的&#x200B;**[!UICONTROL 更多動作]**&#x200B;圖示，然後選取&#x200B;**[!UICONTROL 編輯標籤]**。
 
 ![](assets/tags3.png)
 
 ### 管理標籤
 
-管理員可利用&#x200B;**管理**&#x200B;下方的&#x200B;**標籤**&#x200B;選單來刪除標籤，並依類別進行管理。請參閱[統一標籤文件](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=zh-Hant)，深入了解標籤管理。
+管理員可利用&#x200B;**[!UICONTROL 管理]**&#x200B;下方的&#x200B;**[!UICONTROL 標籤]**&#x200B;選單來刪除標籤，並依類別進行管理。請參閱[統一標籤文件](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=zh-Hant)，深入了解標籤管理。
 
 >[!NOTE]
 >

@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 運算式編輯器，資料，歷程
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 76%
+source-wordcount: '647'
+ht-degree: 72%
 
 ---
 
@@ -48,7 +48,7 @@ _進階運算式編輯器介面_
 
 您可以透過不同方式存取進階運算式編輯器：
 
-* 建立資料來源條件時，您可以按一下「 」以存取進階編輯器 **[!UICONTROL 進階模式]**.
+* 建立資料來源條件時，可按一下「 」以存取進階編輯器 **[!UICONTROL 進階模式]**.
 
   ![](../assets/journeyuc2_33.png)
 
@@ -63,10 +63,10 @@ _進階運算式編輯器介面_
 
 在畫面左側，會顯示可用的欄位和函式：
 
-* **[!UICONTROL 事件]**：選擇從傳入事件接收的其中一個欄位。 顯示的事件欄位清單會與情境相關，而且會根據歷程中新增的事件而有所不同。[閱讀全文](../../event/about-events.md)
+* **[!UICONTROL 活動]**：從入站事件接收的其中一個欄位。 顯示的事件欄位清單會與情境相關，而且會根據歷程中新增的事件而有所不同。[閱讀全文](../../event/about-events.md)
 * **[!UICONTROL 受眾]**：如果您已卸除 **[!UICONTROL 對象資格]** 事件，選擇您要在運算式中使用的對象。 [閱讀全文](../condition-activity.md#using-a-segment)
 * **[!UICONTROL 資料來源]**：從資料來源欄位群組中的可用欄位清單中選擇。 [閱讀全文](../../datasource/about-data-sources.md)
-* **[!UICONTROL 歷程屬性]**：本節會對特定設定檔中與歷程相關的技術欄位進行重新分組。 [閱讀全文](journey-properties.md)
+* **[!UICONTROL 歷程屬性]**：本節會對與指定設定檔的歷程相關的技術欄位進行重新分組。 [閱讀全文](journey-properties.md)
 * **[!UICONTROL 函式]**：從可執行複雜篩選的內建函式清單中選擇。 函式會依類別組織。[閱讀全文](functions.md)
 
 ![](../assets/journey65.png)
@@ -81,7 +81,7 @@ _進階運算式編輯器介面_
 
 **使用進階運算式編輯器建立條件時，需要使用參數**
 
-如果您從外部資料來源選取欄位，需要呼叫引數(請參閱 [此頁面](../../datasource/external-data-sources.md). 例如，在天氣相關資料來源中，常用的參數為 &quot;city&quot;。因此，您必須選擇要取得此城市參數的位置。也可將函式套用至參數，以執行格式變更或串聯。
+如果您從外部資料來源選取欄位，需要呼叫引數(請參閱 [此頁面](../../datasource/external-data-sources.md))，右側會出現新索引標籤，讓您指定此引數。 引數值可能來自位於歷程或Experience Platform資料來源中的事件（而非其他外部資料來源）。 例如，在天氣相關資料來源中，常用的參數為 &quot;city&quot;。因此，您必須選擇要取得此城市參數的位置。也可將函式套用至參數，以執行格式變更或串聯。
 
 ![](../assets/journeyuc2_19.png)
 

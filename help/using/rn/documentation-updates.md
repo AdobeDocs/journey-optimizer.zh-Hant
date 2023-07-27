@@ -4,16 +4,22 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '2949'
-ht-degree: 99%
+source-wordcount: '3001'
+ht-degree: 97%
 
 ---
 
 # 文件更新 {#latest-updates}
 
 本頁面列出 [!DNL Journey Optimizer] 所有文件更新。
+
+## 2023 年 7 月 {#july-2023}
+
+* 已改善等待活動檔案頁面，其中包含與全域逾時和重新進入使用方式相關的其他資訊和最佳實務。 [閱讀全文](../building-journeys/wait-activity.md)
+* 改善登入管理頁面。 [閱讀全文](../building-journeys/entry-management.md)
+* 已在讀取對象活動檔案中新增節流率的相關資訊。 [閱讀全文](../building-journeys/read-audience.md)
 
 ## 2023 年 6 月 {#june-2023}
 
@@ -182,7 +188,7 @@ ht-degree: 99%
 
 * 有關所有 [!DNL Journey Optimizer]2022 年 1 月發行版本新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
 * **Offer decisioning AI 排名**&#x200B;區段已更新，針對自動最佳化模型提供更詳細的說明。[閱讀全文](../offers/ranking/auto-optimization-model.md)
-* 已新增有關在使用AI模型時要在事件型別中傳送所需的結構描述要求的新區段。 [閱讀全文](../offers/data-collection/schema-requirement.md)
+* 已新增有關在使用AI模型時為了能夠在事件型別中傳送而需要的結構要求的新區段。 [閱讀全文](../offers/data-collection/schema-requirement.md)
 * 有關 [!DNL Journey Optimizer] 個人化功能的章節已重新整理，以便更容易閱讀。 [閱讀全文](../personalization/personalize.md)
 * 為了提高清晰度，**建立訊息預設集**&#x200B;部分改為若干部分。 [閱讀全文](../configuration/channel-surfaces.md#create-channel-surface)
 * **選擇退出管理**&#x200B;區段變得清晰，並稍作重組。 [閱讀全文](../privacy/opt-out.md#opt-out-management)

@@ -8,18 +8,18 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
-source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 4%
+source-wordcount: '1495'
+ht-degree: 5%
 
 ---
 
 # 使用片段 {#fragments}
 
-片段是可重複使用的元件，可在一封或多封電子郵件中參照 [!DNL Journey Optimizer] 行銷活動和歷程。
+片段是可重複使用的元件，可在一封或多封電子郵件中加以參照 [!DNL Journey Optimizer] 行銷活動和歷程。
 
-此功能可讓您預先建立多個自訂內容區塊，非技術行銷使用者可使用此區塊，在改良的設計程式中快速組合電子郵件內容。
+此功能允許預先建置多個自訂內容區塊，可供非技術行銷使用者在改良的設計流程中快速組合電子郵件內容。
 
 ➡️ [在本影片中瞭解如何管理、編寫和使用片段](#video-fragments)
 
@@ -34,9 +34,9 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->目前此功能僅適用於電子郵件。
+>此功能目前僅適用於電子郵件。
 
-## 存取和管理片段 {#access-manage-fragments}
+## 存取及管理片段 {#access-manage-fragments}
 
 若要存取片段清單，請選取「 」 **[!UICONTROL 內容管理]** > **[!UICONTROL 片段]** 從左側功能表。
 
@@ -52,7 +52,7 @@ ht-degree: 4%
 
 * 復製片段。
 
-* 使用 **[!UICONTROL 探索引用]** 選項以檢視使用它的歷程、行銷活動或範本。 [了解更多](#explore-references)
+* 使用 **[!UICONTROL 探索引用]** 檢視歷程、行銷活動或使用範本的選項。 [了解更多](#explore-references)
 
 * 封存片段。 [了解更多](#archive-fragments)
 
@@ -62,17 +62,17 @@ ht-degree: 4%
 
 若要編輯片段，請遵循以下步驟。
 
-1. 從「 」中按一下所需的專案 **[!UICONTROL 片段]** 清單。
-1. 在片段屬性中，您可以 [探索引用](#explore-references)， [管理其存取權](../administration/object-based-access.md) 和更新片段詳細資訊。
+1. 從以下位置按一下所需的專案： **[!UICONTROL 片段]** 清單。
+1. 從片段屬性中，您可以 [探索引用](#explore-references)， [管理其存取權](../administration/object-based-access.md)，並更新片段詳細資訊，包括 [標籤](../start/search-filter-categorize.md#tags).
 
    ![](assets/fragment-edit-content.png)
 
-1. 選取對應的按鈕來編輯內容，就像從頭開始建立片段時所做的那樣。 [了解更多](#create-from-scratch)
+1. 選取對應的按鈕來編輯內容，就像從頭開始建立片段時一樣。 [了解更多](#create-from-scratch)
 
 
 >[!NOTE]
 >
->編輯片段時，變更會自動傳播到包含該片段的所有電子郵件或範本，但中使用的電子郵件除外 **[!UICONTROL 即時]** 歷程或行銷活動。 您也可以中斷原始片段的繼承。 [了解更多](#break-inheritance)
+>當您編輯片段時，變更會自動傳播到包含該片段的所有電子郵件或範本，但中使用的電子郵件除外 **[!UICONTROL 即時]** 歷程或行銷活動。 您也可以中斷原始片段的繼承。 [了解更多](#break-inheritance)
 
 <!--Changes made to a fragment are not propagated to live journeys or campaigns where it is used.-->
 
@@ -86,27 +86,27 @@ ht-degree: 4%
 
 ![](assets/fragment-explore-references.png)
 
-選取索引標籤，在歷程、行銷活動和範本之間切換。 您可以檢視其狀態，並按一下名稱以重新導向至引用片段的對應專案。
+選取索引標籤以在歷程、行銷活動和範本之間切換。 您可以檢視其狀態，然後按一下名稱，重新導向至已參考片段的對應專案。
 
 ![](assets/fragment-usage-screen.png)
 
 >[!NOTE]
 >
->如果片段用於歷程、行銷活動或範本中，且標籤阻止您存取該片段，您會在選取的索引標籤上方看到警告訊息。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
+>如果片段用於歷程、行銷活動或範本中，且標籤阻止您存取該片段，您會在選取的標籤上方看到警告訊息。 [深入瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
 
 ### 封存片段 {#archive-fragments}
 
 您可以從不再與您的品牌相關的專案清除片段清單。
 
-若要這麼做，請按一下 **[!UICONTROL 更多動作]** 圖示並選取「 」 **[!UICONTROL 封存]**. 它會從片段清單中消失，這會阻止使用者在未來的電子郵件或範本中使用它。
+若要這麼做，請按一下 **[!UICONTROL 更多動作]** 圖示並選取「 」 **[!UICONTROL 封存]**. 它會從片段清單中消失，從而防止使用者在未來的電子郵件或範本中使用它。
 
 ![](assets/fragment-list-archive.png)
 
 >[!NOTE]
 >
->如果您封存電子郵件或內容範本中使用的片段， <!--it will remain in the email or template, but you won't be able to select it from the fragment list to edit it-->電子郵件或範本不受影響。
+>如果您封存用於電子郵件或內容範本中的片段， <!--it will remain in the email or template, but you won't be able to select it from the fragment list to edit it-->電子郵件或範本不受影響。
 
-若要取消封存片段，請在 **[!UICONTROL 已封存]** 專案並選取 **[!UICONTROL 取消封存]** 從 **[!UICONTROL 更多動作]** 功能表。 現在可從片段清單再次存取，並可用於任何電子郵件或範本。
+若要取消封存片段，請在 **[!UICONTROL 已封存]** 專案並選取 **[!UICONTROL 取消封存]** 從 **[!UICONTROL 更多動作]** 功能表。 現在仍可從片段清單存取，並可用於任何電子郵件或範本。
 
 ![](assets/fragment-list-unarchive.png)
 
@@ -118,34 +118,36 @@ ht-degree: 4%
 
 * 設計電子郵件或內容範本時，請將部分內容儲存為片段。 [了解作法](#save-as-template)
 
-儲存後，您的片段即可用於歷程、行銷活動或範本。 無論是從頭開始建立還是從現有內容建立，您現在都可以在建立任何內容時使用此片段 [電子郵件](get-started-email-design.md) 或 [內容範本](content-templates.md) 範圍 [!DNL Journey Optimizer]. [了解更多](#use-fragments)
+儲存後，您的片段即可用於歷程、行銷活動或範本。 無論是從頭建立還是從現有內容建立，您現在都可以在建立任何內容時使用此片段 [電子郵件](get-started-email-design.md) 或 [內容範本](content-templates.md) 範圍 [!DNL Journey Optimizer]. [了解更多](#use-fragments)
 
-### 從頭建立 {#create-from-scratch}
+### 從頭開始建立 {#create-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
 >title="定義專屬片段"
 >abstract="從頭開始建立獨立的片段，使您的內容可在多個歷程和行銷活動中重複使用。"
 
-若要從頭開始建立片段，請遵循以下步驟。
+若要從頭開始建立片段，請遵循下列步驟。
 
 1. 透過存取片段清單 **[!UICONTROL 內容管理]** > **[!UICONTROL 片段]** 左側功能表。
 
 1. 選取 **[!UICONTROL 建立片段]**.
 
-1. 填寫片段詳細資訊，即名稱和說明（如有需要）。
+1. 填寫片段詳細資訊，即名稱和說明（如果需要）。
 
    ![](assets/fragment-details.png)
 
    >[!NOTE]
    >
-   >目前僅限 **[!UICONTROL 視覺片段]** 型別和 **電子郵件** 支援頻道。
+   >目前僅限 **[!UICONTROL 視覺片段]** 型別和 **電子郵件** 管道受支援。
 
-1. 若要將自訂或核心資料使用標籤指派給片段，請選取 **[!UICONTROL 管理存取權]**. [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md).
+1. 若要指派自訂或核心資料使用標籤給片段，請選取「 」 **[!UICONTROL 管理存取權]**. [深入瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md).
+
+1. 選擇或建立Adobe Experience Platform標籤，從 **[!UICONTROL 標籤]** 將片段分類的欄位有助改善搜尋。 [了解更多](../start/search-filter-categorize.md#tags)
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
-1. 此 [電子郵件設計工具](get-started-email-design.md) 顯示。 視需要編輯您的內容，就像您在歷程或行銷活動中的任何電子郵件所做的那樣。
+1. 此 [電子郵件設計工具](get-started-email-design.md) 顯示。 視需要編輯您的內容，就像處理歷程或行銷活動中的任何電子郵件一樣。
 
    >[!NOTE]
    >
@@ -163,33 +165,35 @@ ht-degree: 4%
 
 ### 另存為片段 {#save-as-fragment}
 
-設計時 [內容範本](content-templates.md) 或 [電子郵件](get-started-email-design.md) 在行銷活動或歷程中，您可以將部分內容儲存為片段以供日後重複使用。 請依照下列步驟以執行此操作。
+設計時 [內容範本](content-templates.md) 或 [電子郵件](get-started-email-design.md) 在行銷活動或歷程中，您可以將部分內容儲存為片段以供未來重複使用。 請依照下列步驟以執行此操作。
 
 1. 在 [電子郵件設計工具](get-started-email-design.md)，按一下畫面右上方的省略符號。
 
-1. 選取 **[!UICONTROL 另存為片段]** 從下拉式功能表。
+1. 選取 **[!UICONTROL 另存為片段]** （從下拉式功能表）。
 
    ![](assets/fragment-save-as.png)
 
-1. 此 **[!UICONTROL 另存為片段]** 熒幕顯示。 在那裡選取您要納入片段中的元素，包括個人化欄位和動態內容。 請注意，片段不支援內容屬性。
+1. 此 **[!UICONTROL 另存為片段]** 熒幕顯示。 在該處選取您要納入片段中的元素，包括個人化欄位和動態內容。 請注意，片段中不支援內容屬性。
 
    >[!CAUTION]
    >
-   >您只能選取彼此相鄰的截面。 您無法選取空白結構或其他片段。
+   >您只能選取彼此相鄰的截面。 您無法選取空的結構或其他片段。
 
    ![](assets/fragment-save-as-screen.png)
 
-1. 按一下&#x200B;**[!UICONTROL 建立]**。填寫片段詳細資訊，即名稱和說明（如有需要）。
+1. 按一下&#x200B;**[!UICONTROL 建立]**。填寫片段詳細資訊，即名稱和說明（如果需要）。
 
    ![](assets/fragment-details.png)
 
    >[!NOTE]
    >
-   >目前僅限 **[!UICONTROL 視覺片段]** 型別和 **電子郵件** 支援頻道。
+   >目前僅限 **[!UICONTROL 視覺片段]** 型別和 **電子郵件** 管道受支援。
 
-1. 若要將自訂或核心資料使用標籤指派給片段，請選取 **[!UICONTROL 管理存取權]**. [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md).
+1. 若要指派自訂或核心資料使用標籤給片段，請選取「 」 **[!UICONTROL 管理存取權]**. [深入瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md).
 
-1. 按一下 **[!UICONTROL 建立]** 再來一次。 片段會儲存至 **[!UICONTROL 片段]** 清單，可從以下位置存取： [!DNL Journey Optimizer] 專用功能表。
+1. 選擇或建立Adobe Experience Platform標籤，從 **標籤** 將範本分類以改善搜尋的欄位。 [了解更多](../start/search-filter-categorize.md#tags)
+
+1. 按一下 **[!UICONTROL 建立]** 再來一次。 片段會儲存至 **[!UICONTROL 片段]** 清單，可從存取 [!DNL Journey Optimizer] 專用功能表。
 
    它會變成獨立的片段，可以 [已存取](#access-manage-fragments)， [已編輯](#edit-fragments) 和 [已封存](#archive-fragments) 如同該清單上的任何其他專案。
 
@@ -197,11 +201,11 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->對該新片段所做的任何變更都不會傳播到它來自的電子郵件或範本。 同樣地，在該電子郵件或範本中編輯原始內容時，不會修改新片段。
+>對該新片段所做的任何變更都不會傳播到該新片段來自的電子郵件或範本。 同樣地，在該電子郵件或範本中編輯原始內容時，不會修改新片段。
 
 ## 使用片段 {#use-fragments}
 
-您可以在以下位置使用片段： [電子郵件](get-started-email-design.md) 在歷程或行銷活動中，或在 [內容範本](content-templates.md).
+您可以在以下專案中使用片段： [電子郵件](get-started-email-design.md) 在歷程或行銷活動中，或在 [內容範本](content-templates.md).
 
 1. 使用開啟任何電子郵件或範本內容 [電子郵件設計工具](get-started-email-design.md).
 
@@ -211,7 +215,7 @@ ht-degree: 4%
 
 1. 隨即顯示目前沙箱上建立的所有片段清單。 您可以：
 
-   * 透過開始輸入標籤來搜尋特定片段。
+   * 透過開始輸入其標籤來搜尋特定片段。
    * 以遞增或遞減順序排序片段。
    * 變更片段的顯示方式（卡片或清單檢視）。
 
@@ -219,9 +223,9 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >如果您在編輯內容時修改或新增了一些片段，清單將會更新為最新變更。
+   >如果您在編輯內容時修改或新增了某些片段，清單會以最新變更更新。
 
-1. 將清單中的任何片段拖放至您要插入它的區域。
+1. 從清單拖放任何片段到您要插入它的區域。
 
    ![](assets/fragment-insert.png)
 
@@ -234,24 +238,24 @@ ht-degree: 4%
 1. 從 **[!UICONTROL 設定]** 標籤，您可以：
 
    * 選擇您要顯示片段的裝置。
-   * 視需要在新標籤中開啟片段以編輯。 [了解更多](#edit-fragments)
+   * 視需要在新索引標籤中開啟片段以編輯。 [了解更多](#edit-fragments)
    * 探索引用。 [了解更多](#explore-references)
 
-1. 您可以使用進一步自訂片段 **[!UICONTROL 樣式]** 標籤。
+1. 您可以使用進一步自訂您的片段 **[!UICONTROL 樣式]** 標籤。
 
-1. 如有需要，您可以中斷原始片段的繼承。 [了解更多](#break-inheritance)
+1. 如有需要，您可以中斷具有原始片段的繼承。 [了解更多](#break-inheritance)
 
-1. 新增所需數量的片段，並且 **[!UICONTROL 儲存]** 您的變更。
+1. 新增任意數量的片段，並且 **[!UICONTROL 儲存]** 您的變更。
 
 ### 中斷繼承 {#break-inheritance}
 
-當您編輯片段時，變更會同步。 它們會自動傳播至所有 **[!UICONTROL 草稿]** 歷程/行銷活動和包含該片段的內容範本。
+當您編輯片段時，變更會同步。 它們會自動傳播至所有 **[!UICONTROL 草稿]** 歷程/行銷活動以及包含該片段的內容範本。
 
 >[!NOTE]
 >
 >變更不會傳播至中使用的電子郵件 **[!UICONTROL 即時]** 歷程或行銷活動。
 
-新增至電子郵件或內容範本時，片段會依預設進行同步。
+新增至電子郵件或內容範本時，預設會同步片段。
 
 不過，您可以中斷原始片段的繼承。 在這種情況下，片段內容會複製到目前設計中，且變更將不再同步。
 
@@ -259,7 +263,7 @@ ht-degree: 4%
 
 1. 選取片段。
 
-1. 從內容工具列按一下解鎖圖示。
+1. 按一下內容工具列中的解鎖圖示。
 
    ![](assets/fragment-break-inheritance.png)
 
@@ -267,7 +271,7 @@ ht-degree: 4%
 
 ## 操作說明影片 {#video-fragments}
 
-瞭解如何在中管理、編寫和使用片段 [!DNL Journey Optimizer].
+了解如何管理、編寫和使用 [!DNL Journey Optimizer] 內的片段。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 

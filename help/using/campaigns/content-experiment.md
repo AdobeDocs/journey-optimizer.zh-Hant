@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 05284fcb3fc426bcf8bc5343a3267bd24c2a26cc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 6%
+source-wordcount: '840'
+ht-degree: 5%
 
 ---
 
@@ -108,6 +108,10 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
    對於我們的實驗，我們選取 **[!UICONTROL 電子郵件開啟]** 測試收件者是否會開啟其電子郵件（如果促銷代碼在主旨行中）。
 
    ![](assets/content_experiment_11.png)
+
+1. 使用應用程式內或網頁通道設定實驗，然後選擇 **[!UICONTROL 傳入點按次數]**， **[!UICONTROL 不重複傳入點按次數]** ， **[!UICONTROL 頁面檢視]** ，或 **[!UICONTROL 不重複頁面檢視量度]** ，則 **[!UICONTROL 點按動作]**  下拉式清單可讓您精確追蹤和監控特定頁面上的點按次數和檢視次數。
+
+   ![](assets/content_experiment_20.png)
 
 1. 按一下 **[!UICONTROL 新增處理方式]** 以建立所需數量的新處理。
 
