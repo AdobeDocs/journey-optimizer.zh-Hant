@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，對象，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: d9e6c07d8ccd3b836616c7b9813731ff7b26e7ce
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1383'
 ht-degree: 11%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 11%
    >
    >如果屬於對象的個人在不同身分中沒有選取的身分（名稱空間），則無法進入歷程。 您只能選取以人物為基礎的身分名稱空間。 如果您已定義查閱表格的名稱空間（例如：產品查閱的ProductID名稱空間），將無法在 **名稱空間** 下拉式清單。
 
-1. 設定 **[!UICONTROL 節流率]**. 這是每秒可輸入讀取對象的設定檔數目上限。 此比率僅適用於此活動。 不適用於歷程中的其他活動。 例如，如果您想定義自訂動作的節流率，則需使用節流應用程式開發介面。 請參閱此 [頁面](../configuration/throttling.md).
+1. 設定 **[!UICONTROL 節流率]**. 這是每秒可以進入歷程的設定檔數目上限。 此費率僅適用於此活動，不適用於歷程中的其他活動。 例如，如果您想定義自訂動作的節流率，則需使用節流應用程式開發介面。 請參閱此 [頁面](../configuration/throttling.md).
 
    此值會儲存在歷程版本裝載中。 預設值為每秒5,000個設定檔。 您可以將此值從每秒500個設定檔修改為20,000個設定檔。
 

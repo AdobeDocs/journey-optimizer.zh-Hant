@@ -8,9 +8,9 @@ role: User, Developer
 level: Experienced
 keywords: 歷程，資料來源，限制，輸送量，自訂，動作
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: d9e6c07d8ccd3b836616c7b9813731ff7b26e7ce
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '673'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ Adobe Journey Optimizer可讓從業人員透過使用自訂動作和資料來源
 
 >[!NOTE]
 >
-> 這是每秒可輸入讀取對象的設定檔數目上限。 此比率僅適用於此活動，不適用於歷程中的其他活動。 [閱讀全文](../building-journeys/read-audience.md)
+> 這是每秒可以進入歷程的設定檔數目上限。 此費率僅適用於此活動，不適用於歷程中的其他活動。 [閱讀全文](../building-journeys/read-audience.md)
 
 ![](assets/limit-throughput-1.png)
 
