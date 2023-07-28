@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '3001'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -188,7 +188,7 @@ ht-degree: 97%
 
 * 有關所有 [!DNL Journey Optimizer]2022 年 1 月發行版本新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
 * **Offer decisioning AI 排名**&#x200B;區段已更新，針對自動最佳化模型提供更詳細的說明。[閱讀全文](../offers/ranking/auto-optimization-model.md)
-* 已新增有關在使用AI模型時為了能夠在事件型別中傳送而需要的結構要求的新區段。 [閱讀全文](../offers/data-collection/schema-requirement.md)
+* 已新增新章節，說明要在使用 AI 模型時能以事件類型傳送，有哪些方案要求。 [閱讀全文](../offers/data-collection/schema-requirement.md)
 * 有關 [!DNL Journey Optimizer] 個人化功能的章節已重新整理，以便更容易閱讀。 [閱讀全文](../personalization/personalize.md)
 * 為了提高清晰度，**建立訊息預設集**&#x200B;部分改為若干部分。 [閱讀全文](../configuration/channel-surfaces.md#create-channel-surface)
 * **選擇退出管理**&#x200B;區段變得清晰，並稍作重組。 [閱讀全文](../privacy/opt-out.md#opt-out-management)
