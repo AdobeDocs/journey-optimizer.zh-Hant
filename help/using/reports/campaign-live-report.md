@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 6%
@@ -207,6 +207,8 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 ## 直接郵件索引標籤 {#direct-mail-tab}
 
 從您的行銷活動 **[!UICONTROL 全域報告]**，則 **[!UICONTROL 直接郵件]** 索引標籤會詳細說明與直接郵件傳送相關的主要資訊。
+
+![](assets/direct-mail-report_2.png)
 
 +++進一步瞭解直接郵件報表可用的不同量度和Widget。
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
 workflow-type: tm+mt
 source-wordcount: '2498'
 ht-degree: 4%
@@ -364,6 +364,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 ## 直接郵件索引標籤 {#direct-mail-global}
 
 從您的行銷活動 **[!UICONTROL 全域報告]**，則 **[!UICONTROL 直接郵件]** 索引標籤會詳細說明與直接郵件傳送相關的主要資訊。
+
+![](assets/direct-mail-report_1.png)
 
 +++進一步瞭解直接郵件報表可用的不同量度和Widget。
 
