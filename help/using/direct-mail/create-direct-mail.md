@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 直接郵件、訊息、行銷活動
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 25e1680c54fc1cebada7c4e8e5e4d84061248528
+source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 10%
+source-wordcount: '560'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,19 @@ ht-degree: 10%
 >title="直接郵件建立"
 >abstract="在排程的行銷活動中建立直接郵件訊息，並設計直接郵件提供者向您的客戶傳送郵件所需的解壓縮檔案。"
 
+若要建立直接郵件訊息、建立排程的行銷活動，並設定解壓縮檔案。 直接郵件提供者需要此檔案，才能將郵件傳送給您的客戶。
+
+>[!IMPORTANT]
+>
+>在建立直接郵件訊息之前，請確定您已設定：
+>
+>1. A [檔案路由設定](../direct-mail/direct-mail-configuration.md#file-routing-configuration) 會指定應該上傳及儲存解壓縮檔案的伺服器，
+>1. A [直接郵件訊息表面](../direct-mail/direct-mail-configuration.md#direct-mail-surface) 會參照檔案路由組態。
+
+
 ## 建立直接郵件行銷活動{#create-dm-campaign}
+
+若要建立直接郵件行銷活動，請遵循下列步驟：
 
 1. 建立新的排程行銷活動，然後選擇 **[!UICONTROL 直接郵件]** 作為動作。
 
@@ -46,6 +58,8 @@ ht-degree: 10%
 您現在可以開始設定擷取檔案，以傳送給直接郵件提供者。
 
 ## 設定擷取檔案 {#extraction-file}
+
+直接郵件供應商需要擷取檔案，才能傳送郵件給您的客戶。 若要定義解壓縮檔案組態，請執行下列步驟：
 
 1. 在行銷活動設定畫面中，按一下 **[!UICONTROL 編輯內容]** 按鈕以設定擷取檔案內容。
 

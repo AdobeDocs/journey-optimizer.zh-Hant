@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 直接郵件、訊息、行銷活動
-source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
+source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,4 @@ ht-degree: 0%
 
 直接郵件訊息只能在已排程行銷活動的內容中建立。 它們不可用於API觸發的行銷活動或歷程。
 
->[!IMPORTANT]
->
->在傳送直接郵件訊息之前，請確定您已設定：
->
->1. A [檔案路由設定](../direct-mail/direct-mail-configuration.md#file-routing-configuration) 會指定應該上傳及儲存解壓縮檔案的伺服器，
->1. A [直接郵件訊息表面](../direct-mail/direct-mail-configuration.md#direct-mail-surface) 會參照檔案路由組態。
+
