@@ -6,18 +6,19 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 直接郵件、訊息、行銷活動
-source-git-commit: 40cd058475b37b8fa7d5c0286ad230422e027cf8
+source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
-# 建立直接郵件訊息 {#create-direct}
+# 開始使用直接郵件 {#create-direct}
 
 >[!AVAILABILITY]
 >
 >目前，直接郵件通道不適用於已購買AdobeHealthcare Shield附加產品的組織。
+>
 
 直接郵件是一種離線頻道，可讓您個人化並產生直接郵件供應商傳送郵件給客戶所需的擷取檔案。
 

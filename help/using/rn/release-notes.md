@@ -4,7 +4,7 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 446fa1ab7d8f897aa1b6997b9cc664100e30e5a2
+source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
 workflow-type: tm+mt
 source-wordcount: '3193'
 ht-degree: 84%
@@ -57,7 +57,7 @@ ht-degree: 84%
 <p>當您準備直接郵件傳送時，Journey Optimizer會產生一個檔案，其中包含所有目標設定檔和選取的聯絡資訊（例如郵遞區號）。 然後，您就可以將此檔案傳送給直接郵件提供者，由他們負責實際傳送。</p>
 <p>目前，直接郵件通道不適用於已購買AdobeHealthcare Shield附加產品的組織。</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
-<p>如需詳細資訊，請參閱<a href="../direct-mail/create-direct-mail.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../direct-mail/get-started-direct-mail.md">詳細文件</a>。</p>
 </tr>
 </tbody>
 </table>
