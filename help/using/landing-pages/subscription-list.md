@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面，清單，訂閱，服務
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: b7685798cec415c8a97992ddacf8f0ebcb393107
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 12%
@@ -58,11 +58,11 @@ ht-degree: 12%
    >
    >目前您無法使用間距，或輸入中其他訂閱清單已經存在的名稱 **[!UICONTROL 標題]** 欄位。
 
-1. 選擇或建立Adobe Experience Platform標籤，從 **[!UICONTROL 標籤]** 將您的登入頁面分類以改善搜尋的欄位。 [了解更多](../start/search-filter-categorize.md#tags)
-
 1. 您可以定義開始日期和結束日期。
 
    ![](assets/lp_subscription-list-dates.png)
+
+1. 選擇或建立Adobe Experience Platform標籤，從 **[!UICONTROL 標籤]** 將您的登入頁面分類以改善搜尋的欄位。 [了解更多](../start/search-filter-categorize.md#tags)
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
