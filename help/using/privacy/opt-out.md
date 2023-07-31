@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
+source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
+workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 您的客戶也可以選擇退出提供的個人化內容。 設定檔從個人化選擇退出後，您需要確保其資料不會用於個人化，且您必須使用遞補變體取代任何個人化內容。
 
-### 在決策管理中
+### 在決策管理中 {#opt-out-decision-management}
 
 運用優惠方案時，個人化偏好設定不會自動於使用來自[決策](../offers/api-reference/offer-delivery-api/decisioning-api.md) API 請求或 [邊緣決策](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API 請求的[決定範圍](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)實施。 在這種情況下，您需要手動強制執行個人化同意。 若要執行此操作，請遵循下列步驟。
 
@@ -93,9 +93,7 @@ ht-degree: 100%
 >
 >尚未支援 [!DNL Journey Optimizer] 中將設定檔資料用於[資料模式](../offers/ranking/ai-models.md)的同意。
 
-## 在運算式編輯器中
-
-<!--Expressions Editor while personalizing images, text, subject line  ( Segment in Campaigns) - UI and Headless -->
+## 在運算式編輯器中 {#opt-out-expression-editor}
 
 [運算式編輯器](../personalization/personalization-build-expressions.md)本身不涉及傳送訊息，因此不會執行任何同意檢查或強制執行。 
 
@@ -104,7 +102,6 @@ ht-degree: 100%
 >[!NOTE]
 >
 >在[本節](../administration/object-based-access.md)中了解更多物件層級存取控制 (OLAC)。
-
 
 在 [!DNL Journey Optimizer] 行銷活動中，依照下列方式強制執行同意原則：
 
