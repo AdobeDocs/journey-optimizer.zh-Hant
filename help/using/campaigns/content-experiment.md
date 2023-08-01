@@ -12,7 +12,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -92,12 +92,12 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_dimension"
 >title="維度"
->abstract="選擇要追蹤實驗的特定維度，例如特定頁面的特定點按或檢視。"
+>abstract="選擇用於追蹤實驗的特定維度，例如特定頁面的特定點擊數或瀏覽數。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_success_metric"
 >title="成功量度"
->abstract="成功量度可用來追蹤和評估實驗中執行效果最佳的處理。 使用資料集之前，請務必先為特定量度設定資料集。"
+>abstract="成功量度用於追蹤和評估實驗中表現最佳的處理。在使用之前，請務必針對特定量度設定資料集。"
 
 1. 當您的傳遞個人化時，從行銷活動摘要頁面，按一下 **[!UICONTROL 建立實驗]** 以開始設定您的內容實驗。
 
