@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: ca2db9343f1362d3fe3e75b74c3c7bb12bb1c30f
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1591'
 ht-degree: 25%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 25%
 
 >[!NOTE]
 >
->此儀表板會考慮過去24小時內具有流量的歷程。 只會顯示您有權存取的歷程。
+>此儀表板會考慮過去24小時內具有流量的歷程。 只會顯示您有權存取的歷程。 量度每30分鐘會重新整理一次，且僅當有新資料可用時才會重新整理。
 
 ![](assets/journeys-dashboard.png)
 
