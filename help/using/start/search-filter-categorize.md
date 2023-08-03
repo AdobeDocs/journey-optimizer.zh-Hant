@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 0d09f7d7-d0a4-4831-90e8-8c2062de06b9
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 76%
 
 ### 新增標籤至物件
 
-此 **[!UICONTROL 標籤]** 欄位可讓您定義物件的標籤。 標籤可用於下列物件：
+**[!UICONTROL 標籤]**&#x200B;欄位可讓您定義物件的標籤。標籤可用於下列物件：
 
 * [歷程](../building-journeys/journey-gs.md#change-properties)
 * [行銷活動](../campaigns/create-campaign.md#create)
@@ -62,7 +62,7 @@ ht-degree: 76%
 
 您可選取現有標籤或建立新標籤。若要執行此操作，請遵循下列步驟。
 
-1. 開始輸入所需標籤的名稱，和/或從清單中選取它。
+1. 開始輸入所需標籤的名稱，然後從清單選取該名稱。 
 
    ![](assets/tags1.png)
 
@@ -70,21 +70,21 @@ ht-degree: 76%
    >
    > 標籤不區分大小寫。
 
-1. 如果您要搜尋的標籤無法使用，請按一下 **[!UICONTROL 建立「」]** 定義新物件 — 它會自動加入目前的物件中，並可供所有其他物件使用。
+1. 如果您要搜尋的標籤無法使用，請按一下&#x200B;**[!UICONTROL 建立「」]**&#x200B;定義新物件 — 它會自動加入目前的物件中，並可供所有其他物件使用。
 
    ![](assets/tags4.png)
 
-1. 所選或建立的標籤清單會顯示在 **[!UICONTROL 標籤]** 欄位。 您可視需要定義任意數量的標籤。
+1. 所選或建立的標籤清單會顯示在&#x200B;**[!UICONTROL 標籤]**&#x200B;欄位下方。您可視需要定義任意數量的標籤。
 
 >[!NOTE]
 > 
-> 如果您複製或建立新版本的物件，則會保留標籤。
+> 如果您複製或建立新版本標籤，則會保留標籤。
 
 ### 依標籤篩選
 
 每個物件清單都會顯示專屬欄，讓您輕鬆地將標籤視覺化。
 
-篩選也僅可用於顯示具有特定標籤的物件。
+利用篩選器也可僅顯示具特定標籤的物件。
 
 ![](assets/tags2.png)
 
