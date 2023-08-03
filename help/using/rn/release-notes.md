@@ -5,9 +5,9 @@ title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3193'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
 
-## 2023年7月發行說明 {#july-rn-2023}
+## 2023 年 7 月發行說明 {#july-rn-2023}
 
 ### 新功能{#july-2023-features}
 
@@ -55,7 +55,7 @@ ht-degree: 97%
 <td>
 <p>您現在可以在行銷活動中新增直接郵件訊息。 直接郵件是離線頻道，可讓您個人化和產生直接郵件提供者傳送郵件給客戶所需的檔案。</p>
 <p>當您準備傳送直接郵件時，Journey Optimizer 會產生一個檔案，其中包含所有目標設定檔和選擇的聯絡資訊 (例如，郵遞區號)。然後，您就可以將此檔案傳送給直接郵件提供者，由他們負責實際傳送。</p>
-<p>目前，直接郵件通道不適用於已購買AdobeHealthcare Shield附加產品的組織。</p>
+<p>目前，直接郵件頻道不適用於已購買 Adobe Healthcare Shield 附加產品的組織。</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
 <p>如需詳細資訊，請參閱<a href="../direct-mail/get-started-direct-mail.md">詳細文件</a>。</p>
 </tr>
@@ -136,16 +136,16 @@ A new type of system alert has been introduced. You can now get notified when a 
 * 對象：一組具有共同特徵和行為的人員、帳戶、家庭或其他實體。
 * 區段定義：在 Adobe Experience Platform 中，用來描述目標對象之關鍵特性或行為的規則。 此辭彙先前稱為「區段」。
 
-因此，在Adobe Journey Optimizer和Adobe Experience Platform UI中，「區段」會取代為「對象」，以反映建立和管理對象的新路徑。
+因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，您會看到「區段」被「對象」取代，以反映建立和管理對象的新路徑。
 
 **API**
 
-已棄用產生Adobe Journey Optimizer APIsauthentication存取權杖的JWT方法。 務必使用 OAuth 伺服器對伺服器驗證方法來建立所有新的整合。 Adobe 也建議您將現有的整合移轉至 OAuth 方法。 [了解更多](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}。
+已棄用產生 Adobe Journey Optimizer APIsauthentication 存取權杖的 JWT 方法。 務必使用 OAuth 伺服器對伺服器驗證方法來建立所有新的整合。 Adobe 也建議您將現有的整合移轉至 OAuth 方法。 [了解更多](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}。
 
 
 **其他變更**
 
-現在，所有客戶都可透過公開測試版使用Journey Optimizer資料集匯出至雲端儲存目標。 此功能可讓您與雲端儲存空間位置建立即時連線，以匯出資料集的內容。 [了解更多](../data/export-datasets.md)
+所有公開測試版客戶現在都能將 Journey Optimizer 資料集匯出至雲端儲存空間目標。 此功能可讓您與雲端儲存空間位置建立即時連線，以匯出資料集的內容。 [了解更多](../data/export-datasets.md)
 
 
 
