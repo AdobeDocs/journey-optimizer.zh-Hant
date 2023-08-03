@@ -6,9 +6,9 @@ description: Journey Optimizer 搶先發行說明
 hide: true
 hidefromtoc: true
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '638'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,8 @@ ht-degree: 97%
 **Journeys**
 
 * You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
-* 已引進新類型的系統警報。 您現在可以在自訂動作失敗時收到通知。—>
+* 已引進新類型的系統警報。 您現在可以在自訂動作失敗時收到通知。
+-->
 
 **行銷活動**
 
@@ -146,7 +147,7 @@ Adobe Journey Optimizer API 驗證 - 已棄用以 JWT 方法來產生存取權�
 
 **其他變更**
 
-現在，所有客戶都可透過公開測試版使用Journey Optimizer資料集匯出至雲端儲存目標。 此功能可讓您與雲端儲存空間位置建立即時連線，以匯出資料集的內容。 [了解更多](../data/export-datasets.md)
+所有公開測試版客戶現在都能將 Journey Optimizer 資料集匯出至雲端儲存空間目標。 此功能可讓您與雲端儲存空間位置建立即時連線，以匯出資料集的內容。 [了解更多](../data/export-datasets.md)
 
 
 
