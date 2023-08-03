@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
 workflow-type: tm+mt
 source-wordcount: '3061'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 ## 2023 年 7 月 {#july-2023}
 
 * 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2023年7月版本的詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
-* 已改善等待活動檔案頁面，其中包含與全域逾時和重新進入使用方式相關的其他資訊和最佳實務。 [閱讀全文](../building-journeys/wait-activity.md)
+* 已改善等待活動文件頁面，其中包含與全域逾時和重新登入使用方式相關的其他資訊和最佳實務。 [閱讀全文](../building-journeys/wait-activity.md)
 * 改善登入管理頁面。 [閱讀全文](../building-journeys/entry-management.md)
 * 已在讀取對象活動檔案中新增有關節流率的其他資訊。 [閱讀全文](../building-journeys/read-audience.md)
 * 此 **實作個人化同意** 區段已更新，以說明如何在行銷活動中手動強制執行個人化同意：您可以使用區段規則產生器，建立包含選擇退出設定檔的受眾，或將分割活動新增至構成工作流程。 [閱讀全文](../privacy/opt-out.md#opt-out-expression-editor)
