@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
+source-git-commit: 173ae09e48a67e0e40aa59f0f714b014eb8b8064
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '879'
 ht-degree: 31%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 31%
 
    >[!NOTE]
    >
-   >目前支援Amazon S3、SFTP和Azure [!DNL Journey Optimizer].
+   >目前Amazon S3和SFTP<!--and Azure--> 在中支援 [!DNL Journey Optimizer].
 
 1. 填寫伺服器的詳細資料和認證，例如伺服器位址、存取金鑰等。
 
@@ -135,7 +135,7 @@ ht-degree: 31%
 
 1. 選取檔案格式： **[!UICONTROL CSV]** 或 **[!UICONTROL 文字分隔]**.
 
-1. 如果您選取 **[!UICONTROL 文字分隔]**，定義您選擇的欄分隔符號：表格、分號、垂直號或&amp;符號。
+1. 如果您選取 **[!UICONTROL 文字分隔]**，定義您選擇的欄分隔符號：表格、分號或垂直號<!--or ampersand-->.
 
    ![](assets/surface-direct-mail-column-separator.png)
 
