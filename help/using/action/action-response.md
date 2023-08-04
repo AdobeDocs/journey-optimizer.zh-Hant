@@ -11,16 +11,16 @@ badge: label="Beta" type="Informative"
 keywords: 動作，協力廠商，自訂，歷程， API
 hide: true
 hidefromtoc: true
-source-git-commit: 1674eceb1b9ae4cf8cd3f19deda26a9e72290106
+source-git-commit: d94988dd491759fe6ed8489403a3f1a295b19ef5
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 9%
+source-wordcount: '497'
+ht-degree: 4%
 
 ---
 
 # 自訂動作增強功能
 
-您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。
+您現在可以在自訂動作中利用API呼叫回應，並根據這些回應協調您的歷程。
 
 此功能僅適用於使用資料來源時。 您現在可以將其用於自訂動作。
 
@@ -55,11 +55,11 @@ ht-degree: 9%
 
 1. 按一下 **回應** 欄位。
 
-   ![](assets/action-response3.png){width="70%" align="left"}
+   ![](assets/action-response3.png){width="80%" align="left"}
 
 1. 貼上呼叫傳回之裝載的範例。 驗證欄位型別是否正確（字串、整數等）。
 
-   ![](assets/action-response4.png){width="70%" align="left"}
+   ![](assets/action-response4.png){width="80%" align="left"}
 
 1. 按一下&#x200B;**儲存**。
 
@@ -121,15 +121,15 @@ ht-degree: 9%
 
 例如，您可以新增條件來檢查風速。 當人員進入衝浪店時，如果天氣太風，您可以傳送推播。
 
-![](assets/action-response5.png){width="70%" align="left"}
+![](assets/action-response5.png)
 
 在條件中，您需要使用進階編輯器以運用 **內容** 節點。
 
-![](assets/action-response6.png){width="70%" align="left"}
+![](assets/action-response6.png)
 
 您也可以善用 **jo_status** 程式碼，用於在發生錯誤時建立新路徑。
 
-![](assets/action-response7.png){width="70%" align="left"}
+![](assets/action-response7.png)
 
 >[!WARNING]
 >
@@ -142,15 +142,19 @@ ht-degree: 9%
 * 上限設定錯誤： **上限**
 * 內部錯誤： **internalError**
 
+如需歷程活動的詳細資訊，請參閱 [本節](../building-journeys/about-journey-activities.md).
+
 ### 訊息個人化
 
 您可以使用回應欄位來個人化您的訊息。 在我們的範例中，在推播通知中，我們使用速度值來個人化內容。
 
-![](assets/action-response8.png){width="70%" align="left"}
+![](assets/action-response8.png)
 
 >[!NOTE]
 >
->在指定歷程中，每個設定檔只會執行一次呼叫。 多則訊息不會觸發新呼叫。
+>在指定歷程中，每個設定檔只會執行一次呼叫。 傳送到相同設定檔的多個訊息不會觸發新呼叫。
+
+如需訊息個人化的詳細資訊，請參閱 [本節](../personalization/personalize.md).
 
 ## 運算式語法
 
@@ -175,4 +179,4 @@ ht-degree: 9%
 @action{OpenWeatherMap.main.temp, defaultValue: @{myEvent.temperature}} 
 ```
 
-
+如需欄位參考的詳細資訊，請參閱 [本節](../building-journeys/expression/field-references.md).
