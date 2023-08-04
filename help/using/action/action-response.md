@@ -11,28 +11,28 @@ badge: label="Beta" type="Informative"
 keywords: 動作，協力廠商，自訂，歷程， API
 hide: true
 hidefromtoc: true
-source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
+source-git-commit: 1674eceb1b9ae4cf8cd3f19deda26a9e72290106
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 9%
 
 ---
 
-# 自訂動作增強功能 {#configure-an-action}
+# 自訂動作增強功能
 
 您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。
 
 此功能僅適用於使用資料來源時。 您現在可以將其用於自訂動作。
 
-> [!AVAILABILITY]
+>[!AVAILABILITY]
 >
-> 此功能目前以私人測試版的形式提供。
+>此功能目前以私人測試版的形式提供。
 
 ## 定義自訂動作
 
 定義自訂動作時，已提供兩個增強功能：新增GET方法和新的裝載回應欄位。 其他選項和引數則保持不變。 請參閱[此頁面](../action/about-custom-action-configuration.md)。
 
-### 端點設定 {#url-configuration}
+### 端點設定
 
 此 **URL設定** 區段已重新命名 **端點設定**.
 
@@ -40,16 +40,16 @@ ht-degree: 9%
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### 裝載 {#url-configuration}
+### 裝載
 
 此 **動作引數** 區段已重新命名 **裝載**. 有兩個欄位可供使用：
 
 * 此 **請求** 欄位：此欄位僅適用於POST和PUT呼叫方法。
 * 此 **回應** 欄位：這是新功能。 此欄位適用於所有呼叫方法。
 
-> [!NOTE]
+>[!NOTE]
 > 
-> 這兩個欄位都是選擇性的。
+>這兩個欄位都是選擇性的。
 
 ![](assets/action-response2.png){width="70%" align="left"}
 
@@ -131,9 +131,9 @@ ht-degree: 9%
 
 ![](assets/action-response7.png){width="70%" align="left"}
 
-> [!WARNING]
+>[!WARNING]
 >
-> 只有新建立的自訂動作才會立即包含此欄位。 如果您想要將其用於現有的自訂動作，則需要更新動作。 例如，您可以更新說明並儲存。
+>只有新建立的自訂動作才會立即包含此欄位。 如果您想要將其用於現有的自訂動作，則需要更新動作。 例如，您可以更新說明並儲存。
 
 以下是此欄位可能的值：
 
@@ -148,9 +148,9 @@ ht-degree: 9%
 
 ![](assets/action-response8.png){width="70%" align="left"}
 
-> [!NOTE]
+>[!NOTE]
 >
-> 在指定歷程中，每個設定檔只會執行一次呼叫。 多則訊息不會觸發新呼叫。
+>在指定歷程中，每個設定檔只會執行一次呼叫。 多則訊息不會觸發新呼叫。
 
 ## 運算式語法
 
