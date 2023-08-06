@@ -11,9 +11,9 @@ badge: label="Beta" type="Informative"
 keywords: 動作，協力廠商，自訂，歷程， API
 hide: true
 hidefromtoc: true
-source-git-commit: d94988dd491759fe6ed8489403a3f1a295b19ef5
+source-git-commit: 00535d5c50bb89b308a74ab95f7b68449ba5b819
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '665'
 ht-degree: 4%
 
 ---
@@ -27,6 +27,10 @@ ht-degree: 4%
 >[!AVAILABILITY]
 >
 >此功能目前以私人測試版的形式提供。
+
+>[!WARNING]
+>
+>自訂動作應僅搭配私人或內部端點使用，並搭配適當的上限或節流限制使用。 請參閱[此頁面](../configuration/external-systems.md)。
 
 ## 定義自訂動作
 
@@ -57,104 +61,80 @@ ht-degree: 4%
 
    ![](assets/action-response3.png){width="80%" align="left"}
 
-1. 貼上呼叫傳回之裝載的範例。 驗證欄位型別是否正確（字串、整數等）。
+1. 貼上呼叫傳回之裝載的範例。 驗證欄位型別是否正確（字串、整數等）。 以下是呼叫期間擷取的回應裝載範例。 我們的本機端點會傳送熟客點數和設定檔的狀態。
+
+   ```
+   {
+   "customerID" : "xY12hye",    
+   "status":"gold",
+   "points": 1290 }
+   ```
 
    ![](assets/action-response4.png){width="80%" align="left"}
 
+   每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。
+
+1. 我們也將customerID新增為查詢引數。
+
+   ![](assets/action-response9.png){width="80%" align="left"}
+
 1. 按一下&#x200B;**儲存**。
 
-每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。請注意，您可以按一下 **貼上新裝載** 如果您想要變更目前已傳遞的裝載。
-
-以下是在呼叫氣象API服務期間擷取的回應裝載範例：
-
-```
-{
-    "coord": {
-        "lon": 2.3488,
-        "lat": 48.8534
-    },
-    "weather": [
-        {
-            "id": 800,
-            "main": "Clear",
-            "description": "clear sky",
-            "icon": "01d"
-        }
-    ],
-    "base": "stations",
-    "main": {
-        "temp": 29.78,
-        "feels_like": 29.78,
-        "temp_min": 29.92,
-        "temp_max": 30.43,
-        "pressure": 1016,
-        "humidity": 31
-    },
-    "visibility": 10000,
-    "wind": {
-        "speed": 5.66,
-        "deg": 70
-    },
-    "clouds": {
-        "all": 0
-    },
-    "dt": 1686066467,
-    "sys": {
-        "type": 1,
-        "id": 6550,
-        "country": "FR",
-        "sunrise": 1686023350,
-        "sunset": 1686080973
-    },
-    "timezone": 7200,
-    "id": 2988507,
-    "name": "Paris",
-    "cod": 200
-}
-```
-
-## 在歷程中運用回應
+## 在歷程中善用回應
 
 只需將自訂動作新增至歷程即可。 然後，您可以在條件、其他動作和訊息個人化中運用回應裝載欄位。
 
-### 條件和動作
-
-例如，您可以新增條件來檢查風速。 當人員進入衝浪店時，如果天氣太風，您可以傳送推播。
+例如，您可以新增條件以檢查熟客點數。 當人員進入餐廳時，您的本機端點會傳送包含設定檔忠誠度資訊的呼叫。 如果設定檔為黃金客戶，則可傳送推播。 如果在呼叫中偵測到錯誤，請傳送自訂動作以通知您的系統管理員。
 
 ![](assets/action-response5.png)
 
-在條件中，您需要使用進階編輯器以運用 **內容** 節點。
+1. 新增您的事件和先前建立的熟客方案自訂動作。
 
-![](assets/action-response6.png)
+1. 在忠誠度自訂動作中，將客戶ID查詢引數對應至設定檔ID。 核取選項 **在逾時或錯誤的情況下新增替代路徑**.
 
-您也可以善用 **jo_status** 程式碼，用於在發生錯誤時建立新路徑。
+   ![](assets/action-response10.png)
 
-![](assets/action-response7.png)
+1. 在第一個分支中，新增條件並使用進階編輯器在 **內容** 節點。
 
->[!WARNING]
->
->只有新建立的自訂動作才會立即包含此欄位。 如果您想要將其用於現有的自訂動作，則需要更新動作。 例如，您可以更新說明並儲存。
+   ![](assets/action-response6.png)
+
+1. 然後新增推播，並使用回應欄位個人化您的訊息。 在範例中，我們使用忠誠度點數和客戶狀態來個人化內容。 動作回應欄位位於 **內容屬性** > **Journey Orchestration** > **動作**.
+
+   ![](assets/action-response8.png)
+
+   >[!NOTE]
+   >
+   >每個輸入自訂動作的設定檔都會觸發呼叫。 即使回應一律相同，歷程仍會為每個設定檔執行一個呼叫。
+
+1. 在逾時和錯誤分支中，新增條件並利用內建 **jo_status_code** 欄位。 在我們的範例中，我們使用
+   **http_400** 錯誤型別。 請參閱[本節](#error-status)。
+
+   ```
+   @action{ActionLoyalty.jo_status_code} == "http_400"
+   ```
+
+   ![](assets/action-response7.png)
+
+1. 新增將傳送給您的組織的自訂動作。
+
+   ![](assets/action-response11.png)
+
+## 錯誤狀態{#error-status}
+
+此 **jo_status_code** 欄位一律可用，即使未定義任何回應裝載。
 
 以下是此欄位可能的值：
 
-* http狀態代碼：適用於執行個體 **http_200** 或 **http_400**
+* http狀態碼： http_`<HTTP API call returned code>`，例如http_200或http_400
 * 逾時錯誤： **逾時**
 * 上限設定錯誤： **上限**
 * 內部錯誤： **internalError**
 
-如需歷程活動的詳細資訊，請參閱 [本節](../building-journeys/about-journey-activities.md).
+當傳回的http程式碼大於2xx或發生錯誤時，會將動作呼叫視為錯誤。 在這種情況下，歷程會流向專用逾時或錯誤分支。
 
-### 訊息個人化
-
-您可以使用回應欄位來個人化您的訊息。 在我們的範例中，在推播通知中，我們使用速度值來個人化內容。
-
-![](assets/action-response8.png)
-
->[!NOTE]
+>[!WARNING]
 >
->在指定歷程中，每個設定檔只會執行一次呼叫。 傳送到相同設定檔的多個訊息不會觸發新呼叫。
-
-如需訊息個人化的詳細資訊，請參閱 [本節](../personalization/personalize.md).
+>只有新建立的自訂動作包含 **jo_status_code** 現成欄位。 如果您想要將其用於現有的自訂動作，則需要更新動作。 例如，您可以更新說明並儲存。
 
 ## 運算式語法
 
