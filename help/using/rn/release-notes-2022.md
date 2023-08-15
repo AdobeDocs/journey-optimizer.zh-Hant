@@ -5,7 +5,7 @@ title: 2022 年發行說明
 description: Journey Optimizer 2022 年發行說明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3575'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 **管理**
 
 * 使用者介面已新增訊息，以警告子網域、登陸頁面子網域、PTR 記錄和 IP 集區設定是所有沙箱的共同設定，因此，對其中一個設定所做的任何修改也會影響生產沙箱。
-* 已修改從使用者介面上傳隱藏清單為 CSV 檔案的步驟。 [了解更多](../configuration/manage-suppression-list.md#download-suppression-list)
+* 已修改從使用者介面上傳禁止名單為 CSV 檔案的步驟。 [了解更多](../configuration/manage-suppression-list.md#download-suppression-list)
 
 **行銷活動**
 
@@ -212,7 +212,7 @@ ht-degree: 100%
 **管理**
 
 * 現在啟用或停用允許清單時，會顯示新警告以詳細說明每個動作的影響。 [了解更多](../configuration/allow-list.md#enable-allow-list)
-* 更新了用於建立管道表面、建立 IP 集區、管理隱藏清單和允許清單以及設定 SMS 管道的使用者介面。
+* 更新了用於建立管道表面、建立 IP 集區、管理禁止名單和允許清單以及設定 SMS 管道的使用者介面。
 * 現在，為指定子網域建立第一個管道表面時，處理時間將需要 10 分鐘到 10 天，使用該子網域的後續表面最多只需 3 小時。 [了解更多](../configuration/channel-surfaces.md#create-channel-surface)
 * 更新建立登陸頁面預設集和登陸頁面子網域的使用者介面。 [了解更多](../landing-pages/lp-subdomains.md)
 
