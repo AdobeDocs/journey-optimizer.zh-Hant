@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面，建立，發佈
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 2a443c1b264dd8c9a2a2f5082d4c2ac373cdddfa
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 27%
+source-wordcount: '1783'
+ht-degree: 24%
 
 ---
 
@@ -21,6 +21,12 @@ ht-degree: 27%
 >[!CAUTION]
 >
 >若要能夠測試和發佈登入頁面，您必須擁有 **[!UICONTROL 發佈訊息]** 許可權。
+
+若要將您的客戶導向至您要在他們按一下特定連結時顯示的已定義網頁，請建立登入頁面，位於 [!DNL Journey Optimizer]，設定主要頁面及任何子頁面，並進行測試與發佈。
+
+>[!CAUTION]
+>
+>僅將以下情況定義的URL複製貼入網頁瀏覽器，無法存取您的登入頁面： [建立頁面](#create-landing-page)，即使已發佈。 相反地，您可以使用預覽函式來測試它，如中所述 [本節](#test-landing-page).
 
 ## 存取登陸頁面 {#access-landing-pages}
 
@@ -95,6 +101,10 @@ ht-degree: 27%
 
 設定並設計 [主要頁面](#configure-primary-page)，以及 [子頁面](#configure-subpages) 如果有，您可以 [測試](#test-landing-page) 和 [發佈](#publish-landing-page) 您的登陸頁面。
 
+>[!CAUTION]
+>
+>即使已發佈，僅將定義的URL複製貼到網頁瀏覽器中，仍無法存取您的登入頁面。 相反地，您可以使用預覽函式來測試它，如中所述 [本節](#test-landing-page).
+
 ## 設定主要頁面 {#configure-primary-page}
 
 >[!CONTEXTUALHELP]
@@ -125,12 +135,10 @@ ht-degree: 27%
    >[!CAUTION]
    >
    >登陸頁面URL必須是唯一的。
-
-   ![](assets/lp_access-url.png)
-
-   >[!NOTE]
    >
    >您無法將此URL複製貼入網頁瀏覽器，即使已發佈，仍可存取您的登入頁面。 相反地，您可以使用預覽函式來測試它，如中所述 [本節](#test-landing-page).
+
+   ![](assets/lp_access-url.png)
 
 1. 如果您希望登入頁面預先載入已可用的表單資料，請選取 **[!UICONTROL 使用設定檔資訊預先填寫表單欄位]**.
 
@@ -196,6 +204,8 @@ ht-degree: 27%
    >[!CAUTION]
    >
    >登陸頁面URL必須是唯一的。
+   >
+   >您無法將此URL複製並貼至網頁瀏覽器，即使已發佈，仍無法存取您的子頁面。 相反地，您可以使用預覽函式來測試它，如中所述 [本節](#test-landing-page).
 
 ![](assets/lp_subpage-settings.png)
 
@@ -298,5 +308,6 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->您可以透過特定報告監控您的登入頁面影響。 [了解更多](../reports/lp-report-live.md)
+>僅將以下情況定義的URL複製貼入網頁瀏覽器，無法存取您的登入頁面： [建立頁面](#create-landing-page)，即使已發佈。 相反地，您可以使用預覽函式來測試它，如中所述 [本節](#test-landing-page).
 
+您可以透過特定報告監控您的登入頁面影響。 [了解更多](../reports/lp-report-live.md)
