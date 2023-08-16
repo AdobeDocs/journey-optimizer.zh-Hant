@@ -101,7 +101,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="快速傳送模式"
->abstract="快速傳送模式讓您可以在推波管道上向 3000 萬以下的對象規模執行告訴訊息傳送。"
+>abstract="快速傳送模式讓您可以在推播管道上向 3000 萬以下的對象規模執行告訴訊息傳送。"
 
 快速傳送模式是一種 [!DNL Journey Optimizer] 附加元件允許非常快速的推送訊息透過行銷活動以大量傳送。
 
