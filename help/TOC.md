@@ -6,7 +6,7 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 100%
 
@@ -324,7 +324,7 @@ ht-degree: 100%
       + [查詢範例](using/reports/query-examples.md)
    + 傳遞能力 {#deliverability}
       + [開始使用傳遞能力](using/reports/deliverability.md)
-      + [瞭解隱藏清單](using/reports/suppression-list.md)
+      + [瞭解禁止名單](using/reports/suppression-list.md)
    + [警報](using/reports/alerts.md)
    + [使用 Customer Journey Analytics](using/reports/cja-ajo.md)
 + 決定管理 {#offer-decisioning}
@@ -441,7 +441,7 @@ ht-degree: 100%
       + [建立 IP 池](using/configuration/ip-pools.md)
    + [設定頻道介面](using/configuration/channel-surfaces.md)
    + 監視電子郵件地址 {#monitor-reputation}
-      + [隱藏清單](using/configuration/manage-suppression-list.md)
+      + [禁止名單](using/configuration/manage-suppression-list.md)
       + [重試次數](using/configuration/retries.md)
       + [允許清單](using/configuration/allow-list.md)
    + [支援封存](using/configuration/archiving-support.md)
