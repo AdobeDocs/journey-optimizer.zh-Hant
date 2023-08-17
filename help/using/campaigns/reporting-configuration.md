@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 設定，實驗，報告，最佳化工具
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
+source-git-commit: cab7fb06039b2d483f403361f6a46d2aadcadff0
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 35%
+source-wordcount: '636'
+ht-degree: 38%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 35%
 
   例如，如果您想瞭解電子郵件促銷活動對商業資料 (如採購或訂單) 的影響，則需要建立體驗事件資料集 `Commerce Details` 欄位群組。 
 
-  同樣地，如果您想要報告行動互動，則需要建立體驗事件資料集「應用程式詳細資料」欄位群組。
+  同樣，如果要報告行動互動，則需要建立體驗事件資料集 `Application Details` 欄位群組。 
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
