@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 12%
+source-wordcount: '1060'
+ht-degree: 11%
 
 ---
 
@@ -40,6 +40,10 @@ ht-degree: 12%
 目前支援兩種型別的實作，以便能在您的Web屬性上編寫和傳送Web Channel行銷活動：
 
 * 僅限使用者端 — 若要對網站新增修改，您必須實作 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant){target="_blank"} 在您網站上的。
+
+  >[!NOTE]
+  >
+  >請確認您的AEP Web SDK版本為2.16或更高版本。
 
 * 混合模式 — 您可以使用 [AEP Edge Network伺服器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hant){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 
@@ -126,6 +130,24 @@ ht-degree: 12%
   此合併原則的使用者為 [!DNL Journey Optimizer] 傳入頻道，可在邊緣正確啟用和發佈傳入行銷活動。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant){target="_blank"}
 
   ![](assets/web-aep-merge-policy.png)
+
+## 內容實驗先決條件 {#experiment-prerequisites}
+
+若要啟用網頁管道的內容實驗，您必須確定 [資料集](../data/get-started-datasets.md) 用於您的Web實作 [資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant){target="_blank"} 也會出現在您的報告設定中。
+
+換言之，在設定實驗報告時，如果您新增的資料集未出現在網頁資料流中，則網頁資料不會顯示在內容實驗報告中。
+
+瞭解如何在中新增內容實驗報告的資料集 [本節](../campaigns/reporting-configuration.md#add-datasets).
+
+>[!NOTE]
+>
+>資料集是由 [!DNL Journey Optimizer] 報告系統並且不會影響資料收集或資料擷取。
+
+如果您是 **非** 使用以下預先定義的 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"})，請務必新增下列欄位群組： `Experience Event - Proposition Interactions`， `Application Details`， `Commerce Details`、和 `Web Details`. 以下專案需要這些選項 [!DNL Journey Optimizer] 內容實驗報告，追蹤每個設定檔參與哪些實驗與處理。
+
+>[!NOTE]
+>
+>新增這些欄位群組不會影響正常的資料收集。 它僅適用於執行實驗的頁面，而保留所有其他追蹤不變。
 
 ## 資產的品牌網域 {#branded-domains-for-assets}
 

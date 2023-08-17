@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 設定，實驗，報告，最佳化工具
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: c83305a27d987fdf7861b7c2fc720cc4a6aa260b
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '638'
 ht-degree: 35%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="設定資料集以進行報告"
->abstract="報告設定可讓您擷取將在行銷活動報表的「物件」索引標籤中使用的其他量度。必須由技術使用者執行。"
+>abstract="報告設定可讓您擷取將用於行銷活動報告的其他量度。 必須由技術使用者執行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
@@ -30,7 +30,7 @@ ht-degree: 35%
 
 資料來源設定可讓您定義系統連線，以擷取將用於報告的其他資訊。
 
-<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports. [Learn more](content-experiment.md#objectives-global)-->
+<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports.-->
 
 >[!NOTE]
 >
@@ -49,17 +49,17 @@ ht-degree: 35%
 
 * 您只能新增事件型別資料集。
 
-* 這些資料集必須包括 **體驗事件 — 主張互動** [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}.
+* 這些資料集必須包括 `Experience Event - Proposition Interactions` [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}.
 
-* 這些資料集可能也包含下列其中一項 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： **應用程式詳細資料**， **商業細節**， **網頁詳細資訊**.
+* 這些資料集可能也包含下列其中一項 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： `Application Details`， `Commerce Details`， `Web Details`.
 
   >[!NOTE]
   >
   >可能還包括其他欄位群組，但Journey Optimizer報表中目前僅支援上述欄位群組。
 
-  例如，如果您想瞭解電子郵件行銷活動對商業資料（如購買或訂單）的影響，則需要使用建立體驗事件資料集 **商業細節** 欄位群組。
+  例如，如果您想瞭解電子郵件促銷活動對商業資料 (如採購或訂單) 的影響，則需要建立體驗事件資料集 `Commerce Details` 欄位群組。 
 
-  同樣地，如果您想要報告行動互動，則需要建立體驗事件資料集，包含 **應用程式詳細資料** 欄位群組。
+  同樣地，如果您想要報告行動互動，則需要建立體驗事件資料集「應用程式詳細資料」欄位群組。
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
@@ -126,6 +126,12 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
    >[!CAUTION]
    >
    >如果選取了非事件類型的資料集，則無法繼續。
+
+請注意，針對網頁和應用程式內頻道，您需要確認 [資料集](../data/get-started-datasets.md) 針對資料收集所設定的專案也會新增至此報告設定。 否則，網頁和應用程式內資料將不會顯示在內容實驗報表中。
+
+* 瞭解更多有關Web通道的內容實驗先決條件，請參閱 [本節](../web/web-prerequisites.md#experiment-prerequisites).
+
+* 進一步瞭解中的應用程式內頻道設定，請參閱 [本節](../in-app/inapp-configuration.md).
 
 <!--
 When building your campaign reports, you can now see the metrics corresponding to the field groups used in the datasets you added. Go to the **[!UICONTROL Objectives]** tab and select the metrics of your choice to better fine-tune your reports. [Learn more](content-experiment.md#objectives-global)

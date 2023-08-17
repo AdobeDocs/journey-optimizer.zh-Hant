@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: 應用程式內、訊息、設定、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 7de25a5e82837190ada3e67f3b202a4934c9b793
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 11%
+source-wordcount: '389'
+ht-degree: 10%
 
 ---
 
@@ -24,7 +24,13 @@ ht-degree: 11%
 
    ![](assets/inapp_config_6.png)
 
-1. 然後，存取 **[!UICONTROL 應用程式表面]** 功能表，然後按一下 **[!UICONTROL 建立應用程式表面]**.
+   >[!NOTE]
+   >
+   >若要啟用應用程式內頻道的內容實驗，您必須確定 [資料集](../data/get-started-datasets.md) 已在您的應用程式內使用 [資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant){target="_blank"} 也會出現在您的報告設定中 — 否則，應用程式內資料將不會顯示在內容實驗報告中。 [瞭解如何新增資料集](../campaigns/reporting-configuration.md#add-datasets)
+   >
+   >資料集是由 [!DNL Journey Optimizer] 報告系統並且不會影響資料收集或資料擷取。
+
+1. 然後，存取 **[!UICONTROL 應用程式表面]** 功能表並按一下 **[!UICONTROL 建立應用程式表面]**.
 
    >[!NOTE]
    >
