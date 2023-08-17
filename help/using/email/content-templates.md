@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: d5c9297ef3e504b0ef9462b30882cdc4dba5b106
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1113'
 ht-degree: 12%
 
 ---
@@ -176,6 +176,10 @@ ht-degree: 12%
    * 在傳送校樣之前，您必須選取 [電子郵件表面](../configuration/channel-surfaces.md) 這些將用於測試您的內容。
 
      ![](assets/content-template-stimulate-proof-surface.png)
+
+>[!CAUTION]
+>
+>測試電子郵件內容範本時目前不支援追蹤，這表示追蹤事件、UTM引數和登入頁面連結將在從範本傳送的校樣中無效。 若要測試追蹤， [使用內容範本](email-templates.md) 在電子郵件和 [傳送證明](preview.md#send-proofs).
 
 ## 操作說明影片 {#video-templates}
 
