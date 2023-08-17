@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 授權使用情況儀表板
-description: 瞭解Journey Optimizer授權使用儀表板
+description: 瞭解Journey Optimizer授權使用控制面板
 feature: Overview
 topic: Content Management
 role: User
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # 授權使用情況儀表板 {#license-usage}
 
-此 [!DNL Adobe Journey Optimizer] [使用者介面](../start/user-interface.md) 提供一個儀表板，顯示貴組織授權使用的重要資訊，如每日快照期間所擷取。
+此 [!DNL Adobe Journey Optimizer] [使用者介面](../start/user-interface.md) 提供一個儀表板，顯示貴組織授權使用情況的重要資訊，如每日快照期間所擷取。
 
 若要存取此儀表板，請前往 **[!UICONTROL 管理]** > **[!UICONTROL 授權使用情況]**. 如此將可開啟 **[!UICONTROL 概觀]** 標籤顯示控制面板。
 
@@ -25,7 +25,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->若要檢視控制面板，您必須被授予 [檢視授權使用量儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"} 許可權。
+>若要檢視控制面板，您必須被授予 [檢視授權使用情況儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"} 許可權。
 
 在Adobe Experience Platform檔案中進一步瞭解：
 

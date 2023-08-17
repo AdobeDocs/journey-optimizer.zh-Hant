@@ -1,5 +1,5 @@
 ---
-title: 刪除個人化優惠
+title: 刪除個人化優惠方案
 description: 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 feature: Offers
 topic: Integrations
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # 刪除個人化優惠 {#delete-personalized-offer}
 
-有時可能必須移除(DELETE)個人化優惠方案。 只能刪除您在租使用者容器中建立的個人化優惠。 這是透過對「 」執行DELETE請求來完成 [!DNL Offer Library] API使用您要刪除的個人化優惠的$id。
+有時可能必須移除(DELETE)個人化優惠方案。 您只能在租使用者容器中建立的個人化優惠方案才會被刪除。 這可透過向以下對象執行DELETE請求來完成 [!DNL Offer Library] API使用您要刪除之個人化優惠的$id。
 
 **API格式**
 

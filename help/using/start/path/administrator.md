@@ -27,6 +27,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >作為&#x200B;**系統管理員**，如果您在 [!DNL Journey Optimizer] 中看不到&#x200B;**[!UICONTROL 沙箱]**&#x200B;功能表，請在 [Admin Console](https://adminconsole.adobe.com/){target="_blank"} 更新您的權限。在[本頁](../../administration/permissions.md#edit-product-profile)了解如何更新您的產品設定檔。
+   >
 
 1. **了解產品設定檔**。產品設定檔是一組統一權限，可讓使用者存取介面中的特定功能或物件。 在[現成可用的產品設定檔](../../administration/ootb-product-profiles.md)區段中了解更多。
 
@@ -43,6 +44,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >作為&#x200B;**系統管理員**，如果您在 [!DNL Journey Optimizer] 中看不到&#x200B;**[!UICONTROL 管道]**&#x200B;功能表，請在 [Admin Console](https://adminconsole.adobe.com/){target="_blank"} 中更新您的權限。在[本頁](../../administration/permissions.md#edit-product-profile)了解如何更新您的產品設定檔。
+>
 
 請遵循以下步驟：
 
@@ -54,7 +56,7 @@ ht-degree: 100%
 
    * 設定 **SMS 通道**&#x200B;來設定簡訊所需的所有技術參數。 [了解更多](../../sms/sms-configuration.md)
 
-   * 管理將電子郵件地址傳送至隱藏清單前執行&#x200B;**重試**&#x200B;的天數。[了解更多](../../configuration/manage-suppression-list.md)
+   * 管理將電子郵件地址傳送至禁止名單前執行&#x200B;**重試**&#x200B;的天數。[了解更多](../../configuration/manage-suppression-list.md)
 
 1. **委派子網域**：若要在 Journey Optimizer 中使用任何新子網域，第一步是將其委派。 [了解更多](../../configuration/about-subdomain-delegation.md)
 
@@ -66,8 +68,10 @@ ht-degree: 100%
 
 1. **管理隱藏和允許的清單**：透過隱藏和允許清單改善您的傳遞能力
 
-   * [隱藏清單](../../reports/suppression-list.md)包含您要從傳送中排除的電子郵件地址，因為傳送給這些聯絡人可能會損害您的傳送信譽和傳送率。 您可以監控自動排除而無法傳送歷程的所有電子郵件地址，例如無效地址、持續暫時性退信且可能對電子郵件信譽造成負面影響的地址，以及對您的其中一封電子郵件發出某種垃圾郵件投訴的收件者。 了解如何管理[隱藏清單](../../configuration/manage-suppression-list.md)和[重試](../../configuration/retries.md)。
+   * [禁止名單](../../reports/suppression-list.md)包含您要從傳送中排除的電子郵件地址，因為傳送給這些聯絡人可能會損害您的傳送信譽和傳送率。 您可以監控自動排除而無法傳送歷程的所有電子郵件地址，例如無效地址、持續暫時性退信且可能對電子郵件信譽造成負面影響的地址，以及對您的其中一封電子郵件發出某種垃圾郵件投訴的收件者。 了解如何管理[禁止名單](../../configuration/manage-suppression-list.md)和[重試](../../configuration/retries.md)。
+
    ![](../assets/suppression-list-filtering-example.png)
 
    * 此[允許清單](../../configuration/allow-list.md)可讓您指定個別電子郵件地址或網域，這些地址或網域將是唯一獲授權接收您從特定沙箱傳送之電子郵件的收件者或網域。 此舉可防止您在測試環境中意外傳送電子郵件至真實的客戶地址。 了解如何[啟用允許的清單](../../configuration/allow-list.md)。
+
    在[此頁面](../../reports/deliverability.md)進一步瞭解 [!DNL Adobe Journey Optimizer] 中的傳遞管理。

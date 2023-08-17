@@ -30,7 +30,7 @@ ht-degree: 23%
 
 當您定位設定檔時，資料庫中可能會提供數個電子郵件地址或電話號碼（專業電子郵件地址、個人電話號碼等）。
 
-在這種情況下， [!DNL Journey Optimizer] 使用 **[!UICONTROL 執行欄位]** 以決定從設定檔服務優先使用哪個電子郵件地址或電話號碼。
+在這種情況下， [!DNL Journey Optimizer] 使用 **[!UICONTROL 執行欄位]** 以決定要優先使用設定檔服務中的電子郵件地址或電話號碼。
 
 若要檢查目前預設使用的欄位，請存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL 一般]** > **[!UICONTROL 執行欄位]** 功能表。
 
@@ -38,13 +38,13 @@ ht-degree: 23%
 
 目前的值會用於沙箱層級的所有傳送。 您可以視需要更新這些欄位。
 
-在大多數情況下，您會全域變更執行欄位，並定義用於所有電子郵件或簡訊訊息的值。 <!--[Learn how](#admin-settings)-->
+在大多數情況下，您將會全域變更執行欄位，並定義用於所有電子郵件或簡訊訊息的值。 <!--[Learn how](#admin-settings)-->
 
 <!--In some specific use cases only, you can override the value set globally and define a different value at the journey level. [Learn more](#journey-parameters)-->
 
 ## 更新管理設定 {#admin-settings}
 
-若要在沙箱層級全域變更執行欄位，請遵循以下步驟。
+若要在沙箱層級全域變更執行欄位，請遵循下列步驟。
 
 1. 存取  **[!UICONTROL 頻道]** > **[!UICONTROL 一般]** > **[!UICONTROL 執行欄位]** 功能表。
 
@@ -52,11 +52,11 @@ ht-degree: 23%
 
    ![](assets/primary-address.png)
 
-1. 按一下您選擇的目前欄位或編輯圖示以選擇新欄位。
+1. 按一下您選取的目前欄位或編輯圖示以選取新欄位。
 
    ![](assets/primary-address-edit.png)
 
-1. 將顯示可用電子郵件型別XDM欄位的清單。 選取要使用的欄位。
+1. 可用的電子郵件型別XDM欄位清單隨即顯示。 選取要使用的欄位。
 
    ![](assets/primary-address-select-field.png)
 
@@ -68,7 +68,7 @@ ht-degree: 23%
 
 ## 覆寫歷程引數中的值 {#journey-parameters}
 
-僅針對特定使用案例，您可以全域覆寫執行欄位集，並在歷程層級（尤其是電子郵件頻道）定義不同的值。
+僅針對特定使用案例，您可以全域覆寫執行欄位設定，並在歷程層級定義不同的值，尤其是電子郵件頻道。
 
 新增 **[!UICONTROL 電子郵件]** 動作變成 [歷程](../email/create-email.md#create-email-journey-campaign)，主要電子郵件地址會顯示在歷程進階引數下。
 
@@ -82,5 +82,5 @@ ht-degree: 23%
 
 覆寫此值可能很實用，例如：
 
-* 測試電子郵件。 您可以新增自己的電子郵件地址：發佈歷程後，系統會傳送電子郵件給您。
+* 測試電子郵件。 您可以新增自己的電子郵件地址：發佈歷程後，會傳送電子郵件給您。
 * 傳送電子郵件給清單的訂閱者。 在[此使用案例](../building-journeys/message-to-subscribers-uc.md)中了解更多。

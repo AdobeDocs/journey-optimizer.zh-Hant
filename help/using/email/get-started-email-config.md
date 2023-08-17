@@ -47,6 +47,6 @@ ht-degree: 100%
 
    ![](../configuration/assets/primary-address-execution-fields.png)
 
-1. 管理將電子郵件地址傳送至隱藏清單前執行重試的天數。[了解更多](../configuration/manage-suppression-list.md)
+1. 管理將電子郵件地址傳送至禁止名單前執行重試的天數。[了解更多](../configuration/manage-suppression-list.md)
 
    ![](../configuration/assets/suppression-list-edit-retries.png)

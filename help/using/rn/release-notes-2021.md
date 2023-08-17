@@ -79,7 +79,7 @@ ht-degree: 89%
 
 **歷程**
 
-* **運算式編輯器**  - 身為超級使用者，您現在可以使用函式來處理地圖。 此功能可與訂閱清單搭配運用。 例如，您現在可以從訂閱清單取得對象電子郵件地址。 [在本範例進一步了解](../building-journeys/message-to-subscribers-uc.md)
+* **運算式編輯器**  - 身為超級使用者，您現在可以使用函式來處理地圖。 此功能可與訂閱清單搭配運用。 例如，您現在可以從對象取得訂閱清單中的電子郵件地址。 [在本範例進一步了解](../building-journeys/message-to-subscribers-uc.md)
 
 * **監控**  - 已增強即時歷程和測試模式的步驟事件。 [新欄位](../reports/sharing-field-list.md#serviceevents) 已新增與設定檔匯出作業有關的內容。 為了提供更佳的使用者體驗，步驟事件欄位現在會整理成不同類別。 所有先前的步驟事件欄位仍可在 [stepEvents](../reports/sharing-legacy-fields.md) 類別中使用。
 * **協助工具**  - 歷程已導入協助工具增強功能。
@@ -242,13 +242,13 @@ ht-degree: 89%
 <table>
 <thead>
 <tr>
-<th><strong>定義要排除的傳送地址 — 隱藏清單</strong><br/></th>
+<th><strong>定義要排除的傳送地址 — 禁止名單</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在可從使用者介面在隱藏清單新增電子郵件地址和網域，可逐一新增或透過 CSV 檔案上傳大量新增。</p>
+<p>現在可從使用者介面在禁止名單新增電子郵件地址和網域，可逐一新增或透過 CSV 檔案上傳大量新增。</p>
 <p>如需詳細資訊，請參閱<a href="../configuration/manage-suppression-list.md#add-addresses-and-domains">詳細文件</a>。</p>
 </td>
 </tr>
@@ -281,7 +281,7 @@ ht-degree: 89%
 **電子郵件設定**
 
 * **允許清單**  - 您現在可以透過 API 呼叫，在非生產沙箱上啟用和停用允許清單。 [進一步了解](../configuration/allow-list.md#enable-allow-list)
-* **導覽**  - 可在 **管理 > 管道 > 電子郵件設定 > 一般** 功能表中存取的隱藏清單，已移至新的 **隱藏清單** 子功能表，收集所有相關功能以便更輕鬆存取。 [進一步了解](../configuration/manage-suppression-list.md#access-suppression-list)
+* **導覽**  - 可在 **管理 > 管道 > 電子郵件設定 > 一般** 功能表中存取的禁止名單，已移至新的 **禁止名單** 子功能表，收集所有相關功能以便更輕鬆存取。 [進一步了解](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **決定管理**
 
@@ -337,7 +337,7 @@ ht-degree: 89%
 
 **歷程**
 
-* 在同一沙箱中同時執行的所有讀取對象的總節流率限製為每秒17,000則訊息。 [閱讀全文](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 對於在同一沙箱中同時執行的所有讀取對象，其總節流率限製為每秒17,000則訊息。 [閱讀全文](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * **快取期間** 欄位已從資料來源設定窗格中移除。 [閱讀全文](../datasource/about-data-sources.md)
 * 對於外部資料來源，現在會自動定義每秒 15 次呼叫的上限規則。 [閱讀全文](../configuration/external-systems.md#capping)
 * 對於即時歷程，歷程屬性畫面現在會顯示發佈日期和發佈歷程的使用者名稱。 [閱讀全文](../building-journeys/journey-gs.md#change-properties)
@@ -359,6 +359,6 @@ ht-degree: 89%
 * 修正導致批次電子郵件傳遞重複傳送訊息的問題。
 * 當重試期間結束後未執行電子郵件傳送時，現在會據此產生事件。
 * 修正「PTR 記錄」畫面中缺少 IP 資訊的問題。
-* 運算式編輯器中的選件邊欄現已開始本地化。
+* 現在運算式編輯器中已匯入本地化的優惠邊欄。
 * 修正資訊快顯視窗的間距錯誤。
 * 修正當電子郵件設計工具中上傳 HTML 檔案時，內部樣式表包含未支援的 `background-image` 屬性問題。

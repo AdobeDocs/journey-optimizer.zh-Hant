@@ -33,7 +33,7 @@ ht-degree: 22%
 | 字串 | 字串 |
 | 前置詞 | 字串 |
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `startWithIgnoreCase(<string>,<string>)`
 

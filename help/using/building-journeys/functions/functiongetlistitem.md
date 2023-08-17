@@ -40,7 +40,7 @@ ht-degree: 20%
 | list | listDateOnly |
 | 索引 | 整數 |
 
-## 簽章和傳回型別
+## 簽章與傳回型別
 
 `getListItem(<listInteger>,<index>)`
 
@@ -56,7 +56,7 @@ ht-degree: 20%
 
 `getListItem(<listDateTimeOnly>,<index>)`
 
-傳回不考慮時區的日期時間。
+傳回日期時間，不考慮時區。
 
 `getListItem(<listDateTime>,<index>)`
 

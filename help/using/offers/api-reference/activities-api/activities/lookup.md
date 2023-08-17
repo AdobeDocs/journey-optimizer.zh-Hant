@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # 查詢決定 {#look-up-decision}
 
-您可以透過向以下網站發出GET請求來查詢特定決策： [!DNL Offer Library] 包含任一決定的API `@id` 或請求路徑中的決定名稱。
+您可以透過向以下網址發出GET請求來查詢特定決策： [!DNL Offer Library] 包含其中一種決定的API `@id` 或請求路徑中決定的名稱。
 
 **API格式**
 
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | `{CONTAINER_ID}` | 決策所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ACTIVITIES}` | 定義與決定相關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
 | `id` | 用於比對 `@id` 個實體的屬性。 字串完全相符。 引數 `id` 和 `name` 不能一起使用。 | `xcore:offer-activity:124527ab00b2ebbc` |
-| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全符合，但可使用萬用字元。 引數&quot;id&quot;和&quot;name&quot;不能一起使用 | `LBAR` |
+| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數&quot;id&quot;和&quot;name&quot;不能一起使用 | `LBAR` |
 
 **要求**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **回應**
 
-成功的回應會傳回位置的詳細資訊，包括容器ID、執行個體ID和唯一決定的相關資訊 `@id`.
+成功的回應會傳回位置的詳細資料，包括容器ID、例項ID和唯一決定的相關資訊 `@id`.
 
 ```json
 {

@@ -1,6 +1,6 @@
 ---
 title: 建立位置
-description: 版位是用於展示優惠方案的容器。
+description: 版位是用來展示優惠方案的容器。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,13 +15,13 @@ ht-degree: 10%
 
 # 建立位置 {#create-placement}
 
-您可以透過向以下網站發出POST請求來建立版位： [!DNL Offer Library] API，同時提供容器ID。
+您可以透過向以下網站發出POST請求來建立位置： [!DNL Offer Library] API，同時提供容器ID。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
 下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
 
-| 標頭名稱 | 值 |
+| 頁首名稱 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
@@ -58,7 +58,7 @@ curl -X POST \
 
 **回應**
 
-成功的回應會傳回新建立位置的詳細資訊，包括其唯一的執行個體ID和位置 `@id`. 您可以在稍後的步驟中使用例證ID來更新或刪除您的位置。 您可以使用唯一版位 `@id` 在稍後的教學課程中，以建立決定、決定規則和遞補優惠。
+成功的回應會傳回新建立位置的詳細資訊，包括其唯一的執行個體ID和位置 `@id`. 您可在後續步驟中使用執行個體ID來更新或刪除您的位置。 您可以使用不重複的位置 `@id` 在稍後的教學課程中，以建立決定、決定規則和遞補優惠。
 
 ```json
 {

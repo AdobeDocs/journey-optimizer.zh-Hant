@@ -21,7 +21,7 @@ ht-degree: 11%
 
 下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
 
-| 標頭名稱 | 值 |
+| 頁首名稱 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
@@ -55,7 +55,7 @@ curl -X POST \
 
 **回應**
 
-成功的回應會傳回新建立的集合辨識符號的相關資訊，包括其唯一的執行個體ID和位置 `@id`. 您可以在稍後的步驟中使用執行個體ID來更新或刪除您的集合限定詞。 您可以使用唯一的集合限定詞 `@id` 在稍後的教學課程中建立集合和個人化優惠。
+成功的回應會傳回新建立的集合限定詞的相關資訊，包括其唯一的執行個體ID和位置 `@id`. 您可以在稍後的步驟中使用執行環境ID來更新或刪除您的集合限定詞。 您可以使用唯一的集合限定詞 `@id` 在稍後的教學課程中，以建立系列和個人化優惠。
 
 ```json
 {

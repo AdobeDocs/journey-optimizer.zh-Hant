@@ -17,7 +17,7 @@ ht-degree: 27%
 
 # 歷程欄位 {#sharing-journey-fields}
 
-此欄位群組用於歷程綱要（與journeyStepEvent相關）。 它包含下列欄位：
+此欄位群組用於歷程結構描述中（與journeyStepEvent相關）。 它包含下列欄位：
 
 ## journeyID {#journeyid-field}
 

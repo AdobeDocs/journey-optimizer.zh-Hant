@@ -5,7 +5,7 @@ title: 設定網路子網域
 description: 瞭解如何使用Journey Optimizer設定網頁子網域
 role: Admin
 level: Intermediate
-keywords: 網路、子網域、設定
+keywords: Web、子網域、設定
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
 source-git-commit: 40cdcace9788206ad32dc6ae1e5f70c66e684bcb
 workflow-type: tm+mt
@@ -39,12 +39,11 @@ ht-degree: 27%
 >
 >Web子網域設定對所有環境都是通用的。 因此：
 >
->* 若要存取和編輯Web子網域，您必須擁有 **[!UICONTROL 管理Web子網域]** 生產沙箱的許可權。
+>* 若要存取及編輯Web子網域，您必須擁有 **[!UICONTROL 管理Web子網域]** 生產沙箱的許可權。
 >
 > * 對Web子網域所做的任何修改也會影響生產沙箱。
 
-
-您可以建立多個網頁子網域，但僅限 **預設** 將使用子網域。 您可以變更預設的網頁子網域，但一次只能使用一個子網域。
+您可以建立數個網頁子網域，但僅限 **預設** 將會使用子網域。 您可以變更預設的網頁子網域，但一次只能使用一個子網域。
 
 1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** 功能表，然後選取 **[!UICONTROL Web設定]** > **[!UICONTROL Web子網域]**.
 
@@ -60,7 +59,7 @@ ht-degree: 27%
    >
    >您無法選取已用作Web子網域的子網域。
 
-1. 將會自動新增顯示在網頁URL中的前置詞。 您無法變更。
+1. 將會在網頁URL中顯示的前置詞會自動新增。 您無法加以變更。
 
 1. 若要將此子網域設定為預設值，請選取對應的選項。
 
@@ -68,15 +67,15 @@ ht-degree: 27%
 
    >[!NOTE]
    >
-   >僅限 **預設** 將使用子網域。
+   >僅限 **預設** 將會使用子網域。
 
-1. 按一下&#x200B;**[!UICONTROL 提交]**. 子網域取得 **[!UICONTROL 成功]** 狀態。 已準備好用於您的Web體驗。
+1. 按一下&#x200B;**[!UICONTROL 提交]**. 子網域取得 **[!UICONTROL 成功]** 狀態。 它可供您的網頁體驗使用。
 
    >[!NOTE]
    >
    >在極少數的情況下，子網域設定可能會失敗。 在此情況下，您可以刪除 **[!UICONTROL 已失敗]** 子網域，以使用清除清單 **[!UICONTROL 刪除]** 按鈕來自 **[!UICONTROL 更多動作]** 圖示。
 
-1. 此 **[!UICONTROL 預設]** 徽章會顯示在目前預設使用的子網域旁邊。 若要變更預設子網域，請選取 **[!UICONTROL 設定為預設值]** 從 **[!UICONTROL 更多動作]** 按鈕來設定所要的子網域。
+1. 此 **[!UICONTROL 預設]** 徽章會顯示在目前預設使用的子網域旁。 若要變更預設子網域，請選取 **[!UICONTROL 設定為預設]** 從 **[!UICONTROL 更多動作]** 按鈕來設定所要的子網域。
 
    ![](assets/web-subdomain-default.png)
 

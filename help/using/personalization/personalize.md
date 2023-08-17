@@ -12,18 +12,18 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 21%
+ht-degree: 28%
 
 ---
 
 # 開始使用個人化{#add-personalization}
 
-探索 [!DNL Adobe Journey Optimizer] 個人化功能，可運用您擁有的訊息相關資料和資訊，根據每位特定收件者調整訊息。 可以是他們的名字、興趣、居住地、購買內容等。
+探索 [!DNL Adobe Journey Optimizer] 個人化功能，可運用您擁有的訊息相關資料和資訊，根據每位特定收件者調整訊息。 這可以是他們的名字、興趣、居住地、購買內容等。
 
-➡️ [瞭解如何在這些影片中個人化訊息](#video-perso)
+➡️ [在這些影片中瞭解如何個人化訊息](#video-perso)
 ➡️ [探索運用個人化的使用案例](personalization-use-case.md)
 
-## 使用專用語法建置個人化運算式 {#syntax}
+## 使用專用語法建立個人化運算式 {#syntax}
 
 [!DNL Journey Optimizer] 使用 **內嵌** 以Handlebars為基礎的簡單個人化語法，可讓您建立包含雙大括弧之內容的運算式 **{{}}**. 您可以在相同的內容或欄位中新增多個運算式，不受限制。 進一步瞭解 [個人化語法](personalization-syntax.md).
 
@@ -49,7 +49,7 @@ ht-degree: 21%
 
 [!DNL Journey Optimizer] 提供運算式編輯器，您可在其中選取、排列、自訂及驗證所有資料，以建立內容的自訂個人化。
 
-有數種工具可協助您建置個人化內容（協助程式函式、預先定義的運算式程式庫、受歡迎的屬性……）
+有數種工具可用來協助建立您的個人化內容（協助程式函式、預先定義的運算式程式庫、受歡迎的屬性……）
 
 進一步瞭解 [!DNL Journey Optimizer] 中的運算式編輯器 [本節](personalization-build-expressions.md)
 
@@ -59,6 +59,6 @@ ht-degree: 21%
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-瞭解如何將設定檔型個人化新增至訊息，以及如何使用受眾成員資格作為個人化區塊的先決條件。
+了解如何將以設定檔為基礎的個人化新增至訊息，以及如何使用對象成員資格作為個人化區塊的先決條件。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

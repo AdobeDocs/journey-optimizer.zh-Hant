@@ -11,8 +11,8 @@ level: Intermediate
 keywords: 產品，設定檔，沙箱
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '786'
+ht-degree: 6%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 **[!UICONTROL 角色]** 請參閱共用相同許可權和沙箱的使用者集合。 這些角色可讓您輕鬆管理組織內不同使用者群組的存取和許可權。
 
-使用 [!DNL Journey Optimizer] product後，您就可以從一系列預先存在的 **[!UICONTROL 角色]**，每個都擁有不同等級的許可權，可指派給您的使用者。 如需更多可用的 **[!UICONTROL 角色]**，請參閱此 [頁面](ootb-product-profiles.md).
+使用 [!DNL Journey Optimizer] 產品，您可從一系列既有的產品中選擇 **[!UICONTROL 角色]**，每個都擁有不同等級的許可權，可指派給您的使用者。 有關可用的 **[!UICONTROL 角色]**，請參閱此 [頁面](ootb-product-profiles.md).
 
-當使用者屬於 **[!UICONTROL 角色]**，即可存取產品內含的Adobe應用程式和服務。
+當使用者屬於 **[!UICONTROL 角色]**&#x200B;時，他們會被授予產品中所包含Adobe應用程式和服務的存取權。
 
 如果預先存在的角色不符合您組織的特定需求，您也可以建立自訂 **[!UICONTROL 角色]** 微調介面中特定功能或物件的存取許可權。 如此一來，您便可確保每位使用者僅能存取有效執行其工作所需的資源和工具。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 您可以選擇指派現成可用的或自訂的 **[!UICONTROL 角色]** 給您的使用者。
 
-每個擁有指派許可權的現成可用角色清單可在以下連結中找到： [內建角色](ootb-product-profiles.md) 區段。
+每個具有指派許可權的現成可用角色清單可在以下連結中找到： [內建角色](ootb-product-profiles.md) 區段。
 
 若要指派 **[!UICONTROL 角色]**：
 
@@ -56,15 +56,15 @@ ht-degree: 0%
 
 如需使用者管理的詳細資訊，請參閱 [Admin Console檔案](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
 
-存取執行個體時，您的使用者將會看到特定檢視，具體取決於中指派的許可權 **[!UICONTROL 角色]**. 如果使用者沒有功能的正確存取權，將會出現以下訊息：
+存取執行個體時，您的使用者將會看到特定檢視，具體取決於中的指派許可權 **[!UICONTROL 角色]**. 如果使用者沒有功能的正確存取權，便會顯示下列訊息：
 
 `You don't have permission to access this feature. Permission needed: XX.`
 
 ## 編輯現有角色 {#edit-product-profile}
 
-適用於現成可用或自訂的 **[!UICONTROL 角色]**，您隨時可以決定新增或刪除許可權。
+針對現成可用或自訂 **[!UICONTROL 角色]**，您隨時可以決定新增或刪除許可權。
 
-在此範例中，我們要新增 **[!UICONTROL 許可權]** 與 **[!UICONTROL 歷程]** 指派給歷程檢視器之使用者的資源 **[!UICONTROL 角色]**. 之後，使用者將能夠發佈歷程。
+在此範例中，我們要新增 **[!UICONTROL 許可權]** 與 **[!UICONTROL 歷程]** 指派給歷程檢視器之使用者的資源 **[!UICONTROL 角色]**. 之後，使用者就可以發佈歷程。
 
 請注意，如果您修改現成可用的或自訂的 **[!UICONTROL 角色]**，它將會影響指派給此專案的每個使用者 **[!UICONTROL 角色]**.
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    ![](assets/do-not-localize/access_control_14.png)
 
-1. 如有需要，在 **[!UICONTROL 包含的許可權專案]**，按一下旁邊的X圖示，移除您角色的許可權或資源。
+1. 如有需要，在 **[!UICONTROL 包含的許可權專案]**，按一下旁邊的X圖示，為您的角色移除許可權或資源。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
@@ -93,15 +93,15 @@ ht-degree: 0%
 
 有關如何建立和管理沙箱的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target="_blank"}.
 
-在此範例中，我們將建立名為的角色 **歷程唯讀** 我們將在此授與歷程功能的唯讀許可權。 使用者將只能存取和檢視歷程，而無法存取其他功能，例如 **[!DNL  Decision management]** 在 [!DNL Journey Optimizer].
+在此範例中，我們將建立名為的角色 **Journeys唯讀** 其中我們將授與歷程功能的唯讀許可權。 使用者將只能存取和檢視歷程，而無法存取其他功能，例如 **[!DNL  Decision management]** 在 [!DNL Journey Optimizer].
 
-若要建立我們的 **歷程唯讀** **[!UICONTROL 角色]**：
+若要建立我們的 **Journeys唯讀** **[!UICONTROL 角色]**：
 
 1. 若要在中指派角色給使用者 [!DNL Permissions] 產品，導覽至 **[!UICONTROL 角色]** 標籤並按一下 **[!UICONTROL 建立角色]**.
 
    ![](assets/do-not-localize/access_control_9.png)
 
-1. 新增 **[!UICONTROL 名稱]** 和 **[!UICONTROL 說明]** （針對您的新） **[!UICONTROL 角色]**. 然後，按一下 **[!UICONTROL 確認]**.
+1. 新增 **[!UICONTROL 名稱]** 和 **[!UICONTROL 說明]** 新增 **[!UICONTROL 角色]**. 然後，按一下 **[!UICONTROL 確認]**.
 
    ![](assets/do-not-localize/access_control_10.png)
 
@@ -109,13 +109,13 @@ ht-degree: 0%
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. 在不同的資源之間選取，例如 **[!DNL Journeys]**， **[!DNL Segments]** 或 **[!DNL Decision management]** 提供於 [!DNL Journey Optimizer] 列於左側功能表中。
+1. 在不同的資源之間選取，例如 **[!DNL Journeys]**， **[!DNL Segments]** 或 **[!DNL Decision management]** 可用位置 [!DNL Journey Optimizer] 列於左側功能表中。
 
-   在此處，我們選取 **[!UICONTROL 歷程]** 資源。
+   我們在這裡選取 **[!UICONTROL 歷程]** 資源。
 
    ![](assets/do-not-localize/access_control_11.png)
 
-1. 從 **[!UICONTROL 歷程]** 下拉式清單，選取要指派給您的使用者的許可權 **[!UICONTROL 角色]**.
+1. 從 **[!UICONTROL 歷程]** 從下拉式清單中選取要指派給您的使用者的許可權 **[!UICONTROL 角色]**.
 
    我們在這裡選取 **[!DNL View journeys]**， **[!DNL View journeys report]**  和 **[!DNL View journeys event, data sources, actions]**.
 
@@ -125,4 +125,4 @@ ht-degree: 0%
 
 您的 **[!UICONTROL 角色]** 現在已建立並設定。 您現在需要將其指派給使用者。
 
-如需角色建立與管理的詳細資訊，請參閱 [Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=zh-Hant).
+有關角色建立與管理的詳細資訊，請參閱 [Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=zh-Hant).

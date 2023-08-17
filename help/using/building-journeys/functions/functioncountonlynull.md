@@ -16,7 +16,7 @@ ht-degree: 30%
 
 # countOnlyNull {#countOnlyNull}
 
-計算清單中null值的數量。
+計算清單中Null值的數量。
 
 ## 類別
 
@@ -39,7 +39,7 @@ ht-degree: 30%
 | 清單 | listDateTimeOnly |
 | 清單 | listDateOnly |
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `countOnlyNull(<listAny>)`
 

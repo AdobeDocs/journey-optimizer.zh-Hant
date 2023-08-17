@@ -28,6 +28,6 @@ ht-degree: 24%
 
 ![](assets/favorite-list.png)
 
-如果您不想再看見我的最愛清單中的專案，可以將它從我的最愛移除。
+如果您不想再看到我的最愛清單中的專案，可以將它從我的最愛移除。
 
 ![](assets/favorite-remove.png)

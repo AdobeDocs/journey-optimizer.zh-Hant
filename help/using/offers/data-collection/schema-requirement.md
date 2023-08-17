@@ -2,7 +2,7 @@
 product: experience platform
 solution: Experience Platform
 title: 設定事件擷取
-description: 瞭解如何設定優惠方案以擷取事件
+description: 瞭解如何設定您的優惠方案綱要以擷取事件
 feature: Ranking Formulas
 role: User
 level: Intermediate
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # 設定資料彙集 {#schema-requirements}
 
-為了能夠取得對決策事件以外的事件型別的意見反應，您必須為中的每種事件型別設定正確的值 **體驗事件** 會傳送至Adobe Experience Platform的ID。
+為了能夠取得對決策事件以外的事件型別的意見反應，您必須為中的每種事件型別設定正確的值 **體驗事件** 會傳送至Adobe Experience Platform的內容。
 
 >[!CAUTION]
 >
@@ -26,15 +26,15 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->決定事件不需要傳入，因為決定管理會自動產生這些事件，並將它們放入 **[!UICONTROL ODE DecisionEvents]** 資料集<!--to check--> 是自動產生的。
+>不需要傳送決定事件，因為決定管理會自動產生這些事件，並將它們放入 **[!UICONTROL ODE DecisionEvents]** 資料集<!--to check--> 是自動產生的。
 
-## 追蹤印象 {#track-impressions}
+## 追蹤曝光 {#track-impressions}
 
 請確定事件型別和來源如下：
 
 **體驗事件型別：** `decisioning.propositionDisplay`
 **來源：** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`)或批次擷取
-+++**範例裝載：**
++++**裝載範例：**
 
 ```
 {
@@ -68,7 +68,7 @@ ht-degree: 3%
 
 **體驗事件型別：** `decisioning.propositionInteract`
 **來源：** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`)或批次擷取
-+++**範例裝載：**
++++**裝載範例：**
 
 ```
 {
@@ -102,7 +102,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->若要將您的自訂事件納入考量 [頻率限定](../offer-library/add-constraints.md#capping)，您需要將體驗事件傳送至以下兩個Edge資料收集端點之一，以將其連結至Adobe Experience Platform端點：
+>讓您的自訂事件在中處理 [頻率限定](../offer-library/add-constraints.md#capping)，您需要將體驗事件傳送至下列兩個Edge資料收集端點之一，以將其連線至Adobe Experience Platform端點：
 >
 >* POST/ee/v2/interact
 >* POST/ee/v2/collect

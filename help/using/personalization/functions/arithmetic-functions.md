@@ -29,7 +29,7 @@ ht-degree: 7%
 
 **範例**
 
-下列作業會加總兩種不同產品的價格。
+下列作業會加總兩個不同產品的價格。
 
 ```sql
 {%= product1.price + product2.price %}
@@ -53,9 +53,9 @@ ht-degree: 7%
 {%= product.inventory * product.price %}
 ```
 
-## 減法{#substract}
+## 減{#substract}
 
-此 `-` （減法）函式可用來找出兩個引數運算式的差異。
+此 `-` （減法）函式用於找出兩個引數運算式的差異。
 
 **語法**
 

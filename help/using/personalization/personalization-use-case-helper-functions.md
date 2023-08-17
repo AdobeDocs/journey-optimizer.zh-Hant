@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 個人化使用案例&colon；購物車放棄電子郵件
-description: 瞭解如何透過使用案例個人化電子郵件內文。
+description: 瞭解如何透過使用案例個人化電子郵件訊息內文。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -18,14 +18,13 @@ ht-degree: 3%
 
 # 個人化使用案例：購物車放棄電子郵件 {#personalization-use-case-helper-functions}
 
-在此範例中，您將個人化電子郵件內文。 此訊息會鎖定購物車中仍有商品但尚未完成購買的客戶。
+在此範例中，您將個人化電子郵件內文。 此訊息會鎖定在購物車中保留商品，但尚未完成購買的客戶。
 
-您將使用下列型別的協助程式功能：
+您將使用下列型別的協助程式函式：
 
 * 此 `upperCase` 字串函式，以大寫字母插入客戶的名字。 [了解更多](functions/string.md#upper)。
-* 此 `each` 協助程式，可列出購物車中的專案。 [了解更多](functions/helpers.md#each)。
+* 此 `each` 協助程式，列出購物車中的專案。 [了解更多](functions/helpers.md#each)。
 * 此 `if` 協助程式，在購物車中插入產品特定附註。 [了解更多](functions/helpers.md#if-function)。
-
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 ➡️ [在本影片中瞭解如何使用協助程式函式](#video)
@@ -43,7 +42,7 @@ ht-degree: 3%
 1. [建立電子郵件訊息](#configure-email).
 1. [以大寫字母插入客戶的名字](#uppercase-function).
 1. [將購物車內容新增至電子郵件](#each-helper).
-1. [插入產品專屬備註](#if-helper).
+1. [插入產品專屬附註](#if-helper).
 1. [測試並發佈歷程](#test-and-publish).
 
 ## 步驟1：建立初始事件和相關歷程 {#create-context}
@@ -56,7 +55,7 @@ ht-degree: 3%
    進一步瞭解產品清單專案資料型別 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. 建立從此事件開始的歷程。
-1. 新增 **電子郵件** 活動至歷程。
+1. 新增 **電子郵件** 活動到歷程。
 
    ![](assets/personalization-uc-helpers-8.png)
 
@@ -74,7 +73,7 @@ ht-degree: 3%
 
 ## 步驟3：以大寫字母插入客戶的名字 {#uppercase-function}
 
-1. 在電子郵件設計工具首頁上，按一下您要新增客戶名字的HTML元件。
+1. 在電子郵件設計工具首頁上，按一下您想要新增客戶名字的HTML元件。
 1. 在內容工具列上，按一下 **[!UICONTROL 顯示原始程式碼]**.
 
    ![](assets/personalization-uc-helpers-3.png)
@@ -93,9 +92,9 @@ ht-degree: 3%
       ![](assets/personalization-uc-helpers-4.png)
 
 1. 從運算式中移除「字串」預留位置。
-1. 新增名字Token：
+1. 新增名字代號：
    1. 在左側功能表中，選取 **[!UICONTROL 設定檔屬性]**.
-   1. 選取 **[!UICONTROL 個人]** > **[!UICONTROL 全名]**.
+   1. 選取 **[!UICONTROL 個人]** > **[!UICONTROL 完整名稱]**.
    1. 新增 **[!UICONTROL 名字]** 運算式的Token。
 
       運算式編輯器會顯示此運算式：
@@ -106,7 +105,7 @@ ht-degree: 3%
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      進一步瞭解中的個人名稱資料型別 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
+      進一步瞭解中的個人名稱資料型別 [AdobeExperience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
 1. 按一下 **[!UICONTROL 驗證]**，然後按一下 **[!UICONTROL 儲存]**.
 
@@ -114,7 +113,7 @@ ht-degree: 3%
 
 1. 儲存訊息。
 
-## 步驟4：插入購物車中的專案清單 {#each-helper}
+## 步驟4：從購物車插入專案清單 {#each-helper}
 
 1. 重新開啟訊息內容。
 
@@ -143,7 +142,7 @@ ht-degree: 3%
 
       **[!UICONTROL 內容屬性]** 只有在歷程內容已傳遞至訊息後，才能使用。
 
-   1. 選取 **[!UICONTROL Journey Optimizer]** > **[!UICONTROL 事件]** > ***[!UICONTROL event_name]***一下，然後展開 **[!UICONTROL productListItems]** 節點。
+   1. 選取 **[!UICONTROL Journey Optimizer]** > **[!UICONTROL 活動]** > ***[!UICONTROL event_name]***一下，然後展開 **[!UICONTROL productListItems]** 節點。
 
       在此範例中， *event_name* 代表事件的名稱。
 
@@ -169,7 +168,6 @@ ht-degree: 3%
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
 
-
 1. 將此程式碼貼到開頭 `{{#each}}` 標籤與結尾 `{/each}}` 標籤：
 
    ```html
@@ -191,8 +189,8 @@ ht-degree: 3%
 
    重複這些步驟兩次：
 
-   * 將預留位置「#quantity」取代為 **[!UICONTROL 數量]** token。
-   * 將預留位置「#priceTotal」取代為 **[!UICONTROL 總價]** token。
+   * 將預留位置「#quantity」取代為 **[!UICONTROL 數量]** Token。
+   * 將預留位置「#priceTotal」取代為 **[!UICONTROL 總價]** Token。
 
    此範例顯示修改後的運算式：
 
@@ -214,9 +212,9 @@ ht-degree: 3%
 
    ![](assets/personalization-uc-helpers-11.png)
 
-## 步驟5：插入產品特定附註 {#if-helper}
+## 步驟5：插入產品專屬附註 {#if-helper}
 
-1. 在「電子郵件設計工具」首頁上，按一下要插入附註的HTML元件。
+1. 在電子郵件設計工具首頁上，按一下要插入附註的HTML元件。
 1. 在內容工具列上，按一下 **[!UICONTROL 顯示原始程式碼]**.
 
    ![](assets/personalization-uc-helpers-3.png)
@@ -237,7 +235,7 @@ ht-degree: 3%
 
       ![](assets/personalization-uc-helpers-12.png)
 
-1. 從運算式中移除此條件：
+1. 從運算式移除此條件：
 
    ```handlebars
    {%else if condition2%} render_2
@@ -254,7 +252,7 @@ ht-degree: 3%
 1. 將產品名稱Token新增至條件：
    1. 從運算式中移除「condition1」預留位置。
    1. 在左側功能表中，選取 **[!UICONTROL 內容屬性]**.
-   1. 選取 **[!UICONTROL Journey Orchestration]** > **[!UICONTROL 事件]** > ***[!UICONTROL event_name]***一下，然後展開 **[!UICONTROL productListItems]** 節點。
+   1. 選取 **[!UICONTROL Journey Orchestration]** > **[!UICONTROL 活動]** > ***[!UICONTROL event_name]***一下，然後展開 **[!UICONTROL productListItems]** 節點。
 
       在此範例中， *event_name* 代表事件的名稱。
 
@@ -272,7 +270,7 @@ ht-degree: 3%
       ![](assets/personalization-uc-helpers-13.png)
 
 1. 修改運算式：
-   1. 在運算式編輯器中，在「 」後面指定產品名稱 `name` token。
+   1. 在運算式編輯器中，在「 」後面指定產品名稱 `name` Token。
 
       請使用此語法，其中 *product_name* 代表產品的名稱：
 
@@ -289,7 +287,7 @@ ht-degree: 3%
       {%/if%}
       ```
 
-   1. 將「render_1」預留位置替換為註記文字。
+   1. 將「render_1」預留位置取代為註記文字。
 
       範例：
 
@@ -300,7 +298,7 @@ ht-degree: 3%
       {%/if%}
       ```
 
-   1. 從運算式中移除&quot;default_render&quot;預留位置。
+   1. 從運算式中移除「default_render」預留位置。
 1. 按一下 **[!UICONTROL 驗證]**，然後按一下 **[!UICONTROL 儲存]**.
 
    ![](assets/personalization-uc-helpers-14.png)
@@ -321,7 +319,7 @@ ht-degree: 3%
 
    電子郵件會傳送至測試設定檔的地址。
 
-   在此範例中，電子郵件會包含有關Juno Jacket的附註，因為此產品已在購物車中：
+   在此範例中，電子郵件會包含有關Juno Jacket的備註，因為此產品已在購物車中：
 
    ![](assets/personalization-uc-helpers-17.png)
 
@@ -344,6 +342,6 @@ ht-degree: 3%
 
 ## 操作說明影片{#video}
 
-瞭解如何使用輔助函式。
+瞭解如何使用協助程式函式。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

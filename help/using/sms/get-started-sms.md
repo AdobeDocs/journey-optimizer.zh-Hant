@@ -23,11 +23,11 @@ ht-degree: 100%
 
 * 在&#x200B;**歷程**&#x200B;中：在歷程新增簡訊活動並定義基本設定後，使用&#x200B;**[!UICONTROL 動作：簡訊]**&#x200B;右側窗格，建立簡訊訊息的內容。
 
-   請參閱本[頁面](../building-journeys/journey-gs.md)，深入了解如何設定歷程。
+  請參閱本[頁面](../building-journeys/journey-gs.md)，深入了解如何設定歷程。
 
 * 在&#x200B;**行銷活動**&#x200B;中：建立行銷活動後，請選取簡訊作為動作並定義基本設定。
 
-   請參閱本[頁面](../campaigns/create-campaign.md#configure)，深入了解如何設定您的行銷活動。
+  請參閱本[頁面](../campaigns/create-campaign.md#configure)，深入了解如何設定您的行銷活動。
 
 
 >[!IMPORTANT]

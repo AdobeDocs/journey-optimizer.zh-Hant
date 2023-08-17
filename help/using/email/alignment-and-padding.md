@@ -28,11 +28,11 @@ ht-degree: 25%
 
    ![](assets/alignment_2.png)
 
-1. 下 **[!UICONTROL 對齊方式]**，選取 **[!UICONTROL 上]**， **[!UICONTROL 中間]** 或 **[!UICONTROL 下]**.
+1. 在 **[!UICONTROL 對齊方式]**，選取 **[!UICONTROL 上]**， **[!UICONTROL 中間]** 或 **[!UICONTROL 下]**.
 
    ![](assets/alignment_3.png)
 
-1. 下 **[!UICONTROL 內距]**，定義所有邊的邊框間距。
+1. 在 **[!UICONTROL 內距]**，定義所有邊的內距。
 
    選取 **[!UICONTROL 每一邊不同的內距]** 如果您想要微調內距。 按一下鎖定圖示以中斷同步。
 

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用登入頁面範本
-description: 瞭解如何將登入頁面儲存為範本並重複使用於Journey Optimizer
+description: 瞭解如何將登入頁面儲存為範本並在Journey Optimizer中重複使用
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -20,11 +20,11 @@ ht-degree: 12%
 
 ## 將頁面儲存為範本 {#save-as-template}
 
-一旦您設計 [登陸頁面內容](lp-content.md)，您可以儲存以供日後重複使用。 請依照下列步驟以執行此操作。
+一旦您設計 [登陸頁面內容](lp-content.md)，您可將其儲存以供日後重複使用。 請依照下列步驟以執行此操作。
 
 1. 按一下畫面右上方的省略符號。
 
-1. 選取 **[!UICONTROL 另存為內容範本]** 從下拉式功能表。
+1. 選取 **[!UICONTROL 另存為內容範本]** （從下拉式功能表）。
 
    ![](assets/lp_designer-save-template.png)
 
@@ -34,7 +34,7 @@ ht-degree: 12%
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-下次建立登入頁面時，您可以使用此範本建立內容。 瞭解如何在 [區段](#use-saved-template) 下方的。
+下次建立登入頁面時，您可以使用此範本建立內容。 瞭解如何在 [區段](#use-saved-template) 底下。
 
 ![](assets/lp_designer-saved-template.png)
 
@@ -58,4 +58,4 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->主要頁面範本和子頁面範本是分開管理的，這表示您無法使用主要頁面範本來建立子頁面，反之亦然。
+>主要頁面範本和子頁面範本是分開管理的，這表示您無法使用主要頁面範本建立子頁面，反之亦然。

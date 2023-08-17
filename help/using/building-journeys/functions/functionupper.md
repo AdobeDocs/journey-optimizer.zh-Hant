@@ -5,7 +5,7 @@ description: 瞭解函式上限
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: upper， function， expression， journey
+keywords: upper，函式，運算式， journey
 exl-id: 09e11d52-2d52-4479-b67f-6dd53b00a861
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -26,7 +26,7 @@ ht-degree: 15%
 
 `upper(<parameters>)`
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `upper(<string>)`
 

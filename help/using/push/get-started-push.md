@@ -29,11 +29,11 @@ ht-degree: 100%
 
 * 在&#x200B;**歷程**&#x200B;中：一旦在歷程新增推播活動並定義基本設定後，使用&#x200B;**[!UICONTROL 動作：推播]**&#x200B;右側窗格，建立推播通知的內容。
 
-   請參閱本[頁面](../building-journeys/journey-gs.md)，深入了解如何設定歷程。
+  請參閱本[頁面](../building-journeys/journey-gs.md)，深入了解如何設定歷程。
 
 * 在&#x200B;**行銷活動**&#x200B;中：一旦建立行銷活動，請選取「推播通知」作為動作並定義基本設定。
 
-   請參閱本[頁面](../campaigns/create-campaign.md#configure)，深入了解如何設定行銷活動。
+  請參閱本[頁面](../campaigns/create-campaign.md#configure)，深入了解如何設定行銷活動。
 
 使用專用索引標籤定義 **iOS** 及 **Android** 作業系統的推播通知設定。
 

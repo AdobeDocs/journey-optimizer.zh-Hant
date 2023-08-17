@@ -28,11 +28,11 @@ ht-degree: 100%
 
 * 在&#x200B;**歷程**&#x200B;中：將&#x200B;**[!UICONTROL 電子郵件]**&#x200B;活動新增至您的歷程，並定義基本設定，使用&#x200B;**[!UICONTROL 動作：電子郵件]**&#x200B;右側窗格建立訊息內容。
 
-   請參閱本[頁面](../building-journeys/journey-gs.md)，深入了解如何設定歷程。
+  請參閱本[頁面](../building-journeys/journey-gs.md)，深入了解如何設定歷程。
 
 * 在&#x200B;**行銷活動**&#x200B;中：一旦建立行銷活動，請選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;作為動作並定義基本設定。
 
-   請參閱本[頁面](../campaigns/create-campaign.md#configure)，深入了解如何設定行銷活動。
+  請參閱本[頁面](../campaigns/create-campaign.md#configure)，深入了解如何設定行銷活動。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

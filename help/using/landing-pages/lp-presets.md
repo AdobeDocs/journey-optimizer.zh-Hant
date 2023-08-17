@@ -21,7 +21,7 @@ ht-degree: 17%
 >title="建立一個登陸頁面預設集"
 >abstract="為了建置登陸頁面並透過 Journey Optimizer 加以利用，您必須建立一個包含要使用的子網域的登陸頁面預設集。"
 
-時間 [建立登入頁面](../landing-pages/create-lp.md#create-a-lp)，您必須選取登入頁面預設集，才能建置登入頁面並透過它運用 **[!DNL Journey Optimizer]**.
+時間 [建立登入頁面](../landing-pages/create-lp.md#create-a-lp)，您必須選取登陸頁面預設集，才能建置登陸頁面並透過使用 **[!DNL Journey Optimizer]**.
 
 ## 存取登陸頁面預設集 {#access-lp-presets}
 
@@ -43,7 +43,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->若要建立預設集，請確定您先前已設定至少一個登陸頁面子網域。 [了解作法](lp-subdomains.md)
+>為了能夠建立預設集，請確定您先前已設定至少一個登陸頁面子網域。 [了解作法](lp-subdomains.md)
 
 1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** 功能表，然後選取 **[!UICONTROL 品牌化]** > **[!UICONTROL 登陸頁面預設集]**.
 
@@ -57,7 +57,7 @@ ht-degree: 17%
    >
    > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線 `_`，點`.` 和連字型大小 `-` 個字元。
 
-1. 從下拉式清單中選取登入頁面子網域。
+1. 從下拉式清單中選取登陸頁面子網域。
 
    ![](assets/lp_preset-subdomain.png)
 
@@ -73,15 +73,15 @@ ht-degree: 17%
 
    例如，如果登陸頁面URL是「pages.mail.luma.com」，而追蹤URL是「data.mail.luma.com」，您可以選擇使用「pages.mail.luma.com」做為追蹤子網域。
 
-1. 按一下 **[!UICONTROL 提交]** 以確認建立登入頁面預設集。 <!--You can also save the preset as draft and resume its configuration later on.-->
+1. 按一下 **[!UICONTROL 提交]** 以確認建立登陸頁面預設集。 <!--You can also save the preset as draft and resume its configuration later on.-->
 
    <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 
-1. 建立登入頁面預設集後，它會顯示在清單中 **[!UICONTROL 作用中]** 狀態。 已準備好用於您的登入頁面。
+1. 建立登入頁面預設集後，該預設集會顯示於含有 **[!UICONTROL 作用中]** 狀態。 已準備好用於您的登入頁面。
 
    ![](assets/lp-preset-active-temp.png)
 
-您現在已準備就緒 [建立登入頁面](../landing-pages/create-lp.md) 在 [!DNL Journey Optimizer].
+您現在已準備就緒 [建立登陸頁面](../landing-pages/create-lp.md) 在 [!DNL Journey Optimizer].
 <!--
 >[!NOTE]
 >

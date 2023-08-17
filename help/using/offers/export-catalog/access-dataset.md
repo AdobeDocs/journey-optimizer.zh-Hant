@@ -1,6 +1,6 @@
 ---
 title: 存取匯出的優惠目錄
-description: 瞭解匯出優惠方案目錄後，如何在Adobe Experience Platform上存取優惠方案目錄
+description: 瞭解匯出優惠目錄後，如何在Adobe Experience Platform上存取優惠目錄
 feature: Offers
 topic: Integrations
 role: User
@@ -15,7 +15,7 @@ ht-degree: 11%
 
 # 存取匯出的優惠目錄 {#access-exported-catalog}
 
-可在Adobe Experience Platform中存取匯出的優惠方案目錄 **[!UICONTROL 資料集]** 功能表。 系統會為選件資料庫的每個物件建立一個資料集。
+可在Adobe Experience Platform中存取匯出的優惠目錄 **[!UICONTROL 資料集]** 功能表。 系統會為您選件資料庫的每個物件建立一個資料集。
 
 ![](../assets/datasets-list.png)
 

@@ -1,6 +1,6 @@
 ---
 title: 快速入門
-description: 瞭解如何開始使用Offer Library API，使用決策引擎執行關鍵操作。
+description: 瞭解如何開始使用優惠資料庫API，使用決策引擎執行關鍵作業。
 feature: Offers
 topic: Integrations
 role: User
@@ -15,26 +15,26 @@ ht-degree: 6%
 
 # Decision Management API開發人員指南 {#decision-management-api-developer-guide}
 
-本開發人員指南提供步驟，協助您開始使用 [!DNL Offer Library] API。 接著，指南會提供範例API呼叫，以利使用決策引擎執行關鍵作業。
+本開發人員指南提供步驟，協助您開始使用 [!DNL Offer Library] API。 接著，指南會提供範例API呼叫，說明如何使用決策引擎執行重要作業。
 
-➡️ [在本影片中進一步了解決定管理的元件](#video)
+➡️ [在此影片中進一步了解決定管理的元件](#video)
 
 ## 先決條件 {#prerequisites}
 
-本指南需要您實際瞭解下列Adobe Experience Platform元件：
+本指南需要您深入瞭解下列Adobe Experience Platform元件：
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}：作為依據的標準化架構 [!DNL Experience Platform] 組織客戶體驗資料。
    * [結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant){target="_blank"}：瞭解XDM結構描述的基本建置組塊。
-* [決定管理](../../../using/offers/get-started/starting-offer-decisioning.md)：說明用於一般體驗決策，尤其是決策管理的概念和元件。 說明用於選擇在客戶體驗期間呈現的最佳選項的策略。
-* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target="_blank"}： PQL是一種強大的語言，可透過XDM執行個體寫入運算式。 PQL可用來定義決定規則。
+* [決定管理](../../../using/offers/get-started/starting-offer-decisioning.md)：說明用於一般體驗決策（尤其是決策管理）的概念和元件。 說明用於選擇在客戶體驗期間呈現的最佳選項的策略。
+* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target="_blank"}：PQL是一種強大的語言，可透過XDM執行個體寫入運算式。 PQL可用來定義決定規則。
 
 ## 讀取範例API呼叫 {#reading-sample-api-calls}
 
-本指南提供範例API呼叫，示範如何格式化您的請求。 這些包括路徑、必要的標頭，以及正確格式化的請求裝載。 此外，也提供API回應中傳回的範例JSON。 如需檔案中用於範例API呼叫的慣例相關資訊，請參閱以下章節： [如何讀取範例API呼叫](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target="_blank"} 在 [!DNL Experience Platform] 疑難排解指南。
+本指南提供範例API呼叫，示範如何格式化您的請求。 這些包括路徑、必要的標題和正確格式化的請求裝載。 此外，也提供API回應中傳回的範例JSON。 如需檔案中用於範例API呼叫的慣例相關資訊，請參閱以下章節： [如何讀取範例API呼叫](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target="_blank"} 在 [!DNL Experience Platform] 疑難排解指南。
 
-## 收集必要標題的值 {#gather-values-for-required-headers}
+## 收集所需標題的值 {#gather-values-for-required-headers}
 
-為了呼叫 [!DNL Adobe Experience Platform] API，您必須先完成 [驗證教學課程](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"}. 完成驗證教學課程後，會在所有標題中提供每個必要標題的值 [!DNL Experience Platform] API呼叫，如下所示：
+為了呼叫 [!DNL Adobe Experience Platform] API，您必須先完成 [驗證教學課程](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"}. 完成驗證教學課程會提供所有中每個必要標題的值 [!DNL Experience Platform] API呼叫，如下所示：
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
@@ -46,13 +46,13 @@ ht-degree: 6%
 
 ## 管理對容器的存取 {#manage-access-to-container}
 
-容器是一種隔離機制，可將不同的關注點分開。 容器ID是所有存放庫API的第一個路徑元素。 所有決策物件都位於容器內。
+容器是一種隔離機制，可隔離不同的關注點。 容器ID是所有存放庫API的第一個路徑元素。 所有決策物件都位於容器內。
 
-管理員可以將類似的主體、資源和存取許可權分組到設定檔中。 這能減輕管理負擔，並由 [Adobe Admin Console](https://adminconsole.adobe.com/). 您必須是組織中Adobe Experience Platform的產品管理員，才能建立設定檔並將使用者指派給設定檔。 只要在一次性步驟中建立符合特定許可權的產品設定檔，然後只需將使用者新增到這些設定檔就足夠了。 設定檔會作為已授與許可權的群組，而該群組中的每個實際使用者或技術使用者都會繼承這些許可權。
+管理員可以將類似的主體、資源和存取許可權分組到設定檔中。 這能減輕管理負擔，並受到以下支援 [Adobe Admin Console](https://adminconsole.adobe.com/). 您必須是組織中Adobe Experience Platform的產品管理員，才能建立設定檔並將使用者指派給設定檔。 只需在一次性步驟中建立符合特定許可權的產品設定檔，然後只需將使用者新增到這些設定檔即可。 設定檔會作為已授予許可權的群組，而該群組中的每個實際使用者或技術使用者都會繼承這些許可權。
 
 授予管理員許可權，您可以透過授予或撤銷使用者許可權 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}. For more information, see the [Access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant){target="_blank"}.
 
-### 使用者和整合功能可存取的清單容器 {#list-containers-accessible-to-users-and-integrations}
+### 列出可供使用者和整合使用者存取的容器 {#list-containers-accessible-to-users-and-integrations}
 
 **API格式**
 
@@ -79,7 +79,7 @@ curl -X GET \
 
 **回應**
 
-成功的回應會傳回與決策管理容器相關的資訊。 這包括 `instanceId` 屬性，其值是您的容器ID。
+成功的回應會傳回有關決定管理容器的資訊。 這包括 `instanceId` 屬性，的值為您的容器ID。
 
 ```json
 {
@@ -126,7 +126,7 @@ curl -X GET \
 
 ## 後續步驟 {#next-steps}
 
-本檔案說明呼叫「 」所需的必要條件知識。 [!DNL Offer Library] API，包括取得您的容器ID。 您現在可以繼續本開發人員指南中提供的範例呼叫，並依照其指示操作。
+本檔案說明呼叫「 」所需的先決條件知識 [!DNL Offer Library] API，包括取得您的容器ID。 您現在可以繼續參閱本開發人員指南中提供的範例呼叫，並遵循其指示。
 <!--
 >[!NOTE]
 >

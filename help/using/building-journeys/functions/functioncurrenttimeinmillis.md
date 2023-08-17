@@ -16,7 +16,7 @@ ht-degree: 11%
 
 # currentTimeInMillis {#currentTimeInMillis}
 
-傳回目前時間（以epoch毫秒為單位）。
+傳回目前時間（以Epoch毫秒為單位）。
 
 ## 類別
 
@@ -30,7 +30,7 @@ ht-degree: 11%
 
 此函式不使用引數。
 
-## 簽章和傳回型別
+## 簽章與傳回型別
 
 `currentTimeInMillis()`
 

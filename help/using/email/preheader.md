@@ -39,7 +39,7 @@ ht-degree: 86%
 
    ![](assets/preheader_body.png)
 
-1. 從 **[!UICONTROL 設定]** 索引標籤中，按一下旁邊的個人化圖示 **[!UICONTROL Preheader]** 欄位以新增內容。
+1. 從 **[!UICONTROL 設定]** 標籤，按一下旁邊的個人化圖示 **[!UICONTROL 預覽文字]** 欄位以新增內容。
 
    ![](assets/preheader_body_settings.png)
 

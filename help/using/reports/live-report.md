@@ -18,29 +18,29 @@ ht-degree: 4%
 # 開始使用即時報告 {#live-report}
 
 使用 **[!UICONTROL 即時報告]** 在內建儀表板中，即時測量並視覺化歷程和訊息的影響和效能。
-資料可在 **[!UICONTROL 即時報告]** 傳送傳遞或執行歷程後，立即從 **[!UICONTROL 過去24小時]** 標籤。
+資料可在 **[!UICONTROL 即時報告]** 一傳送您的傳遞或執行您的歷程後，立即從 **[!UICONTROL 過去24小時]** 標籤。
 
-* 如果您想要在歷程內容中鎖定歷程，請從 **[!UICONTROL 歷程]** 選單，存取您的歷程並按一下 **[!UICONTROL 檢視報告]** 按鈕。
+* 如果您想在歷程的內容中鎖定歷程，請從 **[!UICONTROL 歷程]** 選單，存取您的歷程，然後按一下 **[!UICONTROL 檢視報告]** 按鈕。
 
-   ![](assets/report_journey.png)
+  ![](assets/report_journey.png)
 
-* 若要鎖定行銷活動，請從 **[!UICONTROL 行銷活動]** 功能表，存取您的行銷活動，然後按一下 **[!UICONTROL 報表]** 按鈕。
+* 如果您想要鎖定促銷活動，請從 **[!UICONTROL 行銷活動]** 選單，存取您的行銷活動，然後按一下 **[!UICONTROL 報表]** 按鈕。
 
-   ![](assets/report_campaign.png)
+  ![](assets/report_campaign.png)
 
-* 如果您想從 **[!UICONTROL 全域報告]** 至 **[!UICONTROL 即時報告]** 針對您的傳遞，按一下 **[!UICONTROL 過去24小時]** 標籤切換器。
+* 如果您要從 **[!UICONTROL 全域報告]** 至 **[!UICONTROL 即時報告]** 針對您的傳遞，按一下 **[!UICONTROL 過去24小時]** 從標籤切換器。
 
-   ![](assets/report_3.png)
+  ![](assets/report_3.png)
 
 如需Adobe Journey Optimizer中可用每個量度的詳細清單，請參閱 [此頁面](#list-of-components-live).
 
 ## 自訂儀表板 {#modify-dashboard}
 
-每個報告儀表板都可以透過調整大小或移除 Widget 來修改。變更Widget只會影響目前使用者的儀表板。 其他使用者將看到他們自己的儀表板或預設設定的儀表板。
+每個報告儀表板都可以透過調整大小或移除介面工具來修改。變更Widget只會影響目前使用者的儀表板。 其他使用者將看到自己的儀表板或預設設定的儀表板。
 
-1. 從 **[!UICONTROL 動作]** 下拉式清單，選擇是否要針對歷程的一個特定動作製作報表。
+1. 從 **[!UICONTROL 動作]** 下拉式清單，選擇是否要報告歷程的一個特定動作。
 
-1. 選擇是否要使用切換列從報告中排除測試事件。 如需測試事件的詳細資訊，請參閱 [此頁面](../building-journeys/testing-the-journey.md).
+1. 選擇是否要使用切換列從報表中排除測試事件。 有關測試事件的詳細資訊，請參閱 [此頁面](../building-journeys/testing-the-journey.md).
 
    請注意 **[!UICONTROL 排除測試事件]** 選項僅適用於歷程報告。
 
@@ -50,7 +50,7 @@ ht-degree: 4%
 
    ![](assets/report_modify_7.png)
 
-1. 拖曳Widget的右下角，調整其大小。
+1. 拖曳小工具的右下角，調整其大小。
 
    ![](assets/report_modify_8.png)
 
@@ -58,13 +58,13 @@ ht-degree: 4%
 
    ![](assets/report_modify_9.png)
 
-1. 在您滿意顯示順序和Widget大小後，請按一下 **[!UICONTROL 儲存]**.
+1. 在您滿意顯示順序和Widget的大小後，請按一下 **[!UICONTROL 儲存]**.
 
-1. 若要自訂資料的顯示方式，您可以切換不同的視覺效果選項，例如圖形、表格和環圈圖。
+1. 若要自訂資料的顯示方式，您可以切換不同的視覺化選項，例如圖形、表格和環圈圖。
 
    ![](assets/report_modify_11.png)
 
-您的儀表板現在已儲存。 您的不同變更將會重新套用，以供稍後使用您的即時報告。 如有需要，請使用 **[!UICONTROL 重設]** 恢復預設Widget和Widget順序的選項。
+您的儀表板現在已儲存。 您的不同變更將會重新套用，以供稍後使用您的即時報告。 如有需要，請使用 **[!UICONTROL 重設]** 還原預設Widget和Widget順序的選項。
 
 ## 匯出您的報告 {#export-reports}
 
@@ -74,9 +74,9 @@ ht-degree: 4%
 
    ![](assets/export_2.png)
 
-1. 在「列印」視窗中，視需要設定檔案。 請注意，選項可能會因您的瀏覽器而異。
+1. 在「列印」視窗中，視需要設定檔案。 請注意，選項可能會依您的瀏覽器而有所不同。
 
-1. 選擇將報表列印或儲存為PDF。
+1. 選擇列印或儲存報表為PDF。
 
 1. 找到您要儲存檔案的資料夾，視需要重新命名，然後按一下「儲存」。
 

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定簡訊頻道
-description: 瞭解如何設定您的環境，以使用Journey Optimizer傳送SMS
+description: 瞭解如何設定環境，以使用Journey Optimizer傳送簡訊
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
@@ -21,15 +21,15 @@ ht-degree: 18%
 
 ## 先決條件{#sms-prerequisites}
 
-Adobe Journey Optimizer目前與Sinch、Twilio和Infobip等協力廠商提供者整合，這些協力廠商提供獨立於Adobe Journey Optimizer的SMS服務。
+Adobe Journey Optimizer目前與Sinch、Twilio和Infobip等協力廠商整合，這些廠商獨立於Adobe Journey Optimizer提供簡訊服務。
 
-在SMS設定之前，您必須使用這些SMS提供者之一建立帳戶，以接收API權杖和服務ID，這可讓您在Adobe Journey Optimizer和適用的SMS提供者之間建立連線。
+在SMS設定之前，您必須與其中一個SMS提供者建立帳戶，以接收API權杖和服務ID，這可讓您在Adobe Journey Optimizer和適用的SMS提供者之間建立連線。
 
-您對簡訊服務的使用將受限於適用簡訊提供者的其他條款與條件。 鑑於Sinch和Twilio是透過整合可供Adobe Journey Optimizer使用者使用的協力廠商產品，如有任何與SMS服務相關的問題或詢問，Sinch或Twilio的使用者需要聯絡適用的SMS提供者以尋求協助。 Adobe無法控制第三方產品，因此不負責第三方產品。
+您對簡訊服務的使用將受限於適用簡訊提供者的其他條款與條件。 鑑於Sinch和Twilio是透過整合可供Adobe Journey Optimizer使用者使用的協力廠商產品，如有任何與SMS服務相關的問題或查詢，Sinch或Twilio的使用者需要聯絡適用的SMS提供者以尋求協助。 Adobe無法控制且對協力廠商產品不承擔任何責任。
 
 >[!CAUTION]
 >
->若要存取和編輯SMS子網域，您必須擁有 **[!UICONTROL 管理SMS子網域]** 生產沙箱的許可權。
+>若要存取及編輯SMS子網域，您必須擁有 **[!UICONTROL 管理SMS子網域]** 生產沙箱的許可權。
 
 ## 建立新的API認證 {#create-api}
 
@@ -57,31 +57,31 @@ Adobe Journey Optimizer目前與Sinch、Twilio和Infobip等協力廠商提供者
 
 1. 設定您的SMS API認證：
 
-   * 對象 **[!DNL Sinch]**：
+   * 的 **[!DNL Sinch]**：
 
       * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
 
-      * **[!UICONTROL 服務ID]** 和 **[!UICONTROL API權杖]**：存取API頁面，您可以在SMS標籤下找到憑證。  [了解更多](https://developers.sinch.com/docs/sms/getting-started/)
+      * **[!UICONTROL 服務ID]** 和 **[!UICONTROL API Token]**：存取API頁面，您可以在SMS標籤下找到您的認證。  [了解更多](https://developers.sinch.com/docs/sms/getting-started/)
 
-   * 對象 **[!DNL Twilio]**：
+   * 的 **[!DNL Twilio]**：
 
       * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
 
-      * **[!UICONTROL 帳戶SID]** 和 **[!UICONTROL 驗證權杖]**：存取您的Twilio主控台控制面板頁面的「帳戶資訊」窗格，以尋找您的認證。
+      * **[!UICONTROL 帳戶SID]** 和 **[!UICONTROL 驗證權杖]**：存取Twilio主控台控制面板頁面的「帳戶資訊」窗格，以尋找您的認證。
 
       * **[!UICONTROL 訊息SID]**：輸入指派給Twilio API所建立每則訊息的唯一識別碼。 [了解更多](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
 
-   * 對象 **[!DNL Infobip]**：
+   * 的 **[!DNL Infobip]**：
 
       * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
 
-      * **[!UICONTROL API基本URL]** 和 **[!UICONTROL API權杖]**：存取您的網頁介面首頁或API金鑰管理頁面以尋找您的認證。 [了解更多](https://www.infobip.com/docs/api)
+      * **[!UICONTROL API基底URL]** 和 **[!UICONTROL API權杖]**：存取您的網頁介面首頁或API金鑰管理頁面以尋找您的認證。 [了解更多](https://www.infobip.com/docs/api)
 
    ![](assets/sms_7.png)
 
 1. 按一下 **[!UICONTROL 提交]** 完成API認證的設定時。
 
-建立和設定API認證後，您現在需要為SMS訊息建立管道表面（即訊息預設集）。
+建立和設定API認證後，您現在需要建立SMS訊息的頻道介面（即訊息預設集）。
 
 ## 建立簡訊表面 {#message-preset-sms}
 
@@ -91,7 +91,7 @@ Adobe Journey Optimizer目前與Sinch、Twilio和Infobip等協力廠商提供者
 >abstract="選取使用此表面的簡訊類型：需要使用者同意的促銷簡訊的行銷訊息，或非商業簡訊的異動訊息，例如密碼重設。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hant#sms-opt-out-management" text="選擇不接收行銷簡訊"
 
-設定簡訊頻道後，您必須建立頻道介面，才能從傳送SMS訊息 **[!DNL Journey Optimizer]**.
+設定您的SMS頻道後，您必須建立頻道介面才能從傳送SMS訊息 **[!DNL Journey Optimizer]**.
 
 若要建立管道曲面，請遵循下列步驟：
 
@@ -111,22 +111,22 @@ Adobe Journey Optimizer目前與Sinch、Twilio和Infobip等協力廠商提供者
 
    ![](assets/preset-sms.png)
 
-   * 選取 **[!UICONTROL 簡訊型別]** 將與介面一併傳送的電子郵件： **[!UICONTROL 異動]** 或 **[!UICONTROL 行銷]**.
+   * 選取 **[!UICONTROL 簡訊型別]** 將與介面一併傳送的郵件： **[!UICONTROL 異動]** 或 **[!UICONTROL 行銷]**.
 
       * 選擇 **行銷** 促銷簡訊：這些訊息需要使用者同意。
       * 選擇 **異動** 非商業訊息，例如訂單確認、密碼重設通知或傳遞資訊。
 
      >[!CAUTION]
      >
-     >**異動** SMS訊息可傳送給從行銷通訊取消訂閱的設定檔。 這些訊息只能在特定內容中傳送。
+     >**異動** SMS訊息可傳送給取消訂閱行銷通訊的設定檔。 這些訊息只能在特定內容中傳送。
 
-     建立SMS訊息時，您必須選擇符合您為訊息選取的類別的有效頻道介面。
+     建立SMS訊息時，您必須選擇與您為訊息選取的類別相符的有效頻道介面。
 
    * 選取 **[!UICONTROL 簡訊設定]** 以與曲面相關聯。
 
      有關如何設定環境以傳送SMS訊息的詳細資訊，請參閱 [本節](#create-api).
 
-   * 輸入 **[!UICONTROL 寄件者號碼]** 您&#x200B;想要用於通訊。
+   * 輸入 **[!UICONTROL 寄件者號碼]** 您&#x200B;要用於通訊。
 
    * 選取您的 **[!UICONTROL 簡訊執行欄位]** 以選取 **[!UICONTROL 設定檔屬性]** 與設定檔的電話號碼相關聯。
 
@@ -136,15 +136,15 @@ Adobe Journey Optimizer目前與Sinch、Twilio和Infobip等協力廠商提供者
    >
    >若要能夠選取子網域，請確定您先前已設定至少一個SMS子網域。 [了解作法](sms-subdomains.md)
 
-1. 設定好所有引數後，按一下 **[!UICONTROL 提交]** 以確認。 您也可以將管路曲面儲存為拔模，並在稍後恢復其組態。
+1. 設定好所有引數後，按一下 **[!UICONTROL 提交]** 以確認。 您也可以將管路曲面儲存為草繪，並稍後恢復其組態。
 
    ![](assets/sms_preset_2.png)
 
-1. 建立管道曲面後，它會顯示於清單中，並具有 **[!UICONTROL 處理中]** 狀態。
+1. 建立管道曲面後，它會顯示於清單中，其中包含 **[!UICONTROL 處理中]** 狀態。
 
    >[!NOTE]
    >
-   >如果檢查未成功，請在中進一步瞭解可能的失敗原因 [本節](#monitor-channel-surfaces).
+   >如果檢查不成功，請在中進一步瞭解可能的失敗原因 [本節](#monitor-channel-surfaces).
 
 1. 檢查成功後，管道表面會取得 **[!UICONTROL 作用中]** 狀態。 已準備好用於傳遞訊息。
 

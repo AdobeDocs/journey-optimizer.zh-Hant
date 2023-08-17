@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '608'
+ht-degree: 9%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 重新進入 {#reentrance-field}
 
-指出使用者是否已重新進入具有相同執行個體的歷程。 如果不存在，我們會假設值為false。
+指出使用者是否已使用相同執行個體重新進入歷程。 如果不存在，我們會假設值為false。
 
 類型: 布林值
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ## instanceEnded {#instance-ended-field}
 
-指示執行個體是否已結束（成功或失敗）。
+表示執行個體是否已結束（成功或失敗）。
 
 類型: 布林值
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ## stepID {#stepdid-field}
 
-目前正在處理的步驟的唯一ID。
+目前正在處理之步驟的唯一ID。
 
 類型: 字串
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ## 步驟狀態 {#stepstatus-field}
 
-步驟的狀態，代表步驟的狀態，表示其處理已完成（且已引發步驟事件）的時間。
+步驟的狀態，代表步驟在處理完成（且引發步驟事件）時的狀態。
 
 類型: 字串
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 * 已結束：步驟沒有轉變，其處理已成功結束。
 * 錯誤：步驟處理發生錯誤。
 * 轉變：步驟正在等待事件轉變到另一個步驟。
-* 上限：步驟因上限錯誤而失敗，在動作或擴充期間引發。
+* 上限：步驟因上限錯誤而失敗，在動作或擴充期間發生。
 * 逾時：步驟因逾時錯誤而失敗，在動作或擴充期間發生。
 * instanceTimedout：步驟已停止處理，因為執行個體已達到其逾時。
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 類型: 字串
 
-## 執行個體識別碼 {#instanceid-field}
+## instanceID {#instanceid-field}
 
 歷程執行個體的內部ID。
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 ## externalKey {#externalkey-field}
 
-從事件擷取以處理的外部金鑰。
+從事件擷取的外部索引鍵加以處理。
 
 類型: 字串
 
@@ -167,19 +167,19 @@ ht-degree: 0%
 
 ## inTest {#intest-field}
 
-指出此歷程是否處於測試模式。
+表示此歷程是否處於測試模式。
 
 類型: 布林值
 
-## processingTime {#processingtime-field}
+## processingtime {#processingtime-field}
 
-從執行個體步驟進入到處理結束的總時間量（毫秒）。
+從執行個體步驟進入到處理結束的總時間量（以毫秒為單位）。
 
 型別： long
 
 ## instanceType {#instancetype-field}
 
-指示執行個體型別（如果是批次或單一）。
+指示執行個體型別（若為批次或單一）。
 
 類型: 字串
 
@@ -187,23 +187,23 @@ ht-degree: 0%
 
 ## recurrenceIndex {#recurrenceindex-field}
 
-如果歷程是批次和週期性（第一次執行有recurrenceIndex = 1）的週期索引。
+如果歷程是批次和週期性（第一次執行有recurrenceIndex = 1），則為週期性的索引。
 
 型別： long
 
-## isBatchToUnitary {#isbatchtounitary-field}
+## isBatchToUniary {#isbatchtounitary-field}
 
-指出此單一執行個體是否已從批次執行個體觸發。
+表示此單一執行個體是否已從批次執行個體觸發。
 
 類型: 布林值
 
 ## batchExternalKey {#batchexternalkey-field}
 
-批次事件的外部金鑰。
+批次事件的外部索引鍵。
 
 類型: 字串
 
-## batchInstanceID {#batchinstanceid-field}
+## batchinstanceid {#batchinstanceid-field}
 
 這是批次例項ID。
 
@@ -211,6 +211,6 @@ ht-degree: 0%
 
 ## batchUnitaryBranchID {#batchunitarybranchid-field}
 
-如果執行個體是從批次執行個體觸發，則為單一分支ID。
+如果執行個體是從批次執行個體觸發的，則為單一分支ID。
 
 類型: 字串

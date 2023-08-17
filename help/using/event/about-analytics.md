@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Analytics 整合
-description: 瞭解如何在Journey Optimizer中運用Adobe Analytics資料
+description: 瞭解如何在Journey Optimizer中善用Adobe Analytics資料
 feature: Events
 topic: Administration
 role: Admin
@@ -31,6 +31,7 @@ ht-degree: 7%
 >本節僅適用於規則型事件，以及需要使用Adobe Analytics或Web SDK資料的客戶。
 > 
 >如果您使用Adobe Customer Journey Analytics，請參閱 [此頁面](../reports/cja-ajo.md).
+>
 
 ## 設定Adobe Analytics或Web SDK資料 {#leverage-analytics-data}
 
@@ -56,18 +57,18 @@ ht-degree: 7%
 
    ![](assets/ajo-aa_3.png)
 
-如此將可啟用該報表套裝的Analytics來源聯結器。 只要有資料進來，就會轉換為體驗事件並傳送到Adobe Experience Platform。
+如此將可啟用該報表套裝的Analytics來源聯結器。 只要有資料進來，就會轉換為Experience事件並傳送到Adobe Experience Platform。
 
 ![](assets/ajo-aa_4.png)
 
-在中進一步瞭解Adobe Analytics來源聯結器  [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant){target="_blank"}.
+在中進一步瞭解Adobe Analytics來源聯結器  [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}.
 
 ## 啟用此設定 {#activate-analytics-data}
 
 完成此設定後，請聯絡Adobe以啟用您的Journey Optimizer環境來使用此資料來源。 只有Adobe Analytics資料來源才需要此步驟。 若要執行此動作：
 
-1. 取得資料來源ID。 使用者介面中提供了此資訊：瀏覽至您從 **資料流** 的標籤 **來源** 功能表。 尋找此變數最簡單的方式是篩選Adobe Analytics來源。
-1. 請聯絡Adobe客戶服務，提供下列詳細資料：
+1. 取得資料來源識別碼。 此資訊可在使用者介面中取得：瀏覽至您建立的資料來源 **資料流** 的標籤 **來源** 功能表。 要找到該變數，最簡單的方式是篩選Adobe Analytics來源。
+1. 請聯絡Adobe客戶服務，提供下列詳細資訊：
 
    * 主旨：為歷程啟用Adobe Analytics事件
 
@@ -77,20 +78,20 @@ ht-degree: 7%
 
       * 資料來源ID： &quot;ID： xxxxx&quot;
 
-1. 一旦您確認環境已就緒，便可在歷程中使用Adobe Analytics資料。
+1. 一旦您確認環境準備就緒，即可在您的歷程中使用Adobe Analytics資料。
 
 ## 使用Adobe Analytics或Web SDK資料建立包含事件的歷程 {#event-analytics}
 
-您現在可以根據Adobe Analytics或Adobe Experience Platform Web SDK資料建立事件，以便在歷程中使用。
+您現在可以根據Adobe Analytics或Adobe Experience Platform Web SDK資料建立事件，以用於歷程中。
 
-在以下範例中，瞭解如何鎖定在購物車中新增產品的使用者：
+在下列範例中，瞭解如何鎖定在購物車中新增產品的使用者：
 
-* 如果訂單完成，使用者會在兩天後收到後續電子郵件，要求您提供意見。
+* 如果訂單已完成，使用者會在兩天後收到後續電子郵件，要求您提供意見。
 * 如果訂單未完成，使用者會收到一封電子郵件，提醒他們完成訂單。
 
 1. 從Adobe Journey Optimizer存取 **[!UICONTROL 設定]** 功能表。
 
-1. 然後，選取 **[!UICONTROL 管理]** 從 **[!UICONTROL 事件]** 卡片。
+1. 然後，選取 **[!UICONTROL 管理]** 從 **[!UICONTROL 活動]** 卡片。
 
    ![](assets/ajo-aa_5.png)
 
@@ -98,15 +99,15 @@ ht-degree: 7%
 
 1. 填入 **[!UICONTROL 事件]** 引數：
 
-   * **[!UICONTROL 名稱]**：個人化您的名稱， **[!UICONTROL 事件]**.
+   * **[!UICONTROL 名稱]**：個人化您的名稱 **[!UICONTROL 事件]**.
    * **[!UICONTROL 型別]**：選擇 **[!UICONTROL 單一]** 型別。 [了解更多](../event/about-events.md)
    * **[!UICONTROL 事件ID型別]**：選擇 **[!UICONTROL 以規則為基礎]** 事件ID型別。 [了解更多](../event/about-events.md#event-id-type)
-   * **[!UICONTROL 結構描述]**：選取Analytics或WebSDK結構描述 [建立於以下日期之前：](#leverage-analytics-data).
+   * **[!UICONTROL 結構描述]**：選取Analytics或WebSDK結構描述 [建立於以下時間之前：](#leverage-analytics-data).
    * **[!UICONTROL 欄位]**：選取裝載欄位。 [了解更多](../event/about-creating.md#define-the-payload-fields)
-   * **[!UICONTROL 事件ID條件]**：定義條件以識別將觸發您歷程的事件。
+   * **[!UICONTROL 事件ID條件]**：定義條件以識別將觸發歷程的事件。
 
-      在此，當客戶將專案新增至購物車時會觸發事件。
-   * **[!UICONTROL 設定檔識別碼]**：從您的裝載欄位選擇欄位或定義公式，以識別與事件相關聯的人員。
+     在此，當客戶將專案新增至購物車時會觸發事件。
+   * **[!UICONTROL 設定檔識別碼]**：從您的裝載欄位選擇一個欄位，或定義一個公式以識別與事件相關聯的人員。
 
    ![](assets/ajo-aa_6.png)
 
@@ -114,25 +115,25 @@ ht-degree: 7%
 
 現在事件已準備就緒，請建立歷程以使用它。
 
-1. 從 **[!UICONTROL 歷程]** 功能表、開啟或建立歷程。 如需詳細資訊，請參閱[本章節](../building-journeys/journey-gs.md)。
+1. 從 **[!UICONTROL 歷程]** 選單，開啟或建立歷程。 如需詳細資訊，請參閱[本章節](../building-journeys/journey-gs.md)。
 
-1. 將先前設定的Analytics事件新增至您的歷程。
+1. 將您先前設定的Analytics事件新增至您的歷程。
 
    ![](assets/ajo-aa_8.png)
 
-1. 新增完成訂單時觸發的事件。
+1. 新增完成訂購時觸發的事件。
 
 1. 從您的 **[!UICONTROL 事件功能表]**，選取 **[!UICONTROL 定義事件逾時]** 和 **[!UICONTROL 設定逾時路徑]** 選項。
 
    ![](assets/ajo-aa_9.png)
 
-1. 從逾時路徑中新增 **[!UICONTROL 電子郵件]** 動作。 此路徑將用來傳送電子郵件給未完成訂單的客戶，以提醒他們仍可使用購物車。
+1. 從逾時路徑中新增 **[!UICONTROL 電子郵件]** 動作。 此路徑將用來傳送電子郵件給未完成訂單的客戶，以提醒他們其購物車仍然可用。
 
-1. 新增 **[!UICONTROL 等待]** 活動，並將其設定為所需的持續時間。
+1. 新增 **[!UICONTROL 等待]** 活動，並將它設定為所需的持續時間。
 
    ![](assets/ajo-aa_10.png)
 
-1. 然後，新增 **[!UICONTROL 電子郵件動作]**. 在這封電子郵件中，將會提示客戶對所下訂單提供意見。
+1. 然後，新增 **[!UICONTROL 電子郵件動作]**. 在這封電子郵件中，系統會提示客戶對所下訂單提供意見。
 
 您現在可以測試並發佈您的歷程。 [了解更多](../building-journeys/publishing-the-journey.md)
 

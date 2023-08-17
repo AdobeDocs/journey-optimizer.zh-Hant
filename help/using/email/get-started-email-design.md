@@ -50,9 +50,9 @@ ht-degree: 100%
 
    * 直接在電子郵件設計工具&#x200B;**撰寫或貼上原始 HTML**。在[本節](code-content.md)了解如何撰寫您自己的內容。
 
-      >[!NOTE]
-      >
-      >在行銷活動中，您還可以從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;畫面選取&#x200B;**[!UICONTROL 程式碼編輯器]**&#x200B;按鈕。[了解更多](create-email.md#define-email-content)
+     >[!NOTE]
+     >
+     >在行銷活動中，您還可以從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;畫面選取&#x200B;**[!UICONTROL 程式碼編輯器]**&#x200B;按鈕。[了解更多](create-email.md#define-email-content)
 
    * 從檔案或 .zip 資料夾&#x200B;**匯入現有 HTML 內容**。在[本節](existing-content.md)了解如何匯入電子郵件內容。
 

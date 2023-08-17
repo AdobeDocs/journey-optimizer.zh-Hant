@@ -37,7 +37,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->如果您是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target="_blank"} 使用者利用 **offer decisioning** 應用程式服務，本節中介紹的所有決策管理功能也適用於您。
+>如果您是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target="_blank"} 使用者利用 **offer decisioning** 應用程式服務，本節中說明的所有決定管理功能也適用於您。
 
 ## 關於優惠和決定 {#about-offers-and-decisions}
 

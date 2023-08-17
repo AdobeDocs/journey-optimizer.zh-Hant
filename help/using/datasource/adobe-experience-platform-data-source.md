@@ -23,10 +23,10 @@ ht-degree: 32%
 >title="Adobe Experience Platform 資料來源"
 >abstract="Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶設定檔的連線。此資料來源是內建和預先設定的，並無法刪除。它旨在從即時客戶設定檔服務中擷取和使用資料 (例如，檢查進入歷程的人是否為女性)。其可讓您使用個人檔資料與體驗事件資料。 "
 
-Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶設定檔的連線。此資料來源是內建和預先設定的，並無法刪除。此資料來源旨在擷取及使用即時客戶個人檔案服務的資料（例如，檢查進入歷程的人是否為女性）。 其可讓您使用個人檔資料與體驗事件資料。 如需Adobe即時客戶個人檔案的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}.
+Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶設定檔的連線。此資料來源是內建和預先設定的，並無法刪除。此資料來源旨在擷取及使用即時客戶個人檔案服務的資料（例如，檢查進入歷程的人員是否為女性）。 其可讓您使用個人檔資料與體驗事件資料。 如需Adobe即時客戶個人檔案的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}.
 
 
-若要允許連線到即時客戶個人檔案服務，我們必須使用金鑰來識別人員，並使用名稱空間將金鑰內容化。 因此，如果您的歷程以包含索引鍵和名稱空間的事件開頭，您只能使用此資料來源。 [了解更多](../building-journeys/journey.md)。
+若要允許連線到即時客戶個人檔案服務，我們必須使用金鑰來識別人員，並使用名稱空間將金鑰內容化。 因此，如果您的歷程以包含索引鍵和名稱空間的事件開始，您只能使用此資料來源。 [了解更多](../building-journeys/journey.md)。
 
 您可以編輯名為「ProfileFieldGroup」的預先設定欄位群組、新增欄位群組，以及移除未用於任何草稿或即時歷程的欄位群組。 [了解更多](../datasource/configure-data-sources.md#define-field-groups)。
 
@@ -51,4 +51,4 @@ Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶設定檔�
 1. 選取您要使用的欄位。
 1. 按一下 **[!UICONTROL 儲存]**.
 
-將游標放在欄位群組的名稱上時，會在右側看到兩個圖示。 它們可讓您刪除和複製欄位群組。 請注意 **[!UICONTROL 刪除]** 圖示僅適用於未在任何即時或草稿歷程中使用欄位群組(資訊顯示在 **[!UICONTROL 使用位置]** 欄位)。
+將游標放在欄位群組的名稱上時，您會在右側看到兩個圖示。 它們可讓您刪除和複製欄位群組。 請注意 **[!UICONTROL 刪除]** 圖示僅適用於未在任何即時或草稿歷程中使用欄位群組的情況(資訊顯示在 **[!UICONTROL 使用位置]** 欄位)。

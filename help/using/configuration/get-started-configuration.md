@@ -37,7 +37,7 @@ ht-degree: 100%
 
 1. 您也可以：
 
-   * 管理將電子郵件地址傳送至隱藏清單前執行重試的天數。[了解更多](manage-suppression-list.md)
+   * 管理將電子郵件地址傳送至禁止名單前執行重試的天數。[了解更多](manage-suppression-list.md)
 
    * 啟用 **BBC電子郵件選項**，保留傳送給個人的訊息副本。 [了解更多](archiving-support.md#enable-bcc)
 

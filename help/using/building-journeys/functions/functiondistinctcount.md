@@ -16,7 +16,7 @@ ht-degree: 30%
 
 # distinctCount{#distinctCount}
 
-計算忽略空值的不同值數目。
+計算不同值的數目，忽略null值。
 
 ## 類別
 
@@ -39,7 +39,7 @@ ht-degree: 30%
 | 清單 | listDateTimeOnly |
 | 清單 | listDateOnly |
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `distinctCount(<listAny>)`
 

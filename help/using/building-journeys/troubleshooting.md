@@ -11,8 +11,8 @@ keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1029'
+ht-degree: 73%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 在此區段中，您會瞭解如何先疑難排解歷程，然後再進行測試或發佈。下列所有檢查皆可在歷程處於測試模式或歷程為即時狀態時執行。建議您在測試模式中進行下列所有檢查，然後繼續發佈。請參閱[此頁面](../building-journeys/testing-the-journey.md)。
 
-## 測試前先檢查錯誤{#checking-for-errors-before-testing}
+## 請先檢查錯誤，然後再進行測試{#checking-for-errors-before-testing}
 
 在測試和發佈您的歷程之前，請先確認所有活動皆已正確設定。如果系統仍偵測到錯誤，則無法進行測試或發佈。
 
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 ![](assets/canvas-disconnected.png)
 
-旁邊 **[!UICONTROL 測試]** 切換及 **[!UICONTROL 發佈]** 按鈕時，會顯示警告符號。 此警告符號會顯示系統偵測到的錯誤，而且可防止測試模式啟動或歷程發佈。在大多數情況下，系統偵測到的錯誤會連結到活動上的可見錯誤，但有時候會連結到其他問題。在這種情況下，您可以顯示這些問題，嘗試識別用於說明錯誤的問題。如果您無法識別問題，則可複製詳細資料並將之傳送給管理員或支援。請注意，會封鎖測試的錯誤和封鎖發佈的錯誤是類似的。
+在 **[!UICONTROL 測試]** 切換及 **[!UICONTROL 發佈]** 按鈕時，會顯示警告符號。 此警告符號會顯示系統偵測到的錯誤，而且可防止測試模式啟動或歷程發佈。在大多數情況下，系統偵測到的錯誤會連結到活動上的可見錯誤，但有時候會連結到其他問題。在這種情況下，您可以顯示這些問題，嘗試識別用於說明錯誤的問題。如果您無法識別問題，則可複製詳細資料並將之傳送給管理員或支援。請注意，會封鎖測試的錯誤和封鎖發佈的錯誤是類似的。
 
 系統偵測到兩種問題：錯誤及警告。錯誤會封鎖發佈及測試啟動。警告指出未封鎖測試啟動或發佈的潛在問題。您會看到問題的說明，以及類型 ERR_XXX_XXX 的問題日誌 ID。這將有助於技術支援人員找出問題。
 
-兩個不同的顏色可以顯示在旁邊的符號上 **[!UICONTROL 測試]** 切換及 **[!UICONTROL 發佈]** 按鈕。 出現錯誤時，符號會以紅色顯示。若出現警告，則會顯示為橘色。
+兩種不同的顏色可以顯示在旁邊的符號上 **[!UICONTROL 測試]** 切換及 **[!UICONTROL 發佈]** 按鈕。 出現錯誤時，符號會以紅色顯示。若出現警告，則會顯示為橘色。
 
 ![](assets/journey75.png)
 
@@ -50,22 +50,22 @@ ht-degree: 0%
 
 您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。如果您收到錯誤，則表示您的呼叫發生問題。再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。您可以諮詢管理員哪個是要點擊的正確 URL。
 
-事件不會直接從來源推送到歷程。 事實上，歷程仰賴Adobe Experience Platform的串流獲取API。 因此，若發生事件相關問題，您可以參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} 適用於串流獲取API的疑難排解。
+不會直接將事件從來源推送到歷程。 事實上，歷程依賴Adobe Experience Platform的串流獲取API。 因此，若發生事件相關問題，您可以參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} 適用於串流獲取API的疑難排解。
 
 ## 檢查是否有人進入歷程{#checking-if-people-enter-the-journey}
 
-歷程報告會即時測量歷程中的人員入口。
+歷程報告會即時衡量歷程中的人員入口。
 
 如果您成功傳送活動，但在歷程中看不到任何入口，則表示在活動傳送以及在歷程中的事件接收之間發生錯誤。
 
-您可以透過下列問題開始疑難排解：
+您可以透過下列問題開始進行疑難排解：
 
 * 您確定您預期會發生傳入事件的歷程處於測試模式或是即時狀態？
 * 在從有效負載預覽複製有效負載之前，您是否已儲存事件？
 * 您的事件有效負載是否包含事件 ID？
 * 您是否點按了正確的 URL？
 * 您是否依照串流獲取 API 有效負載結構，而在事件設定窗格中使用有效負載結構預覽？請參閱[此頁面](../event/about-creating.md#preview-the-payload)。
-* 您在事件標頭中使用正確的機碼值組嗎？
+* 您在事件標題中是否使用正確的機碼值組？
 
   ```
   X-gw-ims-org-id - your organization's ID
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 如果個人在歷程中的進度正常，但並未收到應接收的訊息，您可以檢查：
 
-* [!DNL Journey Optimizer] 已正確考量傳送訊息的要求。 商業使用者可以存取應傳送的訊息，並檢查最新執行的時間是否與歷程的執行時間對應。 他們也可以檢查收到的最新API呼叫/事件。
+* [!DNL Journey Optimizer] 已正確考量傳送訊息的要求。 業務使用者可以存取應傳送的訊息，並檢查最新執行的時間是否與歷程的執行時間對應。 他們也可以檢查收到的最新API呼叫/事件。
 * [!DNL Journey Optimizer] 已成功傳送訊息。 檢查歷程報告以確定沒有錯誤。
 
 若是透過自訂動作傳送訊息，在歷程測試期間唯一可以檢查的事項，就是自訂動作系統的呼叫是否會導致錯誤。如果呼叫與自訂動作相關聯的外部系統並未造成錯誤，但並未導致訊息傳送，則應在外部系統端進行一些調查。

@@ -1,6 +1,6 @@
 ---
 title: 清單位置
-description: 版位是用於展示優惠方案的容器。
+description: 版位是用來展示優惠方案的容器。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,9 +15,9 @@ ht-degree: 12%
 
 # 清單位置 {#list-placements}
 
-版位是用於展示優惠方案的容器。 版位有助於確保正確的選件內容顯示在訊息的正確位置。 將內容新增至優惠方案時，系統會要求您選取可顯示該內容的版位。
+版位是用來展示優惠方案的容器。 版位有助於確保正確的選件內容顯示在訊息的正確位置。 將內容新增至優惠方案時，系統會要求您選取可顯示該內容的版位。
 
-您可以透過對「 」執行單一GET請求，來檢視容器中所有位置的清單 [!DNL Offer Library] API。
+您可以透過對以下專案執行單一GET請求，檢視容器內所有位置的清單 [!DNL Offer Library] API。
 
 **API格式**
 
@@ -34,7 +34,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 
 ## 使用查詢引數 {#using-query-parameters}
 
-列出資源時，您可以使用查詢引數來分頁和篩選結果。
+您可以在列出資源時，使用查詢引數來頁面和篩選結果。
 
 ### 分頁 {#paging}
 
@@ -42,11 +42,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `q` | 在選取的欄位中搜尋的可選查詢字串。 查詢字串應為小寫，並可由雙引號包圍，以防止其標籤化及逸出特殊字元。 字元 `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊意義，在查詢字串中出現時應該以反斜線逸出。 | 網站JSON |
+| `q` | 在選取的欄位中搜尋的可選查詢字串。 查詢字串應為小寫，並可由雙引號包圍，以防止加以代碼化及逸出特殊字元。 字元 `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊意義，在查詢字串中出現時應該以反斜線逸出。 | 網站JSON |
 | `qop` | 將AND或OR運運算元套用至q查詢字串引數中的值。 | `AND` / `OR` |
-| `field` | 要限制搜尋的選用欄位清單。 此引數可以重複執行，如下所示： field=field1[，field=field2，...] 和（路徑運算式的形式為點分隔的路徑，例如_instance.xdm：name） | `_instance.xdm:name` |
+| `field` | 要限制搜尋的選用欄位清單。 此引數可重複出現，如下所示： field=field1[，field=field2，...] 和（路徑運算式的形式為點分隔的路徑，例如_instance.xdm：name） | `_instance.xdm:name` |
 | `orderBy` | 依特定屬性排序結果。 新增 `-` 在標題之前(`orderby=-title`)會依標題以遞減順序(Z-A)排序專案。 | `-repo:createdDate` |
-| `limit` | 限制傳回的版位數量。 | `limit=5` |
+| `limit` | 限制傳回的版位數。 | `limit=5` |
 
 **要求**
 
@@ -62,7 +62,7 @@ curl -X GET \
 
 **回應**
 
-成功回應會傳回您在有權存取的容器中存在的版位清單。
+成功的回應會傳回存在於您可存取之容器中的位置清單。
 
 ```json
 {

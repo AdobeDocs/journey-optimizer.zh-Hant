@@ -86,7 +86,7 @@ ht-degree: 5%
 
 ![](assets/fragment-explore-references.png)
 
-選取索引標籤以在歷程、行銷活動和範本之間切換。 您可以檢視其狀態，然後按一下名稱，重新導向至已參考片段的對應專案。
+選取索引標籤以在歷程、行銷活動和範本之間切換。 您可以檢視其狀態，然後按一下名稱，重新導向至已引用片段的對應專案。
 
 ![](assets/fragment-usage-screen.png)
 

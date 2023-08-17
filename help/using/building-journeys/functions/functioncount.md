@@ -5,7 +5,7 @@ description: 瞭解函式計數
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: count，計數， function，運算式， journey
+keywords: 計數，函式，運算式，歷程
 exl-id: 6980c1ec-3afd-4fc9-ae10-76bcf7364a04
 source-git-commit: ad113c0414b20ac2f758ad06a44315b24a3d3d0c
 workflow-type: tm+mt
@@ -39,7 +39,7 @@ ht-degree: 28%
 | 清單 | listDateTimeOnly |
 | 清單 | listDateOnly |
 
-## 簽章和傳回型別
+## 簽章與傳回型別
 
 `count(<listAny>)`
 

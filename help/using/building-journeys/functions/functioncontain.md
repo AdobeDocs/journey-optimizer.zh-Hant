@@ -30,7 +30,7 @@ ht-degree: 17%
 
 * 字串
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `contain(<string>,<string>)`
 

@@ -19,7 +19,7 @@ ht-degree: 4%
 
 ## 年齡{#age}
 
-此 `age` 函式用於從指定日期擷取年齡。
+此 `age` 函式來擷取給定日期中的年齡。
 
 **語法**
 
@@ -37,9 +37,9 @@ The following operation gets the value of the identity map for the key `example@
 ```
 -->
 
-## 目前時間（毫秒）{#current-time}
+## 目前時間（以毫秒為單位）{#current-time}
 
-此 `currentTimeInMillis` 函式用於擷取目前時間（以epoch毫秒為單位）。
+此 `currentTimeInMillis` 函式來擷取目前時間（以epoch毫秒為單位）。
 
 **語法**
 
@@ -100,7 +100,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 年中的日{#day-year}
 
-此 `dayOfYear` 函式來擷取一年中的第幾天。
+此 `dayOfYear` 函式來擷取一年當中的第幾天。
 
 **語法**
 
@@ -128,17 +128,17 @@ The following operation gets all the values for the map `identityMap`.
 {%= formatDate(datetime, format) %}
 ```
 
-其中第一個字串是日期屬性，第二個值是您希望轉換和顯示日期的方式。
+其中第一個字串是日期屬性，第二個值是您想要轉換和顯示日期的方式。
 
 >[!NOTE]
 >
-> 如果日期模式無效，日期將退回至ISO標準格式。
+> 如果日期模式無效，該日期將回覆為ISO標準格式。
 >
 > 您可以使用Java日期格式函式，如中所述 [oracle檔案](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **範例**
 
-下列作業會以下列格式傳回日期：MM/DD/YY。
+下列作業將傳回下列格式的日期：MM/DD/YY。
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY") %}
@@ -146,7 +146,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 支援地區設定的日期格式{#format-date-locale}
 
-此 `formatDate` 函式可用來將日期時間值格式化為對應的語言敏感表示法，亦即所需的地區設定。 格式應為有效的Java DateTimeFormat模式。
+此 `formatDate` 函式可用來將日期時間值格式化為其對應的語言感應式表示，亦即所需的地區設定。 格式應為有效的Java DateTimeFormat模式。
 
 **語法**
 
@@ -158,16 +158,16 @@ The following operation gets all the values for the map `identityMap`.
 
 >[!NOTE]
 >
-> 如果日期模式無效，日期將退回至ISO標準格式。
+> 如果日期模式無效，該日期將回覆為ISO標準格式。
 >
 > 您可以使用Java日期格式函式，如中所述 [oracle檔案](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
 >
-> 您可以使用格式設定和有效地區設定，如中所述 [oracle檔案](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) 和 [支援的區域設定](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> 您可以使用格式設定和有效地區設定，如中所述 [oracle檔案](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) 和 [支援的語言環境](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 
 **範例**
 
-下列作業會以下列格式傳回日期： MM/DD/YY和locale FRANCE。
+下列作業將傳回下列格式的日期： MM/DD/YY和locale FRANCE。
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY", "fr_FR") %}
@@ -175,7 +175,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 設定天數{#set-days}
 
-此 `setDays` 函式用來設定指定日期時間的月份日期。
+此 `setDays` 函式可用來設定指定日期時間的月份日期。
 
 **語法**
 
@@ -193,7 +193,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 設定小時{#set-hours}
+## 設定時數{#set-hours}
 
 此 `setHours` 函式來設定日期時間的小時。
 

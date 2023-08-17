@@ -1,6 +1,6 @@
 ---
 title: 查詢位置
-description: 版位是用於展示優惠方案的容器。
+description: 版位是用來展示優惠方案的容器。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 查詢位置 {#look-up-placement}
 
-您可以透過向以下網址發出GET請求來查詢特定版位： [!DNL Offer Library] 包含任一位置的API `@id` 或請求路徑中的位置名稱。
+您可以透過向以下網址發出GET請求來查詢特定版位： [!DNL Offer Library] 包含位置的API `@id` 或請求路徑中位置的名稱。
 
 **API格式**
 
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | `{CONTAINER_ID}` | 位置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `SCHEMA_PLACEMENT}` | 定義與版位關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
 | `id` | 用於比對 `@id` 個實體的屬性。 字串完全相符。 引數 `id` 和 `name` 不能一起使用。 | `xcore:offer-placement:124541309805b7e8` |
-| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全符合，但可使用萬用字元。 引數 `id` 和 `name` 不能一起使用 | `Sales and Promotions Placement` |
+| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數 `id` 和 `name` 不能一起使用 | `Sales and Promotions Placement` |
 
 ```shell
 curl -X GET \
@@ -43,7 +43,7 @@ curl -X GET \
 
 **回應**
 
-成功的回應會傳回位置的詳細資訊，包括容器ID、執行個體ID和唯一位置的相關資訊 `@id`.
+成功的回應會傳回位置的詳細資料，包括容器ID、例項ID和唯一位置的相關資訊 `@id`.
 
 ```json
 {

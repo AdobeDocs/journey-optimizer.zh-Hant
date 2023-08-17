@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # 刪除遞補優惠 {#delete-fallback-offer}
 
-有時可能必須移除(DELETE)遞補優惠。 只能刪除您在租使用者容器中建立的遞補優惠。 這是透過對「 」執行DELETE請求來完成 [!DNL Offer Library] 使用您要刪除之遞補優惠$id的API。
+有時可能必須移除(DELETE)遞補優惠。 您只能在租使用者容器中建立的遞補優惠方案，才會被刪除。 這可透過向以下對象執行DELETE請求來完成 [!DNL Offer Library] API使用您要刪除之遞補優惠的$id。
 
 **API格式**
 
@@ -26,8 +26,8 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 遞補優惠方案所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 遞補優惠方案的執行個體ID。 | `b3966680-13ec-11eb-9c20-8323709cfc65` |
+| `{CONTAINER_ID}` | 遞補優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | 遞補優惠的例項ID。 | `b3966680-13ec-11eb-9c20-8323709cfc65` |
 
 **要求**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 成功的回應會傳回HTTP狀態202 （無內容）和空白內文。
 
-您可以嘗試向遞補優惠方案查詢(GET)要求以確認刪除。 您需要在請求中加入Accept標頭，但應該會收到HTTP狀態404 （找不到），因為已從容器中移除遞補優惠。
+您可以嘗試對遞補優惠進行查詢(GET)以確認刪除。 您需要在請求中包含Accept標頭，但應該會收到HTTP狀態404 （找不到），因為已經從容器中移除遞補優惠。

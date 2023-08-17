@@ -17,9 +17,9 @@ ht-degree: 11%
 
 ## 布林函式 {#boolean-functions}
 
-布林值函式可用來在不同的元素上執行布林值邏輯。
+布林值函式用於對不同元素執行布林值邏輯。
 
-### 和{#and}
+### 與{#and}
 
 此 `and` 函式用來建立邏輯結合。
 
@@ -31,7 +31,7 @@ ht-degree: 11%
 
 **範例**
 
-下列作業將傳回原籍國為France及1985年出生年份的所有人。
+下列作業將傳回原籍國為法國及1985年出生年份的所有人。
 
 ```sql
 {%= profile.homeAddress.country = "France" and profile.person.birthYear = 1985 %}
@@ -78,7 +78,7 @@ not (homeAddress.countryISO = "CA")
 
 ## 比較函式 {#comparison-functions}
 
-比較函式可用來比較不同運算式和值之間的差異，並相應地傳回true或false。
+比較函式是用來比較不同運算式和值之間的差異，並據此傳回true或false。
 
 ### 等於{#equals}
 
@@ -92,7 +92,7 @@ not (homeAddress.countryISO = "CA")
 
 **範例**
 
-下列作業會檢查住家地址（國家）是否為法國。
+下列作業會檢查住家地址國家/地區是否為法國。
 
 ```sql
 {%= profile.homeAddress.country = "France" %}
@@ -100,7 +100,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 不等於{#notequal}
 
-此 `!=` （不等於）函式檢查一個值或運算式是否為 **not** 等於另一個值或運算式。
+此 `!=` （不等於）函式檢查一個值或運算式是否為 **非** 等於另一個值或運算式。
 
 **語法**
 
@@ -110,7 +110,7 @@ not (homeAddress.countryISO = "CA")
 
 **範例**
 
-下列作業會檢查住家地址國家/地區是否不是法國。
+下列作業會檢查住家地址國家/地區是否不是France。
 
 ```sql
 {%= profile.homeAddress.country != "France" %}

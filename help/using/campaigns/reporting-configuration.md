@@ -16,7 +16,7 @@ ht-degree: 35%
 
 ---
 
-# 設定用於實驗的報告 {#reporting-configuration}
+# 設定實驗的報告 {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
@@ -36,7 +36,7 @@ ht-degree: 35%
 >
 >報告設定必須由技術使用者執行。 <!--Rights?-->
 
-對於此設定，您需要新增一個或多個資料集，其中包含您要用於報告的其他元素。 若要這麼做，請遵循步驟 [以下](#add-datasets).
+對於此設定，您需要新增一個或多個包含您想用於報告的其他元素的資料集。 請依照下列步驟以執行此操作 [以下](#add-datasets).
 
 <!--
 ➡️ [Discover this feature in video](#video)
@@ -45,21 +45,21 @@ ht-degree: 35%
 ## 先決條件
 
 
-您必須先建立該資料集，才能將資料集新增至報表設定。 瞭解如何在 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
+必須先建立該資料集，才能將資料集新增到報表設定。 瞭解如何在 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
 
 * 您只能新增事件型別資料集。
 
-* 這些資料集必須包含 **體驗事件 — 主張互動** [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}.
+* 這些資料集必須包括 **體驗事件 — 主張互動** [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}.
 
-* 這些資料集可能也包含下列其中一項 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： **應用程式詳細資料**， **商務詳細資料**， **網頁詳細資訊**.
+* 這些資料集可能也包含下列其中一項 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： **應用程式詳細資料**， **商業細節**， **網頁詳細資訊**.
 
   >[!NOTE]
   >
   >可能還包括其他欄位群組，但Journey Optimizer報表中目前僅支援上述欄位群組。
 
-  例如，如果您想瞭解電子郵件行銷活動對商業資料（如購買或訂單）的影響，則需要使用建立體驗事件資料集 **商務詳細資料** 欄位群組。
+  例如，如果您想瞭解電子郵件行銷活動對商業資料（如購買或訂單）的影響，則需要使用建立體驗事件資料集 **商業細節** 欄位群組。
 
-  同樣地，如果您想要報告行動互動，則需要建立體驗事件資料集， **應用程式詳細資料** 欄位群組。
+  同樣地，如果您想要報告行動互動，則需要建立體驗事件資料集，包含 **應用程式詳細資料** 欄位群組。
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
@@ -67,7 +67,7 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->瞭解更多關於XDM結構描述和欄位群組 [XDM系統概觀檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}.
+>瞭解更多關於XDM結構描述和欄位群組 [XDM系統總覽檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}.
 
 <!--
 ## Objectives corresponding to each field group {#objective-list}
@@ -95,19 +95,19 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    >[!NOTE]
    >
-   >如果您選取 **[!UICONTROL 系統資料集]** 索引標籤中，只會顯示由系統建立的資料集。 您將無法新增其他資料集。
+   >如果您選取 **[!UICONTROL 系統資料集]** 標籤中，僅顯示由系統建立的資料集。 您將無法新增其他資料集。
 
-1. 從 **[!UICONTROL 資料集]** 下拉式清單，選取您要用於報告的資料集。
+1. 從 **[!UICONTROL 資料集]** 從下拉式清單中，選取要用於報告的資料集。
 
    >[!CAUTION]
    >
-   >您只能選取事件型別資料集，該資料集必須至少包含一個受支援的 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： **應用程式詳細資料**， **商務詳細資料**， **網頁詳細資訊**. 如果選取的資料集與這些條件不相符，將無法儲存變更。
+   >您只能選取事件型別資料集，該資料集必須至少包含其中一個支援的 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： **應用程式詳細資料**， **商業細節**， **網頁詳細資訊**. 如果選取的資料集與這些條件不相符，將無法儲存變更。
 
    ![](assets/reporting-config-datasets.png)
 
-   進一步瞭解 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target="_blank"}.
+   進一步瞭解中的資料集 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target="_blank"}.
 
-1. 從 **[!UICONTROL 設定檔ID]** 從下拉式清單中，選取用於識別報告中每個設定檔的資料集欄位屬性。
+1. 從 **[!UICONTROL 設定檔ID]** 從下拉式清單中，選取用於識別報表中每個設定檔的資料集欄位屬性。
 
    ![](assets/reporting-config-profile-id.png)
 
@@ -119,7 +119,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-namespace.png)
 
-   進一步瞭解 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant){target="_blank"}.
+   進一步瞭解中的名稱空間 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant){target="_blank"}.
 
 1. 儲存變更以將選取資料集新增到報告設定清單。
 

@@ -1,6 +1,6 @@
 ---
-title: 數學函式館
-description: 數學函式館
+title: 數學函式程式庫
+description: 數學函式程式庫
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 ## 絕對 {#absolute}
 
-此 `absolute` 函式可用來將數字轉換為絕對值。
+此 `absolute` 函式可將數字轉換為絕對值。
 
 **語法**
 
@@ -27,11 +27,11 @@ ht-degree: 6%
 {%= absolute(int) %}: int
 ```
 
-## formatNumber {#format-number}
+## formatnumber {#format-number}
 
-此 `formatNumber` 函式用於將任何數字格式化成其區分語言的表示法。
+此 `formatNumber` 函式可用來將任何數字格式化為語言感應式表示法。
 
-它會接受數字和代表地區設定的字串，並傳回所需地區設定中數字的格式化字串。
+它接受數字和代表地區設定的字串，並傳回所需地區設定中數字的格式化字串。
 
 **語法**
 
@@ -39,7 +39,7 @@ ht-degree: 6%
 {%= formatNumber(number/double,string) %}: string
 ```
 
-您可以使用格式設定和有效地區設定，如中所述 [oracle檔案](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) 和 [支援的區域設定](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+您可以使用格式設定和有效地區設定，如中所述 [oracle檔案](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) 和 [支援的語言環境](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **範例**
 
@@ -51,7 +51,7 @@ ht-degree: 6%
 
 ## Random {#random}
 
-此 `random` 函式用於傳回0到1之間的隨機值。
+此 `random` 函式來傳回0到1之間的隨機值。
 
 **語法**
 
@@ -91,13 +91,13 @@ ht-degree: 6%
 
 **範例**
 
-此查詢會傳回158的十六進位值，即9e。
+此查詢傳回158的十六進位值，即9e。
 
 ```sql
 {%= toHexString(158) %}
 ```
 
-## 目標百分比 {#to-percentage}
+## 至百分比 {#to-percentage}
 
 此 `toPercentage` 函式用於將數字轉換為百分比。
 
@@ -119,7 +119,7 @@ ht-degree: 6%
 
 ## 至字串 {#to-string}
 
-此 **toString** 函式將任何數字轉換為字串表示法。
+此 **toString** 函式將任何數字轉換為其字串表示法。
 
 **語法**
 

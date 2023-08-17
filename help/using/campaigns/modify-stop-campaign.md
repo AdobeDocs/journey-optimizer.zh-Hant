@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # 管理行銷活動 {#modify-stop-campaign}
 
-行銷活動啟動後，您可以隨時修改或停止它。 這些操作僅適用於具有重複執行的行銷活動。
+行銷活動一旦啟動後，您就可以隨時修改或停止。 這些操作僅適用於具有週期性執行的行銷活動。
 
 此外，您可以複製即時行銷活動（執行一次或循環執行）以建立新行銷活動，並封存已完成或停止的行銷活動。
 
@@ -39,14 +39,14 @@ ht-degree: 2%
 * **[!UICONTROL 草稿]**：行銷活動正在編輯中，尚未啟用。
 * **[!UICONTROL 啟用]**：正在啟動行銷活動。
 * **[!UICONTROL 即時]**：行銷活動已啟用。
-* **[!UICONTROL 已排程]**：行銷活動已設定為在特定的開始日期啟動。
+* **[!UICONTROL 已排程]**：促銷活動已設定為在特定的開始日期啟動。
 * **[!UICONTROL 已停止]**：行銷活動已手動停止。 您無法再啟用或重複使用它。 [瞭解如何停止行銷活動](modify-stop-campaign.md#stop)
 * **[!UICONTROL 已完成]**：行銷活動完成。 此狀態會在行銷活動啟動3天後自動指派，如果行銷活動有週期性執行，則會在行銷活動的結束日期指派。
 * **[!UICONTROL 已封存]**：行銷活動已封存。 [瞭解如何封存行銷活動](modify-stop-campaign.md#archive)
 
 >[!NOTE]
 >
->旁的「開啟草稿版本」圖示 **[!UICONTROL 即時]** 或 **[!UICONTROL 已排程]** status表示已建立新版本的行銷活動，但尚未啟用。 [了解更多](modify-stop-campaign.md#modify)。
+>旁的「開啟草稿版本」圖示 **[!UICONTROL 即時]** 或 **[!UICONTROL 已排程]** 狀態表示已建立新版本的行銷活動，但尚未啟用。 [了解更多](modify-stop-campaign.md#modify)。
 
 ## 修改週期性行銷活動 {#modify}
 
@@ -54,7 +54,7 @@ ht-degree: 2%
 
 1. 開啟行銷活動，然後按一下 **[!UICONTROL 修改行銷活動]** 按鈕。
 
-1. 會建立新版本的行銷活動。 您可以按一下「 」以檢查即時版本 **[!UICONTROL 開啟即時版本]**.
+1. 會建立新版本的行銷活動。 您可以按一下以檢查即時版本 **[!UICONTROL 開啟即時版本]**.
 
    ![](assets/create-campaign-draft.png)
 
@@ -62,7 +62,7 @@ ht-degree: 2%
 
    ![](assets/create-campaign-edit-list.png)
 
-1. 準備好變更後，您就可以啟動新版本的行銷活動(請參閱 [檢閱及啟用行銷活動](create-campaign.md#review-activate))。
+1. 變更準備就緒後，您就可以啟動新版本的行銷活動(請參閱 [檢閱及啟動行銷活動](create-campaign.md#review-activate))。
 
    >[!IMPORTANT]
    >
@@ -70,13 +70,13 @@ ht-degree: 2%
 
 ## 停止週期性行銷活動 {#stop}
 
-若要停止週期性行銷活動，請開啟該行銷活動，然後按一下 **[!UICONTROL 停止行銷活動]** 按鈕。
+若要停止週期性行銷活動，請開啟行銷活動，然後按一下 **[!UICONTROL 停止行銷活動]** 按鈕。
 
 ![](assets/create-campaign-stop.png)
 
 >[!IMPORTANT]
 >
->停止行銷活動不會停止進行中的傳送，但會停止排程的傳送，如果傳送已在進行中，則會停止下一次發生。
+>停止行銷活動不會停止進行中的傳送，但會停止排程的傳送，或如果傳送已在進行中，則會停止下一次發生。
 
 <!-- inbound campaign (inapp): can stop and resume -->
 
@@ -88,10 +88,10 @@ ht-degree: 2%
 
 ## 封存行銷活動 {#archive}
 
-隨著時間推移，行銷活動清單不斷成長，最終導致瀏覽已完成和已停止的行銷活動變得更加困難。
+隨著時間過去，行銷活動清單會持續成長，最終使瀏覽已完成和已停止的行銷活動變得更困難。
 
-為避免此問題，您可以封存您不再需要的已完成和已停止的行銷活動。 若要這麼做，請按一下省略符號按鈕，然後選取 **[!UICONTROL 封存]**.
+為避免此問題，您可以封存不再需要之已完成和停止的行銷活動。 若要這麼做，請按一下省略符號按鈕，然後選取 **[!UICONTROL 封存]**.
 
 ![](assets/create-campaign-archive.png)
 
-然後可以使用清單中的專用篩選器來擷取已封存的行銷活動。 [瞭解如何存取行銷活動](get-started-with-campaigns.md#access)
+接著，您可以使用清單中的專用篩選器來擷取已封存的行銷活動。 [瞭解如何存取行銷活動](get-started-with-campaigns.md#access)

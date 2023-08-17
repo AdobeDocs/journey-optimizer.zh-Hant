@@ -5,7 +5,7 @@ description: 瞭解不同的函式
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: distinct，不同，函式，運算式，歷程
+keywords: distinct，函式，運算式，歷程
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -35,9 +35,9 @@ ht-degree: 6%
 | 參數 | 類型 | 說明 |
 |-----------|------------------|------------------|
 | listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要處理的清單。 對於listObject，它必須是欄位參考。 |
-| keyAttributeName | 字串 | 此引數是選用引數，僅適用於listObject。 如果未提供引數，如果所有屬性的值都相同，則會將物件視為重複。 否則，如果給定的屬性具有相同的值，則會將物件視為重複。 |
+| keyAttributeName | 字串 | 此引數是選用專案，且僅適用於listObject。 如果未提供引數，如果所有屬性的值都相同，則會將物件視為重複。 否則，如果給定的屬性具有相同的值，則會將物件視為重複。 |
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `distinct(<listInteger>)`
 

@@ -33,7 +33,7 @@ ht-degree: 17%
 | 字串 | 字串 |
 | regexp | 字串 |
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `matchRegExp(<string>,<string>)`
 

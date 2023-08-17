@@ -15,15 +15,15 @@ ht-degree: 8%
 
 # 更新決定 {#update-decision}
 
-您可以透過向以下專案發出PATCH請求，修改或更新容器中的決定： [!DNL Offer Library] API。
+您可以透過向以下專案發出PATCH請求，修改或更新容器中的決策： [!DNL Offer Library] API。
 
-如需JSON修補程式的詳細資訊，包括可用操作，請參閱官方檔案 [JSON修補程式檔案](https://jsonpatch.com/).
+如需JSON修補程式的詳細資訊，包括可用的作業，請參閱官方檔案 [JSON修補程式檔案](https://jsonpatch.com/).
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
 下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
 
-| 標頭名稱 | 值 |
+| 頁首名稱 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
@@ -38,7 +38,7 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 決策所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 決定的例項ID。 | `f88c9be0-1245-11eb-8622-b77b60702882` |
+| `{INSTANCE_ID}` | 決定的執行個體ID。 | `f88c9be0-1245-11eb-8622-b77b60702882` |
 
 **要求**
 
@@ -62,13 +62,13 @@ curl -X PATCH \
 
 | 參數 | 說明 |
 | --------- | ----------- |
-| `op` | 用來定義更新連線所需動作的操作呼叫。 作業包括： `add`， `replace`、和 `remove`. |
-| `path` | 要更新的引數路徑。 |
+| `op` | 用於定義更新連線所需動作的操作呼叫。 操作包括： `add`， `replace`、和 `remove`. |
+| `path` | 要更新之引數的路徑。 |
 | `value` | 您想要用來更新引數的新值。 |
 
 **回應**
 
-成功的回應會傳回決定的更新詳細資料，包括其唯一的執行個體ID和決定 `@id`.
+成功的回應會傳回決定的更新詳細資料，包括其唯一例項ID和決定 `@id`.
 
 ```json
 {

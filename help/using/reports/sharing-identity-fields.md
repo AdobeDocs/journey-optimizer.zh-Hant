@@ -17,7 +17,7 @@ ht-degree: 26%
 
 # journeyStep 事件識別欄位 {#sharing-identity-fields}
 
-此欄位群組是journeyStepEvent的專屬群組：此事件與歷程有關，且沒有identityMap，說明設定檔身分（如有）。
+此欄位群組是journeyStepEvent專屬的：此事件與歷程有關，且沒有identityMap，說明設定檔身分（如有）。
 
 若為journeyStepEvent，我們還需要新增與身分相關的欄位：
 

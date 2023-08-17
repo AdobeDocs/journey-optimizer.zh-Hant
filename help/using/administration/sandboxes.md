@@ -11,8 +11,8 @@ keywords: 沙箱，虛擬，環境，組織，平台
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '354'
+ht-degree: 55%
 
 ---
 
@@ -35,23 +35,23 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 沙箱管理只能由 **[!UICONTROL 產品]** 或 **[!UICONTROL 系統]** 管理員。 如需詳細資訊，請參閱 [Admin Console檔案](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
+> 沙箱管理只能由執行 **[!UICONTROL 產品]** 或 **[!UICONTROL 系統]** 管理員。 如需詳細資訊，請參閱 [Admin Console檔案](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
 
 您可以選擇將不同的沙箱指派給現成可用的或自訂的 **[!UICONTROL 角色]**.
 
 若要指派沙箱：
 
-1. 在 [!DNL Permissions]，來自 **[!UICONTROL 角色]** 索引標籤中，選取 **[!UICONTROL 角色]**.
+1. 在 [!DNL Permissions]，來自 **[!UICONTROL 角色]** 索引標籤，選取 **[!UICONTROL 角色]**.
 
    ![](assets/sandbox_1.png)
 
 1. 按一下&#x200B;**[!UICONTROL 編輯]**。
 
-1. 從 **[!UICONTROL 沙箱]** resource下拉式清單，選取將指派給您的角色的沙箱。
+1. 從 **[!UICONTROL 沙箱]** resource下拉式清單，選取將指派給您角色的沙箱。
 
    ![](assets/sandbox_3.png)
 
-1. 如有需要，請按一下旁邊的X圖示，以移除對您的裝置的沙箱存取權。 **[!UICONTROL 角色]**.
+1. 如有需要，請按一下旁邊的X圖示，以移除對您的存取沙箱的許可權 **[!UICONTROL 角色]**.
 
    ![](assets/sandbox_4.png)
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ## 存取內容 {#content-access}
 
-若要設定內容協助功能，您必須將內容共用資料夾指派給每個 sandbox。 您可以在「 」中建立和設定共用資料夾 **[!UICONTROL 儲存]** 標籤中顯示 [!DNL Admin Console] 適用於管理員。 如果您以系統管理員的身份可以存取[!DNL Admin Console]，則可以建立共用資料夾，並將具有不同存取等級的指派新增到共用資料夾。
+若要設定內容協助功能，您必須將內容共用資料夾指派給每個 sandbox。 您可以在「 」中建立和設定共用資料夾 **[!UICONTROL 儲存]** 標籤顯示在 [!DNL Admin Console] 適用於管理員。 如果您以系統管理員的身份可以存取[!DNL Admin Console]，則可以建立共用資料夾，並將具有不同存取等級的指派新增到共用資料夾。
 
 ![](assets/do-not-localize/content_access.png)
 

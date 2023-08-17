@@ -16,7 +16,7 @@ ht-degree: 12%
 
 # 建立資料集以收集事件 {#create-dataset}
 
-若要收集體驗事件，您首先需要建立將傳送這些事件的資料集。
+若要收集體驗事件，您必須先建立要傳送這些事件的資料集。
 
 首先，請建立要在資料集中使用的結構描述：
 
@@ -28,7 +28,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >瞭解更多關於XDM結構描述和欄位群組 [XDM系統概觀檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}.
+   >瞭解更多關於XDM結構描述和欄位群組 [XDM系統總覽檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}.
 
 1. 從 **[!UICONTROL 欄位群組]** 部分，選取 **[!UICONTROL 新增]**.
 
@@ -42,7 +42,7 @@ ht-degree: 12%
 
    >[!CAUTION]
    >
-   >資料集中使用的結構描述必須具備 **[!UICONTROL 體驗事件 — 主張互動]** 與其相關聯的欄位群組。 否則，您將無法在AI模型中使用它。
+   >資料集中使用的結構描述必須具有 **[!UICONTROL 體驗事件 — 主張互動]** 與其相關聯的欄位群組。 否則，您將無法在AI模型中使用它。
 
 1. 輸入名稱並儲存結構。
 
@@ -58,7 +58,7 @@ ht-degree: 12%
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
-1. 從清單中選取您剛建立的結構描述，然後按一下 **[!UICONTROL 下一個]**.
+1. 從清單中選取您剛建立的綱要，然後按一下 **[!UICONTROL 下一個]**.
 
 1. 為中的資料集提供唯一名稱 **[!UICONTROL 名稱]** 欄位並按一下 **[!UICONTROL 完成]**.
 
@@ -66,4 +66,4 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->現在可以選取此資料集，以便在下列情況下收集事件資料 [建立AI模型](../ranking/create-ranking-strategies.md).
+>現在可以選取此資料集，以便在下列情況下收集事件資料： [建立AI模型](../ranking/create-ranking-strategies.md).

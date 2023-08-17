@@ -11,8 +11,8 @@ keywords: campaign， acc，整合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '501'
+ht-degree: 22%
 
 ---
 
@@ -29,19 +29,19 @@ Journey Optimizer 和 Campaign 執行個體之間的連線在佈建時由 Adobe 
 
 本頁面介紹端對端使用案例 [區段](../building-journeys/ajo-ac.md).
 
-對於每個已設定的動作，歷程設計工具浮動視窗中都有動作活動可用。 請參閱本[章節](../building-journeys/using-adobe-campaign-classic.md)。
+對於已設定的每個動作，歷程設計器浮動視窗中都提供動作活動。 請參閱本[章節](../building-journeys/using-adobe-campaign-classic.md)。
 
 ## 重要備註 {#important-notes}
 
-* 無訊息限制。 系統會根據目前的Campaign SLA，將每5分鐘可傳送的訊息數量上限設為4000封。 因此，Journey Optimizer只應用於單一使用案例（個別事件，而非對象）。
+* 沒有訊息限制。 系統會根據目前的Campaign SLA，將每5分鐘可傳送的訊息數量上限設為4000則以上。 因此，Journey Optimizer應僅用於單一使用案例（個別事件，而非對象）。
 
-* 您必須在要使用的每個範本的畫布上設定一個動作。 您需要在Journey Optimizer中，為您要從Adobe Campaign使用的每個範本設定一個動作。
+* 您必須針對要使用的每個範本，在畫布上設定一個動作。 您需要在Journey Optimizer中，為您要從Adobe Campaign使用的每個範本設定一個動作。
 
-* 建議您使用針對這項整合而代管的專用訊息中心執行個體，以避免影響您可能進行的任何其他Campaign作業。 行銷伺服器可以是託管式或內部部署。 所需的版本編號為21.1版本候選版本或更新版本。
+* 建議您使用針對這項整合而託管的專用訊息中心執行個體，以避免影響您可能正在進行的任何其他行銷活動作業。 行銷伺服器可以是託管式或內部部署。 所需的組建版本是21.1版本候選版本或更新版本。
 
-* 沒有驗證裝載或Campaign訊息是否正確。
+* 沒有驗證裝載或行銷活動訊息是否正確。
 
-* 您無法將Campaign動作與對象資格事件搭配使用。
+* 行銷活動動作無法與對象資格事件搭配使用。
 
 ## 先決條件 {#prerequisites}
 
@@ -63,18 +63,18 @@ Journey Optimizer 和 Campaign 執行個體之間的連線在佈建時由 Adobe 
 ```
 
 * **頻道**：為您的Campaign交易範本定義的管道
-* **事件型別**：Campaign事件的內部名稱
+* **eventtype**：Campaign事件的內部名稱
 * **ctx**：變數，根據您訊息中的個人化設定而定。
 
 ## 設定動作 {#configure-action}
 
-在Journey Optimizer中，您需要為每個交易式訊息設定一個動作。 請按照以下步驟操作：
+在Journey Optimizer中，您需為每個異動訊息設定一個動作。 請按照以下步驟操作：
 
 1. 建立新動作。 請參閱本[章節](../action/action.md)。
 1. 輸入名稱和說明。
 1. 在 **動作型別** 欄位，選取 **Adobe Campaign Classic**.
 1. 按一下 **裝載** 欄位並貼上與Campaign訊息相對應的JSON裝載範例。 聯絡Adobe以取得此裝載。
-1. 視您想要在歷程畫布上對應欄位，將不同的欄位調整為靜態或變數。 某些欄位，例如電子郵件地址和個人化欄位(ctx)的管道引數，您可能想要定義為要在歷程內容中對應的變數。
+1. 視您想要在歷程畫布上對應欄位，將不同的欄位調整為靜態或變數。 某些欄位，例如電子郵件地址和個人化欄位(ctx)的管道引數，您可能會想要定義為歷程內容中對應的變數。
 1. 按一下&#x200B;**儲存**。
 
 ![](assets/accintegration1.png)

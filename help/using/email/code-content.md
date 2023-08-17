@@ -24,7 +24,7 @@ ht-degree: 67%
 
 >[!CAUTION]
 >
-> 影像來源 [Adobe Experience Manager Assets Essentials](assets-essentials.md) 使用此方法時無法參考。 HTML程式碼中參照的影像必須儲存至公共位置。
+> 影像來源 [Adobe Experience Manager Assets Essentials](assets-essentials.md) 使用此方法時無法參考。 您的HTML程式碼中參照的影像必須儲存到公共位置。
 
 1. 從電子郵件設計工具首頁，選取 **[!UICONTROL 自行撰寫程式碼]**.
 
@@ -32,7 +32,7 @@ ht-degree: 67%
 
 1. 輸入或貼上原始 HTML 程式碼。
 
-1. 使用左窗格來運用 [!DNL Journey Optimizer] 個人化功能。 [了解更多](../personalization/personalize.md)
+1. 使用左窗格以運用 [!DNL Journey Optimizer] 個人化功能。 [了解更多](../personalization/personalize.md)
 
    ![](assets/code-editor.png)
 

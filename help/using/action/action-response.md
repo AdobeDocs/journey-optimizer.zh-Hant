@@ -121,7 +121,7 @@ ht-degree: 4%
 
 ## 錯誤狀態{#error-status}
 
-此 **jo_status_code** 欄位一律可用，即使未定義任何回應裝載。
+此 **jo_status_code** 欄位一律可用，即使未定義回應裝載亦然。
 
 以下是此欄位可能的值：
 

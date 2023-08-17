@@ -24,7 +24,7 @@ ht-degree: 6%
 
 ## 優惠優先順序 {#offer-priority}
 
-依預設，當數個優惠方案符合在決定中指定位置的資格時，具有最高優惠方案 **優先順序** 會先傳送給客戶。
+依預設，當數個優惠方案符合決策中指定位置的資格時，具有最高優惠方案的優惠方案 **優先順序** 會先傳送給客戶。
 
 ![](../assets/offer-priority.png)
 
@@ -32,13 +32,13 @@ ht-degree: 6%
 
 ## 排名公式 {#assign-ranking-formula}
 
-除了優惠優先順序之外，Journey Optimizer還允許您建立 **排名公式**. 這些公式可決定應先針對指定位置顯示哪個優惠，而不是考慮優惠的優先順序分數。
+除了選件優先順序之外，Journey Optimizer還允許您建立 **排名公式**. 這些公式可決定應先針對指定位置顯示哪個優惠，而不是考慮優惠的優先順序分數。
 
 例如，您可以提升結束日期距離現在不足24小時的所有優惠方案的優先順序，或如果設定檔的興趣點為「執行中」，則提升「執行中」類別的優惠方案。
 
 瞭解如何在中建立排名公式 [本節](../ranking/create-ranking-formulas.md).
 
-建立公式後，您可以將其指派給決定中的位置。 請依照下列步驟執行此操作：
+建立公式後，您就可以將其指派給決定中的位置。 請依照下列步驟執行此操作：
 
 1. 建立決定或編輯現有決定。 請參閱[建立決定](../offer-activities/create-offer-activities.md)。
 
@@ -56,15 +56,15 @@ ht-degree: 6%
 
 排名公式現在與位置相關聯。
 
-如果在此位置中符合呈現多個優惠方案的資格，決策將使用選取的公式來計算要先傳送哪個優惠方案。
+如果在此位置中符合顯示多個優惠方案的資格，決策將使用選取的公式來計算要先傳送哪個優惠方案。
 
 ## AI 排名 {#use-ranking-strategy}
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-您也可以使用經過訓練的模型系統，藉由選取AI模型，自動為要針對指定設定檔顯示的選件排名。 瞭解如何在中建立AI模型 [本節](../ranking/create-ranking-strategies.md).
+您也可以使用經過訓練的模型系統，藉由選取AI模型，自動排名要針對指定設定檔顯示的優惠方案。 瞭解如何在中建立AI模型 [本節](../ranking/create-ranking-strategies.md).
 
-建立AI模型後，您可以將其指派給決定中的位置。 若要這麼做，請遵循下列步驟：
+建立AI模型後，您可以將其指派給決定中的位置。 請依照下列步驟以執行此操作：
 
 1. 建立決定或編輯現有決定。 請參閱[建立決定](../offer-activities/create-offer-activities.md)。
 
@@ -72,15 +72,15 @@ ht-degree: 6%
 
 1. 對於每個位置，新增一個集合。 另請參閱 [建立集合](../offer-library/creating-collections.md).
 
-1. 選擇優惠排名依據 **[!UICONTROL AI排名]** ，然後按一下「 」 **[!UICONTROL 新增排名]**.
+1. 選擇依以下條件排名優惠： **[!UICONTROL AI排名]** ，然後按一下「 」 **[!UICONTROL 新增排名]**.
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
-1. 選取您建立的AI模型。 將顯示模型的所有細節。
+1. 選取您建立的AI模型。 會顯示模型的所有細節。
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
 1. 按一下&#x200B;**[!UICONTROL 「選取」]**。AI模型現在與位置相關聯。
 
-如果多個優惠方案都符合條件，訓練有素的模型系統將決定應先針對指定位置顯示哪個優惠方案。
+如果多個優惠方案都符合條件，則經過訓練的模型系統將決定應先針對指定位置顯示哪個優惠方案。
 

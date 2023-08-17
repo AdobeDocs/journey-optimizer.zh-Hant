@@ -14,21 +14,21 @@ ht-degree: 4%
 
 # 建立遞補優惠方案 {#create-fallback-offers}
 
-如果客戶不符合其他優惠方案的資格，系統會將遞補優惠方案傳送給客戶。 建立遞補優惠方案的步驟包括建立一或多個表示，例如建立優惠方案時。
+如果客戶不符合其他優惠方案的資格，系統會將遞補優惠方案傳送給客戶。 建立遞補優惠的步驟包含建立一或多個表示，例如建立優惠時。
 
 ➡️ [在影片中探索此功能](#video)
 
-遞補優惠清單可在以下位置存取： **[!UICONTROL 選件]** 功能表。
+遞補優惠清單可在 **[!UICONTROL 選件]** 功能表。
 
 ![](../assets/offers_list.png)
 
-若要建立遞補優惠，請遵循下列步驟：
+若要建立遞補優惠，請依照下列步驟進行：
 
 >[!NOTE]
 >
->請注意，不同於個人化優惠方案，遞補優惠方案沒有適用規則和限制引數，因為它們會以無條件的最後度假村形式呈現給客戶。
+>請注意，與個人化優惠不同，遞補優惠沒有適用規則和限制引數，因為它們是作為無條件的最後度假村提供給客戶的。
 
-1. 按一下 **[!UICONTROL 建立優惠方案]**，然後選取 **[!UICONTROL 遞補優惠]**.
+1. 按一下 **[!UICONTROL 建立選件]**，然後選取 **[!UICONTROL 遞補優惠]**.
 
    ![](../assets/create_fallback.png)
 
@@ -36,9 +36,9 @@ ht-degree: 4%
 
    ![](../assets/fallback_details.png)
 
-1. 若要將自訂或核心資料使用標籤指派給選件，請選取 **[!UICONTROL 管理存取權]**. [進一步瞭解物件層級存取控制(OLAC)](../../administration/object-based-access.md)
+1. 若要指派自訂或核心資料使用標籤給選件，請選取「 」 **[!UICONTROL 管理存取權]**. [深入瞭解物件層級存取控制(OLAC)](../../administration/object-based-access.md)
 
-1. 為遞補優惠建立一或多個代表。 若要這麼做，請從左側窗格拖放版位，就像建立個人化優惠方案一樣。 另請參閱 [建立個人化優惠](../offer-library/creating-personalized-offers.md).
+1. 為遞補優惠建立一或多個代表。 若要這麼做，請從左側窗格拖放版位，就像建立個人化優惠方案一樣。 另請參閱 [建立個人化優惠方案](../offer-library/creating-personalized-offers.md).
 
    ![](../assets/fallback_content.png)
 
@@ -48,9 +48,9 @@ ht-degree: 4%
 
    ![](../assets/fallback_review.png)
 
-1. 備援優惠方案會顯示在含有「 」的清單中 **[!UICONTROL 即時]** 或 **[!UICONTROL 草稿]** 狀態，取決於您在上一步驟中是否核准。
+1. 備援優惠方案會顯示在含有「 」的清單中 **[!UICONTROL 即時]** 或 **[!UICONTROL 草稿]** 狀態，取決於您是否在上一步驟中核准。
 
-   現在已準備好交付給客戶。 您可以選取它以顯示其屬性並加以編輯。 <!-- no suppression? -->
+   現在已準備好傳送給客戶。 您可以選取它以顯示其屬性並加以編輯。 <!-- no suppression? -->
 
    ![](../assets/fallback_created.png)
 

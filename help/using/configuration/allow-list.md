@@ -18,7 +18,7 @@ ht-degree: 14%
 
 # 允許清單 {#allow-list}
 
-您可在以下位置定義特定的傳送安全清單： [沙箱](../administration/sandboxes.md) 層級。
+您可在「 」區段中定義特定的安全傳送清單 [沙箱](../administration/sandboxes.md) 層級。
 
 此允許清單可讓您指定個別電子郵件地址或網域，這些地址或網域將是唯一獲授權接收您從特定沙箱傳送之電子郵件的收件者或網域。
 
@@ -26,9 +26,9 @@ ht-degree: 14%
 >
 >此功能適用於生產及非生產沙箱。
 
-例如，在可能發生錯誤的非生產執行個體上，允許清單可確保您將不需要的訊息傳送至真實客戶地址的風險降至最低，因此會提供用於測試用途的安全環境。
+例如，在可能發生錯誤的非生產執行個體上，允許清單可確保避免您將不需要的訊息傳送至真實客戶地址的風險，因此會提供安全的環境用於測試。
 
-此外，當允許清單為作用中但空白時，不會傳出任何郵件。 因此，如果您遇到一些重大問題，可以使用此功能來停止所有來自的傳出通訊 [!DNL Journey Optimizer] 直到您修正問題為止。 進一步瞭解 [允許清單邏輯](#logic).
+此外，當允許清單為作用中但空白時，將不會傳出任何郵件。 因此，如果您遇到一些重大問題，可以使用此功能來停止所有來自的傳出通訊 [!DNL Journey Optimizer] 直到您修正問題為止。 進一步瞭解 [允許清單邏輯](#logic).
 
 >[!CAUTION]
 >
@@ -42,7 +42,7 @@ ht-degree: 14%
 
 >[!CAUTION]
 >
->檢視、匯出和管理允許清單的許可權僅限於 [歷程管理員](../administration/ootb-product-profiles.md#journey-administrator). 進一步瞭解管理 [!DNL Journey Optimizer] 使用者在中的存取許可權 [本節](../administration/permissions-overview.md).
+>檢視、匯出及管理允許清單的許可權僅限於 [歷程管理員](../administration/ootb-product-profiles.md#journey-administrator). 進一步瞭解管理 [!DNL Journey Optimizer] 使用者在中的存取權 [本節](../administration/permissions-overview.md).
 
 若要將允許清單匯出為CSV檔案，請選取 **[!UICONTROL 下載CSV]** 按鈕。
 
@@ -68,13 +68,13 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >啟用允許清單後，有5分鐘的延遲時間，它就會在您的歷程和行銷活動中生效。
+   >啟用允許清單後，有5分鐘的延遲，讓它在您的歷程和行銷活動中生效。
 
-當功能作用中時，允許清單邏輯適用。 請參閱[此章節](#logic)深入瞭解。
+當功能作用中時，會套用允許清單邏輯。 請參閱[此章節](#logic)深入瞭解。
 
 >[!NOTE]
 >
->啟用時，允許清單功能在執行歷程時執行，但也在使用測試訊息時執行 [校樣](../email/preview.md#send-proofs) 和測試歷程，使用 [測試模式](../building-journeys/testing-the-journey.md).
+>啟用時，允許清單功能在執行歷程時執行，也可以在測試訊息時使用 [校樣](../email/preview.md#send-proofs) 並使用測試歷程 [測試模式](../building-journeys/testing-the-journey.md).
 
 ## 停用允許清單 {#deactivate-allow-list}
 
@@ -92,9 +92,9 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >停用允許清單後，有5分鐘的延遲時間，它就會在您的歷程和行銷活動中生效。
+   >停用允許清單後，有5分鐘的延遲，它就會在您的歷程和行銷活動中生效。
 
-停用功能時，允許清單邏輯不適用。 請參閱[此章節](#logic)深入瞭解。
+停用功能時，不會套用允許清單邏輯。 請參閱[此章節](#logic)深入瞭解。
 
 ## 將實體新增至允許清單 {#add-entities}
 
@@ -152,9 +152,9 @@ ht-degree: 14%
 
 ![](assets/allow-list-api.png)
 
-您可以執行 **新增**， **刪除** 和 **取得** 作業。
+您可以執行 **新增**， **刪除** 和 **Get** 操作。
 
-進一步瞭解在中進行API呼叫 [ADOBE EXPERIENCE PLATFORM API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} 參考檔案。
+進一步瞭解如何在中進行API呼叫 [ADOBE EXPERIENCE PLATFORM API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} 參考檔案。
 
 ## 下載允許清單 {#download-allowed-list}
 
@@ -172,7 +172,7 @@ ht-degree: 14%
    >
    >下載時間取決於檔案大小，亦即允許清單中的位址數量。
    >
-   >對於指定的沙箱，一次可以處理一個下載請求。
+   >對於指定的沙箱，一次可處理一個下載請求。
 
 1. 檔案產生後，您會收到通知。 按一下畫面右上方的鈴鐺圖示即可顯示。
 
@@ -191,17 +191,17 @@ ht-degree: 14%
 >title="管理允許清單"
 >abstract="啟動允許清單後，只有包含在允許清單中的收件者才能接收來自此沙箱的電子郵件訊息。停用時，所有收件者都會收到電子郵件。"
 
-當允許清單為 [作用中](#enable-allow-list)，則套用下列邏輯：
+當允許清單為 [主要](#enable-allow-list)，則套用下列邏輯：
 
 * 如果允許清單為 **空白**，不會傳送任何電子郵件。
 
-* 如果實體為 **在允許清單上**，而不是在隱藏清單上，電子郵件會傳送給相對應的收件者。 但是，如果實體也在 [隱藏清單](../reports/suppression-list.md)，對應的收件者將不會收到電子郵件，原因為 **[!UICONTROL 已隱藏]**.
+* 如果實體為 **在允許清單上**，而不是在隱藏清單中，電子郵件會傳送給相對應的收件者。 但是，如果實體也在 [隱藏清單](../reports/suppression-list.md)，對應的收件者將不會收到電子郵件，原因為 **[!UICONTROL 已隱藏]**.
 
-* 如果實體為 **不在允許清單上** （不在隱藏清單上），對應的收件者將不會收到電子郵件，原因為 **[!UICONTROL 不允許]**.
+* 如果實體為 **不在允許清單上** （而且不在隱藏清單上），對應的收件者將不會收到電子郵件，原因為 **[!UICONTROL 不允許]**.
 
 >[!NOTE]
 >
->設定檔具有 **[!UICONTROL 不允許]** 在訊息傳送過程中會排除狀態。 因此，當 **歷程報告** 會將這些設定檔顯示為已移動通過歷程([讀取對象](../building-journeys/read-audience.md) 和 [訊息活動](../building-journeys/journeys-message.md))， **以電子郵件傳送報告** 不會將其納入 **[!UICONTROL 已傳送]** 量度，因為這些量度在傳送電子郵件前會被篩選掉。
+>具有的設定檔 **[!UICONTROL 不允許]** 在訊息傳送過程中會排除狀態。 因此，當 **歷程報告** 會將這些設定檔顯示為已移動經過歷程([讀取對象](../building-journeys/read-audience.md) 和 [訊息活動](../building-journeys/journeys-message.md))， **以電子郵件傳送報告** 將不會包含在 **[!UICONTROL 已傳送]** 量度，因為這些量度在傳送電子郵件前會被篩選掉。
 >
 >進一步瞭解 [即時報告](../reports/live-report.md) 和 [全域報告](../reports/global-report.md).
 
@@ -209,7 +209,7 @@ ht-degree: 14%
 
 ## 排除報告 {#reporting}
 
-當允許清單作用中時，您可以擷取由於不在允許清單中而未傳送的電子郵件地址或網域。 若要這麼做，您可以使用 [Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} 進行下列API呼叫。
+當允許清單作用中時，您可以擷取由於不在允許清單中而未從傳送中的電子郵件地址或網域。 若要這麼做，您可以使用 [Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} 以發出下列API呼叫。
 
 若要取得 **電子郵件數量** 因為收件者不在允許清單中而未傳送的郵件，請使用以下查詢：
 

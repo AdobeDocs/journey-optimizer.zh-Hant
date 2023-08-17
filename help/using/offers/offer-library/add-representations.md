@@ -1,6 +1,6 @@
 ---
-title: 新增代表至優惠方案
-description: 瞭解如何為優惠方案新增呈現
+title: 將代表新增至優惠方案
+description: 瞭解如何將代表新增至您的優惠
 feature: Offers
 topic: Integrations
 role: User
@@ -13,7 +13,7 @@ ht-degree: 9%
 
 ---
 
-# 新增代表至優惠方案 {#add-representations}
+# 將代表新增至優惠方案 {#add-representations}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
@@ -22,9 +22,9 @@ ht-degree: 9%
 
 選件可顯示在訊息中的不同位置：在含有影像的頂端橫幅中、作為段落中的文字、作為HTML區塊等。 優惠具有的表示方式越多，在不同位置內容中使用優惠的機會就越多。
 
-## 設定優惠方案宣告 {#representations}
+## 設定優惠的宣告 {#representations}
 
-若要新增一或多個代表至優惠方案並加以設定，請遵循下列步驟。
+若要新增一或多個代表至您的優惠方案並加以設定，請遵循下列步驟。
 
 1. 對於第一個表示，從選取 **[!UICONTROL 頻道]** 將會使用的區段。
 
@@ -40,19 +40,19 @@ ht-degree: 9%
 
    ![](../assets/browse-button-placements.png)
 
-   您仍然可以在此處根據版位頻道和/或內容型別篩選版位。 選擇位置並按一下 **[!UICONTROL 選取]**.
+   您仍然可以在這裡根據版位頻道和/或內容型別來篩選版位。 選擇位置並按一下 **[!UICONTROL 選取]**.
 
    ![](../assets/browse-placements.png)
 
-1. 新增內容至您的表現。 瞭解如何在 [本節](#content).
+1. 將內容新增至您的代表。 瞭解如何 [本節](#content).
 
-1. 新增影像或URL等內容時，您可以指定 **[!UICONTROL 目的地連結]**：按一下選件的使用者將被導向相對應的頁面。
+1. 新增影像或URL等內容時，您可以指定 **[!UICONTROL 目的地連結]**：按一下選件的使用者將被導向至對應的頁面。
 
    ![](../assets/offer-destination-link.png)
 
-1. 最後，選取您選擇的語言，以協助識別和管理要向使用者顯示的內容。
+1. 最後，選取您選擇的語言，以協助識別並管理要向使用者顯示的內容。
 
-1. 若要新增其他表示法，請使用 **[!UICONTROL 新增表示方式]** 按鈕，並視需要新增任意數量的表示。
+1. 若要新增其他表示法，請使用 **[!UICONTROL 新增表示方式]** 按鈕並視需要新增任意數量的表示。
 
    ![](../assets/offer-add-representation.png)
 
@@ -68,7 +68,7 @@ ht-degree: 9%
 
 ### 新增影像 {#images}
 
-如果選取的位置是影像型別，您可以新增來自 **Adobe Experience Cloud資產** 資料庫，資產集中存放庫，由 [!DNL Adobe Experience Manager Assets Essentials].
+如果所選版位為影像型別，您可以新增來自 **Adobe Experience Cloud資產** 資料庫，資產集中存放庫，由 [!DNL Adobe Experience Manager Assets Essentials].
 
 >[!NOTE]
 >
@@ -90,31 +90,31 @@ ht-degree: 9%
 
 如果所選版位為HTML型別，您也可以新增來自的HTML或JSON內容 [Adobe Experience Cloud資產庫](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"})。
 
-例如，您已在以下位置建立HTML電子郵件範本： [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} 而且您想要將該檔案用於您的選件內容。 與其建立新檔案，您只需將範本上傳到 **資產庫** 以便在優惠的表示中重複使用它。
+例如，您已在下列位置建立HTML電子郵件範本： [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} 而且您想要將該檔案用於選件內容。 您可以直接將範本上傳到 **資產庫** 以便在優惠的表示中重複使用它。
 
-若要在代表中重複使用您的內容，請瀏覽 **資產庫** 如所述 [本節](#images) 並選取您選擇的HTML或JSON檔案。
+若要在表現中重複使用您的內容，請瀏覽 **資產庫** 如所述 [本節](#images) 並選取您選擇的HTML或JSON檔案。
 
 ![](../assets/offer-browse-asset-library-json.png)
 
 ### 新增URL {#urls}
 
-若要從外部公用位置新增內容，請選取「 」 **[!UICONTROL URL]**，然後輸入要新增內容的URL位址。
+若要從外部公共位置新增內容，請選取「 」 **[!UICONTROL URL]**，然後輸入要新增內容的URL位址。
 
 您可以使用運算式編輯器個人化URL。 進一步瞭解 [個人化](../../personalization/personalize.md#use-expression-editor).
 
 ![](../assets/offer-content-url.png)
 
-例如，您想要個人化顯示為選件的影像。 你想讓喜歡城市度假的使用者看紐約天際線，也想讓喜歡海灘度假的使用者看夏威夷北岸。
+例如，您想要個人化顯示為選件的影像。 你想讓喜歡城市度假的使用者看紐約的天際線，也想讓喜歡海灘度假的使用者看夏威夷的北岸。
 
 使用運算式編輯器，使用聯合結構描述擷取儲存在Adobe Experience Platform中的設定檔屬性。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
 
 ![](../assets/offer-content-url-personalization.png)
 
-如果您指定 **[!UICONTROL 目的地連結]**，您也可以個人化按一下選件的使用者將導向哪個URL。
+如果您指定 **[!UICONTROL 目的地連結]**，您也可以個人化URL，將按一下選件的使用者導向至該URL。
 
 ### 新增自訂文字 {#custom-text}
 
-您也可以在選取相容版位時插入文字型別內容。
+您也可以在選取相容版位時插入文字型內容。
 
 1. 選取 **[!UICONTROL 自訂]** 選項並按一下 **[!UICONTROL 新增內容]**.
 
@@ -124,7 +124,7 @@ ht-degree: 9%
    >
    >此選項不適用於影像型別的位置。
 
-1. 輸入要在優惠方案中顯示的文字。
+1. 輸入要在優惠方案顯示的文字。
 
    ![](../assets/offer-text-content.png)
 

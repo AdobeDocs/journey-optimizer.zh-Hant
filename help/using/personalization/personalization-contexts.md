@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 個人化內容
-description: 進一步瞭解個人化內容與訊息顯示的方式方法。
+description: 深入瞭解個人化訊息內容與顯示的方式。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-keywords: 運算式，編輯器，內容，個人化
+keywords: 運算式、編輯器、內容、個人化
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
@@ -18,7 +18,7 @@ ht-degree: 21%
 
 # 個人化內容{#personalization-areas}
 
-傳遞的訊息的內容與顯示 [!DNL Journey Optimizer] 可透過數種不同的方式個人化。
+傳遞的訊息的內容與顯示 [!DNL Journey Optimizer] 可透過數種不同的方式實現個人化。
 
 在每個具有編輯器圖示的欄位中，您可以開啟個人化編輯器（也稱為運算式編輯器）並定義個人化。
 
@@ -26,19 +26,19 @@ ht-degree: 21%
 
 ## 個人化您的電子郵件 {#personalize-emails}
 
-當您建立電子郵件時，可以在 **[!UICONTROL 主旨列]** 訊息的欄位。
+當您建立電子郵件時，可以在以下位置新增個人化： **[!UICONTROL 主旨列]** 欄位。
 
 ![](assets/perso_subject.png)
 
 在電子郵件設計工具中，您可以個人化內容：
 
-* 在 **message**：在文字區塊內按一下，然後按一下 **新增個人化** 圖示加以檢視。 如需電子郵件設計工具介面的詳細資訊，請參閱此 [區段](../email/get-started-email-design.md).
+* 在 **message**：按一下文字區塊內部，然後按一下 **新增個人化** 圖示來切換內容。 如需電子郵件設計工具介面的詳細資訊，請參閱此 [區段](../email/get-started-email-design.md).
 
-   ![](assets/perso_insert.png)
+  ![](assets/perso_insert.png)
 
-* 對於 **連結**：選取文字區塊內的某些文字或影像，按一下 **插入連結** 圖示加以檢視。 在視窗中，您可以按一下 **新增個人化** 圖示。
+* 針對 **連結**：選取文字區塊內的某些文字或影像，按一下 **插入連結** 圖示來切換內容。 在視窗中，您可以按一下 **新增個人化** 圖示。
 
-   ![](assets/perso_link.png)
+  ![](assets/perso_link.png)
 
 在這兩種情況下，您都可以存取個人化編輯器。
 
@@ -46,7 +46,7 @@ ht-degree: 21%
 
 ## 個人化您的推播通知 {#personalize-push}
 
-您也可以個人化 **推播通知** 在下列欄位中：
+您也可以個人化 **推播通知** 於下列欄位中：
 
 * **標題**
 * **內文**

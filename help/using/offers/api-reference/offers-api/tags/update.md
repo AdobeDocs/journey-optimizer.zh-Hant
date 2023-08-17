@@ -15,15 +15,15 @@ ht-degree: 8%
 
 # 更新集合限定詞 {#update-collection-qualifier}
 
-您可以透過向以下發出PATCH請求，修改或更新容器中的集合限定詞（先前稱為「標籤」）： [!DNL Offer Library] API。
+您可以藉由向以下網站發出PATCH請求，修改或更新容器中的集合限定詞（先前稱為「標籤」）： [!DNL Offer Library] API。
 
-如需JSON修補程式的詳細資訊，包括可用操作，請參閱官方檔案 [JSON修補程式檔案](https://jsonpatch.com/).
+如需JSON修補程式的詳細資訊，包括可用的作業，請參閱官方檔案 [JSON修補程式檔案](https://jsonpatch.com/).
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
 下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
 
-| 標頭名稱 | 值 |
+| 頁首名稱 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
@@ -62,13 +62,13 @@ curl -X PATCH \
 
 | 參數 | 說明 |
 | --------- | ----------- |
-| `op` | 用於定義更新連線所需動作的操作呼叫。 作業包括： `add`， `replace`、和 `remove`. |
-| `path` | 要更新的引數路徑。 |
+| `op` | 用於定義更新連線所需動作的操作呼叫。 操作包括： `add`， `replace`、和 `remove`. |
+| `path` | 要更新之引數的路徑。 |
 | `value` | 您想要用來更新引數的新值。 |
 
 **回應**
 
-成功的回應會傳回收集限定詞的更新詳細資料，包括其唯一執行環境ID和收集限定詞 `@id`.
+成功的回應會傳回收集限定詞的更新詳細資料，包括其唯一執行環境ID與收集限定詞 `@id`.
 
 ```json
 {

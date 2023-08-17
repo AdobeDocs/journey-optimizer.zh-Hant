@@ -35,7 +35,7 @@ ht-degree: 24%
 
 能夠 [建立登陸頁面預設集](lp-presets.md)，您必須設定用於登入頁面的子網域。
 
-您可以使用已委派給Adobe的子網域，也可以設定其他子網域。 進一步瞭解將子網域委派至Adobe於 [本節](../configuration/delegate-subdomain.md).
+您可以使用已委派給Adobe的子網域，也可以設定另一個子網域。 進一步瞭解將子網域委派至Adobe於 [本節](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
@@ -61,11 +61,11 @@ ht-degree: 24%
 
    ![](assets/lp_use-delegated-subdomain.png)
 
-1. 輸入將顯示在登陸頁面URL的前置詞。
+1. 輸入要顯示在登入頁面URL中的前置詞。
 
    >[!NOTE]
    >
-   >僅允許使用英數字元和連字型大小。
+   >只允許使用英數字元和連字型大小。
 
 1. 從清單中選取委派的子網域。
 
@@ -77,23 +77,23 @@ ht-degree: 24%
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   請注意，您無法使用相同上層網域的多個委派子網域。 例如，如果登入頁面的「marketing1.yourcompany.com」已委派給Adobe，則您將無法使用「marketing2.yourcompany.com」。 不過，登陸頁面支援多層級子網域，因此您可以使用「marketing1.yourcompany.com」的子網域（例如「email.marketing1.yourcompany.com」）或不同的父網域繼續操作。
+   請注意，您無法使用相同上層網域的多個委派子網域。 例如，如果已針對您的登入頁面將「marketing1.yourcompany.com」委派給Adobe，您將無法使用「marketing2.yourcompany.com」。 不過，支援登陸頁面的多層子網域可繼續使用「marketing1.yourcompany.com」的子網域（例如「email.marketing1.yourcompany.com」）或不同的上層網域。
 
    >[!CAUTION]
    >
-   >如果您選取的網域已委派給Adobe，請使用 [CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-delegation)，您必須在您的代管平台上建立DNS記錄。 若要產生DNS記錄，程式與您設定新登陸頁面子網域時的程式相同。 瞭解如何在 [本節](#lp-configure-new-subdomain).
+   >如果您使用選取已委派給Adobe的網域 [CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-delegation)，您必須在您的代管平台上建立DNS記錄。 若要產生DNS記錄，此程式與您設定新登陸頁面子網域時的程式相同。 瞭解如何 [本節](#lp-configure-new-subdomain).
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**。
 
-1. 提交後，子網域會顯示在清單中，並附上 **[!UICONTROL 處理中]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. 提交後，子網域會顯示在清單中，並包含 **[!UICONTROL 處理中]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
    ![](assets/lp_subdomain-processing.png)
 
    >[!NOTE]
    >
-   >在能夠使用該子網域來傳送訊息之前，您必須等待Adobe執行所需的檢查，這可能需要4小時。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   >您必須先等到Adobe執行所需的檢查（最多可能需要4小時），才能使用該子網域傳送訊息。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
-1. 檢查成功後，子網域會取得 **[!UICONTROL 成功]** 狀態。 已準備好用來建立登入頁面預設集。
+1. 檢查成功後，子網域會取得 **[!UICONTROL 成功]** 狀態。 它已準備好用來建立登入頁面預設集。
 
 ## 設定新的子網域 {#lp-configure-new-subdomain}
 
@@ -134,14 +134,14 @@ ht-degree: 24%
 
    >[!NOTE]
    >
-   >當您設定新的登陸頁面子網域時，它始終會指向CNAME記錄。
+   >當您設定新的登陸頁面子網域時，它將永遠指向CNAME記錄。
 
 1. 提交子網域委派後，子網域會顯示在清單中，並包含 **[!UICONTROL 處理中]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
    >[!NOTE]
    >
-   >您必須等到Adobe執行必要的檢查（最多可能需要4小時）後，才能將該子網域用於登入頁面。<!--Learn more in [this section](#subdomain-validation).-->
+   >您必須等待Adobe執行所需檢查（最多可能需要4小時），才能將該子網域用於登入頁面。<!--Learn more in [this section](#subdomain-validation).-->
 
-1. 檢查成功後，子網域會取得 **[!UICONTROL 成功]** 狀態。 已準備好用來建立登入頁面預設集。
+1. 檢查成功後，子網域會取得 **[!UICONTROL 成功]** 狀態。 它已準備好用來建立登入頁面預設集。
 
    請注意，子網域將標示為 **[!UICONTROL 已失敗]** 如果您無法在託管解決方案上建立驗證記錄。

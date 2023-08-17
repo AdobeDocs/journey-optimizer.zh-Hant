@@ -42,7 +42,7 @@ ht-degree: 21%
 | 清單 | listDateTimeOnly |
 | 清單 | listDateOnly |
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `serializeList(<listInteger>,<string>,<boolean>)`
 
@@ -72,4 +72,4 @@ ht-degree: 21%
 
 `serializeList(["Hello", "World"], ",", true)`
 
-傳回「Hello」、「World」。
+傳回&quot;Hello&quot;、&quot;World&quot;。

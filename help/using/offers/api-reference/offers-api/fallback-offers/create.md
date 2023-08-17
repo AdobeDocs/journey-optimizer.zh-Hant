@@ -15,13 +15,13 @@ ht-degree: 11%
 
 # 建立遞補優惠 {#create-fallback-offer}
 
-您可以透過向以下網站發出POST請求來建立遞補優惠： [!DNL Offer Library] API，同時提供容器ID。
+您可以向以下網站發出POST要求，以建立遞補優惠： [!DNL Offer Library] API，同時提供容器ID。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
 下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
 
-| 標頭名稱 | 值 |
+| 頁首名稱 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
@@ -35,7 +35,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 遞補優惠方案所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | 遞補優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **要求**
 
@@ -71,7 +71,7 @@ curl -X POST \
 
 **回應**
 
-成功的回應會傳回新建立的遞補優惠的相關資訊，包括其唯一的執行個體ID和位置 `@id`. 您可在後續步驟中使用執行個體ID來更新或刪除您的遞補優惠。 您可以使用獨特的遞補優惠 `@id` 在稍後的教學課程中建立決定。
+成功的回應會傳回新建立的遞補優惠方案的相關資訊，包括其唯一的執行個體ID和位置 `@id`. 您可在後續步驟中使用執行個體ID來更新或刪除您的遞補優惠。 您可以使用獨特的遞補優惠 `@id` 在稍後的教學課程中建立決定。
 
 
 ```json

@@ -11,8 +11,8 @@ keywords: 元件，電子郵件設計工具，編輯器，電子郵件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1354'
+ht-degree: 57%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 0%
 >title="關於內容元件"
 >abstract="內容元件指可用於建立範本版面的空白內容預留位置。"
 
-建立電子郵件內容時， **[!UICONTROL 內容元件]** 可讓您使用原始元件來進一步個人化電子郵件，這些元件一旦放入電子郵件中即可編輯。
+建立您的電子郵件內容時， **[!UICONTROL 內容元件]** 可讓您使用原始元件進一步個人化電子郵件，這些元件一旦放入電子郵件中即可編輯。
 
-您可以視需要在定義電子郵件版面的一或多個結構元件內新增任意數量的內容元件。
+您可以視需要在一個或多個結構元件中新增任意數量的內容元件，這些元件定義電子郵件的版面。
 
 ## 新增內容元件 {#add-content-components}
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 
    ![](assets/email_designer_content_components_settings.png)
 
-1. 從的進階功能表 **[!UICONTROL 內容元件]**，您可以視需要輕鬆刪除或複製任何內容元件。
+1. 從的進階功能表 **[!UICONTROL 內容元件]**&#x200B;中，您可以視需要輕鬆刪除或複製任何內容元件。
 
    ![](assets/email_designer_content_components_settings_2.png)
 
 ## 容器 {#container}
 
-若要將特定樣式套用至一組內容元件，您可以新增 **[!UICONTROL 容器]** 元件，然後在其中新增所需的內容元件。 這可讓您將不同的樣式套用至容器，這會與套用至內部內容元件的樣式不同。
+若要將特定樣式套用至一組內容元件，您可以新增 **[!UICONTROL 容器]** 元件，然後在其中新增您所需的內容元件。 這可讓您將不同的樣式套用至容器，這會與套用至內部內容元件的樣式不同。
 
 例如，新增&#x200B;**[!UICONTROL 容器]**&#x200B;元件，然後在該容器內部新增[按鈕](#button)元件。您可以為容器使用特定背景，為按鈕使用另一個背景。
 
@@ -82,13 +82,13 @@ ht-degree: 0%
 
 1. 從&#x200B;**[!UICONTROL 內容元件]**，將&#x200B;**[!UICONTROL 按鈕]**&#x200B;元件拖放到&#x200B;**[!UICONTROL 結構元件]**&#x200B;中。
 
-1. 按一下您新新增的按鈕，個人化文字並存取 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 索引標籤在電子郵件設計工具右窗格中。
+1. 按一下您新新增的按鈕以個人化文字，並存取 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 「電子郵件設計工具」右窗格中的標籤。
 
    ![](assets/email_designer_button_component.png)
 
-1. 從 **[!UICONTROL 連結]** 功能表，新增您要在按一下按鈕時重新導向的URL。
+1. 從 **[!UICONTROL 連結]** 功能表，新增您按一下按鈕時想要重新導向到的URL。
 
-1. 選擇將使用「 」將您的對象重新導向的方式 **[!UICONTROL Target]** 下拉式清單：
+1. 選擇將如何使用將您的對象重新導向 **[!UICONTROL Target]** 下拉式清單：
 
    * **[!UICONTROL 無]**：當框架被點按時在相同框架中開啟連結 (預設)。
    * **[!UICONTROL 空白]**：在新的視窗或索引標籤中開啟連結。
@@ -106,9 +106,9 @@ ht-degree: 0%
 
 ![](assets/email_designer_text_component.png)
 
-1. 從 **[!UICONTROL 內容元件]**，拖放 **[!UICONTROL 文字]** 元件移入 **[!UICONTROL 結構元件]**.
+1. 從 **[!UICONTROL 內容元件]**，拖放 **[!UICONTROL 文字]** 將元件移入 **[!UICONTROL 結構元件]**.
 
-1. 按一下您新新增的元件，以個人化文字並存取 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 索引標籤位於電子郵件設計工具的右窗格中。
+1. 按一下您新新增的元件，以個人化文字並存取 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 標籤位於電子郵件設計工具的右窗格。
 
 1. 使用以下工具列的選項變更文字：
 
@@ -163,15 +163,15 @@ ht-degree: 0%
 
 使用 **[!UICONTROL 影像]** 將影像檔案從電腦插入電子郵件內容的元件。
 
-1. 從 **[!UICONTROL 內容元件]**，拖放 **[!UICONTROL 影像]** 元件移入 **[!UICONTROL 結構元件]**.
+1. 從 **[!UICONTROL 內容元件]**，拖放 **[!UICONTROL 影像]** 將元件移入 **[!UICONTROL 結構元件]**.
 
    ![](assets/email_designer_image_content.png)
 
 1. 按一下「**[!UICONTROL 瀏覽]**」，從您的資產中選擇影像檔案。
 
-   若要深入瞭解 [!DNL Assets Essentials]，請參閱 [Adobe Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
+   若要進一步瞭解 [!DNL Assets Essentials]，請參閱 [Adobe Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
-1. 按一下新新增的元件，然後從「 」設定影像屬性 **[!UICONTROL 設定]** 標籤：
+1. 按一下您新增的元件，然後從「 」設定影像屬性 **[!UICONTROL 設定]** 標籤：
 
    * **[!UICONTROL 影像標題]**&#x200B;可讓您定義影像的標題。
    * **[!UICONTROL 替代文字]**&#x200B;可讓您定義連結到影像的註解。這對應於替代 HTML 屬性。
@@ -200,28 +200,28 @@ ht-degree: 0%
 
    ![](assets/email_designer_21.png)
 
-1. 如有需要，您也可以從「資產」變更每個社群媒體的圖示。
+1. 如有需要，您也可以從您的資產變更每個社群媒體的圖示。
 
 1. 調整其他樣式屬性，例如樣式、邊界、邊框等。從 **[!UICONTROL 樣式]** 標籤。
 
 ## 優惠決定 {#offer-decision}
 
-使用 **[!UICONTROL 優惠決定]** 元件以將選件插入訊息。 此 [決策管理](../offers/get-started/starting-offer-decisioning.md) engine會挑選最適合提供給客戶的優惠方案。
+使用 **[!UICONTROL 優惠決定]** 元件以插入優惠方案至訊息。 此 [決定管理](../offers/get-started/starting-offer-decisioning.md) 引擎會挑選要提供給客戶的最佳優惠方案。
 
-1. 從 **[!UICONTROL 內容元件]**，拖放 **[!UICONTROL 優惠決定]** 元件移入 **[!UICONTROL 結構元件]**.
+1. 從 **[!UICONTROL 內容元件]**，拖放 **[!UICONTROL 優惠決定]** 將元件移入 **[!UICONTROL 結構元件]**.
 
-1. 按一下 **[!UICONTROL 新增]** 以選取 **[!UICONTROL 優惠決定]**.
+1. 按一下 **[!UICONTROL 新增]** 以選取您的 **[!UICONTROL 優惠決定]**.
 
    ![](assets/component_offers.png)
 
-1. 從下拉式清單中，選取 **[!UICONTROL 版位]**.  然後，選取 **[!UICONTROL 優惠決定]** 您想要新增至內容並按一下 **[!UICONTROL 新增]**.
+1. 從下拉式清單中選取 **[!UICONTROL 版位]**.  然後，選取 **[!UICONTROL 優惠決定]** 您想要新增至內容並按一下 **[!UICONTROL 新增]**.
 
    ![](assets/component_offers_2.png)
 
-1. 從 **[!UICONTROL 優惠決定]** 索引標籤上，您可以預覽或變更插入的選件。
+1. 從 **[!UICONTROL 優惠決定]** 索引標籤中，您可以預覽或變更插入的選件。
 
 瞭解如何在中將個人化優惠方案新增至電子郵件 [本節](add-offers-email.md).
 
 >[!IMPORTANT]
 >
->如果對歷程訊息中使用的優惠決定進行變更，您需要取消發佈歷程並重新發佈。  這將確保將變更納入歷程的訊息中，且訊息與最新更新一致。
+>如果對歷程訊息中使用的優惠決定進行變更，您需要取消發佈歷程並重新發佈。  這將確保將變更納入歷程的訊息中，並且該訊息與最新更新一致。

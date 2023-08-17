@@ -20,23 +20,25 @@ ht-degree: 1%
 
 ## 驗證機制 {#validation-mechanisms}
 
-在 **運算式編輯器** 畫面，使用 **驗證** 按鈕以檢查您的個人化語法。
+在 **運算式編輯器** 熒幕，使用 **驗證** 按鈕以檢查您的個人化語法。
 
 >[!NOTE]
 > 當您按一下 **新增** 按鈕以關閉編輯器視窗。
+>
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > 如果個人化語法無效，則無法關閉運算式編輯器視窗。
+>
 
 ## 常見錯誤 {#common-errors}
 
-* **找不到路徑「XYZ」**
+* **找不到「XYZ」路徑**
 
 嘗試參照結構描述中未定義的欄位時。
 
-在此案例中 **名字1** 未在設定檔結構描述中定義為屬性：
+在此案例中 **名字1** 未定義為設定檔結構描述中的屬性：
 
 ```
 {{profile.person.name.firstName1}}
@@ -46,7 +48,7 @@ ht-degree: 1%
 
 嘗試對字串而非陣列進行反複運算時：
 
-在此案例中 **product** 不是陣列：
+在此案例中 **產品** 不是陣列：
 
 ```
 {{each profile.person.name.firstName as |product|}}
@@ -54,7 +56,7 @@ ht-degree: 1%
 {{/each}}
 ```
 
-* **無效的Handlebars語法。 已找到`‘[XYZ}}’`**
+* **無效的Handlebars語法。 找到`‘[XYZ}}’`**
 
 使用無效的Handlebars語法時。
 
@@ -78,7 +80,7 @@ No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-驗證會在運算式編輯器中執行個人化內容驗證。
+驗證是在運算式編輯器中的個人化內容驗證期間執行。
 
 <table> 
  <thead> 
@@ -95,24 +97,24 @@ Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
   </tr> 
    <tr> 
    <td>無法驗證資源。</td> 
-   <td>Placement中的componentType應符合offerType選件</td> 
+   <td>位置中的componentType應符合offerType選件</td> 
   </tr> 
    <tr> 
-   <td>offerId中不存在公開URL。</td> 
-   <td>影像選件（與決定和位置配對相關的所有個人化和遞補內容）應填入公開URL （deliveryURL不應空白）。</td> 
+   <td>offerId中未出現公用URL。</td> 
+   <td>影像選件（與決定和位置配對相關的所有個人化和遞補）應填入公用URL （deliveryURL不應空白）。</td> 
   </tr> 
   <tr> 
    <td>決定包含非設定檔屬性。</td> 
-   <td>優惠方案模型使用方式應僅包含設定檔屬性。</td> 
+   <td>選件模型使用方式應僅包含設定檔屬性。</td> 
   </tr> 
   <tr> 
-   <td>擷取決定使用方式時發生錯誤。</td> 
+   <td>擷取決策使用方式時發生錯誤。</td> 
    <td>當API嘗試擷取選件模型時，可能會發生此錯誤。</td> 
   </tr>
   <tr> 
-   <td>優惠屬性優惠屬性無效。</td> 
+   <td>優惠屬性offer-attribute無效。</td> 
    <td>檢查優惠方案drp中參照的優惠方案屬性是否有效。 以下是有效的屬性： <br/>
-影像： deliveryURL， linkURL<br/>
+影像：deliveryURL、linkURL<br/>
 文字：內容<br/>
 HTML：內容<br/></td> 
   </tr> 

@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 刪除決定 {#delete-decision}
 
-有時可能必須移除(DELETE)決定。 只能刪除您在租使用者容器中建立的決定。 這是透過對「 」執行DELETE請求來完成 [!DNL Offer Library] 使用您要刪除之遞補優惠$id的API。
+有時可能必須移除(DELETE)決定。 您只能在租使用者容器中建立的決定才會被刪除。 這可透過向以下對象執行DELETE請求來完成 [!DNL Offer Library] API使用您要刪除之遞補優惠的$id。
 
 **API格式**
 
@@ -27,7 +27,7 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 決策所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 決定的例項ID。 | `f88c9be0-1245-11eb-8622-b77b60702882` |
+| `{INSTANCE_ID}` | 決定的執行個體ID。 | `f88c9be0-1245-11eb-8622-b77b60702882` |
 
 **要求**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 成功的回應會傳回HTTP狀態202 （無內容）和空白內文。
 
-您可以嘗試向決定查詢(GET)請求以確認刪除。 您需要在請求中加入Accept標頭，但應該會收到HTTP狀態404 （找不到），因為決定已從容器中移除。
+您可以嘗試向決定查詢(GET)以確認刪除。 您需要在請求中包含Accept標頭，但應該會收到HTTP狀態404 （找不到），因為決定已從容器中移除。

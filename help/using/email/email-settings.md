@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定電子郵件設定
-description: 瞭解如何在頻道介面層級設定電子郵件設定
+description: 瞭解如何在頻道介面層級進行電子郵件設定
 feature: Surface
 topic: Administration
 role: Admin
@@ -11,8 +11,8 @@ keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1783'
+ht-degree: 8%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ![](assets/preset-email-settings.png)
 
-系統會擷取電子郵件表面設定，以便依照下列邏輯傳送通訊：
+系統會擷取電子郵件表面設定，依照下列邏輯傳送通訊：
 
-* 對於批次歷程，不適用於在設定電子郵件表面之前已啟動的批次執行。 變更將在下次循環或新執行時擷取。
+* 對於批次歷程，不適用於在製作電子郵件表面設定之前已啟動的批次執行。 下次重複或新的執行時會擷取變更。
 
-* 對於交易式訊息，變更會被立即擷取以供下次通訊使用（最多延遲5分鐘）。
+* 若是交易式訊息，下次通訊時會立即擷取變更（最多延遲5分鐘）。
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 * 選擇 **行銷** 促銷電子郵件，例如零售商店的每週促銷活動。 這些訊息需要使用者同意。
 
-* 選擇 **異動** 非商業電子郵件，例如訂單確認、密碼重設通知或傳遞資訊。 這些電子郵件可以傳送給設定檔，設定檔 **已取消訂閱** 來自行銷通訊。 這些訊息只能在特定內容中傳送。
+* 選擇 **異動** 用於非商業電子郵件，例如訂單確認、密碼重設通知或傳遞資訊。 這些電子郵件可以傳送給設定檔 **已取消訂閱** 來自行銷通訊。 這些訊息只能在特定內容中傳送。
 
 建立訊息時，您必須選擇符合您為電子郵件選取之類別的有效管道表面。
 
@@ -59,11 +59,11 @@ ht-degree: 0%
 
 ![](assets/preset-subdomain-ip-pool.png)
 
-當選取的IP集區位於下方時，您無法繼續建立表面 [版本](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL 處理中]** 狀態)，且從未與選取的子網域建立關聯。 否則，仍會使用最舊版本的IP集區/子網域關聯。 如果是這種情況，請將表面另存為草稿，並在IP池具有 **[!UICONTROL 成功]** 狀態。
+當選取的IP集區位於下方時，您無法繼續建立表面 [版本](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL 處理中]** 狀態)，且從未與所選子網域建立關聯。 否則，系統仍會使用IP集區/子網域關聯的最舊版本。 如果是這種情況，請將表面儲存為草稿，並在IP池具有 **[!UICONTROL 成功]** 狀態。
 
 >[!NOTE]
 >
->對於非生產環境，Adobe不會建立立即可用的測試子網域，也不會授與共用傳送IP集區的存取權。 您需要 [委派您自己的子網域](../configuration/delegate-subdomain.md) 並使用指派給貴組織的集區中的IP。
+>對於非生產環境，Adobe不會建立立即可用的測試子網域，也不會授予共用傳送IP集區的存取權。 您需要 [委派您自己的子網域](../configuration/delegate-subdomain.md) 並使用指派給貴組織的集區中的IP。
 
 選取IP集區後，當游標停留在IP集區下拉式清單下方顯示的IP位址上時，會顯示PTR資訊。 [深入瞭解PTR記錄](../configuration/ptr-records.md)
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-如果停用此選項，電子郵件標頭中不會顯示取消訂閱連結。
+如果停用此選項，電子郵件標頭中將不會顯示取消訂閱連結。
 
 取消訂閱連結包含兩個元素：
 
@@ -95,9 +95,9 @@ ht-degree: 0%
 
   ![](assets/preset-list-unsubscribe-mailto.png)
 
-* 此 **取消訂閱URL**，這是登陸頁面的URL，取消訂閱後，會將使用者重新導向。
+* 此 **取消訂閱URL**，此為登陸頁面的URL，一旦取消訂閱，將會重新導向使用者。
 
-  如果您新增 [一鍵選擇退出連結](../privacy/opt-out.md#one-click-opt-out) 對於使用此介面建立的訊息，取消訂閱URL將為一鍵選擇退出連結定義的URL。
+  如果您新增 [一鍵退出連結](../privacy/opt-out.md#one-click-opt-out) 對於使用此介面建立的訊息，取消訂閱URL將為一鍵退出連結定義的URL。
 
   ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
@@ -105,13 +105,13 @@ ht-degree: 0%
   >
   >如果您未在訊息內容中新增一鍵退出連結，則不會向使用者顯示登陸頁面。
 
-進一步瞭解在中新增訊息的標頭取消訂閱連結 [本節](../privacy/opt-out.md#unsubscribe-header).
+瞭解更多有關在訊息中新增標題取消訂閱連結的資訊 [本節](../privacy/opt-out.md#unsubscribe-header).
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 
 ## 標頭引數 {#email-header}
 
-在 **[!UICONTROL 標頭引數]** 區段，輸入與該介面所傳送電子郵件型別相關聯的寄件者名稱和電子郵件地址。
+在 **[!UICONTROL 標頭引數]** 區段，輸入與該介面所傳送電子郵件型別相關的寄件者名稱和電子郵件地址。
 
 * **[!UICONTROL 寄件者名稱]**：寄件者的名稱，例如您的品牌名稱。
 
@@ -121,11 +121,11 @@ ht-degree: 0%
 
 * **[!UICONTROL 回覆（電子郵件）]**：收件者按一下 **回覆** 電子郵件使用者端軟體中的「 」按鈕。 [了解更多](#reply-to-email)
 
-* **[!UICONTROL 錯誤電子郵件]**：在此位址上收到ISP在傳送郵件幾天後產生的所有錯誤（非同步退信）。
+* **[!UICONTROL 錯誤電子郵件]**：在此地址上接收ISP在傳送郵件幾天後產生的所有錯誤（非同步退信）。
 
 >[!CAUTION]
 >
->此 **[!UICONTROL 寄件者電子郵件]** 和 **[!UICONTROL 錯誤電子郵件]** 位址必須使用目前選取的位址 [委派的子網域](../configuration/about-subdomain-delegation.md). 例如，如果委派的子網域為 *marketing.luma.com*，您可以使用 *contact@marketing.luma.com* 和 *error@marketing.luma.com*.
+>此 **[!UICONTROL 寄件者電子郵件]** 和 **[!UICONTROL 錯誤電子郵件]** 位址必須使用目前選取的 [委派的子網域](../configuration/about-subdomain-delegation.md). 例如，如果委派的子網域為 *marketing.luma.com*，您可以使用 *contact@marketing.luma.com* 和 *error@marketing.luma.com*.
 
 ![](assets/preset-header.png)
 
@@ -135,21 +135,21 @@ ht-degree: 0%
 
 ### 回覆電子郵件 {#reply-to-email}
 
-定義 **[!UICONTROL 回覆（電子郵件）]** 位址，您可以指定任何電子郵件地址，但前提是地址有效、格式正確，且不含任何拼寫錯誤。
+定義 **[!UICONTROL 回覆（電子郵件）]** 位址，只要電子郵件地址是有效的、格式正確且不含任何拼寫錯誤，您就可以指定任何電子郵件地址。
 
 若要確保正確管理回覆，請遵循下列建議：
 
-* 用於回覆的收件匣將收到所有回覆電子郵件，包括休假通知和質詢回覆，因此請確保您有手動或自動化流程來處理登入此收件匣的電子郵件。
+* 用於回覆的收件匣會收到所有回覆電子郵件，包括休假通知和挑戰回應，因此請確定您已制定手動或自動化流程來處理登入此收件匣的電子郵件。
 
-* 確保專用收件匣有足夠的接收容量，可接收使用電子郵件介面傳送的所有回覆電子郵件。 如果收件匣傳回跳出，則可能無法收到客戶的部分回覆。
+* 確保專用收件匣有足夠的接收容量，可接收使用電子郵件介面傳送的所有回覆電子郵件。 如果收件匣傳回退信，系統可能不會收到客戶的部分回覆。
 
-* 處理回覆時，請牢記隱私權與法規遵循義務，因為回覆可能包含個人識別資訊(PII)。
+* 處理回覆時，須牢記隱私權與合規義務，因為回覆可能包含個人識別資訊(PII)。
 
 * 請勿在回覆收件匣中將郵件標示為垃圾訊息，因為這會影響傳送至此地址的所有其他回覆。
 
-此外，在定義 **[!UICONTROL 回覆（電子郵件）]** 位址，請確定使用具有有效MX記錄設定的子網域，否則電子郵件表面處理將失敗。
+此外，在定義 **[!UICONTROL 回覆（電子郵件）]** 位址，請確定您使用的子網域具有有效的MX記錄設定，否則電子郵件表面處理將會失敗。
 
-如果您在提交電子郵件介面時發生錯誤，表示您輸入地址的子網域尚未設定MX記錄。 請連絡您的管理員以設定對應的MX記錄，或使用具有有效MX記錄設定的其他位址。
+如果您在提交電子郵件介面時發生錯誤，表示您輸入之地址的子網域尚未設定MX記錄。 請連絡您的管理員以設定對應的MX記錄，或使用其他具有有效MX記錄設定的位址。
 
 >[!NOTE]
 >
@@ -157,30 +157,30 @@ ht-degree: 0%
 
 ### 轉寄電子郵件 {#forward-email}
 
-如果您想要轉寄至特定的電子郵件地址，則所有收到的電子郵件都會由 [!DNL Journey Optimizer] 如需委派的子網域，請聯絡Adobe客戶服務。 您必須提供：
+如果您想要轉寄到特定的電子郵件地址，則所有收到的電子郵件都會是 [!DNL Journey Optimizer] 如需委派的子網域，請聯絡Adobe客戶服務。 您將需要提供：
 
-* 您所選擇的轉寄電子郵件地址。 請注意，轉寄電子郵件地址網域無法與委派給Adobe的任何子網域相符。
+* 您選擇的轉寄電子郵件地址。 請注意，轉寄電子郵件地址網域無法與委派給Adobe的任何子網域相符。
 * 您的沙箱名稱。
-* 將使用轉寄電子郵件地址的表面名稱。
+* 要使用轉寄電子郵件地址的表面名稱。
 * 目前 **[!UICONTROL 回覆（電子郵件）]** 在管道表面層級設定的地址。
 
 >[!NOTE]
 >
->每個子網域只能有一個轉寄電子郵件地址。 因此，如果多個曲面使用相同的子網域，則必須對所有曲面使用相同的轉寄電子郵件地址。
+>每個子網域只能有一個轉寄電子郵件地址。 因此，如果多個表面使用相同的子網域，則必須對所有表面使用相同的轉寄電子郵件地址。
 
 轉寄電子郵件地址將由Adobe設定。 這可能需要3到4天的時間。
 
 ## 密件副本電子郵件 {#bcc-email}
 
-您可以傳送所傳送電子郵件的相同復本（或密件副本） [!DNL Journey Optimizer] 至密件副本收件匣，並儲存以供合規性或封存之用。
+您可以傳送所傳送電子郵件的相同復本（或密件副本） [!DNL Journey Optimizer] 並儲存在「密件副本」收件匣中，以供合規性或封存之用。
 
-若要這麼做，請啟用 **[!UICONTROL 密件副本電子郵件]** 通道曲面層級的可選特徵。 [了解更多](../configuration/archiving-support.md#bcc-email)
+若要這麼做，請啟用 **[!UICONTROL 密件副本電子郵件]** 通道曲面層級的選用特徵。 [了解更多](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
 
-此外，在定義 **[!UICONTROL 密件副本電子郵件]** 位址，請確定使用具有有效MX記錄設定的子網域，否則電子郵件表面處理將失敗。
+此外，在定義 **[!UICONTROL 密件副本電子郵件]** 位址，請確定您使用的子網域具有有效的MX記錄設定，否則電子郵件表面處理將會失敗。
 
-如果您在提交電子郵件介面時發生錯誤，表示您輸入地址的子網域尚未設定MX記錄。 請連絡您的管理員以設定對應的MX記錄，或使用具有有效MX記錄設定的其他位址。
+如果您在提交電子郵件介面時發生錯誤，表示您輸入之地址的子網域尚未設定MX記錄。 請連絡您的管理員以設定對應的MX記錄，或使用其他具有有效MX記錄設定的位址。
 
 ## 電子郵件重試引數 {#email-retry}
 
@@ -196,11 +196,11 @@ ht-degree: 0%
 
 根據預設， [重試時段](../configuration/retries.md#retry-duration) 設為84小時，但您可以調整此設定以更符合您的需求。
 
-您必須輸入下列範圍內的整數值（以小時或分鐘為單位）：
+您必須輸入下列範圍內的整數值（小時或分鐘）：
 
 * 若是行銷電子郵件，最小重試期間為6小時。
 * 對於異動電子郵件，最小重試時間為10分鐘。
-* 對於這兩種電子郵件型別，最大重試時間為84小時（或5040分鐘）。
+* 對於這兩種電子郵件型別，重試期間的上限為84小時（或5040分鐘）。
 
 進一步瞭解中的重試 [本節](../configuration/retries.md).
 
@@ -216,9 +216,9 @@ ht-degree: 0%
 >title="預覽 URL 追蹤參數"
 >abstract="重新探討要如何將追蹤參數附加到電子郵件內容中出現的 URL。"
 
-您可以使用 **[!UICONTROL URL追蹤引數]** 評估您跨管道行銷工作的有效性。 此功能為選用。
+您可以使用 **[!UICONTROL URL追蹤引數]** 評估各管道行銷的成效。 此功能為選用。
 
-本節中定義的引數將會附加至電子郵件內容中所包含的URL結尾。 接著，您就可以在Adobe Analytics或Google Analytics等網站分析工具中擷取這些引數，並建立各種效能報表。
+此區段中定義的引數將會附加至您的電子郵件內容中所包含的URL結尾。 接著，您就可以在Adobe Analytics或Google Analytics等網站分析工具中擷取這些引數，並建立各種效能報表。
 
 您可使用新增最多10個追蹤引數 **[!UICONTROL 新增引數]** 按鈕。
 
@@ -236,30 +236,30 @@ ht-degree: 0%
 
 * **來源動作名稱**：新增至歷程或行銷活動的電子郵件動作名稱。
 
-* **來源ID**：傳送電子郵件的伴隨歷程或行銷活動的ID。
+* **來源ID**：傳送電子郵件時伴隨的歷程或行銷活動ID。
 
 * **來源名稱**：傳送電子郵件的伴隨歷程或行銷活動的名稱。
 
 * **來源版本ID**：傳送電子郵件的伴隨歷程或行銷活動版本的ID。
 
-* **優惠方案ID**：電子郵件中使用的選件ID。
+* **優惠ID**：電子郵件中使用的選件ID。
 
 >[!NOTE]
 >
->您可以從運算式編輯器結合輸入文字值和使用內容屬性。 每個 **[!UICONTROL 值]** 欄位可包含最多5 KB的字元數。
+>您可以組合輸入文字值，並使用運算式編輯器中的內容屬性。 每個 **[!UICONTROL 值]** 欄位可包含最多5 KB的字元數。
 
 <!--You can drag and drop the parameters to reorder them.-->
 
-以下是與Adobe Analytics和Google Analytics相容的URL範例。
+以下是Adobe Analytics和Google Analytics相容URL的範例。
 
-* 與Adobe Analytics相容的URL： `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
+* Adobe Analytics相容的URL： `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
-* 與Google Analytics相容的URL： `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
+* Google Analytics相容的URL： `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
 
-您可以動態預覽產生的追蹤URL。 每次新增、編輯或移除引數時，預覽都會自動更新。
+您可以動態預覽所產生的追蹤URL。 每次新增、編輯或移除引數時，預覽都會自動更新。
 
 ![](assets/preset-url-tracking-preview.png)
 
 >[!NOTE]
 >
->您也可以將動態個人化追蹤引數新增至電子郵件內容中存在的連結，但這在介面層級無法進行。 使用電子郵件設計工具製作訊息時，您必須執行此動作。 [了解更多](message-tracking.md#url-tracking)
+>您也可以將動態個人化追蹤引數新增至電子郵件內容中存在的連結，但這在介面層級是不可能的。 使用電子郵件設計工具製作訊息時，您必須執行此動作。 [了解更多](message-tracking.md#url-tracking)

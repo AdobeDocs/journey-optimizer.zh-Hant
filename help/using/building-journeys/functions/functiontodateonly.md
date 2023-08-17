@@ -16,7 +16,7 @@ ht-degree: 10%
 
 # toDateOnly{#toDateOnly}
 
-將引數轉換為dateOnly型別值。 若要進一步瞭解資料型別，請參閱此 [區段](../expression/data-types.md).
+將引數轉換為dateOnly型別值。 如需瞭解資料型別的詳細資訊，請參閱本節 [區段](../expression/data-types.md).
 
 ## 類別
 
@@ -30,12 +30,12 @@ ht-degree: 10%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| 以「YYYY-MM-DD」（XDM格式）表示日期的字串表示法。 也支援ISO-8601格式：僅限 **完整日期** 已考慮零件(請參閱 [RFC 3339,5.6節](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | 字串 |
+| 以「YYYY-MM-DD」（XDM格式）表示日期的字串表示法。 也支援ISO-8601格式：僅限 **完整日期** 部分已列入考量(請參閱 [RFC 3339,5.6節](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | 字串 |
 | 日期時間 | dateTime |
 | 沒有時區的日期時間 | dateTimeOnly |
 | 紀元的整數值（以毫秒為單位） | 整數 |
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `toDateOnly(<dateTime>)`
 
@@ -55,7 +55,7 @@ ht-degree: 10%
 
 `toDateOnly("2016-08-18T00:00:00")`
 
-所有傳回表示2016-08-18的dateOnly物件。
+所有傳回代表2016-08-18的dateOnly物件。
 
 `toDateOnly(#{ExperiencePlatform.ProfileFieldGroup.person.birthDate})`
 

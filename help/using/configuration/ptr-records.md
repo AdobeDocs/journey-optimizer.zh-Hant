@@ -30,17 +30,17 @@ ht-degree: 9%
 
 ## 關於PTR記錄 {#about-ptr-records}
 
-指標籤錄(PTR)是一種網域名稱系統(DNS)記錄，提供連結至IP位址的網域名稱。
+指標籤錄(PTR)是一種網域名稱系統(DNS)記錄，它提供連結到IP位址的網域名稱。
 
 透過PTR記錄，接收郵件伺服器可透過識別其IP位址是否對應到伺服器連線的名稱，來檢查傳送郵件伺服器的真實性。
 
 ## 存取子網域的PTR記錄 {#access-ptr-records}
 
-一次 [子網域已委派](delegate-subdomain.md) 在Adobe Journey Optimizer中，會自動建立PTR記錄並與此子網域相關聯。 您可以從 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL PTR記錄]** 功能表。
+一次 [子網域已委派](delegate-subdomain.md) 在Adobe Journey Optimizer中，會自動建立PTR記錄並與此子網域相關聯。 您可從 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL PTR記錄]** 功能表。
 
 ![](assets/ptr-records.png)
 
-清單會使用下列語法，顯示為每個委派子網域產生的PTR記錄：
+此清單顯示使用下列語法，為每個委派子網域產生的PTR記錄：
 
 * 「r」代表記錄，
 * 「xx」代表IP位址的最後兩個數字，
@@ -78,7 +78,7 @@ ht-degree: 9%
 
 ### 使用CNAME方法委派的子網域 {#edit-ptr-subdomains-cname}
 
-若要編輯子網域委派給Adobe的PTR記錄，請使用 [CNAME方法](delegate-subdomain.md#cname-subdomain-delegation)，請遵循下列步驟。
+若要編輯具有委派給Adobe之子網域的PTR記錄，請使用 [CNAME方法](delegate-subdomain.md#cname-subdomain-delegation)，請遵循下列步驟。
 
 1. 從清單中，按一下PTR記錄名稱以開啟。
 
@@ -88,7 +88,7 @@ ht-degree: 9%
 
    ![](assets/ptr-record-subdomain-cname.png)
 
-1. 您需要在您的代管平台上建立新的轉送DNS記錄。 若要這麼做，請複製Adobe產生的記錄。 完成後，核取「我確認……」方塊。
+1. 您需要在您的代管平台上建立新的轉送DNS記錄。 要執行此操作，請複製Adobe產生的記錄。 完成後，核取「我確認……」方塊。
 
    ![](assets/ptr-record-subdomain-confirm.png)
 
@@ -96,8 +96,7 @@ ht-degree: 9%
    >
    >如果您收到此訊息：「請先建立轉送DNS，然後再試一次」，請遵循下列步驟：
    >   * 如果成功建立轉送DNS記錄，請檢查DNS提供者。
-   >   * DNS上的記錄可能不會立即同步。 請等候幾分鐘，然後再試一次。
-
+   >   * 跨DNS的記錄可能不會立即同步。 請等候幾分鐘，然後再試一次。
 
 1. 按一下 **[!UICONTROL 儲存]** 以確認您的變更。
 
@@ -113,9 +112,9 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->此 [更新處理](#processing) 最多可能需要3小時。
+>此 [更新處理](#processing) 最多可能需要3小時的時間。
 
-若要檢查PTR記錄更新詳細資訊，請按一下其旁的圖示。 進一步瞭解中與不同圖示相關聯的狀態 [本節](#ptr-record-update-statuses).
+若要檢查PTR記錄更新詳細資料，請按一下其旁的圖示。 進一步瞭解中與不同圖示相關聯的狀態 [本節](#ptr-record-update-statuses).
 
 ![](assets/ptr-record-recent-update.png)
 
@@ -137,17 +136,17 @@ PTR記錄更新可以有下列狀態：
 
 >[!NOTE]
 >
->進行更新時，您無法修改PTR記錄。 您仍然可以按一下其名稱，但是 **[!UICONTROL 子網域]** 欄位會變成灰色。 更新成功後才會反映變更。
+>進行更新時，您無法修改PTR記錄。 您仍然可以按一下其名稱，但是 **[!UICONTROL 子網域]** 欄位會變灰。 更新成功後才會反映變更。
 
 在驗證程式期間，舊的子網域仍與IP位址相關聯。
 
 ### 成功 {#success}
 
-一旦驗證程式成功，新的子網域就會自動與IP位址相關聯。
+驗證程式一旦成功，新的子網域就會自動與IP位址建立關聯。
 
 ### 已失敗 {#failes}
 
-如果驗證程式失敗，則會顯示較舊的PTR記錄。 先前與IP位址關聯的有效子網域維持不變。
+如果驗證程式失敗，則會顯示較舊的PTR記錄。 先前與IP位址相關聯的有效子網域維持不變。
 
 可能的更新錯誤型別如下：
 * 無法為PTR記錄建立新的轉送DNS

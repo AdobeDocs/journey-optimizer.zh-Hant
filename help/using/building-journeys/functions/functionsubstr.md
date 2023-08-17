@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: substr
-description: 瞭解函式substr
+description: 瞭解函式子字串
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,7 +16,7 @@ ht-degree: 17%
 
 # substr {#substr}
 
-傳回開始索引和結束索引之間字串運算式的子字串。 如果未定義結束索引，則它介於開始索引和結束索引之間。
+傳回開始索引和結束索引之間的字串運算式的子字串。 如果未定義結束索引，則它介於開始索引和結束索引之間。
 
 ## 類別
 
@@ -31,10 +31,10 @@ ht-degree: 17%
 | 參數 | type |
 |-------------|----------|
 | 字串 | 字串 |
-| beginIndex | 整數 |
+| beginindex | 整數 |
 | endIndex | 整數 |
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `substr(<string>,<beginIndex>)`
 

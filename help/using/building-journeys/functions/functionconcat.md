@@ -33,7 +33,7 @@ ht-degree: 25%
 | 清單 | listString |
 | 字串 | 字串 |
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `concat(<string>,<string>)`
 

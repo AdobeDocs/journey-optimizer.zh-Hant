@@ -32,12 +32,12 @@ ht-degree: 8%
 |--- |--- |
 | dateTime | 將日期轉換為UTC日期格式 |
 | dateTimeOnly | 將日期轉換為UTC日期格式 |
-| 持續時間 | 轉換為字串形式的對應毫秒數 |
+| 期間 | 轉換為字串形式的對應毫秒數 |
 | 整數 | 轉換為值的字串表示法（1會變成「1」） |
-| 小數 | 轉換為值的字串表示法（1.5變成&quot;1.5&quot;） |
-| 布林值 | 將布林值轉換為&#39;true&#39; （如果為true）、&#39;false&#39; （如果為false） |
+| 小數 | 轉換為值的字串表示法（1.5會變成&quot;1.5&quot;） |
+| 布林值 | 將布林值轉換為&#39;true&#39; （如果為true），&#39;false&#39; （如果為false） |
 
-## 簽章和傳回型別
+## 簽章與傳回型別
 
 `toString(<dateTimeOnly>)`
 
@@ -61,4 +61,4 @@ ht-degree: 8%
 
 `toString(#{ExperiencePlatform.test_date.person.birthDate}))`
 
-傳回指定dateOnly欄位（XDM日期欄位）的字串表示法，例如「2016-08-18」。
+傳回給定dateOnly欄位（XDM日期欄位）的字串表示法，例如「2016-08-18」。

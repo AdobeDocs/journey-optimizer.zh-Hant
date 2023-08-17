@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 物件函式 {#objects}
 
-## 為null{#isNull}
+## 為空{#isNull}
 
 此 `isNull` 函式決定物件參考是否不存在。
 
@@ -27,7 +27,7 @@ ht-degree: 7%
 
 **範例**
 
-下列作業會檢查個人的住家地址是否不存在。
+下列作業會檢查人員的住家地址是否不存在。
 
 ```sql
 {%= isNull(person.homeAddress) %}

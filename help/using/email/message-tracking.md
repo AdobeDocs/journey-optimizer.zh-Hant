@@ -18,11 +18,11 @@ ht-degree: 35%
 
 # 新增連結及追蹤訊息 {#tracking}
 
-使用 [!DNL Journey Optimizer] 新增內容連結及追蹤傳送的訊息，以監控收件者的行為。
+使用 [!DNL Journey Optimizer] 將連結新增至您的內容並追蹤傳送的訊息，以監控收件者的行為。
 
 ## 啟用追蹤 {#enable-tracking}
 
-您可以在電子郵件層級啟用追蹤，方法是檢查 **[!UICONTROL 電子郵件開啟次數]** 和/或 **[!UICONTROL 按一下電子郵件]** 在歷程或行銷活動中建立訊息時的選項。
+您可以在電子郵件層級啟用追蹤，方法是檢查 **[!UICONTROL 電子郵件開啟次數]** 和/或 **[!UICONTROL 按一下電子郵件]** 在歷程或促銷活動中建立訊息時的選項。
 
 >[!BEGINTABS]
 
@@ -38,7 +38,7 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->預設會啟用這兩個選項。
+>這兩個選項預設為啟用。
 
 這可讓您透過以下方式追蹤收件者的行為：
 
@@ -63,33 +63,33 @@ ht-degree: 35%
 
    * **[!UICONTROL 外部連結]**：插入外部URL的連結。
 
-   * **[!UICONTROL 登陸頁面]**：插入登陸頁面的連結。 [了解更多 ](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL 登陸頁面]**：插入登入頁面的連結。 [了解更多](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL 一鍵選擇退出]**：插入連結以讓使用者快速取消訂閱您的通訊，而不需要確認選擇退出。 [了解更多](email-opt-out.md#one-click-opt-out)。
+   * **[!UICONTROL 一鍵選擇退出]**：插入連結讓使用者能夠快速取消訂閱您的通訊，而不需要確認選擇退出。 [了解更多](email-opt-out.md#one-click-opt-out)。
 
    * **[!UICONTROL 外部選擇加入/訂閱]**：插入連結以接受來自您品牌的通訊。
 
-   * **[!UICONTROL 外部選擇退出/取消訂閱]**：插入連結以取消訂閱接收來自您品牌的通訊。 進一步瞭解[本章節](email-opt-out.md#opt-out-management)中的選擇退出管理。
+   * **[!UICONTROL 外部選擇退出/取消訂閱]**：插入連結以取消訂閱來自您品牌的通訊。 進一步瞭解[本章節](email-opt-out.md#opt-out-management)中的選擇退出管理。
 
    * **[!UICONTROL 映象頁面]**：新增連結以在網頁瀏覽器中顯示電子郵件內容。 [了解更多](#mirror-page)
 
-1. 在對應欄位中輸入所需的URL，或選取登入頁面，然後定義連結設定和樣式。 [了解更多](#adjust-links)
+1. 在對應欄位中輸入所需的URL，或選取登入頁面，並定義連結設定和樣式。 [了解更多](#adjust-links)
 
    >[!NOTE]
    >
-   >若要解譯URL， [!DNL Journey Optimizer] 符合URI語法([RFC 3986標準版](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"})，會停用URL中的某些特殊國際字元。 嘗試傳送校樣或電子郵件時，如果系統傳回的錯誤涉及新增至內容的URL，則您可以URL編碼字串當作因應措施。
+   >若要解譯URL， [!DNL Journey Optimizer] 符合URI語法([RFC 3986標準版](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"})，這會停用URL中的部分特殊國際字元。 嘗試傳送校樣或電子郵件時，如果您傳回的錯誤涉及新增到內容的URL，您可以URL編碼字串作為因應措施。
 
 1. 您可以個人化連結。 [了解更多](../personalization/personalization-syntax.md#perso-urls)
 
 1. 儲存您的變更。
 
-1. 建立連結後，您仍然可以從以下位置修改連結： **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 右邊的窗格。
+1. 建立連結後，您仍可從 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 右邊的窗格。
 
    ![](assets/message-tracking-link-settings.png)
 
 >[!NOTE]
 >
->行銷型別的電子郵件訊息必須包含 [退出連結](../privacy/opt-out.md#opt-out-management)，這是異動訊息不需要的。 訊息類別(**[!UICONTROL 行銷]** 或 **[!UICONTROL 異動]**)在中定義 [管道表面](../configuration/channel-surfaces.md#email-type) 建立訊息時。
+>行銷型別的電子郵件訊息必須包括 [退出連結](../privacy/opt-out.md#opt-out-management)，異動訊息不需要此屬性。 訊息類別(**[!UICONTROL 行銷]** 或 **[!UICONTROL 異動]**)在中定義 [頻道介面](../configuration/channel-surfaces.md#email-type) 建立訊息時。
 
 ## 調整連結 {#adjust-links}
 
@@ -107,7 +107,7 @@ ht-degree: 35%
 
    ![](assets/link_2.png)
 
-1. Check **[!UICONTROL 為連結加上底線]** 將連結的標籤文字加底線。
+1. 檢查 **[!UICONTROL 將連結加底線]** 將連結的標籤文字加底線。
 
    ![](assets/link_1.png)
 
@@ -117,11 +117,11 @@ ht-degree: 35%
 
 1. 儲存您的變更。
 
-## 映象頁面的連結 {#mirror-page}
+## 連結至映象頁面 {#mirror-page}
 
-鏡像頁面是可透過網頁瀏覽器線上存取的 HTML 頁面。其內容與您的電子郵件內容相同。
+鏡像頁面是可透過網頁瀏覽器線上存取的 HTML 頁面。其內容與電子郵件的內容相同。
 
-若要在電子郵件中新增映象頁面的連結， [插入連結](#insert-links) 並選取 **[!UICONTROL 映象頁面]** 作為連結型別。
+若要在電子郵件中新增映象頁面的連結， [插入連結](#insert-links) 並選取 **[!UICONTROL 映象頁面]** 做為連結型別。
 
 ![](assets/message-tracking-mirror-page.png)
 
@@ -143,7 +143,7 @@ ht-degree: 35%
 
 [電子郵件設計工具](content-from-scratch.md) 可讓您管理被追蹤的 URL，例如編輯每個連結的追蹤類型。
 
-1. 按一下 **[!UICONTROL 連結]** 圖示來顯示您要追蹤之內容的所有URL清單。
+1. 按一下 **[!UICONTROL 連結]** 圖示來顯示要追蹤之內容的所有URL清單。
 
    此清單可讓您能夠集中檢視並找到電子郵件內容中的每個 URL。
 
@@ -160,7 +160,7 @@ ht-degree: 35%
    * **[!UICONTROL 鏡像頁面]**：將此 URL 視為鏡像頁面 URL。
    * **[!UICONTROL 絕不]**：絕不啟動追蹤此 URL。<!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-有關開啟次數和點按次數的報表，請參閱 [即時報告](../reports/live-report.md) 和 [全域報告](../reports/global-report.md).
+有關開啟次數與點按次數的報告，請參閱 [即時報告](../reports/live-report.md) 和 [全域報告](../reports/global-report.md).
 
 ## URL追蹤 {#url-tracking}
 
@@ -174,7 +174,7 @@ ht-degree: 35%
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. 新增URL追蹤引數，並從運算式編輯器中選取您選擇的設定檔屬性。
+1. 新增URL追蹤引數，並從運算式編輯器中選取您選取的設定檔屬性。
 
    ![](assets/message-tracking-perso-parameter.png)
 
@@ -182,7 +182,7 @@ ht-degree: 35%
 
 1. 針對您要新增此追蹤引數的每個連結，重複上述步驟。
 
-現在，當電子郵件寄出時，此引數會自動附加至URL的結尾。 然後，您可以在網站分析工具或效能報表中擷取此引數。
+現在，當電子郵件寄出時，此引數會自動附加至URL的結尾。 接著，您就可以在網站分析工具或效能報表中擷取此引數。
 
 >[!NOTE]
 >

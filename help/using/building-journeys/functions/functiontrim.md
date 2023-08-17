@@ -5,7 +5,7 @@ description: 瞭解函式修剪
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: trim，函式，運算式，歷程
+keywords: 修剪，函式，運算式，歷程
 exl-id: 1ee126fd-d021-4060-9538-aca5cabf8164
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -32,7 +32,7 @@ ht-degree: 28%
 |-----------|------------------|
 | 字串 | 字串 |
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `trim(<string>)`
 

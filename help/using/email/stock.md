@@ -22,7 +22,7 @@ ht-degree: 13%
 
 [!DNL Adobe Stock] 和 [!DNL Adobe Journey Optimizer] 電子郵件設計工具整合外掛程式，為客戶提供了用於訊息製作的導覽、授權和儲存影像的簡單方法。
 
-[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} 提供數百萬張高品質、精選且免版稅的像片、影片、插圖和向量圖形的存取權。 您可以選擇購買信用套件以授權資產，或只購買一個標準或延伸授權以授權所需資產。 Adobe Stock也提供免費的資產集合。
+[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} 讓您存取數百萬張高品質、精選且免版稅的像片、影片、插圖和向量圖形。 您可以選擇購買信用套件以授權資產，或僅購買一個標準或延長授權以授權所需資產。 Adobe Stock也提供免費的資產集合。
 
 使用 [!DNL Adobe Journey Optimizer]，您可直接從 [!DNL Adobe Stock] 將影像上傳到電子郵件，並使用&#x200B;**[!UICONTROL 尋找 Adobe Stock 照片]**&#x200B;選項將其新增到 **[!UICONTROL Assets]** 資料夾。此外，**[!UICONTROL 尋找類似 Stock 照片]**&#x200B;選項可協助您尋找符合傳送中所用資產的內容、顏色與組成的影像。
 
@@ -46,13 +46,13 @@ ht-degree: 13%
 
    ![](assets/stock-select-from-lib.png)
 
-1. 選取選取選取的影像，然後按一下 **[!UICONTROL 儲存]**.
+1. 選取選取的影像，然後按一下 **[!UICONTROL 儲存]**.
 
    如果您選取的影像未獲授權，您必須 [取得授權](#license-stock-image).
 
 ## 尋找類似的像片 {#similar-stock-image}
 
-您可以使用以下位置的像片取代電子郵件內容中的任何現有影像： [!DNL Adobe Stock]. 請注意，此選項適用於所有影像：授權/未授權的Stock影像，以及您「資產」資料夾中的影像。
+您可以使用以下位置的像片取代電子郵件內容中的任何現有影像 [!DNL Adobe Stock]. 請注意，此選項適用於所有影像：授權/未授權的Stock影像，以及您「資產」資料夾中的影像。
 
 若要瀏覽類似的像片，請遵循下列步驟：
 
@@ -61,13 +61,13 @@ ht-degree: 13%
 
    ![](assets/stock-similar.png)
 
-1. 選取選取選取的影像，然後按一下 **[!UICONTROL 儲存]**.
+1. 選取選取的影像，然後按一下 **[!UICONTROL 儲存]**.
 
    ![](assets/stock-similar-results.png)
 
    如果您選取的影像未獲授權，您必須 [取得授權](#license-stock-image).
 
-1. 如有需要，請使用自訂影像 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 索引標籤。 [進一步瞭解元件設定](content-components.md).
+1. 如有需要，請使用自訂影像 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 索引標籤。 [深入瞭解元件設定](content-components.md).
 
 ## 從取得授權 [!DNL Adobe Stock] {#license-stock-image}
 
@@ -79,7 +79,7 @@ ht-degree: 13%
 
    ![](assets/stock-license-icon.png)
 
-   系統會將您重新導向至 [!DNL Adobe Stock] 網站以購買授權。
+   系統會將您重新導向至 [!DNL Adobe Stock] 購買授權的網站。
 
    ![](assets/stock-license-photo.png)
 
@@ -87,12 +87,12 @@ ht-degree: 13%
 
    此次購買取決於您的Adobe Stock計畫或訂閱。 請注意，如果您有多個Adobe Stock帳戶，系統會將您重新導向至上次使用的Stock ID。 在此情況下，在授權您的資產之前，請確定您已登入正確的帳戶。
 
-   如需Adobe Stock計畫和價格的詳細資訊，請參閱 [Adobe Stock檔案](https://stock.adobe.com/plans){target="_blank"}.
+   有關Adobe Stock計畫和價格的詳細資訊，請參見 [Adobe Stock檔案](https://stock.adobe.com/plans){target="_blank"}.
 
    >[!WARNING]
    > 如果傳送了包含未授權影像的電子郵件，該影像會保留含有浮水印的未授權表單。
 
-1. 完成購買後，您現在可以返回電子郵件至 [!DNL Adobe Journey Optimizer] 並選取 **[!UICONTROL 匯入庫存影像]** 將您的授權影像匯入至資產。
+1. 完成購買後，您現在可以返回電子郵件至 [!DNL Adobe Journey Optimizer] 並選取 **[!UICONTROL 匯入庫存影像]** 將您的授權影像匯入資產。
 
    ![](assets/stock_6.png)
 

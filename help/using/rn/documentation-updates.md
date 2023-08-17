@@ -5,7 +5,7 @@ title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3061'
 ht-degree: 100%
 
@@ -261,8 +261,8 @@ ht-degree: 100%
 * 更新並重新命名「重試時段」區段，凸顯您現在可以在訊息預設集中調整電子郵件重試設定。 [閱讀全文](../configuration/retries.md#retry-duration)
 * 新增區段，說明如何在電子郵件內容中插入一鍵選擇退出的連結。 [閱讀全文](../privacy/opt-out.md#one-click-opt-out-link)
 * 更新委派子網域區段，針對 Adobe 執行的驗證流程提供詳細資訊。 [閱讀全文](../configuration/delegate-subdomain.md#subdomain-validation)
-* 新增區段，說明如何手動將電子郵件地址和網域加入隱藏清單。 [閱讀全文](../configuration/manage-suppression-list.md#add-addresses-and-domains)
-* 更新[存取隱藏清單](../configuration/manage-suppression-list.md#access-suppression-list)區段與 [重試](../configuration/retries.md)區段來凸顯新的使用者介面。
+* 新增區段，說明如何手動將電子郵件地址和網域加入禁止名單。 [閱讀全文](../configuration/manage-suppression-list.md#add-addresses-and-domains)
+* 更新[存取禁止名單](../configuration/manage-suppression-list.md#access-suppression-list)區段與 [重試](../configuration/retries.md)區段來凸顯新的使用者介面。
 * 建立優惠時新增及設定代表的新流程已記錄下來。 [閱讀全文](../offers/offer-library/creating-personalized-offers.md#representations)
 
 ## 2021 年 7 月 {#july-2021}

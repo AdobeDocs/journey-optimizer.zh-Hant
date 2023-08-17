@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 | `{CONTAINER_ID}` | 集合限定詞所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_TAG}` | 定義與集合限定詞相關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
 | `id` | 用於比對 `@id` 個實體的屬性。 字串完全相符。 引數 `id` 和 `name` 不能一起使用。 | `xcore:tag:124e147572cd7866` |
-| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全符合，但可使用萬用字元。 引數 `id` 和 `name` 不能一起使用 | `Holiday sales and promotions` |
+| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數 `id` 和 `name` 不能一起使用 | `Holiday sales and promotions` |
 
 **要求**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **回應**
 
-成功的回應會傳回收集限定詞的詳細資訊，包括容器ID、執行個體ID和唯一收集限定詞的相關資訊 `@id`.
+成功的回應會傳回收集限定詞的詳細資料，包括容器ID、執行環境ID與唯一收集限定詞的相關資訊 `@id`.
 
 ```json
 {

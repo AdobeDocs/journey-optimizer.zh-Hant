@@ -7,12 +7,12 @@ feature: Access Management
 topic: Administration
 role: Admin, User
 level: Intermediate
-keywords: 許可權，編寫，訊息
+keywords: 許可權，製作，訊息
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1133'
+ht-degree: 6%
 
 ---
 
@@ -33,24 +33,24 @@ ht-degree: 0%
 
 ## [!DNL Campaign Approver] {#campaign-approver}
 
-此 **[!DNL Campaign Approver]** 角色可讓使用者核准傳遞並發佈。 他們稍後可以使用檢查傳送是否成功 **[!DNL Campaigns]** 報表。
+此 **[!DNL Campaign Approver]** 角色可讓使用者核准傳遞並將其發佈。 他們稍後可以使用檢查傳送是否成功 **[!DNL Campaigns]** 報表。
 
 | 資源 | 權限 |
 |-|-|
-| 行銷活動 | <ul><li>**[!DNL Manage campaigns]**：讀取、建立、編輯和刪除行銷活動。</li><li>**[!DNL Publish campaigns]**：發佈行銷活動。</li><li>**[!DNL View Campaigns report]**：讀取、編輯歷程報告。</li></ul> |
+| 行銷活動 | <ul><li>**[!DNL Manage campaigns]**：讀取、建立、編輯和刪除行銷活動。</li><li>**[!DNL Publish campaigns]**：發佈行銷活動。</li><li>**[!DNL View Campaigns report]**：讀取，編輯歷程報告。</li></ul> |
 | 決策管理 | <ul><li>**[!DNL Manage decisions]**：讀取、建立、編輯和刪除決策實體。</li><li>**[!DNL Manage ranking strategies]**：讀取、建立、編輯和刪除自訂訊息報告，並使用動作功能。</li></ul> |
 | Adobe Experience Platform | <ul><li>**[!DNL Manage segments]**：讀取、建立、編輯和刪除區段定義。</li><li>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除設定檔。</li><li>**[!DNL Read datasets]**：資料集的唯讀存取權。</li><li>**[!DNL Read schemas]**：結構描述的唯讀存取權。</li><li>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</li></ul> |
 | 頻道設定 | <ul><li>**[!DNL View messages presets]**：訊息預設集的唯讀存取權。</li></ul> |
 
 ## [!DNL Campaign Manager] {#campaign-manager}
 
-此 **[!DNL Campaign Manager]** 角色可讓使用者建立和編輯 **[!UICONTROL 行銷活動]** 以及所有連結至 **[!UICONTROL 行銷活動]** 但無法發佈。
+此 **[!DNL Campaign Manager]** 角色可讓使用者建立和編輯 **[!UICONTROL 行銷活動]** 以及所有連結至 **[!UICONTROL 行銷活動]** 但將無法發佈。
 
 此角色包含下列許可權：
 
 | 資源 | 權限 |
 |-|-|
-| 行銷活動 | <ul><li>**[!DNL Manage campaigns]**：讀取、建立、編輯和刪除行銷活動。</li><li>**[!DNL View campaigns report]**：讀取、編輯歷程報告。</li></ul> |
+| 行銷活動 | <ul><li>**[!DNL Manage campaigns]**：讀取、建立、編輯和刪除行銷活動。</li><li>**[!DNL View campaigns report]**：讀取，編輯歷程報告。</li></ul> |
 | 決策管理 | <ul><li>**[!DNL Manage decisions]**：讀取、建立、編輯和刪除決策實體。</li><li>**[!DNL Manage ranking strategies]**：讀取、建立、編輯和刪除自訂訊息報告，並使用動作功能。</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**：讀取、建立、編輯和刪除區段定義。</li><li>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除設定檔。</li><li>**[!DNL Read datasets]**：資料集的唯讀存取權。</li><li>**[!DNL Read schemas]**：結構描述的唯讀存取權。</li><li>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</li></ul> |
 | 頻道設定 | <ul><li>**[!DNL View messages presets]**：訊息預設集的唯讀存取權。</li></ul> |
@@ -65,12 +65,12 @@ ht-degree: 0%
 
 | 資源 | 權限 |
 |-|-|
-| 行銷活動 | <ul><li>**[!DNL View campaigns]**：行銷活動的唯讀存取權。</li><li>**[!DNL View campaigns report]**：對行銷活動報告的唯讀存取權。</li></ul> |
+| 行銷活動 | <ul><li>**[!DNL View campaigns]**：行銷活動的唯讀存取權。</li><li>**[!DNL View campaigns report]**：促銷活動報表的唯讀存取權。</li></ul> |
 | 決策管理 | <ul><li>**[!DNL View decisions]**：對決定實體的唯讀存取權。</li></ul> |
 
 ## [!DNL Journey Administrator] {#journey-administrator}
 
-此 **[!DNL Journey Administrator]** 角色可讓管理功能表管理和發佈歷程與決定管理。
+此 **[!DNL Journey Administrator]** 角色可讓管理功能表能夠管理和發佈歷程與決定管理。
 
 此角色包含下列許可權：
 
@@ -85,29 +85,29 @@ ht-degree: 0%
 
 ## [!DNL Journey Approver] {#journey-approver}
 
-此 **[!DNL Journey Approver]** 角色可讓使用者核准傳遞並發佈。 他們稍後可以使用檢查傳送是否成功 **[!DNL Journey]** 報表。
+此 **[!DNL Journey Approver]** 角色可讓使用者核准傳遞並將其發佈。 他們稍後可以使用檢查傳送是否成功 **[!DNL Journey]** 報表。
 
 此角色包含下列許可權：
 
 | 資源 | 權限 |
 |-|-|
-| 歷程 | <ul><li>**[!DNL Manage journeys]**：讀取、建立、編輯和刪除歷程。</li><li>**[!DNL Publish journey]**：發佈歷程。</li><li>**[!DNL View journeys events, data sources and actions]**：對歷程事件、歷程自訂動作和歷程資料來源的唯讀存取。</li><li>**[!DNL View journeys report]**：讀取、編輯歷程報告。</li></ul> |
+| 歷程 | <ul><li>**[!DNL Manage journeys]**：讀取、建立、編輯和刪除歷程。</li><li>**[!DNL Publish journey]**：發佈歷程。</li><li>**[!DNL View journeys events, data sources and actions]**：以唯讀方式存取歷程事件、歷程自訂動作和歷程資料來源。</li><li>**[!DNL View journeys report]**：讀取，編輯歷程報告。</li></ul> |
 | 決策管理 | <ul><li>**[!DNL Manage decisions]**：讀取、建立、編輯和刪除決策實體。</li><li>**[!DNL Manage ranking strategies]**：讀取、建立、編輯和刪除自訂報表，並使用動作功能。</li></ul> |
 | Adobe Experience Platform | <ul><li>**[!DNL Manage segments]**：讀取、建立、編輯和刪除區段定義。</li><li>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除設定檔。</li><li>**[!DNL Read datasets]**：資料集的唯讀存取權。</li><li>**[!DNL Read schemas]**：結構描述的唯讀存取權。</li><li>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</li></ul> |
-| 頻道設定 | <ul><li>**[!DNL View channel surfaces]**：對管道表面的唯讀存取。</li></ul> |
+| 頻道設定 | <ul><li>**[!DNL View channel surfaces]**：對頻道介面的唯讀存取權。</li></ul> |
 
 ## [!DNL Journey Manager] {#journey-manager}
 
-此 **[!DNL Journey Manager]** 角色可讓使用者建立和編輯 **[!UICONTROL 歷程]** 以及所有連結至 **[!UICONTROL 歷程]** 但無法發佈。
+此 **[!DNL Journey Manager]** 角色可讓使用者建立和編輯 **[!UICONTROL 歷程]** 以及所有連結至 **[!UICONTROL 歷程]** 但將無法發佈。
 
 此角色包含下列許可權：
 
 | 資源 | 權限 |
 |-|-|
-| 歷程 | <ul><li>**[!DNL Manage journeys]**：讀取、建立、編輯和刪除歷程。</li><li>**[!DNL View journeys events]**：對歷程事件、歷程自訂動作和歷程資料來源的唯讀存取。</li><li>**[!DNL View journeys report]**：讀取、編輯歷程報告。</li></ul> |
+| 歷程 | <ul><li>**[!DNL Manage journeys]**：讀取、建立、編輯和刪除歷程。</li><li>**[!DNL View journeys events]**：以唯讀方式存取歷程事件、歷程自訂動作和歷程資料來源。</li><li>**[!DNL View journeys report]**：讀取，編輯歷程報告。</li></ul> |
 | 決策管理 | <ul><li>**[!DNL Manage decisions]**：讀取、建立、編輯和刪除決策實體。</li><li>**[!DNL Manage ranking strategies]**：讀取、建立、編輯和刪除自訂報表，並使用動作功能。</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**：讀取、建立、編輯和刪除區段定義。</li><li>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除設定檔。</li><li>**[!DNL Read datasets]**：資料集的唯讀存取權。</li><li>**[!DNL Read schemas]**：結構描述的唯讀存取權。</li><li>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</li></ul> |
-| 頻道設定 | <ul><li>**[!DNL View channel surfaces]**：對管道表面的唯讀存取。</li></ul> |
+| 頻道設定 | <ul><li>**[!DNL View channel surfaces]**：對頻道介面的唯讀存取權。</li></ul> |
 
 ## [!DNL Journey Viewer] {#journey-viewer}
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 | 資源 | 權限 |
 |-|-|
-| 歷程 | <ul><li>**[!DNL View journeys]**：對歷程的唯讀存取權。</li><li>**[!DNL View journeys event, data sources, actions]**：以唯讀方式存取歷程事件和資料來源。</li><li>**[!DNL View journeys report]**：以唯讀方式存取歷程報告。</li></ul> |
+| 歷程 | <ul><li>**[!DNL View journeys]**：以唯讀方式存取歷程。</li><li>**[!DNL View journeys event, data sources, actions]**：對歷程事件和資料來源的唯讀存取權。</li><li>**[!DNL View journeys report]**：以唯讀方式存取歷程報告。</li></ul> |
 | 決策管理 | <ul><li>**[!DNL View decisions]**：對決定實體的唯讀存取權。</li></ul> |
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 ## [!DNL Content Library Manager] {#content-library-manager}
 
-此 **[!DNL Content Library Manager]** 角色僅允許存取 **[!UICONTROL 內容範本]** 功能表。 指派給此角色的使用者將只能存取範本資料庫以建立內容，而不需要存取歷程或行銷活動。
+此 **[!DNL Content Library Manager]** 角色僅允許存取 **[!UICONTROL 內容範本]** 功能表。 指派給此角色的使用者將只能存取範本資料庫以建立內容，而無需存取歷程或行銷活動。
 
 此角色包含下列許可權：
 

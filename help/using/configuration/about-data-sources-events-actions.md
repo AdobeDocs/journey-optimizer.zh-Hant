@@ -23,7 +23,7 @@ ht-degree: 78%
 >title="關於歷程設定"
 >abstract="為了傳送包含歷程的訊息，您需要設定資料來源、事件和動作。資料來源可讓您定義系統的連線，以擷取將用於歷程的其他資訊，例如在您的條件中。事件可讓您在接收事件時觸發您的歷程。自訂動作可讓您連線到協力廠商系統以傳送訊息。如果您使用 Journey Optimizer 內建的訊息功能，則無需設定動作。"
 
-若要在歷程中傳送訊息，您需要設定 **[!UICONTROL 資料來源]**， **[!UICONTROL 事件]** 和 **[!UICONTROL 動作]**.
+若要在歷程中傳送訊息，您需要設定 **[!UICONTROL 資料來源]**， **[!UICONTROL 活動]** 和 **[!UICONTROL 動作]**.
 
 ![](assets/admin-menu.png)
 
@@ -35,11 +35,11 @@ ht-degree: 78%
 
 事件可讓您一直觸發歷程，以即時傳送訊息給流入歷程的個人。 
 
-在事件設定中，您會設定歷程中預期的事件。 會依照Adobe Experience Data Model (XDM)對傳入事件的資料進行標準化。 事件來自串流擷取 API，適用於驗證和未驗證的事件 (例如 Adobe Mobile SDK 事件)。[了解更多](../../using/event/about-events.md)
+在事件設定中，您會設定歷程中預期的事件。 會依照Adobe體驗資料模型(XDM)，標準化傳入事件的資料。 事件來自串流擷取 API，適用於驗證和未驗證的事件 (例如 Adobe Mobile SDK 事件)。[了解更多](../../using/event/about-events.md)
 
 ## 動作 {#actions}
 
-Journey Optimizer訊息功能內建：您只需要將頻道動作活動新增到歷程中。 如果您使用協力廠商系統來傳送訊息，可以建立自訂動作。 [了解更多](../../using/action/action.md)
+Journey Optimizer訊息功能內建：您只需要將頻道動作活動新增到歷程中。 如果您使用協力廠商系統來傳送訊息，則可建立自訂動作。 [了解更多](../../using/action/action.md)
 
 ## 透過 Adobe Experience Platform 欄位瀏覽 {#friendly-names-display}
 

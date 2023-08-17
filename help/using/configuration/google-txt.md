@@ -25,17 +25,17 @@ ht-degree: 24%
 
 TXT記錄是一種DNS記錄，用於提供關於網域的文字資訊，可以由外部來源讀取。
 
-為了確保最佳傳遞能力並成功傳遞電子郵件至Gmail地址， [!DNL Journey Optimizer] 可讓您新增特殊的Google網站驗證TXT記錄至您的子網域，以確保其經過驗證。
+為了確保最佳傳遞能力並成功傳遞電子郵件至Gmail地址， [!DNL Journey Optimizer] 可讓您將特殊的Google網站驗證TXT記錄新增至您的子網域，以確保其經過驗證。
 
 >[!CAUTION]
 >
-> 只有在子網域具有 **[!UICONTROL 成功]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](about-subdomain-delegation.md#access-delegated-subdomains).
+> 只有在子網域具備以下條件時，才能執行此作業： **[!UICONTROL 成功]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](about-subdomain-delegation.md#access-delegated-subdomains).
 
-若要將Google TXT記錄新增至子網域，請遵循下列步驟：
+若要將Google TXT記錄新增至子網域，請執行下列步驟：
 
 1. 從開啟子網域 **[!UICONTROL 頻道]** / **[!UICONTROL 子網域]** 功能表。
 
-1. 在 **[!UICONTROL Google txt記錄]** 區段，輸入產生的驗證碼 [Google工作區](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->，然後按一下 **[!UICONTROL 儲存]**.
+1. 在 **[!UICONTROL Google txt記錄]** 區段，輸入產生的驗證代碼 [Google工作區](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->，然後按一下 **[!UICONTROL 儲存]**.
 
    ![](assets/subdomain-google-txt.png)
 

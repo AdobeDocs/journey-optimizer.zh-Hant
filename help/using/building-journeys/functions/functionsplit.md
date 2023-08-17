@@ -5,7 +5,7 @@ description: 瞭解函式分割
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: split， function， expression， journey
+keywords: 分割，函式，運算式，歷程
 exl-id: 37bcdf98-203c-4f82-8d8a-be2b2c45c4e7
 source-git-commit: 07682901ec94d5b736d364130aaf48f9dfe982a3
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 17%
 
 # split {#split}
 
-以分隔字串分割第一個引數字串（第二個引數字串，可以是規則運算式），以產生字串清單（代號）。
+以分隔字串分割第一個引數字串（第二個引數字串，可以是規則運算式），以產生字串（代號）清單。
 
 ## 類別
 
@@ -33,7 +33,7 @@ ht-degree: 17%
 | 輸入字串 | 字串 |
 | 分隔符號字串 | 字串 |
 
-## 簽章和傳回型別
+## 簽章與傳回型別
 
 `split(<input string>, <separator string>)`
 
@@ -45,7 +45,7 @@ ht-degree: 17%
 
 傳回 `["A","B","C"]`
 
-具有值「20.45.2.3434」的事件欄位「event.appVersion」的範例
+具有下列值的事件欄位「event.appVersion」範例：「20.45.2.3434」
 
 `split(@{event.appVersion}, "\\.")`
 

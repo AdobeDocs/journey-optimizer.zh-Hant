@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # 操作者 {#operators}
 
-運運算元有兩種型別：一元運運算元和二進位運運算元。 有左側一元運運算元和右側一元運運算元。
+運運算元有兩種型別：一元運運算元和二進位運運算元。 有左一元運運算元和右一元運運算元。
 
 ```json
 // left-hand unary operators
@@ -39,8 +39,8 @@ not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 ## 重要備註{#important-notes}
 
 * 使用乘法時(`*`)，則兩個作業欄位都必須有相同的型別，可以是整數或小數。 範例：
-   * 以下範例是正確的： `3.0 * 4.0`
-   * `3 * 4.0` 將導致錯誤
+   * 下列範例是正確的： `3.0 * 4.0`
+   * `3 * 4.0` 會導致錯誤
 
 ## 邏輯  {#logical}
 
@@ -72,7 +72,7 @@ not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 3.14 > 2 or 3.15 < 1
 ```
 
-### not
+### 非
 
 ```json
 not <expression>
@@ -152,7 +152,7 @@ not 3.15 < 1
 
 >[!NOTE]
 >
->對象 &lt;expression1> 和 &lt;expression2> 沒有資料型別控制項。
+>的 &lt;expression1> 和 &lt;expression2> 沒有資料型別控制項。
 
 範例：
 
@@ -171,7 +171,8 @@ not 3.15 < 1
 ```
 
 >[!NOTE]
-對象 &lt;expression1> 和 &lt;expression2> 沒有資料型別控制項。
+>
+的 &lt;expression1> 和 &lt;expression2> 沒有資料型別控制項。
 
 結果是布林值。
 
@@ -191,11 +192,11 @@ not 3.15 < 1
 <expression1> > <expression2>
 ```
 
-Datetime可以與Datetime比較。
+日期時間可以與日期時間比較。
 
-Datetimeonly可與Datetimeonly比較。
+Datetimeonly可以與Datetimeonly比較。
 
-整數或小數點都可與整數或小數點進行比較。
+整數或小數點都可以與整數或小數點進行比較。
 
 禁止任何其他組合。
 
@@ -213,11 +214,11 @@ Datetimeonly可與Datetimeonly比較。
 <expression1> >= <expression2>
 ```
 
-Datetime可以與Datetime比較。
+日期時間可以與日期時間比較。
 
-Datetimeonly可與Datetimeonly比較。
+Datetimeonly可以與Datetimeonly比較。
 
-整數或小數點都可與整數或小數點進行比較。
+整數或小數點都可以與整數或小數點進行比較。
 
 禁止任何其他組合。
 
@@ -235,11 +236,11 @@ Datetimeonly可與Datetimeonly比較。
 <expression1> < <expression2>
 ```
 
-Datetime可以與Datetime比較。
+日期時間可以與日期時間比較。
 
-Datetimeonly可與Datetimeonly比較。
+Datetimeonly可以與Datetimeonly比較。
 
-整數或小數點都可與整數或小數點進行比較。
+整數或小數點都可以與整數或小數點進行比較。
 
 禁止任何其他組合。
 
@@ -257,11 +258,11 @@ Datetimeonly可與Datetimeonly比較。
 <expression1> <= <expression2>
 ```
 
-Datetime可以與Datetime比較。
+日期時間可以與日期時間比較。
 
-Datetimeonly可與Datetimeonly比較。
+Datetimeonly可以與Datetimeonly比較。
 
-整數或小數點都可與整數或小數點進行比較。
+整數或小數點都可以與整數或小數點進行比較。
 
 禁止任何其他組合。
 
@@ -369,7 +370,7 @@ Datetimeonly可與Datetimeonly比較。
 
 ## Math {#math}
 
-### 為數值
+### 是數值
 
 ```json
 <expression> is numeric
@@ -475,10 +476,10 @@ Datetimeonly可與Datetimeonly比較。
 (now()) + (toDuration("PT1H"))
 ```
 
-傳回 _dateTime_ （含UTC時區）從目前時間推後1小時
+傳回 _dateTime_ （含UTC時區）從目前時間推後一小時
 
 ```json
 (toDuration("PT1H")) + (toDuration("PT1H"))
 ```
 
-傳回 _持續時間_ PT2H
+傳回 _期間_ PT2H

@@ -15,13 +15,13 @@ ht-degree: 14%
 
 # 製作網頁 {#author-web}
 
-一旦您 [已新增網路動作](create-web.md#create-web-campaign) 對於促銷活動，您可以使用網頁設計工具編輯網站內容。
+一旦您 [已新增網頁動作](create-web.md#create-web-campaign) 對於您的行銷活動，您可以使用網頁設計工具編輯網站內容。
 
-在 [!DNL Journey Optimizer]，網頁製作功能由 **Adobe Experience Cloud Visual Helper** chrome瀏覽器擴充功能。 [了解更多](web-prerequisites.md#visual-authoring-prerequisites)
+在 [!DNL Journey Optimizer]，網頁製作由以下提供技術支援： **Adobe Experience Cloud Visual Helper** chrome瀏覽器擴充功能。 [了解更多](web-prerequisites.md#visual-authoring-prerequisites)
 
 >[!CAUTION]
 >
->若要能夠存取及編寫中的網頁，請 [!DNL Journey Optimizer] 使用者介面，請務必遵循下列先決條件： [本節](web-prerequisites.md).
+>若要能夠存取及編寫中的網頁 [!DNL Journey Optimizer] 使用者介面，請務必遵循中列出的先決條件 [本節](web-prerequisites.md).
 
 [透過此影片瞭解如何創作網路行銷活動](#video)
 
@@ -39,7 +39,7 @@ ht-degree: 14%
 >abstract="輸入特定網頁的 URL，以用於編輯將套用到符合規則的所有網頁的內容。必須使用 Adobe Experience Platform Web SDK 實作此網頁。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="更多詳情"
 
-若要開始編寫您的網頁行銷活動，請遵循下列步驟。
+若要開始撰寫網頁行銷活動，請遵循下列步驟。
 
 1. 從 **[!UICONTROL 動作]** 的標籤 [行銷活動](create-web.md#create-web-campaign)，選取 **[!UICONTROL 編輯內容]**.<!--change screen with rule-->
 
@@ -49,7 +49,7 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >如果您輸入單一URL作為網頁表面，則會填入個人化的URL。
+   >如果您輸入單一URL作為網頁表面，則會填入要個人化的URL。
 
    ![](assets/web-edit-enter-url.png)
 
@@ -69,7 +69,7 @@ ht-degree: 14%
 
 1. 使用:
 
-   * 內容選單，用於編輯其內容、配置、插入連結或個人化等。
+   * 上下文選單可編輯其內容、配置、插入連結或個人化等。
 
      ![](assets/web-designer-contextual-bar.png)
 
@@ -83,7 +83,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->網頁內容設計工具主要類似於電子郵件設計工具。 進一步瞭解 [設計內容使用 [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>網頁內容設計工具通常與電子郵件設計工具類似。 進一步瞭解 [設計內容，使用 [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
 ## 使用元件 {#content-components}
 
@@ -92,13 +92,13 @@ ht-degree: 14%
 >title="將元件新增到您的網頁"
 >abstract="您可以將許多元件新增到您的網頁並根據需要進行編輯。"
 
-1. 從 **[!UICONTROL 元件]** 左窗格中選取專案。 您可以將下列元件新增至網頁，並視需要加以編輯：
+1. 從 **[!UICONTROL 元件]** 窗格，選取專案。 您可以將下列元件新增至網頁，並視需要加以編輯：
 
    * [分隔線](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [影像](../email/content-components.md#image)
    * 標題 — 使用此元件與使用 **[!UICONTROL 文字]** 電子郵件設計工具中的元件。 [了解更多](../email/content-components.md#text)
-   * 段落 — 使用此元件類似於使用 **[!UICONTROL 文字]** 電子郵件設計工具中的元件。 [了解更多](../email/content-components.md#text)
+   * 段落 — 使用此元件與使用 **[!UICONTROL 文字]** 電子郵件設計工具中的元件。 [了解更多](../email/content-components.md#text)
    * 連結
    * [優惠決定](../email/add-offers-email.md)
 
@@ -126,7 +126,7 @@ ht-degree: 14%
 
 ![](assets/web-designer-personalization.png)
 
-使用 **[!UICONTROL 優惠決定]** 要插入元件 [優惠方案](../offers/get-started/starting-offer-decisioning.md) 放入您的網頁。 此程式與以下情況相同： [新增優惠方案至電子郵件](../email/add-offers-email.md). 它會運用決策管理，挑選最適合提供給客戶的優惠方案。
+使用 **[!UICONTROL 優惠決定]** 要插入的元件 [優惠方案](../offers/get-started/starting-offer-decisioning.md) 放到您的網頁中。 程式與以下情況相同： [將優惠方案新增至電子郵件](../email/add-offers-email.md). 它會運用決策管理，挑選要提供給客戶的最佳優惠方案。
 
 ![](assets/web-designer-offer.png)
 
@@ -139,37 +139,37 @@ ht-degree: 14%
 
 您可以輕鬆管理新增至網頁的所有元件、調整和樣式。
 
-1. 選取 **[!UICONTROL 修改]** 圖示以在左側顯示對應的窗格。
+1. 選取 **[!UICONTROL 修改]** 圖示來在左側顯示對應的窗格。
 
    ![](assets/web-designer-modifications-pane.png)
 
 1. 您可以檢閱對頁面所做的每項變更。
 
-1. 選取不要的修改，然後按一下刪除圖示以移除它。
+1. 選取不想要的修改，然後按一下刪除圖示以將其移除。
 
    ![](assets/web-designer-modifications-delete.png)
 
    >[!CAUTION]
    >
-   >刪除動作時請謹慎操作，因為動作可能會影響後續動作。
+   >刪除動作時請務必謹慎，因為動作可能會影響後續動作。
 
 1. 使用 **[!UICONTROL 更多動作]** 按鈕在頂端 **[!UICONTROL 修改]** 窗格，一次刪除所有修改。
 
    ![](assets/web-designer-delete-modifications.png)
 
-1. 從 **[!UICONTROL 更多動作]** 功能表您也可以只刪除無效的修改，亦即被其他變更覆寫的變更。 例如，如果您修改文字的顏色，然後刪除該文字，則顏色修改會變成無效，因為該文字已不存在。
+1. 從 **[!UICONTROL 更多動作]** 功能表您也可僅刪除無效的修改，亦即其他變更所覆寫的變更。 例如，如果您修改文字的顏色，然後刪除該文字，則顏色修改會變成無效，因為該文字已不存在。
 
 1. 您也可以使用取消和重做動作 **[!UICONTROL 還原/重做]** 按鈕。
 
    ![](assets/web-designer-undo-redo.png)
 
-   按一下並按住按鈕，以在 **[!UICONTROL 還原]** 和 **[!UICONTROL 取消復原]** 選項。 然後按一下按鈕本身，套用所需的動作。
+   按住按鈕以在 **[!UICONTROL 還原]** 和 **[!UICONTROL 取消復原]** 選項。 然後按一下按鈕本身，套用所需的動作。
 
 ## 使用點選追蹤 {#use-click-tracing}
 
 網頁設計工具中的這項功能可讓您選取網站的任何元素，並追蹤該元素上的點按次數。
 
-一旦您的行銷活動上線，您就可以檢查行銷活動網頁報告中每個元素的點按次數。 此資訊有助於改善網站使用者的體驗。 例如，如果 [網站報告](../reports/campaign-global-report.md#web-tab) 顯示有許多使用者點按了實際上無法點按的元素，您可能會想要新增該元素的連結。
+一旦您的行銷活動上線，您就可以檢查行銷活動網頁報告中每個元素的點按次數。 此資訊有助於改善網站使用者的體驗。 例如，如果 [網站報表](../reports/campaign-global-report.md#web-tab) 顯示有許多使用者點按了無法點按的元素，您可能會想要新增該元素的連結。
 
 1. 在頁面中選取元素，然後選擇 **[!UICONTROL 點選追蹤元素]** 從內容功能表。
 
@@ -177,13 +177,13 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >可以選取任何專案（無論是否可點按）。
+   >可以選取任何專案，無論是否可點按。
 
-1. 對應的追蹤動作會自動顯示在 **[!UICONTROL 點選追蹤]** 左側的窗格。
+1. 對應的追蹤動作會自動顯示在 **[!UICONTROL 點選追蹤]** 窗格於左側。
 
    ![](assets/web-designer-click-track-pane.png)
 
-1. 新增有意義的標籤以管理所有追蹤的元素，並在報表中輕鬆找到它們。 此 **[!UICONTROL CSS選取器]** 欄位會顯示尋找所選元素的資訊。
+1. 新增有意義的標籤以管理所有追蹤的元素，並在報表中輕鬆找到。 此 **[!UICONTROL CSS選取器]** 欄位會顯示尋找所選元素的資訊。
 
 1. 重複上述步驟，視需要選取點選追蹤所需數量的其他元素。 對應的動作會全部列在左窗格中。
 
@@ -191,7 +191,7 @@ ht-degree: 14%
 
 1. 若要移除元素上的點選追蹤，請選取對應的刪除圖示。
 
-一旦您的行銷活動開始運作，您就可以檢查行銷活動報告 **[!UICONTROL Web]** 索引標籤以比較曝光次數、點按率和依元素的點按次數。 [了解更多](../reports/campaign-global-report.md#web-tab)
+行銷活動開始運作後，您就可以檢視行銷活動報告 **[!UICONTROL Web]** 索引標籤以比較曝光數、點按率和依元素的點按數。 [了解更多](../reports/campaign-global-report.md#web-tab)
 
 ## 瀏覽網頁設計工具 {#navigate-web-designer}
 
@@ -199,13 +199,13 @@ ht-degree: 14%
 
 1. 從畫布中選取任何元素。
 
-1. 按一下 **[!UICONTROL 展開/收合階層連結]** 按鈕來快速顯示有關所選元素的資訊。
+1. 按一下 **[!UICONTROL 展開/摺疊階層連結]** 按鈕來快速顯示有關所選元素的資訊。
 
    ![](assets/web-designer-breadcrumbs.png)
 
-1. 當您將游標停留在階層連結上時，對應的元素會在編輯器中反白顯示。
+1. 當您將游標停留在階層連結上時，編輯器中會反白顯示對應的元素。
 
-1. 使用它，您可以輕鬆導覽至視覺化編輯器中的任何父項、同層級專案或子項元素。
+1. 您可以使用它輕鬆導覽至視覺編輯器中的任何父項、同層級專案或子項元素。
 
 ### 切換至瀏覽模式 {#browse-mode}
 
@@ -214,55 +214,55 @@ ht-degree: 14%
 >title="使用瀏覽模式"
 >abstract="在此模式下，您可以從要個人化的選取表面瀏覽到精準的頁面。"
 
-您可以從預設值交換 **[!UICONTROL 設計]** 模式切換成 **[!UICONTROL 瀏覽]** 模式使用「專用」按鈕。
+您可以從預設值交換 **[!UICONTROL 設計]** 模式切換為 **[!UICONTROL 瀏覽]** 模式使用「專用」按鈕。
 
 ![](assets/web-designer-browse-mode.png)
 
-從 **[!UICONTROL 瀏覽]** 模式，您可以從您想要個人化的所選表面瀏覽至確切頁面。
+從 **[!UICONTROL 瀏覽]** 模式，您可以導覽至您要個人化之所選表面的確切頁面。
 
-在處理經過驗證或無法從某個URL開始的頁面時，此功能特別有用。 例如，您將能夠進行驗證、導覽至您的帳戶頁面或購物車頁面，然後切換回 **[!UICONTROL 設計]** 模式，以便在您需要的頁面上執行變更。
+在處理經過驗證或無法從特定URL開始使用的頁面時，此外掛程式特別有用。 例如，您將能夠驗證、導覽至您的帳戶頁面或購物車頁面，然後切換回 **[!UICONTROL 設計]** 模式，以在您所需的頁面上執行變更。
 
 ### 變更裝置大小 {#change-device-size}
 
-您可以將網頁設計工具顯示的裝置大小變更為預先定義的大小，例如 **[!UICONTROL 平板電腦]** 或 **[!UICONTROL 行動裝置橫向]**，或輸入所需的畫素數，以定義自訂大小。
+您可以將網頁設計工具顯示的裝置大小變更為預先定義的大小，例如 **[!UICONTROL 平板電腦]** 或 **[!UICONTROL 行動裝置橫向]**，或輸入所需畫素數來定義自訂大小。
 
 您也可以將縮放焦點從25%變更為400%。
 
 ![](assets/web-designer-device.png)
 
-變更裝置大小的功能專為可在各種裝置、視窗和熒幕大小上良好呈現的回應式網站所設計。 回應式網站會自動調整並適應任何螢幕大小，包括桌上型電腦、筆記型電腦、平板電腦或行動電話。
+變更裝置大小的功能是專為可適當呈現在各種裝置、視窗和熒幕大小的回應式網站所設計。 回應式網站會自動調整並適應任何螢幕大小，包括桌上型電腦、筆記型電腦、平板電腦或行動電話。
 
 >[!CAUTION]
 >
 >您可以編輯具有特定裝置大小的網頁體驗。 不過，只要選取器相同，這些變更就會套用至所有大小和裝置，而不只是您正在使用的裝置大小。 同樣地，在標準案頭檢視中編輯體驗時，會將變更套用至所有熒幕大小，而不僅僅是案頭檢視。
 >
->目前， [!DNL Journey Optimizer] 不支援裝置大小特定的頁面變更。 這表示，舉例來說，如果您有另一個行動網站具有不同的網站結構，您應針對不同促銷活動中的行動網站進行特定變更。
+>目前， [!DNL Journey Optimizer] 不支援裝置大小特定的頁面變更。 這表示，舉例來說，如果您有另一個行動網站具有不同的網站結構，您應該針對不同促銷活動中的行動網站進行特定變更。
 
-## 測試網頁行銷活動 {#test-web-campaign}
+## 測試網站行銷活動 {#test-web-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"
 >title="預覽您的網頁體驗"
 >abstract="取得您的網頁體驗的模擬。"
 
-若要顯示修改後Web體驗的預覽，請遵循下列步驟。
+若要顯示已修改Web體驗的預覽，請遵循下列步驟。
 
 >[!CAUTION]
 >
->您必須具備可用的測試設定檔，以模擬將傳送哪些優惠給他們。 瞭解如何 [建立測試設定檔](../audience/creating-test-profiles.md).
+>您必須有可用的測試設定檔，以模擬將傳送給他們的優惠。 瞭解如何 [建立測試設定檔](../audience/creating-test-profiles.md).
 
-1. 從任一網路促銷活動編輯內容畫面中，選取 **[!UICONTROL 模擬內容]**.
+1. 在網路行銷活動編輯內容畫面中，選取 **[!UICONTROL 模擬內容]**.
 
    <!--![](assets/web-designer-simulate.png)-->
 
    ![](assets/web-campaign-simulate.png)
 
 1. 按一下 **[!UICONTROL 管理測試設定檔]** 以選取一或多個測試設定檔。
-1. 此時會顯示修改後網頁的預覽。
+1. 系統會顯示已修改網頁的預覽。
 
    ![](assets/web-designer-preview.png)
 
-1. 您也可以在預設瀏覽器中開啟它，或複製測試URL以將其貼到任何瀏覽器中。 這可讓您與團隊和利害關係人共用連結，這些利害關係人將能夠在行銷活動上線之前在任何瀏覽器中預覽新的Web體驗。
+1. 您也可以在預設瀏覽器中開啟測試網址，或複製測試URL以貼到任何瀏覽器中。 這可讓您與團隊和利害關係人共用連結，這些利害關係人將能夠在行銷活動上線之前在任何瀏覽器中預覽新的網頁體驗。
 
    >[!NOTE]
    >
@@ -270,6 +270,6 @@ ht-degree: 14%
 
 ## 操作說明影片{#video}
 
-以下影片說明如何在中使用Web設計工具編寫Web體驗 [!DNL Journey Optimizer] 行銷活動。
+以下影片說明如何在中使用網頁設計工具製作網頁體驗 [!DNL Journey Optimizer] 行銷活動。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

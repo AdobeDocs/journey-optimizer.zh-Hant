@@ -16,7 +16,7 @@ ht-degree: 12%
 
 # notEqualIgnoreCase {#notEqualIgnoreCase}
 
-檢查第一個引數字串與第二個引數字串是否不同，忽略大小寫考量。
+檢查第一個引數字串是否與第二個引數字串不同，忽略大小寫考量。
 
 ## 類別
 
@@ -30,7 +30,7 @@ ht-degree: 12%
 
 * 字串
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `notEqualIgnoreCase(<string>,<string>)`
 

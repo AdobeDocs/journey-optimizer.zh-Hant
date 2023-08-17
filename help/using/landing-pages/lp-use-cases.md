@@ -22,25 +22,25 @@ ht-degree: 15%
 
 ## 訂閱服務 {#subscription-to-a-service}
 
-最常見的使用案例之一是邀請客戶 [訂閱服務](subscription-list.md) （例如電子報或事件）瀏覽登陸頁面。 主要步驟如下圖所示：
+最常見的使用案例之一是邀請客戶 [訂閱服務](subscription-list.md) （例如電子報或活動）瀏覽登陸頁面。 主要步驟如下圖所示：
 
 ![](assets/lp_subscription-uc.png)
 
-例如，假設您在下個月組織活動，且您要啟動事件註冊行銷活動<!--to keep your customers that are interested updated on that event-->. 若要這麼做，您將會傳送包含登陸頁面連結的電子郵件，讓您的收件者註冊此事件。 註冊的使用者將新增到您為此目的建立的訂閱清單中。
+例如，假設您在下個月組織活動，且您要啟動活動註冊行銷活動<!--to keep your customers that are interested updated on that event-->. 為此，您將傳送一封電子郵件，其中包含登陸頁面的連結，可讓您的收件者註冊此事件。 註冊的使用者將新增至您為此目的建立的訂閱清單中。
 
 ### 設定登入頁面 {#set-up-lp}
 
-1. 建立事件註冊的訂閱清單，該清單將儲存註冊的使用者。 瞭解如何建立訂閱清單 [此處](subscription-list.md#define-subscription-list).
+1. 建立事件註冊的訂閱清單，此清單將儲存註冊的使用者。 瞭解如何建立訂閱清單 [此處](subscription-list.md#define-subscription-list).
 
    ![](assets/lp_subscription-uc-list.png)
 
-1. [建立登入頁面](create-lp.md) 讓您的收件者註冊您的事件。
+1. [建立登入頁面](create-lp.md) 讓您的收件者註冊您的活動。
 
    ![](assets/lp_create-lp-details.png)
 
 1. 設定註冊 [主要登陸頁面](create-lp.md#configure-primary-page).
 
-1. 設計時 [登陸頁面內容](design-lp.md)，選取您建立的訂閱清單，以使用選取註冊核取方塊的設定檔來更新它。
+1. 設計時 [登陸頁面內容](design-lp.md)，選取您建立的訂閱清單，以使用選取註冊核取方塊的設定檔進行更新。
 
    ![](assets/lp_subscription-uc-lp-list.png)
 
@@ -50,7 +50,7 @@ ht-degree: 15%
 
 1. [發佈登陸頁面.](create-lp.md#publish)
 
-1. 在 [歷程](../building-journeys/journey.md)，新增 **電子郵件** 將流量引導至註冊登入頁面的活動。
+1. 在 [歷程](../building-journeys/journey.md)，新增 **電子郵件** 將流量引導至註冊登陸頁面的活動。
 
    ![](assets/lp_subscription-uc-journey.png)
 
@@ -70,11 +70,11 @@ ht-degree: 15%
 
 此外，您也可以傳送確認電子郵件給註冊了您事件的收件者。 若要執行此操作，請遵循下列步驟。
 
-1. 建立另一個 [歷程](../building-journeys/journey.md). 您可以按一下「 」，直接從登入頁面執行此操作 **[!UICONTROL 建立歷程]** 按鈕。 [了解更多](create-lp.md#configure-primary-page)
+1. 建立另一個 [歷程](../building-journeys/journey.md). 您可以按一下「 」，直接從登陸頁面執行此作業 **[!UICONTROL 建立歷程]** 按鈕。 [了解更多](create-lp.md#configure-primary-page)
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. 展開 **[!UICONTROL 事件]** 類別與拖放 **[!UICONTROL 對象資格]** 活動放入您的畫布。 [了解更多](../building-journeys/audience-qualification-events.md)
+1. 展開 **[!UICONTROL 活動]** 類別與拖放 **[!UICONTROL 對象資格]** 活動至您的畫布。 [了解更多](../building-journeys/audience-qualification-events.md)
 
 1. 按一下 **[!UICONTROL 對象]** 欄位並選取您建立的訂閱清單。
 
@@ -90,7 +90,7 @@ ht-degree: 15%
 
 ## 選擇退出 {#opt-out}
 
-若要讓收件者取消訂閱您的通訊，您可以在電子郵件中加入選擇退出登陸頁面的連結。
+若要讓收件者取消訂閱您的通訊內容，您可以在電子郵件中加入選擇退出登陸頁面的連結。
 
 進一步瞭解管理收件者的同意，以及這在中為何重要 [本節](../privacy/opt-out.md).
 
@@ -123,7 +123,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >請確定您在主要頁面的 **[!UICONTROL 行動號召]** 部分 **[!UICONTROL 表單]** 元件。 [了解更多](design-lp.md)
+   >請務必參考主要頁面之 **[!UICONTROL 行動號召]** 的區段 **[!UICONTROL 表單]** 元件。 [了解更多](design-lp.md)
 
 1. 設定並定義頁面的內容後， [發佈](create-lp.md#publish) 登陸頁面。
 
@@ -131,7 +131,7 @@ ht-degree: 15%
 
 1. 選擇內容中的文字，並使用內容相關工具列[插入連結](../email/message-tracking.md#insert-links)。您也可以在按鈕上使用連結。
 
-1. 選取 **[!UICONTROL 登陸頁面]** 從 **[!UICONTROL 連結型別]** 下拉式清單並選取 [登陸頁面](create-lp.md#configure-primary-page) 您為選擇退出而建立的區段。
+1. 選取 **[!UICONTROL 登陸頁面]** 從 **[!UICONTROL 連結型別]** 下拉式清單並選取 [登陸頁面](create-lp.md#configure-primary-page) 您建立用來選擇退出的物件。
 
    ![](assets/lp_opt-out-landing-page.png)
 
@@ -145,9 +145,9 @@ ht-degree: 15%
 
    ![](assets/lp_opt-out-submit-form.png)
 
-   如果收件者核取該方塊並提交表單：
+   如果收件者勾選方塊並提交表單：
 
-   * 選擇退出的收件者會重新導向至確認訊息畫面。
+   * 系統會將選擇退出的收件者重新導向至確認訊息畫面。
 
    * 設定檔資料已更新，除非再次訂閱，否則將不會收到您品牌的通訊。
 
@@ -157,13 +157,13 @@ ht-degree: 15%
 
 在 **[!UICONTROL 屬性]** 標籤中，您可以看到的值 **[!UICONTROL 選擇]** 已變更為 **[!UICONTROL 否]**.
 
-選擇退出資訊會儲存在 **同意服務資料集**. [進一步瞭解資料集](../data/get-started-datasets.md)
+退出資訊會儲存在 **同意服務資料集**. [進一步瞭解資料集](../data/get-started-datasets.md)
 
 >[!NOTE]
 >
 >如果您預設的合併方法 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"} **[!UICONTROL Profiles]** merge policy is **[!UICONTROL Dataset Precedence]**, make sure to enable the **[!UICONTROL AJO Consent Service Dataset]** and to prioritize it in the merge policy. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
->即使未將任何批次新增至此資料集，仍會包含選擇加入/選擇退出資訊。
+>即使未將任何批次新增至此資料集，它仍會包含選擇加入/選擇退出資訊。
 
 
 <!--

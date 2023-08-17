@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # 查詢遞補優惠 {#look-up-fallback-offers}
 
-您可以透過向以下網址發出GET要求，查詢特定的遞補優惠： [!DNL Offer Library] 包含遞補優惠方案之一的API `@id` 或要求路徑中遞補優惠的名稱。
+您可以向以下網址發出GET要求，查詢特定的遞補優惠： [!DNL Offer Library] 包含遞補優惠的API `@id` 或請求路徑中後援選件的名稱。
 
 **API格式**
 
@@ -26,10 +26,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 遞補優惠方案所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | 遞補優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FALLBACK_OFFER}` | 定義與遞補優惠方案關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
 | `id` | 用於比對 `@id` 個實體的屬性。 字串完全相符。 引數 `id` 和 `name` 不能一起使用。 | `xcore:fallback-offer:122206064e0d98df` |
-| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全符合，但可使用萬用字元。 引數 `id` 和 `name` 不能一起使用 | `F1: Web fallback` |
+| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數 `id` 和 `name` 不能一起使用 | `F1: Web fallback` |
 
 **要求**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **回應**
 
-成功的回應會傳回位置的詳細資訊，包括容器ID、執行個體ID和唯一遞補優惠的相關資訊 `@id`.
+成功的回應會傳回位置的詳細資料，包括容器ID、執行個體ID和唯一遞補優惠的相關資訊 `@id`.
 
 ```json
 {

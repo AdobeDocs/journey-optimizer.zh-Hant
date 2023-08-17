@@ -21,7 +21,7 @@ ht-degree: 11%
 
 下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
 
-| 標頭名稱 | 值 |
+| 頁首名稱 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
@@ -72,7 +72,7 @@ curl -X POST \
 
 **回應**
 
-成功的回應會傳回關於新建立決定規則的資訊，包括其唯一的執行個體ID和位置 `@id`. 您可以在稍後的步驟中使用執行個體ID來更新或刪除您的決定規則。 您可以使用唯一決定規則 `@id` 在稍後的教學課程中建立個人化優惠方案。
+成功的回應會傳回關於新建立決定規則的資訊，包括其唯一的執行個體ID和位置 `@id`. 您可在後續步驟中使用執行個體ID來更新或刪除您的決定規則。 您可以使用唯一決定規則 `@id` 在稍後的教學課程中，以建立個人化優惠方案。
 
 ```json
 {

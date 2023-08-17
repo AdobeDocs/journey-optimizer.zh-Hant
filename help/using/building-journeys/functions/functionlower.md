@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: lower
-description: 瞭解下方的函式
+description: 瞭解函式下層
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: lower， function， expression， journey
+keywords: lower，函式，運算式， journey
 exl-id: 3514f505-f934-4425-acce-39b06de7373c
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -30,7 +30,7 @@ ht-degree: 20%
 
 * 字串
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `lower(<string>)`
 

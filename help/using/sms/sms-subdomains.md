@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 設定SMS子網域
-description: 瞭解如何使用Journey Optimizer設定SMS子網域
+title: 設定簡訊子網域
+description: 瞭解如何使用Journey Optimizer設定簡訊子網域
 role: Admin
 level: Intermediate
 keywords: 簡訊、子網域、設定
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 ---
 
-# 設定SMS子網域 {#lp-subdomains}
+# 設定簡訊子網域 {#lp-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
@@ -33,15 +33,15 @@ ht-degree: 24%
 >abstract="為了能夠建立簡訊表面，請確保您之前已設定了至少一個簡訊子網域，才能從子網域名稱清單中挑選。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hant#message-preset-sms" text="建立簡訊表面"
 
-若要能夠縮短新增至SMS訊息的URL，您必須設定將在下列情況下選取的子網域： [建立SMS表面](sms-configuration.md#message-preset-sms).
+若要能夠縮短新增至SMS訊息的URL，您必須設定您將在下列情況下選取的子網域： [建立SMS表面](sms-configuration.md#message-preset-sms).
 
-您可以使用已委派給Adobe的子網域，也可以設定其他子網域。 進一步瞭解將子網域委派至Adobe於 [本節](../configuration/delegate-subdomain.md).
+您可以使用已委派給Adobe的子網域，也可以設定另一個子網域。 進一步瞭解將子網域委派至Adobe於 [本節](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
 >SMS子網域設定對所有環境都是通用的。 因此：
 >
->* 若要存取和編輯SMS子網域，您必須擁有 **[!UICONTROL 管理SMS子網域]** 生產沙箱的許可權。
+>* 若要存取及編輯SMS子網域，您必須擁有 **[!UICONTROL 管理SMS子網域]** 生產沙箱的許可權。
 >
 > * 對SMS子網域所做的任何修改也會影響生產沙箱。
 
@@ -65,7 +65,7 @@ ht-degree: 24%
 
    >[!NOTE]
    >
-   >僅允許使用英數字元和連字型大小。
+   >只允許使用英數字元和連字型大小。
 
 1. 從清單中選取委派的子網域。
 
@@ -81,17 +81,17 @@ ht-degree: 24%
 
    >[!CAUTION]
    >
-   >如果您選取的網域已委派給Adobe，請使用 [CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-delegation)，您必須在您的代管平台上建立DNS記錄。 若要產生DNS記錄，程式與您設定新的SMS子網域時相同。 瞭解如何在 [本節](#sms-configure-new-subdomain).
+   >如果您使用選取已委派給Adobe的網域 [CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-delegation)，您必須在您的代管平台上建立DNS記錄。 若要產生DNS記錄，此程式與您設定新的SMS子網域時的程式相同。 瞭解如何 [本節](#sms-configure-new-subdomain).
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**。
 
-1. 提交後，子網域會顯示在清單中，並附上 **[!UICONTROL 處理中]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. 提交後，子網域會顯示在清單中，並包含 **[!UICONTROL 處理中]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
    >[!NOTE]
    >
-   >在能夠使用該子網域來傳送訊息之前，您必須等待Adobe執行所需的檢查，這可能需要4小時。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   >您必須先等到Adobe執行所需的檢查（最多可能需要4小時），才能使用該子網域傳送訊息。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
-1. 檢查成功後，子網域會取得 **[!UICONTROL 成功]** 狀態。 它可用來建立SMS頻道介面。
+1. 檢查成功後，子網域會取得 **[!UICONTROL 成功]** 狀態。 它已準備好用來建立SMS頻道介面。
 
 ## 設定新的子網域 {#sms-configure-new-subdomain}
 
@@ -122,7 +122,7 @@ ht-degree: 24%
 
    >[!NOTE]
    >
-   >支援（相同父項網域的）多層級子網域。 例如，您可以使用「sms.marketing.yourcompany.com」。
+   >支援（相同父項網域的）多階層子網域。 例如，您可以使用「sms.marketing.yourcompany.com」。
 
 1. 將會顯示要放置在DNS伺服器中的記錄。 複製此記錄或下載CSV檔案，然後導覽至您的網域託管解決方案，以產生相符的DNS記錄。
 
@@ -132,14 +132,14 @@ ht-degree: 24%
 
    >[!NOTE]
    >
-   >當您設定新的SMS子網域時，它始終會指向CNAME記錄。
+   >當您設定新的SMS子網域時，它永遠會指向CNAME記錄。
 
 1. 提交子網域委派後，子網域會顯示在清單中，並包含 **[!UICONTROL 處理中]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
    >[!NOTE]
    >
-   >在能夠使用該子網域來傳送SMS訊息之前，您必須等待Adobe執行所需的檢查，這可能最多需要4小時。<!--Learn more in [this section](#subdomain-validation).-->
+   >您必須先等到Adobe執行所需的檢查（最多可能需要4小時），才能使用該子網域傳送SMS訊息。<!--Learn more in [this section](#subdomain-validation).-->
 
-1. 檢查成功後，子網域會取得 **[!UICONTROL 成功]** 狀態。 它可用來建立SMS頻道介面。
+1. 檢查成功後，子網域會取得 **[!UICONTROL 成功]** 狀態。 它已準備好用來建立SMS頻道介面。
 
    請注意，子網域將標示為 **[!UICONTROL 已失敗]** 如果您無法在託管解決方案上建立驗證記錄。
