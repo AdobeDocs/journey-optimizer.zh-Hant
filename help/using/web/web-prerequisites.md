@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
+source-git-commit: 827fd9a6e97b610234b2c43a469e71ed8d2f8199
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 11%
@@ -133,7 +133,7 @@ ht-degree: 11%
 
 ## 內容實驗先決條件 {#experiment-prerequisites}
 
-若要啟用網頁管道的內容實驗，您必須確定 [資料集](../data/get-started-datasets.md) 用於您的Web實作 [資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant){target="_blank"} 也會出現在您的報告設定中。
+若要啟用網頁管道的內容實驗，您必須確定 [資料集](../data/get-started-datasets.md) 用於您的Web實作 [資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant){target="_blank"} 也包含在您的報告設定中。
 
 換言之，在設定實驗報告時，如果您新增的資料集未出現在網頁資料流中，則網頁資料不會顯示在內容實驗報告中。
 
