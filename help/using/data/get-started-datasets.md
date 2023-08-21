@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: platform、資料湖、建立、湖、資料集、設定檔
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 5d122a244b610c9dc6b53795b4e94bc2029df714
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 100%
+source-wordcount: '852'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,13 @@ ht-degree: 100%
 
 選取資料集名稱，以存取其「資料集」活動畫面，並查看所選取資料集的詳細資訊。 活動索引標籤包含將所使用訊息的比率視覺化的圖形，以及成功和失敗批次的清單。
 
-可用的不同資料集如下：
+Adobe Journey Optimizer的系統資料集如下所列。
+
+
+>[!CAUTION]
+>
+> 系統資料集 **不得修改**. 每次產品更新都會自動回覆任何變更。
+>
 
 **報告**
 
