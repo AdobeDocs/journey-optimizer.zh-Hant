@@ -5,7 +5,7 @@ title: 發行說明
 description: Journey Optimizer 搶先發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: 3d166f79d9f6334c6f873ba3eecd264a60b8f4ba
+source-git-commit: 2420e04143e9ac357fb0cc14fe09c07ec577e021
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 39%
@@ -102,4 +102,4 @@ ht-degree: 39%
 **直接郵件**
 
 * 支援Azure Blob作為路由目的地。
-* 支援「&amp;」做為自訂分隔符號。
+* 支援 `&` 作為自訂分隔符號。
