@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 重新進入、歷程、設定檔、週期性
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: c4b40d66db042e7dce1326e64b9d706f33cb01c2
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '599'
 ht-degree: 13%
 
 ---
@@ -31,13 +31,16 @@ ht-degree: 13%
 
 * 如果啟用重新進入，設定檔可以進入歷程多次，但必須完全退出歷程的上一個執行個體，才能進入歷程。
 
-* 如果停用重新進入，則設定檔無法多次進入同一歷程
+* 如果停用重新進入，則設定檔無法多次進入同一歷程。
 
-依預設，新歷程允許重新進入。 您可以取消勾選「單次」歷程的選項，例如，如果您想要在某人進入商店時提供一次性禮物。 在這種情況下，您不希望客戶能夠重新進入歷程並再次收到選件。 歷程結束時，其狀態為 **[!UICONTROL 已關閉]**. 新的個人無法再進入歷程。 已在歷程中的人員會正常完成歷程。 [了解更多](journey-gs.md#entrance)
+依預設，新歷程允許重新進入。 您可以取消勾選「單次」歷程的選項，例如，如果想在某人造訪商店時提供一次性禮物。 在這種情況下，客戶必須無法重新進入歷程並再次收到選件。 歷程結束時，其狀態為 **[!UICONTROL 已關閉]**. 新的個人無法再進入歷程。 已在歷程中的人員會正常完成歷程。 [了解更多](journey-gs.md#entrance)
 
 ![](assets/journey-re-entrance.png)
 
-在預設全域逾時30天後，歷程會切換至 **已完成** 狀態。 新的個人無法再進入歷程。 已在歷程中的人員會正常完成歷程。由於30天的歷程逾時，當歷程不允許重新進入時，我們無法確保重新進入封鎖將超過30天。 事實上，當我們移除在進入歷程30天後進入歷程之人員的所有相關資訊時，我們無法得知該人員先前已進入（超過30天前）。 [了解更多](journey-gs.md#global_timeout)。
+在預設全域逾時30天後，歷程會切換至 **已完成** 狀態。 歷程中已有的設定檔會正常完成歷程。 新設定檔無法再進入歷程。 為符合隱私權規範，此行為僅設定30天。 在該時段後，設定檔可以重新進入歷程。 若要避免此情況，請新增條件以測試輸入的設定檔是否已輸入。 進一步瞭解中的歷程逾時 [本節](journey-gs.md#global_timeout).
+
+<!--
+Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
 
 單一歷程 (從事件或對象資格開始) 包含可防止同一事件多次錯誤觸發歷程的護欄。 在預設情況下，設定檔重新進入時會暫時封鎖 5 分鐘。 例如，如果某個事件在 12:01 觸發特定設定檔的歷程，而另一個事件在 12:03 達到時間限制 (無論是相同事件或是不同事件觸發相同歷程)，則此設定檔的歷程將不會再次開始。
 
