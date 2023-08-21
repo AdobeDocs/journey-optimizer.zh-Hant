@@ -4,9 +4,9 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
+source-git-commit: 0ff415fa209da7996254a60817ef69998fd47903
 workflow-type: tm+mt
-source-wordcount: '3193'
+source-wordcount: '3201'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 100%
 <td>
 <p>您現在可以在 Journey Optimizer 的電子郵件編輯器中匯入和轉換任何 HTML 內容。 在電子郵件設計工具中，可自動識別和提供內容區塊：使用該工具的強大設計功能來更新和個人化！</p>
 <img src="assets/html-convert.png">
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>如需詳細資訊，請參閱<a href="../email/existing-content.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -117,11 +117,6 @@ ht-degree: 100%
 ### 改進項目 {#july-2023-improvements}
 
 此發行版本隨附下列改進項目。
-
-<!--**Journeys**
-
-* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
-A new type of system alert has been introduced. You can now get notified when a custom action fails.-->
 
 
 **行銷活動**
