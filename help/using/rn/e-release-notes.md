@@ -5,10 +5,10 @@ title: 發行說明
 description: Journey Optimizer 搶先發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: 36634fc3993261756c081e71c47e7408c77c65ae
+source-git-commit: 3d166f79d9f6334c6f873ba3eecd264a60b8f4ba
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 41%
+source-wordcount: '402'
+ht-degree: 39%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 41%
 <table>
 <thead>
 <tr>
-<th><strong>歷程中的應用程式內頻道</strong><br/></th>
+<th><strong>在您的歷程中傳送應用程式內訊息</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -64,13 +64,14 @@ ht-degree: 41%
 <table>
 <thead>
 <tr>
-<th><strong>文字和影像的內容助理</strong><br/></th>
+<th><strong>使用內容助理產生文字和影像</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>在您建立並個人化訊息後，請使用內容助理將您的內容提升到新的境界。 您現在可以使用內容小幫手，透過實驗不同的主要標題和影像，將訊息的影響最佳化。 每個變體都會當作獨特的處理來管理，以便測量並比較哪個標題有效地產生更多點按。</p>
+<p>此功能目前以私人測試版的形式提供。</p>
 <img src="assets/gen-ai-image-2.png"/>
 <!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
 </td>
@@ -96,3 +97,9 @@ ht-degree: 41%
 
 * 您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。
 * 已引進新類型的系統警報。 您現在可以在自訂動作失敗時收到通知。
+
+
+**直接郵件**
+
+* 支援Azure Blob作為路由目的地。
+* 支援「&amp;」做為自訂分隔符號。
