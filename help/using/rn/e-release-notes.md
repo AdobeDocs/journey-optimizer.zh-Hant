@@ -5,10 +5,10 @@ title: 發行說明
 description: Journey Optimizer 搶先發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: ca22edacfdad9b09abd742229471d23d23d2059b
+source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 43%
+source-wordcount: '343'
+ht-degree: 40%
 
 ---
 
@@ -96,8 +96,8 @@ ht-degree: 43%
 **歷程**
 
 * 您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。此功能目前以私人測試版的形式提供。
-* 已引進新類型的系統警報。 您現在可以在自訂動作失敗時收到通知。
-  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
+<!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
+* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **直接郵件**
