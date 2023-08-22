@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 重新進入、歷程、設定檔、週期性
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 1bcc47389b128c6eb6e768578b2ae64c4b0fea89
+source-git-commit: b0cda95aee58a3dd3a0e22d09b5938ff11abcf32
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '615'
 ht-degree: 13%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 13%
 
 ![](assets/journey-re-entrance.png)
 
-在預設全域逾時30天後，歷程會切換至 **已完成** 狀態。 歷程中已有的設定檔會正常完成歷程。 新設定檔無法再進入歷程。 此行為僅設定30天（歷程逾時預設值），因為我們會移除在設定檔進入30天後進入歷程的所有相關資訊。 在該時段後，設定檔可以重新進入歷程。 若要避免此情況，請新增條件以測試輸入的設定檔是否已輸入。 進一步瞭解中的歷程逾時 [本節](journey-gs.md#global_timeout).
+在預設值之後 [全域逾時](journey-gs.md#global_timeout) 在30天中，歷程會切換至 **已完成** 狀態。 歷程中已有的設定檔會正常完成歷程。 新設定檔無法再進入歷程。 此行為僅設定30天（即歷程逾時預設值），因為有關進入歷程的設定檔的所有資訊都會在進入30天後移除。 在該時段後，設定檔可以重新進入歷程。 若要避免此情況，並完全停用這些設定檔的重新進入，您可以新增條件以測試是否已輸入設定檔。
 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
