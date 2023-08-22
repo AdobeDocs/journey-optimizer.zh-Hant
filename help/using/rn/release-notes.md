@@ -4,7 +4,7 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
+source-git-commit: 5c8a985d19c82ecb79153dd8ba2e056f6a2c1f2b
 workflow-type: tm+mt
 source-wordcount: '3495'
 ht-degree: 93%
@@ -102,7 +102,7 @@ ht-degree: 93%
 
 **歷程**
 
-* 您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。此功能目前以私人測試版的形式提供。
+您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。此功能目前以私人測試版的形式提供。
 <!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
 * When duplicating a journey, you can now define the name of the journey copy.-->
 
