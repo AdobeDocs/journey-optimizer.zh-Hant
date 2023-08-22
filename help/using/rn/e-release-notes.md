@@ -5,10 +5,10 @@ title: 發行說明
 description: Journey Optimizer 搶先發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: f18fc404a238271edf9240a509f2f0df54c9503c
+source-git-commit: ca22edacfdad9b09abd742229471d23d23d2059b
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 38%
+source-wordcount: '362'
+ht-degree: 43%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 38%
 <tbody>
 <tr>
 <td>
-<p>您現在可以在Journey Optimizer中建立和管理種子清單。 種子清單包含測試電子郵件地址，您會先傳送電子郵件給測試對象，然後再傳送給實際對象。 使用此功能可監控所傳送的電子郵件復本，並確保所有顯示格式、URL、影像和連結正確無誤。</p>
+<p>您現在可以在Journey Optimizer中建立和管理種子清單。 種子清單包含內部地址，可以新增到實際受眾，並在傳送執行時收到與目標設定檔完全相同的訊息。 使用此功能來監視傳送的通訊，並確保所有顯示格式、URL、影像和連結正確無誤。</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -61,23 +61,23 @@ ht-degree: 38%
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>使用內容助理產生文字和影像</strong><br/></th>
+<th><strong>Generate text and images with the Content assistant</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>在您建立並個人化訊息後，請使用內容助理將您的內容提升到新的境界。 您現在可以使用內容小幫手，透過實驗不同的主要標題和影像，將訊息的影響最佳化。 每個變體都會當作獨特的處理來管理，以便測量並比較哪個標題有效地產生更多點按。</p>
-<p>此功能目前以私人測試版的形式提供。</p>
+<p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>This capability is currently available as a private beta.</p>
 <img src="assets/gen-ai-image-2.png"/>
-<!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 
@@ -91,7 +91,7 @@ ht-degree: 38%
 
 **電子郵件頻道**
 
-* 電子郵件介面設定中有新選項可用，可在交易式訊息對象中包含由於垃圾郵件投訴而抑制的電子郵件地址。 即使他們將行銷訊息標示為垃圾訊息，這些設定檔隨後仍可接收交易式訊息，例如密碼重設或帳戶陳述。 此選項預設為停用。
+電子郵件介面設定中有新選項可用，可在交易式訊息對象中包含由於垃圾郵件投訴而抑制的電子郵件地址。 即使他們將行銷訊息標示為垃圾訊息，這些設定檔隨後仍可接收交易式訊息，例如密碼重設或帳戶陳述。 此選項預設為停用。
 
 **歷程**
 
@@ -102,5 +102,5 @@ ht-degree: 38%
 
 **直接郵件**
 
-* 支援Azure Blob作為路由目的地。
-* 支援 `&` 作為自訂分隔符號。
+* 現在可以在檔案路由設定中選取Azure做為伺服器型別。
+* &amp;現在可作為直接郵件表面設定中的欄分隔符號欄位使用。
