@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: ca2db9343f1362d3fe3e75b74c3c7bb12bb1c30f
+source-git-commit: 2281daefaf6b45c056ef9100b58f51dcd9c87257
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1595'
 ht-degree: 25%
 
 ---
@@ -121,13 +121,13 @@ ht-degree: 25%
 
 ![](assets/journey32.png)
 
-### 入口{#entrance}
+### 進入和重新進入 {#entrance}
 
 依預設，新歷程允許重新進入。 您可以取消勾選 **允許重新進入** 「單次」歷程的選項，例如，如果您想在某人進入商店時提供一次性禮物。
 
 當 **允許重新進入** 選項已啟用， **重新進入等待期** 欄位。 此欄位可讓您定義在允許設定檔在單一歷程中再次進入歷程 (從事件或對象資格開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 
 
-進一步瞭解設定檔入口管理，請參閱 [本節](entry-management.md).
+在中進一步瞭解設定檔進入和重入管理 [本節](entry-management.md).
 
 ### 管理存取權 {#access}
 
