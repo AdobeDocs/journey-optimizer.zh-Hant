@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 11%
+source-wordcount: '838'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="內容實驗"
->abstract="您可以選擇改變傳遞內容、主題或寄件者，以便定義多種傳遞處理方式並確定最適合您的對象的組合。"
+>abstract="您可以選擇變更郵件內容、主旨或寄件者，以定義多種處理方式，並決定適合您對象的最佳組合。"
 
 >[!NOTE]
 >
@@ -99,13 +99,13 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 >title="成功量度"
 >abstract="成功量度用於追蹤和評估實驗中表現最佳的處理。在使用之前，請務必針對特定量度設定資料集。"
 
-1. 當您的傳遞個人化時，從行銷活動摘要頁面，按一下 **[!UICONTROL 建立實驗]** 以開始設定您的內容實驗。
+1. 當您的訊息已個人化時，從行銷活動摘要頁面，按一下 **[!UICONTROL 建立實驗]** 以開始設定您的內容實驗。
 
    ![](assets/content_experiment_3.png)
 
 1. 選取 **[!UICONTROL 成功量度]** 您想要為實驗設定。
 
-   對於我們的實驗，我們選取 **[!UICONTROL 電子郵件開啟]** 測試收件者是否會開啟其電子郵件（如果促銷代碼在主旨行中）。
+   在此範例中，選取 **[!UICONTROL 電子郵件開啟]** 以測試設定檔是否會開啟其電子郵件（如果促銷代碼在主題行中）。
 
    ![](assets/content_experiment_11.png)
 

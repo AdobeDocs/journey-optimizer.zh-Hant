@@ -12,7 +12,7 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: cab7fb06039b2d483f403361f6a46d2aadcadff0
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 38%
+ht-degree: 41%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="設定資料集以進行報告"
->abstract="報告設定可讓您擷取將用於行銷活動報告的其他量度。 必須由技術使用者執行。"
+>abstract="報告設定可讓您擷取將在行銷活動報表中使用的其他量度。必須由技術使用者執行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
