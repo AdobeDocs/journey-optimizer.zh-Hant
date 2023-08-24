@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 173ae09e48a67e0e40aa59f0f714b014eb8b8064
+source-git-commit: 375dfbebcb37f948b468ec9689963b0ffebebecf
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '893'
 ht-degree: 31%
 
 ---
@@ -36,9 +36,7 @@ ht-degree: 31%
 >id="ajo_dm_file_routing_details"
 >title="定義檔案路由設定"
 >abstract="建立直接郵件訊息後，會產生包含目標對象資料的檔案並將其匯出到伺服器。您需要指定伺服器的詳細資訊，以便您的直接郵件提供者可以存取和使用該檔案來傳遞直接郵件。"
-
-<!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="建立直接郵件訊息"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -78,7 +76,7 @@ ht-degree: 31%
 
    >[!NOTE]
    >
-   >目前Amazon S3和SFTP<!--and Azure--> 在中支援 [!DNL Journey Optimizer].
+   >目前支援Amazon S3、SFTP和Azure [!DNL Journey Optimizer].
 
 1. 填寫伺服器的詳細資料和認證，例如伺服器位址、存取金鑰等。
 
@@ -135,7 +133,7 @@ ht-degree: 31%
 
 1. 選取檔案格式： **[!UICONTROL CSV]** 或 **[!UICONTROL 文字分隔]**.
 
-1. 如果您選取 **[!UICONTROL 文字分隔]**，定義您選擇的欄分隔符號：表格、分號或垂直號<!--or ampersand-->.
+1. 如果您選取 **[!UICONTROL 文字分隔]**，定義您選擇的欄分隔符號：表格、分號、垂直號或&amp;符號。
 
    ![](assets/surface-direct-mail-column-separator.png)
 

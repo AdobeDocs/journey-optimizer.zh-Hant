@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5c8a985d19c82ecb79153dd8ba2e056f6a2c1f2b
+source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
 workflow-type: tm+mt
-source-wordcount: '3495'
-ht-degree: 93%
+source-wordcount: '3384'
+ht-degree: 96%
 
 ---
 
@@ -22,32 +22,27 @@ ht-degree: 93%
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
 
-## 2023年8月早期發行說明 {#aug-rn-2023}
-
-在發行日期前，以下早期發行說明可能會有所變更，恕不另行通知。 連結、畫面和更新檔案會在發行日期發佈。
-
-
-**發行日期**： 2023年8月23至24日
+## 2023年8月發行說明 {#aug-rn-2023}
 
 ### 新功能{#aug-2023-features}
 
 此發行版本提供下列新功能。
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>在您的歷程中傳送應用程式內訊息</strong><br/></th>
+<th><strong>Send In-app messages in your journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在歷程中傳送個人化應用程式內訊息給應用程式使用者。 使用 Journey Optimizer 來設計通知並自訂訊息版面、顯示、文字及按鈕，以建立順暢的體驗。</p>
+<p>You can now send personalized In-app messages to your app users within a journey. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
 <img src="assets/in_app_journey_1.png"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../in-app/create-in-app-journey.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <table>
@@ -61,7 +56,7 @@ ht-degree: 93%
 <td>
 <p>您現在可以在Journey Optimizer中建立和管理種子清單。 種子清單包含內部地址，可以新增到實際受眾，並在傳送執行時收到與目標設定檔完全相同的訊息。 使用此功能來監視傳送的通訊，並確保所有顯示格式、URL、影像和連結正確無誤。</p>
 <img src="../configuration/assets/seed-list-details.png">
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>如需詳細資訊，請參閱<a href="../configuration/seed-lists.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -92,25 +87,27 @@ ht-degree: 93%
 
 此發行版本隨附下列改進項目。
 
-**API**
+<!--
+**APIs**
 
-提供新的API來建立和管理內容片段。 [了解更多](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.-->
 
-**電子郵件頻道**
+<!--**Email channel**
 
-電子郵件介面設定中有新選項可用，可在交易式訊息對象中包含由於垃圾郵件投訴而抑制的電子郵件地址。 即使他們將行銷訊息標示為垃圾訊息，這些設定檔隨後仍可接收交易式訊息，例如密碼重設或帳戶陳述。 此選項預設為停用。
+A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.-->
 
 **歷程**
 
-您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。此功能目前以私人測試版的形式提供。
-<!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
-* When duplicating a journey, you can now define the name of the journey copy.-->
+* 您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。此功能目前以私人測試版的形式提供。 [了解更多](../action/action-response.md)。
+* 已引進新類型的系統警報。 您現在可以在自訂動作失敗時收到通知。
+[了解更多](../reports/alerts.md)。
+  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **直接郵件**
 
-* 現在可以在檔案路由設定中選取Azure做為伺服器型別。
-* &amp;現在可作為直接郵件表面設定中的欄分隔符號欄位使用。
+* 現在可以在檔案路由設定中選取Azure做為伺服器型別。 [了解更多](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
+* &amp;現在可作為直接郵件表面設定中的欄分隔符號欄位使用。 [了解更多](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
 
 
 

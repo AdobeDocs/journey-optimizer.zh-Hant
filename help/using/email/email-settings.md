@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1941'
 ht-degree: 8%
 
 ---
@@ -181,6 +181,31 @@ ht-degree: 8%
 此外，在定義 **[!UICONTROL 密件副本電子郵件]** 位址，請確定您使用的子網域具有有效的MX記錄設定，否則電子郵件表面處理將會失敗。
 
 如果您在提交電子郵件介面時發生錯誤，表示您輸入之地址的子網域尚未設定MX記錄。 請連絡您的管理員以設定對應的MX記錄，或使用其他具有有效MX記錄設定的位址。
+
+## 種子清單 {#seed-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_seed_list"
+>title="新增種子清單"
+>abstract="選取您選擇的種子清單，以在傳送中自動包含特定的電子郵件種子地址。 這些地址將會在傳送執行時納入，並且將會收到傳送的精確副本，以供保證之用。"
+
+中的種子清單 [!DNL Journey Optimizer] 可讓您在傳送中自動包含特定的電子郵件種子地址。 [了解更多](../configuration/seed-lists.md)
+
+>[!CAUTION]
+>
+>此功能目前僅適用於電子郵件頻道。
+
+選取與您相關的清單，在 **[!UICONTROL 種子清單]** 區段。 瞭解如何在中建立種子清單 [本節](../configuration/seed-lists.md#create-seed-list).
+
+![](../configuration/assets/seed-list-surface.png)
+
+>[!NOTE]
+>
+>一次只能選取一個種子清單。
+
+當行銷活動或歷程中使用目前介面時，在傳送執行時間會包含所選種子清單上的電子郵件地址，這表示他們會收到傳送的副本以供保證。
+
+瞭解如何在行銷活動或歷程中使用種子清單 [本節](../configuration/seed-lists.md#use-seed-list).
 
 ## 電子郵件重試引數 {#email-retry}
 

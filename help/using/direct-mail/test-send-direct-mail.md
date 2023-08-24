@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
-source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
+source-git-commit: 7d753a1fd71e85e29c141fc697348579eaa15380
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 6%
+source-wordcount: '460'
+ht-degree: 13%
 
 ---
 
@@ -50,3 +50,15 @@ ht-degree: 6%
 當您的直接郵件行銷活動準備就緒時，請按一下 **[!UICONTROL 啟動]** 按鈕。 行銷活動開始時，擷取檔案會自動產生，並匯出至中指定的伺服器。 [檔案路由設定](../direct-mail/direct-mail-configuration.md).
 
 傳送後，您可以在行銷活動報表中測量直接郵件行銷活動的影響。 如需報告的詳細資訊，請參閱本區段。
+
+## 管理直接郵件的同意 {#dm-consent-management}
+
+在 [!DNL Journey Optimizer]，同意由 Experience Platform [同意綱要](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant)處理{target="_blank"}。在預設情況下，「同意」欄位值為空，視為同意接受通訊。 
+
+如果設定檔已選擇不接收直接郵件，則在對應的Experience Platform設定檔屬性中，值 `consents.marketing.postalMail.val` 將為 `n` 和對應的設定檔將從後續傳送中排除。
+
+若要再次啟用，必須將設定檔屬性變更回 `consents.marketing.postalMail.val` ： `y`.
+
+若要管理設定檔的屬性，請移至Experience Platform，並透過選取身分名稱空間和對應的身分值來存取設定檔。 進一步瞭解 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}.
+
+進一步瞭解如何在Journey Optimizer中管理選擇退出 [本節](../privacy/opt-out.md).

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
+source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1424'
 ht-degree: 98%
 
 ---
@@ -435,22 +435,23 @@ ht-degree: 98%
       + [查詢範例](using/data/datasets-query-examples.md)
       + [內建結構 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant)
    + [查詢](using/data/get-started-queries.md)
-+ 設定{#configuration}
++ 設定 {#configuration}
    + [開始使用 Journey Optimizer 設定](using/configuration/get-started-configuration.md)
+   + [設定頻道介面](using/configuration/channel-surfaces.md)
    + 委派電子郵件子網域 {#delegate-subdomains}
       + [開始使用子網域委派](using/configuration/about-subdomain-delegation.md)
       + [委派子網域](using/configuration/delegate-subdomain.md)
       + [新增 Google TXT 記錄](using/configuration/google-txt.md)
       + [存取和編輯 PTR 記錄](using/configuration/ptr-records.md)
       + [建立 IP 池](using/configuration/ip-pools.md)
-   + [設定頻道介面](using/configuration/channel-surfaces.md)
    + 監視電子郵件地址 {#monitor-reputation}
       + [禁止名單](using/configuration/manage-suppression-list.md)
       + [重試次數](using/configuration/retries.md)
       + [允許清單](using/configuration/allow-list.md)
+   + [使用種子清單](using/configuration/seed-lists.md)
    + [支援封存](using/configuration/archiving-support.md)
+   + [變更執行地址](using/configuration/primary-email-addresses.md)
    + [設定頻率規則](using/configuration/frequency-rules.md)
-   + [管理執行地址](using/configuration/primary-email-addresses.md)
    + 設定歷程 {#configure-journeys}
       + [關於資料來源、事件和動作](using/configuration/about-data-sources-events-actions.md)
       + 與外部系統整合 {#external-systems}
@@ -475,7 +476,7 @@ ht-degree: 98%
          + [設定動作](using/action/about-custom-action-configuration.md)
          + [與 Adobe Campaign Standard 整合](using/action/acs-action.md)
          + [與 Adobe Campaign v7/v8 整合](using/action/acc-action.md)
-         + [關於動作](using/action/action-response.md)
+         + [在自訂動作中使用API呼叫回應](using/action/action-response.md)
    + [來源](using/start/get-started-sources.md)
 + 存取控制 {#access-control}
    + 存取控制概覽 {#privacy}

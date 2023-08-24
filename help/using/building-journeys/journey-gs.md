@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 2281daefaf6b45c056ef9100b58f51dcd9c87257
+source-git-commit: 91b82736b86bd01ebb24cca36da56bde7fe84b6e
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 25%
+source-wordcount: '1662'
+ht-degree: 24%
 
 ---
 
@@ -172,3 +172,20 @@ ht-degree: 25%
 由於30天歷程逾時，當歷程不允許重新進入時，我們無法確保重新進入封鎖將超過30天。 事實上，當我們移除在進入歷程30天後進入歷程之人員的所有相關資訊時，我們無法得知該人員先前已進入（超過30天前）。
 
 個人只有在歷程剩餘的時間夠在30天歷程逾時前的等待期間完成時，才能進入等待活動。 請參閱[此頁面](../building-journeys/wait-activity.md)。
+
+## 複製歷程 {#duplicate-a-journey}
+
+您可以從以下位置複製現有歷程： **瀏覽** 標籤。 所有物件和設定都會複製到歷程副本。
+
+請依照下列步驟執行：
+
+1. 導覽至您要複製的歷程，按一下 **更多動作** 圖示（歷程名稱旁的三個點）。
+1. 選取「**複製**」。
+
+   ![複製歷程](assets/duplicate-jo.png)
+
+<!--1. Enter the name of the journey and confirm. 
+
+    If no name is specified, t-->The journey copy name is set to the default name, i.e. the name of the initial journey with `_copy` characters added at the end. It can be changed in the journey properties screen.
+
+1. 新歷程已建立並可在歷程清單中使用。

@@ -1,28 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 設定自訂動作
-description: 瞭解如何設定自訂動作
+title: 自訂動作增強功能
+description: 深入瞭解自訂動作的最新增強功能
 feature: Actions
 topic: Administration
 role: Admin
 level: Experienced
 badge: label="Beta" type="Informative"
 keywords: 動作，協力廠商，自訂，歷程， API
-hide: true
-hidefromtoc: true
-source-git-commit: a3c95497fb7304ddd0aa26435f5d0279ff8fdb0f
+source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '666'
 ht-degree: 4%
 
 ---
 
-# 自訂動作增強功能
+# 自訂動作增強功能 {#custom-action-enhancements}
 
 您現在可以在自訂動作中利用API呼叫回應，並根據這些回應協調您的歷程。
 
-此功能僅適用於使用資料來源時。 您現在可以將其用於自訂動作。
+此功能先前僅在使用資料來源時可用。 您現在可以將其用於自訂動作。
 
 >[!AVAILABILITY]
 >
@@ -32,11 +30,11 @@ ht-degree: 4%
 >
 >自訂動作應僅搭配私人或內部端點使用，並搭配適當的上限或節流限制使用。 請參閱[此頁面](../configuration/external-systems.md)。
 
-## 定義自訂動作
+## 定義自訂動作 {#define-custom-action}
 
 定義自訂動作時，已提供兩個增強功能：新增GET方法和新的裝載回應欄位。 其他選項和引數則保持不變。 請參閱[此頁面](../action/about-custom-action-configuration.md)。
 
-### 端點設定
+### 端點設定 {#endpoint-configuration}
 
 此 **URL設定** 區段已重新命名 **端點設定**.
 
@@ -44,7 +42,7 @@ ht-degree: 4%
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### 裝載
+### 裝載 {#payloads-new}
 
 此 **動作引數** 區段已重新命名 **裝載**. 有兩個欄位可供使用：
 
@@ -80,7 +78,7 @@ ht-degree: 4%
 
 1. 按一下&#x200B;**儲存**。
 
-## 在歷程中善用回應
+## 在歷程中善用回應 {#response-in-journey}
 
 只需將自訂動作新增至歷程即可。 然後，您可以在條件、其他動作和訊息個人化中運用回應裝載欄位。
 
@@ -119,7 +117,7 @@ ht-degree: 4%
 
    ![](assets/action-response11.png)
 
-## 錯誤狀態{#error-status}
+## 錯誤狀態 {#error-status}
 
 此 **jo_status_code** 欄位一律可用，即使未定義回應裝載亦然。
 
@@ -136,7 +134,7 @@ ht-degree: 4%
 >
 >只有新建立的自訂動作包含 **jo_status_code** 現成欄位。 如果您想要將其用於現有的自訂動作，則需要更新動作。 例如，您可以更新說明並儲存。
 
-## 運算式語法
+## 運算式語法 {#exp-syntax}
 
 語法如下：
 
@@ -160,3 +158,4 @@ ht-degree: 4%
 ```
 
 如需欄位參考的詳細資訊，請參閱 [本節](../building-journeys/expression/field-references.md).
+

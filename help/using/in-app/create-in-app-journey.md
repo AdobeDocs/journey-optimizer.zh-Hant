@@ -1,6 +1,6 @@
 ---
 title: 在歷程中建立應用程式內通知
-description: 瞭解如何在Journey Optimizer中建立應用程式內訊息
+description: 瞭解如何在歷程中新增應用程式內訊息
 feature: Overview
 topic: Content Management
 role: User
@@ -9,15 +9,17 @@ keywords: 應用程式內、訊息、建立、開始
 hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-badge: label="Beta" type="Informative"
-source-git-commit: e91ca6f6210fd883e7a483fe81dda59bdf6ab42a
+source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 3%
+source-wordcount: '742'
+ht-degree: 2%
 
 ---
 
+
 # 在歷程建立應用程式內訊息 {#create-in-app-journey}
+
+若要在歷程中新增應用程式內訊息，請遵循下列步驟：
 
 1. 開啟您的歷程，然後拖放 **[!UICONTROL 應用程式內]** 活動來自 **[!UICONTROL 動作]** 區段。
 

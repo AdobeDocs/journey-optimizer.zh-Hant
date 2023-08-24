@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 458632fcae14db9fe7d099309b85550e47090340
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 70%
+source-wordcount: '1493'
+ht-degree: 67%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 70%
 若是GET呼叫所需的引數，請在 **[!UICONTROL 動態值]** 欄位，它們就會在呼叫結束時自動新增。 若是 POST 呼叫，您需要：
 
 * 在中列出呼叫時要傳遞的引數 **[!UICONTROL 動態值]** 欄位（在以下範例中：「identifier」）。
-* 在已傳送有效負載的正文中，也使用完全相同的語法指定它們。若要這麼做，您必須新增：&quot;param&quot;: “name of your parameter”（在以下範例中：“identifier”）。請遵循下列語法：
+* 在已傳送有效負載的正文中，也使用完全相同的語法指定它們。若要這麼做，您必須新增：&quot;param&quot;： 「name of your parameter」 （在以下範例中：「identifier」）。 請遵循下列語法：
 
   ```
   {"id":{"param":"identifier"}}
@@ -208,7 +208,10 @@ ht-degree: 70%
 
 >[!NOTE]
 >
+>每個歷程都會快取驗證Token：如果兩個歷程使用相同的自訂動作，每個歷程都會快取其自己的Token。 該權杖不會在這些歷程之間共用。
+>
 >快取持續時間有助於避免對驗證端點的過多呼叫。 驗證權杖保留在服務中會快取，沒有持續性。 如果重新啟動服務，它會從乾淨的快取開始。 快取持續時間預設為1小時。 在自訂驗證裝載中，可透過指定另一個保留期間來調整它。
+>
 
 以下是標頭驗證型別的範例：
 

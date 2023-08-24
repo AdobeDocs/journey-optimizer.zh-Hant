@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
-workflow-type: ht
-source-wordcount: '3171'
-ht-degree: 100%
+source-git-commit: 5daf828c934432810c58035986df1072a0fe73e3
+workflow-type: tm+mt
+source-wordcount: '3206'
+ht-degree: 99%
 
 ---
 
@@ -17,9 +17,11 @@ ht-degree: 100%
 
 ## 2023 年 8 月 {#august-2023}
 
+* 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2023年8月版本的詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
 * 已新增有關 Web 通道內容實驗必要條件的新內容。 [閱讀全文](../web/web-prerequisites.md#experiment-prerequisites)
 * 已新增警告至&#x200B;**使用內容範本**&#x200B;頁面，指出測試電子郵件內容範本時不支援目前追蹤。 若要測試追蹤，您必須在電子郵件中使用內容範本並傳送校訂。 [閱讀全文](../email/content-templates.md#test-template)
 * 已新增數個警告至&#x200B;**建立及發佈登陸頁面**&#x200B;區段，指定您不能通過簡單地將建立頁面時定義的 URL 複製貼上到 Web 瀏覽器中來存取登陸頁面，即使該 URL 已發佈仍然如此。不過，您可以使用預覽功能來測試。 [閱讀全文](../landing-pages/create-lp.md)
+* 已新增章節，說明如何管理直接郵件通道的同意。 [閱讀全文](../direct-mail/test-send-direct-mail.md)
 
 ## 2023 年 7 月 {#july-2023}
 
