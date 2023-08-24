@@ -4,7 +4,7 @@ product: journey optimizer
 title: 2022 年發行說明
 description: Journey Optimizer 2022 年發行說明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
 workflow-type: tm+mt
 source-wordcount: '3575'
 ht-degree: 100%
@@ -445,7 +445,7 @@ ht-degree: 100%
 <td>
 <p>Adobe Stock 和 Adobe Journey Optimizer 電子郵件設計工具整合外掛程式，為客戶提供了用於訊息製作的導覽、授權和儲存影像的簡單方法。 您還可以藉由</br>新的<b>找到類似的相片庫</b>選項找出與影像內容、顏色和組成相符的影像庫。 </p>
 <!--img src="assets/do-not-localize/stock-rn.gif"/-->
-<p>如需詳細資訊，請參閱<a href="../email/stock.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content-management/stock.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>

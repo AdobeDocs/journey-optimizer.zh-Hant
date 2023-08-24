@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 元件，電子郵件設計工具，編輯器，電子郵件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: c4ea32bf25ab49e925d6f0610494c3729e779bf1
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 57%
@@ -121,7 +121,7 @@ ht-degree: 57%
    * **字型大小**：選取文字的字型大小 (以像素為單位)。
    * **[!UICONTROL 變更字型顏色]**：選擇字型的顏色。
    * **[!UICONTROL 插入連結]**：新增任何型別的連結至您的內容。
-   * **[!UICONTROL 編輯影像]**：將影像或資產新增到文字元件。[進一步瞭解資產管理](assets-essentials.md)
+   * **[!UICONTROL 編輯影像]**：將影像或資產新增到文字元件。[進一步瞭解資產管理](../content-management/assets-essentials.md)
    * **[!UICONTROL 變更字型顏色]**：選擇字型的顏色。
    * **[!UICONTROL 新增個人化]**：新增個人化欄位以從設定檔資料自訂內容。[進一步了解內容個人化](../personalization/personalize.md)
    * **[!UICONTROL 顯示原始碼]**：顯示文字的原始碼。原始碼無法變更。
@@ -178,7 +178,7 @@ ht-degree: 57%
 
    ![](assets/email_designer_10.png)
 
-1. 您也可以選擇 **[!UICONTROL 尋找類似的Stock像片]**. [了解更多](stock.md)
+1. 您也可以選擇 **[!UICONTROL 尋找類似的Stock像片]**. [了解更多](../content-management/stock.md)
 
 1. 從 **[!UICONTROL 樣式]** 標籤，調整其他樣式屬性，例如邊界、邊框等。 或新增連結以將對象重新導向到「**[!UICONTROL 元件設定]**」窗格中的另一個內容。
 

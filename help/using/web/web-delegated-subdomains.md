@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 keywords: Web、子網域、設定
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 40cdcace9788206ad32dc6ae1e5f70c66e684bcb
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 27%
@@ -31,7 +31,7 @@ ht-degree: 27%
 >title="設定網頁子網域"
 >abstract="從已委派給 Adobe 的子網域清單中選取一個子網域。您可以將此網頁子網域設定為預設子網域，但一次只能使用一個預設子網域。"
 
-在製作網頁體驗時，如果您新增來自 [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) 程式庫，您必須設定用於發佈此內容的子網域。
+在製作網頁體驗時，如果您新增來自 [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) 程式庫，您必須設定用於發佈此內容的子網域。
 
 若要這麼做，您必須從已委派給Adobe的子網域清單中選擇。 進一步瞭解將子網域委派至Adobe於 [本節](../configuration/delegate-subdomain.md).
 

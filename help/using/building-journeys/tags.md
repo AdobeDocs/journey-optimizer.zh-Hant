@@ -8,22 +8,17 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 歷程，標籤
-badge: label="Beta" type="Informative"
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 46%
+source-wordcount: '234'
+ht-degree: 42%
 
 ---
 
 # 管理歷程中的標籤 {#journey_tags}
 
 作為Journey Optimizer的從業人員，您可以使用標籤來組織您的歷程。 標籤是一種快速、簡便的物件分類方法，用於改進搜尋。
-
->[!AVAILABILITY]
->
-> 統一標籤目前測試中。 文件和功能可能會有所變更。
 
 ## 將標籤新增至歷程
 

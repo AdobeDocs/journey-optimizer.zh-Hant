@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、設計、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 5%
@@ -84,7 +84,7 @@ ht-degree: 5%
 
 ![](assets/in_app_content_3.png)
 
-輸入您的媒體URL或按一下 **[!UICONTROL 選取資產]** 圖示可將儲存在「資產」程式庫中的資產直接新增至應用程式內訊息。 [進一步瞭解資產管理](../email/assets-essentials.md).
+輸入您的媒體URL或按一下 **[!UICONTROL 選取資產]** 圖示可將儲存在「資產」程式庫中的資產直接新增至應用程式內訊息。 [進一步瞭解資產管理](../content-management/assets-essentials.md).
 您也可以新增 **[!UICONTROL 替代文字]** 適用於熒幕閱讀應用程式。
 
 +++更多具有進階格式的選項

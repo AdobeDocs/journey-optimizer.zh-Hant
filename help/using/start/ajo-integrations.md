@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -46,7 +46,7 @@ Journey Optimizer 會將資料儲存在 Adobe Experience Platform，並利用 Cu
 
 可以透過左側選單 **[!UICONTROL Assets]** 區段直接從 [!DNL Adobe Journey Optimizer] 存取 [!DNL Adobe Experience Manager Assets Essentials]。
 
-深入了解 [Journey Optimizer + Assets Essentials](../email/assets-essentials.md)。
+深入了解 [Journey Optimizer + Assets Essentials](../content-management/assets-essentials.md)。
 
 
 ## Adobe Stock{#integration-stock}
@@ -55,12 +55,12 @@ Journey Optimizer 會將資料儲存在 Adobe Experience Platform，並利用 Cu
 
 使用 [!DNL Adobe Journey Optimizer]，您可直接從 [!DNL Adobe Stock] 將影像上傳到電子郵件，並使用&#x200B;**[!UICONTROL 尋找 Adobe Stock 照片]**&#x200B;選項將其新增到 **[!UICONTROL Assets]** 資料夾。此外，**[!UICONTROL 尋找類似 Stock 照片]**&#x200B;選項可協助您尋找符合傳送中所用資產的內容、顏色與組成的影像。
 
-深入了解 [Journey Optimizer + Stock](../email/stock.md)。
+深入了解 [Journey Optimizer + Stock](../content-management/stock.md)。
 
 
 ## Adobe Intelligent Services{#integration-intelligent-service}
 
-Adobe Intelligent Services 是即時客戶資料平台的原生功能，可讓您在客戶體驗使用案例中運用人工智慧與機器學習的強大功能。 這可讓行銷分析人員利用業務層級設定，針對公司需求設定專屬預測，而無需資料科學的專業知識。
+Adobe Intelligent Services 是即時客戶資料平台的原生功能，可讓您在客戶體驗使用案例中運用人工智慧與機器學習的強大功能。 這可讓行銷分析人員使用業務層級設定，針對公司需求設定專屬預測，而不需要資料科學專業知識。
 
 Customer AI 可讓品牌建立流失率或轉換機器學習型分數，這些分數將在 Adobe Experience Platform 以設定檔屬性形式提供，且可用來個人化歷程。
 

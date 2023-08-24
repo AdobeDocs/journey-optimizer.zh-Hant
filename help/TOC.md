@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
+source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 100%
+source-wordcount: '1416'
+ht-degree: 98%
 
 ---
 
@@ -185,9 +185,6 @@ ht-degree: 100%
       + 設計您的內容 {#add-content}
          + [使用內容元件](using/email/content-components.md)
          + [新增連結及追蹤訊息](using/email/message-tracking.md)
-         + 管理資產 {#manage-asset}
-            + [使用 Assets Essentials](using/email/assets-essentials.md)
-            + [使用 Adobe Stock](using/email/stock.md)
          + [插入個人化優惠方案](using/email/add-offers-email.md)
          + [產生文字版本](using/email/text-version-email.md)
          + [加入預告標題](using/email/preheader.md)
@@ -251,6 +248,13 @@ ht-degree: 100%
    + 設定登陸頁面 {#lp-configuration}
       + [設定登陸頁面子網域](using/landing-pages/lp-subdomains.md)
       + [定義登陸頁面預設集](using/landing-pages/lp-presets.md)
++ 內容管理 {#content-management}
+   + [使用 Assets Essentials](using/content-management/assets-essentials.md)
+   + [使用 Adobe Stock](using/content-management/stock.md)
+   + 使用內容助理{#content-assistant}
+      + [開始使用內容助理](using/content-management/gs-generative.md)
+      + [標題產生](using/content-management/generative-title.md)
+      + [影像產生](using/content-management/generative-image.md)
 + 個人化和動態內容 {#personalized-dynamic-content}
    + 個人化 {#personalization}
       + [開始使用個人化](using/personalization/personalize.md)

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 內容，編輯器，電子郵件，開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 57%
@@ -92,7 +92,7 @@ ht-degree: 57%
 
    ![](assets/email_designer_structure_component.png)
 
-1. 從 **[!UICONTROL 資產選取器]**，您可以直接選取儲存在 **[!UICONTROL 資產庫]**. [進一步瞭解資產管理](assets-essentials.md)
+1. 從 **[!UICONTROL 資產選取器]**，您可以直接選取儲存在 **[!UICONTROL 資產庫]**. [進一步瞭解資產管理](../content-management/assets-essentials.md)
 
    連按兩下包含資產的資料夾。 將其拖放至結構元件中。
 

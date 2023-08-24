@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 程式碼、HTML、編輯器
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 67%
@@ -24,7 +24,7 @@ ht-degree: 67%
 
 >[!CAUTION]
 >
-> 影像來源 [Adobe Experience Manager Assets Essentials](assets-essentials.md) 使用此方法時無法參考。 您的HTML程式碼中參照的影像必須儲存到公共位置。
+> 影像來源 [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) 使用此方法時無法參考。 您的HTML程式碼中參照的影像必須儲存到公共位置。
 
 1. 從電子郵件設計工具首頁，選取 **[!UICONTROL 自行撰寫程式碼]**.
 
