@@ -4,9 +4,9 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
+source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
 workflow-type: tm+mt
-source-wordcount: '3384'
+source-wordcount: '3432'
 ht-degree: 96%
 
 ---
@@ -28,21 +28,21 @@ ht-degree: 96%
 
 此發行版本提供下列新功能。
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Send In-app messages in your journeys</strong><br/></th>
+<th><strong>在您的歷程中傳送應用程式內訊息</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now send personalized In-app messages to your app users within a journey. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
+<p>您現在可以在歷程中傳送個人化應用程式內訊息給應用程式使用者。 使用 Journey Optimizer 來設計通知並自訂訊息版面、顯示、文字及按鈕，以建立順暢的體驗。</p>
 <img src="assets/in_app_journey_1.png"/>
-<p>For more information, refer to the <a href="../in-app/create-in-app-journey.md">detailed documentation</a>.</p>
+<p>如需詳細資訊，請參閱<a href="../in-app/create-in-app-journey.md">詳細文件</a>。</p>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <table>
