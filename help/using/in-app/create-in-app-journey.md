@@ -7,15 +7,15 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
+source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 
-# 在歷程建立應用程式內訊息 {#create-in-app-journey}
+# 在歷程中建立應用程式內訊息 {#create-in-app-journey}
 
 若要在歷程中新增應用程式內訊息，請遵循下列步驟：
 
