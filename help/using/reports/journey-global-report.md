@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2258'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,7 @@ ht-degree: 2%
 * [電子郵件](#email-global)
 * [推播](#push-global)
 * [簡訊](#sms-global)
+* [應用程式內](#in-app-global)
 
 歷程 **[!UICONTROL 全域報告]** 會分成不同的Widget，詳述您歷程的成功和錯誤。 如有需要，可以調整每個Widget的大小並將其刪除。 如需詳細資訊，請參閱此 [區段](global-report.md#modify-dashboard).
 
@@ -287,4 +288,33 @@ ht-degree: 2%
 
 此 **[!UICONTROL 簡訊 — 依據連結的點按]** 和 **[!UICONTROL 簡訊 — 追蹤統計資料]** Widget會詳細說明與訪客對您URL的參與度相關的主要資訊。
 
++++
+
+## 應用程式內標籤 {#in-app-global}
+
+從您的歷程 **[!UICONTROL 全域報告]**，則 **[!UICONTROL 應用程式內]** 索引標籤會詳細說明歷程中傳送之應用程式內傳遞的相關主要資訊。
+
+![](assets/in-app-journey-report.png)
+
++++進一步瞭解應用程式內報表可用的不同量度和Widget。
+
+此 **[!UICONTROL 應用程式內績效]** KPI會詳細說明與訪客與您應用程式內訊息的參與度相關的主要資訊，例如：
+
+* **[!UICONTROL 不重複曝光次數]**：顯示應用程式內訊息的不重複使用者人數。
+
+* **[!UICONTROL 曝光數]**：向所有使用者顯示的應用程式內訊息總數。
+
+  >[!NOTE]
+  >
+  >為確保計算曝光次數，使用者必須符合兩個條件：
+  >* 應用程式內體驗中的資格，可透過存取其歷程中的特定應用程式內活動來達成。
+  >* 符合觸發程式規則中指定的條件。
+  > 
+  >由於第二個標準，目標設定檔數量與不重複曝光數量之間可能會有顯著差異。
+
+* **[!UICONTROL 互動率]**：應用程式內訊息的參與百分比。 這包括使用者所執行的任何動作，例如點選、解僱或任何其他互動。
+
+此 **[!UICONTROL 應用程式內摘要]** 圖表會顯示相關期間應用程式內曝光次數和互動的演變。
+
+此 **[!UICONTROL 依型別的互動]** 圖表和表格會詳細說明使用者如何透過追蹤任何點選、解除或互動來與您的應用程式內訊息互動。
 +++

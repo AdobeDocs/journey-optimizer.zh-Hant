@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 5%
+source-wordcount: '1285'
+ht-degree: 4%
 
 ---
 
@@ -185,4 +185,22 @@ ht-degree: 5%
 * **[!UICONTROL 錯誤]**：在傳送期間發生且無法傳送至設定檔的錯誤總數。
 
 此 **[!UICONTROL 排除原因]** 圖表和表格可讓您檢視傳送期間發生哪些錯誤和排除。
++++
+
+## 應用程式內標籤 {#in-app-live}
+
+![](assets/journey_live_5.png)
+
++++進一步瞭解應用程式內報表可用的不同量度和Widget。
+
+此 **[!UICONTROL 應用程式內績效]** KPI會詳細說明與訪客與您應用程式內訊息的參與度相關的主要資訊，例如：
+
+* **[!UICONTROL 曝光數]**：傳送給所有使用者的應用程式內訊息總數。
+
+* **[!UICONTROL 互動]**：應用程式內訊息的參與總數。 這包括使用者所執行的任何動作，例如點選、解僱或任何其他互動。
+
+此 **[!UICONTROL 應用程式內摘要]** 圖表會顯示相關期間應用程式內曝光次數和互動的演變。
+
+此 **[!UICONTROL 依型別的互動]** 圖表和表格會詳細說明使用者如何透過追蹤任何點選、解除或互動來與您的應用程式內訊息互動。
+
 +++

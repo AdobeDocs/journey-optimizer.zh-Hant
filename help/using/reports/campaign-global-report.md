@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
+source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
 workflow-type: tm+mt
-source-wordcount: '2498'
+source-wordcount: '2472'
 ht-degree: 4%
 
 ---
@@ -219,17 +219,11 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL 曝光數]**：傳送給所有使用者的應用程式內訊息總數。
 
-* **[!UICONTROL 點按率]**：與看到訊息的使用者相比，與應用程式內訊息中所包含按鈕互動的使用者百分比。
+* **[!UICONTROL 互動率]**：應用程式內訊息的參與百分比。 這包括使用者所執行的任何動作，例如點選、解僱或任何其他互動。
 
-* **[!UICONTROL 解除率]**：收件者已解除的應用程式內訊息百分比。
+此 **[!UICONTROL 應用程式內摘要]** 圖表會顯示相關期間應用程式內曝光次數和互動的演變。
 
-此 **[!UICONTROL 應用程式內摘要]** 圖表會顯示相關期間您應用程式內曝光次數的演變。
-
-此 **[!UICONTROL 依據按鈕的點按]** 圖形和表格包含每個按鈕的收件者行為可用資料：
-
-* **[!UICONTROL 點按次數]**：與應用程式內訊息所含按鈕互動的收件者總數。
-
-* **[!UICONTROL 點按率]**：與看到訊息的使用者相比，與應用程式內訊息中所包含按鈕互動的使用者百分比。
+此 **[!UICONTROL 依型別的互動]** 圖表和表格會詳細說明使用者如何透過追蹤任何點選、解除或互動來與您的應用程式內訊息互動。
 +++
 
 ## 推播通知標籤 {#push-global}
@@ -354,11 +348,11 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL 曝光數]**：傳送給所有使用者的網站體驗總數。
 
-* **[!UICONTROL 點按率]**：與網頁上各種元素互動的訪客百分比。
+* **[!UICONTROL 互動率]**：與您的網頁互動的百分比。 這包括使用者所執行的任何動作，例如點按或任何其他互動。
 
-此 **[!UICONTROL 網頁摘要]** 圖表會顯示相關期間您網站體驗（曝光數、不重複曝光數和點按數）的演變。
+此 **[!UICONTROL 網頁摘要]** 圖表會顯示相關期間您網站體驗（曝光數、不重複曝光數和互動數）的演變。
 
-此 **[!UICONTROL 依據元素的點按]** 此表格詳細說明與您的訪客與您網頁上各種元素的參與度相關的主要資訊。
+此 **[!UICONTROL 依元素的互動]** 此表格詳細說明與您的訪客與您網頁上各種元素的參與度相關的主要資訊。
 +++
 
 ## 直接郵件索引標籤 {#direct-mail-global}

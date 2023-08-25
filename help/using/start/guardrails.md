@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1534106b7ed80376060d39a445d5e706df832e05
+source-git-commit: c01195dbee3e14a356c58353169507678aec5d30
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 100%
+source-wordcount: '1296'
+ht-degree: 86%
 
 ---
 
@@ -105,3 +105,19 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 * 從讀取對象、對象資格或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。 您需要建立新對象，以及在歷程中使用非對象條件。
 
+
+### 應用程式內活動限制 {#in-app-activity-limitations}
+
+* 此功能目前不適用於Healthcare客戶。
+
+* 個人化只能包含設定檔屬性。
+
+* 應用程式內顯示會繫結至歷程期限，這表示當設定檔的歷程結束時，該歷程中的所有應用程式內訊息將不再顯示該設定檔。  因此，無法直接從歷程活動停止應用程式內訊息。 而是必須結束整個歷程，才能停止將應用程式內訊息顯示給設定檔。
+
+* 在測試模式中，應用程式內顯示取決於歷程的有效期限。 為避免歷程在測試期間過早結束，請調整 **[!UICONTROL 等待時間]** 您的價值 **[!UICONTROL 等待]** 活動。
+
+* **[!UICONTROL 反應]** 活動無法用於對應用程式內開啟或點按做出反應。
+
+* 從使用者設定檔到達畫布中的應用程式內活動到開始看到應用程式內訊息的時間，可能會發生啟用延遲。
+
+* 應用程式內訊息內容大小限製為2Mb。 包含大型影像可能會阻礙發佈程式。

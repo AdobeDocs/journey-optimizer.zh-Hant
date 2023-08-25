@@ -6,11 +6,13 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
+hide: true
+hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
+source-git-commit: d27fa0192b72de79fefb52b472bd06c6511a8b70
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 1%
+source-wordcount: '587'
+ht-degree: 2%
 
 ---
 
@@ -60,20 +62,6 @@ ht-degree: 1%
 1. 應用程式內訊息準備就緒後，請完成設定並發佈您的歷程以將其啟用。
 
 有關如何設定歷程的詳細資訊，請參閱 [此頁面](../building-journeys/journey-gs.md).
-
-## 應用程式內活動限制 {#in-app-activity-limitations}
-
-* 此功能目前不適用於Healthcare客戶。
-
-* 個人化只能包含設定檔屬性。
-
-* 應用程式內顯示會繫結至歷程期限，這表示當設定檔的歷程結束時，該歷程中的所有應用程式內訊息將不再顯示該設定檔。  因此，無法直接從歷程活動停止應用程式內訊息。 而是必須結束整個歷程，才能停止將應用程式內訊息顯示給設定檔。
-
-* 在測試模式中，應用程式內顯示取決於歷程的有效期限。 為避免歷程在測試期間過早結束，請調整 **[!UICONTROL 等待時間]** 您的價值 **[!UICONTROL 等待]** 活動。
-
-* **[!UICONTROL 反應]** 活動無法用於對應用程式內開啟或點按做出反應。
-
-* 從使用者設定檔到達畫布中的應用程式內活動到開始看到應用程式內訊息的時間，可能會發生啟用延遲。
 
 ## 應用程式內報告 {#inapp-report}
 

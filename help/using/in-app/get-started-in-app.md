@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
+source-git-commit: d27fa0192b72de79fefb52b472bd06c6511a8b70
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 77%
+source-wordcount: '209'
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 77%
 
 應用程式內訊息是可傳送給應用程式內使用者的通知，可引導他們前往特定興趣點。這些通知可用於不同的用途，例如推廣新功能、呈現特殊優惠方案或協助使用者上線。 藉由善用應用程式內訊息，您可有效與對象進行互動，並引導他們關注應用程式的重要環節。
 
-使用 Journey Optimizer 建立應用程式內通知，並設定體驗選項，包括訊息版面及顯示、文字與按鈕選項。 您可以新增應用程式內訊息 [在行銷活動中](create-in-app.md) 和 [在歷程中](create-in-app-journey.md).
+使用 Journey Optimizer 建立應用程式內通知，並設定體驗選項，包括訊息版面及顯示、文字與按鈕選項。 
 
 >[!AVAILABILITY]
 >

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
+source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1352'
 ht-degree: 6%
 
 ---
@@ -109,15 +109,13 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 此 **[!UICONTROL 應用程式內績效]** KPI會詳細說明與訪客與您應用程式內訊息的參與度相關的主要資訊，例如：
 
-* **[!UICONTROL 不重複曝光次數]**：應用程式內訊息已傳送給的不重複使用者人數。
-
 * **[!UICONTROL 曝光數]**：傳送給所有使用者的應用程式內訊息總數。
 
-此 **[!UICONTROL 應用程式內摘要]** 圖表會顯示相關期間您應用程式內曝光次數的演變。
+* **[!UICONTROL 互動]**：應用程式內訊息的參與總數。 這包括使用者所執行的任何動作，例如點選、解僱或任何其他互動。
 
-此 **[!UICONTROL 依據按鈕的點按]** 圖形和表格包含每個按鈕的收件者行為可用資料：
+此 **[!UICONTROL 應用程式內摘要]** 圖表會顯示相關期間應用程式內曝光次數和互動的演變。
 
-* **[!UICONTROL 點按次數]**：與應用程式內訊息所含按鈕互動的收件者總數。
+此 **[!UICONTROL 依型別的互動]** 圖表和表格會詳細說明使用者如何透過追蹤任何點選、解除或互動來與您的應用程式內訊息互動。
 
 +++
 
@@ -187,21 +185,19 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## 網頁標籤 {#web-tab}
 
-從您的行銷活動 **[!UICONTROL 全域報告]**，則 **[!UICONTROL Web]** 標籤會詳細說明與網頁相關的主要資訊。
+從您的行銷活動 **[!UICONTROL 即時報告]**，則 **[!UICONTROL Web]** 標籤會詳細說明與網頁相關的主要資訊。
 
 +++進一步瞭解可用於網頁報表的不同量度和Widget。
 
 此 **[!UICONTROL 網頁效能]** KPI會詳細說明與訪客對您網站體驗的參與度相關的主要資訊，例如：
 
-* **[!UICONTROL 不重複曝光次數]**：提供網頁體驗的不重複使用者人數。
-
 * **[!UICONTROL 曝光數]**：傳送給所有使用者的網站體驗總數。
 
-* **[!UICONTROL 點按次數]**：URL造訪總數。
+* **[!UICONTROL 互動]**：與您的網頁互動的總次數。 這包括使用者所執行的任何動作，例如點按或任何其他互動。
 
-此 **[!UICONTROL 網頁摘要]** 圖表會顯示相關期間您網站體驗（曝光數、不重複曝光數和點按數）的演變。
+此 **[!UICONTROL 網頁摘要]** 圖表顯示過去24小時您網站體驗的演變（曝光數、不重複曝光數和互動數）。
 
-此 **[!UICONTROL 依據元素的點按]** 此表格詳細說明與您的訪客與您網頁上各種元素的參與度相關的主要資訊。
+此 **[!UICONTROL 依元素的互動]** 此表格詳細說明與您的訪客與您網頁上各種元素的參與度相關的主要資訊。
 +++
 
 ## 直接郵件索引標籤 {#direct-mail-tab}
