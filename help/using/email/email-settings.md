@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
+source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1967'
 ht-degree: 8%
 
 ---
@@ -187,7 +187,10 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="新增種子清單"
->abstract="選取您選擇的種子清單，以在傳送中自動包含特定的電子郵件種子地址。 這些地址將會在傳送執行時納入，並且將會收到傳送的精確副本，以供保證之用。"
+>abstract="選取您選擇的種子清單，以自動將特定內部地址新增到您的對象。 這些種子地址將在傳遞執行時包括在內，並將收到精確的訊息副本以供保證。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單？"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=en#create-seed-list" text="建立種子清單"
+
 
 中的種子清單 [!DNL Journey Optimizer] 可讓您在傳送中自動包含特定的電子郵件種子地址。 [了解更多](../configuration/seed-lists.md)
 
