@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
+source-git-commit: 9245d6a93aaaa85bee56e2291a53ca7495b6ba9e
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1344'
 ht-degree: 4%
 
 ---
@@ -34,6 +34,7 @@ ht-degree: 4%
 * [電子郵件](#email-live)
 * [推播](#push-live)
 * [簡訊](#sms-live)
+* [應用程式內](#in-app-live)
 
 歷程 **[!UICONTROL 即時報告]** 會分成不同的Widget，詳述您歷程的成功和錯誤。 如有需要，可以調整每個Widget的大小並將其刪除。 如需詳細資訊，請參閱此 [區段](live-report.md#modify-dashboard).
 
@@ -196,6 +197,14 @@ ht-degree: 4%
 此 **[!UICONTROL 應用程式內績效]** KPI會詳細說明與訪客與您應用程式內訊息的參與度相關的主要資訊，例如：
 
 * **[!UICONTROL 曝光數]**：傳送給所有使用者的應用程式內訊息總數。
+
+  >[!NOTE]
+  >
+  >為確保計算曝光次數，使用者必須符合兩個條件：
+  >* 應用程式內體驗中的資格，可透過存取其歷程中的特定應用程式內活動來達成。
+  >* 符合觸發程式規則中指定的條件。
+  > 
+  >由於第二個標準，目標設定檔數量與不重複曝光數量之間可能會有顯著差異。
 
 * **[!UICONTROL 互動]**：應用程式內訊息的參與總數。 這包括使用者所執行的任何動作，例如點選、解僱或任何其他互動。
 
