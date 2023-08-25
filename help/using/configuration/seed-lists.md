@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 種子清單，種子清單，種子，設定
-source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
+source-git-commit: 49c283fc19d90b5ced896c5854325266d80e8bc2
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '912'
 ht-degree: 2%
 
 ---
@@ -49,9 +49,14 @@ ht-degree: 2%
 
 若要存取已建立的種子清單，請前往 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL 電子郵件設定]**，並選取 **[!UICONTROL 種子清單]**.
 
+<!--
 >[!CAUTION]
 >
->檢視、匯出及管理種子清單的許可權僅限於 [歷程管理員](../administration/ootb-product-profiles.md#journey-administrator). 進一步瞭解管理 [!DNL Journey Optimizer] 使用者在中的存取權 [本節](../administration/permissions-overview.md).
+>Permissions to view, export and manage the seed lists are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+
+>[!CAUTION]
+>
+>若要能夠檢視、編輯和管理種子清單，您必須擁有 **[!UICONTROL 管理種子清單]** 許可權。
 
 ![](assets/seed-list-access.png)
 
