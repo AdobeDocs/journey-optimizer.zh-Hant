@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: cce45bfd11bfae07e07b69a488e58c282771d96a
+source-git-commit: 1d8d6e7f773b2bc88eeef1949af805d527911323
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1134'
 ht-degree: 4%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 4%
 >[!BEGINTABS]
 
 >[!TAB 將應用程式內訊息新增至歷程]
+
+若要在歷程中新增應用程式內訊息，請遵循下列步驟：
 
 1. 開啟您的歷程，然後拖放 **[!UICONTROL 應用程式內]** 活動來自 **[!UICONTROL 動作]** 區段。
 
