@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: ceb37193797c69ee87f136f3abecf54b5927d6a2
+source-git-commit: a2aaf6bff4af8dff451eb64d68700efda0892c71
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 28%
+source-wordcount: '869'
+ht-degree: 21%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="行銷活動類型"
->abstract="**排程的行銷活動**&#x200B;會立即執行或在指定的日期執行，其目的在傳送行銷類型訊息。**API 觸發的**&#x200B;行銷活動是使用 API 呼叫執行的。其目的是在傳送行銷訊息或異動訊息，即在個人執行以下動作後傳送的訊息：重設密碼、放棄購物車等。"
+>abstract="**排程的行銷活動**&#x200B;會立即執行或在指定的日期執行，其目的在傳送行銷類型訊息。**API 觸發的**&#x200B;行銷活動是使用 API 呼叫執行的。它們旨在傳送行銷訊息（需要使用者同意的促銷訊息）或交易式訊息（非商業訊息，也可以在特定內容中傳送給已取消訂閱的設定檔）。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="行銷活動類別"
->abstract="如果您正在建立排程的行銷活動，系統會自動選取&#x200B;**行銷**&#x200B;類型。如果是 API 觸發的行銷活動，請選擇要傳送&#x200B;**行銷**&#x200B;訊息還是&#x200B;**異動**&#x200B;訊息，即在個人執行以下動作後傳送的訊息：重設密碼、放棄購物車等。"
+>abstract="如果您正在建立排程的行銷活動，系統會自動選取&#x200B;**行銷**&#x200B;類型。針對API觸發的行銷活動，選取是否要傳送 **行銷** 訊息（需要使用者同意的促銷訊息）或 **異動** 訊息（非商業訊息，也可以在特定內容中傳送到已取消訂閱的設定檔）。"
 
 1. 在 **[!UICONTROL 屬性]** 區段，指定您要如何執行行銷活動。 可用的行銷活動型別有兩種：
 
