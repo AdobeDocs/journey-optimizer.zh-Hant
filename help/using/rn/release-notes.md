@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4b9992d3824111fbd9cf4dd712bdcc17f9a76817
 workflow-type: tm+mt
 source-wordcount: '3432'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 96%
 <table>
 <thead>
 <tr>
-<th><strong>在您的歷程中傳送應用程式內訊息</strong><br/></th>
+<th><strong>在歷程中傳送應用程式內訊息</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在歷程中傳送個人化應用程式內訊息給應用程式使用者。 使用 Journey Optimizer 來設計通知並自訂訊息版面、顯示、文字及按鈕，以建立順暢的體驗。</p>
+<p>您現在可以在歷程中將個人化的應用程式內訊息傳送給應用程式使用者。 使用 Journey Optimizer 來設計通知並自訂訊息版面、顯示、文字及按鈕，以建立順暢的體驗。</p>
 <img src="assets/do-not-localize/in-app-GA.gif"/>
 <p>如需詳細資訊，請參閱<a href="../in-app/create-in-app.md">詳細文件</a>。</p>
 </tr>
@@ -48,13 +48,13 @@ ht-degree: 96%
 <table>
 <thead>
 <tr>
-<th><strong>使用種子清單驗證您的電子郵件</strong><br/></th>
+<th><strong>使用種子清單驗證電子郵件</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在Journey Optimizer中建立和管理種子清單。 種子清單包含內部地址，可以新增到實際受眾，並在傳送執行時收到與目標設定檔完全相同的訊息。 使用此功能來監視傳送的通訊，並確保所有顯示格式、URL、影像和連結正確無誤。</p>
+<p>現在您可在 Journey Optimizer 中建立和管理種子清單。 種子清單包含內部地址，可以新增到實際受眾，並在傳送執行時收到與目標設定檔完全相同的訊息。 使用此功能來監視傳送的通訊，並確保所有顯示格式、URL、影像和連結正確無誤。</p>
 <img src="../configuration/assets/seed-list-details.png">
 <p>如需詳細資訊，請參閱<a href="../configuration/seed-lists.md">詳細文件</a>。</p>
 </td>
@@ -98,7 +98,7 @@ A new option is available in the email surface settings to include email address
 
 **歷程**
 
-* 您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。此功能目前以私人測試版的形式提供。 [了解更多](../action/action-response.md)。
+* 您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。此功能目前以 Private Beta 的形式提供。[了解更多](../action/action-response.md)。
 * 已引進新類型的系統警報。 您現在可以在自訂動作失敗時收到通知。
 [了解更多](../reports/alerts.md)。
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
