@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
+source-git-commit: d73f023a5eee538f110d044103bbeb8193a0703e
 workflow-type: tm+mt
-source-wordcount: '2258'
+source-wordcount: '2257'
 ht-degree: 2%
 
 ---
@@ -312,7 +312,7 @@ ht-degree: 2%
   > 
   >由於第二個標準，目標設定檔數量與不重複曝光數量之間可能會有顯著差異。
 
-* **[!UICONTROL 互動率]**：應用程式內訊息的參與百分比。 這包括使用者所執行的任何動作，例如點選、解僱或任何其他互動。
+* **[!UICONTROL 互動]**：應用程式內訊息的參與次數。 這包括使用者所執行的任何動作，例如點選、解僱或任何其他互動。
 
 此 **[!UICONTROL 應用程式內摘要]** 圖表會顯示相關期間應用程式內曝光次數和互動的演變。
 
