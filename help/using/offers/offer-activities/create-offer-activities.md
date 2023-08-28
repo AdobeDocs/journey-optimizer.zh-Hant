@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
+source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
 workflow-type: tm+mt
 source-wordcount: '2164'
 ht-degree: 2%
@@ -146,7 +146,7 @@ ht-degree: 2%
 
   ![](../assets/activity_consecutive-rank-collections.png)
 
-* 如果兩個集合為 **同時評估**，因為有兩個來自評估標準A的合格優惠方案和三個來自評估標準B的合格優惠方案，這五個優惠方案都將根據各自排名方法決定的值棧疊在一起。 已要求兩個優惠方案，因此將傳回這五個優惠方案中的前兩個合格優惠方案。
+* 如果兩個集合為 **同時評估**，因為有兩個來自評估標準A的合格優惠方案和三個來自評估標準B的合格優惠方案，這五個優惠方案將根據各自排名方法決定的值一起棧疊排名。 已要求兩個優惠方案，因此將傳回這五個優惠方案中的前兩個合格優惠方案。
 
   ![](../assets/activity_same-rank-collections.png)
 
