@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 種子清單，種子清單，種子，設定
-source-git-commit: 49c283fc19d90b5ced896c5854325266d80e8bc2
+source-git-commit: ddd80da2577ef3006211a7f7d108bf263f539660
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '947'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 2%
 >[!CAUTION]
 >
 >此功能目前僅適用於電子郵件頻道。
+>
+>目前不支援變體。 如同來自目標對象的每個設定檔，種子地址會收到訊息的單一副本，而非所有變體(例如， [內容實驗](../campaigns/get-started-experiment.md))。
 
 種子地址用於鎖定不符合所定義的目標準則的收件者。如此一來，不在傳遞範圍的收件者可以像任何其他目標收件者一樣接收傳遞。
 
