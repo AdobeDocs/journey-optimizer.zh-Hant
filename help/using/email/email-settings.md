@@ -188,7 +188,7 @@ ht-degree: 8%
 >id="ajo_surface_seed_list"
 >title="新增種子清單"
 >abstract="選取您選擇的種子清單，以自動將特定內部地址新增到您的對象。 這些種子地址將在傳遞執行時包括在內，並將收到精確的訊息副本以供保證。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單？"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單？?"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=en#create-seed-list" text="建立種子清單"
 
 
