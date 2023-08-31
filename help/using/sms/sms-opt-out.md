@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 63237c02f632d289dba845acdcd0859f2d6de9c9
+source-git-commit: dbdc363ccfcaa99b02289fb365dbece5d08ed544
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 31%
+source-wordcount: '444'
+ht-degree: 27%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 31%
 
 ## 原生傳入關鍵字{#sms-native-keywords}
 
-依預設，Adobe Journey Optimizer會針對免付費和長程式碼訊息處理下列標準英文回複訊息：STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE。 請注意，搭配Journey Optimizer使用時，只有Sinch支援原生關鍵字。
+依預設，Adobe Journey Optimizer會針對免付費和長程式碼訊息處理下列標準英文回複訊息：STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE。 請注意，搭配Journey Optimizer使用時，只有Sinch和Infobip支援原生關鍵字。
 
 這些關鍵字通常會觸發來自第三方提供者的自動標準回覆。 您可以直接向提供者或透過其文件網站確認。
 
@@ -46,7 +46,7 @@ ht-degree: 31%
 
 ## 英數字元寄件者 ID {#alphanumeric}
 
-英數字元寄件者 ID 僅用於單向傳訊，無法接收傳入訊息。 因此，Adobe Journey Optimizer 的 SMS STOP、START、HELP 關鍵字不適用於 Alpha 傳送者 ID。 您必須提供其他指示，如寫入支援團隊、呼叫支援電話熱線或傳送文字訊息給其他電話號碼或程式碼，以允許使用者選擇退出透過英數字元寄件者 ID 傳送的訊息。
+英數字元寄件者 ID 僅用於單向傳訊，無法接收傳入訊息。 因此，Adobe Journey Optimizer的SMS STOP、START、HELP關鍵字不適用於字母傳送者ID。 您必須提供其他指示，如寫入支援團隊、呼叫支援電話熱線或傳送文字訊息給其他電話號碼或程式碼，以允許使用者選擇退出透過英數字元寄件者 ID 傳送的訊息。
 
 ## 影片 {#video-sms}
 
