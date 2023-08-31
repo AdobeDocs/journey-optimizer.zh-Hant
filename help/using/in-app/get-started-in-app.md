@@ -8,9 +8,9 @@ level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 84%
 
 * 設定應用程式內頻道。[了解更多](inapp-configuration.md)
 
-* 開始之前，請確定您對Journey Optimizer促銷活動擁有正確的許可權，即使您計畫在歷程中僅使用應用程式內訊息也是如此。 仍需要行銷活動許可權。 [了解更多](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+* 開始之前，請確定您對 Journey Optimizer 行銷活動擁有正確的權限，即使您計劃在歷程中僅使用應用程式內訊息也是如此。 仍需要行銷活動權限。 [了解更多](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
 完成後，您可以建立、設定和傳送您的第一個應用程式內訊息。 在[本節](create-in-app.md)中了解如何達成此目的。
 
