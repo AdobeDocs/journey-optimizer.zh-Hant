@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: e75e24852c5be51565706dc8844a90a8a9b7f8cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1417'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -475,7 +475,7 @@ ht-degree: 98%
          + [設定動作](using/action/about-custom-action-configuration.md)
          + [與 Adobe Campaign Standard 整合](using/action/acs-action.md)
          + [與 Adobe Campaign v7/v8 整合](using/action/acc-action.md)
-         + [在自訂動作中使用API呼叫回應](using/action/action-response.md)
+         + [在自訂動作中使用 API 呼叫回應](using/action/action-response.md)
    + [來源](using/start/get-started-sources.md)
 + 存取控制 {#access-control}
    + 存取控制概覽 {#privacy}
