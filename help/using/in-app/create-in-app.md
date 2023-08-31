@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 1d8d6e7f773b2bc88eeef1949af805d527911323
+source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 4%
+source-wordcount: '1940'
+ht-degree: 12%
 
 ---
 
@@ -38,25 +38,73 @@ ht-degree: 4%
 
 1. 您現在可以開始使用設計內容 **[!UICONTROL 編輯內容]** 按鈕。 [了解更多](design-in-app.md)
 
-1. 按一下 **[!UICONTROL 編輯觸發器]** 以設定您的觸發器。
+1. 按一下 **[!UICONTROL 編輯觸發程式]** 以選擇將觸發訊息的事件和條件。 規則產生器可讓使用者指定條件和值，在符合條件時會觸發一組動作，例如傳送應用程式內訊息。
 
    ![](assets/in_app_journey_4.png)
 
-1. 選擇應用程式內訊息生效時的觸發頻率：
+   1. 視需要按一下事件下拉式清單，以變更您的觸發器。
 
-   * **[!UICONTROL 每次都顯示]**：永遠顯示中選取的事件時的訊息 **[!UICONTROL 行動應用程式觸發器]** 會出現下拉式清單。
-   * **[!UICONTROL 顯示一次]**：僅在中選取的事件第一次顯示這則訊息 **[!UICONTROL 行動應用程式觸發器]** 會出現下拉式清單。
-   * **[!UICONTROL 顯示直到點進為止]**：當在選取的事件時顯示此訊息 **[!UICONTROL 行動應用程式觸發器]** 下拉式清單會一直出現，直到SDK以「已點按」的動作傳送互動事件為止。
+      +++請參閱可用的觸發器。
 
-1. 從 **[!UICONTROL 行動應用程式觸發器]** 從下拉式清單中選擇將觸發訊息的事件和條件：
+      | 封裝 | 觸發 | 定義 |
+      |---|---|---|
+      | 傳送資料至Platform | 已將資料傳送至Platform | 在行動應用程式發出邊緣體驗事件以將資料傳送至Adobe Experience Platform時觸發。 通常是API呼叫 [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) 從AEP Edge擴充功能。 |
+      | 核心追蹤 | 追蹤動作 | 當行動程式碼API中提供的舊版功能時觸發 [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) 稱為。 |
+      | 核心追蹤 | 追蹤狀態 | 當行動程式碼API中提供的舊版功能時觸發 [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) 稱為。 |
+      | 核心追蹤 | 收集PII | 當行動程式碼API中提供的舊版功能時觸發 [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) 稱為。 |
+      | 應用程式生命週期 | 應用程式啟動 | 在每次執行時觸發，包括當機和安裝。在超過生命週期工作階段逾時的情況下，也會在從背景恢復時觸發。 |
+      | 應用程式生命週期 | 應用程式安裝 | 在安裝或重新安裝後首次執行時觸發。 |
+      | 應用程式生命週期 | 應用程式更新 | 在升級或版本編號變更後首次執行時觸發。 |
+      | 應用程式生命週期 | 應用程式關閉 | 應用程式關閉時觸發。 |
+      | 應用程式生命週期 | 應用程式當機 | 於關閉前，應用程式不在背景執行時觸發。事件會在當機後啟動應用程式時傳送。Adobe Mobile 當機報告不會實施未攔截之例外狀況的全域處理常式。 |
+      | 地點 | 輸入POI | 當您的客戶進入您設定的興趣點(POI)時，由Places SDK觸發。 |
+      | 地點 | 退出POI | 在您的客戶離開您設定的興趣點(POI)時，由Places SDK觸發。 |
 
-   1. 從左側下拉式清單中，選取觸發訊息所需的事件。
-   1. 從右側的下拉式清單中，選取所選事件所需的驗證。
-   1. 按一下 **[!UICONTROL 新增]** 按鈕。 然後，重複上述步驟。
-   1. 選取事件的連結方式，例如，選擇 **[!UICONTROL 與]** 如果您願意 **兩者** 觸發器設為true以顯示或選擇訊息 **[!UICONTROL 或]** 如果您希望訊息顯示時機 **兩者之一** 的觸發程式為true。
-   1. 按一下 **[!UICONTROL 儲存]** 您的觸發程式設定完成時。
++++
 
-   ![](assets/in_app_journey_3.png)
+   1. 按一下 **[!UICONTROL 新增條件]** 是否希望觸發器考量多個事件或條件。
+
+   1. 選擇 **[!UICONTROL 或]** 條件（若您想要新增更多） **[!UICONTROL 觸發器]** 以進一步展開規則。
+
+      ![](assets/in_app_create_3.png)
+
+   1. 選擇 **[!UICONTROL 與]** 條件（如果想要新增） **[!UICONTROL 特徵]** 更進一步微調規則。
+
+      +++檢視可用的特徵。
+
+      | 封裝 | 特徵 | 定義 |
+      |---|---|---|
+      | 裝置資訊 | 電信業者名稱 | 當符合清單中的其中一個電信業者名稱時觸發。 |
+      | 裝置資訊 | 裝置名稱 | 符合其中一個裝置名稱時觸發。 |
+      | 裝置資訊 | 地區 | 當符合清單中的語言之一時觸發。 |
+      | 裝置資訊 | 作業系統版本 | 當符合其中一個指定的作業系統版本時觸發。 |
+      | 裝置資訊 | 舊版作業系統 | 符合其中一個指定的先前作業系統版本時觸發。 |
+      | 裝置資訊 | 執行模式 | 如果「執行」模式為應用程式或擴充功能，則會觸發。 |
+      | 應用程式生命週期 | 應用程式 ID | 符合指定的應用程式ID時觸發。 |
+      | 應用程式生命週期 | 週中的日 | 當符合指定的星期幾時觸發。 |
+      | 應用程式生命週期 | 首次使用後間隔天數 | 當符合自首次使用以來的指定天數時觸發。 |
+      | 應用程式生命週期 | 上次使用後間隔天數 | 當符合自上次使用以來的指定天數時觸發。 |
+      | 應用程式生命週期 | 升級後間隔天數 | 當符合自上次升級以來的指定天數時觸發。 |
+      | 應用程式生命週期 | 安裝日期 | 當符合指定的安裝日期時觸發。 |
+      | 應用程式生命週期 | 啟動 | 當符合指定的啟動次數時觸發。 |
+      | 應用程式生命週期 | 每日時間 | 符合指定的當日時間時觸發。 |
+      | 地點 | 目前POI | 當您的客戶進入指定的興趣點(POI)時，由Places SDK觸發。 |
+      | 地點 | 上次輸入的POI | 根據您上次進入興趣點(POI)的客戶，由Places SDK觸發。 |
+      | 地點 | 上次退出的POI | 根據您的客戶上次退出興趣點(POI)，由Places SDK觸發。 |
+
++++
+
+      ![](assets/in_app_create_8.png)
+
+   1. 按一下 **[!UICONTROL 建立群組]** 將觸發程式群組在一起。
+
+      ![](assets/in_app_journey_3.png)
+
+   1. 選擇應用程式內訊息生效時的觸發頻率：
+
+      * **[!UICONTROL 每次都顯示]**：永遠顯示中選取的事件時的訊息 **[!UICONTROL 行動應用程式觸發器]** 會出現下拉式清單。
+      * **[!UICONTROL 顯示一次]**：僅在中選取的事件第一次顯示這則訊息 **[!UICONTROL 行動應用程式觸發器]** 會出現下拉式清單。
+      * **[!UICONTROL 顯示直到點進為止]**：當在選取的事件時顯示此訊息 **[!UICONTROL 行動應用程式觸發器]** 下拉式清單會一直出現，直到SDK以「已點按」的動作傳送互動事件為止。
 
 1. 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解更多](../building-journeys/about-journey-activities.md)
 
@@ -93,6 +141,24 @@ ht-degree: 4%
 1. 按一下 **[!UICONTROL 編輯觸發程式]** 以選擇將觸發訊息的事件和條件。 規則產生器可讓使用者指定條件和值，在符合條件時會觸發一組動作，例如傳送應用程式內訊息。
 
    1. 視需要按一下事件下拉式清單，以變更您的觸發器。
+
+      +++請參閱可用的觸發器。
+
+      | 封裝 | 觸發 | 定義 |
+      |---|---|---|
+      | 傳送資料至Platform | 已將資料傳送至Platform | 在行動應用程式發出邊緣體驗事件以將資料傳送至Adobe Experience Platform時觸發。 通常是API呼叫 [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) 從AEP Edge擴充功能。 |
+      | 核心追蹤 | 追蹤動作 | 當行動程式碼API中提供的舊版功能時觸發 [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) 稱為。 |
+      | 核心追蹤 | 追蹤狀態 | 當行動程式碼API中提供的舊版功能時觸發 [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) 稱為。 |
+      | 核心追蹤 | 收集PII | 當行動程式碼API中提供的舊版功能時觸發 [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) 稱為。 |
+      | 應用程式生命週期 | 應用程式啟動 | 在每次執行時觸發，包括當機和安裝。在超過生命週期工作階段逾時的情況下，也會在從背景恢復時觸發。 |
+      | 應用程式生命週期 | 應用程式安裝 | 在安裝或重新安裝後首次執行時觸發。 |
+      | 應用程式生命週期 | 應用程式更新 | 在升級或版本編號變更後首次執行時觸發。 |
+      | 應用程式生命週期 | 應用程式關閉 | 應用程式關閉時觸發。 |
+      | 應用程式生命週期 | 應用程式當機 | 於關閉前，應用程式不在背景執行時觸發。事件會在當機後啟動應用程式時傳送。Adobe Mobile 當機報告不會實施未攔截之例外狀況的全域處理常式。 |
+      | 地點 | 輸入POI | 當您的客戶進入您設定的興趣點(POI)時，由Places SDK觸發。 |
+      | 地點 | 退出POI | 在您的客戶離開您設定的興趣點(POI)時，由Places SDK觸發。 |
+
++++
 
    1. 按一下 **[!UICONTROL 新增條件]** 是否希望觸發器考量多個事件或條件。
 
@@ -153,14 +219,27 @@ ht-degree: 4%
 
 * 以下影片說明如何在行銷活動中建立、設定和發佈應用程式內訊息。
 
+  +++請觀看影片
+
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
++++
 
 * 以下影片說明如何設定和分析A/B測試應用程式內訊息的內容實驗。
 
+  +++請觀看影片
+
   >[!VIDEO](https://video.tv.adobe.com/v/3419898)
 
++++
 
+* 以下影片說明如何在歷程中建立應用程式內訊息，以及如何測試和發佈您的歷程。
+
+  +++請觀看影片
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077)
+
++++
 
 **相關主題：**
 

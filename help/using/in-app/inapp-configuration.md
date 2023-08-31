@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 keywords: 應用程式內、訊息、設定、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
+source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '413'
 ht-degree: 10%
 
 ---
@@ -31,6 +31,10 @@ ht-degree: 10%
    >資料集是由 [!DNL Journey Optimizer] 報告系統並且不會影響資料收集或資料擷取。
 
 1. 然後，存取 **[!UICONTROL 應用程式表面]** 功能表並按一下 **[!UICONTROL 建立應用程式表面]**.
+
+   >[!NOTE]
+   >
+   > 您需要 **管理應用程式設定** 存取的許可權 **[!UICONTROL 應用程式表面]** 功能表。 如需詳細資訊，請參閱 [此影片](#video).
 
    >[!NOTE]
    >
@@ -87,5 +91,10 @@ ht-degree: 10%
 
 * 以下影片說明如何指派 **管理應用程式設定** 存取應用程式表面功能表的許可權。
 
->[!VIDEO](https://video.tv.adobe.com/v/3421607)
+  +++請觀看影片
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
+
++++
+
 
