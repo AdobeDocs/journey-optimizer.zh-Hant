@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Journey Optimizer 會將資料儲存在 Adobe Experience Platform，並利用 Cu
 
 ## Adobe Intelligent Services{#integration-intelligent-service}
 
-Adobe Intelligent Services 是即時客戶資料平台的原生功能，可讓您在客戶體驗使用案例中運用人工智慧與機器學習的強大功能。 這可讓行銷分析人員使用業務層級設定，針對公司需求設定專屬預測，而不需要資料科學專業知識。
+Adobe Intelligent Services 是即時客戶資料平台的原生功能，可讓您在客戶體驗使用案例中運用人工智慧與機器學習的強大功能。 這可讓行銷分析人員利用業務層級設定，針對公司需求設定專屬預測，而無需資料科學的專業知識。
 
 Customer AI 可讓品牌建立流失率或轉換機器學習型分數，這些分數將在 Adobe Experience Platform 以設定檔屬性形式提供，且可用來個人化歷程。
 
