@@ -5,9 +5,9 @@ title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3279'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 97%
 
 ## 2023 年 8 月 {#august-2023}
 
-* 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2023年8月版本的詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
-* 關於下列專案的備註： **驗證快取管理** 「歷程」中的權杖已更新，以詳細說明未在不同歷程之間共用。 [閱讀全文](../datasource/external-data-sources.md#custom-authentication-mode)
-* 歷程相關頁面 **專案管理** 已更新，以釐清行為。 [閱讀全文](../building-journeys/entry-management.md)
-* offer decisioning **匯出資料集** 現在預設為啟用。 已移除有關先前行為的附註。  [閱讀全文](../offers/export-catalog/get-started-export.md)
-* 各種 **行銷活動報表量度** 已重新命名即時和全域報告。 [閱讀全文](../reports/campaign-global-report.md)
+* 有關 [!DNL Journey Optimizer]2023 年 8 月發行版本的所有新功能和改進項目詳情，請參閱本文件。 [閱讀全文](release-notes.md)
+* 歷程中的&#x200B;**驗證快取管理**&#x200B;備註已更新，以詳細說明未在不同歷程之間共用權杖。 [閱讀全文](../datasource/external-data-sources.md#custom-authentication-mode)
+* 歷程&#x200B;**項目管理**&#x200B;相關頁面已更新，以釐清行為。 [閱讀全文](../building-journeys/entry-management.md)
+* Offer Decisioning **匯出資料集**&#x200B;現在預設為啟用。 已刪除有關先前行為的備註。  [閱讀全文](../offers/export-catalog/get-started-export.md)
+* 各種&#x200B;**行銷活動報告量度**&#x200B;已在即時和全域報告中重新命名。 [閱讀全文](../reports/campaign-global-report.md)
 * 已新增有關 Web 通道內容實驗必要條件的新內容。 [閱讀全文](../web/web-prerequisites.md#experiment-prerequisites)
 * 已新增警告至&#x200B;**使用內容範本**&#x200B;頁面，指出測試電子郵件內容範本時不支援目前追蹤。 若要測試追蹤，您必須在電子郵件中使用內容範本並傳送校訂。 [閱讀全文](../email/content-templates.md#test-template)
 * 已新增數個警告至&#x200B;**建立及發佈登陸頁面**&#x200B;區段，指定您不能通過簡單地將建立頁面時定義的 URL 複製貼上到 Web 瀏覽器中來存取登陸頁面，即使該 URL 已發佈仍然如此。不過，您可以使用預覽功能來測試。 [閱讀全文](../landing-pages/create-lp.md)
-* 已新增章節，說明如何 **管理同意** 用於直接郵件頻道。 [閱讀全文](../direct-mail/test-send-direct-mail.md)
+* 已新增章節，說明如何&#x200B;**管理同意** (用於直接郵件頻道)。 [閱讀全文](../direct-mail/test-send-direct-mail.md)
 
 
 ## 2023 年 7 月 {#july-2023}
