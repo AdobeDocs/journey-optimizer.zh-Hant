@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: 許可權，製作，訊息
 exl-id: fd7a7564-bf67-4796-8182-0b9b04516f21
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: bb988dbc3aa8b70081c9f3de595d49904cc699b4
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 6%
+source-wordcount: '689'
+ht-degree: 5%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 6%
 | 功能 | 權限 |
 |-|-|
 | 行銷活動 | **[!DNL Manage campaigns]**：讀取、建立、編輯和刪除行銷活動。 </br>**[!DNL Publish campaigns]**：發佈行銷活動的權利。</br>**[!DNL View campaigns]**：行銷活動的唯讀存取權。 </br>**[!DNL View campaigns report]**：讀取和編輯行銷活動報告。 |
+| 頻道設定 | **[!DNL Export suppression list]**：存取將隱藏清單匯出為CSV檔案。</br>**[!DNL Manage alerts]**：啟用/停用行銷活動、訊息和權益的警報。</br> **[!DNL Manage IP pools]**：讀取、建立、編輯和刪除ip集區。 </br>**[!DNL Manage landing page settings]**：讀取、建立、編輯和刪除登入頁面設定。</br> **[!DNL Manage messages general settings]**：讀取、建立、編輯和刪除訊息一般設定。</br>**[!DNL Manage messages presets]**：讀取、建立、編輯和刪除內容品牌。</br>**[!DNL Manage PTR records]**：讀取和編輯PTR記錄。 </br>**[!DNL Manage SMS settings]**：讀取、建立、編輯和刪除SMS設定。</br>**[!DNL Manage SMS subdomains]**：讀取、建立、編輯和刪除SMS子網域。</br> **[!DNL Manage Seedlist]**：讀取、建立、編輯和刪除種子清單。 </br> **[!DNL Manage subdomains delegation]**：讀取、建立、編輯和刪除子網域委派。 </br>**[!DNL Manage suppression rules]**：存取讀取、建立、編輯和刪除隱藏規則。</br>**[!DNL View channel surfaces]**：對頻道介面的唯讀存取權。</br> **[!DNL View messages general settings]**：對訊息一般設定的唯讀存取權。</br> **[!DNL View messages presets]**：訊息預設集的唯讀存取權。 </br> **[!DNL View PTR records]**：對PTR記錄的唯讀存取權。</br>**[!DNL View suppression list]**：讀取和匯出本機隱藏清單。 |
 | 儀表板 | **[!DNL View license usage dashboards]**：授權使用儀表板的唯讀存取權。 </br>**[!DNL Manage custom dashboards]**：可讓您建立新儀表板或編輯現有儀表板。</br>**[!DNL View custom dashboards]**：對使用者定義控制面板的唯讀存取權。 </br>**[!DNL View standard dashboards]**：對設定檔、目的地和區段控制面板的唯讀存取權。</br>**[!DNL Manage standard dashboards]**：可讓您建立自訂Widget，並透過Widget資料庫編輯Widget結構。 |
 | 資料收集 | **[!DNL Manage datastream]**：讀取、建立和編輯資料串流。</br>**[!DNL View datastream]**：資料串流的唯讀存取權。 |
 | 資料控管 | **[!DNL Manage usage labels]**：讀取、建立、編輯和刪除標籤。</br>**[!DNL Manage data usage policies]**：讀取、建立、編輯和刪除資料使用原則。</br>**[!DNL View data usage policies]**：屬於您組織的資料使用原則的唯讀存取權。</br>**[!DNL View user activity log]**：以唯讀許可權檢視Platform活動記錄的稽核記錄。 |
