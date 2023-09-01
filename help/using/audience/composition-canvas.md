@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
+source-git-commit: a6e46e7ff5a84ebb59dcb7825fa71df09b0f9a98
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 31%
+source-wordcount: '1482'
+ht-degree: 30%
 
 ---
 
@@ -116,9 +116,13 @@ ht-degree: 31%
 
   選取要查詢的屬性，然後指定要排除的值。 在此範例中，我們將從首頁地址位於日本的構成設定檔中排除。
 
+  >[!NOTE]
+  >
+  >只能指定一個排除值。
+
   ![](assets/audiences-exclude-attribute.png)
 
-### 擴充 {#enrich}
+### 擴充活動 {#enrich}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
@@ -220,9 +224,16 @@ ht-degree: 31%
 
   ![](assets/audiences-split.png)
 
-  >[!NOTE]
-  >
-  >此 **[!UICONTROL 其他設定檔]** 選項可讓您使用不符合其他路徑中指定的任何條件的剩餘設定檔來建立其他路徑。
+  設定以屬性為基礎的分割活動：
+
+   1. 按一下「 」旁的按鈕 **[!UICONTROL 屬性]** 欄位，以選擇要挑選作為條件的屬性。
+   1. 新增所需數量的路徑，然後為每個路徑指定標籤和值，以用於選取要包含在路徑中的設定檔。
+
+      >[!NOTE]
+      >
+      >每個路徑只能指定一個值。
+
+   1. 切換至 **[!UICONTROL 其他設定檔]** 選項來建立其他路徑，其中剩餘的設定檔與其他路徑中指定的任何條件都不相符。
 
 ## 儲存您的對象 {#save}
 
