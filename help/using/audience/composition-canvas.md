@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: a6e46e7ff5a84ebb59dcb7825fa71df09b0f9a98
+source-git-commit: cfe7c04d6a45e468933a3e79f36365754d1e15d9
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1493'
 ht-degree: 30%
 
 ---
@@ -224,10 +224,10 @@ ht-degree: 30%
 
   ![](assets/audiences-split.png)
 
-  設定以屬性為基礎的分割活動：
+  若要設定以屬性為基礎的分割活動，請遵循下列步驟：
 
-   1. 按一下「 」旁的按鈕 **[!UICONTROL 屬性]** 欄位，以選擇要挑選作為條件的屬性。
-   1. 新增所需數量的路徑，然後為每個路徑指定標籤和值，以用於選取要包含在路徑中的設定檔。
+   1. 按一下位於旁的按鈕 **[!UICONTROL 屬性]** 欄位以選取要作為分割條件的屬性。
+   1. 視需要新增多個路徑。 針對每個路徑，提供標籤並指定用來決定應包含在該特定路徑中的設定檔的值。
 
       >[!NOTE]
       >
