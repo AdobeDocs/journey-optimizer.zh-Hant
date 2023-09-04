@@ -11,7 +11,7 @@ keywords: 種子清單，種子清單，種子，設定
 source-git-commit: f6708555d20fd04beb85574afd46e75be654d4e6
 workflow-type: tm+mt
 source-wordcount: '951'
-ht-degree: 5%
+ht-degree: 16%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->此功能目前僅適用於電子郵件頻道。
+>目前該功能僅適用於電子郵件頻道。
 >
 >目前不支援變體。 如同來自目標對象的每個設定檔，種子地址會收到每則訊息的單一副本，但並非同一訊息的所有變體(例如， [內容實驗](../campaigns/get-started-experiment.md))。
 
@@ -79,13 +79,13 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"
 >title="定義種子清單"
->abstract="使用種子清單來自動將特定內部地址新增至您的傳送對象，以利保證。 種子清單可讓您監視所傳送的訊息復本，以確保所有顯示元素正確無誤，並保護您的郵寄清單。 此功能目前僅適用於電子郵件頻道。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單？?"
+>abstract="為了保證傳遞目的，可使用種子清單自動將特定的內部地址新增到您的傳遞對象。 種子清單允許您監視發送出去的郵件副本，以確保所有顯示元素正確無誤並保護您的郵件清單。目前該功能僅適用於電子郵件頻道。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
->title="填入種子清單"
->abstract="選取將在傳送執行時包含的地址，這些地址將收到您訊息的精確副本。 您可以匯入 CSV 檔案或手動輸入電子郵件地址。"
+>title="填寫種子名單"
+>abstract="選取要在傳遞執行時包含在內並將收到您訊息的準確副本地址。您可以匯入 CSV 檔案或手動輸入電子郵件地址。"
 
 若要建立種子清單，請遵循下列步驟。
 

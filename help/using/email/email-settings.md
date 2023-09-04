@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
 workflow-type: tm+mt
 source-wordcount: '1967'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -187,16 +187,16 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="新增種子清單"
->abstract="選取您選擇的種子清單，以自動將特定內部地址新增到您的對象。 這些種子地址將在傳遞執行時包括在內，並將收到精確的訊息副本以供保證。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單？?"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=en#create-seed-list" text="建立種子清單"
+>abstract="選取您所選的種子清單，以自動向您的對象新增特定的內部地址。 這些種子地址將在傳遞執行時包含在內，且為了保證目的將收到一份準確的訊息副本。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hant#create-seed-list" text="建立種子清單"
 
 
 中的種子清單 [!DNL Journey Optimizer] 可讓您在傳送中自動包含特定的電子郵件種子地址。 [了解更多](../configuration/seed-lists.md)
 
 >[!CAUTION]
 >
->此功能目前僅適用於電子郵件頻道。
+>目前該功能僅適用於電子郵件頻道。
 
 選取與您相關的清單，在 **[!UICONTROL 種子清單]** 區段。 瞭解如何在中建立種子清單 [本節](../configuration/seed-lists.md#create-seed-list).
 
