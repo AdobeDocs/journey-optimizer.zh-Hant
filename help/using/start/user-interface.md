@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
-workflow-type: ht
+source-git-commit: b58bc332886e37b8d8eb2e439fd8ddb459dbe356
+workflow-type: tm+mt
 source-wordcount: '1283'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 原則]** - Adobe Experience Platform 可讓您為欄位加上標籤，並為每個頻道建立行銷動作。 然後，您會定義連結至標籤和行銷動作的治理政策。[了解更多](../action/action-privacy.md)
 
-* **[!UICONTROL 請求]** - 在 Adobe Experience Platform Privacy Service 中管理隱私權請求。 其提供 RESTful API 與使用者介面，幫助您管理客戶資料請求。 [了解更多](../privacy/requests.md)
+* **[!UICONTROL 請求]**  — 在Adobe Experience Platform Privacy Service中管理隱私權請求。 其提供 RESTful API 與使用者介面，幫助您管理客戶資料請求。 [了解更多](../privacy/requests.md)
 
 * **[!UICONTROL 稽核]** - 瀏覽至此區段以檢查活動記錄。 [了解更多](../privacy/audit-logs.md)
 
