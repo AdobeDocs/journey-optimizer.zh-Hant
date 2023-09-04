@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 以屬性為基礎的存取控制
+title: 屬性型存取控制
 description: 以屬性為基礎的存取控制(ABAC)可讓您定義授權，以管理特定團隊或使用者群組的資料存取。
 feature: Access Management
 topic: Administration
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ---
 
-# 以屬性為基礎的存取控制 {#attribute-based-access}
+# 屬性型存取控制 {#attribute-based-access}
 
 以屬性為基礎的存取控制(ABAC)可讓您定義授權，以管理特定團隊或使用者群組的資料存取。 其目的是保護敏感數位資產，使其免受未經授權使用者的侵害，進而保護個人資料。
 

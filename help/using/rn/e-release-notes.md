@@ -8,7 +8,7 @@ hidefromtoc: true
 source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 76%
 <tbody>
 <tr>
 <td>
-<p>現在您可在 Journey Optimizer 中建立和管理種子清單。 種子清單包含內部地址，可以新增到實際受眾，並在傳送執行時收到與目標設定檔完全相同的訊息。 使用此功能來監視傳送的通訊，並確保所有顯示格式、URL、影像和連結正確無誤。</p>
+<p>現在您可在 Journey Optimizer 中建立和管理種子清單。 種子清單包含內部地址 (可以新增到實際對象) 並在傳送執行時收到與目標設定檔完全相同的訊息。 使用此功能可監視所傳送的通訊，並確保所有顯示格式、URL、影像和連結均正確無誤。</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -102,5 +102,5 @@ ht-degree: 76%
 
 **直接郵件**
 
-* 現在可以在檔案路由設定中選取Azure做為伺服器型別。
-* &amp;現在可作為直接郵件表面設定中的欄分隔符號欄位使用。
+* 現在可以在檔案路由設定中選取 Azure 作為伺服器型別。 
+* ＆ 現在可作為直接郵件表面設定中的欄分隔符號欄位使用。 

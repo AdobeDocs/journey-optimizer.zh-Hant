@@ -12,7 +12,7 @@ keywords: 動作，協力廠商，自訂，歷程， API
 source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->此功能目前以私人測試版的形式提供。
+>此功能目前以 Private Beta 的形式提供。
 
 >[!WARNING]
 >

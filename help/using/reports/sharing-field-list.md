@@ -11,7 +11,7 @@ exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 18%
 | exportCountRealized | 整數 | 透過工作匯出的實際對象數量 |
 | exportCountFailed | 整數 | 透過工作匯出時失敗的對象數量 |
 | exportsegmentid | 字串 | 正在匯出之對象的識別碼 |
-| eventtype | 字串 | 事件型別，指出它是否為資訊事件的錯誤事件：資訊、錯誤 |
+| eventType | 字串 | 事件型別，指出它是否為資訊事件的錯誤事件：資訊、錯誤 |
 | eventcode | 字串 | 指示對應eventType原因的錯誤碼 |
 
 ## stepEvents {#stepevents-field}

@@ -1,5 +1,5 @@
 ---
-title: 建立直接郵件訊息
+title: 建立新的直接郵件訊息
 description: 瞭解如何在Journey Optimizer中建立直接郵件訊息
 feature: Overview
 topic: Content Management
@@ -10,11 +10,11 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
 source-wordcount: '560'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
-# 建立直接郵件訊息 {#create-direct}
+# 建立新的直接郵件訊息 {#create-direct}
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
