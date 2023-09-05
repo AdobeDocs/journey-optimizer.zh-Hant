@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
+source-git-commit: ea56d3cac5e4c4bc95560734fa3b9e8f410c8691
 workflow-type: tm+mt
-source-wordcount: '2472'
+source-wordcount: '2466'
 ht-degree: 4%
 
 ---
@@ -145,9 +145,9 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 此 **[!UICONTROL 電子郵件 — 追蹤統計資料]** widget包含可用於傳遞之收件者活動的資料：
 
-* **[!UICONTROL 開啟次數]**：傳遞在傳遞中開啟的次數。
+* **[!UICONTROL 開啟次數]**：電子郵件開啟的次數。
 
-* **[!UICONTROL 不重複開啟次數]**：已開啟傳遞的百分比。
+* **[!UICONTROL 不重複開啟次數]**：已開啟電子郵件的百分比。
 
 * **[!UICONTROL 開啟率]**：與已傳遞電子郵件數量相比較的已開啟電子郵件總數。
 
@@ -196,7 +196,9 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 此 **[!UICONTROL 已最佳化與未最佳化]** 圖表詳細說明與訊息相關的主要資訊，無論是否已最佳化：
 
 * **[!UICONTROL 已傳送]**：傳遞的傳送總數。
-* **[!UICONTROL 開啟次數]**：傳遞在傳遞中開啟的次數。
+
+* **[!UICONTROL 開啟次數]**：訊息開啟的次數。
+
 * **[!UICONTROL 點按次數]**：內容在電子郵件中的點按次數。
 
 此 **[!UICONTROL 傳送時間最佳化]** 根據傳送方式詳細說明您的傳送是否成功：已最佳化或正常。
