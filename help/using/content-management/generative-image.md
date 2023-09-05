@@ -10,7 +10,7 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 76eafb06b43d2964c4e85d1f77d35750f93eee0c
+source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 **目錄**
 
 * [開始使用內容助理](gs-generative.md)
-* [使用內容助理產生文字](generative-title.md)
+* [使用內容助理產生文字](generative-content.md)
 * **[使用內容助理產生影像](generative-image.md)**
 
 >[!ENDSHADEBOX]
