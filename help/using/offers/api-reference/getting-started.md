@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+source-git-commit: 4f2bbef98b2e529c2f6a663a3cf7e1ad5493c41a
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 6%
+source-wordcount: '349'
+ht-degree: 7%
 
 ---
 
@@ -39,99 +39,15 @@ ht-degree: 6%
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
 * `x-gw-ims-org-id: {IMS_ORG}`
+* `x-sandbox-name: {SANDBOX_NAME}`
 
 包含裝載(POST、PUT、PATCH)的所有請求都需要額外的標頭：
 
 * `Content-Type: application/json`
 
-## 管理對容器的存取 {#manage-access-to-container}
-
-容器是一種隔離機制，可隔離不同的關注點。 容器ID是所有存放庫API的第一個路徑元素。 所有決策物件都位於容器內。
-
-管理員可以將類似的主體、資源和存取許可權分組到設定檔中。 這能減輕管理負擔，並受到以下支援 [Adobe Admin Console](https://adminconsole.adobe.com/). 您必須是組織中Adobe Experience Platform的產品管理員，才能建立設定檔並將使用者指派給設定檔。 只需在一次性步驟中建立符合特定許可權的產品設定檔，然後只需將使用者新增到這些設定檔即可。 設定檔會作為已授予許可權的群組，而該群組中的每個實際使用者或技術使用者都會繼承這些許可權。
-
-授予管理員許可權，您可以透過授予或撤銷使用者許可權 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}. For more information, see the [Access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant){target="_blank"}.
-
-### 列出可供使用者和整合使用者存取的容器 {#list-containers-accessible-to-users-and-integrations}
-
-**API格式**
-
-```http
-GET /{ENDPOINT_PATH}?product={PRODUCT_CONTEXT}&property={PROPERTY}==decisioning
-```
-
-| 參數 | 說明 | 範例 |
-| --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{PRODUCT_CONTEXT}` | 依照容器與產品前後關聯的關聯來篩選容器清單。 | `acp` |
-| `{PROPERTY}` | 篩選傳回的容器型別。 | `_instance.containerType==decisioning` |
-
-**要求**
-
-```shell
-curl -X GET \
-  'https://platform.adobe.io/data/core/xcore/?product=acp&property=_instance.containerType==decisioning' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}'
-```
-
-**回應**
-
-成功的回應會傳回有關決定管理容器的資訊。 這包括 `instanceId` 屬性，的值為您的容器ID。
-
-```json
-{
-    "_embedded": {
-        "https://ns.adobe.com/experience/xcore/container": [
-            {
-                "instanceId": "{INSTANCE_ID}",
-                "schemas": [
-                    "https://ns.adobe.com/experience/xcore/container;version=0.5"
-                ],
-                "productContexts": [
-                    "acp"
-                ],
-                "repo:etag": 2,
-                "repo:createdDate": "2020-09-16T07:54:28.319959Z",
-                "repo:lastModifiedDate": "2020-09-16T07:54:32.098139Z",
-                "repo:createdBy": "{CREATED_BY}",
-                "repo:lastModifiedBy": "{MODIFIED_BY}",
-                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
-                "_instance": {
-                    "containerType": "decisioning",
-                    "repo:name": "{REPO_NAME}",
-                    "dataCenter": "{DATA_CENTER}",
-                    "parentName": "{PARENT_NAME}",
-                    "parentId": "{PARENT_ID}"
-                },
-                "_links": {
-                    "self": {
-                        "href": "/containers/{INSTANCE_ID}"
-                    }
-                }
-            }
-        ]
-    },
-    "_links": {
-        "self": {
-            "href": "/?product=acp&property=_instance.containerType==decisioning",
-            "@type": "https://ns.adobe.com/experience/xcore/hal/home"
-        }
-    }
-}
-```
-
 ## 後續步驟 {#next-steps}
 
-本檔案說明呼叫「 」所需的先決條件知識 [!DNL Offer Library] API，包括取得您的容器ID。 您現在可以繼續參閱本開發人員指南中提供的範例呼叫，並遵循其指示。
-<!--
->[!NOTE]
->
-> The In-app messaging channel in Adobe Journey Optimizer uses decision management objects. If your organization uses the in-app messaging channel, then API list requests for objects will include objects created by the in-app messaging service and can be ignored for decision management use cases. Objects created for in-app messages will have `createdBy = “Mobile_Sheliak”`.
--->
+本檔案說明呼叫「 」所需的先決條件知識 [!DNL Offer Library] API。 您現在可以繼續參閱本開發人員指南中提供的範例呼叫，並遵循其指示。
 
 ## 操作說明影片 {#video}
 
