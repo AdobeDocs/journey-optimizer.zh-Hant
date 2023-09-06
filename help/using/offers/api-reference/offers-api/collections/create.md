@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
-source-git-commit: 3568e86015ee7b2ec59a7fa95e042449fb5a0693
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '155'
 ht-degree: 9%
 
 ---
@@ -17,62 +17,62 @@ ht-degree: 9%
 
 集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
 
-您可以透過向以下發出POST請求來建立集合： [!DNL Offer Library] API。
+您可以透過向以下發出POST請求來建立集合： [!DNL Offer Library] API，同時提供容器ID。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示包含 *Content-Type* 請求標頭中的欄位：
+下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
 
 | 頁首名稱 | 值 |
 | ----------- | ----- |
-| Content-Type | `application/json` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
 
 **API格式**
 
 ```http
-POST /{ENDPOINT_PATH}/offer-collections
+POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 ```
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 持續性API的端點路徑。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 集合所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **要求**
 
 ```shell
-curl -X POST 'https://platform.adobe.io/data/core/offer-collections' \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}' \
--d '{
-    "name": "Test Collection with tags",
-    "filterType": "any-tags",
-    "ids": [
-        "tag1234"
-    ],
-    "labels": [
-        "core/C5",
-        "custom/myLabel"
-    ]
-}'
+curl -X POST \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Content-Type: application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}' \
+  -d '{
+        "xdm:name": "Offer Collection 1",
+        "xdm:filterType": "anyTags",
+        "xdm:ids": [
+            "xcore:tag:124e147572cd7866"
+        ]
+    }'
 ```
 
 **回應**
 
-成功的回應會傳回關於新建立集合的資訊，包括其唯一的 `id`. 您可以使用集合 `id` 在後續步驟中更新或刪除您的集合，或在稍後的教學課程中使用它來建立決定。
+成功的回應會傳回關於新建立集合的資訊，包括其唯一的執行個體ID和位置 `@id`. 您可在後續步驟中使用執行個體ID來更新或刪除您的集合。 您可以使用您的獨特集合 `@id` 在稍後的教學課程中建立決定。
 
 ```json
 {
-    "etag": 1,
-    "createdBy": "{CREATED_BY}",
-    "lastModifiedBy": "{MODIFIED_BY}",
-    "id": "{ID}",
-    "sandboxId": "{SANDBOX_ID}",
-    "createdDate": "2023-05-31T15:09:11.771Z",
-    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
-    "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "instanceId": "0bf31c20-13f1-11eb-a752-e58fd7dc4cb3",
+    "@id": "xcore:offer-filter:124e3594ce8b4930",
+    "repo:etag": 1,
+    "repo:createdDate": "2020-10-21T22:59:17.345797Z",
+    "repo:lastModifiedDate": "2020-10-21T22:59:17.345797Z",
+    "repo:createdBy": "{CREATED_BY}",
+    "repo:lastModifiedBy": "{MODIFIED_BY}",
+    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
