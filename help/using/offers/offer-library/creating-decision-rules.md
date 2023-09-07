@@ -6,20 +6,31 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: ce0cba88c5649b3efd557d6d539ffd7dc2c8f193
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 15%
+source-wordcount: '427'
+ht-degree: 12%
 
 ---
 
 # 建立決定規則 {#create-decision-rules}
+
+## 關於決定規則 {#about}
 
 您可以根據Adobe Experience Platform中的可用資料來建立優惠決定規則。 決定規則會決定要向誰顯示優惠方案。
 
 例如，您可以指定只在 (性別 =「女性」) 和 (地區 =「東北部」) 時顯示「女性冬季服裝優惠方案」。
 
 ➡️ [在影片中探索此功能](#video)
+
+以下是使用決定規則時應留意的限制清單：
+
+* 建立規則時，您可以使用歷史事件，但這些規則的使用時間存在限制。
+* 邊緣決定使用不會儲存事件的邊緣設定檔，因此邊緣決定中使用的任何規則都將無效。
+* 使用優惠決定的歷程不會檢視歷史事件，因此這些規則將無效。
+* 使用中心設定檔的決策請求會檢視設定檔上的最後100個體驗事件，以評估參考歷史體驗事件的規則。
+
+## 建立決定規則 {#create}
 
 建立的決定規則清單可在以下位置存取： **[!UICONTROL 元件]** 功能表。
 
