@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
+source-git-commit: cfa797146c4f6f87a55e72393f45c271480cf7f5
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1054'
 ht-degree: 11%
 
 ---
@@ -107,13 +107,15 @@ ht-degree: 11%
 
 使用Adobe時 [!DNL Journey Optimizer] Web設計工具如果嘗試載入無法載入的網站，會顯示一則訊息，建議您安裝 [Visual Editing Helper瀏覽器擴充功能](#install-visual-editing-helper).
 
-如果Visual Editing Helper瀏覽器擴充功能已正確安裝，但網站仍然無法載入或發生意外行為，可能的修正措施是在瀏覽器中開啟您的網站並接受Cookie，然後再嘗試將其載入到 [!DNL Journey Optimizer] 網頁設計工具。
+1. 請確定Visual Editing Helper瀏覽器擴充功能已正確安裝。
+
+1. 如果網站仍發生非預期的行為，請確定您的瀏覽器允許第三方Cookie，否則網頁無法在 [!DNL Journey Optimizer] 網頁設計工具。
 
 對於驗證下的頁面，如果登入頁面無法載入，或嘗試登入後您仍未登入：
 
-* 請嘗試先在新瀏覽器標籤中登入，並導覽至所需頁面，然後複製URL並嘗試在 [!DNL Journey Optimizer] 網頁設計工具。
+1. 請嘗試先在新瀏覽器標籤中登入，並導覽至所需頁面，然後複製URL並嘗試在 [!DNL Journey Optimizer] 網頁設計工具。
 
-* 如果您仍然無法在以下位置載入網站： [!DNL Journey Optimizer] 網頁設計工具請聯絡Adobe客戶服務以回報問題，並確認您指定了失敗的URL。
+2. 如果您仍然無法在以下位置載入網站： [!DNL Journey Optimizer] 網頁設計工具請聯絡Adobe客戶服務以回報問題，並確認您指定了失敗的URL。
 
 ## 傳遞必要條件 {#delivery-prerequisites}
 
