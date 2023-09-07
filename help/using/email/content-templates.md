@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: d5c9297ef3e504b0ef9462b30882cdc4dba5b106
+source-git-commit: 41d31d27a844f47d46a22b64802b716b9600c6c7
 workflow-type: tm+mt
 source-wordcount: '1113'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 12%
 
 例如，您公司內的使用者只負責內容，因此無權存取行銷活動或歷程。 不過，這類使用者可建立電子郵件範本，組織的行銷人員可選取該範本以用於所有電子郵件作為起點。
 
-您也可以使用API建立和管理內容範本。 有關詳細資訊，請參閱 [Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/).
+您也可以使用API建立和管理內容範本。 有關詳細資訊，請參閱 [Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/content/).
 
 ➡️ [透過此影片瞭解如何建立和使用範本](#video-templates)
 
