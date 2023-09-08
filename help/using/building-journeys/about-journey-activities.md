@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，活動，開始，事件，動作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 865f8c3a2a598bdb90ab3cb85104684c160a560f
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 18%
+source-wordcount: '536'
+ht-degree: 17%
 
 ---
 
@@ -71,6 +71,10 @@ ht-degree: 18%
 大部分活動都可讓您定義 **[!UICONTROL 標籤]**. 這會將尾碼新增至畫布中顯示在活動下方的名稱中。 如果您在歷程中多次使用相同的活動，且想要更輕鬆地識別它們，這會很有用。 它也會讓發生錯誤時的偵錯更容易，並讓報告更易於閱讀。 您也可以新增選用的 **[!UICONTROL 說明]**.
 
 ![](assets/journey-action-label.png)
+
+>[!NOTE]
+>
+>對於某些活動，其ID也會顯示在窗格中。 此ID可作為較標籤穩定的索引鍵用於報表，但標籤可能會變更。
 
 ### 管理進階引數 {#advanced-parameters}
 
