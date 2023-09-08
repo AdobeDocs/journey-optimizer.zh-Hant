@@ -3,13 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 關於歷程事件的ExperienceEvent結構
 description: 瞭解歷程事件的ExperienceEvent結構描述
-feature: Schemas
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: 結構描述， XDM，平台，串流，擷取，歷程
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 7e66450900d0625530025c6e17ef037e27da728e
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 4%
