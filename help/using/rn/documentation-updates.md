@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ce0cba88c5649b3efd557d6d539ffd7dc2c8f193
+source-git-commit: f6a9234b64247f7d1aef95eb3f1d1bf299be4710
 workflow-type: tm+mt
-source-wordcount: '3303'
-ht-degree: 99%
+source-wordcount: '3597'
+ht-degree: 92%
 
 ---
 
@@ -38,11 +38,15 @@ ht-degree: 99%
 * 已改善等待活動文件頁面，其中包含與全域逾時和重新登入使用方式相關的其他資訊和最佳實務。 [閱讀全文](../building-journeys/wait-activity.md)
 * 改善登入管理頁面。 [閱讀全文](../building-journeys/entry-management.md)
 * 已在讀取對象活動文件中新增節流率的相關資訊。 [閱讀全文](../building-journeys/read-audience.md)
+* 已新增有關重試的其他資訊。 [閱讀全文](../start/guardrails.md#general-actions-g)
 * 已更新&#x200B;**實施個人化同意**&#x200B;章節，以說明如何在行銷活動中手動強制執行個人化同意：您可以使用區段規則產生器，建立包含選擇退出設定檔的對象，或將分割活動新增至構成工作流程。 [閱讀全文](../privacy/opt-out.md#opt-out-expression-editor)
 
 ## 2023 年 6 月 {#june-2023}
 
 * 有關 [!DNL Journey Optimizer] 2023 年 6 月發行版本所有新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
+* 已在歷程概觀畫面中新增捨棄率比率的相關資訊。 [閱讀全文](../building-journeys/journey-gs.md#journey-access)
+* 已新增附註，其中包含建立事件後使用新列舉值修改綱要時應遵循的步驟 [閱讀全文](../event/about-creating.md)
+* 已新增建議，以在查詢歷程時使用journeyVersionID而非journeyVersionName。 [閱讀全文](../reports/sharing-common-fields.md#journeyversionid-field)
 * 評估準則順序的其他範例已新增至&#x200B;**建立決定**&#x200B;區段，以說明使用多個準則與多個決定範圍的案例。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
 * 「決策管理」文件已透過備註清楚說明，無法對動態集合使用物件層級存取控制。[閱讀全文](../offers/offer-library/creating-collections.md)
 
@@ -59,6 +63,9 @@ ht-degree: 99%
 ## 2023 年 4 月 {#apr-2023}
 
 * 有關 [!DNL Journey Optimizer]2023 年 4 月發行版本所有新功能和改進項目的詳情，請參閱本文件。[閱讀全文](release-notes.md)
+* 已新增附註，以指定無法移除內建動作。 [閱讀全文](../start/guardrails.md#custom-actions-g)
+* 已新增有關serviceEvents的資訊，以及查詢Example，以檢查serviceEvent的詳細資訊。 [閱讀全文](../reports/query-examples.md#common-queries)
+* 已新增附註，以指定您無法對時間序列執行查詢。 [閱讀全文](../building-journeys/condition-activity.md)
 * Adobe Experience Manager Assets Essentials 以及 Adobe Stock 已新增至多解決方案整合頁面。 [閱讀全文](../start/ajo-integrations.md)
 * 不允許的多層級電子郵件子網域警告已移除，因為現在已支援。[閱讀全文](../configuration/delegate-subdomain.md)
 * 已新增備註，以指定如果對歷程訊息中使用的優惠決定進行變更，您需要取消發佈歷程並重新發佈。[閱讀全文](../building-journeys/publishing-the-journey.md)
@@ -74,17 +81,28 @@ ht-degree: 99%
 * 在「決策管理指南」中已建立新區段，說明如何在 Adobe Experience Platform 收集 Offer Decisioning 意見回饋，包括顯示哪些優惠方案以及使用者如何與其進行互動。[閱讀全文](../offers/data-collection/data-collection.md)
 * 已將新子區段新增至&#x200B;**建立決策**&#x200B;區段，以說明按順序或同時評估標準之間的差異。[閱讀全文](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
 * 已為使用增量讀取方式的讀取對象歷程新增護欄。 您無法建立新版本，需要複製歷程。[閱讀全文](../start/guardrails.md#journey-versions-g)
+* 有關如何限制輸送量的使用案例已更新，其中包含節流功能的資訊。 [閱讀全文](../building-journeys/limit-throughput.md)
+* 已新增附註，以指定在回應裝載定義中不支援純量陣列。 [閱讀全文](../datasource/external-data-sources.md)
+* 已更新有關設定檔上限條件的區段。 [閱讀全文](../building-journeys/condition-activity.md#profile_cap)
 
 ## 2023 年 2 月 {#feb-2023}
 
 * 有關所有 [!DNL Journey Optimizer] 2023 年 2 月發行版本新功能及改進項目的詳情，請參閱本文件。[閱讀全文](release-notes.md)
+* 已新增畫布工具列的相關資訊。 [閱讀全文](../building-journeys/using-the-journey-designer.md#gs-journey-design)
+* 已新增資訊，以說明URL和API中不允許內部Adobe位址。 [閱讀全文](../start/guardrails.md)
 * API 觸發的行銷活動檔案中已新增附註，以指定傳入請求的內容屬性不得超過 50kb。[閱讀全文](../campaigns/api-triggered-campaigns.md#contextual)
 * 已新增有關在收件者透過登陸頁面取消訂閱後如何將選擇退出資訊儲存在&#x200B;**同意服務資料集**。 [閱讀全文](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023 年 1 月 {#jan-2023}
 
 * 有關所有 [!DNL Journey Optimizer]2023 年 1 月發行版本新功能及改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
+* 已在上限檔案的自訂驗證端點上新增資訊。 [閱讀全文](../configuration/external-systems.md)
+* 已在外部資料來源區段中新增新的自訂驗證範例。 [閱讀全文](../datasource/external-data-sources.md#custom-authentication-mode)
+* 已針對事件觸發的歷程，新增資料收集核心服務(DCCS)的相關備註。 [閱讀全文](../start/guardrails.md#events-g)
+* 已新增有關身分名稱空間擷取的附註，於 [讀取對象](../building-journeys/read-audience.md)， [區段資格](../building-journeys/segment-qualification-events.md) 和 [事件建立](../event/about-creating.md) 區段。
 * [!DNL Journey Optimizer]中的協助工具功能現在會分組至專用頁面。 [閱讀全文](../start/accessibility.md)
+* 已在進階運算式編輯器檔案的運運算元區段中更新範例。 [閱讀全文](../building-journeys/expression/operators.md)
+* 已新增附註，說明使用物件陣列進行查詢的限制。 [閱讀全文](../event/experience-event-schema.md#relationships_limitations)
 * 在[!DNL Journey Optimizer]中新增有關資料管理的新頁面。[閱讀全文](../data/gs-data.md)
 * 新增表格，列出使用 Decisioning API 傳送優惠時，回應中可傳回的所有程式碼。[閱讀全文](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
