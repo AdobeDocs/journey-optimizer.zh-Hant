@@ -4,7 +4,7 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f6a9234b64247f7d1aef95eb3f1d1bf299be4710
+source-git-commit: 605354d25e5d6f74a6a3119ab88ff4ed89aff883
 workflow-type: tm+mt
 source-wordcount: '3597'
 ht-degree: 92%
@@ -99,7 +99,7 @@ ht-degree: 92%
 * 已在上限檔案的自訂驗證端點上新增資訊。 [閱讀全文](../configuration/external-systems.md)
 * 已在外部資料來源區段中新增新的自訂驗證範例。 [閱讀全文](../datasource/external-data-sources.md#custom-authentication-mode)
 * 已針對事件觸發的歷程，新增資料收集核心服務(DCCS)的相關備註。 [閱讀全文](../start/guardrails.md#events-g)
-* 已新增有關身分名稱空間擷取的附註，於 [讀取對象](../building-journeys/read-audience.md)， [區段資格](../building-journeys/segment-qualification-events.md) 和 [事件建立](../event/about-creating.md) 區段。
+* 已新增有關身分名稱空間擷取的附註，於 [讀取對象](../building-journeys/read-audience.md)， [對象資格](../building-journeys/audience-qualification-events.md) 和 [事件建立](../event/about-creating.md) 區段。
 * [!DNL Journey Optimizer]中的協助工具功能現在會分組至專用頁面。 [閱讀全文](../start/accessibility.md)
 * 已在進階運算式編輯器檔案的運運算元區段中更新範例。 [閱讀全文](../building-journeys/expression/operators.md)
 * 已新增附註，說明使用物件陣列進行查詢的限制。 [閱讀全文](../event/experience-event-schema.md#relationships_limitations)
