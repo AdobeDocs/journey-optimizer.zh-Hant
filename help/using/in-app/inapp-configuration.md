@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: 應用程式內、訊息、設定、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
+source-git-commit: 6f92f9ce0a4785f0359658f00150d283f1326900
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 10%
+source-wordcount: '551'
+ht-degree: 8%
 
 ---
 
@@ -36,20 +36,47 @@ ht-degree: 10%
    >
    > 您需要 **管理應用程式設定** 存取的許可權 **[!UICONTROL 應用程式表面]** 功能表。 如需詳細資訊，請參閱 [此影片](#video).
 
-   >[!NOTE]
-   >
-   > 您需要 **管理應用程式設定** 存取的許可權 **[!UICONTROL 應用程式表面]** 功能表。 如需詳細資訊，請參閱 [此影片](#video).
-
    ![](assets/inapp_config_1.png)
 
 1. 將名稱新增至 **[!UICONTROL 應用程式表面]**.
 
+   ![](assets/inapp_config_2b.png)
 
-1. 從Apple iOS下拉式清單中，輸入 **iOS套件組合ID**. 請參閱 [Apple檔案](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) 如需詳細資訊，請參閱 **套件ID**.
+1. 從 **[!UICONTROL Apple iOS]** 下拉式清單，為Apple iOS設定您的行動應用程式。
 
-   ![](assets/inapp_config_2.png)
++++ 更多詳情
 
-1. 從Android下拉式清單，輸入 **Android套件名稱**. 請參閱 [Android檔案](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) 如需詳細資訊，請參閱 **封裝名稱**.
+   1. 輸入您的 **[!UICONTROL iOS套件組合ID]**. 請參閱 [Apple檔案](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) 如需詳細資訊，請參閱 **套件ID**.
+
+   1. （選擇性）選擇 **[!UICONTROL Sandbox]** 您要傳送推播通知的來源。 請注意，選擇特定沙箱需要必要的存取許可權。
+
+      如需沙箱管理的詳細資訊，請參閱 [此頁面](../administration/sandboxes.md#assign-sandboxes).
+
+   1. 啟用 **[!UICONTROL 推送認證]** 選項來視需要拖放您的.p8驗證金鑰檔案。
+
+      您也可以啟用 **[!UICONTROL 手動輸入推送認證]** 直接複製並貼上APN驗證金鑰的選項。
+
+   1. 輸入您的 **[!UICONTROL 金鑰ID]** 和 **[!UICONTROL 團隊ID]**.
+
+      ![](assets/inapp_config_2.png)
+
++++
+
+1. 從 **[!UICONTROL Android]** 下拉式清單，為Android設定您的行動應用程式。
+
++++ 更多詳情
+
+   1. 輸入您的 **[!UICONTROL Android套件名稱]**. 請參閱 [Android檔案](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) 如需詳細資訊，請參閱 **封裝名稱**.
+
+   1. （選擇性）選擇 **[!UICONTROL Sandbox]** 您要傳送推播通知的來源。 請注意，選擇特定沙箱需要必要的存取許可權。
+
+      如需沙箱管理的詳細資訊，請參閱 [此頁面](../administration/sandboxes.md#assign-sandboxes).
+
+   1. 啟用 **[!UICONTROL 推送認證]** 選項，可視需要拖放您的.json私密金鑰檔案。
+
+      您也可以啟用 **[!UICONTROL 手動輸入推送認證]** 直接複製並貼上FCM私密金鑰的選項。
+
+      ![](assets/inapp_config_7.png)
 
 1. 按一下 **[!UICONTROL 儲存]** 當您完成設定 **[!UICONTROL 應用程式表面]**.
 
