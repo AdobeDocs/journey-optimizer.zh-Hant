@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: d56053d9db3d7c07d629069c985640e694b32ce1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1296'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 ### 自訂動作 {#custom-actions-g}
 
 * 自訂動作 URL 不支援動態參數。
-* 支援POST、PUT和GET呼叫方法
+* 支援 POST、PUT 和 GET 呼叫方法
 * 查詢參數或標題的名稱不得以「.」開頭 或 &quot;$&quot;
 * 不允許使用 IP 位址
 * 內部 Adobe 地址 (`.adobe.*`) 不允許在 URL 及 API 中使用。
