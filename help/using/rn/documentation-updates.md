@@ -15,9 +15,9 @@ ht-degree: 92%
 
 本頁面列出 [!DNL Journey Optimizer] 所有文件更新。
 
-## 2023年9月(#september-2023)
+## 2023 年 9 月 (#september-2023)
 
-* 決策管理檔案中已新增建立決策規則時要注意的限制清單。 [閱讀全文](../offers/offer-library/creating-decision-rules.md)
+* 已在決策管理文件中新增建立決定規則時要注意的限制清單。 [閱讀全文](../offers/offer-library/creating-decision-rules.md)
 
 ## 2023 年 8 月 {#august-2023}
 
