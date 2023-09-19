@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 4aea5c1434caa07aad26445c49a3d5c6274502ec
+source-git-commit: 9b7280c33ce8238b54f7fd1865545f865ffb72ed
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 6%
+source-wordcount: '339'
+ht-degree: 5%
 
 ---
 
@@ -66,6 +66,4 @@ Experience Decisioning透過提供稱為「決策專案」的行銷優惠集中�
 
 1. **將決定原則內嵌至程式碼型行銷活動中**：決定原則會結合多個選取策略，以決定要向預期對象顯示的合格決定專案。
 
-## 字彙
-
-Brandon提供條款。
+<!--## Glossary-->
