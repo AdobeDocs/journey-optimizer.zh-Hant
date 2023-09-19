@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5b69e8d8539e37f42d44383e32b85e651e412937
+source-git-commit: 4aea5c1434caa07aad26445c49a3d5c6274502ec
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 100%
+source-wordcount: '1470'
+ht-degree: 96%
 
 ---
 
@@ -229,12 +229,17 @@ ht-degree: 100%
    + [建立直接郵件](using/direct-mail/create-direct-mail.md)
    + [測試並傳送直接郵件訊息](using/direct-mail/test-send-direct-mail.md)
    + [設定直接郵件](using/direct-mail/direct-mail-configuration.md)
-+ 網路頻道{#web}
++ 網路頻道 {#web}
    + [開始使用網路頻道](using/web/get-started-web.md)
    + [網路頻道先決條件](using/web/web-prerequisites.md)
    + [建立網站體驗](using/web/create-web.md)
    + [製作網頁](using/web/author-web.md)
    + [設定網路子網域](using/web/web-delegated-subdomains.md)
++ 程式碼型體驗 {#code-based-experience}
+   + [開始使用程式碼型管道](using/code-based/get-started-code-based.md)
+   + [程式碼型必要條件](using/code-based/code-based-prerequisites.md)
+   + [程式碼型實施範例](using/code-based/code-based-implementation-samples.md)
+   + [建立程式碼型體驗](using/code-based/create-code-based.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
    + [建立登陸頁面](using/landing-pages/create-lp.md)
@@ -426,6 +431,17 @@ ht-degree: 100%
          + [決策 API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [邊緣決策 API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [批次決策 API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
++ 體驗決策 {#experience-decisioning}
+   + [開始使用體驗決策](using/experience-decisioning/gs-experience-decisioning.md)
+   + 管理您的決定專案 {#decision-items}
+      + [設定專案目錄](using/experience-decisioning/catalogs.md)
+      + [建立決定專案](using/experience-decisioning/items.md)
+      + [管理專案集合](using/experience-decisioning/collections.md)
+   + 設定專案的選取範圍 {#selection}
+      + [建立決定規則](using/experience-decisioning/rules.md)
+      + [建立排名方法](using/experience-decisioning/ranking.md)
+   + [建立選取策略](using/experience-decisioning/selection-strategies.md)
+   + [建立決定原則](using/experience-decisioning/create-decision.md)
 + 資料管理 {#data-management}
    + [開始使用資料管理](using/data/gs-data.md)
    + [使用方案](using/data/get-started-schemas.md)
