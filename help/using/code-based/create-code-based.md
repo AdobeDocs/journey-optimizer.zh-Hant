@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: 3a2c9e34790aaf6d96d89244e66deb200d844564
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1001'
 ht-degree: 3%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 3%
 >id="ajo_code_based_experience"
 >title="使用程式碼編輯器"
 >abstract="插入並編輯您要在這個程式碼型體驗動作中傳送的程式碼。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/personalization/build-expressions/expression-editor/personalization-build-expressions.html" text="開始使用運算式編輯器"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="開始使用運算式編輯器"
 
 1. 在行銷活動版本畫面中，選取 **[!UICONTROL 編輯程式碼]**.
 
