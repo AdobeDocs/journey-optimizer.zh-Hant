@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4aea5c1434caa07aad26445c49a3d5c6274502ec
+source-git-commit: decf400bbdc0a063bd1714c6ce01595ef7fb222a
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1466'
 ht-degree: 96%
 
 ---
@@ -260,30 +260,28 @@ ht-degree: 96%
       + [開始使用內容助理](using/content-management/gs-generative.md)
       + [內容產生](using/content-management/generative-content.md)
       + [影像產生](using/content-management/generative-image.md)
-+ 個人化和動態內容 {#personalized-dynamic-content}
    + 個人化 {#personalization}
       + [開始使用個人化](using/personalization/personalize.md)
       + [個人化內容](using/personalization/personalization-contexts.md)
-      + 建立運算式 {#build-expressions}
-         + [個人化語法](using/personalization/personalization-syntax.md)
-         + 使用運算式編輯器 {#expression-editor}
-            + [關於運算式編輯器](using/personalization/personalization-build-expressions.md)
-            + [將屬性加入我的最愛](using/personalization/personalization-favorites.md)
-            + [使用儲存的運算式](using/personalization/personalization-library.md)
-            + [個人化驗證](using/personalization/personalization-validation.md)
-         + 輔助函式{#functions}
-            + [開始使用輔助函式](using/personalization/functions/functions.md)
-            + [聚合函式](using/personalization/functions/aggregation.md)
-            + [算術函式](using/personalization/functions/arithmetic-functions.md)
-            + [陣列和清單功能](using/personalization/functions/arrays-list.md)
-            + [日期函式](using/personalization/functions/dates.md)
-            + [布林值和比較函式](using/personalization/functions/operators.md)
-            + [輔助程式](using/personalization/functions/helpers.md)
-            + [地圖函式](using/personalization/functions/maps.md)
-            + [數學函式](using/personalization/functions/math.md)
-            + [物件函式](using/personalization/functions/objects.md)
-            + [字串函式](using/personalization/functions/string.md)
-      + 使用案例{#personalization-use-cases}
+      + [個人化語法](using/personalization/personalization-syntax.md)
+      + 使用運算式編輯器 {#expression-editor}
+         + [關於運算式編輯器](using/personalization/personalization-build-expressions.md)
+         + [將屬性加入我的最愛](using/personalization/personalization-favorites.md)
+         + [使用儲存的運算式](using/personalization/personalization-library.md)
+         + [個人化驗證](using/personalization/personalization-validation.md)
+      + 輔助函式{#functions}
+         + [開始使用輔助函式](using/personalization/functions/functions.md)
+         + [聚合函式](using/personalization/functions/aggregation.md)
+         + [算術函式](using/personalization/functions/arithmetic-functions.md)
+         + [陣列和清單功能](using/personalization/functions/arrays-list.md)
+         + [日期函式](using/personalization/functions/dates.md)
+         + [布林值和比較函式](using/personalization/functions/operators.md)
+         + [輔助程式](using/personalization/functions/helpers.md)
+         + [地圖函式](using/personalization/functions/maps.md)
+         + [數學函式](using/personalization/functions/math.md)
+         + [物件函式](using/personalization/functions/objects.md)
+         + [字串函式](using/personalization/functions/string.md)
+      + Personalization 使用案例{#personalization-use-cases}
          + [訂單狀態通知](using/personalization/personalization-use-case.md)
          + [放棄購物車電子郵件](using/personalization/personalization-use-case-helper-functions.md)
    + 動態內容 {#dynamic}
