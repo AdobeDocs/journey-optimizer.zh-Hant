@@ -5,10 +5,10 @@ title: 發行說明
 description: Journey Optimizer 搶先發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: 2e9a7bd5244feddddefb531dab42a25cf5935bcf
+source-git-commit: e5e4825996359cbe6c5bf0a06fc32a2ef116d906
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 29%
+source-wordcount: '540'
+ht-degree: 22%
 
 ---
 
@@ -26,20 +26,6 @@ ht-degree: 29%
 
 此發行版本提供下列新功能。
 
-<table>
-<thead>
-<tr>
-<th><strong>每個沙箱行動應用程式憑證儲存</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>此新功能可讓您輕鬆管理推送認證，並將其與應用程式介面中的專用沙箱建立關聯。</p>
-<p>如需詳細資訊，請參閱<a href="../in-app/inapp-configuration.md">詳細文件</a>。</p>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -75,6 +61,20 @@ ht-degree: 29%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>每個沙箱行動應用程式憑證儲存</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>此新功能可讓您輕鬆管理推送認證，並將其與應用程式介面中的專用沙箱建立關聯。</p>
+<p>如需詳細資訊，請參閱<a href="../in-app/inapp-configuration.md">詳細文件</a>。</p>
+</tr>
+</tbody>
+</table>
 
 ### 改進項目 {#sept-2023-improvements}
 
@@ -83,7 +83,7 @@ ht-degree: 29%
 **對象**
 
 * 您現在可以將從CSV檔案上傳的受眾鎖定在歷程和行銷活動中。
-* 已增強歷程或行銷活動中的對象選取器功能，新增數欄顯示對象的來源與更新頻率。
+  <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 * 您現在可以將構成工作流程產生的對象鎖定在歷程中。
 
 **個人化**
@@ -111,6 +111,6 @@ ht-degree: 29%
 
 電子郵件表面設定中的新選項可讓您選擇傳送交易式訊息給設定檔，即使其電子郵件地址在Adobe Journey Optimizer隱藏清單中亦然。
 
-**決策管理**
+<!--**Decision management**
 
-已增強歷程或行銷活動中的對象選取器功能，新增數欄顯示對象的來源與更新頻率。
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
