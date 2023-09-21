@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、集區、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -58,25 +58,29 @@ ht-degree: 1%
 
    * 您無法選取其他IP熱身行銷活動中已使用的行銷活動。
 
-1. 適用於每個階段：
+1. 在 **[!UICONTROL 設定檔排除]** 區段，您可以看到該階段先前執行的設定檔一律被排除。 例如，如果在Run #1中，前4800位目標人物中涵蓋某個設定檔，系統會自動確保相同的設定檔不會在Run #2中收到電子郵件。
 
-   * **[!UICONTROL 設定檔排除]**  — 一律會排除該階段先前執行的設定檔。 例如，如果在執行#1，Leo被納入目標前6300人，則系統將自動確保Leo在執行中不會收到郵件#2
+1. 從 **[!UICONTROL 已排除行銷活動對象]** 區段，從其他區段選取對象 <!--executed/live?-->您要從目前階段排除的行銷活動。
 
-   * **[!UICONTROL 已排除行銷活動對象]**  — 從其他對象中選取對象 <!--executed/live?-->您要從目前階段排除的行銷活動。
+   ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
-     例如，您可能正在執行一個階段，並且由於任何原因必須分割它。 在這種情況下，在階段2中，您要將階段1中使用的行銷活動包含在此部分中，以便在階段2中，不包含先前來自階段1的聯絡人。 不只可以在相同IP熱身計畫中使用的行銷活動，也可以從其他IP熱身計畫完成此操作。
+   例如，在執行階段1時，您必須 [分割它](#split-phase) 因為任何原因。 因此，您可以排除階段1中使用的行銷活動，如此一來，先前從階段1聯絡的設定檔就不會包含在階段2中。 您也可以從其他IP熱身計畫中排除行銷活動。
 
-   * **[!UICONTROL 網域群組已排除]**  — 選取您要從該階段排除的網域，例如Gmail。 <!--??-->
+1. 從 **[!UICONTROL 網域群組已排除]** 區段中，選取要從該階段排除的網域。
 
-     執行IP熱身幾天後，您發現某個網域的ISP信譽指出了Hotmail不好，而您想要透過ISP解決這個問題，但不想停止IP熱身計畫。 在這種情況下，您可以將網域群組hotmail放在排除的類別中。
+   ![](assets/ip-warmup-plan-exclude-domains.png)
 
-     >[!NOTE]
-     >
-     >網域排除需要非執行的階段，因此您可能必須分割執行中的階段才能新增排除。 同樣地，如果網域群組不是OOTB網域群組，則您可能必須在Excel中建立網域群組，並上傳然後排除相同的群組。
+   例如，執行IP熱身幾天後，您意識到網域(即Adobe)的ISP信譽不好，您想要在不停止IP熱身計畫的情況下解決它。 在這種情況下，您可以排除Adobe網域群組。
+
+   >[!NOTE]
+   >
+   >網域排除需要非執行階段，因此您可能必須分割執行階段才能新增排除專案。 同樣地，如果網域群組不是OOTB網域群組，您需要將此網域群組新增至Excel檔案、上傳該網域群組，然後排除該網域。
 
    ![](assets/ip-warmup-plan-phase-1.png)
 
-1. 您可以視需要新增階段 — 它會在目前的最後一個階段之後新增。 使用 **[!UICONTROL 刪除階段]** 按鈕來移除任何不想要的階段。
+1. 您可以視需要新增階段。 它將在目前的最後一個階段之後新增。
+
+1. 使用 **[!UICONTROL 刪除階段]** 按鈕來移除任何不想要的階段。
 
    ![](assets/ip-warmup-plan-add-delete-phases.png)
 
@@ -92,7 +96,7 @@ ht-degree: 1%
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 選取結束時間，這基本上代表我們可以執行預熱行銷活動的視窗，以防對象工作有任何延遲。 如果未指定，我們會在開始時間嘗試但會失敗。 如果有提供結束時間，我們將會在該視窗之間執行執行。
+1. 選取結束時間，這會定義在對象細分工作執行發生任何延遲時，IP熱身行銷活動可以執行的視窗。 如果未指定結束時間，則會在開始時間嘗試執行，如果未完成分段，則執行會失敗。
 
 1. 啟動每次執行。 請確定您排程的時間夠早，以允許執行細分工作。 <!--explain how you can evaluate a proper time-->
 
@@ -100,11 +104,13 @@ ht-degree: 1%
    >
    >每次執行必須在實際傳送時間前至少12小時啟動。 否則，可能無法完成分段。 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
-<!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
+   <!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
 
 1. 如果行銷活動尚未開始，您可以停止執行。<!--why?-->
 
-   行銷活動開始執行後， **[!UICONTROL 停止]** 按鈕變為無法使用。 <!--TBC in UI-->
+   >[!NOTE]
+   >
+   >行銷活動開始執行後， **[!UICONTROL 停止]** 按鈕變為無法使用。 <!--TBC in UI-->
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
@@ -112,9 +118,13 @@ ht-degree: 1%
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
-1. 在任何時候，如果您想要使用從特定執行開始的不同行銷活動，請選取 **[!UICONTROL 分割至新階段選項]** 從三個點的圖示。 系統會為目前階段的剩餘執行建立一個新階段。 請依照步驟操作 [以上](#define-phases) 以定義新階段。
+## 分割階段 {#split-phase}
 
-   例如，如果您為執行#4選取此選項，則#8執行的執#4將移至新階段。
+在任何時候，如果您想要使用從特定執行開始的不同行銷活動，請選取 **[!UICONTROL 分割至新階段選項]** 從三個點的圖示。
+
+系統會為目前階段的剩餘執行建立一個新階段。 請依照步驟操作 [以上](#define-phases) 以定義新階段。
+
+例如，如果您為「執行#4」選取此選項，則#8要執行的執行#4位將移至新階段。
 
 <!--
 You don't have to decide the campaign upfront. You can do a split later. It's a work in progress plan: you activate one run at a time with a campaign and you always have the flexibility to modify it while working on it.
