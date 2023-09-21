@@ -5,10 +5,10 @@ title: 發行說明
 description: Journey Optimizer 搶先發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: b0a842232259ef2b1b930927a8c61c32bfc45123
+source-git-commit: 2fb87752a3f9190a5e9b885f102423827545f9fe
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 39%
+source-wordcount: '517'
+ht-degree: 38%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 39%
 <td>
 <p>管道報表功能為分析師和行銷人員提供管道層級流量和參與量度的全面概觀。 若要存取「報表」功能表，您必須擁有**檢視管道報表**許可權。</p>
 <img src="assets/channel-reports.png"/>
-<p>如需詳細資訊，請參閱<a href="../in-app/get-started-in-app.md">詳細文件</a>。</p-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
 </table>
