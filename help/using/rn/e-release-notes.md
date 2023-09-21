@@ -5,10 +5,10 @@ title: 發行說明
 description: Journey Optimizer 搶先發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: 8aeb0c252a2c24442098fa1e88a75eb0e0a94d4e
+source-git-commit: 2e9a7bd5244feddddefb531dab42a25cf5935bcf
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 38%
+source-wordcount: '594'
+ht-degree: 29%
 
 ---
 
@@ -29,13 +29,28 @@ ht-degree: 38%
 <table>
 <thead>
 <tr>
+<th><strong>每個沙箱行動應用程式憑證儲存</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>此新功能可讓您輕鬆管理推送認證，並將其與應用程式介面中的專用沙箱建立關聯。</p>
+<p>如需詳細資訊，請參閱<a href="../in-app/inapp-configuration.md">詳細文件</a>。</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>合併的管道報表</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>管道報表功能為分析師和行銷人員提供管道層級流量和參與量度的全面概觀。 若要存取「報表」功能表，您必須擁有**檢視管道報表**許可權。</p>
+<p>管道報表功能為分析師和行銷人員提供管道層級流量和參與量度的全面概觀。 若要存取「報表」功能表，您必須擁有「檢視管道報表」許可權。</p>
 <img src="assets/channel-reports.png"/>
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
@@ -52,7 +67,7 @@ ht-degree: 38%
 <tbody>
 <tr>
 <td>
-<p>現在，使用者可普遍使用Journey Optimizer資料集匯出至雲端儲存目標。 此功能可讓您與雲端儲存空間位置建立即時連線，以匯出資料集的內容。 </p>
+<p>現在普遍提供匯出至雲端儲存空間目的地的Journey Optimizer資料集。 此功能可讓您與雲端儲存空間位置建立即時連線，以匯出資料集的內容。 </p>
 <img src="../data/assets/dataset-export-setup.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -78,7 +93,7 @@ ht-degree: 38%
 
 **警報**
 
-已引進新類型的系統警報。您現在可以在讀取區段失敗時收到通知。
+* 已引進兩種新型別的系統警示。 您現在可以在自訂動作或讀取區段失敗時收到通知。
 
 **網路頻道**
 
@@ -88,9 +103,9 @@ ht-degree: 38%
 
 **歷程**
 
-* 已引進新類型的系統警報。 您現在可以在自訂動作失敗時收到通知。
+* 自訂動作回應功能現在為GA。 這可讓您在自訂動作中運用API呼叫回應，並根據這些回應協調您的歷程。 此外，已新增護欄，以將所有海關動作限製為每個端點5000次呼叫/秒。
 * 複製歷程時，您現在可以定義歷程副本的名稱。
-
+* 您可在等待活動中定義的持續時間上限現在是29天，而不是30天。
 
 **電子郵件頻道**
 
