@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 7%
@@ -111,7 +111,7 @@ ht-degree: 7%
 * 更專注於行銷人員角色。
 
 **程式碼型體驗**
-* 使用編輯您的內容 [程式碼編輯器](create-code-based.md#edit-code).
+* 使用編輯您的內容 [運算式編輯器](create-code-based.md#edit-code).
 * 程式碼型體驗需要您先前在實作中的開發工作，以確保您的介面可透過以下方式解譯及傳遞發佈在邊緣的內容 [!DNL Journey Optimizer] 用於這些曲面。 [了解更多](#surface-definition)
 * 它需要更多規劃，而且只能變更開發人員指定的專案。 因此，必須識別元件（首頁橫幅、主圖影像、功能表列等） ，然後與您的開發團隊合作，建置處理這些變更所需的實作。
 * 它可讓您使用JSON程式碼內容。
@@ -133,7 +133,7 @@ ht-degree: 7%
 
 1. 定義 [表面](#surface-definition)，這是您新增程式碼型體驗並在中建立行銷活動的位置 [!DNL Journey Optimizer] 使用此曲面。 [了解作法](create-code-based.md#create-code-based-campaign)
 
-1. 使用為所選曲面指定內容來撰寫體驗 [!DNL Journey Optimizer] 程式碼編輯器。 [了解作法](create-code-based.md#edit-code)
+1. 使用為所選曲面指定內容來撰寫體驗 [!DNL Journey Optimizer] 運算式編輯器。 [了解作法](create-code-based.md#edit-code)
 
 1. 您的應用程式實作團隊會發出明確API或SDK呼叫，為已命名的表面擷取內容，例如「橫幅文字」或「Recommendations系統匣1」，或應用程式中與UI無關的決策點，例如「搜尋演演算法引數」。 在此情況下，實作團隊負責轉譯或解譯傳回的內容並採取行動。<!--TBC with Robert - should link to a new section with API/SDK call samples-->
 

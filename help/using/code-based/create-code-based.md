@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 3a2c9e34790aaf6d96d89244e66deb200d844564
+source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1007'
 ht-degree: 3%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
->title="使用程式碼編輯器"
+>title="使用運算式編輯器"
 >abstract="插入並編輯您要在這個程式碼型體驗動作中傳送的程式碼。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="開始使用運算式編輯器"
 
@@ -76,7 +76,7 @@ ht-degree: 3%
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. 程式碼編輯器隨即開啟。 這是非視覺化體驗建立介面。
+1. 此 [運算式編輯器](../personalization/personalization-build-expressions.md) 隨即開啟。 這是非視覺化體驗建立介面，可讓您編寫程式碼。
 
 1. 您可以將編寫模式從HTML切換為JSON，反之亦然。
 
@@ -84,7 +84,7 @@ ht-degree: 3%
    >
    >變更編寫模式將會遺失您目前的所有程式碼，因此在開始編寫之前，請務必切換模式。
 
-1. 視需要輸入您的程式碼。 程式碼編輯器會利用 [!DNL Journey Optimizer] 運算式編輯器及其所有個人化和編寫功能。 [了解更多](../personalization/personalization-build-expressions.md)
+1. 視需要輸入您的程式碼。 您可以善用 [!DNL Journey Optimizer] 運算式編輯器及其所有個人化和編寫功能。 [了解更多](../personalization/personalization-build-expressions.md)
 
    ![](assets/code-based-campaign-code-editor.png)
 
@@ -113,7 +113,7 @@ ht-degree: 3%
 >
 >您必須有可用的測試設定檔，以模擬將傳送給他們的優惠。 瞭解如何 [建立測試設定檔](../audience/creating-test-profiles.md).
 
-1. 在程式碼編輯器或編輯內容畫面中，選取 **[!UICONTROL 模擬內容]**.
+1. 從運算式編輯器或編輯內容畫面中，選取 **[!UICONTROL 模擬內容]**.
 
    ![](assets/code-based-campaign-simulate.png)
 
