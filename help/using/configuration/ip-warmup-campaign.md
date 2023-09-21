@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP、集區、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
-source-git-commit: d42284a73469b86d15e9f2237f4eeb3a8797584b
+source-git-commit: ea86d44f7c9309ff69877e01cea6a13e7907a039
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 3%
@@ -69,4 +69,5 @@ ht-degree: 3%
 
 有關如何設定行銷活動的詳細資訊，請參閱 [此頁面](../campaigns/get-started-with-campaigns.md).
 
-<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?>
+<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
+
