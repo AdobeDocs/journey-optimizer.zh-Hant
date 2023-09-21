@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP、集區、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: d42284a73469b86d15e9f2237f4eeb3a8797584b
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 3%
@@ -43,7 +43,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >瞭解如何選取要在電子郵件表面中使用的網域和IP [本節](using/email/email-settings.md#subdomains-and-ip-pools).
+   >瞭解如何選取要在電子郵件表面中使用的網域和IP [本節](../email/email-settings.md#subdomains-and-ip-pools).
 
 1. 建立 [行銷活動](../campaigns/create-campaign.md) 並選取 [電子郵件](../email/create-email.md#create-email-journey-campaign) 動作。
 
@@ -69,3 +69,4 @@ ht-degree: 3%
 
 有關如何設定行銷活動的詳細資訊，請參閱 [此頁面](../campaigns/get-started-with-campaigns.md).
 
+<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?>
