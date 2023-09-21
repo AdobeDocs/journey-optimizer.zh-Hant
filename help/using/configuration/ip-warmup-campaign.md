@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、集區、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '251'
 ht-degree: 3%
 
 ---
@@ -39,11 +39,17 @@ ht-degree: 3%
 
 若要建立IP熱身行銷活動，請遵循下列步驟。
 
-1. 建立 [表面](channel-surfaces.md) 用於您為預熱計畫識別的網域和IP。<!--how do you identify these or who does it at the customer level?-->
+1. 建立電子郵件 [表面](channel-surfaces.md) 用於您為預熱計畫識別的網域和IP。<!--how do you identify these or who does it at the customer level?-->
+
+   >[!NOTE]
+   >
+   >瞭解如何選取要在電子郵件表面中使用的網域和IP [本節](using/email/email-settings.md#subdomains-and-ip-pools).
 
 1. 建立 [行銷活動](../campaigns/create-campaign.md) 並選取 [電子郵件](../email/create-email.md#create-email-journey-campaign) 動作。
 
 1. 選取您為IP預熱建立的曲面。
+
+   ![](assets/ip-warmup-campaign-surface.png)
 
    <!--You must use the same surface as the one that will be used for the asociated IP warmup plan. [Learn how to create an IP warmup plan](#create-ip-warmup-plan)-->
 
@@ -53,7 +59,7 @@ ht-degree: 3%
 
    ![](assets/ip-warmup-campaign-plan-activation.png)
 
-   行銷活動 [排程](../campaigns/create-campaign.md#schedule) 將由與其相關聯的IP熱身計畫驅動，這表示排程不再於行銷活動本身中定義。
+   行銷活動 [排程](../campaigns/create-campaign.md#schedule) 將由以下驅動： [IP熱身計畫](ip-warmup-plan.md) 它會與相關聯，這表示排程不再於行銷活動本身中定義。
 
 1. [啟動](../campaigns/review-activate-campaign.md) 行銷活動。 一旦上線，就可在IP熱身計畫中使用。
 

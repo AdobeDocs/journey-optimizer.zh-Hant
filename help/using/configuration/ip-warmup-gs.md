@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、集區、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '283'
 ht-degree: 7%
 
 ---
@@ -73,4 +73,4 @@ Benefits
 
 1. 建立IP熱身計畫並上傳您的計畫。 [了解更多](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
-1. 調整計畫的每個階段並啟動執行。 [了解更多](ip-warmup-running.md)
+1. 為計畫的每個階段選取行銷活動，並啟動對應的執行。 [了解更多](ip-warmup-running.md)

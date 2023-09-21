@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、集區、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '566'
 ht-degree: 5%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 5%
 * [執行IP熱身計畫](ip-warmup-running.md)
 
 >[!ENDSHADEBOX]
+
+一旦您 [已建立一或多個行銷活動](ip-warmup-campaign.md) 啟用專用表面和IP熱身選項後，您就可以開始建立IP熱身計畫。
 
 ## 存取和管理IP熱身計畫 {#manage-ip-warmup-plans}
 
