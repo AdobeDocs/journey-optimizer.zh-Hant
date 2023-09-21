@@ -5,10 +5,10 @@ title: 發行說明
 description: Journey Optimizer 搶先發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: e5e4825996359cbe6c5bf0a06fc32a2ef116d906
+source-git-commit: 127e7cee6c474ba1e7519985e5c768be8abc6b20
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 22%
+source-wordcount: '529'
+ht-degree: 23%
 
 ---
 
@@ -83,8 +83,7 @@ ht-degree: 22%
 **對象**
 
 * 您現在可以將從CSV檔案上傳的受眾鎖定在歷程和行銷活動中。
-  <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
-* 您現在可以將構成工作流程產生的對象鎖定在歷程中。
+<!--* You can now target audiences resulting from composition workflows into journeys. -->
 
 **個人化**
 
