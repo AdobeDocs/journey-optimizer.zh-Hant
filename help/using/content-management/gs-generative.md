@@ -10,14 +10,20 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
+source-git-commit: b99d77138f22839b40414979d36e26d7304947b1
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '238'
 ht-degree: 100%
 
 ---
 
 # 開始使用內容助理 {#gs-content-assistant}
+
+>[!CONTEXTUALHELP]
+>id="ajo_content_generation"
+>title="建立該電子郵件內容"
+>abstract="Adobe Journey Optimier 內容助理可為文字和影像提供主動式內容變化建議。 其可用於電子郵件、推播、簡訊和 Web 管道。 這項新功能提供提示型文字與影像產生功能。 "
+
 
 >[!BEGINSHADEBOX]
 
