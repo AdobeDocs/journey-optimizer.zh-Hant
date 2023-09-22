@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: ae00c13e66247ba1e894609bec2bd21a44398431
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%
@@ -27,7 +27,7 @@ API觸發的行銷活動的可用管道包括電子郵件、簡訊和推播訊�
 
 >[!NOTE]
 >
->截至目前，推播通知API觸發的行銷活動不支援快速傳送。
+>截至目前，推播通知API觸發的行銷活動不支援快速傳送模式。
 
 ## 建立API觸發的行銷活動 {#create}
 
