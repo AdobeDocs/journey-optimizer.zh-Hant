@@ -5,10 +5,10 @@ title: 發行說明
 description: Journey Optimizer 搶先發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: 91d40b697b7f70f0b27454684e7a0bfa3e6488c6
+source-git-commit: 3df2e550c9ab2c83e6fa9c26dc62a882a523229a
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 24%
+source-wordcount: '586'
+ht-degree: 23%
 
 ---
 
@@ -113,6 +113,10 @@ ht-degree: 24%
 **電子郵件頻道**
 
 電子郵件表面設定中的新選項可讓您選擇傳送交易式訊息給設定檔，即使其電子郵件地址在Adobe Journey Optimizer隱藏清單中亦然。
+
+**簡訊頻道**
+
+兩個新欄位， **選擇加入訊息** 和 **說明訊息**，已新增至API設定畫面，可讓使用者自訂傳入關鍵字的回應。 請注意，這僅適用於Sinch SMS提供者。
 
 **報告**
 
