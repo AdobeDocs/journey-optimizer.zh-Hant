@@ -5,10 +5,10 @@ title: 發行說明
 description: Journey Optimizer 搶先發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: c9be63086b63fb5f4d6094d8bc7690464cf6b768
+source-git-commit: 91d40b697b7f70f0b27454684e7a0bfa3e6488c6
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 21%
+source-wordcount: '550'
+ht-degree: 24%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 21%
 
 **警報**
 
-* 已引進兩種新型別的系統警示。 您現在可以在自訂動作或讀取區段失敗時收到通知。
+* 已引進新類型的系統警報。您現在可以在讀取對象失敗時收到通知。
 
 **網路頻道**
 
@@ -103,13 +103,20 @@ ht-degree: 21%
 
 **歷程**
 
-* 自訂動作回應功能現在為GA。 這可讓您在自訂動作中運用API呼叫回應，並根據這些回應協調您的歷程。 此外，已新增護欄，以將所有海關動作限製為每個端點5000次呼叫/秒。
+* 自訂動作回應的支援現在為GA。 這可讓您在自訂動作中運用API呼叫回應，並根據這些回應協調您的歷程。 此外，已新增護欄，以將所有海關動作限製為每個端點5000次呼叫/秒。
 * 複製歷程時，您現在可以定義歷程副本的名稱。
-* 您可在等待活動中定義的持續時間上限現在是29天，而不是30天。
+
+<!--
+* The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
+-->
 
 **電子郵件頻道**
 
 電子郵件表面設定中的新選項可讓您選擇傳送交易式訊息給設定檔，即使其電子郵件地址在Adobe Journey Optimizer隱藏清單中亦然。
+
+**報告**
+
+您現在可以將Journey Optimizer報表匯出為CSV檔案。 [了解更多](../reports/global-report.md#export-reports)
 
 <!--**Decision management**
 
