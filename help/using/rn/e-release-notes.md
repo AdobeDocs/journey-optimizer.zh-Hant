@@ -5,10 +5,10 @@ title: 發行說明
 description: Journey Optimizer 搶先發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: 94f6a1ee3a226f22042776b2f8b3ffa99c61cc55
+source-git-commit: c9be63086b63fb5f4d6094d8bc7690464cf6b768
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 23%
+source-wordcount: '556'
+ht-degree: 21%
 
 ---
 
@@ -96,7 +96,8 @@ ht-degree: 23%
 
 **網路頻道**
 
-* 您現在可以選取要套用網頁修改的特定檢視。 檢視可定義為整個網站或網站上一組視覺元素，例如首頁、整個產品網站或所有結帳頁面上的傳遞偏好設定框架。
+* 單頁應用程式(SPA)現在可以在網頁視覺編輯器中編寫。 您現在可以選取要套用網頁修改的特定檢視。 檢視可定義為整個網站或網站上一組視覺元素，例如首頁、整個產品網站或所有結帳頁面上的傳遞偏好設定框架。 需要一次性開發人員設定，才能定義Adobe Experience Platform Web SDK實作中的檢視，讓行銷人員能夠在SPA上建立並執行Adobe Journey Optimizer網路行銷活動。
+
 * 使用Web設計工具編輯頁面時，您現在可以直接從「修改」窗格新增對內容的新變更，而無需從設計工具介面選取元件並進行編輯。
 * 設定網頁子網域時，除了使用已委派給Adobe的子網域外，您現在可以選擇新增自己的子網域。
 
