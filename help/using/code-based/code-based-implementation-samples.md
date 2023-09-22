@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 5%
@@ -271,7 +271,7 @@ Cookie可用來儲存使用者身分和叢集資訊。 使用伺服器端實作�
 
 ## 混合實施 {#hybrid-implementation}
 
-如果您採用混合式實作，請檢查下列連結。
+如果您採用混合式實作，請參閱下列連結。
 
 * Adobe技術部落格： [Adobe Experience Platform Web SDK中的混合個人化](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * SDK檔案： [使用Web SDK和Edge Network Server API的混合個人化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}

@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1242'
 ht-degree: 5%
 
 ---
@@ -181,11 +181,11 @@ ht-degree: 5%
 
 ## 在程式碼編輯器中使用決定原則 {#use-decision-policy}
 
-建立後，決策原則便可用於以下專案中 [程式碼編輯器](../code-based/create-code-based.md#edit-code). 若要執行此操作，請遵循下列步驟。
+建立後，決策原則便可用於以下專案中 [運算式編輯器](../code-based/create-code-based.md#edit-code). 若要執行此操作，請遵循下列步驟。
 
 >[!NOTE]
 >
->程式碼編輯器會利用 [!DNL Journey Optimizer] 運算式編輯器及其所有個人化和編寫功能。 [了解更多](../personalization/personalization-build-expressions.md)
+>程式碼型體驗會利用 [!DNL Journey Optimizer] 運算式編輯器及其所有個人化和編寫功能。 [了解更多](../personalization/personalization-build-expressions.md)
 
 1. 按一下+圖示。 已新增與決定原則對應的程式碼。 現在，您可以在該程式碼中新增所有需要的決定屬性。
 
@@ -197,7 +197,7 @@ ht-degree: 5%
 
 1. 按一下決定原則。 此時會顯示決定屬性。
 
-   這些屬性儲存在 **[!UICONTROL 選件]** 目錄的結構描述。 自訂屬性會儲存在 **_cjmstage** 資料夾和中的標準屬性 **體驗(_E)** 資料夾。 [進一步瞭解優惠方案目錄的結構描述](catalogs.md)
+   這些屬性儲存在 **[!UICONTROL 選件]** 目錄的結構描述。 自訂屬性會儲存在 **`_<imsOrg`>** 資料夾和中的標準屬性 **`_experience`** 資料夾。 [進一步瞭解優惠方案目錄的結構描述](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
 
