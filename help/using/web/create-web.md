@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 20%
+source-wordcount: '829'
+ht-degree: 18%
 
 ---
 
@@ -79,13 +79,44 @@ ht-degree: 20%
 
 有關如何設定行銷活動的詳細資訊，請參閱 [此頁面](../campaigns/get-started-with-campaigns.md).
 
+## 測試網站行銷活動 {#test-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_preview"
+>title="預覽您的網頁體驗"
+>abstract="取得您的網頁體驗的模擬。"
+
+一旦您 [已撰寫您的網頁體驗](edit-web-content.md) 使用網頁設計工具，您可以在啟用行銷活動之前顯示修改後網頁的預覽。 若要執行此操作，請遵循下列步驟。
+
+>[!CAUTION]
+>
+>您必須有可用的測試設定檔，以模擬將傳送給他們的優惠。 瞭解如何 [建立測試設定檔](../audience/creating-test-profiles.md).
+
+1. 從網站行銷活動編輯內容畫面或網站設計工具中，選取 **[!UICONTROL 模擬內容]**.
+
+   <!--![](assets/web-designer-simulate.png)-->
+
+   ![](assets/web-campaign-simulate.png)
+
+1. 按一下 **[!UICONTROL 管理測試設定檔]** 以選取一或多個測試設定檔。
+1. 系統會顯示已修改網頁的預覽。
+
+   ![](assets/web-designer-preview.png)
+
+1. 您也可以在預設瀏覽器中開啟測試網址，或複製測試URL以貼到任何瀏覽器中。 這可讓您與團隊和利害關係人共用連結，這些利害關係人將能夠在行銷活動上線之前在任何瀏覽器中預覽新的網頁體驗。
+
+   >[!NOTE]
+   >
+   >複製測試URL時，顯示的內容是在中產生內容模擬時所使用的測試設定檔的個人化內容 [!DNL Journey Optimizer].
+
 ## 啟動網站行銷活動 {#activate-web-campaign}
 
-定義您的 [網站行銷活動設定](#configure-web-campaign) 而且您已視需要使用 [網頁設計工具](author-web.md)，即可檢閱及啟動您的網路行銷活動。 請遵循下列步驟。
+定義您的 [網站行銷活動設定](#configure-web-campaign) 而且您已視需要使用 [網頁設計工具](edit-web-content.md#work-with-web-designer)，即可檢閱及啟動您的網路行銷活動。 請遵循下列步驟。
 
+<!--
 >[!NOTE]
 >
->您也可以在啟用網站行銷活動內容之前先預覽該內容。 [了解更多](author-web.md#test-web-campaign)
+>You can also preview your web campaign content before activating it. [Learn more](#test-web-campaign)-->
 
 1. 從您的網路行銷活動中，選取 **[!UICONTROL 檢閱以啟動]**.
 

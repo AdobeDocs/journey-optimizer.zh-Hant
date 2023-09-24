@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1172'
 ht-degree: 7%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 7%
 
 * 若您的數位屬性並未透過網頁瀏覽器或行動應用程式進行存取，您可以隨時考慮使用程式碼型體驗，在這樣的情況下，您可能可以更好地使用 [!DNL Journey Optimizer] [Web channel](../web/get-started-web.md){target="_blank"} or the [!DNL Journey Optimizer] [in-app messaging](../in-app/get-started-in-app.md){target="_blank"} 頻道。
 
-* 您可以使用程式碼型管道做為 [!DNL Journey Optimizer] 如果網站無法載入到web channel [網頁視覺化編輯器](../web/author-web.md){target="_blank"} or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} 可支援Web Channel的視覺化撰寫。
+* 您可以使用程式碼型管道做為 [!DNL Journey Optimizer] 如果網站無法載入到web channel [網頁設計工具](../web/edit-web-content.md#work-with-web-designer){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} 可支援Web Channel的視覺化撰寫。
 
 * 您也可以使用程式碼型管道做為 [!DNL Journey Optimizer] 網頁或應用程式內頻道，以備您採用API型、Headless或伺服器端實作時使用。
 
@@ -104,9 +104,9 @@ ht-degree: 7%
 若要執行Web使用案例，您可以使用Web Channel或程式碼型體驗，但根據您的內容，一種可能比另一種更適合。 主要差異如下所列，以便您能夠針對何時使用做出明智的決策。
 
 **Web**
-* 使用編輯您的內容 [視覺化編輯器](../web/author-web.md){target="_blank"}.
+* 使用編輯您的內容 [網頁設計工具](../web/edit-web-content.md#work-with-web-designer){target="_blank"} 視覺化編輯器。
 * 您需要 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant){target="_blank"} implementation and the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}
-* Web Channel可讓您修改頁面上的所有內容，並具備可用來變更的預先定義動作清單。 [了解更多](../web/author-web.md){target="_blank"}
+* Web Channel可讓您修改頁面上的所有內容，並具備可用來變更的預先定義動作清單。 [了解更多](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
 * 設定容易，快速上線。
 * 更專注於行銷人員角色。
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: cfa797146c4f6f87a55e72393f45c271480cf7f5
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 11%
@@ -85,13 +85,7 @@ ht-degree: 11%
 
    ![](assets/web-visual-editing-extension-edge.png)
 
-<!--1. Launch [!DNL Journey Optimizer] in a new tab of your browser with the extension installed.
-
-1. Create a web channel campaign in [!DNL Journey Optimizer]. [Learn how](author-web.md#create-web-campaign)
-
-1. Open the [!DNL Journey Optimizer] web designer to start authoring your web experience. [Learn more](author-web.md)-->
-
-現在，在中開啟網站時，會自動啟用Adobe Experience Cloud Visual Editing Helper。 [!DNL Journey Optimizer] 網頁設計工具以支援撰寫。
+現在，在中開啟網站時，會自動啟用Adobe Experience Cloud Visual Editing Helper。 [!DNL Journey Optimizer] [網頁設計工具](edit-web-content.md#work-with-web-designer) 以支援撰寫。
 
 擴充功能沒有任何條件設定，且會自動處理所有設定，包括SameSite Cookie設定。
 
