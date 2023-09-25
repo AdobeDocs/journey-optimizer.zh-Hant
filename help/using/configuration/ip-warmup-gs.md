@@ -7,12 +7,12 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Experienced
-keywords: IP、集區、群組、子網域、傳遞能力
+keywords: IP、傳遞能力
 hide: true
 hidefromtoc: true
-source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '295'
 ht-degree: 7%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 7%
 * **[開始使用IP熱身](ip-warmup-gs.md)**
 * [建立IP熱身行銷活動](ip-warmup-campaign.md)
 * [建立IP熱身計畫](ip-warmup-plan.md)
-* [執行IP熱身計畫](ip-warmup-running.md)
+* [執行IP熱身計畫](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ ht-degree: 7%
 
 使用新平台傳送電子郵件時，網際網路服務提供者(ISP)會懷疑無法辨識的IP位址。 如果突然傳送大量電子郵件，ISP通常會將其標籤為垃圾郵件。
 
-為避免被標籤為垃圾訊息，您可以使用IP熱身計畫功能逐步增加傳送量。 中的新選項 **[!UICONTROL 管理]** 功能表可讓您更順利地執行，而不是建立複雜的每日歷程。 這應該可以確保啟動階段的順利發展，並且讓您降低無效的位址的整體比率。
+為避免被標籤為垃圾訊息，您可以使用IP熱身計畫功能逐步增加傳送量。 此新選項位於 **[!UICONTROL 管理]** 功能表可讓您以整合的方式更輕鬆地操作，而不是建立複雜的每日歷程。 這應該可以確保啟動階段的順利發展，並且讓您降低無效的位址的整體比率。
 
 >[!NOTE]
 >
@@ -69,8 +69,8 @@ Benefits
 
 實施IP熱身計畫的關鍵步驟如下：
 
-1. 您必須先建立一或多個啟用IP熱身選項的促銷活動。 [了解更多](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
+1. 您必須先建立一或多個啟用IP熱身選項的促銷活動。 [了解更多](ip-warmup-campaign.md)
 
-1. 在中建立IP熱身計畫 [!DNL Journey Optimizer] 並上傳先前填入IP熱身資料的Excel工作表。 [了解更多](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. 在中建立IP熱身計畫 [!DNL Journey Optimizer] 並上傳在傳遞顧問協助下準備的Excel工作表。 [了解更多](ip-warmup-plan.md)
 
-1. 為計畫的每個階段選取行銷活動，並啟動對應的執行。 [了解更多](ip-warmup-running.md)
+1. 為計畫的每個階段選取行銷活動，並啟動對應的執行。 [了解更多](ip-warmup-execution.md)

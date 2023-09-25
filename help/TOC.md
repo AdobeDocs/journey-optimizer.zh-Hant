@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 94%
@@ -465,7 +465,7 @@ ht-degree: 94%
       + [開始使用IP熱身計畫](using/configuration/ip-warmup-gs.md)
       + [建立IP熱身行銷活動](using/configuration/ip-warmup-campaign.md)
       + [建立IP熱身計畫](using/configuration/ip-warmup-plan.md)
-      + [執行IP熱身計畫](using/configuration/ip-warmup-running.md)
+      + [執行IP熱身計畫](using/configuration/ip-warmup-execution.md)
    + 監視電子郵件地址 {#monitor-reputation}
       + [禁止名單](using/configuration/manage-suppression-list.md)
       + [重試次數](using/configuration/retries.md)

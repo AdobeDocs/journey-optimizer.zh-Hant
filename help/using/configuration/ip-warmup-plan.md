@@ -2,18 +2,18 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 建立IP熱身計畫
-description: 瞭解如何建立IP熱身計畫
+description: 瞭解如何在Journey Optimizer中建立IP熱身計畫
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Experienced
-keywords: IP、集區、群組、子網域、傳遞能力
+keywords: IP、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
-source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 5%
+source-wordcount: '825'
+ht-degree: 4%
 
 ---
 
@@ -26,15 +26,19 @@ ht-degree: 5%
 * [開始使用IP熱身](ip-warmup-gs.md)
 * [建立IP熱身行銷活動](ip-warmup-campaign.md)
 * **[建立IP熱身計畫](ip-warmup-plan.md)**
-* [執行IP熱身計畫](ip-warmup-running.md)
+* [執行IP熱身計畫](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
 建立一或多個 [IP熱身行銷活動](ip-warmup-campaign.md) 啟用專用表面並啟用對應的選項後，您就可以開始建立IP熱身計畫。
 
-## 填寫IP熱身範本 {#upload-plan}
+## 準備IP熱身計畫檔案 {#prepare-file}
 
-在Journey Optimizer介面中建立IP熱身計畫之前，您需要以Excel格式填寫範本，填入將供給您計畫的所有資料。
+IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要網際網路服務提供者(ISP)的電子郵件數量，以建立您作為合法傳送者的聲譽。
+
+此活動通常在傳遞能力專家的協助下執行，該專家會根據產業網域、使用案例、地區、ISP和各種其他因素，協助您準備完善的計畫。
+
+使用時 [!DNL Journey Optimizer] IP預熱功能，此計畫採用Excel檔案的形式，必須包含許多預先定義的欄。 在中建立IP熱身計畫之前 [!DNL Journey Optimizer] 介面，您必須填入此範本中所有可為您計畫提供摘要的資料。
 
 >[!CAUTION]
 >
@@ -46,19 +50,16 @@ ht-degree: 5%
 
 ### IP熱身計畫標籤
 
-IP熱身是一種活動，包括逐漸增加從您的IP和網域傳送到主要網際網路服務提供者(ISP)的電子郵件數量，以建立您作為合法傳送者的聲譽。
+* 在此範例中，已準備超過17天的計畫(稱為「**執行**「)達到超過100萬個設定檔的目標數量。
 
-本活動通常會由傳遞顧問或專家協助執行，該顧問或專家會根據產業網域、使用案例、地區、ISP和各種其他因素，準備經過深思熟慮的計畫。
+* 此計畫透過6執行 **階段**，每個檔案至少包含一個回合。
 
-* 在此範例中，已準備超過17天的計畫，並達到目標數量xxx個設定檔。
+* 您可以對要傳送至的網域擁有任意數目的欄。 在此範例中，計劃分為6個資料欄：其中5個對應至 **主要網域群組** 用於您的計畫(Gmail、Microsoft、Yahoo、Orange和Apple)和第六欄， **其他**，包含其他網域的所有剩餘位址。
+* 此 **參與天數** 欄會顯示僅鎖定過去30天內與您的品牌互動的設定檔。
 
-* 此計畫透過6個階段執行。
+我們的想法是逐步增加每個執行中的目標位址數量，同時減少每個階段的執行數量。
 
-* 您可以對要傳送至的網域擁有任意數目的欄。 在此範例中，計劃分為四個欄，對應於要在計畫中使用的網域群組：Gmail、Adobe、Yahoo和其他。
-
-我們的想法是在第一個階段有更多執行，並逐步增加目標位址的數量，同時減少執行次數。
-
-現成可用的網域清單如下：
+以下列出您可以新增到計畫中的現成主要網域群組：
 
 * Gmail
 * Adobe
@@ -78,9 +79,11 @@ IP熱身是一種活動，包括逐漸增加從您的IP和網域傳送到主要�
 
 ### 自訂網域群組標籤
 
-您也可以使用自訂網域群組新增更多欄。
+您也可以包含自訂網域群組，以新增更多欄到計畫中。
 
-使用 **[!UICONTROL 自訂網域群組]** 定位以定義新網域，並為每個網域新增其涵蓋的所有子網域。<!--TBC-->
+使用 **[!UICONTROL 自訂網域群組]** 標籤定義新的網域群組。 您可以為每個網域新增其涵蓋的所有子網域。<!--TBC-->
+
+例如，如果您新增自訂網域Luma，您希望加入下列子網域：luma.com、luma.co.uk、luma.it、luma.fr、luma.de等。
 
 ## 存取和管理IP熱身計畫 {#manage-ip-warmup-plans}
 
@@ -90,10 +93,10 @@ IP熱身是一種活動，包括逐漸增加從您的IP和網域傳送到主要�
 
 1. 您可以依狀態篩選。 不同的狀態包括：
 
-   * **尚未開始**：尚未啟用任何執行。 [了解更多](ip-warmup-running.md#define-runs)
-   * **進行中/即時**：計畫會在第一個階段中的第一次執行成功啟動後，立即採取此狀態。 [了解更多](ip-warmup-running.md#define-runs)
-   * **已完成**：計畫已標示為已完成。 只有在計畫中的所有執行都位於時，才能使用此選項 **[!UICONTROL 成功]** 或 **[!UICONTROL 草稿]** 狀態(無法執行 **[!UICONTROL 即時]**)。 [了解更多](ip-warmup-running.md#define-runs#mark-as-completed)
-   * **已暫停**<!--: to check (user action)-->
+   * **尚未開始**：尚未啟用任何執行。 [了解更多](ip-warmup-execution.md#define-runs)
+   * **即時**：成功啟用第一個階段中的第一次執行後，計畫就會變更為此狀態。 [了解更多](ip-warmup-execution.md#define-runs)
+   * **已完成**：計畫已標示為已完成。 只有在計畫中的所有執行都位於時，才能使用此選項 **[!UICONTROL 成功]** 或 **[!UICONTROL 草稿]** 狀態(無法執行 **[!UICONTROL 即時]**)。 [了解更多](ip-warmup-execution.md#define-runs#mark-as-completed)
+     <!--* **Paused**: to check (user action)-->
 
 1. 若要刪除IP熱身計畫，請選取 **[!UICONTROL 刪除]** 圖示並確認刪除。
 
@@ -122,8 +125,6 @@ IP熱身是一種活動，包括逐漸增加從您的IP和網域傳送到主要�
 >[!CAUTION]
 >
 >若要建立、編輯和刪除IP熱身計畫，您必須擁有 **[!UICONTROL 傳遞能力顧問]** 許可權。 <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
->
->請與您的傳遞顧問合作，確定您的IP熱身計畫範本已正確設定。 <!--TBC-->
 
 1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL IP熱身計畫]** 功能表，然後按一下 **[!UICONTROL 建立IP熱身計畫]**.
 
@@ -137,24 +138,15 @@ IP熱身是一種活動，包括逐漸增加從您的IP和網域傳送到主要�
 
    >[!CAUTION]
    >
-   >您必須選取與您要與IP熱身計畫關聯的行銷活動中選取的相同表面。 [瞭解如何建立IP熱身行銷活動](#create-ip-warmup-campaign)
+   >您必須選取與您要與IP熱身計畫關聯的行銷活動中選取的相同表面。 [瞭解如何建立IP熱身行銷活動](ip-warmup-campaign.md)
 
-1. 上傳包含IP熱身計畫的Excel檔案<!--which formats are allowed?-->. 您可以使用傳遞團隊提供的範本。<!--TBC?--> [了解更多](#upload-plan)
+1. 上傳包含IP熱身計畫的Excel檔案。 [了解更多](#prepare-file)
+
    <!--
     You can also download the Excel template from the [!DNL Journey Optimizer] user interface and upload it after filling it with the IP warmup details.-->
 
    ![](assets/ip-warmup-upload-success.png)
 
-1. 按一下&#x200B;**[!UICONTROL 建立]**。系統會自動顯示您上傳的檔案中定義的階段數，每個階段的所有執行都會顯示出來。 [了解更多](#upload-plan)
+1. 按一下&#x200B;**[!UICONTROL 建立]**。在您上傳的檔案中定義的所有階段、執行、欄及其內容會自動顯示在 [!DNL Journey Optimizer] 介面。 [了解更多](ip-warmup-execution.md)
 
-   ![](assets/ip-warmup-plan-phases.png)
-
-## 重新上傳IP熱身計畫 {#re-upload-plan}
-
-您可以使用對應的按鈕重新上傳另一個IP熱身計畫。
-
-![](assets/ip-warmup-re-upload-plan.png)
-
->[!NOTE]
->
->IP熱身計畫的詳細資訊會根據新上傳的檔案而變更。 完成執行和啟動的執行不受影響。
+   ![](assets/ip-warmup-plan-uploaded.png)

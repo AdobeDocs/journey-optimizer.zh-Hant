@@ -6,13 +6,13 @@ description: 瞭解如何建立IP熱身行銷活動
 feature: Application Settings
 topic: Administration
 role: Admin
-level: Experienced
-keywords: IP、集區、群組、子網域、傳遞能力
+level: Intermediate
+keywords: IP、集區、傳遞能力
 hide: true
 hidefromtoc: true
-source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '348'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
 >title="啟動IP熱身計畫選項"
->abstract="選取IP熱身計畫啟用選項。 行銷活動上線後，即可與IP熱身計畫建立關聯。"
+>abstract="選取此選項時，可以在IP熱身計畫中使用行銷活動。 接著，行銷活動排程將由相關聯的IP熱身計畫驅動。"
 
 >[!BEGINSHADEBOX]
 
@@ -31,7 +31,7 @@ ht-degree: 3%
 * [開始使用IP熱身](ip-warmup-gs.md)
 * **[建立IP熱身行銷活動](ip-warmup-campaign.md)**
 * [建立IP熱身計畫](ip-warmup-plan.md)
-* [執行IP熱身計畫](ip-warmup-running.md)
+* [執行IP熱身計畫](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ ht-degree: 3%
    >
    >瞭解如何選取要在電子郵件表面中使用的網域和IP [本節](../email/email-settings.md#subdomains-and-ip-pools).
    >
-   >如有需要，請與您的傳遞顧問合作，找出要用於IP熱身計畫的網域和IP。<!--TBC-->
+   >請與您的傳遞顧問合作，識別要用於IP熱身計畫的網域和IP。<!--TBC-->
 
 1. 建立 [行銷活動](../campaigns/create-campaign.md) 並選取 [電子郵件](../email/create-email.md#create-email-journey-campaign) 動作。
 
@@ -73,9 +73,9 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >對於已啟用IP熱身計畫的即時行銷活動， **[!UICONTROL 刪除]** 按鈕在與IP熱身計畫關聯之前可以使用。 此行銷活動一旦用於IP熱身計畫中，便無法再刪除。
+   >對於已啟用IP熱身計畫的即時行銷活動， **[!UICONTROL 刪除]** 按鈕在與IP熱身計畫關聯之前可以使用。 行銷活動在計畫中使用後，即無法再刪除。
 
-1. 行銷活動會顯示在中 **[!UICONTROL 行銷活動]** 清單。 若要輕鬆擷取在目前沙箱中建立的所有IP熱身行銷活動，您可以對行銷活動選項進行篩選 **[!UICONTROL IP熱身]**.
+1. 行銷活動會顯示在中 **[!UICONTROL 行銷活動]** 清單。 若要輕鬆擷取在目前沙箱中建立的所有IP熱身行銷活動，您可以篩選 **[!UICONTROL IP熱身]** 行銷活動選項。
 
    ![](assets/ip-warmup-campaign-filter.png)
 
