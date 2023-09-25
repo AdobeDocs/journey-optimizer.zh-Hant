@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、集區、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
-source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '798'
 ht-degree: 5%
 
 ---
@@ -30,7 +30,57 @@ ht-degree: 5%
 
 >[!ENDSHADEBOX]
 
-一旦您 [已建立一或多個行銷活動](ip-warmup-campaign.md) 啟用專用表面和IP熱身選項後，您就可以開始建立IP熱身計畫。
+建立一或多個 [IP熱身行銷活動](ip-warmup-campaign.md) 啟用專用表面並啟用對應的選項後，您就可以開始建立IP熱身計畫。
+
+## 填寫IP熱身範本 {#upload-plan}
+
+在Journey Optimizer介面中建立IP熱身計畫之前，您需要以Excel格式填寫範本，填入將供給您計畫的所有資料。
+
+>[!CAUTION]
+>
+>請與您的傳遞顧問合作，確認您的IP熱身計畫檔案設定正確。
+
+以下是包含IP熱身計畫的檔案範例。
+
+![](assets/ip-warmup-sample-file.png)
+
+### IP熱身計畫標籤
+
+IP熱身是一種活動，包括逐漸增加從您的IP和網域傳送到主要網際網路服務提供者(ISP)的電子郵件數量，以建立您作為合法傳送者的聲譽。
+
+本活動通常會由傳遞顧問或專家協助執行，該顧問或專家會根據產業網域、使用案例、地區、ISP和各種其他因素，準備經過深思熟慮的計畫。
+
+* 在此範例中，已準備超過17天的計畫，並達到目標數量xxx個設定檔。
+
+* 此計畫透過6個階段執行。
+
+* 您可以對要傳送至的網域擁有任意數目的欄。 在此範例中，計劃分為四個欄，對應於要在計畫中使用的網域群組：Gmail、Adobe、Yahoo和其他。
+
+我們的想法是在第一個階段有更多執行，並逐步增加目標位址的數量，同時減少執行次數。
+
+現成可用的網域清單如下：
+
+* Gmail
+* Adobe
+* WP
+* Comcast
+* Yahoo
+* Bigpond
+* 橙色
+* 軟銀
+* Docomo
+* United Internet
+* Microsoft
+* KDDI
+* 義大利線上
+* 拉波斯特
+* Apple
+
+### 自訂網域群組標籤
+
+您也可以使用自訂網域群組新增更多欄。
+
+使用 **[!UICONTROL 自訂網域群組]** 定位以定義新網域，並為每個網域新增其涵蓋的所有子網域。<!--TBC-->
 
 ## 存取和管理IP熱身計畫 {#manage-ip-warmup-plans}
 
@@ -40,10 +90,10 @@ ht-degree: 5%
 
 1. 您可以依狀態篩選。 不同的狀態包括：
 
-   * **尚未開始**：未發生任何回合
-   * **進行中**：當一個回合開始時 <!--or is done?-->
-   * **已暫停**
-   * **已完成**：計畫中的所有執行都已完成
+   * **尚未開始**：尚未啟用任何執行。 [了解更多](ip-warmup-running.md#define-runs)
+   * **進行中/即時**：計畫會在第一個階段中的第一次執行成功啟動後，立即採取此狀態。 [了解更多](ip-warmup-running.md#define-runs)
+   * **已完成**：計畫已標示為已完成。 只有在計畫中的所有執行都位於時，才能使用此選項 **[!UICONTROL 成功]** 或 **[!UICONTROL 草稿]** 狀態(無法執行 **[!UICONTROL 即時]**)。 [了解更多](ip-warmup-running.md#define-runs#mark-as-completed)
+   * **已暫停**<!--: to check (user action)-->
 
 1. 若要刪除IP熱身計畫，請選取 **[!UICONTROL 刪除]** 圖示並確認刪除。
 
@@ -99,7 +149,7 @@ ht-degree: 5%
 
    ![](assets/ip-warmup-plan-phases.png)
 
-### 重新上傳IP熱身計畫 {#re-upload-plan}
+## 重新上傳IP熱身計畫 {#re-upload-plan}
 
 您可以使用對應的按鈕重新上傳另一個IP熱身計畫。
 
@@ -108,17 +158,3 @@ ht-degree: 5%
 >[!NOTE]
 >
 >IP熱身計畫的詳細資訊會根據新上傳的檔案而變更。 完成執行和啟動的執行不受影響。
-
-### 上傳包含計畫的檔案 {#upload-plan}
-
-以下是包含IP熱身計畫的檔案範例。
-
-![](assets/ip-warmup-sample-file.png)
-
-每個階段都對應一個由數個執行組成的期間，您將會指派單一行銷活動給該期間。
-
-對於每次執行，您都有特定數量的收件者，且您將定義執行此執行的日期。
-
-您可以對要傳送至的網域擁有任意數目的欄。 在此範例中，您有三個欄：Gmail、Adobe和「其他」，這表示
-
-我們的想法是在第一個階段有更多執行，並逐步增加目標位址的數量，同時減少執行次數。

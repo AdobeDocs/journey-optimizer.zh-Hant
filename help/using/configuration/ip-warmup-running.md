@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、集區、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
-source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '1014'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,12 @@ ht-degree: 1%
 * **[執行IP熱身計畫](ip-warmup-running.md)**
 
 >[!ENDSHADEBOX]
+
+一旦您擁有 [已建立IP熱身計畫](ip-warmup-plan.md) 並上傳與傳遞顧問準備的檔案，您可在計畫中定義階段與執行。
+
+每個階段都對應一個由數個執行組成的期間，您會指派單一行銷活動給該期間。
+
+對於每次執行，您都有特定數量的收件者，且您已排程執行此執行的時間。
 
 ## 定義階段 {#define-phases}
 
@@ -96,7 +102,7 @@ ht-degree: 1%
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 選取結束時間，這會定義在對象細分工作執行發生任何延遲時，IP熱身行銷活動可以執行的視窗。 如果未指定結束時間，則會在開始時間嘗試執行，如果未完成分段，則執行會失敗。
+1. 或者，如果對象細分工作執行有任何延遲，請選取可執行IP熱身行銷活動的視窗。 如果未指定結束時間，則會在開始時間嘗試執行，如果未完成分段，則執行會失敗。
 
 1. 啟動每次執行。 請確定您排程的時間夠早，以允許執行細分工作。 <!--explain how you can evaluate a proper time-->
 
@@ -132,18 +138,28 @@ You don't have to decide the campaign upfront. You can do a split later. It's a 
 But need to explain in which case you want to modify campaigns, provide examples
 -->
 
-## 監視計畫
+## 將計畫標示為已完成 {#mark-as-completed}
 
-回合可以有下列狀態<!--TBC with Medha-->：
+如果您的計畫執行得不夠好，或您想要將其刪除以建立另一個計畫，您可以將其標示為已完成。
 
-* **[!UICONTROL 完成]**:
-* **[!UICONTROL 已失敗]**:
-* **[!UICONTROL 已取消]**：您已在行銷活動執行開始之前停止執行。
+若要這麼做，請按一下 **[!UICONTROL 更多]** IP熱身計畫的右上角按鈕並選取 **[!UICONTROL 標籤為已完成]**.
 
-優點 :
+![](assets/ip-warmup-plan-mark-completed.png)
 
-* 報表將繼續顯示在具有類似今天功能的行銷活動層級。 但IP熱身計畫也可當作一個彙總報表，顯示已執行的數量等等。
+只有在計畫中的所有執行都位於時，才能使用此選項 **[!UICONTROL 成功]** 或 **[!UICONTROL 草稿]** 狀態。 無法執行任何動作 **[!UICONTROL 即時]**.
 
-* 管理並檢視IP熱度進展的單一位置。
+不同的執行狀態會列在 [本節](#monitor-plan).
 
-* 當所有專案都在一個階段執行時，整合創意/行銷活動層級的報表
+## 監視計畫 {#monitor-plan}
+
+若要衡量計畫的影響，您可以使用報表來檢查IP熱身行銷活動的效能。 進一步瞭解行銷活動電子郵件 [即時報告](../reports/campaign-live-report.md#email-live) 和 [全域報告](../reports/campaign-global-report.md##email-global).
+
+IP熱身計畫本身也可作為單一地點的整合報表。 您可以檢查元素，例如 **[!UICONTROL 即時]** 或 **[!UICONTROL 成功]** 會針對每個階段執行，並檢視您的IP熱身計畫的進度。
+
+回合可以有下列狀態：
+
+* **[!UICONTROL 草稿]** ：每當建立執行時，無論是何時 [上傳新計畫](ip-warmup-plan.md) 或 [新增回合](#define-runs) 從使用者介面，它需要 **[!UICONTROL 草稿]** 狀態。
+* **[!UICONTROL 即時]**：每當您啟動回合時，它需要 **[!UICONTROL 即時]** 狀態。
+* **[!UICONTROL 成功]**<!--TBC-->：此回合的行銷活動執行已完成。 <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
+* **[!UICONTROL 已取消]**：a **[!UICONTROL 即時]** 已使用「 」取消執行 **[!UICONTROL 停止]** 按鈕。 此按鈕僅在行銷活動執行尚未開始時可用。 [了解更多](#define-runs)
+* **[!UICONTROL 已失敗]**：系統發生錯誤，或用於目前階段的行銷活動已停止<!--what should the user do in that case?-->.

@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、集區、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '293'
 ht-degree: 7%
 
 ---
@@ -71,6 +71,6 @@ Benefits
 
 1. 您必須先建立一或多個啟用IP熱身選項的促銷活動。 [了解更多](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
 
-1. 建立IP熱身計畫並上傳您的計畫。 [了解更多](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. 在中建立IP熱身計畫 [!DNL Journey Optimizer] 並上傳先前填入IP熱身資料的Excel工作表。 [了解更多](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
 1. 為計畫的每個階段選取行銷活動，並啟動對應的執行。 [了解更多](ip-warmup-running.md)

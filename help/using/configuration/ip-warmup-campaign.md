@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、集區、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
-source-git-commit: ea86d44f7c9309ff69877e01cea6a13e7907a039
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '344'
 ht-degree: 3%
 
 ---
@@ -35,15 +35,17 @@ ht-degree: 3%
 
 >[!ENDSHADEBOX]
 
-您需要建立一或多個已啟用特定選項的促銷活動，以便用於IP熱身計畫。
+在中建立IP熱身計畫本身之前 [!DNL Journey Optimizer]，您首先需要建立一或多個已啟用專用選項的行銷活動，以便用於IP熱身計畫。
 
 若要建立IP熱身行銷活動，請遵循下列步驟。
 
-1. 建立電子郵件 [表面](channel-surfaces.md) 用於您為預熱計畫識別的網域和IP。<!--how do you identify these or who does it at the customer level?-->
+1. 建立 [電子郵件](../email/email-settings.md) 頻道 [表面](channel-surfaces.md) 用於您為預熱計畫識別的網域和IP。
 
    >[!NOTE]
    >
    >瞭解如何選取要在電子郵件表面中使用的網域和IP [本節](../email/email-settings.md#subdomains-and-ip-pools).
+   >
+   >如有需要，請與您的傳遞顧問合作，找出要用於IP熱身計畫的網域和IP。<!--TBC-->
 
 1. 建立 [行銷活動](../campaigns/create-campaign.md) 並選取 [電子郵件](../email/create-email.md#create-email-journey-campaign) 動作。
 
@@ -59,15 +61,25 @@ ht-degree: 3%
 
    ![](assets/ip-warmup-campaign-plan-activation.png)
 
-   行銷活動 [排程](../campaigns/create-campaign.md#schedule) 將由以下驅動： [IP熱身計畫](ip-warmup-plan.md) 它會與相關聯，這表示排程不再於行銷活動本身中定義。
+   行銷活動 [排程](../campaigns/create-campaign.md#schedule) 將由與其相關聯的IP熱身計畫驅動，這表示促銷活動本身不再定義排程。
 
-1. [啟動](../campaigns/review-activate-campaign.md) 行銷活動。 一旦上線，就可在IP熱身計畫中使用。
+1. 完成步驟以建立電子郵件行銷活動，例如定義行銷活動屬性 [對象](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?-->、和 [內容](../email/get-started-email-design.md#key-steps).
 
->[!NOTE]
->
->對於已啟用IP熱身計畫的即時行銷活動， **[!UICONTROL 刪除]** 按鈕在與IP熱身計畫關聯之前可以使用。
+   >[!NOTE]
+   >
+   >有關如何設定行銷活動的詳細資訊，請參閱 [此頁面](../campaigns/get-started-with-campaigns.md).
 
-有關如何設定行銷活動的詳細資訊，請參閱 [此頁面](../campaigns/get-started-with-campaigns.md).
+1. [啟動](../campaigns/review-activate-campaign.md) 行銷活動。
+
+   >[!NOTE]
+   >
+   >對於已啟用IP熱身計畫的即時行銷活動， **[!UICONTROL 刪除]** 按鈕在與IP熱身計畫關聯之前可以使用。 此行銷活動一旦用於IP熱身計畫中，便無法再刪除。
+
+1. 行銷活動會顯示在中 **[!UICONTROL 行銷活動]** 清單。 若要輕鬆擷取在目前沙箱中建立的所有IP熱身行銷活動，您可以對行銷活動選項進行篩選 **[!UICONTROL IP熱身]**.
+
+   ![](assets/ip-warmup-campaign-filter.png)
+
+行銷活動上線後，即準備好用於IP熱身計畫。 [了解更多](ip-warmup-plan.md)
 
 <!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
 
