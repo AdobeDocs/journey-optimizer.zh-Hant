@@ -79,7 +79,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"
 >title="定義種子清單"
->abstract="為了保證傳遞目的，可使用種子清單自動將特定的內部地址新增到您的傳遞對象。 種子清單允許您監視發送出去的郵件副本，以確保所有顯示元素正確無誤並保護您的郵件清單。目前該功能僅適用於電子郵件頻道。"
+>abstract="使用種子清單自動將指定的內部地址新增到您的傳遞對象，當作保障機制。種子清單讓您可以監視發送出去的郵件副本，以確保所有顯示元素正確無誤並保護您的郵寄清單。目前該功能僅適用於電子郵件頻道。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單?"
 
 >[!CONTEXTUALHELP]
