@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: 0d2a5d566a9bc328ebe8ec0f88bb6a7127f6624d
+source-git-commit: 8071bcf194a7cbf1ba00011e5deba1e6296cf708
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 6%
+source-wordcount: '184'
+ht-degree: 7%
 
 ---
 
@@ -49,13 +49,11 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-decisions?limit=2' \
 
 分頁最常見的查詢引數包括：
 
-| 引數說明 | 範例 |
-|------------|-----------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-| `property` | 選用的屬性篩選器： |
- — 屬性會依AND作業分組。
- — 引數可重複執行，如下所示： `property=<property-expr>[&property=<property-expr2>...]` 或 `property=<property-expr1>[,<property-expr2>...]`
- — 屬性運算式的格式為 `[!]field[op]value`，作業位於 `[==,!=,<=,>=,<,>,~]`，支援規則運算式 | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` | | `orderBy`  |依特定屬性排序結果。 新增 `-` 在名稱之前(orderby=-name)會依名稱以遞減順序(Z-A)排序專案。 路徑運算式採用點分隔路徑的形式。 此引數可重複執行，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`，`-name`                    | | `limit`    |限制傳回的實體數。 | `limit=5`                                |
-
+| 參數 | 說明 | 範例 |
+| --------- | ----------- | ------- |
+| `property` | 選用的屬性篩選器： <br> <ul>  — 屬性會依AND作業分組。 <br><br>  — 引數可以重複執行，如下所示：property=<property-expr>[屬性(&amp;P)=<property-expr2>...] 或屬性=<property-expr1>[&amp;<property-expr2>...] <br><br>  — 屬性運算式的格式為 [！]欄位[op]值，含運算式 [==！=，&lt;=，>=，&lt;，>，~]，支援規則運算式 | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | 依特定屬性排序結果。 在名稱前新增 — (orderby=-name)將會以降序順序(Z-A)依名稱排序專案。 路徑運算式採用點分隔路徑的形式。 此引數可重複執行，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
+| `limit` | 限制傳回的實體數。 | `limit=5` |
 
 **回應**
 
