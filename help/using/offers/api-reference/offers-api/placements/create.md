@@ -6,70 +6,78 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 10%
+source-wordcount: '109'
+ht-degree: 11%
 
 ---
 
 # 建立位置 {#create-placement}
 
-您可以透過向以下網站發出POST請求來建立位置： [!DNL Offer Library] API，同時提供容器ID。
+您可以透過向以下網站發出POST請求來建立位置： [!DNL Offer Library] API。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
+下表顯示包含 *Content-Type* 請求標頭中的欄位：
 
 | 頁首名稱 | 值 |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
+| Content-Type | `application/json` |
 
 **API格式**
 
 ```http
-POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
+POST /{ENDPOINT_PATH}/placements
 ```
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 位置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | 持續性API的端點路徑。 | `https://platform.adobe.io/data/core/dps/` |
 
 **要求**
 
 ```shell
-curl -X POST \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances' \
-  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
-  -H 'Content-Type: application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}' \
-  -d '{
-        "xdm:name": "Sales Placement",
-        "xdm:componentType": "https://ns.adobe.com/experience/offer-management/content-component-html",
-        "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
-        "xdm:description": "A test placement to contain offers"
-    }'
+curl -X POST 'https://platform.adobe.io/data/core/dps/placements' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}' \
+-d '{
+    "name": "New placement",
+    "description": "Placement description",
+    "componentType": "html",
+    "channel": "https://ns.adobe.com/xdm/channel-types/email",
+    "itemCount": 1,
+    "allowDuplicatePlacements": false,
+    "returnContent": true,
+    "returnMetaData": {
+        "decisionName": false,
+        "offerName": false,
+        "offerAttributes": false,
+        "offerPriority": false,
+        "placementName": false,
+        "channelType": false,
+        "contentType": false
+    }
+}'
 ```
 
 **回應**
 
-成功的回應會傳回新建立位置的詳細資訊，包括其唯一的執行個體ID和位置 `@id`. 您可在後續步驟中使用執行個體ID來更新或刪除您的位置。 您可以使用不重複的位置 `@id` 在稍後的教學課程中，以建立決定、決定規則和遞補優惠。
+成功的回應會傳回新建立的位置和位置的詳細資料 `id`. 您可以在稍後使用它的步驟來更新或刪除您的位置。 您可以使用不重複的位置 `id` 在稍後的教學課程中，以建立決定、決定規則和遞補優惠。
 
 ```json
 {
-    "instanceId": "9aa58fd0-13d7-11eb-928b-576735ea4db8",
-    "@id": "xcore:offer-placement:124e0be5699743d3",
-    "repo:etag": 1,
-    "repo:createdDate": "2020-10-21T19:57:09.837456Z",
-    "repo:lastModifiedDate": "2020-10-21T19:57:09.837456Z",
-    "repo:createdBy": "{CREATED_BY}",
-    "repo:lastModifiedBy": "{MODIFIED_BY}",
-    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "etag": 1,
+    "createdBy": "{CREATED_BY}",
+    "lastModifiedBy": "{MODIFIED_BY}",
+    "id": "{ID}",
+    "sandboxId": "{SANDBOX_ID}",
+    "createdDate": "2023-05-31T15:09:11.771Z",
+    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
+    "createdByClientId": "{CREATED_CLIENT_ID}",
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```

@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
-source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
+source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '158'
 ht-degree: 10%
 
 ---
@@ -30,14 +30,13 @@ ht-degree: 10%
 **API格式**
 
 ```http
-PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
+PATCH /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
 ```
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 遞補優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 遞補優惠的例項ID。 | `b3966680-13ec-11eb-9c20-8323709cfc65` |
+| `{ENDPOINT_PATH}` | 持續性API的端點路徑。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | 您要更新之實體的ID。 | `fallbackOffer1234` |
 
 **要求**
 
@@ -64,7 +63,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 
 | 參數 | 說明 |
 | --------- | ----------- |
-| `op` | 用於定義更新連線所需動作的操作呼叫。 操作包括： `add`， `replace`、和 `remove`. |
+| `op` | 用於定義更新連線所需動作的操作呼叫。 操作包括： `add`， `replace`， `remove`， `copy` 和 `test`. |
 | `path` | 要更新之引數的路徑。 |
 | `value` | 您想要用來更新引數的新值。 |
 
