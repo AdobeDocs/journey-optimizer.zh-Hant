@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
-source-git-commit: 4c148733f2c6046c352135757d4a378b4bbb948e
+source-git-commit: 8a6cb63314c48f6a13d847f3d68790f11fb7b73b
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 1%
@@ -45,7 +45,7 @@ ht-degree: 1%
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="排除網域群組"
 >abstract="選取要從目前階段排除的網域。 網域排除需要非執行階段，因此您可能必須分割執行階段才能新增排除專案。"
->additional-url="https://experienceleague.corp.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="分割階段"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="分割階段"
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
