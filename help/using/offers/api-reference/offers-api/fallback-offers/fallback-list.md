@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: bee5e067e70e065c9db14448c42224a9ec09c5bf
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '212'
 ht-degree: 7%
 
 ---
@@ -51,7 +51,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers?offer-type=fallback&
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `property` | 選用的屬性篩選器： <br> <ul>  — 屬性會依AND作業分組。 <br><br>  — 引數可以重複執行，如下所示：property=<property-expr>[屬性(&amp;P)=<property-expr2>...] 或屬性=<property-expr1>[，<property-expr2>...] <br><br>  — 屬性運算式的格式為 [！]欄位[op]值，含運算式 [==！=，&lt;=，>=，&lt;，>，~]，支援規則運算式 | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | 選用的屬性篩選器： <ul><li> 屬性會依AND作業分組。 <br><br>  — 引數可以重複執行，如下所示：property=`<property-expr>`[屬性(&amp;P)=`<property-expr2>`...] 或屬性=`<property-expr1>`[&amp;`<property-expr2>`...] <br><br>  — 屬性運算式的格式為 `[!]field[op]` 值，含運算式 `[==,!=,'<=',>=,<,>,~]`，支援規則運算式  </li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | 依特定屬性排序結果。 在名稱前新增 — (orderby=-name)將會以降序順序(Z-A)依名稱排序專案。 路徑運算式採用點分隔路徑的形式。 此引數可重複執行，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | 限制傳回的實體數。 | `limit=5` |
 
