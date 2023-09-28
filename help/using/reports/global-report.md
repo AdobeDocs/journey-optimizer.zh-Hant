@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
+source-git-commit: 92cf1d4a350359adbbad93c4006ec7a0e3902397
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%
@@ -77,20 +77,6 @@ ht-degree: 0%
 
 >[!BEGINTABS]
 
->[!TAB 將報表匯出為PDF檔案]
-
-1. 在報表中，按一下 **[!UICONTROL 匯出]** 並選取 **[!UICONTROL PDF檔案]**.
-
-   ![](assets/export_2.png)
-
-1. 在「列印」視窗中，視需要設定檔案。 請注意，選項可能會依您的瀏覽器而有所不同。
-
-1. 選擇列印或儲存報表為PDF。
-
-1. 找到您要儲存檔案的資料夾，視需要重新命名，然後按一下「儲存」。
-
-您的報告現在可以在pdf檔案中檢視或共用。
-
 >[!TAB 將報表匯出為CSV檔案]
 
 1. 在報表中，按一下 **[!UICONTROL 匯出]** 並選取 **[!UICONTROL CSV檔案]** 在整體報表層級產生CSV檔案。
@@ -106,5 +92,21 @@ ht-degree: 0%
    如果在報表層級產生檔案，檔案會包含每個Widget的詳細資訊，包括其標題和資料。
 
    如果您在Widget層級產生檔案，它會特別提供所選Widget的資料。
+
+>[!TAB 將報表匯出為PDF檔案]
+
+1. 在報表中，按一下 **[!UICONTROL 匯出]** 並選取 **[!UICONTROL PDF檔案]**.
+
+   ![](assets/export_2.png)
+
+1. 在「列印」視窗中，視需要設定檔案。 請注意，選項可能會依您的瀏覽器而有所不同。
+
+1. 選擇列印或儲存報表為PDF。
+
+1. 找到您要儲存檔案的資料夾，視需要重新命名，然後按一下「儲存」。
+
+您的報告現在可以在pdf檔案中檢視或共用。
+
+
 
 >[!ENDTABS]

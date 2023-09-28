@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+source-git-commit: c5c7d4d050958fac9b91e2a2a4c4a7a6640d1f06
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 93%
@@ -232,7 +232,6 @@ ht-degree: 93%
 + 網路頻道 {#web}
    + [開始使用網路頻道](using/web/get-started-web.md)
    + [網路頻道先決條件](using/web/web-prerequisites.md)
-   + [實作單頁應用程式](using/web/web-spa-implementation.md)
    + [建立網站體驗](using/web/create-web.md)
    + 製作網頁 {#author-web-pages}
       + [編輯網頁內容](using/web/edit-web-content.md)
@@ -480,6 +479,7 @@ ht-degree: 93%
    + [支援封存](using/configuration/archiving-support.md)
    + [變更執行地址](using/configuration/primary-email-addresses.md)
    + [設定頻率規則](using/configuration/frequency-rules.md)
+   + [實作單頁應用程式](using/web/web-spa-implementation.md)
    + 設定歷程 {#configure-journeys}
       + [關於資料來源、事件和動作](using/configuration/about-data-sources-events-actions.md)
       + 與外部系統整合 {#external-systems}
