@@ -6,10 +6,10 @@ description: 瞭解如何定義頻率規則
 feature: Overview
 topic: Content Management
 role: User
-level: Beginner
+level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 2c1b53120913580be627b0a26cf4b386f32fcf1b
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 13%
@@ -44,7 +44,7 @@ ht-degree: 13%
 
 ![](assets/message-rules-access.png)
 
-進一步瞭解中的許可權 [本節](../administration/high-low-permissions.md).
+若要了解權限的詳細資訊，請參閱[本章節](../administration/high-low-permissions.md)。
 
 ## 建立規則 {#create-new-rule}
 

@@ -4,17 +4,15 @@ description: 瞭解如何在Journey Optimizer中實施SPA檢視
 feature: Web Channel
 topic: Content Management
 role: User
-level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+level: Intermediate
+source-git-commit: 2c1b53120913580be627b0a26cf4b386f32fcf1b
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '830'
 ht-degree: 2%
 
 ---
 
-# 實作單頁應用程式 {#web-spa-implementation}
+# 實作單頁應用程式(SPA) {#web-spa-implementation}
 
 Adobe Experience Platform Web SDK提供豐富的功能，讓貴公司能以新世代使用者端技術(例如單頁應用程式(SPA))為基礎進行個人化。
 
@@ -24,7 +22,7 @@ Adobe Experience Platform Web SDK提供豐富的功能，讓貴公司能以新�
 
 ![](assets/web-spa-vs-traditional-lifecycle.png)
 
-## 適用於SPA的AEP Web SDK的優點
+## 適用於SPA的Adobe Experience Platform Web SDK的優點 {#web-spa-benefits}
 
 以下是為單頁應用程式使用Adobe Experience Platform Web SDK的一些好處：
 
@@ -32,7 +30,7 @@ Adobe Experience Platform Web SDK提供豐富的功能，讓貴公司能以新�
 * 顯著改善網站的使用者體驗，因為選件可透過快取立即顯示，避免傳統伺服器呼叫造成的時間延遲。
 * 一次性開發人員設定可讓行銷人員透過您SPA上的Adobe Journey Optimizer網頁視覺化編輯器建立並執行個人化和實驗活動。
 
-## xdm檢視和單頁應用程式
+## xdm檢視和單頁應用程式 {#web-spa-xdm}
 
 Adobe **[!UICONTROL Journey Optimizer]** 網頁編輯器利用了稱為檢視的概念：視覺化元素的邏輯群組，這些元素共同構成SPA體驗。 因此，單頁應用程式可視為根據使用者互動轉換檢視，而不是轉換URL。 檢視通常可代表整個網站、單一頁面或頁面中的分組視覺元素。
 
@@ -91,7 +89,7 @@ Adobe Journey Optimizer可運用XDM檢視，讓行銷人員透過Journey Optimiz
 
 本節概述兩個範例，說明如何叫用 `sendEvent()` 函式在React中，用於假設性的電子商務SPA。
 
-### 範例1：A/B測試首頁
+### 範例1：A/B測試首頁 {#web-spa-sample-1}
 
 行銷團隊想要在整個首頁上執行A/B測試。
 
@@ -136,7 +134,7 @@ history.listen(onViewChange);
 <Router history={hashHistory} onUpdate={onViewChange} >
 ```
 
-### 範例2：個人化產品
+### 範例2：個人化產品 {#web-spa-sample-2}
 
 行銷團隊想要個人化第二列產品，讓使用者在點按以檢視所有「男性」產品後，將價格標籤顏色變更為紅色。
 
