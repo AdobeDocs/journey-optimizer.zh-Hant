@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cd6fbe0367f54f68814ffd9a8eb13c887ae057b3
+source-git-commit: 94ad48537e6c13b17130f9f31d747bd9749e982c
 workflow-type: tm+mt
-source-wordcount: '4059'
-ht-degree: 86%
+source-wordcount: '4014'
+ht-degree: 87%
 
 ---
 
@@ -137,10 +137,6 @@ ht-degree: 86%
 **直接郵件頻道**
 
 現在，您將檔案傳輸至伺服器時，可以加密提供給直接郵件提供者的檔案。 為此，檔案路由設定畫面中提供新欄位，允許您複製並貼上加密金鑰。 [了解更多](../direct-mail/direct-mail-configuration.md)
-
-**直接郵件頻道**
-
-現在，您將檔案傳輸至伺服器時，可以加密提供給直接郵件提供者的檔案。 為此，檔案路由設定畫面中提供新欄位，允許您複製並貼上加密金鑰。
 
 **報告**
 
