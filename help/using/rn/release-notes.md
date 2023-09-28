@@ -4,9 +4,9 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 94ad48537e6c13b17130f9f31d747bd9749e982c
+source-git-commit: a5cb591a3340f2af27806967e5a1403be9fe26e4
 workflow-type: tm+mt
-source-wordcount: '4014'
+source-wordcount: '4010'
 ht-degree: 87%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 87%
 <p>管道報表功能為分析師和行銷人員提供管道層級流量和參與量度的全面概觀。</p>
 <p>若要存取 <b>報告</b> 功能表，您必須擁有 <b>檢視管道報表</b> 許可權。</p>
 <img src="assets/channel-reports.png"/>
-<p>如需詳細資訊，請參閱 <a href="../reports/channel-report.md">詳細檔案</a>、和 &lt;a href="../reports/channel-report.md#how-to-video-channel-report-video" how-to="" video="" span="" id="2" translate="no" /&gt;.</a></p>
+<p>如需詳細資訊，請參閱 <a href="../reports/channel-report.md">詳細檔案</a>、和 <a href="../reports/channel-report.md#how-to-video-channel-report-video">作法影片</a>.</p>
 </tr>
 </tbody>
 </table>

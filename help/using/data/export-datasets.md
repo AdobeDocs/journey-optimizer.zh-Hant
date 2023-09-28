@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: platform、資料湖、建立、湖、資料集、設定檔
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 08f24547237c01c581248d675c55c834c261b173
+source-git-commit: a5cb591a3340f2af27806967e5a1403be9fe26e4
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '988'
 ht-degree: 6%
 
 ---
@@ -26,9 +26,6 @@ Journey Optimizer可讓您與雲端儲存位置建立即時連線，以匯出資
 
 ![](assets/dataset-export-setup.png)
 
->[!AVAILABILITY]
->
->這些目的地全都有提供測試版，且隨時可能變更。
 
 Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
 
