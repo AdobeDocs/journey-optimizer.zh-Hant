@@ -7,9 +7,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 7c56deac0deb0863fff5ad9416d69f632f92acc8
+source-git-commit: 3de5f29c8a79ab540ffc961c3e4d4850a8b93ab3
 workflow-type: tm+mt
-source-wordcount: '1866'
+source-wordcount: '1867'
 ht-degree: 1%
 
 ---
@@ -307,7 +307,7 @@ ht-degree: 1%
 +++
 
 
-## 操作說明影片 {#channel-report-video}
+## 管道報表（影片） {#channel-report-video}
 
 透過此影片瞭解如何在頻道層級存取、導覽和匯出報告
 
