@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 92cf1d4a350359adbbad93c4006ec7a0e3902397
+source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 0%
+source-wordcount: '569'
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,10 @@ ht-degree: 0%
 
 ## 匯出您的報告 {#export-reports}
 
-您可以輕鬆地將不同的報表匯出為PDF或CSV格式，以便共用或列印它們。
+您可以輕鬆地將不同的報表匯出為PDF或CSV格式，以便共用或列印它們。 匯出報告的步驟會在以下標籤中詳細說明。
+
+➡️ [在影片中探索此功能](#video-csv)
+
 
 >[!BEGINTABS]
 
@@ -110,3 +113,11 @@ ht-degree: 0%
 
 
 >[!ENDTABS]
+
+
+### 匯出報表（影片） {#video-csv}
+
+透過下列作法影片，瞭解如何下載適用於報表和單一Widget的CSV報表。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424603?quality=12)
+
