@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 28c98b8982123f0538ca86870a82bdd6228dd674
+source-git-commit: 6230eb26ca577398c09465207b27e87ea3d813d2
 workflow-type: tm+mt
-source-wordcount: '4024'
-ht-degree: 87%
+source-wordcount: '4069'
+ht-degree: 86%
 
 ---
 
@@ -137,6 +137,10 @@ ht-degree: 87%
 **簡訊頻道**
 
 兩個新欄位， **選擇加入訊息** 和 **說明訊息**，已新增至API設定畫面，可讓使用者自訂傳入關鍵字的回應。 請注意，這僅適用於Sinch SMS提供者。
+
+**直接郵件頻道**
+
+現在，您將檔案傳輸至伺服器時，可以加密提供給直接郵件提供者的檔案。 為此，檔案路由設定畫面中提供新欄位，允許您複製並貼上加密金鑰。
 
 **報告**
 
