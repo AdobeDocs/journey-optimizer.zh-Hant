@@ -1,42 +1,38 @@
 ---
-title: 應用程式內設定
+title: 應用程式內頻道必要條件
 description: 瞭解如何設定您的環境，以使用Journey Optimizer傳送應用程式內訊息
 role: Admin
 level: Intermediate
 keywords: 應用程式內、訊息、設定、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 6f92f9ce0a4785f0359658f00150d283f1326900
+source-git-commit: 42a1efc45268688d371d83efbafef2aab9d757ac
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 8%
+source-wordcount: '727'
+ht-degree: 10%
 
 ---
 
-# 設定應用程式內頻道 {#inapp-configuration}
+# 應用程式內頻道必要條件 {#inapp-configuration}
 
-在傳送應用程式內訊息之前，您必須在中設定應用程式內頻道 [!DNL Adobe Experience Platform Data Collection].
+## 傳遞必要條件 {#delivery-prerequisites}
 
-1. 從您的 [!DNL Adobe Experience Platform Data Collection] 帳戶，存取 **[!UICONTROL 資料流]** 功能表並按一下 **[!UICONTROL 新增資料串流]**. 有關建立資料流的詳細資訊，請參閱 [此頁面](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant).
+為了正確傳遞應用程式內訊息，必須定義下列設定：
 
-1. 選取 [!DNL Adobe Experience Platform] 服務。
+* 在 [Adobe Experience Platform資料彙集](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hant){target="_blank"}，確定您有定義的資料流，例如 **[!UICONTROL Adobe Experience Platform]** 服務Adobe Experience Platform Edge和 **[!UICONTROL Adobe Journey Optimizer]** 選項已啟用。
 
-   [!DNL Edge Segmentation] 和 [!DNL Adobe Journey Optimizer] 必須選取。
+  這可確保Adobe Experience Platform Edge可正確處理Journey Optimizer傳入事件。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant){target="_blank"}
 
-   ![](assets/inapp_config_6.png)
+  ![](assets/inapp_config_6.png)
 
-   >[!NOTE]
-   >
-   >若要啟用應用程式內頻道的內容實驗，您必須確定 [資料集](../data/get-started-datasets.md) 已在您的應用程式內使用 [資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant){target="_blank"} 也會出現在您的報告設定中 — 否則，應用程式內資料將不會顯示在內容實驗報告中。 [瞭解如何新增資料集](../campaigns/reporting-configuration.md#add-datasets)
-   >
-   >資料集是由 [!DNL Journey Optimizer] 報告系統並且不會影響資料收集或資料擷取。
+* 在 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}, make sure you have the default merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
-1. 然後，存取 **[!UICONTROL 應用程式表面]** 功能表並按一下 **[!UICONTROL 建立應用程式表面]**.
+  此合併原則的使用者為 [!DNL Journey Optimizer] 傳入頻道，可在邊緣正確啟用和發佈傳入行銷活動。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant){target="_blank"}
 
-   >[!NOTE]
-   >
-   > 您需要 **管理應用程式設定** 存取的許可權 **[!UICONTROL 應用程式表面]** 功能表。 如需詳細資訊，請參閱 [此影片](#video).
+  ![](assets/inapp_config_8.png)
 
-   ![](assets/inapp_config_1.png)
+## 通道設定先決條件 {#channel-prerequisites}
+
+1. 存取 **[!UICONTROL 應用程式表面]** 功能表並按一下 **[!UICONTROL 建立應用程式表面]**.
 
 1. 將名稱新增至 **[!UICONTROL 應用程式表面]**.
 
@@ -106,13 +102,23 @@ ht-degree: 8%
 
 應用程式內頻道現已設定。 您可以開始傳送應用程式內訊息給使用者。
 
-**相關主題：**
+## 內容實驗先決條件 {#experiment-prerequisites}
 
-* [建立應用程式內訊息](create-in-app.md)
-* [建立行銷活動](../campaigns/create-campaign.md)
-* [設計應用程式內訊息](design-in-app.md)
-* [應用程式內報告](../reports/campaign-global-report.md#inapp-report)
+若要啟用應用程式內管道的內容實驗，您必須確定 [資料集](../data/get-started-datasets.md) 用於應用程式內實作 [資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant){target="_blank"} 也包含在您的報告設定中。
 
+換言之，在設定實驗報告時，如果您新增的資料集未出現在網頁資料流中，則網頁資料不會顯示在內容實驗報告中。
+
+瞭解如何在中新增內容實驗報告的資料集 [本節](../campaigns/reporting-configuration.md#add-datasets).
+
+>[!NOTE]
+>
+>資料集是由 [!DNL Journey Optimizer] 報告系統並且不會影響資料收集或資料擷取。
+
+如果您是 **非** 使用以下預先定義的 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"})，請務必新增下列欄位群組： `Experience Event - Proposition Interactions`， `Application Details`， `Commerce Details`、和 `Web Details`. 以下專案需要這些選項 [!DNL Journey Optimizer] 內容實驗報告，追蹤每個設定檔參與哪些實驗與處理。
+
+>[!NOTE]
+>
+>新增這些欄位群組不會影響正常的資料收集。 它僅適用於執行實驗的頁面，而保留所有其他追蹤不變。
 
 ## 作法影片{#video}
 
@@ -124,4 +130,10 @@ ht-degree: 8%
 
 +++
 
+**相關主題：**
+
+* [建立應用程式內訊息](create-in-app.md)
+* [建立行銷活動](../campaigns/create-campaign.md)
+* [設計應用程式內訊息](design-in-app.md)
+* [應用程式內報告](../reports/campaign-global-report.md#inapp-report)
 

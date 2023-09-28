@@ -7,10 +7,10 @@ role: Admin
 level: Intermediate
 keywords: Web、子網域、設定
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: e26f45c1c08e1e5c88daf72cafdcd979753cc692
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 27%
+source-wordcount: '843'
+ht-degree: 13%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_header"
 >title="委派網頁子網域"
->abstract="您將設定您的子網域以供網頁管道使用。從已委派給 Adobe 的子網域進行選擇。"
+>abstract="您將設定您的子網域以供網頁管道使用。您可以使用已委派給 Adobe 的子網域，或設定另一個子網域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="委派網頁子網域"
->abstract="如果您將來自 Adobe Experience Manager Assets Essentials 的內容新增到您的網頁體驗中，則必須設定將用來發佈此內容的子網域。在已委派給 Adobe 的子網域中選取。"
+>abstract="如果您將來自 Adobe Experience Manager Assets Essentials 的內容新增到您的網頁體驗中，則必須設定將用來發佈此內容的子網域。在已委派給Adobe的子網域中選取，或設定新的子網域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
@@ -33,7 +33,7 @@ ht-degree: 27%
 
 在製作網頁體驗時，如果您新增來自 [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) 程式庫，您必須設定用於發佈此內容的子網域。
 
-若要這麼做，您必須從已委派給Adobe的子網域清單中選擇。 進一步瞭解將子網域委派至Adobe於 [本節](../configuration/delegate-subdomain.md).
+您可以使用已委派給Adobe的子網域，也可以設定另一個子網域。 進一步瞭解將子網域委派至Adobe於 [本節](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
@@ -45,13 +45,33 @@ ht-degree: 27%
 
 您可以建立數個網頁子網域，但僅限 **預設** 將會使用子網域。 您可以變更預設的網頁子網域，但一次只能使用一個子網域。
 
-1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** 功能表，然後選取 **[!UICONTROL Web設定]** > **[!UICONTROL Web子網域]**.
+## 存取及管理Web子網域 {#access-web-subdomains}
+
+1. 前往 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** 功能表，然後選取 **[!UICONTROL Web設定]** > **[!UICONTROL Web子網域]**. 會顯示使用目前沙箱設定的所有子網域。
 
    ![](assets/web-access-subdomains.png)
 
+1. 您可以篩選委派每個子網域的使用者，或篩選其中一個委派狀態(**[!UICONTROL 草稿]**， **[!UICONTROL 處理中]**， **[!UICONTROL 成功]** 或 **[!UICONTROL 已失敗]**)。
+
+   ![](assets/web-filter-subdomains.png)
+
+1. 此 **[!UICONTROL 預設]** 徽章會顯示在目前預設使用的子網域旁。 若要變更預設子網域，請選取 **[!UICONTROL 設定為預設]** 從 **[!UICONTROL 更多動作]** 按鈕來設定所要的子網域。
+
+   ![](assets/web-subdomain-default.png)
+
+   >[!NOTE]
+   >
+   >您可以變更預設的網頁子網域，但一次只能使用一個子網域。
+
+## 使用現有的子網域 {#web-use-existing-subdomain}
+
+若要使用已委派給Adobe的子網域，請遵循下列步驟。
+
+1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** 功能表，然後選取 **[!UICONTROL Web設定]** > **[!UICONTROL Web子網域]**.
+
 1. 按一下 **[!UICONTROL 設定子網域]**.
 
-1. 從清單中選取委派的子網域。
+1. 選取 **[!UICONTROL 使用委派的子網域]** 選項來自 **[!UICONTROL 設定型別]** 區段，並從清單中選擇委派的子網域。
 
    ![](assets/web-subdomain-details.png)
 
@@ -75,14 +95,65 @@ ht-degree: 27%
    >
    >在極少數的情況下，子網域設定可能會失敗。 在此情況下，您可以刪除 **[!UICONTROL 已失敗]** 子網域，以使用清除清單 **[!UICONTROL 刪除]** 按鈕來自 **[!UICONTROL 更多動作]** 圖示。
 
-1. 此 **[!UICONTROL 預設]** 徽章會顯示在目前預設使用的子網域旁。 若要變更預設子網域，請選取 **[!UICONTROL 設定為預設]** 從 **[!UICONTROL 更多動作]** 按鈕來設定所要的子網域。
+## 設定新的子網域 {#web-configure-new-subdomain}
 
-   ![](assets/web-subdomain-default.png)
+>[!CONTEXTUALHELP]
+>id="ajo_admin_web_subdomain_dns"
+>title="產生相符的 DNS 記錄"
+>abstract="若要設定新的網頁子網域，您必須複製Journey Optimizer介面中顯示的Adobe名稱伺服器資訊，並將其貼到您的網域託管解決方案中，以產生相符的DNS記錄。 檢查成功後，子網域即準備好用於發佈來自Experience Manager Assets Essentials程式庫的內容。"
+
+若要設定新的子網域，請遵循下列步驟。
+
+1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** 功能表，然後選取 **[!UICONTROL 網頁組態]** > **[!UICONTROL Web子網域]**.
+
+1. 按一下 **[!UICONTROL 設定子網域]**.
+
+1. 選取 **[!UICONTROL 新增您自己的網域]** 從 **[!UICONTROL 設定型別]** 區段。
+
+1. 指定要委派的子網域。
+
+   >[!CAUTION]
+   >
+   >您無法使用現有的Web子網域。
+   >
+   >子網域中不允許使用大寫字母。
+
+   ![](assets/web-add-your-own-domain.png)
+
+   不允許將無效的子網域委派給Adobe。 請務必輸入貴組織所擁有的有效子網域，例如marketing.yourcompany.com。
 
    >[!NOTE]
    >
-   >您可以變更預設的網頁子網域，但一次只能使用一個子網域。
+   >支援（相同父項網域的）多階層子網域。 例如，您可以使用「web.marketing.yourcompany.com」。
 
-   <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
+1. 若要將此子網域設定為預設值，請選取對應的選項。
 
-    You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
+   >[!NOTE]
+   >
+   >僅限 **預設** 將會使用子網域。
+
+1. 將會顯示要放置在DNS伺服器中的記錄。 複製此記錄或下載CSV檔案，然後導覽至您的網域託管解決方案，以產生相符的DNS記錄。
+
+1. 請確定已在您的網域託管解決方案中產生DNS記錄。 如果所有專案皆已正確設定，請勾選「我確認……」方塊，然後按一下 **[!UICONTROL 提交]**.
+
+   ![](assets/web-add-your-own-domain-confirm.png)
+
+   >[!NOTE]
+   >
+   >當您設定新的網頁子網域時，它永遠會指向CNAME記錄。
+
+1. 提交子網域委派後，子網域會顯示在清單中，並包含 **[!UICONTROL 處理中]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+
+   >[!NOTE]
+   >
+   >您必須先等到Adobe執行所需的檢查（最多可能需要4小時），才能使用該子網域傳送網頁訊息。
+
+1. 檢查成功後，子網域會取得 **[!UICONTROL 成功]** 狀態。 它已準備好用於建立Web Channel表面。
+
+   請注意，子網域將標示為 **[!UICONTROL 已失敗]** 如果您無法在託管解決方案上建立驗證記錄。
+
+
+<!--
+Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
+You cannot delete a subdomain with the **[!UICONTROL Processing]** status.
+-->

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 11%
+source-wordcount: '1505'
+ht-degree: 12%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 11%
 
 ## 業務事件的測試模式 {#test-business}
 
-使用 [業務事件](../event/about-events.md)，使用測試模式在歷程中觸發單一測試設定檔入口、模擬事件並傳遞正確的設定檔ID。 您必須傳遞事件引數，以及將進入測試中歷程之測試設定檔的識別碼。 您無法使用 **[!UICONTROL 一次最多100個設定檔]** 適用於其他受眾型歷程的選項。 在測試模式中，根據業務事件的歷程沒有「程式碼檢視」模式可用。
+使用 [業務事件](../event/about-events.md)，使用測試模式在歷程中觸發單一測試設定檔入口、模擬事件並傳遞正確的設定檔ID。 您必須傳遞事件引數，以及將進入測試中歷程之測試設定檔的識別碼。 在測試模式中，根據業務事件的歷程沒有「程式碼檢視」模式可用。
 
 請注意，當您首次觸發業務事件時，無法變更相同測試工作階段中的業務事件定義。 您只能讓相同或不同的個人透過相同或其他識別碼進入歷程。 若要變更業務事件引數，您必須停止再啟動測試模式。
 

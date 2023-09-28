@@ -6,10 +6,10 @@ description: 瞭解如何設定環境，以使用Journey Optimizer傳送簡訊
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: ce9ebee71f80ec28f1e98eff0ff15d728978e817
+source-git-commit: e2851c97dd14577a992625bcfd60fc7300b432d3
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 18%
+source-wordcount: '951'
+ht-degree: 17%
 
 ---
 
@@ -62,6 +62,10 @@ Adobe Journey Optimizer目前與Sinch、Twilio和Infobip等協力廠商整合，
       * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
 
       * **[!UICONTROL 服務ID]** 和 **[!UICONTROL API Token]**：存取API頁面，您可以在SMS標籤下找到您的認證。  [了解更多](https://developers.sinch.com/docs/sms/getting-started/)
+
+      * **[!UICONTROL 選擇加入訊息]**：輸入自訂回應，此回應會隨著您的網站自動傳送。 **[!UICONTROL 選擇加入訊息]**.
+
+      * **[!UICONTROL 說明訊息]**：輸入自訂回應，此回應會隨著您的網站自動傳送。 **[!UICONTROL 說明訊息]**.
 
    * 的 **[!DNL Twilio]**：
 

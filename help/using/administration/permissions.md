@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 產品，設定檔，沙箱
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '764'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
-> 以下詳述的每個程式只能由 **[!UICONTROL 產品]** 或 **[!UICONTROL 系統]** 管理員。 如需詳細資訊，請參閱 [Admin Console檔案](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html).
+> 以下詳述的每個程式只能由 **[!UICONTROL 產品]** 或 **[!UICONTROL 系統]** 管理員。
 
 **[!UICONTROL 角色]** 請參閱共用相同許可權和沙箱的使用者集合。 這些角色可讓您輕鬆管理組織內不同使用者群組的存取和許可權。
 
@@ -48,13 +48,13 @@ ht-degree: 6%
 
 1. 輸入使用者的名稱或電子郵件地址，或從清單中選取使用者，然後按一下 **[!UICONTROL 儲存]**.
 
-   如果使用者先前不是在 [!DNL Admin Console]，請參閱 [新增使用者檔案](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   如果使用者先前不是在 [!DNL Admin Console]，請參閱 [新增使用者檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html).
 
    ![](assets/do-not-localize/access_control_4.png)
 
 接著，您的使用者應會收到一封電子郵件，並重新導向至您的執行個體。
 
-如需使用者管理的詳細資訊，請參閱 [Admin Console檔案](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
+如需使用者管理的詳細資訊，請參閱 [存取控制檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant).
 
 存取執行個體時，您的使用者將會看到特定檢視，具體取決於中的指派許可權 **[!UICONTROL 角色]**. 如果使用者沒有功能的正確存取權，便會顯示下列訊息：
 
@@ -125,4 +125,4 @@ ht-degree: 6%
 
 您的 **[!UICONTROL 角色]** 現在已建立並設定。 您現在需要將其指派給使用者。
 
-有關角色建立與管理的詳細資訊，請參閱 [Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=zh-Hant).
+有關角色建立與管理的詳細資訊，請參閱 [Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html).

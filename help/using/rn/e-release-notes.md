@@ -5,7 +5,8 @@ title: 發行說明
 description: Journey Optimizer 搶先發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: 75a03fbd6a369d9b8f75db819cfa995257eaf77f
+exl-id: 3a741a74-8fec-499d-be1f-17ac04106e54
+source-git-commit: 1d5bc1de8a33401c165eeee4c8159fc19087c9c9
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 21%
@@ -87,7 +88,7 @@ ht-degree: 21%
 <td>
 <p>計算屬性可讓您透過直覺式使用者介面，輕鬆地將事件資料摘要為設定檔屬性，以強化行為型細分、個人化和啟用。 透過此功能，您可以自助建立計算屬性、管理這些屬性，並用於細分、即時客戶設定檔目的地或Journey Optimizer。<br/><br/>
 此外，計算屬性可簡化細分和歷程工作流程，協助您順暢地提供相關體驗。 進一步瞭解 <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">詳細檔案</a>.</p>
-<img src="assets/computed-attributes.png">
+<img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
 </table>

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 15%
+source-wordcount: '1277'
+ht-degree: 12%
 
 ---
 
@@ -34,6 +34,16 @@ ht-degree: 15%
 在自訂動作引數中，您可以傳遞簡單集合以及物件集合。 進一步瞭解中的集合限制 [此頁面](../building-journeys/collections.md#limitations).
 
 另請注意，自訂動作引數採用預期格式（例如：字串、小數等）。 您必須注意遵守這些預期的格式。 在本節瞭解更多 [使用案例](../building-journeys/collections.md).
+
+## 最佳做法{#custom-action-enhancements-best-practices}
+
+所有自訂動作的上限為5000次呼叫/秒。 此限制是根據客戶使用狀況所設定，可保護自訂動作鎖定的外部端點。 您需要透過定義適當的讀取率（使用自訂動作時為5000個設定檔/秒），在以對象為基礎的歷程中將其納入考量。 如有需要，您可以透過我們的上限/節流API定義較大的上限或節流限制來覆寫此設定。 請參閱[此頁面](../configuration/external-systems.md)。
+
+基於以下各種原因，您不應使用自訂動作來鎖定公用端點：
+
+* 如果沒有適當的上限或節流，可能會傳送過多呼叫至可能不支援此磁碟區的公用端點。
+* 設定檔資料可透過自訂動作傳送，因此定位公用端點可能會導致無意間在外部共用個人資訊。
+* 您無法控制公用端點傳回的資料。 如果端點變更其API或開始傳送不正確的資訊，這些資訊將可在傳送的通訊中使用，並可能產生負面影響。
 
 ## 同意與資料控管 {#privacy}
 
@@ -70,11 +80,11 @@ ht-degree: 15%
    >
    >當歷程中使用自訂動作時，大部分引數均為唯讀。 您只能修改 **[!UICONTROL 名稱]**， **[!UICONTROL 說明]**， **[!UICONTROL URL]** 欄位和 **[!UICONTROL 驗證]** 區段。
 
-## URL 組態 {#url-configuration}
+## 端點設定 {#url-configuration}
 
-設定自訂動作時，您需要定義下列專案 **[!UICONTROL URL設定]** 引數：
+設定自訂動作時，您需要定義下列專案 **[!UICONTROL 端點設定]** 引數：
 
-![](assets/journeyurlconfiguration.png)
+![](assets/action-response1bis.png){width="70%" align="left"}
 
 1. 在 **[!UICONTROL URL]** 欄位，指定外部服務的URL：
 
@@ -92,7 +102,7 @@ ht-degree: 15%
    >
    >定義自訂動作時只允許預設連線埠：80用於http，443用於https。
 
-1. 選取通話 **[!UICONTROL 方法]**：它可以 **[!UICONTROL POST]** 或 **[!UICONTROL PUT]**.
+1. 選取通話 **[!UICONTROL 方法]**：它可以 **[!UICONTROL POST]**， **[!UICONTROL GET]** 或 **[!UICONTROL PUT]**.
 
    >[!NOTE]
    >
@@ -118,11 +128,17 @@ ht-degree: 15%
    >
    >標頭會根據欄位剖析規則進行驗證。 進一步瞭解 [本檔案](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
-## 定義動作引數 {#define-the-message-parameters}
+## 定義裝載引數 {#define-the-message-parameters}
 
-在 **[!UICONTROL 動作引數]** 區段，貼上要傳送至外部服務的JSON裝載範例。
+1. 在 **[!UICONTROL 請求]** 區段，貼上要傳送至外部服務的JSON裝載範例。 此欄位是選用欄位，僅適用於POST和PUT呼叫方法。
 
-![](assets/messageparameterssection.png)
+1. 在 **[!UICONTROL 回應]** 區段，貼上呼叫傳回之裝載的範例。 此欄位是選用欄位，可用於所有呼叫方法。 如需如何在客戶動作中運用API呼叫回應的詳細資訊，請參閱 [此頁面](../action/action-response.md).
+
+>[!NOTE]
+>
+>回應功能目前在Beta版中提供。
+
+![](assets/action-response2bis.png){width="70%" align="left"}
 
 >[!NOTE]
 >

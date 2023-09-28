@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 91b82736b86bd01ebb24cca36da56bde7fe84b6e
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1689'
 ht-degree: 24%
 
 ---
@@ -184,8 +184,8 @@ ht-degree: 24%
 
    ![複製歷程](assets/duplicate-jo.png)
 
-<!--1. Enter the name of the journey and confirm. 
+1. 輸入歷程名稱並確認。 您也可以在歷程屬性畫面中變更名稱。 依預設，名稱設定如下： `[JOURNEY-NAME]_copy`
 
-    If no name is specified, t-->The journey copy name is set to the default name, i.e. the name of the initial journey with `_copy` characters added at the end. It can be changed in the journey properties screen.
+   ![](assets/duplicate-jo2.png)
 
 1. 新歷程已建立並可在歷程清單中使用。

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: assets， essentials， experience manager，整合
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 1f4a49f9fc53cea21391d0e77bc151ebf84cc4f9
+source-git-commit: 8673391de8ac5c91bfbd28d23f7ab9a1416f4a83
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 19%
+source-wordcount: '522'
+ht-degree: 17%
 
 ---
 
@@ -44,6 +44,19 @@ ht-degree: 19%
 1. 從 [!DNL Adobe Journey Optimizer] 首頁，選取 **[!UICONTROL 資產]** 標籤下的 **[!UICONTROL 內容管理]** 功能表以存取 [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
+
+1. 在Journey Optimizer中選擇資產的存放庫。 如果您擁有此解決方案，您可以選擇使用Assets Essentials存放庫或Assetsas a Cloud Service存放庫。
+
+   ![](assets/media_library_4.png)
+
++++
+瞭解如何切換資產存放庫。
+
+   若要變更您的資產存放庫，請選取右上角的「帳戶」圖示，然後按一下 **[!UICONTROL 選取存放庫]**.
+
+   ![](assets/media_library_3.png)
+
++++
 
 1. 在中央區段或樹狀檢視中連按兩下資料夾以開啟它。
 

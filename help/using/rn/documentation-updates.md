@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a75dea16748a6628c3e21f1846a2ac9872cc55cb
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '3596'
-ht-degree: 92%
+source-wordcount: '3695'
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,19 @@ ht-degree: 92%
 
 ## 2023 年 9 月 {#september-2023}
 
+* 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2023年9月版本的詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
+* 已新增一個頁面，其中包含縮放最佳實務和即時拚接指引。 [閱讀全文](../start/best-practices.md)
+
+<!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
+
+* 「傳送時間最佳化」已新增「常見問題集」章節。 [閱讀全文](../building-journeys/journeys-message.md#faq-send-time)
+* 已針對對象資格活動新增附註。 啟用並監聽進入或退出對象的設定檔最多可能需要10分鐘。 [閱讀全文](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * 已在決策管理文件中新增建立決定規則時要注意的限制清單。 [閱讀全文](../offers/offer-library/creating-decision-rules.md)
+* 更新存取控制檔案的連結。 [閱讀全文](../administration/permissions.md)
+* 應用程式內管道先決條件已更新，其中包含Adobe Experience Platform資料收集詳細資料。 [閱讀全文](../in-app/inapp-configuration.md)
+
+
+
 
 ## 2023 年 8 月 {#august-2023}
 

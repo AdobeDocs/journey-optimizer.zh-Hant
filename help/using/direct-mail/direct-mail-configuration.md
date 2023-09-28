@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 375dfbebcb37f948b468ec9689963b0ffebebecf
+source-git-commit: 280e311ca4515d2147f451af0fffbe6d5fc8029c
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 32%
+source-wordcount: '914'
+ht-degree: 31%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 32%
 
 在能夠產生此檔案之前，您需要建立：
 
-1. A [檔案路由設定](#file-routing-configuration) 指定檔案匯出的伺服器。
+1. A [檔案路由設定](#file-routing-configuration) 指定要匯出檔案的伺服器，並在必要時加密檔案。
 
 1. A [直接郵件表面](#direct-mail-surface) 會參照檔案路由組態。
 
@@ -89,6 +89,8 @@ ht-degree: 32%
    >[!NOTE]
    >
    >AWS區域是AWS用來託管其雲端基礎結構的地理區域。 一般而言，建議您選擇距離直接郵件提供者位置最近的區域。
+
+1. 若要加密檔案，請複製您的加密金鑰並貼到 **[!UICONTROL pgp/GPG加密金鑰]** 欄位。
 
 1. 選取「**[!UICONTROL 提交]**」。檔案路由組態是使用 **[!UICONTROL 作用中]** 狀態。 現在已準備好用於 [直接郵件表面](#direct-mail-surface).
 

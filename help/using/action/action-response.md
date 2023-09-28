@@ -9,55 +9,99 @@ role: Admin
 level: Experienced
 badge: label="Beta" type="Informative"
 keywords: 動作，協力廠商，自訂，歷程， API
-source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
+exl-id: 8f47b605-7179-4522-b50c-0ea34b09bd22
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 5%
+source-wordcount: '610'
+ht-degree: 7%
 
 ---
 
-# 自訂動作增強功能 {#custom-action-enhancements}
+# 在自訂動作中使用 API 呼叫回應 {#custom-action-enhancements}
 
-您現在可以在自訂動作中利用API呼叫回應，並根據這些回應協調您的歷程。
-
-此功能先前僅在使用資料來源時可用。 您現在可以將其用於自訂動作。
+您可以在自訂動作中運用API呼叫回應，並根據這些回應協調您的歷程。
 
 >[!AVAILABILITY]
 >
->此功能目前以 Private Beta 的形式提供。
+>此功能目前在Beta版中提供。
 
->[!WARNING]
->
->自訂動作應僅搭配私人或內部端點使用，並搭配適當的上限或節流限制使用。 請參閱[此頁面](../configuration/external-systems.md)。
+<!--
+You can now leverage API call responses in custom actions and orchestrate your journeys based on these responses.
 
-## 定義自訂動作 {#define-custom-action}
+This capability was previously only available when using data sources. You can now use it with custom actions. 
+-->
 
-定義自訂動作時，已提供兩個增強功能：新增GET方法和新的裝載回應欄位。 其他選項和引數則保持不變。 請參閱[此頁面](../action/about-custom-action-configuration.md)。
+## 重要備註{#custom-action-enhancements-notes}
 
-### 端點設定 {#endpoint-configuration}
+<!--
+* Custom actions should only be used with private or internal endpoints, and used with an appropriate capping or throttling limit. See [this page](../configuration/external-systems.md). 
+-->
 
-此 **URL設定** 區段已重新命名 **端點設定**.
+* 回應承載支援純量陣列：
 
-在 **方法** 下拉式清單，您現在可以選取 **GET**.
+  ```
+  "dummyScalarArray": [
+  "val1",
+  "val2"
+  ]
+  ```
+
+* 回應承載中不支援異質陣列：
+
+  ```
+  "dummyRandomArray": [
+  20,
+  "aafw",
+  false
+  ]
+  ```
+
+<!--
+## Best practices{#custom-action-enhancements-best-practices}
+
+A capping limit of 5000 calls/s is defined for all custom actions. This limit has been set based on customers usage, to protect external endpoints targeted by custom actions. You need to take this into account in your audience-based journeys by defining an appropriate reading rate (5000 profiles/s when custom actions are used). If needed, you can override this setting by defining a greater capping or throttling limit through our Capping/Throttling APIs. See [this page](../configuration/external-systems.md).
+
+You should not target public endpoints with custom actions for various reasons:
+
+* Without proper capping or throttling, there is a risk of sending too many calls to a public endpoint that may not support such volume.
+* Profile data can be sent through custom actions, so targeting a public endpoint could lead to inadvertently sharing personal information externally.
+* You have no control on the data being returned by public endpoints. If an endpoint changes its API or starts sending incorrect information, those will be made available in communications sent, with potential negative impacts.
+-->
+
+<!--
+## Define the custom action {#define-custom-action}
+
+When defining the custom action, two enhancements have been made available: the addition of the GET method and the new payload response field. The other options and parameters are unchanged. See [this page](../action/about-custom-action-configuration.md).
+
+### Endpoint configuration {#endpoint-configuration}
+
+The **URL configuration** section has been renamed **Endpoint configuration**.
+
+In the **Method** drop-down, you can now select **GET**.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### 裝載 {#payloads-new}
+### Payloads {#payloads-new}
 
-此 **動作引數** 區段已重新命名 **裝載**. 有兩個欄位可供使用：
+The **Action parameters** section has been renamed **Payloads**. Two fields are available:
 
-* 此 **請求** 欄位：此欄位僅適用於POST和PUT呼叫方法。
-* 此 **回應** 欄位：這是新功能。 此欄位適用於所有呼叫方法。
+* The **Request** field: this field is only available for POST and PUT calling methods.
+* The **Response** field: this is the new capability. This field as available for all calling methods.
 
 >[!NOTE]
 > 
->這兩個欄位都是選擇性的。
+>Both these fields are optional.
 
 ![](assets/action-response2.png){width="70%" align="left"}
+-->
+
+## 設定自訂動作 {#config-response}
+
+1. 建立自訂動作。 請參見[此頁面](../action/about-custom-action-configuration.md)。
 
 1. 按一下 **回應** 欄位。
 
-   ![](assets/action-response3.png){width="80%" align="left"}
+   ![](assets/action-response2.png){width="80%" align="left"}
 
 1. 貼上呼叫傳回之裝載的範例。 驗證欄位型別是否正確（字串、整數等）。 以下是呼叫期間擷取的回應裝載範例。 我們的本機端點會傳送熟客點數和設定檔的狀態。
 
@@ -117,6 +161,12 @@ ht-degree: 5%
 
    ![](assets/action-response11.png)
 
+## 測試模式記錄 {#test-mode-logs}
+
+您可以透過測試模式存取與自訂動作回應相關的狀態記錄。 如果您已在歷程中定義具有回應的自訂動作，您將會看到 **actionsHistory** 區段來顯示外部端點傳回的裝載（作為該自訂動作的回應）。 這在偵錯方面可能非常有用。
+
+![](assets/action-response12.png)
+
 ## 錯誤狀態 {#error-status}
 
 此 **jo_status_code** 欄位一律可用，即使未定義回應裝載亦然。
@@ -158,4 +208,3 @@ ht-degree: 5%
 ```
 
 如需欄位參考的詳細資訊，請參閱 [本節](../building-journeys/expression/field-references.md).
-

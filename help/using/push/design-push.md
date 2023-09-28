@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: 19440c38d5d663a6b5ea7e99817ee65496bb43e6
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1282'
 ht-degree: 12%
 
 ---
@@ -62,17 +62,15 @@ ht-degree: 12%
 
 如果裝置熒幕已鎖定，則不會顯示這些按鈕：只會顯示 **標題** 和 **訊息** 通知的可見部分。 如果解除鎖定其裝置，收件者將會看到按鈕。
 
-在iOS版本中，您最多可以新增四個按鈕。 在Android版本中，您最多可以新增三個按鈕。
+在Android版本中，您最多可以新增三個按鈕。
 
->[!NOTE]
->
->若為iOS，請使用 **[!UICONTROL iOS類別]** 欄位，以將動作與通知類別產生關聯。
+在iOS版本中，會指定通知類別識別碼。 必須在iOS應用程式中預先設定通知類別，以便定義要顯示的按鈕和要採取的動作。 請參閱 [Apple檔案](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types) 以取得更多詳細資料。
 
 1. 使用 **[!UICONTROL 新增按鈕]** 定義設定：標籤和相關聯的動作。 可能的動作與相同 [點按行為](#on-click-behavior).
 
 1. 使用 **[!UICONTROL 展開檢視]** 圖示來預覽您的個人化按鈕。
 
-![](assets/push_buttons.png)
+   ![](assets/push_buttons.png)
 
 ## 傳送靜音通知 {#silent-notification}
 

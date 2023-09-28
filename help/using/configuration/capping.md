@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: cb5f3b042c1902add9b22d28eb24e2b6e8f1a20b
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 28%
+source-wordcount: '639'
+ht-degree: 26%
 
 ---
 
@@ -62,6 +62,8 @@ ht-degree: 28%
 >此 **maxHttpConnections** 引數為選用。 它可讓您限制Journey Optimizer將開啟給外部系統的連線數量。
 >
 >可設定的最大值為400。 如果未指定任何專案，則系統可能會開啟數千個連線，視系統的動態縮放而定。
+>
+>在部署上限設定時，如果未提供「maxHttpConnection」值，則會在部署的設定中新增預設的「maxHttpConnection = -1」，這表示Journey Optimizer將使用預設系統值。
 
 ### 範例：
 
@@ -73,14 +75,12 @@ ht-degree: 28%
   ],
   "services": {
     "dataSource": {
-      "maxHttpConnections": 50,
       "rating": {
         "maxCallsCount": 500,
         "periodInMs": 1000
       }
     }
-  },
-  "orgId": "<IMS Org Id>"
+  }
 }
 ```
 

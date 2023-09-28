@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 使用案例，多頻道，訊息，歷程，頻道，事件，推播
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '850'
 ht-degree: 1%
 
 ---
@@ -115,6 +115,6 @@ ht-degree: 1%
 
 1. 測試您的歷程之前，請先確認歷程有效且沒有錯誤。
 
-1. 按一下 **測試** 切換位於右上角，以啟動測試模式。 定義測試設定檔如何輸入測試：單一設定檔，或一次最多100個設定檔。 請參閱此 [區段](testing-the-journey.md) 以瞭解如何使用測試模式。
+1. 按一下 **測試** 切換位於右上角，以啟動測試模式。 請參閱此 [區段](testing-the-journey.md) 以瞭解如何使用測試模式。
 
 1. 當歷程準備就緒時，請使用 **發佈** 按鈕，位於右上角。

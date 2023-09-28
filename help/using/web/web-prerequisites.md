@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 11%
@@ -27,7 +27,7 @@ ht-degree: 11%
 
 * 目前在 [!DNL Journey Optimizer] 您只能在中建立網站體驗 **行銷活動**. [了解更多](../campaigns/create-campaign.md#configure)
 
-* [!DNL Journey Optimizer] 網路行銷活動會定位在其他頻道中之前未參與的新設定檔。 這會增加您的可參與設定檔總數，如果您購買的可參與設定檔數量超過合約數量，可能會影響成本。 每個套件的授權量度都列在 [Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html) 頁面。
+* [!DNL Journey Optimizer] 網路行銷活動會定位在其他頻道中之前未參與的新設定檔。 這會增加您的可參與設定檔總數，如果您購買的可參與設定檔數量超過合約數量，可能會影響成本。 每個套件的授權量度都列在 [Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} 頁面。
 
 
 >[!AVAILABILITY]

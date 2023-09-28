@@ -1,0 +1,79 @@
+---
+title: 編寫單頁應用程式
+description: 瞭解如何在Journey Optimizer中撰寫SPA及套用修改至不同的檢視
+feature: Web Channel
+topic: Content Management
+role: User
+level: Beginner
+source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+workflow-type: tm+mt
+source-wordcount: '418'
+ht-degree: 3%
+
+---
+
+# 編寫單頁應用程式 {#web-author-spas}
+
+## 關於檢視 {#about-views}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_modifications_views"
+>title="套用變更至選取的檢視"
+>abstract="變更只會套用至選取的檢視。 檢視可以使用 **瀏覽** 模式，並導覽至這些模式。 找不到您要尋找的檢視？"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="更多詳情"
+
+**單頁應用程式** (SPA)現在可以在網頁設計工具視覺編輯器中撰寫。 這可讓您選取要套用網頁修改的特定檢視。
+
+檢視可定義為整個網站或網站上一組視覺元素，例如首頁、整個產品網站或所有結帳頁面上的傳遞偏好設定框架。
+
+需要一次性開發人員設定，才能定義Adobe Experience Platform Web SDK實作中的檢視。 這可讓您在SPA上建立並執行Adobe Journey Optimizer網路行銷活動。
+
+## 在Web SDK實作中定義檢視 {#define-views}
+
+可在Adobe中運用XDM檢視 [!DNL Journey Optimizer] 讓行銷人員透過網頁視覺化編輯器在SPA上執行網頁個人化和實驗行銷活動。 [了解更多](web-spa-implementation.md)
+
+若要能夠存取及編寫中的檢視 [!DNL Journey Optimizer] 使用者介面，請務必遵循下列步驟操作 [本節](web-spa-implementation.md#implement-xdm-views).
+
+## 在網頁設計工具中探索檢視 {#discover-views}
+
+在Adobe Experience Platform Web SDK實作中完成SPA設定後，您必須導覽您要套用修改之網站的所有檢視。 請遵循下列步驟。
+
+1. [建立網站行銷活動](create-web.md) 並存取 [網頁設計工具](edit-web-content.md).
+
+   您目前所在的檢視畫面會顯示在左上方。
+
+   ![](assets/web-designer-view-home.png)
+
+1. 交換至 **[!UICONTROL 瀏覽]** 模式。 [了解更多](../web/edit-web-content.md#browse-mode)
+
+   ![](assets/web-designer-view-browse.png)
+
+1. 在網站的不同頁面之間導覽，以探索所有頁面。 當您瀏覽其他頁面時，最上方顯示的檢視名稱會變更。
+
+   ![](assets/web-designer-other-view.png)
+
+## 將修改套用至其他檢視 {#apply-modifications-views}
+
+當您在特定檢視中編輯修改之後，您可以將其套用至其他選取的檢視。 請遵循下列步驟。
+
+>[!CAUTION]
+>
+>如果您尚未使用 **[!UICONTROL 瀏覽]** 模式，您將無法選取它們以套用您的修改。 [了解更多](#discover-views)
+
+1. 選取 **[!UICONTROL 修改]** 圖示來在左側顯示對應的窗格。
+
+   ![](assets/web-designer-view-modifications-pane.png)
+
+1. 選取任何修改並按一下 **[!UICONTROL 更多動作]** 按鈕。 選取 **[!UICONTROL 套用至更多檢視]**.
+
+   ![](assets/web-designer-modifications-more-actions.png)
+
+1. 選取您要套用變更的檢視。
+
+   ![](assets/web-designer-modifications-apply-to.png)
+
+1. 按一下&#x200B;**[!UICONTROL 套用]**。
+
+1. 交換至 **[!UICONTROL 瀏覽]** 用於檢查修改內容已套用至所需頁面的模式。
+
+   ![](assets/web-designer-modifications-applied-view.png)

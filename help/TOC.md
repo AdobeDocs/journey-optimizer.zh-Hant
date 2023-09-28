@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 94%
+source-wordcount: '1521'
+ht-degree: 93%
 
 ---
 
@@ -232,11 +232,13 @@ ht-degree: 94%
 + 網路頻道 {#web}
    + [開始使用網路頻道](using/web/get-started-web.md)
    + [網路頻道先決條件](using/web/web-prerequisites.md)
+   + [實作單頁應用程式](using/web/web-spa-implementation.md)
    + [建立網站體驗](using/web/create-web.md)
    + 製作網頁 {#author-web-pages}
       + [編輯網頁內容](using/web/edit-web-content.md)
       + [管理修改](using/web/manage-web-modifications.md)
       + [監視您的網站行銷活動](using/web/monitor-web-campaigns.md)
+      + [編寫單頁應用程式](using/web/web-spa.md)
    + [設定網路子網域](using/web/web-delegated-subdomains.md)
 + 程式碼型體驗 {#code-based-experience}
    + [開始使用程式碼型管道](using/code-based/get-started-code-based.md)
@@ -303,6 +305,7 @@ ht-degree: 94%
    + 設定檔{#profiles}
       + [開始使用設定檔](using/audience/get-started-profiles.md)
       + [建立測試設定檔](using/audience/creating-test-profiles.md)
+      + [使用計算屬性](using/audience/computed-attributes.md)
    + [身分](using/audience/get-started-identity.md)
    + [授權使用情況](using/audience/license-usage.md)
 + 追蹤和監視 {#reporting}
@@ -321,6 +324,9 @@ ht-degree: 94%
       + [目標報告](using/reports/objective-report.md)
       + [登陸頁面全域報告](using/reports/lp-report-global.md)
       + [訂閱清單全域報告](using/reports/subscription-report-global.md)
+   + 管道報表 {#channel-report}
+      + [開始使用管道報告](using/reports/channel-report-gs.md)
+      + [管道報表](using/reports/channel-report.md)
    + 歷程報告 {#reports}
       + [建立歷程報告](using/reports/sharing-overview.md)
       + [步驟事件欄位清單](using/reports/sharing-field-list.md)

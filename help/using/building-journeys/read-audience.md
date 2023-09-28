@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，對象，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 392bd63b666e4db72c2865e4b7134bb3c1711816
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 11%
+source-wordcount: '1267'
+ht-degree: 12%
 
 ---
 
@@ -116,23 +116,17 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### 測試並發佈歷程 {#testing-publishing}
 
-此 **[!UICONTROL 讀取對象]** 活動可讓您在單一設定檔上測試歷程，或在符合對象資格的設定檔中選取的100個隨機測試設定檔上測試歷程。
+此 **[!UICONTROL 讀取對象]** 活動可讓您在單一設定檔上測試歷程。
 
-若要這麼做，請啟動測試模式，然後從左窗格中選取所需的選項。
+要執行此操作，請啟動測試模式。
 
 ![](assets/read-segment-test-mode.png)
 
-然後您就可以照常設定並執行測試模式。 [瞭解如何測試歷程](testing-the-journey.md).
+照常設定並執行測試模式。 [瞭解如何測試歷程](testing-the-journey.md).
 
-測試執行後， **[!UICONTROL 顯示記錄]** 按鈕可讓您根據選取的測試選項檢視測試結果：
+測試執行後， **[!UICONTROL 顯示記錄]** 按鈕可讓您檢視測試結果。 有關詳細資訊，請參閱 [本節](testing-the-journey.md#viewing_logs)
 
-* **[!UICONTROL 一次一個設定檔]**：測試記錄會顯示與使用單一測試模式時相同的資訊。 有關詳細資訊，請參閱 [本節](testing-the-journey.md#viewing_logs)
-
-* **[!UICONTROL 一次最多100個設定檔]**：測試記錄檔可讓您追蹤從Adobe Experience Platform匯出對象的進度，以及所有進入歷程之人員的個人進度。
-
-  請注意，一次使用最多100個設定檔測試歷程並不允許您使用視覺流程追蹤歷程中個人的進度。
-
-  ![](assets/read-segment-log.png)
+![](assets/read-segment-log.png)
 
 測試成功後，您就可以發佈歷程(請參閱 [發佈歷程](publishing-the-journey.md))。 屬於對象的個人將於歷程屬性中指定的日期/時間進入歷程 **[!UICONTROL 排程器]** 區段。
 

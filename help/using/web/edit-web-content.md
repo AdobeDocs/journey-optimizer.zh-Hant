@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 17%
+source-wordcount: '1114'
+ht-degree: 16%
 
 ---
 
@@ -166,6 +166,8 @@ ht-degree: 17%
 從 **[!UICONTROL 瀏覽]** 模式，您可以導覽至您要個人化之所選表面的確切頁面。
 
 在處理經過驗證或無法從特定URL開始使用的頁面時，此外掛程式特別有用。 例如，您將能夠驗證、導覽至您的帳戶頁面或購物車頁面，然後切換回 **[!UICONTROL 設計]** 模式，以在您所需的頁面上執行變更。
+
+使用 **[!UICONTROL 瀏覽]** 模式也可讓您在製作單頁應用程式時瀏覽網站的所有檢視。 [了解更多](web-spa.md)
 
 ### 變更裝置大小 {#change-device-size}
 

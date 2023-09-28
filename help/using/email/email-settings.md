@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
+source-git-commit: 5e58db84275d78c5248f1d617328799d71bb10d1
 workflow-type: tm+mt
-source-wordcount: '1967'
-ht-degree: 11%
+source-wordcount: '2258'
+ht-degree: 10%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 11%
 >title="定義電子郵件類別"
 >abstract="選取使用此表面時將傳送的電子郵件類型：促銷用電子郵件的行銷 (需要使用者同意)，或非商業電子郵件的異動 (還可以傳送至特定內容中取消訂閱的設定檔)。"
 
-在 **電子郵件型別** 區段，選取將與介面一起傳送的訊息型別： **行銷** 或 **異動**.
+在 **電子郵件型別** 區段，選取將與介面一起傳送的訊息型別： **[!UICONTROL 行銷]** 或 **[!UICONTROL 異動]**.
 
 * 選擇 **行銷** 促銷電子郵件，例如零售商店的每週促銷活動。 這些訊息需要使用者同意。
 
@@ -182,6 +182,36 @@ ht-degree: 11%
 
 如果您在提交電子郵件介面時發生錯誤，表示您輸入之地址的子網域尚未設定MX記錄。 請連絡您的管理員以設定對應的MX記錄，或使用其他具有有效MX記錄設定的位址。
 
+## 傳送至隱藏的電子郵件地址 {#send-to-suppressed-email-addresses}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_suppressed_addresses"
+>title="覆寫隱藏清單優先順序"
+>abstract="您可以決定傳送交易式訊息給設定檔，即使其電子郵件地址由於垃圾郵件投訴而位於Adobe Journey Optimizer隱藏清單中亦然。 此選項預設為停用。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="管理隱藏清單"
+
+>[!IMPORTANT]
+>
+>只有當您選取 **[!UICONTROL 異動]** 電子郵件型別。 [了解更多](#email-type)
+
+在 [!DNL Journey Optimizer]，所有標示為硬退信、軟退信和垃圾郵件投訴的電子郵件地址都會自動收集到 [隱藏清單](../configuration/manage-suppression-list.md) 且已排除在傳送歷程或行銷活動之外。
+
+不過，您可以決定繼續傳送 **異動** 輸入設定檔，即使其電子郵件地址由於使用者投訴垃圾郵件而位於隱藏清單中。
+
+事實上，交易式訊息通常包含有用的預期資訊，例如訂單確認或密碼重設通知。 因此，即使他們回報您的一封行銷訊息為垃圾訊息，大部分時間您仍希望客戶收到此類非商業電子郵件。
+
+若要在交易式訊息對象中包含由於垃圾郵件投訴而抑制的電子郵件地址，請從以下位置選取對應的選項： **[!UICONTROL 傳送至隱藏的電子郵件地址]** 區段。
+
+![](assets/preset-suppressed-email-addresses.png)
+
+>[!NOTE]
+>
+>此選項預設為停用。
+
+根據傳遞能力的最佳實務，此選項預設為停用，以確保不會聯絡已選擇退出的客戶。 不過，您可以變更此預設選項，然後允許您將交易式訊息傳送給客戶。
+
+啟用此選項後，儘管客戶將您的行銷電子郵件標籤為垃圾訊息，此類客戶將能夠使用目前介面接收您的交易式訊息。 請務必根據傳遞能力最佳實務管理選擇退出偏好設定。
+
 ## 種子清單 {#seed-list}
 
 >[!CONTEXTUALHELP]
@@ -189,7 +219,7 @@ ht-degree: 11%
 >title="新增種子清單"
 >abstract="選取您所選的種子清單，以自動向您的對象新增特定的內部地址。 這些種子地址將在傳遞執行時包含在內，且為了保證目的將收到一份準確的訊息副本。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單?"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hant#create-seed-list" text="建立種子清單"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#create-seed-list" text="建立種子清單"
 
 
 中的種子清單 [!DNL Journey Optimizer] 可讓您在傳送中自動包含特定的電子郵件種子地址。 [了解更多](../configuration/seed-lists.md)

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d56053d9db3d7c07d629069c985640e694b32ce1
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 100%
+source-wordcount: '1354'
+ht-degree: 95%
 
 ---
 
@@ -46,6 +46,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 * 歷程中的活動數限定為最多 50 個。活動數會顯示於歷程畫布的左上方區段。這有助於提高可讀性、QA 及疑難排解。
 * 當您發佈歷程時，我們會自動縮放和調整，以確保輸送量與穩定性達到最高。 當您一次接近 100 個即時歷程的里程碑時，您會看到此成果的 UI 中出現通知。 如果您看到此通知，並需要一次將歷程擴充至 100 個即時歷程以上，請建立客戶服務支援服務單，我們將協助您達成目標。
+* 在歷程中使用對象資格時，該對象資格活動最多可能需要10分鐘才會生效，並聆聽進入或退出對象的設定檔。
 
 ### 一般動作 {#general-actions-g}
 
@@ -65,6 +66,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ### 自訂動作 {#custom-actions-g}
 
+* 所有自訂動作的上限為5000次呼叫/秒。 此限制是根據客戶使用狀況所設定，可保護自訂動作鎖定的外部端點。
 * 自訂動作 URL 不支援動態參數。
 * 支援 POST、PUT 和 GET 呼叫方法
 * 查詢參數或標題的名稱不得以「.」開頭 或 &quot;$&quot;

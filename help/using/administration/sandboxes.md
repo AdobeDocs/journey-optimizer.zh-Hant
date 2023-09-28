@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 沙箱，虛擬，環境，組織，平台
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 55%
+source-wordcount: '336'
+ht-degree: 58%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 55%
 
 >[!IMPORTANT]
 >
-> 沙箱管理只能由執行 **[!UICONTROL 產品]** 或 **[!UICONTROL 系統]** 管理員。 如需詳細資訊，請參閱 [Admin Console檔案](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
+> 沙箱管理只能由執行 **[!UICONTROL 產品]** 或 **[!UICONTROL 系統]** 管理員。
 
 您可以選擇將不同的沙箱指派給現成可用的或自訂的 **[!UICONTROL 角色]**.
 

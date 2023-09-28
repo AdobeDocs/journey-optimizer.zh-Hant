@@ -9,10 +9,10 @@ role: Admin, Architect
 level: Intermediate
 keywords: 許可權，許可權，限制，存取，沙箱
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 16%
+source-wordcount: '177'
+ht-degree: 12%
 
 ---
 
@@ -29,8 +29,6 @@ ht-degree: 16%
 * **[!UICONTROL 許可權]**：統一許可權，可讓您定義獲指派給的授權 **[!UICONTROL 角色]**. 每個許可權都集中在資源（例如歷程或優惠）下，代表中的不同功能或物件 [!DNL Journey Optimizer]. 請參閱 [許可權層級](high-low-permissions.md) 區段。
 
 * **[!UICONTROL Sandbox]**：將執行個體分割成個別獨立虛擬環境的虛擬沙箱。 請參閱 [使用沙箱](sandboxes.md).
-
-每個概念的管理方式如下 **[!UICONTROL 產品管理員]** 具有Admin Console存取權的使用者。 [進一步瞭解 Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html)。
 
 ![](assets/do-not-localize/permissions_2.png)
 

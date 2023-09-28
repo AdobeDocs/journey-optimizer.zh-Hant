@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: 運算式，編輯器，開始，個人化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f0a7f785a84cb53be0319284a4886841f6974e3d
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 28%
+source-wordcount: '372'
+ht-degree: 25%
 
 ---
 
@@ -40,6 +40,8 @@ ht-degree: 28%
 
 >[!CAUTION]
 >此 **XDM個別設定檔** 結構描述是您唯一可用來個人化內容的結構描述 [!DNL Journey Optimizer].
+
+此外，您也可以善用 **計算屬性** 以個人化您的內容。 計算屬性是根據擷取到Adobe Experience Platform中的個人資料已啟用體驗事件資料集，並當做客戶個人資料中儲存的彙總資料點，以彙總個別行為事件 [瞭解如何使用計算屬性](../audience/computed-attributes.md)
 
 ## 在不同內容中新增個人化 {#contexts}
 

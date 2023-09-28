@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 4%
+source-wordcount: '527'
+ht-degree: 3%
 
 ---
 
@@ -68,11 +68,15 @@ ht-degree: 4%
 
 ## 匯出您的報告 {#export-reports}
 
-您可以輕鬆地將不同的報表匯出為PDF格式，以便共用或列印。
+您可以輕鬆地將不同的報表匯出為PDF或CSV格式，以便共用或列印它們。
 
-1. 在報表中，按一下 **[!UICONTROL 匯出]**.
+>[!BEGINTABS]
 
-   ![](assets/export_2.png)
+>[!TAB 將報表匯出為PDF檔案]
+
+1. 在報表中，按一下 **[!UICONTROL 匯出]** 並選取 **[!UICONTROL PDF檔案]**.
+
+   ![](assets/export_6.png)
 
 1. 在「列印」視窗中，視需要設定檔案。 請注意，選項可能會依您的瀏覽器而有所不同。
 
@@ -81,3 +85,21 @@ ht-degree: 4%
 1. 找到您要儲存檔案的資料夾，視需要重新命名，然後按一下「儲存」。
 
 您的報告現在可以在pdf檔案中檢視或共用。
+
+>[!TAB 將報表匯出為CSV檔案]
+
+1. 在報表中，按一下 **[!UICONTROL 匯出]** 並選取 **[!UICONTROL CSV檔案]** 在整體報表層級產生CSV檔案。
+
+   ![](assets/export_4.png)
+
+1. 您也可以選擇從特定Widget匯出資料。 按一下 **[!UICONTROL 將Widget資料匯出至CSV]** 位於選取的Widget旁。
+
+   ![](assets/export_5.png)
+
+1. 您的檔案會自動下載，並位於您的本機檔案中。
+
+   如果在報表層級產生檔案，檔案會包含每個Widget的詳細資訊，包括其標題和資料。
+
+   如果您在Widget層級產生檔案，它會特別提供所選Widget的資料。
+
+>[!ENDTABS]
