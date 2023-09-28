@@ -6,9 +6,9 @@ description: 瞭解如何使用計算屬性。
 feature: Profiles
 role: User
 level: Beginner
-source-git-commit: d2619b3b3871073b35faf04adba71dbb1ddd29a1
+source-git-commit: 608394da88d42095a1adc517a067c725eac52707
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '546'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 若要建立計算屬性，請導覽至 **[!UICONTROL 計算的屬性]** 索引標籤中的 **[!UICONTROL 設定檔]** 功能表位於左側。
 
-在此畫面中，您可以建置規則來建構計算屬性，這些規則會在指定的回顧期間內，結合事件屬性、彙總函式。 例如，您可以計算過去三個月中進行的購買總數、識別上週未購買的個人資料所檢視的最新專案，或統計每個個人資料累計的總獎勵點。
+在此畫面中，您可以建置規則來建構計算屬性，這些規則會在指定的回顧期間內，結合事件屬性、彙總函式。 例如，您可以計算過去三個月中進行的購買總數、識別上週未購買的設定檔所檢視的最新專案，或統計每個設定檔累積的總獎勵點。
 
 ![](assets/computed-attributes.png)
 
@@ -66,6 +66,6 @@ Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶設定檔�
 
 計算屬性在Journey Optimizer中提供了一組多樣化的功能。 您可以將它們用於各種用途，例如個人化訊息內容、建立新對象或根據特定計算屬性分割歷程。 例如，您可以在「條件」活動中新增單一計算屬性，根據設定檔過去三週內的總購買量分割歷程路徑。 您也可以顯示每個設定檔最近檢視的專案，以個人化電子郵件。
 
-由於計算屬性是在您的設定檔聯合結構描述中建立的設定檔屬性欄位，因此您可以從 **SystemComputedAttribute** 欄位群組。 然後，您可以從此將計算屬性加入運算式中，將其視為任何其他設定檔屬性來執行所需的作業。
+由於計算屬性是在您的設定檔聯合結構描述中建立的設定檔屬性欄位，因此您可以從 **SystemComputedAttribute** 欄位群組。 從那裡，您可以將計算屬性新增到運算式中，將其視為任何其他設定檔屬性來執行所需的作業。
 
 ![](assets/computed-attributes-ajo.png)
