@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: dbdc363ccfcaa99b02289fb365dbece5d08ed544
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 27%
@@ -24,7 +24,7 @@ ht-degree: 27%
 >文字訊息通訊可能會受到各種法律規範要求的約束，具體取決於其性質、您傳送文字訊息的位置以及收件者的位置。 雖然Adobe Journey Optimizer會處理長程式碼和免付費號碼的訊息，如以下所述，請洽詢您的法律顧問，以確保您的文字訊息通訊符合所有適用的法律規範要求。
 >
 
-## 原生傳入關鍵字{#sms-native-keywords}
+## 原生傳入關鍵字 {#sms-native-keywords}
 
 依預設，Adobe Journey Optimizer會針對免付費和長程式碼訊息處理下列標準英文回複訊息：STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE。 請注意，搭配Journey Optimizer使用時，只有Sinch和Infobip支援原生關鍵字。
 
@@ -33,7 +33,7 @@ ht-degree: 27%
 無需任何步驟，即可確保SMS選擇退出功能在Adobe Journey Optimizer中運作，因為關鍵字回應STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE會自動識別。 在Adobe Journey Optimizer中即時更新設定檔選擇退出狀態。
 
 
-## 封鎖清單{#sms-blocklists}
+## 封鎖清單 {#sms-blocklists}
 
 除了Adobe Journey Optimizer根據選擇退出狀態（用於與Twilio或Sinch直接整合）停止傳送外，大部分的SMS閘道提供者也會維護封鎖清單，確保SMS訊息不會傳送給選擇退出的個人。 如果您使用Sinch或Twilio以外的提供者，並透過傳送簡訊 [自訂頻道](../building-journeys/using-custom-actions.md)，您必須向提供者確認。
 

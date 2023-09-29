@@ -11,10 +11,10 @@ keywords: IP、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
 exl-id: 0fd0ba66-8ad2-4239-a6e0-ea29ea2a4a15
-source-git-commit: b657f4380026988ac324ee87c96375734a9b3961
+source-git-commit: c7a36d895927e616591627a6afc05d1fa43b7c51
 workflow-type: tm+mt
-source-wordcount: '1503'
-ht-degree: 3%
+source-wordcount: '1679'
+ht-degree: 2%
 
 ---
 
@@ -47,6 +47,11 @@ ht-degree: 3%
 >title="排除網域群組"
 >abstract="選擇要從目前階段排除的網域。網域排除需要非執行階段，因此您可能必須分割執行階段才能新增排除專案。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="分割階段"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_phases"
+>title="定義計畫的階段"
+>abstract="每個階段都包含數個回合，您會指派單一行銷活動給這些回合。"
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
@@ -103,6 +108,31 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >如果您從IP熱身計畫中刪除所有階段，建議重新上傳計畫。 [了解更多](#re-upload-plan)
 
 ## 定義回合 {#define-runs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_run"
+>title="定義每個回合"
+>abstract="定義並啟動所有階段的每個執行。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_last_engagement"
+>title="在參與上篩選"
+>abstract="例如，此欄是僅針對過去20天內與您的品牌互動的使用者的篩選器。 您也可以透過變更此設定 **編輯執行** 選項。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_retry"
+>title="設定時間視窗"
+>abstract="您可以定義一個時段，在細分作業發生任何延遲時，在此時段內可執行IP熱身行銷活動。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_pause"
+>title="取消有對象錯誤的執行"
+>abstract="在評估該回合的對象後，如果合格的設定檔少於目標的設定檔，選取此選項可取消回合。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_qualified"
+>title="檢視合格的設定檔"
+>abstract="此欄顯示合格的設定檔數目。 評估對象的執行後，如果目標設定檔超過合格的設定檔，則仍會執行執行，除非 **暫停錯誤** 選項已啟用。 在此情況下，執行會被取消。"
 
 1. 選取每次執行的排程。
 

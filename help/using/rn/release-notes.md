@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8e9d3f6916ee5a0b6919446b95c716cc6648fbbc
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
-source-wordcount: '4018'
-ht-degree: 87%
+source-wordcount: '4086'
+ht-degree: 86%
 
 ---
 
@@ -132,7 +132,9 @@ ht-degree: 87%
 
 **簡訊頻道**
 
-兩個新欄位， **選擇加入訊息** 和 **說明訊息**，已新增至API設定畫面，可讓使用者自訂傳入關鍵字的回應。 請注意，這僅適用於Sinch SMS提供者。 [了解更多](../sms/sms-configuration.md)
+* 兩個新欄位， **選擇加入訊息** 和 **說明訊息**，已新增至API設定畫面，可讓使用者自訂傳入關鍵字的回應。 請注意，這僅適用於Sinch SMS提供者。 [了解更多](../sms/sms-configuration.md#create-api)
+
+* 簡訊選擇退出不在頻道層級管理。 現在這是號碼專屬的訊息，這表示如果部分設定檔選擇退出指定號碼或短代碼，您仍可使用其他號碼（您可能正在用來傳送簡訊）傳送訊息給設定檔。 新選項可讓您選取 **選擇退出號碼** 您要用於指定的曲面。 [了解更多](../sms/sms-configuration.md#message-preset-sms)
 
 **直接郵件頻道**
 

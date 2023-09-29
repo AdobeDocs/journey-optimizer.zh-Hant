@@ -6,10 +6,10 @@ description: 瞭解如何設定環境，以使用Journey Optimizer傳送簡訊
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: b657f4380026988ac324ee87c96375734a9b3961
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 17%
+source-wordcount: '1010'
+ht-degree: 16%
 
 ---
 
@@ -105,7 +105,7 @@ Adobe Journey Optimizer目前與Sinch、Twilio和Infobip等協力廠商整合，
 
 1. 輸入表面的名稱和說明（選擇性），然後選取SMS通道。
 
-   ![](assets/sms_preset.png)
+   ![](assets/sms-create-surface.png)
 
    >[!NOTE]
    >
@@ -113,26 +113,26 @@ Adobe Journey Optimizer目前與Sinch、Twilio和Infobip等協力廠商整合，
 
 1. 定義 **簡訊設定**.
 
-   ![](assets/preset-sms.png)
+   ![](assets/sms-surface-settings.png)
 
-   * 選取 **[!UICONTROL 簡訊型別]** 將與介面一併傳送的郵件： **[!UICONTROL 異動]** 或 **[!UICONTROL 行銷]**.
+   首先，選取 **[!UICONTROL 簡訊型別]** 將與介面一併傳送的郵件： **[!UICONTROL 異動]** 或 **[!UICONTROL 行銷]**.
 
-      * 選擇 **行銷** 促銷簡訊：這些訊息需要使用者同意。
-      * 選擇 **異動** 非商業訊息，例如訂單確認、密碼重設通知或傳遞資訊。
+   * 選擇 **行銷** 促銷簡訊：這些訊息需要使用者同意。
+   * 選擇 **異動** 非商業訊息，例如訂單確認、密碼重設通知或傳遞資訊。
 
-     >[!CAUTION]
-     >
-     >**異動** SMS訊息可傳送給取消訂閱行銷通訊的設定檔。 這些訊息只能在特定內容中傳送。
+   建立SMS訊息時，您必須選擇與您為訊息選取的類別相符的有效頻道介面。
 
-     建立SMS訊息時，您必須選擇與您為訊息選取的類別相符的有效頻道介面。
+   >[!CAUTION]
+   >
+   >**異動** SMS訊息可傳送給取消訂閱行銷通訊的設定檔。 這些訊息只能在特定內容中傳送。
 
-   * 選取 **[!UICONTROL 簡訊設定]** 以與曲面相關聯。
+1. 選取 **[!UICONTROL 簡訊設定]** 以與曲面相關聯。
 
-     有關如何設定環境以傳送SMS訊息的詳細資訊，請參閱 [本節](#create-api).
+   有關如何設定環境以傳送SMS訊息的詳細資訊，請參閱 [本節](#create-api).
 
-   * 輸入 **[!UICONTROL 寄件者號碼]** 您&#x200B;要用於通訊。
+1. 輸入 **[!UICONTROL 寄件者號碼]** 您&#x200B;要用於通訊。
 
-   * 選取您的 **[!UICONTROL 簡訊執行欄位]** 以選取 **[!UICONTROL 設定檔屬性]** 與設定檔的電話號碼相關聯。
+1. 選取您的 **[!UICONTROL 簡訊執行欄位]** 以選取 **[!UICONTROL 設定檔屬性]** 與設定檔的電話號碼相關聯。
 
 1. 如果您想要在SMS訊息中使用URL縮短功能，請從 **[!UICONTROL 子網域]** 清單。
 
@@ -140,11 +140,15 @@ Adobe Journey Optimizer目前與Sinch、Twilio和Infobip等協力廠商整合，
    >
    >若要能夠選取子網域，請確定您先前已設定至少一個SMS子網域。 [了解作法](sms-subdomains.md)
 
+1. 輸入 **[!UICONTROL 選擇退出號碼]** 您要用於此曲面。 當設定檔選擇退出此號碼時，您仍然可以從其他號碼傳送訊息給設定檔，而您可能會使用其他號碼傳送簡訊給設定檔 [!DNL Journey Optimizer].
+
+   >[!NOTE]
+   >
+   >在 [!DNL Journey Optimizer]，頻道層級不再管理簡訊選擇退出。 它現在特定於數字。
+
 1. 設定好所有引數後，按一下 **[!UICONTROL 提交]** 以確認。 您也可以將管路曲面儲存為草繪，並稍後恢復其組態。
 
-   ![](assets/sms_preset_2.png)
-<!--
-1. **[!UICONTROL Opt-out number]** But what we need to call out is that the opt-out is no longer at a channel level. Previously on receiving the opt-out keyword we used to opt-out the profile at the channel level. Now, we have made it short code specific. So if the customer is using multiple short codes within AJO to send out SMSs, they can continue to send messages to users from other shortcodes if the end user unsubscribes from 1.-->
+   ![](assets/sms-submit-surface.png)
 
 1. 建立管道曲面後，它會顯示於清單中，其中包含 **[!UICONTROL 處理中]** 狀態。
 
