@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 建立IP熱身行銷活動
+title: 建立 IP 暖身行銷活動
 description: 瞭解如何建立IP熱身行銷活動
 feature: Application Settings
 topic: Administration
@@ -10,18 +10,19 @@ level: Intermediate
 keywords: IP、集區、傳遞能力
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
-# 建立IP熱身行銷活動 {#create-ip-warmup-campaign}
+# 建立 IP 暖身行銷活動 {#create-ip-warmup-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
->title="啟動IP熱身計畫選項"
+>title="啟用 IP 暖身計劃選項"
 >abstract="選取此選項時，可以在IP熱身計畫中使用行銷活動。 接著，行銷活動排程將由相關聯的IP熱身計畫驅動。"
 
 >[!BEGINSHADEBOX]
@@ -29,7 +30,7 @@ ht-degree: 3%
 本文件指南會提供以下內容：
 
 * [開始使用IP熱身](ip-warmup-gs.md)
-* **[建立IP熱身行銷活動](ip-warmup-campaign.md)**
+* **[建立 IP 暖身行銷活動](ip-warmup-campaign.md)**
 * [建立IP熱身計畫](ip-warmup-plan.md)
 * [執行IP熱身計畫](ip-warmup-execution.md)
 
@@ -82,4 +83,3 @@ ht-degree: 3%
 行銷活動上線後，即準備好用於IP熱身計畫。 [了解更多](ip-warmup-plan.md)
 
 <!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
-

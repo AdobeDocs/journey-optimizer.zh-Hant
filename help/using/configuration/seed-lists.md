@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 種子清單，種子清單，種子，設定
-source-git-commit: f6708555d20fd04beb85574afd46e75be654d4e6
+exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 16%
@@ -79,7 +80,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"
 >title="定義種子清單"
->abstract="使用種子清單自動將指定的內部地址新增到您的傳遞對象，當作保障機制。種子清單讓您可以監視發送出去的郵件副本，以確保所有顯示元素正確無誤並保護您的郵寄清單。目前該功能僅適用於電子郵件頻道。"
+>abstract="為了保證傳遞目的，可使用種子清單自動將特定的內部地址新增到您的傳遞對象。種子清單讓您可以監視發送出去的郵件副本，以確保所有顯示元素正確無誤並保護您的郵寄清單。目前該功能僅適用於電子郵件頻道。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單?"
 
 >[!CONTEXTUALHELP]
@@ -154,4 +155,3 @@ ht-degree: 16%
 >[!NOTE]
 >
 >對於歷程，電子郵件傳送僅會於歷程首次執行時傳送至種子地址。
-

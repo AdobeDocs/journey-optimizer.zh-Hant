@@ -8,10 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 5%
+ht-degree: 16%
 
 ---
 
@@ -20,8 +21,8 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
 >title="什麼是決定？"
->abstract="決策政策會運用體驗決策引擎，根據對象來挑選最佳內容以傳送。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="關於Experience decisioning"
+>abstract="決定原則利用體驗決定引擎，根據對象選擇要傳遞的最佳內容。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="關於體驗決定"
 
 >[!BEGINSHADEBOX]
 
@@ -50,18 +51,18 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
->title="定義要傳回的專案數"
->abstract="選取您要傳回的決策專案數。 例如，如果您選取2，則會針對目前曲面顯示最佳的2個合格選件。"
+>title="定義要傳回的項目數量"
+>abstract="選取您想要傳回的決定項目數量。例如，如果您選取 2，則目前表面將顯示最佳的 2 個符合資格優惠。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
 >title="選取遞補"
->abstract="當為該決定原則定義的所有選取策略都不符合資格時，則會向使用者顯示遞補專案。"
+>abstract="當為該決定原則定義的所有選擇策略都不合格時，會向使用者顯示遞補項目。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_strategy"
 >title="什麼是策略？"
->abstract="選取策略的順序會決定先評估哪個策略。 至少需要一個策略。 合併策略中的決定專案將會一起評估。"
+>abstract="選擇策略的順序決定了先評估哪個策略。至少需要一個策略。組合策略中的決定項目將一起評估。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="建立策略"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="評估順序"
 
@@ -85,7 +86,7 @@ ht-degree: 5%
 
    ![](assets/decision-code-based-details.png)
 
-1. 選取要傳回的專案數。 例如，如果您選取2，則會針對目前曲面顯示最佳的2個合格選件。 按一下 **[!UICONTROL 下一個]**
+1. 選取要傳回的專案數。 例如，如果您選取 2，則目前表面將顯示最佳的 2 個符合資格優惠。按一下 **[!UICONTROL 下一個]**
 
 1. 使用 **[!UICONTROL 新增策略]** 按鈕來定義決定原則的選取策略。 每個策略都包含與適用性限制相關聯的優惠方案集合，以及決定要顯示的優惠方案的排名方法。 [了解更多](selection-strategies.md)
 
@@ -93,7 +94,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >至少需要一個策略。 您無法新增超過10個策略。
+   >至少需要一個策略。您無法新增超過10個策略。
 
 1. 從 **[!UICONTROL 新增策略]** 畫面，您也可以建立策略。 此 **[!UICONTROL 建立選擇策略]** 按鈕會將您重新導向至 **[!UICONTROL 體驗決策]** > **[!UICONTROL 設定]** 功能表。 [了解更多](selection-strategies.md)
 

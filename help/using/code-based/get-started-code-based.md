@@ -8,10 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1172'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -141,8 +142,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"
->title="定義程式碼型體驗介面"
->abstract="程式碼型介面是指任何專為使用者或系統互動而設計的實體，可由URI唯一識別。"
+>title="定義基於程式碼的體驗表面"
+>abstract="基於程式碼的表面是為使用者或系統互動而設計的任何實體，由 URI 唯一識別。"
 
 A **程式碼型體驗介面** 是專為使用者或系統互動設計的任何實體<!--ask Robert to explain further-->，此資訊會由 **URI**.
 

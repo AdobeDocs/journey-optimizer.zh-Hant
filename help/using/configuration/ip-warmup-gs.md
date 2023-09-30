@@ -10,10 +10,11 @@ level: Experienced
 keywords: IP、傳遞能力
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -31,7 +32,7 @@ ht-degree: 7%
 本文件指南會提供以下內容：
 
 * **[開始使用IP熱身](ip-warmup-gs.md)**
-* [建立IP熱身行銷活動](ip-warmup-campaign.md)
+* [建立 IP 暖身行銷活動](ip-warmup-campaign.md)
 * [建立IP熱身計畫](ip-warmup-plan.md)
 * [執行IP熱身計畫](ip-warmup-execution.md)
 

@@ -48,7 +48,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
 >title="預覽和測試您的訊息"
->abstract="定義訊息內容後，您就可以使用測試設定檔進行預覽及測試。 "
+>abstract="定義訊息內容後，您就可以使用測試設定檔進行預覽及測試。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=zh-Hant#email-rendering" text="電子郵件轉譯"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=zh-Hant#preview-email" text="預覽"
 

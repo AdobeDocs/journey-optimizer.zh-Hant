@@ -8,10 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -68,8 +69,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
->title="使用運算式編輯器"
->abstract="插入並編輯您要在這個程式碼型體驗動作中傳送的程式碼。"
+>title="使用運算式編輯器中"
+>abstract="插入並編輯您想要作為此基於程式碼之體驗動作的一部分的程式碼。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="開始使用運算式編輯器"
 
 1. 在行銷活動版本畫面中，選取 **[!UICONTROL 編輯程式碼]**.
@@ -104,8 +105,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
->title="預覽您的程式碼型體驗"
->abstract="取得程式碼型體驗的模擬。"
+>title="預覽您的基於程式碼的體驗"
+>abstract="模擬基於程式碼的體驗。"
 
 若要顯示已修改程式碼型體驗的預覽，請遵循下列步驟。
 

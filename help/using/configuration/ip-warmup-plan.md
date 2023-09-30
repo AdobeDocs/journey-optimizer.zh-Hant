@@ -10,10 +10,11 @@ level: Experienced
 keywords: IP、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 4%
+ht-degree: 14%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 4%
 本文件指南會提供以下內容：
 
 * [開始使用IP熱身](ip-warmup-gs.md)
-* [建立IP熱身行銷活動](ip-warmup-campaign.md)
+* [建立 IP 暖身行銷活動](ip-warmup-campaign.md)
 * **[建立IP熱身計畫](ip-warmup-plan.md)**
 * [執行IP熱身計畫](ip-warmup-execution.md)
 
@@ -110,15 +111,15 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
->title="指定您的IP熱身計畫"
->abstract="下載CSV範本，並填入IP熱身階段的資料和目標設定檔數量。"
+>title="指定您的 IP 暖身計劃"
+>abstract="下載 CSV 範本並在其中填入 IP 暖身階段和設定檔目標數量的資料。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
 >title="選取行銷表面"
->abstract="您必須選取與您要與IP熱身計畫關聯的行銷活動中選取的相同表面。"
+>abstract="您選取的表面必須相同於您想要與 IP 暖身計畫相關聯之行銷活動的所選表面。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=zh-Hant" text="設定頻道介面"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=zh-Hant" text="建立IP熱身行銷活動"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=zh-Hant" text="建立 IP 暖身行銷活動"
 
 當一或多個具有的即時行銷活動時 **[!UICONTROL IP熱身計畫啟用]** 啟用的選項已啟用，您可以將其與IP熱身計畫建立關聯。
 
@@ -138,7 +139,7 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 
    >[!CAUTION]
    >
-   >您必須選取與您要與IP熱身計畫關聯的行銷活動中選取的相同表面。 [瞭解如何建立IP熱身行銷活動](ip-warmup-campaign.md)
+   >您選取的表面必須相同於您想要與 IP 暖身計畫相關聯之行銷活動的所選表面。[瞭解如何建立IP熱身行銷活動](ip-warmup-campaign.md)
 
 1. 上傳包含IP熱身計畫的Excel檔案。 [了解更多](#prepare-file)
 
