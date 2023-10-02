@@ -5,9 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
+source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '464'
 ht-degree: 3%
 
 ---
@@ -22,7 +23,9 @@ ht-degree: 3%
 >abstract="變更只會套用至選取的檢視。 檢視可以使用 **瀏覽** 模式，並導覽至這些模式。 找不到您要尋找的檢視？"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="更多詳情"
 
-**單頁應用程式** (SPA)現在可以在網頁設計工具視覺編輯器中撰寫。 這可讓您選取要套用網頁修改的特定檢視。
+**單頁應用程式** (SPA)現在可以在網頁設計工具視覺編輯器中撰寫。 這可讓您選取要 **檢視** 您想要將網頁修改套用至。
+
+[透過此影片瞭解如何編寫單頁應用程式](#video)
 
 檢視可定義為整個網站或網站上一組視覺元素，例如首頁、整個產品網站或所有結帳頁面上的傳遞偏好設定框架。
 
@@ -54,7 +57,7 @@ ht-degree: 3%
 
 ## 將修改套用至其他檢視 {#apply-modifications-views}
 
-當您在特定檢視中編輯修改之後，您可以將其套用至其他選取的檢視。 請遵循下列步驟。
+當您在特定檢視中新增修改後，即可將其套用至其他選取的檢視。 請遵循下列步驟。
 
 >[!CAUTION]
 >
@@ -77,3 +80,14 @@ ht-degree: 3%
 1. 交換至 **[!UICONTROL 瀏覽]** 用於檢查修改內容已套用至所需頁面的模式。
 
    ![](assets/web-designer-modifications-applied-view.png)
+
+## 操作說明影片{#video}
+
+此影片說明如何：
+
+* 探索SPA檢視，使用 **[!UICONTROL 瀏覽]** 模式
+* 在目前檢視上執行製作
+* 將網站修改套用至多個檢視或探索到的所有檢視
+* 對修改執行大量動作
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

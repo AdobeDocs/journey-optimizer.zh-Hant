@@ -5,10 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-exl-id: da12c416-3dcb-4c45-806c-ebe298c386f4
-source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
+source-git-commit: f00843c54f18c6d9599d527101496d1d58df09f3
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '952'
 ht-degree: 7%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 7%
 
 使用網頁設計工具編輯頁面時，您可以直接從 **[!UICONTROL 修改]** 窗格 — 不需從Web設計工具介面選取元件並加以編輯。 請遵循下列步驟。
 
-1. 從 **[!UICONTROL 修改]**，按一下 **[!UICONTROL 更多動作]** 按鈕。
+1. 從 **[!UICONTROL 修改]** 窗格，按一下 **[!UICONTROL 更多動作]** 按鈕。
 
 1. 選取 **[!UICONTROL 新增修改]**.
 
@@ -66,7 +66,7 @@ ht-degree: 7%
 
 1. 選取修改型別：
 
-   * **[!UICONTROL CSS選取器]**- [瞭解更多](#css-selector)
+   * **[!UICONTROL CSS選取器]** - [瞭解更多](#css-selector)
    * **[!UICONTROL 頁面`<Head>`]** - [瞭解更多](#page-head)
 
 1. 輸入您的內容和 **[!UICONTROL 儲存]** 您的變更。
@@ -184,4 +184,3 @@ ht-degree: 7%
 如果您使用 **[!UICONTROL 頁面`<head>`]** 針對影響相同URL的兩個行銷活動的修改型別，JavaScript會從兩個行銷活動插入頁面。 [!DNL Journey Optimizer] 自動決定傳遞內容的順序。 確定程式碼不取決於放置位置。 您可以自行確定程式碼中是否有衝突。
 
 +++
-
