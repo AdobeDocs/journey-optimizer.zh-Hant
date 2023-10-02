@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c5c7d4d050958fac9b91e2a2a4c4a7a6640d1f06
+source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 93%
@@ -204,10 +204,10 @@ ht-degree: 93%
       + [設定電子郵件表面設定](using/email/email-settings.md)
 + 應用程式內頻道{#in-app}
    + [開始使用應用程式內頻道](using/in-app/get-started-in-app.md)
+   + [應用程式內頻道必要條件](using/in-app/inapp-configuration.md)
    + [建立應用程式內訊息](using/in-app/create-in-app.md)
    + [設計您的應用程式內內容](using/in-app/design-in-app.md)
    + [測試並傳送您的應用程式內通知](using/in-app/send-in-app.md)
-   + [設定應用程式內頻道](using/in-app/inapp-configuration.md)
 + 推播通知頻道{#push}
    + [開始使用推播通知](using/push/get-started-push.md)
    + [建立推播通知](using/push/create-push.md)
@@ -468,7 +468,7 @@ ht-degree: 93%
       + [建立 IP 池](using/configuration/ip-pools.md)
    + 實作IP熱身計畫 {#implement-ip-warmup-plan}
       + [開始使用IP熱身計畫](using/configuration/ip-warmup-gs.md)
-      + [建立IP熱身行銷活動](using/configuration/ip-warmup-campaign.md)
+      + [建立 IP 暖身行銷活動](using/configuration/ip-warmup-campaign.md)
       + [建立IP熱身計畫](using/configuration/ip-warmup-plan.md)
       + [執行IP熱身計畫](using/configuration/ip-warmup-execution.md)
    + 監視電子郵件地址 {#monitor-reputation}

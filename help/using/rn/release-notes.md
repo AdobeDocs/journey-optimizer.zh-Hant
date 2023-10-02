@@ -4,7 +4,7 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
+source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
 workflow-type: tm+mt
 source-wordcount: '4086'
 ht-degree: 86%
@@ -90,7 +90,7 @@ ht-degree: 86%
 <tr>
 <td>
 <p>此新功能可讓您輕鬆管理推送認證，並將其與應用程式介面中的專用沙箱建立關聯。</p>
-<p>如需詳細資訊，請參閱<a href="../in-app/inapp-configuration.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../in-app/inapp-configuration.md#channel-prerequisites">詳細文件</a>。</p>
 </tr>
 </tbody>
 </table>
