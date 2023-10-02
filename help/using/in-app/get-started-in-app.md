@@ -8,8 +8,8 @@ level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
-workflow-type: tm+mt
-source-wordcount: '206'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
