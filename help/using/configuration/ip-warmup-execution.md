@@ -11,10 +11,10 @@ keywords: IP、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 2%
+source-wordcount: '1696'
+ht-degree: 3%
 
 ---
 
@@ -138,11 +138,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 或者，您可以定義一個時段，在細分工作發生任何延遲時，可以執行IP熱身行銷活動。 若要這麼做，請按一下計畫名稱旁的左上方屬性圖示，然後使用 **[!UICONTROL 重試執行時間]** 下拉式清單以選取持續時間 — 最多240分鐘（4小時）。
+1. 或者，您可以定義一個時間範圍，萬一出現任何延遲，IP熱身行銷活動可以在此期間執行。 [細分](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} 工作。 若要這麼做，請按一下計畫名稱旁的左上方屬性圖示，然後使用 **[!UICONTROL 重試執行時間]** 下拉式清單以選取持續時間 — 最多240分鐘（4小時）。
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 
-   例如，如果您將指定日的傳送時間設定為晚上9點，並選取120分鐘作為重試執行時間，則細分工作將允許以2小時的機會時段執行。
+   例如，如果您在指定日期的上午9點設定傳送時間，並選取120分鐘作為重試執行時間，這將允許執行細分工作的2小時（上午9點至上午11點）的機會時段。
 
    >[!NOTE]
    >
@@ -158,7 +158,9 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 1. **[!UICONTROL 啟動]** 回合。 [了解更多](#activate-run)
 
-1. 此回合的狀態將變更為 **[!UICONTROL 即時]**. 不同的執行狀態會列在 [本節](#monitor-plan). 如果行銷活動尚未開始，您可以停止即時執行。<!--why?-->
+1. 此回合的狀態將變更為 **[!UICONTROL 即時]**. 不同的執行狀態會列在 [本節](#monitor-plan).
+
+1. 如果行銷活動尚未開始，您可以停止即時執行。<!--why?-->
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
@@ -166,7 +168,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >行銷活動開始執行後， **[!UICONTROL 停止]** 按鈕變為無法使用。
 
-1. 若要新增回合，請選取 **[!UICONTROL 在下方新增回合]** 從三個點的圖示。
+1. 若要新增回合，請選取 **[!UICONTROL 在下方新增回合]** 從「更多動作」圖示。
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
@@ -174,7 +176,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 若要啟動回合，請選取 **[!UICONTROL 啟動]** 按鈕。
 
-請確定您已排程足夠的時間來執行分段工作。
+請確定您已排程足夠的時間，以允許 [細分](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} 要執行的作業。
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -182,17 +184,17 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >
 >每次執行必須在實際傳送時間前至少12小時啟動。 否則，可能無法完成分段。
 
-當您啟動執行時，會自動建立數個區段：
+當您啟動執行時，會自動建立數個區段。
 
 * 如果啟動階段的第一次執行：
 
-   * 系統會為已排除的行銷活動對象建立區段（如果有的話）。
+   * A [區段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"} 會針對已排除的行銷活動對象建立（如果有的話）。
    * 系統會為已排除的網域群組（如果有的話）建立另一個區段。
 
 * 啟用任何回合時：
 
    * 系統會為最後一個參與篩選器建立另一個區段。
-   * 對象構成會建立為對應至行銷活動將傳送對象的對象。
+   * 一個 [對象構成](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"} 會建立與行銷活動將傳送至之對象相對應的對象。
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
@@ -200,14 +202,13 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 <!--Upon activation, when the segment evaluation happens, more segments will be created by the IP warmup service and will be leveraged in an audience composition and a new audience will be created for each run splitted into the different selected domains.-->
 
-
 ## 管理您的計畫 {#manage-plan}
 
 在任何時候，如果您的IP熱身計畫未如預期執行，您可以採取下列動作。
 
 ### 分割階段 {#split-phase}
 
-如果要從特定執行開始新增階段，請選取 **[!UICONTROL 分割至新階段選項]** 從三個點的圖示。
+如果要從特定執行開始新增階段，請選取 **[!UICONTROL 分割至新階段選項]** 從「更多動作」圖示。
 
 ![](assets/ip-warmup-plan-run-split-run.png)
 
@@ -257,7 +258,7 @@ But need to explain in which case you want to modify campaigns, provide examples
 
 * 在初始IP熱身計畫中，階段2有9個執行。
 
-* 已執行4個執行（無論是否失敗、完成或取消 — 只要已嘗試執行，就是已執行的執行）。
+* 已執行4個回合（無論是否失敗、完成或取消）<!--as long as a run has been attempted, it is an executed run-->)。
 
 * 如果您重新上傳新計畫，前4個已執行執行的階段2將進入唯讀模式。
 
@@ -276,5 +277,5 @@ IP熱身計畫本身也可作為單一地點的整合報表。 您可以檢查�
 * **[!UICONTROL 草稿]** ：每當建立執行時，無論是何時 [建立新計畫](ip-warmup-plan.md) 或 [新增回合](#define-runs) 從使用者介面，它需要 **[!UICONTROL 草稿]** 狀態。
 * **[!UICONTROL 即時]**：每當您啟動回合時，它需要 **[!UICONTROL 即時]** 狀態。
 * **[!UICONTROL 已完成]**：此回合的行銷活動執行已完成。 <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
-* **[!UICONTROL 已取消]**：a **[!UICONTROL 即時]** 已使用「 」取消執行 **[!UICONTROL 停止]** 按鈕。 此按鈕僅在行銷活動執行尚未開始時可用。 [了解更多](#define-runs)
+* **[!UICONTROL 已取消]**：a **[!UICONTROL 即時]** 已使用「 」取消執行 **[!UICONTROL 停止]** 按鈕，或者您已啟用 **[!UICONTROL 暫停錯誤]** 選項且發生錯誤。 [了解更多](#define-runs)
 * **[!UICONTROL 已失敗]**：系統發生錯誤，或用於目前階段的行銷活動已停止。 如果執行失敗，您可以排程第二天再次執行。

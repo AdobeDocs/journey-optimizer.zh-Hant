@@ -11,7 +11,7 @@ keywords: IP、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 14%
@@ -86,6 +86,8 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 
 例如，如果您新增自訂網域Luma，您希望加入下列子網域：luma.com、luma.co.uk、luma.it、luma.fr、luma.de等。
 
+![](assets/ip-warmup-sample-file-custom.png)
+
 ## 存取和管理IP熱身計畫 {#manage-ip-warmup-plans}
 
 1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL IP熱身計畫]** 功能表。 目前所建立的所有IP熱身計畫都會顯示出來。
@@ -96,7 +98,7 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 
    * **尚未開始**：尚未啟用任何執行。 [了解更多](ip-warmup-execution.md#define-runs)
    * **即時**：成功啟用第一個階段中的第一次執行後，計畫就會變更為此狀態。 [了解更多](ip-warmup-execution.md#define-runs)
-   * **已完成**：計畫已標示為已完成。 只有在計畫中的所有執行都位於時，才能使用此選項 **[!UICONTROL 成功]** 或 **[!UICONTROL 草稿]** 狀態(無法執行 **[!UICONTROL 即時]**)。 [了解更多](ip-warmup-execution.md#define-runs#mark-as-completed)
+   * **已完成**：計畫已標示為已完成。 只有在計畫中的所有執行都位於時，才能使用此選項 **[!UICONTROL 已完成]** 或 **[!UICONTROL 草稿]** 狀態(無法執行 **[!UICONTROL 即時]**)。 [了解更多](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
 1. 若要刪除IP熱身計畫，請選取 **[!UICONTROL 刪除]** 圖示並確認刪除。

@@ -8,10 +8,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
+source-git-commit: 7437268e87cc2c71bec394fbef1b512b31946cf5
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 5%
+source-wordcount: '283'
+ht-degree: 6%
 
 ---
 
@@ -37,6 +38,8 @@ ht-degree: 5%
 決定規則可讓您透過直接在決定專案層級或特定選取策略中套用限制，來定義決定專案的對象。 這可讓您精確控制應該向誰展示哪些專案。
 
 例如，假設您的決策專案為女性設計，其中含有瑜伽相關產品。 使用決定規則，您可以指定只向性別為「女性」且已在「瑜伽」中指明「地標」的個人檔案顯示這些專案。
+
+除了專案與選擇策略層級決定規則之外，您也可以在行銷活動層級為預期對象建立其他引數。 [了解更多](../campaigns/create-campaign.md)
 
 決定規則清單可在 **[!UICONTROL 設定]** / **[!UICONTROL 決定規則]** 功能表。
 

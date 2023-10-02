@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: c710f647707168105a863ae8b0ea087b7d015aa5
 workflow-type: tm+mt
-source-wordcount: '2385'
+source-wordcount: '2381'
 ht-degree: 17%
 
 ---
@@ -150,7 +150,7 @@ ht-degree: 17%
 
    >[!CAUTION]
    >
-   >無法啟用或停用先前建立之優惠方案的頻率限定。 若要這麼做，您需要複製選件或建立新選件。
+   >無法啟用或停用先前建立之優惠方案的頻率限定。 若要這麼做，您需要建立新的選件。
 
 1. 定義哪些 **[!UICONTROL 事件上限]** 將考慮以增加計數器。 [了解更多](#capping-event)
 
