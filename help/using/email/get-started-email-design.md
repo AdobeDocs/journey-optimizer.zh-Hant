@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 keywords: 電子郵件、設計、素材、資產
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
-workflow-type: ht
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
+workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
    * 從檔案或 .zip 資料夾&#x200B;**匯入現有 HTML 內容**。在[本節](existing-content.md)了解如何匯入電子郵件內容。
 
-   * 從內建或自訂範本的清單&#x200B;**選取現有內容**。在[本節](email-templates.md)了解如何使用電子郵件範本。
+   * 從內建或自訂範本的清單&#x200B;**選取現有內容**。在[本節](../email/use-email-templates.md)了解如何使用電子郵件範本。
 
    ![](assets/email_designer_create_options.png)
 
