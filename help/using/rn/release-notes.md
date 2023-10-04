@@ -4,7 +4,7 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c6f0e43fd2dacbc1aa79aee3605f6a30c5f9c7b4
+source-git-commit: 4d74588b5df0afab7e56e540703891c48a94ab5f
 workflow-type: tm+mt
 source-wordcount: '4141'
 ht-degree: 85%
@@ -101,7 +101,7 @@ ht-degree: 85%
 
 **個人化**
 
-* 除了視覺化片段之外，現在還可以透過運算式編輯器從Journey Optimizer介面建立、儲存及重複使用運算式片段。 運算式片段會取代先前儲存的運算式。 [了解更多](../content-management/fragments.md#create-expression-fragment)
+* 除了視覺化片段之外，現在還可以透過運算式編輯器從Journey Optimizer介面建立、儲存及重複使用運算式片段。 運算式片段會取代先前儲存的運算式。 [了解更多](../personalization/use-expression-fragments.md)
 
 **警報**
 
