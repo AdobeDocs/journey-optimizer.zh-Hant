@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式、編輯器、使用案例、個人化
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '501'
 ht-degree: 2%
 
 ---
