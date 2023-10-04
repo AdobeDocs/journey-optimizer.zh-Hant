@@ -4,9 +4,9 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 29bd838e42d82c87a03e36012a280b5f56ae3ad0
+source-git-commit: c6f0e43fd2dacbc1aa79aee3605f6a30c5f9c7b4
 workflow-type: tm+mt
-source-wordcount: '4143'
+source-wordcount: '4141'
 ht-degree: 85%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 85%
 
 **警報**
 
-* 已引進新類型的系統警報。您現在可以在讀取對象失敗時收到通知。 [了解更多](../reports/alerts.md)。
+* 已引進新類型的系統警報。您現在可以在以下情況下收到通知： **讀取對象** 活動失敗。 [了解更多](../reports/alerts.md)。
 
 **網路頻道**
 
@@ -117,7 +117,7 @@ ht-degree: 85%
 
 **歷程**
 
-複製歷程時，您現在可以定義歷程副本的名稱。 [了解更多](../building-journeys/journey-gs.md#uplicate-a-journey)
+* 複製歷程時，您現在可以定義歷程副本的名稱。 [了解更多](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
 <!--
@@ -127,7 +127,7 @@ ht-degree: 85%
 
 **電子郵件頻道**
 
-電子郵件介面設定中的新選項可讓您選擇傳送交易式訊息給設定檔，即使其電子郵件地址在Adobe上亦然 [!DNL Journey Optimizer] 隱藏清單。 [了解更多](../email/email-settings.md#send-to-suppressed-email-addresses)
+* 電子郵件介面設定中的新選項可讓您選擇傳送交易式訊息給設定檔，即使其電子郵件地址在Adobe上亦然 [!DNL Journey Optimizer] 隱藏清單。 [了解更多](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **簡訊頻道**
 
@@ -137,15 +137,15 @@ ht-degree: 85%
 
 **直接郵件頻道**
 
-現在，您將檔案傳輸至伺服器時，可以加密提供給直接郵件提供者的檔案。 為此，檔案路由設定畫面中提供新欄位，允許您複製並貼上加密金鑰。 [了解更多](../direct-mail/direct-mail-configuration.md)
+* 現在，當直接郵件提供者將檔案傳輸至伺服器時，您就可以加密這些檔案。 為此，檔案路由設定畫面中提供新欄位，允許您複製並貼上加密金鑰。 [了解更多](../direct-mail/direct-mail-configuration.md)
 
 **報告**
 
-您現在可以將Journey Optimizer報表匯出為CSV檔案。 進一步瞭解 [詳細檔案](../reports/global-report.md#export-reports) 和 [作法影片](../reports/global-report.md#video-csv).
+* 您現在可以將Journey Optimizer報表匯出為CSV檔案。 進一步瞭解 [詳細檔案](../reports/global-report.md#export-reports) 和 [作法影片](../reports/global-report.md#video-csv).
 
 **資產**
 
-「資產」的新選項可讓您在Journey Optimizer中選擇資產的存放庫。 如果您擁有此解決方案，您可以選擇使用Assets Essentials存放庫或Assetsas a Cloud Service存放庫。 [了解更多](../content-management/assets-essentials.md)
+* 「資產」的新選項可讓您在Journey Optimizer中選擇資產的存放庫。 如果您擁有此解決方案，您可以選擇使用Assets Essentials存放庫或Assetsas a Cloud Service存放庫。 [了解更多](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 
