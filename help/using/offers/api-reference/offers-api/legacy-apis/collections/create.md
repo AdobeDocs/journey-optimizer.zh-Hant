@@ -5,12 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 10%
+source-wordcount: '155'
+ht-degree: 9%
 
 ---
+
 
 # 建立集合 {#create-collection}
 
@@ -35,7 +36,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 持續性API的端點路徑。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 集合所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **要求**
 
@@ -59,7 +61,7 @@ curl -X POST \
 
 **回應**
 
-成功的回應會傳回關於新建立集合的資訊，包括其 `id`. 您可以使用 `id` 在後續步驟中更新或刪除您的集合，或在後續教學課程中建立決定。
+成功的回應會傳回關於新建立集合的資訊，包括其唯一的執行個體ID和位置 `@id`. 您可在後續步驟中使用執行個體ID來更新或刪除您的集合。 您可以使用您的獨特集合 `@id` 在稍後的教學課程中建立決定。
 
 ```json
 {

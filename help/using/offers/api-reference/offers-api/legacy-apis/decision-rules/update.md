@@ -5,10 +5,10 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 8%
+source-wordcount: '121'
+ht-degree: 9%
 
 ---
 
@@ -24,68 +24,52 @@ ht-degree: 8%
 | 頁首名稱 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
+| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
 
 **API格式**
 
 ```http
-POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
+PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 遞補優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | 決策規則所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | 您要更新的決定規則的例項ID。 | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
 
 **要求**
 
 ```shell
-curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=fallback' \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer  {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}' \
--d '{
-    "name": "Test Fallback Offer DPS",
-    "description": "Fallback Offer description",
-    "status": "approved",
-    "selectionConstraint": {
-        "startDate": "2022-06-10T00:30:00.000+00:00",
-        "endDate": "2032-06-06T23:29:21.402+00:00",
-        "profileConstraintType": "none"
-    },
-    "representations": [
-    {
-            "components": [
-    {
-                    "deliveryURL": "https://mysite.com",
-                    "type": "imagelink",
-                    "format": "image/png"
-                }
-            ],
-            "channel": "https://ns.adobe.com/xdm/channel-types/web",
-            "placement": "offerPlacement1234"
+curl -X PATCH \
+  'https://platform.adobe.io/data/core/xcore/ab574eca-f7a9-38d0-b3d9-297376ca9ee2/instances/eaa5af90-13d9-11eb-9472-194dee6dc381' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}'\
+  -d '[
+        {
+        "op": "replace",
+        "path": "/_instance/xdm:name",
+        "value": "Sales and discounts rule"
         }
-    ],
-    "rank": {
-        "priority": 1
-    }
-}'
+    ]'
 ```
 
 **回應**
 
-成功的回應會傳回新建立的遞補優惠方案的相關資訊，包括其唯一的執行個體ID和位置 `@id`. 您可在後續步驟中使用執行個體ID來更新或刪除您的遞補優惠。 您可以使用獨特的遞補優惠 `@id` 在稍後的教學課程中建立決定。
+成功的回應會傳回決定規則的更新詳細資料，包括其唯一的執行個體ID和決定規則 `@id`.
 
 
 ```json
 {
-    "instanceId": "b3966680-13ec-11eb-9c20-8323709cfc65",
-    "@id": "xcore:fallback-offer:124e2e764b1ac1b9",
-    "repo:etag": 1,
-    "repo:createdDate": "2020-10-21T22:28:11.111732Z",
-    "repo:lastModifiedDate": "2020-10-21T22:28:11.111732Z",
+    "instanceId": "eaa5af90-13d9-11eb-9472-194dee6dc381",
+    "@id": "xcore:eligibility-rule:124e0faf5b8ee89b",
+    "repo:etag": 2,
+    "repo:createdDate": "2020-10-21T20:13:43.048666Z",
+    "repo:lastModifiedDate": "2020-10-21T20:25:43.705861Z",
     "repo:createdBy": "{CREATED_BY}",
     "repo:lastModifiedBy": "{MODIFIED_BY}",
     "repo:createdByClientId": "{CREATED_CLIENT_ID}",

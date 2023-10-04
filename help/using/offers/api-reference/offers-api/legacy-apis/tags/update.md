@@ -5,82 +5,77 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 8%
+source-wordcount: '171'
+ht-degree: 6%
 
 ---
 
 
 # 更新集合限定詞 {#update-collection-qualifier}
 
-您可以藉由向下列專案發出PATCH要求，修改或更新集合限定詞（先前稱為「標籤」）： [!DNL Offer Library] API。
+您可以藉由向以下網站發出PATCH請求，修改或更新容器中的集合限定詞（先前稱為「標籤」）： [!DNL Offer Library] API。
 
 如需JSON修補程式的詳細資訊，包括可用的作業，請參閱官方檔案 [JSON修補程式檔案](https://jsonpatch.com/).
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示包含 *Content-Type* 請求標頭中的欄位：
+下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
 
 | 頁首名稱 | 值 |
 | ----------- | ----- |
-| Content-Type | `application/json` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
 
 **API格式**
 
 ```http
-PATCH /{ENDPOINT_PATH}/tags/{ID}
+PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-| 參數 | 說明 | 範例 |
-| --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | 標籤所在的容器。 | `tag1234` |
+|引數 |說明 |範例 | | `{ENDPOINT_PATH}` |存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` | | `{CONTAINER_ID}` |標籤所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` | | `{INSTANCE_ID}` |您要更新之標籤的執行個體ID。 | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **要求**
 
 ```shell
-curl -X PATCH 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer  {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}' \
--d '[
-    {
-        "op": "replace",
-        "path": "/name",
-        "value": "Updated tag"
-    },
-    {
-        "op": "replace",
-        "path": "/description",
-        "value": "Updated tag description"
-    }
-]'
+curl -X PATCH \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/d48fd160-13dc-11eb-bc55-c11be7252432' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}'\
+  -d '[
+        {
+          "op": "replace",
+          "path": "/_instance/xdm:name",
+          "value": "Sales and promotions for the holidays"
+        }
+    ]'
 ```
 
 | 參數 | 說明 |
 | --------- | ----------- |
-| `op` | 用於定義更新連線所需動作的操作呼叫。 操作包括： `add`， `replace`， `remove`， `copy` 和 `test`. |
+| `op` | 用於定義更新連線所需動作的操作呼叫。 操作包括： `add`， `replace`、和 `remove`. |
 | `path` | 要更新之引數的路徑。 |
 | `value` | 您想要用來更新引數的新值。 |
 
 **回應**
 
-成功的回應會傳回已更新的集合限定詞與集合限定詞詳細資料 `id`.
+成功的回應會傳回收集限定詞的更新詳細資料，包括其唯一執行環境ID與收集限定詞 `@id`.
 
 ```json
 {
-    "etag": 2,
-    "createdBy": "{CREATED_BY}",
-    "lastModifiedBy": "{MODIFIED_BY}",
-    "id": "{ID}",
-    "sandboxId": "{SANDBOX_ID}",
-    "createdDate": "2023-05-31T15:09:11.771Z",
-    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
-    "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "instanceId": "d48fd160-13dc-11eb-bc55-c11be7252432",
+    "@id": "xcore:tag:124e147572cd7866",
+    "repo:etag": 2,
+    "repo:createdDate": "2020-10-21T20:34:34.486296Z",
+    "repo:lastModifiedDate": "2020-10-21T20:36:31.782607Z",
+    "repo:createdBy": "{CREATED_BY}",
+    "repo:lastModifiedBy": "{MODIFIED_BY}",
+    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
