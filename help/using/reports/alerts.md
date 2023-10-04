@@ -8,18 +8,18 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 78085934a00f4e365b49012b426e57a218bf48ba
+source-git-commit: d46ed2b5bb5402ab5ce8d3c033261d0366a5de34
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '464'
 ht-degree: 1%
 
 ---
 
 # 開始使用警示 {#alerts}
 
-## 警示功能 {#alerting-capabilities}
+## 存取及訂閱警報 {#alerting-capabilities}
 
-您可以透過使用者介面存取系統警報，或在失敗發生時收到電子郵件。 從 **警報** 功能表，您可以檢視可用的警報並訂閱警報。 當達到您操作中的特定條件集時（例如系統違反臨界值時會發生潛在問題），系統會傳送警示訊息給組織中訂閱這些訊息的任何使用者。
+發生失敗時，您可以在Journey Optimizer通知中心取得系統警報，並接收電子郵件。 從 **警報** 功能表，您可以檢視可用的警報並訂閱警報。 當達到您操作中的特定條件集時（例如系統違反臨界值時會發生潛在問題），系統會傳送警示訊息給組織中訂閱這些訊息的任何使用者。
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
