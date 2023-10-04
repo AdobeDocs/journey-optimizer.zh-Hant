@@ -4,9 +4,9 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 854e5959eaa9a79bce28ab47752b36aa71373757
+source-git-commit: 29bd838e42d82c87a03e36012a280b5f56ae3ad0
 workflow-type: tm+mt
-source-wordcount: '4121'
+source-wordcount: '4143'
 ht-degree: 85%
 
 ---
@@ -103,10 +103,9 @@ ht-degree: 85%
 
 * 除了視覺化片段之外，現在還可以透過運算式編輯器從Journey Optimizer介面建立、儲存及重複使用運算式片段。 運算式片段會取代先前儲存的運算式。 [了解更多](../content-management/fragments.md#create-expression-fragment)
 
-<!--
-**Alerting**
+**警報**
 
-* A new type of system alert has been introduced. You can now get notified when a read audience fails.    -->
+* 已引進新類型的系統警報。您現在可以在讀取對象失敗時收到通知。 [了解更多](../reports/alerts.md)。
 
 **網路頻道**
 
