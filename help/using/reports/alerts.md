@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: d46ed2b5bb5402ab5ce8d3c033261d0366a5de34
+source-git-commit: 62ae151ddd92904ac514ee85639c9ba3a18beb0e
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '493'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 1%
 
 ## 存取及訂閱警報 {#alerting-capabilities}
 
-發生失敗時，您可以在Journey Optimizer通知中心取得系統警報，並接收電子郵件。 從 **警報** 功能表，您可以檢視可用的警報並訂閱警報。 當達到您操作中的特定條件集時（例如系統違反臨界值時會發生潛在問題），系統會傳送警示訊息給組織中訂閱這些訊息的任何使用者。
+發生失敗時，您可以在Journey Optimizer通知中心取得系統警報（應用程式內警報）及/或接收電子郵件。
+
+從 **警報** 功能表，您可以檢視可用的警報並訂閱警報。 當達到您操作中的特定條件集時（例如系統違反臨界值時會發生潛在問題），系統會傳送警示訊息給組織中訂閱這些訊息的任何使用者。
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
@@ -33,7 +35,7 @@ ht-degree: 1%
 
 您也可以透過以下方式訂閱警報： [I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. 警報規則會整理到不同的訂閱套件中。 與特定Journey Optimizer警報對應的事件訂閱詳述如下。
 
-如果發生非預期的行為，會傳送警示通知給訂閱者。 根據使用者偏好設定，警報會透過電子郵件傳送，或直接在使用者介面右上角的Journey Optimizer通知中心內傳送。
+如果發生非預期的行為，會傳送警示通知給訂閱者。 根據使用者偏好設定，警報會透過電子郵件傳送，及/或直接在使用者介面右上角的Journey Optimizer通知中心傳送。 依預設，僅啟用應用程式內警報。 若要啟用電子郵件警示，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.
 
 警報解決後，訂閱者會收到「已解決」通知。
 
