@@ -1,19 +1,19 @@
 ---
-title: 建立遞補優惠
-description: 如果客戶不符合其他優惠方案的資格，系統會傳送遞補優惠方案給客戶
+title: 更新決定規則
+description: 決定規則是新增至個人化優惠的限制，並套用至設定檔以判斷適用性。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 11%
+source-wordcount: '140'
+ht-degree: 8%
 
 ---
 
 
-# 建立遞補優惠 {#create-fallback-offer}
+# 更新決定規則 {#update-decision-rule}
 
 您可以向以下網站發出POST要求，以建立遞補優惠： [!DNL Offer Library] API，同時提供容器ID。
 

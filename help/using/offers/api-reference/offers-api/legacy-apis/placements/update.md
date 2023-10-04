@@ -1,20 +1,21 @@
 ---
-title: 更新決定
-description: 決定包含通知優惠選擇的邏輯。
+title: 更新投放位置
+description: 版位是用來展示優惠方案的容器。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '161'
 ht-degree: 8%
 
 ---
 
-# 更新決定 {#update-decision}
 
-您可以透過向以下專案發出PATCH請求，修改或更新容器中的決策： [!DNL Offer Library] API。
+# 更新位置 {#update-placement}
+
+您可以透過向以下網站發出PATCH請求，修改或更新容器中的位置 [!DNL Offer Library] API。
 
 如需JSON修補程式的詳細資訊，包括可用的作業，請參閱官方檔案 [JSON修補程式檔案](https://jsonpatch.com/).
 
@@ -25,7 +26,7 @@ ht-degree: 8%
 | 頁首名稱 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
+| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
 
 **API格式**
 
@@ -36,16 +37,16 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 決策所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 決定的執行個體ID。 | `f88c9be0-1245-11eb-8622-b77b60702882` |
+| `{CONTAINER_ID}` | 位置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | 您要更新之位置的例項ID。 | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
 
 **要求**
 
 ```shell
 curl -X PATCH \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/f88c9be0-1245-11eb-8622-b77b60702882' \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/9aa58fd0-13d7-11eb-928b-576735ea4db8' \
   -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
-  -H 'Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"' \
+  -H 'Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"' \
 -H 'Authorization: Bearer  {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
@@ -54,7 +55,12 @@ curl -X PATCH \
     {
         "op": "replace",
             "path": "/_instance/xdm:name",
-            "value": "Example Activity Name"
+            "value": "Sales and Promotions Placement"
+    },
+    {
+        "op": "replace",
+            "path": "/_instance/xdm:description",
+            "value": "A test placement to contain offers of sales and discounts"
     }
 ]'
 ```
@@ -67,15 +73,15 @@ curl -X PATCH \
 
 **回應**
 
-成功的回應會傳回決定的更新詳細資料，包括其唯一例項ID和決定 `@id`.
+成功的回應會傳回位置的更新詳細資料，包括其唯一的執行個體ID和位置 `@id`.
 
 ```json
 {
-    "instanceId": "f88c9be0-1245-11eb-8622-b77b60702882",
-    "@id": "xcore:offer-activity:124b79dc3ce2d720",
+    "instanceId": "9aa58fd0-13d7-11eb-928b-576735ea4db8",
+    "@id": "xcore:offer-placement:124e0be5699743d3",
     "repo:etag": 2,
-    "repo:createdDate": "2020-10-19T20:02:09.694067Z",
-    "repo:lastModifiedDate": "2020-10-19T21:28:24.284719Z",
+    "repo:createdDate": "2020-10-21T19:57:09.837456Z",
+    "repo:lastModifiedDate": "2020-10-21T19:59:10.700149Z",
     "repo:createdBy": "{CREATED_BY}",
     "repo:lastModifiedBy": "{MODIFIED_BY}",
     "repo:createdByClientId": "{CREATED_CLIENT_ID}",

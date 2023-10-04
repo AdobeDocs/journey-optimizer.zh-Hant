@@ -1,5 +1,5 @@
 ---
-title: 列出遞補優惠
+title: 查詢遞補優惠
 description: 如果客戶不符合其他優惠方案的資格，系統會傳送遞補優惠方案給客戶
 feature: Offers
 topic: Integrations
@@ -7,16 +7,15 @@ role: Data Engineer
 level: Experienced
 source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 5%
+source-wordcount: '158'
+ht-degree: 3%
 
 ---
 
-# 列出遞補優惠 {#list-fallback-offers}
 
-如果客戶不符合其他優惠方案的資格，系統會傳送遞補優惠方案給客戶。 建立遞補優惠的步驟包含建立一或多個表示，例如建立優惠時。
+# 查詢遞補優惠 {#look-up-fallback-offers}
 
-您可以透過對以下專案執行單一GET要求，檢視容器中所有遞補優惠方案的清單： [!DNL Offer Library] API。
+您可以向以下網址發出GET要求，查詢特定的遞補優惠： [!DNL Offer Library] 包含遞補優惠的API `@id` 或請求路徑中後援選件的名稱。
 
 **API格式**
 
@@ -29,13 +28,14 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 遞補優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FALLBACK_OFFER}` | 定義與遞補優惠方案關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
-| `{QUERY_PARAMS}` | 篩選結果的選用查詢引數。 | `limit=1` |
+| `id` | 用於比對 `@id` 個實體的屬性。 字串完全相符。 引數 `id` 和 `name` 不能一起使用。 | `xcore:fallback-offer:122206064e0d98df` |
+| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數 `id` 和 `name` 不能一起使用 | `F1: Web fallback` |
 
 **要求**
 
 ```shell
 curl -X GET \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1&limit=1' \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances?schema=https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1&id=xcore:fallback-offer:122206064e0d98df' \
   -H 'Accept: *,application/vnd.adobe.platform.xcore.hal+json; schema="https://ns.adobe.com/experience/xcore/hal/results"' \
 -H 'Authorization: Bearer {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
@@ -43,64 +43,49 @@ curl -X GET \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## 使用查詢引數 {#using-query-parameters}
-
-您可以在列出資源時，使用查詢引數來頁面和篩選結果。
-
-### 分頁 {#paging}
-
-分頁最常見的查詢引數包括：
-
-| 參數 | 說明 | 範例 |
-| --------- | ----------- | ------- |
-| `q` | 在選取的欄位中搜尋的可選查詢字串。 查詢字串應為小寫，並可由雙引號包圍，以防止加以代碼化及逸出特殊字元。 字元 `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊意義，在查詢字串中出現時應該以反斜線逸出。 | `default` |
-| `qop` | 將AND或OR運運算元套用至q查詢字串引數中的值。 | `AND` / `OR` |
-| `field` | 要限制搜尋的選用欄位清單。 此引數可重複出現，如下所示： field=field1[，field=field2，...] 和（路徑運算式的形式為點分隔的路徑，例如_instance.xdm：name） | `_instance.xdm:name` |
-| `orderBy` | 依特定屬性排序結果。 新增 `-` 在標題之前(`orderby=-title`)會依標題以遞減順序(Z-A)排序專案。 | `-repo:createdDate` |
-| `limit` | 限制傳回的遞補優惠方案數量。 | `limit=5` |
-
 **回應**
 
-成功的回應會傳回您在有權存取的容器中存在的遞補優惠方案清單。
+成功的回應會傳回位置的詳細資料，包括容器ID、執行個體ID和唯一遞補優惠的相關資訊 `@id`.
 
 ```json
 {
     "containerId": "e0bd8463-0913-4ca1-bd84-6309134ca1f6",
     "schemaNs": "https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1",
-    "requestTime": "2020-10-22T07:12:30.923768Z",
+    "requestTime": "2020-10-21T22:21:50.658080Z",
     "_embedded": {
-      "results": [
-        {
+        "results": [
+            {
                 "instanceId": "053bc610-f8f9-11ea-ad6e-775ad2c9b1a1",
-            "schemas": [
+    "schemas": [
                     "https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.5"
-            ],
+                ],
                 "productContexts": [
                     "acp"
-                ],
+    ],
                 "repo:etag": 3,
                 "repo:createdDate": "2020-09-17T15:18:20.657299Z",
                 "repo:lastModifiedDate": "2020-10-02T02:34:48.034583Z",
-                "repo:createdBy": "{CREATED_BY}",
-                "repo:lastModifiedBy": "{MODIFIED_BY}",
-                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
+                "repo:createdBy": "712B3670554A7AF17F000101@AdobeID",
+                "repo:lastModifiedBy": "68D9EA8559BC2D810A495CC2@AdobeID",
+                "repo:createdByClientId": "exc_app",
+                "repo:lastModifiedByClientId": "exc_app",
+                "_score": 0,
                 "_instance": {
                     "xdm:name": "F1: Web fallback ",
                     "xdm:representations": [
-                {
-                            "xdm:components": [
                         {
+                            "xdm:components": [
+        {
                                     "xdm:content": "aaa",
                                     "@type": "https://ns.adobe.com/experience/offer-management/content-component-json",
                                     "dc:format": "application/json",
                                     "repo:name": "aa"
-                        }
+                                }
                             ],
                             "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
                             "xdm:placement": "xcore:offer-placement:122201b2150d98c2"
-        },
-        {
+                        },
+                        {
                             "xdm:components": [
                                 {
                                     "xdm:content": "bb",
@@ -108,23 +93,23 @@ curl -X GET \
                                     "dc:format": "text/html",
                                     "repo:name": "bb"
                                 }
-            ],
+                            ],
                             "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
                             "xdm:placement": "xcore:offer-placement:122201c34354a2b4"
                         },
                 {
                             "xdm:components": [
-                        {
+                                {
                                     "xdm:deliveryURL": "https://mysite.com",
                                     "@type": "https://ns.adobe.com/experience/offer-management/content-component-imagelink",
                                     "dc:format": "image/png",
                                     "repo:name": "ll"
-                        }
+                                }
                             ],
                             "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
                             "xdm:placement": "xcore:offer-placement:122207eddb05205a"
-                }
-            ],
+                        }
+                    ],
                     "xdm:status": "approved",
                     "xdm:tags": [],
                     "@id": "xcore:fallback-offer:122206064e0d98df"
@@ -137,20 +122,16 @@ curl -X GET \
                     }
                 },
                 "sandboxName": "ode-prod-va7-edge-testing"
-        }
-    ],
-        "total": 5,
+            }
+        ],
+        "total": 1,
         "count": 1
     },
     "_links": {
         "self": {
-            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1&limit=1",
+            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances?schema=https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1&id=xcore:fallback-offer:122206064e0d98df",
             "@type": "https://ns.adobe.com/experience/xcore/hal/results"
-        },
-        "next": {
-            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?start=053bc610-f8f9-11ea-ad6e-775ad2c9b1a1&orderby=instanceId&schema=https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1&limit=1",
-            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
+                }
         }
-    }
 }
 ```

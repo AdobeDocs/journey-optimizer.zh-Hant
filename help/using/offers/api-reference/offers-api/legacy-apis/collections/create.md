@@ -1,0 +1,75 @@
+---
+title: 建立集合
+description: 集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
+feature: Offers
+topic: Integrations
+role: Data Engineer
+level: Experienced
+source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 10%
+
+---
+
+# 建立集合 {#create-collection}
+
+集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
+
+您可以透過向以下發出POST請求來建立集合： [!DNL Offer Library] API，同時提供容器ID。
+
+## Accept和Content-Type標題 {#accept-and-content-type-headers}
+
+下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
+
+| 頁首名稱 | 值 |
+| ----------- | ----- |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
+
+**API格式**
+
+```http
+POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
+```
+
+| 參數 | 說明 | 範例 |
+| --------- | ----------- | ------- |
+| `{ENDPOINT_PATH}` | 持續性API的端點路徑。 | `https://platform.adobe.io/data/core/dps/` |
+
+**要求**
+
+```shell
+curl -X POST \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Content-Type: application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}' \
+  -d '{
+        "xdm:name": "Offer Collection 1",
+        "xdm:filterType": "anyTags",
+        "xdm:ids": [
+            "xcore:tag:124e147572cd7866"
+        ]
+    }'
+```
+
+**回應**
+
+成功的回應會傳回關於新建立集合的資訊，包括其 `id`. 您可以使用 `id` 在後續步驟中更新或刪除您的集合，或在後續教學課程中建立決定。
+
+```json
+{
+   "@id": "xcore:offer-filter:124e3594ce8b4930",
+    "repo:etag": 1,
+    "repo:createdDate": "2020-10-21T22:59:17.345797Z",
+    "repo:lastModifiedDate": "2020-10-21T22:59:17.345797Z",
+    "repo:createdBy": "{CREATED_BY}",
+    "repo:lastModifiedBy": "{MODIFIED_BY}",
+    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+}
+```
