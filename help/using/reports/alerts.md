@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 4f4912530f6d39ba937b346f9eaccceff4b974dd
+source-git-commit: 78085934a00f4e365b49012b426e57a218bf48ba
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 1%
 
 ![](assets/alert-subscribe.png)
 
-您也可以透過以下方式訂閱警報： [I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}但是，警示規則會整理到不同的訂閱套件中。
+您也可以透過以下方式訂閱警報： [I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. 警報規則會整理到不同的訂閱套件中。 與特定Journey Optimizer警報對應的事件訂閱詳述如下。
 
 如果發生非預期的行為，會傳送警示通知給訂閱者。 根據使用者偏好設定，警報會透過電子郵件傳送，或直接在使用者介面右上角的Journey Optimizer通知中心內傳送。
 
 警報解決後，訂閱者會收到「已解決」通知。
 
->[!WARNING]
+>[!CAUTION]
 >
 >Adobe Journey Optimizer特定警報僅適用於 **即時** 歷程。 在測試模式中，不會為歷程觸發警報。
 
