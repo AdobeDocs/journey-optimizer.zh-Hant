@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，資料庫，個人化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: b65547efb2041bbb49b61cb23c15936ee2bab973
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,7 @@ ht-degree: 0%
 
 使用運算式編輯器時，您可以善用已建立或儲存至目前沙箱的所有運算式片段。
 
->[!NOTE]
->
->瞭解如何在中建立和管理片段 [本節](../content-management/fragments.md).
+瞭解如何在中建立和管理片段 [本節](../content-management/fragments.md).
 
 ➡️ [在本影片中瞭解如何管理、編寫和使用片段](../content-management/fragments.md#video-fragments)
 
@@ -68,6 +66,10 @@ ht-degree: 0%
 
 1. 接著，您就可以照常使用，使用的所有個人化和撰寫功能，自訂及驗證內容 [運算式編輯器](personalization-build-expressions.md).
 
+>[!NOTE]
+>
+>如果您建立包含多個分行符號的運算式片段，並在中使用它 [簡訊](../sms/create-sms.md#sms-content) 或 [推播](../push/design-push.md) 內容，則會保留分行符號。 因此，請務必預覽和測試 [簡訊](../sms/send-sms.md) 或 [推播](../push/send-push.md) 訊息傳送之前。
+
 ## 中斷繼承 {#break-inheritance}
 
 將片段ID新增至運算式編輯器時，會同步對原始運算式片段所做的變更。
@@ -79,13 +81,4 @@ ht-degree: 0%
 在這種情況下，來自原始片段的繼承會中斷。 片段內容會複製到編輯器中，且變更不再同步。
 
 它會變成不再連結至原始片段的獨立元素；您可以像在程式碼中的任何其他元素一樣加以編輯。
-
-<!--
-TO REPLACE WITH UPDATED VIDEO ON EXPRESSION FRAGMENTS
-## How-to video{#video}
-
-Learn how to use saved personalization library items in a message and how to create and manage personalization library items.
-
->[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
--->
 
