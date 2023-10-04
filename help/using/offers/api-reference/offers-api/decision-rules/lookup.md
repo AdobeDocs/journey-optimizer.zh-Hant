@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 5%
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234' 
 
 **回應**
 
-成功的回應會傳回您查詢的特定決定規則的詳細資料，包括其唯一決定規則的相關資訊 `@id`.
+成功的回應會傳回您查詢的特定決定規則的詳細資料，包括其唯一決定規則的相關資訊 `id`.
 
 ```json
   {

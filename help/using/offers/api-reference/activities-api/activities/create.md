@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '96'
 ht-degree: 13%
 
 ---
@@ -77,7 +77,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-decisions' \
 
 **回應**
 
-成功的回應會傳回關於新建立決定的資訊，包括其唯一的執行個體ID和位置 `@id`. 您可在後續步驟中使用id來更新或刪除您的決定。
+成功的回應會傳回關於新建立決定的資訊，包括其唯一的 `id`. 您可以使用 `id` 在後續步驟中更新或刪除您的決定。
 
 ```json
 {

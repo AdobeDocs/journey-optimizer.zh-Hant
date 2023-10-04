@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 9%
+source-wordcount: '128'
+ht-degree: 10%
 
 ---
 
@@ -61,7 +61,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-collections' \
 
 **回應**
 
-成功的回應會傳回關於新建立集合的資訊，包括其唯一的執行個體ID和位置 `@id`. 您可在後續步驟中使用執行個體ID來更新或刪除您的集合。 您可以使用您的獨特集合 `@id` 在稍後的教學課程中建立決定。
+成功的回應會傳回關於新建立集合的資訊，包括其 `id`. 您可以使用 `id` 在後續步驟中更新或刪除您的集合，或在後續教學課程中建立決定。
 
 ```json
 {
