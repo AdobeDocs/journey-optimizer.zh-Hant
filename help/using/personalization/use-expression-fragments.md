@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，資料庫，個人化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: b65547efb2041bbb49b61cb23c15936ee2bab973
+source-git-commit: 623aa2ee317553eaebfb16c350a69672de2866a1
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您建立包含多個分行符號的運算式片段，並在中使用它 [簡訊](../sms/create-sms.md#sms-content) 或 [推播](../push/design-push.md) 內容，則會保留分行符號。 因此，請務必預覽和測試 [簡訊](../sms/send-sms.md) 或 [推播](../push/send-push.md) 訊息傳送之前。
+>如果您建立包含多個分行符號的運算式片段，並在中使用它 [簡訊](../sms/create-sms.md#sms-content) 或 [推播](../push/design-push.md) 內容，則會保留分行符號。 因此，請務必測試您的 [簡訊](../sms/send-sms.md) 或 [推播](../push/send-push.md) 訊息傳送之前。
 
 ## 中斷繼承 {#break-inheritance}
 
