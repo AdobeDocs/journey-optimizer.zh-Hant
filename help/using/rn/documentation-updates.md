@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: eee717b9fb0ceec72df449abcf3e37b41fe31e15
+source-git-commit: 16367587716c73c63c2f2207c29090b41500ecf8
 workflow-type: tm+mt
-source-wordcount: '3711'
-ht-degree: 90%
+source-wordcount: '3765'
+ht-degree: 88%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 90%
 * 更新存取控制檔案的連結。 [閱讀全文](../administration/permissions.md)
 * 應用程式內管道先決條件已更新，其中包含Adobe Experience Platform資料收集詳細資料。 [閱讀全文](../in-app/inapp-configuration.md)
 * 已更新排名公式範例中呈現的某些運算式，以避免驗證錯誤。 [閱讀全文](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
+* 警告已新增至 **定義決定範圍** 若要指定如果評估准則群組中使用AI模型，該群組中的所有評估准則都必須使用具有相同特定AI模型的AI排名方法。 此外，只有一個評估標準群組可以使用AI模型。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## 2023 年 8 月 {#august-2023}
 
@@ -37,7 +38,7 @@ ht-degree: 90%
 * Offer Decisioning **匯出資料集**&#x200B;現在預設為啟用。 已刪除有關先前行為的備註。  [閱讀全文](../offers/export-catalog/get-started-export.md)
 * 各種&#x200B;**行銷活動報告量度**&#x200B;已在即時和全域報告中重新命名。 [閱讀全文](../reports/campaign-global-report.md)
 * 已新增有關 Web 通道內容實驗必要條件的新內容。 [閱讀全文](../web/web-prerequisites.md#experiment-prerequisites)
-* 已新增警告至&#x200B;**使用內容範本**&#x200B;頁面，指出測試電子郵件內容範本時不支援目前追蹤。 若要測試追蹤，您必須在電子郵件中使用內容範本並傳送校訂。 [閱讀全文](../email/content-templates.md#test-template)
+* 已新增警告至&#x200B;**使用內容範本**&#x200B;頁面，指出測試電子郵件內容範本時不支援目前追蹤。 若要測試追蹤，您必須在電子郵件中使用內容範本並傳送校訂。 [閱讀全文](../content-management/content-templates.md#test-template)
 * 已新增數個警告至&#x200B;**建立及發佈登陸頁面**&#x200B;區段，指定您不能通過簡單地將建立頁面時定義的 URL 複製貼上到 Web 瀏覽器中來存取登陸頁面，即使該 URL 已發佈仍然如此。不過，您可以使用預覽功能來測試。 [閱讀全文](../landing-pages/create-lp.md)
 * 已新增章節，說明如何&#x200B;**管理同意** (用於直接郵件頻道)。 [閱讀全文](../direct-mail/test-send-direct-mail.md)
 
