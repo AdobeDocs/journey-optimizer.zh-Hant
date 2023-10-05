@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: assets， essentials， experience manager，整合
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 8673391de8ac5c91bfbd28d23f7ab9a1416f4a83
+source-git-commit: f6404776cc4cd2b83373617ce6d5e18c960d0371
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 17%
@@ -49,8 +49,7 @@ ht-degree: 17%
 
    ![](assets/media_library_4.png)
 
-+++
-瞭解如何切換資產存放庫。
++++ 瞭解如何切換資產存放庫。
 
    若要變更您的資產存放庫，請選取右上角的「帳戶」圖示，然後按一下 **[!UICONTROL 選取存放庫]**.
 
