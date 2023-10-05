@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
+source-git-commit: ad590f7fedad10c49f5c45b34cc687df063e35a8
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 95%
+source-wordcount: '1402'
+ht-degree: 92%
 
 ---
 
@@ -66,7 +66,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ### 自訂動作 {#custom-actions-g}
 
-* 所有自訂動作皆已定義30秒內150,000次呼叫的上限限制。 此限制是根據客戶使用狀況所設定，可保護自訂動作鎖定的外部端點。
+* 所有自訂動作皆已定義30秒內150,000次呼叫的上限限制。 此限制是根據客戶使用狀況所設定，可保護自訂動作鎖定的外部端點。 您需要透過定義適當的讀取率（使用自訂動作時為5000個設定檔/秒），在以對象為基礎的歷程中將其納入考量。 如有需要，您可以透過我們的上限/節流API定義較大的上限或節流限制來覆寫此設定。 請參閱[此頁面](../configuration/external-systems.md)。
 * 自訂動作 URL 不支援動態參數。
 * 支援 POST、PUT 和 GET 呼叫方法
 * 查詢參數或標題的名稱不得以「.」開頭 或 &quot;$&quot;
