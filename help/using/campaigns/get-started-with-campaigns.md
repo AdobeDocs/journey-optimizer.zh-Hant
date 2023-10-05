@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 96%
 
 ---
 
 # 開始使用行銷活動 {#get-started-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card3"
+>title="建立行銷活動"
+>abstract="使用 **Adobe Journey Optimizer** 使用各種管道將一次性內容傳送給特定對象。 當使用歷程時，動作會依序執行。 透過行銷活動，可同時執行動作 (立即執行或根據指定的排程執行)。"
+
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"

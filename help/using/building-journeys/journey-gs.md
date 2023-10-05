@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '1689'
+source-wordcount: '1710'
 ht-degree: 24%
 
 ---
 
 # 建立您的第一個歷程{#jo-quick-start}
+
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card2"
+>title="建立歷程"
+>abstract="使用 **Adobe Journey Optimizer** 使用儲存在事件或資料來源中的情境資料，建立即時協調使用案例。"
 
 ## 先決條件{#start-prerequisites}
 
