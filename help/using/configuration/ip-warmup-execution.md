@@ -33,25 +33,25 @@ ht-degree: 18%
 
 一旦您擁有 [已建立IP熱身計畫](ip-warmup-plan.md) 並上傳與傳遞顧問準備的檔案，您可在計畫中定義階段與執行。
 
-每個階段都包含數個回合，您會指派單一行銷活動給這些回合。
+每個階段都由多次執行組成，您可以為其指派單一行銷活動。
 
 ## 定義階段 {#define-phases}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="排除行銷活動對象"
->abstract="選取要從目前階段排除的其他行銷活動的對象。這是為了避免先前從其他階段或其他IP熱身計畫中聯絡的設定檔再次成為目標。"
+>abstract="選取要從目前階段排除的其他行銷活動的對象。這是為了防止先前聯絡過的其他階段的設定檔或其他 IP 暖身計劃再次成為目標。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="排除網域群組"
->abstract="選擇要從目前階段排除的網域。網域排除需要非執行階段，因此您可能必須分割執行階段才能新增排除專案。"
+>abstract="選取要從目前階段排除的網域。網域排除需要非執行階段，因此您可能必須分割執行中階段才能新增排除。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="分割階段"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
->title="定義計畫的階段"
->abstract="每個階段都包含數個回合，您會指派單一行銷活動給這些回合。"
+>title="定義計劃的階段"
+>abstract="每個階段都由多次執行組成，您可以為其指派單一行銷活動。"
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
@@ -111,28 +111,28 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_run"
->title="定義每個回合"
+>title="定義每個執行"
 >abstract="定義並啟動所有階段的每個執行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_last_engagement"
->title="在參與上篩選"
->abstract="例如，此欄是僅針對過去20天內與您的品牌互動的使用者的篩選器。 您也可以透過變更此設定 **編輯執行** 選項。"
+>title="篩選參與"
+>abstract="例如，此資料欄是篩選器，僅針對過去 20 天內與您品牌互動的使用者。您也可以透過&#x200B;**編輯執行**&#x200B;選項變更此設定。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_retry"
->title="設定時間視窗"
->abstract="您可以定義一個時段，在細分作業發生任何延遲時，在此時段內可執行IP熱身行銷活動。"
+>title="設定時間範圍"
+>abstract="您可以定義一個時間範圍，在此期間可以執行 IP 暖身計劃的行銷活動，以防分段作業有任何延遲。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_pause"
->title="取消有對象錯誤的執行"
->abstract="在評估該回合的對象後，如果合格的設定檔少於目標的設定檔，選取此選項可取消回合。"
+>title="取消出現對象錯誤的執行"
+>abstract="當針對執行評估對象，如果合格設定檔少於目標設定檔，選取此選項以取消該執行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
->title="檢視合格的設定檔"
->abstract="此欄顯示合格的設定檔數目。 評估對象的執行後，如果目標設定檔超過合格的設定檔，則仍會執行執行，除非 **暫停錯誤** 選項已啟用。 在此情況下，執行會被取消。"
+>title="檢視合格設定檔"
+>abstract="此資料欄顯示合格設定檔的數量。評估執行的對象後，如果目標設定檔多於合格設定檔，則執行仍會進行，除非&#x200B;**因錯誤而暫停**&#x200B;選項已啟用。在此情況下，會取消此執行。"
 
 1. 選取每次執行的排程。
 

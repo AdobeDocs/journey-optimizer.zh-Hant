@@ -6,9 +6,9 @@ description: 瞭解如何設定環境，以使用Journey Optimizer傳送簡訊
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
+source-git-commit: ef9d50ba9806ade40cfa9db7bb6b9e31274a208f
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1008'
 ht-degree: 16%
 
 ---
@@ -61,11 +61,11 @@ Adobe Journey Optimizer目前與Sinch、Twilio和Infobip等協力廠商整合，
 
       * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
 
-      * **[!UICONTROL 服務ID]** 和 **[!UICONTROL API Token]**：存取API頁面，您可以在SMS標籤下找到您的認證。  [了解更多](https://developers.sinch.com/docs/sms/getting-started/)
+      * **[!UICONTROL 服務ID]** 和 **[!UICONTROL API Token]**：存取API頁面，您可以在SMS標籤下找到您的認證。  [了解更多](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
 
-      * **[!UICONTROL 選擇加入訊息]**：輸入自訂回應，此回應會隨著您的網站自動傳送。 **[!UICONTROL 選擇加入訊息]**.
+      * **[!UICONTROL 選擇加入訊息]**：輸入自訂回應，此回應會作為 **[!UICONTROL 選擇加入訊息]**.
 
-      * **[!UICONTROL 說明訊息]**：輸入自訂回應，此回應會隨著您的網站自動傳送。 **[!UICONTROL 說明訊息]**.
+      * **[!UICONTROL 說明訊息]**：輸入自訂回應，此回應會作為 **說明訊息**.
 
    * 的 **[!DNL Twilio]**：
 
@@ -73,13 +73,13 @@ Adobe Journey Optimizer目前與Sinch、Twilio和Infobip等協力廠商整合，
 
       * **[!UICONTROL 帳戶SID]** 和 **[!UICONTROL 驗證權杖]**：存取Twilio主控台控制面板頁面的「帳戶資訊」窗格，以尋找您的認證。
 
-      * **[!UICONTROL 訊息SID]**：輸入指派給Twilio API所建立每則訊息的唯一識別碼。 [了解更多](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+      * **[!UICONTROL 訊息SID]**：輸入指派給Twilio API所建立每則訊息的唯一識別碼。 [了解更多](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
    * 的 **[!DNL Infobip]**：
 
       * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
 
-      * **[!UICONTROL API基底URL]** 和 **[!UICONTROL API權杖]**：存取您的網頁介面首頁或API金鑰管理頁面以尋找您的認證。 [了解更多](https://www.infobip.com/docs/api)
+      * **[!UICONTROL API基底URL]** 和 **[!UICONTROL API權杖]**：存取您的網頁介面首頁或API金鑰管理頁面以尋找您的認證。 [了解更多](https://www.infobip.com/docs/api){target="_blank"}.
 
    ![](assets/sms_7.png)
 
@@ -92,7 +92,7 @@ Adobe Journey Optimizer目前與Sinch、Twilio和Infobip等協力廠商整合，
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="定義簡訊類別"
->abstract="選取使用此表面的簡訊類型：需要使用者同意的促銷簡訊的行銷訊息，或非商業簡訊的異動訊息，例如密碼重設。"
+>abstract="選取使用此表面的簡訊類型：需要使用者同意的促銷簡訊的行銷訊息，或非商業簡訊的交易型訊息，例如密碼重設。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hant#sms-opt-out-management" text="選擇不接收行銷簡訊"
 
 設定您的SMS頻道後，您必須建立頻道介面才能從傳送SMS訊息 **[!DNL Journey Optimizer]**.

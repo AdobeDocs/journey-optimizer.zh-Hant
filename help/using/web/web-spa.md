@@ -19,8 +19,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications_views"
->title="套用變更至選取的檢視"
->abstract="變更只會套用至選取的檢視。 檢視可以使用 **瀏覽** 模式，並導覽至這些模式。 找不到您要尋找的檢視？"
+>title="將變更套用到選取的視圖"
+>abstract="變更將僅套用到選取的視圖。可以使用&#x200B;**瀏覽**&#x200B;模式找到並瀏覽到視圖。找不到您要尋找的視圖？"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="更多詳情"
 
 **單頁應用程式** (SPA)現在可以在網頁設計工具視覺編輯器中撰寫。 這可讓您選取要 **檢視** 您想要將網頁修改套用至。

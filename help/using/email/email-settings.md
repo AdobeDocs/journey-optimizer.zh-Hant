@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 5e58db84275d78c5248f1d617328799d71bb10d1
 workflow-type: tm+mt
 source-wordcount: '2258'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="定義電子郵件類別"
->abstract="選取使用此表面時將傳送的電子郵件類型：促銷用電子郵件的行銷 (需要使用者同意)，或非商業電子郵件的異動 (還可以傳送至特定內容中取消訂閱的設定檔)。"
+>abstract="選取使用此表面時將傳送的電子郵件類型：促銷用電子郵件的行銷型 (需要使用者同意)，或非商業電子郵件的交易型 (還可以傳送至特定內容中取消訂閱的設定檔)。"
 
 在 **電子郵件型別** 區段，選取將與介面一起傳送的訊息型別： **[!UICONTROL 行銷]** 或 **[!UICONTROL 異動]**.
 
@@ -186,9 +186,9 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_suppressed_addresses"
->title="覆寫隱藏清單優先順序"
->abstract="您可以決定傳送交易式訊息給設定檔，即使其電子郵件地址由於垃圾郵件投訴而位於Adobe Journey Optimizer隱藏清單中亦然。 此選項預設為停用。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="管理隱藏清單"
+>title="覆寫禁止名單優先順序"
+>abstract="即使其電子郵件地址因垃圾郵件投訴而位於 Adobe Journey Optimizer 禁止名單中，您也可以決定傳送交易型訊息到設定檔。此選項預設為停用。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="管理禁止名單"
 
 >[!IMPORTANT]
 >

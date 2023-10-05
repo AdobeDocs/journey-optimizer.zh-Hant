@@ -9,7 +9,7 @@ exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 source-git-commit: f00843c54f18c6d9599d527101496d1d58df09f3
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
 >title="新增自訂程式碼"
->abstract="HEAD元素是中繼資料的容器，並置於HTML標籤和BODY標籤之間。 僅新增SCRIPT和STYLE元素。 新增DIV標籤和其他元素可能會造成其餘的HEAD元素出現在BODY中。"
+>abstract="HEAD 元素是中繼資料的容器，位於 HTML 標記和 BODY 標記之間。僅新增 SCRIPT 和 STYLE 元素。新增 DIV 標記和其他元素可能會造成其餘的 HEAD 元素出現在 BODY 中。"
 
 您可以使用新增自訂程式碼 **[!UICONTROL 頁面`<head>`]** 修改型別。
 

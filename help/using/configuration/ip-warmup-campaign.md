@@ -23,7 +23,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
 >title="啟用 IP 暖身計劃選項"
->abstract="選取此選項時，可以在IP熱身計畫中使用行銷活動。 接著，行銷活動排程將由相關聯的IP熱身計畫驅動。"
+>abstract="當您選取此選項時，可以在 IP 暖身計劃中使用行銷活動。然後，活動排程將由與其關聯的 IP 暖身計劃驅動。"
 
 >[!BEGINSHADEBOX]
 
