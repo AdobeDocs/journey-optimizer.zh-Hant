@@ -4,7 +4,7 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
+source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
 workflow-type: tm+mt
 source-wordcount: '4190'
 ht-degree: 84%
@@ -121,7 +121,7 @@ ht-degree: 84%
 
 
 
-* 自訂動作回應的支援現在為GA。 此功能可讓您在自訂動作中運用API呼叫回應，並根據這些回應協調您的歷程。 此外，已新增護欄，以將所有海關動作限製為每個端點超過30秒15,000次呼叫。 [了解更多](../action/action-response.md)
+* 自訂動作回應的支援現在為GA。 此功能可讓您在自訂動作中運用API呼叫回應，並根據這些回應協調您的歷程。 此外，已新增護欄，以將所有海關動作限製為每個端點超過30秒150,000次呼叫。 [了解更多](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
+source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 12%
@@ -132,7 +132,7 @@ ht-degree: 12%
 
 1. 在 **[!UICONTROL 請求]** 區段，貼上要傳送至外部服務的JSON裝載範例。 此欄位是選用欄位，僅適用於POST和PUT呼叫方法。
 
-1. 在 **[!UICONTROL 回應]** 區段，貼上呼叫傳回之裝載的範例。 此欄位是選用欄位，可用於所有呼叫方法。 如需如何在客戶動作中運用API呼叫回應的詳細資訊，請參閱 [此頁面](../action/action-response.md).
+1. 在 **[!UICONTROL 回應]** 區段，貼上呼叫傳回之裝載的範例。 此欄位是選用欄位，可用於所有呼叫方法。 如需如何在自訂動作中運用API呼叫回應的詳細資訊，請參閱 [此頁面](../action/action-response.md).
 
 >[!NOTE]
 >
