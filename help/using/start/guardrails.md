@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1355'
 ht-degree: 95%
 
 ---
@@ -66,7 +66,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ### 自訂動作 {#custom-actions-g}
 
-* 所有自訂動作的上限為5000次呼叫/秒。 此限制是根據客戶使用狀況所設定，可保護自訂動作鎖定的外部端點。
+* 所有自訂動作皆已定義30秒內150,000次呼叫的上限限制。 此限制是根據客戶使用狀況所設定，可保護自訂動作鎖定的外部端點。
 * 自訂動作 URL 不支援動態參數。
 * 支援 POST、PUT 和 GET 呼叫方法
 * 查詢參數或標題的名稱不得以「.」開頭 或 &quot;$&quot;

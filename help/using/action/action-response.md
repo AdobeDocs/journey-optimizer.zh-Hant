@@ -10,9 +10,9 @@ level: Experienced
 badge: label="Beta" type="Informative"
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '603'
 ht-degree: 7%
 
 ---
@@ -20,10 +20,6 @@ ht-degree: 7%
 # 在自訂動作中使用 API 呼叫回應 {#custom-action-enhancements}
 
 您可以在自訂動作中運用API呼叫回應，並根據這些回應協調您的歷程。
-
->[!AVAILABILITY]
->
->此功能目前在Beta版中提供。
 
 <!--
 You can now leverage API call responses in custom actions and orchestrate your journeys based on these responses.
