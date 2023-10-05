@@ -7,14 +7,19 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
+source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
 workflow-type: tm+mt
-source-wordcount: '1940'
-ht-degree: 12%
+source-wordcount: '1987'
+ht-degree: 11%
 
 ---
 
 # 建立應用程式內訊息 {#create-in-app}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_triggers"
+>title="管理應用程式內觸發器"
+>abstract="選取將啟動訊息的特定事件和條件，以有效控制您的觸發器。 使用規則產生器，使用者可以定義精確條件和值。 當這些條件符合時，就會起始一系列動作，包括應用程式內訊息的傳送。"
 
 您可以在行銷活動或歷程中新增應用程式內訊息。 請依照下列詳細步驟，在兩個內容中建立應用程式內訊息。
 
