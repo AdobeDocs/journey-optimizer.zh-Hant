@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用內容助理產生影像
+title: 使用內容助理生成影像
 description: 開始使用內容助理
 feature: Overview
 topic: Content Management
@@ -10,14 +10,15 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
+exl-id: b5582601-5804-4413-b548-a0b34cc38090
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
-# 使用內容助理產生影像 {#image-content-assistant}
+# 使用內容助理生成影像 {#image-content-assistant}
 
 >[!BEGINSHADEBOX]
 

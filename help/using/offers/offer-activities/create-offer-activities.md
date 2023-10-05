@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 18d44b689a524dc2b031a32b8b79ac755d680e23
+source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
 workflow-type: tm+mt
-source-wordcount: '2225'
+source-wordcount: '2164'
 ht-degree: 2%
 
 ---
@@ -123,12 +123,6 @@ ht-degree: 2%
    它們現在有相同的排名，因此將同時進行評估。 [了解更多](#evaluation-criteria-order)
 
    ![](../assets/activity_same-rank-collections.png)
-
-   >[!CAUTION]
-   >
-   >* 如果 [AI模型](../ranking/ai-models.md) 用於評估標準群組中，該群組中的所有評估標準都必須使用AI排名方法，並且它們必須使用相同的特定AI模型。
-   >
-   >* 只有一個評估准則群組可以使用AI模型。 決策範圍內的任何其他群組都必須使用其他排名方法（優先順序或公式）。 [進一步瞭解排名方法](../offer-activities/configure-offer-selection.md)
 
 1. 若要在此決定中新增其他優惠位置，請使用 **[!UICONTROL 新範圍]** 按鈕。 對每個決定範圍重複上述步驟。
 

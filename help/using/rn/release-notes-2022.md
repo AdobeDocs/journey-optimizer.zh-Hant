@@ -4,7 +4,7 @@ product: journey optimizer
 title: 2022 年發行說明
 description: Journey Optimizer 2022 年發行說明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
 workflow-type: tm+mt
 source-wordcount: '3575'
 ht-degree: 100%
@@ -514,7 +514,7 @@ ht-degree: 100%
 
 **電子郵件**
 
-* **另存為範本** — 您現在可以將電子郵件內容另存為範本，並在建立其他郵件時重複使用它。 [進一步了解](../content-management/content-templates.md#save-as-template)
+* **另存為範本** — 您現在可以將電子郵件內容另存為範本，並在建立其他郵件時重複使用它。 [進一步了解](../email/email-templates.md)
 
 
 **管理**
@@ -682,7 +682,7 @@ ht-degree: 100%
 
 **個人化**
 
-* 您現在可以在程式庫中儲存 40 多組個人化運算式。 [了解更多](../personalization/use-expression-fragments.md)
+* 您現在可以在程式庫中儲存 40 多組個人化運算式。 [了解更多](../personalization/personalization-library.md)
 
 ## 2022 年 2 月發佈內容 {#feb-2022-release}
 
@@ -714,7 +714,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>Journey Optimizer 現在提供資料庫，您可以在其中存取預先定義的個人化運算式。 這些運算式由管理員使用者設定。</p>
-<p>如需詳細資訊，請參閱<a href="../personalization/use-expression-fragments.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../personalization/personalization-library.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>

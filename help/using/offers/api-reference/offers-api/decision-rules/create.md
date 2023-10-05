@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
-source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
+source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 12%
+source-wordcount: '129'
+ht-degree: 11%
 
 ---
 
@@ -33,7 +33,8 @@ POST /{ENDPOINT_PATH}/offer-rules
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 持續性API的端點路徑。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 決策規則所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **要求**
 
@@ -68,7 +69,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **回應**
 
-成功的回應會傳回關於新建立決定規則的資訊 `id`. 您可以使用 `id` 在稍後的步驟中更新或刪除您的決定規則，或在稍後的教學課程中使用它來建立決定、決定規則和遞補優惠。
+成功的回應會傳回關於新建立決定規則的資訊，包括位置 `id`. 您可以使用 `id` 在稍後的步驟中更新或刪除您的決定規則，或在稍後的教學課程中使用它來建立決定、決定規則和遞補優惠。
 
 ```json
 {

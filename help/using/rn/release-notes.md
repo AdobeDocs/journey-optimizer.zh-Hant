@@ -4,10 +4,10 @@ product: journey optimizer
 title: 發行說明
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4d74588b5df0afab7e56e540703891c48a94ab5f
+source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
 workflow-type: tm+mt
-source-wordcount: '4141'
-ht-degree: 85%
+source-wordcount: '4086'
+ht-degree: 86%
 
 ---
 
@@ -99,13 +99,14 @@ ht-degree: 85%
 
 此發行版本隨附下列改進項目。
 
-**個人化**
+<!--**Personalization**
 
-* 除了視覺化片段之外，現在還可以透過運算式編輯器從Journey Optimizer介面建立、儲存及重複使用運算式片段。 運算式片段會取代先前儲存的運算式。 [了解更多](../personalization/use-expression-fragments.md)
+* In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions.-->
 
-**警報**
+<!--
+**Alerting**
 
-* 已引進新類型的系統警報。您現在可以在以下情況下收到通知： **讀取對象** 活動失敗。 [了解更多](../reports/alerts.md)。
+* A new type of system alert has been introduced. You can now get notified when a read audience fails.    -->
 
 **網路頻道**
 
@@ -117,7 +118,7 @@ ht-degree: 85%
 
 **歷程**
 
-* 複製歷程時，您現在可以定義歷程副本的名稱。 [了解更多](../building-journeys/journey-gs.md#uplicate-a-journey)
+複製歷程時，您現在可以定義歷程副本的名稱。 [了解更多](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
 <!--
@@ -127,7 +128,7 @@ ht-degree: 85%
 
 **電子郵件頻道**
 
-* 電子郵件介面設定中的新選項可讓您選擇傳送交易式訊息給設定檔，即使其電子郵件地址在Adobe上亦然 [!DNL Journey Optimizer] 隱藏清單。 [了解更多](../email/email-settings.md#send-to-suppressed-email-addresses)
+電子郵件介面設定中的新選項可讓您選擇傳送交易式訊息給設定檔，即使其電子郵件地址在Adobe上亦然 [!DNL Journey Optimizer] 隱藏清單。 [了解更多](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **簡訊頻道**
 
@@ -137,15 +138,15 @@ ht-degree: 85%
 
 **直接郵件頻道**
 
-* 現在，當直接郵件提供者將檔案傳輸至伺服器時，您就可以加密這些檔案。 為此，檔案路由設定畫面中提供新欄位，允許您複製並貼上加密金鑰。 [了解更多](../direct-mail/direct-mail-configuration.md)
+現在，您將檔案傳輸至伺服器時，可以加密提供給直接郵件提供者的檔案。 為此，檔案路由設定畫面中提供新欄位，允許您複製並貼上加密金鑰。 [了解更多](../direct-mail/direct-mail-configuration.md)
 
 **報告**
 
-* 您現在可以將Journey Optimizer報表匯出為CSV檔案。 進一步瞭解 [詳細檔案](../reports/global-report.md#export-reports) 和 [作法影片](../reports/global-report.md#video-csv).
+您現在可以將Journey Optimizer報表匯出為CSV檔案。 進一步瞭解 [詳細檔案](../reports/global-report.md#export-reports) 和 [作法影片](../reports/global-report.md#video-csv).
 
 **資產**
 
-* 「資產」的新選項可讓您在Journey Optimizer中選擇資產的存放庫。 如果您擁有此解決方案，您可以選擇使用Assets Essentials存放庫或Assetsas a Cloud Service存放庫。 [了解更多](../content-management/assets-essentials.md)
+「資產」的新選項可讓您在Journey Optimizer中選擇資產的存放庫。 如果您擁有此解決方案，您可以選擇使用Assets Essentials存放庫或Assetsas a Cloud Service存放庫。 [了解更多](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 
@@ -468,7 +469,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>您現在可以製作、使用和管理片段，以快速組合電子郵件與內容範本。 片段是預先建立的可重複使用元件，可在跨 Journey Optimizer 行銷活動和歷程的多封電子郵件中參考，以改進和加快設計流程。</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<p>如需詳細資訊，請參閱<a href="../content-management/fragments.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/fragments.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -905,7 +906,7 @@ Note that each widget can be resized and deleted as needed.
 <p>您現在可以建立獨立內容範本，這些範本可用於歷程及行銷活動，以快速重複使用。</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>在<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=zh-Hant">此影片</a>瞭解如何建立、編輯並使用內容範本。如需詳細資訊，請參閱<a href="../content-management/content-templates.md">詳細文件</a>。
+<p>在<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=zh-Hant">此影片</a>瞭解如何建立、編輯並使用內容範本。如需詳細資訊，請參閱<a href="../email/content-templates.md">詳細文件</a>。
 </p>
 </td>
 </tr>

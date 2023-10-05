@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '285'
+ht-degree: 17%
 
 ---
 
