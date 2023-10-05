@@ -7,14 +7,19 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、設計、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: 144afbd925301ea1eeb690adee335d205fded394
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 5%
+source-wordcount: '1147'
+ht-degree: 4%
 
 ---
 
 # 設計您的應用程式內內容 {#design-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_content"
+>title="定義您的應用程式內內容"
+>abstract="自訂應用程式內訊息的內容和樣式。 您也可以新增媒體和動作按鈕，讓您的訊息更吸引人且更有效率。"
 
 您可以編輯應用程式內內容以設定體驗選項：
 
@@ -31,6 +36,11 @@ ht-degree: 5%
 建立應用程式內訊息，並定義內容與個人化後，您就可以檢閱並啟用該訊息。 然後，將根據行銷活動排程傳送通知。 在[本頁](send-in-app.md)中瞭解更多。
 
 ## 訊息配置 {#message-layout}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_message_layout"
+>title="定義您的應用程式內內容"
+>abstract="訊息版面配置提供您常用的範本，供您設定訊息的框架。 自訂配置提供上傳或撰寫自訂HTML訊息的選項。"
 
 從 **[!UICONTROL 訊息配置]** 區段，根據您的訊息傳送需求，選取四個不同的版面配置選項之一。
 
@@ -58,9 +68,14 @@ ht-degree: 5%
 
 ## 內容索引標籤 {#content-tab}
 
-從 **內容** 標籤內，您可以定義並個人化：通知的內容與樣式 **關閉** 按鈕。 您也可以新增媒體至應用程式內通知，並在此索引標籤新增動作按鈕。
+從 **內容** 標籤內，您可以定義並個人化通知的內容和樣式 **關閉** 按鈕。 您也可以新增媒體至應用程式內通知，並在此索引標籤新增動作按鈕。
 
 ### 關閉按鈕 {#close-button}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_close"
+>title="選擇「關閉」按鈕的「樣式」。"
+>abstract="關閉按鈕區段提供您選取訊息關閉按鈕變體的選項以及上傳自訂影像的選項。"
 
 ![](assets/in_app_content_2.png)
 
@@ -80,6 +95,11 @@ ht-degree: 5%
 
 ### 媒體 {#add-media}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_media"
+>title="將媒體新增至應用程式內訊息，為使用者建立引人入勝的體驗。"
+>abstract="提供內容的直接連結，或使用資產選擇器，在Asset Essentials中挑選要新增到訊息中的媒體。"
+
 此 **[!UICONTROL 媒體]** 欄位可讓您將媒體新增至應用程式內訊息，為一般使用者建立引人入勝的體驗。
 
 ![](assets/in_app_content_3.png)
@@ -94,6 +114,11 @@ ht-degree: 5%
 +++
 
 ### 頁首與內文 {#title-body}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_content"
+>title="若要撰寫訊息，請在「標頭」和「內文」欄位中輸入內容。"
+>abstract="您可以在此新增頁首與內文。 若要包含個人化權杖，請開啟個人化對話方塊。"
 
 若要撰寫訊息，請在 **[!UICONTROL 頁首]** 和 **[!UICONTROL 內文]** 欄位。
 
@@ -112,6 +137,11 @@ ht-degree: 5%
 +++
 
 ### 按鈕 {#add-buttons}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_buttons"
+>title="新增按鈕讓使用者與您的應用程式內訊息互動。"
+>abstract="此區段可讓您在訊息中新增呼叫動作按鈕。 您可以包含每個按鈕的自訂文字和目標。"
 
 新增按鈕讓使用者與您的應用程式內訊息互動。
 
@@ -147,6 +177,11 @@ ht-degree: 5%
 
 ### 預覽 {#preview-tab}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_preview"
+>title="預覽您的應用程式內訊息。"
+>abstract="這是將訊息傳送至裝置的訊息摘要時顯示的預覽影像。"
+
 ![](assets/in_app_content_6.png)
 
 此 **[!UICONTROL 應用程式預覽]** 可讓您在應用程式內訊息後面新增背景：
@@ -159,6 +194,11 @@ ht-degree: 5%
 
 ### 版面配置 {#layout-options}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_layout"
+>title="定義應用程式內訊息的訊息配置。"
+>abstract="本節可讓您將背景新增至應用程式內訊息。 這需要啟用UI接管。"
+
 ![](assets/in_app_content_7.png)
 
 此 **[!UICONTROL 背景影像]** 欄位可讓您將背景新增至應用程式內訊息：
@@ -168,6 +208,11 @@ ht-degree: 5%
 * 背景顏色。
 
 ### 訊息 {#message-tab}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_message_advanced"
+>title="定義訊息進階設定。"
+>abstract="本節可讓您增強應用程式內內容的個人化功能，尤其是當您已啟用進階格式設定時。"
 
 ![](assets/in_app_content_8.png)
 
