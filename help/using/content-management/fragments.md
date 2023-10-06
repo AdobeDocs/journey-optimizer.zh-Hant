@@ -7,8 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
+source-git-commit: 732b84a8945e85cb77a8d2c477f9c9a064988109
 workflow-type: tm+mt
 source-wordcount: '1437'
 ht-degree: 4%
@@ -127,7 +127,7 @@ ht-degree: 4%
 
 * 使用，從頭開始建立片段 **[!UICONTROL 片段]** 專用功能表。 [了解作法](#create-from-scratch)
 
-* 設計內容時，請將部分內容儲存為片段。 [了解作法](#save-as-template)
+* 設計內容時，請將部分內容儲存為片段。 [了解作法](#save-as-fragment)
 
 儲存後，您的片段即可用於歷程、行銷活動或範本。 無論是從草稿建立還是從現有內容建立，您現在都可以在中建立任何內容時使用此片段 [!DNL Journey Optimizer]. 另請參閱 [新增視覺片段](../email/use-visual-fragments.md) 和 [利用運算式片段](../personalization/use-expression-fragments.md)
 
@@ -148,7 +148,7 @@ ht-degree: 4%
 
    ![](assets/fragment-details.png)
 
-1. 選擇片段型別： **[!UICONTROL 視覺片段]** 或 **[!UICONTROL 運算式片段]**.
+1. 選擇片段型別： [視覺片段](#create-visual-fragment) 或 [運算式片段](#create-expression-fragment).
 
 1. 若要指派自訂或核心資料使用標籤給片段，請選取「 」 **[!UICONTROL 管理存取權]**. [深入瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md).
 
