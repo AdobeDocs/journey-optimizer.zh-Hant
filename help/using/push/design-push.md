@@ -8,16 +8,21 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 19440c38d5d663a6b5ea7e99817ee65496bb43e6
+source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 12%
+source-wordcount: '1407'
+ht-degree: 11%
 
 ---
 
 # 設計推播通知 {#design-push-notification}
 
 ## 標題與內文 {#push-title-body}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-compose"
+>title="個人化您的推播通知。"
+>abstract="若要撰寫訊息，請在「標題」和「內文」欄位中輸入內容。 若要包含個人化權杖，請開啟個人化對話方塊。"
 
 若要撰寫訊息，請按一下 **[!UICONTROL 標題]** 和 **[!UICONTROL 內文]** 欄位。 使用運算式編輯器來定義內容、個人化資料及新增動態內容。 進一步瞭解 [個人化](../personalization/personalize.md) 和 [動態內容](../personalization/get-started-dynamic-content.md) 在運算式編輯器中。
 
@@ -40,7 +45,12 @@ ht-degree: 12%
 
 ## 新增媒體 {#add-media-push}
 
-在推播通知的iOS版本中，您可以新增將在通知中顯示的影像、影片或GIF。
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-media"
+>title="將媒體新增至推播通知"
+>abstract="您可以新增顯示在通知中的影像、影片或GIF。"
+
+在推播通知的iOS版本中，您可以新增顯示在通知中的影像、影片或GIF。
 
 在Android版本中，您只能新增影像圖示，以及用於展開通知的影像。
 
@@ -57,6 +67,11 @@ ht-degree: 12%
 新增後，媒體會顯示在通知內文的右側。
 
 ## 新增按鈕 {#add-buttons-push}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-buttons"
+>title="新增按鈕讓使用者與推播通知互動。"
+>abstract="此區段可讓您在訊息中新增呼叫動作按鈕。 針對iOS，請指定通知類別識別碼。 對於Android，您可以包含每個按鈕的自訂文字和目標。"
 
 將按鈕新增至推播內容，以建立可操作的通知。
 
@@ -85,11 +100,21 @@ ht-degree: 12%
 
 使用 **[!UICONTROL 自訂資料]** 區段來新增索引鍵/值組。
 
-## 自訂資料
+## 自訂資料 {#custom-data}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-custom"
+>title="設定推播通知的自訂資料。"
+>abstract="根據您的行動應用程式設定，將自訂變數新增到裝載。"
 
 在 **[!UICONTROL 自訂資料]** 區段，您可以根據您的行動應用程式設定，將自訂變數新增到裝載。 如需如何在Adobe Experience Platform和AdobeLaunch中設定推播通知的詳細資訊，請參閱 [本節](push-gs.md)
 
 ## 進階選項 {#advanced-options-push}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-advanced"
+>title="設定推播通知的進階選項。"
+>abstract="本節可讓您增強推播通知的個人化功能。"
 
 您可以設定 **[!UICONTROL 進階選項]** 用於您的推播通知。 可用的引數列示如下：
 

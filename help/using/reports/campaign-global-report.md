@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 2ae9cc843d613bf22e1413b1903e151faf3f8f76
+source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
-source-wordcount: '2466'
-ht-degree: 4%
+source-wordcount: '2955'
+ht-degree: 3%
 
 ---
 
@@ -45,6 +45,11 @@ ht-degree: 4%
 ## 行銷活動標籤 {#campaign-global}
 
 ### 傳送 {#delivery-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_delivery_global"
+>title="行銷活動的統計資料"
+>abstract="行銷活動的統計介面工具集會詳細說明與行銷活動相關的主要資訊，例如，已輸入的設定檔和已傳送的動作。"
 
 ![](assets/campaign_report_global_1.png)
 
@@ -209,6 +214,21 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ## 應用程式內標籤 {#inapp-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_performance"
+>title="應用程式內績效"
+>abstract="應用程式內績效KPI可讓您深入瞭解訪客與應用程式內訊息的互動程度。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_interactions"
+>title="依型別的互動"
+>abstract="「依型別的互動」圖表和表格會追蹤任何點按、解除或互動，以詳細說明使用者如何與您的應用程式內訊息互動。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_summary"
+>title="應用程式內摘要"
+>abstract="應用程式內摘要圖表會說明應用程式內曝光次數和互動在指定期間內的進度。"
+
 從您的行銷活動 **[!UICONTROL 全域報告]**，則 **[!UICONTROL 應用程式內]** 索引標籤會詳細說明與行銷活動中傳送之應用程式內傳遞相關的主要資訊。
 
 ![](assets/campaign_report_global_6.png)
@@ -223,20 +243,50 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL 互動率]**：應用程式內訊息的參與百分比。 這包括使用者所執行的任何動作，例如點選、解僱或任何其他互動。
 
-此 **[!UICONTROL 應用程式內摘要]** 圖表會顯示相關期間應用程式內曝光次數和互動的演變。
-
 此 **[!UICONTROL 依型別的互動]** 圖表和表格會詳細說明使用者如何透過追蹤任何點選、解除或互動來與您的應用程式內訊息互動。
+
+此 **[!UICONTROL 應用程式內摘要]** 圖表會顯示相關期間應用程式內曝光次數和互動的演變。
 +++
 
 ## 推播通知標籤 {#push-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_sending_statistics"
+>title="推播通知 — 傳送統計資料"
+>abstract="「推播通知傳送統計資料」表格會摘要推播通知的相關基本資料，例如「已鎖定目標」或「已傳送的訊息」。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_tracking_statistics"
+>title="推播通知 — 追蹤統計資料"
+>abstract="「推播追蹤統計資料」可提供您傳送之收件者活動的資料。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_sending_summary"
+>title="推播通知 — 傳送摘要"
+>abstract="「推播通知傳送摘要」圖表會顯示已傳送推播通知的可用資料。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_excluded_reasons"
+>title="推播通知 — 排除的原因"
+>abstract="「排除的原因」圖表和表格說明導致使用者設定檔從目標對象中排除而不接收訊息的各種因素。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_error_reasons"
+>title="推播通知 — 錯誤原因"
+>abstract="「錯誤原因」圖表和表格可讓您識別傳送期間發生的特定錯誤。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_breakdown_platform"
+>title="推播通知 — 依據平台的劃分"
+>abstract="「依平台劃分」圖表和表格會根據收件者的作業系統提供推送通知成功與否的劃分資訊。"
+
 從您的行銷活動 **[!UICONTROL 全域報告]**，則 **[!UICONTROL 推播通知]** 索引標籤會詳細說明與行銷活動中傳送之推播傳遞相關的主要資訊。
 
-![](assets/campaign_report_global_3.png)
+![](assets/campaign_report_global_3.png)應用程式內績效KPI會詳細說明與訪客與應用程式內訊息互動相關的主要資訊。
 
 +++進一步瞭解推送報表可用的不同量度和Widget。
 
-此 **[!UICONTROL 推播通知 — 傳送統計資料]** 表格會使用圖表和KPI詳細列出與推播通知相關的主要資訊：
+此 **[!UICONTROL 推播通知 — 傳送統計資料]** 表格詳細說明與推播通知相關的主要資訊
 
 * **[!UICONTROL 已鎖定目標]**：傳遞分析期間處理的訊息總數。
 
@@ -297,12 +347,42 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 此 **[!UICONTROL 錯誤原因]** 圖表和表格可讓您檢視傳送期間發生哪些錯誤。
 
-此 **[!UICONTROL 排除的原因]** 圖表和表格會顯示從目標設定檔中排除的使用者設定檔無法接收訊息的不同原因。
+此 **[!UICONTROL 排除的原因]** 圖形和表格會顯示從目標設定檔中排除的使用者設定檔無法接收訊息的不同原因。
 
-此 **[!UICONTROL 依據平台的追蹤]**， **[!UICONTROL 由平台傳送]** 和 **[!UICONTROL 依平台劃分]** 圖表和表格會根據收件者的作業系統詳細描述推播通知的成功情況。
+此 **[!UICONTROL 依平台劃分]** 圖形和表格會根據收件者的作業系統詳細描述推播通知的成功情況。
 +++
 
 ## 簡訊索引標籤 {#sms-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_sending_statistics"
+>title="簡訊 — 傳送統計資料"
+>abstract="「SMS傳送統計資料」表格會摘要有關SMS訊息的基本資料，例如「已鎖定目標」或「已傳送」訊息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_error_reasons"
+>title="簡訊 — 錯誤原因"
+>abstract="SMS — 錯誤原因圖表和表格可讓您識別傳送期間發生的特定錯誤。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_performance"
+>title="簡訊 — 依據日期的績效"
+>abstract="依日期的SMS效能Widget可透過圖形化呈現方式，提供您訊息的重要相關資訊。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_excluded_reasons"
+>title="簡訊 — 排除的原因"
+>abstract="「排除的原因」圖表和表格說明導致使用者設定檔從目標對象中排除而不接收訊息的各種因素。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_bounces_reasons"
+>title="簡訊 — 退回原因"
+>abstract="「退信原因」圖表和表格包含與退信相關的可用資料。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_clicks_links"
+>title="簡訊 — 依據連結的點按"
+>abstract="SMS — 連結點按次數Widget提供訪客與訊息中URL互動的基本深入分析"
 
 從您的行銷活動 **[!UICONTROL 全域報告]**，則 **[!UICONTROL 簡訊]** 索引標籤會詳細說明與行銷活動中傳送之SMS傳遞相關的主要資訊。
 
@@ -330,13 +410,28 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL 錯誤]**：在傳送期間發生且無法傳送至設定檔的錯誤總數。
 
-此 **[!UICONTROL 排除原因]**， **[!UICONTROL 退回原因]** 和 **[!UICONTROL 錯誤原因]** 圖表和表格可讓您檢視傳送期間發生哪些錯誤和排除。
+此 **[!UICONTROL 排除原因]** 和 **[!UICONTROL 退回原因]** 和 **[!UICONTROL 錯誤原因]** 圖表和表格可讓您檢視傳送期間發生哪些錯誤和排除。
 
-此 **[!UICONTROL 簡訊 — 依據連結的點按]** 和 **[!UICONTROL 簡訊 — 追蹤統計資料]** Widget會詳細說明與訪客對您URL的參與度相關的主要資訊。
+此 **[!UICONTROL 簡訊 — 依據連結的點按]** Widget會詳細說明與訪客與您URL互動相關的主要資訊。
 
 +++
 
 ## 網頁標籤 {#web-tab}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_performance"
+>title="網頁效能"
+>abstract="網站績效KPI提供關於訪客與網站體驗互動情況的完整資訊。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_summary"
+>title="網頁摘要"
+>abstract="「Web摘要」圖表可說明您的Web體驗在指定期間內的進度，包括曝光數、不重複曝光數和互動數。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_interactions"
+>title="依元素的互動"
+>abstract="「依元素的互動」表格提供有關訪客與網頁上不同元素互動的關鍵資訊。"
 
 從您的行銷活動 **[!UICONTROL 全域報告]**，則 **[!UICONTROL Web]** 標籤會詳細說明與網頁相關的主要資訊。
 
@@ -358,6 +453,21 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 +++
 
 ## 直接郵件索引標籤 {#direct-mail-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_sending_statistics"
+>title="直接郵件 — 傳送統計資料"
+>abstract="「直接郵件傳送統計資料」表格會摘要有關直接郵件訊息的基本資料，例如「已鎖定目標」或「已傳遞」訊息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_error_reasons"
+>title="直接郵件 — 錯誤原因"
+>abstract="「直接郵件 — 錯誤原因」圖表和表格可讓您識別傳送期間發生的特定錯誤。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_excluded_reasons"
+>title="直接郵件 — 排除的原因"
+>abstract="「直接郵件排除的原因」圖表和表格說明了導致使用者設定檔從目標對象中排除而不接收訊息的各種因素。"
 
 從您的行銷活動 **[!UICONTROL 全域報告]**，則 **[!UICONTROL 直接郵件]** 索引標籤會詳細說明與直接郵件傳送相關的主要資訊。
 
