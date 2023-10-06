@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1362'
 ht-degree: 3%
 
 ---
@@ -41,18 +41,18 @@ ht-degree: 3%
 
 1. 在資料管理功能表區段中，按一下 **[!UICONTROL 方案]**.
    ![](assets/test-profiles-0.png)
-1. 按一下 **[!UICONTROL 建立結構描述]**，然後選取結構描述型別，例如 **XDM個別設定檔**.
+1. 按一下 **[!UICONTROL 建立結構描述]**，在右上方，選取結構描述型別，例如 **個別設定檔** 並按一下 **下一個**.
    ![](assets/test-profiles-1.png)
-1. 選取適當的欄位群組。 請務必新增 **設定檔測試詳細資料** 欄位群組。
+1. 輸入結構描述的名稱，然後按一下 **完成**.
+   ![](assets/test-profiles-1-bis.png)
+1. 在 **欄位群組** 區段，在左側按一下 **新增** 並選取適當的欄位群組。 請務必新增 **設定檔測試詳細資料** 欄位群組。
    ![](assets/test-profiles-1-ter.png)
 完成後，按一下 **[!UICONTROL 新增欄位群組]**：欄位群組清單會顯示在結構概觀畫面上。
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
    >
-   >* 按一下結構描述的名稱，以變更它並更新其屬性。
-   >
-   >* 按一下 **[!UICONTROL 新增]** 欄位群組區段中的按鈕，用於選取要新增到結構描述中的其他欄位群組
+   >按一下結構描述的名稱以更新其屬性。
 
 1. 在欄位清單中，按一下要定義為主要身分的欄位。
    ![](assets/test-profiles-3.png)

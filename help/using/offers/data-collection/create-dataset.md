@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '266'
 ht-degree: 12%
 
 ---
@@ -20,15 +20,18 @@ ht-degree: 12%
 
 首先，請建立要在資料集中使用的結構描述：
 
-1. 從 **[!UICONTROL 資料管理]** 功能表，選取 **[!UICONTROL 結構描述]** 並前往 **[!UICONTROL 瀏覽]** 標籤。
+1. 從 **[!UICONTROL 資料管理]** 功能表，選取 **[!UICONTROL 結構描述]**.
 
-1. 按一下 **[!UICONTROL 建立結構描述]** 並選擇 **[!UICONTROL XDM ExperienceEvent]**.
+1. 按一下 **[!UICONTROL 建立結構描述]**，在右上方，選取 **[!UICONTROL 體驗事件]** 並按一下 **下一個**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
    >瞭解更多關於XDM結構描述和欄位群組 [XDM系統總覽檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}.
+
+1. 輸入綱要的名稱和說明，然後按一下 **完成**.
+   ![](../assets/ai-ranking-xdm-event-2.png)
 
 1. 從 **[!UICONTROL 欄位群組]** 部分，選取 **[!UICONTROL 新增]**.
 
@@ -44,7 +47,7 @@ ht-degree: 12%
    >
    >資料集中使用的結構描述必須具有 **[!UICONTROL 體驗事件 — 主張互動]** 與其相關聯的欄位群組。 否則，您將無法在AI模型中使用它。
 
-1. 輸入名稱並儲存結構。
+1. 儲存結構。
 
 >[!NOTE]
 >

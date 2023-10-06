@@ -6,9 +6,9 @@ description: 瞭解如何使用Journey Optimizer設定您的環境以傳送推�
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1609'
 ht-degree: 4%
 
 ---
@@ -267,20 +267,20 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 為了讓此歷程正常運作，您需要建立XDM結構描述。 如需詳細資訊，請參閱 [XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}.
 
-1. 在左側功能表中，瀏覽至 **[!UICONTROL 方案]**.
-
-1. 按一下 **[!UICONTROL 建立結構描述]** 然後選取 **[!UICONTROL XDM ExperienceEvent]**.
-
+1. 在資料管理功能表區段中，按一下 **[!UICONTROL 方案]**.
+   ![](assets/test_push_1.png)
+1. 按一下 **[!UICONTROL 建立結構描述]**，在右上方，選取 **[!UICONTROL 體驗事件]** 並按一下 **下一個**.
    ![](assets/test_push_2.png)
-
-1. 選取 **[!UICONTROL 建立新的欄位群組]**.
+1. 輸入綱要的名稱和說明，然後按一下 **完成**.
+   ![](assets/test_push_3.png)
+1. 在 **欄位群組** 區段，在左側按一下 **新增** 並選取 **[!UICONTROL 建立新的欄位群組]**.
 
 1. 輸入 **[!UICONTROL 顯示名稱]** 和 **[!UICONTROL 說明]**. 按一下 **[!UICONTROL 新增欄位群組]** 完成時。 有關如何建立欄位群組的詳細資訊，請參閱 [XDM系統檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant){target="_blank"}.
 
 
    ![](assets/test_push_4.png)
 
-1. 在左側，選取結構。 在右窗格中，輸入結構描述的名稱和說明。 為以下專案啟用此結構描述 **[!UICONTROL 個人資料]**.
+1. 在左側，選取結構。 在右窗格中，啟用此結構描述 **[!UICONTROL 個人資料]**.
 
    ![](assets/test_push_4b.png)
 
