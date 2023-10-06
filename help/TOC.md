@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
+source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 93%
+source-wordcount: '1656'
+ht-degree: 92%
 
 ---
 
@@ -182,9 +182,10 @@ ht-degree: 93%
          + [從頭開始設計內容](using/email/content-from-scratch.md)
          + [匯入內容](using/email/existing-content.md)
          + [為您自己的內容撰寫程式碼](using/email/code-content.md)
-         + [使用範本](using/email/email-templates.md)
+         + [使用電子郵件範本](using/email/use-email-templates.md)
       + 設計您的內容 {#add-content}
          + [使用內容元件](using/email/content-components.md)
+         + [善用視覺片段](using/email/use-visual-fragments.md)
          + [新增連結及追蹤訊息](using/email/message-tracking.md)
          + [插入個人化優惠方案](using/email/add-offers-email.md)
          + [產生文字版本](using/email/text-version-email.md)
@@ -195,9 +196,7 @@ ht-degree: 93%
          + [調整垂直對齊與邊框間距](using/email/alignment-and-padding.md)
          + [加入內嵌樣式屬性](using/email/inline-styling.md)
    + [預覽和測試您的電子郵件](using/email/preview.md)
-   + [建立內容範本](using/email/content-templates.md)
    + [使用 Experience Manager 範本](using/email/aem-templates.md)
-   + [使用片段](using/email/fragments.md)
    + [管理電子郵件選擇退出](using/email/email-opt-out.md)
    + 設定電子郵件頻道 {#configure-email}
       + [開始使用電子郵件設定](using/email/get-started-email-config.md)
@@ -271,7 +270,7 @@ ht-degree: 93%
       + 使用運算式編輯器 {#expression-editor}
          + [關於運算式編輯器](using/personalization/personalization-build-expressions.md)
          + [將屬性加入我的最愛](using/personalization/personalization-favorites.md)
-         + [使用儲存的運算式](using/personalization/personalization-library.md)
+         + [使用運算式片段](using/personalization/use-expression-fragments.md)
          + [個人化驗證](using/personalization/personalization-validation.md)
       + 輔助函式{#functions}
          + [開始使用輔助函式](using/personalization/functions/functions.md)
@@ -288,6 +287,9 @@ ht-degree: 93%
       + Personalization 使用案例{#personalization-use-cases}
          + [訂單狀態通知](using/personalization/personalization-use-case.md)
          + [放棄購物車電子郵件](using/personalization/personalization-use-case-helper-functions.md)
+   + 管理可重複使用的內容 {#reusable-content}
+      + [使用內容範本](using/content-management/content-templates.md)
+      + [使用片段](using/content-management/fragments.md)
    + 動態內容 {#dynamic}
       + [開始使用動態內容](using/personalization/get-started-dynamic-content.md)
       + [建立條件式規則](using/personalization/create-conditions.md)
@@ -426,12 +428,56 @@ ht-degree: 93%
             + [建立遞補優惠](using/offers/api-reference/offers-api/fallback-offers/create.md)
             + [更新遞補優惠](using/offers/api-reference/offers-api/fallback-offers/update.md)
             + [刪除遞補優惠](using/offers/api-reference/offers-api/fallback-offers/delete.md)
-      + 使用 API 建立和管理決定 {#activities-api}
-         + [列舉決定](using/offers/api-reference/activities-api/activities/activities-list.md)
-         + [查詢決定](using/offers/api-reference/activities-api/activities/lookup.md)
-         + [建立決定](using/offers/api-reference/activities-api/activities/create.md)
-         + [更新決定](using/offers/api-reference/activities-api/activities/update.md)
-         + [刪除決定](using/offers/api-reference/activities-api/activities/delete.md)
+         + 決策 {#decisions-api}
+            + [列舉決定](using/offers/api-reference/activities-api/activities/activities-list.md)
+            + [查詢決定](using/offers/api-reference/activities-api/activities/lookup.md)
+            + [建立決定](using/offers/api-reference/activities-api/activities/create.md)
+            + [更新決定](using/offers/api-reference/activities-api/activities/update.md)
+            + [刪除決定](using/offers/api-reference/activities-api/activities/delete.md)
+         + 舊版API {#legacy-api}
+            + [關於舊版API](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
+            + 位置 {#placements}
+               + [清單位置](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
+               + [查詢位置](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)
+               + [建立位置](using/offers/api-reference/offers-api/legacy-apis/placements/create.md)
+               + [更新位置](using/offers/api-reference/offers-api/legacy-apis/placements/update.md)
+               + [刪除位置](using/offers/api-reference/offers-api/legacy-apis/placements/delete.md)
+            + 決定規則 {#decision-rules}
+               + [清單決定規則](using/offers/api-reference/offers-api/legacy-apis/decision-rules/rules-list.md)
+               + [查詢決定規則](using/offers/api-reference/offers-api/legacy-apis/decision-rules/lookup.md)
+               + [建立決定規則](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
+               + [更新決定規則](using/offers/api-reference/offers-api/legacy-apis/decision-rules/update.md)
+               + [刪除決定規則](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
+            + 集合限定詞{#tags}
+               + [列出集合限定詞](using/offers/api-reference/offers-api/legacy-apis/tags/tags-list.md)
+               + [查詢集合限定詞](using/offers/api-reference/offers-api/legacy-apis/tags/lookup.md)
+               + [建立集合限定詞](using/offers/api-reference/offers-api/legacy-apis/tags/create.md)
+               + [更新集合限定詞](using/offers/api-reference/offers-api/legacy-apis/tags/update.md)
+               + [刪除集合限定詞](using/offers/api-reference/offers-api/legacy-apis/tags/delete.md)
+            + 個人化優惠 {#personalized-offers}
+               + [列出個人化優惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/offers-list.md)
+               + [查詢個人化優惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/lookup.md)
+               + [建立個人化優惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/create.md)
+               + [更新個人化優惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/update.md)
+               + [刪除個人化優惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/delete.md)
+            + 遞補優惠 {#fallback-offers}
+               + [列出遞補優惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/fallback-list.md)
+               + [查詢遞補優惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/lookup.md)
+               + [建立遞補優惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
+               + [更新遞補優惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/update.md)
+               + [刪除遞補優惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/delete.md)
+            + 集合 {#collections}
+               + [清單集合](using/offers/api-reference/offers-api/legacy-apis/collections/collections-list.md)
+               + [查詢集合](using/offers/api-reference/offers-api/legacy-apis/collections/lookup.md)
+               + [建立集合](using/offers/api-reference/offers-api/legacy-apis/collections/create.md)
+               + [更新集合](using/offers/api-reference/offers-api/legacy-apis/collections/update.md)
+               + [刪除集合](using/offers/api-reference/offers-api/legacy-apis/collections/delete.md)
+            + 決策 {#decisions-api}
+               + [列舉決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/activities-list.md)
+               + [查詢決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/lookup.md)
+               + [建立決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
+               + [更新決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
+               + [刪除決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
       + 利用 API 傳遞優惠方案{#offer-delivery-api}
          + [開始使用傳遞優惠方案 API](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
          + [決策 API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)

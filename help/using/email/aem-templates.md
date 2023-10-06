@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 3%
@@ -97,7 +97,7 @@ ht-degree: 3%
    >
    > 如果您想要編輯並個人化範本，則只能使用相容性模式。
 
-1. 當您的內容範本準備就緒時， [測試及驗證](content-templates.md#test-template).
+1. 當您的內容範本準備就緒時， [測試及驗證](../content-management/content-templates.md#test-template).
 
 1. 定義內容後，您可以在建立新電子郵件時透過瀏覽 **[!UICONTROL 已儲存的範本]** 集合。 然後，選取 **[!UICONTROL 使用此範本]**.
 
