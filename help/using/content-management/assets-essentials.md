@@ -12,7 +12,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 6295b7d5379b3a81d7917a8f1a6dba2a34fc3cde
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 16%
 
    ![](assets/media_library_1.png)
 
-1. 在Journey Optimizer中選擇資產的存放庫。 如果您擁有此解決方案，您可以選擇使用Assets Essentials存放庫或Assetsas a Cloud Service存放庫。
+1. 在Journey Optimizer中選擇資產的存放庫。 如果您擁有此解決方案，您可以選擇使用 Assets Essentials 存放庫或 Assets as a Cloud Service 存放庫。 
 
    ![](assets/media_library_4.png)
 

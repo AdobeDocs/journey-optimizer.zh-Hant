@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 73ef16b03f76b61da95b48a411b07854c59c6487
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -235,7 +235,7 @@ ht-degree: 8%
 * 幾分鐘後，單一訊息便會使用，
 * 直到下一個批次讓曲面在批次訊息中生效。
 
-#### 已失敗 {#failed}
+#### 失敗 {#failed}
 
 如果驗證程式失敗，仍會使用舊版曲面。
 

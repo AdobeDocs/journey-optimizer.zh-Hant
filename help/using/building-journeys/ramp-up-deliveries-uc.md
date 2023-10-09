@@ -12,13 +12,13 @@ exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
 # 使用案例：加快傳遞速度{#use-case-ramp-up-your-deliveries}
 
-如果您最近移至其他電子郵件服務提供者、IP位址或電子郵件網域或子網域，您必須建立您作為寄件者的信譽。 否則，您的傳遞可能會遭到封鎖或移至收件者信箱的垃圾郵件資料夾。 瞭解如何透過IP預熱提高您的電子郵件信譽 [傳遞性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target="_blank"}.
+如果您最近移至其他電子郵件服務提供者、IP位址或電子郵件網域或子網域，您必須建立您作為寄件者的信譽。 否則，您的傳遞可能會遭到封鎖或移至收件者信箱的垃圾郵件資料夾。 瞭解如何透過IP預熱提高您的電子郵件信譽 [傳遞性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=zh-Hant){target="_blank"}.
 
 若要熱身IP，您可以逐步增加傳遞數量。 深入瞭解 [在Journey Optimizer中最佳化傳遞能力](../reports/deliverability.md).
 

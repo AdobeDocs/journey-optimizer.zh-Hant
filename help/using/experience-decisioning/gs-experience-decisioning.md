@@ -1,5 +1,5 @@
 ---
-title: 開始使用體驗決策
+title: 開始使用 Experience Decisioning
 description: 進一步瞭解體驗決策
 feature: Offers
 topic: Integrations
@@ -12,25 +12,25 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 6%
+ht-degree: 18%
 
 ---
 
-# 開始使用體驗決策 {#get-started-experience-decisioning}
+# 開始使用 Experience Decisioning {#get-started-experience-decisioning}
 
 >[!BEGINSHADEBOX]
 
 本文件指南會提供以下內容：
 
-* **[開始使用體驗決策](gs-experience-decisioning.md)**
-* 管理您的決定專案
-   * [設定專案目錄](catalogs.md)
-   * [建立決定專案](items.md)
-   * [管理專案集合](collections.md)
-* 設定專案的選取範圍
+* **[開始使用 Experience Decisioning](gs-experience-decisioning.md)**
+* 管理決定項目
+   * [設定項目目錄](catalogs.md)
+   * [建立決定項目](items.md)
+   * [管理項目集合](collections.md)
+* 設定項目的選取範圍
    * [建立決定規則](rules.md)
    * [建立排名方法](ranking.md)
-* [建立選取策略](selection-strategies.md)
+* [建立選擇策略](selection-strategies.md)
 * [建立決定原則](create-decision.md)
 
 >[!ENDSHADEBOX]
@@ -39,7 +39,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->體驗決策功能目前僅供特定使用者測試版。 若要加入測試版計畫，請連絡 Adobe 客戶服務。
+>體驗決策功能目前僅供特定使用者測試版。 若要加入 Beta 版計畫，請連絡 Adobe 客戶服務。
 
 Experience Decisioning透過提供稱為「決策專案」的行銷優惠集中目錄和複雜的決策引擎，簡化了個人化。 此引擎運用規則和排名條件來選取最相關的決定專案，並將之呈現給每個人。
 

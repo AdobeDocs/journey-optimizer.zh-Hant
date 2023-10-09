@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 管道報表
-description: 開始使用管道報告
+title: 頻道報告
+description: 開始使用頻道報告
 feature: Reporting
 topic: Content Management
 role: User
@@ -11,11 +11,11 @@ exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
 source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# 開始使用管道報告 {#channel-report-gs}
+# 開始使用頻道報告 {#channel-report-gs}
 
 管道報表是一個功能強大的工具，可針對每個管道將流量和參與量度的全面概觀納入統一報表中，包括所有行銷活動和歷程的所有動作。 它分為不同的Widget，每個都提供行銷活動或歷程績效的特定檢視。
 

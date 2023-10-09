@@ -64,7 +64,7 @@ ht-degree: 17%
 
 如果您已設定自訂動作，它們也會顯示在這裡。 [了解更多](../building-journeys/using-custom-actions.md)).
 
-## 最佳做法 {#best-practices}
+## 最佳作法 {#best-practices}
 
 ### 新增標籤
 

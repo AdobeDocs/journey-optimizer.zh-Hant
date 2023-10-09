@@ -14,7 +14,7 @@ exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 17%
+ht-degree: 21%
 
 ---
 
@@ -29,10 +29,10 @@ ht-degree: 17%
 
 本文件指南會提供以下內容：
 
-* [開始使用IP熱身](ip-warmup-gs.md)
+* [開始使用 IP 暖身](ip-warmup-gs.md)
 * **[建立 IP 暖身行銷活動](ip-warmup-campaign.md)**
-* [建立IP熱身計畫](ip-warmup-plan.md)
-* [執行IP熱身計畫](ip-warmup-execution.md)
+* [建立 IP 暖身計劃](ip-warmup-plan.md)
+* [執行 IP 暖身計劃](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 

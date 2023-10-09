@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
 workflow-type: tm+mt
 source-wordcount: '1656'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 92%
    + [協助工具](using/start/accessibility.md)
    + [整合](using/start/ajo-integrations.md)
    + [護欄](using/start/guardrails.md)
-   + [最佳做法](using/start/best-practices.md)
+   + [最佳作法](using/start/best-practices.md)
 + 歷程 {#orchestrate-journeys}
    + [開始使用歷程](using/building-journeys/journey.md)
    + 建立歷程{#create-journey}
@@ -203,7 +203,7 @@ ht-degree: 92%
       + [設定電子郵件表面設定](using/email/email-settings.md)
 + 應用程式內頻道{#in-app}
    + [開始使用應用程式內頻道](using/in-app/get-started-in-app.md)
-   + [應用程式內頻道必要條件](using/in-app/inapp-configuration.md)
+   + [應用程式內頻道先決條件](using/in-app/inapp-configuration.md)
    + [建立應用程式內訊息](using/in-app/create-in-app.md)
    + [設計您的應用程式內內容](using/in-app/design-in-app.md)
    + [測試並傳送您的應用程式內通知](using/in-app/send-in-app.md)
@@ -235,12 +235,12 @@ ht-degree: 92%
    + 製作網頁 {#author-web-pages}
       + [編輯網頁內容](using/web/edit-web-content.md)
       + [管理修改](using/web/manage-web-modifications.md)
-      + [監視您的網站行銷活動](using/web/monitor-web-campaigns.md)
+      + [監視網路行銷活動](using/web/monitor-web-campaigns.md)
       + [編寫單頁應用程式](using/web/web-spa.md)
    + [設定網路子網域](using/web/web-delegated-subdomains.md)
 + 程式碼型體驗 {#code-based-experience}
-   + [開始使用程式碼型管道](using/code-based/get-started-code-based.md)
-   + [程式碼型必要條件](using/code-based/code-based-prerequisites.md)
+   + [開始使用程式碼型頻道](using/code-based/get-started-code-based.md)
+   + [程式碼型先決條件](using/code-based/code-based-prerequisites.md)
    + [程式碼型實施範例](using/code-based/code-based-implementation-samples.md)
    + [建立程式碼型體驗](using/code-based/create-code-based.md)
 + 登陸頁面 {#landing-pages}
@@ -325,9 +325,9 @@ ht-degree: 92%
       + [目標報告](using/reports/objective-report.md)
       + [登陸頁面全域報告](using/reports/lp-report-global.md)
       + [訂閱清單全域報告](using/reports/subscription-report-global.md)
-   + 管道報表 {#channel-report}
-      + [開始使用管道報告](using/reports/channel-report-gs.md)
-      + [管道報表](using/reports/channel-report.md)
+   + 頻道報告 {#channel-report}
+      + [開始使用頻道報告](using/reports/channel-report-gs.md)
+      + [頻道報告](using/reports/channel-report.md)
    + 歷程報告 {#reports}
       + [建立歷程報告](using/reports/sharing-overview.md)
       + [步驟事件欄位清單](using/reports/sharing-field-list.md)
@@ -483,16 +483,16 @@ ht-degree: 92%
          + [決策 API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [邊緣決策 API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [批次決策 API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-+ 體驗決策 {#experience-decisioning}
-   + [開始使用體驗決策](using/experience-decisioning/gs-experience-decisioning.md)
-   + 管理您的決定專案 {#decision-items}
-      + [設定專案目錄](using/experience-decisioning/catalogs.md)
-      + [建立決定專案](using/experience-decisioning/items.md)
-      + [管理專案集合](using/experience-decisioning/collections.md)
-   + 設定專案的選取範圍 {#selection}
++ Experience Decisioning {#experience-decisioning}
+   + [開始使用 Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+   + 管理決定項目 {#decision-items}
+      + [設定項目目錄](using/experience-decisioning/catalogs.md)
+      + [建立決定項目](using/experience-decisioning/items.md)
+      + [管理項目集合](using/experience-decisioning/collections.md)
+   + 設定項目的選取範圍 {#selection}
       + [建立決定規則](using/experience-decisioning/rules.md)
       + [建立排名方法](using/experience-decisioning/ranking.md)
-   + [建立選取策略](using/experience-decisioning/selection-strategies.md)
+   + [建立選擇策略](using/experience-decisioning/selection-strategies.md)
    + [建立決定原則](using/experience-decisioning/create-decision.md)
 + 資料管理 {#data-management}
    + [開始使用資料管理](using/data/gs-data.md)
@@ -512,11 +512,11 @@ ht-degree: 92%
       + [新增 Google TXT 記錄](using/configuration/google-txt.md)
       + [存取和編輯 PTR 記錄](using/configuration/ptr-records.md)
       + [建立 IP 池](using/configuration/ip-pools.md)
-   + 實作IP熱身計畫 {#implement-ip-warmup-plan}
-      + [開始使用IP熱身計畫](using/configuration/ip-warmup-gs.md)
+   + 實作 IP 暖身計劃 {#implement-ip-warmup-plan}
+      + [開始使用 IP 暖身計劃](using/configuration/ip-warmup-gs.md)
       + [建立 IP 暖身行銷活動](using/configuration/ip-warmup-campaign.md)
-      + [建立IP熱身計畫](using/configuration/ip-warmup-plan.md)
-      + [執行IP熱身計畫](using/configuration/ip-warmup-execution.md)
+      + [建立 IP 暖身計劃](using/configuration/ip-warmup-plan.md)
+      + [執行 IP 暖身計劃](using/configuration/ip-warmup-execution.md)
    + 監視電子郵件地址 {#monitor-reputation}
       + [禁止名單](using/configuration/manage-suppression-list.md)
       + [重試次數](using/configuration/retries.md)

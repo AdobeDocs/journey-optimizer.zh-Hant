@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 授權使用情況儀表板
+title: 授權使用量儀表板
 description: 瞭解Journey Optimizer授權使用控制面板
 feature: Overview
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 17%
 
 ---
 
-# 授權使用情況儀表板 {#license-usage}
+# 授權使用量儀表板 {#license-usage}
 
 此 [!DNL Adobe Journey Optimizer] [使用者介面](../start/user-interface.md) 提供一個儀表板，顯示貴組織授權使用情況的重要資訊，如每日快照期間所擷取。
 

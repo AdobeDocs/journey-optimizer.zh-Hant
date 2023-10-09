@@ -27,7 +27,7 @@ ht-degree: 73%
 
 ## 主要函式
 
-| 類別 | 功能 |
+| 類別 | 函數 |
 |-------------|-----------------------|
 | Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
 | 彙總 | [avg](../functions/functionavg.md) |

@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 9de7c9e6cf4a581ca089785467bf838f8e9943a7
 workflow-type: tm+mt
 source-wordcount: '4254'
-ht-degree: 83%
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 83%
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
 
-## 2023年9月發行說明 {#sept-rn-2023}
+## 2023 年 9 月發行說明 {#sept-rn-2023}
 
 ### 新功能{#sept-2023-features}
 
@@ -37,14 +37,14 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>計算的屬性</strong><br/></th>
+<th><strong>計算屬性</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>計算屬性可讓您透過直覺式使用者介面，輕鬆地將事件資料摘要為設定檔屬性，以強化行為型細分、個人化和啟用。 透過此功能，您可以自助建立計算屬性、管理這些屬性，並用於細分、即時客戶設定檔目的地或Journey Optimizer。<br/><br/>
-此外，計算屬性可簡化細分和歷程工作流程，協助您順暢地提供相關體驗。 進一步瞭解 <a href="../audience/computed-attributes.md">詳細檔案</a>.</p>
+<p>計算屬性可讓您透過直覺式使用者介面，輕鬆地將事件資料總結為設定檔屬性，以增強行為型細分、個人化和啟用。 透過此功能，您可以自助建立計算屬性、管理這些屬性，並用於細分、即時客戶設定檔目的地或 Journey Optimizer。<br/><br/>
+此外，計算屬性可簡化細分和歷程工作流程，協助您順暢地提供相關體驗。 在<a href="../audience/computed-attributes.md">詳細文件</a>中了解更多相關資訊。</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -54,16 +54,16 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>合併的管道報表</strong><br/></th>
+<th><strong>合併的頻道報告</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>管道報表功能為分析師和行銷人員提供管道層級流量和參與量度的全面概觀。</p>
-<p>若要存取 <b>報告</b> 功能表，您必須擁有 <b>檢視管道報表</b> 許可權。</p>
+<p>頻道報告功能為分析師和行銷人員提供頻道層級流量和參與量度的全面概觀。 </p>
+<p>若要存取<b>報告</b>功能表，您必須擁有<b>檢視頻道報告</b>權限。</p>
 <img src="assets/channel-reports.png"/>
-<p>如需詳細資訊，請參閱 <a href="../reports/channel-report.md">詳細檔案</a>、和 <a href="../reports/channel-report.md#channel-report-video">作法影片</a>.</p>
+<p>如需詳細資訊，請參閱<a href="../reports/channel-report.md">詳細文件</a>及<a href="../reports/channel-report.md#channel-report-video">作法影片</a>。</p>
 </tr>
 </tbody>
 </table>
@@ -72,13 +72,13 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>資料集匯出目的地(GA)</strong><br/></th>
+<th><strong>資料集匯出目的地 (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在普遍提供匯出至雲端儲存空間目的地的Journey Optimizer資料集。 此功能可讓您與雲端儲存空間位置建立即時連線，以匯出資料集的內容。 </p>
+<p>現已正式推出將 Journey Optimizer 資料集匯出至雲端儲存空間目的地的功能。 此功能可讓您與雲端儲存空間位置建立即時連線，以匯出資料集的內容。 </p>
 <img src="../data/assets/dataset-export-setup.png">
 <p>如需詳細資訊，請參閱<a href="../data/export-datasets.md">詳細文件</a>。</p>
 </td>
@@ -89,13 +89,13 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>每個沙箱行動應用程式憑證儲存</strong><br/></th>
+<th><strong>每個沙箱行動應用程式認證儲存</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>此新功能可讓您輕鬆管理推送認證，並將其與應用程式介面中的專用沙箱建立關聯。</p>
+<p>這項新功能可讓您輕鬆管理推播認證，並將其與應用程式介面中的專用沙箱建立關聯。</p>
 <p>如需詳細資訊，請參閱<a href="../in-app/inapp-configuration.md#channel-prerequisites">詳細文件</a>。</p>
 </tr>
 </tbody>
@@ -111,19 +111,19 @@ ht-degree: 83%
 
 **個人化**
 
-* 除了視覺化片段之外，現在還可以透過運算式編輯器從Journey Optimizer介面建立、儲存及重複使用運算式片段。 運算式片段會取代先前儲存的運算式。 [了解更多](../personalization/use-expression-fragments.md)
+* 除了視覺化片段之外，現在還可以透過運算式編輯器從 Journey Optimizer 介面建立、儲存及重複使用運算式片段。 運算式片段會取代先前儲存的運算式。[了解更多](../personalization/use-expression-fragments.md)
 
-**警報**
+**警示**
 
-* 已引進新類型的系統警報。您現在可以在以下情況下收到通知： **讀取對象** 活動失敗。 [了解更多](../reports/alerts.md)。
+* 已引進新類型的系統警示。您現在可以在以下情況下收到通知： **讀取對象** 活動失敗。 [了解更多](../reports/alerts.md)。
 
 **網路頻道**
 
-* 現在，可以在網頁視覺編輯器中製作單頁應用程式(SPA)，這可讓您選取要將網頁修改套用至哪些特定檢視。 檢視可定義為整個網站或網站上一組視覺元素，例如首頁、整個產品網站或所有結帳頁面上的傳遞偏好設定框架。 需進行開發人員一次性設定，才能定義Adobe Experience Platform Web SDK實作中的檢視；這可讓行銷人員在SPA上建立並執行Adobe Journey Optimizer網路行銷活動。 [了解更多](../web/web-spa.md)
+* 單頁應用程式 (SPA) 現在可以在網頁視覺化編輯器中編寫，這可讓您選取要對哪些特定檢視套用網頁修改內容。 檢視可定義為整個網站或網站上一組視覺化元素，例如首頁、整個產品網站或所有結帳頁面上的傳遞偏好設定框架。 需進行開發人員一次性設定，以定義 Adobe Experience Platform Web SDK 實作中的檢視；這可讓行銷人員在 SPA 上建立和執行 Adobe Journey Optimizer 網路行銷活動。 [了解更多](../web/web-spa.md)
 
-* 使用Web設計工具編輯頁面時，您現在可以直接從「修改」窗格新增對內容的新變更，而無需從設計工具介面選取元件並進行編輯。 [了解更多](../web/manage-web-modifications.md#add-modifications)
+* 使用網頁設計工具編輯頁面時，您現在可以直接從「修改」窗格新增對內容的新變更，而不需要從設計工具介面選取元件並加以編輯。 [了解更多](../web/manage-web-modifications.md#add-modifications)
 
-* 設定網頁子網域時，除了使用已委派給Adobe的子網域外，您現在可以選擇新增自己的子網域。 [了解更多](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
+* 設定網頁子網域時，除了使用已委派給 Adobe 的子網域外，您現在可以選擇新增自己的子網域。 [了解更多](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
 
 **歷程**
 
@@ -131,32 +131,32 @@ ht-degree: 83%
 
 
 
-* 自訂動作回應的支援現在為GA。 此功能可讓您在自訂動作中運用API呼叫回應，並根據這些回應協調您的歷程。 此外，已新增護欄，以將所有海關動作限製為每個端點超過30秒150,000次呼叫。 [了解更多](../action/action-response.md)
+* 自訂動作回應的支援現已全面推出。 此功能可讓您在自訂動作中運用API呼叫回應，並根據這些回應協調您的歷程。 此外，已新增護欄，以將所有海關動作限製為每個端點超過30秒150,000次呼叫。 [了解更多](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
 
 **電子郵件頻道**
 
-* 電子郵件介面設定中的新選項可讓您選擇傳送交易式訊息給設定檔，即使其電子郵件地址在Adobe上亦然 [!DNL Journey Optimizer] 隱藏清單。 [了解更多](../email/email-settings.md#send-to-suppressed-email-addresses)
+* 電子郵件表面設定中的新選項可讓您選擇將交易型訊息傳送至設定檔，即使其電子郵件地址在 Adobe [!DNL Journey Optimizer] 禁止清單中亦然。[了解更多](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **簡訊頻道**
 
-* 兩個新欄位， **選擇加入訊息** 和 **說明訊息**，已新增至API設定畫面，可讓使用者自訂傳入關鍵字的回應。 請注意，這僅適用於Sinch SMS提供者。 [了解更多](../sms/sms-configuration.md#create-api)
+* **選擇加入訊息**&#x200B;和&#x200B;**說明訊息**&#x200B;這兩個新欄位已新增至 API 設定畫面，可讓使用者自訂傳入關鍵字的回應。 請注意，這僅適用於 Sinch 簡訊提供者。 [了解更多](../sms/sms-configuration.md#create-api)
 
-* 簡訊選擇退出不在頻道層級管理。 現在這是號碼專屬的訊息，這表示如果部分設定檔選擇退出指定號碼或短代碼，您仍可使用其他號碼（您可能正在用來傳送簡訊）傳送訊息給設定檔。 新選項可讓您選取 **選擇退出號碼** 您要用於指定的曲面。 [了解更多](../sms/sms-configuration.md#message-preset-sms)
+* 簡訊選擇退出不再於頻道層級管理。 現在這是號碼特定功能，亦即如果部分設定檔選擇退出指定號碼或短代碼，您仍可使用其他正用來傳送簡訊的號碼，將訊息傳送給設定檔。 新選項可讓您選取要用於指定表面的&#x200B;**選擇退出號碼**。 [了解更多](../sms/sms-configuration.md#message-preset-sms)
 
 **直接郵件頻道**
 
-* 現在，當直接郵件提供者將檔案傳輸至伺服器時，您就可以加密這些檔案。 為此，檔案路由設定畫面中提供新欄位，允許您複製並貼上加密金鑰。 [了解更多](../direct-mail/direct-mail-configuration.md)
+* 現在，當直接郵件提供者將檔案傳輸至伺服器時，您就可以加密這些檔案。 若要執行此操作，檔案路由設定畫面中提供的新欄位，可讓您複製並貼上加密金鑰。 [了解更多](../direct-mail/direct-mail-configuration.md)
 
 **報告**
 
-* 您現在可以將Journey Optimizer報表匯出為CSV檔案。 進一步瞭解 [詳細檔案](../reports/global-report.md#export-reports) 和 [作法影片](../reports/global-report.md#video-csv).
+* 您現在可以將 Journey Optimizer 報告匯出為 CSV 檔案。請在[詳細文件](../reports/global-report.md#export-reports)和[作法影片](../reports/global-report.md#video-csv)中了解更多相關資訊。
 
 **資產**
 
-* 「資產」的新選項可讓您在Journey Optimizer中選擇資產的存放庫。 如果您擁有此解決方案，您可以選擇使用Assets Essentials存放庫或Assetsas a Cloud Service存放庫。 [了解更多](../content-management/assets-essentials.md)
+* Assets 的新選項可讓您在 Journey Optimizer 中選擇 Assets 的存放庫。 如果您擁有此解決方案，您可以選擇使用 Assets Essentials 存放庫或 Assets as a Cloud Service 存放庫。 [了解更多](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 

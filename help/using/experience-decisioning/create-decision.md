@@ -12,7 +12,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -28,15 +28,15 @@ ht-degree: 16%
 
 本文件指南會提供以下內容：
 
-* [開始使用體驗決策](gs-experience-decisioning.md)
-* 管理您的決定專案
-   * [設定專案目錄](catalogs.md)
-   * [建立決定專案](items.md)
-   * [管理專案集合](collections.md)
-* 設定專案的選取範圍
+* [開始使用 Experience Decisioning](gs-experience-decisioning.md)
+* 管理決定項目
+   * [設定項目目錄](catalogs.md)
+   * [建立決定項目](items.md)
+   * [管理項目集合](collections.md)
+* 設定項目的選取範圍
    * [建立決定規則](rules.md)
    * [建立排名方法](ranking.md)
-* [建立選取策略](selection-strategies.md)
+* [建立選擇策略](selection-strategies.md)
 * **[建立決定原則](create-decision.md)**
 
 >[!ENDSHADEBOX]

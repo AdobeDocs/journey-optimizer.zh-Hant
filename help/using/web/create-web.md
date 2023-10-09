@@ -39,7 +39,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->如果這是您第一次建立網頁體驗，請務必遵循[本章節](web-prerequisites.md)所說明的必要條件。
+>如果這是您第一次建立網頁體驗，請務必遵循[本章節](web-prerequisites.md)所說明的先決條件。
 
 1. 建立行銷活動. [了解更多](../campaigns/create-campaign.md)
 

@@ -11,7 +11,7 @@ badge: label="Beta"
 source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 9%
+ht-degree: 18%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 9%
 
 本文件指南會提供以下內容：
 
-* [開始使用體驗決策](gs-experience-decisioning.md)
-* 管理您的決定專案
-   * [設定專案目錄](catalogs.md)
-   * [建立決定專案](items.md)
-   * [管理專案集合](collections.md)
-* 設定專案的選取範圍
+* [開始使用 Experience Decisioning](gs-experience-decisioning.md)
+* 管理決定項目
+   * [設定項目目錄](catalogs.md)
+   * [建立決定項目](items.md)
+   * [管理項目集合](collections.md)
+* 設定項目的選取範圍
    * [建立決定規則](rules.md)
    * [建立排名方法](ranking.md)
-* [建立選取策略](selection-strategies.md)
+* [建立選擇策略](selection-strategies.md)
 * [建立決定原則](create-decision.md)
 * **[透過使用案例瞭解](experience-decisioning-uc.md)**
 
@@ -64,7 +64,7 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >程式碼型體驗功能目前僅供特定使用者測試版。 若要加入測試版計畫，請連絡 Adobe 客戶服務。
+   >程式碼型體驗功能目前僅供特定使用者測試版。 若要加入 Beta 版計畫，請連絡 Adobe 客戶服務。
 
 1. 從行銷活動摘要頁面，按一下 **[!UICONTROL 建立實驗]** 以開始設定您的內容實驗。 [了解更多](../campaigns/content-experiment.md)
 

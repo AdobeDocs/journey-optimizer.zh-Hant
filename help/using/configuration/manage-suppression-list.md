@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 管理隱藏清單
+title: 管理禁止名單
 description: 瞭解如何存取和管理Journey Optimizer隱藏清單
 feature: Application Settings
 topic: Administration
@@ -12,11 +12,11 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
-# 管理隱藏清單 {#manage-suppression-list}
+# 管理禁止名單 {#manage-suppression-list}
 
 替換為 [!DNL Journey Optimizer]，您可以監視自動排除而無法傳送歷程或促銷活動的所有電子郵件地址，例如硬退信、軟退信和垃圾郵件投訴。
 

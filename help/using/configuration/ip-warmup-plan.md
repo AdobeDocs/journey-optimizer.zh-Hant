@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 建立IP熱身計畫
+title: 建立 IP 暖身計劃
 description: 瞭解如何在Journey Optimizer中建立IP熱身計畫
 feature: Application Settings
 topic: Administration
@@ -14,20 +14,20 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
-# 建立IP熱身計畫 {#ip-warmup}
+# 建立 IP 暖身計劃 {#ip-warmup}
 
 >[!BEGINSHADEBOX]
 
 本文件指南會提供以下內容：
 
-* [開始使用IP熱身](ip-warmup-gs.md)
+* [開始使用 IP 暖身](ip-warmup-gs.md)
 * [建立 IP 暖身行銷活動](ip-warmup-campaign.md)
-* **[建立IP熱身計畫](ip-warmup-plan.md)**
-* [執行IP熱身計畫](ip-warmup-execution.md)
+* **[建立 IP 暖身計劃](ip-warmup-plan.md)**
+* [執行 IP 暖身計劃](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -109,7 +109,7 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
    >
    >將會永久刪除選取的IP熱身計畫。
 
-## 建立IP熱身計畫 {#create-ip-warmup-plan}
+## 建立 IP 暖身計劃 {#create-ip-warmup-plan}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"

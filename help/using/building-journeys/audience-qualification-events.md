@@ -12,7 +12,7 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
 source-wordcount: '970'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 10%
 
 * 從讀取對象、對象資格或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。 
 
-* 在歷程中使用對象資格時，該對象資格活動最多可能需要10分鐘才會生效，並聆聽進入或退出對象的設定檔。
+* 在歷程中使用對象資格時，該對象資格活動最多可能需要 10 分鐘，才會啟用和接聽進入或退出對象的設定檔。
 
 ### 設定活動{#cnfigure-segment-qualification}
 
@@ -91,7 +91,7 @@ ht-degree: 10%
 
 包含對象資格事件的新歷程在發佈後10分鐘即可運作。 此時間間隔對應到專用服務的快取重新整理間隔。 因此，您必須等待10分鐘才能使用此歷程。
 
-## 最佳做法 {#best-practices-segments}
+## 最佳作法 {#best-practices-segments}
 
 此 **[!UICONTROL 對象資格]** 活動可讓在Adobe Experience Platform對象中取得資格或被取消資格的個人在歷程中立即進入。
 

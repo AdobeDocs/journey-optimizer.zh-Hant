@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 執行IP熱身計畫
+title: 執行 IP 暖身計劃
 description: 瞭解如何執行和監視IP熱身計畫
 feature: Application Settings
 topic: Administration
@@ -14,20 +14,20 @@ exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
-# 執行IP熱身計畫 {#ip-warmup-running}
+# 執行 IP 暖身計劃 {#ip-warmup-running}
 
 >[!BEGINSHADEBOX]
 
 本文件指南會提供以下內容：
 
-* [開始使用IP熱身](ip-warmup-gs.md)
+* [開始使用 IP 暖身](ip-warmup-gs.md)
 * [建立 IP 暖身行銷活動](ip-warmup-campaign.md)
-* [建立IP熱身計畫](ip-warmup-plan.md)
-* **[執行IP熱身計畫](ip-warmup-execution.md)**
+* [建立 IP 暖身計劃](ip-warmup-plan.md)
+* **[執行 IP 暖身計劃](ip-warmup-execution.md)**
 
 >[!ENDSHADEBOX]
 

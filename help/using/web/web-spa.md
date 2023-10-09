@@ -9,7 +9,7 @@ exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 11%
+ht-degree: 26%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 11%
 
 [透過此影片瞭解如何編寫單頁應用程式](#video)
 
-檢視可定義為整個網站或網站上一組視覺元素，例如首頁、整個產品網站或所有結帳頁面上的傳遞偏好設定框架。
+檢視可定義為整個網站或網站上一組視覺化元素，例如首頁、整個產品網站或所有結帳頁面上的傳遞偏好設定框架。 
 
 需要一次性開發人員設定，才能定義Adobe Experience Platform Web SDK實作中的檢視。 這可讓您在SPA上建立並執行Adobe Journey Optimizer網路行銷活動。
 
@@ -86,8 +86,8 @@ ht-degree: 11%
 此影片說明如何：
 
 * 探索SPA檢視，使用 **[!UICONTROL 瀏覽]** 模式
-* 在目前檢視上執行製作
-* 將網站修改套用至多個檢視或探索到的所有檢視
+* 在目前的檢視上進行製作
+* 將網站修改套用至多個檢視或所有探索到的檢視
 * 對修改執行大量動作
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

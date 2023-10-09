@@ -12,7 +12,7 @@ exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 14%
+ht-degree: 19%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 14%
 
 本文件指南會提供以下內容：
 
-* [開始使用程式碼型管道](get-started-code-based.md)
-* **[程式碼型必要條件](code-based-prerequisites.md)**
+* [開始使用程式碼型頻道](get-started-code-based.md)
+* **[程式碼型先決條件](code-based-prerequisites.md)**
 * [程式碼型實施範例](code-based-implementation-samples.md)
 * [建立程式碼型體驗](create-code-based.md)
 
@@ -37,7 +37,7 @@ ht-degree: 14%
 
 ## 警告注意事項 {#caution-notes-web}
 
-* 程式碼型體驗管道目前僅供特定使用者使用，可作為測試版使用。 若要加入測試版計畫，請連絡 Adobe 客戶服務。
+* 程式碼型體驗頻道目前僅作為 Beta 版提供給部分使用者。若要加入 Beta 版計畫，請連絡 Adobe 客戶服務。
 
 * 目前在 [!DNL Journey Optimizer] 您只能在中建立程式碼型體驗 **行銷活動**. [了解更多](../campaigns/create-campaign.md#configure)
 

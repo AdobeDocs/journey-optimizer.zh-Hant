@@ -22,7 +22,7 @@ ht-degree: 1%
 
 在Adobe Journey Optimizer中，ABAC可讓您保護資料，並授與特定欄位元素的特定存取權，包括體驗資料模型(XDM)結構描述、設定檔屬性和對象。
 
-如需ABAC所用術語的詳細清單，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html).
+如需ABAC所用術語的詳細清單，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=zh-Hant).
 
 在此範例中，我們要將標籤新增至 **國籍** 結構欄位，用於限制未經授權的使用者使用該欄位。 為了讓此功能發揮作用，您需要執行以下步驟：
 

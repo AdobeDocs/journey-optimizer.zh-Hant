@@ -10,7 +10,7 @@ level: Intermediate
 source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 97%
 
 1. 在路徑 1 - 選擇標籤以協助您定義非個人化對象。
 
-1. 從此清單中選擇適當的值： https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values
+1. 從此清單中選擇適當的值：https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values
 
    在此情況下，我們將使用「n」表示「否」作為個人化的選擇退出
 

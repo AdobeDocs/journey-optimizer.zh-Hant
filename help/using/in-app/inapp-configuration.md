@@ -1,5 +1,5 @@
 ---
-title: 應用程式內頻道必要條件
+title: 應用程式內頻道先決條件
 description: 瞭解如何設定您的環境，以使用Journey Optimizer傳送應用程式內訊息
 role: Admin
 level: Intermediate
@@ -8,11 +8,11 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 42a1efc45268688d371d83efbafef2aab9d757ac
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
-# 應用程式內頻道必要條件 {#inapp-configuration}
+# 應用程式內頻道先決條件 {#inapp-configuration}
 
 ## 傳遞必要條件 {#delivery-prerequisites}
 

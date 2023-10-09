@@ -12,7 +12,7 @@ exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 5%
 
 本文件指南會提供以下內容：
 
-* [開始使用程式碼型管道](get-started-code-based.md)
-* [程式碼型必要條件](code-based-prerequisites.md)
+* [開始使用程式碼型頻道](get-started-code-based.md)
+* [程式碼型先決條件](code-based-prerequisites.md)
 * **[程式碼型實施範例](code-based-implementation-samples.md)**
 * [建立程式碼型體驗](create-code-based.md)
 

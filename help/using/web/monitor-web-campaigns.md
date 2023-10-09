@@ -1,5 +1,5 @@
 ---
-title: 監視您的網站行銷活動
+title: 監視網路行銷活動
 description: 瞭解如何在Journey Optimizer中監視您的網路行銷活動
 feature: Web Channel
 topic: Content Management
@@ -9,11 +9,11 @@ exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# 監視您的網站行銷活動 {#monitor-web-campaigns}
+# 監視網路行銷活動 {#monitor-web-campaigns}
 
 ## 檢查網頁報告 {#check-web-reports}
 
