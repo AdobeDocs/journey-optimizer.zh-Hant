@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: a2aaf6bff4af8dff451eb64d68700efda0892c71
+source-git-commit: 78744537149a18b2e5c8b54689de97c350939a00
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 28%
+source-wordcount: '933'
+ht-degree: 27%
 
 ---
 
@@ -139,6 +139,11 @@ ht-degree: 28%
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## 排程行銷活動 {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule"
+>title="行銷活動排程"
+>abstract="依預設，行銷活動會從手動啟動時開始，並在傳送一次訊息後立即終止。 不過，您仍可彈性設定傳送訊息的特定日期和時間。 此外，您也可以指定循環或API觸發之行銷活動的結束日期。 在動作觸發器中，您也可以設定訊息傳送頻率以符合您的偏好設定。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
