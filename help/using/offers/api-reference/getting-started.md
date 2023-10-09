@@ -1,53 +1,58 @@
 ---
 title: 快速入門
-description: 瞭解如何開始使用優惠資料庫API，使用決策引擎執行關鍵作業。
+description: 了解如何開始使用優惠資料庫 API，使用決策引擎執行主要作業。
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: 7e9984aee1eba29a2757b025ca0aa1092d95a761
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 7%
+source-wordcount: '373'
+ht-degree: 93%
 
 ---
 
-# Decision Management API開發人員指南 {#decision-management-api-developer-guide}
+# 決策管理 API 開發人員指南 {#decision-management-api-developer-guide}
 
-本開發人員指南提供步驟，協助您開始使用 [!DNL Offer Library] API。 接著，指南會提供範例API呼叫，說明如何使用決策引擎執行重要作業。
+>[!CONTEXTUALHELP]
+>id="od_api_support"
+>title="新的決定管理API"
+>abstract="現在提供用於建立和管理決策管理物件的新API。 我們將支援舊版api直到2024年3月27日。"
 
-➡️ [在此影片中進一步了解決定管理的元件](#video)
+本開發人員指南提供了協助您開始使用 [!DNL Offer Library] API 的步驟。 接著，本指南會提供範例 API 呼叫，用於使用決策引擎執行主要作業。
+
+➡️ [了解更多此影片中的決策管理元件相關資訊](#video)
 
 ## 先決條件 {#prerequisites}
 
-本指南需要您深入瞭解下列Adobe Experience Platform元件：
+本指南需要您深入了解下列 Adobe Experience Platform 元件：
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}：作為依據的標準化架構 [!DNL Experience Platform] 組織客戶體驗資料。
-   * [結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant){target="_blank"}：瞭解XDM結構描述的基本建置組塊。
-* [決定管理](../../../using/offers/get-started/starting-offer-decisioning.md)：說明用於一般體驗決策（尤其是決策管理）的概念和元件。 說明用於選擇在客戶體驗期間呈現的最佳選項的策略。
-* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target="_blank"}：PQL是一種強大的語言，可透過XDM執行個體寫入運算式。 PQL可用來定義決定規則。
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}：[!DNL Experience Platform] 據以組織客戶體驗資料的標準化框架。
+   * [結構構成的基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant){target="_blank"}：了解 XDM 結構的基本建置區塊。
+* [決策管理](../../../using/offers/get-started/starting-offer-decisioning.md)：說明用於一般 Experience Decisioning，特別是決策管理的概念和元件。說明在客戶體驗期間用於選取最佳選項的策略。
+* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=zh-Hant){target="_blank"}：PQL是一種在 XDM 執行個體上編寫運算式的强大語言。PQL 用於定義決策規則。
 
-## 讀取範例API呼叫 {#reading-sample-api-calls}
+## 讀取範例 API 呼叫 {#reading-sample-api-calls}
 
-本指南提供範例API呼叫，示範如何格式化您的請求。 這些包括路徑、必要的標題和正確格式化的請求裝載。 此外，也提供API回應中傳回的範例JSON。 如需檔案中用於範例API呼叫的慣例相關資訊，請參閱以下章節： [如何讀取範例API呼叫](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target="_blank"} 在 [!DNL Experience Platform] 疑難排解指南。
+本指南提供範例 API 呼叫，示範如何格式化您的請求。 這些包括路徑、必要的標頭和正確格式化的請求承載。 此外，也提供 API 回應中傳回的範例 JSON。 如需文件中用於範例 API 呼叫的慣例相關資訊，請參閱 [!DNL Experience Platform] 疑難排解指南中的[如何讀取範例 API 呼叫](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=zh-Hant#how-do-i-format-an-api-request){target="_blank"}一節。
 
-## 收集所需標題的值 {#gather-values-for-required-headers}
+## 收集所需標頭的值 {#gather-values-for-required-headers}
 
-為了呼叫 [!DNL Adobe Experience Platform] API，您必須先完成 [驗證教學課程](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"}. 完成驗證教學課程會提供所有中每個必要標題的值 [!DNL Experience Platform] API呼叫，如下所示：
+為了對 [!DNL Adobe Experience Platform] API 進行呼叫，您必須先完成[驗證教學課程](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=zh-Hant){target="_blank"}。完成驗證教學課程會提供所有 [!DNL Experience Platform] API 呼叫中每個必要標頭的值，如下所示：
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
 * `x-gw-ims-org-id: {IMS_ORG}`
 * `x-sandbox-name: {SANDBOX_NAME}`
 
-包含裝載(POST、PUT、PATCH)的所有請求都需要額外的標頭：
+所有包含承載 (POST、PUT、PATCH) 的請求都需有額外的標頭：
 
 * `Content-Type: application/json`
 
 ## 後續步驟 {#next-steps}
 
-本檔案說明呼叫「 」所需的先決條件知識 [!DNL Offer Library] API。 您現在可以繼續參閱本開發人員指南中提供的範例呼叫，並遵循其指示。
+本文件說明對 [!DNL Offer Library] API 進行呼叫所需的先決條件知識。您現在可以繼續進行本開發人員指南中提供的範例呼叫，並遵循其指示進行作業。
 <!--
 >[!NOTE]
 >
@@ -56,7 +61,7 @@ ht-degree: 7%
 
 ## 操作說明影片 {#video}
 
-以下影片旨在協助您了解決定管理的元件。
+下列影片旨在協助您了解決策管理元件。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
 
