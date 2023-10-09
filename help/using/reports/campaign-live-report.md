@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
+source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
 workflow-type: tm+mt
-source-wordcount: '1859'
-ht-degree: 4%
+source-wordcount: '2063'
+ht-degree: 3%
 
 ---
 
@@ -56,7 +56,47 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## 電子郵件索引標籤 {#email-live}
 
-從您的行銷活動 **[!UICONTROL 即時報告]**，則 **[!UICONTROL 電子郵件]** 索引標籤詳細說明與在您的行銷活動中傳送的電子郵件傳遞相關的主要資訊。
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_email_sending_statistics"
+>title="電子郵件 — 傳送統計資料"
+>abstract="電子郵件 — 傳送統計資料圖表會摘要有關電子郵件的基本資料，例如過去24小時已鎖定或傳送。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_email_statistics"
+>title="電子郵件 — 統計資料"
+>abstract="「電子郵件 — 統計資料」表格提供過去24小時您電子郵件的設定檔活動資料。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_email_bounce_categories"
+>title="電子郵件 — 退回類別"
+>abstract="電子郵件 — 退回類別圖表和表格提供過去24小時內的暫時和永久錯誤資料。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_email_performance_bydate"
+>title="電子郵件 — 依據日期的績效"
+>abstract="電子郵件 — 依日期效能圖表顯示過去24小時已傳送電子郵件的全面資料，提供關鍵量度（例如傳送和跳出）的深入分析，允許電子郵件傳送流程的詳細分析。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_email_bounce_reasons"
+>title="電子郵件 — 退回原因"
+>abstract="「電子郵件 — 退信原因」圖表和表格包含與過去24小時內退信相關的可用資料。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_email_error_reasons"
+>title="電子郵件 — 錯誤原因"
+>abstract="電子郵件 — 錯誤原因圖表和表格可讓您識別過去24小時內傳送程式期間發生的特定錯誤。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_email_excluded_reasons"
+>title="電子郵件 — 排除的原因"
+>abstract="「排除的原因」圖表和表格說明導致使用者設定檔從目標對象中排除，以及在過去24小時內未收到訊息的各種因素。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_email_best_recipient"
+>title="電子郵件 — 最佳收件者網域"
+>abstract="電子郵件 — 最佳收件者網域圖表和表格提供收件者最常用來開啟電子郵件的網域詳細劃分，提供過去24小時內收件者行為的寶貴見解。"
+
+從您的行銷活動 **[!UICONTROL 即時報告]**，則 **[!UICONTROL 電子郵件]** 索引標籤會詳細說明與行銷活動中傳送之電子郵件相關的主要資訊。
 
 ![](assets/campaign_report_live_1.png)
 
@@ -66,29 +106,29 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 已傳遞]**：成功傳送的訊息數。
 
-* **[!UICONTROL 跳出數]**：傳送期間和自動傳回處理期間累計的錯誤總數。
+* **[!UICONTROL 跳出數]**：傳送流程和自動傳回處理期間累計的錯誤總數。
 
-* **[!UICONTROL 錯誤]**：在傳送期間發生且無法傳送至設定檔的錯誤總數。
+* **[!UICONTROL 錯誤]**：在傳送過程中發生且無法傳送至設定檔的錯誤總數。
 
-此 **[!UICONTROL 依電子郵件傳送量度]** 表格和 **[!UICONTROL 電子郵件摘要]** 圖表會詳細說明您的傳送是否成功：
+此 **[!UICONTROL 依電子郵件傳送量度]** 表格和 **[!UICONTROL 電子郵件摘要]** 圖表會詳細說明您的電子郵件是否成功：
 
-* **[!UICONTROL 已傳送]**：傳遞的傳送總數。
+* **[!UICONTROL 已傳送]**：傳送總數。
 
 * **[!UICONTROL 已傳遞]**：成功傳送的訊息數。
 
-* **[!UICONTROL 跳出數]**：傳送期間和自動傳回處理期間累計的錯誤總數。
+* **[!UICONTROL 跳出數]**：傳送程式與自動傳回處理期間累計的錯誤總數。
 
-* **[!UICONTROL 錯誤]**：在傳送期間發生且無法傳送至設定檔的錯誤總數。
+* **[!UICONTROL 錯誤]**：在傳送過程中發生且無法傳送至設定檔的錯誤總數。
 
-* **[!UICONTROL 開啟次數]**：在傳遞中開啟訊息的次數。
+* **[!UICONTROL 開啟次數]**：訊息開啟的次數。
 
-* **[!UICONTROL 點按次數]**：內容在傳遞中的點按次數。
+* **[!UICONTROL 點按次數]**：內容被點按的次數。
 
 * **[!UICONTROL 取消訂閱]**：對取消訂閱連結的點按次數。
 
 * **[!UICONTROL 垃圾郵件投訴數]**：訊息被宣告為垃圾郵件或垃圾郵件的次數。
 
-此 **[!UICONTROL 退回原因]**， **[!UICONTROL 退信類別]** 和 **[!UICONTROL 硬退信 — 透過電子郵件]** Widget包含與退信相關的可用資料，例如：
+此 **[!UICONTROL 退回原因]** 和 **[!UICONTROL 退信類別]** Widget包含與退信相關的可用資料，例如：
 
 * **[!UICONTROL 硬退信]**：永久錯誤的總數，例如錯誤的電子郵件地址。 這包含明確指出地址無效的錯誤訊息，例如「未知使用者」。
 
@@ -96,9 +136,9 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 已忽略]**：暫時性總數，例如「不在辦公室」或技術錯誤，例如，如果傳送者型別是郵遞員。
 
-此 **[!UICONTROL 錯誤原因]** 和 **[!UICONTROL 排除原因]** 圖表和表格可讓您檢視傳送期間發生哪些錯誤和排除。
+此 **[!UICONTROL 錯誤原因]** 和 **[!UICONTROL 排除原因]** 圖表和表格可讓您檢視傳送程式期間發生哪些錯誤和排除。
 
-此 **[!UICONTROL 電子郵件 — 熱門收件者網域]** 圖表和表格詳細說明收件者最常用來開啟電子郵件的網域。
+此 **[!UICONTROL 電子郵件 — 最佳收件者網域]** 圖表和表格詳細說明收件者最常用來開啟電子郵件的網域。
 +++
 
 ## 應用程式內標籤 {#inapp-live}
@@ -118,7 +158,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >title="應用程式內摘要"
 >abstract="應用程式內摘要圖表會說明應用程式內曝光次數和互動在過去24小時內的進展情況。"
 
-從您的行銷活動 **[!UICONTROL 即時報告]**，則 **[!UICONTROL 應用程式內]** 索引標籤會詳細說明與行銷活動中傳送之應用程式內傳遞相關的主要資訊。
+從您的行銷活動 **[!UICONTROL 即時報告]**，則 **[!UICONTROL 應用程式內]** 索引標籤詳細說明與在您的行銷活動中傳送的應用程式內訊息相關的主要資訊。
 
 +++進一步瞭解應用程式內報表可用的不同量度和Widget。
 
@@ -144,7 +184,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_statistics"
 >title="推播通知 — 統計資料"
->abstract="「推播統計資料」表格提供過去24小時內您傳送的收件者活動資料。"
+>abstract="「推播統計資料」表格提供過去24小時內推播通知的收件者活動資料。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_sending_summary"
@@ -159,14 +199,14 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_error_reasons"
 >title="推播通知 — 錯誤原因"
->abstract="「錯誤原因」圖表和表格可讓您識別傳送期間過去24小時發生的特定錯誤。"
+>abstract="「錯誤原因」圖表和表格可讓您識別在傳送過程中最近24小時發生的特定錯誤。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_breakdown_platform"
 >title="推播通知 — 依據平台的劃分"
 >abstract="「依平台劃分」圖表和表格會根據收件者的作業系統，提供過去24小時內推播通知成功的劃分。"
 
-從您的行銷活動 **[!UICONTROL 即時報告]**，則 **[!UICONTROL 推播通知]** 索引標籤會詳細說明與行銷活動中傳送之推播傳遞相關的主要資訊。
+從您的行銷活動 **[!UICONTROL 即時報告]**，則 **[!UICONTROL 推播通知]** 索引標籤會詳細說明與行銷活動中傳送之推播通知相關的主要資訊。
 
 ![](assets/campaign_report_live_2.png)
 
@@ -174,21 +214,21 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 推播通知傳送績效]**， **[!UICONTROL 推播通知摘要]** 和 **[!UICONTROL 推播通知 — 統計資料]** Widget會詳細說明與訊息相關的主要資訊：
 
-* **[!UICONTROL 已傳送]**：傳遞的傳送總數。
+* **[!UICONTROL 已傳送]**：傳送總數。
 
 * **[!UICONTROL 已傳遞]**：成功傳送的訊息數。
 
-* **[!UICONTROL 跳出數]**：傳送期間和自動傳回處理期間累計的錯誤總數。
+* **[!UICONTROL 跳出數]**：傳送流程和自動傳回處理期間累計的錯誤總數。
 
-* **[!UICONTROL 錯誤]**：在傳送期間發生且無法傳送至設定檔的錯誤總數。
+* **[!UICONTROL 錯誤]**：在傳送過程中發生且無法傳送至設定檔的錯誤總數。
 
-* **[!UICONTROL 開啟次數]**：在傳遞中開啟訊息的次數。
+* **[!UICONTROL 開啟次數]**：訊息開啟的次數。
 
 * **[!UICONTROL 動作]**：推播通知已傳送的動作總數，例如按鈕點選或解除。
 
 * **[!UICONTROL 參與]**：此推播通知的開啟和動作總數，也就是設定檔是否已開啟推播，或按鈕是否已點按。
 
-此 **[!UICONTROL 錯誤原因]** 和 **[!UICONTROL 排除原因]** 圖表和表格可讓您檢視傳送期間發生哪些錯誤和排除。
+此 **[!UICONTROL 錯誤原因]** 和 **[!UICONTROL 排除原因]** 圖表和表格可讓您檢視傳送程式期間發生哪些錯誤和排除。
 
 此 **[!UICONTROL 傳送統計資料 — 失敗]** widget可讓您檢視發生多少錯誤和退信。
 
@@ -210,7 +250,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
 >title="簡訊 — 錯誤原因"
->abstract="SMS — 錯誤原因圖表和表格可讓您識別傳送期間過去24小時內發生的特定錯誤。"
+>abstract="SMS — 錯誤原因圖表和表格可讓您識別在傳送過程中過去24小時內發生的特定錯誤。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
@@ -222,35 +262,35 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >title="簡訊 — 退回原因"
 >abstract="「退信原因」圖表和表格包含與退信相關的過去24小時可用資料。"
 
-從您的行銷活動 **[!UICONTROL 即時報告]**，則 **[!UICONTROL 簡訊]** 索引標籤會詳細說明與行銷活動中傳送之SMS傳遞相關的主要資訊。
+從您的行銷活動 **[!UICONTROL 即時報告]**，則 **[!UICONTROL 簡訊]** 索引標籤會詳細說明與行銷活動中傳送之SMS訊息相關的主要資訊。
 
 ![](assets/campaign_report_live_3.png)
 
 +++進一步瞭解SMS報表可用的不同量度和Widget。
 
-此 **[!UICONTROL 簡訊 — 統計資料]** 表格詳細說明您的傳送是否成功：
+此 **[!UICONTROL 簡訊 — 統計資料]** 表格詳細說明您的SMS訊息是否成功：
 
-* **[!UICONTROL 已鎖定目標]**：符合此傳送目標設定檔資格的使用者設定檔數目。
+* **[!UICONTROL 已鎖定目標]**：符合目標設定檔資格的使用者設定檔數目。
 
 * **[!UICONTROL 已排除]**：從目標設定檔中排除且未收到訊息的使用者設定檔數。
 
-* **[!UICONTROL 已傳送]**：傳遞的傳送總數。
+* **[!UICONTROL 已傳送]**：傳送總數。
 
-* **[!UICONTROL 跳出數]**：傳送期間和自動傳回處理期間累計的錯誤總數。
+* **[!UICONTROL 跳出數]**：傳送流程和自動傳回處理期間累計的錯誤總數。
 
-* **[!UICONTROL 錯誤]**：在傳送期間發生且無法傳送至設定檔的錯誤總數。
+* **[!UICONTROL 錯誤]**：在傳送過程中發生且無法傳送至設定檔的錯誤總數。
 
 * **[!UICONTROL 點按次數]**：URL造訪總數。
 
 此 **[!UICONTROL 依日期的SMS效能]** Widget會以圖表詳細列出與訊息相關的主要資訊：
 
-* **[!UICONTROL 已傳送]**：傳遞的傳送總數。
+* **[!UICONTROL 已傳送]**：傳送總數。
 
-* **[!UICONTROL 跳出數]**：傳送期間和自動傳回處理期間累計的錯誤總數。
+* **[!UICONTROL 跳出數]**：傳送流程和自動傳回處理期間累計的錯誤總數。
 
-* **[!UICONTROL 錯誤]**：在傳送期間發生且無法傳送至設定檔的錯誤總數。
+* **[!UICONTROL 錯誤]**：在傳送過程中發生且無法傳送至設定檔的錯誤總數。
 
-此 **[!UICONTROL 排除原因]**， **[!UICONTROL 退回原因]** 和 **[!UICONTROL 錯誤原因]** 圖表和表格可讓您檢視傳送期間發生哪些錯誤和排除。
+此 **[!UICONTROL 排除原因]**， **[!UICONTROL 退回原因]** 和 **[!UICONTROL 錯誤原因]** 圖表和表格可讓您檢視傳送程式期間發生哪些錯誤和排除。
 +++
 
 ## 網頁標籤 {#web-tab}
@@ -302,23 +342,23 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >title="直接郵件 — 排除的原因"
 >abstract="「直接郵件排除的原因」圖表和表格說明了導致使用者設定檔從目標對象排除，以及在過去24小時內未收到訊息的各種因素。"
 
-從您的行銷活動 **[!UICONTROL 即時報告]**，則 **[!UICONTROL 直接郵件]** 索引標籤會詳細說明與直接郵件傳送相關的主要資訊。
+從您的行銷活動 **[!UICONTROL 即時報告]**，則 **[!UICONTROL 直接郵件]** 標籤詳細說明與直接郵件相關的主要資訊。
 
 ![](assets/direct-mail-report_2.png)
 
 +++進一步瞭解直接郵件報表可用的不同量度和Widget。
 
-此 **[!UICONTROL 直接郵件 — 傳送統計資料]** 表格詳細說明您的傳送是否成功：
+此 **[!UICONTROL 直接郵件 — 傳送統計資料]** 表格詳細說明直接郵件成功與否：
 
-* **[!UICONTROL 已鎖定目標]**：符合此傳送目標設定檔資格的使用者設定檔數目。
+* **[!UICONTROL 已鎖定目標]**：符合目標設定檔資格的使用者設定檔數目。
 
-* **[!UICONTROL 已傳送]**：傳遞的傳送總數。
+* **[!UICONTROL 已傳送]**：傳送總數。
 
-* **[!UICONTROL 錯誤]**：在傳送期間發生且無法傳送至設定檔的錯誤總數。
+* **[!UICONTROL 錯誤]**：在傳送過程中發生且無法傳送至設定檔的錯誤總數。
 
-* **[!UICONTROL 已排除]**：從目標設定檔中排除且未收到傳送的使用者設定檔數。
+* **[!UICONTROL 已排除]**：從目標設定檔中排除且未收到直接郵件的使用者設定檔數。
 
-此 **[!UICONTROL 直接郵件 — 排除的原因]** 和 **[!UICONTROL 直接郵件 — 錯誤原因]** 圖表和表格可讓您檢視傳送期間發生哪些錯誤和排除。
+此 **[!UICONTROL 直接郵件 — 排除的原因]** 和 **[!UICONTROL 直接郵件 — 錯誤原因]** 圖表和表格可讓您檢視傳送程式期間發生哪些錯誤和排除。
 +++
 
 ## 其他資源
