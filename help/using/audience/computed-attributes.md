@@ -7,7 +7,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 5%
@@ -19,6 +19,10 @@ ht-degree: 5%
 計算屬性可讓您將個別行為事件摘要為Adobe Experience Platform上可用的計算設定檔屬性。 這些計算屬性以擷取到Adobe Experience Platform中的設定檔已啟用體驗事件資料集為基礎，並當做儲存在客戶設定檔中的彙總資料點。
 
 每個運算屬性都是設定檔屬性，可運用於歷程及行銷活動中的細分、個人化和啟動。 這項簡化能增強您為客戶提供及時且有意義的個人化體驗的能力。
+
+
+![](../rn/assets/do-not-localize/computed-attributes.gif)
+
 
 >[!NOTE]
 >
