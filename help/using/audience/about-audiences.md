@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 298562247af79b9dd504a957c197856d702d0f6b
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '627'
+ht-degree: 93%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 100%
 >id="ajo_campaigns_content_experiment_segment"
 >title="對象"
 >abstract="透過使用即時客戶設定檔資料，Adobe Experience Platform 能讓您輕鬆建置區段定義，以建立能夠擷取客戶獨特行為與偏好的目標的對象。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_audience"
+>title="選取行銷活動對象"
+>abstract="此清單會顯示所有可用的Adobe Experience Platform對象。 選取行銷活動要定位的對象。 行銷活動中設定的訊息將傳送給屬於所選對象的所有個人。 [深入瞭解對象](../audience/about-audiences.md)"
 
 [!DNL Journey Optimizer] 可讓您直接從&#x200B;**[!UICONTROL 對象]**&#x200B;選單，使用即時客戶設定檔資料來建置和使用 Adobe Experience Platform 對象，然後用於歷程或行銷活動。
 

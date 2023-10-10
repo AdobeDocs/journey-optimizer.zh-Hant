@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 78744537149a18b2e5c8b54689de97c350939a00
+source-git-commit: 298562247af79b9dd504a957c197856d702d0f6b
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 27%
@@ -122,7 +122,7 @@ ht-degree: 27%
 
 ## 定義對象 {#audience}
 
-按一下 **[!UICONTROL 選取對象]** 按鈕來顯示可用Adobe Experience Platform區段的清單。 [深入瞭解區段](../audience/about-audiences.md)
+按一下 **[!UICONTROL 選取對象]** 按鈕來顯示可用Adobe Experience Platform對象清單。 [深入瞭解對象](../audience/about-audiences.md)
 
 >[!NOTE]
 >
