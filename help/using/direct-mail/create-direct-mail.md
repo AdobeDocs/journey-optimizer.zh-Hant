@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 直接郵件、訊息、行銷活動
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
+source-git-commit: 86385c0c36a54985bb4624f90e475d1a0229f8cd
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 10%
+source-wordcount: '721'
+ht-degree: 8%
 
 ---
 
@@ -58,6 +58,32 @@ ht-degree: 10%
 您現在可以開始設定擷取檔案，以傳送給直接郵件提供者。
 
 ## 設定擷取檔案 {#extraction-file}
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_data_fields"
+>title="資料欄位"
+>abstract="新增並設定要在擷取檔案中顯示的欄和資訊，直接郵件提供商需要這些欄和資訊來傳送郵件給您的客戶。 您最多可以新增50欄。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_sort"
+>title="擷取檔案格式"
+>abstract="此 <b>排序依據：</b> 選項可讓您使用選取的欄位來排序解壓縮檔案的欄。 停用此選項時，欄會根據設定檔ID欄位自動排序。"
+
+1. 設定要在擷取檔案中顯示的欄和資訊：
+
+   1. 按一下 **[!UICONTROL 新增]** 按鈕以建立新欄。
+
+   1. 此 **[!UICONTROL 格式化]** 窗格會顯示在右側，讓您設定選取的欄。 指定 **[!UICONTROL 標籤]** 欄的範本。
+
+   1. 在 **[!UICONTROL 資料]** 欄位中，選擇要顯示的設定檔屬性， [運算式編輯器](../personalization/personalization-build-expressions.md).
+
+   1. 若要使用欄排序解壓縮檔案，請選取該欄並開啟 **[!UICONTROL 排序依據：]** 選項。 此 **[!UICONTROL 排序方式]** 圖示會顯示在中的欄標籤旁 **[!UICONTROL 資料欄位]** 區段。
+
+
+
+
+
+
 
 直接郵件供應商需要擷取檔案，才能傳送郵件給您的客戶。 若要定義解壓縮檔案組態，請執行下列步驟：
 
