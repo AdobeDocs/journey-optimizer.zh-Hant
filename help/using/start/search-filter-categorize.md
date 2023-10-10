@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: dd88835075bb458f0067d68c51b4996c5823b057
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 100%
+source-wordcount: '543'
+ht-degree: 97%
 
 ---
 
@@ -46,6 +46,11 @@ ht-degree: 100%
 ![](assets/journey4.png)
 
 ## 使用統一標籤 {#tags}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_tags"
+>title="標記"
+>abstract="此欄位可讓您將Adobe Experience Platform統一標籤指派給您的行銷活動。 這可讓您輕鬆分類，並改進行銷活動清單的搜尋。 "
 
 利用 Adobe Experience Platform [統一標籤](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=zh-Hant)，您可以輕鬆分類 Journey Optimizer 歷程與行銷活動，進而改進清單的搜尋。
 
