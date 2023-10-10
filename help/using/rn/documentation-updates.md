@@ -4,9 +4,9 @@ product: journey optimizer
 title: 文件更新
 description: 瞭解最新的文件更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
 workflow-type: tm+mt
-source-wordcount: '3815'
+source-wordcount: '3829'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 97%
 
 * 新增GIF以說明一些關鍵功能，例如： [內容範本](../content-management/content-templates.md)， [片段](../content-management/fragments.md)， [計算的屬性](../audience/computed-attributes.md)， [直接郵件](../direct-mail/get-started-direct-mail.md)， [標籤](../start/search-filter-categorize.md#tags)， [決策管理最佳化模型](../offers/ranking/personalized-optimization-model.md)， [API觸發的行銷活動](../campaigns/api-triggered-campaigns.md)、和 [內容實驗](../campaigns/content-experiment.md).
 * 結構描述建立流程已更新，以反映使用者介面中的最新更新，並附帶Adobe Experience Platform變更。 [閱讀全文](../audience/creating-test-profiles.md)
+* 決策管理護欄已新增到護欄和限制頁面。 [閱讀全文](../start/guardrails.md#decision-management)
 
 ## 2023 年 9 月 {#september-2023}
 

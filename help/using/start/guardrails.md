@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: ad590f7fedad10c49f5c45b34cc687df063e35a8
+source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 95%
+source-wordcount: '1615'
+ht-degree: 83%
 
 ---
 
@@ -123,3 +123,32 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 啟動延遲可能發生在使用者設定檔到達畫布中的應用程式內活動的時刻和他們開始看到該應用程式內訊息的時刻之間。
 
 * 應用程式內訊息內容大小限制為 2Mb。 包含大型影像可能會阻礙發佈過程。
+
+## 決策管理 {#decision-management}
+
+### 效能護欄 {#performance-guardrails}
+
+傳遞輸送量對應於決定管理應用程式服務可在指定時間內傳遞的決定回應數。 每秒的決策數如下表所示。
+
+| API | 每秒決策數 |
+|---------|----------|
+| 決策API請求 | 每秒500 |
+| Edge Decisioning API請求 | 每秒5000 |
+
+### 限制 {#offers-limitations}
+
+決定管理限制列於下方。
+
+* **核准的個人化優惠+遞補優惠**  — 最多10,000個核准的個人化優惠和核准的遞補優惠合併專案。
+* **決定**  — 最多10,000項決定。
+* **即時決策** -Offer decisioning應用程式服務支援最多1,000個即時決策。
+* **每個回應傳回的優惠** -Offer Decisioning支援每個請求最多傳回100個優惠，涵蓋請求中的所有決定範圍。
+* **集合**  — 最多10,000個集合。
+* **每個決定的集合**  — 每個決定最多30個集合。
+* **決定規則+排名函式** 最多10,000個合併決定規則和排名函式。
+* **版位**  — 最多1,000個位置。
+* **每個決定的刊登版位**  — 每個決定最多30個位置。
+* **每個決定的排名方法** -Offer decisioning應用程式服務支援每個決定最多30個排名函式。
+* **AI排名模型** -Offer decisioning應用程式服務支援最多5個AI排名模型。
+* **每個選件或集合的集合限定詞** -Offer Decisioning App Service支援任何單一個人化優惠或單一集合中最多20個集合限定詞。
+* **集合限定詞總數** -Offer decisioning應用程式服務支援最多1,000個集合限定詞。
