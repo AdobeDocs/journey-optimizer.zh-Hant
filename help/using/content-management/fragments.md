@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 95172d45401dc933ce09ae7d9be6eadf01952e3c
+source-git-commit: b00a4e174e978121687428147b5b3861077c5182
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 3%
@@ -21,7 +21,7 @@ ht-degree: 3%
 >id="ajo_create_fragment"
 >title="定義您自己的片段"
 >abstract="建立並管理獨立片段，讓您的內容可跨多個歷程和行銷活動重複使用。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="建立片段"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/reusable-content/fragments.html#create-fragments" text="建立片段"
 
 片段是可重複使用的元件，可在一封或多封電子郵件中加以參照 [!DNL Journey Optimizer] 行銷活動和歷程。
 
@@ -194,7 +194,7 @@ ht-degree: 3%
 >id="ajo_create_expression_fragment"
 >title="選取運算式型別"
 >abstract="建立獨立的運算式片段，讓您的內容可跨多個歷程和行銷活動重複使用。 使用運算式編輯器時，您可以善用已在目前沙箱上建立的所有運算式片段。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="利用運算式片段"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/personalization/expression-editor/use-expression-fragments.html" text="利用運算式片段"
 
 1. [建立片段](#create-from-scratch) 從 **[!UICONTROL 內容管理]** > **[!UICONTROL 片段]** 左方功能表並選取 **[!UICONTROL 運算式片段]** 型別。
 

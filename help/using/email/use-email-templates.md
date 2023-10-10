@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 電子郵件、範本、設計
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: f728c55f1616acbd1bc0cabd766200fdc3e825c9
+source-git-commit: b00a4e174e978121687428147b5b3861077c5182
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 24%
@@ -22,7 +22,7 @@ ht-degree: 24%
 >id="ajo_use_template"
 >title="從範本建置內容"
 >abstract="若要開始建立您的電子郵件內容，請選取一個立即可用範本或自訂的現有範本，可能是從頭開始建立的或將以前的電子郵件另存為範本。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/content-templates.html#create-content-templates" text="建立內容範本"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/reusable-content/content-templates.html#create-content-templates" text="建立內容範本"
 
 從 **[!UICONTROL 建立您的電子郵件]** 熒幕，使用 **[!UICONTROL 選取設計範本]** 區段，以開始從範本建立您的內容。
 
