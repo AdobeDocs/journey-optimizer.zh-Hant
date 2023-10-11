@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: b00a4e174e978121687428147b5b3861077c5182
 workflow-type: tm+mt
 source-wordcount: '1548'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -259,9 +259,9 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="另存為運算式片段"
->abstract="此 [!DNL Journey Optimizer] 運算式編輯器可讓您將內容儲存為運算式片段。 然後，這些運算式便可用於建置個人化內容。"
+>abstract="[!DNL Journey Optimizer] 運算式編輯器可讓您將內容另存為運算式片段。然後這些運算式可用於建置個人化內容。"
 
-此 [!DNL Journey Optimizer] 運算式編輯器可讓您將內容儲存為運算式片段。 然後，這些運算式便可用於建置個人化內容。
+[!DNL Journey Optimizer] 運算式編輯器可讓您將內容另存為運算式片段。然後這些運算式可用於建置個人化內容。
 
 若要將內容另存為運算式片段，請遵循下列步驟。
 

@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="定義您的簡訊內容"
->abstract="使用運算式編輯器定義內容並合併動態元素，以自訂及個人化您的SMS訊息。"
+>abstract="透過使用運算式編輯器定義內容並結合動態元素，自訂與個人化簡訊訊息。"
 
 1. 在歷程或行銷活動設定畫面中，按一下 **[!UICONTROL 編輯內容]** 按鈕以設定簡訊內容。
 

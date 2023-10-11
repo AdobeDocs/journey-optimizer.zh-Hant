@@ -10,7 +10,7 @@ exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 144afbd925301ea1eeb690adee335d205fded394
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 4%
+ht-degree: 28%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_content"
->title="定義您的應用程式內內容"
->abstract="自訂應用程式內訊息的內容和樣式。 您也可以新增媒體和動作按鈕，讓您的訊息更吸引人且更有效率。"
+>title="定義應用程式內的內容"
+>abstract="自訂應用程式內訊息的內容與樣式。您也可以新增媒體與動作按鈕，讓您的訊息更引人入勝且更有成效。"
 
 您可以編輯應用程式內內容以設定體驗選項：
 
@@ -39,8 +39,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_message_layout"
->title="定義您的應用程式內內容"
->abstract="訊息版面配置提供您常用的範本，供您設定訊息的框架。 自訂配置提供上傳或撰寫自訂HTML訊息的選項。"
+>title="定義應用程式內的內容"
+>abstract="此訊息版面提供您常用的範本以設定訊息的框架。自訂版面提供上傳或撰寫自訂 HTML 訊息的選項。"
 
 從 **[!UICONTROL 訊息配置]** 區段，根據您的訊息傳送需求，選取四個不同的版面配置選項之一。
 
@@ -74,8 +74,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_close"
->title="選擇「關閉」按鈕的「樣式」。"
->abstract="關閉按鈕區段提供您選取訊息關閉按鈕變體的選項以及上傳自訂影像的選項。"
+>title="選擇關閉按鈕的樣式。"
+>abstract="關閉按鈕部分提供選項讓您選取訊息關閉按鈕的變化，以及上傳自訂影像的選項。"
 
 ![](assets/in_app_content_2.png)
 
@@ -97,8 +97,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_media"
->title="將媒體新增至應用程式內訊息，為使用者建立引人入勝的體驗。"
->abstract="提供內容的直接連結，或使用資產選擇器，在Asset Essentials中挑選要新增到訊息中的媒體。"
+>title="新增媒體至您的應用程式內訊息，以建立令一般使用者信服的體驗。"
+>abstract="提供至內容的直接連結，或使用資產選擇器從 Asset Essentials 挑選要新增至訊息的媒體。"
 
 此 **[!UICONTROL 媒體]** 欄位可讓您將媒體新增至應用程式內訊息，為一般使用者建立引人入勝的體驗。
 
@@ -117,8 +117,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_content"
->title="若要撰寫訊息，請在「標頭」和「內文」欄位中輸入內容。"
->abstract="您可以在此新增頁首與內文。 若要包含個人化權杖，請開啟個人化對話方塊。"
+>title="若要撰寫訊息，請在「標題」與「本文」欄位輸入內容。"
+>abstract="此處可以新增標題與內容文字。若要納入個人化語彙基元，請開啟個人化對話框。"
 
 若要撰寫訊息，請在 **[!UICONTROL 頁首]** 和 **[!UICONTROL 內文]** 欄位。
 
@@ -140,10 +140,10 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_buttons"
->title="新增按鈕讓使用者與您的應用程式內訊息互動。"
->abstract="此區段可讓您在訊息中新增呼叫動作按鈕。 您可以包含每個按鈕的自訂文字和目標。"
+>title="新增按鈕讓使用者可以和您的應用程式內訊息互動。"
+>abstract="本部份可讓您在訊息中新增召喚行動按鈕。您也可以針對每個按鈕納入自訂的文字與目標。"
 
-新增按鈕讓使用者與您的應用程式內訊息互動。
+新增按鈕讓使用者可以和您的應用程式內訊息互動。
 
 ![](assets/in_app_content_5.png)
 
@@ -180,7 +180,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_preview"
 >title="預覽您的應用程式內訊息。"
->abstract="這是將訊息傳送至裝置的訊息摘要時顯示的預覽影像。"
+>abstract="這是預覽影像，將會在訊息傳送至裝置的訊息摘要時顯示。"
 
 ![](assets/in_app_content_6.png)
 
@@ -196,8 +196,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_layout"
->title="定義應用程式內訊息的訊息配置。"
->abstract="本節可讓您將背景新增至應用程式內訊息。 這需要啟用UI接管。"
+>title="定義應用程式內訊息的訊息版面。"
+>abstract="本部份可讓您在應用程式內訊息中新增背景。這需要 UI 接管才能啟用。"
 
 ![](assets/in_app_content_7.png)
 
@@ -212,7 +212,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_message_advanced"
 >title="定義訊息進階設定。"
->abstract="本節可讓您增強應用程式內內容的個人化功能，尤其是當您已啟用進階格式設定時。"
+>abstract="本部份讓您可以強化應用程式內的內容個人化，尤其是在啟用「進階格式化」時。"
 
 ![](assets/in_app_content_8.png)
 

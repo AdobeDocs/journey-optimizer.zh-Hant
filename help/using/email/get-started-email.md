@@ -12,7 +12,7 @@ exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card4"
 >title="設計電子郵件"
->abstract="使用 **Adobe Journey Optimizer** 傳送電子郵件訊息給您的客戶。 您可以在電子郵件設計工具建立、個人化以及預覽訊息。"
+>abstract="使用 **Adobe Journey Optimizer** 傳送電子郵件訊息給客戶。您可以在電子郵件設計工具建立、個人化以及預覽訊息。"
 
 使用 [!DNL Journey Optimizer] 傳送電子郵件訊息給客戶。 您可以在電子郵件設計工具建立、個人化以及預覽訊息。
 
