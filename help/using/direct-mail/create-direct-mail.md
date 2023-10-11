@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 直接郵件、訊息、行銷活動
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 86385c0c36a54985bb4624f90e475d1a0229f8cd
+source-git-commit: 804ff95d2a19601d036e739bb1d5a629930247b9
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '720'
 ht-degree: 8%
 
 ---
@@ -65,9 +65,9 @@ ht-degree: 8%
 >abstract="新增並設定要在擷取檔案中顯示的欄和資訊，直接郵件提供商需要這些欄和資訊來傳送郵件給您的客戶。 您最多可以新增50欄。"
 
 >[!CONTEXTUALHELP]
->id="ajo_direct_mail_sort"
+>id="ajo_direct_mail_formatting"
 >title="擷取檔案格式"
->abstract="此 <b>排序依據：</b> 選項可讓您使用選取的欄位來排序解壓縮檔案的欄。 停用此選項時，欄會根據設定檔ID欄位自動排序。"
+>abstract="對於每個欄位，指定標籤和資訊以使用「運算式編輯器」顯示。 <br/><br/> 此 <b>排序依據：</b> 選項可讓您使用選取的欄位來排序解壓縮檔案的欄。"
 
 1. 設定要在擷取檔案中顯示的欄和資訊：
 
