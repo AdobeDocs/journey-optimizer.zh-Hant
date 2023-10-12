@@ -9,7 +9,7 @@ role: Data Engineer
 level: Beginner
 keywords: 運算式，編輯器，開始，個人化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 5e7a430feba5f67e5778704fde63003876c5dc67
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 35%
@@ -70,3 +70,4 @@ ht-degree: 35%
 了解如何將以設定檔為基礎的個人化新增至訊息，以及如何使用對象成員資格作為個人化區塊的先決條件。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
+
