@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3b1acd7ada0637ce22e360e6e1bb35921dde2315
+source-git-commit: ae8c7f72042ce680a493c7dc6a90266bb224f4c7
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 98%
