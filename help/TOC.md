@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 525876ce925371790bbf03187207a091eef050e3
+source-git-commit: 557783dcec3525f0b32465b02e7f0c8d2261809a
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1667'
 ht-degree: 98%
 
 ---
@@ -265,7 +265,7 @@ ht-degree: 98%
       + [影像產生](using/content-management/generative-image.md)
    + 使用多語言內容{#content-multilingual}
       + [建立多語言內容](using/content-management/multilingual-manual.md)
-+ 個人化和動態內容 {#personalized-dynamic-content}
++ 個人化與動態內容 {#personalized-dynamic-content}
    + 個人化 {#personalization}
       + [開始使用個人化](using/personalization/personalize.md)
       + [個人化內容](using/personalization/personalization-contexts.md)
