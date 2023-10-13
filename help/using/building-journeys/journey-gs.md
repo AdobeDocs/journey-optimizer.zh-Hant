@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 25%
+source-wordcount: '1727'
+ht-degree: 23%
 
 ---
 
@@ -44,6 +44,11 @@ ht-degree: 25%
    ![](assets/custom2.png)
 
 ## 存取歷程 {#journey-access}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_create"
+>title="歷程"
+>abstract="設計客戶歷程提供個人化的情境式體驗。 Journey Optimizer可讓您利用儲存在事件或資料來源中的情境資料，建立即時協調使用案例。 此 **概觀** 索引標籤會顯示控制面板，其中包含與您的歷程相關的關鍵量度。 此 **瀏覽** 索引標籤會顯示現有歷程的清單。"
 
 在歷程管理功能表區段中，按一下 **[!UICONTROL 歷程]**. 有兩個標籤可供使用：
 
@@ -77,11 +82,6 @@ ht-degree: 25%
 ![](assets/journey3bis.png)
 
 ## 建置您的歷程{#jo-build}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_create"
->title="建置您的歷程"
->abstract="此畫面會顯示現有歷程的清單。開啟歷程或按一下「建立歷程」，並合併不同的事件、協調和動作活動以建置您的多步驟跨管道案例。"
 
 此步驟由執行 **業務使用者**. 這是您建立歷程的位置。 結合不同的事件、協調和動作活動，以建立您的多步驟跨管道情境。
 

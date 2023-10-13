@@ -9,14 +9,19 @@ role: Admin
 level: Intermediate
 keywords: 歷程，整合， standard，行銷活動， ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 4%
+source-wordcount: '961'
+ht-degree: 6%
 
 ---
 
 # Adobe Campaign Standard 動作 {#using_campaign_action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_custom_acs"
+>title="自訂動作"
+>abstract="如果您有Adobe Campaign Standard，則可整合。 這可讓您使用 Adobe Campaign 交易型訊息功能來傳送電子郵件、推播通知及簡訊。"
 
 如果您有Adobe Campaign Standard，則可使用下列內建動作活動： **[!UICONTROL 電子郵件]**， **[!UICONTROL 推播]** 和 **[!UICONTROL 簡訊]**.
 
