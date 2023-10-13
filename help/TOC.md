@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0a97e30f07348922687aa98638f9be4936d2a860
+source-git-commit: f532e7cbafc3dde7a85cf0a89d1bbb01ccdd118e
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 98%
+source-wordcount: '1670'
+ht-degree: 97%
 
 ---
 
@@ -230,14 +230,16 @@ ht-degree: 98%
    + [設定直接郵件](using/direct-mail/direct-mail-configuration.md)
 + 網路頻道 {#web}
    + [開始使用網路頻道](using/web/get-started-web.md)
-   + [網路頻道先決條件](using/web/web-prerequisites.md)
+   + 設定Web管道 {#configure-web-channel}
+      + [網路頻道先決條件](using/web/web-prerequisites.md)
+      + [設定網路子網域](using/web/web-delegated-subdomains.md)
+      + [實作單頁應用程式](using/web/web-spa-implementation.md)
    + [建立網站體驗](using/web/create-web.md)
    + 製作網頁 {#author-web-pages}
       + [編輯網頁內容](using/web/edit-web-content.md)
       + [管理修改](using/web/manage-web-modifications.md)
       + [監視網路行銷活動](using/web/monitor-web-campaigns.md)
       + [編寫單頁應用程式](using/web/web-spa.md)
-   + [設定網路子網域](using/web/web-delegated-subdomains.md)
 + 程式碼型體驗 {#code-based-experience}
    + [開始使用程式碼型頻道](using/code-based/get-started-code-based.md)
    + [程式碼型先決條件](using/code-based/code-based-prerequisites.md)
@@ -528,7 +530,6 @@ ht-degree: 98%
    + [支援封存](using/configuration/archiving-support.md)
    + [變更執行地址](using/configuration/primary-email-addresses.md)
    + [設定頻率規則](using/configuration/frequency-rules.md)
-   + [實作單頁應用程式](using/web/web-spa-implementation.md)
    + 設定歷程 {#configure-journeys}
       + [關於資料來源、事件和動作](using/configuration/about-data-sources-events-actions.md)
       + 與外部系統整合 {#external-systems}
