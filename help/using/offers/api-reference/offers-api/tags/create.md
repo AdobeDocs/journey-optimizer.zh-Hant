@@ -1,12 +1,12 @@
 ---
 title: 建立集合限定詞
 description: 集合限定詞可讓您更妥善地組織和排序優惠方案。
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
-source-git-commit: 54b92b19f2e3a6afa6557ffeff0d971a4c411510
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 11%

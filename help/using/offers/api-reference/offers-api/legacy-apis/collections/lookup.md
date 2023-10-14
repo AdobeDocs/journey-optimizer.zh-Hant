@@ -1,12 +1,12 @@
 ---
 title: 查詢集合
 description: 集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
-feature: Offers
+feature: Offers, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 91317c46-d8b6-456e-8282-aef1169941af
-source-git-commit: d312410ce2a91d3084d99e3caceb53ce4ada87b8
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 2%

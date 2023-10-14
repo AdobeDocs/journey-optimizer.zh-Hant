@@ -1,12 +1,12 @@
 ---
 title: 建立個人化優惠
 description: 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 234bee17-c830-4bc0-b258-182804df4cb3
-source-git-commit: d312410ce2a91d3084d99e3caceb53ce4ada87b8
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 9%

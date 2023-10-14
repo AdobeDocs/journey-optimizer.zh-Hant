@@ -1,12 +1,12 @@
 ---
 title: 刪除決定
 description: 決定包含通知優惠選擇的邏輯。
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 7%

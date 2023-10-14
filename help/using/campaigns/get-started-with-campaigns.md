@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 開始使用行銷活動
 description: 深入了解 Journey Optimizer 的行銷活動
-feature: Overview
+Feature: Campaigns
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 100%

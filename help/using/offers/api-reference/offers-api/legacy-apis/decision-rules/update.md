@@ -1,12 +1,12 @@
 ---
 title: 更新決定規則
 description: 決定規則是新增至個人化優惠的限制，並套用至設定檔以判斷適用性。
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 33da2c42-0c6c-49d3-bad8-1a85a5172cd8
-source-git-commit: d312410ce2a91d3084d99e3caceb53ce4ada87b8
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 9%

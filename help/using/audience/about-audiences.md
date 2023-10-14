@@ -3,15 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 關於 Adobe Experience Platform 對象
 description: 了解如何使用 Adobe Experience Platform 對象
-feature: Journeys
+feature: Audiences, Profiles
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 298562247af79b9dd504a957c197856d702d0f6b
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '627'
+ht-degree: 93%
 
 ---
 

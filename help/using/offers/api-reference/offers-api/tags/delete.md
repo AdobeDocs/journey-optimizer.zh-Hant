@@ -1,12 +1,12 @@
 ---
 title: 刪除集合限定詞
 description: 集合限定詞可讓您更妥善地組織和排序優惠方案。
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
-source-git-commit: 54b92b19f2e3a6afa6557ffeff0d971a4c411510
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 5%

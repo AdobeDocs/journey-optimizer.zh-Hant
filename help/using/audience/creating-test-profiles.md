@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 建立測試設定檔
 description: 瞭解如何建立測試設定檔
-feature: Journeys
+feature: Profiles, Test Profiles
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 3%
@@ -66,7 +66,7 @@ ht-degree: 3%
 >
 >有關建立架構的詳細資訊，請參閱 [XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}.
 
-之後，您需要 **建立資料集** 將在其中匯入設定檔。 請按照以下步驟操作：
+之後，您需要 **建立資料集** 將在其中匯入設定檔。 請依照下列步驟操作：
 
 1. 瀏覽至 **[!UICONTROL 資料集]**，然後按一下 **[!UICONTROL 建立資料集]**.
    ![](assets/test-profiles-6.png)

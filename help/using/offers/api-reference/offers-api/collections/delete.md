@@ -1,12 +1,12 @@
 ---
 title: 刪除集合
 description: 集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
-feature: Offers
+feature: Offers, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 9%

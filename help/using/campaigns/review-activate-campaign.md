@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 檢閱及啟動行銷活動
 description: 瞭解如何在Journey Optimizer中檢閱及啟用行銷活動
-feature: Overview
+Feature: Campaigns
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 行銷活動，檢閱，驗證，啟用，啟用，最佳化工具
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%

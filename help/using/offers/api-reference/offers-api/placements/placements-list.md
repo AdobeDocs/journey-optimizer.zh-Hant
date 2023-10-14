@@ -1,12 +1,12 @@
 ---
 title: 清單位置
 description: 版位是用來展示優惠方案的容器。
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
-source-git-commit: f7d2666c88dd2cfb1237fbab34c1ec3b141260b4
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 16%
