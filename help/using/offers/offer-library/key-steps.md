@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: fe295f020934893cbe90ba987742b5f9d3931158
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 13%
@@ -33,12 +33,13 @@ ht-degree: 13%
 
 1. 如果您想要定義規則，以決定應先針對指定位置顯示哪個優惠方案（而不是考慮優惠方案的優先順序分數），您可以 **建立排名公式**.
 
-<table>
+<table style="table-layout:fixed"><tr style="border: 0;">
 <tr>
 <td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">建立位置</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">建立決定規則</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">建立標籤</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../ranking/create-ranking-formulas.md">建立排名公式</a></p></td>
+</tr>
 </table>
 
 ## 建立和管理優惠方案 {#create-and-manage-offers}
@@ -49,11 +50,12 @@ ht-degree: 13%
 
 1. **建立集合** 加入您建立的個人化優惠方案，並在決定中使用。
 
-<table>
+<table style="table-layout:fixed"><tr style="border: 0;">
 <tr>
 <td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">建立優惠方案</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">建立遞補優惠</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">建立集合</a></p></td></tr>
+<td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">建立集合</a></p></td>
+</tr>
 </table>
 
 ## 建立及設定決定 {#create-and-configure-decisions}
@@ -64,7 +66,7 @@ ht-degree: 13%
 
 1. 如有需要，您可以 **指派排名公式** 至某個位置。
 
-<table>
+<table style="table-layout:fixed"><tr style="border: 0;">
 <tr>
 <td><img src="../../assets/do-not-localize/icon-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md">建立決定</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md#add-offers">設定決定</a></p></td>
