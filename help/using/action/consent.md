@@ -9,7 +9,7 @@ role: Admin,Developer
 level: Experienced
 keywords: 原則、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 77565a88d23f241a54a8622ceed0cd26fc4a31b2
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 100%
@@ -58,7 +58,7 @@ There are two types of latency regarding the use of consent policies:
 ## 設定自訂動作 {#consent-custom-action}
 
 >[!CONTEXTUALHELP]
->id="ajo_consent_required_marketing_action_admin"
+>id="ajo_consent_required_marketing_action"
 >title="定義必要的行銷動作"
 >abstract="此必要的行銷動作可讓您定義與自訂動作相關的行銷動作。 例如，如果您利用該自訂動作傳送電子郵件，則可選取電子郵件目標定位。當使用於歷程時，會擷取並運用與該行銷動作相關聯的所有同意原則。 無法在畫布修改。"
 
