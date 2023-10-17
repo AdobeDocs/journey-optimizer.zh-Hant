@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
+source-git-commit: fb05b110fc1bd205810e7d85be4071644f52b191
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 26%
+source-wordcount: '481'
+ht-degree: 25%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 26%
 
 ## 在Web SDK實作中定義檢視 {#define-views}
 
-可在Adobe中運用XDM檢視 [!DNL Journey Optimizer] 讓行銷人員透過網頁視覺化編輯器在SPA上執行網頁個人化和實驗行銷活動。 [了解更多](web-spa-implementation.md)
+可在Adobe中運用XDM檢視 [!DNL Journey Optimizer] 讓行銷人員透過網頁視覺化編輯器在SPA上執行網頁個人化和實驗行銷活動。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 
-若要能夠存取及編寫中的檢視 [!DNL Journey Optimizer] 使用者介面，請務必遵循下列步驟操作 [本節](web-spa-implementation.md#implement-xdm-views).
+若要能夠存取及編寫中的檢視 [!DNL Journey Optimizer] 使用者介面，請務必遵循下列步驟操作 [本節](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 
 ## 在網頁設計工具中探索檢視 {#discover-views}
 
