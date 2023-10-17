@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 27%
+ht-degree: 34%
 
 ---
 
@@ -122,7 +122,7 @@ ht-degree: 27%
 
 ## 定義對象 {#audience}
 
-按一下 **[!UICONTROL 選取對象]** 按鈕來顯示可用Adobe Experience Platform對象清單。 [深入瞭解對象](../audience/about-audiences.md)
+按一下 **[!UICONTROL 選取對象]** 按鈕來顯示可用Adobe Experience Platform對象清單。 [進一步了解對象](../audience/about-audiences.md)
 
 >[!NOTE]
 >
@@ -143,7 +143,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="行銷活動排程"
->abstract="依預設，行銷活動會從手動啟動時開始，並在傳送一次訊息後立即終止。 不過，您仍可彈性設定傳送訊息的特定日期和時間。 此外，您也可以指定循環或API觸發之行銷活動的結束日期。 在動作觸發器中，您也可以設定訊息傳送頻率以符合您的偏好設定。"
+>abstract="預設情況下，行銷活動經由手動啟動開始執行，並在訊息傳送一次後立即終止。不過，你可以彈性設定發送訊息的具體日期和時間。此外，你可以對定期執行或 API 觸發的行銷活動指定結束日期。在操作觸發條件中，你亦可根據自己的偏好設定訊息傳送頻率。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"

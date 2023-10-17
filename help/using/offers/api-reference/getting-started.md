@@ -9,7 +9,7 @@ exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 87%
 
 >[!CONTEXTUALHELP]
 >id="od_api_support"
->title="新的決定管理API"
->abstract="現在提供用於建立和管理決策管理物件的新API。 我們將支援舊版api直到2024年3月27日。"
+>title="新的決策管理 API"
+>abstract="現已推出用於建立和管理決策管理物件的新 API。舊版 API 將支援至 2024 年 3 月 27 日為止。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_api_support"
->title="新的決定管理API"
->abstract="現在提供用於建立和管理決策管理物件的新API。 我們將支援舊版api直到2024年3月27日。"
+>title="新的決策管理 API"
+>abstract="現已推出用於建立和管理決策管理物件的新 API。舊版 API 將支援至 2024 年 3 月 27 日為止。"
 
 本開發人員指南提供了協助您開始使用 [!DNL Offer Library] API 的步驟。 接著，本指南會提供範例 API 呼叫，用於使用決策引擎執行主要作業。
 

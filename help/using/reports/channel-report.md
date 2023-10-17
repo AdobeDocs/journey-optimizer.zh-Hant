@@ -11,7 +11,7 @@ exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
 workflow-type: tm+mt
 source-wordcount: '2664'
-ht-degree: 2%
+ht-degree: 32%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_level_report"
 >title="管道層級報告"
->abstract="管道報告提供所有管道的流量和參與量度的全面概述。您的報告會分為不同的 Widget，詳述行銷活動和歷程的成功和錯誤。每個報告儀表板都可以透過調整大小或移除介面工具來修改。"
+>abstract="管道報告提供所有管道的流量和參與量度的全面概述。您的報告會分為不同的介面工具，詳述行銷活動和歷程的成功和錯誤。每個報告儀表板都可以透過調整大小或移除介面工具來修改。"
 
 >[!IMPORTANT]
 >
@@ -45,63 +45,63 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics"
->title="電子郵件 — 傳送統計資料總數"
->abstract="電子郵件 — 總傳送統計資料KPI會摘要有關推播通知的基本資料，例如「已鎖定目標」或「已傳送」訊息。"
+>title="電子郵件 - 傳送統計資料總計"
+>abstract="電子郵件 - 傳送統計資料總計 KPI 總結有關推播通知的基本資料，例如指定對象或已送達的郵件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics"
->title="電子郵件 — 追蹤統計資料總數"
->abstract="電子郵件 — 追蹤統計資料KPI總計可提供您電子郵件的設定檔活動資料。"
+>title="電子郵件 - 追蹤統計資料總計"
+>abstract="電子郵件 - 追蹤統計資料總計 KPI 提供有關你的電子郵件的設定檔活動的資料。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics_overtime"
->title="電子郵件 — 傳送一段時間內的統計資料"
->abstract="電子郵件 — 隨著時間傳送的統計資料圖表會顯示已傳送電子郵件的相關資料，可依每小時、每日、每週或每月劃分。"
+>title="電子郵件 - 時間區間內傳送統計資料"
+>abstract="「電子郵件 - 時間區間內傳送統計資料」圖表顯示有關已傳送的電子郵件的資料，依每小時、每天、每週或每月進行劃分。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics_overtime"
->title="電子郵件 — 追蹤一段時間內的統計資料"
->abstract="電子郵件 — 追蹤一段時間內的統計資料圖表提供您電子郵件的設定檔活動資料，並以每小時、每日、每週或每月為基準劃分。"
+>title="電子郵件 - 時間區間內追蹤統計資料"
+>abstract="「電子郵件 - 時間區間內追蹤統計資料」圖表提供有關你的電子郵件的設定檔活動相關資料，依每小時、每天、每週或每月進行劃分。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_categories"
->title="退信類別"
->abstract="「跳出類別」圖表和表格會提供暫時和永久錯誤的相關資料。"
+>title="退回類別"
+>abstract="「退回」類別的圖表和表格提供有關暫時性和永久錯誤的資料。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_reasons"
 >title="退回原因"
->abstract="「退信原因」圖表和表格包含與退信相關的可用資料。"
+>abstract="「退回原因」圖表和表格包含與退回郵件相關的可用資料。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_error_reasons"
 >title="錯誤原因"
->abstract="「錯誤原因」圖表和表格可讓您識別傳送程式期間發生的特定錯誤。"
+>abstract="「錯誤原因」圖表和表格讓你能夠確認傳送過程中發生的特定錯誤。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_excluded_reasons"
->title="排除的原因"
->abstract="「排除的原因」圖表和表格說明導致使用者設定檔從目標對象中排除而不接收訊息的各種因素。"
+>title="排除原因"
+>abstract="「排除原因」圖表和表格說明導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_delivered_domains"
->title="依網域傳送和傳遞"
->abstract="「依網域傳送和傳遞」圖表和表格代表每個重要電子郵件傳送資料的網域層級劃分。"
+>title="依網域劃分的已傳送和已送達郵件"
+>abstract="「依網域劃分的已傳送和已送達郵件」圖表和表格呈現依網域層級劃分的每封傳送資料的重要電子郵件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounces_errors_domains"
->title="依網域區分的退回和錯誤"
->abstract="「依網域區分的跳出和錯誤」圖表和表格代表傳送程式期間發生的特定錯誤的網域層級劃分。"
+>title="依網域劃分的退回情形與錯誤"
+>abstract="「依網域劃分的退回情形與錯誤」圖表和表格呈現依網域層級劃分的傳送過程中發生的特定錯誤。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_open_clicks_domains"
->title="依網域開啟和點按"
->abstract="「依網域開啟和點按」圖表和表格代表訪客與電子郵件互動的網域層級劃分。"
+>title="依網域劃分的開啟和點選動作"
+>abstract="「依網域劃分的開啟和點選動作」圖表和表格呈現依網域層級劃分的訪客參與電子郵件互動的情形。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_reasons_domains"
->title="依網域區分的退回原因"
->abstract="「依網域區分的跳出原因」圖表和表格代表暫時和永久錯誤的網域層級資料劃分。"
+>title="依網域劃分的退回原因"
+>abstract="「依網域劃分的退回原因」圖表和表格呈現依網域層級劃分的暫時性錯誤和永久錯誤的資料。"
 
 在管道報表中，電子郵件功能表會詳細說明與行銷活動和歷程中傳送之電子郵件相關的主要資訊。 量度詳情如下。
 
@@ -182,43 +182,43 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics"
->title="推播通知 — 傳送統計資料總數"
->abstract="推播通知 — 總傳送統計資料KPI會摘要有關推播通知的基本資料，例如「已鎖定目標」或「已傳送」。"
+>title="推播通知 - 傳送統計資料總計"
+>abstract="推播通知 - 傳送統計資料總計 KPI 總結有關推播通知的基本資料，例如指定對象或已送達的郵件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics"
->title="推播通知 — 追蹤統計資料總數"
->abstract="推播通知 — 追蹤統計資料總計可提供推播通知之設定檔活動的資料。"
+>title="推播通知 - 追蹤統計資料總計"
+>abstract="「推播通知 - 追蹤統計資料總計」提供有關推播通知的設定檔活動的資料。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics_overtime"
->title="推播通知 — 傳送一段時間內的統計資料"
->abstract="「推播通知傳送」統計資料會顯示一段時間內的推播通知相關資料，包括每小時、每日、每週或每月傳送的推播通知。"
+>title="推播通知 - 時間區間內的傳送統計資料"
+>abstract="「推播通知時間區間內傳送統計資料」圖表呈有關已傳送推播通知的資料，依每小時、每天、每週或每月劃分顯示。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_overtime"
->title="推播通知 — 追蹤一段時間內的統計資料"
->abstract="推播通知 — 追蹤一段時間統計資料圖表提供推播通知的設定檔活動資料，每小時、每日、每週或每月劃分。"
+>title="推播通知 - 時間區間內追蹤統計資料"
+>abstract="「推播通知 - 時間區間內追蹤統計資料」圖表提供有關你的推播通知的設定檔活動相關資料，依每小時、每天、每週或每月劃分顯示。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_excluded_reasons"
->title="排除的原因"
->abstract="「排除的原因」圖表和表格說明導致使用者設定檔從目標對象中排除而不接收訊息的各種因素。"
+>title="排除原因"
+>abstract="「排除原因」圖表和表格說明導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_error_reasons"
 >title="錯誤原因"
->abstract="「錯誤原因」圖表和表格可讓您識別傳送程式期間發生的特定錯誤。"
+>abstract="「錯誤原因」圖表和表格讓你能夠確認傳送過程中發生的特定錯誤。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_platform"
->title="依據平台的追蹤統計資料"
->abstract="「依平台追蹤統計資料」圖表和表格會根據您的設定檔作業系統，提供推播通知的設定檔活動資料。"
+>title="依平台劃分的追蹤統計資料"
+>abstract="「依平台劃分的追蹤統計資料」圖表和表格根據你的設定檔的作業系統提供推播通知的設定檔活動相關資料。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics_platform"
->title="依平台傳送統計資料"
->abstract="「依平台傳送統計資料」圖表和表格會顯示與已傳送推播通知有關的資料。"
+>title="依平台劃分傳送統計資料"
+>abstract="「依平台劃分的傳送統計資料」圖表和表格顯示有關已傳送推播通知的資料。"
 
 在管道報表中，推播通知功能表會詳細說明與行銷活動和歷程中傳送的推播通知相關的主要資訊。 量度詳情如下。
 
@@ -281,38 +281,38 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_sending_statistics"
->title="簡訊 — 傳送統計資料總數"
->abstract="SMS — 總傳送統計資料KPI會摘要有關SMS訊息的基本資料，例如「已鎖定目標」或「已傳送」。"
+>title="簡訊 - 傳送統計資料總計"
+>abstract="簡訊 - 傳送統計資料總計 KPI 總結有關簡訊的基本資料，例如指定對象或已送達的簡訊。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_tracking_statistics"
->title="簡訊 — 追蹤統計資料總數"
->abstract="SMS — 追蹤統計總數提供SMS訊息設定檔活動的資料。"
+>title="簡訊 - 追蹤統計資料總計"
+>abstract="「SMS - 追蹤統計資料總計」提供有關你的簡訊的設定檔活動相關資料。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_sending_statistics_overtime"
->title="簡訊 — 傳送一段時間內的統計資料"
->abstract="SMS — 隨著時間傳送的統計資料圖表會顯示有關已傳送SMS訊息的資料，分成每小時、每日、每週或每月三類。"
+>title="簡訊 - 時間區間內傳送統計資料"
+>abstract="「簡訊- 時間區間內傳送統計資料」圖表顯示有關已傳送簡訊的資料，依每小時、每天、每週或每月劃分顯示。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_tracking_statistics_overtime"
->title="簡訊 — 追蹤一段時間內的統計資料"
->abstract="SMS — 隨時間追蹤統計資料圖表提供SMS訊息的設定檔活動資料，並以每小時、每日、每週或每月為基準劃分。"
+>title="簡訊 - 時間區間內追蹤統計資料"
+>abstract="「簡訊 - 時間區間內追蹤統計資料」圖表提供有關你的簡訊的設定檔活動相關資料，依每小時、每天、每週或每月劃分顯示。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_excluded_reasons"
->title="排除的原因"
->abstract="「排除的原因」圖表和表格說明導致使用者設定檔從目標對象中排除而不接收訊息的各種因素。"
+>title="排除原因"
+>abstract="「排除原因」圖表和表格說明導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_bounce_reasons"
 >title="退回原因"
->abstract="「退信原因」圖表和表格包含與退信相關的可用資料。"
+>abstract="「退回原因」圖表和表格包含與退回郵件相關的可用資料。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_error_reasons"
 >title="錯誤原因"
->abstract="「錯誤原因」圖表和表格可讓您識別傳送程式期間發生的特定錯誤。"
+>abstract="「錯誤原因」圖表和表格讓你能夠確認傳送過程中發生的特定錯誤。"
 
 在您的頻道報表中，簡訊功能表會詳細說明與行銷活動和歷程中傳送之簡訊有關的主要資訊。 量度詳情如下。
 
@@ -366,18 +366,18 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_sending_statistics"
->title="直接郵件 — 總傳送統計資料"
->abstract="直接郵件 — 總傳送統計資料KPI會摘要有關直接郵件訊息的基本資料，例如「已鎖定目標」或「已傳送」。"
+>title="直接郵件 - 傳送統計資料總計"
+>abstract="直接郵件 - 傳送統計資料總計 KPI 總結有關直接郵件的基本資料，例如指定對象或已送達的郵件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_excluded_reasons"
->title="排除的原因"
->abstract="「排除的原因」圖表和表格說明導致使用者設定檔從目標對象中排除而不接收訊息的各種因素。"
+>title="排除原因"
+>abstract="「排除原因」圖表和表格說明導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_error_reasons"
 >title="錯誤原因"
->abstract="「錯誤原因」圖表和表格可讓您識別傳送程式期間發生的特定錯誤。"
+>abstract="「錯誤原因」圖表和表格讓你能夠確認傳送過程中發生的特定錯誤。"
 
 在管道報表中，直接郵件功能表會詳細說明與行銷活動和歷程中傳送之直接郵件訊息相關的主要資訊。 量度詳情如下。
 
@@ -406,13 +406,13 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement"
->title="應用程式內 — 參與總數"
->abstract="應用程式內 — 參與總計KPI可提供有關訪客與應用程式內訊息互動的完整資訊，包括曝光數和互動數等量度。"
+>title="應用程式內 - 參與度總計"
+>abstract="應用程式內 - 參與度總計 KPI 提供有關訪客參與應用程式內訊息的互動的綜合資訊，包括曝光和互動次數等量度。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement_overtime"
->title="應用程式內 — 參與超時"
->abstract="應用程式內 — 參與超時圖表會追蹤應用程式內曝光次數和互動，提供每小時、每日、每週和每月劃分。"
+>title="應用程式 - 時間區間內參與情形"
+>abstract="「應用程式內 - 時間區間內參與度」圖表追蹤應用程式內曝光和互動次數，提供依每小時、每日、每周和每月劃分的資料。"
 
 在管道報表中，應用程式內功能表會詳細說明與促銷活動和歷程中傳送之應用程式內訊息有關的主要資訊。 量度詳情如下。
 
@@ -438,13 +438,13 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_web_engagement"
->title="網路 — 參與總數"
->abstract="「網路 — 總參與度KPI」可提供訪客與網頁參與度的全面資訊，包括曝光數和互動數等量度。"
+>title="網站 - 參與度總計"
+>abstract="網頁 - 參與度總計 KPI 提供有關訪客參與網頁互動的綜合資訊，包括曝光和互動次數等量度。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_web_engagement_overtime"
->title="Web — 加班參與總數"
->abstract="網路 — 參與超時圖表會追蹤您的網頁曝光次數和互動，提供每小時、每日、每週和每月的劃分。"
+>title="網頁 - 時間區間內參與度總計"
+>abstract="「網頁 - 時間區間內參與度」圖表追蹤你的網頁曝光和互動次數，提供依每小時、每天、每周和每月劃分的資料。"
 
 在管道報表中，網頁功能表會詳細說明與行銷活動和歷程中所包含網頁相關的主要資訊。 量度詳情如下。
 

@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '627'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
->title="選取行銷活動對象"
->abstract="此清單會顯示所有可用的Adobe Experience Platform對象。 選取行銷活動要定位的對象。 行銷活動中設定的訊息將傳送給屬於所選對象的所有個人。 [深入瞭解對象](../audience/about-audiences.md)"
+>title="選取行銷活動的對象"
+>abstract="此清單顯示所有可用的 Adobe Experience Platform 對象。為你的行銷活動選取目標對象。在行銷活動中設定的訊息將傳送給屬於所選對象的所有個人。[進一步了解對象](../audience/about-audiences.md)"
 
 [!DNL Journey Optimizer] 可讓您直接從&#x200B;**[!UICONTROL 對象]**&#x200B;選單，使用即時客戶設定檔資料來建置和使用 Adobe Experience Platform 對象，然後用於歷程或行銷活動。
 

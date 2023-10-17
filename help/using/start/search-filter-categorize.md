@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: dd88835075bb458f0067d68c51b4996c5823b057
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '543'
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_tags"
 >title="標記"
->abstract="此欄位可讓您將Adobe Experience Platform統一標籤指派給您的行銷活動。 這可讓您輕鬆分類，並改進行銷活動清單的搜尋。 "
+>abstract="你可以利用此欄位為你的行銷活動指派 Adobe Experience Platform 統一標記。這可讓您輕鬆分類，並改進行銷活動清單的搜尋。 "
 
 利用 Adobe Experience Platform [統一標籤](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=zh-Hant)，您可以輕鬆分類 Journey Optimizer 歷程與行銷活動，進而改進清單的搜尋。
 
