@@ -7,21 +7,16 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 12%
+source-wordcount: '460'
+ht-degree: 13%
 
 ---
 
 # 測試並傳送直接郵件訊息 {#direct-mail-test-send}
 
 ## 預覽解壓縮檔案 {#preview-dm}
-
->[!CONTEXTUALHELP]
->id="ajo_direct_mail_preview"
->title="擷取檔案預覽"
->abstract="在此窗格中，您可以預覽擷取檔案在左窗格中所選每個測試設定檔的顯示方式。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容的顯示方式。"
 
 定義解壓縮檔案的內容後，您就可以使用測試設定檔來預覽。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
 

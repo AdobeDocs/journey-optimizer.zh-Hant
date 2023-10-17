@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: 預覽，內容，電子郵件，校訂，測試，設定檔
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 11%
+source-wordcount: '991'
+ht-degree: 9%
 
 ---
 
 # 預覽和測試您的電子郵件 {#preview-and-proof}
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_testprofiles"
+>title="預覽和測試您的訊息"
+>abstract="定義訊息內容後，您就可以使用測試設定檔進行預覽及測試。"
 
 定義電子郵件內容後，您就可以使用測試設定檔來預覽及測試。 如果您已插入 [個人化內容](../personalization/personalize.md)，您可使用測試設定檔資料檢查此內容在訊息中的顯示方式。
 
@@ -44,13 +49,6 @@ ht-degree: 11%
 ➡️ [透過此影片瞭解如何預覽和校樣您的電子郵件](#video-preview)
 
 ## 選取測試設定檔 {#select-test-profiles}
-
->[!CONTEXTUALHELP]
->id="ac_preview_testprofiles"
->title="預覽和測試您的訊息"
->abstract="定義訊息內容後，您就可以使用測試設定檔進行預覽及測試。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=zh-Hant#email-rendering" text="電子郵件轉譯"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=zh-Hant#preview-email" text="預覽"
 
 使用 [測試設定檔](../audience/creating-test-profiles.md) 鎖定不符合已定義定位准則的其他收件者。
 
