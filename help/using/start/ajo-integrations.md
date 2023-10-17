@@ -3,11 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 與其他解決方案整合
 description: 進一步了解如何整合 Journey Optimizer 與其他解決方案
-topic: Content Management
+feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 > Adobe Journey Optimizer 以 Adobe Experience Platform 為基礎，以原生方式連線至 [Adobe 即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}。此內建資料來源已預先設定，且設計旨在從即時客戶個人檔案擷取並使用資料 (例如，檢查進入歷程的人員是否為客戶)。 其可讓您使用個人檔資料與體驗事件資料。 [了解更多](../datasource/adobe-experience-platform-data-source.md)。
 >
 
-## Adobe Customer Journey Analytics{#integration-cja}
+## Adobe Customer Journey Analytics {#integration-cja}
 
 在 Journey Optimizer 產生資料之後，您可利用 Customer Journey Analytics 對該資料執行進階分析。
 
@@ -33,14 +33,14 @@ Journey Optimizer 會將資料儲存在 Adobe Experience Platform，並利用 Cu
 
 深入了解 [Journey Optimizer + Customer Journey Analytics](../reports/cja-ajo.md)。
 
-## Adobe Analytics{#integration-aa}
+## Adobe Analytics {#integration-aa}
 
 您現在可運用您已擷取並串流至 Adobe Experience Platform 的所有 Adobe Analytics 行為事件資料，以觸發即時歷程並自動化客戶體驗。此資料也可用來建立對象，後者可利用 Journey Optimizer 參與。
 
 深入了解 [Journey Optimizer + Analytics](../event/about-analytics.md)。
 
 
-## Adobe Experience Manager Assets Essentials{#integration-assets}
+## Adobe Experience Manager Assets Essentials {#integration-assets}
 
 利用 [!DNL Adobe Experience Manager Assets Essentials] 將行銷與創意內容工作流程結合在一起。與 [!DNL Adobe Journey Optimizer] 進行本機整合，存取 [!DNL Assets Essentials] 來儲存、管理、探索及分發數位資產。提供了可用於填入訊息的單一、集中式資產存放庫。
 
@@ -49,7 +49,7 @@ Journey Optimizer 會將資料儲存在 Adobe Experience Platform，並利用 Cu
 深入了解 [Journey Optimizer + Assets Essentials](../content-management/assets-essentials.md)。
 
 
-## Adobe Stock{#integration-stock}
+## Adobe Stock {#integration-stock}
 
 [!DNL Adobe Stock] 和 [!DNL Adobe Journey Optimizer] 電子郵件設計工具整合外掛程式，為客戶提供了用於訊息製作的導覽、授權和儲存影像的簡單方法。
 
@@ -58,7 +58,7 @@ Journey Optimizer 會將資料儲存在 Adobe Experience Platform，並利用 Cu
 深入了解 [Journey Optimizer + Stock](../content-management/stock.md)。
 
 
-## Adobe Intelligent Services{#integration-intelligent-service}
+## Adobe Intelligent Services {#integration-intelligent-service}
 
 Adobe Intelligent Services 是即時客戶資料平台的原生功能，可讓您在客戶體驗使用案例中運用人工智慧與機器學習的強大功能。 這可讓行銷分析人員利用業務層級設定，針對公司需求設定專屬預測，而無需資料科學的專業知識。
 
@@ -67,7 +67,7 @@ Customer AI 可讓品牌建立流失率或轉換機器學習型分數，這些�
 [了解更多](../building-journeys/ai-services-overview.md)。
 
 
-## Adobe Campaign{#integration-ac}
+## Adobe Campaign {#integration-ac}
 
 如果您有 Adobe Campaign v7 或 v8，則可整合。 透過整合，您可使用 Adobe Campaign 異動訊息功能來傳送電子郵件、推播通知與簡訊。
 
@@ -75,9 +75,9 @@ Customer AI 可讓品牌建立流失率或轉換機器學習型分數，這些�
 
 您也可設定整合至 Adobe Campaign Standard，以在歷程中傳送訊息。
 
-深入了解 [Journey Optimizer + Campaign Standard](../building-journeys/ajo-ac.md)。
+深入了解 [Journey Optimizer + Campaign Standard](../building-journeys/using-adobe-campaign-standard.md)。
 
-## 自訂通道{#integration-custom}
+## 自訂通道 {#integration-custom}
 
 如果您使用協力廠商系統來傳送訊息，或想要歷程傳送 API 呼叫至協力廠商系統，請使用自訂動作來連線至您的歷程。 例如，您可利用自訂動作連線至下列系統：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase 等等。
 
@@ -85,7 +85,7 @@ Customer AI 可讓品牌建立流失率或轉換機器學習型分數，這些�
 
 深入了解[自訂動作](../action/about-custom-action-configuration.md)。
 
-## 外部資料來源{#integration-external-systems}
+## 外部資料來源 {#integration-external-systems}
 
 Journey Optimizer 可讓您透過自訂資料來源與自訂動作來設定與外部系統的連線。 舉例來說，這可讓您利用來自外部訂房系統的資料，讓您的歷程更為豐富。
 

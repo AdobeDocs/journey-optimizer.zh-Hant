@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 設定頻道介面
 description: 瞭解如何設定和監控管道表面
-feature: Application Settings, Surface
+feature: Surface, Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: 管道，表面，技術，引數，最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 73ef16b03f76b61da95b48a411b07854c59c6487
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 9%

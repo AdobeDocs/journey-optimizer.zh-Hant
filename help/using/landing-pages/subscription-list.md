@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 建立訂閱清單
 description: 瞭解如何在Journey Optimizer中設定訂閱清單
-feature: Landing Pages
+feature: Subscriptions
 topic: Content Management
 role: User
 level: Beginner
 keywords: 登陸，登陸頁面，清單，訂閱，服務
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: b7685798cec415c8a97992ddacf8f0ebcb393107
+source-git-commit: f63f9d6ffd28d276f8a3dadbf8dc6b947b8331e7
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 12%

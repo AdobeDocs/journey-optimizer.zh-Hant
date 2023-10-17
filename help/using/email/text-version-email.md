@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 建立電子郵件的文字版本
 description: 了解如何建立電子郵件的文字版本
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 文字，電子郵件，版本，純文字，編輯器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 75%

@@ -1,13 +1,13 @@
 ---
 title: 測試並傳送您的應用程式內通知
 description: 瞭解如何在Journey Optimizer中測試和傳送應用程式內訊息
-feature: Overview
+feature: In App
 topic: Content Management
 role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 17%

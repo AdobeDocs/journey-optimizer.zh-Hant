@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 加入內嵌樣式屬性
 description: 了解如何新增內嵌樣式屬性
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: 內嵌，樣式，屬性，編輯器
 exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 36%

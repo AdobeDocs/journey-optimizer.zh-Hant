@@ -5,11 +5,11 @@ title: 在登入頁面中使用自訂JavaScript
 description: 瞭解如何在Journey Optimizer中設計登入頁面的內容
 feature: Landing Pages
 topic: Content Management
-role: User
-level: Beginner
+role: Developer
+level: Experienced
 keywords: 登陸，登陸頁面， javascript，程式碼
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 2%

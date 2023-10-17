@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 設定電子郵件設定
 description: 瞭解如何在頻道介面層級進行電子郵件設定
-feature: Surface
+feature: Email, Surface
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5e58db84275d78c5248f1d617328799d71bb10d1
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '2258'
 ht-degree: 12%

@@ -4,11 +4,12 @@ product: journey optimizer
 title: 權限層級
 description: 瞭解允許使用者存取不同功能的高和低層級許可權。
 topic: Administration
+feature: Access Management
 role: Admin, Architect, Developer
 level: Experienced
 keywords: 許可權，高階，低階，設定檔， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: bb988dbc3aa8b70081c9f3de595d49904cc699b4
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 0%

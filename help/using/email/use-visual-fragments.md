@@ -3,19 +3,19 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用視覺化片段
 description: 瞭解如何在Journey Optimizer行銷活動和歷程中建立電子郵件時使用視覺片段
-feature: Overview
+feature: Email Design, Templates
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 7906d28cbe770dd2debf079d3c646536bf7f74e4
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# 將視覺化片段新增至您的電子郵件 {#use-visual-fragments}
+# 在你的電子郵件中新增視覺內容片段 {#use-visual-fragments}
 
 您可以在以下專案中使用視覺效果片段： [電子郵件](get-started-email-design.md) 在歷程或行銷活動中，或在 [內容範本](../content-management/content-templates.md).
 

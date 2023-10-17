@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用內容助理產生內容
 description: 開始使用內容助理
-feature: Overview
+feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
@@ -11,7 +11,7 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: b524d0026f32eaf2d7421bb85188d01199cbf843
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 6%
@@ -34,7 +34,7 @@ ht-degree: 6%
 
 善用內容小幫手，您就有機會透過實驗不同內容來最佳化訊息的影響。 每個變體都視為獨特的處理，以便衡量和比較哪些內容有效地產生更多點按。
 
-在此特定範例中，瞭解如何使用內容實驗來傳送吸引人的推播通知。 請按照以下步驟操作：
+在此特定範例中，瞭解如何使用內容實驗來傳送吸引人的推播通知。 請依照下列步驟操作：
 
 1. 建立和設定推播通知行銷活動後，按一下 **[!UICONTROL 建立內容]**.
 

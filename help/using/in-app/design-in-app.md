@@ -1,13 +1,13 @@
 ---
 title: 設計您的應用程式內內容
 description: 瞭解如何在Journey Optimizer中設計您的應用程式內內容
-feature: Overview
+feature: In App
 topic: Content Management
 role: User
 level: Beginner
 keywords: 應用程式內、訊息、設計、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 144afbd925301ea1eeb690adee335d205fded394
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 28%

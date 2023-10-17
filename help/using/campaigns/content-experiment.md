@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 建立內容實驗
 description: 瞭解如何在行銷活動中建立內容實驗
-feature: A/B Testing
+feature: Experimentation
 topic: Content Management
 role: User
 level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 11%
@@ -68,7 +68,7 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
    * **[!UICONTROL 名稱]**
    * **[!UICONTROL 說明]**
 
-1. 定義要定位的對象。 若要這麼做，請按一下 **[!UICONTROL 選取對象]** 按鈕來顯示可用Adobe Experience Platform對象清單。 [深入瞭解對象](../audience/about-audiences.md)
+1. 定義要定位的對象。 若要這麼做，請按一下 **[!UICONTROL 選取對象]** 按鈕來顯示可用Adobe Experience Platform對象清單。 [進一步了解對象](../audience/about-audiences.md)
 
    在 **[!UICONTROL 身分名稱空間]** 欄位，選擇要使用的名稱空間，以識別所選對象中的個人。 [了解更多](get-started-experiment.md#content-experiment-work)
 

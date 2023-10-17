@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 重試次數
 description: 瞭解在將地址傳送到隱藏清單之前如何執行重試
-feature: Application Settings
+feature: Deliverability, Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: 重試，退回，軟退回，最佳化工具，錯誤
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 13%

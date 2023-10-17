@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 舊版發行說明 (2021 年)
 description: Journey Optimizer 2021 年發行說明
+feature: Release Notes
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -180,7 +181,7 @@ ht-degree: 89%
 <tbody>
 <tr>
 <td>
-<p>使用 Adobe Journey Optimizer 在最適當的時間自動向您接洽的每個客戶傳送推播通知或電子郵件。「傳送時間最佳化」採用 Adobe 的 AI 服務，可根據立即可用的歷史開啟率和點按率，預測傳送電子郵件或推送訊息的最佳時機，最大化參與程度。</p>
+<p>使用 Adobe Journey Optimizer 在最適當的時間自動向您接洽的每個客戶傳送推播通知或電子郵件。「傳送時間最佳化」採用Adobe的AI服務，可根據立即可用的歷史開啟率和點按率，預測傳送電子郵件或推送訊息的最佳時機，最大化參與程度。</p>
 <p>此功能目前為測試版本，僅供測試版客戶使用。 若要加入測試版計畫，請連絡 Adobe 客戶服務。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/journeys-message.md#send-time-optimization">詳細文件</a>。</p>
 </td>

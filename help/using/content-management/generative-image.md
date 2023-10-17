@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用內容助理生成影像
 description: 開始使用內容助理
-feature: Overview
+feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
@@ -11,7 +11,7 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: b5582601-5804-4413-b548-a0b34cc38090
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: b524d0026f32eaf2d7421bb85188d01199cbf843
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 11%
@@ -30,11 +30,9 @@ ht-degree: 11%
 
 >[!ENDSHADEBOX]
 
-
-
 建立電子郵件或網頁並加以個人化後，請透過內容助理將您的內容提升到新的境界。 這個強大的工具可讓您輕鬆個人化和增強內容。
 
-在以下範例中，瞭解如何使用內容助理來更新和改進您的資產，以獲得更好的使用者體驗。 請按照以下步驟操作：
+在以下範例中，瞭解如何使用內容助理來更新和改進您的資產，以獲得更好的使用者體驗。 請依照下列步驟操作：
 
 1. 建立及設定訊息後，請按一下 **[!UICONTROL 建立內容]** 並視需要個人化。
 

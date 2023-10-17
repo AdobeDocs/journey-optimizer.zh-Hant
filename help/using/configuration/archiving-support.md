@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer的封存支援
 description: 瞭解如何封存訊息
-feature: Application Settings
+feature: Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: 封存，訊息， HIPAA，密件副本，電子郵件
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 315309fdede3aa095fc59266acf765dc4b782dd9
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 7%

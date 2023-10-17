@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 訂閱即時報告
 description: 瞭解如何將訂閱服務的資料與訂閱即時報告搭配使用
-feature: Journeys
+feature: Reporting, Subscriptions
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 20%

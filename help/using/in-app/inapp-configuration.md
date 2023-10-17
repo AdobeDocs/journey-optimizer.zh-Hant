@@ -2,10 +2,11 @@
 title: 應用程式內頻道先決條件
 description: 瞭解如何設定您的環境，以使用Journey Optimizer傳送應用程式內訊息
 role: Admin
+feature: In App
 level: Intermediate
 keywords: 應用程式內、訊息、設定、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 42a1efc45268688d371d83efbafef2aab9d757ac
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 11%

@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 預覽和測試您的SMS訊息
 description: 瞭解如何在Journey Optimizer中預覽和測試您的SMS訊息
-feature: Overview
+feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 12%

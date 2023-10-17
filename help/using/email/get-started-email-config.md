@@ -4,12 +4,12 @@ product: journey optimizer
 title: 開始使用電子郵件設定
 description: 深入了解  [!DNL Journey Optimizer] 中的電子郵件組態
 role: Admin
-level: Intermediate
-feature: Application Settings
+level: Experienced
+feature: Channel Configuration, Email
 topic: Administration
 keywords: 電子郵件、設定、表面、子網域
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 100%

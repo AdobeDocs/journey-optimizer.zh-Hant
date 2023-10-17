@@ -1,7 +1,7 @@
 ---
 title: 在歷程中建立應用程式內通知
 description: 瞭解如何在歷程中新增應用程式內訊息
-feature: Overview
+feature: In App
 topic: Content Management
 role: User
 level: Beginner
@@ -9,7 +9,7 @@ keywords: 應用程式內、訊息、建立、開始
 hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-source-git-commit: d27fa0192b72de79fefb52b472bd06c6511a8b70
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 2%

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 設計電子郵件
 description: 了解如何設計您的電子郵件
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: 電子郵件、設計、素材、資產
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
