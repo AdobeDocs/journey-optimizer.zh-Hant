@@ -9,14 +9,19 @@ role: Developer, Admin
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 7064d9e6dce2c2b96a0c0b4df5eff24e91d42260
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '936'
 ht-degree: 1%
 
 ---
 
 # 利用 API 觸發行銷活動 {#trigger-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_api_profile_creation"
+>title="行銷活動類型"
+>abstract="若要在不建立設定檔的情況下傳送訊息的可用性限制，請遵循檔案中詳述的步驟。"
 
 ## 關於API觸發的行銷活動 {#about}
 
