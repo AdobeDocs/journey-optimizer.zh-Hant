@@ -3,11 +3,11 @@ product: experience platform
 solution: Experience Platform
 title: 設定事件擷取
 description: 瞭解如何設定您的優惠方案綱要以擷取事件
-feature: Ranking Formulas, Datasets, Offers
+feature: Ranking, Datasets, Offers
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 0ea2ed03a476e0b64a8ebfadde403ff9f9e57bba
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 5%
