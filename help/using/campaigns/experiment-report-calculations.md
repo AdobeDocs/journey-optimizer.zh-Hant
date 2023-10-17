@@ -1,12 +1,11 @@
 ---
 title: 實驗報告中使用的統計計算
 description: 深入瞭解執行實驗報告時使用的統計計算
-feature: A/B Testing
-topic: Content Management
+feature: A/B Testing, Experimentation
 role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 1%
