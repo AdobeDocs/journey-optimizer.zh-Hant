@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 開始使用 Journey Optimizer 的查詢
 description: 了解如何在 Adobe Journey Optimizer 建立查詢
+feature: Data Management
 role: User
 level: Beginner
 keywords: 查詢、平台、資料、探索
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
-source-git-commit: 7e66450900d0625530025c6e17ef037e27da728e
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 100%

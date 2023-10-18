@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 建立行銷活動
 description: 瞭解如何在Journey Optimizer中建立行銷活動
-Feature: Campaigns
+feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 34%

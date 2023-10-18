@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 將資料集匯出至雲端儲存空間位置
 description: 瞭解如何使用Adobe Experience Platform雲端儲存空間目的地匯出資料集。
+feature: Datasets
 role: User
 level: Beginner
 keywords: platform、資料湖、建立、湖、資料集、設定檔
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: a5cb591a3340f2af27806967e5a1403be9fe26e4
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 6%
