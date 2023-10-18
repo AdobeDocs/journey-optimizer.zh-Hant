@@ -7,19 +7,18 @@ role: User
 level: Beginner
 keywords: 直接郵件、訊息、行銷活動
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 17%
+source-wordcount: '170'
+ht-degree: 5%
 
 ---
 
 # 開始使用直接郵件 {#create-direct}
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->目前，直接郵件頻道不適用於已購買 Adobe Healthcare Shield 附加產品的組織。
->
+>目前，直接郵件通道不適用於已購買Adobe的組織 **Health Shield** 和 **隱私權與安全防護板** 附加方案。
 
 直接郵件是一種離線頻道，可讓您個人化並產生直接郵件供應商傳送郵件給客戶所需的擷取檔案。
 

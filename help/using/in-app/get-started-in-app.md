@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 100%
+source-wordcount: '211'
+ht-degree: 89%
 
 ---
 
@@ -22,8 +22,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->目前，應用程式內頻道不適用於已購買 Adobe Healthcare Shield 附加產品的組織。
->
+>目前，應用程式內頻道不適用於已購買Adobe的組織 **Health Shield** 和 **隱私權與安全防護板** 附加方案。
 
 ## 先決條件{#prerequisites-in-app}
 
