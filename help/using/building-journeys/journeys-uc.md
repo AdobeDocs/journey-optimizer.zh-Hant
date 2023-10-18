@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journeys使用案例
 description: Journeys使用案例
-feature: Journeys, Use cases, Email, Push
+feature: Journeys, Use Cases, Email, Push
 topic: Content Management
 role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 使用案例，多頻道，訊息，歷程，頻道，事件，推播
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 1%
