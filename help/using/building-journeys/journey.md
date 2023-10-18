@@ -3,22 +3,22 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 開始使用歷程
 description: 開始使用歷程
-feature: Journeys
+feature: Journeys, Get Started, Overview
 role: User
-level: Beginner
+level: Beginner, Intermediate
 keywords: 歷程，探索，開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 24%
+ht-degree: 27%
 
 ---
 
 
 # 開始使用歷程{#jo-general-principle}
 
-使用 [!DNL Journey Optimizer] 使用儲存在事件或資料來源中的情境資料，建立即時協調使用案例。
+使用 [!DNL Journey Optimizer] 可讓您善用儲存在事件或資料來源中的內容資料，建置即時協調流程使用案例。
 
 設計由下列功能提供支援的多步驟進階案例：
 

@@ -1,12 +1,12 @@
 ---
 title: 建立版位
 description: 瞭解如何建立優惠方案的版位
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 51f93270c969875e94cc3e98919149d67d764ed1
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 11%

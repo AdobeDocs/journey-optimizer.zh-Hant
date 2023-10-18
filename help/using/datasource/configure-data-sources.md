@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 設定資料來源
 description: 瞭解如何設定資料來源
-feature: Data Sources
+feature: Journeys, Data Sources
 topic: Administration
-role: Admin
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Intermediate, Experienced
 keywords: 資料，來源，設定，欄位
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 8%

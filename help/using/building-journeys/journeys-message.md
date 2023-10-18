@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 在歷程中新增訊息
 description: 瞭解如何在歷程中新增訊息
-feature: Journeys
+feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 17%

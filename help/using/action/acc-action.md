@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 與 Adobe Campaign v7/v8 整合
 description: 瞭解如何將Journey Optimizer與Adobe Campaign v7/v8整合
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Admin,Developer
+role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign， acc，整合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 22%
@@ -68,7 +68,7 @@ Journey Optimizer 和 Campaign 執行個體之間的連線在佈建時由 Adobe 
 
 ## 設定動作 {#configure-action}
 
-在Journey Optimizer中，您需為每個異動訊息設定一個動作。 請按照以下步驟操作：
+在Journey Optimizer中，您需為每個異動訊息設定一個動作。 請依照下列步驟操作：
 
 1. 建立新動作。 請參閱本[章節](../action/action.md)。
 1. 輸入名稱和說明。

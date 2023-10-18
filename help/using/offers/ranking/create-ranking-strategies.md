@@ -3,11 +3,11 @@ product: experience platform
 solution: Experience Platform
 title: 建立 AI 模型
 description: 瞭解如何建立AI模型來對優惠方案進行排名
-feature: Ranking, Offers
+feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 0ea2ed03a476e0b64a8ebfadde403ff9f9e57bba
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 7%

@@ -5,10 +5,10 @@ title: 歷程結束
 description: 瞭解歷程如何在Journey Optimizer中結束
 feature: Journeys
 role: User
-level: Beginner
+level: Intermediate
 keywords: 重新進入、歷程、結束、即時、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 1%

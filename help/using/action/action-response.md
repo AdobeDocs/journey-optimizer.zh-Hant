@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 自訂動作增強功能
 description: 深入瞭解自訂動作的最新增強功能
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Admin
+role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 7%

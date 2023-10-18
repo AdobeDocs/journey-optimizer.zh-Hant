@@ -1,15 +1,15 @@
 ---
 title: 程式碼型體驗必要條件
 description: 若要使用Journey Optimizer程式碼型功能編輯應用程式和網頁，請遵循本頁面的先決條件
-feature: Offers
+feature: Code-based Experiences
 topic: Content Management
-role: User
+role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 19%

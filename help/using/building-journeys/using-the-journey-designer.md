@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 設計您的歷程
 description: 瞭解如何設計您的歷程
-feature: Journeys
+feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 設計，畫布，歷程，介面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 9270f706d3b0693178ffc076aea2e631ba736afe
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 5%

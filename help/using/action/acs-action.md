@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 與 Adobe Campaign Standard 整合
 description: 瞭解如何將Journey Optimizer與Adobe Campaign Standard整合
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Admin,Developer
+role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: 行銷活動，標準，整合，上限，動作
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 5%

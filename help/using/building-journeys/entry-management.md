@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 設定檔專案管理
 description: 瞭解如何管理設定檔專案
-feature: Journeys
+feature: Journeys, Profiles
 role: User
 level: Intermediate
 keywords: 重新進入、歷程、設定檔、週期性
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 35f52afe61bf3eda897cc96f5484778522e38d45
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 13%
