@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 62f3836494ae40cb4676f3e62ad4c8de2daa3ed9
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 24%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 100%
 
 至發行日期之前，下方的搶先發行說明如有變更，恕不另行通知。 連結、畫面及更新的文件會在發行當日發佈於[發行說明](release-notes.md)。
 
-## 2023 年 9 月搶先發行說明 {#sept-rn-2023}
+## 2023年10月早期發行說明 {#oct-rn-2023}
 
-**發行日期**：2023 年 9 月 26 日至 27 日
+**發行日期**： 2023年10月25至26日
 
-### 新功能{#sept-2023-features}
+### 新功能{#oct-2023-features}
 
 此發行版本提供下列新功能。
 
@@ -35,14 +35,14 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>合併的頻道報告</strong><br/></th>
+<th><strong>簡訊中的多媒體訊息服務(MMS) （測試版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>頻道報告功能為分析師和行銷人員提供頻道層級流量和參與量度的全面概觀。 若要存取「報告」功能表，您必須擁有「檢視頻道報表」權限。</p>
-<img src="assets/channel-reports.png"/>
+<p>透過SMS通道，您現在可以傳送多媒體訊息服務(MMS)訊息，以便與客戶共用影像、GIF或視訊，藉此增強通訊。 請注意，此功能目前僅適用於Beta版的Sinch。</p>
+<!--img src="assets/channel-reports.png"/-->
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
@@ -52,97 +52,51 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>資料集匯出目的地 (GA)</strong><br/></th>
+<th><strong>沙箱工具</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現已正式推出將 Journey Optimizer 資料集匯出至雲端儲存空間目的地的功能。 此功能可讓您與雲端儲存空間位置建立即時連線，以匯出資料集的內容。 </p>
-<img src="../data/assets/dataset-export-setup.png">
+<p>您可以使用Adobe Journey Optimizer中的沙箱工具功能來選取不同的物件，並將它們匯出至套件中。 套件可以包含單一物件、多個物件或整個沙箱。 套件中包含的任何物件都必須來自相同沙箱。</p>
+<!--img src="../data/assets/dataset-export-setup.png"-->
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>每個沙箱行動應用程式認證儲存</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>這項新功能可讓您輕鬆管理推播認證，並將其與應用程式介面中的專用沙箱建立關聯。</p>
-<p>如需詳細資訊，請參閱<a href="../in-app/inapp-configuration.md">詳細文件</a>。</p>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>計算屬性</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>計算屬性可讓您透過直覺式使用者介面，輕鬆地將事件資料總結為設定檔屬性，以增強行為型細分、個人化和啟用。 透過此功能，您可以自助建立計算屬性、管理這些屬性，並用於細分、即時客戶設定檔目的地或 Journey Optimizer。<br/><br/>
-此外，計算屬性可簡化細分和歷程工作流程，協助您順暢地提供相關體驗。 在<a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html?lang=zh-Hant">詳細文件</a>中了解更多相關資訊。</p>
-<img src="assets/do-not-localize/computed-attributes.gif">
-</tr>
-</tbody>
-</table>
 
 
-### 改進項目 {#sept-2023-improvements}
+### 改進項目 {#oct-2023-improvements}
 
 此發行版本隨附下列改進項目。
 
-<!--**Audiences**
+**對象**
 
-* You can now target audiences uploaded from a CSV file into journeys and campaigns.
-* You can now target audiences resulting from composition workflows into journeys. -->
+* 您現在可以將從CSV檔案上傳的受眾鎖定在歷程和行銷活動中。
+* 您現在可以在您的歷程中鎖定由構成工作流程產生的對象。
 
-**個人化**
+**電子郵件的垃圾郵件評分**
 
-* 除了視覺化片段之外，現在還可以透過運算式編輯器從 Journey Optimizer 介面建立、儲存及重複使用運算式片段。 運算式片段會取代先前儲存的運算式。
+* 類比電子郵件內容時，新選項可讓您檢查內容對收件匣垃圾郵件篩選的表現。 此功能目前僅向一組客戶建議（可用性限制），並可用於電子郵件頻道。
 
 **警示**
 
-* 已引進新類型的系統警示。現在您可以在讀取對象失敗時收到通知。
+* 現在提供與Journey Optimizer行銷活動相關的新警報 **警報** 功能表。
 
-**網路頻道**
+**行銷活動**
 
-* 單頁應用程式 (SPA) 現在可以在網頁設計工具的視覺化編輯器中製作，這可讓您選取要對哪些特定檢視套用網頁修改。 檢視可定義為整個網站或網站上一組視覺化元素，例如首頁、整個產品網站或所有結帳頁面上的傳遞偏好設定框架。 若要在 SPA 上建立和執行 Adobe Journey Optimizer 網路行銷活動，需要進行一次性開發人員設定，以定義 Adobe Experience Platform Web SDK 實施中的檢視。
-
-* 使用網頁設計工具編輯頁面時，目前不需從設計工具介面選取元件並加以編輯，您可以直接從&#x200B;**修改**&#x200B;窗格將新的變更新增至內容。
-* 設定網頁子網域時，除了使用已委派給 Adobe 的子網域外，您目前可以選擇新增自己的子網域。
+* 您現在可以停止即時一次性行銷活動，進行修改並再次繼續。 這項改善功能會在Beta版中提供。
 
 **歷程**
 
-* 自訂動作回應的支援現已全面推出。 這可讓您在自訂動作中運用 API 呼叫回應，並根據這些回應協調歷程。此外，已新增護欄，所有自訂動作均以每個端點每秒 5000 次呼叫為限。
-* 複製歷程時，您目前可以定義歷程副本的名稱。
+* 您可在等待活動中定義的持續時間上限現在是29天，而不是30天。
 
-<!--
-* The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
--->
+**登陸頁面**
 
-**電子郵件頻道**
+* 使用登入頁面表單元件時，您現在可以新增具有自己特定選項的電子郵件欄位。
 
-電子郵件介面設定中的新選項可讓您選擇將交易型郵件傳送至設定檔，即使其電子郵件地址在 Adobe Journey Optimizer 禁止清單中亦然。
+**頻道設定中的同意**
 
-**簡訊頻道**
-
-**選擇加入訊息**&#x200B;和&#x200B;**說明訊息**&#x200B;這兩個新欄位已新增至 API 設定畫面，可讓使用者自訂傳入關鍵字的回應。 請注意，這僅適用於 Sinch 簡訊提供者。
-
-**報告**
-
-您現在可以將 Journey Optimizer 報告匯出為 CSV 檔案。[了解更多](../reports/global-report.md#export-reports)
-
-<!--**Decision management**
-
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
+* 您現在可以在管道表面層級選取行銷動作。 在表面中使用時，會運用與該行銷動作相關的所有同意政策，以尊重客戶的偏好設定。
