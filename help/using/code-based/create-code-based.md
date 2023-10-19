@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1031'
 ht-degree: 11%
 
 ---
@@ -108,7 +108,7 @@ ht-degree: 11%
 >title="預覽您的基於程式碼的體驗"
 >abstract="模擬基於程式碼的體驗。"
 
-若要顯示已修改程式碼型體驗的預覽，請遵循下列步驟。
+若要顯示已修改程式碼型體驗的預覽，請遵循下列步驟。 有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱  [預覽和測試您的內容頁面](../content-management/preview-test.md).
 
 >[!CAUTION]
 >

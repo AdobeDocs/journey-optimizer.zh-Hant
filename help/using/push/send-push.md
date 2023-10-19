@@ -1,44 +1,33 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 預覽和測試推播通知
-description: 瞭解如何在Journey Optimizer中預覽和測試推播通知
+title: 檢查並傳送推播通知
+description: 瞭解如何在Journey Optimizer中檢查並傳送推播通知
 feature: Push
 topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 9%
+source-wordcount: '356'
+ht-degree: 5%
 
 ---
 
-# 預覽和測試推播通知 {#send-push}
+# 檢查並傳送推播通知 {#send-push}
 
 ## 預覽推播通知 {#preview-push}
 
-定義訊息內容後，您就可以使用測試設定檔進行預覽及測試。如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
+定義訊息內容後，您就可以使用測試設定檔來預覽其內容。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
 
-1. 按一下 **[!UICONTROL 模擬內容]**.
+若要這麼做，請按一下 **[!UICONTROL 模擬內容]** 然後新增測試設定檔。 然後，您可以選取要預覽內容的裝置型別： **[!UICONTROL iOS]** 或 **[!UICONTROL Android]**.
 
-1. 按一下 **[!UICONTROL 管理測試設定檔]** 以新增測試設定檔。
+![](assets/push_preview_3.png)
 
-1. 使用尋找您的測試設定檔 **[!UICONTROL 身分名稱空間]** 和 **[!UICONTROL 身分值]** 欄位。 然後，按一下 **[!UICONTROL 新增設定檔]**.
-
-   ![](assets/push_preview_1.png)
-
-1. 選取測試設定檔後，您可以關閉 **[!UICONTROL 新增測試設定檔]** 視窗。
-
-1. 從 **預覽和測試** 視窗中，測試設定檔資料會新增至訊息內容。
-
-   選取要預覽內容的裝置型別： **[!UICONTROL iOS]** 或 **[!UICONTROL Android]**.
-
-   ![](assets/push_preview_3.png)
+有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱 [內容管理](../content-management/preview-test.md) 區段。
 
 ## 驗證推播通知 {#push-validate}
-
 
 您必須檢查編輯器上半區段的警示。 其中一些是簡單的警告，但其他警告可能會阻止您傳送訊息。 可能會發生兩種型別的警報：警告和錯誤。
 

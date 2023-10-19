@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: f63f9d6ffd28d276f8a3dadbf8dc6b947b8331e7
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1106'
 ht-degree: 12%
 
 ---
@@ -164,21 +164,17 @@ ht-degree: 12%
 
 您可以測試任何電子郵件內容範本的轉譯，不論是從草稿建立還是從電子郵件建立。 若要執行此操作，請遵循下列步驟。
 
->[!CAUTION]
->
->若要模擬內容，您必須具備 **[!DNL Manage Simulate Content]** 許可權包含在 **[!DNL Content Library Manager]** 產品設定檔。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
-
 1. 透過存取內容範本清單 **[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]** 選單並選取任何範本。
 
 1. 按一下 **[!UICONTROL 編輯內容]** 從 **[!UICONTROL 範本屬性]**.
 
-1. 按一下 **[!UICONTROL 模擬內容]** 並選取測試設定檔，以檢查您的電子郵件呈現。 您可以選擇桌面或行動檢視。[了解更多](../email/preview.md)
+1. 按一下 **[!UICONTROL 模擬內容]** 並選取測試設定檔，以檢查您的電子郵件呈現。 您可以選擇桌面或行動檢視。[了解更多](../content-management/preview-test.md)
 
    ![](../email/assets/content-template-stimulate.png)
 
 1. 您可以傳送校樣以測試您的內容，並在將其用於歷程或行銷活動之前，先由內部使用者核准。
 
-   * 若要這麼做，請按一下 **[!UICONTROL 傳送證明]** 按鈕並遵循中所述的步驟 [本節](../email/preview.md#send-proofs).
+   * 若要這麼做，請按一下 **[!UICONTROL 傳送證明]** 按鈕並遵循中所述的步驟 [本節](../content-management/proofs.md).
 
    * 在傳送校樣之前，您必須選取 [電子郵件表面](../configuration/channel-surfaces.md) 這些將用於測試您的內容。
 
@@ -186,7 +182,7 @@ ht-degree: 12%
 
 >[!CAUTION]
 >
->測試電子郵件內容範本時目前不支援追蹤，這表示追蹤事件、UTM引數和登入頁面連結將在從範本傳送的校樣中無效。 若要測試追蹤， [使用內容範本](../email/use-email-templates.md) 在電子郵件和 [傳送證明](../email/preview.md#send-proofs).
+>測試電子郵件內容範本時目前不支援追蹤，這表示追蹤事件、UTM引數和登入頁面連結將在從範本傳送的校樣中無效。 若要測試追蹤， [使用內容範本](../email/use-email-templates.md) 在電子郵件和 [傳送證明](../content-management/preview-test.md#send-proofs).
 
 ## 操作說明影片 {#video-templates}
 

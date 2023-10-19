@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 64c255eb6bb4712d79547ae47fd1dc6f8b1e9089
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 98%
+source-wordcount: '1686'
+ht-degree: 95%
 
 ---
 
@@ -195,7 +195,6 @@ ht-degree: 98%
          + [編輯背景設定](using/email/backgrounds.md)
          + [調整垂直對齊與邊框間距](using/email/alignment-and-padding.md)
          + [加入內嵌樣式屬性](using/email/inline-styling.md)
-   + [預覽和測試您的電子郵件](using/email/preview.md)
    + [使用 Experience Manager 範本](using/email/aem-templates.md)
    + [管理電子郵件選擇退出](using/email/email-opt-out.md)
    + 設定電子郵件頻道 {#configure-email}
@@ -206,12 +205,12 @@ ht-degree: 98%
    + [應用程式內頻道先決條件](using/in-app/inapp-configuration.md)
    + [建立應用程式內訊息](using/in-app/create-in-app.md)
    + [設計您的應用程式內內容](using/in-app/design-in-app.md)
-   + [測試並傳送您的應用程式內通知](using/in-app/send-in-app.md)
+   + [檢查並傳送您的應用程式內通知](using/in-app/send-in-app.md)
 + 推播通知頻道{#push}
    + [開始使用推播通知](using/push/get-started-push.md)
    + [建立推播通知](using/push/create-push.md)
    + [設計推播通知](using/push/design-push.md)
-   + [傳送推播通知](using/push/send-push.md)
+   + [檢查並傳送推播通知](using/push/send-push.md)
    + 設定推播通知{#push-config}
       + [推播通知流量](using/push/push-gs.md)
       + [設定推播通知頻道](using/push/push-configuration.md)
@@ -219,14 +218,14 @@ ht-degree: 98%
 + 簡訊頻道{#sms}
    + [開始使用簡訊](using/sms/get-started-sms.md)
    + [建立簡訊訊息](using/sms/create-sms.md)
-   + [預覽和測試您的 SMS](using/sms/send-sms.md)
+   + [檢查並傳送簡訊](using/sms/send-sms.md)
    + [管理簡訊選擇退出](using/sms/sms-opt-out.md)
    + [設定簡訊頻道](using/sms/sms-configuration.md)
    + [設定 SMS 子網域](using/sms/sms-subdomains.md)
 + 直接郵件 {#direct-mail}
    + [開始使用直接郵件](using/direct-mail/get-started-direct-mail.md)
    + [建立直接郵件](using/direct-mail/create-direct-mail.md)
-   + [測試並傳送直接郵件訊息](using/direct-mail/test-send-direct-mail.md)
+   + [檢查並傳送直接郵件訊息](using/direct-mail/test-send-direct-mail.md)
    + [設定直接郵件](using/direct-mail/direct-mail-configuration.md)
 + 網路頻道 {#web}
    + [開始使用網路頻道](using/web/get-started-web.md)
@@ -258,14 +257,15 @@ ht-degree: 98%
       + [設定登陸頁面子網域](using/landing-pages/lp-subdomains.md)
       + [定義登陸頁面預設集](using/landing-pages/lp-presets.md)
 + 內容管理 {#content-management}
-   + [使用 Assets Essentials](using/content-management/assets-essentials.md)
-   + [使用 Adobe Stock](using/content-management/stock.md)
    + 使用內容助理{#content-assistant}
       + [開始使用內容助理](using/content-management/gs-generative.md)
       + [內容產生](using/content-management/generative-content.md)
       + [影像產生](using/content-management/generative-image.md)
    + 使用多語言內容{#content-multilingual}
       + [建立多語言內容](using/content-management/multilingual-manual.md)
+   + 資產/影像 {#assets-images}
+      + [使用 Assets Essentials](using/content-management/assets-essentials.md)
+      + [使用 Adobe Stock](using/content-management/stock.md)
    + 個人化 {#personalization}
       + [開始使用個人化](using/personalization/personalize.md)
       + [個人化內容](using/personalization/personalization-contexts.md)
@@ -297,6 +297,12 @@ ht-degree: 98%
       + [開始使用動態內容](using/personalization/get-started-dynamic-content.md)
       + [建立條件式規則](using/personalization/create-conditions.md)
       + [建立動態內容](using/personalization/dynamic-content.md)
+   + 預覽和測試您的內容 {#preview-test}
+      + [開始預覽和測試](using/content-management/preview-test.md)
+      + [選取測試設定檔](using/content-management/test-profiles.md)
+      + [預覽您的內容](using/content-management/preview.md)
+      + [傳送電子郵件校樣](using/content-management/proofs.md)
+      + [測試電子郵件轉譯](using/content-management/rendering.md)
 + 對象、設定檔與身分{#audiences-profiles-identities}
    + 對象 {#audiences}
       + [開始使用 Audiences](using/audience/about-audiences.md)

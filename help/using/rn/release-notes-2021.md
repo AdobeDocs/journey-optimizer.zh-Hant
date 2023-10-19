@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 88%
@@ -275,7 +275,7 @@ ht-degree: 88%
 
 **內容設計**
 
-* **背景**  - 即時預覽現在支援背景影像。 [進一步了解](../email/preview.md)
+* **背景**  - 即時預覽現在支援背景影像。 [進一步了解](../content-management/preview-test.md)
 * **一鍵選擇退出的連結**  - 您可以在電子郵件內容中插入新類型的連結：**選擇退出**&#x200B;連結可讓使用者只要按一下即可取消訂閱接收您的通訊，無須重新導向至登陸頁面以確認選擇退出。 [進一步了解](../privacy/opt-out.md#one-click-opt-out-link)
 
 **個人化**
@@ -350,9 +350,9 @@ ht-degree: 88%
 
 **預覽和測試**
 
-* 身分和名稱空間現在會顯示在 **[!UICONTROL 預覽]** 畫面。 [閱讀全文](../email/preview.md#preview-your-messages)
+* 身分和名稱空間現在會顯示在 **[!UICONTROL 預覽]** 畫面。 [閱讀全文](../content-management/preview-test.md#preview-your-messages)
 * 校樣的測試電子郵件數目現在限制為 10 則。
-* 已在校樣中限制&#x200B;**主旨行首碼** 允許的字元。 [閱讀全文](../email/preview.md#send-proofs)
+* 已在校樣中限制&#x200B;**主旨行首碼** 允許的字元。 [閱讀全文](../content-management/preview-test.md#send-proofs)
 
 **個人化運算式編輯器**
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 內容，編輯器，電子郵件，開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 57%
+source-wordcount: '667'
+ht-degree: 55%
 
 ---
 
@@ -116,9 +116,8 @@ ht-degree: 57%
    >
    >切換到程式碼編輯器後，您無法恢復到此電子郵件的視覺化設計工具。
 
-1. 內容準備就緒後，請按一下 **[!UICONTROL 模擬內容]** 按鈕以檢查轉譯。 您可以選擇桌面或行動檢視。[進一步了解如何預覽您的電子郵件](preview.md)
+1. 內容準備就緒後，請按一下 **[!UICONTROL 模擬內容]** 按鈕以檢查轉譯。 您可以選擇桌面或行動檢視。有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱 [內容管理](../content-management/preview-test.md) 區段。
 
    ![](assets/email_designer_simulate_content.png)
 
 1. 當您的內容準備就緒時，請按一下 **[!UICONTROL 儲存]**.
-

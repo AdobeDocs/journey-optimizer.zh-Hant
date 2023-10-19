@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，動態，內容
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 9%
@@ -42,7 +42,7 @@ Adobe Journey Optimizer可讓您善用程式庫中建立的條件規則，將動
 
    ![](assets/conditions-language-sample.png)
 
-1. 內容準備就緒後，您可使用 **[!UICONTROL 模擬內容]** 按鈕。 [瞭解如何測試和預覽訊息](../email/preview.md)
+1. 內容準備就緒後，您可使用 **[!UICONTROL 模擬內容]** 按鈕。 [瞭解如何測試和預覽訊息](../content-management/preview-test.md)
 
    ![](assets/conditions-preview.png)
 

@@ -1,40 +1,30 @@
 ---
-title: 測試並傳送直接郵件訊息
-description: 瞭解如何在Journey Optimizer中測試和傳送直接郵件訊息
+title: 檢查並傳送直接郵件訊息
+description: 瞭解如何在Journey Optimizer中檢查並傳送直接郵件訊息
 feature: Direct Mail, Test Profiles, Preview
 topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 13%
+source-wordcount: '429'
+ht-degree: 12%
 
 ---
 
-# 測試並傳送直接郵件訊息 {#direct-mail-test-send}
+# 檢查並傳送直接郵件訊息 {#direct-mail-test-send}
 
 ## 預覽解壓縮檔案 {#preview-dm}
 
 定義解壓縮檔案的內容後，您就可以使用測試設定檔來預覽。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
 
-1. 在擷取檔案內容設定畫面中，按一下 **[!UICONTROL 模擬內容]**.
+若要這麼做，請按一下 **[!UICONTROL 模擬內容]** 然後新增測試設定檔，以使用測試設定檔資料檢查擷取檔案的呈現方式。
 
-   ![](assets/direct-mail-simulate-button.png){width="800" align="center"}
+![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-1. 按一下 **[!UICONTROL 管理測試設定檔]** 以新增測試設定檔。
-
-1. 使用尋找您的測試設定檔 **[!UICONTROL 身分名稱空間]** 和 **[!UICONTROL 身分值]** 欄位。 然後，按一下 **[!UICONTROL 新增設定檔]**.
-
-   ![](assets/direct-mail-test-profile.png){width="800" align="center"}
-
-1. 選取測試設定檔後，您可以關閉 **[!UICONTROL 新增測試設定檔]** 視窗。
-
-1. 從 **預覽和測試** 視窗中，測試設定檔資料會新增至擷取檔案內容，讓您預覽檔案的呈現方式。
-
-   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱 [內容管理](../content-management/preview-test.md) 區段。
 
 一旦檔案內容準備好要傳送，請關閉模擬畫面，然後按一下 **[!UICONTROL 檢閱以啟動]** 按鈕。
 

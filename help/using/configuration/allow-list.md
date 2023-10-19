@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 允許清單，清單，安全，設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 14%
@@ -74,7 +74,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->啟用時，允許清單功能在執行歷程時執行，也可以在測試訊息時使用 [校樣](../email/preview.md#send-proofs) 並使用測試歷程 [測試模式](../building-journeys/testing-the-journey.md).
+>啟用時，允許清單功能在執行歷程時執行，也可以在測試訊息時使用 [校樣](../content-management/proofs.md) 並使用測試歷程 [測試模式](../building-journeys/testing-the-journey.md).
 
 ## 停用允許清單 {#deactivate-allow-list}
 

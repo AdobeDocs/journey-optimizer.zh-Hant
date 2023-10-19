@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面，建立，發佈
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 53d2d09342979d8f277d1be9f2f72da067dc1763
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1785'
 ht-degree: 24%
 
 ---
@@ -237,7 +237,7 @@ ht-degree: 24%
 
    ![](assets/lp_test-profiles.png)
 
-   選取測試設定檔的步驟與測試訊息時相同。 其詳細資訊請參閱 [本節](../email/preview.md#select-test-profiles).
+   選取測試設定檔的步驟與測試訊息時相同。 在中會詳細說明這些步驟 [內容管理](../content-management/test-profiles.md) 區段。
 
 1. 選取 **[!UICONTROL 開啟預覽]** 以測試您的登入頁面。
 

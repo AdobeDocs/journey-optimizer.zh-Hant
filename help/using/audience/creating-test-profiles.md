@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 建立測試設定檔 {#create-test-profiles}
 
-使用時，需要測試設定檔 [測試模式](../building-journeys/testing-the-journey.md) 在歷程中，以及 [預覽和測試您的內容](../email/preview.md).
+使用時，需要測試設定檔 [測試模式](../building-journeys/testing-the-journey.md) 在歷程中，以及 [預覽和測試您的內容](../content-management/preview-test.md).
 
 建立測試設定檔有數種方式。 您可以在此頁面中找到下列詳細資訊：
 

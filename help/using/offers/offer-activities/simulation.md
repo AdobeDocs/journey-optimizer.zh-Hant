@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 13%
@@ -85,8 +85,6 @@ ht-degree: 13%
    >選取的設定檔仍會列為測試設定檔在 **[!UICONTROL 模擬]** 以標籤從一個工作階段移至另一個工作階段，直到使用將其移除 **[!UICONTROL 管理設定檔]**.
 
 1. 您可以按一下 **[!UICONTROL 設定檔詳細資料]** 顯示所選設定檔資料的連結。
-
-<!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
 ## 新增決定範圍 {#add-decision-scopes}
 

@@ -1,0 +1,48 @@
+---
+title: 傳送電子郵件校樣
+description: 瞭解如何傳送電子郵件校樣。
+feature: Preview, Proofs
+role: User
+level: Beginner
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 3%
+
+---
+
+# 傳送電子郵件校樣 {#send-proofs}
+
+校樣是一種特定訊息，可讓您在將訊息傳送給主要對象之前先測試訊息。 校樣的收件者負責核准訊息：轉譯、內容、個人化設定、設定。
+
+一次 [測試設定檔](test-profiles.md) ，即可傳送校樣。
+
+1. 在 **[!UICONTROL 模擬]** 熒幕，按一下 **[!UICONTROL 傳送證明]** 按鈕。
+
+   ![](../email/assets/send-proof-button.png)
+
+1. 從 **[!UICONTROL 傳送證明]** 視窗，輸入收件者的電子郵件並按一下 **[!UICONTROL 新增]** 以傳送證明給您自己或您組織的成員。
+
+   請注意，您最多可以為校樣傳遞新增10個收件者。
+
+   ![](../email/assets/send-proof-add.png)
+
+1. 選取 **測試設定檔** 以使用個人化訊息內容。
+
+   每個校樣收件者收到的訊息數量與所選測試設定檔數量相同。 例如，如果您新增了5封收件者電子郵件並選取了10個測試設定檔，您將會傳送50封校樣訊息，而每位收件者都會收到其中10封。
+
+1. 如有需要，您可以在校樣的主旨行新增前置詞。 僅限英數字元和特殊字元，例如。- _ ( ) [ ] 允許作為主旨行的前置詞。
+
+1. 按一下 **[!UICONTROL 傳送證明]**.
+
+   ![](../email/assets/send-proof-select.png)
+
+1. 返回 **[!UICONTROL 模擬]** 熒幕，按一下  **[!UICONTROL 檢視校樣]** 按鈕以檢查狀態。
+
+   ![](../email/assets/send-proof-view.png)
+
+建議在每次修改訊息內容後傳送校樣。
+
+>[!NOTE]
+>
+>在傳送的校樣中，指向映象頁面的連結未啟用。 它僅在最終訊息中啟用。

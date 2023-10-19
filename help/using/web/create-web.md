@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 18%
+source-wordcount: '832'
+ht-degree: 17%
 
 ---
 
@@ -86,28 +86,19 @@ ht-degree: 18%
 >title="預覽您的網頁體驗"
 >abstract="取得您的網頁體驗的模擬。"
 
-一旦您 [已撰寫您的網頁體驗](edit-web-content.md) 使用網頁設計工具，您可以在啟用行銷活動之前顯示修改後網頁的預覽。 若要執行此操作，請遵循下列步驟。
+一旦您 [已撰寫您的網頁體驗](edit-web-content.md) 使用網頁設計工具，您可以使用測試設定檔來預覽您修改的網頁。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容的顯示方式。
 
->[!CAUTION]
+若要這麼做，請按一下 **[!UICONTROL 模擬內容]** 從web campaign編輯內容畫面或網頁設計工具，然後新增測試設定檔，以使用測試設定檔資料檢查網頁。
+
+![](assets/web-designer-preview.png)
+
+您也可以在預設瀏覽器中開啟測試網址，或複製測試URL以貼到任何瀏覽器中。 這可讓您與團隊和利害關係人共用連結，這些利害關係人將能夠在行銷活動上線之前在任何瀏覽器中預覽新的網頁體驗。
+
+>[!NOTE]
 >
->您必須有可用的測試設定檔，以模擬將傳送給他們的優惠。 瞭解如何 [建立測試設定檔](../audience/creating-test-profiles.md).
+>複製測試URL時，顯示的內容是在中產生內容模擬時所使用的測試設定檔的個人化內容 [!DNL Journey Optimizer].
 
-1. 從網站行銷活動編輯內容畫面或網站設計工具中，選取 **[!UICONTROL 模擬內容]**.
-
-   <!--![](assets/web-designer-simulate.png)-->
-
-   ![](assets/web-campaign-simulate.png)
-
-1. 按一下 **[!UICONTROL 管理測試設定檔]** 以選取一或多個測試設定檔。
-1. 系統會顯示已修改網頁的預覽。
-
-   ![](assets/web-designer-preview.png)
-
-1. 您也可以在預設瀏覽器中開啟測試網址，或複製測試URL以貼到任何瀏覽器中。 這可讓您與團隊和利害關係人共用連結，這些利害關係人將能夠在行銷活動上線之前在任何瀏覽器中預覽新的網頁體驗。
-
-   >[!NOTE]
-   >
-   >複製測試URL時，顯示的內容是在中產生內容模擬時所使用的測試設定檔的個人化內容 [!DNL Journey Optimizer].
+有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱 [內容管理](../content-management/preview-test.md) 區段。
 
 ## 啟動網站行銷活動 {#activate-web-campaign}
 

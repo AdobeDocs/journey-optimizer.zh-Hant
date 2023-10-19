@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 建立，電子郵件，開始，歷程，行銷活動
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 9%
+source-wordcount: '916'
+ht-degree: 8%
 
 ---
 
@@ -146,11 +146,15 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >
 >若要能夠使用電子郵件測試或啟動歷程/行銷活動，您必須解決所有 **錯誤** 警報。
 
-## 預覽並傳送您的電子郵件
+## 檢查並傳送您的電子郵件
 
-定義訊息內容後，您可以預覽該內容，以控制電子郵件的呈現，並使用測試設定檔檢查個人化設定。 [了解更多](preview.md)
+定義訊息內容後，您就可以使用測試設定檔來預覽、傳送校樣並控制它在熱門案頭、行動裝置和網頁型使用者端中的轉譯。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
+
+若要這麼做，請按一下 **[!UICONTROL 模擬內容]** 然後新增測試設定檔，以使用測試設定檔資料檢查您的訊息。
 
 ![](assets/email_designer_edit_simulate.png)
+
+有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱 [內容管理](../content-management/preview-test.md) 區段。
 
 當您的電子郵件準備就緒時，請完成 [歷程](../building-journeys/journey-gs.md) 或 [行銷活動](../campaigns/create-campaign.md)，並啟用它以傳送訊息。
 

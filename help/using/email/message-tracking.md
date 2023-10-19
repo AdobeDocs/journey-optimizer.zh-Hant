@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 36%
@@ -135,7 +135,7 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->在 [證明](preview.md#send-proofs) 傳送至測試設定檔，則映象頁面的連結未啟用。 它僅在最終訊息中啟用。
+>在 [證明](../content-management/proofs.md) 傳送至測試設定檔，則映象頁面的連結未啟用。 它僅在最終訊息中啟用。
 
 映象頁面的保留期為60天。 經過此延遲後，將無法再使用映象頁面。
 
@@ -186,4 +186,4 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->若要驗證最終URL，您可以 [傳送證明](preview.md#send-proofs) 和收到校樣後，按一下電子郵件內容中的連結。 URL應顯示追蹤引數。 在上述範例中，最終URL將為： <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+>若要驗證最終URL，您可以 [傳送證明](../content-management/preview-test.md#send-proofs) 和收到校樣後，按一下電子郵件內容中的連結。 URL應顯示追蹤引數。 在上述範例中，最終URL將為： <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>

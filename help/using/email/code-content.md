@@ -9,7 +9,7 @@ role: User
 level: Intermediate, Experienced
 keywords: 程式碼、HTML、編輯器
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 67%
@@ -44,7 +44,7 @@ ht-degree: 67%
    >
    >此動作會在電子郵件設計工具中開啟選取的範本。從那裡，您可以完成電子郵件的設計，或者使用「**[!UICONTROL 切換到程式碼編輯器]**」選項回到程式碼編輯器。
 
-1. 按一下 **[!UICONTROL 預覽]** 按鈕以使用測試設定檔檢查訊息設計和個人化。 [了解更多](preview.md)
+1. 按一下 **[!UICONTROL 預覽]** 按鈕以使用測試設定檔檢查訊息設計和個人化。 [了解更多](../content-management/preview-test.md)
 
    ![](assets/code-editor-preview.png)
 
