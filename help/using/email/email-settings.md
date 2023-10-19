@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: aa71769719dce607e5392c9d8167f3afe3884d5f
+source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
 workflow-type: tm+mt
 source-wordcount: '2340'
 ht-degree: 12%
@@ -123,10 +123,7 @@ ht-degree: 12%
 
 * **[!UICONTROL 錯誤電子郵件]**：在此地址上接收ISP在傳送郵件幾天後產生的所有錯誤（非同步退信）。 也會在此地址接收郵件答錄機通知和挑戰回應。
 
-  >[!NOTE]
-  >
-  >如果您想要在未委派給Adobe的特定電子郵件地址上接收休假通知和挑戰回應，您需要設定 [轉寄處理序](#forward-email). 在此情況下，請確定您有手動或自動化的解決方案來處理傳入此收件匣的電子郵件。
-
+  如果您想要在未委派給Adobe的特定電子郵件地址上接收休假通知和挑戰回應，您需要設定 [轉寄處理序](#forward-email). 在此情況下，請確定您有手動或自動化的解決方案來處理傳入此收件匣的電子郵件。
 
 >[!CAUTION]
 >
