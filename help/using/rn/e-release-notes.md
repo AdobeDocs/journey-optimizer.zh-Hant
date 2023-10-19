@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 62f3836494ae40cb4676f3e62ad4c8de2daa3ed9
+source-git-commit: b5d489779b150bdd3b9d7382b5710f7430620233
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '414'
 ht-degree: 24%
 
 ---
@@ -31,24 +31,6 @@ ht-degree: 24%
 
 此發行版本提供下列新功能。
 
-
-<table>
-<thead>
-<tr>
-<th><strong>簡訊中的多媒體訊息服務(MMS) （測試版）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>透過SMS通道，您現在可以傳送多媒體訊息服務(MMS)訊息，以便與客戶共用影像、GIF或視訊，藉此增強通訊。 請注意，此功能目前僅適用於Beta版的Sinch。</p>
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
-
-
 <table>
 <thead>
 <tr>
@@ -66,7 +48,38 @@ ht-degree: 24%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>在歷程中撰寫的對象</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以在歷程中使用構成工作流程中建立的對象來鎖定客戶。 發佈對象構成並儲存對象後，使用讀取對象活動在您的歷程畫布中選取這個新對象。</p>
+<!--img src="assets/channel-reports.png"/-->
+<p>如需詳細資訊，請參閱<a href="../audience/get-started-audience-orchestration.md">詳細文件</a>。</p>
+</tr>
+</tbody>
+</table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>簡訊中的多媒體訊息服務(MMS) （測試版）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>透過SMS通道，您現在可以傳送多媒體訊息服務(MMS)訊息，以便與客戶共用影像、GIF或視訊，藉此增強通訊。 請注意，此功能目前僅適用於Beta版的Sinch。</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 ### 改進項目 {#oct-2023-improvements}
 
@@ -75,7 +88,6 @@ ht-degree: 24%
 **對象**
 
 * 您現在可以將從CSV檔案上傳的受眾鎖定在歷程和行銷活動中。
-* 您現在可以在您的歷程中鎖定由構成工作流程產生的對象。
 
 **電子郵件的垃圾郵件評分**
 
