@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: bf85321377568aae1d28de8cd494d91d9eac601e
+source-git-commit: 1c7c854d9a9a316890380d9ff84de1d6b739b006
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 24%
+source-wordcount: '364'
+ht-degree: 27%
 
 ---
 
@@ -48,21 +48,21 @@ ht-degree: 24%
 </tbody>
 </table>
 
-<table>
+<!-- table>
 <thead>
 <tr>
-<th><strong>在歷程中撰寫的對象</strong><br/></th>
+<th><strong>Composed audiences in journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在歷程中使用構成工作流程中建立的對象來鎖定客戶。 發佈對象構成並儲存對象後，使用讀取對象活動在您的歷程畫布中選取這個新對象。</p>
+<p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
 <!--img src="assets/channel-reports.png"/-->
 <p>如需詳細資訊，請參閱<a href="../audience/get-started-audience-orchestration.md">詳細文件</a>。</p>
 </tr>
 </tbody>
-</table>
+&lt;/table --&gt;
 
 
 <table>
