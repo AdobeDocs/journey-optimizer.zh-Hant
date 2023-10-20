@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 70e507337c3eef1718de21c3c0199bda1b92db69
+source-git-commit: be1d0fef5e10073553a7437671820314923e0f25
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 28%
+source-wordcount: '296'
+ht-degree: 33%
 
 ---
 
@@ -63,23 +63,6 @@ ht-degree: 28%
 </tr>
 </tbody>
 &lt;/table --&gt;
-
-
-<table>
-<thead>
-<tr>
-<th><strong>簡訊中的多媒體訊息服務(MMS) （測試版）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>透過SMS通道，您現在可以傳送多媒體訊息服務(MMS)訊息，以便與客戶共用影像、GIF或視訊，藉此增強通訊。 請注意，此功能目前僅適用於Beta版的Sinch。</p>
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
 
 ### 改進項目 {#oct-2023-improvements}
 
