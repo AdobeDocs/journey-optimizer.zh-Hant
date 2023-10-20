@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1c7c854d9a9a316890380d9ff84de1d6b739b006
+source-git-commit: 70e507337c3eef1718de21c3c0199bda1b92db69
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 27%
+source-wordcount: '343'
+ht-degree: 28%
 
 ---
 
@@ -104,10 +104,6 @@ ht-degree: 27%
 **歷程**
 
 * 您可在等待活動中定義的持續時間上限現在是29天，而不是30天。
-
-**登陸頁面**
-
-* 使用登入頁面表單元件時，您現在可以新增具有自己特定選項的電子郵件欄位。
 
 **頻道設定中的同意**
 
