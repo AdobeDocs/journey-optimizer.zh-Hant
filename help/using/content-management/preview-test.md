@@ -4,10 +4,10 @@ description: 瞭解如何預覽和測試您的內容。
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 3%
+source-wordcount: '308'
+ht-degree: 1%
 
 ---
 
@@ -15,8 +15,13 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
->title="預覽和測試您的訊息"
->abstract="定義訊息內容後，您就可以使用測試設定檔來預覽其內容。"
+>title="檢查內容的呈現方式"
+>abstract="定義內容後，您可以使用測試設定檔來預覽內容，並根據您使用的管道來檢查轉譯是否正確。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_preview_simulate"
+>title="檢查內容的呈現方式"
+>abstract="定義內容後，您可以預覽內容，並根據您使用的管道檢查轉譯是否正確。"
 
 ## 關於內容預覽和測試 {#about}
 
