@@ -9,14 +9,29 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 17%
+source-wordcount: '393'
+ht-degree: 12%
 
 ---
 
 # 集合 {#collections}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_collections"
+>title="建立集合"
+>abstract="集合可讓您根據偏好設定將決策專案分類及分組。 這些類別是透過精心設計利用決策專案屬性的規則所建立。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_collection_rules"
+>title="定義集合的規則"
+>abstract="新增一或多個規則以決定要包含在集合中的專案。 選擇要作為條件的料號屬性。 選取所需的運運算元，並輸入篩選依據的值。 視需要新增任意數量的規則。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_strategy_collection"
+>title="選擇集合"
+>abstract="選取包含要考量之優惠方案的集合。 建立選取策略時，此步驟是必要步驟。 集合可讓您根據偏好設定將決策專案分類及分組。 例如，您可以建立包含所有決定專案的集合，這些專案具有「類別」自訂屬性中的「瑜伽」值。"
 
 >[!BEGINSHADEBOX]
 

@@ -9,14 +9,19 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 17%
+source-wordcount: '323'
+ht-degree: 15%
 
 ---
 
 # 決定規則 {#rules}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_config_rules"
+>title="建立決定規則"
+>abstract="決定規則可讓您透過直接在決定專案層級或特定選取策略中套用限制，來定義決定專案的對象。 這可讓您精確控制應該向誰展示哪些專案。"
 
 >[!BEGINSHADEBOX]
 

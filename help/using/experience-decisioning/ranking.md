@@ -9,14 +9,19 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 25%
+source-wordcount: '229'
+ht-degree: 21%
 
 ---
 
 # 排名方法 {#rankings}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_config_formulas"
+>title="建立排名公式"
+>abstract="公式可讓您定義規則，以決定應先顯示哪個專案，而不是考慮專案的優先順序分數。 建立排名方法後，您可以將其指派給決定策略，以定義應先選取哪些專案。"
 
 >[!BEGINSHADEBOX]
 
