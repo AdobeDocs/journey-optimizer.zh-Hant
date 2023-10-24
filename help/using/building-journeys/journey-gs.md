@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1727'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="建立歷程"
->abstract="使用 **Adobe Journey Optimizer** 可讓您善用儲存在事件或資料來源中的內容資料，建置即時協調流程使用案例。"
+>abstract="使用 **Adobe Journey Optimizer** 可讓您善用儲存在事件或資料來源中的內容關聯式資料，建置即時協調流程使用案例。"
 
 ## 先決條件{#start-prerequisites}
 
@@ -48,7 +48,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="歷程"
->abstract="設計客戶歷程提供個人化的情境式體驗。 Journey Optimizer可讓您利用儲存在事件或資料來源中的情境資料，建立即時協調使用案例。 此 **概觀** 索引標籤會顯示控制面板，其中包含與您的歷程相關的關鍵量度。 此 **瀏覽** 索引標籤會顯示現有歷程的清單。"
+>abstract="設計客戶歷程提供個人化的情境式體驗。 Journey Optimizer 可讓您利用儲存在事件或資料來源中的內容關聯式資料，建立即時協調流程使用案例。**概觀**&#x200B;標籤會顯示儀表板，其中包含與您的歷程相關的關鍵量度。**瀏覽**&#x200B;標籤會顯示現有歷程的清單。"
 
 在歷程管理功能表區段中，按一下 **[!UICONTROL 歷程]**. 有兩個標籤可供使用：
 

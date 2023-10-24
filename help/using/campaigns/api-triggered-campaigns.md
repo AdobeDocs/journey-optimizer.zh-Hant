@@ -12,7 +12,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_api_profile_creation"
 >title="行銷活動類型"
->abstract="若要在不建立設定檔的情況下傳送訊息的可用性限制，請遵循檔案中詳述的步驟。"
+>abstract="關於使用有限可用性功能在不建立設定檔的情況下傳送訊息，請按照文件中詳述的步驟操作。"
 
 ## 關於API觸發的行銷活動 {#about}
 

@@ -12,7 +12,7 @@ exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '961'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acs"
 >title="自訂動作"
->abstract="如果您有Adobe Campaign Standard，則可整合。 這可讓您使用 Adobe Campaign 交易型訊息功能來傳送電子郵件、推播通知及簡訊。"
+>abstract="如果您有 Adobe Campaign Standard，則可整合。這可讓您使用 Adobe Campaign 交易型訊息功能來傳送電子郵件、推播通知及簡訊。"
 
 如果您有Adobe Campaign Standard，則可使用下列內建動作活動： **[!UICONTROL 電子郵件]**， **[!UICONTROL 推播]** 和 **[!UICONTROL 簡訊]**.
 
