@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: be1d0fef5e10073553a7437671820314923e0f25
+source-git-commit: 1b37da28e6dbb03c8c76dd9a6637dfd95447eb7e
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 33%
+source-wordcount: '371'
+ht-degree: 24%
 
 ---
 
@@ -58,11 +58,27 @@ ht-degree: 33%
 <tr>
 <td>
 <p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
-<!--img src="assets/channel-reports.png"/-->
-<p>如需詳細資訊，請參閱<a href="../audience/get-started-audience-orchestration.md">詳細文件</a>。</p>
+<img src="assets/channel-reports.png"/>
+<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-&lt;/table --&gt;
+</table -->
+
+<table>
+<thead>
+<tr>
+<th><strong>簡訊中的多媒體訊息服務(MMS) （測試版）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>透過SMS通道，您現在可以傳送多媒體訊息服務(MMS)訊息，以便與客戶共用影像、GIF或視訊，藉此增強通訊。 請注意，此功能目前僅適用於Beta版的Sinch。</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 ### 改進項目 {#oct-2023-improvements}
 
@@ -71,14 +87,20 @@ ht-degree: 33%
 **對象**
 
 * 您現在可以將從CSV檔案上傳的受眾鎖定在歷程和行銷活動中。
+* 您現在可以鎖定透過對象構成所建立的對象，並在歷程中運用擴充屬性。
 
-**電子郵件的垃圾郵件評分**
+>[!AVAILABILITY]
+>
+>這些功能目前以私人測試版的形式提供。
 
-* 類比電子郵件內容時，新選項可讓您檢查內容對收件匣垃圾郵件篩選的表現。 此功能目前僅向一組客戶建議（可用性限制），並可用於電子郵件頻道。
+<!--
+**Spam scoring for emails**
+
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
 
 **警示**
 
-* 現在提供與Journey Optimizer行銷活動相關的新警報 **警報** 功能表。
+* 當您的其中一個行銷活動發生錯誤時，警告圖示現在會與行銷活動的狀態一起出現在行銷活動清單中。
 
 **行銷活動**
 
@@ -86,8 +108,16 @@ ht-degree: 33%
 
 **歷程**
 
-* 您可在等待活動中定義的持續時間上限現在是29天，而不是30天。
+* 您可在任何等待時間中定義的最長期間現在是29天，而不是30天。 這適用於：
+
+   * 此 **時間長度** 中的欄位 [等待活動](../building-journeys/wait-activity.md)
+   * 此 **重新進入等待期** 在 [歷程屬性](../building-journeys/journey-gs.md#entrance)
+   * 此 **等待** 的逾時定義中的欄位 [一般](../building-journeys/general-events.md#events-specific-time) 和 [反應](../building-journeys/reaction-events.md) 事件。
 
 **頻道設定中的同意**
 
 * 您現在可以在管道表面層級選取行銷動作。 在表面中使用時，會運用與該行銷動作相關的所有同意政策，以尊重客戶的偏好設定。
+
+**決策管理**
+
+* 已更新與決定管理介面中的優惠方案上限相關的幾個標籤。
