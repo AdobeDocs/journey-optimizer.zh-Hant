@@ -10,9 +10,9 @@ level: Beginner
 keywords: 開始使用、開始、內容、實驗
 hide: true
 hidefromtoc: true
-source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
+source-git-commit: 8c95f35049da1b7ced9a5ecd9e267a8847c12481
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1260'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,10 @@ ht-degree: 1%
 
    ![](assets/translation_project_2.png)
 
-1. 選擇您的翻譯是否會在核准後自動發佈，以及您是否要啟用稽核工作流程。
+1. 選擇是否要啟用下列選項：
+
+   * **[!UICONTROL 自動發佈已核准的翻譯]**：在核准翻譯後，這些翻譯會自動整合至行銷活動，無需手動干預。
+   * **[!UICONTROL 啟用稽核工作流程]**：僅適用於人工翻譯的語言環境。 這可讓內部檢閱者有效率地評估及核准或拒絕翻譯的內容。 [了解更多](#review-translation-project)
 
 1. 按一下 **[!UICONTROL 新增地區設定]** 以存取功能表並定義翻譯專案的語言。
 
@@ -87,6 +90,8 @@ ht-degree: 1%
 1. 從清單中選取 **[!UICONTROL 目標地區設定]** 並選擇哪個 **[!UICONTROL 翻譯提供者]** 要用於每個地區設定。
 
 1. 按一下 **[!UICONTROL 新增地區]** 當您完成將Target地區設定連結到正確的翻譯提供者時。 然後，按一下 **[!UICONTROL 儲存]**.
+
+   請注意，如果提供者對於目標地區設定顯示為灰色，表示提供者不支援該特定地區設定。
 
    ![](assets/translation_project_4.png)
 
@@ -192,12 +197,33 @@ ht-degree: 1%
 
 傳送後，您可以在行銷活動報表中測量行銷活動的影響。
 
+## 管理內部翻譯專案 {#manage-ht-project}
+
+如果您在設定語言設定時選取了內部翻譯，則可直接在翻譯專案中翻譯內容。
+
+1. 從您的 **[!UICONTROL 翻譯專案]**，存取 **[!UICONTROL 更多動作]** 功能表並選取 **[!UICONTROL 內部翻譯]**.
+
+   ![](assets/inhouse-translation-1.png)
+
+1. 您可以使用外部翻譯軟體匯出CSV檔案以進行翻譯。 或者，您可以按一下「 」，將CSV檔案匯入回翻譯專案 **[!UICONTROL 匯入CSV]** 按鈕。
+
+   ![](assets/inhouse-translation-3.png)
+
+1. 按一下 **[!UICONTROL 編輯]** 以新增您的翻譯內容。
+
+   ![](assets/inhouse-translation-2.png)
+
+1. 如果您已準備好發佈翻譯的文字，請按一下 **[!UICONTROL 完成]**.
+
 ## 檢閱您的翻譯專案 {#review-translation-project}
 
 如果您已選取 **[!UICONTROL 啟用稽核工作流程]** 在您的 **[!UICONTROL 翻譯專案]**，您可在選取的翻譯提供者完成翻譯後，直接在Journey Optimizer中檢閱翻譯。
-請注意，如果停用此選項，當您的提供者完成翻譯後，翻譯任務狀態會自動設為 **[!UICONTROL 已檢閱]**，按一下「 」即可快速繼續 **[!UICONTROL 傳送至產品]**.
+
+請注意，如果停用此選項，當您的提供者完成翻譯後，翻譯任務狀態會自動設為 **[!UICONTROL 已檢閱]**，按一下「 」即可快速繼續 **[!UICONTROL 發佈]**.
 
 1. 服務供應商提供的翻譯完成後，您即可存取翻譯，以供稽核。 **[!UICONTROL 翻譯專案]** 或直接從您的 **[!UICONTROL Campaign]**.
+
+   從 **[!UICONTROL 更多動作]** 功能表，按一下 **[!UICONTROL 檢閱]**.
 
    ![](assets/translation_review_1.png)
 
@@ -219,7 +245,7 @@ ht-degree: 1%
 
 1. 按一下 **[!UICONTROL 預覽]** 檢查每種語言翻譯內容的轉譯。
 
-1. 在您對翻譯滿意後，請按一下 **[!UICONTROL 完成]**.
+1. 如果您已準備好發佈翻譯的文字，請按一下 **[!UICONTROL 完成]**.
 
    ![](assets/translation_review_5.png)
 
@@ -229,7 +255,7 @@ ht-degree: 1%
 
 1. 一旦您的 **[!UICONTROL 翻譯專案]** 狀態已設為「已檢閱」，您可以將其傳送至您的Campaign。
 
-   在進階功能表中，按一下 **[!UICONTROL 發佈]**.
+   從 **[!UICONTROL 更多動作]** 功能表，按一下 **[!UICONTROL 發佈]**.
 
    ![](assets/translation_review_7.png)
 
