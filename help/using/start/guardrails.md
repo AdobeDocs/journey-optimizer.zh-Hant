@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
+source-git-commit: 59693650e3745471729a2d37998d6622a1a3c521
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 83%
+source-wordcount: '1650'
+ht-degree: 81%
 
 ---
 
@@ -124,7 +124,11 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 * 應用程式內訊息內容大小限制為 2Mb。 包含大型影像可能會阻礙發佈過程。
 
-## 決策管理 {#decision-management}
+## 受眾護欄 {#audience}
+
+* 您可以在指定的沙箱中發佈最多10個對象組合。 如果您達到此臨界值，則需要刪除構成以釋放空間並發佈新構成。
+
+## 決策管理護欄 {#decision-management}
 
 ### 效能護欄 {#performance-guardrails}
 
