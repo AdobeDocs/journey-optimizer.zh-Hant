@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 74a4de20ae14923139cf6bf81676819355944ceb
+source-git-commit: 2776af02e88659a350dfa4126a73106753e079b2
 workflow-type: tm+mt
-source-wordcount: '4605'
+source-wordcount: '4584'
 ht-degree: 91%
 
 ---
@@ -120,10 +120,6 @@ ht-degree: 91%
    * 此 **時間長度** 中的欄位 [等待活動](../building-journeys/wait-activity.md)
    * 此 **重新進入等待期** 在 [歷程屬性](../building-journeys/journey-gs.md#entrance)
    * 此 **等待** 的逾時定義中的欄位 [一般](../building-journeys/general-events.md#events-specific-time) 和 [反應](../building-journeys/reaction-events.md) 事件。
-
-**登陸頁面**
-
-* 使用登入頁面表單元件時，您現在可以新增具有自己特定選項的電子郵件欄位。
 
 **頻道設定中的同意**
 
