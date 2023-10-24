@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1b37da28e6dbb03c8c76dd9a6637dfd95447eb7e
+source-git-commit: 74a4de20ae14923139cf6bf81676819355944ceb
 workflow-type: tm+mt
-source-wordcount: '4606'
+source-wordcount: '4605'
 ht-degree: 91%
 
 ---
@@ -108,13 +108,10 @@ ht-degree: 91%
 
 * When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
 
-**警示**
-
-* 當您的其中一個行銷活動發生錯誤時，警告圖示現在會與行銷活動的狀態一起出現在行銷活動清單中。
-
 **行銷活動**
 
 * 您現在可以停止即時一次性行銷活動，進行修改並再次繼續。 這項改善功能會在Beta版中提供。
+* 當您的其中一個行銷活動發生錯誤時，警告圖示現在會與行銷活動的狀態一起出現在行銷活動清單中。
 
 **歷程**
 
