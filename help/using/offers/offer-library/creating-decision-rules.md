@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 12%
+source-wordcount: '419'
+ht-degree: 13%
 
 ---
 
@@ -25,10 +25,9 @@ ht-degree: 12%
 
 以下是使用決定規則時應留意的限制清單：
 
-* 建立規則時，您可以使用歷史事件，但這些規則的使用時間存在限制。
 * 邊緣決定使用不會儲存事件的邊緣設定檔，因此邊緣決定中使用的任何規則都將無效。
-* 使用優惠決定的歷程不會檢視歷史事件，因此這些規則將無效。
-* 使用中心設定檔的決策請求會檢視設定檔上的最後100個體驗事件，以評估參考歷史體驗事件的規則。
+* 建立決定規則時，不支援回顧過去的一段時間。 例如，如果您將上個月之內發生的體驗事件指定為規則的元件。 在規則建立期間任何包含回顧期間的嘗試，在儲存時會觸發錯誤。
+  <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
 
 ## 建立決定規則 {#create}
 

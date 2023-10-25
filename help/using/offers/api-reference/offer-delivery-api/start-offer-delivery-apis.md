@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '631'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 5%
 您可以使用以下任一專案來傳遞優惠方案： **決策** 或 **邊緣決策** API。 此外， **批次決策** API可讓您透過一次呼叫，將優惠方案傳送給指定對象中的所有設定檔。 對象中每個設定檔的選件內容都會放在Adobe Experience Platform資料集中，可用於自訂批次工作流程。
 
 在此頁面中，您會找到特定功能的相關資訊，這些功能包括 **決策** 和 **邊緣決策** API。 雖然兩者都可讓您為客戶提供優惠方案，我們建議您使用 **邊緣決策** API會儘可能用於傳入使用案例，並確保平台上有更好的延遲和輸送量。
-
 
 如需如何使用API的詳細資訊，請參閱下列章節：
 * [決策 API](decisioning-api.md)
@@ -127,7 +126,6 @@ curl -X GET \
 
 下列功能僅適用於Decisioning API。 如果您需要運用其中一種來滿足需求，請使用決策API。 否則，我們建議使用邊緣決策API。
 
-* **體驗事件**：運用體驗事件來建立您的決策規則。
 * **選件內容和特性**：您可以使用專用選項來選擇不傳回選件的內容和特性。
 * **優惠中繼資料**：啟用傳回選件中繼資料的選項。
 * **合併原則**：在您的請求中使用與沙箱關聯的不同合併原則。
