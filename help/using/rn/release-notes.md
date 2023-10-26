@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
+source-git-commit: 70c82f625903720e81cb73b226aaea98b2eb94b0
 workflow-type: tm+mt
-source-wordcount: '4526'
+source-wordcount: '4525'
 ht-degree: 93%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 93%
 
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
-## 2023年10月早期發行說明 {#oct-rn-2023}
+## 2023年10月發行說明 {#oct-rn-2023}
 
 ### 新功能{#oct-2023-features}
 
