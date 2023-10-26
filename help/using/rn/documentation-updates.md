@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: b2a9a118b663c757a026c62b18e00d1f53e26317
 workflow-type: tm+mt
-source-wordcount: '3956'
-ht-degree: 94%
+source-wordcount: '4011'
+ht-degree: 93%
 
 ---
 
@@ -30,6 +30,10 @@ ht-degree: 94%
 * 「實作單頁應用程式」頁面已移至AdobeExperience Platform Web SDK檔案。 [閱讀全文](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * 「上限」區段已更新，以反映與決定管理介面中的優惠方案上限相關的標籤變更。 [閱讀全文](../offers/offer-library/add-constraints.md#capping)
 * 「將動態內容新增至電子郵件」已更新，其中包含有關如何刪除變體的詳細資訊。 [閱讀全文](../personalization/dynamic-content.md#emails)
+* 上限和節流設定的範例已更新。 [閱讀全文](../configuration/external-systems.md)
+* 已從外部資料來源區段中移除有關純量陣列的限制。 [閱讀全文](../datasource/external-data-sources.md)
+* 多頻道歷程使用案例已更新。 [閱讀全文](../building-journeys/journeys-uc.md)
+* Journey Optimizer檔案集已更新，以反映新的Experience Platform結構描述建立程式。
 
 ## 2023 年 9 月 {#september-2023}
 
