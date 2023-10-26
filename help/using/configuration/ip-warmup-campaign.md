@@ -11,10 +11,10 @@ keywords: IP、集區、傳遞能力
 hide: true
 hidefromtoc: true
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 21%
+source-wordcount: '407'
+ht-degree: 18%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 21%
 
 >[!ENDSHADEBOX]
 
-在中建立IP熱身計畫本身之前 [!DNL Journey Optimizer]，您首先需要建立一或多個已啟用專用選項的行銷活動，以便用於IP熱身計畫。
+在中建立IP熱身計畫本身之前 [!DNL Journey Optimizer]，您首先需要建立一個或多個專門設計用於IP熱身計畫的行銷活動<!--through a dedicated option-->.
 
 若要建立IP熱身行銷活動，請遵循下列步驟。
 
@@ -48,8 +48,9 @@ ht-degree: 21%
    >
    >請與您的傳遞顧問合作，識別要用於IP熱身計畫的網域和IP。<!--TBC-->
 
-1. 建立 [行銷活動](../campaigns/create-campaign.md) 並選取 [電子郵件](../email/create-email.md#create-email-journey-campaign) 動作。
+1. 建立排程行銷 [行銷活動](../campaigns/create-campaign.md) 並選取 [電子郵件](../email/create-email.md#create-email-journey-campaign) 動作。
 
+   <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.>
 1. 選取您為IP預熱建立的曲面。
 
    ![](assets/ip-warmup-campaign-surface.png)
@@ -70,7 +71,7 @@ ht-degree: 21%
    >
    >有關如何設定行銷活動的詳細資訊，請參閱 [此頁面](../campaigns/get-started-with-campaigns.md).
 
-1. [啟動](../campaigns/review-activate-campaign.md) 行銷活動。
+1. [啟動](../campaigns/review-activate-campaign.md) 行銷活動。 其狀態變更為 **[!UICONTROL 即時]**.
 
    >[!NOTE]
    >
@@ -82,4 +83,9 @@ ht-degree: 21%
 
 行銷活動上線後，即準備好用於IP熱身計畫。 [了解更多](ip-warmup-plan.md)
 
-<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
+IP熱身行銷活動只能用於一個IP熱身計畫。 不過，同一IP熱身計畫的一個或多個階段中可以使用相同的行銷活動。 [了解更多](ip-warmup-plan.md#define-phases)
+
+>[!NOTE]
+>
+>當在IP熱身計畫中使用即時行銷活動時，在計畫之後 [標示為已完成](ip-warmup-execution.md#mark-as-completed)，該促銷活動的狀態會變更為 **[!UICONTROL 已停止]**.
+

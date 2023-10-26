@@ -11,9 +11,9 @@ keywords: IP, 傳遞能力
 hide: true
 hidefromtoc: true
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 使用新平台傳送電子郵件時，網際網路服務提供商 (ISP) 會懷疑無法辨識的 IP 位址。 如果突然傳送大量電子郵件，ISP 通常會將其標記為垃圾郵件。
 
-為避免遭標記為垃圾郵件，您可以使用 IP 暖身計劃功能逐步增加傳送量。 這項新選項位於&#x200B;**[!UICONTROL 管理]**&#x200B;功能表，可讓您以整合的方式更輕鬆地操作，而不是建立複雜的每日歷程。 這應該可以確保順利開發暖身階段，並讓您降低整體的無效位址率。
+為避免遭標記為垃圾郵件，您可以使用 IP 暖身計劃功能逐步增加傳送量。 這項新選項位於&#x200B;**[!UICONTROL 管理]**&#x200B;功能表，可讓您以整合的方式更輕鬆地操作，而不是建立複雜的每日歷程。 
 
 >[!NOTE]
 >

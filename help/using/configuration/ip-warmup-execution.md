@@ -11,9 +11,9 @@ keywords: IP、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1730'
 ht-degree: 19%
 
 ---
@@ -61,20 +61,21 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 1. 針對每個階段，選取您要與IP熱身計畫的此階段關聯的促銷活動。
 
+   >[!NOTE]
+   >
+   >您無法選取其他IP熱身計畫中已在使用的行銷活動。 不過，同一IP熱身計畫的一個或多個階段中可以使用相同的行銷活動。
+
    ![](assets/ip-warmup-plan-select-campaign.png)
 
    >[!IMPORTANT]
    >
-   >    * 僅限具有下列專案的行銷活動： **[!UICONTROL IP熱身計畫啟用]** 選項已啟用 <!--and live?--> 可供選取。 [了解更多](#create-ip-warmup-campaign)
+   >* 僅限具有下列專案的行銷活動： **[!UICONTROL IP熱身計畫啟用]** 啟用的選項可供選取。 [了解更多](#create-ip-warmup-campaign)
    >
    >* 您必須選取與為目前IP熱身計畫選取之表面相同的行銷活動。
-   >
-   >* 您無法選取其他IP熱身計畫中已在使用的行銷活動。
-
 
 1. 在 **[!UICONTROL 設定檔排除]** 區段，您可以看到該階段先前執行的設定檔一律被排除。 例如，如果在Run #1中，前4800位目標人物中涵蓋某個設定檔，系統會自動確保相同的設定檔不會在Run #2中收到電子郵件。
 
-1. 從 **[!UICONTROL 已排除行銷活動對象]** 區段，從其他區段選取對象 <!--executed/live?-->您要從目前階段排除的行銷活動。
+1. 從 **[!UICONTROL 已排除行銷活動對象]** 區段，從其他區段選取行銷活動對象 <!--executed/live?-->您要從目前階段排除的行銷活動。
 
    ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
@@ -155,7 +156,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >如果您不想套用 **[!UICONTROL 上次參與]** 引數到目前的執行，設定為0。
+   >如果您不想將任何參與期間套用至執行，請在 **[!UICONTROL 上次參與]** 欄位。
 
 1. 選取 **[!UICONTROL 暫停錯誤]** 在評估該回合的對象後，如果合格的設定檔少於目標的設定檔，則用來取消回合的選項。
 
