@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c4178c9954e94b64954a8631a49dc0cffccbaaee
+source-git-commit: f9cb0156020fbf23a21c8840403230df77fad4a7
 workflow-type: tm+mt
-source-wordcount: '4477'
+source-wordcount: '4438'
 ht-degree: 94%
 
 ---
@@ -94,14 +94,14 @@ ht-degree: 94%
 
 此發行版本隨附下列改進項目。
 
-**對象**
+<!--**Audiences**
 
-* 您現在可以將從CSV檔案上傳的受眾鎖定在歷程和行銷活動中。
-* 您現在可以鎖定透過對象構成所建立的對象，並在歷程中運用擴充屬性。
+* You can now target audiences uploaded from a CSV file into journeys and campaigns.
+* You can now target audiences created through audience composition and leverage enrichment attributes in Journeys. 
 
 >[!AVAILABILITY]
 >
->這些功能目前以私人測試版的形式提供。
+>These capabilities are currently available as a private beta.-->
 
 <!--
 **Spam scoring for emails**
