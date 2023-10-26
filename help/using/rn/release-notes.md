@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ed42c04d8c653226e8512ced761519995ebd72c7
+source-git-commit: c4178c9954e94b64954a8631a49dc0cffccbaaee
 workflow-type: tm+mt
-source-wordcount: '4537'
-ht-degree: 92%
+source-wordcount: '4477'
+ht-degree: 94%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 92%
 
 **行銷活動**
 
-* 您現在可以停止即時一次性行銷活動，進行修改並再次繼續。 這項改善功能會在Beta版中提供。
+<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
 * 當您的其中一個行銷活動發生錯誤時，警告圖示現在會與行銷活動的狀態一起出現在行銷活動清單中。
 
 **歷程**
@@ -121,9 +121,10 @@ ht-degree: 92%
    * 此 **重新進入等待期** 在 [歷程屬性](../building-journeys/journey-gs.md#entrance)
    * 此 **等待** 的逾時定義中的欄位 [一般](../building-journeys/general-events.md#events-specific-time) 和 [反應](../building-journeys/reaction-events.md) 事件。
 
-**頻道設定中的同意**
+<!--
+**Consent in channel configuration**
 
-* 您現在可以在管道表面層級選取行銷動作。 在表面中使用時，會運用與該行銷動作相關的所有同意政策，以尊重客戶的偏好設定。
+* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
 
 **決策管理**
 
