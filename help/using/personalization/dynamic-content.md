@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，動態，內容
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '564'
 ht-degree: 9%
 
 ---
@@ -60,13 +60,13 @@ Adobe Journey Optimizer可讓您善用程式庫中建立的條件規則，將動
 
 在電子郵件設計工具中建立內容元件變體的步驟如下：
 
-1. 在電子郵件設計工具中，選取內容元件，然後按一下 **[!UICONTROL 啟用條件式內容]**.
+1. 在 [電子郵件設計工具](../email/content-from-scratch.md)，選取內容元件，然後按一下 **[!UICONTROL 啟用條件式內容]**.
 
    ![](assets/conditions-enable-conditional.png)
 
 1. 此 **[!UICONTROL 條件式內容]** 窗格會顯示在左側。 在此窗格中，您可以使用條件來建立所選內容元件的多個變體。
 
-   選取以下專案以設定您的第一個變體： **[!UICONTROL 套用條件]** 按鈕。
+   選取以下專案以設定您的第一個變體： **[!UICONTROL 選取條件]** 按鈕。
 
    ![](assets/conditions-apply.png)
 
@@ -76,9 +76,11 @@ Adobe Journey Optimizer可讓您善用程式庫中建立的條件規則，將動
 
    您也可以按一下「 」，建立新規則 **[!UICONTROL 新建]**. [瞭解如何建立條件](create-conditions.md)
 
-1. 條件式規則會與變體相關聯。 為了提高可讀性，建議您按一下橢圓選單來重新命名變體。
+1. 條件式規則會與變體相關聯。 為獲得更好的可讀性，請選取 **[!UICONTROL 重新命名]** 「更多動作」圖示中的動作。
 
-   現在設定在傳送訊息時如果符合規則應如何顯示元件。 在此範例中，如果法文是收件者的慣用語言，我們會想要以法文顯示文字。
+   ![](assets/conditions-rename.png)
+
+1. 設定在傳送訊息時符合規則時元件應如何顯示。 在此範例中，如果法文是收件者的慣用語言，我們會想要以法文顯示文字。
 
    ![](assets/conditions-design.png)
 
@@ -88,3 +90,7 @@ Adobe Journey Optimizer可讓您善用程式庫中建立的條件規則，將動
    >如果傳送訊息時，不符合變體中所定義的任何規則，內容元件將會顯示 **[!UICONTROL 預設變體]**.
    >
    >條件式內容將會以變體的顯示順序，根據關聯的規則進行評估。 如果未符合其他條件，則一律顯示預設變體。
+
+1. 若要刪除變體，請按一下所需變體旁的「更多動作」圖示，然後選取 **[!UICONTROL 刪除]**.
+
+   ![](assets/conditions-delete.png)

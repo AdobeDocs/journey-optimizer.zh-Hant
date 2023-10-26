@@ -9,36 +9,44 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙箱，歷程，複製，環境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 20%
+source-wordcount: '612'
+ht-degree: 7%
 
 ---
 
 # 將歷程複製到另一個沙箱 {#copy-to-sandbox}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
->title="將歷程複製到另一個沙箱"
->abstract="Journey Optimizer 可讓您將整個歷程從一個沙箱複製到另一個沙箱。例如，您可以將歷程從預備沙箱環境複製到生產沙箱。除了歷程本身外，Journey Optimizer 還會複製歷程所依賴的大部分物件。"
+>title="Copy a journey to another sandbox"
+>abstract="Journey Optimizer allows you to copy an entire journey from one sandbox to another. For example, you can copy a journey from the Stage sandbox environment to your Production sandbox. In addition to the Journey itself, Journey Optimizer also copies most of the objects the journey depends on."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
->title="沙箱詳細資料"
->abstract="選取您要將歷程複製過去的目的地沙箱。只能使用您的組織內的沙箱。"
+>title="Sandbox details"
+>abstract="Select the destination sandbox you want to copy the journey to. Only sandboxes within your organization are available."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
->title="物件詳細資料"
->abstract="這是您將要複製的歷程。"
+>title="Object details"
+>abstract="This is the journey you are going to copy."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_dependent_objects"
->title="相依物件"
->abstract="這是歷程中使用的關聯物件清單。此清單會顯示名稱、物件類型以及內部的 Journey Optimizer ID。"
+>title="Dependent objects"
+>abstract="This is the list of associated objects used in the journey. This list displays the name, the object type, as well as the internal Journey Optimizer ID."
+-->
 
-Journey Optimizer 可讓您將整個歷程從一個沙箱複製到另一個沙箱。例如，您可以將歷程從您的中繼沙箱環境複製到生產沙箱。 除了歷程本身，Journey Optimizer也會複製歷程所依賴的大部分物件：對象、表面（即預設集）、結構描述、事件和動作。 有關已複製物件的詳細資訊，請參閱此處 [區段](#limitations).
+沙箱工具可讓您運用套件匯出和匯入，跨多個沙箱複製物件。 封裝可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。
+
+本頁說明Journey Optimizer內容中的沙箱工具使用案例。 有關功能本身的詳細資訊，請參閱 [Experience Platform檔案](https://experienceleague.corp.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
+
+## 開始使用沙箱工具{#sandbox-gs}
+
+Journey Optimizer 可讓您將整個歷程從一個沙箱複製到另一個沙箱。例如，您可以將歷程從您的中繼沙箱環境複製到生產沙箱。 除了歷程本身，Journey Optimizer也會複製歷程所依賴的大部分物件：受眾、結構描述、事件和動作。 有關已複製物件的詳細資訊，請參閱此處 [區段](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
 
 >[!CAUTION]
 >
@@ -46,66 +54,58 @@ Journey Optimizer 可讓您將整個歷程從一個沙箱複製到另一個沙�
 
 目標沙箱中的複製物件是唯一的，沒有覆寫現有元素的風險。 歷程及歷程內的任何訊息都會以草稿模式帶入。 這可讓您在目標沙箱上發佈之前執行徹底驗證。 復製程式只會複製歷程的中繼資料以及該歷程中的物件。 此程式不會複製任何設定檔或資料集資料。
 
+## 匯出歷程 {#export}
+
 若要將歷程複製到另一個沙箱，請執行以下步驟：
 
 1. 在歷程管理功能表區段中，按一下 **[!UICONTROL 歷程]**. 隨即顯示歷程清單。
 
-2. 搜尋您要複製的歷程，按一下 **更多動作** 圖示（歷程名稱旁的三個點）並按一下 **複製到沙箱**.
+1. 搜尋您要複製的歷程，按一下 **更多動作** 圖示（歷程名稱旁的三個點）並按一下 **新增到封裝**.
 
-   ![](assets/copy-sandbox1.png)
+![](assets/journey-sandbox1.png)
 
-   此 **複製到沙箱** 畫面隨即顯示。
+此 **新增到封裝** 視窗隨即顯示。
 
-   ![](assets/copy-sandbox2.png)
+![](assets/journey-sandbox2.png)
 
-3. 選取 **Target沙箱** 從下拉式欄位。 只能使用您的組織內的沙箱。
+1. 選擇您要將歷程新增到現有封裝或建立新封裝：
 
-4. 檢閱 **相依物件** 區段。 這是歷程中使用的關聯物件清單。此清單會顯示名稱、物件類型以及內部的 Journey Optimizer ID。
+   * **現有封裝**：從下拉式選單中選取套件。
+   * **建立新封裝**：輸入套件名稱。 您也可以新增說明。
 
-5. 按一下 **複製** 按鈕來開始將歷程複製到目標沙箱。
+1. 在「管理」選單區段中，按一下 **[!UICONTROL 沙箱]**，選取 **封裝** 標籤，然後按一下您要匯出的套件。
 
-   ![](assets/copy-sandbox3.png)
+   ![](assets/journey-sandbox3.png)
 
-   復製程式隨即開始，並顯示每個個別物件的進度。 復製程式會因歷程的複雜度及需要複製多少物件而有所不同。 如果發生錯誤，則會顯示相關物件的訊息。
+1. 選取要匯出的物件，然後按一下 **發佈**
 
-   ![](assets/copy-sandbox4.png)
+   ![](assets/journey-sandbox4.png)
 
-6. 複製完成後，請按一下 **關閉**.
+   如果發佈失敗，您可以檢查日誌以識別失敗原因。 開啟套件，按一下 **檢視失敗的工作**，選取匯入工作並按一下 **檢視匯入詳細資料**.
 
-7. 存取您的目標沙箱，並對所有複製的物件執行徹底檢查。
+   ![](assets/journey-sandbox9.png)
 
-## 復製程式與限制 {#limitations}
+## 匯入歷程 {#export}
 
-可能不會將所有連結的元素複製到目的地沙箱。 Adobe強烈建議您執行徹底檢查。 識別任何可能的遺失物件，並在發佈歷程之前手動建立。
+1. 從封裝清單中，按一下封裝名稱旁的+圖示。
 
-會複製下列物件：
+   ![](assets/journey-sandbox5.png)
 
-* 對象
+1. 選取 **Target沙箱** 從下拉式欄位中，然後按一下 **下一個**. 只能使用您的組織內的沙箱。
 
-  對象只能從一個沙箱複製到另一個沙箱。 對象複製後，就無法在目的地沙箱中對其進行編輯。
+   ![](assets/journey-sandbox6.png)
 
-* 綱要
+1. 檢閱套裝程式物件與相依性。 這是歷程中使用的關聯物件清單。此清單會顯示名稱和物件型別。 對於每個物件，您可以選擇建立新物件或使用目標沙箱中的現有物件。
 
-  將複製此歷程中使用的結構描述。
+   ![](assets/journey-sandbox7.png)
 
-* 訊息
+1. 按一下 **完成** 按鈕，以開始將套件複製到目標沙箱。 復製程式會因歷程的複雜度及需要複製多少物件而有所不同。
 
-  歷程中使用的管道動作活動。 訊息中用於個人化的欄位不會檢查完整性。 不會複製內容區塊。
+1. 按一下匯入工作以複查複製結果：
 
-* 歷程 — 畫布詳細資料
+   * 按一下 **檢視匯入的物件** 顯示每個複製的個別物件。
+   * 按一下 **檢視匯入詳細資料** 檢查每個物件的匯入結果。
 
-  畫布上的歷程表示法，包括歷程中的物件，例如條件、動作、事件、讀取對象等。 跳轉活動會從複製中排除。
+   ![](assets/journey-sandbox8.png)
 
-* 活動
-
-  將會複製歷程中使用的事件和事件詳細資訊。
-
-* 動作
-
-  將會複製歷程中使用的動作和動作詳細資訊。
-
-不會複製曲面（即預設集）。 系統會根據訊息型別和表面名稱，自動選取目標沙箱上最接近的相符專案。 如果在目標沙箱上找不到表面，則表面複製將會失敗。 這表示訊息復本也會失敗，因為訊息需要可供設定的介面。 在此情況下，需要為訊息的正確通道建立至少一個表面，副本才能運作。
-
-對於結構描述、合併原則和對象，這些物件第二次嘗試複製時，只會被引用。 它們將被視為已經存在的物件，並將再次複製。 這表示這些物件只能複製一次。
-
-Adobe Journey Optimizer會延遲五分鐘，才可參照結構描述、合併原則和對象，而不會在畫布中看到錯誤。 請等候五分鐘，這些參考資料將可供使用。
+1. 存取您的目標沙箱，並對所有複製的物件執行徹底檢查。

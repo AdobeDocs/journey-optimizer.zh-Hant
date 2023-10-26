@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9e7b08db00ab6333bd5a20815e05bca48075dca3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '4477'
-ht-degree: 94%
+source-wordcount: '4558'
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 94%
 <td>
 <p>沙箱工具可讓您運用套件匯出和匯入，跨多個沙箱複製物件。 封裝可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>如需詳細資訊，請參閱<a href="../building-journeys/copy-to-sandbox.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -74,18 +74,18 @@ ht-degree: 94%
 </tbody>
 </table -->
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Multimedia Message Service (MMS) in SMS (Beta)</strong><br/></th>
+<th><strong>簡訊中的多媒體訊息服務(MMS)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available in Beta with Sinch only.</p>-->
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>透過SMS通道，您現在可以傳送多媒體訊息服務(MMS)訊息，以便與客戶共用影像、GIF或視訊，藉此增強通訊。 請注意，此功能目前僅適用於Sinch。</p>
+<img src="assets/do-not-localize/mms.gif"/>
+<p>如需詳細資訊，請參閱<a href="../sms/create-sms.md#sms-content">詳細文件</a>。</p>
 </tr>
 </tbody>
 </table>
@@ -97,7 +97,7 @@ ht-degree: 94%
 **對象**
 
 * 您現在可以將從CSV檔案上傳的受眾鎖定在歷程和行銷活動中。
-* 您現在可以鎖定透過對象構成所建立的對象，並在歷程中運用擴充屬性。
+* 您現在可以鎖定透過對象構成所建立的對象，並在歷程中運用擴充屬性。 [了解更多](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
@@ -111,11 +111,11 @@ ht-degree: 94%
 **行銷活動**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* 當您的其中一個行銷活動發生錯誤時，警告圖示現在會與行銷活動的狀態一起出現在行銷活動清單中。
+* 當您的其中一個行銷活動發生錯誤時，警告圖示現在會與行銷活動的狀態一起出現在行銷活動清單中。 [了解更多](../campaigns/modify-stop-campaign.md#statuses)
 
 **歷程**
 
-* 您可在任何等待時間中定義的最長期間現在是29天，而不是30天。 這適用於：
+* 您可在任何等待時間中定義的最長期間現在是29天，而不是30天。 此項改善的目的是防止等待持續時間超過30天的歷程壽命。 這適用於：
 
    * 此 **時間長度** 中的欄位 [等待活動](../building-journeys/wait-activity.md)
    * 此 **重新進入等待期** 在 [歷程屬性](../building-journeys/journey-gs.md#entrance)
@@ -128,7 +128,7 @@ ht-degree: 94%
 
 **決策管理**
 
-* 已更新與決定管理介面中的優惠方案上限相關的幾個標籤。
+* 已更新與決定管理介面中的優惠方案上限相關的幾個標籤。 [了解更多](../offers/offer-library/add-constraints.md#capping)
 
 ## 2023 年 9 月發行說明 {#sept-rn-2023}
 

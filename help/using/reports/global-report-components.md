@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 10%
+source-wordcount: '1068'
+ht-degree: 9%
 
 ---
 
@@ -152,7 +152,7 @@ ht-degree: 10%
 </tr> 
   <tr> 
    <td> 不重複點按次數<br/> </td> 
-   <td> 點按電子郵件中內容的收件者人數。<br/> </td> 
+   <td> 點按電子郵件中內容的收件者人數。<br> 請注意，計算不重複點按次數時，會計及最近10天。 如果設定檔在10天內註冊了多次點按，則會計為不重複點按。 不過，如果設定檔相隔10天以上，有2次點按，則不會視為不重複點按。<br/> </td> 
 </tr> 
   <tr> 
    <td>不重複點按率<br/> </td> 
@@ -160,7 +160,7 @@ ht-degree: 10%
 </tr>
   <tr> 
    <td> 不重複開啟次數<br/> </td> 
-   <td>開啟傳遞的收件者人數。<br/> </td> 
+   <td>開啟傳遞的收件者人數。 <br> 請注意，計算唯一開啟次數時，會考慮最近10天的開啟次數。 如果設定檔在10天內註冊了多次開啟，則會計為不重複開啟。 不過，如果設定檔有2個開啟間隔超過10天，則不會視為唯一開啟。<br/> </td> 
 </tr> 
   <tr> 
    <td> 取消訂閱次數<br/> </td> 

@@ -9,14 +9,16 @@ role: Admin, User
 level: Intermediate
 keywords: 許可權，製作，訊息
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1167'
 ht-degree: 6%
 
 ---
 
 # 內建角色 {#ootb-product-profiles}
+
+內建角色是一組統一許可權，可讓使用者存取介面中的特定功能或物件。 請參閱 [此頁面](ootb-permissions.md) 以取得建立角色的可用許可權清單。
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 

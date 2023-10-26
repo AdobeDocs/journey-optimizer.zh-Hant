@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '2381'
+source-wordcount: '2386'
 ht-degree: 17%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 17%
 
 * 如果您想要關聯特定 [決定規則](../offer-library/creating-decision-rules.md) 若要選取選件，請選取 **[!UICONTROL 依定義的決定規則]**，然後將所需的規則從左窗格拖曳至 **[!UICONTROL 決定規則]** 區域。
 
-  ![](../assets/offer_rule.png)
+  ![](../assets/offer-rule.png)
 
   >[!CAUTION]
   >
@@ -146,7 +146,7 @@ ht-degree: 17%
 
 若要設定上限，請遵循下列主要步驟。
 
-1. 確定 **[!UICONTROL 包含上限]** 切換按鈕已選取。 預設包含上限。
+1. 確定 **[!UICONTROL 啟用上限]** 切換按鈕已選取。 上限預設為啟用。
 
    >[!CAUTION]
    >
@@ -160,7 +160,7 @@ ht-degree: 17%
 
 1. 設定 **[!UICONTROL 頻率]** 以定義上限計數的重設頻率。 [了解更多](#frequency-capping)
 
-1. 如果您已定義數個 [表示方式](add-representations.md) 針對您的優惠，指定是否要套用上限 **[!UICONTROL 橫跨所有位置]** 或 **[!UICONTROL 針對每個位置]**. [了解更多](#placements)
+1. 如果您已定義數個 [表示方式](add-representations.md) 針對您的優惠，指定是否要套用上限 **橫跨所有位置** 或 **至每個位置**. [了解更多](#placements)
 
 1. 在儲存並核准後，如果根據您定義的條件和時間範圍，已根據您在此欄位中指定的次數向優惠方案顯示次數，則其傳送將停止。
 
@@ -179,7 +179,7 @@ ht-degree: 17%
 >title="曝光"
 >abstract="使用曝光數做為上限事件僅適用於傳入管道。"
 
-此 **[!UICONTROL 事件上限]** 欄位可讓您定義 **[!UICONTROL 事件上限]** 將考慮以增加計數器：
+此 **[!UICONTROL 事件上限]** 欄位可讓您定義要考慮哪個事件以增加計數器：
 
 ![](../assets/offer-capping-event.png)
 
@@ -219,7 +219,7 @@ ht-degree: 17%
 
 ### 上限計數 {#capping-count}
 
-此 **[!UICONTROL 上限計數]** 欄位可讓您指定可顯示優惠方案的次數。
+此 **[!UICONTROL 上限計數限制]** 欄位可讓您指定可顯示優惠方案的次數。
 
 ![](../assets/offer-capping-times.png)
 
@@ -227,7 +227,7 @@ ht-degree: 17%
 >
 >數字必須是大於0的整數。
 
-例如，您定義了自訂上限事件，例如將結帳次數納入考量。 如果您在 **[!UICONTROL 上限計數]** 欄位，10次結帳後不會傳送其他優惠。
+例如，您定義了自訂上限事件，例如將結帳次數納入考量。 如果您在 **[!UICONTROL 上限計數限制]** 欄位，10次結帳後不會傳送其他優惠。
 
 ### 上限型別 {#capping-type}
 
@@ -258,7 +258,7 @@ ht-degree: 17%
 >
 >重設會在您定義的當天凌晨12點UTC進行，或在一週/一月的第一天（如適用）進行。 周開始日是星期日。 您選擇的任何期間不能超過2年（即對應的月數、周數或天數）。
 
-例如，如果您希望每兩週重設一次上限計數，請選取 **[!UICONTROL 每週]** 從 **[!UICONTROL 重複]** 下拉式清單和型別 **2** 在另一個欄位中。 重設將於每隔一個星期日下午12點(UTC)進行。
+例如，如果您希望每兩週重設一次上限計數，請選取 **[!UICONTROL 每週]** 從對應的下拉式清單及型別 **2** 在另一個欄位中。 重設將於每隔一個星期日下午12點(UTC)進行。
 
 >[!CAUTION]
 >
@@ -268,15 +268,15 @@ ht-degree: 17%
 
 ### 上限和版位 {#placements}
 
-如果您已定義數個 [表示方式](add-representations.md) 針對您的優惠，指定是否要套用上限 **[!UICONTROL 橫跨所有位置]** 或 **[!UICONTROL 針對每個位置]**.
+如果您已定義數個 [表示方式](add-representations.md) 針對您的選件，指定是否要對所有版位或每個版位套用上限。
 
 ![](../assets/offer-capping-placement.png)
 
-* **[!UICONTROL 橫跨所有位置]**：上限計數會加總與優惠方案相關之各個版位的所有決策。
+* **[!UICONTROL 對所有位置套用上限]**：上限計數會加總與優惠方案相關之各個版位的所有決策。
 
   例如，如果選件具有 **電子郵件** 位置和 **Web** 位置，並將上限設定在 **所有位置中每個設定檔2個**，則無論版位組合為何，每個設定檔最多可以收到選件2次。
 
-* **[!UICONTROL 針對每個位置]**：上限計數將分別套用每個位置的決定計數。
+* **[!UICONTROL 將上限套用至每個位置]**：上限計數將分別套用每個位置的決定計數。
 
   例如，如果選件具有 **電子郵件** 位置和 **Web** 位置，並將上限設定在 **每個位置每個設定檔2個**，則每個設定檔最多可收到電子郵件版2次選件，以及額外的2次網路版。
 

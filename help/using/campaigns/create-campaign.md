@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 34%
+source-wordcount: '967'
+ht-degree: 33%
 
 ---
 
@@ -124,17 +124,17 @@ ht-degree: 34%
 
 按一下 **[!UICONTROL 選取對象]** 按鈕來顯示可用Adobe Experience Platform對象清單。 [進一步了解對象](../audience/about-audiences.md)
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>目前，使用對象 [從CSV檔案匯入](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 至行銷活動的形式為私人測試版。 如需詳細資訊，請聯絡您的 Adobe 代表。
 >
 >針對API觸發的行銷活動，必須透過API呼叫設定對象。 [了解更多](api-triggered-campaigns.md)
 
-在 **[!UICONTROL 身分名稱空間]** 欄位，選擇要使用的名稱空間，以識別所選區段中的個人。 [進一步瞭解名稱空間](../event/about-creating.md#select-the-namespace)
+在 **[!UICONTROL 身分名稱空間]** 欄位，選擇要使用的名稱空間，以識別所選區段中的個人。
+
+如果屬於區段的個人在不同身分中沒有選取的身分（名稱空間），則行銷活動不會鎖定該個人。 [進一步瞭解名稱空間](../event/about-creating.md#select-the-namespace)
 
 ![](assets/create-campaign-namespace.png)
-
->[!NOTE]
->
->如果屬於區段的個人在不同身分中沒有選取的身分（名稱空間），則行銷活動不會鎖定該個人。
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 

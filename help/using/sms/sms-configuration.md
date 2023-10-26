@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1050'
 ht-degree: 16%
 
 ---
@@ -67,6 +67,12 @@ Adobe Journey Optimizer目前與Sinch、Twilio和Infobip等協力廠商整合，
       * **[!UICONTROL 選擇加入訊息]**：輸入自訂回應，此回應會作為 **[!UICONTROL 選擇加入訊息]**.
 
       * **[!UICONTROL 說明訊息]**：輸入自訂回應，此回應會作為 **說明訊息**.
+
+   * 的 **[!DNL Sinch MMS]**：
+
+      * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
+
+      * **[!UICONTROL 專案ID]**， **[!UICONTROL 應用程式ID]** 和 **[!UICONTROL API Token]**：您可以在「Conversation API」功能表的「應用程式」功能表中找到您的認證。  [了解更多](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html)
 
    * 的 **[!DNL Twilio]**：
 

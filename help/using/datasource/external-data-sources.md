@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 67%
+source-wordcount: '1484'
+ht-degree: 68%
 
 ---
 
@@ -82,10 +82,6 @@ ht-degree: 67%
 * **[!UICONTROL 方法]**：選取POST或GET方法。 在本例中，我們選取 GET 方法。
 * **[!UICONTROL 動態值]**：在本例中，輸入以逗號分隔的不同引數，即&quot;long，lat&quot;。 由於參數值視執行內容而定，因此它們會在歷程中定義。[了解更多](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL 回應裝載]**：在 **[!UICONTROL 裝載]** 欄位並貼上呼叫傳回之裝載的範例。 例如，我們使用了氣象 API 網站上找到的有效負載。確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。請注意，您可以按一下 **[!UICONTROL 貼上新裝載]** 如果您想要變更目前已傳遞的裝載。
-
-  >[!NOTE]
-  >
-  >回應裝載定義中不支援純量陣列。
 
 * **[!UICONTROL 已傳送裝載]**：我們的範例不會出現此欄位， 只有選取 POST 方法時才能使用。貼上會傳送至協力廠商系統的有效負載。
 

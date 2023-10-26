@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，對象，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1307'
 ht-degree: 12%
 
 ---
@@ -29,11 +29,13 @@ ht-degree: 12%
 
 以中建立的「Luma應用程式開啟和簽出」對象為例 [建立對象](../audience/about-audiences.md) 使用案例。 透過讀取對象活動，您可以讓屬於此對象的所有個人進入歷程，並讓他們流入將運用所有歷程功能（條件、計時器、事件、動作）的個人化歷程。
 
->[!NOTE]
->
->對於使用讀取對象活動的歷程，則可同時開始的歷程次數有其上限。 系統將執行重試，但請避免同時開始超過五個歷程 (使用讀取對象、已排程或「盡快」開始)，方法是將其分散在一段時間內開始，例如相隔 5 到 10 分鐘。
->
->從讀取對象、對象資格或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。 
+## 必讀 {#must-read}
+
+* 對於使用讀取對象活動的歷程，則可同時開始的歷程次數有其上限。 系統將執行重試，但請避免同時開始超過五個歷程 (使用讀取對象、已排程或「盡快」開始)，方法是將其分散在一段時間內開始，例如相隔 5 到 10 分鐘。
+
+* 從讀取對象、對象資格或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。 
+
+* 目前，使用對象 [從CSV檔案匯入](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 或產生自 [組合工作流程](../audience/get-started-audience-orchestration.md) 進入歷程會以私人測試版的形式提供。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 ### 設定活動 {#configuring-segment-trigger-activity}
 

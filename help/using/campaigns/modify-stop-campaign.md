@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 管理行銷活動、狀態、排程、存取、最佳化工具
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 2%
+source-wordcount: '572'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 此外，您可以根據行銷活動型別和頻道，或是在建立行銷活動時指派給行銷活動的標籤來篩選清單。 [瞭解如何將標籤指派至行銷活動](create-campaign.md#create)
 
-## 行銷活動狀態 {#statuses}
+## 行銷活動狀態和警示 {#statuses}
 
 行銷活動可以有多個狀態：
 
@@ -47,6 +47,10 @@ ht-degree: 2%
 >[!NOTE]
 >
 >旁的「開啟草稿版本」圖示 **[!UICONTROL 即時]** 或 **[!UICONTROL 已排程]** 狀態表示已建立新版本的行銷活動，但尚未啟用。 [了解更多](modify-stop-campaign.md#modify)。
+
+當您的其中一個行銷活動發生錯誤時，警告圖示會出現在行銷活動的狀態旁。 按一下該按鈕，以顯示有關警示的資訊。 這些警報可能在各種情況下發生，例如行銷活動訊息尚未發佈或所選表面不正確。
+
+![](assets/campaign-alerts.png)
 
 ## 修改週期性行銷活動 {#modify}
 

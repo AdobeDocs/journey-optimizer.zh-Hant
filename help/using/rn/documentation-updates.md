@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 37fda274025135f0577fd551971583e1b6d5c469
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '3845'
-ht-degree: 96%
+source-wordcount: '3956'
+ht-degree: 94%
 
 ---
 
@@ -21,10 +21,15 @@ ht-degree: 96%
 
 ## 2023 年 10 月 {#oct-2023}
 
+* 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2023年10月版本的詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
 * 新增GIF以說明一些關鍵功能，例如： [內容範本](../content-management/content-templates.md)， [片段](../content-management/fragments.md)， [計算的屬性](../audience/computed-attributes.md)， [直接郵件](../direct-mail/get-started-direct-mail.md)， [標籤](../start/search-filter-categorize.md#tags)， [決策管理最佳化模型](../offers/ranking/personalized-optimization-model.md)， [API觸發的行銷活動](../campaigns/api-triggered-campaigns.md)、和 [內容實驗](../campaigns/content-experiment.md).
 * 結構描述建立流程已更新，以反映使用者介面中的最新更新，並附帶Adobe Experience Platform變更。 [閱讀全文](../audience/creating-test-profiles.md)
 * 決策管理護欄已新增到護欄和限制頁面。 [閱讀全文](../start/guardrails.md#decision-management)
+* 「標頭引數」區段已更新，以反映處理休假通知和質詢回應的方式(系統會在以下網址接收這些通知： **[!UICONTROL 錯誤電子郵件]**)。 [閱讀全文](../email/email-settings.md#email-header)
 * 已建立有關如何預覽和測試內容的新區段。 [閱讀全文](../content-management/preview-test.md)
+* 「實作單頁應用程式」頁面已移至AdobeExperience Platform Web SDK檔案。 [閱讀全文](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
+* 「上限」區段已更新，以反映與決定管理介面中的優惠方案上限相關的標籤變更。 [閱讀全文](../offers/offer-library/add-constraints.md#capping)
+* 「將動態內容新增至電子郵件」已更新，其中包含有關如何刪除變體的詳細資訊。 [閱讀全文](../personalization/dynamic-content.md#emails)
 
 ## 2023 年 9 月 {#september-2023}
 
@@ -39,7 +44,7 @@ ht-degree: 96%
 * 已更新連至存取控制文件的連結。 [閱讀全文](../administration/permissions.md)
 * 應用程式內頻道先決條件已更新，其中包含 Adobe Experience Platform 資料彙集詳細資料。 [閱讀全文](../in-app/inapp-configuration.md)
 * 已更新排名公式範例中呈現的一些運算式，以避免發生驗證錯誤。 [閱讀全文](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
-* 警告已新增至 **定義決定範圍** 若要指定如果評估准則群組中使用AI模型，該群組中的所有評估准則都必須使用具有相同特定AI模型的AI排名方法。 此外，只有一個評估標準群組可以使用AI模型。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* 「定義決定範圍」區段已新增警告，以指定如果在評估條件群組中使用AI模型，則該群組中的所有評估條件都必須使用具有相同特定AI模型的AI排名方法。 此外，只有一個評估標準群組可以使用AI模型。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## 2023 年 8 月 {#august-2023}
 

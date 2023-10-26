@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 等待，活動，歷程，下一步，畫布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '469'
 ht-degree: 18%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 18%
 
 ## 持續時間等待{#duration}
 
-選取下一個活動執行前等待的持續時間。
+選取下一個活動執行前等待的持續時間。 持續時間上限為29天。
 
 ![](assets/journey55.png)
 

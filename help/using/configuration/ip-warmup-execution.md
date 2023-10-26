@@ -11,9 +11,9 @@ keywords: IP、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1710'
 ht-degree: 19%
 
 ---
@@ -152,6 +152,10 @@ At phase level, system ensures that previously targeted + new profiles are picke
 1. 如有需要，請選取 **[!UICONTROL 編輯執行]** 從「更多動作」圖示。 您可以在此處更新每欄中的地址數。 您也可以更新 **[!UICONTROL 上次參與]** 欄位，以僅鎖定過去20天內與您品牌互動的使用者。
 
    ![](assets/ip-warmup-plan-edit-run.png)
+
+   >[!NOTE]
+   >
+   >如果您不想套用 **[!UICONTROL 上次參與]** 引數到目前的執行，設定為0。
 
 1. 選取 **[!UICONTROL 暫停錯誤]** 在評估該回合的對象後，如果合格的設定檔少於目標的設定檔，則用來取消回合的選項。
 

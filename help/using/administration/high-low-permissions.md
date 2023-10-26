@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 許可權，高階，低階，設定檔， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 每個角色都包含允許使用者存取不同功能的許可權。
 它們可以分為兩種型別：
 
-* **高階許可權**：代表可指派給的不同許可權 **[!UICONTROL 角色]** 在 [!DNL Admin console]，例如 **[!DNL Publish journeys]** 和 **[!DNL Manage subdomains delegation]**. 高層級許可權包含低層級許可權。
+* **高階許可權**：代表可指派給的不同許可權 **[!UICONTROL 角色]**，例如 **[!DNL Publish journeys]** 和 **[!DNL Manage subdomains delegation]**. 高層級許可權包含低層級許可權。 高層級許可權詳見 [此頁面](ootb-permissions.md).
 
 * **低階許可權**：代表來自高階許可權的不同許可權。
 
