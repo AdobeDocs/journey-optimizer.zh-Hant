@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 7dc3ddb92a8d47b135535107928e5b812c101d93
 workflow-type: tm+mt
-source-wordcount: '4558'
+source-wordcount: '4556'
 ht-degree: 92%
 
 ---
@@ -119,7 +119,7 @@ ht-degree: 92%
 
    * 此 **時間長度** 中的欄位 [等待活動](../building-journeys/wait-activity.md)
    * 此 **重新進入等待期** 在 [歷程屬性](../building-journeys/journey-gs.md#entrance)
-   * 此 **等待** 的逾時定義中的欄位 [一般](../building-journeys/general-events.md#events-specific-time) 和 [反應](../building-journeys/reaction-events.md) 事件。
+   * 此 **等待** 的逾時定義中的欄位 [事件活動](../building-journeys/general-events.md#events-specific-time).
 
 <!--
 **Consent in channel configuration**
