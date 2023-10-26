@@ -11,7 +11,7 @@ keywords: IP、集區、傳遞能力
 hide: true
 hidefromtoc: true
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 77d8da88b72cada82d30afa8bab5a63ab435f625
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 18%
@@ -50,7 +50,8 @@ ht-degree: 18%
 
 1. 建立排程行銷 [行銷活動](../campaigns/create-campaign.md) 並選取 [電子郵件](../email/create-email.md#create-email-journey-campaign) 動作。
 
-   <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.>
+   <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
+
 1. 選取您為IP預熱建立的曲面。
 
    ![](assets/ip-warmup-campaign-surface.png)
