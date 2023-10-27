@@ -7,7 +7,7 @@ level: Beginner
 source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 2%
+ht-degree: 16%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"
->title="使用測試設定檔來檢查您的內容"
->abstract="使用測試設定檔來預覽和測試您的內容。 如果您新增個人化欄位，您可以使用測試設定檔資料檢查這些欄位的顯示方式。"
+>title="使用測試設定檔檢查您的內容"
+>abstract="使用測試設定檔預覽和測試您的內容。 如果您新增了個人化欄位，可以使用測試設定檔資料檢查它們的顯示方式。"
 
 預覽或測試內容之前，您必須先選取測試設定檔，這些是不符合已定義定位准則的其他收件者。 [瞭解如何建立測試設定檔](../audience/creating-test-profiles.md)
 

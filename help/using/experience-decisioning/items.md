@@ -12,7 +12,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
 source-wordcount: '1014'
-ht-degree: 8%
+ht-degree: 33%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
->title="管理決定專案"
->abstract="Journey Optimizer可讓您建立行銷優惠方案（稱為決定專案），您可以建立這些優惠方案並將其組織成集中式目錄和集合。 目前，所有建立的決定專案都已合併至單一「優惠」目錄中。 在此畫面中，您也可以使用 **編輯結構描述** 按鈕並為決策專案建立自訂屬性。"
+>title="管理決定項目"
+>abstract="Journey Optimizer 可讓您建立行銷優惠 (稱為決定項目)，您可以將其建立並組織到集中式目錄和集合中。目前，所有建立的決定項目都合併在一個「優惠」目錄中。在此畫面中，您還可以使用&#x200B;**編輯架構**&#x200B;按鈕來存取目錄的方案，並為您的決定項目建立自訂屬性。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="設定項目目錄"
 
 >[!BEGINSHADEBOX]
@@ -41,7 +41,7 @@ ht-degree: 8%
 
 >[!ENDSHADEBOX]
 
-Journey Optimizer可讓您建立行銷優惠方案（稱為決定專案），您可以建立這些優惠方案並將其組織成集中式目錄和集合。 這些範本由標準和自訂屬性組成，旨在精確符合您的需求。 此外，它們納入設定檔限制，可讓您定義決策專案可顯示給誰。
+Journey Optimizer 可讓您建立行銷優惠 (稱為決定項目)，您可以將其建立並組織到集中式目錄和集合中。這些範本由標準和自訂屬性組成，旨在精確符合您的需求。 此外，它們納入設定檔限制，可讓您定義決策專案可顯示給誰。
 
 在建立決定專案之前，請確定您已建立 **決定規則** 如果要設定條件以決定要向誰顯示決策專案。 [瞭解如何建立決定規則](rules.md).
 
@@ -49,20 +49,20 @@ Journey Optimizer可讓您建立行銷優惠方案（稱為決定專案），您
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_priority"
->title="定義決定專案的優先順序"
->abstract="如果設定檔符合多個專案的資格，則優先順序可讓您將此決定專案與其他專案進行比較。 較高的優先順序會授予專案優先於其他專案的優先順序。"
+>title="定義決策項目的優先順序"
+>abstract="如果一個設定檔符合多個項目的條件，則可以透過優先順序將此決定項目與其他決定項目進行比較。 較高的優先順序使該項目優先於其他項目。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
 >title="定義自訂屬性"
->abstract="自訂屬性是根據您的需求量身打造的特定屬性，可指派給決策專案。 它們會在決定專案的目錄結構描述中建立。 此區段只有在您已將至少一個自訂屬性新增到目錄結構描述時才會顯示。"
+>abstract="自訂屬性是根據您的需求訂製並且可以指派給決定項目的特定屬性。 它們是在決定項目的目錄方案中建立的。 只有當您已在目錄方案中新增至少一個自訂屬性時，才會顯示此區段。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="設定項目目錄"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
->title="新增對象或決定規則"
->abstract="依預設，所有設定檔都符合接收決定專案的資格，但您可以使用對象或規則將專案限製為僅特定設定檔。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用對象"
+>title="新增受眾或決定規則"
+>abstract="預設情況下，所有設定檔都有資格接收決定項目，但您可以使用受眾或規則將該項目限制為僅限特定設定檔。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用受眾"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="使用決定規則"
 
 若要建立決定專案，請遵循下列步驟：
@@ -73,11 +73,11 @@ Journey Optimizer可讓您建立行銷優惠方案（稱為決定專案），您
 
    1. 提供名稱和說明。
    1. 指定開始和結束日期。 在此日期內，決策引擎僅會考慮該專案。
-   1. 設定 **[!UICONTROL 優先順序]** 與其他專案比較，如果設定檔符合多個專案的資格。 較高的優先順序會授予專案優先於其他專案的優先順序。
+   1. 設定 **[!UICONTROL 優先順序]** 與其他專案比較，如果設定檔符合多個專案的資格。 較高的優先順序使該項目優先於其他項目。
 
    ![](assets/item-attributes.png)
 
-1. 自訂屬性是根據您的需求量身打造的特定屬性，可指派給決策專案。 它們會在決定專案的目錄結構描述中定義。 [瞭解如何使用目錄](catalogs.md)
+1. 自訂屬性是根據您的需求訂製並且可以指派給決定項目的特定屬性。 它們會在決定專案的目錄結構描述中定義。 [瞭解如何使用目錄](catalogs.md)
 
 1. 定義決定專案的屬性後，按一下 **[!UICONTROL 下一個]** 以設定料號的設定檔限制。
 
@@ -111,7 +111,7 @@ Journey Optimizer可讓您建立行銷優惠方案（稱為決定專案），您
 
    ![](assets/item-approve.png)
 
-## 管理決定專案
+## 管理決定項目
 
 從決定專案清單中，您可以編輯決定專案、變更其狀態(**草稿**， **已核准**， **已封存**)、複製或刪除它。
 

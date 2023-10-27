@@ -7,7 +7,7 @@ level: Beginner
 source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 1%
+ht-degree: 22%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
->title="檢查內容的呈現方式"
->abstract="定義內容後，您可以使用測試設定檔來預覽內容，並根據您使用的管道來檢查轉譯是否正確。"
+>title="檢查您的內容的呈現方式"
+>abstract="定義內容後，您可以使用測試設定檔進行預覽，並根據您使用的頻道檢查轉譯是否正確。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_simulate"
->title="檢查內容的呈現方式"
->abstract="定義內容後，您可以預覽內容，並根據您使用的管道檢查轉譯是否正確。"
+>title="檢查您的內容的呈現方式"
+>abstract="定義內容後，您可以進行預覽並根據您使用的頻道檢查轉譯是否正確。"
 
 ## 關於內容預覽和測試 {#about}
 
