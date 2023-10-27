@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 2344d53a331cb883a81a051ce1e06e8c42824cb7
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 17%
+source-wordcount: '461'
+ht-degree: 15%
 
 ---
 
@@ -74,7 +74,9 @@ ht-degree: 17%
 >title="發佈您的對象"
 >abstract="發佈您的組合以將產生的對象儲存到 Adobe Experience Platform 中。"
 
-所有已建立的構成都可從以下位置存取： **[!UICONTROL 組合]** 標籤。 它們可以有多個狀態：
+所有已建立的構成都可從以下位置存取： **[!UICONTROL 組合]** 標籤。 您可以使用清單中的省略符號按鈕，隨時複製或刪除現有的構成。
+
+組合可以有多種狀態：
 
 * **[!UICONTROL 草稿]**：構成正在進行中，尚未發佈。
 * **[!UICONTROL 已發佈]**：構成已發佈，產生的對象已儲存並可供使用。
@@ -83,4 +85,4 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->您可以使用清單中的省略符號按鈕，隨時複製或刪除現有的構成。
+>對象構成目前未與沙箱重設功能整合。 在起始沙箱重設之前，您需要手動刪除您的構圖，以確保適當的清理關聯的對象資料。 Adobe Experience Platform中有提供詳細資訊 [沙箱檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)
