@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1041'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -141,11 +141,11 @@ ht-degree: 97%
 
 1. 使用右側的專用按鈕新增起始對象。
 
-1. 按一下 **+** 圖示並選取 **[!UICONTROL Split]** 活動以建立分割對象。 [了解更多分割活動的相關資訊](../audience/composition-canvas.md#split)
+1. 按一下 **+** 圖示，然後選取&#x200B;**[!UICONTROL 分割]**&#x200B;活動以建立分割對象。 [了解更多分割活動的相關資訊](../audience/composition-canvas.md#split)
 
    ![](assets/perso-consent-audience-split.png)
 
-1. 在右窗格中，選取 **[!UICONTROL 屬性分割]** 做為分割型別。
+1. 在右窗格中，選取&#x200B;**[!UICONTROL 屬性分割]**&#x200B;作為分割類型。
 
    ![](assets/perso-consent-audience-attribute-split.png)
 
