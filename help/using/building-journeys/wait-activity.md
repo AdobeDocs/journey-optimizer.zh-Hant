@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 等待，活動，歷程，下一步，畫布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: ce1e43ce2c439b02e5c263f26de5531b26dc0980
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 18%
@@ -35,7 +35,7 @@ ht-degree: 18%
 
 ## 關於等待活動{#about_wait}
 
-最長等待時間為30天。 在測試模式中， **[!UICONTROL 測試等待時間]** 引數可讓您定義每個等待活動的持續時間。 預設時間為 10 秒。這將確保您能快速獲得測試結果。 請參閱[此頁面](../building-journeys/testing-the-journey.md)。
+最長等待時間為29天。 在測試模式中， **[!UICONTROL 測試等待時間]** 引數可讓您定義每個等待活動的持續時間。 預設時間為 10 秒。這將確保您能快速獲得測試結果。 請參閱[此頁面](../building-journeys/testing-the-journey.md)。
 
 在歷程中使用多個等待活動時請小心，因為全域歷程逾時為30天，這表示設定檔在進入歷程後，將一律退出歷程的最長30天。 請參閱[此頁面](../building-journeys/journey-gs.md#global_timeout)。
 
