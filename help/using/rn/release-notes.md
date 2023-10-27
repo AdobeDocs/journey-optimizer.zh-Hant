@@ -11,7 +11,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 70c82f625903720e81cb73b226aaea98b2eb94b0
 workflow-type: tm+mt
 source-wordcount: '4525'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
->title="新功能？"
+>title="新增功能？"
 >abstract="**Adobe Journey Optimizer** 持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會在每月最後一週整合於發行說明。"
 
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每月最後一週整合於發行說明。
@@ -205,7 +205,7 @@ ht-degree: 93%
 
 **決策管理**
 
-* 現已推出用於建立和管理決策管理物件的新 API。這些API提供提升的效能和增強的使用者體驗。 舊版API的支援將持續到2024年3月27日。 [進一步了解](../offers/api-reference/getting-started.md)
+* 現已推出用於建立和管理決策管理物件的新 API。這些 API 可以提升效能並增強使用者體驗。 舊版 API 支援將持續至 2024 年 3 月 27 日為止。 [進一步了解](../offers/api-reference/getting-started.md)
 
 **個人化**
 
@@ -213,7 +213,7 @@ ht-degree: 93%
 
 **警示**
 
-* 已引進新類型的系統警示。您現在可以在以下情況下收到通知： **讀取對象** 活動失敗。 [了解更多](../reports/alerts.md)。
+* 已引進新類型的系統警示。現在您可以在&#x200B;**讀取對象**&#x200B;活動失敗時收到通知。 [了解更多](../reports/alerts.md)。
 
 **網路頻道**
 
@@ -229,7 +229,7 @@ ht-degree: 93%
 
 
 
-* 自訂動作回應的支援現已全面推出。 此功能可讓您在自訂動作中運用API呼叫回應，並根據這些回應協調您的歷程。 此外，已新增護欄，以將所有海關動作限製為每個端點超過30秒150,000次呼叫。 [了解更多](../action/action-response.md)
+* 自訂動作回應的支援現已全面推出。 此功能可讓您在自訂動作中運用 API 呼叫回應，並根據這些回應協調歷程。此外，已新增護欄，所有自訂動作均以每個端點 30 秒內 150,000 次呼叫為限。[了解更多](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
@@ -246,7 +246,7 @@ ht-degree: 93%
 
 **直接郵件頻道**
 
-* 現在，當直接郵件提供者將檔案傳輸至伺服器時，您就可以加密這些檔案。 若要執行此操作，檔案路由設定畫面中提供的新欄位，可讓您複製並貼上加密金鑰。 [了解更多](../direct-mail/direct-mail-configuration.md)
+* 現在，將檔案傳輸至伺服器時，您可以將提供給直接郵件提供者的檔案加密。 若要執行此操作，檔案路由設定畫面中提供的新欄位，可讓您複製並貼上加密金鑰。 [了解更多](../direct-mail/direct-mail-configuration.md)
 
 **報告**
 

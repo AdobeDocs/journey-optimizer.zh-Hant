@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '1710'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -185,7 +185,7 @@ ht-degree: 94%
          + [使用電子郵件範本](using/email/use-email-templates.md)
       + 設計您的內容 {#add-content}
          + [使用內容元件](using/email/content-components.md)
-         + [善用視覺片段](using/email/use-visual-fragments.md)
+         + [運用視覺片段](using/email/use-visual-fragments.md)
          + [新增連結及追蹤訊息](using/email/message-tracking.md)
          + [插入個人化優惠方案](using/email/add-offers-email.md)
          + [產生文字版本](using/email/text-version-email.md)
@@ -230,7 +230,7 @@ ht-degree: 94%
    + [設定直接郵件](using/direct-mail/direct-mail-configuration.md)
 + 網路頻道 {#web}
    + [開始使用網路頻道](using/web/get-started-web.md)
-   + 設定Web管道 {#configure-web-channel}
+   + 設定網路頻道 {#configure-web-channel}
       + [網路頻道先決條件](using/web/web-prerequisites.md)
       + [設定網路子網域](using/web/web-delegated-subdomains.md)
    + [建立網站體驗](using/web/create-web.md)
@@ -448,8 +448,8 @@ ht-degree: 94%
             + [建立決定](using/offers/api-reference/activities-api/activities/create.md)
             + [更新決定](using/offers/api-reference/activities-api/activities/update.md)
             + [刪除決定](using/offers/api-reference/activities-api/activities/delete.md)
-         + 舊版API {#legacy-api}
-            + [關於舊版API](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
+         + 舊版 API {#legacy-api}
+            + [關於舊版 API](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
             + 位置 {#placements}
                + [清單位置](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
                + [查詢位置](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)

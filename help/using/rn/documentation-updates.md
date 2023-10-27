@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
 workflow-type: tm+mt
 source-wordcount: '4010'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 93%
 ## 2023 年 10 月 {#oct-2023}
 
 * 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2023年10月版本的詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
-* 新增GIF以說明一些關鍵功能，例如： [內容範本](../content-management/content-templates.md)， [片段](../content-management/fragments.md)， [計算的屬性](../audience/computed-attributes.md)， [直接郵件](../direct-mail/get-started-direct-mail.md)， [標籤](../start/search-filter-categorize.md#tags)， [決策管理最佳化模型](../offers/ranking/personalized-optimization-model.md)， [API觸發的行銷活動](../campaigns/api-triggered-campaigns.md)、和 [內容實驗](../campaigns/content-experiment.md).
-* 結構描述建立流程已更新，以反映使用者介面中的最新更新，並附帶Adobe Experience Platform變更。 [閱讀全文](../audience/creating-test-profiles.md)
-* 決策管理護欄已新增到護欄和限制頁面。 [閱讀全文](../start/guardrails.md#decision-management)
+* 新增 GIF 以展示一些重要功能，例如：[內容範本](../content-management/content-templates.md)、[片段](../content-management/fragments.md)、[計算屬性](../audience/computed-attributes.md)、[直接郵件](../direct-mail/get-started-direct-mail.md)、[標記](../start/search-filter-categorize.md#tags)、[決策管理最佳化模型](../offers/ranking/personalized-optimization-model.md)、[API 觸發的行銷活動](../campaigns/api-triggered-campaigns.md)和[內容實驗](../campaigns/content-experiment.md)。
+* 已更新結構描述建立流程，以反映使用者介面中隨 Adobe Experience Platform 變更而來的最新更新。 [閱讀全文](../audience/creating-test-profiles.md)
+* 決策管理護欄已新增到「護欄和限制」頁面。 [閱讀全文](../start/guardrails.md#decision-management)
 * 「標頭引數」區段已更新，以反映處理休假通知和質詢回應的方式(系統會在以下網址接收這些通知： **[!UICONTROL 錯誤電子郵件]**)。 [閱讀全文](../email/email-settings.md#email-header)
 * 已建立有關如何預覽和測試內容的新區段。 [閱讀全文](../content-management/preview-test.md)
 * 「實作單頁應用程式」頁面已移至AdobeExperience Platform Web SDK檔案。 [閱讀全文](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
@@ -48,7 +48,7 @@ ht-degree: 93%
 * 已更新連至存取控制文件的連結。 [閱讀全文](../administration/permissions.md)
 * 應用程式內頻道先決條件已更新，其中包含 Adobe Experience Platform 資料彙集詳細資料。 [閱讀全文](../in-app/inapp-configuration.md)
 * 已更新排名公式範例中呈現的一些運算式，以避免發生驗證錯誤。 [閱讀全文](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
-* 「定義決定範圍」區段已新增警告，以指定如果在評估條件群組中使用AI模型，則該群組中的所有評估條件都必須使用具有相同特定AI模型的AI排名方法。 此外，只有一個評估標準群組可以使用AI模型。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* 「定義決定範圍」區段已新增警告，以指定如果在評估條件群組中使用AI模型，則該群組中的所有評估條件都必須使用具有相同特定AI模型的AI排名方法。 此外，只限一個評估標準群組使用 AI 模型。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## 2023 年 8 月 {#august-2023}
 
