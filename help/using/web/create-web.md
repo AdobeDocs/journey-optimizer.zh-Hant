@@ -27,8 +27,8 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
->title="定義網路表面"
->abstract="網頁表面可能會和單次頁面 URL 或多個頁面相符，可讓您在一個或多個網頁上傳遞內容修改。"
+>title="定義網頁表面"
+>abstract="網頁表面可能會和單個頁面 URL 或多個頁面相符，可讓您在一個或多個網頁上傳遞內容修改。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
@@ -45,7 +45,7 @@ ht-degree: 17%
 
 1. 選取 **[!UICONTROL Web]** 動作。
 
-1. 定義網路表面.
+1. 定義網頁表面.
 
    >[!NOTE]
    >
