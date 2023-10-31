@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙箱，歷程，複製，環境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: b2a9a118b663c757a026c62b18e00d1f53e26317
+source-git-commit: 25306e8300942d2d4683771a6d66ed6c5e5823fc
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 7%
+source-wordcount: '718'
+ht-degree: 6%
 
 ---
 
@@ -44,6 +44,10 @@ ht-degree: 7%
 
 本頁說明Journey Optimizer內容中的沙箱工具使用案例。 有關功能本身的詳細資訊，請參閱 [Experience Platform檔案](https://experienceleague.corp.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
+>[!NOTE]
+>
+>此功能需要下列許可權： manage-sandbox （或view-sandbox）和manage-package。
+
 ## 開始使用沙箱工具{#sandbox-gs}
 
 Journey Optimizer 可讓您將整個歷程從一個沙箱複製到另一個沙箱。例如，您可以將歷程從您的中繼沙箱環境複製到生產沙箱。 除了歷程本身，Journey Optimizer也會複製歷程所依賴的大部分物件：受眾、結構描述、事件和動作。 有關已複製物件的詳細資訊，請參閱此處 [區段](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
@@ -54,19 +58,24 @@ Journey Optimizer 可讓您將整個歷程從一個沙箱複製到另一個沙�
 
 目標沙箱中的複製物件是唯一的，沒有覆寫現有元素的風險。 歷程及歷程內的任何訊息都會以草稿模式帶入。 這可讓您在目標沙箱上發佈之前執行徹底驗證。 復製程式只會複製歷程的中繼資料以及該歷程中的物件。 此程式不會複製任何設定檔或資料集資料。
 
-## 匯出歷程 {#export}
+復製程式會透過來源沙箱和目標沙箱之間的套件匯出和匯入進行。 以下是從一個沙箱複製歷程到另一個沙箱的一般步驟：
 
-若要將歷程複製到另一個沙箱，請執行以下步驟：
+1. 將歷程新增為來源沙箱中的套件。
+1. 將套件匯出至目標沙箱。
+
+## 將歷程新增為封裝{#export}
+
+若要將歷程複製到另一個沙箱，您首先需要將該歷程作為套件新增到來源沙箱中。 請依照下列步驟操作：
 
 1. 在歷程管理功能表區段中，按一下 **[!UICONTROL 歷程]**. 隨即顯示歷程清單。
 
 1. 搜尋您要複製的歷程，按一下 **更多動作** 圖示（歷程名稱旁的三個點）並按一下 **新增到封裝**.
 
-![](assets/journey-sandbox1.png)
+   ![](assets/journey-sandbox1.png)
 
-此 **新增到封裝** 視窗隨即顯示。
+   此 **新增到封裝** 視窗隨即顯示。
 
-![](assets/journey-sandbox2.png)
+   ![](assets/journey-sandbox2.png)
 
 1. 選擇您要將歷程新增到現有封裝或建立新封裝：
 
@@ -85,9 +94,11 @@ Journey Optimizer 可讓您將整個歷程從一個沙箱複製到另一個沙�
 
    ![](assets/journey-sandbox9.png)
 
-## 匯入歷程 {#import}
+## 將套件匯出至目標沙箱 {#import}
 
-1. 從封裝清單中，按一下封裝名稱旁的+圖示。
+發佈套件後，您需要將它匯出至目標沙箱。
+
+1. 在來源沙箱中，按一下 **[!UICONTROL 沙箱]** 功能表，選取 **封裝** 標籤，然後按一下您要匯出的套件旁的+圖示。
 
    ![](assets/journey-sandbox5.png)
 
