@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 70c82f625903720e81cb73b226aaea98b2eb94b0
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '4525'
+source-wordcount: '4527'
 ht-degree: 95%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 95%
 
 **對象**
 
-* 您現在可以將從CSV檔案上傳的受眾鎖定在歷程和行銷活動中。
+* 您現在可以將從CSV檔案上傳的受眾鎖定在歷程和行銷活動中。 [了解更多](../audience/about-audiences.md#segments-in-journey-optimizer)
 * 您現在可以鎖定透過對象構成所建立的對象，並在歷程中運用擴充屬性。 [了解更多](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]

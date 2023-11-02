@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，對象，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: fd7e32d05b656f61488a53efb15b3bd86c6f99aa
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1356'
 ht-degree: 12%
 
 ---
@@ -47,13 +47,13 @@ ht-degree: 12%
 
 1. 新增 **[!UICONTROL 標籤]** 至活動（選用）。
 
-1. 在 **[!UICONTROL 對象]** 欄位，選擇將進入歷程的Adobe Experience Platform對象，然後按一下 **[!UICONTROL 儲存]**.
-
-   請注意，您可以自訂清單中顯示的欄並加以排序。
+1. 在 **[!UICONTROL 對象]** 欄位，選擇將進入歷程的Adobe Experience Platform對象，然後按一下 **[!UICONTROL 儲存]**. 您可以選取透過產生的任何Adobe Experience Platform對象 [區段定義](../audience/creating-a-segment-definition.md).
 
    >[!NOTE]
    >
-   >只有具備以下條件的個人： **已實現** 和 **現有** 對象參與率狀態將進入歷程。 如需如何評估對象的詳細資訊，請參閱 [分段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >此外，您也可以鎖定使用建立的Adobe Experience Platform對象 [對象組合](../audience/get-started-audience-orchestration.md) 或 [已從CSV檔案上傳](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. 這些功能目前以私人測試版的形式提供。
+
+   請注意，您可以自訂清單中顯示的欄並加以排序。
 
    ![](assets/read-segment-selection.png)
 
@@ -62,6 +62,10 @@ ht-degree: 12%
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/read-segment-copy.png)
+
+   >[!NOTE]
+   >
+   >只有具備以下條件的個人： **已實現** 和 **現有** 對象參與率狀態將進入歷程。 如需如何評估對象的詳細資訊，請參閱 [分段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. 在 **[!UICONTROL 名稱空間]** 欄位，選擇要使用的名稱空間以識別個人。 依預設，此欄位會預先填入最後使用的名稱空間。 [進一步瞭解名稱空間](../event/about-creating.md#select-the-namespace).
 
