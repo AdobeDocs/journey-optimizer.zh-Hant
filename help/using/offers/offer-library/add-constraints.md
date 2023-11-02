@@ -1,19 +1,19 @@
 ---
-title: 將限制新增至優惠方案
+title: 在優惠中新增限制
 description: 瞭解如何定義優惠方案顯示的條件
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
-source-wordcount: '2386'
-ht-degree: 17%
+source-wordcount: '2396'
+ht-degree: 18%
 
 ---
 
-# 將限制新增至優惠方案 {#add-constraints}
+# 在優惠中新增限制 {#add-constraints}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
@@ -45,6 +45,10 @@ ht-degree: 17%
 
    ![](../assets/offer-priority.png)
 
+   >[!NOTE]
+   >
+   >優惠優先順序必須為整數值（無小數）。
+
 1. 指定優惠方案的 **[!UICONTROL 上限]**，表示選件出現的次數。 [了解更多](#capping)
 
    ![](../assets/offer-capping.png)
@@ -59,7 +63,7 @@ ht-degree: 17%
 * 優惠方案的優先順序設為「50」，這表示將會在優先順序介於1到49的優惠方案之前以及優先順序至少為51的優惠方案之後顯示優惠方案。
 * 每個使用者在所有位置每月只會顯示一次選件。
 
-## 資格 {#eligibility}
+## 適用性 {#eligibility}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
@@ -127,7 +131,7 @@ ht-degree: 17%
 
   進一步瞭解中的決定規則 [本節](creating-decision-rules.md).
 
-## 上限 {#capping}
+## 頻率限定 {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
@@ -172,7 +176,7 @@ ht-degree: 17%
 >
 >優惠到期時或優惠方案開始日期後2年（以先到者為準）時，上限計數器會重設。 瞭解如何在中定義優惠方案的日期 [本節](creating-personalized-offers.md#create-offer).
 
-### 事件上限 {#capping-event}
+### 頻率限定事件 {#capping-event}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping_impression"
@@ -280,7 +284,7 @@ ht-degree: 17%
 
   例如，如果選件具有 **電子郵件** 位置和 **Web** 位置，並將上限設定在 **每個位置每個設定檔2個**，則每個設定檔最多可收到電子郵件版2次選件，以及額外的2次網路版。
 
-### 變更日期對上限的影響 {#capping-change-date}
+### 變更日期對頻率限定的影響 {#capping-change-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"

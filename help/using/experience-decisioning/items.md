@@ -1,5 +1,5 @@
 ---
-title: 決定專案
+title: 決定項目
 description: 瞭解如何使用決定專案
 feature: Experience Decisioning
 topic: Integrations
@@ -9,14 +9,14 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1034'
 ht-degree: 33%
 
 ---
 
-# 決定專案 {#items}
+# 決定項目 {#items}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
@@ -45,7 +45,7 @@ Journey Optimizer 可讓您建立行銷優惠 (稱為決定項目)，您可以�
 
 在建立決定專案之前，請確定您已建立 **決定規則** 如果要設定條件以決定要向誰顯示決策專案。 [瞭解如何建立決定規則](rules.md).
 
-## 建立您的第一個決定專案
+## 建立您的第一個決定項目
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_priority"
@@ -76,6 +76,10 @@ Journey Optimizer 可讓您建立行銷優惠 (稱為決定項目)，您可以�
    1. 設定 **[!UICONTROL 優先順序]** 與其他專案比較，如果設定檔符合多個專案的資格。 較高的優先順序使該項目優先於其他項目。
 
    ![](assets/item-attributes.png)
+
+   >[!NOTE]
+   >
+   >優先順序是整數資料型別。 整數資料型別的所有屬性都應包含整數值（無小數）。
 
 1. 自訂屬性是根據您的需求訂製並且可以指派給決定項目的特定屬性。 它們會在決定專案的目錄結構描述中定義。 [瞭解如何使用目錄](catalogs.md)
 
