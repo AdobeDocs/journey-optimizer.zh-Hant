@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，對象，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: fd7e32d05b656f61488a53efb15b3bd86c6f99aa
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 12%
@@ -37,7 +37,7 @@ ht-degree: 12%
 
 * 目前，使用對象 [從CSV檔案匯入](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 或產生自 [組合工作流程](../audience/get-started-audience-orchestration.md) 進入歷程會以私人測試版的形式提供。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-### 設定活動 {#configuring-segment-trigger-activity}
+## 設定活動 {#configuring-segment-trigger-activity}
 
 設定「讀取對象」活動的步驟如下：
 
@@ -116,7 +116,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >
 >一次性讀取對象歷程在歷程執行30天後移至「已完成」狀態。 對於排程的讀取對象，是在上次執行該事件後的 30 天。 
 
-### 測試並發佈歷程 {#testing-publishing}
+## 測試並發佈歷程 {#testing-publishing}
 
 此 **[!UICONTROL 讀取對象]** 活動可讓您在單一設定檔上測試歷程。
 
