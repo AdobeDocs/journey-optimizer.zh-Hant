@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 隱藏，清單，退信，電子郵件，最佳化工具，隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 22%
+source-wordcount: '1595'
+ht-degree: 23%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 22%
 >[!NOTE]
 >
 >Adobe會保留已知不良地址的更新清單（這些地址已被證明會損害參與和郵寄信譽），並確保不會將電子郵件傳遞給他們。 此清單在所有 Adobe 客戶通用的全球禁止名單中進行管理。 全球禁止名單中包含的地址和網域名稱都會隱藏起來。 傳遞報告中僅顯示排除的收件者人數。
+
+此外，您也可以善用Journey Optimizer **隱藏REST API** 使用隱藏和允許清單控制您的外寄訊息。 [瞭解如何使用隱藏REST API](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html)
 
 ## 存取隱藏清單 {#access-suppression-list}
 
@@ -89,7 +91,7 @@ ht-degree: 22%
 從 **[!UICONTROL 隱藏清單]** 檢視，您也可以從以下位置編輯與隱藏規則關聯的重試引數： **[!UICONTROL 編輯隱藏規則]** 按鈕。 使用此選項可更新目前沙箱的重試臨界值。 [進一步瞭解重試](retries.md).
 
 
-## 將位址和網域新增至隱藏清單{#add-addresses-and-domains}
+## 將地址和網域新增到禁止名單{#add-addresses-and-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
@@ -232,7 +234,7 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 
 接著，您可以使用將隔離的電子郵件地址從隱藏清單中移除 **[!UICONTROL 刪除]** 按鈕。
 
-## 下載隱藏清單 {#download-suppression-list}
+## 下載禁止名單 {#download-suppression-list}
 
 <!--
 >[!CONTEXTUALHELP]

@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙箱，歷程，複製，環境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 40ac0915da75b0011899e336e5b0bacb5d166626
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '750'
 ht-degree: 6%
 
 ---
@@ -62,6 +62,8 @@ Journey Optimizer 可讓您將整個歷程從一個沙箱複製到另一個沙�
 
 1. 將歷程新增為來源沙箱中的套件。
 1. 將套件匯出至目標沙箱。
+
+此外，您也可以善用Journey Optimizer **物件復制服務REST API** 以管理沙箱的物件。 [瞭解如何使用物件復制服務REST API](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
 
 ## 將歷程新增為封裝{#export}
 

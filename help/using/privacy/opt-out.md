@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: ht
-source-wordcount: '1041'
-ht-degree: 100%
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+workflow-type: tm+mt
+source-wordcount: '1078'
+ht-degree: 97%
 
 ---
 
@@ -29,6 +29,11 @@ ht-degree: 100%
 從歷程或行銷活動傳送訊息時，您必須一律確保客戶可取消訂閱未來的通訊。 取消訂閱後，個人資料將自動從未來行銷訊息的對象中移除。
 
 **[!DNL Journey Optimizer]** 提供管理電子郵件和簡訊訊息中選擇退出的方式，而推播通知不需要由您執行任何動作，因為收件者可以透過其裝置自行取消訂閱。 例如，在下載或使用您的應用程式時，他們可以選擇停止通知。 同樣地，他們也可以透過行動裝置作業系統變更通知設定。
+
+>[!NOTE]
+>
+>此外，您也可以善用Journey Optimizer **隱藏REST API** 使用隱藏和允許清單控制您的外寄訊息。 [瞭解如何使用隱藏REST API](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html)
+
 
 在以下章節中了解如何管理 Journey Optimizer 電子郵件和簡訊訊息中的選擇退出：
 
@@ -93,7 +98,7 @@ ht-degree: 100%
 >
 >尚未支援 [!DNL Journey Optimizer] 中將設定檔資料用於[資料模式](../offers/ranking/ai-models.md)的同意。
 
-## 在運算式編輯器中 {#opt-out-expression-editor}
+### 在運算式編輯器中 {#opt-out-expression-editor}
 
 [運算式編輯器](../personalization/personalization-build-expressions.md)本身不涉及傳送訊息，因此不會執行任何同意檢查或強制執行。 
 
