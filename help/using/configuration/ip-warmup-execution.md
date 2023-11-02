@@ -11,7 +11,7 @@ keywords: IP、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
 workflow-type: tm+mt
 source-wordcount: '1730'
 ht-degree: 19%
@@ -109,7 +109,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >如果您從IP熱身計畫中刪除所有階段，建議重新上傳計畫。 [了解更多](#re-upload-plan)
 
-## 定義回合 {#define-runs}
+## 定義執行 {#define-runs}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_run"
@@ -190,7 +190,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >
 >每次執行必須在實際傳送時間前至少12小時啟動。 否則，可能無法完成分段。
 
-當您啟動執行時，會自動建立數個區段。
+當您啟動回合時，會自動建立數個對象。
 
 * 如果啟動階段的第一次執行：
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '347'
 ht-degree: 14%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 14%
 
 ➡️ [透過此影片瞭解如何建立對象](#video-segment)
 
-1. 存取 **[!UICONTROL 受眾]** 功能表，然後按一下 **[!UICONTROL 建立對象]** 按鈕。
+1. 從 **[!UICONTROL 受眾]** 功能表，按一下 **[!UICONTROL 建立對象]** 按鈕並選取 **[!UICONTROL 建置規則]**.
 
    ![](assets/create-segment.png)
 
