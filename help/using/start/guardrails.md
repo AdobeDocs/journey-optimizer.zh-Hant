@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1698'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -40,12 +40,12 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 您無法將預覽文字新增至登陸頁面。
 * 在設計登陸主要頁面時，您無法選取&#x200B;**自行編碼**&#x200B;選項。
 
-## SMS護欄 {#sms-guardrails}
+## SMS 護欄 {#sms-guardrails}
 
-* MMS功能僅適用於Sinch。
-* MMS適用的媒體檔案可透過支援的URL加入。 請確定媒體檔案已個別上傳。
-* 訊息回饋同步目前不適用於MMS。
-* 同意管理在MMS的SMS頻道層級運作。
+* MMS 功能僅適用於 Sinch。
+* MMS 適用的媒體檔案可透過支援的 URL 加入。請確定媒體檔案已個別上傳。
+* 訊息回饋同步目前不適用於 MMS。
+* 同意管理在 MMS 的 SMS 通道層級運作。
 
 ## 歷程護欄 {#journeys-guardrails}
 
@@ -131,9 +131,9 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 * 應用程式內訊息內容大小限制為 2Mb。 包含大型影像可能會阻礙發佈過程。
 
-## 受眾護欄 {#audience}
+## 對象護欄 {#audience}
 
-* 您可以在指定的沙箱中發佈最多10個對象組合。 如果您達到此臨界值，則需要刪除構成以釋放空間並發佈新構成。
+* 您可以在指定的沙箱中發佈最多 10 個對象組合。如果您達到此臨界值，則需要刪除組合以釋放空間，才能發佈新的組合。
 
 ## 決策管理護欄 {#decision-management}
 
