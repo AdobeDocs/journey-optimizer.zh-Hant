@@ -15,7 +15,7 @@ ht-degree: 25%
 
 # 編寫單頁應用程式 {#web-author-spas}
 
-## 關於檢視 {#about-views}
+## 關於視圖 {#about-views}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications_views"

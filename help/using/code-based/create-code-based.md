@@ -12,7 +12,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1031'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 11%
 
 現在，當您的開發人員進行API或SDK呼叫以擷取所選表面的內容時，變更就會套用至您的網頁或應用程式。
 
-## 測試程式碼型行銷活動 {#test-code-based-campaign}
+## 測試基於程式碼的行銷活動 {#test-code-based-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"

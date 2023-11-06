@@ -32,7 +32,7 @@ ht-degree: 13%
 
 如果重試後傳送成功，位址的錯誤計數器會重新初始化。
 
-## 重試臨界值版本 {#edit-retry-threshold}
+## 重試閾值版本 {#edit-retry-threshold}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"

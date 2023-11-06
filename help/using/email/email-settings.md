@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
 workflow-type: tm+mt
 source-wordcount: '2340'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 12%
 >
 >更新的電子郵件表面設定將在使用表面的歷程或行銷活動中自動擷取。
 
-## 電子郵件型別 {#email-type}
+## 電子郵件類型 {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
@@ -192,7 +192,7 @@ ht-degree: 12%
 
 如果您在提交電子郵件介面時發生錯誤，表示您輸入之地址的子網域尚未設定MX記錄。 請連絡您的管理員以設定對應的MX記錄，或使用其他具有有效MX記錄設定的位址。
 
-## 傳送至隱藏的電子郵件地址 {#send-to-suppressed-email-addresses}
+## 傳送到禁止的電子郵件地址 {#send-to-suppressed-email-addresses}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_suppressed_addresses"
@@ -250,7 +250,7 @@ ht-degree: 12%
 
 瞭解如何在行銷活動或歷程中使用種子清單 [本節](../configuration/seed-lists.md#use-seed-list).
 
-## 電子郵件重試引數 {#email-retry}
+## 電子郵件重試參數 {#email-retry}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
@@ -272,7 +272,7 @@ ht-degree: 12%
 
 進一步瞭解中的重試 [本節](../configuration/retries.md).
 
-## URL追蹤 {#url-tracking}
+## URL 追蹤 {#url-tracking}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"

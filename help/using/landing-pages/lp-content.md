@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 定義登入頁面特定內容
+title: 定義特定於著陸頁面的內容
 description: 瞭解如何在Journey Optimizer中設計登入頁面特定內容
 feature: Landing Pages
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1324'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
-# 定義登入頁面特定內容 {#lp-content}
+# 定義特定於著陸頁面的內容 {#lp-content}
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"

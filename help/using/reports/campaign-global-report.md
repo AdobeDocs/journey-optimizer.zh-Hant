@@ -118,7 +118,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 如需這些結果的深入瞭解以及如何解讀，請參閱 [此頁面](../campaigns/get-started-experiment.md#interpret-results).
 
-## 電子郵件索引標籤 {#email-global}
+## 電子郵件標籤 {#email-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_statistics"
@@ -406,7 +406,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 此 **[!UICONTROL 依平台劃分]** 圖形和表格會根據您的設定檔作業系統詳細描述推播通知的成功情況。
 +++
 
-## 簡訊索引標籤 {#sms-global}
+## 簡訊標籤 {#sms-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
@@ -506,7 +506,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 此 **[!UICONTROL 依元素的互動]** 此表格詳細說明與您的訪客與您網頁上各種元素的參與度相關的主要資訊。
 +++
 
-## 直接郵件索引標籤 {#direct-mail-global}
+## 直接郵件標籤 {#direct-mail-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_sending_statistics"

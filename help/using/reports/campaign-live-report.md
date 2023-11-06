@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 39%
 From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
 -->
 
-## 電子郵件索引標籤 {#email-live}
+## 電子郵件標籤 {#email-live}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_sending_statistics"
@@ -235,7 +235,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 此 **[!UICONTROL 依據平台的追蹤]**， **[!UICONTROL 由平台傳送]** 和 **[!UICONTROL 依平台劃分]** 圖表和表格會根據作業系統詳細描述推播通知的成功情況。
 +++
 
-## 簡訊索引標籤 {#sms-live}
+## 簡訊標籤 {#sms-live}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_statistics"
@@ -325,7 +325,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 此 **[!UICONTROL 依元素的互動]** 此表格詳細說明與您的訪客與您網頁上各種元素的參與度相關的主要資訊。
 +++
 
-## 直接郵件索引標籤 {#direct-mail-tab}
+## 直接郵件標籤 {#direct-mail-tab}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"

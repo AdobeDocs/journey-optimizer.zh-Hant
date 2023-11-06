@@ -110,7 +110,7 @@ ht-degree: 15%
 
    ![](assets/journey12.png)
 
-## 選取名稱空間 {#select-the-namespace}
+## 選取命名空間 {#select-the-namespace}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"

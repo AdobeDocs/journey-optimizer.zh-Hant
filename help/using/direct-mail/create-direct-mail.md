@@ -5,12 +5,12 @@ feature: Direct Mail
 topic: Content Management
 role: User
 level: Beginner
-keywords: 直接郵件、訊息、行銷活動
+keywords: 直接郵件, 訊息, 行銷活動
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '720'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 17%
 
 您現在可以開始設定擷取檔案，以傳送給直接郵件提供者。
 
-## 設定擷取檔案 {#extraction-file}
+## 設定摘取檔案 {#extraction-file}
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_data_fields"

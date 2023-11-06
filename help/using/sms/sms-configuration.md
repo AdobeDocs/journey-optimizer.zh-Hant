@@ -32,7 +32,7 @@ Adobe Journey Optimizer目前與Sinch、Twilio和Infobip等協力廠商整合，
 >
 >若要存取及編輯SMS子網域，您必須擁有 **[!UICONTROL 管理SMS子網域]** 生產沙箱的許可權。
 
-## 建立新的API認證 {#create-api}
+## 建立新的 API 認證 {#create-api}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"

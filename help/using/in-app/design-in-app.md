@@ -35,7 +35,7 @@ ht-degree: 28%
 
 建立應用程式內訊息，並定義內容與個人化後，您就可以檢閱並啟用該訊息。 然後，將根據行銷活動排程傳送通知。 在[本頁](send-in-app.md)中瞭解更多。
 
-## 訊息配置 {#message-layout}
+## 訊息版面 {#message-layout}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_message_layout"
@@ -113,7 +113,7 @@ ht-degree: 28%
 
 +++
 
-### 頁首與內文 {#title-body}
+### 標題和本文 {#title-body}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_content"

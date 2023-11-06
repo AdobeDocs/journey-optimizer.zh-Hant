@@ -18,7 +18,7 @@ ht-degree: 12%
 
 # 在歷程中使用對象 {#segment-trigger-activity}
 
-## 新增讀取對象活動 {#about-segment-trigger-actvitiy}
+## 新增閱讀對象活動 {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"

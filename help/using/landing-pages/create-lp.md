@@ -12,7 +12,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1785'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
@@ -209,7 +209,7 @@ ht-degree: 24%
 
 ![](assets/lp_subpage-settings.png)
 
-## 測試登入頁面 {#test-landing-page}
+## 測試登陸頁面 {#test-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"

@@ -12,7 +12,7 @@ exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '595'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 7%
 
   ![](assets/conditions-access-editor.png)
 
-## 建立條件規則 {#create-condition}
+## 建立條件式規則 {#create-condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"

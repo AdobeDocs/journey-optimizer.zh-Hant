@@ -9,7 +9,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -152,7 +152,7 @@ ht-degree: 17%
 
 1. 您可以使用它輕鬆導覽至視覺編輯器中的任何父項、同層級專案或子項元素。
 
-### 切換至瀏覽模式 {#browse-mode}
+### 切換到瀏覽模式 {#browse-mode}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"

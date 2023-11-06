@@ -12,7 +12,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 19%
 >
 >在 [!DNL Journey Optimizer] 使用者介面，決策原則會標示為決策<!--but they are decision policies. TBC if this note is needed-->.
 
-## 將決定原則新增至程式碼型行銷活動 {#add-decision}
+## 將決定原則新增至基於程式碼的行銷活動 {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"

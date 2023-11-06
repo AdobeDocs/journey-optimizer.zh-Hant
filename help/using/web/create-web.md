@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '832'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 17%
 
 有關如何設定行銷活動的詳細資訊，請參閱 [此頁面](../campaigns/get-started-with-campaigns.md).
 
-## 測試網站行銷活動 {#test-web-campaign}
+## 測試網路行銷活動 {#test-web-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"
