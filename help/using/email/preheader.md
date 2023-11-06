@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在Journey Optimizer中新增預覽文字
+title: 在 Journey Optimizer 中新增預覽文字
 description: 了解如何設計您的電子郵件內容
 feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 預覽文字，編輯器，摘要，電子郵件
+keywords: 預覽文字, 編輯器, 摘要, 電子郵件
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# 加入預告標題 {#preheader}
+# 加入預覽文字 {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
@@ -39,7 +39,7 @@ ht-degree: 86%
 
    ![](assets/preheader_body.png)
 
-1. 從 **[!UICONTROL 設定]** 標籤，按一下旁邊的個人化圖示 **[!UICONTROL 預覽文字]** 欄位以新增內容。
+1. 從&#x200B;**[!UICONTROL 設定]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL 預覽文字]**&#x200B;欄位旁邊的個人化圖示來新增內容。
 
    ![](assets/preheader_body_settings.png)
 
