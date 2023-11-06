@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->目前，使用者可在私人測試版中使用構成工作流程產生的歷程對象。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>目前，使用者可在 Private Beta 中將構成工作流程產生的對象用於歷程。如需詳細資訊，請聯絡您的 Adobe 代表。
 >
 >Adobe Journey Optimizer 的行銷活動尚未與原則執行服務整合。 因此，您套用至對象屬性的任何資料使用標籤都不會在 Journey Optimizer 行銷活動中執行。
 
