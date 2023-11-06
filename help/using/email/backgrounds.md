@@ -7,12 +7,12 @@ feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-keywords: 背景，電子郵件，顏色，編輯器
+keywords: 背景, 電子郵件, 顏色, 編輯器
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 82%
 
 以下是您可以使用的可用背景設定。
 
-* 設定整個電子郵件的&#x200B;**[!UICONTROL 背景顏色]**。請務必在可從左側浮動視窗存取的導覽樹狀結構中選取內文設定。
+* 設定整個電子郵件的&#x200B;**[!UICONTROL 背景顏色]**。務必在可從左側調色盤存取的導覽樹狀目錄中選取內文設定。
 
   ![](assets/background_1.png)
 
@@ -39,7 +39,7 @@ ht-degree: 82%
 
   ![](assets/background_2.png)
 
-* 為每個結構元件設定不同的背景顏色。在導覽樹狀結構中選取可從左側浮動視窗存取的結構，以僅將特定背景顏色套用至該結構。
+* 為每個結構元件設定不同的背景顏色。在左調色盤的導覽樹狀目錄中選取結構，以僅將特定背景顏色套用到該結構。
 
   確保您沒有設定檢視區的背景顏色，因為它可能會隱藏結構背景顏色。
 
@@ -49,7 +49,7 @@ ht-degree: 82%
 
   >[!NOTE]
   >
-  >某些電子郵件程式不支援背景影像。當不支援時，將改用列背景顏色。 確保選取合適的後備背景顏色，以防影像無法顯示。
+  >某些電子郵件程式不支援背景影像。如果不支援，則改用列背景顏色。確保選取合適的後備背景顏色，以防影像無法顯示。
 
   ![](assets/background_4.png)
 
