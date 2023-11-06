@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4010'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,19 +21,19 @@ ht-degree: 94%
 
 ## 2023 年 10 月 {#oct-2023}
 
-* 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2023年10月版本的詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
+* 有關 [!DNL Journey Optimizer]2023 年 10 月發行版本所有新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
 * 新增 GIF 以展示一些重要功能，例如：[內容範本](../content-management/content-templates.md)、[片段](../content-management/fragments.md)、[計算屬性](../audience/computed-attributes.md)、[直接郵件](../direct-mail/get-started-direct-mail.md)、[標記](../start/search-filter-categorize.md#tags)、[決策管理最佳化模型](../offers/ranking/personalized-optimization-model.md)、[API 觸發的行銷活動](../campaigns/api-triggered-campaigns.md)和[內容實驗](../campaigns/content-experiment.md)。
 * 已更新結構描述建立流程，以反映使用者介面中隨 Adobe Experience Platform 變更而來的最新更新。 [閱讀全文](../audience/creating-test-profiles.md)
 * 決策管理護欄已新增到「護欄和限制」頁面。 [閱讀全文](../start/guardrails.md#decision-management)
-* 「標頭引數」區段已更新，以反映處理休假通知和質詢回應的方式(系統會在以下網址接收這些通知： **[!UICONTROL 錯誤電子郵件]**)。 [閱讀全文](../email/email-settings.md#email-header)
-* 已建立有關如何預覽和測試內容的新區段。 [閱讀全文](../content-management/preview-test.md)
-* 「實作單頁應用程式」頁面已移至AdobeExperience Platform Web SDK檔案。 [閱讀全文](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
+* 「標頭參數」區段已更新，以反映處理休假通知和質詢回應的方式 (在&#x200B;**[!UICONTROL 錯誤電子郵件]**&#x200B;接收這些通知)。[閱讀全文](../email/email-settings.md#email-header)
+* 已建立有關如何預覽和測試內容的新區段。[閱讀全文](../content-management/preview-test.md)
+* 實施單頁應用程式頁面已移至 Adobe Experience Platform Web SDK 文件。[閱讀全文](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hant){target="_blank"}
 * 「上限」區段已更新，以反映與決定管理介面中的優惠方案上限相關的標籤變更。 [閱讀全文](../offers/offer-library/add-constraints.md#capping)
-* 「將動態內容新增至電子郵件」已更新，其中包含有關如何刪除變體的詳細資訊。 [閱讀全文](../personalization/dynamic-content.md#emails)
+* 「將動態內容新增至電子郵件」已更新，其中包含有關如何刪除變體的詳細資訊。[閱讀全文](../personalization/dynamic-content.md#emails)
 * 上限和節流設定的範例已更新。 [閱讀全文](../configuration/external-systems.md)
 * 已從外部資料來源區段中移除有關純量陣列的限制。 [閱讀全文](../datasource/external-data-sources.md)
-* 多頻道歷程使用案例已更新。 [閱讀全文](../building-journeys/journeys-uc.md)
-* Journey Optimizer檔案集已更新，以反映新的Experience Platform結構描述建立程式。
+* 多通道歷程使用案例已更新。 [閱讀全文](../building-journeys/journeys-uc.md)
+* Journey Optimizer 文件集已更新，以反映新的 Experience Platform 方案建立流程。
 
 ## 2023 年 9 月 {#september-2023}
 
@@ -48,7 +48,7 @@ ht-degree: 94%
 * 已更新連至存取控制文件的連結。 [閱讀全文](../administration/permissions.md)
 * 應用程式內頻道先決條件已更新，其中包含 Adobe Experience Platform 資料彙集詳細資料。 [閱讀全文](../in-app/inapp-configuration.md)
 * 已更新排名公式範例中呈現的一些運算式，以避免發生驗證錯誤。 [閱讀全文](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
-* 「定義決定範圍」區段已新增警告，以指定如果在評估條件群組中使用AI模型，則該群組中的所有評估條件都必須使用具有相同特定AI模型的AI排名方法。 此外，只限一個評估標準群組使用 AI 模型。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* 警告已新增至定義決定範圍區段，以指定是否要在評估準則群組中使用 AI 模型，該群組中的所有評估準則都必須以相同的特定 AI 模型來使用 AI 排名方法。此外，只限一個評估標準群組使用 AI 模型。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## 2023 年 8 月 {#august-2023}
 
