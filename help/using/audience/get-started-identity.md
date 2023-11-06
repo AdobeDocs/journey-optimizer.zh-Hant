@@ -20,7 +20,7 @@ ht-degree: 100%
 
 電子郵件地址和電話號碼等個人身分資訊 (PII)，用於直接識別客戶。因此，PII 可用來比對跨系統的客戶多重身分。
 
-在 [!DNL Adobe Journey Optimizer]，**身分**&#x200B;跨裝置和管道連結消費者，結果會是[識別圖](#id-graph)。 連結的身分圖表可依據您所有業務接觸點的互動，來個人化體驗。  
+在 [!DNL Adobe Journey Optimizer]，**身分**&#x200B;跨裝置和管道連結消費者，結果會是[識別圖](#id-graph)。 連結的身分圖表可依據您所有業務接觸點的互動，來個人化體驗。
 
 ![](assets/identities-home.png)
 
