@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -205,7 +205,7 @@ ht-degree: 96%
    + [應用程式內頻道先決條件](using/in-app/inapp-configuration.md)
    + [建立應用程式內訊息](using/in-app/create-in-app.md)
    + [設計您的應用程式內內容](using/in-app/design-in-app.md)
-   + [檢查並傳送您的應用程式內通知](using/in-app/send-in-app.md)
+   + [檢查並傳送應用程式內通知](using/in-app/send-in-app.md)
 + 推播通知頻道{#push}
    + [開始使用推播通知](using/push/get-started-push.md)
    + [建立推播通知](using/push/create-push.md)
@@ -218,7 +218,7 @@ ht-degree: 96%
 + 簡訊頻道{#sms}
    + [開始使用簡訊](using/sms/get-started-sms.md)
    + [建立簡訊訊息](using/sms/create-sms.md)
-   + [建立MMS訊息](using/sms/create-mms.md)
+   + [建立 MMS 訊息](using/sms/create-mms.md)
    + [檢查並傳送簡訊](using/sms/send-sms.md)
    + [管理簡訊選擇退出](using/sms/sms-opt-out.md)
    + [設定簡訊頻道](using/sms/sms-configuration.md)
@@ -301,7 +301,7 @@ ht-degree: 96%
       + [開始使用動態內容](using/personalization/get-started-dynamic-content.md)
       + [建立條件式規則](using/personalization/create-conditions.md)
       + [建立動態內容](using/personalization/dynamic-content.md)
-   + 預覽和測試您的內容 {#preview-test}
+   + 預覽和測試內容 {#preview-test}
       + [開始預覽和測試](using/content-management/preview-test.md)
       + [選取測試設定檔](using/content-management/test-profiles.md)
       + [預覽您的內容](using/content-management/preview.md)
