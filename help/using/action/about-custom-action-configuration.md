@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 14%
+source-wordcount: '1342'
+ht-degree: 17%
 
 ---
 
@@ -37,7 +37,9 @@ ht-degree: 14%
 
 ## 最佳作法{#custom-action-enhancements-best-practices}
 
-所有自訂動作皆已定義30秒內150,000次呼叫的上限限制。 此限制是根據客戶使用情況來設定，可保護自訂動作鎖定為目標的外部端點。您需要透過定義適當的讀取率（使用自訂動作時為5000個設定檔/秒），在以對象為基礎的歷程中將其納入考量。 如有需要，您可以透過我們的上限/節流API定義較大的上限或節流限制來覆寫此設定。 請參閱[此頁面](../configuration/external-systems.md)。
+所有自訂動作皆已定義1分鐘上300,000次呼叫的上限。 此外，預設上限會針對每個主機和每個沙箱執行。 例如，在沙箱上，如果您有兩個具有相同主機的端點(例如： `https://www.adobe.com/endpoint1` 和 `https://www.adobe.com/endpoint2`)，此上限將套用至adobe.com主機下的所有端點。 「endpoint1」和「endpoint2」會共用相同的上限設定，而且讓一個端點達到限制會影響到另一個端點。
+
+此限制是根據客戶使用情況來設定，可保護自訂動作鎖定為目標的外部端點。您需要定義適當的讀取率 (使用自訂動作時為每秒 5000 個設定檔)，以在對象歷程中將其列入考量。 如有需要，您可以透過上限/節流 API 定義較高的上限或節流限制來覆寫此設定。 請參閱[此頁面](../configuration/external-systems.md)。
 
 基於以下各種原因，您不應使用自訂動作來鎖定公用端點：
 
