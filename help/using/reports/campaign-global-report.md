@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '3192'
-ht-degree: 25%
+source-wordcount: '3357'
+ht-degree: 24%
 
 ---
 
@@ -173,6 +173,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 此 **[!UICONTROL 電子郵件傳送統計資料]** 圖表會詳細說明您的電子郵件是否成功：
 
+* **[!UICONTROL 執行時間]**：您週期性電子郵件每次執行的開始時間。 若要只鎖定一或多個週期性電子郵件，請從 **[!UICONTROL 執行時間]** 下拉式清單。
+
 * **[!UICONTROL 已鎖定目標]**：傳送過程中處理的訊息總數。
 
 * **[!UICONTROL 已傳送]**：電子郵件的傳送總數。
@@ -194,6 +196,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 * **[!UICONTROL 已排除]**：Adobe Journey Optimizer已排除的設定檔數。
 
 此 **[!UICONTROL 電子郵件 — 追蹤統計資料]** Widget包含您電子郵件之設定檔活動的可用資料：
+
+* **[!UICONTROL 執行時間]**：您週期性電子郵件每次執行的開始時間。 若要只鎖定一或多個週期性電子郵件，請從 **[!UICONTROL 執行時間]** 下拉式清單。
 
 * **[!UICONTROL 開啟次數]**：電子郵件開啟的次數。
 
@@ -243,7 +247,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >
 > 此 **[!UICONTROL 電子郵件 — 熱門收件者網域]** widget的正確率為99.95%。
 
-此 **[!UICONTROL 已最佳化與未最佳化]** 圖表詳細說明與訊息相關的主要資訊，無論是否已最佳化：
+此 **[!UICONTROL 電子郵件 — 已最佳化與正常]** 圖表詳細說明與訊息相關的主要資訊，無論是否已最佳化：
 
 * **[!UICONTROL 已傳送]**：傳送總數。
 
@@ -251,7 +255,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL 點按次數]**：內容在電子郵件中的點按次數。
 
-此 **[!UICONTROL 傳送時間最佳化]** 根據傳送方式詳細說明您的電子郵件是否成功：已最佳化或正常。
+此 **[!UICONTROL 電子郵件 — 傳送時間最佳化]** 根據傳送方式詳細說明您的電子郵件是否成功：已最佳化或正常。
 
 * **[!UICONTROL 已傳遞]**：成功傳送的訊息數，與已傳送訊息總數相關。
 
@@ -337,7 +341,9 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++進一步瞭解推送報表可用的不同量度和Widget。
 
-此 **[!UICONTROL 推播通知 — 傳送統計資料]** 表格詳細說明與推播通知相關的主要資訊
+此 **[!UICONTROL 推播通知 — 傳送統計資料]** 表格詳細說明與推播通知相關的主要資訊：
+
+* **[!UICONTROL 執行時間]**：您每次執行循環推播通知的開始時間。 若要僅定位一或多個循環推播通知，請從 **[!UICONTROL 執行時間]** 下拉式清單。
 
 * **[!UICONTROL 已鎖定目標]**：分析期間處理的訊息總數。
 
@@ -358,6 +364,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 * **[!UICONTROL 已排除]**：Adobe Journey Optimizer已排除的設定檔數。
 
 此 **[!UICONTROL 推播 — 追蹤統計資料]** 包含推播通知之設定檔活動的可用資料：
+
+* **[!UICONTROL 執行時間]**：您每次執行循環推播通知的開始時間。 若要僅定位一或多個循環推播通知，請從 **[!UICONTROL 執行時間]** 下拉式清單。
 
 * **[!UICONTROL 開啟次數]**：您的推播通知開啟次數。
 
@@ -446,6 +454,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 此 **[!UICONTROL 簡訊 — 傳送統計資料]** 表格詳細說明您的SMS訊息是否成功：
 
+* **[!UICONTROL 執行時間]**：您每次執行循環SMS訊息的開始時間。 若要僅定位一或多個循環的SMS訊息，請從 **[!UICONTROL 執行時間]** 下拉式清單。
+
 * **[!UICONTROL 已鎖定目標]**：符合目標設定檔資格的使用者設定檔數目。
 
 * **[!UICONTROL 已排除]**：從目標設定檔中排除且未收到訊息的使用者設定檔數。
@@ -530,6 +540,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 +++進一步瞭解直接郵件報表可用的不同量度和Widget。
 
 此 **[!UICONTROL 直接郵件 — 傳送統計資料]** 下表詳細說明直接郵件的成功率：
+
+* **[!UICONTROL 執行時間]**：您每次執行循環直接郵件的開始時間。 若要只定位一或多個循環的直接郵件，請從 **[!UICONTROL 執行時間]** 下拉式清單。
 
 * **[!UICONTROL 已鎖定目標]**：符合此直接郵件目標設定檔資格的使用者設定檔數目。
 

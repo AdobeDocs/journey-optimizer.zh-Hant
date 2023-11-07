@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1100'
 ht-degree: 9%
 
 ---
@@ -89,6 +89,11 @@ ht-degree: 9%
   <tr> 
    <td> 錯誤率<br/> </td> 
    <td> 與已傳送的電子郵件相較之下，在傳送期間發生且無法傳送的錯誤百分比。<br/> </td> 
+</tr>
+</tr> 
+  <tr> 
+   <td> 錯誤原因<br/> </td> 
+   <td> 特定原始錯誤原因的名稱。 <a href="error-list.md">進一步瞭解錯誤原因</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> 已排除<br/> </td> 
@@ -332,7 +337,11 @@ ht-degree: 9%
   <tr> 
    <td> 錯誤率<br/> </td> 
    <td> 與推播通知傳送相比，傳送期間發生且無法傳送的錯誤百分比。<br/> </td> 
-</tr> 
+</tr>
+  <tr> 
+   <td> 錯誤原因<br/> </td> 
+   <td> 特定原始錯誤原因的名稱。 <a href="error-list.md">進一步瞭解錯誤原因</a>.<br/> </td> 
+</tr>
   <tr> 
    <td> 已排除<br/> </td> 
    <td> Adobe Journey Optimizer已排除的設定檔數。<br/> </td> 
@@ -356,7 +365,7 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-### 登陸頁面量度 {#landing-page-metrics}
+## 登陸頁面量度 {#landing-page-metrics}
 
 <table> 
  <thead> 

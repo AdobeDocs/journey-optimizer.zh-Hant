@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
@@ -44,6 +44,12 @@ ht-degree: 1%
 1. 在全域報表中，選取以特定資料為目標的「開始」和「結束」時間。
 
    ![](assets/report_modify_1.png)
+
+1. 對於包含多個已設定的歷程報告 **[!UICONTROL 動作]**，選擇特定的 **[!UICONTROL 動作]** （從下拉式功能表）。
+
+1. 如果您只想鎖定一或多個週期性訊息，請從 **[!UICONTROL 執行時間]** 下拉式清單。
+
+   ![](assets/report_modify_12.png)
 
 1. 選擇是否要使用切換列從報表中排除測試事件。 有關測試事件的詳細資訊，請參閱 [此頁面](../building-journeys/testing-the-journey.md).
 
