@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子網域, PTR, 記錄, DNS, 網域, 郵件
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 100%
+source-wordcount: '777'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
 >title="子網域的 PTR 記錄"
->abstract="在 Journey Optimizer 中將子網域委派給 Adobe 後，會自動建立 PTR 記錄並將其和此子網域建立關聯。"
+>abstract="在Journey Optimizer中將第一個子網域委派給Adobe後，就會自動建立PTR記錄。"
 
 ## 關於 PTR 記錄 {#about-ptr-records}
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ## 存取子網域的 PTR 記錄 {#access-ptr-records}
 
-在 Adobe Journey Optimizer 中[委派子網域](delegate-subdomain.md)後，隨即會自動建立 PTR 記錄並將其和此子網域建立關聯。您可以從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL PTR 記錄]**&#x200B;功能表來存取。
+一旦您 [委派](delegate-subdomain.md) 要Adobe的第一個子網域 [!DNL Journey Optimizer]，系統會自動為您的IP建立PTR記錄。 您可以從以下位置存取它們： **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL PTR記錄]** 功能表。
 
 ![](assets/ptr-records.png)
 

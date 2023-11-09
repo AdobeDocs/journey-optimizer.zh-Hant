@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 管道，表面，技術，引數，最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 9%
 
 >[!CAUTION]
 >
-> * 若要建立、編輯和刪除管道曲面，您必須擁有 [管理管道表面](../administration/high-low-permissions.md#manage-channel-surface) 許可權。
+> * 若要建立、編輯和刪除管道曲面，您必須擁有 [管理訊息預設集](../administration/high-low-permissions.md#administration-permissions) 許可權。
 >
 > * 您必須執行 [電子郵件設定](../email/get-started-email-config.md)， [推播設定](../push/push-configuration.md) 和 [簡訊設定](../sms/sms-configuration.md) 建立管道曲面之前的步驟。
 
@@ -47,7 +47,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="管道表面設定 "
->abstract="為了能夠建立來自歷程或行銷活動的電子郵件之類的動作，您必須首先建立一個管道表面來定義訊息所需的所有技術設定。您必須具有管理管道表面權限才能建立、編輯和刪除管道表面。"
+>abstract="為了能夠建立來自歷程或行銷活動的電子郵件之類的動作，您必須首先建立一個管道表面來定義訊息所需的所有技術設定。您必須擁有管理訊息預設集許可權，才能建立、編輯和刪除頻道介面。"
 
 若要建立管道曲面，請遵循下列步驟：
 

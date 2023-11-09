@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 許可權，高階，低階，設定檔， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -288,20 +288,6 @@ ht-degree: 0%
 
 ## 頻道設定資源 {#administration-permissions}
 
-* **[!DNL Manage channel surface]** 高階許可權可讓使用者在沙箱層級建立、編輯和刪除跨頻道的頻道介面。
-
-+++ 其中包含下列低階許可權：
-
-   * Journey Optimizer專用：
-      * messages_presets.read
-      * messages_presets.write
-      * messages_presets.delete
-      * subdomains_delegation.read
-      * IP_pools.read
-      * mobile_setting.read (來自Adobe Experience Platform Launch)
-
-+++
-
 * **[!DNL Manage IP pools]** 高階許可權可讓使用者建立、編輯和刪除相似性定義。
 
 +++ 其中包含下列低階許可權：
@@ -341,7 +327,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage messages presets]** 高階許可權可讓使用者讀取、建立、編輯和刪除內容品牌。
+* **[!DNL Manage messages presets]** 高階許可權可讓使用者在沙箱層級讀取、建立、編輯和刪除跨頻道的頻道介面。
 
 +++ 其中包含下列低階許可權：
 
@@ -353,7 +339,7 @@ ht-degree: 0%
       * IP_pools.read
 
    * 資料收集特定：
-      * Mobile_setting.read
+      * Mobile_setting.read <!--(from Adobe Experience Platform Launch)-->
 
 +++
 
@@ -390,7 +376,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage subdomains delegation]** 高階許可權可讓使用者建立、編輯和刪除子網域委派（包括IP集區）。
+* **[!DNL Manage subdomains delegations]** 高階許可權可讓使用者建立、編輯和刪除子網域委派（包括IP集區）。
 
 +++ 其中包含下列低階許可權：
    * Journey Optimizer專用：
