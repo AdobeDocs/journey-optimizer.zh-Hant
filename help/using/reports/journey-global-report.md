@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: 523c0cf8dd32eb9a1d2616258a7f5a142fd3499c
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: '2394'
 ht-degree: 2%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 2%
 
 此 **[!UICONTROL 電子郵件傳送統計資料]** 圖表會詳細說明您的傳送是否成功：
 
-* **[!UICONTROL 執行時間]**：歷程中每次執行週期性電子郵件的開始時間。 若要只鎖定一或多個週期性電子郵件，請從 **[!UICONTROL 執行時間]** 下拉式清單。
+* **[!UICONTROL 執行時間]**：如果為週期性歷程，則為每次歷程執行的開始時間。 若要只鎖定一或多個遞回，請從 **[!UICONTROL 執行時間]** 下拉式清單。
 
 * **[!UICONTROL 已鎖定目標]**：任何動作（例如傳送電子郵件或簡訊）的目標設定檔數。
 
@@ -198,7 +198,7 @@ ht-degree: 2%
 
 此 **[!UICONTROL 推播通知 — 傳送統計資料]** 表格會使用圖表和KPI詳細列出與推播通知相關的主要資訊：
 
-* **[!UICONTROL 執行時間]**：歷程中每次執行週期性推播通知的開始時間。 若要僅定位一或多個循環推播通知，請從 **[!UICONTROL 執行時間]** 下拉式清單。
+* **[!UICONTROL 執行時間]**：如果為週期性歷程，則為每次歷程執行的開始時間。 若要只鎖定一或多個遞回，請從 **[!UICONTROL 執行時間]** 下拉式清單。
 
 * **[!UICONTROL 已鎖定目標]**：任何動作（例如傳送電子郵件或簡訊）的目標設定檔數。
 
@@ -218,7 +218,7 @@ ht-degree: 2%
 
 此 **[!UICONTROL 推播 — 追蹤統計資料]** 包含傳遞的收件者活動可用資料：
 
-* **[!UICONTROL 執行時間]**：歷程中每次執行週期性推播通知的開始時間。 若要僅定位一或多個循環推播通知，請從 **[!UICONTROL 執行時間]** 下拉式清單。
+* **[!UICONTROL 執行時間]**：如果為週期性歷程，則為每次歷程執行的開始時間。 若要只鎖定一或多個遞回，請從 **[!UICONTROL 執行時間]** 下拉式清單。
 
 * **[!UICONTROL 開啟次數]**：在傳遞中開啟訊息的次數。
 
@@ -274,7 +274,7 @@ ht-degree: 2%
 
 此 **[!UICONTROL 簡訊 — 傳送統計資料]** 表格詳細說明您的傳送是否成功：
 
-* **[!UICONTROL 執行時間]**：歷程中每次執行循環SMS訊息的開始時間。 若要僅定位一或多個循環的SMS訊息，請從 **[!UICONTROL 執行時間]** 下拉式清單。
+* **[!UICONTROL 執行時間]**：如果為週期性歷程，則為每次歷程執行的開始時間。 若要只鎖定一或多個遞回，請從 **[!UICONTROL 執行時間]** 下拉式清單。
 
 * **[!UICONTROL 已鎖定目標]**：符合此傳送目標設定檔資格的使用者設定檔數目。
 
