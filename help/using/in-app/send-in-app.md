@@ -1,5 +1,5 @@
 ---
-title: 檢查並傳送您的應用程式內通知
+title: 檢查並傳送應用程式內通知
 description: 瞭解如何在Journey Optimizer中檢查並傳送應用程式內訊息
 feature: In App
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '362'
 ht-degree: 13%
 
 ---
 
-# 檢查並傳送您的應用程式內通知 {#create-in-app}
+# 檢查並傳送應用程式內通知 {#create-in-app}
 
 ## 在裝置上預覽 {#preview-device}
 
@@ -35,6 +35,14 @@ ht-degree: 13%
 1. 使用裝置掃描QR碼，然後輸入顯示的PIN碼。
 
 您現在可以直接在裝置上觸發應用程式內訊息，讓您在實際裝置上預覽及檢閱訊息。
+
+## 使用測試設定檔預覽 {#simulate}
+
+定義應用程式內訊息後，您就可以使用測試設定檔來預覽。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
+
+若要這麼做，請按一下 **[!UICONTROL 模擬內容]** 然後新增測試設定檔，以使用測試設定檔資料檢查您的訊息。
+
+有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱 [內容管理](../content-management/preview-test.md) 區段。
 
 ## 檢閱並啟用您的應用程式內通知{#in-app-review}
 
