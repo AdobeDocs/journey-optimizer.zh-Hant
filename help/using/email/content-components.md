@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 元件，電子郵件設計工具，編輯器，電子郵件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 607dd050b4e340bf6ae80fec76be8a64f3962645
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 57%
+source-wordcount: '1405'
+ht-degree: 54%
 
 ---
 
@@ -167,11 +167,17 @@ ht-degree: 57%
 
    ![](assets/email_designer_image_content.png)
 
-1. 按一下「**[!UICONTROL 瀏覽]**」，從您的資產中選擇影像檔案。
+1. 從 **[!UICONTROL 設定]** 標籤，按一下 **[!UICONTROL 瀏覽]** 若要從您的資產選擇影像檔案，或 **[!UICONTROL 匯入媒體]** 將資產上傳至Assets Essentials。
 
    若要進一步瞭解 [!DNL Assets Essentials]，請參閱 [Adobe Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
-1. 按一下您新增的元件，然後從「 」設定影像屬性 **[!UICONTROL 設定]** 標籤：
+   >[!NOTE]
+   >
+   > 為確保您的連結保持作用中狀態並避免任何到期問題，我們建議使用Adobe資產，而非依賴影像的來源URL。
+
+1. 您也可以使用直接在Adobe Stock中搜尋 **[!UICONTROL 尋找Adobe Stock像片]** 選項。
+
+1. 按一下您新增的元件，然後設定影像屬性：
 
    * **[!UICONTROL 影像標題]**&#x200B;可讓您定義影像的標題。
    * **[!UICONTROL 替代文字]**&#x200B;可讓您定義連結到影像的註解。這對應於替代 HTML 屬性。
