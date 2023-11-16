@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 00bd3a2fb35ef2c634ed631b358a5256f47c7e58
+source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 31%
+source-wordcount: '929'
+ht-degree: 32%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 31%
 
 1. A [檔案路由設定](#file-routing-configuration) 指定要匯出檔案的伺服器，並在必要時加密檔案。
 
-1. A [直接郵件表面](#direct-mail-surface) 會參照檔案路由組態。
+   >[!CAUTION]
+   >
+   >若要建立檔案路由組態，您必須擁有 **[!DNL Manage file routing]** 內建許可權。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)。
 
->[!CAUTION]
->
->如果您尚未設定任何檔案路由選項，您將無法建立直接郵件表面。
+1. A [直接郵件表面](#direct-mail-surface) 會參照檔案路由組態。 如果您尚未設定任何檔案路由選項，您將無法建立直接郵件表面。
 
 ## 設定檔案路由 {#file-routing-configuration}
 
@@ -121,7 +121,7 @@ ht-degree: 31%
 
 直接郵件表面還必須包含檔案路由設定，該設定定義了直接郵件檔案將匯出的伺服器。
 
-1. 建立管道表面。 [了解更多](../configuration/channel-surfaces.md)
+1. 建立管道表面. [了解更多](../configuration/channel-surfaces.md)
 
 1. 選取 **[!UICONTROL 直接郵件]** 頻道。
 
