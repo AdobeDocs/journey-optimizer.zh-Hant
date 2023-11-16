@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 許可權，高階，低階，設定檔， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -288,6 +288,17 @@ ht-degree: 0%
 
 ## 頻道設定資源 {#administration-permissions}
 
+* **[!DNL Manage file routing]** 高階許可權可讓使用者建立、編輯和刪除檔案路由設定。
+
++++ 其中包含下列低階許可權：
+   * Journey Optimizer專用：
+
+      * file_routing.read
+      * file_routing.write
+      * file_routing.delete
+
++++
+
 * **[!DNL Manage IP pools]** 高階許可權可讓使用者建立、編輯和刪除相似性定義。
 
 +++ 其中包含下列低階許可權：
@@ -399,13 +410,12 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL View PTR records]** 高階許可權可讓使用者檢視已根據子網域設定的PTR記錄。
+* **[!DNL View file routing]** 高階許可權可讓使用者檢視檔案路由設定。
 
 +++ 其中包含下列低階許可權：
    * Journey Optimizer專用：
 
-      * PTR_records.read
-      * subdomains_delegation.read
+      * file_routing.read
 
 +++
 
@@ -434,6 +444,17 @@ ht-degree: 0%
       * Mobile_setting.read
 
 +++
+
+* **[!DNL View PTR records]** 高階許可權可讓使用者檢視已根據子網域設定的PTR記錄。
+
++++ 其中包含下列低階許可權：
+   * Journey Optimizer專用：
+
+      * PTR_records.read
+      * subdomains_delegation.read
+
++++
+
 <!--
 ### [!DNL View channel surface] permission {#view-channel-surface}
 
