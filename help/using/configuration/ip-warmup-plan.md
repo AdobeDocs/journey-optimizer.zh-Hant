@@ -11,10 +11,10 @@ keywords: IP、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 2483f53982acc920676190c1bc7fef5abf3c2331
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 11%
+source-wordcount: '1275'
+ht-degree: 10%
 
 ---
 
@@ -33,9 +33,43 @@ ht-degree: 11%
 
 建立一或多個 [IP熱身行銷活動](ip-warmup-campaign.md) 啟用專用表面並啟用對應的選項後，您就可以開始建立IP熱身計畫。
 
->[!CAUTION]
->
->若要存取、建立、編輯和刪除IP熱身計畫，您必須擁有 **[!UICONTROL 傳遞能力顧問]** 許可權。 <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+若要存取、建立、編輯和刪除IP熱身計畫，您必須擁有 **[!UICONTROL 傳遞能力顧問]** 角色或IP熱身計畫相關許可權。
+
++++瞭解如何指派「傳遞能力顧問」角色或IP熱身計畫相關許可權
+
+將對應許可權指派給特定 **[!UICONTROL 角色]**：
+
+1. 從 [!DNL Permissions] 產品，導覽至 **[!UICONTROL 角色]** 功能表，並選取您要使用新設定的角色 **[!UICONTROL IP熱身設定]** 許可權。
+
+1. 從您的 **[!UICONTROL 角色]** 儀表板，按一下 **[!UICONTROL 編輯]**.
+
+   ![](assets/ip_permissions_1.png)
+
+1. 拖放 **[!UICONTROL IP熱身設定]** 指派許可權的資源。
+
+1. 從 **[!UICONTROL IP熱身設定]** 資源下拉式清單，選取您的使用者需要哪些許可權。
+
+   ![](assets/ip_permissions_2.png)
+
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+
+將對應角色指派給 **[!UICONTROL 使用者]**：
+
+1. 從 [!DNL Permissions] 產品，導覽至 **[!UICONTROL 角色]** 功能表並選取 **[!UICONTROL 傳遞能力顧問]** 內建角色。
+
+1. 從您的 **[!UICONTROL 角色]** 儀表板，存取 **[!UICONTROL 使用者]** 標籤。
+
+   ![](assets/ip_permissions_3.png)
+
+1. 按一下 **[!UICONTROL 新增使用者]** 以指派 **[!UICONTROL 傳遞能力顧問]** 內建角色。
+
+   ![](assets/ip_permissions_4.png)
+
+1. 選取您的 **[!UICONTROL 使用者]** 並按一下 **[!UICONTROL 儲存]**.
+
+   ![](assets/ip_permissions_5.png)
+
++++
 
 ## 準備IP熱身計畫檔案 {#prepare-file}
 
@@ -264,5 +298,9 @@ adobe.com;adobe.fr;adobe.es
 1. 按一下&#x200B;**[!UICONTROL 建立]**。在您上傳的檔案中定義的所有階段、執行、欄及其內容會自動顯示在 [!DNL Journey Optimizer] 介面。
 
    ![](assets/ip-warmup-plan-uploaded.png)
+
+   >[!NOTE]
+   >
+   >此 **[!UICONTROL 已鎖定目標]** 欄會顯示每次執行的所有設定檔目標總數，也就是您所定義的每個網域群組的所有設定檔，包括 **其他** 欄（如果有）。
 
 您現在已準備好執行IP熱身計畫。 [了解更多](ip-warmup-execution.md)
