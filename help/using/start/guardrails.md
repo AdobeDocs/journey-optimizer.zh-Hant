@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
+source-git-commit: 1d7e8fde57d0397891aecad4979b1008a3c10a47
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 98%
+source-wordcount: '1730'
+ht-degree: 97%
 
 ---
 
@@ -46,6 +46,11 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * MMS 適用的媒體檔案可透過支援的 URL 加入。請確定媒體檔案已個別上傳。
 * 訊息回饋同步目前不適用於 MMS。
 * 同意管理在 MMS 的 SMS 通道層級運作。
+
+## 片段護欄 {#fragments-guardrails}
+
+* 視覺片段僅可用於電子郵件頻道。
+* 運算式片段不適用於網頁和應用程式內頻道。
 
 ## 歷程護欄 {#journeys-guardrails}
 
