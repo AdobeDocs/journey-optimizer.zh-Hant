@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 1cfe9f6cb6e7c3e9a5d9b808c10ae4dfe77a92a2
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 12%
@@ -36,7 +36,7 @@ ht-degree: 12%
 
 >[!CAUTION]
 >
->若要建立、編輯和刪除內容範本，您必須擁有 **[!DNL Manage Library Items]** 許可權包含在 **[!DNL Content Library Manager]** 產品設定檔。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
+>若要建立、編輯和刪除內容範本，您必須擁有 **[!DNL Manage library items]** 許可權包含在 **[!DNL Content Library Manager]** 產品設定檔。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
 
 ## 存取和管理範本 {#access-manage-templates}
 
