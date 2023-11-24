@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
 source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 96%
 
 可建立的推播通知：
 
-* 在&#x200B;**歷程**&#x200B;中：一旦在歷程新增推播活動並定義基本設定後，使用&#x200B;**[!UICONTROL 動作：推播]**&#x200B;右側窗格，建立推播通知的內容。[瞭解如何建立歷程](../building-journeys/journey-gs.md)
+* 在&#x200B;**歷程**&#x200B;中：一旦在歷程新增推播活動並定義基本設定後，使用&#x200B;**[!UICONTROL 動作：推播]**&#x200B;右側窗格，建立推播通知的內容。[了解如何建立歷程](../building-journeys/journey-gs.md)
 
-* 在&#x200B;**行銷活動**&#x200B;中：一旦建立行銷活動，請選取「推播通知」作為動作並定義基本設定。[瞭解如何建立行銷活動](../campaigns/create-campaign.md#configure)
+* 在&#x200B;**行銷活動**&#x200B;中：一旦建立行銷活動，請選取「推播通知」作為動作並定義基本設定。[了解如何建立行銷活動](../campaigns/create-campaign.md#configure)
 
 使用專用索引標籤定義 **iOS** 及 **Android** 作業系統的推播通知設定。
 
