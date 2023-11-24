@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 資格，事件，對象，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '1004'
 ht-degree: 13%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 13%
 
    在新增對象後， **[!UICONTROL 複製]** 按鈕可讓您複製其名稱和ID：
 
-   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+   `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/segment-copy.png)
 
@@ -107,7 +107,9 @@ ht-degree: 13%
 
 針對串流對象使用對象資格時，由於持續評估對象，入口/出口出現大型峰值的風險較低。 然而，如果受眾定義導致大量客戶同時符合資格，則也可能出現峰值。
 
-如需串流區段的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
+避免使用具有串流細分的開啟和傳送事件。 請改用真正的使用者活動訊號，例如點選、購買或信標資料。 針對頻率或隱藏邏輯，請使用商業規則而非傳送事件。 [了解更多](../audience/about-audiences.md#open-and-send-event-guardrails)
+
+如需串流區段的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api).
 
 ### 如何避免多載{#overloads-speed-segment-qualification}
 

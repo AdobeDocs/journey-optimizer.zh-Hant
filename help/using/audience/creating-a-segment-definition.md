@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: f64388673b5a3b2a8702026ce09b39e928ac2ab4
+source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 13%
+source-wordcount: '401'
+ht-degree: 18%
 
 ---
 
@@ -56,6 +56,10 @@ ht-degree: 13%
 
      ![](assets/add-events.png)
 
+     >[!NOTE]
+     >
+     >Adobe建議不要對串流細分使用開啟和傳送事件。 請改用真正的使用者活動訊號，例如點選、購買或信標資料。 針對頻率或隱藏邏輯，請使用商業規則而非傳送事件。 [了解更多](about-audiences.md#open-and-send-event-guardrails)
+
 1. 當您在工作區中新增及設定新欄位時， **[!UICONTROL 對象屬性]** 窗格會自動更新屬於對象的預估設定檔資訊。
 
    ![](assets/segment-estimate.png)
@@ -66,6 +70,6 @@ ht-degree: 13%
 
 ## 操作說明影片{#video-segment}
 
-瞭解Journey Optimizer如何使用規則產生對象，以及如何使用屬性、事件和現有對象來建立對象。
+了解 Journey Optimizer 如何使用規則產生對象，以及了解如何使用屬性、事件和現有對象來建立對象。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
