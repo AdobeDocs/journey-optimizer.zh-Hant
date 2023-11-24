@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4103'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 ## 2023 年 11 月 {#nov-2023}
 
-* 限制所有自訂動作的護欄，已從30秒內的150,000次呼叫變更為一分鐘內的300,000次呼叫。 此外，預設上限不再適用於每個端點。 現在會依每個主機和沙箱執行。 例如，在沙箱上，如果您有兩個具有相同主機的端點(例如： `https://www.adobe.com/endpoint1` 和 `https://www.adobe.com/endpoint2`)，此上限將套用至adobe.com主機下的所有端點。 「endpoint1」和「endpoint2」會共用相同的上限設定，而且讓一個端點達到限制會影響到另一個端點。 [閱讀全文](../action/about-custom-action-configuration.md)
+* 限制所有自訂動作的護欄，已從 30 秒內 150,000 次呼叫變更為 1 分鐘內 300,000 次呼叫。 此外，預設上限不再適用於每個端點。 現在會依據每個主機和沙箱執行。 例如，在沙箱上，如果您有主機相同的兩個端點 (例如：`https://www.adobe.com/endpoint1` 和 `https://www.adobe.com/endpoint2`)，此上限會套用至 adobe.com 主機下的所有端點。 「endpoint1」和「endpoint2」會共用相同的上限設定，一個端點達到上限時會影響另一個端點。[閱讀全文](../action/about-custom-action-configuration.md)
 
 ## 2023 年 10 月 {#oct-2023}
 
