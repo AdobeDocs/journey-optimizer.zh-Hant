@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: de7c09fd5dcba80f23d136c067c2527fc4ec5f2e
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '933'
 ht-degree: 52%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 52%
 
 * **已傳送訊息** 意見反應狀態事件
 
-  此 **已傳送訊息** 回饋事件通常用於在傳送電子郵件之前進行頻率或隱藏檢查。 Adobe建議儘可能避免此情況，因為此情況會佔用目前整體容量的空間，即每秒可以串流處理的事件數。
+  此 **已傳送訊息** 回饋事件通常用於在傳送電子郵件之前進行頻率或隱藏檢查。 Adobe建議避免使用這項功能，因為它會對效能造成壓力，並可能導致系統效能降低。
 
   因此，對於頻率或隱藏邏輯，請使用商業規則，而不是 **已傳送訊息** 意見反應事件。 請注意，個別設定檔的每日頻率上限即將推出，以補充商業規則的現有每月頻率。
 
