@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: b4f6acb294c7a62f87525f1a1a8500dd57cefd6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 92%
 
 可建立簡訊傳遞：
 
-* 在&#x200B;**歷程**&#x200B;中：在歷程新增簡訊活動並定義基本設定後，使用&#x200B;**[!UICONTROL 動作：簡訊]**&#x200B;右側窗格，建立簡訊訊息的內容。[瞭解如何建立歷程](../building-journeys/journey-gs.md)
+* 在&#x200B;**歷程**&#x200B;中：在歷程新增簡訊活動並定義基本設定後，使用&#x200B;**[!UICONTROL 動作：簡訊]**&#x200B;右側窗格，建立簡訊訊息的內容。[了解如何建立歷程](../building-journeys/journey-gs.md)
 
-* 在&#x200B;**行銷活動**&#x200B;中：建立行銷活動後，請選取簡訊作為動作並定義基本設定。[瞭解如何建立行銷活動](../campaigns/create-campaign.md#configure)
+* 在&#x200B;**行銷活動**&#x200B;中：建立行銷活動後，請選取簡訊作為動作並定義基本設定。[了解如何建立行銷活動](../campaigns/create-campaign.md#configure)
 
 
 >[!IMPORTANT]
