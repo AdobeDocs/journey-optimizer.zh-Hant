@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: de7c09fd5dcba80f23d136c067c2527fc4ec5f2e
+source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 52%
@@ -51,7 +51,7 @@ ht-degree: 52%
 
 * 在歷程中使用&#x200B;**條件**&#x200B;活動，以根據對象成員資格建置條件。 [了解如何在條件中使用對象](../building-journeys/condition-activity.md#using-a-segment)。
 
-## 對象評估方法{#evaluation-method-in-journey-optimizer}
+## 對象評估方法 {#evaluation-method-in-journey-optimizer}
 
 在Adobe Journey Optimizer中，使用下列三種評估方法之一，從區段定義產生對象。
 
@@ -97,11 +97,11 @@ ht-degree: 52%
 
 最多可能需要 24 小時才能從先前的資料回填對象。 回填對象之後，該對象會持續保持在最新狀態，並隨時準備好進行目標定位。
 
-### 串流區段的事件使用情形 {#open-and-send-event-guardrails}
+### 串流區段的事件使用情形 {#streaming-segmentation-events-guardrails}
 
 串流區段對於具有高價值使用案例的即時個人化相當實用。 不過，請務必選擇正確的 [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} 以用作分段條件。
 
-因此，若要將分段設為最佳效能，請避免使用下列事件：
+因此，為了串流區段最佳效能，請避免使用以下事件：
 
 * **訊息已開啟** 互動型別事件
 
