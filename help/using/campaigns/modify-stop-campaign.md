@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 管理行銷活動、狀態、排程、存取、最佳化工具
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: b9630c922ff67b0a402af5f950ee4e5a442bb1b1
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '587'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 草稿]**：行銷活動正在編輯中，尚未啟用。
 * **[!UICONTROL 啟用]**：正在啟動行銷活動。
+* **[!UICONTROL 處理中]** *（僅限電子郵件行銷活動）*：對象匯出已完成，行銷活動正在發佈中。
 * **[!UICONTROL 即時]**：行銷活動已啟用。
 * **[!UICONTROL 已排程]**：促銷活動已設定為在特定的開始日期啟動。
 * **[!UICONTROL 已停止]**：行銷活動已手動停止。 您無法再啟用或重複使用它。 [瞭解如何停止行銷活動](modify-stop-campaign.md#stop)

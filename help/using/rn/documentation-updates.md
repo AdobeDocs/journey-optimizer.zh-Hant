@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
-workflow-type: ht
-source-wordcount: '4103'
-ht-degree: 100%
+source-git-commit: b9630c922ff67b0a402af5f950ee4e5a442bb1b1
+workflow-type: tm+mt
+source-wordcount: '4120'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,7 @@ ht-degree: 100%
 ## 2023 年 11 月 {#nov-2023}
 
 * 限制所有自訂動作的護欄，已從 30 秒內 150,000 次呼叫變更為 1 分鐘內 300,000 次呼叫。 此外，預設上限不再適用於每個端點。 現在會依據每個主機和沙箱執行。 例如，在沙箱上，如果您有主機相同的兩個端點 (例如：`https://www.adobe.com/endpoint1` 和 `https://www.adobe.com/endpoint2`)，此上限會套用至 adobe.com 主機下的所有端點。 「endpoint1」和「endpoint2」會共用相同的上限設定，一個端點達到上限時會影響另一個端點。[閱讀全文](../action/about-custom-action-configuration.md)
+* 電子郵件行銷活動的新狀態已新增至行銷活動狀態清單。 [閱讀全文](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
 
 ## 2023 年 10 月 {#oct-2023}
 
@@ -194,7 +195,7 @@ ht-degree: 100%
 ## 2022 年 7 月 {#july-2022}
 
 * 針對 [!DNL Journey Optimizer]2022 年 7 月發行版本的新功能及改進項目，請參閱本文件以獲得所有詳細資料。 [閱讀全文](release-notes.md)
-* 已澄清&#x200B;**設定頻道介面**&#x200B;部分，並已更新連結頁面，說明如何設定 SMS 頻道。 [閱讀全文](../configuration/channel-surfaces.md#create-channel-surface)
+* 已澄清&#x200B;**設定頻道介面**&#x200B;部分，並已更新連結頁面，說明如何設定簡訊頻道。 [閱讀全文](../configuration/channel-surfaces.md#create-channel-surface)
 * 歷程屬性的&#x200B;**個人資料時區**&#x200B;選項現在預設為停用。 [閱讀全文](../building-journeys/timezone-management.md#timezone-from-profiles)
 * **等待**&#x200B;活動的&#x200B;**固定日期**&#x200B;選項不再提供。 [閱讀全文](../building-journeys/wait-activity.md)
 * 已在&#x200B;**讀取對象**&#x200B;活動中新增&#x200B;**增量讀取**&#x200B;選項的詳細資訊。 [閱讀全文](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
