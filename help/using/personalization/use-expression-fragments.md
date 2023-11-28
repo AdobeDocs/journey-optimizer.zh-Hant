@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，資料庫，個人化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # 利用運算式片段 {#use-expression-fragments}
 
-使用運算式編輯器時，您可以善用已建立或儲存至目前沙箱的所有運算式片段。
+使用時 **運算式編輯器**，您可以利用已建立或儲存至目前沙箱的所有運算式片段。
 
 瞭解如何在中建立和管理片段 [本節](../content-management/fragments.md).
 
