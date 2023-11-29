@@ -11,9 +11,9 @@ keywords: IP、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: ccee7f47301bf6ceb832b8586cccb30618e63955
+source-git-commit: 8eeceb48882ab6198628ce09a5a52aa8d8da4f26
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1535'
 ht-degree: 8%
 
 ---
@@ -112,27 +112,28 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 
 以下列出您可以新增到計畫中的現成主要網域群組：
 
+<!--
 * Gmail
 * Adobe
 * WP
 * Comcast
 * Yahoo
 * Bigpond
-* 橙色
-* 軟銀
+* Orange
+* Softbank
 * Docomo
 * United Internet
 * Microsoft
 * KDDI
-* 義大利線上
-* 拉波斯特
+* Italia Online
+* La Poste
 * Apple
+-->
 
 +++ Gmail gmail.com；google.com；googlemail.com；googlemail.co.uk
 +++
 
-+++ Adobe
-
++++ Adobeadobe.com
 +++
 
 +++WP wp.pl；o2.pl
