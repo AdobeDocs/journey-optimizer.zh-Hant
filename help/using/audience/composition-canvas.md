@@ -137,7 +137,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_criteria"
 >title="擴充條件"
->abstract="選取欄位以用作來源資料集 (即對象) 和擴充資料集之間的調解金鑰。"
+>abstract="選取欄位以用作來源資料集 (即對象) 和擴充資料集之間的調和金鑰。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"

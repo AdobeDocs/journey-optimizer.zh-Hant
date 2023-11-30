@@ -40,7 +40,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="排除行銷活動對象"
->abstract="選取行銷活動，以從目前階段中排除其對象。 這是為了防止先前聯絡過的其他階段的設定檔或其他 IP 暖身計劃再次成為目標。"
+>abstract="選取行銷活動以將其對象排除在目前階段外。這是為了防止先前聯絡過的其他階段的設定檔或其他 IP 暖身計劃再次成為目標。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
