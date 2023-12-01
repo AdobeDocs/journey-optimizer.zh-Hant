@@ -7,7 +7,7 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: ht
 source-wordcount: '455'
 ht-degree: 100%
@@ -26,7 +26,7 @@ ht-degree: 100%
 
    ![](../assets/perso_ee2.png)
 
-1. **建立及管理資產**。[!DNL Adobe Experience Manager Assets Essentials]提供了可用於填入訊息的單一、集中式資產存放庫。請參閱[本節](../../content-management/assets-essentials.md)。
+1. **建立及管理資產**。[!DNL Adobe Experience Manager Assets]提供了可用於填入訊息的單一、集中式資產存放庫。請參閱[本節](../../content-management/assets.md)。
 
 1. **新增優惠方案**。使用 [!DNL Journey Optimizer] 可在適當的時間為所有接觸點的客戶提供最佳優惠和體驗。設計完成後，透過個人化優惠目標定位對象。[在此章節](../../offers/get-started/starting-offer-decisioning.md)深入瞭解決策管理相關內容。
 
