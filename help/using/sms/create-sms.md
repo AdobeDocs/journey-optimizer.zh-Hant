@@ -1,28 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 建立簡訊訊息
-description: 瞭解如何在Journey Optimizer中建立簡訊
+title: 建立簡訊/多媒體簡訊訊息
+description: 瞭解如何在Journey Optimizer中建立簡訊/多媒體簡訊
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: db3c2e368812563d12276f8a1ac0e06ccc03e8d4
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 17%
+source-wordcount: '781'
+ht-degree: 15%
 
 ---
 
-# 建立簡訊訊息 {#create-sms}
+# 建立簡訊/多媒體簡訊服務 {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="建立簡訊訊息"
 >abstract="新增您的簡訊並開始使用運算式編輯器對其進行個人化。"
 
-## 新增簡訊訊息 {#create-sms-journey-campaign}
+## 新增簡訊/多媒體簡訊服務 {#create-sms-journey-campaign}
 
 瀏覽下列標籤，瞭解如何在行銷活動或歷程中新增SMS訊息。
 
@@ -110,13 +110,30 @@ ht-degree: 17%
 
 1. 在 `originalUrl` 欄位，貼上您要縮短的URL並按一下 **[!UICONTROL 儲存]**.
 
+1. 按一下「**[!UICONTROL 儲存]**」並在預覽中查看您的訊息。您可以使用 **[!UICONTROL 模擬內容]** 以預覽您縮短的URL或個人化內容。
+
+   ![](assets/sms-content-preview.png)
+
+
+
+## 定義多媒體簡訊內容{#mms-content}
+
+透過SMS通道，您可以傳送多媒體訊息服務(MMS)訊息來增強通訊，進而與客戶共用影像、GIF或視訊。
+
+
+>[!NOTE]
+>
+> 此功能目前可透過 **Sinch** 僅限。
+>
+> MMS頻道隨附下列幾項限制 [此頁面](../start/guardrails.md#sms-guardrails).
+
+若要建立MMS內容，請遵循下列步驟：
+
+1. 建立SMS，如所述 [本節](#create-sms-journey-campaign).
+
+1. 編輯簡訊內容，如中所述 [本節](#sms-content).
+
 1. 啟用MMS選項以將媒體新增到您的SMS內容。
-
-   MMS隨附下列幾項限制 [此頁面](../start/guardrails.md#sms-guardrails).
-
-   >[!NOTE]
-   >
-   > MMS選項僅適用於Sinch。 您需要建立特定的API認證才能建立MMS。 [了解更多](sms-configuration.md#create-new-api)
 
    ![](assets/sms_create_6.png)
 
@@ -128,15 +145,16 @@ ht-degree: 17%
 
 1. 按一下「**[!UICONTROL 儲存]**」並在預覽中查看您的訊息。您可以使用 **[!UICONTROL 模擬內容]** 以預覽您縮短的URL或個人化內容。
 
-   ![](assets/sms-content-preview.png)
+## 測試並傳送您的訊息 {#sms-mms-test}
 
-您現在可以測試並傳送簡訊給對象。 [瞭解更多](send-sms.md)
+您現在可以測試並傳送簡訊給對象。 [了解更多](send-sms.md)
+
+
 傳送後，您可以在行銷活動或歷程報告中測量簡訊的影響。 如需報告的詳細資訊，請參閱[本區段](../reports/campaign-global-report.md#sms-tab)。
 
 >[!NOTE]
 >
 >根據行業標準及法規，所有簡訊行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 要執行此操作，簡訊收件者可以使用選擇加入和選擇退出關鍵字進行回覆。 [瞭解如何管理選擇退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
-
 **相關主題**
 
 * [預覽、測試和傳送您的SMS訊息](send-sms.md)
