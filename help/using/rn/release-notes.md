@@ -8,7 +8,7 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: ht
 source-wordcount: '4527'
 ht-degree: 100%
@@ -254,7 +254,7 @@ ht-degree: 100%
 
 **資產**
 
-* Assets 的新選項可讓您在 Journey Optimizer 中選擇 Assets 的存放庫。 如果您擁有此解決方案，您可以選擇使用 Assets Essentials 存放庫或 Assets as a Cloud Service 存放庫。 [了解更多](../content-management/assets-essentials.md)
+* Assets 的新選項可讓您在 Journey Optimizer 中選擇 Assets 的存放庫。 如果您擁有此解決方案，您可以選擇使用 Assets Essentials 存放庫或 Assets as a Cloud Service 存放庫。 [了解更多](../content-management/assets.md)
 
 <!--**Decision management**
 
@@ -780,13 +780,13 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <table>
 <thead>
 <tr>
-<th><strong>SMS 點擊追蹤</strong><br/></th>
+<th><strong>簡訊點擊追蹤</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>透過 SMS 點擊追蹤，您可以監控縮短 URL 的效果、識別誰點擊了 URL，並利用此資料透過後續行銷活動重新鎖定這些客戶。</p>
+<p>透過簡訊點擊追蹤，您可以監控縮短 URL 的效果、識別誰點擊了 URL，並利用此資料透過後續行銷活動重新鎖定這些客戶。</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
 <p>如需詳細資訊，請參閱<a href="../sms/create-sms.md#sms-content">詳細文件</a>。</p>
 </td>
