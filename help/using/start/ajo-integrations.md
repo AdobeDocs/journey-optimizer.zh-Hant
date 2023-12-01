@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+workflow-type: tm+mt
+source-wordcount: '715'
+ht-degree: 98%
 
 ---
 
@@ -40,13 +40,13 @@ Journey Optimizer 會將資料儲存在 Adobe Experience Platform，並利用 Cu
 深入了解 [Journey Optimizer + Analytics](../event/about-analytics.md)。
 
 
-## Adobe Experience Manager Assets Essentials {#integration-assets}
+## Adobe Experience Manager Assets {#integration-assets}
 
-利用 [!DNL Adobe Experience Manager Assets Essentials] 將行銷與創意內容工作流程結合在一起。與 [!DNL Adobe Journey Optimizer] 進行本機整合，存取 [!DNL Assets Essentials] 來儲存、管理、探索及分發數位資產。提供了可用於填入訊息的單一、集中式資產存放庫。
+利用 [!DNL Adobe Experience Manager Assets] 將行銷與創意內容工作流程結合在一起。與 [!DNL Adobe Journey Optimizer] 進行本機整合，存取 [!DNL Adobe Experience Manager Assets] 來儲存、管理、探索及分發數位資產。提供了可用於填入訊息的單一、集中式資產存放庫。
 
-可以透過左側選單 **[!UICONTROL Assets]** 區段直接從 [!DNL Adobe Journey Optimizer] 存取 [!DNL Adobe Experience Manager Assets Essentials]。
+可以透過左側選單 **[!UICONTROL Assets]** 區段直接從 [!DNL Adobe Journey Optimizer] 存取 [!DNL Adobe Experience Manager Assets]。
 
-深入了解 [Journey Optimizer + Assets Essentials](../content-management/assets-essentials.md)。
+進一步瞭解 [JOURNEY OPTIMIZER + ADOBE EXPERIENCE MANAGER ASSETS](../content-management/assets.md).
 
 
 ## Adobe Stock {#integration-stock}

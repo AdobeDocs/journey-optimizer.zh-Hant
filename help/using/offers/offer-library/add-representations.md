@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 10%
@@ -68,7 +68,7 @@ ht-degree: 10%
 
 ### 新增影像 {#images}
 
-如果所選版位為影像型別，您可以新增來自 **Adobe Experience Cloud資產** 資料庫，資產集中存放庫，由 [!DNL Adobe Experience Manager Assets Essentials].
+如果所選版位為影像型別，您可以新增來自 **Adobe Experience Cloud資產** 資料庫，資產集中存放庫，由 [!DNL Adobe Experience Manager Assets].
 
 >[!NOTE]
 >

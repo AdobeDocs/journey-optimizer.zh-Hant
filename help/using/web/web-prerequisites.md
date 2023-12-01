@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1058'
 ht-degree: 11%
 
 ---
@@ -146,4 +146,4 @@ ht-degree: 11%
 
 ## 資產的品牌網域 {#branded-domains-for-assets}
 
-在製作網頁體驗時，如果您新增來自 [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) 程式庫，您必須設定用於發佈此內容的子網域。 [了解更多](web-delegated-subdomains.md)
+在製作網頁體驗時，如果您新增來自 [Adobe Experience Manager Assets](../content-management/assets.md) 程式庫，您必須設定用於發佈此內容的子網域。 [了解更多](web-delegated-subdomains.md)

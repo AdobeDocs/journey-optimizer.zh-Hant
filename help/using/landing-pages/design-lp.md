@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面，設計，HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '159'
 ht-degree: 13%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 13%
 
 從那裡，您可以：
 
-* **從頭開始設計您的登入頁面** 透過內容設計工具的介面，並利用以下位置的影像： [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md). 瞭解如何設計您的內容 <!--or use built-in templates--> [在本節中](../email/content-from-scratch.md).
+* **從頭開始設計您的登入頁面** 透過內容設計工具的介面，並利用以下位置的影像： [Adobe Experience Manager Assets](../content-management/assets.md). 瞭解如何設計您的內容 <!--or use built-in templates--> [在本節中](../email/content-from-scratch.md).
 
 * **程式碼或貼上原始HTML** 直接進入內容設計工具。 瞭解如何編寫您自己的內容代碼 [在本節中](../email/code-content.md).
 

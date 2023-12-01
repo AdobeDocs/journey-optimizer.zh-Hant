@@ -5,7 +5,7 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 5dfdded39444678ef0266540d47e004b47f7e88d
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 38%
@@ -84,7 +84,7 @@ ht-degree: 38%
       <img src="using/assets/do-not-localize/icon-content.svg" width="70px">
     </td>
     <td>
-      <strong>內容管理</strong><br/><a href="using/content-management/assets-essentials.md">資產/影像</a> - <a href="using/personalization/personalize.md">個人化</a> - <a href="using/content-management/content-templates.md">可重複使用</a> &amp; <a href="using/personalization/dynamic-content.md">動態</a> 內容 —  <a href="using/content-management/preview-test.md">測試和預覽內容</a>
+      <strong>內容管理</strong><br/><a href="using/content-management/assets.md">資產/影像</a> - <a href="using/personalization/personalize.md">個人化</a> - <a href="using/content-management/content-templates.md">可重複使用</a> &amp; <a href="using/personalization/dynamic-content.md">動態</a> 內容 —  <a href="using/content-management/preview-test.md">測試和預覽內容</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="70px">

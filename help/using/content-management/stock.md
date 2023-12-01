@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: stock，圖片，整合，像片
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 13%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 13%
 
 此 **[!UICONTROL 尋找Adobe Stock像片]** 和 **[!UICONTROL 尋找類似影像]** 有權存取AEM Assets Essentials產品設定檔的使用者可以使用選項。
 
-有關詳細資訊，請參閱 [Assets基本檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
+有關詳細資訊，請參閱 [Experience Manager Assets檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
 
 ## 插入影像來源 [!DNL Adobe Stock] {#add-stock-image}
 
@@ -96,7 +96,7 @@ ht-degree: 13%
 
    ![](assets/stock_6.png)
 
-1. 選取要儲存資產的資料夾。 如需詳細資訊，請參閱 [!DNL Assets Essentials]，請參閱此 [頁面](assets-essentials.md#get-started-assets-essentials).
+1. 選取要儲存資產的資料夾。 如需詳細資訊，請參閱 [!DNL Experience Manager Assets]，請參閱此 [頁面](assets.md#get-started-assets).
 
 ## 相關主題{#stock-related-topics}
 

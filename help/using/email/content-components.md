@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 元件，電子郵件設計工具，編輯器，電子郵件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 607dd050b4e340bf6ae80fec76be8a64f3962645
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1406'
 ht-degree: 54%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 54%
    * **字型大小**：選取文字的字型大小 (以像素為單位)。
    * **[!UICONTROL 變更字型顏色]**：選擇字型的顏色。
    * **[!UICONTROL 插入連結]**：新增任何型別的連結至您的內容。
-   * **[!UICONTROL 編輯影像]**：將影像或資產新增到文字元件。[進一步瞭解資產管理](../content-management/assets-essentials.md)
+   * **[!UICONTROL 編輯影像]**：將影像或資產新增到文字元件。[進一步瞭解資產管理](../content-management/assets.md)
    * **[!UICONTROL 變更字型顏色]**：選擇字型的顏色。
    * **[!UICONTROL 新增個人化]**：新增個人化欄位以從設定檔資料自訂內容。[進一步了解內容個人化](../personalization/personalize.md)
    * **[!UICONTROL 顯示原始碼]**：顯示文字的原始碼。原始碼無法變更。
@@ -167,9 +167,9 @@ ht-degree: 54%
 
    ![](assets/email_designer_image_content.png)
 
-1. 從 **[!UICONTROL 設定]** 標籤，按一下 **[!UICONTROL 瀏覽]** 若要從您的資產選擇影像檔案，或 **[!UICONTROL 匯入媒體]** 將資產上傳至Assets Essentials。
+1. 從 **[!UICONTROL 設定]** 標籤，按一下 **[!UICONTROL 瀏覽]** 若要從您的資產選擇影像檔案，或 **[!UICONTROL 匯入媒體]** 將資產上傳至Adobe Experience Manager Assets。
 
-   若要進一步瞭解 [!DNL Assets Essentials]，請參閱 [Adobe Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
+   若要進一步瞭解 [!DNL Adobe Experience Manager Assets]，請參閱 [Adobe Experience Manager Assets檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
    >[!NOTE]
    >
