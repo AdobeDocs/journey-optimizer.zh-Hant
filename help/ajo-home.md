@@ -5,16 +5,16 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 38%
+source-wordcount: '354'
+ht-degree: 30%
 
 ---
 
 # Adobe [!DNL Journey Optimizer] 文件 {#cjm-documentation}
 
-## 新增功能？
+## 有哪些新增功能？
 
 快速一覽Journey Optimizer產品和檔案的最新增強功能！ 如需功能、改良與修正的完整清單，請參閱詳細資訊 [發行說明](using/rn/release-notes.md).  請瀏覽 [檔案更新頁面](using/rn/documentation-updates.md).
 
@@ -24,13 +24,13 @@ ht-degree: 38%
 
 沙箱工具可讓您運用套件匯出和匯入功能，跨多個沙箱複製物件。 套件可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。
 
-[![image](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
+[![影像](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
 
->[!TAB 簡訊中的多媒體訊息服務 (MMS)]
+>[!TAB 多媒體訊息服務(MMS)]
 
 透過簡訊管道，您現在可以傳送多媒體訊息服務 (MMS) 訊息，來與客戶分享影像、GIF 或影片，藉此增強通訊交流。 請注意，目前只有 Sinch 提供此功能。
 
-[![image](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#sms-content)
+[![影像](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#sms-content)
 
 >[!ENDTABS]
 

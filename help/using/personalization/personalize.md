@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: 運算式，編輯器，開始，個人化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 5ac3797db8115180094cc97f06ec330839a7a5ff
+source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 35%
+source-wordcount: '412'
+ht-degree: 33%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 35%
 >id="ajo_homepage_card5"
 >title="個人化體驗"
 >abstract="使用 **Adobe Journey Optimizer**，利用手邊關於他們的資料與資訊，調整給各個特定接收者的訊息。可以是他們的姓氏、興趣、居住的地方、購買的產品等等。"
-
 
 探索 [!DNL Adobe Journey Optimizer] 個人化功能，可運用您擁有的訊息相關資料和資訊，根據每位特定收件者調整訊息。 可以是他們的姓氏、興趣、居住的地方、購買的產品等等。
 
@@ -57,7 +56,7 @@ ht-degree: 35%
 
 [!DNL Journey Optimizer] 提供運算式編輯器，您可在其中選取、排列、自訂及驗證所有資料，以建立內容的自訂個人化。
 
-有數種工具可用來協助建立您的個人化內容（協助程式函式、預先定義的運算式程式庫、受歡迎的屬性……）
+有數個工具可協助您建置個人化內容，例如：Felper函式、預先定義的運算式程式庫、受歡迎的屬性等等。
 
 進一步瞭解 [!DNL Journey Optimizer] 中的運算式編輯器 [本節](personalization-build-expressions.md)
 

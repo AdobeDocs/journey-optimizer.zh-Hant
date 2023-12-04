@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 99%
+source-wordcount: '1717'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 99%
    + [早期發行說明](using/rn/e-release-notes.md)
    + [最新發行說明](using/rn/release-notes.md)
    + 舊版版本注意事項 {#previous-rn-new}
+      + [2023年發行說明](using/rn/release-notes-2023.md)
       + [2022 年發行說明](using/rn/release-notes-2022.md)
       + [2021 年發行說明](using/rn/release-notes-2021.md)
    + [文件更新](using/rn/documentation-updates.md)
@@ -215,12 +216,12 @@ ht-degree: 99%
       + [推播通知流量](using/push/push-gs.md)
       + [設定推播通知頻道](using/push/push-configuration.md)
       + [Mobile 上線快速入門工作流程](using/push/mobile-onboarding-wf.md)
-+ 簡訊頻道{#sms}
++ 簡訊/多媒體簡訊頻道{#sms}
    + [開始使用簡訊](using/sms/get-started-sms.md)
-   + [建立簡訊訊息](using/sms/create-sms.md)
+   + [建立文字訊息](using/sms/create-sms.md)
    + [建立 MMS 訊息](using/sms/create-mms.md)
-   + [檢查並傳送簡訊](using/sms/send-sms.md)
-   + [管理簡訊選擇退出](using/sms/sms-opt-out.md)
+   + [檢查並傳送您的簡訊](using/sms/send-sms.md)
+   + [管理選擇退出的文字訊息](using/sms/sms-opt-out.md)
    + [設定簡訊頻道](using/sms/sms-configuration.md)
    + [設定簡訊子網域](using/sms/sms-subdomains.md)
 + 直接郵件 {#direct-mail}
@@ -567,7 +568,7 @@ ht-degree: 99%
          + [在自訂動作中使用 API 呼叫回應](using/action/action-response.md)
    + [來源](using/start/get-started-sources.md)
 + 存取控制 {#access-control}
-   + 存取控制概覽 {#privacy}
+   + 存取控制總覽 {#privacy}
       + [開始使用使用者管理](using/administration/permissions-overview.md)
       + [內建角色](using/administration/ootb-product-profiles.md)
       + [內建權限](using/administration/ootb-permissions.md)

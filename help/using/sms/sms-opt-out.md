@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 簡訊選擇退出管理
-description: 瞭解如何透過簡訊管理選擇退出
+title: 文字訊息的選擇退出管理
+description: 瞭解如何透過簡訊/多媒體簡訊管理選擇退出
 feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: 31c3ed854b38e287850895176f8416bc62739cb0
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 26%
+source-wordcount: '452'
+ht-degree: 25%
 
 ---
 
-# 簡訊選擇退出管理 {#sms-opt-out}
+# 文字訊息的選擇退出管理 {#sms-opt-out}
 
 根據行業標準及法規，所有簡訊行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 [進一步瞭解隱私權與選擇退出管理](../privacy/opt-out.md)
 
@@ -46,7 +46,7 @@ ht-degree: 26%
 
 ## 英數字元寄件者 ID {#alphanumeric}
 
-英數字元寄件者 ID 僅用於單向傳訊，無法接收傳入訊息。 因此，Adobe Journey Optimizer的SMS STOP、START、HELP關鍵字不適用於字母傳送者ID。 您必須提供其他指示，如寫入支援團隊、呼叫支援電話熱線或傳送文字訊息給其他電話號碼或程式碼，以允許使用者選擇退出透過英數字元寄件者 ID 傳送的訊息。
+英數字元寄件者 ID 僅用於單向傳訊，無法接收傳入訊息。 因此，Adobe Journey Optimizer的SMS STOP、START、HELP關鍵字不適用於Alpha傳送者ID。 您必須提供其他指示，如寫入支援團隊、呼叫支援電話熱線或傳送文字訊息給其他電話號碼或程式碼，以允許使用者選擇退出透過英數字元寄件者 ID 傳送的訊息。
 
 ## 影片 {#video-sms}
 
