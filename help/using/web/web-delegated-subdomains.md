@@ -10,8 +10,8 @@ keywords: Web、子網域、設定
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 19%
+source-wordcount: '842'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="委派網頁子網域"
->abstract="如果您將來自 Adobe Experience Manager Assets 的內容新增到您的網頁體驗中，則必須設定將用來發佈此內容的子網域。選取已委派給 Adobe 的子網域，或設定新的子網域。"
+>abstract="如果您將來自Adobe Experience Manager Assets的內容新增至網頁體驗，您必須設定用於發佈此內容的子網域。 選取已委派給 Adobe 的子網域，或設定新的子網域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
@@ -90,7 +90,7 @@ ht-degree: 19%
    >
    >僅限 **預設** 將會使用子網域。
 
-1. 按一下&#x200B;**[!UICONTROL 提交]**. 子網域取得 **[!UICONTROL 成功]** 狀態。 它可供您的網頁體驗使用。
+1. 按一下 **[!UICONTROL 提交]**. 子網域取得 **[!UICONTROL 成功]** 狀態。 它可供您的網頁體驗使用。
 
    >[!NOTE]
    >

@@ -9,21 +9,21 @@ role: User
 level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 898ad9dadd2d9e71e6881113730ac469a36257bc
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 23%
+source-wordcount: '1167'
+ht-degree: 14%
 
 ---
 
-# 電子郵件、應用程式內、推播、簡訊{#add-a-message-in-a-journey}
+# 電子郵件、應用程式內、推播、簡訊/多媒體簡訊{#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="訊息活動"
->abstract="Journey Optimizer 內建訊息功能。您只需在歷程中新增推播、SMS、應用程式內或電子郵件訊息活動，並定義設定和內容。然後會在歷程的內容中執行和傳送。"
+>abstract="Journey Optimizer 內建訊息功能。您只需在歷程中新增推播、簡訊(SMS/MMS)、應用程式內或電子郵件訊息活動，以及定義設定和內容即可。 然後會在歷程的內容中執行和傳送。"
 
-[!DNL Journey Optimizer] 隨附內建訊息功能。 您只需在歷程中新增推播、SMS、應用程式內或電子郵件訊息活動，並定義設定和內容。然後會在歷程的內容中執行和傳送。
+[!DNL Journey Optimizer] 隨附內建訊息功能。 您只需在歷程中新增推播、簡訊/多媒體簡訊、應用程式內或電子郵件訊息活動，以及定義設定和內容即可。 然後會在歷程的內容中執行和傳送。
 
 您也可以設定傳送訊息給您的特定動作：
 
@@ -74,7 +74,7 @@ ht-degree: 23%
    <img alt="驗證" src="../assets/do-not-localize/sms.jpg">
    </a>
    <div>
-   <a href="../sms/create-sms.md"><strong>建立簡訊</strong></a>
+   <a href="../sms/create-sms.md"><strong>建立文字訊息（簡訊/多媒體簡訊）</strong></a>
    </div>
    <p>
    </td>
@@ -106,7 +106,7 @@ ht-degree: 23%
 
 ### 關於傳送時間最佳化 {#about-send-time}
 
-Adobe Journey Optimizer 的傳送時間最佳化功能由 Adobe 的 AI 服務提供支援，可以預測傳送電子郵件或推播訊息的最佳時間，以根據歷史開啟率和點擊率將參與度提高至最大限度。使用我們的機器學習模型，為每位使用者排程個人化的傳送時間，以提高您訊息的開啟及點閱率。
+Adobe Journey Optimizer的傳送時間最佳化功能採用Adobe的AI服務，可根據歷史開啟率和點按率，預測傳送電子郵件或推送訊息的最佳時機，最大化參與程度。 使用我們的機器學習模型，為每位使用者排程個人化的傳送時間，以提高您訊息的開啟及點閱率。
 
 傳送時間最佳化模型會擷取您的Adobe Journey Optimizer資料，並檢視使用者層級的開啟（針對電子郵件和推播）和點按（針對電子郵件）率，以判斷客戶何時最有可能參與您的傳訊。 傳送時間最佳化需要至少一個月的訊息追蹤資料，才能提出明智的建議。 對於每個使用者，系統將使用下列分數自動挑選最佳時間：
 
@@ -159,7 +159,7 @@ Adobe Journey Optimizer 的傳送時間最佳化功能由 Adobe 的 AI 服務提
 
 ![](../building-journeys/assets/jo-message5.png)
 
-針對電子郵件訊息，選取適當的選項按鈕，以選擇最佳化電子郵件開啟次數或電子郵件點進次數。 推播訊息預設為開啟選項，因為點擊不適用於推播訊息。
+針對電子郵件訊息，選取適當的選項按鈕，以選擇最佳化電子郵件開啟次數或電子郵件點進次數。 推送訊息預設為開啟選項，因為點按不適用於推送訊息。
 
 您也可以輸入「 」的值，選擇將系統使用的傳送時間括起來 **在下一次傳送中** 選項。 如果您選擇「六小時」作為值， [!DNL Journey Optimizer] 將會檢查每個使用者設定檔，並在歷程執行時間起的六小時內挑選最佳傳送時間。
 

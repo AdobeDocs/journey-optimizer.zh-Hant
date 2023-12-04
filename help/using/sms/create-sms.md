@@ -8,27 +8,34 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: db3c2e368812563d12276f8a1ac0e06ccc03e8d4
+source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 15%
+source-wordcount: '948'
+ht-degree: 4%
 
 ---
 
-# 建立簡訊/多媒體簡訊服務 {#create-sms}
+# 建立文字訊息（簡訊/多媒體簡訊）{#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="建立簡訊訊息"
->abstract="新增您的簡訊並開始使用運算式編輯器對其進行個人化。"
+>title="建立文字訊息"
+>abstract="若要建立簡訊(SMS/MMS)，請在歷程或行銷活動中新增SMS動作，並開始使用運算式編輯器進行個人化。"
 
-## 新增簡訊/多媒體簡訊服務 {#create-sms-journey-campaign}
+您可以使用Adobe Journey Optimizer設計和傳送文字(SMS)和多媒體(MMS)訊息。 您首先需要在歷程或行銷活動中新增SMS動作，然後定義文字訊息的內容，如下所述。 Adobe Journey Optimizer也提供在傳送文字訊息前先測試訊息的功能，讓您可檢查轉譯、個人化屬性和所有其他設定。
 
-瀏覽下列標籤，瞭解如何在行銷活動或歷程中新增SMS訊息。
+>[!NOTE]
+>
+>根據業界標準及法規，所有簡訊/多媒體簡訊行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 要執行此操作，簡訊收件者可以使用選擇加入和選擇退出關鍵字進行回覆。 [瞭解如何管理選擇退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+
+
+## 新增文字訊息 {#create-sms-journey-campaign}
+
+瀏覽下方的索引標籤，瞭解如何在行銷活動或歷程中新增簡訊(SMS/MMS)。
 
 >[!BEGINTABS]
 
->[!TAB 將SMS訊息新增至歷程]
+>[!TAB 新增簡訊至歷程]
 
 1. 開啟您的歷程，然後從拖放簡訊活動 **動作** 區段。
 
@@ -42,11 +49,11 @@ ht-degree: 15%
 
    此 **[!UICONTROL 表面]** 依預設，欄位會預先填入使用者用於該管道的最後一個表面。
 
-您現在可以從以下網址開始設計簡訊的內容： **[!UICONTROL 編輯內容]** 按鈕。 [定義您的簡訊內容](#sms-content)
+您現在可以從以下網址開始設計簡訊的內容： **[!UICONTROL 編輯內容]** 按鈕，如下所述。
 
 >[!TAB 新增簡訊至行銷活動]
 
-1. 建立新的排程或API觸發的行銷活動，選取 **[!UICONTROL 簡訊]** 作為您的動作，然後選擇 **[!UICONTROL 應用程式表面]** 以使用。 [進一步瞭解簡訊設定](sms-configuration.md).
+1. 建立新的排程或API觸發的行銷活動，選取 **[!UICONTROL 簡訊]** 作為您的動作，然後選擇 **[!UICONTROL 應用程式表面]** 以使用。 瞭解更多關於SMS設定的資訊，請參閱 [此頁面](sms-configuration.md).
 
    ![](assets/sms_create_3.png)
 
@@ -75,7 +82,7 @@ ht-degree: 15%
    * 每週
    * 月
 
-您現在可以從以下網址開始設計簡訊的內容： **[!UICONTROL 編輯內容]** 按鈕。 [設計您的簡訊內容](#sms-content)
+您現在可以從以下網址開始設計文字訊息的內容： **[!UICONTROL 編輯內容]** 按鈕，如下所述。
 
 >[!ENDTABS]
 
@@ -84,23 +91,25 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="定義您的簡訊內容"
->abstract="透過使用運算式編輯器定義內容並結合動態元素，自訂與個人化簡訊訊息。"
+>abstract="使用運算式編輯器定義內容並合併動態元素，以自訂和個人化您的文字訊息（簡訊/多媒體簡訊）。"
 
-1. 在歷程或行銷活動設定畫面中，按一下 **[!UICONTROL 編輯內容]** 按鈕以設定簡訊內容。
+若要設定簡訊內容，請遵循下列步驟。 有關MMS設定的詳情，請參閱 [本節](#mms-content).
+
+1. 在歷程或行銷活動設定畫面中，按一下 **[!UICONTROL 編輯內容]** 按鈕以設定文字訊息內容。
 
 1. 按一下 **[!UICONTROL 訊息]** 欄位以開啟運算式編輯器。
 
    ![](assets/sms-content.png)
 
-1. 使用運算式編輯器來定義內容及新增動態內容。 您可以使用任何屬性，例如設定檔名稱或城市。 進一步瞭解 [個人化](../personalization/personalize.md) 和 [動態內容](../personalization/get-started-dynamic-content.md) 在運算式編輯器中。
+1. 使用運算式編輯器來定義內容、新增個人化及動態內容。 您可以使用任何屬性，例如設定檔名稱或城市。 您也可以定義條件式規則。 瀏覽到以下頁面，瞭解更多關於 [個人化](../personalization/personalize.md) 和 [動態內容](../personalization/get-started-dynamic-content.md) 在運算式編輯器中。
 
-1. 定義內容後，您可以將追蹤URL新增至訊息。 若要這麼做，請存取 **[!UICONTROL 輔助函式]** 功能表並選取 **[!UICONTROL 協助程式]**.
+1. 定義內容後，您可以將追蹤的URL新增至訊息。 若要這麼做，請存取 **[!UICONTROL 輔助函式]** 功能表並選取 **[!UICONTROL 協助程式]**.
 
    請注意，若要使用URL縮短功能，您必須先設定子網域，然後將其連結至您的表面。 [了解更多](sms-subdomains.md)
 
    >[!CAUTION]
    >
-   > 若要存取及編輯SMS子網域，您必須擁有 **[!UICONTROL 管理SMS子網域]** 生產沙箱的許可權。
+   > 若要存取及編輯SMS子網域，您必須擁有 **[!UICONTROL 管理SMS子網域]** 生產沙箱的許可權。 若要了解權限的詳細資訊，請參閱[本章節](../administration/high-low-permissions.md)。
 
    ![](assets/sms_tracking_1.png)
 
@@ -110,22 +119,20 @@ ht-degree: 15%
 
 1. 在 `originalUrl` 欄位，貼上您要縮短的URL並按一下 **[!UICONTROL 儲存]**.
 
-1. 按一下「**[!UICONTROL 儲存]**」並在預覽中查看您的訊息。您可以使用 **[!UICONTROL 模擬內容]** 以預覽您縮短的URL或個人化內容。
-
-   ![](assets/sms-content-preview.png)
-
+1. 按一下 **[!UICONTROL 儲存]** 並在預覽中檢視您的訊息。 您現在可以測試和檢查您的訊息內容，如中所述 [本節](#sms-mms-test).
 
 
 ## 定義多媒體簡訊內容{#mms-content}
 
-透過SMS通道，您可以傳送多媒體訊息服務(MMS)訊息來增強通訊，進而與客戶共用影像、GIF或視訊。
+您可以透過傳送多媒體訊息服務(MMS)訊息、啟用視訊、圖片、音訊剪輯和GIF等媒體共用，來增強您的通訊能力。 此外，MMS最多可在您的訊息中使用1600個字元文字。
 
 
 >[!NOTE]
 >
-> 此功能目前可透過 **Sinch** 僅限。
+>* 此功能目前可透過 **Sinch** 僅限。
 >
-> MMS頻道隨附下列幾項限制 [此頁面](../start/guardrails.md#sms-guardrails).
+>* MMS頻道隨附下列幾項限制 [此頁面](../start/guardrails.md#sms-guardrails).
+>
 
 若要建立MMS內容，請遵循下列步驟：
 
@@ -143,22 +150,22 @@ ht-degree: 15%
 
    ![](assets/sms_create_7.png)
 
-1. 按一下「**[!UICONTROL 儲存]**」並在預覽中查看您的訊息。您可以使用 **[!UICONTROL 模擬內容]** 以預覽您縮短的URL或個人化內容。
+1. 按一下 **[!UICONTROL 儲存]** 並在預覽中檢視您的訊息。 您現在可以測試和檢查您的訊息內容，如下所述。
 
 ## 測試並傳送您的訊息 {#sms-mms-test}
 
-您現在可以測試並傳送簡訊給對象。 [了解更多](send-sms.md)
+使用 **[!UICONTROL 模擬內容]** 按鈕以預覽您的文字訊息內容、縮短的URL和個人化內容。
 
+![](assets/sms-content-preview.png)
+
+執行測試並驗證內容後，您就可以傳送簡訊給對象。 這些步驟詳見 [此頁面](send-sms.md)
 
 傳送後，您可以在行銷活動或歷程報告中測量簡訊的影響。 如需報告的詳細資訊，請參閱[本區段](../reports/campaign-global-report.md#sms-tab)。
 
->[!NOTE]
->
->根據行業標準及法規，所有簡訊行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 要執行此操作，簡訊收件者可以使用選擇加入和選擇退出關鍵字進行回覆。 [瞭解如何管理選擇退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 **相關主題**
 
-* [預覽、測試和傳送您的SMS訊息](send-sms.md)
+* [預覽、測試並傳送您的文字訊息](send-sms.md)
 * [設定簡訊頻道](sms-configuration.md)
-* [簡訊報告](../reports/journey-global-report.md#sms-global)
+* [簡訊/多媒體簡訊報告](../reports/journey-global-report.md#sms-global)
 * [在歷程中新增訊息](../building-journeys/journeys-message.md)
 * [在行銷活動中新增訊息](../campaigns/create-campaign.md)
