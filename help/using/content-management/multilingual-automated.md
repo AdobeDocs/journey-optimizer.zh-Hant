@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 開始使用多語言內容
-description: 進一步瞭解Journey Optimizer中的多語言內容
+description: 進一步了解 Journey Optimizer 中的多語言內容
 feature: Multilingual Content
 topic: Content Management
 role: User
@@ -10,10 +10,11 @@ level: Beginner
 keywords: 開始使用、開始、內容、實驗
 hide: true
 hidefromtoc: true
-source-git-commit: 8c95f35049da1b7ced9a5ecd9e267a8847c12481
+exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
+source-git-commit: 75dd439fc221257a2480ea7bdcb94f56227ce1d3
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 1%
+source-wordcount: '1315'
+ht-degree: 3%
 
 ---
 
@@ -88,6 +89,14 @@ ht-degree: 1%
    ![](assets/translation_project_3.png)
 
 1. 從清單中選取 **[!UICONTROL 目標地區設定]** 並選擇哪個 **[!UICONTROL 翻譯提供者]** 要用於每個地區設定。
+
+   **[!UICONTROL 翻譯提供者]** 設定可從以下位置存取： **[!UICONTROL 翻譯]** 功能表 **[!UICONTROL 管理]** 功能表區段。
+
+   >[!NOTE]
+   >
+   >與翻譯提供者的合約管理不在此功能的範圍內。 請確定您與指定的翻譯合作夥伴訂有有效且有效的合約。
+   >
+   ></br>翻譯提供者擁有翻譯內容品質的所有權。
 
 1. 按一下 **[!UICONTROL 新增地區]** 當您完成將Target地區設定連結到正確的翻譯提供者時。 然後，按一下 **[!UICONTROL 儲存]**.
 
