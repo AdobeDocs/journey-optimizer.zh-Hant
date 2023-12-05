@@ -5,9 +5,9 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
+source-git-commit: ab63c39b07e6501c4fd9c5578d4e63730ae8a558
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '356'
 ht-degree: 30%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 30%
 
 [![影像](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
 
->[!TAB 多媒體訊息服務(MMS)]
+>[!TAB 簡訊中的多媒體訊息服務(MMS)]
 
 透過簡訊管道，您現在可以傳送多媒體訊息服務 (MMS) 訊息，來與客戶分享影像、GIF 或影片，藉此增強通訊交流。 請注意，目前只有 Sinch 提供此功能。
 
@@ -39,22 +39,29 @@ ht-degree: 30%
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a></a>
+    <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a>
     <div><strong>快速入門手冊</strong><br/>瞭解如何根據您的角色，使用個人化方法更快地在Journey Optimizer中實現目標。</div>
     </td>
     <td>
     <a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/start-interface.jpeg"></a>
-    <div><strong>使用者介面</strong><br/>瞭解如何在Journey Optimizer中導覽及最佳化您的體驗。</div><br/>
+    <div><strong>使用者介面</strong><br/>瞭解如何在Journey Optimizer中導覽及最佳化您的體驗。</div>
     </td>
     <td>
     <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
     <div><strong>建立您的第一個歷程</strong><br/>設計和編排個人化的全通路歷程，以一對一客戶參與來協調行銷外聯活動。 
-    </div></td>
+    </div>
+    </td>
     <td>
     <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
     <div><strong>啟動您的第一個行銷活動</strong><br/>在Journey Optimizer中建立並開始您的第一個行銷活動，以傳送已鎖定目標的一次性內容給特定對象。</div>
     </td>
   </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="using/sms/create-sms.md#sms-content"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="using/sms/create-sms.md#sms-content"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="using/sms/create-sms.md#sms-content"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="using/sms/create-sms.md#sms-content"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    </tr>
 </table>
 
 ## 探索檔案
@@ -62,40 +69,29 @@ ht-degree: 30%
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
-      <img src="using/assets/do-not-localize/icon-quick-start.svg" width="70px">
-    <td>
+      <img src="using/assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
       <strong>客戶體驗</strong><br/><a href="using/building-journeys/journey.md">歷程</a> - <a href="using/campaigns/get-started-with-campaigns.md">行銷活動</a> - <a href="using/landing-pages/get-started-lp.md">登陸頁面</a> - <a href="using/reports/live-report.md">報告</a> - <a href="using/offers/get-started/starting-offer-decisioning.md">決定管理</a>
     </td>
     <td>
-      <img src="using/assets/do-not-localize/icon-configure.svg" width="70px">
+      <img src="using/assets/do-not-localize/icon-configure.svg" width="35px"><br/>
+      <strong>設定<br/>管理</strong><br/><a href="using/configuration/channel-surfaces.md">管道表面</a> - <a href="using/configuration/about-data-sources-events-actions.md">設定歷程</a>  - <a href="using/administration/permissions-overview.md">存取控制</a> - <a href="using/administration/sandboxes.md">沙箱管理</a>
     </td>
     <td>
-      <strong>設定和管理</strong><br/><a href="using/configuration/channel-surfaces.md">管道表面</a> - <a href="using/configuration/about-data-sources-events-actions.md">設定歷程</a>  - <a href="using/administration/permissions-overview.md">存取控制</a> - <a href="using/administration/sandboxes.md">沙箱管理</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon-campaign.svg" width="70px">
-    </td>
-    <td>
+      <img src="using/assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
       <strong>通訊通道</strong><br/><a href="using/email/get-started-email.md">電子郵件</a> - <a href="using/sms/get-started-sms.md">簡訊</a> - <a href="using/in-app/get-started-in-app.md">應用程式內</a> - <a href="using/push/get-started-push.md">推播通知</a> - <a href="using/direct-mail/get-started-direct-mail.md">直接郵件</a> - <a href="using/web/get-started-web.md">Web</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="using/assets/do-not-localize/icon-content.svg" width="70px">
+      <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
+      <strong>內容管理</strong><br/><a href="using/content-management/assets-essentials.md">資產/影像</a> - <a href="using/personalization/personalize.md">個人化</a> - <a href="using/content-management/content-templates.md">可重複使用</a> &amp; <a href="using/personalization/dynamic-content.md">動態</a> 內容 —  <a href="using/content-management/preview-test.md">測試和預覽內容</a>
     </td>
     <td>
-      <strong>內容管理</strong><br/><a href="using/content-management/assets.md">資產/影像</a> - <a href="using/personalization/personalize.md">個人化</a> - <a href="using/content-management/content-templates.md">可重複使用</a> &amp; <a href="using/personalization/dynamic-content.md">動態</a> 內容 —  <a href="using/content-management/preview-test.md">測試和預覽內容</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="70px">
-    </td>
-    <td>
+      <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
       <strong>設定檔與對象</strong><br/><a href="using/audience/about-audiences.md">受眾</a> - <a href="using/audience/get-started-profiles.md">設定檔</a> - <a href="using/audience/get-started-identity.md">身分</a> - <a href="using/audience/license-usage.md">授權使用情況</a> - <a href="using/privacy/get-started-privacy.md">隱私權管理</a>
     </td>
     <td>
-      <img src="using/assets/do-not-localize/icon-data.svg" width="70px">
-    </td>
-    <td>
+      <img src="using/assets/do-not-localize/icon-data.svg" width="35px"><br/>
       <strong>資料管理</strong><br/><a href="using/data/get-started-schemas.md">方案</a> - <a href="using/data/get-started-datasets.md">資料集</a> - <a href="using/data/get-started-queries.md">查詢</a>
     </td>
   </tr>
@@ -114,4 +110,3 @@ ht-degree: 30%
 
 <table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
 <b>掌握最新資訊並提升您的Adobe Journey Optimizer體驗！</b><br/>註冊我們的每季電子報。 獲得最新產品更新、吸引人的故事、真實使用案例、寶貴提示等內容的專屬存取權，這些內容每季都會直接傳送到您的收件匣。 <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">立即註冊！</a></td></tr></table>
-
