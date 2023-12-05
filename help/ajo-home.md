@@ -5,7 +5,7 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 480fbae74ab444253a2ebff441192d2670dbc538
+source-git-commit: 85c700271b49150a8796d58748a2d78b20587ee1
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 30%
@@ -30,7 +30,7 @@ ht-degree: 30%
 
 透過簡訊管道，您現在可以傳送多媒體訊息服務 (MMS) 訊息，來與客戶分享影像、GIF 或影片，藉此增強通訊交流。 請注意，目前只有 Sinch 提供此功能。
 
-[![影像](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#sms-content)
+[![影像](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#mms-content)
 
 >[!ENDTABS]
 
