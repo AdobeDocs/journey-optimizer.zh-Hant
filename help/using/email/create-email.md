@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 建立，電子郵件，開始，歷程，行銷活動
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 18b9a19bbd37927430c50da63f54cbdbbeed5606
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 8%
+source-wordcount: '919'
+ht-degree: 7%
 
 ---
 
@@ -21,13 +21,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="電子郵件建立"
->abstract="僅需三個簡單的步驟即可定義您的電子郵件參數。"
+>abstract="定義您的電子郵件主旨行，然後開啟「電子郵件設計工具」以建立電子郵件的內容。"
 
-若要在中建立電子郵件 [!DNL Journey Optimizer]，請遵循下列步驟。
 
-## 在歷程或行銷活動中建立電子郵件 {#create-email-journey-campaign}
+## 新增電子郵件動作 {#email-action}
 
-新增 **[!UICONTROL 電子郵件]** 對歷程或行銷活動執行動作，並根據您的情況遵循下列步驟。
+若要在中建立電子郵件 [!DNL Journey Optimizer]，新增 **[!UICONTROL 電子郵件]** 歷程或行銷活動的動作。 然後根據您的情況，遵循下列步驟。
 
 >[!BEGINTABS]
 
@@ -86,13 +85,13 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_campaign_edit_content.png)
 
-1. 在 **[!UICONTROL 頁首]** 的區段 **[!UICONTROL 編輯內容]** 畫面， **[!UICONTROL 寄件者姓名]**， **[!UICONTROL 來自電子郵件]** 和 **[!UICONTROL 密件副本]** 欄位來自您選取的電子郵件表面。 [了解更多](email-settings.md) <!--check if same for journey-->
+   在 **[!UICONTROL 頁首]** 的區段 **[!UICONTROL 編輯內容]** 畫面， **[!UICONTROL 寄件者姓名]**， **[!UICONTROL 來自電子郵件]** 和 **[!UICONTROL 密件副本]** 欄位是在您選取的電子郵件介面中設定。 [瞭解更多](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. 您可以新增主旨列。 直接在對應欄位中輸入純文字，或使用 [運算式編輯器](../personalization/personalization-build-expressions.md) 以個人化您的主旨列。
+1. 新增訊息的主旨列。 若要使用運算式編輯器設定和個人化主旨行，請按一下 **[!UICONTROL 開啟個人化對話方塊]** 圖示。 [了解更多](../personalization/personalization-build-expressions.md)
 
-1. 按一下 **[!UICONTROL 編輯電子郵件內文]** 按鈕，以開始使用建置您的內容 [!DNL Journey Optimizer] 電子郵件設計工具。 [了解更多](get-started-email-design.md)
+1. 按一下 **[!UICONTROL 編輯電子郵件內文]** 按鈕以存取電子郵件設計工具並開始建置您的內容。 [了解更多](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
