@@ -8,30 +8,22 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 18%
+source-wordcount: '394'
+ht-degree: 10%
 
 ---
 
 # Experience decisioning使用案例 {#experience-decisioning-uc}
 
->[!BEGINSHADEBOX]
-
-本文件指南會提供以下內容：
+>[!BEGINSHADEBOX 「本檔案指南提供哪些內容」]
 
 * [開始使用 Experience Decisioning](gs-experience-decisioning.md)
-* 管理決定項目
-   * [設定項目目錄](catalogs.md)
-   * [建立決定項目](items.md)
-   * [管理項目集合](collections.md)
-* 設定項目的選取範圍
-   * [建立決定規則](rules.md)
-   * [建立排名方法](ranking.md)
+* 管理您的決定專案： [設定專案目錄](catalogs.md) -[建立決定專案](items.md) - [管理專案集合](collections.md)
+* 設定專案的選取範圍： [建立決定規則](rules.md) - [建立排名方法](ranking.md)
 * [建立選擇策略](selection-strategies.md)
 * [建立決定原則](create-decision.md)
-* **[透過使用案例瞭解](experience-decisioning-uc.md)**
 
 >[!ENDSHADEBOX]
 
@@ -74,7 +66,7 @@ ht-degree: 18%
 
 1. 為您的決定定義選取策略。 按一下 **[!UICONTROL 新增策略]**.
 
-1. 按一下&#x200B;**[!UICONTROL 建立]**。新決定新增到 **[!UICONTROL 決定]**.
+1. 按一下 **[!UICONTROL 建立]**。新決定新增到 **[!UICONTROL 決定]**.
 
    ![](assets/decision-code-based-decision-added.png)
 

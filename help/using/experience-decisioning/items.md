@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 33%
+source-wordcount: '1007'
+ht-degree: 26%
 
 ---
 
@@ -24,18 +24,11 @@ ht-degree: 33%
 >abstract="Journey Optimizer 可讓您建立行銷優惠 (稱為決定項目)，您可以將其建立並組織到集中式目錄和集合中。目前，所有建立的決定項目都合併在一個「優惠」目錄中。在此畫面中，您還可以使用&#x200B;**編輯架構**&#x200B;按鈕來存取目錄的方案，並為您的決定項目建立自訂屬性。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="設定項目目錄"
 
->[!BEGINSHADEBOX]
-
-本文件指南會提供以下內容：
+>[!BEGINSHADEBOX 「本檔案指南提供哪些內容」]
 
 * [開始使用 Experience Decisioning](gs-experience-decisioning.md)
-* 管理決定項目
-   * [設定項目目錄](catalogs.md)
-   * **[建立決定項目](items.md)**
-   * [管理項目集合](collections.md)
-* 設定項目的選取範圍
-   * [建立決定規則](rules.md)
-   * [建立排名方法](ranking.md)
+* 管理您的決定專案： [設定專案目錄](catalogs.md) - **[建立決定專案](items.md)** - [管理專案集合](collections.md)
+* 設定專案的選取範圍： [建立決定規則](rules.md) - [建立排名方法](ranking.md)
 * [建立選擇策略](selection-strategies.md)
 * [建立決定原則](create-decision.md)
 
@@ -99,11 +92,11 @@ Journey Optimizer 可讓您建立行銷優惠 (稱為決定項目)，您可以�
 
    ![](assets/item-constraints.png)
 
-   * 若要將決策專案的呈現限制在一或多個Adobe Experience Platform對象的成員中，請選取 **[!UICONTROL 屬於一或多個對象的訪客]** 選項，然後從左窗格新增一或多個對象，並使用 **[!UICONTROL 與]** / **[!UICONTROL 或]** 邏輯運運算元。 [進一步了解對象](../audience/about-audiences.md).
+   * 若要將決策專案的呈現限制在一或多個Adobe Experience Platform對象的成員中，請選取 **[!UICONTROL 屬於一或多個對象的訪客]** 選項，然後從左窗格新增一或多個對象，並使用 **[!UICONTROL 與]** / **[!UICONTROL 或]** 邏輯運運算元。 [深入瞭解對象](../audience/about-audiences.md).
 
    * 若要將特定決定規則關聯至決定專案，請選取 **[!UICONTROL 依規則]**，然後將需要的規則從左窗格拖曳到中央區域。 [進一步了解決定規則](rules.md).
 
-   當您選取對象或決定規則時，您可以看到有關預估合格設定檔的資訊。按一下 **[!UICONTROL 重新整理]** 以更新資料。
+   當您選取對象或決定規則時，您可以檢視有關預估合格設定檔的資訊。 按一下 **[!UICONTROL 重新整理]** 以更新資料。
 
    >[!NOTE]
    >
@@ -130,6 +123,6 @@ Journey Optimizer 可讓您建立行銷優惠 (稱為決定項目)，您可以�
 
   >[!IMPORTANT]
   >
-  >刪除後，就無法再存取決定專案及其內容。 此動作無法復原。如果決定專案用於集合或決定中，則無法刪除該專案。 您必須先從任何物件中移除決定專案。
+  >刪除後，就無法再存取決定專案及其內容。 此動作無法復原。 如果決定專案用於集合或決定中，則無法刪除該專案。 您必須先從任何物件中移除決定專案。
 
 * **[!UICONTROL 封存]**：將決定專案狀態設為 **[!UICONTROL 已封存]**. 該決定專案仍然可以從清單中使用，但您不能將其狀態設定回 **[!UICONTROL 草稿]** 或 **[!UICONTROL 已核准]**. 您只能複製或刪除它。

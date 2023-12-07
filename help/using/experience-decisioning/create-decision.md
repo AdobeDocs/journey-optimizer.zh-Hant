@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 20%
+source-wordcount: '1290'
+ht-degree: 14%
 
 ---
 
@@ -24,18 +24,11 @@ ht-degree: 20%
 >abstract="決定原則利用體驗決定引擎，根據對象選擇要傳遞的最佳內容。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="關於體驗決定"
 
->[!BEGINSHADEBOX]
-
-本文件指南會提供以下內容：
+>[!BEGINSHADEBOX 「本檔案指南提供哪些內容」]
 
 * [開始使用 Experience Decisioning](gs-experience-decisioning.md)
-* 管理決定項目
-   * [設定項目目錄](catalogs.md)
-   * [建立決定項目](items.md)
-   * [管理項目集合](collections.md)
-* 設定項目的選取範圍
-   * [建立決定規則](rules.md)
-   * [建立排名方法](ranking.md)
+* 管理您的決定專案： [設定專案目錄](catalogs.md) - [建立決定專案](items.md) - [管理專案集合](collections.md)
+* 設定專案的選取範圍： [建立決定規則](rules.md) - [建立排名方法](ranking.md)
 * [建立選擇策略](selection-strategies.md)
 * **[建立決定原則](create-decision.md)**
 
@@ -86,7 +79,7 @@ ht-degree: 20%
 
    ![](assets/decision-code-based-details.png)
 
-1. 選取要傳回的專案數。 例如，如果您選取 2，則目前表面將顯示最佳的 2 個符合資格優惠。按一下 **[!UICONTROL 下一個]**
+1. 選取要傳回的專案數。 例如，如果您選取2，則會針對目前曲面顯示最佳的2個合格選件。 按一下 **[!UICONTROL 下一個]**
 
 1. 使用 **[!UICONTROL 新增策略]** 按鈕來定義決定原則的選取策略。 每個策略都包含與適用性限制相關聯的優惠方案集合，以及決定要顯示的優惠方案的排名方法。 [了解更多](selection-strategies.md)
 

@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 26%
+source-wordcount: '773'
+ht-degree: 19%
 
 ---
 
@@ -31,19 +31,12 @@ ht-degree: 26%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用受眾"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="使用決定規則"
 
->[!BEGINSHADEBOX]
-
-本文件指南會提供以下內容：
+>[!BEGINSHADEBOX 「本檔案指南提供哪些內容」]
 
 * [開始使用 Experience Decisioning](gs-experience-decisioning.md)
-* 管理決定項目
-   * [設定項目目錄](catalogs.md)
-   * [建立決定項目](items.md)
-   * [管理項目集合](collections.md)
-* 設定項目的選取範圍
-   * [建立決定規則](rules.md)
-   * [建立排名方法](ranking.md)
-* **[建立選擇策略](selection-strategies.md)**
+* 管理您的決定專案： [設定專案目錄](catalogs.md) - [建立決定專案](items.md) - [管理專案集合](collections.md)
+* 設定專案的選取範圍： [建立決定規則](rules.md) - [建立排名方法](ranking.md)
+* **[建立選取策略](selection-strategies.md)**
 * [建立決定原則](create-decision.md)
 
 >[!ENDSHADEBOX]
@@ -84,6 +77,8 @@ ht-degree: 26%
 
 1. 選取 [集合](collections.md) 包含要考量的選件。
 
+1. 選取選件 [集合](collections.md) 包含要考量的選件。
+
 1. 使用 **[!UICONTROL 資格]** 欄位，用來限制此選取策略的優惠方案選取。
 
    ![](assets/strategy-create-eligibility.png)
@@ -100,7 +95,7 @@ ht-degree: 26%
 
    * 如果您想要使用特定計算的分數來選擇要遞送的合格優惠方案，請選取 [公式](#ranking-formula) 或 [AI模型](#ai-ranking).
 
-1. 按一下&#x200B;**[!UICONTROL 建立]**。現在已準備好用於 [決定](create-decision.md)
+1. 按一下 **[!UICONTROL 建立]**。現在已準備好用於 [決定](create-decision.md)
 
 ## 選取排名方法 {#select-ranking-method}
 

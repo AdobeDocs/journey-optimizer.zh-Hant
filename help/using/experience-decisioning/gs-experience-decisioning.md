@@ -9,27 +9,20 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 18%
+ht-degree: 7%
 
 ---
 
 # 開始使用 Experience Decisioning {#get-started-experience-decisioning}
 
->[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX 「本檔案指南提供哪些內容」]
 
-本文件指南會提供以下內容：
-
-* **[開始使用 Experience Decisioning](gs-experience-decisioning.md)**
-* 管理決定項目
-   * [設定項目目錄](catalogs.md)
-   * [建立決定項目](items.md)
-   * [管理項目集合](collections.md)
-* 設定項目的選取範圍
-   * [建立決定規則](rules.md)
-   * [建立排名方法](ranking.md)
+* **[開始使用體驗決策](gs-experience-decisioning.md)**
+* 管理您的決定專案： [設定專案目錄](catalogs.md) - [建立決定專案](items.md) - [管理專案集合](collections.md)
+* 設定專案的選取範圍： [建立決定規則](rules.md) - [建立排名方法](ranking.md)
 * [建立選擇策略](selection-strategies.md)
 * [建立決定原則](create-decision.md)
 
@@ -45,7 +38,7 @@ Experience Decisioning透過提供稱為「決策專案」的行銷優惠集中�
 
 這些決策專案透過新的程式碼型體驗管道(現在可在Journey Optimizer促銷活動中存取)無縫整合到廣泛的傳入介面。
 
-**限制:**
+**限制：**
 
 * 決定原則僅適用於程式碼型體驗行銷活動。
 * 目前，Experience Decisioning不提供頻率上限。
