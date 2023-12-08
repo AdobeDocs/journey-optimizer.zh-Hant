@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 隱藏，清單，退信，電子郵件，最佳化工具，隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+source-git-commit: 0ba1af43f5447df861e419b56f34a418cfbce241
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 23%
+source-wordcount: '1599'
+ht-degree: 21%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 23%
 >
 >Adobe會保留已知不良地址的更新清單（這些地址已被證明會損害參與和郵寄信譽），並確保不會將電子郵件傳遞給他們。 此清單在所有 Adobe 客戶通用的全球禁止名單中進行管理。 全球禁止名單中包含的地址和網域名稱都會隱藏起來。 傳遞報告中僅顯示排除的收件者人數。
 
-此外，您也可以善用Journey Optimizer **隱藏REST API** 使用隱藏和允許清單控制您的外寄訊息。 [瞭解如何使用隱藏REST API](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html)
+此外，您也可以善用Journey Optimizer **隱藏REST API** 使用隱藏和允許清單控制您的外寄訊息。 [瞭解如何使用隱藏REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## 存取隱藏清單 {#access-suppression-list}
 
@@ -74,7 +74,7 @@ ht-degree: 23%
 | 原因 | 說明 | 類別 |
 | --- | --- | --- |
 | **[!UICONTROL 無效的收件者]** | 收件者無效或不存在。 | 強烈 |
-| **[!UICONTROL 軟跳出]** | 訊息因本表中列出的軟錯誤以外的其他原因而軟跳出，例如當傳送超過ISP建議的允許速率時。 | 柔光 |
+| **[!UICONTROL 軟退信]** | 訊息因本表中列出的軟錯誤以外的其他原因而軟跳出，例如當傳送超過ISP建議的允許速率時。 | 柔光 |
 | **[!UICONTROL DNS失敗]** | 由於DNS失敗，郵件已退回。 | 柔光 |
 | **[!UICONTROL 郵箱已滿]** | 由於收件者的信箱已滿且無法接受更多郵件，郵件已退回。 | 柔光 |
 | **[!UICONTROL 已拒絕轉送]** | 因為不允許轉送，接收者已封鎖郵件。 | 柔光 |
@@ -138,7 +138,7 @@ ht-degree: 23%
    >
    >確定輸入有效的電子郵件地址 (例如 abc@company.com) 或網域 (例如 abc.company.com)。
 
-1. （選擇性）輸入原因。 此欄位允許包含 32 到 126 個字元之間組成的所有 ASCII 可列印字元。 
+1. （選擇性）輸入原因。 此欄位允許包含在32到126之間的所有ASCII可列印字元。
 
 1. 使用 **[!UICONTROL 提交]** 按鈕確認。
 
@@ -226,7 +226,7 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 
 例如，在網際網路服務提供者(ISP)中斷的情況下，電子郵件會錯誤標示為硬跳出，因為這些電子郵件無法成功傳遞給收件者。 必須從隱藏清單中移除這些電子郵件地址。
 
-若要擷取這些地址，請根據中斷的內容使用自訂引數執行特定查詢。 [在本範例進一步了解](../data/datasets-query-examples.md#isp-outage-query).
+若要擷取這些地址，請根據中斷的內容使用自訂引數執行特定查詢。 [在本範例中瞭解更多](../data/datasets-query-examples.md#isp-outage-query).
 
 在識別受影響的電子郵件地址後，請篩選隱藏清單以顯示它們。 例如，如果ISP在2022年11月11日至2022年11月13日期間在 **test.com** 網域，在該時間範圍內篩選新增到隱藏清單的地址，如下所示：
 
