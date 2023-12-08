@@ -10,22 +10,16 @@ level: Experienced
 keywords: IP, 傳遞能力
 hide: true
 hidefromtoc: true
+badge: label="Beta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
-workflow-type: ht
-source-wordcount: '275'
-ht-degree: 100%
+source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+workflow-type: tm+mt
+source-wordcount: '295'
+ht-degree: 91%
 
 ---
 
 # 開始使用 IP 暖身計劃 {#ip-warmup-gs}
-
-<!--
->[!CONTEXTUALHELP]
->id="ajo_admin_ip_warmup_plan"
->title="Define your IP warmup plan"
->abstract="You can perform IP warmup workflows directly from the Journey Optimizer interface in a standardized and efficient way that follows the best practices for optimal deliverability."
--->
 
 >[!BEGINSHADEBOX]
 
@@ -43,6 +37,8 @@ ht-degree: 100%
 >IP 暖身功能目前僅作為 Beta 版提供給部分使用者。若要加入 Beta 版計畫，請連絡 Adobe 客戶服務。
 
 透過 [!DNL Journey Optimizer]，您可以按照標準化、有效率的方式，依照最佳傳遞能力的最佳實務進行，直接從使用者介面輕鬆執行 IP 暖身工作流程。
+
+➡️ [在本影片中瞭解如何建立及執行IP熱身計畫](#video)
 
 >[!CAUTION]
 >
@@ -75,3 +71,9 @@ Benefits
 1. 在 [!DNL Journey Optimizer] 中建立 IP 暖身計劃，然後在傳遞能力顧問的協助下上傳備妥的 Excel 工作表。 [了解更多](ip-warmup-plan.md)
 
 1. 為計劃的每個階段選取行銷活動，然後啟用對應的執行。 [了解更多](ip-warmup-execution.md)
+
+## 操作說明影片 {#video}
+
+瞭解如何建立及執行IP熱身計畫。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)

@@ -10,11 +10,12 @@ level: Experienced
 keywords: IP、群組、子網域、傳遞能力
 hide: true
 hidefromtoc: true
+badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 94a3eb47d3b1cd8bafe146f65843acf8393fa69c
+source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 8%
+source-wordcount: '1522'
+ht-degree: 7%
 
 ---
 
@@ -24,9 +25,9 @@ ht-degree: 8%
 
 本文件指南會提供以下內容：
 
-* [開始使用 IP 暖身](ip-warmup-gs.md)
+* [開始使用IP熱身](ip-warmup-gs.md)
 * [建立 IP 暖身行銷活動](ip-warmup-campaign.md)
-* **[建立 IP 暖身計劃](ip-warmup-plan.md)**
+* **[建立IP熱身計畫](ip-warmup-plan.md)**
 * [執行 IP 暖身計劃](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
@@ -296,7 +297,7 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
    >
    >如果上傳失敗，請確定您使用正確的格式和檔案格式(.xls或.xlsx)。 使用Adobe為您提供的範例。
 
-1. 按一下&#x200B;**[!UICONTROL 建立]**。在您上傳的檔案中定義的所有階段、執行、欄及其內容會自動顯示在 [!DNL Journey Optimizer] 介面。
+1. 按一下 **[!UICONTROL 建立]**。在您上傳的檔案中定義的所有階段、執行、欄及其內容會自動顯示在 [!DNL Journey Optimizer] 介面。
 
    ![](assets/ip-warmup-plan-uploaded.png)
 

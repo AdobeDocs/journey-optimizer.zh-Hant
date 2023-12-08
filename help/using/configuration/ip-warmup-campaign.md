@@ -10,11 +10,12 @@ level: Intermediate
 keywords: IP、集區、傳遞能力
 hide: true
 hidefromtoc: true
+badge: label="Beta"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 77d8da88b72cada82d30afa8bab5a63ab435f625
+source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 18%
+source-wordcount: '408'
+ht-degree: 16%
 
 ---
 
@@ -29,8 +30,8 @@ ht-degree: 18%
 
 本文件指南會提供以下內容：
 
-* [開始使用 IP 暖身](ip-warmup-gs.md)
-* **[建立 IP 暖身行銷活動](ip-warmup-campaign.md)**
+* [開始使用IP熱身](ip-warmup-gs.md)
+* **[建立IP熱身行銷活動](ip-warmup-campaign.md)**
 * [建立 IP 暖身計劃](ip-warmup-plan.md)
 * [執行 IP 暖身計劃](ip-warmup-execution.md)
 
