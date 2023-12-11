@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1717'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
    + [早期發行說明](using/rn/e-release-notes.md)
    + [最新發行說明](using/rn/release-notes.md)
    + 舊版版本注意事項 {#previous-rn-new}
-      + [2023年發行說明](using/rn/release-notes-2023.md)
+      + [2023 年發行說明](using/rn/release-notes-2023.md)
       + [2022 年發行說明](using/rn/release-notes-2022.md)
       + [2021 年發行說明](using/rn/release-notes-2021.md)
    + [文件更新](using/rn/documentation-updates.md)
@@ -216,12 +216,12 @@ ht-degree: 97%
       + [推播通知流量](using/push/push-gs.md)
       + [設定推播通知頻道](using/push/push-configuration.md)
       + [Mobile 上線快速入門工作流程](using/push/mobile-onboarding-wf.md)
-+ 簡訊/多媒體簡訊頻道{#sms}
-   + [開始使用簡訊](using/sms/get-started-sms.md)
-   + [建立文字訊息](using/sms/create-sms.md)
++ SMS / MMS 通道{#sms}
+   + [開始使用文字訊息](using/sms/get-started-sms.md)
+   + [建立文字訊息。](using/sms/create-sms.md)
    + [建立 MMS 訊息](using/sms/create-mms.md)
-   + [檢查並傳送您的簡訊](using/sms/send-sms.md)
-   + [管理選擇退出的文字訊息](using/sms/sms-opt-out.md)
+   + [檢查並傳送文字訊息](using/sms/send-sms.md)
+   + [管理文字訊息的選擇退出](using/sms/sms-opt-out.md)
    + [設定簡訊頻道](using/sms/sms-configuration.md)
    + [設定簡訊子網域](using/sms/sms-subdomains.md)
 + 直接郵件 {#direct-mail}
@@ -235,7 +235,7 @@ ht-degree: 97%
       + [網路頻道先決條件](using/web/web-prerequisites.md)
       + [設定網路子網域](using/web/web-delegated-subdomains.md)
    + [建立網站體驗](using/web/create-web.md)
-   + 製作網頁 {#author-web-pages}
+   + 製作網頁{#author-web-pages}
       + [編輯網頁內容](using/web/edit-web-content.md)
       + [管理修改](using/web/manage-web-modifications.md)
       + [監視網路行銷活動](using/web/monitor-web-campaigns.md)
@@ -269,7 +269,7 @@ ht-degree: 97%
       + [使用自動化翻譯建立多語言內容](using/content-management/multilingual-automated.md)
       + [多語言行銷活動報告](using/content-management/multilingual-report.md)
    + 資產/影像 {#assets-images}
-      + [使用Experience Manager Assets](using/content-management/assets.md)
+      + [使用 Experience Manager Assets](using/content-management/assets.md)
       + [使用 Adobe Stock](using/content-management/stock.md)
    + 個人化 {#personalization}
       + [開始使用個人化](using/personalization/personalize.md)
@@ -543,7 +543,7 @@ ht-degree: 97%
    + [設定頻率規則](using/configuration/frequency-rules.md)
    + 設定歷程 {#configure-journeys}
       + [關於資料來源、事件和動作](using/configuration/about-data-sources-events-actions.md)
-      + 與外部系統整合 {#external-systems}
+      + 與外部系統整合{#external-systems}
          + [與外部系統整合的歷程](using/configuration/external-systems.md)
          + [設定 API 上限](using/configuration/capping.md)
          + [限制 API](using/configuration/throttling.md)
@@ -568,7 +568,7 @@ ht-degree: 97%
          + [在自訂動作中使用 API 呼叫回應](using/action/action-response.md)
    + [來源](using/start/get-started-sources.md)
 + 存取控制 {#access-control}
-   + 存取控制總覽 {#privacy}
+   + 存取控制概覽{#privacy}
       + [開始使用使用者管理](using/administration/permissions-overview.md)
       + [內建角色](using/administration/ootb-product-profiles.md)
       + [內建權限](using/administration/ootb-permissions.md)
