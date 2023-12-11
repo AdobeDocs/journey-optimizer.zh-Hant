@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
-workflow-type: tm+mt
-source-wordcount: '4174'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '4216'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 98%
 ## 2023 年 11 月 {#nov-2023}
 
 * 限制所有自訂動作的護欄，已從 30 秒內 150,000 次呼叫變更為 1 分鐘內 300,000 次呼叫。 此外，預設上限不再適用於每個端點。 現在會依據每個主機和沙箱執行。 例如，在沙箱上，如果您有主機相同的兩個端點 (例如：`https://www.adobe.com/endpoint1` 和 `https://www.adobe.com/endpoint2`)，此上限會套用至 adobe.com 主機下的所有端點。 「endpoint1」和「endpoint2」會共用相同的上限設定，一個端點達到上限時會影響另一個端點。[閱讀全文](../action/about-custom-action-configuration.md)
-* 電子郵件行銷活動的新狀態已新增至行銷活動狀態清單。 [閱讀全文](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
-* 開始使用Adobe Experience Platform對象區段已更新，以反映可用的對象評估方法以及如何選取它們。 [閱讀全文](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
-* 已新增新的子區段，以指定如果您使用串流細分評估方法，在建立對象時應避免哪些事件。 [閱讀全文](../audience/about-audiences.md#streaming-segmentation-events-guardrails)
+* 電子郵件行銷活動的新狀態已新增至行銷活動狀態清單。[閱讀全文](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
+* 開始使用 Adobe Experience Platform 受眾區段已更新，以反映可用的受眾評估方法以及如何選取它們。[閱讀全文](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
+* 已新增新的子區段，以指定如果您使用串流細分評估方法，在建立受眾時應避免哪些事件。[閱讀全文](../audience/about-audiences.md#streaming-segmentation-events-guardrails)
 
 ## 2023 年 10 月 {#oct-2023}
 
