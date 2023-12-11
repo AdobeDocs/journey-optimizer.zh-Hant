@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 85c700271b49150a8796d58748a2d78b20587ee1
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 30%
+ht-degree: 78%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 30%
 
 ## 有哪些新增功能？
 
-快速一覽Journey Optimizer產品和檔案的最新增強功能！ 如需功能、改良與修正的完整清單，請參閱詳細資訊 [發行說明](using/rn/release-notes.md). 請瀏覽 [檔案更新頁面](using/rn/documentation-updates.md).
+快速一覽 Journey Optimizer 產品和文件的最新增強功能！如需功能、改良與修正的完整清單，請參閱詳細資訊 [發行說明](using/rn/release-notes.md). 請造訪[文件更新頁面](using/rn/documentation-updates.md)，了解文件的最新變更。
 
 >[!BEGINTABS]
 
@@ -40,20 +40,20 @@ ht-degree: 30%
   <tr style="border: 0;">
     <td>
     <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a>
-    <div><strong>快速入門手冊</strong><br/>瞭解如何根據您的角色，使用個人化方法更快地在Journey Optimizer中實現目標。</div>
+    <div><strong>快速入門指南</strong><br/>了解如何根據您的角色，使用個人化方法更快地在 Journey Optimizer 中實現目標。</div>
     </td>
     <td>
     <a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/start-interface.jpeg"></a>
-    <div><strong>使用者介面</strong><br/>瞭解如何在Journey Optimizer中導覽及最佳化您的體驗。</div>
+    <div><strong>使用者介面</strong><br/>了解如何在 Journey Optimizer 中導覽及最佳化您的體驗。</div>
     </td>
     <td>
     <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>建立您的第一個歷程</strong><br/>設計和編排個人化的全通路歷程，以一對一客戶參與來協調行銷外聯活動。 
+    <div><strong>建立您的第一個歷程</strong><br/>設計和編排個人化的全通道歷程，以一對一客戶參與來協調行銷外聯活動。 
     </div>
     </td>
     <td>
     <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
-    <div><strong>啟動您的第一個行銷活動</strong><br/>在Journey Optimizer中建立並開始您的第一個行銷活動，以傳送已鎖定目標的一次性內容給特定對象。</div>
+    <div><strong>啟動您的第一個行銷活動</strong><br/>在 Journey Optimizer 中建立並開始您的第一個行銷活動，以傳送已鎖定目標的一次性內容給特定受眾。</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -64,7 +64,7 @@ ht-degree: 30%
     </tr>
 </table>
 
-## 探索檔案
+## 探索文件
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
@@ -101,12 +101,12 @@ ht-degree: 30%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">產品說明</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">安全性概覽(PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API參考</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant" target="_blank">教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">產品說明</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">安全性概觀 (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API 參考</a>
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant" target="_blank">檔案</a> - <a href="https://www.adobe.com/tw/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant" target="_blank">文件</a> - <a href="https://www.adobe.com/tw/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a>
 </td>
 </tr></table>
 
 <table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
-<b>掌握最新資訊並提升您的Adobe Journey Optimizer體驗！</b><br/>註冊我們的每季電子報。 獲得最新產品更新、吸引人的故事、真實使用案例、寶貴提示等內容的專屬存取權，這些內容每季都會直接傳送到您的收件匣。 <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">立即註冊！</a></td></tr></table>
+<b>掌握最新資訊並提升您的 Adobe Journey Optimizer 體驗！</b><br/>註冊我們的季度電子報。獲得最新產品更新、引人入勝的故事、真實使用案例、寶貴提示等內容的專屬存取權，這些內容每季都會直接傳送到您的收件匣。 <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">立即註冊！</a></td></tr></table>
