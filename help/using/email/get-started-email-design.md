@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 keywords: 電子郵件、設計、素材、資產
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
-workflow-type: tm+mt
-source-wordcount: '479'
+workflow-type: ht
+source-wordcount: '480'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 1. 在電子郵件設計工具首頁，從下列選項選取您希望如何設計電子郵件：
 
-   * 透過電子郵件設計工具介面&#x200B;**從頭開始設計您的電子郵件**，並善用 [Adobe Experience Manager Assets ](../content-management/assets.md) 的影像。在[本節](content-from-scratch.md)了解如何設計您的電子郵件內容。
+   * 透過電子郵件設計工具介面並善用 [Adobe Experience Manager Assets](../content-management/assets.md) 的影像&#x200B;**從頭開始設計電子郵件**。在[本節](content-from-scratch.md)了解如何設計您的電子郵件內容。
 
    * 直接在電子郵件設計工具&#x200B;**撰寫或貼上原始 HTML**。在[本節](code-content.md)了解如何撰寫您自己的內容。
 
