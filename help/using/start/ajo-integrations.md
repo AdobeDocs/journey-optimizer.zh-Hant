@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
-workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '709'
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Journey Optimizer 會將資料儲存在 Adobe Experience Platform，並利用 Cu
 
 可以透過左側選單 **[!UICONTROL Assets]** 區段直接從 [!DNL Adobe Journey Optimizer] 存取 [!DNL Adobe Experience Manager Assets]。
 
-進一步瞭解 [JOURNEY OPTIMIZER + ADOBE EXPERIENCE MANAGER ASSETS](../content-management/assets.md).
+進一步了解 [Journey Optimizer + Adobe Experience Manager Assets](../content-management/assets.md)。
 
 
 ## Adobe Stock {#integration-stock}
