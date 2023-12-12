@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
+source-git-commit: 51c6717d5d5d317c4ff1040194f2e831bea89222
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 52%
+source-wordcount: '880'
+ht-degree: 48%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 52%
 >title="選取行銷活動的對象"
 >abstract="此清單顯示所有可用的 Adobe Experience Platform 對象。為你的行銷活動選取目標對象。在行銷活動中設定的訊息將傳送給屬於所選對象的所有個人。[進一步了解對象](../audience/about-audiences.md)"
 
-[!DNL Journey Optimizer] 可讓您直接從&#x200B;**[!UICONTROL 對象]**&#x200B;選單，使用即時客戶設定檔資料來建置和使用 Adobe Experience Platform 對象，然後用於歷程或行銷活動。進一步瞭解 [Adobe Experience Platform Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}.
+[!DNL Journey Optimizer] 可讓您直接從使用即時客戶個人檔案資料來建立及運用Adobe Experience Platform對象 **[!UICONTROL 受眾]** 選單，並用於您的歷程或行銷活動。 進一步瞭解 [Adobe Experience Platform Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}.
 
 ## 在 [!DNL Journey Optimizer] 中使用對象 {#segments-in-journey-optimizer}
 
@@ -59,11 +59,11 @@ ht-degree: 52%
 
 當新資料流入系統時，對象的設定檔清單會即時保持最新。
 
-串流細分是持續進行的資料選擇流程，其會根據使用者活動來更新對象。 在建置區段定義並儲存產生的對象後，區段定義會套用至傳入 Journey Optimizer 的資料。 這表示個人會隨著其設定檔資料變更而從對象中新增或移除，以確保目標對象總是相關。[了解更多](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html#query-types){target="_blank"}
+串流細分是持續進行的資料選擇流程，其會根據使用者活動來更新對象。 在建置區段定義並儲存產生的對象後，區段定義會套用至傳入 Journey Optimizer 的資料。 這表示當個人設定檔資料變更時，將會在對象中新增或移除該個人，以確保您的目標對象永遠相關。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}
 
 >[!NOTE]
 >
->請務必使用正確事件作為串流細分條件。 [了解更多](#open-and-send-event-guardrails)
+>請務必使用正確事件作為串流細分條件。 [了解更多](#streaming-segmentation-events-guardrails)
 
 +++
 
