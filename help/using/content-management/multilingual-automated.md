@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Beta" type="Informative"
-source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
+source-git-commit: d8926076d30fb07ea10e06ea8ee025b04ba5bb85
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1370'
 ht-degree: 3%
 
 ---
@@ -182,9 +182,17 @@ ht-degree: 3%
 1. 在此頁面中，依照翻譯專案狀態進行：
 
    * **[!UICONTROL 翻譯進行中]**：您的服務供應商正在積極處理翻譯工作。
+
+     如果您已選取 **內部翻譯** 設定您的 **語言設定**，您可以直接在翻譯專案中翻譯內容。 [了解更多](#manage-ht-project)
+
    * **[!UICONTROL 準備好審查]**：評論程式已準備就緒，可讓您存取翻譯，並拒絕或核准翻譯。
-   * **[!UICONTROL 已檢閱]**：翻譯已獲核准，可傳送至行銷活動。
+
+     如果您已選取 **[!UICONTROL 啟用稽核工作流程]** 在您的 **[!UICONTROL 翻譯專案]**，您可在選取的翻譯提供者完成翻譯後，直接在Journey Optimizer中檢閱翻譯。 [了解更多](#review-translation-project)
+
+   * **[!UICONTROL 已檢閱]**：翻譯已獲核准，可發佈並傳送至行銷活動。
+
    * **[!UICONTROL 準備發佈]**：機器翻譯已完成，現在可傳送至您的行銷活動。
+
    * **[!UICONTROL 已完成]**：您的行銷活動現在提供翻譯。
 
    ![](assets/multilingual-campaign-automated-6.png)
