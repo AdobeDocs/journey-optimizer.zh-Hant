@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
@@ -36,17 +36,17 @@ Adobe Journey Optimizer目前與獨立於Adobe Journey Optimizer提供文字訊�
 >若要存取及編輯SMS子網域，您必須擁有 **[!UICONTROL 管理SMS子網域]** 生產沙箱的許可權。 進一步瞭解中的許可權 [此頁面](../administration/high-low-permissions.md#administration-permissions).
 >
 
-## 建立新的API認證 {#create-api}
+## 建立新的 API 認證 {#create-api}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
->title="使用Journey Optimizer設定您的簡訊/多媒體簡訊提供者"
->abstract="Adobe Journey Optimizer會透過SMS/MMS服務提供者傳送文字訊息。 選取您的提供者，並填寫您的API認證。"
+>title="使用 Journey Optimizer 設定您的 SMS/MMS 服務提供者"
+>abstract="Adobe Journey Optimizer 會透過 SMS/MMS 服務提供者發送文字簡訊。選取您的服務提供者並填寫您的 API 認證。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="使用Journey Optimizer設定您的簡訊/多媒體簡訊提供者"
->abstract="在傳送簡訊(SMS/MMS)之前，您必須整合提供者設定與Journey Optimizer。 完成後，您需要建立SMS/MMS表面。 這些步驟必須由Adobe Journey Optimizer系統管理員執行。"
+>title="使用 Journey Optimizer 設定您的 SMS/MMS 服務提供者"
+>abstract="在傳送文字簡訊 (SMS/MMS) 之前，您必須將提供者設定和 Journey Optimizer 整合。完成後，您將需要建立一個 SMS/MMS 表面。這些步驟必須由 Adobe Journey Optimizer 系統管理員執行。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hant#message-preset-sms" text="建立簡訊管道表面"
 
 >[!CONTEXTUALHELP]
@@ -103,9 +103,9 @@ Adobe Journey Optimizer目前與獨立於Adobe Journey Optimizer提供文字訊�
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
->title="定義訊息類別"
->abstract="使用此介面選取文字訊息型別：促銷訊息的行銷需要使用者同意，或非商業訊息的交易式（例如重設密碼）。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hant#sms-opt-out-management" text="行銷文字訊息中的選擇退出"
+>title="定義訊息類別。"
+>abstract="選取使用此表面的文字簡訊類型：需要使用者同意的促銷簡訊的行銷訊息，或非商業簡訊的交易型訊息，例如密碼重設。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hant#sms-opt-out-management" text="選擇不接收行銷文字簡訊"
 
 設定您的SMS/MMS頻道後，您必須建立頻道介面才能從傳送SMS訊息 **[!DNL Journey Optimizer]**.
 

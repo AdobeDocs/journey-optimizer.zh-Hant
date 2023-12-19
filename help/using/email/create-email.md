@@ -12,7 +12,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: f2037f559826d7cca243092de200c97841c49b35
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="電子郵件建立"
->abstract="定義您的電子郵件主旨行，然後開啟「電子郵件設計工具」以建立電子郵件的內容。"
+>abstract="定義您的電子郵件主旨行，然後開啟電子郵件設計工具來建立電子郵件內容。"
 
 
 ## 新增電子郵件動作 {#email-action}

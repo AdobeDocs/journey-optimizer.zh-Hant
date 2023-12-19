@@ -11,7 +11,7 @@ exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 14%
+ht-degree: 24%
 
 ---
 
@@ -19,18 +19,18 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
->title="委派SMS/MMS子網域"
->abstract="設定簡訊(SMS/MMS)的子網域。 您可以使用已委派給Adobe的子網域，或設定新的子網域。"
+>title="委派 SMS/MMS 子網域"
+>abstract="設定文字簡訊 (SMS/MMS) 子網域。您可以使用已委派給 Adobe 的子網域，或設定新的子網域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
->title="委派SMS/MMS子網域"
->abstract="您必須設定用於文字訊息的子網域，因為您需要此子網域來建立SMS表面。 您可以使用已委派給Adobe的子網域，或設定新的子網域。"
+>title="委派 SMS/MMS 子網域"
+>abstract="您必須設定要用於文字簡訊的子網域，因為您需要此子網域才能建立 SMS 表面。您可以使用已委派給 Adobe 的子網域，或設定新的子網域。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hant#message-preset-sms" text="建立簡訊表面"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
->title="選取SMS/MMS子網域"
+>title="選取 SMS/MMS 子網域"
 >abstract="為了能夠建立簡訊表面，請確保您之前已設定了至少一個簡訊子網域，才能從子網域名稱清單中挑選。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hant#message-preset-sms" text="建立簡訊表面"
 

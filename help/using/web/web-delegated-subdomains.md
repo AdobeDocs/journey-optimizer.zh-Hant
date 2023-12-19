@@ -11,7 +11,7 @@ exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 15%
+ht-degree: 21%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="委派網頁子網域"
->abstract="如果您將來自Adobe Experience Manager Assets的內容新增至網頁體驗，您必須設定用於發佈此內容的子網域。 選取已委派給 Adobe 的子網域，或設定新的子網域。"
+>abstract="如果您將來自 Adobe Experience Manager Assets 的內容新增到您的網頁體驗中，則必須設定將用來發佈此內容的子網域。選取已委派給 Adobe 的子網域，或設定新的子網域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
@@ -101,7 +101,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_web_subdomain_dns"
 >title="產生相符的 DNS 記錄"
->abstract="若要設定新的 Web 子網域，您需要將 Journey Optimizer 介面中顯示的 Adobe 名稱伺服器資訊複製後貼到您的網域託管解決方案中，以產生相符的 DNS 記錄。檢查成功後，子網域已準備好用於發佈來自Adobe Experience Manager Assets資料庫的內容。"
+>abstract="若要設定新的 Web 子網域，您需要將 Journey Optimizer 介面中顯示的 Adobe 名稱伺服器資訊複製後貼到您的網域託管解決方案中，以產生相符的 DNS 記錄。檢查成功後，子網域即可用於發佈來自 Adobe Experience Manager Assets 資料庫的內容。"
 
 若要設定新的子網域，請遵循下列步驟。
 

@@ -11,16 +11,16 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
-# 建立文字訊息（簡訊/多媒體簡訊）{#create-sms}
+# 建立文字簡訊 (SMS/MMS){#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="建立文字訊息"
->abstract="若要建立簡訊(SMS/MMS)，請在歷程或行銷活動中新增SMS動作，並開始使用運算式編輯器進行個人化。"
+>title="建立文字訊息。"
+>abstract="若要建立文字簡訊 (SMS/SMS)，請在歷程或活動中新增 SMS 動作，然後開始使用運算式編輯器對其進行個人化設定。"
 
 您可以使用Adobe Journey Optimizer設計和傳送文字(SMS)和多媒體(MMS)訊息。 您首先需要在歷程或行銷活動中新增SMS動作，然後定義文字訊息的內容，如下所述。 Adobe Journey Optimizer也提供在傳送文字訊息前先測試訊息的功能，讓您可檢查轉譯、個人化屬性和所有其他設定。
 
@@ -86,12 +86,12 @@ ht-degree: 4%
 
 >[!ENDTABS]
 
-## 定義您的簡訊內容{#sms-content}
+## 定義您的文字簡訊內容{#sms-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
->title="定義您的簡訊內容"
->abstract="使用運算式編輯器定義內容並合併動態元素，以自訂和個人化您的文字訊息（簡訊/多媒體簡訊）。"
+>title="定義您的文字簡訊內容"
+>abstract="透過使用運算式編輯器定義內容並結合動態元素，自訂與個人化文字簡訊 (SMS/MMS)。"
 
 若要設定簡訊內容，請遵循下列步驟。 有關MMS設定的詳情，請參閱 [本節](#mms-content).
 
