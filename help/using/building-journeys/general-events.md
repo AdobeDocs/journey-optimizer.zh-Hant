@@ -11,8 +11,8 @@ keywords: 自訂，一般，事件，歷程
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 20%
+source-wordcount: '448'
+ht-degree: 15%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
 >title="單一事件"
->abstract="事件可讓您一直觸發歷程，以即時傳送訊息給流入歷程的個人。 對於這類事件，您只能新增標籤和說明。事件設定由資料工程師執行，並且無法編輯。"
+>abstract="事件可讓您一致性地觸發歷程，以即時傳送訊息給流入歷程的個人。對於這類事件，您只能新增標籤和說明。事件設定由資料工程師執行，並且無法編輯。"
 
-事件可讓您一直觸發歷程，以即時傳送訊息給流入歷程的個人。 
+事件可讓您一直觸發歷程，以即時傳送訊息給流入歷程的個人。
 
 對於這類事件，您只能新增標籤和說明。無法編輯其餘的組態。 它由技術使用者執行。 請參閱[此頁面](../event/about-events.md)。
 

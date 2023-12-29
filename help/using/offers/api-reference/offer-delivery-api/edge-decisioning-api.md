@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: 359846ac00fc8e3ad16eca41b6b3c345cad4aa65
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 4%
+source-wordcount: '888'
+ht-degree: 1%
 
 ---
 
@@ -72,7 +72,7 @@ SDK並未合併這些程式庫，而是全新實施。 若要使用，您必須�
 
    ![身分對應](../../assets/sdk-identity-map.png)
 
-   ![XDM 物件](../../assets/xdm-object.png)
+   ![xdm物件](../../assets/xdm-object.png)
 
 1. 建立您的 [規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)：
 

@@ -12,7 +12,7 @@ exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 39%
+ht-degree: 31%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 39%
 
 如果您有 Adobe Campaign v7 或 v8，則可整合。 其可讓您使用Adobe Campaign異動訊息功能來傳送電子郵件、推播通知及簡訊。
 
-Journey Optimizer 和 Campaign 執行個體之間的連線在佈建時由 Adobe 設定。連絡Adobe。
+Journey Optimizer與Campaign執行個體之間的連線在布建時由Adobe設定。 連絡Adobe。
 
 為了讓此功能發揮作用，您需要設定專用動作。 請參閱本[章節](../action/acc-action.md)。
 

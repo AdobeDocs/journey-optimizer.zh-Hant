@@ -11,7 +11,7 @@ exl-id: 12168cdf-f517-49b5-958b-ba689ade6982
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 7%
+ht-degree: 0%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 7%
  </thead> 
  <tbody>
   <tr> 
-   <td> 跳出<br/> </td> 
+   <td> 跳出數<br/> </td> 
    <td> 傳遞與自動退貨處理期間累計的錯誤總數。<br/> </td> 
 </tr> 
   <tr> 
@@ -71,7 +71,7 @@ ht-degree: 7%
    <td> 與已傳送電子郵件相比跳出的電子郵件百分比。<br/> </td> 
 </tr>
   <tr> 
-   <td> 點擊次數<br/> </td> 
+   <td> 點按次數<br/> </td> 
    <td> 在電子郵件中點按內容的次數。<br/> </td> 
 </tr> 
   <tr> 
@@ -111,7 +111,7 @@ ht-degree: 7%
    <td>已開啟選件相對於已傳送選件數量的百分比。<br/> </td> 
 </tr>
    <tr> 
-   <td>優惠方案名稱<br/> </td> 
+   <td>選件名稱<br/> </td> 
    <td> 在傳遞中新增的優惠方案名稱。 如需位置的詳細資訊，請參閱此 <a href="../offers/offer-library/creating-personalized-offers.md">頁面</a>.<br/> </td> 
 </tr>
    <tr> 
@@ -119,7 +119,7 @@ ht-degree: 7%
    <td>優惠方案的傳送總數。<br/> </td> 
 </tr> 
   <tr>
-   <td>開啟數<br/> </td> 
+   <td>開啟次數<br/> </td> 
    <td> 訊息開啟的次數。<br/> </td> 
 </tr> 
   <tr> 
@@ -131,7 +131,7 @@ ht-degree: 7%
    <td> 用來顯示優惠方案的位置名稱。 如需位置的詳細資訊，請參閱此 <a href="../offers/offer-library/creating-placements.md">頁面</a>. </td> 
 </tr> 
   <tr> 
-   <td> 重試次數<br/> </td> 
+   <td> 重試<br/> </td> 
    <td> 重試佇列中的電子郵件數目。<br/> </td> 
 </tr> 
   <tr> 
@@ -151,7 +151,7 @@ ht-degree: 7%
    <td> 傳遞分析期間處理的訊息總數。<br/> </td> 
 </tr> 
   <tr> 
-   <td> 不重複點按次數<br/> </td> 
+   <td> 不重複點按<br/> </td> 
    <td> 點按電子郵件中內容的收件者人數。<br/> </td> 
 </tr> 
   <tr> 
@@ -163,7 +163,7 @@ ht-degree: 7%
    <td>開啟傳遞的收件者人數。<br/> </td> 
 </tr> 
   <tr> 
-   <td> 取消訂閱次數<br/> </td> 
+   <td> 取消訂閱<br/> </td> 
    <td> 對取消訂閱連結的點按次數。<br/> </td> 
 </tr> 
  </tbody> 
@@ -180,12 +180,12 @@ ht-degree: 7%
  </thead> 
  <tbody>
  <tr> 
-  <td>跳出<br/> </td> 
+  <td>跳出數<br/> </td> 
    <td>未與登入頁面互動且未完成訂閱動作的人數。<br/> </td> 
 </tr>
  <tr>
   <tr> 
-   <td>點擊次數<br/> </td> 
+   <td>點按次數<br/> </td> 
    <td>內容在登入頁面中被點按的次數。<br/> </td> 
 </tr>
 <tr>
@@ -209,7 +209,7 @@ ht-degree: 7%
    <td>造訪您登陸頁面的人員數量，系統不會考慮一位收件者的多次造訪。<br/> </td> 
 </tr>
  <tr> 
-   <td>造訪數<br/> </td> 
+   <td>造訪<br/> </td> 
    <td>造訪您的登陸頁面的次數，包括一位收件者的多次造訪。<br/> </td> 
 </tr>
  </tbody> 
@@ -230,7 +230,7 @@ ht-degree: 7%
    <td> 推播通知已傳送的動作總數，例如按鈕點選或解除。<br/> </td> 
 </tr>
   <tr> 
-   <td>跳出<br/> </td> 
+   <td>跳出數<br/> </td> 
    <td> 傳遞與自動退貨處理期間累計的錯誤總數。<br/> </td> 
 </tr> 
   <tr> 
@@ -250,7 +250,7 @@ ht-degree: 7%
    <td> Adobe Journey Optimizer已排除的設定檔數。<br/> </td> 
 </tr>
   <tr> 
-   <td> 開啟數<br/> </td> 
+   <td> 開啟次數<br/> </td> 
    <td> 傳遞到裝置且使用者因此開啟應用程式而點按的推播通知總數。 這類似於「推送點按」，但如果通知已關閉，則不會觸發「推送開啟」。<br/> </td> 
 </tr> 
   <tr> 

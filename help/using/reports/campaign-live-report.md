@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2095'
 ht-degree: 40%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 40%
 
 ## 行銷活動標籤 {#campaign-live}
 
-### 傳送 {#delivery-live}
+### 傳遞 {#delivery-live}
 
 此 **[!UICONTROL 行銷活動統計資料]** widget會詳細說明與行銷活動相關的主要資訊：
 

@@ -10,8 +10,8 @@ keywords: 歷程，欄位，運算式，事件
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 3%
+source-wordcount: '562'
+ht-degree: 2%
 
 ---
 
@@ -109,7 +109,7 @@ expression examples:
 
 ## 參照地圖中定義的欄位
 
-### `entry` 函數
+### `entry` 函式
 
 為了擷取對應中的元素，我們使用具有給定索引鍵的專案函式。 例如，根據選取的名稱空間，定義事件的索引鍵時會使用它。 如需詳細資訊，請參閱 [此頁面](../../event/about-creating.md#select-the-namespace).
 
@@ -119,7 +119,7 @@ expression examples:
 
 在此運算式中，我們會取得事件之「IdentityMap」欄位的「Email」索引鍵專案。 &#39;Email&#39;專案是集合，我們使用&#39;first()&#39;從其中取得第一個元素中的&#39;id&#39;。 如需詳細資訊，請參閱 [此頁面](../expression/collection-management-functions.md).
 
-### `firstEntryKey` 函數
+### `firstEntryKey` 函式
 
 若要擷取對映的第一個專案鍵，請使用 `firstEntryKey` 函式。
 
@@ -131,7 +131,7 @@ expression examples:
 
 在此範例中，訂閱清單名為 `daily-email`. 電子郵件地址在中定義為金鑰 `subscribers` 對應，此對應會連結至訂閱清單對應。
 
-### `keys` 函數
+### `keys` 函式
 
 若要擷取到地圖的所有索引鍵，請使用 `keys` 函式。
 

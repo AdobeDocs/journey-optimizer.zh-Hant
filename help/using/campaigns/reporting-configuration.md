@@ -11,8 +11,8 @@ keywords: 設定，實驗，報告，最佳化工具
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 42%
+source-wordcount: '592'
+ht-degree: 29%
 
 ---
 
@@ -57,9 +57,9 @@ ht-degree: 42%
   >
   >可能還包括其他欄位群組，但Journey Optimizer報表中目前僅支援上述欄位群組。
 
-  例如，如果您想瞭解電子郵件促銷活動對商業資料 (如採購或訂單) 的影響，則需要建立體驗事件資料集 `Commerce Details` 欄位群組。 
+  例如，如果您想瞭解電子郵件行銷活動對商業資料（如購買或訂單）的影響，則需要使用建立體驗事件資料集 `Commerce Details` 欄位群組。
 
-  同樣，如果要報告行動互動，則需要建立體驗事件資料集 `Application Details` 欄位群組。 
+  同樣地，如果您想要報告行動互動，則需要建立體驗事件資料集，包含 `Application Details` 欄位群組。
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 

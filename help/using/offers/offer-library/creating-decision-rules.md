@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 13%
+source-wordcount: '408'
+ht-degree: 8%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 您可以根據Adobe Experience Platform中的可用資料來建立優惠決定規則。 決定規則會決定要向誰顯示優惠方案。
 
-例如，您可以指定只在 (性別 =「女性」) 和 (地區 =「東北部」) 時顯示「女性冬季服裝優惠方案」。
+例如，您可以指定只在（性別=「女性」）和（地區=「東北」）時顯示「女士冬季服裝優惠方案」。
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -61,7 +61,7 @@ ht-degree: 13%
    >
    >當規則引數包含不在設定檔中的資料（例如內容資料）時，設定檔預估無法使用。 例如，適用性規則要求目前天氣為≥80度。
 
-1. 按一下 **[!UICONTROL 儲存]** 以確認。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認。
 
 1. 規則建立後，會顯示在 **[!UICONTROL 規則]** 清單。 您可以選取它以顯示其屬性，並加以編輯或刪除。
 

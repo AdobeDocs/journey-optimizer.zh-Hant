@@ -11,8 +11,8 @@ keywords: 資產， experience manager，整合
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 8%
+source-wordcount: '787'
+ht-degree: 7%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 8%
 
 1. 選取您要上傳的檔案。 完成後，按一下 **[!UICONTROL 上傳]**. 要瞭解有關如何管理資產的詳細資訊，請參閱本 [頁面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
-1. 若要使用Adobe Photoshop Express進一步編輯您的資產，請連按兩下資產。 然後，從右側功能表中選取 **[!UICONTROL 編輯模式]** 圖示。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
+1. 若要使用Adobe Photoshop Express進一步編輯您的資產，請連按兩下資產。 然後，從右側功能表中選取 **[!UICONTROL 編輯模式]** 圖示。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}。
 
    ![](assets/media_library_12.png)
 

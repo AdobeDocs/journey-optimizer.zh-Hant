@@ -6,7 +6,7 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1717'
 ht-degree: 100%
 
@@ -576,7 +576,7 @@ ht-degree: 100%
    + [管理使用者和角色](using/administration/permissions.md)
    + [以屬性為基礎的存取控制](using/administration/attribute-based-access.md)
    + [物件等級存取控制](using/administration/object-based-access.md)
-   + [沙盒管理](using/administration/sandboxes.md)
+   + [沙箱管理](using/administration/sandboxes.md)
 + 隱私權 {#privacy}
    + [開始使用隱私權](using/privacy/get-started-privacy.md)
    + [隱私權請求](using/privacy/requests.md)

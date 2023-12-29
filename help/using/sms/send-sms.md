@@ -11,7 +11,7 @@ exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -50,5 +50,5 @@ ht-degree: 1%
 
 * [設定簡訊頻道](sms-configuration.md)
 * [簡訊/多媒體簡訊報告](../reports/journey-global-report.md#sms-global)
-* [建立文字訊息](create-sms.md)
+* [建立文字訊息。](create-sms.md)
 * [在歷程中新增訊息](../building-journeys/journeys-message.md)

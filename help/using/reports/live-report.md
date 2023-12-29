@@ -11,7 +11,7 @@ exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 3%
 
 ## 自訂儀表板 {#modify-dashboard}
 
-每個報告儀表板都可以透過調整大小或移除介面工具來修改。變更Widget只會影響目前使用者的儀表板。 其他使用者將看到自己的儀表板或預設設定的儀表板。
+每個報表控制面板都可藉由調整大小或移除Widget加以修改。 變更Widget只會影響目前使用者的儀表板。 其他使用者將看到自己的儀表板或預設設定的儀表板。
 
 1. 從 **[!UICONTROL 動作]** 下拉式清單，選擇是否要報告歷程的一個特定動作。
 

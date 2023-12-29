@@ -11,8 +11,8 @@ keywords: 登陸、登陸頁面、使用案例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 15%
+source-wordcount: '942'
+ht-degree: 12%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 15%
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [發佈登陸頁面.](create-lp.md#publish)
+1. [發佈](create-lp.md#publish) 登陸頁面。
 
 1. 在 [歷程](../building-journeys/journey.md)，新增 **電子郵件** 將流量引導至註冊登陸頁面的活動。
 
@@ -129,7 +129,7 @@ ht-degree: 15%
 
 1. [建立電子郵件訊息](../email/get-started-email-design.md) 在歷程中。
 
-1. 選擇內容中的文字，並使用內容相關工具列[插入連結](../email/message-tracking.md#insert-links)。您也可以在按鈕上使用連結。
+1. 選取內容中的文字，並 [插入連結](../email/message-tracking.md#insert-links) 使用內容工具列。 您也可以在按鈕上使用連結。
 
 1. 選取 **[!UICONTROL 登陸頁面]** 從 **[!UICONTROL 連結型別]** 下拉式清單並選取 [登陸頁面](create-lp.md#configure-primary-page) 您建立用來選擇退出的物件。
 

@@ -11,8 +11,8 @@ keywords: 資料，來源，歷程，平台
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 73%
+source-wordcount: '311'
+ht-degree: 72%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 73%
 
 * [條件定義](../building-journeys/condition-activity.md)
 * [動作](../action/action.md)中的參數和個人化資料
-* [自定等待定義](../building-journeys/wait-activity.md#custom)
+* [自訂等待定義](../building-journeys/wait-activity.md#custom)
 * [時區定義](../building-journeys/timezone-management.md)
 
 ➡️ [在影片中探索此功能](#video)

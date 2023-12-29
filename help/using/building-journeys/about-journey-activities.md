@@ -11,14 +11,14 @@ keywords: 歷程，活動，開始，事件，動作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 17%
+source-wordcount: '538'
+ht-degree: 13%
 
 ---
 
 # 開始使用歷程活動 {#about-journey-activities}
 
-結合不同的事件、協調和動作活動，以建立您的多步驟跨管道情境。
+結合不同的事件、協調和動作活動，以建置您的多步驟跨管道情境。
 
 ## 事件活動 {#event-activities}
 
@@ -62,7 +62,7 @@ ht-degree: 17%
 
 這些活動代表不同的可用通訊通道。您可以將其合併，以建立跨管道情境。
 
-如果您已設定自訂動作，它們也會顯示在這裡。 [了解更多](../building-journeys/using-custom-actions.md)).
+如果您已設定自訂動作，它們也會顯示在這裡。 [瞭解更多](../building-journeys/using-custom-actions.md))。
 
 ## 最佳作法 {#best-practices}
 

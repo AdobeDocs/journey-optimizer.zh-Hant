@@ -11,8 +11,8 @@ keywords: 歷程，限制
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 54%
+source-wordcount: '512'
+ht-degree: 47%
 
 ---
 
@@ -38,14 +38,14 @@ ht-degree: 54%
 ## 自訂動作限制 {#custom-actions-limitations}
 
 * 自訂動作 URL 不支援動態參數。 
-* 僅支援 POST 和 PUT 呼叫方法. 
-* 查詢參數或標題的名稱不得以「.」開頭 或 &quot;$&quot;。 
-* 不允許使用 IP 位址. 
+* 僅支援POST和PUT呼叫方法。 
+* 查詢參數或標題的名稱不得以「.」開頭 或「$」。 
+* 不允許IP位址。 
 * 內部 Adobe 位址 (.adobe.) 是不允許的。
 
-## 活動 限制 {#events-limitations}
+## 事件限制 {#events-limitations}
 
-* 對於系統產生的事件，必須先在 Journey Optimizer 中設定用於啟動客戶歷程的串流資料，才能取得唯一的協調流程 ID。  此協調流程ID必須附加至傳入Adobe Experience Platform的串流裝載。 此限制不適用於規則型事件。
+* 對於系統產生的事件，必須先在Journey Optimizer中設定用於啟動客戶歷程的串流資料，才能取得唯一的協調流程ID。 此協調流程ID必須附加至傳入Adobe Experience Platform的串流裝載。 此限制不適用於規則型事件。
 
 ## 資料來源限制 {#data-sources-limitations}
 

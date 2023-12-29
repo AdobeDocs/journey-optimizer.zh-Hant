@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 21%
+source-wordcount: '1365'
+ht-degree: 17%
 
 ---
 
@@ -122,10 +122,10 @@ ht-degree: 21%
 |---------|---------|
 | **[!UICONTROL 可收合]** (iOS / Android) | 可收合的訊息是已過時的訊息，可由新訊息取代。 可摺疊訊息的常見使用案例是用來讓行動應用程式從伺服器同步資料的訊息。 例如，將使用者更新為最新分數的運動應用程式。 只有最近的訊息才相關。 另一方面，由於訊息無法收合，因此對於使用者端應用程式而言，訊息非常重要，必須加以傳送。 |
 | **[!UICONTROL 自訂音效]** (iOS / Android) | 收到通知時，行動終端機要播放的聲音。 聲音需要在應用程式中整合。 |
-| **[!UICONTROL 徽章]** (iOS / Android) | 徽章可用來直接在應用程式圖示上顯示新未讀取資訊的數量。<br/>當使用者開啟或從應用程式讀取新內容時，徽章值就會消失。在裝置上收到通知時，它可以重新整理或新增相關應用程式的徽章值。<br/>例如，如果您儲存客戶的未讀文章數量，您可以運用個人化，為每個客戶傳送唯一的未讀文章徽章值。 如需個人化的詳細資訊，請參閱 [本節](../personalization/personalize.md). |
+| **[!UICONTROL 徽章]** (iOS / Android) | 徽章可用來直接在應用程式圖示上顯示新未讀取資訊的數量。<br/>當使用者開啟或從應用程式讀取新內容時，徽章值就會消失。 在裝置上收到通知時，它可以重新整理或新增相關應用程式的徽章值。<br/>例如，如果您儲存客戶的未讀文章數量，您可以運用個人化，為每個客戶傳送唯一的未讀文章徽章值。 如需個人化的詳細資訊，請參閱 [本節](../personalization/personalize.md). |
 | **[!UICONTROL 通知群組]**  (僅限iOS) | 將通知群組關聯至推播通知。<br/>從iOS 12開始，通知群組可讓您將訊息對話串和通知主題整合到對話串ID中。 例如，品牌可能會以一個群組ID傳送行銷通知，同時以一個或多個不同的ID保留更多營運型別通知。<br/>舉例來說，您可以有groupID： 123 「檢視新春毛衣系列」和groupID： 456「您的包裹已送達」通知群組。 在此範例中，所有傳送通知都會整合在群組ID： 456底下。 |
 | **[!UICONTROL 通知頻道]** （僅限Android） | 將通知頻道與推播通知建立關聯。<br/>從Android 8.0 （API層級26）開始，所有通知都必須指派至管道才能顯示。 有關詳細資訊，請參閱 [Android開發人員檔案](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels). |
-| **[!UICONTROL 新增內容可用性旗標]** (僅限iOS) | 傳送推播裝載中的可用內容旗標，以確保應用程式在收到推播通知時立即喚醒，這表示應用程式將能夠存取裝載資料。<br/> 即使應用程式在背景執行，而且不需要任何使用者互動（例如點選推播通知），這仍然有效。不過，如果應用程式未執行，則不適用。 如需詳細資訊，請參閱 [Apple開發人員檔案](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。 |
+| **[!UICONTROL 新增內容可用性旗標]** (僅限iOS) | 傳送推播裝載中的可用內容旗標，以確保應用程式在收到推播通知時立即喚醒，這表示應用程式將能夠存取裝載資料。<br/> 即使應用程式在背景執行，而且不需要任何使用者互動（例如點選推播通知），這仍然有效。 不過，如果應用程式未執行，則不適用。 如需詳細資訊，請參閱 [Apple開發人員檔案](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。 |
 | **[!UICONTROL 新增mutable-content標幟]** (僅限iOS) | 在推播裝載中傳送可變內容旗標，並允許推播通知內容由iOS SDK中提供的通知服務應用程式擴充功能修改。 有關詳細資訊，請參閱 [Apple 開發人員文件](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。<br/>然後，您可以運用行動應用程式擴充功能，進一步修改由傳送之推播通知的內容或簡報 [!DNL Journey Optimizer]. 例如，使用者可以善用此選項來解密資料、變更通知的正文或標題文字、新增對話串識別碼至通知等。 |
 | **[!UICONTROL 通知可見度]** （僅限Android） | 定義推播通知的可見度。 <br/><b>私人</b> 會在所有鎖定熒幕上顯示通知，但在安全鎖定熒幕隱藏敏感或私人資訊。 <br/><b>公共</b> 會在所有鎖定熒幕上顯示完整通知。 <br/><b>密碼</b> 將不會在安全鎖定熒幕上顯示通知的任何部分。 <br/>如需詳細資訊，請參閱 [Android開發人員檔案](https://developer.android.com/reference/android/app/Notification). |
 | **[!UICONTROL 通知優先順序]** （僅限Android） | 定義推播通知的重要性從低到高。 這會決定推播通知在傳送時會如何「干擾」。 有關詳細資訊，請參閱 [Android開發人員檔案](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |

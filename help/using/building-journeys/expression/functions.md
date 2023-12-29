@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 函式
+title: 函數
 description: 瞭解函式
 feature: Journeys
 role: Data Engineer, Architect
@@ -11,15 +11,15 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 73%
+ht-degree: 65%
 
 ---
 
-# 函式 {#functions}
+# 函數 {#functions}
 
 函式可以有不同的簽章（不同的有序引數集）。 函式簽章可以有0-N個運算式做為排序引數。
 
-`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
+`<function name>`(`<expression as param 1>`， `<expression as param 2>`， ... ，`<expression as param N>`)
 
 每個函式都有特定的傳回型別。
 
@@ -65,7 +65,7 @@ ht-degree: 73%
 | 清單 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
 | 清單 | [篩選](../functions/functionfilter.md) |
 | 清單 | [getListItem](../functions/functiongetlistitem.md) |
-| 清單 | [在 ](../functions/functionin.md) |
+| 清單 | [in](../functions/functionin.md) |
 | 清單 | [相交](../functions/functionintersect.md) |
 | 清單 | [listSize](../functions/functionlimit.md) |
 | 清單 | [listSize](../functions/functionlistsize.md) |
@@ -83,7 +83,7 @@ ht-degree: 73%
 | 字串 | [isEmpty](../functions/functionisempty.md) |
 | 字串 | [isNotEmpty](../functions/functionisnotempty.md) |
 | 字串 | [lastIndexOf](../functions/functionlastindexof.md) |
-| 字串 | [長度](../functions/functionlength.md) |
+| 字串 | [length](../functions/functionlength.md) |
 | 字串 | [lower](../functions/functionlower.md) |
 | 字串 | [matchRegExp](../functions/functionmatchregexp.md) |
 | 字串 | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |

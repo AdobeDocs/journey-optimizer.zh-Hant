@@ -11,8 +11,8 @@ badge: label="Beta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 9%
+source-wordcount: '357'
+ht-degree: 8%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 9%
 ![](assets/mobile-wf-valid.png)
 
 
-## 請檢閱 {#review-mobile-wf}
+## 檢閱 {#review-mobile-wf}
 
 自動化設定已完成。 您現在可以造訪標籤行動屬性，設定規則或資料元素，並開始使用Adobe Journey Optimizer傳送推播通知。
 

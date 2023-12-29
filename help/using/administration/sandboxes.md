@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 沙盒管理
+title: 沙箱管理
 description: 瞭解如何管理沙箱
 feature: Sandboxes
 topic: Administration
@@ -11,12 +11,12 @@ keywords: 沙箱，虛擬，環境，組織，平台
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 58%
+source-wordcount: '325'
+ht-degree: 55%
 
 ---
 
-# 沙盒管理 {#sandboxes}
+# 沙箱管理 {#sandboxes}
 
 ## 使用沙箱 {#using-sandbox}
 

@@ -11,8 +11,8 @@ keywords: 訊息，頻率，規則，壓力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 13%
+source-wordcount: '990'
+ht-degree: 12%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 13%
 
    ![](assets/message-rules-details.png)
 
-1. 選取訊息規則類別.
+1. 選取訊息規則類別。
 
    >[!NOTE]
    >
@@ -187,6 +187,6 @@ ht-degree: 13%
 
 ## 操作說明影片 {#video}
 
-瞭解如何建立、啟動、測試並報告頻率規則。 
+瞭解如何建立、啟用、測試並報告頻率規則。
 
 >[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

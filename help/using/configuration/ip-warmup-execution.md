@@ -285,7 +285,7 @@ IP熱身計畫本身可在單一位置作為整合報表。 您可以檢查元�
 * **[!UICONTROL 已取消]**：a **[!UICONTROL 即時]** 已使用「 」取消執行 **[!UICONTROL 停止]** 按鈕，或者您已啟用 **[!UICONTROL 暫停錯誤]** 選項且發生錯誤。 [了解更多](#define-runs)
 * **[!UICONTROL 已失敗]**：系統發生錯誤，或用於目前階段的行銷活動已停止。 如果執行失敗，您可以排程第二天再次執行。
 
-### 使用報表 {#reports}
+### 使用報告 {#reports}
 
 一般而言，若要衡量計畫的影響，您可以使用 [!DNL Journey Optimizer] 行銷活動報表。 若要這麼做，您可以針對每個已完成的執行，按一下 **[!UICONTROL 檢視報表]** 按鈕。 進一步瞭解行銷活動電子郵件 [即時報告](../reports/campaign-live-report.md#email-live) 和 [全域報告](../reports/campaign-global-report.md#email-global).
 

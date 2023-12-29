@@ -11,8 +11,8 @@ keywords: 可遞送性，歷程，使用案例，電子郵件，聲譽
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 6%
+source-wordcount: '264'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 此使用案例的目的是建立歷程，以加快電子郵件傳遞速度。 若要設定此歷程，請遵循下列步驟：
 
-1. 建立歷程. [閱讀全文](journey-gs.md)。
+1. 建立歷程。 [閱讀全文](journey-gs.md)。
 
 1. 新增 **[!UICONTROL 條件]** 活動到歷程。 [閱讀全文](condition-activity.md)。
 

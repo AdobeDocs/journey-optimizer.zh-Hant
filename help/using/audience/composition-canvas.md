@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 30%
+source-wordcount: '1489'
+ht-degree: 29%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 30%
 
 >[!BEGINSHADEBOX]
 
-此文件提供如何在 Adobe Journey Optimizer 中使用對象構成的詳細資訊。 如果您未使用 Adobe Journey Optimizer， [請按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}。
+此文件提供如何在 Adobe Journey Optimizer 中使用對象構成的詳細資訊。 如果您沒有使用Adobe Journey Optimizer， [按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

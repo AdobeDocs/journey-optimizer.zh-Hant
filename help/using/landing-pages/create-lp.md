@@ -11,8 +11,8 @@ keywords: 登陸，登陸頁面，建立，發佈
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 25%
+source-wordcount: '1716'
+ht-degree: 21%
 
 ---
 
@@ -130,7 +130,7 @@ ht-degree: 25%
 
    ![](assets/lp_open-designer.png)
 
-1. 定義您的登陸頁面 URL. URL的第一部分要求您先前將登陸頁面子網域設定為 [預設集](../landing-pages/lp-presets.md#lp-create-preset) 您已選取「 」。 [了解更多](../landing-pages/lp-subdomains.md)
+1. 定義您的登陸頁面URL。 URL的第一部分要求您先前將登陸頁面子網域設定為 [預設集](../landing-pages/lp-presets.md#lp-create-preset) 您已選取「 」。 [了解更多](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -199,7 +199,7 @@ ht-degree: 25%
    >
    >您可以從相同登入頁面的任何子頁面插入主要頁面的連結。 例如，若要重新導向發生錯誤而想要再次訂閱的使用者，您可以從確認子頁面新增連結至訂閱主要頁面。 瞭解如何在中插入連結 [本節](../email/message-tracking.md#insert-links).
 
-1. 定義您的登陸頁面 URL. URL的第一部分要求您先前設定登陸頁面子網域。 [了解更多](../landing-pages/lp-subdomains.md)
+1. 定義您的登陸頁面URL。 URL的第一部分要求您先前設定登陸頁面子網域。 [了解更多](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >

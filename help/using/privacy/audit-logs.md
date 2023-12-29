@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '303'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 100%
 | AJO 訊息預設集 | 建立/刪除/更新 |
 | AJO PTR 記錄 | 建立/刪除/更新 |
 | AJO 儲存的運算式範本 | 建立/刪除/更新 |
-| AJO SMS API 認證 | 建立/刪除/更新 |
+| AJO簡訊API 認證 | 建立/刪除/更新 |
 | AJO 子網域 | 建立/刪除/更新 |
 | AJO 禁止名單 | 建立/刪除/下載 CSV |
 | 欄位群組 | 建立/刪除/更新 |

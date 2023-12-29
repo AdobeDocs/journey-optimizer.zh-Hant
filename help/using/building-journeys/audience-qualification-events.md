@@ -11,8 +11,8 @@ keywords: 資格，事件，對象，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 13%
+source-wordcount: '987'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 13%
 >title="對象資格事件"
 >abstract="本活動可讓您的歷程聆聽 Adobe Experience Platform 對象中設定檔的入口和出口，讓個人得以在歷程中進入或前進。"
 
-本活動可讓您的歷程聆聽 Adobe Experience Platform 對象中設定檔的入口和出口，讓個人得以在歷程中進入或前進。如需建立對象的詳細資訊，請參閱此 [區段](../audience/about-audiences.md).
+此活動可讓您的歷程聆聽Adobe Experience Platform對象中設定檔的入口和出口，以便讓個人進入歷程或是在歷程中前進。 如需建立對象的詳細資訊，請參閱此 [區段](../audience/about-audiences.md).
 
 假設您有「銀級客戶」對象。 透過此活動，您可以讓所有新的銀級客戶進入歷程，並向他們傳送一系列個人化訊息。
 
@@ -37,7 +37,7 @@ ht-degree: 13%
 
 * 如果對選取的對象進行串流處理，屬於此對象的個人可能會即時進入歷程。 如果對象是批次，則新符合此對象資格的人員可能會在Adobe Experience Platform上執行對象計算時進入歷程。
 
-* 從讀取對象、對象資格或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。 
+* 從讀取對象、對象資格或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。
 
 * 在歷程中使用對象資格時，該對象資格活動最多可能需要 10 分鐘，才會啟用和接聽進入或退出對象的設定檔。
 

@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '533'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 搜尋{#unified-search}
 
-在 Adobe Journey Optimizer 介面的任意處，利用頂端列中央的 Unified Adobe Experience Cloud 搜尋功能，在您的沙盒尋找資產、歷程、資料集等等。 
+在 Adobe Journey Optimizer 介面的任意處，利用頂端列中央的 Unified Adobe Experience Cloud 搜尋功能，在您的沙箱尋找資產、歷程、資料集等等。 
 
 開始輸入內容以顯示排名最前的結果。有關輸入關鍵字的說明文章也會顯示在結果中。
 

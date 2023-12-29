@@ -28,7 +28,7 @@ ht-degree: 21%
 >
 >Adobe會保留已知不良地址的更新清單（這些地址已被證明會損害參與和郵寄信譽），並確保不會將電子郵件傳遞給他們。 此清單在所有 Adobe 客戶通用的全球禁止名單中進行管理。 全球禁止名單中包含的地址和網域名稱都會隱藏起來。 傳遞報告中僅顯示排除的收件者人數。
 
-此外，您也可以善用Journey Optimizer **隱藏REST API** 使用隱藏和允許清單控制您的外寄訊息。 [瞭解如何使用隱藏REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+此外，您也可以善用Journey Optimizer **隱藏REST API** 使用隱藏和允許清單控制您的外寄訊息。 [了解如何使用 Suppression REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## 存取隱藏清單 {#access-suppression-list}
 

@@ -4,16 +4,17 @@ description: 瞭解如何測試電子郵件呈現。
 feature: Preview
 role: User
 level: Beginner
-source-git-commit: b6872806b3961bb2afbfc03999d984384492cc6d
+exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 13%
+ht-degree: 3%
 
 ---
 
 # 測試電子郵件轉譯 {#email-rendering}
 
-您可以善用您的 **利特木斯** 帳戶至 [!DNL Journey Optimizer] 立即預覽 **電子郵件呈現** 在常用的電子郵件使用者端中。 您可以確保電子郵件內容都能看起來不錯，並且在每個收件匣中都正常運作。 
+您可以善用您的 **利特木斯** 帳戶至 [!DNL Journey Optimizer] 立即預覽 **電子郵件呈現** 在常用的電子郵件使用者端中。 接著，您就可以確保電子郵件內容看起來不錯，並且在每個收件匣中都能正常運作。
 
 若要檢查電子郵件呈現，請遵循下列步驟：
 

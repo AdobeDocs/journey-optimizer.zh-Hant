@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 6%
+source-wordcount: '1100'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 6%
 
    * 建立位置
    * 建立決定規則
-   * 建立集合限定詞 （先前稱為「標籤」）
+   * 建立集合限定詞（先前稱為「標籤」）
    * 建立排名（選擇性）
 
 1. [設定優惠方案](#configure-offers)
@@ -114,7 +114,7 @@ ht-degree: 6%
 
 您現在可以建立和設定優惠方案。 在此範例中，您將根據每個特定設定檔建立四個要顯示的選件。
 
-1. 建立優惠方案. 請參閱[此章節](../../using/offers/offer-library/creating-personalized-offers.md#create-offer)深入瞭解。
+1. 建立優惠方案。 請參閱[此章節](../../using/offers/offer-library/creating-personalized-offers.md#create-offer)深入瞭解。
 
 1. 在此優惠中，建立三個代表。 每個表示都必須是您先前建立的版位與資產的組合：
 
@@ -155,7 +155,7 @@ ht-degree: 6%
 
 ## 建立遞補優惠 {#create-fallback}
 
-1. 建立遞補優惠.
+1. 建立遞補優惠。
 
 1. 使用適當的資產，定義與優惠方案相同的代表（應與優惠方案中使用的代表不同）。
 
@@ -195,7 +195,7 @@ ht-degree: 6%
 
 若要建立及設定優惠決定，請遵循下列主要步驟：
 
-1. 建立決定. 請參閱[此章節](../../using/offers/offer-activities/create-offer-activities.md#create-activity)深入瞭解。
+1. 建立決定。 請參閱[此章節](../../using/offers/offer-activities/create-offer-activities.md#create-activity)深入瞭解。
 
 1. 選取 *網頁 — 影像*， *電子郵件 — 影像* 和 *非數位 — 文字* 版位。
 

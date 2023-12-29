@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 4%
+source-wordcount: '1057'
+ht-degree: 3%
 
 ---
 
@@ -201,7 +201,7 @@ curl -X POST \
 
 | 程式碼 | 說明 |
 |  ---  |  ---  |
-| 200 | 成功. 已針對特定活動做出決定 |
+| 200 | 成功。 已針對特定活動做出決定 |
 | 400 | 無效的請求引數。 由於語法錯誤，伺服器無法理解該請求。 |
 | 403 | 已禁止，許可權不足。 |
 | 422 | 無法處理的實體。 要求語法正確，但由於語意錯誤而無法處理。 |

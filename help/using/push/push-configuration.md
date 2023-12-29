@@ -9,18 +9,18 @@ level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 4%
+source-wordcount: '1544'
+ht-degree: 3%
 
 ---
 
 # 設定推播通知頻道 {#push-notification-configuration}
 
-[!DNL Journey Optimizer] 可讓您建立歷程並傳送訊息給目標對象。 開始使用傳送推播通知之前 [!DNL Journey Optimizer]，您必須確保行動應用程式上和Adobe Experience Platform中的標籤已具備設定和整合。 若要瞭解推播通知資料流程 [!DNL Adobe Journey Optimizer] 請參閱 [此頁面](push-gs.md).
+[!DNL Journey Optimizer] 可讓您建立歷程並傳送訊息給目標對象。 開始使用傳送推播通知之前 [!DNL Journey Optimizer]，您必須確保行動應用程式上和Adobe Experience Platform中的標籤已具備設定和整合。 若要瞭解 [!DNL Adobe Journey Optimizer] 中的推播通知資料流程，請參閱[此頁面](push-gs.md)。
 
 >[!AVAILABILITY]
 >
->新的 **行動入門快速入門工作流程** 現已推出。 使用此新產品功能來快速設定行動SDK，以開始收集和驗證行動事件資料，並傳送行動推播通知。 這項功能可透過「資料彙集」首頁以公開 Beta 版的形式存取。[了解更多](mobile-onboarding-wf.md)
+>新的 **行動入門快速入門工作流程** 現已推出。 使用此新產品功能來快速設定行動SDK，以開始收集和驗證行動事件資料，並傳送行動推播通知。 此功能可作為公開測試版透過Data Collection首頁存取。 [了解更多](mobile-onboarding-wf.md)
 >
 
 

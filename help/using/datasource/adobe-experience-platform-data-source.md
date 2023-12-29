@@ -11,8 +11,8 @@ keywords: 內建，來源，資料，平台，整合
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 32%
+source-wordcount: '421'
+ht-degree: 31%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
 >title="Adobe Experience Platform 資料來源"
->abstract="Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶設定檔的連線。此資料來源是內建和預先設定的，並無法刪除。它旨在從即時客戶設定檔服務中擷取和使用資料 (例如，檢查進入歷程的人是否為女性)。其可讓您使用個人檔資料與體驗事件資料。 "
+>abstract="Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶設定檔的連線。此資料來源是內建和預先設定的，並無法刪除。它旨在從即時客戶設定檔服務中擷取和使用資料 (例如，檢查進入歷程的人是否為女性)。它可讓您使用設定檔資料和體驗事件資料。"
 
 Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶設定檔的連線。此資料來源是內建和預先設定的，並無法刪除。此資料來源旨在擷取及使用即時客戶個人檔案服務的資料（例如，檢查進入歷程的人員是否為女性）。 其可讓您使用個人檔資料與體驗事件資料。 如需Adobe即時客戶個人檔案的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}.
 

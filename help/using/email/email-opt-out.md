@@ -11,8 +11,8 @@ keywords: 選擇退出，電子郵件，連結，取消訂閱
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 78%
+source-wordcount: '1004'
+ht-degree: 77%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 78%
 
 1. 在選擇的協力廠商系統進行託管。
 
-1. 在歷程中新增訊息。
+1. 在歷程中建立訊息。
 
 1. 選擇內容中的文字，並使用內容相關工具列[插入連結](../email/message-tracking.md#insert-links)。
 

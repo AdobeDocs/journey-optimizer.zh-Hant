@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 23%
+ht-degree: 18%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 23%
 
 >[!CAUTION]
 >
->電子郵件地址覆寫僅用於特定使用案例。 在大多數情況下，您不需要變更電子郵件地址，因為&#x200B;**[!UICONTROL 執行欄位]**&#x200B;中定義為主要電子郵件的值才是應該使用的值。 
+>電子郵件地址覆寫僅用於特定使用案例。 在大多數情況下，您不需要變更電子郵件地址，因為值定義為 **[!UICONTROL 執行欄位]** 是應該使用的值。
 
 覆寫此值可能很實用，例如：
 

@@ -12,7 +12,7 @@ exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 25%
+ht-degree: 17%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 25%
 
 1. 在工具列中按一下 **[!UICONTROL 選取欄]** 並選擇要編輯的專案。 您也可以從結構樹中選取它。
 
-   該欄的可編輯參數會顯示在「**[!UICONTROL 樣式]**」索引標籤中。
+   該欄可編輯的引數會顯示在 **[!UICONTROL 樣式]** 標籤。
 
    ![](assets/alignment_2.png)
 

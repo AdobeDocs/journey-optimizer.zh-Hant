@@ -7,7 +7,7 @@ level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
 source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '951'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ Adobe使用漸近信賴序列，這適用於具有平均估計值的個別變體
 
 ![](assets/statistical_5.png){width="300" align="center"}
 
-執行:
+其中：
 
 * `N` 是該變體的單位數。
 * `σ` 是標準差的預估範例（定義於上文）。

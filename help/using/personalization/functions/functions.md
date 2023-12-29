@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 3%
+source-wordcount: '1834'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 3%
 
 按一下 `...` 圖示來檢視函式的說明，並將其新增至您的最愛。 [了解更多](../personalize.md#fav)
 
-## 函式{#functions-helper}
+## 函數{#functions-helper}
 
 ### 彙總與陣列函式
 
@@ -73,10 +73,10 @@ ht-degree: 3%
         <td><a href="arrays-list.md#last-n">陣列中的最後n個</a></td><td>當根據給定的數值運算式依遞增順序排序時，此函式傳回陣列中的最後「N」個專案</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#max">最大</a></td><td>此函式傳回陣列中所有選取值的最大值</td>
+        <td><a href="aggregation.md#max">最大值</a></td><td>此函式傳回陣列中所有選取值的最大值</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#min">最小</a></td><td>此函式傳回陣列中所有選取值的最小值</td>
+        <td><a href="aggregation.md#min">最小值</a></td><td>此函式傳回陣列中所有選取值的最小值</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#notin">不在</a></td><td>此函式決定專案是否不是陣列或清單的成員</td>
@@ -135,7 +135,7 @@ ht-degree: 3%
 
 <table>
     <tr>
-        <td><a href="maps.md#get">取得</a></td><td>此函式用於擷取給定索引鍵的對應值</td>
+        <td><a href="maps.md#get">Get</a></td><td>此函式用於擷取給定索引鍵的對應值</td>
     </tr>
     <tr>
         <td><a href="maps.md#keys">金鑰</a></td><td>此函式用於擷取給定對應的所有索引鍵</td>
@@ -283,7 +283,7 @@ ht-degree: 3%
         <td><a href="string.md#regexGroup">規則運算式群組</a></td><td>此函式用於根據提供的規則運算式擷取特定資訊</td>
     </tr>
     <tr>
-        <td><a href="string.md#replace">Replace</a></td><td>此函式將字串中的指定子字串替換為另一個子字串</td>
+        <td><a href="string.md#replace">取代</a></td><td>此函式將字串中的指定子字串替換為另一個子字串</td>
     </tr>
     <tr>
         <td><a href="string.md#replaceAll">全部取代</a></td><td>此函式以指定的常值「取代」字串取代符合「target」的文字之所有子字串</td>
@@ -410,7 +410,7 @@ ht-degree: 3%
         <td><a href="operators.md#equals">等於</a></td><td>此操作會檢查值是否相等</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthan">Greater than</a></td><td>此運運算元檢查第一個值是否大於第二個值</td>
+        <td><a href="operators.md#greaterthan">大於</a></td><td>此運運算元檢查第一個值是否大於第二個值</td>
     </tr>
     <tr>
         <td><a href="operators.md#greaterthanorequal">大於或等於</a></td><td>此運運算元檢查第一個值是否大於或等於第二個值</td>

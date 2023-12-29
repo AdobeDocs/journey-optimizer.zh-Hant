@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '954'
 ht-degree: 11%
 
 ---
@@ -116,7 +116,7 @@ ht-degree: 11%
 
    >[!CAUTION]
    >
-   >您只能新增 `<script>` 和 `<style>` 元素至 `<head>` 區段。 新增 `<div>` 標記和其他元素可能會造成其餘的 `<head>` 元素出現在 `<body>` 中。
+   >您只能新增 `<script>` 和 `<style>` 元素至 `<head>` 區段。 新增 `<div>` 標籤和其他元素可能會導致剩餘 `<head>` 元素以跳入 `<body>`.
 
 1. 按一下 **[!UICONTROL 進階編輯選項]** 按鈕。 「運算式」編輯器開啟。
 

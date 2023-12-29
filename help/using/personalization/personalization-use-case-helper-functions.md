@@ -11,8 +11,8 @@ keywords: 運算式，編輯器，協助程式，使用案例，個人化
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: 02fc8825f61bd365b02788bbcd3e0647f5842bfa
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 3%
+source-wordcount: '1037'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 3%
 * 歷程中的電子郵件訊息。 [了解更多](../email/create-email.md)
 * 電子郵件內文。 [了解更多](../email/content-from-scratch.md)。
 
-請按照以下步驟操作：
+請依照下列步驟操作：
 
 1. [建立初始事件和歷程](#create-context).
 1. [建立電子郵件訊息](#configure-email).

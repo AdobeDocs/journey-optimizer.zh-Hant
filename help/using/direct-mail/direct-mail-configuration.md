@@ -9,8 +9,8 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 32%
+source-wordcount: '918'
+ht-degree: 31%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 32%
 
 1. 若要加密檔案，請複製您的加密金鑰並貼到 **[!UICONTROL pgp/GPG加密金鑰]** 欄位。
 
-1. 選取「**[!UICONTROL 提交]**」。檔案路由組態是使用 **[!UICONTROL 作用中]** 狀態。 現在已準備好用於 [直接郵件表面](#direct-mail-surface).
+1. 選取 **[!UICONTROL 提交]**. 檔案路由組態是使用 **[!UICONTROL 作用中]** 狀態。 現在已準備好用於 [直接郵件表面](#direct-mail-surface).
 
    >[!NOTE]
    >
@@ -121,7 +121,7 @@ ht-degree: 32%
 
 直接郵件表面還必須包含檔案路由設定，該設定定義了直接郵件檔案將匯出的伺服器。
 
-1. 建立管道表面. [了解更多](../configuration/channel-surfaces.md)
+1. 建立管道表面。 [了解更多](../configuration/channel-surfaces.md)
 
 1. 選取 **[!UICONTROL 直接郵件]** 頻道。
 

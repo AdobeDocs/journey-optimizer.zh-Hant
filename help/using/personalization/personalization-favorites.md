@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 將屬性加入我的最愛
+title: 將屬性新增至我的最愛
 description: 瞭解如何將屬性新增至我的最愛。
 feature: Personalization
 topic: Personalization
@@ -12,11 +12,11 @@ exl-id: d188bb6b-2924-4818-b007-be660cce249c
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 24%
+ht-degree: 16%
 
 ---
 
-# 將屬性加入我的最愛 {#fav}
+# 將屬性新增至我的最愛 {#fav}
 
 將不同屬性加入收藏夾功能表可快速存取您使用頻率最高的項目。 若要將屬性新增至您的最愛，請按一下橢圓選單並選擇 **[!UICONTROL 新增至我的最愛]**.
 

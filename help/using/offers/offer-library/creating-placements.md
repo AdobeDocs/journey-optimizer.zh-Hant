@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 11%
+source-wordcount: '537'
+ht-degree: 12%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 11%
    >
    >如果您使用 [批次決策API](../api-reference/offer-delivery-api/batch-decisioning-api.md)中，您可以在此畫面或API要求中設定這些引數。 如果畫面和APi請求之間的引數值不相符，則會使用請求值。
 
-1. 按一下 **[!UICONTROL 儲存]** 以確認。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認。
 
 1. 位置建立後，會顯示在「位置」清單中。 您可以選取它以顯示其屬性並加以編輯。
 

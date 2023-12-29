@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 新增個人化優惠方案
+title: 新增個人化優惠
 description: 瞭解如何將個人化優惠新增至您的訊息
 feature: Email Design, Offers
 topic: Content Management
@@ -11,12 +11,12 @@ keywords: 優惠，決定，電子郵件，個人化，決定
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 1%
+source-wordcount: '622'
+ht-degree: 0%
 
 ---
 
-# 新增個人化優惠方案 {#deliver-personalized-offers}
+# 新增個人化優惠 {#deliver-personalized-offers}
 
 在 [!DNL Journey Optimizer] 電子郵件，您可以插入將運用決策管理引擎的決策，以挑選要提供給客戶的最佳優惠方案。
 

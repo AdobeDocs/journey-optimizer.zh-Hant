@@ -11,8 +11,8 @@ keywords: 設定檔，更新，歷程，活動
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 9%
+source-wordcount: '476'
+ht-degree: 8%
 
 ---
 
@@ -73,6 +73,6 @@ ht-degree: 9%
 
 在測試模式中，將不會模擬設定檔更新。 更新將在測試設定檔上執行。
 
-只有測試設定檔才能進入旅程測試模式。您可以建立新的測試設定檔，或將現有的設定檔轉換為測試設定檔。 在Adobe Experience Platform中，您可以透過csv檔案匯入或API呼叫來更新設定檔屬性。 更簡單的方法是使用 **更新設定檔** 動作活動，並將測試設定檔布林欄位從false變更為true。
+只有測試設定檔才能進入歷程測試模式。 您可以建立新的測試設定檔，或將現有的設定檔轉換為測試設定檔。 在Adobe Experience Platform中，您可以透過csv檔案匯入或API呼叫來更新設定檔屬性。 更簡單的方法是使用 **更新設定檔** 動作活動，並將測試設定檔布林欄位從false變更為true。
 
 有關如何將現有設定檔轉換為測試設定檔的詳細資訊，請參閱此 [區段](../audience/creating-test-profiles.md#create-test-profiles-csv).

@@ -11,7 +11,7 @@ keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1052'
 ht-degree: 36%
 
 ---
@@ -162,7 +162,7 @@ ht-degree: 36%
 
 有關開啟次數與點按次數的報告，請參閱 [即時報告](../reports/live-report.md) 和 [全域報告](../reports/global-report.md).
 
-## URL追蹤 {#url-tracking}
+## URL 追蹤 {#url-tracking}
 
 通常 [URL追蹤](email-settings.md#url-tracking) 在曲面層級進行管理，但不支援設定檔屬性。 目前唯一的方法是 [個人化URL](../personalization/personalization-syntax.md#perso-urls) 在電子郵件設計工具中。
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 8%
+source-wordcount: '729'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 >[!AVAILABILITY]
 >
->新的 **行動入門快速入門工作流程** 現已推出。 使用此新產品功能來快速設定行動SDK，以開始收集和驗證行動事件資料，並傳送行動推播通知。 這項功能可透過「資料彙集」首頁以公開 Beta 版的形式存取。[了解更多](mobile-onboarding-wf.md)
+>新的 **行動入門快速入門工作流程** 現已推出。 使用此新產品功能來快速設定行動SDK，以開始收集和驗證行動事件資料，並傳送行動推播通知。 此功能可作為公開測試版透過Data Collection首頁存取。 [了解更多](mobile-onboarding-wf.md)
 >
 
 瞭解如何在上建立推播通知 [此頁面](create-push.md).
@@ -62,7 +62,7 @@ ht-degree: 8%
    * 建立使用者端行動屬性並新增擴充功能。 SDK與這些擴充功能緊密整合，提供順暢的資料收集體驗。
    * 註冊行動應用程式套件組合識別碼和應用程式認證
 
-* **Adobe Experience Platform即時客戶個人檔案**  透過合併來自多個管道（包括網頁、行動裝置、CRM和協力廠商）的資料，維護每個個別客戶的整體檢視。 個人檔案可讓您將客戶資料合併成統一的檢視畫面，針對每個客戶互動提供可採取行動且附有時間戳記的說明。特定應用程式使用者的推播權杖會針對使用者的設定檔儲存為記錄資料，而使用者對推播通知所做的互動則會追蹤為時間序列事件資料。 [進一步瞭解Adobe Experience Platform即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}.
+* **Adobe Experience Platform即時客戶個人檔案**  透過合併來自多個管道（包括網頁、行動裝置、CRM和協力廠商）的資料，維護每個個別客戶的整體檢視。 設定檔可讓您將客戶資料合併成統一的檢視畫面，針對每個客戶互動提供可採取行動且附有時間戳記的說明。 特定應用程式使用者的推播權杖會針對使用者的設定檔儲存為記錄資料，而使用者對推播通知所做的互動則會追蹤為時間序列事件資料。 [進一步瞭解Adobe Experience Platform即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}.
 
 * **[!DNL Adobe Journey Optimizer]** ：一旦您的行動應用程式與上述元件整合就緒且您的客戶設定檔位於Adobe Experience Platform中，您即可在中製作及協調推播通知 [!DNL Adobe Journey Optimizer] 與使用者互動。
 

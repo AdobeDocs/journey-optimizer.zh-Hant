@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 1cfe9f6cb6e7c3e9a5d9b808c10ae4dfe77a92a2
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 12%
+source-wordcount: '1105'
+ht-degree: 11%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 12%
 
    * [程式碼或複製貼上原始HTML](../email/code-content.md) 直接放入電子郵件設計工具。
 
-   * 從檔案或 .zip 資料夾[匯入現有 HTML 內容](../email/existing-content.md)。
+   * [匯入現有的HTML內容](../email/existing-content.md) 檔案或.zip資料夾中的檔案。
 
    * 使用內建或自訂範本清單中的現有內容。 在電子郵件中使用內容範本的步驟已說明，請參閱 [本節](../email/use-email-templates.md).
 

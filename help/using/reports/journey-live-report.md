@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 9245d6a93aaaa85bee56e2291a53ca7495b6ba9e
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 4%
+source-wordcount: '1349'
+ht-degree: 5%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 4%
 * **[!UICONTROL 動作中的錯誤]**：動作發生的錯誤總數。
 +++
 
-## 電子郵件索引標籤 {#email-live}
+## 電子郵件標籤 {#email-live}
 
 從您的歷程 **[!UICONTROL 即時報告]**，則 **[!UICONTROL 電子郵件]** 索引標籤會詳細說明歷程中傳送之電子郵件傳遞的相關主要資訊。
 
@@ -157,7 +157,7 @@ ht-degree: 4%
 此 **[!UICONTROL 依據平台的追蹤]**， **[!UICONTROL 由平台傳送]** 和 **[!UICONTROL 依平台劃分]** 圖表和表格會根據作業系統詳細描述推播通知的成功情況。
 +++
 
-## 簡訊索引標籤 {#sms-live}
+## 簡訊標籤 {#sms-live}
 
 ![](assets/journey_live_4.png)
 

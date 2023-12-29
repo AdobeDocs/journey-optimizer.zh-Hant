@@ -11,7 +11,7 @@ exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 19%
 | 版本ID | 字串 | 歷程版本的ID。 此ID代表歷程的身分 |
 | 名稱 | 字串 | 歷程的名稱 |
 | 說明 | 字串 | 歷程描述 |
-| version | 字串 | 版本，表示為 `major`.`minor` |
+| 版本 | 字串 | 版本，表示為 `major`.`minor` |
 
 ## 設定檔 {#profile-field}
 

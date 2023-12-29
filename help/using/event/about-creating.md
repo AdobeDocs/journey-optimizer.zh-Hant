@@ -11,8 +11,8 @@ keywords: 事件，單一，建立，歷程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 15%
+source-wordcount: '1606'
+ht-degree: 13%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 15%
 >title="單一事件"
 >abstract="事件設定可讓您定義 Journey Optimizer 會接收為事件的資訊。您可以使用多個事件 (在歷程的不同步驟中)，而好幾個歷程可以使用同一個事件。單一事件會連結到特定的設定檔。它們可能是以規則為基礎或由系統產生。"
 
-單一事件會連結到特定的設定檔。它們可能是以規則為基礎或由系統產生。閱讀有關單一事件的詳細資訊 [本節](../event/about-events.md).
+單一事件會連結到特定的設定檔。可以是規則型或系統產生。  閱讀有關單一事件的詳細資訊 [本節](../event/about-events.md).
 
 以下是設定新事件的第一步：
 
@@ -159,7 +159,8 @@ ht-degree: 15%
 
    ![](assets/journey20.png)
 
-收到事件時，機碼的值可讓系統識別與事件相關聯的人員。 與名稱空間相關聯(請參閱 [本節](../event/about-creating.md#select-the-namespace))，則金鑰可用來在Adobe Experience Platform上執行查詢。 請參閱[此頁面](../building-journeys/about-journey-activities.md#orchestration-activities)。金鑰也可用來檢查個人是否在歷程中。 事實上，一個人在同一歷程中不能位於兩個不同的位置。 因此，系統不允許相同的金鑰（例如金鑰CRMID=3224）位於相同歷程中的不同位置。
+收到事件時，機碼的值可讓系統識別與事件相關聯的人員。 與名稱空間相關聯(請參閱 [本節](../event/about-creating.md#select-the-namespace))，則金鑰可用來在Adobe Experience Platform上執行查詢。 另請參閱 [此頁面](../building-journeys/about-journey-activities.md#orchestration-activities).
+金鑰也可用來檢查個人是否在歷程中。 事實上，一個人在同一歷程中不能位於兩個不同的位置。 因此，系統不允許相同的金鑰（例如金鑰CRMID=3224）位於相同歷程中的不同位置。
 
 您也可以存取進階運算式函式(**[!UICONTROL 進階模式]**)。 這些函式可讓您控制用於執行特定查詢的值，例如變更格式、執行欄位串連，僅考慮欄位的一部分（例如10個第一個字元）。 請參閱此[頁面](../building-journeys/expression/expressionadvanced.md)。
 

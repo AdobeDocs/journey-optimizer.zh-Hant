@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 9%
+source-wordcount: '609'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 9%
 
 指出使用者是否已進入歷程。 如果不存在，我們會假設值為false。
 
-類型: 布林值
+型別：布林值
 
 值： true/false
 
@@ -35,7 +35,7 @@ ht-degree: 9%
 
 指出使用者是否已使用相同執行個體重新進入歷程。 如果不存在，我們會假設值為false。
 
-類型: 布林值
+型別：布林值
 
 值： true/false
 
@@ -43,37 +43,37 @@ ht-degree: 9%
 
 表示執行個體是否已結束（成功或失敗）。
 
-類型: 布林值
+型別：布林值
 
 ## eventID {#eventid-field}
 
 處理中的事件ID，用於步驟處理。 如果事件是外部事件，則值為其eventId。 如果事件是內部事件，則值為內部eventId （例如scheduledNotificationReceived、executedAction等）。
 
-類型: 字串
+型別：字串
 
 ## nodeID {#nodeid-field}
 
 使用者端節點id （來自畫布）。
 
-類型: 字串
+型別：字串
 
 ## stepID {#stepdid-field}
 
 目前正在處理之步驟的唯一ID。
 
-類型: 字串
+型別：字串
 
 ## stepName {#stepname-field}
 
 目前正在處理的步驟名稱。
 
-類型: 字串
+型別：字串
 
 ## stepType {#steptype-field}
 
 步驟型別。
 
-類型: 字串
+型別：字串
 
 可能的值：
 
@@ -86,7 +86,7 @@ ht-degree: 9%
 
 步驟的狀態，代表步驟在處理完成（且引發步驟事件）時的狀態。
 
-類型: 字串
+型別：字串
 
 該狀態有可能是：
 
@@ -101,13 +101,13 @@ ht-degree: 9%
 
 歷程的ID。
 
-類型: 字串
+型別：字串
 
 ## journeyVersionID {#journeyversionid-field}
 
 歷程版本的ID。 在journeyStepEvent的情況下，此id代表歷程的身分參考。
 
-類型: 字串
+型別：字串
 
 >[!NOTE]
 >
@@ -117,7 +117,7 @@ ht-degree: 9%
 
 歷程版本的名稱。
 
-類型: 字串
+型別：字串
 
 >[!NOTE]
 >
@@ -127,49 +127,49 @@ ht-degree: 9%
 
 歷程版本的版本。
 
-類型: 字串
+型別：字串
 
 ## instanceID {#instanceid-field}
 
 歷程執行個體的內部ID。
 
-類型: 字串
+型別：字串
 
 ## externalKey {#externalkey-field}
 
 從事件擷取的外部索引鍵加以處理。
 
-類型: 字串
+型別：字串
 
 ## parentstepid {#parenstepid-field}
 
 執行個體中目前已處理步驟的父級步驟ID。
 
-類型: 字串
+型別：字串
 
 ## parentStepName {#parentstepname-field}
 
 目前步驟之父項的步驟名稱。
 
-類型: 字串
+型別：字串
 
 ## parentTransitionID {#parenttransitionid-field}
 
 將執行個體帶到已處理步驟的轉變ID。
 
-類型: 字串
+型別：字串
 
 ## parentTransitionName {#parenttransitionname-field}
 
 將執行個體帶到已處理步驟的轉變名稱。
 
-類型: 字串
+型別：字串
 
 ## inTest {#intest-field}
 
 表示此歷程是否處於測試模式。
 
-類型: 布林值
+型別：布林值
 
 ## processingtime {#processingtime-field}
 
@@ -181,7 +181,7 @@ ht-degree: 9%
 
 指示執行個體型別（若為批次或單一）。
 
-類型: 字串
+型別：字串
 
 值：批次/單一
 
@@ -195,22 +195,22 @@ ht-degree: 9%
 
 表示此單一執行個體是否已從批次執行個體觸發。
 
-類型: 布林值
+型別：布林值
 
 ## batchExternalKey {#batchexternalkey-field}
 
 批次事件的外部索引鍵。
 
-類型: 字串
+型別：字串
 
 ## batchinstanceid {#batchinstanceid-field}
 
 這是批次例項ID。
 
-類型: 字串
+型別：字串
 
 ## batchUnitaryBranchID {#batchunitarybranchid-field}
 
 如果執行個體是從批次執行個體觸發的，則為單一分支ID。
 
-類型: 字串
+型別：字串

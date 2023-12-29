@@ -12,7 +12,7 @@ exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 | 儀表板 | **[!DNL View license usage dashboards]**：授權使用儀表板的唯讀存取權。 </br>**[!DNL Manage custom dashboards]**：可讓您建立新儀表板或編輯現有儀表板。</br>**[!DNL View custom dashboards]**：對使用者定義控制面板的唯讀存取權。 </br>**[!DNL View standard dashboards]**：對設定檔、目的地和受眾控制面板的唯讀存取權。</br>**[!DNL Manage standard dashboards]**：可讓您建立自訂Widget，並透過Widget資料庫編輯Widget結構。 |
 | 資料收集 | **[!DNL Manage datastream]**：讀取、建立和編輯資料串流。</br>**[!DNL View datastream]**：資料串流的唯讀存取權。 |
 | 資料控管 | **[!DNL Manage usage labels]**：讀取、建立、編輯和刪除標籤。</br>**[!DNL Manage data usage policies]**：讀取、建立、編輯和刪除資料使用原則。</br>**[!DNL View data usage policies]**：屬於您組織的資料使用原則的唯讀存取權。</br>**[!DNL View user activity log]**：以唯讀許可權檢視Platform活動記錄的稽核記錄。 |
-| 資料檢疫 | **[!DNL View data hygiene]**：資料衛生的唯讀存取。</br>**[!DNL Manage data hygiene]**：讀取、建立、編輯和刪除資料衛生。 |
+| 資料衛生 | **[!DNL View data hygiene]**：資料衛生的唯讀存取。</br>**[!DNL Manage data hygiene]**：讀取、建立、編輯和刪除資料衛生。 |
 | 資料擷取 | **[!DNL Manage sources]**：讀取、建立、編輯和停用來源。</br>**[!DNL View sources]**：以唯讀方式存取「目錄」標籤中的可用來源，以及「瀏覽」標籤中的已驗證來源。 |
 | 資料管理 | **[!DNL Manage datasets]**：讀取、建立、編輯和刪除資料集。 結構描述的唯讀存取權。</br>**[!DNL View datasets]**：資料集和結構描述的唯讀存取權。</br>**[!DNL Data monitoring]**：監督資料集和資料流的唯讀存取權。 |
 | 資料模式 | **[!DNL Manage schemas]**：讀取、建立和編輯Experience Data Model (XDM)結構描述。</br>**[!DNL View schemas]**：結構描述的唯讀存取權。</br>**[!DNL Manage relationships]**：讀取、建立、編輯和刪除結構描述關係。</br>**[!DNL Manage identity metadata]**：讀取、建立、編輯和刪除綱要的身分中繼資料。 |

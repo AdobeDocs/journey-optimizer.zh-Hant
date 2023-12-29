@@ -11,8 +11,8 @@ keywords: 元件，電子郵件設計工具，編輯器，電子郵件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 54%
+source-wordcount: '1401'
+ht-degree: 52%
 
 ---
 
@@ -121,11 +121,11 @@ ht-degree: 54%
    * **字型大小**：選取文字的字型大小 (以像素為單位)。
    * **[!UICONTROL 變更字型顏色]**：選擇字型的顏色。
    * **[!UICONTROL 插入連結]**：新增任何型別的連結至您的內容。
-   * **[!UICONTROL 編輯影像]**：將影像或資產新增到文字元件。[進一步瞭解資產管理](../content-management/assets.md)
+   * **[!UICONTROL 編輯影像]**：新增影像或資產至文字元件。 [進一步瞭解資產管理](../content-management/assets.md)
    * **[!UICONTROL 變更字型顏色]**：選擇字型的顏色。
-   * **[!UICONTROL 新增個人化]**：新增個人化欄位以從設定檔資料自訂內容。[進一步了解內容個人化](../personalization/personalize.md)
+   * **[!UICONTROL 新增個人化]**：新增個人化欄位，以自訂設定檔資料的內容。 [進一步了解內容個人化](../personalization/personalize.md)
    * **[!UICONTROL 顯示原始碼]**：顯示文字的原始碼。原始碼無法變更。
-   * **[!UICONTROL 啟用條件式內容]**：新增條件式內容以使元件內容適應目標設定檔。[進一步瞭解動態內容](../personalization/get-started-dynamic-content.md)
+   * **[!UICONTROL 啟用條件式內容]**：新增條件式內容，以將元件的內容調整至目標設定檔。 [進一步瞭解動態內容](../personalization/get-started-dynamic-content.md)
    * **[!UICONTROL 複製]**：新增文字元件的副本。
    * **[!UICONTROL 刪除]**：從電子郵件刪除選取的文字元件。
 

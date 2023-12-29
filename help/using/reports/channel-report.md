@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 3f9d85dc77d3c572b1bad751646153874a5584c8
 workflow-type: tm+mt
-source-wordcount: '2664'
-ht-degree: 33%
+source-wordcount: '2665'
+ht-degree: 32%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 33%
 
 >[!IMPORTANT]
 >
-> 若要存取&#x200B;**報告**&#x200B;功能表，您必須擁有&#x200B;**[!UICONTROL 檢視頻道報告]**&#x200B;權限。[了解更多](channel-report-gs.md#before-starting-manage-reports-prereq)
+> 若要存取 **報告** 功能表，您必須擁有 **[!UICONTROL 檢視管道報表]** 許可權。 [了解更多](channel-report-gs.md#before-starting-manage-reports-prereq)
 
 管道報表為使用者提供管道層級流量和參與量度的完整概觀。 這些量度會經過彙總，針對來自所選頻道的動作（橫跨各種促銷活動和歷程）呈現彙總值。
 
@@ -33,7 +33,7 @@ ht-degree: 33%
 報表頁面會顯示以下索引標籤：
 
 * [電子郵件](#email)
-* [推播 通知](#push)
+* [推播通知](#push)
 * [簡訊](#sms)
 * [應用程式內](#inapp)
 * [Web](#web)

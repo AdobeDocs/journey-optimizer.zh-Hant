@@ -11,8 +11,8 @@ keywords: 測試設定檔，測試，測試，歷程
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 3%
+source-wordcount: '1328'
+ht-degree: 2%
 
 ---
 

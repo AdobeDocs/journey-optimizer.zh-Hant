@@ -11,8 +11,8 @@ keywords: 子網域，最佳化工具，委派
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: 636c86d91d349104388849bbfc4e18bbbe2e4093
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 30%
+source-wordcount: '903'
+ht-degree: 27%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 30%
 
 子網域設定可讓您設定網域的子區段（技術上稱為「DNS區域」），以便與Adobe Campaign搭配使用。 可用的設定方法有：
 
-* **將子網域完全委派給 Adobe**（建議）：子網域已完全委派給 Adobe。Adobe能夠控制並維護傳遞、轉譯及追蹤訊息所需的DNS的各個層面。 [深入瞭解完全子網域委派](delegate-subdomain.md#full-subdomain-delegation)
+* **將子網域完全委派給Adobe** （建議）：子網域已完全委派給Adobe。 Adobe能夠控制並維護傳遞、轉譯及追蹤訊息所需的DNS的各個層面。 [深入瞭解完全子網域委派](delegate-subdomain.md#full-subdomain-delegation)
 
 * **使用 CNAME**：建立子網域並使用 CNAME 以指向 Adobe 特定記錄。 使用此設定，您和Adobe都有責任維護DNS。 [深入瞭解CNAME子網域委派](delegate-subdomain.md#cname-subdomain-delegation)
 

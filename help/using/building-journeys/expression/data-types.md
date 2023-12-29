@@ -10,7 +10,7 @@ keywords: 運算式，資料，資料型別，歷程
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '616'
 ht-degree: 5%
 
 ---
@@ -75,7 +75,7 @@ JSON格式：數字
 
 **說明**
 
-小數位數. 它代表浮點數值：
+十進位數字。 它代表浮點數值：
 
 * 型別double的最大正有限值， (2-2^-52)x2^1023
 * 型別double的最小正常數值，2-1022

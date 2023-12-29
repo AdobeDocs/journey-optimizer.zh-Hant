@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 9%
+source-wordcount: '531'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 9%
 
 ## 關於排名公式 {#about-ranking-formulas}
 
-**排名公式**&#x200B;可讓您定義規則，以決定應先針對指定位置呈現哪個優惠方案，而非考慮優惠方案的優先順序分數。 
+**排名公式** 可讓您定義規則，這些規則會決定應先針對指定位置顯示哪個優惠，而不是考慮優惠的優先順序分數。
 
 排名公式的表示方式為 **PQL語法** 並可運用設定檔屬性、內容資料和選件屬性。 如需如何使用PQL語法的詳細資訊，請參閱 [專屬檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=zh-Hant).
 

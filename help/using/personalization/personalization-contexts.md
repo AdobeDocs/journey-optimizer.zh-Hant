@@ -12,7 +12,7 @@ exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 21%
+ht-degree: 15%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 21%
 
 ## 個人化您的優惠 {#personalize-offers}
 
-您也可以在將文字類型的內容新增到優惠的表示時存取個人化編輯器。
+將文字型別內容新增至優惠方案的代表時，您也可以存取個人化編輯器。
 
 進一步瞭解如何使用決策管理來管理內容 [本節](../offers/offer-library/creating-personalized-offers.md#custom-text).
 

@@ -10,7 +10,7 @@ keywords: 外部， API，最佳化工具，上限
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '612'
 ht-degree: 26%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 26%
 
 一旦下載並上傳至 Postman，您需要新增三個變數：`{JO_HOST}`、`{BASE_PATH}`以及`{SANDBOX_NAME}`。
 * `{JO_HOST}` : [!DNL Journey Optimizer]閘道 URL
-* `{BASE_PATH}`：API 的進入點。 
+* `{BASE_PATH}` ：API的進入點。
 * `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。
 
 您將在下節找到用於執行使用案例的 Rest API 呼叫排序清單。

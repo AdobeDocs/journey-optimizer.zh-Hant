@@ -9,20 +9,21 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+exl-id: 38defa47-9b33-43a3-9b3e-d3aa4cb2857f
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 9%
+source-wordcount: '1084'
+ht-degree: 7%
 
 ---
 
-# 建立MMS訊息 {#create-mms}
+# 建立 MMS 訊息 {#create-mms}
 
 ## 先決條件{#sms-prerequisites}
 
 建立SMS訊息之前，您必須先使用Journey Optimizer設定SMS供應商，請遵循下列步驟：
 
-* 在傳送簡訊之前，您必須將提供者設定和 Journey Optimizer 整合。
+* 傳送SMS前，您必須整合提供者設定與Journey Optimizer。
 
 +++ 瞭解如何建立新的Sinch MMS API認證。
 
@@ -193,7 +194,7 @@ ht-degree: 9%
 
    ![](assets/sms_create_7.png)
 
-1. 按一下「**[!UICONTROL 儲存]**」並在預覽中查看您的訊息。您可以使用 **[!UICONTROL 模擬內容]** 以預覽您縮短的URL或個人化內容。
+1. 按一下 **[!UICONTROL 儲存]** 並在預覽中檢視您的訊息。 您可以使用 **[!UICONTROL 模擬內容]** 以預覽您縮短的URL或個人化內容。
 
 您現在可以測試並傳送簡訊給對象。 [瞭解更多](send-sms.md)
 傳送後，您可以在行銷活動或歷程報告中測量簡訊的影響。 如需報告的詳細資訊，請參閱[本區段](../reports/campaign-global-report.md#sms-tab)。

@@ -11,8 +11,8 @@ keywords: 沙箱，歷程，複製，環境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 6%
+source-wordcount: '733'
+ht-degree: 9%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 6%
 >abstract="This is the list of associated objects used in the journey. This list displays the name, the object type, as well as the internal Journey Optimizer ID."
 -->
 
-沙箱工具可讓您運用套件匯出和匯入，跨多個沙箱複製物件。 封裝可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。
+沙箱工具可讓您運用套件匯出和匯入，跨多個沙箱複製物件。 套件可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。
 
 本頁說明Journey Optimizer內容中的沙箱工具使用案例。 有關功能本身的詳細資訊，請參閱 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 

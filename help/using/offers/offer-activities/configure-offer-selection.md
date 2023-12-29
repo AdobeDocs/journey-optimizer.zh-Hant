@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 6%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 6%
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. 按一下&#x200B;**[!UICONTROL 「選取」]**。AI模型現在與位置相關聯。
+1. 按一下 **[!UICONTROL 選取]**. AI模型現在與位置相關聯。
 
 如果多個優惠方案都符合條件，則經過訓練的模型系統將決定應先針對指定位置顯示哪個優惠方案。
 

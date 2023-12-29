@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用者管理概述
+title: 用戶管理總覽
 description: 瞭解如何定義和管理許可權
 feature: Access Management
 topic: Administration
@@ -11,14 +11,14 @@ keywords: 許可權，許可權，限制，存取，沙箱
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 12%
+source-wordcount: '178'
+ht-degree: 5%
 
 ---
 
 # 開始使用使用者管理 {#permissions-overview}
 
-[!DNL Journey Optimizer] 可讓您定義並管理指派給不同使用者的權限。許可權是授權或拒絕存取產品內功能的一組許可權和限制。
+[!DNL Journey Optimizer] 可讓您定義並管理指派給不同使用者的許可權。 許可權是授權或拒絕存取產品內功能的一組許可權和限制。
 
 ➡️ [透過此影片進一步瞭解Adobe Journey Optimizer中的存取控制](#video)
 

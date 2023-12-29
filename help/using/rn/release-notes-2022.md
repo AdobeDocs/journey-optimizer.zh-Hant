@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
-workflow-type: ht
-source-wordcount: '3575'
+workflow-type: tm+mt
+source-wordcount: '3602'
 ht-degree: 100%
 
 ---
@@ -216,7 +216,7 @@ ht-degree: 100%
 **管理**
 
 * 現在啟用或停用允許清單時，會顯示新警告以詳細說明每個動作的影響。 [了解更多](../configuration/allow-list.md#enable-allow-list)
-* 更新了用於建立管道表面、建立 IP 集區、管理禁止名單和允許清單以及設定 SMS 管道的使用者介面。
+* 更新了用於建立管道表面、建立 IP 集區、管理禁止名單和允許清單以及設定簡訊管道的使用者介面。
 * 現在，為指定子網域建立第一個管道表面時，處理時間將需要 10 分鐘到 10 天，使用該子網域的後續表面最多只需 3 小時。 [了解更多](../configuration/channel-surfaces.md#create-channel-surface)
 * 更新建立登陸頁面預設集和登陸頁面子網域的使用者介面。 [了解更多](../landing-pages/lp-subdomains.md)
 
@@ -655,7 +655,7 @@ ht-degree: 100%
 
 **整合 Adobe Campaign Standard**
 
-作為 Adobe Campaign Standard 的客戶，您現在可以使用 Journey Optimizer 傳送電子郵件、推播通知和 SMS。 使用新的內建動作在 Journey Optimizer 善用 Campaign Standard 異動訊息傳送功能。  [了解更多](../action/acs-action.md)
+作為 Adobe Campaign Standard 的客戶，您現在可以使用 Journey Optimizer 傳送電子郵件、推播通知和簡訊。 使用新的內建動作在 Journey Optimizer 善用 Campaign Standard 異動訊息傳送功能。  [了解更多](../action/acs-action.md)
 
 <!--
 ### Fixes

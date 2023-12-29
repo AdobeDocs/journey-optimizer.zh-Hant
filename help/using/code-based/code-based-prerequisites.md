@@ -11,8 +11,8 @@ badge: label="Beta"
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 19%
+source-wordcount: '449'
+ht-degree: 12%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 19%
 本文件指南會提供以下內容：
 
 * [開始使用程式碼型頻道](get-started-code-based.md)
-* **[程式碼型先決條件](code-based-prerequisites.md)**
+* **[程式碼型必要條件](code-based-prerequisites.md)**
 * [程式碼型實施範例](code-based-implementation-samples.md)
 * [建立程式碼型體驗](create-code-based.md)
 
@@ -71,7 +71,7 @@ ht-degree: 19%
 
 ## 內容實驗先決條件 {#experiment-prerequisites}
 
-若要啟用程式碼型管道的內容實驗，您必須確定 [資料集](../data/get-started-datasets.md) 用於您的應用程式實作 [資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant){target="_blank"} 也包含在您的報告設定中。
+若要啟用程式碼型管道的內容實驗，您必須確定 [資料集](../data/get-started-datasets.md) 用於您的應用程式實作 [資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} 也包含在您的報告設定中。
 
 換言之，在設定實驗報告時，如果您新增的應用程式資料流中不存在的資料集，應用程式資料將不會顯示在內容實驗報告中。
 

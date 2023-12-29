@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 11%
+source-wordcount: '308'
+ht-degree: 6%
 
 ---
 
@@ -116,7 +116,7 @@ not (homeAddress.countryISO = "CA")
 {%= profile.homeAddress.country != "France" %}
 ```
 
-### Greater than{#greaterthan}
+### 大於{#greaterthan}
 
 此 `>` （大於）函式來檢查第一個值是否大於第二個值。
 
@@ -152,7 +152,7 @@ not (homeAddress.countryISO = "CA")
 {%= profile.person.birthYear >= 1970 %}
 ```
 
-### 少於{#lessthan}
+### 小於{#lessthan}
 
 此 `<` （小於）比較函式用於檢查第一個值是否小於第二個值。
 
@@ -170,7 +170,7 @@ not (homeAddress.countryISO = "CA")
 {%= profile.person.birthYear < 2000 %}
 ```
 
-### Less than or equal to{#lessthanorequal}
+### 小於或等於{#lessthanorequal}
 
 此 `<=` （小於或等於）比較函式用於檢查第一個值是否小於或等於第二個值。
 

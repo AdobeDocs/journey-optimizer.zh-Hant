@@ -11,8 +11,8 @@ keywords: 結構描述， XDM，平台，串流，擷取，歷程
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 4%
+source-wordcount: '832'
+ht-degree: 1%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 4%
 
 ## 利用綱要關係{#leverage_schema_relationships}
 
-Adobe Experience Platform 可讓您定義綱要之間的關係，以便將一個資料集用作另一個資料集的查詢表。 
+Adobe Experience Platform可讓您定義結構描述之間的關係，以便將一個資料集用作另一個資料集的查詢表。
 
 假設您的品牌資料模型有一個結構描述擷取購買。 您也有產品目錄的結構描述。 您可以擷取購買結構描述中的產品ID，並使用關係從產品目錄中查詢更完整的產品詳細資訊。 舉例來說，這可讓您為所有購買筆記型電腦的客戶建立受眾，而不需明確列出所有筆記型電腦ID，或將每個單一產品的詳細資訊擷取到交易系統中。
 

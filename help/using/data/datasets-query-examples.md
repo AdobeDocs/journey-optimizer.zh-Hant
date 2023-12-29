@@ -11,8 +11,8 @@ keywords: 資料集，最佳化工具，使用案例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 3%
+source-wordcount: '847'
+ht-degree: 2%
 
 ---
 
@@ -342,7 +342,7 @@ _介面中的名稱： ajo_entity_dataset （系統資料集）_
 
 此資料集可讓您存取行銷人員定義的中繼資料，以便在Journey Optimizer資料集匯出以用於外部工具中的報表視覺效果時，獲得更好的報表深入分析。 這是使用messageID屬性所達成，此屬性可協助拼接各種資料集（例如訊息意見資料集和體驗事件追蹤資料集），以取得從設定檔層級傳送至追蹤的訊息傳遞詳細資訊。
 
-**重要備註**
+**重要附註**
 
 * 訊息的專案只會在歷程或行銷活動發佈後建立。
 

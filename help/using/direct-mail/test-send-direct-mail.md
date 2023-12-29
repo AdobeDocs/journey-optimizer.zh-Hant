@@ -9,8 +9,8 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 12%
+source-wordcount: '415'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 12%
 
 ## 管理直接郵件的同意 {#dm-consent-management}
 
-在 [!DNL Journey Optimizer]，同意由 Experience Platform [同意綱要](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant)處理{target="_blank"}。在預設情況下，「同意」欄位值為空，視為同意接受通訊。 
+在 [!DNL Journey Optimizer]，同意由Experience Platform處理 [同意綱要](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"}. 依預設，同意欄位的值是空的，並視為同意接收您的通訊。
 
 如果設定檔已選擇不接收直接郵件，則在對應的Experience Platform設定檔屬性中，值 `consents.marketing.postalMail.val` 將為 `n` 和對應的設定檔將從後續傳送中排除。
 

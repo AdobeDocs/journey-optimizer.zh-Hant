@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 25%
+source-wordcount: '461'
+ht-degree: 17%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 25%
 
 [透過此影片瞭解如何編寫單頁應用程式](#video)
 
-檢視可定義為整個網站或網站上一組視覺化元素，例如首頁、整個產品網站或所有結帳頁面上的傳遞偏好設定框架。 
+檢視可定義為整個網站或網站上一組視覺元素，例如首頁、整個產品網站或所有結帳頁面上的傳遞偏好設定框架。
 
 需要一次性開發人員設定，才能定義Adobe Experience Platform Web SDK實作中的檢視。 這可讓您在SPA上建立並執行Adobe Journey Optimizer網路行銷活動。
 
 ## 在Web SDK實作中定義檢視 {#define-views}
 
-可在Adobe中運用XDM檢視 [!DNL Journey Optimizer] 讓行銷人員透過網頁視覺化編輯器在SPA上執行網頁個人化和實驗行銷活動。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
+可在Adobe中運用XDM檢視 [!DNL Journey Optimizer] 讓行銷人員透過網頁視覺化編輯器在SPA上執行網頁個人化和實驗行銷活動。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hant){target="_blank"}
 
 若要能夠存取及編寫中的檢視 [!DNL Journey Optimizer] 使用者介面，請務必遵循下列步驟操作 [本節](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 

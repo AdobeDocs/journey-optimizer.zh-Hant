@@ -11,8 +11,8 @@ keywords: 歷程，訊息，行銷活動，整合
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 3%
+source-wordcount: '413'
+ht-degree: 2%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 3%
 
    ![](assets/accintegration-uc-10.png)
 
-1. 測試您的歷程.
+1. 測試您的歷程。
 
    ![](assets/accintegration-uc-11.png)
 

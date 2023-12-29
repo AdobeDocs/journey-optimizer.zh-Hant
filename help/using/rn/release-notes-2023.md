@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 2023年發行說明
+title: 2023 年發行說明
 description: Journey Optimizer 2023 年發行說明
 feature: Release Notes
 topic: Content Management
@@ -11,7 +11,7 @@ exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 001117b273355b18a2f429ed686c30afd6d99e89
 workflow-type: tm+mt
 source-wordcount: '4125'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -355,7 +355,7 @@ A new option is available in the email surface settings to include email address
 
 **API**
 
-已棄用產生 Adobe Journey Optimizer APIsauthentication 存取權杖的 JWT 方法。 務必使用 OAuth 伺服器對伺服器驗證方法來建立所有新的整合。 Adobe 也建議您將現有的整合移轉至 OAuth 方法。 [了解更多](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
+已棄用產生 Adobe Journey Optimizer APIsauthentication 存取權杖的 JWT 方法。 務必使用 OAuth 伺服器對伺服器驗證方法來建立所有新的整合。 Adobe 也建議您將現有的整合移轉至 OAuth 方法。 [了解更多](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}。
 
 
 **其他變更**

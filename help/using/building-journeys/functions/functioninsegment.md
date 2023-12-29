@@ -9,7 +9,7 @@ keywords: inSegment，函式，運算式，歷程
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '191'
 ht-degree: 6%
 
 ---
@@ -62,6 +62,6 @@ Adobe Experience Platform
 
 `inSegment("men over 50")`
 
-解釋:
+說明：
 
 函式將傳回 **[!UICONTROL true]** 如果歷程例項中的個人屬於名為「50歲以上的男性」的Adobe Experience Platform對象， **[!UICONTROL false]** 否則。

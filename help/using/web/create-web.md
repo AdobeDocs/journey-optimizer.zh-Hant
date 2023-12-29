@@ -8,8 +8,8 @@ level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 18%
+source-wordcount: '833'
+ht-degree: 17%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 18%
 >
 >如果這是您第一次建立網頁體驗，請務必遵循[本章節](web-prerequisites.md)所說明的先決條件。
 
-1. 建立行銷活動. [了解更多](../campaigns/create-campaign.md)
+1. 建立行銷活動。 [了解更多](../campaigns/create-campaign.md)
 
 1. 選取 **[!UICONTROL Web]** 動作。
 
-1. 定義網頁表面.
+1. 定義網頁表面。
 
    >[!NOTE]
    >

@@ -11,8 +11,8 @@ keywords: 活動，歷程，讀取，對象，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 12%
+source-wordcount: '1347'
+ht-degree: 10%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 12%
 
 * 對於使用讀取對象活動的歷程，則可同時開始的歷程次數有其上限。 系統將執行重試，但請避免同時開始超過五個歷程 (使用讀取對象、已排程或「盡快」開始)，方法是將其分散在一段時間內開始，例如相隔 5 到 10 分鐘。
 
-* 從讀取對象、對象資格或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。 
+* 從讀取對象、對象資格或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。
 
 * 目前，使用對象 [從CSV檔案匯入](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 或產生自 [組合工作流程](../audience/get-started-audience-orchestration.md) 進入歷程會以私人測試版的形式提供。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
@@ -51,7 +51,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >此外，您也可以鎖定使用建立的Adobe Experience Platform對象 [對象組合](../audience/get-started-audience-orchestration.md) 或 [已從CSV檔案上傳](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. 這些功能目前以私人測試版的形式提供。
+   >此外，您也可以鎖定使用建立的Adobe Experience Platform對象 [對象組合](../audience/get-started-audience-orchestration.md) 或 [已從CSV檔案上傳](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. 這些功能目前以 Private Beta 的形式提供。
 
    請注意，您可以自訂清單中顯示的欄並加以排序。
 
@@ -118,7 +118,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->一次性讀取對象歷程在歷程執行30天後移至「已完成」狀態。 對於排程的讀取對象，是在上次執行該事件後的 30 天。 
+>一次性讀取對象歷程在歷程執行30天後移至「已完成」狀態。 對於已排程的讀取對象，是在上次執行後的30天。
 
 ## 測試並發佈歷程 {#testing-publishing}
 

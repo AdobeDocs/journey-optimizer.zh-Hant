@@ -11,8 +11,8 @@ keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 7%
+source-wordcount: '596'
+ht-degree: 4%
 
 ---
 
@@ -109,7 +109,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
    ![](assets/action-response4.png){width="80%" align="left"}
 
-   每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。
+   每次呼叫API時，系統都會擷取裝載範例中包含的所有欄位。
 
 1. 我們也將customerID新增為查詢引數。
 

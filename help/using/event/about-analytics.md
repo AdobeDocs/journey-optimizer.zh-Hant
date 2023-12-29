@@ -11,8 +11,8 @@ keywords: analytics，整合， web sdk，平台
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 7%
+source-wordcount: '753'
+ht-degree: 6%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 7%
 
 ![](assets/ajo-aa_4.png)
 
-在中進一步瞭解Adobe Analytics來源聯結器  [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}.
+在中進一步瞭解Adobe Analytics來源聯結器  [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant){target="_blank"}.
 
 ## 啟用此設定 {#activate-analytics-data}
 

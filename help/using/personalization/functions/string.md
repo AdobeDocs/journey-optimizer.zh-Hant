@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '1846'
 ht-degree: 6%
 
 ---
@@ -368,7 +368,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 傳回6。
 
-## Is empty {#isEmpty}
+## 是空的 {#isEmpty}
 
 此 `isEmpty` 函式來判斷字串是否為空白。
 
@@ -622,7 +622,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= regexGroup(emailAddress,"@(\\w+)", 1) %}
 ```
 
-## Replace {#replace}
+## 取代 {#replace}
 
 此 `replace` 函式可將字串中的指定子字串取代為另一個子字串。
 

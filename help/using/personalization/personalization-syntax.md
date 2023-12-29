@@ -11,8 +11,8 @@ keywords: 運算式，編輯器，語法，個人化
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 10%
+source-wordcount: '719'
+ht-degree: 8%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 10%
 其中：
 
 * `profile` 是名稱空間。
-* `person.name` 是由屬性構成的權杖。 屬性結構是在Adobe Experience Platform XDM結構描述中定義。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}.
+* `person.name` 是由屬性構成的權杖。 屬性結構是在Adobe Experience Platform XDM結構描述中定義。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}。
 
 ## 語法一般規則 {#general-rules}
 
@@ -142,10 +142,10 @@ Handlebars協助程式是簡單識別碼，後面可能會接著引數。
 
 | 常值 | 定義 |
 | ------- | ---------- |
-| 字串 | 由雙引號包住的字元所組成的資料型別。 <br>範例: `"prospect"`, `"jobs"`, `"articles"` |
+| 字串 | 由雙引號包住的字元所組成的資料型別。 <br>範例： `"prospect"`， `"jobs"`， `"articles"` |
 | 布林值 | 為true或false的資料型別。 |
-| 整數 | 代表整數的資料型別。 可以是正數、負數或零。 <br>範例: `-201`, `0`, `412` |
-| 陣列 | 一種資料型別，由一組其他常值組成。 它使用方括弧將不同值分組，並使用逗號分隔不同值。 <br> **注意：** 您無法直接存取陣列中專案的屬性。 <br> 範例: `[1, 4, 7]`, `["US", "FR"]` |
+| 整數 | 代表整數的資料型別。 可以是正數、負數或零。 <br>範例： `-201`， `0`， `412` |
+| 陣列 | 一種資料型別，由一組其他常值組成。 它使用方括弧將不同值分組，並使用逗號分隔不同值。 <br> **注意：** 您無法直接存取陣列中專案的屬性。 <br> 範例： `[1, 4, 7]`， `["US", "FR"]` |
 
 >[!CAUTION]
 >

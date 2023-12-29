@@ -11,8 +11,8 @@ level: Intermediate
 keywords: 產品，設定檔，沙箱
 source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 6%
+source-wordcount: '740'
+ht-degree: 4%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 6%
 
 1. 如有需要，在 **[!UICONTROL 包含的許可權專案]**，按一下旁邊的X圖示，為您的角色移除許可權或資源。
 
-1. 完成時，按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 完成後，按一下 **[!UICONTROL 儲存]**.
 
 如有需要，您也可以建立具有特定許可權的新角色。 有關詳細資訊，請參閱 [建立新角色](#create-product-profile).
 
@@ -121,7 +121,7 @@ ht-degree: 6%
 
    ![](assets/do-not-localize/access_control_12.png)
 
-1. 完成時，按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 完成後，按一下 **[!UICONTROL 儲存]**.
 
 您的 **[!UICONTROL 角色]** 現在已建立並設定。 您現在需要將其指派給使用者。
 

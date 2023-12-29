@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 14%
+source-wordcount: '1569'
+ht-degree: 13%
 
 ---
 
@@ -212,7 +212,7 @@ ht-degree: 14%
 
    <!--Expression fragments can be used in any channel.-->
 
-1. 按一下&#x200B;**[!UICONTROL 建立]**。「運算式」編輯器開啟。
+1. 按一下 **[!UICONTROL 建立]**。「運算式」編輯器開啟。
 
 1. 您可以善用 [!DNL Journey Optimizer] 運算式編輯器及其所有個人化和編寫功能。 [了解更多](../personalization/personalization-build-expressions.md)
 
@@ -246,7 +246,7 @@ ht-degree: 14%
 
    ![](assets/fragment-save-as-screen.png)
 
-1. 按一下&#x200B;**[!UICONTROL 建立]**。填寫片段詳細資訊，即名稱和說明（如果需要）。
+1. 按一下 **[!UICONTROL 建立]**。填寫片段詳細資訊，即名稱和說明（如果需要）。
 
 1. 若要指派自訂或核心資料使用標籤給片段，請選取「 」 **[!UICONTROL 管理存取權]**. [深入瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md).
 

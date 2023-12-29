@@ -12,7 +12,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 15%
 
 此外，當允許清單為作用中但空白時，將不會傳出任何郵件。 因此，如果您遇到一些重大問題，可以使用此功能來停止所有來自的傳出通訊 [!DNL Journey Optimizer] 直到您修正問題為止。 進一步瞭解 [允許清單邏輯](#logic).
 
-此外，您也可以利用 Journey Optimizer **Suppression REST API**，使用禁止名單與允許清單控制外寄郵件。 [瞭解如何使用隱藏REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+此外，您也可以利用 Journey Optimizer **Suppression REST API**，使用禁止名單與允許清單控制外寄郵件。 [了解如何使用 Suppression REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## 存取允許清單 {#access-allowed-list}
 

@@ -11,8 +11,8 @@ keywords: 電子郵件、範本、設計
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 27%
+source-wordcount: '269'
+ht-degree: 21%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 27%
 
 1. [存取電子郵件設計工具](get-started-email-design.md) 從電子郵件 **[!UICONTROL 編輯內容]** 畫面。
 
-1. 在「**[!UICONTROL 建立您的電子郵件]**」畫面，「**[!UICONTROL 範例範本]**」索引標籤預設為選取狀態。
+1. 在 **[!UICONTROL 建立您的電子郵件]** 畫面， **[!UICONTROL 範例範本]** 標籤預設為選取。
 
 1. 若要使用自訂範本，請前往 **[!UICONTROL 已儲存的範本]** 標籤。
 

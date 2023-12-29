@@ -9,7 +9,7 @@ exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 8%
 {%= count(orders) %}
 ```
 
-## 最大{#max}
+## 最大值{#max}
 
 此 `max` 函式傳回陣列中所有選取值的最大值。
 
@@ -71,7 +71,7 @@ ht-degree: 8%
 {%=max(orders.order.price)%}
 ```
 
-## 最小{#min}
+## 最小值{#min}
 
 此 `min` 函式傳回陣列中所有選取值的最小值。
 

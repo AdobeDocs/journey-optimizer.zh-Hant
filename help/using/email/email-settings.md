@@ -11,8 +11,8 @@ keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
 workflow-type: tm+mt
-source-wordcount: '2340'
-ht-degree: 13%
+source-wordcount: '2322'
+ht-degree: 12%
 
 ---
 
@@ -198,7 +198,7 @@ ht-degree: 13%
 >id="ajo_surface_suppressed_addresses"
 >title="覆寫禁止名單優先順序"
 >abstract="即使其電子郵件地址因垃圾郵件投訴而位於 Adobe Journey Optimizer 禁止名單中，您也可以決定傳送交易型訊息到設定檔。此選項預設為停用。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="管理禁止名單"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=zh-Hant" text="管理禁止名單"
 
 >[!IMPORTANT]
 >

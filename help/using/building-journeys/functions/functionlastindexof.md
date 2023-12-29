@@ -9,8 +9,8 @@ keywords: lastIndexOf，函式，運算式，歷程
 exl-id: f11f164b-51b5-4b01-8057-ff29d80d2e2c
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 18%
+source-wordcount: '67'
+ht-degree: 16%
 
 ---
 
@@ -45,6 +45,6 @@ ht-degree: 18%
 
 傳回3。
 
-解釋:
+說明：
 
 在「Hello」中，「l」的最後一次出現位於位置3。

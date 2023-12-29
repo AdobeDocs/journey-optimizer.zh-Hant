@@ -11,8 +11,8 @@ keywords: 歷程，整合， standard，行銷活動， ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 7%
+source-wordcount: '943'
+ht-degree: 5%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 7%
 
 您可以輕鬆地定義擷取的位置 **[!UICONTROL 地址]** 或 **[!UICONTROL 個人化資料]** 使用介面。 您可以瀏覽事件和可用資料來源的欄位。 您也可以將進階運算式編輯器用於更進階的使用案例，例如使用需要傳遞引數或執行操作的資料來源。 請參閱[此頁面](expression/expressionadvanced.md)。
 
-**[!UICONTROL 位址]**
+**[!UICONTROL 地址]**
 
 >[!NOTE]
 >

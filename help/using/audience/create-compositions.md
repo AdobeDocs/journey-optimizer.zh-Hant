@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: 2344d53a331cb883a81a051ce1e06e8c42824cb7
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 15%
+source-wordcount: '443'
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-此文件提供如何在 Adobe Journey Optimizer 中使用對象構成的詳細資訊。 如果您未使用 Adobe Journey Optimizer， [請按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}。
+此文件提供如何在 Adobe Journey Optimizer 中使用對象構成的詳細資訊。 如果您沒有使用Adobe Journey Optimizer， [按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ ht-degree: 15%
 
    >[!IMPORTANT]
    >
-   >您可以在指定的沙箱中發佈最多10個組合。 如果您達到此臨界值，則需要刪除構成以釋放空間並發佈新構成。
+   >您可以在指定的沙箱中發佈最多10個組合。 如果您達到此臨界值，則需要刪除組合以釋放空間，才能發佈新的組合。
 
    如果在發佈期間發生任何錯誤，將顯示警報，其中包含如何解決問題的資訊。
 

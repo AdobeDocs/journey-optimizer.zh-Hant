@@ -9,8 +9,8 @@ keywords: indexOf，函式，運算式，歷程
 exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
 source-git-commit: 383ab306401bc52717a9818e871100993e1ff2ff
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 18%
+source-wordcount: '67'
+ht-degree: 16%
 
 ---
 
@@ -45,6 +45,6 @@ ht-degree: 18%
 
 傳回2。
 
-解釋:
+說明：
 
 在「Hello」中，「l」的第一次出現位置為位置2。

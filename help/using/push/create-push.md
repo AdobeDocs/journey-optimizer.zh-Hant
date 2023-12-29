@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '714'
 ht-degree: 11%
 
 ---
@@ -124,7 +124,7 @@ ht-degree: 11%
 
 ![](assets/create-campaign-burst.png)
 
-1. 設定訊息內容並選取要定位的對象。 [瞭解如何建立行銷活動](#create)
+1. 設定訊息內容並選取要定位的對象。 [了解如何建立行銷活動](#create)
 
    >[!IMPORTANT]
    >
