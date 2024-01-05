@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: ba870af16a92ffd5aae2bb4e0abb8f0cdbb8dc80
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1779'
 ht-degree: 23%
 
 ---
@@ -140,13 +140,9 @@ ht-degree: 23%
 
 ![](assets/journeys-manage-access.png)
 
-### 時區和設定檔時區 {#timezone}
+### 歷程和設定檔時區 {#timezone}
 
-時區是在歷程層級定義。
-
-您可以輸入固定時區，或使用Adobe Experience Platform設定檔來定義歷程時區。
-
-如果在Adobe Experience Platform設定檔中定義了時區，則可在歷程中擷取該時區。
+時區是在歷程層級定義。 您可以輸入固定時區，或使用Adobe Experience Platform設定檔來定義歷程時區。 如果在Adobe Experience Platform設定檔中定義了時區，則可在歷程中擷取該時區。
 
 如需時區管理的詳細資訊，請參閱 [此頁面](../building-journeys/timezone-management.md).
 
@@ -154,7 +150,7 @@ ht-degree: 23%
 
 您可以定義 **開始日期**. 如果您尚未指定，則會在發佈時自動定義。
 
-您也可以新增 **結束日期**. 這可讓設定檔在達到日期時自動退出。 如果您未指定結束日期，設定檔可以保留到預設歷程逾時（通常30天，Healthcare Shield附加元件為7天）為止。 唯一的例外是循環讀取受眾歷程，具有 **在重複時強制重新進入** 已啟用，在下一次事件的開始日期結束。
+您也可以新增 **結束日期**. 這可讓設定檔在達到日期時自動退出。 如果未指定結束日期，則設定檔可保留至 [全域歷程逾時](#global_timeout) （通常為30天，若使用Healthcare Shield及Security和Privacy Shield附加產品，縮短為7天）。 唯一的例外是循環讀取受眾歷程，具有 **在重複時強制重新進入** 已啟用，在下一次事件的開始日期結束。
 
 ### 歷程活動中的逾時和錯誤 {#timeout_and_error}
 
@@ -168,7 +164,9 @@ ht-degree: 23%
 
 ### 全域歷程逾時 {#global_timeout}
 
-除了 [逾時](#timeout_and_error) 此逾時機制用於歷程活動，但全域歷程逾時機制未顯示在介面中且無法變更。 此逾時將會在個人進入後30天內，停止該歷程中的個人進度。 這表示個人的歷程不能持續超過30天。 在30天逾時期間後，個人的資料會遭到刪除。 在逾時期間結束時仍在歷程中流動的個人將會停止，且將不會在報表中將其列入考量。 因此，您可能會看到更多人進入歷程而不是退出。
+除了 [逾時](#timeout_and_error) 此逾時機制用於歷程活動，但全域歷程逾時機制未顯示在介面中且無法變更。
+
+此全域逾時會停止歷程中個人的進度 **30天** 在他們進入之後。 此逾時已減少為 **7天** 搭配Healthcare Shield及Privacy and Security Shield附加產品。 這表示個人的歷程不能持續超過30天（或7天）。 在此逾時期間後，個人的資料會被刪除。 在逾時期間結束時仍在歷程中流動的個人將會停止，且將不會在報表中將其列入考量。 因此，您可能會看到更多人進入歷程而不是退出。
 
 >[!NOTE]
 >
