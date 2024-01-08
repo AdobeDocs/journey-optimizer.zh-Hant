@@ -8,16 +8,22 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
+source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
 workflow-type: tm+mt
-source-wordcount: '4216'
-ht-degree: 100%
+source-wordcount: '4236'
+ht-degree: 99%
 
 ---
 
 # 文件更新 {#latest-updates}
 
 本頁面列出 [!DNL Journey Optimizer] 所有文件更新。
+
+## 2024 年 1 月 {#jan-2024}
+
+* 已詳細說明歷程逾時管理 [在以下區段中](../building-journeys/journey-gs.md#global_timeout).
+* Journey Optimizer [檔案首頁](../../ajo-home.md) 頁面已重新設計。
+
 
 ## 2023 年 11 月 {#nov-2023}
 
