@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 登陸、登陸頁面、使用案例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '943'
 ht-degree: 12%
 
 ---
@@ -92,7 +92,9 @@ ht-degree: 12%
 
 若要讓收件者取消訂閱您的通訊內容，您可以在電子郵件中加入選擇退出登陸頁面的連結。
 
-進一步瞭解管理收件者的同意，以及這在中為何重要 [本節](../privacy/opt-out.md).
+>[!NOTE]
+>
+>進一步瞭解管理收件者的同意，以及這在中為何重要 [本節](../privacy/opt-out.md).
 
 ### 選擇退出管理 {#opt-out-management}
 
@@ -103,7 +105,7 @@ ht-degree: 12%
 * 按一下此連結後，收件者會被導向至包含確認選擇退出按鈕的登陸頁面。
 * 按一下選擇退出按鈕後，設定檔資料將會更新並包含此資訊。
 
-### 設定選擇退出 {#configure-opt-out}
+### 設定電子郵件選擇退出 {#configure-opt-out}
 
 若要讓電子郵件的收件者透過登入頁面取消訂閱您的通訊，請遵循下列步驟。
 
