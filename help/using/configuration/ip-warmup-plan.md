@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: 2060b18bfcc62e02127776f05de1448378a7a06a
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 7%
+source-wordcount: '1558'
+ht-degree: 6%
 
 ---
 
@@ -81,6 +81,10 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 <!--When working with the [!DNL Journey Optimizer] IP warmup feature, this plan takes the form of an Excel file that must contain a number of predefined columns.-->
 
 在中建立IP熱身計畫之前 [!DNL Journey Optimizer] 介面，您必須在Excel範本中填入所有可為計畫提供摘要的資料。
+
+* 您可在此處下載空白的 [Excel IP熱身計畫範本](assets/ip-warmup-csv.zip) 以填入。
+
+* 您也可以下載 [範例IP熱身計畫範本](assets/sample-ip-warmup-plan.zip) 已填入一些您可做為範例的資料。
 
 >[!CAUTION]
 >
@@ -295,7 +299,7 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 
    >[!NOTE]
    >
-   >如果上傳失敗，請確定您使用正確的格式和檔案格式(.xls或.xlsx)。 使用Adobe為您提供的範例。
+   >如果上傳失敗，請確定您使用正確的格式和檔案格式(.xls或.xlsx)。 使用 [範例](assets/ip-warmup-csv.zip) 由Adobe提供。
 
 1. 按一下 **[!UICONTROL 建立]**。在您上傳的檔案中定義的所有階段、執行、欄及其內容會自動顯示在 [!DNL Journey Optimizer] 介面。
 
