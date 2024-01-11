@@ -521,7 +521,7 @@ ht-degree: 100%
    + [查詢](using/data/get-started-queries.md)
 + 設定 {#configuration}
    + [開始使用 Journey Optimizer 設定](using/configuration/get-started-configuration.md)
-   + [設定頻道介面](using/configuration/channel-surfaces.md)
+   + [設定頻道表面](using/configuration/channel-surfaces.md)
    + 委派電子郵件子網域 {#delegate-subdomains}
       + [開始使用子網域委派](using/configuration/about-subdomain-delegation.md)
       + [委派子網域](using/configuration/delegate-subdomain.md)
