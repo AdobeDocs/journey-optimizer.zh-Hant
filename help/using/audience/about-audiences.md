@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 51c6717d5d5d317c4ff1040194f2e831bea89222
+source-git-commit: d18b24f6afcd64745fe7bd3b3bc9832342b91c7b
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 48%
+source-wordcount: '909'
+ht-degree: 47%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 48%
 >title="選取行銷活動的對象"
 >abstract="此清單顯示所有可用的 Adobe Experience Platform 對象。為你的行銷活動選取目標對象。在行銷活動中設定的訊息將傳送給屬於所選對象的所有個人。[進一步了解對象](../audience/about-audiences.md)"
 
-[!DNL Journey Optimizer] 可讓您直接從使用即時客戶個人檔案資料來建立及運用Adobe Experience Platform對象 **[!UICONTROL 受眾]** 選單，並用於您的歷程或行銷活動。 進一步瞭解 [Adobe Experience Platform Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}.
+受眾是指一組具有類似行為和/或特徵的人。 它們可由Adobe Experience Platform使用區段定義或受眾組合來產生，或從CSV檔案匯入。 進一步瞭解 [Adobe Experience Platform Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}.
+
+[!DNL Journey Optimizer] 可讓您直接從建置Adobe Experience Platform對象 **[!UICONTROL 受眾]** 選單，並將其運用在您的歷程或行銷活動中。
 
 ## 在 [!DNL Journey Optimizer] 中使用對象 {#segments-in-journey-optimizer}
 
@@ -36,6 +38,7 @@ ht-degree: 48%
 >[!NOTE]
 >
 >此外，您也可以鎖定使用建立的Adobe Experience Platform對象 [對象組合](../audience/get-started-audience-orchestration.md) 或 [已從CSV檔案上傳](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. 這些功能目前以 Private Beta 的形式提供。
+
 
 您可以在 **[!DNL Journey Optimizer]** 中以不同方式善用對象：
 
