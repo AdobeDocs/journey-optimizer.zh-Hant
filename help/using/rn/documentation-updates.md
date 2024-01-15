@@ -203,7 +203,7 @@ ht-degree: 99%
 ## 2022 年 7 月 {#july-2022}
 
 * 針對 [!DNL Journey Optimizer]2022 年 7 月發行版本的新功能及改進項目，請參閱本文件以獲得所有詳細資料。 [閱讀全文](release-notes.md)
-* 已澄清&#x200B;**設定頻道介面**&#x200B;部分，並已更新連結頁面，說明如何設定簡訊頻道。 [閱讀全文](../configuration/channel-surfaces.md#create-channel-surface)
+* 已澄清&#x200B;**設定管道表面**&#x200B;部分，並已更新連結頁面，說明如何設定簡訊頻道。 [閱讀全文](../configuration/channel-surfaces.md#create-channel-surface)
 * 歷程屬性的&#x200B;**個人資料時區**&#x200B;選項現在預設為停用。 [閱讀全文](../building-journeys/timezone-management.md#timezone-from-profiles)
 * **等待**&#x200B;活動的&#x200B;**固定日期**&#x200B;選項不再提供。 [閱讀全文](../building-journeys/wait-activity.md)
 * 已在&#x200B;**讀取對象**&#x200B;活動中新增&#x200B;**增量讀取**&#x200B;選項的詳細資訊。 [閱讀全文](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
