@@ -271,7 +271,7 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 >id="ajo_admin_ip_warmup_surface"
 >title="選取行銷表面"
 >abstract="您選取的表面必須相同於您想要與 IP 暖身計畫相關聯之行銷活動的所選表面。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=zh-Hant" text="設定頻道介面"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=zh-Hant" text="設定管道表面"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=zh-Hant" text="建立 IP 暖身行銷活動"
 
 若要建立IP熱身計畫，請遵循下列步驟。
