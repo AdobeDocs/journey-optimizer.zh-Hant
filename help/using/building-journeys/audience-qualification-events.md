@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 資格，事件，對象，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1011'
 ht-degree: 8%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 8%
 * 從讀取對象、對象資格或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。
 
 * 在歷程中使用對象資格時，該對象資格活動最多可能需要 10 分鐘，才會啟用和接聽進入或退出對象的設定檔。
+
+* 根據最佳實務，建議您只將串流對象用於 **對象資格** 活動。 對於批次使用案例，請使用 **[讀取對象](read-audience.md)** 活動。
 
 ### 設定活動{#cnfigure-segment-qualification}
 

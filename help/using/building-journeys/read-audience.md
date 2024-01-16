@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，對象，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
+source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1398'
 ht-degree: 10%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 10%
 * 對於使用讀取對象活動的歷程，則可同時開始的歷程次數有其上限。 系統將執行重試，但請避免同時開始超過五個歷程 (使用讀取對象、已排程或「盡快」開始)，方法是將其分散在一段時間內開始，例如相隔 5 到 10 分鐘。
 
 * 從讀取對象、對象資格或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。
+
+* 根據最佳實務，建議您僅在以下專案中使用批次對象： **讀取對象** 活動。 這將為歷程中使用的對象提供可靠且一致的計數。 讀取對象是針對批次使用案例而設計。 如果您的使用案例需要即時資料，請使用 **[對象資格](audience-qualification-events.md)** 活動。
 
 * 目前，使用對象 [從CSV檔案匯入](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 或產生自 [組合工作流程](../audience/get-started-audience-orchestration.md) 進入歷程會以私人測試版的形式提供。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
