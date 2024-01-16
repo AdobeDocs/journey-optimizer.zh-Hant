@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# 加入預覽文字 {#preheader}
+# 新增預覽文字 {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"

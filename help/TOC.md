@@ -190,7 +190,7 @@ ht-degree: 100%
          + [新增連結及追蹤訊息](using/email/message-tracking.md)
          + [插入個人化優惠方案](using/email/add-offers-email.md)
          + [產生文字版本](using/email/text-version-email.md)
-         + [加入預告標題](using/email/preheader.md)
+         + [新增預覽文字](using/email/preheader.md)
       + 編輯樣式 {#edit-style}
          + [開始使用電子郵件樣式](using/email/get-started-email-style.md)
          + [編輯背景設定](using/email/backgrounds.md)
