@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: a53af66d052ee8041164184755ba80e4ab3cca0a
+source-git-commit: cdcce470481393c821d1c5df95639602510a690a
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 44%
+source-wordcount: '991'
+ht-degree: 43%
 
 ---
 
@@ -37,14 +37,17 @@ ht-degree: 44%
 * **CSV檔案匯入**：使用CSV檔案匯入對象。 瞭解如何在Adobe Experience Platform中匯入對象 [分段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 * **對象構成**：建立構成工作流程，將現有Adobe Experience Platform對象合併到視覺畫布中，並利用各種活動（分割、排除……）來建立新對象。 [開始使用對象組合](get-started-audience-orchestration.md)
 
-## 在 [!DNL Journey Optimizer] 中使用對象 {#segments-in-journey-optimizer}
+## 定位對象於 [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
 您可以在行銷活動中選取使用產生的任何Adobe Experience Platform對象 [區段定義](../audience/creating-a-segment-definition.md).
 
 >[!NOTE]
 >
->此外，您也可以鎖定使用建立的Adobe Experience Platform對象 [對象組合](../audience/get-started-audience-orchestration.md) 或 [已從CSV檔案上傳](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. 這些功能目前以 Private Beta 的形式提供。
-
+>就目前而言，源自下列專案的對象： [對象組合](../audience/get-started-audience-orchestration.md) 只能在行銷活動中定位。 此功能可作為歷程的私人測試版使用。
+>
+>使用對象 [已從CSV檔案上傳](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} 在行銷活動和歷程中，目前以私人測試版的形式提供。
+>
+>如需詳細資訊，請聯絡您的 Adobe 代表。
 
 您可以在 **[!DNL Journey Optimizer]** 中以不同方式善用對象：
 
