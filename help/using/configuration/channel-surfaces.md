@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 設定頻道介面
+title: 設定管道表面
 description: 瞭解如何設定和監控管道表面
 feature: Surface, Channel Configuration
 topic: Administration
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 ---
 
-# 設定頻道介面 {#set-up-channel-surfaces}
+# 設定管道表面 {#set-up-channel-surfaces}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
