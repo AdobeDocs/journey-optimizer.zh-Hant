@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 661ddb52e5264b5970a520bd27db0a81d5de4b7e
+source-git-commit: 6a2b3c988168d8ff6f5671718cd0defb6ad8c258
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 100%
+source-wordcount: '1860'
+ht-degree: 94%
 
 ---
 
@@ -59,6 +59,8 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 歷程中的活動數限定為最多 50 個。活動數會顯示於歷程畫布的左上方區段。這有助於提高可讀性、QA 及疑難排解。
 * 當您發佈歷程時，我們會自動縮放和調整，以確保輸送量與穩定性達到最高。 當您一次接近 100 個即時歷程的里程碑時，您會看到此成果的 UI 中出現通知。 如果您看到此通知，並需要一次將歷程擴充至 100 個即時歷程以上，請建立客戶服務支援服務單，我們將協助您達成目標。
 * 在歷程中使用對象資格時，該對象資格活動最多可能需要 10 分鐘，才會啟用和接聽進入或退出對象的設定檔。
+* 個人資料的歷程執行個體大小上限為1MB。 在歷程執行過程中收集的所有資料都會儲存在該歷程執行個體中。 因此，來自傳入事件的資料、從Adobe Experience Platform擷取的設定檔資訊、自訂動作回應等。 會儲存在該歷程例項中，並影響歷程大小。 當歷程以事件開始時，建議限制該事件裝載的大小上限（例如：低於800 KB），以避免在歷程執行中經過幾項活動後達到該限制。 當達到該限制時，設定檔處於錯誤狀態並將從歷程中排除。
+
 
 ### 一般動作 {#general-actions-g}
 
