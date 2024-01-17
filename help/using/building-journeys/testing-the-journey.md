@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1535'
 ht-degree: 10%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 10%
 
 ## 重要備註 {#important_notes}
 
-* 在測試模式中，您可以使用介面引發事件。
+* 在測試模式中，您可以使用介面引發事件。 無法使用API從外部系統引發事件。
 * 只有即時客戶設定檔服務中標示為「測試設定檔」的個人才能進入測試歷程。 請參閱本[章節](../audience/creating-test-profiles.md)。
 * 測試模式僅適用於使用名稱空間的草稿歷程。 測試模式需要檢查進入歷程的人員是否為測試設定檔，因此必須能夠存取Adobe Experience Platform。
 * 在測試工作階段中可以進入歷程的測試設定檔最大數量為100。
