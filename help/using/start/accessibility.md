@@ -7,7 +7,7 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 1f747604a8658a285c5ec67018c70cd58d2fb068
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 100%
@@ -55,7 +55,7 @@ Adobe Experience Platform 中的協助工具功能請詳見[本文件](https://e
     <td>C</td>
   </tr>
   <tr>
-    <td rowspan="3">草稿狀態的歷程畫布</td>
+    <td rowspan="8">草稿狀態的歷程畫布</td>
     <td>從左側色盤的第一個可用位置 (從上到下) 新增活動</td>
     <td>在活動上按兩下</td>
   </tr>
