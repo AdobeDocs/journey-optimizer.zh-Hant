@@ -7,7 +7,7 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 1f747604a8658a285c5ec67018c70cd58d2fb068
+source-git-commit: 72e192538b6dd2f0cf50e4d6ce8d5b2b789308d4
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 100%
@@ -88,10 +88,9 @@ Adobe Experience Platform 中的協助工具功能請詳見[本文件](https://e
     <td>SHIFT + 箭頭鍵</td>
   </tr>  
   <tr>
-  <td rowspan="3">
 
-這些元素的設定窗格：
-
+<td rowspan="3">
+  這些元素的設定窗格：
 <ul>
   <li>歷程中的活動</li>
   <li>事件</li>
