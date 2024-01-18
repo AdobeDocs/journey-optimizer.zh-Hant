@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: a20318a2c38d3ee97e3347439e6b02e2ef04acf6
+source-git-commit: 922789a4dd439f3c3953f235ea2fc556bf929f33
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 0%
@@ -26,4 +26,3 @@ This page is not supposed to be publicly accessible. Its only purpose is to make
 * 您可以從使用者介面下載空白Excel [IP熱身計畫範本](assets/IPWarmupPlan-Template.xlsx) 以填入。
 
 * 您也可以下載 [IP熱身計畫範例](assets/IPWarmupPlan-Sample.xlsx) 已填入一些您可做為範例的資料。
-

@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 72e192538b6dd2f0cf50e4d6ce8d5b2b789308d4
+source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 100%
+source-wordcount: '535'
+ht-degree: 96%
 
 ---
 
@@ -88,8 +88,7 @@ Adobe Experience Platform 中的協助工具功能請詳見[本文件](https://e
     <td>SHIFT + 箭頭鍵</td>
   </tr>  
   <tr>
-
-<td rowspan="3">
+  <td rowspan="3">
   這些元素的設定窗格：
 <ul>
   <li>歷程中的活動</li>
@@ -97,8 +96,7 @@ Adobe Experience Platform 中的協助工具功能請詳見[本文件](https://e
   <li>資料來源</li>
   <li>動作</li>
 </ul>
-
-</td>
+  </td>
     <td>移至下一個要設定的欄位</td>
     <td>Tab 鍵</td>
   </tr>
@@ -120,11 +118,7 @@ Adobe Experience Platform 中的協助工具功能請詳見[本文件](https://e
     <td>E</td>
   </tr>
   <tr>
-    <td>
-
-在以對象為基礎的歷程中觸發事件，並為其啟用&#x200B;**[!UICONTROL 一次一個設定檔]**&#x200B;選項
-
-</td>
+    <td>在對象型歷程中觸發事件，其**[！UICONTROL一次單一設定檔]**選項已開啟</td>
     <td>P</td>
   </tr>
   <tr>
