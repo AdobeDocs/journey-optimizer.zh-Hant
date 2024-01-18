@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 16%
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
 >title="建立規則"
->abstract="建置規則建立方法可讓您使用 Adobe Experience Platform 對象分段服務建立新的對象定義。"
+>abstract="建立規則建立方法可讓您使用Adobe Experience Platform細分服務建立新的受眾定義。"
 
 在此範例中，我們將建立受眾，鎖定生活在亞特蘭大、舊金山或西雅圖且出生於1980年之後的所有客戶。 這些客戶應在過去7天內開啟Luma應用程式，然後在開啟應用程式後2小時內購買。
 

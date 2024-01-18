@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 設定檔，更新，歷程，活動
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 8%
+source-wordcount: '535'
+ht-degree: 7%
 
 ---
 
@@ -33,6 +33,8 @@ ht-degree: 8%
 * 如同任何其他動作，您可以定義發生錯誤或逾時時的替代路徑，而且您無法同時放置兩個動作。
 * 傳送至Adobe Experience Platform的更新要求為立即/在一秒內。 這通常需要幾秒鐘的時間，但有時更長，無法保證。 因此，舉例來說，如果動作使用由更新的「欄位1」， **更新設定檔** 放在之前的動作，您不應該預期動作中會更新「欄位1」。
 * 此 **更新設定檔** 活動不支援定義為列舉的XDM欄位。
+* 此 **[!UICONTROL 更新設定檔]** 活動只會更新 [設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}而不是資料湖。
+* 在中選取資料集時 **[!UICONTROL 更新設定檔]** 活動，建議使用未由資料擷取流程鎖定的活動。 **[!UICONTROL 更新設定檔]** 更新只會儲存在 [設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}，您可能會以資料擷取流程覆寫這類變更。
 
 ## 使用設定檔更新
 
