@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 許可權，製作，訊息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
+source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -40,6 +40,6 @@ ht-degree: 1%
 | 歷程 | **[!DNL Manage journeys]**：讀取、建立、編輯和刪除歷程。</br>**[!DNL View journeys]**：對歷程的唯讀存取權。</br>**[!DNL Publish journeys]**：發佈歷程。</br>**[!DNL Manage journeys events, data sources and actions]**：讀取、建立、編輯和刪除事件、來源或動作。</br>**[!DNL View journeys events, data sources and actions]**：對歷程事件、歷程自訂動作和歷程資料來源的唯讀存取權。</br>**[!DNL View journeys report]**：讀取和編輯歷程報告。</br> |
 | 設定檔管理 | **[!DNL Manage profiles]**：讀取、建立、編輯和刪除用於客戶設定檔的資料集。 對可用設定檔的唯讀存取權。</br>**[!DNL View profiles]**：對可用設定檔的唯讀存取權。</br>**[!DNL Export audience segments]**：將評估過的受眾區段匯出至資料集。</br>**[!DNL View segments]**：可用對象的唯讀存取權。</br>**[!DNL Evaluate a segment to an audience]**：評估區段定義，產生對象的設定檔。</br>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</br>**[!DNL View merge policies]**：對可用合併原則的唯讀存取權。 |
 | 查詢服務 | **[!DNL Manage queries]**：讀取、建立、編輯和刪除平台資料的結構化SQL查詢。</br>**[!DNL Manage query service integration]**：建立、更新和刪除不會到期的查詢服務存取認證。 |
-| 沙箱管理 | **[!DNL Manage sandboxes]**：讀取、建立、編輯和刪除沙箱。</br>**[!DNL View sandboxes]**：屬於您組織的沙箱的唯讀存取權。</br>**[!DNL Reset sandboxes]**：重設沙箱的功能。</br>**[!DNL Export sandboxes]**：匯出沙箱的功能。 |
+| 沙箱管理 | **[!DNL Manage sandboxes]**：讀取、建立、編輯和刪除沙箱。</br>**[!DNL View sandboxes]**：屬於您組織的沙箱的唯讀存取權。</br>**[!DNL Reset sandboxes]**：重設沙箱的功能。</br>**[!DNL Export sandboxes]**：匯出沙箱的功能。</br>**[!DNL Manage packages]**：讀取、建立、編輯和刪除封裝。 |
 
 {style="table-layout:fixed"}

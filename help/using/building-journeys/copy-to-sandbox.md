@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙箱，歷程，複製，環境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '743'
 ht-degree: 9%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->此功能需要下列許可權： manage-sandbox （或view-sandbox）和manage-package。
+>此功能需要下列許可權： **沙箱管理** 功能：管理沙箱（或檢視沙箱）和管理套件。 [了解更多](../administration/ootb-permissions.md)
 
 ## 開始使用沙箱工具{#sandbox-gs}
 
