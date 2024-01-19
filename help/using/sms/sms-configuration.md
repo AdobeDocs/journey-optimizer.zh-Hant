@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
+source-git-commit: 1a3a67571ef839bf8e1942e4c9599aa52ea7e2dc
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 13%
+source-wordcount: '1081'
+ht-degree: 12%
 
 ---
 
@@ -40,8 +40,13 @@ Adobe Journey Optimizer目前與獨立於Adobe Journey Optimizer提供文字訊�
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
->title="使用 Journey Optimizer 設定您的 SMS/MMS 服務提供者"
->abstract="Adobe Journey Optimizer 會透過 SMS/MMS 服務提供者發送文字簡訊。選取您的服務提供者並填寫您的 API 認證。"
+>title="使用Journey Optimizer設定簡訊提供者"
+>abstract="Adobe Journey Optimizer會透過簡訊服務提供者傳送文字訊息。 選取您的服務提供者並填寫您的 API 認證。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_mms_api_header"
+>title="使用Journey Optimizer設定您的多媒體簡訊服務供應商"
+>abstract="Adobe Journey Optimizer會透過MMS服務提供者傳送媒體內容。 選取您的服務提供者並填寫您的 API 認證。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
