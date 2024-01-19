@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子網域，網域，郵件， dmarc，記錄
-source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
+source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -61,7 +61,7 @@ DMARC，代表 **網域型訊息驗證、報告和符合性**，是一種電子�
 
 設定DMARC記錄涉及將DNS TXT記錄新增到您網域的DNS設定。 此記錄會指定您的DMARC原則，例如是隔離還是拒絕驗證失敗的訊息。 實作DMARC是強化電子郵件安全性、保護組織和收件者免受電子郵件威脅的主動步驟。
 
-[進一步瞭解DMARC的可遞送性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hant){target="_blank"} 以更能瞭解DMARC對電子郵件傳遞能力的影響。
+[進一步瞭解DMARC的可遞送性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} 以更能瞭解DMARC對電子郵件傳遞能力的影響。
 
 如果不新增DMARC，您將至少被隔離。
 
