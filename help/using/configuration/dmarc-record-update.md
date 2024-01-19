@@ -8,9 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子網域，網域，郵件， dmarc，記錄
-source-git-commit: 7cbd6a9e80a8d6b87b3c3011db80549a3b5f6e73
+hide: true
+hidefromtoc: true
+source-git-commit: f9d3234a64ad659660c2d2c4ad24ab5c240cb857
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -20,7 +22,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="進一步瞭解強制性DMARC更新"
->abstract="作為強制執行業界最佳實務的一部分，Google和Yahoo都將要求您擁有 **DMARC記錄** 用於傳送電子郵件給他們的任何網域。 此新需求開始於 **2024年2月1日**. <br>因此，Adobe強烈建議您務必為您已在Journey Optimizer中委派給Adobe的所有子網域設定DMARC記錄。"
+>abstract="作為強制執行業界最佳實務的一部分，Google和Yahoo都將要求您擁有 **DMARC記錄** ，適用於您用來傳送電子郵件給他們的任何網域，從 **2024年2月1日**. <br>因此，您必須確保已針對您已委派給Journey Optimizer中的Adobe的所有子網域設定DMARC記錄。"
 
 作為強制執行業界最佳實務的一部分，Google和Yahoo都將要求您擁有 **DMARC記錄** 用於傳送電子郵件給他們的任何網域。 此新需求開始於 **2024年2月1日**.
 
@@ -32,9 +34,9 @@ ht-degree: 0%
 
 因此，Adobe強烈建議您務必為您已委派給Adobe的所有子網域設定DMARC記錄 [!DNL Journey Optimizer]. 請遵循下列兩個選項之一：
 
-* 在您的子網域或子網域的父項網域上設定DMARC， **在您的託管解決方案中**.
+* 在您的子網域或子網域的父項網域上設定DMARC， **在您的託管解決方案中**. 您現在可以這樣做。
 
-* 在您的委派子網域上設定DMARC **使用中即將推出的功能 [!DNL Journey Optimizer] 管理UI**  — 不需額外處理託管解決方案。
+* 在您的委派子網域上設定DMARC **使用中即將推出的功能 [!DNL Journey Optimizer] 管理UI**  — 不需額外處理託管解決方案。 此功能將於2024年1月30日推出。
 
   >[!CAUTION]
   >
