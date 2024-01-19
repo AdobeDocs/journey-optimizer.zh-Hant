@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 47598318d2d411d98aa9fa135679442f25b703c7
+source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1724'
 ht-degree: 99%
 
 ---
@@ -528,6 +528,7 @@ ht-degree: 99%
       + [新增 Google TXT 記錄](using/configuration/google-txt.md)
       + [存取和編輯 PTR 記錄](using/configuration/ptr-records.md)
       + [建立 IP 池](using/configuration/ip-pools.md)
+      + [DMARC記錄更新](using/configuration/dmarc-record-update.md)
    + 實作 IP 暖身計劃 {#implement-ip-warmup-plan}
       + [開始使用 IP 暖身計劃](using/configuration/ip-warmup-gs.md)
       + [建立 IP 暖身行銷活動](using/configuration/ip-warmup-campaign.md)
