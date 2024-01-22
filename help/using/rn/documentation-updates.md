@@ -22,8 +22,8 @@ ht-degree: 99%
 ## 2024 年 1 月 {#jan-2024}
 
 * 已新增歷程大小的護欄。 [閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
-* 已詳細說明歷程逾時管理 [在以下區段中](../building-journeys/journey-gs.md#global_timeout).
-* Journey Optimizer [檔案首頁](../../ajo-home.md) 頁面已重新設計。
+* 已[在下列區段中](../building-journeys/journey-gs.md#global_timeout)詳細說明歷程逾時管理。
+* Journey Optimizer [j文件首頁](../../ajo-home.md)已經過重新設計。
 * 已新增有關更新設定檔活動的Recommendations。 [閱讀全文](../building-journeys/update-profiles.md)
 
 ## 2023 年 11 月 {#nov-2023}
