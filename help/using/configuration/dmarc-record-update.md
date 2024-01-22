@@ -10,7 +10,7 @@ level: Experienced
 keywords: 子網域，網域，郵件， dmarc，記錄
 hide: true
 hidefromtoc: true
-source-git-commit: b67b53b7a3ea6d2daee223a5579696d0e5637c44
+source-git-commit: a93f1c81cceaee4f55cd7555284c4d8016ed4e21
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -56,7 +56,7 @@ ht-degree: 0%
    * 在您的子網域或子網域的父項網域上設定DMARC **在您的託管解決方案中**.
    * 在您的委派子網域上設定DMARC **使用中即將推出的功能 [!DNL Journey Optimizer] 管理UI**. 不過，您也必須輸入託管解決方案。 因此，請務必與您的IT部門進行協調，以便他們能夠在 [!DNL Journey Optimizer] 功能已推出（1月30日起）。 <!--and be ready on February 1st, 2024-->
 
-更多詳細資訊，請參閱 [!DNL Journey Optimizer] DMARC即將推出功能。
+**更多詳細資訊，請參閱 [!DNL Journey Optimizer] DMARC即將推出功能。**
 
 >[!NOTE]
 >
