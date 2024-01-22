@@ -10,9 +10,9 @@ level: Experienced
 keywords: 子網域，網域，郵件， dmarc，記錄
 hide: true
 hidefromtoc: true
-source-git-commit: f9d3234a64ad659660c2d2c4ad24ab5c240cb857
+source-git-commit: b67b53b7a3ea6d2daee223a5579696d0e5637c44
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -32,30 +32,31 @@ ht-degree: 0%
 >
 >若未遵守Gmail和Yahoo的新要求，預期會導致電子郵件進入垃圾郵件資料夾或遭到封鎖。
 
-因此，Adobe強烈建議您務必為您已委派給Adobe的所有子網域設定DMARC記錄 [!DNL Journey Optimizer]. 請遵循下列兩個選項之一：
-
-* 在您的子網域或子網域的父項網域上設定DMARC， **在您的託管解決方案中**. 您現在可以這樣做。
-
-* 在您的委派子網域上設定DMARC **使用中即將推出的功能 [!DNL Journey Optimizer] 管理UI**  — 不需額外處理託管解決方案。 此功能將於2024年1月30日推出。
-
-  >[!CAUTION]
-  >
-  >如果您已設定 [CNAME委派](delegate-subdomain.md#cname-subdomain-delegation) 針對您的傳送子網域，也需要在您的託管解決方案中輸入一些內容。 請務必與您的IT部門協調，以便他們能夠在 [!DNL Journey Optimizer] 功能已推出（2024年1月30日）。 <!--and be ready on February 1st, 2024-->
-
-  更多詳細資訊，請參閱 [!DNL Journey Optimizer] DMARC即將推出功能。
+因此，Adobe強烈建議您務必為您已委派給Adobe的所有子網域設定DMARC記錄 [!DNL Journey Optimizer]. 請依照以下適用於您的案例的步驟操作：
 
 <!--
-* If you have [fully delegated](delegate-subdomain.md#full-subdomain-delegation) your sending subdomains to Adobe, follow either one of the two options below:
+* Set up DMARC on your subdomains, or on the parent domain of your subdomains, **in your hosting solution**. You can do it as of now.
 
-    * Set up DMARC on your subdomains or on the parent domain of your subdomains **in your hosting solution**.
+* Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI** - with no extra work on your hosting solution. This feature will be available on January 30, 2024.
 
-    * Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI** - with no extra work on your hosting solution.
+    >[!CAUTION]
+    >
+    >If you have set up [CNAME delegation](delegate-subdomain.md#cname-subdomain-delegation) for your sending subdomains, it will also require some entry into your hosting solution. Make sure you coordinate with your IT department so that they can perform the update as soon as the [!DNL Journey Optimizer] feature is available (on January 30, 2024). (and be ready on February 1st, 2024)
 
-* If you have set up [CNAME delegation](delegate-subdomain.md#cname-subdomain-delegation) for your sending subdomains, follow either one of the two options below:
-    * Set up DMARC on your subdomains or on the parent domain of your subdomains **in your hosting solution**.
-    * Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI**. However, it will also require entry in your hosting solution. Consequently, make sure you coordinate with your IT department so that they can perform the update as soon as the [!DNL Journey Optimizer] feature is available (on January, 30) - and be ready on February 1st, 2024.
-    
+    More details on the [!DNL Journey Optimizer] DMARC upcoming feature will come soon.
 -->
+
+* 如果您有 [已完全委派](delegate-subdomain.md#full-subdomain-delegation) 若要將子網域傳送至Adobe，請遵循下列兩個選項之一：
+
+   * 在您委派之子網域的父項網域上設定DMARC **在您的託管解決方案中**.
+
+   * 在您的委派子網域上設定DMARC **使用中即將推出的功能 [!DNL Journey Optimizer] 管理UI**  — 不需額外處理託管解決方案。
+
+* 如果您已設定 [CNAME委派](delegate-subdomain.md#cname-subdomain-delegation) 若要傳送子網域，請遵循下列兩個選項之一：
+   * 在您的子網域或子網域的父項網域上設定DMARC **在您的託管解決方案中**.
+   * 在您的委派子網域上設定DMARC **使用中即將推出的功能 [!DNL Journey Optimizer] 管理UI**. 不過，您也必須輸入託管解決方案。 因此，請務必與您的IT部門進行協調，以便他們能夠在 [!DNL Journey Optimizer] 功能已推出（1月30日起）。 <!--and be ready on February 1st, 2024-->
+
+更多詳細資訊，請參閱 [!DNL Journey Optimizer] DMARC即將推出功能。
 
 >[!NOTE]
 >
