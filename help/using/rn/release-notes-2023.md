@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: fa641124777093914e1d9bc03b28dbf42d9764d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4121'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -118,9 +118,9 @@ ht-degree: 99%
 
 **歷程**
 
-* 複製歷程時，您現在可以定義歷程副本的名稱。 [瞭解更多](../building-journeys/journey-gs.md#uplicate-a-journey
+* 複製歷程時，您現在可以定義歷程副本的名稱。 [了解更多](../building-journeys/journey-gs.md#uplicate-a-journey
 
-* 自訂動作回應的支援現已全面推出。 此功能可讓您在自訂動作中運用 API 呼叫回應，並根據這些回應協調歷程。此外， [新增上限護欄](../start/guardrails.md#custom-actions-g) 已新增以自動限制自訂動作呼叫。 [了解更多](../action/action-response.md)
+* 自訂動作回應的支援現已全面推出。 此功能可讓您在自訂動作中運用 API 呼叫回應，並根據這些回應協調歷程。此外，已新增[新的上限護欄](../start/guardrails.md#custom-actions-g)以自動限制自訂動作呼叫。[了解更多](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
