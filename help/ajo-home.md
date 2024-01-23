@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 4b1de4d1c62c917ce760b3739242671e5c274357
+source-git-commit: 8a2c17e7ae61812a52e5653119e269a5d0f6369e
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 95%
+source-wordcount: '420'
+ht-degree: 81%
 
 ---
 
@@ -20,13 +20,19 @@ ht-degree: 95%
 
 >[!BEGINTABS]
 
+[!TAB 強制性DMARC更新]
+
+作為強制執行業界最佳實務的一部分，Google和Yahoo都將要求您擁有 **DMARC記錄** ，適用於您用來傳送電子郵件給他們的任何網域，從 **2024年2月1日**. 請確定您已為已在Journey Optimizer中委派給Adobe的所有子網域設定DMARC記錄。
+
+[![影像](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
+
 >[!TAB 沙箱工具]
 
 沙箱工具可讓您運用套件匯出和匯入功能，跨多個沙箱複製物件。 套件可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。
 
 [![影像](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
 
->[!TAB 簡訊中的多媒體訊息服務 (MMS)]
+>[!TAB 簡訊中的多媒體簡訊]
 
 透過簡訊管道，您現在可以傳送多媒體訊息服務 (MMS) 訊息，來與客戶分享影像、GIF 或影片，藉此增強通訊交流。 請注意，目前只有 Sinch 提供此功能。
 
