@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 管道，表面，技術，引數，最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: 00da20f3d51ce1032cb6908641048b377cc1a192
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1627'
 ht-degree: 9%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 9%
 >
 > * 若要建立、編輯和刪除管道曲面，您必須擁有 [管理訊息預設集](../administration/high-low-permissions.md#administration-permissions) 許可權。
 >
-> * 您必須執行 [電子郵件設定](../email/get-started-email-config.md)， [推播設定](../push/push-configuration.md) 和 [簡訊設定](../sms/sms-configuration.md) 建立管道曲面之前的步驟。
+> * 您必須執行 [電子郵件設定](../email/get-started-email-config.md)， [推播設定](../push/push-configuration.md)， [簡訊設定](../sms/sms-configuration.md) 和 [直接郵件設定](../direct-mail/direct-mail-configuration.md) 建立管道曲面之前的步驟。
 
 設定頻道介面後，您就可以在從歷程或行銷活動建立訊息時選取它們。
 
