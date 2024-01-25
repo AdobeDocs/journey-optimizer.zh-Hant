@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 查詢，集合，函式，裝載，歷程
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2ab738463ebad087c9fe9768b7bc7f634cf46ea6
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '633'
 ht-degree: 3%
 
 ---
@@ -169,10 +169,11 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** 僅適用於操控事件集合和 **currentDataPackField**
->操控資料來源集合時。 處理集合時使用 **[!UICONTROL 全部]**， **[!UICONTROL 第一]** 和 **[!UICONTROL 上次]**，我們
->逐一在集合的每個元素上回圈。 **[!UICONTROL currentEventField]** 和 **currentDataPackField**
->與正在循環的元素相對應。
+>**[!UICONTROL currentEventField]** 僅適用於操控事件集合， **[!UICONTROL currentDataPackField]**
+操控資料來源集合和 **[!UICONTROL currentActionField]** 操控自訂動作回應集合時。
+>
+>處理集合時使用 **[!UICONTROL 全部]**， **[!UICONTROL 第一]** 和 **[!UICONTROL 上次]**，我們
+>逐一在集合的每個元素上回圈。 **[!UICONTROL currentEventField]**， **currentDataPackField** 和 **[!UICONTROL currentActionField]** 與正在循環的元素相對應。
 
 **函式「first(`<condition>`)」和「last(`<condition>`)」**
 
