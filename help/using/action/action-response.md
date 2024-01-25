@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 5d20a720ddfb2907a1f3ebaff3c67b9f5628f9d7
+source-git-commit: 410db8a56781c5442122f92fa692a3ce4e03a5f9
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 4%
+source-wordcount: '619'
+ht-degree: 5%
 
 ---
 
@@ -212,4 +212,9 @@ currentActionField.description == "abc"
 )
 ```
 
-如需欄位參考的詳細資訊，請參閱 [本節](../building-journeys/expression/field-references.md).
+## 其他資源
+
+如需詳細資訊，請參閱以下頁面：
+
+* [欄位參考](../building-journeys/expression/field-references.md).
+* [收集管理函式](../building-journeys/expression/collection-management-functions.md)
