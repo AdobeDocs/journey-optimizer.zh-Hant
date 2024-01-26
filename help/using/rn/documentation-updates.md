@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
+source-git-commit: 31d9189e8afd732875556b9caaa8e874f53597bb
 workflow-type: tm+mt
-source-wordcount: '4258'
-ht-degree: 99%
+source-wordcount: '4295'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 99%
 * 已[在下列區段中](../building-journeys/journey-gs.md#global_timeout)詳細說明歷程逾時管理。
 * Journey Optimizer [j文件首頁](../../ajo-home.md)已經過重新設計。
 * 已新增有關更新設定檔活動的Recommendations。 [閱讀全文](../building-journeys/update-profiles.md)
+* 已新增有關歷程中事件活動逾時的行為的資訊。 在指定的逾時期間未收到任何事件時，如果未定義逾時路徑，則個人將繼續歷程。 [閱讀全文](../building-journeys/general-events.md#events-specific-time)
 
 ## 2023 年 11 月 {#nov-2023}
 
