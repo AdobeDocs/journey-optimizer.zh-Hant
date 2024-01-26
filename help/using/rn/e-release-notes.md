@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 004eb41b084f32993ec437f589e4e3d2cf7500d3
+source-git-commit: 6683bfbb5569d197a2a746620cd7edc10f45b5d1
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '474'
+ht-degree: 21%
 
 ---
 
@@ -23,98 +23,61 @@ ht-degree: 100%
 
 至發行日期之前，下方的搶先發行說明如有變更，恕不另行通知。 連結、畫面及更新的文件會在發行當日發佈於[發行說明](release-notes.md)。
 
-## 2023 年 10 月搶先發行說明 {#oct-rn-2023}
+## 2024年1月早期發行說明 {#oct-jan-2024}
 
-**發行日期**：2023 年 10 月 25 至 26 日
+**發行日期**： 2024年1月20日至31日
 
-### 新功能{#oct-2023-features}
+### 新功能{#jan-2024-features}
 
 此發行版本提供下列新功能。
 
-<table>
-<thead>
-<tr>
-<th><strong>沙箱工具</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>沙箱工具可讓您運用套件匯出和匯入功能，跨多個沙箱複製物件。 套件可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。</p>
-<!--img src="../data/assets/dataset-export-setup.png"-->
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-<!-- table>
-<thead>
-<tr>
-<th><strong>Composed audiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
-<img src="assets/channel-reports.png"/>
-<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table -->
 
 <table>
 <thead>
 <tr>
-<th><strong>簡訊中的多媒體訊息服務 (MMS) (Beta)</strong><br/></th>
+<th><strong>傳遞能力更新</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>透過簡訊管道，您現在可以傳送多媒體訊息服務 (MMS) 訊息，來與客戶分享影像、GIF 或影片，藉此增強通訊交流。 請注意，此功能目前僅適用於 Beta 版的 Sinch。</p>
+<p>Journey Optimizer現在支援DMARC驗證技術。</p>
+<p>2024年2月1日起，Google和Yahoo！ 將要求您擁有DMARC記錄，才能使用任何網域來傳送電子郵件給他們。 請確定您已為已委派或正在委派給Journey Optimizer中Adobe的所有子網域設定DMARC記錄。</p>
 <!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>如需詳細資訊，請參閱<a href="../configuration/dmarc-record-update.md">詳細文件</a>。</p>
 </tr>
 </tbody>
 </table>
 
-### 改進項目 {#oct-2023-improvements}
+
+
+### 改進項目 {#jan-2024-improvements}
 
 此發行版本隨附下列改進項目。
 
-**對象**
+**報告**
 
-* 您現在可以鎖定從 CSV 檔案上傳至歷程和行銷活動中的目標對象。
-* 您現在可以鎖定透過對象構成所建立的對象，並在歷程中運用擴充屬性。
+* **管道報表（依網域）**  — 已新增新的Widget，以增強您的行銷活動和歷程報告。 此 **依網域區分的退信原因**， **依網域傳送和傳遞**， **依網域區分的開啟與點按** 和 **依網域區分的退回和錯誤** Widget會針對關鍵電子郵件傳送和追蹤量度，提供網域層級的詳細劃分。 [了解更多](../reports/channel-report.md)
 
->[!AVAILABILITY]
->
->這些功能目前以 Private Beta 的形式提供。
+**簡訊頻道**
 
-<!--
-**Spam scoring for emails**
+* **雙重選擇加入**  — 簡訊的雙重選擇加入工作流程可確保使用者在從裝置起始請求時，明確選擇加入接收訊息。 使用者透過傳送傳入SMS訊息來起始同意程式。 確認同意後，會傳送後續訊息，要求最終驗證。 如果使用者設定檔不存在，則會在成功確認時建立。
 
-* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
-
-**行銷活動**
-
-<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* 當您的其中一個行銷活動發生錯誤時，警告圖示現在會與行銷活動的狀態一起出現在行銷活動清單中。
+  請注意，這僅適用於Sinch和Infobip簡訊提供者。
 
 **歷程**
 
-* 現在，您可在任何等待時間中定義的最長期間是 29 天，而不是 30 天。這適用於：
+* **反應事件持續時間**  — 您可以在「 」中定義的最長持續時間 **反應事件** 現在是二十九天，而非30天。 [了解更多](../building-journeys/reaction-events.md)
 
-   * [等待活動](../building-journeys/wait-activity.md)中的&#x200B;**時間長度**&#x200B;欄位
-   * [歷程屬性](../building-journeys/journey-gs.md#entrance)中的&#x200B;**重新進入等待期**
-   * [一般](../building-journeys/general-events.md#events-specific-time)和[反應](../building-journeys/reaction-events.md)事件的逾時定義中的&#x200B;**等待**&#x200B;欄位。
+* **日期篩選器**  — 除了現有的預先定義日期篩選器外，您現在可以使用自訂日期來篩選歷程詳細目錄。 這可讓您調整清單，方法是顯示特定日期、特定月內、整年或指定時間範圍內發佈的歷程。
 
-**通道設定中的同意**
+* **讀取對象**   — 讀取對象活動現在仰賴批次區段的設定檔快照集資料集，此資料集只會在排程的每日批次工作執行一天後產生一次。
 
-* 您現在可以在通道表面層級選取行銷動作。在表面中使用時，會運用與該行銷動作相關的所有同意政策，以尊重客戶的偏好設定。
+**頻率規則**
+
+* **每週和每日頻率上限**  — 您現在可指定在一週或一天內（不含月份），傳送至客戶設定檔的最大訊息數量。 頻率上限是以所選的日曆期間為基礎，並在對應的時間範圍開始時重設。
+
 
 **決策管理**
 
-* 已更新與決策管理介面中的優惠方案上限相關的幾個標籤。
+* **邊緣的頻率標示**  — 頻率上限計數器現已更新，並可在不到3秒內的邊緣決策API決策中使用。
