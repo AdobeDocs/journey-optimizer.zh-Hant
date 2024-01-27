@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: ad00f6c43e66a221385a83b8e6710fddd64233f2
+source-git-commit: fae367cbbacffbbecde4cdbf7b39b1baeec452d1
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 20%
@@ -71,7 +71,7 @@ ht-degree: 20%
 
 * **日期篩選器**  — 除了現有的預先定義日期篩選器外，您現在可以使用自訂日期來篩選歷程詳細目錄。 這可讓您調整清單，方法是顯示特定日期、特定月內、整年或指定時間範圍內發佈的歷程。
 
-* **讀取對象**   — 讀取對象活動現在仰賴批次區段的設定檔快照集資料集，此資料集只會在排程的每日批次工作執行一天後產生一次。
+* **讀取對象**   — 讀取對象活動現在仰賴批次區段的設定檔快照資料集，這僅在排程的每日批次工作執行後每天產生一次。
 
 **頻率規則**
 
