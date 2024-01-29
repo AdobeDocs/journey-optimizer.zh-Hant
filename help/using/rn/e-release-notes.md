@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: fae367cbbacffbbecde4cdbf7b39b1baeec452d1
+source-git-commit: a3591adf88ebd42031006c1e5a537e3247cecce8
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 20%
@@ -80,4 +80,4 @@ ht-degree: 20%
 
 **決策管理**
 
-* **邊緣的頻率標示**  — 頻率上限計數器現已更新，並可在不到3秒內的邊緣決策API決策中使用。
+* **邊緣的頻率限定**  — 頻率上限計數器現已更新，並可在不到3秒內的邊緣決策API決策中使用。
