@@ -15,7 +15,7 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: a5b3cd4eba18789d6014a7288ce6b0678a07982e
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 5%
 
 +++
 
-## 準備IP熱身計畫檔案 {#prepare-file}
+## 準備 IP 暖身計畫檔案 {#prepare-file}
 
 IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要網際網路服務提供者(ISP)的電子郵件數量，以建立您作為合法傳送者的聲譽。
 
@@ -270,8 +270,8 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="指定您的 IP 暖身計劃"
->abstract="在Excel範本中填入所有可為計畫提供資訊的資料（例如IP熱身階段和目標設定檔數量），然後在這裡上傳。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="準備IP熱身計畫檔案"
+>abstract="在 Excel 範本中填入將成為計劃內容的所有資料，例如 IP 暖身階段以及個人資料的目標數量，然後在此處上傳。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="準備 IP 暖身計畫檔案"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
