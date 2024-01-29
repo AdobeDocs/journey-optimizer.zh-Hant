@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
+source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1728'
 ht-degree: 99%
 
 ---
@@ -357,7 +357,7 @@ ht-degree: 99%
    + 傳遞能力 {#deliverability}
       + [開始使用傳遞能力](using/reports/deliverability.md)
       + [瞭解禁止名單](using/reports/suppression-list.md)
-      + [強制性DMARC更新](using/configuration/dmarc-record-update.md)
+      + [新DMARC需求](using/configuration/dmarc-record-update.md)
    + [錯誤原因](using/reports/error-list.md)
    + [警報](using/reports/alerts.md)
    + [使用 Customer Journey Analytics](using/reports/cja-ajo.md)
@@ -526,6 +526,7 @@ ht-degree: 99%
    + 委派電子郵件子網域 {#delegate-subdomains}
       + [開始使用子網域委派](using/configuration/about-subdomain-delegation.md)
       + [委派子網域](using/configuration/delegate-subdomain.md)
+      + [設定DMARC記錄](using/configuration/dmarc-record.md)
       + [新增 Google TXT 記錄](using/configuration/google-txt.md)
       + [存取和編輯 PTR 記錄](using/configuration/ptr-records.md)
       + [建立 IP 池](using/configuration/ip-pools.md)

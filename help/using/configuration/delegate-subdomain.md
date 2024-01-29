@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子網域、委派、網域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: ff7494b5f9ece7943aecf2628c6a338e9ee7d4b0
+source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
 workflow-type: tm+mt
-source-wordcount: '1749'
-ht-degree: 22%
+source-wordcount: '1857'
+ht-degree: 21%
 
 ---
 
@@ -85,6 +85,12 @@ ht-degree: 22%
    >
    >您可以建立記錄，並在稍後使用提交子網域設定。 **[!UICONTROL 另存為草稿]** 按鈕。 然後，您就可以從子網域清單中開啟子網域委派，以繼續子網域委派。
 
+1. 如果子網域沒有DMARC記錄，您可以在此處進行設定。 如果子網域有現有的DMARC記錄，而且它是由擷取的 [!DNL Journey Optimizer]，您可使用相同的值，或視需要加以變更。 如果您未新增任何值，則會使用預設值。 [了解更多](dmarc-record.md)
+
+   ![](assets/dmarc-record-found.png)
+
+   <!--update screen when available-->
+
 1. 提交完整子網域委派後，子網域會顯示在包含 **[!UICONTROL 處理中]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](about-subdomain-delegation.md#access-delegated-subdomains).
 
    ![](assets/subdomain-processing.png)
@@ -154,6 +160,8 @@ CNAME 子網域委派可讓您建立子網域，並使用 CNAME 指向 Adobe 特
    >[!NOTE]
    >
    >您稍後可以使用 **[!UICONTROL 另存為草稿]** 按鈕。 然後，您就可以在此階段繼續子網域委派，方法是從子網域清單中開啟該子網域。
+
+1. 如果子網域沒有DMARC記錄，您可以在此處進行設定。 如果子網域有現有的DMARC記錄，而且它是由擷取的 [!DNL Journey Optimizer]，您可使用相同的值，或視需要加以變更。 如果您未新增任何值，則會使用預設值。 [了解更多](dmarc-record.md)
 
 1. 等候，直到Adobe驗證在您的託管解決方案上產生這些記錄時沒有發生錯誤。 此程式最多可能需要2分鐘。
 

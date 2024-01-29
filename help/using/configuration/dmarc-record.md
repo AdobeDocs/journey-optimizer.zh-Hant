@@ -1,39 +1,69 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: DMARC記錄
+title: DMARC 記錄
 description: 瞭解如何在Journey Optimizer中設定DMARC記錄
 feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 子網域，網域，郵件， dmarc，記錄
-source-git-commit: 7d5a2a9b80110505688b5bfda2e286c7a6432441
+hide: true
+hidefromtoc: true
+source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 0%
+source-wordcount: '1377'
+ht-degree: 1%
 
 ---
 
-# DMARC記錄 {#dmarc-record}
+# DMARC 記錄 {#dmarc-record}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="設定DMARC記錄"
->abstract="設定DMARC記錄以避免ISP發生傳遞問題。 作為強制執行業界最佳實務的一部分，Google和Yahoo都要求您擁有用於向其傳送電子郵件的任何網域的DMARC記錄。"
+>abstract="DMARC是一種電子郵件驗證方法，可讓網域擁有者保護其網域免受未經授權的使用並避免信箱提供者的傳遞問題。<br>作為強制執行業界最佳實務的一部分，Google和Yahoo都要求您擁有用於向其傳送電子郵件的任何網域的DMARC記錄。"
 
->[!CAUTION]
+## 什麼是DMARC？ {#what-is-dmarc}
+
+DMARC，代表 **網域型訊息驗證、報告和符合性**，是一種電子郵件驗證方法，可讓網域擁有者保護其網域免受未經授權的使用。 透過向電子郵件提供者/ISP提供明確的原則，這有助於防止惡意行為者傳送聲稱來自您網域的電子郵件。 這可以降低合法電子郵件被標示為垃圾郵件或拒絕的可能性，並改善您的電子郵件傳遞能力。
+
+DMARC還提供驗證失敗的訊息報告，以及對於未通過DMARC驗證的電子郵件處理的控制。 取決於實作的 [DMARC原則](#dmarc-policies)，則可監視、隔離或拒絕這些電子郵件。 這些功能可讓您採取動作來減少和解決潛在的錯誤。
+
+<!--To help you prevent deliverability issues by allowing ISPs to authenticate your sending domains - while gaining visibility and control over mail that fail this authentication, [!DNL Journey Optimizer] will soon be supporting the DMARC technology directly in its administration interface.-->
+
+為了協助您防止傳遞問題，同時控制驗證失敗的郵件， [!DNL Journey Optimizer] 很快將在其管理介面中直接支援DMARC技術。 [了解更多](#implement-dmarc)
+
+### DMARC如何運作？ {#how-dmarc-works}
+
+SPF和DKIM都可用來將電子郵件與網域建立關聯，並共同驗證電子郵件。 DMARC更進一步地進行，並透過比對DKIM和SPF檢查的網域來協助防止詐騙。
+
+>[!NOTE]
 >
->繼最近的Gmail和Yahoo公告後，Journey Optimizer現在支援DMARC驗證技術。
+>在Journey Optimizer中，已為您設定SPF和DKIM。
 
-<!--TO ADD TO AJO HOME PAGE (first tab)
+若要傳遞DMARC，訊息必須傳遞SPF或DKIM：
 
->[!TAB Mandatory DMARC update]
+* SPF (Sender Policy Framework)會根據網域的授權IP位址清單，檢查傳送伺服器的IP位址，以協助確認電子郵件訊息是否來自授權來源。
+* DKIM (DomainKeys Identified Mail)在電子郵件訊息中新增數位簽名，讓收件者可驗證訊息的完整性和真實性。
 
-As part of their enforcing industry best practices, Google and Yahoo will both be requiring that you have a DMARC record for any domain you use to send email to them, starting on **February 1st, 2024**. Make sure that you have DMARC record set up for all the subdomains that you have delegated to Adobe in Journey Optimizer.
+如果兩者或兩者皆未通過驗證，DMARC將會失敗，而電子郵件將會根據您選取的DMARC原則傳送。
 
-[![image](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
--->
+<!--DMARC requires alignment between the 'From" and 'Return-Path' address.-->
+
+### DMARC原則 {#dmarc-policies}
+
+如果電子郵件無法通過DMARC驗證，您可以決定要對該郵件套用哪個動作。 DMARC有三個原則選項：
+
+* 監視(p=none)：指示信箱提供者/ISP執行通常對郵件執行的動作。
+* 隔離（p=隔離）：指示信箱提供者/ISP傳送不會將DMARC傳遞給收件者的垃圾郵件或垃圾郵件資料夾的郵件。
+* 拒絕(p=reject)：指示信箱提供者/ISP封鎖未傳遞DMARC的郵件，進而導致退信。
+
+>[!NOTE]
+>
+>瞭解如何使用設定DMARC原則 [!DNL Journey Optimizer] 在 [本節](#set-up-dmarc).
+
+## DMARC需求更新 {#dmarc-update}
 
 作為強制執行業界最佳實務的一部分，Google和Yahoo都將要求您擁有 **DMARC記錄** 用於傳送電子郵件給他們的任何網域。 此新需求開始於 **2024年2月1日**.
 
@@ -41,101 +71,137 @@ As part of their enforcing industry best practices, Google and Yahoo will both b
 
 >[!CAUTION]
 >
->若未遵守Gmail和Yahoo的新要求，預期會導致電子郵件進入垃圾郵件資料夾或遭到封鎖。
+>若未遵守Gmail和Yahoo的新要求，預期會導致電子郵件進入垃圾郵件資料夾或遭到封鎖。 [了解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
 
-因此，Adobe強烈建議您務必為您已委派給Adobe的所有子網域設定DMARC記錄 [!DNL Journey Optimizer]. 請依照以下適用於您的案例的步驟操作：
+因此，Adobe強烈建議您採取下列動作：
 
-* 如果您有 [已完全委派](delegate-subdomain.md#full-subdomain-delegation) 若要將子網域傳送至Adobe，請遵循下列兩個選項之一：
+* 確定具有 **DMARC記錄** 設定 **您已委派的所有子網域** Adobe於 [!DNL Journey Optimizer]. [了解作法](#check-subdomains-for-dmarc)
 
-   * 在您委派之子網域的父項網域上設定DMARC **在您的託管解決方案中**.
+* 時間 **委派任何新子網域** 若要Adobe，您很快將能夠 **設定DMARC** 直接 **在 [!DNL Journey Optimizer] 管理介面**. [了解作法](#implement-dmarc)
 
-   * 在您的委派子網域上設定DMARC **使用中即將推出的功能 [!DNL Journey Optimizer] 管理UI**  — 不需額外處理託管解決方案。
+## 在中實作DMARC [!DNL Journey Optimizer] {#implement-dmarc}
 
-* 如果您已設定 [CNAME委派](delegate-subdomain.md#cname-subdomain-delegation) 若要傳送子網域，請遵循下列兩個選項之一：
+開始日期 **2024年1月30日**，則 [!DNL Journey Optimizer] 管理介面可讓您為已委派或正在委派給Adobe的所有子網域設定DMARC記錄。 詳細步驟如下所述。
 
-   * 在您的子網域或子網域的父項網域上設定DMARC **在您的託管解決方案中**.
+### 檢查您現有的子網域以取得DMARC {#check-subdomains-for-dmarc}
 
-   * 在您的委派子網域上設定DMARC **使用中即將推出的功能 [!DNL Journey Optimizer] 管理UI**. 不過，您也必須輸入託管解決方案。 因此，請務必與您的IT部門進行協調，以便他們能夠在 [!DNL Journey Optimizer] 功能已推出（1月30日起）。 <!--and be ready on February 1st, 2024-->
+確保您已為委派的所有子網域設定DMARC記錄 [!DNL Journey Optimizer]，請遵循下列步驟。
 
-**更多詳細資訊，請參閱 [!DNL Journey Optimizer] DMARC即將推出功能。**
+1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL 子網域]** 功能表，然後按一下 **[!UICONTROL 設定子網域]**.
 
->[!NOTE]
+1. 對於每個委派的子網域，請檢查 **[!UICONTROL DMARC記錄]** 欄。 如果指定的子網域找不到記錄，則會顯示警示。
+
+   ![](assets/dmarc-record-alert.png)
+
+   >[!CAUTION]
+   >
+   >為符合Gmail和Yahoo的新要求，並避免頂級ISP出現傳遞問題，建議為所有委派的子網域設定DMARC記錄。 [了解更多](dmarc-record-update.md)
+
+1. 選取沒有DMARC記錄關聯的子網域，並填入 **[!UICONTROL DMARC記錄]** 區段來依您組織的需求而定。 有關填入DMARC記錄欄位的詳細步驟，請參見 [本節](#implement-dmarc).
+
+1. 請考量下列兩個選項：
+
+   * 如果您編輯的子網域設定有 [CNAME](delegate-subdomain.md#cname-subdomain-delegation)，您必須將DMARC的DNS記錄複製到您的託管解決方案中，以產生相符的DNS記錄。
+
+     ![](assets/dmarc-record-edit-cname.png)
+
+     請確定DNS記錄已產生至您的網域託管解決方案，並勾選「我確認……」方塊。
+
+   * 如果您正在編輯子網域 [已完全委派](delegate-subdomain.md#full-subdomain-delegation) 若要Adobe，只需填寫 **[!UICONTROL DMARC記錄]** 欄位詳見 [本節](#implement-dmarc). 不需要進一步動作。
+
+     ![](assets/dmarc-record-edit-full.png)
+
+1. 儲存您的變更。
+
+## 為新子網域設定DMARC {#set-up-dmarc}
+
+委派新子網域以在中進行Adobe時 [!DNL Journey Optimizer]，即會在您網域的DNS中建立DMARC記錄。 請依照下列步驟實作DMARC。
+
+>[!CAUTION]
 >
->進一步瞭解如何在中實施DMARC [傳遞性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} 以更能瞭解對電子郵件傳遞能力的影響。
+>為符合Gmail和Yahoo的新要求，並避免頂級ISP出現傳遞問題，建議為所有委派的子網域設定DMARC記錄。 [了解更多](dmarc-record-update.md)
 
-## 什麼是DMARC？
+<!--If you fail to comply with the new requirement from Gmail and Yahoo to have DMARC record for all sending domains, your emails are expected to land into the spam folder or to get blocked.-->
 
-DMARC，代表 **網域型訊息驗證、報告和符合性**，是一種電子郵件驗證方法/通訊協定，可讓網域擁有者保護其網域免受未經授權的使用。
+1. 設定新的子網域。 [了解作法](delegate-subdomain.md)
 
-它提供一種驗證傳送者網域的方式，有助於防止惡意行為者傳送看似來自您網域的電子郵件。
+1. 前往 **[!UICONTROL DMARC記錄]** 區段。
 
-DMARC也提供電子郵件驗證狀態的意見回饋，並允許寄件者控制驗證失敗的電子郵件會發生什麼情況。 這包括監視、隔離或拒絕郵件的選項，具體取決於已實施的DMARC原則。
+   如果子網域有現有的DMARC記錄，而且它是由擷取的 [!DNL Journey Optimizer]，您可以使用介面中醒目提示的相同值，或視需要加以變更。
 
-<!--Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.-->
+   ![](assets/dmarc-record-found.png)
 
-DMARC有三個原則選項：
+   >[!NOTE]
+   >
+   >如果您未新增任何值，則會使用預先填入的預設值。
 
-* 監視(p=none)：指示信箱提供者/ISP執行通常對郵件執行的動作。
-* 隔離（p=隔離）：指示信箱提供者/ISP傳送不會將DMARC傳遞給收件者的垃圾郵件或垃圾郵件資料夾的郵件。
-* 拒絕(p=reject)：指示信箱提供者/ISP封鎖未傳遞DMARC的郵件，進而導致退信。
+1. 定義在DMARC失敗時收件者伺服器將執行的動作。 依據 [DMARC原則](#dmarc-policies) 若要套用，請選取下列三個選項之一：
 
-## DMARC如何運作？
+   * **[!UICONTROL 無]** （預設值）：告知接收者不要對未通過DMARC驗證的訊息執行任何動作，但仍會傳送電子郵件報告給寄件者。
+   * **[!UICONTROL 隔離]**：通知接收電子郵件伺服器隔離未通過DMARC驗證的電子郵件 — 這通常意味著將這些郵件放在收件者的垃圾郵件或垃圾郵件資料夾中。
+   * **[!UICONTROL 拒絕]**：告訴接收者完全拒絕（退回）驗證失敗之網域的任何電子郵件。 啟用此原則後，只有經過網域驗證為100%驗證的電子郵件才有機會放置收件匣。
 
-SPF和DKIM都可用來將電子郵件與網域建立關聯，並共同驗證電子郵件。 DMARC更進一步地進行，並透過比對DKIM和SPF檢查的網域來協助防止詐騙。 若要傳遞DMARC，訊息必須傳遞SPF或DKIM。 如果這兩項驗證都失敗，DMARC將會失敗，而且電子郵件將會根據您選取的DMARC原則傳送。
+   >[!NOTE]
+   >
+   >作為最佳實務，建議您將DMARC政策從提升到緩慢推出DMARC實施 **無**，至 **隔離**，至 **拒絕** 當您瞭解DMARC的潛在影響時。
 
-* SPF （寄件者原則架構）： DMARC仰賴SPF驗證傳送的郵件伺服器的身分。 SPF會根據網域的授權IP位址清單，檢查傳送伺服器的IP位址，協助確認電子郵件訊息是否來自授權來源。
-* DKIM (DomainKeys Identified Mail)： DMARC也會使用DKIM在電子郵件新增數位簽名，讓收件者驗證郵件的完整性和真實性。
+1. 或者，新增一或多個您選擇的電子郵件地址，以指出位置 **DMARC報表** 在電子郵件上，該 [驗證失敗](#how-dmarc-works) 應該屬於您的組織。 您最多可以為每個報表新增5個地址。
 
->[!NOTE]
->
->DMARC需要在&#39;From&#39;和&#39;Return-Path&#39;位址之間對齊。
+   >[!NOTE]
+   >
+   >請確定您的控制中有正版收件匣(非Adobe)可接收這些報告。
+
+   ISP會產生兩種不同的報告，傳送者可透過其DMARC原則中的RUA/RUF標籤接收這些報告：
+
+   * **彙總報表** (RUA)：未包含任何可能區分大小寫GDPR的PII （個人識別資訊）。
+   * **鑑證失敗報告** (RUF)：其中包含對GDPR敏感的電子郵件地址。 在使用之前，請在內部檢查如何處理需要符合GDPR的資訊。
+
+   >[!NOTE]
+   >
+   >這些高度技術性的報告提供企圖詐騙的電子郵件概觀。 最好透過協力廠商工具加以消化。
+
+1. 選取 **適用百分比** DMARC電子郵件數量。
+
+   此百分比取決於您對電子郵件基礎結構的信心以及對誤判（標籤為欺詐的合法電子郵件）的容忍度。 組織通常從DMARC原則設定為開始 **無**，逐漸增加DMARC政策百分比，並密切監視對合法電子郵件傳送的影響。
+
+   >[!NOTE]
+   >
+   >隨著您對電子郵件驗證實務更有信心，請與您的電子郵件管理員和IT團隊合作，逐步提高此百分比。
+
+   作為最佳實務，請以高DMARC相容率為目標，最好接近100%，以便在最大限度提高安全性的同時，將誤報風險降到最低。
+
+1. 選取 **報告間隔** 24到168小時之間。 它可讓網域擁有者定期接收電子郵件驗證結果的更新，並採取必要動作來改善電子郵件安全性。
+
+   <!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
+
+    The default value (24 hours) is generally the email providers' expectation.-->
 
 
 <!--
 
-* DMARC helps prevent malicious actors from sending emails that appear to come from your domain. By setting up DMARC, you can specify how email providers should handle messages that fail authentication checks, reducing the likelihood that phishing emails will reach recipients.
+Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.
 
-* DMARC helps improve email deliverability by providing a clear policy for email providers to follow when encountering messages claiming to be from your domain. This can reduce the chances of legitimate emails being marked as spam or rejected.
+DMARC helps prevent malicious actors from sending emails that appear to come from your domain. By setting up DMARC, you can specify how email providers should handle messages that fail authentication checks, reducing the likelihood that phishing emails will reach recipients.
+
+DMARC helps improve email deliverability by providing a clear policy for email providers to follow when encountering messages claiming to be from your domain. This can reduce the chances of legitimate emails being marked as spam or rejected.
 
 DMARC helps protect against email spoofing, phishing, and other fraudulent activities.
 
 It allows you to decide how a mailbox provider should handle emails that fail SPF and DKIM checks, providing a way to authenticate the sender's domain and prevent unauthorized use of the domain for malicious purposes.
 
+## What are the benefits of DMARC? {#dmarc-benefits}
+
+The key benefits or DMARC are as folllows:
+
+* DMARC allows email receivers to easily identify the authentication of emails, which could potentially improve delivery.
+
+* It offers reporting on which messages fail SPF and/or DKIM, enabling senders to gain visibility.
+
+* This increased visibility allows for steps to be taken to mitigate further errors. It gives senders a degree of control over what happens with mail that does not pass either of these authentication methods.
+
 -->
 
 
-## 實施 DMARC {#implement-dmarc}
-
-若要實作DMARC，請遵循適用於您案例的下列步驟。
-
-* 如果不新增DMARC，您將至少被隔離。
-
-### 完全委派的子網域
-
-設定在DMARC失敗時收件者伺服器將執行的動作。
-
-DMARC有三個原則選項：
-
-* 監視(p=none)：指示信箱提供者/ISP執行通常對郵件執行的動作。 這是預設值。
-* 隔離（p=隔離）：指示信箱提供者/ISP傳送不會將DMARC傳遞給收件者的垃圾郵件或垃圾郵件資料夾的郵件。
-* 拒絕(p=reject)：指示信箱提供者/ISP封鎖未傳遞DMARC的郵件，進而導致退信。
-
-接收彙總DMARC報告和鑑證DMARC失敗報告的電子郵件：您最多可以新增5個地址。
-
-* 確保您擁有可以接收郵件的正版收件匣 — 您管理此收件匣(不應該是Adobe收件匣)
-
-要套用DMARC的電子郵件適用百分比：
-
-報告間隔：建議為24，因為通常這是ISP具有的值。
-如果低於，請評估您的容量/檢查您的>聊天GPT
-
-如果偵測到DMARC記錄，您可以複製貼上列出的相同值，或視需要變更它們。
-
-如果您不輸入任何值，則會使用預設值。
-
-### 使用CNAME委派的子網域
-
-對於版本流程中的CNAME，您需要再次下載CSV檔案（不是為了完全委派）
 
 
 
