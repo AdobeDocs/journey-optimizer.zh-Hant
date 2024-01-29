@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a3591adf88ebd42031006c1e5a537e3247cecce8
+source-git-commit: fd6f83019aa9cd5b4d6561007f5e0068256bb211
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '471'
 ht-degree: 20%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 20%
 
 **報告**
 
-* **管道報表（依網域）**  — 已新增新的Widget，以增強您的行銷活動和歷程報告。 此 **依網域區分的退信原因**， **依網域傳送和傳遞**， **依網域區分的開啟與點按** 和 **依網域區分的退回和錯誤** Widget會針對關鍵電子郵件傳送和追蹤量度，提供網域層級的詳細劃分。
+* **新的網域型劃分Widget**  — 已新增新的Widget，以增強您的行銷活動和歷程報告。 此 **依網域區分的退信原因**， **依網域傳送和傳遞**， **依網域區分的開啟與點按** 和 **依網域區分的退回和錯誤** Widget會針對關鍵電子郵件傳送和追蹤量度，提供網域層級的詳細劃分。
 
 **簡訊頻道**
 
