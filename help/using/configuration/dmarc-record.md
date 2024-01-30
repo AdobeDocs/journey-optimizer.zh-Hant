@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子網域，網域，郵件， dmarc，記錄
-source-git-commit: b077a19b93d27205d0133372357ee48fa9caf527
+source-git-commit: 2a1fccd05c960aca6a2764844f96e161c798d404
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 1%
@@ -111,7 +111,7 @@ SPF和DKIM都可用來將電子郵件與網域建立關聯，並共同驗證電�
 
 1. 儲存您的變更。
 
-## 為新子網域設定DMARC {#set-up-dmarc}
+### 為新子網域設定DMARC {#set-up-dmarc}
 
 委派新子網域以在中進行Adobe時 [!DNL Journey Optimizer]，即會在您網域的DNS中建立DMARC記錄。 請依照下列步驟實作DMARC。
 
