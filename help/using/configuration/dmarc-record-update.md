@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子網域，網域，郵件， dmarc，記錄
-source-git-commit: e1fda25bb16f6d1e304d600dfce39df07fc570b0
+source-git-commit: 11d42198436319cebb67446527e9fd8d0f80cfbc
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '603'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 6%
 網域型訊息驗證、報告和符合性(DMARC)是一種電子郵件驗證方法，可讓網域擁有者保護其網域免受未經授權的使用。 透過向電子郵件提供者/ISP提供明確的原則，這有助於防止惡意行為者傳送聲稱來自您網域的電子郵件。 實作DMARC可降低合法電子郵件被標示為垃圾郵件或拒絕的風險，並改善您的電子郵件傳遞能力。
 
 
-Google和Yahoo！ 都要求 **DMARC記錄** 用於傳送電子郵件給他們的任何網域。 此新要求適用於開始使用 **2024年2月1日**. [了解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}。
+Google和Yahoo！ 都要求 **DMARC記錄** 用於傳送電子郵件給他們的任何網域。 此新要求適用於開始使用 **2024年2月1日**. [了解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}
 
 >[!CAUTION]
 >
@@ -47,7 +47,7 @@ Google和Yahoo！ 都要求 **DMARC記錄** 用於傳送電子郵件給他們的
 
      不過，若是CNAME委派，也需要在您的託管解決方案中輸入。 因此，請務必與您的IT部門進行協調，以便他們能夠在 [!DNL Journey Optimizer] 功能已推出（1月30日起）。 [了解更多](dmarc-record.md#implement-dmarc)
 
-**從1月30日起，您將可使用DMARC實作的自助服務介面。 進一步瞭解 [本節](dmarc-record.md#implement-dmarc).**
+**自1月30日起，您將可使用DMARC實作的自助服務介面。 進一步瞭解 [本節](dmarc-record.md#implement-dmarc).**
 
 Google和Yahoo分享的最新時間表如下：
 
