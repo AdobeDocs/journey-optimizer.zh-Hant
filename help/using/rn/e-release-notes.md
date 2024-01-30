@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 發行說明
+title: 早期發行說明
 description: Journey Optimizer 搶先發行說明
 feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: bb8afe94e3a2df2b52f5190acd82265c2f780b5e
+source-git-commit: 4b38fb1d49ad7202034752b116baff35d8ad5cc1
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 18%
+source-wordcount: '538'
+ht-degree: 17%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 18%
 <td>
 <p>Journey Optimizer現在支援DMARC驗證技術。</p>
 <p>2024年2月1日起，Google和Yahoo！ 將要求您擁有DMARC記錄，才能使用任何網域來傳送電子郵件給他們。 請確定您已為已委派或正在委派給Journey Optimizer中Adobe的所有子網域設定DMARC記錄。</p>
-<!--img src="assets/channel-reports.png"/-->
+<img src="assets/do-not-localize/dmarc.gif"/>
 <p>如需詳細資訊，請參閱<a href="../configuration/dmarc-record-update.md">詳細文件</a>。</p>
 </tr>
 </tbody>
