@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2757da51cf2a75855c4136cc42e06a5a00237699
+source-git-commit: bb8afe94e3a2df2b52f5190acd82265c2f780b5e
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 20%
+source-wordcount: '537'
+ht-degree: 18%
 
 ---
 
@@ -47,7 +47,21 @@ ht-degree: 20%
 </tbody>
 </table>
 
-
+<table>
+<thead>
+<tr>
+<th><strong>使用案例教戰手冊</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>在Real-Time CDP和Journey Optimizer中運用產業特定使用案例教戰手冊的目錄，以解決您可以使用Adobe Experience Platform和Adobe Journey Optimizer執行的常見使用案例。</p><p>選擇最符合您需求的教戰手冊後，您就可以啟用它來產生支援使用案例所需的資源，例如歷程、訊息、結構描述或區段。</p>
+<img src="assets/playbooks-detail.png"/>
+<!--<p>For more information, refer to the <a href="../start/">detailed documentation</a>.</p>-->
+</tr>
+</tbody>
+</table>
 
 ### 改進項目 {#jan-2024-improvements}
 
