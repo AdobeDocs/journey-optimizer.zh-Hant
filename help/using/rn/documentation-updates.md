@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 84bb42083dc6b6c4e79014ea0b2d4632825350e7
+source-git-commit: 50ca60555c66a0a3f87c46301bb76545427c2780
 workflow-type: tm+mt
-source-wordcount: '4574'
+source-wordcount: '4586'
 ht-degree: 93%
 
 ---
@@ -22,10 +22,10 @@ ht-degree: 93%
 ## 2024 年 1 月 {#jan-2024}
 
 * 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2024年1月版本的詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
-* 已新增歷程大小的護欄。 [閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
+* 已新增歷程大小的護欄。[閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
 * 已[在下列區段中](../building-journeys/journey-gs.md#global_timeout)詳細說明歷程逾時管理。
 * Journey Optimizer [j文件首頁](../../ajo-home.md)已經過重新設計。
-* 已新增有關更新設定檔活動的Recommendations。 [閱讀全文](../building-journeys/update-profiles.md)
+* 已新增有關更新設定檔活動的建議。[閱讀全文](../building-journeys/update-profiles.md)
 * 已新增有關歷程中事件活動逾時的行為的資訊。 在指定的逾時期間未收到任何事件時，如果未定義逾時路徑，則個人將繼續歷程。 [閱讀全文](../building-journeys/general-events.md#events-specific-time)
 * 應用程式內頻道設定先決條件已更新，其中包含使用自訂資料集偏好設定合併原則的附註。 [閱讀全文](../in-app/inapp-configuration.md)
 * 已新增有關如何在自訂動作回應中操作集合的更多詳細資料。 [閱讀全文](../action/action-response.md#exp-syntax)。
@@ -41,6 +41,7 @@ ht-degree: 93%
 * 更新 **期間** 中的引數 `toString` 函式。 [閱讀全文](../building-journeys/functions/functiontostring.md)
 * 對於某些外部資料來源使用案例，建議使用自訂動作。
 * 事件欄位語法已更新。 下列語法已過時 `@(my_event.myfield}` 並取代為 `@event{my_event.myfield}`. [閱讀全文](../building-journeys/expression/field-references.md)
+* 「全域報告」和「即時報告指南」已重新整理。 [閱讀全文](../reports/campaign-global-report.md)
 
 
 ## 2023 年 11 月 {#nov-2023}
