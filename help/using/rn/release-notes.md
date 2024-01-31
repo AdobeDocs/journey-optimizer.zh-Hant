@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0c428b18469eb98392fe6c49d5892a4699477457
+source-git-commit: 146a142afeb47debac0d56963e48225a85b0f2c4
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 27%
+source-wordcount: '605'
+ht-degree: 28%
 
 ---
 
@@ -35,7 +35,6 @@ ht-degree: 27%
 ### 新功能{#jan24-features}
 
 此發行版本提供下列新功能。
-
 
 <table>
 <thead>
@@ -90,7 +89,7 @@ ht-degree: 27%
 
 <!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 
-* **讀取對象**  - **讀取對象** 活動現在仰賴批次區段的設定檔快照資料集，這僅在排程的每日批次工作執行後一天產生一次，因此資料將會刷新到最後的每日批次工作。
+* **讀取對象**  - **讀取對象** 活動現在仰賴批次區段的設定檔快照資料集，這僅在排程的每日批次工作執行後一天產生一次，因此資料將會刷新到最後的每日批次工作。 [了解更多](../building-journeys/read-audience.md)
 
 * **欄位群組**  — 此版本修正特定情況下無法儲存欄位群組的問題。
 
@@ -100,4 +99,4 @@ ht-degree: 27%
 
 **決定管理**
 
-* **邊緣的頻率限定**  — 頻率上限計數器現已更新，並可在不到3秒內的邊緣決策API決策中使用。
+* **邊緣的頻率限定**  — 頻率上限計數器現已更新，並可在不到3秒內的邊緣決策API決策中使用。 [了解更多](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
