@@ -7,14 +7,22 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 96367ab7b3d272368b1241321932a5e53c0654d7
+source-git-commit: a16de75b2b0604d7a0d6224d03b7c53715903c07
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 # 使用案例教戰手冊 {#playbooks}
+
+>[!PREREQUISITES]
+>
+>在使用使用案例教戰手冊之前，需要以下設定步驟。 每個步驟的詳細資訊可在使用案例教戰手冊檔案中取得 [開始使用](https://experienceleague.corp.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html){target="_blank"} 頁面。
+>
+>* 建立沙箱
+>* 設定使用者許可權
+>* 設定電子郵件、推播和簡訊通知的Journey Optimizer頻道介面
 
 使用案例教戰手冊是預先定義的工作流程，用於處理您可以使用Adobe Experience Platform和Journey Optimizer執行的常見使用案例。
 
