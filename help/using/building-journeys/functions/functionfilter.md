@@ -7,20 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 篩選器，函式，運算式，歷程
 exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 7%
+source-wordcount: '113'
+ht-degree: 8%
 
 ---
 
 # 篩選{#filter}
 
 傳回listObject，其中物件的索引鍵屬性符合其中一個指定的索引鍵值。
-
->[!NOTE]
->
->如果目標清單是listObject，則此函式只能用於自訂動作運算式。
 
 ## 類別
 
@@ -82,7 +78,7 @@ ht-degree: 7%
 
 ```json
 filter(
- @{myevent.productListItems},
+ @event{myevent.productListItems},
  "id", 
  ["product2", "product3", "product4"]
 )

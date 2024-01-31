@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 67fbfe9c2ffb40a420cc3f28a775d9c6b3ee5553
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 67%
+source-wordcount: '1489'
+ht-degree: 64%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 67%
 >[!NOTE]
 >
 >使用外部系統時的護欄列於 [此頁面](../configuration/external-systems.md).
+
+>[!NOTE]
+>
+>現在支援回應，因此您應該針對外部資料來源使用案例使用自訂動作，而非資料來源。
 
 支援使用 POST 或 GET 以及傳回 JSON 的 REST API。支援 API 金鑰、基本和自訂驗證模式。
 
@@ -122,9 +126,12 @@ ht-degree: 67%
 1. 呼叫端點以產生存取權仗。
 1. 以正確的方式插入存取權仗來呼叫 REST API。
 
-此驗證分為兩個部分。
 
-要呼叫的端點定義，用於產生存取權仗：
+>[!NOTE]
+>
+>**此驗證分為兩個部分。**
+
+### 要呼叫的端點定義，用於產生存取權杖
 
 * 端點：用於產生端點的 URL
 * 端點上的 HTTP 要求方法（GET 或 POST）
@@ -133,7 +140,7 @@ ht-degree: 67%
    * &#39;form&#39;：表示內容型別將會是application/x-www-form-urlencoded （字元集UTF-8），而金鑰 — 值配對將會序列化為：key1=value1&amp;key2=value2&amp;...
    * &#39;json&#39;：表示內容型別將會是application/json （字元集UTF-8），而機碼值組將會序列化為json物件，如下所示： _{ &quot;key1&quot;： &quot;value1&quot;， &quot;key2&quot;： &quot;value2&quot;， ...}_
 
-存取權杖插入動作之 HTTP 要求必須採用的方法定義：
+### 存取權杖插入動作之HTTP要求必須採用的方式定義
 
 * authorizationType：定義如何將產生的存取權杖插入到動作的 HTTP 要求。可能的值包括：
 
@@ -150,8 +157,6 @@ ht-degree: 67%
 ```
 {
     "type": "customAuthorization",
-    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
-    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
     "endpoint": "<URL of the authentication endpoint>",
     "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
     (optional) "headers": {
@@ -163,10 +168,16 @@ ht-degree: 67%
         "bodyParams": {
             "param1": value1,
             ...
-
         }
     },
-    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'"
+    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'",
+    "cacheDuration": {
+        (optional, mutually exclusive with 'duration') "expiryInResponse": "<json selector in format 'json://<field path to expiry>'",
+        (optional, mutually exclusive with 'expiryInResponse') "duration": <integer value>,
+        "timeUnit": "<unit in 'milliseconds', 'seconds', 'minutes', 'hours', 'days', 'months', 'years'>"
+    },
+    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
+    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
 }
 ```
 
@@ -228,14 +239,19 @@ ht-degree: 67%
       "username": "any value"
     }
   },
-  "tokenInResponse": "json://token"
-} 
+  "tokenInResponse": "json://token",
+  "cacheDuration": {
+    "expiryInResponse": "json://expiryDuration",
+    "timeUnit": "minutes"
+  }
+}
 ```
 
 以下是登入API呼叫的回應範例：
 
 ```
 {
-  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S"
+  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S",
+  "expiryDuration" : 5
 }
 ```

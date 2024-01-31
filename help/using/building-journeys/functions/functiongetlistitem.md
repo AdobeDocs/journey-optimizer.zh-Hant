@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: getListItem，函式，運算式，歷程
 exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 17%
@@ -85,10 +85,10 @@ ht-degree: 17%
 
 具有事件欄位「event.appVersion」且值為「20.45.2.3434」的範例
 
-`split(@{event.appVersion}, "\\.")`
+`split(@event{event.appVersion}, "\\.")`
 
 傳回 `["20", "45", "2", "3434"]`
 
-`getListItem(split(@{event.appVersion}, "\\."), 0)`
+`getListItem(split(@event{event.appVersion}, "\\."), 0)`
 
 傳回「20」

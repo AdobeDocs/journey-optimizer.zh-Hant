@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
+source-git-commit: 570f50a86288378c26f967f4861f19b9da9f96cf
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 23%
+source-wordcount: '1787'
+ht-degree: 16%
 
 ---
 
@@ -50,6 +50,8 @@ ht-degree: 23%
 >title="歷程"
 >abstract="設計客戶歷程提供個人化的內容關聯式體驗。Journey Optimizer 可讓您利用儲存在事件或資料來源中的內容關聯式資料，建立即時協調流程使用案例。**概觀**&#x200B;標籤會顯示儀表板，其中包含與您的歷程相關的關鍵量度。**瀏覽**&#x200B;標籤會顯示現有歷程的清單。"
 
+### 關鍵量度和歷程清單 {#access}
+
 在歷程管理功能表區段中，按一下 **[!UICONTROL 歷程]**. 有兩個標籤可供使用：
 
 **概觀**：此標籤會顯示控制面板，其中包含與您的歷程相關的關鍵量度：
@@ -69,15 +71,27 @@ ht-degree: 23%
 
 ![](assets/journeys-browse.png)
 
-在歷程清單中，您可以從&#x200B;**[!UICONTROL 狀態及版本篩選器]**&#x200B;中根據歷程的狀態、類型與版本來篩選歷程。 型別可以是： **[!UICONTROL 單一事件]**， **[!UICONTROL 對象資格]**， **[!UICONTROL 讀取對象]**， **[!UICONTROL 業務事件]** 或 **[!UICONTROL 高載]**.
+### 篩選歷程 {#filter}
 
-您可以選擇僅顯示使用&#x200B;**[!UICONTROL 事件篩選器]**&#x200B;與&#x200B;**[!UICONTROL 資料篩選器]**&#x200B;中的特定事件、欄位群組或動作的歷程。此外， **[!UICONTROL 發佈篩選器]** 可讓您選取出版日期或使用者。 舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。[了解更多](../building-journeys/using-the-journey-designer.md)。
+在歷程清單中，您可以運用各種篩選器來調整歷程清單，以提高可讀性。
 
 ![](assets/filter-journeys.png)
 
-使用&#x200B;**[!UICONTROL 上次更新]**&#x200B;及&#x200B;**[!UICONTROL 最後更新者]**&#x200B;欄來檢查您的歷程上次更新發生的時間以及儲存者。
+以下是您可以執行的各種篩選作業：
 
-在事件、資料來源和動作設定窗格中，**[!UICONTROL 使用位置]**&#x200B;欄位會顯示使用該特定事件、欄位群組或操作的歷程次數。您可以按一下&#x200B;**[!UICONTROL 檢視歷程]**&#x200B;按鈕以顯示對應歷程的清單。
+* 根據歷程的狀態、型別、版本和指派的標籤來篩選歷程，從 **[!UICONTROL 狀態和版本篩選器]**.
+
+  型別可以是： **[!UICONTROL 單一事件]**， **[!UICONTROL 對象資格]**， **[!UICONTROL 讀取對象]**， **[!UICONTROL 業務事件]** 或 **[!UICONTROL 高載]**.
+
+* 使用 **[!UICONTROL 建立篩選器]** 若要根據歷程的建立日期或建立歷程的使用者來篩選歷程。
+
+* 顯示使用來自的特定事件、欄位群組或動作的歷程 **[!UICONTROL 活動篩選器]** 和 **[!UICONTROL 資料篩選器]**.
+
+* 使用 **[!UICONTROL 發佈篩選器]** 以選取出版日期或使用者。 舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。
+
+  <!--To filter journeys based on a specific date range, select **[!UICONTROL Custom]** from the **[!UICONTROL Published]** drop-down list.-->
+
+此外，在「事件」、「資料來源」和「動作」設定窗格中， **[!UICONTROL 使用位置]** 欄位會顯示使用該特定事件、欄位群組或動作的歷程次數。 您可以按一下&#x200B;**[!UICONTROL 檢視歷程]**&#x200B;按鈕以顯示對應歷程的清單。
 
 ![](assets/journey3bis.png)
 

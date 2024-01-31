@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: distinct，函式，運算式，歷程
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '155'
 ht-degree: 5%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 5%
 # distinct {#distinct}
 
 傳回給定清單的不同值或物件。 會忽略Null專案。
-
->[!NOTE]
->
->如果目標清單是listObject，則此函式只能用於自訂動作運算式。
 
 ## 類別
 

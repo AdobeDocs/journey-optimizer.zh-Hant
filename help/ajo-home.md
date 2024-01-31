@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 1124de3e38eee72eb545c6d5a40a5a8f5de80181
+source-git-commit: dc5655d05a491568ee2a9f4a4a75939cfcc812e7
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 81%
+source-wordcount: '435'
+ht-degree: 68%
 
 ---
 
@@ -20,23 +20,27 @@ ht-degree: 81%
 
 >[!BEGINTABS]
 
+>[!TAB 1月版本已上線！]
+
+探索Adobe Journey Optimizer 24.1版包含的新功能和改進。
+
+[![影像](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
 >[!TAB 強制性DMARC更新]
 
-作為強制執行業界最佳實務的一部分，Google和Yahoo都將要求您擁有 **DMARC記錄** ，適用於您用來傳送電子郵件給他們的任何網域，從 **2024年2月1日**. 請確定您已為已在Journey Optimizer中委派給Adobe的所有子網域設定DMARC記錄。
+Google 和 Yahoo 為了執行產業最佳實務，要求您對於傳送電子郵件所使用的任何網域均留有 **DMARC 記錄**，從 **2024 年 2 月 1 日** 開始。請確定您已為已在Journey Optimizer中委派給Adobe的所有子網域設定DMARC記錄。
 
 [![影像](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
->[!TAB 沙箱工具]
+>[!TAB 使用案例教戰手冊]
 
-沙箱工具可讓您運用套件匯出和匯入功能，跨多個沙箱複製物件。 套件可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。
+在Real-Time CDP和Journey Optimizer中運用產業特定使用案例教戰手冊的目錄，以解決您可以使用Adobe Experience Platform和Adobe Journey Optimizer執行的常見使用案例。
 
-[![影像](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
+一旦您選擇了最符合您需求的教戰手冊，您可以啟用它來產生支援使用案例所需的資產，例如歷程、訊息、結構描述或區段，並根據您的結構描述自訂它們，以更快實現價值。
 
->[!TAB 簡訊中的多媒體簡訊]
+![顯示使用案例教戰手冊的動畫影像](using/rn/assets/do-not-localize/playbooks.gif)
 
-透過簡訊管道，您現在可以傳送多媒體訊息服務 (MMS) 訊息，來與客戶分享影像、GIF 或影片，藉此增強通訊交流。 請注意，目前只有 Sinch 提供此功能。
-
-[![影像](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#mms-content)
+[![影像](using/assets/do-not-localize/learn-more-button.svg)](using/start/playbooks.md)
 
 >[!ENDTABS]
 

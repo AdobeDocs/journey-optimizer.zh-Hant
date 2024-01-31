@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: DMARC 記錄
 description: 瞭解如何在Journey Optimizer中設定DMARC記錄
-feature: Subdomains, Channel Configuration
+feature: Subdomains, Channel Configuration, Deliverability
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 子網域，網域，郵件， dmarc，記錄
-source-git-commit: 2a1fccd05c960aca6a2764844f96e161c798d404
+source-git-commit: f1f57e1b7398e0c235e5ecb80b58a8b7761d0e55
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1370'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## 什麼是DMARC？ {#what-is-dmarc}
 
-DMARC，代表 **網域型訊息驗證、報告和符合性**，是一種電子郵件驗證方法，可讓網域擁有者保護其網域免受未經授權的使用。 透過向電子郵件提供者/ISP提供明確的原則，這有助於防止惡意行為者傳送聲稱來自您網域的電子郵件。 這可以降低合法電子郵件被標示為垃圾郵件或拒絕的可能性，並改善您的電子郵件傳遞能力。
+網域型訊息驗證、報告和符合性(DMARC)是一種電子郵件驗證方法，可讓網域擁有者保護其網域免受未經授權的使用。 透過向電子郵件提供者/ISP提供明確的原則，這有助於防止惡意行為者傳送聲稱來自您網域的電子郵件。 實作DMARC可降低合法電子郵件被標示為垃圾郵件或拒絕的風險，並改善您的電子郵件傳遞能力。
 
 DMARC還提供驗證失敗的訊息報告，以及對於未通過DMARC驗證的電子郵件處理的控制。 取決於實作的 [DMARC原則](#dmarc-policies)，則可監視、隔離或拒絕這些電子郵件。 這些功能可讓您採取動作來減少和解決潛在的錯誤。
 
@@ -65,7 +65,7 @@ SPF和DKIM都可用來將電子郵件與網域建立關聯，並共同驗證電�
 
 作為強制執行業界最佳實務的一部分，Google和Yahoo都將要求您擁有 **DMARC記錄** 用於傳送電子郵件給他們的任何網域。 此新需求開始於 **2024年2月1日**.
 
-進一步瞭解Google和Yahoo在中提出的要求 [本節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+進一步瞭解Google和Yahoo在中提出的要求 [本節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -79,7 +79,7 @@ SPF和DKIM都可用來將電子郵件與網域建立關聯，並共同驗證電�
 
 ## 在中實作DMARC [!DNL Journey Optimizer] {#implement-dmarc}
 
-開始日期 **2024年1月30日**，則 [!DNL Journey Optimizer] 管理介面可讓您為已委派或正在委派給Adobe的所有子網域設定DMARC記錄。 詳細步驟如下所述。
+此 [!DNL Journey Optimizer] 管理介面可讓您為已委派或正在委派給Adobe的所有子網域設定DMARC記錄。 詳細步驟如下所述。
 
 ### 檢查您現有的子網域以取得DMARC {#check-subdomains-for-dmarc}
 

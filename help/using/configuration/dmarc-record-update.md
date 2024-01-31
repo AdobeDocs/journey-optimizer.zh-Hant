@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子網域，網域，郵件， dmarc，記錄
-source-git-commit: 11d42198436319cebb67446527e9fd8d0f80cfbc
+source-git-commit: c5da9e9cfd5c03d7c6898e492582e5cc3e466447
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '576'
 ht-degree: 6%
 
 ---
@@ -45,9 +45,8 @@ Google和Yahoo！ 都要求 **DMARC記錄** 用於傳送電子郵件給他們的
 或
    * 在您的委派子網域上設定DMARC **在[!DNL Journey Optimizer]** 設定使用者介面。 [了解作法](dmarc-record.md#implement-dmarc)
 
-     不過，若是CNAME委派，也需要在您的託管解決方案中輸入。 因此，請務必與您的IT部門進行協調，以便他們能夠在 [!DNL Journey Optimizer] 功能已推出（1月30日起）。 [了解更多](dmarc-record.md#implement-dmarc)
+  不過，若是CNAME委派，也需要在您的託管解決方案中輸入。 因此，請務必與您的IT部門進行協調，以便他們能夠執行中詳述的更新 [本節](dmarc-record.md#implement-dmarc).
 
-**自1月30日起，您將可使用DMARC實作的自助服務介面。 進一步瞭解 [本節](dmarc-record.md#implement-dmarc).**
 
 Google和Yahoo分享的最新時間表如下：
 

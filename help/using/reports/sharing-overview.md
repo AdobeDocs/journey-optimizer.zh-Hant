@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 3b1a359427a76780bd3130e292cf2658eb6df03c
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '469'
 ht-degree: 3%
 
 ---
@@ -65,4 +65,6 @@ ht-degree: 3%
 * [!DNL Customer Journey Analytics] 內嵌「歷程步驟事件」資料集。
 * 此 **profileID** 相關聯「用於Journey Orchestration的歷程步驟事件結構描述」中的欄位定義為身分欄位。 在 [!DNL Customer Journey Analytics]，然後您可以將此資料集連結至與以人員為基礎的識別碼具有相同值的任何其他資料集。
 * 若要在中使用此資料集 [!DNL Customer Journey Analytics]，如需跨管道歷程分析，請參閱 [Customer Journey Analytics檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
+
+➡️ [使用Customer Journey Analytics](cja-ajo.md){target="_blank"}
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
+source-git-commit: 03e93e6a6652ffbe1cfdea3361e0a0d517cc39d8
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2424'
 ht-degree: 16%
 
 ---
@@ -258,9 +258,12 @@ ht-degree: 16%
 
 ![](../assets/offer-capping-frequency.png)
 
+
 >[!NOTE]
 >
 >重設會在您定義的當天凌晨12點UTC進行，或在一週/一月的第一天（如適用）進行。 周開始日是星期日。 您選擇的任何期間不能超過2年（即對應的月數、周數或天數）。
+>
+>頻率上限計數器已更新，並可在不到3秒的時間內用於邊緣決策API決策。
 
 例如，如果您希望每兩週重設一次上限計數，請選取 **[!UICONTROL 每週]** 從對應的下拉式清單及型別 **2** 在另一個欄位中。 重設將於每隔一個星期日下午12點(UTC)進行。
 

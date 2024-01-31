@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: listSize，函式，運算式，歷程
 exl-id: dd378e4d-f65a-495c-ac10-b4209d6b6b88
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 13%
+source-wordcount: '78'
+ht-degree: 10%
 
 ---
 
@@ -28,16 +28,9 @@ ht-degree: 13%
 
 ## 參數
 
-| 參數 | 類型 |
-|-----------|------------------|
-| 清單 | listString |
-| 清單 | listBoolean |
-| 清單 | listInteger |
-| 清單 | listDecimal |
-| 清單 | listDuration |
-| 清單 | listDateTime |
-| 清單 | listDateTimeOnly |
-| 清單 | listDateOnly |
+| 參數 | 類型 | 說明 |
+|-----------|------------------|------------------|
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要處理的清單。 對於listObject，它必須是欄位參考。 listObject不能包含null物件。 |
 
 ## 簽章與傳回型別
 
@@ -57,12 +50,16 @@ ht-degree: 13%
 
 `listSize(<listDuration>)`
 
-`listSize(<listPoint>)`
-
 傳回整數。
+
+`listSize(<listObject>)`
 
 ## 範例
 
 `listSize([10,2,3])`
 
 傳回3。
+
+`listSize(@event{my_event.productListItems})`
+
+傳回給定物件陣列（listObject型別）中的物件數目。

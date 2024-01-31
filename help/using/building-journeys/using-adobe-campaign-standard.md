@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 歷程，整合， standard，行銷活動， ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 5%
@@ -102,7 +102,7 @@ ht-degree: 5%
 您也需要定義 **[!UICONTROL 註冊權杖]**. 運算式取決於權杖在事件裝載或其他中的定義方式 [!DNL Journey Optimizer] 資訊。 如果代號是在執行個體的集合中定義，則它可以是簡單欄位或更複雜的運算式：
 
 ```
-@{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+@event{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
 ```
 
 **[!UICONTROL 個人化資料]**

@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
+source-git-commit: 3686127299107eb19db8e9290be1b737c1c87ec3
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '903'
 ht-degree: 31%
 
 ---
@@ -155,9 +155,7 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->系統會自動移除重複的列。
->
->如果每個包含設定檔資料的檔案的記錄數上限（即列）過高，系統會自動為剩餘的記錄建立另一個檔案。
+>資料列中所有值都相同的重複資料列，會自動從檔案中移除。
 
 <!--
     In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.

@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 排序，函式，運算式，歷程
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '144'
 ht-degree: 6%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 6%
 # sort {#sort}
 
 以自然順序排序值或物件清單。
-
->[!NOTE]
->
->如果目標清單是listObject，則此函式只能用於自訂動作運算式。
 
 ## 類別
 
@@ -81,4 +77,8 @@ ht-degree: 6%
 `sort([1, 3, 2], false)`
 
 傳回 `[3, 2, 1]`.
+
+`sort(@event{my_event.productListItems}, "SKU", true)`
+
+傳回依SKU屬性排序的listObject （遞增順序）
 

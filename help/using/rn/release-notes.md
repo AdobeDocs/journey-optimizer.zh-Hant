@@ -8,15 +8,14 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
+source-git-commit: 0c428b18469eb98392fe6c49d5892a4699477457
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '601'
+ht-degree: 27%
 
 ---
 
 # 發行說明 {#release-notes}
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
@@ -25,104 +24,80 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每月最後一週整合於發行說明。
 
-先前的發行說明可在[本頁](release-notes-2023.md)取得。您還可以參閱[最新文件更新](documentation-updates.md)頁面以了解更多變更。
-
 [!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
-## 2023 年 10 月發行說明 {#oct-rn-2023}
+## 2024年1月早期發行說明 {#jan-2024}
 
-### 新功能{#oct-2023-features}
+**發行日期**： 2024年1月30日至31日
+
+### 新功能{#jan24-features}
 
 此發行版本提供下列新功能。
 
-<table>
-<thead>
-<tr>
-<th><strong>沙箱工具</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>沙箱工具可讓您運用套件匯出和匯入功能，跨多個沙箱複製物件。 套件可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。</p>
-<!--img src="../data/assets/dataset-export-setup.png"-->
-<p>如需詳細資訊，請參閱<a href="../building-journeys/copy-to-sandbox.md">詳細文件</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!-- table>
-<thead>
-<tr>
-<th><strong>Composed audiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
-<img src="assets/channel-reports.png"/>
-<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table -->
 
 <table>
 <thead>
 <tr>
-<th><strong>簡訊中的多媒體訊息服務 (MMS)</strong><br/></th>
+<th><strong>傳遞能力更新</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>透過簡訊管道，您現在可以傳送多媒體訊息服務 (MMS) 訊息，來與客戶分享影像、GIF 或影片，藉此增強通訊交流。 請注意，目前只有 Sinch 提供此功能。</p>
-<img src="assets/do-not-localize/mms.gif"/>
-<p>如需詳細資訊，請參閱<a href="../sms/create-sms.md#mms-content">詳細文件</a>。</p>
+<p>Journey Optimizer現在支援DMARC驗證技術。</p>
+<p>2024年2月1日起，Google和Yahoo！ 將要求您擁有DMARC記錄，才能使用任何網域來傳送電子郵件給他們。 請確定您已為已委派或正在委派給Journey Optimizer中Adobe的所有子網域設定DMARC記錄。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/dmarc-record-update.md">詳細文件</a>。</p>
+<br/><img src="assets/do-not-localize/dmarc.gif"/>
 </tr>
 </tbody>
 </table>
 
-### 改進項目 {#oct-2023-improvements}
+<table>
+<thead>
+<tr>
+<th><strong>使用案例教戰手冊</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>在Real-Time CDP和Journey Optimizer中運用產業特定使用案例教戰手冊的目錄，以解決您可以使用Adobe Experience Platform和Adobe Journey Optimizer執行的常見使用案例。</p><p>一旦您選擇了最符合您需求的教戰手冊，您可以啟用它來產生支援使用案例所需的資產，例如歷程、訊息、結構描述或區段，並根據您的結構描述自訂它們，以更快實現價值。</p>
+<p>如需詳細資訊，請參閱<a href="../start/playbooks.md">詳細文件</a>。</p>
+<br/><img src="assets/do-not-localize/playbooks.gif"/>
+</tr>
+</tbody>
+</table>
+
+### 改進項目 {#jan24-improvements}
 
 此發行版本隨附下列改進項目。
 
-**對象**
+**報告**
 
-* 您現在可以鎖定從 CSV 檔案上傳至歷程和行銷活動中的目標對象。[了解更多](../audience/about-audiences.md#segments-in-journey-optimizer)
-* 您現在可以鎖定透過對象構成所建立的目標對象，並在歷程中運用擴充屬性。 [了解更多](../building-journeys/read-audience.md)
+* **新的網域型劃分Widget**  — 已新增新的Widget，以增強您的行銷活動和歷程報告。 此 **依網域區分的退信原因**， **依網域傳送和傳遞**， **依網域區分的開啟與點按** 和 **依網域區分的退回和錯誤** Widget會針對關鍵電子郵件傳送和追蹤量度，提供網域層級的詳細劃分。 [了解更多](../reports/channel-report.md)
 
->[!AVAILABILITY]
->
->這些功能目前以 Private Beta 的形式提供。
+**簡訊頻道**
 
-<!--
-**Spam scoring for emails**
+* **雙重選擇加入**  — 簡訊的雙重選擇加入工作流程可確保使用者在從裝置起始請求時，明確選擇加入接收訊息。 使用者透過傳送傳入SMS訊息來起始同意程式。 確認同意後，會傳送後續訊息，要求最終驗證。 如果使用者設定檔不存在，則會在成功確認時建立。 [了解更多](../sms/sms-configuration.md#create-api)
 
-* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
-
-**行銷活動**
-
-<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* 當您的其中一個行銷活動發生錯誤時，警告圖示現在會與行銷活動的狀態一起出現在行銷活動清單中。[了解更多](../campaigns/modify-stop-campaign.md#statuses)
+  請注意，此功能適用於Sinch和Infobip簡訊提供者。
 
 **歷程**
 
-* 現在，您可在任何等待時間中定義的最長期間是 29 天，而不是 30 天。此項改進的目的是在防止等待的持續時間超過 30 天的歷程期限。 這適用於：
+* **反應事件持續時間**  — 您可以在「 」中定義的最長持續時間 **反應事件** 現在是二十九天，而非30天。 [了解更多](../building-journeys/reaction-events.md)
 
-   * [等待活動](../building-journeys/wait-activity.md)中的&#x200B;**時間長度**&#x200B;欄位
-   * [歷程屬性](../building-journeys/journey-gs.md#entrance)中的&#x200B;**重新進入等待期**
-   * [事件活動](../building-journeys/general-events.md#events-specific-time)逾時定義中的&#x200B;**等待**&#x200B;欄位。
+<!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 
-<!--
-**Consent in channel configuration**
+* **讀取對象**  - **讀取對象** 活動現在仰賴批次區段的設定檔快照資料集，這僅在排程的每日批次工作執行後一天產生一次，因此資料將會刷新到最後的每日批次工作。
 
-* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
+* **欄位群組**  — 此版本修正特定情況下無法儲存欄位群組的問題。
 
-**決策管理**
+**頻率規則**
 
-* 已更新與決策管理介面中的優惠方案上限相關的幾個標籤。 [了解更多](../offers/offer-library/add-constraints.md#capping)
+* **每週和每日頻率上限**  — 您現在可指定在一週或一天內（不含月份），傳送至客戶設定檔的最大訊息數量。 頻率上限是以所選的日曆期間為基礎，並在對應的時間範圍開始時重設。 [進一步了解](../configuration/frequency-rules.md#create-new-rule)
 
+**決定管理**
+
+* **邊緣的頻率限定**  — 頻率上限計數器現已更新，並可在不到3秒內的邊緣決策API決策中使用。

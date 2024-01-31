@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
+source-git-commit: ff25658bd69b83cfd1869490c24710f84d4a4ffc
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 12%
+source-wordcount: '1135'
+ht-degree: 10%
 
 ---
 
@@ -79,13 +79,27 @@ ht-degree: 12%
    >
    >目前僅限 **[!UICONTROL 行銷]** 類別可供使用。
 
-1. 設定規則的上限，即每月可傳送至個別使用者設定檔的最大訊息數量。
+1. 選取要套用之上限的時間範圍。
 
-   ![](assets/message-rules-capping.png)
+   ![](assets/message-rules-capping-duration.png)
+
+   頻率上限是根據所選的日曆期間。 它會在對應的時間範圍開始時重設。
+
+   每個期間的計數器到期日如下：
+
+   * **[!UICONTROL 每日]**：頻率上限有效期為一天到23天:59:59 UTC並在第二天開始時重設為0。
+
+   * **[!UICONTROL 每週]**：頻率上限有效期到星期六23日:59:當週的59 UTC作為行事曆周從星期日開始。 無論規則建立與否，有效期都相同。 例如，如果規則是在星期四建立，則此規則有效期至星期六的23日:59:59.
+
+   * **[!UICONTROL 每月]**：頻率上限有效期至當月最後一天23:59:59 UTC. 例如，1月的每月到期日為01-31 23:59:59 UTC.
 
    >[!NOTE]
    >
-   >頻率上限是以日曆的每月週期為基礎。 它會在每個月的月初重設。
+   >處理時 [批次細分](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} 建議使用。 <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+
+1. 設定規則的上限，代表根據您上述選擇，每個月、周或日可傳送至個別使用者設定檔的最大訊息數量。
+
+   ![](assets/message-rules-capping.png)
 
 1. 選取您要用於此規則的管道： **[!UICONTROL 電子郵件]** 或 **[!UICONTROL 推播通知]**.
 
@@ -97,7 +111,7 @@ ht-degree: 12%
 
 1. 如果您要將上限套用至所有選取的色版總數，請選取數個色版。
 
-   例如，將上限設為15，然後選取電子郵件和推播通道。 如果設定檔已收到10封行銷電子郵件和5個行銷推播通知，則此設定檔將從任何行銷電子郵件或推播通知的下一個傳送中排除。
+   例如，將上限設為15，然後選取電子郵件和推播通道。 如果設定檔在選定期間內已收到10封行銷電子郵件和5個行銷推播通知，則會在下次傳送行銷電子郵件或推播通知時排除此設定檔。
 
 1. 按一下 **[!UICONTROL 另存為草稿]** 以確認建立規則。 您的訊息將新增至規則清單，並包含 **[!UICONTROL 草稿]** 狀態。
 

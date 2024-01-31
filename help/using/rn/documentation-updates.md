@@ -8,24 +8,40 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 31d9189e8afd732875556b9caaa8e874f53597bb
+source-git-commit: 84bb42083dc6b6c4e79014ea0b2d4632825350e7
 workflow-type: tm+mt
-source-wordcount: '4295'
-ht-degree: 98%
+source-wordcount: '4574'
+ht-degree: 93%
 
 ---
 
 # 文件更新 {#latest-updates}
 
-本頁面列出 [!DNL Journey Optimizer] 所有文件更新。
+本頁面列出所有最新更新於 [!DNL Journey Optimizer] 檔案。
 
 ## 2024 年 1 月 {#jan-2024}
 
+* 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2024年1月版本的詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
 * 已新增歷程大小的護欄。 [閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
 * 已[在下列區段中](../building-journeys/journey-gs.md#global_timeout)詳細說明歷程逾時管理。
 * Journey Optimizer [j文件首頁](../../ajo-home.md)已經過重新設計。
 * 已新增有關更新設定檔活動的Recommendations。 [閱讀全文](../building-journeys/update-profiles.md)
 * 已新增有關歷程中事件活動逾時的行為的資訊。 在指定的逾時期間未收到任何事件時，如果未定義逾時路徑，則個人將繼續歷程。 [閱讀全文](../building-journeys/general-events.md#events-specific-time)
+* 應用程式內頻道設定先決條件已更新，其中包含使用自訂資料集偏好設定合併原則的附註。 [閱讀全文](../in-app/inapp-configuration.md)
+* 已新增有關如何在自訂動作回應中操作集合的更多詳細資料。 [閱讀全文](../action/action-response.md#exp-syntax)。
+* 連結至 [Adobe Journey Optimizer的結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant) 已新增至首頁。
+* 已從稽核記錄中可用的資源清單移除對AJO訊息資源的過時參考。 當歷程中的訊息完成更新時， **歷程** 記錄已建立。 [閱讀全文](../privacy/audit-logs.md)
+* 已新增關於使用的其他建議 **讀取對象** 活動。 [閱讀全文](../building-journeys/read-audience.md#must-read)
+* 「開始使用Adobe Experience Platform對象」頁面已經過改良，其中包含「對象產生方法」清單。 [閱讀全文](../audience/about-audiences.md)
+* 新增使用自訂動作選擇要定位的端點時的最佳實務。 [閱讀全文](../action/about-custom-action-configuration.md)
+* 已新增附註，以通知使用者無法使用API從外部系統引發事件。 [閱讀全文](../building-journeys/testing-the-journey.md#important-notes)
+* 的相關資訊 **currentActionField** 函式已新增至 [集合管理函式](../building-journeys/expression/collection-management-functions.md). 已在中新增運用函式的運算式範例 [在自訂動作中使用API呼叫回應](../action/action-response.md) 頁面。
+* 更新有關快取持續時間的自訂驗證檔案。 [閱讀全文] (../datasource/external-data-sources.md)
+* 支援 `<listObject>` 已在多個函式中修改。
+* 更新 **期間** 中的引數 `toString` 函式。 [閱讀全文](../building-journeys/functions/functiontostring.md)
+* 對於某些外部資料來源使用案例，建議使用自訂動作。
+* 事件欄位語法已更新。 下列語法已過時 `@(my_event.myfield}` 並取代為 `@event{my_event.myfield}`. [閱讀全文](../building-journeys/expression/field-references.md)
+
 
 ## 2023 年 11 月 {#nov-2023}
 

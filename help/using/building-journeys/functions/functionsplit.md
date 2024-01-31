@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 分割，函式，運算式，歷程
 exl-id: 37bcdf98-203c-4f82-8d8a-be2b2c45c4e7
-source-git-commit: 07682901ec94d5b736d364130aaf48f9dfe982a3
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 14%
@@ -47,6 +47,6 @@ ht-degree: 14%
 
 具有下列值的事件欄位「event.appVersion」範例：「20.45.2.3434」
 
-`split(@{event.appVersion}, "\\.")`
+`split(@event{event.appVersion}, "\\.")`
 
 傳回 `["20", "45", "2", "3434"]`

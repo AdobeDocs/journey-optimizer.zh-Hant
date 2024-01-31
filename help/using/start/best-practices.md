@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: e411810196c591727fb1049826dc761e3807ed03
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 4%
+source-wordcount: '982'
+ht-degree: 3%
 
 ---
 
@@ -65,3 +65,5 @@ Adobe Journey Optimizer運用Identity Service來合併使用者的設定檔及�
 * 如果在多個歷程（同意檢查、隱藏）中重複相同的條件，請考慮將其移動作為區段定義的一部分。 例如，如果您有多個條件要檢查多個歷程中的「電子郵件地址不是空白」，請將該條件納入區段定義中。
 * 如果您的歷程具有數個條件，可分割對象以檢視每個步驟的數字，請考慮使用Customer Journey Analytics或其他更適合分析的報表解決方案。
 * 如果您接近畫布上的節點限制，請考慮使用動態引數或內容來合併動作，以提供適當的內容而非明確的節點。
+
+* 如果您擁有 **讀取對象** 使用批次區段的歷程(A)，以及如果您在歷程中使用對象串流區段(B)來排除（即執行A-B），請考慮將該邏輯移至分段邏輯，並將排除當做分段邏輯本身的一部分。

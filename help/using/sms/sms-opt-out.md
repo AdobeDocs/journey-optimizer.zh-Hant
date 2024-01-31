@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 31c3ed854b38e287850895176f8416bc62739cb0
+source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 25%
+source-wordcount: '459'
+ht-degree: 24%
 
 ---
 
@@ -26,7 +26,15 @@ ht-degree: 25%
 
 ## 原生傳入關鍵字 {#sms-native-keywords}
 
-依預設，Adobe Journey Optimizer會針對短代碼、免付費和長代碼訊息處理下列標準英文回複訊息：STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE。 請注意，搭配Journey Optimizer使用時，只有Sinch和Infobip支援原生關鍵字。
+>[!NOTE]
+>
+> 搭配Journey Optimizer使用時，只有Sinch和Infobip支援原生關鍵字。
+
+依預設，Adobe Journey Optimizer會針對短代碼、免付費和長代碼訊息處理以下標準英文回複訊息：
+
+* **選擇退出**：停止、結束、取消、結束、取消訂閱、否。
+* **選擇加入**：訂閱、是、取消停止、開始、繼續、繼續、開始。
+* **說明**：說明。
 
 這些關鍵字通常會觸發來自第三方提供者的自動標準回覆。 您可以直接向提供者或透過其文件網站確認。
 

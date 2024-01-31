@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
+source-git-commit: d9d2e763b04ec725cc389b1d535df4df06103018
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '673'
 ht-degree: 4%
 
 ---
@@ -121,6 +121,10 @@ curl -X GET \
 >[!NOTE]
 >
 >為了儲存內容資料，您需要設定專用的XDM結構描述。
+
+**頻率限定計數器更新**
+
+如果您的部分優惠已啟用頻率上限以定義其上限計數重設的頻率，則計數器會更新，且不到3秒後可在Edge Decisioning API決策中使用。 [瞭解如何將限制新增至優惠方案](../../offer-library/add-constraints.md)
 
 ## 決策API功能 {#decisioning}
 

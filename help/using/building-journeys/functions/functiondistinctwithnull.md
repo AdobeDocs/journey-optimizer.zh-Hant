@@ -7,16 +7,18 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: distinctWithNull，函式，運算式，歷程
 exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 5%
+source-wordcount: '123'
+ht-degree: 6%
 
 ---
 
 # distinctWithNull {#distinctWithNull}
 
 傳回給定清單的不同值或物件。 如果清單中至少有一個null專案，則傳回的清單中會出現null專案。
+
+請注意，引數 `<listObject>` 不支援此函式。
 
 ## 類別
 
@@ -30,8 +32,7 @@ ht-degree: 5%
 
 | 參數 | 類型 | 說明 |
 |-----------|------------------|------------------|
-| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要處理的清單。 對於listObject，它必須是欄位參考。 |
-| keyAttributeName | 字串 | 此引數是選用專案，且僅適用於listObject。 如果未提供引數，如果所有屬性的值都相同，則會將物件視為重複。 否則，如果給定的屬性具有相同的值，則會將物件視為重複。 |
+| listToProcess | listString， listBoolean， listInteger， listDecimal， listDuration， listDateTime， listDateTimeOnly， listDateOnly | 要處理的清單。 |
 
 ## 簽章與傳回的型別
 
@@ -66,12 +67,6 @@ ht-degree: 5%
 `distinctWithNull(<listDuration>)`
 
 傳回持續時間清單。
-
-`distinctWithNull(<listObject>)`
-
-`distinctWithNull(<listObject>,<string>)`
-
-傳回物件清單。
 
 ## 範例
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6a2b3c988168d8ff6f5671718cd0defb6ad8c258
+source-git-commit: 0d010bbb46887546d524726606764b564c352064
 workflow-type: tm+mt
-source-wordcount: '1860'
-ht-degree: 94%
+source-wordcount: '1960'
+ht-degree: 89%
 
 ---
 
@@ -87,6 +87,10 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 不允許使用 IP 位址
 * 內部 Adobe 地址 (`.adobe.*`) 不允許在 URL 及 API 中使用。
 * 無法移除內建自訂動作。
+* 使用自訂動作選擇要鎖定的端點時，請確定：
+
+   * 此端點可使用來自的設定來支援歷程的輸送量 [節流API](../configuration/throttling.md) 或 [設定API上限](../configuration/capping.md) 以限制它。 請留意節流設定不可低於200 TPS。 任何目標端點至少需要支援200個TPS。
+   * 此端點的回應時間必須儘可能縮短。 根據您的預期輸送量，高回應時間可能會影響實際輸送量。
 
 ### 活動 {#events-g}
 
@@ -99,6 +103,10 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 * 可在客戶歷程中利用外部資料來源即時查詢外部資料。 這些來源必須可透過 REST API 使用、支援 JSON 並且能夠處理大量請求。
 * 內部 Adobe 地址 (`.adobe.*`) 不允許在 URL 及 API 中使用。
+
+>[!NOTE]
+>
+>現在支援回應，因此您應該針對外部資料來源使用案例使用自訂動作，而非資料來源。
 
 ### 歷程與設定檔建立 {#journeys-limitation-profile-creation}
 
