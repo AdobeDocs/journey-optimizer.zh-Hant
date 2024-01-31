@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 570f50a86288378c26f967f4861f19b9da9f96cf
+source-git-commit: a5027f4558526c2f3516816c12803e741c7f8dac
 workflow-type: tm+mt
 source-wordcount: '1787'
 ht-degree: 16%
@@ -50,7 +50,7 @@ ht-degree: 16%
 >title="歷程"
 >abstract="設計客戶歷程提供個人化的內容關聯式體驗。Journey Optimizer 可讓您利用儲存在事件或資料來源中的內容關聯式資料，建立即時協調流程使用案例。**概觀**&#x200B;標籤會顯示儀表板，其中包含與您的歷程相關的關鍵量度。**瀏覽**&#x200B;標籤會顯示現有歷程的清單。"
 
-### 關鍵量度和歷程清單 {#access}
+### 關鍵量度和歷程清單 {#access-metrics}
 
 在歷程管理功能表區段中，按一下 **[!UICONTROL 歷程]**. 有兩個標籤可供使用：
 
@@ -148,7 +148,7 @@ ht-degree: 16%
 
 在中進一步瞭解設定檔進入和重入管理 [本節](entry-management.md).
 
-### 管理存取權 {#access}
+### 管理存取權 {#manage-access}
 
 若要指派自訂或核心資料使用標籤給歷程，請按一下 **[!UICONTROL 管理存取權]** 按鈕。 [深入瞭解物件層級存取控制(OLA)](../administration/object-based-access.md)
 
