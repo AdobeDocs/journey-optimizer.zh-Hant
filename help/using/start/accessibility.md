@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ Adobe Experience Platform 中的協助工具功能請詳見[本文件](https://e
     <td>E</td>
   </tr>
   <tr>
-    <td>在對象型歷程中觸發事件，其**[！UICONTROL一次單一設定檔]**選項已開啟</td>
+    <td>在以對象為基礎的歷程中觸發事件，並為其啟用**[!UICONTROL Single profile at a time]**選項</td>
     <td>P</td>
   </tr>
   <tr>
