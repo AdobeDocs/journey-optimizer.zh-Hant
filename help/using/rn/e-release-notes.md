@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 570f50a86288378c26f967f4861f19b9da9f96cf
+source-git-commit: 97967e8043df9b75d3120e4a7bfccff700f5d57f
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '558'
 ht-degree: 16%
 
 ---
@@ -88,6 +88,8 @@ ht-degree: 16%
 * **讀取對象**  - 「讀取對象」活動現在仰賴批次區段的設定檔快照集資料集，這僅在排程的每日批次工作執行後一天產生一次，因此資料將會刷新到最後的每日批次工作。
 
 * **欄位群組**  — 修正阻止欄位群組在某些情況下儲存的問題。
+
+* **運算式編輯器**  — 我們目前在所有運算式和其他函式中支援listObject資料型別。 [更多資訊](../building-journeys/expression/functions.md)
 
 **頻率規則**
 
