@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7cb00d2527780f14564890c1123a76aa55c7c088
+source-git-commit: fe4c51a74431bf8ab66aa2c9c3bd07404d971bbf
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '562'
 ht-degree: 17%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 17%
 
 * **日期篩選器**  — 除了現有的預先定義日期篩選器外，您現在可以使用自訂日期來篩選歷程詳細目錄。 這可讓您調整清單，方法是顯示特定日期、特定月內、整年或指定時間範圍內發佈的歷程。
 
-* **讀取對象**   — 讀取對象活動現在仰賴批次區段的設定檔快照資料集，這僅在排程的每日批次工作執行後每天產生一次。
+* **讀取對象**  - 「讀取對象」活動現在仰賴批次區段的設定檔快照集資料集，這僅在排程的每日批次工作執行後一天產生一次，因此資料將會刷新到最後的每日批次工作。
 
 **頻率規則**
 
