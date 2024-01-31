@@ -536,7 +536,7 @@ ht-degree: 99%
       + [建立 IP 暖身行銷活動](using/configuration/ip-warmup-campaign.md)
       + [建立 IP 暖身計劃](using/configuration/ip-warmup-plan.md)
       + [執行 IP 暖身計劃](using/configuration/ip-warmup-execution.md)
-      + [IP熱身計畫檔案](using/configuration/ip-warmup-plan-files.md)
+      + [IP 暖身計劃檔案](using/configuration/ip-warmup-plan-files.md)
    + 監視電子郵件地址 {#monitor-reputation}
       + [禁止名單](using/configuration/manage-suppression-list.md)
       + [重試次數](using/configuration/retries.md)

@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: dc5655d05a491568ee2a9f4a4a75939cfcc812e7
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 68%
+ht-degree: 77%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 68%
 
 [![影像](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB 強制性DMARC更新]
+>[!TAB 強制性 DMARC 更新]
 
-Google 和 Yahoo 為了執行產業最佳實務，要求您對於傳送電子郵件所使用的任何網域均留有 **DMARC 記錄**，從 **2024 年 2 月 1 日** 開始。請確定您已為已在Journey Optimizer中委派給Adobe的所有子網域設定DMARC記錄。
+作為強制執行業界最佳實務的一部分，從 **2024 年 2 月 1 日**&#x200B;起，Google 和 Yahoo 都將要求您擁有用來傳送電子郵件給他們的任何網域的 **DMARC 記錄**。 請確定您已為在 Journey Optimizer 中委派給 Adobe 的所有子網域設定 DMARC 記錄。
 
 [![影像](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
@@ -111,7 +111,7 @@ Google 和 Yahoo 為了執行產業最佳實務，要求您對於傳送電子郵
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">產品說明</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">安全性概覽(PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API參考</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant" target="_blank">Journey Optimizer結構描述字典</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant" target="_blank">教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">產品說明</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">安全性概觀 (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API 參考</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant" target="_blank">Journey Optimizer 結構描述字典</a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
