@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
  <tbody>
   <tr> 
    <td> 跳出數<br/> </td> 
-   <td> 與已傳送訊息總數相關的傳遞和自動回訪處理期間累計的錯誤總數。<br/> </td> 
+   <td> 在傳送過程中累積的錯誤總數，以及相對於已傳送訊息總數的自動傳回處理。<br/> </td> 
 </tr> 
   <tr> 
    <td> 跳出率<br/> </td> 
@@ -84,16 +84,16 @@ ht-degree: 0%
 </tr>
   <tr> 
    <td> 錯誤<br/> </td> 
-   <td> 傳遞期間發生且無法傳送至設定檔的錯誤總數。<br/> </td> 
+   <td> 在傳送過程中發生且無法傳送至設定檔的錯誤總數。<br/> </td> 
 </tr> 
   <tr> 
    <td> 錯誤率<br/> </td> 
-   <td> 與已傳送的電子郵件相較之下，在傳送期間發生且無法傳送的錯誤百分比。<br/> </td> 
+   <td> 與已傳送的電子郵件相比，在傳送過程中發生而無法傳送的錯誤百分比。<br/> </td> 
 </tr>
 </tr> 
   <tr> 
    <td> 錯誤原因<br/> </td> 
-   <td> 特定原始錯誤原因的名稱。 <a href="error-list.md">進一步瞭解錯誤原因</a>.<br/> </td> 
+   <td> 特定原始錯誤原因的名稱。 <a href="exclusion-list.md">進一步瞭解錯誤原因</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> 已排除<br/> </td> 
@@ -340,7 +340,7 @@ ht-degree: 0%
 </tr>
   <tr> 
    <td> 錯誤原因<br/> </td> 
-   <td> 特定原始錯誤原因的名稱。 <a href="error-list.md">進一步瞭解錯誤原因</a>.<br/> </td> 
+   <td> 特定原始錯誤原因的名稱。 <a href="exclusion-list.md">進一步瞭解錯誤原因</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> 已排除<br/> </td> 
