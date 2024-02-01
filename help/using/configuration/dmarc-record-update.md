@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 符合新的DMARC要求
+title: 遵守新的 DMARC 要求
 description: 瞭解必須在Journey Optimizer中設定DMARC記錄的原因和時間
 feature: Subdomains, Channel Configuration, Deliverability
 topic: Administration
@@ -11,16 +11,16 @@ keywords: 子網域，網域，郵件， dmarc，記錄
 source-git-commit: c5da9e9cfd5c03d7c6898e492582e5cc3e466447
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
-# 符合新的DMARC要求 {#dmarc-record-update}
+# 遵守新的 DMARC 要求 {#dmarc-record-update}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="了解更多有關必要的 DMARC 更新的資訊"
->abstract="作為強制執行業界最佳實務的一部分，Google和Yahoo都將要求您擁有 **DMARC記錄** ，適用於您用來傳送電子郵件給他們的任何網域，從 **2024年2月1日**.<br>因此，請務必確認您在 Journey Optimizer 中委派給 Adobe 的所有子網域已經設定 DMARC 記錄。"
+>abstract="Google 和 Yahoo 為了執行產業最佳實務，要求您對於傳送電子郵件所使用的任何網域均留有 **DMARC 記錄**，從 **2024 年 2 月 1 日** 開始。<br>因此，請務必確認您在 Journey Optimizer 中委派給 Adobe 的所有子網域已經設定 DMARC 記錄。"
 
 網域型訊息驗證、報告和符合性(DMARC)是一種電子郵件驗證方法，可讓網域擁有者保護其網域免受未經授權的使用。 透過向電子郵件提供者/ISP提供明確的原則，這有助於防止惡意行為者傳送聲稱來自您網域的電子郵件。 實作DMARC可降低合法電子郵件被標示為垃圾郵件或拒絕的風險，並改善您的電子郵件傳遞能力。
 

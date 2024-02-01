@@ -11,7 +11,7 @@ keywords: 子網域，網域，郵件， dmarc，記錄
 source-git-commit: f1f57e1b7398e0c235e5ecb80b58a8b7761d0e55
 workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
->title="設定DMARC記錄"
->abstract="DMARC是一種電子郵件驗證方法，可讓網域擁有者保護其網域免受未經授權的使用並避免信箱提供者的傳遞問題。<br>作為強制執行業界最佳實務的一部分，Google和Yahoo都要求您擁有用於向其傳送電子郵件的任何網域的DMARC記錄。"
+>title="設定 DMARC 記錄"
+>abstract="DMARC 是一種電子郵件驗證方法，可讓網域擁有者保護其網域免遭未經授權的使用，並避免信箱提供者的傳遞問題。<br>Google 和 Yahoo 為了執行產業最佳實務，要求您對於傳送電子郵件所使用的任何網域留有 DMARC 記錄。"
 
 ## 什麼是DMARC？ {#what-is-dmarc}
 
