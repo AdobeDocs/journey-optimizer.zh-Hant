@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: fa704bd6c82a3068f163bb74542107b34f1815d1
 workflow-type: tm+mt
-source-wordcount: '3365'
-ht-degree: 4%
+source-wordcount: '3523'
+ht-degree: 6%
 
 ---
 
@@ -46,11 +46,21 @@ ht-degree: 4%
 
 ### 歷程績效 {#journey-perfomance}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_performance"
+>title="歷程績效"
+>abstract="XX"
+
 ![](assets/journey_performance.png)
 
 此 **[!UICONTROL 歷程績效]** widget可讓您在目標設定檔導覽您的歷程時，以視覺化方式追蹤其軌跡。
 
 ### 歷程統計資料 {#journey-statistics}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_statistics"
+>title="歷程統計資料"
+>abstract="XX"
 
 ![](assets/journey_statistics.png)
 
@@ -68,11 +78,21 @@ ht-degree: 4%
 
 ### 動作績效 {#action-performance}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_performance"
+>title="動作績效"
+>abstract="XX"
+
 ![](assets/journey_action_performance.png)
 
 此 **[!UICONTROL 動作績效]** Widget代表當您執行 **[!UICONTROL 動作]** 已觸發。
 
 ### 熱門動作 {#top-actions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_top_actions"
+>title="熱門動作"
+>abstract="XX"
 
 ![](assets/journey_top_actions.png)
 
@@ -88,11 +108,21 @@ ht-degree: 4%
 
 ### 動作錯誤原因 {#action-error}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_actions_error_reasons"
+>title="動作錯誤原因"
+>abstract="XX"
+
 ![](assets/journey_action_error.png)
 
 此 **[!UICONTROL 動作錯誤原因]**  表格和圖表提供執行期間發生錯誤的全面概觀 **[!UICONTROL 動作]**.
 
 ### 依據來源的事件 {#events-origin}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_events_origin"
+>title="依據來源的事件"
+>abstract="XX"
 
 ![](assets/journey_events_origin.png)
 
@@ -100,17 +130,32 @@ ht-degree: 4%
 
 ### 依事件收到的事件 {#events-received}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_events_received"
+>title="依事件收到的事件"
+>abstract="XX"
+
 ![](assets/journey_event_received.png)
 
 此 **[!UICONTROL 依事件收到的事件]** 圖表可讓您識別及分析哪些特定的 **[!UICONTROL 事件]** 在您的歷程中有效地執行，提供個別事件效能和成功率的寶貴見解。
 
 ### 熱門事件 {#top-events}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_top_events"
+>title="熱門事件"
+>abstract="XX"
+
 ![](assets/journey_top_events.png)
 
 此 **[!UICONTROL 熱門事件]** 表格會編譯您電腦上的基本資料 **[!UICONTROL 活動]**. 它提供每個專案的頻率和效能的簡單深入分析 **[!UICONTROL 事件]**.
 
 ### 同意原則 {#consent-policies}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_consent_policies"
+>title="同意原則"
+>abstract="XX"
 
 ![](assets/journey_consent.png)
 
@@ -124,7 +169,12 @@ ht-degree: 4%
 
 從您的歷程 **[!UICONTROL 全域報告]**，則 **[!UICONTROL 電子郵件]** 索引標籤會詳細說明歷程中傳送之電子郵件相關的主要資訊。
 
-### 電子郵件傳送統計資料 {#email-sending-statistics}
+### 電子郵件 — 傳送統計資料 {#email-sending-statistics}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_sending_statistics"
+>title="電子郵件 — 傳送統計資料"
+>abstract="XX"
 
 ![](assets/journey_email_statistics.png)
 
@@ -158,6 +208,11 @@ ht-degree: 4%
 
 ### 電子郵件 - 追蹤統計資料 {#email-tracking}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_tracking_statistics"
+>title="電子郵件 - 追蹤統計資料"
+>abstract="XX"
+
 ![](assets/journey_email_tracking.png)
 
 此 **[!UICONTROL 電子郵件 — 追蹤統計資料]** 表格提供與歷程中所包含電子郵件相關的設定檔活動的詳細帳戶。 其中包括開啟次數、點按次數和其他相關的參與指標，以提供設定檔與電子郵件內容互動方式的完整檢視。
@@ -186,6 +241,11 @@ ht-degree: 4%
 
 ### 電子郵件 - 傳送效能 {#email-performance}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_sending_performance"
+>title="電子郵件 - 傳送效能"
+>abstract="XX"
+
 ![](assets/journey_email_performance.png)
 
 此 **[!UICONTROL 電子郵件 — 傳送績效]** graph提供與您歷程中傳送之電子郵件相關的完整資料檢視，提供關鍵量度的深入分析，例如傳送和跳出。 這可啟用電子郵件傳送流程的詳細分析，提供關於歷程效率和效能的寶貴資訊。
@@ -203,6 +263,11 @@ ht-degree: 4%
 +++
 
 ### 電子郵件 — 退回類別和原因 {#email-bounce-categories}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_bounces"
+>title="電子郵件 — 退回類別和原因"
+>abstract="XX"
 
 ![](assets/journey_email_bounce_categories.png)
 
@@ -222,11 +287,21 @@ ht-degree: 4%
 
 ### 電子郵件 - 錯誤原因 {#email-errors}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_error_reasons"
+>title="電子郵件 - 錯誤原因"
+>abstract="XX"
+
 ![](assets/journey_email_error.png)
 
 此 **[!UICONTROL 錯誤原因]** 圖表和表格可讓您檢視傳送過程中發生的特定錯誤，提供有關錯誤性質和發生次數的寶貴資訊。
 
 ### 電子郵件 - 排除原因 {#email-excluded}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_excluded_reasons"
+>title="電子郵件 - 排除原因"
+>abstract="XX"
 
 ![](assets/journey_email_excluded.png)
 
@@ -235,6 +310,11 @@ ht-degree: 4%
 請參閱 [此頁面](exclusion-list.md) 以取得排除原因的完整清單。
 
 ### 依網域劃分的已傳送和已送達郵件 {#sent-domains}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_sent_delivered_domains"
+>title="依網域劃分的已傳送和已送達郵件"
+>abstract="XX"
 
 ![](assets/journey_email_sent_domains.png)
 
@@ -250,6 +330,11 @@ ht-degree: 4%
 
 ### 依網域劃分的開啟和點選動作 {#open-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_open_clicks_domains"
+>title="依網域劃分的開啟和點選動作"
+>abstract="XX"
+
 ![](assets/journey_email_open_domains.png)
 
 此  **[!UICONTROL 依網域開啟和點按]** 圖形和表格會顯示設定檔與電子郵件互動的網域層級劃分，提供不同網域與內容互動方式的寶貴見解。
@@ -263,6 +348,11 @@ ht-degree: 4%
 +++
 
 ### 依網域劃分的退回情形與錯誤 {#bounces-domains}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_bounces_errors_domains"
+>title="依網域劃分的退回情形與錯誤"
+>abstract="XX"
 
 ![](assets/journey_email_bounce_domains.png)
 
@@ -278,17 +368,34 @@ ht-degree: 4%
 
 ### 依網域劃分的退回原因 {#bounce-reasons-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_bounces_reasons_domains"
+>title="依網域列出的退回原因"
+>abstract="XX"
+
 ![](assets/journey_email_bounce_reasons_domain.png)
 
 此  **[!UICONTROL 依網域區分的退回原因]** 圖表和表格提供有關暫時和永久錯誤的網域層級資料劃分，提供退回訊息背後原因的詳細深入分析。
 
 ### 電子郵件 - 熱門 URL {#email-top}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_top_url"
+>title="電子郵件 - 熱門 URL"
+>abstract="XX"
+
 ![](assets/journey_email_top.png)
 
 此 **[!UICONTROL 電子郵件 — 熱門URL]** 圖表和表格提供電子郵件中吸引最高訪客流量之URL的完整概觀。 這可讓您識別最熱門的連結並排定其優先順序，進而更瞭解電子郵件中特定內容的設定檔參與情形。
 
 ### 電子郵件 — 最佳化 {#email-sto}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_optimization"
+>title="電子郵件 — 最佳化"
+>abstract="XX"
+
+![](assets/journey_email_sto.png)
 
 >[!NOTE]
 >
@@ -310,6 +417,11 @@ ht-degree: 4%
 +++
 
 ### 電子郵件 — 優惠方案 {#email-offers}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_offers"
+>title="電子郵件 — 優惠方案"
+>abstract="XX"
 
 >[!NOTE]
 >
@@ -343,6 +455,11 @@ ht-degree: 4%
 
 ### 推播通知 - 傳送統計資料 {#push-sending-stat}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_sending_statistics"
+>title="推播通知 - 傳送統計資料"
+>abstract="XX"
+
 ![](assets/journey_push_sending.png)
 
 此 **[!UICONTROL 推播通知 — 傳送統計資料]** 此表格提供與推播通知相關之基本資料的簡要摘要，包括關鍵量度，例如目標訊息數目以及成功傳送的訊息數目。
@@ -373,6 +490,11 @@ ht-degree: 4%
 
 ### 推播通知 - 追蹤統計資料 {#push-tracking-stat}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_tracking_statistics"
+>title="推播通知 - 追蹤統計資料"
+>abstract="XX"
+
 此 **[!UICONTROL 推播 — 追蹤統計資料]** widget提供與您的推播通知相連結的個人資料活動的詳細快照，提供參與和推播通知有效性的基本深入分析。
 
 +++ 進一步瞭解推播通知 — 追蹤統計量度
@@ -386,6 +508,11 @@ ht-degree: 4%
 +++
 
 ### 推播通知 - 傳送摘要 {#push-summary}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_sending_summary"
+>title="推播通知 - 傳送摘要"
+>abstract="XX"
 
 ![](assets/journey_push_summary.png)
 
@@ -407,11 +534,21 @@ ht-degree: 4%
 
 ### 推播通知 - 錯誤原因 {#push-error-reasons}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_error_reasons"
+>title="推播通知 - 錯誤原因"
+>abstract="XX"
+
 ![](assets/journey_push_error.png)
 
 此 **[!UICONTROL 錯誤原因]** 表格和圖表可讓您識別在傳送推播通知的過程中發生的特定錯誤，針對過程中遇到的任何問題提供詳細分析。
 
 ### 推播通知 - 排除原因 {#push-excluded}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_excluded_reasons"
+>title="推播通知 - 排除原因"
+>abstract="XX"
 
 ![](assets/journey_push_excluded.png)
 
@@ -420,6 +557,11 @@ ht-degree: 4%
 請參閱 [此頁面](exclusion-list.md) 以取得排除原因的完整清單。
 
 ### 推播通知 - 依平台劃分 {#push-breakdown}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_breakdown_platform"
+>title="推播通知 — 依據平台的劃分"
+>abstract="XX"
 
 ![](assets/journey_push_breakdown.png)
 
@@ -451,6 +593,11 @@ ht-degree: 4%
 
 ### 簡訊 - 傳送統計資料 {#sms-sending-stat}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_sending_statistics"
+>title="簡訊 - 傳送統計資料"
+>abstract="XX"
+
 ![](assets/journey_sms_sending.png)
 
 此 **[!UICONTROL 簡訊 — 傳送統計資料]** 表格提供與您的SMS訊息相關之基本資料的簡要摘要，包含關鍵量度，例如目標訊息數目和成功傳送訊息的計數。
@@ -473,6 +620,11 @@ ht-degree: 4%
 
 ### 簡訊 — 追蹤統計資料 {#sms-tracking-stat}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_tracking_statistics"
+>title="簡訊 — 追蹤統計資料"
+>abstract="XX"
+
 ![](assets/journey_sms_tracking.png)
 
 此 **[!UICONTROL 簡訊 — 追蹤統計資料]** Widget提供與訪客與您URL互動相關之關鍵資訊的詳細概觀，提供您SMS訊息有效性的深入分析。
@@ -482,6 +634,11 @@ ht-degree: 4%
 * **[!UICONTROL 點按次數]**：內容在簡訊訊息中的點按次數。
 
 ### 簡訊 - 依日期劃分的效能 {#sms-performance-date}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_perfomance_date"
+>title="簡訊 - 依日期劃分的效能"
+>abstract="XX"
 
 ![](assets/journey_sms_performance.png)
 
@@ -499,17 +656,32 @@ ht-degree: 4%
 
 ### 簡訊 - 退回原因 {#sms-bounce}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_bounces_reasons"
+>title="簡訊 - 退回原因"
+>abstract="XX"
+
 ![](assets/journey_sms_bounce_reasons.png)
 
 此 **[!UICONTROL 退回原因]** 圖表和表格提供與彈回SMS訊息相關的完整資料概觀，針對SMS訊息彈回例項背後的特定原因提供有價值的深入分析。
 
 ### 簡訊 - 錯誤原因 {#sms-error}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_error_reasons"
+>title="簡訊 - 錯誤原因"
+>abstract="XX"
+
 ![](assets/journey_sms_error.png)
 
 此 **[!UICONTROL 錯誤原因]** 圖表和表格可讓您識別SMS訊息傳送過程中發生的特定錯誤，促進對所遇到的任何問題進行徹底分析。
 
 ### 簡訊 - 排除原因 {#sms-excluded}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_excluded_reasons"
+>title="簡訊 - 排除原因"
+>abstract="XX"
 
 ![](assets/journey_sms_excluded.png)
 
@@ -518,6 +690,11 @@ ht-degree: 4%
 請參閱 [此頁面](exclusion-list.md) 以取得排除原因的完整清單。
 
 ### 簡訊 - 點選次數依連結劃分 {#sms-clicks}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_clicks"
+>title="簡訊 - 點選次數依連結劃分"
+>abstract="XX"
 
 ![](assets/journey_sms_clicks.png)
 
@@ -528,6 +705,11 @@ ht-degree: 4%
 從您的歷程 **[!UICONTROL 全域報告]**，則 **[!UICONTROL 應用程式內]** 索引標籤會詳細說明歷程中傳送之應用程式內訊息的相關主要資訊。
 
 ### 應用程式內效能 {#inapp-performance}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_inapp_performance"
+>title="應用程式內效能"
+>abstract="XX"
 
 ![](assets/journey_inapp_performance.png)
 
@@ -552,11 +734,21 @@ ht-degree: 4%
 
 ### 應用程式內摘要 {#inapp-summary}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_inapp_summary"
+>title="應用程式內摘要"
+>abstract="XX"
+
 ![](assets/journey_inapp_summary.png)
 
 此 **[!UICONTROL 應用程式內摘要]** 圖表會說明應用程式內曝光次數和互動在指定期間內的進度，提供應用程式內訊息效能的完整概覽。
 
 ### 依類型劃分的互動 {#interactions-type}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_inapp_interactions"
+>title="依類型劃分的互動"
+>abstract="XX"
 
 ![](assets/journey_inapp_interactions.png)
 
