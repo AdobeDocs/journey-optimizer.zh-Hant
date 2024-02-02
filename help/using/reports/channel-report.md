@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '3683'
 ht-degree: 25%
@@ -214,7 +214,7 @@ ht-degree: 25%
 
 ![](assets/channel_email_sent_domains.png)
 
-此  **[!UICONTROL 依網域傳送和傳遞]** 表格和圖表提供網域層級電子郵件傳送的詳細劃分，提供電子郵件效能的完整深入分析。
+此 **[!UICONTROL 依網域傳送和傳遞]** 表格和圖表提供網域層級電子郵件傳送的詳細劃分，提供電子郵件效能的完整深入分析。
 
 +++ 進一步瞭解依網域進行之傳送和傳遞的量度
 
@@ -233,7 +233,7 @@ ht-degree: 25%
 
 ![](assets/channel_email_bounces_domain.png)
 
-此  **[!UICONTROL 依網域區分的退回和錯誤]** 圖表和表格提供傳送程式期間所遇到特定錯誤的網域層級劃分，針對所發生的問題提供詳細分析。
+此 **[!UICONTROL 依網域區分的退回和錯誤]** 圖表和表格提供傳送程式期間所遇到特定錯誤的網域層級劃分，針對所發生的問題提供詳細分析。
 
 +++ 進一步瞭解依網域量度的跳出和錯誤
 
@@ -252,7 +252,7 @@ ht-degree: 25%
 
 ![](assets/channel_email_open_domains.png)
 
-此  **[!UICONTROL 依網域開啟和點按]** 圖形和表格會顯示訪客與電子郵件互動的網域層級劃分，提供不同網域與內容互動方式的寶貴深入分析。
+此 **[!UICONTROL 依網域開啟和點按]** 圖形和表格會顯示訪客與電子郵件互動的網域層級劃分，提供不同網域與內容互動方式的寶貴深入分析。
 
 +++ 進一步瞭解依網域量度的開啟和點按次數
 
@@ -271,7 +271,7 @@ ht-degree: 25%
 
 ![](assets/channel_email_bounce_domain.png)
 
-此  **[!UICONTROL 依網域區分的退回原因]** 圖表和表格提供有關暫時和永久錯誤的網域層級資料劃分，提供退回訊息背後原因的詳細深入分析。
+此 **[!UICONTROL 依網域區分的退回原因]** 圖表和表格提供有關暫時和永久錯誤的網域層級資料劃分，提供退回訊息背後原因的詳細深入分析。
 
 有關退信的詳細資訊，請參閱 [隱藏清單](../reports/suppression-list.md) 頁面。
 

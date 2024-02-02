@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
-source-wordcount: '4648'
-ht-degree: 19%
+source-wordcount: '4806'
+ht-degree: 17%
 
 ---
 
@@ -270,9 +270,14 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ### 依網域劃分的已傳送和已送達郵件 {#sent-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_sent_domains"
+>title="依網域劃分的已傳送和已送達郵件"
+>abstract="「依網域傳送和傳遞」表格和圖表提供依網域分類的電子郵件劃分，呈現對電子郵件通訊整體績效的深入分析。"
+
 ![](assets/campaign_email_sent_domains.png)
 
-此  **[!UICONTROL 依網域傳送和傳遞]** 表格和圖表提供網域層級的電子郵件詳細劃分，提供電子郵件效能的完整深入分析。
+此 **[!UICONTROL 依網域傳送和傳遞]** 表格和圖表提供網域層級的電子郵件詳細劃分，提供電子郵件效能的完整深入分析。
 
 +++ 進一步瞭解依網域進行之傳送和傳遞的量度
 
@@ -284,9 +289,14 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ### 依網域劃分的退回情形與錯誤 {#bounces-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounces_domains"
+>title="依網域劃分的退回情形與錯誤"
+>abstract="「依網域區分的跳出和錯誤」圖表和表格提供網域層級的詳細劃分，深入分析電子郵件傳送過程中所遇到的特定錯誤。"
+
 ![](assets/campaign_email_bounce_domains.png)
 
-此  **[!UICONTROL 依網域區分的退回和錯誤]** 圖表和表格提供傳送程式期間所遇到特定錯誤的網域層級劃分，針對所發生的問題提供詳細分析。
+此 **[!UICONTROL 依網域區分的退回和錯誤]** 圖表和表格提供傳送程式期間所遇到特定錯誤的網域層級劃分，針對所發生的問題提供詳細分析。
 
 +++ 進一步瞭解依網域量度的跳出和錯誤
 
@@ -298,9 +308,14 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ### 依網域劃分的開啟和點選動作 {#opens-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_open_domains"
+>title="依網域劃分的開啟和點選動作"
+>abstract="「依網域區分的開啟與點按」圖表和表格提供網域層級的詳細劃分，呈現受眾如何與您的電子郵件互動的完整檢視。"
+
 ![](assets/campaign_email_open_domains.png)
 
-此  **[!UICONTROL 依網域開啟和點按]** 圖形和表格會顯示設定檔與電子郵件互動的網域層級劃分，提供不同網域與內容互動方式的寶貴見解。
+此 **[!UICONTROL 依網域開啟和點按]** 圖形和表格會顯示設定檔與電子郵件互動的網域層級劃分，提供不同網域與內容互動方式的寶貴見解。
 
 +++ 進一步瞭解依網域量度的開啟和點按次數
 
@@ -312,9 +327,14 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ### 依網域劃分的退回原因 {#bounce-reasons-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounces_reasons_domains"
+>title="依網域劃分的退回原因"
+>abstract="「依網域區分的跳出原因」圖表和表格提供網域層級的劃分，提供暫時和永久錯誤的全面深入分析。 這項詳細分析可為您提供退回訊息背後特定原因的重要資訊。"
+
 ![](assets/campaign_email_bounce_reasons_domains.png)
 
-此  **[!UICONTROL 依網域區分的退回原因]** 圖表和表格提供有關暫時和永久錯誤的網域層級資料劃分，提供退回訊息背後原因的詳細深入分析。
+此 **[!UICONTROL 依網域區分的退回原因]** 圖表和表格提供有關暫時和永久錯誤的網域層級資料劃分，提供退回訊息背後原因的詳細深入分析。
 
 +++ 進一步瞭解依網域量度的退回原因
 
@@ -366,7 +386,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 >[!NOTE]
 >
->此 **[!UICONTROL 已最佳化與未最佳化]** 和 **[!UICONTROL 傳送時間最佳化]**  只有當您的電子郵件已啟用傳送時間最佳化選項時，才可使用Widget。 如需傳送時間最佳化的詳細資訊，請參閱 [此頁面](../building-journeys/journeys-message.md#send-time-optimization).
+>此 **[!UICONTROL 已最佳化與未最佳化]** 和 **[!UICONTROL 傳送時間最佳化]** 只有當您的電子郵件已啟用傳送時間最佳化選項時，才可使用Widget。 如需傳送時間最佳化的詳細資訊，請參閱 [此頁面](../building-journeys/journeys-message.md#send-time-optimization).
 
 此 **[!UICONTROL 已最佳化與未最佳化]** 和 **[!UICONTROL 傳送時間最佳化]** Widget會詳細說明與訊息相關的主要資訊，無論是否已最佳化。
 
@@ -554,7 +574,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 >[!NOTE]
 >
->此 **[!UICONTROL 已最佳化與未最佳化]** 和 **[!UICONTROL 傳送時間最佳化]**  只有為您的推播通知啟動傳送時間最佳化選項時，才可使用Widget。 如需傳送時間最佳化的詳細資訊，請參閱 [此頁面](../building-journeys/journeys-message.md#send-time-optimization).
+>此 **[!UICONTROL 已最佳化與未最佳化]** 和 **[!UICONTROL 傳送時間最佳化]** 只有為您的推播通知啟動傳送時間最佳化選項時，才可使用Widget。 如需傳送時間最佳化的詳細資訊，請參閱 [此頁面](../building-journeys/journeys-message.md#send-time-optimization).
 
 此 **[!UICONTROL 已最佳化與未最佳化]** 和 **[!UICONTROL 傳送時間最佳化]** Widget會詳細說明與訊息相關的主要資訊，無論是否已最佳化。
 
@@ -599,7 +619,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="推播通知 - 依平台劃分"
->abstract="「依平台劃分」圖表和表格根據設定檔的作業系統提供推播通知成功傳送的詳細劃分資料。"
+>abstract="推播通知 — 依平台劃分圖表和表格會根據設定檔的作業系統，提供推播通知成功劃分資訊。"
 
 ![](assets/campaign_push_breakdown.png)
 
@@ -632,7 +652,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
 >title="簡訊 - 傳送統計資料"
->abstract="「簡訊傳送統計資料」表格總結有關簡訊的基本資料，例如指定對象或已送達的簡訊。"
+>abstract="SMS — 傳送統計資料表格會摘要有關SMS訊息的基本資料，例如已鎖定或已傳送的訊息。"
 
 ![](assets/campaign_sms_sending.png)
 
@@ -656,6 +676,11 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ### 簡訊 — 追蹤統計資料 {#sms-tracking-statistics}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_sms_tracking_statistics"
+>title="簡訊 — 追蹤統計資料"
+>abstract="SMS — 追蹤統計Widget提供與訪客與您URL互動相關之基本資訊的完整概觀。"
+
 ![](assets/campaign_sms_tracking.png)
 
 此 **[!UICONTROL 簡訊 — 追蹤統計資料]** Widget提供與訪客與您URL互動相關之關鍵資訊的詳細概觀，提供您SMS訊息有效性的深入分析。
@@ -673,7 +698,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
 >title="簡訊 - 依日期劃分的效能"
->abstract="「簡訊效能依日期劃分」介面工具透過圖形呈現方式提供有關簡訊的重要資訊。"
+>abstract="- SMS依日期效能Widget可透過圖形化呈現方式提供有關您訊息的重要資訊。"
 
 ![](assets/campaign_sms_performance.png)
 
@@ -727,7 +752,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
 >title="簡訊 - 點選次數依連結劃分"
->abstract="「簡訊 - 點選次數依連結劃分」介面工具提供有關訪客參與訊息中 URL 互動的重要深入分析"
+>abstract="SMS — 連結點按次數Widget提供訪客與訊息中URL互動的基本深入分析。"
 
 ![](assets/campaign_sms_clicks.png)
 
