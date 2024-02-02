@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
+source-git-commit: 3fe533c9a1c2cd83d813d26288a2f1f63f84b2ad
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 24%
+source-wordcount: '471'
+ht-degree: 19%
 
 ---
 
@@ -58,6 +58,18 @@ ht-degree: 24%
 
 ## 影片 {#video-sms}
 
-若要深入瞭解原生輸入關鍵字如何支援 (START、STOP 和 UNSTOP) 的運作方式，請參閱下列影片：
+* 以下影片說明原生輸入關鍵字支援（START、STOP和UNSTOP）如何用於SMS。
 
->[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
++++ 觀看影片
+
+  >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
+
++++
+
+* 以下影片可協助您瞭解如何設定簡訊的雙重選擇加入。
+
++++ 觀看影片
+
+  >[!VIDEO](ttps://video.tv.adobe.com/v/3427129/?learn=on)
+
++++
