@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: dc5655d05a491568ee2a9f4a4a75939cfcc812e7
+source-git-commit: 0144a772f67ffa03e39a70de41c54a6cf88cdd69
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 77%
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 77%
 
 >[!TAB 強制性 DMARC 更新]
 
-作為強制執行業界最佳實務的一部分，從 **2024 年 2 月 1 日**&#x200B;起，Google 和 Yahoo 都將要求您擁有用來傳送電子郵件給他們的任何網域的 **DMARC 記錄**。 請確定您已為在 Journey Optimizer 中委派給 Adobe 的所有子網域設定 DMARC 記錄。
+Google和Yahoo！ 都要求您擁有 **DMARC記錄** ，適用於您用來傳送電子郵件給他們的任何網域，從 **2024年2月1日**. 請確定您已為在 Journey Optimizer 中委派給 Adobe 的所有子網域設定 DMARC 記錄。
 
 [![影像](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
