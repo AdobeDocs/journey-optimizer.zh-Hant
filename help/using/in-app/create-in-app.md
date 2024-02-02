@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 97e925529f5b61138474d53f7df404ff6ea44ba9
 workflow-type: tm+mt
-source-wordcount: '1939'
+source-wordcount: '1961'
 ht-degree: 13%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 13%
 >abstract="透過選取將會啟動訊息的特定活動與條件，有效率地管理觸發器。透過規則產生器，使用者可以定義精確的條件與值。符合這些條件時，就會觸發一系列的動作，包括傳遞應用程式內的訊息。"
 
 您可以在行銷活動或歷程中新增應用程式內訊息。 請依照下列詳細步驟，在兩個內容中建立應用程式內訊息。
+
+請注意，使用者在作業系統上選擇加入或選擇退出推播通知，並不會影響應用程式內訊息。
 
 >[!BEGINTABS]
 
