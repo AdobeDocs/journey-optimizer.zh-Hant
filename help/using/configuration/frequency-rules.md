@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: ff25658bd69b83cfd1869490c24710f84d4a4ffc
+source-git-commit: 718854c5ab51ad55fde7629415b954a079647c0b
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1137'
 ht-degree: 10%
 
 ---
@@ -174,14 +174,14 @@ ht-degree: 10%
 1. [建立規則](#create-new-rule) 已呼叫 *整體行銷上限*：
 
    * 選取電子郵件和推播通道。
-   * 將上限設為12。
+   * 將上限設定為每月12個。
 
    ![](assets/message-rules-ex-overall-cap.png)
 
 1. 若要進一步限制傳送給使用者的行銷型推播通知數量，請建立第二個規則，稱為 *推播行銷上限*：
 
    * 選取推播頻道。
-   * 將上限設為4。
+   * 將上限設定為每月4個。
 
    ![](assets/message-rules-ex-push-cap.png)
 
