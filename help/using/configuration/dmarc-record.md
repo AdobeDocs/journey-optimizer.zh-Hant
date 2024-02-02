@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子網域，網域，郵件， dmarc，記錄
-source-git-commit: f1f57e1b7398e0c235e5ecb80b58a8b7761d0e55
+source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 5%
+source-wordcount: '1364'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="設定 DMARC 記錄"
->abstract="DMARC 是一種電子郵件驗證方法，可讓網域擁有者保護其網域免遭未經授權的使用，並避免信箱提供者的傳遞問題。<br>Google 和 Yahoo 為了執行產業最佳實務，要求您對於傳送電子郵件所使用的任何網域留有 DMARC 記錄。"
+>abstract="DMARC 是一種電子郵件驗證方法，可讓網域擁有者保護其網域免遭未經授權的使用，並避免信箱提供者的傳遞問題。<br>Google和Yahoo！ 都需要您擁有DMARC記錄，才能存取您用來傳送電子郵件給他們的任何網域。"
 
 ## 什麼是DMARC？ {#what-is-dmarc}
 
@@ -30,7 +30,7 @@ DMARC還提供驗證失敗的訊息報告，以及對於未通過DMARC驗證的�
 
 <!--To help you prevent deliverability issues by allowing ISPs to authenticate your sending domains - while gaining visibility and control over mail that fail this authentication, [!DNL Journey Optimizer] will soon be supporting the DMARC technology directly in its administration interface.-->
 
-為了協助您防止傳遞問題，同時控制驗證失敗的郵件， [!DNL Journey Optimizer] 很快將在其管理介面中直接支援DMARC技術。 [了解更多](#implement-dmarc)
+為了協助您防止傳遞問題，同時控制驗證失敗的郵件， [!DNL Journey Optimizer] 現在直接在其管理介面中支援DMARC技術。 [了解更多](#implement-dmarc)
 
 ### DMARC如何運作？ {#how-dmarc-works}
 
@@ -63,19 +63,19 @@ SPF和DKIM都可用來將電子郵件與網域建立關聯，並共同驗證電�
 
 ## DMARC需求更新 {#dmarc-update}
 
-作為強制執行業界最佳實務的一部分，Google和Yahoo都將要求您擁有 **DMARC記錄** 用於傳送電子郵件給他們的任何網域。 此新需求開始於 **2024年2月1日**.
+Google和Yahoo！ 都要求您擁有 **DMARC記錄** 用於傳送電子郵件給他們的任何網域。 此新要求適用於開始使用 **2024年2月1日**.
 
-進一步瞭解Google和Yahoo在中提出的要求 [本節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
+進一步瞭解Google和Yahoo！中的需求 [本節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >
->若未遵守Gmail和Yahoo的新要求，預期會導致電子郵件進入垃圾郵件資料夾或遭到封鎖。 [了解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
+>未能遵循Gmail和Yahoo！的新要求 可能導致電子郵件進入垃圾郵件資料夾或遭到封鎖。 [了解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
 
 因此，Adobe強烈建議您採取下列動作：
 
 * 確定具有 **DMARC記錄** 設定 **您已委派的所有子網域** Adobe於 [!DNL Journey Optimizer]. [了解作法](#check-subdomains-for-dmarc)
 
-* 時間 **委派任何新子網域** 若要Adobe，您很快將能夠 **設定DMARC** 直接 **在 [!DNL Journey Optimizer] 管理介面**. [了解作法](#implement-dmarc)
+* 時間 **委派任何新子網域** 若要Adobe，您可以 **設定DMARC** 直接 **在 [!DNL Journey Optimizer] 管理介面**. [了解作法](#implement-dmarc)
 
 ## 在中實作DMARC [!DNL Journey Optimizer] {#implement-dmarc}
 
@@ -93,7 +93,7 @@ SPF和DKIM都可用來將電子郵件與網域建立關聯，並共同驗證電�
 
    >[!CAUTION]
    >
-   >為符合Gmail和Yahoo的新要求，並避免頂級ISP出現傳遞問題，建議為所有委派的子網域設定DMARC記錄。 [了解更多](dmarc-record-update.md)
+   >為符合Gmail和Yahoo！的新要求，並避免頂級ISP出現傳遞問題，建議為所有委派的子網域設定DMARC記錄。 [了解更多](dmarc-record-update.md)
 
 1. 選取沒有DMARC記錄關聯的子網域，並填入 **[!UICONTROL DMARC記錄]** 區段來依您組織的需求而定。 有關填入DMARC記錄欄位的詳細步驟，請參見 [本節](#implement-dmarc).
 
@@ -117,9 +117,9 @@ SPF和DKIM都可用來將電子郵件與網域建立關聯，並共同驗證電�
 
 >[!CAUTION]
 >
->為符合Gmail和Yahoo的新要求，並避免頂級ISP出現傳遞問題，建議為所有委派的子網域設定DMARC記錄。 [了解更多](dmarc-record-update.md)
+>為符合Gmail和Yahoo！的新要求，並避免頂級ISP出現傳遞問題，建議為所有委派的子網域設定DMARC記錄。 [了解更多](dmarc-record-update.md)
 
-<!--If you fail to comply with the new requirement from Gmail and Yahoo to have DMARC record for all sending domains, your emails are expected to land into the spam folder or to get blocked.-->
+<!--If you fail to comply with the new requirement from Gmail and Yahoo! to have DMARC record for all sending domains, your emails are expected to land into the spam folder or to get blocked.-->
 
 1. 設定新的子網域。 [了解作法](delegate-subdomain.md)
 
@@ -143,7 +143,7 @@ SPF和DKIM都可用來將電子郵件與網域建立關聯，並共同驗證電�
    >
    >作為最佳實務，建議您將DMARC政策從提升到緩慢推出DMARC實施 **無**，至 **隔離**，至 **拒絕** 當您瞭解DMARC的潛在影響時。
 
-1. 或者，新增一或多個您選擇的電子郵件地址，以指出位置 **DMARC報表** 在電子郵件上，該 [驗證失敗](#how-dmarc-works) 應該屬於您的組織。 您最多可以為每個報表新增5個地址。
+1. 您可以選擇新增一或多個您選擇的電子郵件地址，以指出位置 **DMARC報表** 在電子郵件上，該 [驗證失敗](#how-dmarc-works) 應該屬於您的組織。 您最多可以為每個報表新增5個地址。
 
    >[!NOTE]
    >
