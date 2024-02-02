@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d4a91dcd032af03504ab7bbf97b2e19338c32397
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '895'
 ht-degree: 100%
 
 ---
@@ -106,10 +106,6 @@ ht-degree: 100%
 * **代表**：代表是頻道使用的資訊，例如顯示優惠的位置或語言。
 
 ## 作法影片{#video}
-
->[!NOTE]
->
->這些影片適用於以 Adobe Experience 平台為基礎的優惠方案決定應用程式服務，而非特定於 [!DNL Adobe Journey Optimizer]。 不過，它們為 [!DNL Journey Optimizer] 環境中使用的決策管理提供了一般指南。
 
 ### 什麼是決定管理？ {#what-is-offer-decisioning}
 
