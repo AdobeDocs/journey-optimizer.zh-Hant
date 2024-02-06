@@ -11,7 +11,7 @@ exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '3683'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics"
 >title="電子郵件 - 傳送統計資料總計"
->abstract="電子郵件 — 總傳送統計資料KPI會摘要有關您電子郵件的基本資料，例如「已鎖定目標」或「已傳送」訊息。"
+>abstract="電子郵件 - 傳送統計資料總計 KPI 總結有關電子郵件的基本資料，例如指定對象或已送達的郵件。"
 
 ![](assets/channel_email_total_sending.png)
 
@@ -153,7 +153,7 @@ ht-degree: 25%
 
 +++
 
-### 電子郵件 — 退回類別和原因 {#bounce-categories}
+### 電子郵件 - 退回郵件的類別和原因 {#bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_categories"
@@ -375,7 +375,7 @@ ht-degree: 25%
 
 +++
 
-### 推播通知 — 排除的原因 {#push-excluded-reasons}
+### 推播通知 - 排除原因 {#push-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_excluded_reasons"
@@ -388,7 +388,7 @@ ht-degree: 25%
 
 請參閱 [此頁面](exclusion-list.md) 以取得排除原因的完整清單。
 
-### 推播通知 — 錯誤原因 {#push-error-reasons}
+### 推播通知 - 錯誤原因 {#push-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_error_reasons"
@@ -399,7 +399,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL 錯誤原因]** 圖表和表格可讓您識別在傳送推播通知的過程中發生的特定錯誤，針對過程中遇到的任何問題提供詳細的深入分析。
 
-### 推播通知 — 依據平台的追蹤 {#push-tracking-platform}
+### 推播通知 - 依據平台的追蹤 {#push-tracking-platform}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_platform"
@@ -408,7 +408,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL 推播通知 — 依據平台的追蹤]** 圖表和表格會根據您的設定檔作業系統，詳細列出推播通知的收件者活動。
 
-### 推播通知 — 依據平台的傳送 {#push-sending-platform}
+### 推播通知 - 依據平台的傳送 {#push-sending-platform}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics_platform"
@@ -597,7 +597,7 @@ ht-degree: 25%
 
 在管道報表中，應用程式內功能表會詳細說明與促銷活動和歷程中傳送之應用程式內訊息有關的主要資訊。 量度詳情如下。
 
-### 應用程式內參與總數 {#inapp-total-engagement}
+### 應用程式內參與度總計 {#inapp-total-engagement}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement"
@@ -616,11 +616,11 @@ ht-degree: 25%
 
 +++
 
-### 應用程式內參與加班 {#inapp-engagement-overtime}
+### 應用程式內時間區間內參與度情形 {#inapp-engagement-overtime}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement_overtime"
->title="應用程式 - 時間區間內參與情形"
+>title="應用程式 - 時間區間內參與度情形"
 >abstract="「應用程式內 - 時間區間內參與度」圖表追蹤應用程式內曝光和互動次數，提供依每小時、每日、每周和每月劃分的資料。"
 
 ![](assets/channel_inapp_engagement_overtime.png)

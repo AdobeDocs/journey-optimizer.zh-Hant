@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '3484'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -128,7 +128,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 * **[!UICONTROL 重試]**：重試佇列中的電子郵件數。
 +++
 
-### 電子郵件 — 退回類別和原因 {#bounce-categories}
+### 電子郵件 - 退回郵件的類別和原因 {#bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_bounce_categories"
@@ -161,7 +161,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_performance_bydate"
 >title="電子郵件 - 依日期劃分的效能"
->abstract="電子郵件 — 依日期效能圖表顯示過去24小時已傳送電子郵件的全面資料，提供關鍵量度（例如送達和跳出）的深入分析，允許電子郵件傳送過程的詳細分析。"
+>abstract="「電子郵件 - 依日期劃分的效能」圖表顯示過去 24 小時內有關已傳送電子郵件的綜合資料，提供關鍵量度例如送出和退回郵件的深入分析，進而對電子郵件傳送過程進行詳細分析。"
 
 ![](assets/campaign_email_live_performance.png)
 
@@ -198,7 +198,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 此 **[!UICONTROL 錯誤原因]** 圖形和表格可讓您深入瞭解在過去24小時內傳送程式期間發生的特定錯誤。 此資訊對於瞭解錯誤的性質和頻率非常有用。
 
-### 排除的原因 {#email-exclude-reasons}
+### 排除原因 {#email-exclude-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_excluded_reasons"
@@ -467,7 +467,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### 簡訊 — 錯誤原因 {#sms-error-reasons}
+### 簡訊 - 錯誤原因 {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
@@ -476,7 +476,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 此 **[!UICONTROL 排除的原因]** 圖表和表格可讓您識別過去24小時內SMS訊息傳送流程期間發生的特定錯誤，以便深入分析遇到的任何問題。
 
-### 簡訊 — 排除的原因 {#sms-excluded-reasons}
+### 簡訊 - 排除原因 {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"

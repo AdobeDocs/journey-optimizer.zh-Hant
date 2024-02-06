@@ -11,7 +11,7 @@ exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 045a2f930f27728fd0add6ed8fa77f9b728ebae5
 workflow-type: tm+mt
 source-wordcount: '3668'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -237,7 +237,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_performance_bydate_live"
 >title="電子郵件 - 依日期劃分的效能"
->abstract="電子郵件 — 依日期效能圖表顯示過去24小時已傳送電子郵件的全面資料，提供關鍵量度（例如送達和跳出）的深入分析，允許電子郵件傳送過程的詳細分析。"
+>abstract="「電子郵件 - 依日期劃分的效能」圖表顯示過去 24 小時內有關已傳送電子郵件的綜合資料，提供關鍵量度例如送出和退回郵件的深入分析，進而對電子郵件傳送過程進行詳細分析。"
 
 ![](assets/journey_live_email_performance_date.png)
 
@@ -263,11 +263,11 @@ ht-degree: 17%
 
 +++
 
-### 電子郵件 — 退回類別和原因 {#email-bounce-categories}
+### 電子郵件 - 退回郵件的類別和原因 {#email-bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_live"
->title="電子郵件 — 退回類別和原因"
+>title="電子郵件 - 退回郵件的類別和原因"
 >abstract="XX"
 
 ![](assets/journey_live_email_bounce.png)

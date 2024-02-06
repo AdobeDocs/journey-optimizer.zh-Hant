@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '4368'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -169,11 +169,11 @@ ht-degree: 11%
 
 從您的歷程 **[!UICONTROL 全域報告]**，則 **[!UICONTROL 電子郵件]** 索引標籤會詳細說明歷程中傳送之電子郵件相關的主要資訊。
 
-### 電子郵件 — 傳送統計資料 {#email-sending-statistics}
+### 電子郵件 - 傳送統計資料 {#email-sending-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_statistics"
->title="電子郵件 — 傳送統計資料"
+>title="電子郵件 - 傳送統計資料"
 >abstract="「電子郵件 - 發送統計資料」表格總結你的電子郵件的基本資料，例如「指定對象」或「已送達」。"
 
 ![](assets/journey_email_statistics.png)
@@ -244,7 +244,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_performance"
 >title="電子郵件 - 傳送效能"
->abstract="電子郵件 — 傳送績效圖表顯示有關已傳送電子郵件的全面資料，提供關鍵量度（例如傳送和跳出）的深入分析，允許電子郵件傳送過程的詳細分析。"
+>abstract="「電子郵件 - 傳送效能」圖表顯示有關已發送電子郵件的綜合資料，提供關鍵量度 (例如送出郵件和退回郵件) 的深入分析，以利針對電子郵件傳送過程進行詳細分析。"
 
 ![](assets/journey_email_performance.png)
 
@@ -262,11 +262,11 @@ ht-degree: 11%
 
 +++
 
-### 電子郵件 — 退回類別和原因 {#email-bounce-categories}
+### 電子郵件 - 退回郵件的類別和原因 {#email-bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces"
->title="電子郵件 — 退回類別和原因"
+>title="電子郵件 - 退回郵件的類別和原因"
 >abstract="電子郵件 — 跳出類別和原因Widget會彙總有關跳出訊息的資料，針對造成電子郵件跳出的特定原因和類別提供深入分析"
 
 ![](assets/journey_email_bounce_categories.png)

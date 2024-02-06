@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '4806'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -124,7 +124,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ## 電子郵件標籤 {#email-global}
 
-### 電子郵件 — 傳送統計資料 {#sending-statistics-email}
+### 電子郵件 - 傳送統計資料 {#sending-statistics-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_statistics"
@@ -190,12 +190,12 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++
 
-### 電子郵件 — 傳送績效 {#sending-performance-email}
+### 電子郵件 - 傳送效能 {#sending-performance-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_performance"
 >title="電子郵件 - 傳送效能"
->abstract="電子郵件 — 傳送績效圖表顯示有關已傳送電子郵件的全面資料，提供關鍵量度（例如傳送和跳出）的深入分析，允許電子郵件傳送過程的詳細分析。"
+>abstract="「電子郵件 - 傳送效能」圖表顯示有關已發送電子郵件的綜合資料，提供關鍵量度 (例如送出郵件和退回郵件) 的深入分析，以利針對電子郵件傳送過程進行詳細分析。"
 
 ![](assets/campaign_email_sending_performance.png)
 
@@ -213,7 +213,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++
 
-### 電子郵件 — 退回原因和類別 {#bounces-email}
+### 電子郵件 - 退回郵件的原因和類別 {#bounces-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounce_categories"
