@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
+source-git-commit: 63a849b50ff7f02da07e6fd74d00f3d9360ad012
 workflow-type: tm+mt
 source-wordcount: '4606'
 ht-degree: 92%
@@ -21,7 +21,7 @@ ht-degree: 92%
 
 ## 2024年2月(#feb-2024)
 
-* 已新增有關如何根據內容資料個人化優惠方案表現的資訊 [閱讀全文](../offers/offer-library/add-representations.md#context-data)
+* 已新增有關如何根據內容資料個人化優惠方案表現的資訊。 [閱讀全文](../offers/offer-library/add-representations.md#context-data)
 
 ## 2024 年 1 月 {#jan-2024}
 
