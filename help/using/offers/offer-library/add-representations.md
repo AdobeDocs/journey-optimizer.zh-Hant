@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 10%
+source-wordcount: '730'
+ht-degree: 8%
 
 ---
 
@@ -136,3 +136,42 @@ ht-degree: 10%
    >
    >僅限 **[!UICONTROL 設定檔屬性]**， **[!UICONTROL 受眾]** 和 **[!UICONTROL 輔助函式]** 來源可用於「決定管理」。
 
+## 根據內容資料個人化表示{#context-data}
+
+當內容資料傳入時 [邊緣決策](../api-reference/offer-delivery-api/edge-decisioning-api.md) 呼叫，您可以利用這些資料以動態方式個人化表現。 例如，您可以根據即時因素（例如在做出決定時的目前天氣條件）來定製優惠方案的表示方式。
+
+若要這麼做，請使用將上下文資料變數直接併入表示內容 `profile.timeSeriesEvents.` 名稱空間。
+
+以下是根據使用者的作業系統來個人化優惠方案表現的語法範例：
+
+```
+ {%#if profile.timeSeriesEvents.device.model = "Apple"%}ios{%else%}android{%/if%} 
+```
+
+包含內容資料的對應Edge decisioning請求如下：
+
+```
+{
+    "body": {
+        "xdm": {
+            "identityMap": {
+                "Email": [
+                    {
+                        "id": "xyz@abc.com"
+                    }
+                ]
+            },
+            "device": {
+                "model": "Apple"
+            }
+        },
+        "extra": {
+            "query": {
+                "decisionScopes": [
+                    "eyJ4ZG06..."
+                ]
+            }
+        }
+    }
+}
+```
