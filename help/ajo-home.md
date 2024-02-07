@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 0144a772f67ffa03e39a70de41c54a6cf88cdd69
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 68%
+ht-degree: 94%
 
 ---
 
@@ -20,25 +20,25 @@ ht-degree: 68%
 
 >[!BEGINTABS]
 
->[!TAB 1月版本已上線！]
+>[!TAB 1 月發行版本已上線！]
 
-探索Adobe Journey Optimizer 24.1版包含的新功能和改進。
+探索 Adobe Journey Optimizer 24.1 發行版本包含的新功能和改進項目。
 
 [![影像](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 >[!TAB 強制性 DMARC 更新]
 
-Google和Yahoo！ 都要求您擁有 **DMARC記錄** ，適用於您用來傳送電子郵件給他們的任何網域，從 **2024年2月1日**. 請確定您已為在 Journey Optimizer 中委派給 Adobe 的所有子網域設定 DMARC 記錄。
+作為強制執行業界最佳實務的一部分，Google 和 Yahoo! 都要求您擁有 **DMARC記錄** ，適用於您用來傳送電子郵件給他們的任何網域，從 **2024年2月1日**. 請確定您已為在 Journey Optimizer 中委派給 Adobe 的所有子網域設定 DMARC 記錄。
 
 [![影像](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
 >[!TAB 使用案例教戰手冊]
 
-在Real-Time CDP和Journey Optimizer中運用產業特定使用案例教戰手冊的目錄，以解決您可以使用Adobe Experience Platform和Adobe Journey Optimizer執行的常見使用案例。
+在 Real-Time CDP 和 Journey Optimizer 中，利用特定產業使用案例教戰手冊的目錄，解決您可以使用 Adobe Experience Platform 和 Adobe Journey Optimizer 來執行的常見使用案例。
 
-一旦您選擇了最符合您需求的教戰手冊，您可以啟用它來產生支援使用案例所需的資產，例如歷程、訊息、結構描述或區段，並根據您的結構描述自訂它們，以更快實現價值。
+在您選擇最符合需求的教戰手冊後，您可加以啟用來產生歷程、訊息、結構描述或區段等支援使用案例所需的資產，並根據結構描述來予以自訂，以加速創造價值。
 
-![顯示使用案例教戰手冊的動畫影像](using/rn/assets/do-not-localize/playbooks.gif)
+![顯示使用案例教戰手冊的動態影像](using/rn/assets/do-not-localize/playbooks.gif)
 
 [![影像](using/assets/do-not-localize/learn-more-button.svg)](using/start/playbooks.md)
 
