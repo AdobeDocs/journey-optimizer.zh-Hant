@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 設定檔，更新，歷程，活動
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
+source-git-commit: 9010b173eb5126fff72d71aa582b265cc05fddf0
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 7%
+source-wordcount: '614'
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,11 @@ ht-degree: 7%
 * 傳送至Adobe Experience Platform的更新要求為立即/在一秒內。 這通常需要幾秒鐘的時間，但有時更長，無法保證。 因此，舉例來說，如果動作使用由更新的「欄位1」， **更新設定檔** 放在之前的動作，您不應該預期動作中會更新「欄位1」。
 * 此 **更新設定檔** 活動不支援定義為列舉的XDM欄位。
 * 此 **[!UICONTROL 更新設定檔]** 活動只會更新 [設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}而不是資料湖。
-* 在中選取資料集時 **[!UICONTROL 更新設定檔]** 活動，建議使用未由資料擷取流程鎖定的活動。 **[!UICONTROL 更新設定檔]** 更新只會儲存在 [設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}，您可能會以資料擷取流程覆寫這類變更。
+* 在中選取資料集時 **[!UICONTROL 更新設定檔]** 活動，建議使用未由資料擷取流程鎖定的活動。 因為 **更新設定檔** 更新只會儲存在 [設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}，您可能會以資料擷取流程覆寫這些變更。
+
+  此外， **更新設定檔** 活動設定不需要身分名稱空間。 因此，請確保選取的資料集使用啟動歷程的動作所使用的相同身分名稱空間，因為這些更新將使用此名稱空間。 身分對應也可以由選取的資料集使用。 若未選取具有正確名稱空間或使用身分對應的資料集，將會導致 **更新設定檔** 活動失敗。
+
+
 
 ## 使用設定檔更新
 
