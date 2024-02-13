@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '4368'
-ht-degree: 12%
+ht-degree: 27%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance"
 >title="歷程績效"
->abstract="歷程績效Widget可讓您在目標設定檔進行歷程時，以視覺化方式追蹤其路徑。"
+>abstract="「歷程績效」Widget 使您能夠以視覺化方式追蹤目標設定檔在您的歷程中的進展路徑。"
 
 ![](assets/journey_performance.png)
 
@@ -60,7 +60,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_statistics"
 >title="歷程統計資料"
->abstract="歷程統計關鍵績效指標(KPI)是功能完整的儀表板，提供與您的歷程相關之基本量度的深入分析。"
+>abstract="「歷程統計資料關鍵績效指標 (KPI)」是一種綜合儀表板，提供與您歷程相關重要指標的深入分析。"
 
 ![](assets/journey_statistics.png)
 
@@ -81,7 +81,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_performance"
 >title="動作績效"
->abstract="動作效能Widget會說明在起始動作時最成功的動作。"
+>abstract="「動作績效」Widget 顯示了啟動動作時發生的最成功動作。"
 
 ![](assets/journey_action_performance.png)
 
@@ -92,7 +92,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_top_actions"
 >title="熱門動作"
->abstract="「排名在前的動作」表格可整合有關動作的重要資訊，並提供每個動作的頻率和效能的精簡觀察。"
+>abstract="「熱門動作」表格整合了有關您的動作的重要資訊，提供對每個動作的頻率和有效性的簡明觀察。"
 
 ![](assets/journey_top_actions.png)
 
@@ -111,29 +111,29 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_error_reasons"
 >title="動作錯誤原因"
->abstract="「動作」錯誤原因表格和圖表提供執行動作期間所遭遇錯誤的完整摘要，以及可能已發生問題的全面概觀。"
+>abstract="「動作錯誤原因」表格和圖表提供執行動作期間遇到錯誤的完整摘要，進而提供可能發生問題的全面概觀。"
 
 ![](assets/journey_action_error.png)
 
 此 **[!UICONTROL 動作錯誤原因]** 表格和圖表提供執行期間發生錯誤的全面概觀 **[!UICONTROL 動作]**.
 
-### 依據來源的事件 {#events-origin}
+### 依據來源劃分的事件 {#events-origin}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin"
->title="依據來源的事件"
->abstract="「依來源的事件」表格和圖形可提供成功接收事件的檢視。 這些視覺呈現方式可讓您精確識別有效接收的事件，針對歷程中每個事件的效能和影響提供有價值的深入分析。"
+>title="依據來源劃分的事件"
+>abstract="「依據來源劃分的事件」表格和圖表提供成功接收事件的檢視。這些視覺表示可讓您準確識別有效接收的事件，進而為您歷程中每個事件的績效和影響提供珍貴的深入解析。"
 
 ![](assets/journey_events_origin.png)
 
 此 **[!UICONTROL 依據來源的事件]** 表格和圖表可讓您從詳細角度瞭解成功接收您的 **[!UICONTROL 事件]**. 透過這些視覺化表示法，您可以精確地辨識 **[!UICONTROL 事件]** 獲得有效接收，針對歷程中個別事件的效能和影響提供寶貴見解。
 
-### 依事件收到的事件 {#events-received}
+### 依事件劃分收到的事件 {#events-received}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_received"
->title="依事件收到的事件"
->abstract="「依事件收到的事件」圖表可讓您識別和分析歷程中有效執行的特定事件，針對個別事件的效能和成功率提供有價值的深入分析。"
+>title="依事件劃分收到的事件"
+>abstract="「依事件劃分收到的事件」圖表可讓您識別和分析歷程中有效執行的特定事件，進而提供有關個別事件績效和成功率的珍貴深入解析。"
 
 ![](assets/journey_event_received.png)
 
@@ -144,7 +144,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_top_events"
 >title="熱門事件"
->abstract="「常用事件」表格可整合事件的基本資料，並提供每個個別事件頻率和效能的精簡觀察資料。"
+>abstract="「熱門事件」表格整合了有關事件的基本資料，進而提供對每個個別事件頻率和績效的簡明觀察。"
 
 ![](assets/journey_top_events.png)
 
@@ -155,7 +155,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_consent_policies"
 >title="同意原則"
->abstract="「同意原則」表格和圖形會顯示在自訂動作中，從每個原則排除的設定檔數量。 此簡報提供對各個同意原則對設定檔排除之影響的清晰分析。"
+>abstract="「同意原則」表格和圖表顯示從自訂動作的每項原則中排除的設定檔數量。此呈現內容可讓您清楚了解每項同意政策對設定檔排除造成的影響。"
 
 ![](assets/journey_consent.png)
 
@@ -239,11 +239,11 @@ ht-degree: 12%
 
 +++
 
-### 電子郵件 - 傳送效能 {#email-performance}
+### 電子郵件 - 傳送績效 {#email-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_performance"
->title="電子郵件 - 傳送效能"
+>title="電子郵件 - 傳送績效"
 >abstract="「電子郵件 - 傳送效能」圖表顯示有關已發送電子郵件的綜合資料，提供關鍵量度 (例如送出郵件和退回郵件) 的深入分析，以利針對電子郵件傳送過程進行詳細分析。"
 
 ![](assets/journey_email_performance.png)
@@ -267,7 +267,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces"
 >title="電子郵件 - 退回郵件的類別和原因"
->abstract="電子郵件 — 跳出類別和原因Widget會彙總有關跳出訊息的資料，針對造成電子郵件跳出的特定原因和類別提供深入分析"
+>abstract="「電子郵件 - 退回郵件的類別和原因」Widget 彙總了有關退回郵件的資料，進而提供對導致電子郵件退回具體原因和類別的深入見解"
 
 ![](assets/journey_email_bounce_categories.png)
 
@@ -301,7 +301,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_excluded_reasons"
 >title="電子郵件 - 排除原因"
->abstract="「排除原因」圖表和表格說明導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明導致使用者設定檔被排除在目標對象之外，而未能收到訊息的各項因素。"
 
 ![](assets/journey_email_excluded.png)
 
@@ -314,7 +314,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sent_delivered_domains"
 >title="依網域劃分的已傳送和已送達郵件"
->abstract="「依網域傳送和傳遞」表格和圖表提供依網域分類的電子郵件劃分，呈現對電子郵件通訊整體績效的深入分析。"
+>abstract="「依網域劃分的已傳送和已送達郵件」表格和圖表提供依網域分類的電子郵件劃分資料，呈現對電子郵件通訊整體績效的深入解析。"
 
 ![](assets/journey_email_sent_domains.png)
 
@@ -328,12 +328,12 @@ ht-degree: 12%
 
 +++
 
-### 依網域劃分的開啟和點選動作 {#open-domains}
+### 依網域劃分的開啟和點按動作 {#open-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_open_clicks_domains"
->title="依網域劃分的開啟和點選動作"
->abstract="「依網域區分的開啟與點按」圖表和表格提供網域層級的詳細劃分，呈現受眾如何與您的電子郵件互動的完整檢視。"
+>title="依網域劃分的開啟和點按動作"
+>abstract="「依網域劃分的開啟和點按動作」圖表和表格提供網域層級的詳細劃分資料，呈現對象與您電子郵件互動方式的全面檢視。"
 
 ![](assets/journey_email_open_domains.png)
 
@@ -352,7 +352,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_errors_domains"
 >title="依網域劃分的退回情形與錯誤"
->abstract="「依網域區分的跳出和錯誤」圖表和表格提供網域層級的詳細劃分，深入分析電子郵件傳送過程中所遇到的特定錯誤。"
+>abstract="「依網域劃分的退回情形與錯誤」圖表和表格提供網域層級的精細劃分資料，可讓您深入了解電子郵件傳送過程中遇到的特定錯誤。"
 
 ![](assets/journey_email_bounce_domains.png)
 
@@ -370,8 +370,8 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_reasons_domains"
->title="依網域列出的退回原因"
->abstract="「依網域區分的跳出原因」圖表和表格提供網域層級的劃分，提供暫時和永久錯誤的全面深入分析。 這項詳細分析可為您提供退回訊息背後特定原因的重要資訊。"
+>title="依網域劃分的退回原因"
+>abstract="「依網域劃分的退回原因」圖表和表格提供網域層級的劃分資料，讓您取得對臨時和永久錯誤的全面深入解析。此詳細分析會為您提供有關退回郵件背後具體原因的珍貴資訊。"
 
 ![](assets/journey_email_bounce_reasons_domain.png)
 
@@ -388,12 +388,12 @@ ht-degree: 12%
 
 此 **[!UICONTROL 電子郵件 — 熱門URL]** 圖表和表格提供電子郵件中吸引最高訪客流量之URL的完整概觀。 這可讓您識別最熱門的連結並排定其優先順序，進而更瞭解電子郵件中特定內容的設定檔參與情形。
 
-### 電子郵件 — 最佳化 {#email-sto}
+### 電子郵件 - 最佳化 {#email-sto}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization"
->title="電子郵件 — 最佳化"
->abstract="傳送時間最佳化及已最佳化與未最佳化的Widget提供關於您訊息的詳細資訊，並醒目提示訊息是否已最佳化。"
+>title="電子郵件 - 最佳化"
+>abstract="「傳送時間最佳化」和「最佳化與非最佳化」Widget 提供有關您郵件的詳細資訊，進而凸顯它們是否已最佳化。"
 
 ![](assets/journey_email_sto.png)
 
@@ -416,12 +416,12 @@ ht-degree: 12%
 
 +++
 
-### 電子郵件 — 優惠方案 {#email-offers}
+### 電子郵件 - 優惠 {#email-offers}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers"
->title="電子郵件 — 優惠方案"
->abstract="優惠統計和優惠詳細統計Widget提供優惠效能的全面深入分析，提供一段時間影響的詳細分析，並提供詳細統計資料，以便更深入地瞭解。"
+>title="電子郵件 - 優惠"
+>abstract="「優惠統計資料」和「優惠詳細統計資料」Widget 提供對優惠績效的全面深入解析，進而提供其長期影響的詳細分析，並呈現詳細的統計資料以供更深入的了解。"
 
 >[!NOTE]
 >
@@ -537,7 +537,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_error_reasons"
 >title="推播通知 - 錯誤原因"
->abstract="「錯誤原因」圖表和表格可讓您識別在傳送過程中發生的特定錯誤"
+>abstract="「錯誤原因」圖表和表格可讓您識別傳送過程中發生的特定錯誤"
 
 ![](assets/journey_push_error.png)
 
@@ -548,7 +548,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons"
 >title="推播通知 - 排除原因"
->abstract="「排除的原因」圖表和表格說明了從目標對象排除的使用者設定檔無法接收訊息的各種因素。"
+>abstract="「排除原因」圖表和表格會說明導致使用者設定檔排除在目標對象之外，而未能收到訊息的各項因素。"
 
 ![](assets/journey_push_excluded.png)
 
@@ -561,7 +561,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_breakdown_platform"
 >title="推播通知 - 依平台劃分"
->abstract="推播通知 — 依平台劃分圖表和表格會根據設定檔的作業系統，提供推播通知成功劃分資訊。"
+>abstract="「推播通知 - 依平台劃分」圖表和表格，會根據設定檔的作業系統提供推播通知成功傳送的劃分資料。"
 
 ![](assets/journey_push_breakdown.png)
 
@@ -596,7 +596,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_sending_statistics"
 >title="簡訊 - 傳送統計資料"
->abstract="SMS — 傳送統計資料表格會摘要有關SMS訊息的基本資料，例如已鎖定或已傳送的訊息。"
+>abstract="「簡訊 - 傳送統計資料」表格會總結有關簡訊的基本資料，例如指定對象或已送達的簡訊。"
 
 ![](assets/journey_sms_sending.png)
 
@@ -618,12 +618,12 @@ ht-degree: 12%
 
 +++
 
-### 簡訊 — 追蹤統計資料 {#sms-tracking-stat}
+### 簡訊 - 追蹤統計資料 {#sms-tracking-stat}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_tracking_statistics"
->title="簡訊 — 追蹤統計資料"
->abstract="SMS — 追蹤統計Widget提供與訪客與您URL互動相關之基本資訊的完整概觀。"
+>title="簡訊 - 追蹤統計資料"
+>abstract="「簡訊 - 追蹤統計資料」Widget 會提供訪客與您的 URL 互動相關基本資訊的全面概觀。"
 
 ![](assets/journey_sms_tracking.png)
 
@@ -637,8 +637,8 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_perfomance_date"
->title="簡訊 - 依日期劃分的效能"
->abstract="SMS — 按日期效能Widget可透過圖形化呈現方式提供有關訊息的重要資訊。"
+>title="簡訊 - 依日期劃分的績效"
+>abstract="「簡訊 - 依日期劃分的績效」Widget 透過圖形呈現方式提供有關您簡訊的重要資訊。"
 
 ![](assets/journey_sms_performance.png)
 
@@ -681,7 +681,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_reasons"
 >title="簡訊 - 排除原因"
->abstract="「排除原因」圖表和表格說明導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明導致使用者設定檔被排除在目標對象之外，而未能收到訊息的各項因素。"
 
 ![](assets/journey_sms_excluded.png)
 
@@ -689,12 +689,12 @@ ht-degree: 12%
 
 請參閱 [此頁面](exclusion-list.md) 以取得排除原因的完整清單。
 
-### 簡訊 - 點選次數依連結劃分 {#sms-clicks}
+### 簡訊 - 依連結劃分的點按次數 {#sms-clicks}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_clicks"
->title="簡訊 - 點選次數依連結劃分"
->abstract="SMS — 連結點按次數Widget提供訪客與訊息中URL互動的基本深入分析。"
+>title="簡訊 - 依連結劃分的點按次數"
+>abstract="「簡訊 - 依連結劃分的點按次數」Widget 會提供有關訪客與您訊息中 URL 互動的重要深入解析。"
 
 ![](assets/journey_sms_clicks.png)
 
@@ -704,11 +704,11 @@ ht-degree: 12%
 
 從您的歷程 **[!UICONTROL 全域報告]**，則 **[!UICONTROL 應用程式內]** 索引標籤會詳細說明歷程中傳送之應用程式內訊息的相關主要資訊。
 
-### 應用程式內效能 {#inapp-performance}
+### 應用程式內績效 {#inapp-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance"
->title="應用程式內效能"
+>title="應用程式內績效"
 >abstract="應用程式內效能 KPI 提供有關訪客參與應用程式內訊息的重要深入分析。"
 
 ![](assets/journey_inapp_performance.png)

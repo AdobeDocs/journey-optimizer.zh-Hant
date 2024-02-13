@@ -243,11 +243,11 @@ ht-degree: 27%
 
 +++
 
-### 依網域劃分的開啟和點選動作 {#open-clicks-domains}
+### 依網域劃分的開啟和點按動作 {#open-clicks-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_open_clicks_domains"
->title="依網域劃分的開啟和點選動作"
+>title="依網域劃分的開啟和點按動作"
 >abstract="「依網域劃分的開啟和點選動作」圖表和表格呈現依網域層級劃分的訪客參與電子郵件互動的情形。"
 
 ![](assets/channel_email_open_domains.png)

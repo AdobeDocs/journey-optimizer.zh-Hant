@@ -203,7 +203,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_excluded_reasons"
 >title="電子郵件 - 排除原因"
->abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者設定檔被排除在目標對象之外，而未能收到訊息的各項因素。"
 
 ![](assets/campaign_email_live_excluded.png)
 
@@ -222,7 +222,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 此 **[!UICONTROL 電子郵件 — 最佳收件者網域]** 圖表和表格提供過去24小時內設定檔最常用來開啟電子郵件之網域的完整劃分。 這可提供描述檔行為的寶貴見解，可幫助您瞭解偏好的平台。
 
-### 電子郵件 — 優惠方案 {#email-offers}
+### 電子郵件 - 優惠 {#email-offers}
 
 >[!NOTE]
 >
@@ -244,11 +244,11 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 從您的行銷活動 **[!UICONTROL 即時報告]**，則 **[!UICONTROL 應用程式內]** 索引標籤詳細說明與在您的行銷活動中傳送的應用程式內訊息相關的主要資訊。
 
-### 應用程式內效能 {#inapp-performance}
+### 應用程式內績效 {#inapp-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_performance"
->title="應用程式內效能"
+>title="應用程式內績效"
 >abstract="應用程式內效能 KPI 提供有關訪客在過去 24 小時內參與應用程式內訊息的互動情況的重要分析。"
 
 此 **[!UICONTROL 應用程式內績效]** KPI可讓您深入瞭解設定檔在過去24小時內與應用程式內訊息的互動情形，並提供基本量度，以評估應用程式內行銷活動的效益和影響。
@@ -371,7 +371,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_excluded_reasons"
 >title="推播通知 - 排除原因"
->abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者設定檔被排除在目標對象之外，而未能收到訊息的各項因素。"
 
 此 **[!UICONTROL 排除的原因]** 圖形和表格會顯示從目標設定檔中排除的使用者設定檔在最近24小時內無法接收推播通知的不同原因。
 
@@ -450,7 +450,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_performance"
->title="簡訊 - 依日期劃分的效能"
+>title="簡訊 - 依日期劃分的績效"
 >abstract="「依日期劃分的簡訊效能」介面工具透過圖形呈現方式提供過去 24 小時內有關你的簡訊的重要資訊。"
 
 ![](assets/campaign_live_sms_performance_date.png)
@@ -481,7 +481,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
 >title="簡訊 - 排除原因"
->abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者設定檔被排除在目標對象之外，而未能收到訊息的各項因素。"
 
 ![](assets/campaign_live_sms_excluded.png)
 
@@ -502,7 +502,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 從您的行銷活動 **[!UICONTROL 即時報告]**，則 **[!UICONTROL Web]** 標籤會詳細說明與網頁相關的主要資訊。
 
-### 網頁效能 {#web-performance}
+### 網頁績效 {#web-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_web_performance"

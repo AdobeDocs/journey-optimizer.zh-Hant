@@ -113,7 +113,7 @@ ht-degree: 21%
 >
 >目前不支援平行執行子網域 [!DNL Journey Optimizer]. 如果您嘗試提交子網域以進行委派，當另一個子網域具有 **[!UICONTROL 處理中]** 狀態，您會收到錯誤訊息。
 
-## CNAME子網域設定 {#cname-subdomain-delegation}
+## CNAME 子網域設定 {#cname-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"

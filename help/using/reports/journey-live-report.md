@@ -11,7 +11,7 @@ exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 045a2f930f27728fd0add6ed8fa77f9b728ebae5
 workflow-type: tm+mt
 source-wordcount: '3668'
-ht-degree: 18%
+ht-degree: 31%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance_live"
 >title="歷程的績效"
->abstract="歷程績效Widget可讓您以視覺化方式追蹤目標設定檔過去24小時在歷程中的路徑。"
+>abstract="「歷程的績效」Widget 可讓您以視覺化方式追蹤目標設定檔於過去 24 小時內在您的歷程中的進展路徑。"
 
 ![](assets/journey_live_performance.png)
 
@@ -60,7 +60,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_statistics_live"
 >title="歷程的統計資料"
->abstract="歷程統計關鍵績效指標(KPI)是全方位的控制面板，提供與您的歷程相關的過去24小時重要量度的深入分析。"
+>abstract="「歷程統計資料關鍵績效指標 (KPI)」是一種綜合儀表板，提供過去 24 小時與您歷程相關重要指標的深入分析。"
 
 ![](assets/journey_live_statistics.png)
 
@@ -75,12 +75,12 @@ ht-degree: 18%
 * **[!UICONTROL 失敗的個人歷程]**：未成功執行的個別歷程總數。
 +++
 
-### 過去24小時內執行的動作 {#action-executed}
+### 過去 24 小時內執行的動作 {#action-executed}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed_live"
->title="過去24小時內執行的動作"
->abstract="過去24小時內執行的動作Widget提供最近效能的快照，顯示過去24小時內執行動作的效能。"
+>title="過去 24 小時內執行的動作"
+>abstract="「過去 24 小時內執行的動作」Widget 提供最近績效的快照，進而呈現過去 24 小時內執行動作的效益。"
 
 ![](assets/journey_live_executed_24hours.png)
 
@@ -99,7 +99,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed__errors_live"
 >title="已執行的動作和錯誤"
->abstract="已執行的動作和錯誤Widget會展示最成功的動作，以及在過去24小時內觸發動作時所發生的任何錯誤。 此Widget提供成功執行和發生錯誤的全面概觀，為您動作的近期效能提供有價值的深入分析。"
+>abstract="「已執行的動作和錯誤」Widget 呈現過去 24 小時內觸發動作期間發生的最成功動作和任何錯誤。此 Widget 提供成功執行和所遇到錯誤的全面概觀，為您最近的動作績效提供珍貴的見解。"
 
 ![](assets/journey_live_actions_errors.png)
 
@@ -118,29 +118,29 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_errors_live"
 >title="動作錯誤原因"
->abstract="「動作」錯誤原因表格和圖表提供執行動作期間所遇到錯誤的完整摘要，以及過去24小時內可能發生的問題的完整概觀。"
+>abstract="「動作錯誤原因」表格和圖表提供執行動作期間遇到錯誤的完整摘要，進而提供過去 24 小時內可能發生問題的全面概觀。"
 
 ![](assets/journey_live_error_reasons.png)
 
 此 **[!UICONTROL 動作錯誤原因]** 表格和圖表提供過去24小時內執行您的動作期間所發生錯誤的全面概觀。
 
-### 依據動作的錯誤型別 {#error-type-actions}
+### 依動作劃分的錯誤類型 {#error-type-actions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_error_type_live"
->title="依據動作的錯誤型別"
->abstract="「依動作的錯誤型別」表格和圖表提供過去24小時內每次執行動作時所發生錯誤的完整概述。"
+>title="依動作劃分的錯誤類型"
+>abstract="「依動作劃分的錯誤類型」表格和圖表提供過去 24 小時內每次執行動作期間發生錯誤的全面概觀。"
 
 ![](assets/journey_live_error_type.png)
 
 此 **[!UICONTROL 依據動作的錯誤型別]** 表格和圖表提供過去24小時內每次執行您的動作所發生錯誤的全面概觀。
 
-### 過去24小時內執行的事件 {#event-executed-24hours}
+### 過去 24 小時內執行的事件 {#event-executed-24hours}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_24hours_live"
->title="過去24小時內執行的事件"
->abstract="過去24小時內執行的事件Widget可讓您識別在過去24小時內成功執行的事件。 "
+>title="過去 24 小時內執行的事件"
+>abstract="「過去 24 小時內執行的事件」Widget 可讓您識別過去 24 小時內成功執行哪些事件。 "
 
 ![](assets/journey_live_event_24hours.png)
 
@@ -151,18 +151,18 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_live"
 >title="事件"
->abstract="事件Widget提供成功執行之事件的完整檢視，提供過去24小時詳細深入分析的摘要數字、圖表和表格。"
+>abstract="「事件」Widget 提供哪些事件已成功執行的全面檢視，進而提供過去 24 小時內詳細深入解析的摘要數字、圖表和表格。"
 
 ![](assets/journey_live_events.png)
 
 此 **[!UICONTROL 活動]** widget可讓您透過摘要編號、圖表和表格，檢視哪一個事件已成功執行。
 
-### 依據來源的事件 {#events-origin}
+### 依據來源劃分的事件 {#events-origin}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin_live"
->title="依據來源的事件"
->abstract="「依來源的事件」表格和圖表提供過去24小時內成功接收事件的檢視。 這些視覺呈現方式可讓您精確識別有效接收的事件，針對歷程中每個事件的效能和影響提供有價值的深入分析。"
+>title="依據來源劃分的事件"
+>abstract="「依據來源劃分的事件」表格和圖表提供過去 24 小時內成功接收事件的檢視。這些視覺表示可讓您準確識別有效接收的事件，進而為您歷程中每個事件的績效和影響提供珍貴的深入解析。"
 
 ![](assets/journey_events_origin.png)
 
@@ -172,11 +172,11 @@ ht-degree: 18%
 
 從您的歷程 **[!UICONTROL 即時報告]**，則 **[!UICONTROL 電子郵件]** 索引標籤會詳細說明歷程中傳送之電子郵件相關的主要資訊。
 
-### 電子郵件 - 傳送效能 {#email-sending-performance}
+### 電子郵件 - 傳送績效 {#email-sending-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_performance_live"
->title="電子郵件 - 傳送效能"
+>title="電子郵件 - 傳送績效"
 >abstract="「電子郵件 - 傳送統計資料」圖表總結有關你的電子郵件的基本資料，例如過去 24 小時內的指定對象或已送達的郵件。"
 
 ![](assets/journey_live_email_performance.png)
@@ -302,7 +302,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_excluded_live"
 >title="電子郵件 - 排除原因"
->abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者設定檔被排除在目標對象之外，而未能收到訊息的各項因素。"
 
 ![](assets/journey_live_email_excluded.png)
 
@@ -321,12 +321,12 @@ ht-degree: 18%
 
 此 **[!UICONTROL 電子郵件 — 最佳收件者網域]** 圖表和表格提供過去24小時內設定檔最常用來開啟您電子郵件的網域詳細劃分。 這可提供描述檔行為的寶貴見解，可幫助您瞭解偏好的平台。
 
-### 電子郵件 — 優惠方案 {#email-offers}
+### 電子郵件 - 優惠 {#email-offers}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers_live"
->title="電子郵件 — 優惠方案"
->abstract="優惠統計和優惠詳細統計Widget提供過去24小時內優惠方案績效的全面深入分析，提供其未來影響的詳細分析，並提供詳細統計資料，以便更深入地瞭解。"
+>title="電子郵件 - 優惠"
+>abstract="「優惠統計資料」和「優惠詳細統計資料」Widget 提供過去 24 小時對優惠績效的全面深入解析，進而提供其長期影響的詳細分析，並呈現詳細的統計資料以供更深入的了解。"
 
 >[!NOTE]
 >
@@ -344,12 +344,12 @@ ht-degree: 18%
 
 +++
 
-### 電子郵件 — 最佳化 {#email-sto}
+### 電子郵件 - 最佳化 {#email-sto}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization_live"
->title="電子郵件 — 最佳化"
->abstract="傳送時間最佳化及已最佳化與未最佳化的Widget可提供過去24小時有關您訊息的詳細資訊，重點說明訊息是否已最佳化。"
+>title="電子郵件 - 最佳化"
+>abstract="「傳送時間最佳化」和「最佳化與非最佳化」Widget 提供有關您郵件過去 24 小時的詳細資訊，進而凸顯它們是否已最佳化。"
 
 ![](assets/journey_email_sto.png)
 
@@ -479,7 +479,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons_live"
 >title="推播通知 - 排除原因"
->abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者設定檔被排除在目標對象之外，而未能收到訊息的各項因素。"
 
 ![](assets/journey_live_push_excluded.png)
 
@@ -522,7 +522,7 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_performance_live"
->title="簡訊 - 依日期劃分的效能"
+>title="簡訊 - 依日期劃分的績效"
 >abstract="「依日期劃分的簡訊效能」介面工具透過圖形呈現方式提供過去 24 小時內有關你的簡訊的重要資訊。"
 
 ![](assets/journey_live_sms_performance.png)
@@ -566,7 +566,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_live"
 >title="簡訊 - 排除原因"
->abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者設定檔被排除在目標對象之外，而未能收到訊息的各項因素。"
 
 ![](assets/journey_live_sms_excluded.png)
 
@@ -584,12 +584,12 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 
 ## 應用程式內標籤 {#in-app-live}
 
-### 應用程式內效能 {#inapp-performance}
+### 應用程式內績效 {#inapp-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance_live"
->title="應用程式內效能"
->abstract="應用程式內績效KPI可提供訪客過去24小時內與應用程式內訊息互動的基本深入分析。」"
+>title="應用程式內績效"
+>abstract="應用程式內績效 KPI 提供有關訪客在過去 24 小時內與應用程式內訊息互動情況的基本深入解析。"
 
 ![](assets/journey_live_inapp_performance.png)
 
