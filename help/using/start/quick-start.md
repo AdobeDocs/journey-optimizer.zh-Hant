@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: acb4c2dce86afb0b85125413a42094f96366a57d
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 90%
 
 ---
 
@@ -36,3 +36,9 @@ ht-degree: 100%
 * **我是行銷人員**
 
   設計訊息、新增優惠方案、資產和建立客戶歷程。[了解更多](path/marketer.md)
+
+## 操作說明影片 {#video}
+
+瞭解Journey Optimizer的主要功能和角色。 瞭解如何根據您的角色導覽使用者介面。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
