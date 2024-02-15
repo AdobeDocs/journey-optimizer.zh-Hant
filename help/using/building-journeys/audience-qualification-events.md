@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 資格，事件，對象，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
+source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 8%
+source-wordcount: '1043'
+ht-degree: 11%
 
 ---
 
@@ -30,6 +30,8 @@ ht-degree: 8%
 假設您有「銀級客戶」對象。 透過此活動，您可以讓所有新的銀級客戶進入歷程，並向他們傳送一系列個人化訊息。
 
 此類事件可定位為歷程的第一步或後續步驟。
+
+➡️ [在影片中探索此功能](#video)
 
 ### 重要備註{#important-notes-segment-qualification}
 
@@ -126,3 +128,9 @@ ht-degree: 8%
 在生產歷程中使用對象之前，請一律先評估每天符合此對象資格的個人數量。 若要這麼做，您可以檢查 **[!UICONTROL 對象]** 功能表，開啟對象，然後檢視 **[!UICONTROL 一段時間的設定檔]** 圖表。
 
 ![](assets/segment-overload.png)
+
+## 操作說明影片 {#video}
+
+了解對象資格歷程的適用使用案例。 了解如何透過對象資格建立歷程，以及套用哪些最佳實務。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
