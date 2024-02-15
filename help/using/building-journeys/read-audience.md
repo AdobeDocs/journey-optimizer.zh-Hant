@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，對象，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
+source-git-commit: 5b2db1a07030fe688abfed04680d7b31584a526b
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 5%
+source-wordcount: '1438'
+ht-degree: 7%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 5%
 使用 **讀取對象** 活動可讓對象的所有個人進入歷程。 進入歷程可以執行一次，也可以定期執行。
 
 以中建立的「Luma應用程式開啟和簽出」對象為例 [建立對象](../audience/about-audiences.md) 使用案例。 透過讀取對象活動，您可以讓屬於此對象的所有個人進入歷程，並讓他們流入將運用所有歷程功能（條件、計時器、事件、動作）的個人化歷程。
+
+➡️ [在影片中探索此功能](#video)
 
 ## 必讀 {#must-read}
 
@@ -183,3 +185,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 聯合後，您可以執行細分或排除來再次分割對象。
 
 ![](assets/read-segment-audience3.png)
+
+## 操作說明影片 {#video}
+
+了解透過讀取對象活動所觸發歷程的適用使用案例。瞭解如何建立批次式歷程，以及套用哪些最佳實務。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
