@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 27ef6f591fdf5d8175b79bbbf3f59fe65e44106f
+source-git-commit: 9eb0e37b0547a3eb00802711825ecff63ab5f4a6
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 20%
@@ -41,8 +41,7 @@ ht-degree: 20%
 <tbody>
 <tr>
 <td>
-<p>您現在可以使用新的網頁應用程式內傳訊功能，透過強制回應覆蓋訊息，直接在網站上顯示個人化內容。 此功能可讓您有效地與網路訪客互動，提高使用者互動、保留率和轉換率。<br/><!--br/>
-Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p-->
+<p>您現在可以使用新的網頁應用程式內傳訊功能，透過強制回應覆蓋訊息，直接在網站上顯示個人化內容。 此功能可讓您有效地與網路訪客互動，提高使用者互動、保留率和轉換率。<br/><br/></p>
 <!--img src="assets/do-not-localize/computed-attributes.gif"-->
 </tr>
 </tbody>
@@ -58,8 +57,7 @@ Learn more in the <a href="../audience/computed-attributes.md">detailed document
 <tbody>
 <tr>
 <td>
-<p>您現在可以建立套用至SMS和直接郵件頻道的頻率限定規則。 此外，您可以依通訊型別設定頻率限定規則。<br/><!--br/>
-Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p-->
+<p>您現在可以建立套用至SMS和直接郵件頻道的頻率限定規則。 此外，您可以依通訊型別設定頻率限定規則。<br/><br/></p>
 <!--img src="assets/do-not-localize/computed-attributes.gif"-->
 </tr>
 </tbody>
@@ -82,10 +80,11 @@ Learn more in the <a href="../audience/computed-attributes.md">detailed document
 
 **歷程**
 
-* 歷程畫面中的頂端列已重新整理，以改善體驗。 在不同的更新中，請注意允許您存取歷程屬性的「鉛筆」圖示現在會顯示在頂端列的左側、歷程名稱旁邊。
 * 您現在可以使用 **用於篩選歷程的自訂日期** 清查，以及現有的預先定義日期篩選器。 這可讓您調整清單，方法是顯示特定日期、特定月內、整年或指定時間範圍內發佈的歷程。
 * 您現在可以在中的「content-type」標頭上更新 **自訂動作**.
 * stepEvents中的identityMap屬性現在已預先填入。 主要身分定義為「primary = true」。
+* 歷程畫面中的頂端列已重新整理，以改善體驗。 在不同的更新中，請注意允許您存取歷程屬性的「鉛筆」圖示現在會顯示在頂端列的左側、歷程名稱旁邊。
+
 
 **簡訊頻道**
 
