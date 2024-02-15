@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 51d07df4c1db10ea2e1ff76dbd29607c32fbd859
+source-git-commit: 8d3dac39a0f4ea9982c5a8475d310ae0c3be68b1
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 19%
+source-wordcount: '538'
+ht-degree: 18%
 
 ---
 
@@ -77,6 +77,10 @@ ht-degree: 19%
 
 * 您現在可以鎖定目標 **從CSV檔案上傳的對象** 至歷程與行銷活動。 [了解更多](../audience/about-audiences.md#segments-in-journey-optimizer)
 * 您現在可以鎖定目標 **透過對象構成建立的對象** 並在Journeys中運用擴充屬性。 [了解更多](../building-journeys/read-audience.md)
+
+>[!AVAILABILITY]
+>
+>來自對象構成和自訂上傳（CSV檔案）的對象和屬性目前無法用於Healthcare Shield或Privacy and Security Shield。
 
 **歷程**
 
