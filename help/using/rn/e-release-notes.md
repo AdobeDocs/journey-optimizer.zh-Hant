@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d945e22af664876bf5f5403e7e466a1e383e9501
+source-git-commit: 51d07df4c1db10ea2e1ff76dbd29607c32fbd859
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 19%
 
 ---
@@ -85,7 +85,6 @@ ht-degree: 19%
 * **設定** - stepEvents中的identityMap屬性現在已預先填入。 主要身分定義為「primary = true」。
 * **使用者介面**  — 歷程畫面中的頂端列已重新整理，以改善體驗。 在不同的更新中，請注意允許您存取歷程屬性的「鉛筆」圖示現在會顯示在頂端列的左側、歷程名稱旁邊。
 
-
 **簡訊頻道**
 
 * **選擇加入/選擇退出關鍵字**  — 設定簡訊通道時，您現在可以自訂 **選擇加入和選擇退出關鍵字** 根據您的偏好設定。 Journey Optimizer會根據這些指定的關鍵字觸發回應。
@@ -101,4 +100,4 @@ ht-degree: 19%
 **內容範本**
 
 * **縮圖** - A **縮圖檢視** 現在可用於內容範本和片段，以改進視覺存取。
-* **頻道**  — 內容範本現在可用於 **所有管道**，但Web除外。
+* **多頻道範本**  — 內容範本現在可用於 **所有管道**，但Web除外。
