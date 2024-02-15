@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b87ebc097c0c1c52ab21a4d098fbc2e5e227c953
+source-git-commit: 13ee474819aa0b63561946d94111cd76f3d5689d
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '611'
 ht-degree: 95%
 
 ---
@@ -90,6 +90,8 @@ ht-degree: 95%
 * **讀取對象** - **讀取對象**&#x200B;活動現在仰賴批次區段的設定檔快照資料集，其會在排程的每日批次工作執行後產生，一天只會產生一次，因此將會是截至最後的每日批次工作的最新資料。[了解更多](../building-journeys/read-audience.md)
 
 * **欄位群組** - 此發行版本修正在特定情況下無法儲存欄位群組的問題。
+
+* 已在多個函數中修改 `<listObject>` 的支援。
 
 **頻率規則**
 
