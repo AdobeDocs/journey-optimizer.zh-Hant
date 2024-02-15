@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式、編輯器、使用案例、個人化
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
+source-git-commit: f6d56d1d23cca425f01e4c45532d500f3e2d4e2e
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '532'
 ht-degree: 2%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 2%
 
 * 設定訂單事件，包含訂單編號、狀態及料號名稱。 請參閱本[章節](../event/about-events.md)。
 * 建立決定，請參閱此 [區段](../offers/offer-activities/create-offer-activities.md).
+
+➡️ [探索影片中的類似使用案例](#video)
 
 ## 步驟1 — 建立歷程 {#create-journey}
 
@@ -103,3 +105,10 @@ ht-degree: 2%
    ![](assets/perso-uc19.png)
 
 1. 確認沒有錯誤並發佈歷程。
+
+## 操作說明影片 {#video}
+
+以下影片顯示了一個類似的使用案例，運用歷程中的內容資料來個人化電子郵件。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
+
