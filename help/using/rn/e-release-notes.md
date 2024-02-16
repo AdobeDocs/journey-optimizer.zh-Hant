@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 00a1b3cab9f5d7060ab8db9e27a31a6afaede79e
+source-git-commit: 2afb293dfa772967417781e9a3ee6840db262594
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 18%
@@ -42,7 +42,7 @@ ht-degree: 18%
 <tr>
 <td>
 <p>您現在可以使用新的網頁應用程式內傳訊功能，透過強制回應覆蓋訊息，直接在網站上顯示個人化內容。 此功能可讓您有效地與網路訪客互動，提高使用者互動、保留率和轉換率。<br/><br/></p>
-<!--img src="assets/do-not-localize/computed-attributes.gif"-->
+<img src="assets/do-not-localize/web_inapp.gif">
 </tr>
 </tbody>
 </table>
