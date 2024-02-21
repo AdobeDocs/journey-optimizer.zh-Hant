@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+source-git-commit: f34eabfb4eb6d7486819cbc8435844b1ef983af3
 workflow-type: tm+mt
 source-wordcount: '1213'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -205,7 +205,7 @@ Adobe Journey Optimizer目前與獨立於Adobe Journey Optimizer提供文字訊�
 
 **相關主題**
 
-* [建立文字訊息](create-sms.md)
+* [建立文字訊息。](create-sms.md)
 * [在歷程中新增訊息](../building-journeys/journeys-message.md)
 * [在行銷活動中新增訊息](../campaigns/create-campaign.md)
 
