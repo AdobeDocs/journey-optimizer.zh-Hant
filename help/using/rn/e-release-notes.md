@@ -6,9 +6,9 @@ description: Journey Optimizer 搶先發行說明
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1c65043965d1335297127f6cc6c23ec9a7893463
+source-git-commit: a0a4d39519f7f02265c52934db401e036ea12df6
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '609'
 ht-degree: 16%
 
 ---
@@ -80,8 +80,8 @@ ht-degree: 16%
 
 **歷程**
 
-* **篩選您的歷程**  — 您現在可以使用 **用於篩選歷程的自訂日期** 清查，以及現有的預先定義日期篩選器。 這可讓您調整清單，方法是顯示特定日期、特定月內、整年或指定時間範圍內發佈的歷程。
-* **自訂動作**  — 您現在可以在的「content-type」標頭上更新 **自訂動作**.
+* **篩選您的歷程**  — 您現在可以使用 **用於篩選歷程的自訂日期** 清查，以及現有的預先定義日期篩選器。 這可讓您調整清單，顯示在特定日期、特定月內、整年或指定時間範圍內建立或發佈的歷程。
+* **自訂動作**  — 您現在可以更新 **content-type** 標頭。 這個新的 **content-type** 應該參考JSON內容。
 * **設定** - stepEvents中的identityMap屬性現在已預先填入。 主要身分定義為「primary = true」。
 * **使用者介面**  — 歷程畫面中的頂端列已重新整理，以改善體驗。 在不同的更新中，請注意允許您存取歷程屬性的「鉛筆」圖示現在會顯示在頂端列的左側、歷程名稱旁邊。
 
@@ -103,6 +103,6 @@ ht-degree: 16%
 
   >[!AVAILABILITY]
   >
-  >自此版本開始，此功能將逐步推廣到客戶環境。
+  >此功能以Limited Availability (LA)形式發行，適合少數客戶使用。
 
 * **多頻道範本**  — 內容範本現在可用於 **所有管道**，但Web除外。 針對電子郵件，您現在可以選取型別(HTML或內容)。
