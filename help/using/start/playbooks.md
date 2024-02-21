@@ -7,10 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a16de75b2b0604d7a0d6224d03b7c53715903c07
-workflow-type: ht
+source-git-commit: 21e7d416548dd9220d5535573bc6ff17dd0479ec
+workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!PREREQUISITES]
 >
->使用案例教戰手冊在使用之前，需要進行下列設定步驟。每個步驟的詳細資訊，請參閱使用案例教戰手冊文件的[開始使用](https://experienceleague.corp.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html?lang=zh-Hant){target="_blank"}頁面。
+>使用案例教戰手冊在使用之前，需要進行下列設定步驟。每個步驟的詳細資訊，請參閱使用案例教戰手冊文件的[開始使用](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html){target="_blank"}頁面。
 >
 >* 建立沙箱
 >* 設定使用者權限

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: f2037f559826d7cca243092de200c97841c49b35
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1164'
 ht-degree: 17%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="訊息活動"
->abstract="Journey Optimizer 內建訊息功能。您只需在歷程中新增推播、文字簡訊 (SMS/MMS)、應用程式內或電子郵件訊息活動，並定義設定和內容。然後會在歷程的內容中執行和傳送。"
+>abstract="Journey Optimizer 內建訊息功能。您只需在歷程中新增推播、文字訊息、應用程式內或電子郵件訊息活動，以及定義設定和內容即可。 然後會在歷程的內容中執行和傳送。"
 
-[!DNL Journey Optimizer] 隨附內建訊息功能。 您只需在歷程中新增推播、簡訊/多媒體簡訊、應用程式內或電子郵件訊息活動，以及定義設定和內容即可。 然後會在歷程的內容中執行和傳送。
+[!DNL Journey Optimizer] 隨附內建訊息功能。 您只需在歷程中新增推播、SMS、應用程式內或電子郵件訊息活動，並定義設定和內容。然後會在歷程的內容中執行和傳送。
 
 您也可以設定傳送訊息給您的特定動作：
 
@@ -74,7 +74,7 @@ ht-degree: 17%
    <img alt="驗證" src="../assets/do-not-localize/sms.jpg">
    </a>
    <div>
-   <a href="../sms/create-sms.md"><strong>建立文字訊息（簡訊/多媒體簡訊）</strong></a>
+   <a href="../sms/create-sms.md"><strong>建立文字訊息</strong></a>
    </div>
    <p>
    </td>

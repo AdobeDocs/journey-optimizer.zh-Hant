@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子網域，最佳化工具，委派
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 636c86d91d349104388849bbfc4e18bbbe2e4093
+source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '892'
 ht-degree: 27%
 
 ---
@@ -44,10 +44,6 @@ ht-degree: 27%
 * 瞭解如何 [委派您的子網域](delegate-subdomain.md) 直接從介面
 * 瞭解如何 [新增Google TXT記錄](google-txt.md) 至您的子網域，以確保成功傳送電子郵件至Gmail地址
 * 瞭解如何 [存取PTR記錄](ptr-records.md) 為您的子網域產生，可透過傳送郵件伺服器來驗證
-
->[!NOTE]
->
->若要對子網域實作DMARC，請連絡 [Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 ## 子網域設定方法 {#subdomain-delegation-methods}
 

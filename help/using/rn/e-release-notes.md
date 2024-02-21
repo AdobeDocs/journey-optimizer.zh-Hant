@@ -5,15 +5,11 @@ title: 發行說明
 description: Journey Optimizer 搶先發行說明
 feature: Release Notes
 topic: Content Management
-role: User
-level: Beginner, Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2afb293dfa772967417781e9a3ee6840db262594
+source-git-commit: 1c65043965d1335297127f6cc6c23ec9a7893463
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 18%
+source-wordcount: '602'
+ht-degree: 16%
 
 ---
 
@@ -25,7 +21,7 @@ ht-degree: 18%
 
 ## 2024年2月早期發行說明 {#e-2024}
 
-**發行日期**： 2024年2月20日至21日
+**發行日期**： 2024年2月21日至22日
 
 ### 新功能{#e-features}
 
@@ -51,19 +47,17 @@ ht-degree: 18%
 <table>
 <thead>
 <tr>
-<th><strong>Business Rules (beta)</strong><br/></th>
+<th><strong>簡訊和直接郵件的頻率規則</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以建立套用至SMS和直接郵件頻道的頻率限定規則。 此外，您可以依通訊型別設定頻率限定規則。<br/><br/></p>
-<!--img src="assets/do-not-localize/computed-attributes.gif"-->
+<p>您現在可以建立SMS和直接郵件頻道的頻率規則。 達到頻率上限時，頻率規則會自動將過度請求的設定檔從訊息和動作中排除。 <br/><br/></p>
+<img src="assets/do-not-localize/sms-dm-rules.gif">
 </tr>
 </tbody>
 </table>
-
-
 
 ### 改進項目 {#e-improvements}
 
@@ -75,12 +69,14 @@ ht-degree: 18%
 
 先前作為測試版提供，以下改進功能現已可供所有使用者使用：
 
-* 您現在可以鎖定目標 **從CSV檔案上傳的對象** 至歷程與行銷活動。 [了解更多](../audience/about-audiences.md#segments-in-journey-optimizer)
 * 您現在可以鎖定目標 **透過對象構成建立的對象** 並在Journeys中運用擴充屬性。 [了解更多](../building-journeys/read-audience.md)
 
->[!AVAILABILITY]
->
->來自對象構成和自訂上傳（CSV檔案）的對象和屬性目前無法用於Healthcare Shield或Privacy and Security Shield。
+* 您現在可以鎖定目標 **從CSV檔案上傳的對象** 至歷程與行銷活動。 [了解更多](../audience/about-audiences.md#segments-in-journey-optimizer)
+
+  >[!AVAILABILITY]
+  >
+  >* 來自對象構成和自訂上傳（CSV檔案）的對象和屬性目前無法用於Healthcare Shield或Privacy and Security Shield。
+  >* 請注意，從CSV檔案上傳的受眾改良功能，將在初次發行後的數天內逐步推出。 雖然部分使用者可立即存取，但其他使用者在其帳戶中可以使用之前可能會遇到延遲問題。
 
 **歷程**
 
@@ -95,7 +91,7 @@ ht-degree: 18%
 
 **行銷活動**
 
-* **API觸發的行銷活動**  — 資訊已新增至 **cURL要求** 部分 **API觸發的行銷活動** 位於 **草稿** 狀態，指定只有發佈並執行行銷活動後，才會顯示範例cURL要求。
+* **API觸發的行銷活動**  — 增強啟用API觸發的行銷活動後產生的cURL程式碼。 它現在包含訊息中使用的所有個人化（設定檔和內容）變數。
 
 **決策管理**
 
@@ -104,4 +100,9 @@ ht-degree: 18%
 **內容範本**
 
 * **縮圖** - A **縮圖檢視** 現在可用於內容範本和片段，以改進視覺存取。
-* **多頻道範本**  — 內容範本現在可用於 **所有管道**，但Web除外。
+
+  >[!AVAILABILITY]
+  >
+  >自此版本開始，此功能將逐步推廣到客戶環境。
+
+* **多頻道範本**  — 內容範本現在可用於 **所有管道**，但Web除外。 針對電子郵件，您現在可以選取型別(HTML或內容)。

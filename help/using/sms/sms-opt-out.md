@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 文字訊息的選擇退出管理
-description: 瞭解如何透過簡訊/多媒體簡訊管理選擇退出
+description: 瞭解如何透過簡訊管理選擇退出
 feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 099e65cfa4ecbf2e4f4e706415c7fed3313246aa
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '470'
 ht-degree: 19%
 
 ---

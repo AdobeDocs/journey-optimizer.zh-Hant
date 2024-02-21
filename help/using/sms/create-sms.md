@@ -1,37 +1,37 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 建立簡訊/多媒體簡訊訊息
-description: 瞭解如何在Journey Optimizer中建立簡訊/多媒體簡訊
+title: 建立簡訊訊息
+description: 瞭解如何在Journey Optimizer中建立簡訊
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 10%
+source-wordcount: '789'
+ht-degree: 9%
 
 ---
 
-# 建立文字簡訊 (SMS/MMS){#create-sms}
+# 建立文字訊息。 {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="建立文字訊息。"
->abstract="若要建立文字簡訊 (SMS/SMS)，請在歷程或活動中新增 SMS 動作，然後開始使用運算式編輯器對其進行個人化設定。"
+>abstract="若要建立文字訊息，請在歷程或行銷活動中新增SMS動作，並開始使用運算式編輯器進行個人化。"
 
-您可以使用Adobe Journey Optimizer設計和傳送文字(SMS)和多媒體(MMS)訊息。 您首先需要在歷程或行銷活動中新增SMS動作，然後定義文字訊息的內容，如下所述。 Adobe Journey Optimizer也提供在傳送文字訊息前先測試訊息的功能，讓您可檢查轉譯、個人化屬性和所有其他設定。
+您可以使用Adobe Journey Optimizer設計和傳送文字(SMS)。 您首先需要在歷程或行銷活動中新增SMS動作，然後定義文字訊息的內容，如下所述。 Adobe Journey Optimizer也提供在傳送文字訊息前先測試訊息的功能，讓您可檢查轉譯、個人化屬性和所有其他設定。
 
 >[!NOTE]
 >
->根據業界標準及法規，所有簡訊/多媒體簡訊行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 要執行此操作，簡訊收件者可以使用選擇加入和選擇退出關鍵字進行回覆。 [瞭解如何管理選擇退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+>根據行業標準及法規，所有簡訊行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 要執行此操作，簡訊收件者可以使用選擇加入和選擇退出關鍵字進行回覆。 [瞭解如何管理選擇退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 
 ## 新增文字訊息 {#create-sms-journey-campaign}
 
-瀏覽下方的索引標籤，瞭解如何在行銷活動或歷程中新增簡訊(SMS/MMS)。
+瀏覽下方的索引標籤，瞭解如何在行銷活動或歷程中新增文字訊息。
 
 >[!BEGINTABS]
 
@@ -91,9 +91,9 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="定義您的文字簡訊內容"
->abstract="透過使用運算式編輯器定義內容並結合動態元素，自訂與個人化文字簡訊 (SMS/MMS)。"
+>abstract="使用運算式編輯器定義內容並合併動態元素，以自訂和個人化您的文字訊息。"
 
-若要設定簡訊內容，請遵循下列步驟。 有關MMS設定的詳情，請參閱 [本節](#mms-content).
+若要設定簡訊內容，請遵循下列步驟。
 
 1. 在歷程或行銷活動設定畫面中，按一下 **[!UICONTROL 編輯內容]** 按鈕以設定文字訊息內容。
 
@@ -121,36 +121,37 @@ ht-degree: 10%
 
 1. 按一下 **[!UICONTROL 儲存]** 並在預覽中檢視您的訊息。 您現在可以測試和檢查您的訊息內容，如中所述 [本節](#sms-mms-test).
 
+<!--
+## Define your MMS content{#mms-content}
 
-## 定義多媒體簡訊內容{#mms-content}
-
-您可以透過傳送多媒體訊息服務(MMS)訊息、啟用視訊、圖片、音訊剪輯和GIF等媒體共用，來增強您的通訊能力。 此外，MMS最多可在您的訊息中使用1600個字元文字。
+You can enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of media such as videos, pictures, audio clips and GIFs, and more. Additionally, MMS allows for up to 1600 characters of text in your message.
 
 
 >[!NOTE]
 >
->* 此功能目前可透過 **Sinch** 僅限。
+>* This feature is currently available with **Sinch** only.
 >
->* MMS頻道隨附下列幾項限制 [此頁面](../start/guardrails.md#sms-guardrails).
+>* MMS channel comes with a few limitations listed in [this page](../start/guardrails.md#sms-guardrails).
 >
 
-若要建立MMS內容，請遵循下列步驟：
+To create MMS content, follow these steps:
 
-1. 建立SMS，如所述 [本節](#create-sms-journey-campaign).
+1. Create a SMS as described in [this section](#create-sms-journey-campaign).
 
-1. 編輯簡訊內容，如中所述 [本節](#sms-content).
+1. Edit your SMS content as detailed in [this section](#sms-content).
 
-1. 啟用MMS選項以將媒體新增到您的SMS內容。
+1. Enable the MMS option to add media to your SMS content.
 
-   ![](assets/sms_create_6.png)
+    ![](assets/sms_create_6.png)
 
-1. 新增 **[!UICONTROL 標題]** 至您的媒體。
+1. Add a **[!UICONTROL Title]** to your media.
 
-1. 在「 」中輸入媒體的URL **[!UICONTROL 媒體]** 欄位。
+1. Enter the URL of your media in the **[!UICONTROL Media]** field.
 
-   ![](assets/sms_create_7.png)
+    ![](assets/sms_create_7.png)
 
-1. 按一下 **[!UICONTROL 儲存]** 並在預覽中檢視您的訊息。 您現在可以測試和檢查您的訊息內容，如下所述。
+1. Click **[!UICONTROL Save]** and check your message in the preview. You can now test and check your message content as detailed below.
+-->
 
 ## 測試並傳送您的訊息 {#sms-mms-test}
 
@@ -166,6 +167,6 @@ ht-degree: 10%
 
 * [預覽、測試並傳送您的文字訊息](send-sms.md)
 * [設定簡訊頻道](sms-configuration.md)
-* [簡訊/多媒體簡訊報告](../reports/journey-global-report.md#sms-global)
+* [簡訊報告](../reports/journey-global-report.md#sms-global)
 * [在歷程中新增訊息](../building-journeys/journeys-message.md)
 * [在行銷活動中新增訊息](../campaigns/create-campaign.md)
