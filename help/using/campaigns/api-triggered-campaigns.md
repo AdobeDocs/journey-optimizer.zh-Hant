@@ -9,19 +9,14 @@ role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: a0a4d39519f7f02265c52934db401e036ea12df6
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 4%
+source-wordcount: '954'
+ht-degree: 2%
 
 ---
 
 # 利用 API 觸發行銷活動 {#trigger-campaigns}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_api_profile_creation"
->title="行銷活動類型"
->abstract="關於使用有限可用性功能在不建立設定檔的情況下傳送訊息，請按照文件中詳述的步驟操作。"
 
 ## 關於API觸發的行銷活動 {#about}
 
@@ -79,7 +74,7 @@ API觸發的行銷活動的可用管道包括電子郵件、簡訊和推播訊�
 
 啟動行銷活動後，您需要擷取產生的範例cURL請求，並將其用於API中以建置您的裝載並觸發行銷活動。
 
-1. 開啟行銷活動，然後從以下位置複製並貼上範例請求： **[!UICONTROL cURL要求]** 區段。
+1. 開啟行銷活動，然後從複製並貼上裝載請求 **[!UICONTROL cURL要求]** 區段。 此裝載包含訊息中使用的所有個人化（設定檔和內容）變數。 行銷活動上線後，即可使用此功能。
 
    ![](assets/api-triggered-curl.png)
 

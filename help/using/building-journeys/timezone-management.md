@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 時區，屬性，歷程，條件，時間，日期，自訂
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '291'
 ht-degree: 2%
 
 ---
@@ -32,11 +32,7 @@ ht-degree: 2%
 * [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 -->
 
-您可以選取時區，或選擇使用使用者設定檔中定義的時區。
-
->[!NOTE]
->
->設定檔時區可與 **時區** 欄位存在於 **偏好設定詳細資料** 欄位群組。
+您可以選取 [固定時區](#fixed-timezone) 或選擇使用時區 [已在使用者設定檔中定義](#timezone-from-profiles).
 
 ## 定義固定時區 {#fixed-timezone}
 
@@ -53,6 +49,10 @@ ht-degree: 2%
 如果為設定檔定義了時區，則會擷取該時區並由歷程使用。 如果沒有，則使用的時區將是時區欄位中定義的時區。
 
 ![](assets/journey73.png)
+
+>[!NOTE]
+>
+>設定檔時區可與 **時區** 欄位存在於 **偏好設定詳細資料** 欄位群組。
 
 ## 在運算式中使用時區 {#timezone-in-expressions}
 

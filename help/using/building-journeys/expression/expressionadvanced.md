@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 運算式編輯器，資料，歷程
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 64%
+source-wordcount: '668'
+ht-degree: 63%
 
 ---
 
@@ -22,7 +22,12 @@ ht-degree: 64%
 >title="關於進階運算式編輯器"
 >abstract="使用進階運算式編輯器在介面的不同畫面中建置進階運算式。例如，您可以在設定和使用歷程時以及定義資料來源條件時建置運算式。"
 
-使用進階運算式編輯器在介面的不同畫面中建置進階運算式。例如，您可以在設定和使用歷程以及定義資料來源條件時，建立運算式。
+使用Journey進階運算式編輯器，在介面的各種畫面中建置進階運算式。 例如，您可以在設定和使用歷程時以及定義資料來源條件時建置運算式。
+
+>[!NOTE]
+>
+>Journey進階運算式編輯器中可用的函式和功能，與 [個人化編輯器](../../personalization/functions/functions.md).
+
 此外，您每次必須定義需要特定資料處理的動作參數時，都可以使用它。您可以善用來自事件的資料或是從資料來源擷取的其他資訊。在歷程中，顯示的事件欄位清單會與情境相關，而且會根據歷程中新增的事件而有所不同。
 
 進階運算式編輯器提供一組內建函式和運算子，讓您得以控制值並定義特別符合您需求的運算式。進階運算式編輯器也可讓您定義外部資料來源參數的值、控制對應欄位和集合，例如體驗事件。

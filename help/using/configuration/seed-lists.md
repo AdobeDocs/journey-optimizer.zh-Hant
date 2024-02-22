@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 種子清單，種子清單，種子，設定
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '936'
 ht-degree: 16%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 16%
 >[!CAUTION]
 >
 >目前該功能僅適用於電子郵件頻道。
->
->目前不支援變體。 如同來自目標對象的每個設定檔，種子地址會收到每則訊息的單一副本，但並非同一訊息的所有變體(例如， [內容實驗](../campaigns/get-started-experiment.md))。
 
 種子地址用於鎖定不符合所定義的目標準則的收件者。如此一來，不在傳遞範圍的收件者可以像任何其他目標收件者一樣接收傳遞。
 
@@ -47,6 +45,10 @@ ht-degree: 16%
 +++
 
 * 使用種子清單的另一個原因是您的郵寄清單保護。 將種子地址插入您的郵寄清單中可讓您注意到，它是否由第三方使用，因為它包含的種子地址將接收傳送至您的郵寄清單的傳遞。
+
+>[!NOTE]
+>
+>支援變體。 種子地址會收到相同訊息的每個變體的單一副本(例如， [內容實驗](../campaigns/get-started-experiment.md))。
 
 ## 存取種子清單 {#access-seed-lists}
 
@@ -128,7 +130,7 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->傳送至種子地址的訊息不包含在報表中。
+>傳送至種子地址的訊息不包含在歷程或行銷活動報告中。
 
 1. 建立曲面並選取 **[!UICONTROL 電子郵件]** 頻道。 [了解更多](../email/email-settings.md)
 
@@ -154,4 +156,4 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->對於歷程，電子郵件傳送僅會於歷程首次執行時傳送至種子地址。
+>對於歷程，電子郵件傳遞只會傳送到歷程首次執行時的種子地址。

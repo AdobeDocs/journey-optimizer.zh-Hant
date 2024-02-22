@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 34%
+source-wordcount: '969'
+ht-degree: 32%
 
 ---
 
@@ -126,9 +126,9 @@ ht-degree: 34%
 
 >[!IMPORTANT]
 >
->目前，使用對象 [從CSV檔案匯入](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 至行銷活動的形式為私人測試版。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>使用來自的對象和屬性 [對象構成](../audience/get-started-audience-orchestration.md) 和 [自訂上傳（CSV檔案）](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 目前不適用於Healthcare Shield或Privacy and Security Shield。 [瞭解如何在Journey Optimizer中使用對象擴充屬性](../audience/about-audiences.md#enrichment)
 >
->針對API觸發的行銷活動，必須透過API呼叫設定對象。 [了解更多](api-triggered-campaigns.md)
+>針對API觸發的行銷活動，必須透過API呼叫設定對象。
 
 在 **[!UICONTROL 身分名稱空間]** 欄位，選擇要使用的名稱空間，以識別所選區段中的個人。
 

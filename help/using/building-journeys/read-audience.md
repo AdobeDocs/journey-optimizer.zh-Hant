@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，對象，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 5b2db1a07030fe688abfed04680d7b31584a526b
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 7%
+source-wordcount: '1427'
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 7%
 
 * 根據最佳實務，建議您僅在以下專案中使用批次對象： **讀取對象** 活動。 這將為歷程中使用的對象提供可靠且一致的計數。 讀取對象是針對批次使用案例而設計。 如果您的使用案例需要即時資料，請使用 **[對象資格](audience-qualification-events.md)** 活動。
 
-* 目前，使用對象 [從CSV檔案匯入](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 或產生自 [組合工作流程](../audience/get-started-audience-orchestration.md) 進入歷程會以私人測試版的形式提供。 如需詳細資訊，請聯絡您的 Adobe 代表。
+* 受眾 [從CSV檔案匯入](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 或產生自 [組合工作流程](../audience/get-started-audience-orchestration.md) 可在 **讀取對象** 活動。 這些對象在中無法使用 **對象資格** 活動。
 
 ## 設定活動 {#configuring-segment-trigger-activity}
 
@@ -55,7 +55,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >此外，您也可以鎖定使用建立的Adobe Experience Platform對象 [對象組合](../audience/get-started-audience-orchestration.md) 或 [已從CSV檔案上傳](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. 這些功能目前以 Private Beta 的形式提供。
+   >此外，您也可以鎖定使用建立的Adobe Experience Platform對象 [對象組合](../audience/get-started-audience-orchestration.md) 或 [已從CSV檔案上傳](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
    請注意，您可以自訂清單中顯示的欄並加以排序。
 

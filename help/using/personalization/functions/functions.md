@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1854'
 ht-degree: 2%
 
 ---
@@ -17,13 +17,19 @@ ht-degree: 2%
 
 使用 [!DNL Journey Optimizer] 範本化語言，用於對資料執行操作，例如計算、資料格式或轉換、條件，並在個人化的環境中操作它們。 瞭解中的個人化語法指南 [此頁面](../personalization-syntax.md).
 
+
+
 ➡️ [在本影片中瞭解如何使用協助程式函式](#video)
 
-範本化語言可在運算式編輯器的個人化下拉式清單中的協助程式功能中使用，如下所示：
+範本語言可在個人化編輯器的個人化下拉式清單提供的協助程式功能中使用，如下所示：
 
 ![](../assets/access-helper-functions.png)
 
-在 [!DNL Journey Optimizer] 運算式編輯器、協助程式函式會分為三種類別： [函式](#functions-helper)， [協助程式](#helper-helper) 和 [運運算元](#operators-helper).
+>[!NOTE]
+>
+>「個人化」編輯器中可用的功能和功能，與 [歷程進階運算式編輯器](../../building-journeys/expression/expressionadvanced.md).
+
+在 [!DNL Journey Optimizer] 個人化編輯器和協助程式功能分為三個類別： [函式](#functions-helper)， [協助程式](#helper-helper) 和 [運運算元](#operators-helper).
 
 選取類別，以存取子類別和函式。
 

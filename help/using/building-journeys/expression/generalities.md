@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 語法，編輯器，歷程
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 3%
@@ -35,7 +35,7 @@ ht-degree: 3%
 以下是不同的區分大小寫規則：
 
 * 所有運運算元（和、或等） 應該寫成小寫。 例如， _`<expression1>`和`<expression2>`_ 是有效的運算式，但運算式 _`<expression1>`和`<expression2>`_ 不是。
-* 所有函式名稱都區分大小寫。 例如， _inSegment()_ 有效，但函式 _INSEGMENT()_ 不是。
+* 所有函式名稱都區分大小寫。 例如， _inAudience()_ 有效，但函式 _INAUDIENCE()_ 不是。
 * 欄位參照和常數值區分大小寫：它們不是語言的內建元素（與運運算元和函式相反），而是由一般使用者撰寫。
 
 ## 傳回的運算式型別{#returned-expression-type}

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: cdcce470481393c821d1c5df95639602510a690a
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 43%
+source-wordcount: '1087'
+ht-degree: 38%
 
 ---
 
@@ -39,15 +39,11 @@ ht-degree: 43%
 
 ## 定位對象於 [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-您可以在行銷活動中選取使用產生的任何Adobe Experience Platform對象 [區段定義](../audience/creating-a-segment-definition.md).
+您可以在行銷活動和歷程中選取使用區段定義、CSV檔案匯入或構成工作流程產生的任何對象。
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->就目前而言，源自下列專案的對象： [對象組合](../audience/get-started-audience-orchestration.md) 只能在行銷活動中定位。 此功能可作為歷程的私人測試版使用。
->
->使用對象 [已從CSV檔案上傳](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} 在行銷活動和歷程中，目前以私人測試版的形式提供。
->
->如需詳細資訊，請聯絡您的 Adobe 代表。
+>來自對象構成和自訂上傳（CSV檔案）的對象和屬性目前無法用於Healthcare Shield或Privacy and Security Shield。 [瞭解如何在Journey Optimizer中使用對象擴充屬性](../audience/about-audiences.md#enrichment)
 
 您可以在 **[!DNL Journey Optimizer]** 中以不同方式善用對象：
 
@@ -62,6 +58,18 @@ ht-degree: 43%
   例如，您可以讓所有新的銀級客戶進入歷程，並向其傳送訊息。 如需有關如何使用此活動的詳細資訊，請參閱[了解如何設定對象資格活動](../building-journeys/audience-qualification-events.md)。
 
 * 在歷程中使用&#x200B;**條件**&#x200B;活動，以根據對象成員資格建置條件。 [了解如何在條件中使用對象](../building-journeys/condition-activity.md#using-a-segment)。
+
+## 在Journey Optimizer中使用對象擴充屬性 {#enrichment}
+
+使用構成工作流程或自訂上傳（CSV檔案）產生目標對象時，您可以利用這些對象的擴充屬性來建立您的歷程並個人化您的訊息。
+
+* 根據運用目標對象擴充屬性的規則，在歷程中建立多個路徑。 若要這麼做，請使用 [讀取對象](../building-journeys/read-audience.md) 活動接著在中建立規則 [條件](../building-journeys/condition-activity.md) 活動根據對象的擴充屬性。
+
+  ![](assets/audience-enrichment-attribute-condition.png){zoomable=&quot;yes&quot;}
+
+* 在運算式編輯器中，從目標對象新增擴充屬性，在歷程或行銷活動中個人化您的訊息。 [瞭解如何使用運算式編輯器](../personalization/personalization-build-expressions.md)
+
+  ![](assets/audience-enrichment-attribute-perso.png){zoomable=&quot;yes&quot;}
 
 ## 對象評估方法 {#evaluation-method-in-journey-optimizer}
 

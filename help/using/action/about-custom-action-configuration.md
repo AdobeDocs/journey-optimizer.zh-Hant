@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 0d010bbb46887546d524726606764b564c352064
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1422'
-ht-degree: 17%
+source-wordcount: '1451'
+ht-degree: 22%
 
 ---
 
@@ -35,12 +35,14 @@ ht-degree: 17%
 
 另請注意，自訂動作引數採用預期格式（例如：字串、小數等）。 您必須注意遵守這些預期的格式。 在本節瞭解更多 [使用案例](../building-journeys/collections.md).
 
+自訂動作僅在使用時支援JSON格式 [請求](../action/about-custom-action-configuration.md#define-the-message-parameters) 或 [回應裝載](../action/action-response.md).
+
 ## 最佳作法{#custom-action-enhancements-best-practices}
 
-使用自訂動作選擇要鎖定的端點時，請確定：
+使用自訂動作選擇要作為目標的端點時，請確定：
 
-* 此端點可使用來自的設定來支援歷程的輸送量 [節流API](../configuration/throttling.md) 或 [設定API上限](../configuration/capping.md) 以限制它。 請留意節流設定不可低於200 TPS。 任何目標端點至少需要支援200個TPS。
-* 此端點的回應時間必須儘可能縮短。 根據您的預期輸送量，高回應時間可能會影響實際輸送量。
+* 此端點可使用來自[節流 API](../configuration/throttling.md) 或[設定 API 上限](../configuration/capping.md)的設定來支援歷程的輸送量，藉此加以限制。 請留意，節流設定不可低於 200 TPS。任何目標端點至少需要支援 200 TPS。
+* 此端點的回應時間必須儘可能縮短。 根據預期輸送量，高回應時間可能會影響實際輸送量。
 
 所有自訂動作皆已定義1分鐘上300,000次呼叫的上限。 此外，預設上限會針對每個主機和每個沙箱執行。 例如，在沙箱上，如果您有主機相同的兩個端點 (例如：`https://www.adobe.com/endpoint1` 和 `https://www.adobe.com/endpoint2`)，此上限會套用至 adobe.com 主機下的所有端點。 「endpoint1」和「endpoint2」會共用相同的上限設定，而且讓一個端點達到限制會影響到另一個端點。
 
@@ -117,7 +119,9 @@ ht-degree: 17%
 
 1. 定義標頭和查詢引數：
 
-   * 在 **[!UICONTROL 標頭]** 區段，按一下 **[!UICONTROL 新增標題欄位]** 定義要傳送給外部服務之要求訊息的HTTP標頭。 此 **[!UICONTROL Content-Type]** 和 **[!UICONTROL 字元集]** 標頭欄位預設為設定。 您無法修改或刪除這些欄位。
+   * 在 **[!UICONTROL 標頭]** 區段，按一下 **[!UICONTROL 新增標題欄位]** 定義要傳送給外部服務之要求訊息的HTTP標頭。 此 **[!UICONTROL Content-Type]** 和 **[!UICONTROL 字元集]** 標頭欄位預設為設定。 您無法刪除這些欄位。 僅限 **[!UICONTROL Content-Type]** 標頭可以修改。 其值應符合JSON格式。 以下是預設值：
+
+   ![](assets/content-type-header.png)
 
    * 在 **[!UICONTROL 查詢引數]** 區段，按一下 **[!UICONTROL 新增查詢引數欄位]** 以定義您要新增至URL的引數。
 

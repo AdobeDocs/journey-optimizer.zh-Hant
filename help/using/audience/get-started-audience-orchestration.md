@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 100%
+source-wordcount: '320'
+ht-degree: 67%
 
 ---
 
@@ -30,15 +30,15 @@ ht-degree: 100%
 
 對象組合可讓您建立&#x200B;**組合工作流程**，您可以將現有的 Adobe Experience Platform 對象結合至視覺畫布，並善用各種活動 (分割、排除……) 來建立新對象。
 
-完成後， **產生的對象**&#x200B;將與現有對象一起儲存至 Adobe Experience Platform，並且可以在 **在行銷活動中加以善用**&#x200B;以設定客戶。 [了解如何使行銷活動](../campaigns/get-started-with-campaigns.md)
+完成後， **產生的對象** 連同現有受眾一起儲存至Adobe Experience Platform中，並可在Journey Optimizer行銷活動和歷程中運用於鎖定客戶。 [瞭解如何在Journey Optimizer中鎖定對象](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->目前，使用者可在 Private Beta 中將構成工作流程產生的對象用於歷程。如需詳細資訊，請聯絡您的 Adobe 代表。
+>目前，Healthcare Shield或Privacy and Security Shield無法使用來自「對象構成」和「自訂上傳」的對象和屬性。 [瞭解如何在Journey Optimizer中使用對象擴充屬性](../audience/about-audiences.md#enrichment)
 >
->Adobe Journey Optimizer 的行銷活動尚未與原則執行服務整合。 因此，您套用至對象屬性的任何資料使用標籤都不會在 Journey Optimizer 行銷活動中執行。
+>擴充屬性尚未與原則執行服務整合。 因此，您套用至擴充屬性的任何資料使用標籤，都不會在Journey Optimizer行銷活動或歷程中強制執行。
 
 可從 Adobe Journey Optimizer **[!UICONTROL 對象]**&#x200B;選單存取對象構成：
 

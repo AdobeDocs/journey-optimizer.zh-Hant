@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: a5027f4558526c2f3516816c12803e741c7f8dac
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1803'
 ht-degree: 16%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 16%
 
 * 使用 **[!UICONTROL 發佈篩選器]** 以選取出版日期或使用者。 舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。
 
-  <!--To filter journeys based on a specific date range, select **[!UICONTROL Custom]** from the **[!UICONTROL Published]** drop-down list.-->
+  若要根據特定日期範圍篩選歷程，請選取 **[!UICONTROL 自訂]** 從 **[!UICONTROL 已發佈]** 下拉式清單。
 
 此外，在「事件」、「資料來源」和「動作」設定窗格中， **[!UICONTROL 使用位置]** 欄位會顯示使用該特定事件、欄位群組或動作的歷程次數。 您可以按一下&#x200B;**[!UICONTROL 檢視歷程]**&#x200B;按鈕以顯示對應歷程的清單。
 
@@ -130,7 +130,7 @@ ht-degree: 16%
 >title="歷程屬性"
 >abstract="本區段會顯示歷程屬性。預設情況下，會隱藏唯讀參數。可用設定會依據歷程的狀態、您的權限和產品設定而定。"
 
-按一下右上角的鉛筆圖示以存取歷程的屬性。
+按一下歷程名稱旁的鉛筆圖示，即可存取其屬性。
 
 您可以變更歷程名稱、新增說明、允許重新進入、選擇開始和結束日期，並以管理員使用者身分定義 **[!UICONTROL 逾時和錯誤]** 持續時間。 您也可以將Adobe Experience Platform統一標籤指派給您的歷程。 這可讓您輕鬆分類，並改進行銷活動清單的搜尋。 [了解如何使用標籤](../start/search-filter-categorize.md#tags)
 

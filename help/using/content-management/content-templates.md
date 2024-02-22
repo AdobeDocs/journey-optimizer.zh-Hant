@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 1cfe9f6cb6e7c3e9a5d9b808c10ae4dfe77a92a2
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 11%
+source-wordcount: '1362'
+ht-degree: 9%
 
 ---
 
@@ -21,12 +21,11 @@ ht-degree: 11%
 
 此功能可讓內容導向的使用者使用行銷活動或歷程以外的範本。 行銷使用者可在自己的歷程或行銷活動中重複使用並調整這些獨立內容範本。
 
-![](../rn/assets/do-not-localize/content-template.gif)
-
+<!--![](../rn/assets/do-not-localize/content-template.gif)-->
 
 >[!NOTE]
 >
->目前僅限 **電子郵件** 支援內容範本。
+>目前內容範本無法用於Web Channel。
 
 例如，您公司內的使用者只負責內容，因此無權存取行銷活動或歷程。 不過，這類使用者可建立電子郵件範本，組織的行銷人員可選取該範本以用於所有電子郵件作為起點。
 
@@ -38,29 +37,45 @@ ht-degree: 11%
 >
 >若要建立、編輯和刪除內容範本，您必須擁有 **[!DNL Manage library items]** 許可權包含在 **[!DNL Content Library Manager]** 產品設定檔。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
 
-## 存取和管理範本 {#access-manage-templates}
+## 存取並管理範本 {#access-manage-templates}
 
 若要存取內容範本清單，請選取 **[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]** 從左側功能表。
 
 ![](../email/assets/content-template-list.png)
 
-在目前沙箱上建立的所有範本 — 來自使用下列範本的歷程或行銷活動： [另存為範本](#save-as-template) 選項，選自 **[!UICONTROL 內容範本]** 功能表 — 顯示。
+在目前沙箱上建立的所有範本 — 來自使用下列範本的歷程或行銷活動： **[!UICONTROL 另存為範本]** 選項，選自 **[!UICONTROL 內容範本]** 功能表 — 顯示。 [瞭解如何建立範本](#create-content-templates)
 
-您可以依建立或修改日期來排序內容範本。 您也可以選擇只顯示您建立或修改的專案。
+您可以依下列方式排序內容範本：
+* 類型
+* Channel
+* 建立或修改日期
+* 標籤 —  [進一步瞭解標籤](../start/search-filter-categorize.md#tags)
 
-![](../email/assets/content-template-list-filters.png)
+您也可以選擇只顯示您自己建立或修改的專案。
 
-若要編輯範本內容，請從清單中按一下所需的專案並選取 **[!UICONTROL 編輯內容]**.
+![](assets/content-template-list-filters.png)
 
-![](../email/assets/content-template-edit.png)
-
-若要刪除範本，請選取所需範本旁的垃圾桶圖示。
-
-![](../email/assets/content-template-list-delete.png)
+<!--Select the **[!UICONTROL Grid view]** mode to display each template as a thumbnail. 
 
 >[!NOTE]
 >
->編輯或刪除範本時，使用此範本建立的行銷活動或歷程（包括電子郵件）不受影響。
+>Currently proper thumbnails can only be generated for HTML-type email content templates.
+
+When you update a content, you may have to wait a few seconds before the changes are reflected in the thumbnail.
+
+![](assets/content-template-grid-view.png)-->
+
+* 若要編輯範本內容，請從清單中按一下所需的專案並選取 **[!UICONTROL 編輯內容]**.
+
+  ![](../email/assets/content-template-edit.png)
+
+* 若要刪除範本，請選取 **[!UICONTROL 更多動作]** 按鈕並選取 **[!UICONTROL 刪除]**.
+
+  ![](assets/content-template-list-delete.png)
+
+>[!NOTE]
+>
+>編輯或刪除範本時，使用此範本建立的行銷活動或歷程（包括內容）不受影響。
 
 ## 建立內容範本 {#create-content-templates}
 
@@ -73,9 +88,9 @@ ht-degree: 11%
 
 * 使用左側邊欄，從頭開始建立內容範本 **[!UICONTROL 內容範本]** 功能表。 [了解作法](#create-template-from-scratch)
 
-* 在行銷活動或歷程中設計電子郵件時，請將電子郵件內容儲存為範本。 [了解作法](#save-as-template)
+* 在行銷活動或歷程中設計內容時，請將其儲存為範本。 [了解作法](#save-as-template)
 
-儲存後，您的內容範本即可用於行銷活動或歷程中。 無論是從草稿建立還是從先前的電子郵件建立，您現在都可以在建立任何範本時使用此範本 [電子郵件](../email/get-started-email-design.md) 範圍 [!DNL Journey Optimizer]. [了解作法](../email/use-email-templates.md)
+儲存後，您的內容範本即可用於行銷活動或歷程中。 無論是從頭開始建立還是從先前內容建立，您現在都可以在中建立任何內容時使用此範本 [!DNL Journey Optimizer]. [了解作法](#use-content-templates)
 
 >[!NOTE]
 >
@@ -91,41 +106,46 @@ ht-degree: 11%
 
 1. 選取 **[!UICONTROL 建立範本]**.
 
-1. 填寫範本詳細資訊。
+1. 填寫範本詳細資料並選取所需的通道。
 
-   ![](../email/assets/content-template-details.png)
+   ![](assets/content-template-channels.png)
 
    >[!NOTE]
    >
-   >目前僅限 **電子郵件** 頻道和 **HTML** 型別受到支援。
+   >目前除了Web之外，所有管道皆可使用。
 
-1. 若要指派自訂或核心資料使用標籤給範本，請選取 **[!UICONTROL 管理存取權]**. [深入瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md).
+1. 選擇 **[!UICONTROL 型別]** 所選管道的預設值。
+
+   ![](assets/content-template-type.png)
+
+   * 的 **[!UICONTROL 電子郵件]**，如果您選取 **[!UICONTROL 內容]**，您可以定義 [主旨列](../email/create-email.md#define-email-content) 當作範本的一部分。 如果您選取 **[!UICONTROL HTML]**，您只能定義電子郵件內文的內容。
+
+   * 的 **[!UICONTROL 簡訊]**， **[!UICONTROL 推播]**， **[!UICONTROL 應用程式內]** 和 **[!UICONTROL 直接郵件]**，目前頻道僅可使用預設型別。 您仍需要選取它。
 
 1. 選擇或建立Adobe Experience Platform標籤，從 **[!UICONTROL 標籤]** 將範本分類以改善搜尋的欄位。 [了解更多](../start/search-filter-categorize.md#tags)
 
-1. 按一下 **[!UICONTROL 建立]** 並從不同選項中選擇要如何設計範本：
+1. 若要將自訂或核心資料使用標籤指派給範本，您可以選取 **[!UICONTROL 管理存取權]**. [深入瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md).
 
-   * [從草稿開始設計您的電子郵件](../email/content-from-scratch.md) 透過電子郵件設計工具的介面。
+1. 按一下 **[!UICONTROL 建立]** 並視需要設計您的內容，就像您對歷程或行銷活動中的任何內容所做的一樣 — 根據您選取的頻道。
 
-   * [程式碼或複製貼上原始HTML](../email/code-content.md) 直接放入電子郵件設計工具。
+   ![](assets/content-template-edition.png)
 
-   * [匯入現有的HTML內容](../email/existing-content.md) 檔案或.zip資料夾中的檔案。
+   在以下章節中瞭解如何建立不同管道的內容：
+   * [定義電子郵件內容](../email/get-started-email-design.md)
+   * [定義推播內容](../push/design-push.md)
+   * [定義簡訊內容](../sms/create-sms.md#sms-content)
+   * [定義直接郵件內容](../direct-mail/create-direct-mail.md)
+   * [定義應用程式內內容](../in-app/design-in-app.md)
 
-   * 使用內建或自訂範本清單中的現有內容。 在電子郵件中使用內容範本的步驟已說明，請參閱 [本節](../email/use-email-templates.md).
-
-   ![](../email/assets/content-template-design.png)
-
-1. 此 [電子郵件設計工具](../email/get-started-email-design.md) 顯示。 視需要編輯您的內容，就像根據您選取的選項對歷程或行銷活動中的任何電子郵件所做的那樣。
-
-   您可以視需要測試內容。 [了解作法](#test-template)
+1. 如果您要建立 **[!UICONTROL 電子郵件]** 範本與 **[!UICONTROL HTML]** 型別，您可以測試您的內容。 [了解作法](#test-template)
 
 1. 範本準備就緒後，按一下 **[!UICONTROL 儲存]**.
 
-1. 如有需要，請按一下範本名稱旁的箭頭，以返回 **[!UICONTROL 詳細資料]** 畫面並編輯您的範本。
+1. 按一下範本名稱旁的箭頭，返回 **[!UICONTROL 詳細資料]** 畫面。
 
-   ![](../email/assets/content-template-designer-back.png)
+   ![](assets/content-template-back.png)
 
-現在，在內建置任何電子郵件時，就可以使用此範本 [!DNL Journey Optimizer]. [了解作法](../email/use-email-templates.md)
+現在，在內建置任何內容時，即可使用此範本 [!DNL Journey Optimizer]. [了解作法](#use-content-templates)
 
 ### 另存為範本 {#save-as-template}
 
@@ -134,41 +154,53 @@ ht-degree: 11%
 >title="了解如何移轉訊息"
 >abstract="在 2022 年 7 月 25 日，「訊息」選單已消失，現在會直接從歷程編寫訊息。如果您要在歷程中重複使用舊訊息，則需要將它們另存為範本。"
 
-設計 [電子郵件](../email/get-started-email-design.md) 在行銷活動或歷程中，您可以儲存電子郵件內容以供日後重複使用。 請依照下列步驟以執行此操作。
+在行銷活動或歷程中設計任何內容時，您可以儲存以供日後重複使用。 請依照下列步驟以執行此操作。
 
-1. 在電子郵件設計工具中，按一下畫面右上方的省略符號。
+1. 從訊息 **[!UICONTROL 編輯內容]** 熒幕，按一下 **[!UICONTROL 內容範本]** 按鈕。
 
 1. 選取 **[!UICONTROL 另存為內容範本]** （從下拉式功能表）。
 
-   ![](../email/assets/email_designer-save-template.png)
+   ![](assets/content-template-button-save.png)
+
+   如果您在 [電子郵件設計工具](../email/get-started-email-design.md)，您也可以從 **[!UICONTROL 更多]** 下拉式清單（位於畫面右上方）。
+
+   ![](assets/content-template-more-button-save.png)
 
 1. 新增此範本的名稱和說明。
 
-   ![](../email/assets/email_designer-template-name.png)
+   ![](assets/content-template-name.png)
 
-1. 若要指派自訂或核心資料使用標籤給範本，請選取 **[!UICONTROL 管理存取權]**. [了解更多](../administration/object-based-access.md)。
+   >[!NOTE]
+   >
+   >目前的管道和型別會自動填入，且無法編輯。 針對從建立的電子郵件範本 [電子郵件設計工具](../email/get-started-email-design.md)，則 **[!UICONTROL HTML]** 型別會自動選取。
 
 1. 選擇或建立Adobe Experience Platform標籤，從 **標籤** 將範本分類的欄位。 [了解更多](../start/search-filter-categorize.md#tags)
+
+1. 若要將自訂或核心資料使用標籤指派給範本，您可以選取 **[!UICONTROL 管理存取權]**. [了解更多](../administration/object-based-access.md)。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 1. 範本會儲存至 **[!UICONTROL 內容範本]** 清單，可從存取 [!DNL Journey Optimizer] 專用功能表。 它會變成獨立的內容範本，可以像該清單上的任何其他專案一樣加以存取、編輯及刪除。 [了解更多](#access-manage-templates)
 
-您現在可以在建置任何範本時使用此範本 [電子郵件](../email/get-started-email-design.md) 範圍 [!DNL Journey Optimizer]. [了解作法](../email/use-email-templates.md)
+您現在可以在中建置任何內容時使用此範本 [!DNL Journey Optimizer]. [了解作法](#use-content-templates)
 
 >[!NOTE]
 >
->對該新範本所做的任何變更都不會傳播到該範本來自的電子郵件。 同樣地，在該電子郵件中編輯原始內容時，不會修改新範本。
+>對該新範本所做的任何變更都不會傳播至其來源內容。 同樣地，在該內容中編輯原始內容時，不會修改新範本。
 
-## 測試您的內容範本 {#test-template}
+## 測試電子郵件內容範本 {#test-template}
 
-您可以測試任何電子郵件內容範本的轉譯，不論是從草稿建立還是從電子郵件建立。 若要執行此操作，請遵循下列步驟。
+您可以測試部分電子郵件範本的轉譯，無論是從草稿建立還是從現有內容建立。 若要執行此操作，請遵循下列步驟。
 
-1. 透過存取內容範本清單 **[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]** 選單並選取任何範本。
+>[!CAUTION]
+>
+>目前測試的內容範本僅適用於 **[!UICONTROL 電子郵件]** 範本與 **[!UICONTROL HTML]** 型別。
+
+1. 透過存取內容範本清單 **[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]** 功能表並選取任何電子郵件範本。
 
 1. 按一下 **[!UICONTROL 編輯內容]** 從 **[!UICONTROL 範本屬性]**.
 
-1. 按一下 **[!UICONTROL 模擬內容]** 並選取測試設定檔，以檢查您的電子郵件呈現。 您可以選擇桌面或行動檢視。[了解更多](../content-management/preview-test.md)
+1. 按一下 **[!UICONTROL 模擬內容]** 並選取測試設定檔以檢查您的演算。 [了解更多](../content-management/preview-test.md)
 
    ![](../email/assets/content-template-stimulate.png)
 
@@ -183,6 +215,38 @@ ht-degree: 11%
 >[!CAUTION]
 >
 >測試電子郵件內容範本時目前不支援追蹤，這表示追蹤事件、UTM引數和登入頁面連結將在從範本傳送的校樣中無效。 若要測試追蹤， [使用內容範本](../email/use-email-templates.md) 在電子郵件和 [傳送證明](../content-management/preview-test.md#send-proofs).
+
+## 使用內容範本 {#use-content-templates}
+
+在中建立任何管道的內容（網頁除外）時 [!DNL Journey Optimizer]，您可以使用自訂範本，並執行以下其中一項作業：
+
+* 使用從頭開始建立 **[!UICONTROL 內容範本]** 功能表。 [了解更多](#create-template-from-scratch)
+
+* 使用從歷程或行銷活動中的現有內容儲存 **[!UICONTROL 另存為內容範本]** 選項。 [了解更多](#save-as-template)
+
+若要使用其中一個範本開始建立您的內容，請遵循下列步驟。
+
+1. 無論是在行銷活動或歷程中，在選取後 **[!UICONTROL 編輯內容]**，按一下 **[!UICONTROL 內容範本]** 按鈕。
+
+1. 選取 **[!UICONTROL 套用內容範本]**.
+
+   ![](assets/content-template-button.png)
+
+1. 從清單中選取您選擇的範本。 僅顯示與所選管道和/或型別相容的範本。
+
+   ![](assets/content-template-select.png)
+
+   >[!NOTE]
+   >
+   >在此畫面中，您也可以使用專用按鈕建立新範本，以開啟新標籤。
+
+1. 按一下 **[!UICONTROL 確認]**. 範本會套用至您的內容。
+
+1. 視需要繼續編輯您的內容。
+
+>[!NOTE]
+>
+>若要開始從內容範本設計電子郵件，請使用 [電子郵件設計工具](../email/get-started-email-design.md)，請依照中所述的步驟操作 [本節](../email/use-email-templates.md).
 
 ## 操作說明影片 {#video-templates}
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 09142fa8d8c48d9ba56ef03e6a97b0be3da45916
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1119'
 ht-degree: 10%
 
 ---
@@ -20,7 +20,9 @@ ht-degree: 10%
 
 [!DNL Journey Optimizer] 可讓您設定跨頻道規則，控制使用者收到訊息或進入歷程的頻率，這些規則會自動從訊息和動作中排除過度請求的設定檔。
 
-例如，針對品牌，規則每個月不得傳送超過3則行銷訊息給客戶。 為此，您可以使用頻率規則，該規則將限制每月日曆期間根據一個或多個頻道傳送的訊息數。
+例如，針對品牌，規則每個月不得傳送超過4則行銷訊息給客戶。 為此，您可以使用頻率規則，該規則將限制每月日曆期間根據一個或多個頻道傳送的訊息數。
+
+![](assets/do-not-localize/sms-dm-rules.gif)
 
 >[!NOTE]
 >
@@ -69,21 +71,17 @@ ht-degree: 10%
 
    ![](assets/message-rules-create.png)
 
-1. 定義規則名稱。
-
-   <!--![](assets/message-rules-details.png)-->
-   ![](assets/message-rules-details-temp.png)
-
-1. 選取訊息規則類別。
+1. 定義規則名稱並選取訊息規則類別。
 
    >[!NOTE]
    >
    >目前僅限 **[!UICONTROL 行銷]** 類別可供使用。
 
+   <!--![](assets/message-rules-details.png)-->
+
 1. 從 **[!UICONTROL 持續時間]** 下拉式清單，選取要套用之上限的時間範圍。
 
-   <!--![](assets/message-rules-capping-duration.png)-->
-   ![](assets/message-rules-capping-duration-temp.png)
+   ![](assets/message-rules-capping-duration.png)
 
    頻率上限是根據所選的日曆期間。 它會在對應的時間範圍開始時重設。
 
@@ -101,7 +99,7 @@ ht-degree: 10%
 
    <!--![](assets/message-rules-capping.png)-->
 
-1. 選取您要用於此規則的管道： **[!UICONTROL 電子郵件]** 或 **[!UICONTROL 推播通知]**.
+1. 選取您要用於此規則的管道： **[!UICONTROL 電子郵件]**， **[!UICONTROL 推播通知]**， **[!UICONTROL 簡訊]** 或 **[!UICONTROL 直接郵件]**.
 
    ![](assets/message-rules-channels.png)
 
@@ -173,7 +171,7 @@ ht-degree: 10%
 
 1. [建立規則](#create-new-rule) 已呼叫 *整體行銷上限*：
 
-   * 選取電子郵件和推播通道。
+   * 選取所有色版。
    * 將上限設定為每月12個。
 
    ![](assets/message-rules-ex-overall-cap.png)
@@ -187,9 +185,26 @@ ht-degree: 10%
 
 1. 儲存並 [啟用](#activate-rule) 規則。
 
-1. 建立電子郵件並選取 **[!UICONTROL 行銷]** 該訊息的類別。 [了解更多](../email/create-email.md)
+1. [建立訊息](../building-journeys/journeys-message.md) 針對您想要通訊的每個管道，選取 **[!UICONTROL 行銷]** 每則訊息的類別。 [瞭解如何套用頻率規則](#apply-frequency-rule)
 
-1. 建立推播通知並選取 **[!UICONTROL 行銷]** 該訊息的類別。 [了解更多](../push/create-push.md)
+   ![](assets/journey-message-category.png)
+
+
+<!--
+Learn how to create a message for the different channels in the following sections:
+* [Create an email](../email/create-email.md)
+* [Create a push notification](../push/create-push.md)
+* [Create an SMS](../sms/create-sms.md)
+* [Create a direct mail](../direct-mail/create-direct-mail.md)
+
+Create an email and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../email/create-email.md)
+
+Create a push notification and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../push/create-push.md)
+
+Create an SMS and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../sms/create-sms.md)
+
+Create a direct mail and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../direct-mail/create-direct-mail.md)
+-->
 
 在此案例中，個別設定檔：
 * 每月最多可接收12則行銷訊息；

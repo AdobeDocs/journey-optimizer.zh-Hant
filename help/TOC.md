@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 21ce33b19693830972990c2c8bd5afe62b4c046d
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1730'
-ht-degree: 100%
+source-wordcount: '1736'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 100%
       + 函式 {#main-functions-journey}
          + [主要函式](using/building-journeys/expression/functions.md)
          + Adobe Experience Platform {#adobe-experience-platform}
-            + [inSegment](using/building-journeys/functions/functioninsegment.md)
+            + [inAudience](using/building-journeys/functions/functioninaudience.md)
          + 彙總 {#aggregation}
             + [avg](using/building-journeys/functions/functionavg.md)
             + [count](using/building-journeys/functions/functioncount.md)
@@ -205,7 +205,8 @@ ht-degree: 100%
 + 應用程式內頻道{#in-app}
    + [開始使用應用程式內頻道](using/in-app/get-started-in-app.md)
    + [應用程式內頻道先決條件](using/in-app/inapp-configuration.md)
-   + [建立應用程式內訊息](using/in-app/create-in-app.md)
+   + [建立行動應用程式內訊息](using/in-app/create-in-app.md)
+   + [建立網頁應用程式內訊息](using/in-app/create-in-app-web.md)
    + [設計您的應用程式內內容](using/in-app/design-in-app.md)
    + [檢查並傳送應用程式內通知](using/in-app/send-in-app.md)
 + 推播通知頻道{#push}

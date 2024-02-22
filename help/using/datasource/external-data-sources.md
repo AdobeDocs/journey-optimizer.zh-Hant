@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 67fbfe9c2ffb40a420cc3f28a775d9c6b3ee5553
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1526'
 ht-degree: 64%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->現在支援回應，因此您應該針對外部資料來源使用案例使用自訂動作，而非資料來源。
+>現已支援回應，對於外部資料來源使用案例，您應該使用自訂動作，而非資料來源。
 
 支援使用 POST 或 GET 以及傳回 JSON 的 REST API。支援 API 金鑰、基本和自訂驗證模式。
 
@@ -69,7 +69,15 @@ ht-degree: 64%
 
    ![](assets/journey27.png)
 
-1. 根據外部服務組態設定驗證： **[!UICONTROL 無驗證]**， **[!UICONTROL 基本]**， **[!UICONTROL 自訂]** 或 **[!UICONTROL API金鑰]**. 如需自訂驗證模式的詳細資訊，請參閱 [本節](../datasource/external-data-sources.md#custom-authentication-mode). 在我們的範例中，我們選擇：
+1. 根據外部服務組態設定驗證： **[!UICONTROL 無驗證]**， **[!UICONTROL 基本]**， **[!UICONTROL 自訂]** 或 **[!UICONTROL API金鑰]**.
+
+   對於基本驗證模式，您需要填寫使用者名稱和密碼。
+
+   >[!NOTE]
+   >
+   >執行驗證呼叫時， `<username>:<password>` 在Authentication標題中新增以base64編碼的字串。
+
+   如需自訂驗證模式的詳細資訊，請參閱 [本節](../datasource/external-data-sources.md#custom-authentication-mode). 在我們的範例中，我們選擇API金鑰驗證模式：
 
    * **[!UICONTROL 型別]**：「API金鑰」
    * **[!UICONTROL 名稱]**：「appid」（這是API金鑰引數名稱）

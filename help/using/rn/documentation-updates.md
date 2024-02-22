@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7ce415308bd516eb51799890c76b4469558087ee
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '4604'
-ht-degree: 99%
+source-wordcount: '4729'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,13 @@ ht-degree: 99%
 ## 2024 年 2 月 {#feb-2024}
 
 * 已新增有關如何根據內容資料個人化優惠方案表現的資訊。 [閱讀全文](../offers/offer-library/add-representations.md#context-data)
+* 已更新護欄頁面，其中包含自訂動作的說明，僅在使用請求或回應裝載時支援JSON格式。 [閱讀全文](../start/guardrails.md#custom-actions-g)
+* 已新增有關外部資料來源中基本驗證型別的其他資訊。 [閱讀全文](../datasource/external-data-sources.md)
+* 已新增附註，以清楚區分 [歷程運算式編輯器](../building-journeys/expression/expressionadvanced.md) 從 [個人化編輯器](../personalization/functions/functions.md).
+* 已更新進階運算式編輯器中可用的函式清單。 [閱讀全文](../building-journeys/expression/functions.md)
+* 已更新「分割」函式上的頁面。 [閱讀全文](../building-journeys/functions/functioninaudience.md)
+* 已新增有關選擇加入或選擇退出推播通知對應用程式內訊息之影響的資訊。 [閱讀全文](../in-app/create-in-app.md)
+* 訊息頻率規則頁面已更新，以反映使用者介面（每週或每月）中可用的期間選項。 [閱讀全文](../configuration/frequency-rules.md)
 
 ## 2024 年 1 月 {#jan-2024}
 
@@ -321,7 +328,7 @@ ht-degree: 99%
 
 ## 2021 年 9 月 {#september-2021}
 
-* 已更新下列函式頁面： [sethours](../building-journeys/functions/functionsethours.md)、[getListItem](../building-journeys/functions/functiongetlistitem.md)、[inSegment](../building-journeys/functions/functioninsegment.md)
+* 已更新下列函式頁面： [sethours](../building-journeys/functions/functionsethours.md)、[getListItem](../building-journeys/functions/functiongetlistitem.md)、[inSegment](../building-journeys/functions/functioninaudience.md)
 
 * 已新增下列函式： [篩選](../building-journeys/functions/functionfilter.md)、[相交](../building-journeys/functions/functionintersect.md)、[toDateOnly](../building-journeys/functions/functiontodateonly.md)
 

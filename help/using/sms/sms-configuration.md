@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f34eabfb4eb6d7486819cbc8435844b1ef983af3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 14%
+source-wordcount: '1518'
+ht-degree: 11%
 
 ---
 
@@ -59,7 +59,73 @@ Adobe Journey Optimizer目前與獨立於Adobe Journey Optimizer提供文字訊�
 >title="選取簡訊供應商設定"
 >abstract="選取為您的簡訊供應商設定的 API 憑證。"
 
-若要使用Journey Optimizer設定簡訊提供者，請遵循下列步驟：
+### Sinch {#sinch-api}
+
+若要使用Journey Optimizer設定Sinch，請遵循下列步驟：
+
+1. 在左側邊欄中，瀏覽至 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** 並選取 **[!UICONTROL API認證]** 功能表。 按一下 **[!UICONTROL 建立新的API認證]** 按鈕。
+
+   ![](assets/sms_6.png)
+
+1. 設定您的SMS API認證，如下所述：
+
+   * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
+
+   * **[!UICONTROL 服務ID]** 和 **[!UICONTROL API Token]**：存取API頁面，您可以在SMS標籤下找到您的認證。 進一步瞭解 [Sinch檔案](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
+
+   * **[!UICONTROL 選擇加入關鍵字]**：輸入將會自動觸發的預設或自訂關鍵字 **[!UICONTROL 選擇加入訊息]**. 對於多個關鍵字，請使用逗號分隔值。
+
+   * **[!UICONTROL 選擇加入訊息]**：輸入自訂回應，此回應會作為 **[!UICONTROL 選擇加入訊息]**.
+
+   * **[!UICONTROL 選擇退出關鍵字]**：輸入將會自動觸發的預設或自訂關鍵字 **[!UICONTROL 選擇退出訊息]**. 對於多個關鍵字，請使用逗號分隔值。
+
+   * **[!UICONTROL 選擇退出訊息]**：輸入自訂回應，此回應會作為 **[!UICONTROL 選擇退出訊息]**.
+
+   * **[!UICONTROL 說明關鍵字]**：輸入將會自動觸發的預設或自訂關鍵字 **說明訊息**. 對於多個關鍵字，請使用逗號分隔值。
+
+   * **[!UICONTROL 說明訊息]**：輸入自訂回應，此回應會作為 **說明訊息**.
+
+   * **[!UICONTROL 雙重選擇加入關鍵字]**：輸入觸發雙重加入流程的關鍵字。 如果使用者設定檔不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。 [進一步瞭解簡訊雙重選擇加入](https://video.tv.adobe.com/v/3427129/?learn=on).
+
+   * **[!UICONTROL 雙重選擇加入訊息]**：輸入自動傳送以回應雙重選擇加入確認的自訂回應。
+
+1. 按一下 **[!UICONTROL 提交]** 完成API認證的設定時。
+
+建立和設定API認證後，您現在需要建立SMS訊息的頻道介面（即訊息預設集）。
+
+<!--
+### Sinch MMS
+
+For **[!DNL Sinch MMS]**
+
+        * **[!UICONTROL Name]**: choose a name for your API Credential.
+
+        * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** and **[!UICONTROL API Token]**: from the Conversation API menu, you can find your credentials in the App menu. Learn more in [Sinch Documentation](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
+-->
+
+### Twilio {#twilio-api}
+
+若要使用Journey Optimizer設定Twilio，請遵循下列步驟：
+
+1. 在左側邊欄中，瀏覽至 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** 並選取 **[!UICONTROL API認證]** 功能表。 按一下 **[!UICONTROL 建立新的API認證]** 按鈕。
+
+   ![](assets/sms_6.png)
+
+1. 設定您的SMS API認證，如下所述：
+
+   * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
+
+   * **[!UICONTROL 帳戶SID]** 和 **[!UICONTROL 驗證權杖]**：存取 **帳戶資訊** [Twilio主控台儀表板]頁面的窗格，以尋找您的認證。
+
+   * **[!UICONTROL 訊息SID]**：輸入指派給Twilio API所建立每則訊息的唯一識別碼。 進一步瞭解 [Twilio檔案](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+
+1. 按一下 **[!UICONTROL 提交]** 完成API認證的設定時。
+
+建立和設定API認證後，您現在需要建立SMS訊息的頻道介面（即訊息預設集）。
+
+### Infobip {#infobip-api}
+
+若要使用Journey Optimizer設定Infobip，請遵循下列步驟：
 
 1. 在左側邊欄中，瀏覽至 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** 並選取 **[!UICONTROL API認證]** 功能表。 按一下 **[!UICONTROL 建立新的API認證]** 按鈕。
 
@@ -67,63 +133,34 @@ Adobe Journey Optimizer目前與獨立於Adobe Journey Optimizer提供文字訊�
 
 1. 設定您的SMS API認證，如下所述。
 
-   ![](assets/sms_7.png)
+   * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
 
-   * +++ 的 **[!DNL Sinch]**
+   * **[!UICONTROL API基底URL]** 和 **[!UICONTROL API金鑰]**：存取您的網頁介面首頁或API金鑰管理頁面以尋找您的認證。 進一步瞭解 [Infobip檔案](https://www.infobip.com/docs/api){target="_blank"}.
 
-      * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
+   * **[!UICONTROL 選擇加入關鍵字]**：輸入將會自動觸發的預設或自訂關鍵字 **[!UICONTROL 選擇加入訊息]**. 對於多個關鍵字，請使用逗號分隔值。
 
-      * **[!UICONTROL 服務ID]** 和 **[!UICONTROL API Token]**：存取API頁面，您可以在SMS標籤下找到您的認證。 進一步瞭解 [Sinch檔案](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
+   * **[!UICONTROL 選擇加入訊息]**：輸入自訂回應，此回應會作為 **[!UICONTROL 選擇加入訊息]**.
 
-      * **[!UICONTROL 選擇加入訊息]**：輸入自訂回應，此回應會作為 **[!UICONTROL 選擇加入訊息]**.
+   * **[!UICONTROL 選擇退出關鍵字]**：輸入將會自動觸發的預設或關鍵字 **[!UICONTROL 選擇退出訊息]**. 對於多個關鍵字，請使用逗號分隔值。
 
-      * **[!UICONTROL 選擇退出訊息]**：輸入自訂回應，此回應會作為 **[!UICONTROL 選擇退出訊息]**.
+   * **[!UICONTROL 選擇退出訊息]**：輸入自訂回應，此回應會作為 **[!UICONTROL 選擇退出訊息]**.
 
-      * **[!UICONTROL 說明訊息]**：輸入自訂回應，此回應會作為 **說明訊息**.
+   * **[!UICONTROL 說明關鍵字]**：輸入將會自動觸發的預設或自訂關鍵字 **說明訊息**. 對於多個關鍵字，請使用逗號分隔值。
 
-      * **[!UICONTROL 雙重選擇加入關鍵字]**：輸入觸發雙重加入流程的關鍵字。 如果使用者設定檔不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。 [進一步瞭解簡訊雙重選擇加入](https://video.tv.adobe.com/v/3427129/?learn=on).
+   * **[!UICONTROL 說明訊息]**：輸入自訂回應，此回應會作為 **說明訊息**.
 
-      * **[!UICONTROL 雙重選擇加入訊息]**：輸入自動傳送以回應雙重選擇加入確認的自訂回應。
-+++
+   * **[!UICONTROL 雙重選擇加入關鍵字]**：輸入觸發雙重加入流程的關鍵字。 如果使用者設定檔不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。
 
-   * +++ 的 **[!DNL Twilio]**
+   * **[!UICONTROL 雙重選擇加入訊息]**：輸入自動傳送以回應雙重選擇加入確認的自訂回應。
 
-      * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
+   * **[!UICONTROL 主體實體ID]**：輸入您指派的DLT主要實體識別碼。
 
-      * **[!UICONTROL 帳戶SID]** 和 **[!UICONTROL 驗證權杖]**：存取Twilio主控台控制面板頁面的「帳戶資訊」窗格，以尋找您的認證。
+   * **[!UICONTROL 內容範本ID]**：輸入您註冊的DLT內容範本ID。
 
-      * **[!UICONTROL 訊息SID]**：輸入指派給Twilio API所建立每則訊息的唯一識別碼。 進一步瞭解 [Twilio檔案](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+   * **[!UICONTROL 有效期]**：輸入訊息有效期（小時）。 如果在此時間範圍內無法傳遞訊息，系統會再次嘗試重新傳送訊息。 預設有效期設定為48小時。
 
-+++
+   * **[!UICONTROL 回呼資料]**：輸入要在通知URL上傳送的其他使用者端資料。
 
-   * +++ 的 **[!DNL Infobip]**
-
-      * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
-
-      * **[!UICONTROL API基底URL]** 和 **[!UICONTROL API權杖]**：存取您的網頁介面首頁或API金鑰管理頁面以尋找您的認證。 進一步瞭解 [Infobip檔案](https://www.infobip.com/docs/api){target="_blank"}.
-
-      * **[!UICONTROL 雙重選擇加入關鍵字]**：輸入觸發雙重加入流程的關鍵字。 如果使用者設定檔不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。
-
-      * **[!UICONTROL 雙重選擇加入訊息]**：輸入自動傳送以回應雙重選擇加入確認的自訂回應。
-
-      * **[!UICONTROL 主體實體ID]**：輸入您指派的DLT主要實體識別碼。
-
-      * **[!UICONTROL 內容範本ID]**：輸入您註冊的DLT內容範本ID。
-
-      * **[!UICONTROL 有效期]**：輸入訊息有效期（小時）。 如果在此時間範圍內無法傳遞訊息，系統會再次嘗試重新傳送訊息。 預設有效期設定為48小時。
-
-      * **[!UICONTROL 回呼資料]**：輸入要在通知URL上傳送的其他使用者端資料。
-+++
-
-<!--
-    * +++ For **[!DNL Sinch MMS]**
-
-        * **[!UICONTROL Name]**: choose a name for your API Credential.
-
-        * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** and **[!UICONTROL API Token]**: from the Conversation API menu, you can find your credentials in the App menu. Learn more in [Sinch Documentation](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
-
-        +++ 
--->
 1. 按一下 **[!UICONTROL 提交]** 完成API認證的設定時。
 
 建立和設定API認證後，您現在需要建立SMS訊息的頻道介面（即訊息預設集）。

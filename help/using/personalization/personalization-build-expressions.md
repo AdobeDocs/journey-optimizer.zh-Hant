@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，關於，開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 11%
+source-wordcount: '459'
+ht-degree: 10%
 
 ---
 
@@ -44,6 +44,10 @@ ht-degree: 11%
 按一下+按鈕，將屬性新增至個人化運算式。
 
 「+」圖示旁的省略符號選單可讓您取得每個變數的詳細資訊，並將您最常使用的屬性新增至我的最愛。 [瞭解如何將屬性新增至我的最愛](personalization-favorites.md)
+
+>[!NOTE]
+>
+>如果您使用構成工作流程或自訂上傳（CSV檔案）產生的擴充屬性來鎖定對象，您可以運用這些擴充屬性來個人化您的訊息。 [瞭解如何使用受眾擴充屬性](../audience/about-audiences.md#enrichment)
 
 此外，您可以定義預設後援文字，當字串型別的設定檔屬性為空白時將會顯示。 若要這麼做，請按一下屬性旁的省略符號按鈕，然後選取 **[!UICONTROL 插入後援文字]**. 撰寫設定檔的屬性值空白時預設應顯示的文字，然後按一下 **[!UICONTROL 新增]**.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1912'
-ht-degree: 100%
+source-wordcount: '1927'
+ht-degree: 99%
 
 ---
 
@@ -89,6 +89,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 不允許使用 IP 位址
 * 內部 Adobe 地址 (`.adobe.*`) 不允許在 URL 及 API 中使用。
 * 無法移除內建自訂動作。
+* 自訂動作僅在使用請求或回應裝載時支援JSON格式。 請參閱[此頁面](../action/about-custom-action-configuration.md#custom-actions-limitations)。
 * 使用自訂動作選擇要作為目標的端點時，請確定：
 
    * 此端點可使用來自[節流 API](../configuration/throttling.md) 或[設定 API 上限](../configuration/capping.md)的設定來支援歷程的輸送量，藉此加以限制。 請留意，節流設定不可低於 200 TPS。任何目標端點至少需要支援 200 TPS。
