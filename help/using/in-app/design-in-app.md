@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、設計、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1154'
 ht-degree: 28%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 28%
 
 從 **[!UICONTROL 訊息配置]** 區段，根據您的訊息傳送需求，選取四個不同的版面配置選項之一。
 
-![](assets/in_app_content_1.png)
+![](assets/in_app_web_design_1.png)
 
 * **[!UICONTROL 全熒幕]**：此型別的版麵包含對象裝置的整個熒幕。
 
@@ -77,7 +77,7 @@ ht-degree: 28%
 >title="選擇關閉按鈕的樣式。"
 >abstract="關閉按鈕部分提供選項讓您選取訊息關閉按鈕的變化，以及上傳自訂影像的選項。"
 
-![](assets/in_app_content_2.png)
+![](assets/in_app_web_design_2.png)
 
 選擇 **[!UICONTROL 樣式]** 的 **[!UICONTROL 關閉按鈕]**.
 
@@ -102,7 +102,7 @@ ht-degree: 28%
 
 此 **[!UICONTROL 媒體]** 欄位可讓您將媒體新增至應用程式內訊息，為一般使用者建立引人入勝的體驗。
 
-![](assets/in_app_content_3.png)
+![](assets/in_app_web_design_3.png)
 
 輸入您的媒體URL或按一下 **[!UICONTROL 選取資產]** 圖示可將儲存在「資產」程式庫中的資產直接新增至應用程式內訊息。 [進一步瞭解資產管理](../content-management/assets.md).
 您也可以新增 **[!UICONTROL 替代文字]** 適用於熒幕閱讀應用程式。
@@ -113,7 +113,7 @@ ht-degree: 28%
 
 +++
 
-### 標題和本文 {#title-body}
+### 內容 {#title-body}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_content"
@@ -122,7 +122,7 @@ ht-degree: 28%
 
 若要撰寫訊息，請在 **[!UICONTROL 頁首]** 和 **[!UICONTROL 內文]** 欄位。
 
-![](assets/in_app_content_4.png)
+![](assets/in_app_web_design_4.png)
 
 使用 **[!UICONTROL 個人化]** 圖示以新增個人化。 進一步瞭解Adobe Journey Optimizer運算式編輯器中的個人化 [在本節中](../personalization/personalize.md).
 
@@ -145,7 +145,7 @@ ht-degree: 28%
 
 新增按鈕讓使用者可以和您的應用程式內訊息互動。
 
-![](assets/in_app_content_5.png)
+![](assets/in_app_web_design_5.png)
 
 個人化您的按鈕：
 
@@ -182,6 +182,10 @@ ht-degree: 28%
 >title="預覽您的應用程式內訊息。"
 >abstract="這是預覽影像，將會在訊息傳送至裝置的訊息摘要時顯示。"
 
+>[!NOTE]
+>
+>預覽僅適用於行動應用程式內訊息。
+
 ![](assets/in_app_content_6.png)
 
 此 **[!UICONTROL 應用程式預覽]** 可讓您在應用程式內訊息後面新增背景：
@@ -199,7 +203,7 @@ ht-degree: 28%
 >title="定義應用程式內訊息的訊息版面。"
 >abstract="本部份可讓您在應用程式內訊息中新增背景。這需要 UI 接管才能啟用。"
 
-![](assets/in_app_content_7.png)
+![](assets/in_app_web_design_6.png)
 
 此 **[!UICONTROL 背景影像]** 欄位可讓您將背景新增至應用程式內訊息：
 
@@ -214,7 +218,7 @@ ht-degree: 28%
 >title="定義訊息進階設定。"
 >abstract="本部份讓您可以強化應用程式內的內容個人化，尤其是在啟用「進階格式化」時。"
 
-![](assets/in_app_content_8.png)
+![](assets/in_app_web_design_7.png)
 
 UI接管選項預設為啟用，可讓您讓應用程式內訊息背後的背景變暗，以強調對內容的關注。
 
