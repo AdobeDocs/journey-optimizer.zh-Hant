@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 9%
@@ -41,7 +41,7 @@ ht-degree: 9%
 
 若要存取內容範本清單，請選取 **[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]** 從左側功能表。
 
-![](../email/assets/content-template-list.png)
+![](assets/content-template-list.png)
 
 在目前沙箱上建立的所有範本 — 來自使用下列範本的歷程或行銷活動： **[!UICONTROL 另存為範本]** 選項，選自 **[!UICONTROL 內容範本]** 功能表 — 顯示。 [瞭解如何建立範本](#create-content-templates)
 
@@ -67,7 +67,7 @@ When you update a content, you may have to wait a few seconds before the changes
 
 * 若要編輯範本內容，請從清單中按一下所需的專案並選取 **[!UICONTROL 編輯內容]**.
 
-  ![](../email/assets/content-template-edit.png)
+  ![](assets/content-template-edit.png)
 
 * 若要刪除範本，請選取 **[!UICONTROL 更多動作]** 按鈕並選取 **[!UICONTROL 刪除]**.
 
@@ -202,7 +202,7 @@ When you update a content, you may have to wait a few seconds before the changes
 
 1. 按一下 **[!UICONTROL 模擬內容]** 並選取測試設定檔以檢查您的演算。 [了解更多](../content-management/preview-test.md)
 
-   ![](../email/assets/content-template-stimulate.png)
+   ![](assets/content-template-stimulate.png)
 
 1. 您可以傳送校樣以測試您的內容，並在將其用於歷程或行銷活動之前，先由內部使用者核准。
 
@@ -210,7 +210,7 @@ When you update a content, you may have to wait a few seconds before the changes
 
    * 在傳送校樣之前，您必須選取 [電子郵件表面](../configuration/channel-surfaces.md) 這些將用於測試您的內容。
 
-     ![](../email/assets/content-template-stimulate-proof-surface.png)
+     ![](assets/content-template-stimulate-proof-surface.png)
 
 >[!CAUTION]
 >
