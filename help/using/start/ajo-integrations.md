@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: eef253f35bf93edbe5b64b47754e16e4c590f862
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 100%
+source-wordcount: '767'
+ht-degree: 92%
 
 ---
 
@@ -76,6 +76,15 @@ Customer AI 可讓品牌建立流失率或轉換機器學習型分數，這些�
 您也可設定整合至 Adobe Campaign Standard，以在歷程中傳送訊息。
 
 深入了解 [Journey Optimizer + Campaign Standard](../building-journeys/using-adobe-campaign-standard.md)。
+
+
+## Adobe Workfront {#integration-workfront}
+
+使用Adobe Workfront中的Adobe Journey Optimizer模組來建立、讀取、更新或刪除記錄，或執行對Adobe Journey Optimizer API的自訂API呼叫。
+
+這項整合的關鍵步驟概觀已上線 [在此部落格中](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
+
+進一步瞭解Journey Optimizer + Adobe Workfront [在Adobe Workfront檔案中](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html){target="_blank"}.
 
 ## 自訂通道 {#integration-custom}
 
