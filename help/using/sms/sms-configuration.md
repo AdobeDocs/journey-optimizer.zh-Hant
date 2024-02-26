@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '1518'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer目前與獨立於Adobe Journey Optimizer提供文字訊�
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
 >title="使用 Journey Optimizer 設定您的 SMS 服務提供者"
->abstract="在傳送文字訊息之前，您必須整合提供者設定與Journey Optimizer。 完成後，您需要建立SMS表面。 這些步驟必須由 Adobe Journey Optimizer 系統管理員執行。"
+>abstract="在傳送文字簡訊之前，您必須使用 Journey Optimizer 來整合提供者設定。完成後，您將需要建立一個 SMS 表面。這些步驟必須由 Adobe Journey Optimizer 系統管理員執行。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hant#message-preset-sms" text="建立簡訊管道表面"
 
 >[!CONTEXTUALHELP]

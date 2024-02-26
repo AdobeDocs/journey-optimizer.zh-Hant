@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 9%
+ht-degree: 14%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="建立文字訊息。"
->abstract="若要建立文字訊息，請在歷程或行銷活動中新增SMS動作，並開始使用運算式編輯器進行個人化。"
+>abstract="若要建立文字簡訊，請在歷程或活動中新增 SMS 動作，然後開始使用運算式編輯器對其進行個人化設定。"
 
 您可以使用Adobe Journey Optimizer設計和傳送文字(SMS)。 您首先需要在歷程或行銷活動中新增SMS動作，然後定義文字訊息的內容，如下所述。 Adobe Journey Optimizer也提供在傳送文字訊息前先測試訊息的功能，讓您可檢查轉譯、個人化屬性和所有其他設定。
 
@@ -91,7 +91,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="定義您的文字簡訊內容"
->abstract="使用運算式編輯器定義內容並合併動態元素，以自訂和個人化您的文字訊息。"
+>abstract="透過使用運算式編輯器定義內容並結合動態元素，自訂與個人化文字簡訊。"
 
 若要設定簡訊內容，請遵循下列步驟。
 

@@ -12,7 +12,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
 source-wordcount: '1164'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="訊息活動"
->abstract="Journey Optimizer 內建訊息功能。您只需在歷程中新增推播、文字訊息、應用程式內或電子郵件訊息活動，以及定義設定和內容即可。 然後會在歷程的內容中執行和傳送。"
+>abstract="Journey Optimizer 內建訊息功能。您只需在歷程中新增推播、文字簡訊、應用程式內或電子郵件訊息活動，並定義設定和內容。然後會在歷程的內容中執行和傳送。"
 
 [!DNL Journey Optimizer] 隨附內建訊息功能。 您只需在歷程中新增推播、SMS、應用程式內或電子郵件訊息活動，並定義設定和內容。然後會在歷程的內容中執行和傳送。
 
