@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: eef253f35bf93edbe5b64b47754e16e4c590f862
+source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
 workflow-type: tm+mt
-source-wordcount: '4743'
-ht-degree: 97%
+source-wordcount: '4778'
+ht-degree: 96%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 97%
 * 已更新「分割」函式上的頁面。 [閱讀全文](../building-journeys/functions/functioninaudience.md)
 * 已新增有關選擇加入或選擇退出推播通知對應用程式內訊息之影響的資訊。 [閱讀全文](../in-app/create-in-app.md)
 * 訊息頻率規則頁面已更新，以反映使用者介面（每週或每月）中可用的期間選項。 [閱讀全文](../configuration/frequency-rules.md)
+* 「編輯PTR記錄」區段已更新，以釐清PTR記錄無法手動建立，且您需要編輯PTR記錄以指派新子網域的事實。 [閱讀全文](using/configuration/ptr-records.md#edit-ptr-record)
 
 ## 2024 年 1 月 {#jan-2024}
 

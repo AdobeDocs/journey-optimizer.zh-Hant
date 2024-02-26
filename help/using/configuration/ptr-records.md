@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子網域, PTR, 記錄, DNS, 網域, 郵件
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: d2d9913e41a183ef4a2cd41622ed67b0a559444f
+source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 94%
+source-wordcount: '840'
+ht-degree: 86%
 
 ---
 
@@ -50,7 +50,11 @@ ht-degree: 94%
 
 ## 編輯 PTR 記錄 {#edit-ptr-record}
 
-您可以修改 PTR 記錄，以編輯與 IP 位址相關聯的子網域。
+在 [!DNL Journey Optimizer]，您無法手動建立PTR記錄。 而一旦您 [委派](delegate-subdomain.md) 系統會自動為您的IP建立Adobe的第一個子網域PTR記錄。
+
+您的每個IP都會接收單一PTR記錄。 所有PTR記錄都有以下格式：「rxx.subdomain」，其中「subdomain」是您委派的第一個子網域 [!DNL Journey Optimizer].
+
+當您建立其他子網域時，需要修改一或多個PTR記錄，並將新子網域指派給它們。 若要執行此操作，請遵循下列步驟。
 
 >[!CAUTION]
 >
