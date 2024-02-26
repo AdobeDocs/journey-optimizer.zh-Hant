@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0144a772f67ffa03e39a70de41c54a6cf88cdd69
+source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 94%
+source-wordcount: '385'
+ht-degree: 73%
 
 ---
 
@@ -20,27 +20,27 @@ ht-degree: 94%
 
 >[!BEGINTABS]
 
->[!TAB 1 月發行版本已上線！]
+>[!TAB 2月版本已上線！]
 
-探索 Adobe Journey Optimizer 24.1 發行版本包含的新功能和改進項目。
+探索 Adobe Journey Optimizer 24.2 發行版本包含的新功能和改進項目。
 
-[![影像](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+[![瞭解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB 強制性 DMARC 更新]
+>[!TAB 網頁應用程式內傳訊]
 
-作為強制執行業界最佳實務的一部分，Google 和 Yahoo! 都要求您擁有 **DMARC記錄** ，適用於您用來傳送電子郵件給他們的任何網域，從 **2024年2月1日**. 請確定您已為在 Journey Optimizer 中委派給 Adobe 的所有子網域設定 DMARC 記錄。
+您現在可以使用新的網頁應用程式內傳訊功能，透過強制回應覆蓋訊息，直接在網站上顯示個人化內容。 此功能可讓您有效地與網路訪客互動，提高使用者互動、保留率和轉換率。
 
-[![影像](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
+![](using/rn/assets/do-not-localize/web_inapp.gif)
 
->[!TAB 使用案例教戰手冊]
+[![瞭解更多](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
 
-在 Real-Time CDP 和 Journey Optimizer 中，利用特定產業使用案例教戰手冊的目錄，解決您可以使用 Adobe Experience Platform 和 Adobe Journey Optimizer 來執行的常見使用案例。
+>[!TAB 多頻道內容範本]
 
-在您選擇最符合需求的教戰手冊後，您可加以啟用來產生歷程、訊息、結構描述或區段等支援使用案例所需的資產，並根據結構描述來予以自訂，以加速創造價值。
+除了電子郵件，以下頻道現在也提供內容範本：推播、應用程式內、簡訊和直接郵件，每個頻道都有專用的範本型別。 針對電子郵件，您現在可以選取內容型別，這可讓您儲存主旨行作為電子郵件範本的一部分。
 
-![顯示使用案例教戰手冊的動態影像](using/rn/assets/do-not-localize/playbooks.gif)
+![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
 
-[![影像](using/assets/do-not-localize/learn-more-button.svg)](using/start/playbooks.md)
+[![瞭解更多](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/content-templates.md)
 
 >[!ENDTABS]
 
