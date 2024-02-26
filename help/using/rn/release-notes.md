@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: ee33923ff5bfb73974935864c7e241ea4b0353c5
 workflow-type: tm+mt
 source-wordcount: '1140'
-ht-degree: 56%
+ht-degree: 54%
 
 ---
 
@@ -156,7 +156,7 @@ ht-degree: 56%
 <tbody>
 <tr>
 <td>
-<p>在 Real-Time CDP 和 Journey Optimizer 中，利用特定產業使用案例教戰手冊的目錄，解決您可以使用 Adobe Experience Platform 和 Adobe Journey Optimizer 來執行的常見使用案例。</p><p>在您選擇最符合需求的教戰手冊後，您可加以啟用來產生歷程、訊息、結構描述或區段等支援使用案例所需的資產，並根據結構描述來予以自訂，以加速創造價值。</p>
+<p>在Real-Time CDP和Journey Optimizer中運用產業特定使用案例教戰手冊的目錄，以解決您可以使用Adobe Experience Platform和Adobe Journey Optimizer執行的常見使用案例。</p><p>在您選擇最符合需求的教戰手冊後，您可加以啟用來產生歷程、訊息、結構描述或區段等支援使用案例所需的資產，並根據結構描述來予以自訂，以加速創造價值。</p>
 <p>如需詳細資訊，請參閱<a href="../start/playbooks.md">詳細文件</a>。</p>
 <br/><img src="assets/do-not-localize/playbooks.gif"/>
 </tr>
