@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 主要，執行，電子郵件，目標，設定檔，最佳化工具
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 9cc263d127fdc56f808770d908030b1d14b1f784
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 18%
+ht-degree: 14%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address_header"
 >title="定義要使用的地址"
->abstract="編輯用於確定設定檔的電子郵件地址或電話號碼的欄位以優先傳送。"
+>abstract="編輯用來決定設定檔電子郵件地址或電話號碼的欄位，以排定傳送的優先順序。"
 
 當您定位設定檔時，資料庫中可能會提供數個電子郵件地址或電話號碼（專業電子郵件地址、個人電話號碼等）。
 
