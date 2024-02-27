@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 38%
+source-wordcount: '1083'
+ht-degree: 39%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 38%
 
 >[!AVAILABILITY]
 >
->來自對象構成和自訂上傳（CSV檔案）的對象和屬性目前無法用於Healthcare Shield或Privacy and Security Shield。 [瞭解如何在Journey Optimizer中使用對象擴充屬性](../audience/about-audiences.md#enrichment)
+>受眾構成和自訂上傳（CSV檔案）受眾中的受眾和屬性目前無法與Healthcare Shield或Privacy and Security Shield搭配使用。 [瞭解如何在Journey Optimizer中使用對象擴充屬性](../audience/about-audiences.md#enrichment)
 
 您可以在 **[!DNL Journey Optimizer]** 中以不同方式善用對象：
 
@@ -61,7 +61,7 @@ ht-degree: 38%
 
 ## 在Journey Optimizer中使用對象擴充屬性 {#enrichment}
 
-使用構成工作流程或自訂上傳（CSV檔案）產生目標對象時，您可以利用這些對象的擴充屬性來建立您的歷程並個人化您的訊息。
+使用構成工作流程產生目標對象時，您可以善用來自這些對象的擴充屬性來建立您的歷程並個人化您的訊息。
 
 * 根據運用目標對象擴充屬性的規則，在歷程中建立多個路徑。 若要這麼做，請使用 [讀取對象](../building-journeys/read-audience.md) 活動接著在中建立規則 [條件](../building-journeys/condition-activity.md) 活動根據對象的擴充屬性。
 
