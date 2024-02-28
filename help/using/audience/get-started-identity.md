@@ -7,7 +7,7 @@ feature: Profiles, Identities
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: d9a3482d237c3080c060519dbdde9208c8c0befa
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 10%
@@ -21,7 +21,7 @@ ht-degree: 10%
 * 此 **身分名稱空間** 用作與身分相關之內容的指示器。
 * 此 **身分值** 是代表實體的字串。
 
-讓我們選電話號碼555-555-1234。 在此範例中，字串「555-555-1234」是 **身分值**，可分類為 **電話** 身分名稱空間。
+讓我們選電話號碼555-555-1234。 在此範例中，字串「555-555-1234」是 **身分值**，可歸類為「電話」 **身分名稱空間**.
 
 此 **身分** 中的選單 [!DNL Adobe Journey Optimizer] 可讓您有效率地瀏覽組成資料庫中客戶的各種識別碼。
 
