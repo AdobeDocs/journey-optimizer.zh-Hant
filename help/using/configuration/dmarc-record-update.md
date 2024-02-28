@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子網域, 網域, 郵件, dmarc, 記錄
 source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 87%
 
 網域型訊息驗證、報告和符合性 (DMARC) 是一種電子郵件驗證方法，可讓網域擁有者保護其網域免受未經授權的使用。向電子郵件提供者/ISP 提供明確的原則，有助於防止惡意行為者傳送聲稱來自您網域的電子郵件。實作 DMARC 可降低合法電子郵件遭標示為垃圾郵件或遭拒絕的風險，並改善電子郵件傳遞能力。
 
-作為強制執行業界最佳實務的一部分，Google 和 Yahoo! 都需要 **DMARC記錄** 用於傳送電子郵件給他們的任何網域。 這項新要求於 **2024 年 2 月 1 日**&#x200B;起生效。[了解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=zh-Hant#dmarc){target="_blank"}
+作為強制執行業界最佳實務的一部分，Google 和 Yahoo! 都會對用於向其傳送電子郵件的任何網域，要求提供 **DMARC 記錄**。這項新要求於 **2024 年 2 月 1 日**&#x200B;起生效。[了解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=zh-Hant#dmarc){target="_blank"}
 
 >[!CAUTION]
 >
@@ -46,9 +46,9 @@ ht-degree: 87%
 
   >[!IMPORTANT]
   >
-  >不過，CNAME設定也需要您在託管解決方案中加入一些額外的專案。 因此，請務必與 IT 部門進行協調，以便他們能夠執行[本節](dmarc-record.md#implement-dmarc)中詳細說明的更新。
+  >但是，CNAME 設定還需於裝載解決方案新增部分額外項目。因此，請務必與 IT 部門進行協調，以便他們能夠執行[本節](dmarc-record.md#implement-dmarc)中詳細說明的更新。
 
-Google和Yahoo！共用的最新時間表 如下所示：
+Google 和 Yahoo! 分享的最新時間表如下所述：
 
 * Google：
 
@@ -58,7 +58,7 @@ Google和Yahoo！共用的最新時間表 如下所示：
 
    * **2024 年 6 月 1 日** – 任何未完全符合規範的寄件者都會遇到封鎖的情況。
 
-* Yahoo！ 尚未提供確切日期，但已表示「執法工作將於2024年2月開始。 以逐步方式強制進行」。
+* Yahoo! 尚未提供確切日期，但已表示「將自 2024 年 2 月開始強制進行。以逐步方式強制進行」。
 
 >[!NOTE]
 >
@@ -68,5 +68,5 @@ Google和Yahoo！共用的最新時間表 如下所示：
 
 * 於[傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hant#about){target="_blank"}了解更多有關 DMARC 的資訊
 * 如需有關這些變更的更多指引，請參閱[傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=zh-Hant){target="_blank"}
-* 閱讀 [Google Gmail公告](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
-* 閱讀 [Yahoo！ 公告](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
+* 詳閱 [Google Gmail 公告](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
+* 詳閱 [Yahoo!公告](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
