@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: d8d007fb6a67e8716a07df04895684c2c1cfefaa
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 10%
+source-wordcount: '1125'
+ht-degree: 7%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="設定規則的上限"
->abstract="指定每月傳送到客戶設定檔的最大訊息數。頻率上限將依據每月的行事曆期間設定，並會在每個月的月初重設。"
+>abstract="指定在所選時間範圍內傳送到客戶設定檔的最大訊息數。 頻率上限將以所選的日曆期間為基礎，並將在相應時間範圍的開頭處重置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
