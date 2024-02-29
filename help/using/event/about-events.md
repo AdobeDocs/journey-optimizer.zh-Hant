@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 關於事件
-description: 瞭解事件
+title: 使用歷程事件
+description: 瞭解如何使用歷程中的事件
 feature: Journeys, Events
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，歷程，定義，開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 2f2b53fd74a51e96e61ddaf9e489c07bd359294f
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 58%
+source-wordcount: '989'
+ht-degree: 55%
 
 ---
 
-# 關於事件{#about-events}
+# 使用歷程事件 {#about-events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
->title="關於事件"
+>title="歷程事件"
 >abstract="事件會連結至人員，它與人的行為相關（例如，某人購買產品、造訪商店、離開網站等等）或是某人發生的事（例如，某人達到 10,000 點忠誠點數）。這是 Journey Optimizer 在歷程中會監聽的事件，以便協調下一個最佳動作。"
 
 事件設定可讓您定義 [!DNL Journey Optimizer] 會接收以作為事件的資訊。您可以使用多個事件（在歷程的不同步驟中），而數個歷程則可以使用相同事件。
@@ -64,7 +64,7 @@ ht-degree: 58%
 
 ## 資料週期 {#data-cycle}
 
-事件屬於 POST API 呼叫。事件會透過串流擷取API傳送至Adobe Experience Platform。 透過交易訊息 API 傳送的事件 URL 目的地稱為「入口」。事件的有效負載遵從 XDM 格式。
+事件屬於 POST API 呼叫。事件會透過串流擷取API傳送至Adobe Experience Platform。 透過交易訊息API傳送之事件的URL目的地稱為「入口」。 事件的有效負載遵從 XDM 格式。
 
 有效負載包含串流獲取API運作（在標題中）所需的資訊，以及所需的資訊。 [!DNL Journey Optimizer] 用於工作和用於歷程的資訊（在正文中，例如捨棄購物車的金額）。 串流獲取共有兩種模式，分別是驗證和未驗證。如需串流獲取 API 的詳細資訊，請參閱[此連結](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant)。
 
