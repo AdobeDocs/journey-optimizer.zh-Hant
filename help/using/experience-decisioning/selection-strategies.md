@@ -27,8 +27,8 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
 >title="限制符合資格的設定檔"
->abstract="您可以限制此選擇策略的優惠選擇。 預設情況下，所有設定檔都符合資格，但您可以使用受眾或規則將優惠選擇限制為僅限特定設定檔。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用受眾"
+>abstract="您可以限制此選擇策略的優惠選擇。 預設情況下，所有設定檔都符合資格，但您可以使用對象或規則將優惠選擇限制為僅限特定設定檔。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用對象"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="使用決定規則"
 
 >[!BEGINSHADEBOX 「本檔案指南提供哪些內容」]
