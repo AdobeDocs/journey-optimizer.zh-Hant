@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 17ddd9042b6fb4f078bf858c3a855e7fb604b0d2
+source-git-commit: e8a178ea337fb57f2c2460c9e3e53257787c7bfd
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1576'
 ht-degree: 8%
 
 ---
@@ -82,14 +82,15 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 
 在中建立IP熱身計畫之前 [!DNL Journey Optimizer] 介面，您必須在Excel範本中填入所有可為計畫提供摘要的資料。
 
+* 您可以從使用者介面下載空白Excel [IP熱身計畫範本](assets/IPWarmupPlan-Template.xlsx) 以填入。
+
+* 您也可以下載 [IP熱身計畫範例](assets/IPWarmupPlan-Sample.xlsx) 已填入一些您可當作範例的資料。
+
 <!--
-* From the user interface you can download the blank Excel [IP warmup plan template](assets/IPWarmupPlan-Template.xlsx) to fill in.
+* From the user interface you can download the blank Excel IP warmup plan template to fill in.
 
-* You can also download a [sample IP warmup plan](assets/IPWarmupPlan-Sample.xlsx) already filled in with some data you can use as an example.-->
-
-* 您可以從使用者介面下載空白Excel IP熱身計畫範本以填寫。
-
-* 您也可以下載已填入部分資料作為範例的IP熱身計畫範例。
+* You can also download a sample IP warmup plan already filled in with some data you can use as an example.
+-->
 
 >[!CAUTION]
 >
@@ -302,7 +303,7 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 
    >[!NOTE]
    >
-   >如果上傳失敗，請確定您使用正確的格式和檔案格式(.xls或.xlsx)。 使用範本<!--assets/IPWarmupPlan-Template.xlsx--> 由Adobe提供。
+   >如果上傳失敗，請確定您使用正確的格式和檔案格式(.xls或.xlsx)。 使用 [範本](assets/IPWarmupPlan-Template.xlsx) 由Adobe提供。
 
 1. 按一下 **[!UICONTROL 建立]**。在您上傳的檔案中定義的所有階段、執行、欄及其內容會自動顯示在 [!DNL Journey Optimizer] 介面。
 
