@@ -8,9 +8,9 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: 簡訊、子網域、設定
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '741'
 ht-degree: 24%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 24%
 >abstract="為了能夠建立簡訊表面，請確保您之前已設定了至少一個簡訊子網域，才能從子網域名稱清單中挑選。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hant#message-preset-sms" text="建立簡訊表面"
 
-若要能夠縮短新增至SMS訊息的URL，您必須設定您將在下列情況下選取的子網域： [建立SMS表面](sms-configuration.md#message-preset-sms).
+若要能夠縮短新增至SMS/MMS訊息的URL，您必須設定您將在下列情況下選取的子網域： [建立SMS表面](sms-configuration.md#message-preset-sms).
 
 您可以使用已委派給Adobe的子網域，也可以設定另一個子網域。 進一步瞭解將子網域委派至Adobe於 [本節](../configuration/delegate-subdomain.md).
 
