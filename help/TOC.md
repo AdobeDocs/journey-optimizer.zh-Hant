@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2f2b53fd74a51e96e61ddaf9e489c07bd359294f
+source-git-commit: a06b6853cbf9e9ea9473c032ba28deb917d2c181
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1739'
 ht-degree: 99%
 
 ---
@@ -218,7 +218,7 @@ ht-degree: 99%
       + [推播通知流量](using/push/push-gs.md)
       + [設定推播通知頻道](using/push/push-configuration.md)
       + [Mobile 上線快速入門工作流程](using/push/mobile-onboarding-wf.md)
-+ 簡訊頻道{#sms}
++ SMS / MMS 通道{#sms}
    + [開始使用文字訊息](using/sms/get-started-sms.md)
    + [建立文字訊息。](using/sms/create-sms.md)
    + [建立 MMS 訊息](using/sms/create-mms.md)
