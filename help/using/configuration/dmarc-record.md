@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子網域, 網域, 郵件, dmarc, 記錄
-source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
+source-git-commit: 745474d6232f01ee959db8d706110477ed0220e2
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 12%
+source-wordcount: '1349'
+ht-degree: 13%
 
 ---
 
@@ -27,8 +27,6 @@ ht-degree: 12%
 網域型訊息驗證、報告和符合性 (DMARC) 是一種電子郵件驗證方法，可讓網域擁有者保護其網域免受未經授權的使用。向電子郵件提供者/ISP 提供明確的原則，有助於防止惡意行為者傳送聲稱來自您網域的電子郵件。實作 DMARC 可降低合法電子郵件遭標示為垃圾郵件或遭拒絕的風險，並改善電子郵件傳遞能力。
 
 DMARC還提供驗證失敗的訊息報告，以及對於未通過DMARC驗證的電子郵件處理的控制。 取決於實作的 [DMARC原則](#dmarc-policies)，則可監視、隔離或拒絕這些電子郵件。 這些功能可讓您採取動作來減少和解決潛在的錯誤。
-
-<!--To help you prevent deliverability issues by allowing ISPs to authenticate your sending domains - while gaining visibility and control over mail that fail this authentication, [!DNL Journey Optimizer] will soon be supporting the DMARC technology directly in its administration interface.-->
 
 為了協助您防止傳遞問題，同時控制驗證失敗的郵件， [!DNL Journey Optimizer] 現在直接在其管理介面中支援DMARC技術。 [了解更多](#implement-dmarc)
 
@@ -65,11 +63,9 @@ SPF和DKIM都可用來將電子郵件與網域建立關聯，並共同驗證電�
 
 作為強制執行業界最佳實務的一部分，Google 和 Yahoo! 都要求您擁有 **DMARC記錄** 用於傳送電子郵件給他們的任何網域。 此新要求適用於開始使用 **2024年2月1日**.
 
-進一步瞭解Google和Yahoo！中的需求 [本節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=zh-Hant#dmarc){target="_blank"}.
-
 >[!CAUTION]
 >
->未能遵循 Gmail 和 Yahoo! 的這項新要求可能導致電子郵件進入垃圾郵件資料夾或遭到封鎖。 [了解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
+>未能遵循 Gmail 和 Yahoo! 的這項新要求可能導致電子郵件進入垃圾郵件資料夾或遭到封鎖。
 
 因此，Adobe強烈建議您採取下列動作：
 
