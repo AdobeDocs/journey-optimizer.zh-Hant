@@ -9,16 +9,23 @@ role: Admin
 level: Experienced
 keywords: 子網域，最佳化工具，委派
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
+source-git-commit: c80fecf1373528c8b46f76ee6a6eaafbcda58892
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '915'
 ht-degree: 27%
 
 ---
 
 # 中的子網域委派 [!DNL Journey Optimizer] {#subdomain-delegation}
 
-為電子郵件促銷活動建立子網域可讓品牌將各種型別的流量（例如行銷與企業）隔離到特定的IP集區和特定網域，這將加快IP預熱過程並改善整體的可遞送性。 如果您共用網域，且網域遭到封鎖或新增至拒絕清單，可能會影響您的公司郵件傳送。 不過，您電子郵件行銷通訊專屬網域上的信譽問題或封鎖將只會影響該電子郵件流程。 使用您的主網域作為寄件者或多個郵件串流的「寄件者」地址也會破壞電子郵件驗證，導致您的郵件遭到封鎖或放入垃圾郵件資料夾。
+>[!CONTEXTUALHELP]
+>id="ajo_admin_delegated_subdomains"
+>title="您的委派子網域會顯示在這裡。"
+>abstract="委派您的第一個子網域。 委派完成後，會建立PTR記錄並啟用電子郵件通道。"
+
+為電子郵件促銷活動建立子網域可讓品牌將各種型別的流量（例如行銷與企業）隔離到特定的IP集區和特定網域，這將加快IP預熱過程並改善整體的可遞送性。
+
+如果您共用網域，且網域遭到封鎖或新增至拒絕清單，可能會影響您的公司郵件傳送。 不過，您電子郵件行銷通訊專屬網域上的信譽問題或封鎖將只會影響該電子郵件流程。 使用您的主網域作為寄件者或多個郵件串流的「寄件者」地址也會破壞電子郵件驗證，導致您的郵件遭到封鎖或放入垃圾郵件資料夾。
 
 >[!NOTE]
 >
