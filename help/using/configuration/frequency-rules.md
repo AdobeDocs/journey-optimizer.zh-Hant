@@ -12,7 +12,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: d8d007fb6a67e8716a07df04895684c2c1cfefaa
 workflow-type: tm+mt
 source-wordcount: '1125'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="設定規則的上限"
->abstract="指定在所選時間範圍內傳送到客戶設定檔的最大訊息數。 頻率上限將以所選的日曆期間為基礎，並將在相應時間範圍的開頭處重置。"
+>abstract="指定在所選時間範圍內傳送至客戶設定檔的最大訊息數量。頻率上限會以所選的行事曆期間為基礎，並會在對應的時間段開始時重設。 "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"

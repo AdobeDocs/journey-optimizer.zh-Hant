@@ -12,7 +12,7 @@ exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
 workflow-type: tm+mt
 source-wordcount: '1535'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -124,7 +124,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="測試模式記錄"
->abstract="此 **顯示記錄** 按鈕會以JSON格式顯示測試結果。 這些結果會顯示歷程中個人的數目及其狀態。"
+>abstract="「**顯示記錄**」按鈕以 JSON 格式顯示測試結果。這些結果會顯示歷程中個人的數目及其狀態。"
 
 此 **[!UICONTROL 顯示記錄]** 按鈕可讓您檢視測試結果。 此頁面以JSON格式顯示歷程的目前資訊。 按鈕可讓您複製整個節點。 您需要手動重新整理頁面以更新歷程的測試結果。
 
