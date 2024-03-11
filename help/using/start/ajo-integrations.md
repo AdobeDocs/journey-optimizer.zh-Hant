@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: eef253f35bf93edbe5b64b47754e16e4c590f862
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -80,11 +80,11 @@ Customer AI 可讓品牌建立流失率或轉換機器學習型分數，這些�
 
 ## Adobe Workfront {#integration-workfront}
 
-使用Adobe Workfront中的Adobe Journey Optimizer模組來建立、讀取、更新或刪除記錄，或執行對Adobe Journey Optimizer API的自訂API呼叫。
+使用 Adobe Workfront 中的 Adobe Journey Optimizer 模組來建立、讀取、更新或刪除記錄，或對 Adobe Journey Optimizer API 執行自訂 API 呼叫。
 
-這項整合的關鍵步驟概觀已上線 [在此部落格中](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
+[這篇部落格文章中](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}提供了此整合關鍵步驟的概觀。
 
-進一步瞭解Journey Optimizer + Adobe Workfront [在Adobe Workfront檔案中](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html){target="_blank"}.
+了解更多有關 Journey Optimizer + Adobe Workfront [的資訊，請參閱 Adobe Workfront 文件](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hant){target="_blank"}。
 
 ## 自訂通道 {#integration-custom}
 

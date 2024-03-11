@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bfe377e6a362b9e9f1ce417a8ddfd7581845d342
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4778'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 96%
 
 ## 2024 年 2 月 {#feb-2024}
 
-* Journey Optimizer + Workfront整合已新增至整合頁面。 [閱讀全文](../start/ajo-integrations.md)
-* 已新增有關如何根據內容資料個人化優惠方案表現的資訊。 [閱讀全文](../offers/offer-library/add-representations.md#context-data)
-* 已更新護欄頁面，其中包含自訂動作的說明，僅在使用請求或回應裝載時支援JSON格式。 [閱讀全文](../start/guardrails.md#custom-actions-g)
-* 已新增有關外部資料來源中基本驗證型別的其他資訊。 [閱讀全文](../datasource/external-data-sources.md)
-* 已新增附註，以清楚區分 [歷程運算式編輯器](../building-journeys/expression/expressionadvanced.md) 從 [個人化編輯器](../personalization/functions/functions.md).
-* 已更新進階運算式編輯器中可用的函式清單。 [閱讀全文](../building-journeys/expression/functions.md)
-* 已更新「分割」函式上的頁面。 [閱讀全文](../building-journeys/functions/functioninaudience.md)
-* 已新增有關選擇加入或選擇退出推播通知對應用程式內訊息之影響的資訊。 [閱讀全文](../in-app/create-in-app.md)
-* 訊息頻率規則頁面已更新，以反映使用者介面（每週或每月）中可用的期間選項。 [閱讀全文](../configuration/frequency-rules.md)
-* 「編輯PTR記錄」區段已更新，以釐清PTR記錄無法手動建立，且您需要編輯PTR記錄以指派新子網域的事實。 [閱讀全文](../configuration/ptr-records.md#edit-ptr-record)
+* Journey Optimizer + Workfront 整合已新增至整合頁面。[閱讀全文](../start/ajo-integrations.md)
+* 已新增有關如何根據內容資料個人化服務的表示形式的資訊。[閱讀全文](../offers/offer-library/add-representations.md#context-data)
+* 已更新護欄頁面，其中包含自訂動作的說明，僅在使用請求或回應裝載時支援 JSON 格式。[閱讀全文](../start/guardrails.md#custom-actions-g)
+* 已新增有關外部資料來源中基本驗證類型的其他資訊。[閱讀全文](../datasource/external-data-sources.md)
+* 已新增附註，以明確區分[歷程運算式編輯器](../building-journeys/expression/expressionadvanced.md)與[個人化編輯器](../personalization/functions/functions.md)。
+* 進階運算式編輯器中可用的函式清單已更新。[閱讀全文](../building-journeys/expression/functions.md)
+* 已更新「分割」函式上的頁面。[閱讀全文](../building-journeys/functions/functioninaudience.md)
+* 已新增有關選擇加入或選擇退出推播通知對應用程式內訊息之影響的資訊。[閱讀全文](../in-app/create-in-app.md)
+* 訊息頻率規則頁面已更新，以反映使用者介面中可用的期間選項 (每週或每月)。[閱讀全文](../configuration/frequency-rules.md)
+* 「編輯 PTR 記錄」章節已更新，以釐清 PTR 記錄無法手動建立，以及您需要編輯 PTR 記錄以為其指派新子網域的事實。[閱讀全文](../configuration/ptr-records.md#edit-ptr-record)
 
 ## 2024 年 1 月 {#jan-2024}
 

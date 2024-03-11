@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子網域, 網域, 郵件, dmarc, 記錄
 source-git-commit: 745474d6232f01ee959db8d706110477ed0220e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '561'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 網域型訊息驗證、報告和符合性 (DMARC) 是一種電子郵件驗證方法，可讓網域擁有者保護其網域免受未經授權的使用。向電子郵件提供者/ISP 提供明確的原則，有助於防止惡意行為者傳送聲稱來自您網域的電子郵件。實作 DMARC 可降低合法電子郵件遭標示為垃圾郵件或遭拒絕的風險，並改善電子郵件傳遞能力。
 
-作為強制執行業界最佳實務的一部分，Google 和 Yahoo! 都會對用於向其傳送電子郵件的任何網域，要求提供 **DMARC 記錄**。此新要求適用於開始使用 **2024年2月1日**.
+作為強制執行業界最佳實務的一部分，Google 和 Yahoo! 都會對用於向其傳送電子郵件的任何網域，要求提供 **DMARC 記錄**。這項新要求於 **2024 年 2 月 1 日**&#x200B;起生效。
 
 >[!CAUTION]
 >

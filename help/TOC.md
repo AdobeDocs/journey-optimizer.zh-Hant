@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a06b6853cbf9e9ea9473c032ba28deb917d2c181
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1739'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -205,7 +205,7 @@ ht-degree: 99%
 + 應用程式內頻道{#in-app}
    + [開始使用應用程式內頻道](using/in-app/get-started-in-app.md)
    + [應用程式內頻道先決條件](using/in-app/inapp-configuration.md)
-   + [建立行動應用程式內訊息](using/in-app/create-in-app.md)
+   + [建立行動裝置應用程式內訊息](using/in-app/create-in-app.md)
    + [建立網頁應用程式內訊息](using/in-app/create-in-app-web.md)
    + [設計您的應用程式內內容](using/in-app/design-in-app.md)
    + [檢查並傳送應用程式內通知](using/in-app/send-in-app.md)

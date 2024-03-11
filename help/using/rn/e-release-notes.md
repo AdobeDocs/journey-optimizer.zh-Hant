@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '609'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -82,8 +82,8 @@ ht-degree: 90%
 
 **歷程**
 
-* **篩選您的歷程** - 除了現有的預定義日期篩選器之外，您現在可以使用&#x200B;**自訂日期篩選歷程**&#x200B;詳細目錄。這可讓您調整清單，顯示在特定日期、特定月內、整年或指定時間範圍內建立或發佈的歷程。
-* **自訂動作**  — 您現在可以更新 **content-type** 標頭。 這個新的 **content-type** 應該參考JSON內容。
+* **篩選您的歷程** - 除了現有的預定義日期篩選器之外，您現在可以使用&#x200B;**自訂日期篩選歷程**&#x200B;詳細目錄。這使您可以透過顯示在特定日期、特定月份、全年或指定時間範圍內建立或發布的歷程來細化清單。
+* **自訂動作** - 您現在可以更新 **content-type** 標題。 這個新的 **content-type** 應參考 JSON 內容。
 * **設定** - stepEvents 中的 IdentityMap 屬性現在已預先填入。主要身分定義為「primary = true」。
 * **使用者介面** - 歷程畫面中的頂部欄已重新組織，以改善體驗。 在不同的更新中，請注意，允許您存取歷程屬性的「鉛筆」圖示現在顯示在頂部欄的左側，歷程名稱旁邊。
 
@@ -105,6 +105,6 @@ ht-degree: 90%
 
   >[!AVAILABILITY]
   >
-  >此功能以Limited Availability (LA)形式發行，適合少數客戶使用。
+  >此功能以有限可用性 (LA) 形式向一小部分客戶發布。
 
 * **多管道範本** - 內容範本現可用於&#x200B;**所有管道**，網路除外。對於電子郵件，您現可選取類型 (HTML 或內容)。

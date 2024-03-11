@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '253'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 會透過 SMS 服務提供者 (或 SMS 閘道提供者) 
 
 ## 操作說明影片
 
-* 以下影片說明如何設定、編寫並將SMS訊息納入您的客戶歷程。
+* 下面的影片展示如何設定、編寫簡訊並將其納入您的客戶歷程。
 
   +++請觀看影片
 
@@ -78,7 +78,7 @@ Adobe Journey Optimizer 會透過 SMS 服務提供者 (或 SMS 閘道提供者) 
 
 +++
 
-* 以下影片可協助您更瞭解Adobe Journey Optimizer為行銷人員提供的行動裝置功能。
+* 以下影片可協助您更瞭解 Adobe Journey Optimizer 為行銷人員提供的行動裝置功能。
 
 
   +++請觀看影片

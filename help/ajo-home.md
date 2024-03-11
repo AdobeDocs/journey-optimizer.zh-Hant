@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -20,27 +20,27 @@ ht-degree: 73%
 
 >[!BEGINTABS]
 
->[!TAB 2月版本已上線！]
+>[!TAB 2 月發行版本已上線！]
 
 探索 Adobe Journey Optimizer 24.2 發行版本包含的新功能和改進項目。
 
-[![瞭解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 >[!TAB 網頁應用程式內傳訊]
 
-您現在可以使用新的網頁應用程式內傳訊功能，透過強制回應覆蓋訊息，直接在網站上顯示個人化內容。 此功能可讓您有效地與網路訪客互動，提高使用者互動、保留率和轉換率。
+現在您可以使用新的網頁應用程式內訊息功能，透過模態疊加訊息直接在網站上顯示個人化內容。此功能可讓您有效地與網路訪客互動，從而增強使用者互動、保留率和轉換率。
 
 ![](using/rn/assets/do-not-localize/web_inapp.gif)
 
-[![瞭解更多](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
+[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
 
->[!TAB 多頻道內容範本]
+>[!TAB 多管道內容範本]
 
-除了電子郵件，以下頻道現在也提供內容範本：推播、應用程式內、簡訊和直接郵件，每個頻道都有專用的範本型別。 針對電子郵件，您現在可以選取內容型別，這可讓您儲存主旨行作為電子郵件範本的一部分。
+除了電子郵件，以下管道現在也提供內容範本：推播、應用程式內、簡訊與直接郵件，每個管道都有專用的範本類型。針對電子郵件，您現在可以選取內容類型，這可讓您將主旨行儲存為電子郵件範本的一部分。
 
 ![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
 
-[![瞭解更多](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/content-templates.md)
+[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/content-templates.md)
 
 >[!ENDTABS]
 
