@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 71%
+ht-degree: 96%
 
 ---
 
@@ -55,13 +55,13 @@ ht-degree: 71%
 <table>
 <thead>
 <tr>
-<th><strong>多頻道內容範本</strong><br/></th>
+<th><strong>多管道內容範本</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>除了電子郵件，以下頻道現在也提供內容範本：推播、應用程式內、簡訊和直接郵件，每個頻道都有專用的範本型別。 針對電子郵件，您現在可以選取內容型別，這可讓您儲存主旨行作為電子郵件範本的一部分。 <br/><br/></p>
+<p>除了電子郵件，以下管道現在也提供內容範本：推播、應用程式內、簡訊與直接郵件，每個管道都有專用的範本類型。針對電子郵件，您現在可以選取內容類型，這可讓您將主旨行儲存為電子郵件範本的一部分。 <br/><br/></p>
 <p>如需詳細資訊，請參閱<a href="../content-management/content-templates.md">詳細文件</a>。<br></br></p>
 <img src="assets/do-not-localize/multi-chan-templates.gif">
 </tr>
@@ -75,7 +75,7 @@ ht-degree: 71%
 
 **對象**
 
-* **種子清單** - 使用&#x200B;**種子清單**&#x200B;時現在支援變體。種子地址會收到相同訊息所有變體的副本（例如內容實驗的不同處理）。 [閱讀全文](../configuration/seed-lists.md)
+* **種子清單** - 使用&#x200B;**種子清單**&#x200B;時現在支援變體。種子地址會收到相同訊息的所有變體的副本 (例如內容實驗的不同處理方式)。[閱讀全文](../configuration/seed-lists.md)
 
 以下改進之前以測試版形式提供，現在可供所有使用者使用：
 
@@ -86,26 +86,26 @@ ht-degree: 71%
   >[!AVAILABILITY]
   >
   >* 目前無法將對象構成和自訂上傳 (CSV 檔案) 中的對象和屬性與 Healthcare Shield 或 Privacy and Security Shield 結合使用。
-  >* 此 **從CSV檔案上傳對象** 改善功能在初次發行後的數天內正在逐步推出。 雖然有些使用者可以立即存取，但有些使用者在其環境中使用之前可能會遇到延遲問題。
+  >* **從 CSV 檔案上傳對象**&#x200B;的改進將在首次發布後的幾天內逐步推出。雖然某些使用者可以立即存取，但其他使用者在其環境可用之前可能會遇到延遲。
 
 **歷程**
 
-* **篩選您的歷程** - 除了現有的預定義日期篩選器之外，您現在可以使用&#x200B;**自訂日期篩選歷程**&#x200B;詳細目錄。這可讓您調整清單，顯示在特定日期、特定月內、整年或指定時間範圍內建立或發佈的歷程。 [閱讀全文](../building-journeys/journey-gs.md#filter)
-* **自訂動作**  — 您現在可以更新 **content-type** 標頭。 這個新的 **content-type** 應該參考JSON內容。 [閱讀全文](../action/about-custom-action-configuration.md#url-configuration)
-* **設定** - stepEvents 中的 IdentityMap 屬性現在已預先填入。主要身分定義為「primary = true」。 [閱讀全文](../reports/sharing-field-list.md)
-* **使用者介面** - 歷程畫面中的頂部欄已重新組織，以改善體驗。 在不同的更新中，請注意允許您存取歷程屬性的「鉛筆」圖示現在會顯示在頂端列的左側、歷程名稱旁邊。 [閱讀全文](../building-journeys/journey-gs.md#change-properties)
+* **篩選您的歷程** - 除了現有的預定義日期篩選器之外，您現在可以使用&#x200B;**自訂日期篩選歷程**&#x200B;詳細目錄。這使您可以透過顯示在特定日期、特定月份、全年或指定時間範圍內發布的歷程來細化清單。[閱讀全文](../building-journeys/journey-gs.md#filter)
+* **自訂動作** - 您現在可以更新 **content-type** 標題。 這個新的 **content-type** 應參考 JSON 內容。 [閱讀全文](../action/about-custom-action-configuration.md#url-configuration)
+* **設定** - stepEvents 中的 IdentityMap 屬性現在已預先填入。主要身分定義為「primary = true」。[閱讀全文](../reports/sharing-field-list.md)
+* **使用者介面** - 歷程畫面中的頂部欄已重新組織，以改善體驗。 在不同的更新中，請注意，允許您存取歷程屬性的「鉛筆」圖示現在顯示在頂部欄的左側，歷程名稱旁邊。[閱讀全文](../building-journeys/journey-gs.md#change-properties)
 
 **簡訊頻道**
 
-* **選擇加入/選擇退出關鍵字** - 當設定簡訊管道時，您現在可根據您的偏好自訂&#x200B;**選擇加入及選擇退出關鍵字**。 Journey Optimizer會根據這些指定的關鍵字觸發回應。 [了解更多](../sms/sms-configuration.md#create-api)
+* **選擇加入/選擇退出關鍵字** - 當設定簡訊管道時，您現在可根據您的偏好自訂&#x200B;**選擇加入及選擇退出關鍵字**。 Journey Optimizer 會根據這些指定關鍵字來觸發回應。[了解更多](../sms/sms-configuration.md#create-api)
 
 **行銷活動**
 
-* **API 觸發的活動** - 在啟動 API 觸發的活動後產生的 cURL 程式碼已增強。 它現在包含訊息中使用的所有個人化（設定檔和內容）變數。 [閱讀全文](../campaigns/api-triggered-campaigns.md#execute)
+* **API 觸發的活動** - 在啟動 API 觸發的活動後產生的 cURL 程式碼已增強。 現在其可包含訊息中使用的所有個人化 (個人資料與內容) 變數。[閱讀全文](../campaigns/api-triggered-campaigns.md#execute)
 
 **頻率規則**
 
-* 除了電子郵件和推播之外，您現在可以為簡訊和直接郵件通道建立頻率規則。 達到頻率上限時，頻率規則會自動將過度請求的設定檔從訊息和動作中排除。 [閱讀全文](../configuration/frequency-rules.md)
+* 除了電子郵件及推播之外，您現在還可以為簡訊和直接郵件管道建立頻率規則。 當達到頻率上限時，頻率規則會自動從訊息和動作中排除過度請求的設定檔。[閱讀全文](../configuration/frequency-rules.md)
 
 <!--**Decision management**
 
@@ -156,7 +156,7 @@ ht-degree: 71%
 <tbody>
 <tr>
 <td>
-<p>在Real-Time CDP和Journey Optimizer中運用產業特定使用案例教戰手冊的目錄，以解決您可以使用Adobe Experience Platform和Adobe Journey Optimizer執行的常見使用案例。</p><p>在您選擇最符合需求的教戰手冊後，您可加以啟用來產生歷程、訊息、結構描述或區段等支援使用案例所需的資產，並根據結構描述來予以自訂，以加速創造價值。</p>
+<p>在 Real-Time CDP 和 Journey Optimizer 中，利用特定產業使用案例教戰手冊的目錄，解決您可以使用 Adobe Experience Platform 和 Adobe Journey Optimizer 來執行的常見使用案例。</p><p>在您選擇最符合需求的教戰手冊後，您可加以啟用來產生歷程、訊息、結構描述或區段等支援使用案例所需的資產，並根據結構描述來予以自訂，以加速創造價值。</p>
 <p>如需詳細資訊，請參閱<a href="../start/playbooks.md">詳細文件</a>。</p>
 <br/><img src="assets/do-not-localize/playbooks.gif"/>
 </tr>
