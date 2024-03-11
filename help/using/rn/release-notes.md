@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ee33923ff5bfb73974935864c7e241ea4b0353c5
+source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 54%
+source-wordcount: '1146'
+ht-degree: 71%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 54%
 
 ## 2024 年 2 月發行說明 {#feb-2024}
 
-**發行日期**： 2024年2月21日至22日
+**發行日期**：2024 年 2 月 21 日至 22 日
 
 ### 新功能{#feb-features}
 
@@ -44,7 +44,7 @@ ht-degree: 54%
 <tbody>
 <tr>
 <td>
-<p>您現在可以使用新的網頁應用程式內傳訊功能，透過強制回應覆蓋訊息，直接在網站上顯示個人化內容。 此功能可讓您有效地與網路訪客互動，提高使用者互動、保留率和轉換率。<br/><br/></p>
+<p>現在您可以使用新的網頁應用程式內訊息功能，透過模態疊加訊息直接在網站上顯示個人化內容。此功能可讓您有效地與網路訪客互動，從而增強使用者互動、保留率和轉換率。<br/><br/></p>
 <p>如需詳細資訊，請參閱<a href="../in-app/create-in-app-web.md">詳細文件</a>。<br></br></p>
 <img src="assets/do-not-localize/web_inapp.gif">
 </tr>
@@ -75,33 +75,33 @@ ht-degree: 54%
 
 **對象**
 
-* **種子清單**  — 使用時，現在支援變體 **種子清單**. 種子地址會收到相同訊息所有變體的副本（例如內容實驗的不同處理）。 [閱讀全文](../configuration/seed-lists.md)
+* **種子清單** - 使用&#x200B;**種子清單**&#x200B;時現在支援變體。種子地址會收到相同訊息所有變體的副本（例如內容實驗的不同處理）。 [閱讀全文](../configuration/seed-lists.md)
 
-先前作為測試版提供，以下改進功能現已可供所有使用者使用：
+以下改進之前以測試版形式提供，現在可供所有使用者使用：
 
-* 您現在可以鎖定目標 **透過對象構成建立的對象** 並在Journeys中運用擴充屬性。 [了解更多](../building-journeys/read-audience.md)
+* 您現在可以鎖定&#x200B;**透過對象構成所建立的目標對象**，並在歷程中運用擴充屬性。 [了解更多](../building-journeys/read-audience.md)
 
-* 您現在可以鎖定目標 **從CSV檔案上傳的對象** 至歷程與行銷活動。 [了解更多](../audience/about-audiences.md#segments-in-journey-optimizer)
+* 您現在可以鎖定&#x200B;**從 CSV 檔案上傳**&#x200B;至歷程和行銷活動中的目標對象。[了解更多](../audience/about-audiences.md#segments-in-journey-optimizer)
 
   >[!AVAILABILITY]
   >
-  >* 來自對象構成和自訂上傳（CSV檔案）的對象和屬性目前無法用於Healthcare Shield或Privacy and Security Shield。
+  >* 目前無法將對象構成和自訂上傳 (CSV 檔案) 中的對象和屬性與 Healthcare Shield 或 Privacy and Security Shield 結合使用。
   >* 此 **從CSV檔案上傳對象** 改善功能在初次發行後的數天內正在逐步推出。 雖然有些使用者可以立即存取，但有些使用者在其環境中使用之前可能會遇到延遲問題。
 
 **歷程**
 
-* **篩選您的歷程**  — 您現在可以使用 **用於篩選歷程的自訂日期** 清查，以及現有的預先定義日期篩選器。 這可讓您調整清單，顯示在特定日期、特定月內、整年或指定時間範圍內建立或發佈的歷程。 [閱讀全文](../building-journeys/journey-gs.md#filter)
+* **篩選您的歷程** - 除了現有的預定義日期篩選器之外，您現在可以使用&#x200B;**自訂日期篩選歷程**&#x200B;詳細目錄。這可讓您調整清單，顯示在特定日期、特定月內、整年或指定時間範圍內建立或發佈的歷程。 [閱讀全文](../building-journeys/journey-gs.md#filter)
 * **自訂動作**  — 您現在可以更新 **content-type** 標頭。 這個新的 **content-type** 應該參考JSON內容。 [閱讀全文](../action/about-custom-action-configuration.md#url-configuration)
-* **設定** - stepEvents中的identityMap屬性現在已預先填入。 主要身分定義為「primary = true」。 [閱讀全文](../reports/sharing-field-list.md)
-* **使用者介面**  — 歷程畫面中的頂端列已重新整理，以改善體驗。 在不同的更新中，請注意允許您存取歷程屬性的「鉛筆」圖示現在會顯示在頂端列的左側、歷程名稱旁邊。 [閱讀全文](../building-journeys/journey-gs.md#change-properties)
+* **設定** - stepEvents 中的 IdentityMap 屬性現在已預先填入。主要身分定義為「primary = true」。 [閱讀全文](../reports/sharing-field-list.md)
+* **使用者介面** - 歷程畫面中的頂部欄已重新組織，以改善體驗。 在不同的更新中，請注意允許您存取歷程屬性的「鉛筆」圖示現在會顯示在頂端列的左側、歷程名稱旁邊。 [閱讀全文](../building-journeys/journey-gs.md#change-properties)
 
 **簡訊頻道**
 
-* **選擇加入/選擇退出關鍵字**  — 設定簡訊通道時，您現在可以自訂 **選擇加入和選擇退出關鍵字** 根據您的偏好設定。 Journey Optimizer會根據這些指定的關鍵字觸發回應。 [了解更多](../sms/sms-configuration.md#create-api)
+* **選擇加入/選擇退出關鍵字** - 當設定簡訊管道時，您現在可根據您的偏好自訂&#x200B;**選擇加入及選擇退出關鍵字**。 Journey Optimizer會根據這些指定的關鍵字觸發回應。 [了解更多](../sms/sms-configuration.md#create-api)
 
 **行銷活動**
 
-* **API觸發的行銷活動**  — 增強啟用API觸發的行銷活動後產生的cURL程式碼。 它現在包含訊息中使用的所有個人化（設定檔和內容）變數。 [閱讀全文](../campaigns/api-triggered-campaigns.md#execute)
+* **API 觸發的活動** - 在啟動 API 觸發的活動後產生的 cURL 程式碼已增強。 它現在包含訊息中使用的所有個人化（設定檔和內容）變數。 [閱讀全文](../campaigns/api-triggered-campaigns.md#execute)
 
 **頻率規則**
 
@@ -140,7 +140,7 @@ ht-degree: 54%
 <tr>
 <td>
 <p>Journey Optimizer 現在支援 DMARC 驗證技術。</p>
-<p>2024年2月1日起，Google和Yahoo！ 要求您擁有用於向其傳送電子郵件的任何網域的DMARC記錄。 請確定您已在 Journey Optimizer 中，為要委派給或即將委派給 Adobe 的所有子網域設定 DMARC 記錄。</p>
+<p>2024 年 2 月 1 日起，Google 和 Yahoo! 都要求您對傳送電子郵件所使用的任何網域留有 DMARC 記錄。請確定您已在 Journey Optimizer 中，為要委派給或即將委派給 Adobe 的所有子網域設定 DMARC 記錄。</p>
 <p>如需詳細資訊，請參閱<a href="../configuration/dmarc-record-update.md">詳細文件</a>。</p>
 <br/><img src="assets/do-not-localize/dmarc.gif"/>
 </tr>
@@ -191,9 +191,12 @@ ht-degree: 54%
 
 **頻率規則**
 
-* **每週和每日頻率上限** - 除了以月為單位之外，您現在可以指定一週或一天內所能傳送給客戶設定檔的訊息數量上限。頻率上限是以所選的行事曆期間為基礎，並會在對應的時間段開始時重設。 [進一步了解](../configuration/frequency-rules.md#create-new-rule)
+* **每週頻率上限**  — 您現在可以指定每週除每月外，傳送至客戶設定檔的訊息數上限。 頻率上限是以所選的行事曆期間為基礎，並會在對應的時間段開始時重設。 [了解更多](../configuration/frequency-rules.md#create-new-rule)
 
+  >[!NOTE]
+  >
+  >每日頻率上限也可依需求提供。 請聯絡您的Adobe代表。
 
-**決定管理**
+**決策管理**
 
 * **Edge 的頻率限定** - 頻率限定計數器現已更新，並可在不到 3 秒內做出 Edge Decisioning API 決定。[了解更多](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)

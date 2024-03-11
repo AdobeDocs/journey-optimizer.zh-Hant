@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: d8d007fb6a67e8716a07df04895684c2c1cfefaa
+source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1213'
 ht-degree: 10%
 
 ---
@@ -77,23 +77,9 @@ ht-degree: 10%
    >
    >目前僅限 **[!UICONTROL 行銷]** 類別可供使用。
 
-   <!--![](assets/message-rules-details.png)-->
+   ![](assets/message-rules-details.png)
 
-1. 從 **[!UICONTROL 持續時間]** 下拉式清單，選取要套用之上限的時間範圍。
-
-   ![](assets/message-rules-capping-duration.png)
-
-   頻率上限是根據所選的日曆期間。 它會在對應的時間範圍開始時重設。
-
-   每個期間的計數器到期日如下：
-
-   <!--* **[!UICONTROL Daily]**: The frequency cap is valid for the day until 23:59:59 UTC and resets to 0 at the start of the next day.-->
-
-   * **[!UICONTROL 每週]**：頻率上限有效期到星期六23日:59:當週的59 UTC作為行事曆周從星期日開始。 無論規則建立與否，有效期都相同。 例如，如果規則是在星期四建立，則此規則有效期至星期六的23日:59:59.
-
-   * **[!UICONTROL 每月]**：頻率上限有效期至當月最後一天23:59:59 UTC. 例如，1月的每月到期日為01-31 23:59:59 UTC.
-
-   &lt;! — 注意：處理時 [批次細分](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} 建議使用。 <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+1. 從 **[!UICONTROL 持續時間]** 下拉式清單，選取要套用之上限的時間範圍。 [了解更多](#frequency-cap)
 
 1. 設定規則的上限，代表每個月或每週可傳送至個別使用者設定檔的最大訊息數量 <!--or day-->  — 根據您在上面的選擇。
 
@@ -114,6 +100,34 @@ ht-degree: 10%
 1. 按一下 **[!UICONTROL 另存為草稿]** 以確認建立規則。 您的訊息將新增至規則清單，並包含 **[!UICONTROL 草稿]** 狀態。
 
    ![](assets/message-rules-created.png)
+
+### 頻率上限 {#frequency-cap}
+
+從 **[!UICONTROL 持續時間]** 下拉式清單，選取是否要每月或每週套用上限。
+
+>[!NOTE]
+>
+>每日頻率上限也可依需求提供。 [了解更多](#daily-frequency-cap)
+
+頻率上限是根據所選的日曆期間。 它會在對應的時間範圍開始時重設。
+
+![](assets/message-rules-capping-duration.png)
+
+每個期間的計數器到期日如下：
+
+* **[!UICONTROL 每月]**：頻率上限有效期至當月最後一天23:59:59 UTC. 例如，1月的每月到期日為01-31 23:59:59 UTC.
+
+* **[!UICONTROL 每週]**：頻率上限有效期到星期六23日:59:當週的59 UTC作為行事曆周從星期日開始。 無論規則建立與否，有效期都相同。 例如，如果規則是在星期四建立，則此規則有效期至星期六的23日:59:59.
+
+### 每日頻率上限 {#daily-frequency-cap}
+
+除了每月和每週外，每日頻率上限也可依需求提供。 如需詳細資訊，請聯絡您的Adobe代表。
+
+每日頻率上限對該日有效，直到23:59:59 UTC並在第二天開始時重設為0。
+
+>[!NOTE]
+>
+>處理時 [批次細分](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} 建議使用。 進一步瞭解中的對象評估方法 [本節](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## 啟用規則 {#activate-rule}
 
