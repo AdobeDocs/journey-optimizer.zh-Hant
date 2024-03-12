@@ -12,16 +12,16 @@ exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: c80fecf1373528c8b46f76ee6a6eaafbcda58892
 workflow-type: tm+mt
 source-wordcount: '915'
-ht-degree: 27%
+ht-degree: 30%
 
 ---
 
-# 中的子網域委派 [!DNL Journey Optimizer] {#subdomain-delegation}
+# [!DNL Journey Optimizer] 中的子網域委派 {#subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_delegated_subdomains"
->title="您的委派子網域會顯示在這裡。"
->abstract="委派您的第一個子網域。 委派完成後，會建立PTR記錄並啟用電子郵件通道。"
+>title="您委派的子網域會顯示在這裡。"
+>abstract="委派您的第一個子網域。委派完成後，PTR 記錄就會建立且電子郵件頻道將啟用。"
 
 為電子郵件促銷活動建立子網域可讓品牌將各種型別的流量（例如行銷與企業）隔離到特定的IP集區和特定網域，這將加快IP預熱過程並改善整體的可遞送性。
 
