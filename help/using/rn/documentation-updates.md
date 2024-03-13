@@ -8,16 +8,22 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bfe377e6a362b9e9f1ce417a8ddfd7581845d342
-workflow-type: ht
-source-wordcount: '4778'
-ht-degree: 100%
+source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
+workflow-type: tm+mt
+source-wordcount: '4831'
+ht-degree: 99%
 
 ---
 
 # 文件更新 {#latest-updates}
 
 本頁面列出 [!DNL Journey Optimizer] 文件的所有最新更新。
+
+## 2024 年 3 月 {#march-2024}
+
+* 「訊息頻率規則」頁面已更新，包含有關每日頻率上限的新子區段，除了每週或每月上限外，還可隨選提供。 [閱讀全文](../configuration/frequency-rules.md#daily-frequency-cap)
+* 改善並更新「使用同意原則」頁面，其中包含Experience Platform檔案的實用連結。 [閱讀全文](../action/consent.md)
+  <!--* The Access and manage templates section has been updated to reflect the fact that you can display content templates as a thumbnails with the Grid view mode. [Read more](../content-management/content-templates.md#template-thumbnails)-->
 
 ## 2024 年 2 月 {#feb-2024}
 

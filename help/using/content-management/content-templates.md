@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
+source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 9%
+source-wordcount: '1425'
+ht-degree: 10%
 
 ---
 
@@ -55,16 +55,6 @@ ht-degree: 9%
 
 ![](assets/content-template-list-filters.png)
 
-<!--Select the **[!UICONTROL Grid view]** mode to display each template as a thumbnail. 
-
->[!NOTE]
->
->Currently proper thumbnails can only be generated for HTML-type email content templates.
-
-When you update a content, you may have to wait a few seconds before the changes are reflected in the thumbnail.
-
-![](assets/content-template-grid-view.png)-->
-
 * 若要編輯範本內容，請從清單中按一下所需的專案並選取 **[!UICONTROL 編輯內容]**.
 
   ![](assets/content-template-edit.png)
@@ -76,6 +66,22 @@ When you update a content, you may have to wait a few seconds before the changes
 >[!NOTE]
 >
 >編輯或刪除範本時，使用此範本建立的行銷活動或歷程（包括內容）不受影響。
+
+### 將範本顯示為縮圖 {#template-thumbnails}
+
+選取 **[!UICONTROL 格點檢視]** 模式，將每個範本顯示為縮圖。
+
+>[!AVAILABILITY]
+>
+>此功能以有限可用性 (LA) 形式向一小部分客戶發布。
+
+![](assets/content-template-grid-view.png)
+
+>[!NOTE]
+>
+>目前只能為HTML型別的電子郵件內容範本產生適當的縮圖。
+
+更新內容時，您可能需要等候幾秒鐘，變更才會反映在縮圖中。
 
 ## 建立內容範本 {#create-content-templates}
 
