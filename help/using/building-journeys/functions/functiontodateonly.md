@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: toDateOnly，函式，運算式，歷程
 exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 10%
@@ -49,13 +49,13 @@ ht-degree: 10%
 
 ## 範例
 
-`toDateOnly("2016-08-18")`
+`toDateOnly("2023-08-18")`
 
-`toDateOnly("2016-08-18T00:00:00.000Z")`
+`toDateOnly("2023-08-18T00:00:00.000Z")`
 
-`toDateOnly("2016-08-18T00:00:00")`
+`toDateOnly("2023-08-18T00:00:00")`
 
-所有傳回代表2016-08-18的dateOnly物件。
+所有傳回代表2023-08-18的dateOnly物件。
 
 `toDateOnly(#{ExperiencePlatform.ProfileFieldGroup.person.birthDate})`
 

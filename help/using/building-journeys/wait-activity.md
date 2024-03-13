@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 等待，活動，歷程，下一步，畫布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 17%
@@ -60,13 +60,13 @@ Select the date for the execution of the next activity.
 
 ## 自訂等待{#custom}
 
-此選項可讓您根據來自事件或資料來源的欄位，使用進階運算式來定義自訂日期，例如2020年7月12日下午5點。 它無法讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 請參閱此 [頁面](expression/expressionadvanced.md). 如需dateTimeOnly格式的詳細資訊，請參閱此 [頁面](expression/data-types.md).
+此選項可讓您根據來自事件或資料來源的欄位，使用進階運算式來定義自訂日期，例如2023年7月12日下午5點。 它無法讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 請參閱此 [頁面](expression/expressionadvanced.md). 如需dateTimeOnly格式的詳細資訊，請參閱此 [頁面](expression/data-types.md).
 
 >[!NOTE]
 >
->您可以利用dateTimeOnly運算式或使用函式來轉換為dateTimeOnly。 例如： toDateTimeOnly(@event{Event.offerOpened.activity.endTime})，事件中的欄位格式為2016-08-12T09:46:06Z
+>您可以利用dateTimeOnly運算式或使用函式來轉換為dateTimeOnly。 例如： toDateTimeOnly(@event{Event.offerOpened.activity.endTime})，事件中的欄位格式為2023-08-12T09:46:06Z
 >
->此 **時區** 應在您歷程的屬性中找到。 因此，現今無法從介面直接指向完整的ISO-8601時間戳記混合時間和時區位移，例如2016-08-12T09:46:06.982-05。 請參閱[此頁面](../building-journeys/timezone-management.md)。
+>此 **時區** 應在您歷程的屬性中找到。 因此，現今無法從介面直接指向完整的ISO-8601時間戳記混合時間和時區位移，例如2023-08-12T09:46:06.982-05。 請參閱[此頁面](../building-journeys/timezone-management.md)。
 
 ![](assets/journey57.png)
 

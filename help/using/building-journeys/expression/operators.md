@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 運算式，語法，運運算元，編輯器，歷程
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 5%
@@ -434,13 +434,13 @@ Datetimeonly可以與Datetimeonly比較。
 "the current time is " + (now())
 ```
 
-傳回「目前時間是2019-09-23T09:30:06.693盎司
+傳回「目前時間是2023-09-23T09:30:06.693盎司
 
 ```json
 (now()) + " is the current time"
 ```
 
-傳回「2019-09-23T09」:30:06.693Z為目前時間」
+傳回「2023-09-23T09」:30:06.693Z為目前時間」
 
 ```json
 "a" + "b" + "c" + 1234
@@ -461,16 +461,16 @@ Datetimeonly可以與Datetimeonly比較。
 範例：
 
 ```json
-(toDateTime("2011-12-03T15:15:30Z")) + (toDuration("PT15M"))  
+(toDateTime("2023-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-傳回 _dateTime_ 2011-12-03T15:30:30Z
+傳回 _dateTime_ 2023-12-03T15:30:30Z
 
 ```json
-(toDateTimeOnly("2011-12-03T15:15:30")) + (toDuration("PT15M"))
+(toDateTimeOnly("2023-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-傳回 _dateTimeOnly_ 2011-12-03T15:30:30
+傳回 _dateTimeOnly_ 2023-12-03T15:30:30
 
 ```json
 (now()) + (toDuration("PT1H"))
