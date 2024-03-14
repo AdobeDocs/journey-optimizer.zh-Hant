@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: d7b784f10e267878fd0df9360ed0d1be24699a53
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '484'
 ht-degree: 19%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 19%
 * **說明**：說明。
 
 這些關鍵字通常會觸發來自第三方提供者的自動標準回覆。 您可以直接向提供者或透過其文件網站確認。
+
+使用Infobip時，請確定「轉送」動作已設為「提取」設定。
 
 無需任何步驟，即可確保SMS選擇退出功能在Adobe Journey Optimizer中運作，因為關鍵字回應STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE會自動識別。 在Adobe Journey Optimizer中即時更新設定檔選擇退出狀態。
 
