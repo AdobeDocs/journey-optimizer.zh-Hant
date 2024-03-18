@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4f7a62cdfbd90b2d33341342f6fba769e8bf0132
+source-git-commit: 2dfcbd1631c7fefccaf02782a3218c9a1c1dc7aa
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 26%
+source-wordcount: '311'
+ht-degree: 29%
 
 ---
 
@@ -55,7 +55,11 @@ ht-degree: 26%
 
 **內容範本**
 
-* **縮圖** - A **縮圖檢視** 現在可用於內容範本和片段，以改進視覺存取。 [了解更多](../content-management/content-templates.md#template-thumbnails)
+* **縮圖** - A **格點檢視** 內容範本現在可使用此模式，顯示縮圖以改善視覺存取。 目前僅支援電子郵件HTML範本。 [了解更多](../content-management/content-templates.md#template-thumbnails)
+
+  >[!AVAILABILITY]
+  >
+  >此功能以有限可用性 (LA) 形式向一小部分客戶發布。
 
 **歷程**
 
