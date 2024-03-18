@@ -8,16 +8,16 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 31e94565037aa8493e8b09c813047a4600549e8d
+source-git-commit: 02b5886dc9d32d3b06dd4930da882019e344bab3
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 36%
+source-wordcount: '278'
+ht-degree: 27%
 
 ---
 
 # 早期發行說明 {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每月最後一週整合於[發行說明](release-notes.md)。
+[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更會在每個月底的 [發行說明](release-notes.md).
 
 至發行日期之前，下方的搶先發行說明如有變更，恕不另行通知。 連結、畫面及更新的文件會在發行當日發佈於[發行說明](release-notes.md)。
 
@@ -25,9 +25,9 @@ ht-degree: 36%
 
 **發行日期**： 2024年3月19至20日
 
-### 新功能{#e-features}
+### 新功能 {#e-features}
 
-此發行版本提供下列新功能。
+此版本提供下列詳細的新功能。
 
 <table>
 <thead>
@@ -41,7 +41,7 @@ ht-degree: 36%
 <p>透過新的程式碼型體驗頻道，Adobe Journey Optimizer可讓您針對任何傳入屬性進行進階個人化和測試，實現跨不同接觸點（例如網頁應用程式、行動應用程式、案頭應用程式、視訊主控台、電視連線裝置、智慧型電視、資訊站、ATM、物聯網裝置等）的量身打造體驗無縫交付。</p>
 <P>主要功能包括：</p>
 <ul><li> 通用個人化：擴充所有接觸點的個人化體驗，確保有凝聚力且量身打造的使用者歷程</li>
-<li>&gt;精細的編輯精確度：在應用程式或網頁內的個別位置編輯特定內容</li>
+<li>精細的編輯精確度：在應用程式或網頁內的個別位置編輯特定內容</li>
 <li>多樣化實作：支援伺服器端、API或SDK型實作方法，以便順暢地與您的開發環境整合。</li></ul></p>
 <p>如需詳細資訊，請參閱<a href="../code-based/get-started-code-based.md">詳細文件</a>。</p>
 <!--img src="assets/do-not-localize/web_inapp.gif"-->
