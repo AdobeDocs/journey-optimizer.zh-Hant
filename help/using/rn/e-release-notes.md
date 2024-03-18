@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4b3ec38154d01eb3f15c30c26b427ee34a324be7
+source-git-commit: 4f7a62cdfbd90b2d33341342f6fba769e8bf0132
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 27%
+source-wordcount: '289'
+ht-degree: 26%
 
 ---
 
@@ -64,3 +64,5 @@ ht-degree: 27%
 * **發佈** 介於兩者之間的狀態： **草稿** 狀態與 **即時** 狀態
 * **正在停止** 介於兩者之間的狀態： **即時** 狀態與 **已停止** 狀態
 * **啟用測試模式** 或 **停用測試模式** 介於兩者之間的狀態： **草稿** 狀態與 **草稿（測試）** 狀態
+
+當歷程處於中繼狀態時，它是唯讀的。
