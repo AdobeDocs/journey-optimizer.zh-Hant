@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: platform、資料湖、建立、湖、資料集、設定檔
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: f2d4531bd3b0b84dc1b52e818cbbeee36733314f
+source-git-commit: 83751eae9f703a89a57cb337492377ff2478d4a0
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '864'
 ht-degree: 9%
 
 ---
@@ -67,7 +67,7 @@ Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
 
 ## 先決條件 {#prerequisites}
 
-若要匯出資料集，您需要 [存取控制許可權](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions) 列於下方。 閱讀 [存取控制總覽](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) 或聯絡您的產品管理員以取得必要許可權。
+若要匯出資料集，您需要 [存取控制許可權](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"} listed below. Read the [access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"} 或聯絡您的產品管理員以取得必要許可權。
 
 | 類別 | 權限 |
 |--|--|
@@ -75,15 +75,15 @@ Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
 | 資料管理 | 檢視資料集 |
 | 目的地 | 檢視目的地 |
 
-## 匯出資料集的主要步驟 {#main-steps}
+## 匯出資料集的關鍵步驟 {#main-steps}
 
 將資料集匯出至雲端儲存位置的主要步驟如下：
 
 ![](assets/dataset-export-process.png)
 
-Adobe Experience Platform檔案中提供每個步驟的詳細資訊： [將資料集匯出至雲端儲存空間目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html).
+有關每個步驟的詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}.
 
-1. **設定您的雲端儲存空間目的地**. 如果您尚未這麼做，請從目的地目錄連線至雲端儲存空間目的地。 [瞭解如何建立新的目的地連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup)
+1. **設定您的雲端儲存空間目的地**. 如果您尚未這麼做，請從目的地目錄連線至雲端儲存空間目的地。 瞭解如何在中建立新的目的地連線 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}.
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -93,7 +93,7 @@ Adobe Experience Platform檔案中提供每個步驟的詳細資訊： [將資�
 
    >[!NOTE]
    >
-   >如果您搭配使用Adobe Journey Optimizer以及即時客戶設定檔，目的地卡片會顯示「啟用」按鈕，讓您根據已啟用許可權，匯出資料集並啟用此目的地的對象。
+   >如果您搭配使用Adobe Journey Optimizer以及即時客戶設定檔，目的地卡片將會顯示 **啟動** 按鈕，可讓您根據您啟用的許可權，匯出資料集及為此目的地啟用對象。
 
 1. **選取資料集** 要匯出至所選目的地的檔案。 [進一步瞭解可用於匯出的Journey Optimizer資料集](#datasets)
 
@@ -107,4 +107,4 @@ Adobe Experience Platform檔案中提供每個步驟的詳細資訊： [將資�
 
    <!--![](assets/dataset-export-review.png)-->
 
-匯出完成後，資料集的內容會根據您設定的排程儲存在雲端儲存位置。 [瞭解如何驗證成功的資料集匯出](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify)
+匯出完成後，資料集的內容會根據您設定的排程儲存在雲端儲存位置。 [瞭解如何驗證成功的資料集匯出](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}.
