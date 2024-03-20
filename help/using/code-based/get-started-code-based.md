@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 9d21ea489e62254eb3e4665198149e284b78296e
+source-git-commit: 3cdef96e383448b462f6e3781e36d3c9a57bd637
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 80%
@@ -174,6 +174,5 @@ ht-degree: 80%
 | --------- | ----------- | ------- | 
 | 萬用字元網頁 | 萬用字元:web://domain.com/`*`#element | 萬用字元表面 - 代表特定網域下每個頁面中的個別元素。 |
 | 萬用字元網頁 | 萬用字元:web://`*`domain.com/`*`#element | 萬用字元表面 — 代表所有網域底下每個頁面中以「domain.com」結尾的個別元素。 |
-
 
 
