@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 9d21ea489e62254eb3e4665198149e284b78296e
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 88%
+source-wordcount: '1138'
+ht-degree: 80%
 
 ---
 
@@ -144,37 +144,31 @@ ht-degree: 88%
 * 其也可以是符合各種用戶端介面定義的萬用字元表面 (例如，網站每個頁面上的主圖影像位置可翻譯為表面URI，例如：web://mydomain.com/*#hero_image)。
 
 基本上，表面 URI 由多個區段組成：
-1. **型別**：網路、ios、android、atm、資訊站、tvcd、服務等。
+1. **型別**：網路、行動應用程式、atm、資訊站、tvcd、服務等。
 1. **屬性**：頁面URL或應用程式套件組合
 1. **容器**：頁面/應用程式活動上的位置
 
 下表列出各種裝置的一些表面URI定義範例。
 
-**網頁與行動裝置**
+### 網頁與行動裝置
 
 | 類型 | URI | 說明 |
 | --------- | ----------- | ------- | 
-| Web | web://domain.com/path/page.html | 代表網站的個別路徑和頁面。 |
-| Web | web://domain.com/path/page.html#element | 代表特定網域的特定頁面中的個別元素。 |
-| Web | web://domain.com/*#element | 萬用字元表面 - 代表特定網域下每個頁面中的個別元素。 |
-| iOS 應用程式 | mobileapp://com.vendor.bundle | 代表單一平台的特定行動應用程式，在此案例中為 iOS 應用程式。 |
-| iOS 應用程式 | mobileapp://com.vendor.bundle/activity | 代表行動應用程式中的特定活動 (檢視)。 |
-| iOS 應用程式 | mobileapp://com.vendor.bundle/activity#element | 代表活動中的特定元素，例如按鈕或其他檢視元素。 |
-| Android 應用程式 | mobileapp://com.vendor.bundle | 代表單一平台的特定行動應用程式，在此案例中為 Android 應用程式。 |
+| Web | web://domain.com/path/page.html#element | 代表特定網域之特定頁面中的個別元素，其中元素可以是標籤，如下列範例中的標籤：hero_banner、top_nav、menu、footer等。 |
+| iOS 應用程式 | mobileapp://com.vendor.bundle/activity#element | 代表原生應用程式活動內的特定元素，例如按鈕或其他檢視元素。 |
+| Android 應用程式 | mobileapp://com.vendor.bundle#element | 代表原生應用程式中的特定元素。 |
 
-**其他裝置型別**
+### 其他裝置型別
 
 | 類型 | URI | 說明 |
 | --------- | ----------- | ------- | 
-| 桌面 | desktop://com.vendor.bundle | 代表特定的桌面應用程式。 |
 | 桌面 | desktop://com.vendor.bundle#element | 代表應用程式中的特定元素，例如按鈕、功能表、主圖橫幅等。 |
-| tvOS 應用程式 | tvos://com.vendor.bundle | 代表特定的 tvOS 應用程式。 |
-| 電視應用程式 | tvcd://com.vendor.bundle | 代表特定智慧型電視或電視連結裝置應用程式 - 套裝 ID。 |
-| 服務 | service://servicename | 代表伺服器端程序或其他手動實體。 |
-| 資訊站 | kiosk://location/screen | 潛在可輕鬆新增的其他表面類型範例。 |
-| ATM | atm://location/screen | 潛在可輕鬆新增的其他表面類型範例。 |
+| 電視應用程式 | tvcd://com.vendor.bundle#element | 代表智慧電視或電視連線裝置應用程式中的特定元素 — 套件ID。 |
+| 服務 | service://servicename#element | 代表伺服器端程序或其他手動實體。 |
+| 資訊站 | kiosk://location/screen#element | 潛在可輕鬆新增的其他表面類型範例。 |
+| ATM | atm://location/screen#element | 潛在可輕鬆新增的其他表面類型範例。 |
 
-**萬用字元表面**
+### 萬用字元表面
 
 | 類型 | URI | 說明 |
 | --------- | ----------- | ------- | 
