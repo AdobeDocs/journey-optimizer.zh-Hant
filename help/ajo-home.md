@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
-workflow-type: ht
-source-wordcount: '385'
-ht-degree: 100%
+source-git-commit: 55d9b8f0fc7e048c9f9cb506d8153f27595aaa3f
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 84%
 
 ---
 
@@ -20,11 +20,19 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB 2 月發行版本已上線！]
+>[!TAB 3月版本已上線！]
 
-探索 Adobe Journey Optimizer 24.2 發行版本包含的新功能和改進項目。
+探索 Adobe Journey Optimizer 24.3 發行版本包含的新功能和改進項目。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB 程式碼型體驗]
+
+透過新的程式碼型體驗頻道，Adobe Journey Optimizer可讓您針對任何傳入屬性進行進階個人化和測試，實現跨不同接觸點（例如網頁應用程式、行動應用程式、案頭應用程式、視訊主控台、電視連線裝置、智慧型電視、資訊站、ATM、物聯網裝置等）的量身打造體驗無縫交付。
+
+![](using/rn/assets/do-not-localize/code-based.gif)
+
+[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/code-based/get-started-code-based.md)
 
 >[!TAB 網頁應用程式內傳訊]
 
@@ -33,14 +41,6 @@ ht-degree: 100%
 ![](using/rn/assets/do-not-localize/web_inapp.gif)
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
-
->[!TAB 多管道內容範本]
-
-除了電子郵件，以下管道現在也提供內容範本：推播、應用程式內、簡訊與直接郵件，每個管道都有專用的範本類型。針對電子郵件，您現在可以選取內容類型，這可讓您將主旨行儲存為電子郵件範本的一部分。
-
-![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
-
-[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/content-templates.md)
 
 >[!ENDTABS]
 
