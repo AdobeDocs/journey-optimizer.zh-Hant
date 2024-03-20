@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 與自訂動作警示相對應的I/O事件訂閱名稱為 **歷程自訂動作失敗**.
 
-## 讀取區段觸發器失敗 {#alert-read-audiences}
+## 讀取對象觸發器失敗 {#alert-read-audiences}
 
 此警報會在您收到 **讀取對象** 活動在排定的執行時間後10分鐘未處理任何設定檔。 此失敗可能是技術問題或對象空白所造成。
 
@@ -68,3 +68,24 @@ ht-degree: 0%
 警示開啟 **讀取對象** 在設定檔進入 **讀取對象** 節點。
 
 與對應的I/O事件訂閱名稱 **讀取區段觸發器失敗** 警示為 **歷程讀取區段延遲、失敗和錯誤**.
+
+## 疑難排解 {#alert-troubleshooting}
+
+疑難排解 **讀取對象** 警報，在Experience Platform介面中檢查您的對象計數。
+
+![](assets/alert-troubleshooting-0.png)
+
+![](assets/alert-troubleshooting-1.png)
+
+疑難排解 **自訂動作** 警報：
+
+* 使用其他歷程上的測試模式檢查您的自訂動作：
+
+  ![](assets/alert-troubleshooting-2.png)
+
+* 檢查您的歷程報告以檢視動作的錯誤原因。
+
+  ![](assets/alert-troubleshooting-3.png)
+
+* 檢查您的歷程stepEvents ，以尋找「failureReason」的詳細資訊。
+* 檢查您的自訂動作設定，並驗證驗證是否仍然正常。 例如，使用Postman執行手動檢查。

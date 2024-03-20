@@ -7,10 +7,11 @@ feature: Journeys, Reporting
 topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
-source-git-commit: c82e0a4f44cda4afeb88f7dd8e645e967e4a878f
+exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 4%
+source-wordcount: '522'
+ht-degree: 3%
 
 ---
 
@@ -25,6 +26,11 @@ ht-degree: 4%
 例如，您已設定傳送多封電子郵件的歷程。 此功能可讓您結合 [!DNL Journey Optimizer] 含有下游事件資料的資料，例如已發生轉換的數量、網站上發生的參與度或是商店中發生的交易數。 歷程資訊可與Adobe Experience Platform上的資料結合，結合方式為來自其他數位屬性或離線屬性，以提供更完整的效能檢視。
 
 [!DNL Journey Optimizer] 自動建立必要的結構描述，並針對個人在歷程中採取的每個步驟，將資料集串流至Adobe Experience Platform。 步驟事件對應於在歷程中從某個節點移動到另一個節點的個人。 例如，在包含事件、條件和動作的歷程中，會將三個步驟事件傳送至Adobe Experience Platform。
+
+在某些情況下，可以為同一節點建立多個事件。 例如，在等待活動的案例中：
+
+* 當設定檔進入wait （journeyNodeProcessed屬性等於false）時，會產生一個事件
+* 當設定檔退出時會產生一個事件（journeyNodeProcessed屬性等於true）
 
 傳遞的XDM欄位清單是完整的。 有些包含系統產生的程式碼，有些則有人類看得懂的易記名稱。 範例包括歷程活動的標籤或步驟狀態：動作逾時或錯誤結束的次數。
 
@@ -66,4 +72,3 @@ ht-degree: 4%
 * 若要在中使用此資料集 [!DNL Customer Journey Analytics]，如需跨管道歷程分析，請參閱 [Customer Journey Analytics檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 
 ➡️ [使用Customer Journey Analytics](cja-ajo.md){target="_blank"}
-

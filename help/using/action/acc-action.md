@@ -9,27 +9,27 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign， acc，整合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 22%
+source-wordcount: '496'
+ht-degree: 20%
 
 ---
 
-# 與 Adobe Campaign v7/v8 整合 {#integrating-with-adobe-campaign-classic}
+# 與 Adobe Campaign v7/v8 整合 {#integrating-with-adobe-campaign-v7-v8}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
 >title="Adobe Campaign v7/v8 動作"
->abstract="此整合適用於 Adobe Campaign Classic v7 和 v8。這可讓您使用 Adobe Campaign 交易型訊息功能來傳送電子郵件、推播通知及簡訊。Journey Optimizer 和 Campaign 執行個體之間的連線在佈建時由 Adobe 設定。"
+>abstract="此整合適用於Adobe Campaign v7和v8。 這可讓您使用 Adobe Campaign 交易型訊息功能來傳送電子郵件、推播通知及簡訊。Journey Optimizer 和 Campaign 執行個體之間的連線在佈建時由 Adobe 設定。"
 
-此整合適用於Adobe Campaign Classic v7 （從7.1版開始）和Adobe Campaign v8。 這可讓您使用 Adobe Campaign 交易型訊息功能來傳送電子郵件、推播通知及簡訊。
+此整合適用於Adobe Campaign v7/v8的7.1發行版本，以及Adobe Campaign v8。 這可讓您使用 Adobe Campaign 交易型訊息功能來傳送電子郵件、推播通知及簡訊。
 
 Journey Optimizer 和 Campaign 執行個體之間的連線在佈建時由 Adobe 設定。
 
 本頁面介紹端對端使用案例 [區段](../building-journeys/ajo-ac.md).
 
-對於已設定的每個動作，歷程設計器浮動視窗中都提供動作活動。 請參閱本[章節](../building-journeys/using-adobe-campaign-classic.md)。
+對於已設定的每個動作，歷程設計器浮動視窗中都提供動作活動。 請參閱本[章節](../building-journeys/using-adobe-campaign-v7-v8.md)。
 
 ## 重要備註 {#important-notes}
 

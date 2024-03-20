@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 12%
+source-wordcount: '2378'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,11 @@ ht-degree: 12%
 
 若要開始建立電子郵件，您必須設定電子郵件通道介面，以定義訊息所需的所有技術引數。 [瞭解如何建立表面](../configuration/channel-surfaces.md)
 
-在管道表面設定的專用區段中定義電子郵件設定。
+>[!NOTE]
+>
+>為了維護您的信譽並改善您的傳遞能力，在建立電子郵件表面之前，請設定您將用於傳送電子郵件的子網域。 [了解更多](../configuration/about-subdomain-delegation.md)
+
+在管道表面設定的專用區段中定義電子郵件設定，如下所述。
 
 ![](assets/preset-email-settings.png)
 
@@ -51,27 +55,29 @@ ht-degree: 12%
 
 ## 子網域和IP集區 {#subdomains-and-ip-pools}
 
-在 **子網域和IP集區** 區段，您必須：
+在 **子網域和IP集區** 區段，依照以下指示填寫必填欄位。
 
-1. 選取要用來傳送電子郵件的子網域。 [了解更多](../configuration/about-subdomain-delegation.md)
+1. 選取要用來傳送電子郵件的子網域。
+
+   為了維護您網域的聲譽，請加快IP暖身過程並改善傳遞能力，將您的傳送子網域委派給Adobe。 [了解更多](../configuration/about-subdomain-delegation.md)
 
 1. 選取要與表面關聯的IP集區。 [了解更多](../configuration/ip-pools.md)
 
-![](assets/preset-subdomain-ip-pool.png)
+   ![](assets/preset-subdomain-ip-pool.png)
 
-當選取的IP集區位於下方時，您無法繼續建立表面 [版本](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL 處理中]** 狀態)，且從未與所選子網域建立關聯。 否則，系統仍會使用IP集區/子網域關聯的最舊版本。 如果是這種情況，請將表面儲存為草稿，並在IP池具有 **[!UICONTROL 成功]** 狀態。
+   當選取的IP集區位於下方時，您無法繼續建立表面 [版本](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL 處理中]** 狀態)，且從未與所選子網域建立關聯。 否則，系統仍會使用IP集區/子網域關聯的最舊版本。 如果是這種情況，請將表面儲存為草稿，並在IP池具有 **[!UICONTROL 成功]** 狀態。
 
->[!NOTE]
->
->對於非生產環境，Adobe不會建立立即可用的測試子網域，也不會授予共用傳送IP集區的存取權。 您需要 [委派您自己的子網域](../configuration/delegate-subdomain.md) 並使用指派給貴組織的集區中的IP。
+   >[!NOTE]
+   >
+   >對於非生產環境，Adobe不會建立立即可用的測試子網域，也不會授予共用傳送IP集區的存取權。 您需要 [委派您自己的子網域](../configuration/delegate-subdomain.md) 並使用指派給貴組織的集區中的IP。
 
-選取IP集區後，當游標停留在IP集區下拉式清單下方顯示的IP位址上時，會顯示PTR資訊。 [深入瞭解PTR記錄](../configuration/ptr-records.md)
+1. 選取IP集區後，當游標停留在IP集區下拉式清單下方顯示的IP位址上時，會顯示PTR資訊。 [深入瞭解PTR記錄](../configuration/ptr-records.md)
 
-![](assets/email-surface-ptr-record.png)
+   ![](assets/email-surface-ptr-record.png)
 
->[!NOTE]
->
->如果未設定PTR記錄，請聯絡您的Adobe代表。
+   >[!NOTE]
+   >
+   >如果未設定PTR記錄，請聯絡您的Adobe代表。
 
 ## 清單 — 取消訂閱 {#list-unsubscribe}
 

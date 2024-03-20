@@ -5,33 +5,19 @@ feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 10%
+source-wordcount: '993'
+ht-degree: 7%
 
 ---
 
 # 建立程式碼型體驗 {#create-code-based}
 
->[!BEGINSHADEBOX]
-
-本文件指南會提供以下內容：
-
-* [開始使用程式碼型頻道](get-started-code-based.md)
-* [程式碼型先決條件](code-based-prerequisites.md)
-* [程式碼型實施範例](code-based-implementation-samples.md)
-* **[建立程式碼型體驗](create-code-based.md)**
-
->[!ENDSHADEBOX]
-
 >[!AVAILABILITY]
 >
->程式碼型體驗頻道目前僅作為 Beta 版提供給部分使用者。若要加入 Beta 版計畫，請連絡 Adobe 客戶服務。
+>目前，已購買Adobe的組織無法使用程式碼型體驗管道 **Health Shield** 和 **隱私權與安全防護板** 附加方案。
 
 ## 建立程式碼型行銷活動 {#create-code-based-campaign}
 
@@ -43,7 +29,7 @@ ht-degree: 10%
 
 1. 建立行銷活動。 [了解更多](../campaigns/create-campaign.md)
 
-1. 選取 **[!UICONTROL 程式碼型體驗(Beta)]** 動作。
+1. 選取 **[!UICONTROL 程式碼型體驗]** 動作。
 
 1. 輸入程式碼型體驗介面。 [了解更多](#surface-definition)
 
@@ -81,21 +67,27 @@ ht-degree: 10%
 
 1. 您可以將編寫模式從HTML切換為JSON，反之亦然。
 
+   ![](assets/code-based-campaign-code-editor.png)
+
    >[!CAUTION]
    >
    >變更編寫模式將會遺失您目前的所有程式碼，因此在開始編寫之前，請務必切換模式。
 
 1. 視需要輸入您的程式碼。 您可以善用 [!DNL Journey Optimizer] 運算式編輯器及其所有個人化和編寫功能。 [了解更多](../personalization/personalization-build-expressions.md)
 
-   ![](assets/code-based-campaign-code-editor.png)
+1. 您可以視需要新增HTML或JSON運算式片段。 [了解作法](../personalization/use-expression-fragments.md)
 
-1. 在程式碼型行銷活動中，您可以使用體驗決策功能。 選取 **[!UICONTROL 決定]** 圖示並按一下 **[!UICONTROL 建立決定]**. [了解更多](../experience-decisioning/create-decision.md)
+   您也可以將部分程式碼內容儲存為片段。 [了解作法](../content-management/fragments.md#save-as-expression-fragment)
 
-   ![](assets/code-based-campaign-create-decision.png)
+<!--
+1. In code-based campaigns, you can use the experience decisioning feature. Select the **[!UICONTROL Decisions]** icon from the left bar and click **[!UICONTROL Create decision]**. [Learn more](../experience-decisioning/create-decision.md)
 
-   >[!NOTE]
-   >
-   >體驗決策功能目前僅供特定使用者測試版。
+    ![](assets/code-based-campaign-create-decision.png)
+
+    >[!NOTE]
+    >
+    >The experience decisioning feature is currently available as a beta to select users only.
+-->
 
 1. 按一下 **[!UICONTROL 儲存並關閉]** 以確認您的變更。
 

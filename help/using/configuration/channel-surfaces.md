@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 管道，表面，技術，引數，最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1630'
 ht-degree: 9%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >當選取的IP集區位於下方時，您無法繼續建立表面 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL 處理中]** 狀態)，且從未與所選子網域建立關聯。 [了解更多](#subdomains-and-ip-pools)
+   >當選取的IP集區位於下方時，您無法繼續建立電子郵件表面 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL 處理中]** 狀態)，且從未與所選子網域建立關聯。 [了解更多](#subdomains-and-ip-pools)
    >
    >將表面儲存為草稿，並等候直到IP集區具有 **[!UICONTROL 成功]** 繼續曲面建立的狀態。
 

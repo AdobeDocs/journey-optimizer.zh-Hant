@@ -7,9 +7,9 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
-workflow-type: ht
-source-wordcount: '535'
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+workflow-type: tm+mt
+source-wordcount: '470'
 ht-degree: 100%
 
 ---
@@ -49,11 +49,6 @@ Adobe Experience Platform 中的協助工具功能請詳見[本文件](https://e
       <th>快速鍵</th>
     </tr>
   </thead>
-  <tr>
-    <td>歷程、動作、資料來源或事件清單</td>
-    <td>建立歷程、動作、資料來源或事件</td>
-    <td>C</td>
-  </tr>
   <tr>
     <td rowspan="8">草稿狀態的歷程畫布</td>
     <td>從左側色盤的第一個可用位置 (從上到下) 新增活動</td>
@@ -107,23 +102,6 @@ Adobe Experience Platform 中的協助工具功能請詳見[本文件](https://e
   <tr>
     <td>放棄變更並關閉設定窗格</td>
     <td>Esc 鍵</td>
-  </tr>
-  <tr>
-    <td rowspan="4">測試模式中的歷程</td>
-    <td>啟用或停用測試模式</td>
-    <td>T</td>
-  </tr>
-  <tr>
-    <td>觸發事件歷程中的事件</td>
-    <td>E</td>
-  </tr>
-  <tr>
-    <td>在以對象為基礎的歷程中觸發事件，並為其啟用**[!UICONTROL Single profile at a time]**選項</td>
-    <td>P</td>
-  </tr>
-  <tr>
-    <td>顯示測試記錄</td>
-    <td>L</td>
   </tr>
 <!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>

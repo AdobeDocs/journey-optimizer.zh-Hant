@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 11%
+source-wordcount: '766'
+ht-degree: 10%
 
 ---
 
@@ -47,6 +47,10 @@ ht-degree: 11%
 
 1. 指定優惠方案名稱及其開始和結束日期和時間。 在這些日期之外，決策引擎將不會選取選件。
 
+   >[!NOTE]
+   >
+   >選取時間時，會考量您目前的時區。
+
    ![](../assets/offer_details.png)
 
    >[!CAUTION]
@@ -64,6 +68,10 @@ ht-degree: 11%
 1. 新增表示方式以定義您的優惠在訊息中顯示的位置。[了解更多](add-representations.md)
 
    ![](../assets/channel-placement.png)
+
+   >[!CAUTION]
+   >
+   >優惠方案（包括其所有表示）的大小不得超過300KB。
 
 1. 新增限制以設定要顯示優惠的條件。 [了解更多](add-constraints.md)
 

@@ -5,33 +5,19 @@ feature: Code-based Experiences
 topic: Content Management
 role: User, Developer, Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 100%
+source-wordcount: '1205'
+ht-degree: 88%
 
 ---
 
 # 開始使用程式碼型頻道 {#get-sarted-code-based}
 
->[!BEGINSHADEBOX]
-
-本文件指南會提供以下內容：
-
-* **[開始使用程式型頻道](get-started-code-based.md)**
-* [程式碼型先決條件](code-based-prerequisites.md)
-* [程式碼型實施範例](code-based-implementation-samples.md)
-* [建立程式碼型體驗](create-code-based.md)
-
->[!ENDSHADEBOX]
-
 >[!AVAILABILITY]
 >
->程式碼型體驗頻道目前僅作為 Beta 版提供給部分使用者。若要加入 Beta 版計畫，請連絡 Adobe 客戶服務。
+>目前，已購買Adobe的組織無法使用程式碼型體驗管道 **Health Shield** 和 **隱私權與安全防護板** 附加方案。
 
 [!DNL Journey Optimizer] 可讓您透過所有接觸點 (例如：網頁應用程式、行動應用程式、桌面應用程式、視訊主控台、電視連結裝置、智慧型電視、資訊站、ATM、語音助理、IoT 裝置等)，個人化並測試您要提供給客戶的體驗。
 
@@ -39,11 +25,15 @@ ht-degree: 100%
 
 <!--[!DNL Journey Optimizer] allows you to compose and deliver content on any inbound surface in a developer-focused workflow. You can leverage all the personalization capabilities, and preview what will be published. The content can be static (images, text, JSON, HTML) or dynamic (offers, decisions, recommendations). You can also insert custom content actions in your omni-channel journeys.-->
 
-當您[建立行銷活動](../campaigns/create-campaign.md#configure)時，請選取&#x200B;**程式碼型體驗 (Beta)** 作為您的動作，並定義基本設定。
+>[!CAUTION]
+>
+>目前在 [!DNL Journey Optimizer] 您只能使用建立程式碼型體驗 **行銷活動**.
+
+當您 [建立行銷活動](../campaigns/create-campaign.md#configure)，選取 **程式碼型體驗** 作為您的動作，並定義基本設定。
 
 >[!NOTE]
 >
->如果這是您第一次建立網頁體驗，請務必遵循[本章節](code-based-prerequisites.md)所說明的先決條件。
+>如果您是第一次建立程式碼型體驗，請務必遵循中說明的先決條件 [本節](code-based-prerequisites.md).
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
@@ -74,17 +64,15 @@ ht-degree: 100%
 </div>
 <p></td>
 <td>
-<a href="create-code-based.md#edit-code">
+<a href="code-based-implementation-samples.md">
 <img alt="驗證" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="create-code-based.md#edit-code"><strong>編輯程式碼</strong></a>
+<a href="code-based-implementation-samples.md"><strong>實作範例</strong></a>
 </div>
 <p>
 </td>
 </tr></table>
-
-
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
@@ -156,25 +144,42 @@ ht-degree: 100%
 * 其也可以是符合各種用戶端介面定義的萬用字元表面 (例如，網站每個頁面上的主圖影像位置可翻譯為表面URI，例如：web://mydomain.com/*#hero_image)。
 
 基本上，表面 URI 由多個區段組成：
-1. **類型**：網頁、行動應用程式、服務、資訊站、tvcd 等
-1. **屬性**：網域或應用程式套裝
-1. **路徑**：頁面/應用程式活動 ± 頁面/應用程式活動上的位置 <!--to clarify-->
+1. **型別**：網路、ios、android、atm、資訊站、tvcd、服務等。
+1. **屬性**：頁面URL或應用程式套件組合
+1. **容器**：頁面/應用程式活動上的位置
 
-下表列出各種裝置的一些表面 URI 定義範例。
+下表列出各種裝置的一些表面URI定義範例。
+
+**網頁與行動裝置**
 
 | 類型 | URI | 說明 |
-| --------- | ----------- | ------- |   
+| --------- | ----------- | ------- | 
 | Web | web://domain.com/path/page.html | 代表網站的個別路徑和頁面。 |
 | Web | web://domain.com/path/page.html#element | 代表特定網域的特定頁面中的個別元素。 |
 | Web | web://domain.com/*#element | 萬用字元表面 - 代表特定網域下每個頁面中的個別元素。 |
-| 桌面 | desktop://com.vendor.bundle | 代表特定的桌面應用程式。 |
-| 桌面 | desktop://com.vendor.bundle#element | 代表應用程式中的特定元素，例如按鈕、功能表、主圖橫幅等。 |
 | iOS 應用程式 | mobileapp://com.vendor.bundle | 代表單一平台的特定行動應用程式，在此案例中為 iOS 應用程式。 |
 | iOS 應用程式 | mobileapp://com.vendor.bundle/activity | 代表行動應用程式中的特定活動 (檢視)。 |
 | iOS 應用程式 | mobileapp://com.vendor.bundle/activity#element | 代表活動中的特定元素，例如按鈕或其他檢視元素。 |
 | Android 應用程式 | mobileapp://com.vendor.bundle | 代表單一平台的特定行動應用程式，在此案例中為 Android 應用程式。 |
+
+**其他裝置型別**
+
+| 類型 | URI | 說明 |
+| --------- | ----------- | ------- | 
+| 桌面 | desktop://com.vendor.bundle | 代表特定的桌面應用程式。 |
+| 桌面 | desktop://com.vendor.bundle#element | 代表應用程式中的特定元素，例如按鈕、功能表、主圖橫幅等。 |
 | tvOS 應用程式 | tvos://com.vendor.bundle | 代表特定的 tvOS 應用程式。 |
 | 電視應用程式 | tvcd://com.vendor.bundle | 代表特定智慧型電視或電視連結裝置應用程式 - 套裝 ID。 |
 | 服務 | service://servicename | 代表伺服器端程序或其他手動實體。 |
 | 資訊站 | kiosk://location/screen | 潛在可輕鬆新增的其他表面類型範例。 |
 | ATM | atm://location/screen | 潛在可輕鬆新增的其他表面類型範例。 |
+
+**萬用字元表面**
+
+| 類型 | URI | 說明 |
+| --------- | ----------- | ------- | 
+| 萬用字元網頁 | 萬用字元:web://domain.com/`*`#element | 萬用字元表面 - 代表特定網域下每個頁面中的個別元素。 |
+| 萬用字元網頁 | 萬用字元:web://`*`domain.com/`*`#element | 萬用字元表面 — 代表所有網域底下每個頁面中以「domain.com」結尾的個別元素。 |
+
+
+

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2dfcbd1631c7fefccaf02782a3218c9a1c1dc7aa
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 96%
+source-wordcount: '1392'
+ht-degree: 83%
 
 ---
 
@@ -25,6 +25,56 @@ ht-degree: 96%
 [!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
+
+## 2024 年 3 月發行說明 {#mar-2024}
+
+**發行日期**： 2024年3月19至20日
+
+### 新功能 {#mar-features}
+
+此版本提供下列詳細的新功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>程式碼型體驗</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>透過新的程式碼型體驗頻道，Adobe Journey Optimizer可讓您針對任何傳入屬性進行進階個人化和測試，實現跨不同接觸點（例如網頁應用程式、行動應用程式、案頭應用程式、視訊主控台、電視連線裝置、智慧型電視、資訊站、ATM、物聯網裝置等）的量身打造體驗無縫交付。</p>
+<P>主要功能包括：</p>
+<ul><li> 通用個人化：擴充所有接觸點的個人化體驗，確保有凝聚力且量身打造的使用者歷程</li>
+<li>精細的編輯精確度：在應用程式或網頁內的個別位置編輯特定內容</li>
+<li>多樣化實作：支援伺服器端、API或SDK型實作方法，以便順暢地與您的開發環境整合。</li></ul></p>
+<p>如需詳細資訊，請參閱<a href="../code-based/get-started-code-based.md">詳細文件</a>。</p>
+<img src="assets/do-not-localize/code-based.gif">
+</tr>
+</tbody>
+</table>
+
+### 改進項目 {#mar-improvements}
+
+此發行版本隨附下列改進項目。
+
+**內容範本**
+
+* **縮圖** - A **格點檢視** 內容範本現在可使用此模式，顯示縮圖以改善視覺存取。 目前僅支援電子郵件HTML範本。 [了解更多](../content-management/content-templates.md#template-thumbnails)
+
+  >[!AVAILABILITY]
+  >
+  >此功能以有限可用性 (LA) 形式向一小部分客戶發布。
+
+**歷程**
+
+歷程編寫生命週期已新增新的中繼狀態：
+
+* **發佈** 介於兩者之間的狀態： **草稿** 狀態與 **即時** 狀態
+* **正在停止** 介於兩者之間的狀態： **即時** 狀態與 **已停止** 狀態
+* **啟用測試模式** 或 **停用測試模式** 介於兩者之間的狀態： **草稿** 狀態與 **草稿（測試）** 狀態
+
+當歷程處於中繼狀態時，它是唯讀的。 [了解更多](../building-journeys/journey-gs.md#filter)
 
 ## 2024 年 2 月發行說明 {#feb-2024}
 

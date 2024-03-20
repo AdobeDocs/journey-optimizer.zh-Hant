@@ -5,29 +5,15 @@ feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 12%
+source-wordcount: '430'
+ht-degree: 3%
 
 ---
 
 # 先決條件和護欄 {#web-prerequisites}
-
->[!BEGINSHADEBOX]
-
-本文件指南會提供以下內容：
-
-* [開始使用程式碼型頻道](get-started-code-based.md)
-* **[程式碼型必要條件](code-based-prerequisites.md)**
-* [程式碼型實施範例](code-based-implementation-samples.md)
-* [建立程式碼型體驗](create-code-based.md)
-
->[!ENDSHADEBOX]
 
 若要能夠在中使用程式碼型體驗動作 [!DNL Journey Optimizer] 並傳遞應用程式可使用的程式碼內容裝載，請遵循下列先決條件：
 
@@ -37,9 +23,11 @@ ht-degree: 12%
 
 ## 警告注意事項 {#caution-notes-web}
 
-* 程式碼型體驗頻道目前僅作為 Beta 版提供給部分使用者。若要加入 Beta 版計畫，請連絡 Adobe 客戶服務。
-
 * 目前在 [!DNL Journey Optimizer] 您只能在中建立程式碼型體驗 **行銷活動**. [了解更多](../campaigns/create-campaign.md#configure)
+
+>[!AVAILABILITY]
+>
+>目前，已購買Adobe的組織無法使用程式碼型體驗管道 **Health Shield** 和 **隱私權與安全防護板** 附加方案。
 
 ## 實作必要條件 {#implementation-prerequisites}
 

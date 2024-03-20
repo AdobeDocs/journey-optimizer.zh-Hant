@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1167'
 ht-degree: 17%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 17%
 
 * 如果您正在使用Campaign和Journey Optimizer，請參閱下列區段：
 
-   * [[!DNL Journey Optimizer] 和Campaign Classicv7/Campaign v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] 和Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] 和Campaign Standard](../action/acs-action.md)
 
 若要在歷程中新增訊息，請遵循下列步驟：

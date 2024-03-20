@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 12%
+source-wordcount: '828'
+ht-degree: 11%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 12%
 
 地址會新增到隱藏清單中，如下所示：
 
-* 全部 **硬跳出** 和 **垃圾訊息申訴** 在單一事件發生後，自動將對應的地址傳送至隱藏清單。
+* 全部 **硬跳出** 和 **垃圾訊息申訴** 在單一事件發生後，自動將對應的地址傳送至隱藏清單。 進一步瞭解中的垃圾郵件投訴 [本節](#spam-complaints).
 
 * **軟退信** 不要立即傳送位址至隱藏清單，但會增加錯誤計數器。 數個 [重試](../configuration/retries.md) 然後執行，而當錯誤計數器達到臨界值時，該地址就會新增到隱藏清單中。
 
@@ -81,3 +81,5 @@ A **軟退信** <!--or an **ignored** error--> 發生次數太多時，也會在
 在收件者提交垃圾郵件投訴後將其傳送給他們，可能會對您的傳送信譽產生巨大影響，因為它會通知ISP您可能會傳送不必要的電子郵件，並且可能不會收聽收件者。
 
 這可能會造成您的IP位址或傳送網域遭到封鎖，若將這些位址列入隱藏清單可避免發生這種情況。
+
+有些ISP會提供回饋迴路(FBL)，當收到電子郵件的使用者選擇將其標示為垃圾訊息時，會自動通知電子郵件寄件者。 [了解更多](deliverability.md#feedback-loops)
