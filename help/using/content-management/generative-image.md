@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用內容助理生成影像
-description: 開始使用內容助理
+title: 使用AI助理產生影像
+description: 開始使用AI助理
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -11,32 +11,32 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: b5582601-5804-4413-b548-a0b34cc38090
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 10%
+source-wordcount: '346'
+ht-degree: 3%
 
 ---
 
-# 使用內容助理生成影像 {#image-content-assistant}
+# 使用AI助理產生影像 {#image-content-assistant}
 
 >[!BEGINSHADEBOX]
 
 **目錄**
 
-* [開始使用內容助理](gs-generative.md)
-* [使用內容助理產生文字](generative-content.md)
-* **[使用內容助理產生影像](generative-image.md)**
+* [開始使用AI助理](gs-generative.md)
+* [使用AI助理產生文字](generative-content.md)
+* **[使用AI助理產生影像](generative-image.md)**
 
 >[!ENDSHADEBOX]
 
-建立電子郵件或網頁並加以個人化後，請透過內容助理將您的內容提升到新的境界。 這個強大的工具可讓您輕鬆個人化和增強內容。
+建立電子郵件或網頁並加以個人化後，請使用Journey Optimizer AI Assistant將您的內容提升到新的境界。 這個強大的工具可讓您輕鬆個人化和增強內容。
 
-在以下範例中，瞭解如何使用內容助理來更新和改進您的資產，以獲得更好的使用者體驗。 請依照下列步驟操作：
+在以下範例中，瞭解如何使用AI助理來更新和改進您的資產，以獲得更好的使用者體驗。 請依照下列步驟操作：
 
 1. 建立及設定訊息後，請按一下 **[!UICONTROL 建立內容]** 並視需要個人化。
 
-1. 選取您要使用內容助理變更的資產。
+1. 選取您要使用AI助理變更的資產。
 
 1. 從右側功能表中選取 **[!UICONTROL 體驗產生]**.
 
@@ -44,7 +44,7 @@ ht-degree: 10%
 
 1. 新增提示以更好地微調您的結果，然後按一下 **[!UICONTROL 產生]**.
 
-   啟用 **[!UICONTROL 使用目前的內容增強]** 內容助理的選項，用來根據您的訊息、行銷活動名稱和選取的對象，個人化新資產。
+   啟用 **[!UICONTROL 使用目前的內容增強]** 「AI助理」的選項，用來根據您的訊息、行銷活動名稱和選取的對象來個人化新資產。
 
    ![](assets/gen-ai-image-2.png)
 

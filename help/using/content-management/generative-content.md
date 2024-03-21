@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用內容助理產生內容
-description: 開始使用內容助理
+title: 使用AI助理產生內容
+description: 開始使用AI助理
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -11,28 +11,28 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 6%
+source-wordcount: '408'
+ht-degree: 3%
 
 ---
 
-# 使用內容助理產生內容 {#title-content-assistant}
+# 使用AI助理產生內容 {#title-content-assistant}
 
 >[!BEGINSHADEBOX]
 
 **目錄**
 
-* [開始使用內容助理](gs-generative.md)
-* **[使用內容助理產生內容](generative-content.md)**
-* [使用內容助理產生影像](generative-image.md)
+* [開始使用AI助理](gs-generative.md)
+* **[使用AI助理產生內容](generative-content.md)**
+* [使用AI助理產生影像](generative-image.md)
 
 >[!ENDSHADEBOX]
 
-在您建立並個人化訊息後，請使用內容助理將您的內容提升到新的境界。
+在您建立並個人化訊息後，請使用Journey Optimizer AI Assistant將您的內容提升到新的境界。
 
-善用內容小幫手，您就有機會透過實驗不同內容來最佳化訊息的影響。 每個變體都視為獨特的處理，以便衡量和比較哪些內容有效地產生更多點按。
+善用AI Assistant，您就有機會透過實驗不同內容來最佳化訊息的影響。 每個變體都視為獨特的處理，以便衡量和比較哪些內容有效地產生更多點按。
 
 在此特定範例中，瞭解如何使用內容實驗來傳送吸引人的推播通知。 請依照下列步驟操作：
 
@@ -48,7 +48,7 @@ ht-degree: 6%
 
    * **[!UICONTROL 摘要]**：使用此選項來縮短文字並保留重要內容。
 
-   * **[!UICONTROL 精緻]**：此選項可讓您利用內容助理的其他創意變體來展開內容。
+   * **[!UICONTROL 精緻]**：使用此選項透過AI助理的其他創意變體展開您的內容。
 
    ![](assets/gen-ai-title-2.png)
 
@@ -62,7 +62,7 @@ ht-degree: 6%
 
    ![](assets/gen-ai-title-4.png)
 
-1. 個人化後 **[!UICONTROL 內文]** 選取「 」 **[!UICONTROL 顯示內容助理]**.
+1. 個人化後 **[!UICONTROL 內文]** 選取「 」 **[!UICONTROL 顯示AI助理]**.
 
    此處，變數清單已可使用您的原始內容。
 
@@ -70,7 +70,7 @@ ht-degree: 6%
 
 1. 描述您要產生的內容，以微調內容。
 
-   啟用 **[!UICONTROL 使用目前的內容增強]** 內容助理的選項，用來根據您的訊息、行銷活動名稱和選取的對象，個人化新內容。
+   啟用 **[!UICONTROL 使用目前的內容增強]** 「AI助理」的選項，用來根據您的訊息、行銷活動名稱和選取的對象，個人化新內容。
 
 1. 按一下 **[!UICONTROL 取代]** 以變更您的內容或選取多個 **[!UICONTROL 變體]** 以建立 **[!UICONTROL 處理]** 用於您的實驗，然後按一下 **新增X個處理**.
 
