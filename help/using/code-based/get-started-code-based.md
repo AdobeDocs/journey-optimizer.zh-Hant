@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 3cdef96e383448b462f6e3781e36d3c9a57bd637
+source-git-commit: 430af6da50e74c7375be92242ca869d187b63a54
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 80%
@@ -150,7 +150,7 @@ ht-degree: 80%
 
 下表列出各種裝置的一些表面URI定義範例。
 
-### 網頁與行動裝置
+**網頁與行動裝置**
 
 | 類型 | URI | 說明 |
 | --------- | ----------- | ------- | 
@@ -158,7 +158,7 @@ ht-degree: 80%
 | iOS 應用程式 | mobileapp://com.vendor.bundle/activity#element | 代表原生應用程式活動內的特定元素，例如按鈕或其他檢視元素。 |
 | Android 應用程式 | mobileapp://com.vendor.bundle#element | 代表原生應用程式中的特定元素。 |
 
-### 其他裝置型別
+**其他裝置型別**
 
 | 類型 | URI | 說明 |
 | --------- | ----------- | ------- | 
@@ -168,7 +168,7 @@ ht-degree: 80%
 | 資訊站 | kiosk://location/screen#element | 潛在可輕鬆新增的其他表面類型範例。 |
 | ATM | atm://location/screen#element | 潛在可輕鬆新增的其他表面類型範例。 |
 
-### 萬用字元表面
+**萬用字元表面**
 
 | 類型 | URI | 說明 |
 | --------- | ----------- | ------- | 

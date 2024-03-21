@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
+source-git-commit: 06166dbecc11abe81dadb467c302336c64672a39
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 5%
@@ -41,4 +41,4 @@ ht-degree: 5%
 
 瞭解如何發佈歷程。
 
->[!VIDEO](https://video.tv.adobe.com/v/334238?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

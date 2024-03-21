@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1983'
 ht-degree: 15%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 15%
 >id="ajo_homepage_card2"
 >title="建立歷程"
 >abstract="使用 **Adobe Journey Optimizer** 可讓您善用儲存在事件或資料來源中的內容關聯式資料，建置即時協調流程使用案例。"
+
+
 
 ## 先決條件{#start-prerequisites}
 
@@ -111,6 +113,8 @@ ht-degree: 15%
 ## 建置您的歷程{#jo-build}
 
 此步驟由執行 **業務使用者**. 這是您建立歷程的位置。 結合不同的事件、協調和動作活動，以建置您的多步驟跨管道情境。
+
+➡️ [在影片中探索此功能](journey.md#video)
 
 以下是透過歷程傳送訊息的主要步驟：
 
