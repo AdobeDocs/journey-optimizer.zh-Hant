@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: e8a178ea337fb57f2c2460c9e3e53257787c7bfd
+source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1577'
 ht-degree: 8%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 8%
 
 本文件指南會提供以下內容：
 
-* [開始使用IP熱身](ip-warmup-gs.md)
+* [開始使用 IP 暖身計劃](ip-warmup-gs.md)
 * [建立 IP 暖身行銷活動](ip-warmup-campaign.md)
 * **[建立IP熱身計畫](ip-warmup-plan.md)**
 * [執行 IP 暖身計劃](ip-warmup-execution.md)
