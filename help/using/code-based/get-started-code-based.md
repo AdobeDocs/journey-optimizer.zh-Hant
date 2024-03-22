@@ -6,9 +6,9 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
+source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1123'
 ht-degree: 81%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 81%
 >
 >* 目前在 [!DNL Journey Optimizer] 您只能使用建立程式碼型體驗 **行銷活動**.
 >
->>* 已購買Adobe的組織無法使用程式碼型體驗管道 **Health Shield** 和 **隱私權與安全防護板** 附加方案。
+>* 程式碼型體驗管道為 **不可用** 適用於已購買Adobe的組織 **Health Shield** 和 **隱私權與安全防護板** 附加方案。
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
@@ -45,7 +45,7 @@ ht-degree: 81%
 <img alt="驗證" src="../assets/do-not-localize/web-prerequisites.jpg">
 </a>
 <div>
-<a href="code-based-prerequisites.md"><strong>先決條件</strong></a>
+<a href="code-based-prerequisites.md"><strong>護欄和先決條件</strong></a>
 </div>
 <p>
 </td>

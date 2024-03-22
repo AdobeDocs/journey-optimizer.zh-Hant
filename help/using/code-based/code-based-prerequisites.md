@@ -1,14 +1,14 @@
 ---
-title: 程式碼型體驗必要條件
+title: 程式碼型體驗護欄和先決條件
 description: 若要使用Journey Optimizer程式碼型功能編輯應用程式和網頁，請遵循本頁面的先決條件
 feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
+source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '427'
 ht-degree: 3%
 
 ---
@@ -17,18 +17,16 @@ ht-degree: 3%
 
 若要能夠在中使用程式碼型體驗動作 [!DNL Journey Optimizer] 並傳遞應用程式可使用的程式碼內容裝載，請遵循下列先決條件：
 
-* 若要在應用程式中新增修改，您需要有特定的實施。 [了解更多](#implementation-prerequisites)
+* 若要在應用程式中新增修改，您必須有特定的實施。 [了解更多](#implementation-prerequisites)
 
 * 為了正確提供程式碼型體驗，請務必詳細說明您定義Adobe Experience Platform設定 [此處](#delivery-prerequisites).
 
-
-## 警告注意事項 {#caution-notes-web}
-
-* 目前在 [!DNL Journey Optimizer] 您只能在中建立程式碼型體驗 **行銷活動**. [了解更多](../campaigns/create-campaign.md#configure)
-
->[!AVAILABILITY]
+>[!CAUTION]
 >
->目前，已購買Adobe的組織無法使用程式碼型體驗管道 **Health Shield** 和 **隱私權與安全防護板** 附加方案。
+>* 已購買Adobe的組織無法使用程式碼型體驗管道 **Health Shield** 和 **隱私權與安全防護板** 附加方案。
+>
+>* 您只能在中建立程式碼型體驗 **行銷活動**. [瞭解更多](../campaigns/create-campaign.md#configure
+
 
 ## 實作必要條件 {#implementation-prerequisites}
 
