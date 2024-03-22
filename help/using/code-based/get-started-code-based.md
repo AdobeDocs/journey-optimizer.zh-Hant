@@ -6,18 +6,14 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 430af6da50e74c7375be92242ca869d187b63a54
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 80%
+source-wordcount: '1121'
+ht-degree: 81%
 
 ---
 
 # 開始使用程式碼型頻道 {#get-sarted-code-based}
-
->[!AVAILABILITY]
->
->目前，已購買Adobe的組織無法使用程式碼型體驗管道 **Health Shield** 和 **隱私權與安全防護板** 附加方案。
 
 [!DNL Journey Optimizer] 可讓您透過所有接觸點 (例如：網頁應用程式、行動應用程式、桌面應用程式、視訊主控台、電視連結裝置、智慧型電視、資訊站、ATM、語音助理、IoT 裝置等)，個人化並測試您要提供給客戶的體驗。
 
@@ -25,15 +21,13 @@ ht-degree: 80%
 
 <!--[!DNL Journey Optimizer] allows you to compose and deliver content on any inbound surface in a developer-focused workflow. You can leverage all the personalization capabilities, and preview what will be published. The content can be static (images, text, JSON, HTML) or dynamic (offers, decisions, recommendations). You can also insert custom content actions in your omni-channel journeys.-->
 
->[!CAUTION]
->
->目前在 [!DNL Journey Optimizer] 您只能使用建立程式碼型體驗 **行銷活動**.
-
-當您 [建立行銷活動](../campaigns/create-campaign.md#configure)，選取 **程式碼型體驗** 作為您的動作，並定義基本設定。
-
 >[!NOTE]
 >
->如果您是第一次建立程式碼型體驗，請務必遵循中說明的先決條件 [本節](code-based-prerequisites.md).
+>* 如果您是第一次建立程式碼型體驗，請務必遵循中說明的先決條件 [本節](code-based-prerequisites.md).
+>
+>* 目前在 [!DNL Journey Optimizer] 您只能使用建立程式碼型體驗 **行銷活動**.
+>
+>>* 已購買Adobe的組織無法使用程式碼型體驗管道 **Health Shield** 和 **隱私權與安全防護板** 附加方案。
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 

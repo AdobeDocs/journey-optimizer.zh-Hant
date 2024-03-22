@@ -6,20 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 3%
 
 ---
 
-# 先決條件和護欄 {#web-prerequisites}
+# 護欄和先決條件 {#web-prerequisites}
 
 若要能夠在中使用程式碼型體驗動作 [!DNL Journey Optimizer] 並傳遞應用程式可使用的程式碼內容裝載，請遵循下列先決條件：
 
 * 若要在應用程式中新增修改，您需要有特定的實施。 [了解更多](#implementation-prerequisites)
 
 * 為了正確提供程式碼型體驗，請務必詳細說明您定義Adobe Experience Platform設定 [此處](#delivery-prerequisites).
+
 
 ## 警告注意事項 {#caution-notes-web}
 

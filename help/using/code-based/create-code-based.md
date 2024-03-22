@@ -6,14 +6,18 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1001'
 ht-degree: 7%
 
 ---
 
 # 建立程式碼型體驗 {#create-code-based}
+
+目前在 [!DNL Journey Optimizer] 您只能在中建立程式碼型體驗 **行銷活動**.
+
+中詳細說明了護欄和建議 [此頁面](code-based-prerequisites.md).
 
 >[!AVAILABILITY]
 >
@@ -22,10 +26,6 @@ ht-degree: 7%
 ## 建立程式碼型行銷活動 {#create-code-based-campaign}
 
 若要透過行銷活動開始建立程式碼型體驗，請遵循下列步驟。
-
->[!CAUTION]
->
->目前在 [!DNL Journey Optimizer] 您只能使用建立程式碼型體驗 **行銷活動**.
 
 1. 建立行銷活動。 [了解更多](../campaigns/create-campaign.md)
 
@@ -41,11 +41,7 @@ ht-degree: 7%
 
 1. 選取「**[!UICONTROL 建立]**」。
 
-1. 完成步驟以建立行銷活動，例如行銷活動屬性、 [對象](../audience/about-audiences.md)、和 [排程](../campaigns/create-campaign.md#schedule).
-
-   >[!NOTE]
-   >
-   >有關如何設定行銷活動的詳細資訊，請參閱 [此頁面](../campaigns/get-started-with-campaigns.md).
+1. 完成步驟以建立行銷活動，例如行銷活動屬性、 [對象](../audience/about-audiences.md)、和 [排程](../campaigns/create-campaign.md#schedule). 有關如何設定行銷活動的詳細資訊，請參閱 [此頁面](../campaigns/get-started-with-campaigns.md).
 
 1. 使用運算式編輯器視需要編輯您的內容。 [了解更多](#edit-code)
 
@@ -100,7 +96,7 @@ ht-degree: 7%
 >title="預覽您的基於程式碼的體驗"
 >abstract="模擬基於程式碼的體驗。"
 
-若要顯示已修改程式碼型體驗的預覽，請遵循下列步驟。 有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱  [預覽和測試您的內容頁面](../content-management/preview-test.md).
+若要顯示已修改程式碼型體驗的預覽，請遵循下列步驟。 有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱 [預覽和測試您的內容頁面](../content-management/preview-test.md).
 
 >[!CAUTION]
 >
