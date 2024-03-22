@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
+source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '980'
 ht-degree: 7%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 7%
 目前在 [!DNL Journey Optimizer] 您只能在中建立程式碼型體驗 **行銷活動**.
 
 有關程式碼型體驗的特定護欄和建議，請參閱 [此頁面](code-based-prerequisites.md).
-
->[!AVAILABILITY]
->
->目前，已購買Adobe的組織無法使用程式碼型體驗管道 **Health Shield** 和 **隱私權與安全防護板** 附加方案。
 
 ## 建立程式碼型行銷活動 {#create-code-based-campaign}
 
