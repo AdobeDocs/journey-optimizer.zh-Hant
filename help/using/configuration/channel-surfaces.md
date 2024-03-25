@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 管道，表面，技術，引數，最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1651'
 ht-degree: 9%
 
 ---
@@ -49,6 +49,11 @@ ht-degree: 9%
 >title="管道表面設定 "
 >abstract="為了能夠建立來自歷程或行銷活動的電子郵件之類的動作，您必須首先建立一個管道表面來定義訊息所需的所有技術設定。您必須具有管理訊息預設集權限才能建立、編輯和刪除管道表面。"
 
+>[!CONTEXTUALHELP]
+>id="ajo_surface_marketing_action"
+>title="選取行銷動作"
+>abstract="選擇表面中的行銷動作，以將同意原則與訊息相關聯。"
+
 若要建立管道曲面，請遵循下列步驟：
 
 1. 存取 **[!UICONTROL 頻道]** > **[!UICONTROL 品牌化]** > **[!UICONTROL 管道表面]** 功能表，然後按一下 **[!UICONTROL 建立管道表面]**.
@@ -82,6 +87,19 @@ ht-degree: 9%
    >[!NOTE]
    >
    >有關如何設定環境以傳送SMS訊息的詳細資訊，請參閱 [本節](../sms/sms-configuration.md).
+
+<!--
+1. Select a **[!UICONTROL Marketing action]** to associate consent policies to the messages using this surface. All consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers. [Learn more](../action/consent.md#marketing-actions)
+
+    >[!NOTE]
+    >
+    >Consent policies are currently only available for organizations that have purchased the **Healthcare Shield** and **Privacy and Security Shield** add-on offerings. [Learn more](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
+
+    ![](assets/surface-marketing-action.png)
+
+    >[!NOTE]
+    >
+    >You can only select one marketing action.-->
 
 1. 設定好所有引數後，按一下 **[!UICONTROL 提交]** 以確認。 您也可以將管路曲面儲存為草繪，並稍後恢復其組態。
 
