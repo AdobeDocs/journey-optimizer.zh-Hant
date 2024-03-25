@@ -10,9 +10,9 @@ level: Experienced
 keywords: 原則、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: d549e4fdb7cd71e450cd00e4fa8707ae03ce0aff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '961'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -22,20 +22,20 @@ ht-degree: 82%
 
 In Journey Optimizer, you can apply these consent policies to your custom actions. For example, you can define consent policies to exclude customers who have not consented to receive email, push or SMS communication.-->
 
-您的資料可能會受到貴組織或法規所定義的使用限制所規範。 因此，請務必確保您在Journey Optimizer中的資料作業符合以下條件 [資料使用原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant){target="_blank"}. These policies are Adobe Experience Platform rules defining which [marketing actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#marketing-actions){target="_blank"} 您可以對資料執行。
+您的資料可能受貴組織或法律法規所定義的使用限制所約束。 因此，請務必確保您在 Journey Optimizer 的資料操作符合[資料使用原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant){target="_blank"}. These policies are Adobe Experience Platform rules defining which [marketing actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant#marketing-actions){target="_blank"}，且您可對資料執行操作。
 
-可用的一種資料使用原則型別為 **同意原則**. 它們可讓您輕鬆採用和執行行銷政策，以尊重客戶的同意偏好設定。 [進一步瞭解原則執行](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html){target="_blank"}
+可用的一種資料使用原則類型為&#x200B;**同意原則**。 其可讓您輕鬆採用及強制執行行銷原則，以尊重客戶的同意偏好設定。 [了解更多原則執行](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html?lang=zh-Hant){target="_blank"}
 
 >[!IMPORTANT]
 >
->同意原則目前僅適用於已購買Adobe的組織 **Health Shield** 或 **隱私權與安全防護板** 附加方案。
+>同意原則目前僅適用已購買 Adobe **Healthcare Shield** 與&#x200B;**隱私權與安全性防護**&#x200B;附加產品的組織。
 
-例如，您可以 [建立同意原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#consent-policy){target="_blank"} Experience Platform，以排除尚未同意接收電子郵件、推播或簡訊通訊的客戶。
+例如，您可在 Experience Platform [建立同意原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#consent-policy){target="_blank"}，以排除尚未同意接收電子郵件、推播或簡訊通訊的客戶。
 
-在Journey Optimizer中，同意會在數個層級定義。 您可以將同意政策套用至歷程自訂動作：
+在 Journey Optimizer，同意定義於數個層級。 您可以將同意原則套用至歷程自訂動作：
 
-* 時間 **設定自訂動作**，您可以定義管道和行銷動作。 [了解更多](#consent-custom-action)
-* 新增 **歷程中的自訂動作**，您可以定義其他行銷動作。 [了解更多](#consent-journey)
+* 當您&#x200B;**設定自訂動作**&#x200B;時，您可定義管道與行銷動作。 [了解更多](#consent-custom-action)
+* 當您新增&#x200B;**自訂動作至歷程**，您可定義其他行銷動作。 [了解更多](#consent-journey)
 
 ## 重要備註 {#important-notes}
 
