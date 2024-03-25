@@ -12,7 +12,7 @@ exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
 source-wordcount: '496'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
 >title="Adobe Campaign v7/v8 動作"
->abstract="此整合適用於Adobe Campaign v7和v8。 這可讓您使用 Adobe Campaign 交易型訊息功能來傳送電子郵件、推播通知及簡訊。Journey Optimizer 和 Campaign 執行個體之間的連線在佈建時由 Adobe 設定。"
+>abstract="此整合適用於 Adobe Campaign v7 和 v8。這可讓您使用 Adobe Campaign 交易型訊息功能來傳送電子郵件、推播通知及簡訊。Journey Optimizer 和 Campaign 執行個體之間的連線在佈建時由 Adobe 設定。"
 
 此整合適用於Adobe Campaign v7/v8的7.1發行版本，以及Adobe Campaign v8。 這可讓您使用 Adobe Campaign 交易型訊息功能來傳送電子郵件、推播通知及簡訊。
 
