@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
 source-wordcount: '5046'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 95%
    * P：在對象型歷程中觸發事件的捷徑，其一次單一設定檔選項已開啟。
    * L：指定用來顯示測試記錄的捷徑。
 * 「訊息頻率規則」頁面已更新，包含有關每日頻率上限的新子區段，除了每週或每月上限外，還可隨選提供。 [閱讀全文](../configuration/frequency-rules.md#daily-frequency-cap)
-* 改善並更新「使用同意原則」頁面，其中包含Experience Platform檔案的實用連結。 [閱讀全文](../action/consent.md)
+* 改善並更新「使用同意原則」頁面，其中包含 Experience Platform 文件的實用連結。 [閱讀全文](../action/consent.md)
 * 已新增新區段，以反映您可以使用「網格」檢視模式（「有限可用性」）將HTML電子郵件內容範本顯示為縮圖。 [閱讀全文](../content-management/content-templates.md#template-thumbnails)
 * 「傳遞能力」頁面已新增一個區段，說明回饋迴路以及其運用方式。 [閱讀全文](../reports/deliverability.md#feedback-loops)
 * 「建立個人化優惠方案」區段已新增附註，以指定優惠方案（包括其所有代表）的大小不得超過300KB。 [閱讀全文](../offers/offer-library/creating-personalized-offers.md#create-offer)
