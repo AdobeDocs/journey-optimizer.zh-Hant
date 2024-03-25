@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 資格，事件，對象，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 11%
+source-wordcount: '1081'
+ht-degree: 10%
 
 ---
 
@@ -37,13 +37,18 @@ ht-degree: 11%
 
 * 請記住，Adobe Experience Platform對象每天都會計算一次(**批次** 對象)或即時(**串流** 對象，使用Adobe Experience Platform的「高頻對象」選項)。
 
-* 如果對選取的對象進行串流處理，屬於此對象的個人可能會即時進入歷程。 如果對象是批次，則新符合此對象資格的人員可能會在Adobe Experience Platform上執行對象計算時進入歷程。
+   * 如果對選取的對象進行串流處理，屬於此對象的個人可能會即時進入歷程。
+   * 如果對象是批次，則新符合此對象資格的人員可能會在Adobe Experience Platform上執行對象計算時進入歷程。
+
+  因此，作為最佳實務，我們建議僅在 **對象資格** 活動。 對於批次使用案例，請使用 **[讀取對象](read-audience.md)** 活動。
+
+  >[!NOTE]
+  >
+  >由於使用構成工作流程和自訂上傳建立的對象批次性質，您無法在「對象資格」活動中鎖定這些對象。 此活動中只能運用使用區段定義建立的對象。
 
 * 從讀取對象、對象資格或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。
 
 * 在歷程中使用對象資格時，該對象資格活動最多可能需要 10 分鐘，才會啟用和接聽進入或退出對象的設定檔。
-
-* 根據最佳實務，建議您只將串流對象用於 **對象資格** 活動。 對於批次使用案例，請使用 **[讀取對象](read-audience.md)** 活動。
 
 ### 設定活動{#cnfigure-segment-qualification}
 

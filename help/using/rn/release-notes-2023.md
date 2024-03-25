@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
-workflow-type: ht
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+workflow-type: tm+mt
 source-wordcount: '4398'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -426,7 +426,7 @@ A new option is available in the email surface settings to include email address
 
 **對象**
 
-已增強歷程或行銷活動中的對象選取器功能，新增數欄顯示對象的來源與更新頻率。隨著對象構成入口網站的發行，Adobe Experience Platform 與 Adobe Journey Optimizer 已更新系統和文件內的「對象」與「區段」的使用方式。
+已增強歷程或行銷活動中的對象選取器功能，新增數欄顯示對象的來源與更新頻率。隨著對象構成入口網站的發行，Adobe Experience Platform和Adobe Journey Optimizer已更新系統和檔案中的「對象」和「區段」使用方式。
 
 * 對象：一組具有共同特徵和行為的人員、帳戶、家庭或其他實體。
 * 區段定義：在 Adobe Experience Platform 中，用來描述目標對象之關鍵特性或行為的規則。 此辭彙先前稱為「區段」。

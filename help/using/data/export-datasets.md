@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: platform、資料湖、建立、湖、資料集、設定檔
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 83751eae9f703a89a57cb337492377ff2478d4a0
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
 source-wordcount: '864'
 ht-degree: 9%
@@ -56,7 +56,7 @@ Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
 | AJO 推播追蹤體驗事件資料集 | 推播頻道的互動記錄，用於報表和建立受眾。  |
 | AJO表面資料集 | 與Journey Optimizer傳入表面結構描述相關的空白資料集 |
 | AOOutputForUPSDatset | 包含要回寫至UPS的所有AO對象會籍 |
-| Audience Orchestration設定檔資料集 | 由對象構成對象的對象構成產生。 包含所有對象構成對象、其屬性和擴充資料 |
+| Audience Orchestration設定檔資料集 | 由對象構成對象針對對象構成對象所產生。 包含所有對象構成對象、其屬性和擴充資料 |
 | 決定物件存放庫 — 活動 | 也稱為使用者介面中的決策。 但是這些是使用者建立的物件，會將所有建置區塊放在一起，包括決策邏輯。 例如，針對特定位置（位置），應考量哪些優惠（優惠收藏），以及要對這些優惠方案使用哪個排名方法。 |
 | 決定物件存放庫 — 遞補優惠 | 這是使用者建立之其他型別優惠方案的存放庫。 具體來說，如果他們沒有資格檢視個人化優惠且需要檢視某些內容，他們至少會看到遞補優惠。 此資料集包含此型別選件的屬性 |
 | 決定物件存放庫 — 個人化優惠 | 這是使用者建立之優惠方案型別的存放庫。 因此，此資料集包含此類選件的相關屬性 | Ultimate |

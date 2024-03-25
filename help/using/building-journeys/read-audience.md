@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，對象，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1463'
 ht-degree: 6%
 
 ---
@@ -99,6 +99,10 @@ ht-degree: 6%
 
    **增量讀取** 選項：當具有循環的歷程時 **讀取對象** 第一次執行時，對象中的所有設定檔都會進入歷程。 此選項可讓您在第一次發生後，只將目標鎖定在自上次執行歷程以來進入對象的個人。
 
+       >[！NOTE]
+       >
+       >如果您在歷程中鎖定[自訂上傳對象](../audience/about-audiences.md#segments-in-journey-optimizer)，只有在循環歷程中啟用此選項時，才會於第一次循環時擷取設定檔，因為這些對象已修正。
+   
    **在重複時強制重新進入**：此選項可讓您讓歷程中仍存在的所有設定檔在下次執行時自動退出。 例如，如果您在每日循環歷程中等待2天，透過啟用此選項，設定檔將一律會在下次歷程執行（也就是之後的那天）中移動，無論它們是否在下次執行的對象中。 如果此歷程中設定檔的生命週期可能超過週期頻率，請勿啟用此選項以確保設定檔可完成其歷程。
 
 <!--

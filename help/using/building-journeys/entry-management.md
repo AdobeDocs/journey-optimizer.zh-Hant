@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 重新進入、歷程、設定檔、週期性
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '680'
 ht-degree: 5%
 
 ---
@@ -78,6 +78,10 @@ Business events follow re-entrance rules in the same way as for unitary events. 
 有兩個選項可用於循環讀取受眾歷程：
 
 * **增量讀取** 選項：當具有循環的歷程時 **讀取對象** 第一次執行時，對象中的所有設定檔都會進入歷程。 此選項可讓您在第一次發生後，僅將目標設定為自上次執行歷程以來進入對象的個人。
+
+  >[!NOTE]
+  >
+  >如果您正在定位 [自訂上傳對象](../audience/about-audiences.md#segments-in-journey-optimizer) 在您的歷程中，只有在循環歷程中啟用此選項時，才會於首次循環時擷取設定檔，因為這些對象已修正。
 
 * **在重複時強制重新進入**：此選項可讓您讓歷程中仍存在的所有設定檔在下次執行時自動退出。 如果設定檔在此歷程中的生命週期可能超過週期頻率（例如，如果您使用等待活動），請勿啟用此選項以確保設定檔可完成其歷程。
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '5046'
-ht-degree: 96%
+source-wordcount: '5073'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 96%
 
 ## 2024 年 3 月 {#march-2024}
 
+* 已新增「常見問題集」一節，以處理有關在Journey Optimizer中使用對象構成和自訂上傳對象的常見問題。 [閱讀全文](../audience/about-audiences.md#faq)
 * [!DNL Journey Optimizer]3 月 24日發行版本新功能和改進項目的詳情，請參閱本文件。[閱讀全文](release-notes.md)
 * 已改善設定檔入口管理的頁面。 [閱讀全文](../building-journeys/entry-management.md)
 * 疑難排解資訊已新增至「警示」頁面。 [閱讀全文](../reports/alerts.md#alert-troubleshooting)
