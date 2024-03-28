@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
 workflow-type: tm+mt
 source-wordcount: '1651'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"
 >title="選取行銷動作"
->abstract="選擇表面中的行銷動作，以將同意原則與訊息相關聯。"
+>abstract="在表面中選擇行銷動作，以便為內容原則與訊息建立關聯。"
 
 若要建立管道曲面，請遵循下列步驟：
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 開始使用AI助理
+title: 開始使用 AI 助理
 description: 瞭解如何存取及使用Journey Optimizer的AI助理
 feature: Content Assistant
 topic: Content Management
@@ -14,16 +14,16 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 57%
+ht-degree: 68%
 
 ---
 
-# 開始使用AI助理 {#gs-content-assistant}
+# 開始使用 AI 助理 {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_content_generation"
 >title="建立該電子郵件內容"
->abstract="Adobe Journey Optimier AI Assistant為文字和影像提供主動式內容變化建議。 其可用於電子郵件、推播、簡訊和 Web 管道。 這項新功能提供提示型文字與影像產生功能。 "
+>abstract="Adobe Journey Optimizer AI 助理可為文字和影像提供主動式內容變化建議。其可用於電子郵件、推播、簡訊和 Web 管道。 這項新功能提供提示型文字與影像產生功能。 "
 
 >[!BEGINSHADEBOX]
 
