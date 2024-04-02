@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
+source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 84%
+source-wordcount: '1055'
+ht-degree: 85%
 
 ---
 
@@ -145,19 +145,19 @@ ht-degree: 84%
 
 | 類型 | URI | 說明 |
 | --------- | ----------- | ------- | 
-| Web | web://domain.com/path/page.html#element | 代表特定網域之特定頁面中的個別元素，其中元素可以是標籤，如下列範例中的標籤：hero_banner、top_nav、menu、footer等。 |
-| iOS 應用程式 | mobileapp://com.vendor.bundle/activity#element | 代表原生應用程式活動內的特定元素，例如按鈕或其他檢視元素。 |
-| Android 應用程式 | mobileapp://com.vendor.bundle/#element | 代表原生應用程式中的特定元素。 |
+| Web | `web://domain.com/path/page.html#element` | 代表特定網域之特定頁面中的個別元素，其中元素可以是標籤，如下列範例中的標籤：hero_banner、top_nav、menu、footer等。 |
+| iOS 應用程式 | `mobileapp://com.vendor.bundle/activity#element` | 代表原生應用程式活動內的特定元素，例如按鈕或其他檢視元素。 |
+| Android 應用程式 | `mobileapp://com.vendor.bundle/#element` | 代表原生應用程式中的特定元素。 |
 
 **其他裝置型別**
 
 | 類型 | URI | 說明 |
 | --------- | ----------- | ------- | 
-| 桌面 | desktop://com.vendor.bundle/#element | 代表應用程式中的特定元素，例如按鈕、功能表、主圖橫幅等。 |
-| 電視應用程式 | tvcd://com.vendor.bundle/#element | 代表智慧電視或電視連線裝置應用程式中的特定元素 — 套件ID。 |
-| 服務 | service://servicename/#element | 代表伺服器端程序或其他手動實體。 |
-| 資訊站 | kiosk://location/screen#element | 潛在可輕鬆新增的其他表面類型範例。 |
-| ATM | atm://location/screen#element | 潛在可輕鬆新增的其他表面類型範例。 |
+| 桌面 | `desktop://com.vendor.bundle/#element` | 代表應用程式中的特定元素，例如按鈕、功能表、主圖橫幅等。 |
+| 電視應用程式 | `tvcd://com.vendor.bundle/#element` | 代表智慧電視或電視連線裝置應用程式中的特定元素 — 套件ID。 |
+| 服務 | `service://servicename/#element` | 代表伺服器端程序或其他手動實體。 |
+| 資訊站 | `kiosk://location/screen#element` | 潛在可輕鬆新增的其他表面類型範例。 |
+| ATM | `atm://location/screen#element` | 潛在可輕鬆新增的其他表面類型範例。 |
 
 **萬用字元表面**
 
