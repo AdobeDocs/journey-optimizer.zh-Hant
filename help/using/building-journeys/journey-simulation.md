@@ -3,16 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 執行歷程模擬
 description: 瞭解如何執行歷程模擬
-feature: Journeys, Simulation
+feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 歷程，模擬
+keywords: 測試，歷程，檢查，錯誤，疑難排解
 hide: true
 hidefromtoc: true
-source-git-commit: 763cb17fe6be7da4107e38b26783df64472477b1
+source-git-commit: 0d1ee9621f1e9f0bef2b1fb5fc835c3b6b89b9fe
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
