@@ -245,8 +245,8 @@ ht-degree: 99%
       + [編寫單頁應用程式](using/web/web-spa.md)
 + 程式碼型體驗 {#code-based-experience}
    + [開始使用程式碼型頻道](using/code-based/get-started-code-based.md)
-   + [護欄和先決條件](using/code-based/code-based-prerequisites.md)
-   + [實作方法範例](using/code-based/code-based-implementation-samples.md)
+   + [護欄和限制](using/code-based/code-based-prerequisites.md)
+   + [實施方法範例](using/code-based/code-based-implementation-samples.md)
    + [建立程式碼型體驗](using/code-based/create-code-based.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
