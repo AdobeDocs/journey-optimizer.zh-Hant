@@ -10,9 +10,9 @@ level: Experienced
 keywords: 原則、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 334527cbad3363b77d14dd447e06d4e8da79daec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 87%
     
     To apply a custom policy, you need to define a marketing action in that policy and associate it to a channel surface. [Learn more](#marketing-actions)-->
 
-在歷程層級，您可以將同意政策套用至自訂動作：
+在 Journey Optimizer 中，您可以將這些同意原則套用至自訂動作。 
 
 * 當您&#x200B;**設定自訂動作**&#x200B;時，您可定義管道與行銷動作。 [了解更多](#consent-custom-action)
 * 當您新增&#x200B;**自訂動作至歷程**，您可定義其他行銷動作。 [了解更多](#consent-journey)
@@ -87,7 +87,7 @@ Therefore, in this example, any [email](../email/create-email.md) using that sur
 
 ### 重要備註 {#important-notes}
 
-在Journey Optimizer中，同意可以 <!--also -->在自訂動作中運用。 如果您想將其與內建訊息功能搭配使用，您需使用條件活動來篩選歷程客戶。
+在 Journey Optimizer，您<!--also -->可在自訂動作利用同意。 如果您想將其與內建訊息功能搭配使用，您需使用條件活動來篩選歷程客戶。
 
 同意管理會分析兩種歷程活動：
 
@@ -118,11 +118,11 @@ There are two types of latency regarding the use of consent policies:
 
 在設定自訂動作時，可利用兩個欄位進行同意管理。
 
-此&#x200B;**頻道**&#x200B;欄位可讓您選取與此自訂動作相關的頻道：**電子郵件**、**簡訊**，或&#x200B;**推播通知**。它會預先填入 **必要的行銷動作** 具有所選頻道的預設行銷動作的欄位。 如果您選取 **其他**，預設不會定義任何行銷動作。
+此&#x200B;**頻道**&#x200B;欄位可讓您選取與此自訂動作相關的頻道：**電子郵件**、**簡訊**&#x200B;或&#x200B;**推播通知**。它會以所選頻道的預設行銷動作，預先填入&#x200B;**必要的行銷動作**&#x200B;欄位。 如果您選取&#x200B;**其他**，預設情況下不會定義任何行銷動作。 
 
 ![](assets/consent1.png)
 
-此&#x200B;**必要的行銷動作**&#x200B;可讓您定義與自訂動作相關的行銷動作。 例如，如果您利用該自訂動作傳送電子郵件，則可選取&#x200B;**電子郵件目標定位**。在歷程中使用時，系統會擷取並運用與該行銷動作相關的所有同意原則。 已選取預設行銷動作，但您可按一下向下箭頭，從清單選取任何可用的行銷動作。
+此&#x200B;**必要的行銷動作**&#x200B;可讓您定義與自訂動作相關的行銷動作。 例如，如果您利用該自訂動作傳送電子郵件，則可選取&#x200B;**電子郵件目標定位**。當使用於歷程時，會擷取並運用與該行銷動作相關聯的所有同意原則。已選取預設行銷動作，但您可按一下向下箭頭，從清單選取任何可用的行銷動作。
 
 ![](assets/consent2.png)
 
@@ -153,7 +153,7 @@ There are two types of latency regarding the use of consent policies:
 
 ![](assets/consent4.png)
 
-您可以定義&#x200B;**其他行銷動作**&#x200B;來設定自訂動作類型。 這可讓您定義此歷程中自訂動作的用途。 除了必要的行銷動作（通常是頻道專用的）之外，您還可以定義其他行銷動作，這些動作是此特定歷程中自訂動作專用的。 例如：運動訓練通訊、電子報、健身通訊等。 必要的行銷動作和其他行銷動作均適用。
+您可以定義&#x200B;**其他行銷動作**&#x200B;來設定自訂動作類型。 這可讓您定義此歷程中自訂動作的用途。 除了必要的行銷動作 (通常是頻道專用的) 之外，您還可以定義其他行銷動作，這些動作為此特定歷程中的自訂動作專用。 例如：運動訓練通訊、電子報、健身通訊等。 所需的行銷動作和其他行銷動作皆適用。
 
 ![](assets/consent3.png)
 

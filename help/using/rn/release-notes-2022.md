@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3603'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -765,7 +765,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 **歷程**
 
 * 為了最佳化效能，所有處於測試模式且一週內未觸發的歷程現在將切換回「草稿」狀態。 [閱讀全文](../building-journeys/testing-the-journey.md#important_notes)
-* Journey Optimizer與Adobe Campaign v7/v8的整合已最佳化，以提升效能。 上限預設設定已變更為4000次呼叫/ 5分鐘。 [閱讀全文](../action/acc-action.md#important-notes)
+* 已最佳化 Journey Optimizer 和 Adobe Campaign v7/v8 的整合，以便提高效能。 上限預設設定已變更為 4000 次呼叫 / 5 分鐘。[閱讀全文](../action/acc-action.md#important-notes)
 
 **報告**
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4398'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -426,7 +426,7 @@ A new option is available in the email surface settings to include email address
 
 **對象**
 
-已增強歷程或行銷活動中的對象選取器功能，新增數欄顯示對象的來源與更新頻率。隨著對象構成入口網站的發行，Adobe Experience Platform和Adobe Journey Optimizer已更新系統和檔案中的「對象」和「區段」使用方式。
+已增強歷程或行銷活動中的對象選取器功能，新增數欄顯示對象的來源與更新頻率。隨著對象構成入口網站的發行，Adobe Experience Platform 與 Adobe Journey Optimizer 已更新系統和文件內的「對象」與「區段」的使用方式。
 
 * 對象：一組具有共同特徵和行為的人員、帳戶、家庭或其他實體。
 * 區段定義：在 Adobe Experience Platform 中，用來描述目標對象之關鍵特性或行為的規則。 此辭彙先前稱為「區段」。
@@ -840,7 +840,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tr>
 <td>
 <p>您現在可以在行銷活動中將個人化的應用程式內訊息傳送給您的應用程式使用者。使用 Journey Optimizer 來設計通知並自訂訊息版面、顯示、文字及按鈕，以建立順暢的體驗。</p>
-<p><strong>注意</strong> - 此功能目前為測試版，僅供測試版客戶使用。 若要加入測試版計畫，請連絡 Adobe 客戶服務。</p>
+<p><strong>注意</strong> - 此功能目前為測試版，僅供測試版客戶使用。 若要加入 Beta 版計畫，請連絡 Adobe 客戶服務。</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>如需詳細資訊，請參閱<a href="../in-app/get-started-in-app.md">詳細文件</a>。</p>
 </td>

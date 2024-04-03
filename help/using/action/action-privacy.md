@@ -10,9 +10,9 @@ level: Experienced
 keywords: 資料、治理、DULE、標籤、標籤、平台、原則
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '877'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Experience Platform 可讓您為欄位加上標籤，並為每個頻道建
 
 ## 重要備註 {#important-notes}
 
-* 資料治理僅適用於歷程中的自訂動作。 不支援Campaign v7/v8和Campaign Standard動作。
+* 資料治理僅適用於歷程中的自訂動作。 不支援 Campaign v7/v8 和 Campaign Standard 動作。
 * 只有在自訂動作層級設定行銷動作 (必要或其他) 時，才適用治理政策。
 
 ## 定義治理政策 {#governance-policies}

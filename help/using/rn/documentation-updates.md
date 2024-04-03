@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5073'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,25 +21,25 @@ ht-degree: 95%
 
 ## 2024 年 3 月 {#march-2024}
 
-* 已新增「常見問題集」一節，以處理有關在Journey Optimizer中使用對象構成和自訂上傳對象的常見問題。 [閱讀全文](../audience/about-audiences.md#faq)
+* 已新增「常見問題集」一節，以處理有關在 Journey Optimizer 中使用對象構成和自訂上傳對象的常見問題。 [閱讀全文](../audience/about-audiences.md#faq)
 * [!DNL Journey Optimizer]3 月 24日發行版本新功能和改進項目的詳情，請參閱本文件。[閱讀全文](release-notes.md)
-* 已改善設定檔入口管理的頁面。 [閱讀全文](../building-journeys/entry-management.md)
+* 改善設定檔進入管理頁面。 [閱讀全文](../building-journeys/entry-management.md)
 * 疑難排解資訊已新增至「警示」頁面。 [閱讀全文](../reports/alerts.md#alert-troubleshooting)
 * 已在歷程報告的頁面中新增等待活動的資訊。 [閱讀全文](../reports/sharing-overview.md)
-* 對於測試模式下的歷程，已停用下列捷徑：
+* 對於測試模式中的歷程，已停用下列捷徑：
    * T：開啟或關閉測試模式的捷徑。
    * E：用於觸發事件歷程中事件的捷徑。
-   * P：在對象型歷程中觸發事件的捷徑，其一次單一設定檔選項已開啟。
+   * P：用於在以對象為基礎的歷程中觸發事件的捷徑，並為其啟用一次單一設定檔選項
    * L：指定用來顯示測試記錄的捷徑。
 * 「訊息頻率規則」頁面已更新，包含有關每日頻率上限的新子區段，除了每週或每月上限外，還可隨選提供。 [閱讀全文](../configuration/frequency-rules.md#daily-frequency-cap)
 * 改善並更新「使用同意原則」頁面，其中包含 Experience Platform 文件的實用連結。 [閱讀全文](../action/consent.md)
-* 已新增新區段，以反映您可以使用「網格」檢視模式（「有限可用性」）將HTML電子郵件內容範本顯示為縮圖。 [閱讀全文](../content-management/content-templates.md#template-thumbnails)
+* 已新增新區段，以反映您可以使用「網格」檢視模式 (「有限可用性」) 將 HTML 電子郵件內容範本顯示為縮圖。 [閱讀全文](../content-management/content-templates.md#template-thumbnails)
 * 「傳遞能力」頁面已新增一個區段，說明回饋迴路以及其運用方式。 [閱讀全文](../reports/deliverability.md#feedback-loops)
-* 「建立個人化優惠方案」區段已新增附註，以指定優惠方案（包括其所有代表）的大小不得超過300KB。 [閱讀全文](../offers/offer-library/creating-personalized-offers.md#create-offer)
+* 「建立個人化優惠方案」區段已新增附註，以指定優惠方案 (包括其所有代表) 的大小不得超過 300KB。 [閱讀全文](../offers/offer-library/creating-personalized-offers.md#create-offer)
 
 ## 2024 年 2 月 {#feb-2024}
 
-* 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2024年2月版本的詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
+* [!DNL Journey Optimizer]3 月 23 日發行版本所有新功能和改進項目的詳情，請參閱本文件。[閱讀全文](release-notes.md)
 * Journey Optimizer + Workfront 整合已新增至整合頁面。[閱讀全文](../start/ajo-integrations.md)
 * 已新增有關如何根據內容資料個人化服務的表示形式的資訊。[閱讀全文](../offers/offer-library/add-representations.md#context-data)
 * 已更新護欄頁面，其中包含自訂動作的說明，僅在使用請求或回應裝載時支援 JSON 格式。[閱讀全文](../start/guardrails.md#custom-actions-g)
