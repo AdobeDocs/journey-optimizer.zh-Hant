@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 2ef555bd10d7b8fa32c1324b201d55d2a4b1aec7
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 3%
+source-wordcount: '1025'
+ht-degree: 2%
 
 ---
 
@@ -23,33 +23,39 @@ ht-degree: 3%
 
 ➡️  [在影片中探索此功能](#video)
 
-## Accept和Content-Type標題 {#accept-and-content-type-headers}
+## 必要的標頭 {#required-headers}
 
 下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
 
 | 頁首名稱 | 值 |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
+| 接受 | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
 | Content-Type | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
+| Authorization | `Bearer {ACCESS_TOKEN}` |
+| x-gw-ims-org-id | `{IMS_ORG}` |
+| x-sandbox-name | `{SANDBOX_NAME}` |
+| x-api-key | `{API_KEY}` |
+
+* 包含裝載(POST、PUT、PATCH)的所有請求都需要內容型別標頭
 
 ## API要求 {#request}
 
 ### API格式
 
 ```https
-POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
+POST /{ENDPOINT_PATH}/decisions
 ```
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/ode/` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/ods` |
 | `{CONTAINER_ID}` | 決策所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 ### 請求
 
 ```shell
 curl -X POST \
-  'https://platform.adobe.io/data/core/ode/e0bd8463-0913-4ca1-bd84-6309134ca1f6/decisions' \
+  'https://platform.adobe.io/data/core/ods/decisions' \
   -H 'Accept: application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"' \
   -H 'Content-Type: application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"'
   -H 'Authorization: Bearer {ACCESS_TOKEN}' \
@@ -209,15 +215,15 @@ curl -X POST \
 | 500 | 內部伺服器錯誤。 伺服器發生非預期的情況，導致它無法完成要求。 |
 | 503 | 由於伺服器超載，服務無法使用。 伺服器目前無法處理要求，因為暫時超載。 |
 
-## 教學課程影片 {#video}
+<!-- ## Tutorial video {#video}
 
-下列影片旨在協助您了解決策管理元件。
+The following video is intended to support your understanding of the components of Decision Management.
 
 >[!NOTE]
 >
->此影片適用於以Adobe Experience Platform為基礎的Offer decisioning應用程式服務。 不過，它為Journey Optimizer環境中使用的選件提供了一般指南。
+>This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## 後續步驟 {#next-steps}
 
