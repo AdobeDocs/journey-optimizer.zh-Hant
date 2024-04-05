@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
+source-git-commit: 90b08388d3b43ad8d8cfc7efec119217f531860f
 workflow-type: tm+mt
-source-wordcount: '4368'
-ht-degree: 27%
+source-wordcount: '4412'
+ht-degree: 26%
 
 ---
 
@@ -54,6 +54,8 @@ ht-degree: 27%
 ![](assets/journey_performance.png)
 
 此 **[!UICONTROL 歷程績效]** widget可讓您在目標設定檔導覽您的歷程時，以視覺化方式追蹤其軌跡。
+
+請注意，節點的設定檔計數只會在設定檔完成節點之後更新，而不會在進入節點時更新。 例如，上的設定檔 **等待** 只有在到達指定日期且設定檔已退出節點後，才會計算節點。
 
 ### 歷程統計資料 {#journey-statistics}
 

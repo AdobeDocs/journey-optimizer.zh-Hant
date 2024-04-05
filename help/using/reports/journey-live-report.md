@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: 90b08388d3b43ad8d8cfc7efec119217f531860f
 workflow-type: tm+mt
-source-wordcount: '3659'
-ht-degree: 31%
+source-wordcount: '3703'
+ht-degree: 30%
 
 ---
 
@@ -54,6 +54,8 @@ ht-degree: 31%
 ![](assets/journey_live_performance.png)
 
 **[!UICONTROL 歷程績效]** 可讓您逐步檢視目標設定檔的路徑。
+
+請注意，節點的設定檔計數只會在設定檔完成節點之後更新，而不會在進入節點時更新。 例如，上的設定檔 **等待** 只有在到達指定日期且設定檔已退出節點後，才會計算節點。
 
 ### 歷程的統計資料 {#journey-statistics}
 
