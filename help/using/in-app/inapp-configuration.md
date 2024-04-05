@@ -1,19 +1,29 @@
 ---
-title: 應用程式內頻道先決條件
+title: 應用程式內頻道必要條件和設定
 description: 瞭解如何設定您的環境，以使用Journey Optimizer傳送應用程式內訊息
 role: Admin
 feature: In App
 level: Intermediate
 keywords: 應用程式內、訊息、設定、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
+source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 6%
+source-wordcount: '819'
+ht-degree: 10%
 
 ---
 
-# 應用程式內頻道先決條件 {#inapp-configuration}
+# 必要條件和設定 {#inapp-configuration}
+
+若要能夠在中傳送應用程式內訊息歷程與行銷活動 [!DNL Journey Optimizer]，您必須進行以下設定步驟。
+
+1. 開始之前，請確定您對 Journey Optimizer 行銷活動擁有正確的權限，即使您計劃在歷程中僅使用應用程式內訊息也是如此。 仍需要行銷活動權限。 [了解更多](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+1. 在您的Adobe Experience Platform資料收集資料串流中啟用Adobe Journey Optimizer，並在Adobe Experience Platform中檢查您的預設合併原則，如以下所述： [傳遞必要條件](#delivery-prerequisites) 底下。
+1. 在Adobe Experience Platform資料彙集中建立及設定應用程式表面，詳情請參閱 [本節](#channel-prerequisites). 必須授予特定許可權才能存取 **應用程式表面** Adobe Experience Platform Data Collection中的功能表。 請在[本影片](#video)中了解更多。
+1. 如果您使用內容實驗，請務必遵循下列要求 [本節](#experiment-prerequisite).
+
+完成後，您可以建立、設定和傳送您的第一個應用程式內訊息。 在[本節](create-in-app.md)中了解如何達成此目的。
+
 
 ## 傳遞必要條件 {#delivery-prerequisites}
 
@@ -127,13 +137,11 @@ ht-degree: 6%
 
 ## 作法影片{#video}
 
-* 以下影片說明如何指派 **管理應用程式設定** 存取應用程式表面功能表的許可權。
+以下影片說明如何指派 **管理應用程式設定** 存取應用程式表面功能表的許可權。
 
-  +++請觀看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
+>[!VIDEO](https://video.tv.adobe.com/v/3421607)
 
-+++
 
 **相關主題：**
 

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
+source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '145'
+ht-degree: 84%
 
 ---
 
@@ -22,19 +22,19 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->目前，應用程式內通道不適用於已購買 Adobe **Health Shield** 和 **Privacy and Security Shield** 附加產品的組織。
+>已購買Adobe的組織無法使用應用程式內頻道 **Health Shield** 和 **隱私權與安全防護板** 附加方案。
 
-## 先決條件{#prerequisites-in-app}
-
-傳送應用程式內訊息之前，您需要：
-
-* 設定應用程式內頻道。[了解更多](inapp-configuration.md)
-
-* 開始之前，請確定您對 Journey Optimizer 行銷活動擁有正確的權限，即使您計劃在歷程中僅使用應用程式內訊息也是如此。 仍需要行銷活動權限。 [了解更多](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
-
-完成後，您可以建立、設定和傳送您的第一個應用程式內訊息。 在[本節](create-in-app.md)中了解如何達成此目的。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="inapp-configuration.md">
+<img alt="驗證" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="inapp-configuration.md"><strong>設定應用程式內頻道</strong></a>
+</div>
+<p>
+</td>
 <td>
 <a href="create-in-app.md">
 <img alt="銷售機會" src="../assets/do-not-localize/inapp-create.jpeg">
@@ -57,15 +57,6 @@ ht-degree: 100%
 </a>
 <div>
 <a href="../reports/campaign-global-report.md#inapp-global"><strong>存取應用程式內報告</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="inapp-configuration.md">
-<img alt="驗證" src="../assets/do-not-localize/inapp-config.jpg">
-</a>
-<div>
-<a href="inapp-configuration.md"><strong>設定應用程式內頻道</strong></a>
 </div>
 <p>
 </td>
