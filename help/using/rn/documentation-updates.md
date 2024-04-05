@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4342c13d7f2cff4eea3bb3cdddad8f403f0cba90
+source-git-commit: 042c8a08597c800e64751f16f792954007ed0c08
 workflow-type: tm+mt
-source-wordcount: '5101'
+source-wordcount: '5123'
 ht-degree: 99%
 
 ---
@@ -21,7 +21,10 @@ ht-degree: 99%
 
 ## 2024 年 4 月 {#april-2024}
 
+* 應用程式內傳訊的設定步驟已詳細說明。 [閱讀全文](../in-app/inapp-configuration.md)
+* 的檔案 [OFFER DECISIONINGAPI](../offers/api-reference/offer-delivery-api/decisioning-api.md) 和 [批次決策API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) 已更新。
 * 在決策管理檔案中已新增有關邊緣和中樞區域管理的資訊，當使用頻率上限與邊緣決策API。 [閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
+
 
 ## 2024 年 3 月 {#march-2024}
 
