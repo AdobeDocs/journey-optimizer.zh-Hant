@@ -9,11 +9,11 @@ exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# 護欄和先決條件 {#web-prerequisites}
+# 護欄和限制 {#web-prerequisites}
 
 若要能夠在中使用程式碼型體驗動作 [!DNL Journey Optimizer] 並傳遞應用程式可使用的程式碼內容裝載，請遵循下列先決條件：
 

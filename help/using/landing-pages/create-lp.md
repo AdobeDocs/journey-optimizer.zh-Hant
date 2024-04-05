@@ -16,7 +16,7 @@ ht-degree: 21%
 
 ---
 
-# 建立及發佈登陸頁面 {#create-lp}
+# 建立和發佈登陸頁面 {#create-lp}
 
 >[!CAUTION]
 >

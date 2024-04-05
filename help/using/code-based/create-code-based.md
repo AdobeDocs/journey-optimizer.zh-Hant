@@ -9,7 +9,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
 workflow-type: tm+mt
 source-wordcount: '980'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 目前在 [!DNL Journey Optimizer] 您只能在中建立程式碼型體驗 **行銷活動**.
 
-有關程式碼型體驗的特定護欄和建議，請參閱 [此頁面](code-based-prerequisites.md).
+有關程式碼型體驗的特定護欄和建議，請參閱[此頁面](code-based-prerequisites.md)。
 
 ## 建立程式碼型行銷活動 {#create-code-based-campaign}
 

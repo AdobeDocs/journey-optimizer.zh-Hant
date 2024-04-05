@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用登入頁面範本
+title: 使用登陸頁面範本
 description: 瞭解如何將登入頁面儲存為範本並在Journey Optimizer中重複使用
 feature: Landing Pages, Templates
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
-# 使用登入頁面範本 {#work-with-templates}
+# 使用登陸頁面範本 {#work-with-templates}
 
 ## 將頁面儲存為範本 {#save-as-template}
 

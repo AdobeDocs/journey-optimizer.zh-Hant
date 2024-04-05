@@ -7,10 +7,11 @@ feature: Journeys, Integrations
 role: User
 level: Intermediate
 keywords: 人工， AI，智慧，歷程，服務
-source-git-commit: c82e0a4f44cda4afeb88f7dd8e645e967e4a878f
+exl-id: 20da09e1-0611-4d27-a589-30552011e06c
+source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -29,4 +30,3 @@ Customer AI可讓品牌建立流失率或轉換機器學習型分數，這些分
 因此，它們可以當作Journey Optimizer條件（以做出最佳決策）、動作或區段建立中的任何其他設定檔屬性使用。
 
 ![](assets/customer-ai.png)
-

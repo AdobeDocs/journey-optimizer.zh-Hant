@@ -125,4 +125,4 @@ ht-degree: 4%
 
 您的 **[!UICONTROL 角色]** 現在已建立並設定。 您現在需要將其指派給使用者。
 
-有關角色建立與管理的詳細資訊，請參閱 [Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html).
+有關角色建立與管理的詳細資訊，請參閱 [Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=zh-Hant).

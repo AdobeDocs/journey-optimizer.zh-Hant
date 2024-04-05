@@ -14,7 +14,7 @@ exl-id: b5582601-5804-4413-b548-a0b34cc38090
 source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 3%
 
 **目錄**
 
-* [開始使用AI助理](gs-generative.md)
-* [使用AI助理產生文字](generative-content.md)
+* [開始使用 AI 助理](gs-generative.md)
+* [使用 AI 助理產生文字](generative-content.md)
 * **[使用AI助理產生影像](generative-image.md)**
 
 >[!ENDSHADEBOX]

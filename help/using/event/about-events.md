@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 處理歷程事件
+title: 使用歷程事件
 description: 瞭解如何使用歷程中的事件
 feature: Journeys, Events
 topic: Administration
@@ -16,7 +16,7 @@ ht-degree: 56%
 
 ---
 
-# 處理歷程事件 {#about-events}
+# 使用歷程事件 {#about-events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"

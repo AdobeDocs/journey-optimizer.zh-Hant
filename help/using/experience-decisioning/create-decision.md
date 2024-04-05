@@ -22,7 +22,7 @@ ht-degree: 14%
 >id="ajo_code_based_decision"
 >title="什麼是決定？"
 >abstract="決定原則利用體驗決定引擎，根據對象選擇要傳遞的最佳內容。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="關於體驗決定"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hant" text="關於體驗決定"
 
 >[!BEGINSHADEBOX 「本檔案指南提供哪些內容」]
 
@@ -56,8 +56,8 @@ ht-degree: 14%
 >id="ajo_code_based_strategy"
 >title="什麼是策略？"
 >abstract="選擇策略的順序決定了先評估哪個策略。至少需要一個策略。組合策略中的決定項目將一起評估。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="建立策略"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="評估順序"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hant" text="建立策略"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hant" text="評估順序"
 
 若要在您的網站或行動應用程式上向訪客呈現最佳動態優惠和體驗，請將決定原則新增至程式碼型行銷活動。 若要執行此操作，請遵循下列步驟。
 
