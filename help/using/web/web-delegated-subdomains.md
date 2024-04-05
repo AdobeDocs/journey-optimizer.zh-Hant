@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web、子網域、設定
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: bfb9e797757a96b1e39736f532ee9308f87bb71f
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 21%
+source-wordcount: '894'
+ht-degree: 20%
 
 ---
 
@@ -105,6 +105,10 @@ ht-degree: 21%
 
 若要設定新的子網域，請遵循下列步驟。
 
+>[!NOTE]
+>
+>根據預設， [!DNL Journey Optimizer] 可讓您總共委派最多10個子網域（包含電子郵件和網路頻道）。 不過，根據您的授權合約，您最多可以委派100個子網域。 請聯絡您的Adobe聯絡人，以進一步瞭解您有權使用的子網域數量。
+
 1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** 功能表，然後選取 **[!UICONTROL 網頁組態]** > **[!UICONTROL Web子網域]**.
 
 1. 按一下 **[!UICONTROL 設定子網域]**.
@@ -152,7 +156,6 @@ ht-degree: 21%
 1. 檢查成功後，子網域會取得 **[!UICONTROL 成功]** 狀態。 它已準備好用於建立Web Channel表面。
 
    請注意，子網域將標示為 **[!UICONTROL 已失敗]** 如果您無法在託管解決方案上建立驗證記錄。
-
 
 <!--
 Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
