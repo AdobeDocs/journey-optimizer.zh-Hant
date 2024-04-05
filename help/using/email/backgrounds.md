@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="背景設定"
->abstract="您可以將內容的背景顏色或背景影像個人化。請注意，並非所有的電子郵件用戶端都支援背景影像。"
+>abstract="您可以將內容的背景顏色或背景影像個人化。請注意，並非所有的電子郵件使用者端都支援背景影像。"
 
 在使用電子郵件設計工具設定背景時，Adobe 建議以下做法：
 
