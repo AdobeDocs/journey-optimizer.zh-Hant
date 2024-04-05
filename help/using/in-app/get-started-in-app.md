@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
+source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 84%
+source-wordcount: '147'
+ht-degree: 77%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 84%
 <img alt="驗證" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="../reports/campaign-global-report.md#inapp-global"><strong>存取應用程式內報告</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>存取應用程式內報表</strong></a>
 </div>
 <p>
 </td>
