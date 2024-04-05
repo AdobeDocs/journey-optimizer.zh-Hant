@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: bb7b79286514dcc6931f7ba8dbf2542076d754fe
+source-git-commit: bab4cd8065830e36fd6188d3ebf0bd62a63947f3
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '729'
 ht-degree: 3%
 
 ---
@@ -127,7 +127,6 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 | -------- | ----------- | ------- |
 | `@id` | 決策管理產生的UUID，用於識別單一工作負載。 | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | 組織識別碼。 | `9GTO98D5F@AdobeOrg` |
-| `xdm:containerId` | 容器識別碼。 | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | 決定工作負載請求的建立時間。 | `1648078924834` |
 | `ode:status` | 工作負載的狀態。 | `ode:status: "QUEUED"` |
 
@@ -174,7 +173,6 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 | -------- | ----------- | ------- |
 | `@id` | 決策管理產生的UUID，用於識別單一工作負載。 | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | 組織ID | `9GTO98D5F@AdobeOrg` |
-| `xdm:containerId` | 容器ID | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | 決定工作負載請求的建立時間。 | `1648076994405` |
 | `ode:status` | 工作負荷的狀態從「已排入佇列」開始，並變更為「處理中」、「正在擷取」、「已完成」或「錯誤」。 | `ode:status: "COMPLETED"` |
 | `ode:statusDetail` | 如果狀態為「正在處理」或「正在擷取」，這會顯示更多詳細資料，例如sparkJobId和batchID。 如果狀態為「ERROR」，則顯示錯誤詳細資料。 |  |
