@@ -10,16 +10,21 @@ level: Experienced
 keywords: 設定，電子郵件，設定，子網域
 hide: true
 hidefromtoc: true
-source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
+badge: label="Beta"
+source-git-commit: e63823dc2f901b870f11b0478e682e2af61b5b98
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
 
-# 設定電子郵件動態子網域 {#surface-personalization}
+# 個人化電子郵件表面設定 {#surface-personalization}
 
-建立電子郵件介面時，為了增加彈性並控制電子郵件設定， [!DNL Journey Optimizer] 可讓您定義子網域、標題和URL追蹤引數的個人化值。
+為了增加彈性並控制您的電子郵件設定， [!DNL Journey Optimizer] 可讓您定義子網域和標題的個人化值<!--and URL tracking parameters--> 建立電子郵件介面時。
+
+>[!AVAILABILITY]
+>
+>此功能目前僅供特定使用者測試版。 <!--To join the beta program, contact Adobe Customer Care.-->
 
 ## 新增動態子網域 {#dynamic-subdomains}
 
@@ -42,7 +47,11 @@ ht-degree: 0%
 
 例如，如果您有從每個國家/地區的專屬電子郵件地址傳送訊息的法律限制，則可以使用動態子網域。 這可讓您建立單一表面，其中包含對應不同國家/地區的數個傳送子網域，而非為每個國家/地區建立多個表面。 然後，您可以將不同國家/地區的目標客戶整合為單一行銷活動。
 
-若要定義動態子網域，請遵循下列步驟。
+若要定義電子郵件頻道介面中的動態子網域，請遵循下列步驟。
+
+1. 在建立介面之前，請先根據您的使用案例設定您要用於傳送電子郵件的子網域。 [了解作法](../configuration/about-subdomain-delegation.md)
+
+   例如，假設您想針對不同的國家/地區使用不同的子網域：設定一個美國特定的子網域、一個英國特定的子網域等。
 
 1. 建立管道表面。 [了解作法](../configuration/channel-surfaces.md)
 
@@ -66,13 +75,15 @@ ht-degree: 0%
 
    ![](assets/surface-email-select-subdomain.png)
 
-   所有在美國的收件者都會收到使用該國家/地區所選子網域的訊息，這表示所有相關的URL （例如映象頁面、追蹤URL或取消訂閱連結）都會根據該子網域填入。
+   所有位於美國的收件者都會收到使用該國家/地區所選子網域的訊息，這表示所有相關的URL （例如映象頁面、追蹤URL或取消訂閱連結）都會根據該子網域填入。
 
 1. 視需要設定其他動態子網域。 您最多可以新增50個專案。
 
    ![](assets/surface-email-add-dynamic-subdomain.png)
 
-1. 選取 [IP集區](../configuration/ip-pools.md) 以與曲面相關聯。 [了解更多](email-settings.md#subdomains-and-ip-pools)
+<!--Select the [IP pool](../configuration/ip-pools.md) to associate with the surface. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
+
+1. 定義所有其他專案 [電子郵件設定](email-settings.md) 和 [提交](../configuration/channel-surfaces.md#create-channel-surface) 您的表面。
 
 將一或多個動態子網域新增至曲面後，系統會根據此曲面的已解析動態子網域填入下列專案：
 
@@ -82,7 +93,11 @@ ht-degree: 0%
 
 * 此 **來自電子郵件** 和 **錯誤電子郵件** 尾碼
 
-## 個人化您的標題(#personalize-header)
+>[!NOTE]
+>
+>如果您設定動態子網域，然後停用 **[!UICONTROL 動態子網域]** 選項，則會移除所有動態值。 選取子網域並提交表面，變更即可生效。
+
+## 個人化您的頁首 {#personalize-header}
 
 您也可以針對曲面中定義的所有標頭引數使用個人化。
 
@@ -90,13 +105,20 @@ ht-degree: 0%
 
 若要針對曲面標頭引數使用個人化變數，請遵循下列步驟。
 
+>[!NOTE]
+>
+>您可以全部個人化 **[!UICONTROL 標頭引數]** 欄位，但 **[!UICONTROL 錯誤電子郵件前置詞]** 欄位。
+
+
 1. 依照您通常的作法定義標頭引數。 [了解作法](email-settings.md#email-header)
 
 1. 對於每個欄位，選取編輯圖示。
 
    ![](assets/surface-email-personalize-header.png)
 
-1. 此 [運算式編輯器](../personalization/personalization-build-expressions.md) 隨即開啟。 依照需要定義條件，然後儲存變更。<!--In this example, set a condition such as -->
+1. 此 [運算式編輯器](../personalization/personalization-build-expressions.md) 隨即開啟。 依照需要定義條件，然後儲存變更。
+
+   例如，設定條件，例如每位收件者都會收到來自其品牌代表的電子郵件。
 
    >[!NOTE]
    >
@@ -104,18 +126,41 @@ ht-degree: 0%
 
 1. 針對您想要新增個人化的每個引數，重複上述步驟。
 
-   >[!NOTE]
-   >
-   >如果您在曲面中新增一或多個動態子網域， **來自電子郵件** 和 **錯誤電子郵件** 將會根據解析的填入尾碼 [動態子網域](#dynamic-subdomains).
+>[!NOTE]
+>
+>如果您在曲面中新增一或多個動態子網域， **來自電子郵件** 和 **錯誤電子郵件** 將會根據解析的填入尾碼 [動態子網域](#dynamic-subdomains).
 
 <!--
 ## Use personalized URL tracking {#personalize-url-tracking}
 
 To use personalized URL tracking prameters, follow the steps below.
 
-select the profile attribute of your choice from the expression editor.
+1. Select the profile attribute of your choice from the expression editor.
 
 1. Repeat the steps above for each tracking parameter you want to personalize.
 
 Now when the email is sent out, this parameter will be automatically appended to the end of the URL. You can then capture this parameter in web analytics tools or in performance reports.
 -->
+
+## 檢視表面詳細資料 {#view-surface-details}
+
+在促銷活動或介面中使用具有個人化設定的介面時，您可以直接在促銷活動或介面中顯示介面細節。 請遵循下列步驟。
+
+1. 建立電子郵件 [行銷活動](../campaigns/create-campaign.md) 或 [歷程](../building-journeys/journey-gs.md).
+
+1. 選取 **[!UICONTROL 編輯內容]** 按鈕。
+
+1. 按一下 **[!UICONTROL 檢視表面詳細資料]** 按鈕。
+
+   ![](assets/campaign-view-surface-details.png)
+
+1. 此 **[!UICONTROL 傳遞設定]** 視窗隨即顯示。 您可以檢視所有表面設定，包括動態子網域和個人化的標頭引數。
+
+   >[!NOTE]
+   >
+   >此畫面上的所有資訊都是唯讀的。
+
+1. 選取 **[!UICONTROL 展開]** 以顯示動態子網域的詳細資訊。
+
+   ![](assets/campaign-delivery-settings-subdomain-expand.png)
+
