@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 選擇退出，電子郵件，連結，取消訂閱
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
+source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 76%
@@ -175,7 +175,7 @@ ht-degree: 76%
 >
 >若要在電子郵件標題中顯示取消訂閱連結，收件者的電子郵件用戶端必須支援此功能。
 
-取消訂閱地址是預設的&#x200B;**[!UICONTROL Mailto (取消訂閱)]**&#x200B;地址顯示在相應的頻道介面。 [了解更多](../configuration/channel-surfaces.md#list-unsubscribe)。
+取消訂閱地址是預設的&#x200B;**[!UICONTROL Mailto (取消訂閱)]**&#x200B;地址顯示在相應的頻道介面。 [了解更多](email-settings.md#list-unsubscribe)
 
 若要設定個人化取消訂閱 URL，請在電子郵件內容中插入一鍵退出連結，然後輸入您選擇的 URL。 [了解更多](#one-click-opt-out)
 

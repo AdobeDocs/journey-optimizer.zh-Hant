@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
+source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1747'
 ht-degree: 99%
 
 ---
@@ -203,6 +203,7 @@ ht-degree: 99%
    + 設定電子郵件頻道 {#configure-email}
       + [開始使用電子郵件設定](using/email/get-started-email-config.md)
       + [設定電子郵件表面設定](using/email/email-settings.md)
+      + [設定電子郵件動態子網域](using/email/surface-personalization.md)
 + 應用程式內頻道{#in-app}
    + [開始使用應用程式內頻道](using/in-app/get-started-in-app.md)
    + [必要條件和設定](using/in-app/inapp-configuration.md)

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
 workflow-type: tm+mt
 source-wordcount: '2378'
 ht-degree: 11%
@@ -60,6 +60,8 @@ ht-degree: 11%
 1. 選取要用來傳送電子郵件的子網域。
 
    為了維護您網域的聲譽，請加快IP暖身過程並改善傳遞能力，將您的傳送子網域委派給Adobe。 [了解更多](../configuration/about-subdomain-delegation.md)
+
+<!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
 
 1. 選取要與表面關聯的IP集區。 [了解更多](../configuration/ip-pools.md)
 
@@ -112,6 +114,8 @@ ht-degree: 11%
   >如果您未在訊息內容中新增一鍵退出連結，則不會向使用者顯示登陸頁面。
 
 瞭解更多有關在訊息中新增標題取消訂閱連結的資訊 [本節](../privacy/opt-out.md#unsubscribe-header).
+
+<!--If you have added one or more dynamic subdomains, URLs will be populated based on the resolved dynamic subdomain. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 
