@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '971'
 ht-degree: 2%
 
 ---
@@ -128,7 +128,7 @@ API觸發的行銷活動的可用管道包括電子郵件、簡訊和推播訊�
 
 >[!NOTE]
 >
->在中建立未知的設定檔 **AJO互動式訊息設定檔資料集** 資料集，分別位於每個傳出頻道（電子郵件、簡訊和推播）的三個預設名稱空間（電子郵件、電話和ECID）中。
+>在中建立未知的設定檔 **AJO互動式訊息設定檔資料集** 資料集，分別位於每個傳出頻道（電子郵件、簡訊和推播）的三個預設名稱空間（電子郵件、電話和ECID）中。 不過，如果您使用自訂名稱空間，則會使用相同的自訂名稱空間建立身分。
 
 ## 操作說明影片 {#video}
 
