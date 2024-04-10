@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
 workflow-type: tm+mt
 source-wordcount: '5140'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 98%
 
 * 應用程式內傳訊的設定步驟已詳細說明。 [閱讀全文](../in-app/inapp-configuration.md)
 * 的檔案 [OFFER DECISIONINGAPI](../offers/api-reference/offer-delivery-api/decisioning-api.md) 和 [批次決策API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) 已更新。
-* 在決策管理檔案中已新增有關邊緣和中樞區域管理的資訊，當使用頻率上限與邊緣決策API。 [閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
+* 決策管理文件中新增了有關在邊緣決策 API 使用頻率上限時邊緣與中心區域管理的資訊。[閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
 * 在使用API觸發的行銷活動時，已新增使用自訂名稱空間建立身分的資訊。 [閱讀全文](../campaigns/api-triggered-campaigns.md)
 
 ## 2024 年 3 月 {#march-2024}

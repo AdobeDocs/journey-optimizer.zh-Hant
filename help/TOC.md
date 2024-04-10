@@ -206,7 +206,7 @@ ht-degree: 99%
       + [設定電子郵件動態子網域](using/email/surface-personalization.md)
 + 應用程式內頻道{#in-app}
    + [開始使用應用程式內頻道](using/in-app/get-started-in-app.md)
-   + [必要條件和設定](using/in-app/inapp-configuration.md)
+   + [先決條件與設定](using/in-app/inapp-configuration.md)
    + [建立行動裝置應用程式內訊息](using/in-app/create-in-app.md)
    + [建立網頁應用程式內訊息](using/in-app/create-in-app-web.md)
    + [設計您的應用程式內內容](using/in-app/design-in-app.md)
