@@ -8,9 +8,9 @@ level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 77%
 
 >[!AVAILABILITY]
 >
->已購買Adobe的組織無法使用應用程式內頻道 **Health Shield** 和 **隱私權與安全防護板** 附加方案。
+>目前，應用程式內頻道不適用於已購買 Adobe **Health Shield** 與 **Privacy and Security Shield** 附加產品的組織。
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -31,7 +31,7 @@ ht-degree: 77%
 <img alt="驗證" src="../assets/do-not-localize/inapp-config.jpg">
 </a>
 <div>
-<a href="inapp-configuration.md"><strong>設定應用程式內頻道</strong></a>
+<a href="inapp-configuration.md"><strong>設定應用程式內頻道</strong></a>。
 </div>
 <p>
 </td>
@@ -56,7 +56,7 @@ ht-degree: 77%
 <img alt="驗證" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="../reports/campaign-global-report.md#inapp-global"><strong>存取應用程式內報表</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>存取應用程式內報告</strong></a>
 </div>
 <p>
 </td>
