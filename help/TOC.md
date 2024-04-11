@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
+source-git-commit: 81d54c026c52fe78b1b725d67da15505907b8bb9
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1746'
 ht-degree: 99%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 99%
       + [2022 年發行說明](using/rn/release-notes-2022.md)
       + [2021 年發行說明](using/rn/release-notes-2021.md)
    + [文件更新](using/rn/documentation-updates.md)
+   + [新增歷程畫布](using/rn/news-canvas.md)
 + 快速入門{#get-started}
    + [什麼是 Journey Optimizer](using/start/get-started.md)
    + 快速入門手冊{#quick-start}
@@ -203,10 +204,9 @@ ht-degree: 99%
    + 設定電子郵件頻道 {#configure-email}
       + [開始使用電子郵件設定](using/email/get-started-email-config.md)
       + [設定電子郵件表面設定](using/email/email-settings.md)
-      + [設定電子郵件動態子網域](using/email/surface-personalization.md)
 + 應用程式內頻道{#in-app}
    + [開始使用應用程式內頻道](using/in-app/get-started-in-app.md)
-   + [先決條件與設定](using/in-app/inapp-configuration.md)
+   + [應用程式內頻道先決條件](using/in-app/inapp-configuration.md)
    + [建立行動裝置應用程式內訊息](using/in-app/create-in-app.md)
    + [建立網頁應用程式內訊息](using/in-app/create-in-app-web.md)
    + [設計您的應用程式內內容](using/in-app/design-in-app.md)
