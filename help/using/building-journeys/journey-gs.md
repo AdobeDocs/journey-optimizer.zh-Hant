@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
+source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
 workflow-type: tm+mt
-source-wordcount: '1983'
-ht-degree: 16%
+source-wordcount: '2005'
+ht-degree: 15%
 
 ---
 
@@ -146,6 +146,11 @@ ht-degree: 16%
 >id="ajo_journey_properties"
 >title="歷程屬性"
 >abstract="本區段會顯示歷程屬性。預設情況下，會隱藏唯讀參數。可用設定會依據歷程的狀態、您的權限和產品設定而定。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_exit_criterias"
+>title="歷程退出條件"
+>abstract="本區段顯示退出條件選項。 您可以為歷程建立一或多個退出條件規則。"
 
 按一下歷程名稱旁的鉛筆圖示，即可存取其屬性。
 
