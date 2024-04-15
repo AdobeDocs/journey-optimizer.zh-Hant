@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 75dcd6d4a36b09809cdf4db3a0ae3ba3a1cb35b5
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '783'
 ht-degree: 3%
 
 ---
@@ -27,9 +27,17 @@ ht-degree: 3%
 
 ## 使用者端實施 {#client-side-implementation}
 
-如果您是使用者端實作，則可以使用其中一個AEP使用者端SDK：AEP Web SDK或AEP Mobile SDK。 以下步驟說明在範例Web SDK實作中，透過程式碼型體驗行銷活動擷取Edge上發佈的內容並顯示個人化內容的程式。
+如果您是使用者端實作，則可以使用其中一個AEP使用者端SDK：AEP Web SDK或AEP Mobile SDK。
 
-### 運作方式
+* 步驟 [以下](#client-side-how) 在範例中說明程式碼型體驗行銷活動擷取Edge上發佈內容的程式 **Web SDK** 實作與顯示個人化內容。
+
+* 使用實施程式碼型通道的步驟 **行動SDK** 中的說明 [本教學課程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+
+  >[!NOTE]
+  >
+  >行動使用案例的實施範例適用於 [iOS應用程式](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} and [Android app](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
+
+### 運作方式 — Web SDK {#client-side-how}
 
 1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant){target="_blank"} 會包含在頁面上。
 
@@ -48,61 +56,61 @@ ht-degree: 3%
 
 1. 對於程式碼型體驗行銷活動，必須手動傳送顯示事件以指出內容已顯示時間。 這可透過以下方式完成 `sendEvent` 命令。
 
-```javascript
-function sendDisplayEvent(decision) {
-  const { id, scope, scopeDetails = {} } = decision;
-
-  alloy("sendEvent", {
-
-    xdm: {
-      eventType: "decisioning.propositionDisplay",
-      _experience: {
-        decisioning: {
-          propositions: [
-            {
-              id: id,
-              scope: scope,
-              scopeDetails: scopeDetails,
-            },
-          ],
-        },
-      },
-    },
-  });
-}
-```
+   ```javascript
+   function sendDisplayEvent(decision) {
+     const { id, scope, scopeDetails = {} } = decision;
+   
+     alloy("sendEvent", {
+   
+       xdm: {
+         eventType: "decisioning.propositionDisplay",
+         _experience: {
+           decisioning: {
+             propositions: [
+               {
+                 id: id,
+                 scope: scope,
+                 scopeDetails: scopeDetails,
+               },
+             ],
+           },
+         },
+       },
+     });
+   }
+   ```
 
 1. 對於程式碼型體驗行銷活動，必須手動傳送互動事件，以指出使用者何時已與內容互動。 這可透過以下方式完成 `sendEvent` 命令。
 
-```javascript
-function sendInteractEvent(label, proposition) {
-  const { id, scope, scopeDetails = {} } = proposition;
-
-  alloy("sendEvent", {
-    
-    xdm: {
-      eventType: "decisioning.propositionInteract",
-      _experience: {
-        decisioning: {
-          propositions: [
-            {
-              id: id,
-              scope: scope,
-              scopeDetails: scopeDetails,
-            },
-          ],
-          propositionEventType: {
-            interact: 1
-          },
-          propositionAction: {
-            label: label
-          },
-        },
-      },
-    },
-  });
-}
-```
+   ```javascript
+   function sendInteractEvent(label, proposition) {
+     const { id, scope, scopeDetails = {} } = proposition;
+   
+     alloy("sendEvent", {
+   
+       xdm: {
+         eventType: "decisioning.propositionInteract",
+         _experience: {
+           decisioning: {
+             propositions: [
+               {
+                 id: id,
+                 scope: scope,
+                 scopeDetails: scopeDetails,
+               },
+             ],
+             propositionEventType: {
+               interact: 1
+             },
+             propositionAction: {
+               label: label
+             },
+           },
+         },
+       },
+     });
+   }
+   ```
 
 ### 重要觀察
 
@@ -130,7 +138,9 @@ Cookie可用來儲存使用者身分和叢集資訊。 使用使用者端實作�
 
 ## 伺服器端實作 {#server-side-implementation}
 
-如果您有伺服器端實作，則可以使用其中一個AEP Edge Network API。 下列步驟說明在範例網頁的Edge Network API實作中，擷取程式碼型體驗促銷活動在Edge上發佈之內容的程式，並顯示個人化內容。
+如果您有伺服器端實作，則可以使用其中一個AEP Edge Network API。
+
+下列步驟說明在範例網頁的Edge Network API實作中，擷取程式碼型體驗促銷活動在Edge上發佈之內容的程式，並顯示個人化內容。
 
 ### 運作方式
 
