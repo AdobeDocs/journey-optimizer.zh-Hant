@@ -11,7 +11,7 @@ exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
 source-git-commit: 3944c7b96baf227e4c0c1e7e1a225c1ce1ad0142
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_new_canvas"
 >title="新增功能？"
->abstract="新畫布"
+>abstract="新的畫布"
 
 我們已著手簡化歷程模型，以簡化某些內部流程。 此模型變更本身對您而言是透明的，除了我們藉機同時推出新功能：
 

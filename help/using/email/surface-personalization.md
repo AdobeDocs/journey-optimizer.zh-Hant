@@ -15,7 +15,7 @@ exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 94d39089d94b4fe42eb3fb95603426012b104517
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -31,18 +31,18 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
->title="無法使用個人化"
->abstract="此表面是在沒有任何個人化屬性的情況下建立的。 如需瞭解需要個人化時的解決步驟，請參閱檔案。"
+>title="個人化不可用"
+>abstract="此表面建立時沒有任何個人化屬性。如果需要個人化，請參閱文件以了解解決步驟。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="啟用動態子網域"
->abstract="建立電子郵件表面時，您可以根據使用「運算式編輯器」定義的條件來設定動態子網域。 您最多可以新增50個動態子網域。"
+>abstract="建立電子郵件表面時，您可以根據使用運算式編輯器定義的條件來設定動態子網域。您最多可以新增 50 個動態子網域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
->title="部分子網域可能無法使用"
->abstract="由於暫止的回饋回圈註冊，某些子網域目前無法供選取。 此程式最多可能需要10個工作日。 完成後，您可以從所有可用的子網域中進行選擇。"
+>title="某些子網域可能不可用"
+>abstract="由於待處理意見回饋循環註冊，某些子網域目前無法選取。此程序可能需要長達 10 個工作天。完成後，您可以從所有可用子網域進行選擇。"
 
 建立電子郵件介面時，您可以根據特定條件設定動態子網域。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >由於擱置中，某些子網域目前無法供選取 [回饋迴路](../reports/deliverability.md#feedback-loops) 註冊。 此程式最多可能需要10個工作日。 完成後，您可以從所有可用的子網域中進行選擇。 <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >由於擱置中，某些子網域目前無法供選取 [回饋迴路](../reports/deliverability.md#feedback-loops) 註冊。 此程序可能需要長達 10 個工作天。完成後，您可以從所有可用的子網域中進行選擇。 <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 

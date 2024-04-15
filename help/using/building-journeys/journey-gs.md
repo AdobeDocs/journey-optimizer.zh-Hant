@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
 workflow-type: tm+mt
 source-wordcount: '2005'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -149,8 +149,8 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
->title="歷程退出條件"
->abstract="本區段顯示退出條件選項。 您可以為歷程建立一或多個退出條件規則。"
+>title="歷程結束條件"
+>abstract="本區段顯示結束條件選項。您可以為您的歷程建立一個或多個結束條件規則。"
 
 按一下歷程名稱旁的鉛筆圖示，即可存取其屬性。
 
