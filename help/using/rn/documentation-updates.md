@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5140'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 99%
 
 ## 2024 年 4 月 {#april-2024}
 
-* 應用程式內傳訊的設定步驟已詳細說明。 [閱讀全文](../in-app/inapp-configuration.md)
-* 的檔案 [OFFER DECISIONINGAPI](../offers/api-reference/offer-delivery-api/decisioning-api.md) 和 [批次決策API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) 已更新。
+* 已詳細說明應用程式內傳送訊息設定步驟。 [閱讀全文](../in-app/inapp-configuration.md)
+* 已更新[優惠決策 API](../offers/api-reference/offer-delivery-api/decisioning-api.md) 與[批次決策 API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) 文件。
 * 決策管理文件中新增了有關在邊緣決策 API 使用頻率上限時邊緣與中心區域管理的資訊。[閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
-* 在使用API觸發的行銷活動時，已新增使用自訂名稱空間建立身分的資訊。 [閱讀全文](../campaigns/api-triggered-campaigns.md)
+* 對於使用 API 觸發的行銷活動，已針對利用自訂名稱空間建立身分新增資訊。 [閱讀全文](../campaigns/api-triggered-campaigns.md)
 
 ## 2024 年 3 月 {#march-2024}
 
