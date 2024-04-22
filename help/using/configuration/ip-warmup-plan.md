@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
+source-git-commit: c7dca8dd0d2761b204636020b427d76b617da26c
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1600'
 ht-degree: 8%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 8%
 
 1. 拖放 **[!UICONTROL IP熱身設定]** 指派許可權的資源。
 
-1. 從 **[!UICONTROL IP熱身設定]** 資源下拉式清單，選取您的使用者需要哪些許可權。
+1. 從 **[!UICONTROL IP熱身設定]** resource下拉式清單，選取您的使用者需要哪些許可權： **[!UICONTROL 檢視IP熱身計畫]**， **[!UICONTROL 管理IP熱身計畫]**、和/或 **[!UICONTROL 檢視IP熱身報告]**. 您可以視需要一次選取所有專案。
 
    ![](assets/ip_permissions_2.png)
 
