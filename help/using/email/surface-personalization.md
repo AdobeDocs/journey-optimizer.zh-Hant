@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 設定電子郵件動態子網域
-description: 瞭解如何在電子郵件頻道介面層級設定動態子網域
+title: 個人化電子郵件表面設定
+description: 瞭解如何為電子郵件頻道介面層級的設定定義個人化值
 feature: Surface, Subdomains
 topic: Administration
 role: Admin
@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 94d39089d94b4fe42eb3fb95603426012b104517
+source-git-commit: 513fddf21eaf7958df45d97f028103519c77ec44
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '818'
 ht-degree: 13%
 
 ---
