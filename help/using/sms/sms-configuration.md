@@ -41,7 +41,7 @@ Adobe Journey Optimizer目前與獨立於Adobe Journey Optimizer提供文字訊�
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="使用 Journey Optimizer 設定您的 SMS 服務提供者"
->abstract="Adobe Journey Optimizer 會透過 SMS 服務提供者發送文字簡訊。選取您的服務提供者並填寫您的 API 認證。"
+>abstract="Adobe Journey Optimizer 會透過簡訊服務供應商發送文字訊息。選取您的服務提供者並填寫您的 API 認證。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
