@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
-workflow-type: tm+mt
+source-git-commit: 50d3be8fb8ae04e1cab747f6ba4b1024c5e3ec97
+workflow-type: ht
 source-wordcount: '533'
 ht-degree: 100%
 
@@ -67,6 +67,7 @@ ht-degree: 100%
 * [片段](../content-management/fragments.md)
 * [訂閱清單](../landing-pages/subscription-list.md)
 * [登陸頁面](../landing-pages/create-lp.md)
+* 
 
 您可選取現有標籤或建立新標籤。若要執行此操作，請遵循下列步驟。
 
