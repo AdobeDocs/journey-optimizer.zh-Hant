@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 50d3be8fb8ae04e1cab747f6ba4b1024c5e3ec97
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 26%
+source-wordcount: '1039'
+ht-degree: 25%
 
 ---
 
@@ -67,6 +67,7 @@ Journey Optimizer 可讓您建立行銷優惠 (稱為決定項目)，您可以�
    1. 提供名稱和說明。
    1. 指定開始和結束日期。 在此日期內，決策引擎僅會考慮該專案。
    1. 設定 **[!UICONTROL 優先順序]** 與其他專案比較，如果設定檔符合多個專案的資格。 較高的優先順序使該項目優先於其他項目。
+   1. 此 **標籤** 欄位可讓您將Adobe Experience Platform統一標籤指派給您的決定專案。 這可讓您輕鬆分類並改善搜尋。 [了解如何使用標籤](../start/search-filter-categorize.md#tags)
 
    ![](assets/item-attributes.png)
 
