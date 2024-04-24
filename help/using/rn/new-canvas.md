@@ -8,9 +8,9 @@ description: 新的歷程介面
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 0b1b1440d43ceadf4d943011d5e30e6ad0a64dbb
+source-git-commit: 17dc12f66a740b1ebea360aa20453d9b750d3e5c
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '541'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 1%
 
 * A **重新設計的歷程畫布** 打造現代化的UI體驗
 * A **即時報告** 歷程畫布中直接可用的UI
+
+>[!AVAILABILITY]
+>
+>請注意，此功能的推出將是漸進式的。 您可能無法立即看到變更。
 
 ## 歷程模型的更新
 
@@ -74,20 +78,28 @@ v1中的所有歷程都將保留在v1。 您仍可編輯、測試或發佈這些
 
 ## 歷程畫布中的即時報告
 
-除了改良的歷程畫布設計，我們還將推出以下功能： **過去24小時的報表量度** （稱為「即時報告」）直接在歷程畫布中。
+除了改良的歷程畫布設計，我們還將推出以下功能： **在每個活動上**，進入該活動的設定檔數以及由於錯誤而結束的數量：
+
+<!--
+**last 24 hours reporting metrics** (called "live reporting") directly in the journey canvas.
 
 ![](assets/new-canvas6.png)
 
-有了新模式上的每個即時歷程，您就能看到兩種型別的「過去24小時」報告資訊：
+With every live journey on the new model, you will be able to see two types of "last 24 hours" reporting information:
 
-* 在 **新插入**，您會看到：
-   * 已針對受眾觸發的歷程匯出的設定檔數。 您將看到上次匯出作業中可用的設定檔數量，以及進行該匯出的時間。
-   * 退出歷程的設定檔數
-   * 錯誤百分比
-     ![](assets/new-canvas7.png)
-* **在每個活動上**，您會看到進入該活動的設定檔數目，以及因錯誤而退出的數目：
-  ![](assets/new-canvas8.png)
+* On a **new insert**, you will see:
+    * The number of profiles that have been exported for audience-triggered journeys. You will see the number of profiles available in the last export job alongside the time when that export has been made.
+    * The number of profiles who exited the journey
+    * The percentage of errors
+    ![](assets/new-canvas7.png)
+
+* **On each activity**, you will see the number of profiles who entered that activity and the number who exited because of an error:
+-->
+
+![](assets/new-canvas8.png)
 
 使用者介面每分鐘會自動重新整理一次。
 
-請注意，您可能會看到匯出的設定檔數量與流經歷程的設定檔數量之間的差異。 匯出的設定檔計數只會提供上次執行匯出工作的相關資訊，而進入活動的設定檔數目只包含過去24小時內執行匯出工作的設定檔。 這尤其可見於週期性每日歷程，因為兩天之間可能會出現資料重疊。
+<!--
+Please note that you may see differences between the number of exported profiles and the number of profiles flowing through the journey. The exported profiles count only provides information about the last export job being made while the number of profiles entering an activity only contains profiles who did it in the last 24 hours. This can especially be visible on recurring daily journeys as there could be a data overlap between two days.
+-->
