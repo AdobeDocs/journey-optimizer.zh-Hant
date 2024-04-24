@@ -8,7 +8,7 @@ description: 新的歷程介面
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 596426f3b75a2e6f2d68e5b9218863c2d8887cca
+source-git-commit: eb964ee9fb0891692adf5b5a9143ef2d6ad450ac
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 * A **重新設計的歷程畫布** 打造現代化的UI體驗
 * A **即時報告** 歷程畫布中直接可用的UI
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >請注意，此功能的推出將是漸進式的。 您可能無法立即看到變更。
 
