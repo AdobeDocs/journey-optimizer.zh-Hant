@@ -8,9 +8,9 @@ description: 新的歷程介面
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 17dc12f66a740b1ebea360aa20453d9b750d3e5c
+source-git-commit: 596426f3b75a2e6f2d68e5b9218863c2d8887cca
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -78,13 +78,15 @@ v1中的所有歷程都將保留在v1。 您仍可編輯、測試或發佈這些
 
 ## 歷程畫布中的即時報告
 
-除了改良的歷程畫布設計，我們還將推出以下功能： **在每個活動上**，進入該活動的設定檔數以及由於錯誤而結束的數量：
+除了改良的歷程畫布設計，我們還將推出以下功能： **過去24小時的報表量度** （稱為「即時報告」）直接在歷程畫布中。
 
-<!--
-**last 24 hours reporting metrics** (called "live reporting") directly in the journey canvas.
+![](assets/new-canvas6bis.png)
 
-![](assets/new-canvas6.png)
+有了新模式上的每個即時歷程，您將能夠看到 **在每個活動上**，進入該活動的設定檔數以及由於錯誤而結束的數量：
 
+![](assets/new-canvas8.png)
+
+<!--`
 With every live journey on the new model, you will be able to see two types of "last 24 hours" reporting information:
 
 * On a **new insert**, you will see:
@@ -92,11 +94,9 @@ With every live journey on the new model, you will be able to see two types of "
     * The number of profiles who exited the journey
     * The percentage of errors
     ![](assets/new-canvas7.png)
-
 * **On each activity**, you will see the number of profiles who entered that activity and the number who exited because of an error:
+    ![](assets/new-canvas8.png)
 -->
-
-![](assets/new-canvas8.png)
 
 使用者介面每分鐘會自動重新整理一次。
 
