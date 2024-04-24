@@ -8,7 +8,7 @@ description: 新的歷程介面
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: f6b9060ed512d6abff37102fa1316b43736bebd5
+source-git-commit: 0b1b1440d43ceadf4d943011d5e30e6ad0a64dbb
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 1%
@@ -26,7 +26,8 @@ ht-degree: 1%
 
 我們已開發 **簡化的歷程模型** 旨在改善內部流程。 雖然此新模式為後端改進，但我們的團隊趁機新增可看到並有利於Journey Optimizer使用者的功能：
 
-A **重新設計的歷程畫布** 打造現代化的UI體驗A **即時報告** 歷程畫布中直接可用的UI
+* A **重新設計的歷程畫布** 打造現代化的UI體驗
+* A **即時報告** 歷程畫布中直接可用的UI
 
 ## 歷程模型的更新
 
