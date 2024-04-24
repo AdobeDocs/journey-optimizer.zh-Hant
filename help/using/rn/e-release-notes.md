@@ -8,7 +8,7 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 409aaf7f8458a118e0f8d3aae481c2af047b3251
+source-git-commit: 3c9619c25f3e70e492e3fbb35521e10a66537a6a
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 32%
@@ -141,10 +141,6 @@ ht-degree: 32%
 
 此發行版本隨附下列改進項目。
 
-<!--
-* **ExD reporting in AEP**: TBD
--->
-
 **對象**
 
 * 您現在可以將受眾構成的受眾和屬性與Healthcare Shield和Privacy &amp; Security Shield搭配使用。
@@ -175,9 +171,6 @@ ht-degree: 32%
 
 從Beta版到路易斯安那州，已進行下列改進：
 
-<!-- TO CONFIRM * Experience Decisioning left navigation menus have been renamed:
-    * "Items" is now "Catalogs"
-    * "Configuration" is now "Strategy setup"-->
 * 您現在可以使用在決策規則中利用Adobe Experience Platform的內容資料 **內容資料** 標籤。
 * 決策管理資源現在有新的「管理體驗決策」許可權可用。 它可讓您管理與Experience Decisioning相關的許可權。
 * 您現在可以為一個選件新增多個上限規則。 這可讓您針對活動內容傳送方式提高控制等級。
