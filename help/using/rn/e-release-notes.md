@@ -8,9 +8,9 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 281387d650dc3a6c67ba365cd804f2b875dcd60b
+source-git-commit: 882af161383a54a1f9b09d2a8d0cab84abbf7dcd
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '502'
 ht-degree: 34%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 34%
 
 **體驗決策**
 
-從Beta版到路易斯安那州，已進行下列改進：
+從Beta版到LA版，已新增下列改善功能：
 
 * 您現在可以使用在決策規則中利用Adobe Experience Platform的內容資料 **內容資料** 標籤。
 * 決策管理資源現在有新的「管理體驗決策」許可權可用。 它可讓您管理與Experience Decisioning相關的許可權。
@@ -174,12 +174,12 @@ ht-degree: 34%
 
 **歷程**
 
-* **改善的歷程設計器**：
+* **改善的歷程設計器**
 
    * 改良後的畫布UI提供更直覺且有效率的使用者體驗。
    * 活動會更清楚，且透過較少的點按就能在歷程畫布上呈現更多資訊。
 
-* **新即時報告**：現在可透過應用程式即時報告存取歷程報告。 此應用程式可為歷程執行提供許多深入分析。
+* **新即時報告**：過去24小時的歷程報告現在可直接在歷程畫布中存取。
 
 **設定**
 
