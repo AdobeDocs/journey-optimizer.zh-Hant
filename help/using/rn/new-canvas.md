@@ -8,21 +8,14 @@ description: 新的歷程介面
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: eb964ee9fb0891692adf5b5a9143ef2d6ad450ac
+source-git-commit: 59f41003183e155632124fde294bea575fb0f493
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '558'
 ht-degree: 1%
 
 ---
 
 # 歡迎使用改良的歷程設計器 {#new-canvas}
-
->[!CONTEXTUALHELP]
->id="ajo_new_canvas"
->title="新增功能？"
->abstract="新的畫布"
-
-歡迎使用改良的歷程設計器！
 
 我們已開發 **簡化的歷程模型** 旨在改善內部流程。 雖然此新模式為後端改進，但我們的團隊趁機新增可看到並有利於Journey Optimizer使用者的功能：
 
