@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 69%
+ht-degree: 51%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="建立組合"
->abstract="建立組合工作流程，以將現有的 Adobe Experience Platform 對象合併到視覺化畫布中，並利用各種活動 (分割、排除...) 建立新的對象。"
+>abstract="建立構成工作流程，將現有Adobe Experience Platform對象合併到視覺畫布中，並利用各種活動（分割、排除……）來建立新對象。"
 
 >[!BEGINSHADEBOX]
 
@@ -28,7 +28,7 @@ ht-degree: 69%
 
 >[!ENDSHADEBOX]
 
-對象組合可讓您建立&#x200B;**組合工作流程**，您可以將現有的 Adobe Experience Platform 對象結合至視覺畫布，並善用各種活動 (分割、排除……) 來建立新對象。
+對象構成可讓您建立 **組合工作流程**，您可以將現有的Adobe Experience Platform對象合併到視覺畫布中，並利用各種活動（分割、排除……）來建立新對象。
 
 完成後， **產生的對象** 連同現有受眾一起儲存至Adobe Experience Platform中，並可在Journey Optimizer行銷活動和歷程中運用於鎖定客戶。 [瞭解如何在Journey Optimizer中鎖定對象](../audience/about-audiences.md#segments-in-journey-optimizer)
 
