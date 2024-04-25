@@ -8,9 +8,9 @@ description: 新的歷程介面
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 59f41003183e155632124fde294bea575fb0f493
+source-git-commit: 55e002b00d0b605a868088fa3f5e1a15be64800c
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ v1中的所有歷程都將保留在v1。 您仍可編輯、測試或發佈這些
 
 ![](assets/new-canvas.png)
 
-不過，當您在&#x200B;**建立新歷程** 或 **複製現有的一個**，這將是v2歷程。  我們計畫繼續支援v1歷程，直到大多數客戶轉換為v2歷程為止。
+然而，當您 **建立新歷程** 或 **複製現有的一個**，這將是v2歷程。  我們計畫繼續支援v1歷程，直到大多數客戶轉換為v2歷程為止。
 
 新歷程模型有一個限制；它會 **無法將活動從v1歷程複製並貼到v2，反之亦然**. 如果您想要這麼做，我們建議您複製v1歷程，使其成為v2，然後複製您的活動。
 
