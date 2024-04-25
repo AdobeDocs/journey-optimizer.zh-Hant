@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: d7b784f10e267878fd0df9360ed0d1be24699a53
+source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '485'
 ht-degree: 19%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 19%
 
 ## 封鎖清單 {#sms-blocklists}
 
-除了Adobe Journey Optimizer根據選擇退出狀態（用於與Twilio或Sinch直接整合）停止傳送外，大部分的SMS閘道提供者也會維護封鎖清單，確保SMS訊息不會傳送給選擇退出的個人。 如果您使用Sinch或Twilio以外的提供者，並透過傳送簡訊 [自訂頻道](../building-journeys/using-custom-actions.md)，您必須向提供者確認。
+除了Adobe Journey Optimizer根據選擇退出狀態（用於與Twilio、Infobip或Sinch直接整合）停止傳送外，大部分的簡訊閘道提供者也會維護封鎖清單，確保您不會將簡訊傳送給選擇退出的個人。 如果您使用Sinch或Twilio以外的提供者，並透過傳送簡訊 [自訂頻道](../building-journeys/using-custom-actions.md)，您必須向提供者確認。
 
 
 ## 短程式碼 {#short-codes}
