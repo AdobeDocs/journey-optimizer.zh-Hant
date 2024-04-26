@@ -6,10 +6,10 @@ description: Journey Optimizer 搶先發行說明
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f133a33237fccacbf800de445c27684de4f42453
+source-git-commit: 4257fafef5d6c6f5f9c7f4af9c9b06510b1e9037
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 33%
+source-wordcount: '261'
+ht-degree: 57%
 
 ---
 
@@ -42,22 +42,22 @@ ht-degree: 33%
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>體驗決策 — 有限可用性</strong><br/></th>
+<th><strong>Experience Decisioning - Limited Availability</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Experience Decisioning透過提供稱為「決策專案」的行銷優惠集中目錄和複雜的決策引擎，簡化了個人化。 此引擎運用規則和排名條件來選取最相關的決定專案，並將之呈現給每個人。</p>
-<p>這些決策專案透過新的程式碼型體驗管道(現在可在Journey Optimizer促銷活動中存取)無縫整合到廣泛的傳入介面。 Experience Decisioning決定原則僅適用於程式碼型體驗行銷活動。</p>
-<p>Experience Decisioning目前僅適用於一組組織（可用性限制）。 若要取得存取權，請聯絡您的Adobe代表。</p>
+<p>Experience Decisioning simplifies personalization by offering a centralized catalog of marketing offers known as 'decision items' and a sophisticated decision engine. This engine leverages rules and ranking criteria to select and present the most relevant decision items to each individual.</p>
+<p>These decision items are seamlessly integrated into a wide range of inbound surfaces through the new code-based experience channel, now accessible within Journey Optimizer campaigns. Experience Decisioning decision policies are available for use in code-based experience campaigns only.</p>
+<p>Experience Decisioning is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
@@ -85,6 +85,25 @@ ht-degree: 33%
 <td>
 <p>透過簡訊管道，您現在可以傳送多媒體訊息服務 (MMS) 訊息，來與客戶分享影像、GIF 或影片，藉此增強通訊交流。 MMS最初僅適用於Sinch，現在也適用於Infobip和Twilio。</p>
 <img src="assets/do-not-localize/mms.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>改善歷程設計程式和即時報告</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>此版本隨附改善的畫布使用者介面以供歷程使用，並提供更直覺且有效率的使用者體驗。 活動會更清楚，且透過較少的點按就能在歷程畫布上呈現更多資訊。</p>
+<img src="assets/new-canvas3.gif"/>
+<p>除了改良的歷程畫布設計，我們也引進了直接在歷程畫布中檢視過去24小時報告量度的功能。 </p>
+<img src="assets/new-canvas6bis.png"/>
+<p>如需詳細資訊，請參閱<a href="new-canvas.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -156,27 +175,22 @@ ht-degree: 33%
 * **List-Unsubscribe updates**: Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. 
 -->
 
-**決策管理**
+<!--
+**Decision management** 
 
-* 此 **變更記錄** 標籤可讓您檢視對優惠或決定所做的所有變更已移除。 與優惠和決定相關的變更現在可以在以下連結中檢視： **稽核** 功能表。
+* The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu.
 
-**體驗決策**
+**Experience decisionning**
 
-從Beta版到LA版，已新增下列改善功能：
+From beta to LA, the following improvements that have been added:
 
-* 您現在可以使用在決策規則中利用Adobe Experience Platform的內容資料 **內容資料** 標籤。
-* 決策管理資源現在有新的「管理體驗決策」許可權可用。 它可讓您管理與Experience Decisioning相關的許可權。
-* 您現在可以為體驗決策中的指定決策專案新增多個上限規則。 這可讓您針對活動內容傳送方式提高控制等級。
-* 您現在可以使用建立Experience Decisioning行銷活動的自訂報告控制面板 [!DNL Customer Journey Analytics].
+* You can now leverage context data from Adobe Experience Platform in your decision rules using the **Context data** tab.  
+* A new "Manage Experience decisions" permission is now available for the Decision Management resource. It allows you to manage rights related to Experience Decisioning.   
+* You can now add multiple capping rules for a given decision item in Experience Decisioning. This allows you to increase the level of control over the way offers are sent.
+* You can now create custom reporting dashboards of Experience Decisioning campaigns using [!DNL Customer Journey Analytics].
+-->
 
-**歷程**
 
-* **改善的歷程設計器**
-
-   * 改良後的畫布UI提供更直覺且有效率的使用者體驗。
-   * 活動會更清楚，且透過較少的點按就能在歷程畫布上呈現更多資訊。
-
-* **新即時報告**：過去24小時的歷程報告現在可直接在歷程畫布中存取。
 
 **設定**
 
