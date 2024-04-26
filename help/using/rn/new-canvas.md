@@ -8,9 +8,9 @@ description: 新的歷程介面
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 87e3ba96d05d41c87f314773e95eb0fcf0a2cfe3
+source-git-commit: b40ca1f681ebbaf976ab211c96eb2987cc44f5b8
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '567'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ Journey Optimizer現在提供 **簡化的歷程模型** 旨在改善內部流程
 
 現在，活動將以方塊表示，且具有下列功能：
 
-* 代表活動型別的第一行通常會被更多情境式資訊覆寫（例如：在讀取對象上，它將包含所選對象的名稱），或者如果您定義一個活動型別，則會被自訂標籤覆寫。
+* 代表活動型別的第一行通常會被更多情境式資訊覆寫（在讀取對象上，它將包含所選對象的名稱），或者如果您定義一個活動型別，則會被自訂標籤覆寫。
 * 第二行一律代表活動型別。
 
 ![](assets/new-canvas4.png)
