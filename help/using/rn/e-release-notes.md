@@ -6,10 +6,10 @@ description: Journey Optimizer 搶先發行說明
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
+source-git-commit: f133a33237fccacbf800de445c27684de4f42453
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 34%
+source-wordcount: '478'
+ht-degree: 33%
 
 ---
 
@@ -166,7 +166,6 @@ ht-degree: 34%
 
 * 您現在可以使用在決策規則中利用Adobe Experience Platform的內容資料 **內容資料** 標籤。
 * 決策管理資源現在有新的「管理體驗決策」許可權可用。 它可讓您管理與Experience Decisioning相關的許可權。
-* 您現在可以為一個選件新增多個上限規則。 這可讓您針對活動內容傳送方式提高控制等級。
 * 您現在可以為體驗決策中的指定決策專案新增多個上限規則。 這可讓您針對活動內容傳送方式提高控制等級。
 * 您現在可以使用建立Experience Decisioning行銷活動的自訂報告控制面板 [!DNL Customer Journey Analytics].
 
