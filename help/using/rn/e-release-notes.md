@@ -6,7 +6,7 @@ description: Journey Optimizer 搶先發行說明
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d5fa80ee2823131bb69bae0f366b92bf1fae3020
+source-git-commit: 1505c21bb66cb08d6f0d864aa92afb3a04ed3fa5
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 53%
@@ -103,7 +103,7 @@ ht-degree: 53%
 <img src="assets/new-canvas3.gif"/>
 <p>除了改良的歷程畫布設計，我們也引進了直接在歷程畫布中檢視過去24小時報告量度的功能。 </p>
 <img src="assets/new-canvas6bis.png"/>
-<p><br>注意</br>：此變更將逐步推出。 您可能無法立即在環境中看到變更。</p>
+<p><strong>注意</strong>：此變更將逐步推出。 您可能無法立即在環境中看到變更。</p>
 <p>如需詳細資訊，請參閱<a href="new-canvas.md">詳細文件</a>。</p>
 </td>
 </tr>
