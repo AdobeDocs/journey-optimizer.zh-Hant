@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '1786'
 ht-degree: 14%
@@ -38,7 +38,7 @@ Journey Optimizer 可讓您建立行銷優惠 (稱為決定項目)，您可以�
 
 在建立決定專案之前，請確定您已建立 **決定規則** 如果要設定條件以決定要向誰顯示決策專案。 [瞭解如何建立決定規則](rules.md).
 
-若要建立決定專案，請導覽至 **[!UICONTROL 體驗決策]** > **[!UICONTROL 專案]**，然後按一下 **[!UICONTROL 建立專案]** 然後遵循以下各節中詳述的步驟操作。
+若要建立決定專案，請導覽至 **[!UICONTROL 體驗決策]** > **[!UICONTROL 目錄]**，然後按一下 **[!UICONTROL 建立專案]** 然後遵循以下各節中詳述的步驟操作。
 
 ## 定義決定專案的屬性 {#attributes}
 

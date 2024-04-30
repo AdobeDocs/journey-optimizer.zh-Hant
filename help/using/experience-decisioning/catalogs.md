@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 5%
@@ -30,7 +30,7 @@ ht-degree: 5%
 
 在Experience Decisioning中，目錄可作為中央容器來組織決策專案。 每個目錄都會連結至Adobe Experience Platform結構描述，包含可指派給決定專案的所有屬性。
 
-目前，所有已建立的決定專案都已整合至單一「優惠」目錄中，並可透過以下方式存取： **[!UICONTROL 專案]** 功能表。
+目前，所有已建立的決定專案都已整合至單一「優惠」目錄中，並可透過以下方式存取： **[!UICONTROL 目錄]** 功能表。
 
 ![](assets/catalogs-list.png)
 

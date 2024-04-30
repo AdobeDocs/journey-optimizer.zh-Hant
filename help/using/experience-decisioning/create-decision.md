@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: d26b35ea680eae0e71eb3164b4225a49610e1563
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1444'
 ht-degree: 12%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 12%
    >
    >至少需要一個策略。您無法新增超過10個策略。
 
-1. 從 **[!UICONTROL 新增策略]** 畫面，您也可以建立策略。 此 **[!UICONTROL 建立選擇策略]** 按鈕會將您重新導向至 **[!UICONTROL 體驗決策]** > **[!UICONTROL 設定]** 功能表。 [了解更多](selection-strategies.md)
+1. 從 **[!UICONTROL 新增策略]** 畫面，您也可以建立策略。 此 **[!UICONTROL 建立選擇策略]** 按鈕會將您重新導向至 **[!UICONTROL 體驗決策]** > **[!UICONTROL 策略設定]** 功能表。 [了解更多](selection-strategies.md)
 
    ![](assets/decision-code-based-add-strategy.png)
 
