@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 74%
 
 ---
 
@@ -46,29 +46,19 @@ ht-degree: 100%
 
 開始在 Journey Optimizer 建立第一個行銷活動之前，請先檢查下列必要條件：
 
-1. **您需要適當的權限**。行銷活動僅適用於具有行銷活動相關&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;存取權的使用者，例如 Campaign 管理員、Campaign 核准者、Campaign 主管和/或 Campaign 檢視者。
+1. **您需要適當的權限**。行銷活動僅適用於具有行銷活動相關存取許可權的使用者 **[!UICONTROL 產品設定檔]** 例如Campaign管理員、Campaign核准者、Campaign管理員及/或Campaign檢視者。如果您無法存取行銷活動，則必須擴充您的許可權。
 
-   如果您無法存取行銷活動，則必須延長您的權限。 如果您有權存取貴組織的 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}，請依照下列步驟操作。否則請聯絡您的 Journey Optimizer 管理員。
+   +++瞭解如何指派行銷活動相關角色
 
-   +++了解如何指派行銷活動權限
+   1. 若要在中指派角色給使用者 [!DNL Permissions] 產品，導覽至 **[!UICONTROL 角色]** 索引標籤並選取其中一個相關的內建行銷活動 **[!UICONTROL 角色]**：Campaign管理員、Campaign核准者、Campaign管理員或Campaign檢視者。
 
-   若要將對應的&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;指派給使用者：
+   1. 從 **[!UICONTROL 使用者]** 標籤，按一下 **[!UICONTROL 新增使用者]**.
 
-   1. 從 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}，選取 [!DNL Adobe Experience Platform] 產品。
+   1. 輸入使用者的名稱或電子郵件地址，或從清單中選取使用者，然後按一下 **[!UICONTROL 儲存]**.
 
-   1. 瀏覽至&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;索引標籤，選取與內建行銷活動相關的&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;之一：Campaign 管理員、Campaign 核准者、Campaign 經理或 Campaign 檢視者。
+      如果使用者先前未建立，請參閱 [新增使用者檔案](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
-      深入了解 Journey Optimizer 行銷活動&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;及&#x200B;**[!UICONTROL 權限]**，[請參閱本頁面](../administration/ootb-product-profiles.md)。
-
-      ![](assets/do-not-localize/admin_1.png)
-
-   1. 按一下&#x200B;**[!UICONTROL 新增使用者]**，將選定的&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;指派給您的使用者。
-
-      ![](assets/do-not-localize/admin_2.png)
-
-   1. 輸入您的使用者名稱、群組或電子郵件地址，然後按一下&#x200B;**[!UICONTROL 儲存]**。
-
-   您的使用者現在可以存取&#x200B;**[!UICONTROL 行銷互動]**。
+   接著，您的使用者應會收到一封電子郵件，並重新導向至您的執行個體。
 
 +++
 

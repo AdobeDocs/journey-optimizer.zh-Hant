@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
+source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 27%
+source-wordcount: '437'
+ht-degree: 23%
 
 ---
 
@@ -43,6 +43,28 @@ ht-degree: 27%
 ## 體驗決策關鍵步驟 {#steps}
 
 使用Experience Decisioning的主要步驟如下：
+
+1. **指派適當的許可權**. 決定僅適用於可存取體驗決定相關專案的使用者 **[!UICONTROL 角色]** 例如決策管理員。 如果您無法存取決策，則必須擴充您的許可權。
+
+   +++瞭解如何指派決策管理員角色
+
+   1. 若要在中指派角色給使用者 [!DNL Permissions] 產品，導覽至 **[!UICONTROL 角色]** 標籤並選取決策管理員。
+
+      ![](assets/decision_permission_1.png)
+
+   1. 從 **[!UICONTROL 使用者]** 標籤，按一下 **[!UICONTROL 新增使用者]**.
+
+      ![](assets/decision_permission_2.png)
+
+   1. 輸入使用者的名稱或電子郵件地址，或從清單中選取使用者，然後按一下 **[!UICONTROL 儲存]**.
+
+      如果使用者先前未建立，請參閱 [新增使用者檔案](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+
+      ![](assets/decision_permission_3.png)
+
+   接著，您的使用者應會收到一封電子郵件，並重新導向至您的執行個體。
+
++++
 
 1. **設定自訂屬性**：將自訂屬性設定至目錄的結構描述中，以根據您的特定需求量身打造決定專案的目錄。
 
