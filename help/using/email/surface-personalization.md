@@ -43,7 +43,7 @@ ht-degree: 14%
 >id="ajo_surface_dynamic_subdomain_list"
 >title="某些子網域可能不可用"
 >abstract="由於待處理意見回饋循環註冊，某些子網域目前無法選取。此程序可能需要長達 10 個工作天。完成後，您可以從所有可用子網域進行選擇。"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hant/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="開始使用子網域委派"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="開始使用子網域委派"
 
 建立電子郵件介面時，您可以根據特定條件設定動態子網域。
 

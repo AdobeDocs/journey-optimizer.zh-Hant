@@ -32,7 +32,7 @@ ht-degree: 14%
 >id="ajo_decisioning_ai_model_type"
 >title="選擇模式類型"
 >abstract="選取您要建立的 AI 模式類型：「**自動最佳化**」可以根據過去的功能表現來最佳化功能選擇，而「**個人化最佳化**」可根據對象和功能表現來最佳化和個人化功能選擇。"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hant/journey-optimizer/using/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="建立 AI 模型"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="建立 AI 模型"
 
 有兩種型別的AI模型可用於 [!DNL Journey Optimizer]：
 
