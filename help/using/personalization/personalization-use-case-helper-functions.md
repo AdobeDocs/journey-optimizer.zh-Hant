@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，協助程式，使用案例，個人化
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 02fc8825f61bd365b02788bbcd3e0647f5842bfa
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1038'
 ht-degree: 2%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 2%
 1. 建立其結構描述包含 `productListItems` 陣列。
 1. 將此陣列中的所有欄位定義為此事件的裝載欄位。
 
-   進一步瞭解產品清單專案資料型別 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
+   進一步瞭解中的產品清單專案資料型別 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. 建立從此事件開始的歷程。
 1. 新增 **電子郵件** 活動到歷程。

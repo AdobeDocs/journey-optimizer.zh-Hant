@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1872'
 ht-degree: 2%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 2%
     </tr>
 </table>
 
-### 數學函式 {#math-functions}
+### 數學函數 {#math-functions}
 
 <table>
     <tr>
@@ -171,6 +171,9 @@ ht-degree: 2%
     </tr>
     <tr>
     <td><a href="math.md#to-hex-string">至十六進位字串</a></td><td>將任何數字轉換為十六進位字串。</td>
+    </tr>
+    <tr>
+    <td><a href="math.md#to-int">ToInt</a></td><td>將這些型別（數字、雙精度浮點數、整數、長整數、浮點數、短整數、位元組、布林值、字串）轉換成整數。</td>
     </tr>
     <tr>
         <td><a href="math.md#to-percentage">至百分比</a></td><td>此函式將數字轉換為百分比</td>

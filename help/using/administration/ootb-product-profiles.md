@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: 許可權，製作，訊息
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 1cfe9f6cb6e7c3e9a5d9b808c10ae4dfe77a92a2
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 6%
@@ -132,7 +132,7 @@ ht-degree: 6%
 
 | 功能 | 權限 |
 |-|-|
-| 決策管理 | <ul><li>**[!DNL Manage decisions]**：讀取、建立、編輯和刪除決策實體。</li><li>**[!DNL View decisions]**：決策實體的唯讀存取權。</li><li>**[!DNL Manage ranking strategies]**：讀取、建立、編輯和刪除自訂報表，並使用動作功能。</li><li>**[!DNL Publish decisions]**：啟用或停用決策活動。</li></ul> |
+| 決策管理 | <ul><li>**[!DNL Manage decisions]**：讀取、建立、編輯和刪除決策實體。</li><li>**[!DNL View decisions]**：決策實體的唯讀存取權。</li><li>**[!DNL Manage ranking strategies]**：讀取、建立、編輯和刪除自訂報表，並使用動作功能。</li><li>**[!DNL Publish decisions]**：啟用或停用決策活動。</li><!--li>**[!DNL Manage Experience decisions]**: read, create, edit, and delete Experience decisioning entities.</li--></ul> |
 
 ## [!DNL Content Library Manager] {#content-library-manager}
 

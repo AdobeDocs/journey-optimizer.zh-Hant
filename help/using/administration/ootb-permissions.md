@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: 許可權，製作，訊息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
 | 資料擷取 | **[!DNL Manage sources]**：讀取、建立、編輯和停用來源。</br>**[!DNL View sources]**：以唯讀方式存取「目錄」標籤中的可用來源，以及「瀏覽」標籤中的已驗證來源。 |
 | 資料管理 | **[!DNL Manage datasets]**：讀取、建立、編輯和刪除資料集。 結構描述的唯讀存取權。</br>**[!DNL View datasets]**：資料集和結構描述的唯讀存取權。</br>**[!DNL Data monitoring]**：監督資料集和資料流的唯讀存取權。 |
 | 資料模式 | **[!DNL Manage schemas]**：讀取、建立和編輯Experience Data Model (XDM)結構描述。</br>**[!DNL View schemas]**：結構描述的唯讀存取權。</br>**[!DNL Manage relationships]**：讀取、建立、編輯和刪除結構描述關係。</br>**[!DNL Manage identity metadata]**：讀取、建立、編輯和刪除綱要的身分中繼資料。 |
-| 決策管理 | **[!DNL Manage decisions]**：讀取、建立、編輯和刪除決策實體。</br>**[!DNL View decisions]**：優惠方案實體的唯讀存取權。</br>**[!DNL Manage offers]**：讀取、建立、編輯和刪除所有優惠、元件、讀取決定和集合。</br>**[!DNL Manage ranking strategies]**：讀取、建立、編輯和刪除自訂報表，並使用動作功能。</br> |
+| 決策管理 | **[!DNL Manage decisions]**：讀取、建立、編輯和刪除決策實體。</br>**[!DNL View decisions]**：優惠方案實體的唯讀存取權。</br>**[!DNL Manage offers]**：讀取、建立、編輯和刪除所有優惠、元件、讀取決定和集合。</br>**[!DNL Manage ranking strategies]**：讀取、建立、編輯和刪除自訂報表，並使用動作功能。</br><!--**[!DNL Manage Experience decisions]**: read, create, edit, and delete Experience decisioning entities.</br>--> |
 | 目的地 | **[!DNL Manage destinations]**：讀取、建立和刪除目的地啟用流程和目的地帳戶。</br>**[!DNL View destinations]**：以唯讀方式存取「目錄」標籤中的可用目的地，以及「瀏覽」標籤中的已驗證目的地。</br>**[!DNL Activate destinations]**：可讓使用者對現有目的地啟用對象。</br>**[!DNL Activate segment without mapping]**：讓使用者能在不顯示對應步驟的情況下將受眾啟動至現有目的地。 使用者可以在啟動工作流程中新增和移除對象，但無法新增或移除對應的屬性或身分。</br>**[!DNL Manage and activate dataset destination]**：讀取、建立、編輯和停用資料集匯出流程。 還能對已建立的作用中資料集啟用資料。</br>**[!DNL Destination authoring]**：使用Adobe Experience Platform Destination SDK的作者目的地。 |
 | 身分管理 | **[!DNL Manage identity namespaces]**：讀取、建立和編輯身分名稱空間。</br>**[!DNL View identity namespaces]**：以唯讀方式存取身分識別名稱空間。</br>**[!DNL Manage identity settings]**：讀取、建立和編輯身分設定。</br>**[!DNL View identity settings]**：以唯讀方式存取身分設定。</br>**[!DNL View identity graph]**：身分圖的唯讀存取權。 |
 | Journey Optimizer資料庫 | **[!DNL Manage Library Items]**：新增和刪除中儲存的運算式 [!DNL Journey Optimizer] 資料庫。</br>**[!DNL Simulate content]**：存取預覽和校訂的模擬內容選項。 |

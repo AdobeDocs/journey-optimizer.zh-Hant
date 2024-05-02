@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -26,10 +26,6 @@ ht-degree: 100%
 * 在&#x200B;**行銷活動**&#x200B;中。建立行銷活動，選取 SMS 作為您的動作並定義基本設定，然後編輯訊息內容以定義要傳送的 SMS/MMS 訊息。在[此頁面](../campaigns/create-campaign.md#configure)了解如何建立行銷活動。
 
 Adobe Journey Optimizer 會透過 SMS 服務提供者 (或 SMS 閘道提供者) 傳送文字訊息。建立 SMS/MMS 訊息之前，請先使用 Journey Optimizer 設定文字訊息的服務提供者。[了解更多](sms-configuration.md)。
-
->[!IMPORTANT]
->
-> 只有與 **Sinch** 整合時，才支援使用 Adobe Journey Optimizer 傳送多媒體訊息服務 (MMS)。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

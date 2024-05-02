@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 跳轉，活動，歷程，分割，分割
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 9%
+source-wordcount: '842'
+ht-degree: 10%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 9%
 >
 >歷程B也可以透過外部事件觸發。
 
-## 最佳做法和限制
+## 最佳實務和限制
 
 ### 製作
 
@@ -112,7 +112,7 @@ ht-degree: 9%
 
 ## 疑難排解
 
-發佈歷程或處於測試模式時，如果出現以下情況，則會發生錯誤：
+如果發生下列情況，將會發生錯誤：
 * 目標歷程已不存在
 * 目標歷程為草稿、已關閉或已停止
 * 如果目標歷程的第一個事件已變更且對應已中斷

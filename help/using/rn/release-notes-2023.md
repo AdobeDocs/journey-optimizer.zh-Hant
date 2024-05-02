@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '4398'
 ht-degree: 100%
@@ -213,9 +213,9 @@ ht-degree: 100%
 
 **簡訊頻道**
 
-* **選擇加入訊息**&#x200B;和&#x200B;**說明訊息**&#x200B;這兩個新欄位已新增至 API 設定畫面，可讓使用者自訂傳入關鍵字的回應。 請注意，這僅適用於 Sinch 簡訊提供者。 [了解更多](../sms/sms-configuration.md#create-api)
+* **選擇加入訊息**&#x200B;和&#x200B;**說明訊息**&#x200B;這兩個新欄位已新增至 API 設定畫面，可讓使用者自訂傳入關鍵字的回應。 請注意，這僅適用於 Sinch 簡訊提供者。 [了解更多](../sms/sms-configuration.md)
 
-* 簡訊選擇退出不再於頻道層級管理。 現在這是號碼特定功能，亦即如果部分設定檔選擇退出指定號碼或短代碼，您仍可使用其他正用來傳送簡訊的號碼，將訊息傳送給設定檔。 新選項可讓您選取要用於指定表面的&#x200B;**選擇退出號碼**。 [了解更多](../sms/sms-configuration.md#message-preset-sms)
+* 簡訊選擇退出不再於頻道層級管理。 現在這是號碼特定功能，亦即如果部分設定檔選擇退出指定號碼或短代碼，您仍可使用其他正用來傳送簡訊的號碼，將訊息傳送給設定檔。 新選項可讓您選取要用於指定表面的&#x200B;**選擇退出號碼**。 [了解更多](../sms/sms-configuration.md)
 
 **直接郵件頻道**
 

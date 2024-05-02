@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1536'
 ht-degree: 10%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 10%
 
 若要使用測試模式，請遵循下列步驟：
 
-1. 若要啟動測試模式，請啟動 **[!UICONTROL 測試]** 切換，位於右上角。
+1. 若要啟動測試模式，請按一下 **[!UICONTROL 測試模式]** 按鈕，位於右上角。
 
    ![](assets/journeytest1.png)
 

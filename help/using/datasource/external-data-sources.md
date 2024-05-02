@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1526'
-ht-degree: 64%
+source-wordcount: '1531'
+ht-degree: 62%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 64%
 
    >[!NOTE]
    >
-   >請勿使用空格或特殊字元。請勿使用超過 30 個字元。
+   >只允許使用英數字元和底線。 長度上限為30個字元。
 
 1. 新增說明至您的資料來源。此步驟為選填。
 1. 新增外部服務的 URL。在我們的範例中：_https://api.adobeweather.org/weather_。
@@ -86,7 +86,7 @@ ht-degree: 64%
 
    ![](assets/journey28.png)
 
-1. 按一下以為每個API引數集新增欄位群組 **[!UICONTROL 新增欄位群組]**. 請勿在欄位群組名稱中使用空格或特殊字元。在我們的範例中，我們需要建立兩個欄位群組，每個群各有一個參數集（city 及 long/lat）。
+1. 按一下以為每個API引數集新增欄位群組 **[!UICONTROL 新增欄位群組]**. 欄位群組名稱中只允許使用英數字元和底線。 長度上限為30個字元。 在我們的範例中，我們需要建立兩個欄位群組，每個群各有一個參數集（city 及 long/lat）。
 
 在 &quot;long/lat&quot; 參數集中，我們會建立包含下列資訊的欄位群組：
 

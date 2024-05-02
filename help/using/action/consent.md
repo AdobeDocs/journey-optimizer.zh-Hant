@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 原則、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 334527cbad3363b77d14dd447e06d4e8da79daec
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 100%
+source-wordcount: '1330'
+ht-degree: 72%
 
 ---
 
@@ -28,66 +28,64 @@ ht-degree: 100%
 
 例如，您可在 Experience Platform [建立同意原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#consent-policy){target="_blank"}，以排除尚未同意接收電子郵件、推播或簡訊通訊的客戶。
 
-<!--* For the native outbound channels (Email, Push, SMS, Direct mail), the logic is as follows:
+* 對於原生傳出頻道（電子郵件、推播、簡訊、直接郵件），邏輯如下：
 
-    * By default, if a profile has opted out from receiving communications from you, the corresponding profile is excluded from subsequent deliveries.
+   * 根據預設，如果設定檔選擇不接收來自您的通訊，則後續傳送時將排除對應的設定檔。
 
-    * If you have the Adobe **Healthcare Shield** or **Privacy and Security Shield**, you can create a custom consent policy that overrides the default logic. For example, you can define a policy to only send email messages to all individuals who have opted in. In the absence of a custom policy, the default policy applies.
-    
-    To apply a custom policy, you need to define a marketing action in that policy and associate it to a channel surface. [Learn more](#marketing-actions)-->
+   * 如果您有Adobe **Health Shield** 或 **隱私權與安全防護板**，您可以建立自訂同意原則來覆寫預設邏輯。 例如，您可以將原則定義為僅傳送電子郵件訊息給所有已選擇加入的個人。 如果沒有自訂原則，則會套用預設原則。
+
+  若要套用自訂原則，您必須在該原則中定義行銷動作，並將其與管道表面建立關聯。 [了解更多](#surface-marketing-actions)
 
 在 Journey Optimizer 中，您可以將這些同意原則套用至自訂動作。 
 
 * 當您&#x200B;**設定自訂動作**&#x200B;時，您可定義管道與行銷動作。 [了解更多](#consent-custom-action)
 * 當您新增&#x200B;**自訂動作至歷程**，您可定義其他行銷動作。 [了解更多](#consent-journey)
 
-<!--
+## 透過頻道介面利用同意政策 {#surface-marketing-actions}
 
-## Leverage consent policies through channel surfaces {#marketing-actions}
+在 [!DNL Journey Optimizer]，同意由 Experience Platform [同意綱要](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant)處理{target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}。
 
-In [!DNL Journey Optimizer], consent is handled by the Experience Platform [Consent schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}.
+若要修改同意欄位值，您可以建立自訂同意原則，以定義行銷動作和執行該動作的條件。 [進一步瞭解行銷動作](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant#marketing-actions){target="_blank"}
 
-To modify the consent field value, you can create a custom consent policy in which you define a marketing action and the conditions under which that action is performed. [Learn more on marketing actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#marketing-actions){target="_blank"}
+例如，如果您想要建立同意原則，以僅針對同意接收電子郵件通訊的設定檔，請遵循下列步驟。
 
-For example, if you want to create a consent policy to target only profiles who have consented to receive email communications, follow the steps below.
+1. 請確認貴組織已購買Adobe **Health Shield** 或 **隱私權與安全防護板** 附加方案。 [了解更多](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html?lang=zh-Hant){target="_blank"}
 
-1. Make sure your organization has purchased the Adobe **Healthcare Shield** or **Privacy and Security Shield** add-on offerings. [Learn more](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
+1. 在Adobe Experience Platform中，建立自訂原則(從 **[!UICONTROL 隱私權]** > **[!UICONTROL 原則]** 功能表)。 [瞭解如何](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-policy){target="_blank"}
 
-1. In Adobe Experience Platform, create a custom policy (from the **[!UICONTROL Privacy]** > **[!UICONTROL Policies]** menu). [Learn how](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-policy){target="_blank"}
+   <!--![](assets/consent-policy-create.png)-->
 
-    ![](assets/consent-policy-create.png)
+1. 選擇 **[!UICONTROL 同意原則]** 依照以下方式輸入及設定條件。 [瞭解如何設定同意政策](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#consent-policy){target="_blank"}
 
-1. Choose the **[!UICONTROL Consent policy]** type and configure a condition as follows. [Learn how to configure consent policies](https://experienceleague-review.corp.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy){target="_blank"}
+   1. 在 **[!UICONTROL 如果]** 區段，選取 **[!UICONTROL 電子郵件目標定位]** 預設行銷動作。
 
-    1. Under the **[!UICONTROL If]** section, select the **[!UICONTROL Email Targeting]** default marketing action.
+      <!--![](assets/consent-policy-marketing-action.png)-->
 
-        ![](assets/consent-policy-marketing-action.png)
+      >[!NOTE]
+      >
+      >中列出各Adobe提供的現成核心行銷動作 [此表格](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions){target="_blank"}. The steps to create a custom marketing action are listed in [this section](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-marketing-action){target="_blank"}.
 
-        >[!NOTE]
-        >
-        >The core marketing actions provided out-of-the-box by Adobe are listed in [this table](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions){target="_blank"}. The steps to create a custom marketing action are listed in [this section](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-marketing-action){target="_blank"}.
+   1. 選取套用行銷動作時會發生的情況。 在此範例中，選取 **[!UICONTROL 電子郵件行銷同意]**.
 
-    1. Select what happens when the marketing action applies. In this example, select **[!UICONTROL Email Marketing Consent]**.
+   ![](assets/consent-policy-then.png)
 
-    ![](assets/consent-policy-then.png)
+1. 儲存並 [啟用](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#enable){target="_blank"} 此原則。
 
-1. Save and [enable](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#enable){target="_blank"} this policy.
+1. 在Journey Optimizer中，建立電子郵件表面。 [了解作法](../configuration/channel-surfaces.md#create-channel-surface)
 
-1. In Journey Optimizer, create an email surface. [Learn how](../configuration/channel-surfaces.md#create-channel-surface)
+1. 在電子郵件表面詳細資訊中，選取 **[!UICONTROL 電子郵件目標定位]** 行銷動作。
 
-1. In the email surface details, select the **[!UICONTROL Email Targeting]** marketing action.
+   ![](assets/surface-marketing-action.png)
 
-    ![](assets/surface-marketing-action.png)
+所有與該行銷動作相關的同意政策都會自動運用，以尊重客戶的偏好設定。
 
-All consent policies associated with that marketing action are automatically leveraged in order to respect the preferences of your customers.
-
-Therefore, in this example, any [email](../email/create-email.md) using that surface in a campaign or a journey is only sent to the profiles who have consented to receive emails from you. Profiles who have not consented to receive email communications are excluded.-->
+因此，在此範例中，任何 [電子郵件](../email/create-email.md) 在行銷活動或歷程中使用該介面只會傳送給同意接收您電子郵件的設定檔。 未同意接收電子郵件通訊的設定檔會被排除。
 
 ## 透過自訂動作運用同意政策 {#journey-custom-actions}
 
 ### 重要備註 {#important-notes}
 
-在 Journey Optimizer，您<!--also -->可在自訂動作利用同意。 如果您想將其與內建訊息功能搭配使用，您需使用條件活動來篩選歷程客戶。
+在Journey Optimizer中，自訂動作中也可運用同意。 如果您想將其與內建訊息功能搭配使用，您需使用條件活動來篩選歷程客戶。
 
 同意管理會分析兩種歷程活動：
 

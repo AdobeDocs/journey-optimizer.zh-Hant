@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '467'
 ht-degree: 19%
 
 ---
@@ -59,14 +59,6 @@ ht-degree: 19%
 英數字元寄件者 ID 僅用於單向傳訊，無法接收傳入訊息。 因此，Adobe Journey Optimizer的SMS STOP、START、HELP關鍵字不適用於Alpha傳送者ID。 您必須提供其他指示，如寫入支援團隊、呼叫支援電話熱線或傳送文字訊息給其他電話號碼或程式碼，以允許使用者選擇退出透過英數字元寄件者 ID 傳送的訊息。
 
 ## 影片 {#video-sms}
-
-* 以下影片說明原生輸入關鍵字支援（START、STOP和UNSTOP）如何用於SMS。
-
-+++ 觀看影片
-
-  >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
-
-+++
 
 * 以下影片可協助您瞭解如何設定簡訊的雙重選擇加入。
 

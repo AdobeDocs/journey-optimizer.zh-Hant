@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 22%
+source-wordcount: '1450'
+ht-degree: 21%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 22%
 
    >[!NOTE]
    >
-   >請勿使用空格或特殊字元。請勿使用超過 30 個字元。
+   >只允許使用英數字元和底線。 長度上限為30個字元。
 
 1. 新增說明至您的動作。 此步驟為選填。
 1. 使用此動作的歷程次數會顯示在 **[!UICONTROL 使用位置]** 欄位。 您可以按一下 **[!UICONTROL 檢視歷程]** 按鈕來顯示使用此動作的歷程清單。

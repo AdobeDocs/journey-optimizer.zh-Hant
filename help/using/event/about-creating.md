@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，單一，建立，歷程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 13%
+source-wordcount: '1605'
+ht-degree: 12%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >請勿使用空格或特殊字元。請勿使用超過 30 個字元。
+   >只允許使用英數字元和底線。 長度上限為30個字元。
 
 1. 在 **[!UICONTROL 型別]** 欄位，選擇 **單一**.
 

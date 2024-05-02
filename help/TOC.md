@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c14ed9196d003cee893eb809a0edbdeebe36555f
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 99%
+source-wordcount: '1786'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 99%
    + [早期發行說明](using/rn/early-release-notes.md)
    + [最新發行說明](using/rn/release-notes.md)
    + 舊版版本注意事項 {#previous-rn-new}
+      + [2024 年發行說明](using/rn/release-notes-2024.md)
       + [2023 年發行說明](using/rn/release-notes-2023.md)
       + [2022 年發行說明](using/rn/release-notes-2022.md)
       + [2021 年發行說明](using/rn/release-notes-2021.md)
@@ -165,6 +166,7 @@ ht-degree: 99%
          + [使用自訂動作以動態方式傳遞集合](using/building-journeys/collections.md)
          + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
          + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
+         + [使用自訂動作在Experience Platform中寫入歷程事件](using/building-journeys/custom-action-aep.md)
 + 行銷活動{#campaigns}
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
    + [建立行銷活動](using/campaigns/create-campaign.md)
@@ -224,12 +226,16 @@ ht-degree: 99%
       + [Mobile 上線快速入門工作流程](using/push/mobile-onboarding-wf.md)
 + SMS / MMS 通道{#sms}
    + [開始使用文字訊息](using/sms/get-started-sms.md)
-   + [建立文字訊息。](using/sms/create-sms.md)
-   + [建立 MMS 訊息](using/sms/create-mms.md)
+   + [建立文字簡訊 (SMS/MMS)](using/sms/create-sms.md)
    + [檢查並傳送文字訊息](using/sms/send-sms.md)
    + [管理文字訊息的選擇退出](using/sms/sms-opt-out.md)
-   + [設定簡訊頻道](using/sms/sms-configuration.md)
    + [設定簡訊子網域](using/sms/sms-subdomains.md)
+   + 設定簡訊/多媒體簡訊頻道{#configure-sms}
+      + [開始使用簡訊設定](using/sms/sms-configuration.md)
+      + [設定Sinch提供者](using/sms/sms-configuration-sinch.md)
+      + [設定Infobip提供者](using/sms/sms-configuration-infobip.md)
+      + [設定Twilio提供者](using/sms/sms-configuration-twilio.md)
+      + [建立簡訊表面](using/sms/sms-configuration-surface.md)
 + 直接郵件 {#direct-mail}
    + [開始使用直接郵件](using/direct-mail/get-started-direct-mail.md)
    + [建立直接郵件](using/direct-mail/create-direct-mail.md)

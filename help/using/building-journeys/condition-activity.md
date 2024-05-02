@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 活動，條件，畫布，歷程
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 17%
@@ -154,11 +154,10 @@ ht-degree: 17%
 若要在歷程條件中使用對象，請遵循下列步驟：
 
 1. 開啟歷程，拖放 **[!UICONTROL 條件]** 活動並選擇 **資料來源條件**.
-   ![](assets/journey47.png)
-
-1. 按一下 **[!UICONTROL 新增路徑]** 以取得所需的每個額外路徑。 對於每個路徑，按一下 **[!UICONTROL 運算式]** 欄位。
 
    ![](assets/segment3.png)
+
+1. 按一下 **[!UICONTROL 新增路徑]** 以取得所需的每個額外路徑。 對於每個路徑，按一下 **[!UICONTROL 運算式]** 欄位。
 
 1. 在左側，展開 **[!UICONTROL 受眾]** 節點。 拖放您要用於條件的對象。 依預設，對象的條件為true。
 

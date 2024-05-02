@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: 物件，層級，存取，控制，標籤， olac，授權
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '417'
 ht-degree: 12%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 12%
 * 選件
 * 靜態優惠收藏
 * 優惠決定
+* 頻道介面
 
 其目的是保護敏感數位資產，使其免受未經授權使用者的侵害，進而保護個人資料。
 

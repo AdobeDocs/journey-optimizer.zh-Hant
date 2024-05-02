@@ -6,14 +6,14 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '243'
 ht-degree: 6%
 
 ---
 
-# 數學函式 {#math}
+# 數學函數 {#math}
 
 瞭解如何在運算式編輯器中使用數學函式。
 
@@ -95,6 +95,24 @@ ht-degree: 6%
 
 ```sql
 {%= toHexString(158) %}
+```
+
+## 到Int {#to-int}
+
+此 `toInt` 函式可用來將任何這些型別（數字、雙精度、整數、長整數、浮點數、短整數、位元組、布林值、字串）轉換為整數。
+
+**語法**
+
+```sql
+{%= toInt(<valueToConvert>) %}: integer
+```
+
+**範例**
+
+此查詢傳回42,6的整數值，即42。
+
+```sql
+{%= toInt(42.6) %}: integer
 ```
 
 ## 至百分比 {#to-percentage}

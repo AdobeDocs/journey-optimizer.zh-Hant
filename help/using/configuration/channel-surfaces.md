@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 管道，表面，技術，引數，最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1738'
 ht-degree: 10%
 
 ---
@@ -68,6 +68,8 @@ ht-degree: 10%
    >
    > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線 `_`，點`.` 和連字型大小 `-` 個字元。
 
+1. 若要將自訂或核心資料使用標籤指派至表面，您可以選取 **[!UICONTROL 管理存取權]**. [深入瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md).
+
 1. 如果您已選取 **[!UICONTROL 電子郵件]** 頻道，請依照中的說明進行設定 [本節](../email/email-settings.md).
 
    ![](assets/preset-email.png)
@@ -80,7 +82,7 @@ ht-degree: 10%
    >
    >有關如何設定環境以傳送推播通知的詳細資訊，請參閱 [本節](../push/push-gs.md).
 
-1. 對於 **[!UICONTROL 簡訊]** 管道，定義您的設定，如所述 [本節](../sms/sms-configuration.md#message-preset-sms).
+1. 對於 **[!UICONTROL 簡訊]** 管道，定義您的設定，如所述 [本節](../sms/sms-configuration.md).
 
    ![](assets/preset-sms.png)
 
@@ -88,18 +90,17 @@ ht-degree: 10%
    >
    >有關如何設定環境以傳送SMS訊息的詳細資訊，請參閱 [本節](../sms/sms-configuration.md).
 
-<!--
-1. Select a **[!UICONTROL Marketing action]** to associate consent policies to the messages using this surface. All consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers. [Learn more](../action/consent.md#marketing-actions)
+1. 選取 **[!UICONTROL 行銷動作]** 使用此介面將同意原則與訊息建立關聯。 系統會運用與該行銷動作相關的所有同意政策，以尊重客戶的偏好設定。 [了解更多](../action/consent.md#surface-marketing-actions)
 
-    >[!NOTE]
-    >
-    >Consent policies are currently only available for organizations that have purchased the **Healthcare Shield** and **Privacy and Security Shield** add-on offerings. [Learn more](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
+   >[!NOTE]
+   >
+   >同意原則目前僅適用於已購買 **Health Shield** 和 **隱私權與安全防護板** 附加方案。
 
-    ![](assets/surface-marketing-action.png)
+   ![](assets/surface-marketing-action.png)
 
-    >[!NOTE]
-    >
-    >You can only select one marketing action.-->
+   >[!NOTE]
+   >
+   >您只能選取一個行銷動作。
 
 1. 設定好所有引數後，按一下 **[!UICONTROL 提交]** 以確認。 您也可以將管路曲面儲存為草繪，並稍後恢復其組態。
 

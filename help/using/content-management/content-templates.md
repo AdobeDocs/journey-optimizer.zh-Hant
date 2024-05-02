@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1411'
 ht-degree: 10%
 
 ---
@@ -197,10 +197,6 @@ ht-degree: 10%
 ## 測試電子郵件內容範本 {#test-template}
 
 您可以測試部分電子郵件範本的轉譯，無論是從草稿建立還是從現有內容建立。 若要執行此操作，請遵循下列步驟。
-
->[!CAUTION]
->
->目前測試的內容範本僅適用於 **[!UICONTROL 電子郵件]** 範本與 **[!UICONTROL HTML]** 型別。
 
 1. 透過存取內容範本清單 **[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]** 功能表並選取任何電子郵件範本。
 

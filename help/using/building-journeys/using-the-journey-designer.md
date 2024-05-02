@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 設計，畫布，歷程，介面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1644'
 ht-degree: 5%
 
 ---
@@ -59,7 +59,7 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 ![](assets/journey59bis.png)
 
-根據歷程的狀態，您可以使用右上角的按鈕對歷程執行不同的動作： **[!UICONTROL 發佈]**， **[!UICONTROL 複製]**， **[!UICONTROL 刪除]**， **[!UICONTROL 歷程屬性]**， **[!UICONTROL 測試]**. 未選取任何活動時，這些按鈕就會顯示。 有些按鈕會根據內容顯示。 測試模式啟動時，測試模式記錄按鈕出現。
+根據歷程的狀態，您可以使用右上角的按鈕對歷程執行不同的動作： **[!UICONTROL 發佈]**， **[!UICONTROL 複製]**， **[!UICONTROL 刪除]**， **[!UICONTROL 測試模式]**， **[!UICONTROL 管理存取權]**， **[!UICONTROL 警報]**. 未選取任何活動時，這些按鈕就會顯示。 有些按鈕會根據內容顯示。 測試模式啟動時，測試模式記錄按鈕出現。
 
 ![](assets/journey41.png)
 

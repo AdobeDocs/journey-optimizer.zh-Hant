@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 設定檔，更新，歷程，活動
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 9010b173eb5126fff72d71aa582b265cc05fddf0
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '610'
 ht-degree: 6%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 6%
 
 ## Recommendations
 
-* 此 **更新設定檔** 動作只能用於以具有名稱空間的事件開始的歷程。
+* 此 **更新設定檔** 動作只能用於具有名稱空間的歷程中。
 * 該動作只會更新現有欄位，不會建立新的設定檔欄位。
 * 您無法使用 **更新設定檔** 產生體驗事件的動作，例如購買。
 * 如同任何其他動作，您可以定義發生錯誤或逾時時的替代路徑，而且您無法同時放置兩個動作。

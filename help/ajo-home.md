@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 55d9b8f0fc7e048c9f9cb506d8153f27595aaa3f
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 88%
 
 ---
 
@@ -20,27 +20,27 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB 3 月版本已上線！]
+>[!TAB 4月版本已上線！]
 
 探索 Adobe Journey Optimizer 24.3 發行版本包含的新功能和改進項目。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB 程式碼型體驗]
+>[!TAB 新的歷程體驗]
 
-透過新的程式碼型體驗管道，Adobe Journey Optimizer 可讓您針對任何傳入屬性進行進階個人化及測試，跨不同接觸點 (例如網頁應用程式、行動應用程式、桌面應用程式、視訊主控台、電視連結的裝置、智慧型電視、資訊站、ATM、IoT 裝置等) 達成量身打造的無縫傳遞體驗。
+此版本隨附改善的畫布使用者介面以供歷程使用，並提供更直覺且有效率的使用者體驗。 活動更清晰明瞭，只需更少的點按次數就能在 Canvas 歷程上呈現更多資訊。
 
-![](using/rn/assets/do-not-localize/code-based.gif)
+![](using/rn/assets/new-canvas3.gif)
 
-[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/code-based/get-started-code-based.md)
+[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/new-canvas.md)
 
->[!TAB 網頁應用程式內傳訊]
+>[!TAB 適用於所有提供者的MMS]
 
-現在您可以使用新的網頁應用程式內訊息功能，透過模態疊加訊息直接在網站上顯示個人化內容。此功能可讓您有效地與網路訪客互動，從而增強使用者互動、保留率和轉換率。
+透過簡訊管道，您現在可以傳送多媒體訊息服務 (MMS) 訊息，來與客戶分享影像、GIF 或影片，藉此增強通訊交流。 MMS最初僅適用於Sinch，現在也適用於Infobip和Twilio。
 
-![](using/rn/assets/do-not-localize/web_inapp.gif)
+![](using/rn/assets/do-not-localize/mms.gif)
 
-[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
+[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/sms/get-started-sms.md)
 
 >[!ENDTABS]
 

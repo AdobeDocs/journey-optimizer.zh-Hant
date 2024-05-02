@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2004'
 ht-degree: 16%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 16%
 
 根據歷程的狀態、型別、版本和指派的標籤來篩選歷程，從 **[!UICONTROL 狀態和版本篩選器]**.
 
-型別可以是： **[!UICONTROL 單一事件]**， **[!UICONTROL 對象資格]**， **[!UICONTROL 讀取對象]**， **[!UICONTROL 業務事件]** 或 **[!UICONTROL 高載]**.
+型別可以是： **[!UICONTROL 單一事件]**， **[!UICONTROL 對象資格]**， **[!UICONTROL 讀取對象]** 或 **[!UICONTROL 業務事件]**.
 
 該狀態有可能是：
 

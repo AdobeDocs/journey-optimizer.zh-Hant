@@ -5,10 +5,8 @@ title: 新的歷程介面
 feature: Release Notes
 topic: Content Management
 description: 新的歷程介面
-hide: true
-hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: b6b3f710d08fb7f0949e75521ce126fa43d6cdc5
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 2%
@@ -68,12 +66,12 @@ Journey Optimizer現在提供 **簡化的歷程模型** 旨在改善使用者體
 
 ![](assets/new-canvas5.png)
 
-
 ## 歷程畫布中的即時報告
 
 除了改良歷程畫布版面配置外，使用者還可以使用新功能檢視即時報告量度 **過去24小時**，稱為即時報告，直接在歷程畫布中。
 
 對於使用新模型的每個即時歷程中的每個活動，您都有權存取：
+
 
 * 進入此活動的設定檔計數。
 * 由於錯誤而退出此活動的設定檔計數。

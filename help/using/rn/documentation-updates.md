@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
-workflow-type: ht
-source-wordcount: '5140'
-ht-degree: 100%
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+workflow-type: tm+mt
+source-wordcount: '5230'
+ht-degree: 98%
 
 ---
 
@@ -19,12 +19,21 @@ ht-degree: 100%
 
 本頁面列出 [!DNL Journey Optimizer] 文件的所有最新更新。
 
+## 2024 年 5 月 {#may-2024}
+
+* 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2024年4月版本的詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
+
+
 ## 2024 年 4 月 {#april-2024}
 
 * 已詳細說明應用程式內傳送訊息設定步驟。 [閱讀全文](../in-app/inapp-configuration.md)
 * 已更新[優惠決策 API](../offers/api-reference/offer-delivery-api/decisioning-api.md) 與[批次決策 API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) 文件。
 * 決策管理文件中新增了有關在邊緣決策 API 使用頻率上限時邊緣與中心區域管理的資訊。[閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
 * 對於使用 API 觸發的行銷活動，已針對利用自訂名稱空間建立身分新增資訊。 [閱讀全文](../campaigns/api-triggered-campaigns.md)
+* 熒幕擷取畫面已更新，以反映改良的Journey Canvas。
+* 已在下列頁面中更新命名限制： [設定單一事件](../event/about-creating.md)， [設定業務事件](../event/about-creating-business.md#gs-business-events)， [設定自訂動作](../action/about-custom-action-configuration.md#configuration-steps)， [外部資料來源](../datasource/external-data-sources.md)
+* 已新增傳送時間最佳化可用性的相關備註。 [閱讀全文](../building-journeys/journeys-message.md#send-time-optimization)
+* 已新增新的技術使用案例，說明如何建立自訂動作，將資料傳送至Experience Platform。 [閱讀全文](../building-journeys/custom-action-aep.md)
 
 ## 2024 年 3 月 {#march-2024}
 
@@ -82,6 +91,7 @@ ht-degree: 100%
 * 已更新事件欄位語法。 下列語法已過時 `@(my_event.myfield}`，並已由 `@event{my_event.myfield}` 取代。[閱讀全文](../building-journeys/expression/field-references.md)
 * 已重新整理「全域報告」和「即時報告」指南。 [閱讀全文](../reports/campaign-global-report.md)
 
++++ 2023
 
 ## 2023 年 11 月 {#nov-2023}
 
@@ -206,6 +216,8 @@ ht-degree: 100%
 * 已新增備註，說明使用物件陣列進行查詢的限制。[閱讀全文](../event/experience-event-schema.md#relationships_limitations)
 * 在[!DNL Journey Optimizer]中新增有關資料管理的新頁面。[閱讀全文](../data/gs-data.md)
 * 新增表格，列出使用 Decisioning API 傳送優惠時，回應中可傳回的所有程式碼。[閱讀全文](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+
++++
 
 +++ 2022
 
