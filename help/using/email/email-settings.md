@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: e63823dc2f901b870f11b0478e682e2af61b5b98
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '2373'
-ht-degree: 11%
+source-wordcount: '2415'
+ht-degree: 10%
 
 ---
 
@@ -38,62 +38,60 @@ ht-degree: 11%
 >
 >更新的電子郵件表面設定將在使用表面的歷程或行銷活動中自動擷取。
 
-## 電子郵件類型 {#email-type}
+## 電子郵件型別 {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="定義電子郵件類別"
+>title="定義電子郵件型別"
 >abstract="選取使用此表面時將傳送的電子郵件類型：促銷用電子郵件的行銷型 (需要使用者同意)，或非商業電子郵件的交易型 (還可以傳送至特定內容中取消訂閱的設定檔)。"
 
-在 **電子郵件型別** 區段，選取將與介面一起傳送的訊息型別： **[!UICONTROL 行銷]** 或 **[!UICONTROL 異動]**.
+在 **電子郵件型別** 部分，選取曲面的訊息型別： **[!UICONTROL 行銷]** 或 **[!UICONTROL 異動]**.
 
-* 選擇 **行銷** 促銷電子郵件，例如零售商店的每週促銷活動。 這些訊息需要使用者同意。
+* 選取 **行銷** 促銷電子郵件，例如零售商店的每週促銷活動。 這些訊息需要使用者同意。
 
-* 選擇 **異動** 用於非商業電子郵件，例如訂單確認、密碼重設通知或傳遞資訊。 這些電子郵件可以傳送給設定檔 **已取消訂閱** 來自行銷通訊。 這些訊息只能在特定內容中傳送。
+* 選取 **異動** 用於非商業電子郵件，例如訂單確認、密碼重設通知或傳遞資訊。 這些電子郵件可以傳送給設定檔 **已取消訂閱** 來自行銷通訊。 這些訊息只能在特定內容中傳送。
 
 建立訊息時，您必須選擇符合您為電子郵件選取之類別的有效管道表面。
 
-## 子網域和IP集區 {#subdomains-and-ip-pools}
+## 子網域 {#subdomains}
 
-在 **子網域和IP集區** 區段，依照以下指示填寫必填欄位。
+選取要用來傳送電子郵件的子網域。
 
-1. 選取要用來傳送電子郵件的子網域。
-
-   為了維護您網域的聲譽，請加快IP暖身過程並改善傳遞能力，將您的傳送子網域委派給Adobe。 [了解更多](../configuration/about-subdomain-delegation.md)
+為了維護您網域的聲譽，請加快IP暖身過程並改善傳遞能力，將您的傳送子網域委派給Adobe。 [了解更多](../configuration/about-subdomain-delegation.md)
 
 <!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
 
-1. 選取要與表面關聯的IP集區。 [了解更多](../configuration/ip-pools.md)
 
-   ![](assets/preset-subdomain-ip-pool.png)
+## IP集區詳細資料 {#ip-pools}
 
-   當選取的IP集區位於下方時，您無法繼續建立表面 [版本](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL 處理中]** 狀態)，且從未與所選子網域建立關聯。 否則，系統仍會使用IP集區/子網域關聯的最舊版本。 如果是這種情況，請將表面儲存為草稿，並在IP池具有 **[!UICONTROL 成功]** 狀態。
 
-   >[!NOTE]
-   >
-   >對於非生產環境，Adobe不會建立立即可用的測試子網域，也不會授予共用傳送IP集區的存取權。 您需要 [委派您自己的子網域](../configuration/delegate-subdomain.md) 並使用指派給貴組織的集區中的IP。
+選取要與表面關聯的IP集區。 [了解更多](../configuration/ip-pools.md)
 
-1. 選取IP集區後，當游標停留在IP集區下拉式清單下方顯示的IP位址上時，會顯示PTR資訊。 [深入瞭解PTR記錄](../configuration/ptr-records.md)
+![](assets/preset-subdomain-ip-pool.png){width="50%" align="left"}
 
-   ![](assets/email-surface-ptr-record.png)
+當選取的IP集區位於下方時，您無法繼續建立表面 [版本](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL 處理中]** 狀態)，且從未與所選子網域建立關聯。 否則，系統仍會使用IP集區/子網域關聯的最舊版本。 如果是這種情況，請將表面儲存為草稿，並在IP池具有 **[!UICONTROL 成功]** 狀態。
 
-   >[!NOTE]
-   >
-   >如果未設定PTR記錄，請聯絡您的Adobe代表。
+>[!NOTE]
+>
+>對於非生產環境，Adobe不會建立立即可用的測試子網域，也不會授予共用傳送IP集區的存取權。 您需要 [委派您自己的子網域](../configuration/delegate-subdomain.md) 並使用指派給貴組織的集區中的IP。
 
-## 清單 — 取消訂閱 {#list-unsubscribe}
+選取IP集區後，當游標停留在IP集區下拉式清單下方顯示的IP位址上時，會顯示PTR資訊。 [深入瞭解PTR記錄](../configuration/ptr-records.md)
+
+>[!NOTE]
+>
+>如果未設定PTR記錄，請聯絡您的Adobe代表。
+
+## 清單取消訂閱 {#list-unsubscribe}
 
 於 [選取子網域](#subdomains-and-ip-pools) 從清單中， **[!UICONTROL 啟用清單取消訂閱]** 選項隨即顯示。
 
-![](assets/preset-list-unsubscribe.png)
-
-此選項已預設啟用。
-
-如果您將其保留為啟用，則取消訂閱連結會自動包含在電子郵件標題中，例如：
+此選項預設為啟用。 如果您將其保留為啟用，則取消訂閱連結會自動包含在電子郵件標題中，例如：
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-如果停用此選項，電子郵件標頭中將不會顯示取消訂閱連結。
+如果停用此選項，則電子郵件標頭不會顯示取消訂閱連結。
+
+您可以從「 」中選擇同意層級 **同意層級** 下拉式清單。 它可特定於通道或設定檔身分。 根據此設定，當使用者使用電子郵件的清單取消訂閱標題連結取消訂閱時，同意會在Adobe Journey Optimizer中以頻道層級或ID層級更新。
 
 取消訂閱連結包含兩個元素：
 
@@ -101,7 +99,7 @@ ht-degree: 11%
 
   在 [!DNL Journey Optimizer]，預設為取消訂閱電子郵件地址 **[!UICONTROL Mailto （取消訂閱）]** 頻道介面中顯示的地址，根據 [選取的子網域](#subdomains-and-ip-pools).
 
-  ![](assets/preset-list-unsubscribe-mailto.png)
+  ![](assets/preset-list-unsubscribe-mailto.png){width="50%" align="left"}
 
 * 此 **取消訂閱URL**，此為登陸頁面的URL，一旦取消訂閱，將會重新導向使用者。
 
@@ -124,13 +122,9 @@ ht-degree: 11%
 在 **[!UICONTROL 標頭引數]** 區段，輸入與該介面所傳送電子郵件型別相關的寄件者名稱和電子郵件地址。
 
 * **[!UICONTROL 寄件者名稱]**：寄件者的名稱，例如您的品牌名稱。
-
 * **[!UICONTROL 寄件者電子郵件]**：您要用於通訊的電子郵件地址。
-
 * **[!UICONTROL 回覆（姓名）]**：收件者按一下 **回覆** 電子郵件使用者端軟體中的「 」按鈕。
-
 * **[!UICONTROL 回覆（電子郵件）]**：收件者按一下 **回覆** 電子郵件使用者端軟體中的「 」按鈕。 [了解更多](#reply-to-email)
-
 * **[!UICONTROL 錯誤電子郵件]**：在此地址上接收ISP在傳送郵件幾天後產生的所有錯誤（非同步退信）。 也會在此地址接收郵件答錄機通知和挑戰回應。
 
   如果您想要在未委派給Adobe的特定電子郵件地址上接收休假通知和挑戰回應，您需要設定 [轉寄處理序](#forward-email). 在此情況下，請確定您有手動或自動化的解決方案來處理傳入此收件匣的電子郵件。
