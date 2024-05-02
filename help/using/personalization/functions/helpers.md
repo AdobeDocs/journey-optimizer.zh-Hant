@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 3b9822121390548546ab6628504ea9dd1101fb48
+source-git-commit: 7e7ff2f6451947d4d52efb2963d940ba3f50819f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '362'
 ht-degree: 4%
 
 ---
@@ -202,7 +202,7 @@ Some edu specific content Content
 
 **範例**
 
-下列範例會允許交易總和大於$100且小於$1000的所有產品總計以美元表示。
+下列範例可讓您計算購物車中價格介於100到1000之間的產品的總價。
 
 ```sql
 {% let sum = 0%}
