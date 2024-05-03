@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 39b2f9efcf84bba5e40ce999950346221a6eb699
 workflow-type: tm+mt
-source-wordcount: '1786'
-ht-degree: 97%
+source-wordcount: '1794'
+ht-degree: 96%
 
 ---
 
@@ -271,10 +271,12 @@ ht-degree: 97%
       + [設定登陸頁面子網域](using/landing-pages/lp-subdomains.md)
       + [定義登陸頁面預設集](using/landing-pages/lp-presets.md)
 + 內容管理 {#content-management}
-   + 使用內容助理{#content-assistant}
-      + [開始使用內容助理](using/content-management/gs-generative.md)
-      + [內容產生](using/content-management/generative-content.md)
-      + [影像產生](using/content-management/generative-image.md)
+   + 使用AI助理{#ai-assistant}
+      + [開始使用 AI 助理](using/content-management/gs-generative.md)
+      + [電子郵件產生](using/content-management/generative-email.md)
+      + [推播產生](using/content-management/generative-push.md)
+      + [簡訊產生](using/content-management/generative-sms.md)
+      + [使用AI助理進行內容實驗](using/content-management/generative-experimentation.md)
    + 使用多語言內容{#content-multilingual}
       + [開始使用多語言內容](using/content-management/multilingual-gs.md)
       + [使用手動翻譯建立多語言內容](using/content-management/multilingual-manual.md)
