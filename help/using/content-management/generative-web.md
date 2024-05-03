@@ -10,9 +10,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: fc6d1caacae3574cc7400ed9c9c634e3ff3cae5a
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1319'
 ht-degree: 5%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 5%
 
 >[!ENDSHADEBOX]
 
-在您建立並個人化電子郵件後，請使用Campaign中由創作AI提供支援的Journey Optimizer AI Assistant，將您的內容提升到新的境界。
+在您建立並個人化電子郵件後，請使用Adobe Journey Optimizer中由創作AI提供支援的AI助理，將您的內容提升到新的境界。
 
 AI Assistant可以建議更可能引起觀眾共鳴的不同內容，協助您最佳化傳送的影響。
 

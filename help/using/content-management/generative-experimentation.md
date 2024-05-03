@@ -10,9 +10,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: fd58a52a652243a411e61c5b83a329f988348265
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 10%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 10%
 
 >[!ENDSHADEBOX]
 
-當您製作好訊息並加以個人化後，請使用Journey Optimizer AI助理提升您的內容，該助理包含內容實驗功能。 此工具可讓您定義多種傳送處理方式、各種內容，以測量目標對象的效能。
+當您製作好訊息並加以個人化後，請使用Adobe Journey Optimizer中的AI助理來提升您的內容，其中包括內容實驗功能。 此工具可讓您定義多種傳送處理方式、各種內容，以測量目標對象的效能。
 
 1. 建立您的行銷活動，並使用AI助理產生您的變體。
 

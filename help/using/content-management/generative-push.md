@@ -10,9 +10,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 45332e96477f83cd1ae9833472a97d2c45bb6ac4
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '976'
 ht-degree: 6%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 6%
 >
 >在開始使用此功能之前，請先閱讀相關的 [護欄和限制](gs-generative.md#generative-guardrails).
 
-在您建立並個人化訊息後，請使用Journey Optimizer AI Assistant將推播通知內容提升到新的境界。
+在您建立並個人化訊息後，請使用Adobe Journey Optimizer中的AI助理將推播通知內容提升到新的境界。
 
 探索以下標籤，瞭解如何使用Journey Optimizer中的AI小幫手。
 
