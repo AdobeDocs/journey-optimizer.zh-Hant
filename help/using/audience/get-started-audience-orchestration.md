@@ -11,7 +11,7 @@ exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 51%
+ht-degree: 59%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="建立組合"
->abstract="建立構成工作流程，將現有Adobe Experience Platform對象合併到視覺畫布中，並利用各種活動（分割、排除……）來建立新對象。"
+>abstract="建立組合工作流程，以將現有的 Adobe Experience Platform 對象合併到視覺化畫布中，並利用各種活動 (分割、排除...) 建立新的對象。"
 
 >[!BEGINSHADEBOX]
 
