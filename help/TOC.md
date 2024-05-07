@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 39b2f9efcf84bba5e40ce999950346221a6eb699
 workflow-type: tm+mt
 source-wordcount: '1794'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
       + [2022 年發行說明](using/rn/release-notes-2022.md)
       + [2021 年發行說明](using/rn/release-notes-2021.md)
    + [文件更新](using/rn/documentation-updates.md)
-   + [改善歷程畫布](using/rn/new-canvas.md)
+   + [改善的歷程畫布](using/rn/new-canvas.md)
 + 快速入門{#get-started}
    + [什麼是 Journey Optimizer](using/start/get-started.md)
    + 快速入門手冊{#quick-start}
@@ -516,7 +516,7 @@ ht-degree: 96%
          + [批次決策 API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Experience Decisioning {#experience-decisioning}
    + [開始使用 Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
-   + 管理決定專案 {#decision-items}
+   + 管理決定項目 {#decision-items}
       + [設定項目目錄](using/experience-decisioning/catalogs.md)
       + [建立決定項目](using/experience-decisioning/items.md)
       + [管理項目集合](using/experience-decisioning/collections.md)
@@ -558,7 +558,7 @@ ht-degree: 96%
    + [支援封存](using/configuration/archiving-support.md)
    + [變更執行地址](using/configuration/primary-email-addresses.md)
    + [設定頻率規則](using/configuration/frequency-rules.md)
-   + [使用商業規則](using/configuration/business-rules.md)
+   + [運用業務規則](using/configuration/business-rules.md)
    + 設定歷程 {#configure-journeys}
       + [關於資料來源、事件和動作](using/configuration/about-data-sources-events-actions.md)
       + 與外部系統整合{#external-systems}
