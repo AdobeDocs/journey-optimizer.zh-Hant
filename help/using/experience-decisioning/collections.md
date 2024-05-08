@@ -5,14 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="限量版"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 50%
+source-wordcount: '370'
+ht-degree: 51%
 
 ---
 
@@ -33,16 +31,6 @@ ht-degree: 50%
 >title="選擇一個集合"
 >abstract="選取包含要考慮的優惠的集合。 建立選擇策略時必須執行此步驟。 集合可讓您根據自己的喜好對決定項目進行分類和分組。 例如，您可以建立一個集合，其中包含在「類別」自訂屬性中具有「瑜珈」值的所有決定項目。"
 
->[!BEGINSHADEBOX 「本檔案指南提供哪些內容」]
-
-* [開始使用 Experience Decisioning](gs-experience-decisioning.md)
-* 管理您的決定專案： [設定專案目錄](catalogs.md) - [建立決定專案](items.md) - **[管理專案集合](collections.md)**
-* 設定專案的選取範圍： [建立決定規則](rules.md) - [建立排名方法](ranking.md)
-* [建立選擇策略](selection-strategies.md)
-* [建立決定原則](create-decision.md)
-
->[!ENDSHADEBOX]
-
 集合可讓您根據自己的喜好對決定項目進行分類和分組。 這些類別是透過制定利用決定項目屬性的規則所建立的。
 
 例如，假設您已將「類別」自訂屬性新增至決定專案的目錄結構描述。 這可讓您建立包含「類別」屬性中具有「瑜伽」值的所有決定專案的集合。
@@ -58,6 +46,7 @@ ht-degree: 50%
    1. 選擇一個項目屬性作為標準。 屬性清單包含在目錄結構描述中定義的所有標準和自訂屬性。 [進一步瞭解專案的目錄](catalogs.md)
    1. 選取所需的運運算元，並輸入篩選依據的值。
    1. 重複這些步驟，視需要新增任意數量的規則。 新增多個規則時，您可以選擇 **與** 和 **或** 運運算元加以組合。 若要這麼做，請按一下運運算元徽章，在兩個選項之間切換。
+   1. 按一下 **[!UICONTROL 預覽集合]** 按鈕以顯示符合您定義之規則的專案。
 
    ![](assets/collection-create.png)
 

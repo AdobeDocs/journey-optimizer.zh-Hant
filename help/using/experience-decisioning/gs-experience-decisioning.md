@@ -5,46 +5,34 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="限量版"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 23%
+source-wordcount: '419'
+ht-degree: 19%
 
 ---
 
 # 開始使用 Experience Decisioning {#get-started-experience-decisioning}
 
->[!BEGINSHADEBOX 「本檔案指南提供哪些內容」]
-
-* **[開始使用體驗決策](gs-experience-decisioning.md)**
-* 管理您的決定專案： [設定專案目錄](catalogs.md) - [建立決定專案](items.md) - [管理專案集合](collections.md)
-* 設定專案的選取範圍： [建立決定規則](rules.md) - [建立排名方法](ranking.md)
-* [建立選擇策略](selection-strategies.md)
-* [建立決定原則](create-decision.md)
-
->[!ENDSHADEBOX]
+>[!AVAILABILITY]
+>
+>體驗決策目前僅可適用於一組組織 (可用性限制)。 若要取得存取權，請和您的 Adobe 代表聯絡。
+>
+>目前，已購買Adobe的客戶無法使用此功能 **Health Shield** 和 **隱私權與安全防護板** 附加方案。
 
 ## 什麼是Experience Decisioning {#about}
 
->[!AVAILABILITY]
->
->體驗決策功能目前僅供特定使用者測試版。 若要加入 Beta 版計畫，請連絡 Adobe 客戶服務。
->
->決定原則僅適用於程式碼型體驗行銷活動。
-
 體驗決策透過提供稱為「決策項目」的集中行銷優惠目錄與複雜的決策引擎來簡化個人化。 此引擎運用規則與排名標準來選取並呈現最相關的決定項目給每個人。
 
-這些決策項目透過新的程式碼型體驗管道無縫整合到廣泛的傳入介面，現在可在 Journey Optimizer 促銷活動中存取。
+這些決策專案透過新的程式碼型體驗管道(現在可在Journey Optimizer促銷活動中存取)無縫整合到廣泛的傳入介面。 Experience Decisioning決定原則僅適用於程式碼型體驗行銷活動。
 
 ## 體驗決策關鍵步驟 {#steps}
 
 使用Experience Decisioning的主要步驟如下：
 
-1. **指派適當的許可權**. 決定僅適用於可存取體驗決定相關專案的使用者 **[!UICONTROL 角色]** 例如決策管理員。 如果您無法存取決策，則必須擴充您的許可權。
+1. **指派適當的許可權**. Experience Decisioning僅供可存取相關Experience Decisioning的使用者使用 **[!UICONTROL 角色]** 例如決策管理員。 如果您無法存取Experience Decisioning，則必須擴充您的許可權。
 
    +++瞭解如何指派決策管理員角色
 
@@ -66,7 +54,7 @@ ht-degree: 23%
 
 +++
 
-1. **設定自訂屬性**：將自訂屬性設定至目錄的結構描述中，以根據您的特定需求量身打造決定專案的目錄。
+1. **設定自訂屬性**：在目錄的結構描述中設定自訂屬性，根據您的特定需求量身打造專案目錄。
 
 1. **建立決定專案** 以向您的目標對象顯示。
 

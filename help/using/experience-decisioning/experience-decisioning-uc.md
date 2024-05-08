@@ -5,27 +5,15 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+badge: label="限量版"
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 10%
+source-wordcount: '330'
+ht-degree: 6%
 
 ---
 
 # Experience decisioning使用案例 {#experience-decisioning-uc}
-
->[!BEGINSHADEBOX 「本檔案指南提供哪些內容」]
-
-* [開始使用 Experience Decisioning](gs-experience-decisioning.md)
-* 管理您的決定專案： [設定專案目錄](catalogs.md) -[建立決定專案](items.md) - [管理專案集合](collections.md)
-* 設定專案的選取範圍： [建立決定規則](rules.md) - [建立排名方法](ranking.md)
-* [建立選擇策略](selection-strategies.md)
-* [建立決定原則](create-decision.md)
-
->[!ENDSHADEBOX]
 
 在此使用案例中，您會定義兩個傳遞處理，每個處理包含不同的決定原則，以評估哪個處理對目標對象執行時效果最佳。
 
@@ -52,11 +40,7 @@ ht-degree: 10%
 
 定義兩個傳遞處理，每個處理包含不同的決定原則。
 
-1. 建立行銷活動並選取 **[!UICONTROL 程式碼型體驗(Beta)]** 動作。 [了解更多](../code-based/create-code-based.md)
-
-   >[!NOTE]
-   >
-   >程式碼型體驗功能目前僅供特定使用者測試版。 若要加入 Beta 版計畫，請連絡 Adobe 客戶服務。
+1. 建立行銷活動並選取 **[!UICONTROL 程式碼型體驗]** 動作。 [了解更多](../code-based/create-code-based.md)
 
 1. 從行銷活動摘要頁面，按一下 **[!UICONTROL 建立實驗]** 以開始設定您的內容實驗。 [了解更多](../campaigns/content-experiment.md)
 

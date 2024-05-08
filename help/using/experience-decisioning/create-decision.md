@@ -1,18 +1,16 @@
 ---
-title: 建立決定
-description: 瞭解如何建立決定
+title: 建立決定原則
+description: 瞭解如何建立決定原則
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="限量版"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 12%
+source-wordcount: '1481'
+ht-degree: 10%
 
 ---
 
@@ -21,20 +19,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
 >title="什麼是決定？"
->abstract="決定原則利用體驗決定引擎，根據對象選擇要傳遞的最佳內容。"
+>abstract="決策原則包含決策引擎挑選最佳內容的所有選擇邏輯。 決定政策是行銷活動專屬的政策。 它們的目標是為每個設定檔選取最佳優惠方案，而行銷活動製作可讓您指定應如何顯示選取的決策專案，包括要包含在訊息中的專案屬性。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hant" text="關於體驗決定"
 
->[!BEGINSHADEBOX 「本檔案指南提供哪些內容」]
-
-* [開始使用 Experience Decisioning](gs-experience-decisioning.md)
-* 管理您的決定專案： [設定專案目錄](catalogs.md) - [建立決定專案](items.md) - [管理專案集合](collections.md)
-* 設定專案的選取範圍： [建立決定規則](rules.md) - [建立排名方法](ranking.md)
-* [建立選擇策略](selection-strategies.md)
-* **[建立決定原則](create-decision.md)**
-
->[!ENDSHADEBOX]
-
 決策原則是優惠方案的容器，可運用體驗決策引擎，根據對象挑選最佳內容進行傳遞。
+
+決策原則包含決策引擎挑選最佳內容的所有選擇邏輯。 決定政策是行銷活動專屬的政策。 它們的目標是為每個設定檔選取最佳優惠方案，而行銷活動製作可讓您指定應如何顯示選取的決策專案，包括要包含在訊息中的專案屬性。
 
 >[!NOTE]
 >
@@ -61,13 +51,9 @@ ht-degree: 12%
 
 若要在您的網站或行動應用程式上向訪客呈現最佳動態優惠和體驗，請將決定原則新增至程式碼型行銷活動。 若要執行此操作，請遵循下列步驟。
 
-1. 建立行銷活動並選取 **[!UICONTROL 程式碼型體驗(Beta)]** 動作。 [了解更多](../code-based/create-code-based.md)
+1. 建立行銷活動並選取 **[!UICONTROL 程式碼型體驗]** 動作。 [了解更多](../code-based/create-code-based.md)
 
-   >[!NOTE]
-   >
-   >程式碼型體驗功能目前僅供特定使用者測試版。
-
-1. 從 [程式碼編輯器](../code-based/create-code-based.md#edit-code)，選取 **[!UICONTROL 決定]** 圖示並按一下 **[!UICONTROL 建立決定]**.
+1. 從 [程式碼編輯器](../code-based/create-code-based.md#edit-code)，選取 **[!UICONTROL 決定原則]** 圖示並按一下 **[!UICONTROL 新增決定原則]**.
 
    ![](assets/decision-code-based-create.png)
 
@@ -109,11 +95,9 @@ ht-degree: 12%
    >
    >遞補內容為選用。 如果未選取遞補策略，且沒有限定策略，則不會顯示任何專案。 [!DNL Journey Optimizer].
 
-1. 儲存您的選取範圍並按一下 **[!UICONTROL 建立]**. 新的決定原則已新增到 **[!UICONTROL 決定]**.
+1. 儲存您的選取範圍並按一下 **[!UICONTROL 建立]**. 現在決定原則已建立，您可以在程式碼型體驗內容中使用決定屬性。 [了解更多](#use-decision-policy)
 
    ![](assets/decision-code-based-decision-added.png)
-
-現在決定原則已建立，您可以在程式碼型體驗內容中使用決定屬性。 [了解更多](#use-decision-policy)
 
 ## 評估順序 {#evaluation-order}
 
@@ -181,7 +165,7 @@ ht-degree: 12%
 >
 >程式碼型體驗會利用 [!DNL Journey Optimizer] 運算式編輯器及其所有個人化和編寫功能。 [了解更多](../personalization/personalization-build-expressions.md)
 
-1. 按一下+圖示。 已新增與決定原則對應的程式碼。 現在，您可以在該程式碼中新增所有需要的決定屬性。
+1. 按一下 **[!UICONTROL 插入原則]** 按鈕。 已新增與決定原則對應的程式碼。
 
    ![](assets/decision-code-based-add-decision.png)
 
@@ -189,19 +173,18 @@ ht-degree: 12%
    >
    >此序列將重複執行您想要傳回決定原則的次數。 例如，如果您選擇在下列情況下傳回2個專案： [建立決定](#add-decision)，相同的序列將重複兩次。
 
-1. 按一下決定原則。 此時會顯示決定屬性。
-
-   這些屬性儲存在 **[!UICONTROL 選件]** 目錄的結構描述。 自訂屬性會儲存在 **`_<imsOrg`>** 資料夾和中的標準屬性 **`_experience`** 資料夾。 [進一步瞭解優惠方案目錄的結構描述](catalogs.md)
+1. 現在，您可以在該程式碼中新增所有需要的決定屬性。 可用的屬性會儲存在 **[!UICONTROL 選件]** 目錄的結構描述。 自訂屬性會儲存在 **`_<imsOrg`>** 資料夾和中的標準屬性 **`_experience`** 資料夾。 [進一步瞭解優惠方案目錄的結構描述](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
+
+   >[!NOTE]
+   >
+   >對於決定原則專案追蹤，請 `trackingToken`屬性需要新增為以下決策原則內容：
+   >`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. 按一下每個資料夾以展開。 將滑鼠游標置於所需位置，然後按一下您要新增的屬性旁的+圖示。 您可以對程式碼新增任意數量的屬性。
 
    ![](assets/decision-code-based-add-decision-attributes.png)
-
-1. 若要導覽回決策原則根目錄，請按一下資料夾圖示。
-
-   ![](assets/decision-code-based-decision-folder.png)
 
 1. 您也可以新增運算式編輯器中可用的任何其他屬性，例如設定檔屬性。
 

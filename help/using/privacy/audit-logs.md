@@ -7,10 +7,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '319'
+ht-degree: 88%
 
 ---
 
@@ -32,11 +32,11 @@ ht-degree: 100%
 
 ## 由稽核記錄擷取的事件類型 {#events}
 
-下表概述了稽核記錄的 Journey Optimizer 資源行動。
+下表概述稽核記錄所記錄的Journey Optimizer資源動作。 可在 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=zh-Hant#category)找到在稽核記錄中擷取的完整操作清單。
 
 >[!NOTE]
 >
->可在 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=zh-Hant#category)找到在稽核記錄中擷取的完整操作清單。
+>與相關的稽核記錄 **決定管理** 只能從可使用下載的CSV檔案中看到 **[!UICONTROL 下載記錄]** 按鈕。
 
 | 資源 | 動作 |
 |-----------|------------------|

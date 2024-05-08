@@ -5,14 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="限量版"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '1786'
-ht-degree: 15%
+source-wordcount: '1746'
+ht-degree: 14%
 
 ---
 
@@ -22,19 +20,9 @@ ht-degree: 15%
 >id="ajo_exd_items"
 >title="管理決定項目"
 >abstract="Journey Optimizer 可讓您建立行銷優惠 (稱為決定項目)，您可以將其建立並組織到集中式目錄和集合中。目前，所有建立的決定項目都合併在一個「優惠」目錄中。在此畫面中，您還可以使用&#x200B;**編輯架構**&#x200B;按鈕來存取目錄的方案，並為您的決定項目建立自訂屬性。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="設定項目目錄"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="設定專案目錄"
 
->[!BEGINSHADEBOX 「本檔案指南提供哪些內容」]
-
-* [開始使用 Experience Decisioning](gs-experience-decisioning.md)
-* 管理您的決定專案： [設定專案目錄](catalogs.md) - **[建立決定專案](items.md)** - [管理專案集合](collections.md)
-* 設定專案的選取範圍： [建立決定規則](rules.md) - [建立排名方法](ranking.md)
-* [建立選擇策略](selection-strategies.md)
-* [建立決定原則](create-decision.md)
-
->[!ENDSHADEBOX]
-
-Journey Optimizer 可讓您建立行銷優惠 (稱為決定項目)，您可以將其建立並組織到集中式目錄和集合中。這些範本由標準和自訂屬性組成，旨在精確符合您的需求。 此外，它們納入設定檔限制，可讓您定義決策專案可顯示給誰。
+Journey Optimizer 可讓您建立行銷優惠 (稱為決定項目)，您可以將其建立並組織到集中式目錄和集合中。這些屬性由標準和自訂屬性組成，旨在精確符合您的需求。 此外，它們納入設定檔限制，可讓您定義決策專案可顯示給誰。
 
 在建立決定專案之前，請確定您已建立 **決定規則** 如果要設定條件以決定要向誰顯示決策專案。 [瞭解如何建立決定規則](rules.md).
 
@@ -51,7 +39,7 @@ Journey Optimizer 可讓您建立行銷優惠 (稱為決定項目)，您可以�
 >id="ajo_exd_item_custom_attributes"
 >title="定義自訂屬性"
 >abstract="自訂屬性是根據您的需求訂製並且可以指派給決定項目的特定屬性。 它們是在決定項目的目錄方案中建立的。 只有當您已在目錄方案中新增至少一個自訂屬性時，才會顯示此區段。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="設定項目目錄"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="設定專案目錄"
 
 首先定義決定專案的標準和自訂屬性：
 

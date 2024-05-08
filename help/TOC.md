@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 39b2f9efcf84bba5e40ce999950346221a6eb699
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '1794'
-ht-degree: 97%
+source-wordcount: '1804'
+ht-degree: 96%
 
 ---
 
@@ -375,156 +375,159 @@ ht-degree: 97%
    + [警報](using/reports/alerts.md)
    + [使用 Customer Journey Analytics](using/reports/cja-ajo.md)
    + [排除原因](using/reports/exclusion-list.md)
-+ 決定管理 {#offer-decisioning}
-   + 開始使用決定管理 {#get-started-decision}
-      + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
-      + [使用者介面](using/offers/get-started/user-interface.md)
-      + [建立和管理優惠的重要步驟](using/offers/offer-library/key-steps.md)
-      + [使用案例：在電子郵件中插入優惠](using/offers/offers-e2e.md)
-   + 建立元件 {#create-components}
-      + [建立位置](using/offers/offer-library/creating-placements.md)
-      + [建立決定規則](using/offers/offer-library/creating-decision-rules.md)
-      + [建立集合限定詞](using/offers/offer-library/creating-tags.md)
-   + 建立排名 {#rankings}
-      + [開始使用排名](using/offers/ranking/get-started-rankings.md)
-      + [排名公式](using/offers/ranking/create-ranking-formulas.md)
-      + AI 模型 {#ai-models}
-         + [關於 AI 模型](using/offers/ranking/ai-models.md)
-         + AI 模型類型{#ai-model-types}
++ 決策 {#decisioning}
+   + 決定管理 {#offer-decisioning}
+      + 開始使用決定管理 {#get-started-decision}
+         + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
+         + [使用者介面](using/offers/get-started/user-interface.md)
+         + [建立和管理優惠的重要步驟](using/offers/offer-library/key-steps.md)
+         + [使用案例：在電子郵件中插入優惠](using/offers/offers-e2e.md)
+      + 建立元件 {#create-components}
+         + [建立位置](using/offers/offer-library/creating-placements.md)
+         + [建立決定規則](using/offers/offer-library/creating-decision-rules.md)
+         + [建立集合限定詞](using/offers/offer-library/creating-tags.md)
+      + 建立排名 {#rankings}
+         + [開始使用排名](using/offers/ranking/get-started-rankings.md)
+         + [排名公式](using/offers/ranking/create-ranking-formulas.md)
+         + AI 模型 {#ai-models}
+            + [關於 AI 模型](using/offers/ranking/ai-models.md)
+            + AI 模型類型{#ai-model-types}
             + [自動最佳化模型](using/offers/ranking/auto-optimization-model.md)
             + [個人化最佳化模型](using/offers/ranking/personalized-optimization-model.md)
-         + [建立 AI 模型](using/offers/ranking/create-ranking-strategies.md)
-   + 建立和管理優惠方案 {#managing-offers-in-the-offer-library}
-      + 設定優惠方案 {#configure-offers}
-         + [建立個人化優惠方案](using/offers/offer-library/creating-personalized-offers.md)
-         + [新增代表](using/offers/offer-library/add-representations.md)
-         + [新增限制](using/offers/offer-library/add-constraints.md)
-      + [建立遞補優惠](using/offers/offer-library/creating-fallback-offers.md)
-      + [建立集合](using/offers/offer-library/creating-collections.md)
-   + 建立和管理決定 {#create-manage-activities}
-      + [建立決定](using/offers/offer-activities/create-offer-activities.md)
-      + [設定決定中的優惠選擇](using/offers/offer-activities/configure-offer-selection.md)
-      + [建立模擬](using/offers/offer-activities/simulation.md)
-   + [使用批次決策](using/offers/batch-delivery.md)
-   + 收集事件資料{#collect-event-data}
-      + [開始使用資料收集](using/offers/data-collection/data-collection.md)
-      + [建立資料集以收集事件](using/offers/data-collection/create-dataset.md)
-      + [設定事件擷取](using/offers/data-collection/schema-requirement.md)
-   + 建立決策管理報告 {#create-reports}
-      + [使用決策管理事件](using/offers/reports/get-started-events.md)
-      + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
-   + 匯出優惠目錄 {#export-catalog}
-      + [開始使用優惠目錄匯出](using/offers/export-catalog/get-started-export.md)
-      + [存取匯出的優惠目錄](using/offers/export-catalog/access-dataset.md)
-      + [個人化優惠資料集](using/offers/export-catalog/export-offers.md)
-      + [決定資料集](using/offers/export-catalog/export-decisions.md)
-      + [位置資料集](using/offers/export-catalog/export-placements.md)
-      + [遞補資料集](using/offers/export-catalog/export-fallback.md)
-   + API 參考 {#api-reference}
-      + [快速入門](using/offers/api-reference/getting-started.md)
-      + 使用 API 建立和管理優惠方案{#offers-api}
-         + 位置 {#placements}
-            + [清單位置](using/offers/api-reference/offers-api/placements/placements-list.md)
-            + [查詢位置](using/offers/api-reference/offers-api/placements/lookup.md)
-            + [建立位置](using/offers/api-reference/offers-api/placements/create.md)
-            + [更新位置](using/offers/api-reference/offers-api/placements/update.md)
-            + [刪除位置](using/offers/api-reference/offers-api/placements/delete.md)
-         + 決定規則 {#decision-rules}
-            + [清單決定規則](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
-            + [查詢決定規則](using/offers/api-reference/offers-api/decision-rules/lookup.md)
-            + [建立決定規則](using/offers/api-reference/offers-api/decision-rules/create.md)
-            + [更新決定規則](using/offers/api-reference/offers-api/decision-rules/update.md)
-            + [刪除決定規則](using/offers/api-reference/offers-api/decision-rules/delete.md)
-         + 集合限定詞{#tags}
-            + [列出集合限定詞](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [查詢集合限定詞](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [建立集合限定詞](using/offers/api-reference/offers-api/tags/create.md)
-            + [更新集合限定詞](using/offers/api-reference/offers-api/tags/update.md)
-            + [刪除集合限定詞](using/offers/api-reference/offers-api/tags/delete.md)
-         + 個人化優惠 {#personalized-offers}
-            + [列出個人化優惠](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
-            + [查詢個人化優惠](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
-            + [建立個人化優惠](using/offers/api-reference/offers-api/personalized-offers/create.md)
-            + [更新個人化優惠](using/offers/api-reference/offers-api/personalized-offers/update.md)
-            + [刪除個人化優惠](using/offers/api-reference/offers-api/personalized-offers/delete.md)
-         + 集合 {#collections}
-            + [清單集合](using/offers/api-reference/offers-api/collections/collections-list.md)
-            + [查詢集合](using/offers/api-reference/offers-api/collections/lookup.md)
-            + [建立集合](using/offers/api-reference/offers-api/collections/create.md)
-            + [更新集合](using/offers/api-reference/offers-api/collections/update.md)
-            + [刪除集合](using/offers/api-reference/offers-api/collections/delete.md)
-         + 遞補優惠 {#fallback-offers}
-            + [列出遞補優惠](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
-            + [查詢遞補優惠](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
-            + [建立遞補優惠](using/offers/api-reference/offers-api/fallback-offers/create.md)
-            + [更新遞補優惠](using/offers/api-reference/offers-api/fallback-offers/update.md)
-            + [刪除遞補優惠](using/offers/api-reference/offers-api/fallback-offers/delete.md)
-         + 決策 {#decisions-api}
-            + [列舉決定](using/offers/api-reference/activities-api/activities/activities-list.md)
-            + [查詢決定](using/offers/api-reference/activities-api/activities/lookup.md)
-            + [建立決定](using/offers/api-reference/activities-api/activities/create.md)
-            + [更新決定](using/offers/api-reference/activities-api/activities/update.md)
-            + [刪除決定](using/offers/api-reference/activities-api/activities/delete.md)
-         + 舊版 API {#legacy-api}
-            + [關於舊版 API](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
+            + [建立 AI 模型](using/offers/ranking/create-ranking-strategies.md)
+      + 建立和管理優惠方案 {#managing-offers-in-the-offer-library}
+         + 設定優惠方案 {#configure-offers}
+            + [建立個人化優惠方案](using/offers/offer-library/creating-personalized-offers.md)
+            + [新增代表](using/offers/offer-library/add-representations.md)
+            + [新增限制](using/offers/offer-library/add-constraints.md)
+         + [建立遞補優惠](using/offers/offer-library/creating-fallback-offers.md)
+         + [建立集合](using/offers/offer-library/creating-collections.md)
+      + 建立和管理決定 {#create-manage-activities}
+         + [建立決定](using/offers/offer-activities/create-offer-activities.md)
+         + [設定決定中的優惠選擇](using/offers/offer-activities/configure-offer-selection.md)
+         + [建立模擬](using/offers/offer-activities/simulation.md)
+      + [使用批次決策](using/offers/batch-delivery.md)
+      + 收集事件資料{#collect-event-data}
+         + [開始使用資料收集](using/offers/data-collection/data-collection.md)
+         + [建立資料集以收集事件](using/offers/data-collection/create-dataset.md)
+         + [設定事件擷取](using/offers/data-collection/schema-requirement.md)
+      + 建立決策管理報告 {#create-reports}
+         + [使用決策管理事件](using/offers/reports/get-started-events.md)
+         + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
+      + 匯出優惠目錄 {#export-catalog}
+         + [開始使用優惠目錄匯出](using/offers/export-catalog/get-started-export.md)
+         + [存取匯出的優惠目錄](using/offers/export-catalog/access-dataset.md)
+         + [個人化優惠資料集](using/offers/export-catalog/export-offers.md)
+         + [決定資料集](using/offers/export-catalog/export-decisions.md)
+         + [位置資料集](using/offers/export-catalog/export-placements.md)
+         + [遞補資料集](using/offers/export-catalog/export-fallback.md)
+      + API 參考 {#api-reference}
+         + [快速入門](using/offers/api-reference/getting-started.md)
+         + 使用 API 建立和管理優惠方案{#offers-api}
             + 位置 {#placements}
-               + [清單位置](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
-               + [查詢位置](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)
-               + [建立位置](using/offers/api-reference/offers-api/legacy-apis/placements/create.md)
-               + [更新位置](using/offers/api-reference/offers-api/legacy-apis/placements/update.md)
-               + [刪除位置](using/offers/api-reference/offers-api/legacy-apis/placements/delete.md)
+               + [清單位置](using/offers/api-reference/offers-api/placements/placements-list.md)
+               + [查詢位置](using/offers/api-reference/offers-api/placements/lookup.md)
+               + [建立位置](using/offers/api-reference/offers-api/placements/create.md)
+               + [更新位置](using/offers/api-reference/offers-api/placements/update.md)
+               + [刪除位置](using/offers/api-reference/offers-api/placements/delete.md)
             + 決定規則 {#decision-rules}
-               + [清單決定規則](using/offers/api-reference/offers-api/legacy-apis/decision-rules/rules-list.md)
-               + [查詢決定規則](using/offers/api-reference/offers-api/legacy-apis/decision-rules/lookup.md)
-               + [建立決定規則](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
-               + [更新決定規則](using/offers/api-reference/offers-api/legacy-apis/decision-rules/update.md)
-               + [刪除決定規則](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
+               + [清單決定規則](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
+               + [查詢決定規則](using/offers/api-reference/offers-api/decision-rules/lookup.md)
+               + [建立決定規則](using/offers/api-reference/offers-api/decision-rules/create.md)
+               + [更新決定規則](using/offers/api-reference/offers-api/decision-rules/update.md)
+               + [刪除決定規則](using/offers/api-reference/offers-api/decision-rules/delete.md)
             + 集合限定詞{#tags}
-               + [列出集合限定詞](using/offers/api-reference/offers-api/legacy-apis/tags/tags-list.md)
-               + [查詢集合限定詞](using/offers/api-reference/offers-api/legacy-apis/tags/lookup.md)
-               + [建立集合限定詞](using/offers/api-reference/offers-api/legacy-apis/tags/create.md)
-               + [更新集合限定詞](using/offers/api-reference/offers-api/legacy-apis/tags/update.md)
-               + [刪除集合限定詞](using/offers/api-reference/offers-api/legacy-apis/tags/delete.md)
+               + [列出集合限定詞](using/offers/api-reference/offers-api/tags/tags-list.md)
+               + [查詢集合限定詞](using/offers/api-reference/offers-api/tags/lookup.md)
+               + [建立集合限定詞](using/offers/api-reference/offers-api/tags/create.md)
+               + [更新集合限定詞](using/offers/api-reference/offers-api/tags/update.md)
+               + [刪除集合限定詞](using/offers/api-reference/offers-api/tags/delete.md)
             + 個人化優惠 {#personalized-offers}
-               + [列出個人化優惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/offers-list.md)
-               + [查詢個人化優惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/lookup.md)
-               + [建立個人化優惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/create.md)
-               + [更新個人化優惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/update.md)
-               + [刪除個人化優惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/delete.md)
-            + 遞補優惠 {#fallback-offers}
-               + [列出遞補優惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/fallback-list.md)
-               + [查詢遞補優惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/lookup.md)
-               + [建立遞補優惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
-               + [更新遞補優惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/update.md)
-               + [刪除遞補優惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/delete.md)
+               + [列出個人化優惠](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
+               + [查詢個人化優惠](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
+               + [建立個人化優惠](using/offers/api-reference/offers-api/personalized-offers/create.md)
+               + [更新個人化優惠](using/offers/api-reference/offers-api/personalized-offers/update.md)
+               + [刪除個人化優惠](using/offers/api-reference/offers-api/personalized-offers/delete.md)
             + 集合 {#collections}
-               + [清單集合](using/offers/api-reference/offers-api/legacy-apis/collections/collections-list.md)
-               + [查詢集合](using/offers/api-reference/offers-api/legacy-apis/collections/lookup.md)
-               + [建立集合](using/offers/api-reference/offers-api/legacy-apis/collections/create.md)
-               + [更新集合](using/offers/api-reference/offers-api/legacy-apis/collections/update.md)
-               + [刪除集合](using/offers/api-reference/offers-api/legacy-apis/collections/delete.md)
+               + [清單集合](using/offers/api-reference/offers-api/collections/collections-list.md)
+               + [查詢集合](using/offers/api-reference/offers-api/collections/lookup.md)
+               + [建立集合](using/offers/api-reference/offers-api/collections/create.md)
+               + [更新集合](using/offers/api-reference/offers-api/collections/update.md)
+               + [刪除集合](using/offers/api-reference/offers-api/collections/delete.md)
+            + 遞補優惠 {#fallback-offers}
+               + [列出遞補優惠](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
+               + [查詢遞補優惠](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
+               + [建立遞補優惠](using/offers/api-reference/offers-api/fallback-offers/create.md)
+               + [更新遞補優惠](using/offers/api-reference/offers-api/fallback-offers/update.md)
+               + [刪除遞補優惠](using/offers/api-reference/offers-api/fallback-offers/delete.md)
             + 決策 {#decisions-api}
-               + [列舉決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/activities-list.md)
-               + [查詢決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/lookup.md)
-               + [建立決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
-               + [更新決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
-               + [刪除決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
-      + 利用 API 傳遞優惠方案{#offer-delivery-api}
-         + [開始使用傳遞優惠方案 API](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
-         + [決策 API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
-         + [邊緣決策 API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
-         + [批次決策 API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-+ Experience Decisioning {#experience-decisioning}
-   + [開始使用 Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
-   + 管理決定項目 {#decision-items}
-      + [設定項目目錄](using/experience-decisioning/catalogs.md)
-      + [建立決定項目](using/experience-decisioning/items.md)
-      + [管理項目集合](using/experience-decisioning/collections.md)
-   + 設定項目的選取範圍 {#selection}
-      + [建立決定規則](using/experience-decisioning/rules.md)
-      + [建立排名方法](using/experience-decisioning/ranking.md)
-   + [建立選擇策略](using/experience-decisioning/selection-strategies.md)
-   + [建立決定原則](using/experience-decisioning/create-decision.md)
+               + [列舉決定](using/offers/api-reference/activities-api/activities/activities-list.md)
+               + [查詢決定](using/offers/api-reference/activities-api/activities/lookup.md)
+               + [建立決定](using/offers/api-reference/activities-api/activities/create.md)
+               + [更新決定](using/offers/api-reference/activities-api/activities/update.md)
+               + [刪除決定](using/offers/api-reference/activities-api/activities/delete.md)
+            + 舊版 API {#legacy-api}
+               + [關於舊版 API](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
+               + 位置 {#placements}
+                  + [清單位置](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
+                  + [查詢位置](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)
+                  + [建立位置](using/offers/api-reference/offers-api/legacy-apis/placements/create.md)
+                  + [更新位置](using/offers/api-reference/offers-api/legacy-apis/placements/update.md)
+                  + [刪除位置](using/offers/api-reference/offers-api/legacy-apis/placements/delete.md)
+               + 決定規則 {#decision-rules}
+                  + [清單決定規則](using/offers/api-reference/offers-api/legacy-apis/decision-rules/rules-list.md)
+                  + [查詢決定規則](using/offers/api-reference/offers-api/legacy-apis/decision-rules/lookup.md)
+                  + [建立決定規則](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
+                  + [更新決定規則](using/offers/api-reference/offers-api/legacy-apis/decision-rules/update.md)
+                  + [刪除決定規則](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
+               + 集合限定詞{#tags}
+                  + [列出集合限定詞](using/offers/api-reference/offers-api/legacy-apis/tags/tags-list.md)
+                  + [查詢集合限定詞](using/offers/api-reference/offers-api/legacy-apis/tags/lookup.md)
+                  + [建立集合限定詞](using/offers/api-reference/offers-api/legacy-apis/tags/create.md)
+                  + [更新集合限定詞](using/offers/api-reference/offers-api/legacy-apis/tags/update.md)
+                  + [刪除集合限定詞](using/offers/api-reference/offers-api/legacy-apis/tags/delete.md)
+               + 個人化優惠 {#personalized-offers}
+                  + [列出個人化優惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/offers-list.md)
+                  + [查詢個人化優惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/lookup.md)
+                  + [建立個人化優惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/create.md)
+                  + [更新個人化優惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/update.md)
+                  + [刪除個人化優惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/delete.md)
+               + 遞補優惠 {#fallback-offers}
+                  + [列出遞補優惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/fallback-list.md)
+                  + [查詢遞補優惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/lookup.md)
+                  + [建立遞補優惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
+                  + [更新遞補優惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/update.md)
+                  + [刪除遞補優惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/delete.md)
+               + 集合 {#collections}
+                  + [清單集合](using/offers/api-reference/offers-api/legacy-apis/collections/collections-list.md)
+                  + [查詢集合](using/offers/api-reference/offers-api/legacy-apis/collections/lookup.md)
+                  + [建立集合](using/offers/api-reference/offers-api/legacy-apis/collections/create.md)
+                  + [更新集合](using/offers/api-reference/offers-api/legacy-apis/collections/update.md)
+                  + [刪除集合](using/offers/api-reference/offers-api/legacy-apis/collections/delete.md)
+               + 決策 {#decisions-api}
+                  + [列舉決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/activities-list.md)
+                  + [查詢決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/lookup.md)
+                  + [建立決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
+                  + [更新決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
+                  + [刪除決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
+         + 利用 API 傳遞優惠方案{#offer-delivery-api}
+            + [開始使用傳遞優惠方案 API](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+            + [決策 API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
+            + [邊緣決策 API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+            + [批次決策 API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+   + Experience Decisioning (LA) {#experience-decisioning}
+      + [開始使用 Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+      + 管理決定項目 {#decision-items}
+         + [設定專案目錄](using/experience-decisioning/catalogs.md)
+         + [建立決定項目](using/experience-decisioning/items.md)
+         + [管理專案集合](using/experience-decisioning/collections.md)
+      + 設定專案選取範圍 {#selection}
+         + [建立決定規則](using/experience-decisioning/rules.md)
+         + [建立排名方法](using/experience-decisioning/ranking.md)
+         + [善用內容資料](using/experience-decisioning/context-data.md)
+      + [建立選擇策略](using/experience-decisioning/selection-strategies.md)
+      + [建立決定原則](using/experience-decisioning/create-decision.md)
+      + [Customer Journey Analytics中的報告](using/experience-decisioning/cja-reporting.md)
 + 資料管理 {#data-management}
    + [開始使用資料管理](using/data/gs-data.md)
    + [使用方案](using/data/get-started-schemas.md)

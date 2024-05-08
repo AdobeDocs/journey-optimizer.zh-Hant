@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 35%
+source-wordcount: '636'
+ht-degree: 33%
 
 ---
 
@@ -88,8 +88,4 @@ ht-degree: 35%
 
 ## 優惠和決定變更記錄 {#changes-logs}
 
-優惠資料庫可讓您以視覺效果呈現對優惠或決定進行的所有變更。 若要這麼做，請按一下清單中優惠或決定的名稱，然後選取 **[!UICONTROL 變更記錄]** 標籤。
-
-所有已進行的變更及執行變更的使用者名稱都會顯示在此畫面中。
-
-![](../assets/change-logs.png)
+[!DNL Journey Optimizer] 可讓您以視覺效果呈現對優惠或決定進行的所有變更。 若要這麼做，請存取 **[!UICONTROL 稽核]** 功能表（位於左側功能表）。 [瞭解如何稽核資源上的動作](../../privacy/audit-logs.md)

@@ -5,28 +5,16 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="限量版"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 5%
+source-wordcount: '307'
+ht-degree: 0%
 
 ---
 
 # 專案目錄 {#catalog}
-
->[!BEGINSHADEBOX 「本檔案指南提供哪些內容」]
-
-* [開始使用 Experience Decisioning](gs-experience-decisioning.md)
-* 管理您的決定專案： **[設定專案目錄](catalogs.md)** - [建立決定專案](items.md) - [管理專案集合](collections.md)
-* 設定專案的選取範圍： [建立決定規則](rules.md) - [建立排名方法](ranking.md)
-* [建立選擇策略](selection-strategies.md)
-* [建立決定原則](create-decision.md)
-
->[!ENDSHADEBOX]
 
 在Experience Decisioning中，目錄可作為中央容器來組織決策專案。 每個目錄都會連結至Adobe Experience Platform結構描述，包含可指派給決定專案的所有屬性。
 
@@ -53,10 +41,9 @@ ht-degree: 5%
 
    >[!CAUTION]
    >
-   >目前，Experience Decisioning僅支援下列資料型別。 建立決定專案時，無法使用落在這些資料型別之外的任何欄位。
-   >* 字串
-   >* 布林值
-   >* 數字
+   >目前，Experience Decisioning僅支援下列資料型別：字串、整數、布林值、日期、日期時間和決定資產。 在製作決定專案或目錄時，落在這些資料型別之外的任何欄位都無法使用。
+
+   在含有決策資產屬性的屬性上輸入的值是公共url。 大部分時間這會指向影像。
 
    有關如何使用Adobe Experience Platform綱要的詳細資訊，請參閱 [XDM系統檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant).
 

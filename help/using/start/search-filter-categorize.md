@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: aa53f96068e0cfa84c1ac5ddd32d36b3fb4bbd03
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '535'
 ht-degree: 100%
 
 ---
@@ -61,12 +61,13 @@ ht-degree: 100%
 
 **[!UICONTROL 標籤]**&#x200B;欄位可讓您定義物件的標籤。標籤可用於下列物件：
 
-* [歷程](../building-journeys/journey-gs.md#change-properties)
 * [行銷活動](../campaigns/create-campaign.md#create)
-* [範本](../content-management/content-templates.md)
+* [決定項目](../experience-decisioning/items.md)
 * [片段](../content-management/fragments.md)
-* [訂閱清單](../landing-pages/subscription-list.md)
+* [歷程](../building-journeys/journey-gs.md#change-properties)
 * [登陸頁面](../landing-pages/create-lp.md)
+* [訂閱清單](../landing-pages/subscription-list.md)
+* [範本](../content-management/content-templates.md)
 
 您可選取現有標籤或建立新標籤。若要執行此操作，請遵循下列步驟。
 
