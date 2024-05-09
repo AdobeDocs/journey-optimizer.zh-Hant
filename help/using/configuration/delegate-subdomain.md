@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子網域、委派、網域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
+source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
 workflow-type: tm+mt
 source-wordcount: '1816'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->根據預設， [!DNL Journey Optimizer] 可讓您委派最多10個子網域。 不過，根據您的授權合約，您最多可以委派100個子網域。 請聯絡您的Adobe聯絡人，以進一步瞭解您有權使用的子網域數量。
+>根據預設， [!DNL Journey Optimizer] 可讓您委派最多10個子網域。 然而，根據您的授權合約，您最多可委派 100 個子網域。 請聯絡您的 Adobe 聯絡人，了解更多您有權使用的子網域數量。
 
 您可以完全委派子網域，或使用CNAME建立子網域以指向Adobe特定記錄。
 
@@ -49,7 +49,7 @@ ht-degree: 21%
 >id="ajo_admin_subdomain_dns"
 >title="產生相符的 DNS 記錄"
 >abstract="若要將新的子網域完全委派給 Adobe，您需要將 Journey Optimizer 介面中顯示的 Adobe 名稱伺服器資訊複製貼上您的網域託管解決方案中，以產生相符的 DNS 記錄。若要使用 CNAME 委派子網域，您還需要複製貼上 SSL CDN URL 驗證記錄。一旦檢查成功，子網域就準備好可用於傳遞訊息了。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain.html?lang=zh-Hant#cname-subdomain-delegation" text="CNAME 子網域委派"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain#cname-subdomain-delegation" text="CNAME 子網域委派"
 
 [!DNL Journey Optimizer] 可讓您直接從產品介面將子網域完全委派給Adobe。 藉由這樣做，Adobe將能夠控制並維護傳遞、演算及追蹤電子郵件行銷活動所需的DNS的各個層面，以受管理的方式傳遞訊息。
 
