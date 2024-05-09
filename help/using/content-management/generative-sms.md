@@ -10,7 +10,8 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 5c4b7cde5514f60f61050837fc9ae325f7bef2e8
+exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 8%
@@ -25,8 +26,8 @@ ht-degree: 8%
 
 * [開始使用 AI 助理](gs-generative.md)
 * [使用 AI 助理產生電子郵件](generative-email.md)
-* [使用 AI 助理產生簡訊](generative-sms.md)
-* **[使用AI助理產生推播](generative-push.md)**
+* 使用 AI 助理產生簡訊
+* [使用AI助理產生推播](generative-push.md)
 * [使用AI助理進行內容實驗](generative-experimentation.md)
 
 >[!ENDSHADEBOX]

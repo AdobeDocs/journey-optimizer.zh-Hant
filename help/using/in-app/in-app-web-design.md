@@ -8,7 +8,7 @@ level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 hide: true
 hidefromtoc: true
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 7%
@@ -23,7 +23,7 @@ ht-degree: 7%
 
 * [設定網頁應用程式內頻道](configure-in-app-web.md)
 * [建立您的網頁應用程式內訊息行銷活動](create-in-app-web.md)
-* **[設計您的網頁應用程式內內容](#in-app-web-design)**
+* 設計您的網頁應用程式內內容
 
 >[!ENDSHADEBOX]
 

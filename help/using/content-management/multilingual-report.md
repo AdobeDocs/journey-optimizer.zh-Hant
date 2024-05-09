@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 開始使用多語言內容
+title: 多語言行銷活動報告
 description: 進一步瞭解Journey Optimizer中多語言內容的報告
 feature: Multilingual Content
 topic: Content Management
@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 exl-id: 662681ad-5044-4025-aff1-204626fee052
 badge: label="Beta" type="Informative"
-source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 15%
+source-wordcount: '215'
+ht-degree: 16%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 15%
 * [開始使用多語言內容](multilingual-gs.md)
 * [使用手動翻譯建立多語言內容](multilingual-manual.md)
 * [使用自動化翻譯建立多語言內容](multilingual-automated.md)
-* **[多語言行銷活動報告](multilingual-report.md)**
+* 多語言行銷活動報告
 
 >[!ENDSHADEBOX]
 

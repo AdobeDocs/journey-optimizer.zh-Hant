@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 開始使用多語言內容
-description: 進一步了解 Journey Optimizer 中的多語言內容
+title: 使用手動翻譯建立多語言內容
+description: 瞭解如何在Journey Optimizer中使用手動翻譯來建立多語言內容
 feature: Multilingual Content
 topic: Content Management
 role: User
@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="Beta" type="Informative"
-source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '665'
 ht-degree: 6%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 6%
 **目錄**
 
 * [開始使用多語言內容](multilingual-gs.md)
-* **[使用手動翻譯建立多語言內容](multilingual-manual.md)**
+* 使用手動翻譯建立多語言內容
 * [使用自動化翻譯建立多語言內容](multilingual-automated.md)
 * [多語言行銷活動報告](multilingual-report.md)
 
