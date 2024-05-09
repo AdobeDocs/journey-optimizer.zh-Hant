@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 4342c13d7f2cff4eea3bb3cdddad8f403f0cba90
+source-git-commit: 260b9ec0a70526ac37da444e183fc1d01b97b22b
 workflow-type: tm+mt
 source-wordcount: '2617'
 ht-degree: 15%
@@ -142,7 +142,7 @@ ht-degree: 15%
 >id="ajo_decisioning_capping"
 >title="使用上限"
 >abstract="為避免過度招攬客戶，請使用上限來定義優惠的呈現次數上限。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=zh-Hant#capping-change-date" text="變更日期會影響上限"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="變更日期會影響上限"
 
 上限會用作限制，以定義可顯示優惠方案的次數上限。
 
