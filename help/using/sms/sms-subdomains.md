@@ -11,7 +11,7 @@ exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 016b823161b162cb00e0eae27cd45873752425ba
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 23%
+ht-degree: 24%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 23%
 >id="ajo_admin_subdomain_sms"
 >title="委派 SMS/MMS 子網域"
 >abstract="您必須設定要用於文字簡訊的子網域，因為您需要此子網域才能建立 SMS 表面。您可以使用已委派給 Adobe 的子網域，或設定新的子網域。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="建立簡訊表面"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="建立簡訊表面"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
 >title="選取 SMS/MMS 子網域"
 >abstract="為了能夠建立簡訊表面，請確保您之前已設定了至少一個簡訊子網域，才能從子網域名稱清單中挑選。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="建立簡訊表面"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="建立簡訊表面"
 
 若要能夠縮短新增至SMS/MMS訊息的URL，您必須設定您將在下列情況下選取的子網域： [建立SMS表面](sms-configuration.md#message-preset-sms).
 

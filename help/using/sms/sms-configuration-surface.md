@@ -6,14 +6,15 @@ description: 瞭解如何設定您的SMS/MMS介面，以使用Journey Optimizer�
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 0d541520-016e-468f-b011-808712847556
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
-# 建立簡訊/多媒體簡訊表面 {#message-preset-sms}
+# 建立 SMS/MMS 表面 {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
@@ -87,4 +88,3 @@ ht-degree: 7%
    ![](assets/preset-active.png)
 
 您現在可以使用Journey Optimizer傳送簡訊。
-

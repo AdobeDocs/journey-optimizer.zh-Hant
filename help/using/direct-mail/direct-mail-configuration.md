@@ -36,7 +36,7 @@ ht-degree: 31%
 >id="ajo_dm_file_routing_details"
 >title="定義檔案路由設定"
 >abstract="建立直接郵件訊息後，會產生包含目標對象資料的檔案並將其匯出到伺服器。您需要指定伺服器的詳細資訊，以便您的直接郵件提供者可以存取和使用該檔案來傳遞直接郵件。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="建立新的直接郵件訊息"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html?lang=zh-Hant" text="建立新的直接郵件訊息"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"

@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 016b823161b162cb00e0eae27cd45873752425ba
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 36%
 >id="ajo_admin_sms_api"
 >title="使用 Journey Optimizer 設定您的 SMS/MMS 服務提供者"
 >abstract="在傳送文字簡訊 (SMS/MMS) 之前，您必須將提供者設定和 Journey Optimizer 整合。完成後，您將需要建立一個 SMS/MMS 表面。這些步驟必須由 Adobe Journey Optimizer 系統管理員執行。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="建立簡訊管道表面"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="建立簡訊管道表面"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"

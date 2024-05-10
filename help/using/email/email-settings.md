@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '2415'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -38,11 +38,11 @@ ht-degree: 10%
 >
 >更新的電子郵件表面設定將在使用表面的歷程或行銷活動中自動擷取。
 
-## 電子郵件型別 {#email-type}
+## 電子郵件類型 {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="定義電子郵件型別"
+>title="定義電子郵件類型"
 >abstract="選取使用此表面時將傳送的電子郵件類型：促銷用電子郵件的行銷型 (需要使用者同意)，或非商業電子郵件的交易型 (還可以傳送至特定內容中取消訂閱的設定檔)。"
 
 在 **電子郵件型別** 部分，選取曲面的訊息型別： **[!UICONTROL 行銷]** 或 **[!UICONTROL 異動]**.
@@ -232,7 +232,7 @@ ht-degree: 10%
 >id="ajo_surface_seed_list"
 >title="新增種子清單"
 >abstract="選取您所選的種子清單，以自動向您的對象新增特定的內部地址。這些種子地址將在傳遞執行時包含在內，且為了保證目的將收到一份準確的訊息副本。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hant#use-seed-list" text="什麼是種子清單?"
 
 中的種子清單 [!DNL Journey Optimizer] 可讓您在傳送中自動包含特定的電子郵件種子地址。 [了解更多](../configuration/seed-lists.md)
 

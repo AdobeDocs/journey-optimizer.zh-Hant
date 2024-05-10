@@ -19,9 +19,9 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
->title="定義你專屬的內容片段"
+>title="定義您專屬的內容片段"
 >abstract="建立及管理獨立的內容片段，以便在多個歷程和行銷活動中重複使用你的內容。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="建立內容片段"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html?lang=zh-Hant#create-fragments" text="建立內容片段"
 
 片段是可重複使用的元件，可在一封或多封電子郵件中加以參照 [!DNL Journey Optimizer] 行銷活動和歷程。
 
@@ -170,7 +170,7 @@ ht-degree: 13%
 >id="ajo_create_visual_fragment"
 >title="選取視覺內容類型"
 >abstract="建立獨立的視覺內容片段，以便在某個歷程或行銷活動的電子郵件中，或是某個內容範本中可以重複使用你的內容。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="在你的電子郵件中新增視覺內容片段"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=zh-Hant" text="在你的電子郵件中新增視覺內容片段"
 
 1. [建立片段](#create-from-scratch) 從 **[!UICONTROL 內容管理]** > **[!UICONTROL 片段]** 左方功能表並選取 **[!UICONTROL 視覺片段]** 型別。
 
@@ -200,7 +200,7 @@ ht-degree: 13%
 >id="ajo_create_expression_fragment"
 >title="選取運算式類型"
 >abstract="建立獨立的運算式片段，以便在多個歷程和行銷活動中可重複使用你的內容。使用運算式編輯器時，你可以利用在目前沙箱上建立的所有運算式片段。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="利用運算式片段"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html?lang=zh-Hant" text="利用運算式片段"
 
 1. [建立片段](#create-from-scratch) 從 **[!UICONTROL 內容管理]** > **[!UICONTROL 片段]** 左方功能表並選取 **[!UICONTROL 運算式片段]** 型別。
 

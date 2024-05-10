@@ -47,7 +47,7 @@ ht-degree: 14%
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="排除網域群組"
 >abstract="選取要從目前階段排除的網域。網域排除需要非執行階段，因此您可能必須分割執行中階段才能新增排除。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="分割階段"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=zh-Hant#split-phase" text="分割階段"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
