@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 016b823161b162cb00e0eae27cd45873752425ba
+source-git-commit: a08a28d7bfe912ff545ca559bd04b70642fe2ab5
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 37%
@@ -43,7 +43,7 @@ ht-degree: 37%
    * [與Sinch](sms-configuration-sinch.md)
    * [使用Infobip](sms-configuration-infobip.md)
    * [與Twilio](sms-configuration-twilio.md)
-1. [建立簡訊表面](#message-preset-sms)
+1. [建立簡訊表面](sms-configuration-surface.md)
 
 這些步驟必須由Adobe Journey Optimizer執行 [系統管理員](../start/path/administrator.md).
 
