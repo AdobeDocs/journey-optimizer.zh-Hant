@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: dbe8ea3a8655f180576dafc5d1a65feb58fb57df
+source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1561'
 ht-degree: 13%
 
 ---
@@ -31,11 +31,11 @@ ht-degree: 13%
 
 ➡️ [瞭解如何在這些影片中管理、編寫和使用片段](#video-fragments)
 
-若要充分利用片段：
+要充分利用片段：
 
-* 建立您自己的片段。 您可以建立視覺化片段或運算式片段。 [了解更多](#create-fragments)
+* 建立您自己的片段。 您可以建立視覺片段或運算式片段。 [了解更多](#create-fragments)
 
-* 視需要在您的內容中多次使用。 另請參閱 [新增視覺片段](../email/use-visual-fragments.md) 和 [利用運算式片段](../personalization/use-expression-fragments.md)
+* 在內容中根據需要多次使用它們。 請參閱 [添加視覺片段](../email/use-visual-fragments.md) 和 [利用運算式片段](../personalization/use-expression-fragments.md)
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ ht-degree: 13%
 
 * 視覺片段僅適用於電子郵件頻道
 
-* 運算式片段不適用於Web和應用程式內頻道
+* 運算式片段不適用於應用程式內頻道
 
 ## 存取及管理片段 {#access-manage-fragments}
 
@@ -156,11 +156,11 @@ ht-degree: 13%
 
    ![](assets/fragment-details.png)
 
-1. 選擇片段型別： [視覺片段](#create-visual-fragment) 或 [運算式片段](#create-expression-fragment).
+1. 選擇片段類型： [視覺片段](#create-visual-fragment) 或 [表達式片段](#create-expression-fragment)。
 
-1. 若要指派自訂或核心資料使用標籤給片段，請選取「 」 **[!UICONTROL 管理存取權]**. [深入瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md).
+1. 要將自定義或核心數據使用標籤分配給片段，請選擇管理 **[!UICONTROL 訪問許可權]**。 [瞭解有關物件級訪問控制 （OLAC）](../administration/object-based-access.md) 的更多資訊。
 
-1. 選擇或建立Adobe Experience Platform標籤，從 **[!UICONTROL 標籤]** 將片段分類的欄位有助改善搜尋。 [了解更多](../start/search-filter-categorize.md#tags)
+1. 從 **[!UICONTROL Adobe Experience Platform]** 標記 欄位中選擇或創建標記，以便對片段進行分類，以提高搜尋。 [了解更多](../start/search-filter-categorize.md#tags)
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
@@ -281,15 +281,15 @@ ht-degree: 13%
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. 將運算式片段新增至 [片段清單](#access-manage-fragments). 您現在可以使用它來建置個人化內容。
+1. 運算式片段會新增至 [片段清單](#access-manage-fragments)。 您現在可以使用它來版本編號個人化內容。
 
 >[!NOTE]
 >
->運算式不能超過200KB。
+>表達式不能超過 200KB。
 
 ## 操作說明影片 {#video-fragments}
 
-瞭解如何在中管理、編寫和使用視覺化片段 [!DNL Journey Optimizer].
+瞭解如何在 中 [!DNL Journey Optimizer]管理、創作和使用視覺片段。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
