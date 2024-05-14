@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: e9a32d396b3ebca1e0c7d115f12024eef55aeaa4
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 100%
+source-wordcount: '1317'
+ht-degree: 97%
 
 ---
 
@@ -193,3 +193,66 @@ ht-degree: 100%
 * 然後按一下您電子郵件地址下方顯示的語言
 * 選擇您偏好的語言，然後按一下 **「儲存」**。若您使用的元件未當地化為您的母語，您可選取第二種語言。
   ![](assets/select-language.png)
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_name"
+>title="行動裝置和網頁設定名稱"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_swift_dependencies_add"
+>title="新增相依性"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_swift_initialization_code"
+>title="新增初始化程式碼"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_validate_assurance"
+>title="使用保證進行驗證"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_javascript_code"
+>title="Javascript 程式碼"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_javascript_site"
+>title="啟動網站並驗證"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_token"
+>title="擷取裝置Token"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_xcode"
+>title="從Xcode啟動應用程式"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_certificate"
+>title="提供推播憑證"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_key_id"
+>title="金鑰ID"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_team_id"
+>title="團隊ID"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_inapp_tag_property"
+>title="選擇您的標籤屬性"
+>abstract="待定"
+
+
