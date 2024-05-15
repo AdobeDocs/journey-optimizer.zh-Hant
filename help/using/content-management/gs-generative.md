@@ -11,19 +11,32 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 644e0959ee0d0ec8ee0c4ec54c3bcd1cc3c4dda9
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 43%
+source-wordcount: '658'
+ht-degree: 54%
 
 ---
 
 # 開始使用 AI 助理 {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
->id="ajo_content_generation"
->title="建立該電子郵件內容"
->abstract="Adobe Journey Optimizer 中的 AI 助理可為文字和影像提供主動式內容變化建議。其可用於電子郵件、推播、簡訊和 Web 管道。 這項新功能提供提示型文字與影像產生功能。 "
+>id="ajo_ai_generation_settings"
+>title="AI 助理"
+>abstract="精心設計和個人化傳遞後，您可以使用 AI 助理來強化內容。此功能可讓您透過描述您想產生的內容來進行微調，進而簡化個人化和改善內容的流程。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_generation_context"
+>title="使用AI助理定義內容"
+>abstract="若要使用選取的內容作為內容產生的輸入，請啟動 **使用原始內容** 切換。 您也可以上傳您的品牌資產以將其做為來源。如果您不使用所選內容，則必須上傳並選取品牌資產。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_generation_start"
+>title="Adobe 生成式 AI 詞彙"
+>abstract="若要取得此功能的存取權限，您必需同意 Adobe Experience Cloud 生成式 AI 使用者準則。您為此功能提供的任何提示、上下文或補充資訊或其他輸入都必須與特定上下文相關聯，其中可以包括您的品牌素材、網站內容、資料、此類資料的架構、範本或其他可信任文件，並且不得包含任何個人資訊 (個人資訊包括任何可連結到特定個人的資訊)。您應該檢查此功能之任何輸出的準確性，並確保它適合您的使用案例"
+>additional-url="https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 使用者準則"
 
 >[!BEGINSHADEBOX]
 
