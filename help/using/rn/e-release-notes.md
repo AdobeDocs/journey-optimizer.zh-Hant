@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2eb1ffff7101362b52ae91f1a7277188664b2954
+source-git-commit: b5e073ef1d0c579f430913d60442d7d4cfa620a3
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 31%
+source-wordcount: '836'
+ht-degree: 26%
 
 ---
 
@@ -75,7 +75,9 @@ ht-degree: 31%
 <tbody>
 <tr>
 <td>
-<p>您現在可以建立精細的頻率上限規則，並透過規則集將其套用至不同型別的行銷通訊。 </p>
+<p>您現在可以建立精細的頻率上限規則，並透過規則集將其套用至不同型別的行銷通訊。 這項新功能可讓您設定跨頻道規則，控制對象接收訊息的頻率，這些規則會自動從訊息和動作中排除過度請求的設定檔。</p>
+<p>商業規則功能目前僅以公開測試版的形式提供。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/business-rules.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -103,16 +105,16 @@ ht-degree: 31%
 
 **體驗決策**
 
-從Beta版到洛杉磯版，已新增下列改善專案：
+從Beta版到本版本，已新增下列改良功能：
 
-* **Experience Decisioning +程式碼型體驗(LA)**：您現在可以善用Experience Decisioning功能，在程式碼型行銷活動中使用決定專案。 注意：程式碼型體驗通道和體驗決策不適用於已購買AdobeHealthcare Shield和Privacy and Security Shield附加產品的組織。 [閱讀全文](../code-based/get-started-code-based.md)
-* 您現在可以在決定規則和排名公式中善用Adobe Experience Platform的內容資料。 [閱讀全文](../experience-decisioning/context-data.md)
-* 決策管理資源現在有新的「管理體驗決策」權限可用。 它可讓您管理與Experience Decisioning相關的許可權。 [閱讀全文](../experience-decisioning/gs-experience-decisioning.md)
-* 您現在可以為體驗決策中的指定決策項目新增多個上限規則。 這可讓您提高控制優惠傳送方式的等級。 [閱讀全文](../experience-decisioning/items.md#capping)
-* 您現在可以使用建立Experience Decisioning行銷活動的自訂報告控制面板 [!DNL Customer Journey Analytics]. [閱讀全文](../experience-decisioning/cja-reporting.md)
+* **Experience Decisioning +程式碼型體驗(LA)**  — 您現在可以善用Experience Decisioning功能，在程式碼型行銷活動中使用決定專案。 注意：程式碼型體驗通道和體驗決策不適用於已購買AdobeHealthcare Shield和Privacy and Security Shield附加產品的組織。 [閱讀全文](../code-based/get-started-code-based.md)
+* **內容資料**  — 您現在可以在決定規則和排名公式中善用Adobe Experience Platform的內容資料。 [閱讀全文](../experience-decisioning/context-data.md)
+* **新許可權**  — 新的「管理體驗決策」許可權現在可用於決策管理資源。 它可讓您管理與Experience Decisioning相關的許可權。 [閱讀全文](../experience-decisioning/gs-experience-decisioning.md)
+* **上限規則**  — 您現在可以在Experience Decisioning中為特定決定專案新增多個上限規則。 這可讓您提高控制優惠傳送方式的等級。 [閱讀全文](../experience-decisioning/items.md#capping)
+* **報告**  — 您現在可以使用以下專案建立Experience Decisioning行銷活動的自訂報告控制面板 [!DNL Customer Journey Analytics]. [閱讀全文](../experience-decisioning/cja-reporting.md)
 
 
-**Offer Decisioning**
+**決策管理**
 
 * **多規則支援**  — 您現在可以在決定管理中，為指定優惠新增最多10個上限規則。 這可讓您針對活動內容傳送方式提高控制等級。
 * **稽核** - **變更記錄** 標籤可讓您檢視對優惠或決定所做的所有變更已移除。 與優惠和決定相關的變更現在可以在以下連結檢視：**稽核**&#x200B;選單。
@@ -134,6 +136,6 @@ ht-degree: 31%
 
 **歷程**
 
-* **合併原則**  — 您現在可以設定合併原則，並在歷程中使用。
+* **合併原則** （可用性限制） — 歷程使用的合併原則現在在整個歷程中可見且一致。
 * **mTLS支援** - Journey Optimizer API和自訂動作現在支援mTLS通訊協定。
 * **查詢事件中的表格**  — 現在，當使用物件陣列內的屬性定義關聯性時，您可以運用查詢資料集中的資料。 查閱值將在歷程（條件、自訂動作等）中使用 和訊息個人化。
