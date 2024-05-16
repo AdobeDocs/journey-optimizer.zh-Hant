@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: cf751ea0e2a6b02ab996c712ac1309ac06b32979
+source-git-commit: 2eb1ffff7101362b52ae91f1a7277188664b2954
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '778'
 ht-degree: 31%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 31%
 <tbody>
 <tr>
 <td>
-<p>您現在可以在Adobe Experience Platform資料集中查詢和擷取資料值，並在Adobe Journey Optimizer中使用這些值建立條件。 當使用物件陣列內的屬性定義關聯性時，您可以善用查詢資料集中的資料。 查閱值可用於您的歷程條件、自訂動作以及訊息個人化。</p>
+<p>您現在可以在Adobe Experience Platform資料集中查詢和擷取資料值，並在Adobe Journey Optimizer中使用這些值建立條件。 當使用物件陣列內的屬性定義關聯性時，您可以善用查詢資料集中的資料。 您可以為查詢指定未啟用設定檔的資料集。 啟用後，您可以使用設定檔屬性當作指定資料集的聯結索引鍵，以擷取進一步的資料進行個人化。</p>
 </td>
 </tr>
 </tbody>
