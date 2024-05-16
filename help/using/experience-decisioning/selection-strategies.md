@@ -10,7 +10,7 @@ exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 15%
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
 >title="定義您的選擇策略"
->abstract="選擇策略可重複使用，包括與資格限制關聯的集合，以及用於決定在決定策略中選取時顯示的優惠的排名方法。"
+>abstract="選擇策略可重複使用，並包括與適用性限制和排名方法相關聯的集合，用以確定在選取某個決定原則時要顯示的優惠。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="建立決定原則"
 
 >[!CONTEXTUALHELP]
