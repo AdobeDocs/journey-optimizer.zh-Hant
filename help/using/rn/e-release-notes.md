@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
+source-git-commit: cf751ea0e2a6b02ab996c712ac1309ac06b32979
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 34%
+source-wordcount: '764'
+ht-degree: 31%
 
 ---
 
@@ -85,33 +85,17 @@ ht-degree: 34%
 <table>
 <thead>
 <tr>
-<th><strong>本機查詢的多實體支援 — Beta版</strong><br/></th>
+<th><strong>延伸個人化資料 — Beta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>待定</p>
+<p>您現在可以在Adobe Experience Platform資料集中查詢和擷取資料值，並在Adobe Journey Optimizer中使用這些值建立條件。 當使用物件陣列內的屬性定義關聯性時，您可以善用查詢資料集中的資料。 查閱值可用於您的歷程條件、自訂動作以及訊息個人化。</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Email Surface Personalization - Private beta </strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now define dynamic subdomains and personalized header parameters when creating email channel surfaces, for increased flexibility and control over your email settings.</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 ### 改進項目 {#e-improvements}
 
@@ -137,7 +121,7 @@ ht-degree: 34%
 **電子郵件頻道**
 
 * **清單 — 取消訂閱**  — 繼大量寄件者的最新Gmail和Yahoo公告後，Journey Optimizer支援「post/1-click」清單取消訂閱選項。
-* **垃圾郵件評分**  — 您現在可以在專用的垃圾郵件報告中檢查您的內容垃圾郵件評分。 使用SpamAssassin，Adobe Journey Optimizer現在可以測試您的電子郵件內容，並賦予分數以指出ISP提供者是否將其視為垃圾郵件。 [閱讀全文](../content-management/spam-report.md)
+* **垃圾郵件評分** （測試版） — 您現在可以在專用的垃圾郵件報告中檢查您的內容垃圾郵件評分。 使用SpamAssassin，Adobe Journey Optimizer現在可以測試您的電子郵件內容，並賦予分數以指出ISP提供者是否將其視為垃圾郵件。 [閱讀全文](../content-management/spam-report.md)
 
 
 **對象**
@@ -146,10 +130,10 @@ ht-degree: 34%
 
 **個人化**
 
-* **查詢表**  — 現在，當使用物件陣列內的屬性定義關聯性時，您可以運用查詢資料集中的資料。 查閱值將在歷程（條件、自訂動作等）中使用 和訊息個人化。
-* **運算式片段**  — 運算式片段現在可用於應用程式內頻道。
+* **運算式片段**  — 運算式片段現在可用於 **應用程式內頻道**. [閱讀全文](../personalization/use-expression-fragments.md)
 
 **歷程**
 
 * **合併原則**  — 您現在可以設定合併原則，並在歷程中使用。
 * **mTLS支援** - Journey Optimizer API和自訂動作現在支援mTLS通訊協定。
+* **查詢事件中的表格**  — 現在，當使用物件陣列內的屬性定義關聯性時，您可以運用查詢資料集中的資料。 查閱值將在歷程（條件、自訂動作等）中使用 和訊息個人化。
