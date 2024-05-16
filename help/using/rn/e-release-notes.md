@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b5e073ef1d0c579f430913d60442d7d4cfa620a3
+source-git-commit: 628d49ee45ce161fc5e213bda60cb44d41223369
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '844'
 ht-degree: 26%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 26%
 <tr>
 <td>
 <p>您現在可以建立精細的頻率上限規則，並透過規則集將其套用至不同型別的行銷通訊。 這項新功能可讓您設定跨頻道規則，控制對象接收訊息的頻率，這些規則會自動從訊息和動作中排除過度請求的設定檔。</p>
-<p>商業規則功能目前僅以公開測試版的形式提供。</p>
+<p>商業規則功能目前以公開測試版的形式提供。</p>
 <p>如需詳細資訊，請參閱<a href="../configuration/business-rules.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -94,6 +94,7 @@ ht-degree: 26%
 <tr>
 <td>
 <p>您現在可以在Adobe Experience Platform資料集中查詢和擷取資料值，並在Adobe Journey Optimizer中使用這些值建立條件。 當使用物件陣列內的屬性定義關聯性時，您可以善用查詢資料集中的資料。 您可以為查詢指定未啟用設定檔的資料集。 啟用後，您可以使用設定檔屬性當作指定資料集的聯結索引鍵，以擷取進一步的資料進行個人化。</p>
+<p>此功能目前以公開測試版的形式提供。</p>
 </td>
 </tr>
 </tbody>
