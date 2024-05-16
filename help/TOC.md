@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 96%
@@ -322,7 +322,7 @@ ht-degree: 96%
       + [預覽您的內容](using/content-management/preview.md)
       + [傳送電子郵件校樣](using/content-management/proofs.md)
       + [測試電子郵件轉譯](using/content-management/rendering.md)
-      + [使用垃圾郵件報告](using/content-management/spam-report.md)
+      + [電子郵件垃圾郵件報告](using/content-management/spam-report.md)
 + 對象、設定檔與身分{#audiences-profiles-identities}
    + 對象 {#audiences}
       + [開始使用 Audiences](using/audience/about-audiences.md)
@@ -518,7 +518,7 @@ ht-degree: 96%
    + Experience Decisioning (LA) {#experience-decisioning}
       + [開始使用 Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
       + 管理決定項目 {#decision-items}
-         + [設定專案目錄](using/experience-decisioning/catalogs.md)
+         + [設定項目目錄](using/experience-decisioning/catalogs.md)
          + [建立決定項目](using/experience-decisioning/items.md)
          + [管理專案集合](using/experience-decisioning/collections.md)
       + 設定專案選取範圍 {#selection}

@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4b779d297769bd7a0b6913a0142ee7be7775ba04
+source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 36%
+source-wordcount: '699'
+ht-degree: 34%
 
 ---
 
@@ -134,9 +134,11 @@ ht-degree: 36%
 * **稽核** - **變更記錄** 標籤可讓您檢視對優惠或決定所做的所有變更已移除。 與優惠和決定相關的變更現在可以在以下連結檢視：**稽核**&#x200B;選單。
 
 
-**清單 — 取消訂閱**
+**電子郵件頻道**
 
-* 繼大量寄件者的最新Gmail和Yahoo公告後，Journey Optimizer支援「按一下/按一下」清單取消訂閱選項。
+* **清單 — 取消訂閱**  — 繼大量寄件者的最新Gmail和Yahoo公告後，Journey Optimizer支援「post/1-click」清單取消訂閱選項。
+* **垃圾郵件評分**  — 您現在可以在專用的垃圾郵件報告中檢查您的內容垃圾郵件評分。 使用SpamAssassin，Adobe Journey Optimizer現在可以測試您的電子郵件內容，並賦予分數以指出ISP提供者是否將其視為垃圾郵件。 [閱讀全文](../content-management/spam-report.md)
+
 
 **對象**
 
