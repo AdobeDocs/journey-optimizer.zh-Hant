@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 21b4c3dbdb4b26caa64104319d9f79e489bb5925
+source-git-commit: 91a687563ecd989c89061996b5906bcc77e82e23
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '736'
 ht-degree: 27%
 
 ---
@@ -104,11 +104,11 @@ ht-degree: 27%
 
 此發行版本隨附下列改進項目。
 
-**體驗決策**
+**體驗決策** （可用性限制）
 
 從Beta版到本版本，已新增下列改良功能：
 
-* **Experience Decisioning +程式碼型體驗(LA)**  — 您現在可以善用Experience Decisioning功能，在程式碼型行銷活動中使用決定專案。 注意：程式碼型體驗通道和體驗決策不適用於已購買AdobeHealthcare Shield和Privacy and Security Shield附加產品的組織。 [閱讀全文](../code-based/get-started-code-based.md)
+* **Experience Decisioning +程式碼型體驗**  — 您現在可以善用Experience Decisioning功能，在程式碼型行銷活動中使用決定專案。 注意：程式碼型體驗通道和體驗決策不適用於已購買AdobeHealthcare Shield和Privacy and Security Shield附加產品的組織。 [閱讀全文](../code-based/get-started-code-based.md)
 * **內容資料**  — 您現在可以在決定規則和排名公式中善用Adobe Experience Platform的內容資料。 [閱讀全文](../experience-decisioning/context-data.md)
 * **新許可權**  — 新的「管理體驗決策」許可權現在可用於決策管理資源。 它可讓您管理與Experience Decisioning相關的許可權。 [閱讀全文](../experience-decisioning/gs-experience-decisioning.md)
 * **上限規則**  — 您現在可以在Experience Decisioning中為特定決定專案新增多個上限規則。 這可讓您提高控制優惠傳送方式的等級。 [閱讀全文](../experience-decisioning/items.md#capping)
