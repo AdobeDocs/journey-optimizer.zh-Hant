@@ -5,13 +5,11 @@ title: 發行說明
 description: Journey Optimizer 搶先發行說明
 feature: Release Notes
 topic: Content Management
-hide: true
-hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 91a687563ecd989c89061996b5906bcc77e82e23
+source-git-commit: 7addbcaf12611860c0dde239b68be54493b99bb9
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 27%
+source-wordcount: '716'
+ht-degree: 25%
 
 ---
 
@@ -19,7 +17,7 @@ ht-degree: 27%
 
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每月底整合於[發行說明](release-notes.md)。
 
-至發行日期之前，下方的搶先發行說明如有變更，恕不另行通知。 連結、畫面及更新的文件會在發行當日發佈於[發行說明](release-notes.md)。
+**在發行日期前，以下早期發行說明可能會有所變更，恕不另行通知**. 連結、畫面及更新的文件會在發行當日發佈於[發行說明](release-notes.md)。
 
 ## 2024年5月早期發行說明 {#e-2024}
 
@@ -76,7 +74,7 @@ ht-degree: 27%
 <tr>
 <td>
 <p>您現在可以建立精細的頻率上限規則，並透過規則集將其套用至不同型別的行銷通訊。 這項新功能可讓您設定跨頻道規則，控制對象接收訊息的頻率，這些規則會自動從訊息和動作中排除過度請求的設定檔。</p>
-<p>商業規則功能目前以公開測試版的形式提供。</p>
+<p>商業規則功能目前以Beta版提供。 若要加入Beta版計畫，請聯絡您的Adobe代表。</p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -127,10 +125,10 @@ ht-degree: 27%
 * **垃圾郵件評分** （測試版） — 您現在可以在專用的垃圾郵件報告中檢查您的內容垃圾郵件評分。 使用SpamAssassin，Adobe Journey Optimizer現在可以測試您的電子郵件內容，並賦予分數以指出ISP提供者是否將其視為垃圾郵件。
   <!--[Read more](../content-management/spam-report.md)-->
 
+<!--
+**Audiences**
 
-**對象**
-
-* 現在可搭配Healthcare Shield或Privacy and Security Shield使用受眾構成和自訂上傳（CSV檔案）的受眾和屬性。
+* The use of audiences and attributes from audience composition and custom upload (CSV file) is now available for use with Healthcare Shield or Privacy and Security Shield.-->
 
 **個人化**
 
