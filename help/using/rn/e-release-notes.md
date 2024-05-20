@@ -6,10 +6,10 @@ description: Journey Optimizer 搶先發行說明
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 72bf2933ad8e6a627b762c2eec62191d85d7e0cf
+source-git-commit: bf098c2b8c1eeb48b4c2a2857db9946c32533ffe
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 28%
+source-wordcount: '705'
+ht-degree: 26%
 
 ---
 
@@ -140,3 +140,7 @@ ht-degree: 28%
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
 * **mTLS支援**  — 自訂動作現在支援mTLS驗證。 自訂動作或歷程中不需要額外設定即可啟用mTLS；偵測到啟用mTLS的端點時，會自動發生此情況。
 * **查詢事件中的表格**  — 現在，當使用物件陣列內的屬性定義關聯性時，您可以運用查詢資料集中的資料。 查閱值將在歷程（條件、自訂動作等）中使用 和訊息個人化。
+
+**全球化**
+
+為了提供統一的使用者體驗，我們統一了Adobe Experience Cloud產品和應用程式中使用的術語。 這會影響德文術語「標題」，在與物件名稱相關時會變更為「標籤」。 這些變更將會逐步在UI和檔案中推出。
