@@ -12,9 +12,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b69c75e0a8a35635a67065412e443a2af0d3b09f
+source-git-commit: 60b29231a097bde3e451549eac9c2aead9452cf4
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1605'
 ht-degree: 8%
 
 ---
@@ -157,8 +157,6 @@ ht-degree: 8%
 您也必須啟用規則集，才能在行銷活動/歷程中存取它，並將其套用至您的訊息。
 
 ![](assets/rule-set-activate-set.png)
-
-啟用規則集將會影響在下次執行時套用到的任何訊息。 瞭解如何 [套用規則集至訊息](#apply-rule-set).
 
 >[!NOTE]
 >
