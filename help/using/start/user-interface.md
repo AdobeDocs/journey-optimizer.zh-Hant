@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: e9a32d396b3ebca1e0c7d115f12024eef55aeaa4
+source-git-commit: 7cef45750889572f1684aa2b98c1eab1d668896a
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 100%
+source-wordcount: '1358'
+ht-degree: 98%
 
 ---
 
@@ -255,4 +255,47 @@ ht-degree: 100%
 >title="選擇您的標記屬性"
 >abstract="待定"
 
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_push_certificate_fcm"
+>title="提供推播憑證"
+>abstract="待定"
 
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_android_dependencies_add"
+>title="新增相依性"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_android_dependencies_import"
+>title="匯入相依性"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_android_initialization_code"
+>title="新增初始化程式碼"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_validate_assurance_android"
+>title="使用 Assurance 驗證"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_token_android"
+>title="擷取裝置權杖"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_android_studio"
+>title="從Android Studio啟動應用程式"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_load_library"
+>title="非同步載入程式庫"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_library_code"
+>title="檔案的Head標籤"
+>abstract="待定"
