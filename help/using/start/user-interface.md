@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: e9a32d396b3ebca1e0c7d115f12024eef55aeaa4
 workflow-type: tm+mt
 source-wordcount: '1317'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -197,7 +197,7 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
->title="行動裝置和網頁設定名稱"
+>title="行動和 Web 設定名稱"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
@@ -212,7 +212,7 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
->title="使用保證進行驗證"
+>title="使用 Assurance 驗證"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
@@ -222,17 +222,17 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_site"
->title="啟動網站並驗證"
+>title="啟動站點並驗證"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
->title="擷取裝置Token"
+>title="擷取裝置權杖"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
->title="從Xcode啟動應用程式"
+>title="從 Xcode 啟動應用程式"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
@@ -242,17 +242,17 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_key_id"
->title="金鑰ID"
+>title="金鑰 ID"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_team_id"
->title="團隊ID"
+>title="團隊 ID"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_inapp_tag_property"
->title="選擇您的標籤屬性"
+>title="選擇您的標記屬性"
 >abstract="待定"
 
 
