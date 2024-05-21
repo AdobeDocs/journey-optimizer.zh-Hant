@@ -5,9 +5,9 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 0ba1e007ebdb3f7d68df270c4a7332bf37eec2b2
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '354'
 ht-degree: 88%
 
 ---
@@ -20,27 +20,27 @@ ht-degree: 88%
 
 >[!BEGINTABS]
 
->[!TAB 4月版本已上線！]
+>[!TAB 5月版本已上線！]
 
-探索 Adobe Journey Optimizer 24.3 發行版本包含的新功能和改進項目。
+探索Adobe Journey Optimizer 5月發行版本包含的新功能和改進。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB 新的歷程體驗]
+>[!TAB 體驗決策]
 
-此版本隨附改善的畫布使用者介面以供歷程使用，並提供更直覺且有效率的使用者體驗。 活動更清晰明瞭，只需更少的點按次數就能在 Canvas 歷程上呈現更多資訊。
+Experience Decisioning透過提供稱為「決策專案」的行銷優惠集中目錄和複雜的決策引擎，簡化了個人化。
+
+![](using/rn/assets/do-not-localize/gif-exd.gif)
+
+[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/experience-decisioning/gs-experience-decisioning.md)
+
+>[!TAB 全新歷程體驗]
+
+此版本隨附改善的畫布使用者介面以供歷程使用，同時提供更直覺且有效率的使用者體驗。 活動更清晰明瞭，只需更少的點按次數就能在 Canvas 歷程上呈現更多資訊。
 
 ![](using/rn/assets/new-canvas3.gif)
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/new-canvas.md)
-
->[!TAB 適用於所有提供者的MMS]
-
-透過簡訊管道，您現在可以傳送多媒體訊息服務 (MMS) 訊息，來與客戶分享影像、GIF 或影片，藉此增強通訊交流。 MMS最初僅適用於Sinch，現在也適用於Infobip和Twilio。
-
-![](using/rn/assets/do-not-localize/mms.gif)
-
-[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/sms/get-started-sms.md)
 
 >[!ENDTABS]
 
