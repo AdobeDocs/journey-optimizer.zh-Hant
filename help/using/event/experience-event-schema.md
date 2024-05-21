@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 結構描述， XDM，平台，串流，擷取，歷程
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '831'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Adobe Experience Platform可讓您定義結構描述之間的關係，以便將�
 
 ![](assets/schema15.png)
 
-不過，您無法在結構描述關係中定義物件陣列內屬性的結構描述關係，例如購買資訊清單（產品ID、產品名稱、價格、折扣）。 查閱值將不會在歷程（條件、自訂動作等）中使用 和訊息個人化。
+您也可以與物件陣列內部的屬性定義結構描述關係，例如購買資訊清單（產品ID、產品名稱、價格、折扣）。 查閱值將在歷程（條件、自訂動作等）中使用 和訊息個人化。
 
 ![](assets/schema16.png)
 

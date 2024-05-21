@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: c68e72d170792fc0ea3b6eb09b3acf818ec2cfd5
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2086'
 ht-degree: 16%
 
 ---
@@ -211,6 +211,21 @@ ht-degree: 16%
 由於30天歷程逾時，當歷程不允許重新進入時，我們無法確保重新進入封鎖將超過30天。 事實上，當我們移除在進入歷程30天後進入歷程之人員的所有相關資訊時，我們無法得知該人員先前已進入（超過30天前）。
 
 個人只有在歷程剩餘的時間夠在30天歷程逾時前的等待期間完成時，才能進入等待活動。 請參閱[此頁面](../building-journeys/wait-activity.md)。
+
+### 合併政策 {#merge-policies}
+
+Journey在從Adobe Experience Platform擷取設定檔資料時使用合併原則。 根據歷程型別，會使用不同的合併原則：
+
+* 在讀取對象或對象資格歷程中：使用來自對象的合併原則
+* 在事件觸發的歷程中：使用預設的合併原則
+
+歷程將遵循在整個歷程中使用的合併原則。
+
+>[!NOTE]
+>
+>此功能僅在有限可用性(LA)中針對選定客戶提供。
+
+若要深入瞭解合併原則，請參閱本節 [頁面](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
 
 ## 複製歷程 {#duplicate-a-journey}
 

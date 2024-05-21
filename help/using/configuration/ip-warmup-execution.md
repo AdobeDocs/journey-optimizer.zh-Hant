@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
+source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
 workflow-type: tm+mt
-source-wordcount: '2153'
-ht-degree: 14%
+source-wordcount: '2487'
+ht-degree: 11%
 
 ---
 
@@ -80,18 +80,6 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >執行啟動後，排除專案就無法再修改，除非您 [分割回合](#split-phase) 進入新階段。
 
-   1. 在 **[!UICONTROL 設定檔排除]** 區段，您可以看到該階段先前執行的設定檔一律被排除。 例如，如果在Run #1中，前4800位目標人物中涵蓋某個設定檔，系統會自動確保相同的設定檔不會在Run #2中收到電子郵件。
-
-      >[!NOTE]
-      >
-      >此區段無法編輯。
-
-   1. 從 **[!UICONTROL 已排除行銷活動對象]** 區段，選取您要從目前階段排除哪些對象的行銷活動。
-
-      ![](assets/ip-warmup-plan-exclude-campaigns.png)
-
-      例如，在執行階段1時，您必須 [分割它](#split-phase) 因為任何原因。 因此，您可以排除階段1中使用的行銷活動，如此一來，階段1中先前聯絡的設定檔就不會包含在階段2中。 您也可以從其他IP熱身計畫中排除行銷活動。
-
    1. 從 **[!UICONTROL 網域群組已排除]** 區段中，選取要從該階段排除的網域。
 
       >[!NOTE]
@@ -106,7 +94,30 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >您只能排除已新增到的自訂網域群組 [IP熱身計畫範本](ip-warmup-plan.md#prepare-file). 如果不是這種情況，請以要排除的自訂網域群組更新範本，並 [重新上傳計畫](#re-upload-plan).
 
-1. 如有需要，您可以使用取代行銷活動 **[!UICONTROL 取代行銷活動]** 按鈕。
+   1. 從 **[!UICONTROL 排除設定檔的行銷活動]** 區段，選取您要從目前階段排除哪些對象的行銷活動。
+
+      ![](assets/ip-warmup-plan-exclude-campaigns.png)
+
+      例如，在執行階段1時，您必須 [分割它](#split-phase) 因為任何原因。 因此，您可以排除階段1中使用的行銷活動，如此一來，階段1中先前聯絡的設定檔就不會包含在階段2中。 您也可以從其他IP熱身計畫中排除行銷活動。
+
+   1. 從 **[!UICONTROL 排除設定檔的歷程]** 區段，選取包含您要從目前階段排除之對象的歷程。
+
++++ 若要使用歷程來排除設定檔選項，您需要在AJO訊息回饋事件與AJO實體記錄結構描述之間建立關係。
+
+      1. 建立自訂 **名稱空間** ，可作為下列步驟的身分型別。
+
+      1. 存取Adobe Experience Platform，從 **方案** 功能表，選取 **AJO實體記錄結構描述** 並設定 **_id** 欄位作為主要身分，並選取先前建立的名稱空間作為 **身分名稱空間**.
+
+      1. 從 **方案** 功能表，選取 **AJO訊息回饋事件結構描述**，並導覽至 **_messageID** 欄位。 選取 **新增關係** 並選擇 **AJO實體記錄結構描述** 作為 **參考結構描述** 以及您先前建立的名稱空間 **參考身分名稱空間**.
++++
+
+   1. 在 **[!UICONTROL 先前執行中定位的設定檔]** 區段，您可以看到該階段先前執行的設定檔一律被排除。 例如，如果在Run #1中，前4800位目標人物中涵蓋某個設定檔，系統會自動確保相同的設定檔不會在Run #2中收到電子郵件。
+
+      >[!NOTE]
+      >
+      >此區段無法編輯。
+
+1. 如有需要，您可以使用取代行銷活動 **[!UICONTROL 取代]** 按鈕。 您也可以使用「 」來清除所選的行銷活動 **[!UICONTROL 清除]** 按鈕。 之後，您可以立即或稍後選擇新的行銷活動。
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -122,7 +133,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!CAUTION]
    >
-   >您無法復原 **[!UICONTROL 刪除]** 動作。
+   >您無法復原 **[!UICONTROL 刪除階段]** 動作。
 
    ![](assets/ip-warmup-plan-delete-phase.png)
 
@@ -155,7 +166,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
 >title="檢視合格設定檔"
->abstract="此資料欄顯示合格設定檔的數量。評估執行的對象後，如果目標設定檔多於合格設定檔，則執行仍會進行，除非&#x200B;**因錯誤而暫停**&#x200B;選項已啟用。在此情況下，會取消此執行。"
+>abstract="此資料欄顯示合格設定檔的數量。評估對象的執行後，如果目標設定檔超過合格的設定檔，則仍會執行執行，除非 **發生錯誤時取消已啟用的執行** 選項已啟用。 在此情況下，會取消此執行。"
 
 1. 選取每次執行的排程，以確保在指定的時間執行。
 
@@ -187,7 +198,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >如果您不想將任何參與期間套用至執行，請在 **[!UICONTROL 上次參與]** 欄位。
 
-1. 選取 **[!UICONTROL 暫停錯誤]** 在評估該回合的對象後，如果合格的設定檔少於目標的設定檔，則用來取消回合的選項。 在這種情況下，執行會採用 **[!UICONTROL 已失敗]** 狀態。
+1. 選取 **[!UICONTROL 發生錯誤時取消已啟用的執行]** 在評估該回合的對象後，如果合格的設定檔少於目標的設定檔，則用來取消回合的選項。 在這種情況下，執行會採用 **[!UICONTROL 已失敗]** 狀態。
 
    ![](assets/ip-warmup-plan-pause.png)
 
@@ -199,21 +210,19 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >不同的執行狀態會列在 [本節](#monitor-plan).
 
-1. 如果行銷活動尚未開始，您可以停止即時執行。 此動作會取消執行排程，但不會停止傳送。
+1. 如果行銷活動尚未開始，您可以取消即時執行。 此動作實際上會取消執行排程，但不會停止傳送。
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
-   >[!NOTE]
-   >
-   >行銷活動開始執行後， **[!UICONTROL 停止]** 按鈕變為無法使用。
+1. 若要複製任何草稿、即時或完成的執行，請選取 **[!UICONTROL 重複執行]**. 複製時，會出現「編輯執行」選單，讓使用者能夠調整 **[!UICONTROL 目標設定檔總數]** 和 **[!UICONTROL 傳送時間]** 視需要。
 
-1. 若要新增回合，請選取 **[!UICONTROL 在下方新增回合]** 從「更多動作」圖示。
-
-   ![](assets/ip-warmup-plan-run-more-actions.png)
+   ![](assets/ip-warmup-duplicate.png)
 
 ## 啟動回合 {#activate-run}
 
 若要啟動回合，請選取 **[!UICONTROL 啟動]** 按鈕。 然後，您就可以每天啟動下一個執行。
+
+同時執行多個IP熱身計畫時，如果所有計畫的目標都是相同的IP集區和網域，預測可能造成的影響至關重要。 例如，如果ISP執行每日100封電子郵件的限制，則針對相同網域執行數個計畫可能會超過此臨界值。
 
 請確定您已排程足夠的時間，以允許 [對象評估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} 將執行。
 
@@ -251,7 +260,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
      >[!NOTE]
      >
-     >每次執行都會建立新的對象構成。
+     >每次執行都會建立新的對象構成。 由於限製為10個，同時使用已發佈對象構成來執行多個行銷活動、歷程和IP熱身計畫的使用者必須提前計畫，以保持在此限制內進行平行操作。
      >
      >當啟動下一個疊代時，會清除對象構成（以及因此產生的輸出對象）。
 
@@ -284,9 +293,9 @@ IP熱身計畫本身可在單一位置作為整合報表。 您可以檢查元�
 回合可以有下列狀態：
 
 * **[!UICONTROL 草稿]** ：每當建立執行時，無論是何時 [建立新計畫](ip-warmup-plan.md) 或 [新增回合](#define-runs) 從使用者介面，它需要 **[!UICONTROL 草稿]** 狀態。
-* **[!UICONTROL 即時]**：每當您啟動回合時，它需要 **[!UICONTROL 即時]** 狀態。 這表示系統已接受排程執行的要求，而非傳送已開始。
-* **[!UICONTROL 已完成]**：此回合的行銷活動執行已完成。 <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
-* **[!UICONTROL 已取消]**：a **[!UICONTROL 即時]** 已使用「 」取消執行 **[!UICONTROL 停止]** 按鈕，或者您已啟用 **[!UICONTROL 暫停錯誤]** 選項且發生錯誤。 [了解更多](#define-runs)
+* **[!UICONTROL 即時]**：每當您啟動回合時，它需要 **[!UICONTROL 即時]** 狀態。 這表示系統已接受排程執行的要求，而非傳送已開始。 在此階段，您可以按一下 **[!UICONTROL 檢視狀態]** 表格中的按鈕。 這可讓您追蹤有多少目標設定檔實際符合資格。
+* **[!UICONTROL 已完成]**：此回合的行銷活動執行已完成。 您可以按一下 **[!UICONTROL 檢視報告]** 表格中的按鈕。 此選項可讓您追蹤執行的電子郵件傳送狀態，包括網域群組的特定劃分，以提升監控能力。 [了解更多](#reports)
+* **[!UICONTROL 已取消]**：a **[!UICONTROL 即時]** 已使用「 」取消執行 **[!UICONTROL 停止]** 按鈕，或者您已啟用 **[!UICONTROL 發生錯誤時取消已啟用的執行]** 選項且發生錯誤。 [了解更多](#define-runs)
 * **[!UICONTROL 已失敗]**：系統發生錯誤，或用於目前階段的行銷活動已停止。 如果執行失敗，您可以排程第二天再次執行。
 
 ### 使用報告 {#reports}
@@ -297,13 +306,14 @@ IP熱身計畫本身可在單一位置作為整合報表。 您可以檢查元�
 
 您也可以從以下存取報告： [行銷活動功能表](../campaigns/modify-stop-campaign.md#access) 因為您的計畫可能會使用不同的行銷活動。
 
+
 ## 管理您的計畫 {#manage-plan}
 
 在任何時候，如果您的IP熱身計畫未如預期執行，您可以採取下列動作。
 
 ### 分割階段 {#split-phase}
 
-如果要從特定執行開始新增階段，請選取 **[!UICONTROL 分割至新階段選項]** 從「更多動作」圖示。
+如果要從特定執行開始新增階段，請選取 **[!UICONTROL 分割執行到新階段]** 「更多動作」圖示中的選項。
 
 ![](assets/ip-warmup-plan-run-split-run.png)
 
@@ -313,7 +323,7 @@ IP熱身計畫本身可在單一位置作為整合報表。 您可以檢查元�
 
 請依照步驟操作 [以上](#define-phases) 以定義新階段。
 
-* 您可以使用 **[!UICONTROL 取代行銷活動]** 新階段的選項。
+* 您可以使用 **[!UICONTROL 取代]** 或 **[!UICONTROL 清除]** 新階段的選項。
 
 * 您也可以排除先前的行銷活動，或排除執行不佳的網域。 瞭解如何 [本節](#define-phases).
 

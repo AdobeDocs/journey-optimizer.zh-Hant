@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 自訂，一般，事件，歷程
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 12%
+source-wordcount: '605'
+ht-degree: 14%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 12%
 >id="ajo_journey_event_custom"
 >title="單一事件"
 >abstract="事件可讓您一致性地觸發歷程，以即時傳送訊息給流入歷程的個人。對於這類事件，您只能新增標籤和說明。事件設定由資料工程師執行，並且無法編輯。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_business_canvas"
+>title="商業事件 "
+>abstract="這些事件可讓您使用非設定檔相關事件開始歷程。 觸發該事件時，您將能夠傳送訊息給設定檔的對象。 對於這類事件，您只能新增標籤和說明。事件設定由技術使用者執行，且無法編輯。"
 
 事件可讓您一直觸發歷程，以即時傳送訊息給流入歷程的個人。
 

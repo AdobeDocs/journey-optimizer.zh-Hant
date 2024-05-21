@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
+source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 18%
+source-wordcount: '451'
+ht-degree: 17%
 
 ---
 
@@ -69,11 +69,15 @@ ht-degree: 18%
 
 1. 完成步驟以建立電子郵件行銷活動，例如定義行銷活動屬性 [對象](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?-->、和 [內容](../email/get-started-email-design.md#key-steps).
 
+   請注意，您需要為IP熱身行銷活動選取規則型對象。 [了解更多](../audience/creating-a-segment-definition.md)
+
    >[!NOTE]
    >
    >有關如何設定行銷活動的詳細資訊，請參閱 [此頁面](../campaigns/get-started-with-campaigns.md).
 
 1. [啟動](../campaigns/review-activate-campaign.md) 行銷活動。 其狀態變更為 **[!UICONTROL 即時]**.
+
+   請注意，商業規則不應用於IP熱身計畫。 套用這些規則可能會阻礙達到行銷活動所需目標設定檔數。
 
    >[!NOTE]
    >

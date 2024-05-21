@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
 workflow-type: tm+mt
-source-wordcount: '5230'
+source-wordcount: '5290'
 ht-degree: 98%
 
 ---
@@ -21,8 +21,11 @@ ht-degree: 98%
 
 ## 2024 年 5 月 {#may-2024}
 
-* 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2024年4月版本的詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
-
+* 有關 [!DNL Journey Optimizer] 2024 年 4 月發佈內容的新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
+* 已更新有關週期性歷程的種子清單區段。 [閱讀全文](../configuration/seed-lists.md#use-seed-list)
+* 已更新外部資料來源上的區段。 [閱讀全文](../datasource/external-data-sources.md#custom-authentication-access-token)
+* 護欄和限制頁面已新增30天的全域歷程逾時。 [閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
+* 有關Adobe Campaign v7/v8整合的區段已更新，其中包含有關布建的資訊。 [閱讀全文](../action/acc-action.md#access)
 
 ## 2024 年 4 月 {#april-2024}
 
@@ -30,10 +33,10 @@ ht-degree: 98%
 * 已更新[優惠決策 API](../offers/api-reference/offer-delivery-api/decisioning-api.md) 與[批次決策 API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) 文件。
 * 決策管理文件中新增了有關在邊緣決策 API 使用頻率上限時邊緣與中心區域管理的資訊。[閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
 * 對於使用 API 觸發的行銷活動，已針對利用自訂名稱空間建立身分新增資訊。 [閱讀全文](../campaigns/api-triggered-campaigns.md)
-* 熒幕擷取畫面已更新，以反映改良的Journey Canvas。
-* 已在下列頁面中更新命名限制： [設定單一事件](../event/about-creating.md)， [設定業務事件](../event/about-creating-business.md#gs-business-events)， [設定自訂動作](../action/about-custom-action-configuration.md#configuration-steps)， [外部資料來源](../datasource/external-data-sources.md)
-* 已新增傳送時間最佳化可用性的相關備註。 [閱讀全文](../building-journeys/journeys-message.md#send-time-optimization)
-* 已新增新的技術使用案例，說明如何建立自訂動作，將資料傳送至Experience Platform。 [閱讀全文](../building-journeys/custom-action-aep.md)
+* 螢幕擷取畫面已更新，以反映改進的歷程畫布。
+* 命名約束已在以下頁面中更新：[設定單一事件](../event/about-creating.md)、[設定業務事件](../event/about-creating-business.md#gs-business-events)、[設定自訂動作](../action/about-custom-action-configuration.md#configuration-steps)、[外部資料來源](../datasource/external-data-sources.md)
+* 新增了有關傳送時間最佳化可用性的備註。 [閱讀全文](../building-journeys/journeys-message.md#send-time-optimization)
+* 新增了一個關於如何建立自訂動作以將資料傳送到 Experience Platform 的新技術使用案例。 [閱讀全文](../building-journeys/custom-action-aep.md)
 
 ## 2024 年 3 月 {#march-2024}
 
@@ -91,7 +94,7 @@ ht-degree: 98%
 * 已更新事件欄位語法。 下列語法已過時 `@(my_event.myfield}`，並已由 `@event{my_event.myfield}` 取代。[閱讀全文](../building-journeys/expression/field-references.md)
 * 已重新整理「全域報告」和「即時報告」指南。 [閱讀全文](../reports/campaign-global-report.md)
 
-+++ 2023
++++ 2023 年
 
 ## 2023 年 11 月 {#nov-2023}
 

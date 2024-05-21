@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
 source-wordcount: '1536'
 ht-degree: 10%
@@ -71,6 +71,10 @@ ht-degree: 10%
 * 達到分割時，一律選擇頂端分支。 如果您希望測試選擇不同的路徑，可以重新組織分割分支的位置。
 * 為了最佳化效能及避免過時資源的使用，所有處於測試模式且一週內未觸發的歷程將切換回 **草稿** 狀態。
 * 測試模式所觸發的事件會儲存在專用的資料集中。 這些資料集標示如下： `JOtestmode - <schema of your event>`
+
+<!--
+* Fields from related entities are hidden from the test mode.
+-->
 
 ## 觸發您的事件 {#firing_events}
 

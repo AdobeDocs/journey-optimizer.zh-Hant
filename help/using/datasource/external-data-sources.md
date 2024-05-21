@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
 workflow-type: tm+mt
-source-wordcount: '1531'
-ht-degree: 62%
+source-wordcount: '1541'
+ht-degree: 61%
 
 ---
 
@@ -139,7 +139,7 @@ ht-degree: 62%
 >
 >**此驗證分為兩個部分。**
 
-### 要呼叫的端點定義，用於產生存取權杖
+### 要呼叫的端點定義，用於產生存取權杖{#custom-authentication-endpoint}
 
 * 端點：用於產生端點的 URL
 * 端點上的 HTTP 要求方法（GET 或 POST）
@@ -148,7 +148,7 @@ ht-degree: 62%
    * &#39;form&#39;：表示內容型別將會是application/x-www-form-urlencoded （字元集UTF-8），而金鑰 — 值配對將會序列化為：key1=value1&amp;key2=value2&amp;...
    * &#39;json&#39;：表示內容型別將會是application/json （字元集UTF-8），而機碼值組將會序列化為json物件，如下所示： _{ &quot;key1&quot;： &quot;value1&quot;， &quot;key2&quot;： &quot;value2&quot;， ...}_
 
-### 存取權杖插入動作之HTTP要求必須採用的方式定義
+### 存取權杖插入動作之HTTP要求必須採用的方式定義{#custom-authentication-access-token}
 
 * authorizationType：定義如何將產生的存取權杖插入到動作的 HTTP 要求。可能的值包括：
 
@@ -189,6 +189,10 @@ ht-degree: 62%
 }
 ```
 
+>[!NOTE]
+>
+>Encode64是驗證裝載中唯一可用的函式。
+
 您可以針對自訂驗證資料來源變更權杖之快取期間的資訊。以下是自訂驗證有效負載的範例。會在　&quot;cacheDuration&quot;　參數中定義快取期間。其會指定快取中產生權杖的保留期間。單位可能是毫秒、秒、分鐘、小時、天、月、年。
 
 以下是持有人驗證型別的範例：
@@ -198,7 +202,7 @@ ht-degree: 62%
   "authentication": {
     "type": "customAuthorization",
     "authorizationType": "Bearer",
-    "endpoint": "https://localhost:${port}/epsilon/oauth2/access_token",
+    "endpoint": "https://<your_auth_endpoint>/epsilon/oauth2/access_token",
     "method": "POST",
     "headers": {
       "Authorization": "Basic EncodeBase64(<epsilon Client Id>:<epsilon Client Secret>)"

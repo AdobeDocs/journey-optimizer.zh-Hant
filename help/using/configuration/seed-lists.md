@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 種子清單，種子清單，種子，設定
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '945'
 ht-degree: 16%
 
 ---
@@ -156,4 +156,4 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->對於歷程，電子郵件傳遞只會傳送到歷程首次執行時的種子地址。
+>對於週期性歷程，只要至少一個設定檔達到電子郵件節點，就會在每次歷程執行時將電子郵件傳送傳送至種子地址。
