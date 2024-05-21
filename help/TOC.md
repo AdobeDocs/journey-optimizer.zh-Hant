@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
+source-git-commit: b69c75e0a8a35635a67065412e443a2af0d3b09f
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 96%
+source-wordcount: '1808'
+ht-degree: 99%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 96%
          + [使用自訂動作以動態方式傳遞集合](using/building-journeys/collections.md)
          + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
          + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
-         + [使用自訂動作在Experience Platform中寫入歷程事件](using/building-journeys/custom-action-aep.md)
+         + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
 + 行銷活動{#campaigns}
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
    + [建立行銷活動](using/campaigns/create-campaign.md)
@@ -230,12 +230,12 @@ ht-degree: 96%
    + [檢查並傳送文字訊息](using/sms/send-sms.md)
    + [管理文字訊息的選擇退出](using/sms/sms-opt-out.md)
    + [設定簡訊子網域](using/sms/sms-subdomains.md)
-   + 設定簡訊/多媒體簡訊頻道{#configure-sms}
+   + 設定 SMS / MMS 通道{#configure-sms}
       + [開始使用簡訊設定](using/sms/sms-configuration.md)
-      + [設定Sinch提供者](using/sms/sms-configuration-sinch.md)
-      + [設定Infobip提供者](using/sms/sms-configuration-infobip.md)
-      + [設定Twilio提供者](using/sms/sms-configuration-twilio.md)
-      + [建立簡訊表面](using/sms/sms-configuration-surface.md)
+      + [設定 Sinch 提供者](using/sms/sms-configuration-sinch.md)
+      + [設定 Infobip 提供者](using/sms/sms-configuration-infobip.md)
+      + [設定 Twilio 提供者](using/sms/sms-configuration-twilio.md)
+      + [建立簡訊界面](using/sms/sms-configuration-surface.md)
 + 直接郵件 {#direct-mail}
    + [開始使用直接郵件](using/direct-mail/get-started-direct-mail.md)
    + [建立直接郵件](using/direct-mail/create-direct-mail.md)
@@ -271,13 +271,13 @@ ht-degree: 96%
       + [設定登陸頁面子網域](using/landing-pages/lp-subdomains.md)
       + [定義登陸頁面預設集](using/landing-pages/lp-presets.md)
 + 內容管理 {#content-management}
-   + 使用AI助理{#ai-assistant}
+   + 使用 AI 助理{#ai-assistant}
       + [開始使用 AI 助理](using/content-management/gs-generative.md)
       + [電子郵件產生](using/content-management/generative-email.md)
       + [推播產生](using/content-management/generative-push.md)
       + [簡訊產生](using/content-management/generative-sms.md)
-      + [使用AI助理進行內容實驗](using/content-management/generative-experimentation.md)
-   + 使用多語言內容{#content-multilingual}
+      + [使用 AI 助理進行內容實驗](using/content-management/generative-experimentation.md)
+   + 可在多語言內容中使用{#content-multilingual}
       + [開始使用多語言內容](using/content-management/multilingual-gs.md)
       + [使用手動翻譯建立多語言內容](using/content-management/multilingual-manual.md)
       + [使用自動化翻譯建立多語言內容](using/content-management/multilingual-automated.md)
@@ -375,7 +375,7 @@ ht-degree: 96%
    + [警報](using/reports/alerts.md)
    + [使用 Customer Journey Analytics](using/reports/cja-ajo.md)
    + [排除原因](using/reports/exclusion-list.md)
-+ 決策 {#decisioning}
++ 決策{#decisioning}
    + 決定管理 {#offer-decisioning}
       + 開始使用決定管理 {#get-started-decision}
          + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
@@ -515,19 +515,19 @@ ht-degree: 96%
             + [決策 API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [邊緣決策 API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [批次決策 API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + Experience Decisioning (LA) {#experience-decisioning}
-      + [開始使用 Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+   + 體驗決策 (LA) {#experience-decisioning}
+      + [開始使用體驗決策](using/experience-decisioning/gs-experience-decisioning.md)
       + 管理決定項目 {#decision-items}
          + [設定項目目錄](using/experience-decisioning/catalogs.md)
          + [建立決定項目](using/experience-decisioning/items.md)
-         + [管理專案集合](using/experience-decisioning/collections.md)
-      + 設定專案選取範圍 {#selection}
+         + [管理項目集合](using/experience-decisioning/collections.md)
+      + 設定項目的選取範圍 {#selection}
          + [建立決定規則](using/experience-decisioning/rules.md)
          + [建立排名方法](using/experience-decisioning/ranking.md)
          + [善用內容資料](using/experience-decisioning/context-data.md)
       + [建立選擇策略](using/experience-decisioning/selection-strategies.md)
       + [建立決定原則](using/experience-decisioning/create-decision.md)
-      + [Customer Journey Analytics中的報告](using/experience-decisioning/cja-reporting.md)
+      + [客戶歷程分析報告](using/experience-decisioning/cja-reporting.md)
 + 資料管理 {#data-management}
    + [開始使用資料管理](using/data/gs-data.md)
    + [使用方案](using/data/get-started-schemas.md)
@@ -562,6 +562,7 @@ ht-degree: 96%
    + [變更執行地址](using/configuration/primary-email-addresses.md)
    + [設定頻率規則](using/configuration/frequency-rules.md)
    + [運用業務規則](using/configuration/business-rules.md)
+   + [使用規則集](using/configuration/rule-sets.md)
    + 設定歷程 {#configure-journeys}
       + [關於資料來源、事件和動作](using/configuration/about-data-sources-events-actions.md)
       + 與外部系統整合{#external-systems}
