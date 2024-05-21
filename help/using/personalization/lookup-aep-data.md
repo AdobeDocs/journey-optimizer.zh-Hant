@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 運算式，編輯器
 hidefromtoc: true
 hide: true
-source-git-commit: ae26dfdf77433882dc57e5518a2ff5e0f7e3a3ce
+source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Journey Optimizer可讓您在運算式編輯器中運用Adobe Experience Platfor
 
 1. 開啟運算式編輯器，您可在每個內容中定義個人化（例如訊息），此編輯器可供使用。 [瞭解如何使用運算式編輯器](../personalization/personalization-build-expressions.md)
 
-1. 導覽至協助程式函式清單，然後新增 **多實體** 將協助程式函式新增至程式碼窗格。
+1. 導覽至協助程式函式清單，然後新增 **datasetLookup** 將協助程式函式新增至程式碼窗格。
 
    ![](assets/aep-data-helper.png)
 
@@ -41,6 +41,11 @@ Journey Optimizer可讓您在運算式編輯器中運用Adobe Experience Platfor
 
    * **entity.datasetId** 是您使用之資料集的ID、
    * **id** 是資料集中用來作為主要身分的欄位，
+
+     >[!NOTE]
+     >
+     >為此欄位輸入的值可以是欄位ID (*profile.couponValue*)，在歷程事件中傳遞的欄位(*context.journey.events.event_ID.couponValue*)或靜態值(*抵用券Abcd*)。 無論如何，系統都會使用值，並在資料集中查詢，以檢查它是否符合索引鍵)。
+
    * **結果** 是任意名稱，您需要提供以參考您要從資料集中擷取的所有欄位值。 此值將在您的程式碼中用於呼叫每個欄位。
 
    +++在哪裡擷取資料集ID？
