@@ -10,9 +10,9 @@ level: Beginner
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -46,23 +46,23 @@ ht-degree: 74%
 
 開始在 Journey Optimizer 建立第一個行銷活動之前，請先檢查下列必要條件：
 
-1. **您需要適當的權限**。行銷活動僅適用於具有行銷活動相關存取許可權的使用者 **[!UICONTROL 產品設定檔]** 例如Campaign管理員、Campaign核准者、Campaign管理員及/或Campaign檢視者。如果您無法存取行銷活動，則必須擴充您的許可權。
+1. **您需要適當的權限**。行銷活動僅適用於具有行銷活動相關&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;存取權的使用者，例如 Campaign 管理員、Campaign 核准者、Campaign 主管和/或 Campaign 檢視者。如果您無法存取行銷活動，則必須擴展您的權限。
 
-   +++瞭解如何指派行銷活動相關角色
+   +++了解如何指派行銷活動相關角色
 
-   1. 若要在中指派角色給使用者 [!DNL Permissions] 產品，導覽至 **[!UICONTROL 角色]** 索引標籤並選取其中一個相關的內建行銷活動 **[!UICONTROL 角色]**：Campaign管理員、Campaign核准者、Campaign管理員或Campaign檢視者。
+   1. 若要將角色指派給 [!DNL Permissions] 產品中的使用者，請導覽至&#x200B;**[!UICONTROL 角色]**&#x200B;標籤，然後選擇與行銷活動相關的內建角色之一&#x200B;**[!UICONTROL 角色]**：Campaign 管理員、Campaign 核准者、Campaign 經理或行銷活動檢視者。
 
-   1. 從 **[!UICONTROL 使用者]** 標籤，按一下 **[!UICONTROL 新增使用者]**.
+   1. 在&#x200B;**[!UICONTROL 使用者]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL 新增使用者]**。
 
-   1. 輸入使用者的名稱或電子郵件地址，或從清單中選取使用者，然後按一下 **[!UICONTROL 儲存]**.
+   1. 輸入您的使用者名稱或電子郵件地址，或從清單中選擇使用者，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
-      如果使用者先前未建立，請參閱 [新增使用者檔案](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+      如果之前未建立使用者，請參閱[新增使用者文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/users)。
 
-   接著，您的使用者應會收到一封電子郵件，並重新導向至您的執行個體。
+   接著，使用者應會收到一封電子郵件，並重新導向至您的執行個體。
 
 +++
 
-1. **您需要對象**。建立行銷活動之前必須有可用的對象。 [在此頁面中](../audience/about-audiences.md)了解更多有關對象的資訊。
+1. **您需要閱聽眾**。建立行銷活動之前必須有可用的對象。 [在此頁面中](../audience/about-audiences.md)了解更多有關對象的資訊。
 1. **需要管道表面**。若要選取管道，您必須建立相對應的管道表面 (即預設)，使其可供使用。[在本頁](../configuration/channel-surfaces.md)深入了解管道表面。
 
 ## 操作說明影片 {#video}
