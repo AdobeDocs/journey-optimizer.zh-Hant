@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
+source-git-commit: eccc8d954ce36747800d42eb2b73e45952eb43e7
 workflow-type: tm+mt
 source-wordcount: '2065'
 ht-degree: 97%
@@ -165,7 +165,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 | API | 每秒決策數 |
 |---------|----------|
 | 決策 API 請求 | 每秒 500 個 |
-| 邊緣決策 API 請求 | 每秒 5000 個 |
+| 邊緣決策 API 請求 | 每秒 1500 個 |
 
 ### 限制 {#offers-limitations}
 
