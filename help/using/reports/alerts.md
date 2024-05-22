@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: ddf9465fb940706fb38dc05038336ac22abecbc0
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 進一步瞭解Adobe Experience Platform中的警示，位置在： [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hant){target="_blank"}.
 
-在左側選單中的 **管理**，按一下 **警報**. 提供兩種適用於Journey Optimizer的預先設定警報： [歷程自訂動作失敗](#alert-custom-actions) 警報和 [讀取區段觸發器失敗](#alert-read-audiences) 警報。 這些警報的詳細資訊如下。
+在左側選單中的 **管理**，按一下 **警報**. 提供兩種適用於Journey Optimizer的預先設定警報： [歷程自訂動作失敗](#alert-custom-actions) 警報和 [讀取對象觸發器失敗](#alert-read-audiences) 警報。 這些警報的詳細資訊如下。
 
 您可以從使用者介面個別訂閱每個警報，方法是選取 **訂閱** 選項來自 **警報** 儀表板。 使用相同的方法取消訂閱。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 警示開啟 **讀取對象** 在設定檔進入 **讀取對象** 節點。
 
-與對應的I/O事件訂閱名稱 **讀取區段觸發器失敗** 警示為 **歷程讀取區段延遲、失敗和錯誤**.
+與對應的I/O事件訂閱名稱 **讀取對象觸發器失敗** 警示為 **歷程讀取對象延遲、失敗和錯誤**.
 
 ## 疑難排解 {#alert-troubleshooting}
 
