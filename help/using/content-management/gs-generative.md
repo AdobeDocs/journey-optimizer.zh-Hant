@@ -14,7 +14,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 644e0959ee0d0ec8ee0c4ec54c3bcd1cc3c4dda9
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 100%
+ht-degree: 67%
 
 ---
 
@@ -23,28 +23,28 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
 >title="AI 助理"
->abstract="精心設計和個人化傳遞後，您可以使用 AI 助理來強化內容。此功能可讓您透過描述您想產生的內容來進行微調，進而簡化個人化和改善內容的流程。"
+>abstract="完成傳遞的製作和個人化後，您就可以使用AI助理來增強內容。 此功能可讓您描述要產生的內容，以微調內容，進而簡化個人化和內容改善的程式。"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
->title="使用 AI 助理定義上下文"
->abstract="若要將所選內容用做內容生成的輸入，請啟動「**使用原來的內容**」切換按鈕。您也可以上傳您的品牌資產以將其做為來源。如果您不使用所選內容，則必須上傳並選取品牌資產。"
+>title="使用AI助理定義內容"
+>abstract="若要使用選取的內容作為內容產生的輸入，請啟動 **使用原始內容** 切換。 您也可以上傳您的品牌資產，以便作為來源使用。 如果您未使用選取的內容，則必須上傳及選取品牌資產。"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
->title="Adobe 生成式 AI 詞彙"
->abstract="若要取得此功能的存取權限，您必需同意 Adobe Experience Cloud 生成式 AI 使用者準則。您為此功能提供的任何提示、上下文或補充資訊或其他輸入都必須與特定上下文相關聯，其中可以包括您的品牌素材、網站內容、資料、此類資料的架構、範本或其他可信任文件，並且不得包含任何個人資訊 (個人資訊包括任何可連結到特定個人的資訊)。您應該檢查此功能之任何輸出的準確性，並確保它適合您的使用案例"
->additional-url="https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 使用者準則"
+>title="AdobeGenerative AI辭彙"
+>abstract="對此功能的存取權取決於您對Adobe Experience Cloud Generative AI使用者指南的同意。 您為此功能提供的任何提示、內容、補充資訊或其他輸入內容都必須與特定內容連結，其中可能包括您的品牌推廣材料、網站內容、資料、此類資料的結構描述、範本或其他受信任檔案，並且不得包含任何個人資訊（個人資訊包括可連結回特定個人的任何內容）。 您應該檢閱此功能的任何輸出是否準確，並確定它適合您的使用案例"
+>additional-url="https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI使用手冊"
 
 >[!BEGINSHADEBOX]
 
 **目錄**
 
 * 開始使用 AI 助理
-* [使用 AI 助理產生電子郵件](generative-email.md)
-* [使用 AI 助理產生簡訊](generative-sms.md)
+* [使用AI助理產生電子郵件](generative-email.md)
+* [使用AI助理產生簡訊](generative-sms.md)
 * [使用 AI 助理推播產生](generative-push.md)
 * [使用 AI 助理進行內容實驗](generative-experimentation.md)
 
