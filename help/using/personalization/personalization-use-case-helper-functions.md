@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，協助程式，使用案例，個人化
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: c9627cfd1d717d56744f0287738b1303194c23e1
 workflow-type: tm+mt
 source-wordcount: '1038'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 * 歷程中的電子郵件訊息。 [了解更多](../email/create-email.md)
 * 電子郵件內文。 [了解更多](../email/content-from-scratch.md)。
 
-請依照下列步驟操作：
+請依照下列步驟執行：
 
 1. [建立初始事件和歷程](#create-context).
 1. [建立電子郵件訊息](#configure-email).
@@ -199,9 +199,9 @@ ht-degree: 2%
       <table>
          <tbody>
             <tr>
-               <td><b>{{context.journey.events.event_ID.productListItems.name}}</b></td>
-               <td><b>{{context.journey.events.event_ID.productListItems.quantity}}</b></td>
-               <td><b>${{context.journey.events.event_ID.productListItems.priceTotal}}</b></td>
+            <td><b>{{product.name}}</b></td>
+            <td><b>{{product.quantity}}</b></td>
+            <td><b>${{product.priceTotal}}</b></td>
             </tr>
          </tbody>
       </table>
