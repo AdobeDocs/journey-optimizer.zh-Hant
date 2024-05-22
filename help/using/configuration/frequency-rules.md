@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 頻率規則
+title: 業務規則
 description: 瞭解如何定義頻率規則
 feature: Rules
 topic: Content Management
@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 2e6d55b5e26ca8486289b4b5c5df0b2e898a9992
+source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 11%
+source-wordcount: '1257'
+ht-degree: 6%
 
 ---
 
-# 訊息頻率規則 {#frequency-rules}
+# 業務規則 {#frequency-rules}
+
+>[!CONTEXTUALHELP]
+>id="ajo_business_rules_message_frequency_rules"
+>title="業務規則"
+>abstract="使用商業規則來設定跨頻道規則，控制使用者收到訊息或進入歷程的頻率，這些規則會自動從訊息和動作中排除過度請求的設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
@@ -25,54 +30,52 @@ ht-degree: 11%
 
 [!DNL Journey Optimizer] 可讓您設定跨頻道規則，控制使用者收到訊息或進入歷程的頻率，這些規則會自動從訊息和動作中排除過度請求的設定檔。
 
-例如，針對品牌，規則每個月不得傳送超過4則行銷訊息給客戶。 為此，您可以使用頻率規則，該規則將限制每月日曆期間根據一個或多個頻道傳送的訊息數。
+例如，針對品牌，規則每個月不得傳送超過4則行銷訊息給客戶。 若要這麼做，您可以使用商業規則，在每月日曆期間，根據一或多個管道傳送的訊息數量會受到限制。
 
 ![](assets/do-not-localize/sms-dm-rules.gif)
 
 >[!NOTE]
 >
->訊息頻率規則與選擇退出管理不同，後者允許使用者取消訂閱以停止接收來自品牌的通訊。 [了解更多](../privacy/opt-out.md#opt-out-management)
+>商業規則與選擇退出管理不同，後者允許使用者取消訂閱以停止接收來自品牌的通訊。 [了解更多](../privacy/opt-out.md#opt-out-management)
 
 ➡️ [在影片中探索此功能](#video)
 
-## 存取權規則 {#access-rules}
+## 存取商業規則 {#access-rules}
 
-規則可從以下網址取得： **[!UICONTROL 管理]** > **[!UICONTROL 規則]** 功能表。 所有規則都會列出，並依修改日期排序。
-
-使用篩選器圖示來篩選類別、狀態和/或頻道。 您也可以搜尋訊息標籤。
+商業規則可從以下網址取得： **[!UICONTROL 管理]** > **[!UICONTROL 業務規則]** 功能表。 所有規則都會列出，並依修改日期排序。 使用篩選器圖示來篩選類別、狀態和/或頻道。 您也可以搜尋訊息標籤。
 
 ![](assets/message-rules-filter.png)
 
 ### 權限{#permissions-frequency-rules}
 
-若要存取、建立、編輯或刪除訊息頻率規則，您必須擁有 **[!UICONTROL 管理頻率規則]** 許可權。
+若要存取、建立、編輯或刪除商業規則，您必須擁有 **[!UICONTROL 管理頻率規則]** 許可權。
 
 使用者具有 **[!UICONTROL 檢影片率規則]** 許可權可以檢視規則，但不能修改或刪除規則。
 
 ![](assets/message-rules-access.png)
 
-若要了解權限的詳細資訊，請參閱[本章節](../administration/high-low-permissions.md)。
+進一步瞭解中的許可權 [本節](../administration/high-low-permissions.md).
 
-## 建立規則 {#create-new-rule}
+## 建立商業規則 {#create-new-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_category"
 >title="選取訊息規則類別"
->abstract="啟動並套用至訊息時，和所選類別相符的所有頻率規則會自動應用至該訊息。目前只有行銷類別可用。"
+>abstract="啟用並套用至訊息時，符合所選類別的所有商業規則將自動套用至此訊息。 目前僅行銷類別可用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
->title="設定規則的上限"
->abstract="指定在所選時間範圍內傳送至客戶設定檔的最大訊息數量。頻率上限會以所選的行事曆期間為基礎，並會在對應的時間段開始時重設。 "
+>title="為您的商業規則設定上限"
+>abstract="指定在所選時間範圍內傳送到客戶設定檔的最大訊息數。頻率上限將以所選的日曆週期為基礎，並將在對應時間範圍開始時重設。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
->title="定義套用規則的管道"
->abstract="選取至少一個管道。上限會以總計數套用在所有管道上。"
+>title="定義套用商業規則的管道"
+>abstract="請至少選取一個管道。頻率限定會當作總計數套用至各管道。"
 
-若要建立新規則，請遵循下列步驟。
+若要建立新的商業規則，請遵循下列步驟。
 
-1. 存取 **[!UICONTROL 訊息頻率規則]** 清單，然後按一下 **[!UICONTROL 建立規則]**.
+1. 存取 **[!UICONTROL 業務規則]** 清單，然後按一下 **[!UICONTROL 建立規則]**.
 
    ![](assets/message-rules-create.png)
 
@@ -134,19 +137,19 @@ ht-degree: 11%
 >
 >為確保每日頻率限定規則的準確性，請使用 [串流細分](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} 建議使用。 進一步瞭解中的對象評估方法 [本節](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
-## 啟用規則 {#activate-rule}
+## 啟用商業規則 {#activate-rule}
 
-建立時，訊息頻率規則具有 **[!UICONTROL 草稿]** 狀態，且尚未影響任何訊息。 若要啟用，請按一下規則旁的省略符號，然後選取「 」 **[!UICONTROL 啟動]**.
+建立時，商業規則具有 **[!UICONTROL 草稿]** 狀態，且尚未影響任何訊息。 若要啟用，請按一下規則旁的省略符號，然後選取「 」 **[!UICONTROL 啟動]**.
 
 ![](assets/message-rules-activate.png)
 
-啟用規則會影響規則在下次執行時套用的任何訊息。 瞭解如何 [將頻率規則套用至訊息](#apply-frequency-rule).
+啟用規則會影響規則在下次執行時套用的任何訊息。 瞭解如何 [將商業規則套用至訊息](#apply-frequency-rule).
 
 >[!NOTE]
 >
 >規則完整啟用最多可能需要10分鐘。 您不需要修改訊息或重新發佈歷程，規則就能生效。
 
-若要停用訊息頻率規則，請按一下規則旁的省略符號，然後選取 **[!UICONTROL 停用]**.
+若要停用商業規則，請按一下規則旁的省略符號，然後選取 **[!UICONTROL 停用]**.
 
 ![](assets/message-rules-deactivate.png)
 
@@ -156,9 +159,9 @@ ht-degree: 11%
 >
 >停用規則不會影響或重設個別設定檔的任何計數。
 
-## 將頻率規則套用至訊息 {#apply-frequency-rule}
+## 將商業規則套用至訊息 {#apply-frequency-rule}
 
-若要將頻率規則套用至訊息，請遵循下列步驟。
+若要將商業規則套用至訊息，請遵循下列步驟。
 
 1. 建立 [歷程](../building-journeys/journey-gs.md)，選取您為規則定義的其中一個管道，以新增訊息。
 
@@ -168,17 +171,17 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >目前僅限 **[!UICONTROL 行銷]** 類別適用於訊息頻率規則。
+   >目前僅限 **[!UICONTROL 行銷]** 類別適用於商業規則。
 
 1. 您可以按一下 **[!UICONTROL 頻率規則]** 連結以在新的索引標籤中檢影片率規則畫面。 [了解更多](#access-rules)
 
-   所有符合所選類別和頻道的頻率規則都會自動套用至此訊息。
+   符合所選類別和管道的所有規則都會自動套用至此訊息。
 
    >[!NOTE]
    >
    >所選類別為的訊息 **[!UICONTROL 異動]** 將不會根據頻率規則進行評估。
 
-1. 您可以在以下位置檢視從傳送中排除的設定檔數： [全域報告](../reports/global-report.md)，以及 [即時報告](../reports/live-report.md)，其中會列出頻率規則，作為使用者從傳送中排除的可能原因。
+1. 您可以在以下位置檢視從傳送中排除的設定檔數： [全域報告](../reports/global-report.md)，以及 [即時報告](../reports/live-report.md)，其中商業規則會列為使用者被排除於傳送的可能原因。
 
 >[!NOTE]
 >
@@ -186,9 +189,9 @@ ht-degree: 11%
 
 ## 範例：合併數個規則 {#frequency-rule-example}
 
-您可以結合數個訊息頻率規則，如下列範例所述。
+您可以結合數個商業規則，如下列範例所述。
 
-1. [建立規則](#create-new-rule) 已呼叫 *整體行銷上限*：
+1. [建立商業規則](#create-new-rule) 已呼叫 *整體行銷上限*：
 
    * 選取所有色版。
    * 將上限設定為每月12個。
@@ -204,7 +207,7 @@ ht-degree: 11%
 
 1. 儲存並 [啟用](#activate-rule) 規則。
 
-1. [建立訊息](../building-journeys/journeys-message.md) 針對您想要通訊的每個管道，選取 **[!UICONTROL 行銷]** 每則訊息的類別。 [瞭解如何套用頻率規則](#apply-frequency-rule)
+1. [建立訊息](../building-journeys/journeys-message.md) 針對您想要通訊的每個管道，選取 **[!UICONTROL 行銷]** 每則訊息的類別。 [瞭解如何套用商業規則](#apply-frequency-rule)
 
    ![](assets/journey-message-category.png)
 
@@ -231,10 +234,10 @@ Create a direct mail and select the **[!UICONTROL Marketing]** category for that
 
 >[!NOTE]
 >
->測試頻率規則時，建議使用新建立的 [測試設定檔](../audience/creating-test-profiles.md)，因為一旦達到設定檔的頻率上限，就無法在下個月之前重設計數器。 停用規則將允許限定設定檔接收訊息，但不會移除或刪除任何計數器增量。
+>測試商業規則時，建議使用新建立的 [測試設定檔](../audience/creating-test-profiles.md)，因為一旦達到設定檔的頻率上限，就無法在下個月之前重設計數器。 停用規則將允許限定設定檔接收訊息，但不會移除或刪除任何計數器增量。
 
 ## 操作說明影片 {#video}
 
-瞭解如何建立、啟用、測試並報告頻率規則。
+瞭解如何建立、啟用、測試及報告商業規則。
 
 >[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
+source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
 workflow-type: tm+mt
 source-wordcount: '1811'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 99%
          + [條件式指令](using/building-journeys/expression/conditional-instruction.md)
          + [資料類型](using/building-journeys/expression/data-types.md)
          + [欄位參考](using/building-journeys/expression/field-references.md)
-         + [收集管理函式](using/building-journeys/expression/collection-management-functions.md)
+         + [集合管理函式](using/building-journeys/expression/collection-management-functions.md)
          + [操作者](using/building-journeys/expression/operators.md)
          + [歷程屬性](using/building-journeys/expression/journey-properties.md)
          + [範例](using/building-journeys/expression/advanced-editor-use-cases.md)
@@ -90,10 +90,10 @@ ht-degree: 99%
             + [計數](using/building-journeys/functions/functioncount.md)
             + [countOnlyNull](using/building-journeys/functions/functioncountonlynull.md)
             + [countWithNull](using/building-journeys/functions/functioncountwithnull.md)
-            + [distinctCount](using/building-journeys/functions/functiondistinctcount.md)
-            + [distinctCountWithNull](using/building-journeys/functions/functiondistinctcountwithnull.md)
+            + [distinctcount](using/building-journeys/functions/functiondistinctcount.md)
+            + [distinctcountwithnull](using/building-journeys/functions/functiondistinctcountwithnull.md)
             + [max](using/building-journeys/functions/functionmax.md)
-            + [min](using/building-journeys/functions/functionmin.md)
+            + [分鐘](using/building-journeys/functions/functionmin.md)
             + [sum](using/building-journeys/functions/functionsum.md)
          + 轉換 {#conversion}
             + [toBool](using/building-journeys/functions/functiontobool.md)
@@ -105,18 +105,18 @@ ht-degree: 99%
             + [toInteger](using/building-journeys/functions/functiontointeger.md)
             + [toString](using/building-journeys/functions/functiontostring.md)
          + 日期 {#date}
-            + [currentTime&#x200B;InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
+            + [currentTimeInMillis&#x200B;](using/building-journeys/functions/functioncurrenttimeinmillis.md)
             + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
-            + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
-            + [inLastMonths](using/building-journeys/functions/functioninlastmonths.md)
-            + [inLastYears](using/building-journeys/functions/functioninlastyears.md)
+            + [inlastHours](using/building-journeys/functions/functioninlasthours.md)
+            + [Inlastmonths](using/building-journeys/functions/functioninlastmonths.md)
+            + [inlastYears](using/building-journeys/functions/functioninlastyears.md)
             + [inNextDays](using/building-journeys/functions/functioninnextdays.md)
-            + [inNextHours](using/building-journeys/functions/functioninnexthours.md)
-            + [inNextMonths](using/building-journeys/functions/functioninnextmonths.md)
-            + [inNextYears](using/building-journeys/functions/functioninnextyears.md)
+            + [innexthours](using/building-journeys/functions/functioninnexthours.md)
+            + [Innexmonths](using/building-journeys/functions/functioninnextmonths.md)
+            + [innextyears](using/building-journeys/functions/functioninnextyears.md)
             + [now](using/building-journeys/functions/functionnow.md)
-            + [nowWithDelta](using/building-journeys/functions/functionnowwithdelta.md)
-            + [setHours](using/building-journeys/functions/functionsethours.md)
+            + [nowWithΔ](using/building-journeys/functions/functionnowwithdelta.md)
+            + [sethours](using/building-journeys/functions/functionsethours.md)
             + [setDays](using/building-journeys/functions/functionsetdays.md)
             + [updateTimeZone](using/building-journeys/functions/functionupdatetimezone.md)
          + 清單 {#list}
@@ -146,7 +146,7 @@ ht-degree: 99%
             + [lastIndexOf](using/building-journeys/functions/functionlastindexof.md)
             + [長度](using/building-journeys/functions/functionlength.md)
             + [lower](using/building-journeys/functions/functionlower.md)
-            + [matchRegExp](using/building-journeys/functions/functionmatchregexp.md)
+            + [matchregExp](using/building-journeys/functions/functionmatchregexp.md)
             + [notequalIgnoreCase](using/building-journeys/functions/functionnotequalignorecase.md)
             + [replace](using/building-journeys/functions/functionreplace.md)
             + [replaceAll](using/building-journeys/functions/functionreplaceall.md)
@@ -424,7 +424,7 @@ ht-degree: 99%
          + [遞補資料集](using/offers/export-catalog/export-fallback.md)
       + API 參考 {#api-reference}
          + [快速入門](using/offers/api-reference/getting-started.md)
-         + 使用 API 建立和管理優惠方案{#offers-api}
+         + 使用API建立和管理優惠方案 {#offers-api}
             + 位置 {#placements}
                + [清單位置](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [查詢位置](using/offers/api-reference/offers-api/placements/lookup.md)
@@ -561,7 +561,7 @@ ht-degree: 99%
    + [使用種子清單](using/configuration/seed-lists.md)
    + [支援封存](using/configuration/archiving-support.md)
    + [變更執行地址](using/configuration/primary-email-addresses.md)
-   + [設定頻率規則](using/configuration/frequency-rules.md)
+   + [設定商業規則](using/configuration/frequency-rules.md)
    + [使用規則集](using/configuration/rule-sets.md)
    + 設定歷程 {#configure-journeys}
       + [關於資料來源、事件和動作](using/configuration/about-data-sources-events-actions.md)
