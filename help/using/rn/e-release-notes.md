@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: bd4e352378ba9f895a192b467a650013af669c4d
+source-git-commit: ae9a315f6c9d2c2408788a7e4b32cdbd516f41d6
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 37%
+source-wordcount: '656'
+ht-degree: 40%
 
 ---
 
@@ -50,21 +50,21 @@ ht-degree: 37%
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>IP熱身工作流程</strong><br/></th>
+<th><strong>IP Warmup Workflow</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>如果您使用全新的IP位址傳送電子郵件，現在可以直接從使用者介面輕鬆執行IP熱身工作流程。 Adobe Journey Optimizer提供標準化和有效率的方式，讓您的IP位址按照最佳實務來熱身，以實現最佳傳遞能力。</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>If you are sending email on a brand new IP address, you can now easily perform IP warmup workflows directly from the user interface. Adobe Journey Optimizer offers a standardized and efficient way to warm up your IP adresses that follows the best practices for optimal deliverability.</p>
+<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
@@ -115,37 +115,44 @@ ht-degree: 37%
 * **報告**  — 您現在可以使用以下專案建立Experience Decisioning行銷活動的自訂報告控制面板 [!DNL Customer Journey Analytics]. [閱讀全文](../experience-decisioning/cja-reporting.md)
 
 
-**決策管理**
+<!--**Decision Management**
 
-* **多規則支援**  — 您現在可以在決定管理中，為指定優惠新增最多10個上限規則。 這可讓您針對活動內容傳送方式提高控制等級。
-* **稽核** - **變更記錄** 標籤可讓您檢視對優惠或決定所做的所有變更已移除。 與優惠和決定相關的變更現在可以在以下連結檢視：**稽核**&#x200B;選單。
+* **Multi-rule support** - You can now add up to 10 capping rules for a given offer in Decision Management. This allows you to increase the level of control over the way offers are sent.
+* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
 
 **電子郵件頻道**
 
-* **清單 — 取消訂閱**  — 繼大量寄件者的最新Gmail和Yahoo公告後，Journey Optimizer支援「post/1-click」清單取消訂閱選項。
-* **垃圾郵件評分** （測試版） — 您現在可以在專用的垃圾郵件報告中檢查您的內容垃圾郵件評分。 使用SpamAssassin，Adobe Journey Optimizer現在可以測試您的電子郵件內容，並為它提供分數，以指出ISP或信箱提供者是否將其視為垃圾郵件。 此功能目前為測試版本，僅供測試版客戶使用。 若要加入 Beta 版計畫，請連絡 Adobe 客戶服務。
+<!--
+* **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)
+-->
 
+* **垃圾郵件評分** （測試版） — 您現在可以在專用的垃圾郵件報告中檢查您的內容垃圾郵件評分。 使用SpamAssassin，Adobe Journey Optimizer現在可以測試您的電子郵件內容，並為它提供分數，以指出ISP或信箱提供者是否將其視為垃圾郵件。 [閱讀全文](../content-management/spam-report.md)
 
-<!--[Read more](../content-management/spam-report.md)-->
+  >[!AVAILABILITY]
+  >
+  >此功能目前為測試版本，僅供測試版客戶使用。 若要加入 Beta 版計畫，請連絡 Adobe 客戶服務。
 
 <!--
 **Audiences**
 
 * The use of audiences and attributes from audience composition and custom upload (CSV file) is now available for use with Healthcare Shield or Privacy and Security Shield.-->
 
-**個人化**
+<!--**Personalization**
 
-* **運算式片段**  — 運算式片段現在可用於 **應用程式內頻道**.
-  <!--[Read more](../personalization/use-expression-fragments.md)-->
+* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
 **歷程**
 
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
-* **mTLS支援**  — 自訂動作現在支援mTLS驗證。 自訂動作或歷程中不需要額外設定即可啟用mTLS；偵測到啟用mTLS的端點時，會自動發生此情況。
-* **查詢事件中的表格**  — 現在，當使用物件陣列內的屬性定義關聯性時，您可以運用查詢資料集中的資料。 查閱值將在歷程（條件、自訂動作等）中使用 和訊息個人化。
-* **事件設定中的進階運算式編輯器**  — 您現在可以在設定事件時運用進階運算式編輯器，讓您定義更複雜的運算式，或在事件ID條件中使用函式。
+* **mTLS支援**  — 自訂動作現在支援mTLS驗證。 自訂動作或歷程中不需要額外設定即可啟用mTLS；偵測到啟用mTLS的端點時，會自動發生此情況。 [閱讀全文](../action/about-custom-action-configuration.md#mtls-protocol-support)
+* **查詢事件中的表格**  — 現在，當使用物件陣列內的屬性定義關聯性時，您可以運用查詢資料集中的資料。 查閱值將在歷程（條件、自訂動作等）中使用 和訊息個人化。 [閱讀全文](../event/experience-event-schema.md#relationships_limitations)
+* **事件設定中的進階運算式編輯器** (LA) — 您現在可以在設定事件時運用進階運算式編輯器，讓您定義更複雜的運算式或在事件ID條件中使用函式。 此功能以「有限可用性」形式向選定客戶發佈。 [閱讀全文](../event/about-creating.md)
+* **合併原則** (LA) — 歷程使用的合併原則現在在整個歷程中可見且一致。 此功能以「有限可用性」形式向選定客戶發佈。 [閱讀全文](../building-journeys/journey-gs.md#merge-policies)
 
 **全球化**
 
-為了提供統一的使用者體驗，我們統一了Adobe Experience Cloud產品和應用程式中使用的術語。 這會影響德文術語「標題」，在與物件名稱相關時會變更為「標籤」。 這些變更將會逐步在UI和檔案中推出。
+為了提供統一的使用者體驗，我們不斷努力協調Adobe Experience Cloud產品和應用程式中使用的術語。 這會影響德文術語「標題」，在與物件名稱相關時會變更為「標籤」。 這些變更將會逐步在UI和檔案中推出。
+
+
+
