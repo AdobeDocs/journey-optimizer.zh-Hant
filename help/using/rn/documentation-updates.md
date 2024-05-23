@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 2b31a75595e076bfac2023f8e58ddfbcc14bace1
 workflow-type: tm+mt
-source-wordcount: '5317'
-ht-degree: 98%
+source-wordcount: '5335'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 ## 2024 年 5 月 {#may-2024}
 
-* 有關 [!DNL Journey Optimizer] 2024 年 4 月發佈內容的新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
+* 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2024年5月版本的詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
 * 已更新有關週期性歷程的種子清單區段。 [閱讀全文](../configuration/seed-lists.md#use-seed-list)
 * 已更新外部資料來源上的區段。 [閱讀全文](../datasource/external-data-sources.md#custom-authentication-access-token)
 * 護欄和限制頁面已新增30天的全域歷程逾時。 [閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
@@ -30,6 +30,7 @@ ht-degree: 98%
 
 ## 2024 年 4 月 {#april-2024}
 
+* 有關 [!DNL Journey Optimizer] 2024 年 4 月發佈內容的新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md#apr-2024)
 * 已詳細說明應用程式內傳送訊息設定步驟。 [閱讀全文](../in-app/inapp-configuration.md)
 * 已更新[優惠決策 API](../offers/api-reference/offer-delivery-api/decisioning-api.md) 與[批次決策 API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) 文件。
 * 決策管理文件中新增了有關在邊緣決策 API 使用頻率上限時邊緣與中心區域管理的資訊。[閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
@@ -42,7 +43,7 @@ ht-degree: 98%
 ## 2024 年 3 月 {#march-2024}
 
 * 已新增「常見問題集」一節，以處理有關在 Journey Optimizer 中使用對象構成和自訂上傳對象的常見問題。 [閱讀全文](../audience/about-audiences.md#faq)
-* [!DNL Journey Optimizer]3 月 24日發行版本新功能和改進項目的詳情，請參閱本文件。[閱讀全文](release-notes.md)
+* [!DNL Journey Optimizer]3 月 24日發行版本新功能和改進項目的詳情，請參閱本文件。[閱讀全文](release-notes.md#mar-2024)
 * 改善設定檔進入管理頁面。 [閱讀全文](../building-journeys/entry-management.md)
 * 疑難排解資訊已新增至「警示」頁面。 [閱讀全文](../reports/alerts.md#alert-troubleshooting)
 * 已在歷程報告的頁面中新增等待活動的資訊。 [閱讀全文](../reports/sharing-overview.md)
@@ -59,7 +60,7 @@ ht-degree: 98%
 
 ## 2024 年 2 月 {#feb-2024}
 
-* [!DNL Journey Optimizer]3 月 23 日發行版本所有新功能和改進項目的詳情，請參閱本文件。[閱讀全文](release-notes.md)
+* [!DNL Journey Optimizer]3 月 23 日發行版本所有新功能和改進項目的詳情，請參閱本文件。[閱讀全文](release-notes.md#feb-2024)
 * Journey Optimizer + Workfront 整合已新增至整合頁面。[閱讀全文](../start/ajo-integrations.md)
 * 已新增有關如何根據內容資料個人化服務的表示形式的資訊。[閱讀全文](../offers/offer-library/add-representations.md#context-data)
 * 已更新護欄頁面，其中包含自訂動作的說明，僅在使用請求或回應裝載時支援 JSON 格式。[閱讀全文](../start/guardrails.md#custom-actions-g)
