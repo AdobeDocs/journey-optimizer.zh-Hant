@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 歷程, 探索, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '613'
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+workflow-type: tm+mt
+source-wordcount: '610'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,6 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 技術使用案例：
 
 * [使用自訂動作以動態方式傳遞集合](collections.md)
-* [加快傳遞速度](ramp-up-deliveries-uc.md)
 * [使用外部資料來源和自訂動作限制輸送量](limit-throughput.md)
 
 ## 歷程版本{#journey-versions}

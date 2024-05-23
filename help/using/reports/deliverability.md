@@ -8,9 +8,9 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '945'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 若要最佳化您的 [!DNL Journey Optimizer] 體驗，我們建議您使用本節所列的最佳實務。 傳遞能力問題通常與網際網路服務提供者(ISP)和郵件伺服器管理員實施的垃圾郵件防護相關聯。
 
-如需深入瞭解什麼是傳遞能力，並深入瞭解傳遞能力的重要術語、概念和方法，請參閱 [Adobe傳遞性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant){target="_blank"}.
+如需深入瞭解什麼是傳遞能力，並深入瞭解傳遞能力的重要術語、概念和方法，請參閱 [Adobe傳遞性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"}.
 
 ## 降低投訴率 {#reduce-complaint-rate}
 
@@ -77,7 +77,7 @@ ISP通常具有將收到的訊息報告為垃圾訊息的顯著方法。 這樣�
 
 如果您最近移至其他電子郵件服務提供者、IP位址或電子郵件網域或子網域，您必須建立您作為寄件者的信譽。 否則，您的傳遞可能會遭到封鎖或移至收件者信箱的垃圾郵件資料夾。
 
-若要熱身IP，您可以逐步增加傳遞數量。 在本節瞭解更多 [使用案例](../building-journeys/ramp-up-deliveries-uc.md).
+<!--To warm up your IP, you can gradually ramp up the number of your deliveries. Learn more in this [use case](../building-journeys/ramp-up-deliveries-uc.md).-->
 
 ## 實施 DMARC {#dmarc}
 

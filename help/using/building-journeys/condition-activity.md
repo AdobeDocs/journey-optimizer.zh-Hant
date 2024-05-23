@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 活動，條件，畫布，歷程
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 17%
+source-wordcount: '1466'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="條件活動"
->abstract="此活動可讓您定義個人在歷程中的流動方式。將根據各種條件建立多條路徑。您還可以在發生逾時或錯誤的情況下建立替代路徑。"
+>abstract="此活動可讓您定義個人在歷程中的流動方式。 系統會根據各種標準建立數個路徑。 如果逾時或發生錯誤，您也可以建立替代路徑。"
 
 可使用下列型別的條件：
 
@@ -38,7 +38,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
 >title="關於簡單運算式編輯器"
->abstract="簡單運算式編輯器模式可讓您根據欄位組合執行簡單查詢。所有可用的欄位都會顯示在螢幕的左側。將欄位拖放到主要區域中。若要合併不同的元素，請將它們互相聯鎖以建立不同的群組和/或群組層級。然後，您可以選取邏輯運算子來合併同一層級的元素。"
+>abstract="簡單運算式編輯器模式可讓您根據欄位組合執行簡單查詢。 所有可用欄位都會顯示在畫面左側。 將欄位拖放至主區域。 若要組合不同的元素，請將它們互相聯鎖以建立不同的群組和/或群組層級。 然後，您可以選取邏輯運運算元，以組合相同層級上的元素。"
 
 在歷程中使用數個條件時，您可以為每個條件定義標籤，以更輕鬆地識別它們。
 
@@ -54,7 +54,7 @@ ht-degree: 17%
 
 您可以核取「 」，為不符合所定義條件的對象建立其他路徑 **[!UICONTROL 顯示上述案例以外的其他案例的路徑]**. 請注意，此選項不適用於分割條件。 另請參閱 [百分比分割](#percentage_split).
 
-簡單模式可讓您根據欄位組合執行簡單查詢。 所有可用的欄位都會顯示在螢幕的左側。將欄位拖放到主要區域中。若要合併不同的元素，請將它們互相聯鎖以建立不同的群組和/或群組層級。然後，您可以選取邏輯運算子來組合同一層級的元素：
+簡單模式可讓您根據欄位組合執行簡單查詢。 所有可用欄位都會顯示在畫面左側。 將欄位拖放至主區域。 若要組合不同的元素，請將它們互相聯鎖以建立不同的群組和/或群組層級。 然後，您可以選取邏輯運運算元，以組合相同層級的元素：
 
 * AND：兩個條件的交集。 只考慮符合所有條件的元素。
 * OR：兩個條件的聯合。 考慮匹配兩個條件中至少一個的元素。
@@ -68,7 +68,7 @@ ht-degree: 17%
 >
 >使用簡單編輯器無法對時間序列執行查詢（例如購買清單、過去對訊息的點按）。 為此，您需要使用進階編輯器。 請參閱[此頁面](expression/expressionadvanced.md)。
 
-當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**. 請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
+當動作或條件發生錯誤時，個人的歷程就會停止。 唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**. 另請參閱 [本節](../building-journeys/using-the-journey-designer.md#paths).
 
 在簡單編輯器中，您也會在事件和資料來源類別下方找到歷程屬性類別。 此類別包含與特定設定檔的歷程相關的技術欄位。 這是系統從即時歷程擷取的資訊，例如歷程 ID 或遇到的特定錯誤。 [了解更多](expression/journey-properties.md)
 
@@ -88,7 +88,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->時區不是條件所特有，而是在歷程屬性中的歷程層級定義。 請參見[此頁面](../building-journeys/timezone-management.md)。
+>時區不是條件所特有，而是在歷程屬性中的歷程層級定義。 請參閱 [此頁面](../building-journeys/timezone-management.md).
 
 ![](assets/journey51.png)
 
@@ -102,7 +102,7 @@ ht-degree: 17%
 
 此選項可讓您隨機分割對象，以針對每個群組定義不同的動作。 定義每個路徑的分割數與重新分割區。 分割計算是統計性的，因為系統無法預測有多少人會在此歷程的活動中流動。 因此，分割的錯誤邊界非常低。 此函式以Java隨機機製為基礎(請參閱此 [頁面](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html))。
 
-在測試模式中，達到分割時，一律選擇頂端分支。 如果您希望測試選擇不同的路徑，可以重新組織分割分支的位置。 請參見[此頁面](../building-journeys/testing-the-journey.md)。
+在測試模式中，達到分割時，一律選擇頂端分支。 如果您希望測試選擇不同的路徑，可以重新組織分割分支的位置。 請參閱 [此頁面](../building-journeys/testing-the-journey.md)
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ ht-degree: 17%
 >
 >我們建議您定義高值設定檔上限。 母體達到確切上限數字的精確度和可能性只會隨著上限的增加而增加。 對於小數字（例如50的上限），數字將不能始終相符，因為設定檔採取替代路徑之前可能無法達到限制。
 
-您可以使用此條件型別來增加傳遞量。 檢視此 [使用案例](ramp-up-deliveries-uc.md).
+<!--You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).-->
 
 預設上限為1000。
 
