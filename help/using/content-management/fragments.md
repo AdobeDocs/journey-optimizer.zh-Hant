@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1561'
-ht-degree: 13%
+ht-degree: 3%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
->title="定義您專屬的內容片段"
->abstract="建立及管理獨立的內容片段，以便在多個歷程和行銷活動中重複使用你的內容。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html?lang=zh-Hant#create-fragments" text="建立內容片段"
+>title="定義您自己的片段"
+>abstract="建立並管理獨立片段，讓您的內容可跨多個歷程和行銷活動重複使用。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="建立片段"
 
 片段是可重複使用的元件，可在一封或多封電子郵件中加以參照 [!DNL Journey Optimizer] 行銷活動和歷程。
 
@@ -31,15 +31,15 @@ ht-degree: 13%
 
 ➡️ [瞭解如何在這些影片中管理、編寫和使用片段](#video-fragments)
 
-要充分利用片段：
+若要充分利用片段：
 
-* 建立您自己的片段。 您可以建立視覺片段或運算式片段。 [了解更多](#create-fragments)
+* 建立您自己的片段。 您可以建立視覺化片段或運算式片段。 [了解更多](#create-fragments)
 
-* 在內容中根據需要多次使用它們。 請參閱 [添加視覺片段](../email/use-visual-fragments.md) 和 [利用運算式片段](../personalization/use-expression-fragments.md)
+* 視需要在您的內容中多次使用。 另請參閱 [新增視覺片段](../email/use-visual-fragments.md) 和 [利用運算式片段](../personalization/use-expression-fragments.md)
 
 >[!NOTE]
 >
->**視覺片段** 可用於 [電子郵件設計工具](../email/get-started-email-design.md)，而 **運算式片段** 可透過 [運算式編輯器](../personalization/personalization-build-expressions.md).
+>**視覺片段** 可用於 [電子郵件設計工具](../email/get-started-email-design.md)，而 **運算式片段** 可透過 [個人化編輯器](../personalization/personalization-build-expressions.md).
 
 此外，您也可以善用Journey Optimizer **內容重設API** 以管理內容片段。 有關詳細資訊，請參閱 [Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
@@ -102,7 +102,7 @@ ht-degree: 13%
 >
 >當您編輯片段時，變更會自動傳播至使用該片段的所有內容，但中使用的內容除外 **[!UICONTROL 即時]** 歷程或行銷活動。 您也可以中斷原始片段的繼承。 進一步瞭解 [將視覺化片段新增至您的電子郵件](../email/use-visual-fragments.md#break-inheritance) 和 [利用運算式片段](../personalization/use-expression-fragments.md#break-inheritance) 區段。
 
-### 探索引用 {#explore-references}
+### 探索參考 {#explore-references}
 
 您可以顯示目前使用片段的歷程、行銷活動和內容範本清單。
 
@@ -134,7 +134,7 @@ ht-degree: 13%
 
 ![](assets/fragment-list-unarchive.png)
 
-## 建立內容片段 {#create-fragments}
+## 建立片段 {#create-fragments}
 
 建立片段的方式有兩種：
 
@@ -156,11 +156,11 @@ ht-degree: 13%
 
    ![](assets/fragment-details.png)
 
-1. 選擇片段類型： [視覺片段](#create-visual-fragment) 或 [表達式片段](#create-expression-fragment)。
+1. 選擇片段型別： [視覺片段](#create-visual-fragment) 或 [運算式片段](#create-expression-fragment).
 
-1. 要將自定義或核心數據使用標籤分配給片段，請選擇管理 **[!UICONTROL 訪問許可權]**。 [瞭解有關物件級訪問控制 （OLAC）](../administration/object-based-access.md) 的更多資訊。
+1. 若要指派自訂或核心資料使用標籤給片段，請選取「 」 **[!UICONTROL 管理存取權]**. [深入瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md).
 
-1. 從 **[!UICONTROL Adobe Experience Platform]** 標記 欄位中選擇或創建標記，以便對片段進行分類，以提高搜尋。 [了解更多](../start/search-filter-categorize.md#tags)
+1. 選擇或建立Adobe Experience Platform標籤，從 **[!UICONTROL 標籤]** 將片段分類的欄位有助改善搜尋。 [了解更多](../start/search-filter-categorize.md#tags)
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
@@ -168,9 +168,9 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"
->title="選取視覺內容類型"
->abstract="建立獨立的視覺內容片段，以便在某個歷程或行銷活動的電子郵件中，或是某個內容範本中可以重複使用你的內容。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=zh-Hant" text="在你的電子郵件中新增視覺內容片段"
+>title="選取視覺效果型別"
+>abstract="建立獨立的視覺片段，讓您的內容可重複用於歷程或行銷活動內的電子郵件中，或內容範本中。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="將視覺化片段新增至您的電子郵件"
 
 1. [建立片段](#create-from-scratch) 從 **[!UICONTROL 內容管理]** > **[!UICONTROL 片段]** 左方功能表並選取 **[!UICONTROL 視覺片段]** 型別。
 
@@ -198,9 +198,9 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
->title="選取運算式類型"
->abstract="建立獨立的運算式片段，以便在多個歷程和行銷活動中可重複使用你的內容。使用運算式編輯器時，你可以利用在目前沙箱上建立的所有運算式片段。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html?lang=zh-Hant" text="利用運算式片段"
+>title="選取運算式型別"
+>abstract="建立獨立的運算式片段，讓您的內容可跨多個歷程和行銷活動重複使用。 使用個人化編輯器時，您可以善用已在目前沙箱上建立的所有運算式片段。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="利用運算式片段"
 
 1. [建立片段](#create-from-scratch) 從 **[!UICONTROL 內容管理]** > **[!UICONTROL 片段]** 左方功能表並選取 **[!UICONTROL 運算式片段]** 型別。
 
@@ -210,9 +210,9 @@ ht-degree: 13%
 
    <!--Expression fragments can be used in any channel.-->
 
-1. 按一下 **[!UICONTROL 建立]**。「運算式」編輯器開啟。
+1. 按一下 **[!UICONTROL 建立]**. 個人化編輯器隨即開啟。
 
-1. 您可以善用 [!DNL Journey Optimizer] 運算式編輯器及其所有個人化和編寫功能。 [了解更多](../personalization/personalization-build-expressions.md)
+1. 您可以善用 [!DNL Journey Optimizer] 具有所有個人化和編寫功能的個人化編輯器。 [了解更多](../personalization/personalization-build-expressions.md)
 
    ![](assets/fragment-expression-editor.png)
 
@@ -220,7 +220,7 @@ ht-degree: 13%
 
 1. 如有需要，請按一下片段名稱旁的箭頭，以返回 **[!UICONTROL 詳細資料]** 並加以編輯。
 
-此片段現在已準備好用於內建置任何內容 [!DNL Journey Optimizer] 運算式編輯器。 [了解作法](../personalization/use-expression-fragments.md)
+此片段現在已準備好用於內建置任何內容 [!DNL Journey Optimizer] 個人化編輯器。 [了解作法](../personalization/use-expression-fragments.md)
 
 ## 另存為片段 {#save-as-fragment}
 
@@ -244,7 +244,7 @@ ht-degree: 13%
 
    ![](assets/fragment-save-as-screen.png)
 
-1. 按一下 **[!UICONTROL 建立]**。填寫片段詳細資訊，即名稱和說明（如果需要）。
+1. 按一下 **[!UICONTROL 建立]**. 填寫片段詳細資訊，即名稱和說明（如果需要）。
 
 1. 若要指派自訂或核心資料使用標籤給片段，請選取「 」 **[!UICONTROL 管理存取權]**. [深入瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md).
 
@@ -265,13 +265,13 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="另存為運算式片段"
->abstract="[!DNL Journey Optimizer] 運算式編輯器可讓您將內容另存為運算式片段。然後這些運算式可用於建置個人化內容。"
+>abstract="此 [!DNL Journey Optimizer] 個人化編輯器可讓您將內容儲存為運算式片段。 然後，這些運算式便可用於建置個人化內容。"
 
-[!DNL Journey Optimizer] 運算式編輯器可讓您將內容另存為運算式片段。然後這些運算式可用於建置個人化內容。
+此 [!DNL Journey Optimizer] 個人化編輯器可讓您將內容儲存為運算式片段。 然後，這些運算式便可用於建置個人化內容。
 
 若要將內容另存為運算式片段，請遵循下列步驟。
 
-1. 在 [運算式編輯器](../personalization/personalization-build-expressions.md) 介面，建立運算式，然後按一下 **[!UICONTROL 另存為片段]**.
+1. 在 [個人化編輯器](../personalization/personalization-build-expressions.md) 介面，建立運算式，然後按一下 **[!UICONTROL 另存為片段]**.
 
 1. 在右窗格中，輸入運算式的名稱和說明，以協助使用者更輕鬆地找到它。
 
@@ -281,15 +281,15 @@ ht-degree: 13%
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. 運算式片段會新增至 [片段清單](#access-manage-fragments)。 您現在可以使用它來版本編號個人化內容。
+1. 將運算式片段新增至 [片段清單](#access-manage-fragments). 您現在可以使用它來建置個人化內容。
 
 >[!NOTE]
 >
->表達式不能超過 200KB。
+>運算式不能超過200KB。
 
 ## 操作說明影片 {#video-fragments}
 
-瞭解如何在 中 [!DNL Journey Optimizer]管理、創作和使用視覺片段。
+瞭解如何在中管理、編寫和使用視覺化片段 [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 

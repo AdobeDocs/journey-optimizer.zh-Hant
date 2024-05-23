@@ -1,5 +1,5 @@
 ---
-title: 建立新的直接郵件訊息
+title: 建立直接郵件訊息
 description: 瞭解如何在Journey Optimizer中建立直接郵件訊息
 feature: Direct Mail
 topic: Content Management
@@ -7,19 +7,19 @@ role: User
 level: Beginner
 keywords: 直接郵件, 訊息, 行銷活動
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 18%
+ht-degree: 1%
 
 ---
 
-# 建立新的直接郵件訊息 {#create-direct}
+# 建立直接郵件訊息 {#create-direct}
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="直接郵件建立"
->abstract="在排程的行銷活動中建立直接郵件訊息，並設計直接郵件提供者向您的客戶傳送郵件所需的解壓縮檔案。"
+>abstract="在排程的行銷活動中建立直接郵件訊息，並設計直接郵件供應商傳送郵件給客戶所需的擷取檔案。"
 
 若要建立直接郵件訊息、建立排程的行銷活動，並設定解壓縮檔案。 直接郵件提供者需要此檔案，才能將郵件傳送給您的客戶。
 
@@ -57,17 +57,17 @@ ht-degree: 18%
 
 您現在可以開始設定擷取檔案，以傳送給直接郵件提供者。
 
-## 設定摘取檔案 {#extraction-file}
+## 設定擷取檔案 {#extraction-file}
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_data_fields"
 >title="資料欄位"
->abstract="依直接郵件提供者之要求，新增並設定在摘取檔案中要顯示的欄位和資訊，才能把郵件寄送給你的客戶。你可以新增最多 50 欄。"
+>abstract="新增並設定要在擷取檔案中顯示的欄和資訊，直接郵件提供商需要這些欄和資訊來傳送郵件給您的客戶。 您最多可以新增50欄。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_formatting"
->title="摘取檔案格式"
->abstract="使用運算式編輯器指定每個欄位的標籤以及要顯示的資訊。<br/><br/>你可以透過「<b>排序方式</b>」選項，使用選定的欄位作為摘取檔案的欄排序依據。"
+>title="擷取檔案格式"
+>abstract="針對每個欄位，指定標籤和使用個人化編輯器顯示的資訊。 <br/><br/> 此 <b>排序依據：</b> 選項可讓您使用選取的欄位來排序解壓縮檔案的欄。"
 
 1. 設定要在擷取檔案中顯示的欄和資訊：
 
@@ -75,7 +75,7 @@ ht-degree: 18%
 
    1. 此 **[!UICONTROL 格式化]** 窗格會顯示在右側，讓您設定選取的欄。 指定 **[!UICONTROL 標籤]** 欄的範本。
 
-   1. 在 **[!UICONTROL 資料]** 欄位中，選擇要顯示的設定檔屬性， [運算式編輯器](../personalization/personalization-build-expressions.md).
+   1. 在 **[!UICONTROL 資料]** 欄位中，選擇要顯示的設定檔屬性， [個人化編輯器](../personalization/personalization-build-expressions.md).
 
    1. 若要使用欄排序解壓縮檔案，請選取該欄並開啟 **[!UICONTROL 排序依據：]** 選項。 此 **[!UICONTROL 排序方式]** 圖示會顯示在中的欄標籤旁 **[!UICONTROL 資料欄位]** 區段。
 
@@ -95,7 +95,7 @@ ht-degree: 18%
 
    1. 選擇性地啟用 **[!UICONTROL 附加時間戳記以匯出檔案名稱]** 選項，如果要將自動時間戳記新增至指定的檔案名稱。
 
-   1. 有時候，您可能需要在解壓縮檔案的開頭或結尾新增資訊。若要這麼做，請使用 **[!UICONTROL 附註]** 欄位，然後指定是否要以頁首或頁尾形式包含附註。
+   1. 有時候，您可能需要在解壓縮檔案的開頭或結尾新增資訊。 若要這麼做，請使用 **[!UICONTROL 附註]** 欄位，然後指定是否要以頁首或頁尾形式包含附註。
 
       ![](assets/direct-mail-properties.png){width="800" align="center"}
 
@@ -105,7 +105,7 @@ ht-degree: 18%
 
    1. 此 **[!UICONTROL 格式化]** 窗格會顯示在右側，讓您設定選取的欄。 指定 **[!UICONTROL 標籤]** 欄的範本。
 
-   1. 在 **[!UICONTROL 資料]** 欄位中，選擇要顯示的設定檔屬性， [運算式編輯器](../personalization/personalization-build-expressions.md).
+   1. 在 **[!UICONTROL 資料]** 欄位中，選擇要顯示的設定檔屬性， [個人化編輯器](../personalization/personalization-build-expressions.md).
 
    1. 若要使用欄排序解壓縮檔案，請選取該欄並開啟 **[!UICONTROL 排序依據：]** 選項。 此 **[!UICONTROL 排序方式]** 圖示會顯示在中的欄標籤旁 **[!UICONTROL 資料欄位]** 區段。
 

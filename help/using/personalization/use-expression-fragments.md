@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用運算式片段
-description: 瞭解如何在中使用運算式片段 [!DNL Journey Optimizer] 運算式編輯器。
+description: 瞭解如何在中使用運算式片段 [!DNL Journey Optimizer] 個人化編輯器。
 feature: Personalization, Fragments
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，資料庫，個人化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # 利用運算式片段 {#use-expression-fragments}
 
-使用時 **運算式編輯器**，您可以利用已建立或儲存至目前沙箱的所有運算式片段。
+使用時 **個人化編輯器**，您可以利用已建立或儲存至目前沙箱的所有運算式片段。
 
 瞭解如何在中建立和管理片段 [本節](../content-management/fragments.md).
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 若要將運算式片段新增至您的內容，請遵循下列步驟。
 
-1. 開啟 [運算式編輯器](personalization-build-expressions.md) 並選取 **[!UICONTROL 片段]** 按鈕。
+1. 開啟 [個人化編輯器](personalization-build-expressions.md) 並選取 **[!UICONTROL 片段]** 按鈕。
 
    ![](assets/expression-fragments-pane.png)
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
    ![](assets/expression-fragment-open.png)
 
-1. 接著，您就可以照常使用，使用的所有個人化和撰寫功能，自訂及驗證內容 [運算式編輯器](personalization-build-expressions.md).
+1. 接著，您就可以照常使用，使用的所有個人化和撰寫功能，自訂及驗證內容 [個人化編輯器](personalization-build-expressions.md).
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 ## 中斷繼承 {#break-inheritance}
 
-將片段ID新增至運算式編輯器時，會同步對原始運算式片段所做的變更。
+將片段ID新增至個人化編輯器時，會同步對原始運算式片段所做的變更。
 
 不過，您也可以將運算式片段的內容貼到編輯器中。 從內容功能表中，選取 **[!UICONTROL 貼上片段]** 以插入該內容。
 

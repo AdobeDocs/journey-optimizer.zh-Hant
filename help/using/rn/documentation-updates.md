@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '5290'
+source-wordcount: '5317'
 ht-degree: 98%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 98%
 * 已更新外部資料來源上的區段。 [閱讀全文](../datasource/external-data-sources.md#custom-authentication-access-token)
 * 護欄和限制頁面已新增30天的全域歷程逾時。 [閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
 * 有關Adobe Campaign v7/v8整合的區段已更新，其中包含有關布建的資訊。 [閱讀全文](../action/acc-action.md#access)
+* 檔案中用於個人化內容的運算式編輯器已重新命名為「個人化編輯器」，以與 [歷程運算式編輯器](../building-journeys/expression/expressionadvanced.md). [閱讀全文](../personalization/personalization-build-expressions.md)
 
 ## 2024 年 4 月 {#april-2024}
 
@@ -63,7 +64,7 @@ ht-degree: 98%
 * 已新增有關如何根據內容資料個人化服務的表示形式的資訊。[閱讀全文](../offers/offer-library/add-representations.md#context-data)
 * 已更新護欄頁面，其中包含自訂動作的說明，僅在使用請求或回應裝載時支援 JSON 格式。[閱讀全文](../start/guardrails.md#custom-actions-g)
 * 已新增有關外部資料來源中基本驗證類型的其他資訊。[閱讀全文](../datasource/external-data-sources.md)
-* 已新增附註，以明確區分[歷程運算式編輯器](../building-journeys/expression/expressionadvanced.md)與[個人化編輯器](../personalization/functions/functions.md)。
+* 已新增附註，以清楚區分 [歷程運算式編輯器](../building-journeys/expression/expressionadvanced.md) 從 [個人化編輯器](../personalization/functions/functions.md).
 * 進階運算式編輯器中可用的函式清單已更新。[閱讀全文](../building-journeys/expression/functions.md)
 * 已更新「分割」函式上的頁面。[閱讀全文](../building-journeys/functions/functioninaudience.md)
 * 已新增有關選擇加入或選擇退出推播通知對應用程式內訊息之影響的資訊。[閱讀全文](../in-app/create-in-app.md)

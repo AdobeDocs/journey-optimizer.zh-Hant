@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '1835'
-ht-degree: 20%
+source-wordcount: '1855'
+ht-degree: 17%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
->title="選取行銷活動的對象"
->abstract="此清單顯示所有可用的 Adobe Experience Platform 對象。為你的行銷活動選取目標對象。在行銷活動中設定的訊息將傳送給屬於所選對象的所有個人。[進一步了解對象](../audience/about-audiences.md)"
+>title="選取行銷活動對象"
+>abstract="此清單會顯示所有可用的Adobe Experience Platform對象。 選取行銷活動要定位的對象。 行銷活動中設定的訊息將傳送給屬於所選對象的所有個人。 [深入瞭解對象](../audience/about-audiences.md)"
 
 受眾是指一組具有類似行為和/或特徵的人。 進一步瞭解 [Adobe Experience Platform Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}.
 
@@ -86,7 +86,7 @@ ht-degree: 20%
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 
-* **個人化您的訊息** 在歷程或行銷活動中，透過在運算式編輯器中新增目標對象的擴充屬性。 [瞭解如何使用運算式編輯器](../personalization/personalization-build-expressions.md)
+* **個人化您的訊息** 在歷程或行銷活動中，透過在個人化編輯器中新增目標對象的擴充屬性。 [瞭解如何使用個人化編輯器](../personalization/personalization-build-expressions.md)
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
@@ -110,7 +110,7 @@ ht-degree: 20%
 
 +++
 
-+++ 批次分段
++++ 批次細分
 
 每24小時評估對象的設定檔清單。
 
@@ -120,7 +120,7 @@ ht-degree: 20%
 
 +++ 邊緣分段
 
-邊緣區段是即時評估Adobe Experience Platform中區段的能力 [在邊緣](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant){target="_blank"}, enabling same-page and next-page personalization use cases. Currently only select query types can be evaluated with edge segmentation. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
+邊緣區段是即時評估Adobe Experience Platform中區段的能力 [在邊緣](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}，啟用相同頁面和下一頁個人化使用案例。 目前只有選取的查詢型別可使用邊緣分段進行評估。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
 
 +++
 
@@ -175,7 +175,7 @@ ht-degree: 20%
   >
   >對於自訂上傳對象，如果循環歷程中啟用了「增量讀取」，則設定檔僅在第一次循環時擷取，因為這些對象已修正。
 
-此外，這些對象可在運算式編輯器中使用，以個人化歷程和行銷活動中的訊息。 [瞭解如何使用運算式編輯器](../personalization/personalization-build-expressions.md)
+此外，這些受眾可用於個人化編輯器中，以個人化歷程和行銷活動中的訊息。 [瞭解如何使用個人化編輯器](../personalization/personalization-build-expressions.md)
 
 +++
 

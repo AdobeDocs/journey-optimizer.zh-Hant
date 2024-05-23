@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 建立，電子郵件，開始，歷程，行銷活動
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: f2037f559826d7cca243092de200c97841c49b35
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 9%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="電子郵件建立"
->abstract="定義您的電子郵件主旨行，然後開啟電子郵件設計工具來建立電子郵件內容。"
+>abstract="定義您的電子郵件主旨行，然後開啟「電子郵件設計工具」以建立電子郵件的內容。"
 
 
 ## 新增電子郵件動作 {#email-action}
@@ -79,7 +79,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!CONTEXTUALHELP]
 >id="test_id"
 >title="設定電子郵件內容"
->abstract="建立您的電子郵件內容。定義其主旨，然後利用電子郵件設計工具建置和個人化電子郵件內文。"
+>abstract="建立電子郵件的內容。 定義其主旨，然後運用電子郵件設計工具來建置並個人化電子郵件內文。"
 
 1. 在歷程或行銷活動設定畫面中，按一下 **[!UICONTROL 編輯內容]** 按鈕以設定電子郵件內容。 [了解更多](get-started-email-design.md)
 
@@ -89,7 +89,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. 新增訊息的主旨列。 若要使用運算式編輯器設定和個人化主旨行，請按一下 **[!UICONTROL 開啟個人化對話方塊]** 圖示。 [了解更多](../personalization/personalization-build-expressions.md)
+1. 新增訊息的主旨列。 若要使用個人化編輯器設定並個人化主旨列，請按一下 **[!UICONTROL 開啟個人化對話方塊]** 圖示。 [了解更多](../personalization/personalization-build-expressions.md)
 
 1. 按一下 **[!UICONTROL 編輯電子郵件內文]** 按鈕以存取電子郵件設計工具並開始建置您的內容。 [了解更多](get-started-email-design.md)
 
@@ -169,7 +169,7 @@ Use [!DNL Journey Optimizer] Email Designer to [design your email from scratch](
 
 [!DNL Journey Optimizer] comes with a set of [built-in templates](email-templates.md) to help you start. Any email can also be saved as a template.
 
-Use [!DNL Journey Optimizer] Expression editor to personalize your messages with profiles' data. For more on personalization, refer to [this section](../personalization/personalize.md).
+Use [!DNL Journey Optimizer] personalization editor to personalize your messages with profiles' data. For more on personalization, refer to [this section](../personalization/personalize.md).
 
 Adapt the content of your messages to the targeted profiles by using [!DNL Journey Optimizer] dynamic content capabilities. [Get started with dynamic content](../personalization/get-started-dynamic-content.md)
 

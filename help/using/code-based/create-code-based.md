@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 8%
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 8%
 
 1. 完成步驟以建立行銷活動，例如行銷活動屬性、 [對象](../audience/about-audiences.md)、和 [排程](../campaigns/create-campaign.md#schedule). 有關如何設定行銷活動的詳細資訊，請參閱 [此頁面](../campaigns/get-started-with-campaigns.md).
 
-1. 使用運算式編輯器視需要編輯您的內容。 [了解更多](#edit-code)
+1. 使用個人化編輯器，視需要編輯您的內容。 [了解更多](#edit-code)
 
    ![](assets/code-based-campaign-edit-content.png)
 
@@ -47,15 +47,15 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
->title="使用運算式編輯器中"
->abstract="插入並編輯您想要作為此基於程式碼之體驗動作的一部分的程式碼。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=zh-Hant" text="開始使用運算式編輯器"
+>title="使用個人化編輯器"
+>abstract="插入並編輯您要在這個程式碼型體驗動作中傳送的程式碼。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="開始使用個人化編輯器"
 
 1. 在行銷活動版本畫面中，選取 **[!UICONTROL 編輯程式碼]**.
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. 此 [運算式編輯器](../personalization/personalization-build-expressions.md) 隨即開啟。 這是非視覺化體驗建立介面，可讓您編寫程式碼。
+1. 此 [個人化編輯器](../personalization/personalization-build-expressions.md) 隨即開啟。 這是非視覺化體驗建立介面，可讓您編寫程式碼。
 
 1. 您可以將編寫模式從HTML切換為JSON，反之亦然。
 
@@ -65,7 +65,7 @@ ht-degree: 8%
    >
    >變更編寫模式將會遺失您目前的所有程式碼，因此在開始編寫之前，請務必切換模式。
 
-1. 視需要輸入您的程式碼。 您可以善用 [!DNL Journey Optimizer] 運算式編輯器及其所有個人化和編寫功能。 [了解更多](../personalization/personalization-build-expressions.md)
+1. 視需要輸入您的程式碼。 您可以善用 [!DNL Journey Optimizer] 具有所有個人化和編寫功能的個人化編輯器。 [了解更多](../personalization/personalization-build-expressions.md)
 
 1. 您可以視需要新增HTML或JSON運算式片段。 [了解作法](../personalization/use-expression-fragments.md)
 
@@ -84,12 +84,12 @@ ht-degree: 8%
 
 現在，當您的開發人員進行API或SDK呼叫以擷取所選表面的內容時，變更就會套用至您的網頁或應用程式。
 
-## 測試基於程式碼的行銷活動 {#test-code-based-campaign}
+## 測試程式碼型行銷活動 {#test-code-based-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
->title="預覽您的基於程式碼的體驗"
->abstract="模擬基於程式碼的體驗。"
+>title="預覽您的程式碼型體驗"
+>abstract="取得程式碼型體驗的模擬。"
 
 若要顯示已修改程式碼型體驗的預覽，請遵循下列步驟。 有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱 [預覽和測試您的內容頁面](../content-management/preview-test.md).
 
@@ -97,7 +97,7 @@ ht-degree: 8%
 >
 >您必須有可用的測試設定檔，以模擬將傳送給他們的優惠。 瞭解如何 [建立測試設定檔](../audience/creating-test-profiles.md).
 
-1. 從運算式編輯器或編輯內容畫面中，選取 **[!UICONTROL 模擬內容]**.
+1. 在個人化編輯器或編輯內容畫面中，選取 **[!UICONTROL 模擬內容]**.
 
    ![](assets/code-based-campaign-simulate.png)
 

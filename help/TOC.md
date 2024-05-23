@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1811'
 ht-degree: 95%
@@ -290,8 +290,8 @@ ht-degree: 95%
       + [個人化內容](using/personalization/personalization-contexts.md)
       + [個人化語法](using/personalization/personalization-syntax.md)
       + [使用Adobe Experience Platform資料進行個人化](using/personalization/lookup-aep-data.md)
-      + 使用運算式編輯器 {#expression-editor}
-         + [關於運算式編輯器](using/personalization/personalization-build-expressions.md)
+      + 使用個人化編輯器 {#expression-editor}
+         + [關於個人化編輯器](using/personalization/personalization-build-expressions.md)
          + [將屬性加入我的最愛](using/personalization/personalization-favorites.md)
          + [使用運算式片段](using/personalization/use-expression-fragments.md)
          + [個人化驗證](using/personalization/personalization-validation.md)

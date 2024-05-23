@@ -1,26 +1,26 @@
 ---
-title: 在優惠中新增聲明
+title: 將代表新增至優惠方案
 description: 瞭解如何將代表新增至您的優惠
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 8%
+source-wordcount: '763'
+ht-degree: 0%
 
 ---
 
-# 在優惠中新增聲明 {#add-representations}
+# 將代表新增至優惠方案 {#add-representations}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="表示方式"
->abstract="新增表示方式以定義您的優惠在訊息中顯示的位置。優惠具有的表示方式越多，在不同位置內容中使用優惠的機會就越多。"
+>abstract="新增代表以定義訊息中顯示優惠的位置。 優惠方案的代表性愈多，在不同的版位內容中使用優惠方案的機會就愈多。"
 
-選件可顯示在訊息中的不同位置：在含有影像的頂端橫幅中、作為段落中的文字、作為HTML區塊等。 優惠具有的表示方式越多，在不同位置內容中使用優惠的機會就越多。
+選件可顯示在訊息中的不同位置：在含有影像的頂端橫幅中、作為段落中的文字、作為HTML區塊等。 優惠方案的代表性愈多，在不同的版位內容中使用優惠方案的機會就愈多。
 
 ## 設定優惠的宣告 {#representations}
 
@@ -72,7 +72,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
-> 使用方式 [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
+> 使用方式 [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}，您必須部署 [!DNL Assets Essentials] ，並確保使用者屬於 **Assets Essentials消費者使用者** 或/和 **Assets Essentials使用者** 產品設定檔。 進一步瞭解 [此頁面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
 
 1. 選擇 **[!UICONTROL 資產庫]** 選項。
 
@@ -82,7 +82,7 @@ ht-degree: 8%
 
 1. 瀏覽資產以選取您選擇的影像
 
-1. 按一下&#x200B;**[!UICONTROL 「選取」]**。
+1. 按一下 **[!UICONTROL 選取]**.
 
    ![](../assets/offer-select-asset.png)
 
@@ -100,13 +100,13 @@ ht-degree: 8%
 
 若要從外部公共位置新增內容，請選取「 」 **[!UICONTROL URL]**，然後輸入要新增內容的URL位址。
 
-您可以使用運算式編輯器個人化URL。 進一步瞭解 [個人化](../../personalization/personalize.md#use-expression-editor).
+您可以使用個人化編輯器個人化URL。 進一步瞭解 [個人化](../../personalization/personalize.md#use-expression-editor).
 
 ![](../assets/offer-content-url.png)
 
 例如，您想要個人化顯示為選件的影像。 你想讓喜歡城市度假的使用者看紐約的天際線，也想讓喜歡海灘度假的使用者看夏威夷的北岸。
 
-使用運算式編輯器，使用聯合結構描述擷取儲存在Adobe Experience Platform中的設定檔屬性。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
+使用個人化編輯器，使用聯合結構描述擷取儲存在Adobe Experience Platform中的設定檔屬性。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
 
 ![](../assets/offer-content-url-personalization.png)
 
@@ -128,7 +128,7 @@ ht-degree: 8%
 
    ![](../assets/offer-text-content.png)
 
-   您可以使用運算式編輯器個人化您的內容。 進一步瞭解 [個人化](../../personalization/personalize.md#use-expression-editor).
+   您可以使用個人化編輯器個人化您的內容。 進一步瞭解 [個人化](../../personalization/personalize.md#use-expression-editor).
 
    ![](../assets/offer-personalization.png)
 

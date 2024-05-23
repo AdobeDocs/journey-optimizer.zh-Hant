@@ -9,18 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式、編輯器、內容、個人化
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 15%
+ht-degree: 14%
 
 ---
 
 # 個人化內容{#personalization-areas}
 
-傳遞的訊息的內容與顯示 [!DNL Journey Optimizer] 可透過數種不同的方式實現個人化。
-
-在每個具有編輯器圖示的欄位中，您可以開啟個人化編輯器（也稱為運算式編輯器）並定義個人化。
+傳遞的訊息的內容與顯示 [!DNL Journey Optimizer] 可透過數種不同的方式實現個人化。 在每個具有編輯器圖示的欄位中，您可以開啟個人化編輯器（也稱為個人化編輯器）並定義個人化。
 
 ![](assets/perso_icon.png)
 

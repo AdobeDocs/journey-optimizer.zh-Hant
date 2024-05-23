@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: 運算式，編輯器，開始，個人化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 33%
+source-wordcount: '387'
+ht-degree: 21%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
 >title="個人化體驗"
->abstract="使用 **Adobe Journey Optimizer**，利用手邊關於他們的資料與資訊，調整給各個特定接收者的訊息。可以是他們的姓氏、興趣、居住的地方、購買的產品等等。"
+>abstract="使用 **Adobe Journey Optimizer** 運用您擁有的關於收件者的資料和資訊，將您的訊息調整成適合每個特定收件者。 這可以是他們的名字、興趣、居住地、購買內容等。"
 
-探索 [!DNL Adobe Journey Optimizer] 個人化功能，可運用您擁有的訊息相關資料和資訊，根據每位特定收件者調整訊息。 可以是他們的姓氏、興趣、居住的地方、購買的產品等等。
+探索 [!DNL Adobe Journey Optimizer] 個人化功能，可運用您擁有的訊息相關資料和資訊，根據每位特定收件者調整訊息。 這可以是他們的名字、興趣、居住地、購買內容等。
 
 ➡️ [在這些影片中瞭解如何個人化訊息](#video-perso)
 ➡️ [探索運用個人化的使用案例](personalization-use-case.md)
 
 ## 使用專用語法建立個人化運算式 {#syntax}
 
-[!DNL Journey Optimizer] 使用 **內嵌** 以Handlebars為基礎的簡單個人化語法，可讓您建立包含雙大括弧之內容的運算式 **{{}}**. 您可以在相同的內容或欄位中新增多個運算式，不受限制。 進一步瞭解 [個人化語法](personalization-syntax.md).
+[!DNL Journey Optimizer] 使用 **內嵌** 以Handlebars為基礎的簡單個人化語法，可讓您建立包含雙大括弧之內容的運算式 **{{}}**. 您可以在相同的內容或欄位中新增多個運算式，不受限制。 [進一步瞭解個人化語法](personalization-syntax.md).
 
 **範例：**
 
@@ -48,17 +48,12 @@ ht-degree: 33%
 
 此外，您也可以善用 **計算屬性** 以個人化您的內容。 計算屬性是根據擷取到Adobe Experience Platform中的個人資料已啟用體驗事件資料集，並當做客戶個人資料中儲存的彙總資料點，以彙總個別行為事件 [瞭解如何使用計算屬性](../audience/computed-attributes.md)
 
-## 在不同內容中新增個人化 {#contexts}
+## 使用個人化編輯器 {#editor}
 
-[!DNL Journey Optimizer] 可讓您以數種不同的方式個人化內容及顯示訊息。 進一步瞭解您可以在中執行個人化的內容 [本節](personalization-contexts.md).
+[!DNL Journey Optimizer] 提供個人化編輯器，您可在其中選取、排列、自訂及驗證所有資料，以建立內容的自訂個人化。 有數個工具可協助您建置個人化內容，例如：Felper函式、預先定義的運算式程式庫、受歡迎的屬性等等。
 
-## 使用運算式編輯器 {#editor}
-
-[!DNL Journey Optimizer] 提供運算式編輯器，您可在其中選取、排列、自訂及驗證所有資料，以建立內容的自訂個人化。
-
-有數個工具可協助您建置個人化內容，例如：Felper函式、預先定義的運算式程式庫、受歡迎的屬性等等。
-
-進一步瞭解 [!DNL Journey Optimizer] 中的運算式編輯器 [本節](personalization-build-expressions.md)
+* [瞭解如何使用個人化編輯器](personalization-build-expressions.md)
+* [瞭解您可在何處執行個人化](personalization-contexts.md).
 
 ## 作法影片{#video-perso}
 

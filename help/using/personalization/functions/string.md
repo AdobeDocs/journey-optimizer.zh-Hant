@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1846'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
-# 字串函式 {#string}
+# 字串函數 {#string}
 
-瞭解如何在運算式編輯器中使用字串函式。
+瞭解如何在個人化編輯器中使用字串功能。
 
 ## 駝峰式大小寫 {#camelCase}
 
@@ -184,7 +184,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= encode64(string) %}
 ```
 
-## 終止於{#endsWith}
+## 結尾為{#endsWith}
 
 此 `endsWith` 函式來決定字串的結尾是否為指定的子字串。
 
@@ -232,7 +232,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%=equals(profile.person.name,"John") %}
 ```
 
-## 等於（忽略大小寫）{#equalsIgnoreCase}
+## 等於忽略大小寫{#equalsIgnoreCase}
 
 此 `equalsIgnoreCase` 函式來決定字串是否等於指定的字串，不區分大小寫。
 
@@ -291,7 +291,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= formatCurrency(56L,"en_GB") %}
 ```
 
-## 取得url主機 {#get-url-host}
+## 取得 url 主機 {#get-url-host}
 
 此 `getUrlHost` 函式來擷取URL的主機名稱。
 
@@ -309,7 +309,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 傳回「www.myurl.com」
 
-## 取得url路徑 {#get-url-path}
+## 取得 url 路徑 {#get-url-path}
 
 此 `getUrlPath` 函式來擷取URL網域名稱后的路徑。
 
@@ -327,7 +327,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 傳回「/contact.html」
 
-## 取得url通訊協定 {#get-url-protocol}
+## 取得 url 通訊協定 {#get-url-protocol}
 
 此 `getUrlProtocol` 函式來擷取URL的通訊協定。
 
@@ -345,7 +345,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 傳回&quot;http&quot;
 
-## 索引： {#index-of}
+## 索引:  {#index-of}
 
 此 `indexOf` 函式可用來傳回第二個引數第一次出現的位置（在第一個引數中）。 如果沒有相符專案，則傳回–1。
 
@@ -404,7 +404,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= isNotEmpty(profile.mobilePhone.number) %}
 ```
 
-## 最後索引： {#last-index-of}
+## 最後索引:  {#last-index-of}
 
 此 `lastIndexOf` 函式可用來傳回第二個引數最後一次出現的位置（在第一個引數中）。 如果沒有相符專案，則傳回–1。
 
@@ -455,7 +455,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= length(profile.homeAddress.city) %}
 ```
 
-## 按讚{#like}
+## 讚{#like}
 
 此 `like` 函式來決定字串是否符合指定的模式。
 
@@ -514,7 +514,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= matches(person.name.,"(?i)^John") %}
 ```
 
-## 遮色片 {#mask}
+## 遮罩 {#mask}
 
 此 `Mask` 函式可將字串的一部分取代為「X」字元。
 
@@ -673,7 +673,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= rightTrim(string) %}
 ```
 
-## Split {#split}
+## 分割 {#split}
 
 此 `split` 函式是用來依指定字元分割字串。
 
@@ -683,7 +683,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= split(string,string) %}
 ```
 
-## 開始於{#startsWith}
+## 開頭為{#startsWith}
 
 此 `startsWith` 函式來決定字串的開頭是否為指定的子字串。
 
@@ -770,7 +770,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= titleCase(profile.person.location.Street) %}
 ```
 
-## 至Bool {#to-bool}
+## 至 Bool {#to-bool}
 
 此 `toBool` 函式可用來根據引數值的型別，將引數值轉換為布林值。
 
@@ -790,7 +790,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## To Date Time Only {#to-date-time-only}
+## 至僅日期時間 {#to-date-time-only}
 
 此 `toDateTimeOnly` 函式用於將引數值轉換為僅日期時間值。 針對無效輸入會傳回epoch日期作為輸出。 此函式接受字串、日期、長欄位和整欄位型別。
 
@@ -828,7 +828,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= upperCase(profile.person.name.lastName) %}
 ```
 
-## Url解碼 {#url-decode}
+## Url 解碼 {#url-decode}
 
 此 `urlDecode` 函式用於解碼url編碼的字串。
 
@@ -838,7 +838,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= urlDecode(string) %}: string
 ```
 
-## Url編碼 {#url-encode}
+## Url 編碼 {#url-encode}
 
 此 `Count only null` 函式用於對字串進行url編碼。
 

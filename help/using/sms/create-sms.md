@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '940'
-ht-degree: 10%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="建立文字訊息。"
->abstract="若要建立文字簡訊 (SMS/SMS)，請在歷程或活動中新增 SMS 動作，然後開始使用運算式編輯器對其進行個人化設定。"
+>abstract="若要建立簡訊(SMS/MMS)，請在歷程或行銷活動中新增SMS動作，並開始使用個人化編輯器進行個人化。"
 
 您可以使用Adobe Journey Optimizer設計和傳送文字(SMS)和多媒體(MMS)訊息。 您首先需要在歷程或行銷活動中新增SMS動作，然後定義文字訊息的內容，如下所述。 Adobe Journey Optimizer也提供在傳送文字訊息前先測試訊息的功能，讓您可檢查轉譯、個人化屬性和所有其他設定。
 
@@ -86,22 +86,22 @@ ht-degree: 10%
 
 >[!ENDTABS]
 
-## 定義您的文字簡訊內容{#sms-content}
+## 定義您的簡訊內容{#sms-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
->title="定義您的文字簡訊內容"
->abstract="透過使用運算式編輯器定義內容並結合動態元素，自訂與個人化文字簡訊 (SMS/MMS)。"
+>title="定義您的簡訊內容"
+>abstract="使用個人化編輯器來定義內容並合併動態元素，以自訂及個人化您的文字訊息（簡訊/多媒體簡訊）。"
 
 若要設定簡訊內容，請遵循下列步驟。 有關MMS設定的詳情，請參閱 [本節](#mms-content).
 
 1. 在歷程或行銷活動設定畫面中，按一下 **[!UICONTROL 編輯內容]** 按鈕以設定文字訊息內容。
 
-1. 按一下 **[!UICONTROL 訊息]** 欄位以開啟運算式編輯器。
+1. 按一下 **[!UICONTROL 訊息]** 欄位以開啟個人化編輯器。
 
    ![](assets/sms-content.png)
 
-1. 使用運算式編輯器來定義內容、新增個人化及動態內容。 您可以使用任何屬性，例如設定檔名稱或城市。 您也可以定義條件式規則。 瀏覽到以下頁面，瞭解更多關於 [個人化](../personalization/personalize.md) 和 [動態內容](../personalization/get-started-dynamic-content.md) 在運算式編輯器中。
+1. 使用個人化編輯器來定義內容、新增個人化和動態內容。 您可以使用任何屬性，例如設定檔名稱或城市。 您也可以定義條件式規則。 瀏覽到以下頁面，瞭解更多關於 [個人化](../personalization/personalize.md) 和 [動態內容](../personalization/get-started-dynamic-content.md) 在個人化編輯器中。
 
 1. 定義內容後，您可以將追蹤的URL新增至訊息。 若要這麼做，請存取 **[!UICONTROL 輔助函式]** 功能表並選取 **[!UICONTROL 協助程式]**.
 
@@ -109,7 +109,7 @@ ht-degree: 10%
 
    >[!CAUTION]
    >
-   > 若要存取及編輯SMS子網域，您必須擁有 **[!UICONTROL 管理SMS子網域]** 生產沙箱的許可權。 若要了解權限的詳細資訊，請參閱[本章節](../administration/high-low-permissions.md)。
+   > 若要存取及編輯SMS子網域，您必須擁有 **[!UICONTROL 管理SMS子網域]** 生產沙箱的許可權。 進一步瞭解中的許可權 [本節](../administration/high-low-permissions.md).
 
    ![](assets/sms_tracking_1.png)
 
@@ -155,7 +155,7 @@ ht-degree: 10%
 
 執行測試並驗證內容後，您就可以傳送簡訊給對象。 這些步驟詳見 [此頁面](send-sms.md)
 
-傳送後，您可以在行銷活動或歷程報告中測量簡訊的影響。 如需報告的詳細資訊，請參閱[本區段](../reports/campaign-global-report.md#sms-tab)。
+傳送後，您可以在行銷活動或歷程報告中測量簡訊的影響。 如需報告的詳細資訊，請參閱 [本節](../reports/campaign-global-report.md#sms-tab).
 
 **相關主題**
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '954'
-ht-degree: 11%
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
 >title="輕鬆管理所有變更"
->abstract="使用此窗格，您可以瀏覽和管理您新增到網頁的所有調整和樣式。"
+>abstract="使用此窗格，您可以瀏覽並管理新增至網頁的所有調整與樣式。"
 
 您可以輕鬆管理新增至網頁的所有元件、調整和樣式。 您也可以直接從專用窗格新增修改。
 
@@ -98,13 +98,13 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
 >title="新增自訂程式碼"
->abstract="HEAD 元素是中繼資料的容器，位於 HTML 標記和 BODY 標記之間。僅新增 SCRIPT 和 STYLE 元素。新增 DIV 標記和其他元素可能會造成其餘的 HEAD 元素出現在 BODY 中。"
+>abstract="HEAD元素是中繼資料的容器，並置於HTML標籤和BODY標籤之間。 僅新增SCRIPT和STYLE元素。 新增DIV標籤和其他元素可能會造成其餘的HEAD元素出現在BODY中。"
 
 您可以使用新增自訂程式碼 **[!UICONTROL 頁面`<head>`]** 修改型別。
 
 此 `<head>` 元素是中繼資料（資料的相關資料）的容器，並放置在 `<html>` 標籤與 `<body>` 標籤之間。 在此情況下，程式碼不會等待內文或頁面載入事件，而是在頁面載入開始時執行。
 
-此 `<head>` 元素常用來新增JavaScript或CSS程式碼至頁面頂端。 後續視覺化動作的選取器，會根據此標籤中新增的 HTML 元素而定。
+此 `<head>` 元素常用來新增JavaScript或CSS程式碼至頁面頂端。 後續視覺化動作的選取器取決於此標籤中新增的HTML元素。
 
 若要新增 **頁面`<head>`** 輸入修改，請遵循下列步驟。
 
@@ -118,11 +118,11 @@ ht-degree: 11%
    >
    >您只能新增 `<script>` 和 `<style>` 元素至 `<head>` 區段。 新增 `<div>` 標籤和其他元素可能會導致剩餘 `<head>` 元素以跳入 `<body>`.
 
-1. 按一下 **[!UICONTROL 進階編輯選項]** 按鈕。 「運算式」編輯器開啟。
+1. 按一下 **[!UICONTROL 進階編輯選項]** 按鈕。 個人化編輯器隨即開啟。
 
    ![](assets/web-designer-add-modification-head-advanced.png)
 
-   您可以善用 [!DNL Journey Optimizer] 運算式編輯器及其所有個人化和編寫功能。 [了解更多](../personalization/personalization-build-expressions.md)
+   您可以善用 [!DNL Journey Optimizer] 具有所有個人化和編寫功能的個人化編輯器。 [了解更多](../personalization/personalization-build-expressions.md)
 
 #### 自訂程式碼範例 {#custom-code-examples}
 
@@ -169,7 +169,7 @@ ht-degree: 11%
 
 +++ **請勿在自訂程式碼指令碼中執行document.write動作。**
 
-指令碼會非同步執行。這通常會導致document.write動作出現在頁面上的錯誤位置。 不建議在自訂程式碼建立的指令碼中使用document.write。
+指令碼會非同步執行。 這通常會導致document.write動作出現在頁面上的錯誤位置。 不建議在自訂程式碼建立的指令碼中使用document.write。
 
 +++
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 定義特定於著陸頁面的內容
+title: 定義登入頁面特定內容
 description: 瞭解如何在Journey Optimizer中設計登入頁面特定內容
 feature: Landing Pages
 topic: Content Management
@@ -9,20 +9,20 @@ role: User
 level: Beginner
 keywords: 登入，登陸頁面，建立，頁面，表單，元件
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 10%
+ht-degree: 1%
 
 ---
 
-# 定義特定於著陸頁面的內容 {#lp-content}
+# 定義登入頁面特定內容 {#lp-content}
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="使用內容元件"
->abstract="內容元件指可用於建立登陸頁面版面的空白內容預留位置。若要定義讓使用者能夠選取並提交他們的選擇的特定內容，請使用表單元件。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html?lang=zh-Hant#add-content-components" text="新增內容元件"
+>abstract="內容元件是空的內容預留位置，可用於建立登入頁面的版面。 若要定義可讓使用者選取並提交其選擇的特定內容，請使用表單元件。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="新增內容元件"
 
 若要設計登入頁面內容，您可以使用與電子郵件的相同元件。 [了解更多](../email/content-components.md#add-content-components)
 
@@ -39,13 +39,13 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
 >title="設定表單元件欄位"
->abstract="定義您的收件者將如何從您的登陸頁面查看和提交他們的選擇。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html?lang=zh-Hant#lp-form-styles" text="定義登陸頁面表單樣式"
+>abstract="定義收件者從登陸頁面看到及提交選擇的方式。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="定義登入頁面表單樣式"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
 >title="按一下按鈕時會發生什麼事"
->abstract="定義使用者提交登陸頁面表單後會發生什麼事。"
+>abstract="定義提交登入頁面表單的使用者之後會發生什麼事。"
 
 若要定義可讓使用者從您的登入頁面選取並提交其選擇的特定內容，請使用 **[!UICONTROL 表單]** 元件。 若要執行此操作，請遵循下列步驟。
 
@@ -57,7 +57,7 @@ ht-degree: 10%
    >
    >此 **[!UICONTROL 表單]** 元件只能在同一個頁面上使用一次。
 
-1. 請選取模式。此 **[!UICONTROL 表單內容]** 標籤會顯示在右側的浮動視窗中，供您編輯表單的不同欄位。
+1. 選取它。 此 **[!UICONTROL 表單內容]** 標籤會顯示在右側的浮動視窗中，供您編輯表單的不同欄位。
 
    ![](assets/lp_designer-form-content-options.png)
 
@@ -134,7 +134,7 @@ ht-degree: 10%
 
    ![](assets/lp_designer-form-save.png)
 
-## 定義登陸頁面表單樣式 {#lp-form-styles}
+## 定義登入頁面表單樣式 {#lp-form-styles}
 
 1. 若要修改表單元件內容的樣式，請隨時切換為 **[!UICONTROL 樣式]** 標籤。
 
@@ -172,7 +172,7 @@ ht-degree: 10%
 
 假設您將主要頁面上的兩個核取方塊連結至兩個不同的訂閱清單。 如果使用者訂閱其中一個，您想要根據他們選取的核取方塊，在提交表單時顯示特定訊息。
 
-要執行此操作，請遵循下列步驟：
+請依照下列步驟以執行此操作：
 
 1. 在首頁面上，連結 **[!UICONTROL 表單]** 元件至相關的訂閱清單。 [了解更多](#use-form-component)。
 
@@ -188,7 +188,7 @@ ht-degree: 10%
 
    ![](assets/lp_designer-form-add-subscription.png)
 
-1. 使用運算式編輯器協助程式函式新增相關條件。 [了解更多](../personalization/functions/functions.md)
+1. 使用個人化編輯器協助程式功能新增相關條件。 [了解更多](../personalization/functions/functions.md)
 
    ![](assets/lp_designer-form-add-subscription-condition.png)
 
@@ -221,7 +221,7 @@ When [configuring the primary page](create-lp.md#configure-primary-page), you ca
 >
 >This data may not be visible to users who visit the page.
 
-If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [Expression editor](../personalization/personalization-build-expressions.md).
+If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md).
 
 ///When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
 

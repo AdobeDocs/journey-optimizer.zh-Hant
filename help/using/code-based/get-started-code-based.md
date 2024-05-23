@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
-workflow-type: ht
-source-wordcount: '1055'
-ht-degree: 100%
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+workflow-type: tm+mt
+source-wordcount: '1086'
+ht-degree: 86%
 
 ---
 
@@ -73,9 +73,9 @@ ht-degree: 100%
 
 何時應使用程式碼型頻道，而不是其他 [!DNL Journey Optimizer] 頻道？
 
-* 透過網頁瀏覽器或行動應用程式存取數位屬性時，您都可以考慮使用程式碼型體驗，否則最好使用[!DNL Journey Optimizer][網路頻道](../web/get-started-web.md){target="_blank"} or the [!DNL Journey Optimizer] [in-app messaging](../in-app/get-started-in-app.md){target="_blank"}。
+* 若您的數位屬性並未透過網頁瀏覽器或行動應用程式進行存取，您可以隨時考慮使用程式碼型體驗，在這樣的情況下，您可能可以更好地使用 [!DNL Journey Optimizer] [Web channel](../web/get-started-web.md){target="_blank"} 或 [!DNL Journey Optimizer] [應用程式內傳訊](../in-app/get-started-in-app.md){target="_blank"} 頻道。
 
-* 如果網站無法載入至可支援網路頻道視覺化製作的[網頁設計工具](../web/edit-web-content.md#work-with-web-designer){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"}，您可以使用程式碼型頻道作為 [!DNL Journey Optimizer] 網路頻道的替代方案。
+* 您可以使用程式碼型管道做為 [!DNL Journey Optimizer] 如果網站無法載入到web channel [網頁設計工具](../web/edit-web-content.md#work-with-web-designer){target="_blank"} 視覺化編輯器，或如果您無法使用 [瀏覽器延伸模組](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} 可支援Web Channel的視覺化撰寫。
 
 * 如果您採用 API 型、無頭式或伺服器端實施，您也可以使用程式碼型頻道作為 [!DNL Journey Optimizer] 網頁或應用程式內頻道的替代方案。
 
@@ -85,13 +85,13 @@ ht-degree: 100%
 
 **網路**
 * 使用[網頁設計工具](../web/edit-web-content.md#work-with-web-designer){target="_blank"}視覺化編輯器，編輯您的內容。
-* 您需要 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant){target="_blank"} implementation and the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}
+* 您需要 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant){target="_blank"} 實作與 [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} 擴充功能已安裝在您的網頁瀏覽器上。 [了解更多](../web/web-prerequisites.md){target="_blank"}
 * 網路頻道可讓您修改頁面上的所有內容，並包含可用來進行變更的預先定義動作清單。 [了解更多](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
 * 設定容易，上手快速。
 * 專注於行銷人員角色。
 
 **程式碼型體驗**
-* 使用[運算式編輯器](create-code-based.md#edit-code)，編輯您的內容。
+* 使用編輯您的內容 [個人化編輯器](create-code-based.md#edit-code).
 * 程式碼型體驗需要先在實施中的進行開發工作，以確保您的介面可以通過 [!DNL Journey Optimizer] 來解釋和傳遞為這些介面在邊緣上發佈的內容。[了解更多](#surface-definition)
 * 它需要更多規劃，而且只能變更開發人員指定的內容。 因此，務必要識別介面上需要修改以進行個人化或測試的元件 (首頁橫幅、主圖影像、功能表列等)。然後與開發團隊合作，建置處理這些變更所需的實施。
 * 它可讓您使用 JSON 程式碼內容。
@@ -113,7 +113,7 @@ ht-degree: 100%
 
 1. 定義[表面](#surface-definition)，其基本上是您要新增程式碼型體驗的位置，然後使用此表面在 [!DNL Journey Optimizer] 中建立行銷活動。 [了解作法](create-code-based.md#create-code-based-campaign)
 
-1. 使用 [!DNL Journey Optimizer] 運算式編輯器，為所選表面指定內容來編寫體驗。 [了解作法](create-code-based.md#edit-code)
+1. 使用為所選曲面指定內容來撰寫體驗 [!DNL Journey Optimizer] 個人化編輯器。 [了解作法](create-code-based.md#edit-code)
 
 1. 應用程式實施團隊會發出明確 API 或 SDK 呼叫，為已命名的表面擷取內容，例如「橫幅文字」或「建議匣 1」，或應用程式中與 UI 無關的決策點，例如「搜尋演算法參數」。 在此情況下，實作團隊負責轉譯或解譯傳回的內容並採取行動。<!--TBC with Robert - should link to a new section with API/SDK call samples-->
 
@@ -121,8 +121,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"
->title="定義基於程式碼的體驗表面"
->abstract="基於程式碼的表面是為使用者或系統互動而設計的任何實體，由 URI 唯一識別。"
+>title="定義程式碼型體驗介面"
+>abstract="程式碼型介面是指任何專為使用者或系統互動而設計的實體，可由URI唯一識別。"
 
 **程式碼型體驗表面**&#x200B;是為使用者或系統互動而設計的任何實體<!--ask Robert to explain further-->，由 **URI** 唯一識別。
 

@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，動態，內容
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 10%
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
 
 Adobe Journey Optimizer可讓您善用程式庫中建立的條件規則，將動態內容新增至訊息。
 
-動態內容可建立到任何欄位中，您可在其中使用運算式編輯器新增個人化。 這包括主旨列、連結、推播通知內容或文字型別優惠的表示方式。 [進一步瞭解個人化內容](personalization-contexts.md)
+動態內容可建立到任何欄位中，您可在其中使用個人化編輯器新增個人化。 這包括主旨列、連結、推播通知內容或文字型別優惠的表示方式。 [進一步瞭解個人化內容](personalization-contexts.md)
 
 此外，您可以在電子郵件設計工具中使用條件式規則，以建立內容元件的多個變體。
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer可讓您善用程式庫中建立的條件規則，將動
 
 在運算式中新增動態內容的步驟如下：
 
-1. 導覽至您要新增動態內容的欄位，然後開啟運算式編輯器。
+1. 導覽至您要新增動態內容的欄位，然後開啟個人化編輯器。
 
 1. 選取 **[!UICONTROL 條件]** 功能表以顯示可用條件規則清單。 按一下規則旁的+按鈕，將其新增至目前的運算式。
 
@@ -46,17 +46,17 @@ Adobe Journey Optimizer可讓您善用程式庫中建立的條件規則，將動
 
    ![](assets/conditions-preview.png)
 
-## 將動態內容新增至電子郵件中 {#emails}
+## 將動態內容新增至電子郵件 {#emails}
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content"
 >title="條件式內容"
->abstract="使用條件式規則建立內容元件的多個變體。如果傳送訊息時未符合任何條件，將顯示預設變體的內容。"
+>abstract="使用條件式規則可建立內容元件的多個變體。 如果傳送訊息時不符合任何條件，則會顯示預設變體的內容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content_select"
 >title="條件式內容"
->abstract="使用儲存在資料庫中的條件式規則或建立新規則。"
+>abstract="使用儲存在程式庫中的條件式規則，或建立新規則。"
 
 在電子郵件設計工具中建立內容元件變體的步驟如下：
 

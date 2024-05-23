@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '2415'
-ht-degree: 11%
+ht-degree: 1%
 
 ---
 
@@ -38,12 +38,12 @@ ht-degree: 11%
 >
 >更新的電子郵件表面設定將在使用表面的歷程或行銷活動中自動擷取。
 
-## 電子郵件類型 {#email-type}
+## 電子郵件型別 {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="定義電子郵件類型"
->abstract="選取使用此表面時將傳送的電子郵件類型：促銷用電子郵件的行銷型 (需要使用者同意)，或非商業電子郵件的交易型 (還可以傳送至特定內容中取消訂閱的設定檔)。"
+>title="定義電子郵件型別"
+>abstract="選取使用此介面時將傳送的電子郵件型別：行銷適用於促銷電子郵件（需要使用者同意），或交易適用於非商業電子郵件（也可在特定內容中傳送至已取消訂閱的設定檔）。"
 
 在 **電子郵件型別** 部分，選取曲面的訊息型別： **[!UICONTROL 行銷]** 或 **[!UICONTROL 異動]**.
 
@@ -196,13 +196,13 @@ ht-degree: 11%
 
 如果您在提交電子郵件介面時發生錯誤，表示您輸入之地址的子網域尚未設定MX記錄。 請連絡您的管理員以設定對應的MX記錄，或使用其他具有有效MX記錄設定的位址。
 
-## 傳送到禁止的電子郵件地址 {#send-to-suppressed-email-addresses}
+## 傳送至隱藏的電子郵件地址 {#send-to-suppressed-email-addresses}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_suppressed_addresses"
->title="覆寫禁止名單優先順序"
->abstract="即使其電子郵件地址因垃圾郵件投訴而位於 Adobe Journey Optimizer 禁止名單中，您也可以決定傳送交易型訊息到設定檔。此選項預設為停用。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=zh-Hant" text="管理禁止名單"
+>title="覆寫隱藏清單優先順序"
+>abstract="您可以決定傳送交易式訊息給設定檔，即使其電子郵件地址由於垃圾郵件投訴而位於Adobe Journey Optimizer隱藏清單中亦然。 此選項預設為停用。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=zh-Hant" text="管理隱藏清單"
 
 >[!IMPORTANT]
 >
@@ -231,14 +231,14 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="新增種子清單"
->abstract="選取您所選的種子清單，以自動向您的對象新增特定的內部地址。這些種子地址將在傳遞執行時包含在內，且為了保證目的將收到一份準確的訊息副本。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hant#use-seed-list" text="什麼是種子清單?"
+>abstract="選取您選擇的種子清單，以自動將特定內部地址新增到您的對象。 這些種子地址將在傳遞執行時包括在內，並將收到精確的訊息副本以供保證。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單？"
 
 中的種子清單 [!DNL Journey Optimizer] 可讓您在傳送中自動包含特定的電子郵件種子地址。 [了解更多](../configuration/seed-lists.md)
 
 >[!CAUTION]
 >
->目前該功能僅適用於電子郵件頻道。
+>此功能目前僅適用於電子郵件頻道。
 
 選取與您相關的清單，在 **[!UICONTROL 種子清單]** 區段。 瞭解如何在中建立種子清單 [本節](../configuration/seed-lists.md#create-seed-list).
 
@@ -252,13 +252,13 @@ ht-degree: 11%
 
 瞭解如何在行銷活動或歷程中使用種子清單 [本節](../configuration/seed-lists.md#use-seed-list).
 
-## 電子郵件重試參數 {#email-retry}
+## 電子郵件重試引數 {#email-retry}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
 >title="調整重試時段"
->abstract="當電子郵件由於暫時性的軟退信錯誤而傳遞失敗時，將重試 3.5 天 (84 小時)。您可以調整此預設的重試時段以進一步滿足您的需求。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=zh-Hant" text="關於重試"
+>abstract="當電子郵件傳送因暫時軟退信錯誤而失敗時，會執行3.5天（84小時）的重試。 您可以調整此預設重試時段，以更符合您的需求。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="關於重試"
 
 您可以設定 **電子郵件重試引數**.
 
@@ -274,19 +274,19 @@ ht-degree: 11%
 
 進一步瞭解中的重試 [本節](../configuration/retries.md).
 
-## URL 追蹤 {#url-tracking}
+## URL追蹤 {#url-tracking}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="定義 URL 追蹤參數"
->abstract="使用此區段以將追蹤參數自動附加到電子郵件內容中的 URL。此功能為選用。"
+>title="定義URL追蹤引數"
+>abstract="使用此區段可自動將追蹤引數附加至電子郵件內容中顯示的URL。 此功能是選用的。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
->title="預覽 URL 追蹤參數"
->abstract="重新探討要如何將追蹤參數附加到電子郵件內容中出現的 URL。"
+>title="預覽URL追蹤引數"
+>abstract="檢閱如何將追蹤引數附加到電子郵件內容中顯示的URL。"
 
-您可以使用 **[!UICONTROL URL追蹤引數]** 評估各管道行銷的成效。 此功能為選用。
+您可以使用 **[!UICONTROL URL追蹤引數]** 評估各管道行銷的成效。 此功能是選用的。
 
 此區段中定義的引數將會附加至您的電子郵件內容中所包含的URL結尾。 接著，您就可以在Adobe Analytics或Google Analytics等網站分析工具中擷取這些引數，並建立各種效能報表。
 
@@ -296,11 +296,11 @@ ht-degree: 11%
 
 若要設定URL追蹤引數，您可以直接在 **[!UICONTROL 名稱]** 和 **[!UICONTROL 值]** 欄位。
 
-您也可以編輯每個 **[!UICONTROL 值]** 欄位使用 [運算式編輯器](../personalization/personalization-build-expressions.md). 按一下版本圖示以開啟編輯器。 從那裡，您可以選取可用的內容屬性和/或直接編輯文字。
+您也可以編輯每個 **[!UICONTROL 值]** 欄位使用 [個人化編輯器](../personalization/personalization-build-expressions.md). 按一下版本圖示以開啟編輯器。 從那裡，您可以選取可用的內容屬性和/或直接編輯文字。
 
 ![](assets/preset-url-tracking-editor.png)
 
-下列預先定義的值可透過「運算式編輯器」使用：
+下列預先定義的值可透過個人化編輯器取得：
 
 * **來源動作ID**：新增至歷程或行銷活動的電子郵件動作ID。
 
@@ -316,7 +316,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->您可以組合輸入文字值，並使用運算式編輯器中的內容屬性。 每個 **[!UICONTROL 值]** 欄位可包含最多5 KB的字元數。
+>您可以結合輸入文字值並使用個人化編輯器中的內容屬性。 每個 **[!UICONTROL 值]** 欄位可包含最多5 KB的字元數。
 
 <!--You can drag and drop the parameters to reorder them.-->
 

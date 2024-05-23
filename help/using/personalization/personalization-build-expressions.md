@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 關於運算式編輯器
-description: 瞭解如何使用運算式編輯器。
+title: 關於個人化編輯器
+description: 瞭解如何使用個人化編輯器。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，關於，開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 10%
+ht-degree: 2%
 
 ---
 
-# 開始使用運算式編輯器 {#build-personalization-expressions}
+# 開始使用個人化編輯器 {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
->title="關於運算式編輯器"
->abstract="運算式編輯器可讓您選取、排列、自訂和驗證所有資料，打造個人化的專屬內容。"
+>title="關於個人化編輯器"
+>abstract="個人化編輯器可讓您選取、排列、自訂及驗證所有資料，為您的內容建立自訂個人化。"
 
-運算式編輯器是中個人化的核心 [!DNL Journey Optimizer]. 它可用於您需要定義個人化的每個內容，例如電子郵件、推播和選件。
+個人化編輯器是中個人化的核心 [!DNL Journey Optimizer]. 它可用於您需要定義個人化的每個內容，例如電子郵件、推播和選件。
 
-在運算式編輯器介面中，您將選取、排列、自訂及驗證所有資料，為您的內容建立自訂個人化。
+在個人化編輯器介面中，您將選取、排列、自訂及驗證所有資料，為您的內容建立自訂個人化。
 
 ![](assets/perso_ee1.png)
 
@@ -53,8 +53,8 @@ ht-degree: 10%
 
 ![](assets/attribute-details.png)
 
-在以下範例中，運算式編輯器可讓您選取今天生日的設定檔，然後插入與今天對應的特定選件以完成自訂。
+在下列範例中，個人化編輯器可讓您選取今天生日的設定檔，然後插入與今天對應的特定選件來完成自訂。
 
 ![](assets/perso_ee2.png)
 
-一旦您的個人化運算式準備就緒，就需要由運算式編輯器驗證。 請參閱[此章節](personalization-validation.md)深入瞭解。
+一旦您的個人化運算式準備就緒，就需要由個人化編輯器驗證。 請參閱[此章節](personalization-validation.md)深入瞭解。

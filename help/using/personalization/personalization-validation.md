@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，驗證，錯誤，個人化
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## 驗證機制 {#validation-mechanisms}
 
-在 **運算式編輯器** 熒幕，使用 **驗證** 按鈕以檢查您的個人化語法。
+在 **個人化編輯器** 熒幕，使用 **驗證** 按鈕以檢查您的個人化語法。
 
 >[!NOTE]
 > 當您按一下 **新增** 按鈕以關閉編輯器視窗。
@@ -29,7 +29,7 @@ ht-degree: 1%
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> 如果個人化語法無效，則無法關閉運算式編輯器視窗。
+> 如果個人化語法無效，則無法關閉個人化編輯器視窗。
 >
 
 ## 常見錯誤 {#common-errors}
@@ -80,7 +80,7 @@ No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-驗證是在運算式編輯器中的個人化內容驗證期間執行。
+驗證會在個人化編輯器中的個人化內容驗證期間執行。
 
 <table> 
  <thead> 

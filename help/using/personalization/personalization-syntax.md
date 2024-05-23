@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，語法，個人化
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -164,7 +164,7 @@ Journey Optimizer可讓您新增個人化欄位，以個人化訊息中的一或
 
 >[!NOTE]
 >
->在運算式編輯器中，當您編輯個人化URL時，基於安全理由，會停用協助程式功能和對象成員資格。
+>在個人化編輯器中，當您編輯個人化URL時，基於安全理由，會停用協助程式功能和對象成員資格。
 >
 
 **個人化URL範例**

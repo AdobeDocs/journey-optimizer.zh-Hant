@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 56c2708408d15286f008c9f2c16581ce0f0a1c4e
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 15%
+ht-degree: 2%
 
 ---
 
@@ -31,19 +31,19 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
->title="個人化不可用"
->abstract="此表面建立時沒有任何個人化屬性。如果需要個人化，請參閱文件以了解解決步驟。"
+>title="無法使用個人化"
+>abstract="此表面是在沒有任何個人化屬性的情況下建立的。 如需瞭解需要個人化時的解決步驟，請參閱檔案。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="啟用動態子網域"
->abstract="建立電子郵件表面時，您可以根據使用運算式編輯器定義的條件來設定動態子網域。您最多可以新增 50 個動態子網域。"
+>abstract="建立電子郵件介面時，您可以根據使用個人化編輯器定義的條件來設定動態子網域。 您最多可以新增50個動態子網域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
->title="某些子網域可能不可用"
->abstract="由於待處理意見回饋循環註冊，某些子網域目前無法選取。此程序可能需要長達 10 個工作天。完成後，您可以從所有可用子網域進行選擇。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="開始使用子網域委派"
+>title="部分子網域可能無法使用"
+>abstract="由於暫止的回饋回圈註冊，某些子網域目前無法供選取。 此程式最多可能需要10個工作日。 完成後，您可以從所有可用的子網域中進行選擇。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="開始使用子網域委派"
 
 建立電子郵件介面時，您可以根據特定條件設定動態子網域。
 
@@ -65,7 +65,7 @@ ht-degree: 15%
 
 1. 選擇第一個旁邊的編輯圖示 **[!UICONTROL 條件]** 欄位。
 
-1. 此 [運算式編輯器](../personalization/personalization-build-expressions.md) 隨即開啟。 在此範例中，設定條件，例如 `Country` 等於 `US`.
+1. 此 [個人化編輯器](../personalization/personalization-build-expressions.md) 隨即開啟。 在此範例中，設定條件，例如 `Country` 等於 `US`.
 
    ![](assets/surface-email-edit-condition.png)
 
@@ -73,7 +73,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >由於擱置中，某些子網域目前無法供選取 [回饋迴路](../reports/deliverability.md#feedback-loops) 註冊。 此程序可能需要長達 10 個工作天。完成後，您可以從所有可用的子網域中進行選擇。 <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >由於擱置中，某些子網域目前無法供選取 [回饋迴路](../reports/deliverability.md#feedback-loops) 註冊。 此程式最多可能需要10個工作日。 完成後，您可以從所有可用的子網域中進行選擇。 <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 
@@ -118,7 +118,7 @@ ht-degree: 15%
 
    ![](assets/surface-email-personalize-header.png)
 
-1. 此 [運算式編輯器](../personalization/personalization-build-expressions.md) 隨即開啟。 依照需要定義條件，然後儲存變更。
+1. 此 [個人化編輯器](../personalization/personalization-build-expressions.md) 隨即開啟。 依照需要定義條件，然後儲存變更。
 
    例如，設定條件，例如每位收件者都會收到來自其品牌代表的電子郵件。
 
@@ -137,7 +137,7 @@ ht-degree: 15%
 
 To use personalized URL tracking prameters, follow the steps below.
 
-1. Select the profile attribute of your choice from the expression editor.
+1. Select the profile attribute of your choice from the personalization editor.
 
 1. Repeat the steps above for each tracking parameter you want to personalize.
 

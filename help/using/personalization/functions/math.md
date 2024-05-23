@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
 # 數學函數 {#math}
 
-瞭解如何在運算式編輯器中使用數學函式。
+瞭解如何在個人化編輯器中使用數學函式。
 
 ## 絕對 {#absolute}
 
@@ -49,7 +49,7 @@ ht-degree: 6%
 {%= formatNumber(123456.789, "ar_EG") %}
 ```
 
-## Random {#random}
+## 隨機 {#random}
 
 此 `random` 函式來傳回0到1之間的隨機值。
 
@@ -97,7 +97,7 @@ ht-degree: 6%
 {%= toHexString(158) %}
 ```
 
-## 到Int {#to-int}
+## 至整數 {#to-int}
 
 此 `toInt` 函式可用來將任何這些型別（數字、雙精度、整數、長整數、浮點數、短整數、位元組、布林值、字串）轉換為整數。
 

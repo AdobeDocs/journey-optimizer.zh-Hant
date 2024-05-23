@@ -10,7 +10,8 @@ level: Intermediate
 keywords: 運算式，編輯器
 hidefromtoc: true
 hide: true
-source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
+exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
@@ -25,9 +26,9 @@ ht-degree: 0%
 >
 >目前，它僅適用於在您提供給Adobe的非生產沙箱中測試用途，以及針對Beta版的資料集。
 
-Journey Optimizer可讓您在運算式編輯器中運用Adobe Experience Platform的資料，以 [個人化您的內容](../personalization/personalize.md). 步驟如下：
+Journey Optimizer可讓您在個人化編輯器中運用Adobe Experience Platform的資料，以 [個人化您的內容](../personalization/personalize.md). 步驟如下：
 
-1. 開啟運算式編輯器，您可在每個內容中定義個人化（例如訊息），此編輯器可供使用。 [瞭解如何使用運算式編輯器](../personalization/personalization-build-expressions.md)
+1. 開啟個人化編輯器，您可在每個內容中定義個人化（例如訊息），此編輯器可供使用。 [瞭解如何使用個人化編輯器](../personalization/personalization-build-expressions.md)
 
 1. 導覽至協助程式函式清單，然後新增 **datasetLookup** 將協助程式函式新增至程式碼窗格。
 

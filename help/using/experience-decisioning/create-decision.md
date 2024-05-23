@@ -5,12 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
-badge: label="限量版"
+badge: label="可用性限制"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 18%
+ht-degree: 2%
 
 ---
 
@@ -18,34 +18,34 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
->title="什麼是決定？"
->abstract="決定原則包含決策引擎選擇最佳內容的所有選擇邏輯。決定原則是針對行銷活動的。其目標是為每個設定檔選擇最佳優惠，而行銷活動製作允許您指明如何呈現所選決定項目，包括要在訊息中包含哪些項目屬性。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="關於體驗決策"
+>title="什麼是決定?"
+>abstract="決策原則包含決策引擎挑選最佳內容的所有選擇邏輯。 決定政策是行銷活動專屬的政策。 它們的目標是為每個設定檔選取最佳優惠方案，而行銷活動製作可讓您指定應如何顯示選取的決策專案，包括要包含在訊息中的專案屬性。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="關於Experience decisioning"
 
 決策原則是優惠方案的容器，可運用體驗決策引擎，根據對象挑選最佳內容進行傳遞。
 
-決定原則包含決策引擎選擇最佳內容的所有選擇邏輯。決定原則是針對行銷活動的。其目標是為每個設定檔選擇最佳優惠，而行銷活動製作允許您指明如何呈現所選決定項目，包括要在訊息中包含哪些項目屬性。
+決策原則包含決策引擎挑選最佳內容的所有選擇邏輯。 決定政策是行銷活動專屬的政策。 它們的目標是為每個設定檔選取最佳優惠方案，而行銷活動製作可讓您指定應如何顯示選取的決策專案，包括要包含在訊息中的專案屬性。
 
 >[!NOTE]
 >
 >在 [!DNL Journey Optimizer] 使用者介面，決策原則會標示為決策<!--but they are decision policies. TBC if this note is needed-->.
 
-## 將決定原則新增至基於程式碼的行銷活動 {#add-decision}
+## 將決定原則新增至程式碼型行銷活動 {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
->title="定義要傳回的項目數量"
->abstract="選取您想要傳回的決定項目數量。例如，如果您選取 2，則目前表面將顯示最佳的 2 個符合資格優惠。"
+>title="定義要傳回的專案數"
+>abstract="選取您要傳回的決策專案數。 例如，如果您選取2，則會針對目前曲面顯示最佳的2個合格選件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
 >title="選取遞補"
->abstract="當為該決定原則定義的所有選擇策略都不合格時，會向使用者顯示遞補項目。"
+>abstract="當為該決定原則定義的所有選取策略都不符合資格時，則會向使用者顯示遞補專案。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_strategy"
 >title="什麼是策略？"
->abstract="選擇策略的順序決定了先評估哪個策略。至少需要一個策略。組合策略中的決定項目將一起評估。"
+>abstract="選取策略的順序會決定先評估哪個策略。至少需要一個策略。 合併策略中的決定專案將會一起評估。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="建立策略"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="評估順序"
 
@@ -73,7 +73,7 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >至少需要一個策略。您無法新增超過10個策略。
+   >至少需要一個策略。 您無法新增超過10個策略。
 
 1. 從 **[!UICONTROL 新增策略]** 畫面，您也可以建立策略。 此 **[!UICONTROL 建立選擇策略]** 按鈕會將您重新導向至 **[!UICONTROL 體驗決策]** > **[!UICONTROL 策略設定]** 功能表。 [了解更多](selection-strategies.md)
 
@@ -159,11 +159,11 @@ ht-degree: 18%
 
 ## 在程式碼編輯器中使用決定原則 {#use-decision-policy}
 
-建立後，決策原則便可用於以下專案中 [運算式編輯器](../code-based/create-code-based.md#edit-code). 若要執行此操作，請遵循下列步驟。
+建立後，決策原則便可用於以下專案中 [個人化編輯器](../code-based/create-code-based.md#edit-code). 若要執行此操作，請遵循下列步驟。
 
 >[!NOTE]
 >
->程式碼型體驗會利用 [!DNL Journey Optimizer] 運算式編輯器及其所有個人化和編寫功能。 [了解更多](../personalization/personalization-build-expressions.md)
+>程式碼型體驗會利用 [!DNL Journey Optimizer] 具有所有個人化和編寫功能的個人化編輯器。 [了解更多](../personalization/personalization-build-expressions.md)
 
 1. 按一下 **[!UICONTROL 插入原則]** 按鈕。 已新增與決定原則對應的程式碼。
 
@@ -186,7 +186,7 @@ ht-degree: 18%
 
    ![](assets/decision-code-based-add-decision-attributes.png)
 
-1. 您也可以新增運算式編輯器中可用的任何其他屬性，例如設定檔屬性。
+1. 您也可以新增個人化編輯器中可用的任何其他屬性，例如設定檔屬性。
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 

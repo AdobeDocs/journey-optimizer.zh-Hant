@@ -7,10 +7,10 @@ feature: Audiences, Profiles
 role: User
 level: Intermediate
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 4%
+ht-degree: 1%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 4%
 
 為了能夠利用Journey Optimizer中的計算屬性，您必須先將屬性新增至Journey Optimizer **Experience Platform** 資料來源。
 
-Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶設定檔的連線。此資料來源旨在從即時客戶個人檔案服務中擷取個人檔案資料和Experience Events資料。
+Adobe Experience Platform資料來源會定義Adobe即時客戶個人檔案的連線。 此資料來源旨在從即時客戶個人檔案服務中擷取個人檔案資料和Experience Events資料。
 
 若要將計算屬性新增至資料來源，請遵循下列步驟：
 

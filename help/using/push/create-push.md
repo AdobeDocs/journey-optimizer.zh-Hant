@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 11%
+ht-degree: 6%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
->title="推播訊息建立"
->abstract="新增您的推播訊息並開始使用運算式編輯器對其進行個人化。"
+>title="推送訊息建立"
+>abstract="新增您的推送訊息，並開始使用個人化編輯器進行個人化。"
 
 ## 在歷程或行銷活動中建立推播通知 {#create}
 
@@ -101,7 +101,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="快速傳送模式"
->abstract="快速傳送模式讓您可以在推播管道上向 3000 萬以下的對象規模執行快速訊息傳送。"
+>abstract="快速傳送模式可讓您在推播頻道上對3000萬名以下的對象人數執行高速訊息傳送。"
 
 快速傳送模式是一種 [!DNL Journey Optimizer] 附加元件允許非常快速的推送訊息透過行銷活動以大量傳送。
 

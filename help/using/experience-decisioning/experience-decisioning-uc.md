@@ -5,11 +5,11 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-badge: label="限量版"
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+badge: label="可用性限制"
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 6%
 
 1. 為您的決定定義選取策略。 按一下 **[!UICONTROL 新增策略]**.
 
-1. 按一下 **[!UICONTROL 建立]**。新決定新增到 **[!UICONTROL 決定]**.
+1. 按一下 **[!UICONTROL 建立]**. 新決定新增到 **[!UICONTROL 決定]**.
 
    ![](assets/decision-code-based-decision-added.png)
 
@@ -58,7 +58,7 @@ ht-degree: 6%
 
    ![](assets/decision-code-based-add-decision.png)
 
-1. 您也可以新增運算式編輯器中可用的任何其他屬性，例如設定檔屬性。
+1. 您也可以新增個人化編輯器中可用的任何其他屬性，例如設定檔屬性。
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 

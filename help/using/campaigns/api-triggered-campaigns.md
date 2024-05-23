@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 2%
@@ -97,7 +97,7 @@ API觸發的行銷活動的可用管道包括電子郵件、簡訊和推播訊�
 >
 >與設定檔啟用的事件不同，在REST API中傳遞的內容資料用於一次性通訊，而不是針對設定檔儲存。 設定檔的建立次數上限為名稱空間詳細資訊（如果找不到的話）。
 
-為了在您的行銷活動中使用這些資料，您需要將這些資料傳遞至API裝載，並使用運算式編輯器新增至您的訊息中。 若要這麼做，請使用 `{{context.<contextualAttribute>}}` 語法，其中 `<contextualAttribute>` 應該符合包含您要傳遞之資料的API裝載中的變數名稱。
+為了在您的行銷活動中使用這些資料，您需要將這些資料傳遞至API裝載，並使用個人化編輯器將其新增至您的訊息中。 若要這麼做，請使用 `{{context.<contextualAttribute>}}` 語法，其中 `<contextualAttribute>` 應該符合包含您要傳遞之資料的API裝載中的變數名稱。
 
 此 `{{context.<contextualAttribute>}}` 語法僅對應到String資料型別。
 

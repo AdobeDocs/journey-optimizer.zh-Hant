@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 追蹤您的訊息
-description: 了解如何新增連結和追蹤已傳送的訊息
+description: 瞭解如何新增連結及追蹤已傳送的訊息
 feature: Email Design, Monitoring
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 35%
+ht-degree: 3%
 
 ---
 
@@ -47,15 +47,15 @@ ht-degree: 35%
 
 ## 插入連結 {#insert-links}
 
-設計訊息，您可以新增連結到您的內容。
+設計訊息時，您可以將連結新增至內容。
 
 >[!NOTE]
 >
 >時間 [已啟用追蹤](#enable-tracking)，則會追蹤訊息內容中包含的所有連結。
 
-若要將連結插入到電子郵件內容，請依照以下步驟進行：
+若要將連結插入電子郵件內容，請遵循下列步驟：
 
-1. 選取元素，然後從內容關聯式工具列中按一下「**[!UICONTROL 插入連結]**」。
+1. 選取元素並按一下 **[!UICONTROL 插入連結]** 從內容工具列。
 
    ![](assets/message-tracking-insert-link.png)
 
@@ -95,15 +95,15 @@ ht-degree: 35%
 
 您可以使用調整連結 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 右邊的窗格。 您可以為連結加上底線、編輯其顏色並選取其目標。
 
-1. 在插入連結的&#x200B;**[!UICONTROL 文字]**&#x200B;元件中，選取您的連結。
+1. 在 **[!UICONTROL 文字]** 要插入連結的元件，請選取您的連結。
 
 1. 從 **[!UICONTROL 設定]** 索引標籤中，選擇將如何使用將您的對象重新導向 **[!UICONTROL Target]** 下拉式清單：
 
-   * **[!UICONTROL 無]**：當框架被點按時在相同框架中開啟連結 (預設)。
-   * **[!UICONTROL 空白]**：在新的視窗或索引標籤中開啟連結。
-   * **[!UICONTROL 自我]**：當框架被點按時在相同框架中開啟連結。
-   * **[!UICONTROL 父系]**：在父框架中開啟連結。
-   * **[!UICONTROL 頂端]**：在視窗的完整內文中開啟連結。
+   * **[!UICONTROL 無]**：在與點按連結相同的框架中開啟連結（預設）。
+   * **[!UICONTROL 空白]**：在新視窗或標籤中開啟連結。
+   * **[!UICONTROL 自我]**：在按一下連結的相同框架中開啟連結。
+   * **[!UICONTROL 父級]**：在父框架中開啟連結。
+   * **[!UICONTROL 上]**：在視窗的整個內文中開啟連結。
 
    ![](assets/link_2.png)
 
@@ -111,7 +111,7 @@ ht-degree: 35%
 
    ![](assets/link_1.png)
 
-1. 若要變更連結的顏色，請從「**[!UICONTROL 樣式]**&#x200B;索引標籤，按一下「**[!UICONTROL 連結顏色]**」。
+1. 若要變更連結的顏色，請按一下 **[!UICONTROL 連結顏色]** 從 **[!UICONTROL 樣式]** 標籤。
 
    ![](assets/link_3.png)
 
@@ -119,46 +119,46 @@ ht-degree: 35%
 
 ## 連結至映象頁面 {#mirror-page}
 
-鏡像頁面是可透過網頁瀏覽器線上存取的 HTML 頁面。其內容與電子郵件的內容相同。
+映象頁面是可透過網頁瀏覽器線上存取的HTML頁面。 其內容與電子郵件的內容相同。
 
 若要在電子郵件中新增映象頁面的連結， [插入連結](#insert-links) 並選取 **[!UICONTROL 映象頁面]** 做為連結型別。
 
 ![](assets/message-tracking-mirror-page.png)
 
-鏡像頁面會自動建立。
+映象頁面會自動建立。
 
 >[!IMPORTANT]
 >
->鏡像頁面連結是自動產生的，無法編輯。它們包含轉譯原始電子郵件所需的所有加密的個人化資料。因此，使用具有較大值的個人化屬性可能會產生冗長的鏡像頁面 URL，如果網頁瀏覽器具有最大 URL 長度，將導致連結無法在該網頁瀏覽器中作用。
+>映象頁面連結會自動產生，且無法編輯。 其中包含轉譯原始電子郵件所需的所有加密個人化資料。 因此，使用具有大值的個人化屬性可能會產生過長的映象頁面URL，使得連結無法在URL長度上限的網頁瀏覽器中運作。
 
-電子郵件傳送後，當收件者按一下鏡像頁面連結時，電子郵件的內容將顯示在他們的預設網頁瀏覽器中。
+傳送電子郵件後，當收件者按一下映象頁面連結時，電子郵件的內容會顯示在他們的預設網頁瀏覽器中。
 
 >[!NOTE]
 >
->在 [證明](../content-management/proofs.md) 傳送至測試設定檔，則映象頁面的連結未啟用。 它僅在最終訊息中啟用。
+>在 [證明](../content-management/proofs.md) 傳送至測試設定檔，則映象頁面的連結未啟用。 它只會在最終訊息中啟動。
 
 映象頁面的保留期為60天。 經過此延遲後，將無法再使用映象頁面。
 
 ## 管理追蹤 {#manage-tracking}
 
-[電子郵件設計工具](content-from-scratch.md) 可讓您管理被追蹤的 URL，例如編輯每個連結的追蹤類型。
+此 [電子郵件設計工具](content-from-scratch.md) 可讓您管理追蹤的URL，例如編輯每個連結的追蹤型別。
 
 1. 按一下 **[!UICONTROL 連結]** 圖示來顯示要追蹤之內容的所有URL清單。
 
-   此清單可讓您能夠集中檢視並找到電子郵件內容中的每個 URL。
+   此清單可讓您集中檢視並找出電子郵件內容中的每個URL。
 
-1. 若要編輯連結，按一下對應的鉛筆圖示。
+1. 若要編輯連結，請按一下對應的鉛筆圖示。
 
-1. 您可以修改&#x200B;**[!UICONTROL 追蹤類型]** (如果需要)：
+1. 您可以修改 **[!UICONTROL 追蹤型別]** 如有需要：
 
    ![](assets/message-tracking-edit-a-link.png)
 
-   對於每個被追蹤的 URL，您可以將追蹤模式設定為以下其中一個值：
+   對於每個追蹤的URL，您可將追蹤模式設定為下列其中一個值：
 
-   * **[!UICONTROL 已追蹤]**：啟動追蹤此 URL。
-   * **[!UICONTROL 選擇退出]**：將此 URL 視為選擇退出或取消訂閱 URL。
-   * **[!UICONTROL 鏡像頁面]**：將此 URL 視為鏡像頁面 URL。
-   * **[!UICONTROL 絕不]**：絕不啟動追蹤此 URL。<!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL 已追蹤]**：在此URL上啟用追蹤。
+   * **[!UICONTROL 選擇退出]**：將此URL視為選擇退出或取消訂閱URL。
+   * **[!UICONTROL 映象頁面]**：將此URL視為映象頁面URL。
+   * **[!UICONTROL 從不]**：絕對不要啟用此URL的追蹤功能。 <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 有關開啟次數與點按次數的報告，請參閱 [即時報告](../reports/live-report.md) 和 [全域報告](../reports/global-report.md).
 
@@ -174,7 +174,7 @@ ht-degree: 35%
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. 新增URL追蹤引數，並從運算式編輯器中選取您選取的設定檔屬性。
+1. 新增URL追蹤引數，並從個人化編輯器中選取您選取的設定檔屬性。
 
    ![](assets/message-tracking-perso-parameter.png)
 

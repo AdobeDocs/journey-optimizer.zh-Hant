@@ -8,10 +8,10 @@ level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 hide: true
 hidefromtoc: true
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '780'
-ht-degree: 7%
+ht-degree: 4%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 建立應用程式內訊息，並定義內容與個人化後，您就可以檢閱並啟用該訊息。 然後，將根據行銷活動排程傳送通知。 在[本頁](send-in-app.md)中瞭解更多。
 
-## 訊息版面 {#message-layout}
+## 訊息版面配置 {#message-layout}
 
 從 **[!UICONTROL 訊息配置]** 區段，根據您的訊息傳送需求，選取四個不同的版面配置選項之一。
 
@@ -43,11 +43,11 @@ ht-degree: 7%
 
 * **[!UICONTROL 全熒幕]**：此型別的版麵包含對象裝置的整個熒幕。
 
-  其支援媒體（影像、影片）、文字及按鈕元件。
+  其支援媒體（影像、視訊）、文字和按鈕元件。
 
 * **[!UICONTROL 強制回應]**：此版面會顯示在大型警報樣式視窗中，而您的應用程式仍會顯示在背景中。
 
-  其支援媒體（影像、影片）、文字及按鈕元件。
+  其支援媒體（影像、視訊）、文字和按鈕元件。
 
 * **[!UICONTROL 橫幅]**：此型別的版面會以原生作業系統警報訊息的形式顯示。
 
@@ -104,7 +104,7 @@ ht-degree: 7%
 
 ![](assets/in_app_web_design_4.png)
 
-使用 **[!UICONTROL 個人化]** 圖示以新增個人化。 進一步瞭解Adobe Journey Optimizer運算式編輯器中的個人化 [在本節中](../personalization/personalize.md).
+使用 **[!UICONTROL 個人化]** 圖示以新增個人化。 進一步瞭解Adobe Journey Optimizer個人化編輯器中的個人化 [在本節中](../personalization/personalize.md).
 
 +++更多具有進階格式的選項
 
@@ -118,7 +118,7 @@ ht-degree: 7%
 
 ### 按鈕 {#add-buttons}
 
-新增按鈕讓使用者可以和您的應用程式內訊息互動。
+新增按鈕讓使用者與您的應用程式內訊息互動。
 
 ![](assets/in_app_web_design_5.png)
 

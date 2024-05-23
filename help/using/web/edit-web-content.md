@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 17%
+ht-degree: 2%
 
 ---
 
@@ -35,14 +35,14 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="確認要編輯的 URL"
->abstract="確認特定網頁的 URL，以用於編輯將套用到上面定義的網頁表面的內容。必須使用此 Adobe Experience Platform Web SDK 實施此網頁。"
+>title="確認要編輯的URL"
+>abstract="確認特定網頁的URL，以用來編輯將套用至上述定義之網頁表面的內容。 必須使用Adobe Experience Platform Web SDK實作網頁。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="更多詳情"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
->title="輸入要編輯的 URL"
->abstract="輸入特定網頁的 URL，以用於編輯將套用到符合規則的所有網頁的內容。必須使用 Adobe Experience Platform Web SDK 實施此網頁。"
+>title="輸入要編輯的URL"
+>abstract="輸入特定網頁的URL，以用於編輯將套用至符合規則之所有頁面的內容。 該網頁必須使用Adobe Experience Platform Web SDK實作。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="更多詳情"
 
 若要開始撰寫網頁行銷活動，請遵循下列步驟。
@@ -95,8 +95,8 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
->title="將元件新增到您的網頁"
->abstract="您可以將許多元件新增到您的網頁並根據需要進行編輯。"
+>title="將元件新增至網頁"
+>abstract="您可以新增許多元件至網頁，並視需要加以編輯。"
 
 1. 從 **[!UICONTROL 元件]** 窗格，選取專案。 您可以將下列元件新增至網頁，並視需要加以編輯：
 
@@ -128,7 +128,7 @@ ht-degree: 17%
 
 ## 新增個人化和優惠方案
 
-若要新增個人化，請選取容器，然後從顯示的內容功能表列中選取個人化圖示。 使用運算式編輯器新增變更。 [了解更多](../personalization/personalization-build-expressions.md)
+若要新增個人化，請選取容器，然後從顯示的內容功能表列中選取個人化圖示。 使用個人化編輯器新增變更。 [了解更多](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
 
@@ -152,12 +152,12 @@ ht-degree: 17%
 
 1. 您可以使用它輕鬆導覽至視覺編輯器中的任何父項、同層級專案或子項元素。
 
-### 切換到瀏覽模式 {#browse-mode}
+### 切換至瀏覽模式 {#browse-mode}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="使用瀏覽模式"
->abstract="在此模式下，您可以從要個人化的選取表面瀏覽到精準的頁面。"
+>abstract="在此模式中，您可以導覽至您要個人化之所選表面的確切頁面。"
 
 您可以從預設值交換 **[!UICONTROL 設計]** 模式切換為 **[!UICONTROL 瀏覽]** 模式使用「專用」按鈕。
 
@@ -177,7 +177,7 @@ ht-degree: 17%
 
 ![](assets/web-designer-device.png)
 
-變更裝置大小的功能是專為可適當呈現在各種裝置、視窗和熒幕大小的回應式網站所設計。 回應式網站會自動調整並適應任何螢幕大小，包括桌上型電腦、筆記型電腦、平板電腦或行動電話。
+變更裝置大小的功能是專為可適當呈現在各種裝置、視窗和熒幕大小的回應式網站所設計。 回應式網站會自動調整並適應任何熒幕大小，包括桌上型電腦、筆記型電腦、平板電腦或行動電話。
 
 >[!CAUTION]
 >
