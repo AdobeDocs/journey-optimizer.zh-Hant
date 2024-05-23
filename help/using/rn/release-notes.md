@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec3d49dbd8587c788b67a9172205a8688088837e
+source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 47%
+source-wordcount: '768'
+ht-degree: 42%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="新增功能？"
->abstract="**Adobe Journey Optimizer** 持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會在每月最後一週整合於發行說明。"
+>abstract="**Adobe Journey Optimizer** 持續提供新功能、現有功能的增強功能，以及錯誤修正。 所有變更都會在每月最後一週整合於發行說明。"
 
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每月最後一週整合於發行說明。
 
@@ -50,6 +50,24 @@ ht-degree: 47%
 <p>體驗決策目前僅可適用於一組組織 (可用性限制)。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>如需詳細資訊，請參閱<a href="../experience-decisioning/gs-experience-decisioning.md">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>電子郵件表面個人化 — 可用性限制</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以在建立電子郵件通道介面時定義動態子網域和個人化標題引數，以提升電子郵件設定的彈性和控制能力。</p>
+<p>電子郵件表面個人化目前僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<p>如需詳細資訊，請參閱<a href="../email/surface-personalization.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -137,7 +155,7 @@ ht-degree: 47%
 
   >[!AVAILABILITY]
   >
-  >此功能目前為測試版本，僅供測試版客戶使用。 若要加入 Beta 版計畫，請連絡 Adobe 客戶服務。
+  >此功能目前為測試版本，僅供測試版客戶使用。 若要加入Beta版計畫，請聯絡您的Adobe代表。
 
 <!--
 **Audiences**
