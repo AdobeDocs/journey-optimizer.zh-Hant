@@ -12,10 +12,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 60b29231a097bde3e451549eac9c2aead9452cf4
+source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 8%
+source-wordcount: '1593'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="規則集"
->abstract="使用規則集將頻率上限套用至不同型別的行銷通訊。 例如，您可以建立規則集以限制 **促銷通訊** 傳送給您的客戶，並建立另一個規則集以限制 **電子報** 已傳送給他們。 規則集目前僅供選取使用者使用，做為Beta版提供。"
+>abstract="使用規則集將頻率上限套用至不同型別的行銷通訊。 例如，您可以建立規則集以限制 **促銷通訊** 傳送給您的客戶，並建立另一個規則集以限制 **電子報** 已傳送給他們。"
 
 >[!AVAILABILITY]
 >
@@ -79,22 +79,22 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_category"
 >title="選取訊息規則類別"
->abstract="啟動並套用至訊息時，和所選類別相符的所有頻率規則會自動應用至該訊息。目前只有行銷類別可用。"
+>abstract="啟用並套用至訊息時，符合所選類別的所有頻率規則將自動套用至此訊息。 目前僅行銷類別可用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_capping"
 >title="設定規則的上限"
->abstract="指定在所選時間範圍內傳送至客戶設定檔的最大訊息數量。頻率上限會以所選的行事曆期間為基礎，並會在對應的時間段開始時重設。 "
+>abstract="指定在所選時間範圍內傳送到客戶設定檔的最大訊息數。頻率上限將以所選的日曆週期為基礎，並將在對應時間範圍開始時重設。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
->title="定義套用規則的管道"
->abstract="選取至少一個管道。上限會以總計數套用在所有管道上。"
+>title="定義規則套用的管道"
+>abstract="請至少選取一個管道。頻率限定會當作總計數套用至各管道。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
 >title="選取訊息規則類別"
->abstract="啟動並套用至訊息時，和所選類別相符的所有頻率規則會自動應用至該訊息。目前只有行銷類別可用。"
+>abstract="啟用並套用至訊息時，符合所選類別的所有頻率規則將自動套用至此訊息。 目前僅行銷類別可用。"
 
 若要將規則新增至規則集，請遵循下列步驟。
 

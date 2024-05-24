@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 8253b4f3fdc177f5e5f19ab19de748b78456137b
+source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1262'
 ht-degree: 6%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
 >title="業務規則"
->abstract="使用商業規則來設定跨頻道規則，控制使用者收到訊息或進入歷程的頻率，這些規則會自動從訊息和動作中排除過度請求的設定檔。"
+>abstract="訊息頻率規則是一種商業規則，可限制使用者在一或多個管道上接收訊息或進入歷程的次數。 這些跨管道規則會自動從訊息和動作中排除過度請求的設定檔。"
 
-[!DNL Journey Optimizer] 可讓您設定跨頻道規則，控制使用者收到訊息或進入歷程的頻率，這些規則會自動從訊息和動作中排除過度請求的設定檔。
+[!DNL Journey Optimizer] 可讓您控制使用者經由一或多個頻道接收訊息或進入歷程的頻率。 訊息頻率規則，可自動從訊息和動作中排除過度請求的設定檔。
 
 例如，針對品牌，規則每個月不得傳送超過4則行銷訊息給客戶。 若要這麼做，您可以使用商業規則，在每月日曆期間，根據一或多個管道傳送的訊息數量會受到限制。
 
