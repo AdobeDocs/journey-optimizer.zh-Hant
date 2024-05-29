@@ -1,27 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 設定Infobip提供者
+title: 設定 Infobip 提供者
 description: 瞭解如何使用Journey Optimizer和Infobip設定您的環境以傳送簡訊和多媒體簡訊
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
+source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 4%
+source-wordcount: '357'
+ht-degree: 5%
 
 ---
 
-# 設定Infobip提供者 {#sms-configuration-infobip}
+# 設定 Infobip 提供者 {#sms-configuration-infobip}
 
 若要使用Journey Optimizer設定Infobip，請遵循下列步驟：
 
 1. 在左側邊欄中，瀏覽至 **[!UICONTROL 管理]** `>` **[!UICONTROL 頻道]** 並選取 **[!UICONTROL API認證]** 功能表。 按一下 **[!UICONTROL 建立新的API認證]** 按鈕。
 
-   ![](assets/sms_6.png)
-
 1. 設定您的API認證，如下所述。
+
+   * **[!UICONTROL 簡訊供應商]**： Infobip。
 
    * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
 

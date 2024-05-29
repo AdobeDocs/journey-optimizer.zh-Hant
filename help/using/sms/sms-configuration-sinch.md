@@ -1,19 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 設定Sinch提供者
+title: 設定 Sinch 提供者
 description: 瞭解如何使用Sinch設定您的環境以使用Journey Optimizer傳送文字訊息
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
+source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 3%
+source-wordcount: '557'
+ht-degree: 4%
 
 ---
 
-# 設定Sinch提供者 {#sms-configuration-sinch}
+# 設定 Sinch 提供者 {#sms-configuration-sinch}
 
 搭配Journey Optimizer使用Sinch提供者時，您可以找到兩個不同的選項：
 
@@ -27,9 +28,9 @@ ht-degree: 3%
 
 1. 在左側邊欄中，瀏覽至 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** 並選取 **[!UICONTROL API認證]** 功能表。 按一下 **[!UICONTROL 建立新的API認證]** 按鈕。
 
-   ![](assets/sms_6.png)
-
 1. 設定您的SMS API認證，如下所述：
+
+   * **[!UICONTROL 簡訊供應商]**：Sinch。
 
    * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
 
@@ -65,13 +66,16 @@ ht-degree: 3%
 
 1. 在左側邊欄中，瀏覽至 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** 並選取 **[!UICONTROL API認證]** 功能表。 按一下 **[!UICONTROL 建立新的API認證]** 按鈕。
 
-   ![](assets/sms_6.png)
+1. 設定您的MMS API認證，如下所述：
 
-1. 設定您的SMS API認證，如下所述：
+   * **[!UICONTROL 簡訊供應商]**：Sinch多媒體簡訊。
 
    * **[!UICONTROL 名稱]**：為您的API認證選擇名稱。
 
-   * **[!UICONTROL 專案ID]**， **[!UICONTROL 應用程式ID]** 和 **[!UICONTROL API Token]**：您可以在「Conversation API」功能表的「應用程式」功能表中找到您的認證。 進一步瞭解 [Sinch檔案](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
+   * **[!UICONTROL 專案ID]**， **[!UICONTROL 應用程式ID]** 和 **[!UICONTROL API Token]**：請依照下列步驟收集您的MMS API認證。
+
+      * 的 **[!UICONTROL 專案ID]** 和 **[!UICONTROL 應用程式ID]**：存取 **交談API總覽** 「Sinch儀表板」上Sinch專案的頁面。
+      * 的 **[!UICONTROL API Token]**：取得 **存取金鑰** ，並產生 **Base64 API Token** 移出您的Sinch專案 **存取金鑰**.
 
    * **[!UICONTROL 服務計畫ID]** 和 **[!UICONTROL SMS API Token]**：您的 **[!UICONTROL 服務計畫ID]** 和 **[!UICONTROL SMS API Token]** 位於API頁面的SMS標籤上。
 
