@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: 46d69dd422090a67c377acd6c8f44c4468e27f69
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 1%
+source-wordcount: '828'
+ht-degree: 3%
 
 ---
 
@@ -127,3 +127,220 @@ ht-degree: 1%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424603?quality=12)
 
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_CTR"
+>title="CTR"
+>abstract="CTR Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_clicks"
+>title="點按"
+>abstract="點按Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_delivered"
+>title="已傳遞"
+>abstract="傳遞的Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_overview"
+>title="Campaign概覽"
+>abstract="Campaign概觀Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_funnel"
+>title="行銷活動漏斗結果"
+>abstract="行銷活動漏斗結果Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_tracking_link"
+>title="追蹤的連結標籤"
+>abstract="追蹤的連結標籤Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_displays"
+>title="顯示"
+>abstract="顯示Widget"
+
+<!--campaign email-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_delivered_click"
+>title="傳遞與點按趨勢"
+>abstract="傳遞與點按趨勢Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_delivery_status"
+>title="傳遞狀態"
+>abstract="傳遞狀態Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_sending_statistics"
+>title="傳送統計資料"
+>abstract="傳送統計資料Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_tracking_statistics"
+>title="追蹤統計資料"
+>abstract="追蹤統計資料Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_domains"
+>title="電子郵件網域"
+>abstract="電子郵件網域Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_tracked_link"
+>title="追蹤的連結標籤"
+>abstract="追蹤連結標籤Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_tracked_link_urls"
+>title="追蹤的連結URL"
+>abstract="追蹤的連結URL Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_subjects"
+>title="電子郵件主題"
+>abstract="電子郵件主題Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_bounce_reasons"
+>title="退回原因"
+>abstract="退信原因Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_exclude"
+>title="排除原因"
+>abstract="排除原因Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_error"
+>title="錯誤原因"
+>abstract="錯誤原因Widget"
+
+
+<!--campaign push-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_sending_statistics"
+>title="傳送統計資料"
+>abstract="傳送統計資料Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_tracking_statistics"
+>title="追蹤統計資料"
+>abstract="追蹤統計資料Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_tracked_link"
+>title="追蹤的連結標籤"
+>abstract="追蹤連結標籤Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_tracked_link_urls"
+>title="追蹤的連結URL"
+>abstract="追蹤的連結URL Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_bounce_reasons"
+>title="退回原因"
+>abstract="退信原因Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_exclude"
+>title="排除的原因"
+>abstract="排除的原因Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_email_error"
+>title="錯誤原因"
+>abstract="錯誤原因Widget"
+
+<!--campaign inapp-->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_impression"
+>title="曝光與點選趨勢"
+>abstract="曝光與點選趨勢Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_clicks"
+>title="點按"
+>abstract="點按Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_displays"
+>title="顯示"
+>abstract="顯示Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_tracking_data"
+>title="追蹤資料"
+>abstract="追蹤資料Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_tracked_link"
+>title="追蹤的連結標籤"
+>abstract="追蹤的連結標籤Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_tracked_link_urls"
+>title="追蹤的連結URL"
+>abstract="追蹤的連結URL Widget"
+
+<!--campaign sms-->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_delivered_click"
+>title="傳遞與點按趨勢"
+>abstract="傳遞與點按趨勢Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_delivery_status"
+>title="傳遞狀態"
+>abstract="傳遞狀態Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_tracked_link"
+>title="追蹤的連結標籤"
+>abstract="追蹤連結標籤Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_tracked_link_urls"
+>title="追蹤的連結URL"
+>abstract="追蹤的連結URL Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_inbound"
+>title="SMS傳入訊息"
+>abstract="SMS傳入訊息Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_message_type"
+>title="簡訊型別"
+>abstract="SMS訊息型別Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_providers"
+>title="簡訊提供者"
+>abstract="簡訊提供者Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_bounce"
+>title="退回原因"
+>abstract="退信原因Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_exclude"
+>title="排除原因"
+>abstract="排除原因Widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_error"
+>title="錯誤原因"
+>abstract="錯誤原因Widget"
