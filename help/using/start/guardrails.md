@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: eccc8d954ce36747800d42eb2b73e45952eb43e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2065'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 ## 片段護欄 {#fragments-guardrails}
 
 * 視覺片段僅可用於電子郵件管道。
-* 運算式片段不適用於應用程式內頻道。
+* 運算式片段不適用於應用程式內管道。
 
 ## 歷程護欄 {#journeys-guardrails}
 
@@ -64,7 +64,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 當您發佈歷程時，我們會自動縮放和調整，以確保輸送量與穩定性達到最高。 當您一次接近 100 個即時歷程的里程碑時，您會看到此成果的 UI 中出現通知。 如果您看到此通知，並需要一次將歷程擴充至 100 個即時歷程以上，請建立客戶服務支援服務單，我們將協助您達成目標。
 * 在歷程中使用對象資格時，該對象資格活動最多可能需要 10 分鐘，才會啟用和接聽進入或退出對象的設定檔。
 * 設定檔的歷程執行個體大小上限為 1MB。在歷程執行過程中收集的所有資料都會儲存在該歷程執行個體中。因此，來自傳入事件的資料、從 Adobe Experience Platform 擷取的設定檔資訊、自訂動作回應等會儲存在該歷程執行個體中，並影響歷程大小。當歷程以事件開始時，建議限制該事件承載的大小上限 (例如：低於 800 KB)，以避免在歷程執行中經過幾項活動後達到該限制。 當達到該限制時，設定檔處於錯誤狀態並將從歷程中排除。
-* 除了歷程活動中使用的逾時之外，還有無法變更的介面中未顯示全域歷程逾時。 此全域逾時會在個人進入歷程30天後停止其進度。 [閱讀全文](../building-journeys/journey-gs.md#global_timeout)
+* 除了歷程活動中使用的逾時之外，還有一個不會顯示在介面且無法變更的全域歷程逾時。 此全域逾時會在個人進入歷程 30 天後停止其進度。 [閱讀全文](../building-journeys/journey-gs.md#global_timeout)
 
 
 ### 一般動作 {#general-actions-g}

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: cc68e45e0da3cd65df74c7a484934af6da64b255
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1348'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 92%
 
   您也可以存取&#x200B;**報告**&#x200B;區段來設定行銷活動實驗的報告。 [了解更多](../campaigns/reporting-configuration.md)
 
-* **[!UICONTROL 業務規則]**  — 使用此區段建立跨頻道商業規則，以控制使用者接收訊息或進入歷程的頻率。 [了解更多](../configuration/frequency-rules.md)
+* **[!UICONTROL 業務規則]** - 使用此部分來建立跨通路業務規則，以控制使用者接收訊息或進入歷程的頻率。 [了解更多](../configuration/frequency-rules.md)
 
 * **[!UICONTROL 警報]** - 使用者介面可讓您根據 Adobe Experience Platform 可檢視性深入解析顯示的指標查看收到警報的歷史記錄。UI 也可讓您檢視、啟用和停用可用的警報規則。 [了解更多](../reports/alerts.md)
 
@@ -198,95 +198,95 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
 >title="行動裝置和網頁設定名稱"
->abstract="TBC"
+>abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_add"
 >title="新增相依性"
->abstract="TBC"
+>abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_initialization_code"
 >title="新增初始化程式碼"
->abstract="TBC"
+>abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="使用保證進行驗證"
->abstract="TBC"
+>abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
->title="Javascript程式碼"
->abstract="TBC"
+>title="Javascript 程式碼"
+>abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_site"
 >title="啟動網站並驗證"
->abstract="TBC"
+>abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
->title="擷取裝置Token"
->abstract="TBC"
+>title="獲取裝置語彙基元"
+>abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
->title="從Xcode啟動應用程式"
->abstract="TBC"
+>title="從 Xcode 啟動應用程式"
+>abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_certificate"
 >title="提供推播憑證"
->abstract="TBC"
+>abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_key_id"
->title="金鑰ID"
->abstract="TBC"
+>title="金鑰 ID"
+>abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_team_id"
->title="團隊ID"
->abstract="TBC"
+>title="團隊 ID"
+>abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_inapp_tag_property"
->title="選擇您的標籤屬性"
->abstract="TBC"
+>title="選擇您的標記屬性"
+>abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"
 >title="提供推播憑證"
->abstract="TBC"
+>abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_add"
 >title="新增相依性"
->abstract="TBC"
+>abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_import"
 >title="匯入相依性"
->abstract="TBC"
+>abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_import"
 >title="匯入相依性"
->abstract="TBC"
+>abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_initialization_code"
 >title="新增初始化程式碼"
->abstract="TBC"
+>abstract="待定"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token_android"
->title="擷取裝置Token"
->abstract="TBC"
+>title="獲取裝置語彙基元"
+>abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_android_studio"
->title="從Android Studio啟動應用程式"
->abstract="TBC"
+>title="從 Android Studio 啟動應用程式"
+>abstract="待定"
