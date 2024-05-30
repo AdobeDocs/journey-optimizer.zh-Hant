@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 43adfef7632e7c9ad4c79544286b210abe5a964f
+source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 94%
+source-wordcount: '1817'
+ht-degree: 93%
 
 ---
 
@@ -311,9 +311,12 @@ ht-degree: 94%
       + Personalization 使用案例{#personalization-use-cases}
          + [訂單狀態通知](using/personalization/personalization-use-case.md)
          + [放棄購物車電子郵件](using/personalization/personalization-use-case-helper-functions.md)
-   + 管理可重複使用的內容 {#reusable-content}
-      + [使用內容範本](using/content-management/content-templates.md)
-      + [使用片段](using/content-management/fragments.md)
+   + [內容範本](using/content-management/content-templates.md)
+   + 可重複使用的內容片段 {#fragments}
+      + [開始使用片段](using/content-management/fragments.md)
+      + [建立片段](using/content-management/create-fragments.md)
+      + [將現有內容另存為片段](using/content-management/save-fragments.md)
+      + [管理片段](using/content-management/manage-fragments.md)
    + 動態內容 {#dynamic}
       + [開始使用動態內容](using/personalization/get-started-dynamic-content.md)
       + [建立條件式規則](using/personalization/create-conditions.md)
