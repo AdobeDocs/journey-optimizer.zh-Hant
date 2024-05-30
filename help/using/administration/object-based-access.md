@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: 物件，層級，存取，控制，標籤， olac，授權
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 12%
+source-wordcount: '413'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="物件等級存取控制"
->abstract="如果您套用任何您無權存取的標籤，則您對此物件的存取權限將被撤銷。"
+>abstract="若要維持此物件的存取權，請僅套用您具有許可權的標籤。"
 
 物件層級存取控制(OLAC)可讓您定義授權，以管理對所選物件的資料存取：
 

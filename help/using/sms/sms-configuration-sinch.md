@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
+source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '559'
 ht-degree: 4%
 
 ---
@@ -74,8 +74,8 @@ ht-degree: 4%
 
    * **[!UICONTROL 專案ID]**， **[!UICONTROL 應用程式ID]** 和 **[!UICONTROL API Token]**：請依照下列步驟收集您的MMS API認證。
 
-      * 的 **[!UICONTROL 專案ID]** 和 **[!UICONTROL 應用程式ID]**：存取 **交談API總覽** 「Sinch儀表板」上Sinch專案的頁面。
-      * 的 **[!UICONTROL API Token]**：取得 **存取金鑰** ，並產生 **Base64 API Token** 移出您的Sinch專案 **存取金鑰**.
+      * 的 **[!UICONTROL 專案ID]** 和 **[!UICONTROL 應用程式ID]**：存取 [交談API總覽](https://dashboard.sinch.com/convapi/overview) 「Sinch儀表板」上Sinch專案的頁面。
+      * 的 **[!UICONTROL API Token]**：取得 [存取金鑰](https://community.sinch.com/t5/Customer-Dashboard/Sinch-Access-Keys/ta-p/12638) ，並產生 **Base64 API Token** 移出您的Sinch專案 **存取金鑰**.
 
    * **[!UICONTROL 服務計畫ID]** 和 **[!UICONTROL SMS API Token]**：您的 **[!UICONTROL 服務計畫ID]** 和 **[!UICONTROL SMS API Token]** 位於API頁面的SMS標籤上。
 
