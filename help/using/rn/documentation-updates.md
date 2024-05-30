@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 2b31a75595e076bfac2023f8e58ddfbcc14bace1
 workflow-type: tm+mt
 source-wordcount: '5335'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 97%
 * 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2024年5月版本的詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
 * 已更新有關週期性歷程的種子清單區段。 [閱讀全文](../configuration/seed-lists.md#use-seed-list)
 * 已更新外部資料來源上的區段。 [閱讀全文](../datasource/external-data-sources.md#custom-authentication-access-token)
-* 護欄和限制頁面已新增30天的全域歷程逾時。 [閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
-* 有關Adobe Campaign v7/v8整合的區段已更新，其中包含有關布建的資訊。 [閱讀全文](../action/acc-action.md#access)
+* 護欄和限制頁面已新增 30 天的全域歷程逾時。 [閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
+* 有關 Adobe Campaign v7/v8 整合的部分已更新，其中包含有關佈建的資訊。 [閱讀全文](../action/acc-action.md#access)
 * 檔案中用於個人化內容的運算式編輯器已重新命名為「個人化編輯器」，以與 [歷程運算式編輯器](../building-journeys/expression/expressionadvanced.md). [閱讀全文](../personalization/personalization-build-expressions.md)
 
 ## 2024 年 4 月 {#april-2024}
@@ -92,7 +92,7 @@ ht-degree: 97%
 * 更新有關快取持續時間的自訂驗證文件。[閱讀全文] (../datasource/external-data-sources.md)
 * 已在多個函數中修改 `<listObject>` 的支援。
 * 更新 `toString` 函數中的&#x200B;**期間**&#x200B;參數。 [閱讀全文](../building-journeys/functions/functiontostring.md)
-* 對於某些外部資料來源使用案例，建議使用自訂動作。
+* 對於某些外部資料來源使用案例，建議使用自訂操作。
 * 已更新事件欄位語法。 下列語法已過時 `@(my_event.myfield}`，並已由 `@event{my_event.myfield}` 取代。[閱讀全文](../building-journeys/expression/field-references.md)
 * 已重新整理「全域報告」和「即時報告」指南。 [閱讀全文](../reports/campaign-global-report.md)
 

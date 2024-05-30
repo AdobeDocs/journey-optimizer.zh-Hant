@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 40e4aaa93400daf52c96aa5ac2de17151cdbb07f
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 42%
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="新增功能？"
->abstract="**Adobe Journey Optimizer** 持續提供新功能、現有功能的增強功能，以及錯誤修正。 所有變更都會在每月最後一週整合於發行說明。"
+>abstract="**Adobe Journey Optimizer** 持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每月最後一週整合於發行說明。"
 
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每月最後一週整合於發行說明。
 
@@ -29,7 +29,7 @@ ht-degree: 42%
 
 ## 2024 年 5 月發行說明 {#may-2024}
 
-**發行日期**： 2024年5月21日至22日
+**發行日期**：2024 年 5 月 21 日至 22 日
 
 ### 新功能 {#e-features}
 
@@ -126,15 +126,15 @@ ht-degree: 42%
 
 此發行版本隨附下列改進項目。
 
-**體驗決策** （可用性限制）
+**體驗決策** (限量)
 
-從Beta版到本版本，已新增下列改良功能：
+從 Beta 版到此版本，新增了以下改善：
 
-* **Experience Decisioning +程式碼型體驗**  — 您現在可以善用Experience Decisioning功能，在程式碼型行銷活動中使用決定專案。 注意：程式碼型的體驗管道和體驗決策不適用於已購買 Adobe Healthcare Shield 以及 Privacy and Security Shield 附加產品的組織。[閱讀全文](../code-based/get-started-code-based.md)
-* **內容資料**  — 您現在可以在決定規則和排名公式中善用Adobe Experience Platform的內容資料。 [閱讀全文](../experience-decisioning/context-data.md)
-* **新許可權**  — 新的「管理體驗決策」許可權現在可用於決策管理資源。 它可讓您管理與體驗決策相關的權限。[閱讀全文](../experience-decisioning/gs-experience-decisioning.md)
-* **上限規則**  — 您現在可以在Experience Decisioning中為特定決定專案新增多個上限規則。 這可讓您針對活動內容傳送方式提高控制等級。[閱讀全文](../experience-decisioning/items.md#capping)
-* **報告**  — 您現在可以使用以下專案建立Experience Decisioning行銷活動的自訂報告控制面板 [!DNL Customer Journey Analytics]. [閱讀全文](../experience-decisioning/cja-reporting.md)
+* **體驗決策 + 程式碼型的體驗** ：您現在可以利用體驗決策功能在程式碼型的行銷活動中使用決策項目。 注意：程式碼型的體驗管道和體驗決策不適用於已購買 Adobe Healthcare Shield 以及 Privacy and Security Shield 附加產品的組織。[閱讀全文](../code-based/get-started-code-based.md)
+* **內容資料** - 現在您可以在決策規則和排名公式中利用 Adobe Experience Platform 的內容資料。[閱讀全文](../experience-decisioning/context-data.md)
+* **新權限** - 決策管理資源現在有新的「管理體驗決策」權限可用。 它可讓您管理與體驗決策相關的權限。[閱讀全文](../experience-decisioning/gs-experience-decisioning.md)
+* **上限規則** - 您現在可以為體驗決策中的指定決策項目新增多個上限規則。 這可讓您針對活動內容傳送方式提高控制等級。[閱讀全文](../experience-decisioning/items.md#capping)
+* **報告** - 現在您可以使用[!DNL Customer Journey Analytics]建立體驗決策活動的自訂報告儀表板。 [閱讀全文](../experience-decisioning/cja-reporting.md)
 
 
 <!--**Decision Management**
@@ -149,11 +149,11 @@ ht-degree: 42%
 * **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)
 -->
 
-* **垃圾郵件評分** （測試版） — 您現在可以在專用的垃圾郵件報告中檢查您的內容垃圾郵件評分。 使用SpamAssassin，Adobe Journey Optimizer現在可以測試您的電子郵件內容，並為它提供分數，以指出ISP或信箱提供者是否將其視為垃圾郵件。 [閱讀全文](../content-management/spam-report.md)
+* **垃圾郵件評分** (Beta) - 您現在可以在專用的垃圾郵件報告中檢查您的內容垃圾郵件評分。 使用 SpamAssassin，Adobe Journey Optimizer 現在可以測試您的電子郵件內容並為其評分，以指出 ISP 或信箱提供者是否將其視為垃圾郵件。 [閱讀全文](../content-management/spam-report.md)
 
   >[!AVAILABILITY]
   >
-  >此功能目前為測試版本，僅供測試版客戶使用。 若要加入Beta版計畫，請聯絡您的Adobe代表。
+  >此功能目前為 Beta 版本，僅供 Beta 版客戶使用。若要加入Beta版計畫，請聯絡您的Adobe代表。
 
 <!--
 **Audiences**
@@ -167,14 +167,14 @@ ht-degree: 42%
 **歷程**
 
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
-* **mTLS支援**  — 自訂動作現在支援mTLS驗證。 自訂動作或歷程中不需要額外設定即可啟用mTLS；偵測到啟用mTLS的端點時，會自動發生此情況。 [閱讀全文](../action/about-custom-action-configuration.md#mtls-protocol-support)
-* **查詢事件中的表格**  — 現在，當使用物件陣列內的屬性定義關聯性時，您可以運用查詢資料集中的資料。 查閱值將在歷程（條件、自訂動作等）中使用 和訊息個人化。 [閱讀全文](../event/experience-event-schema.md#relationships_limitations)
-* **事件設定中的進階運算式編輯器** (LA) — 您現在可以在設定事件時運用進階運算式編輯器，讓您定義更複雜的運算式或在事件ID條件中使用函式。 此功能以「有限可用性」形式向選定客戶發佈。 [閱讀全文](../event/about-creating.md)
-* **合併原則** (LA) — 歷程使用的合併原則現在在整個歷程中可見且一致。 此功能以「有限可用性」形式向選定客戶發佈。 [閱讀全文](../building-journeys/journey-gs.md#merge-policies)
+* **mTLS 支援** - 自訂動作現在支援 mTLS 驗證。 自訂動作或歷程中不需要額外設定即可啟用 mTLS；當偵測到啟用 mTLS 的端點時，它會自動發生。 [閱讀全文](../action/about-custom-action-configuration.md#mtls-protocol-support)
+* **查詢事件中的表格** - 現在，當使用物件陣列內的屬性定義關聯性時，您可以運用查詢資料集中的資料。 查閱值將在歷程 (條件、自訂動作等) 以及訊息個人化中使用。 [閱讀全文](../event/experience-event-schema.md#relationships_limitations)
+* **事件設定中的進階運算式編輯器** (LA) - 您現在可以在設定事件時運用進階運算式編輯器，讓您定義更複雜的運算式或在事件 ID 條件中使用函數。 此功能以「限量」形式向選定的客戶發布。[閱讀全文](../event/about-creating.md)
+* **合併原則** (LA) - 歷程使用的合併原則現在在整個歷程中可見且一致。 此功能以「限量」形式向選定的客戶發布。[閱讀全文](../building-journeys/journey-gs.md#merge-policies)
 
 **全球化**
 
-為了提供統一的使用者體驗，我們不斷努力協調Adobe Experience Cloud產品和應用程式中使用的術語。 這會影響德文術語「標題」，在與物件名稱相關時會變更為「標籤」。 這些變更將會逐步在UI和檔案中推出。
+作為我們不斷努力提供統一使用者體驗的一部分，我們統一了 Adobe Experience Cloud 產品和應用程式中使用的術語。 這會影響德文術語「標題」，在與物件名稱相關時會變更為「標籤」。 這些變更將會逐步在使用者介面與檔案中逐步推出。
 
 
 
