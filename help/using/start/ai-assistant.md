@@ -1,22 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在Adobe Journey Optimizer中使用AI助理
-description: 瞭解如何在Adobe Journeys Optimizer中善用Adobe Experience Platform AI Assistant。
+title: 使用AI助理
+description: 瞭解如何善用AI助理
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 8cd9374130725a89208acadc3a02574408f98599
+exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
+source-git-commit: ddb8c02a309c6e016e95cb8b9fcde24f0f751078
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
-# 在Adobe Journey Optimizer中使用AI助理 {#ai-assistant}
+# 使用AI助理 {#ai-assistant}
 
 AI Assistant是使用者介面功能，可用於導覽和瞭解Adobe概念，並取得您特定環境的營運見解。 它適用於Adobe Experience Cloud的多個產品，包括Adobe Journey Optimizer。
 
@@ -26,7 +27,7 @@ AI Assistant是使用者介面功能，可用於導覽和瞭解Adobe概念，並
 
 在Adobe Journey Optimizer中，您可以存取下列使用案例：
 
-* 概念問題（一般可用性）概念問題與Adobe Journey Optimizer各方面相關的Adobe概念有關。 概念問題的一些範例包括：
+* 產品知識（一般可用性）產品知識問題與Adobe Journey Optimizer各方面相關的Adobe概念有關。 產品知識問題的一些範例包括：
 
    * 一個Adobe Journey Optimizer沙箱中可以有多少個已上線活動？
    * 如何在Adobe Journey Optimizer中設定行銷活動？
