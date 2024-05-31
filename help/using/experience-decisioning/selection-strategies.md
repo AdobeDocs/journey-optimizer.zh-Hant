@@ -5,12 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-badge: label="限量版"
+badge: label="可用性限制"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 19%
+ht-degree: 3%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
->title="定義您的選擇策略"
->abstract="選擇策略可重複使用，並包括與適用性限制和排名方法相關聯的集合，用以確定在選取某個決定原則時要顯示的優惠。"
+>title="定義您的選取策略"
+>abstract="選擇策略可重複使用，包括與資格限制關聯的集合，以及用於決定在決定策略中選取時顯示的優惠的排名方法。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="建立決定原則"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
->title="限制符合資格的設定檔"
->abstract="您可以限制此選擇策略的優惠選擇。 預設情況下，所有設定檔都符合資格，但您可以使用對象或規則將優惠選擇限制為僅限特定設定檔。"
+>title="限制合格的設定檔"
+>abstract="您可以限制此選取策略的優惠方案選取。 依預設，所有設定檔都符合資格，但您可以使用對象或規則將優惠方案選擇限製為僅限特定設定檔。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用對象"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="使用決定規則"
 
@@ -81,14 +81,14 @@ ht-degree: 19%
 
    * 如果您想要使用特定計算的分數來選擇要遞送的合格優惠方案，請選取 [公式](#ranking-formula) 或 [AI模型](#ai-ranking).
 
-1. 按一下 **[!UICONTROL 建立]**。現在已準備好用於 [決定原則](create-decision.md)
+1. 按一下 **[!UICONTROL 建立]**. 現在已準備好用於 [決定原則](create-decision.md)
 
 ## 選取排名方法 {#select-ranking-method}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_ranking"
->title="定義如何對優惠進行排名"
->abstract="如果多個優惠符合特定的選擇策略，請在建立選擇策略時選擇為每個設定檔選取最佳優惠的方法：優先順序或排名公式。"
+>title="定義優惠排名的方式"
+>abstract="如果數個優惠方案符合指定的選擇策略的資格，請在建立選擇策略時，選擇將針對每個設定檔選取最佳優惠方案的方法：優先順序或排名公式。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="建立決定原則"
 
 如果數個優惠方案符合指定的選取策略資格，您可以選擇在建立選取策略時，用來選取每個設定檔之最佳優惠方案的方法。 您可以依下列方式排名優惠方案：
