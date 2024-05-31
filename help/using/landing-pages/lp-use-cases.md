@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 登陸、登陸頁面、使用案例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
+source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 12%
@@ -166,8 +166,6 @@ ht-degree: 12%
 >如果您預設的合併方法 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"} **[!UICONTROL 設定檔]** 合併原則為 **[!UICONTROL 資料集優先順序]**，請務必啟用 **[!UICONTROL AJO同意服務資料集]** 並在合併原則中加以優先處理。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >即使未將任何批次新增至此資料集，它仍會包含選擇加入/選擇退出資訊。
-
-
 
 **另請參閱：**
 

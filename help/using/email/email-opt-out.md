@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 選擇退出，電子郵件，連結，取消訂閱
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
+source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 26%
@@ -31,7 +31,6 @@ ht-degree: 26%
 * 啟用 **一鍵退出連結** 用於您的電子郵件。  [瞭解如何新增一鍵退出連結](#one-click-opt-out)
 
 * 插入 **連結至登入頁面**. [瞭解如何新增選擇退出登陸頁面](#opt-out-external-lp)
-
 
 ## 單步驟選擇退出 {#opt-out-one-step}
 
