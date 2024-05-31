@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
 workflow-type: tm+mt
-source-wordcount: '2415'
+source-wordcount: '2545'
 ht-degree: 1%
 
 ---
@@ -26,17 +26,17 @@ ht-degree: 1%
 
 在管道表面設定的專用區段中定義電子郵件設定，如下所述。
 
-![](assets/preset-email-settings.png)
+![](assets/surface-email-settings.png){width="50%" align="left"}
 
 系統會擷取電子郵件表面設定，依照下列邏輯傳送通訊：
 
-* 對於批次歷程，不適用於在製作電子郵件表面設定之前已啟動的批次執行。 下次重複或新的執行時會擷取變更。
+* 對於批次歷程，不適用於在製作電子郵件表面設定之前已啟動的批次執行。 變更會在下次週期或新的執行時擷取。
 
 * 若是交易式訊息，下次通訊時會立即擷取變更（最多延遲5分鐘）。
 
 >[!NOTE]
 >
->更新的電子郵件表面設定將在使用表面的歷程或行銷活動中自動擷取。
+>更新的電子郵件表面設定會在使用表面的歷程或行銷活動中自動擷取。
 
 ## 電子郵件型別 {#email-type}
 
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 選取要與表面關聯的IP集區。 [了解更多](../configuration/ip-pools.md)
 
-![](assets/preset-subdomain-ip-pool.png){width="50%" align="left"}
+![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
 當選取的IP集區位於下方時，您無法繼續建立表面 [版本](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL 處理中]** 狀態)，且從未與所選子網域建立關聯。 否則，系統仍會使用IP集區/子網域關聯的最舊版本。 如果是這種情況，請將表面儲存為草稿，並在IP池具有 **[!UICONTROL 成功]** 狀態。
 
@@ -81,41 +81,47 @@ ht-degree: 1%
 >
 >如果未設定PTR記錄，請聯絡您的Adobe代表。
 
-## 清單取消訂閱 {#list-unsubscribe}
+## 清單取消訂閱標頭{#list-unsubscribe}
+
+<!--Do not modify - Legal Review Done -->
+
 
 於 [選取子網域](#subdomains-and-ip-pools) 從清單中， **[!UICONTROL 啟用清單取消訂閱]** 選項隨即顯示。
 
-此選項預設為啟用。 如果您將其保留為啟用，則取消訂閱連結會自動包含在電子郵件標題中，例如：
+此選項預設為啟用，在電子郵件標題中加入一鍵式取消訂閱URL，例如：
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-如果停用此選項，則電子郵件標頭不會顯示取消訂閱連結。
+如果停用此選項，一鍵式取消訂閱URL不會顯示在電子郵件標頭中。
 
-您可以從「 」中選擇同意層級 **同意層級** 下拉式清單。 它可特定於通道或設定檔身分。 根據此設定，當使用者使用電子郵件的清單取消訂閱標題連結取消訂閱時，同意會在Adobe Journey Optimizer中以頻道層級或ID層級更新。
+您可以從「 」中選擇同意層級 **[!UICONTROL 同意層級]** 下拉式清單。 它可特定於通道或設定檔身分。 根據此設定，當使用者使用電子郵件標題中的清單取消訂閱URL取消訂閱時，同意會在Adobe Journey Optimizer中以頻道層級或ID層級更新。
 
-取消訂閱連結包含兩個元素：
+List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱URL，如下所述），除非您取消核取其中一項或兩項功能，否則預設會啟用這兩種功能：
 
-* 一個 **取消訂閱電子郵件地址**，所有取消訂閱的請求都會傳送至。
+* A **Mailto （取消訂閱）** 位址，將取消訂閱的請求路由至此的目的地位址，以進行自動處理。
 
-  在 [!DNL Journey Optimizer]，預設為取消訂閱電子郵件地址 **[!UICONTROL Mailto （取消訂閱）]** 頻道介面中顯示的地址，根據 [選取的子網域](#subdomains-and-ip-pools).
+  在Journey Optimizer中，預設為取消訂閱電子郵件地址 **Mailto （取消訂閱）** 頻道介面中顯示的地址，根據您的 [選取的子網域](#subdomains-and-ip-pools).
 
-  ![](assets/preset-list-unsubscribe-mailto.png){width="50%" align="left"}
+  ![](assets/surface-list-unsubscribe-mailto.png){width="50%" align="left"}
 
-* 此 **取消訂閱URL**，此為登陸頁面的URL，一旦取消訂閱，將會重新導向使用者。
 
-  如果您新增 [一鍵退出連結](../privacy/opt-out.md#one-click-opt-out) 對於使用此介面建立的訊息，取消訂閱URL將為一鍵退出連結定義的URL。
+* 此 **一鍵式取消訂閱URL**，根據您在「頻道介面設定」中設定和設定的子網域，預設為按一下選擇我們的URL產生的「清單取消訂閱標題」 。
 
-  ![](assets/preset-list-unsubscribe-opt-out-url.png)
-
-  >[!NOTE]
+  >[!AVAILABILITY]
   >
-  >如果您未在訊息內容中新增一鍵退出連結，則不會向使用者顯示登陸頁面。
+  >從2024年6月3日起，Adobe Journey Optimizer中將提供一鍵式「取消訂閱URL標題」 。
+  >
 
-瞭解更多有關在訊息中新增標題取消訂閱連結的資訊 [本節](../privacy/opt-out.md#unsubscribe-header).
 
-<!--If you have added one or more dynamic subdomains, URLs will be populated based on the resolved dynamic subdomain. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+此 **[!UICONTROL Mailto （取消訂閱）]** 功能與 **[!UICONTROL 一鍵式取消訂閱URL]** 功能為選用。 如果您不想使用預設產生的一鍵式取消訂閱URL，可以取消核取該功能。 在下列案例中 **[!UICONTROL 選擇退出設定]** 選項已開啟，且 **[!UICONTROL 一鍵式取消訂閱URL]** 如果您新增「 」，「 」功能會取消勾選 [一鍵退出連結](../privacy/opt-out.md#one-click-opt-out) 對於使用此介面建立的訊息，清單取消訂閱標題將挑選您已插入電子郵件內文的一鍵選擇退出連結，並將其用作一鍵取消訂閱URL值。
 
-<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
+![](assets/preset-list-unsubscribe-opt-out-url.png)
+
+>[!NOTE]
+>
+>如果您未在訊息內容中新增一鍵退出連結，且「頻道介面設定」中的預設一鍵取消訂閱URL為取消核取，則不會URL作為「清單取消訂閱」標頭的一部分傳遞至電子郵件標頭。
+
+瞭解更多有關管理訊息中取消訂閱功能的資訊，請參閱 [本節](../email/email-opt-out.md#unsubscribe-header).
 
 ## 標頭引數 {#email-header}
 
