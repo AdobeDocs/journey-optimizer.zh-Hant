@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 3%
@@ -158,7 +158,7 @@ ht-degree: 3%
    * **[!UICONTROL 已追蹤]**：在此URL上啟用追蹤。
    * **[!UICONTROL 選擇退出]**：將此URL視為選擇退出或取消訂閱URL。
    * **[!UICONTROL 映象頁面]**：將此URL視為映象頁面URL。
-   * **[!UICONTROL 從不]**：絕對不要啟用此URL的追蹤功能。
+   * **[!UICONTROL 從不]**：絕對不要啟用此URL的追蹤功能。 <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 有關開啟次數與點按次數的報告，請參閱 [即時報告](../reports/live-report.md) 和 [全域報告](../reports/global-report.md).
 

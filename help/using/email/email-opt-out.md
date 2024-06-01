@@ -9,120 +9,60 @@ role: User
 level: Intermediate
 keywords: 選擇退出，電子郵件，連結，取消訂閱
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 26%
+source-wordcount: '1029'
+ht-degree: 76%
 
 ---
 
 # 電子郵件選擇退出管理 {#email-opt-out}
 
-從歷程或行銷活動傳送訊息時，您必須一律確保客戶可取消訂閱未來的通訊。 取消訂閱後，設定檔會自動從未來行銷訊息的對象中移除。  [進一步瞭解隱私權與選擇退出管理](../privacy/opt-out.md)
+為了向收件者提供取消訂閱接收電子郵件通訊的功能，您必須一律包含 **取消訂閱連結** 每封寄送給收件者的電子郵件中。 [進一步瞭解隱私權與選擇退出管理](../privacy/opt-out.md)
+
+若要這麼做，您可以：
+
+* 插入 **連結至登入頁面** 放入電子郵件中，讓使用者能夠取消訂閱以停止接收來自您品牌的通訊。 可以是：
+
+   * A **[!DNL Journey Optimizer]登陸頁面**. [瞭解如何新增選擇退出登陸頁面](../landing-pages/lp-use-cases.md#opt-out)
+
+   * A **外部登陸頁面**. [瞭解如何新增外部選擇退出連結](#opt-out-external-lp)
+
+* 新增 **一鍵退出連結** 放入您的電子郵件內容。 此連結可讓您的收件者快速取消訂閱您的通訊內容，無需重新導向至需要確認選擇退出的登陸頁面，加速取消訂閱的流程。 [瞭解如何新增一鍵退出連結](#one-click-opt-out)
+
+* 在電子郵件標題中新增取消訂閱連結。 如果 **[!UICONTROL 清單 — 取消訂閱]** 選項在頻道介面層級啟用，透過Journey Optimizer傳送的相應電子郵件將在電子郵件標題中包含取消訂閱連結。 [進一步瞭解電子郵件標題中的選擇退出](#unsubscribe-header)
 
 >[!NOTE]
 >
->您的所有行銷訊息都必須包含選擇退出連結。 異動訊息不需要此屬性。 訊息類別 —  **[!UICONTROL 行銷]** 或 **[!UICONTROL 異動]**  — 定義於 [頻道介面](../configuration/channel-surfaces.md#email-type) 層級和建立訊息時。
+>行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 訊息類別(**[!UICONTROL 行銷]** 或 **[!UICONTROL 異動]**)定義於 [頻道介面](../configuration/channel-surfaces.md#email-type) 層級及建立訊息時)。
 
-若要在電子郵件內容中插入取消訂閱連結，您可以：
+## 外部選擇退出 {#opt-out-external-lp}
 
-* 在電子郵件標題中新增一鍵取消訂閱URL。 啟用 **[!UICONTROL List-Unsubscribe標頭]** 頻道介面層級的選項會在電子郵件標題中新增選擇退出連結。 [進一步瞭解電子郵件標題中的選擇退出](#unsubscribe-header)
+### 新增取消訂閱連結 {#add-unsubscribe-link}
 
-* 啟用 **一鍵退出連結** 用於您的電子郵件。  [瞭解如何新增一鍵退出連結](#one-click-opt-out)
+您首先需要在訊息中加入取消訂閱連結。 請依照下列步驟執行此操作：
 
-* 插入 **連結至登入頁面**. [瞭解如何新增選擇退出登陸頁面](#opt-out-external-lp)
+1. 建立您的取消訂閱登陸頁面。
 
+1. 在選擇的協力廠商系統進行託管。
 
-## 單步驟選擇退出 {#opt-out-one-step}
+1. 在歷程中建立訊息。
 
-### 在電子郵件標題中按一下「取消訂閱URL」 {#unsubscribe-header}
+1. 選擇內容中的文字，並使用內容相關工具列[插入連結](../email/message-tracking.md#insert-links)。
 
-<!--Do not modify - Legal Review Done -->
+   ![](assets/opt-out-insert-link.png)
 
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_unsubscribe"
->title="在電子郵件標題中新增取消訂閱URL"
->abstract="啟用List-Unsubscribe Header以在電子郵件標題中新增取消訂閱URL。 若要設定取消訂閱 URL，請在電子郵件內容插入一鍵式選擇退出連結。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hant#one-click-opt-out" text="一鍵選擇退出"
+1. 從&#x200B;**[!UICONTROL 連結類型]**&#x200B;下拉式清單中選擇 **[!UICONTROL 外部選擇退出/取消訂閱]** 。
 
-一鍵式清單取消訂閱URL是電子郵件寄件者資訊旁邊顯示的取消訂閱連結或按鈕，可讓收件者只要按一下即可立即選擇退出您的郵寄清單。 在Adobe Journey Optimizer中，當 **啟用清單取消訂閱** 選項已切換，依預設，電子郵件標題同時包含郵件和/或URL，收件者可使用這些URL取消訂閱您的郵寄清單。
+   ![](assets/opt-out-link-type.png)
 
-此 [啟用清單取消訂閱](email-settings.md#list-unsubscribe) 必須在頻道介面層級啟用切換，以便使用此介面的電子郵件在電子郵件標題中包含一鍵式取消訂閱URL。
+1. 在&#x200B;**[!UICONTROL 連結]**&#x200B;欄位貼上第三方登陸頁面的連結。
 
->[!NOTE]
->
->若要在電子郵件標題中顯示一鍵式取消訂閱URL，收件者的電子郵件使用者端必須支援此功能。
+   ![](assets/opt-out-link-url.png)
 
+1. 按一下「**[!UICONTROL 儲存]**」。
 
-例如，按一下取消訂閱URL會在Gmail中顯示取消訂閱連結，如下所示：
-
-![](assets/unsubscribe-header.png)
-
-
-透過Adobe Journey Optimizer，您可以透過自動產生的一鍵式取消訂閱URL和電子郵件標題中的mailto地址來設定電子郵件介面設定，或在您的電子郵件內文中包含一鍵式選擇退出URL：當收件者按一下一鍵式選擇退出連結時，收件者的取消訂閱請求會據此處理。
-
->[!AVAILABILITY]
->
->從2024年6月3日起，Adobe Journey Optimizer中將提供一鍵式「取消訂閱URL標題」 。
->
-
-根據電子郵件使用者端及 [電子郵件表面取消訂閱設定](email-settings.md#list-unsubscribe)，按一下電子郵件標題中的取消訂閱連結將產生下列影響：
-
-* 當 **Mailto （取消訂閱）** 功能由您啟用，系統會根據您建立的子網域將取消訂閱請求傳送至預設的取消訂閱位址。
-* 當 **一鍵式取消訂閱URL** 功能由您啟用（或如果您在電子郵件內文內容中插入取消訂閱URL），當收件者按一下一鍵取消訂閱URL （根據您建立的子網域）時，收件者會直接在頻道層級或ID層級（取決於同意的設定方式）選擇退出。
-
-在這兩種情況下，收件者的對應設定檔會立即退出，而此選項會在Experience Platform中更新。 進一步瞭解 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}.
-
-如果您已針對List Unsubscribe標題切換啟用加入，我們建議您啟用同時包含featuresmethods - Mailto和One-Click&amp; Unsubscribe URL。 並非所有電子郵件使用者端都支援HTTP方法。 Mailto清單 — 取消訂閱功能是可供您選擇替代功能的一種選擇，有了它，您的寄件者信譽可以得到更好的保護，而且您的所有收件者都有可能存取取消訂閱功能。 [了解更多](email-settings.md#list-unsubscribe)
-
-
-### 一鍵選擇退出電子郵件內容 {#one-click-opt-out}
-
-若要設定個人化取消訂閱URL，請在電子郵件內容中插入一鍵退出連結，然後輸入您選擇的URL，如下所述：
-
-1. 存取您的電子郵件內容並 [插入連結](../email/message-tracking.md#insert-links).
-1. 選取 **[!UICONTROL 一鍵選擇退出]** 做為連結型別。
-
-   ![](assets/message-tracking-opt-out.png)
-
-1. 輸入登陸頁面的URL，一旦取消訂閱，就會將使用者重新導向。 此頁用於確認選擇退出成功。
-
-   >[!NOTE]
-   >
-   >如果您已啟用 **[!UICONTROL 清單 — 取消訂閱]** 選項於 [頻道介面層級](email-settings.md#list-unsubscribe) 和取消核取預設的一鍵式選擇退出URL選項，然後當使用者按一下電子郵件標題中的取消訂閱連結時，就會使用此URL。 [了解更多](#unsubscribe-header)
-
-   ![](assets/message-tracking-opt-out-confirmation.png)
-
-   您可以個人化連結。 進一步瞭解[本章節](../personalization/personalization-syntax.md)的個人化 URL。
-
-1. 選擇要如何套用選擇退出：在頻道、身分或訂閱項目層級。
-
-   ![](assets/message-tracking-opt-out-level.png)
-
-   * **[!UICONTROL 頻道]**：選擇退出適用於未來的訊息，傳送到目前頻道的設定檔目標 (即電子郵件地址)。 如果設定檔連結數個目標，選擇退出將套用於該頻道設定檔的所有目標 (即電子郵件地址)。
-   * **[!UICONTROL 識別]**：選擇退出適用於未來的訊息，傳送給目前郵件使用的特定目標 (即電子郵件地址)。
-   * **[!UICONTROL 訂閱]**：選擇退出適用於未來的訊息，連結特定訂閱項目清單。 僅當目前的訊息連結訂閱項目清單時，才能選擇此選項。
-
-1. 儲存您的變更。
-
-
-
-## 兩步驟選擇退出 {#opt-out-external-lp}
-
-標準的選擇退出機制取決於兩個步驟：訂閱者按一下電子郵件中的選擇退出連結，然後被重新導向至選擇退出登陸頁面，以確認取消訂閱。
-
-若要實作此取消訂閱模式，您必須建立並發佈選擇退出登陸頁面，並在電子郵件訊息中新增取消訂閱連結，連同登陸頁面的連結。 這些步驟概述如下。
-
-
-### 先決條件 {#prereq-lp}
-
-若要設定兩步驟選擇退出機制，您必須建立自己的取消訂閱登入頁面。 第一個登入頁面將會從您的訊息連結，而且必須包含行動號召按鈕。 當使用者按一下按鈕時，應顯示確認訊息。
-
-瞭解如何在Adobe Journey Optimizer中建立登陸頁面，以管理中的取消訂閱 [此頁面](../landing-pages/lp-use-cases.md#opt-out).
-
-您也可以使用外部登入頁面。 在此情況下，請設定API以在收件者取消訂閱時將資訊傳送至Adobe Journey Optimizer。
-
-+++ 瞭解如何實作選擇退出API呼叫
+### 實施選擇退出的 API 呼叫 {#opt-out-api}
 
 要在收件者從登陸頁面提交選擇時選擇退出，您必須實作 **訂閱API呼叫** 到 [Adobe Developer](https://developer.adobe.com){target="_blank"} 以更新對應設定檔的偏好設定。
 
@@ -161,43 +101,19 @@ ht-degree: 26%
 }
 ```
 
-[!DNL Journey Optimizer] 使用這些引數透過 [Adobe Developer](https://developer.adobe.com){target="_blank"} API呼叫。
-
-+++
-
-
-### 新增取消訂閱連結 {#add-unsubscribe-link}
-
-您首先需要在訊息中加入取消訂閱連結。 請依照下列步驟執行此操作：
-
-1. 建立訊息並 [插入連結](../email/message-tracking.md#insert-links) 使用內容工具列。
-
-   ![](assets/opt-out-insert-link.png)
-
-1. 選取 **[!UICONTROL 登陸頁面]** 從 **[!UICONTROL 型別]** 下拉式清單，並在 **[!UICONTROL 登陸頁面]** 欄位。
-
-   如果您使用外部登陸頁面，請選取 **[!UICONTROL 外部選擇退出/取消訂閱]** 從 **[!UICONTROL 型別]** 下拉式清單。
-
-   ![](assets/opt-out-link-type.png)
-
-   在&#x200B;**[!UICONTROL 連結]**&#x200B;欄位貼上第三方登陸頁面的連結。
-
-   ![](assets/opt-out-link-url.png)
-
-1. 按一下「**[!UICONTROL 儲存]**」。
-
+[!DNL Journey Optimizer] 將使用這些引數透過 [Adobe Developer](https://developer.adobe.com){target="_blank"} API呼叫。
 
 ### 傳送包含取消訂閱連結的訊息 {#send-message-unsubscribe-link}
 
-設定好取消訂閱的登陸頁面連結後，您就可以建立並傳送訊息。
+設定好取消訂閱的登陸頁面連結並實施 API 呼叫後，您便可傳送訊息。
 
-1. 使用取消訂閱連結設定您的訊息，並將其傳送給訂閱者。
+1. 透過[歷程](../building-journeys/journey.md)傳送包含連結的訊息。
 
 1. 收到訊息後，如果收件者按一下取消訂閱連結，就會顯示您的登陸頁面。
 
    ![](assets/opt-out-lp-example.png)
 
-1. 如果收件者提交表單 — 在此按一下 **[!UICONTROL 取消訂閱]** 按鈕時 — 設定檔資料會透過API呼叫進行更新。
+1. 收件者一旦提交表單 (在此按一下登陸頁面中的&#x200B;**取消訂閱**&#x200B;按鈕)，則會透過 [API 呼叫](#opt-out-api)更新設定檔資料。
 
 1. 然後，選擇退出的收件者會被重新導向至確認訊息畫面，表示成功選擇退出。
 
@@ -211,3 +127,66 @@ ht-degree: 26%
 
    在&#x200B;**[!UICONTROL 屬性]**&#x200B;標籤中，您可以看到&#x200B;**[!UICONTROL 選擇]**&#x200B;的值已變更為&#x200B;**[!UICONTROL 否]**。
 
+## 一鍵選擇退出 {#one-click-opt-out}
+
+要在電子郵件加入選擇退出連結，請遵照以下步驟。
+
+1. [插入連結](../email/message-tracking.md#insert-links)並選擇&#x200B;**[!UICONTROL 按一下退出]**&#x200B;作為連結類型。
+
+   ![](assets/message-tracking-opt-out.png)
+
+1. 輸入登陸頁面 URL，一旦取消訂閱，將重新導向使用者。 此頁僅用於確認選擇退出成功。
+
+   >[!NOTE]
+   >
+   >如果在頻道介面層級啟用 **List-Unsubscribe** 選項，當使用者按一下電子郵件標頭的取消訂閱連結時，也將使用此 URL。 [了解更多](#unsubscribe-header)
+
+   ![](assets/message-tracking-opt-out-confirmation.png)
+
+   您可以個人化連結。 進一步瞭解[本章節](../personalization/personalization-syntax.md)的個人化 URL。
+
+1. 選擇要如何套用選擇退出：在頻道、身分或訂閱項目層級。
+
+   ![](assets/message-tracking-opt-out-level.png)
+
+   * **[!UICONTROL 頻道]**：選擇退出適用於未來的訊息，傳送到目前頻道的設定檔目標 (即電子郵件地址)。 如果設定檔連結數個目標，選擇退出將套用於該頻道設定檔的所有目標 (即電子郵件地址)。
+   * **[!UICONTROL 識別]**：選擇退出適用於未來的訊息，傳送給目前郵件使用的特定目標 (即電子郵件地址)。
+   * **[!UICONTROL 訂閱]**：選擇退出適用於未來的訊息，連結特定訂閱項目清單。 僅當目前的訊息連結訂閱項目清單時，才能選擇此選項。
+
+1. 儲存您的變更。
+
+經由[歷程](../building-journeys/journey.md)傳送您的訊息後，如果收件者按一下選擇退出的連結，則會立即選擇退出其設定檔。
+
+## 電子郵件標頭的取消訂閱連結 {#unsubscribe-header}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_unsubscribe"
+>title="在電子郵件標題新增取消訂閱連結"
+>abstract="啟用「列為取消訂閱」向電子郵件標題新增取消訂閱連結。 若要設定取消訂閱 URL，請在電子郵件內容插入一鍵式選擇退出連結。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hant#one-click-opt-out" text="一鍵選擇退出"
+
+如果在頻道介面層級啟用 [List-Unsubscribe 選項](email-settings.md#list-unsubscribe)，透過[!DNL Journey Optimizer]傳送的相應電子郵件將在電子郵件標頭包含取消訂閱連結。
+
+例如，取消訂閱連結在 Gmail 中顯示如下：
+
+![](assets/unsubscribe-header.png)
+
+>[!NOTE]
+>
+>若要在電子郵件標題中顯示取消訂閱連結，收件者的電子郵件用戶端必須支援此功能。
+
+取消訂閱地址是預設的&#x200B;**[!UICONTROL Mailto (取消訂閱)]**&#x200B;地址顯示在相應的頻道介面。 [了解更多](email-settings.md#list-unsubscribe)
+
+若要設定個人化取消訂閱 URL，請在電子郵件內容中插入一鍵退出連結，然後輸入您選擇的 URL。 [了解更多](#one-click-opt-out)
+
+根據電子郵件用戶端，在標題按一下取消訂閱連結將產生下列其中一項影響：
+
+* 取消訂閱請求將傳送到預設取消訂閱位址。
+
+* 收件人將被導向在訊息中新增退出連結時指定的登陸頁面 URL。
+
+  >[!NOTE]
+  >
+  >如果您未在訊息內容中新增一鍵退出連結，則不會顯示登陸頁面。
+
+* 對應的設定檔會立即退出，而此選項會在 Experience Platform 中更新。 進一步瞭解 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}.

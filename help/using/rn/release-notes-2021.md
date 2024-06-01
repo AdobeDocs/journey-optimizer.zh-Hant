@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 529a8ab0bf0c0496996183a56269d9f566e48bcb
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
-source-wordcount: '2035'
+source-wordcount: '2078'
 ht-degree: 100%
 
 ---
@@ -276,7 +276,7 @@ ht-degree: 100%
 **內容設計**
 
 * **背景** - 即時預覽現在支援背景影像。 [進一步了解](../content-management/preview-test.md)
-  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)-->
+* **一鍵選擇退出的連結** - 您可以在電子郵件內容中插入新類型的連結：**選擇退出**&#x200B;連結可讓使用者只要按一下即可取消訂閱接收您的通訊，無須重新導向至登陸頁面以確認選擇退出。 [進一步了解](../privacy/opt-out.md#one-click-opt-out-link)
 
 **個人化**
 
