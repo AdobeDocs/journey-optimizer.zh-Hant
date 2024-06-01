@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
+source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
 workflow-type: tm+mt
 source-wordcount: '2545'
 ht-degree: 1%
@@ -60,6 +60,7 @@ ht-degree: 1%
 為了維護您網域的聲譽，請加快IP暖身過程並改善傳遞能力，將您的傳送子網域委派給Adobe。 [了解更多](../configuration/about-subdomain-delegation.md)
 
 <!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+
 
 ## IP集區詳細資料 {#ip-pools}
 
