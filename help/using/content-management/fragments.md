@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 08f12adf384b98dfa1d69cbc2d684c3bf58d31fa
+source-git-commit: e7ff784d51da48c1970841e416c655c02cfafb7c
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '318'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,16 @@ ht-degree: 2%
 >title="定義您自己的片段"
 >abstract="建立並管理獨立片段，讓您的內容可跨多個歷程和行銷活動重複使用。"
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="建立片段"
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_update_campaigns"
+>title="片段更新行銷活動"
+>abstract="片段更新行銷活動"
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_update_journeys"
+>title="片段更新歷程"
+>abstract="片段更新歷程"
 
 片段是可重複使用的元件，可在一封或多封電子郵件中加以參照 [!DNL Journey Optimizer] 行銷活動和歷程。 此功能允許預先建置多個自訂內容區塊，可供行銷使用者在改良的設計流程中快速組合電子郵件內容。
 
