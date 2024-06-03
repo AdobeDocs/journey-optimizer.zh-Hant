@@ -11,9 +11,9 @@ keywords: 運算式，編輯器
 hidefromtoc: true
 hide: true
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: d2bebc33b6afde51cef12049cfafc8217c377f9d
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >此功能目前僅以私人測試版的形式提供。
 >
->目前，它僅適用於在您提供給Adobe的非生產沙箱中測試用途，以及針對Beta版的資料集。
+>目前僅適用於 **電子郵件頻道** 和在您提供給Adobe的非生產沙箱中進行測試用途時，以及針對Beta版要求的資料集進行測試用途。
 
 Journey Optimizer可讓您在個人化編輯器中運用Adobe Experience Platform的資料，以 [個人化您的內容](../personalization/personalize.md). 步驟如下：
 
