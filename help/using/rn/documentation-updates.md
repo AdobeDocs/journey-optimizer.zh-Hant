@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
 workflow-type: tm+mt
-source-wordcount: '5335'
+source-wordcount: '5334'
 ht-degree: 98%
 
 ---
@@ -391,7 +391,7 @@ ht-degree: 98%
 
 * 改進&#x200B;**快速入門**&#x200B;頁面，包含不同角色步驟。 [閱讀全文](../start/quick-start.md)
 
-* 透過 Offer decisioning 應用程式服務，Adobe Experience Platform 使用者現在也能運用專屬區段中所述的所有決定管理功能。 [閱讀全文](../offers/get-started/starting-offer-decisioning.md)
+* 透過Offer decisioning應用程式，Adobe Experience Platform使用者現在也能運用專屬區段中所述的所有決定管理功能。 [閱讀全文](../offers/get-started/starting-offer-decisioning.md)
 
 * 新增子區段，在套用限制以對指定位置限制優惠選擇時，釐清使用對象與決定規則之間的差異。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
