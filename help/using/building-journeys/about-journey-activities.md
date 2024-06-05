@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 歷程，活動，開始，事件，動作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 13%
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 13%
 
 ## 事件活動 {#event-activities}
 
-事件會觸發個人化歷程，例如線上購買。 當某人進入歷程時，就會以個人身分穿過，而且不會有兩個人以相同速度或沿著相同路徑移動。 當您使用事件開始您的歷程時，歷程會在收到事件時觸發。 接著，歷程中的每個人都個別遵循歷程中定義的後續步驟。
+個人化歷程由事件觸發，例如線上購買。 設定檔進入歷程後，就會以個人身分移過，而且不會有兩個人以相同速度或沿著相同路徑移動。 當您使用事件開始您的歷程時，歷程會在收到事件時觸發。 接著，歷程中的每個人都個別遵循歷程中定義的後續步驟。
 
 技術使用者設定的事件(請參閱 [此頁面](../event/about-events.md))都會顯示在畫面左側的浮動視窗第一個類別中。 可使用下列事件活動：
 
@@ -60,7 +60,7 @@ ht-degree: 13%
 
 ![](assets/journey58.png)
 
-這些活動代表不同的可用通訊通道。您可以將其合併，以建立跨管道情境。
+這些活動代表不同的可用通訊通道。 您可以將其合併，以建立跨管道情境。
 
 如果您已設定自訂動作，它們也會顯示在這裡。 [瞭解更多](../building-journeys/using-custom-actions.md))。
 
@@ -92,6 +92,6 @@ ht-degree: 13%
 
 ### 新增替代路徑
 
-當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**. 請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
+當動作或條件發生錯誤時，個人的歷程就會停止。 唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**. 另請參閱 [本節](../building-journeys/using-the-journey-designer.md#paths).
 
 ![](assets/journey42.png)

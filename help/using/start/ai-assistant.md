@@ -10,7 +10,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: a6b7dce05dbcc9c12595646eac47295f4db3aea3
+source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -52,11 +52,11 @@ AI Assistant是使用者介面功能，可用於導覽和瞭解Adobe概念，並
 
 若要提出問題，請在畫面底部的欄位中輸入，然後按Enter鍵。
 
-![](assets/do-not-localize/ai-assistant-ask.png){width="40%" align="left"}
+![](assets/do-not-localize/ai-assistant-ask.png){width="20%" align="left"}
 
 檢查答案並使用 **顯示來源** 按鈕以取得產品檔案的直接連結並瞭解更多。
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="40%" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="20%" align="left"}
 
 使用向上或向下縮圖來評等答案。
 
