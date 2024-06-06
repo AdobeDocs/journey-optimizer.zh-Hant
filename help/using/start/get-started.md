@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 100%
+source-wordcount: '660'
+ht-degree: 98%
 
 ---
 
@@ -61,9 +61,9 @@ ht-degree: 100%
 > 在啟動](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hant)之前，您還需要注意即時客戶設定檔資料的[護欄。
 
 
-**另請參閱**
-
-* [啟動的重要步驟](quick-start.md)
-* [設計歷程並傳送訊息](../building-journeys/journey-gs.md)
-* [即時報告](../reports/live-report.md)
-* [Journey Optimizer 安全性概述](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
+>[!MORELIKETHIS]
+>
+>* [啟動的重要步驟](quick-start.md)
+>* [設計歷程並傳送訊息](../building-journeys/journey-gs.md)
+>* [即時報告](../reports/live-report.md)
+>* [Journey Optimizer 安全性概述](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)

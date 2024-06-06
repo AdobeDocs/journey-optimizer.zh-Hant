@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: 查詢、平台、資料、探索
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 在[本文件](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=zh-Hant){target="_blank"}中了解如何使用查詢編輯器。
 
-**另請參閱**
-
-* [查詢服務文件](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant){target="_blank"}
-* [查詢服務概觀影片](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=zh-Hant){target="_blank"}
+>[!MORELIKETHIS]
+>
+>* [查詢服務文件](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant){target="_blank"}
+>* [查詢服務概觀影片](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=zh-Hant){target="_blank"}
