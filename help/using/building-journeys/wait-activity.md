@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 等待，活動，歷程，下一步，畫布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
+source-git-commit: ab6292e93bf848671d39037bdfe0de8bdd7191b6
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 5%
+source-wordcount: '566'
+ht-degree: 6%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 5%
 
 您可以使用 **[!UICONTROL 等待]** 活動，定義下一個活動執行之前的持續時間。  最長等待時間為 **29天**.
 
-可使用下列型別：
+您可以設定兩種型別 **等待** 活動：
 
-* [持續時間](#duration)
-* [自訂](#custom)
+* 根據修正持續時間的等待。 [了解更多](#duration)
+* 自訂等待，使用函式進行計算。 [了解更多](#custom)
 
 <!--
 * [Email send time optimization](#email_send_time_optimization)
@@ -51,8 +51,9 @@ ht-degree: 5%
 
 在測試模式中， **[!UICONTROL 測試等待時間]** 引數可讓您定義 **等待** 活動將會持續。 預設時間為10秒。 這將確保您能快速獲得測試結果。 在[本頁](../building-journeys/testing-the-journey.md)中瞭解更多。
 
+## 設定 {#wait-configuration}
 
-## 持續時間等待 {#duration}
+### 持續時間等待 {#duration}
 
 選取 **持續時間** 輸入以設定下一個活動執行前的等待持續時間。 最大持續時間為 **29天**.
 
@@ -67,9 +68,9 @@ Select the date for the execution of the next activity.
 
 -->
 
-## 自訂等待 {#custom}
+### 自訂等待 {#custom}
 
-選取 **自訂** 輸入以定義自訂日期，使用進階運算式，根據來自事件或自訂動作回應的欄位。 您不能直接定義相對持續時間，例如7天，但您可以視需要使用函式來計算相對持續時間（例如：購買後2天）。
+選取 **自訂** 輸入以定義自訂持續時間，使用進階運算式，根據來自事件或自訂動作回應的欄位。 您不能直接定義相對持續時間，例如7天，但您可以視需要使用函式來計算相對持續時間（例如：購買後2天）。
 
 ![使用運算式定義自訂等待](assets/journey57.png)
 
