@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 02a3ed25c7047ce709271a386d9ab4c2e976e42f
+source-git-commit: f64cf166d5fa732ae0353414b5638c97d43099a1
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -30,14 +30,18 @@ AI Assistant是使用者介面功能，可用於導覽和瞭解Adobe概念，並
 
 在Adobe Journey Optimizer中，您可以存取下列使用案例：
 
-* 產品知識（一般可用性）產品知識問題與Adobe Journey Optimizer各方面相關的Adobe概念有關。 產品知識問題的一些範例包括：
+* **產品知識** （全面發佈）
+
+  產品知識問題與Adobe Journey Optimizer各方面相關的Adobe概念。 產品知識問題的一些範例包括：
 
    * 一個Adobe Journey Optimizer沙箱中可以有多少個已上線活動？
    * 如何在Adobe Journey Optimizer中設定行銷活動？
    * 如何建立自訂動作以用於Adobe Journey Optimizer歷程？
 
 
-* 歷程（測試版）中的營運見解營運見解問題關於您組織沙箱中的歷程物件。 營運分析問題或提示的一些範例包括：
+* **營運分析** 在歷程中(Beta)
+
+  操作深入分析問題與組織沙箱中的歷程物件有關。 營運分析問題或提示的一些範例包括：
 
    * Adobe Journey Optimizer中有多少個即時歷程？
    * 提供所有已排程歷程的清單
@@ -50,11 +54,11 @@ AI Assistant是使用者介面功能，可用於導覽和瞭解Adobe概念，並
 
 若要提出問題，請在畫面底部的欄位中輸入，然後按Enter鍵。
 
-![](assets/do-not-localize/ai-assistant-ask.png){width="300" align="left"}
+![](assets/do-not-localize/ai-assistant-ask.png){width="50%" align="left"}
 
 檢查答案並使用 **顯示來源** 按鈕以取得產品檔案的直接連結並瞭解更多。
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="300" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="left"}
 
 使用向上或向下縮圖來評等答案。
 
