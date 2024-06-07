@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 等待，活動，歷程，下一步，畫布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: ab6292e93bf848671d39037bdfe0de8bdd7191b6
+source-git-commit: 846c601c02a28119dddb3029e5273cfccf141a2c
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '567'
 ht-degree: 6%
 
 ---
@@ -27,8 +27,8 @@ ht-degree: 6%
 
 您可以設定兩種型別 **等待** 活動：
 
-* 根據修正持續時間的等待。 [了解更多](#duration)
-* 自訂等待，使用函式進行計算。 [了解更多](#custom)
+* 基於相對持續時間的等待。 [了解更多](#duration)
+* 自訂日期，使用函式進行計算。 [了解更多](#custom)
 
 <!--
 * [Email send time optimization](#email_send_time_optimization)
@@ -55,7 +55,7 @@ ht-degree: 6%
 
 ### 持續時間等待 {#duration}
 
-選取 **持續時間** 輸入以設定下一個活動執行前的等待持續時間。 最大持續時間為 **29天**.
+選取 **持續時間** 輸入以設定下一個活動執行前等待的相對持續時間。 最大持續時間為 **29天**.
 
 ![定義等待持續時間](assets/journey55.png)
 
@@ -70,7 +70,7 @@ Select the date for the execution of the next activity.
 
 ### 自訂等待 {#custom}
 
-選取 **自訂** 輸入以定義自訂持續時間，使用進階運算式，根據來自事件或自訂動作回應的欄位。 您不能直接定義相對持續時間，例如7天，但您可以視需要使用函式來計算相對持續時間（例如：購買後2天）。
+選取 **自訂** 輸入以定義自訂日期，使用進階運算式，根據來自事件或自訂動作回應的欄位。 您不能直接定義相對持續時間，例如7天，但您可以視需要使用函式來計算相對持續時間（例如：購買後2天）。
 
 ![使用運算式定義自訂等待](assets/journey57.png)
 
