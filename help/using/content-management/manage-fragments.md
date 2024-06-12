@@ -7,15 +7,20 @@ feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
+exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
+source-git-commit: e35f6b8ddc1e7bb8a737b33be200115a3022c99c
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
 
-
 # 管理片段 {#manage-fragments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragment_statuses"
+>title="新片段狀態"
+>abstract="從 **草稿** 和 **即時** 狀態已在Journey Optimizer 6月版本中引入，在此版本之前建立的所有片段都會具有「草稿」狀態，即使它們用於歷程或行銷活動亦然。 如果您對這些片段進行變更，您需要發佈這些片段，以讓這些片段「即時」，並將變更傳播至關聯的行銷活動和歷程。"
 
 若要管理您的片段，請從以下位置存取片段清單： **[!UICONTROL 內容管理]** > **[!UICONTROL 片段]** 左側功能表。
 
