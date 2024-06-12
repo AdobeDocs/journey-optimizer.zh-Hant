@@ -6,21 +6,21 @@ feature: In App
 level: Intermediate
 keywords: 應用程式內、訊息、設定、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
+source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 10%
+source-wordcount: '956'
+ht-degree: 9%
 
 ---
 
-# 必要條件和設定 {#inapp-configuration}
+# 先決條件與設定 {#inapp-configuration}
 
 ## 設定步驟 {#inapp-steps}
 
 若要在您的歷程和行銷活動中傳送應用程式內訊息，請使用 [!DNL Journey Optimizer]，您必須進行以下設定步驟。
 
 1. 開始之前，請確定您對 Journey Optimizer 行銷活動擁有正確的權限，即使您計劃在歷程中僅使用應用程式內訊息也是如此。 仍需要行銷活動權限。 [瞭解更多](../campaigns/get-started-with-campaigns.md#campaign-prerequisites).
-必須授予特定許可權才能存取 **應用程式表面** Adobe Experience Platform Data Collection中的功能表。 請在[本影片](#video)中了解更多。
+必須授予特定許可權才能存取 **應用程式表面** Adobe Experience Platform Data Collection中的功能表。 進一步瞭解 [此影片](#video).
 1. 在您的Adobe Experience Platform資料收集資料串流中啟用Adobe Journey Optimizer，並在Adobe Experience Platform中檢查您的預設合併原則，如以下所述： [傳遞必要條件](#delivery-prerequisites) 底下。
 1. 在Adobe Experience Platform資料彙集中建立及設定應用程式表面，詳情請參閱 [本節](#channel-prerequisites).
 1. 如果您使用內容實驗，請務必遵循下列要求 [本節](#experiment-prerequisite).
@@ -34,11 +34,11 @@ ht-degree: 10%
 
 * 在 [Adobe Experience Platform資料彙集](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hant){target="_blank"}，確定您有定義的資料流，例如 **[!UICONTROL Adobe Experience Platform]** 服務Adobe Experience Platform Edge和 **[!UICONTROL Adobe Journey Optimizer]** 選項已啟用。
 
-  這可確保Adobe Experience Platform Edge可正確處理Journey Optimizer傳入事件。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant){target="_blank"}
+  這可確保Adobe Experience Platform Edge可正確處理Journey Optimizer傳入事件。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   ![](assets/inapp_config_6.png)
 
-* 在 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}, make sure you have the default merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+* 在 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}，確定您有預設的合併原則和 **[!UICONTROL Active-On-Edge合併原則]** 選項已啟用。 若要這麼做，請在 **[!UICONTROL 客戶]** > **[!UICONTROL 設定檔]** > **[!UICONTROL 合併原則]** Experience Platform功能表。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   此合併原則的使用者為 [!DNL Journey Optimizer] 傳入頻道，可在邊緣正確啟用和發佈傳入行銷活動。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant){target="_blank"}
 
@@ -47,6 +47,12 @@ ht-degree: 10%
   >使用自訂時 **[!UICONTROL 資料集偏好設定]** 合併原則，請務必新增 **[!UICONTROL 傳入歷程]** 資料集位於指定的合併原則內。
 
   ![](assets/inapp_config_8.png)
+
+* 若要針對Journey Optimizer行動體驗的傳送進行疑難排解，您可使用 **Edge傳遞** 檢視範圍 **Adobe Experience Platform保證**. 此外掛程式可讓您詳細檢查請求呼叫、驗證預期的邊緣呼叫是否如預期發生，以及檢查設定檔資料，包括身分對應、區段會籍和同意設定。 此外，您可以檢閱請求符合資格的活動，並識別未符合資格的活動。
+
+  使用 **Edge傳遞** 外掛程式可協助您取得所需的深入分析，以有效瞭解傳入的實施並疑難排解。
+
+  [深入瞭解邊緣傳遞檢視](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
 ## 通道設定先決條件 {#channel-prerequisites}
 
@@ -132,7 +138,7 @@ ht-degree: 10%
 >
 >資料集是由 [!DNL Journey Optimizer] 報告系統並且不會影響資料收集或資料擷取。
 
-如果您是 **非** 使用以下預先定義的 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"})，請務必新增下列欄位群組： `Experience Event - Proposition Interactions`， `Application Details`， `Commerce Details`、和 `Web Details`. 以下專案需要這些選項 [!DNL Journey Optimizer] 內容實驗報告，追蹤每個設定檔參與哪些實驗與處理。
+如果您是 **非** 使用以下預先定義的 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"} 針對您的資料集結構： `AEP Web SDK ExperienceEvent` 和 `Consumer Experience Event` (如中的定義 [此頁面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"})，請務必新增下列欄位群組： `Experience Event - Proposition Interactions`， `Application Details`， `Commerce Details`、和 `Web Details`. 以下專案需要這些選項 [!DNL Journey Optimizer] 內容實驗報告，追蹤每個設定檔參與哪些實驗與處理。
 
 >[!NOTE]
 >
