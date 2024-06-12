@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: e35f6b8ddc1e7bb8a737b33be200115a3022c99c
+source-git-commit: 4f238177485ccc5ab53b48488dd1f2084d34d684
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '531'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="新片段狀態"
->abstract="從 **草稿** 和 **即時** 狀態已在Journey Optimizer 6月版本中引入，在此版本之前建立的所有片段都會具有「草稿」狀態，即使它們用於歷程或行銷活動亦然。 如果您對這些片段進行變更，您需要發佈這些片段，以讓這些片段「即時」，並將變更傳播至關聯的行銷活動和歷程。"
+>abstract="從 **草稿** 和 **即時** 狀態已在Journey Optimizer 6月版本中引入，在此版本之前建立的所有片段都會具有「草稿」狀態，即使它們用於歷程或行銷活動亦然。 如果您對這些片段進行變更，您需要發佈這些片段，以讓這些片段「即時」，並將變更傳播至關聯的行銷活動和歷程。 您也需要建立新的歷程/行銷活動版本並發佈。"
 
 若要管理您的片段，請從以下位置存取片段清單： **[!UICONTROL 內容管理]** > **[!UICONTROL 片段]** 左側功能表。
 
