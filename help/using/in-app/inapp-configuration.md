@@ -6,7 +6,7 @@ feature: In App
 level: Intermediate
 keywords: 應用程式內、訊息、設定、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
+source-git-commit: 07c453366280b21f5546322430a90752fd996099
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 9%
@@ -26,7 +26,6 @@ ht-degree: 9%
 1. 如果您使用內容實驗，請務必遵循下列要求 [本節](#experiment-prerequisite).
 
 完成後，您可以建立、設定和傳送您的第一個應用程式內訊息。 在[本節](create-in-app.md)中了解如何達成此目的。
-
 
 ## 傳遞必要條件 {#delivery-prerequisites}
 

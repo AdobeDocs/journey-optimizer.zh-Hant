@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
+source-git-commit: 07c453366280b21f5546322430a90752fd996099
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 2%
@@ -26,7 +26,6 @@ ht-degree: 2%
 >* 已購買Adobe的組織無法使用程式碼型體驗管道 **Health Shield** 和 **隱私權與安全防護板** 附加方案。
 >
 >* 您只能在中建立程式碼型體驗 **行銷活動**. [了解更多](../campaigns/create-campaign.md#configure)。
-
 
 ## 實作必要條件 {#implementation-prerequisites}
 
