@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 88%
 
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
-## 2024年6月更新
+## 2024 年 6 月更新
 
-* 您現在可以在Adobe Journey Optimizer中使用Adobe Experience Platform AI助理。 [了解更多](../start/ai-assistant.md)
+* 您現在可以到 Adobe Journey Optimizer 中，使用 Adobe Experience Platform AI 助理。 [深入暸解](../start/ai-assistant.md)
 
-* **決策管理中的多規則支援**  — 您現在可以在決定管理中，為指定優惠新增最多10個上限規則。 這可讓您針對活動內容傳送方式提高控制等級。[了解更多](../offers/offer-library/add-constraints.md#capping)
+* **決策管理中的多規則支援**  — 您現在可以在決定管理中，為指定優惠新增最多10個上限規則。 這可讓您針對活動內容傳送方式提高控制等級。[深入暸解](../offers/offer-library/add-constraints.md#capping)
 
 ## 2024 年 5 月發行說明 {#may-2024}
 
@@ -62,14 +62,14 @@ ht-degree: 88%
 <table>
 <thead>
 <tr>
-<th><strong>電子郵件表面個人化 — 可用性限制</strong><br/></th>
+<th><strong>電子郵件介面個人化：開放限量使用</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在建立電子郵件通道介面時定義動態子網域和個人化標題引數，以提升電子郵件設定的彈性和控制能力。</p>
-<p>電子郵件表面個人化目前僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<p>您可以在建立電子郵件頻道介面時，馬上定義動態子網域和個人化標題參數，就能提高電子郵件設定彈性，更能夠掌握得當。</p>
+<p>電子郵件介面個人化目前僅開放給某些組織使用 (開放限量使用)。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
 <p>如需詳細資訊，請參閱<a href="../email/surface-personalization.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -157,7 +157,7 @@ ht-degree: 88%
 
   >[!AVAILABILITY]
   >
-  >此功能目前為 Beta 版本，僅供 Beta 版客戶使用。若要加入Beta版計畫，請聯絡您的Adobe代表。
+  >此功能目前為 Beta 版本，僅供 Beta 版客戶使用。若要加入 Beta 版計畫，請聯絡 Adobe 代表。
 
 <!--
 **Audiences**
