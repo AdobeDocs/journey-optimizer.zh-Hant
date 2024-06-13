@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 91%
+source-wordcount: '826'
+ht-degree: 88%
 
 ---
 
@@ -28,7 +28,9 @@ ht-degree: 91%
 
 ## 2024年6月更新
 
-您現在可以在Adobe Journey Optimizer中使用Adobe Experience Platform AI助理。 [了解更多](../start/ai-assistant.md)
+* 您現在可以在Adobe Journey Optimizer中使用Adobe Experience Platform AI助理。 [了解更多](../start/ai-assistant.md)
+
+* **決策管理中的多規則支援**  — 您現在可以在決定管理中，為指定優惠新增最多10個上限規則。 這可讓您針對活動內容傳送方式提高控制等級。[了解更多](../offers/offer-library/add-constraints.md#capping)
 
 ## 2024 年 5 月發行說明 {#may-2024}
 
@@ -37,7 +39,6 @@ ht-degree: 91%
 ### 新功能 {#e-features}
 
 此發行版本提供下列詳細介紹的新功能。
-
 
 <table>
 <thead>
