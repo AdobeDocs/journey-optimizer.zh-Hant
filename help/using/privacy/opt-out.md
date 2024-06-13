@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1066'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->在 [!DNL Journey Optimizer]，同意由Experience Platform處理 [同意綱要](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"}. 在預設情況下，「同意」欄位值為空，視為同意接受通訊。 您可以在上線時修改此預設值，成為可能列出的值之一 [此處](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}.
+>在 [!DNL Journey Optimizer]中，同意由 Experience Platform [同意結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"}負責處理。 預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 可以在上線時，到[此處](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}從以下列出的可能數值當中修改此預設值。
 
 ## 實施個人化同意 {#opt-out-personalization}
 
@@ -100,7 +100,7 @@ ht-degree: 95%
 
 ### 在個人化編輯器中 {#opt-out-expression-editor}
 
-此 [個人化編輯器](../personalization/personalization-build-expressions.md) 本身不會執行任何同意檢查或強制執行，因為它不涉及訊息的傳遞。
+此[個人化編輯器](../personalization/personalization-build-expressions.md)本身因不涉及訊息傳送，所以不會進行任何同意檢查或強制動作。
 
 不過，使用以權限為基礎的存取控制標籤可限制哪些欄位能用於個人化。 此[訊息預覽](../content-management/preview.md)和[電子郵件轉譯服務](../content-management/rendering.md)會遮蔽以敏感資訊識別的欄位。
 

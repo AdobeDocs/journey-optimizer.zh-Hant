@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5355'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 98%
 
 ## 2024 年 6 月 {#june-2024}
 
-* 關於如何設定 **等待** 歷程中的活動已重新組織和改善。 [閱讀全文](../building-journeys/wait-activity.md)
+* 已重組並改善頁面，內容關於如何設定&#x200B;**等待**&#x200B;歷程中的活動。 [閱讀全文](../building-journeys/wait-activity.md)
 
 ## 2024 年 5 月 {#may-2024}
 
-* 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2024年5月版本的詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
+* 有關 [!DNL Journey Optimizer] 2024 年 5 月發佈內容的最新功能和改進項目資訊，都已詳細列入這份文件當中。 [閱讀全文](release-notes.md)
 * 已更新有關週期性歷程的種子清單區段。 [閱讀全文](../configuration/seed-lists.md#use-seed-list)
 * 已更新外部資料來源上的區段。 [閱讀全文](../datasource/external-data-sources.md#custom-authentication-access-token)
 * 護欄和限制頁面已新增 30 天的全域歷程逾時。 [閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
 * 有關 Adobe Campaign v7/v8 整合的部分已更新，其中包含有關佈建的資訊。 [閱讀全文](../action/acc-action.md#access)
-* 檔案中用於個人化內容的運算式編輯器已重新命名為「個人化編輯器」，以與 [歷程運算式編輯器](../building-journeys/expression/expressionadvanced.md). [閱讀全文](../personalization/personalization-build-expressions.md)
+* 文件中用於個人化內容的運算式編輯器已重新命名為「個人化編輯器」，以便和[歷程運算式編輯器 ](../building-journeys/expression/expressionadvanced.md)清楚區分開來。[閱讀全文](../personalization/personalization-build-expressions.md)
 
 ## 2024 年 4 月 {#april-2024}
 
@@ -69,7 +69,7 @@ ht-degree: 98%
 * 已新增有關如何根據內容資料個人化服務的表示形式的資訊。[閱讀全文](../offers/offer-library/add-representations.md#context-data)
 * 已更新護欄頁面，其中包含自訂動作的說明，僅在使用請求或回應裝載時支援 JSON 格式。[閱讀全文](../start/guardrails.md#custom-actions-g)
 * 已新增有關外部資料來源中基本驗證類型的其他資訊。[閱讀全文](../datasource/external-data-sources.md)
-* 已新增附註，以清楚區分 [歷程運算式編輯器](../building-journeys/expression/expressionadvanced.md) 從 [個人化編輯器](../personalization/functions/functions.md).
+* 已新增備註，即可將[歷程運算式編輯器](../building-journeys/expression/expressionadvanced.md)和[個人化編輯器](../personalization/functions/functions.md)清楚區分開來。
 * 進階運算式編輯器中可用的函式清單已更新。[閱讀全文](../building-journeys/expression/functions.md)
 * 已更新「分割」函式上的頁面。[閱讀全文](../building-journeys/functions/functioninaudience.md)
 * 已新增有關選擇加入或選擇退出推播通知對應用程式內訊息之影響的資訊。[閱讀全文](../in-app/create-in-app.md)
@@ -100,7 +100,7 @@ ht-degree: 98%
 * 已更新事件欄位語法。 下列語法已過時 `@(my_event.myfield}`，並已由 `@event{my_event.myfield}` 取代。[閱讀全文](../building-journeys/expression/field-references.md)
 * 已重新整理「全域報告」和「即時報告」指南。 [閱讀全文](../reports/campaign-global-report.md)
 
-+++ 2023 年
++++ 2023 版
 
 ## 2023 年 11 月 {#nov-2023}
 
@@ -228,7 +228,7 @@ ht-degree: 98%
 
 +++
 
-+++ 2022
++++ 2022 版
 
 ## 2022 年 12 月  {#december-2022}
 
@@ -355,7 +355,7 @@ ht-degree: 98%
 
 +++
 
-+++ 2021
++++ 2021 版
 
 ## 2021 年 11 月 {#november-2021}
 
@@ -395,7 +395,7 @@ ht-degree: 98%
 
 * 改進&#x200B;**快速入門**&#x200B;頁面，包含不同角色步驟。 [閱讀全文](../start/quick-start.md)
 
-* 透過Offer decisioning應用程式，Adobe Experience Platform使用者現在也能運用專屬區段中所述的所有決定管理功能。 [閱讀全文](../offers/get-started/starting-offer-decisioning.md)
+* 只要利用 Offer Decisioning 應用程式，Adobe Experience Platform 使用者現在也能使用專用區段中的所有決定管理功能。[閱讀全文](../offers/get-started/starting-offer-decisioning.md)
 
 * 新增子區段，在套用限制以對指定位置限制優惠選擇時，釐清使用對象與決定規則之間的差異。 [閱讀全文](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 

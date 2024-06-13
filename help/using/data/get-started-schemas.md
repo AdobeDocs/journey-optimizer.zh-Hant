@@ -9,9 +9,9 @@ level: Experienced
 keywords: 結構描述、平台、資料、結構
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 94%
 
 >[!MORELIKETHIS]
 >
->* [建立結構、資料集和內嵌資料，以在Journey Optimizer中新增測試設定檔](../audience/creating-test-profiles.md)
+>* [建立方案、資料集及擷取資料，即可在 Journey Optimizer 新增測試設定檔](../audience/creating-test-profiles.md)
 >* [XDM 系統概觀](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}
 >* [資料模式的最佳做法](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=zh-Hant){target="_blank"}
 >* [使用結構描述登錄 API 建立結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=zh-Hant){target="_blank"}

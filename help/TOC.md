@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1817'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 98%
    + [早期發行說明](using/rn/early-release-notes.md)
    + [最新發行說明](using/rn/release-notes.md)
    + 舊版版本注意事項 {#previous-rn-new}
-      + [2024](using/rn/release-notes-2024.md)
-      + [2023 年](using/rn/release-notes-2023.md)
-      + [2022](using/rn/release-notes-2022.md)
-      + [2021](using/rn/release-notes-2021.md)
+      + [2024 年](using/rn/release-notes-2024.md)
+      + [2023 版](using/rn/release-notes-2023.md)
+      + [2022 版](using/rn/release-notes-2022.md)
+      + [2021 版](using/rn/release-notes-2021.md)
    + [文件更新](using/rn/documentation-updates.md)
    + [改善的歷程畫布](using/rn/new-canvas.md)
 + 快速入門{#get-started}
@@ -38,7 +38,7 @@ ht-degree: 98%
    + [搜尋、篩選、分類](using/start/search-filter-categorize.md)
    + [協助工具](using/start/accessibility.md)
    + [使用案例教戰手冊](using/start/playbooks.md)
-   + [使用AI助理](using/start/ai-assistant.md)
+   + [使用 AI 助理](using/start/ai-assistant.md)
    + [整合](using/start/ajo-integrations.md)
    + [護欄](using/start/guardrails.md)
    + [最佳作法](using/start/best-practices.md)
@@ -164,9 +164,9 @@ ht-degree: 98%
          + [使用 Campaign v7/v8 傳送訊息](using/building-journeys/ajo-ac.md)
          + [傳送訊息給訂閱者](using/building-journeys/message-to-subscribers-uc.md)
       + 技術使用案例 {#technical-use-cases}
-         + [使用自訂動作以動態方式傳遞集合](using/building-journeys/collections.md)
+         + [使用自訂動作動態傳遞集合](using/building-journeys/collections.md)
          + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
+         + [使用「外部資料來源」與「自訂動作」限制輸送量](using/building-journeys/limit-throughput.md)
          + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
 + 行銷活動{#campaigns}
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
@@ -293,7 +293,7 @@ ht-degree: 98%
       + [使用 Adobe Experience Platform 資料進行個人化](using/personalization/lookup-aep-data.md)
       + 使用個人化編輯器 {#expression-editor}
          + [關於個人化編輯器](using/personalization/personalization-build-expressions.md)
-         + [將屬性加入我的最愛](using/personalization/personalization-favorites.md)
+         + [將屬性新增至我的最愛](using/personalization/personalization-favorites.md)
          + [使用運算式片段](using/personalization/use-expression-fragments.md)
          + [個人化驗證](using/personalization/personalization-validation.md)
       + 輔助函式{#functions}
@@ -312,7 +312,7 @@ ht-degree: 98%
          + [訂單狀態通知](using/personalization/personalization-use-case.md)
          + [放棄購物車電子郵件](using/personalization/personalization-use-case-helper-functions.md)
    + [內容範本](using/content-management/content-templates.md)
-   + 可重複使用的內容片段 {#fragments}
+   + 可重複使用內容片段 {#fragments}
       + [開始使用片段](using/content-management/fragments.md)
       + [建立片段](using/content-management/create-fragments.md)
       + [將現有內容另存為片段](using/content-management/save-fragments.md)
