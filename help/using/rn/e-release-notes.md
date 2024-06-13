@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c6daa2aef557943374a3eff005eda34dad214a5d
+source-git-commit: 553743d6d041cd719eb3c8bf7f02288595d8c2a5
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 23%
+source-wordcount: '640'
+ht-degree: 24%
 
 ---
 
@@ -152,7 +152,7 @@ ht-degree: 23%
 
 **決策管理**
 
-* **決策管理中的多規則支援**  — 您現在可以在決定管理中，為指定優惠新增最多10個上限規則。 這可讓您針對活動內容傳送方式提高控制等級。[了解更多](../offers/offer-library/add-constraints.md#capping)
+* **決策管理中的多規則支援**  — 您現在可以在決定管理中，為指定優惠新增最多10個上限規則。 這可讓您針對活動內容傳送方式提高控制等級。[深入暸解](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
@@ -169,6 +169,9 @@ ht-degree: 23%
 * 歷程全域逾時已從30天增加至91天。
 * Adobe Journey Optimizer現在支援隱私權刪除/存取請求。
 * 您現在可以調整歷程詳細目錄中的欄大小。
+* **事件設定中的進階運算式編輯器** 現在為GA — 您現在可以在設定事件時運用進階運算式編輯器，讓您定義更複雜的運算式或在事件ID條件中使用函式。 此功能以「限量」形式向選定的客戶發布。[閱讀全文](../event/about-creating.md)
+* **合併原則** 現在為GA — 歷程使用的合併原則現在在整個歷程中可見且一致。 此功能以「限量」形式向選定的客戶發布。[閱讀全文](../building-journeys/journey-gs.md#merge-policies)
+
 
 
 **行銷活動**
@@ -183,7 +186,7 @@ ht-degree: 23%
 **簡訊頻道**
 
 * 您現在可以使用單一API設定，為每個沙箱新增唯一的短程式碼，讓流程更有效率且簡化。
-* 您現在可以修改現有的SMS設定。
+  <!--* You can now modify existing SMS configurations.-->
 
 **應用程式內頻道**
 
