@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1804eb38c6c0ffd41aedebf612048e7aee90a54c
+source-git-commit: d27689b2b89374859a045a09bbfc41bdf70f750e
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 24%
+source-wordcount: '470'
+ht-degree: 32%
 
 ---
 
@@ -46,21 +46,21 @@ ht-degree: 24%
 </table>
 
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>內容片段自訂</strong><br/></th>
+<th><strong>Content Fragments customization</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在片段中定義特定欄位，在將片段新增到行銷活動或歷程時可以編輯這些欄位。 這允許在使用的時候調整內容部分，提供彈性以上下文特定的詳細資訊覆寫預設值。</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>You can now define specific fields in a fragment that can be edited when the fragment is added to a campaign or journey. This allows for the adjustment of content portions at the time of use, providing flexibility to override default values with context-specific details.</p>
+<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 
 <table>
@@ -152,17 +152,17 @@ ht-degree: 24%
 
 **決策管理**
 
-* **決策管理中的多規則支援**  — 您現在可以在決定管理中，為指定優惠新增最多10個上限規則。 這可讓您針對活動內容傳送方式提高控制等級。[深入暸解](../offers/offer-library/add-constraints.md#capping)
+* **決策管理中的多規則支援**  — 您現在可以在決定管理中，為指定優惠新增最多10個上限規則。 這可讓您針對活動內容傳送方式提高控制等級。[了解更多](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
-**內容片段**
+<!--**Content fragments**
 
-* 片段現在可以編輯，變更可以傳播到使用它們的所有即時歷程和行銷活動中。
-* 已引進內容片段的新狀態： **草稿**， **即時**， **發佈**、和 **已封存**.
-* 若要在歷程或行銷活動中使用片段，它現在必須位於 **即時** 狀態。 已新增步驟至片段建立流程，可發佈片段並用於歷程及行銷活動。 請注意，片段發佈需要新許可權。
-
-  **注意**  — 從 **草稿** 和 **即時** Journey Optimizer已在6月發行版本中匯入狀態，在此版本之前建立的所有片段都具有 **草稿** 狀態，即使它們用於歷程或行銷活動中。 在本節瞭解如何更新您現有的片段。
+* Fragments can now be edited, and changes can be propagated across all live journeys and campaigns where they are used.
+* New statuses for content fragments have been introduced: **Draft**, **Live**, **Publishing**, and **Archived**. 
+* To use a fragment in a journey or campaign, it must now be in the **Live** status. A new step has been added to the fragment creation process, allowing the fragment to be published and made available for use in journeys and campaigns. Note that fragment publishing requires a new permission.
+   
+   **CAUTION** - Since **Draft** and **Live** statuses have been introduced with Journey Optimizer June release, all fragments created before this release have the **Draft** status, even if they are used in a journey or campaign. Learn how to update your existing fragments in this section.-->
 
 **歷程**
 
