@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 553743d6d041cd719eb3c8bf7f02288595d8c2a5
+source-git-commit: 1804eb38c6c0ffd41aedebf612048e7aee90a54c
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '648'
 ht-degree: 24%
 
 ---
@@ -167,7 +167,7 @@ ht-degree: 24%
 **歷程**
 
 * 歷程全域逾時已從30天增加至91天。
-* Adobe Journey Optimizer現在支援隱私權刪除/存取請求。
+* Adobe Journey Optimizer現在支援隱私權刪除/存取請求，以及資料生命週期管理請求。
 * 您現在可以調整歷程詳細目錄中的欄大小。
 * **事件設定中的進階運算式編輯器** 現在為GA — 您現在可以在設定事件時運用進階運算式編輯器，讓您定義更複雜的運算式或在事件ID條件中使用函式。 此功能以「限量」形式向選定的客戶發布。[閱讀全文](../event/about-creating.md)
 * **合併原則** 現在為GA — 歷程使用的合併原則現在在整個歷程中可見且一致。 此功能以「限量」形式向選定的客戶發布。[閱讀全文](../building-journeys/journey-gs.md#merge-policies)
