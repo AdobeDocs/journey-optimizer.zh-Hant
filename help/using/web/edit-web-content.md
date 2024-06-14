@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 11cae07d061b67136f50201e89c0e349e919620d
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 2%
+source-wordcount: '1057'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 [透過此影片瞭解如何創作網路行銷活動](#video)
 
-在 [!DNL Journey Optimizer]，網頁製作由以下提供技術支援： **Adobe Experience Cloud Visual Helper** chrome瀏覽器擴充功能。 [了解更多](web-prerequisites.md#visual-authoring-prerequisites)
+在 [!DNL Journey Optimizer]，網頁製作由以下提供技術支援： **Adobe Experience Cloud Visual Helper** chrome瀏覽器擴充功能。 [深入暸解](web-prerequisites.md#visual-authoring-prerequisites)
 
 >[!CAUTION]
 >
@@ -61,7 +61,7 @@ ht-degree: 2%
 
    >[!CAUTION]
    >
-   >網頁必須包含 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant){target="_blank"}. [了解更多](web-prerequisites.md#implementation-prerequisites)
+   >網頁必須包含 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant){target="_blank"}. [深入暸解](web-prerequisites.md#implementation-prerequisites)
 
 1. 按一下 **[!UICONTROL 編輯網頁]** 以開始編寫。 網頁設計工具隨即顯示。
 
@@ -71,7 +71,7 @@ ht-degree: 2%
    >
    >如果您嘗試載入無法載入的網站，則會顯示一則訊息，建議您安裝 [Visual Editing Helper瀏覽器擴充功能](#install-visual-editing-helper). 請參閱中疑難排解的一些提示 [本節](web-prerequisites.md#troubleshooting).
 
-1. 從畫布中選取任何元素，例如影像、按鈕、段落、文字、容器、標題、連結等。 [了解更多](#content-components)
+1. 從畫布中選取任何元素，例如影像、按鈕、段落、文字、容器、標題、連結等。 [深入暸解](#content-components)
 
 1. 使用：
 
@@ -103,10 +103,9 @@ ht-degree: 2%
    * [分隔線](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [影像](../email/content-components.md#image)
-   * 標題 — 使用此元件與使用 **[!UICONTROL 文字]** 電子郵件設計工具中的元件。 [了解更多](../email/content-components.md#text)
-   * 段落 — 使用此元件與使用 **[!UICONTROL 文字]** 電子郵件設計工具中的元件。 [了解更多](../email/content-components.md#text)
+   * 標題 — 使用此元件與使用 **[!UICONTROL 文字]** 電子郵件設計工具中的元件。 [深入暸解](../email/content-components.md#text)
+   * 段落 — 使用此元件與使用 **[!UICONTROL 文字]** 電子郵件設計工具中的元件。 [深入暸解](../email/content-components.md#text)
    * 連結
-   * [優惠決定](../email/add-offers-email.md)
 
    ![](assets/web-designer-components.png)
 
@@ -126,15 +125,11 @@ ht-degree: 2%
 
    ![](assets/web-designer-header-style.png)
 
-## 新增個人化和優惠方案
+## 新增個人化
 
-若要新增個人化，請選取容器，然後從顯示的內容功能表列中選取個人化圖示。 使用個人化編輯器新增變更。 [了解更多](../personalization/personalization-build-expressions.md)
+若要新增個人化，請選取容器，然後從顯示的內容功能表列中選取個人化圖示。 使用個人化編輯器新增變更。 [深入暸解](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
-
-使用 **[!UICONTROL 優惠決定]** 要插入的元件 [優惠方案](../offers/get-started/starting-offer-decisioning.md) 放到您的網頁中。 程式與以下情況相同： [將優惠方案新增至電子郵件](../email/add-offers-email.md). 它會運用決策管理，挑選要提供給客戶的最佳優惠方案。
-
-![](assets/web-designer-offer.png)
 
 ## 瀏覽網頁設計工具 {#navigate-web-designer}
 
@@ -167,7 +162,7 @@ ht-degree: 2%
 
 在處理經過驗證或無法從特定URL開始使用的頁面時，此外掛程式特別有用。 例如，您將能夠驗證、導覽至您的帳戶頁面或購物車頁面，然後切換回 **[!UICONTROL 設計]** 模式，以在您所需的頁面上執行變更。
 
-使用 **[!UICONTROL 瀏覽]** 模式也可讓您在製作單頁應用程式時瀏覽網站的所有檢視。 [了解更多](web-spa.md)
+使用 **[!UICONTROL 瀏覽]** 模式也可讓您在製作單頁應用程式時瀏覽網站的所有檢視。 [深入暸解](web-spa.md)
 
 ### 變更裝置大小 {#change-device-size}
 
