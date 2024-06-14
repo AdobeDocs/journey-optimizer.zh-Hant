@@ -6,10 +6,10 @@ description: Journey Optimizer 搶先發行說明
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: cf4437dd9018466aea9b03b0decab76abb696952
+source-git-commit: f34e7e246339371be8c19c54b9fff921177f5ace
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 25%
+source-wordcount: '454'
+ht-degree: 22%
 
 ---
 
@@ -167,7 +167,7 @@ ht-degree: 25%
 * 歷程全域逾時已從30天增加至91天。
 * Adobe Journey Optimizer現在支援隱私權刪除/存取請求，以及資料生命週期管理請求。
 * 您現在可以調整歷程詳細目錄中的欄大小。
-* **事件設定中的進階運算式編輯器** 現在為GA — 您現在可以在設定事件時運用進階運算式編輯器，讓您定義更複雜的運算式或在事件ID條件中使用函式。 此功能以「限量」形式向選定的客戶發布。[閱讀全文](../event/about-creating.md)
+* **事件設定中的進階運算式編輯器** 現在為GA — 您現在可以在設定事件時運用進階運算式編輯器，讓您定義更複雜的運算式或在事件ID條件中使用函式。 此功能以「有限可用性」形式向選定客戶發佈。 <!--[Read more](../event/about-creating.md)-->
 * **合併原則** 現在為GA — 歷程使用的合併原則現在在整個歷程中可見且一致。 此功能以「有限可用性」形式向選定客戶發佈。 <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
@@ -188,7 +188,7 @@ ht-degree: 25%
 
 **應用程式內頻道**
 
-* **運算式片段**  — 運算式片段現在可用於 **應用程式內頻道**. [閱讀全文](../personalization/use-expression-fragments.md)
+* **運算式片段**  — 運算式片段現在可用於 **應用程式內頻道**. <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 
 * 您現在可以使用Edge Delivery外掛程式，取得瞭解傳入實作並進行疑難排解所需的資訊。
