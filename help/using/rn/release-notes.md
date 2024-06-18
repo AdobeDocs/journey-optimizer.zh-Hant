@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 354c05746b6aa45356969fab9af6ffdcee6b9e66
+source-git-commit: d2e53b85638a7ca5defcbe67aff6e19bc029f9a0
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 71%
+source-wordcount: '1321'
+ht-degree: 62%
 
 ---
 
@@ -162,17 +162,21 @@ ht-degree: 71%
 
 **決策管理**
 
-* **決策管理中的多規則支援**  — 您現在可以在決定管理中，為指定優惠新增最多10個上限規則。 這可讓您針對活動內容傳送方式提高控制等級。[了解更多](../offers/offer-library/add-constraints.md#capping)
+* **決策管理中的多規則支援**  — 您現在可以在決定管理中，為指定優惠新增最多10個上限規則。 這可讓您針對活動內容傳送方式提高控制等級。[深入暸解](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
-<!--**Content fragments**
+**內容片段**
 
-* Fragments can now be edited, and changes can be propagated across all live journeys and campaigns where they are used.
-* New statuses for content fragments have been introduced: **Draft**, **Live**, **Publishing**, and **Archived**. 
-* To use a fragment in a journey or campaign, it must now be in the **Live** status. A new step has been added to the fragment creation process, allowing the fragment to be published and made available for use in journeys and campaigns. Note that fragment publishing requires a new permission.
-   
-   **CAUTION** - Since **Draft** and **Live** statuses have been introduced with Journey Optimizer June release, all fragments created before this release have the **Draft** status, even if they are used in a journey or campaign. Learn how to update your existing fragments in this section.-->
+>[!AVAILABILITY]
+>
+>請注意，這些增強功能將在首次發行後的數天內逐步推出。 雖然有些使用者可以立即存取，但有些使用者在其環境中使用前可能會遇到延遲問題。
+
+* 片段現在可以編輯，變更可以傳播到使用它們的所有即時歷程和行銷活動中。
+* 已引進內容片段的新狀態： **草稿**， **即時**， **發佈**、和 **已封存**.
+* 若要在歷程或行銷活動中使用片段，它現在必須位於 **即時** 狀態。 已新增步驟至片段建立流程，可發佈片段並用於歷程及行銷活動。 請注意，片段發佈需要新許可權。
+
+  **注意**  — 從 **草稿** 和 **即時** Journey Optimizer已在6月發行版本中匯入狀態，在此版本之前建立的所有片段都具有 **草稿** 狀態，即使它們用於歷程或行銷活動中。 在本節瞭解如何更新您現有的片段。
 
 **歷程**
 
