@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: ef32423dafa33406244e09f6dddd760e44e4edbf
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '1005'
 ht-degree: 2%
 
 ---
@@ -59,6 +59,10 @@ API觸發的行銷活動的可用管道包括電子郵件、簡訊和推播訊�
 1. 在 **[!UICONTROL 對象]** 區段，指定用於識別個人的名稱空間。
 
    * 如果您要建立 **異動**-type campaign，必須在API呼叫中定義目標設定檔。 此 **[!UICONTROL 建立新設定檔]** 選項可讓您自動建立資料庫中不存在的設定檔。 [瞭解有關在行銷活動執行時建立設定檔的更多資訊](#profile-creation)
+
+     >[!NOTE]
+     >
+     >單一API呼叫支援最多20個不重複收件者。 每個收件者必須具有唯一的使用者ID，不允許重複的使用者ID。 進一步瞭解 [互動式訊息執行API檔案](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}
 
    * 的 **行銷**-type行銷活動，按一下 **[!UICONTROL 對象]** 按鈕以選擇要鎖定的對象。
 
