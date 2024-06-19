@@ -7,10 +7,11 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 topic: Content Management
-source-git-commit: 68c09769a32aeb1132f09e0f9082c7ccb6d17a8b
+exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
+source-git-commit: fdfdafbecf938c300a866bdf95a8ac6492fbdcb8
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 27%
+ht-degree: 92%
 
 ---
 
@@ -20,9 +21,9 @@ ht-degree: 27%
 
 **至發行日期之前，下方早期發行說明如有變更，恕不另行通知**。 連結、畫面及更新的文件會在發行當日發佈於[發行說明](release-notes.md)。
 
-## 2024年6月早期發行說明 {#e-2024}
+## 2024 年 6 月搶先發行說明 {#e-2024}
 
-**發行日期**： 2024年6月18至19日
+**發行日期**：2024 年 6 月 18 日至 19 日
 
 ### 新功能 {#e-features}
 
@@ -31,13 +32,13 @@ ht-degree: 27%
 <table>
 <thead>
 <tr>
-<th><strong>IP熱身工作流程</strong><br/></th>
+<th><strong>IP 暖身工作流程</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>如果您使用全新的IP位址傳送電子郵件，現在可以直接從使用者介面輕鬆執行IP熱身工作流程。 Adobe Journey Optimizer提供標準化和有效率的方式，讓您的IP位址按照最佳實務來熱身，以實現最佳傳遞能力。</p>
+<p>如果您使用全新的 IP 位址傳送電子郵件，現在可以直接從使用者介面輕鬆執行 IP 暖身工作流程。 Adobe Journey Optimizer 提供標準化和有效率的方式，讓您的 IP 位址按照最佳實務來暖身，以實現最佳傳遞能力。</p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -65,13 +66,13 @@ ht-degree: 27%
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Journey Optimizer中的AI助理</strong><br/></th>
+<th><strong>Adobe Journey Optimizer 中的 AI 助理</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>AI Assistant是使用者介面功能，可用於導覽和瞭解Adobe概念，並取得您特定環境的營運見解。 它適用於Adobe Experience Cloud的多個產品，包括Adobe Journey Optimizer。</p>
+<p>AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並取得您特定環境的操作見解。 它適用於 Adobe Experience Cloud 的多種產品，包括 Adobe Journey Optimizer。</p>
 <p>如需詳細資訊，請參閱<a href="../start/ai-assistant.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -151,7 +152,7 @@ ht-degree: 27%
 
 **決策管理**
 
-* **決策管理中的多規則支援**  — 您現在可以在決定管理中，為指定優惠新增最多10個上限規則。 這可讓您針對活動內容傳送方式提高控制等級。[了解更多](../offers/offer-library/add-constraints.md#capping)
+* **決策管理中的多規則支援** - 您現在可以在決定管理中，為指定優惠方案新增最多 10 個上限規則。這可讓您針對活動內容傳送方式提高控制等級。[了解更多](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
@@ -165,17 +166,17 @@ ht-degree: 27%
 
 **歷程**
 
-* 歷程全域逾時已從30天增加至91天。
-* Adobe Journey Optimizer現在支援隱私權刪除/存取請求，以及資料生命週期管理請求。
+* 歷程全域逾時已從 30 天增加至 91 天。
+* Adobe Journey Optimizer 現在支援隱私權刪除/存取請求，以及資料生命週期管理請求。
 * 您現在可以調整歷程詳細目錄中的欄大小。
-* **事件設定中的進階運算式編輯器** 現在為GA — 您現在可以在設定事件時運用進階運算式編輯器，讓您定義更複雜的運算式或在事件ID條件中使用函式。 此功能以「有限可用性」形式向選定客戶發佈。 <!--[Read more](../event/about-creating.md)-->
-* **合併原則** 現在為GA — 歷程使用的合併原則現在在整個歷程中可見且一致。 此功能以「有限可用性」形式向選定客戶發佈。 <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
+* **事件設定中的進階運算式編輯器**&#x200B;現已正式上市 - 您現在可以在設定事件時運用進階運算式編輯器，讓您定義更複雜的運算式或在事件 ID 條件中使用函數。此功能以「有限可用性」形式向選定客戶發佈。 <!--[Read more](../event/about-creating.md)-->
+* **合併原則**&#x200B;現已正式上市 - 歷程使用的合併原則現在在整個歷程中可見且一致。 此功能以「有限可用性」形式向選定客戶發佈。 <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
 
 **行銷活動**
 
-* 在Adobe Journey Optimizer中建立行銷活動時，您現在可以在新強制回應視窗中選擇行銷活動型別（已排程或觸發）。
+* 在 Adobe Journey Optimizer 中建立行銷活動時，您現在可以在新模式中選擇行銷活動類型 (已規畫或啟動)。
 
 <!--**Email channel**
 
@@ -184,7 +185,7 @@ ht-degree: 27%
 
 **簡訊頻道**
 
-* 您現在可以使用單一API設定，為每個沙箱新增唯一的短程式碼，讓流程更有效率且簡化。
+* 您現在可以使用單一 API 設定，為每個沙箱新增唯一的短程式碼，讓流程更有效率且簡化。
   <!--* You can now modify existing SMS configurations.-->
 
 **應用程式內頻道**
@@ -192,6 +193,4 @@ ht-degree: 27%
 * **運算式片段**  — 運算式片段現在可用於 **應用程式內頻道**. <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 
-* 您現在可以使用Edge Delivery外掛程式，取得瞭解傳入實作並進行疑難排解所需的資訊。
-
-
+* 您現在可以使用 Edge Delivery 外掛程式，取得了解傳入實作及疑難排解所需的資訊。
