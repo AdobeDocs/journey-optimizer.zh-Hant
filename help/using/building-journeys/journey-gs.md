@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: db841b1378a6b897c68809fe19f1f0b90d7fd9c5
 workflow-type: tm+mt
-source-wordcount: '2623'
+source-wordcount: '2642'
 ht-degree: 12%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 12%
 >id="ajo_homepage_card2"
 >title="建立歷程"
 >abstract="使用 **Adobe Journey Optimizer** 可讓您善用儲存在事件或資料來源中的內容關聯式資料，建置即時協調流程使用案例。"
-
 
 
 ## 先決條件{#start-prerequisites}
@@ -326,6 +325,7 @@ Journey在從Adobe Experience Platform擷取設定檔資料時使用合併原則
 
 * 在讀取對象或對象資格歷程中：使用來自對象的合併原則
 * 在事件觸發的歷程中：使用預設的合併原則
+* 在業務事件歷程中：使用以下讀取對象活動中來自目標對象的合併原則
 
 歷程將遵循在整個歷程中使用的合併原則。 因此，如果歷程中使用多個對象（例如：「inAudience」函式中），導致歷程使用的合併原則不一致，則會引發錯誤並封鎖發佈。 不過，如果在訊息個人化中使用不一致的對象，則儘管不一致，仍不會引發警報。 因此，強烈建議您在訊息個人化使用此對象時，檢查與對象相關聯的合併原則。
 
