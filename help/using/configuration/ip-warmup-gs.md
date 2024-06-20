@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 95%
+source-wordcount: '272'
+ht-degree: 94%
 
 ---
 
@@ -31,10 +31,6 @@ ht-degree: 95%
 * [執行 IP 暖身計劃](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->IP 暖身功能目前僅作為 Beta 版提供給部分使用者。若要加入 Beta 版計畫，請連絡 Adobe 客戶服務。
 
 透過 [!DNL Journey Optimizer]，您可以按照標準化、有效率的方式，依照最佳傳遞能力的最佳實務進行，直接從使用者介面輕鬆執行 IP 暖身工作流程。
 

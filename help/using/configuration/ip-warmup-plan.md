@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1668'
 ht-degree: 8%
 
 ---
@@ -112,7 +112,7 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 
 * 此計畫會透過六個步驟執行 **階段**，每個檔案至少包含一個回合。
 
-* 您可以對要傳送至的網域擁有任意數目的欄。 在此範例中，計劃分為六個欄：
+* 您最多可以有6欄（網域群組為5欄，網域群組為1欄）。 **其他** 欄)。 在此範例中，計劃分為六個欄：
 
    * 其中四個對應至 **現成可用的網域群組** 用於您的計畫(Gmail、Microsoft、Yahoo和Orange)。
    * 其中一個對應至自訂網域群組(您需要使用 [自訂網域群組](#custom-domain-group-tab) 標籤)。
@@ -188,7 +188,7 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 
 使用 **[!UICONTROL 自訂網域群組]** 標籤定義新的網域群組。 您可以為每個網域新增其涵蓋的所有子網域。<!--TBC-->
 
-確保每個網域對於其網域群組都是唯一的，並且不會與其他網域群組重疊。 由於全域網域群組是自動定義的，使用者在建立自訂網域群組時應考慮這一點。
+對於用於上述計畫中的網域群組，請確保每個網域對於其網域群組都是唯一的，並且不會與其他網域群組重疊。 由於全域網域群組是自動定義的，使用者在建立自訂網域群組時應考慮這一點。
 
 例如，如果您新增自訂網域Luma，您希望加入下列子網域：luma.com、luma.co.uk、luma.it、luma.fr、luma.de等。
 
@@ -201,7 +201,7 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 * 一個僅適用於Hotmail網域。
 * 一個用於網域群組Microsoft中的所有其他網域（因此排除所有Hotmail網域）。
 
-請注意，所有其他網域將會收集到 **[!UICONTROL 其他]** 欄。
+Hotmail外部的網域和來自網域群組Microsoft的網域將會收集到 **[!UICONTROL 其他]** 欄。
 
 1. 在 **[!UICONTROL 自訂網域群組]** 標籤，建立 **Hotmail** 網域群組。
 
@@ -220,10 +220,6 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 1. 建立三欄：一個用於 **Hotmail**，一個用於 **Microsoft_X** 一個用於 **其他**.
 
 1. 根據您的需求填寫欄。
-
->[!NOTE]
->
->將IP熱身計畫上傳到後 [!DNL Journey Optimizer]，您不需要排除Microsoft網域群組。
 
 <!--Only the domain groups listed in the **[!UICONTROL IP Warmup Plan]** tab will be taken into account.-->
 
