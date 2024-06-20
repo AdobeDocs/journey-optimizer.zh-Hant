@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7964aed332bf37170e94c8b1215208f1d09d43a2
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 60%
@@ -183,15 +183,15 @@ ht-degree: 60%
 
 **歷程**
 
-* 歷程的全域逾時已延長至91天。 [閱讀全文](../building-journeys/journey-gs.md#global_timeout)
+* 歷程的全域逾時已延長至91天。 [閱讀全文](../building-journeys/journey-properties.md#global_timeout)
 
-  任何建立的新歷程都會反映這個新的逾時。 請參考此 [常見問題集區段](../building-journeys/journey-gs.md#timeout-faq) 以進一步瞭解。 請注意，這些變更將會在6月期間逐步推出。
+  任何建立的新歷程都會反映這個新的逾時。 請參考此 [常見問題集區段](../building-journeys/journey-properties.md#timeout-faq) 以進一步瞭解。 請注意，這些變更將會在6月期間逐步推出。
 
 
 * Adobe Journey Optimizer現在支援隱私權刪除/存取請求，以及資料生命週期管理請求。 [閱讀全文](../privacy/requests.md)
 * 您現在可以調整歷程詳細目錄中的欄大小。
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
-* **合併原則**&#x200B;現已正式上市 - 歷程使用的合併原則現在在整個歷程中可見且一致。 [閱讀全文](../building-journeys/journey-gs.md#merge-policies)
+* **合併原則**&#x200B;現已正式上市 - 歷程使用的合併原則現在在整個歷程中可見且一致。 [閱讀全文](../building-journeys/journey-properties.md#merge-policies)
 
 
 

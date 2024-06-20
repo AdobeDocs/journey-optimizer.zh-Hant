@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，對象，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1466'
 ht-degree: 6%
 
 ---
@@ -126,7 +126,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->單次讀取對象歷程移至 **已完成** 狀態91天([預設逾時](journey-gs.md#global_timeout))。 對於已排程的讀取對象，是在上次執行後的91天。
+>單次讀取對象歷程移至 **已完成** 狀態91天([歷程全域逾時](journey-properties.md#global_timeout))。 對於已排程的讀取對象，是在上次執行後的91天。
 
 ## 測試並發佈歷程 {#testing-publishing}
 

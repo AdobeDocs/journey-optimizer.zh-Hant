@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '1250'
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -41,7 +41,7 @@ Journey Optimizer執行外部API呼叫時，技術護欄會依照以下方式執
 
 歷程每次執行 API 呼叫時，都會透過 API 引擎。如果您使用上限API，在達到API中設定的上限時，將會拒絕呼叫，或是將呼叫排入最多6小時的佇列，並在您使用節流API時，會儘快以收到的順序處理呼叫。
 
-例如，假設您已為外部系統定義每秒 200 次呼叫的上限或節流規則。10 個不同歷程的自訂動作會呼叫您的系統。 如果一個歷程每秒收到 300 個呼叫，則將使用 200 個可用插槽，並捨棄或將剩餘的 100 個插槽加入佇列。由於已超過最大速率，其他 9 個歷程將沒有任何插槽。 此詳細程度有助於保護外部系統免於過載及損毀。
+例如，假設您已為外部系統定義每秒200次呼叫的上限或節流規則。 10 個不同歷程的自訂動作會呼叫您的系統。 如果一個歷程每秒收到 300 個呼叫，則將使用 200 個可用插槽，並捨棄或將剩餘的 100 個插槽加入佇列。由於已超過最大速率，其他 9 個歷程將沒有任何插槽。 此詳細程度有助於保護外部系統免於過載及損毀。
 
 >[!IMPORTANT]
 >
@@ -72,7 +72,7 @@ API的詳細說明請參閱 [Adobe Journey Optimizer API檔案](https://develope
 
 如果符合上限或節流規則，則會套用逾時規則。
 
-在每個歷程中，您可以定義逾時持續時間。 這可讓您設定呼叫外部系統時的最長持續時間。 逾時期間是在歷程的屬性中設定。 請參見[此頁面](../building-journeys/journey-gs.md#timeout_and_error)。
+在每個歷程中，您可以定義逾時持續時間。 這可讓您設定呼叫外部系統時的最長持續時間。 逾時期間是在歷程的屬性中設定。 請參見[此頁面](../building-journeys/journey-properties.md#timeout_and_error)。
 
 此逾時對於所有外部呼叫（自訂動作和自訂資料來源中的外部API呼叫）都是全域的。 預設為30秒。
 
@@ -102,4 +102,4 @@ API的詳細說明請參閱 [Adobe Journey Optimizer API檔案](https://develope
 
 **我可以在哪裡設定逾時？ 有最大值嗎？**
 
-在每個歷程中，您可以定義逾時持續時間。 逾時期間是在歷程的屬性中設定。 逾時持續時間必須介於1秒到30秒之間。 請參閱 [本節](../configuration/external-systems.md#timeout) 和 [此頁面](../building-journeys/journey-gs.md#timeout_and_error).
+在每個歷程中，您可以定義逾時持續時間。 逾時期間是在歷程的屬性中設定。 逾時持續時間必須介於1秒到30秒之間。 請參閱 [本節](../configuration/external-systems.md#timeout) 和 [此頁面](../building-journeys/journey-properties.md#timeout_and_error).

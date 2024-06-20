@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: ht
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 * [行銷活動](../campaigns/create-campaign.md#create)
 * [決定項目](../experience-decisioning/items.md)
 * [片段](../content-management/fragments.md)
-* [歷程](../building-journeys/journey-gs.md#change-properties)
+* [歷程](../building-journeys/journey-properties.md)
 * [登陸頁面](../landing-pages/create-lp.md)
 * [訂閱清單](../landing-pages/subscription-list.md)
 * [範本](../content-management/content-templates.md)

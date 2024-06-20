@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 2b9d8cd80664abc2743c985ee1cd858ffa0344ee
-workflow-type: ht
-source-wordcount: '4396'
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+workflow-type: tm+mt
+source-wordcount: '4394'
 ht-degree: 100%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 100%
 * 現在，您可在任何等待時間中定義的最長期間是 29 天，而不是 30 天。此項改進的目的是在防止等待的持續時間超過 30 天的歷程期限。 這適用於：
 
    * [等待活動](../building-journeys/wait-activity.md)中的&#x200B;**時間長度**&#x200B;欄位
-   * [歷程屬性](../building-journeys/journey-gs.md#entrance)中的&#x200B;**重新進入等待期**
+   * [歷程屬性](../building-journeys/journey-properties.md#entrance)中的&#x200B;**重新進入等待期**
    * [事件活動](../building-journeys/general-events.md#events-specific-time)逾時定義中的&#x200B;**等待**&#x200B;欄位。
 
 <!--
@@ -200,7 +200,7 @@ ht-degree: 100%
 
 **歷程**
 
-* 複製歷程時，您現在可以定義歷程副本的名稱。 [了解更多](../building-journeys/journey-gs.md#uplicate-a-journey
+* 複製歷程時，您現在可以定義歷程副本的名稱。 [了解更多](../building-journeys/journey-gs.md#duplicate-a-journey)
 
 * 自訂動作回應的支援現已全面推出。 此功能可讓您在自訂動作中運用 API 呼叫回應，並根據這些回應協調歷程。此外，已新增[新的上限護欄](../start/guardrails.md#custom-actions-g)以自動限制自訂動作呼叫。[了解更多](../action/action-response.md)
 <!--
@@ -922,7 +922,7 @@ Note that each widget can be resized and deleted as needed.
 
 **歷程**
 
-* 此&#x200B;**重新進入等待期**&#x200B;欄位已新增至歷程屬性。 此欄位可讓您定義在允許設定檔在單一歷程中再次進入歷程 (從事件或對象資格開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 [了解更多](../building-journeys/journey-gs.md#entrance)
+* 此&#x200B;**重新進入等待期**&#x200B;欄位已新增至歷程屬性。 此欄位可讓您定義在允許設定檔在單一歷程中再次進入歷程 (從事件或對象資格開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 [了解更多](../building-journeys/journey-properties.md#entrance)
 
 * 改進了&#x200B;**歷程開始與結束日期**。如果您尚未指定開始日期，則現在會在發佈時自動新增開始日期。針對&#x200B;**讀取對象**&#x200B;歷程，您現在可以新增結束日期。 這可讓設定檔在達到日期時自動退出。 [進一步了解](../building-journeys/journey-gs.md#dates)
 

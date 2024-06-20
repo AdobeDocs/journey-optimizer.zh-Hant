@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: 重新進入、歷程、結束、即時、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 * 該人員到達路徑的最後一個活動。
 * 人員到達 **條件** 活動(或 **等待** 活動（含條件），且不符合任何條件。
 
-如果允許重新進入，則人員可以重新進入歷程。 另請參閱 [此頁面](../building-journeys/journey-gs.md#change-properties)
+如果允許重新進入，則人員可以重新進入歷程。 另請參閱 [此頁面](../building-journeys/journey-properties.md#entrance)
 
 若要終止即時歷程，建議您將其關閉。 接著，歷程中的新客戶將遭到封鎖。 已進入歷程的客戶能夠體驗到結束。 另請參閱 [本節](../building-journeys/journey.md#close-journey)
 
@@ -58,9 +58,9 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 
 手動關閉歷程可確保已進入歷程的客戶完成其路徑，但新使用者無法進入歷程。 歷程關閉時（基於上述任何原因），會有狀態 **[!UICONTROL 已關閉]**. 歷程停止讓新個人進入歷程。 已在歷程中的人可以正常完成歷程。
 
-91天後 [預設逾時](journey-gs.md#global_timeout)，讀取對象歷程會切換至 **已完成** 狀態。 此行為僅設定91天(即 [歷程逾時預設值](journey-gs.md#global_timeout))，因為有關進入歷程的設定檔的所有資訊都會在進入91天後移除。 仍在歷程中的人員會自動受到影響。 他們在91天逾時後退出歷程。
+91天後 [全域逾時](journey-properties.md#timeout)，讀取對象歷程會切換至 **已完成** 狀態。 此行為僅設定91天(即 [歷程全域逾時值](journey-properties.md#global_timeout))，因為有關進入歷程的設定檔的所有資訊都會在進入91天後移除。 仍在歷程中的人員會自動受到影響。 他們在91天逾時後退出歷程。
 
-請參閱[本章節](../building-journeys/journey-gs.md#global_timeout)。
+請參閱[本章節](../building-journeys/journey-properties.md#global_timeout)。
 
 無法重新啟動或刪除已關閉的歷程版本。 您可以建立其新版本或加以複製。 只能刪除已完成的歷程。
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
 workflow-type: tm+mt
 source-wordcount: '5389'
 ht-degree: 99%
@@ -22,7 +22,7 @@ ht-degree: 99%
 ## 2024 年 6 月 {#june-2024}
 
 * 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2024年6月版本的詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
-* 已新增歷程中合併原則使用方式的附註 [此頁面](../building-journeys/journey-gs.md#merge-policies).
+* 已新增歷程中合併原則使用方式的附註 [此頁面](../building-journeys/journey-properties.md#merge-policies).
 * 已重組並改善頁面，內容關於如何設定&#x200B;**等待**&#x200B;歷程中的活動。 [閱讀全文](../building-journeys/wait-activity.md)
 
 ## 2024 年 5 月 {#may-2024}
@@ -82,7 +82,7 @@ ht-degree: 99%
 
 * [!DNL Journey Optimizer] 2024 年 1 月發行版本的所有新功能和改進項目詳情，請參閱本文件。[閱讀全文](release-notes.md)
 * 已新增歷程大小的護欄。[閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
-* 已[在下列區段中](../building-journeys/journey-gs.md#global_timeout)詳細說明歷程逾時管理。
+* 已[在下列區段中](../building-journeys/journey-properties.md#global_timeout)詳細說明歷程逾時管理。
 * Journey Optimizer [j文件首頁](../../ajo-home.md)已經過重新設計。
 * 已新增有關更新設定檔活動的建議。[閱讀全文](../building-journeys/update-profiles.md)
 * 已新增有關歷程中事件活動逾時行為的資訊。如果未定義逾時路徑，在指定的逾時期間未收到任何事件時，個人將繼續歷程。 [閱讀全文](../building-journeys/general-events.md#events-specific-time)

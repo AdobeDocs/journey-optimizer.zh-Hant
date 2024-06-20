@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 設計，畫布，歷程，介面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 5%
@@ -47,7 +47,7 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 ![](assets/journey39.png)
 
-此 **工具列**，位於畫布的右上角，可讓您顯示/隱藏格線、放大/縮小及下載畫布的熒幕擷圖。 請參閱[本章節](../building-journeys/journey-gs.md#timeout_and_error)。
+此 **工具列**，位於畫布的右上角，可讓您顯示/隱藏格線、放大/縮小及下載畫布的熒幕擷圖。 請參閱[本章節](../building-journeys/journey-properties.md#timeout_and_error)。
 
 <!--and show/hide timeout and error paths-->
 
@@ -107,7 +107,7 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 您可以為下列歷程活動定義在錯誤或逾時時的遞補動作： **[!UICONTROL 條件]** 和 **[!UICONTROL 動作]**.
 
-若要為活動新增遞補動作，請選取 **[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]** 方塊的活動：在活動後新增另一個路徑。 逾時期間由管理員使用者在中定義 [歷程屬性](../building-journeys/journey-gs.md#change-properties). 例如，如果電子郵件傳送時間太長或發生錯誤，您可以決定傳送推播通知。
+若要為活動新增遞補動作，請選取 **[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]** 方塊的活動：在活動後新增另一個路徑。 逾時期間由管理員使用者在中定義 [歷程屬性](../building-journeys/journey-properties.md). 例如，如果電子郵件傳送時間太長或發生錯誤，您可以決定傳送推播通知。
 
 ![](assets/journey42.png)
 
