@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 15b0e69a823cc30589608995a5138340e263b227
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '1849'
 ht-degree: 98%
 
 ---
@@ -317,6 +317,7 @@ ht-degree: 98%
       + [開始使用片段](using/content-management/fragments.md)
       + [建立片段](using/content-management/create-fragments.md)
       + [將現有內容另存為片段](using/content-management/save-fragments.md)
+      + [可自訂的片段](using/content-management/customizable-fragments.md)
       + [管理片段](using/content-management/manage-fragments.md)
    + 動態內容 {#dynamic}
       + [開始使用動態內容](using/personalization/get-started-dynamic-content.md)

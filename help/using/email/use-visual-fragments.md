@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '737'
 ht-degree: 2%
 
 ---
@@ -74,6 +74,22 @@ ht-degree: 2%
 1. 如有需要，您可以中斷具有原始片段的繼承。 [了解更多](#break-inheritance)
 
 1. 新增任意數量的片段，並且 **[!UICONTROL 儲存]** 您的變更。
+
+## 自訂可編輯欄位 {#customize-fields}
+
+如果所選片段的某些部分已變為可編輯，您可以將片段新增到內容中後覆寫其預設值。 [瞭解如何使您的片段可自訂](../content-management/customizable-fragments.md)
+
+若要自訂片段中可編輯的欄位，請遵循下列步驟：
+
+1. 將片段新增至您的內容並選取它，以開啟右側的屬性窗格。
+
+1. 片段中的所有可編輯欄位都會顯示在 **設定** 標籤，在 **片段** 區段。
+
+   在右窗格中選取可編輯欄位時，預覽窗格中會以綠色反白顯示可編輯欄位，以便輕鬆識別它們在內容中的位置。
+
+   在以下範例中，影像 **來源** 和 **替代文字** 可編輯以及「按一下此處」按鈕 **URL**.
+
+   ![](assets/fragment-editable.png)
 
 ## 中斷繼承 {#break-inheritance}
 

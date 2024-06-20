@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，資料庫，個人化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,22 @@ ht-degree: 0%
 >[!NOTE]
 >
 >如果您建立包含多個分行符號的運算式片段，並在中使用它 [簡訊](../sms/create-sms.md#sms-content) 或 [推播](../push/design-push.md) 內容，則會保留分行符號。 因此，請務必測試您的 [簡訊](../sms/send-sms.md) 或 [推播](../push/send-push.md) 訊息傳送之前。
+
+## 自訂可編輯欄位 {#customize-fields}
+
+如果運算式片段的某些部分已使用變數設為可編輯，您可以使用特定語法覆寫其預設值。 [瞭解如何使您的片段可自訂](../content-management/customizable-fragments.md)
+
+若要自訂欄位，請執行下列步驟：
+
+1. 從將片段插入您的程式碼中 **片段** 功能表。
+
+1. 使用 `<fieldId>="<value>"` 語法末尾的程式碼，用來覆寫變數的預設值。
+
+   在以下範例中，我們以「yoga」值覆寫ID為「sports」之變數的值。 只要引用「sport」變數，片段內容中就會顯示「瑜伽」。
+
+   ![](../content-management/assets/fragment-expression-use.png)
+
+以下範例提供建立電子郵件時，如何將可編輯欄位新增至運算式片段並覆寫其值的說明： [本節](../content-management/customizable-fragments.md#example).
 
 ## 中斷繼承 {#break-inheritance}
 
