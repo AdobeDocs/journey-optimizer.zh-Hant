@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 歷程，設定，屬性
-source-git-commit: 15b0e69a823cc30589608995a5138340e263b227
+source-git-commit: 67032a4bcbfd56552d783f3ef78593375bfcc378
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1568'
 ht-degree: 8%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 8%
 >
 >若為即時歷程，此畫面只會顯示發佈日期和發佈歷程的使用者名稱。
 
-此 **複製技術細節** 可讓您複製支援團隊可用於疑難排解的歷程相關技術資訊。 下列資訊已複製： `JourneyVersion UID`， `OrgID`， `orgName`， `sandboxName`， `lastDeployedBy`， &#39;lastDeployedAt.
+此 **複製技術細節** 可讓您複製支援團隊可用於疑難排解的歷程相關技術資訊。 下列資訊已複製： `JourneyVersion UID`， `OrgID`， `orgName`， `sandboxName`， `lastDeployedBy`， `lastDeployedAt`.
 
 
 ## 進入和重新進入 {#entrance}
