@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: e7ff784d51da48c1970841e416c655c02cfafb7c
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 2%
+source-wordcount: '324'
+ht-degree: 15%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
->title="定義您自己的片段"
->abstract="建立並管理獨立片段，讓您的內容可跨多個歷程和行銷活動重複使用。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="建立片段"
+>title="定義您專屬的內容片段"
+>abstract="建立及管理獨立的內容片段，以便在多個歷程和行銷活動中重複使用你的內容。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="建立內容片段"
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_update_campaigns"
->title="片段更新行銷活動"
->abstract="片段更新行銷活動"
+>title="片段更新活動"
+>abstract="片段更新活動"
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_update_journeys"
@@ -46,9 +46,7 @@ ht-degree: 2%
 
 ## 開始之前 {#fragment-prerequisites}
 
->[!NOTE]
->
->若要建立、編輯和封存片段，您必須擁有 **[!DNL Manage library items]** 許可權包含在 **[!DNL Content Library Manager]** 產品設定檔。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
+若要建立、編輯和封存片段，您必須擁有 **[!DNL Manage library items]** 許可權包含在 **[!DNL Content Library Manager]** 產品設定檔。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
 
 在此版本中，適用下列限制：
 
@@ -62,17 +60,16 @@ ht-degree: 2%
 * **視覺片段** 是預先定義的視覺化區塊，您可以使用在多個電子郵件傳遞中重複使用 [電子郵件設計工具](../email/get-started-email-design.md)，或在 [內容範本](../email/use-email-templates.md).
 * **運算式片段** 是預先定義的運算式，可從的 [個人化編輯器](../personalization/personalization-build-expressions.md).
 
-
-所有片段都可從以下位置存取： **[!UICONTROL 內容管理]** > **[!UICONTROL 片段]**  左側功能表。
+所有已建立的片段都可從以下位置存取： **[!UICONTROL 內容管理]** > **[!UICONTROL 片段]**  左側功能表。 [瞭解如何管理片段](../content-management/manage-fragments.md)
 
 ![](assets/fragment-list.png)
 
 ## 操作說明影片 {#video-fragments}
 
-瞭解如何在中管理、編寫和使用視覺化片段 [!DNL Journey Optimizer].
+瞭解如何管理、編寫和使用 **視覺片段** 在 [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
-瞭解如何在中管理、編寫和使用運算式片段 [!DNL Journey Optimizer].
+瞭解如何管理、編寫和使用 **運算式片段** 在 [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

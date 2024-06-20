@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
+source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '382'
 ht-degree: 5%
 
 ---
@@ -51,6 +51,8 @@ ht-degree: 5%
    * **[!UICONTROL 有效期]**：輸入訊息有效期（小時）。 如果在此時間範圍內無法傳遞訊息，系統會再次嘗試重新傳送訊息。 預設有效期設定為48小時。
 
    * **[!UICONTROL 回呼資料]**：輸入要在通知URL上傳送的其他使用者端資料。
+
+   * **[!UICONTROL 傳入號碼]**：新增您的不重複傳入號碼。 這可讓您在不同的沙箱中使用相同的API認證，每個沙箱都有自己的傳入號碼。
 
 1. 按一下 **[!UICONTROL 提交]** 完成API認證的設定時。
 

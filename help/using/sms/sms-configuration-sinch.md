@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
+source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 4%
+source-wordcount: '584'
+ht-degree: 3%
 
 ---
 
@@ -51,6 +51,8 @@ ht-degree: 4%
    * **[!UICONTROL 雙重選擇加入關鍵字]**：輸入觸發雙重加入流程的關鍵字。 如果使用者設定檔不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。 [進一步瞭解簡訊雙重選擇加入](https://video.tv.adobe.com/v/3427129/?learn=on).
 
    * **[!UICONTROL 雙重選擇加入訊息]**：輸入自動傳送以回應雙重選擇加入確認的自訂回應。
+
+   * **[!UICONTROL 傳入號碼]**：新增您的不重複傳入號碼。 這可讓您在不同的沙箱中使用相同的API認證，每個沙箱都有自己的傳入號碼。
 
 1. 按一下 **[!UICONTROL 提交]** 完成API認證的設定時。
 

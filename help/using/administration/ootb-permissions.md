@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 許可權，製作，訊息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: aba2d6a1b55f5948da5ded3ae2cab721651caa94
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '757'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 2%
 | 決策管理 | **[!DNL Manage decisions]**：讀取、建立、編輯和刪除決策實體。</br>**[!DNL Manage offers]**：讀取、建立、編輯和刪除所有優惠、元件、讀取決定和集合。</br>**[!DNL Manage ranking strategies]**：讀取、建立、編輯和刪除自訂報表，並使用動作功能。</br>**[!DNL View decisions]**：優惠方案實體的唯讀存取權。<!--**[!DNL Manage Experience decisions]**: read, create, edit, and delete Experience decisioning entities.</br>--> |
 | 目的地 | **[!DNL Activate destinations]**：可讓使用者對現有目的地啟用對象。</br>**[!DNL Activate segment without mapping]**：讓使用者能在不顯示對應步驟的情況下將受眾啟動至現有目的地。 使用者可以在啟動工作流程中新增和移除對象，但無法新增或移除對應的屬性或身分。</br>**[!DNL Destination authoring]**：使用Adobe Experience Platform Destination SDK的作者目的地。</br>**[!DNL Manage and activate dataset destination]**：讀取、建立、編輯和停用資料集匯出流程。 還能對已建立的作用中資料集啟用資料。</br>**[!DNL Manage destinations]**：讀取、建立和刪除目的地啟用流程和目的地帳戶。</br>**[!DNL View destinations]**：以唯讀方式存取「目錄」標籤中的可用目的地，以及「瀏覽」標籤中的已驗證目的地。 |
 | 身分管理 | **[!DNL Manage identity namespaces]**：讀取、建立和編輯身分名稱空間。</br>**[!DNL Manage identity settings]**：讀取、建立和編輯身分設定。</br>**[!DNL View identity namespaces]**：以唯讀方式存取身分識別名稱空間。</br>**[!DNL View identity settings]**：以唯讀方式存取身分設定。</br>**[!DNL View identity graph]**：身分圖的唯讀存取權。 |
-| Journey Optimizer資料庫 | **[!DNL Manage Library Items]**：新增和刪除中儲存的運算式 [!DNL Journey Optimizer] 資料庫。</br>**[!DNL Simulate content]**：存取預覽和校訂的模擬內容選項。 |
+| Journey Optimizer資料庫 | **[!DNL Manage Library Items]**：新增和刪除中儲存的運算式 [!DNL Journey Optimizer] 資料庫。</br>**[!DNL Simulate content]**：存取預覽和校訂的模擬內容選項。</br>**[!DNL Publish fragments]**：發佈片段。 |
 | Journey Optimizer規則 | **[!DNL Manage frequency rules]**：存取、建立、編輯或刪除訊息頻率規則。</br>**[!DNL View frequency rules]**：規則的唯讀存取權。 |
 | 歷程 | **[!DNL Manage journeys]**：讀取、建立、編輯和刪除歷程。 若要存取及管理歷程，請將此許可權與 **[!DNL View journeys events, data sources and actions]**.</br>**[!DNL Manage journeys events, data sources and actions]**：讀取、建立、編輯和刪除事件、來源或動作。</br>**[!DNL Publish journeys]**：發佈歷程。</br>**[!DNL View journeys]**：對歷程的唯讀存取權。</br>**[!DNL View journeys events, data sources and actions]**：對歷程事件、歷程自訂動作和歷程資料來源的唯讀存取權。</br>**[!DNL View journeys report]**：讀取和編輯歷程報告。</br> |
 | 設定檔管理 | **[!DNL Evaluate a segment to an audience]**：評估區段定義，產生對象的設定檔。</br>**[!DNL Export audience segments]**：將評估過的受眾區段匯出至資料集。</br>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</br>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除用於客戶設定檔的資料集。 對可用設定檔的唯讀存取權。</br>**[!DNL View merge policies]**：對可用合併原則的唯讀存取權。</br>**[!DNL View profiles]**：對可用設定檔的唯讀存取權。</br>**[!DNL View segments]**：可用對象的唯讀存取權。 |

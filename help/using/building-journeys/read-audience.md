@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，對象，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1465'
 ht-degree: 6%
 
 ---
@@ -126,7 +126,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->一次性讀取對象歷程在歷程執行30天後移至「已完成」狀態。 對於已排程的讀取對象，是在上次執行後的30天。
+>單次讀取對象歷程移至 **已完成** 狀態91天([預設逾時](journey-gs.md#global_timeout))。 對於已排程的讀取對象，是在上次執行後的91天。
 
 ## 測試並發佈歷程 {#testing-publishing}
 
@@ -178,7 +178,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ![](assets/read-segment-audience2.png)
 
-**Union**
+**聯集**
 
 歷程可讓您建立N個分支，並在分段後將其聯結。
 

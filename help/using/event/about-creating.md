@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，單一，建立，歷程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 0f1c4b96e930e8e473463002c1d8ef66341a07c4
+source-git-commit: 531662b7d5e2455a017d68d6037c44b6950cc894
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1613'
 ht-degree: 12%
 
 ---
@@ -61,20 +61,17 @@ ht-degree: 12%
    >
    >當您選取 **[!UICONTROL 系統產生]** 型別，只有具有eventID型別欄位的結構描述才可使用。 當您選取 **[!UICONTROL 以規則為基礎]** 型別，則所有體驗事件結構描述都可使用。
 
-1. 針對規則型事件，按一下 **[!UICONTROL 事件ID條件]** 欄位。 使用簡單或進階運算式編輯器，定義系統將使用的條件，以識別將觸發您歷程的事件。
-   ![](assets/jo-event6.png)
+1. 針對規則型事件，按一下 **[!UICONTROL 事件ID條件]** 欄位。 使用 <!--simple or advanced--> 運算式編輯器，定義系統將用來識別將觸發您歷程之事件的條件。
 
-   >[!NOTE]
-   >
-   >事件設定中的進階運算式編輯器可在選定客戶的「有限可用性」中取得。
+![](assets/jo-event6.png)
 
-   在我們的範例中，我們根據設定檔的城市來撰寫條件。 這表示每當系統收到符合此條件的事件時(**[!UICONTROL 城市]** 欄位和 **[!UICONTROL 巴黎]** 值)，則會將其傳遞至歷程。
+在我們的範例中，我們根據設定檔的城市來撰寫條件。 這表示每當系統收到符合此條件的事件時(**[!UICONTROL 城市]** 欄位和 **[!UICONTROL 巴黎]** 值)，則會將其傳遞至歷程。
 
-   >[!NOTE]
-   >
-   >在簡單運算式編輯器中，並非所有運運算元都可使用，它們取決於資料型別。 例如，對於欄位的字串型別，您可以使用「包含」或「等於」。
-   >
-   >如果您在建立事件後，使用新的列舉值修改綱要，則需要按照以下步驟將變更套用至現有事件：從事件欄位中取消選取列舉欄位，確認選擇，然後再次選取列舉欄位。 現在會顯示新的分項清單。
+>[!NOTE]
+>
+>在簡單運算式編輯器中，並非所有運運算元都可使用，它們取決於資料型別。 例如，對於欄位的字串型別，您可以使用「包含」或「等於」。
+>
+>如果您在建立事件後，使用新的列舉值修改綱要，則需要按照以下步驟將變更套用至現有事件：從事件欄位中取消選取列舉欄位，確認選擇，然後再次選取列舉欄位。 現在會顯示新的分項清單。
 
 1. 新增命名空間。此步驟為選填，但建議您新增命名空間，以便運用儲存在「即時客戶個人檔案服務」的資訊。它會定義事件具備的金鑰類型。請參閱[本節](../event/about-creating.md#select-the-namespace)。
 
@@ -159,14 +156,23 @@ ht-degree: 12%
 
    ![](assets/journey16.png)
 
-1. 選取在裝載欄位清單中選為索引鍵的欄位。 您也可以切換至進階運算式編輯器，以建立更複雜的索引鍵（例如，兩個事件欄位的串連）。
-
-   ![](assets/journey20.png)
+1. 選取在裝載欄位清單中選為索引鍵的欄位。
 
 收到事件時，機碼的值可讓系統識別與事件相關聯的人員。 與名稱空間相關聯(請參閱 [本節](../event/about-creating.md#select-the-namespace))，則金鑰可用來在Adobe Experience Platform上執行查詢。 另請參閱 [此頁面](../building-journeys/about-journey-activities.md#orchestration-activities).
 金鑰也可用來檢查個人是否在歷程中。 事實上，一個人在同一歷程中不能位於兩個不同的位置。 因此，系統不允許相同的金鑰（例如金鑰CRMID=3224）位於相同歷程中的不同位置。
 
-您也可以存取進階運算式函式(**[!UICONTROL 進階模式]**)。 這些函式可讓您控制用於執行特定查詢的值，例如變更格式、執行欄位串連，僅考慮欄位的一部分（例如10個第一個字元）。 請參閱此[頁面](../building-journeys/expression/expressionadvanced.md)。
+### 進階運算式編輯器 {#adv-exp-editor}
+
+
+定義設定檔識別碼時，您可以切換至進階運算式編輯器以建立更複雜的索引鍵（例如，兩個事件欄位的串連）。
+
+![](assets/journey20.png)
+
+您可以從存取進階運算式函式 **[!UICONTROL 進階模式]** 按鈕。 這些函式可讓您控制用於執行特定查詢的值，例如變更格式、執行欄位串連，僅考慮欄位的一部分（例如10個第一個字元）。 請參閱此[頁面](../building-journeys/expression/expressionadvanced.md)。
+
+>[!AVAILABILITY]
+>
+>進階運算式編輯器僅適用於一組組織(LA)。
 
 ## 預覽裝載 {#preview-the-payload}
 

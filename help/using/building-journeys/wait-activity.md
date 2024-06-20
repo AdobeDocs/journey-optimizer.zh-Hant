@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 等待，活動，歷程，下一步，畫布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 846c601c02a28119dddb3029e5273cfccf141a2c
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="等待活動"
->abstract="如果要在執行路徑中的下一個活動之前等待，可以使用「等待」活動。 它可讓您定義下一個活動執行的時間。 有兩個可用選項：持續時間與自訂。"
+>abstract="如果您要在執行路徑中的下一個活動之前等待，您可以使用等待活動。這項功能可讓您定義執行下一個活動的時刻。有兩個選項可用：期間和自訂。"
 
 您可以使用 **[!UICONTROL 等待]** 活動，定義下一個活動執行之前的持續時間。  最長等待時間為 **29天**.
 
@@ -35,13 +35,13 @@ ht-degree: 6%
 * [Fixed date](#fixed_date) 
 -->
 
-## 推薦 {#wait-recommendations}
+## 建議 {#wait-recommendations}
 
 ### 多個等待活動 {#multiple-wait-activities}
 
-使用多個 **等待** 歷程中的活動，請注意，全域歷程逾時為30天，這表示設定檔一律會在進入歷程後30天之內退出歷程。 在[本頁](../building-journeys/journey-gs.md#global_timeout)中瞭解更多。
+使用多個 **等待** 歷程中的活動，請注意 [全域歷程逾時](journey-gs.md#global_timeout) 為91天，這表示設定檔一律會在進入歷程後91天從歷程中退出。 在[本頁](../building-journeys/journey-gs.md#global_timeout)中瞭解更多。
 
-個人可以輸入 **等待** 活動，前提是他們在歷程中剩餘的時間足以在30天歷程逾時前完成等待期間。 例如，如果您新增兩個 **等待** 活動設為20天，系統會偵測到第二個 **等待** 活動將在30天逾時後結束。 第二個 **等待** 因此，活動將被忽略，個人將在啟動歷程之前退出歷程。 在該範例中，客戶在歷程中總共將保留20天。
+個人可以輸入 **等待** 活動，前提是他們在91天歷程逾時前的歷程剩餘時間足以完成等待期間。 例如，如果您新增兩個 **等待** 活動設為20天，系統會偵測到第二個 **等待** 活動將在91天逾時後結束。 第二個 **等待** 因此，活動將被忽略，個人將在啟動歷程之前退出歷程。 在該範例中，客戶在歷程中總共將保留20天。
 
 ### 等待並重新進入 {#wait-re-entrance}
 
@@ -49,7 +49,7 @@ ht-degree: 6%
 
 ### 等待和測試模式 {#wait-test-modd}
 
-在測試模式中， **[!UICONTROL 測試等待時間]** 引數可讓您定義 **等待** 活動將會持續。 預設時間為10秒。 這將確保您能快速獲得測試結果。 在[本頁](../building-journeys/testing-the-journey.md)中瞭解更多。
+在測試模式中， **[!UICONTROL 測試等待時間]** 引數可讓您定義 **等待** 活動將會持續。 預設時間為 10 秒。這將確保您能快速獲得測試結果。 在[本頁](../building-journeys/testing-the-journey.md)中瞭解更多。
 
 ## 設定 {#wait-configuration}
 

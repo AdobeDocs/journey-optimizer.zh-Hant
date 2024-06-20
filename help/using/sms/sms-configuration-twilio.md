@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
+source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 5%
+source-wordcount: '176'
+ht-degree: 4%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 5%
    * **[!UICONTROL 帳戶SID]** 和 **[!UICONTROL 驗證權杖]**：存取 **帳戶資訊** [Twilio主控台儀表板]頁面的窗格，以尋找您的認證。
 
    * **[!UICONTROL 訊息SID]**：輸入指派給Twilio API所建立每則訊息的唯一識別碼。 進一步瞭解 [Twilio檔案](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+
+   * **[!UICONTROL 傳入號碼]**：新增您的不重複傳入號碼。 這可讓您在不同的沙箱中使用相同的API認證，每個沙箱都有自己的傳入號碼。
 
 1. 按一下 **[!UICONTROL 提交]** 完成API認證的設定時。
 

@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，資料庫，個人化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 使用時 **個人化編輯器**，您可以利用已建立或儲存至目前沙箱的所有運算式片段。
 
-瞭解如何在中建立和管理片段 [本節](../content-management/fragments.md).
+片段是可重複使用的元件，可在以下位置參照： [!DNL Journey Optimizer] 行銷活動和歷程。 此功能允許預先建置多個自訂內容區塊，可供行銷使用者在改良的設計流程中快速組合內容。 [瞭解如何建立和管理片段](../content-management/fragments.md).
 
 ➡️ [在本影片中瞭解如何管理、編寫和使用片段](../content-management/fragments.md#video-fragments)
 
@@ -28,17 +28,17 @@ ht-degree: 0%
 
 若要將運算式片段新增至您的內容，請遵循下列步驟。
 
+>[!NOTE]
+>
+>您最多可以在給定傳送中新增30個片段。 片段最多只能巢狀1個層級。
+
 1. 開啟 [個人化編輯器](personalization-build-expressions.md) 並選取 **[!UICONTROL 片段]** 按鈕。
+
+   清單會顯示目前沙箱上已建立或儲存為片段的所有運算式片段。 它們會依建立日期排序：最近新增的運算式片段會先顯示在清單中。 [了解更多](../content-management/fragments.md#create-expression-fragment)
 
    ![](assets/expression-fragments-pane.png)
 
-   清單會顯示目前沙箱上已建立或儲存為片段的所有運算式片段。 [了解更多](../content-management/fragments.md#create-expression-fragment)
-
-   >[!NOTE]
-   >
-   >片段會依建立日期排序：最近新增的運算式片段會先顯示在清單中。
-
-1. 您也可以重新整理清單。
+   您也可以重新整理此清單。
 
    >[!NOTE]
    >
@@ -48,15 +48,15 @@ ht-degree: 0%
 
    ![](assets/expression-fragment-add.png)
 
-   在新增片段ID後，如果您開啟對應的運算式片段並 [編輯它](../content-management/fragments.md#edit-fragments) 從介面中，變更會同步化。 它們會自動傳播至所有 **[!UICONTROL 草稿]** 包含該片段ID的歷程/行銷活動。
-
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >變更不會傳播至中使用的內容 **[!UICONTROL 即時]** 歷程或行銷活動。
+   >您可以新增任何 **草稿** 或 **即時** 片段至您的內容。 但是，如果正在使用狀態為草稿的片段，您將無法啟用您的歷程或行銷活動。 在歷程或行銷活動發佈中，草稿片段將顯示錯誤，您需要核准它們才能發佈。
+   >
+   > 請注意，在Journey Optimizer 6月發行後的數天內，片段狀態會逐步推出。 雖然有些使用者可以立即存取，但有些使用者在其環境中使用前可能會遇到延遲問題。 如果您的環境中尚未提供此增強功能，請注意，片段不需要 **即時** 用於您的歷程與行銷活動。
 
-1. 按一下 **[!UICONTROL 更多動作]** 按鈕尋找片段。
+1. 在新增片段ID後，如果您開啟對應的運算式片段並 [編輯它](../content-management/fragments.md#edit-fragments) 從介面中，變更會同步化。 它們會自動傳播到包含該片段ID的所有草稿或即時歷程/行銷活動。
 
-1. 從開啟的關聯功能表中，選取 **[!UICONTROL 檢視片段]** 以取得該片段的詳細資訊。 此 **[!UICONTROL 片段ID]** 也會顯示，而且可以從此處複製。
+1. 按一下 **[!UICONTROL 更多動作]** 按鈕尋找片段。 從開啟的關聯功能表中，選取 **[!UICONTROL 檢視片段]** 以取得該片段的詳細資訊。 此 **[!UICONTROL 片段ID]** 也會顯示，而且可以從此處複製。
 
    ![](assets/expression-fragment-view.png)
 

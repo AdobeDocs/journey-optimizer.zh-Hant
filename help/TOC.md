@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
-workflow-type: ht
-source-wordcount: '1817'
-ht-degree: 100%
+source-git-commit: 2a5c04477b38e2fccdde86af56714261c6638160
+workflow-type: tm+mt
+source-wordcount: '1843'
+ht-degree: 99%
 
 ---
 
@@ -380,6 +380,14 @@ ht-degree: 100%
    + [警報](using/reports/alerts.md)
    + [使用 Customer Journey Analytics](using/reports/cja-ajo.md)
    + [排除原因](using/reports/exclusion-list.md)
++ 新的報告介面（測試版）{#channel-report}
+   + [開始使用新的報告介面](using/reports/report-gs-cja.md)
+   + [管理您的報告](using/reports/report-cja-manage.md)
+   + [歷程報告](using/reports/journey-global-report-cja.md)
+   + [行銷活動報告](using/reports/campaign-global-report-cja.md)
+   + [概述報表](using/reports/channel-report-cja.md)
+   + [登陸頁面報告](using/reports/lp-report-global-cja.md)
+   + [訂閱清單報告](using/reports/subscription-report-global-cja.md)
 + 決策{#decisioning}
    + 決定管理 {#offer-decisioning}
       + 開始使用決定管理 {#get-started-decision}

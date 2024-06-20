@@ -7,20 +7,20 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 82c58753b0beb1c6c60b4e1a8188725b3cb83390
+source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '479'
+ht-degree: 8%
 
 ---
 
-# 建立簡訊/多媒體簡訊表面 {#message-preset-sms}
+# 建立 SMS/MMS 表面 {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
->title="定義訊息類別"
->abstract="使用此介面選取文字訊息型別：促銷訊息的行銷需要使用者同意，或非商業訊息的交易式（例如重設密碼）。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="行銷文字訊息中的選擇退出"
+>title="定義訊息類別。"
+>abstract="選取使用此表面的文字簡訊類型：需要使用者同意的促銷簡訊的行銷訊息，或非商業簡訊的交易型訊息，例如密碼重設。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hant#sms-opt-out-management" text="選擇不接收行銷文字簡訊"
 
 設定您的SMS/MMS頻道後，您必須建立頻道介面，才能從傳送SMS和MMS訊息 **[!DNL Journey Optimizer]**.
 
@@ -67,13 +67,12 @@ ht-degree: 0%
    >
    >若要能夠選取子網域，請確定您先前已設定至少一個SMS/MMS子網域。 [了解作法](sms-subdomains.md)
 
-<!--
-1. Enter the **[!UICONTROL Opt-out number]** you want to use for this surface. When profiles opt out from this number, you are still able to send them messages from other numbers you may be using to send out text messages with [!DNL Journey Optimizer].
+1. 輸入 **[!UICONTROL 選擇退出號碼]** 您要用於此曲面。 當設定檔選擇退出此號碼時，您仍然可以從其他號碼傳送訊息給設定檔，您可能會使用其他號碼傳送文字訊息： [!DNL Journey Optimizer].
 
-    >[!NOTE]
-    >
-    >In [!DNL Journey Optimizer], opt-out for text messages is no longer managed at the channel level. It is now specific to a number.
--->
+   >[!NOTE]
+   >
+   >在 [!DNL Journey Optimizer]，頻道層級不再管理選擇退出簡訊。 它現在特定於數字。
+
 1. 設定好所有引數後，按一下 **[!UICONTROL 提交]** 以確認。 您也可以將管路曲面儲存為草繪，並稍後恢復其組態。
 
    ![](assets/sms-submit-surface.png)

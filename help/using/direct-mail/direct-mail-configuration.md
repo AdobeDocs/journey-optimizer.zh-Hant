@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 3686127299107eb19db8e9290be1b737c1c87ec3
+source-git-commit: c7d8dd94bde49e8d02fe553fbac3942f55bf73fe
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 31%
+source-wordcount: '1272'
+ht-degree: 22%
 
 ---
 
@@ -58,11 +58,19 @@ ht-degree: 31%
 >title="選擇 AWS 區域"
 >abstract="選取要將直接郵件檔案匯出到哪個 AWS 伺服器的地理區域。一般做法是，最好選擇離您的直接郵件提供者所在位置最近的區域。"
 
+>[!NOTE]
+>
+>目前支援Amazon S3、SFTP和Azure [!DNL Journey Optimizer].
+
 若要傳遞直接郵件訊息， [!DNL Journey Optimizer] 產生包含目標受眾資料的檔案，並將其匯出至伺服器。
 
 您必須指定伺服器詳細資料，以便直接郵件提供者可以存取及使用該檔案來傳遞郵件。
 
 若要設定檔案路由，請遵循下列步驟。
+
+>[!BEGINTABS]
+
+>[!TAB Amazon S3]
 
 1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL 檔案路由設定]** > **[!UICONTROL 檔案路由]** 功能表，然後按一下 **[!UICONTROL 建立路由設定]**.
 
@@ -70,33 +78,89 @@ ht-degree: 31%
 
 1. 設定組態的名稱。
 
-1. 選取 **[!UICONTROL 伺服器型別]** 要用於匯出直接郵件檔案的檔案。
+1. 選取 **Amazon S3** 作為 **[!UICONTROL 伺服器型別]** 用於匯出直接郵件檔案。
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
-   >[!NOTE]
-   >
-   >目前支援Amazon S3、SFTP和Azure [!DNL Journey Optimizer].
+1. 填寫伺服器的詳細資訊和認證
 
-1. 填寫伺服器的詳細資料和認證，例如伺服器位址、存取金鑰等。
+   * **AWS貯體名稱**：若要瞭解在何處尋找您的AWS貯體名稱，請參閱 [此頁面](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
-   ![](assets/file-routing-config-sftp-details.png)
+   * **AWS存取金鑰**：若要瞭解在何處尋找您的AWS存取金鑰ID，請參閱 [此頁面](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
-1. 如果您已選取 **[!UICONTROL Amazon S3]**，選擇 **[!UICONTROL AWS地區]** 伺服器基礎結構的位置。
+   * **AWS秘密金鑰**：若要瞭解在何處尋找您的AWS秘密金鑰，請參閱 [此頁面](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+
+   * **AWS地區**：選擇 **[!UICONTROL AWS地區]** 伺服器基礎結構的位置。 AWS區域是AWS用來託管其雲端基礎結構的地理區域。 一般而言，建議您選擇距離直接郵件提供者位置最近的區域。
 
    ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
-
-   >[!NOTE]
-   >
-   >AWS區域是AWS用來託管其雲端基礎結構的地理區域。 一般而言，建議您選擇距離直接郵件提供者位置最近的區域。
 
 1. 若要加密檔案，請複製您的加密金鑰並貼到 **[!UICONTROL pgp/GPG加密金鑰]** 欄位。
 
 1. 選取 **[!UICONTROL 提交]**. 檔案路由組態是使用 **[!UICONTROL 作用中]** 狀態。 現在已準備好用於 [直接郵件表面](#direct-mail-surface).
 
-   >[!NOTE]
-   >
-   >您也可以選取 **[!UICONTROL 另存為草稿]** 來建立檔案繞線組態，但您無法在曲面中選取它，直到它 **[!UICONTROL 作用中]**.
+   您也可以選取 **[!UICONTROL 另存為草稿]** 來建立檔案繞線組態，但您無法在曲面中選取它，直到它 **[!UICONTROL 作用中]**.
+
+>[!TAB SFTP]
+
+1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL 檔案路由設定]** > **[!UICONTROL 檔案路由]** 功能表，然後按一下 **[!UICONTROL 建立路由設定]**.
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. 設定組態的名稱。
+
+1. 選取SFTP作為 **[!UICONTROL 伺服器型別]** 用於匯出直接郵件檔案。
+
+   ![](assets/file-routing-config-type-sftp.png){width="800" align="center"}
+
+1. 填寫伺服器的詳細資訊和認證：
+
+   * **帳戶**：用來連線至SFTP伺服器的帳戶名稱。
+
+   * **伺服器位址**： SFTP伺服器&#x200B;的URL。
+
+   * **連線埠**：FTP連線連線埠號碼。
+
+   * **密碼**：&#x200B;用來連線至SFTP伺服器的密碼。
+
+   ![](assets/file-routing-config-sftp-detail.png)
+
+1. 若要加密檔案，請複製您的加密金鑰並貼到 **[!UICONTROL pgp/GPG加密金鑰]** 欄位。
+
+1. 選取 **[!UICONTROL 提交]**. 檔案路由組態是使用 **[!UICONTROL 作用中]** 狀態。 現在已準備好用於 [直接郵件表面](#direct-mail-surface).
+
+   您也可以選取 **[!UICONTROL 另存為草稿]** 來建立檔案繞線組態，但您無法在曲面中選取它，直到它 **[!UICONTROL 作用中]**.
+
+>[!TAB Azure]
+
+1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL 檔案路由設定]** > **[!UICONTROL 檔案路由]** 功能表，然後按一下 **[!UICONTROL 建立路由設定]**.
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. 設定組態的名稱。
+
+1. 選取Azure **[!UICONTROL 伺服器型別]** 用於匯出直接郵件檔案。
+
+   ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
+
+1. 填寫伺服器的詳細資訊和認證：
+
+   * **Azure連線字串**：尋找您的 **Azure連線字串**，請參閱 [此頁面](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
+
+     此 **Azure連線字串** 應遵循以下格式：
+
+     `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
+
+   * **容器名稱**：尋找您的 **容器名稱**，請參閱 [此頁面](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
+
+     此 **容器名稱** 應僅包含容器名稱，不含任何斜線。 若要在容器內指定儲存檔案的路徑，請更新直接郵件促銷活動的檔案名稱，以包含所需的路徑。
+
+1. 若要加密檔案，請複製您的加密金鑰並貼到 **[!UICONTROL pgp/GPG加密金鑰]** 欄位。
+
+1. 選取 **[!UICONTROL 提交]**. 檔案路由組態是使用 **[!UICONTROL 作用中]** 狀態。 現在已準備好用於 [直接郵件表面](#direct-mail-surface).
+
+   您也可以選取 **[!UICONTROL 另存為草稿]** 來建立檔案繞線組態，但您無法在曲面中選取它，直到它 **[!UICONTROL 作用中]**.
+
+>[!ENDTABS]
 
 ## 建立直接郵件表面 {#direct-mail-surface}
 

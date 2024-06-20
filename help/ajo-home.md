@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0ba1e007ebdb3f7d68df270c4a7332bf37eec2b2
-workflow-type: ht
-source-wordcount: '354'
-ht-degree: 100%
+source-git-commit: 6b9044117dcdd7554dea0c5f791a6dcfb0218010
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 83%
 
 ---
 
@@ -20,27 +20,29 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB 5 月發行版本已上線！]
+>[!TAB 6月版本已上線！]
 
 探索 Adobe Journey Optimizer 5 月發行版本包含的新功能和改進項目。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB 體驗決策]
+>[!TAB 使用Customer Journey Analytics (Beta)製作報表]
 
-體驗決策透過提供稱為「決策項目」的集中行銷優惠目錄與複雜的決策引擎來簡化個人化。 
+Journey Optimizer報告功能現在與Customer Journey Analytics功能完全整合，可跨兩個平台標準化報告，並改善資料一致性和可靠性。
 
-![](using/rn/assets/do-not-localize/gif-exd.gif)
+[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
 
-[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/experience-decisioning/gs-experience-decisioning.md)
+>[!TAB AI助理]
 
->[!TAB 全新歷程體驗]
+AI Assistant是使用者介面功能，可用於導覽和瞭解Adobe概念，並取得您特定環境的營運見解。
 
-此版本隨附改善的畫布使用者介面以供歷程使用，同時提供更直覺且有效率的使用者體驗。 活動更清晰明瞭，只需更少的點按次數就能在 Canvas 歷程上呈現更多資訊。
+[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](/help/using/start/ai-assistant.md)
 
-![](using/rn/assets/new-canvas3.gif)
+>[!TAB 內容片段]
 
-[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/new-canvas.md)
+片段現在可以編輯，並可以在使用它們的所有即時歷程和行銷活動中傳播變更。
+
+[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/fragments.md)
 
 >[!ENDTABS]
 
