@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '5371'
 ht-degree: 99%
@@ -114,7 +114,7 @@ ht-degree: 99%
 ## 2023 年 10 月 {#oct-2023}
 
 * 有關 [!DNL Journey Optimizer]2023 年 10 月發行版本所有新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
-* 新增 GIF 以展示一些重要功能，例如：[內容範本](../content-management/content-templates.md)、[片段](../content-management/fragments.md)、[計算屬性](../audience/computed-attributes.md)、[直接郵件](../direct-mail/get-started-direct-mail.md)、[標記](../start/search-filter-categorize.md#tags)、[決策管理最佳化模型](../offers/ranking/personalized-optimization-model.md)、[API 觸發的行銷活動](../campaigns/api-triggered-campaigns.md)和[內容實驗](../campaigns/content-experiment.md)。
+* 新增 GIF 以展示一些重要功能，例如：[內容範本](../content-management/content-templates.md)、[片段](../content-management/fragments.md)、[計算屬性](../audience/computed-attributes.md)、[直接郵件](../direct-mail/get-started-direct-mail.md)、[標記](../start/search-filter-categorize.md#tags)、[決策管理最佳化模型](../offers/ranking/personalized-optimization-model.md)、[API 觸發的行銷活動](../campaigns/api-triggered-campaigns.md)和[內容實驗](../content-management/content-experiment.md)。
 * 已更新結構描述建立流程，以反映使用者介面中隨 Adobe Experience Platform 變更而來的最新更新。 [閱讀全文](../audience/creating-test-profiles.md)
 * 決策管理護欄已新增到「護欄和限制」頁面。 [閱讀全文](../start/guardrails.md#decision-management)
 * 「標頭參數」區段已更新，以反映處理休假通知和質詢回應的方式 (在&#x200B;**[!UICONTROL 錯誤電子郵件]**&#x200B;接收這些通知)。[閱讀全文](../email/email-settings.md#email-header)

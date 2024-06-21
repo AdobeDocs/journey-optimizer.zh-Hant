@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用AI助理進行內容實驗
-description: 使用AI助理進行內容實驗
+title: 使用 AI 助理進行內容實驗
+description: 使用 AI 助理進行內容實驗
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -11,14 +11,14 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 10%
+ht-degree: 22%
 
 ---
 
-# 使用AI助理進行內容實驗 {#generative-experimentation}
+# 使用 AI 助理進行內容實驗 {#generative-experimentation}
 
 >[!BEGINSHADEBOX]
 
@@ -27,8 +27,8 @@ ht-degree: 10%
 * [開始使用 AI 助理](gs-generative.md)
 * [使用 AI 助理產生電子郵件](generative-email.md)
 * [使用 AI 助理產生簡訊](generative-sms.md)
-* [使用AI助理產生推播](generative-push.md)
-* 使用AI助理進行內容實驗
+* [使用 AI 助理推播產生](generative-push.md)
+* 使用 AI 助理進行內容實驗
 
 >[!ENDSHADEBOX]
 
@@ -52,11 +52,11 @@ ht-degree: 10%
 
    ![](assets/experiment-genai-3.png)
 
-1. 從您的內容實驗視窗，存取 **[!UICONTROL 實驗設定]** 按鈕以設定您的實驗。 [進一步瞭解內容實驗](../campaigns/content-experiment.md)
+1. 從您的內容實驗視窗，存取 **[!UICONTROL 實驗設定]** 按鈕以設定您的實驗。 [進一步瞭解內容實驗](../content-management/content-experiment.md)
 
    ![](assets/experiment-genai-4.png)
 
-1. 當您的內容實驗準備就緒時，您可以從行銷活動摘要頁面按一下 **[!UICONTROL 檢閱以啟動]** 以顯示行銷活動的摘要。 如果有任何引數不正確或遺失，則會顯示警報。 [了解更多](../campaigns/content-experiment.md#treatment-experiment)
+1. 當您的內容實驗準備就緒時，您可以從行銷活動摘要頁面按一下 **[!UICONTROL 檢閱以啟動]** 以顯示行銷活動的摘要。 如果有任何引數不正確或遺失，則會顯示警報。 [了解更多](../content-management/content-experiment.md#treatment-experiment)
 
 1. 在啟動行銷活動之前，請仔細檢查所有設定是否正確，然後按一下 **[!UICONTROL 啟動]**.
 

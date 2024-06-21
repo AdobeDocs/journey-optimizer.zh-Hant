@@ -6,7 +6,7 @@ feature: In App
 level: Intermediate
 keywords: 應用程式內、訊息、設定、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 07c453366280b21f5546322430a90752fd996099
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 9%
@@ -131,7 +131,7 @@ ht-degree: 9%
 
 換言之，在設定實驗報告時，如果您新增的資料集未出現在網頁資料流中，則網頁資料不會顯示在內容實驗報告中。
 
-瞭解如何在中新增內容實驗報告的資料集 [本節](../campaigns/reporting-configuration.md#add-datasets).
+瞭解如何在中新增內容實驗報告的資料集 [本節](../content-management/reporting-configuration.md#add-datasets).
 
 >[!NOTE]
 >

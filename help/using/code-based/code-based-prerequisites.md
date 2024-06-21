@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 07c453366280b21f5546322430a90752fd996099
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 2%
@@ -67,7 +67,7 @@ ht-degree: 2%
 
 換言之，在設定實驗報告時，如果您新增的應用程式資料流中不存在的資料集，應用程式資料將不會顯示在內容實驗報告中。
 
-瞭解如何在中新增內容實驗報告的資料集 [本節](../campaigns/reporting-configuration.md#add-datasets).
+瞭解如何在中新增內容實驗報告的資料集 [本節](../content-management/reporting-configuration.md#add-datasets).
 
 >[!NOTE]
 >

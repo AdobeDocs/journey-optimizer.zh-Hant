@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '940'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="建立文字訊息。"
->abstract="若要建立簡訊(SMS/MMS)，請在歷程或行銷活動中新增SMS動作，並開始使用個人化編輯器進行個人化。"
+>abstract="若要建立文字簡訊 (SMS/SMS)，請在歷程或活動中新增 SMS 動作，然後開始使用個人化編輯器對其進行個人化設定。"
 
 您可以使用Adobe Journey Optimizer設計和傳送文字(SMS)和多媒體(MMS)訊息。 您首先需要在歷程或行銷活動中新增SMS動作，然後定義文字訊息的內容，如下所述。 Adobe Journey Optimizer也提供在傳送文字訊息前先測試訊息的功能，讓您可檢查轉譯、個人化屬性和所有其他設定。
 
@@ -69,7 +69,7 @@ ht-degree: 2%
 
    ![](assets/sms_create_5.png)
 
-1. 按一下 **[!UICONTROL 建立實驗]** 開始設定內容實驗並建立處理方式，以測量其效能並識別目標對象的最佳選項。 [了解更多](../campaigns/content-experiment.md)
+1. 按一下 **[!UICONTROL 建立實驗]** 開始設定內容實驗並建立處理方式，以測量其效能並識別目標對象的最佳選項。 [了解更多](../content-management/content-experiment.md)
 
 1. 在 **[!UICONTROL 動作追蹤]** 區段，指定您是否想要追蹤SMS訊息中連結的點按。
 
@@ -86,12 +86,12 @@ ht-degree: 2%
 
 >[!ENDTABS]
 
-## 定義您的簡訊內容{#sms-content}
+## 定義您的文字簡訊內容{#sms-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
->title="定義您的簡訊內容"
->abstract="使用個人化編輯器來定義內容並合併動態元素，以自訂及個人化您的文字訊息（簡訊/多媒體簡訊）。"
+>title="定義您的文字簡訊內容"
+>abstract="透過使用個人化編輯器定義內容並結合動態元素，自訂與個人化文字簡訊 (SMS/MMS)。"
 
 若要設定簡訊內容，請遵循下列步驟。 有關MMS設定的詳情，請參閱 [本節](#mms-content).
 
@@ -109,7 +109,7 @@ ht-degree: 2%
 
    >[!CAUTION]
    >
-   > 若要存取及編輯SMS子網域，您必須擁有 **[!UICONTROL 管理SMS子網域]** 生產沙箱的許可權。 進一步瞭解中的許可權 [本節](../administration/high-low-permissions.md).
+   > 若要存取及編輯SMS子網域，您必須擁有 **[!UICONTROL 管理SMS子網域]** 生產沙箱的許可權。 若要了解權限的詳細資訊，請參閱[本章節](../administration/high-low-permissions.md)。
 
    ![](assets/sms_tracking_1.png)
 
@@ -155,7 +155,7 @@ ht-degree: 2%
 
 執行測試並驗證內容後，您就可以傳送簡訊給對象。 這些步驟詳見 [此頁面](send-sms.md)
 
-傳送後，您可以在行銷活動或歷程報告中測量簡訊的影響。 如需報告的詳細資訊，請參閱 [本節](../reports/campaign-global-report.md#sms-tab).
+傳送後，您可以在行銷活動或歷程報告中測量簡訊的影響。 如需報告的詳細資訊，請參閱[本區段](../reports/campaign-global-report.md#sms-tab)。
 
 **相關主題**
 

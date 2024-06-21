@@ -5,11 +5,11 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-badge: label="可用性限制"
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+badge: label="限量版"
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 5%
 
 1. 建立行銷活動並選取 **[!UICONTROL 程式碼型體驗]** 動作。 [了解更多](../code-based/create-code-based.md)
 
-1. 從行銷活動摘要頁面，按一下 **[!UICONTROL 建立實驗]** 以開始設定您的內容實驗。 [了解更多](../campaigns/content-experiment.md)
+1. 從行銷活動摘要頁面，按一下 **[!UICONTROL 建立實驗]** 以開始設定您的內容實驗。 [了解更多](../content-management/content-experiment.md)
 
 1. 選取 **[!UICONTROL 決定]** 圖示，按一下 **[!UICONTROL 建立決定]** 並填寫決定詳細資訊。 [了解更多](create-decision.md)
 
@@ -50,7 +50,7 @@ ht-degree: 5%
 
 1. 為您的決定定義選取策略。 按一下 **[!UICONTROL 新增策略]**.
 
-1. 按一下 **[!UICONTROL 建立]**. 新決定新增到 **[!UICONTROL 決定]**.
+1. 按一下 **[!UICONTROL 建立]**。新決定新增到 **[!UICONTROL 決定]**.
 
    ![](assets/decision-code-based-decision-added.png)
 

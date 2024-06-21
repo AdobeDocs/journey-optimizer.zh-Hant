@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 5%
@@ -76,7 +76,7 @@ ht-degree: 5%
 
 1. 在 **[!UICONTROL 動作]** 功能表，您可以找到先前設定為 **[!UICONTROL 應用程式表面]**. 如有需要，您可以在此處進行變更，或按一下以更新規則 **[!UICONTROL 編輯規則]**.
 
-1. 按一下 **[!UICONTROL 建立實驗]** 開始設定內容實驗並建立處理方式，以測量其效能並識別目標對象的最佳選項。 [了解更多](../campaigns/content-experiment.md)
+1. 按一下 **[!UICONTROL 建立實驗]** 開始設定內容實驗並建立處理方式，以測量其效能並識別目標對象的最佳選項。 [了解更多](../content-management/content-experiment.md)
 
 1. 按一下 **[!UICONTROL 編輯觸發程式]** 以選擇將觸發訊息的事件和條件。 規則產生器可讓使用者指定條件和值，在符合條件時會觸發一組動作，例如傳送應用程式內訊息。
 
@@ -84,7 +84,7 @@ ht-degree: 5%
 
       +++請參閱可用的觸發器。
 
-      | 封裝 | 觸發 | 定義 |
+      | 套件 | 觸發 | 定義 |
       |---|---|---|
       | 平台 | 已將資料傳送至Platform | 在行動應用程式發出邊緣體驗事件以將資料傳送至Adobe Experience Platform時觸發。 通常是API呼叫 [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) 從AEP Edge擴充功能。 |
       | 手動 | 手動觸發 | 兩個相關聯的資料元素：索引鍵（定義資料集的常數，例如，性別、顏色、價格）和值（屬於資料集的變數，例如，男性/女性、綠色、100）。 |
@@ -101,7 +101,7 @@ ht-degree: 5%
 
       +++檢視可用的特徵。
 
-      | 封裝 | 特徵 | 定義 |
+      | 套件 | 特徵 | 定義 |
       |---|---|---|
       | 平台 | XDM事件型別 | 當符合指定的事件型別時觸發。 |
       | 平台 | XDM值 | 當符合指定的XDM值時觸發。 |

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1848'
 ht-degree: 98%
 
 ---
@@ -174,13 +174,6 @@ ht-degree: 98%
    + [建立行銷活動](using/campaigns/create-campaign.md)
    + [檢閱及啟動行銷活動](using/campaigns/review-activate-campaign.md)
    + [管理行銷活動](using/campaigns/modify-stop-campaign.md)
-   + 內容實驗 {#content-experiment}
-      + [開始使用內容實驗](using/campaigns/get-started-experiment.md)
-      + [建立內容實驗](using/campaigns/content-experiment.md)
-      + [設定實驗報告](using/campaigns/reporting-configuration.md)
-      + 技術備忘稿 {#technotes}
-         + [了解統計計算](using/campaigns/experiment-calculations.md)
-         + [了解實驗報告中的統計計算](using/campaigns/experiment-report-calculations.md)
    + [利用 API 觸發行銷活動](using/campaigns/api-triggered-campaigns.md)
 + 電子郵件頻道 {#email}
    + [開始使用電子郵件](using/email/get-started-email.md)
@@ -283,6 +276,13 @@ ht-degree: 98%
       + [開始使用多語言內容](using/content-management/multilingual-gs.md)
       + [使用手動翻譯建立多語言內容](using/content-management/multilingual-manual.md)
       + [使用自動化翻譯建立多語言內容](using/content-management/multilingual-automated.md)
+   + 使用內容實驗 {#content-experiment}
+      + [開始使用內容實驗](using/content-management/get-started-experiment.md)
+      + [建立內容實驗](using/content-management/content-experiment.md)
+      + [設定實驗報告](using/content-management/reporting-configuration.md)
+      + 技術備忘稿 {#technotes}
+         + [了解統計計算](using/content-management/experiment-calculations.md)
+         + [了解實驗報告中的統計計算](using/content-management/experiment-report-calculations.md)
    + 資產/影像 {#assets-images}
       + [使用 Experience Manager Assets](using/content-management/assets.md)
       + [使用 Adobe Stock](using/content-management/stock.md)

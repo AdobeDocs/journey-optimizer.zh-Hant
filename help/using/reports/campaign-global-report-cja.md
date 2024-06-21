@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '4251'
 ht-degree: 2%
@@ -134,7 +135,7 @@ KPI會因行銷活動中使用的管道而有所不同。
 
 * **[!UICONTROL 提升度]**：測量指定處理的轉換率相對於基線的增進百分比。
 
-* **[!UICONTROL 信賴度]**：指定處理與基線處理相同的證據。 [了解更多](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL 信賴度]**：指定處理與基線處理相同的證據。 [了解更多](../content-management/experiment-calculations.md#understand-confidence)
 
 +++
 
@@ -143,7 +144,7 @@ KPI會因行銷活動中使用的管道而有所不同。
 ![](assets/cja-experimentation-variants.png)
 
 此 **[!UICONTROL 依傳入點按次數區分的變體]** widget詳細說明每個變體的效能。
-如需這些結果的深入瞭解以及如何解讀，請參閱 [此頁面](../campaigns/get-started-experiment.md#interpret-results).
+如需這些結果的深入瞭解以及如何解讀，請參閱 [此頁面](../content-management/get-started-experiment.md#interpret-results).
 
 +++ 進一步瞭解依據傳入點按量度的變體
 
@@ -155,7 +156,7 @@ KPI會因行銷活動中使用的管道而有所不同。
 
 * **[!UICONTROL 提升度]**：測量指定處理的轉換率相對於基線的增進百分比。
 
-* **[!UICONTROL 信賴度]**：指定處理與基線處理相同的證據。 [了解更多](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL 信賴度]**：指定處理與基線處理相同的證據。 [了解更多](../content-management/experiment-calculations.md#understand-confidence)
 
 <!--
 * **[!UICONTROL Confidence Upper bound]**:
@@ -167,7 +168,7 @@ KPI會因行銷活動中使用的管道而有所不同。
 
 ![](assets/cja-experimentation-conversion.png)
 
-此 **[!UICONTROL 信賴區間]** 圖表會測量改善的不確定性。 它詳細說明基準線和最佳執行處理之間的效能百分比差異。 [了解更多](../campaigns/experiment-calculations.md#confidence-intervals)。
+此 **[!UICONTROL 信賴區間]** 圖表會測量改善的不確定性。 它詳細說明基準線和最佳執行處理之間的效能百分比差異。 [了解更多](../content-management/experiment-calculations.md#confidence-intervals)。
 
 ## 電子郵件 {#email-global}
 
@@ -784,4 +785,3 @@ KPI會因行銷活動中使用的管道而有所不同。
 * **[!UICONTROL 不重複顯示]**：訊息的開啟次數，一個設定檔的多個互動不會考慮在內。
 
 +++
-
