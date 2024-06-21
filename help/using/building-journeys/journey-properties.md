@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 歷程，設定，屬性
-source-git-commit: 67032a4bcbfd56552d783f3ef78593375bfcc378
+exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
+source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1726'
 ht-degree: 8%
 
 ---
@@ -50,7 +51,23 @@ ht-degree: 8%
 
 ## 進入和重新進入 {#entrance}
 
+### 允許重新進入  {#allow-re-entrance}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_entrance"
+>title="允許重新進入"
+>abstract="依預設，新歷程允許重新進入。 您可以取消勾選 **允許重新進入** 「單次」歷程的選項，例如，如果您想在某人進入商店時提供一次性禮物。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="設定檔入口管理"
+
 依預設，新歷程允許重新進入。 您可以取消勾選 **允許重新進入** 「單次」歷程的選項，例如，如果您想在某人進入商店時提供一次性禮物。
+
+### 重新進入等待期  {#re-entrance-wait}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_re-entrance_wait"
+>title="重新進入等待期"
+>abstract=" 設定允許設定檔在單一歷程中再次進入歷程之前的等待時間。 這可防止使用者在選定的期間內重新進入歷程。 持續時間上限：29天。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="設定檔入口管理"
 
 當 **允許重新進入** 選項已啟用， **重新進入等待期** 欄位。 此欄位可讓您定義在允許設定檔在單一歷程中再次進入歷程 (從事件或對象資格開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 持續時間上限為29天。
 
@@ -70,6 +87,17 @@ ht-degree: 8%
 
 ## 開始和結束日期 {#dates}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_start_date"
+>title="開始日期"
+>abstract="選擇專案可以開始進入歷程的日期。 如果未指定開始日期，則會在發佈時自動設定。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_end_date"
+>title="結束日期"
+>abstract="選擇歷程的結束日期。 達到該日期時，該歷程中的設定檔會自動退出，且新的設定檔無法再進入。"
+
 您可以定義 **開始日期**. 如果您尚未指定，則會在發佈時自動定義。
 
 您也可以新增 **結束日期**. 這可讓設定檔在達到日期時自動退出。 如果未指定結束日期，則設定檔可保留至 [全域歷程逾時](#global_timeout) （通常為91天，若使用Healthcare Shield附加產品，縮短為7天）。 唯一的例外是循環讀取受眾歷程，具有 **在重複時強制重新進入** 已啟用，在下一次事件的開始日期結束。
@@ -77,6 +105,12 @@ ht-degree: 8%
 ## 逾時 {#timeout}
 
 ### 歷程活動逾時或錯誤 {#timeout_and_error}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_timout"
+>title="逾時"
+>abstract="定義歷程嘗試執行動作或驗證條件的時間長度，之後視為逾時。"
+
 
 編輯動作或條件活動時，您可以定義替代路徑，以防錯誤或逾時。 如果處理詢問協力廠商系統的活動超過中定義的逾時期間。 **[!UICONTROL 逾時或錯誤]** 歷程屬性的欄位中，將選擇第二個路徑來執行潛在的遞補動作。
 
@@ -221,4 +255,3 @@ Journey在從Adobe Experience Platform擷取設定檔資料時使用合併原則
 歷程將遵循在整個歷程中使用的合併原則。 因此，如果歷程中使用多個對象（例如：「inAudience」函式中），導致歷程使用的合併原則不一致，則會引發錯誤並封鎖發佈。 不過，如果在訊息個人化中使用不一致的對象，則儘管不一致，仍不會引發警報。 因此，強烈建議您在訊息個人化使用此對象時，檢查與對象相關聯的合併原則。
 
 若要深入瞭解合併原則，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
-

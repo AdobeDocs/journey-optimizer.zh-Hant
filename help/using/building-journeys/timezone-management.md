@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 keywords: 時區，屬性，歷程，條件，時間，日期，自訂
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 2%
+source-wordcount: '361'
+ht-degree: 1%
 
 ---
 
 # 時區管理 {#timezone_management}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_time_zone"
+>title="時區"
+>abstract="選取歷程的時區。 使用固定時區時，所有進入歷程的個人都使用相同的時區。"
+
 
 您可在以下位置定義時區： [屬性](../building-journeys/journey-properties.md#timezone) 您歷程的。
 
@@ -36,13 +42,18 @@ ht-degree: 2%
 
 ## 定義固定時區 {#fixed-timezone}
 
-時區也可以固定。 清除預先定義的時區，並從下拉式清單中選取一個時區。 如果您使用固定時區，則所有進入歷程的個人都將使用相同的時區。
+時區可以固定。 清除預先定義的時區，並從下拉式清單中選取一個時區。 如果您使用固定時區，則所有進入歷程的個人都將使用相同的時區。
 
 若要這麼做，請在 **[!UICONTROL 歷程屬性]** 窗格，選取時區。
 
 ![](assets/journey72.png)
 
-## 使用設定檔來定義歷程時區 {#timezone-from-profiles}
+## 使用設定檔時區 {#timezone-from-profiles}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_profile_time_zone"
+>title="使用設定檔時區"
+>abstract="核取方塊以在等待和條件活動中使用即時設定檔時區。 如果為設定檔定義了時區，則會擷取該時區並由歷程使用。 如果沒有，時區將會是上方時區欄位中定義的時區。"
 
 如果歷程的進入事件具有名稱空間，這表示歷程可以存取Adobe Experience Platform的即時客戶設定檔服務，您可能會想要使用設定檔層級定義的時區。 若要這麼做，在 **屬性**，檢查 **在等待和條件中使用設定檔時區**. 預設不會勾選此選項。
 
