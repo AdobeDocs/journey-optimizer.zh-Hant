@@ -8,29 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
-hide: true
-hidefromtoc: true
 exl-id: 662681ad-5044-4025-aff1-204626fee052
-badge: label="Beta" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 16%
+source-wordcount: '191'
+ht-degree: 5%
 
 ---
 
 # 多語言行銷活動報告 {#multilingual-campaign-report}
-
->[!BEGINSHADEBOX]
-
-**目錄**
-
-* [開始使用多語言內容](multilingual-gs.md)
-* [使用手動翻譯建立多語言內容](multilingual-manual.md)
-* [使用自動化翻譯建立多語言內容](multilingual-automated.md)
-* 多語言行銷活動報告
-
->[!ENDSHADEBOX]
 
 全域報告，可從存取 **所有時間** 標籤，顯示至少兩小時前發生的事件，以及所選時段內的封面事件。 行銷活動全域報告可透過以下直接從行銷活動存取： **[!UICONTROL 檢視報告]** 按鈕。
 

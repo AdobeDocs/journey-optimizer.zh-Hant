@@ -8,31 +8,22 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
-hide: true
-hidefromtoc: true
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-badge: label="Beta" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+badge: label="可用性限制" type="Informative"
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 6%
+source-wordcount: '615'
+ht-degree: 4%
 
 ---
 
 # 使用手動翻譯建立多語言內容 {#multilingual-manual}
 
->[!BEGINSHADEBOX]
+>[!AVAILABILITY]
+>
+>多語言內容目前僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。
 
-**目錄**
-
-* [開始使用多語言內容](multilingual-gs.md)
-* 使用手動翻譯建立多語言內容
-* [使用自動化翻譯建立多語言內容](multilingual-automated.md)
-* [多語言行銷活動報告](multilingual-report.md)
-
->[!ENDSHADEBOX]
-
-使用手動流程，您可以輕鬆地直接在電子郵件、推播通知或簡訊行銷活動中翻譯內容，為您提供多語言訊息的精確控制和自訂選項。 此外，您可以使用「匯入HTML」選項輕鬆匯入預先存在的多語言內容。
+使用手動流程，您可以輕鬆地直接在電子郵件、推播通知或簡訊行銷活動和歷程中翻譯您的內容，為您提供多語言訊息的精確控制和自訂選項。 此外，您可以使用「匯入HTML」選項輕鬆匯入預先存在的多語言內容。
 
 請依照下列步驟，使用手動翻譯建立多語言內容：
 
@@ -40,15 +31,13 @@ ht-degree: 6%
 
 1. [建立語言設定](#create-language-settings).
 
-1. [建立多語言行銷活動](#create-a-multilingual-campaign).
+1. [建立多語言內容](#create-a-multilingual-campaign).
 
 ## 建立地區設定 {#create-locale}
 
 設定語言設定時，如 [建立您的語言設定](#language-settings) 區段，如果特定地區設定無法供多語言內容使用，您就可以彈性地使用 **[!UICONTROL 翻譯]** 功能表。
 
-1. 從 **[!UICONTROL 管理]** 功能表，存取 **[!UICONTROL 頻道]**.
-
-   翻譯功能表可讓您存取已啟動地區設定的清單。
+1. 從 **[!UICONTROL 內容管理]** 功能表，存取 **[!UICONTROL 翻譯]**.
 
 1. 從 **[!UICONTROL 地區設定字典]** 標籤，按一下 **[!UICONTROL 新增地區設定]**.
 
@@ -104,15 +93,15 @@ ht-degree: 6%
 1. Select your **[!UICONTROL Locales dictionary]** and add as many as needed.
 -->
 
-## 建立多語言行銷活動 {#create-multilingual-campaign}
+## 建立多語言內容 {#create-multilingual-campaign}
 
-設定好多語言內容後，您就可以著手製作行銷活動，並針對每個選取的地區設定自訂內容。
+設定好多語言內容後，您就可以著手製作行銷活動或歷程，並針對每個選取的地區設定自訂內容。
 
-1. 首先，根據您的要求建立和設定您的電子郵件、簡訊或推播通知行銷活動。 [了解更多](../campaigns/create-campaign.md)
+1. 從建立和設定您的電子郵件、簡訊或推播通知開始 [行銷活動](../campaigns/create-campaign.md) 或 [歷程](../building-journeys/journeys-message.md) 根據您的需求。
 
-1. 導覽至 **[!UICONTROL 動作]** 功能表，然後選取 **[!UICONTROL 編輯內容]**.
-
-   ![](assets/multilingual-campaign-1.png)
+   >[!AVAILABILITY]
+   >
+   >我們建議每個歷程僅包含一個翻譯專案。
 
 1. 建立或匯入原始內容，並視需要加以個人化。
 
@@ -148,11 +137,7 @@ ht-degree: 6%
 
    ![](assets/multilingual-campaign-8.png)
 
-1. 檢查您的行銷活動是否已正確設定，然後按一下 **[!UICONTROL 啟動]**.
-
-您的行銷活動現在已啟用。 行銷活動中設定的訊息會立即傳送，或於指定日期傳送。 請注意，您的行銷活動一旦上線，就無法修改。 若要重複使用內容，您可以複製Campaign。
-
-傳送後，您可以在行銷活動報表中測量行銷活動的影響。
+您現在可以啟動行銷活動或歷程。 傳送後，您可以在報表中測量多語言歷程或行銷活動的影響。
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}
