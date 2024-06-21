@@ -1,5 +1,5 @@
 ---
-title: 將限制新增至優惠方案
+title: 在優惠中新增限制
 description: 瞭解如何定義優惠方案顯示的條件
 feature: Decision Management
 topic: Integrations
@@ -9,31 +9,31 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
 source-wordcount: '2636'
-ht-degree: 3%
+ht-degree: 16%
 
 ---
 
-# 將限制新增至優惠方案 {#add-constraints}
+# 在優惠中新增限制 {#add-constraints}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
->title="關於優惠方案限制"
->abstract="透過限制，您可以指定與其他優惠方案相比，如何排定優惠方案的優先順序並向使用者顯示。"
+>title="關於優惠限制"
+>abstract="透過限制，您可以指定與其他優惠相比，如何確定優惠的優先順序並呈現給使用者。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_constraints"
->title="關於優惠方案限制"
->abstract="透過限制，您可以指定與其他優惠方案相比，如何排定優惠方案的優先順序並向使用者顯示。"
+>title="關於優惠限制"
+>abstract="透過限制，您可以指定與其他優惠相比，如何確定優惠的優先順序並呈現給使用者。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
 >title="關於優惠優先順序"
->abstract="在此欄位中，您可以指定優惠方案的優先順序設定。 優先順序是用來排名符合所有限制（例如適用性、日期和上限）的優惠方案的數字。"
+>abstract="在此欄位中，您可以指定優惠的優先順序設定。優先順序是一個數字，用於對滿足所有限制 (例如資格、日期和上限) 的優惠進行排名。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
 >title="設定優先順序"
->abstract="如果使用者符合多個優惠方案的資格，優先順序有助於定義優惠方案相對於其他優惠方案的優先順序。 優惠方案的優先順序越高，與其他優惠方案相比，其優先順序也越高。"
+>abstract="如果使用者符合資格可獲得多個優惠，則優先順序有助於定義優惠相較於其他優惠的優先順序。優惠的優先順序越高，相較於其他優惠的優先順序就越高。"
 
 限制可讓您定義優惠的顯示條件。
 
@@ -41,7 +41,7 @@ ht-degree: 3%
 
    ![](../assets/offer-eligibility.png)
 
-1. 定義 **[!UICONTROL 優先順序]** 相較於其他優惠方案（如果使用者符合多個優惠方案的資格）。 優惠方案的優先順序越高，與其他優惠方案相比，其優先順序也越高。
+1. 定義 **[!UICONTROL 優先順序]** 相較於其他優惠方案（如果使用者符合多個優惠方案的資格）。 優惠的優先順序越高，相較於其他優惠的優先順序就越高。
 
    ![](../assets/offer-priority.png)
 
@@ -63,23 +63,23 @@ ht-degree: 3%
 * 優惠方案的優先順序設為「50」，這表示將會在優先順序介於1到49的優惠方案之前以及優先順序至少為51的優惠方案之後顯示優惠方案。
 * 每個使用者在所有位置每月只會顯示一次選件。
 
-## 資格 {#eligibility}
+## 適用性 {#eligibility}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="定義資格"
->abstract="依預設，任何設定檔都符合呈現優惠的資格，但您可以使用對象或決定規則將優惠限製為特定設定檔。"
+>abstract="依預設，任何設定檔都有資格獲得優惠，但您可以使用對象或決定規則將優惠限制給特定設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
 >title="關於優惠資格"
->abstract="在此區段中，您可以使用決定規則來判斷哪些使用者符合優惠方案的資格。"
+>abstract="在此部分，您可以使用決定規則來確定哪些使用者有資格獲得優惠。"
 >additional-url="https://video.tv.adobe.com/v/329373" text="觀看示範影片"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
->title="設定檔總預估值"
->abstract="當您選取對象或決定規則時，您可以看到有關預估的合格設定檔的資訊。"
+>title="總設定檔估計值"
+>abstract="當您選取對象或決定規則時，您可以看到有關預估合格設定檔的資訊。"
 
 此 **[!UICONTROL 優惠資格]** 區段可讓您將優惠限制在您使用對象或決定規則定義的特定設定檔中。
 
@@ -131,18 +131,18 @@ ht-degree: 3%
 
   進一步瞭解中的決定規則 [本節](creating-decision-rules.md).
 
-## 上限 {#capping}
+## 頻率限定 {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
->title="關於優惠方案上限"
->abstract="在此欄位中，您可以指定可顯示優惠的次數。"
+>title="關於優惠上限"
+>abstract="在此欄位中，您可以指定優惠可以呈現的次數。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="使用上限"
->abstract="為避免過度向客戶提供請求，請使用上限來定義可顯示優惠的最大次數。 您最多可以為特定選件建立10個上限規則。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="變更日期可能會影響上限"
+>abstract="為避免過度招攬客戶，請使用上限來定義優惠的呈現次數上限。您可以為指定優惠建立最多 10 個上限規則。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="變更日期會影響上限"
 
 上限會用作限制，以定義可顯示優惠方案的次數上限。 限制使用者取得特定優惠方案的次數，可讓您避免過度向客戶提供需求，進而使用最佳優惠方案將每個接觸點最佳化。
 
@@ -172,12 +172,12 @@ ht-degree: 3%
 >
 >優惠到期時或優惠方案開始日期後2年（以先到者為準）時，上限計數器會重設。 瞭解如何在中定義優惠方案的日期 [本節](creating-personalized-offers.md#create-offer).
 
-### 上限事件 {#capping-event}
+### 頻率限定事件 {#capping-event}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping_impression"
 >title="曝光"
->abstract="將曝光作為上限事件僅適用於傳入頻道。"
+>abstract="使用曝光數做為上限事件僅適用於傳入管道。"
 
 此 **[!UICONTROL 選擇上限事件]** 欄位可讓您定義要考慮哪個事件以增加計數器：
 
@@ -246,7 +246,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="設定上限頻率"
->abstract="您可以選擇每日、每週或每月重設優惠方案上限計數器。 請注意，在啟用頻率上限的情況下發佈優惠方案後，您將無法變更已定義的頻率。"
+>abstract="您可以選擇每天、每週或每月重設優惠上限計數器。請注意，啟用頻率限定並發佈優惠後，您將無法變更已定義的頻率。"
 
 此 **[!UICONTROL 重設上限頻率]** 欄位可讓您定義上限計數的重設頻率。 若要這麼做，請定義盤點的期間（每日、每週或每月），並輸入您選擇的天數/周數/月數。 例如，如果您希望每兩週重設一次上限計數，請選取 **[!UICONTROL 每週]** 從對應的下拉式清單及型別 **2** 在另一個欄位中。
 
@@ -287,12 +287,12 @@ ht-degree: 3%
 
   例如，如果選件具有 **電子郵件** 位置和 **Web** 位置，並將上限設定在 **每個位置每個設定檔2個**，則每個設定檔最多可收到電子郵件版2次選件，以及額外的2次網路版。
 
-### 變更日期對上限的影響 {#capping-change-date}
+### 變更日期對頻率限定的影響 {#capping-change-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="變更日期可能會影響上限"
->abstract="如果將此優惠套用上限，當您變更開始或結束日期時，可能會受到影響。"
+>title="變更日期會影響上限"
+>abstract="如果將上限套用到此優惠，則當您變更開始或結束日期時，它可能會受到影響。"
 
 變更優惠方案的日期時，您必須謹慎進行，因為如果符合以下條件，這可能會對上限產生影響：
 
