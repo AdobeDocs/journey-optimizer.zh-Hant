@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 522f1815ae6de33f9e0a7ea598d52c8e88d2ff0d
+source-git-commit: eedefbe48e209d6b5aa3ec60527d9e34ced54644
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 64%
+source-wordcount: '794'
+ht-degree: 61%
 
 ---
 
@@ -200,9 +200,9 @@ ht-degree: 64%
 
 * 在Adobe Journey Optimizer中建立行銷活動時，您現在可以在新強制回應視窗中選擇行銷活動型別（已排程或觸發）。 [閱讀全文](../campaigns/create-campaign.md)
 
-<!--**Email channel**
+**電子郵件頻道**
 
-* **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)-->
+* **清單 — 取消訂閱**  — 繼大量寄件者的最新Gmail和Yahoo公告後，Journey Optimizer支援「post/1-click」清單取消訂閱選項。 請參閱下列頁面： [電子郵件選擇退出管理](../email/email-opt-out.md#unsubscribe-header) 和 [設定電子郵件設定](../email/email-settings.md#list-unsubscribe).
 
 
 **簡訊頻道**
