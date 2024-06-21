@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 登陸、登陸頁面、使用案例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '979'
 ht-degree: 12%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 12%
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 
-## 選擇退出 {#opt-out}
+## 選擇退出登陸頁面 {#opt-out}
 
 若要讓收件者取消訂閱您的通訊內容，您可以在電子郵件中加入選擇退出登陸頁面的連結。
 
@@ -107,7 +107,7 @@ ht-degree: 12%
 
 ### 設定電子郵件選擇退出 {#configure-opt-out}
 
-若要讓電子郵件的收件者透過登入頁面取消訂閱您的通訊，請遵循下列步驟。
+若要讓電子郵件的收件者透過登入頁面取消訂閱您的通訊，請遵循下列步驟：
 
 1. 建立您的登陸頁面。 [了解更多](create-lp.md)
 
@@ -167,6 +167,12 @@ ht-degree: 12%
 >
 >即使未將任何批次新增至此資料集，它仍會包含選擇加入/選擇退出資訊。
 
+
+
+**另請參閱：**
+
+* [一鍵選擇退出](../email/email-opt-out.md#one-click-opt-out-link)
+* [電子郵件標題中的選擇退出連結](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
 

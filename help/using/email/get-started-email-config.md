@@ -9,8 +9,8 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: 電子郵件、設定、表面、子網域
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
-workflow-type: ht
+source-git-commit: bd5e5e501d557e11fb0c1c71a0f9289f39601348
+workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
    * 可在此處選取要用於傳送電子郵件的子網域，以及要與表面關聯的 IP 集區。[了解更多](email-settings.md#subdomains-and-ip-pools)
 
-   ![](assets/preset-subdomain-ip-pool.png)
+   ![](assets/surface-subdomain-ip-pool.png)
 
    * 此&#x200B;**[!UICONTROL 寄件者電子郵件]**&#x200B;和&#x200B;**[!UICONTROL 錯誤電子郵件]**&#x200B;地址必須使用目前選定的委派子網域。 [了解更多](email-settings.md#email-header)
 

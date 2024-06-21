@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
 workflow-type: tm+mt
-source-wordcount: '2415'
-ht-degree: 1%
+source-wordcount: '2532'
+ht-degree: 10%
 
 ---
 
@@ -26,24 +26,24 @@ ht-degree: 1%
 
 在管道表面設定的專用區段中定義電子郵件設定，如下所述。
 
-![](assets/preset-email-settings.png)
+![](assets/surface-email-settings.png){width="50%" align="left"}
 
 系統會擷取電子郵件表面設定，依照下列邏輯傳送通訊：
 
-* 對於批次歷程，不適用於在製作電子郵件表面設定之前已啟動的批次執行。 下次重複或新的執行時會擷取變更。
+* 對於批次歷程，不適用於在製作電子郵件表面設定之前已啟動的批次執行。 變更會在下次週期或新的執行時擷取。
 
 * 若是交易式訊息，下次通訊時會立即擷取變更（最多延遲5分鐘）。
 
 >[!NOTE]
 >
->更新的電子郵件表面設定將在使用表面的歷程或行銷活動中自動擷取。
+>更新的電子郵件表面設定會在使用表面的歷程或行銷活動中自動擷取。
 
-## 電子郵件型別 {#email-type}
+## 電子郵件類型 {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="定義電子郵件型別"
->abstract="選取使用此介面時將傳送的電子郵件型別：行銷適用於促銷電子郵件（需要使用者同意），或交易適用於非商業電子郵件（也可在特定內容中傳送至已取消訂閱的設定檔）。"
+>title="定義電子郵件類型"
+>abstract="選取使用此表面時將傳送的電子郵件類型：促銷用電子郵件的行銷型 (需要使用者同意)，或非商業電子郵件的交易型 (還可以傳送至特定內容中取消訂閱的設定檔)。"
 
 在 **電子郵件型別** 部分，選取曲面的訊息型別： **[!UICONTROL 行銷]** 或 **[!UICONTROL 異動]**.
 
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 選取要與表面關聯的IP集區。 [了解更多](../configuration/ip-pools.md)
 
-![](assets/preset-subdomain-ip-pool.png){width="50%" align="left"}
+![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
 當選取的IP集區位於下方時，您無法繼續建立表面 [版本](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL 處理中]** 狀態)，且從未與所選子網域建立關聯。 否則，系統仍會使用IP集區/子網域關聯的最舊版本。 如果是這種情況，請將表面儲存為草稿，並在IP池具有 **[!UICONTROL 成功]** 狀態。
 
@@ -81,41 +81,48 @@ ht-degree: 1%
 >
 >如果未設定PTR記錄，請聯絡您的Adobe代表。
 
-## 清單取消訂閱 {#list-unsubscribe}
+## 清單取消訂閱標頭{#list-unsubscribe}
+
+<!--Do not modify - Legal Review Done -->
+
 
 於 [選取子網域](#subdomains-and-ip-pools) 從清單中， **[!UICONTROL 啟用清單取消訂閱]** 選項隨即顯示。
 
-此選項預設為啟用。 如果您將其保留為啟用，則取消訂閱連結會自動包含在電子郵件標題中，例如：
+此選項預設為啟用，在電子郵件標題中加入一鍵式取消訂閱URL，例如：
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-如果停用此選項，則電子郵件標頭不會顯示取消訂閱連結。
+如果停用此選項，一鍵式取消訂閱URL不會顯示在電子郵件標頭中。
 
-您可以從「 」中選擇同意層級 **同意層級** 下拉式清單。 它可特定於通道或設定檔身分。 根據此設定，當使用者使用電子郵件的清單取消訂閱標題連結取消訂閱時，同意會在Adobe Journey Optimizer中以頻道層級或ID層級更新。
+您可以從「 」中選擇同意層級 **[!UICONTROL 同意層級]** 下拉式清單。 它可特定於通道或設定檔身分。 根據此設定，當使用者使用電子郵件標題中的清單取消訂閱URL取消訂閱時，同意會在Adobe Journey Optimizer中以頻道層級或ID層級更新。
 
-取消訂閱連結包含兩個元素：
+List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱URL，如下所述），除非您取消核取其中一項或兩項功能，否則預設會啟用這兩種功能：
 
-* 一個 **取消訂閱電子郵件地址**，所有取消訂閱的請求都會傳送至。
+* A **Mailto （取消訂閱）** 位址，將取消訂閱的請求路由至此的目的地位址，以進行自動處理。
 
-  在 [!DNL Journey Optimizer]，預設為取消訂閱電子郵件地址 **[!UICONTROL Mailto （取消訂閱）]** 頻道介面中顯示的地址，根據 [選取的子網域](#subdomains-and-ip-pools).
+  在Journey Optimizer中，預設為取消訂閱電子郵件地址 **Mailto （取消訂閱）** 頻道介面中顯示的地址，根據您的 [選取的子網域](#subdomains-and-ip-pools).
 
-  ![](assets/preset-list-unsubscribe-mailto.png){width="50%" align="left"}
+  ![](assets/surface-list-unsubscribe-mailto.png){width="50%" align="left"}
 
-* 此 **取消訂閱URL**，此為登陸頁面的URL，一旦取消訂閱，將會重新導向使用者。
 
-  如果您新增 [一鍵退出連結](../privacy/opt-out.md#one-click-opt-out) 對於使用此介面建立的訊息，取消訂閱URL將為一鍵退出連結定義的URL。
+* 此 **一鍵式取消訂閱URL**，根據您在「頻道介面設定」中設定和設定的子網域，預設為按一下選擇我們的URL產生的「清單取消訂閱標題」 。
 
-  ![](assets/preset-list-unsubscribe-opt-out-url.png)
+<!--
+    >[!AVAILABILITY]
+    >
+    >One-click Unsubscribe URL Header will be available in Adobe Journey Optimizer starting June 3, 2024.
+    >
+-->
 
-  >[!NOTE]
-  >
-  >如果您未在訊息內容中新增一鍵退出連結，則不會向使用者顯示登陸頁面。
+此 **[!UICONTROL Mailto （取消訂閱）]** 功能與 **[!UICONTROL 一鍵式取消訂閱URL]** 功能為選用。 如果您不想使用預設產生的一鍵式取消訂閱URL，可以取消核取該功能。 在下列案例中 **[!UICONTROL 選擇退出設定]** 選項已開啟，且 **[!UICONTROL 一鍵式取消訂閱URL]** 如果您新增「 」，「 」功能會取消勾選 [一鍵退出連結](../privacy/opt-out.md#one-click-opt-out) 對於使用此介面建立的訊息，清單取消訂閱標題將挑選您已插入電子郵件內文的一鍵選擇退出連結，並將其用作一鍵取消訂閱URL值。
 
-瞭解更多有關在訊息中新增標題取消訂閱連結的資訊 [本節](../privacy/opt-out.md#unsubscribe-header).
+![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-<!--If you have added one or more dynamic subdomains, URLs will be populated based on the resolved dynamic subdomain. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+>[!NOTE]
+>
+>如果您未在訊息內容中新增一鍵退出連結，且「頻道介面設定」中的預設一鍵取消訂閱URL為取消核取，則不會URL作為「清單取消訂閱」標頭的一部分傳遞至電子郵件標頭。
 
-<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
+瞭解更多有關管理訊息中取消訂閱功能的資訊，請參閱 [本節](../email/email-opt-out.md#unsubscribe-header).
 
 ## 標頭引數 {#email-header}
 
@@ -196,13 +203,13 @@ ht-degree: 1%
 
 如果您在提交電子郵件介面時發生錯誤，表示您輸入之地址的子網域尚未設定MX記錄。 請連絡您的管理員以設定對應的MX記錄，或使用其他具有有效MX記錄設定的位址。
 
-## 傳送至隱藏的電子郵件地址 {#send-to-suppressed-email-addresses}
+## 傳送到禁止的電子郵件地址 {#send-to-suppressed-email-addresses}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_suppressed_addresses"
->title="覆寫隱藏清單優先順序"
->abstract="您可以決定傳送交易式訊息給設定檔，即使其電子郵件地址由於垃圾郵件投訴而位於Adobe Journey Optimizer隱藏清單中亦然。 此選項預設為停用。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=zh-Hant" text="管理隱藏清單"
+>title="覆寫禁止名單優先順序"
+>abstract="即使其電子郵件地址因垃圾郵件投訴而位於 Adobe Journey Optimizer 禁止名單中，您也可以決定傳送交易型訊息到設定檔。此選項預設為停用。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=zh-Hant" text="管理禁止名單"
 
 >[!IMPORTANT]
 >
@@ -231,14 +238,14 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="新增種子清單"
->abstract="選取您選擇的種子清單，以自動將特定內部地址新增到您的對象。 這些種子地址將在傳遞執行時包括在內，並將收到精確的訊息副本以供保證。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單？"
+>abstract="選取您所選的種子清單，以自動向您的對象新增特定的內部地址。這些種子地址將在傳遞執行時包含在內，且為了保證目的將收到一份準確的訊息副本。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hant#use-seed-list" text="什麼是種子清單?"
 
 中的種子清單 [!DNL Journey Optimizer] 可讓您在傳送中自動包含特定的電子郵件種子地址。 [了解更多](../configuration/seed-lists.md)
 
 >[!CAUTION]
 >
->此功能目前僅適用於電子郵件頻道。
+>目前該功能僅適用於電子郵件頻道。
 
 選取與您相關的清單，在 **[!UICONTROL 種子清單]** 區段。 瞭解如何在中建立種子清單 [本節](../configuration/seed-lists.md#create-seed-list).
 
@@ -252,13 +259,13 @@ ht-degree: 1%
 
 瞭解如何在行銷活動或歷程中使用種子清單 [本節](../configuration/seed-lists.md#use-seed-list).
 
-## 電子郵件重試引數 {#email-retry}
+## 電子郵件重試參數 {#email-retry}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
 >title="調整重試時段"
->abstract="當電子郵件傳送因暫時軟退信錯誤而失敗時，會執行3.5天（84小時）的重試。 您可以調整此預設重試時段，以更符合您的需求。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="關於重試"
+>abstract="當電子郵件由於暫時性的軟退信錯誤而傳遞失敗時，將重試 3.5 天 (84 小時)。您可以調整此預設的重試時段以進一步滿足您的需求。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=zh-Hant" text="關於重試"
 
 您可以設定 **電子郵件重試引數**.
 
@@ -274,19 +281,19 @@ ht-degree: 1%
 
 進一步瞭解中的重試 [本節](../configuration/retries.md).
 
-## URL追蹤 {#url-tracking}
+## URL 追蹤 {#url-tracking}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="定義URL追蹤引數"
->abstract="使用此區段可自動將追蹤引數附加至電子郵件內容中顯示的URL。 此功能是選用的。"
+>title="定義 URL 追蹤參數"
+>abstract="使用此區段以將追蹤參數自動附加到電子郵件內容中的 URL。此功能為選用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
->title="預覽URL追蹤引數"
->abstract="檢閱如何將追蹤引數附加到電子郵件內容中顯示的URL。"
+>title="預覽 URL 追蹤參數"
+>abstract="重新探討要如何將追蹤參數附加到電子郵件內容中出現的 URL。"
 
-您可以使用 **[!UICONTROL URL追蹤引數]** 評估各管道行銷的成效。 此功能是選用的。
+您可以使用 **[!UICONTROL URL追蹤引數]** 評估各管道行銷的成效。 此功能為選用。
 
 此區段中定義的引數將會附加至您的電子郵件內容中所包含的URL結尾。 接著，您就可以在Adobe Analytics或Google Analytics等網站分析工具中擷取這些引數，並建立各種效能報表。
 
