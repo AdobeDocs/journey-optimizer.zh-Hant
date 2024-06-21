@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
+source-git-commit: 87fa5875dfdbae091b36129812948362324f2516
 workflow-type: tm+mt
-source-wordcount: '1726'
+source-wordcount: '1722'
 ht-degree: 8%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="允許重新進入"
->abstract="依預設，新歷程允許重新進入。 您可以取消勾選 **允許重新進入** 「單次」歷程的選項，例如，如果您想在某人進入商店時提供一次性禮物。"
+>abstract="依預設，新歷程允許重新進入。 您可以取消勾選 **允許重新進入** 選項，例如，如果要在人員進入商店時提供一次性贈品。"
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="設定檔入口管理"
 
 依預設，新歷程允許重新進入。 您可以取消勾選 **允許重新進入** 「單次」歷程的選項，例如，如果您想在某人進入商店時提供一次性禮物。
@@ -107,7 +107,7 @@ ht-degree: 8%
 ### 歷程活動逾時或錯誤 {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_timout"
+>id="ajo_journey_properties_timeout"
 >title="逾時"
 >abstract="定義歷程嘗試執行動作或驗證條件的時間長度，之後視為逾時。"
 
