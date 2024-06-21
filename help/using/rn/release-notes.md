@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: 522f1815ae6de33f9e0a7ea598d52c8e88d2ff0d
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 63%
+source-wordcount: '760'
+ht-degree: 64%
 
 ---
 
@@ -222,4 +222,4 @@ ht-degree: 63%
 
 **直接郵件頻道**
 
-* 已購買Adobe的組織現在可使用直接郵件頻道 **Health Shield** 和 **隱私權與安全防護板** 附加方案。
+* 直接郵件通道現在可供所有客戶使用。 [閱讀全文](../direct-mail/get-started-direct-mail.md)
