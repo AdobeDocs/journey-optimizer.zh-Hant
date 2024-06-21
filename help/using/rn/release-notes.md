@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: eedefbe48e209d6b5aa3ec60527d9e34ced54644
+source-git-commit: b19bc2774a55df656a0652e6a148873787051c93
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 61%
+source-wordcount: '964'
+ht-degree: 58%
 
 ---
 
@@ -106,38 +106,38 @@ ht-degree: 61%
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Multilingual messages in journeys and campaigns (Limited Availability)</strong><br/></th>
+<th><strong>歷程與行銷活動中的多語言訊息（可用性限制）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now effortlessly create content in multiple languages within a single campaign or journey. With this feature, you can switch between languages when editing your campaign or your journey, streamlining the entire editing process and improving your capability to efficiently manage multilingual content.</p>
-<p>Multilingual content is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>現在，您可以在單一行銷活動或歷程中，輕鬆建立多種語言的內容。 透過此功能，您可以在編輯行銷活動或歷程時切換語言、簡化整個編輯流程，並提高有效管理多語言內容的能力。</p>
+<p>多語言內容目前僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Experimentation in journeys (Limited Availability)</strong><br/></th>
+<th><strong>歷程中的實驗（可用性限制）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Already available in campaigns, Adobe Journey Optimizer now supports experiments in journeys. Experiments are randomized trials, which in the context of online testing, means that you expose some randomly selected users to a given variation of a message, and another randomly selected set of users to some other variation or treatment. After exposure, you can then measure the outcome metrics you are interested in, such as opens of emails, subscriptions, or purchases.</p>
-<p>Experimentation in journeys is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>Adobe Journey Optimizer已在行銷活動中提供，現在可支援歷程中的實驗。 實驗是在線上測試的情境下進行的隨機試驗，意即某些隨機選取的使用者會接觸到訊息的指定變化，而另一組隨機選取的使用者則會接觸到一些其他處理方式。 接觸到後，您就可以測量感興趣的結果量度，例如電子郵件開啟、訂閱或購買數。</p>
+<p>歷程中的實驗目前僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 
