@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 重新進入、歷程、設定檔、週期性
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '701'
 ht-degree: 5%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 5%
 
 # 設定檔入口管理 {#entry-management}
 
-歷程分為四種型別：
+設定檔入口管理取決於歷程型別。 在Adobe Journey Optimizer中，提供下列型別的歷程：
 
 * **單一事件** 歷程：這些歷程從單一事件開始。 收到事件時，關聯的設定檔會進入歷程。 [閱讀全文](#entry-unitary)
 
-* **業務事件** 歷程：這些歷程以業務事件開始，接著緊接著是讀取對象。 收到事件時，屬於目標對象的設定檔會進入歷程。 將為每個設定檔建立此歷程的一個例項。 [閱讀全文](#entry-business)
+* **業務事件** 歷程：這些歷程以業務事件開始，緊接著是 **讀取對象** 活動。 收到事件時，屬於目標對象的設定檔會進入歷程。 系統會為每個設定檔建立一個歷程例項。 [閱讀全文](#entry-business)
 
-* **讀取對象** 歷程：這些歷程始於讀取對象。 執行歷程時，屬於目標對象的設定檔會進入歷程。 將為每個設定檔建立此歷程的一個例項。 這些歷程可以是循環或單次。 [閱讀全文](#entry-read-audience)
+* **讀取對象** 歷程：這些歷程始於 **讀取對象** 活動。 執行歷程時，屬於目標對象的設定檔會進入歷程。 系統會為每個設定檔建立一個歷程例項。 這些歷程可以是循環或「單次」。 [閱讀全文](#entry-read-audience)
 
 * **對象資格** 歷程：這些歷程以對象資格事件開始。 這些歷程會監聽對象中設定檔的入口和出口。 發生此情況時，關聯的設定檔會進入歷程。 [閱讀全文](#entry-unitary)
 
@@ -32,7 +32,7 @@ ht-degree: 5%
 
 ## 單一事件和受眾資格歷程{#entry-unitary}
 
-在單一事件和受眾資格歷程中，您可以啟用或停用重新進入：
+在 **單一事件** 和 **對象資格** 歷程，您可以啟用或停用重新進入：
 
 * 如果啟用重新進入，設定檔可以進入歷程多次，但必須完全退出歷程的上一個執行個體，才能進入歷程。
 
@@ -51,13 +51,13 @@ When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
 
-## 業務歷程{#entry-business}
+## 業務歷程 {#entry-business}
 
 <!--
 Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
 -->
 
-若要允許多個業務事件執行，請啟動 **[!UICONTROL 執行]** 歷程屬性的區段。
+在 **業務歷程**，若要允許多個業務事件執行，請啟動 **[!UICONTROL 執行]** 歷程屬性的區段。
 
 ![](assets/business-entry.png)
 
@@ -67,11 +67,11 @@ Business events follow re-entrance rules in the same way as for unitary events. 
 
 如需詳細資訊，請參閱此 [區段](../event/about-creating-business.md)
 
-## 讀取對象歷程{#entry-read-audience}
+## 讀取對象歷程 {#entry-read-audience}
 
-讀取對象歷程可以是循環或單次試用：
+**讀取對象** 歷程可以是循環或「一次性」：
 
-* 對於非循環歷程：設定檔進入歷程一次，且只進入歷程一次。
+* 對於非循環/「單次」歷程：設定檔在歷程中只進入一次。
 
 * 對於循環歷程：依預設，屬於對象的所有設定檔都會在每次循環時進入歷程。 使用者必須先完成歷程，才能在另一個發生次數中重新進入。
 
