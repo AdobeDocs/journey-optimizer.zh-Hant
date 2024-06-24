@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 等待，活動，歷程，下一步，畫布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 14%
+source-wordcount: '508'
+ht-degree: 15%
 
 ---
 
@@ -39,9 +39,9 @@ ht-degree: 14%
 
 ### 多個等待活動 {#multiple-wait-activities}
 
-使用多個 **等待** 歷程中的活動，請注意 [全域逾時](journey-properties.md#global_timeout) 若為歷程，則為91天，這表示設定檔一律會從歷程中退出，最多為進入後91天。 在[本頁](journey-properties.md#global_timeout)中瞭解更多。
+使用多個 **等待** 歷程中的活動，請注意 [全域逾時](journey-properties.md#global_timeout) 若為歷程，則為90天，這表示設定檔一律會從歷程中退出，最多為進入後90天。 在[本頁](journey-properties.md#global_timeout)中瞭解更多。
 
-個人可以輸入 **等待** 活動，前提是他們在91天歷程逾時前的歷程剩餘時間足以完成等待期間。 例如，如果您新增兩個 **等待** 活動設為20天，系統會偵測到第二個 **等待** 活動將在91天逾時後結束。 第二個 **等待** 因此，活動將被忽略，個人將在啟動歷程之前退出歷程。 在該範例中，客戶在歷程中總共將保留20天。
+個人可以輸入 **等待** 活動，前提是他們在90天歷程逾時前的歷程剩餘時間足以完成等待期間。
 
 ### 等待並重新進入 {#wait-re-entrance}
 
