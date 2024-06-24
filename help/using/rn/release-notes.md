@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2891375fed8ebc98a099e0ca4926f2f871048306
+source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '965'
 ht-degree: 58%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 58%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer報告功能現在與Customer Journey Analytics功能完全整合，可跨兩個平台標準化報告，並改善資料一致性和可靠性。 Journey Optimizer與Customer Journey Analytics之間的緊密整合可讓您更清楚檢視績效量度，讓使用者能做出更明智的決策。</p>
+<p>Journey Optimizer報告功能與Customer Journey Analytics功能的互通性得以改善、兩個平台的報告標準化，並改善資料一致性和可靠性。 Journey Optimizer與Customer Journey Analytics之間的緊密整合可讓您更清楚檢視績效量度，讓使用者能做出更明智的決策。</p>
 <p>如需詳細資訊，請參閱<a href="../reports/report-gs-cja.md">詳細文件</a>。</p>
 </td>
 </tr>

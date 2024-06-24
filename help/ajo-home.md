@@ -5,9 +5,9 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 6b9044117dcdd7554dea0c5f791a6dcfb0218010
+source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '376'
 ht-degree: 83%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 83%
 
 >[!TAB 使用Customer Journey Analytics (Beta)製作報表]
 
-Journey Optimizer報告功能現在與Customer Journey Analytics功能完全整合，可跨兩個平台標準化報告，並改善資料一致性和可靠性。
+Journey Optimizer報告功能與Customer Journey Analytics功能的互通性得以改善、兩個平台的報告標準化，並改善資料一致性和可靠性。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
 
