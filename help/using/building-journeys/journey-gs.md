@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 22%
@@ -123,7 +123,7 @@ ht-degree: 22%
 
 ➡️ [在影片中探索此功能](journey.md#video)
 
-以下列出透過歷程傳送訊息的步驟。
+透過歷程傳送訊息的步驟列示如下：
 
 1. 從 **瀏覽** 標籤，按一下 **[!UICONTROL 建立歷程]** 以建立新的歷程。
 

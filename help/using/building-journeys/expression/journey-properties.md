@@ -8,31 +8,29 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 歷程，運算式，編輯器，屬性
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '589'
 ht-degree: 2%
 
 ---
 
 # 歷程屬性 {#journey-properties}
 
-在進階運算式編輯器中，您會找到 **歷程屬性** 類別，位於事件和資料來源類別下方。 此類別包含與特定設定檔的歷程相關的技術欄位。 這是系統從即時歷程擷取的資訊，例如歷程ID或遇到的特定錯誤。
-
->[!NOTE]
->
->在簡單運算式編輯器中也可使用歷程屬性。 請參閱本[章節](../condition-activity.md#about_condition)
+在 [簡單運算式編輯器](../condition-activity.md#about_condition)，以及 [進階運算式編輯器](../expression/expressionadvanced.md)，位於 **事件** 和 **資料來源** 類別時，您可以存取 **歷程屬性** 類別。 此類別包含與特定設定檔的歷程相關的技術欄位。 這是系統從即時歷程擷取的資訊，例如歷程ID或遇到的特定錯誤。
 
 ![](../assets/journey-properties.png)
 
-您會找到下列資訊，例如：
+它包含資訊，例如：
 
 * 歷程版本：歷程uid、歷程版本uid、執行個體uid等。
 * 錯誤：資料擷取、動作執行等。
 * 目前步驟、上一個目前步驟等。
 * 捨棄的設定檔
 
-您可以使用這些欄位來建立運算式。 在歷程執行期間，值將直接從歷程中擷取。
+  欄位清單可供使用 [在本節中](#journey-properties-fields).
+
+您可以使用這些欄位來建立運算式。 在歷程執行期間，系統會直接從歷程擷取值。
 
 以下是一些使用案例的範例：
 
@@ -56,7 +54,7 @@ ht-degree: 2%
 | | organizationId | 組織識別碼 | 品牌組織 |
 | | sandboxName | 沙箱名稱 | 沙箱的名稱 |
 | 身分 | profileId | 設定檔識別碼 | 歷程中設定檔的識別碼 |
-| | namespace | 設定檔身分名稱空間 | 歷程中設定檔的名稱空間（範例：ECID） |
+| | 名稱空間 | 設定檔身分名稱空間 | 歷程中設定檔的名稱空間（範例：ECID） |
 | 目前節點 | currentNodeId | 目前節點識別碼 | 目前活動（節點）的識別碼 |
 | | currentNodeName | 目前節點名稱 | 目前活動的名稱（節點） |
 | 上一個節點 | previousNodeId | 上一個節點識別碼 | 上一個活動（節點）的識別碼 |

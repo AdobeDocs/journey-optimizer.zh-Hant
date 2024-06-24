@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1777'
 ht-degree: 7%
 
 ---
@@ -49,6 +49,8 @@ ht-degree: 7%
 >若為即時歷程，此畫面只會顯示發佈日期和發佈歷程的使用者名稱。
 
 此 **複製技術細節** 可讓您複製支援團隊可用於疑難排解的歷程相關技術資訊。 下列資訊已複製： `JourneyVersion UID`， `OrgID`， `orgName`， `sandboxName`， `lastDeployedBy`， `lastDeployedAt`.
+
+進一步瞭解與特定設定檔的歷程相關的技術欄位及其使用方式 [在此頁面中](expression/journey-properties.md).
 
 
 ## 進入和重新進入 {#entrance}
