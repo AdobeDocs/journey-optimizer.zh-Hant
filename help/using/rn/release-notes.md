@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 25cedf0f900d6625e766f90d95393d704b5e156d
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 58%
+ht-degree: 83%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 58%
 
 ## 2024 年 6 月發行說明 {#24-6-2024}
 
-**在發行日期前，以下早期發行說明可能會有所變更，恕不另行通知**.
+**至發行日期之前，下方早期發行說明如有變更，恕不另行通知**。 
 
 **發行日期**：2024 年 6 月 18 日至 19 日
 
@@ -77,13 +77,13 @@ ht-degree: 58%
 <table>
 <thead>
 <tr>
-<th><strong>使用Customer Journey Analytics (Beta)製作報表</strong><br/></th>
+<th><strong>使用 Customer Journey Analytics (Beta) 進行報告</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer報告功能與Customer Journey Analytics功能的互通性得以改善、兩個平台的報告標準化，並改善資料一致性和可靠性。 Journey Optimizer與Customer Journey Analytics之間的緊密整合可讓您更清楚檢視績效量度，讓使用者能做出更明智的決策。</p>
+<p>Journey Optimizer報告功能與Customer Journey Analytics功能的互通性得以改善、兩個平台的報告標準化，並改善資料一致性和可靠性。 Journey Optimizer 與 Customer Journey Analytics 之間的緊密整合可讓您更清楚檢視績效量度，讓使用者能做出更明智的決策。</p>
 <img src="assets/do-not-localize/ajo-cja.gif"/>
 <p>如需詳細資訊，請參閱<a href="../reports/report-gs-cja.md">詳細文件</a>。</p>
 </td>
@@ -170,7 +170,7 @@ ht-degree: 58%
 
 >[!AVAILABILITY]
 >
->請注意，這些增強功能將在首次發行後的數天內逐步推出。 雖然有些使用者可以立即存取，但有些使用者在其環境中使用前可能會遇到延遲問題。
+>請注意，這些增強功能將於首次發布後的幾天內逐步推出。雖然某些使用者可以立即存取，但其他使用者在其環境可用之前可能會遇到延遲。
 
 * 片段現在可以編輯，並可以在使用它們的所有即時歷程和行銷活動中傳播變更。
 * 已引進內容片段的新狀態：**草稿**，**即時**，**發佈**、和&#x200B;**已封存**。
@@ -178,16 +178,16 @@ ht-degree: 58%
 
   **注意** - 由於 Journey Optimizer 已在 6 月發行版本中匯入&#x200B;**草稿**&#x200B;和&#x200B;**即時**&#x200B;狀態，因此在此版本之前建立的所有片段都具有&#x200B;**草稿**&#x200B;狀態，即使它們用於歷程或行銷活動中。在本節了解如何更新現有片段。
 
-請閱讀以下內容： [內容片段](../content-management/fragments.md) 檔案。
+請閱讀以下內容，了解更多資訊：[內容片段](../content-management/fragments.md)文件。
 
 **歷程**
 
-* 歷程的全域逾時已延長至91天。 [閱讀全文](../building-journeys/journey-properties.md#global_timeout)
+* 歷程的全域逾時已延長至 91 天。 [閱讀全文](../building-journeys/journey-properties.md#global_timeout)
 
-  任何建立的新歷程都會反映這個新的逾時。 請參考此 [常見問題集區段](../building-journeys/journey-properties.md#timeout-faq) 以進一步瞭解。 請注意，這些變更將會在6月期間逐步推出。
+  任何建立的新歷程都會反映此新逾時。 請參考此[常見問題集章節](../building-journeys/journey-properties.md#timeout-faq)以進一步了解。請注意，這些變更將於 6 月期間逐步推出。
 
 
-* Adobe Journey Optimizer現在支援隱私權刪除/存取請求，以及資料生命週期管理請求。 [閱讀全文](../privacy/requests.md)
+* Adobe Journey Optimizer 現在支援隱私權刪除/存取請求，以及資料生命週期管理請求。[閱讀全文](../privacy/requests.md)
 * 您現在可以調整歷程詳細目錄中的欄大小。
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
 * **合併原則**&#x200B;現已正式上市 - 歷程使用的合併原則現在在整個歷程中可見且一致。 [閱讀全文](../building-journeys/journey-properties.md#merge-policies)
@@ -196,7 +196,7 @@ ht-degree: 58%
 
 **行銷活動**
 
-* 在Adobe Journey Optimizer中建立行銷活動時，您現在可以在新強制回應視窗中選擇行銷活動型別（已排程或觸發）。 [閱讀全文](../campaigns/create-campaign.md)
+* 在 Adobe Journey Optimizer 中建立行銷活動時，您現在可以在新模式中選擇行銷活動類型 (已排程或啟動)。[閱讀全文](../campaigns/create-campaign.md)
 
 **電子郵件頻道**
 
@@ -205,9 +205,9 @@ ht-degree: 58%
 
 **簡訊頻道**
 
-* 您現在可以使用單一API設定，為每個沙箱新增唯一的短程式碼，讓流程更有效率且簡化。 [了解更多](../sms/sms-configuration.md)
+* 您現在可以使用單一 API 設定，為每個沙箱新增唯一的短程式碼，讓流程更有效率且簡化。[了解更多](../sms/sms-configuration.md)
 
-* 建立之後， **API Token** 欄位於 **API認證詳細資料** 頁面現在已遮罩。
+* 在建立之後，位於 **API 認證詳細資料**&#x200B;頁面的 **API 權杖**&#x200B;欄現已遮罩。
 
 <!--* You can now modify existing SMS configurations.-->
 
@@ -215,7 +215,7 @@ ht-degree: 58%
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* 您現在可以使用Edge Delivery外掛程式，取得瞭解傳入實作並進行疑難排解所需的資訊。 [深入瞭解邊緣傳遞檢視](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+* 您現在可以使用 Edge Delivery 外掛程式，取得了解傳入實作及疑難排解所需的資訊。[了解更多 Edge Delivery 檢視](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
 **直接郵件頻道**

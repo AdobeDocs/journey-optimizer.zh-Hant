@@ -21,8 +21,8 @@ ht-degree: 99%
 
 ## 2024 年 6 月 {#june-2024}
 
-* 隨附的所有新功能和改進專案 [!DNL Journey Optimizer] 有關2024年6月版本的詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
-* 已新增歷程中合併原則使用方式的附註 [此頁面](../building-journeys/journey-properties.md#merge-policies).
+* 有關 [!DNL Journey Optimizer] 2024 年 6 月發行版本所有新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
+* 歷程中合併原則使用方式的備註已新增至[此頁面](../building-journeys/journey-properties.md#merge-policies)中。
 * 已重組並改善頁面，內容關於如何設定&#x200B;**等待**&#x200B;歷程中的活動。 [閱讀全文](../building-journeys/wait-activity.md)
 * 已建立新頁面以詳細說明歷程的屬性。 [閱讀全文](../building-journeys/journey-properties.md)
 

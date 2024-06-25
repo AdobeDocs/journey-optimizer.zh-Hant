@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '1848'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -381,8 +381,8 @@ ht-degree: 98%
    + [警報](using/reports/alerts.md)
    + [使用 Customer Journey Analytics](using/reports/cja-ajo.md)
    + [排除原因](using/reports/exclusion-list.md)
-+ 新的報告介面（測試版）{#channel-report}
-   + [開始使用新的報告介面](using/reports/report-gs-cja.md)
++ 新報告介面 (beta){#channel-report}
+   + [開始使用新報告介面](using/reports/report-gs-cja.md)
    + [管理您的報告](using/reports/report-cja-manage.md)
    + [歷程報告](using/reports/journey-global-report-cja.md)
    + [行銷活動報告](using/reports/campaign-global-report-cja.md)
