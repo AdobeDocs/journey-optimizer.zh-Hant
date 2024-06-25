@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
-title: 使用外部資料來源和自訂動作限制輸送量
-description: 使用外部資料來源和自訂動作限制輸送量
+title: 使用「外部資料來源」與「自訂動作」限制輸送量
+description: 使用「外部資料來源」與「自訂動作」限制輸送量
 feature: Journeys, Use Cases, Custom Actions, Data Sources
 topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 keywords: 歷程，資料來源，限制，輸送量，自訂，動作
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: bf937d9c7198c3a9d31fe93d0cfec6f41df70e28
+source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '754'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,10 @@ Adobe Journey Optimizer可讓從業人員透過使用自訂動作和資料來源
 * **資料來源**：從外部系統收集資訊，並將其用於歷程情境中，例如取得設定檔城市的天氣資訊，並根據此建立專屬的歷程流程。
 
 * **自訂動作**：傳送資訊給外部系統，例如透過使用Journey Optimizer協調功能的外部解決方案傳送電子郵件，連同設定檔資訊、對象資料和歷程內容。
+
+>[!NOTE]
+>
+>現在支援回應，因此您應該針對外部資料來源使用案例使用自訂動作，而非資料來源。 如需回應的詳細資訊，請參閱此 [區段](../action/action-response.md)
 
 如果您使用外部資料來源或自訂動作，您可能會想要透過限制歷程輸送量來保護外部系統：單一歷程每秒最多5000個例項，對象觸發的歷程每秒最多20000個例項。
 

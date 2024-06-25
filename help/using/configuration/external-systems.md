@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
 workflow-type: tm+mt
-source-wordcount: '1250'
-ht-degree: 28%
+source-wordcount: '1278'
+ht-degree: 27%
 
 ---
 
@@ -67,6 +67,10 @@ API的詳細說明請參閱 [Adobe Journey Optimizer API檔案](https://develope
 >如果資料來源使用的自訂驗證與用於資料來源的端點不同，則需聯絡 Adobe，以將該端點加入允許清單。
 
 對於&#x200B;**自訂動作**，您需要評估外部 API 的容量。 例如，如果 Journey Optimizer 每秒傳送 1000 次呼叫，而您的系統每秒只支援 200 次呼叫，則您需要定義上限或節流設定，以使系統不會飽和。[了解如何設定動作](../action/action.md)
+
+>[!NOTE]
+>
+>現在支援回應，因此您應該針對外部資料來源使用案例使用自訂動作，而非資料來源。 如需回應的詳細資訊，請參閱此 [區段](../action/action-response.md)
 
 ## 逾時和重試{#timeout}
 
