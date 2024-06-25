@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 25cedf0f900d6625e766f90d95393d704b5e156d
+source-git-commit: 024e43468cade1f2ac4ca6f8e21bcbc71f6c771b
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 83%
+source-wordcount: '1050'
+ht-degree: 75%
 
 ---
 
@@ -28,8 +28,6 @@ ht-degree: 83%
 
 
 ## 2024 年 6 月發行說明 {#24-6-2024}
-
-**至發行日期之前，下方早期發行說明如有變更，恕不另行通知**。 
 
 **發行日期**：2024 年 6 月 18 日至 19 日
 
@@ -53,6 +51,7 @@ ht-degree: 83%
 </tbody>
 </table-->
 
+#### 內容片段客製化
 
 <table>
 <thead>
@@ -72,7 +71,7 @@ ht-degree: 83%
 </table>
 
 
-
+#### 使用Customer Journey Analytics製作報表
 
 <table>
 <thead>
@@ -91,6 +90,8 @@ ht-degree: 83%
 </tbody>
 </table>
 
+#### AI 助理
+
 <table>
 <thead>
 <tr>
@@ -106,6 +107,8 @@ ht-degree: 83%
 </tr>
 </tbody>
 </table>
+
+#### 歷程和行銷活動中的多語言訊息
 
 <table>
 <thead>
@@ -123,6 +126,7 @@ ht-degree: 83%
 </tbody>
 </table>
 
+#### 歷程中的實驗
 
 <table>
 <thead>
@@ -160,13 +164,13 @@ ht-degree: 83%
 
 此發行版本隨附下列改進項目。
 
-**決策管理**
+#### 決策管理
 
 * **決策管理中的多規則支援** - 您現在可以在決定管理中，為指定優惠方案新增最多 10 個上限規則。這可讓您針對活動內容傳送方式提高控制等級。[了解更多](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
-**內容片段**
+#### 內容片段
 
 >[!AVAILABILITY]
 >
@@ -180,7 +184,7 @@ ht-degree: 83%
 
 請閱讀以下內容，了解更多資訊：[內容片段](../content-management/fragments.md)文件。
 
-**歷程**
+#### 歷程
 
 * 歷程的全域逾時已延長至 91 天。 [閱讀全文](../building-journeys/journey-properties.md#global_timeout)
 
@@ -194,16 +198,17 @@ ht-degree: 83%
 
 
 
-**行銷活動**
+#### 行銷活動
 
 * 在 Adobe Journey Optimizer 中建立行銷活動時，您現在可以在新模式中選擇行銷活動類型 (已排程或啟動)。[閱讀全文](../campaigns/create-campaign.md)
 
-**電子郵件頻道**
+#### 電子郵件頻道
 
 * **清單 — 取消訂閱**  — 繼大量寄件者的最新Gmail和Yahoo公告後，Journey Optimizer支援「post/1-click」清單取消訂閱選項。 請參閱下列頁面： [電子郵件選擇退出管理](../email/email-opt-out.md#unsubscribe-header) 和 [設定電子郵件設定](../email/email-settings.md#list-unsubscribe).
 
+  **注意**  — 針對任何新頻道介面，預設會啟動清單取消訂閱標題選項。 對於現有曲面，預設會取消核取管道曲面設定中的「一鍵取消訂閱URL」選項。 如果您先前在電子郵件內文中使用一鍵選擇退出URL，此設定仍然有效。 如果勾選了管道介面設定中的「一鍵取消訂閱URL」 ，Adobe Journey Optimizer將會在管道介面設定中使用預設產生的一鍵取消訂閱URL。
 
-**簡訊頻道**
+#### 簡訊頻道
 
 * 您現在可以使用單一 API 設定，為每個沙箱新增唯一的短程式碼，讓流程更有效率且簡化。[了解更多](../sms/sms-configuration.md)
 
@@ -211,13 +216,13 @@ ht-degree: 83%
 
 <!--* You can now modify existing SMS configurations.-->
 
-**應用程式內頻道**
+#### 應用程式內頻道
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
 * 您現在可以使用 Edge Delivery 外掛程式，取得了解傳入實作及疑難排解所需的資訊。[了解更多 Edge Delivery 檢視](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
-**直接郵件頻道**
+#### 直接郵件頻道
 
 * 直接郵件通道現在可供所有客戶使用。 [閱讀全文](../direct-mail/get-started-direct-mail.md)
