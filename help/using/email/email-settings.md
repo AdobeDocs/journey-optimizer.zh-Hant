@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 975bb9d37a69fe8df02bc39ce2ccdf2da9953ebb
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 10%
@@ -102,7 +102,7 @@ List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱
 
   在Journey Optimizer中，預設為取消訂閱電子郵件地址 **Mailto （取消訂閱）** 頻道介面中顯示的地址，根據您的 [選取的子網域](#subdomains-and-ip-pools).
 
-  ![](assets/surface-list-unsubscribe-mailto.png){width="50%" align="left"}
+  ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
 
 
 * 此 **一鍵式取消訂閱URL**，根據您在「頻道介面設定」中設定和設定的子網域，預設為按一下選擇我們的URL產生的「清單取消訂閱標題」 。
