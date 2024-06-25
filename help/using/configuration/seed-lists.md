@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 種子清單，種子清單，種子，設定
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 16%
+source-wordcount: '959'
+ht-degree: 15%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->支援變體。 種子地址會收到相同訊息的每個變體的單一副本(例如， [內容實驗](../content-management/get-started-experiment.md))。
+>支援變體，包括多語言和實驗變體。 每個種子地址會收到相同訊息的每個變體的單一副本，例如來自 [內容實驗](../content-management/get-started-experiment.md). 請注意，條件式內容不會傳送個別種子電子郵件。
 
 ## 存取種子清單 {#access-seed-lists}
 
