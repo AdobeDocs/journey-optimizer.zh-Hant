@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 source-git-commit: 41717213cb75185476f054bd076e67f942be0f1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
@@ -29,39 +29,39 @@ Adobe Experience Platform **Privacy Service** 提供 RESTful API 和使用者介
 
 
 
-## 管理您可傳送至Adobe Journey Optimizer的個別資料隱私權請求 {#data-privacy-requests}
+## 管理您可傳送至 Adobe Journey Optimizer 的個別資料隱私權請求 {#data-privacy-requests}
 
-您可以透過兩種方式提交存取和刪除Adobe Journey Optimizer中消費者資料的個別請求：
+您可以透過兩種方式，提交個別請求以存取和刪除 Adobe Journey Optimizer 中消費者資料：
 
-* 透過 **PRIVACY SERVICEUI**. 請參閱檔案 [此處](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide#_blank).
-* 透過 **PRIVACY SERVICE API**. 請參閱檔案 [此處](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) 和API資訊 [此處](https://developer.adobe.com/experience-platform-apis/#_blank).
+* 透過 **Privacy Service UI**。請參閱[此處](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/ui/user-guide#_blank)的文件。
+* 透過 **Privacy Service API**。請參閱[此處](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank)的文件與[此處](https://developer.adobe.com/experience-platform-apis/#_blank)的 API 資訊。
 
-Privacy Service支援兩種請求： **資料存取** 和 **資料刪除**.
+Privacy Service 支援兩種類型的請求：**資料存取**&#x200B;和&#x200B;**資料刪除**。
 
 >[!NOTE]
 >
->本指南僅涵蓋如何向Adobe Journey Optimizer提出隱私權請求。 如果您也計畫針對Platform Data Lake提出隱私權請求，請參閱本節 [指南](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/privacy) 除了本教學課程以外。 如需即時客戶設定檔，請參閱此 [指南](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy) 若為Identity服務，請參閱此 [指南](https://experienceleague.adobe.com/en/docs/experience-platform/identity/privacy). 對於刪除和存取請求，您需要呼叫這些個別系統，以確保每個系統都能處理請求。 向Adobe Journey Optimizer提出隱私權請求並不會移除所有這些系統中的資料。
+>本指南僅涵蓋向 Adobe Journey Optimizer 提出隱私權請求的方法。如果您也計劃向 Platform Data Lake 提出隱私權請求，除了本教學課程以外，也請參閱此[指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/privacy)。若為即時客戶設定檔，請參閱此[指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/privacy)，若為身分服務，請參閱此[指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/privacy)。對於刪除及存取請求，您需要呼叫這些個體系統，以確保每個系統都能處理請求。 向 Adobe Journey Optimizer 提出隱私權請求並不會移除所有這些系統的資料。
 
-的 **存取要求**，從UI指定「Adobe Journey Optimizer」 （或「CJM」作為API中的產品程式碼）。
+對於&#x200B;**存取請求**，從 UI 指定「Adobe Journey Optimizer」(或「CJM」作為 API 的產品程式碼)。
 
-的 **刪除請求**，除了「Adobe Journey Optimizer」請求之外，您還必須向三個上游服務提交刪除請求，以防止Journey Optimizer重新插入已刪除的資料。 如果未指定這些上游服務，「Adobe Journey Optimizer」請求將維持在「處理」狀態，直到建立上游服務的刪除請求為止。
+對於&#x200B;**刪除請求**，除「Adobe Journey Optimizer」請求外，您還必須向三個上游服務提交刪除請求，以防止 Journey Optimizer 重新插入已刪除的資料。 如果未指定這些上游服務，「Adobe Journey Optimizer」請求將維持在「處理」狀態，直到建立上游服務的刪除請求為止。
 
-三種上游服務為：
+這三種上游服務為：
 
-* 設定檔（產品代碼：「profileService」）
-* AEP資料湖（產品代碼：「AdobeCloudPlatform」）
-* 身分（產品代碼：&quot;identity&quot;）
+* 設定檔 (產品代碼：「profileService」)
+* AEP 資料湖 (產品代碼：「AdobeCloudPlatform」)
+* 身分 (產品代碼：「identity」)
 
-## 如何建立存取與刪除請求
+## 如何建立存取及刪除請求
 
 ### 先決條件
 
-若要請求存取和刪除Adobe Journey Optimizer的資料，您必須擁有：
+若要請求存取及刪除 Adobe Journey Optimizer 的資料，您必須：
 
-* IMS組織ID
-* 您要對其採取動作之人員的身分識別碼以及對應的名稱空間。如需Adobe Journey Optimizer和Experience Platform中身分名稱空間的詳細資訊，請參閱 [身分名稱空間總覽](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces).
+* IMS 組織 ID
+* 您要對其採取動作之人員的身分識別碼以及對應名稱空間。如需 Adobe Journey Optimizer 與 Experience Platform 身分命名空間的詳細資訊，請參閱[身分命名空間概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)。
 
-### Adobe Journey Optimizer中用於API請求的必填欄位值
+### Adobe Journey Optimizer 用於 API 請求的必填欄位值
 
 ```json
 "companyContexts":
@@ -87,13 +87,13 @@ Privacy Service支援兩種請求： **資料存取** 和 **資料刪除**.
 ```
 
 
-### GDPR存取請求範例：
+### GDPR 存取請求範例：
 
-從UI：
+從 UI：
 
 ![](assets/accessrequest.png)
 
-透過API：
+使用 API：
 
 ```json
 // JSON Request
@@ -167,13 +167,13 @@ Privacy Service支援兩種請求： **資料存取** 和 **資料刪除**.
 }
 ```
 
-### GDPR刪除請求範例：
+### GDPR 刪除請求範例：
 
-從UI：
+從 UI：
 
 ![](assets/deleterequest.png)
 
-透過API：
+使用 API：
 
 ```json
 // JSON Request

@@ -8,9 +8,9 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: b960757113a1620ac4d2f251e66c35c4943f6a9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 93%
 
    * 利用來自事件的&#x200B;**情境資料** 、來自 Adobe Experience Platform 的資訊，或來自協力廠商 API 服務的資料。
 
-   * 使用 **內建頻道動作** （電子郵件、簡訊、推播、InApp），傳送設計的訊息 [!DNL Journey Optimizer] 或建立 **自訂動作** 如果您使用協力廠商系統來傳送訊息。
+   * 如果您使用協力廠商系統來傳送訊息，請使用&#x200B;**內建頻道動作** (電子郵件、簡訊、推播、應用程式內) 傳送 [!DNL Journey Optimizer] 中設計的訊息或建立&#x200B;**自訂動作**。
 
    * 使用&#x200B;**歷程設計工具**，建置多步驟使用案例：輕鬆拖放進入事件或讀取對象活動、新增條件及傳送個人化訊息。
 
