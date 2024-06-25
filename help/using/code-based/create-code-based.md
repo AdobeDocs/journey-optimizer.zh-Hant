@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 3f7d71eecf282b21eb09423378008c3b9ccd7edc
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 3%
+source-wordcount: '1024'
+ht-degree: 10%
 
 ---
 
@@ -48,8 +48,8 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
 >title="使用個人化編輯器"
->abstract="插入並編輯您要在這個程式碼型體驗動作中傳送的程式碼。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="開始使用個人化編輯器"
+>abstract="插入並編輯您想要作為此基於程式碼之體驗動作的一部分的程式碼。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=zh-Hant" text="開始使用個人化編輯器"
 
 1. 在行銷活動版本畫面中，選取 **[!UICONTROL 編輯程式碼]**.
 
@@ -77,19 +77,19 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >體驗決策功能目前僅供特定使用者測試版。
+   >體驗決策目前僅可適用於一組組織 (可用性限制)。 若要取得存取權，請和您的 Adobe 代表聯絡。
 
 
 1. 按一下 **[!UICONTROL 儲存並關閉]** 以確認您的變更。
 
 現在，當您的開發人員進行API或SDK呼叫以擷取所選表面的內容時，變更就會套用至您的網頁或應用程式。
 
-## 測試程式碼型行銷活動 {#test-code-based-campaign}
+## 測試基於程式碼的行銷活動 {#test-code-based-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
->title="預覽您的程式碼型體驗"
->abstract="取得程式碼型體驗的模擬。"
+>title="預覽您的基於程式碼的體驗"
+>abstract="模擬基於程式碼的體驗。"
 
 若要顯示已修改程式碼型體驗的預覽，請遵循下列步驟。 有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱 [預覽和測試您的內容頁面](../content-management/preview-test.md).
 
