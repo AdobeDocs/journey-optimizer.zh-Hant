@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 等待，活動，歷程，下一步，畫布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
+source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 15%
@@ -39,9 +39,9 @@ ht-degree: 15%
 
 ### 多個等待活動 {#multiple-wait-activities}
 
-使用多個 **等待** 歷程中的活動，請注意 [全域逾時](journey-properties.md#global_timeout) 若為歷程，則為90天，這表示設定檔一律會從歷程中退出，最多為進入後90天。 在[本頁](journey-properties.md#global_timeout)中瞭解更多。
+使用多個 **等待** 歷程中的活動，請注意 [全域逾時](journey-properties.md#global_timeout) 若為歷程，則為91天，這表示設定檔一律會從歷程中退出，最多為進入後91天。 在[本頁](journey-properties.md#global_timeout)中瞭解更多。
 
-個人可以輸入 **等待** 活動，前提是他們在90天歷程逾時前的歷程剩餘時間足以完成等待期間。
+個人可以輸入 **等待** 活動，前提是他們在91天歷程逾時前的歷程剩餘時間足以完成等待期間。
 
 ### 等待並重新進入 {#wait-re-entrance}
 
