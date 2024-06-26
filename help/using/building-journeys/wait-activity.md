@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 等待，活動，歷程，下一步，畫布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
+source-git-commit: cae6d394ad1c2356e55bd5f1cb4ad7494c9623dd
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 15%
@@ -23,7 +23,7 @@ ht-degree: 15%
 >title="等待活動"
 >abstract="如果您要在執行路徑中的下一個活動之前等待，您可以使用等待活動。這項功能可讓您定義執行下一個活動的時刻。有兩個選項可用：期間和自訂。"
 
-您可以使用 **[!UICONTROL 等待]** 活動，定義下一個活動執行之前的持續時間。  最長等待時間為 **29天**.
+您可以使用 **[!UICONTROL 等待]** 活動，定義下一個活動執行之前的持續時間。  最長等待時間為 **90天**.
 
 您可以設定兩種型別 **等待** 活動：
 
@@ -55,7 +55,7 @@ ht-degree: 15%
 
 ### 持續時間等待 {#duration}
 
-選取 **持續時間** 輸入以設定下一個活動執行前等待的相對持續時間。 最大持續時間為 **29天**.
+選取 **持續時間** 輸入以設定下一個活動執行前等待的相對持續時間。 最大持續時間為 **90天**.
 
 ![定義等待持續時間](assets/journey55.png)
 
