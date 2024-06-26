@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 許可權，製作，訊息
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: fd8835b1f9bffd887758e4015171074c5dfc16c0
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1175'
 ht-degree: 6%
 
 ---
@@ -142,6 +142,6 @@ ht-degree: 6%
 
 | 功能 | 權限 |
 |-|-|
-| Journey Optimizer資料庫 | <ul><li>**[!DNL Manage library items]**：讀取、建立、編輯和刪除Journey Optimizer資料庫專案，包括內容範本和片段。</li><li>**[!DNL Manage simulate content]**：存取 **[!UICONTROL 模擬內容]** 預覽和校訂的選項。</li></ul> |
+| Journey Optimizer資料庫 | <ul><li>**[!DNL Manage library items]**：讀取、建立、編輯和刪除Journey Optimizer資料庫專案，包括內容範本和片段。</li><li>**[!DNL Manage simulate content]**：存取 **[!UICONTROL 模擬內容]** 預覽和校訂的選項。</li><li>**[!DNL Publish Fragment]**：發佈內容片段。</li></ul> |
 | 決策管理 | <ul><li>**[!DNL Manage decisions]**：讀取、建立、編輯和刪除決策實體。</li><li>**[!DNL Manage ranking strategies]**：讀取、建立、編輯和刪除自訂報表，並使用動作功能。</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**：讀取、建立、編輯和刪除區段定義。</li><li>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除設定檔。</li><li>**[!DNL Read datasets]**：資料集的唯讀存取權。</li><li>**[!DNL Read schemas]**：結構描述的唯讀存取權。</li><li>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</li></ul> |
