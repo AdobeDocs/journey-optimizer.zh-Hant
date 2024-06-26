@@ -14,8 +14,8 @@ badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '2558'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="排除行銷活動對象"
->abstract="選取行銷活動以將其對象排除在目前階段外。這可防止先前聯絡的設定檔再次成為目標；僅會排除透過歷程收到通訊的設定檔。"
+>abstract="選取行銷活動以將其對象排除在目前階段外。這可以防止先前聯絡過的設定檔再次成為目標；只有那些透過歷程收到通訊的人才會排除在外。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
