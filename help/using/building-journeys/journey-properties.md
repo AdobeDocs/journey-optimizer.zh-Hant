@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
+source-git-commit: a43179e67a7d5387e67bd3f6bb3ac3f24dd6325a
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 8%
@@ -157,7 +157,7 @@ ht-degree: 8%
       <p>進入TTL擴充功能啟動前所發佈之歷程的個人資料會發生什麼事？</p>
     </td>
     <td>
-      <p>個人資料的TTL為91天（HIPAA為7天），與歷程的初始發佈時間一致。</p>
+      <p>設定檔的TTL為30天（HIPAA為7天），與歷程的初始發佈時間一致。</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -165,7 +165,7 @@ ht-degree: 8%
       <p>啟動TTL擴充功能時，已進入歷程的個人資料會發生什麼事？</p>
     </td>
     <td>
-      <p>根據歷程的原始發佈時間，設定檔將保留91天的TTL （HIPAA為7天）。</p>
+      <p>根據歷程的原始發佈時間，設定檔將保留30天的TTL （HIPAA為7天）。</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -173,7 +173,7 @@ ht-degree: 8%
       <p>在TTL擴充功能啟動後重新發佈的舊版歷程中的設定檔會有什麼改變？</p>
     </td>
     <td>
-      <p>設定檔將保留91天（HIPAA為7天）的TTL，與原始歷程版本的發佈時間一致。</p>
+      <p>設定檔將維持30天（HIPAA為7天）的TTL，與原始歷程版本的發佈時間一致。</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -218,7 +218,7 @@ ht-degree: 8%
       <p>進入TTL擴充功能啟動前所發佈之歷程的個人資料會發生什麼事？</p>
     </td>
     <td>
-      <p>設定檔的TTL為91天（HIPAA為7天），與原始發佈時間一致。 對於具有強制重新進入的週期性歷程，TTL將符合週期性期間。</p>
+      <p>設定檔的TTL為30天（HIPAA為7天），與原始發佈時間一致。 對於具有強制重新進入的週期性歷程，TTL將符合週期性期間。</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -226,7 +226,7 @@ ht-degree: 8%
       <p>啟動TTL擴充功能時，透過歷程執行的設定檔會發生什麼事？</p>
     </td>
     <td>
-      <p>根據歷程的原始發佈時間，設定檔將保留91天的TTL （HIPAA為7天）。 對於具有強制重新進入的週期性歷程，TTL將符合週期性期間。</p>
+      <p>根據歷程的原始發佈時間，設定檔將保留30天的TTL （HIPAA為7天）。 對於具有強制重新進入的週期性歷程，TTL將符合週期性期間。</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -234,7 +234,7 @@ ht-degree: 8%
       <p>在TTL擴充功能啟動後重新發佈的先前歷程版本中，執行中的設定檔有何改變？</p>
     </td>
     <td>
-      <p>設定檔將保留91天（HIPPA為7天）的TTL，與原始歷程版本的發佈時間一致。 對於具有強制重新進入的週期性歷程，TTL將符合週期性期間。</p>
+      <p>設定檔將保留30天（HIPPA為7天）的TTL，與原始歷程版本的發佈時間一致。 對於具有強制重新進入的週期性歷程，TTL將符合週期性期間。</p>
     </td>
   </tr>
   <tr style="border: 1;">
