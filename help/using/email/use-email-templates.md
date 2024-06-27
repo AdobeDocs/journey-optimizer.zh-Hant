@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 電子郵件、範本、設計
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 08f12adf384b98dfa1d69cbc2d684c3bf58d31fa
+source-git-commit: 5be9ac1f77d7a09089dd8115fd7c9cfa0a3ab0d2
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 3%
+source-wordcount: '265'
+ht-degree: 20%
 
 ---
 
@@ -20,9 +20,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_template"
->title="從範本建立內容"
->abstract="若要開始建立您的電子郵件內容，請選取現成可用的範本或自訂現有的範本 — 從草稿建立或從先前的電子郵件儲存為範本。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates#create-content-templates" text="建立內容範本"
+>title="從範本建置內容"
+>abstract="若要開始建立您的電子郵件內容，請選取一個立即可用範本或自訂的現有範本，可能是從頭開始建立的或將以前的電子郵件另存為範本。"
 
 從 **[!UICONTROL 建立您的電子郵件]** 熒幕，使用 **[!UICONTROL 選取設計範本]** 區段，以開始從範本建立您的內容。
 
@@ -40,7 +39,7 @@ ht-degree: 3%
 
 若要使用其中一個範例或儲存的範本開始建立您的內容，請遵循下列步驟。
 
-1. [存取電子郵件設計工具](get-started-email-design.md) 從電子郵件 **[!UICONTROL 編輯內容]** 畫面。
+1. [存取電子郵件Designer](get-started-email-design.md) 從電子郵件 **[!UICONTROL 編輯內容]** 畫面。
 
 1. 在 **[!UICONTROL 建立您的電子郵件]** 畫面， **[!UICONTROL 範例範本]** 標籤預設為選取。
 
@@ -48,7 +47,7 @@ ht-degree: 3%
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. 所有專案的清單 [內容範本](../content-management/content-templates.md#create-content-templates) 隨即顯示在目前沙箱上建立。 您可以排序它們 **[!UICONTROL 依名稱]**， **[!UICONTROL 上次修改時間]** 和 **[!UICONTROL 上次建立時間]**.
+1. 所有專案的清單 [內容範本](../content-management/content-templates.md#create-content-templates) 隨即顯示在目前沙箱上建立。 你可以&#x200B;**[!UICONTROL 依名稱]**、**[!UICONTROL 上次修改日期]**&#x200B;和&#x200B;**[!UICONTROL 上次建立日期]**&#x200B;來排序儲存的範本。
 
    ![](assets/email_designer-saved-templates-filter.png)
 
@@ -60,4 +59,4 @@ ht-degree: 3%
 
 1. 按一下 **[!UICONTROL 使用此範本]** 在熒幕的右上方。
 
-1. 視需要使用電子郵件設計工具編輯您的內容。
+1. 視需要使用電子郵件Designer編輯您的內容。
