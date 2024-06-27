@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '642'
 ht-degree: 14%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->若要發佈片段，您必須擁有 **Publish片段** 相關許可權。 [進一步瞭解許可權](../administration/ootb-permissions.md)
+>若要發佈片段，您必須擁有 [Publish片段](../administration/ootb-product-profiles.md#content-library-manager) 使用者許可權。
 
 如果您的片段已準備好上線，您可以預覽和發佈它以使其可在您的歷程和行銷活動中使用。 若要這麼做，請依照以下步驟進行：
 

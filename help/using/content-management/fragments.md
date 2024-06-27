@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 0ee93c3f3e922d0640b2867dcf5ebb83d67aa826
+source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '315'
 ht-degree: 11%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 11%
 
 ## 開始之前 {#fragment-prerequisites}
 
-若要建立、編輯和封存片段，您必須擁有 **[!DNL Manage library items]** 許可權包含在 **[!DNL Content Library Manager]** 產品設定檔。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
+若要建立、編輯、封存和發佈片段，您需要 **[!DNL Manage library items]** 和 **[Publish片段]** 包含在中的許可權 **[!DNL Content Library Manager]** 產品設定檔。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
 
 在此版本中，適用下列限制：
 
@@ -47,7 +47,7 @@ ht-degree: 11%
 
 提供兩種型別的片段：
 
-* **視覺片段** 是預先定義的視覺化區塊，您可以使用在多個電子郵件傳遞中重複使用 [電子郵件設計工具](../email/get-started-email-design.md)，或在 [內容範本](../email/use-email-templates.md).
+* **視覺片段** 是預先定義的視覺化區塊，您可以使用在多個電子郵件傳遞中重複使用 [傳送Designer電子郵件](../email/get-started-email-design.md)，或在 [內容範本](../email/use-email-templates.md).
 * **運算式片段** 是預先定義的運算式，可從的 [個人化編輯器](../personalization/personalization-build-expressions.md).
 
 所有已建立的片段都可從以下位置存取： **[!UICONTROL 內容管理]** > **[!UICONTROL 片段]**  左側功能表。 [瞭解如何管理片段](../content-management/manage-fragments.md)
