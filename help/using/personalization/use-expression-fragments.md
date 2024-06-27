@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，資料庫，個人化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -51,8 +51,6 @@ ht-degree: 0%
    >[!CAUTION]
    >
    >您可以新增任何 **草稿** 或 **即時** 片段至您的內容。 但是，如果正在使用狀態為草稿的片段，您將無法啟用您的歷程或行銷活動。 在歷程或行銷活動發佈中，草稿片段將顯示錯誤，您需要核准它們才能發佈。
-   >
-   > 請注意，在Journey Optimizer 6月發行後的數天內，片段狀態會逐步推出。 雖然有些使用者可以立即存取，但有些使用者在其環境中使用前可能會遇到延遲問題。 如果您的環境中尚未提供此增強功能，請注意，片段不需要 **即時** 用於您的歷程與行銷活動。
 
 1. 在新增片段ID後，如果您開啟對應的運算式片段並 [編輯它](../content-management/fragments.md#edit-fragments) 從介面中，變更會同步化。 它們會自動傳播到包含該片段ID的所有草稿或即時歷程/行銷活動。
 

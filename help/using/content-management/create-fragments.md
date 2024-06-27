@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: ffeaa49cde2871b28c85598469e62f4d9acbf060
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 13%
+source-wordcount: '646'
+ht-degree: 14%
 
 ---
 
@@ -72,10 +72,6 @@ ht-degree: 13%
   ![](assets/fragment-expression-editor.png)
 
 當您的內容準備就緒時，請按一下 **儲存** 按鈕。 片段會建立，並新增至片段清單，包含 **草稿** 狀態。 您可以預覽並發佈它，使其可在歷程和行銷活動中使用。
-
->[!NOTE]
->
->在Journey Optimizer 6月發行後的數天內，片段發佈功能將逐步推出。 雖然有些使用者可以立即存取，但有些使用者在其環境中使用前可能會遇到延遲問題。 如果您的環境尚未提供此增強功能，請注意，在您的歷程和行銷活動中使用片段不需要發佈片段。
 
 ## 預覽和發佈片段 {#publish}
 

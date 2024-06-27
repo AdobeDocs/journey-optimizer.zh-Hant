@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '669'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 2%
 >您最多可以在給定傳送中新增30個片段。 片段最多只能巢狀1個層級。
 
 
-1. 使用開啟任何電子郵件或範本內容 [電子郵件設計工具](get-started-email-design.md).
+1. 使用開啟任何電子郵件或範本內容 [傳送Designer電子郵件](get-started-email-design.md).
 
 1. 選取 **[!UICONTROL 片段]** 圖示加以檢視。
 
@@ -54,8 +54,6 @@ ht-degree: 2%
    >[!CAUTION]
    >
    >您可以新增任何 **草稿** 或 **即時** 片段至您的內容。 但是，如果正在使用狀態為草稿的片段，您將無法啟用您的歷程或行銷活動。 在歷程或行銷活動發佈中，草稿片段將顯示錯誤，您需要核准它們才能發佈。
-   >
-   > 請注意，在Journey Optimizer 6月發行後的數天內，片段狀態會逐步推出。 雖然有些使用者可以立即存取，但有些使用者在其環境中使用前可能會遇到延遲問題。 如果您的環境中尚未提供此增強功能，請注意，片段不需要 **即時** 用於您的歷程與行銷活動。
 
 1. 如同任何其他元件，您可以在內容中移動片段。
 
