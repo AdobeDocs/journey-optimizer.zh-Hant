@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 8ca75a149db65ee65bf28fe6c0688ee18488fcec
+source-git-commit: 09287aaa41664cc497060df9a10a7d46985e4ae4
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 16%
+source-wordcount: '1044'
+ht-degree: 15%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="新的片段狀態"
->abstract="由於 Journey Optimizer 6 月版本引入了&#x200B;**草稿**&#x200B;和&#x200B;**即時**&#x200B;狀態，因此在此版本之前建立的所有片段都具有「草稿」狀態，即使這些片段用於旅程或活動中也是如此。如果您對這些片段進行任何變更，則需要發佈它們以使其進入「即時」狀態，並將變更內容傳遞到關聯的行銷活動和旅程。您還需要建立一個新的旅程/行銷活動版本，然後進行發佈。發佈需要使用者權限。"
+>abstract="由於 Journey Optimizer 6 月版本引入了&#x200B;**草稿**&#x200B;和&#x200B;**即時**&#x200B;狀態，因此在此版本之前建立的所有片段都具有「草稿」狀態，即使這些片段用於旅程或活動中也是如此。如果您對這些片段進行任何變更，則需要發佈它們以使其進入「即時」狀態，並將變更內容傳遞到關聯的行銷活動和旅程。您還需要建立一個新的旅程/行銷活動版本，然後進行發佈。發佈需要「Publish片段」使用者許可權。"
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="進一步瞭解內容片段許可權"
 
 >[!AVAILABILITY]
@@ -67,7 +67,7 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->由於 Journey Optimizer 6 月版本引入了&#x200B;**草稿**&#x200B;和&#x200B;**即時**&#x200B;狀態，因此在此版本之前建立的所有片段都具有「草稿」狀態，即使這些片段用於旅程或活動中也是如此。如果您對這些片段進行任何變更，則需要發佈它們以使其進入「即時」狀態，並將變更內容傳遞到關聯的行銷活動和旅程。您還需要建立一個新的旅程/行銷活動版本，然後進行發佈。發佈需要使用者權限。
+>由於 Journey Optimizer 6 月版本引入了&#x200B;**草稿**&#x200B;和&#x200B;**即時**&#x200B;狀態，因此在此版本之前建立的所有片段都具有「草稿」狀態，即使這些片段用於旅程或活動中也是如此。如果您對這些片段進行任何變更，則需要發佈它們以使其進入「即時」狀態，並將變更內容傳遞到關聯的行銷活動和旅程。您還需要建立一個新的旅程/行銷活動版本，然後進行發佈。發佈需要 [Publish片段](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager)**取使用者許可權。
 
 ## 編輯片段 {#edit-fragments}
 
@@ -99,7 +99,7 @@ ht-degree: 16%
 
    ![](assets/fragment-edit.png)
 
-1. 準備好變更後，按一下 **發佈** 按鈕讓您的修改上線。
+1. 準備好變更後，按一下 **Publish** 按鈕讓您的修改上線。
 
 當您編輯片段時，變更會自動傳播至使用該片段的所有內容，包括即時歷程和行銷活動，但您中斷原始片段繼承的內容除外。 瞭解如何在中中斷繼承 [將視覺化片段新增至您的電子郵件](../email/use-visual-fragments.md#break-inheritance) 和 [利用運算式片段](../personalization/use-expression-fragments.md#break-inheritance) 區段。
 
