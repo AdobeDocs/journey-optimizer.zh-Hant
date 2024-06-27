@@ -7,11 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
+badge: label="可用性限制" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: c2fda001969867aebcc4e5c6854183c30240fddb
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '373'
 ht-degree: 7%
 
 ---
@@ -51,6 +51,6 @@ Journey Optimizer報告功能與Customer Journey Analytics功能的互通性得�
 
 ## 操作說明影片{#video}
 
-以下影片說明如何指派 **管理應用程式設定** 存取應用程式表面功能表的許可權。
+以下影片說明如何搭配Customer Journey Analytics使用增強的Journey Optimizer報表。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430413)

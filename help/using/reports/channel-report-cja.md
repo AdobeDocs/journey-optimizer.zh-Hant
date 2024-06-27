@@ -7,10 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
-source-git-commit: 2a5c04477b38e2fccdde86af56714261c6638160
+badge: label="可用性限制" type="Informative"
+exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '637'
 ht-degree: 1%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 1%
 * [行銷活動](#campaign)
 * [管道](#channel)
 
-若要瞭解有關Customer Journey Analytics工作區以及如何篩選和分析資料的詳細資訊，請參閱 [此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+若要瞭解有關Customer Journey AnalyticsWorkspace以及如何篩選和分析資料的詳細資訊，請參閱 [此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## 反白顯示 {#highlights}
 

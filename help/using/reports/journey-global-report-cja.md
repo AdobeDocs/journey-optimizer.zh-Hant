@@ -7,10 +7,11 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+badge: label="可用性限制" type="Informative"
+exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '4175'
+source-wordcount: '4176'
 ht-degree: 2%
 
 ---
@@ -33,7 +34,7 @@ ht-degree: 2%
 * [Web](#web-cja)
 * [直接郵件](#direct-mail-cja)
 
-若要瞭解有關Customer Journey Analytics工作區以及如何篩選和分析資料的詳細資訊，請參閱 [此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+若要瞭解有關Customer Journey AnalyticsWorkspace以及如何篩選和分析資料的詳細資訊，請參閱 [此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## 歷程概觀 {#journey-global}
 

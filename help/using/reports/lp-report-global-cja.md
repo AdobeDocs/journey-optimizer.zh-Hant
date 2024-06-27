@@ -7,10 +7,11 @@ feature: Reporting, Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+badge: label="可用性限制" type="Informative"
+exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '792'
 ht-degree: 2%
 
 ---
@@ -114,10 +115,3 @@ ht-degree: 2%
 此 **[!UICONTROL 熱門點按連結]** 表格可讓您深入瞭解訪客與傳送的互動情形，重點說明哪些連結可吸引對象最多的參與和注意。
 
 * **[!UICONTROL 登陸頁麵點按次數]**：內容在登入頁面中被點按的次數。
-
-
-
-
-
-
-
