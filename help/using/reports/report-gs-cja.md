@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Beta" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
+source-git-commit: c2fda001969867aebcc4e5c6854183c30240fddb
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 0%
+source-wordcount: '374'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 > 若要回覆成Journey Optimizer的傳統報表，只需將 **[!UICONTROL 使用新體驗]** 選項。
 
-Journey Optimizer報告功能與Customer Journey Analytics功能的互通性得以改善、兩個平台的報告標準化，並改善資料一致性和可靠性。 Journey Optimizer與Customer Journey Analytics之間的緊密整合可讓您更清楚檢視績效量度，讓使用者能做出更明智的決策。
+Journey Optimizer報告功能與Customer Journey Analytics功能的互通性得以改善、兩個平台的報告標準化，並改善資料一致性和可靠性。 Journey Optimizer 與 Customer Journey Analytics 之間的緊密整合可讓您更清楚檢視績效量度，讓使用者能做出更明智的決策。
 
 * 如果您想在歷程內容中定位歷程或傳遞，請從 **[!UICONTROL 歷程]** 選單，存取您的歷程，然後按一下 **[!UICONTROL 檢視報告]** 按鈕。
 
@@ -48,3 +48,9 @@ Journey Optimizer報告功能與Customer Journey Analytics功能的互通性得�
 * 若要存取Journey Optimizer中的Customer Journey Analytics控制面板，只需啟用 **[!UICONTROL 使用新體驗]** 在您的報告中切換。
 
   ![](assets/cja-option.png)
+
+## 操作說明影片{#video}
+
+以下影片說明如何指派 **管理應用程式設定** 存取應用程式表面功能表的許可權。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)
