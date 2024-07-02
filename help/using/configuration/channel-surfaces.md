@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 管道，表面，技術，引數，最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 9af49f0a47ad5bc1d2cea3e822ec20e2930140d3
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1758'
 ht-degree: 10%
 
 ---
@@ -22,6 +22,36 @@ ht-degree: 10%
 >id="ajo_admin_channel_surfaces"
 >title="管道表面"
 >abstract="管道表面是由系統管理員定義的設定。它包含所有用於傳送訊息的技術參數，如標頭參數、子網域、行動應用程式等等。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_marketing_action"
+>title="行銷動作"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_app_id"
+>title="應用程式 ID"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_location"
+>title="頁面上的位置"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_page_rule"
+>title="頁面比對規則"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_url"
+>title="預設URL"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_surface_uri"
+>title="表面URI"
+>abstract="待定"
 
 替換為 [!DNL Journey Optimizer]，您可以設定頻道介面（即訊息預設集），以定義訊息所需的所有技術引數：電子郵件型別、寄件者電子郵件和名稱、行動應用程式、簡訊設定等。
 
