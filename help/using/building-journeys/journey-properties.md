@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
 source-wordcount: '1724'
-ht-degree: 8%
+ht-degree: 17%
 
 ---
 
@@ -64,18 +64,18 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="允許重新進入"
->abstract="依預設，新歷程允許重新進入。 您可以取消勾選 **允許重新進入** 選項，例如，如果要在人員進入商店時提供一次性贈品。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="設定檔入口管理"
+>abstract="預設情況下，新歷程允許重新進入。例如，如果您想在某人進入商店時提供一次性禮物，您可以取消選取「**允許重新進入**」選項。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="設定檔入口管理"
 
-依預設，新歷程允許重新進入。 您可以取消勾選 **允許重新進入** 「單次」歷程的選項，例如，如果您想在某人進入商店時提供一次性禮物。
+預設情況下，新歷程允許重新進入。您可以取消勾選 **允許重新進入** 「單次」歷程的選項，例如，如果您想在某人進入商店時提供一次性禮物。
 
 ### 重新進入等待期  {#re-entrance-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="重新進入等待期"
->abstract=" 設定允許設定檔在單一歷程中再次進入歷程之前的等待時間。 這可防止使用者在選定的期間內重新進入歷程。 持續時間上限：90天。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="設定檔入口管理"
+>abstract=" 設定允許設定檔在單一歷程中再次進入歷程之前等待的時間。這會防止使用者在選定的期間內重新進入歷程。最長持續時間：90 天。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="設定檔入口管理"
 
 當 **允許重新進入** 選項已啟用， **重新進入等待期** 欄位。 此欄位可讓您定義在允許設定檔在單一歷程中再次進入歷程 (從事件或對象資格開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 持續時間上限為90天。
 
@@ -97,13 +97,13 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="開始日期"
->abstract="選擇專案可以開始進入歷程的日期。 如果未指定開始日期，則會在發佈時自動設定。"
+>abstract="選擇歷程可以開始的日期項目。如果未指定開始日期，則會在發佈時自動設定。"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="結束日期"
->abstract="選擇歷程的結束日期。 達到該日期時，該歷程中的設定檔會自動退出，且新的設定檔無法再進入。"
+>abstract="選擇歷程的結束日期。當到達該日期時，該歷程中的設定檔會自動退出，新的設定檔將無法再進入。"
 
 您可以定義 **開始日期**. 如果您尚未指定，則會在發佈時自動定義。
 
@@ -116,7 +116,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
 >title="逾時"
->abstract="定義歷程嘗試執行動作或驗證條件的時間長度，之後視為逾時。"
+>abstract="定義歷程嘗試執行動作或驗證條件的時間長度，在此之後視為逾時。"
 
 
 編輯動作或條件活動時，您可以定義替代路徑，以防錯誤或逾時。 如果處理詢問協力廠商系統的活動超過中定義的逾時期間。 **[!UICONTROL 逾時或錯誤]** 歷程屬性的欄位中，將選擇第二個路徑來執行潛在的遞補動作。

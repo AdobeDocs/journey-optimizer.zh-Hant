@@ -10,7 +10,7 @@ level: Beginner
 source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 14%
 
 現在，在內建置任何內容時，即可使用此範本 [!DNL Journey Optimizer]. [了解作法](#use-content-templates)
 
-## 將內容另存為內容範本 {#save-as-template}
+## 將內容儲存為內容範本 {#save-as-template}
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
