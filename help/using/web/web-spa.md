@@ -9,7 +9,7 @@ exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 17%
+ht-degree: 16%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 17%
 
    ![](assets/web-designer-modifications-apply-to.png)
 
-1. 按一下&#x200B;**[!UICONTROL 套用]**。
+1. 按一下 **[!UICONTROL 套用]**.
 
 1. 交換至 **[!UICONTROL 瀏覽]** 用於檢查修改內容已套用至所需頁面的模式。
 

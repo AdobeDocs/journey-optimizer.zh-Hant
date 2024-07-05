@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 9af49f0a47ad5bc1d2cea3e822ec20e2930140d3
 workflow-type: tm+mt
 source-wordcount: '1758'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -45,12 +45,12 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_url"
->title="預設URL"
+>title="預設 URL"
 >abstract="待定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
->title="表面URI"
+>title="表面 URI"
 >abstract="待定"
 
 替換為 [!DNL Journey Optimizer]，您可以設定頻道介面（即訊息預設集），以定義訊息所需的所有技術引數：電子郵件型別、寄件者電子郵件和名稱、行動應用程式、簡訊設定等。
