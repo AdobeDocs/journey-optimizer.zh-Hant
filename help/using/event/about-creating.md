@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，單一，建立，歷程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 60a7e79a5a40eada7645c1b6b94d8b165d2453b4
+source-git-commit: 852b79a7a2cdcaeac700e2bb8b0cf1aa0d421bc9
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1603'
 ht-degree: 12%
 
 ---
@@ -23,25 +23,25 @@ ht-degree: 12%
 >title="單一事件"
 >abstract="事件設定可讓您定義 Journey Optimizer 會接收為事件的資訊。您可以使用多個事件 (在歷程的不同步驟中)，而好幾個歷程可以使用同一個事件。單一事件會連結到特定的設定檔。它們可能是以規則為基礎或由系統產生。"
 
-單一事件會連結到特定的設定檔。可以是規則型或系統產生。  閱讀有關單一事件的詳細資訊 [本節](../event/about-events.md).
+單一事件會連結到特定的設定檔。它們可以是基於規則的，也可以是由系統生成的。  閱讀本節中有關單一事件[](../event/about-events.md)的更多資訊。
 
 以下是設定新事件的第一步：
 
-1. 在「管理」功能表區段中，選取 **[!UICONTROL 設定]**. 在  **[!UICONTROL 活動]** 區段，按一下 **[!UICONTROL 管理]**. 畫面隨即顯示事件清單。
+1. 在“管理”功能表部分中，選擇“ **[!UICONTROL 配置]**”。 在事件&#x200B;]**部分中**[!UICONTROL ，按兩下&#x200B;**[!UICONTROL 管理]**。畫面隨即顯示事件清單。
 
    ![](assets/jo-event1.png)
 
-1. 按一下 **[!UICONTROL 建立事件]** 以建立新事件。 事件設定窗格會在畫面右側開啟。
+1. 按兩下 **[!UICONTROL 建立事件]** 建立新事件。 事件設定窗格會在畫面右側開啟。
 
    ![](assets/jo-event2.png)
 
-1. 輸入事件的名稱。 您也可以新增說明。
+1. 輸入事件的名稱。 您還可以添加說明。
 
    ![](assets/jo-event3.png)
 
    >[!NOTE]
    >
-   >只允許使用英數字元和底線。 長度上限為30個字元。
+   >只允許使用英數位元和底線。 最大長度為 30 個字元。
 
 1. 在 **[!UICONTROL 型別]** 欄位，選擇 **單一**.
 
@@ -63,15 +63,15 @@ ht-degree: 12%
 
 1. 針對規則型事件，按一下 **[!UICONTROL 事件ID條件]** 欄位。 使用簡單或進階運算式編輯器，定義系統將使用的條件，以識別將觸發您歷程的事件。
 
-![](assets/jo-event6.png)
+   ![](assets/jo-event6.png)
 
-在我們的範例中，我們根據設定檔的城市來撰寫條件。 這表示每當系統收到符合此條件的事件時(**[!UICONTROL 城市]** 欄位和 **[!UICONTROL 巴黎]** 值)，則會將其傳遞至歷程。
+   在我們的範例中，我們根據設定檔的城市來撰寫條件。 這表示每當系統收到符合此條件的事件時(**[!UICONTROL 城市]** 欄位和 **[!UICONTROL 巴黎]** 值)，則會將其傳遞至歷程。
 
->[!NOTE]
->
->在簡單運算式編輯器中，並非所有運運算元都可使用，它們取決於資料型別。 例如，對於欄位的字串型別，您可以使用「包含」或「等於」。
->
->如果您在建立事件後，使用新的列舉值修改綱要，則需要按照以下步驟將變更套用至現有事件：從事件欄位中取消選取列舉欄位，確認選擇，然後再次選取列舉欄位。 現在會顯示新的分項清單。
+   >[!NOTE]
+   >
+   >在簡單運算式編輯器中，並非所有運運算元都可使用，它們取決於資料型別。 例如，對於欄位的字串型別，您可以使用「包含」或「等於」。
+   >
+   >如果您在建立事件後，使用新的列舉值修改綱要，則需要按照以下步驟將變更套用至現有事件：從事件欄位中取消選取列舉欄位，確認選擇，然後再次選取列舉欄位。 現在會顯示新的分項清單。
 
 1. 新增命名空間。此步驟為選填，但建議您新增命名空間，以便運用儲存在「即時客戶個人檔案服務」的資訊。它會定義事件具備的金鑰類型。請參閱[本節](../event/about-creating.md#select-the-namespace)。
 
@@ -136,33 +136,32 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->您只能選取以人物為基礎的身分名稱空間。 如果您已定義查閱表格的名稱空間（例如：產品查閱的ProductID名稱空間），將無法在 **名稱空間** 下拉式清單。
+>您只能選擇基於人員的身份命名空間。 如果已為查找表定義了命名空間（例如：產品查找的 ProductID 命名空間），則該命名空間在“ **命名空間** ”下拉清單中將不可用。
 
-## 定義設定檔識別碼 {#define-the-event-key}
+## 定義設定檔標識符 {#define-the-event-key}
 
-索引鍵是欄位或欄位組合，這是事件裝載資料的一部分，可讓系統識別與事件相關聯的人員。 例如，索引鍵可以是Experience CloudID、CRM ID或電子郵件地址。
+鍵是欄位或欄位組合，它是事件有效負載數據的一部分，允許系統識別與事件關聯的人員。 例如，金鑰可以是 Experience Cloud ID、CRM ID 或電子郵件位址。
 
-若要使用儲存在Adobe即時客戶設定檔資料庫中的資料，事件索引鍵必須是您在 [即時客戶個人檔案服務](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}.
+要使用存儲在即時客戶檔案資料庫中的數據Adobe Systems事件密鑰必須是您在即時客戶檔案服務](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}中[定義為設定檔身份的資訊。
 
-設定檔識別碼可讓系統在事件和個人設定檔之間執行調解。 如果您選取具有主要身分的綱要，則 **[!UICONTROL 設定檔識別碼]** 和 **[!UICONTROL 名稱空間]** 欄位會預先填寫。 如果沒有定義身分， _identityMap > id_ 是主索引鍵。 接著，您必須選取名稱空間，系統會自動使用預先填入金鑰 _identityMap > id_.
+設定檔標識碼允許系統在事件和個人設定檔之間執行核對。 如果您選取具有主要身分的綱要，則 **[!UICONTROL 設定檔識別碼]** 和 **[!UICONTROL 名稱空間]** 欄位會預先填寫。 如果沒有定義身分， _identityMap > id_ 是主索引鍵。 然後，您必須選擇一個命名空間，並使用identityMap > id _自動_&#x200B;預填充密鑰。
 
-選取欄位時，會標籤主要身分欄位。
+選擇欄位時，標記主要身分欄位。
 
 ![](assets/primary-identity.png)
 
-如果您需要使用不同的金鑰，例如CRM ID或電子郵件地址，您需要手動新增，如下所述：
+如果您需要使用其他金鑰，例如 CRM ID 或電子郵件位址，則需要手動添加，如下所述：
 
-1. 按一下 **[!UICONTROL 設定檔識別碼]** 欄位或鉛筆圖示上。
+1. 在「配置檔標識碼&#x200B;]**」字段內**[!UICONTROL ，或按兩下鉛筆圖示。
 
    ![](assets/journey16.png)
 
-1. 選取在裝載欄位清單中選為索引鍵的欄位。
+1. 選取在清單負載欄位清單中選擇作為索引鍵的欄位。
 
 收到事件時，機碼的值可讓系統識別與事件相關聯的人員。 與名稱空間相關聯(請參閱 [本節](../event/about-creating.md#select-the-namespace))，則金鑰可用來在Adobe Experience Platform上執行查詢。 另請參閱 [此頁面](../building-journeys/about-journey-activities.md#orchestration-activities).
 金鑰也可用來檢查個人是否在歷程中。 事實上，一個人在同一歷程中不能位於兩個不同的位置。 因此，系統不允許相同的金鑰（例如金鑰CRMID=3224）位於相同歷程中的不同位置。
 
 ### 進階運算式編輯器 {#adv-exp-editor}
-
 
 定義設定檔識別碼時，您可以切換至進階運算式編輯器以建立更複雜的索引鍵（例如，兩個事件欄位的串連）。
 
@@ -170,9 +169,6 @@ ht-degree: 12%
 
 您可以從存取進階運算式函式 **[!UICONTROL 進階模式]** 按鈕。 這些函式可讓您控制用於執行特定查詢的值，例如變更格式、執行欄位串連，僅考慮欄位的一部分（例如10個第一個字元）。 請參閱此[頁面](../building-journeys/expression/expressionadvanced.md)。
 
->[!AVAILABILITY]
->
->進階運算式編輯器僅適用於一組組織(LA)。
 
 ## 預覽裝載 {#preview-the-payload}
 
