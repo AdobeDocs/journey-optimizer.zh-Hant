@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，單一，建立，歷程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 65a1672c2440a3498ec1fc1c7db62080aa306cf4
+source-git-commit: ca80a7bc1fbf819d27db2d9518832c9345cdaa18
 workflow-type: tm+mt
-source-wordcount: '1608'
+source-wordcount: '1610'
 ht-degree: 12%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 12%
 
 單一事件會連結到特定的設定檔。可以是規則型或系統產生。  閱讀有關單一事件的詳細資訊 [本節](../event/about-events.md).
 
-以下是設定新事件的第一步：
+以下是設定新事件的第一個步驟：
 
-1. 在「管理」功能表區段中，選取 **[!UICONTROL 設定]**. 在  **[!UICONTROL 活動]** 區段，按一下 **[!UICONTROL 管理]**. 畫面隨即顯示事件清單。
+1. 在「管理」功能表區段中，瀏覽至 **[!UICONTROL 設定]**，以及  **[!UICONTROL 活動]** 區段，按一下 **[!UICONTROL 管理]**. 畫面隨即顯示事件清單。
 
    ![](assets/jo-event1.png)
 
