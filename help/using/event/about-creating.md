@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，單一，建立，歷程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 2edb6f9d9b359293afcf5409b8b18068f43a38ec
+source-git-commit: 65a1672c2440a3498ec1fc1c7db62080aa306cf4
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1608'
 ht-degree: 12%
 
 ---
@@ -161,9 +161,9 @@ ht-degree: 12%
 收到事件時，機碼的值可讓系統識別與事件相關聯的人員。 與名稱空間相關聯(請參閱 [本節](../event/about-creating.md#select-the-namespace))，則金鑰可用來在Adobe Experience Platform上執行查詢。 另請參閱 [此頁面](../building-journeys/about-journey-activities.md#orchestration-activities).
 金鑰也可用來檢查個人是否在歷程中。 事實上，一個人在同一歷程中不能位於兩個不同的位置。 因此，系統不允許相同的金鑰（例如金鑰CRMID=3224）位於相同歷程中的不同位置。
 
-### 進階運算式編輯器 {#adv-exp-editor}
+## 進階運算式編輯器 {#adv-exp-editor}
 
-定義設定檔識別碼時，您可以切換至進階運算式編輯器以建立更複雜的索引鍵（例如，兩個事件欄位的串連）。
+定義事件ID條件或設定檔識別碼時，您可以切換至進階運算式編輯器，以建立更複雜的索引鍵（例如兩個事件欄位的串連）。
 
 ![](assets/journey20.png)
 
