@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，單一，建立，歷程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 531662b7d5e2455a017d68d6037c44b6950cc894
+source-git-commit: 60a7e79a5a40eada7645c1b6b94d8b165d2453b4
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1616'
 ht-degree: 12%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 12%
    >
    >當您選取 **[!UICONTROL 系統產生]** 型別，只有具有eventID型別欄位的結構描述才可使用。 當您選取 **[!UICONTROL 以規則為基礎]** 型別，則所有體驗事件結構描述都可使用。
 
-1. 針對規則型事件，按一下 **[!UICONTROL 事件ID條件]** 欄位。 使用 <!--simple or advanced--> 運算式編輯器，定義系統將用來識別將觸發您歷程之事件的條件。
+1. 針對規則型事件，按一下 **[!UICONTROL 事件ID條件]** 欄位。 使用簡單或進階運算式編輯器，定義系統將使用的條件，以識別將觸發您歷程的事件。
 
 ![](assets/jo-event6.png)
 
