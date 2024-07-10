@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 55666c0fc3e4efb3785de96b96e58ba44016f33d
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 70%
+ht-degree: 93%
 
 ---
 
@@ -80,13 +80,13 @@ ht-degree: 70%
 <table>
 <thead>
 <tr>
-<th><strong>使用Customer Journey Analytics製作報表（可用性限制）</strong><br/></th>
+<th><strong>使用 Customer Journey Analytics (可用性限制) 進行報告</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer報告功能與Customer Journey Analytics功能的互通性得以改善、兩個平台的報告標準化，並改善資料一致性和可靠性。 Journey Optimizer 與 Customer Journey Analytics 之間的緊密整合可讓您更清楚檢視績效量度，讓使用者能做出更明智的決策。</p>
+<p>Journey Optimizer 報告功能改善與 Customer Journey Analytics 功能的互通性，可將兩個平台間的報告標準化，並改善資料一致性與可靠性。Journey Optimizer 與 Customer Journey Analytics 之間的緊密整合可讓您更清楚檢視績效量度，讓使用者能做出更明智的決策。</p>
 <img src="assets/do-not-localize/ajo-cja.gif"/>
 <p>如需詳細資訊，請參閱<a href="../reports/report-gs-cja.md">詳細文件</a>。</p>
 </td>
@@ -115,14 +115,14 @@ ht-degree: 70%
 <table>
 <thead>
 <tr>
-<th><strong>歷程與行銷活動中的多語言訊息（可用性限制）</strong><br/></th>
+<th><strong>歷程與行銷活動的多種語言訊息 (可用性限制)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在，您可以在單一行銷活動或歷程中，輕鬆建立多種語言的內容。 透過此功能，您可以在編輯行銷活動或歷程時切換語言、簡化整個編輯流程，並提高有效管理多語言內容的能力。</p>
-<p>多語言內容目前僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<p>您現在可以在單一行銷活動或歷程中，輕鬆建立多種語言的內容。透過此功能，您可以在編輯行銷活動或歷程時切換語言、簡化整個編輯流程，並提高有效管理多種語言內容的能力。</p>
+<p>多種語言內容目前僅適用於一組組織 (可用性限制)。若要取得存取權，請和您的 Adobe 代表聯絡。</p>
 </td>
 </tr>
 </tbody>
@@ -132,14 +132,14 @@ ht-degree: 70%
 <table>
 <thead>
 <tr>
-<th><strong>歷程中的實驗（可用性限制）</strong><br/></th>
+<th><strong>歷程的實驗 (可用性限制)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer已在行銷活動中提供，現在可支援歷程中的實驗。 實驗是在線上測試的情境下進行的隨機試驗，意即某些隨機選取的使用者會接觸到訊息的指定變化，而另一組隨機選取的使用者則會接觸到一些其他處理方式。 接觸到後，您就可以測量感興趣的結果量度，例如電子郵件開啟、訂閱或購買數。</p>
-<p>歷程中的實驗目前僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<p>Adobe Journey Optimizer 現在支援歷程的實驗，行銷活動已提供此功能。實驗是在線上測試的情境下進行的隨機試驗，意即某些隨機選取的使用者會接觸到訊息的指定變化，而另一組隨機選取的使用者則會接觸到一些其他處理方式。 接觸到後，您就可以測量感興趣的結果量度，例如電子郵件開啟、訂閱或購買數。</p>
+<p>歷程的實驗目前僅適用於一組組織 (可用性限制)。若要取得存取權，請和您的 Adobe 代表聯絡。</p>
 </td>
 </tr>
 </tbody>
@@ -205,9 +205,9 @@ ht-degree: 70%
 
 #### 電子郵件頻道
 
-* **清單 — 取消訂閱**  — 繼大量寄件者的最新Gmail和Yahoo公告後，Journey Optimizer支援「post/1-click」清單取消訂閱選項。 請參閱下列頁面： [電子郵件選擇退出管理](../email/email-opt-out.md#unsubscribe-header) 和 [設定電子郵件設定](../email/email-settings.md#list-unsubscribe).
+* **清單 - 取消訂閱** - 繼最近 Gmail 和 Yahoo 針對大量寄件者的公告後，Journey Optimizer 支援「發佈/一鍵點擊」清單取消訂閱選項。請參閱下列頁面：[電子郵件選擇退出管理](../email/email-opt-out.md#unsubscribe-header)和[設定電子郵件設定](../email/email-settings.md#list-unsubscribe)。
 
-  **注意**  — 針對任何新頻道介面，預設會啟動清單取消訂閱標題選項。 對於現有曲面，預設會取消核取管道曲面設定中的「一鍵取消訂閱URL」選項。 如果您先前在電子郵件內文中使用一鍵選擇退出URL，此設定仍然有效。 如果勾選了管道介面設定中的「一鍵取消訂閱URL」 ，Adobe Journey Optimizer將會在管道介面設定中使用預設產生的一鍵取消訂閱URL。
+  **注意** - 針對任何新管道表面，預設會啟動清單取消訂閱標題選項。 對於現有表面，預設會取消核取管道表面設定中的「一鍵取消訂閱 URL」選項。 如果您先前在電子郵件內文使用一鍵選擇退出 URL，此設定仍然有效。 如果勾選了管道表面設定中的「一鍵取消訂閱 URL」 ，Adobe Journey Optimizer 將會在管道表面設定中使用預設產生的一鍵取消訂閱 URL。
 
 #### 簡訊頻道
 
@@ -226,4 +226,4 @@ ht-degree: 70%
 
 #### 直接郵件頻道
 
-* 直接郵件通道現在可供所有客戶使用。 [閱讀全文](../direct-mail/get-started-direct-mail.md)
+* 直接郵件頻道現在可供所有客戶使用。 [閱讀全文](../direct-mail/get-started-direct-mail.md)
