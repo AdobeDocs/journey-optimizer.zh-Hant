@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1873'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -276,7 +276,7 @@ ht-degree: 98%
       + [開始使用多語言內容](using/content-management/multilingual-gs.md)
       + [使用手動翻譯建立多語言內容](using/content-management/multilingual-manual.md)
       + [使用自動化翻譯建立多語言內容](using/content-management/multilingual-automated.md)
-   + 使用內容實驗 {#content-experiment}
+   + 使用內容實驗{#content-experiment}
       + [開始使用內容實驗](using/content-management/get-started-experiment.md)
       + [建立內容實驗](using/content-management/content-experiment.md)
       + [設定實驗報告](using/content-management/reporting-configuration.md)
@@ -311,11 +311,11 @@ ht-degree: 98%
       + Personalization 使用案例{#personalization-use-cases}
          + [訂單狀態通知](using/personalization/personalization-use-case.md)
          + [放棄購物車電子郵件](using/personalization/personalization-use-case-helper-functions.md)
-   + 內容範本 {#content-templates}
+   + 內容範本 {#content-templates}
       + [開始使用內容範本](using/content-management/content-templates.md)
-      + [存取及管理範本](using/content-management/access-content-templates.md)
+      + [存取並管理範本](using/content-management/access-content-templates.md)
       + [建立內容範本](using/content-management/create-content-templates.md)
-      + [測試內容範本](using/content-management/test-content-templates.md)
+      + [建立內容範本](using/content-management/test-content-templates.md)
       + [使用內容範本](using/content-management/use-content-templates.md)
    + 可重複使用內容片段 {#fragments}
       + [開始使用片段](using/content-management/fragments.md)
@@ -386,7 +386,7 @@ ht-degree: 98%
    + [警報](using/reports/alerts.md)
    + [使用 Customer Journey Analytics](using/reports/cja-ajo.md)
    + [排除原因](using/reports/exclusion-list.md)
-+ 新報告介面(LA){#channel-report}
++ 新報告介面 (LA){#channel-report}
    + [開始使用新報告介面](using/reports/report-gs-cja.md)
    + [管理您的報告](using/reports/report-cja-manage.md)
    + [歷程報告](using/reports/journey-global-report-cja.md)
