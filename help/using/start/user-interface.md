@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 0ccc6453594aaf501f15e5342331b1649346bfa3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1348'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -132,9 +132,9 @@ ht-degree: 98%
 
 * **[!UICONTROL 警報]** - 使用者介面可讓您根據 Adobe Experience Platform 可檢視性深入解析顯示的指標查看收到警報的歷史記錄。UI 也可讓您檢視、啟用和停用可用的警報規則。 [了解更多](../reports/alerts.md)
 
-* **[!UICONTROL 沙箱]** - Adobe Experience 平台提供的沙箱可將單一執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。瀏覽此區段以管理您的沙箱。 [了解更多](../administration/sandboxes.md)
+* **[!UICONTROL 沙箱]** - Adobe Experience 平台提供的沙箱可將單一執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。瀏覽此區段以管理沙箱。[了解更多](../administration/sandboxes.md)
 
-* **[!UICONTROL 頻道]**  — 使用此區段來設定您的管道，包括子網域、表面和傳遞能力設定。 [了解更多](../configuration/get-started-configuration.md)
+* **[!UICONTROL 管道]** - 使用此區段來設定管道，包括子網域、表面和傳遞能力設定。 [了解更多](../configuration/get-started-configuration.md)
 
 * **[!UICONTROL 標籤]** - 利用統一標籤，您可以輕鬆分類歷程與行銷活動，進而改進清單的搜尋結果。[進一步了解](../start/search-filter-categorize.md#work-with-unified-tags)
 
