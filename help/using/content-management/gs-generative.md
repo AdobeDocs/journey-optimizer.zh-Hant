@@ -11,10 +11,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: b5dbfbd6d1bb4f1451f1ccab7387af3c37d6d060
-workflow-type: ht
-source-wordcount: '665'
-ht-degree: 100%
+source-git-commit: 267d1850cbe30b1078f3b5b5bd228364bb63edd6
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
 >title="Adobe 生成式 AI 術語"
->abstract="要存取此功能，您必須同意 Adobe Experience Cloud Generative Al 使用者指南。您為此功能提供的任何提示、內容、補充資訊或其他輸入內容都必須與特定內容相關，其中可能包括您的品牌推廣材料、網站內容、資料、此類資料的結構描述、範本或其他受信任檔案，並且不得包含任何個人資訊 (個人資訊包括可連結回特定個人的任何內容)。 您應該檢閱此功能的任何輸出是否準確，並確定它適合您的使用案例"
+>abstract="要存取此功能，您必須同意 Adobe Experience Cloud Generative Al 使用者指南。請檢閱此功能的任何輸出是否準確，並確定其適合您的使用案例。"
 >additional-url="https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 使用者手冊"
 
 >[!BEGINSHADEBOX]
@@ -54,7 +54,7 @@ ht-degree: 100%
 >
 >Adobe Journey Optimizer 中的 AI Assistant 目前僅作為測試版提供給部分使用者。
 
-在 Adobe Journey Optimizer 中，Azure OpenAI 與 Azure 視覺技術所支援的 AI 助理，可為文字和影像提供主動式內容變化建議。 它可用於電子郵件、推播和簡訊管道。這項新功能提供提示型文字與影像產生功能。 透過 Adobe Firefly 管理影像產生功能。
+Adobe Journey Optimizer中的AI Assistant由Azure OpenAI提供技術支援，針對文字和影像提供主動式內容變化建議。 它可用於電子郵件、推播和簡訊管道。這項新功能提供提示型文字與影像產生功能。 透過 Adobe Firefly 管理影像產生功能。
 
 使用 AI 助理，利用不同的主要標題和影像進行實驗，讓訊息的影響達到最佳成效。 產生多個變體並建置實驗加以比較。 運用 Journey Optimizer 內容實驗，您可以定義多種訊息處理，以測量對目標對象執行哪種處理的效果最佳。 您可以選擇變更傳遞內容或主旨。 訊息對象會隨機分配給每種處理，以就指定的量度而言，判斷哪種處理的效果最佳。 若要了解內容實驗的詳細資訊，請參閱[本章節](../content-management/content-experiment.md)。
 
