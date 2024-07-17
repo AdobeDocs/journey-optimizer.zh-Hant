@@ -9,7 +9,7 @@ exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 11%
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示包含 *Content-Type* 請求標頭中的欄位：
+下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;欄位的有效值：
 
-| 頁首名稱 | 值 |
+| 標題名稱 | 值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
 
@@ -68,7 +68,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **回應**
 
-成功的回應會傳回關於新建立決定規則的資訊 `id`. 您可以使用 `id` 在稍後的步驟中更新或刪除您的決定規則，或在稍後的教學課程中使用它來建立決定、決定規則和遞補優惠。
+成功的回應傳回關於新建立決定規則`id`的資訊。 您可以在稍後的步驟中使用`id`來更新或刪除您的決定規則，或在稍後的教學課程中使用它來建立決定、決定規則和遞補優惠。
 
 ```json
 {

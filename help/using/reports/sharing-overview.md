@@ -17,15 +17,15 @@ ht-degree: 3%
 
 # 建立歷程報告 {#design-jo-reports}
 
-除了 [即時報表](live-report.md) 和內建 [全域報告功能](global-report.md)， [!DNL Journey Optimizer] 可以自動將歷程績效資料傳送至Adobe Experience Platform，以便與其他資料結合而進行分析。
+除了[即時報告](live-report.md)和內建[全域報告功能](global-report.md)之外，[!DNL Journey Optimizer]還可以自動將歷程績效資料傳送到Adobe Experience Platform，以便與其他資料結合以進行分析。
 
 >[!NOTE]
 >
 >此功能預設會在歷程步驟事件的所有執行個體上啟動。 您無法修改或更新在布建步驟事件期間建立的結構描述和資料集。 預設情況下，這些結構描述和資料集處於唯讀模式。
 
-例如，您已設定傳送多封電子郵件的歷程。 此功能可讓您結合 [!DNL Journey Optimizer] 含有下游事件資料的資料，例如已發生轉換的數量、網站上發生的參與度或是商店中發生的交易數。 歷程資訊可與Adobe Experience Platform上的資料結合，結合方式為來自其他數位屬性或離線屬性，以提供更完整的效能檢視。
+例如，您已設定傳送多封電子郵件的歷程。 此功能可讓您將[!DNL Journey Optimizer]資料與下游事件資料結合，例如發生轉換數、網站上發生的參與數，或商店中發生的交易數。 歷程資訊可與Adobe Experience Platform上的資料結合，結合方式為來自其他數位屬性或離線屬性，以提供更完整的效能檢視。
 
-[!DNL Journey Optimizer] 自動建立必要的結構描述，並針對個人在歷程中採取的每個步驟，將資料集串流至Adobe Experience Platform。 步驟事件對應於在歷程中從某個節點移動到另一個節點的個人。 例如，在包含事件、條件和動作的歷程中，會將三個步驟事件傳送至Adobe Experience Platform。
+[!DNL Journey Optimizer]會自動建立必要的結構描述，並針對個人在歷程中執行的每個步驟，將資料集串流至Adobe Experience Platform。 步驟事件對應於在歷程中從某個節點移動到另一個節點的個人。 例如，在包含事件、條件和動作的歷程中，會將三個步驟事件傳送至Adobe Experience Platform。
 
 在某些情況下，可以為同一節點建立多個事件。 例如，在等待活動的案例中：
 
@@ -36,14 +36,14 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->無法為即時設定檔服務開啟資料集。 請確定 **[!UICONTROL 個人資料]** 切換功能已關閉。
+>無法為即時設定檔服務開啟資料集。 請確定&#x200B;**[!UICONTROL 設定檔]**&#x200B;切換功能已關閉。
 
-[!DNL Journey Optimizer] 會在資料發生時以串流方式傳送資料。 您可以使用查詢服務來查詢此資料。 您可以連線至Customer Journey Analytics或其他BI工具，以檢視與這些步驟相關的資料。
+[!DNL Journey Optimizer]會以串流方式在資料發生時傳送資料。 您可以使用查詢服務來查詢此資料。 您可以連線至Customer Journey Analytics或其他BI工具，以檢視與這些步驟相關的資料。
 
 將建立下列結構描述：
 
-* 的歷程步驟事件結構描述 [!DNL Journey Orchestration]  — 繫結至歷程中繼資料的歷程步驟事件。
-* 歷程結構描述及其歷程欄位 [!DNL Journey Orchestration]  — 說明歷程的歷程中繼資料。
+* [!DNL Journey Orchestration]的歷程步驟事件結構描述 — 繫結至歷程中繼資料的歷程步驟事件。
+* 具有[!DNL Journey Orchestration]的歷程欄位的歷程結構描述 — 描述歷程的歷程中繼資料。
 
 ![](assets/sharing1.png)
 
@@ -63,12 +63,12 @@ ht-degree: 3%
 
 ## 與Customer Journey Analytics整合 {#integration-cja}
 
-[!DNL Journey Optimizer] 步驟事件可以連結到中的其他資料集 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant){target="_blank"}.
+[!DNL Journey Optimizer]個步驟事件可以連結到[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant){target="_blank"}中的其他資料集。
 
 一般工作流程為：
 
-* [!DNL Customer Journey Analytics] 內嵌「歷程步驟事件」資料集。
-* 此 **profileID** 相關聯「用於Journey Orchestration的歷程步驟事件結構描述」中的欄位定義為身分欄位。 在 [!DNL Customer Journey Analytics]，然後您可以將此資料集連結至與以人員為基礎的識別碼具有相同值的任何其他資料集。
-* 若要在中使用此資料集 [!DNL Customer Journey Analytics]，如需跨管道歷程分析，請參閱 [Customer Journey Analytics檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
+* [!DNL Customer Journey Analytics]內嵌「歷程步驟事件」資料集。
+* 關聯的「用於Journey Orchestration的歷程步驟事件結構描述」中的&#x200B;**profileID**&#x200B;欄位定義為身分欄位。 在[!DNL Customer Journey Analytics]中，您可以將此資料集連結至與以人員為基礎的識別碼具有相同值的任何其他資料集。
+* 若要在[!DNL Customer Journey Analytics]中使用此資料集，如需進行跨管道歷程分析，請參閱[Customer Journey Analytics檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}。
 
-➡️ [使用Customer Journey Analytics](cja-ajo.md){target="_blank"}
+➡️[使用Customer Journey Analytics](cja-ajo.md){target="_blank"}

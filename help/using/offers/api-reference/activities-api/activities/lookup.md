@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # 查詢決定 {#look-up-decision}
 
-您可以透過向以下網址發出GET請求來查詢特定決策： [!DNL Offer Library] 包含決定的API `id` 在請求路徑中。
+您可以向[!DNL Offer Library] API發出GET要求，在要求路徑中包含決定`id`，以查詢特定決定。
 
 **API格式**
 
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-decisions/offerDecisi
 
 **回應**
 
-成功的回應會傳回決定的詳細資料，包括有關您獨特決定的資訊 `id`.
+成功的回應會傳回決定的詳細資料，包括有關您唯一決定`id`的資訊。
 
 ```json
 {

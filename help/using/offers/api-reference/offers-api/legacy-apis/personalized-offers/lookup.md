@@ -17,7 +17,7 @@ ht-degree: 2%
 
 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 
-您可以向以下網站發出GET請求，查詢特定的個人化優惠： **選件資料庫** 包含個人化優惠的API `@id` 或請求路徑中個人化優惠的名稱。
+您可以向&#x200B;**優惠資料庫** API發出GET要求，在要求路徑中包含個人化優惠`@id`或個人化優惠的名稱，以查詢特定的個人化優惠。
 
 **API格式**
 
@@ -30,8 +30,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 個人化優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_PERSONALIZED_OFFER}` | 定義與個人化優惠相關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
-| `id` | 用於比對 `@id` 個實體的屬性。 字串完全相符。 引數&quot;id&quot;和&quot;name&quot;不能一起使用。 | `xcore:personalized-offer:124cc332095cfa74` |
-| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數 `id` 和 `name` 不能一起使用 | `Discount offer` |
+| `id` | 用於比對實體`@id`屬性的字串。 字串完全相符。 引數&quot;id&quot;和&quot;name&quot;不能一起使用。 | `xcore:personalized-offer:124cc332095cfa74` |
+| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數`id`和`name`不能一起使用 | `Discount offer` |
 
 **要求**
 
@@ -47,7 +47,7 @@ curl -X GET \
 
 **回應**
 
-成功的回應會傳回位置詳細資訊，包括容器ID、執行個體ID和獨特個人化優惠的相關資訊 `@id`.
+成功的回應會傳回位置詳細資料，包括容器ID、執行個體ID和唯一個人化優惠`@id`的相關資訊。
 
 ```json
 {

@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # 刪除遞補優惠 {#delete-fallback-offer}
 
-有時可能必須移除(DELETE)遞補優惠。 您只能在租使用者容器中建立的遞補優惠方案，才會被刪除。 這可透過向以下對象執行DELETE請求來完成 [!DNL Offer Library] API使用您要刪除之遞補優惠的$id。
+有時可能必須移除(DELETE)遞補優惠。 您只能在租使用者容器中建立的遞補優惠方案，才會被刪除。 這是透過使用您要刪除的遞補優惠的$id對[!DNL Offer Library] API執行DELETE要求來完成。
 
 **API格式**
 

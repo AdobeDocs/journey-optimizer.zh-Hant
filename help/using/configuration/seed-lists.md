@@ -12,13 +12,13 @@ exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
 source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
 # 使用種子清單 {#seed-lists}
 
-中的種子清單 [!DNL Journey Optimizer] 可讓您在傳送中自動包含特定的種子地址。
+[!DNL Journey Optimizer]中的種子清單可讓您在傳遞中自動包含特定的種子地址。
 
 >[!CAUTION]
 >
@@ -48,11 +48,11 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->支援變體，包括多語言和實驗變體。 每個種子地址會收到相同訊息的每個變體的單一副本，例如來自 [內容實驗](../content-management/get-started-experiment.md). 請注意，條件式內容不會傳送個別種子電子郵件。
+>支援變體，包括多語言和實驗變體。 每個種子位址會收到相同訊息的每個變體的單一復本，例如，來自[內容實驗](../content-management/get-started-experiment.md)的不同版本。 請注意，條件式內容不會傳送個別種子電子郵件。
 
 ## 存取種子清單 {#access-seed-lists}
 
-若要存取已建立的種子清單，請前往 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL 電子郵件設定]**，並選取 **[!UICONTROL 種子清單]**.
+若要存取已建立的種子清單，請移至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]**，然後選取&#x200B;**[!UICONTROL 種子清單]**。
 
 <!--
 >[!CAUTION]
@@ -61,7 +61,7 @@ ht-degree: 15%
 
 >[!CAUTION]
 >
->若要能夠檢視、編輯和管理種子清單，您必須擁有 **[!UICONTROL 管理種子清單]** 許可權。
+>若要能夠檢視、編輯及管理種子清單，您必須擁有&#x200B;**[!UICONTROL 管理種子清單]**&#x200B;許可權。
 
 ![](assets/seed-list-access.png)
 
@@ -69,13 +69,13 @@ ht-degree: 15%
 
 ![](assets/seed-list-filtering.png)
 
-使用 **[!UICONTROL 刪除]** 按鈕以永久移除專案。
+使用&#x200B;**[!UICONTROL 刪除]**&#x200B;按鈕永久移除專案。
 
 >[!CAUTION]
 >
->無法刪除使用中的種子清單 [行銷活動](../campaigns/review-activate-campaign.md) 或 [歷程](../building-journeys/publishing-the-journey.md). 您需要停用行銷活動/歷程，或編輯行銷活動，以使用尚未選取種子清單的另一個表面。 [進一步瞭解使用種子清單](#use-seed-list)
+>無法刪除使用中[行銷活動](../campaigns/review-activate-campaign.md)或[歷程](../building-journeys/publishing-the-journey.md)中使用的種子清單。 您需要停用行銷活動/歷程，或編輯行銷活動，以使用尚未選取種子清單的另一個表面。 [進一步瞭解使用種子清單](#use-seed-list)
 
-您可以按一下種子清單名稱來進行編輯。 <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
+您可以按一下種子清單名稱來進行編輯。<!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
 ## 建立種子清單 {#create-seed-list}
 
@@ -92,9 +92,9 @@ ht-degree: 15%
 
 若要建立種子清單，請遵循下列步驟。
 
-1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL 種子清單]** 功能表。
+1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL 種子清單]**&#x200B;功能表。
 
-1. 選取 **[!UICONTROL 建立種子清單]** 按鈕。
+1. 選取&#x200B;**[!UICONTROL 建立種子清單]**&#x200B;按鈕。
 
    ![](assets/seed-list-create-button.png)
 
@@ -122,7 +122,7 @@ ht-degree: 15%
    >
    >您可以合併兩個選項，但種子清單中的地址總數不能超過50。
 
-1. 按一下 **[!UICONTROL 建立]** 以確認。 新建立的種子清單會顯示在 [種子清單畫面](#access-seed-lists).
+1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以確認。 新建立的種子清單會顯示在[種子清單畫面](#access-seed-lists)中。
 
 ## 在行銷活動或歷程中使用種子清單 {#use-seed-list}
 
@@ -132,9 +132,9 @@ ht-degree: 15%
 >
 >傳送至種子地址的訊息不包含在歷程或行銷活動報告中。
 
-1. 建立曲面並選取 **[!UICONTROL 電子郵件]** 頻道。 [了解更多](../email/email-settings.md)
+1. 建立表面並選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;頻道。 [了解更多](../email/email-settings.md)
 
-1. 選取您所選專案的種子清單，位於 [對應區段](../email/email-settings.md#seed-list).
+1. 在[對應的區段](../email/email-settings.md#seed-list)中選取您選擇的種子清單。
 
    >[!NOTE]
    >
@@ -144,13 +144,13 @@ ht-degree: 15%
 
 1. 提交表面。
 
-1. 建立 [行銷活動](../campaigns/create-campaign.md) 或 [歷程](../building-journeys/journey-gs.md).
+1. 建立[行銷活動](../campaigns/create-campaign.md)或[歷程](../building-journeys/journey-gs.md)。
 
-1. 選取 **[!UICONTROL 電子郵件]** 動作並選取 [表面](channel-surfaces.md) 包含與您相關的種子清單。
+1. 選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;動作，然後選取[表面](channel-surfaces.md)，其中包含與您相關的種子清單。
 
    ![](assets/seed-list-campaign-email.png)
 
-1. 啟用您的 [行銷活動](../campaigns/review-activate-campaign.md) 或發佈您的 [歷程](../building-journeys/publishing-the-journey.md).
+1. 啟用您的[行銷活動](../campaigns/review-activate-campaign.md)或發佈您的[歷程](../building-journeys/publishing-the-journey.md)。
 
 現在，每次透過該促銷活動或歷程將電子郵件訊息傳送給客戶時，所選種子清單上的電子郵件地址也將以相同的條件收到訊息，同時具有與目標收件者相同的內容。
 

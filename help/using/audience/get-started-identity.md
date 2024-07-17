@@ -18,15 +18,15 @@ ht-degree: 10%
 
 身分是實體所獨有的資料，通常是真實世界的物件，例如個人、硬體裝置或網頁瀏覽器。 完全合格的身分包含兩個元素：
 
-* 此 **身分名稱空間** 用作與身分相關之內容的指示器。
-* 此 **身分值** 是代表實體的字串。
+* **身分名稱空間**&#x200B;是身分相關內容的指標。
+* **身分值**&#x200B;是代表實體的字串。
 
-讓我們選電話號碼555-555-1234。 在此範例中，字串「555-555-1234」是 **身分值**，可歸類為「電話」 **身分名稱空間**.
+讓我們選電話號碼555-555-1234。 在此範例中，字串「555-555-1234」是&#x200B;**身分值**，它可以歸類到「電話」**身分名稱空間**&#x200B;中。
 
-此 **身分** 中的選單 [!DNL Adobe Journey Optimizer] 可讓您有效率地瀏覽組成資料庫中客戶的各種識別碼。
+[!DNL Adobe Journey Optimizer]中的&#x200B;**身分**&#x200B;功能表可讓您有效率地瀏覽組成資料庫中客戶的各種識別碼。
 
 ![](assets/identities-home.png)
 
-它提供 **身分圖表**，特定客戶的不同身分之間的關係地圖，透過視覺化呈現方式，呈現客戶如何跨不同管道與您的品牌互動。 所有客戶身分圖表會由Adobe Experience Platform Identity Service集體管理及更新，以回應客戶活動。
+它提供&#x200B;**身分圖表**，這是特定客戶不同身分之間關係的對應，可讓您以視覺化方式呈現客戶如何跨不同管道與您的品牌互動。 所有客戶身分圖表會由Adobe Experience Platform Identity Service集體管理及更新，以回應客戶活動。
 
-有關如何使用身分的詳細資訊，請參閱 [Identity Service檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target="_blank"}.
+[Identity Service檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target="_blank"}中提供了如何使用身分的詳細資訊。

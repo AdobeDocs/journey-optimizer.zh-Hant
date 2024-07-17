@@ -38,19 +38,19 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 * 直接促銷新系列和影像的10%優惠方案。
 * 另一個則只會宣傳特殊優惠方案，未指定任何影像的10%優惠。
 
-此處的目標是檢視收件者是否會根據收到的實驗與電子郵件互動。 因此，我們將選擇 **[!UICONTROL 電子郵件開啟次數]** 作為此內容實驗中的主要目標量度。
+此處的目標是檢視收件者是否會根據收到的實驗與電子郵件互動。 因此，我們將選擇&#x200B;**[!UICONTROL 電子郵件開啟次數]**&#x200B;作為此內容實驗中的主要目標量度。
 
 ![](assets/content_experiment.png)
 
 ## 建立您的內容 {#campaign-experiment}
 
-1. 從建立和設定您的電子郵件、簡訊或推播通知開始 [行銷活動](../campaigns/create-campaign.md) 或 [歷程](../building-journeys/journeys-message.md) 根據您的需求。
+1. 首先，根據您的需求，建立並設定您的電子郵件、簡訊或推播通知[行銷活動](../campaigns/create-campaign.md)或[歷程](../building-journeys/journeys-message.md)。
 
    >[!AVAILABILITY]
    >
    >歷程中的實驗目前僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。
 
-1. 從 **[!UICONTROL 編輯內容]** 視窗，開始個人化處理A。
+1. 從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;視窗，開始個人化處理A。
 
    針對此處理方式，我們將直接在主旨行中指定特殊優惠方案，並新增個人化。
 
@@ -70,27 +70,27 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 >title="成功量度"
 >abstract="成功量度用於追蹤和評估實驗中表現最佳的處理。在使用之前，請務必針對特定量度設定資料集。"
 
-1. 當您的訊息已個人化時，從行銷活動摘要頁面，按一下 **[!UICONTROL 建立實驗]** 以開始設定您的內容實驗。
+1. 當您的訊息已個人化時，從行銷活動摘要頁面，按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以開始設定您的內容實驗。
 
    ![](assets/content_experiment_3.png)
 
-1. 選取 **[!UICONTROL 成功量度]** 您想要為實驗設定。
+1. 選取您想要為實驗設定的&#x200B;**[!UICONTROL 成功量度]**。
 
-   在此範例中，選取 **[!UICONTROL 電子郵件開啟]** 以測試設定檔是否會開啟其電子郵件（如果促銷代碼在主題行中）。
+   在此範例中，選取&#x200B;**[!UICONTROL 電子郵件開啟]**&#x200B;以測試設定檔是否會開啟其電子郵件（如果促銷代碼在主旨行中）。
 
    ![](assets/content_experiment_11.png)
 
-1. 使用應用程式內或網頁通道設定實驗，然後選擇 **[!UICONTROL 傳入點按次數]**， **[!UICONTROL 不重複傳入點按次數]** ， **[!UICONTROL 頁面檢視]** ，或 **[!UICONTROL 不重複頁面檢視量度]** ，則 **[!UICONTROL 點按動作]**  下拉式清單可讓您精確追蹤和監控特定頁面上的點按次數和檢視次數。
+1. 使用應用程式內或Web頻道設定實驗，並選擇&#x200B;**[!UICONTROL 傳入點按]**、**[!UICONTROL 不重複傳入點按]**、**[!UICONTROL 頁面檢視]**&#x200B;或&#x200B;**[!UICONTROL 不重複頁面檢視量度]**&#x200B;時，**[!UICONTROL 點選動作]**&#x200B;下拉式清單可讓您精確追蹤和監視特定頁面上的點按和檢視。
 
    ![](assets/content_experiment_20.png)
 
-1. 按一下 **[!UICONTROL 新增處理方式]** 以建立所需數量的新處理。
+1. 按一下&#x200B;**[!UICONTROL 新增處理]**&#x200B;以建立所需數量的新處理。
 
    ![](assets/content_experiment_8.png)
 
-1. 變更 **[!UICONTROL 標題]** 以更能區分您的治療方式。
+1. 變更您處理方式的&#x200B;**[!UICONTROL 標題]**，以便更佳地區分它們。
 
-1. 選擇以新增 **[!UICONTROL 保留樣本]** 群組至您的傳遞。 此群組將不會收到來自此行銷活動的任何內容。
+1. 選擇將&#x200B;**[!UICONTROL 保留]**&#x200B;群組新增至您的傳遞。 此群組將不會收到來自此行銷活動的任何內容。
 
    切換列會自動取得母體的10%，您可以視需要調整此百分比。
 
@@ -100,32 +100,32 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 
    ![](assets/content_experiment_12.png)
 
-1. 然後，您可以選擇將精確百分比分配給每個 **[!UICONTROL 處理]** 或直接開啟 **[!UICONTROL 平均分配]** 切換列。
+1. 然後，您可以選擇為每個&#x200B;**[!UICONTROL 處理]**&#x200B;分配精確百分比，或直接開啟&#x200B;**[!UICONTROL 平均分配]**&#x200B;切換列。
 
    ![](assets/content_experiment_13.png)
 
-1. 按一下 **[!UICONTROL 建立]** 設定您的設定時。
+1. 設定您的組態時，按一下&#x200B;**[!UICONTROL 建立]**。
 
 ## 設計您的處理方式 {#treatment-experiment}
 
-1. 從 **[!UICONTROL 編輯內容]** 視窗中，選取您的處理B以變更內容。
+1. 從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;視窗中，選取您的處理B以變更內容。
 
-   在此，我們選擇不指定 **[!UICONTROL 主旨列]**.
+   在此處，我們選擇不在&#x200B;**[!UICONTROL 主旨列]**&#x200B;中指定選件。
 
    ![](assets/content_experiment_18.png)
 
-1. 按一下 **[!UICONTROL 編輯電子郵件內文]** 以進一步個人化您的處理方式B。
+1. 按一下&#x200B;**[!UICONTROL 編輯電子郵件內文]**，進一步個人化您的處理B。
 
    ![](assets/content_experiment_9.png)
 
-1. 設計處理方式後，按一下 **[!UICONTROL 更多動作]** 若要存取與處理相關的選項： **[!UICONTROL 重新命名]**， **[!UICONTROL 複製]** 和 **[!UICONTROL 刪除]**.
+1. 設計處理之後，按一下&#x200B;**[!UICONTROL 更多動作]**&#x200B;以存取與處理相關的選項： **[!UICONTROL 重新命名]**、**[!UICONTROL 複製]**&#x200B;以及&#x200B;**[!UICONTROL 刪除]**。
 
    ![](assets/content_experiment_7.png)
 
-1. 如有需要，請存取 **[!UICONTROL 實驗設定]** 功能表以變更您的處理設定。
+1. 如有需要，請存取&#x200B;**[!UICONTROL 實驗設定]**&#x200B;功能表以變更您的處理組態。
 
    ![](assets/content_experiment_19.png)
 
-1. 定義訊息內容後，按一下 **[!UICONTROL 模擬內容]** 按鈕來控制傳遞的呈現，並使用測試設定檔檢查個人化設定。 [了解更多](../content-management/preview-test.md)
+1. 定義訊息內容後，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕以控制傳遞的呈現，並使用測試設定檔檢查個人化設定。 [了解更多](../content-management/preview-test.md)
 
 設定實驗後，您可以在報表中追蹤傳送成功。 [了解更多](../reports/campaign-global-report.md#experimentation-report)

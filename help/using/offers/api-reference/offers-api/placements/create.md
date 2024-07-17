@@ -9,19 +9,19 @@ exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
 # 建立位置 {#create-placement}
 
-您可以透過向以下網站發出POST請求來建立位置： [!DNL Offer Library] API。
+您可以向[!DNL Offer Library] API發出POST要求來建立位置。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示包含 *Content-Type* 請求標頭中的欄位：
+下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;欄位的有效值：
 
-| 頁首名稱 | 值 |
+| 標題名稱 | 值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
 
@@ -66,7 +66,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/placements' \
 
 **回應**
 
-成功的回應會傳回新建立的位置和位置的詳細資料 `id`. 您可以在稍後使用它的步驟來更新或刪除您的位置。 您可以使用不重複的位置 `id` 在稍後的教學課程中，以建立決定、決定規則和遞補優惠。
+成功的回應會傳回新建立的位置和位置`id`的詳細資料。 您可以在稍後使用它的步驟來更新或刪除您的位置。 您可在稍後的教學課程中使用您的獨特位置`id`來建立決定、決定規則和遞補優惠。
 
 ```json
 {

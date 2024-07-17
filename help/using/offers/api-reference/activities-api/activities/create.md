@@ -9,19 +9,19 @@ exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
 # 建立決定 {#create-decision}
 
-您可以透過向以下傳送POST請求來建立決策： [!DNL Offer Library] API。
+您可以向[!DNL Offer Library] API發出POST要求來建立決定。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
+下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
 
-| 頁首名稱 | 值 |
+| 標題名稱 | 值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
 
@@ -77,7 +77,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-decisions' \
 
 **回應**
 
-成功的回應會傳回關於新建立決定的資訊，包括其唯一的 `id`. 您可以使用 `id` 在後續步驟中更新或刪除您的決定。
+成功的回應會傳回關於新建立決定的資訊，包括其唯一的`id`。 您可在後續步驟中使用`id`來更新或刪除您的決定。
 
 ```json
 {

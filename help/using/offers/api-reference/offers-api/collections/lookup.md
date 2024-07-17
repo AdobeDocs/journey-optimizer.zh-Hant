@@ -17,7 +17,7 @@ ht-degree: 4%
 
 集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
 
-您可以透過向以下網址發出GET請求來查詢特定集合： [!DNL Offer Library] 包含集合的API `id` 在請求路徑中。
+您可以透過向[!DNL Offer Library] API發出GET要求來查詢特定集合，API在要求路徑中包含集合`id`。
 
 **API格式**
 
@@ -43,7 +43,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-collections/offerColl
 
 **回應**
 
-成功的回應會傳回集合的詳細資料，包括有關您獨特集合的資訊 `id`.
+成功的回應會傳回集合的詳細資料，包括有關唯一集合`id`的資訊。
 
 ```json
 {

@@ -19,7 +19,7 @@ ht-degree: 11%
 
 隱藏清單包含您要從傳送中排除的地址和網域，因為傳送給這些聯絡人可能會損害您的傳送信譽和傳送率。
 
-此 [!DNL Journey Optimizer] 隱藏清單是在您自己的環境層級（即針對指定的沙箱）進行管理。
+[!DNL Journey Optimizer]隱藏清單是在您自己的環境層級（亦即針對指定的沙箱）管理。
 
 它會收集在單一使用者端環境中所有郵件中隱藏的電子郵件地址和網域，這表示會特定於與沙箱ID關聯的組織ID。
 
@@ -41,40 +41,40 @@ ht-degree: 11%
 
 地址會新增到隱藏清單中，如下所示：
 
-* 全部 **硬跳出** 和 **垃圾訊息申訴** 在單一事件發生後，自動將對應的地址傳送至隱藏清單。 進一步瞭解中的垃圾郵件投訴 [本節](#spam-complaints).
+* 所有&#x200B;**硬退信**&#x200B;和&#x200B;**垃圾郵件申訴**&#x200B;都會在單次發生後自動將對應的地址傳送到隱藏清單。 在[本節](#spam-complaints)中進一步瞭解垃圾郵件投訴。
 
-* **軟退信** 不要立即傳送位址至隱藏清單，但會增加錯誤計數器。 數個 [重試](../configuration/retries.md) 然後執行，而當錯誤計數器達到臨界值時，該地址就會新增到隱藏清單中。
+* **軟退信**&#x200B;不會立即傳送位址到隱藏清單，但會增加錯誤計數器。 接著會執行數次[重試](../configuration/retries.md)，當錯誤計數器達到臨界值時，會將地址新增到隱藏清單中。
 
-* 您也可以 [**手動** 新增地址或網域](../configuration/manage-suppression-list.md#add-addresses-and-domains) 至隱藏清單。
+* 您也可以&#x200B;[**手動**&#x200B;新增地址或網域](../configuration/manage-suppression-list.md#add-addresses-and-domains)至隱藏清單。
 
-進一步瞭解中的硬跳出和軟跳出 [本節](#delivery-failures).
-
->[!NOTE]
->
->未訂閱的使用者地址無法傳送到隱藏清單，因為他們未接收來自的電子郵件 [!DNL Journey Optimizer]. 他們的選擇在Experience Platform層級處理。 進一步瞭解 [選擇退出](../privacy/opt-out.md).
-
-針對每個地址，抑制的基本原因和抑制類別（軟、硬等） 會顯示在隱藏清單中。 進一步瞭解存取和管理隱藏清單，位於 [本節](../configuration/manage-suppression-list.md).
+在[本節](#delivery-failures)中進一步瞭解硬跳出和軟跳出。
 
 >[!NOTE]
 >
->具有的設定檔 **[!UICONTROL 已隱藏]** 在訊息傳送過程中會排除狀態。 因此，當 **歷程報告** 會將這些設定檔顯示為已移動經過歷程([讀取對象](../building-journeys/read-audience.md) 和 [訊息活動](../building-journeys/journeys-message.md))， **以電子郵件傳送報告** 將不會包含在 **[!UICONTROL 已傳送]** 量度，因為這些量度在傳送電子郵件前會被篩選掉。
+>未訂閱的使用者地址無法傳送到隱藏清單，因為他們沒有接收來自[!DNL Journey Optimizer]的電子郵件。 他們的選擇在Experience Platform層級處理。 深入瞭解[選擇退出](../privacy/opt-out.md)。
+
+針對每個地址，抑制的基本原因和抑制類別（軟、硬等） 會顯示在隱藏清單中。 在[本節](../configuration/manage-suppression-list.md)中進一步瞭解存取及管理隱藏清單。
+
+>[!NOTE]
 >
->進一步瞭解 [即時報告](../reports/live-report.md) 和 [全域報告](../reports/global-report.md). 若要找出所有排除案例的原因，您可以使用 [Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
+>訊息傳送程式會排除狀態為&#x200B;**[!UICONTROL 已隱藏]**&#x200B;的設定檔。 因此，雖然&#x200B;**歷程報告**&#x200B;會顯示這些設定檔已移動歷程（[讀取對象](../building-journeys/read-audience.md)和[訊息活動](../building-journeys/journeys-message.md)），但&#x200B;**電子郵件報告**&#x200B;不會將它們納入&#x200B;**[!UICONTROL 已傳送]**&#x200B;量度中，因為這些設定檔在電子郵件傳送前已篩選掉。
+>
+>深入瞭解[即時報告](../reports/live-report.md)和[全域報告](../reports/global-report.md)。 若要找出所有排除案例的原因，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}。
 
 ### 傳遞失敗 {#delivery-failures}
 
 傳送失敗時有兩種型別的錯誤：
 
-* **硬退信**. 硬跳出表示無效的電子郵件地址（即不存在的電子郵件地址）。 這涉及來自接收電子郵件伺服器的退回訊息，明確指出地址無效。
-* **軟退信**. 這是有效的電子郵件地址發生的暫時電子郵件退信。
+* **硬退信**。 硬跳出表示無效的電子郵件地址（即不存在的電子郵件地址）。 這涉及來自接收電子郵件伺服器的退回訊息，明確指出地址無效。
+* **軟退信**。 這是有效的電子郵件地址發生的暫時電子郵件退信。
 
-A **硬跳出** 自動將電子郵件地址新增至隱藏清單。
+**硬退信**&#x200B;會自動將電子郵件地址新增至隱藏清單。
 
-A **軟退信** <!--or an **ignored** error--> 發生次數太多時，也會在多次重試後將電子郵件地址傳送至隱藏清單。 [進一步瞭解重試](../configuration/retries.md)
+發生太多次的&#x200B;**軟退信** <!--or an **ignored** error-->也會在多次重試後將電子郵件地址傳送至隱藏清單。 [進一步瞭解重試](../configuration/retries.md)
 
 如果您繼續傳送至這些地址，可能會影響您的傳送率，因為這會告訴ISP您可能沒有遵循電子郵件地址清單維護最佳實務，因此您可能不是值得信賴的寄件者。
 
-### 垃圾郵件投訴數 {#spam-complaints}
+### 垃圾訊息申訴 {#spam-complaints}
 
 隱藏清單會收集將您的郵件標籤為垃圾郵件的電子郵件地址。 例如，如果有人寫信給客戶服務，要求永不再收到您的郵件，您執行個體中將隱藏該人員的電子郵件地址，而您將無法再傳送給該地址。
 

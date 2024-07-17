@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 刪除決定規則 {#delete-decision-rule}
 
-有時可能必須移除(DELETE)決定規則。 只能刪除您在租使用者容器中建立的決定規則。 這可透過向以下對象執行DELETE請求來完成 [!DNL Offer Library] API使用您要刪除之決定規則的例項ID。
+有時可能必須移除(DELETE)決定規則。 只能刪除您在租使用者容器中建立的決定規則。 若要這麼做，請使用您要刪除的決定規則的執行個體識別碼，對[!DNL Offer Library] API執行DELETE要求。
 
 **API格式**
 

@@ -23,19 +23,19 @@ ht-degree: 16%
 
 若要選取測試設定檔，請遵循下列步驟：
 
-1. 從訊息的編輯內容畫面或電子郵件設計工具中，按一下 **[!UICONTROL 模擬內容]** 按鈕。
+1. 從訊息的編輯內容畫面或電子郵件Designer中，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕。
 
-1. 按一下 **[!UICONTROL 管理測試設定檔]** 按鈕，然後按一下「 」以選取用於識別測試設定檔的名稱空間 **[!UICONTROL 身分名稱空間]** 選取範圍圖示。 [進一步瞭解Adobe Experience Platform身分識別名稱空間](../audience/get-started-identity.md).
+1. 按一下&#x200B;**[!UICONTROL 管理測試設定檔]**&#x200B;按鈕，然後按一下&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;選取圖示，選取要用來識別測試設定檔的名稱空間。 [進一步瞭解Adobe Experience Platform身分識別名稱空間](../audience/get-started-identity.md)。
 
-   在以下範例中，我們使用 **電子郵件** 名稱空間。
+   在下列範例中，我們使用&#x200B;**電子郵件**&#x200B;名稱空間。
 
    ![](../email/assets/previewselect-namespace.png)
 
-1. 使用搜尋欄位來尋找名稱空間，請選取並按一下 **[!UICONTROL 選取]**
+1. 使用搜尋欄位來尋找名稱空間，選取並按一下&#x200B;**[!UICONTROL 選取]**
 
    ![](../email/assets/preview-email-namespace.png)
 
-1. 在 **[!UICONTROL 身分值]** 欄位，輸入值（此為電子郵件地址）以識別測試設定檔，然後按一下 **[!UICONTROL 新增設定檔]**.
+1. 在&#x200B;**[!UICONTROL 身分值]**&#x200B;欄位中，輸入值（此處為電子郵件地址）以識別測試設定檔，然後按一下&#x200B;**[!UICONTROL 新增設定檔]**。
 
    <!--![](assets/preview-identity-value.png)-->
 

@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 刪除決定規則 {#delete-decision-rule}
 
-有時可能必須移除(DELETE)決定規則。 這可透過向以下對象執行DELETE請求來完成 [!DNL Offer Library] API使用 `id` 要刪除的決定規則的。
+有時可能必須移除(DELETE)決定規則。 這是透過使用您要刪除的決定規則`id`對[!DNL Offer Library] API執行DELETE要求來完成。
 
 **API格式**
 

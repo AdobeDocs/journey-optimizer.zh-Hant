@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 中的子網域委派 [!DNL Journey Optimizer]
+title: ' [!DNL Journey Optimizer]中的子網域委派'
 description: 瞭解如何委派您的子網域
 feature: Subdomains
 topic: Administration
@@ -29,7 +29,7 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->您無法使用相同的傳送網域從傳送訊息 [!DNL Adobe Journey Optimizer] 以及從其他產品(例如 [!DNL Adobe Campaign] 或 [!DNL Adobe Marketo Engage].
+>您無法使用相同的傳送網域從[!DNL Adobe Journey Optimizer]和其他產品（例如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]）傳送訊息。
 
 ## 為什麼要設定子網域？ {#why-set-up-subdomains}
 
@@ -48,15 +48,15 @@ ht-degree: 30%
 
 **了解更多**
 
-* 瞭解如何 [委派您的子網域](delegate-subdomain.md) 直接從介面
-* 瞭解如何 [新增Google TXT記錄](google-txt.md) 至您的子網域，以確保成功傳送電子郵件至Gmail地址
-* 瞭解如何 [存取PTR記錄](ptr-records.md) 為您的子網域產生，可透過傳送郵件伺服器來驗證
+* 瞭解如何直接從介面[委派您的子網域](delegate-subdomain.md)
+* 瞭解如何[將Google TXT記錄](google-txt.md)新增至您的子網域，以確保將電子郵件成功傳送至Gmail地址
+* 瞭解如何[存取為您的子網域產生的PTR記錄](ptr-records.md)，以便透過傳送郵件伺服器來驗證這些記錄
 
 ## 子網域設定方法 {#subdomain-delegation-methods}
 
 子網域設定可讓您設定網域的子區段（技術上稱為「DNS區域」），以便與Adobe Campaign搭配使用。 可用的設定方法有：
 
-* **將子網域完全委派給Adobe** （建議）：子網域已完全委派給Adobe。 Adobe能夠控制並維護傳遞、轉譯及追蹤訊息所需的DNS的各個層面。 [深入瞭解完全子網域委派](delegate-subdomain.md#full-subdomain-delegation)
+* **將子網域完全委派給Adobe** （建議）：子網域已完全委派給Adobe。 Adobe能夠控制並維護傳遞、轉譯及追蹤訊息所需的DNS的各個層面。 [深入瞭解完整子網域委派](delegate-subdomain.md#full-subdomain-delegation)
 
 * **使用 CNAME**：建立子網域並使用 CNAME 以指向 Adobe 特定記錄。 使用此設定，您和Adobe都有責任維護DNS。 [深入瞭解CNAME子網域委派](delegate-subdomain.md#cname-subdomain-delegation)
 
@@ -79,18 +79,18 @@ ht-degree: 30%
 
 ## 存取委派的子網域 {#access-delegated-subdomains}
 
-您所有委派的子網域會顯示在 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL 子網域]** 功能表。 篩選器可協助您調整清單（委派日期、使用者或狀態）。
+所有委派的子網域會顯示在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 子網域]**&#x200B;功能表中。 篩選器可協助您調整清單（委派日期、使用者或狀態）。
 
 ![](assets/subdomain-list.png)
 
-此 **[!UICONTROL 狀態]** 欄提供子網域委派程式的資訊：
+**[!UICONTROL 狀態]**&#x200B;欄提供子網域委派程式的資訊：
 
 * **[!UICONTROL 草稿]**：子網域委派已儲存為草稿。 按一下子網域名稱以繼續委派程式，
-* **[!UICONTROL 處理中]**：子網域在可以使用之前會進行數個設定檢查，
-* **[!UICONTROL 成功]**：子網域已成功通過檢查，且可用於傳遞訊息、
-* **[!UICONTROL 已失敗]**：提交子網域委派後，一或多項檢查失敗。
+* **[!UICONTROL 正在處理]**：子網域正在執行數個組態檢查，然後才能使用，
+* **[!UICONTROL 成功]**：子網域已成功通過檢查，且可用於傳遞訊息，
+* **[!UICONTROL 失敗]**：提交子網域委派後，一或多個檢查失敗。
 
-若要使用存取子網域的詳細資訊 **[!UICONTROL 成功]** 狀態，從清單中開啟。
+若要存取狀態為&#x200B;**[!UICONTROL 成功]**&#x200B;之子網域的詳細資訊，請從清單中開啟該子網域。
 
 ![](assets/subdomain-delegated.png)
 
@@ -98,7 +98,7 @@ ht-degree: 30%
 
 * 擷取委派過程中設定的子網域名稱（唯讀），以及產生的URL （資源、映象頁面、追蹤URL），
 
-* 將Google網站驗證TXT記錄新增至您的子網域，以確保其經過驗證(請參閱 [將Google TXT記錄新增至子網域](google-txt.md))。
+* 將Google網站驗證TXT記錄新增至您的子網域，以確保其已驗證(請參閱[將Google TXT記錄新增至子網域](google-txt.md))。
 
 
 >[!CAUTION]

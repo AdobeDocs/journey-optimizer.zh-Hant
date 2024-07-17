@@ -19,7 +19,7 @@ ht-degree: 26%
 
 上限API可幫助您建立、設定和監控您的上限設定。
 
-本節提供如何使用API的全域資訊。 如需詳細的API說明，請參閱 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/).
+本節提供如何使用API的全域資訊。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/)中提供詳細的API描述。
 
 ## 設定API說明上限
 
@@ -60,7 +60,7 @@ ht-degree: 26%
 
 >[!IMPORTANT]
 >
->此 **maxHttpConnections** 引數為選用。 它可讓您限制Journey Optimizer將開啟給外部系統的連線數量。
+>**maxHttpConnections**&#x200B;引數是選用的。 它可讓您限制Journey Optimizer將開啟給外部系統的連線數量。
 >
 >可設定的最大值為400。 如果未指定任何專案，則系統可能會開啟數千個連線，視系統的動態縮放而定。
 >
@@ -87,7 +87,7 @@ ht-degree: 26%
 
 ## 警告和錯誤
 
-當 **canDeploy** 方法呼叫後，該程式會驗證設定並傳回由其唯一ID識別的驗證狀態，其中之一為：
+呼叫&#x200B;**canDeploy**&#x200B;方法時，程式會驗證設定並傳回由其唯一識別碼識別的驗證狀態：
 
 ```
 "ok" or "error"
@@ -95,16 +95,16 @@ ht-degree: 26%
 
 可能的錯誤包括：
 
-* **ERR_ENDPOINTCONFIG_100**：上限設定：遺失或無效的url
+* **ERR_ENDPOINTCONFIG_100**：設定上限：遺漏或無效的url
 * **ERR_ENDPOINTCONFIG_101**：上限設定：格式錯誤的url
-* **ERR_ENDPOINTCONFIG_102**：上限設定：格式錯誤的url：host：port中不允許url中的wildchar
-* **ERR_ENDPOINTCONFIG_103**：上限設定：缺少HTTP方法
+* **ERR_ENDPOINTCONFIG_102**：上限設定：格式錯誤的url：不允許在host：port中使用url中的wildchar
+* **ERR_ENDPOINTCONFIG_103**：上限設定：遺失HTTP方法
 * **ERR_ENDPOINTCONFIG_104**：上限設定：未定義任何通話分級
 * **ERR_ENDPOINTCONFIG_107**：上限設定：無效的最大呼叫計數(maxCallsCount)
 * **ERR_ENDPOINTCONFIG_108**：上限設定：無效的最大呼叫計數(periodInMs)
 * **ERR_ENDPOINTCONFIG_111**：上限設定：無法建立端點設定：無效的承載
-* **ERR_ENDPOINTCONFIG_112**：上限設定：無法建立端點設定：期望JSON裝載
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**：無效的服務名稱 `<!--<given value>-->`：必須是「dataSource」或「action」
+* **ERR_ENDPOINTCONFIG_112**：上限設定：無法建立端點設定：需要JSON裝載
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**：無效的服務名稱`<!--<given value>-->`：必須為&#39;dataSource&#39;或&#39;action&#39;
 
 可能的警告為：
 
@@ -112,7 +112,7 @@ ht-degree: 26%
 
 ## 使用案例
 
-在本節中，您將找到五個主要使用案例，您可執行這些案例來管理您的上限設定，位置在 [!DNL Journey Optimizer].
+在本節中，您將會找到五個主要使用案例，您可執行這些案例來管理[!DNL Journey Optimizer]中的上限設定。
 
 為協助您進行測試和設定，可在[此處](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json)取得 Postman 集合。
 
@@ -120,7 +120,7 @@ ht-degree: 26%
 
 一旦下載並上傳至 Postman，您需要新增三個變數：`{JO_HOST}`、`{BASE_PATH}`以及`{SANDBOX_NAME}`。
 * `{JO_HOST}` : [!DNL Journey Optimizer]閘道 URL
-* `{BASE_PATH}` ：API的進入點。
+* `{BASE_PATH}` ： API的進入點。
 * `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。
 
 您將在下節找到用於執行使用案例的 Rest API 呼叫排序清單。
@@ -132,7 +132,7 @@ ht-degree: 26%
 1. candeploy
 1. deploy
 
-使用案例n°2： **更新和部署尚未部署的上限設定**
+使用案例n°2： **更新並部署尚未部署的上限設定**
 
 1. list
 1. get
@@ -140,7 +140,7 @@ ht-degree: 26%
 1. candeploy
 1. deploy
 
-使用案例n°3： **取消部署和刪除已部署的上限設定**
+使用案例n°3： **取消部署並刪除已部署的上限設定**
 
 1. list
 1. undeploy

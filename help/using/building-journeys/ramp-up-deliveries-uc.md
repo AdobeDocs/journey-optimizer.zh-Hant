@@ -20,27 +20,27 @@ ht-degree: 2%
 
 # 使用案例：加快傳遞速度{#use-case-ramp-up-your-deliveries}
 
-如果您最近移至其他電子郵件服務提供者、IP位址或電子郵件網域或子網域，您必須建立您作為寄件者的信譽。 否則，您的傳遞可能會遭到封鎖或移至收件者信箱的垃圾郵件資料夾。 瞭解如何透過IP預熱提高您的電子郵件信譽 [傳遞性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=zh-Hant){target="_blank"}.
+如果您最近移至其他電子郵件服務提供者、IP位址或電子郵件網域或子網域，您必須建立您作為寄件者的信譽。 否則，您的傳遞可能會遭到封鎖或移至收件者信箱的垃圾郵件資料夾。 在[傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=zh-Hant){target="_blank"}中瞭解如何利用IP暖身提高您的電子郵件信譽。
 
-若要熱身IP，您可以逐步增加傳遞數量。 深入瞭解 [在Journey Optimizer中最佳化傳遞能力](../reports/deliverability.md).
+若要熱身IP，您可以逐步增加傳遞數量。 深入瞭解[在Journey Optimizer](../reports/deliverability.md)中最佳化傳遞能力。
 
 此使用案例的目的是建立歷程，以加快電子郵件傳遞速度。 若要設定此歷程，請遵循下列步驟：
 
 1. 建立歷程。 [閱讀全文](journey-gs.md)。
 
-1. 新增 **[!UICONTROL 條件]** 活動到歷程。 [閱讀全文](condition-activity.md)。
+1. 將&#x200B;**[!UICONTROL 條件]**&#x200B;活動新增至歷程。 [閱讀全文](condition-activity.md)。
 
-1. 在 **[!UICONTROL 條件]** 活動設定，設定您傳送的收件者數目上限：
+1. 在&#x200B;**[!UICONTROL 條件]**&#x200B;活動設定中，設定傳遞的收件者數目上限：
 
-   1. 在 **[!UICONTROL 條件]** 活動設定，設定 **[!UICONTROL 型別]** 欄位至 **[!UICONTROL 設定檔上限]**. [閱讀全文](condition-activity.md#profile_cap)。
+   1. 在&#x200B;**[!UICONTROL 條件]**&#x200B;活動設定中，將&#x200B;**[!UICONTROL 型別]**&#x200B;欄位設定為&#x200B;**[!UICONTROL 設定檔上限]**。 [閱讀全文](condition-activity.md#profile_cap)。
 
-   1. 設定 **[!UICONTROL 限制]** 此傳遞的收件者人數上限的欄位。
+   1. 將&#x200B;**[!UICONTROL 限制]**&#x200B;欄位設定為此傳遞的收件者數目上限。
 
    ![](assets/profile-cap-condition.png)
 
    您可以逐漸提高此限制，最多可達您的訂閱者總數。
 
-1. 新增 **[!UICONTROL 電子郵件]** 動作活動至以下路徑後的名義路徑： **[!UICONTROL 條件]** 活動。
+1. 在&#x200B;**[!UICONTROL 條件]**&#x200B;活動之後，將&#x200B;**[!UICONTROL 電子郵件]**&#x200B;動作活動新增至名義路徑。
 
    ![](assets/ramp-up-deliveries-message.png)
 

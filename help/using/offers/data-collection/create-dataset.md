@@ -20,53 +20,53 @@ ht-degree: 7%
 
 首先，請建立要在資料集中使用的結構描述：
 
-1. 從 **[!UICONTROL 資料管理]** 功能表，選取 **[!UICONTROL 結構描述]**.
+1. 從&#x200B;**[!UICONTROL 資料管理]**&#x200B;功能表中，選取&#x200B;**[!UICONTROL 結構描述]**。
 
-1. 按一下 **[!UICONTROL 建立結構描述]**，在右上方，選取 **[!UICONTROL 體驗事件]** 並按一下 **下一個**.
+1. 按一下&#x200B;**[!UICONTROL 建立結構描述]**，在右上角選取&#x200B;**[!UICONTROL 體驗事件]**，然後按一下&#x200B;**下一步**。
 
    ![](../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
-   >瞭解更多關於XDM結構描述和欄位群組 [XDM系統總覽檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}.
+   >在[XDM系統總覽檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}中瞭解更多有關XDM結構描述和欄位群組的資訊。
 
-1. 輸入綱要的名稱和說明，然後按一下 **完成**.
+1. 輸入結構描述的名稱和描述，然後按一下&#x200B;**完成**。
    ![](../assets/ai-ranking-xdm-event-2.png)
 
-1. 從 **[!UICONTROL 欄位群組]** 部分，選取 **[!UICONTROL 新增]**.
+1. 從左側的&#x200B;**[!UICONTROL 欄位群組]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 新增]**。
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. 在 **[!UICONTROL 搜尋]** 欄位，輸入「主張互動」。
+1. 在&#x200B;**[!UICONTROL 搜尋]**&#x200B;欄位中，輸入「主張互動」。
 
-1. 選取 **[!UICONTROL 體驗事件 — 主張互動]** 欄位群組並按一下 **[!UICONTROL 新增欄位群組]**.
+1. 選取&#x200B;**[!UICONTROL 體驗事件 — 主張互動]**&#x200B;欄位群組，然後按一下&#x200B;**[!UICONTROL 新增欄位群組]**。
 
    ![](../assets/ai-ranking-add-field-group.png)
 
    >[!CAUTION]
    >
-   >資料集中使用的結構描述必須具有 **[!UICONTROL 體驗事件 — 主張互動]** 與其相關聯的欄位群組。 否則，您將無法在AI模型中使用它。
+   >將在您的資料集中使用的結構描述必須有關聯的&#x200B;**[!UICONTROL 體驗事件 — 主張互動]**&#x200B;欄位群組。 否則，您將無法在AI模型中使用它。
 
 1. 儲存結構。
 
 >[!NOTE]
 >
->進一步瞭解在中建立結構描述 [結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
+>深入瞭解如何在[結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}中建置結構描述。
 
 您現在已準備好使用此結構描述建立資料集。 請依照下列步驟執行此操作：
 
-1. 從 **[!UICONTROL 資料管理]** 功能表，選取 **[!UICONTROL 資料集]** 並前往 **[!UICONTROL 瀏覽]** 標籤。
+1. 從&#x200B;**[!UICONTROL 資料管理]**&#x200B;功能表，選取&#x200B;**[!UICONTROL 資料集]**，並移至&#x200B;**[!UICONTROL 瀏覽]**&#x200B;標籤。
 
-1. 按一下 **[!UICONTROL 建立資料集]** 並選取 **[!UICONTROL 從結構描述建立資料集]**.
+1. 按一下&#x200B;**[!UICONTROL 建立資料集]**，然後選取&#x200B;**[!UICONTROL 從結構描述建立資料集]**。
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
-1. 從清單中選取您剛建立的綱要，然後按一下 **[!UICONTROL 下一個]**.
+1. 從清單中選取您剛建立的結構描述，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 
-1. 為中的資料集提供唯一名稱 **[!UICONTROL 名稱]** 欄位並按一下 **[!UICONTROL 完成]**.
+1. 在&#x200B;**[!UICONTROL 名稱]**&#x200B;欄位中為資料集提供唯一的名稱，然後按一下&#x200B;**[!UICONTROL 完成]**。
 
    ![](../assets/ai-ranking-dataset-name.png)
 
 >[!NOTE]
 >
->現在可以選取此資料集，以便在下列情況下收集事件資料： [建立AI模型](../ranking/create-ranking-strategies.md).
+>現在可以選取此資料集，以便在[建立AI模型](../ranking/create-ranking-strategies.md)時收集事件資料。

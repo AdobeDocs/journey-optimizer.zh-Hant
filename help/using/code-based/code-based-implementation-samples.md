@@ -8,8 +8,8 @@ level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: 75dcd6d4a36b09809cdf4db3a0ae3ba3a1cb35b5
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 3%
+source-wordcount: '786'
+ht-degree: 2%
 
 ---
 
@@ -17,31 +17,31 @@ ht-degree: 3%
 
 程式碼型體驗支援任何型別的客戶實施。 您可以在此頁面找到每種實作方法的範例：
 
-* [用戶端](#client-side-implementation)
+* [使用者端](#client-side-implementation)
 * [伺服器端](#server-side-implementation)
 * [混合式](#hybrid-implementation)
 
 >[!IMPORTANT]
 >
->追隨 [此連結](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} 以尋找不同個人化和實驗使用案例的實作範例。 請檢視並執行這些報表，以更加瞭解所需的實作步驟，以及端對端個人化流程的運作方式。
+>依照[此連結](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"}尋找不同個人化和實驗使用案例的實施範例。 請檢視並執行這些報表，以更加瞭解所需的實作步驟，以及端對端個人化流程的運作方式。
 
 ## 使用者端實施 {#client-side-implementation}
 
 如果您是使用者端實作，則可以使用其中一個AEP使用者端SDK：AEP Web SDK或AEP Mobile SDK。
 
-* 步驟 [以下](#client-side-how) 在範例中說明程式碼型體驗行銷活動擷取Edge上發佈內容的程式 **Web SDK** 實作與顯示個人化內容。
+* 步驟[如下](#client-side-how)說明在範例&#x200B;**Web SDK**&#x200B;實作中，由程式碼型體驗行銷活動擷取在Edge上發佈的內容並顯示個人化內容的程式。
 
-* 使用實施程式碼型通道的步驟 **行動SDK** 中的說明 [本教學課程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+* 在[本教學課程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}中說明使用&#x200B;**Mobile SDK**&#x200B;實作程式碼式頻道的步驟。
 
   >[!NOTE]
   >
-  >行動使用案例的實施範例適用於 [iOS應用程式](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} and [Android app](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
+  >[iOS應用程式](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"}和[Android應用程式](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}有行動使用案例的範例實作。
 
 ### 運作方式 — Web SDK {#client-side-how}
 
-1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant){target="_blank"} 會包含在頁面上。
+1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}已包含在此頁面上。
 
-1. 您需要使用 `sendEvent` 命令並指定表面URI，以擷取個人化內容。
+1. 您必須使用`sendEvent`命令並指定表面URI以擷取個人化內容。
 
    ```javascript
    alloy("sendEvent", {
@@ -52,9 +52,9 @@ ht-degree: 3%
    }).then(applyPersonalization("#sample-json-content"));
    ```
 
-1. 實作程式碼應手動套用程式碼型體驗專案(使用 [`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"} 方法)，以根據決定更新DOM。
+1. 實作程式碼應手動套用程式碼型體驗專案（使用[`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"}方法），以根據決定更新DOM。
 
-1. 對於程式碼型體驗行銷活動，必須手動傳送顯示事件以指出內容已顯示時間。 這可透過以下方式完成 `sendEvent` 命令。
+1. 對於程式碼型體驗行銷活動，必須手動傳送顯示事件以指出內容已顯示時間。 這是透過`sendEvent`命令完成的。
 
    ```javascript
    function sendDisplayEvent(decision) {
@@ -80,7 +80,7 @@ ht-degree: 3%
    }
    ```
 
-1. 對於程式碼型體驗行銷活動，必須手動傳送互動事件，以指出使用者何時已與內容互動。 這可透過以下方式完成 `sendEvent` 命令。
+1. 對於程式碼型體驗行銷活動，必須手動傳送互動事件，以指出使用者何時已與內容互動。 這是透過`sendEvent`命令完成的。
 
    ```javascript
    function sendInteractEvent(label, proposition) {
@@ -118,34 +118,34 @@ ht-degree: 3%
 
 Cookie可用來儲存使用者身分和叢集資訊。 使用使用者端實作時，Web SDK會在請求生命週期期間自動處理這些Cookie的儲存和傳送。
 
-| Cookie | 用途 | 儲存者 | 傳送者 |
+| Cookie | 目的 | 儲存者 | 傳送者 |
 | ------------------------ | -------------------------------------------------------------------------- | --------- | ------- |
 | kndctr_AdobeOrg_identity | 包含使用者身分詳細資訊 | Web SDK | Web SDK |
 | kndctr_AdobeOrg_cluster | 指出應使用哪個體驗邊緣叢集來履行請求 | Web SDK | Web SDK |
 
-**請求刊登**
+**要求位置**
 
-需要向Adobe Experience Platform API提出請求才能取得主張並傳送顯示通知。 使用使用者端實作時，Web SDK會在使用者介面 `sendEvent` 命令時才會使用。
+需要向Adobe Experience Platform API提出請求才能取得主張並傳送顯示通知。 使用使用者端實作時，Web SDK會在使用`sendEvent`命令時提出這些要求。
 
 | 請求 | 製作者 |
 | ---------------------------------------------- | ----------------------------------- |
 | 互動要求以取得主張 | 使用sendEvent命令的Web SDK |
 | interact傳送顯示通知的請求 | 使用sendEvent命令的Web SDK |
 
-**流程圖**
+**流量圖**
 
 ![](assets/code-based-client-side-implementation.png)
 
 ## 伺服器端實作 {#server-side-implementation}
 
-如果您有伺服器端實作，則可以使用其中一個AEP Edge Network API。
+如果您有伺服器端實作，則可以使用其中一個AEPEdge NetworkAPI。
 
-下列步驟說明在範例網頁的Edge Network API實作中，擷取程式碼型體驗促銷活動在Edge上發佈之內容的程式，並顯示個人化內容。
+以下步驟說明在網頁的範例Edge NetworkAPI實作中，透過程式碼型體驗行銷活動擷取Edge上發佈的內容並顯示個人化內容的程式。
 
 ### 運作方式
 
-1. 系統會要求網頁，以及瀏覽器先前儲存的所有Cookie （前置詞為） `kndctr_` 中包含。
-1. 當從應用程式伺服器要求頁面時，會將事件傳送至 [互動式資料收集端點](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) 以擷取個人化內容。 此範例應用程式使用一些協助程式方法來簡化建立及傳送請求至API的程式(請參閱 [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"})。 但要求只是 `POST` 裝載中包含事件和查詢。 先前步驟的Cookie （如果可用）會包含在中的請求中 `meta>state>entries` 陣列。
+1. 已要求網頁，而且已包含先前由瀏覽器儲存且前置詞為`kndctr_`的任何Cookie。
+1. 從應用程式伺服器要求頁面時，會傳送事件至[互動式資料收集端點](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html)，以擷取個人化內容。 此範例應用程式使用一些協助程式方法來簡化建立及傳送要求至API的程式（請參閱[aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}）。 但要求只是`POST`，其裝載包含事件和查詢。 先前步驟的Cookie （如果可用）包含在`meta>state>entries`陣列中的請求中。
 
    ```javascript
    fetch(
@@ -282,21 +282,21 @@ Cookie可用來儲存使用者身分和叢集資訊。 使用使用者端實作�
 
 Cookie可用來儲存使用者身分和叢集資訊。 使用伺服器端實作時，應用程式伺服器必須在請求生命週期期間處理這些Cookie的儲存和傳送。
 
-| Cookie | 用途 | 儲存者 | 傳送者 |
+| Cookie | 目的 | 儲存者 | 傳送者 |
 | ------------------------ | -------------------------------------------------------------------------- | ------------------ | ------------------ |
 | kndctr_AdobeOrg_identity | 包含使用者身分詳細資訊 | 應用程式伺服器 | 應用程式伺服器 |
 | kndctr_AdobeOrg_cluster | 指出應使用哪個體驗邊緣叢集來履行請求 | 應用程式伺服器 | 應用程式伺服器 |
 
-**請求刊登**
+**要求位置**
 
-需要向Adobe Experience Platform API提出請求才能取得主張並傳送顯示通知。 使用使用者端實作時，Web SDK會在使用者介面 `sendEvent` 命令時才會使用。
+需要向Adobe Experience Platform API提出請求才能取得主張並傳送顯示通知。 使用使用者端實作時，Web SDK會在使用`sendEvent`命令時提出這些要求。
 
 | 請求 | 製作者 |
 | ---------------------------------------------- | ------------------------------------------------------------ |
 | 互動要求以取得主張 | 應用程式伺服器呼叫Adobe Experience Platform API |
 | interact傳送顯示通知的請求 | 應用程式伺服器呼叫Adobe Experience Platform API |
 
-**流程圖**
+**流量圖**
 
 ![](assets/code-based-server-side-implementation.png)
 
@@ -304,5 +304,5 @@ Cookie可用來儲存使用者身分和叢集資訊。 使用伺服器端實作�
 
 如果您採用混合式實作，請參閱下列連結。
 
-* Adobe技術部落格： [Adobe Experience Platform Web SDK中的混合個人化](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK檔案： [使用Web SDK和Edge Network Server API的混合個人化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+* Adobe技術部落格： Adobe Experience Platform Web SDK中的[Hybrid Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
+* SDK檔案： [使用Web SDK和Edge Network伺服器API的混合個人化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}

@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # 查詢決定規則 {#lookup-decision-rule}
 
-您可以透過向以下網址發出GET請求來查詢特定的決策規則： [!DNL Offer Library] 包含決定規則的API `@id` 或請求路徑中的決定規則名稱。
+您可以向[!DNL Offer Library] API發出GET要求，以查詢特定的決定規則，其中會包含決定規則`@id`或要求路徑中的決定規則名稱。
 
 **API格式**
 
@@ -28,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 決策規則所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ELIGIBILITY_RULE}` | 定義與決定規則關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `id` | 用於比對 `@id` 個實體的屬性。 字串完全相符。 引數 `id` 和 `name` 不能一起使用。 | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數 `id` 和 `name` 不能一起使用 | `Sales rule` |
+| `id` | 用於比對實體`@id`屬性的字串。 字串完全相符。 引數s `id`和`name`不能一起使用。 | `xcore:eligibility-rule:124e0faf5b8ee89b` |
+| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數`id`和`name`不能一起使用 | `Sales rule` |
 
 **要求**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **回應**
 
-成功的回應會傳回您查詢的特定決定規則的詳細資料，包括其唯一決定規則的相關資訊 `id`.
+成功的回應會傳回您查詢的特定決定規則的詳細資料，包括其唯一決定規則`id`的相關資訊。
 
 ```json
   {

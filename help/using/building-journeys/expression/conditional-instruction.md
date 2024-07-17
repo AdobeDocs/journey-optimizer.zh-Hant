@@ -19,9 +19,9 @@ ht-degree: 0%
 
 進階編輯器支援條件式指令(if， then， else)。 它可讓您定義更複雜的運算式。 它由下列元素組成：
 
-* **[!UICONTROL 如果]**：要先評估的條件。
-* **[!UICONTROL 則]**：條件評估結果為true時要評估的運算式。
-* **[!UICONTROL 否則]**：條件評估結果為false時要評估的運算式。
+* **[!UICONTROL if]**：先評估條件。
+* **[!UICONTROL then]**：條件評估結果為true時要評估的運算式。
+* **[!UICONTROL else]**：條件評估結果為false時要評估的運算式。
 
 >[!NOTE]
 >
@@ -35,9 +35,9 @@ else
    (<expression3>)
 ```
 
-`<expression1>` 必須傳回 **布林值**.
+`<expression1>`必須傳回&#x200B;**布林值**。
 
-`<expression2>` 和 `<expression3>` 必須有相同型別或相容型別。 支援的簽章和傳回的型別包括：
+`<expression2>`和`<expression3>`必須具有相同的型別或相容的型別。 支援的簽章和傳回的型別包括：
 
 ```json
 boolean,boolean : boolean

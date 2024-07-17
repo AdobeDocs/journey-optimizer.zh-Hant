@@ -17,9 +17,9 @@ ht-degree: 27%
 
 # 管理片段 {#manage-fragments}
 
-若要管理您的片段，請從以下位置存取片段清單： **[!UICONTROL 內容管理]** > **[!UICONTROL 片段]** 左側功能表。
+若要管理您的片段，請從&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 片段]**&#x200B;左側功能表存取片段清單。
 
-在目前沙箱建立的所有片段 —  [從 **[!UICONTROL 片段]** 功能表](#create-fragments)，使用 [另存為片段](#save-as-fragment) 選項 — 會顯示。
+目前沙箱上建立的所有片段 — 使用[另存為片段](#save-as-fragment)選項從&#x200B;**[!UICONTROL 片段]**&#x200B;功能表](#create-fragments)中的[ — 都會顯示。
 
 ![](assets/fragment-list-filters.png)
 
@@ -33,12 +33,12 @@ ht-degree: 27%
 
 您也可以選擇顯示所有片段，或僅顯示目前使用者建立或修改的專案。
 
-從 **[!UICONTROL 更多動作]** 按鈕時，您可以：
+從每個片段旁邊的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕可以：
 
 * 復製片段。
-* 使用 **[!UICONTROL 探索引用]** 檢視歷程、行銷活動或使用範本的選項。 [了解更多](#explore-references)
+* 使用&#x200B;**[!UICONTROL 探索參考]**&#x200B;選項可檢視使用它的歷程、行銷活動或範本。 [了解更多](#explore-references)
 * 封存片段。 [了解更多](#archive-fragments)
-* 編輯片段的標籤 [瞭解如何使用統一標籤](../start/search-filter-categorize.md#tags).
+* 編輯片段的標籤[瞭解如何使用統一標籤](../start/search-filter-categorize.md#tags)。
 
 ![](assets/fragment-list-more-actions.png)
 
@@ -52,9 +52,9 @@ ht-degree: 27%
 
 片段可以有多個狀態：
 
-* **[!UICONTROL 草稿]**：片段正在編輯且尚未核准。
+* **[!UICONTROL 草稿]**：片段正在編輯中，尚未核准。
 
-* **[!UICONTROL 即時]**：片段已核准並上線。 [瞭解如何發佈片段](../content-management/create-fragments.md#publish)
+* **[!UICONTROL 即時]**：片段已核准且即時。 [瞭解如何發佈片段](../content-management/create-fragments.md#publish)
 
   編輯即時片段時，其狀態旁邊會顯示特定圖示。 按一下此圖示以開啟片段的草稿版本。
 
@@ -63,7 +63,7 @@ ht-degree: 27%
 
 >[!CAUTION]
 >
->由於 Journey Optimizer 6 月版本引入了&#x200B;**草稿**&#x200B;和&#x200B;**即時**&#x200B;狀態，因此在此版本之前建立的所有片段都具有「草稿」狀態，即使這些片段用於旅程或活動中也是如此。如果您對這些片段進行任何變更，則需要發佈它們以使其進入「即時」狀態，並將變更內容傳遞到關聯的行銷活動和旅程。您還需要建立一個新的旅程/行銷活動版本，然後進行發佈。發佈需要 [Publish片段](../administration/ootb-product-profiles.md#content-library-manager) 使用者許可權。
+>由於 Journey Optimizer 6 月版本引入了&#x200B;**草稿**&#x200B;和&#x200B;**即時**&#x200B;狀態，因此在此版本之前建立的所有片段都具有「草稿」狀態，即使這些片段用於旅程或活動中也是如此。如果您對這些片段進行任何變更，則需要發佈它們以使其進入「即時」狀態，並將變更內容傳遞到關聯的行銷活動和旅程。您還需要建立一個新的旅程/行銷活動版本，然後進行發佈。發佈需要[Publish片段](../administration/ootb-product-profiles.md#content-library-manager)使用者許可權。
 
 ## 編輯片段 {#edit-fragments}
 
@@ -79,29 +79,29 @@ ht-degree: 27%
 
 若要編輯片段，請遵循以下步驟。
 
-1. 從以下位置按一下所需的片段： **[!UICONTROL 片段]** 清單。
+1. 從&#x200B;**[!UICONTROL 片段]**&#x200B;清單中按一下所需的片段。
 
 1. 片段屬性隨即開啟，並預覽其內容。
 
-1. 如果正在編輯的片段具有 **即時** 狀態，按一下 **修改** 按鈕以建立片段的草稿版本。 片段的目前版本將繼續上線，直到您發佈草稿版本為止。
+1. 如果正在編輯的片段具有&#x200B;**即時**&#x200B;狀態，請按一下&#x200B;**修改**&#x200B;按鈕以建立片段的草稿版本。 片段的目前版本將繼續上線，直到您發佈草稿版本為止。
 
-1. 對片段進行所需的變更。 若要編輯其內容，請按一下 **編輯** 按鈕然後編輯您的內容，就像從頭開始建立片段時所做的那樣。 [瞭解如何建立片段](#create-from-scratch)
+1. 對片段進行所需的變更。 若要編輯其內容，請按一下&#x200B;**編輯**&#x200B;按鈕，然後編輯您的內容，就像從頭開始建立片段時所做的一樣。 [瞭解如何建立片段](#create-from-scratch)
 
    >[!NOTE]
    >
    >編輯運算式片段時，您可以移除任何個人化欄位，但無法將新欄位新增至片段內容。 如果您想要新增個人化欄位，請復製片段以建立新片段。
 
-   您還可以透過選擇 **瀏覽器參考** 選項。 [了解更多](#explore-references)
+   您也可以選取&#x200B;**總管參考**&#x200B;選項，以檢查目前正在使用片段的歷程、行銷活動和內容範本清單。 [了解更多](#explore-references)
 
    ![](assets/fragment-edit.png)
 
-1. 準備好變更後，按一下 **Publish** 按鈕讓您的修改上線。
+1. 一旦您的變更準備就緒後，請按一下&#x200B;**Publish**&#x200B;按鈕，讓您的修改上線。
 
-當您編輯片段時，變更會自動傳播至使用該片段的所有內容，包括即時歷程和行銷活動，但您中斷原始片段繼承的內容除外。 瞭解如何在中中斷繼承 [將視覺化片段新增至您的電子郵件](../email/use-visual-fragments.md#break-inheritance) 和 [利用運算式片段](../personalization/use-expression-fragments.md#break-inheritance) 區段。
+當您編輯片段時，變更會自動傳播至使用該片段的所有內容，包括即時歷程和行銷活動，但您中斷原始片段繼承的內容除外。 瞭解如何中斷[新增視覺化片段至您的電子郵件](../email/use-visual-fragments.md#break-inheritance)和[運用運算式片段](../personalization/use-expression-fragments.md#break-inheritance)區段中的繼承。
 
 ## 探索參考 {#explore-references}
 
-您可以顯示目前使用片段的歷程、行銷活動和內容範本清單。 若要這麼做，請選取 **[!UICONTROL 探索引用]** 來自 **[!UICONTROL 更多動作]** 「片段」清單或「片段屬性」畫面中的「 」功能表。
+您可以顯示目前使用片段的歷程、行銷活動和內容範本清單。 若要這麼做，請從片段清單的&#x200B;**[!UICONTROL 更多動作]**&#x200B;功能表或片段屬性畫面中選取&#x200B;**[!UICONTROL 探索參考]**。
 
 ![](assets/fragment-explore-references.png)
 
@@ -111,20 +111,20 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->如果片段用於歷程、行銷活動或範本中，且標籤阻止您存取該片段，您會在選取的標籤上方看到警告訊息。 [深入瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
+>如果片段用於歷程、行銷活動或範本中，且標籤阻止您存取該片段，您會在選取的標籤上方看到警告訊息。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
 
 ## 封存片段 {#archive-fragments}
 
 您可以從不再與您的品牌相關的專案清除片段清單。
 
-若要這麼做，請按一下 **[!UICONTROL 更多動作]** 按鈕並選取 **[!UICONTROL 封存]**. 它會從片段清單中消失，從而防止使用者在未來的電子郵件或範本中使用它。
+若要這麼做，請按一下所需片段旁的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 封存]**。 它會從片段清單中消失，從而防止使用者在未來的電子郵件或範本中使用它。
 
 ![](assets/fragment-list-archive.png)
 
 >[!NOTE]
 >
->如果您封存內容中使用的片段， <!--it will remain in the email or template, but you won't be able to select it from the fragment list to edit it-->該內容將不會受到影響。
+>如果您封存內容中使用的片段，<!--it will remain in the email or template, but you won't be able to select it from the fragment list to edit it-->該內容將不會受到影響。
 
-若要取消封存片段，請在 **[!UICONTROL 已封存]** 專案並選取 **[!UICONTROL 取消封存]** 從 **[!UICONTROL 更多動作]** 功能表。 現在仍可從片段清單存取，並可用於任何電子郵件或範本。
+若要取消封存片段，請篩選&#x200B;**[!UICONTROL 已封存]**&#x200B;專案，然後從&#x200B;**[!UICONTROL 更多動作]**&#x200B;功能表中選取&#x200B;**[!UICONTROL 取消封存]**。 現在仍可從片段清單存取，並可用於任何電子郵件或範本。
 
 ![](assets/fragment-list-unarchive.png)

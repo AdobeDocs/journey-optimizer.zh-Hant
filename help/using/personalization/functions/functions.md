@@ -15,11 +15,11 @@ ht-degree: 22%
 
 # 開始使用協助程式函式{#functions}
 
-使用 [!DNL Journey Optimizer] 範本化語言，用於對資料執行操作，例如計算、資料格式或轉換、條件，並在個人化的環境中操作它們。 瞭解中的個人化語法指南 [此頁面](../personalization-syntax.md).
+使用[!DNL Journey Optimizer]範本化語言對資料執行作業，例如計算、資料格式設定或轉換、條件，並在個人化的內容中加以處理。 在[此頁面](../personalization-syntax.md)中瞭解個人化語法准則。
 
 
 
-➡️ [在本影片中瞭解如何使用協助程式函式](#video)
+➡️[在此影片中瞭解如何使用協助程式函式](#video)
 
 在個人化編輯器的個人化下拉式清單提供的協助程式功能中，會運用範本語言，如下所示：
 
@@ -27,15 +27,15 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->個人化編輯器中可用的功能和功能，與中可用的功能和功能不同。 [歷程進階運算式編輯器](../../building-journeys/expression/expressionadvanced.md).
+>個人化編輯器中可用的功能和功能，與[歷程進階運算式編輯器](../../building-journeys/expression/expressionadvanced.md)中可用的功能和功能不同。
 
-在 [!DNL Journey Optimizer] 個人化編輯器、協助程式功能分為三類： [函式](#functions-helper)， [協助程式](#helper-helper) 和 [運運算元](#operators-helper).
+在[!DNL Journey Optimizer]個人化編輯器中，協助程式功能分為三個類別： [功能](#functions-helper)、[協助程式](#helper-helper)和[運運算元](#operators-helper)。
 
 選取類別，以存取子類別和函式。
 
-若要存取子類別，請按一下 `>` 圖示。 按一下 `+` 圖示：函式會自動新增至個人化畫面。
+按一下`>`圖示即可存取子類別。 按一下`+`圖示來選取函式：函式會自動新增至個人化畫面。
 
-按一下 `...` 圖示來檢視函式的說明，並將其新增至您的最愛。 [了解更多](../personalize.md#fav)
+按一下`...`圖示可檢視函式的說明，並將其新增至您的最愛。 [了解更多](../personalize.md#fav)
 
 ## 函數{#functions-helper}
 
@@ -301,7 +301,7 @@ ht-degree: 22%
         <td><a href="string.md#rightTrim">右側修剪</a></td><td>此函式移除字串結尾的空格 </td>
     </tr>
     <tr>
-        <td><a href="string.md#split">分割</a></td><td>此函式用於依指定字元分割字串</td>
+        <td><a href="string.md#split">Split</a></td><td>此函式用於依指定字元分割字串</td>
     </tr>
     <tr>
         <td><a href="string.md#startsWith">開頭為</a></td><td>此函式用於決定字串的開頭是否為指定的子字串</td>
@@ -347,7 +347,7 @@ ht-degree: 22%
 
 ## 輔助程式{#helper-helper}
 
-協助程式的詳細資訊，請參閱 [此頁面](helpers.md).
+協助程式在[此頁面](helpers.md)中有詳細說明。
 
 
 <table>

@@ -23,9 +23,9 @@ ht-degree: 2%
 
 * 欄位以數字字元開頭
 * 欄位以「 — 」字元開頭
-* 欄位包含以外的任何專案： _a_-_z_， _A_-_Z_， _0_-_9_， _ ， _-_
+* 欄位包含&#x200B;_a_-_z_、_A_-_Z_、_0_-_9_、_、_-_&#x200B;以外的任何專案
 
-例如，如果您的欄位為 _3h_： _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
+例如，如果您的欄位是&#x200B;_3h_： _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
 ```json
 // event field
@@ -56,7 +56,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->欄位型別和預設值必須相同。 例如， `@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}` 無效，因為預設值是整數，但預期值應為字串。
+>欄位型別和預設值必須相同。 例如，`@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}`無效，因為預設值是整數，而預期值應為字串。
 
 範例：
 
@@ -99,7 +99,7 @@ expression examples:
 
 ## 集合內欄位的參考
 
-集合中定義的元素會使用特定函式加以參照 `all`， `first` 和 `last`. 如需詳細資訊，請參閱[本頁面](../expression/collection-management-functions.md)。
+集合中定義的元素是使用特定函式`all`、`first`和`last`參考。 如需詳細資訊，請參閱[本頁面](../expression/collection-management-functions.md)。
 
 範例：
 
@@ -109,19 +109,19 @@ expression examples:
 
 ## 參照地圖中定義的欄位
 
-### `entry` 函式
+### `entry`函式
 
-為了擷取對應中的元素，我們使用具有給定索引鍵的專案函式。 例如，根據選取的名稱空間，定義事件的索引鍵時會使用它。 如需詳細資訊，請參閱 [此頁面](../../event/about-creating.md#select-the-namespace).
+為了擷取對應中的元素，我們使用具有給定索引鍵的專案函式。 例如，根據選取的名稱空間，定義事件的索引鍵時會使用它。 如需詳細資訊，請參閱[此頁面](../../event/about-creating.md#select-the-namespace)。
 
 ```json
 @event{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-在此運算式中，我們會取得事件之「IdentityMap」欄位的「Email」索引鍵專案。 &#39;Email&#39;專案是集合，我們使用&#39;first()&#39;從其中取得第一個元素中的&#39;id&#39;。 如需詳細資訊，請參閱 [此頁面](../expression/collection-management-functions.md).
+在此運算式中，我們會取得事件之「IdentityMap」欄位的「Email」索引鍵專案。 &#39;Email&#39;專案是集合，我們使用&#39;first()&#39;從其中取得第一個元素中的&#39;id&#39;。 如需詳細資訊，請參閱[此頁面](../expression/collection-management-functions.md)。
 
-### `firstEntryKey` 函式
+### `firstEntryKey`函式
 
-若要擷取對映的第一個專案鍵，請使用 `firstEntryKey` 函式。
+若要擷取對映的第一個專案索引鍵，請使用`firstEntryKey`函式。
 
 此範例顯示如何擷取特定清單中訂閱者的第一個電子郵件地址：
 
@@ -129,11 +129,11 @@ expression examples:
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
 ```
 
-在此範例中，訂閱清單名為 `daily-email`. 電子郵件地址在中定義為金鑰 `subscribers` 對應，此對應會連結至訂閱清單對應。
+在此範例中，訂閱清單名為`daily-email`。 電子郵件地址在`subscribers`對應中定義為金鑰，此對應連結至訂閱清單對應。
 
-### `keys` 函式
+### `keys`函式
 
-若要擷取到地圖的所有索引鍵，請使用 `keys` 函式。
+若要擷取對應的所有索引鍵，請使用`keys`函式。
 
 此範例說明如何針對特定設定檔擷取與特定清單訂閱者相關聯的所有電子郵件地址：
 
@@ -145,7 +145,7 @@ expression examples:
 
 如果您從外部資料來源選取欄位，需要呼叫引數，右側會出現新索引標籤，供您指定此引數。 請參閱[此頁面](../expression/expressionadvanced.md)。
 
-對於更複雜的使用案例，如果您想將資料來源的引數納入主要運算式中，則可使用關鍵字定義其值 _引數_. 即使來自另一個包含另一個引數的資料來源，引數也可以是任何有效的運算式。
+對於更複雜的使用案例，如果您想將資料來源的引數納入主要運算式中，可以使用關鍵字&#x200B;_params_&#x200B;來定義其值。 即使來自另一個包含另一個引數的資料來源，引數也可以是任何有效的運算式。
 
 >[!NOTE]
 >

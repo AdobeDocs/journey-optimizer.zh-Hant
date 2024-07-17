@@ -9,19 +9,19 @@ exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
 # 建立遞補優惠 {#create-fallback-offer}
 
-您可以向以下網站發出POST要求，以建立遞補優惠： [!DNL Offer Library] API。
+您可以向[!DNL Offer Library] API發出POST要求，以建立遞補優惠。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示包含 *Content-Type* 請求標頭中的欄位：
+下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;欄位的有效值：
 
-| 頁首名稱 | 值 |
+| 標題名稱 | 值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
 
@@ -74,7 +74,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=fallback
 
 **回應**
 
-成功的回應會傳回新建立的遞補優惠的相關資訊，包括其唯一的遞補優惠 `id`. 您可以使用 `id` 在稍後的步驟中更新或刪除您的遞補優惠，或在稍後的教學課程中建立決定。
+成功的回應會傳回新建立的遞補優惠的相關資訊，包括其唯一的遞補優惠`id`。 您可在稍後的步驟中使用`id`來更新或刪除您的遞補優惠，或在稍後的教學課程中建立決定。
 
 
 ```json

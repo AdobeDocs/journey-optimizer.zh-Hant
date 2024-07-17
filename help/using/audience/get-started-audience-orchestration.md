@@ -28,9 +28,9 @@ ht-degree: 59%
 
 >[!ENDSHADEBOX]
 
-對象構成可讓您建立 **組合工作流程**，您可以將現有的Adobe Experience Platform對象合併到視覺畫布中，並利用各種活動（分割、排除……）來建立新對象。
+對象構成可讓您建立&#x200B;**構成工作流程**，您可以在其中將現有Adobe Experience Platform對象結合到視覺畫布中，並利用各種活動（分割、排除……）來建立新對象。
 
-完成後， **產生的對象** 連同現有受眾一起儲存至Adobe Experience Platform中，並可在Journey Optimizer行銷活動和歷程中運用於鎖定客戶。 [瞭解如何在Journey Optimizer中鎖定對象](../audience/about-audiences.md#segments-in-journey-optimizer)
+完成後，**產生的對象**&#x200B;會連同現有對象一起儲存到Adobe Experience Platform中，並可在Journey Optimizer行銷活動和歷程中運用於鎖定客戶。 [瞭解如何在Journey Optimizer中鎖定對象](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ![](assets/audiences-process.png)
 

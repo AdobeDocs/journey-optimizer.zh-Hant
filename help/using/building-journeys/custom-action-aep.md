@@ -21,13 +21,13 @@ ht-degree: 0%
 
 ## 設定IO專案
 
-1. 在Adobe Developer主控台中，按一下 **專案** 並開啟您的IO專案。
+1. 在Adobe Developer Console中，按一下&#x200B;**專案**&#x200B;並開啟您的IO專案。
 
-1. 在 **認證** 區段，按一下 **OAuth伺服器對伺服器**.
+1. 在&#x200B;**認證**&#x200B;區段中，按一下&#x200B;**OAuth伺服器對伺服器**。
 
    ![](assets/custom-action-aep-1.png)
 
-1. 按一下 **檢視cURL命令**.
+1. 按一下&#x200B;**檢視cURL命令**。
 
    ![](assets/custom-action-aep-2.png)
 
@@ -39,21 +39,21 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->在Adobe Developer Console上建立專案後，請務必以正確的許可權授予開發人員和API存取控制。 進一步瞭解 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>在Adobe Developer Console上建立專案後，請務必授予具有正確許可權的開發人員和API存取控制。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}中進一步瞭解
 
-## 使用HTTP API入口設定來源
+## 使用HTTP API入口設定Source
 
 1. 在Adobe Experience Platform中建立端點，從歷程寫入資料。
 
-1. 在Adobe Experience Platform中，按一下 **來源**，下 **連線** 在左側功能表中。 在 **HTTP API**，按一下 **新增資料**.
+1. 在Adobe Experience Platform中，按一下左側功能表中&#x200B;**連線**&#x200B;底下的&#x200B;**來源**。 在&#x200B;**HTTP API**&#x200B;下，按一下&#x200B;**新增資料**。
 
    ![](assets/custom-action-aep-3.png)
 
-1. 選取 **新帳戶** 並啟用驗證。 按一下 **連線到來源**.
+1. 選取&#x200B;**新帳戶**&#x200B;並啟用驗證。 按一下&#x200B;**連線至Source**。
 
    ![](assets/custom-action-aep-4.png)
 
-1. 按一下 **下一個** 並選取您要寫入資料的資料集。 按一下 **下一個** 和 **完成**.
+1. 按一下&#x200B;**下一步**，然後選取您要寫入資料的資料集。 按一下&#x200B;**下一步**&#x200B;和&#x200B;**完成**。
 
    ![](assets/custom-action-aep-5.png)
 
@@ -96,7 +96,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 ## 設定自訂動作
 
-1. 開啟Adobe Journey Optimizer，然後按一下 **設定**，下 **管理** 在左側功能表中。 在 **動作**，按一下 **管理** 並按一下 **建立動作**.
+1. 開啟Adobe Journey Optimizer，然後按一下左側功能表中&#x200B;**管理**&#x200B;下的&#x200B;**組態**。 在&#x200B;**動作**&#x200B;下，按一下&#x200B;**管理**，然後按一下&#x200B;**建立動作**。
 
 1. 設定URL並選取Post方法。
 
@@ -108,7 +108,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 ### 設定驗證
 
-1. 選取 **型別** 作為 **自訂** 並搭配以下裝載。
+1. 選取&#x200B;**Type**&#x200B;做為&#x200B;**Custom**，並包含下列承載。
 
 1. 貼上client_secret、client_id、scope和grant_type （來自以前使用的IO專案裝載）。
 
@@ -136,13 +136,13 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. 使用 **按一下以測試驗證** 按鈕以測試連線。
+1. 使用&#x200B;**按一下以測試驗證**&#x200B;按鈕以測試連線。
 
    ![](assets/custom-action-aep-8.png)
 
 ### 設定裝載
 
-1. 在 **請求** 和 **回應** 欄位，貼上以前使用的來源連線的裝載。
+1. 在&#x200B;**Request**&#x200B;與&#x200B;**Response**&#x200B;欄位中，貼上先前使用之來源連線的裝載。
 
    ```
    {
@@ -167,7 +167,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. 變更欄位設定 **常數** 至 **變數** 適用於會動態填入的欄位。 儲存自訂動作。
+1. 將欄位組態從&#x200B;**常數**&#x200B;變更為&#x200B;**變數**，以動態方式填入欄位。 儲存自訂動作。
 
 ## 歷程
 

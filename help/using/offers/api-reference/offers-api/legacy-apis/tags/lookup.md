@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 查詢集合限定詞 {#look-up-tag}
 
-您可以透過向以下網址發出GET要求，查詢特定的集合限定詞（先前稱為「標籤」）： [!DNL Offer Library] 包含集合限定詞的API `id` 在請求路徑中。
+GET您可以透過向[!DNL Offer Library] API發出要求，在要求路徑中包含集合限定詞`id`，以查詢特定的集合限定詞（先前稱為「標籤」）。
 
 **API格式**
 
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **回應**
 
-成功的回應會傳回收集限定詞的詳細資料，包括有關唯一收集限定詞的資訊 `id`.
+成功的回應會傳回集合限定詞的詳細資料，包括有關唯一集合限定詞`id`的資訊。
 
 ```json
 {

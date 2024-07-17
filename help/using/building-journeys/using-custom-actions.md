@@ -29,16 +29,16 @@ ht-degree: 26%
 
 在Journey Optimizer中，您可以將資料控管和同意原則套用至自訂動作，以防止特定欄位匯出至協力廠商系統，或排除尚未同意接收電子郵件、推播或簡訊通訊的客戶。 如需詳細資訊，請參閱下列頁面：
 
-* [資料控管](../action/action-privacy.md).
-* [同意](../action/consent.md).
+* [資料控管](../action/action-privacy.md)。
+* [同意](../action/consent.md)。
 
 ## URL 組態
 
-的設定窗格 **自訂動作** 活動會顯示針對自訂動作設定的URL設定引數和驗證引數。 您無法在歷程中設定URL的靜態部分，但在自訂動作的全域設定中設定。 [了解更多](../action/about-custom-action-configuration.md)。
+**自訂動作**&#x200B;活動的設定窗格會顯示URL設定引數，以及為自訂動作設定的驗證引數。 您無法在歷程中設定URL的靜態部分，但在自訂動作的全域設定中設定。 [了解更多](../action/about-custom-action-configuration.md)。
 
 ### 動態路徑
 
-如果URL包含動態路徑，請在 **[!UICONTROL 路徑]** 欄位。
+如果URL包含動態路徑，請在&#x200B;**[!UICONTROL 路徑]**&#x200B;欄位中指定路徑。
 
 若要串連欄位和純文字字串，請使用字串函式或進階運算式編輯器中的加號(+)。 以單引號(&#39;)或雙引號(&#39;&#39;)括住純文字字串。 [了解更多](expression/expressionadvanced.md)。
 
@@ -51,13 +51,13 @@ ht-degree: 26%
 
 串連的URL具有以下形式：
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;id>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;ID>`/messages`
 
 ![](assets/journey-custom-action-url.png)
 
 ### 標頭和查詢引數 {#headers}
 
-此 **[!UICONTROL URL設定]** 區段顯示動態標題和查詢引數欄位，但不顯示常數欄位。 動態標題和查詢引數欄位在動作設定畫面中定義為變數。 [了解更多](../action/about-custom-action-configuration.md#url-configuration)
+**[!UICONTROL URL組態]**&#x200B;區段會顯示動態標頭和查詢引數欄位，但不會顯示常數欄位。 動態標題和查詢引數欄位在動作設定畫面中定義為變數。 [了解更多](../action/about-custom-action-configuration.md#url-configuration)
 
 若要指定動態標題和查詢引數欄位的值，請在欄位內或鉛筆圖示上按一下，然後選取所需欄位。
 
@@ -65,7 +65,7 @@ ht-degree: 26%
 
 ## 動作引數
 
-在 **[!UICONTROL 動作引數]** 區段，您會看到訊息引數定義為 _&quot;變數&quot;_. 對於這些引數，您可以定義從何處取得此資訊（例如：事件、資料來源）、手動傳遞值或使用進階運算式編輯器進行進階使用案例。 進階使用案例可以是資料操控和其他函式用途。 請參閱此 [頁面](expression/expressionadvanced.md).
+在&#x200B;**[!UICONTROL 動作引數]**&#x200B;區段中，您會看到定義為&#x200B;_「變數」_&#x200B;的訊息引數。 對於這些引數，您可以定義從何處取得此資訊（例如：事件、資料來源）、手動傳遞值或使用進階運算式編輯器進行進階使用案例。 進階使用案例可以是資料操控和其他函式用途。 請參閱此[頁面](expression/expressionadvanced.md)。
 
 **相關主題**
 

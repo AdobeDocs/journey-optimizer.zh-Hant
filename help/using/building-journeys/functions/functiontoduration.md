@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # toDuration {#toDuration}
 
-將引數值轉換為持續時間。 如需資料型別的詳細資訊，請參閱 [此頁面](../expression/data-types.md).
+將引數值轉換為持續時間。 如需資料型別的詳細資訊，請參閱[此頁面](../expression/data-types.md)。
 
 ## 類別
 

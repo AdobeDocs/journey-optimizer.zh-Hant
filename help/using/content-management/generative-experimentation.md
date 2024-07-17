@@ -40,24 +40,24 @@ ht-degree: 22%
 
    ![](assets/experiment-genai-1.png)
 
-1. 瀏覽產生的專案 **[!UICONTROL 變數]** 並按一下 **[!UICONTROL 預覽]** 以檢視所選變數的全熒幕版本。
+1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**，然後按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視所選變數的全熒幕版本。
 
    ![](assets/experiment-genai-2.png)
 
-1. 選取 **[!UICONTROL 啟用實驗]** 以開始建立 **[!UICONTROL 處理]** 用於您的實驗。
+1. 選取&#x200B;**[!UICONTROL 啟用實驗]**&#x200B;以開始為您的實驗建立&#x200B;**[!UICONTROL 處理]**。
 
 1. 選取您要納入實驗中的變數。
 
-1. 按一下 **新增X個處理**.
+1. 按一下&#x200B;**新增X處理**。
 
    ![](assets/experiment-genai-3.png)
 
-1. 從您的內容實驗視窗，存取 **[!UICONTROL 實驗設定]** 按鈕以設定您的實驗。 [進一步瞭解內容實驗](../content-management/content-experiment.md)
+1. 從您的內容實驗視窗，存取&#x200B;**[!UICONTROL 實驗設定]**&#x200B;按鈕以設定實驗。 [進一步瞭解內容實驗](../content-management/content-experiment.md)
 
    ![](assets/experiment-genai-4.png)
 
-1. 當您的內容實驗準備就緒時，您可以從行銷活動摘要頁面按一下 **[!UICONTROL 檢閱以啟動]** 以顯示行銷活動的摘要。 如果有任何引數不正確或遺失，則會顯示警報。 [了解更多](../content-management/content-experiment.md#treatment-experiment)
+1. 當您的內容實驗準備就緒時，從行銷活動摘要頁面，您可以按一下&#x200B;**[!UICONTROL 檢閱以啟動]**&#x200B;以顯示行銷活動的摘要。 如果有任何引數不正確或遺失，則會顯示警報。 [了解更多](../content-management/content-experiment.md#treatment-experiment)
 
-1. 在啟動行銷活動之前，請仔細檢查所有設定是否正確，然後按一下 **[!UICONTROL 啟動]**.
+1. 在啟動行銷活動之前，請仔細檢查所有設定是否正確，然後按一下[啟用]。****
 
 在成功設定行銷活動並個人化行銷活動後，您可以在行銷活動報告中追蹤您的行銷活動。 [了解更多](../reports/campaign-global-report.md)

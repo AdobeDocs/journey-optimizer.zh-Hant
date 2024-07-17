@@ -9,7 +9,7 @@ exl-id: 234bee17-c830-4bc0-b258-182804df4cb3
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 8%
 
 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 
-您可以透過向以下網站發出POST請求，建立個人化優惠方案： [!DNL Offer Library] API，同時提供容器ID。
+您可以向[!DNL Offer Library] API發出POST要求，同時提供容器ID，藉此建立個人化優惠方案。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
+下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
 
-| 頁首名稱 | 值 |
+| 標題名稱 | 值 |
 | ----------- | ----- |
 | 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
@@ -86,7 +86,7 @@ curl -X POST \
 
 **回應**
 
-成功的回應會傳回新建立的個人化優惠的相關資訊，包括其唯一的執行個體ID和位置 `@id`. 您可在後續步驟中使用執行個體ID來更新或刪除您的個人化優惠。
+成功的回應會傳回新建立的個人化優惠方案資訊，包括其唯一的執行個體識別碼和位置`@id`。 您可在後續步驟中使用執行個體ID來更新或刪除您的個人化優惠。
 
 ```json
 {
@@ -104,4 +104,4 @@ curl -X POST \
 
 ## 限制 {#limitations}
 
-行動裝置目前不支援優惠宣告和某些優惠方案限制 [!DNL Experience Edge] 例如，工作流程 `Capping`. 此 `Capping` 欄位值會指定某個優惠方案在所有使用者中顯示的次數。 如需詳細資訊，請參閱 [優惠適用性規則和限制檔案](../../../../offer-library/creating-personalized-offers.md).
+行動[!DNL Experience Edge]工作流程目前不支援優惠宣告和某些優惠限制，例如`Capping`。 `Capping`欄位值會指定某個優惠方案在所有使用者中顯示的次數。 如需詳細資訊，請參閱[優惠適用性規則和限制檔案](../../../../offer-library/creating-personalized-offers.md)。

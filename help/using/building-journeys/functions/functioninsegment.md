@@ -24,7 +24,7 @@ ht-degree: 6%
 
 對象名稱必須是字串常數。 它不能是欄位參考或運算式。
 
-對象定義於 [Adobe Experience Platform](https://platform.adobe.com/audience/overview). 運算式編輯器提供自動完成的對象清單。
+對象是在[Adobe Experience Platform](https://platform.adobe.com/audience/overview)中定義。 運算式編輯器提供自動完成的對象清單。
 
 對象可以有三種狀態：
 
@@ -32,11 +32,11 @@ ht-degree: 6%
 * 已實現：實體正在進入對象。
 * 已退出：實體正在退出對象。
 
-只有具備以下條件的個人： **已實現** 和 **現有** 對象參與狀態會視為對象的成員。 如需如何評估對象的詳細資訊，請參閱 [分段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
+只有具有&#x200B;**已實現**&#x200B;和&#x200B;**現有**&#x200B;對象參與狀態的個人，才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results)。
 
-`IF inSegment('segmentName') == true` 表示您擁有segmentMembership且狀態為entered/existing。
+`IF inSegment('segmentName') == true`表示您擁有segmentMembership且狀態為entered/existing。
 
-`ELSE inSegment('segmentName') == false` 表示您擁有退出狀態的segmentMembership。
+`ELSE inSegment('segmentName') == false`表示您擁有退出狀態的segmentMembership。
 
 ## 類別
 
@@ -64,4 +64,4 @@ Adobe Experience Platform
 
 說明：
 
-函式將傳回 **[!UICONTROL true]** 如果歷程例項中的個人屬於名為「50歲以上的男性」的Adobe Experience Platform對象， **[!UICONTROL false]** 否則。
+如果歷程執行個體中的個人是名為「超過50歲的男性」的Adobe Experience Platform對象的一部分，則函式會傳回&#x200B;**[!UICONTROL true]**，否則會傳回&#x200B;**[!UICONTROL false]**。

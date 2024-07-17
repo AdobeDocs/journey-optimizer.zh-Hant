@@ -18,51 +18,51 @@ ht-degree: 12%
 
 # 登陸頁面使用案例 {#lp-use-cases}
 
-以下是如何使用的一些範例 [!DNL Journey Optimizer] 登陸頁面，讓您的客戶選擇加入/退出接收部分或全部通訊。
+以下是如何使用[!DNL Journey Optimizer]登陸頁面，讓客戶選擇加入/退出接收部分或全部通訊的部分範例。
 
 ## 訂閱服務 {#subscription-to-a-service}
 
-最常見的使用案例之一是邀請客戶 [訂閱服務](subscription-list.md) （例如電子報或活動）瀏覽登陸頁面。 主要步驟如下圖所示：
+最常見的使用案例之一，就是透過登入頁面，邀請您的客戶[訂閱服務](subscription-list.md) （例如電子報或活動）。 主要步驟如下圖所示：
 
 ![](assets/lp_subscription-uc.png)
 
-例如，假設您在下個月組織活動，且您要啟動活動註冊行銷活動<!--to keep your customers that are interested updated on that event-->. 為此，您將傳送一封電子郵件，其中包含登陸頁面的連結，可讓您的收件者註冊此事件。 註冊的使用者將新增至您為此目的建立的訂閱清單中。
+例如，假設您在下個月組織活動，且您要啟動活動註冊行銷活動<!--to keep your customers that are interested updated on that event-->。 為此，您將傳送一封電子郵件，其中包含登陸頁面的連結，可讓您的收件者註冊此事件。 註冊的使用者將新增至您為此目的建立的訂閱清單中。
 
 ### 設定登入頁面 {#set-up-lp}
 
-1. 建立事件註冊的訂閱清單，此清單將儲存註冊的使用者。 瞭解如何建立訂閱清單 [此處](subscription-list.md#define-subscription-list).
+1. 建立事件註冊的訂閱清單，此清單將儲存註冊的使用者。 在[此處](subscription-list.md#define-subscription-list)瞭解如何建立訂閱清單。
 
    ![](assets/lp_subscription-uc-list.png)
 
-1. [建立登入頁面](create-lp.md) 讓您的收件者註冊您的活動。
+1. [建立登入頁面](create-lp.md)，讓您的收件者註冊您的活動。
 
    ![](assets/lp_create-lp-details.png)
 
-1. 設定註冊 [主要登陸頁面](create-lp.md#configure-primary-page).
+1. 設定註冊[主要登陸頁面](create-lp.md#configure-primary-page)。
 
-1. 設計時 [登陸頁面內容](design-lp.md)，選取您建立的訂閱清單，以使用選取註冊核取方塊的設定檔進行更新。
+1. 設計[登入頁面內容](design-lp.md)時，請選取您建立的訂閱清單，以使用選取註冊核取方塊的設定檔進行更新。
 
    ![](assets/lp_subscription-uc-lp-list.png)
 
-1. 建立「感謝您」頁面，在收件者提交登錄檔單後，此頁面就會顯示給收件者。 瞭解如何設定登入子頁面 [此處](create-lp.md#configure-subpages).
+1. 建立「感謝您」頁面，在收件者提交登錄檔單後，此頁面就會顯示給收件者。 在[此處](create-lp.md#configure-subpages)瞭解如何設定登入子頁面。
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [發佈](create-lp.md#publish) 登陸頁面。
+1. [Publish](create-lp.md#publish)登入頁面。
 
-1. 在 [歷程](../building-journeys/journey.md)，新增 **電子郵件** 將流量引導至註冊登陸頁面的活動。
+1. 在[歷程](../building-journeys/journey.md)中，新增&#x200B;**電子郵件**&#x200B;活動以將流量引導至註冊登入頁面。
 
    ![](assets/lp_subscription-uc-journey.png)
 
-1. [設計電子郵件](../email/get-started-email-design.md) 以宣佈您的活動已開放報名。
+1. [設計電子郵件](../email/get-started-email-design.md)以宣告您的活動已開放註冊。
 
-1. [插入連結](../email/message-tracking.md#insert-links) 放入您的訊息內容。 選取 **[!UICONTROL 登陸頁面]** 作為 **[!UICONTROL 連結型別]** 並選擇 [登陸頁面](create-lp.md#configure-primary-page) 您為註冊而建立的。
+1. [將連結](../email/message-tracking.md#insert-links)插入您的訊息內容。 選取&#x200B;**[!UICONTROL 登陸頁面]**&#x200B;作為&#x200B;**[!UICONTROL 連結型別]**，並選擇您為註冊建立的[登陸頁面](create-lp.md#configure-primary-page)。
 
    ![](assets/lp_subscription-uc-link.png)
 
    >[!NOTE]
    >
-   >若要能夠傳送您的訊息，請確定您選取的登入頁面尚未過期。 瞭解如何更新到期日 [在本節中](create-lp.md#configure-primary-page).
+   >若要能夠傳送您的訊息，請確定您選取的登入頁面尚未過期。 在本節](create-lp.md#configure-primary-page)中瞭解如何更新到期日[。
 
    收到電子郵件後，如果您的收件者按一下登陸頁面的連結，則會被導向至「感謝您」頁面，且會將其新增至訂閱清單。
 
@@ -70,13 +70,13 @@ ht-degree: 12%
 
 此外，您也可以傳送確認電子郵件給註冊了您事件的收件者。 若要執行此操作，請遵循下列步驟。
 
-1. 建立另一個 [歷程](../building-journeys/journey.md). 您可以按一下「 」，直接從登陸頁面執行此作業 **[!UICONTROL 建立歷程]** 按鈕。 [了解更多](create-lp.md#configure-primary-page)
+1. 建立另一個[歷程](../building-journeys/journey.md)。 您可以按一下&#x200B;**[!UICONTROL 建立歷程]**&#x200B;按鈕，直接從登入頁面執行此作業。 [了解更多](create-lp.md#configure-primary-page)
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. 展開 **[!UICONTROL 活動]** 類別與拖放 **[!UICONTROL 對象資格]** 活動至您的畫布。 [了解更多](../building-journeys/audience-qualification-events.md)
+1. 展開&#x200B;**[!UICONTROL 事件]**&#x200B;類別，並將&#x200B;**[!UICONTROL 對象資格]**&#x200B;活動放入您的畫布中。 [了解更多](../building-journeys/audience-qualification-events.md)
 
-1. 按一下 **[!UICONTROL 對象]** 欄位並選取您建立的訂閱清單。
+1. 按一下&#x200B;**[!UICONTROL 對象]**&#x200B;欄位，然後選取您建立的訂閱清單。
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
@@ -94,7 +94,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->進一步瞭解管理收件者的同意，以及這在中為何重要 [本節](../privacy/opt-out.md).
+>在[本節](../privacy/opt-out.md)中進一步瞭解如何管理收件者的同意，以及為什麼這很重要。
 
 ### 選擇退出管理 {#opt-out-management}
 
@@ -113,35 +113,35 @@ ht-degree: 12%
 
 1. 定義主要頁面。 [了解更多](create-lp.md#configure-primary-page)
 
-1. [設計](design-lp.md) 主要頁面內容：使用登入頁面特定的 **[!UICONTROL 表單]** 元件，定義 **[!UICONTROL 選擇退出]** 核取方塊並選擇以更新 **[!UICONTROL 頻道（電子郵件）]**：檢查登陸頁面上選擇退出方塊的設定檔將會選擇退出您的所有通訊。
+1. [設計](design-lp.md)主要頁面內容：使用登入頁面特定的&#x200B;**[!UICONTROL Form]**&#x200B;元件、定義&#x200B;**[!UICONTROL 選擇退出]**&#x200B;核取方塊並選擇更新&#x200B;**[!UICONTROL 管道（電子郵件）]**：在您的登入頁面上檢查選擇退出方塊的設定檔將會從您的所有通訊中選擇退出。
 
    ![](assets/lp_opt-out-primary-lp.png)
 
    <!--You can also build your own landing page and host it on the third-party system of your choice.-->
 
-1. 新增確認 [子頁面](create-lp.md#configure-subpages) 會向提交表單的使用者顯示。
+1. 新增將向提交表單的使用者顯示的確認[子頁面](create-lp.md#configure-subpages)。
 
    ![](assets/lp_opt-out-subpage.png)
 
    >[!NOTE]
    >
-   >請務必參考主要頁面之 **[!UICONTROL 行動號召]** 的區段 **[!UICONTROL 表單]** 元件。 [了解更多](design-lp.md)
+   >請確定您參考主要頁面&#x200B;**[!UICONTROL 表單]**&#x200B;元件的&#x200B;**[!UICONTROL 行動號召]**&#x200B;區段中的子頁面。 [了解更多](design-lp.md)
 
-1. 設定並定義頁面的內容後， [發佈](create-lp.md#publish) 登陸頁面。
+1. 設定並定義頁面內容後，[發佈](create-lp.md#publish)登入頁面。
 
-1. [建立電子郵件訊息](../email/get-started-email-design.md) 在歷程中。
+1. [在歷程中建立電子郵件訊息](../email/get-started-email-design.md)。
 
-1. 選取內容中的文字，並 [插入連結](../email/message-tracking.md#insert-links) 使用內容工具列。 您也可以在按鈕上使用連結。
+1. 選取內容中的文字，並使用內容相關工具列[插入連結](../email/message-tracking.md#insert-links)。 您也可以在按鈕上使用連結。
 
-1. 選取 **[!UICONTROL 登陸頁面]** 從 **[!UICONTROL 連結型別]** 下拉式清單並選取 [登陸頁面](create-lp.md#configure-primary-page) 您建立用來選擇退出的物件。
+1. 從&#x200B;**[!UICONTROL 連結型別]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 登陸頁面]**，並選取您為選擇退出而建立的[登陸頁面](create-lp.md#configure-primary-page)。
 
    ![](assets/lp_opt-out-landing-page.png)
 
    >[!NOTE]
    >
-   >若要能夠傳送您的訊息，請確定您選取的登入頁面尚未過期。 瞭解如何更新到期日 [在本節中](create-lp.md#configure-primary-page).
+   >若要能夠傳送您的訊息，請確定您選取的登入頁面尚未過期。 在本節](create-lp.md#configure-primary-page)中瞭解如何更新到期日[。
 
-1. 發佈並執行歷程。 [了解更多](../building-journeys/journey.md)。
+1. Publish並執行歷程。 [了解更多](../building-journeys/journey.md)。
 
 1. 收到訊息後，如果收件者按一下電子郵件中的取消訂閱連結，就會顯示您的登陸頁面。
 
@@ -153,17 +153,17 @@ ht-degree: 12%
 
    * 設定檔資料已更新，除非再次訂閱，否則將不會收到您品牌的通訊。
 
-若要檢查對應的設定檔選擇是否已更新，請前往 Experience Platform，並透過選取識別名稱空間和對應的識別值來存取設定檔。 進一步瞭解 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}.
+若要檢查對應的設定檔選擇是否已更新，請前往 Experience Platform，並透過選取識別名稱空間和對應的識別值來存取設定檔。 在[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
 
 ![](assets/lp_opt-out-profile-choice.png)
 
-在 **[!UICONTROL 屬性]** 標籤中，您可以看到的值 **[!UICONTROL 選擇]** 已變更為 **[!UICONTROL 否]**.
+在&#x200B;**[!UICONTROL 屬性]**&#x200B;索引標籤中，您可以看到&#x200B;**[!UICONTROL 選擇]**&#x200B;的值已變更為&#x200B;**[!UICONTROL no]**。
 
-退出資訊會儲存在 **同意服務資料集**. [進一步瞭解資料集](../data/get-started-datasets.md)
+選擇退出資訊儲存在&#x200B;**同意服務資料集**&#x200B;中。 [進一步瞭解資料集](../data/get-started-datasets.md)
 
 >[!NOTE]
 >
->如果您預設的合併方法 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"} **[!UICONTROL 設定檔]** 合併原則為 **[!UICONTROL 資料集優先順序]**，請務必啟用 **[!UICONTROL AJO同意服務資料集]** 並在合併原則中加以優先處理。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+>如果您的預設[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"} **[!UICONTROL 設定檔]**&#x200B;合併原則的合併方法是&#x200B;**[!UICONTROL 資料集優先順序]**，請務必啟用&#x200B;**[!UICONTROL AJO同意服務資料集]**，並在合併原則中將其優先順序化。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >即使未將任何批次新增至此資料集，它仍會包含選擇加入/選擇退出資訊。
 

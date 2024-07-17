@@ -9,13 +9,13 @@ exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
 # 刪除決定 {#delete-decision}
 
-有時可能必須移除(DELETE)決定。 這可透過向以下對象執行DELETE請求來完成 [!DNL Offer Library] API使用 `id` 要刪除的決定的預設值。
+有時可能必須移除(DELETE)決定。 使用您要刪除之決定的`id`對[!DNL Offer Library] API執行DELETE要求，即可完成此作業。
 
 **API格式**
 

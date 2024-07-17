@@ -10,15 +10,15 @@ level: Experienced
 keywords: 原則、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '1330'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1388'
+ht-degree: 95%
 
 ---
 
 # 使用同意原則 {#consent-management}
 
-您的資料可能受貴組織或法律法規所定義的使用限制所約束。 因此，請務必確保您在 Journey Optimizer 的資料操作符合[資料使用原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant){target="_blank"}. These policies are Adobe Experience Platform rules defining which [marketing actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant#marketing-actions){target="_blank"}，且您可對資料執行操作。
+您的資料可能受貴組織或法律法規所定義的使用限制所約束。 因此，請務必確保您在Journey Optimizer中的資料作業符合[資料使用原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant){target="_blank"}。 這些原則是Adobe Experience Platform規則，定義您可以對資料執行哪些[行銷動作](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant#marketing-actions){target="_blank"}。
 
 可用的一種資料使用原則類型為&#x200B;**同意原則**。 其可讓您輕鬆採用及強制執行行銷原則，以尊重客戶的同意偏好設定。 [了解更多原則執行](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html?lang=zh-Hant){target="_blank"}
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 ## 透過管道表面運用同意原則 {#surface-marketing-actions}
 
-在 [!DNL Journey Optimizer]，同意由體驗平台[同意綱要](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant)處理{target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}。
+在 [!DNL Journey Optimizer]中，同意由 Experience Platform [同意結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"}負責處理。 預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 可以在上線時，到[此處](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}從以下列出的可能數值當中修改此預設值。
 
 若要修改同意欄位值，您可以建立自訂同意原則，在其中定義行銷動作以及執行該動作的條件。[了解有關行銷活動的更多資訊](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant#marketing-actions){target="_blank"}
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
       >[!NOTE]
       >
-      >Adobe 提供的開箱即用的核心行銷活動列於[此表格](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant#core-actions){target="_blank"}. The steps to create a custom marketing action are listed in [this section](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#create-marketing-action){target="_blank"}。
+      >由Adobe提供的現成核心行銷動作列於[此資料表](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant#core-actions){target="_blank"}。 建立自訂行銷動作的步驟列於[本節](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#create-marketing-action){target="_blank"}。
 
    1. 選擇套用的行銷動作時會發生的情況。 在此範例中，選擇&#x200B;**[!UICONTROL 電子郵件行銷同意書]**。
 

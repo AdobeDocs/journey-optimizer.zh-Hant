@@ -17,9 +17,9 @@ ht-degree: 5%
 
 集合限定詞（先前稱為「標籤」）可讓您更妥善地整理及排序選件。 例如，您可以使用「黑色星期五」集合限定詞來標示「黑色星期五」優惠方案。 然後，您可以使用優惠資料庫中的搜尋功能，輕鬆找到所有具有該集合限定詞的優惠方案。
 
-集合限定詞也可用於將優惠分組為集合。 如需詳細資訊，請參閱以下教學課程： [建立集合](../../../../offer-library/creating-collections.md).
+集合限定詞也可用於將優惠分組為集合。 如需詳細資訊，請參閱有關[建立集合](../../../../offer-library/creating-collections.md)的教學課程。
 
-您可以透過對以下專案執行單一GET請求，來檢視所有集合限定詞的清單： [!DNL Offer Library] API。
+您可以對[!DNL Offer Library] API執行單一GET要求，以檢視所有集合限定詞清單。
 
 **API格式**
 
@@ -56,8 +56,8 @@ curl -X GET \
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `property` | 選用的屬性篩選器： <ul><li>屬性會依AND作業分組。</li><li>引數可以重複執行，如下所示：property={PROPERTY_EXPR}[屬性(&amp;P)={PROPERTY_EXPR2}...] 或屬性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>屬性運算式的格式為 `[!]field[op]value`，使用 `op` 在 `[==,!=,<=,>=,<,>,~]`，支援規則運算式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | 依特定屬性排序結果。 在名稱前新增 — (orderby=-name)將會以降序順序(Z-A)依名稱排序專案。 路徑運算式採用點分隔路徑的形式。 此引數可重複執行，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`，`-name` |
+| `property` | 選用的屬性篩選器： <ul><li>屬性會依AND作業分組。</li><li>引數可以重複如下：屬性={PROPERTY_EXPR}[&amp;屬性={PROPERTY_EXPR2}...]或屬性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>屬性運算式的格式為`[!]field[op]value`，在`[==,!=,<=,>=,<,>,~]`中有`op`，支援規則運算式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | 依特定屬性排序結果。 在名稱前新增 — (orderby=-name)將會以降序順序(Z-A)依名稱排序專案。 路徑運算式採用點分隔路徑的形式。 此引數可以重複執行，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`，`-name` |
 | `limit` | 限制傳回的實體數。 | `limit=5` |
 
 **回應**

@@ -34,15 +34,15 @@ ht-degree: 23%
 >abstract="為了能夠建立登陸頁面預設集，請確保您之前已設定了至少一個登陸頁面子網域，才能從子網域名稱清單中挑選。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hant#lp-create-preset" text="建立登陸頁面預設集"
 
-能夠 [建立登陸頁面預設集](lp-presets.md)，您必須設定用於登入頁面的子網域。
+若要能夠[建立登陸頁面預設集](lp-presets.md)，您必須設定您將用於登陸頁面的子網域。
 
-您可以使用已委派給Adobe的子網域，也可以設定另一個子網域。 進一步瞭解將子網域委派至Adobe於 [本節](../configuration/delegate-subdomain.md).
+您可以使用已委派給Adobe的子網域，也可以設定另一個子網域。 在[本節](../configuration/delegate-subdomain.md)中進一步瞭解將子網域委派給Adobe。
 
 >[!CAUTION]
 >
 >登陸頁面子網域設定對所有環境都是通用的。 因此：
 >
->* 若要存取及編輯登陸頁面子網域，您必須擁有 **[!UICONTROL 管理登陸頁面子網域]** 生產沙箱的許可權。
+>* 若要存取及編輯登陸頁面子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理登陸頁面子網域]**&#x200B;許可權。
 >
 > * 對登陸頁面子網域所做的任何修改也會影響生產沙箱。
 
@@ -50,15 +50,15 @@ ht-degree: 23%
 
 若要使用已委派給Adobe的子網域，請遵循下列步驟。
 
-1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** 功能表，然後選取 **[!UICONTROL 電子郵件設定]** > **[!UICONTROL 登陸頁面子網域]**.
+1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 電子郵件設定]** > **[!UICONTROL 登陸頁面子網域]**。
 
    ![](assets/lp_access-subdomains.png)
 
-1. 按一下 **[!UICONTROL 設定子網域]**.
+1. 按一下&#x200B;**[!UICONTROL 設定子網域]**。
 
    ![](assets/lp_set-up-subdomain.png)
 
-1. 選取 **[!UICONTROL 使用委派網域]** 從 **[!UICONTROL 設定型別]** 區段。
+1. 從&#x200B;**[!UICONTROL 組態型別]**&#x200B;區段中選取&#x200B;**[!UICONTROL 使用委派網域]**。
 
    ![](assets/lp_use-delegated-subdomain.png)
 
@@ -82,19 +82,19 @@ ht-degree: 23%
 
    >[!CAUTION]
    >
-   >如果您使用選取已委派給Adobe的網域 [CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-delegation)，您必須在您的代管平台上建立DNS記錄。 若要產生DNS記錄，此程式與您設定新登陸頁面子網域時的程式相同。 瞭解如何 [本節](#lp-configure-new-subdomain).
+   >如果您選取使用[CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-delegation)委派給Adobe的網域，您必須在您的代管平台上建立DNS記錄。 若要產生DNS記錄，此程式與您設定新登陸頁面子網域時的程式相同。 在[本節](#lp-configure-new-subdomain)中瞭解如何操作。
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**。
 
-1. 提交後，子網域會顯示在清單中，並包含 **[!UICONTROL 處理中]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. 提交後，子網域會顯示在狀態為&#x200B;**[!UICONTROL 處理中]**&#x200B;的清單中。 如需子網域狀態的詳細資訊，請參閱[本區段](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
    ![](assets/lp_subdomain-processing.png)
 
    >[!NOTE]
    >
-   >您必須先等到Adobe執行所需的檢查（最多可能需要4小時），才能使用該子網域傳送訊息。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   >您必須等到Adobe執行必要的檢查，才能使用該子網域傳送訊息，最多可能需要4小時。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
-1. 檢查成功後，子網域會取得 **[!UICONTROL 成功]** 狀態。 它已準備好用來建立登入頁面預設集。
+1. 檢查成功後，子網域會取得&#x200B;**[!UICONTROL Success]**&#x200B;狀態。 它已準備好用來建立登入頁面預設集。
 
 ## 設定新的子網域 {#lp-configure-new-subdomain}
 
@@ -105,11 +105,11 @@ ht-degree: 23%
 
 若要設定新的子網域，請遵循下列步驟。
 
-1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** 功能表，然後選取 **[!UICONTROL 電子郵件設定]** > **[!UICONTROL 登陸頁面子網域]**.
+1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 電子郵件設定]** > **[!UICONTROL 登陸頁面子網域]**。
 
-1. 按一下 **[!UICONTROL 設定子網域]**.
+1. 按一下&#x200B;**[!UICONTROL 設定子網域]**。
 
-1. 選取 **[!UICONTROL 新增您自己的網域]** 從 **[!UICONTROL 設定型別]** 區段。
+1. 從&#x200B;**[!UICONTROL 組態型別]**&#x200B;區段中選取&#x200B;**[!UICONTROL 新增您自己的網域]**。
 
    ![](assets/lp_add-your-own-subdomain.png)
 
@@ -129,7 +129,7 @@ ht-degree: 23%
 
 1. 將會顯示要放置在DNS伺服器中的記錄。 複製此記錄或下載CSV檔案，然後導覽至您的網域託管解決方案，以產生相符的DNS記錄。
 
-1. 請確定已在您的網域託管解決方案中產生DNS記錄。 如果所有專案皆已正確設定，請勾選「我確認……」方塊，然後按一下 **[!UICONTROL 提交]**.
+1. 請確定已在您的網域託管解決方案中產生DNS記錄。 如果所有專案皆已正確設定，請勾選「我確認……」方塊，然後按一下&#x200B;**[!UICONTROL 提交]**。
 
    ![](assets/lp_add-your-own-subdomain-confirm.png)
 
@@ -137,12 +137,12 @@ ht-degree: 23%
    >
    >當您設定新的登陸頁面子網域時，它將永遠指向CNAME記錄。
 
-1. 提交子網域委派後，子網域會顯示在清單中，並包含 **[!UICONTROL 處理中]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. 提交子網域委派後，子網域會顯示在狀態為&#x200B;**[!UICONTROL 處理中]**&#x200B;的清單中。 如需子網域狀態的詳細資訊，請參閱[本區段](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
    >[!NOTE]
    >
-   >您必須等待Adobe執行所需檢查（最多可能需要4小時），才能將該子網域用於登入頁面。<!--Learn more in [this section](#subdomain-validation).-->
+   >您必須先等到Adobe執行必要的檢查，才能將該子網域用於登入頁面，最多可能需要4小時。<!--Learn more in [this section](#subdomain-validation).-->
 
-1. 檢查成功後，子網域會取得 **[!UICONTROL 成功]** 狀態。 它已準備好用來建立登入頁面預設集。
+1. 檢查成功後，子網域會取得&#x200B;**[!UICONTROL Success]**&#x200B;狀態。 它已準備好用來建立登入頁面預設集。
 
-   請注意，子網域將標示為 **[!UICONTROL 已失敗]** 如果您無法在託管解決方案上建立驗證記錄。
+   請注意，如果您無法在託管解決方案上建立驗證記錄，子網域將會標示為&#x200B;**[!UICONTROL 失敗]**。

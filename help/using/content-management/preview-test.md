@@ -26,23 +26,23 @@ ht-degree: 25%
 
 ## 關於內容預覽和測試 {#about}
 
-定義內容後，您就可以使用測試設定檔來 [預覽](preview.md) 其內容在傳送訊息之前。 這是確保正確性的重要步驟，但內容與個人化設定中也不會有錯誤。
+定義內容後，您可以使用測試設定檔，在傳送訊息之前[預覽](preview.md)其內容。 這是確保正確性的重要步驟，但內容與個人化設定中也不會有錯誤。
 
-此外，您也可以 [傳送測試傳遞](proofs.md) 您傳送給特定收件者或訂閱者的電子郵件訊息（校樣），以進行測試和驗證，以及 [檢查其轉譯](rendering.md) 在熱門的桌上型電腦、行動裝置和Web型使用者端中。
+此外，您也可以[傳送電子郵件訊息的測試傳遞](proofs.md) （校樣）給特定收件者或訂閱者，以進行測試和驗證，以及[在熱門的案頭、行動及網頁型使用者端中檢查其轉譯](rendering.md)。
 
-所有這些動作都可使用 **[!UICONTROL 模擬內容]** 按鈕，可從訊息的編輯內容畫面，或電子郵件與網頁通道的電子郵件與網頁設計工具存取。
+所有這些動作都可以使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕來執行，您可從訊息的編輯內容畫面或電子郵件與網頁通道的電子郵件與網頁設計工具存取該按鈕。
 
 ![](../email/assets/email-preview-button.png)
 
 >[!CAUTION]
 >
->預覽訊息或傳送校樣時，僅會顯示設定檔個人化資料。 根據內容資料（例如事件資訊）的個人化只能在歷程的內容中測試。 瞭解如何在中測試個人化 [此使用案例](../personalization/personalization-use-case.md).
+>預覽訊息或傳送校樣時，僅會顯示設定檔個人化資料。 根據內容資料（例如事件資訊）的Personalization只能在歷程的內容中測試。 瞭解如何在[此使用案例](../personalization/personalization-use-case.md)中測試個人化。
 
-➡️ [透過此影片瞭解如何預覽和校樣您的電子郵件](#video-preview)
+➡️[在此影片中瞭解如何預覽和校訂您的電子郵件](#video-preview)
 
 ## 先決條件 {#prerequisites}
 
-若要模擬內容，您必須具備 **[!DNL Manage Simulate Content]** 許可權包含在 **[!DNL Content Library Manager]** 產品設定檔。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)。
+若要模擬內容，您需要在&#x200B;**[!DNL Content Library Manager]**&#x200B;產品設定檔中包含&#x200B;**[!DNL Manage Simulate Content]**&#x200B;許可權。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)。
 
 您還需要有可用的測試設定檔，才能預覽訊息。 [瞭解如何建立測試設定檔](../audience/creating-test-profiles.md)
 

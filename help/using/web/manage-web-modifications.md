@@ -9,7 +9,7 @@ exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '954'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -18,19 +18,19 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
 >title="輕鬆管理所有變更"
->abstract="使用此窗格，您可以瀏覽並管理新增至網頁的所有調整與樣式。"
+>abstract="使用此窗格，您可以瀏覽和管理您新增到網頁的所有調整和樣式。"
 
 您可以輕鬆管理新增至網頁的所有元件、調整和樣式。 您也可以直接從專用窗格新增修改。
 
 ## 使用修改窗格 {#use-modifications-pane}
 
-1. 選取 **[!UICONTROL 修改]** 圖示來在左側顯示對應的窗格。
+1. 選取&#x200B;**[!UICONTROL 修改]**&#x200B;圖示以在左側顯示對應的窗格。
 
    ![](assets/web-designer-modifications-pane.png)
 
 1. 您可以檢閱對頁面所做的每項變更。
 
-1. 選取不想要的修改，然後按一下 **[!UICONTROL 刪除修改]** 選項來自 **[!UICONTROL 更多動作]** 按鈕以移除它。
+1. 選取不想要的修改，然後從&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕按一下&#x200B;**[!UICONTROL 刪除修改]**&#x200B;選項以移除它。
 
    ![](assets/web-designer-modifications-delete.png)
 
@@ -38,58 +38,58 @@ ht-degree: 0%
    >
    >刪除動作時請務必謹慎，因為動作可能會影響後續動作。
 
-1. 若要同時刪除多項修改，請按一下 **[!UICONTROL 選取]** 按鈕在頂端 **[!UICONTROL 修改]** 窗格，檢查您選擇的修改內容，然後按一下 **[!UICONTROL 刪除]** 圖示。
+1. 若要同時刪除多個修改，請按一下&#x200B;**[!UICONTROL 修改]**&#x200B;窗格上方的&#x200B;**[!UICONTROL 選取]**&#x200B;按鈕，檢查您選擇的修改，然後按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示。
 
    ![](assets/web-designer-modifications-select-delete.png)
 
-1. 使用 **[!UICONTROL 更多動作]** 按鈕在頂端 **[!UICONTROL 修改]** 窗格，一次刪除所有修改。
+1. 使用&#x200B;**[!UICONTROL 修改]**&#x200B;窗格上方的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕，一次刪除所有修改。
 
    ![](assets/web-designer-delete-modifications.png)
 
 1. 您也可以僅刪除無效的修改，亦即其他變更已覆寫這些變更。 例如，如果您修改文字的顏色，然後刪除該文字，則顏色修改會變成無效，因為該文字已不存在。
 
-1. 您可以使用取消和重做動作 **[!UICONTROL 還原/重做]** 按鈕。
+1. 您可以使用畫面右上方的&#x200B;**[!UICONTROL 復原/重做]**&#x200B;按鈕來取消和重做動作。
 
    ![](assets/web-designer-undo-redo.png)
 
-   按住按鈕以在 **[!UICONTROL 還原]** 和 **[!UICONTROL 取消復原]** 選項。 然後按一下按鈕本身，套用所需的動作。
+   按住按鈕以在&#x200B;**[!UICONTROL 復原]**&#x200B;和&#x200B;**[!UICONTROL 取消復原]**&#x200B;選項之間切換。 然後按一下按鈕本身，套用所需的動作。
 
 ## 從專用窗格新增修改 {#add-modifications}
 
-使用網頁設計工具編輯頁面時，您可以直接從 **[!UICONTROL 修改]** 窗格 — 不需從Web設計工具介面選取元件並加以編輯。 請遵循下列步驟。
+使用網頁設計工具編輯頁面時，您可以直接從&#x200B;**[!UICONTROL 修改]**&#x200B;窗格新增內容變更，而不需要從網頁設計工具介面選取元件並加以編輯。 請遵循下列步驟。
 
-1. 從 **[!UICONTROL 修改]** 窗格，按一下 **[!UICONTROL 更多動作]** 按鈕。
+1. 在&#x200B;**[!UICONTROL 修改]**&#x200B;窗格中，按一下&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕。
 
-1. 選取 **[!UICONTROL 新增修改]**.
+1. 選取&#x200B;**[!UICONTROL 新增修改]**。
 
    ![](assets/web-designer-add-modification.png)
 
 1. 選取修改型別：
 
-   * **[!UICONTROL CSS選取器]** - [瞭解更多](#css-selector)
-   * **[!UICONTROL 頁面`<Head>`]** - [瞭解更多](#page-head)
+   * **[!UICONTROL CSS選擇器]** - [深入瞭解](#css-selector)
+   * **[!UICONTROL 頁面`<Head>`]** - [深入瞭解](#page-head)
 
-1. 輸入您的內容和 **[!UICONTROL 儲存]** 您的變更。
+1. 輸入您的內容並&#x200B;**[!UICONTROL 儲存]**&#x200B;您的變更。
 
-1. 按一下 **[!UICONTROL 更多動作]** 按鈕進行修改並選取 **[!UICONTROL 資訊]** 以顯示其詳細資料。
+1. 按一下您修改旁的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕，並選取&#x200B;**[!UICONTROL 資訊]**&#x200B;以顯示其詳細資料。
 
    ![](assets/web-designer-add-modification-info.png)
 
 ### CSS選取器 {#css-selector}
 
-若要新增 **CSS選取器** 輸入修改，請遵循下列步驟。
+若要新增&#x200B;**CSS選取器**&#x200B;型別修改，請遵循下列步驟。
 
-1. 選取 **[!UICONTROL CSS選取器]** 作為修改型別。
+1. 選取&#x200B;**[!UICONTROL CSS選取器]**&#x200B;作為修改型別。
 
-1. 此 **[!UICONTROL CSS元素選取器]** 欄位可協助您尋找並選取要套用變更的HTML元素（或DOM樹狀結構中的節點）。 <!--specify the desired CSS element that you want to modify.-->
+1. **[!UICONTROL CSS元素選取器]**&#x200B;欄位可協助您尋找並選取要套用變更的HTML元素（或DOM樹狀結構中的節點）。<!--specify the desired CSS element that you want to modify.-->
 
    ![](assets/web-designer-add-modification-css.png)
 
-1. 選取動作型別(**[!UICONTROL 設定內容]** 或 **[!UICONTROL 設定屬性]**)並填入必要資訊/內容。
+1. 選取動作型別（**[!UICONTROL 設定內容]**&#x200B;或&#x200B;**[!UICONTROL 設定屬性]**）並填入必要的資訊/內容。
 
-   * **[!UICONTROL 設定內容]**：指定進入元素的內容，該元素由 **[!UICONTROL CSS元素選取器]** 欄位。
+   * **[!UICONTROL 設定內容]**：指定進入&#x200B;**[!UICONTROL CSS元素選取器]**&#x200B;欄位所識別之元素的內容。
 
-   * **[!UICONTROL 設定屬性]**：指定要與目前CSS選取器關聯的屬性，以便此選取器可接著由此屬性識別。 若要這麼做，請在 **[!UICONTROL 屬性名稱]** 中的欄位和值 **[!UICONTROL 內容]** 欄位。 如果屬性已經存在，則會更新值；否則，會以指定的名稱和值新增屬性。
+   * **[!UICONTROL 設定屬性]**：指定要與目前CSS選取器關聯的屬性，以便這個選取器也能由這個屬性識別。 若要這麼做，請在&#x200B;**[!UICONTROL 屬性名稱]**&#x200B;欄位中輸入名稱，並在&#x200B;**[!UICONTROL 內容]**&#x200B;欄位中輸入值。 如果屬性已經存在，則會更新值；否則，會以指定的名稱和值新增屬性。
 
      ![](assets/web-designer-add-modification-css-attribute.png)
 
@@ -98,35 +98,35 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
 >title="新增自訂程式碼"
->abstract="HEAD元素是中繼資料的容器，並置於HTML標籤和BODY標籤之間。 僅新增SCRIPT和STYLE元素。 新增DIV標籤和其他元素可能會造成其餘的HEAD元素出現在BODY中。"
+>abstract="HEAD 元素是中繼資料的容器，位於 HTML 標記和 BODY 標記之間。僅新增 SCRIPT 和 STYLE 元素。新增 DIV 標記和其他元素可能會造成其餘的 HEAD 元素出現在 BODY 中。"
 
-您可以使用新增自訂程式碼 **[!UICONTROL 頁面`<head>`]** 修改型別。
+您可以使用&#x200B;**[!UICONTROL 頁面`<head>`]**&#x200B;修改型別來新增自訂程式碼。
 
-此 `<head>` 元素是中繼資料（資料的相關資料）的容器，並放置在 `<html>` 標籤與 `<body>` 標籤之間。 在此情況下，程式碼不會等待內文或頁面載入事件，而是在頁面載入開始時執行。
+`<head>`元素是中繼資料（資料的相關資料）的容器，並置於`<html>`標籤和`<body>`標籤之間。 在此情況下，程式碼不會等待內文或頁面載入事件，而是在頁面載入開始時執行。
 
-此 `<head>` 元素常用來新增JavaScript或CSS程式碼至頁面頂端。 後續視覺化動作的選取器取決於此標籤中新增的HTML元素。
+`<head>`元素通常用於將JavaScript或CSS程式碼新增至頁面頂端。 後續視覺化動作的選取器取決於此標籤中新增的HTML元素。
 
-若要新增 **頁面`<head>`** 輸入修改，請遵循下列步驟。
+若要新增&#x200B;**頁面`<head>`**&#x200B;型別修改，請遵循下列步驟。
 
-1. 選取 **[!UICONTROL 頁面`<head>`]** 作為修改型別。
+1. 選取&#x200B;**[!UICONTROL 頁面`<head>`]**&#x200B;作為修改型別。
 
    ![](assets/web-designer-add-modification-head-type.png)
 
-1. 在中新增您的自訂程式碼 **[!UICONTROL 內容]** 方塊。
+1. 在&#x200B;**[!UICONTROL 內容]**&#x200B;方塊中新增您的自訂程式碼。
 
    >[!CAUTION]
    >
-   >您只能新增 `<script>` 和 `<style>` 元素至 `<head>` 區段。 新增 `<div>` 標籤和其他元素可能會導致剩餘 `<head>` 元素以跳入 `<body>`.
+   >您只能新增`<script>`和`<style>`專案至`<head>`區段。 新增`<div>`標籤和其他元素可能導致剩餘的`<head>`元素出現在`<body>`中。
 
-1. 按一下 **[!UICONTROL 進階編輯選項]** 按鈕。 個人化編輯器隨即開啟。
+1. 按一下&#x200B;**[!UICONTROL 進階編輯選項]**&#x200B;按鈕。 個人化編輯器隨即開啟。
 
    ![](assets/web-designer-add-modification-head-advanced.png)
 
-   您可以善用 [!DNL Journey Optimizer] 具有所有個人化和編寫功能的個人化編輯器。 [了解更多](../personalization/personalization-build-expressions.md)
+   您可以善用[!DNL Journey Optimizer]個人化編輯器及其所有個人化和編寫功能。 [了解更多](../personalization/personalization-build-expressions.md)
 
 #### 自訂程式碼範例 {#custom-code-examples}
 
-您可以使用 **[!UICONTROL 頁面`<head>`]** 修改型別：
+您可以使用&#x200B;**[!UICONTROL 頁面`<head>`]**&#x200B;修改型別來：
 
 * 使用JavaScript內嵌或連結至外部JavaScript檔案。
 
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 #### 自訂程式碼最佳作法 {#custom-code-best-practices}
 
-+++ **請一律將自訂程式碼包裝在一個元素中。**
++++ **永遠將自訂程式碼包裝在一個元素中。**
 
 例如：
 
@@ -173,14 +173,14 @@ ht-degree: 0%
 
 +++
 
-+++ **如果您建立元素然後加以修改，請勿刪除原始元素。**
++++ **如果您建立元素並加以修改，請勿刪除原始元素。**
 
-每次變更都會在 **[!UICONTROL 修改]** 面板。 因為第二個動作會修改元素1，如果您刪除元素1，該動作便沒有任何專案需要修改，因此變更不再有作用。
+每次變更都會在&#x200B;**[!UICONTROL 修改]**&#x200B;面板中建立新元素。 因為第二個動作會修改元素1，如果您刪除元素1，該動作便沒有任何專案需要修改，因此變更不再有作用。
 
 +++
 
-+++ **使用時要小心**[!UICONTROL &#x200B;頁面 `<head>`]**影響相同URL之兩個行銷活動的修改型別。**
++++ **針對影響相同URL的兩個行銷活動使用**[!UICONTROL &#x200B;頁面&#x200B;`<head>`]**修改型別時，請小心。**
 
-如果您使用 **[!UICONTROL 頁面`<head>`]** 針對影響相同URL的兩個行銷活動的修改型別，JavaScript會從兩個行銷活動插入頁面。 [!DNL Journey Optimizer] 自動決定傳遞內容的順序。 確定程式碼不取決於放置位置。 您可以自行確定程式碼中是否有衝突。
+如果您對影響相同URL的兩個行銷活動使用&#x200B;**[!UICONTROL 頁面`<head>`]**&#x200B;修改型別，則JavaScript會從兩個行銷活動插入頁面。 [!DNL Journey Optimizer]會自動決定傳遞內容的順序。 確定程式碼不取決於放置位置。 您可以自行確定程式碼中是否有衝突。
 
 +++

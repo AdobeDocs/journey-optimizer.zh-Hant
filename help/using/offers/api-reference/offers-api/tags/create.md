@@ -9,7 +9,7 @@ exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 11%
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示包含 *Content-Type* 請求標頭中的欄位：
+下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;欄位的有效值：
 
-| 頁首名稱 | 值 |
+| 標題名稱 | 值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
 
@@ -53,7 +53,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/tags' \
 
 **回應**
 
-成功的回應會傳回新建立的集合限定詞的相關資訊，包括其唯一的 `id`. 您可以使用 `id` 在後續步驟中更新或刪除您的集合限定詞。 您可以使用唯一的集合限定詞 `id` 在稍後的教學課程中，以建立系列和個人化優惠。
+成功的回應傳回關於新建立的集合限定詞的資訊，包括其唯一的`id`。 您可以在稍後的步驟中使用`id`來更新或刪除您的集合限定詞。 在稍後的教學課程中，您可以使用唯一的集合限定詞`id`來建立集合和個人化優惠。
 
 ```json
 {

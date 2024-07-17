@@ -23,7 +23,7 @@ ht-degree: 20%
 >title="反應事件"
 >abstract="本活動可讓您回應和同一歷程中傳送的訊息相關的追蹤資料。我們會在和 Adobe Experience Platform 共用時即時擷取此資訊。"
 
-在浮動視窗中可用的不同事件活動中，您會找到內建的 **[!UICONTROL 回應]** 事件。 本活動可讓您回應和同一歷程中傳送的訊息相關的追蹤資料。我們會在和 Adobe Experience Platform 共用時即時擷取此資訊。
+在浮動視窗中可用的不同事件活動中，您會找到內建的&#x200B;**[!UICONTROL 回應]**&#x200B;事件。 本活動可讓您回應和同一歷程中傳送的訊息相關的追蹤資料。我們會在和 Adobe Experience Platform 共用時即時擷取此資訊。
 
 您可以對點按或開啟的訊息做出反應。
 
@@ -31,16 +31,16 @@ ht-degree: 20%
 
 請注意，如果之前有管道動作活動（電子郵件和推播），您只能在畫布中使用回應活動。
 
-另請參閱 [關於動作活動](../building-journeys/about-journey-activities.md#action-activities).
+請參閱[關於動作活動](../building-journeys/about-journey-activities.md#action-activities)。
 
 ![](assets/journey45.png)
 
 以下是設定反應事件的不同步驟：
 
-1. 新增 **[!UICONTROL 標籤]** 以作出反應。 此步驟為選填。
+1. 新增&#x200B;**[!UICONTROL 標籤]**&#x200B;至回應。 此步驟為選填。
 1. 從下拉式清單中，選取您要回應的動作活動。 您可以選取位於路徑前幾個步驟中的任何動作活動。
 1. 根據您選取的動作，選擇您要回應的專案。
-1. 您可以定義事件逾時（40秒至29天之間）和逾時路徑。 這會為未在定義期間內回應的個人建立第二個路徑。 測試歷程的反應事件時，測試模式 **[!UICONTROL 等待時間]** 預設值及最小值為40秒。 請參閱[本節](../building-journeys/testing-the-journey.md)。
+1. 您可以定義事件逾時（40秒至29天之間）和逾時路徑。 這會為未在定義期間內回應的個人建立第二個路徑。 測試歷程的反應事件時，測試模式&#x200B;**[!UICONTROL 等待時間]**&#x200B;預設值及最小值為40秒。 請參閱[本節](../building-journeys/testing-the-journey.md)。
 
 >[!NOTE]
 >

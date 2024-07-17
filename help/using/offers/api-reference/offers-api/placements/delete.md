@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 刪除位置 {#delete-placement}
 
-有時可能需要移除(DELETE)位置。 這可透過向以下對象執行DELETE請求來完成 [!DNL Offer Library] API使用您要刪除之位置的ID。
+有時可能需要移除(DELETE)位置。 使用您要刪除之位置的ID對[!DNL Offer Library] API執行DELETE要求來達成此目的。
 
 **API格式**
 

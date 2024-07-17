@@ -9,19 +9,19 @@ exl-id: 33da2c42-0c6c-49d3-bad8-1a85a5172cd8
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
 # 更新決定規則 {#update-decision-rule}
 
-您可以向以下網站發出POST要求，以建立遞補優惠： [!DNL Offer Library] API，同時提供容器ID。
+您可以對[!DNL Offer Library] API發出POST要求，同時提供容器ID來建立遞補優惠。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
+下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
 
-| 頁首名稱 | 值 |
+| 標題名稱 | 值 |
 | ----------- | ----- |
 | 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
@@ -60,7 +60,7 @@ curl -X PATCH \
 
 **回應**
 
-成功的回應會傳回決定規則的更新詳細資料，包括其唯一的執行個體ID和決定規則 `@id`.
+成功的回應會傳回決定規則的更新詳細資料，包括其唯一的執行個體識別碼和決定規則`@id`。
 
 
 ```json

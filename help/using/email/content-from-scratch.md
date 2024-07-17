@@ -64,11 +64,11 @@ ht-degree: 54%
 
 若要開始建立您的內容，請遵循下列步驟：
 
-1. 從設計工具首頁，選取 **[!UICONTROL 從頭開始設計]** 選項。
+1. 從Designer首頁，選取&#x200B;**[!UICONTROL 從頭開始設計]**&#x200B;選項。
 
    ![](assets/email_designer.png)
 
-1. 透過拖放來開始設計內容 **[!UICONTROL 結構]** 放入畫布以定義電子郵件的版面。
+1. 將&#x200B;**[!UICONTROL Structures]**&#x200B;拖放到畫布中，以定義電子郵件的配置，開始設計您的內容。
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ ht-degree: 54%
 
    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
-1. 新增相同數量 **[!UICONTROL 結構]** 視需要在右側的專用窗格中編輯其設定。
+1. 視需要新增多個&#x200B;**[!UICONTROL 結構]**，並在右側的專用窗格中編輯其設定。
 
    ![](assets/email_designer_structure_components.png)
 
@@ -86,13 +86,13 @@ ht-degree: 54%
    >
    >每個欄的大小不能小於結構元件總寬度的 10%。如果欄不是空的，則無法移除。
 
-1. 展開 **[!UICONTROL 內容]** 並視需要將任意多個元素新增至一或多個結構元件中。 [進一步了解內容元件](content-components.md)
+1. 展開&#x200B;**[!UICONTROL 內容]**&#x200B;區段，並新增您所需數量的元素至一或多個結構元件。 [進一步了解內容元件](content-components.md)
 
-1. 每個元件都可進一步使用進行自訂 **[!UICONTROL 設定]** 或 **[!UICONTROL 樣式]** 索引標籤在右側功能表中。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。[了解對齊方式和邊框間距的詳細資訊](alignment-and-padding.md)
+1. 每個元件都可以使用右方功能表中的&#x200B;**[!UICONTROL 設定]**&#x200B;或&#x200B;**[!UICONTROL 樣式]**&#x200B;標籤進一步自訂。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。[了解對齊方式和邊框間距的詳細資訊](alignment-and-padding.md)
 
    ![](assets/email_designer_structure_component.png)
 
-1. 從 **[!UICONTROL 資產選取器]**，您可以直接選取儲存在 **[!UICONTROL 資產庫]**. [進一步瞭解資產管理](../content-management/assets.md)
+1. 您可以從&#x200B;**[!UICONTROL 資產選擇器]**&#x200B;直接選取儲存在&#x200B;**[!UICONTROL Assets資料庫]**&#x200B;中的資產。 [進一步瞭解資產管理](../content-management/assets.md)
 
    連按兩下包含資產的資料夾。 將其拖放至結構元件中。
 
@@ -102,11 +102,11 @@ ht-degree: 54%
 
    ![](assets/email_designer_personalization.png)
 
-1. 按一下 **[!UICONTROL 啟用條件內容]** 根據條件規則新增動態內容並將內容調整至目標設定檔。 [開始使用動態內容](../personalization/get-started-dynamic-content.md)
+1. 按一下&#x200B;**[!UICONTROL 啟用條件內容]**&#x200B;以新增動態內容，並根據條件規則將內容調整至目標設定檔。 [開始使用動態內容](../personalization/get-started-dynamic-content.md)
 
    ![](assets/email_designer_dynamic-content.png)
 
-1. 按一下 **[!UICONTROL 連結]** 標籤來顯示您的內容中將要追蹤的所有URL。 您可以修改其 **[!UICONTROL 追蹤型別]** 或 **[!UICONTROL 標籤]** 並新增 **[!UICONTROL 標籤]** 如有需要。 [進一步瞭解連結和追蹤](message-tracking.md)
+1. 從左窗格按一下&#x200B;**[!UICONTROL 連結]**&#x200B;索引標籤，以顯示您要追蹤之內容的所有URL。 您可以修改其&#x200B;**[!UICONTROL 追蹤型別]**&#x200B;或&#x200B;**[!UICONTROL 標籤]**，並視需要新增&#x200B;**[!UICONTROL 標籤]**。 [進一步瞭解連結和追蹤](message-tracking.md)
 
    ![](assets/email_designer_links.png)
 
@@ -116,8 +116,8 @@ ht-degree: 54%
    >
    >切換到程式碼編輯器後，您無法恢復到此電子郵件的視覺化設計工具。
 
-1. 內容準備就緒後，請按一下 **[!UICONTROL 模擬內容]** 按鈕以檢查轉譯。 您可以選擇桌面或行動檢視。有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱 [內容管理](../content-management/preview-test.md) 區段。
+1. 內容準備就緒後，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕以檢查轉譯。 您可以選擇桌面或行動檢視。有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱[內容管理](../content-management/preview-test.md)區段。
 
    ![](assets/email_designer_simulate_content.png)
 
-1. 當您的內容準備就緒時，請按一下 **[!UICONTROL 儲存]**.
+1. 當您的內容準備就緒時，請按一下[儲存]。****

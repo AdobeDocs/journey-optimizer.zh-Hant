@@ -9,7 +9,7 @@ exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 9%
 
 集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
 
-您可以透過向以下發出POST請求來建立集合： [!DNL Offer Library] API。
+您可以向[!DNL Offer Library] API發出POST要求來建立集合。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示包含 *Content-Type* 請求標頭中的欄位：
+下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;欄位的有效值：
 
-| 頁首名稱 | 值 |
+| 標題名稱 | 值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
 
@@ -61,7 +61,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-collections' \
 
 **回應**
 
-成功的回應會傳回關於新建立集合的資訊，包括其 `id`. 您可以使用 `id` 在後續步驟中更新或刪除您的集合，或在後續教學課程中建立決定。
+成功的回應傳回關於新建立集合的資訊，包括其`id`。 您可以在稍後的步驟中使用`id`來更新或刪除您的集合，或在稍後的教學課程中建立決定。
 
 ```json
 {

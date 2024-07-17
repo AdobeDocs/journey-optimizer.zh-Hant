@@ -9,7 +9,7 @@ exl-id: de6a8da2-55cf-4105-ba93-40c556732626
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 5%
 
 在個人化中使用地圖功能，以便更輕鬆與地圖互動。
 
-## Get{#get}
+## 取得{#get}
 
-此 `get` 函式來擷取給定索引鍵的對映值。
+`get`函式用於擷取給定索引鍵的對應值。
 
 **語法**
 
@@ -29,15 +29,15 @@ ht-degree: 5%
 
 **範例**
 
-下列作業取得索引鍵的身分對應值 `example@example.com`.
+下列作業取得索引鍵`example@example.com`的識別對應值。
 
 ```sql
 {%= get(identityMap,"example@example.com") %}
 ```
 
-## 金鑰{#keys}
+## 索引鍵{#keys}
 
-此 `keys` 函式來擷取給定對應的所有索引鍵。
+`keys`函式用於擷取給定對應的所有索引鍵。
 
 **語法**
 
@@ -47,7 +47,7 @@ ht-degree: 5%
 
 **範例**
 
-下列作業取得對應的所有索引鍵 `identityMap`.
+下列作業取得對應`identityMap`的所有索引鍵。
 
 ```sql
 {%= keys(identityMap) %}
@@ -55,7 +55,7 @@ ht-degree: 5%
 
 ## 值{#values}
 
-此 `values` 函式來擷取給定對應的所有值。
+`values`函式用於擷取給定對應的所有值。
 
 **語法**
 
@@ -65,7 +65,7 @@ ht-degree: 5%
 
 **範例**
 
-下列作業取得對應的所有值 `identityMap`.
+下列作業取得對應`identityMap`的所有值。
 
 ```sql
 {%= values(identityMap) %}

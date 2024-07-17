@@ -37,7 +37,7 @@ Journey Optimizer執行外部API呼叫時，技術護欄會依照以下方式執
 
 當設定資料來源或動作時，您需建立與系統的連線，以擷取要用於歷程的其他資訊，或傳送訊息或 API 呼叫。
 
-歷程 API 每秒最多支援 5000 個事件，但某些外部系統或 API 可能沒有等效的輸送量。若要避免這些系統超載，您可以使用 **上限** 和 **節流** API用來限制每秒傳送的事件數。
+歷程 API 每秒最多支援 5000 個事件，但某些外部系統或 API 可能沒有等效的輸送量。若要防止這些系統超載，您可以使用&#x200B;**上限**&#x200B;和&#x200B;**節流** API來限制每秒傳送的事件數目。
 
 歷程每次執行 API 呼叫時，都會透過 API 引擎。如果您使用上限API，在達到API中設定的上限時，將會拒絕呼叫，或是將呼叫排入最多6小時的佇列，並在您使用節流API時，會儘快以收到的順序處理呼叫。
 
@@ -45,18 +45,18 @@ Journey Optimizer執行外部API呼叫時，技術護欄會依照以下方式執
 
 >[!IMPORTANT]
 >
->**上限規則** 在沙箱層級針對特定端點（呼叫的URL）設定，但全域於該沙箱的所有歷程。 資料來源和自訂動作都有上限。
+>**針對特定端點（呼叫的URL），在沙箱層級設定上限規則**，但全域為該沙箱的所有歷程。 資料來源和自訂動作都有上限。
 >
 >**節流規則**&#x200B;僅在生產沙箱針對特定端點進行設定，但會針對所有沙箱的所有歷程進行全域設定。 每個組織只能有一個節流設定。 節流僅適用於自訂動作。
 >
->此 **maxCallsCount** 值必須大於1。
+>**maxCallsCount**&#x200B;值必須大於1。
 
 如需如何使用API的詳細資訊，請參閱下列章節：
 
 * [設定 API 上限](capping.md)
 * [節流 API](throttling.md)
 
-API的詳細說明請參閱 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
+[Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)提供API的詳細說明
 
 ### 資料來源和自訂動作容量 {#capacity}
 
@@ -70,7 +70,7 @@ API的詳細說明請參閱 [Adobe Journey Optimizer API檔案](https://develope
 
 >[!NOTE]
 >
->現在支援回應，因此您應該針對外部資料來源使用案例使用自訂動作，而非資料來源。 如需回應的詳細資訊，請參閱此 [區段](../action/action-response.md)
+>現在支援回應，因此您應該針對外部資料來源使用案例使用自訂動作，而非資料來源。 如需回應的詳細資訊，請參閱此[區段](../action/action-response.md)
 
 ## 逾時和重試{#timeout}
 
@@ -100,10 +100,10 @@ API的詳細說明請參閱 [Adobe Journey Optimizer API檔案](https://develope
 
 依預設，沒有上限或節流規則。 規則是使用上限或節流API，在特定端點（呼叫的URL）的沙箱層級定義。 請參閱[本節](../configuration/external-systems.md#capping)。
 
-**執行多少次重試？ 我可以變更重試次數或定義兩次重試之間的最短等待期間嗎？**
+**執行多少次重試？ 我可以變更重試次數或定義兩次重試之間的最短等待時間嗎？**
 
 對於指定的呼叫，在第一次呼叫之後最多可以執行三次重試，直到逾時持續時間結束為止。 無法變更重試次數和每次重試之間的時間。 請參閱[本節](../configuration/external-systems.md#timeout)。
 
 **我可以在哪裡設定逾時？ 有最大值嗎？**
 
-在每個歷程中，您可以定義逾時持續時間。 逾時期間是在歷程的屬性中設定。 逾時持續時間必須介於1秒到30秒之間。 請參閱 [本節](../configuration/external-systems.md#timeout) 和 [此頁面](../building-journeys/journey-properties.md#timeout_and_error).
+在每個歷程中，您可以定義逾時持續時間。 逾時期間是在歷程的屬性中設定。 逾時持續時間必須介於1秒到30秒之間。 請參閱[此章節](../configuration/external-systems.md#timeout)和[此頁面](../building-journeys/journey-properties.md#timeout_and_error)。

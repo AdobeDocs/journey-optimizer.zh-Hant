@@ -22,15 +22,15 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->您的所有行銷訊息都必須包含選擇退出連結。 異動訊息不需要此屬性。 訊息類別 —  **[!UICONTROL 行銷]** 或 **[!UICONTROL 異動]**  — 定義於 [頻道介面](../configuration/channel-surfaces.md#email-type) 層級和建立訊息時。
+>您的所有行銷訊息都必須包含選擇退出連結。 異動訊息不需要此屬性。 訊息類別 — **[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]** — 定義於[頻道介面](../configuration/channel-surfaces.md#email-type)層級並建立訊息時。
 
 若要在電子郵件內容中插入取消訂閱連結，您可以：
 
-* 在電子郵件標題中新增一鍵取消訂閱URL。 啟用 **[!UICONTROL List-Unsubscribe標頭]** 頻道介面層級的選項會在電子郵件標題中新增選擇退出連結。 [進一步瞭解電子郵件標題中的選擇退出](#unsubscribe-header)
+* 在電子郵件標題中新增一鍵取消訂閱URL。 在頻道介面層級啟用&#x200B;**[!UICONTROL List-Unsubscribe Header]**&#x200B;選項，會在電子郵件標題中新增選擇退出連結。 [進一步瞭解電子郵件標頭中的選擇退出](#unsubscribe-header)
 
-* 啟用 **一鍵退出連結** 用於您的電子郵件。  [瞭解如何新增一鍵退出連結](#one-click-opt-out)
+* 為您的電子郵件啟用&#x200B;**一鍵退出連結**。  [瞭解如何新增一鍵退出連結](#one-click-opt-out)
 
-* 插入 **連結至登入頁面**. [瞭解如何新增選擇退出登陸頁面](#opt-out-external-lp)
+* 插入登陸頁面&#x200B;**的**&#x200B;連結。 [瞭解如何新增選擇退出的登陸頁面](#opt-out-external-lp)
 
 
 ## 單步驟選擇退出 {#opt-out-one-step}
@@ -45,9 +45,9 @@ ht-degree: 28%
 >abstract="啟用 List-Unsubscribe 標頭在電子郵件標頭中新增取消訂閱 URL。若要設定取消訂閱 URL，請在電子郵件內容插入一鍵式選擇退出連結。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hant#one-click-opt-out" text="一鍵選擇退出"
 
-一鍵式清單取消訂閱URL是電子郵件寄件者資訊旁邊顯示的取消訂閱連結或按鈕，可讓收件者只要按一下即可立即選擇退出您的郵寄清單。 在Adobe Journey Optimizer中，當 **啟用清單取消訂閱** 選項已切換，依預設，電子郵件標題同時包含郵件和/或URL，收件者可使用這些URL取消訂閱您的郵寄清單。
+一鍵式清單取消訂閱URL是電子郵件寄件者資訊旁邊顯示的取消訂閱連結或按鈕，可讓收件者只要按一下即可立即選擇退出您的郵寄清單。 在Adobe Journey Optimizer中，當&#x200B;**啟用List-Unsubscribe**&#x200B;選項切換時，電子郵件標題預設會包含收件者可用於取消訂閱郵寄清單的郵件和/或URL。
 
-此 [啟用清單取消訂閱](email-settings.md#list-unsubscribe) 必須在頻道介面層級啟用切換，以便使用此介面的電子郵件在電子郵件標題中包含一鍵式取消訂閱URL。
+必須在頻道介面層級啟用[啟用清單取消訂閱](email-settings.md#list-unsubscribe)切換，以便使用此介面的電子郵件在電子郵件標題中包含一鍵取消訂閱URL。
 
 >[!NOTE]
 >
@@ -68,22 +68,22 @@ ht-degree: 28%
 >
 -->
 
-根據電子郵件使用者端及 [電子郵件表面取消訂閱設定](email-settings.md#list-unsubscribe)，按一下電子郵件標題中的取消訂閱連結將產生下列影響：
+根據電子郵件使用者端和[電子郵件表面取消訂閱設定](email-settings.md#list-unsubscribe)，按一下電子郵件標頭中的取消訂閱連結可能會產生下列影響：
 
-* 當 **Mailto （取消訂閱）** 功能由您啟用，系統會根據您建立的子網域將取消訂閱請求傳送至預設的取消訂閱位址。
-* 當 **一鍵式取消訂閱URL** 功能由您啟用（或如果您在電子郵件內文內容中插入取消訂閱URL），當收件者按一下一鍵取消訂閱URL （根據您建立的子網域）時，收件者會直接在頻道層級或ID層級（取決於同意的設定方式）選擇退出。
+* 當您啟用&#x200B;**Mailto （取消訂閱）**&#x200B;功能時，系統會根據您建立的子網域，將取消訂閱請求傳送至預設的取消訂閱位址。
+* 當您啟用&#x200B;**一鍵取消訂閱URL**&#x200B;功能時，或如果您在電子郵件內文內容中插入取消訂閱URL，當收件者按一下一鍵取消訂閱URL （根據同意的設定）時，收件者會直接在頻道層級或ID層級（視您建立的子網域而定）選擇退出。
 
-在這兩種情況下，收件者的對應設定檔會立即退出，而此選項會在Experience Platform中更新。 進一步瞭解 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}.
+在這兩種情況下，收件者的對應設定檔會立即退出，而此選項會在Experience Platform中更新。 在[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
 
-如果您已切換 **[!UICONTROL 啟用清單取消訂閱]** 有關List Unsubscribe標題的選項，我們建議您啟用這兩種方法 —  **Mailto （取消訂閱）** 和 **一鍵式取消訂閱URL**. 並非所有電子郵件使用者端都支援HTTP方法。 透過提供Mailto清單 — 取消訂閱功能，您可選取替代方案，更能保護您的寄件者信譽，且您的所有收件者都能夠存取取消訂閱功能。 [了解更多](email-settings.md#list-unsubscribe)
+若您已針對List Unsubscribe標頭切換到&#x200B;**[!UICONTROL 啟用List-Unsubscribe]**&#x200B;選項，我們建議您啟用這兩種方法 — **Mailto （取消訂閱）**&#x200B;和&#x200B;**一鍵取消訂閱URL**。 並非所有電子郵件使用者端都支援HTTP方法。 透過提供Mailto清單 — 取消訂閱功能，您可選取替代方案，更能保護您的寄件者信譽，且您的所有收件者都能夠存取取消訂閱功能。 [了解更多](email-settings.md#list-unsubscribe)
 
 
 ### 一鍵選擇退出電子郵件內容 {#one-click-opt-out}
 
 若要設定個人化取消訂閱URL，請在電子郵件內容中插入一鍵退出連結，然後輸入您選擇的URL，如下所述：
 
-1. 存取您的電子郵件內容並 [插入連結](../email/message-tracking.md#insert-links).
-1. 選取 **[!UICONTROL 一鍵選擇退出]** 做為連結型別。
+1. 存取您的電子郵件內容，並[插入連結](../email/message-tracking.md#insert-links)。
+1. 選取&#x200B;**[!UICONTROL 按一下退出]**&#x200B;作為連結型別。
 
    ![](assets/message-tracking-opt-out.png)
 
@@ -91,7 +91,7 @@ ht-degree: 28%
 
    >[!NOTE]
    >
-   >如果您已啟用 **[!UICONTROL 清單 — 取消訂閱]** 選項於 [頻道介面層級](email-settings.md#list-unsubscribe) 和取消核取預設的一鍵式選擇退出URL選項，然後當使用者按一下電子郵件標題中的取消訂閱連結時，就會使用此URL。 [了解更多](#unsubscribe-header)
+   >如果您在[頻道介面層級](email-settings.md#list-unsubscribe)啟用&#x200B;**[!UICONTROL List-Unsubscribe]**&#x200B;選項，並且取消核取預設的一鍵選擇退出URL選項，那麼當使用者按一下電子郵件標頭的取消訂閱連結時，就會使用此URL。 [了解更多](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -120,13 +120,13 @@ ht-degree: 28%
 
 若要設定兩步驟選擇退出機制，您必須建立自己的取消訂閱登入頁面。 第一個登入頁面將會從您的訊息連結，而且必須包含行動號召按鈕。 當使用者按一下按鈕時，應顯示確認訊息。
 
-瞭解如何在Adobe Journey Optimizer中建立登陸頁面，以管理中的取消訂閱 [此頁面](../landing-pages/lp-use-cases.md#opt-out).
+瞭解如何在Adobe Journey Optimizer中建立登陸頁面，以便在[此頁面](../landing-pages/lp-use-cases.md#opt-out)中管理取消訂閱。
 
 您也可以使用外部登入頁面。 在此情況下，請設定API以在收件者取消訂閱時將資訊傳送至Adobe Journey Optimizer。
 
 +++ 瞭解如何實作選擇退出API呼叫
 
-要在收件者從登陸頁面提交選擇時選擇退出，您必須實作 **訂閱API呼叫** 到 [Adobe Developer](https://developer.adobe.com){target="_blank"} 以更新對應設定檔的偏好設定。
+要在收件者從登陸頁面提交選擇時選擇退出，您必須實施&#x200B;**訂閱API呼叫** (透過[Adobe Developer](https://developer.adobe.com){target="_blank"})以更新對應設定檔的偏好設定。
 
 此 POST 呼叫如下：
 
@@ -163,7 +163,7 @@ ht-degree: 28%
 }
 ```
 
-[!DNL Journey Optimizer] 使用這些引數透過 [Adobe Developer](https://developer.adobe.com){target="_blank"} API呼叫。
+[!DNL Journey Optimizer]會透過[Adobe Developer](https://developer.adobe.com){target="_blank"} API呼叫，使用這些引數更新對應設定檔的選擇。
 
 +++
 
@@ -172,13 +172,13 @@ ht-degree: 28%
 
 您首先需要在訊息中加入取消訂閱連結。 請依照下列步驟執行此操作：
 
-1. 建立訊息並 [插入連結](../email/message-tracking.md#insert-links) 使用內容工具列。
+1. 使用內容工具列建立訊息並[插入連結](../email/message-tracking.md#insert-links)。
 
    ![](assets/opt-out-insert-link.png)
 
-1. 選取 **[!UICONTROL 登陸頁面]** 從 **[!UICONTROL 型別]** 下拉式清單，並在 **[!UICONTROL 登陸頁面]** 欄位。
+1. 從&#x200B;**[!UICONTROL 型別]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 登陸頁面]**，然後在&#x200B;**[!UICONTROL 登陸頁面]**&#x200B;欄位中選取您的選擇退出登陸頁面。
 
-   如果您使用外部登陸頁面，請選取 **[!UICONTROL 外部選擇退出/取消訂閱]** 從 **[!UICONTROL 型別]** 下拉式清單。
+   如果您使用外部登陸頁面，請從&#x200B;**[!UICONTROL 型別]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 外部選擇退出/取消訂閱]**。
 
    ![](assets/opt-out-link-type.png)
 
@@ -199,7 +199,7 @@ ht-degree: 28%
 
    ![](assets/opt-out-lp-example.png)
 
-1. 如果收件者提交表單 — 在此按一下 **[!UICONTROL 取消訂閱]** 按鈕時 — 設定檔資料會透過API呼叫進行更新。
+1. 如果收件者提交表單 — 在此按一下登陸頁面中的&#x200B;**[!UICONTROL 取消訂閱]**&#x200B;按鈕 — 會透過API呼叫更新設定檔資料。
 
 1. 然後，選擇退出的收件者會被重新導向至確認訊息畫面，表示成功選擇退出。
 
@@ -207,7 +207,7 @@ ht-degree: 28%
 
    因此，除非再次訂閱，否則此使用者將不會收到您品牌的通訊。
 
-1. 若要檢查對應的設定檔選擇是否已更新，請前往 Experience Platform，並透過選取識別名稱空間和對應的識別值來存取設定檔。 進一步瞭解 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}.
+1. 若要檢查對應的設定檔選擇是否已更新，請前往 Experience Platform，並透過選取識別名稱空間和對應的識別值來存取設定檔。 在[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
 
    ![](assets/opt-out-profile-choice.png)
 

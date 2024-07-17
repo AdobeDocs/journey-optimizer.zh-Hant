@@ -29,10 +29,10 @@ Journey Optimizer與Campaign執行個體之間的連線在布建時由Adobe設�
 
 為了讓此功能發揮作用，您需要設定專用動作。 請參閱本[章節](../action/acc-action.md)。
 
-本頁面介紹端對端使用案例 [區段](../building-journeys/ajo-ac.md).
+此[區段](../building-journeys/ajo-ac.md)中呈現端對端使用案例。
 
 1. 設計您的歷程，從事件開始。 請參閱[本章節](../building-journeys/journey.md)。
-1. 在 **動作** 區段，選取行銷活動動作並將其新增至您的歷程。
-1. 在 **動作引數**，則會顯示訊息裝載中預期的所有欄位。 您需要將每個欄位與您要使用的欄位相對應，無論是從事件還是從資料來源進行。 這類似於自訂動作。 請參閱本[章節](../building-journeys/using-custom-actions.md)。
+1. 在浮動視窗的&#x200B;**動作**&#x200B;區段中，選取行銷活動動作並將其新增至您的歷程。
+1. 在&#x200B;**動作引數**&#x200B;中，會顯示訊息裝載中預期的所有欄位。 您需要將每個欄位與您要使用的欄位相對應，無論是從事件還是從資料來源進行。 這類似於自訂動作。 請參閱本[章節](../building-journeys/using-custom-actions.md)。
 
 ![](assets/accintegration2.png)

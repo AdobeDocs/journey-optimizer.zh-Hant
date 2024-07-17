@@ -47,7 +47,7 @@ ht-degree: 14%
 
 `toDateTimeOnly ("2023-08-18")`
 
-傳回代表2023-08-18T00的dateTime:00:00.000
+傳回代表2023-08-18T00:00:00.000的dateTime
 
 `toDateTimeOnly(now())`
 

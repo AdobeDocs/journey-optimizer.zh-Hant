@@ -20,10 +20,10 @@ ht-degree: 2%
 
 ## 驗證機制 {#validation-mechanisms}
 
-在 **個人化編輯器** 熒幕，使用 **驗證** 按鈕以檢查您的個人化語法。
+在&#x200B;**個人化編輯器**&#x200B;畫面中，使用&#x200B;**驗證**&#x200B;按鈕檢查您的個人化語法。
 
 >[!NOTE]
-> 當您按一下 **新增** 按鈕以關閉編輯器視窗。
+> 當您按一下&#x200B;**新增**&#x200B;按鈕以關閉編輯器視窗時，會自動執行驗證。
 >
 
 ![](assets/perso_validation1.png)
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 嘗試參照結構描述中未定義的欄位時。
 
-在此案例中 **名字1** 未定義為設定檔結構描述中的屬性：
+在此情況下，**firstName1**&#x200B;未定義為設定檔結構描述中的屬性：
 
 ```
 {{profile.person.name.firstName1}}
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 嘗試對字串而非陣列進行反複運算時：
 
-在此案例中 **產品** 不是陣列：
+在此情況下，**product**&#x200B;不是陣列：
 
 ```
 {{each profile.person.name.firstName as |product|}}
@@ -60,13 +60,13 @@ ht-degree: 2%
 
 使用無效的Handlebars語法時。
 
-Handlebars運算式周圍有 **{{expression}}**
+Handlebars運算式周圍有&#x200B;**{{expression}}**
 
 ```
    {{[profile.person.name.firstName}}
 ```
 
-* **區段定義無效**
+* **無效的區段定義**
 
 ```
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
@@ -86,12 +86,12 @@ Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
  <thead> 
   <tr> 
    <th> 錯誤標題<br /> </th> 
-   <th> 驗證/解析 <br /> </th> 
+   <th> 驗證/解析度<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>找不到id placementID和型別OfferPlacement的資源 <br/>
+   <td>找不到ID為placementID且型別為OfferPlacement的資源<br/>
 找不到id activityID和型別OfferActivity的資源<br/></td> 
    <td>檢查ActivityID和/或PlacementID是否可用</td> 
   </tr> 
@@ -114,8 +114,8 @@ Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
   <tr> 
    <td>優惠屬性offer-attribute無效。</td> 
    <td>檢查優惠方案drp中參照的優惠方案屬性是否有效。 以下是有效的屬性： <br/>
-影像：deliveryURL、linkURL<br/>
-文字：內容<br/>
+影像： deliveryURL， linkURL<br/>
+文字： content<br/>
 HTML：內容<br/></td> 
   </tr> 
  </tbody> 

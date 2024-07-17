@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用自訂動作以動態方式傳遞集合
+title: 使用自訂動作動態傳遞集合
 description: 使用 Campaign v7/v8 傳送訊息
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
@@ -106,7 +106,7 @@ ht-degree: 6%
 
 1. 建立您的自訂動作。 請參閱[此頁面](../action/about-custom-action-configuration.md)。
 
-1. 在 **[!UICONTROL 動作引數]** 區段，貼上JSON範例。 顯示的結構為靜態：貼上裝載時，所有欄位都會定義為常數。
+1. 在&#x200B;**[!UICONTROL 動作引數]**&#x200B;區段中，貼上JSON範例。 顯示的結構為靜態：貼上裝載時，所有欄位都會定義為常數。
 
    ![](assets/uc-collection-1.png)
 
@@ -128,7 +128,7 @@ ht-degree: 6%
 
 1. 建立您的歷程並新增您建立的自訂動作。 請參閱[此頁面](../building-journeys/using-custom-actions.md)。
 
-1. 在 **[!UICONTROL 動作引數]** 區段，使用進階運算式編輯器來定義陣列引數（範例中為「products」）。
+1. 在&#x200B;**[!UICONTROL 動作引數]**&#x200B;區段中，使用進階運算式編輯器定義陣列引數（範例中為「products」）。
 
    ![](assets/uc-collection-3.png)
 
@@ -136,7 +136,7 @@ ht-degree: 6%
 
    ![](assets/uc-collection-4.png)
 
-針對陣列欄位，您也可以使用進階運算式編輯器來執行資料操作。 在以下範例中，我們使用 [篩選](functions/functionfilter.md) 和 [相交](functions/functionintersect.md) 函式：
+針對陣列欄位，您也可以使用進階運算式編輯器來執行資料操作。 在下列範例中，我們使用[篩選器](functions/functionfilter.md)和[交集](functions/functionintersect.md)函式：
 
 ![](assets/uc-collection-5.png)
 

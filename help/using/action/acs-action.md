@@ -26,7 +26,7 @@ ht-degree: 3%
 
 ## 重要備註 {#important-notes}
 
-* Adobe Campaign Standard動作會自動定義每5分鐘4000次呼叫的上限規則。 此量度與Adobe Campaign Standard交易式訊息的官方量度相對應。 閱讀更多有關交易式訊息SLA的資訊 [Adobe Campaign Standard產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html).
+* Adobe Campaign Standard動作會自動定義每5分鐘4000次呼叫的上限規則。 此量度與Adobe Campaign Standard交易式訊息的官方量度相對應。 在[Adobe Campaign Standard產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html)中進一步瞭解異動訊息SLA。
 
 * Adobe Campaign Standard整合是透過動作清單中的專屬內建動作來設定。 需要為每個沙箱設定此專案。
 
@@ -38,15 +38,15 @@ ht-degree: 3%
 
 以下是設定它的步驟：
 
-1. 選取 **[!UICONTROL 設定]** 在「管理」功能表區段中。 在  **[!UICONTROL 動作]** 區段，按一下 **[!UICONTROL 管理]**. 畫面隨即顯示動作清單。
+1. 在[管理]功能表區段中選取&#x200B;**[!UICONTROL 組態]**。 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 管理]**。 畫面隨即顯示動作清單。
 
-1. 選取內建 **[!UICONTROL AdobeCampaignStandard]** 動作。 動作設定窗格會在畫面右側開啟。
+1. 選取內建&#x200B;**[!UICONTROL AdobeCampaignStandard]**&#x200B;動作。 動作設定窗格會在畫面右側開啟。
 
    ![](assets/actioncampaign.png)
 
-1. 複製您的Adobe Campaign Standard執行個體URL並貼到 **[!UICONTROL URL]** 欄位。
+1. 複製您的Adobe Campaign Standard執行個體URL，並將其貼到&#x200B;**[!UICONTROL URL]**&#x200B;欄位中。
 
-1. 按一下 **[!UICONTROL 測試執行個體URL]** 以測試例項的有效性。
+1. 按一下&#x200B;**[!UICONTROL 測試執行個體URL]**&#x200B;以測試執行個體的有效性。
 
    >[!NOTE]
    >
@@ -58,10 +58,10 @@ ht-degree: 3%
    >
    >與此Adobe Campaign Standard例項關聯的組織與Journey Optimizer的組織相同。
 
-設計歷程時，三個動作將適用於 **[!UICONTROL 動作]** 類別： **[!UICONTROL 電子郵件]**， **[!UICONTROL 推播]**， **[!UICONTROL 簡訊]** (請參閱 [使用Adobe Campaign動作](../building-journeys/using-adobe-campaign-standard.md))。
+設計歷程時，**[!UICONTROL 動作]**&#x200B;類別中將提供三個動作： **[!UICONTROL 電子郵件]**、**[!UICONTROL 推播]**、**[!UICONTROL 簡訊]** (請參閱[使用Adobe Campaign動作](../building-journeys/using-adobe-campaign-standard.md))。
 
 ![](assets/journey58.png)
 
-您可以使用 **回應** 事件，用於回應與相同歷程中傳送之Campaign Standard訊息相關的追蹤資料。 對於推播通知，您可以對點選、傳送或失敗的訊息做出反應。 對於SMS訊息，您可以對已傳送或失敗的訊息做出反應。 對於電子郵件，您可以對點按、傳送、開啟或失敗的訊息做出反應。 另請參閱 [回應事件](../building-journeys/reaction-events.md).
+您可以使用&#x200B;**回應**&#x200B;事件來回應與相同歷程中傳送之Campaign Standard訊息相關的追蹤資料。 對於推播通知，您可以對點選、傳送或失敗的訊息做出反應。 對於SMS訊息，您可以對已傳送或失敗的訊息做出反應。 對於電子郵件，您可以對點按、傳送、開啟或失敗的訊息做出反應。 檢視[回應事件](../building-journeys/reaction-events.md)。
 
-如果您使用協力廠商系統來傳送訊息，則需要新增及設定自訂動作。 另請參閱 [關於自訂動作組態](../action/about-custom-action-configuration.md).
+如果您使用協力廠商系統來傳送訊息，則需要新增及設定自訂動作。 請參閱[關於自訂動作組態](../action/about-custom-action-configuration.md)。

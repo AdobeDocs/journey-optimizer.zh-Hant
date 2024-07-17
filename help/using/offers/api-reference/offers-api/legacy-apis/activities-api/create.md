@@ -9,19 +9,19 @@ exl-id: 7cb906b9-8925-4482-9915-448a41e11d9d
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
 # 建立決定 {#create-decision}
 
-您可以透過向以下傳送POST請求來建立決策： [!DNL Offer Library] API，同時提供容器ID。
+您可以向[!DNL Offer Library] API提出POST要求，同時提供容器ID來建立決定。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
+下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
 
-| 頁首名稱 | 值 |
+| 標題名稱 | 值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
 
@@ -71,7 +71,7 @@ curl -X POST \
 
 **回應**
 
-成功的回應會傳回關於新建立決定的資訊，包括其唯一的 `id`. 您可以使用 `id` 在後續步驟中更新或刪除您的決定。
+成功的回應會傳回關於新建立決定的資訊，包括其唯一的`id`。 您可在後續步驟中使用`id`來更新或刪除您的決定。
 
 ```json
 {

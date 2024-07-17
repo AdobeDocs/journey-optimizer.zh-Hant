@@ -21,25 +21,25 @@ ht-degree: 7%
 
 定義訊息內容後，您就可以使用測試設定檔來預覽其內容。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
 
-若要這麼做，請按一下 **[!UICONTROL 模擬內容]** 然後新增測試設定檔。 然後，您可以選取要預覽內容的裝置型別： **[!UICONTROL iOS]** 或 **[!UICONTROL Android]**.
+若要這麼做，請按一下&#x200B;**[!UICONTROL 模擬內容]**，然後新增測試設定檔。 然後，您可以選取要預覽內容的裝置型別： **[!UICONTROL iOS]**&#x200B;或&#x200B;**[!UICONTROL Android]**。
 
 ![](assets/push_preview_3.png)
 
-有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱 [內容管理](../content-management/preview-test.md) 區段。
+有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱[內容管理](../content-management/preview-test.md)區段。
 
 ## 驗證推播通知 {#push-validate}
 
 您必須檢查編輯器上半區段的警示。 其中一些是簡單的警告，但其他警告可能會阻止您傳送訊息。 可能會發生兩種型別的警報：警告和錯誤。
 
-* **警告** 請參閱建議和最佳實務。
+* **警告**&#x200B;參考建議和最佳實務。
 
-* **錯誤** 防止您測試或啟動歷程，只要它們未解決，例如：
+* **錯誤**&#x200B;會阻止您測試或啟用歷程，只要這些錯誤尚未解決，例如：
 
-   * **[!UICONTROL 訊息的推播版本為空白]**：當遺失推播通知本文或標題時，就會顯示此錯誤。 瞭解如何在中定義推播通知內容 [本節](create-push.md).
+   * **[!UICONTROL 訊息的推播版本是空的]**：當缺少推播通知本文或標題時，會顯示此錯誤。 瞭解如何在[本節](create-push.md)中定義推播通知內容。
 
-   * **[!UICONTROL 表面不存在]**：如果您選取的表面在訊息建立後即被刪除，則無法使用訊息。 如果發生此錯誤，請在訊息中選取另一個曲面 **[!UICONTROL 屬性]**. 瞭解更多有關管道表面的 [本節](../configuration/channel-surfaces.md).
+   * **[!UICONTROL 表面不存在]**：如果您選取的表面在建立訊息之後被刪除，則無法使用訊息。 如果發生此錯誤，請在訊息&#x200B;**[!UICONTROL 屬性]**&#x200B;中選取另一個表面。 在[本節](../configuration/channel-surfaces.md)中瞭解更多頻道介面。
 
-   * **[!UICONTROL 推播iOS/Android承載已超過4KB的限制]**：推播通知大小不得超過4KB。 為遵守此限制，請嘗試減少使用影像或表情符號。 瞭解如何在中管理您的推播通知內容 [本節](../push/create-push.md).
+   * **[!UICONTROL 推播iOS/Android承載已超過4KB的限制]**：推播通知大小不能超過4KB。 為遵守此限制，請嘗試減少使用影像或表情符號。 在[本節](../push/create-push.md)中瞭解如何管理推播通知內容。
 
   ![](assets/push_alert.png)
 
@@ -50,7 +50,7 @@ ht-degree: 7%
 
 ## 傳送推播通知{#push-send}
 
-當您的推送訊息就緒時，請完成設定 [歷程](../building-journeys/journey-gs.md) 或 [行銷活動](../campaigns/create-campaign.md) 以傳送。
+當您的推送訊息就緒時，請完成您的[歷程](../building-journeys/journey-gs.md)或[行銷活動](../campaigns/create-campaign.md)的設定以傳送。
 
 **相關主題**
 

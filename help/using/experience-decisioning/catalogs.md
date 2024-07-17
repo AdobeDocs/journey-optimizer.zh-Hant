@@ -5,7 +5,7 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-badge: label="限量版"
+badge: label="有限可用性"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
@@ -18,26 +18,26 @@ ht-degree: 0%
 
 在Experience Decisioning中，目錄可作為中央容器來組織決策專案。 每個目錄都會連結至Adobe Experience Platform結構描述，包含可指派給決定專案的所有屬性。
 
-目前，所有已建立的決定專案都已整合至單一「優惠」目錄中，並可透過以下方式存取： **[!UICONTROL 目錄]** 功能表。
+目前，所有已建立的決定專案已整合至單一「優惠」目錄中，可透過&#x200B;**[!UICONTROL 目錄]**&#x200B;功能表存取。
 
 ![](assets/catalogs-list.png)
 
 若要存取儲存決定專案屬性的目錄結構，請執行下列步驟：
 
-1. 從專案清單中，按一下 **[!UICONTROL 編輯結構描述]** 按鈕位於旁邊 **[!UICONTROL 建立專案]** 按鈕。
+1. 從專案清單中，按一下&#x200B;**[!UICONTROL 建立專案]**&#x200B;按鈕旁的&#x200B;**[!UICONTROL 編輯結構描述]**&#x200B;按鈕。
 
 1. 目錄的結構會在新標籤中開啟，遵循以下結構：
 
-   * 此 **`_experience`** 節點包含標準決定專案屬性，例如名稱、開始和結束日期以及說明。
-   * 此 **`_<imsOrg>`** 節點會存放自訂決策專案屬性。 預設不會設定自訂屬性，但您可以視需要新增更多屬性以符合您的需求。 完成後，自訂屬性會與標準屬性一起出現在決定專案建立畫面中。
+   * **`_experience`**&#x200B;節點包含標準決定專案屬性，例如名稱、開始和結束日期以及說明。
+   * **`_<imsOrg>`**&#x200B;節點可容納自訂決策專案屬性。 預設不會設定自訂屬性，但您可以視需要新增更多屬性以符合您的需求。 完成後，自訂屬性會與標準屬性一起出現在決定專案建立畫面中。
 
    ![](assets/catalogs-schema.png)
 
-1. 若要將自訂屬性新增至結構描述，請展開 **`_<imsOrg>`** 節點，然後按一下結構中所需位置的「+」按鈕。
+1. 若要將自訂屬性新增到結構描述中，請展開&#x200B;**`_<imsOrg>`**&#x200B;節點，然後按一下結構中所需位置的「+」按鈕。
 
    ![](assets/catalogs-add.png)
 
-1. 填寫新增屬性的必要欄位，然後按一下 **[!UICONTROL 套用]**.
+1. 填寫新增屬性的必要欄位，然後按一下&#x200B;**[!UICONTROL 套用]**。
 
    >[!CAUTION]
    >
@@ -45,6 +45,6 @@ ht-degree: 0%
 
    在含有決策資產屬性的屬性上輸入的值是公共url。 大部分時間這會指向影像。
 
-   有關如何使用Adobe Experience Platform綱要的詳細資訊，請參閱 [XDM系統檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant).
+   有關如何使用Adobe Experience Platform結構描述的詳細資訊，請參閱[XDM系統檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant)。
 
-1. 新增您所需的自訂屬性後，請儲存結構。 新欄位現在可在專案決定建立畫面的 **[!UICONTROL 自訂屬性]** 區段。
+1. 新增您所需的自訂屬性後，請儲存結構。 新欄位現在可在&#x200B;**[!UICONTROL 自訂屬性]**&#x200B;區段的專案決定建立畫面中使用。

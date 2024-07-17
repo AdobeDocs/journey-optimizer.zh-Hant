@@ -18,7 +18,7 @@ ht-degree: 14%
 
 計算不同值的數量，包括null值。
 
-請注意，引數 `<listObject>` 不支援此函式。
+請注意，此函式不支援引數`<listObject>`。
 
 ## 類別
 

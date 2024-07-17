@@ -17,7 +17,7 @@ ht-degree: 4%
 
 集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
 
-您可以透過對以下執行單一GET請求，檢視容器中所有集合的清單： [!DNL Offer Library] API。
+您可以對[!DNL Offer Library] API執行單一GET要求，以檢視容器中所有集合的清單。
 
 **API格式**
 
@@ -30,7 +30,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{QUERY_PARAMS}` | 篩選結果的選用查詢引數。 | `limit=2` |
 | `{CONTAINER_ID}` | 集合所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FILTER}` | 定義與集合相關聯的結構描述。 <https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1> |
+| `{SCHEMA_FILTER}` | 定義與集合相關聯的結構描述。<https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1> |
 | `{QUERY_PARAMS}` | 篩選結果的選用查詢引數。 | `limit=1` |
 
 **要求**
@@ -55,10 +55,10 @@ curl -X GET \
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `q` | 在選取的欄位中搜尋的可選查詢字串。 查詢字串應為小寫，並可由雙引號包圍，以防止加以代碼化及逸出特殊字元。 字元 `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊意義，在查詢字串中出現時應該以反斜線逸出。 | `demo collection` |
+| `q` | 在選取的欄位中搜尋的可選查詢字串。 查詢字串應為小寫，並可由雙引號包圍，以防止加以代碼化及逸出特殊字元。 字元`+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊意義，在查詢字串中出現時應該以反斜線逸出。 | `demo collection` |
 | `qop` | 將AND或OR運運算元套用至q查詢字串引數中的值。 | `AND` / `OR` |
-| `field` | 要限制搜尋的選用欄位清單。 此引數可重複出現，如下所示： field=field1[，field=field2，...] 和（路徑運算式的形式為點分隔的路徑，例如_instance.xdm：name） | `_instance.xdm:name` |
-| `orderBy` | 依特定屬性排序結果。 新增 `-` 在標題之前(`orderby=-title`)會依標題以遞減順序(Z-A)排序專案。 | `-repo:createdDate` |
+| `field` | 要限制搜尋的選用欄位清單。 此引數可重複使用，如下所示： field=field1[、field=field2，...]和（路徑運算式採用點分隔路徑的形式，例如_instance.xdm：name） | `_instance.xdm:name` |
+| `orderBy` | 依特定屬性排序結果。 在標題(`orderby=-title`)前新增`-`將會依標題以遞減順序(Z-A)排序專案。 | `-repo:createdDate` |
 | `limit` | 限制傳回的集合數。 | `limit=5` |
 
 **回應**

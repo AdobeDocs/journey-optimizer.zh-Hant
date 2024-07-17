@@ -34,9 +34,9 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->報告設定必須由技術使用者執行。 <!--Rights?-->
+>報告設定必須由技術使用者執行。<!--Rights?-->
 
-對於此設定，您需要新增一個或多個包含您想用於報告的其他元素的資料集。 請依照下列步驟以執行此操作 [以下](#add-datasets).
+對於此設定，您需要新增一個或多個包含您想用於報告的其他元素的資料集。 若要這麼做，請遵循以下[步驟](#add-datasets)。
 
 <!--
 ➡️ [Discover this feature in video](#video)
@@ -45,21 +45,21 @@ ht-degree: 29%
 ## 先決條件
 
 
-必須先建立該資料集，才能將資料集新增到報表設定。 瞭解如何在 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
+必須先建立該資料集，才能將資料集新增到報表設定。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}中進一步瞭解。
 
 * 您只能新增事件型別資料集。
 
-* 這些資料集必須包括 `Experience Event - Proposition Interactions` [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}.
+* 這些資料集必須包含`Experience Event - Proposition Interactions` [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}。
 
-* 這些資料集可能也包含下列其中一項 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： `Application Details`， `Commerce Details`， `Web Details`.
+* 這些資料集也可能包含下列[欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}之一： `Application Details`、`Commerce Details`、`Web Details`。
 
   >[!NOTE]
   >
   >可能還包括其他欄位群組，但Journey Optimizer報表中目前僅支援上述欄位群組。
 
-  例如，如果您想瞭解電子郵件行銷活動對商業資料（如購買或訂單）的影響，則需要使用建立體驗事件資料集 `Commerce Details` 欄位群組。
+  例如，如果您想要瞭解電子郵件行銷活動對商業資料（如購買或訂單）的影響，則需要建立體驗事件資料集`Commerce Details`欄位群組。
 
-  同樣地，如果您想要報告行動互動，則需要建立體驗事件資料集，包含 `Application Details` 欄位群組。
+  同樣地，如果您想要報告行動互動，則需要建立體驗事件資料集`Application Details`欄位群組。
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
@@ -67,7 +67,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->瞭解更多關於XDM結構描述和欄位群組 [XDM系統總覽檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}.
+>在[XDM系統總覽檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}中瞭解更多有關XDM結構描述和欄位群組的資訊。
 
 <!--
 ## Objectives corresponding to each field group {#objective-list}
@@ -83,31 +83,31 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
 ## 新增資料集 {#add-datasets}
 
-1. 從 **[!UICONTROL 管理]** 功能表，選取 **[!UICONTROL 設定]**. 在  **[!UICONTROL 報告]** 區段，按一下 **[!UICONTROL 管理]**.
+1. 從&#x200B;**[!UICONTROL 管理]**&#x200B;功能表選取&#x200B;**[!UICONTROL 組態]**。 在&#x200B;**[!UICONTROL 報表]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 管理]**。
 
    ![](assets/reporting-config-menu.png)
 
    將顯示已新增的資料集清單。
 
-1. 從 **[!UICONTROL 資料集]** 標籤，按一下 **[!UICONTROL 新增資料集]**.
+1. 從&#x200B;**[!UICONTROL 資料集]**&#x200B;索引標籤，按一下&#x200B;**[!UICONTROL 新增資料集]**。
 
    ![](assets/reporting-config-add.png)
 
    >[!NOTE]
    >
-   >如果您選取 **[!UICONTROL 系統資料集]** 標籤中，僅顯示由系統建立的資料集。 您將無法新增其他資料集。
+   >如果您選取&#x200B;**[!UICONTROL 系統資料集]**&#x200B;標籤，則只會顯示系統建立的資料集。 您將無法新增其他資料集。
 
-1. 從 **[!UICONTROL 資料集]** 從下拉式清單中，選取要用於報告的資料集。
+1. 從&#x200B;**[!UICONTROL 資料集]**&#x200B;下拉式清單中，選取您要用於報告的資料集。
 
    >[!CAUTION]
    >
-   >您只能選取事件型別資料集，該資料集必須至少包含其中一個支援的 [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： **應用程式詳細資料**， **Commerce詳細資料**， **網頁詳細資訊**. 如果選取的資料集與這些條件不相符，將無法儲存變更。
+   >您只能選取事件型別資料集，該資料集必須至少包含一個支援的[欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： **應用程式詳細資料**、**Commerce詳細資料**、**網頁詳細資料**。 如果選取的資料集與這些條件不相符，將無法儲存變更。
 
    ![](assets/reporting-config-datasets.png)
 
-   進一步瞭解中的資料集 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target="_blank"}.
+   在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target="_blank"}中進一步瞭解資料集。
 
-1. 從 **[!UICONTROL 設定檔ID]** 從下拉式清單中，選取用於識別報表中每個設定檔的資料集欄位屬性。
+1. 從&#x200B;**[!UICONTROL 設定檔ID]**&#x200B;下拉式清單中，選取要用來識別報告中每個設定檔的資料集欄位屬性。
 
    ![](assets/reporting-config-profile-id.png)
 
@@ -115,11 +115,11 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
    >
    >只顯示可用於報告的 ID。
 
-1. 此 **[!UICONTROL 使用主要ID名稱空間]** 選項預設為啟用。 若已選取 **[!UICONTROL 設定檔ID]** 是 **[!UICONTROL 身分對應]**，您可以停用此選項，然後從顯示的下拉式清單中選擇另一個名稱空間。
+1. 預設會啟用&#x200B;**[!UICONTROL 使用主要ID名稱空間]**&#x200B;選項。 如果選取的&#x200B;**[!UICONTROL 設定檔識別碼]**&#x200B;是&#x200B;**[!UICONTROL 身分對應]**，您可以停用此選項，然後從顯示的下拉式清單中選擇另一個名稱空間。
 
    ![](assets/reporting-config-namespace.png)
 
-   進一步瞭解中的名稱空間 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant){target="_blank"}.
+   在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant){target="_blank"}中瞭解更多有關名稱空間的資訊。
 
 1. 儲存變更以將選取資料集新增到報告設定清單。
 
@@ -127,11 +127,11 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
    >
    >如果選取了非事件類型的資料集，則無法繼續。
 
-請注意，針對網頁和應用程式內頻道，您需要確認 [資料集](../data/get-started-datasets.md) 針對資料收集所設定的專案也會新增至此報告設定。 否則，網頁和應用程式內資料將不會顯示在內容實驗報表中。
+請注意，針對Web和應用程式內頻道，您必須確定針對資料收集所設定的[資料集](../data/get-started-datasets.md)也新增至此報告設定。 否則，網頁和應用程式內資料將不會顯示在內容實驗報表中。
 
-* 瞭解更多有關Web通道的內容實驗先決條件，請參閱 [本節](../web/web-prerequisites.md#experiment-prerequisites).
+* 在[本節](../web/web-prerequisites.md#experiment-prerequisites)中進一步瞭解Web管道的內容實驗先決條件。
 
-* 進一步瞭解中的應用程式內頻道設定，請參閱 [本節](../in-app/inapp-configuration.md).
+* 在[本節](../in-app/inapp-configuration.md)中進一步瞭解應用程式內頻道設定。
 
 <!--
 When building your campaign reports, you can now see the metrics corresponding to the field groups used in the datasets you added. Go to the **[!UICONTROL Objectives]** tab and select the metrics of your choice to better fine-tune your reports. [Learn more](content-experiment.md#objectives-global)

@@ -17,7 +17,7 @@ ht-degree: 4%
 
 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 
-您可以向以下網站發出GET請求，查詢特定的個人化優惠： [!DNL Offer Library] API在請求路徑中包含個人化優惠ID。
+您可以向[!DNL Offer Library] API發出GET請求，在請求路徑中包含個人化優惠ID，以查詢特定的個人化優惠。
 
 **API格式**
 
@@ -43,7 +43,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer123
 
 **回應**
 
-成功的回應會傳回個人化優惠的詳細資料，包括有關您獨特個人化優惠的資訊 `id`.
+成功的回應會傳回個人化優惠的詳細資料，包括有關您獨特個人化優惠`id`的資訊。
 
 ```json
 {

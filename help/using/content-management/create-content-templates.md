@@ -24,11 +24,11 @@ ht-degree: 15%
 
 建立內容範本的方式有兩種：
 
-* 使用左側邊欄，從頭開始建立內容範本 **[!UICONTROL 內容範本]** 功能表。 [了解作法](#create-template-from-scratch)
+* 使用左側邊欄&#x200B;**[!UICONTROL 內容範本]**&#x200B;功能表，從頭開始建立內容範本。 [了解作法](#create-template-from-scratch)
 
 * 在行銷活動或歷程中設計內容時，請將其儲存為範本。 [了解作法](#save-as-template)
 
-儲存後，您的內容範本即可用於行銷活動或歷程中。 無論是從頭開始建立還是從先前內容建立，您現在都可以在中建立任何內容時使用此範本 [!DNL Journey Optimizer]. [了解作法](#use-content-templates)
+儲存後，您的內容範本即可用於行銷活動或歷程中。 無論是從頭建立還是從先前內容建立，您現在都可以在[!DNL Journey Optimizer]中建立任何內容時使用此範本。 [了解作法](#use-content-templates)
 
 >[!NOTE]
 >
@@ -40,9 +40,9 @@ ht-degree: 15%
 
 若要從頭開始建立內容範本，請遵循下列步驟。
 
-1. 透過存取內容範本清單 **[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]** 左側功能表。
+1. 透過&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]**&#x200B;左側功能表存取內容範本清單。
 
-1. 選取 **[!UICONTROL 建立範本]**.
+1. 選取&#x200B;**[!UICONTROL 建立範本]**。
 
 1. 填寫範本詳細資料並選取所需的通道。
 
@@ -52,19 +52,19 @@ ht-degree: 15%
    >
    >目前除了Web之外，所有管道皆可使用。
 
-1. 選擇 **[!UICONTROL 型別]** 所選管道的預設值。
+1. 為選取的頻道選擇&#x200B;**[!UICONTROL 型別]**。
 
    ![](assets/content-template-type.png)
 
-   * 的 **[!UICONTROL 電子郵件]**，如果您選取 **[!UICONTROL 內容]**，您可以定義 [主旨列](../email/create-email.md#define-email-content) 當作範本的一部分。 如果您選取 **[!UICONTROL HTML]**，您只能定義電子郵件內文的內容。
+   * 針對&#x200B;**[!UICONTROL 電子郵件]**，如果您選取&#x200B;**[!UICONTROL 內容]**，您可以將[主旨列](../email/create-email.md#define-email-content)定義為範本的一部分。 如果您選取&#x200B;**[!UICONTROL HTML]**，則只能定義電子郵件內文的內容。
 
-   * 的 **[!UICONTROL 簡訊]**， **[!UICONTROL 推播]**， **[!UICONTROL 應用程式內]** 和 **[!UICONTROL 直接郵件]**，目前頻道僅可使用預設型別。 您仍需要選取它。
+   * 對於&#x200B;**[!UICONTROL SMS]**、**[!UICONTROL 推播]**、**[!UICONTROL 應用程式內]**&#x200B;和&#x200B;**[!UICONTROL 直接郵件]**，目前頻道僅可使用預設型別。 您仍需要選取它。
 
-1. 選擇或建立Adobe Experience Platform標籤，從 **[!UICONTROL 標籤]** 將範本分類以改善搜尋的欄位。 [了解更多](../start/search-filter-categorize.md#tags)
+1. 從&#x200B;**[!UICONTROL 標籤]**&#x200B;欄位選取或建立Adobe Experience Platform標籤，將範本分類以改善搜尋。 [了解更多](../start/search-filter-categorize.md#tags)
 
-1. 若要將自訂或核心資料使用標籤指派給範本，您可以選取 **[!UICONTROL 管理存取權]**. [深入瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md).
+1. 若要指派自訂或核心資料使用標籤給範本，您可以選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)。
 
-1. 按一下 **[!UICONTROL 建立]** 並視需要設計您的內容，就像您對歷程或行銷活動中的任何內容所做的一樣 — 根據您選取的頻道。
+1. 按一下「建立&#x200B;****」，並視需要設計您的內容，就像您在歷程或行銷活動中的任何內容所做的一樣 — 根據您選取的頻道。
 
    ![](assets/content-template-edition.png)
 
@@ -75,15 +75,15 @@ ht-degree: 15%
    * [定義直接郵件內容](../direct-mail/create-direct-mail.md)
    * [定義應用程式內內容](../in-app/design-in-app.md)
 
-1. 如果您要建立 **[!UICONTROL 電子郵件]** 範本與 **[!UICONTROL HTML]** 型別，您可以測試您的內容。 [了解作法](#test-template)
+1. 如果您正在建立&#x200B;**[!UICONTROL HTML]**&#x200B;型別的&#x200B;**[!UICONTROL 電子郵件]**&#x200B;範本，您可以測試您的內容。 [了解作法](#test-template)
 
-1. 範本準備就緒後，按一下 **[!UICONTROL 儲存]**.
+1. 範本準備就緒後，請按一下[儲存]。****
 
-1. 按一下範本名稱旁的箭頭，返回 **[!UICONTROL 詳細資料]** 畫面。
+1. 按一下範本名稱旁的箭頭，返回&#x200B;**[!UICONTROL 詳細資料]**&#x200B;畫面。
 
    ![](assets/content-template-back.png)
 
-現在，在內建置任何內容時，即可使用此範本 [!DNL Journey Optimizer]. [了解作法](#use-content-templates)
+此範本現在已準備好在[!DNL Journey Optimizer]內建置任何內容時使用。 [了解作法](#use-content-templates)
 
 ## 將內容儲存為內容範本 {#save-as-template}
 
@@ -94,13 +94,13 @@ ht-degree: 15%
 
 在行銷活動或歷程中設計任何內容時，您可以儲存以供日後重複使用。 請依照下列步驟以執行此操作。
 
-1. 從訊息 **[!UICONTROL 編輯內容]** 熒幕，按一下 **[!UICONTROL 內容範本]** 按鈕。
+1. 在訊息&#x200B;**[!UICONTROL 編輯內容]**&#x200B;畫面中，按一下&#x200B;**[!UICONTROL 內容範本]**&#x200B;按鈕。
 
-1. 選取 **[!UICONTROL 另存為內容範本]** （從下拉式功能表）。
+1. 從下拉式功能表中選取&#x200B;**[!UICONTROL 另存為內容範本]**。
 
    ![](assets/content-template-button-save.png)
 
-   如果您在 [傳送Designer電子郵件](../email/get-started-email-design.md)，您也可以從 **[!UICONTROL 更多]** 下拉式清單（位於畫面右上方）。
+   如果您在[電子郵件Designer](../email/get-started-email-design.md)，您也可以從畫面右上方的&#x200B;**[!UICONTROL 更多]**&#x200B;下拉式清單中選取此選項。
 
    ![](assets/content-template-more-button-save.png)
 
@@ -110,17 +110,17 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >目前的管道和型別會自動填入，且無法編輯。 針對從建立的電子郵件範本 [傳送Designer電子郵件](../email/get-started-email-design.md)，則 **[!UICONTROL HTML]** 型別會自動選取。
+   >目前的管道和型別會自動填入，且無法編輯。 對於從[電子郵件Designer](../email/get-started-email-design.md)建立的電子郵件範本，**[!UICONTROL HTML]**&#x200B;型別會自動選取。
 
-1. 選擇或建立Adobe Experience Platform標籤，從 **標籤** 將範本分類的欄位。 [了解更多](../start/search-filter-categorize.md#tags)
+1. 從&#x200B;**標籤**&#x200B;欄位選取或建立Adobe Experience Platform標籤，以將您的範本分類。 [了解更多](../start/search-filter-categorize.md#tags)
 
-1. 若要將自訂或核心資料使用標籤指派給範本，您可以選取 **[!UICONTROL 管理存取權]**. [了解更多](../administration/object-based-access.md)。
+1. 若要指派自訂或核心資料使用標籤給範本，您可以選取&#x200B;**[!UICONTROL 管理存取權]**。 [了解更多](../administration/object-based-access.md)。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-1. 範本會儲存至 **[!UICONTROL 內容範本]** 清單，可從存取 [!DNL Journey Optimizer] 專用功能表。 它會變成獨立的內容範本，可以像該清單上的任何其他專案一樣加以存取、編輯及刪除。 [了解更多](#access-manage-templates)
+1. 範本已儲存至&#x200B;**[!UICONTROL 內容範本]**&#x200B;清單，可從[!DNL Journey Optimizer]專用功能表存取。 它會變成獨立的內容範本，可以像該清單上的任何其他專案一樣加以存取、編輯及刪除。 [了解更多](#access-manage-templates)
 
-您現在可以在中建置任何內容時使用此範本 [!DNL Journey Optimizer]. [了解作法](#use-content-templates)
+您現在可以在[!DNL Journey Optimizer]內建置任何內容時使用此範本。 [了解作法](#use-content-templates)
 
 >[!NOTE]
 >

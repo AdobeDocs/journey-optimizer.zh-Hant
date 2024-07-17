@@ -12,7 +12,7 @@ exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 ![](assets/cja-analyze.png)
 
-透過增強您的資料分析體驗 **[!DNL Customer Journey Analytics]** 善用授權 **[!UICONTROL 在CJA中分析]** 功能於所有報表中提供。
+運用所有報告內可用的&#x200B;**[!UICONTROL 在CJA中分析]**&#x200B;功能，使用您的&#x200B;**[!DNL Customer Journey Analytics]**&#x200B;授權增強您的資料分析體驗。
 
-此功能強大的選項可順暢地將您重新導向至 **[!DNL Customer Journey Analytics]** 環境，讓您能夠廣泛個人化您的報告。 您可以使用專門的Customer Journey Analytics量度擴充您的Widget，將您的見解提升到全新的境界。
+這個功能強大的選項可順暢地將您重新導向至&#x200B;**[!DNL Customer Journey Analytics]**&#x200B;環境，讓您能夠廣泛個人化您的報告。 您可以使用專門的Customer Journey Analytics量度擴充您的Widget，將您的見解提升到全新的境界。
 
 [進一步瞭解Customer Journey Analytics介面。](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 >[!TAB 將報表匯出為CSV檔案]
 
-1. 在報表中，按一下 **[!UICONTROL 匯出]** 並選取 **[!UICONTROL CSV檔案]** 在整體報表層級產生CSV檔案。
+1. 從您的報表按一下[匯出]****，然後選取[CSV檔案]****&#x200B;來產生整體報表層級的CSV檔案。
 
    ![](assets/export_cja_csv.png)
 
@@ -58,11 +58,11 @@ ht-degree: 1%
 
 >[!TAB 將報表匯出為PDF檔案]
 
-1. 在報表中，按一下 **[!UICONTROL 匯出]** 並選取 **[!UICONTROL PDF檔案]**.
+1. 在報表中按一下[匯出]，然後選取[PDF檔案]。********
 
    ![](assets/export_cja_pdf.png)
 
-1. 要求下載後，請按一下 **[!UICONTROL 下載]**.
+1. 要求下載後，按一下&#x200B;**[!UICONTROL 下載]**。
 
    ![](assets/export_cja_pdf_2.png)
 

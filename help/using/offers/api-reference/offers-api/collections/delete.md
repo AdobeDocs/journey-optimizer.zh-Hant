@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # 刪除集合 {#delete-collection}
 
-有時可能必須移除(DELETE)集合。 這可透過向以下對象執行DELETE請求來完成 [!DNL Offer Library] API使用 `id` 要刪除的集合的預設值。
+有時可能必須移除(DELETE)集合。 使用您要刪除之集合的`id`，對[!DNL Offer Library] API執行DELETE要求，即可完成這項作業。
 
 **API格式**
 

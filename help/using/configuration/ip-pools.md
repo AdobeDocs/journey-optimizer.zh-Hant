@@ -30,7 +30,7 @@ ht-degree: 11%
 
 ## 關於IP集區 {#about-ip-pools}
 
-替換為 [!DNL Journey Optimizer]，您可以建立IP集區，將子網域的IP位址群組在一起。
+透過[!DNL Journey Optimizer]，您可以建立IP集區，將子網域的IP位址群組在一起。
 
 強烈建議您建立IP集區，以傳遞電子郵件。 如此一來，您便可防止子網域的信譽影響其他子網域。
 
@@ -44,7 +44,7 @@ ht-degree: 11%
 
 若要建立IP集區，請執行下列步驟：
 
-1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL IP集區]** 功能表，然後按一下 **[!UICONTROL 建立IP集區]**.
+1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL IP集區]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立IP集區]**。
 
    ![](assets/ip-pool-create.png)
 
@@ -54,7 +54,7 @@ ht-degree: 11%
    >
    >名稱必須以字母(A-Z)開頭，且僅包含英數字元或特殊字元( _、.、- )。
 
-1. 從下拉式清單中選取要包含在集區中的IP位址，然後按一下 **[!UICONTROL 提交]**.
+1. 從下拉式清單中選取要包含在集區中的IP位址，然後按一下&#x200B;**[!UICONTROL 提交]**。
 
    ![](assets/ip-pool-config.png)
 
@@ -62,7 +62,7 @@ ht-degree: 11%
    >
    >清單中提供您執行個體布建的所有IP位址。
 
-選取IP時，您可以從清單中看到與IP相關聯的PTR記錄。 這可讓您在建立IP集區時驗證每個IP的品牌資訊，並選取具有相同品牌資訊的IP。 [深入瞭解PTR記錄](ptr-records.md)
+選取IP時，您可以從清單中看到與IP相關聯的PTR記錄。 這可讓您在建立IP集區時驗證每個IP的品牌資訊，並選取具有相同品牌資訊的IP。 [進一步瞭解PTR記錄](ptr-records.md)
 
 ![](assets/ip-pool-ptr-record.png)
 
@@ -74,7 +74,7 @@ ht-degree: 11%
 
 ![](assets/ip-pool-ptr-record-tooltip.png)
 
-IP集區現在已建立並顯示在清單中。 您可以選取它以存取其屬性並顯示相關管道表面（即訊息預設集）。 有關如何將管道表面與IP集區關聯的詳細資訊，請參閱 [本節](channel-surfaces.md).
+IP集區現在已建立並顯示在清單中。 您可以選取它以存取其屬性並顯示相關管道表面（即訊息預設集）。 有關如何將管道表面與IP集區關聯的詳細資訊，請參閱[本節](channel-surfaces.md)。
 
 ![](assets/ip-pool-created.png)
 
@@ -100,16 +100,16 @@ IP集區現在已建立並顯示在清單中。 您可以選取它以存取其�
 
 1. 儲存您的變更。
 
-根據與關聯的IP集區，更新會立即或非同步生效 [頻道介面](channel-surfaces.md) 或不能：
+根據與[管道表面](channel-surfaces.md)關聯的IP集區，更新會立即或非同步生效：
 
-* 如果IP集區是 **非** 和任何管道表面相關聯，更新是即時的(**[!UICONTROL 成功]** 狀態)。
-* 如果IP集區 **是** 和管道表面相關聯，更新最多可能需要3小時的時間(**[!UICONTROL 處理中]** 狀態)。
+* 如果IP集區是&#x200B;**不是與任何管道表面關聯的**，則更新是即時的（**[!UICONTROL 成功]**&#x200B;狀態）。
+* 如果IP集區&#x200B;**與通道表面關聯**，則更新最多可能需要3小時的時間（**[!UICONTROL 處理]**&#x200B;狀態）。
 
 >[!NOTE]
 >
->時間 [建立管道表面](channel-surfaces.md#create-channel-surface)，如果您選取的IP池位於版本下(**[!UICONTROL 處理中]** 狀態)且從未與為該曲面選取的子域相關聯，您無法繼續建立曲面。 [了解更多](channel-surfaces.md#subdomains-and-ip-pools)
+>當[建立管道表面](channel-surfaces.md#create-channel-surface)時，如果您選取正在編輯中的IP集區（**[!UICONTROL 正在處理]**&#x200B;狀態）且從未與為該表面選取的子網域建立關聯，則無法繼續建立表面。 [了解更多](channel-surfaces.md#subdomains-and-ip-pools)
 
-若要檢查IP集區更新狀態，請按一下 **[!UICONTROL 更多動作]** 按鈕並選取 **[!UICONTROL 最近的更新]**.
+若要檢查IP集區更新狀態，請按一下&#x200B;**[!UICONTROL 其他動作]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 最近更新]**。
 
 ![](assets/ip-pool-recent-update.png)
 
@@ -119,5 +119,5 @@ IP集區現在已建立並顯示在清單中。 您可以選取它以存取其�
 >* 幾分鐘後，單一訊息便會使用，
 >* 直到IP集區的下一個批次在批次訊息中生效。
 
-您也可以使用 **[!UICONTROL 刪除]** 按鈕以刪除IP集區。 請注意，您無法刪除已關聯至管道表面的IP集區。
+您也可以使用&#x200B;**[!UICONTROL 刪除]**&#x200B;按鈕來刪除IP集區。 請注意，您無法刪除已關聯至管道表面的IP集區。
 

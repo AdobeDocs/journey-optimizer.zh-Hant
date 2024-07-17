@@ -12,7 +12,7 @@ exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 8%
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 
 個人化歷程由事件觸發，例如線上購買。 設定檔進入歷程後，就會以個人身分移過，而且不會有兩個人以相同速度或沿著相同路徑移動。 當您使用事件開始您的歷程時，歷程會在收到事件時觸發。 接著，歷程中的每個人都個別遵循歷程中定義的後續步驟。
 
-技術使用者設定的事件(請參閱 [此頁面](../event/about-events.md))都會顯示在畫面左側的浮動視窗第一個類別中。 可使用下列事件活動：
+技術使用者設定的事件（請參閱[此頁面](../event/about-events.md)）都會顯示在畫面左側的浮動視窗的第一個類別中。 可使用下列事件活動：
 
 * [一般事件](../building-journeys/general-events.md)
 * [反應](../building-journeys/reaction-events.md)
@@ -52,7 +52,7 @@ ht-degree: 8%
 
 動作是您因某種觸發而想要發生的動作，例如傳送訊息。 這是客戶體驗的歷程。
 
-從浮動視窗的畫面左側下方 **[!UICONTROL 活動]** 和 **[!UICONTROL 協調流程]**，您可以找到 **[!UICONTROL 動作]** 類別。 可使用下列動作活動：
+從浮動視窗的畫面左側，**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 協調流程]**&#x200B;下方，可以找到&#x200B;**[!UICONTROL 動作]**&#x200B;類別。 可使用下列動作活動：
 
 * [電子郵件、簡訊、推播](../building-journeys/journeys-message.md)
 * [自訂動作](../building-journeys/using-custom-actions.md)
@@ -60,15 +60,15 @@ ht-degree: 8%
 
 ![](assets/journey58.png)
 
-這些活動代表不同的可用通訊通道。 您可以將其合併，以建立跨管道情境。
+這些活動代表不同的可用通訊通道。您可以將其合併，以建立跨管道情境。
 
-如果您已設定自訂動作，它們也會顯示在這裡。 [瞭解更多](../building-journeys/using-custom-actions.md))。
+如果您已設定自訂動作，它們也會顯示在這裡。 [深入瞭解](../building-journeys/using-custom-actions.md))。
 
 ## 最佳作法 {#best-practices}
 
 ### 新增標籤
 
-大部分活動都可讓您定義 **[!UICONTROL 標籤]**. 這會將尾碼新增至畫布中顯示在活動下方的名稱中。 如果您在歷程中多次使用相同的活動，且想要更輕鬆地識別它們，這會很有用。 它也會讓發生錯誤時的偵錯更容易，並讓報告更易於閱讀。 您也可以新增選用的 **[!UICONTROL 說明]**.
+大部分活動可讓您定義&#x200B;**[!UICONTROL 標籤]**。 這會將尾碼新增至畫布中顯示在活動下方的名稱中。 如果您在歷程中多次使用相同的活動，且想要更輕鬆地識別它們，這會很有用。 它也會讓發生錯誤時的偵錯更容易，並讓報告更易於閱讀。 您也可以新增選用的&#x200B;**[!UICONTROL 描述]**。
 
 ![](assets/journey-action-label.png)
 
@@ -82,7 +82,7 @@ ht-degree: 8%
 
 ![](assets/journey-advanced-parameters.png)
 
-為了提高可讀性，您可以使用 **[!UICONTROL 隱藏唯讀欄位]** 按鈕。
+若要提高可讀性，您可以使用&#x200B;**[!UICONTROL 隱藏唯讀欄位]**&#x200B;按鈕來隱藏這些引數。
 
 ![](assets/journey-hide-read-only-fields.png)
 
@@ -92,6 +92,6 @@ ht-degree: 8%
 
 ### 新增替代路徑
 
-當動作或條件發生錯誤時，個人的歷程就會停止。 唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**. 另請參閱 [本節](../building-journeys/using-the-journey-designer.md#paths).
+當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法是核取方塊&#x200B;**[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**。 請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
 
 ![](assets/journey42.png)

@@ -10,7 +10,7 @@ exl-id: e236efa9-91a8-4f08-94c6-45f1e060bb2f
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 10%
 `intersect(listDateTimeOnly,listDateTimeOnly)`： listDateTimeOnly
 `intersect(listDateOnly,listDateOnly)`： listDateOnly
 `intersect(listDuration,listDuration)`： listDuration
-`intersect(listBoolean,listBoolean)`：listBoolean
+`intersect(listBoolean,listBoolean)`：清單布林值
 
 傳回清單。
 
@@ -55,7 +55,7 @@ intersect(
 )
 ```
 
-傳回 [&quot;sports&quot;， &quot;news&quot;]
+傳回[&quot;sports&quot;，&quot;news&quot;]
 
 ```json
 intersect(

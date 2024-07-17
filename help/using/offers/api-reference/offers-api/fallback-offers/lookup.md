@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 查詢遞補優惠 {#look-up-fallback-offers}
 
-您可以向以下網址發出GET要求，查詢特定的遞補優惠： [!DNL Offer Library] 在請求路徑中包含遞補優惠ID的API。
+您可以向[!DNL Offer Library] API發出GET要求，在要求路徑中包含遞補優惠ID，藉此查詢特定的遞補優惠。
 
 **API格式**
 

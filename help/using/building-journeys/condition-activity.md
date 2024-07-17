@@ -25,7 +25,7 @@ ht-degree: 17%
 
 可使用下列型別的條件：
 
-* [資料來源條件](#data_source_condition)
+* [資料Source條件](#data_source_condition)
 * [時間條件](#time_condition)
 * [百分比分割](#percentage_split)
 * [日期條件](#date_condition)
@@ -42,7 +42,7 @@ ht-degree: 17%
 
 在歷程中使用數個條件時，您可以為每個條件定義標籤，以更輕鬆地識別它們。
 
-按一下 **[!UICONTROL 新增路徑]** 如果要定義多個條件。 對於每個條件，活動後都會在畫布中新增新路徑。
+如果要定義多個條件，請按一下&#x200B;**[!UICONTROL 新增路徑]**。 對於每個條件，活動後都會在畫布中新增新路徑。
 
 ![](assets/journey47.png)
 
@@ -52,7 +52,7 @@ ht-degree: 17%
 
 ![](assets/journey48.png)
 
-您可以核取「 」，為不符合所定義條件的對象建立其他路徑 **[!UICONTROL 顯示上述案例以外的其他案例的路徑]**. 請注意，此選項不適用於分割條件。 另請參閱 [百分比分割](#percentage_split).
+您可以針對不符合定義條件的對象，建立其他路徑，方法是勾選&#x200B;**[!UICONTROL 針對上述情況以外的其他情況顯示路徑]**。 請注意，此選項不適用於分割條件。 請參閱[百分比分割](#percentage_split)。
 
 簡單模式可讓您根據欄位組合執行簡單查詢。 所有可用的欄位都會顯示在螢幕的左側。將欄位拖放到主要區域中。若要合併不同的元素，請將它們互相聯鎖以建立不同的群組和/或群組層級。然後，您可以選取邏輯運算子來組合同一層級的元素：
 
@@ -61,20 +61,20 @@ ht-degree: 17%
 
 ![](assets/journey64.png)
 
-如果您使用 [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"} 若要建立您的對象，您可以在歷程條件中運用這些對象。 請參閱 [在條件中使用對象](../building-journeys/condition-activity.md#using-a-segment).
+如果您使用[Adobe Experience Platform細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}建立您的對象，您可以在歷程條件中運用這些對象。 請參閱[在條件](../building-journeys/condition-activity.md#using-a-segment)中使用對象。
 
 
 >[!NOTE]
 >
 >使用簡單編輯器無法對時間序列執行查詢（例如購買清單、過去對訊息的點按）。 為此，您需要使用進階編輯器。 請參閱[此頁面](expression/expressionadvanced.md)。
 
-當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**. 請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
+當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法是核取方塊&#x200B;**[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**。 請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
 
 在簡單編輯器中，您也會在事件和資料來源類別下方找到歷程屬性類別。 此類別包含與特定設定檔的歷程相關的技術欄位。 這是系統從即時歷程擷取的資訊，例如歷程 ID 或遇到的特定錯誤。 [了解更多](expression/journey-properties.md)
 
-## 資料來源條件 {#data_source_condition}
+## 資料Source條件 {#data_source_condition}
 
-這可讓您根據資料來源的欄位或先前位於歷程中的事件來定義條件。 瞭解如何在中使用運算式編輯器 [本節](expression/expressionadvanced.md).
+這可讓您根據資料來源的欄位或先前位於歷程中的事件來定義條件。 瞭解如何在[本節](expression/expressionadvanced.md)中使用運算式編輯器。
 
 例如，如果您使用使用構成工作流程或自訂上傳（CSV檔案）產生的擴充屬性來鎖定對象，則可運用這些擴充屬性來建置條件。
 
@@ -100,7 +100,7 @@ ht-degree: 17%
 
 ## 百分比分割 {#percentage_split}
 
-此選項可讓您隨機分割對象，以針對每個群組定義不同的動作。 定義每個路徑的分割數與重新分割區。 分割計算是統計性的，因為系統無法預測有多少人會在此歷程的活動中流動。 因此，分割的錯誤邊界非常低。 此函式以Java隨機機製為基礎(請參閱此 [頁面](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html))。
+此選項可讓您隨機分割對象，以針對每個群組定義不同的動作。 定義每個路徑的分割數與重新分割區。 分割計算是統計性的，因為系統無法預測有多少人會在此歷程的活動中流動。 因此，分割的錯誤邊界非常低。 此函式以Java隨機機製為基礎（請參閱此[頁面](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)）。
 
 在測試模式中，達到分割時，一律選擇頂端分支。 如果您希望測試選擇不同的路徑，可以重新組織分割分支的位置。 請參見[此頁面](../building-journeys/testing-the-journey.md)。
 
@@ -149,20 +149,20 @@ ht-degree: 17%
 
 ## 在條件中使用對象 {#using-a-segment}
 
-本節說明如何在歷程條件中使用對象。 有關對象以及如何建立對象的詳細資訊，請參閱 [本節](../audience/about-audiences.md).
+本節說明如何在歷程條件中使用對象。 如需對象以及如何建立對象的詳細資訊，請參閱[本節](../audience/about-audiences.md)。
 
 若要在歷程條件中使用對象，請遵循下列步驟：
 
-1. 開啟歷程，拖放 **[!UICONTROL 條件]** 活動並選擇 **資料來源條件**.
+1. 開啟歷程、卸除&#x200B;**[!UICONTROL 條件]**&#x200B;活動並選擇&#x200B;**資料Source條件**。
 
    ![](assets/segment3.png)
 
-1. 按一下 **[!UICONTROL 新增路徑]** 以取得所需的每個額外路徑。 對於每個路徑，按一下 **[!UICONTROL 運算式]** 欄位。
+1. 按一下&#x200B;**[!UICONTROL 新增路徑]**&#x200B;以取得每個所需的額外路徑。 針對每個路徑，按一下&#x200B;**[!UICONTROL 運算式]**&#x200B;欄位。
 
-1. 在左側，展開 **[!UICONTROL 受眾]** 節點。 拖放您要用於條件的對象。 依預設，對象的條件為true。
+1. 在左側，展開&#x200B;**[!UICONTROL 對象]**&#x200B;節點。 拖放您要用於條件的對象。 依預設，對象的條件為true。
 
    ![](assets/segment4.png)
 
    >[!NOTE]
    >
-   >請注意，只有具備以下條件的個人： **已實現** 和 **現有** 對象參與狀態會視為對象的成員。 如需如何評估對象的詳細資訊，請參閱 [分段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >請注意，只有具有&#x200B;**已實現**&#x200B;和&#x200B;**現有**&#x200B;對象參與狀態的個人，才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。

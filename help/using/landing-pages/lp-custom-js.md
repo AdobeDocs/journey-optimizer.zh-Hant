@@ -18,31 +18,31 @@ ht-degree: 2%
 
 # 在登入頁面中使用自訂JavaScript {#lp-custom-js}
 
-您可以使用自訂JavaScript來定義登入頁面內容。 例如，如果您需要執行進階樣式，或想將自訂行為新增至登入頁面，您可以建置自己的控制項，並在中執行 [!DNL Journey Optimizer].
+您可以使用自訂JavaScript來定義登入頁面內容。 例如，如果您需要執行進階樣式，或想要將自訂行為新增至登入頁面，您可以建置自己的控制項，並在[!DNL Journey Optimizer]中執行。
 
 ## 將JavaScript程式碼插入登陸頁面
 
-若要將自訂JavaScript插入登入頁面內容，您可以執行下列任一操作：
+若要將自訂JavaScript插入登入頁面內容，您可以執行下列作業：
 
-* 開始建立您的內容時匯入現有的HTML內容，並選取包含自訂JavaScript程式碼的檔案。 瞭解如何匯入內容 [在本節中](../email/existing-content.md).
+* 開始建立您的內容時，匯入現有的HTML內容，並選取包含自訂JavaScript程式碼的檔案。 在本節](../email/existing-content.md)中瞭解如何匯入內容[。
 
-* 從頭開始設計您的登入頁面，或是從儲存的範本進行設計。 拖放 **[!UICONTROL HTML]** 將內容元件加入畫布並顯示原始程式碼，以將您的JavaScript加入元件中。 瞭解如何在中使用HTML元件 [本節](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* 從頭開始設計您的登入頁面，或是從儲存的範本進行設計。 將&#x200B;**[!UICONTROL HTML]**&#x200B;內容元件拖放至畫布中，並顯示原始程式碼，以將您的JavaScript新增至元件。 瞭解如何在[本節](../email/content-components.md#HTML)中使用HTML元件。<!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
   ![](assets/lp_designer-html-component.png)
 
-* 直接在內容設計工具中輸入或貼上JavaScript程式碼。 瞭解如何編寫您自己的內容代碼 [在本節中](../email/code-content.md).
+* 直接在內容設計工具中輸入或貼上JavaScript程式碼。 在本節](../email/code-content.md)中瞭解如何編碼您自己的內容[。
 
 >[!NOTE]
 >
->目前，在下列情況下，您無法在操作中顯示JavaScript： [預覽登入頁面](create-lp.md#test-landing-page).
+>目前當您在[預覽登入頁面](create-lp.md#test-landing-page)時，無法顯示JavaScript正在執行中。
 
 若要正確顯示登入頁面，請依照下列各節所述使用下列語法。
 
 ## 程式碼初始化
 
-若要將JavaScript程式碼初始化，您必須使用 `lpRuntimeReady` 事件。 成功初始化程式庫後，將會觸發此事件。 回呼將會以執行 `lpRuntime` 物件，以公開程式庫方法和鉤點。
+若要將JavaScript程式碼初始化，您必須使用`lpRuntimeReady`事件。 成功初始化程式庫後，將會觸發此事件。 將使用`lpRuntime`物件執行回呼，以公開程式庫方法與掛接。
 
-`LpRuntime` 代表「Landing page Runtime」。 此物件是主要程式庫識別碼。 它會公開掛接、表單提交方法，以及可用於自訂JavaScript的其他公用程式方法。
+`LpRuntime`代表「登陸頁面執行階段」。 此物件是主要程式庫識別碼。 它會公開鉤點、表單提交方法，以及可用於自訂JavaScript的其他公用程式方法。
 
 **範例：**
 
@@ -87,7 +87,7 @@ lpRuntime.hooks.addBeforeSubmitHook(function(){
 
 >[!NOTE]
 >
->由於表單提交是由自訂JavaScript處理，因此需要設定全域變數來明確停用預設提交 `disableDefaultFormSubmission` 至 `true`.
+>由於表單提交是由自訂JavaScript所處理，因此需要透過將全域變數`disableDefaultFormSubmission`設定為`true`來明確停用預設提交。
 
 | 名稱 | 說明 |
 |--- |--- |
@@ -113,7 +113,7 @@ lpRuntime.submitFormPartial(formSubmissionData,{   // This will not trigger the 
 
 | 名稱 | 說明 |
 |--- |--- |
-| getFormData | 此方法可用來取得 `formData` JSON物件的形式。 此物件可傳遞至 `submitForm` 用於表單提交。 |
+| getFormData | 此方法可用來取得JSON物件形式的`formData`。 此物件可傳遞至`submitForm`以提交表單。 |
 
 **範例：**
 
@@ -195,7 +195,7 @@ lpRuntime.submitForm(formData);
 
 ### 使用案例3：自訂分析標籤
 
-您可以使用JavaScript新增輸入欄位的接聽程式，並附加自訂分析呼叫觸發程式。
+您可以使用JavaScript新增輸入欄位的監聽器，並附加自訂分析呼叫觸發程式。
 
 ```
 <html>

@@ -13,35 +13,35 @@ exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 3%
+ht-degree: 17%
 
 ---
 
 # 個人化電子郵件表面設定 {#surface-personalization}
 
-為了增加彈性並控制您的電子郵件設定， [!DNL Journey Optimizer] 可讓您定義子網域和標題的個人化值<!--and URL tracking parameters--> 建立電子郵件介面時。
+為了增加彈性並控制您的電子郵件設定，[!DNL Journey Optimizer]可讓您在建立電子郵件介面時定義子網域和標題<!--and URL tracking parameters-->的個人化值。
 
 >[!AVAILABILITY]
 >
->電子郵件表面個人化目前僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。
+>電子郵件介面個人化目前僅開放給某些組織使用 (開放限量使用)。 若要取得存取權，請和您的 Adobe 代表聯絡。
 
 ## 新增動態子網域 {#dynamic-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
->title="無法使用個人化"
->abstract="此表面是在沒有任何個人化屬性的情況下建立的。 如需瞭解需要個人化時的解決步驟，請參閱檔案。"
+>title="個人化不可用"
+>abstract="此表面建立時沒有任何個人化屬性。如果需要個人化，請參閱文件以了解解決步驟。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="啟用動態子網域"
->abstract="建立電子郵件介面時，您可以根據使用個人化編輯器定義的條件來設定動態子網域。 您最多可以新增50個動態子網域。"
+>abstract="建立電子郵件表面時，您可以根據使用個人化編輯器定義的條件來設定動態子網域。您最多可以新增 50 個動態子網域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
->title="部分子網域可能無法使用"
->abstract="由於暫止的回饋回圈註冊，某些子網域目前無法供選取。 此程式最多可能需要10個工作日。 完成後，您可以從所有可用的子網域中進行選擇。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="開始使用子網域委派"
+>title="某些子網域可能不可用"
+>abstract="由於待處理意見回饋循環註冊，某些子網域目前無法選取。此程序可能需要長達 10 個工作天。完成後，您可以從所有可用子網域進行選擇。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="開始使用子網域委派"
 
 建立電子郵件介面時，您可以根據特定條件設定動態子網域。
 
@@ -55,15 +55,15 @@ ht-degree: 3%
 
 1. 建立管道表面。 [了解作法](../configuration/channel-surfaces.md)
 
-1. 選取 **[!UICONTROL 電子郵件]** 頻道。
+1. 選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;頻道。
 
-1. 在 **子網域** 區段，啟用 **[!UICONTROL 動態子網域]** 選項。
+1. 在&#x200B;**子網域**&#x200B;區段中，啟用&#x200B;**[!UICONTROL 動態子網域]**&#x200B;選項。
 
    ![](assets/surface-email-dynamic-subdomain.png)
 
-1. 選擇第一個旁邊的編輯圖示 **[!UICONTROL 條件]** 欄位。
+1. 選取第一個&#x200B;**[!UICONTROL 條件]**&#x200B;欄位旁的編輯圖示。
 
-1. 此 [個人化編輯器](../personalization/personalization-build-expressions.md) 隨即開啟。 在此範例中，設定條件，例如 `Country` 等於 `US`.
+1. [個人化編輯器](../personalization/personalization-build-expressions.md)開啟。 在此範例中，設定`Country`等同於`US`的條件。
 
    ![](assets/surface-email-edit-condition.png)
 
@@ -71,7 +71,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >由於擱置中，某些子網域目前無法供選取 [回饋迴路](../reports/deliverability.md#feedback-loops) 註冊。 此程式最多可能需要10個工作日。 完成後，您可以從所有可用的子網域中進行選擇。 <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >某些子網域目前無法選取，因為[回饋迴路](../reports/deliverability.md#feedback-loops)註冊擱置中。 此程序可能需要長達 10 個工作天。完成後，您可以從所有可用的子網域中進行選擇。<!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 
@@ -83,31 +83,31 @@ ht-degree: 3%
 
    <!--Select the [IP pool](../configuration/ip-pools.md) to associate with the surface. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
 
-1. 定義所有其他專案 [電子郵件設定](email-settings.md) 和 [提交](../configuration/channel-surfaces.md#create-channel-surface) 您的表面。
+1. 定義所有其他[電子郵件設定](email-settings.md)和[提交](../configuration/channel-surfaces.md#create-channel-surface)您的表面。
 
 將一或多個動態子網域新增至曲面後，系統會根據此曲面的已解析動態子網域填入下列專案：
 
 * 所有URL （資源URL、映象頁面URL和追蹤URL）
 
-* 此 [取消訂閱URL](email-settings.md#list-unsubscribe)
+* [取消訂閱URL](email-settings.md#list-unsubscribe)
 
-* 此 **來自電子郵件** 和 **錯誤電子郵件** 尾碼
+* **來自電子郵件**&#x200B;和&#x200B;**錯誤電子郵件**&#x200B;尾碼
 
 >[!NOTE]
 >
->如果您設定動態子網域，然後停用 **[!UICONTROL 動態子網域]** 選項，則會移除所有動態值。 選取子網域並提交表面，變更即可生效。
+>如果您設定動態子網域，然後停用&#x200B;**[!UICONTROL 動態子網域]**&#x200B;選項，則會移除所有動態值。 選取子網域並提交表面，變更即可生效。
 
 ## 個人化您的頁首 {#personalize-header}
 
 您也可以針對曲面中定義的所有標頭引數使用個人化。
 
-例如，如果您有多個品牌，您可以建立單一介面，並對電子郵件標題使用個人化值。 這可讓您確保從不同品牌傳送的所有電子郵件都會傳送給每位客戶，而且正確無誤 **從** 名稱和電子郵件。 同樣地，當您的收件者點選 **回覆** 電子郵件使用者端軟體中的按鈕，您希望 **回覆** 名稱和電子郵件對應於正確使用者的正確品牌。
+例如，如果您有多個品牌，您可以建立單一介面，並對電子郵件標題使用個人化值。 這可讓您確保從不同品牌傳送的所有電子郵件都會以正確的&#x200B;**寄件者**&#x200B;名稱和電子郵件傳送給每個客戶。 同樣地，當您的收件者按一下電子郵件使用者端軟體中的&#x200B;**回覆**&#x200B;按鈕時，您希望&#x200B;**回覆**&#x200B;名稱和電子郵件對應至正確使用者的正確品牌。
 
 若要針對曲面標頭引數使用個人化變數，請遵循下列步驟。
 
 >[!NOTE]
 >
->您可以全部個人化 **[!UICONTROL 標頭引數]** 欄位，但 **[!UICONTROL 錯誤電子郵件前置詞]** 欄位。
+>您可以個人化所有&#x200B;**[!UICONTROL 標頭引數]**&#x200B;欄位，**[!UICONTROL 錯誤電子郵件首碼]**&#x200B;欄位除外。
 
 
 1. 依照您通常的作法定義標頭引數。 [了解作法](email-settings.md#email-header)
@@ -116,19 +116,19 @@ ht-degree: 3%
 
    ![](assets/surface-email-personalize-header.png)
 
-1. 此 [個人化編輯器](../personalization/personalization-build-expressions.md) 隨即開啟。 依照需要定義條件，然後儲存變更。
+1. [個人化編輯器](../personalization/personalization-build-expressions.md)開啟。 依照需要定義條件，然後儲存變更。
 
    例如，設定條件，例如每位收件者都會收到來自其品牌代表的電子郵件。
 
    >[!NOTE]
    >
-   >您只能選取 **[!UICONTROL 設定檔屬性]** 和 **[!UICONTROL 輔助函式]**.
+   >您只能選取&#x200B;**[!UICONTROL 設定檔屬性]**&#x200B;和&#x200B;**[!UICONTROL 協助程式函式]**。
 
 1. 針對您想要新增個人化的每個引數，重複上述步驟。
 
 >[!NOTE]
 >
->如果您在曲面中新增一或多個動態子網域， **來自電子郵件** 和 **錯誤電子郵件** 將會根據解析的填入尾碼 [動態子網域](#dynamic-subdomains).
+>如果您新增一或多個動態子網域至您的表面，將會根據解析的[動態子網域](#dynamic-subdomains)填入&#x200B;**寄件者電子郵件**&#x200B;和&#x200B;**錯誤電子郵件**&#x200B;尾碼。
 
 <!--
 ## Use personalized URL tracking {#personalize-url-tracking}
@@ -146,20 +146,20 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 在促銷活動或介面中使用具有個人化設定的介面時，您可以直接在促銷活動或介面中顯示介面細節。 請遵循下列步驟。
 
-1. 建立電子郵件 [行銷活動](../campaigns/create-campaign.md) 或 [歷程](../building-journeys/journey-gs.md).
+1. 建立電子郵件[行銷活動](../campaigns/create-campaign.md)或[歷程](../building-journeys/journey-gs.md)。
 
-1. 選取 **[!UICONTROL 編輯內容]** 按鈕。
+1. 選取&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕。
 
-1. 按一下 **[!UICONTROL 檢視表面詳細資料]** 按鈕。
+1. 按一下&#x200B;**[!UICONTROL 檢視表面詳細資料]**&#x200B;按鈕。
 
    ![](assets/campaign-view-surface-details.png)
 
-1. 此 **[!UICONTROL 傳遞設定]** 視窗隨即顯示。 您可以檢視所有曲面設定，包括動態子網域和個人化的標頭引數。
+1. 顯示&#x200B;**[!UICONTROL 傳遞設定]**&#x200B;視窗。 您可以檢視所有曲面設定，包括動態子網域和個人化的標頭引數。
 
    >[!NOTE]
    >
    >此畫面上的所有資訊都是唯讀的。
 
-1. 選取 **[!UICONTROL 展開]** 以顯示動態子網域的詳細資訊。
+1. 選取&#x200B;**[!UICONTROL 展開]**&#x200B;以顯示動態子網域的詳細資料。
 
    ![](assets/campaign-delivery-settings-subdomain-expand.png)

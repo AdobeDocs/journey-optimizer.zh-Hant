@@ -21,35 +21,35 @@ ht-degree: 3%
 
 管道報表是完全可自訂的，因此您可以調整大小或移除Widget，以建立符合您特定需求的儀表板。 您也可以將報表資料匯出至PDF或CSV檔案，以供進一步分析。
 
-瞭解更多適用於此管道報表的不同量度和Widget [頁面](channel-report.md).
+在此[頁面](channel-report.md)中瞭解管道報表可用的不同量度和Widget。
 
 ## 開始之前 {#manage-reports-prereq}
 
-開始之前，請檢查您是否有許可權存取 **[!UICONTROL 報表]** 功能表。
+開始之前，請檢查您是否有許可權存取&#x200B;**[!UICONTROL 報表]**&#x200B;功能表。
 
-如果您看不到 **[!UICONTROL 報表]** 功能表，您的存取權必須擴充，以包含 **[!UICONTROL 檢視管道報表]** 許可權。 如果您有Adobe Experience Platform的存取權，可以擴充您自己的許可權 [許可權](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant){target="_blank"} 為您的組織所用。 如果沒有，請連絡您的Adobe Journey Optimizer管理員。
+如果您看不到&#x200B;**[!UICONTROL 報表]**&#x200B;功能表，必須擴充您的存取許可權以包含&#x200B;**[!UICONTROL 檢視管道報表]**&#x200B;許可權。 如果您擁有貴組織的Adobe Experience Platform [許可權](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant){target="_blank"}存取權，您可以擴充自己的許可權。 如果沒有，請連絡您的Adobe Journey Optimizer管理員。
 
 +++瞭解如何指派報表許可權
 
-請注意，此許可權包含在下列內建中 **[!UICONTROL 角色]**：促銷活動管理員、促銷活動核准者、促銷活動檢視者和促銷活動管理員。
+請注意，此許可權包含在下列內建&#x200B;**[!UICONTROL 角色]**&#x200B;中：行銷活動管理員、行銷活動核准者、行銷活動檢視者以及行銷活動管理員。
 
-若要將對應許可權指派給您的 **[!UICONTROL 角色]**：
+若要指派對應許可權給您的&#x200B;**[!UICONTROL 角色]**：
 
-1. 從 [!DNL Permissions] 產品，導覽至 **[!UICONTROL 角色]** 功能表，並選取您要使用新設定的角色 **[!UICONTROL 檢視管道報表]** 許可權。
+1. 從[!DNL Permissions]產品，瀏覽至&#x200B;**[!UICONTROL 角色]**&#x200B;功能表，並選取您要以新&#x200B;**[!UICONTROL 檢視管道報表]**&#x200B;許可權更新的角色。
 
-1. 從您的 **[!UICONTROL 角色]** 儀表板，按一下 **[!UICONTROL 編輯]**.
+1. 從您的&#x200B;**[!UICONTROL 角色]**&#x200B;儀表板，按一下&#x200B;**[!UICONTROL 編輯]**。
 
    ![](assets/channel_permission_1.png)
 
-1. 拖放 **[!UICONTROL 報表]** 指派許可權的資源。
+1. 拖放&#x200B;**[!UICONTROL 報表]**&#x200B;資源以指派許可權。
 
-   從 **[!UICONTROL 報告]** resource下拉式清單，選取 **[!UICONTROL 檢視管道報表]** 許可權。
+   從&#x200B;**[!UICONTROL 報表]**&#x200B;資源下拉式清單中，選取&#x200B;**[!UICONTROL 檢視管道報表]**&#x200B;許可權。
 
    ![](assets/channel_permission_2.png)
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-指派給此的使用者 **[!UICONTROL 角色]** 現在可以存取 **[!UICONTROL 報表]** 功能表。
+指派給此&#x200B;**[!UICONTROL 角色]**&#x200B;的使用者現在可以存取&#x200B;**[!UICONTROL 報表]**&#x200B;功能表。
 
 +++
 
@@ -57,21 +57,21 @@ ht-degree: 3%
 
 若要存取及管理您的管道報表，請遵循下列步驟：
 
-1. 導覽至 **[!UICONTROL 報表]** 功能表中的 **[!UICONTROL 歷程管理]** 區段。
+1. 導覽至&#x200B;**[!UICONTROL 歷程管理]**&#x200B;區段內的&#x200B;**[!UICONTROL 報表]**&#x200B;功能表。
 
    ![](assets/channel_report_1.png)
 
-1. 從您的控制面板中，選擇 **開始** 和 **[!UICONTROL 結束時間]** 以鎖定特定資料。
+1. 從您的儀表板，選擇&#x200B;**開始**&#x200B;和&#x200B;**[!UICONTROL 結束時間]**&#x200B;以鎖定特定資料。
 
-1. 從 **[!UICONTROL 動作來源]** 下拉式清單，選取您要鎖定促銷活動、歷程或兩者。
+1. 從&#x200B;]**的**[!UICONTROL &#x200B;動作下拉式清單中，選取您要鎖定促銷活動、歷程或兩者。
 
    ![](assets/channel_report_2.png)
 
-1. 按一下 **[!UICONTROL 修改]** 調整或移除Widget以建立符合您特定需求的儀表板。
+1. 按一下&#x200B;**[!UICONTROL 修改]**&#x200B;以調整大小或移除Widget，建立符合您特定需求的儀表板。
 
    ![](assets/channel_report_3.png)
 
-1. 在您滿意顯示順序和Widget的大小後，請按一下 **[!UICONTROL 儲存]**.
+1. 在您滿意顯示順序和Widget的大小後，請按一下&#x200B;**[!UICONTROL 儲存]**。
 
 1. 視Widget而定，您可以選擇從表格、長條圖或環形圖切換。
 
@@ -87,7 +87,7 @@ ht-degree: 3%
 
 >[!TAB 將報表匯出為PDF檔案]
 
-1. 在報表中，按一下 **[!UICONTROL 匯出]** 並選取 **[!UICONTROL PDF檔案]**.
+1. 在報表中按一下[匯出]，然後選取[PDF檔案]。********
 
 1. 在「列印」視窗中，視需要設定檔案。 請注意，選項可能會依您的瀏覽器而有所不同。
 
@@ -99,9 +99,9 @@ ht-degree: 3%
 
 >[!TAB 將報表匯出為CSV檔案]
 
-1. 在報表中，按一下 **[!UICONTROL 匯出]** 並選取 **[!UICONTROL CSV檔案]** 在整體報表層級產生CSV檔案。
+1. 從您的報表按一下[匯出]****，然後選取[CSV檔案]****&#x200B;來產生整體報表層級的CSV檔案。
 
-1. 您也可以選擇從特定Widget匯出資料。 按一下 **[!UICONTROL 將Widget資料匯出至CSV]** 位於選取的Widget旁。
+1. 您也可以選擇從特定Widget匯出資料。 按一下所選Widget旁的&#x200B;**[!UICONTROL 將Widget資料匯出至CSV]**。
 
 1. 您的檔案會自動下載，並位於您的本機檔案中。
 

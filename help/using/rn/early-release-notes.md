@@ -5,10 +5,11 @@ title: 發行說明
 description: Journey Optimizer 搶先發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 841122b9-04f6-4250-b0a5-e61f470787f7
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 73%
 
 ## 2024 年 4 月搶先發行說明 {#early-2024}
 
-**發行日期**：2024年5月2日
+**發行日期**：2024 年 5 月 2 日
 
 ### 新功能 {#early-features}
 
@@ -76,13 +77,13 @@ ht-degree: 73%
 <table>
 <thead>
 <tr>
-<th><strong>多媒體訊息服務(MMS) — 所有提供者</strong><br/></th>
+<th><strong>多媒體訊息服務 (MMS) - 所有提供者</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>透過簡訊管道，您現在可以傳送多媒體訊息服務 (MMS) 訊息，來與客戶分享影像、GIF 或影片，藉此增強通訊交流。 MMS最初僅適用於Sinch，現在也適用於Infobip和Twilio。</p>
+<p>透過簡訊管道，您現在可以傳送多媒體訊息服務 (MMS) 訊息，來與客戶分享影像、GIF 或影片，藉此增強通訊交流。 MMS 最初僅適用 Sinch，現在也適用 Infobip 與 Twilio。</p>
 <img src="assets/do-not-localize/mms.gif"/>
 </td>
 </tr>
@@ -92,17 +93,17 @@ ht-degree: 73%
 <table>
 <thead>
 <tr>
-<th><strong>改善歷程設計程式和即時報告</strong><br/></th>
+<th><strong>改善的歷程設計工具與即時報告</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>此版本隨附改善的畫布使用者介面以供歷程使用，並提供更直覺且有效率的使用者體驗。 活動更清晰明瞭，只需更少的點按次數就能在 Canvas 歷程上呈現更多資訊。</p>
+<p>此版本隨附改善的畫布使用者介面以供歷程使用，同時提供更直覺且有效率的使用者體驗。 活動更清晰明瞭，只需更少的點按次數就能在 Canvas 歷程上呈現更多資訊。</p>
 <img src="assets/new-canvas3.gif"/>
-<p>除了改良的歷程畫布設計，我們也引進了直接在歷程畫布中檢視過去24小時報告量度的功能。 </p>
+<p>除改善歷程畫布設計外，我們也引進了直接在歷程畫布檢視過去 24 小時報告量度的功能。 </p>
 <img src="assets/new-canvas6bis.png"/>
-<p><strong>注意</strong>：這些變更將會從4月發行版本開始在所有環境中逐步推出。</p>
+<p><strong>注意</strong>：這些變更將會從 4 月發布內容開始在所有環境逐步推出。</p>
 <p>如需詳細資訊，請參閱<a href="new-canvas.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -195,5 +196,5 @@ From beta to LA, the following improvements that have been added:
 
 **設定**
 
-* 您現在可以在通道表面層級選取行銷動作。在表面中使用時，會運用與該行銷動作相關的所有同意政策，以尊重客戶的偏好設定。
+* 您現在可以在管道表面層級選取行銷動作。在表面中使用時，會運用與該行銷動作相關的所有同意政策，以尊重客戶的偏好設定。
 * 現在管道介面可以使用「物件層級存取控制」。

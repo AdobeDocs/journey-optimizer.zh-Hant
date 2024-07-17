@@ -12,29 +12,29 @@ exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 關於ExperienceEvent綱要 [!DNL Journey Optimizer] 活動 {#about-experienceevent-schemas}
+# 關於[!DNL Journey Optimizer]事件的ExperienceEvent結構描述 {#about-experienceevent-schemas}
 
-[!DNL Journey Optimizer] 事件是指透過串流擷取傳送至Adobe Experience Platform的XDM體驗事件。
+[!DNL Journey Optimizer]事件是指透過串流擷取傳送至Adobe Experience Platform的XDM體驗事件。
 
-因此，設定事件的重要先決條件 [!DNL Journey Optimizer] 您是否熟悉Adobe Experience Platform的Experience Data Model （或XDM）、如何組成XDM Experience Event結構，以及如何將XDM格式的資料串流到Adobe Experience Platform。
+因此，為[!DNL Journey Optimizer]設定事件的重要先決條件是，您熟悉Adobe Experience Platform的體驗資料模型（或XDM）、如何組成XDM體驗事件結構，以及如何將XDM格式的資料串流到Adobe Experience Platform。
 
-## 的結構描述需求 [!DNL Journey Optimizer] 活動  {#schema-requirements}
+## [!DNL Journey Optimizer]個事件的結構描述需求  {#schema-requirements}
 
-設定事件的第一步 [!DNL Journey Optimizer] 是用來確保您已定義代表事件的XDM結構描述，且已建立資料集以記錄Adobe Experience Platform上的事件例項。 嚴格來說，沒有必要為事件建立資料集，但將事件傳送至特定資料集可讓您維護使用者的事件歷史記錄，以供日後參考和分析，因此總是不錯的做法。 如果您還沒有適合事件的結構描述和資料集，這兩項工作都可以在Adobe Experience Platform網頁介面中完成。
+為[!DNL Journey Optimizer]設定事件的第一步是確保您已定義代表該事件的XDM結構描述，以及已建立資料集以在Adobe Experience Platform上記錄該事件的執行個體。 嚴格來說，沒有必要為事件建立資料集，但將事件傳送至特定資料集可讓您維護使用者的事件歷史記錄，以供日後參考和分析，因此總是不錯的做法。 如果您還沒有適合事件的結構描述和資料集，這兩項工作都可以在Adobe Experience Platform網頁介面中完成。
 
 ![](assets/schema1.png)
 
-任何將用於下列XDM結構描述： [!DNL Journey Optimizer] 事件應符合下列需求：
+將用於[!DNL Journey Optimizer]事件的任何XDM結構描述都應符合下列要求：
 
 * 結構描述必須是XDM ExperienceEvent類別。
 
   ![](assets/schema2.png)
 
-* 對於系統產生的事件，結構描述必須包括Orchestration eventID欄位群組。 [!DNL Journey Optimizer] 使用此欄位來識別歷程中使用的事件。
+* 對於系統產生的事件，結構描述必須包括Orchestration eventID欄位群組。 [!DNL Journey Optimizer]使用此欄位來識別歷程中使用的事件。
 
   ![](assets/schema3.png)
 
@@ -72,14 +72,14 @@ Adobe Experience Platform可讓您定義結構描述之間的關係，以便將�
 
 >[!NOTE]
 >
->進一步瞭解中的結構描述關係 [Experience Platform檔案](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=zh-Hant).
+>在[Experience Platform檔案](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=zh-Hant)中進一步瞭解結構描述關係。
 
 在Journey Optimizer中，您可以善用連結表格中的所有欄位：
 
-* 設定企業或單一事件時， [閱讀全文](../event/experience-event-schema.md#unitary_event_configuration)
-* 在歷程中使用條件時， [閱讀全文](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* 在訊息個人化中， [閱讀全文](../event/experience-event-schema.md#message_personalization)
-* 在自訂動作個人化中， [閱讀全文](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* 設定商務或單一事件時，[瞭解詳情](../event/experience-event-schema.md#unitary_event_configuration)
+* 在歷程中使用條件時，[瞭解詳情](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* 在訊息個人化中，[瞭解詳情](../event/experience-event-schema.md#message_personalization)
+* 在自訂動作個人化中，[瞭解詳情](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
 ### 陣列{#relationships_limitations}
 
@@ -87,7 +87,7 @@ Adobe Experience Platform可讓您定義結構描述之間的關係，以便將�
 
 ![](assets/schema15.png)
 
-您也可以與物件陣列內部的屬性定義結構描述關係，例如購買資訊清單（產品ID、產品名稱、價格、折扣）。 查閱值將在歷程（條件、自訂動作等）中使用 和訊息個人化。
+您也可以與物件陣列內部的屬性定義結構描述關係，例如購買資訊清單（產品ID、產品名稱、價格、折扣）。 查閱值將在歷程 (條件、自訂動作等) 和訊息個人化。
 
 ![](assets/schema16.png)
 
@@ -105,7 +105,7 @@ Adobe Experience Platform可讓您定義結構描述之間的關係，以便將�
 * 在事件索引鍵公式中
 * 在事件id條件中（規則型事件）
 
-若要瞭解如何設定單一事件，請參閱此 [頁面](../event/about-creating.md).
+若要瞭解如何設定單一事件，請參閱此[頁面](../event/about-creating.md)。
 
 ### 使用事件內容的歷程條件{#journey_conditions_using_event_context}
 
@@ -115,7 +115,7 @@ Adobe Experience Platform可讓您定義結構描述之間的關係，以便將�
 
 ![](assets/schema12.png)
 
-若要瞭解如何定義歷程條件，請參閱此 [頁面](../building-journeys/condition-activity.md).
+若要瞭解如何定義歷程條件，請參閱此[頁面](../building-journeys/condition-activity.md)。
 
 ### 訊息個人化{#message_personalization}
 
@@ -123,7 +123,7 @@ Adobe Experience Platform可讓您定義結構描述之間的關係，以便將�
 
 ![](assets/schema14.png)
 
-若要瞭解如何使用內容歷程資訊個人化訊息，請參閱此 [頁面](../personalization/personalization-use-case.md).
+若要瞭解如何使用內容歷程資訊個人化訊息，請參閱此[頁面](../personalization/personalization-use-case.md)。
 
 ### 使用歷程事件內容進行自訂動作個人化{#custom_action_personalization_with_journey_event_context}
 
@@ -131,4 +131,4 @@ Adobe Experience Platform可讓您定義結構描述之間的關係，以便將�
 
 ![](assets/schema13.png)
 
-若要瞭解如何使用自訂動作，請參閱本節 [頁面](../building-journeys/using-custom-actions.md).
+若要瞭解如何使用自訂動作，請參閱此[頁面](../building-journeys/using-custom-actions.md)。

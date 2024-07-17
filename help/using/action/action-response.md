@@ -94,7 +94,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. 建立自訂動作。 請參見[此頁面](../action/about-custom-action-configuration.md)。
 
-1. 按一下 **回應** 欄位。
+1. 在&#x200B;**回應**&#x200B;欄位內按一下。
 
    ![](assets/action-response2.png){width="80%" align="left"}
 
@@ -127,15 +127,15 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. 新增您的事件和先前建立的熟客方案自訂動作。
 
-1. 在忠誠度自訂動作中，將客戶ID查詢引數對應至設定檔ID。 核取選項 **在逾時或錯誤的情況下新增替代路徑**.
+1. 在忠誠度自訂動作中，將客戶ID查詢引數對應至設定檔ID。 核取選項&#x200B;**在逾時或錯誤的情況下新增替代路徑**。
 
    ![](assets/action-response10.png)
 
-1. 在第一個分支中，新增條件並使用進階編輯器在 **內容** 節點。
+1. 在第一個分支中，新增條件並使用進階編輯器在&#x200B;**Context**&#x200B;節點下運用動作回應欄位。
 
    ![](assets/action-response6.png)
 
-1. 然後新增推播，並使用回應欄位個人化您的訊息。 在範例中，我們使用忠誠度點數和客戶狀態來個人化內容。 動作回應欄位位於 **內容屬性** > **Journey Orchestration** > **動作**.
+1. 然後新增推播，並使用回應欄位個人化您的訊息。 在範例中，我們使用忠誠度點數和客戶狀態來個人化內容。 動作回應欄位位於&#x200B;**內容屬性** > **Journey Orchestration** > **動作**&#x200B;下。
 
    ![](assets/action-response8.png)
 
@@ -143,8 +143,8 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    >
    >每個輸入自訂動作的設定檔都會觸發呼叫。 即使回應一律相同，歷程仍會為每個設定檔執行一個呼叫。
 
-1. 在逾時和錯誤分支中，新增條件並利用內建 **jo_status_code** 欄位。 在我們的範例中，我們使用
-   **http_400** 錯誤型別。 請參閱[本節](#error-status)。
+1. 在逾時和錯誤分支中，新增條件並利用內建的&#x200B;**jo_status_code**欄位。 在我們的範例中，我們使用
+   **http_400**&#x200B;錯誤型別。 請參閱[本節](#error-status)。
 
    ```
    @action{ActionLoyalty.jo_status_code} == "http_400"
@@ -158,26 +158,26 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 ## 測試模式記錄 {#test-mode-logs}
 
-您可以透過測試模式存取與自訂動作回應相關的狀態記錄。 如果您已在歷程中定義具有回應的自訂動作，您將會看到 **actionsHistory** 區段來顯示外部端點傳回的裝載（作為該自訂動作的回應）。 這在偵錯方面可能非常有用。
+您可以透過測試模式存取與自訂動作回應相關的狀態記錄。 如果您已在歷程中定義具有回應的自訂動作，您將會在這些記錄上看到&#x200B;**actionsHistory**&#x200B;區段，其中顯示外部端點傳回的裝載（作為該自訂動作的回應）。 這在偵錯方面可能非常有用。
 
 ![](assets/action-response12.png)
 
 ## 錯誤狀態 {#error-status}
 
-此 **jo_status_code** 欄位一律可用，即使未定義回應裝載亦然。
+**jo_status_code**&#x200B;欄位一律可用，即使未定義任何回應裝載。
 
 以下是此欄位可能的值：
 
-* http狀態碼： http_`<HTTP API call returned code>`，例如http_200或http_400
+* http狀態代碼： http_`<HTTP API call returned code>`，適用於執行個體http_200或http_400
 * 逾時錯誤： **逾時**
 * 上限設定錯誤： **上限**
-* 內部錯誤： **internalError**
+* 內部錯誤： **內部錯誤**
 
 當傳回的http程式碼大於2xx或發生錯誤時，會將動作呼叫視為錯誤。 在這種情況下，歷程會流向專用逾時或錯誤分支。
 
 >[!WARNING]
 >
->只有新建立的自訂動作包含 **jo_status_code** 現成欄位。 如果您想要將其用於現有的自訂動作，則需要更新動作。 例如，您可以更新說明並儲存。
+>只有新建立的自訂動作才會包含立即可用的&#x200B;**jo_status_code**&#x200B;欄位。 如果您想要將其用於現有的自訂動作，則需要更新動作。 例如，您可以更新說明並儲存。
 
 ## 運算式語法 {#exp-syntax}
 
@@ -202,7 +202,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
  @action{ActionLoyalty.points, defaultValue: @event{myEvent.newPoints}}
 ```
 
-在自訂動作回應中操控集合時，您可以依賴 `currentActionField` 若要存取目前專案，請執行下列動作：
+在自訂動作回應中操控集合時，您可以仰賴`currentActionField`存取目前專案：
 
 ```json
 count(
@@ -216,5 +216,5 @@ currentActionField.description == "abc"
 
 如需詳細資訊，請參閱以下頁面：
 
-* [欄位參考](../building-journeys/expression/field-references.md).
-* [收集管理函式](../building-journeys/expression/collection-management-functions.md)
+* [欄位參考](../building-journeys/expression/field-references.md)。
+* [集合管理功能](../building-journeys/expression/collection-management-functions.md)

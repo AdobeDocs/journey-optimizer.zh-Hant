@@ -12,7 +12,7 @@ exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 55%
+ht-degree: 54%
 
 ---
 
@@ -23,35 +23,35 @@ ht-degree: 55%
 [!DNL Journey Optimizer] 可讓您將執行個體分割到名為沙箱的個別虛擬環境中。沙箱是透過許可權中的角色指派。 [瞭解如何指派 sandbox](permissions.md#create-product-profile)。
 
 [!DNL Journey Optimizer] 反映針對指定組織建立的 Adobe Experience Platform sandbox。
-可從 Adobe Experience Platform 執行個體建立或重設 Adobe Experience Platform sandbox。[進一步瞭解sandbox使用手冊](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target="_blank"}.
+可從 Adobe Experience Platform 執行個體建立或重設 Adobe Experience Platform sandbox。[在沙箱使用手冊中瞭解更多](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target="_blank"}。
 
 您可以在熒幕右上角組織名稱旁找到沙箱切換器控制項。 若要從一個沙箱切換至另一個沙箱，請按一下切換器中目前作用中的沙箱，然後從下拉式清單中選取另一個沙箱。
 
 ![](assets/sandbox_5.png)
 
-➡️ [在本影片中進一步瞭解沙箱](#video)
+➡️[在此影片中進一步瞭解沙箱](#video)
 
 ## 指派沙箱 {#assign-sandboxes}
 
 >[!IMPORTANT]
 >
-> 沙箱管理只能由執行 **[!UICONTROL 產品]** 或 **[!UICONTROL 系統]** 管理員。
+> 沙箱管理只能由&#x200B;**[!UICONTROL 產品]**&#x200B;或&#x200B;**[!UICONTROL 系統]**&#x200B;管理員執行。
 
-您可以選擇將不同的沙箱指派給現成可用的或自訂的 **[!UICONTROL 角色]**.
+您可以選擇將不同的沙箱指派給現成或自訂&#x200B;**[!UICONTROL 角色]**。
 
 若要指派沙箱：
 
-1. 在 [!DNL Permissions]，來自 **[!UICONTROL 角色]** 索引標籤，選取 **[!UICONTROL 角色]**.
+1. 在[!DNL Permissions]中，從&#x200B;**[!UICONTROL 角色]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL 角色]**。
 
    ![](assets/sandbox_1.png)
 
 1. 按一下&#x200B;**[!UICONTROL 編輯]**。
 
-1. 從 **[!UICONTROL 沙箱]** resource下拉式清單，選取將指派給您角色的沙箱。
+1. 從&#x200B;**[!UICONTROL 沙箱]**&#x200B;資源下拉式清單中，選取將指派給您角色的沙箱。
 
    ![](assets/sandbox_3.png)
 
-1. 如有需要，請按一下旁邊的X圖示，以移除對您的存取沙箱的許可權 **[!UICONTROL 角色]**.
+1. 如有需要，請按一下旁邊的X圖示，移除沙箱對您的&#x200B;**[!UICONTROL 角色]**&#x200B;的存取權。
 
    ![](assets/sandbox_4.png)
 
@@ -59,13 +59,13 @@ ht-degree: 55%
 
 ## 存取內容 {#content-access}
 
-若要設定內容協助功能，您必須將內容共用資料夾指派給每個 sandbox。 您可以在「 」中建立和設定共用資料夾 **[!UICONTROL 儲存]** 標籤顯示在 [!DNL Admin Console] 適用於管理員。 如果您以系統管理員的身份可以存取[!DNL Admin Console]，則可以建立共用資料夾，並將具有不同存取等級的指派新增到共用資料夾。
+若要設定內容協助功能，您必須將內容共用資料夾指派給每個 sandbox。 您可以在[!DNL Admin Console]中顯示的&#x200B;**[!UICONTROL 儲存體]**&#x200B;索引標籤中，為管理員建立和設定共用資料夾。 如果您以系統管理員的身份可以存取[!DNL Admin Console]，則可以建立共用資料夾，並將具有不同存取等級的指派新增到共用資料夾。
 
 ![](assets/do-not-localize/content_access.png)
 
 請注意，若要讓內容與正確的 sandbox 同步，您必須遵循與 sandbox 相同的語法，例如，如果您的 sandbox 被稱為開發，您的共用資料夾應具有相同的名稱。
 
-[瞭解如何管理共用資料夾](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}.
+[瞭解如何管理共用資料夾](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}。
 
 ## 操作說明影片{#video}
 

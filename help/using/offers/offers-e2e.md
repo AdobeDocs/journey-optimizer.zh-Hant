@@ -21,7 +21,7 @@ ht-degree: 4%
 
 設定優惠（包含在決定中）並在電子郵件中利用此決定的關鍵步驟如下所示：
 
-1. 建立優惠方案之前， [定義您的元件](#define-components)
+1. 在建立優惠方案之前，[定義您的元件](#define-components)
 
    * 建立位置
    * 建立決定規則
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 1. [設定優惠方案](#configure-offers)
 
-   * 建立優惠方案
+   * 建立優惠
    * 對於每個選件：
 
       * 建立表示，並為每個表示選取版位和資產
@@ -39,7 +39,7 @@ ht-degree: 4%
 
 1. [建立遞補優惠](#create-fallback)
 
-1. [建立集合](#create-collection) 以包含您建立的個人化優惠方案
+1. [建立集合](#create-collection)以包含您建立的個人化優惠
 
 1. [設定決定](#configure-decision)
 
@@ -63,9 +63,9 @@ ht-degree: 4%
 
 在開始建立優惠方案之前，您必須定義要在優惠方案中使用的數個元件。
 
-您會在 **[!UICONTROL 決定管理]** > **[!UICONTROL 元件功能表]**.
+您會在&#x200B;**[!UICONTROL 決定管理]** > **[!UICONTROL 元件功能表]**&#x200B;下找到它們。
 
-1. 從建立開始 **版位** 以取得優惠。
+1. 首先，請為您的優惠方案建立&#x200B;**版位**。
 
    您將使用這些位置來定義定義定義優惠決定時，產生的優惠將顯示在何處。
 
@@ -77,38 +77,38 @@ ht-degree: 4%
 
    ![](assets/offers-e2e-placements.png)
 
-   建立刊登版位的詳細步驟已說明於 [本節](../../using/offers/offer-library/creating-placements.md).
+   建立版位的詳細步驟在[本節](../../using/offers/offer-library/creating-placements.md)中說明。
 
-1. 建立 **決定規則**.
+1. 建立&#x200B;**決定規則**。
 
    決定規則會為Adobe Experience Platform中的設定檔提供最佳優惠。
 
-   使用設定兩個簡單規則 **[!UICONTROL XDM個人設定檔>人員>性別]** 屬性：
+   使用&#x200B;**[!UICONTROL XDM個人設定檔>人員>性別]**&#x200B;屬性來設定兩個簡單規則：
 
    * *女性客戶*
    * *男性客戶*
 
    ![](assets/offers-e2e-rules.png)
 
-   建立規則的詳細步驟如下所述： [本節](../../using/offers/offer-library/creating-decision-rules.md).
+   建立規則的詳細步驟在[本節](../../using/offers/offer-library/creating-decision-rules.md)中說明。
 
-1. 您也可以建立 **集合限定詞**.
+1. 您也可以建立&#x200B;**集合限定詞**。
 
    然後，您就可以將其與優惠方案建立關聯，並使用此集合限定詞將優惠方案分組到集合中。
 
-   在此範例中，建立 *瑜伽* 集合限定詞。
+   在此範例中，建立&#x200B;*Yoga*&#x200B;集合限定詞。
 
    ![](assets/offers-e2e-tag.png)
 
-   建立集合限定詞的詳細步驟如下所述： [本節](../../using/offers/offer-library/creating-tags.md).
+   建立集合限定詞的詳細步驟在[本節](../../using/offers/offer-library/creating-tags.md)中說明。
 
-1. 如果您想要定義規則，以決定應先針對指定位置顯示哪個優惠方案（而不是考慮優惠方案的優先順序分數），您可以建立 **排名公式**.
+1. 如果您想要定義規則，以決定應先針對指定位置顯示哪個優惠（而不是考慮優惠的優先順序分數），您可以建立&#x200B;**排名公式**。
 
-   建立排名公式的詳細步驟如下所述： [本節](../../using/offers/ranking/create-ranking-formulas.md#create-ranking-formula).
+   建立排名公式的詳細步驟在[本節](../../using/offers/ranking/create-ranking-formulas.md#create-ranking-formula)中說明。
 
    >[!NOTE]
    >
-   >在此範例中，我們將僅使用優先順序分數。 進一步瞭解 [適用規則和限制](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
+   >在此範例中，我們將僅使用優先順序分數。 深入瞭解[適用性規則和限制](../../using/offers/offer-library/creating-personalized-offers.md#eligibility)。
 
 ## 設定優惠方案 {#configure-offers}
 
@@ -118,27 +118,27 @@ ht-degree: 4%
 
 1. 在此優惠中，建立三個代表。 每個表示都必須是您先前建立的版位與資產的組合：
 
-   * 對應至 *網頁 — 影像* 刊登
-   * 對應至 *電子郵件 — 影像* 刊登
-   * 對應至 *非數位 — 文字* 刊登
+   * 與&#x200B;*網頁 — 影像*&#x200B;位置相對應的專案
+   * 一個對應至&#x200B;*電子郵件 — 影像*&#x200B;位置
+   * 與&#x200B;*非數位 — 文字*&#x200B;位置相對應的專案
 
    >[!NOTE]
    >
    >優惠方案可顯示在訊息中的不同位置，以創造更多機會，讓使用者在不同的位置內容中使用優惠方案。
 
-   進一步瞭解中的表示方式 [本節](../../using/offers/offer-library/creating-personalized-offers.md#representations).
+   在[本節](../../using/offers/offer-library/creating-personalized-offers.md#representations)中進一步瞭解代表。
 
-1. 選取前兩個位置的適當影像。 輸入自訂文字 *非數位 — 文字* 位置。
+1. 選取前兩個位置的適當影像。 輸入&#x200B;*非數位 — 文字*&#x200B;位置的自訂文字。
 
    ![](assets/offers-e2e-representations.png)
 
-1. 在 **[!UICONTROL 優惠資格]** 區段，選取 **[!UICONTROL 依定義的決定規則]** 並拖放您選擇的規則。
+1. 在&#x200B;**[!UICONTROL 優惠資格]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 依定義的決定規則]**，並拖放您選擇的規則。
 
    ![](assets/offers-e2e-eligibility.png)
 
-1. 填寫 **[!UICONTROL 優先順序]**. 在此範例中，新增 *25*.
+1. 填寫&#x200B;**[!UICONTROL 優先順序]**。 在此範例中，新增&#x200B;*25*。
 
-1. 檢閱您的選件，然後按一下 **[!UICONTROL 儲存並核准]**.
+1. 檢閱您的選件，然後按一下&#x200B;**[!UICONTROL 儲存並核准]**。
 
    ![](assets/offers-e2e-review.png)
 
@@ -151,7 +151,7 @@ ht-degree: 4%
 
    ![](assets/offers-e2e-offers-created.png)
 
-建立和設定優惠方案的詳細步驟已說明於 [本節](../../using/offers/offer-library/creating-personalized-offers.md).
+建立和設定優惠方案的詳細步驟在[本節](../../using/offers/offer-library/creating-personalized-offers.md)中說明。
 
 ## 建立遞補優惠 {#create-fallback}
 
@@ -161,19 +161,19 @@ ht-degree: 4%
 
    每個表示都必須是您先前建立的版位與資產的組合：
 
-   * 對應至 *網頁 — 影像* 刊登
-   * 對應至 *電子郵件 — 影像* 刊登
-   * 對應至 *非數位 — 文字* 刊登
+   * 與&#x200B;*網頁 — 影像*&#x200B;位置相對應的專案
+   * 一個對應至&#x200B;*電子郵件 — 影像*&#x200B;位置
+   * 與&#x200B;*非數位 — 文字*&#x200B;位置相對應的專案
 
    ![](assets/offers-e2e-fallback-representations.png)
 
-1. 檢閱您的遞補優惠，然後按一下 **[!UICONTROL 儲存並核准]**.
+1. 檢閱您的遞補優惠，然後按一下[儲存並核准]。****
 
 ![](assets/offers-e2e-fallback.png)
 
 您的遞補優惠現在已準備好用於決定中。
 
-建立和設定遞補優惠方案的詳細步驟已說明於 [本節](../../using/offers/offer-library/creating-fallback-offers.md).
+建立及設定遞補優惠方案的詳細步驟在[本節](../../using/offers/offer-library/creating-fallback-offers.md)中說明。
 
 ## 建立集合 {#create-collection}
 
@@ -181,11 +181,11 @@ ht-degree: 4%
 
 1. 若要加快決策流程，請建立動態集合。
 
-1. 使用 *瑜伽* 集合限定詞以選取您先前建立的四個個人化優惠方案。
+1. 使用&#x200B;*Yoga*&#x200B;集合限定詞來選取您先前建立的四個個人化優惠。
 
    ![](assets/offers-e2e-collection-using-tag.png)
 
-建立集合的詳細步驟如下所述： [本節](../../using/offers/offer-library/creating-collections.md).
+建立集合的詳細步驟在[本節](../../using/offers/offer-library/creating-collections.md)中說明。
 
 ## 設定決定 {#configure-decision}
 
@@ -197,7 +197,7 @@ ht-degree: 4%
 
 1. 建立決定。 請參閱[此章節](../../using/offers/offer-activities/create-offer-activities.md#create-activity)深入瞭解。
 
-1. 選取 *網頁 — 影像*， *電子郵件 — 影像* 和 *非數位 — 文字* 版位。
+1. 選取&#x200B;*網頁 — 影像*、*電子郵件 — 影像*&#x200B;和&#x200B;*非數位 — 文字*&#x200B;位置。
 
    ![](assets/offers-e2e-decision-placements.png)
 
@@ -205,24 +205,24 @@ ht-degree: 4%
 
    ![](assets/offers-e2e-decision-collection.png)
 
-1. 如果您定義排名時機 [建置元件](#define-components)，您可以將它指派給決定中的位置。 如果在此位置中符合顯示多個優惠方案的資格，決策會使用此公式來計算要先傳送哪個優惠方案。
+1. 如果您在[建置您的元件](#define-components)時定義了排名，您可以將其指派給決定中的位置。 如果在此位置中符合顯示多個優惠方案的資格，決策會使用此公式來計算要先傳送哪個優惠方案。
 
-   將排名公式指派給位置的詳細步驟如下所述： [本節](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula).
+   指派排名公式給位置的詳細步驟在[本節](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula)中說明。
 
 1. 選取您建立的遞補優惠。 它將顯示為三個選定位置的可用遞補優惠。
 
    ![](assets/offers-e2e-decision-fallback.png)
 
-1. 檢閱您的決定，然後按一下 **[!UICONTROL 儲存並核准]**.
+1. 檢閱您的決定，然後按一下&#x200B;**[!UICONTROL [儲存並核准]]**。
 
    ![](assets/offers-e2e-review-decision.png)
 
 您的決定現在已準備好用於提供最佳化和個人化優惠。
 
-建立和設定決策的詳細步驟已詳述，請參閱 [本節](../../using/offers/offer-activities/create-offer-activities.md).
+建立及設定決定的詳細步驟在[本節](../../using/offers/offer-activities/create-offer-activities.md)中說明。
 
 ## 在電子郵件中插入決定 {#insert-decision-in-email}
 
-現在您的決定已上線，您可以將其插入電子郵件訊息。 要執行此操作，請遵循中詳述的步驟 [此頁面](../../using/email/add-offers-email.md).
+現在您的決定已上線，您可以將其插入電子郵件訊息。 若要這麼做，請依照[此頁面](../../using/email/add-offers-email.md)中詳述的步驟操作。
 
 ![](assets/offers-e2e-offers-displayed.png)

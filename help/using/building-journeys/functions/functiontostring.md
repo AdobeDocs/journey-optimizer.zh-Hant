@@ -16,7 +16,7 @@ ht-degree: 7%
 
 # toString {#toString}
 
-根據其型別，將引數值轉換為字串值。 如需資料型別的詳細資訊，請參閱 [此頁面](../expression/data-types.md).
+根據其型別，將引數值轉換為字串值。 如需資料型別的詳細資訊，請參閱[此頁面](../expression/data-types.md)。
 
 ## 類別
 

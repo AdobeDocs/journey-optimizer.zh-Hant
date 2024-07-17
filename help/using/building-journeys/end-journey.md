@@ -20,13 +20,13 @@ ht-degree: 1%
 歷程可以在兩個特定情境中為個人結束：
 
 * 該人員到達路徑的最後一個活動。
-* 人員到達 **條件** 活動(或 **等待** 活動（含條件），且不符合任何條件。
+* 該人員到達&#x200B;**條件**&#x200B;活動（或具有條件的&#x200B;**等待**&#x200B;活動），且不符合任何條件。
 
-如果允許重新進入，則人員可以重新進入歷程。 另請參閱 [此頁面](../building-journeys/journey-properties.md#entrance)
+如果允許重新進入，則人員可以重新進入歷程。 檢視[此頁面](../building-journeys/journey-properties.md#entrance)
 
-若要終止即時歷程，建議您將其關閉。 接著，歷程中的新客戶將遭到封鎖。 已進入歷程的客戶能夠體驗到結束。 另請參閱 [本節](../building-journeys/journey.md#close-journey)
+若要終止即時歷程，建議您將其關閉。 接著，歷程中的新客戶將遭到封鎖。 已進入歷程的客戶能夠體驗到結束。 請參閱[此節](../building-journeys/journey.md#close-journey)
 
-只有在發生緊急狀況且所有處理作業需要在歷程中立即結束時，您才能停止歷程。 已進入歷程的人員都在進度中停止。 另請參閱 [本節](../building-journeys/journey.md#stop-journey)
+只有在發生緊急狀況且所有處理作業需要在歷程中立即結束時，您才能停止歷程。 已進入歷程的人員都在進度中停止。 請參閱[此節](../building-journeys/journey.md#stop-journey)
 
 >[!NOTE]
 >
@@ -52,30 +52,30 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 
 歷程可以關閉，原因如下：
 
-* 歷程已透過手動關閉 **[!UICONTROL 關閉新入口]** 按鈕。
+* 歷程已透過&#x200B;**[!UICONTROL 關閉新入口]**&#x200B;按鈕手動關閉。
 * 已完成的單次區段型歷程。
 * 在最後一次發生循環對象型歷程之後。
 
-手動關閉歷程可確保已進入歷程的客戶完成其路徑，但新使用者無法進入歷程。 歷程關閉時（基於上述任何原因），會有狀態 **[!UICONTROL 已關閉]**. 歷程停止讓新個人進入歷程。 已在歷程中的人可以正常完成歷程。
+手動關閉歷程可確保已進入歷程的客戶完成其路徑，但新使用者無法進入歷程。 歷程關閉時（基於上述任何原因），其狀態為&#x200B;**[!UICONTROL 已關閉]**。 歷程停止讓新個人進入歷程。 已在歷程中的人可以正常完成歷程。
 
-91天後 [全域逾時](journey-properties.md#timeout)，讀取對象歷程會切換至 **已完成** 狀態。 此行為僅設定91天(即 [歷程全域逾時值](journey-properties.md#global_timeout))，因為有關進入歷程的設定檔的所有資訊都會在進入91天後移除。 仍在歷程中的人員會自動受到影響。 他們在91天逾時後退出歷程。
+在91天[全域逾時](journey-properties.md#timeout)後，「讀取」對象歷程會切換為&#x200B;**已完成**&#x200B;狀態。 此行為僅設定91天（即[歷程全域逾時值](journey-properties.md#global_timeout)），因為有關進入歷程的設定檔的所有資訊都會在進入91天後移除。 仍在歷程中的人員會自動受到影響。 他們在91天逾時後退出歷程。
 
 請參閱[本章節](../building-journeys/journey-properties.md#global_timeout)。
 
 無法重新啟動或刪除已關閉的歷程版本。 您可以建立其新版本或加以複製。 只能刪除已完成的歷程。
 
-若要從歷程清單關閉歷程，請按一下 **[!UICONTROL 省略符號]** 位於歷程名稱右側的按鈕並選取 **[!UICONTROL 關閉新入口]**.
+若要從歷程清單關閉歷程，請按一下歷程名稱右側的&#x200B;**[!UICONTROL 省略符號]**&#x200B;按鈕，並選取&#x200B;**[!UICONTROL 關閉新入口]**。
 
 ![](assets/journey-finish-quick-action.png)
 
 您也可以：
 
-1. 在 **[!UICONTROL 歷程]** 清單中，按一下您要關閉的歷程。
+1. 在&#x200B;**[!UICONTROL 歷程]**&#x200B;清單中，按一下您要關閉的歷程。
 1. 在右上方，按一下向下箭頭。
 
    ![](assets/finish_drop_down_list.png)
 
-1. 按一下 **[!UICONTROL 關閉新入口]**，並在對話方塊中確認。
+1. 按一下&#x200B;**[!UICONTROL 關閉新入口]**，然後在對話方塊中確認。
 
 ## 停止歷程{#stop-journey}
 
@@ -83,17 +83,17 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 
 無法重新啟動停止的歷程版本。
 
-停止時，歷程狀態會設為 **[!UICONTROL 已停止]**.
+停止時，歷程狀態會設為&#x200B;**[!UICONTROL 已停止]**。
 
-例如，如果行銷人員發現歷程鎖定了錯誤的對象，或應該傳送訊息的自訂動作無法正常運作，則可以停止歷程。 若要從歷程清單停止歷程，請按一下 **[!UICONTROL 省略符號]** 位於歷程名稱右側的按鈕並選取 **[!UICONTROL 停止]**.
+例如，如果行銷人員發現歷程鎖定了錯誤的對象，或應該傳送訊息的自訂動作無法正常運作，則可以停止歷程。 若要從歷程清單停止歷程，請按一下歷程名稱右側的&#x200B;**[!UICONTROL 省略符號]**&#x200B;按鈕，並選取&#x200B;**[!UICONTROL 停止]**。
 
 ![](assets/journey-finish-quick-action.png)
 
 您也可以：
 
-1. 在 **[!UICONTROL 歷程]** 清單中，按一下您要停止的歷程。
+1. 在&#x200B;**[!UICONTROL 歷程]**&#x200B;清單中，按一下您要停止的歷程。
 1. 在右上方，按一下向下箭頭。
 
    ![](assets/finish_drop_down_list2.png)
 
-1. 按一下 **[!UICONTROL 停止]**，並在對話方塊中確認。
+1. 按一下&#x200B;**[!UICONTROL 停止]**，然後在對話方塊中確認。

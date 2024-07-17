@@ -9,7 +9,7 @@ exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 8%
 
 您可以透過向選件程式庫API發出PATCH要求來修改或更新集合限定詞（先前稱為「標籤」）。
 
-如需JSON修補程式的詳細資訊，包括可用的作業，請參閱官方檔案 [JSON修補程式檔案](https://jsonpatch.com/).
+如需JSON修補程式的詳細資訊，包括可用的作業，請參閱官方[JSON修補程式檔案](https://jsonpatch.com/)。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示包含 *Content-Type* 請求標頭中的欄位：
+下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;欄位的有效值：
 
-| 頁首名稱 | 值 |
+| 標題名稱 | 值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
 
@@ -64,7 +64,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **回應**
 
-成功的回應會傳回收集限定詞的更新詳細資料，包括其唯一 `id`.
+成功的回應會傳回集合限定詞的更新詳細資料，包括其唯一的`id`。
 
 ```json
 {

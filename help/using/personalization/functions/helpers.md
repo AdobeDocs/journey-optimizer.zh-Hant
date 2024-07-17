@@ -9,7 +9,7 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 7e7ff2f6451947d4d52efb2963d940ba3f50819f
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## 預設遞補值{#default-value}
 
-此 `Default Fallback Value` 如果屬性為空白或null，會使用helper傳回預設後援值。 此機制適用於設定檔屬性和歷程事件。
+如果屬性為空白或null，則會使用`Default Fallback Value`協助程式傳回預裝置援值。 此機制適用於設定檔屬性和歷程事件。
 
 **語法**
 
@@ -25,11 +25,11 @@ ht-degree: 4%
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-在此範例中，值 `there` 顯示條件為 `firstName` 此設定檔的屬性是空的或null。
+在此範例中，如果此設定檔的`firstName`屬性為空白或Null，則會顯示值`there`。
 
 ## 條件{#if-function}
 
-此 `if` 協助程式用於定義條件區塊。
+`if`協助程式用於定義條件區塊。
 如果運算式評估傳回true，則會轉譯區塊，否則會略過該區塊。
 
 **語法**
@@ -39,8 +39,8 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-遵循 `if` 協助程式，您可以輸入 `else` 陳述式，指定要在相同條件為false時執行的程式碼區塊。
-此 `elseif` 陳述式會指定新條件來測試第一個陳述式是否傳回false。
+在`if`協助程式之後，您可以輸入`else`陳述式，以指定要執行的程式碼區塊（如果相同條件為false）。
+`elseif`陳述式將指定新條件來測試第一個陳述式是否傳回false。
 
 
 **格式**
@@ -58,7 +58,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 **範例**
 
-1. **根據條件運算式轉譯不同的存放區連結**
+1. **根據條件運算式演算不同的存放區連結**
 
    ```sql
    {%#if profile.homeAddress.countryCode = "FR"%}
@@ -94,7 +94,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
    {%/if%}
    ```
 
-1. **根據受眾成員資格的條件式內容**
+1. **以對象成員資格為基礎的條件式內容**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -106,12 +106,12 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 >[!NOTE]
 >
->若要深入瞭解對象與細分服務，請參閱此 [區段](../../audience/about-audiences.md).
+>若要深入瞭解對象和細分服務，請參閱此[區段](../../audience/about-audiences.md)。
 
 
 ## Unless{#unless}
 
-此 `unless` 協助程式用於定義條件區塊。 藉由反對the `if`  協助程式，如果運算式評估傳回false，則會轉譯區塊。
+`unless`協助程式用於定義條件區塊。 藉由與The `if`協助程式對立，如果運算式評估傳回false，則會轉譯區塊。
 
 **語法**
 
@@ -131,11 +131,11 @@ Some edu specific content Content
 {%/unless%}
 ```
 
-## 每個{#each}
+## Each{#each}
 
-此 `each` 協助程式用於反複處理陣列。
-協助程式的語法為 ```{{#each ArrayName}}``` 您的內容 {{/each}}
-我們可以使用關鍵字來參照個別陣列專案 **此** 區塊內部。 陣列元素的索引可以使用來轉譯 {{@index}}.
+`each`協助程式是用來反複處理陣列。
+協助程式的語法為```{{#each ArrayName}}``` YourContent {{/each}}
+我們可以在區塊內使用關鍵字**this**&#x200B;來參照個別陣列專案。 可以使用{{@index}}轉譯陣列專案的索引。
 
 **語法**
 
@@ -165,9 +165,9 @@ Some edu specific content Content
 {{/each}}
 ```
 
-## 替換為{#with}
+## With{#with}
 
-此 `with` 協助程式可用來變更範本部分的評估權杖。
+`with`協助程式可用來變更範本部分的評估權杖。
 
 **語法**
 
@@ -177,7 +177,7 @@ Some edu specific content Content
 {{/with}}
 ```
 
-此 `with` 協助程式也可用來定義捷徑變數。
+`with`協助程式也可用來定義捷徑變數。
 
 **範例**
 
@@ -192,7 +192,7 @@ Some edu specific content Content
 
 ## Let{#let}
 
-此 `let` 函式可將運算式儲存為變數，以便稍後在查詢中使用。
+`let`函式允許將運算式儲存為變數，以便稍後在查詢中使用。
 
 **語法**
 

@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 刪除個人化優惠 {#delete-personalized-offer}
 
-有時可能必須移除(DELETE)個人化優惠方案。 這可透過向以下對象執行DELETE請求來完成 [!DNL Offer Library] API使用您要刪除之個人化優惠的ID。
+有時可能必須移除(DELETE)個人化優惠方案。 使用您要刪除之個人化優惠的ID對[!DNL Offer Library] API執行DELETE要求，即可完成此作業。
 
 **API格式**
 

@@ -35,11 +35,11 @@ ht-degree: 17%
 
 從此區段，您可以定義歷程的名稱、新增說明，以及：
 
-* 管理 [進入與重新進入](#entrance)，
-* 選擇開始和結束 [日期](#dates)，
-* 管理 [存取資料](#manage-access)，
-* 定義 [逾時期間](#timeout) 在歷程活動中（僅供管理員使用者使用），
-* 選取歷程和設定檔 [時區](#timezone)
+* 管理[進入與重新進入](#entrance)，
+* 選擇開始和結束[日期](#dates)，
+* 管理[資料](#manage-access)的存取權，
+* 在歷程活動中定義[逾時期間](#timeout) （僅適用於管理員使用者），
+* 選取歷程和設定檔[時區](#timezone)
 * 將Adobe Experience Platform統一標籤指派給您的歷程，以輕鬆分類並改善行銷活動清單中的搜尋。 [了解如何使用標籤](../start/search-filter-categorize.md#tags)
 
 ![](assets/journey32.png)
@@ -48,16 +48,16 @@ ht-degree: 17%
 >
 >若為即時歷程，此畫面只會顯示發佈日期和發佈歷程的使用者名稱。
 
-此 **複製技術細節** 可讓您複製支援團隊可用於疑難排解的歷程相關技術資訊。 下列資訊已複製： `JourneyVersion UID`， `OrgID`， `orgName`， `sandboxName`， `lastDeployedBy`， `lastDeployedAt`.
+**複製技術詳細資料**&#x200B;可讓您複製支援團隊可用於疑難排解的歷程相關技術資訊。 已複製下列資訊： `JourneyVersion UID`、`OrgID`、`orgName`、`sandboxName`、`lastDeployedBy`、`lastDeployedAt`。
 
-進一步瞭解與特定設定檔的歷程相關的技術欄位及其使用方式 [在此頁面中](expression/journey-properties.md).
+在本頁](expression/journey-properties.md)中進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們[。
 
 
 ## 進入和重新進入 {#entrance}
 
 設定檔專案模式是在歷程層級的右側設定窗格中定義。 設定如下所述。
 
-設定檔入口管理取決於歷程型別。 在中進一步瞭解設定檔進入和重入管理 [此頁面](entry-management.md).
+設定檔入口管理取決於歷程型別。 在[此頁面](entry-management.md)中進一步瞭解設定檔進入與重新進入管理。
 
 ### 允許重新進入  {#allow-re-entrance}
 
@@ -67,7 +67,7 @@ ht-degree: 17%
 >abstract="預設情況下，新歷程允許重新進入。例如，如果您想在某人進入商店時提供一次性禮物，您可以取消選取「**允許重新進入**」選項。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="設定檔入口管理"
 
-預設情況下，新歷程允許重新進入。您可以取消勾選 **允許重新進入** 「單次」歷程的選項，例如，如果您想在某人進入商店時提供一次性禮物。
+預設情況下，新歷程允許重新進入。您可以取消勾選「單次」歷程的&#x200B;**允許重新進入**&#x200B;選項，例如，如果您想要在某人進入商店時提供一次性禮物。
 
 ### 重新進入等待期  {#re-entrance-wait}
 
@@ -77,12 +77,12 @@ ht-degree: 17%
 >abstract=" 設定允許設定檔在單一歷程中再次進入歷程之前等待的時間。這會防止使用者在選定的期間內重新進入歷程。最長持續時間：90 天。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="設定檔入口管理"
 
-當 **允許重新進入** 選項已啟用， **重新進入等待期** 欄位。 此欄位可讓您定義在允許設定檔在單一歷程中再次進入歷程 (從事件或對象資格開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 持續時間上限為90天。
+當啟動&#x200B;**允許重新進入**&#x200B;選項時，會顯示&#x200B;**重新進入等待期間**&#x200B;欄位。 此欄位可讓您定義在允許設定檔在單一歷程中再次進入歷程 (從事件或對象資格開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 持續時間上限為90天。
 
 
 ## 管理存取權 {#manage-access}
 
-若要指派自訂或核心資料使用標籤給歷程，請按一下 **[!UICONTROL 管理存取權]** 按鈕。 [深入瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
+若要指派自訂或核心資料使用標籤給歷程，請按一下&#x200B;**[!UICONTROL 管理存取權]**&#x200B;按鈕。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
 
 ![](assets/journeys-manage-access.png)
 
@@ -90,7 +90,7 @@ ht-degree: 17%
 
 時區是在歷程層級定義。 您可以輸入固定時區，或使用Adobe Experience Platform設定檔來定義歷程時區。 如果在Adobe Experience Platform設定檔中定義了時區，則可在歷程中擷取該時區。
 
-如需時區管理的詳細資訊，請參閱 [此頁面](../building-journeys/timezone-management.md).
+如需時區管理的詳細資訊，請參閱[此頁面](../building-journeys/timezone-management.md)。
 
 ## 開始和結束日期 {#dates}
 
@@ -105,9 +105,9 @@ ht-degree: 17%
 >title="結束日期"
 >abstract="選擇歷程的結束日期。當到達該日期時，該歷程中的設定檔會自動退出，新的設定檔將無法再進入。"
 
-您可以定義 **開始日期**. 如果您尚未指定，則會在發佈時自動定義。
+您可以定義&#x200B;**開始日期**。 如果您尚未指定，則會在發佈時自動定義。
 
-您也可以新增 **結束日期**. 這可讓設定檔在達到日期時自動退出。 如果未指定結束日期，則設定檔可保留至 [全域歷程逾時](#global_timeout) （通常為91天）。 唯一的例外是循環讀取受眾歷程，具有 **在重複時強制重新進入** 已啟用，在下一次事件的開始日期結束。
+您也可以新增&#x200B;**結束日期**。 這可讓設定檔在達到日期時自動退出。 如果未指定結束日期，則設定檔可以保留到[全域歷程逾時](#global_timeout) （通常為91天）為止。 唯一的例外是循環讀取對象歷程，其中&#x200B;**在循環**&#x200B;上強制重新進入，結束於下一個事件的開始日期。
 
 ## 逾時 {#timeout}
 
@@ -119,19 +119,19 @@ ht-degree: 17%
 >abstract="定義歷程嘗試執行動作或驗證條件的時間長度，在此之後視為逾時。"
 
 
-編輯動作或條件活動時，您可以定義替代路徑，以防錯誤或逾時。 如果處理詢問協力廠商系統的活動超過中定義的逾時期間。 **[!UICONTROL 逾時或錯誤]** 歷程屬性的欄位中，將選擇第二個路徑來執行潛在的遞補動作。
+編輯動作或條件活動時，您可以定義替代路徑，以防錯誤或逾時。 如果處理詢問協力廠商系統的活動超過歷程屬性的&#x200B;**[!UICONTROL 逾時或錯誤]**&#x200B;欄位中定義的逾時期間，將會選擇第二個路徑來執行可能的遞補動作。
 
 授權值介於1到30秒之間。
 
-建議您最好定義一個非常簡短的 **[!UICONTROL 逾時或錯誤]** 值（如果您的歷程有時效性，例如：對個人的即時位置有所反應），因為您的動作無法延遲超過幾秒鐘。 如果您的歷程較不有時效性，您可以使用較長的值，讓系統有更多時間呼叫，以傳送有效回應。
+如果您的歷程有時效性（例如：對人員的即時位置有所反應），建議您定義非常簡短的&#x200B;**[!UICONTROL 逾時或錯誤]**&#x200B;值，因為您的動作不能延遲超過幾秒鐘。 如果您的歷程較不有時效性，您可以使用較長的值，讓系統有更多時間呼叫，以傳送有效回應。
 
 歷程也會使用全域逾時，如下所述。
 
 ### 全域歷程逾時 {#global_timeout}
 
-除了 [逾時](#timeout_and_error) 在歷程活動中使用，會套用全域歷程逾時。 它不會顯示在介面中，且無法變更。
+除了歷程活動中使用的[逾時](#timeout_and_error)之外，還套用全域歷程逾時。 它不會顯示在介面中，且無法變更。
 
-此全域逾時會停止歷程中個人的進度 **91天** 在他們進入之後。 這表示個人的歷程不能持續超過91天。 在此逾時期間後，個人的資料會被刪除。 在逾時期間結束時仍在歷程中流動的個人將會停止，且將不會在報表中將其列入考量。 因此，您可能會看到更多人進入歷程而不是退出。
+此全域逾時會在個人進入歷程&#x200B;**91天**&#x200B;後停止個人進度。 這表示個人的歷程不能持續超過91天。 在此逾時期間後，個人的資料會被刪除。 在逾時期間結束時仍在歷程中流動的個人將會停止，且將不會在報表中將其列入考量。 因此，您可能會看到更多人進入歷程而不是退出。
 
 由於91天歷程逾時，當歷程不允許重新進入時，我們無法確保重新進入封鎖將超過91天。 事實上，當我們移除在進入歷程91天後進入歷程之人員的所有相關資訊時，我們無法得知此人之前已進入（超過91天前）。
 
@@ -142,7 +142,7 @@ ht-degree: 17%
 
 自2024年6月Adobe Journey Optimizer發行版本開始，歷程全域逾時已從30天移動至91天。 影響會列於以下的常見問題集中：
 
-**針對單一歷程**
+單一歷程的&#x200B;****
 <table style="table-layout:auto">
   <tr style="border: 1;">
     <td>
@@ -186,7 +186,7 @@ ht-degree: 17%
   </tr>
 </table>
 
-**針對區段觸發歷程**
+針對區段觸發器歷程&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -257,4 +257,4 @@ Journey在從Adobe Experience Platform擷取設定檔資料時使用合併原則
 
 歷程將遵循在整個歷程中使用的合併原則。 因此，如果歷程中使用多個對象（例如：「inAudience」函式中），導致歷程使用的合併原則不一致，則會引發錯誤並封鎖發佈。 不過，如果在訊息個人化中使用不一致的對象，則儘管不一致，仍不會引發警報。 因此，強烈建議您在訊息個人化使用此對象時，檢查與對象相關聯的合併原則。
 
-若要深入瞭解合併原則，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+若要深入瞭解合併原則，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}。

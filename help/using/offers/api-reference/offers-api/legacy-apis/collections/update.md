@@ -9,21 +9,21 @@ exl-id: bf12d22f-e6c0-45fd-a2b2-149d3f4cf882
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
 # 更新集合 {#update-collection}
 
-您可以透過向以下網站發出PATCH請求，修改或更新集合： [!DNL Offer Library] API
+您可以透過向[!DNL Offer Library] API發出PATCH要求來修改或更新集合
 
-如需JSON修補程式的詳細資訊，包括可用的作業，請參閱官方檔案 [JSON修補程式檔案](https://jsonpatch.com/).
+如需JSON修補程式的詳細資訊，包括可用的作業，請參閱官方[JSON修補程式檔案](https://jsonpatch.com/)。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
+下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
 
-| 頁首名稱 | 值 |
+| 標題名稱 | 值 |
 | ----------- | ----- |
 | 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
@@ -67,13 +67,13 @@ curl -X PATCH \
 
 | 參數 | 說明 |
 | --------- | ----------- |
-| `op` | 用於定義更新連線所需動作的操作呼叫。 操作包括： `add`， `replace`、和 `remove`. |
+| `op` | 用於定義更新連線所需動作的操作呼叫。 作業包括： `add`、`replace`和`remove`。 |
 | `path` | 要更新之引數的路徑。 |
 | `value` | 您想要用來更新引數的新值。 |
 
 **回應**
 
-成功的回應會傳回集合的更新詳細資料，包括其唯一例項ID和集合 `@id`.
+成功的回應會傳回集合的更新詳細資料，包括其唯一的執行個體識別碼和集合`@id`。
 
 ```json
 {

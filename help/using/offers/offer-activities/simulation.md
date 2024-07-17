@@ -30,15 +30,15 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->此功能可模擬對 [!DNL Decisioning] API。 進一步瞭解 [使用Decisioning API傳遞優惠方案](../api-reference/offer-delivery-api/decisioning-api.md).
+>此功能會模擬對[!DNL Decisioning] API的單一要求。 深入瞭解[使用Decisioning API傳遞優惠方案](../api-reference/offer-delivery-api/decisioning-api.md)。
 
-若要存取此功能，請選取 **[!UICONTROL 模擬]** 標籤從 **[!UICONTROL 決定管理]** > **[!UICONTROL 選件]** 功能表。
+若要存取此功能，請從&#x200B;**[!UICONTROL 決定管理]** > **[!UICONTROL 優惠]**&#x200B;選單中選取&#x200B;**[!UICONTROL 模擬]**&#x200B;標籤。
 
 ![](../assets/offers_simulation-tab.png)
 
 >[!NOTE]
 >
->由於模擬不會產生任何決定事件，因此 [上限](../offer-library/creating-personalized-offers.md#capping) 計數不受影響。
+>由於模擬不會產生任何決定事件，因此[上限](../offer-library/creating-personalized-offers.md#capping)計數不會受到影響。
 
 <!--
 ➡️ [Discover this feature in video](#video)
@@ -55,19 +55,19 @@ ht-degree: 12%
 
 >[!CAUTION]
 >
->您必須有可用的測試設定檔，以模擬將傳送給他們的優惠。 瞭解如何 [建立測試設定檔](../../audience/creating-test-profiles.md).
+>您必須有可用的測試設定檔，以模擬將傳送給他們的優惠。 瞭解如何[建立測試設定檔](../../audience/creating-test-profiles.md)。
 
-1. 按一下 **[!UICONTROL 管理設定檔]**.
+1. 按一下&#x200B;**[!UICONTROL 管理設定檔]**。
 
    ![](../assets/offers_simulation-manage-profile.png)
 
-1. 選取您要用來識別測試設定檔的身分名稱空間。 在此範例中，我們將使用 **電子郵件** 名稱空間。
+1. 選取您要用來識別測試設定檔的身分名稱空間。 在此範例中，我們將使用&#x200B;**電子郵件**&#x200B;名稱空間。
 
    >[!NOTE]
    >
-   >身分名稱空間會定義識別碼的內容，例如電子郵件地址或CRM ID。 進一步瞭解Adobe Experience Platform身分識別名稱空間 [在本節中](../../audience/get-started-identity.md){target="_blank"}.
+   >身分名稱空間會定義識別碼的內容，例如電子郵件地址或CRM ID。 在本節](../../audience/get-started-identity.md){target="_blank"}中進一步瞭解Adobe Experience Platform識別名稱空間[。
 
-1. 輸入身分值並按一下 **[!UICONTROL 檢視]** 以列出可用的設定檔。
+1. 輸入身分值並按一下&#x200B;**[!UICONTROL 檢視]**&#x200B;列出可用的設定檔。
 
    ![](../assets/offers_simulation-add-profile.png)
 
@@ -75,21 +75,21 @@ ht-degree: 12%
 
    ![](../assets/offers_simulation-save-profiles.png)
 
-1. 新增後，所有設定檔都會列在下的下拉式清單中 **[!UICONTROL 測試設定檔]**. 您可以在儲存的測試設定檔之間切換，以顯示每個所選設定檔的結果。
+1. 新增後，所有設定檔都會列在&#x200B;**[!UICONTROL 測試設定檔]**&#x200B;下的下拉式清單中。 您可以在儲存的測試設定檔之間切換，以顯示每個所選設定檔的結果。
 
    ![](../assets/offers_simulation-saved-profiles.png)
 
    >[!NOTE]
    >
-   >選取的設定檔仍會列為測試設定檔在 **[!UICONTROL 模擬]** 以標籤從一個工作階段移至另一個工作階段，直到使用將其移除 **[!UICONTROL 管理設定檔]**.
+   >選取的設定檔將保留在&#x200B;**[!UICONTROL Simulation]**&#x200B;分頁中，以測試設定檔形式列在不同工作階段中，直到使用&#x200B;**[!UICONTROL 管理設定檔]**&#x200B;移除這些設定檔為止。
 
-1. 您可以按一下 **[!UICONTROL 設定檔詳細資料]** 顯示所選設定檔資料的連結。
+1. 您可以按一下&#x200B;**[!UICONTROL 設定檔詳細資料]**&#x200B;連結，以顯示選取的設定檔資料。
 
 ## 新增決定範圍 {#add-decision-scopes}
 
 現在選取您要在測試設定檔上模擬的優惠決定。
 
-1. 選取 **[!UICONTROL 新增決定範圍]**.
+1. 選取&#x200B;**[!UICONTROL 新增決定範圍]**。
 
    ![](../assets/offers_simulation-add-decision.png)
 
@@ -100,9 +100,9 @@ ht-degree: 12%
 1. 將顯示可用的決策。
 
    * 您可以使用搜尋欄位來縮小選取範圍。
-   * 您可以按一下 **[!UICONTROL 開啟優惠決定]** 連結以開啟您建立的所有決定清單。 進一步瞭解 [決定](create-offer-activities.md).
+   * 您可以按一下&#x200B;**[!UICONTROL 開啟優惠決定]**&#x200B;連結，開啟您建立的所有決定清單。 深入瞭解[決定](create-offer-activities.md)。
 
-   選取您選擇的決定並按一下 **[!UICONTROL 新增]**.
+   選取您選擇的決定並按一下[新增]。****
 
    ![](../assets/offers_simulation-add-decision-scope-add.png)
 
@@ -128,19 +128,19 @@ ht-degree: 12%
 
 若要編輯模擬的預設設定，請遵循下列步驟。
 
-1. 按一下 **[!UICONTROL 設定]**.
+1. 按一下&#x200B;**[!UICONTROL 設定]**。
 
    ![](../assets/offers_simulation-settings.png)
 
-1. 在 **[!UICONTROL 重複資料刪除]** 區段，您可以選擇允許跨決定和/或版位重複的優惠。 這表示可能會將相同優惠指派給多個決定/位置。
+1. 在&#x200B;**[!UICONTROL 重複資料刪除]**&#x200B;區段中，您可以選擇允許跨決定和/或版位重複優惠。 這表示可能會將相同優惠指派給多個決定/位置。
 
    ![](../assets/offers_simulation-settings-deduplication.png)
 
    >[!NOTE]
    >
-   >依預設，會啟用所有重複資料刪除旗標以進行模擬，這表示決定引擎允許重複專案，因此可以在多個決定/版位中提出相同的主張。 進一步瞭解 [!DNL Decisioning] 中的API要求屬性 [本節](../api-reference/offer-delivery-api/decisioning-api.md).
+   >依預設，會啟用所有重複資料刪除旗標以進行模擬，這表示決定引擎允許重複專案，因此可以在多個決定/版位中提出相同的主張。 在[本節](../api-reference/offer-delivery-api/decisioning-api.md)中進一步瞭解[!DNL Decisioning] API要求屬性。
 
-1. 在 **[!UICONTROL 回應格式]** 區段，您可以選擇在程式碼檢視中包含中繼資料。 核取對應的選項，然後選取您選擇的中繼資料。 選擇時，它們會顯示在請求和回應裝載中 **[!UICONTROL 檢視程式碼]**. 進一步瞭解 [檢視模擬結果](#simulation-results) 區段。
+1. 在&#x200B;**[!UICONTROL 回應格式]**&#x200B;區段中，您可以選擇在程式碼檢視中包含中繼資料。 核取對應的選項，然後選取您選擇的中繼資料。 選取&#x200B;**[!UICONTROL 檢視代碼]**&#x200B;時，它們會顯示在請求和回應裝載中。 在[檢視模擬結果](#simulation-results)區段中瞭解更多。
 
    ![](../assets/offers_simulation-settings-response-format.png)
 
@@ -152,7 +152,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->目前對於模擬資料，您只能使用 **[!UICONTROL 中心]** API。
+>目前對於模擬資料，您只能使用&#x200B;**[!UICONTROL 中心]** API。
 
 <!--
 In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
@@ -172,7 +172,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 新增決定範圍並選取測試設定檔後，您就可以檢視結果。
 
-1. 按一下 **[!UICONTROL 檢視結果]**.
+1. 按一下&#x200B;**[!UICONTROL 檢視結果]**。
 
    ![](../assets/offers_simulation-view-results.png)
 
@@ -182,7 +182,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    ![](../assets/offers_simulation-offer-details.png)
 
-1. 按一下 **[!UICONTROL 檢視程式碼]** 顯示請求和回應裝載。 [了解更多](#view-code)
+1. 按一下&#x200B;**[!UICONTROL 檢視代碼]**&#x200B;以顯示請求和回應裝載。 [了解更多](#view-code)
 
 1. 從清單中選取另一個設定檔，以顯示不同測試設定檔的優惠決定結果。
 
@@ -190,23 +190,23 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 >[!NOTE]
 >
->每次您變更設定檔或更新決定範圍時，都需要使用重新整理結果 **[!UICONTROL 檢視結果]** 按鈕。
+>每次變更設定檔或更新決定範圍時，都需要使用&#x200B;**[!UICONTROL 檢視結果]**&#x200B;按鈕重新整理結果。
 
 ## 檢視程式碼 {#view-code}
 
-1. 使用 **[!UICONTROL 檢視程式碼]** 按鈕來顯示請求和回應裝載。
+1. 使用&#x200B;**[!UICONTROL 檢視代碼]**&#x200B;按鈕來顯示請求和回應裝載。
 
    ![](../assets/offers_simulation-view-code.png)
 
-   程式碼檢視會顯示目前使用者的開發人員資訊。 根據預設， **[!UICONTROL 回應裝載]** 隨即顯示。
+   程式碼檢視會顯示目前使用者的開發人員資訊。 預設會顯示&#x200B;**[!UICONTROL 回應承載]**。
 
    ![](../assets/offers_simulation-request-payload.png)
 
-1. 按一下 **[!UICONTROL 回應裝載]** 或 **[!UICONTROL 請求承載]** 以在這兩個標籤之間瀏覽。
+1. 按一下&#x200B;**[!UICONTROL 回應承載]**&#x200B;或&#x200B;**[!UICONTROL 請求承載]**，在兩個標籤之間導覽。
 
    ![](../assets/offers_simulation-response-payload.png)
 
-1. 若要在外部使用請求裝載 [!DNL Journey Optimizer]  — 如需疑難排解，例如，使用 **[!UICONTROL 複製到剪貼簿]** 「程式碼檢視」頂端的按鈕。
+1. 若要在[!DNL Journey Optimizer]外部使用請求承載，例如，為了疑難排解之用，請使用程式碼檢視上方的&#x200B;**[!UICONTROL 複製到剪貼簿]**&#x200B;按鈕來複製它。
 
    ![](../assets/offers_simulation-copy-payload.png)
 
@@ -214,5 +214,5 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    >[!NOTE]
    >
-   >將請求或回應裝載複製到您自己的程式碼時，請務必取代 {USER_TOKEN} 和 {API_KEY} ，則為有效值。 瞭解如何在中擷取這些值 [ADOBE EXPERIENCE PLATFORM API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=zh-Hant){target="_blank"} 檔案。
+   >將請求或回應裝載複製到您自己的程式碼時，請確定您將{USER_TOKEN}和{API_KEY}取代為有效值。 在[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=zh-Hant){target="_blank"}檔案中瞭解如何擷取這些值。
 

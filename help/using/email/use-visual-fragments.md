@@ -17,9 +17,9 @@ ht-degree: 2%
 
 # 在你的電子郵件中新增視覺內容片段 {#use-visual-fragments}
 
-片段是可重複使用的元件，可在跨Journey Optimizer行銷活動、歷程或內容範本的一封或多封電子郵件中參考。 此功能允許預先建置多個自訂內容區塊，可供行銷使用者在改良的設計流程中快速組合電子郵件內容。 [瞭解如何建立和管理片段](../content-management/fragments.md).
+片段是可重複使用的元件，可在跨Journey Optimizer行銷活動、歷程或內容範本的一封或多封電子郵件中參考。 此功能允許預先建置多個自訂內容區塊，可供行銷使用者在改良的設計流程中快速組合電子郵件內容。 [瞭解如何建立和管理片段](../content-management/fragments.md)。
 
-➡️ [在本影片中瞭解如何管理、編寫和使用片段](../content-management/fragments.md#video-fragments)
+➡️[在此影片中瞭解如何管理、編寫和使用片段](../content-management/fragments.md#video-fragments)
 
 ## 使用片段 {#use-fragment}
 
@@ -30,9 +30,9 @@ ht-degree: 2%
 >您最多可以在給定傳送中新增30個片段。 片段最多只能巢狀1個層級。
 
 
-1. 使用開啟任何電子郵件或範本內容 [傳送Designer電子郵件](get-started-email-design.md).
+1. 使用[電子郵件Designer](get-started-email-design.md)開啟任何電子郵件或範本內容。
 
-1. 選取 **[!UICONTROL 片段]** 圖示加以檢視。
+1. 從左側邊欄選取&#x200B;**[!UICONTROL 片段]**&#x200B;圖示。
 
    ![](assets/fragments-in-designer.png)
 
@@ -53,7 +53,7 @@ ht-degree: 2%
 
    >[!CAUTION]
    >
-   >您可以新增任何 **草稿** 或 **即時** 片段至您的內容。 但是，如果正在使用狀態為草稿的片段，您將無法啟用您的歷程或行銷活動。 在歷程或行銷活動發佈中，草稿片段將顯示錯誤，您需要核准它們才能發佈。
+   >您可以將任何&#x200B;**草稿**&#x200B;或&#x200B;**即時**&#x200B;片段新增至您的內容。 但是，如果正在使用狀態為草稿的片段，您將無法啟用您的歷程或行銷活動。 在歷程或行銷活動發佈中，草稿片段將顯示錯誤，您需要核准它們才能發佈。
 
 1. 如同任何其他元件，您可以在內容中移動片段。
 
@@ -61,17 +61,17 @@ ht-degree: 2%
 
    ![](assets/fragment-right-pane.png)
 
-1. 從 **[!UICONTROL 設定]** 標籤，您可以：
+1. 從&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤，您可以：
 
    * 選擇您要顯示片段的裝置。
    * 視需要在新索引標籤中開啟片段以編輯。 [了解更多](../content-management/fragments.md#edit-fragments)
    * 探索引用。 [了解更多](../content-management/fragments.md#explore-references)
 
-1. 您可以使用進一步自訂您的片段 **[!UICONTROL 樣式]** 標籤。
+1. 您可以使用&#x200B;**[!UICONTROL 樣式]**&#x200B;索引標籤進一步自訂您的片段。
 
 1. 如有需要，您可以中斷具有原始片段的繼承。 [了解更多](#break-inheritance)
 
-1. 新增任意數量的片段，並且 **[!UICONTROL 儲存]** 您的變更。
+1. 新增您想要的片段數，然後&#x200B;**[!UICONTROL 儲存]**&#x200B;您的變更。
 
 ## 自訂可編輯欄位 {#customize-fields}
 
@@ -81,11 +81,11 @@ ht-degree: 2%
 
 1. 將片段新增至您的內容並選取它，以開啟右側的屬性窗格。
 
-1. 片段中的所有可編輯欄位都會顯示在 **設定** 標籤，在 **片段** 區段。
+1. 片段中的所有可編輯欄位會顯示在&#x200B;**片段**&#x200B;區段下的&#x200B;**設定**&#x200B;標籤中。
 
    在右窗格中選取可編輯欄位時，預覽窗格中會以綠色反白顯示可編輯欄位，以便輕鬆識別它們在內容中的位置。
 
-   在以下範例中，影像 **來源** 和 **替代文字** 可編輯以及「按一下此處」按鈕 **URL**.
+   在下列範例中，可以編輯影像&#x200B;**來源**&#x200B;和&#x200B;**替代文字**，以及[按一下這裡]按鈕&#x200B;**URL**。
 
    ![](assets/fragment-editable.png)
 

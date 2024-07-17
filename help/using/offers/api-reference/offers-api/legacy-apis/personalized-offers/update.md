@@ -9,21 +9,21 @@ exl-id: 3ef785c6-06b4-40ce-a8e5-6a9d5101a408
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
 # 更新個人化優惠 {#update-personalized-offer}
 
-您可以透過向以下網站發出PATCH請求，修改或更新個人化優惠： [!DNL Offer Library] API
+您可以透過向[!DNL Offer Library] API發出PATCH要求來修改或更新個人化優惠
 
-如需JSON修補程式的詳細資訊，包括可用的作業，請參閱官方檔案 [JSON修補程式檔案](https://jsonpatch.com/).
+如需JSON修補程式的詳細資訊，包括可用的作業，請參閱官方[JSON修補程式檔案](https://jsonpatch.com/)。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
+下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
 
-| 頁首名稱 | 值 |
+| 標題名稱 | 值 |
 | ----------- | ----- |
 | 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
@@ -71,13 +71,13 @@ curl -X PATCH \
 
 | 參數 | 說明 |
 | --------- | ----------- |
-| `op` | 用於定義更新連線所需動作的操作呼叫。 操作包括： `add`， `replace`、和 `remove`. |
+| `op` | 用於定義更新連線所需動作的操作呼叫。 作業包括： `add`、`replace`和`remove`。 |
 | `path` | 要更新之引數的路徑。 |
 | `value` | 您想要用來更新引數的新值。 |
 
 **回應**
 
-成功的回應會傳回個人化優惠的更新詳細資料，包括 `id`.
+成功的回應會傳回個人化優惠的最新詳細資料，包括`id`。
 
 ```json
 {

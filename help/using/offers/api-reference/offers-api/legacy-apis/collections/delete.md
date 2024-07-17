@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 刪除集合 {#delete-collection}
 
-有時可能必須移除(DELETE)集合。 只能刪除您在租使用者容器中建立的集合。 這可透過向以下對象執行DELETE請求來完成 [!DNL Offer Library] API使用您要刪除之集合的$id。
+有時可能必須移除(DELETE)集合。 只能刪除您在租使用者容器中建立的集合。 這是透過使用您要刪除集合的$id對[!DNL Offer Library] API執行DELETE要求來完成。
 
 **API格式**
 

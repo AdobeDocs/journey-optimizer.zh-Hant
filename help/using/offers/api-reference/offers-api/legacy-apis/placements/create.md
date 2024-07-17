@@ -9,19 +9,19 @@ exl-id: 5c7301f6-95d3-4720-81fe-5f2602cd30ec
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
 # 建立位置 {#create-placement}
 
-您可以透過向以下網站發出POST請求來建立位置： [!DNL Offer Library] API，同時提供容器ID。
+您可以向[!DNL Offer Library] API發出POST要求，同時提供容器ID以建立位置。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
+下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
 
-| 頁首名稱 | 值 |
+| 標題名稱 | 值 |
 | ----------- | ----- |
 | 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
@@ -58,7 +58,7 @@ curl -X POST \
 
 **回應**
 
-成功的回應會傳回新建立位置的詳細資訊，包括其唯一的執行個體ID和位置 `@id`. 您可在後續步驟中使用執行個體ID來更新或刪除您的位置。 您可以使用不重複的位置 `@id` 在稍後的教學課程中，以建立決定、決定規則和遞補優惠。
+成功的回應會傳回新建立位置的詳細資料，包括其唯一的執行個體識別碼和位置`@id`。 您可在後續步驟中使用執行個體ID來更新或刪除您的位置。 您可在稍後的教學課程中使用您的獨特位置`@id`來建立決定、決定規則和遞補優惠。
 
 ```json
 {

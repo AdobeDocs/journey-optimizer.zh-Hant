@@ -17,7 +17,7 @@ ht-degree: 2%
 
 集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
 
-您可以透過向以下網址發出GET請求來查詢特定集合： [!DNL Offer Library] 包含任一集合的API `@id` 或要求路徑中的集合名稱。
+您可以向[!DNL Offer Library] API發出GET要求，以查詢特定集合，要求中包含集合`@id`或要求路徑中的集合名稱。
 
 **API格式**
 
@@ -30,8 +30,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 集合所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FILTER}` | 定義與集合相關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | 用於比對 `@id` 個實體的屬性。 字串完全相符。 引數 `id` 和 `name` 不能一起使用。 | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數 `id` 和 `name` 不能一起使用 | `Mobile demo` |
+| `id` | 用於比對實體`@id`屬性的字串。 字串完全相符。 引數`id`和`name`不能一起使用。 | `xcore:offer-filter:124bd44648f17ec1` |
+| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數`id`和`name`不能一起使用 | `Mobile demo` |
 
 **要求**
 
@@ -47,7 +47,7 @@ curl -X GET \
 
 **回應**
 
-成功的回應會傳回位置的詳細資料，包括容器ID、執行個體ID和唯一集合的相關資訊 `@id`.
+成功的回應會傳回位置的詳細資料，包括容器ID、執行個體識別碼和唯一集合`@id`的相關資訊。
 
 ```json
 {

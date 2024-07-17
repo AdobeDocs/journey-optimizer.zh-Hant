@@ -17,16 +17,16 @@ ht-degree: 0%
 
 # journeysteps事件常見欄位 {#sharing-common-fields}
 
-此欄位群組將由以下事件共用： **journeyStepEvent** 和 **journeyStepProfileEvent**.
+此欄位群組將由以下事件共用： **journeyStepEvent**&#x200B;和&#x200B;**journeyStepProfileEvent**。
 
-這些是常見的XDM欄位， [!DNL Journey Optimizer] 傳送至Adobe Experience Platform。 歷程中處理的每個步驟都會傳送通用欄位。 自訂動作和增強功能會使用更具體的欄位。
+這些是[!DNL Journey Optimizer]傳送至Adobe Experience Platform的常見XDM欄位。 歷程中處理的每個步驟都會傳送通用欄位。 自訂動作和增強功能會使用更具體的欄位。
 
 其中一些欄位僅適用於特定處理模式（動作執行、資料擷取等） 以限制事件大小。
 
 
 >[!NOTE]
 >
->深入瞭解歷程屬性 [在本節中](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>在本節](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)中進一步瞭解歷程屬性[。
 
 
 ## 入口 {#entrance-field}

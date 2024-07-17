@@ -17,36 +17,36 @@ ht-degree: 1%
 
 # 開始使用即時報告 {#live-report}
 
-使用 **[!UICONTROL 即時報告]** 在內建儀表板中，即時測量並視覺化歷程和訊息的影響和效能。
-資料可在 **[!UICONTROL 即時報告]** 一傳送您的傳遞或執行您的歷程後，立即從 **[!UICONTROL 過去24小時]** 標籤。
+使用&#x200B;**[!UICONTROL 即時報告]**，在內建儀表板中即時測量並視覺化歷程和訊息的影響和效能。
+當傳送您的傳遞或從**[!UICONTROL 過去24小時]**&#x200B;索引標籤執行您的歷程時，**[!UICONTROL 即時報告]**&#x200B;中就會提供資料。
 
-* 如果您想在歷程的內容中鎖定歷程，請從 **[!UICONTROL 歷程]** 選單，存取您的歷程，然後按一下 **[!UICONTROL 檢視報告]** 按鈕。
+* 如果您想要在歷程內容中鎖定歷程，請從&#x200B;**[!UICONTROL 歷程]**&#x200B;功能表存取您的歷程，然後按一下&#x200B;**[!UICONTROL 檢視報告]**&#x200B;按鈕。
 
   ![](assets/report_journey.png)
 
-* 如果您想要鎖定促銷活動，請從 **[!UICONTROL 行銷活動]** 選單，存取您的行銷活動，然後按一下 **[!UICONTROL 報表]** 按鈕。
+* 如果您想要鎖定行銷活動，請從&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表存取行銷活動，然後按一下&#x200B;**[!UICONTROL 報表]**&#x200B;按鈕。
 
   ![](assets/report_campaign.png)
 
-* 如果您要從 **[!UICONTROL 全域報告]** 至 **[!UICONTROL 即時報告]** 針對您的傳遞，按一下 **[!UICONTROL 過去24小時]** 從標籤切換器。
+* 若要針對您的傳遞從&#x200B;**[!UICONTROL 全域報告]**&#x200B;切換為&#x200B;**[!UICONTROL 即時報告]**，請從索引標籤切換器按一下&#x200B;**[!UICONTROL 過去24小時]**。
 
   ![](assets/report_3.png)
 
-如需Adobe Journey Optimizer中可用每個量度的詳細清單，請參閱 [此頁面](#list-of-components-live).
+如需Adobe Journey Optimizer中每個可用量度的詳細清單，請參閱[此頁面](#list-of-components-live)。
 
 ## 自訂儀表板 {#modify-dashboard}
 
 每個報表控制面板都可藉由調整大小或移除Widget加以修改。 變更Widget只會影響目前使用者的儀表板。 其他使用者將看到自己的儀表板或預設設定的儀表板。
 
-1. 從 **[!UICONTROL 動作]** 下拉式清單，選擇是否要報告歷程的一個特定動作。
+1. 從&#x200B;**[!UICONTROL 動作]**&#x200B;下拉式清單中，選擇是否要報告歷程的一個特定動作。
 
-1. 選擇是否要使用切換列從報表中排除測試事件。 有關測試事件的詳細資訊，請參閱 [此頁面](../building-journeys/testing-the-journey.md).
+1. 選擇是否要使用切換列從報表中排除測試事件。 如需測試事件的詳細資訊，請參閱[此頁面](../building-journeys/testing-the-journey.md)。
 
-   請注意 **[!UICONTROL 排除測試事件]** 選項僅適用於歷程報告。
+   請注意，**[!UICONTROL 排除測試事件]**&#x200B;選項僅適用於歷程報告。
 
    ![](assets/report_modify_6.png)
 
-1. 若要調整大小或移除Widget，請按一下 **[!UICONTROL 修改]**.
+1. 若要調整大小或移除Widget，請按一下&#x200B;**[!UICONTROL 修改]**。
 
    ![](assets/report_modify_7.png)
 
@@ -54,17 +54,17 @@ ht-degree: 1%
 
    ![](assets/report_modify_8.png)
 
-1. 按一下 **[!UICONTROL 移除]** 以移除您不需要的任何Widget。
+1. 按一下「移除&#x200B;****」以移除任何您不需要的Widget。
 
    ![](assets/report_modify_9.png)
 
-1. 在您滿意顯示順序和Widget的大小後，請按一下 **[!UICONTROL 儲存]**.
+1. 在您滿意顯示順序和Widget的大小後，請按一下&#x200B;**[!UICONTROL 儲存]**。
 
 1. 若要自訂資料的顯示方式，您可以切換不同的視覺化選項，例如圖形、表格和環圈圖。
 
    ![](assets/report_modify_11.png)
 
-您的儀表板現在已儲存。 您的不同變更將會重新套用，以供稍後使用您的即時報告。 如有需要，請使用 **[!UICONTROL 重設]** 還原預設Widget和Widget順序的選項。
+您的儀表板現在已儲存。 您的不同變更將會重新套用，以供稍後使用您的即時報告。 如有需要，請使用&#x200B;**[!UICONTROL 重設]**&#x200B;選項來還原預設Widget和Widget的順序。
 
 ## 匯出您的報告 {#export-reports}
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 >[!TAB 將報表匯出為PDF檔案]
 
-1. 在報表中，按一下 **[!UICONTROL 匯出]** 並選取 **[!UICONTROL PDF檔案]**.
+1. 在報表中按一下[匯出]，然後選取[PDF檔案]。********
 
    ![](assets/export_6.png)
 
@@ -88,11 +88,11 @@ ht-degree: 1%
 
 >[!TAB 將報表匯出為CSV檔案]
 
-1. 在報表中，按一下 **[!UICONTROL 匯出]** 並選取 **[!UICONTROL CSV檔案]** 在整體報表層級產生CSV檔案。
+1. 從您的報表按一下[匯出]****，然後選取[CSV檔案]****&#x200B;來產生整體報表層級的CSV檔案。
 
    ![](assets/export_4.png)
 
-1. 您也可以選擇從特定Widget匯出資料。 按一下 **[!UICONTROL 將Widget資料匯出至CSV]** 位於選取的Widget旁。
+1. 您也可以選擇從特定Widget匯出資料。 按一下所選Widget旁的&#x200B;**[!UICONTROL 將Widget資料匯出至CSV]**。
 
    ![](assets/export_5.png)
 

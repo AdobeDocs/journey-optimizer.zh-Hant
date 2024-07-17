@@ -9,13 +9,13 @@ exl-id: 36a87d98-fd61-416e-83a1-e267a7b4d455
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 # 刪除決定 {#delete-decision}
 
-有時可能必須移除(DELETE)決定。 您只能在租使用者容器中建立的決定才會被刪除。 這可透過向以下對象執行DELETE請求來完成 [!DNL Offer Library] API使用您要刪除之遞補優惠的$id。
+有時可能必須移除(DELETE)決定。 您只能在租使用者容器中建立的決定才會被刪除。 這是透過使用您要刪除的遞補優惠的$id對[!DNL Offer Library] API執行DELETE要求來完成。
 
 **API格式**
 

@@ -25,43 +25,43 @@ ht-degree: 6%
 >title="閱讀對象活動"
 >abstract="「閱讀對象」活動可讓您安排屬於 Adobe Experience Platform 對象的所有個人進入歷程。進入歷程可以執行一次，也可以定期執行。"
 
-使用 **讀取對象** 活動可讓對象的所有個人進入歷程。 進入歷程可以執行一次，也可以定期執行。
+使用&#x200B;**讀取對象**&#x200B;活動讓對象的所有個人進入歷程。 進入歷程可以執行一次，也可以定期執行。
 
-以中建立的「Luma應用程式開啟和簽出」對象為例 [建立對象](../audience/about-audiences.md) 使用案例。 透過讀取對象活動，您可以讓屬於此對象的所有個人進入歷程，並讓他們流入將運用所有歷程功能（條件、計時器、事件、動作）的個人化歷程。
+以在[組建對象](../audience/about-audiences.md)使用案例中建立的「Luma應用程式開啟和簽出」對象為例。 透過讀取對象活動，您可以讓屬於此對象的所有個人進入歷程，並讓他們流入將運用所有歷程功能（條件、計時器、事件、動作）的個人化歷程。
 
 ➡️ [在影片中探索此功能](#video)
 
 ## 必讀 {#must-read}
 
-* 對於使用 **讀取對象** 活動時，可同時開始的歷程次數上限。 系統將執行重試，但避免有超過五個歷程(使用 **讀取對象**，已排程或「儘快」開始)。 最佳實務建議將其分散一段時間，例如相隔5到10分鐘。
+* 對於使用&#x200B;**讀取對象**&#x200B;活動的歷程，可以同時開始的歷程次數有上限。 系統將執行重試，但避免同時開始超過五個歷程（具有&#x200B;**讀取對象**、排程或「儘快」）。 最佳實務建議將其分散一段時間，例如相隔5到10分鐘。
 
-* 體驗事件欄位群組不能用於以 **讀取對象** 活動， **[對象資格](audience-qualification-events.md)** 活動或業務事件活動。
+* 體驗事件欄位群組不能用於以&#x200B;**讀取對象**&#x200B;活動、**[對象資格](audience-qualification-events.md)**&#x200B;活動或業務事件活動開始的歷程。
 
-* 根據最佳實務，建議您僅在以下專案中使用批次對象： **讀取對象** 活動。 這將為歷程中使用的對象提供可靠且一致的計數。 讀取對象是針對批次使用案例而設計。 如果您的使用案例需要即時資料，請使用 **[對象資格](audience-qualification-events.md)** 活動。
+* 根據最佳實務，建議您僅在&#x200B;**讀取對象**&#x200B;活動中使用批次對象。 這將為歷程中使用的對象提供可靠且一致的計數。 讀取對象是針對批次使用案例而設計。 如果您的使用案例需要即時資料，請使用&#x200B;**[對象資格](audience-qualification-events.md)**&#x200B;活動。
 
-* 受眾 [從CSV檔案匯入](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 或產生自 [組合工作流程](../audience/get-started-audience-orchestration.md) 可在 **讀取對象** 活動。 這些對象在中無法使用 **對象資格** 活動。
+* 可在&#x200B;**讀取對象**&#x200B;活動中選取從CSV檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)匯入或從[組合工作流程](../audience/get-started-audience-orchestration.md)產生的對象[。 **對象資格**&#x200B;活動中沒有這些對象。
 
 ## 設定活動 {#configuring-segment-trigger-activity}
 
 設定「讀取對象」活動的步驟如下：
 
-1. 展開 **[!UICONTROL 協調流程]** 類別與拖放 **[!UICONTROL 讀取對象]** 活動至您的畫布。
+1. 展開&#x200B;**[!UICONTROL 協調流程]**&#x200B;類別，並將&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動拖放到您的畫布中。
 
    活動必須定位為歷程的第一步。
 
-1. 新增 **[!UICONTROL 標籤]** 至活動（選用）。
+1. 將&#x200B;**[!UICONTROL 標籤]**&#x200B;新增至活動（選擇性）。
 
-1. 在 **[!UICONTROL 對象]** 欄位，選擇將進入歷程的Adobe Experience Platform對象，然後按一下 **[!UICONTROL 儲存]**. 您可以選取透過產生的任何Adobe Experience Platform對象 [區段定義](../audience/creating-a-segment-definition.md).
+1. 在&#x200B;**[!UICONTROL 對象]**&#x200B;欄位中，選擇將進入歷程的Adobe Experience Platform對象，然後按一下&#x200B;**[!UICONTROL 儲存]**。 您可以選取使用[區段定義](../audience/creating-a-segment-definition.md)產生的任何Adobe Experience Platform對象。
 
    >[!NOTE]
    >
-   >此外，您也可以鎖定使用建立的Adobe Experience Platform對象 [對象組合](../audience/get-started-audience-orchestration.md) 或 [已從CSV檔案上傳](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
+   >此外，您也可以鎖定使用[對象組合](../audience/get-started-audience-orchestration.md)或從CSV檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}上傳的[建立的Adobe Experience Platform對象。
 
    請注意，您可以自訂清單中顯示的欄並加以排序。
 
    ![](assets/read-segment-selection.png)
 
-   在新增對象後， **[!UICONTROL 複製]** 按鈕可讓您複製其名稱和ID：
+   新增對象後，**[!UICONTROL 複製]**&#x200B;按鈕可讓您複製其名稱和ID：
 
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
@@ -69,15 +69,15 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >只有具備以下條件的個人： **已實現** 和 **現有** 對象參與率狀態將進入歷程。 如需如何評估對象的詳細資訊，請參閱 [分段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >只有具有&#x200B;**已實現**&#x200B;和&#x200B;**現有**&#x200B;對象參與狀態的個人才會進入歷程。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
-1. 在 **[!UICONTROL 名稱空間]** 欄位，選擇要使用的名稱空間以識別個人。 依預設，此欄位會預先填入最後使用的名稱空間。 [進一步瞭解名稱空間](../event/about-creating.md#select-the-namespace).
+1. 在&#x200B;**[!UICONTROL 名稱空間]**&#x200B;欄位中，選擇要使用的名稱空間，以識別個人。 依預設，此欄位會預先填入最後使用的名稱空間。 [進一步瞭解名稱空間](../event/about-creating.md#select-the-namespace)。
 
    >[!NOTE]
    >
-   >如果屬於對象的個人在不同身分中沒有選取的身分（名稱空間），則無法進入歷程。 您只能選取以人物為基礎的身分名稱空間。 如果您已定義查閱表格的名稱空間（例如：產品查閱的ProductID名稱空間），將無法在 **名稱空間** 下拉式清單。
+   >如果屬於對象的個人在不同身分中沒有選取的身分（名稱空間），則無法進入歷程。 您只能選取以人物為基礎的身分名稱空間。 如果您已定義查閱表格的名稱空間（例如：產品查閱的ProductID名稱空間），它將無法在&#x200B;**名稱空間**&#x200B;下拉式清單中使用。
 
-1. 設定 **[!UICONTROL 讀取率]**. 這是每秒可以進入歷程的設定檔數目上限。 此費率僅適用於此活動，不適用於歷程中的其他活動。 例如，如果您想定義自訂動作的節流率，則需使用節流應用程式開發介面。 請參閱此 [頁面](../configuration/throttling.md).
+1. 設定&#x200B;**[!UICONTROL 讀取率]**。 這是每秒可以進入歷程的設定檔數目上限。 此費率僅適用於此活動，不適用於歷程中的其他活動。 例如，如果您想定義自訂動作的節流率，則需使用節流應用程式開發介面。 請參閱此[頁面](../configuration/throttling.md)。
 
    此值會儲存在歷程版本裝載中。 預設值為每秒5,000個設定檔。 您可以將此值從每秒500個設定檔修改為20,000個設定檔。
 
@@ -85,25 +85,25 @@ ht-degree: 6%
    >
    >每個沙箱的整體讀取率設定為每秒20,000個設定檔。 因此，在相同沙箱中同時執行的所有讀取對象讀取率，每秒最多可新增20,000個設定檔。 您無法修改此上限。
 
-1. 此 **[!UICONTROL 讀取對象]** 活動可讓您指定對象進入歷程的時間。 若要這麼做，請按一下 **[!UICONTROL 編輯歷程排程]** 連結以存取歷程的屬性，然後設定 **[!UICONTROL 排程器型別]** 欄位。
+1. **[!UICONTROL 讀取對象]**&#x200B;活動可讓您指定對象進入歷程的時間。 若要這麼做，請按一下&#x200B;**[!UICONTROL 編輯歷程排程]**&#x200B;連結以存取歷程的屬性，然後設定&#x200B;**[!UICONTROL 排程器型別]**&#x200B;欄位。
 
    ![](assets/read-segment-schedule.png)
 
-   依預設，對象會進入歷程 **[!UICONTROL 儘快]**. 如果您希望讓對象在特定日期/時間或循環進入歷程，請從清單中選取所需的值。
+   依預設，對象會儘快&#x200B;**[!UICONTROL 進入歷程]**。 如果您希望讓對象在特定日期/時間或循環進入歷程，請從清單中選取所需的值。
 
    >[!NOTE]
    >
-   >請注意 **[!UICONTROL 排程]** 區段僅在以下情況下可用： **[!UICONTROL 讀取對象]** 已在畫布中捨棄活動。
+   >請注意，**[!UICONTROL 排程]**&#x200B;區段僅在畫布中捨棄&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動時可用。
 
    ![](assets/read-segment-schedule-list.png)
 
-   **增量讀取** 選項：當具有循環的歷程時 **讀取對象** 第一次執行時，對象中的所有設定檔都會進入歷程。 此選項可讓您在第一次發生後，只將目標鎖定在自上次執行歷程以來進入對象的個人。
+   **增量讀取**&#x200B;選項：當具有週期性&#x200B;**讀取對象**&#x200B;的歷程首次執行時，對象中的所有設定檔都會進入歷程。 此選項可讓您在第一次發生後，只將目標鎖定在自上次執行歷程以來進入對象的個人。
 
        >[！NOTE]
        >
-       >如果您在歷程中鎖定[自訂上傳對象](../audience/about-audiences.md#segments-in-journey-optimizer)，只有在循環歷程中啟用此選項時，才會於第一次循環時擷取設定檔，因為這些對象已修正。
+       >如果您要在歷程中鎖定[自訂上傳對象](../audience/about-audiences.md#segments-in-journey-optimizer)，只有在循環歷程中啟用此選項時，才會於第一次循環時擷取設定檔，因為這些對象已修正。
    
-   **在重複時強制重新進入**：此選項可讓您讓歷程中仍存在的所有設定檔在下次執行時自動退出。 例如，如果您在每日循環歷程中等待2天，透過啟用此選項，設定檔將一律會在下次歷程執行（也就是之後的那天）中移動，無論它們是否在下次執行的對象中。 如果此歷程中設定檔的生命週期可能超過週期頻率，請勿啟用此選項以確保設定檔可完成其歷程。
+   **重複時強制重新進入**：此選項可讓您讓歷程中仍存在的所有設定檔在下次執行時自動退出。 例如，如果您在每日循環歷程中等待2天，透過啟用此選項，設定檔將一律會在下次歷程執行（也就是之後的那天）中移動，無論它們是否在下次執行的對象中。 如果此歷程中設定檔的生命週期可能超過週期頻率，請勿啟用此選項以確保設定檔可完成其歷程。
 
 <!--
 
@@ -126,23 +126,23 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->單次讀取對象歷程移至 **已完成** 狀態91天([歷程全域逾時](journey-properties.md#global_timeout))。 對於已排程的讀取對象，是在上次執行後的91天。
+>單次讀取對象歷程在歷程執行91天（[歷程全域逾時](journey-properties.md#global_timeout)）後移至&#x200B;**已完成**&#x200B;狀態。 對於已排程的讀取對象，是在上次執行後的91天。
 
 ## 測試並發佈歷程 {#testing-publishing}
 
-此 **[!UICONTROL 讀取對象]** 活動可讓您在單一設定檔上測試歷程。
+**[!UICONTROL 讀取對象]**&#x200B;活動可讓您在單一設定檔上測試歷程。
 
 要執行此操作，請啟動測試模式。
 
 ![](assets/read-segment-test-mode.png)
 
-照常設定並執行測試模式。 [瞭解如何測試歷程](testing-the-journey.md).
+照常設定並執行測試模式。 [瞭解如何測試歷程](testing-the-journey.md)。
 
-測試執行後， **[!UICONTROL 顯示記錄]** 按鈕可讓您檢視測試結果。 有關詳細資訊，請參閱 [本節](testing-the-journey.md#viewing_logs)
+測試執行後，**[!UICONTROL 顯示記錄]**&#x200B;按鈕可讓您檢視測試結果。 如需詳細資訊，請參閱[本節](testing-the-journey.md#viewing_logs)
 
 ![](assets/read-segment-log.png)
 
-測試成功後，您就可以發佈歷程(請參閱 [發佈歷程](publishing-the-journey.md))。 屬於對象的個人將於歷程屬性中指定的日期/時間進入歷程 **[!UICONTROL 排程器]** 區段。
+測試成功後，您就可以發佈歷程（請參閱[發佈歷程](publishing-the-journey.md)）。 屬於對象的個人將在歷程的屬性&#x200B;**[!UICONTROL 排程器]**&#x200B;區段中指定的日期/時間進入歷程。
 
 >[!NOTE]
 >
@@ -150,7 +150,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ## 受眾型歷程中的受眾目標定位
 
-受眾型歷程一律以 **讀取對象** 活動以擷取屬於Adobe Experience Platform對象的個人。
+以對象為基礎的歷程一律以&#x200B;**讀取對象**&#x200B;活動開始，以擷取屬於Adobe Experience Platform對象的個人。
 
 系統會定期擷取一次屬於對象的對象。
 
@@ -158,7 +158,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 **區段**
 
-您可以使用條件來執行分段，使用 **條件** 活動。 例如，您可以讓VIP人員採用特定路徑，讓非VIP人員採用其他路徑。
+您可以使用&#x200B;**條件**&#x200B;活動來使用條件來執行分段。 例如，您可以讓VIP人員採用特定路徑，讓非VIP人員採用其他路徑。
 
 區段可根據：
 
@@ -172,7 +172,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 **排除**
 
-相同 **條件** 用於分段的活動（請參閱上文）也可讓您排除部分母體。 例如，您可以排除VIP人員，方法是讓這些人員流入具有緊接在後面的結束步驟的分支。
+用於分段的相同&#x200B;**條件**&#x200B;活動（請參閱上文）也可讓您排除部分母體。 例如，您可以排除VIP人員，方法是讓這些人員流入具有緊接在後面的結束步驟的分支。
 
 此排除作業可能會在對象擷取之後發生、基於母體計數目的或沿著多步驟歷程發生。
 

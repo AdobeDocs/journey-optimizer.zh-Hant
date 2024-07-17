@@ -9,7 +9,7 @@ exl-id: ea79add2-1ea7-4c5c-ba67-f99d10975c4f
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 8%
 
 集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
 
-您可以透過向以下發出POST請求來建立集合： [!DNL Offer Library] API，同時提供容器ID。
+您可以向[!DNL Offer Library] API發出POST要求，同時提供容器ID來建立集合。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
+下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
 
-| 頁首名稱 | 值 |
+| 標題名稱 | 值 |
 | ----------- | ----- |
 | 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
@@ -61,7 +61,7 @@ curl -X POST \
 
 **回應**
 
-成功的回應會傳回關於新建立集合的資訊，包括其唯一的執行個體ID和位置 `@id`. 您可在後續步驟中使用執行個體ID來更新或刪除您的集合。 您可以使用您的獨特集合 `@id` 在稍後的教學課程中建立決定。
+成功的回應會傳回關於新建立集合的資訊，包括其唯一的執行個體識別碼和位置`@id`。 您可在後續步驟中使用執行個體ID來更新或刪除您的集合。 您可以在稍後的教學課程中使用您唯一的集合`@id`來建立決定。
 
 ```json
 {

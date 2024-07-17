@@ -23,7 +23,7 @@ ht-degree: 16%
 >abstract="變更將僅套用到選取的視圖。可以使用&#x200B;**瀏覽**&#x200B;模式找到並瀏覽到視圖。找不到您要尋找的視圖？"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="更多詳情"
 
-**單頁應用程式** (SPA)現在可以在網頁設計工具視覺編輯器中撰寫。 這可讓您選取要 **檢視** 您想要將網頁修改套用至。
+**單頁應用程式** (SPA)現在可以在網頁設計工具視覺化編輯器中撰寫。 這可讓您選取要套用網頁修改的特定的&#x200B;**檢視**。
 
 [透過此影片瞭解如何編寫單頁應用程式](#video)
 
@@ -33,21 +33,21 @@ ht-degree: 16%
 
 ## 在Web SDK實作中定義檢視 {#define-views}
 
-可在Adobe中運用XDM檢視 [!DNL Journey Optimizer] 讓行銷人員透過網頁視覺化編輯器在SPA上執行網頁個人化和實驗行銷活動。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hant){target="_blank"}
+Adobe[!DNL Journey Optimizer]可運用XDM檢視，讓行銷人員透過網頁視覺化編輯器在SPA上執行網頁個人化和實驗行銷活動。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hant){target="_blank"}
 
-若要能夠存取及編寫中的檢視 [!DNL Journey Optimizer] 使用者介面，請務必遵循下列步驟操作 [本節](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
+若要能夠在[!DNL Journey Optimizer]使用者介面中存取及編寫檢視，請務必遵循[本節](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}中列出的步驟。
 
 ## 在網頁設計工具中探索檢視 {#discover-views}
 
 在Adobe Experience Platform Web SDK實作中完成SPA設定後，您必須導覽您要套用修改之網站的所有檢視。 請遵循下列步驟。
 
-1. [建立網站行銷活動](create-web.md) 並存取 [網頁設計工具](edit-web-content.md).
+1. [建立網站行銷活動](create-web.md)並存取[網站設計工具](edit-web-content.md)。
 
    您目前所在的檢視畫面會顯示在左上方。
 
    ![](assets/web-designer-view-home.png)
 
-1. 交換至 **[!UICONTROL 瀏覽]** 模式。 [了解更多](../web/edit-web-content.md#browse-mode)
+1. 切換至&#x200B;**[!UICONTROL 瀏覽]**&#x200B;模式。 [了解更多](../web/edit-web-content.md#browse-mode)
 
    ![](assets/web-designer-view-browse.png)
 
@@ -61,13 +61,13 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->如果您尚未使用 **[!UICONTROL 瀏覽]** 模式，您將無法選取它們以套用您的修改。 [了解更多](#discover-views)
+>如果您尚未使用&#x200B;**[!UICONTROL 瀏覽]**&#x200B;模式探索到檢視，您將無法選取它們以套用您的修改。 [了解更多](#discover-views)
 
-1. 選取 **[!UICONTROL 修改]** 圖示來在左側顯示對應的窗格。
+1. 選取&#x200B;**[!UICONTROL 修改]**&#x200B;圖示以在左側顯示對應的窗格。
 
    ![](assets/web-designer-view-modifications-pane.png)
 
-1. 選取任何修改並按一下 **[!UICONTROL 更多動作]** 按鈕。 選取 **[!UICONTROL 套用至更多檢視]**.
+1. 選取任何修改，然後按一下旁邊的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕。 選取&#x200B;**[!UICONTROL 套用至更多檢視]**。
 
    ![](assets/web-designer-modifications-more-actions.png)
 
@@ -75,9 +75,9 @@ ht-degree: 16%
 
    ![](assets/web-designer-modifications-apply-to.png)
 
-1. 按一下 **[!UICONTROL 套用]**.
+1. 按一下&#x200B;**[!UICONTROL 套用]**。
 
-1. 交換至 **[!UICONTROL 瀏覽]** 用於檢查修改內容已套用至所需頁面的模式。
+1. 切換至&#x200B;**[!UICONTROL 瀏覽]**&#x200B;模式，檢查修改是否已套用至所要的頁面。
 
    ![](assets/web-designer-modifications-applied-view.png)
 
@@ -85,7 +85,7 @@ ht-degree: 16%
 
 此影片說明如何：
 
-* 探索SPA檢視，使用 **[!UICONTROL 瀏覽]** 模式
+* 使用&#x200B;**[!UICONTROL 瀏覽]**&#x200B;模式探索SPA檢視
 * 在目前的檢視上進行製作
 * 將網站修改套用至多個檢視或所有探索到的檢視
 * 對修改執行大量動作

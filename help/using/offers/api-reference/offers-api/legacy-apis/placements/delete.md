@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 刪除位置 {#delete-placement}
 
-有時可能需要移除(DELETE)位置。 只能刪除您在租使用者容器中建立的版位。 這可透過向以下對象執行DELETE請求來完成 [!DNL Offer Library] 使用您要刪除位置例項ID的API。
+有時可能需要移除(DELETE)位置。 只能刪除您在租使用者容器中建立的版位。 若要這麼做，請使用您要刪除之位置的例項ID對[!DNL Offer Library] API執行DELETE要求。
 
 **API格式**
 

@@ -11,7 +11,7 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 64%
+ht-degree: 68%
 
 ---
 
@@ -63,11 +63,11 @@ ht-degree: 64%
 | 日期 | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | 清單 | [distinct](../functions/functiondistinct.md) |
 | 清單 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| 清單 | [篩選](../functions/functionfilter.md) |
+| 清單 | [篩選器](../functions/functionfilter.md) |
 | 清單 | [getListItem](../functions/functiongetlistitem.md) |
 | 清單 | [in](../functions/functionin.md) |
 | 清單 | [相交](../functions/functionintersect.md) |
-| 清單 | [limit](../functions/functionlimit.md) |
+| 清單 | [限制](../functions/functionlimit.md) |
 | 清單 | [listSize](../functions/functionlistsize.md) |
 | 清單 | [serializeList](../functions/functionserializelist.md) |
 | 清單 | [sort](../functions/functionsort.md) |

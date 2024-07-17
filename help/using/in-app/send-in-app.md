@@ -10,7 +10,7 @@ exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
 source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 12%
 
 請依照下列步驟執行：
 
-1. 按一下 **[!UICONTROL 在裝置上預覽]**.
+1. 按一下&#x200B;**[!UICONTROL 在裝置]**&#x200B;上預覽。
 
    ![](assets/in_app_create_6.png)
 
-1. 從 **[!UICONTROL 連線到裝置]** 視窗，按一下 **[!UICONTROL 開始]**.
+1. 從&#x200B;**[!UICONTROL 連線到裝置]**&#x200B;視窗，按一下&#x200B;**[!UICONTROL 開始]**。
 
-1. 輸入 **[!UICONTROL 基礎URL]** ，然後按一下 **[!UICONTROL 下一個]**.
+1. 輸入應用程式的&#x200B;**[!UICONTROL 基底URL]**，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 
    ![](assets/in_app_create_7.png)
 
@@ -40,9 +40,9 @@ ht-degree: 12%
 
 定義應用程式內訊息後，您就可以使用測試設定檔來預覽。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
 
-若要這麼做，請按一下 **[!UICONTROL 模擬內容]** 然後新增測試設定檔，以使用測試設定檔資料檢查您的訊息。
+若要這麼做，請按一下&#x200B;**[!UICONTROL 模擬內容]**，然後新增測試設定檔，以使用測試設定檔資料檢查您的訊息。
 
-有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱 [內容管理](../content-management/preview-test.md) 區段。
+有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱[內容管理](../content-management/preview-test.md)區段。
 
 ## 檢閱並啟用您的應用程式內通知{#in-app-review}
 
@@ -50,13 +50,13 @@ ht-degree: 12%
 
 請依照下列步驟執行：
 
-1. 使用 **[!UICONTROL 檢閱以啟動]** 按鈕以顯示訊息摘要。
+1. 使用&#x200B;**[!UICONTROL 檢閱啟動]**&#x200B;按鈕顯示訊息摘要。
 
    摘要可讓您視需要修改行銷活動，以及檢查是否有任何引數不正確或遺失。
 
    ![](assets/in_app_create_5.png)
 
-1. 檢查您的行銷活動是否已正確設定，然後按一下 **[!UICONTROL 啟動]**.
+1. 檢查您的行銷活動是否已正確設定，然後按一下[啟動]。****
 
 您的行銷活動現在已啟用。 行銷活動中設定的應用程式內通知會立即傳送，或於指定日期傳送。
 

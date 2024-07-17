@@ -11,17 +11,17 @@ exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 # 進階運算式編輯器語法 {#syntax}
 
-使用時的語法基本知識 [進階運算式編輯器](expressionadvanced.md) 如下所列。 以下提供進階運算式編輯器的使用範例： [此頁面](advanced-editor-use-cases.md).
+以下列出使用[進階運算式編輯器](expressionadvanced.md)時的語法基本知識。 在[此頁面](advanced-editor-use-cases.md)中有使用進階運算式編輯器的範例。
 
 ## 括弧和運算式優先順序 {#parentheses-and-expression-priority}
 
-括弧可用來讓複雜的運算式更容易閱讀。 _(&lt;expression>)_ 相當於 _&lt;expression>_. 括弧也可用來定義評估順序和關聯性。
+括弧可用來讓複雜的運算式更容易閱讀。 _（&lt;運算式>）_&#x200B;相當於&#x200B;_&lt;運算式>_。 括弧也可用來定義評估順序和關聯性。
 
 運算式將由左至右評估。 必須套用算術運運算元的關聯性：乘法和除法優先於加法和減法。 為了強制特定順序，必須加入括弧以分隔操作。 例如：
 
@@ -36,8 +36,8 @@ ht-degree: 2%
 
 以下是不同的區分大小寫規則：
 
-* 所有運運算元（和、或等） 應該寫成小寫。 例如， _`<expression1>`和`<expression2>`_ 是有效的運算式，但運算式 _`<expression1>`和`<expression2>`_ 不是。
-* 所有函式名稱都區分大小寫。 例如， _inAudience()_ 有效，但函式 _INAUDIENCE()_ 不是。
+* 所有運運算元（和、或等） 應該寫成小寫。 例如，_`<expression1>`和`<expression2>`_&#x200B;是有效的運算式，而運算式&#x200B;_`<expression1>`AND`<expression2>`_&#x200B;則否。
+* 所有函式名稱都區分大小寫。 例如，_inAudience()_&#x200B;有效，而函式&#x200B;_INAUDIENCE()_&#x200B;無效。
 * 欄位參照和常數值區分大小寫：它們不是語言的內建元素（與運運算元和函式相反），而是由一般使用者撰寫。
 
 ## 傳回的運算式型別 {#returned-expression-type}

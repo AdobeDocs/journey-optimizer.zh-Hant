@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: uuid
+title: UUID
 description: 瞭解函式uuid
 feature: Journeys
 role: Data Engineer, Architect
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 ---
 
-# uuid {#uuid}
+# UUID {#uuid}
 
 產生隨機UUID （通用唯一識別碼）。
 

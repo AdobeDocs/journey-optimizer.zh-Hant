@@ -9,7 +9,7 @@ exl-id: 12c49f4c-a1b5-4841-ab98-663b4c771fb6
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 10%
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
+下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
 
-| 頁首名稱 | 值 |
+| 標題名稱 | 值 |
 | ----------- | ----- |
 | 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
@@ -72,7 +72,7 @@ curl -X POST \
 
 **回應**
 
-成功的回應會傳回關於新建立決定規則的資訊，包括其唯一的執行個體ID和位置 `@id`. 您可在後續步驟中使用執行個體ID來更新或刪除您的決定規則。 您可以使用唯一決定規則 `@id` 在稍後的教學課程中，以建立個人化優惠方案。
+成功的回應會傳回關於新建立決定規則的資訊，包括其唯一的執行個體識別碼和位置`@id`。 您可在後續步驟中使用執行個體ID來更新或刪除您的決定規則。 您可在稍後的教學課程中使用唯一決定規則`@id`來建立個人化優惠。
 
 ```json
 {

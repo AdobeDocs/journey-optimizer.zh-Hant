@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 查詢決定規則 {#lookup-decision-rule}
 
-您可以透過向以下網址發出GET要求，查詢特定的決策規則： [!DNL Offer Library] 包含決定規則的API `id` 在請求路徑中。
+您可以透過向[!DNL Offer Library] API發出GET要求來查詢特定的決定規則，該API在要求路徑中包含決定規則`id`。
 
 **API格式**
 
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234' 
 
 **回應**
 
-成功的回應會傳回您查詢的特定決定規則的詳細資料，包括其唯一決定規則的相關資訊 `id`.
+成功的回應會傳回您查詢的特定決定規則的詳細資料，包括其唯一決定規則`id`的相關資訊。
 
 ```json
   {

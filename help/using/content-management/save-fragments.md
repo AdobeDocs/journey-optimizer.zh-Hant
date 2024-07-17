@@ -17,19 +17,19 @@ ht-degree: 11%
 
 # 將內容另存為片段 {#save-as-fragment}
 
-在中編輯內容時 [!DNL Journey Optimizer]，您可以將全部或部分內容儲存為片段，以供日後重複使用。 您可以將內容另存為片段 [從電子郵件Designer](#save-as-visual-fragment)，或 [從運算式編輯器](#save-as-expression-fragment).
+在[!DNL Journey Optimizer]中編輯內容時，您可以將全部或部分內容儲存為片段，以供日後重複使用。 您可以從電子郵件Designer](#save-as-visual-fragment)儲存內容為片段[，或從運算式編輯器](#save-as-expression-fragment)儲存內容[。
 
 ## 另存為視覺片段 {#save-as-visual-fragment}
 
 若要將電子郵件Designer的內容儲存為片段，請遵循下列步驟：
 
-1. 在 [傳送Designer電子郵件](../email/get-started-email-design.md)，按一下畫面右上方的省略符號。
+1. 在[電子郵件Designer](../email/get-started-email-design.md)中，按一下熒幕右上方的省略符號。
 
-1. 選取 **[!UICONTROL 另存為片段]** （從下拉式功能表）。
+1. 從下拉式選單中選取&#x200B;**[!UICONTROL 另存為片段]**。
 
    ![](assets/fragment-save-as.png)
 
-1. 此 **[!UICONTROL 另存為片段]** 熒幕顯示。 在該處選取您要納入片段中的元素，包括個人化欄位和動態內容。 請注意，片段中不支援內容屬性。
+1. **[!UICONTROL 另存為片段]**&#x200B;畫面隨即顯示。 在該處選取您要納入片段中的元素，包括個人化欄位和動態內容。 請注意，片段中不支援內容屬性。
 
    ![](assets/fragment-save-as-screen.png)
 
@@ -37,13 +37,13 @@ ht-degree: 11%
    >
    >您只能選取彼此相鄰的截面。 您無法選取空的結構或其他片段。
 
-1. 按一下 **[!UICONTROL 建立]** 並填入片段名稱和說明（如有需要）。
+1. 按一下「**[!UICONTROL 建立]**」並填入片段名稱和說明（如有需要）。
 
-1. 若要指派自訂或核心資料使用標籤給片段，請按一下 **[!UICONTROL 管理存取權]** 按鈕來切換畫面。 [深入瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md).
+1. 若要指派自訂或核心資料使用標籤給片段，請按一下畫面上方的&#x200B;**[!UICONTROL 管理存取權]**&#x200B;按鈕。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)。
 
-1. 選擇或建立Adobe Experience Platform標籤，從 **標籤** 將範本分類以改善搜尋的欄位。 [了解更多](../start/search-filter-categorize.md#tags)
+1. 從&#x200B;**標籤**&#x200B;欄位選取或建立Adobe Experience Platform標籤，將範本分類以改善搜尋。 [了解更多](../start/search-filter-categorize.md#tags)
 
-1. 按一下 **[!UICONTROL 建立]**。片段會新增至 [片段清單](#access-manage-fragments) 使用 **草稿** 狀態。 它會變成獨立的片段，可當作該清單中的任何其他視覺片段使用。
+1. 按一下 **[!UICONTROL 建立]**。片段已新增至[片段清單](#access-manage-fragments)，且狀態為&#x200B;**草稿**。 它會變成獨立的片段，可當作該清單中的任何其他視覺片段使用。
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ ht-degree: 11%
 
 若要將內容另存為運算式片段，請遵循下列步驟。
 
-1. 在 [個人化編輯器](../personalization/personalization-build-expressions.md) 介面，建立運算式，然後按一下 **[!UICONTROL 另存為片段]**.
+1. 在[個人化編輯器](../personalization/personalization-build-expressions.md)介面中，建置運算式，然後按一下&#x200B;**[!UICONTROL 另存為片段]**。
 
    >[!NOTE]
    >
@@ -72,10 +72,10 @@ ht-degree: 11%
 
    ![](assets/expression-fragment-save-as.png)
 
-1. 按一下 **[!UICONTROL 儲存片段]**.
+1. 按一下&#x200B;**[!UICONTROL 儲存片段]**。
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. 片段會新增至 [片段清單](#access-manage-fragments) 使用 **草稿** 狀態。 它會變成獨立的片段，可當作該清單中的任何其他運算式片段使用。
+1. 片段已新增至[片段清單](#access-manage-fragments)，且狀態為&#x200B;**草稿**。 它會變成獨立的片段，可當作該清單中的任何其他運算式片段使用。
 
 1. 為了能夠在您的歷程和行銷活動中使用片段，您需要讓它上線。 [瞭解如何預覽和發佈片段](../content-management/create-fragments.md#publish)

@@ -23,13 +23,13 @@ ht-degree: 65%
 >title="關於歷程設定"
 >abstract="為了傳送包含歷程的訊息，您需要設定資料來源、事件和動作。資料來源可讓您定義系統的連線，以擷取將用於歷程的其他資訊，例如在您的條件中。事件可讓您在接收事件時觸發您的歷程。自訂動作可讓您連線到協力廠商系統以傳送訊息。如果您使用 Journey Optimizer 內建的訊息功能，則無需設定動作。"
 
-若要在歷程中傳送訊息，您需要設定 **[!UICONTROL 資料來源]**， **[!UICONTROL 活動]** 和 **[!UICONTROL 動作]**.
+若要傳送包含歷程的訊息，您必須設定&#x200B;**[!UICONTROL 資料來源]**、**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 動作]**。
 
 ![](assets/admin-menu.png)
 
 ## 資料來源 {#data-sources}
 
-資料來源設定可讓您定義系統連線，以擷取將用於歷程的其他資訊。 [了解更多](../../using/datasource/about-data-sources.md)
+資料Source設定可讓您定義系統連線，以擷取將用於歷程的其他資訊。 [了解更多](../../using/datasource/about-data-sources.md)
 
 ## 活動 {#events}
 
@@ -45,7 +45,7 @@ Journey Optimizer訊息功能內建：您只需要將頻道動作活動新增到
 
 定義[事件有效負載](../event/about-creating.md#define-the-payload-fields)、[欄位群組有效負載](../datasource/configure-data-sources.md#define-field-groups)，以及在[運算式編輯器](../building-journeys/expression/expressionadvanced.md)中選取欄位時，除了欄位名稱外，還會顯示顯示名稱。此資訊會從「Experience 資料模型」的結構定義中擷取。
 
-如果在設定結構時提供了 &quot;xdm:alternateDisplayInfo&quot; 之類的描述元，則好記的名稱會取代顯示名稱。它在使用「eVar」和一般欄位時特別有用。 您可以透過 API 呼叫來設定好記名稱描述因子。 如需詳細資訊，請參閱 [Schema Registry開發人員指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant){target="_blank"}.
+如果在設定結構時提供了 &quot;xdm:alternateDisplayInfo&quot; 之類的描述元，則好記的名稱會取代顯示名稱。它在使用「eVar」和一般欄位時特別有用。 您可以透過 API 呼叫來設定好記名稱描述因子。 如需詳細資訊，請參閱[結構描述登入開發人員指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant){target="_blank"}。
 
 ![](assets/xdm-from-descriptors.png)
 

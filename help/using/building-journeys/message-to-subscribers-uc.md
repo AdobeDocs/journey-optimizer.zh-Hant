@@ -20,17 +20,17 @@ ht-degree: 17%
 
 此使用案例的目的是建立歷程，以傳送訊息給清單的訂閱者。
 
-在此範例中， **[!UICONTROL 同意和偏好設定詳細資料]** 欄位群組來源 [!DNL Adobe Experience Platform] 已使用。 若要尋找此欄位群組，請從 **[!UICONTROL 資料管理]** 功能表，選擇 **[!UICONTROL 方案]**. 在 **[!UICONTROL 欄位群組]** 標籤，在搜尋欄位中輸入欄位群組的名稱。
+在此範例中，使用[!DNL Adobe Experience Platform]的&#x200B;**[!UICONTROL 同意和偏好設定詳細資料]**&#x200B;欄位群組。 若要尋找此欄位群組，請從&#x200B;**[!UICONTROL 資料管理]**&#x200B;功能表選擇&#x200B;**[!UICONTROL 結構描述]**。 在&#x200B;**[!UICONTROL 欄位群組]**&#x200B;索引標籤上，在搜尋欄位中輸入欄位群組的名稱。
 
-![此欄位群組包含訂閱元素](assets/consent-and-preference-details-field-group.png)
+![此欄位群組包含訂閱專案](assets/consent-and-preference-details-field-group.png)
 
 若要設定此歷程，請遵循下列步驟：
 
-1. 建立以「 」開始的歷程 **[!UICONTROL 讀取]** 活動。 [閱讀全文](journey-gs.md)。
-1. 新增 **[!UICONTROL 電子郵件]** 歷程的動作活動。 [閱讀全文](journeys-message.md)。
-1. 在 **[!UICONTROL 電子郵件引數]** 的區段 **[!UICONTROL 電子郵件]** 活動設定，取代預設的電子郵件地址(`PersonalEmail.adress`)填入訂閱者清單的電子郵件地址：
+1. 建立以&#x200B;**[!UICONTROL 讀取]**&#x200B;活動開始的歷程。 [閱讀全文](journey-gs.md)。
+1. 將&#x200B;**[!UICONTROL 電子郵件]**&#x200B;動作活動新增至歷程。 [閱讀全文](journeys-message.md)。
+1. 在&#x200B;**[!UICONTROL 電子郵件]**&#x200B;活動設定的&#x200B;**[!UICONTROL 電子郵件引數]**&#x200B;區段中，將預設電子郵件地址(`PersonalEmail.adress`)取代為清單訂閱者的電子郵件地址：
 
-   1. 按一下 **[!UICONTROL 啟用引數覆寫]** 圖示右側 **[!UICONTROL 地址]** 欄位，然後按一下 **[!UICONTROL 編輯]** 圖示。
+   1. 按一下&#x200B;**[!UICONTROL 位址]**&#x200B;欄位右側的&#x200B;**[!UICONTROL 啟用引數覆寫]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示。
 
       ![](assets/message-to-subscribers-uc-1.png)
 
@@ -49,13 +49,13 @@ ht-degree: 17%
       | `entry` | 根據選取的名稱空間參考對應元素 | 請參閱特定訂閱清單 |
       | `firstEntryKey` | 擷取對應的第一個專案索引鍵 | 擷取訂閱者的第一個電子郵件地址 |
 
-      在此範例中，訂閱清單名為 `daily-email`. 電子郵件地址在中定義為金鑰 `subscribers` 對應，此對應會連結至訂閱清單對應。
+      在此範例中，訂閱清單名為`daily-email`。 電子郵件地址在`subscribers`對應中定義為金鑰，此對應連結至訂閱清單對應。
 
-      深入瞭解 [欄位參考](expression/field-references.md) 在運算式中。
+      深入瞭解運算式中欄位](expression/field-references.md)的[參考。
 
       ![](assets/message-to-subscribers-uc-2.png)
 
-   1. 在 **[!UICONTROL 新增運算式]** 對話方塊，按一下 **[!UICONTROL 確定]**.
+   1. 在&#x200B;**[!UICONTROL 新增運算式]**&#x200B;對話方塊中，按一下&#x200B;**[!UICONTROL 確定]**。
 
 >[!CAUTION]
 >

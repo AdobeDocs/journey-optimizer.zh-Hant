@@ -18,17 +18,17 @@ ht-degree: 7%
 
 ## Access 內容範本 {#access}
 
-若要存取內容範本清單，請選取 **[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]** 從左側功能表。
+若要存取內容範本清單，請從左側功能表選取&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]**。
 
 ![](assets/content-template-list.png)
 
-在目前沙箱上建立的所有範本 — 來自使用下列範本的歷程或行銷活動： **[!UICONTROL 另存為範本]** 選項，選自 **[!UICONTROL 內容範本]** 功能表 — 顯示。 [瞭解如何建立範本](#create-content-templates)
+所有在目前沙箱上建立的範本(來自歷程或使用&#x200B;**[!UICONTROL 另存為範本]**&#x200B;選項（來自&#x200B;**[!UICONTROL 內容範本]**&#x200B;功能表）的行銷活動)都會顯示。 [瞭解如何建立範本](#create-content-templates)
 
 您可以依下列方式排序內容範本：
 * 類型
 * Channel
 * 建立或修改日期
-* 標籤 —  [進一步瞭解標籤](../start/search-filter-categorize.md#tags)
+* 標籤 — [進一步瞭解標籤](../start/search-filter-categorize.md#tags)
 
 您也可以選擇只顯示您自己建立或修改的專案。
 
@@ -40,7 +40,7 @@ ht-degree: 7%
 
   ![](assets/content-template-edit.png)
 
-* 若要刪除範本，請選取 **[!UICONTROL 更多動作]** 按鈕並選取 **[!UICONTROL 刪除]**.
+* 若要刪除範本，請選取所要範本旁的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕，並選取&#x200B;**[!UICONTROL 刪除]**。
 
   ![](assets/content-template-list-delete.png)
 
@@ -50,7 +50,7 @@ ht-degree: 7%
 
 ## 將範本顯示為縮圖 {#template-thumbnails}
 
-選取 **[!UICONTROL 格點檢視]** 模式，將每個範本顯示為縮圖。
+選取&#x200B;**[!UICONTROL 格線檢視]**&#x200B;模式，將每個範本顯示為縮圖。
 
 >[!AVAILABILITY]
 >

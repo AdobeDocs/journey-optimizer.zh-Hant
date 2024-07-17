@@ -9,7 +9,7 @@ exl-id: 52fbf683-d86f-43c6-be1a-c06141b64b16
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 版位是用來展示優惠方案的容器。 版位有助於確保正確的選件內容顯示在訊息的正確位置。 將內容新增至優惠方案時，系統會要求您選取可顯示該內容的版位。
 
-您可以透過對以下專案執行單一GET請求，檢視容器內所有位置的清單 [!DNL Offer Library] API。
+您可以透過對[!DNL Offer Library] API執行單一GET要求，來檢視容器中所有位置的清單。
 
 **API格式**
 
@@ -42,10 +42,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `q` | 在選取的欄位中搜尋的可選查詢字串。 查詢字串應為小寫，並可由雙引號包圍，以防止加以代碼化及逸出特殊字元。 字元 `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊意義，在查詢字串中出現時應該以反斜線逸出。 | 網站JSON |
+| `q` | 在選取的欄位中搜尋的可選查詢字串。 查詢字串應為小寫，並可由雙引號包圍，以防止加以代碼化及逸出特殊字元。 字元`+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊意義，在查詢字串中出現時應該以反斜線逸出。 | 網站JSON |
 | `qop` | 將AND或OR運運算元套用至q查詢字串引數中的值。 | `AND` / `OR` |
-| `field` | 要限制搜尋的選用欄位清單。 此引數可重複出現，如下所示： field=field1[，field=field2，...] 和（路徑運算式的形式為點分隔的路徑，例如_instance.xdm：name） | `_instance.xdm:name` |
-| `orderBy` | 依特定屬性排序結果。 新增 `-` 在標題之前(`orderby=-title`)會依標題以遞減順序(Z-A)排序專案。 | `-repo:createdDate` |
+| `field` | 要限制搜尋的選用欄位清單。 此引數可重複使用，如下所示： field=field1[、field=field2，...]和（路徑運算式採用點分隔路徑的形式，例如_instance.xdm：name） | `_instance.xdm:name` |
+| `orderBy` | 依特定屬性排序結果。 在標題(`orderby=-title`)前新增`-`將會依標題以遞減順序(Z-A)排序專案。 | `-repo:createdDate` |
 | `limit` | 限制傳回的版位數。 | `limit=5` |
 
 **要求**

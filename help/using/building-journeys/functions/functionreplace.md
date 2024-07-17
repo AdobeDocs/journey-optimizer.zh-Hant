@@ -33,7 +33,7 @@ ht-degree: 11%
 | 參數 | 類型 |
 |-----------|--------------|
 | 基底 | 字串 |
-| Target | 字串(RegExp) |
+| 目標 | 字串(RegExp) |
 | 取代 | 字串 |
 
 ## 簽章與傳回的型別
@@ -53,16 +53,16 @@ ht-degree: 11%
 由於目標引數是RegExp，因此根據您要取代的字串，您可能需要將部分字元逸出。 其範例如下：
 
 * 要評估的字串： `|OFFER_A|OFFER_B`
-* 由設定檔屬性提供 `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
+* 由設定檔屬性`#{ExperiencePlatform.myFieldGroup.profile.myOffers}`提供
 * 要取代的字串： `|OFFER_A`
 * 字串取代為： `''`
-* 您需要新增 `\\` 早於 `|` 字元。
+* 您必須在`|`字元前新增`\\`。
 
 運算式為：
 
 `replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|OFFER_A', '')`
 
-傳回的字串為： `|OFFER_B`
+傳回的字串是： `|OFFER_B`
 
 您也可以建置要由指定屬性取代的字串：
 

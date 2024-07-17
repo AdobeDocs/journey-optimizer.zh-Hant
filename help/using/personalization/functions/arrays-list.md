@@ -9,7 +9,7 @@ exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 ## 只計算null {#count-only-null}
 
-此 `countOnlyNull` 函式用於計算清單中null值的數量。
+`countOnlyNull`函式用於計算清單中null值的數目。
 
 **語法**
 
@@ -35,9 +35,9 @@ ht-degree: 6%
 
 傳回3。
 
-## Null計數 {#count-with-null}
+## 計算 Null {#count-with-null}
 
-此 `countWithNull` 函式用於計算清單中的所有元素，包括null值。
+`countWithNull`函式用於計算包含null值的清單的所有元素。
 
 **語法**
 
@@ -53,9 +53,9 @@ ht-degree: 6%
 
 傳回6。
 
-## Distinct{#distinct}
+## 相異{#distinct}
 
-此 `distinct` 函式用於從已移除重複值的陣列或清單中取得值。
+`distinct`函式用於從移除重複值的陣列或清單中取得值。
 
 **語法**
 
@@ -71,9 +71,9 @@ ht-degree: 6%
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
 
-## Null的相異計數 {#distinct-count-with-null}
+## Null 的相異計數 {#distinct-count-with-null}
 
-此 `distinctCountWithNull` 函式用於計算清單中不同值的數量，包括null值。
+`distinctCountWithNull`函式用於計算清單中包括null值的不同值數目。
 
 **語法**
 
@@ -89,9 +89,9 @@ ht-degree: 6%
 
 傳回3。
 
-## 第一個專案{#head}
+## 第一個項目{#head}
 
-此 `head` 函式用於傳回陣列或清單中的第一個專案。
+`head`函式用來傳回陣列或清單中的第一個專案。
 
 **語法**
 
@@ -101,15 +101,15 @@ ht-degree: 6%
 
 **範例**
 
-下列作業會傳回價格最高的前五個訂單中的第一個。 關於的更多資訊 `topN` 函式位於 [第一 `n` 在陣列中](#first-n) 區段。
+下列作業會傳回價格最高的前五個訂單中的第一個。 有關`topN`函式的詳細資訊可在陣列](#first-n)區段的[第一個`n`中找到。
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## 第一 `n` 在陣列中 {#first-n}
+## 陣列中的前`n` {#first-n}
 
-此 `topN` 函式用於傳回第一個 `N` 在陣列中的專案，當根據給定的數值運算式依遞增順序排序時。
+當根據給定的數值運算式依遞增順序排序時，`topN`函式用來傳回陣列中的前`N`個專案。
 
 **語法**
 
@@ -131,9 +131,9 @@ ht-degree: 6%
 {%= topN(orders,price, 5) %}
 ```
 
-## 在{#in}
+## 位於{#in}
 
-此 `in` 函式是用來決定專案是陣列或清單的成員。
+`in`函式是用來判斷專案是陣列或清單的成員。
 
 **語法**
 
@@ -149,9 +149,9 @@ ht-degree: 6%
 {%= in (person.birthMonth, [3, 6, 9]) %}
 ```
 
-## 包含{#includes}
+## 包括{#includes}
 
-此 `includes` 函式是用來決定陣列或清單是否包含指定專案。
+`includes`函式是用來判斷陣列或清單是否包含指定的專案。
 
 **語法**
 
@@ -169,7 +169,7 @@ ht-degree: 6%
 
 ## 相交{#intersects}
 
-此 `intersects` 函式是用來判斷兩個陣列或清單是否至少有一個通用成員。
+`intersects`函式是用來判斷兩個陣列或清單是否至少有一個通用成員。
 
 **語法**
 
@@ -205,9 +205,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## 上次 `n` 在陣列中{#last-n}
+## 陣列中的最後`n`{#last-n}
 
-此 `bottomN` 函式用於傳回最後 `N` 在陣列中的專案，當根據給定的數值運算式依遞增順序排序時。
+當根據給定的數值運算式依遞增順序排序時，`bottomN`函式用於傳回陣列中的最後`N`個專案。
 
 **語法**
 
@@ -231,11 +231,11 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ## 不在{#notin}
 
-此 `notIn` 函式是用來判斷專案是否不是陣列或清單的成員。
+`notIn`函式是用來判斷專案是否不是陣列或清單的成員。
 
 >[!NOTE]
 >
->此 `notIn` 函式 *另外* 可確保這兩個值都不等於null。 因此，結果並非完全否定 `in` 函式。
+>`notIn`函式&#x200B;*也*&#x200B;可確保這兩個值都不等於null。 因此，結果不是`in`函式的完全否定。
 
 **語法**
 
@@ -252,9 +252,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 
 
-## 子集：{#subset}
+## 子集: {#subset}
 
-此 `subsetOf` 函式來判斷特定陣列（陣列A）是否是另一個陣列（陣列B）的子集。 換句話說，陣列A中的所有元素都是陣列B的元素。
+`subsetOf`函式是用來判斷特定陣列（陣列A）是否是另一個陣列（陣列B）的子集。 換句話說，陣列A中的所有元素都是陣列B的元素。
 
 **語法**
 
@@ -270,9 +270,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 {%= subsetOf(person.favoriteCities,person.visitedCities) %}
 ```
 
-## 超集{#superset}
+## 超集: {#superset}
 
-此 `supersetOf` 函式是用來判斷特定陣列（陣列A）是否是另一個陣列（陣列B）的超集。 換句話說，該陣列A包含陣列B中的所有元素。
+`supersetOf`函式是用來判斷特定陣列（陣列A）是否是另一個陣列（陣列B）的超集。 換句話說，該陣列A包含陣列B中的所有元素。
 
 **語法**
 

@@ -9,7 +9,7 @@ exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 ## 平均{#average}
 
-此 `average` 函式傳回陣列中所有選取值的算術平均值。
+`average`函式傳回陣列中所有選取值的算術平均值。
 
 **語法**
 
@@ -37,7 +37,7 @@ ht-degree: 7%
 
 ## 計數{#count}
 
-此 `count` 函式傳回給定陣列中的元素數。
+`count`函式傳回指定陣列中的元素數目。
 
 **語法**
 
@@ -55,7 +55,7 @@ ht-degree: 7%
 
 ## 最大值{#max}
 
-此 `max` 函式傳回陣列中所有選取值的最大值。
+`max`函式傳回陣列中所有選取值的最大值。
 
 **語法**
 
@@ -73,7 +73,7 @@ ht-degree: 7%
 
 ## 最小值{#min}
 
-此 `min` 函式傳回陣列中所有選取值的最小值。
+`min`函式傳回陣列中所有選取值的最小值。
 
 **語法**
 
@@ -89,9 +89,9 @@ ht-degree: 7%
 {%=min(orders.order.price) %}
 ```
 
-## Sum{#sum}
+## 總和{#sum}
 
-此 `sum` 函式傳回陣列中所有選定值的總和。
+`sum`函式傳回陣列中所有選取值的總和。
 
 **語法**
 

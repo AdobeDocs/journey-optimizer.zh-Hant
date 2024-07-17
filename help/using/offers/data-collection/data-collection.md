@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 2%
+source-wordcount: '386'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 2%
 ## 瞭解資料彙集
 
 您可以在Adobe Experience Platform中收集offer decisioning意見回饋，包括顯示哪些優惠方案以及使用者如何與其互動。 此資料可用於：
-* 構成 [決定管理報表](../reports/get-started-events.md)；
-* 使用 [頻率限定](../offer-library/add-constraints.md#capping) 規則；
-* 建置 [AI模型](../ranking/create-ranking-strategies.md) ，可作為排名方法使用。
+* 構成[決定管理報告](../reports/get-started-events.md)；
+* 使用[頻率限定](../offer-library/add-constraints.md#capping)規則；
+* 正在建置可以做為排名方法的[AI模型](../ranking/create-ranking-strategies.md)。
 
 ## 事件型別
 
@@ -28,25 +28,25 @@ ht-degree: 2%
 
 ### 決定事件
 
-每次決策管理做出決策時，與該決策事件相關的資訊就是 **自動** 已傳送至所有管道的Adobe Experience Platform。 [了解更多](../reports/get-started-events.md)
+每次決策管理做出決策時，該決策事件的相關資訊都會自動&#x200B;**傳送**&#x200B;至所有管道的Adobe Experience Platform。 [了解更多](../reports/get-started-events.md)
 
 ### 曝光和點選事件
 
 決定管理曝光次數和點按次數定義如下：
 
-* 一個 **印象** 事件是向使用者顯示選件時。
+* 向使用者顯示選件時發生&#x200B;**印象**&#x200B;事件。
 
-* A **按一下** 事件是指使用者點按或互動選件時。
+* **click**&#x200B;事件是使用者點按或互動選件時。
 
-系統會根據「 」擷取曝光數與點按數的意見反應 [!DNL Journey Optimizer] 使用的管道。
+系統會根據使用的[!DNL Journey Optimizer]管道，擷取曝光數與點按數的回饋。
 
-**電子郵件** 編寫者 [!DNL Journey Optimizer] **自動** 追蹤曝光次數和點按次數。
+**電子郵件**&#x200B;由[!DNL Journey Optimizer]編寫&#x200B;**自動**&#x200B;追蹤閱聽和點按。
 
-不過， **大部分管道** 要求將曝光數和點按數資料以AS形式傳送至Adobe Experience Platform **體驗事件**. 其中包括：
+不過，**大部分的管道**&#x200B;都需要曝光數和點按數資料，才能以&#x200B;**體驗事件**&#x200B;的形式傳送到Adobe Experience Platform。 其中包括：
 
-* 網頁使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant){target="_blank"} 以呈現選件
+* 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}呈現選件的網頁
 
-* 使用的行動應用程式 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* 使用[Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}來轉譯選件的行動應用程式 — [深入瞭解](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * 資訊站
 * 透過協力廠商應用程式傳送的訊息
   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
@@ -57,12 +57,12 @@ ht-degree: 2%
 
 ### 自訂事件
 
-與您優惠相連結的自訂事件回饋，可根據您自己的偏好設定傳送到Adobe Experience Platform。 例如，如果選件有多個按鈕，例如 *有興趣*， *不感興趣*&#x200B;等等，您可能會想要分別傳送這些事件，但這些事件也可以以體驗事件的形式傳送。
+與您優惠相連結的自訂事件回饋，可根據您自己的偏好設定傳送到Adobe Experience Platform。 例如，如果選件有多個按鈕，例如&#x200B;*感興趣*、*不感興趣*&#x200B;等，您可能想要分別傳送這些事件，但這些事件也可以以體驗事件的形式傳送。
 
 ## 傳送意見回饋資料
 
 若要傳送意見反應資料，您必須建立資料集以收集事件，並針對每種事件型別定義要傳送至Adobe Experience Platform的體驗事件。
 
-* 瞭解如何建立要在其中收集體驗事件的資料集 [本節](create-dataset.md).
+* 瞭解如何建立將在[此區段](create-dataset.md)中收集體驗事件的資料集。
 
-* 瞭解如何定義體驗事件，以在中傳送意見反應資料 [本節](schema-requirement.md).
+* 在[本節](schema-requirement.md)中瞭解如何定義要傳送意見回饋資料的體驗事件。

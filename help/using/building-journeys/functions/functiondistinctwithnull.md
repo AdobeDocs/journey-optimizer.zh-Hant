@@ -10,7 +10,7 @@ exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 傳回給定清單的不同值或物件。 如果清單中至少有一個null專案，則傳回的清單中會出現null專案。
 
-請注意，引數 `<listObject>` 不支援此函式。
+請注意，此函式不支援引數`<listObject>`。
 
 ## 類別
 
@@ -72,4 +72,4 @@ ht-degree: 6%
 
 `distinctWithNull([10,2,10,null])`
 
-傳回 [10， 2，空值]
+傳回[10， 2， null]

@@ -23,15 +23,15 @@ ht-degree: 0%
 每個角色都包含允許使用者存取不同功能的許可權。
 它們可以分為兩種型別：
 
-* **高階許可權**：代表可指派給的不同許可權 **[!UICONTROL 角色]**，例如 **[!DNL Publish journeys]** 和 **[!DNL Manage subdomains delegation]**. 高層級許可權包含低層級許可權。 高層級許可權詳見 [此頁面](ootb-permissions.md).
+* **高階許可權**：代表可指派給&#x200B;**[!UICONTROL 角色]**&#x200B;的不同許可權，例如&#x200B;**[!DNL Publish journeys]**&#x200B;和&#x200B;**[!DNL Manage subdomains delegation]**。 高層級許可權包含低層級許可權。 在[此頁面](ootb-permissions.md)中詳細說明高階許可權。
 
 * **低階許可權**：代表來自高階許可權的不同許可權。
 
-例如， **[!DNL Journey administrator]** 角色已指派給 **[!DNL Manage journeys]** 許可權。 此許可權會產生低階許可權，可讓歷程管理員寫入、讀取和刪除歷程。
+例如，**[!DNL Journey administrator]**&#x200B;角色已指派&#x200B;**[!DNL Manage journeys]**&#x200B;許可權。 此許可權會產生低階許可權，可讓歷程管理員寫入、讀取和刪除歷程。
 
 ## 歷程資源 {#journey-capability}
 
-* **[!DNL Manage journeys]** 高階許可權可讓使用者建立新歷程及編輯/刪除現有歷程，以及存取歷程畫布中用來建立歷程流程的物件。
+* **[!DNL Manage journeys]**&#x200B;高階許可權可讓使用者建立新的和編輯/刪除現有的歷程，以及存取歷程畫布中用來建立歷程流程的物件。
 
 +++ 其中包含下列低階許可權：
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Publish journeys]** 高階許可權可讓使用者發佈歷程。
+* **[!DNL Publish journeys]**&#x200B;高階許可權可讓使用者發佈歷程。
 
 +++ 其中包含下列低階許可權：
    * Journey Optimizer專用：
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL View journeys]** 高階許可權可讓使用者瀏覽及檢視歷程。
+* **[!DNL View journeys]**&#x200B;高階許可權可讓使用者瀏覽及檢視歷程。
 
 +++ 其中包含下列低階許可權：
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage journeys events, data sources and actions]** 高階許可權可讓使用者設定事件和資料設定。
+* **[!DNL Manage journeys events, data sources and actions]**&#x200B;高階許可權可讓使用者設定事件和資料設定。
 
 +++ 其中包含下列低階許可權：
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL View journeys events, data sources and actions]** 高階許可權可讓使用者在歷程流程中使用事件和資料。
+* **[!DNL View journeys events, data sources and actions]**&#x200B;高階許可權可讓使用者在歷程流程中使用事件和資料。
 
 +++ 其中包含下列低階許可權：
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL View journeys report]** 高階許可權可讓使用者以唯讀方式存取歷程報告。
+* **[!DNL View journeys report]**&#x200B;高階許可權可讓使用者以唯讀方式存取歷程報告。
 
 +++ 其中包含下列低階許可權：
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 ## Journey Optimizer規則資源 {#journey-rules-capability}
 
-* **[!DNL Manage frequency rules]** 高階許可權可讓使用者讀取、建立、編輯、刪除和啟用/停用頻率規則。
+* **[!DNL Manage frequency rules]**&#x200B;高階許可權可讓使用者讀取、建立、編輯、刪除和啟用/停用頻率規則。
 
 +++ 其中包含下列低階許可權：
 
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL View frequency rules]** 高階許可權可讓使用者檢影片率規則。
+* **[!DNL View frequency rules]**&#x200B;高階許可權可讓使用者檢影片率規則。
 
 +++ 其中包含下列低階許可權：
 
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 ## 行銷活動資源 {#campaign-capability}
 
-* **[!DNL Export suppression list]** 高階許可權可讓使用者將隱藏清單下載為CSV檔案。
+* **[!DNL Export suppression list]**&#x200B;高階許可權可讓使用者將隱藏清單下載為CSV檔案。
 
 +++ 其中包含下列低階許可權：
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage campaigns]** 高階許可權可讓使用者建立新的和編輯/刪除行銷活動
+* **[!DNL Manage campaigns]**&#x200B;高階許可權可讓使用者建立新的和編輯/刪除行銷活動
 
 +++ 其中包含下列低階許可權：
 
@@ -179,7 +179,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Publish campaigns]** 高階許可權可讓使用者發佈行銷活動。
+* **[!DNL Publish campaigns]**&#x200B;高階許可權可讓使用者發佈行銷活動。
 
 +++ 其中包含下列低階許可權：
 
@@ -191,7 +191,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL View campaigns report]** 高階許可權可讓使用者閱讀及編輯行銷活動報告。
+* **[!DNL View campaigns report]**&#x200B;高階許可權可讓使用者閱讀及編輯行銷活動報告。
 
 +++ 其中包含下列低階許可權：
 
@@ -205,7 +205,7 @@ ht-degree: 0%
 
 ## 決定管理資源 {#decisions-permissions}
 
-* **[!DNL Manage decisions]** 高階許可權可讓使用者建立新專案和編輯/刪除現有專案 **[!DNL Activity entities]**，以及管理用於這些活動中以做出決定的物件。
+* **[!DNL Manage decisions]**&#x200B;高階許可權可讓使用者建立新的和編輯/刪除現有的&#x200B;**[!DNL Activity entities]**，以及管理這些活動中用來做決定的物件。
 
 +++ 其中包含下列低階許可權：
 
@@ -231,7 +231,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL View decisions]** 高階許可權可讓使用者使用現有的活動和相關商業物件來做出決策。
+* **[!DNL View decisions]**&#x200B;高階許可權可讓使用者使用現有的活動和相關商業物件來做出決定。
 
 +++ 其中包含下列低階許可權：
 
@@ -250,7 +250,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage offers]** 高階許可權可讓使用者建立、編輯和刪除所有優惠、元件、讀取決定和集合。
+* **[!DNL Manage offers]**&#x200B;高階許可權可讓使用者建立、編輯和刪除所有優惠、元件、讀取決定和集合。
 
 +++ 其中包含下列低階許可權：
 
@@ -272,7 +272,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage ranking strategies]** 高階許可權可讓使用者讀取、建立、編輯和刪除排名策略。
+* **[!DNL Manage ranking strategies]**&#x200B;高階許可權可讓使用者讀取、建立、編輯和刪除排名策略。
 
 +++ 其中包含下列低階許可權：
 
@@ -310,7 +310,7 @@ ht-degree: 0%
   +++
 -->
 
-* **[!DNL Manage file routing]** 高階許可權可讓使用者建立、編輯和刪除檔案路由設定。
+* **[!DNL Manage file routing]**&#x200B;高階許可權可讓使用者建立、編輯和刪除檔案路由設定。
 
 +++ 其中包含下列低階許可權：
    * Journey Optimizer專用：
@@ -321,7 +321,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage IP pools]** 高階許可權可讓使用者建立、編輯和刪除相似性定義。
+* **[!DNL Manage IP pools]**&#x200B;高階許可權可讓使用者建立、編輯和刪除相似性定義。
 
 +++ 其中包含下列低階許可權：
    * Journey Optimizer專用：
@@ -331,7 +331,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage landing page settings]** 高階許可權可讓使用者讀取、建立及編輯登陸頁面子網域和預設集設定。
+* **[!DNL Manage landing page settings]**&#x200B;高階許可權可讓使用者讀取、建立及編輯登陸頁面子網域和預設集設定。
 
 +++ 其中包含下列低階許可權：
 
@@ -346,7 +346,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage messages general settings]** 高階許可權可讓使用者在沙箱層級建立、編輯和刪除全域設定。
+* **[!DNL Manage messages general settings]**&#x200B;高階許可權可讓使用者在沙箱層級建立、編輯和刪除全域設定。
 
 +++ 其中包含下列低階許可權：
 
@@ -360,7 +360,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage messages presets]** 高階許可權可讓使用者在沙箱層級讀取、建立、編輯和刪除跨頻道的頻道介面。
+* **[!DNL Manage messages presets]**&#x200B;高階許可權可讓使用者在沙箱層級讀取、建立、編輯和刪除跨頻道的頻道介面。
 
 +++ 其中包含下列低階許可權：
 
@@ -376,7 +376,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage PTR records]** 高階許可權可讓使用者讀取和編輯已根據子網域設定的PTR記錄。
+* **[!DNL Manage PTR records]**&#x200B;高階許可權可讓使用者讀取和編輯已根據子網域設定的PTR記錄。
 
 +++ 其中包含下列低階許可權：
 
@@ -387,7 +387,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage Seedlist]** 高階許可權可讓使用者讀取、建立、編輯和刪除Seedlist。
+* **[!DNL Manage Seedlist]**&#x200B;高階許可權可讓使用者讀取、建立、編輯及刪除Seedlist。
 
 +++ 其中包含下列低階許可權：
 
@@ -398,7 +398,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage SMS subdomains]** 高階許可權可讓使用者讀取、建立、編輯和刪除SMS子網域。
+* **[!DNL Manage SMS subdomains]**&#x200B;高階許可權可讓使用者讀取、建立、編輯及刪除SMS子網域。
 
 +++ 其中包含下列低階許可權：
 
@@ -409,7 +409,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage subdomains delegations]** 高階許可權可讓使用者建立、編輯和刪除子網域委派（包括IP集區）。
+* **[!DNL Manage subdomains delegations]**&#x200B;高階許可權可讓使用者建立、編輯和刪除子網域委派（包括IP集區）。
 
 +++ 其中包含下列低階許可權：
    * Journey Optimizer專用：
@@ -420,7 +420,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage suppression]** 高階許可權可讓使用者定義將電子郵件地址新增至隱藏清單前的跳出次數，以及在隱藏清單中新增和刪除專案。
+* **[!DNL Manage suppression]**&#x200B;高階許可權可讓使用者定義電子郵件地址新增至隱藏清單前的跳出次數，以及新增和刪除隱藏清單中的專案。
 
 +++ 其中包含下列低階許可權：
    * Journey Optimizer專用：
@@ -432,7 +432,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL View file routing]** 高階許可權可讓使用者檢視檔案路由設定。
+* **[!DNL View file routing]**&#x200B;高階許可權可讓使用者檢視檔案路由設定。
 
 +++ 其中包含下列低階許可權：
    * Journey Optimizer專用：
@@ -441,7 +441,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL View messages general settings]** 高階許可權可讓使用者檢視訊息的一般設定，例如執行地址。
+* **[!DNL View messages general settings]**&#x200B;高階許可權可讓使用者檢視訊息的一般設定，例如執行位址。
 
 +++ 其中包含下列低階許可權：
 
@@ -453,7 +453,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL View messages presets]** 高階許可權可讓使用者檢視訊息預設集。
+* **[!DNL View messages presets]**&#x200B;高階許可權可讓使用者檢視訊息預設集。
 
 +++ 其中包含下列低階許可權：
 
@@ -467,7 +467,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL View PTR records]** 高階許可權可讓使用者檢視已根據子網域設定的PTR記錄。
+* **[!DNL View PTR records]**&#x200B;高階許可權可讓使用者檢視已根據子網域設定的PTR記錄。
 
 +++ 其中包含下列低階許可權：
    * Journey Optimizer專用：
@@ -490,7 +490,7 @@ The **[!DNL View channel surface]** high-level permission allows users to view c
 -->
 
 
-* **[!DNL View suppression list]** 高階許可權可讓使用者檢視隱藏清單內容和設定。
+* **[!DNL View suppression list]**&#x200B;高階許可權可讓使用者檢視隱藏清單內容與設定。
 
 +++ 其中包含下列低階許可權：
 

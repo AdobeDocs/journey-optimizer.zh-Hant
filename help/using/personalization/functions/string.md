@@ -19,7 +19,7 @@ ht-degree: 9%
 
 ## 駝峰式大小寫 {#camelCase}
 
-此 `camelCase` 函式將字串中每個字詞的第一個字母轉換為大寫。
+`camelCase`函式會將字串中每個字的第一個字母大寫。
 
 **語法**
 
@@ -37,7 +37,7 @@ ht-degree: 9%
 
 ## 字元代碼位於 {#char-code-at}
 
-此 `charCodeAt` 函式會傳回字元的ASCII值，類似JavaScript中的charCodeAt函式。 它以字串和整數（定義字元的位置）作為輸入引數，並傳回其對應的ASCII值。
+`charCodeAt`函式會傳回字元的ASCII值，例如JavaScript中的charCodeAt函式。 它以字串和整數（定義字元的位置）作為輸入引數，並傳回其對應的ASCII值。
 
 **語法**
 
@@ -55,7 +55,7 @@ ht-degree: 9%
 
 ## Concat {#concate}
 
-此 `concat` 函式將兩個字串合併為一個。
+`concat`函式將兩個字串合併為一個。
 
 **語法**
 
@@ -73,7 +73,7 @@ ht-degree: 9%
 
 ## 包含 {#contains}
 
-此 `contains` 函式來決定字串是否包含指定的子字串。
+`contains`函式用於決定字串是否包含指定的子字串。
 
 **語法**
 
@@ -103,7 +103,7 @@ ht-degree: 9%
 
 ## 不包含{#doesNotContain}
 
-此 `doesNotContain` 函式來決定字串是否不包含指定的子字串。
+`doesNotContain`函式是用來決定字串是否不包含指定的子字串。
 
 **語法**
 
@@ -128,7 +128,7 @@ ht-degree: 9%
 
 ## 結尾不是{#doesNotEndWith}
 
-此 `doesNotEndWith` 函式來決定字串的結尾是否不是指定的子字串。
+`doesNotEndWith`函式是用來決定字串的結尾是否不是指定的子字串。
 
 **語法**
 
@@ -152,7 +152,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 開頭不是{#doesNotStartWith}
 
-此 `doesNotStartWith` 函式來決定字串的開頭是否為指定的子字串。
+`doesNotStartWith`函式是用來判斷字串是否不是以指定的子字串開頭。
 
 **語法**
 
@@ -176,7 +176,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 編碼64{#encode64}
 
-此 `encode64` 函式可用來編碼字串以保留個人資訊(PI)，例如，若包含在URL中。
+`encode64`函式可用來編碼字串，以保留個人資訊(PI)，例如包含在URL中。
 
 **語法**
 
@@ -186,7 +186,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 結尾為{#endsWith}
 
-此 `endsWith` 函式來決定字串的結尾是否為指定的子字串。
+`endsWith`函式用於決定字串的結尾是否為指定的子字串。
 
 **語法**
 
@@ -211,7 +211,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 等於{#equals}
 
-此 `equals` 函式是用來決定字串是否等於指定的字串，且區分大小寫。
+`equals`函式是用來判斷字串是否等於指定的字串，且區分大小寫。
 
 **語法**
 
@@ -234,7 +234,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 等於忽略大小寫{#equalsIgnoreCase}
 
-此 `equalsIgnoreCase` 函式來決定字串是否等於指定的字串，不區分大小寫。
+`equalsIgnoreCase`函式用來判斷字串是否等於指定的字串，不區分大小寫。
 
 **語法**
 
@@ -257,7 +257,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 擷取電子郵件網域 {#extractEmailDomain}
 
-此 `extractEmailDomain` 函式用於擷取電子郵件地址的網域。
+`extractEmailDomain`函式用於擷取電子郵件地址的網域。
 
 **語法**
 
@@ -275,7 +275,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 格式化貨幣 {#format-currency}
 
-此 `formatCurrency` 函式可用來根據在第二個引數中作為字串傳遞的區域設定，將任何數字轉換為對應的語言敏感型貨幣表示法。
+`formatCurrency`函式用來根據第二個引數中作為字串傳遞的區域設定，將任何數字轉換成其對應的語言敏感型貨幣表示法。
 
 **語法**
 
@@ -293,7 +293,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 取得 url 主機 {#get-url-host}
 
-此 `getUrlHost` 函式來擷取URL的主機名稱。
+`getUrlHost`函式用於擷取URL的主機名稱。
 
 **語法**
 
@@ -311,7 +311,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 取得 url 路徑 {#get-url-path}
 
-此 `getUrlPath` 函式來擷取URL網域名稱后的路徑。
+`getUrlPath`函式用於擷取URL網域名稱之後的路徑。
 
 **語法**
 
@@ -329,7 +329,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 取得 url 通訊協定 {#get-url-protocol}
 
-此 `getUrlProtocol` 函式來擷取URL的通訊協定。
+`getUrlProtocol`函式用於擷取URL的通訊協定。
 
 **語法**
 
@@ -347,7 +347,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 索引:  {#index-of}
 
-此 `indexOf` 函式可用來傳回第二個引數第一次出現的位置（在第一個引數中）。 如果沒有相符專案，則傳回–1。
+`indexOf`函式是用來傳回第二個引數第一次出現的位置（在第一個引數中）。 如果沒有相符專案，則傳回–1。
 
 **語法**
 
@@ -370,7 +370,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 是空的 {#isEmpty}
 
-此 `isEmpty` 函式來判斷字串是否為空白。
+`isEmpty`函式是用來判斷字串是否為空白。
 
 **語法**
 
@@ -388,7 +388,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 不是空的 {#is-not-empty}
 
-此 `isNotEmpty` 函式來決定字串是否不是空的。
+`isNotEmpty`函式是用來判斷字串是否不是空的。
 
 **語法**
 
@@ -406,7 +406,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 最後索引:  {#last-index-of}
 
-此 `lastIndexOf` 函式可用來傳回第二個引數最後一次出現的位置（在第一個引數中）。 如果沒有相符專案，則傳回–1。
+`lastIndexOf`函式是用來傳回第二個引數最後一次出現的位置（在第一個引數中）。 如果沒有相符專案，則傳回–1。
 
 **語法**
 
@@ -429,7 +429,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 左側修剪 {#leftTrim}
 
-此 `leftTrim` 函式來移除字串開頭的空格。
+`leftTrim`函式用於從字串開頭移除空格。
 
 **語法**
 
@@ -439,7 +439,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 長度 {#length}
 
-此 `length` 函式來取得字串或運算式中的字元數。
+`length`函式用於取得字串或運算式中的字元數。
 
 **語法**
 
@@ -457,7 +457,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 讚{#like}
 
-此 `like` 函式來決定字串是否符合指定的模式。
+`like`函式是用來判斷字串是否符合指定的模式。
 
 **語法**
 
@@ -468,7 +468,7 @@ doesNotEndWith(person.emailAddress,".com")
 | 引數 | 說明 |
 | --------- | ----------- |
 | `{STRING_1}` | 執行檢查的字串。 |
-| `{STRING_2}` | 比對第一個字串的運算式。 建立運算式有兩個支援的特殊字元： `%` 和 `_`. <ul><li>`%` 用於表示零個或多個字元。</li><li>`_` 用於表示正好一個字元。</li></ul> |
+| `{STRING_2}` | 比對第一個字串的運算式。 建立運算式有兩個支援的特殊字元： `%`和`_`。 <ul><li>`%`用於表示零個或多個字元。</li><li>`_`只代表一個字元。</li></ul> |
 
 **範例**
 
@@ -480,7 +480,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 小寫{#lower}
 
-此 `lowerCase` 函式將字串轉換為小寫字母。
+`lowerCase`函式將字串轉換為小寫字母。
 
 **語法**
 
@@ -498,7 +498,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 符合{#matches}
 
-此 `matches` 函式是用來決定字串是否符合特定的規則運算式。 請參閱 [本檔案](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) 以取得規則運算式中比對模式的詳細資訊。
+`matches`函式是用來判斷字串是否符合特定的規則運算式。 請參考[此檔案](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html)以取得規則運算式中比對模式的詳細資訊。
 
 **語法**
 
@@ -516,7 +516,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 遮罩 {#mask}
 
-此 `Mask` 函式可將字串的一部分取代為「X」字元。
+`Mask`函式用來以「X」字元取代字串的一部分。
 
 **語法**
 
@@ -532,11 +532,11 @@ doesNotEndWith(person.emailAddress,".com")
 {%= mask("123456789",1,2) %}
 ```
 
-查詢傳回 `1XXXXXX89`.
+查詢傳回`1XXXXXX89`。
 
 ## MD5 {#md5}
 
-此 `md5` 函式用於計算及傳回字串的md5雜湊。
+`md5`函式用於計算及傳回字串的md5雜湊。
 
 **語法**
 
@@ -554,7 +554,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 不等於{#notEqualTo}
 
-此 `notEqualTo` 函式來決定字串是否不等於指定的字串。
+`notEqualTo`函式是用來判斷字串是否不等於指定的字串。
 
 **語法**
 
@@ -577,7 +577,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 不等於，忽略大小寫 {#not-equal-with-ignore-case}
 
-此 `notEqualWithIgnoreCase` 函式可用來比較兩個字串，忽略大小寫。
+`notEqualWithIgnoreCase`函式是用來比較兩個字串，忽略大小寫。
 
 **語法**
 
@@ -600,7 +600,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 規則運算式群組{#regexGroup}
 
-此 `Group` 函式是用來根據提供的規則運算式擷取特定資訊。
+`Group`函式是用來根據提供的規則運算式擷取特定資訊。
 
 **語法**
 
@@ -624,7 +624,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 取代 {#replace}
 
-此 `replace` 函式可將字串中的指定子字串取代為另一個子字串。
+`replace`函式用來以另一個子字串取代字串中的指定子字串。
 
 **語法**
 
@@ -648,7 +648,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 全部取代{#replaceAll}
 
-此 `replaceAll` 函式可將符合「regex」運算式的文字之所有子字串取代為指定的常值「replacement」字串。 Regex對「\」和「+」有特殊的處理，所有regex運算式都遵循PQL逸出策略。 例如，取代會從字串的開頭到結尾進行，將字串「aaa」中的「aa」取代為「b」將會產生「ba」而非「ab」。
+`replaceAll`函式可用來以指定的常值「取代」字串，取代符合「規則運算式」之文字的所有子字串。 Regex有特殊的&quot;\&quot;和&quot;+&quot;處理，所有regex運算式都遵循PQL逸出策略。 例如，取代會從字串的開頭到結尾進行，將字串「aaa」中的「aa」取代為「b」將會產生「ba」而非「ab」。
 
 **語法**
 
@@ -658,14 +658,14 @@ doesNotEndWith(person.emailAddress,".com")
 
 >[!NOTE]
 >
-> 當當作第二個引數的運算式是特殊規則運算式字元時，請使用雙反斜線(`//`)。  特殊規則運算式字元包括：[.， +， *， ？， ^， $， (， )， [，]，{， }， |， \.]
+> 當當作第二個引數的運算式是特殊規則運算式字元時，請使用雙反斜線(`//`)。  特殊規則運算式字元包括：[.， +， *， ？， ^， $， (， )， [，]， {， }， |， \.]
 > 
-> 進一步瞭解 [oracle檔案](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+> 進一步瞭解[Oracle檔案](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}。
 >
 
 ## 右側修剪 {#rightTrim}
 
-此 `rightTrim` 函式移除字串結尾的空格。
+使用`rightTrim`函式時，會移除字串結尾的空格。
 
 **語法**
 
@@ -673,9 +673,9 @@ doesNotEndWith(person.emailAddress,".com")
 {%= rightTrim(string) %}
 ```
 
-## 分割 {#split}
+## Split {#split}
 
-此 `split` 函式是用來依指定字元分割字串。
+`split`函式是用來依指定字元分割字串。
 
 **語法**
 
@@ -685,7 +685,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 開頭為{#startsWith}
 
-此 `startsWith` 函式來決定字串的開頭是否為指定的子字串。
+`startsWith`函式是用來決定字串的開頭是否為指定的子字串。
 
 **語法**
 
@@ -709,7 +709,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 字串至日期 {#string-to-date}
 
-此 `stringToDate` 函式將字串值轉換為日期時間值。 它需要兩個引數：日期時間的字串表示和格式化程式的字串表示。
+`stringToDate`函式將字串值轉換為日期時間值。 它需要兩個引數：日期時間的字串表示和格式化程式的字串表示。
 
 **語法**
 
@@ -725,7 +725,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 字串至整數 {#string-to-integer}
 
-此 `string_to_integer` 函式用於將字串值轉換為整數值。
+`string_to_integer`函式用於將字串值轉換為整數值。
 
 **語法**
 
@@ -735,7 +735,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 字串至數字 {#string-to-number}
 
-此 `stringToNumber` 函式用於將字串轉換為數字。 對於無效的輸入，它會傳回相同字串作為輸出。
+`stringToNumber`函式用於將字串轉換為數字。 對於無效的輸入，它會傳回相同字串作為輸出。
 
 **語法**
 
@@ -745,7 +745,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 子字串 {#sub-string}
 
-此 `Count string` 函式用來傳回開始索引和結束索引之間字串運算式的子字串。
+`Count string`函式用來傳回開始索引和結束索引之間的字串運算式的子字串。
 **語法**
 
 ```sql
@@ -754,7 +754,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 字首大寫{#titleCase}
 
-此 **titleCase** 函式用於將字串中每個字詞的首字母大寫。
+**titleCase**&#x200B;函式用來將字串中每個字詞的首字母大寫。
 
 **語法**
 
@@ -772,7 +772,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 至 Bool {#to-bool}
 
-此 `toBool` 函式可用來根據引數值的型別，將引數值轉換為布林值。
+`toBool`函式是用來將引數值轉換為布林值（視其型別而定）。
 
 **語法**
 
@@ -782,7 +782,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 至日期時間 {#to-date-time}
 
-此 `toDateTime` 函式用於將字串轉換為日期。 針對無效輸入會傳回epoch日期作為輸出。
+`toDateTime`函式用於將字串轉換為日期。 針對無效輸入會傳回epoch日期作為輸出。
 
 **語法**
 
@@ -792,7 +792,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 至僅日期時間 {#to-date-time-only}
 
-此 `toDateTimeOnly` 函式用於將引數值轉換為僅日期時間值。 針對無效輸入會傳回epoch日期作為輸出。 此函式接受字串、日期、長欄位和整欄位型別。
+`toDateTimeOnly`函式用於將引數值轉換為僅日期時間值。 針對無效輸入會傳回epoch日期作為輸出。 此函式接受字串、日期、長欄位和整欄位型別。
 
 **語法**
 
@@ -802,7 +802,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 修剪 {#trim}
 
-此 **trim** 函式移除字串開頭和結尾的所有空格。
+**trim**&#x200B;函式會移除字串開頭和結尾的所有空格。
 
 **語法**
 
@@ -812,7 +812,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 大寫{#upper}
 
-此 **大寫** 函式將字串轉換為大寫字母。
+**upperCase**&#x200B;函式將字串轉換為大寫字母。
 
 **語法**
 
@@ -830,7 +830,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Url 解碼 {#url-decode}
 
-此 `urlDecode` 函式用於解碼url編碼的字串。
+`urlDecode`函式用於解碼url編碼的字串。
 
 **語法**
 
@@ -840,7 +840,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Url 編碼 {#url-encode}
 
-此 `Count only null` 函式用於對字串進行url編碼。
+`Count only null`函式用於對字串進行URL編碼。
 
 **語法**
 

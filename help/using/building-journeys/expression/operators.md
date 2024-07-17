@@ -38,9 +38,9 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
 ## 重要備註{#important-notes}
 
-* 使用乘法時(`*`)，則兩個作業欄位都必須有相同的型別，可以是整數或小數。 範例：
+* 使用乘法(`*`)時，兩個作業欄位必須具有相同的型別，可以是整數或小數。 範例：
    * 下列範例是正確的： `3.0 * 4.0`
-   * `3 * 4.0` 會導致錯誤
+   * `3 * 4.0`將導致錯誤
 
 ## 邏輯  {#logical}
 
@@ -50,7 +50,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 <expression1> and <expression2>
 ```
 
-兩者 &lt;expression1> 和 &lt;expression2> 必須為布林值。 結果是布林值。
+&lt;expression1>和&lt;expression2>都必須是布林值。 結果是布林值。
 
 範例：
 
@@ -64,7 +64,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 <expression1> or <expression2>
 ```
 
-兩者 &lt;expression1> 和 &lt;expression2> 必須為布林值。 結果是布林值。
+&lt;expression1>和&lt;expression2>都必須是布林值。 結果是布林值。
 
 範例：
 
@@ -78,7 +78,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 not <expression>
 ```
 
-&lt;expression> 必須為布林值。 結果是布林值。
+&lt;expression>必須為布林值。 結果是布林值。
 
 範例：
 
@@ -126,7 +126,7 @@ not 3.15 < 1
 <expression> has null
 ```
 
-&lt;expression> 必須為清單。 結果是布林值。
+&lt;expression>必須是清單。 結果是布林值。
 
 用於識別清單是否包含至少一個Null值。
 
@@ -152,7 +152,7 @@ not 3.15 < 1
 
 >[!NOTE]
 >
->的 &lt;expression1> 和 &lt;expression2> 沒有資料型別控制項。
+>&lt;expression1>和&lt;expression2>沒有資料型別控制項。
 
 範例：
 
@@ -172,7 +172,7 @@ not 3.15 < 1
 
 >[!NOTE]
 >
-的 &lt;expression1> 和 &lt;expression2> 沒有資料型別控制項。
+&lt;expression1>和&lt;expression2>沒有資料型別控制項。
 
 結果是布林值。
 
@@ -322,7 +322,7 @@ Datetimeonly可以與Datetimeonly比較。
 
 結果也是數字。
 
-&lt;expression2> 不得等於0 （傳回0）。
+&lt;expression2>不可以等於0 （傳回0）。
 
 範例：
 
@@ -434,13 +434,13 @@ Datetimeonly可以與Datetimeonly比較。
 "the current time is " + (now())
 ```
 
-傳回「目前時間是2023-09-23T09:30:06.693盎司
+傳回「目前時間是2023-09-23T09:30:06.693Z」
 
 ```json
 (now()) + " is the current time"
 ```
 
-傳回「2023-09-23T09」:30:06.693Z為目前時間」
+傳回「2023-09-23T09:30:06.693Z為目前時間」
 
 ```json
 "a" + "b" + "c" + 1234
@@ -464,22 +464,22 @@ Datetimeonly可以與Datetimeonly比較。
 (toDateTime("2023-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-傳回 _dateTime_ 2023-12-03T15:30:30Z
+傳回&#x200B;_dateTime_ 2023-12-03T15:30:30Z
 
 ```json
 (toDateTimeOnly("2023-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-傳回 _dateTimeOnly_ 2023-12-03T15:30:30
+傳回&#x200B;_dateTimeOnly_ 2023-12-03T15:30:30
 
 ```json
 (now()) + (toDuration("PT1H"))
 ```
 
-傳回 _dateTime_ （含UTC時區）從目前時間推後一小時
+從目前時間後一小時傳回&#x200B;_dateTime_ （含UTC時區）
 
 ```json
 (toDuration("PT1H")) + (toDuration("PT1H"))
 ```
 
-傳回 _期間_ PT2H
+傳回&#x200B;_持續時間_ PT2H

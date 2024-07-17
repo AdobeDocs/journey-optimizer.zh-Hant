@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: count
+title: 計數
 description: 瞭解函式計數
 feature: Journeys
 role: Data Engineer, Architect
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 ---
 
-# count {#count}
+# 計數 {#count}
 
 計算清單的元素而不考慮null值。
 

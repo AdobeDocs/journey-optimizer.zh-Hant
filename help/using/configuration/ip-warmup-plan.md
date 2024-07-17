@@ -32,45 +32,45 @@ ht-degree: 8%
 
 >[!ENDSHADEBOX]
 
-建立一或多個 [IP熱身行銷活動](ip-warmup-campaign.md) 啟用專用表面並啟用對應的選項後，您就可以開始建立IP熱身計畫。
+一旦您建立一或多個[IP熱身行銷活動](ip-warmup-campaign.md)，並啟用專用介面和對應的選項後，您就可以開始建立IP熱身計畫。
 
-若要存取、建立、編輯和刪除IP熱身計畫，您必須擁有 **[!UICONTROL 傳遞能力顧問]** 角色或IP熱身計畫相關許可權。
+若要存取、建立、編輯及刪除IP熱身計畫，您必須擁有&#x200B;**[!UICONTROL 傳遞顧問]**&#x200B;角色或IP熱身計畫相關許可權。
 
 +++瞭解如何指派「傳遞能力顧問」角色或IP熱身計畫相關許可權
 
 物件層級存取控制可讓您保護資料，並授與特定存取權來檢視和管理您的計畫。 如果未將任何標籤指派給您的IP熱身計畫，則會開啟該標籤以供所有使用者檢視和編輯。
 
-授予 **[!UICONTROL 檢視IP熱身計畫]** 在指派「 」時，「 」許可權限制僅能檢視和發佈的存取權 **[!UICONTROL 管理IP熱身計畫]** 許可權可讓使用者檢視及編輯計畫。
+授予&#x200B;**[!UICONTROL 檢視IP熱身計畫]**&#x200B;許可權會限制僅能檢視和發佈的存取權，而指派&#x200B;**[!UICONTROL 管理IP熱身計畫]**&#x200B;許可權可讓使用者檢視和編輯計畫。
 
-將對應許可權指派給特定 **[!UICONTROL 角色]**：
+若要將對應許可權指派給特定&#x200B;**[!UICONTROL 角色]**：
 
-1. 從 [!DNL Permissions] 產品，導覽至 **[!UICONTROL 角色]** 功能表，並選取您要使用新設定的角色 **[!UICONTROL IP熱身設定]** 許可權。
+1. 從[!DNL Permissions]產品，瀏覽至&#x200B;**[!UICONTROL 角色]**&#x200B;功能表，並選取您要以新&#x200B;**[!UICONTROL IP熱身設定]**&#x200B;許可權更新的角色。
 
-1. 從您的 **[!UICONTROL 角色]** 儀表板，按一下 **[!UICONTROL 編輯]**.
+1. 從您的&#x200B;**[!UICONTROL 角色]**&#x200B;儀表板，按一下&#x200B;**[!UICONTROL 編輯]**。
 
    ![](assets/ip_permissions_1.png)
 
-1. 拖放 **[!UICONTROL IP熱身設定]** 指派許可權的資源。
+1. 拖放&#x200B;**[!UICONTROL IP熱身設定]**&#x200B;資源以指派許可權。
 
-1. 從 **[!UICONTROL IP熱身設定]** resource下拉式清單，選取您的使用者需要哪些許可權： **[!UICONTROL 檢視IP熱身計畫]**， **[!UICONTROL 管理IP熱身計畫]**、和/或 **[!UICONTROL 檢視IP熱身報告]**. 您可以視需要一次選取所有專案。
+1. 從&#x200B;**[!UICONTROL IP熱身設定]**&#x200B;資源下拉式清單中，選取您的使用者需要哪些許可權： **[!UICONTROL 檢視IP熱身計畫]**、**[!UICONTROL 管理IP熱身計畫]**&#x200B;和/或&#x200B;**[!UICONTROL 檢視IP熱身報告]**。 您可以視需要一次選取所有專案。
 
    ![](assets/ip_permissions_2.png)
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-將對應角色指派給 **[!UICONTROL 使用者]**：
+若要將對應角色指派給&#x200B;**[!UICONTROL 使用者]**：
 
-1. 從 [!DNL Permissions] 產品，導覽至 **[!UICONTROL 角色]** 功能表並選取 **[!UICONTROL 傳遞能力顧問]** 內建角色。
+1. 從[!DNL Permissions]產品，導覽至&#x200B;**[!UICONTROL 角色]**&#x200B;功能表，並選取&#x200B;**[!UICONTROL 傳遞顧問]**&#x200B;內建角色。
 
-1. 從您的 **[!UICONTROL 角色]** 儀表板，存取 **[!UICONTROL 使用者]** 標籤。
+1. 從您的&#x200B;**[!UICONTROL 角色]**&#x200B;儀表板，存取&#x200B;**[!UICONTROL 使用者]**&#x200B;標籤。
 
    ![](assets/ip_permissions_3.png)
 
-1. 按一下 **[!UICONTROL 新增使用者]** 以指派 **[!UICONTROL 傳遞能力顧問]** 內建角色。
+1. 按一下&#x200B;**[!UICONTROL 新增使用者]**，指派&#x200B;**[!UICONTROL 傳遞能力顧問]**&#x200B;內建角色。
 
    ![](assets/ip_permissions_4.png)
 
-1. 選取您的 **[!UICONTROL 使用者]** 並按一下 **[!UICONTROL 儲存]**.
+1. 選取您的&#x200B;**[!UICONTROL 使用者]**&#x200B;並按一下&#x200B;**[!UICONTROL 儲存]**。
 
    ![](assets/ip_permissions_5.png)
 
@@ -84,11 +84,11 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 
 <!--When working with the [!DNL Journey Optimizer] IP warmup feature, this plan takes the form of an Excel file that must contain a number of predefined columns.-->
 
-在中建立IP熱身計畫之前 [!DNL Journey Optimizer] 介面，您必須在Excel範本中填入所有可為計畫提供摘要的資料。
+在[!DNL Journey Optimizer]介面中建立IP熱身計畫之前，您必須先在Excel範本中填入將供給您計畫的所有資料。
 
-* 您可以從使用者介面下載空白Excel [IP熱身計畫範本](assets/IPWarmupPlan-Template.xlsx) 以填入。
+* 您可以從使用者介面下載空白Excel [IP熱身計畫範本](assets/IPWarmupPlan-Template.xlsx)以填寫。
 
-* 您也可以下載 [IP熱身計畫範例](assets/IPWarmupPlan-Sample.xlsx) 已填入一些您可當作範例的資料。
+* 您也可以下載已填入部分資料的[範例IP熱身計畫](assets/IPWarmupPlan-Sample.xlsx)，以作為範例。
 
 <!--
 * From the user interface you can download the blank Excel IP warmup plan template to fill in.
@@ -108,15 +108,15 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 
 ### IP熱身計畫標籤 {#ip-warmup-plan-tab}
 
-* 在此範例中，已準備超過17天的計畫(稱為&#39;**執行**『)來達到超過一百萬個設定檔的目標數量。
+* 在此範例中，已準備超過17天的計畫（稱為&#39;**執行**&#39;），以達到超過一百萬個設定檔的目標磁碟區。
 
-* 此計畫會透過六個步驟執行 **階段**，每個檔案至少包含一個回合。
+* 此計畫透過六個&#x200B;**階段**&#x200B;執行，每個階段都包含至少一個回合。
 
-* 您最多可以有6欄（網域群組為5欄，網域群組為1欄）。 **其他** 欄)。 在此範例中，計劃分為六個欄：
+* 您最多可以有6欄（網域群組為5欄，而&#x200B;**其他**&#x200B;欄為1欄）。 在此範例中，計劃分為六個欄：
 
-   * 其中四個對應至 **現成可用的網域群組** 用於您的計畫(Gmail、Microsoft、Yahoo和Orange)。
-   * 其中一個對應至自訂網域群組(您需要使用 [自訂網域群組](#custom-domain-group-tab) 標籤)。
-   * 第六欄， **其他**，包含計畫未明確涵蓋之其他網域的所有剩餘位址。 此欄是選用的：如果省略，電子郵件將只傳送到指定的網域。
+   * 其中四個對應至要在您的計畫中使用的&#x200B;**現成可用的網域群組** (Gmail、Microsoft、Yahoo和Orange)。
+   * 其中一個對應到自訂網域群組（您需要使用[自訂網域群組](#custom-domain-group-tab)索引標籤來新增）。
+   * 第六欄&#x200B;**Others**&#x200B;包含計畫中未明確涵蓋之其他網域的所有剩餘位址。 此欄是選用的：如果省略，電子郵件將只傳送到指定的網域。
 
 我們的想法是逐步增加每個執行中的目標位址數量，同時減少每個階段的執行數量。
 
@@ -140,53 +140,67 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 * Apple
 -->
 
-+++ Gmail gmail.com；google.com；googlemail.com；googlemail.co.uk
++++ Gmail
+gmail.com；google.com；googlemail.com；googlemail.co.uk
 +++
 
-+++WP wp.pl；o2.pl
++++WP
+wp.pl；o2.pl
 +++
 
-+++康卡斯特comcast.net
++++Comcast
+comcast.net
 +++
 
-+++Yahoo aol.fi；games.com；cs.com；yahoo.com.in；y7mail.com；yahoo.co.uk；yahoo.hu；yahoo.co.hu；yahoo.cn；yahoogroups.com.sg；yahoogroups.com.au；aol.es；yahoo.com.au yahoo.com.vn aol.co.nz yahoo.com.br yahoo.ne.jp ymail.com netscape.com yahoo.com.pe yahoo.co.id citlink.net wmconnect.com yahoo.com.jp yahoo.com.hk aol.com.br yahoo.co.kr yahoo.com.ar ygm.com yahoo.co.nz aol.com goowy.com rocketmail.com frontiernet.net aim.com yahoogroups.co.in netscape.net luckymail.com yahoo.co.jp yahoo.com.kr yahoo.co.za verizon.net aol.com.ve aol.com.ar aol.com.co wild4music.com yahoogroups.com.cn yahoo.com.co wow.com yahoo.com yahooxtra.co.nz yahoo.com.mx yahoo.com.ph sky.com aol.com.mx aol.com.au aolchina.com yahoo.com.net yahoo.com.tw talk21.com compuserve.com yahoo.com.sg yahoogroups.com.tw frontier.com yahoo.co.in yahoo.co.il verizon.net.in yahoo.com.tr yahoogroups.com.hk yahoogroups.co.uk yahoo.com.biz yahoo.com.hr aol.co.uk ybb.ne.jp yahoogroups.co.kr yahoo.com.my rogers.com gte.net yahoogroups.com yahoo.co.th yahoo.com.cn love.com bellatlantic.net yahoo.com.ve yahoo.com.ua；yahoo.ca；aol.hk；；aolpoland.pl；aolnorge.no；aol.fi；；yahoo.hr；aol.cz；yahoo.ee；aol.be；aolcom.tr；yahoo.si；；aol.it；；yahoo.es；yahog.dk；yahogroups.ca；；aol.kr；ahoo；aol.nl；yahoo.bg；；aol.se；yahoo.de；；；；aol.dk；；yahoo.nl；；；aol.dk；AOL.k；SK；yahogroups.de yahoo.gr；；yahoo.ro；；yahoo.gr；；aol.in；yahoo.rs；aol.de；aol；；；；yahoo.se；myaol yahoo.pt；；yahoo.pt；；yahogrupper.dk； yahoo.fr；；；aol.ch； yahoo.it；； AOLPOLCKA.pl；；；yahogruppi.it；；yahoo.cl；；；
++++Yahoo
+aol.fi；games.com；cs.com；yahoo.com.in；y7mail.com；yahoo.co.uk；yahoo.hu；yahoo.co.hu；yahoo.cn；yahoogroups.com.sg；yahoogroups.com.au；aol.es；yahoo.com.au yahoo.com.vn aol.co.nz yahoo.com.br yahoo.ne.jp ymail.com netscape.com yahoo.com.pe yahoo.co.id citlink.net wmconnect.com yahoo.com.jp yahoo.com.hk aol.com.br yahoo.co.kr yahoo.com.ar ygm.com yahoo.co.nz aol.com goowy.com rocketmail.com frontiernet.net aim.com yahoogroups.co.in netscape.net luckymail.com yahoo.co.jp yahoo.com.kr yahoo.co.za verizon.net aol.com.ve aol.com.ar aol.com.co wild4music.com yahoogroups.com.cn yahoo.com.co wow.com yahoo.com yahooxtra.co.nz yahoo.com.mx yahoo.com.ph sky.com aol.com.mx aol.com.au aolchina.com yahoo.com.net yahoo.com.tw talk21.com compuserve.com yahoo.com.sg yahoogroups.com.tw frontier.com yahoo.co.in yahoo.co.il verizon.net.in yahoo.com.tr yahoogroups.com.hk yahoogroups.co.uk yahoo.com.biz yahoo.com.hr aol.co.uk ybb.ne.jp yahoogroups.co.kr yahoo.com.my rogers.com gte.net yahoogroups.com yahoo.co.th yahoo.com.cn love.com bellatlantic.net yahoo.com.ve yahoo.com.ua；yahoo.ca；aol.hk；；aolpoland.pl；aolnorge.no；；yahoo.fi；；aolcom.tr；yahoo.si；aol.it；aol；it；yahoo.es；yahoo.dk；yahoogroups.ca；；aol.kr；yahoo.ie；aol.jp；；yahoo.lt aol.nl； yahoo.bg；；aol.se；；yahoo.de；；；yahoo.nl；；；；Yahol.se； myaol.jp； myaol.jp yahoo.pt；；yahoogrupper.dk； yahoo.fr；；aol.pl；；aol.ch； yahoo.it；；aolpolcka.pl；；ahogruppi.it；；yahoo.cl；；；yahoo.be；；；aol.tw；；；；；；aol.ru；；；yahoo.lv；aolpolska.pl；aol.at；yahoo.pl
 +++
 
-+++Bigpond bigpond.com；bigpond.com.au；bigpond.net；telstra.com；bigpond.net.au
++++Bigpond
+bigpond.com；bigpond.com.au；bigpond.net；telstra.com；bigpond.net.au
 +++
 
-+++橙色voila.com；francetelecom.com；orange.com；orange.fr；wanadoo.fr；voila.fr
++++橙色
+voila.com；francetelecom.com；orange.com；orange.fr；wanadoo.fr；voila.fr
 +++
 
-+++Softbank c.vodafone.ne.jp；jp-h.ne.jp；k.vodafone.ne.jp；jp-d.ne.jp；jp-c.ne.jp；t.vodafone.ne.jp；h.vodafone.ne.jp r.vodafone.ne.jp；q.vodafone.ne.jp jp-t.ne.jp jp-q.ne.jp s.vodafone.ne.jp jp-s.ne.jp jp-r.ne.jp jp-k.ne.jp n.vodafone.ne.jp d.vodafone.ne.jp softbank.ne.jp jp-n.ne.jp；；；；；；；；；；
++++軟銀
+c.vodafone.ne.jp；jp-h.ne.jp；k.vodafone.ne.jp；jp-d.ne.jp；jp-c.ne.jp；t.vodafone.ne.jp；h.vodafone.ne.jp；r.vodafone.ne.jp；q.vodafone.ne.jp jp-t.ne.jp jp-q.ne.jp s.vodafone.ne.jp jp-s.ne.jp jp-r.ne.jp jp-k.ne.jp n.vodafone.ne.jp d.vodafone.ne.jp softbank.ne.jp jp-n.ne.jp；；；；；；；；；
 +++
 
-+++Docomo docomo.ne.jp
++++杜科莫
+docomo.ne.jp
 +++
 
-+++United Internet gmx.de；1and1.com；gmx.fr；mail.com；1und1.de；gmx.com；gmx.net；gmx.at；web.de；gmx.ch
++++聯合網際網路
+gmx.de；1and1.com；gmx.fr；mail.com；1und1.de；gmx.com；gmx.net；gmx.at；web.de；gmx.ch
 +++
 
-+++Microsoft hotmail.com.tr；live.de；live.ru；live.nl；windowslive.com；live.jp；mts.net；xbox.com live.com.au；hotmail.fr；hotmail.cl；hotmail.co.th；live.hk；hotmail.com.au；hotmail.com；live.com.my hotmail.co.kr outlook.com.br hotmail.co.il live.co.kr live.co.uk live.com.mx hotmail.co.uk live.com.sg msn.com hotmail.co.jp live.co.za live.com.pt outlook.com live.com live.com.ar hotmail.com.br hotmail.com.ar；live.ie；live.cn；；hotmail.dk；；outlook.ie；live.cn；live.no；live.dk；hotmail.it；live.se；；live.be；live.in；hotmail.se；；hotmail.ch；hotmail.gr；live.it；；hotmail.ca；；live.ca；hotmail.de
++++Microsoft
+hotmail.com.tr；live.de；live.ru；live.nl；windowslive.com；live.jp；mts.net；xbox.com；hotmail.fr；hotmail.cl；hotmail.cl；hotmail.com.au；hotmail.com；live.com.my hotmail.co.kr outlook.com.br hotmail.co.il live.co.kr live.co.uk live.com.mx hotmail.co.uk live.com.sg msn.com hotmail.co.jp live.co.za live.com.pt outlook.com live.com live.com.ar hotmail.com.br hotmail.com.ar；live.cl；live.at；live.com.au；hotmail.dk；hotmail.co.th；outlook.ie；live.cn；；hotmail.es；live.no；live.dk；hotmail.it；live.se；live.be；；live.in；hotmail.se；hotmail.ch；hotmail.ch；r；live.it；；hotmail.ca；；live.ca；hotmail.de
 +++
 
-+++KDDI au.com；ezweb.ne.jp；uqmobile.jp
++++KDDI
+au.com；ezweb.ne.jp；uqmobile.jp
 +++
 
-+++Italia Online inwind.it；blu.it；virgilio.it；giallo.it；iol.it；libero.it
++++義大利線上
+inwind.it；blu.it；virgilio.it；giallo.it；iol.it；libero.it
 +++
 
-+++波斯特酒店laposte.net
++++拉波斯特
+laposte.net
 +++
 
-+++Apple mac.com；icloud.com；apple.com；me.com
++++Apple
+mac.com；icloud.com；apple.com；me.com
 +++
 
 ### 自訂網域群組標籤 {#custom-domain-group-tab}
 
 您也可以包含自訂網域群組，以新增更多欄到計畫中。
 
-使用 **[!UICONTROL 自訂網域群組]** 標籤定義新的網域群組。 您可以為每個網域新增其涵蓋的所有子網域。<!--TBC-->
+使用&#x200B;**[!UICONTROL 自訂網域群組]**&#x200B;索引標籤來定義新的網域群組。 您可以為每個網域新增其涵蓋的所有子網域。<!--TBC-->
 
 對於用於上述計畫中的網域群組，請確保每個網域對於其網域群組都是唯一的，並且不會與其他網域群組重疊。 由於全域網域群組是自動定義的，使用者在建立自訂網域群組時應考慮這一點。
 
@@ -201,23 +215,23 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 * 一個僅適用於Hotmail網域。
 * 一個用於網域群組Microsoft中的所有其他網域（因此排除所有Hotmail網域）。
 
-Hotmail外部的網域和來自網域群組Microsoft的網域將會收集到 **[!UICONTROL 其他]** 欄。
+Hotmail外部的網域和來自網域群組Microsoft的網域將收集到&#x200B;**[!UICONTROL 其他]**&#x200B;欄。
 
-1. 在 **[!UICONTROL 自訂網域群組]** 標籤，建立 **Hotmail** 網域群組。
+1. 在&#x200B;**[!UICONTROL 自訂網域群組]**&#x200B;索引標籤中，建立&#x200B;**Hotmail**&#x200B;網域群組。
 
 1. 在同一列新增所有Hotmail網域。
 
-   您可以 [複製並貼上](#copy-paste) 列在「 」中的所有Hotmail網域 [IP熱身計畫標籤](#ip-warmup-plan-tab) 區段。
+   您可以[複製並貼上](#copy-paste) [IP熱身計畫標籤](#ip-warmup-plan-tab)區段中列出的所有Hotmail網域。
 
 1. 新增另一列。
 
-1. 建立 **Microsoft_X** 網域群組。
+1. 建立&#x200B;**Microsoft_X**&#x200B;網域群組。
 
 1. 將非Hotmail的所有Microsoft網域新增至相同列。 同樣地，您可以從上述清單複製並貼上它們。 [了解更多](#copy-paste)
 
-1. 返回 **[!UICONTROL IP熱身計畫]** 標籤。
+1. 返回&#x200B;**[!UICONTROL IP熱身計畫]**&#x200B;標籤。
 
-1. 建立三欄：一個用於 **Hotmail**，一個用於 **Microsoft_X** 一個用於 **其他**.
+1. 建立三欄：一個用於&#x200B;**Hotmail**，一個用於&#x200B;**Microsoft_X**，一個用於&#x200B;**其他**。
 
 1. 根據您的需求填寫欄。
 
@@ -225,34 +239,34 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將會收集到 **[
 
 ### 複製並貼上預設網域 {#copy-paste}
 
-例如，如果您想建立包含所有Hotmail網域的自訂網域群組，您可以從提供的預設清單中複製並貼上網域 [以上](#ip-warmup-plan-tab).
+舉例來說，如果您想建立包含所有Hotmail網域的自訂網域群組，您可以從上述[提供的預設清單複製並貼上網域](#ip-warmup-plan-tab)。
 
 然後使用Excel轉換工具將文字轉換為欄：
 
-1. 選取 **[!UICONTROL 資料]** > **[!UICONTROL 文字至欄……]**，選擇 **[!UICONTROL 已分隔]** 並選取 **[!UICONTROL 下一個]**.
+1. 選取&#x200B;**[!UICONTROL 資料]** > **[!UICONTROL 資料行文字……]**，選擇&#x200B;**[!UICONTROL 分隔]**，然後選取&#x200B;**[!UICONTROL 下一步]**。
 
-1. 選取 **[!UICONTROL 分號]**，按一下 **[!UICONTROL 下一個]** 和 **[!UICONTROL 完成]**.
+1. 選取&#x200B;**[!UICONTROL 分號]**，按一下&#x200B;**[!UICONTROL 下一步]**&#x200B;和&#x200B;**[!UICONTROL 完成]**。
 
 現在，每個網域都會顯示在相同列的不同欄中。
 
 ## 存取和管理IP熱身計畫 {#manage-ip-warmup-plans}
 
-1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL IP熱身計畫]** 功能表。 目前所建立的所有IP熱身計畫都會顯示出來。
+1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL IP熱身計畫]**&#x200B;功能表。 目前所建立的所有IP熱身計畫都會顯示出來。
 
    ![](assets/ip-warmup-filter-list.png)
 
 1. 您可以依狀態篩選。 不同的狀態包括：
 
-   * **尚未開始**：尚未啟用任何執行。 [了解更多](ip-warmup-execution.md#define-runs)
-   * **即時**：成功啟用第一個階段中的第一次執行後，計畫就會變更為此狀態。 [了解更多](ip-warmup-execution.md#define-runs)
-   * **已完成**：計畫已標示為已完成。 <!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> [了解更多](ip-warmup-execution.md#mark-as-completed)
+   * **未啟動**：尚未啟動任何執行。 [了解更多](ip-warmup-execution.md#define-runs)
+   * **即時**：在第一階段中的第一次執行成功啟動後，計畫就會變更為此狀態。 [了解更多](ip-warmup-execution.md#define-runs)
+   * **已完成**：計畫已標示為已完成。<!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> [了解更多](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
-1. 若要刪除IP熱身計畫，請選取 **[!UICONTROL 刪除]** 圖示並確認刪除。
+1. 若要刪除IP熱身計畫，請選取計畫名稱旁的&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示並確認刪除。
 
    >[!NOTE]
    >
-   >僅限具有下列專案的計畫： **尚未開始** 狀態可刪除。
+   >只能刪除狀態為&#x200B;**未啟動**&#x200B;的計畫。
 
    ![](assets/ip-warmup-delete-plan.png)
 
@@ -277,7 +291,7 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將會收集到 **[
 
 若要建立IP熱身計畫，請遵循下列步驟。
 
-1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL IP熱身計畫]** 功能表，然後按一下 **[!UICONTROL 建立IP熱身計畫]**.
+1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL IP熱身計畫]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立IP熱身計畫]**。
 
    ![](assets/ip-warmup-create-plan.png)
 
@@ -285,7 +299,7 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將會收集到 **[
 
    ![](assets/ip-warmup-plan-details.png)
 
-1. 選取 [表面](channel-surfaces.md) 您想要熱身。 只有行銷表面可供選取。 [進一步瞭解電子郵件型別](../email/email-settings.md#email-type)
+1. 選取您要暖身的[表面](channel-surfaces.md)。 只有行銷表面可供選取。 [進一步瞭解電子郵件型別](../email/email-settings.md#email-type)
 
    >[!NOTE]
    >
@@ -300,14 +314,14 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將會收集到 **[
 
    >[!NOTE]
    >
-   >如果上傳失敗，請確定您使用正確的格式和檔案格式(.xls或.xlsx)。 使用 [範本](assets/IPWarmupPlan-Template.xlsx) 由Adobe提供。
+   >如果上傳失敗，請確定您使用正確的格式和檔案格式(.xls或.xlsx)。 使用Adobe提供給您的[範本](assets/IPWarmupPlan-Template.xlsx)。
 
-1. 按一下 **[!UICONTROL 建立]**。在您上傳的檔案中定義的所有階段、執行、欄及其內容會自動顯示在 [!DNL Journey Optimizer] 介面。
+1. 按一下 **[!UICONTROL 建立]**。在您上傳的檔案中定義的所有階段、執行、欄及其內容會自動顯示在[!DNL Journey Optimizer]介面中。
 
    ![](assets/ip-warmup-plan-uploaded.png)
 
    >[!NOTE]
    >
-   >此 **[!UICONTROL 已鎖定目標]** 欄會顯示每次執行的所有設定檔目標總數，也就是您所定義的每個網域群組的所有設定檔，包括 **其他** 欄（如果有）。
+   >**[!UICONTROL 已鎖定目標]**&#x200B;欄顯示每次執行的所有設定檔目標總和，這表示您所定義的每個網域群組中的所有設定檔，包括&#x200B;**其他**&#x200B;欄（如果有的話）。
 
 您現在已準備好執行IP熱身計畫。 [了解更多](ip-warmup-execution.md)

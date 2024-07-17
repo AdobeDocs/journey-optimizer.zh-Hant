@@ -24,15 +24,15 @@ ht-degree: 68%
 
 >[!CAUTION]
 >
-> 影像來源 [Adobe Experience Manager Assets](../content-management/assets.md) 使用此方法時無法參考。 您的HTML程式碼中參照的影像必須儲存到公共位置。
+> 使用此方法時，無法參考[Adobe Experience Manager Assets](../content-management/assets.md)中的影像。 您的HTML程式碼中參照的影像必須儲存到公共位置。
 
-1. 從電子郵件設計工具首頁，選取 **[!UICONTROL 自行撰寫程式碼]**.
+1. 從電子郵件Designer首頁，選取&#x200B;**[!UICONTROL 自行編碼]**。
 
    ![](assets/code-your-own.png)
 
 1. 輸入或貼上原始 HTML 程式碼。
 
-1. 使用左窗格以運用 [!DNL Journey Optimizer] 個人化功能。 [了解更多](../personalization/personalize.md)
+1. 使用左窗格以運用[!DNL Journey Optimizer]個人化功能。 [了解更多](../personalization/personalize.md)
 
    ![](assets/code-editor.png)
 
@@ -44,7 +44,7 @@ ht-degree: 68%
    >
    >此動作會在電子郵件設計工具中開啟選取的範本。從那裡，您可以完成電子郵件的設計，或者使用「**[!UICONTROL 切換到程式碼編輯器]**」選項回到程式碼編輯器。
 
-1. 按一下 **[!UICONTROL 預覽]** 按鈕以使用測試設定檔檢查訊息設計和個人化。 [了解更多](../content-management/preview-test.md)
+1. 按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;按鈕，以使用測試設定檔檢查訊息設計和個人化。 [了解更多](../content-management/preview-test.md)
 
    ![](assets/code-editor-preview.png)
 

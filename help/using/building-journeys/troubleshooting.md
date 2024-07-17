@@ -32,17 +32,17 @@ ht-degree: 63%
 
 ![](assets/canvas-disconnected.png)
 
-在 **[!UICONTROL 測試]** 切換及 **[!UICONTROL 發佈]** 按鈕時，會顯示警告符號。 此警告符號會顯示系統偵測到的錯誤，而且可防止測試模式啟動或歷程發佈。在大多數情況下，系統偵測到的錯誤會連結到活動上的可見錯誤，但有時候會連結到其他問題。在這種情況下，您可以顯示這些問題，嘗試識別用於說明錯誤的問題。如果您無法識別問題，可以複製詳細資料並傳送給管理員或支援人員。 請注意，會封鎖測試的錯誤和封鎖發佈的錯誤是類似的。
+在&#x200B;**[!UICONTROL 測試]**&#x200B;切換開關及&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕旁邊，會顯示警告符號。 此警告符號會顯示系統偵測到的錯誤，而且可防止測試模式啟動或歷程發佈。在大多數情況下，系統偵測到的錯誤會連結到活動上的可見錯誤，但有時候會連結到其他問題。在這種情況下，您可以顯示這些問題，嘗試識別用於說明錯誤的問題。如果您無法識別問題，可以複製詳細資料並傳送給管理員或支援人員。 請注意，會封鎖測試的錯誤和封鎖發佈的錯誤是類似的。
 
 系統偵測到兩種問題：錯誤及警告。錯誤會封鎖發佈及測試啟動。警告指出未封鎖測試啟動或發佈的潛在問題。您會看到問題的說明，以及類型 ERR_XXX_XXX 的問題日誌 ID。這將有助於技術支援人員找出問題。
 
-兩種不同的顏色可以顯示在旁邊的符號上 **[!UICONTROL 測試]** 切換及 **[!UICONTROL 發佈]** 按鈕。 出現錯誤時，符號會以紅色顯示。若出現警告，則會顯示為橘色。
+在&#x200B;**[!UICONTROL 測試]**&#x200B;切換及&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕旁的符號上，可以顯示兩種不同的顏色。 出現錯誤時，符號會以紅色顯示。若出現警告，則會顯示為橘色。
 
 ![](assets/journey75.png)
 
-與歷程相關的全域錯誤和警告會先出現在清單中。會依活動順序或外觀，由左至右地列出與特定活動相關的錯誤及警告。此 **[!UICONTROL 複製詳細資料]** 按鈕會複製支援團隊可用於疑難排解的歷程相關技術資訊。
+與歷程相關的全域錯誤和警告會先出現在清單中。會依活動順序或外觀，由左至右地列出與特定活動相關的錯誤及警告。**[!UICONTROL 複製詳細資料]**&#x200B;按鈕會複製支援團隊可用於疑難排解的歷程相關技術資訊。
 
-當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**. 請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
+當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法是核取方塊&#x200B;**[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**。 請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
 
 ## 檢查是否已正確傳送事件 {#checking-that-events-are-properly-sent}
 
@@ -50,7 +50,7 @@ ht-degree: 63%
 
 您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。如果您收到錯誤，則表示您的呼叫發生問題。再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。您可以諮詢管理員哪個是要點擊的正確 URL。
 
-不會直接將事件從來源推送到歷程。 事實上，歷程依賴Adobe Experience Platform的串流獲取API。 因此，若發生事件相關問題，您可以參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} 適用於串流獲取API的疑難排解。
+不會直接將事件從來源推送到歷程。 事實上，歷程依賴Adobe Experience Platform的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}，以疑難排解串流獲取API。
 
 ## 檢查是否有人進入歷程 {#checking-if-people-enter-the-journey}
 
@@ -85,7 +85,7 @@ ht-degree: 63%
 
 如果個人在歷程中的進度正常，但並未收到應接收的訊息，您可以檢查：
 
-* [!DNL Journey Optimizer] 已正確考量傳送訊息的要求。 業務使用者可以存取應傳送的訊息，並檢查最新執行的時間是否與歷程的執行時間對應。 他們也可以檢查收到的最新API呼叫/事件。
-* [!DNL Journey Optimizer] 已成功傳送訊息。 檢查歷程報告以確定沒有錯誤。
+* [!DNL Journey Optimizer]已正確考慮傳送郵件的要求。 業務使用者可以存取應傳送的訊息，並檢查最新執行的時間是否與歷程的執行時間對應。 他們也可以檢查收到的最新API呼叫/事件。
+* [!DNL Journey Optimizer]已成功傳送訊息。 檢查歷程報告以確定沒有錯誤。
 
 若是透過自訂動作傳送訊息，在歷程測試期間唯一可以檢查的事項，就是自訂動作系統的呼叫是否會導致錯誤。 如果呼叫與自訂動作相關聯的外部系統並未導致錯誤，但並未導致訊息傳送，則應在外部系統端進行一些調查。

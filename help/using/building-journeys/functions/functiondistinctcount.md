@@ -58,4 +58,4 @@ ht-degree: 7%
 
 `distinctCount(@event{my_event.productListItems}, "SKU")`
 
-傳回具有不同「SKU」屬性值的物件數目{}.
+傳回具有不同「SKU」屬性值{}的物件數目。

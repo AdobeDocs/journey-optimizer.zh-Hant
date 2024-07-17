@@ -10,7 +10,7 @@ exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -72,11 +72,11 @@ ht-degree: 6%
 
 `sort(["A", "C", "B"], true)`
 
-傳回 `["A","B","C"]`.
+傳回`["A","B","C"]`。
 
 `sort([1, 3, 2], false)`
 
-傳回 `[3, 2, 1]`.
+傳回`[3, 2, 1]`。
 
 `sort(@event{my_event.productListItems}, "SKU", true)`
 

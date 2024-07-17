@@ -32,7 +32,7 @@ ht-degree: 2%
 
 ## 電子郵件追蹤體驗事件資料集{#email-tracking-experience-event-dataset}
 
-_介面中的名稱： AJO電子郵件追蹤體驗事件資料集_
+介面中的&#x200B;_名稱： AJO電子郵件追蹤體驗事件資料集_
 
 用於從Journey Optimizer擷取電子郵件追蹤體驗事件的系統資料集。
 
@@ -72,7 +72,7 @@ limit 100;
 
 ## 訊息回饋事件資料集{#message-feedback-event-dataset}
 
-_介面中的名稱： AJO訊息回饋事件資料集_
+介面中的&#x200B;_名稱： AJO訊息回饋事件資料集_
 
 用於從Journey Optimizer擷取電子郵件和推播應用程式意見回饋事件的資料集。
 
@@ -164,13 +164,13 @@ WHERE
 ORDER BY timestamp DESC;
 ```
 
-其中日期的格式為： `YYYY-MM-DD HH:MM:SS`.
+其中日期的格式為： `YYYY-MM-DD HH:MM:SS`。
 
 在識別之後，從Journey Optimizer隱藏清單中移除這些地址。 [了解更多](../configuration/manage-suppression-list.md#remove-from-suppression-list)。
 
 ## 推播追蹤體驗事件資料集 {#push-tracking-experience-event-dataset}
 
-_介面中的名稱： AJO推播追蹤體驗事件資料集_
+介面中的&#x200B;_名稱： AJO推播追蹤體驗事件資料集_
 
 用於從Journey Optimizer擷取推播之行動追蹤體驗事件的資料集。
 
@@ -229,7 +229,7 @@ group by
 
 ## 決策事件資料集{#ode-decisionevents}
 
-_介面中的名稱： ODE DecisionEvents （系統資料集）_
+介面中的&#x200B;_名稱： ODE DecisionEvents （系統資料集）_
 
 用於擷取優惠方案主張給使用者的資料集。
 
@@ -342,7 +342,7 @@ _介面中的名稱： ajo_entity_dataset （系統資料集）_
 
 此資料集可讓您存取行銷人員定義的中繼資料，以便在Journey Optimizer資料集匯出以用於外部工具中的報表視覺效果時，獲得更好的報表深入分析。 這是使用messageID屬性所達成，此屬性可協助拼接各種資料集（例如訊息意見資料集和體驗事件追蹤資料集），以取得從設定檔層級傳送至追蹤的訊息傳遞詳細資訊。
 
-**重要附註**
+**重要備註**
 
 * 訊息的專案只會在歷程或行銷活動發佈後建立。
 
@@ -352,7 +352,7 @@ _介面中的名稱： ajo_entity_dataset （系統資料集）_
 >
 >目前，基於未來的相容性原因，實體資料集中的每個訊息發佈都會有兩個專案。 這不會影響您視需要跨資料集使用聯結查詢來擷取所需資訊的能力。
 
-如果您想要在報表中，根據傳送特定歷程的動作，排序傳送的電子郵件。 您可以使用實體資料集加入訊息回饋意見資料集。 要使用的欄位包括： `_experience.decisioning.propositions.scopeDetails.correlationID` 和 `_id field in entity dataset`.
+如果您想要在報表中，根據傳送特定歷程的動作，排序傳送的電子郵件。 您可以使用實體資料集加入訊息回饋意見資料集。 要使用的欄位是： `_experience.decisioning.propositions.scopeDetails.correlationID`和`_id field in entity dataset`。
 
 以下查詢可協助您取得特定行銷活動的相關訊息範本：
 

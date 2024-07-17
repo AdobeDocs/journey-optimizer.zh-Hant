@@ -12,7 +12,7 @@ exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
 source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 7%
+ht-degree: 14%
 
 ---
 
@@ -20,32 +20,32 @@ ht-degree: 7%
 
 >[!NOTE]
 >
-> 若要回覆成Journey Optimizer的傳統報表，只需將 **[!UICONTROL 使用新體驗]** 選項。
+> 若要恢復為Journey Optimizer的傳統報告，只需切換&#x200B;**[!UICONTROL 使用新體驗]**&#x200B;選項。
 
-Journey Optimizer報告功能與Customer Journey Analytics功能的互通性得以改善、兩個平台的報告標準化，並改善資料一致性和可靠性。 Journey Optimizer 與 Customer Journey Analytics 之間的緊密整合可讓您更清楚檢視績效量度，讓使用者能做出更明智的決策。
+Journey Optimizer 報告功能改善與 Customer Journey Analytics 功能的互通性，可將兩個平台間的報告標準化，並改善資料一致性與可靠性。Journey Optimizer 與 Customer Journey Analytics 之間的緊密整合可讓您更清楚檢視績效量度，讓使用者能做出更明智的決策。
 
-* 如果您想在歷程內容中定位歷程或傳遞，請從 **[!UICONTROL 歷程]** 選單，存取您的歷程，然後按一下 **[!UICONTROL 檢視報告]** 按鈕。
+* 如果您想要在歷程內容中鎖定歷程或傳送，請從&#x200B;**[!UICONTROL 歷程]**&#x200B;功能表存取您的歷程，然後按一下&#x200B;**[!UICONTROL 檢視報告]**&#x200B;按鈕。
 
-  從現有歷程的清單中，您也可以選取 **[!UICONTROL 報告]** 從您所選歷程的進階功能表。 [進一步瞭解歷程報告](journey-global-report-cja.md)
+  您也可以在現有歷程清單中，從所選歷程的進階功能表選取&#x200B;**[!UICONTROL 報表]**。 [進一步瞭解歷程報告](journey-global-report-cja.md)
 
   ![](assets/gs-cja-report-3.png)
 
-* 如果您想要鎖定促銷活動，請從 **[!UICONTROL 行銷活動]** 選單，存取您的行銷活動，然後按一下 **[!UICONTROL 報表]** 按鈕。
+* 如果您想要鎖定行銷活動，請從&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表存取行銷活動，然後按一下&#x200B;**[!UICONTROL 報表]**&#x200B;按鈕。
 
-  從現有行銷活動清單中，您也可以選取 **[!UICONTROL 報告]** 從您所選行銷活動的進階功能表。 [進一步瞭解行銷活動報告](campaign-global-report-cja.md)
+  從現有行銷活動的清單中，您也可以從所選行銷活動的進階功能表選取&#x200B;**[!UICONTROL 報表]**。 [進一步瞭解行銷活動報告](campaign-global-report-cja.md)
 
   ![](assets/gs-cja-report-2.png)
 
-* 如果您想要將環境中所有行銷活動和歷程的量度設為目標，請存取 **概觀** 報表：導覽至 **[!UICONTROL 報表]** 功能表中的 **[!UICONTROL 歷程管理]** 區段。 [進一步瞭解概述報告](channel-report-cja.md)
+* 如果您想要將您環境中所有行銷活動和歷程的量度設為目標，請導覽至「**[!UICONTROL 歷程管理]**」區段內的「**[!UICONTROL 報表]**」功能表，以存取「**概觀**」報表。 [進一步瞭解概觀報告](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
 
 ## 先決條件 {#prerequisites}
 
-* 如果您有 **非** 自己的Customer Journey Analytics，或者如果您擁有資產但確實擁有 **非** 擁有任何Customer Journey Analytics產品設定檔的存取權，許可權是在Journey Optimizer中管理的。 在此情況下，您只需要 **[!UICONTROL 檢視管道報表]** 許可權或相關角色。 [進一步瞭解Journey Optimizer許可權](../administration/permissions.md)
-* 如果您擁有Customer Journey Analytics並有權存取Customer Journey Analytics產品設定檔，則套用標準Customer Journey Analytics許可權。 Customer Journey Analytics管理員負責維護適當的使用者存取權。 [深入瞭解Customer Journey Analytics許可權](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
-* 您的Customer Journey Analytics資料檢視需要以下列設定進行設定： **在Adobe Journey Optimizer中設為預設資料檢視**. [進一步瞭解資料檢視](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
-* 若要存取Journey Optimizer中的Customer Journey Analytics控制面板，只需啟用 **[!UICONTROL 使用新體驗]** 在您的報告中切換。
+* 如果您&#x200B;**沒有**&#x200B;自己的Customer Journey Analytics，或如果您擁有它但&#x200B;**沒有**&#x200B;存取任何Customer Journey Analytics產品設定檔，許可權是在Journey Optimizer中進行管理。 在此情況下，您只需要&#x200B;**[!UICONTROL 檢視管道報表]**&#x200B;許可權或相關角色。 [進一步瞭解Journey Optimizer許可權](../administration/permissions.md)
+* 如果您擁有Customer Journey Analytics並有權存取Customer Journey Analytics產品設定檔，則套用標準Customer Journey Analytics許可權。 Customer Journey Analytics管理員負責維護適當的使用者存取權。 [進一步瞭解Customer Journey Analytics許可權](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
+* 您的Customer Journey Analytics資料檢視需要以下列設定來設定： **在Adobe Journey Optimizer中設定為預設資料檢視**。 [進一步瞭解資料檢視](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
+* 若要存取Journey Optimizer中的Customer Journey Analytics儀表板，只需在您的報告中啟用&#x200B;**[!UICONTROL 使用新體驗]**&#x200B;切換即可。
 
   ![](assets/cja-option.png)
 

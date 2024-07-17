@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: isEmpty
+title: IsEmpty
 description: 瞭解函式isEmpty
 feature: Journeys
 role: Data Engineer, Architect
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 ---
 
-# isEmpty {#isEmpty}
+# IsEmpty {#isEmpty}
 
 如果引數中的字串沒有字元，則傳回true。
 

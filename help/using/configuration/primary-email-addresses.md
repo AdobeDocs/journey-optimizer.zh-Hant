@@ -30,15 +30,15 @@ ht-degree: 18%
 
 當您定位設定檔時，資料庫中可能會提供數個電子郵件地址或電話號碼（專業電子郵件地址、個人電話號碼等）。
 
-在這種情況下， [!DNL Journey Optimizer] 使用 **[!UICONTROL 執行欄位]** 以決定要優先使用設定檔服務中的電子郵件地址或電話號碼。
+在這種情況下，[!DNL Journey Optimizer]會使用&#x200B;**[!UICONTROL 執行欄位]**&#x200B;來決定要優先使用設定檔服務中的電子郵件地址或電話號碼。
 
-若要檢查目前預設使用的欄位，請存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL 一般]** > **[!UICONTROL 執行欄位]** 功能表。
+若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般]** > **[!UICONTROL 執行欄位]**&#x200B;功能表。
 
 ![](assets/primary-address-execution-fields.png)
 
 目前的值會用於沙箱層級的所有傳送。 您可以視需要更新這些欄位。
 
-在大多數情況下，您將會全域變更執行欄位，並定義用於所有電子郵件或簡訊訊息的值。 <!--[Learn how](#admin-settings)-->
+在大多數情況下，您將會全域變更執行欄位，並定義用於所有電子郵件或簡訊訊息的值。<!--[Learn how](#admin-settings)-->
 
 <!--In some specific use cases only, you can override the value set globally and define a different value at the journey level. [Learn more](#journey-parameters)-->
 
@@ -46,9 +46,9 @@ ht-degree: 18%
 
 若要在沙箱層級全域變更執行欄位，請遵循下列步驟。
 
-1. 存取  **[!UICONTROL 頻道]** > **[!UICONTROL 一般]** > **[!UICONTROL 執行欄位]** 功能表。
+1. 存取&#x200B;**[!UICONTROL 管道]** > **[!UICONTROL 一般]** > **[!UICONTROL 執行欄位]**&#x200B;功能表。
 
-1. 按一下 **[!UICONTROL 編輯]** 以變更預設值。
+1. 按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;以變更預設值。
 
    ![](assets/primary-address.png)
 
@@ -60,7 +60,7 @@ ht-degree: 18%
 
    ![](assets/primary-address-select-field.png)
 
-1. 按一下 **[!UICONTROL 儲存]** 以確認您的選擇。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認您的選擇。
 
 執行欄位已更新，現在會作為主要地址使用。
 
@@ -70,15 +70,15 @@ ht-degree: 18%
 
 僅針對特定使用案例，您可以全域覆寫執行欄位設定，並在歷程層級定義不同的值，尤其是電子郵件頻道。
 
-新增 **[!UICONTROL 電子郵件]** 動作變成 [歷程](../email/create-email.md#create-email-journey-campaign)，主要電子郵件地址會顯示在歷程進階引數下。
+將&#x200B;**[!UICONTROL 電子郵件]**&#x200B;動作新增至[歷程](../email/create-email.md#create-email-journey-campaign)時，主要電子郵件地址會顯示在歷程進階引數下。
 
-在某些特定內容中，您可以使用覆寫此值 **[!UICONTROL 啟用引數覆寫]** 圖示右側 **[!UICONTROL 地址]** 欄位。
+在某些特定內容中，您可以使用&#x200B;**[!UICONTROL 位址]**&#x200B;欄位右側的&#x200B;**[!UICONTROL 啟用引數覆寫]**&#x200B;圖示來覆寫此值。
 
 ![](assets/journey-enable-parameter-override.png)
 
 >[!CAUTION]
 >
->電子郵件地址覆寫僅用於特定使用案例。 在大多數情況下，您不需要變更電子郵件地址，因為值定義為 **[!UICONTROL 執行欄位]** 是應該使用的值。
+>電子郵件地址覆寫僅用於特定使用案例。 在大多數情況下，您不需要變更電子郵件地址，因為&#x200B;**[!UICONTROL 執行欄位]**&#x200B;中定義為主要電子郵件的值才是應該使用的值。
 
 覆寫此值可能很實用，例如：
 

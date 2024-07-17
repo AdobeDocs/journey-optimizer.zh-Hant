@@ -9,15 +9,15 @@ exl-id: 6ce70e32-aac3-4a2c-bfeb-c370521853ca
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 7%
+ht-degree: 19%
 
 ---
 
-# 物件函式 {#objects}
+# 物件函數 {#objects}
 
-## 為空{#isNull}
+## 是 Null{#isNull}
 
-此 `isNull` 函式決定物件參考是否不存在。
+`isNull`函式決定物件參考是否不存在。
 
 **語法**
 
@@ -33,9 +33,9 @@ ht-degree: 7%
 {%= isNull(person.homeAddress) %}
 ```
 
-## 不是Null{#isNotNull}
+## 不是 Null{#isNotNull}
 
-此 `isNotNull` 函式決定物件參考是否存在。
+`isNotNull`函式決定物件參考是否存在。
 
 **語法**
 

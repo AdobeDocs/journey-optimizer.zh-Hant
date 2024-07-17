@@ -37,7 +37,7 @@ ht-degree: 10%
 
 >[!TAB 新增簡訊至歷程]
 
-1. 開啟您的歷程，然後從拖放簡訊活動 **動作** 區段。
+1. 開啟您的歷程，然後從浮動視窗的&#x200B;**動作**&#x200B;區段拖放簡訊活動。
 
    ![](assets/sms_create_1.png)
 
@@ -45,44 +45,44 @@ ht-degree: 10%
 
    ![](assets/sms_create_2.png)
 
-   有關如何設定歷程的詳細資訊，請參閱 [此頁面](../building-journeys/journey-gs.md)
+   如需如何設定歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)
 
-   此 **[!UICONTROL 表面]** 依預設，欄位會預先填入使用者用於該管道的最後一個表面。
+   **[!UICONTROL Surface]**&#x200B;欄位預設會以使用者用於該管道的最後一個表面預填。
 
-您現在可以從以下網址開始設計簡訊的內容： **[!UICONTROL 編輯內容]** 按鈕，如下所述。
+您現在可以從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕開始設計SMS訊息的內容，如下所述。
 
 >[!TAB 新增簡訊至行銷活動]
 
-1. 建立新的排程或API觸發的行銷活動，選取 **[!UICONTROL 簡訊]** 作為您的動作，然後選擇 **[!UICONTROL 應用程式表面]** 以使用。 瞭解更多關於SMS設定的資訊，請參閱 [此頁面](sms-configuration.md).
+1. 建立新的排程或API觸發的行銷活動，選取&#x200B;**[!UICONTROL 簡訊]**&#x200B;作為您的動作，並選擇要使用的&#x200B;**[!UICONTROL 應用程式表面]**。 在[此頁面](sms-configuration.md)中進一步瞭解簡訊設定。
 
    ![](assets/sms_create_3.png)
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
-1. 從 **[!UICONTROL 屬性]** 區段，編輯您的行銷活動 **[!UICONTROL 標題]** 和 **[!UICONTROL 說明]**.
+1. 從&#x200B;**[!UICONTROL 屬性]**&#x200B;區段，編輯行銷活動的&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
    ![](assets/sms_create_4.png)
 
-1. 按一下 **[!UICONTROL 選取對象]** 按鈕，從可用的Adobe Experience Platform對象清單定義要定位的對象。 [了解更多](../audience/about-audiences.md)。
+1. 按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，從可用的Adobe Experience Platform對象清單中定義要定位的對象。 [了解更多](../audience/about-audiences.md)。
 
-1. 在 **[!UICONTROL 身分名稱空間]** 欄位，選擇要使用的名稱空間，以識別所選對象中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
+1. 在&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;欄位中，選擇要使用的名稱空間，以識別所選對象中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
 
    ![](assets/sms_create_5.png)
 
-1. 按一下 **[!UICONTROL 建立實驗]** 開始設定內容實驗並建立處理方式，以測量其效能並識別目標對象的最佳選項。 [了解更多](../content-management/content-experiment.md)
+1. 按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以開始設定您的內容實驗，並建立處理以測量其效能，並為您的目標對象識別最佳選項。 [了解更多](../content-management/content-experiment.md)
 
-1. 在 **[!UICONTROL 動作追蹤]** 區段，指定您是否想要追蹤SMS訊息中連結的點按。
+1. 在&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段中，指定您是否想要追蹤簡訊訊息中連結的點按次數。
 
-1. 行銷活動旨在特定日期或循環頻率執行。 瞭解如何設定 **[!UICONTROL 排程]** 中的行銷活動 [本節](../campaigns/create-campaign.md#schedule).
+1. 行銷活動旨在特定日期或循環頻率執行。 在[本節](../campaigns/create-campaign.md#schedule)中瞭解如何設定行銷活動的&#x200B;**[!UICONTROL 排程]**。
 
-1. 從 **[!UICONTROL 動作觸發程式]** 功能表，選擇 **[!UICONTROL 頻率]** SMS訊息的：
+1. 從&#x200B;**[!UICONTROL 動作觸發程式]**&#x200B;功能表，選擇SMS訊息的&#x200B;**[!UICONTROL 頻率]**：
 
    * 一次
    * 每日
    * 每週
    * 月
 
-您現在可以從以下網址開始設計文字訊息的內容： **[!UICONTROL 編輯內容]** 按鈕，如下所述。
+您現在可以從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕開始設計文字訊息的內容，如下所述。
 
 >[!ENDTABS]
 
@@ -93,33 +93,33 @@ ht-degree: 10%
 >title="定義您的文字簡訊內容"
 >abstract="透過使用個人化編輯器定義內容並結合動態元素，自訂與個人化文字簡訊 (SMS/MMS)。"
 
-若要設定簡訊內容，請遵循下列步驟。 有關MMS設定的詳情，請參閱 [本節](#mms-content).
+若要設定簡訊內容，請遵循下列步驟。 MMS的設定在[本節](#mms-content)中有詳細說明。
 
-1. 在歷程或行銷活動設定畫面中，按一下 **[!UICONTROL 編輯內容]** 按鈕以設定文字訊息內容。
+1. 在歷程或行銷活動設定畫面中，按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕以設定文字訊息內容。
 
-1. 按一下 **[!UICONTROL 訊息]** 欄位以開啟個人化編輯器。
+1. 按一下&#x200B;**[!UICONTROL 訊息]**&#x200B;欄位以開啟個人化編輯器。
 
    ![](assets/sms-content.png)
 
-1. 使用個人化編輯器來定義內容、新增個人化和動態內容。 您可以使用任何屬性，例如設定檔名稱或城市。 您也可以定義條件式規則。 瀏覽到以下頁面，瞭解更多關於 [個人化](../personalization/personalize.md) 和 [動態內容](../personalization/get-started-dynamic-content.md) 在個人化編輯器中。
+1. 使用個人化編輯器來定義內容、新增個人化和動態內容。 您可以使用任何屬性，例如設定檔名稱或城市。 您也可以定義條件式規則。 瀏覽下列頁面，瞭解個人化編輯器中[個人化](../personalization/personalize.md)和[動態內容](../personalization/get-started-dynamic-content.md)的詳細資訊。
 
-1. 定義內容後，您可以將追蹤的URL新增至訊息。 若要這麼做，請存取 **[!UICONTROL 輔助函式]** 功能表並選取 **[!UICONTROL 協助程式]**.
+1. 定義內容後，您可以將追蹤的URL新增至訊息。 若要這麼做，請存取&#x200B;**[!UICONTROL 協助程式功能]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 協助程式]**。
 
    請注意，若要使用URL縮短功能，您必須先設定子網域，然後將其連結至您的表面。 [了解更多](sms-subdomains.md)
 
    >[!CAUTION]
    >
-   > 若要存取及編輯SMS子網域，您必須擁有 **[!UICONTROL 管理SMS子網域]** 生產沙箱的許可權。 若要了解權限的詳細資訊，請參閱[本章節](../administration/high-low-permissions.md)。
+   > 若要存取及編輯SMS子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理SMS子網域]**&#x200B;許可權。 若要了解權限的詳細資訊，請參閱[本章節](../administration/high-low-permissions.md)。
 
    ![](assets/sms_tracking_1.png)
 
-1. 在 **[!UICONTROL 輔助函式]** 功能表，按一下 **[!UICONTROL URL函式]** 然後選取 **[!UICONTROL 新增URL]**.
+1. 在&#x200B;**[!UICONTROL 協助程式函式]**&#x200B;功能表中，按一下&#x200B;**[!UICONTROL URL函式]**，然後選取&#x200B;**[!UICONTROL 新增URL]**。
 
    ![](assets/sms_tracking_2.png)
 
-1. 在 `originalUrl` 欄位，貼上您要縮短的URL並按一下 **[!UICONTROL 儲存]**.
+1. 在`originalUrl`欄位中，貼上您要縮短的URL，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
-1. 按一下 **[!UICONTROL 儲存]** 並在預覽中檢視您的訊息。 您現在可以測試和檢查您的訊息內容，如中所述 [本節](#sms-mms-test).
+1. 按一下&#x200B;**[!UICONTROL 儲存]**，然後在預覽中檢查您的訊息。 您現在可以測試並檢查您的訊息內容，如[本節](#sms-mms-test)所詳述。
 
 ## 定義多媒體簡訊內容{#mms-content}
 
@@ -127,33 +127,33 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->* MMS頻道隨附下列幾項限制 [此頁面](../start/guardrails.md#sms-guardrails).
+>* MMS頻道在[此頁面](../start/guardrails.md#sms-guardrails)中列出幾項限制。
 
 若要建立MMS內容，請遵循下列步驟：
 
-1. 建立SMS，如所述 [本節](#create-sms-journey-campaign).
+1. 建立簡訊，如[本節](#create-sms-journey-campaign)所述。
 
-1. 編輯簡訊內容，如中所述 [本節](#sms-content).
+1. 編輯您的SMS內容，如[此區段](#sms-content)中所詳述。
 
 1. 啟用MMS選項以將媒體新增到您的SMS內容。
 
    ![](assets/sms_create_6.png)
 
-1. 新增 **[!UICONTROL 標題]** 至您的媒體。
+1. 將&#x200B;**[!UICONTROL 標題]**&#x200B;新增至您的媒體。
 
-1. 在「 」中輸入媒體的URL **[!UICONTROL 媒體]** 欄位。
+1. 在&#x200B;**[!UICONTROL 媒體]**&#x200B;欄位中輸入您的媒體URL。
 
    ![](assets/sms_create_7.png)
 
-1. 按一下 **[!UICONTROL 儲存]** 並在預覽中檢視您的訊息。 您現在可以測試和檢查您的訊息內容，如下所述。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**，然後在預覽中檢查您的訊息。 您現在可以測試和檢查您的訊息內容，如下所述。
 
 ## 測試並傳送您的訊息 {#sms-mms-test}
 
-使用 **[!UICONTROL 模擬內容]** 按鈕以預覽您的文字訊息內容、縮短的URL和個人化內容。
+使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕來預覽您的文字訊息內容、縮短的URL和個人化內容。
 
 ![](assets/sms-content-preview.png)
 
-執行測試並驗證內容後，您就可以傳送簡訊給對象。 這些步驟詳見 [此頁面](send-sms.md)
+執行測試並驗證內容後，您就可以傳送簡訊給對象。 這些步驟在[此頁面](send-sms.md)中有詳細說明
 
 傳送後，您可以在行銷活動或歷程報告中測量簡訊的影響。 如需報告的詳細資訊，請參閱[本區段](../reports/campaign-global-report.md#sms-tab)。
 

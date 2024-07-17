@@ -12,29 +12,29 @@ exl-id: 364ef926-3f92-4297-acbd-a283668106ac
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
 # Mobile 上線快速入門工作流程 {#mobile-wf}
 
-新的 **行動入門快速入門工作流程** 是一項新產品功能，可快速設定Adobe Experience Platform Mobile SDK、開始收集及驗證行動事件資料，以及傳送推播通知 [!DNL Journey Optimizer].
+新的&#x200B;**行動入門快速入門工作流程**&#x200B;是新的產品功能，可快速設定Adobe Experience Platform Mobile SDK、開始收集和驗證行動事件資料，以及透過[!DNL Journey Optimizer]傳送推播通知。
 
-此功能可透過 **[!DNL Adobe Experience Platform Data Collection]** 首頁以供所有客戶作為公開測試版使用。
+此功能可透過&#x200B;**[!DNL Adobe Experience Platform Data Collection]**&#x200B;首頁以公用Beta的形式供所有客戶存取。
 
 ## 快速入門{#gs-mobile-wf}
 
-此新工作流程會透過減少總點按次數並加快Journey Optimizer的行動設定速度，使資料收集設定自動化。 此快速入門工作流程會帶您完成四個簡單步驟，以便 [設定](##setup-mobile-wf)， [實施](#implement-mobile-wf)， [驗證](#valid-mobile-wf)、和 [評論](#review-mobile-wf) 您的行動設定。
+此新工作流程會透過減少總點按次數並加快Journey Optimizer的行動設定速度，使資料收集設定自動化。 此快速入門工作流程將帶您進行四個簡單的步驟，以[設定](##setup-mobile-wf)、[實作](#implement-mobile-wf)、[驗證](#valid-mobile-wf)以及[檢閱](#review-mobile-wf)您的行動設定。
 
-若要存取新的行動入門快速入門工作流程，請瀏覽 **[!DNL Data Collection]** 解決方案切換器中的。 然後選取 **[!DNL Start Collecting Mobile Data]** 卡片。
+若要存取新的行動入門快速入門工作流程，請從解決方案切換器瀏覽至&#x200B;**[!DNL Data Collection]**。 然後在首頁上選取&#x200B;**[!DNL Start Collecting Mobile Data]**&#x200B;卡片。
 
 ![](assets/mobile-wf-home.png)
 
 以下是一些其他功能：
 
 * 簡單的四步驟工作流程和使用者介面。
-* 提供基本設定，以開始透過收集行動事件資料 [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} 幾分鐘內。
-* 運用測試及驗證基本行動推送事件的功能 [Adobe Experience Platform保證](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
+* 提供基本設定，以便在幾分鐘內開始透過[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}收集行動事件資料。
+* 能夠利用[Adobe Experience Platform保證](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}測試及驗證基本行動推播事件。
 * 自動建立及設定所有必要的資料收集和Journey Optimizer資產。
 * 在產品指引和工具提示中。
 * 如有需要，可提供更進階實作的自然轉換。
@@ -43,7 +43,7 @@ ht-degree: 8%
 
 此工作流程的第一步會自動建立及設定所有必要的資料收集和Journey Optimizer資產，例如行動屬性、行動擴充功能、Journey Optimizer擴充功能、規則、資料元素等。
 
-接受測試版條款與條件後，請輸入行動應用程式的名稱，然後按一下 **[!DNL Next]**.
+接受Beta條款與條件後，請輸入行動應用程式的名稱，然後按一下&#x200B;**[!DNL Next]**。
 
 ![](assets/mobile-wf-setup.png)
 

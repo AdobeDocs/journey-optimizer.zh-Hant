@@ -45,7 +45,7 @@ ht-degree: 19%
 
 ## 封鎖清單 {#sms-blocklists}
 
-除了Adobe Journey Optimizer根據選擇退出狀態（用於與Twilio、Infobip或Sinch直接整合）停止傳送外，大部分的簡訊閘道提供者也會維護封鎖清單，確保您不會將簡訊傳送給選擇退出的個人。 如果您使用Sinch或Twilio以外的提供者，並透過傳送簡訊 [自訂頻道](../building-journeys/using-custom-actions.md)，您必須向提供者確認。
+除了Adobe Journey Optimizer根據選擇退出狀態（用於與Twilio、Infobip或Sinch直接整合）停止傳送外，大部分的簡訊閘道提供者也會維護封鎖清單，確保您不會將簡訊傳送給選擇退出的個人。 如果您使用Sinch或Twilio以外的提供者，並透過[自訂頻道](../building-journeys/using-custom-actions.md)傳送SMS，您必須向提供者確認。
 
 
 ## 短程式碼 {#short-codes}

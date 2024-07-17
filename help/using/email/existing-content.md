@@ -18,10 +18,10 @@ ht-degree: 33%
 
 # 匯入電子郵件內容 {#existing-content}
 
-[!DNL Journey Optimizer] 可讓您匯入現有的HTML內容，以設計您的電子郵件。 此內容可以是：
+[!DNL Journey Optimizer]可讓您匯入現有的HTML內容，以設計您的電子郵件。 此內容可以是：
 
-* 一個 **HTML檔案** 合併樣式表；
-* A **.zip資料夾** 包括HTML檔案、樣式表(.css)和影像。
+* 包含合併樣式表的&#x200B;**HTML檔案**；
+* **.zip資料夾**&#x200B;包含HTML檔案、樣式表(.css)和影像。
 
   >[!NOTE]
   >
@@ -29,7 +29,7 @@ ht-degree: 33%
 
 若要匯入包含 HTML 內容的檔案，請依照以下步驟操作：
 
-1. 從電子郵件設計工具首頁，選取 **[!UICONTROL 匯入HTML]**.
+1. 從電子郵件Designer首頁，選取&#x200B;**[!UICONTROL 匯入HTML]**。
 
    ![](assets/import-html_2.png)
 
@@ -37,19 +37,19 @@ ht-degree: 33%
 
    ![](assets/html-imported_2.png)
 
-1. 上傳HTML內容後，您的內容將會進入 **[!UICONTROL 相容性模式]**.
+1. 上傳HTML內容後，您的內容將處於&#x200B;**[!UICONTROL 相容性模式]**。
 
    在此模式中，您只能個人化您的文字、新增連結或包含資產至您的內容。
 
-1. 若要善用電子郵件設計工具內容元件，請存取 **[!UICONTROL HTML轉換工具]** 標籤並按一下 **[!UICONTROL 轉換]**.
+1. 若要能夠利用電子郵件Designer內容元件，請存取&#x200B;**[!UICONTROL HTML轉換工具]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 轉換]**。
 
    ![](assets/html-imported.png)
 
    >[!NOTE]
    >
-   > 使用 `<table>` 標籤作為HTML檔案中的第一個圖層可能會造成樣式遺失，包括頂層圖層標籤中的背景和寬度設定。
+   > 使用`<table>`標籤做為HTML檔案中的第一個圖層可能會造成樣式遺失，包括上層圖層標籤中的背景和寬度設定。
 
-1. 您現在可以根據需要使用電子郵件設計工具功能個人化匯入的檔案 [瞭解更多](content-from-scratch.md).
+1. 您現在可以根據需要，使用電子郵件Designer功能[瞭解更多](content-from-scratch.md)個人化匯入的檔案。
 
 ## 操作說明影片 {#video}
 

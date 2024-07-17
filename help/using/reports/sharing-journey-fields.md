@@ -17,12 +17,12 @@ ht-degree: 10%
 
 # 歷程欄位 {#sharing-journey-fields}
 
-此欄位群組用於 **歷程** 綱要(與 **journeyStepEvent**)。 它包含下列欄位。
+此欄位群組用於&#x200B;**歷程**&#x200B;結構描述（與&#x200B;**journeyStepEvent**&#x200B;相關）。 它包含下列欄位。
 
 
 >[!NOTE]
 >
->深入瞭解歷程屬性 [在本節中](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>在本節](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)中進一步瞭解歷程屬性[。
 
 
 ## journeyID {#journeyid-field}
@@ -51,6 +51,6 @@ ht-degree: 10%
 
 ## 版本 {#version-field}
 
-版本，表示為 `major`.`minor`
+版本，表示為`major`.`minor`
 
 型別：字串

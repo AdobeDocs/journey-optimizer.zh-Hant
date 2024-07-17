@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 查詢位置 {#look-up-placement}
 
-您可以透過向以下網址發出GET請求來查詢特定版位： [!DNL Offer Library] 包含位置的API `id`.
+您可以向[!DNL Offer Library] API發出包含版位`id`的GET要求，以查詢特定版位。
 
 **API格式**
 
@@ -39,7 +39,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/placements/offerPlacement12
 
 **回應**
 
-成功的回應會傳回位置的詳細資訊，包括不重複位置的資訊 `id`.
+成功的回應會傳回位置詳細資料，包括唯一位置`id`的相關資訊。
 
 ```json
 {
