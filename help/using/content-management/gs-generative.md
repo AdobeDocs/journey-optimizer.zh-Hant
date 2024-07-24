@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 267d1850cbe30b1078f3b5b5bd228364bb63edd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '602'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 96%
 >
 >Adobe Journey Optimizer 中的 AI Assistant 目前僅作為測試版提供給部分使用者。
 
-Adobe Journey Optimizer中的AI Assistant由Azure OpenAI提供技術支援，針對文字和影像提供主動式內容變化建議。 它可用於電子郵件、推播和簡訊管道。這項新功能提供提示型文字與影像產生功能。 透過 Adobe Firefly 管理影像產生功能。
+在 Adobe Journey Optimizer，Azure OpenAI 所支援的 AI 助理，可為文字和影像提供主動的內容變化建議。 它可用於電子郵件、推播和簡訊管道。這項新功能提供提示型文字與影像產生功能。 透過 Adobe Firefly 管理影像產生功能。
 
 使用 AI 助理，利用不同的主要標題和影像進行實驗，讓訊息的影響達到最佳成效。 產生多個變體並建置實驗加以比較。 運用 Journey Optimizer 內容實驗，您可以定義多種訊息處理，以測量對目標對象執行哪種處理的效果最佳。 您可以選擇變更傳遞內容或主旨。 訊息對象會隨機分配給每種處理，以就指定的量度而言，判斷哪種處理的效果最佳。 若要了解內容實驗的詳細資訊，請參閱[本章節](../content-management/content-experiment.md)。
 

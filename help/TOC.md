@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1877'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -311,7 +311,7 @@ ht-degree: 99%
       + Personalization 使用案例{#personalization-use-cases}
          + [訂單狀態通知](using/personalization/personalization-use-case.md)
          + [放棄購物車電子郵件](using/personalization/personalization-use-case-helper-functions.md)
-         + [健康計畫處方電子郵件](using/personalization/perso-uc-plan-prescriptions.md)
+         + [健康計劃處方電子郵件](using/personalization/perso-uc-plan-prescriptions.md)
    + 內容範本 {#content-templates}
       + [開始使用內容範本](using/content-management/content-templates.md)
       + [存取並管理範本](using/content-management/access-content-templates.md)
