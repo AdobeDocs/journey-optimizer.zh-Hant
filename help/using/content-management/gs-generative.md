@@ -14,7 +14,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 267d1850cbe30b1078f3b5b5bd228364bb63edd6
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
 >title="Adobe 生成式 AI 術語"
->abstract="要存取此功能，您必須同意 Adobe Experience Cloud Generative Al 使用者指南。請檢閱此功能的任何輸出是否準確，並確定其適合您的使用案例。"
+>abstract="要存取此功能，您必須同意 Adobe Experience Cloud Generative Al 使用者指南。請檢查此功能之任何輸出的準確性，並確保它適合您的使用案例。"
 >additional-url="https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 使用者手冊"
 
 >[!BEGINSHADEBOX]

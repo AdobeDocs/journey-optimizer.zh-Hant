@@ -117,7 +117,7 @@ ht-degree: 21%
 >id="ajo_lp_access_settings"
 >title="定義您的登陸頁面 URL"
 >abstract="在本區段中，定義一個唯一的登陸頁面 URL。URL 的第一部分需要您預先設定一個登陸頁面子網域作為您選取的預設集的一部分。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains" text="設定登陸頁面子網域"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains" text="設定登陸頁面子網域"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hant#lp-create-preset" text="建立登陸頁面預設集"
 
 主要頁面是使用者按一下登陸頁面連結後（例如從電子郵件或網站）立即顯示給使用者的頁面。
