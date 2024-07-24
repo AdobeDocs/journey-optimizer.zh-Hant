@@ -11,7 +11,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: dd7420257360a839d4dbeb05e78f002a09a9231b
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 60%
 
 ## 2024 年 7 月搶先發行說明 {#e-2024}
 
-**發行日期**： 2024年7月30至31日
+**發行日期**：2024 年 7 月 30-31 日
 
 ### 新功能 {#e-features}
 
@@ -32,7 +32,7 @@ ht-degree: 60%
 <table>
 <thead>
 <tr>
-<th><strong>IP熱身工作流程(GA)</strong><br/></th>
+<th><strong>IP 暖身工作流程 (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -49,13 +49,13 @@ ht-degree: 60%
 <table>
 <thead>
 <tr>
-<th><strong>與任何提供者的SMS頻道(Beta)</strong><br/></th>
+<th><strong>具有任何提供者的 SMS 頻道 (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在Journey Optimizer中設定其他簡訊提供者，以及預設提供者Sinch、Infobip和Twilio。</p>
+<p>除了預設提供者 Sinch、Infobip 和 Twilio 之外，您現在可以在 Journey Optimizer 設定其他 SMS 提供者。</p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -122,7 +122,7 @@ ht-degree: 60%
 
 **歷程**
 
-* （可用性： 7月8日）您現在可以在設定事件時運用進階運算式編輯器，允許您定義更複雜的運算式或在事件ID條件中使用函式。 [了解更多](../event/about-creating.md#adv-exp-editor)
+* (上市日期： 7 月 8 日) 您現在可以在設定事件時善用進階運算式編輯器，讓您定義更複雜的運算式或在事件 ID 條件中使用函式。[了解更多](../event/about-creating.md#adv-exp-editor)
 
 <!--* The `event-id` condition is now automatically filled during test mode. -->
 
@@ -136,7 +136,7 @@ ht-degree: 60%
 
 **對象**
 
-* 自訂上傳的對象（CSV檔案）現在可與「隱私權與安全防護板」搭配使用。
+* 自訂上傳的對象 (CSV 檔案) 現在可與「隱私權與安全防護板」搭配使用。
 <!--
 **Push channel**
 
