@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c64d0dbc41089fa50f0fbc4829ba60818dd25a37
+source-git-commit: dd7420257360a839d4dbeb05e78f002a09a9231b
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 51%
+source-wordcount: '237'
+ht-degree: 60%
 
 ---
 
@@ -62,24 +62,20 @@ ht-degree: 51%
 </tbody>
 </table>
 
-
-
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Marketo Engage自訂動作</strong><br/></th>
+<th><strong>Marketo Engage custom action</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以將Adobe Journey Optimizer與Adobe Marketo Engage整合，以建置B2B使用案例。 新的自訂動作可讓您從歷程將資料擷取到Marketo。</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>You can now integrate Adobe Journey Optimizer with Adobe Marketo Engage to build your B2B use cases. From a journey, a new custom action allows you to ingest data into Marketo.</p>
 </td>
 </tr>
 </tbody>
-</table>
-
+</table-->
 
 <!--table>
 <thead>
@@ -130,9 +126,9 @@ ht-degree: 51%
 
 <!--* The `event-id` condition is now automatically filled during test mode. -->
 
-**簡訊頻道**
+<!--**SMS channel**
 
-* 您現在可以修改現有的SMS設定。
+* You can now modify existing SMS configurations.-->
 
 **應用程式內頻道**
 
