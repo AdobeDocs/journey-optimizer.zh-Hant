@@ -10,10 +10,10 @@ level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="可用性限制" type="Informative"
-source-git-commit: b5dbfbd6d1bb4f1451f1ccab7387af3c37d6d060
+source-git-commit: e2ebb540fe9380497b42d331d1ea259538d72f00
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 33%
+source-wordcount: '252'
+ht-degree: 20%
 
 ---
 
@@ -31,10 +31,19 @@ ht-degree: 33%
 
 * **自動翻譯**：傳送內容給您偏好的語言提供者，以進行自動翻譯。 [了解更多](multilingual-automated.md)
 
-
 </br>
 
 ![](assets/translation_schema.png)
+
+## 先決條件 {#prerequisites}
+
+Adobe Journey Optimizer目前與翻譯提供者整合，這些翻譯提供者獨立於Adobe Journey Optimizer，提供協力廠商翻譯服務（機器翻譯或人力翻譯）。
+
+在新增您選取的翻譯提供者之前，您必須與該適用提供者建立帳戶。
+
+您使用翻譯提供者的翻譯服務，須受該適用提供者的其他條款與條件所限制。  身為協力廠商解決方案，Adobe Journey Optimizer使用者可透過整合使用翻譯服務。  Adobe無法控制且對協力廠商產品不承擔任何責任。
+
+如需任何與翻譯相關的問題或協助請求，請聯絡適用的翻譯提供者。
 
 ## 操作說明影片 {#video}
 
