@@ -6,7 +6,7 @@ description: Journey Optimizer 搶先發行說明
 hide: true
 hidefromtoc: true
 exl-id: 841122b9-04f6-4250-b0a5-e61f470787f7
-source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
+source-git-commit: 5ccf9e08a24f840de7adbf04dc545904eaa32b8c
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 100%
@@ -198,3 +198,4 @@ From beta to LA, the following improvements that have been added:
 
 * 您現在可以在管道表面層級選取行銷動作。在表面中使用時，會運用與該行銷動作相關的所有同意政策，以尊重客戶的偏好設定。
 * 現在管道介面可以使用「物件層級存取控制」。
+
