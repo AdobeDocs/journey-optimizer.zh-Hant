@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: dd7420257360a839d4dbeb05e78f002a09a9231b
+source-git-commit: bb7806cea0b485fd53055d8e596513cfbc592620
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '303'
+ht-degree: 77%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>IP 暖身工作流程 (GA)</strong><br/></th>
+<th><strong>IP 暖身工作流程</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -57,6 +57,23 @@ ht-degree: 100%
 <td>
 <p>除了預設提供者 Sinch、Infobip 和 Twilio 之外，您現在可以在 Journey Optimizer 設定其他 SMS 提供者。</p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>同盟對象構成（可用性限制）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer現在提供同盟對象構成。 可讓企業撰寫資料，以便在各種使用案例中善加利用。 使用此新方法，身為Adobe Real-time Customer Data Platform和/或Adobe Journey Optimizer使用者，您可以直接從您現有的資料倉儲同盟資料集，讓Adobe Experience Platform對象和屬性在單一系統中全部豐富。</p>
+<!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
