@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 84983aac86459deafa5a088461777227ec6cec22
+source-git-commit: d0ada10308665049bffd7630272654988a6236a4
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1287'
 ht-degree: 90%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 90%
 <tr>
 <td>
 <p>Adobe Journey Optimizer現在提供同盟對象構成。 可讓企業撰寫資料，以便在各種使用案例中善加利用。 使用此新方法，身為Adobe Real-time Customer Data Platform和/或Adobe Journey Optimizer使用者，您可以直接從您現有的資料倉儲同盟資料集，以在一個系統中建立並擴充Adobe Experience Platform受眾和屬性。</p>
-<!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">detailed documentation</a>.</p-->
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
