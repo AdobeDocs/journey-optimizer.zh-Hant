@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8b92f0c2bc5dd44e9059154e4a9b40872ad802f8
+source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1888'
 ht-degree: 99%
 
 ---
@@ -230,6 +230,7 @@ ht-degree: 99%
       + [設定 Sinch 提供者](using/sms/sms-configuration-sinch.md)
       + [設定 Infobip 提供者](using/sms/sms-configuration-infobip.md)
       + [設定 Twilio 提供者](using/sms/sms-configuration-twilio.md)
+      + [設定自訂提供者(Beta)](using/sms/sms-configuration-custom.md)
       + [建立簡訊界面](using/sms/sms-configuration-surface.md)
 + 直接郵件 {#direct-mail}
    + [開始使用直接郵件](using/direct-mail/get-started-direct-mail.md)

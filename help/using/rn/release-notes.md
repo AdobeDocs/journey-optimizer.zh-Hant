@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d0ada10308665049bffd7630272654988a6236a4
+source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1295'
 ht-degree: 90%
 
 ---
@@ -63,7 +63,8 @@ ht-degree: 90%
 <tr>
 <td>
 <p>除了預設提供者 Sinch、Infobip 和 Twilio 之外，您現在可以在 Journey Optimizer 設定其他 SMS 提供者。</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<img src="assets/do-not-localize/byo_sms.gif"/>
+<p>如需詳細資訊，請參閱<a href="../sms/sms-configuration-custom.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
