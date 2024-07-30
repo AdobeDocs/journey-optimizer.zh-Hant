@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 8b92f0c2bc5dd44e9059154e4a9b40872ad802f8
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1910'
 ht-degree: 20%
 
 ---
@@ -37,6 +37,11 @@ ht-degree: 20%
 * **區段定義**：使用Adobe Experience Platform Segmentation Service建立新的對象定義。 [瞭解如何建立區段定義](creating-a-segment-definition.md)
 * **自訂上傳**：使用CSV檔案匯入對象。 在Adobe Experience Platform [Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}中瞭解如何匯入對象。
 * **對象構成**：建立構成工作流程，將現有Adobe Experience Platform對象結合到視覺畫布中，並利用各種活動（分割、排除……）來建立新對象。 [開始使用對象組合](get-started-audience-orchestration.md)
+* **同盟對象構成**：直接從您現有的資料倉儲同盟資料集，以在一個系統中建立並擴充Adobe Experience Platform對象和屬性。 請閱讀[同盟對象構成](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home)的指南。
+
+  >[!AVAILABILITY]
+  >
+  >聯合客群組成目前僅開放給某些組織使用 (限量開放使用)。如需詳細資訊，請聯絡您的 Adobe 代表。
 
 ## 在[!DNL Journey Optimizer]中鎖定對象 {#segments-in-journey-optimizer}
 
