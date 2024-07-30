@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0fc693054ad7931545e0053249f310aed031c8c4
+source-git-commit: b2459757d1f1964c7d0b59de814bed29b0a394bb
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 90%
+source-wordcount: '1244'
+ht-degree: 91%
 
 ---
 
@@ -26,10 +26,7 @@ ht-degree: 90%
 
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
-
-## 2024 年 7 月搶先發行說明 {#27-4-2024}
-
-**至發行日期之前，下方早期發行說明如有變更，恕不另行通知**。 此頁面會在發行日期發佈連結、畫面和更新檔案。
+## 2024 年 7 月發行說明 {#27-4-2024}
 
 **發行日期**：2024 年 7 月 30-31 日
 
@@ -94,9 +91,9 @@ ht-degree: 90%
 
 * （推出日期： 7月8日） **歷程事件設定中的進階運算式編輯器** — 您現在可以在設定事件時運用進階運算式編輯器，讓您定義更複雜的運算式或在事件ID條件中使用函式。 [了解更多](../event/about-creating.md#adv-exp-editor)
 
-**對象**
+<!--**Audiences**
 
-* 自訂上傳的對象 (CSV 檔案) 現在可與「隱私權與安全防護板」搭配使用。
+* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield.-->
 
 ## 2024 年 6 月發行說明 {#24-6-2024}
 
