@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 452aecc02f265b8bcbe89f221bd7b1a50ffa0976
+source-git-commit: 6574f5d46125b90634b21ec62a43ca50d1321479
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 92%
@@ -301,4 +301,4 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="優先等級"
->abstract="「指派優先順序分數給歷程，範圍從0到100。 數字越高表示優先順序越高。 當兩個歷程使用相同表面時，Journey Optimizer會選取優先順序分數最高的歷程。 如果歷程分數相同，則會選擇最近修改的歷程。"
+>abstract="指派優先順序分數給歷程，範圍從0到100。 數字越高表示優先順序越高。 當兩個歷程使用相同表面時，Journey Optimizer會選取優先順序分數最高的歷程。 如果歷程分數相同，則會選擇最近修改的歷程。"
