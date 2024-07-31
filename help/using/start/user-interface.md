@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0ccc6453594aaf501f15e5342331b1649346bfa3
+source-git-commit: 452aecc02f265b8bcbe89f221bd7b1a50ffa0976
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 100%
+source-wordcount: '1458'
+ht-degree: 92%
 
 ---
 
@@ -290,3 +290,15 @@ ht-degree: 100%
 >id="ajo_mobile_web_setup_push_android_studio"
 >title="從 Android Studio 啟動應用程式"
 >abstract="待定"
+
+<!-- priority scores-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_priority"
+>title="優先等級"
+>abstract="為行銷活動指派優先順序分數，範圍從0到100。 數字越高表示優先順序越高。 當兩個行銷活動使用相同的介面時，Journey Optimizer會選取優先順序分數最高的行銷活動。 如果行銷活動具有相同的分數，將會選擇最近修改的行銷活動。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_priority"
+>title="優先等級"
+>abstract="「指派優先順序分數給歷程，範圍從0到100。 數字越高表示優先順序越高。 當兩個歷程使用相同表面時，Journey Optimizer會選取優先順序分數最高的歷程。 如果歷程分數相同，則會選擇最近修改的歷程。"
