@@ -11,10 +11,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 267d1850cbe30b1078f3b5b5bd228364bb63edd6
-workflow-type: ht
+source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
+workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
->title="使用 AI 助理定義內容"
->abstract="若要使用選取的內容作為內容產生的輸入，請啟動&#x200B;**使用原始內容**&#x200B;切換。您也可以上傳您的品牌資產，以便作為來源使用。 如果您未使用選取的內容，則必須上傳及選取品牌資產。"
+>title="上傳品牌資產"
+>abstract="「上傳品牌資產」選單可讓您新增任何品牌資產，其中包含可為AI助理提供額外內容的內容，或選取先前上傳的資產。 此選項可確保AI助理能夠存取所有必要的資料，以增強其功能和相關性。"
 
 
 >[!CONTEXTUALHELP]
