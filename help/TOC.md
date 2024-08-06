@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1888'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -230,7 +230,7 @@ ht-degree: 99%
       + [設定 Sinch 提供者](using/sms/sms-configuration-sinch.md)
       + [設定 Infobip 提供者](using/sms/sms-configuration-infobip.md)
       + [設定 Twilio 提供者](using/sms/sms-configuration-twilio.md)
-      + [設定自訂提供者(Beta)](using/sms/sms-configuration-custom.md)
+      + [設定自訂提供者 (Beta)](using/sms/sms-configuration-custom.md)
       + [建立簡訊界面](using/sms/sms-configuration-surface.md)
 + 直接郵件 {#direct-mail}
    + [開始使用直接郵件](using/direct-mail/get-started-direct-mail.md)
@@ -345,7 +345,7 @@ ht-degree: 99%
          + [建立組合工作流程](using/audience/create-compositions.md)
          + [使用組合畫布](using/audience/composition-canvas.md)
          + [存取及管理對象](using/audience/access-audiences.md)
-      + [同盟對象構成（可用性限制）](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home)
+      + [聯合客群構成 (可用性限制)](https://experienceleague.adobe.com/zh-hant/docs/federated-audience-composition/using/home)
    + 設定檔{#profiles}
       + [開始使用設定檔](using/audience/get-started-profiles.md)
       + [建立測試設定檔](using/audience/creating-test-profiles.md)

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 6574f5d46125b90634b21ec62a43ca50d1321479
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1458'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -295,10 +295,10 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
->title="優先等級"
->abstract="為行銷活動指派優先順序分數，範圍從0到100。 數字越高表示優先順序越高。 當兩個行銷活動使用相同的介面時，Journey Optimizer會選取優先順序分數最高的行銷活動。 如果行銷活動具有相同的分數，將會選擇最近修改的行銷活動。"
+>title="優先順序"
+>abstract="為行銷活動指派優先順序分數，範圍從 0 到 100。 數字越高表示優先順序越高。 當兩個行銷活動使用相同的表面時，Journey Optimizer 會選取優先順序分數最高的行銷活動。 如果行銷活動具有相同的分數，將會選擇最近修改的行銷活動。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
->title="優先等級"
->abstract="指派優先順序分數給歷程，範圍從0到100。 數字越高表示優先順序越高。 當兩個歷程使用相同表面時，Journey Optimizer會選取優先順序分數最高的歷程。 如果歷程分數相同，則會選擇最近修改的歷程。"
+>title="優先順序"
+>abstract="為歷程指派優先順序分數，範圍從 0 到 100。 數字越高表示優先順序越高。 當兩個歷程使用相同表面時，Journey Optimizer 會選取優先順序分數最高的歷程。 如果歷程分數相同，則會選擇最近修改的歷程。"

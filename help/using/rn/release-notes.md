@@ -7,9 +7,9 @@ topic: Content Management
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: b2459757d1f1964c7d0b59de814bed29b0a394bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1244'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -70,14 +70,14 @@ ht-degree: 91%
 <table>
 <thead>
 <tr>
-<th><strong>同盟對象構成（可用性限制）</strong><br/></th>
+<th><strong>聯合客群構成 (可用性限制)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer現在提供同盟對象構成。 可讓企業撰寫資料，以便在各種使用案例中善加利用。 使用此新方法，身為Adobe Real-time Customer Data Platform和/或Adobe Journey Optimizer使用者，您可以直接從您現有的資料倉儲同盟資料集，以在一個系統中建立並擴充Adobe Experience Platform受眾和屬性。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">詳細文件</a>。</p>
+<p>Adobe Journey Optimizer 現已提供聯合客群構成。它可讓企業自行組合資料，以便在各種使用案例中能善加運用。有了這種新方法，身為 Adobe Real-Time 客戶資料平台和/或 Adobe Journey Optimizer 使用者，您就可以直接聯合現有資料倉儲中的資料集，透過單一系統建置並擴充 Adobe 體驗平台的客群及屬性。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/federated-audience-composition/using/home"  target="_blank">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -89,7 +89,7 @@ ht-degree: 91%
 
 **歷程**
 
-* （推出日期： 7月8日） **歷程事件設定中的進階運算式編輯器** — 您現在可以在設定事件時運用進階運算式編輯器，讓您定義更複雜的運算式或在事件ID條件中使用函式。 [了解更多](../event/about-creating.md#adv-exp-editor)
+* (有效日期：7 月 8 日) **歷程事件設定中的進階運算式編輯器** - 您現在可以在設定事件時善用進階運算式編輯器，讓您定義更複雜的運算式或在事件 ID 條件中使用函數。[了解更多](../event/about-creating.md#adv-exp-editor)
 
 <!--**Audiences**
 

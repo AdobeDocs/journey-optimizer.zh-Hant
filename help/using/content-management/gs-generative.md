@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '602'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="上傳品牌資產"
->abstract="「上傳品牌資產」選單可讓您增添任何包含內容的品牌資產，以便為 AI 助理提供更多背景資訊，也可選擇先前上傳的資產。此選項可確保 AI 助理能存取所有必要的素材，以增強其功能和相關性。"
+>abstract="「上傳品牌資產」選單可讓您新增任何品牌資產，其中包含可為 AI 助理提供額外情境的內容，或選取先前上傳的資產。 此選項可確保 AI 助理能夠存取所有必要的資料，以增強其功能與相關性。"
 
 
 >[!CONTEXTUALHELP]
