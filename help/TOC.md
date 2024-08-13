@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
-workflow-type: ht
-source-wordcount: '1888'
-ht-degree: 100%
+source-git-commit: a285e39abc96159b393d430b3a5ce8aceb3b32f5
+workflow-type: tm+mt
+source-wordcount: '1892'
+ht-degree: 99%
 
 ---
 
@@ -609,6 +609,7 @@ ht-degree: 100%
          + [與 Adobe Campaign Standard 整合](using/action/acs-action.md)
          + [與 Adobe Campaign v7/v8 整合](using/action/acc-action.md)
          + [在自訂動作中使用 API 呼叫回應](using/action/action-response.md)
+         + [與Marketo Engage整合](using/action/marketo-engage.md)
    + [來源](using/start/get-started-sources.md)
 + 存取控制 {#access-control}
    + 存取控制概覽{#privacy}
