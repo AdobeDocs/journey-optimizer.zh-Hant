@@ -8,45 +8,29 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, 傳遞能力
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: 34c1180e3ba5b6b39287e70651c45351fa71e6b1
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 94%
+source-wordcount: '240'
+ht-degree: 70%
 
 ---
 
 # 開始使用 IP 暖身計劃 {#ip-warmup-gs}
 
->[!BEGINSHADEBOX]
-
-本文件指南提供以下內容：
-
-* **[開始使用 IP 暖身](ip-warmup-gs.md)**
-* [建立 IP 暖身行銷活動](ip-warmup-campaign.md)
-* [建立 IP 暖身計劃](ip-warmup-plan.md)
-* [執行 IP 暖身計劃](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
-
-透過 [!DNL Journey Optimizer]，您可以按照標準化、有效率的方式，依照最佳傳遞能力的最佳實務進行，直接從使用者介面輕鬆執行 IP 暖身工作流程。
-
-➡️[在此影片中瞭解如何建立及執行IP熱身計畫](#video)
-
->[!CAUTION]
->
->此功能僅適用於電子郵件頻道。
-
-使用新平台傳送電子郵件時，網際網路服務提供商 (ISP) 會懷疑無法辨識的 IP 位址。 如果突然傳送大量電子郵件，ISP 通常會將其標記為垃圾郵件。
+透過[!DNL Journey Optimizer]，您可以遵循最佳傳遞能力的最佳實務，以標準化且有效率的方式直接從使用者介面執行IP熱身工作流程。 使用新平台傳送電子郵件時，網際網路服務提供商 (ISP) 會懷疑無法辨識的 IP 位址。 如果突然傳送大量電子郵件，ISP 通常會將其標記為垃圾郵件。
 
 為避免遭標記為垃圾郵件，您可以使用 IP 暖身計劃功能逐步增加傳送量。 這項新選項位於&#x200B;**[!UICONTROL 管理]**&#x200B;功能表，可讓您以整合的方式更輕鬆地操作，而不是建立複雜的每日歷程。 
 
->[!NOTE]
+<!--➡️ [Learn how to create and execute an IP warmup plan in this video](#video)-->
+
+>[!AVAILABILITY]
 >
->請在[傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=zh-Hant)中了解更多透過 IP 暖身功能提高電子郵件聲譽。
+>此功能只能在生產型別的沙箱上啟用。
+>
+>已購買Adobe **Healthcare Shield**&#x200B;或&#x200B;**Privacy and Security Shield**&#x200B;附加產品的組織無法使用此功能。
+
+
 
 <!--
 Benefits
@@ -68,8 +52,15 @@ Benefits
 
 1. 為計劃的每個階段選取行銷活動，然後啟用對應的執行。 [了解更多](ip-warmup-execution.md)
 
-## 操作說明影片 {#video}
+<!--Old UI
+## How-to video {#video}
 
-了解如何建立和執行 IP 暖身計劃。
+Learn how to create and execute an IP warmup plan.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)
+-->
+
+
+>[!NOTE]
+>
+>在[傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=zh-Hant)中進一步瞭解透過IP暖身提高您的電子郵件信譽。

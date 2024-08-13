@@ -8,29 +8,15 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP、群組、子網域、傳遞能力
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '2558'
-ht-degree: 12%
+source-wordcount: '2530'
+ht-degree: 11%
 
 ---
 
 # 執行 IP 暖身計劃 {#ip-warmup-running}
-
->[!BEGINSHADEBOX]
-
-本文件指南會提供以下內容：
-
-* [開始使用 IP 暖身計劃](ip-warmup-gs.md)
-* [建立 IP 暖身行銷活動](ip-warmup-campaign.md)
-* [建立 IP 暖身計劃](ip-warmup-plan.md)
-* **[執行IP熱身計畫](ip-warmup-execution.md)**
-
->[!ENDSHADEBOX]
 
 在您[建立IP熱身計畫](ip-warmup-plan.md)並上傳與傳遞顧問準備的檔案後，您就可以定義階段並在計畫中執行。
 

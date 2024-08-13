@@ -8,14 +8,11 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: IP、集區、傳遞能力
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 17%
+source-wordcount: '423'
+ht-degree: 12%
 
 ---
 
@@ -26,17 +23,6 @@ ht-degree: 17%
 >title="啟用 IP 暖身計劃選項"
 >abstract="當您選取此選項時，可以在 IP 暖身計劃中使用行銷活動。然後，活動排程將由與其關聯的 IP 暖身計劃驅動。"
 
->[!BEGINSHADEBOX]
-
-本文件指南會提供以下內容：
-
-* [開始使用 IP 暖身計劃](ip-warmup-gs.md)
-* **[建立IP熱身行銷活動](ip-warmup-campaign.md)**
-* [建立 IP 暖身計劃](ip-warmup-plan.md)
-* [執行 IP 暖身計劃](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
-
 在[!DNL Journey Optimizer]中建立IP熱身計畫本身之前，您必須先建立一或多個專門設計用於IP熱身計畫<!--through a dedicated option-->的行銷活動。
 
 若要建立IP熱身行銷活動，請遵循下列步驟。
@@ -45,9 +31,9 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >在[本節](../email/email-settings.md#subdomains-and-ip-pools)中瞭解如何選取要在電子郵件表面中使用的網域和IP。
+   >* 在[本節](../email/email-settings.md#subdomains-and-ip-pools)中瞭解如何選取要在電子郵件表面中使用的網域和IP。
    >
-   >請與您的傳遞顧問合作，識別要用於IP熱身計畫的網域和IP。<!--TBC-->
+   >* 請與您的傳遞顧問合作，識別要用於IP熱身計畫的網域和IP。<!--TBC-->
 
 1. 建立排程的行銷[行銷活動](../campaigns/create-campaign.md)並選取[電子郵件](../email/create-email.md#create-email-journey-campaign)動作。
 
@@ -71,17 +57,13 @@ ht-degree: 17%
 
    請注意，您需要為IP熱身行銷活動選取規則型對象。 [了解更多](../audience/creating-a-segment-definition.md)
 
-   >[!NOTE]
-   >
-   >如需如何設定行銷活動的詳細資訊，請參閱[此頁面](../campaigns/get-started-with-campaigns.md)。
+   如需如何設定行銷活動的詳細資訊，請參閱[此頁面](../campaigns/get-started-with-campaigns.md)。
 
 1. [啟動](../campaigns/review-activate-campaign.md)行銷活動。 其狀態變更為&#x200B;**[!UICONTROL 即時]**。
 
    請注意，商業規則不應用於IP熱身計畫。 套用這些規則可能會阻礙達到行銷活動所需目標設定檔數。
 
-   >[!NOTE]
-   >
-   >對於已啟用IP熱身計畫的即時行銷活動，**[!UICONTROL 刪除]**&#x200B;按鈕將一直可用，直到它與IP熱身計畫相關聯為止。 行銷活動在計畫中使用後，即無法再刪除。
+   對於已啟用IP熱身計畫的即時行銷活動，**[!UICONTROL 刪除]**&#x200B;按鈕將一直可用，直到它與IP熱身計畫相關聯為止。 行銷活動在計畫中使用後，即無法再刪除。
 
 1. 行銷活動會顯示在&#x200B;**[!UICONTROL 行銷活動]**&#x200B;清單中。 若要輕鬆擷取在目前沙箱上建立的所有IP熱身行銷活動，您可以篩選&#x200B;**[!UICONTROL IP熱身]**&#x200B;行銷活動選項。
 

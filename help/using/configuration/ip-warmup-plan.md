@@ -8,29 +8,15 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP、群組、子網域、傳遞能力
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 8%
+source-wordcount: '1665'
+ht-degree: 6%
 
 ---
 
 # 建立 IP 暖身計劃 {#ip-warmup}
-
->[!BEGINSHADEBOX]
-
-本文件指南會提供以下內容：
-
-* [開始使用 IP 暖身計劃](ip-warmup-gs.md)
-* [建立 IP 暖身行銷活動](ip-warmup-campaign.md)
-* **[建立IP熱身計畫](ip-warmup-plan.md)**
-* [執行 IP 暖身計劃](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
 
 一旦您建立一或多個[IP熱身行銷活動](ip-warmup-campaign.md)，並啟用專用介面和對應的選項後，您就可以開始建立IP熱身計畫。
 
@@ -112,11 +98,12 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 
 * 此計畫透過六個&#x200B;**階段**&#x200B;執行，每個階段都包含至少一個回合。
 
-* 您最多可以有6欄（網域群組為5欄，而&#x200B;**其他**&#x200B;欄為1欄）。 在此範例中，計劃分為六個欄：
+* 您最多可以有6欄（網域群組為4欄，其他為&#x200B;**個**&#x200B;欄，其他為&#x200B;**參與天數**&#x200B;欄）。 在此範例中，計劃分為六個欄：
 
-   * 其中四個對應至要在您的計畫中使用的&#x200B;**現成可用的網域群組** (Gmail、Microsoft、Yahoo和Orange)。
+   * 其中三個對應至要在您的計畫中使用的&#x200B;**現成可用的網域群組** (Gmail、Microsoft和Orange)。
    * 其中一個對應到自訂網域群組（您需要使用[自訂網域群組](#custom-domain-group-tab)索引標籤來新增）。
-   * 第六欄&#x200B;**Others**&#x200B;包含計畫中未明確涵蓋之其他網域的所有剩餘位址。 此欄是選用的：如果省略，電子郵件將只傳送到指定的網域。
+   * 第五欄&#x200B;**其他**&#x200B;包含計畫未明確涵蓋之其他網域的所有剩餘位址。 此欄是選用的：如果省略，電子郵件將只傳送到指定的網域。
+   * 最後一欄&#x200B;**參與天數**&#x200B;可讓您指定應追蹤或評估參與的天數。
 
 我們的想法是逐步增加每個執行中的目標位址數量，同時減少每個階段的執行數量。
 

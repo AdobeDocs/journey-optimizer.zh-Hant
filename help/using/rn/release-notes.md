@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b2459757d1f1964c7d0b59de814bed29b0a394bb
-workflow-type: ht
-source-wordcount: '1244'
-ht-degree: 100%
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
+workflow-type: tm+mt
+source-wordcount: '1316'
+ht-degree: 98%
 
 ---
 
@@ -26,29 +26,34 @@ ht-degree: 100%
 
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
-## 2024 年 7 月發行說明 {#27-4-2024}
+## 8月更新 {#24-8-2024}
+
+下列變更已於8月發行：
+
+<table>
+<thead>
+<tr>
+<th><strong>IP 暖身工作流程</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>推出日期： 8月13日</p>
+<p>如果您使用全新的 IP 位址傳送電子郵件，現在可以直接從使用者介面輕鬆執行 IP 暖身工作流程。 Adobe Journey Optimizer 提供標準化和有效率的方式，讓您的 IP 位址按照最佳實務來暖身，以實現最佳傳遞能力。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/ip-warmup-gs.md">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+## 2024 年 7 月發行說明 {#24-7-2024}
 
 **發行日期**：2024 年 7 月 30-31 日
 
 ### 新功能 {#27-4-features}
 
 此發行版本提供下列詳細介紹的新功能。
-
-<!--table>
-<thead>
-<tr>
-<th><strong>IP Warmup Workflow</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>If you are sending email on a brand new IP address, you can now easily perform IP warmup workflows directly from the user interface. Adobe Journey Optimizer offers a standardized and efficient way to warm up your IP adresses that follows the best practices for optimal deliverability.</p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 <table>
 <thead>
