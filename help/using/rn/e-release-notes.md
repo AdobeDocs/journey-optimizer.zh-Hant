@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 18d74badf3f5ea98f613d6b31303aa3108c979a5
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+source-git-commit: 9fdaff7a4364bb7ecfeec27446ed8f4b4ce34488
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 52%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 
 **至發行日期之前，下方早期發行說明如有變更，恕不另行通知**。 連結、畫面及更新的文件會在發行當日發佈於[發行說明](release-notes.md)。
 
-## 2024 年 7 月搶先發行說明 {#e-2024}
+## 2024 年 8 月搶先發行說明 {#e-2024}
 
-**發行日期**：2024 年 7 月 30-31 日
+**發行日期**：2024 年 8 月 20-21 日
 
 ### 新功能 {#e-features}
 
@@ -32,31 +32,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>IP 暖身工作流程</strong><br/></th>
+<th><strong>Marketo Engage 自訂動作</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>如果您使用全新的 IP 位址傳送電子郵件，現在可以直接從使用者介面輕鬆執行 IP 暖身工作流程。 Adobe Journey Optimizer 提供標準化和有效率的方式，讓您的 IP 位址按照最佳實務來暖身，以實現最佳傳遞能力。</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>具有任何提供者的 SMS 頻道 (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>除了預設提供者 Sinch、Infobip 和 Twilio 之外，您現在可以在 Journey Optimizer 設定其他 SMS 提供者。</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>您現在可以將 Adobe Journey Optimizer 與Adobe Marketo Engage 整合，來建置您的 B2B 使用案例。 新的自訂動作可讓您從歷程將資料收錄到 Marketo。</p>
 </td>
 </tr>
 </tbody>
@@ -65,55 +47,24 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>聯合客群構成 (可用性限制)</strong><br/></th>
+<th><strong>改善頻道設定</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer 現已提供聯合客群構成。它可讓企業自行組合資料，以便在各種使用案例中能善加運用。有了這種新方法，身為 Adobe Real-Time 客戶資料平台和/或 Adobe Journey Optimizer 使用者，您就可以直接聯合現有資料倉儲中的資料集，透過單一系統建置並擴充 Adobe 體驗平台的客群及屬性。</p>
-<!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Marketo Engage custom action</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now integrate Adobe Journey Optimizer with Adobe Marketo Engage to build your B2B use cases. From a journey, a new custom action allows you to ingest data into Marketo.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Improved channel configurations</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The current channel surface capabilities have been enhanced for a consistent approach across all channels. You can now define, manage, and reuse these configurations for any of your channels.</p>
+<p>已增強目前的管道表面功能，以在所有管道中採取一致的方法。 您現在可以為任何管道定義、管理和重複使用這些設定。</p>
 <p><ul>
-<li>Channel surfaces are now renamed to <strong>Channel configurations</strong></li>
-<li>From the Channel configurations inventory you can now create reusable channel configurations for all channels, including now Web, In-app messaging, or Code-based experience</li>
-<li>Object level access control (OLAC) is now available for each channel configuration, allowing you to decide which of your users are allowed to create or use specific configurations</li>
-<li>For some channels, you can create channel configurations that target multiple platforms. An example here would be an In-app messaging channel configuration that can target a web page, an iOS app and an Android app.</li>
+<li>管道表面現在已重新命名為<strong>管道設定</strong></li>
+<li>從管道設定詳細目錄，您現在可以為所有管道建立可重複使用的管道設定，包括現在的Web、應用程式內傳訊或程式碼型體驗</li>
+<li>物件層級存取控制(OLAC)現在可用於每個通道設定，可讓您決定允許哪些使用者建立或使用特定設定</li>
+<li>對於某些管道，您可以建立以多個平台為目標的管道設定。 以下為可鎖定網頁、iOS應用程式和Android應用程式的應用程式內傳訊頻道設定範例。</li>
 </ul></p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/ip-warmup-gs.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <!--table>
@@ -138,11 +89,12 @@ ht-degree: 100%
 
 **歷程**
 
-* (上市日期： 7 月 8 日) 您現在可以在設定事件時善用進階運算式編輯器，讓您定義更複雜的運算式或在事件 ID 條件中使用函式。[了解更多](../event/about-creating.md#adv-exp-editor)
+* 在&#x200B;**條件**&#x200B;活動中，預設的Time條件現在會依小時設定，從00:00到12:00。 [閱讀全文](../building-journeys/condition-activity.md#time_condition)
 
 **對象**
 
 * 自訂上傳的對象 (CSV 檔案) 現在可與「隱私權與安全防護板」搭配使用。
+
 <!--
 **Push channel**
 
