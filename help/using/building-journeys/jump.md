@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 跳轉，活動，歷程，分割，分割
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 10%
@@ -32,7 +32,7 @@ ht-degree: 10%
 
 在目標歷程中，**[!UICONTROL 跳轉]**&#x200B;活動在內部觸發的第一個事件，將造成歷程中的個別流程。
 
-## 生命週期
+## 生命週期 {#jump-lifecycle}
 
 假設您已新增歷程A中的&#x200B;**[!UICONTROL 跳轉]**&#x200B;活動至歷程B。歷程A是&#x200B;**來源歷程**&#x200B;和歷程B，即&#x200B;**目標歷程**。
 以下是執行流程的不同步驟：
@@ -52,9 +52,9 @@ ht-degree: 10%
 >
 >歷程B也可以透過外部事件觸發。
 
-## 最佳實務和限制
+## 最佳實務和限制 {#jump-limitations}
 
-### 製作
+### 製作 {#jump-limitations-authoring}
 
 * **[!UICONTROL 跳轉]**&#x200B;活動僅適用於使用名稱空間的歷程。
 * 您只能跳至使用與來源歷程相同名稱空間的歷程。
@@ -65,12 +65,12 @@ ht-degree: 10%
 * 目標歷程也可以包含所需數量的跳轉&#x200B;**[!UICONTROL 跳轉]**&#x200B;活動。
 * 不支援回圈模式。 無法將兩個或多個歷程連結在一起，這會產生無限回圈。 **[!UICONTROL 跳轉]**&#x200B;活動設定畫面會防止您執行此動作。
 
-### 執行
+### 執行 {#jump-limitations-exec}
 
 * 執行&#x200B;**[!UICONTROL 跳轉]**&#x200B;活動時，會觸發目標歷程的最新版本。
 * 如同往常，不重複個人只能出現在相同歷程中一次。 因此，如果從來源歷程推送的個人已在目標歷程中，則個人不會進入目標歷程。 **[!UICONTROL 跳轉]**&#x200B;活動不會報告任何錯誤，因為這是正常行為。
 
-## 設定跳轉活動
+## 設定跳轉活動 {#jump-configure}
 
 1. 設計您的&#x200B;**來源歷程**。
 
@@ -110,7 +110,7 @@ ht-degree: 10%
 
 ![](assets/jump7.png)
 
-## 疑難排解
+## 疑難排解 {#jump-troubleshoot}
 
 如果發生下列情況，將會發生錯誤：
 * 目標歷程已不存在

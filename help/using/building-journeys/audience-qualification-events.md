@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 資格，事件，對象，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1091'
 ht-degree: 10%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 10%
 
 ### 重要備註{#important-notes-segment-qualification}
 
-* 請記得，Adobe Experience Platform對象是每天計算一次（**批次**&#x200B;對象），或是即時計算(**串流**&#x200B;對象，使用Adobe Experience Platform的「高頻對象」選項)。
+* 請記得，Adobe Experience Platform對象是每天計算一次（**批次**&#x200B;對象），或是即時計算(使用Adobe Experience Platform的「高頻對象」選項，針對&#x200B;**串流**&#x200B;對象)。
 
    * 如果對選取的對象進行串流處理，屬於此對象的個人可能會即時進入歷程。
    * 如果對象是批次，則新符合此對象資格的人員可能會在Adobe Experience Platform上執行對象計算時進入歷程。
@@ -51,6 +51,8 @@ ht-degree: 10%
 * 在歷程中使用對象資格時，該對象資格活動最多可能需要 10 分鐘，才會啟用和接聽進入或退出對象的設定檔。
 
 ### 設定活動{#cnfigure-segment-qualification}
+
+若要設定&#x200B;**[!UICONTROL 對象資格]**&#x200B;活動，請遵循下列步驟：
 
 1. 展開&#x200B;**[!UICONTROL 事件]**&#x200B;類別，並將&#x200B;**[!UICONTROL 對象資格]**&#x200B;活動放入您的畫布中。
 
