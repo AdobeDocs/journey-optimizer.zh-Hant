@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9fdaff7a4364bb7ecfeec27446ed8f4b4ce34488
+source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 52%
+source-wordcount: '571'
+ht-degree: 28%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 52%
 <table>
 <thead>
 <tr>
-<th><strong>Marketo Engage 自訂動作</strong><br/></th>
+<th><strong>Marketo Engage自訂動作</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -44,10 +44,42 @@ ht-degree: 52%
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>改善頻道設定</strong><br/></th>
+<th><strong>引導式管道設定</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>引導式管道設定可讓您在統一體驗中自動執行行動管道設定的步驟，以更快開始使用Journey Optimizer。 此設定有助於快速設定行銷管道，確保所有必要資源都能隨時在Experience Platform、Journey Optimizer和資料收集中取得。 這可讓您的行銷團隊立即開始行銷活動和歷程建立。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>內容卡片</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>內容卡是Adobe Journey Optimizer中的新數位傳訊功能，可直接在行動應用程式和網站中提供個人化且吸引人的內容。 與傳統的推播通知不同，內容卡片可順暢地整合到使用者介面中，提供永久、非侵入式更新，以增強使用者互動和體驗。</p>
+<p>此功能可讓行銷人員向使用者呈現相關的豐富媒體內容，促進更高參與度，並確保看到重要訊息，而不會中斷使用者旅程。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>已改善通道設定</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -61,6 +93,23 @@ ht-degree: 52%
 <li>對於某些管道，您可以建立以多個平台為目標的管道設定。 以下為可鎖定網頁、iOS應用程式和Android應用程式的應用程式內傳訊頻道設定範例。</li>
 </ul></p>
 <p>如需詳細資訊，請參閱<a href="../configuration/ip-warmup-gs.md">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>內容片段中的變數</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>片段現在可以在<a href="../personalization/use-expression-fragments.md">運算式片段</a>和<a href="../email/use-visual-fragments.md">視覺片段</a>中使用輸入變數。 您可以使用這些變數，在行銷活動和歷程中個人化您的訊息內容和引數。</p>
+</p>
 </td>
 </tr>
 </tbody>
@@ -90,10 +139,13 @@ ht-degree: 52%
 **歷程**
 
 * 在&#x200B;**條件**&#x200B;活動中，預設的Time條件現在會依小時設定，從00:00到12:00。 [閱讀全文](../building-journeys/condition-activity.md#time_condition)
+* 建立歷程時，警示現在會顯示在下拉式清單中，以與行銷活動警示保持一致，並提供一致的使用者體驗。 [閱讀全文](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* 歷程工具列中的縮放選項已改善：現在可以看到縮放百分比，您現在可以輕鬆將縮放值重設為100%。
 
 **對象**
 
 * 自訂上傳的對象 (CSV 檔案) 現在可與「隱私權與安全防護板」搭配使用。
+* 鎖定自訂上傳（CSV檔案）對象時，您現在可以在行銷活動和歷程中使用檔案中的屬性。 這些屬性可用於個人化編輯器和歷程進階運算式編輯器，以個人化您的訊息。
 
 <!--
 **Push channel**
