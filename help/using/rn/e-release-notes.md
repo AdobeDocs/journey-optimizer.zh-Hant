@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
+source-git-commit: 128a56b543f470bf967fd195fde73ff7b32b2a17
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 28%
+source-wordcount: '633'
+ht-degree: 34%
 
 ---
 
@@ -28,21 +28,6 @@ ht-degree: 28%
 ### 新功能 {#e-features}
 
 此發行版本提供下列詳細介紹的新功能。
-
-<table>
-<thead>
-<tr>
-<th><strong>Marketo Engage自訂動作</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以將 Adobe Journey Optimizer 與Adobe Marketo Engage 整合，來建置您的 B2B 使用案例。 新的自訂動作可讓您從歷程將資料收錄到 Marketo。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 
 <table>
@@ -102,6 +87,22 @@ ht-degree: 28%
 <table>
 <thead>
 <tr>
+<th><strong>Marketo Engage自訂動作</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以將 Adobe Journey Optimizer 與Adobe Marketo Engage 整合，來建置您的 B2B 使用案例。 新的自訂動作可讓您從歷程將資料收錄到 Marketo。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
 <th><strong>內容片段中的變數</strong><br/></th>
 </tr>
 </thead>
@@ -115,6 +116,22 @@ ht-degree: 28%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>IP 暖身工作流程</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>推出日期： 8月13日</p>
+<p>如果您使用全新的 IP 位址傳送電子郵件，現在可以直接從使用者介面輕鬆執行 IP 暖身工作流程。 Adobe Journey Optimizer 提供標準化和有效率的方式，讓您的 IP 位址按照最佳實務來暖身，以實現最佳傳遞能力。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/ip-warmup-gs.md">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <!--table>
 <thead>

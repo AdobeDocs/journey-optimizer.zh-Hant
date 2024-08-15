@@ -4,12 +4,12 @@ product: journey optimizer
 title: 發行說明
 feature: Release Notes
 topic: Content Management
-description: Journey Optimizer 發行說明
+description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
+source-git-commit: 128a56b543f470bf967fd195fde73ff7b32b2a17
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 98%
+source-wordcount: '1830'
+ht-degree: 74%
 
 ---
 
@@ -26,9 +26,104 @@ ht-degree: 98%
 
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
-## 8月更新 {#24-8-2024}
+## 2024 年 8 月搶先發行說明 {#e-2024}
 
-下列變更已於8月發行：
+**發行日期**：2024 年 8 月 20-21 日
+
+>[!CAUTION]
+>
+>**在發行日期**&#x200B;之前，以下的早期發行說明可能會有所變更，恕不另行通知。 連結、畫面和更新檔案會在發行日期發佈。
+>
+
+### 新功能 {#e-features}
+
+此發行版本提供下列詳細介紹的新功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>引導式管道設定</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>引導式管道設定可讓您在統一體驗中自動執行行動管道設定的步驟，以更快開始使用Journey Optimizer。 此設定有助於快速設定行銷管道，確保所有必要資源都能隨時在Experience Platform、Journey Optimizer和資料收集中取得。 這可讓您的行銷團隊立即開始行銷活動和歷程建立。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>內容卡片</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>內容卡是Adobe Journey Optimizer中的新數位傳訊功能，可直接在行動應用程式和網站中提供個人化且吸引人的內容。 與傳統的推播通知不同，內容卡片可順暢地整合到使用者介面中，提供永久、非侵入式更新，以增強使用者互動和體驗。</p>
+<p>此功能可讓行銷人員向使用者呈現相關的豐富媒體內容，促進更高參與度，並確保看到重要訊息，而不會中斷使用者旅程。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>已改善通道設定</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>已增強目前的管道表面功能，以在所有管道中採取一致的方法。 您現在可以為任何管道定義、管理和重複使用這些設定。</p>
+<p><ul>
+<li>管道表面現在已重新命名為<strong>管道設定</strong></li>
+<li>從管道設定詳細目錄，您現在可以為所有管道建立可重複使用的管道設定，包括現在的Web、應用程式內傳訊或程式碼型體驗</li>
+<li>物件層級存取控制(OLAC)現在可用於每個通道設定，可讓您決定允許哪些使用者建立或使用特定設定</li>
+<li>對於某些管道，您可以建立以多個平台為目標的管道設定。 以下為可鎖定網頁、iOS應用程式和Android應用程式的應用程式內傳訊頻道設定範例。</li>
+</ul></p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Marketo Engage自訂動作</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以將 Adobe Journey Optimizer 與Adobe Marketo Engage 整合，來建置您的 B2B 使用案例。 新的自訂動作可讓您從歷程將資料收錄到 Marketo。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>內容片段中的變數</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>片段現在可以在<a href="../personalization/use-expression-fragments.md">運算式片段</a>和<a href="../email/use-visual-fragments.md">視覺片段</a>中使用輸入變數。 您可以使用這些變數，在行銷活動和歷程中個人化您的訊息內容和引數。</p>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -46,6 +141,22 @@ ht-degree: 98%
 </tr>
 </tbody>
 </table>
+
+
+### 改進項目 {#e-improvements}
+
+此版本帶來下列改善專案。
+
+**歷程**
+
+* 在&#x200B;**條件**&#x200B;活動中，預設的Time條件現在會依小時設定，從00:00到12:00。 [閱讀全文](../building-journeys/condition-activity.md#time_condition)
+* 建立歷程時，警示現在會顯示在下拉式清單中，以與行銷活動警示保持一致，並提供一致的使用者體驗。 [閱讀全文](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* 歷程工具列中的縮放選項已改善：現在可以看到縮放百分比，您現在可以輕鬆將縮放值重設為100%。
+
+**對象**
+
+* 自訂上傳的對象（CSV檔案）現在可與Privacy and Security Shield附加元件搭配使用。
+* 鎖定自訂上傳（CSV檔案）對象時，您現在可以在行銷活動和歷程中使用檔案中的屬性。 這些屬性可用於個人化編輯器和歷程進階運算式編輯器，以個人化您的訊息。
 
 ## 2024 年 7 月發行說明 {#24-7-2024}
 
@@ -96,8 +207,6 @@ ht-degree: 98%
 
 * (有效日期：7 月 8 日) **歷程事件設定中的進階運算式編輯器** - 您現在可以在設定事件時善用進階運算式編輯器，讓您定義更複雜的運算式或在事件 ID 條件中使用函數。[了解更多](../event/about-creating.md#adv-exp-editor)
 
-
-
 ## 2024 年 6 月發行說明 {#24-6-2024}
 
 **發行日期**：2024 年 6 月 18 日至 19 日
@@ -105,23 +214,6 @@ ht-degree: 98%
 ### 新功能 {#june-24-features}
 
 此發行版本提供下列詳細介紹的新功能。
-
-<!--table>
-<thead>
-<tr>
-<th><strong>IP Warmup Workflow</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>If you are sending email on a brand new IP address, you can now easily perform IP warmup workflows directly from the user interface. Adobe Journey Optimizer offers a standardized and efficient way to warm up your IP adresses that follows the best practices for optimal deliverability.</p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
 
 <table>
 <thead>
@@ -158,7 +250,6 @@ ht-degree: 98%
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -174,7 +265,6 @@ ht-degree: 98%
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
