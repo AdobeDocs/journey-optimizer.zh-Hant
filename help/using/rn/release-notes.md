@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a326d0869f5d195c4a2b4be930e981c11a15afd9
+source-git-commit: 2fe963b43f08a99e000a916571f5b04a4a96c845
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '892'
 ht-degree: 47%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 47%
 <tbody>
 <tr>
 <td>
-<p>引導式管道設定可讓您在統一體驗中自動進行管道設定，加速開始使用Journey Optimizer的流程。 這項全新的引導式設定簡化了快速通道設定，確保所有必要資源都能隨時在Experience Platform、Journey Optimizer和資料收集中取得。 這可讓行銷、產品和資料工程團隊快速開始行銷活動和歷程建立。</p>
+<p>引導式管道設定可讓您在統一體驗中自動化和驗證管道設定，加速開始使用Journey Optimizer的流程。 這項全新的引導式設定簡化了快速通道設定，確保所有必要資源都能在Experience Platform、Journey Optimizer和資料收集中輕鬆安裝及運作。 這可讓行銷、產品和資料工程團隊快速開始行銷活動和歷程建立。</p>
 </td>
 </tr>
 </tbody>
