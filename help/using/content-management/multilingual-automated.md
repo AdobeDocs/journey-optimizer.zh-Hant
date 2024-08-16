@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-badge: label="可用性限制" type="Informative"
-source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
+badge: label="限量開放使用" type="Informative"
+source-git-commit: 8484c39cf610fc4044e656243eba88deb8c50867
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1326'
 ht-degree: 4%
 
 ---
@@ -173,7 +173,7 @@ ht-degree: 4%
 
    * **[!UICONTROL 正在進行翻譯]**：您的服務供應商正在處理翻譯。
 
-     若您在設定&#x200B;**語言設定**&#x200B;時選取了&#x200B;**內部翻譯**，則可直接在翻譯專案中翻譯內容。 [了解更多](#manage-ht-project)
+     如果您在設定&#x200B;**語言設定**&#x200B;時選取&#x200B;**內包**，則可直接在翻譯專案中翻譯您的內容。 [了解更多](#manage-ht-project)
 
    * **[!UICONTROL 已準備好檢閱]**：檢閱程式已準備就緒，可讓您存取翻譯並拒絕或核准它。
 
@@ -203,11 +203,11 @@ ht-degree: 4%
 
 您現在可以啟動行銷活動或歷程。 傳送後，您可以在報表中測量多語言歷程或行銷活動的影響。
 
-## 管理內部翻譯專案 {#manage-ht-project}
+## 管理內部來源翻譯專案 {#manage-ht-project}
 
-如果您在設定語言設定時選取了內部翻譯，則可直接在翻譯專案中翻譯內容。
+如果您在設定語言設定時選取「內包」，則可直接在翻譯專案中翻譯內容。
 
-1. 從您的&#x200B;**[!UICONTROL 翻譯專案]**，存取&#x200B;**[!UICONTROL 更多動作]**&#x200B;功能表，並選取&#x200B;**[!UICONTROL 內部翻譯]**。
+1. 從您的&#x200B;**[!UICONTROL 翻譯專案]**，存取&#x200B;**[!UICONTROL 更多動作]**&#x200B;功能表，並選取&#x200B;**[!UICONTROL 內包]**。
 
    ![](assets/inhouse-translation-1.png)
 
