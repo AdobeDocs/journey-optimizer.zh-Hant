@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 470a1a999eeedd94a20bc1b0a49b0f0bce472a1c
+source-git-commit: dc6a91e4999bd8dfb51372f6b4aca47b14fe4029
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '888'
 ht-degree: 47%
 
 ---
@@ -79,10 +79,10 @@ ht-degree: 47%
 <tbody>
 <tr>
 <td>
-<p>已增強目前的管道表面功能，以在所有管道中採取一致的方法。 您現在可以為任何管道定義、管理和重複使用這些設定。</p>
+<p>已增強目前的管道表面功能，以在所有管道中採取一致的方法。 您現在可以為任何管道定義、管理和重複使用這些設定，包括網頁、應用程式內傳訊或程式碼型體驗。</p>
 <p><ul>
 <li>管道表面現在已重新命名為<strong>管道設定</strong></li>
-<li>從管道設定詳細目錄，您現在可以為所有管道建立可重複使用的管道設定，包括現在的Web、應用程式內傳訊或程式碼型體驗</li>
+<li>您可以附加一或多個行銷動作，以強制執行同意和資料治理原則</li>
 <li>物件層級存取控制(OLAC)現在可用於每個通道設定，可讓您決定允許哪些使用者建立或使用特定設定</li>
 <li>對於某些管道，您可以建立以多個平台為目標的管道設定。 以下為可鎖定網頁、iOS應用程式和Android應用程式的應用程式內傳訊頻道設定範例。</li>
 </ul></p>
@@ -91,7 +91,6 @@ ht-degree: 47%
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
