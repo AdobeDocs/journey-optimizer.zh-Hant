@@ -21,13 +21,13 @@ ht-degree: 99%
 
 ## 2024 年 8 月 {#aug-2024}
 
-* 更新決定管理的效能護欄，以提及具有/沒有Edge細分的決定API傳送輸送量。 [閱讀全文](../start/guardrails.md#decision-management)
+* 更新決定管理的效能護欄，以提及具有/沒有 Edge 分段的決定 API 傳送輸送量。 [閱讀全文](../start/guardrails.md#decision-management)
 * 歷程護欄已更新。 [閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
 
 
 ## 2024 年 7 月 {#july-2024}
 
-* 有關[!DNL Journey Optimizer] 2024年7月發行版本的所有新功能和改進專案詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
+* 有關所有 [!DNL Journey Optimizer] 2024 年 7 月發行版本新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
 * 已新增個人化使用案例，說明如何透過健康計劃與處方相關的資訊來個人化電子郵件。 [閱讀全文](../personalization/perso-uc-plan-prescriptions.md)
 
 ## 2024 年 6 月 {#june-2024}
