@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3f6d1026d78584e21e03d3ef5c1bc37b59168176
+source-git-commit: 0cf6fb4eaf72a1a54c7e6253a11fca66692cee84
 workflow-type: tm+mt
 source-wordcount: '1942'
 ht-degree: 97%
@@ -542,21 +542,21 @@ ht-degree: 97%
          + 決定專案{#decision-items}
             + [建立決定項目](using/experience-decisioning/api-reference/decisions-items/create.md)
             + [決定專案清單](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
-            + [刪除決定專案](/help/using/experience-decisioning/api-reference/decisions-items/delete.md)
-            + [查詢決定專案](/help/using/experience-decisioning/api-reference/decisions-items/lookup.md)
-            + [更新決定專案](/help/using/experience-decisioning/api-reference/decisions-items/update.md)
+            + [刪除決定專案](using/experience-decisioning/api-reference/decisions-items/delete.md)
+            + [查詢決定專案](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+            + [更新決定專案](using/experience-decisioning/api-reference/decisions-items/update.md)
          + 專案集合{#items-collections}
-            + [建立專案集合](/help/using/experience-decisioning/api-reference/items-collections/create.md)
-            + [刪除專案集合](/help/using/experience-decisioning/api-reference/items-collections/delete.md)
-            + [專案集合清單](/help/using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
-            + [查閱專案集合](/help/using/experience-decisioning/api-reference/items-collections/lookup.md)
-            + [更新專案集合](/help/using/experience-decisioning/api-reference/items-collections/update.md)
+            + [建立專案集合](using/experience-decisioning/api-reference/items-collections/create.md)
+            + [刪除專案集合](using/experience-decisioning/api-reference/items-collections/delete.md)
+            + [專案集合清單](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+            + [查閱專案集合](using/experience-decisioning/api-reference/items-collections/lookup.md)
+            + [更新專案集合](using/experience-decisioning/api-reference/items-collections/update.md)
          + 選擇策略{#selection-strategies}
-            + [建立選擇策略](/help/using/experience-decisioning/api-reference/selection-strategies/create.md)
-            + [刪除選取策略](/help/using/experience-decisioning/api-reference/selection-strategies/delete.md)
-            + [查詢選取策略](/help/using/experience-decisioning/api-reference/selection-strategies/lookup.md)
-            + [選取策略清單](/help/using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
-            + [更新選取策略](/help/using/experience-decisioning/api-reference/selection-strategies/update.md)
+            + [建立選擇策略](using/experience-decisioning/api-reference/selection-strategies/create.md)
+            + [刪除選取策略](using/experience-decisioning/api-reference/selection-strategies/delete.md)
+            + [查詢選取策略](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+            + [選取策略清單](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
+            + [更新選取策略](using/experience-decisioning/api-reference/selection-strategies/update.md)
       + 管理決定項目 {#decision-items}
          + [設定項目目錄](using/experience-decisioning/catalogs.md)
          + [建立決定項目](using/experience-decisioning/items.md)
