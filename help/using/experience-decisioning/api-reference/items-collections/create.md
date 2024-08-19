@@ -5,10 +5,10 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 7%
+source-wordcount: '80'
+ht-degree: 6%
 
 ---
 
@@ -16,14 +16,6 @@ ht-degree: 7%
 # 建立專案集合 {#create-decision-items}
 
 您可以向優惠資料庫API發出POST要求，以建立專案集合。
-
-**Accept和Content-Type標頭**
-
-下表顯示請求標頭中包含Content-Type欄位的有效值：
-
-| 標題名稱 | 值 |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **API格式**
 

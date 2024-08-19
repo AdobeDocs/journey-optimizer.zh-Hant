@@ -1,14 +1,14 @@
 ---
 title: 建立決定專案
-description: 決定專案是行銷優惠方案，您可以建立並組織成集合和目錄。
+description: 瞭解如何使用優惠資料庫API建立決定專案。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 7%
+source-wordcount: '79'
+ht-degree: 6%
 
 ---
 
@@ -16,14 +16,6 @@ ht-degree: 7%
 # 建立決定專案 {#create-decision-items}
 
 您可以透過向優惠資料庫API提出POST請求來建立決策專案。
-
-**Accept和Content-Type標頭**
-
-下表顯示請求標頭中包含Content-Type欄位的有效值：
-
-| 標題名稱 | 值 |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **API格式**
 
@@ -68,7 +60,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-items' \
         }
     },
     "_<imsOrg>": {
-        "some_field": "some value"
+        "foo": "bar"
     }
 }'
 ```

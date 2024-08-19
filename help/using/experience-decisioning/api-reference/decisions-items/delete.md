@@ -5,9 +5,9 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '112'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # 刪除決定專案 {#delete-decision-item}
 
-有時可能必須移除(DELETE)決定專案。 若要這麼做，請使用您要刪除之決定專案的ID，對優惠資料庫API執行DELETE要求。
+若要移除決定專案，請使用您要刪除之決定專案的ID對優惠資料庫API執行DELETE要求。
 
 **API格式**
 

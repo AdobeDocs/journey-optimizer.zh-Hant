@@ -5,9 +5,9 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '80'
 ht-degree: 6%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # 查詢決定專案 {#lookup-decision-items}
 
-您可以透過向優惠資料庫API提出GET請求，並在請求路徑中包含ID，藉此查詢特定決策專案。
+若要透過向優惠資料庫API提出GET要求來查詢特定決策專案，請在要求路徑中包含ID。
 
 **API格式**
 

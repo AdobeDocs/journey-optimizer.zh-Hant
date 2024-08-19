@@ -5,9 +5,9 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '137'
 ht-degree: 5%
 
 ---
@@ -18,14 +18,6 @@ ht-degree: 5%
 您可以透過向優惠資料庫API發出PATCH請求來修改或更新決策專案。
 
 如需JSON修補程式的詳細資訊，包括可用的作業，請參閱官方[JSON修補程式檔案](http://jsonpatch.com/)。
-
-**Accept和Content-Type標頭**
-
-下表顯示請求標頭中包含Content-Type欄位的有效值：
-
-| 標題名稱 | 值 |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **API格式**
 
@@ -66,11 +58,11 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-items/offerItem1234
 | --------- | ----------- |
 | `value` | 您想要用來更新引數的新值。 |
 | `path` | 要更新之引數的路徑。 |
-| `op` | 用於定義更新連線所需動作的操作呼叫。 作業包括： `add`、`replace`、`remove`、`copy`和`test`。 |
+| `op` | 要執行的作業型別。 作業包括： `add`、`replace`、`remove`、`copy`和`test`。 |
 
 **回應**
 
-成功的回應會傳回新建立的決定專案的詳細資料，包括ID。 您可在後續步驟中使用ID來更新或刪除您的決定專案。
+成功的回應會傳回更新專案的詳細資料，包括ID。 您可在後續步驟中使用ID來更新或刪除您的決定專案。
 
 ```json
 {

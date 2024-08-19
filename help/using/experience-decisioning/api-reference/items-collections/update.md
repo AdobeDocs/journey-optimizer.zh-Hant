@@ -1,12 +1,14 @@
 ---
 title: 更新專案集合
+description: 集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
+feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 7%
+source-wordcount: '132'
+ht-degree: 5%
 
 ---
 
@@ -16,14 +18,6 @@ ht-degree: 7%
 您可以透過向優惠資料庫API發出PATCH請求來修改或更新專案集合。
 
 如需JSON修補程式的詳細資訊，包括可用的作業，請參閱官方[JSON修補程式檔案](http://jsonpatch.com/)。
-
-**Accept和Content-Type標頭**
-
-下表顯示請求標頭中包含Content-Type欄位的有效值：
-
-| 標題名稱 | 值 |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **API格式**
 
