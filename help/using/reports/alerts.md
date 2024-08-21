@@ -8,14 +8,18 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: ddf9465fb940706fb38dc05038336ac22abecbc0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
 # 開始使用警示 {#alerts}
+
+建立您的歷程與行銷活動時，請使用&#x200B;**警示**&#x200B;按鈕，在執行或發佈錯誤之前檢查並解決錯誤。 在[此頁面](../building-journeys/troubleshooting.md)瞭解如何疑難排解您的歷程。 在[此頁面](../campaigns/review-activate-campaign.md)瞭解如何檢閱您的行銷活動。
+
+您也可以訂閱Adobe Journey Optimizer系統警示，如本頁所述。
 
 ## 存取及訂閱警報 {#alerting-capabilities}
 
@@ -88,5 +92,5 @@ ht-degree: 0%
   ![](assets/alert-troubleshooting-3.png)
 
 * 檢查您的歷程stepEvents ，以尋找「failureReason」的詳細資訊。
-* 檢查您的自訂動作設定，並驗證驗證是否仍然正常。 使用Postman執行手動檢查，
-例如。
+
+* 檢查您的自訂動作設定，並驗證驗證是否仍然正常。 例如，使用Postman執行手動檢查。

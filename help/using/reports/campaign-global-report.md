@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '4806'
-ht-degree: 23%
+source-wordcount: '4851'
+ht-degree: 22%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 23%
 >id="ajo_campaign_global_report"
 >title="行銷活動全域報告"
 >abstract="行銷活動全域報告可測量您的行銷活動在選取時段內的影響。您的報表會分為不同的介面工具，詳述促銷活動的成功和錯誤。每個報告儀表板都可以透過調整大小或移除介面工具來修改。"
+
+>[!AVAILABILITY]
+>
+>目前的報告體驗將於10月發行後淘汰。 在此日期之後，新的報告體驗將成為標準。 建議您熟悉新功能，以確保順利轉換。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
 
 全域報告可從&#x200B;**所有時間**&#x200B;標籤存取，可顯示至少兩小時前發生的事件，並涵蓋所選時段內的事件。 相較之下，即時報表著重於過去24小時內發生的事件，最短間隔為事件發生後的2分鐘。
 

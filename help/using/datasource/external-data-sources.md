@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 60%
+source-wordcount: '1535'
+ht-degree: 49%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 60%
 * 在&#x200B;**[!UICONTROL 動態值]**&#x200B;欄位中列出呼叫時要傳遞的引數（在以下範例中：「識別碼」）。
 * 在已傳送有效負載的正文中，也使用完全相同的語法指定它們。若要這麼做，您必須新增：&quot;param&quot;： 「name of your parameter」 （在以下範例中：「identifier」）。 請遵循下列語法：
 
-  ```
+  ```json
   {"id":{"param":"identifier"}}
   ```
 
@@ -141,28 +141,28 @@ ht-degree: 60%
 
 ### 要呼叫的端點定義，用於產生存取權杖{#custom-authentication-endpoint}
 
-* 端點：用於產生端點的 URL
-* 端點上的 HTTP 要求方法（GET 或 POST）
-* 標題：在此呼叫中插入做為標題的鍵值組（如有需要）
-* 正文：說明方法為 POST 時呼叫的正文。我們支援有限的正文結構，如bodyParams （索引鍵值配對）中所定義。 bodyType 說明了呼叫內正文的格式和編碼：
-   * &#39;form&#39;：表示內容型別將會是application/x-www-form-urlencoded （字元集UTF-8），而金鑰 — 值配對將會序列化為：key1=value1&amp;key2=value2&amp;...
-   * &#39;json&#39;：表示內容型別將會是application/json （字元集UTF-8），而金鑰 — 值配對將會序列化為JSON物件，如下所示： _{ &quot;key1&quot;： &quot;value1&quot;， &quot;key2&quot;： &quot;value2&quot;， ...}_
+* `endpoint`：用來產生端點的URL
+* 端點（`GET`或`POST`）上的HTTP要求方法
+* `headers`：必要時，在此呼叫中插入做為標題的機碼值組
+* `body`：說明呼叫的主體(如果方法POST)。 我們支援有限的正文結構，如bodyParams （索引鍵值配對）中所定義。 bodyType 說明了呼叫內正文的格式和編碼：
+   * `form`：表示內容型別將會是application/x-www-form-urlencoded （字元集UTF-8），而金鑰 — 值配對將會序列化為：key1=value1&amp;key2=value2&amp;...
+   * `json`：表示內容型別將會是application/json （字元集UTF-8），而金鑰 — 值配對將會序列化為JSON物件，如下所示： _{ &quot;key1&quot;： &quot;value1&quot;， &quot;key2&quot;： &quot;value2&quot;， ...}_
 
 ### 存取權杖插入動作之HTTP要求必須採用的方式定義{#custom-authentication-access-token}
 
-* authorizationType：定義如何將產生的存取權杖插入到動作的 HTTP 要求。可能的值包括：
+* **authorizationType**：定義如何將產生的存取權杖插入動作的HTTP呼叫。 可能的值包括：
 
-   * bearer：表示存取權杖必須插入到「授權」標題，例如：_Authorization: Bearer &lt;access token>_
-   * header：表示存取權杖必須插入為標題，而標題的名稱會用屬性 tokenTarget 定義。舉例來說，若 tokenTarget 是 myHeader，則存取權杖會插入為標題，如下所示：_myHeader: &lt;access token>_
-   * queryParam：表示存取權杖必須插入為 queryParam，而查詢參數的名稱會由屬性 tokenTarget 定義。舉例來說，若 tokenTarget 是 myQueryParam，則動作呼叫的 URL 將會是：_&lt;url>?myQueryParam=&lt;access token>_
+   * `bearer`：表示存取權杖必須插入到Authorization標頭中，例如： _Authorization： Bearer &lt;access token>_
+   * `header`：表示存取權杖必須插入為標頭，而標頭名稱是由屬性`tokenTarget`定義。 例如，如果`tokenTarget`是`myHeader`，則存取權杖將會插入為標題，如下所示： _myHeader： &lt;access token>_
+   * `queryParam`：表示存取權杖必須插入為queryParam，而查詢引數名稱會由屬性tokenTarget定義。 舉例來說，若 tokenTarget 是 myQueryParam，則動作呼叫的 URL 將會是：_&lt;url>?myQueryParam=&lt;access token>_
 
-* tokenInResponse：表示如何從驗證呼叫中擷取存取權杖。此屬性可以是：
-   * &#39;response&#39;：表示 HTTP 回應就是存取權杖
-   * JSON 的選擇器（假設回應為 JSON，我們不支援 XML 等其他格式）。此選擇器的格式為 _json://&lt;path to the access token property>_。舉例來說，若呼叫的回應是：_{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_，tokenInResponse 將會是：_json: //access_token_
+* **tokenInResponse**：指示如何從驗證呼叫擷取存取權杖。 此屬性可以是：
+   * `response`：指出HTTP回應是存取權杖
+   * JSON的選擇器（假設回應為JSON，我們不支援XML等其他格式）。 此選擇器的格式為 _json://&lt;path to the access token property>_。舉例來說，若呼叫的回應是：_{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_，tokenInResponse 將會是：_json: //access_token_
 
 此驗證的格式為：
 
-```
+```json
 {
     "type": "customAuthorization",
     "endpoint": "<URL of the authentication endpoint>",
@@ -193,15 +193,13 @@ ht-degree: 60%
 >
 >Encode64是驗證裝載中唯一可用的函式。
 
-您可以針對自訂驗證資料來源變更權杖之快取期間的資訊。以下是自訂驗證有效負載的範例。會在　&quot;cacheDuration&quot;　參數中定義快取期間。其會指定快取中產生權杖的保留期間。單位可能是毫秒、秒、分鐘、小時、天、月、年。
+您可以針對自訂驗證資料來源變更權杖之快取期間的資訊。以下是自訂驗證有效負載的範例。快取期間在`cacheDuration`引數中定義。 其會指定快取中產生權杖的保留期間。單位可能是毫秒、秒、分鐘、小時、天、月、年。
 
 以下是持有人驗證型別的範例：
 
-```
+```json
 {
-  "authentication": {
     "type": "customAuthorization",
-    "authorizationType": "Bearer",
     "endpoint": "https://<your_auth_endpoint>/epsilon/oauth2/access_token",
     "method": "POST",
     "headers": {
@@ -220,9 +218,8 @@ ht-degree: 60%
     "cacheDuration": {
       "duration": 5,
       "timeUnit": "minutes"
-    }
-  }
-}
+    },
+  },
 ```
 
 >[!NOTE]
@@ -234,11 +231,9 @@ ht-degree: 60%
 
 以下是標頭驗證型別的範例：
 
-```
+```json
 {
   "type": "customAuthorization",
-  "authorizationType": "header",
-  "tokenTarget": "x-auth-token",
   "endpoint": "https://myapidomain.com/v2/user/login",
   "method": "POST",
   "headers": {
@@ -255,13 +250,15 @@ ht-degree: 60%
   "cacheDuration": {
     "expiryInResponse": "json://expiryDuration",
     "timeUnit": "minutes"
-  }
-}
+  },
+  "authorizationType": "header",
+  "tokenTarget": "x-auth-token"
+} 
 ```
 
 以下是登入API呼叫的回應範例：
 
-```
+```json
 {
   "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S",
   "expiryDuration" : 5

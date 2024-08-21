@@ -8,14 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '640'
 ht-degree: 3%
 
 ---
 
 # 開始使用頻道報告 {#channel-report-gs}
+
+>[!AVAILABILITY]
+>
+>目前的報告體驗將於10月發行後淘汰。 在此日期之後，新的報告體驗將成為標準。 建議您熟悉新功能，以確保順利轉換。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
 
 管道報表是一個功能強大的工具，可針對每個管道將流量和參與量度的全面概觀納入統一報表中，包括所有行銷活動和歷程的所有動作。 它分為不同的Widget，每個都提供行銷活動或歷程績效的特定檢視。
 

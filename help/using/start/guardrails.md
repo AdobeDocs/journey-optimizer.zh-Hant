@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: aa69046bde7ea5862fb507695d12584939fae9f8
-workflow-type: ht
-source-wordcount: '2239'
-ht-degree: 100%
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+workflow-type: tm+mt
+source-wordcount: '2295'
+ht-degree: 97%
 
 ---
 
@@ -44,6 +44,11 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * MMS 適用的媒體檔案可透過支援的 URL 加入。請確定媒體檔案已個別上傳。
 * 訊息回饋同步目前不適用於 MMS。
 * 同意管理在 MMS 的 SMS 通道層級運作。
+
+### Web channel護欄 {#web-guardrails}
+
+[!DNL Journey Optimizer]個網站行銷活動會鎖定其他頻道上之前未參與的新設定檔。 這會增加您的可參與設定檔總數，如果您購買的可參與設定檔數量超過合約數量，可能會影響成本。 每個套件的授權量度都列在[Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。
+
 
 ## 子網域護欄 {#subdomain-guardrails}
 
@@ -174,9 +179,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 * 應用程式內訊息內容大小限制為 2Mb。 包含大型影像可能會阻礙發佈過程。
 
-## 對象護欄 {#audience}
 
-* 您可以在指定的沙箱中發佈最多 10 個對象組合。如果您達到此臨界值，則需要刪除組合以釋放空間，才能發佈新的組合。
 
 ### 跳轉活動 {#jump-g}
 
@@ -188,6 +191,10 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 * Adobe Campaign 活動不能與讀取對象或對象資格活動搭配使用。
 * 這些活動無法與應用程式內活動搭配使用。
+
+## 對象護欄 {#audience}
+
+您可以在指定的沙箱中發佈最多 10 個對象組合。如果您達到此臨界值，則需要刪除組合以釋放空間，才能發佈新的組合。
 
 ## 決策管理護欄 {#decision-management}
 

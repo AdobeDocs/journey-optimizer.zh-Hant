@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '713'
 ht-degree: 2%
 
 ---
@@ -72,6 +72,12 @@ ht-degree: 2%
 1. 如有需要，您可以中斷具有原始片段的繼承。 [了解更多](#break-inheritance)
 
 1. 新增您想要的片段數，然後&#x200B;**[!UICONTROL 儲存]**&#x200B;您的變更。
+
+## 使用隱含變數 {#implicit-variables-in-fragments}
+
+隱含變數可增強現有片段功能，以提升內容重複使用性及指令碼使用案例的效率。 片段可以使用輸入變數，並建立可用於行銷活動和歷程內容的輸出變數。
+
+瞭解如何在[本節](../personalization/use-expression-fragments.md#implicit-variables)中使用隱含變數。
 
 ## 自訂可編輯欄位 {#customize-fields}
 

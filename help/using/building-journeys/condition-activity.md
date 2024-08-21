@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活動，條件，畫布，歷程
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1493'
 ht-degree: 17%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 17%
 
 ## 資料Source條件 {#data_source_condition}
 
-這可讓您根據資料來源的欄位或先前位於歷程中的事件來定義條件。 瞭解如何在[本節](expression/expressionadvanced.md)中使用運算式編輯器。
+使用&#x200B;**[!UICONTROL Data Source條件]**，根據資料來源或先前位於歷程中之事件的欄位來定義條件。 此型別的條件是使用運算式編輯器定義。 瞭解如何在[本節](expression/expressionadvanced.md)中使用運算式編輯器。
 
 例如，如果您使用使用構成工作流程或自訂上傳（CSV檔案）產生的擴充屬性來鎖定對象，則可運用這些擴充屬性來建置條件。
 
@@ -82,13 +82,15 @@ ht-degree: 17%
 
 ![](assets/journey50.png)
 
-## 時間條件{#time_condition}
+## 時間條件 {#time_condition}
 
-這可讓您根據一天中的小時和/或星期來執行不同的動作。 例如，您可以決定在白天傳送推播通知，在工作日於夜間傳送電子郵件。
+使用&#x200B;**[!UICONTROL 時間條件]**，根據一天中的小時和/或星期執行不同的動作。 例如，您可以決定在白天傳送推播通知，在工作日於夜間傳送電子郵件。
 
 >[!NOTE]
 >
->時區不是條件所特有，而是在歷程屬性中的歷程層級定義。 請參見[此頁面](../building-journeys/timezone-management.md)。
+>* 時區不是條件所特有，而是在歷程屬性中的歷程層級定義。 在[本頁](../building-journeys/timezone-management.md)中瞭解更多。
+>
+>* 根據預設，**[!UICONTROL 時間條件]**&#x200B;是依小時設定，從00:00到12:00。
 
 ![](assets/journey51.png)
 

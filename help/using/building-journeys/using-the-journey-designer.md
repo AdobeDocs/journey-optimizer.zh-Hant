@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 設計，畫布，歷程，介面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 5%
@@ -103,7 +103,7 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 在動作活動中，使用自訂動作透過協力廠商系統傳送訊息。 [進一步瞭解自訂動作](about-journey-activities.md#action-activities)。
 
-## 新增替代路徑{#paths}
+## 新增替代路徑 {#paths}
 
 您可以為下列歷程活動定義在錯誤或逾時時的後援動作： **[!UICONTROL 條件]**&#x200B;和&#x200B;**[!UICONTROL 動作]**。
 

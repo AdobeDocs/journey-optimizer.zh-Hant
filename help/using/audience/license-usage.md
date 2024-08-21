@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 7%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 7%
 >[!NOTE]
 >
 >若要能夠檢視儀表板，您必須被授予[檢視授權使用儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}許可權。
+
+對於[!DNL Adobe Journey Optimizer]，您可以檢查此儀表板中&#x200B;**可參與的設定檔**&#x200B;的數量。 可參與的設定檔是代表個人的資訊記錄，並顯示在「設定檔服務」中。 這些記錄是您在過去12個月中，嘗試使用Journey Optimizer的編寫、決策、傳送、實驗或協調功能所使用的設定檔。
 
 在Adobe Experience Platform檔案中進一步瞭解：
 

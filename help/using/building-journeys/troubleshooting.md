@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 63%
+source-wordcount: '957'
+ht-degree: 53%
 
 ---
 
@@ -24,25 +24,37 @@ ht-degree: 63%
 
 在測試和發佈您的歷程之前，請先確認所有活動皆已正確設定。如果系統仍偵測到錯誤，則無法進行測試或發佈。
 
-發生錯誤，而且畫布上的活動本身會顯示警告符號。將游標放在驚嘆號上，即可顯示錯誤訊息。如果您按一下活動，應該會看到錯誤的行並會顯示警告。例如，如果強制欄位為空，則會顯示錯誤。
 
-![](assets/journey63.png)
+### 活動中的錯誤 {#activity-errors}
 
-例如，在畫布中，當兩個活動中斷連線時，則會顯示警告。
+發生錯誤，而且畫布上的活動本身會顯示警告符號。將游標放在驚嘆號上，即可顯示錯誤訊息。如果您按一下活動，應該會看到錯誤的行並會顯示警告。例如：
 
-![](assets/canvas-disconnected.png)
+* 如果必填欄位為空，則會顯示錯誤
 
-在&#x200B;**[!UICONTROL 測試]**&#x200B;切換開關及&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕旁邊，會顯示警告符號。 此警告符號會顯示系統偵測到的錯誤，而且可防止測試模式啟動或歷程發佈。在大多數情況下，系統偵測到的錯誤會連結到活動上的可見錯誤，但有時候會連結到其他問題。在這種情況下，您可以顯示這些問題，嘗試識別用於說明錯誤的問題。如果您無法識別問題，可以複製詳細資料並傳送給管理員或支援人員。 請注意，會封鎖測試的錯誤和封鎖發佈的錯誤是類似的。
+  ![](assets/journey63.png)
 
-系統偵測到兩種問題：錯誤及警告。錯誤會封鎖發佈及測試啟動。警告指出未封鎖測試啟動或發佈的潛在問題。您會看到問題的說明，以及類型 ERR_XXX_XXX 的問題日誌 ID。這將有助於技術支援人員找出問題。
+* 在畫布中，當兩個活動中斷連線時，會顯示警告
 
-在&#x200B;**[!UICONTROL 測試]**&#x200B;切換及&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕旁的符號上，可以顯示兩種不同的顏色。 出現錯誤時，符號會以紅色顯示。若出現警告，則會顯示為橘色。
+  ![](assets/canvas-disconnected.png)
 
-![](assets/journey75.png)
+### 歷程中的錯誤 {#canvas-errors}
 
-與歷程相關的全域錯誤和警告會先出現在清單中。會依活動順序或外觀，由左至右地列出與特定活動相關的錯誤及警告。**[!UICONTROL 複製詳細資料]**&#x200B;按鈕會複製支援團隊可用於疑難排解的歷程相關技術資訊。
+畫布上方的&#x200B;**[!UICONTROL 警示]**&#x200B;按鈕也會顯示錯誤。 此按鈕可讓您檢視系統偵測到的錯誤，這些錯誤會阻止測試模式啟動或歷程發佈。
 
-當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法是核取方塊&#x200B;**[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**。 請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
+系統偵測到兩種問題： **錯誤**&#x200B;和&#x200B;**警告**。 錯誤會封鎖發佈及測試啟動。警告指出未封鎖測試啟動或發佈的潛在問題。您會看到問題的說明，以及類型 ERR_XXX_XXX 的問題日誌 ID。這可協助識別問題。
+
+![](assets/journey-error-and-warning.png)
+
+<!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
+
+與歷程相關的全域錯誤和警告會先出現在清單中。會依活動順序或外觀，由左至右地列出與特定活動相關的錯誤及警告。在警示清單底部，**[!UICONTROL 複製詳細資料]**&#x200B;按鈕可讓您複製有助於疑難排解問題的歷程相關技術資訊。
+
+### 新增替代路徑 {#canvas-add-path}
+
+您可以為下列歷程活動定義發生錯誤時的遞補動作： **[!UICONTROL 條件]**&#x200B;和&#x200B;**[!UICONTROL 動作]**。
+
+當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法是解決這個問題。 為避免中斷歷程，您還可以核取選項&#x200B;**[!UICONTROL 在逾時或活動屬性中的錯誤]**&#x200B;的情況下新增替代路徑。 請參閱[此章節](../building-journeys/using-the-journey-designer.md#paths)深入瞭解。
+
 
 ## 檢查是否已正確傳送事件 {#checking-that-events-are-properly-sent}
 

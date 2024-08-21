@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
-source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 19%
+source-wordcount: '308'
+ht-degree: 16%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 19%
 >id="ajo_subscription_global_report"
 >title="訂閱全域報告"
 >abstract="訂閱全域報告可讓您測量和視覺化訂閱者在選取時段內的活動。您的報告會分為不同的介面工具，詳細說明您的訂閱和取消訂閱的內容。每個報告儀表板都可以透過調整大小或移除介面工具來修改。"
+
+>[!AVAILABILITY]
+>
+>目前的報告體驗將於10月發行後淘汰。 在此日期之後，新的報告體驗將成為標準。 建議您熟悉新功能，以確保順利轉換。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
 
 全域報告可從「所有時間」標籤存取，它會顯示至少兩小時前發生的事件，以及所選時段內的封面事件。 相較之下，即時報表著重於過去24小時內發生的事件，最短間隔為事件發生後的2分鐘。
 
