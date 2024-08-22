@@ -1,24 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 與Marketo Engage整合
+title: 與 Marketo Engage 整合
 description: 瞭解如何使用Marketo Engage動作
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: marketo， marketo engage整合
-source-git-commit: 8a8741281edafb812f92ebb8da6dd68d3535f3e1
+source-git-commit: 92591457d2189e3c43ea38c4a09d7cf565bb5d57
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 0%
+source-wordcount: '247'
+ht-degree: 4%
 
 ---
 
 
-# 與Marketo Engage整合 {#integrating-with-marketo-engage}
+# 與 Marketo Engage 整合 {#integrating-with-marketo-engage}
 
 開始與Marketo Engage無縫整合資料的歷程。 Journey Optimizer中的這個特定自訂動作支援擷取兩種關鍵資料型別：
 
@@ -28,13 +26,13 @@ ht-degree: 0%
 ## 先決條件 {#prerequisites}
 
 * Marketo Engage的客戶執行個體必須已啟用IMS。
-* Marketo Engage執行個體和AEP/AJO執行個體必須位於相同的IMS組織中。+連結
-* 客戶必須布建MktoSync：擷取服務存取權（在此處新增的注意事項+連結）
+* Marketo Engage執行個體和AEP/AJO執行個體必須位於相同的IMS組織中。
+* 客戶必須布建&#x200B;**MktoSync：內嵌服務存取**
 
 ## 設定動作 {#configure-marketo-action}
 
 * 導覽至管理>設定>動作，然後按一下管理
-* 在「動作」清單中，按一下「建立動作」。 在此閱讀更多有關自訂動作建立的資訊（+連結）
+* 在「動作」清單中，按一下「建立動作」。 深入瞭解[自訂動作](../building-journeys/using-custom-actions.md){target="_blank"}。
 * 輸入名稱、說明，然後選取Adobe Marketo Engage作為動作型別
 
 ![](assets/engage-customaction-creation.png){width="40%" align="left"}
@@ -111,8 +109,8 @@ ht-degree: 0%
 
 ## 使用動作 {#engage-using}
 
-* 將自訂動作拖曳至歷程畫布。 （請參閱如何使用自訂動作/連結）
-* 在Request引數中，針對每個包含您已在裝載中設定的動態值的引數，按一下「編輯」 。
+* 將自訂動作拖曳至歷程畫布。
+* 在&#x200B;**要求引數**&#x200B;區段中，針對每個具有您在承載中設定的動態值的引數，按一下「編輯」。
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}
 
