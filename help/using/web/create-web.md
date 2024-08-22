@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 17%
+source-wordcount: '747'
+ht-degree: 15%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
->title="定義網頁表面"
->abstract="網頁表面可能會和單個頁面 URL 或多個頁面相符，可讓您在一個或多個網頁上傳遞內容修改。"
+>title="定義Web設定"
+>abstract="網頁設定可比對單一頁面URL或多個頁面，讓您在一或多個網頁上提供內容修改。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
@@ -41,39 +41,20 @@ ht-degree: 17%
 >
 >如果這是您第一次建立網頁體驗，請務必遵循[本章節](web-prerequisites.md)所說明的先決條件。
 
-1. 建立行銷活動。 [了解更多](../campaigns/create-campaign.md)
+1. 存取&#x200B;**[!UICONTROL 促銷活動]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立促銷活動]**。[了解更多](../campaigns/create-campaign.md)
+
+
+1. 選取您要執行的行銷活動型別
+
+   * **已排程 — 行銷**：立即或在指定日期執行行銷活動。 已排程的行銷活動旨在傳送行銷訊息。 可從使用者介面設定及執行。
+
+   * **API觸發 — 行銷/異動**：使用API呼叫執行行銷活動。 API觸發的行銷活動旨在傳送行銷或交易式訊息，也就是在個人執行動作後傳送的訊息：密碼重設、購物車購買等。
+
+1. 完成步驟以建立網路行銷活動，例如行銷活動屬性、[對象](../audience/about-audiences.md)和[排程](../campaigns/create-campaign.md#schedule)。
 
 1. 選取&#x200B;**[!UICONTROL Web]**&#x200B;動作。
 
-1. 定義網頁表面。
-
-   >[!NOTE]
-   >
-   >Web介面是由要傳送內容的URL所識別的Web屬性。 它可以比對單一頁面URL或多個頁面，讓您在一或多個網頁間提供修改內容。
-
-   如果您只想將變更套用至單一頁面，可以輸入&#x200B;**[!UICONTROL 頁面URL]**。
-
-   ![](assets/web-campaign-surface.png)
-
-1. 或者，您可以建置符合規則&#x200B;]**的**[!UICONTROL &#x200B;頁面，以符合相同規則的多個URL為目標 — 例如，如果您想要將變更套用至整個網站的主圖橫幅，或新增顯示在網站所有產品頁面上的最上層影像。
-
-   若要這麼做，請選取&#x200B;**[!UICONTROL 符合規則]**&#x200B;的頁面，然後按一下&#x200B;**[!UICONTROL 建立規則]**。
-
-   ![](assets/web-campaign-matching-rule.png)
-
-1. 定義&#x200B;**[!UICONTROL 網域]**&#x200B;和&#x200B;**[!UICONTROL 頁面]**&#x200B;欄位的條件。
-
-   例如，如果您想要編輯顯示在Luma網站所有女性產品頁面上的元素，請選取&#x200B;**[!UICONTROL 網域]** > **[!UICONTROL 開頭為]** > `luma`和&#x200B;**[!UICONTROL 頁面]** > **[!UICONTROL 包含]** > `women`。
-
-   ![](assets/web-pages-matching-rule.png)
-
-1. 儲存您的變更。規則會顯示在&#x200B;**[!UICONTROL 建立行銷活動]**&#x200B;畫面中。
-
-   ![](assets/web-pages-matching-rule-example.png)
-
-1. 定義網頁表面之後，請選取&#x200B;**[!UICONTROL 建立]**。
-
-1. 完成步驟以建立網路行銷活動，例如行銷活動屬性、[對象](../audience/about-audiences.md)和[排程](../campaigns/create-campaign.md#schedule)。
+1. 選取或建立新組態。 [進一步瞭解網頁組態](web-configuration.md)
 
    ![](assets/web-campaign-steps.png)
 
@@ -111,7 +92,7 @@ ht-degree: 17%
 
 1. 從您的網路行銷活動中，選取&#x200B;**[!UICONTROL 檢閱以啟動]**。
 
-1. 視需要檢查並編輯內容、屬性、表面、對象和排程。
+1. 視需要檢查並編輯內容、屬性、設定、對象和排程。
 
 1. 選取&#x200B;**[!UICONTROL 啟動]**。
 

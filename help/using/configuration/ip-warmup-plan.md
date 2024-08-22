@@ -9,16 +9,16 @@ role: Admin
 level: Experienced
 keywords: IP、群組、子網域、傳遞能力
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1665'
-ht-degree: 6%
+source-wordcount: '1669'
+ht-degree: 5%
 
 ---
 
 # 建立 IP 暖身計劃 {#ip-warmup}
 
-一旦您建立一或多個[IP熱身行銷活動](ip-warmup-campaign.md)，並啟用專用介面和對應的選項後，您就可以開始建立IP熱身計畫。
+一旦您建立一或多個[IP熱身行銷活動](ip-warmup-campaign.md)，並啟用專屬設定和對應的選項後，您就可以開始建立IP熱身計畫。
 
 若要存取、建立、編輯及刪除IP熱身計畫，您必須擁有&#x200B;**[!UICONTROL 傳遞顧問]**&#x200B;角色或IP熱身計畫相關許可權。
 
@@ -238,7 +238,7 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將收集到&#x200B
 
 ## 存取和管理IP熱身計畫 {#manage-ip-warmup-plans}
 
-1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL IP熱身計畫]**&#x200B;功能表。 目前所建立的所有IP熱身計畫都會顯示出來。
+1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL IP熱身計畫]**&#x200B;功能表。 目前所建立的所有IP熱身計畫都會顯示出來。
 
    ![](assets/ip-warmup-filter-list.png)
 
@@ -271,14 +271,14 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將收集到&#x200B
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
->title="選取行銷表面"
->abstract="您選取的表面必須相同於您想要與 IP 暖身計畫相關聯之行銷活動的所選表面。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=zh-Hant" text="設定管道表面"
+>title="選取行銷設定"
+>abstract="您必須選取與您要與IP熱身計畫關聯的行銷活動中選取的相同設定。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=zh-Hant" text="設定頻道設定"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=zh-Hant" text="建立 IP 暖身行銷活動"
 
 若要建立IP熱身計畫，請遵循下列步驟。
 
-1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL IP熱身計畫]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立IP熱身計畫]**。
+1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]**> **[!UICONTROL IP熱身計畫]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立IP熱身計畫]**。
 
    ![](assets/ip-warmup-create-plan.png)
 
@@ -286,11 +286,11 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將收集到&#x200B
 
    ![](assets/ip-warmup-plan-details.png)
 
-1. 選取您要暖身的[表面](channel-surfaces.md)。 只有行銷表面可供選取。 [進一步瞭解電子郵件型別](../email/email-settings.md#email-type)
+1. 選取您要預熱的[組態](channel-surfaces.md)。 只有行銷設定可供選擇。 [進一步瞭解電子郵件型別](../email/email-settings.md#email-type)
 
    >[!NOTE]
    >
-   >您要與IP熱身計畫關聯的行銷活動必須使用相同表面。 [瞭解如何建立IP熱身行銷活動](ip-warmup-campaign.md)
+   >您要與IP熱身計畫關聯的行銷活動必須使用相同的設定。 [瞭解如何建立IP熱身行銷活動](ip-warmup-campaign.md)
 
 1. 上傳包含IP熱身計畫的Excel檔案。 [了解更多](#prepare-file)
 

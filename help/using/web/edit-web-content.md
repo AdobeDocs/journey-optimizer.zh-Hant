@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 11cae07d061b67136f50201e89c0e349e919620d
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 16%
+ht-degree: 12%
 
 ---
 
@@ -36,14 +36,14 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="確認要編輯的 URL"
->abstract="確認特定網頁的 URL，以用於編輯將套用到上面定義的網頁表面的內容。必須使用此 Adobe Experience Platform Web SDK 實施此網頁。"
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="更多詳情"
+>abstract="確認特定網頁的URL，以用來編輯將套用至上述定義之網頁組態的內容。 必須使用此 Adobe Experience Platform Web SDK 實施此網頁。"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="了解更多"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="輸入要編輯的 URL"
 >abstract="輸入特定網頁的 URL，以用於編輯將套用到符合規則的所有網頁的內容。必須使用 Adobe Experience Platform Web SDK 實施此網頁。"
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="更多詳情"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="了解更多"
 
 若要開始撰寫網頁行銷活動，請遵循下列步驟。
 
@@ -55,7 +55,7 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >如果您輸入單一URL作為網頁表面，則會填入要個人化的URL。
+   >如果您輸入單一URL作為網頁設定，則會填入要個人化的URL。
 
    ![](assets/web-edit-enter-url.png)
 
@@ -152,13 +152,13 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="使用瀏覽模式"
->abstract="在此模式下，您可以從要個人化的選取表面瀏覽到精準的頁面。"
+>abstract="在此模式中，您可以瀏覽至要個人化的所選設定的確切頁面。"
 
 您可以使用專用按鈕，將預設&#x200B;**[!UICONTROL 設計]**&#x200B;模式切換至&#x200B;**[!UICONTROL 瀏覽]**&#x200B;模式。
 
 ![](assets/web-designer-browse-mode.png)
 
-從&#x200B;**[!UICONTROL 瀏覽]**&#x200B;模式中，您可以瀏覽至您想要個人化之所選表面的確切頁面。
+從&#x200B;**[!UICONTROL 瀏覽]**&#x200B;模式中，您可以瀏覽至您想要個人化之所選組態的正確頁面。
 
 在處理經過驗證或無法從特定URL開始使用的頁面時，此外掛程式特別有用。 例如，您將能夠驗證、導覽至您的帳戶頁面或購物車頁面，然後切換回&#x200B;**[!UICONTROL 設計]**&#x200B;模式，以在您想要的頁面上執行變更。
 

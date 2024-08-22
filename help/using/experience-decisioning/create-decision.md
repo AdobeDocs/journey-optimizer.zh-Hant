@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="有限可用性"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 18%
+ht-degree: 17%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
 >title="定義要傳回的項目數量"
->abstract="選取您想要傳回的決定項目數量。例如，如果您選取 2，則目前表面將顯示最佳的 2 個符合資格優惠。"
+>abstract="選取您想要傳回的決定項目數量。例如，如果您選取2，則會針對目前設定顯示最佳的2個合格優惠方案。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
@@ -65,7 +65,7 @@ ht-degree: 18%
 
    ![](assets/decision-code-based-details.png)
 
-1. 選取要傳回的專案數。 例如，如果您選取2，則會針對目前曲面顯示最佳的2個合格選件。 按一下&#x200B;**[!UICONTROL 下一步]**
+1. 選取要傳回的專案數。 例如，如果您選取2，則會針對目前設定顯示最佳的2個合格優惠方案。 按一下&#x200B;**[!UICONTROL 下一步]**
 
 1. 使用&#x200B;**[!UICONTROL 新增策略]**&#x200B;按鈕，為您的決定原則定義選擇策略。 每個策略都包含與適用性限制相關聯的優惠方案集合，以及決定要顯示的優惠方案的排名方法。 [了解更多](selection-strategies.md)
 

@@ -2,33 +2,33 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定電子郵件設定
-description: 瞭解如何在頻道介面層級進行電子郵件設定
+description: 瞭解如何在頻道設定層級進行電子郵件設定
 feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 975bb9d37a69fe8df02bc39ce2ccdf2da9953ebb
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '2532'
-ht-degree: 10%
+source-wordcount: '2530'
+ht-degree: 9%
 
 ---
 
 # 設定電子郵件設定 {#email-settings}
 
-若要開始建立電子郵件，您必須設定電子郵件通道介面，以定義訊息所需的所有技術引數。 [瞭解如何建立表面](../configuration/channel-surfaces.md)
+若要開始建立電子郵件，您必須設定電子郵件通道設定，以定義訊息所需的所有技術引數。 [瞭解如何建立設定](../configuration/channel-surfaces.md)
 
 >[!NOTE]
 >
->為了維護您的信譽並改善您的傳遞能力，在建立電子郵件表面之前，請設定您將用於傳送電子郵件的子網域。 [了解更多](../configuration/about-subdomain-delegation.md)
+>為了維護您的信譽並改善您的傳遞能力，在建立電子郵件設定之前，請設定您將用於傳送電子郵件的子網域。 [了解更多](../configuration/about-subdomain-delegation.md)
 
-在管道表面設定的專用區段中定義電子郵件設定，如下所述。
+在通道設定的專用區段中定義電子郵件設定，如下所述。
 
 ![](assets/surface-email-settings.png){width="50%" align="left"}
 
-系統會擷取電子郵件表面設定，依照下列邏輯傳送通訊：
+系統會擷取電子郵件設定，依照下列邏輯傳送通訊：
 
 * 對於批次歷程，不適用於在製作電子郵件表面設定之前已啟動的批次執行。 變更會在下次週期或新的執行時擷取。
 
@@ -36,22 +36,22 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->更新的電子郵件表面設定會在使用表面的歷程或行銷活動中自動擷取。
+>更新的電子郵件組態設定會在使用組態的歷程或行銷活動中自動擷取。
 
 ## 電子郵件類型 {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="定義電子郵件類型"
->abstract="選取使用此表面時將傳送的電子郵件類型：促銷用電子郵件的行銷型 (需要使用者同意)，或非商業電子郵件的交易型 (還可以傳送至特定內容中取消訂閱的設定檔)。"
+>abstract="選取使用此設定時將傳送的電子郵件型別：行銷適用於促銷電子郵件（需要使用者同意），或交易適用於非商業電子郵件（也可在特定內容中傳送至已取消訂閱的設定檔）。"
 
-在&#x200B;**電子郵件型別**&#x200B;區段中，選取表面的訊息型別： **[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]**。
+在&#x200B;**電子郵件型別**&#x200B;區段中，選取設定的訊息型別： **[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]**。
 
 * 選取&#x200B;**行銷**&#x200B;促銷電子郵件，例如零售商店的每週促銷活動。 這些訊息需要使用者同意。
 
 * 針對非商業電子郵件，選取&#x200B;**異動**，例如訂單確認、密碼重設通知或傳遞資訊。 這些電子郵件可以傳送給&#x200B;**取消訂閱**&#x200B;行銷通訊的設定檔。 這些訊息只能在特定內容中傳送。
 
-建立訊息時，您必須選擇符合您為電子郵件選取之類別的有效管道表面。
+建立郵件時，您必須選擇符合您為電子郵件選取之類別的有效通道設定。
 
 ## 子網域 {#subdomains}
 
@@ -65,11 +65,11 @@ ht-degree: 10%
 ## IP集區詳細資料 {#ip-pools}
 
 
-選取要與表面關聯的IP集區。 [了解更多](../configuration/ip-pools.md)
+選取要與設定關聯的IP集區。 [了解更多](../configuration/ip-pools.md)
 
 ![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
-當選取的IP集區在[版本](../configuration/ip-pools.md#edit-ip-pool)之下（**[!UICONTROL 處理中]**&#x200B;狀態）且從未與選取的子網域建立關聯時，您無法繼續建立表面。 否則，系統仍會使用IP集區/子網域關聯的最舊版本。 如果是這種情況，請將表面儲存為草稿，並在IP集區具有&#x200B;**[!UICONTROL Success]**&#x200B;狀態時重試。
+當選取的IP集區在[版本](../configuration/ip-pools.md#edit-ip-pool)之下（**[!UICONTROL 處理中]**&#x200B;狀態）且從未與選取的子網域建立關聯時，您無法繼續設定建立。 否則，系統仍會使用IP集區/子網域關聯的最舊版本。 如果是這種情況，請將設定儲存為草稿，並在IP集區具有&#x200B;**[!UICONTROL Success]**&#x200B;狀態時重試。
 
 >[!NOTE]
 >
@@ -100,12 +100,12 @@ List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱
 
 * **Mailto （取消訂閱）**&#x200B;位址，這是將取消訂閱要求路由至以進行自動處理的目的地位址。
 
-  在Journey Optimizer中，取消訂閱電子郵件地址是根據您[選取的子網域](#subdomains-and-ip-pools)，顯示在頻道介面的預設&#x200B;**Mailto （取消訂閱）**&#x200B;位址。
+  在Journey Optimizer中，取消訂閱電子郵件地址是根據您[選取的子網域](#subdomains-and-ip-pools)，顯示在頻道設定中的預設&#x200B;**Mailto （取消訂閱）**&#x200B;位址。
 
   ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
 
 
-* **一鍵取消訂閱URL**，根據您在「頻道介面設定」中設定和設定的子網域，預設為一鍵選擇我們的URL產生的「清單取消訂閱標題」。
+* **一鍵取消訂閱URL**，根據您在「頻道組態設定」中設定和設定的子網域，預設為一鍵選擇我們的URL產生的「清單取消訂閱標頭」。
 
 <!--
     >[!AVAILABILITY]
@@ -114,19 +114,19 @@ List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱
     >
 -->
 
-**[!UICONTROL Mailto （取消訂閱）]**&#x200B;功能和&#x200B;**[!UICONTROL 一鍵取消訂閱URL]**&#x200B;功能是選用功能。 如果您不想使用預設產生的一鍵式取消訂閱URL，可以取消核取該功能。 在已開啟&#x200B;**[!UICONTROL 選擇退出組態]**&#x200B;選項且已取消勾選&#x200B;**[!UICONTROL 一鍵取消訂閱URL]**&#x200B;功能的案例中，如果您將[一鍵選擇退出連結](../privacy/opt-out.md#one-click-opt-out)新增至使用此介面建立的訊息，清單取消訂閱標題會挑選您已插入電子郵件內文的一鍵選擇退出連結，並將其當做一鍵取消訂閱URL值。
+**[!UICONTROL Mailto （取消訂閱）]**&#x200B;功能和&#x200B;**[!UICONTROL 一鍵取消訂閱URL]**&#x200B;功能是選用功能。 如果您不想使用預設產生的一鍵式取消訂閱URL，可以取消核取該功能。 在已開啟&#x200B;**[!UICONTROL 選擇退出組態]**&#x200B;選項且已取消勾選&#x200B;**[!UICONTROL 一鍵取消訂閱URL]**&#x200B;功能的案例中，如果您將[一鍵選擇退出連結](../privacy/opt-out.md#one-click-opt-out)新增至使用此組態建立的訊息，清單取消訂閱標題將會挑選您已插入電子郵件內文的一鍵選擇退出連結，並將其當做一鍵取消訂閱URL值。
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->如果您未在訊息內容中新增一鍵退出連結，且「頻道介面設定」中的預設一鍵取消訂閱URL為取消核取，則不會URL作為「清單取消訂閱」標頭的一部分傳遞至電子郵件標頭。
+>如果您未在訊息內容中新增一鍵退出連結，且頻道設定中取消核取預設的一鍵取消訂閱URL，則不會URL作為List Unsubscribe標頭的一部分傳遞至電子郵件標頭。
 
 在[本節](../email/email-opt-out.md#unsubscribe-header)中進一步瞭解管理訊息中的取消訂閱功能。
 
 ## 標頭引數 {#email-header}
 
-在&#x200B;**[!UICONTROL 標頭引數]**&#x200B;區段中，輸入與使用該介面傳送的電子郵件型別相關的寄件者名稱和電子郵件地址。
+在&#x200B;**[!UICONTROL 標頭引數]**&#x200B;區段中，輸入與該設定所傳送電子郵件型別相關的寄件者名稱和電子郵件地址。
 
 * **[!UICONTROL 寄件者名稱]**：寄件者的名稱，例如您的品牌名稱。
 * **[!UICONTROL 寄件者電子郵件]**：您要用於通訊的電子郵件地址。
@@ -154,15 +154,15 @@ List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱
 
 若要確保正確管理回覆，請遵循下列建議：
 
-* 確保專用收件匣有足夠的接收容量，可接收使用電子郵件介面傳送的所有回覆電子郵件。 如果收件匣傳回退信，系統可能不會收到客戶的部分回覆。
+* 確保專用收件匣有足夠的接收容量，可接收使用電子郵件設定傳送的所有回覆電子郵件。 如果收件匣傳回退信，系統可能不會收到客戶的部分回覆。
 
 * 處理回覆時，須牢記隱私權與合規義務，因為回覆可能包含個人識別資訊(PII)。
 
 * 請勿在回覆收件匣中將郵件標示為垃圾訊息，因為這會影響傳送至此地址的所有其他回覆。
 
-此外，在定義&#x200B;**[!UICONTROL 回覆（電子郵件）]**&#x200B;地址時，請務必使用具有有效MX記錄設定的子網域，否則電子郵件表面處理將會失敗。
+此外，在定義&#x200B;**[!UICONTROL 回覆（電子郵件）]**&#x200B;位址時，請務必使用具有有效MX記錄設定的子網域，否則電子郵件設定處理將會失敗。
 
-如果您在提交電子郵件介面時發生錯誤，表示您輸入之地址的子網域尚未設定MX記錄。 請連絡您的管理員以設定對應的MX記錄，或使用其他具有有效MX記錄設定的位址。
+如果您在提交電子郵件設定時發生錯誤，表示您輸入之地址的子網域尚未設定MX記錄。 請連絡您的管理員以設定對應的MX記錄，或使用其他具有有效MX記錄設定的位址。
 
 >[!NOTE]
 >
@@ -180,12 +180,12 @@ List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱
 
 * 您選擇的轉寄電子郵件地址。 請注意，轉寄電子郵件地址網域無法與委派給Adobe的任何子網域相符。
 * 您的沙箱名稱。
-* 使用轉寄電子郵件地址的表面名稱或子網域。
-  <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel surface level.-->
+* 將使用轉寄電子郵件地址的設定名稱或子網域。
+  <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel configuration level.-->
 
 >[!NOTE]
 >
->每個子網域只能有一個轉寄電子郵件地址。 因此，如果多個表面使用相同的子網域，則必須對所有表面使用相同的轉寄電子郵件地址。
+>每個子網域只能有一個轉寄電子郵件地址。 因此，如果多個設定使用相同的子網域，則必須對所有設定使用相同的轉寄電子郵件地址。
 
 轉寄電子郵件地址由Adobe設定。 這可能需要3到4天的時間。
 
@@ -195,13 +195,13 @@ List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱
 
 您可以將[!DNL Journey Optimizer]所傳送之電子郵件的相同復本（或密件副本）傳送至密件副本收件匣，以儲存這些電子郵件以供合規性或封存。
 
-若要這麼做，請在頻道介面層級啟用&#x200B;**[!UICONTROL 密件副本電子郵件]**&#x200B;選用功能。 [了解更多](../configuration/archiving-support.md#bcc-email)
+若要這麼做，請在頻道設定層級啟用&#x200B;**[!UICONTROL 密件副本電子郵件]**&#x200B;選用功能。 [了解更多](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
 
-此外，在定義&#x200B;**[!UICONTROL 密件副本電子郵件]**&#x200B;位址時，請務必使用具有有效MX記錄設定的子網域，否則電子郵件表面處理將會失敗。
+此外，在定義&#x200B;**[!UICONTROL 密件副本電子郵件]**&#x200B;位址時，請務必使用具有有效MX記錄設定的子網域，否則電子郵件設定處理將會失敗。
 
-如果您在提交電子郵件介面時發生錯誤，表示您輸入之地址的子網域尚未設定MX記錄。 請連絡您的管理員以設定對應的MX記錄，或使用其他具有有效MX記錄設定的位址。
+如果您在提交電子郵件設定時發生錯誤，表示您輸入之地址的子網域尚未設定MX記錄。 請連絡您的管理員以設定對應的MX記錄，或使用其他具有有效MX記錄設定的位址。
 
 ## 傳送到禁止的電子郵件地址 {#send-to-suppressed-email-addresses}
 
@@ -231,7 +231,7 @@ List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱
 
 根據傳遞能力的最佳實務，此選項預設為停用，以確保不會聯絡已選擇退出的客戶。 不過，您可以變更此預設選項，然後允許您將交易式訊息傳送給客戶。
 
-啟用此選項後，儘管客戶將您的行銷電子郵件標籤為垃圾訊息，此類客戶將能夠使用目前介面接收您的交易式訊息。 請務必根據傳遞能力最佳實務管理選擇退出偏好設定。
+啟用此選項後，儘管客戶將您的行銷電子郵件標籤為垃圾訊息，此類客戶仍可使用目前設定接收您的交易式訊息。 請務必根據傳遞能力最佳實務管理選擇退出偏好設定。
 
 ## 種子清單 {#seed-list}
 
@@ -255,7 +255,7 @@ List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱
 >
 >一次只能選取一個種子清單。
 
-當行銷活動或歷程中使用目前介面時，在傳送執行時間會包含所選種子清單上的電子郵件地址，這表示他們會收到傳送的副本以供保證。
+當行銷活動或歷程中使用目前設定時，在傳送執行時間會包含所選種子清單上的電子郵件地址，這表示他們會收到傳送的副本以供保證。
 
 在[本節](../configuration/seed-lists.md#use-seed-list)中瞭解如何在行銷活動或歷程中使用種子清單。
 
@@ -339,4 +339,4 @@ List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱
 
 >[!NOTE]
 >
->您也可以將動態個人化追蹤引數新增至電子郵件內容中存在的連結，但這在介面層級是不可能的。 使用電子郵件設計工具製作訊息時，您必須執行此動作。 [了解更多](message-tracking.md#url-tracking)
+>您也可以將動態個人化追蹤引數新增至電子郵件內容中存在的連結，但無法在設定層級執行此操作。 使用電子郵件設計工具製作訊息時，您必須執行此動作。 [了解更多](message-tracking.md#url-tracking)
