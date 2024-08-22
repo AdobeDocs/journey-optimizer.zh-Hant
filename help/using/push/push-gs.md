@@ -8,7 +8,7 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 1%
@@ -36,7 +36,7 @@ ht-degree: 1%
 1. 透過Apple的APN和Google FCM推送訊息服務註冊品牌行動應用程式(Android或iOS)
 1. 訊息服務會產生推播權杖，這是[!DNL Adobe Journey Optimizer]將用來以推播通知鎖定特定裝置的識別碼。
 1. 先前產生的推播權杖會傳遞至Adobe Experience Platform並與即時客戶個人檔案同步；這是透過易於整合的使用者端SDK在OOTB中完成
-1. 在[!DNL Adobe Journey Optimizer]中製作推送訊息，推送訊息是針對頻道介面（即訊息預設集）建立
+1. 推送訊息是在[!DNL Adobe Journey Optimizer]中製作，推送訊息是根據頻道設定（即訊息預設集）建立
 1. 推播訊息可包含在歷程中的協調畫布上
 1. 在歷程發佈後，根據歷程條件的客戶設定檔符合接收推播通知的資格，在此步驟中推播訊息負載會個人化
 1. 個人化推播裝載會轉送至內部推播訊息傳遞服務

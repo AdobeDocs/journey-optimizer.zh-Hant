@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web、子網域、設定
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 24%
@@ -48,7 +48,7 @@ ht-degree: 24%
 
 ## 存取及管理Web子網域 {#access-web-subdomains}
 
-1. 移至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 網頁組態]** > **[!UICONTROL 網頁子網域]**。 會顯示使用目前沙箱設定的所有子網域。
+1. 移至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 網頁設定]** > **[!UICONTROL 網頁子網域]**。 會顯示使用目前沙箱設定的所有子網域。
 
    ![](assets/web-access-subdomains.png)
 
@@ -68,7 +68,7 @@ ht-degree: 24%
 
 若要使用已委派給Adobe的子網域，請遵循下列步驟。
 
-1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 網頁組態]** > **[!UICONTROL 網頁子網域]**。
+1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 網頁設定]** > **[!UICONTROL 網頁子網域]**。
 
 1. 按一下&#x200B;**[!UICONTROL 設定子網域]**。
 
@@ -109,7 +109,7 @@ ht-degree: 24%
 >
 >根據預設，[!DNL Journey Optimizer]可讓您委派總計最多10個子網域（涵蓋電子郵件和網路頻道）。 然而，根據您的授權合約，您最多可委派 100 個子網域。 請聯絡您的 Adobe 聯絡人，了解更多您有權使用的子網域數量。
 
-1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 網頁組態]** > **[!UICONTROL 網頁子網域]**。
+1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 網頁設定]** > **[!UICONTROL 網頁子網域]**。
 
 1. 按一下&#x200B;**[!UICONTROL 設定子網域]**。
 
@@ -153,7 +153,7 @@ ht-degree: 24%
    >
    >您必須先等到Adobe執行所需的檢查（最多可能需要4小時），才能使用該子網域傳送網頁訊息。
 
-1. 檢查成功後，子網域會取得&#x200B;**[!UICONTROL Success]**&#x200B;狀態。 它已準備好用於建立Web Channel表面。
+1. 檢查成功後，子網域會取得&#x200B;**[!UICONTROL Success]**&#x200B;狀態。 它已準備好用於建立Web Channel設定。
 
    請注意，如果您無法在託管解決方案上建立驗證記錄，子網域將會標示為&#x200B;**[!UICONTROL 失敗]**。
 

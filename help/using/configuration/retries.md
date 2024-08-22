@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 重試，退回，軟退回，最佳化工具，錯誤
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 9%
@@ -72,7 +72,7 @@ ht-degree: 9%
 
 預設會從郵件新增至電子郵件佇列的時間開始，執行&#x200B;**3.5天** （或&#x200B;**84小時**）的重試。
 
-不過，為了確保不再需要時不會執行重試嘗試，您可以在建立或編輯套用至電子郵件頻道的[頻道介面](channel-surfaces.md) （即訊息預設集）時，根據您的需求變更此設定。
+不過，為了確保當不再需要重試時不再執行，您可以在建立或編輯套用至電子郵件頻道的[頻道設定](channel-surfaces.md) （即訊息預設集）時，根據您的需求變更此設定。
 
 例如，對於與密碼重設相關的交易式電子郵件，您可以將重試期間設為24小時，其中包含僅一天有效的連結。 同樣地，對於午夜銷售，您可能想要定義6小時的重試期間。
 
@@ -80,5 +80,5 @@ ht-degree: 9%
 >
 >重試期間不能超過84小時。 行銷電子郵件的最小重試期間為6小時，交易電子郵件的最小重試期間為10分鐘。
 
-瞭解在[本節](../email/email-settings.md#email-retry)中建立管道表面時，如何調整電子郵件重試引數。
+瞭解如何在[本節](../email/email-settings.md#email-retry)中建立頻道設定時調整電子郵件重試引數。
 

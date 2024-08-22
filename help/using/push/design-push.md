@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 17%
@@ -39,7 +39,7 @@ ht-degree: 17%
 
 ![](assets/title-body-push.png)
 
-* 若要開啟應用程式，請選取&#x200B;**[!UICONTROL 開啟應用程式]**&#x200B;選項。 與通知相關聯的應用程式定義於[頻道介面](../configuration/channel-surfaces.md) （即訊息預設集）。
+* 若要開啟應用程式，請選取&#x200B;**[!UICONTROL 開啟應用程式]**&#x200B;選項。 與通知相關聯的應用程式定義於[頻道設定](../configuration/channel-surfaces.md) （即訊息預設集）。
 * 若要將使用者重新導向至應用程式內的特定內容，請選取&#x200B;**[!UICONTROL 深層連結]**&#x200B;選項。  特定內容可以是特定檢視、頁面的特定區段或特定標籤。 選取選項後，在相關欄位中輸入深層連結。
 * 若要將使用者重新導向至外部URL，請使用&#x200B;**[!UICONTROL 網頁URL]**&#x200B;選項。 選取選項後，在相關欄位中輸入URL。
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 種子清單，種子清單，種子，設定
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 16%
@@ -73,7 +73,7 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->無法刪除使用中[行銷活動](../campaigns/review-activate-campaign.md)或[歷程](../building-journeys/publishing-the-journey.md)中使用的種子清單。 您需要停用行銷活動/歷程，或編輯行銷活動，以使用尚未選取種子清單的另一個表面。 [進一步瞭解使用種子清單](#use-seed-list)
+>無法刪除使用中[行銷活動](../campaigns/review-activate-campaign.md)或[歷程](../building-journeys/publishing-the-journey.md)中使用的種子清單。 您需要停用行銷活動/歷程，或編輯行銷活動，以使用尚未選取種子清單的其他設定。 [進一步瞭解使用種子清單](#use-seed-list)
 
 您可以按一下種子清單名稱來進行編輯。<!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -132,7 +132,7 @@ ht-degree: 16%
 >
 >傳送至種子地址的訊息不包含在歷程或行銷活動報告中。
 
-1. 建立表面並選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;頻道。 [了解更多](../email/email-settings.md)
+1. 建立設定並選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;頻道。 [了解更多](../email/email-settings.md)
 
 1. 在[對應的區段](../email/email-settings.md#seed-list)中選取您選擇的種子清單。
 
@@ -142,11 +142,11 @@ ht-degree: 16%
 
    ![](assets/seed-list-surface.png)
 
-1. 提交表面。
+1. 提交設定。
 
 1. 建立[行銷活動](../campaigns/create-campaign.md)或[歷程](../building-journeys/journey-gs.md)。
 
-1. 選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;動作，然後選取[表面](channel-surfaces.md)，其中包含與您相關的種子清單。
+1. 選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;動作，然後選取[設定](channel-surfaces.md)，其中包含與您相關的種子清單。
 
    ![](assets/seed-list-campaign-email.png)
 

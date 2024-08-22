@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: 登陸，登陸頁面，設定，環境，子網域，預設集
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 17%
+source-wordcount: '351'
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 17%
 
 1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;功能表。
 
-1. 選取&#x200B;**[!UICONTROL 品牌]** > **[!UICONTROL 登陸頁面預設集]**。
+1. 選取&#x200B;**[!UICONTROL 登陸頁面設定]** > **[!UICONTROL 登陸頁面預設集]**。
 
    ![](assets/lp_presets-access.png)
 
@@ -46,7 +46,7 @@ ht-degree: 17%
 >
 >為了能夠建立預設集，請確定您先前已設定至少一個登陸頁面子網域。 [了解作法](lp-subdomains.md)
 
-1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 品牌]** > **[!UICONTROL 登陸頁面預設集]**。
+1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 登陸頁面設定]** > **[!UICONTROL 登陸頁面預設集]**。
 
 1. 選取&#x200B;**[!UICONTROL 建立登陸頁面預設集]**。
 
@@ -80,13 +80,11 @@ ht-degree: 17%
 
 1. 建立登入頁面預設集後，預設集會顯示在狀態為&#x200B;**[!UICONTROL 作用中]**&#x200B;的清單中。 已準備好用於您的登入頁面。
 
-   ![](assets/lp-preset-active-temp.png)
-
 您現在已準備好在[!DNL Journey Optimizer]中[建立登入頁面](../landing-pages/create-lp.md)。
 <!--
 >[!NOTE]
 >
->Learn how to create channel surfaces for push notifications and emails in [this section](channel-surfaces.md).-->
+>Learn how to create channel configurations for push notifications and emails in [this section](channel-surfaces.md).-->
 
 **相關主題**：
 

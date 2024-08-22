@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 10%
+source-wordcount: '1016'
+ht-degree: 9%
 
 ---
 
@@ -41,33 +41,37 @@ ht-degree: 10%
 
    ![](assets/sms_create_1.png)
 
-1. 提供訊息的基本資訊（標籤、說明、類別），然後選擇要使用的訊息介面。
+1. 提供訊息的基本資訊（標籤、說明、類別），然後選擇要使用的訊息設定。
 
    ![](assets/sms_create_2.png)
 
    如需如何設定歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)
 
-   **[!UICONTROL Surface]**&#x200B;欄位預設會以使用者用於該管道的最後一個表面預填。
+   根據預設，**[!UICONTROL 組態]**&#x200B;欄位會預先填入使用者用於該頻道的最後一個組態。
 
 您現在可以從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕開始設計SMS訊息的內容，如下所述。
 
 >[!TAB 新增簡訊至行銷活動]
 
-1. 建立新的排程或API觸發的行銷活動，選取&#x200B;**[!UICONTROL 簡訊]**&#x200B;作為您的動作，並選擇要使用的&#x200B;**[!UICONTROL 應用程式表面]**。 在[此頁面](sms-configuration.md)中進一步瞭解簡訊設定。
+1. 存取&#x200B;**[!UICONTROL 促銷活動]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立促銷活動]**。
 
-   ![](assets/sms_create_3.png)
+1. 選取您要執行的行銷活動型別
 
-1. 按一下&#x200B;**[!UICONTROL 建立]**。
+   * **已排程 — 行銷**：立即或在指定日期執行行銷活動。 已排程的行銷活動旨在傳送行銷訊息。 可從使用者介面設定及執行。
+
+   * **API觸發 — 行銷/異動**：使用API呼叫執行行銷活動。 API觸發的行銷活動旨在傳送行銷或交易式訊息，也就是在個人執行動作後傳送的訊息：密碼重設、購物車購買等。
 
 1. 從&#x200B;**[!UICONTROL 屬性]**&#x200B;區段，編輯行銷活動的&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
-
-   ![](assets/sms_create_4.png)
 
 1. 按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，從可用的Adobe Experience Platform對象清單中定義要定位的對象。 [了解更多](../audience/about-audiences.md)。
 
 1. 在&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;欄位中，選擇要使用的名稱空間，以識別所選對象中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
 
-   ![](assets/sms_create_5.png)
+1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，選擇&#x200B;**[!UICONTROL 簡訊]**，然後選取或建立新的設定。
+
+   在[此頁面](sms-configuration.md)中進一步瞭解簡訊設定。
+
+   ![](assets/sms_create_3.png)
 
 1. 按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以開始設定您的內容實驗，並建立處理以測量其效能，並為您的目標對象識別最佳選項。 [了解更多](../content-management/content-experiment.md)
 
@@ -105,7 +109,7 @@ ht-degree: 10%
 
 1. 定義內容後，您可以將追蹤的URL新增至訊息。 若要這麼做，請存取&#x200B;**[!UICONTROL 協助程式功能]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 協助程式]**。
 
-   請注意，若要使用URL縮短功能，您必須先設定子網域，然後將其連結至您的表面。 [了解更多](sms-subdomains.md)
+   請注意，若要使用URL縮短功能，您必須先設定子網域，然後再將其連結至您的設定。 [了解更多](sms-subdomains.md)
 
    >[!CAUTION]
    >

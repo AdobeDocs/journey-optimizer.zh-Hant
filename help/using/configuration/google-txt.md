@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子網域， google， txt，記錄， gmail，傳遞能力
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '210'
 ht-degree: 30%
 
 ---
@@ -33,7 +33,7 @@ TXT記錄是一種DNS記錄，用於提供關於網域的文字資訊，可以�
 
 若要將Google TXT記錄新增至子網域，請執行下列步驟：
 
-1. 從&#x200B;**[!UICONTROL 管道]** / **[!UICONTROL 子網域]**&#x200B;功能表開啟子網域。
+1. 從&#x200B;**[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL 子網域]**&#x200B;功能表開啟子網域。
 
 1. 在&#x200B;**[!UICONTROL Google txt記錄]**&#x200B;區段中，輸入從[Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->產生的驗證碼，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 

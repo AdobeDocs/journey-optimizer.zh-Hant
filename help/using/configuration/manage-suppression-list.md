@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 隱藏，清單，退信，電子郵件，最佳化工具，隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0ba1af43f5447df861e419b56f34a418cfbce241
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 22%
@@ -66,8 +66,6 @@ ht-degree: 22%
 * **手動**：手動錯誤已手動新增至隱藏清單。 [了解更多](#add-addresses-and-domains)
 
 對於列出的每個電子郵件地址，您還可以檢查&#x200B;**[!UICONTROL Type]** （電子郵件或網域）、**[!UICONTROL Reason]**&#x200B;是否將其排除、新增者以及將其新增到隱藏清單中的日期/時間。
-
-![](assets/suppression-list.png)
 
 傳送失敗的可能原因包括：
 
@@ -230,8 +228,6 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 
 在識別受影響的電子郵件地址後，請篩選隱藏清單以顯示它們。 例如，如果&#x200B;**test.com**&#x200B;網域上的ISP中斷從2022年11月11日到2022年11月13日發生，請篩選在該時間範圍內新增到隱藏清單的地址，如下所示：
 
-![](assets/remove-from-supp-list.png)
-
 您可以使用&#x200B;**[!UICONTROL 刪除]**&#x200B;按鈕，從隱藏清單中移除隔離的電子郵件地址。
 
 ## 下載禁止名單 {#download-suppression-list}
@@ -250,8 +246,6 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
    ![](assets/suppression-list-download-csv.png)
 
 1. 等候檔案產生。
-
-   ![](assets/suppression-list-download-generate.png)
 
    >[!NOTE]
    >

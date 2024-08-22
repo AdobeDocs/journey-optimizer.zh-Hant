@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 原則、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1388'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -34,14 +34,14 @@ ht-degree: 95%
 
    * 如果您有 Adobe **Healthcare Shield** 或者 **Privacy and Security Shield**，您可以建立覆蓋預設邏輯的自訂同意原則。 例如，您可以定義一項原則，僅向所有選擇加入的個人傳送電子郵件。如果沒有自訂原則，則套用預設原則。
 
-  若要套用自訂原則，您需要在該原則中定義行銷動作並將其關聯到管道表面。 [了解更多](#surface-marketing-actions)
+  若要套用自訂原則，您必須在該原則中定義行銷動作，並將其與管道設定建立關聯。 [了解更多](#surface-marketing-actions)
 
 在 Journey Optimizer 中，您可以將這些同意原則套用至自訂動作。 
 
 * 當您&#x200B;**設定自訂動作**&#x200B;時，您可定義管道與行銷動作。 [了解更多](#consent-custom-action)
 * 當您新增&#x200B;**自訂動作至歷程**，您可定義其他行銷動作。 [了解更多](#consent-journey)
 
-## 透過管道表面運用同意原則 {#surface-marketing-actions}
+## 透過頻道設定利用同意政策 {#surface-marketing-actions}
 
 在 [!DNL Journey Optimizer]中，同意由 Experience Platform [同意結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"}負責處理。 預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 可以在上線時，到[此處](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}從以下列出的可能數值當中修改此預設值。
 
@@ -73,13 +73,13 @@ ht-degree: 95%
 
 1. 在 Journey Optimizer 建立電子郵件表面。 [了解作法](../configuration/channel-surfaces.md#create-channel-surface)
 
-1. 在電子郵件表面詳細資料中，選擇&#x200B;**[!UICONTROL 電子郵件目標定位]**&#x200B;行銷動作。
+1. 在電子郵件設定詳細資訊中，選取&#x200B;**[!UICONTROL 電子郵件目標定位]**&#x200B;行銷動作。
 
    ![](assets/surface-marketing-action.png)
 
 該行銷動作相關的所有同意原則都會自動利用，以尊重客戶的偏好設定。
 
-因此，在此範例中，任何[電子郵件](../email/create-email.md)在活動或哩程中使用該表面只會傳送給同意接收您電子郵件的個人資料。 不同意接收電子郵件通訊的個人資料被排除在外。
+因此，在此範例中，在行銷活動或歷程中使用該設定的任何[電子郵件](../email/create-email.md)只會傳送給同意接收您電子郵件的設定檔。 不同意接收電子郵件通訊的個人資料被排除在外。
 
 ## 透過自訂動作運用同意政策 {#journey-custom-actions}
 

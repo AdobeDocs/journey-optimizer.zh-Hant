@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '3598'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -217,8 +217,8 @@ ht-degree: 100%
 **管理**
 
 * 現在啟用或停用允許清單時，會顯示新警告以詳細說明每個動作的影響。 [了解更多](../configuration/allow-list.md#enable-allow-list)
-* 更新了用於建立管道表面、建立 IP 集區、管理禁止名單和允許清單以及設定簡訊管道的使用者介面。
-* 現在，為指定子網域建立第一個管道表面時，處理時間將需要 10 分鐘到 10 天，使用該子網域的後續表面最多只需 3 小時。 [了解更多](../configuration/channel-surfaces.md#create-channel-surface)
+* 更新了用於建立管道設定、建立IP集區、管理隱藏清單和允許清單以及設定SMS管道的使用者介面。
+* 現在，為指定子網域建立第一個管道設定時，處理時間將需要10分鐘到10天，使用該子網域的後續表面最多只需3小時。 [了解更多](../configuration/channel-surfaces.md#create-channel-surface)
 * 更新建立登陸頁面預設集和登陸頁面子網域的使用者介面。 [了解更多](../landing-pages/lp-subdomains.md)
 
 **稽核控制**
@@ -399,7 +399,7 @@ ht-degree: 100%
 
 **訊息**
 
-* 訊息預設集現在是 **頻道介面**。 [進一步了解](../configuration/channel-surfaces.md)
+* 訊息預設集現在是&#x200B;**頻道設定**。 [進一步了解](../configuration/channel-surfaces.md)
 
 **管理**
 

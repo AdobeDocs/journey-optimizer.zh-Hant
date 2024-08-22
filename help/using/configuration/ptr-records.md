@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 子網域, PTR, 記錄, DNS, 網域, 郵件
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 86%
@@ -36,7 +36,7 @@ ht-degree: 86%
 
 ## 存取子網域的 PTR 記錄 {#access-ptr-records}
 
-一旦您[委派](delegate-subdomain.md)您的第一個子網域以Adobe在[!DNL Journey Optimizer]，系統就會自動為您的IP建立PTR記錄。 您可以從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL PTR記錄]**&#x200B;功能表存取這些記錄。
+一旦您[委派](delegate-subdomain.md)您的第一個子網域以Adobe在[!DNL Journey Optimizer]，系統就會自動為您的IP建立PTR記錄。 您可以從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL PTR記錄]**&#x200B;功能表存取它們。
 
 ![](assets/ptr-records.png)
 
@@ -86,7 +86,7 @@ ht-degree: 86%
 
 1. 按一下清單中的 PTR 記錄名稱來加以開啟。
 
-   ![](assets/ptr-record-select-cname.png)
+   ![](assets/ptr-record-select.png)
 
 1. 使用 [CNAME 方法](delegate-subdomain.md#cname-subdomain-delegation)，從清單中選取已委派給 Adobe 的子網域。
 

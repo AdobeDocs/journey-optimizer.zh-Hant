@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: 許可權，製作，訊息
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: c2d9fde723c8dab28faf84152bfbaab437430ca9
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 6%
@@ -79,7 +79,7 @@ ht-degree: 6%
 | 資源 | 權限 |
 |-|-|
 | 歷程 | <ul><li> **[!DNL Manage journeys]**：讀取、建立、編輯和刪除歷程。</li><li>**[!DNL Publish journeys]**：發佈歷程。</li><li>**[!DNL Manage journeys events, data sources and actions]**：讀取、建立、編輯和刪除事件、來源或動作。</li><li>**[!DNL View journeys report]**：讀取及編輯歷程報告。</li></ul> |
-| 頻道設定 | <ul><li>**[!DNL Manage subdomains delegation]**：讀取、建立、編輯和刪除子網域委派。</li><li>**[!DNL Manage IP pools]**：讀取、建立、編輯和刪除ip集區。</li><li>**[!DNL Manage PTR records]**：讀取和編輯PTR記錄。</li><li>**[!DNL View PTR records]**：對PTR記錄的唯讀存取權。</li><li>**[!DNL Manage messages presets]**：讀取、建立、編輯和刪除內容品牌。</li><li>**[!DNL Manage Landing page settings]**：建立、編輯和刪除登陸頁面子網域和登陸頁面預設集。</li><li> **[!DNL Manage messages general settings]**：讀取、建立、編輯和刪除訊息一般設定。</li><li>**[!DNL Manage SMS settings]**：建立、編輯及刪除啟用SMS頻道所需的API認證和SMS頻道介面。</li><li>**[!DNL Manage suppression rules]**：存取讀取、建立、編輯和刪除隱藏規則。</li><li>**[!DNL View suppression list]**：讀取和匯出本機隱藏清單。</li><li>**[!DNL Manage alerts]**：啟用/停用歷程和權益的警報。</li></ul> |
+| 頻道設定 | <ul><li>**[!DNL Manage subdomains delegation]**：讀取、建立、編輯和刪除子網域委派。</li><li>**[!DNL Manage IP pools]**：讀取、建立、編輯和刪除ip集區。</li><li>**[!DNL Manage PTR records]**：讀取和編輯PTR記錄。</li><li>**[!DNL View PTR records]**：對PTR記錄的唯讀存取權。</li><li>**[!DNL Manage messages presets]**：讀取、建立、編輯和刪除內容品牌。</li><li>**[!DNL Manage Landing page settings]**：建立、編輯和刪除登陸頁面子網域和登陸頁面預設集。</li><li> **[!DNL Manage messages general settings]**：讀取、建立、編輯和刪除訊息一般設定。</li><li>**[!DNL Manage SMS settings]**：建立、編輯及刪除啟用SMS頻道所需的API認證和SMS頻道設定。</li><li>**[!DNL Manage suppression rules]**：存取讀取、建立、編輯和刪除隱藏規則。</li><li>**[!DNL View suppression list]**：讀取和匯出本機隱藏清單。</li><li>**[!DNL Manage alerts]**：啟用/停用歷程和權益的警報。</li></ul> |
 | 決策管理 | <ul><li>**[!DNL Manage decisions]**：讀取、建立、編輯和刪除決定。</li><li>**[!DNL Manage ranking strategies]**：讀取、建立、編輯和刪除排名策略。</li></ul> |
 | Adobe Experience Platform | <ul><li>**[!DNL Sandbox]**：授與沙箱的存取權。</li><li>**[!DNL Manage segments]**：讀取、建立、編輯和刪除區段定義。</li><li>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除設定檔。</li><li>**[!DNL Read datasets]**：資料集的唯讀存取權。</li><li>**[!DNL Read schemas]**：結構描述的唯讀存取權。</li><li>**[!DNL Read Identity namespace]**：身分名稱空間的唯讀存取權。</li><li>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</li></ul> |
 | Journey Optimizer資料庫 | <ul><li>**[!DNL Manage Library Items]**：新增並刪除[!DNL Journey Optimizer]資料庫中已儲存的運算式。</li></ul> |
@@ -96,7 +96,7 @@ ht-degree: 6%
 | 歷程 | <ul><li>**[!DNL Manage journeys]**：讀取、建立、編輯和刪除歷程。</li><li>**[!DNL Publish journey]**：發佈歷程。</li><li>**[!DNL View journeys events, data sources and actions]**：歷程事件、歷程自訂動作和歷程資料來源的唯讀存取權。</li><li>**[!DNL View journeys report]**：讀取、編輯歷程報告。</li></ul> |
 | 決策管理 | <ul><li>**[!DNL Manage decisions]**：讀取、建立、編輯和刪除決策實體。</li><li>**[!DNL Manage ranking strategies]**：讀取、建立、編輯和刪除自訂報告，並使用動作功能。</li></ul> |
 | Adobe Experience Platform | <ul><li>**[!DNL Manage segments]**：讀取、建立、編輯和刪除區段定義。</li><li>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除設定檔。</li><li>**[!DNL Read datasets]**：資料集的唯讀存取權。</li><li>**[!DNL Read schemas]**：結構描述的唯讀存取權。</li><li>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</li></ul> |
-| 頻道設定 | <ul><li>**[!DNL View channel surfaces]**：對頻道介面的唯讀存取權。</li></ul> |
+| 頻道設定 | <ul><li>**[!DNL View channel configurations]**：通道設定的唯讀存取權。</li></ul> |
 
 ## [!DNL Journey Manager] {#journey-manager}
 
@@ -109,7 +109,7 @@ ht-degree: 6%
 | 歷程 | <ul><li>**[!DNL Manage journeys]**：讀取、建立、編輯和刪除歷程。</li><li>**[!DNL View journeys events]**：歷程事件、歷程自訂動作和歷程資料來源的唯讀存取權。</li><li>**[!DNL View journeys report]**：讀取、編輯歷程報告。</li></ul> |
 | 決策管理 | <ul><li>**[!DNL Manage decisions]**：讀取、建立、編輯和刪除決策實體。</li><li>**[!DNL Manage ranking strategies]**：讀取、建立、編輯和刪除自訂報告，並使用動作功能。</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**：讀取、建立、編輯和刪除區段定義。</li><li>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除設定檔。</li><li>**[!DNL Read datasets]**：資料集的唯讀存取權。</li><li>**[!DNL Read schemas]**：結構描述的唯讀存取權。</li><li>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</li></ul> |
-| 頻道設定 | <ul><li>**[!DNL View channel surfaces]**：對頻道介面的唯讀存取權。</li></ul> |
+| 頻道設定 | <ul><li>**[!DNL View channel configurations]**：通道設定的唯讀存取權。</li></ul> |
 
 ## [!DNL Journey Viewer] {#journey-viewer}
 

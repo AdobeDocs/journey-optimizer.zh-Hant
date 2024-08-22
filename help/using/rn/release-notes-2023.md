@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '4394'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 <!--
 **Consent in channel configuration**
 
-* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
+* You can now select a marketing action at the channel configuration level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
 
 **決策管理**
 
@@ -616,7 +616,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **簡訊頻道**
 
-* 在設定您的簡訊頻道介面時，Infobip 已新增為供應商提供者。 [閱讀全文](../sms/sms-configuration.md)
+* 在設定SMS通道設定時，Infobip已新增為供應商提供者。 [閱讀全文](../sms/sms-configuration.md)
 * Twillio - API 認證設定現在包含新增傳送訊息服務 SID 的功能，以便與您的 Twillio 帳戶緊密整合。 [閱讀全文](../sms/sms-configuration.md)
 
 **應用程式內頻道**
@@ -1012,7 +1012,7 @@ Note that each widget can be resized and deleted as needed.
 
 * 在建立或編輯 **IP 集區**&#x200B;時，關聯的 PTR 記錄現可顯示在 IP 清單，以及當游標暫留在選取的 IP 位址時顯示。 [了解更多](../configuration/ip-pools.md#create-ip-pool)
 
-* 在通道表面選擇 IP 集區後，現在當游標暫留在 IP 位址時，立即可見 PTR 記錄資訊。 [了解更多](../email/email-settings.md#subdomains-and-ip-pools)
+* 在通道設定中選取IP集區後，現在當游標停留在IP位址上時，會顯示PTR記錄資訊。 [了解更多](../email/email-settings.md#subdomains-and-ip-pools)
 
 * 已更新使用者介面以編輯 [PTR 記錄](../configuration/ptr-records.md#edit-ptr-record)與[執行欄位](../configuration/primary-email-addresses.md)。
 

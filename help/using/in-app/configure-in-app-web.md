@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '681'
 ht-degree: 2%
 
 ---
@@ -110,3 +110,49 @@ ht-degree: 2%
 
    ![](assets/configure_web_inapp_14.png)
 
+## 建立應用程式內網頁設定 {#in-app-config}
+
+1. 存取&#x200B;**[!UICONTROL 頻道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 頻道設定]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立頻道設定]**。
+
+   ![](assets/in-app-web-config-1.png)
+
+1. 輸入設定的名稱和說明（選擇性），然後選取要設定的通道。
+
+   >[!NOTE]
+   >
+   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線`_`、點`.`和連字型大小`-`字元。
+
+1. 若要將自訂或核心資料使用標籤指派給組態，您可以選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)。
+
+1. 選取&#x200B;**[!UICONTROL 行銷動作]**，以使用此設定將同意原則與訊息相關聯。 系統會運用與行銷動作相關的所有同意政策，以尊重客戶的偏好設定。 [了解更多](../action/consent.md#surface-marketing-actions)
+
+1. 選取&#x200B;**應用程式內傳訊**&#x200B;頻道。
+
+1. 定義應用程式設定。 進行變更有兩個選項：
+
+   * 您可以輸入&#x200B;**[!UICONTROL 頁面URL]**，將變更套用至特定頁面。
+
+   * 您可以建立規則來鎖定遵循相同模式的多個URL。
+
++++ 如何建置頁面比對規則。
+
+      1. 選取&#x200B;**[!UICONTROL 符合規則]**&#x200B;的頁面作為應用程式設定，並輸入您的&#x200B;**[!UICONTROL 頁面URL]**。
+
+      1. 在&#x200B;**[!UICONTROL 編輯設定規則]**&#x200B;視窗中，定義&#x200B;**[!UICONTROL 網域]**&#x200B;和&#x200B;**[!UICONTROL 頁面]**&#x200B;欄位的條件。
+      1. 從條件下拉式清單，進一步個人化您的條件。
+
+         舉例來說，若要編輯顯示在您Luma網站所有銷售產品頁面上的元素，請選取「網域>開頭為> Luma和頁面>包含>銷售」 。
+
+         ![](assets/in_app_web_surface_4.png)
+
+      1. 視需要按一下&#x200B;**[!UICONTROL 新增其他頁面規則]**&#x200B;以建立其他規則。
+
+      1. 選取&#x200B;**[!UICONTROL 預設撰寫與預覽URL]**。
+
+      1. 儲存您的變更。規則會顯示在&#x200B;**[!UICONTROL 建立行銷活動]**&#x200B;畫面中。
+
++++
+
+1. 提交您的應用程式內Web設定。
+
+您現在可以在行銷活動中[建立網頁應用程式內](../in-app/create-in-app-web.md)。

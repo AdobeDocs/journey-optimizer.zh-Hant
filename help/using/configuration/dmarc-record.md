@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子網域, 網域, 郵件, dmarc, 記錄
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1355'
 ht-degree: 12%
 
 ---
@@ -82,7 +82,7 @@ SPF和DKIM都可用來將電子郵件與網域建立關聯，並共同驗證電�
 
 若要確定您已在[!DNL Journey Optimizer]中委派的所有子網域設定DMARC記錄，請遵循下列步驟。
 
-1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 子網域]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 設定子網域]**。
+1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL 子網域]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 設定子網域]**。
 
 1. 對於每個委派的子網域，請檢查&#x200B;**[!UICONTROL DMARC記錄]**&#x200B;欄。 如果指定的子網域找不到記錄，則會顯示警示。
 

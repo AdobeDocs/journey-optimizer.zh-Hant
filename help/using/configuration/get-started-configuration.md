@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 設定、配置、訊息、通道、沙箱、最佳化程式
-source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 97%
 
    * 對於&#x200B;**簡訊**&#x200B;通道，您需要設定執行個體以傳送簡訊，包括整合提供者設定與 [!DNL Journey Optimizer]。[了解更多](../sms/sms-configuration.md)
 
-1. 完成後，您必須建立&#x200B;**管道表面**，設定傳送訊息所需的所有技術參數。[了解更多](channel-surfaces.md)
+1. 完成後，您必須建立&#x200B;**通道設定**，以設定傳遞訊息所需的所有技術引數。 [了解更多](channel-surfaces.md)
 
 1. 您也可以：
 

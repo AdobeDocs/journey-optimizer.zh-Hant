@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1961'
-ht-degree: 13%
+source-wordcount: '2009'
+ht-degree: 12%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 13%
 
 1. 為您的訊息輸入&#x200B;**[!UICONTROL 標籤]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
-1. 選擇要使用的[應用程式內表面](inapp-configuration.md)。
+1. 選擇要使用的[應用程式內設定](inapp-configuration.md#channel-prerequisites)。
 
    ![](assets/in_app_journey_2.png)
 
@@ -125,13 +125,11 @@ ht-degree: 13%
 
 1. 存取&#x200B;**[!UICONTROL 促銷活動]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立促銷活動]**。
 
-1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中，選取行銷活動執行型別為排程或API觸發的時間。 在[此頁面](../campaigns/create-campaign.md#campaigntype)中進一步瞭解行銷活動型別。
+1. 選取您要執行的行銷活動型別
 
-1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，選擇先前為您的應用程式內訊息設定的&#x200B;**[!UICONTROL 應用程式內訊息]**&#x200B;和&#x200B;**[!UICONTROL 應用程式表面]**。 然後，按一下&#x200B;**[!UICONTROL 建立]**。
+   * **已排程 — 行銷**：立即或在指定日期執行行銷活動。 已排程的行銷活動旨在傳送行銷訊息。 可從使用者介面設定及執行。
 
-   在[此頁面](inapp-configuration.md)中進一步瞭解應用程式內設定。
-
-   ![](assets/in_app_create_1.png)
+   * **API觸發 — 行銷/異動**：使用API呼叫執行行銷活動。 API觸發的行銷活動旨在傳送行銷或交易式訊息，也就是在個人執行動作後傳送的訊息：密碼重設、購物車購買等。
 
 1. 從&#x200B;**[!UICONTROL Properties]**&#x200B;區段中，輸入&#x200B;**[!UICONTROL Title]**&#x200B;和&#x200B;**[!UICONTROL Description]**&#x200B;描述。
 
@@ -142,6 +140,12 @@ ht-degree: 13%
    ![](assets/in_app_create_2.png)
 
 1. 在&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;欄位中，選擇要使用的名稱空間，以識別所選對象中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
+
+1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，選擇&#x200B;**[!UICONTROL 應用程式內訊息]**，然後選取或建立新的設定。
+
+   在[此頁面](inapp-configuration.md)中進一步瞭解應用程式內設定。
+
+   ![](assets/in_app_create_1.png)
 
 1. 按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以開始設定您的內容實驗，並建立處理以測量其效能，並為您的目標對象識別最佳選項。 [了解更多](../content-management/content-experiment.md)
 

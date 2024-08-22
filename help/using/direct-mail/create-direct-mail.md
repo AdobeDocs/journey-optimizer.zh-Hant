@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 直接郵件, 訊息, 行銷活動
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 18%
+source-wordcount: '803'
+ht-degree: 16%
 
 ---
 
@@ -28,18 +28,20 @@ ht-degree: 18%
 >在建立直接郵件訊息之前，請確定您已設定：
 >
 >1. [檔案路由組態](../direct-mail/direct-mail-configuration.md#file-routing-configuration)，指定應該上傳及儲存解壓縮檔案的伺服器，
->1. [直接郵件訊息表面](../direct-mail/direct-mail-configuration.md#direct-mail-surface)，將會參考檔案路由設定。
+>1. 將參考檔案路由設定的[直接郵件設定](../direct-mail/direct-mail-configuration.md#direct-mail-surface)。
 
 
 ## 建立直接郵件行銷活動{#create-dm-campaign}
 
 若要建立直接郵件行銷活動，請遵循下列步驟：
 
-1. 建立新的排程行銷活動，並選擇&#x200B;**[!UICONTROL 直接郵件]**&#x200B;作為動作。
+1. 存取&#x200B;**[!UICONTROL 促銷活動]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立促銷活動]**。
 
-1. 選取要使用的&#x200B;**[!UICONTROL 直接郵件表面]**，然後按一下[建立]。**** [瞭解如何建立直接郵件介面](direct-mail-configuration.md#direct-mail-surface)。
+1. 選取您要執行的行銷活動型別
 
-   ![](assets/direct-mail-campaign.png){width="800" align="center"}
+   * **已排程 — 行銷**：立即或在指定日期執行行銷活動。 已排程的行銷活動旨在傳送行銷訊息。 可從使用者介面設定及執行。
+
+   * **API觸發 — 行銷/異動**：使用API呼叫執行行銷活動。 API觸發的行銷活動旨在傳送行銷或交易式訊息，也就是在個人執行動作後傳送的訊息：密碼重設、購物車購買等。
 
 1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中，編輯行銷活動的&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
@@ -51,7 +53,11 @@ ht-degree: 18%
 
 1. 在&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;欄位中，選取適當的名稱空間以識別所選對象中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
 
-   ![](assets/direct-mail-campaign-properties.png){width="800" align="center"}
+1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，選擇&#x200B;**[!UICONTROL 直接郵件]**。
+
+1. 選取或建立要使用的&#x200B;**[!UICONTROL 直接郵件設定]**&#x200B;的新設定。 [瞭解如何建立直接郵件設定](direct-mail-configuration.md#direct-mail-surface)。
+
+   ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
 1. 行銷活動可以排程為特定日期，或設定為定期重複。 在[本節](../campaigns/create-campaign.md#schedule)中瞭解如何設定行銷活動的&#x200B;**[!UICONTROL 排程]**。
 
@@ -78,12 +84,6 @@ ht-degree: 18%
    1. 在&#x200B;**[!UICONTROL 資料]**&#x200B;欄位中，使用[個人化編輯器](../personalization/personalization-build-expressions.md)選取要顯示的設定檔屬性。
 
    1. 若要使用欄來排序擷取檔案，請選取該欄並開啟&#x200B;**[!UICONTROL 排序依據]**&#x200B;選項。 **[!UICONTROL 排序依據]**&#x200B;圖示會顯示在&#x200B;**[!UICONTROL 資料欄位]**&#x200B;區段中資料行的標籤旁。
-
-
-
-
-
-
 
 直接郵件供應商需要擷取檔案，才能傳送郵件給您的客戶。 若要定義解壓縮檔案組態，請執行下列步驟：
 

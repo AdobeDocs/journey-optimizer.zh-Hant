@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 85aee5c5ff9ceee10b2dc01ef9e31947cef9daae
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 5%
+source-wordcount: '634'
+ht-degree: 7%
 
 ---
 
@@ -24,43 +24,19 @@ ht-degree: 5%
 
 * 自訂您的觸發器。 Web應用程式內傳訊支援兩種型別的觸發器：將資料傳送至平台和手動觸發器。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html)
 
+* 建立您的網頁應用程式內設定。 [了解更多](inapp-configuration.md)
+
 ## 建立您的網頁應用程式內訊息行銷活動 {#create-inapp-web-campaign}
 
 1. 存取&#x200B;**[!UICONTROL 促銷活動]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立促銷活動]**。
 
-1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中，選取行銷活動執行型別為排程或API觸發的時間。 在[此頁面](../campaigns/create-campaign.md#campaigntype)中進一步瞭解行銷活動型別。
+1. 選擇您的行銷活動執行型別：排程或API觸發。 在[此頁面](../campaigns/create-campaign.md#campaigntype)中進一步瞭解行銷活動型別。
 
-1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，選擇&#x200B;**[!UICONTROL 應用程式內訊息]**。 從&#x200B;**[!UICONTROL 傳送至]**&#x200B;下拉式清單中，選取Web。
+1. 從&#x200B;**[!UICONTROL 動作]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL 應用程式內訊息]**。
 
    ![](assets/in_app_web_surface_1.png)
 
-1. 定義應用程式表面。 進行變更有兩個選項：
-
-   * 您可以輸入&#x200B;**[!UICONTROL 頁面URL]**，將變更套用至特定頁面。
-
-   * 您可以建立規則來鎖定遵循相同模式的多個URL。
-
-+++ 如何建置頁面比對規則。
-
-      1. 選取&#x200B;**[!UICONTROL 符合規則]**&#x200B;的頁面作為應用程式表面。
-      1. 按一下&#x200B;**[!UICONTROL 建立規則]**。
-
-         ![](assets/in_app_web_surface_3.png)
-
-      1. 在&#x200B;**[!UICONTROL 編輯表面規則]**&#x200B;視窗中，定義&#x200B;**[!UICONTROL 網域]**&#x200B;和&#x200B;**[!UICONTROL 頁面]**&#x200B;欄位的條件。
-      1. 從條件下拉式清單，進一步個人化您的條件。
-
-         舉例來說，若要編輯顯示在您Luma網站所有銷售產品頁面上的元素，請選取「網域>開頭為> Luma和頁面>包含>銷售」 。
-
-         ![](assets/in_app_web_surface_4.png)
-
-      1. 儲存您的變更。規則會顯示在&#x200B;**[!UICONTROL 建立行銷活動]**&#x200B;畫面中。
-
-+++
-
-   ![](assets/in_app_web_surface_2.png)
-
-1. 選取並設定您的應用程式表面後，請按一下&#x200B;**[!UICONTROL 建立]**。
+1. 選擇或建立您的應用程式設定。 [了解更多](inapp-configuration.md#channel-prerequisites)
 
 ## 定義您的網頁應用程式內訊息行銷活動 {#configure-inapp}
 
@@ -74,7 +50,7 @@ ht-degree: 5%
 
 1. 在&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;欄位中，選擇要使用的名稱空間，以識別所選對象中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
 
-1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;功能表中，您可以找到先前設定為&#x200B;**[!UICONTROL 應用程式表面]**&#x200B;的設定。 您可以視需要在此進行變更，或按一下&#x200B;**[!UICONTROL 編輯規則]**&#x200B;來更新您的規則。
+1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;功能表中，您可以找到先前設定為&#x200B;**[!UICONTROL 應用程式組態]**&#x200B;的設定。 您可以視需要在此進行變更，或按一下&#x200B;**[!UICONTROL 編輯規則]**&#x200B;來更新您的規則。
 
 1. 按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以開始設定您的內容實驗，並建立處理以測量其效能，並為您的目標對象識別最佳選項。 [了解更多](../content-management/content-experiment.md)
 

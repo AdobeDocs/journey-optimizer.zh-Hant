@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 32%
+source-wordcount: '914'
+ht-degree: 31%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 32%
 
 >[!NOTE]
 >
->建立新行銷活動之前，請確定您有可供使用的表面頻道（即訊息預設集）和Adobe Experience Platform對象。 請在以下章節瞭解更多資訊：
+>建立新行銷活動之前，請確定您有通道設定（即訊息表面）和Adobe Experience Platform受眾，且隨時可使用。 請在以下章節瞭解更多資訊：
 >
->* [建立管道表面](../configuration/channel-surfaces.md)
+>* [建立頻道設定](../configuration/channel-surfaces.md)
 >* [開始使用對象](../audience/about-audiences.md)
 
 若要建立新的行銷活動，請存取&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立行銷活動]**。 您也可以複製現有的即時行銷活動，以建立新的行銷活動。 [了解更多](modify-stop-campaign.md#duplicate)
@@ -81,11 +81,11 @@ ht-degree: 32%
 
 ## 建立訊息並設定追蹤 {#content}
 
-1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，選擇要用來傳送訊息的頻道和介面。
+1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，選取或建立新組態。
 
-   表面是由[系統管理員](../start/path/administrator.md)定義的設定。它包含所有用於傳送訊息的技術參數，如標頭參數、子網域、行動應用程式等等。[了解更多](../configuration/channel-surfaces.md)。
+   設定是由[系統管理員](../start/path/administrator.md)所定義。 它包含所有用於傳送訊息的技術參數，如標頭參數、子網域、行動應用程式等等。[了解更多](../configuration/channel-surfaces.md)。
 
-   下拉式清單中只會列出與行銷活動型別相容的管道表面。
+   下拉式清單中只會列出與行銷活動型別相容的管道設定。
 
    ![](assets/create-campaign-action.png)
 

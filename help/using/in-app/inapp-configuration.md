@@ -6,9 +6,9 @@ feature: In App
 level: Intermediate
 keywords: 應用程式內、訊息、設定、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '869'
 ht-degree: 9%
 
 ---
@@ -19,10 +19,9 @@ ht-degree: 9%
 
 若要使用[!DNL Journey Optimizer]在歷程與行銷活動中傳送應用程式內訊息，您必須完成下列設定步驟。
 
-1. 開始之前，請確定您對 Journey Optimizer 行銷活動擁有正確的權限，即使您計劃在歷程中僅使用應用程式內訊息也是如此。 仍需要行銷活動權限。 [深入瞭解](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)。
-必須授予特定許可權，才能存取Adobe Experience Platform資料收集中的**應用程式介面**&#x200B;功能表。 在[此影片](#video)中瞭解更多。
+1. 開始之前，請確定您對 Journey Optimizer 行銷活動擁有正確的權限，即使您計劃在歷程中僅使用應用程式內訊息也是如此。 仍需要行銷活動權限。 [了解更多](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)。
 1. 在Adobe Experience Platform資料收集資料串流中啟用Adobe Journey Optimizer，並檢查Adobe Experience Platform中的預設合併原則，如以下[傳遞先決條件](#delivery-prerequisites)所述。
-1. 在Adobe Experience Platform Data Collection中建立和設定應用程式表面，如[本節](#channel-prerequisites)所詳述。
+1. 在「管理>管道>管道設定」中建立應用程式內訊息管道設定，如[本節](#channel-prerequisites)所述。
 1. 如果您使用內容實驗，請務必遵循[本節](#experiment-prerequisite)中列出的要求。
 
 完成後，您可以建立、設定和傳送您的第一個應用程式內訊息。 在[本節](create-in-app.md)中了解如何達成此目的。
@@ -53,77 +52,62 @@ ht-degree: 9%
 
   [進一步瞭解Edge Delivery檢視](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/view/edge-delivery)
 
-## 通道設定先決條件 {#channel-prerequisites}
+## 建立應用程式內設定 {#channel-prerequisites}
 
-1. 存取&#x200B;**[!UICONTROL 應用程式表面]**&#x200B;功能表並按一下&#x200B;**[!UICONTROL 建立應用程式表面]**。
+1. 存取&#x200B;**[!UICONTROL 頻道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 頻道設定]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立頻道設定]**。
 
-1. 新增名稱至您的&#x200B;**[!UICONTROL 應用程式表面]**。
+   ![](assets/inapp_config_1.png)
 
-   ![](assets/inapp_config_2b.png)
+1. 輸入設定的名稱和說明（選擇性），然後選取要設定的通道。
 
-1. 從&#x200B;**[!UICONTROL Apple iOS]**&#x200B;下拉式清單中，為Apple iOS設定您的行動應用程式。
+   >[!NOTE]
+   >
+   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線`_`、點`.`和連字型大小`-`字元。
 
-+++ 更多詳情
+1. 若要將自訂或核心資料使用標籤指派給組態，您可以選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)。
 
-   1. 輸入您的&#x200B;**[!UICONTROL iOS套件組合識別碼]**。 請參閱[Apple檔案](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids)，以取得有關&#x200B;**套件ID**&#x200B;的詳細資訊。
+1. 選取&#x200B;**[!UICONTROL 行銷動作]**，以使用此設定將同意原則與訊息相關聯。 系統會運用與行銷動作相關的所有同意政策，以尊重客戶的偏好設定。 [了解更多](../action/consent.md#surface-marketing-actions)
 
-   1. （選擇性）選擇要從中傳送推播通知的&#x200B;**[!UICONTROL 沙箱]**。 請注意，選擇特定沙箱需要必要的存取許可權。
+1. 選取&#x200B;**應用程式內傳訊**&#x200B;頻道。
 
-      如需沙箱管理的詳細資訊，請參閱[此頁面](../administration/sandboxes.md#assign-sandboxes)。
+   ![](assets/inapp_config_9.png)
 
-   1. 啟用&#x200B;**[!UICONTROL 推送認證]**&#x200B;選項，以便視需要拖放您的.p8驗證金鑰檔案。
+1. 選取將套用應用程式內訊息的平台。
 
-      您也可以啟用&#x200B;**[!UICONTROL 手動輸入推送認證]**&#x200B;選項，以直接複製並貼上您的APN驗證金鑰。
+   ![](assets/inapp_config_10.png)
 
-   1. 輸入您的&#x200B;**[!UICONTROL 金鑰識別碼]**&#x200B;和&#x200B;**[!UICONTROL 團隊識別碼]**。
+1. 針對Web：
 
-      ![](assets/inapp_config_2.png)
+   * 您可以輸入&#x200B;**[!UICONTROL 頁面URL]**，將變更套用至特定頁面。
+
+   * 您可以建立規則來鎖定遵循相同模式的多個URL。
+
++++ 如何建置頁面比對規則。
+
+      1. 選取&#x200B;**[!UICONTROL 符合規則]**&#x200B;的頁面作為應用程式設定，並輸入您的&#x200B;**[!UICONTROL 頁面URL]**。
+
+      1. 在&#x200B;**[!UICONTROL 編輯設定規則]**&#x200B;視窗中，定義&#x200B;**[!UICONTROL 網域]**&#x200B;和&#x200B;**[!UICONTROL 頁面]**&#x200B;欄位的條件。
+      1. 從條件下拉式清單，進一步個人化您的條件。
+
+         舉例來說，若要編輯顯示在您Luma網站所有銷售產品頁面上的元素，請選取「網域>開頭為> Luma和頁面>包含>銷售」 。
+
+         ![](assets/in_app_web_surface_4.png)
+
+      1. 視需要按一下&#x200B;**[!UICONTROL 新增其他頁面規則]**&#x200B;以建立其他規則。
+
+      1. 選取&#x200B;**[!UICONTROL 預設撰寫與預覽URL]**。
+
+      1. 儲存您的變更。規則會顯示在&#x200B;**[!UICONTROL 建立行銷活動]**&#x200B;畫面中。
 
 +++
 
-1. 從&#x200B;**[!UICONTROL Android]**&#x200B;下拉式清單中，設定Android的行動應用程式。
+1. 對於iOS和Android：
 
-+++ 更多詳情
+   * 輸入您的&#x200B;**[!UICONTROL 應用程式識別碼]**。
 
-   1. 輸入您的&#x200B;**[!UICONTROL Android封裝名稱]**。 如需&#x200B;**封裝名稱**&#x200B;的詳細資訊，請參閱[Android檔案](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores)。
+1. 提交變更。
 
-   1. （選擇性）選擇要從中傳送推播通知的&#x200B;**[!UICONTROL 沙箱]**。 請注意，選擇特定沙箱需要必要的存取許可權。
-
-      如需沙箱管理的詳細資訊，請參閱[此頁面](../administration/sandboxes.md#assign-sandboxes)。
-
-   1. 啟用&#x200B;**[!UICONTROL 推送認證]**&#x200B;選項，視需要拖放您的.json私密金鑰檔案。
-
-      您也可以啟用&#x200B;**[!UICONTROL 手動輸入推送認證]**&#x200B;選項，以直接複製並貼上FCM私密金鑰。
-
-      ![](assets/inapp_config_7.png)
-
-1. 完成&#x200B;**[!UICONTROL 應用程式表面]**&#x200B;的設定時，請按一下&#x200B;**[!UICONTROL 儲存]**。
-
-   ![](assets/inapp_config_3.png)
-
-   使用應用程式內訊息建立新行銷活動時，現在可以使用您的&#x200B;**[!UICONTROL 應用程式表面]**。 [了解更多](create-in-app.md)
-
-1. 建立應用程式表面後，您現在需要建立行動屬性。
-
-   如需詳細程式，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-mobile)。
-
-   ![](assets/inapp_config_4.png)
-
-1. 從新建立屬性的「擴充功能」功能表中，安裝下列擴充功能：
-
-   * Adobe Experience PlatformEdge Network
-   * Adobe Journey Optimizer
-   * AEP保證
-   * 同意
-   * 身分
-   * 行動核心
-   * 設定檔
-
-   如需詳細程式，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html#add-a-new-extension)。
-
-   ![](assets/inapp_config_5.png)
-
-應用程式內頻道現已設定。 您可以開始傳送應用程式內訊息給使用者。
+您現在可以在建立應用程式內訊息時選取設定。
 
 ## 內容實驗先決條件 {#experiment-prerequisites}
 
@@ -142,13 +126,6 @@ ht-degree: 9%
 >[!NOTE]
 >
 >新增這些欄位群組不會影響正常的資料收集。 它僅適用於執行實驗的頁面，而保留所有其他追蹤不變。
-
-## 操作說明影片{#video}
-
-以下影片說明如何指派&#x200B;**管理應用程式組態**&#x200B;存取應用程式表面功能表的許可權。
-
->[!VIDEO](https://video.tv.adobe.com/v/3421607)
-
 
 **相關主題：**
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
-source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >
 >* 建立沙箱
 >* 設定使用者權限
->* 為電子郵件、推播和簡訊通知設定 Journey Optimizer 管道表面
+>* 設定電子郵件、推播和簡訊通知的Journey Optimizer頻道設定
 
 使用案例教戰手冊是預先定義的工作流程，用於處理您可以使用 Adobe Experience Platform和 Journey Optimizer 執行的常見使用案例。
 

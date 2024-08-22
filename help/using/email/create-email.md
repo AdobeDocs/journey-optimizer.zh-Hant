@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 建立，電子郵件，開始，歷程，行銷活動
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '912'
 ht-degree: 9%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 9%
 >id="ajo_message_email"
 >title="電子郵件建立"
 >abstract="定義您的電子郵件主旨行，然後開啟電子郵件設計工具來建立電子郵件內容。"
-
 
 ## 新增電子郵件動作 {#email-action}
 
@@ -36,11 +35,11 @@ ht-degree: 9%
 
 1. 提供訊息的基本資訊（標籤、說明、類別）。
 
-1. 選擇要使用的[電子郵件表面](email-settings.md)。
+1. 選擇或建立[電子郵件組態](email-settings.md)。
 
    ![](assets/email_journey.png)
 
-   依預設，此欄位會預先填入使用者用於該管道的最後一個表面。
+   依預設，此欄位會預先填入使用者用於該管道的最後一個設定。
 
 >[!NOTE]
 >
@@ -52,15 +51,15 @@ ht-degree: 9%
 
 1. 建立新的排程或API觸發的行銷活動，並選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;作為您的動作。
 
-1. 選擇要使用的[電子郵件表面](email-settings.md)。
-
-   ![](assets/email_campaign.png)
-
-1. 按一下&#x200B;**[!UICONTROL 建立]**。
-
 1. 完成步驟以建立電子郵件行銷活動，例如行銷活動屬性、[對象](../audience/about-audiences.md)和[排程](../campaigns/create-campaign.md#schedule)。
 
    ![](assets/email_campaign_steps.png)
+
+1. 選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;動作。
+
+1. 選取或建立電子郵件設定。 [了解更多](email-settings.md)
+
+   ![](assets/email_campaign.png)
 
 <!--
 From the **[!UICONTROL Action]** section, specify if you want to track how your recipients react to your delivery: you can track email opens, and/or clicks on links and buttons in your email.
@@ -85,7 +84,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_campaign_edit_content.png)
 
-   在&#x200B;**[!UICONTROL 編輯內容]**&#x200B;畫面的&#x200B;**[!UICONTROL 標頭]**&#x200B;區段中，**[!UICONTROL 寄件者名稱]**、**[!UICONTROL 寄件者電子郵件]**&#x200B;和&#x200B;**[!UICONTROL 密件副本]**&#x200B;欄位已設定在您選取的電子郵件介面中。 [深入瞭解](email-settings.md) <!--check if same for journey-->
+   在&#x200B;**[!UICONTROL 編輯內容]**&#x200B;畫面的&#x200B;**[!UICONTROL 標題]**&#x200B;區段中，**[!UICONTROL 寄件者名稱]**、**[!UICONTROL 寄件者電子郵件]**&#x200B;和&#x200B;**[!UICONTROL 密件副本]**&#x200B;欄位已設定在您選取的電子郵件組態中。 [深入瞭解](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
@@ -123,7 +122,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
      >[!NOTE]
      >
-     >行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 訊息類別（**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]**）是在[頻道介面](email-settings.md#email-type)層級，以及[從歷程或行銷活動建立訊息](#create-email-journey-campaign)時定義的。
+     >行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 訊息類別（**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]**）是在[頻道設定](email-settings.md#email-type)層級，以及[從歷程或行銷活動建立訊息](#create-email-journey-campaign)時定義的。
 
    * **[!UICONTROL HTML的文字版本是空的]**：別忘了定義您的電子郵件內文的文字版本，因為當HTML內容無法顯示時會使用此版本。 瞭解如何在[本節](text-version-email.md)中建立文字版本。
 
@@ -139,7 +138,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    * **[!UICONTROL 郵件的電子郵件版本是空的]**：尚未設定電子郵件內容時，會顯示此錯誤。 在[本節](get-started-email-design.md)中瞭解如何設計電子郵件內容。
 
-   * **[!UICONTROL 表面不存在]**：如果您選取的表面在建立訊息之後被刪除，則無法使用訊息。 如果發生此錯誤，請在訊息&#x200B;**[!UICONTROL 屬性]**&#x200B;中選取另一個表面。 在[本節](../configuration/channel-surfaces.md)中瞭解更多頻道介面。
+   * **[!UICONTROL 設定不存在]**：如果您選取的設定在建立訊息之後被刪除，則無法使用訊息。 如果發生此錯誤，請在訊息&#x200B;**[!UICONTROL 屬性]**&#x200B;中選取其他設定。 在[本節](../configuration/channel-surfaces.md)中瞭解更多頻道設定。
 
 >[!CAUTION]
 >

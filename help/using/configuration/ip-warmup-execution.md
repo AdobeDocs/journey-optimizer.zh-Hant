@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP、群組、子網域、傳遞能力
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '2530'
 ht-degree: 11%
@@ -58,7 +58,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >* 只有啟用&#x200B;**[!UICONTROL IP熱身計畫啟用]**&#x200B;選項的促銷活動才可供選取。 [了解更多](#create-ip-warmup-campaign)
    >
-   >* 只有使用與所選IP熱身計畫相同表面的行銷活動才可供選擇。
+   >* 只有使用與所選IP熱身計畫相同設定的行銷活動才可供選擇。
 
 1. 為目前階段選取行銷活動後，會顯示要排除設定檔、行銷活動對象和網域群組的區段。
 

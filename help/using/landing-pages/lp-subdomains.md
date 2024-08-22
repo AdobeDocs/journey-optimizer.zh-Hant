@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: 登陸、登陸頁面、子網域、設定
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '811'
 ht-degree: 23%
 
 ---
@@ -50,9 +50,7 @@ ht-degree: 23%
 
 若要使用已委派給Adobe的子網域，請遵循下列步驟。
 
-1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 電子郵件設定]** > **[!UICONTROL 登陸頁面子網域]**。
-
-   ![](assets/lp_access-subdomains.png)
+1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 登陸頁面設定]** > **[!UICONTROL 登陸頁面子網域]**。
 
 1. 按一下&#x200B;**[!UICONTROL 設定子網域]**。
 
@@ -105,7 +103,7 @@ ht-degree: 23%
 
 若要設定新的子網域，請遵循下列步驟。
 
-1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 電子郵件設定]** > **[!UICONTROL 登陸頁面子網域]**。
+1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 登陸頁面設定]** > **[!UICONTROL 登陸頁面子網域]**。
 
 1. 按一下&#x200B;**[!UICONTROL 設定子網域]**。
 

@@ -7,9 +7,9 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: c1dc3f3805bc0677a24466687026fac0d4990a5b
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1677'
 ht-degree: 3%
 
 ---
@@ -84,7 +84,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
    * **[!UICONTROL 管理應用程式設定]**
    * **[!UICONTROL 管理屬性]**
 
-   行動應用程式開發人員需要這些許可權，才能在&#x200B;**Adobe Experience Platform資料彙集**&#x200B;中設定推播認證，並在&#x200B;**Adobe Journey Optimizer**&#x200B;中定義推播通知頻道介面（即訊息預設集）。
+   行動應用程式開發人員需要這些許可權，才能在&#x200B;**Adobe Experience Platform資料彙集**&#x200B;中設定推播認證，並在&#x200B;**Adobe Journey Optimizer**&#x200B;中定義推播通知通道設定（即訊息預設集）。
 
    ![](assets/push_product_5.png)
 
@@ -112,7 +112,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### 設定您的應用程式 {#configure-app}
 
-技術設定涉及應用程式開發人員與企業管理員之間的密切合作。 開始使用[!DNL Journey Optimizer]傳送推播通知之前，您必須在[!DNL Adobe Experience Platform Data Collection]中定義設定，並將行動應用程式與Adobe Experience Platform Mobile SDK整合。
+技術設定涉及應用程式開發人員與企業管理員之間的密切合作。 在使用[!DNL Journey Optimizer]開始傳送推播通知之前，您需要在Adobe Journey Optimizer中建立推播認證、推播通道設定，並將您的行動應用程式與Adobe Experience Platform Mobile SDK整合。
 
 請依照下列連結中詳述的實作步驟操作：
 
@@ -126,29 +126,27 @@ Adobe Experience Platform Mobile SDK透過Android和iOS相容的SDK，為您的�
 到這為止，您也應該在[!DNL Adobe Experience Platform Data Collection]中建立並設定行動屬性。 您通常會為想要管理的每個行動應用程式建立行動屬性。 在[Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}中瞭解如何建立及設定行動屬性。
 
 
-## 步驟1：在Adobe Experience Platform Data Collection中新增應用程式推送認證 {#push-credentials-launch}
+## 步驟1：在Journey Optimizer中新增應用程式推送認證 {#push-credentials-launch}
 
-在授與正確的使用者許可權後，您現在需要在[!DNL Adobe Experience Platform Data Collection]中新增行動應用程式推送認證。
+在授與正確的使用者許可權後，您現在需要在Journey Optimizer中新增行動應用程式推送認證。
 
 行動應用程式推播認證註冊為必填，才能授權Adobe代表您傳送推播通知。 請參閱以下詳細步驟：
 
-1. 從[!DNL Adobe Experience Platform Data Collection]中，選取左側面板中的&#x200B;**[!UICONTROL 應用程式表面]**&#x200B;索引標籤。
+1. 存取&#x200B;**[!UICONTROL 管道]** > **[!UICONTROL 推播設定]** > **[!UICONTROL 推播認證]**&#x200B;功能表。
 
-1. 按一下&#x200B;**[!UICONTROL 建立應用程式表面]**&#x200B;以建立新的設定。
+1. 按一下&#x200B;**[!UICONTROL 建立推播認證]**。
 
-   ![](assets/add-app-config.png)
-
-1. 輸入組態的&#x200B;**[!UICONTROL 名稱]**。
-
-1. 從&#x200B;**[!UICONTROL 行動應用程式組態]**，選取作業系統：
+1. 從&#x200B;**[!UICONTROL 平台]**&#x200B;下拉式清單中，選取作業系統：
 
    * 適用於iOS **的**
 
      ![](assets/add-app-config-ios.png)
 
-      1. 在&#x200B;**[!UICONTROL 應用程式識別碼(iOS套件識別碼)]**&#x200B;欄位中輸入行動應用程式&#x200B;**套件識別碼**。 可以在&#x200B;**XCode**&#x200B;中主要目標的&#x200B;**一般**&#x200B;標籤中找到應用程式套件組合識別碼。
+      1. 輸入行動應用程式&#x200B;**[!UICONTROL 應用程式識別碼]**。
 
-      1. 已開啟&#x200B;**[!UICONTROL 推播認證]**&#x200B;按鈕以新增您的認證。
+      1. 啟用&#x200B;**[!UICONTROL 套用至所有沙箱]**&#x200B;選項，讓這些推送認證可用於所有沙箱。 如果特定沙箱針對相同的平台和應用程式ID組有自己的認證，系統會優先採用這些沙箱專屬的認證。
+
+      1. 已開啟&#x200B;**[!UICONTROL 手動輸入推播認證]**&#x200B;按鈕以新增您的認證。
 
       1. 拖放您的.p8 Apple推播通知驗證金鑰檔案。 此金鑰可從&#x200B;**憑證**、**識別碼**&#x200B;和&#x200B;**設定檔**&#x200B;頁面取得。
 
@@ -160,14 +158,16 @@ Adobe Experience Platform Mobile SDK透過Android和iOS相容的SDK，為您的�
 
      ![](assets/add-app-config-android.png)
 
-      1. 提供&#x200B;**[!UICONTROL 應用程式ID (Android封裝名稱)]**：封裝名稱通常是您`build.gradle`檔案中的應用程式ID。
+      1. 提供&#x200B;**[!UICONTROL 應用程式ID]**，封裝名稱通常是`build.gradle`檔案中的應用程式ID。
 
-      1. 已開啟&#x200B;**[!UICONTROL 推播認證]**&#x200B;按鈕以新增您的認證。
+      1. 啟用&#x200B;**[!UICONTROL 套用至所有沙箱]**&#x200B;選項，讓這些推送認證可用於所有沙箱。 如果特定沙箱針對相同的平台和應用程式ID組有自己的認證，系統會優先採用這些沙箱專屬的認證。
+
+      1. 已開啟&#x200B;**[!UICONTROL 手動輸入推播認證]**&#x200B;按鈕以新增您的認證。
 
       1. 拖放FCM推送認證。 如需有關如何取得推送認證的詳細資訊，請參閱[Google檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}。
 
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以建立您的應用程式設定。
+1. 按一下&#x200B;**[!UICONTROL 提交]**&#x200B;以建立您的應用程式設定。
 
 <!--
 ## Step 2: Set up a mobile property in Adobe Experience Platform Launch {#launch-property}
@@ -187,7 +187,38 @@ To get the SDKs needed for push notification to work you will need the following
 Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
-## 步驟2：在行動屬性中設定Adobe Journey Optimizer擴充功能 {#configure-journey-optimizer-extension}
+## 步驟2：建立推送的通道設定{#message-preset}
+
+建立推播認證後，您需要建立設定才能從&#x200B;**[!DNL Journey Optimizer]**&#x200B;傳送推播通知。
+
+1. 存取&#x200B;**[!UICONTROL 頻道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 頻道設定]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立頻道設定]**。
+
+   ![](assets/push-config-9.png)
+
+1. 輸入設定的名稱和說明（選擇性）。
+
+   >[!NOTE]
+   >
+   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線`_`、點`.`和連字型大小`-`字元。
+
+
+1. 若要將自訂或核心資料使用標籤指派給組態，您可以選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)。
+
+1. 選取&#x200B;**推播**&#x200B;頻道。
+
+   ![](assets/push-config-10.png)
+
+1. 選取&#x200B;**[!UICONTROL 行銷動作]**，以使用此設定將同意原則與訊息相關聯。 系統會運用與行銷動作相關的所有同意政策，以尊重客戶的偏好設定。 [了解更多](../action/consent.md#surface-marketing-actions)
+
+1. 選擇您的&#x200B;**[!UICONTROL 平台]**。
+
+1. 選取與上面設定之[推播認證](#push-credentials-launch)相同的&#x200B;**[!UICONTROL 應用程式ID]**。
+
+1. 儲存您的變更。
+
+您現在可以在建立推播通知時選取設定。
+
+## 步驟3：在行動屬性中設定Adobe Journey Optimizer擴充功能 {#configure-journey-optimizer-extension}
 
 適用於Adobe Experience Platform Mobile SDK的&#x200B;**Adobe Journey Optimizer擴充功能**&#x200B;可支援行動應用程式的推播通知，並可協助您收集使用者推播權杖，並管理與Adobe Experience Platform服務的互動測量。
 
@@ -258,7 +289,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 -->
 
-## 步驟3：使用事件測試您的行動應用程式 {#mobile-app-test}
+## 步驟4：使用事件測試您的行動應用程式 {#mobile-app-test}
 
 在Adobe Experience Platform和[!DNL Adobe Experience Platform Data Collection]中設定行動應用程式後，您現在可以在將推播通知傳送至設定檔之前對其進行測試。 在此使用案例中，我們會建立歷程來鎖定行動應用程式，並設定觸發推播通知的事件。
 
@@ -354,13 +385,3 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 您的事件將會觸發，而您將會收到傳送至行動應用程式的推播通知。
 
-## 步驟4：建立推送的管道表面{#message-preset}
-
-在[!DNL Adobe Experience Platform Data Collection]中設定您的行動應用程式後，您需要建立介面才能從&#x200B;**[!DNL Journey Optimizer]**&#x200B;傳送推播通知。
-
-在[本節](../configuration/channel-surfaces.md)中瞭解如何建立及設定管道表面。
-
-您現在可以使用Journey Optimizer傳送推播通知了。
-
-* 瞭解如何在[此頁面](create-push.md)中建立推送訊息。
-* 在[本節](../building-journeys/journeys-message.md)中瞭解如何新增訊息至歷程。

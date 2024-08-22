@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 35%
@@ -89,7 +89,7 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->行銷型別電子郵件訊息必須包含[選擇退出連結](../privacy/opt-out.md#opt-out-management)，交易式訊息不需要此連結。 訊息類別（**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]**）在建立訊息時，已在[頻道介面](../configuration/channel-surfaces.md#email-type)中定義。
+>行銷型別電子郵件訊息必須包含[選擇退出連結](../privacy/opt-out.md#opt-out-management)，交易式訊息不需要此連結。 訊息類別（**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]**）在建立訊息時已在[頻道設定](../configuration/channel-surfaces.md#email-type)中定義。
 
 ## 調整連結 {#adjust-links}
 
@@ -164,7 +164,7 @@ ht-degree: 35%
 
 ## 個人化URL追蹤 {#url-tracking}
 
-通常在表面層級管理[URL追蹤](email-settings.md#url-tracking)，但不支援設定檔屬性。 目前唯一的方法是在電子郵件設計工具中[個人化URL](../personalization/personalization-syntax.md#perso-urls)。
+通常在組態層級管理[URL追蹤](email-settings.md#url-tracking)，但不支援設定檔屬性。 目前唯一的方法是在電子郵件設計工具中[個人化URL](../personalization/personalization-syntax.md#perso-urls)。
 
 若要將個人化URL追蹤引數新增至您的連結，請遵循下列步驟。
 

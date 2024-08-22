@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP、集區、群組、子網域、傳遞能力
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '721'
 ht-degree: 11%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 11%
 
 若要建立IP集區，請執行下列步驟：
 
-1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL IP集區]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立IP集區]**。
+1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL IP集區]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立IP集區]**。
 
    ![](assets/ip-pool-create.png)
 
@@ -74,17 +74,13 @@ ht-degree: 11%
 
 ![](assets/ip-pool-ptr-record-tooltip.png)
 
-IP集區現在已建立並顯示在清單中。 您可以選取它以存取其屬性並顯示相關管道表面（即訊息預設集）。 有關如何將管道表面與IP集區關聯的詳細資訊，請參閱[本節](channel-surfaces.md)。
-
-![](assets/ip-pool-created.png)
+IP集區現在已建立並顯示在清單中。 您可以選取它以存取其屬性並顯示相關頻道設定（即訊息預設集）。 有關如何將通道設定與IP集區關聯的詳細資訊，請參閱[本節](channel-surfaces.md)。
 
 ## 編輯IP集區 {#edit-ip-pool}
 
 若要編輯IP集區，請遵循下列步驟。
 
 1. 從清單中，按一下IP集區名稱以開啟。
-
-   ![](assets/ip-pool-list.png)
 
 1. 視需要編輯其屬性。 您可以修改說明，以及新增或移除IP位址。
 
@@ -100,14 +96,14 @@ IP集區現在已建立並顯示在清單中。 您可以選取它以存取其�
 
 1. 儲存您的變更。
 
-根據與[管道表面](channel-surfaces.md)關聯的IP集區，更新會立即或非同步生效：
+根據與[通道設定](channel-surfaces.md)關聯的IP集區，更新會立即或非同步生效：
 
-* 如果IP集區是&#x200B;**不是與任何管道表面關聯的**，則更新是即時的（**[!UICONTROL 成功]**&#x200B;狀態）。
-* 如果IP集區&#x200B;**與通道表面關聯**，則更新最多可能需要3小時的時間（**[!UICONTROL 處理]**&#x200B;狀態）。
+* 如果IP集區是&#x200B;**不是與任何通道設定相關聯的**，則更新是即時的（**[!UICONTROL 成功]**&#x200B;狀態）。
+* 如果IP集區&#x200B;**與通道設定關聯**，則更新最多可能需要3小時的時間（**[!UICONTROL 處理]**&#x200B;狀態）。
 
 >[!NOTE]
 >
->當[建立管道表面](channel-surfaces.md#create-channel-surface)時，如果您選取正在編輯中的IP集區（**[!UICONTROL 正在處理]**&#x200B;狀態）且從未與為該表面選取的子網域建立關聯，則無法繼續建立表面。 [了解更多](channel-surfaces.md#subdomains-and-ip-pools)
+>當[建立通道設定](channel-surfaces.md#create-channel-surface)時，如果您選取正在編輯中的IP集區（**[!UICONTROL 正在處理]**&#x200B;狀態），而且從未與為該設定選取的子網域建立關聯，則無法繼續建立設定。 [了解更多](channel-surfaces.md#subdomains-and-ip-pools)
 
 若要檢查IP集區更新狀態，請按一下&#x200B;**[!UICONTROL 其他動作]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 最近更新]**。
 
@@ -119,5 +115,5 @@ IP集區現在已建立並顯示在清單中。 您可以選取它以存取其�
 >* 幾分鐘後，單一訊息便會使用，
 >* 直到IP集區的下一個批次在批次訊息中生效。
 
-您也可以使用&#x200B;**[!UICONTROL 刪除]**&#x200B;按鈕來刪除IP集區。 請注意，您無法刪除已關聯至管道表面的IP集區。
+您也可以使用&#x200B;**[!UICONTROL 刪除]**&#x200B;按鈕來刪除IP集區。 請注意，您無法刪除已關聯至通道設定的IP集區。
 

@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP、集區、傳遞能力
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 12%
@@ -27,11 +27,11 @@ ht-degree: 12%
 
 若要建立IP熱身行銷活動，請遵循下列步驟。
 
-1. 針對您為熱身計畫識別的網域和IP，建立[電子郵件](../email/email-settings.md)管道[表面](channel-surfaces.md)。
+1. 針對您為熱身計畫識別的網域和IP，建立[電子郵件](../email/email-settings.md)管道[設定](channel-surfaces.md)。
 
    >[!NOTE]
    >
-   >* 在[本節](../email/email-settings.md#subdomains-and-ip-pools)中瞭解如何選取要在電子郵件表面中使用的網域和IP。
+   >在[本節](../email/email-settings.md#subdomains-and-ip-pools)中瞭解如何選取要用於電子郵件設定的網域和IP。
    >
    >* 請與您的傳遞顧問合作，識別要用於IP熱身計畫的網域和IP。<!--TBC-->
 
@@ -39,11 +39,11 @@ ht-degree: 12%
 
    <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
 
-1. 選取您為IP預熱建立的曲面。
+1. 選取您為IP熱身建立的設定。
 
    ![](assets/ip-warmup-campaign-surface.png)
 
-   <!--You must use the same surface as the one that will be used for the asociated IP warmup plan. [Learn how to create an IP warmup plan](#create-ip-warmup-plan)-->
+   <!--You must use the same configuration as the one that will be used for the asociated IP warmup plan. [Learn how to create an IP warmup plan](#create-ip-warmup-plan)-->
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
 

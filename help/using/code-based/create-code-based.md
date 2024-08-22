@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 3f7d71eecf282b21eb09423378008c3b9ccd7edc
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 10%
+source-wordcount: '1083'
+ht-degree: 9%
 
 ---
 
@@ -23,21 +23,21 @@ ht-degree: 10%
 
 若要透過行銷活動開始建立程式碼型體驗，請遵循下列步驟。
 
-1. 建立行銷活動。 [了解更多](../campaigns/create-campaign.md)
+1. 存取&#x200B;**[!UICONTROL 促銷活動]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立促銷活動]**。 [了解更多](../campaigns/create-campaign.md)
+
+1. 選取您要執行的行銷活動型別
+
+   * **已排程 — 行銷**：立即或在指定日期執行行銷活動。 已排程的行銷活動旨在傳送行銷訊息。 可從使用者介面設定及執行。
+
+   * **API觸發 — 行銷/異動**：使用API呼叫執行行銷活動。 API觸發的行銷活動旨在傳送行銷或交易式訊息，也就是在個人執行動作後傳送的訊息：密碼重設、購物車購買等。
+
+1. 完成步驟以建立行銷活動，例如行銷活動屬性、[對象](../audience/about-audiences.md)和[排程](../campaigns/create-campaign.md#schedule)。 如需如何設定行銷活動的詳細資訊，請參閱[此頁面](../campaigns/get-started-with-campaigns.md)。
 
 1. 選取&#x200B;**[!UICONTROL 程式碼型體驗]**&#x200B;動作。
 
-1. 輸入程式碼型體驗介面。 [了解更多](#surface-definition)
+1. 選取或建立程式碼型體驗設定。 [了解更多](code-based-configuration.md)
 
    ![](assets/code-based-campaign-surface.png)
-
-   >[!CAUTION]
-   >
-   >請確定您的程式碼型行銷活動中使用的表面URI與您自己的實施中使用的表面URI相符。 否則，將不會傳送變更。
-
-1. 選取「**[!UICONTROL 建立]**」。
-
-1. 完成步驟以建立行銷活動，例如行銷活動屬性、[對象](../audience/about-audiences.md)和[排程](../campaigns/create-campaign.md#schedule)。 如需如何設定行銷活動的詳細資訊，請參閱[此頁面](../campaigns/get-started-with-campaigns.md)。
 
 1. 使用個人化編輯器，視需要編輯您的內容。 [了解更多](#edit-code)
 
@@ -82,7 +82,7 @@ ht-degree: 10%
 
 1. 按一下&#x200B;**[!UICONTROL 儲存並關閉]**&#x200B;以確認您的變更。
 
-現在，當您的開發人員進行API或SDK呼叫以擷取所選表面的內容時，變更就會套用至您的網頁或應用程式。
+現在，當您的開發人員進行API或SDK呼叫，擷取您管道設定中定義之表面的內容時，變更就會套用至您的網頁或應用程式。
 
 ## 測試基於程式碼的行銷活動 {#test-code-based-campaign}
 
@@ -124,7 +124,7 @@ ht-degree: 10%
 
    ![](assets/code-based-campaign-review.png)
 
-1. 視需要檢查並編輯內容、屬性、表面、對象和排程。
+1. 視需要檢查並編輯內容、屬性、設定、對象和排程。
 
 1. 選取&#x200B;**[!UICONTROL 啟動]**。
 
