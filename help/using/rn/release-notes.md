@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 6a2c594d427501dee3f979a2c88355fe63bff514
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 57%
@@ -147,7 +147,6 @@ ht-degree: 57%
 </tbody>
 </table>
 
-
 ### 改進項目 {#8-improvements}
 
 此版本帶來下列改善專案。
@@ -167,7 +166,6 @@ ht-degree: 57%
 **推播頻道**
 
 * 您現在可以在Adobe Journey Optimizer通道組態設定中新增行動應用程式推送認證。 您不再需要在Adobe Experience Platform資料彙集中建立應用程式表面。
-
 
 ### 其他變更 {#changes}
 

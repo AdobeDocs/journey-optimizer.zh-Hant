@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 6a2c594d427501dee3f979a2c88355fe63bff514
 workflow-type: tm+mt
-source-wordcount: '1950'
-ht-degree: 97%
+source-wordcount: '1949'
+ht-degree: 96%
 
 ---
 
@@ -200,8 +200,8 @@ ht-degree: 97%
    + [管理電子郵件選擇退出](using/email/email-opt-out.md)
    + 設定電子郵件頻道 {#configure-email}
       + [開始使用電子郵件設定](using/email/get-started-email-config.md)
-      + [設定電子郵件表面設定](using/email/email-settings.md)
-      + [個人化電子郵件表面設定](using/email/surface-personalization.md)
+      + [設定電子郵件組態設定](using/email/email-settings.md)
+      + [個人化電子郵件設定](using/email/surface-personalization.md)
 + 應用程式內頻道{#in-app}
    + [開始使用應用程式內頻道](using/in-app/get-started-in-app.md)
    + [應用程式內頻道先決條件](using/in-app/inapp-configuration.md)
@@ -230,7 +230,7 @@ ht-degree: 97%
       + [設定 Infobip 提供者](using/sms/sms-configuration-infobip.md)
       + [設定 Twilio 提供者](using/sms/sms-configuration-twilio.md)
       + [設定自訂提供者 (Beta)](using/sms/sms-configuration-custom.md)
-      + [建立簡訊界面](using/sms/sms-configuration-surface.md)
+      + [建立簡訊設定](using/sms/sms-configuration-surface.md)
 + 直接郵件 {#direct-mail}
    + [開始使用直接郵件](using/direct-mail/get-started-direct-mail.md)
    + [建立直接郵件](using/direct-mail/create-direct-mail.md)
@@ -581,7 +581,7 @@ ht-degree: 97%
    + [查詢](using/data/get-started-queries.md)
 + 設定 {#configuration}
    + [開始使用 Journey Optimizer 設定](using/configuration/get-started-configuration.md)
-   + [設定管道表面](using/configuration/channel-surfaces.md)
+   + [設定頻道設定](using/configuration/channel-surfaces.md)
    + 委派電子郵件子網域 {#delegate-subdomains}
       + [開始使用子網域委派](using/configuration/about-subdomain-delegation.md)
       + [委派子網域](using/configuration/delegate-subdomain.md)
