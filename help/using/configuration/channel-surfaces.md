@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 管道，表面，技術，引數，最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1721'
 ht-degree: 2%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 2%
 > * 在建立頻道設定之前，您必須執行[電子郵件設定](../email/get-started-email-config.md)、[推播設定](../push/push-configuration.md)、[簡訊設定](../sms/sms-configuration.md)、[應用程式內設定](../in-app/inapp-configuration.md)、[程式碼型設定](../code-based/code-based-configuration.md)、[網頁設定](../web/web-configuration.md)和[直接郵件設定](../direct-mail/direct-mail-configuration.md)步驟。
 
 設定好管道設定後，您就可以在從歷程或行銷活動建立訊息時選取它們。
+
+您也可以使用引導式管道設定，在統一體驗中自動化及驗證管道設定，加速開始使用Journey Optimizer的流程。 [了解更多](set-mobile-config.md)
 
 <!--
 ➡️ [Learn how to create and use email configurations in this video](#video-presets)

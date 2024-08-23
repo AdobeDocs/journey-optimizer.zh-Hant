@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6a2c594d427501dee3f979a2c88355fe63bff514
+source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
-source-wordcount: '1949'
-ht-degree: 96%
+source-wordcount: '1972'
+ht-degree: 95%
 
 ---
 
@@ -582,6 +582,11 @@ ht-degree: 96%
 + 設定 {#configuration}
    + [開始使用 Journey Optimizer 設定](using/configuration/get-started-configuration.md)
    + [設定頻道設定](using/configuration/channel-surfaces.md)
+   + 引導式頻道設定{#guided-setup}
+      + [開始使用引導式頻道設定](using/configuration/set-mobile-config.md)
+      + [設定Android行動裝置頻道](using/configuration/set-mobile-android.md)
+      + [設定iOS行動裝置頻道](using/configuration/set-mobile-ios.md)
+      + [設定Web channel](using/configuration/set-mobile-web.md)
    + 委派電子郵件子網域 {#delegate-subdomains}
       + [開始使用子網域委派](using/configuration/about-subdomain-delegation.md)
       + [委派子網域](using/configuration/delegate-subdomain.md)

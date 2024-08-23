@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 99%
+source-wordcount: '1266'
+ht-degree: 98%
 
 ---
 
@@ -194,111 +194,3 @@ ht-degree: 99%
 * 選擇您偏好的語言，然後按一下 **「儲存」**。若您使用的元件未當地化為您的母語，您可選取第二種語言。
   ![](assets/select-language.png)
 
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_name"
->title="行動裝置和網頁設定名稱"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_add"
->title="新增相依性"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_initialization_code"
->title="新增初始化程式碼"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_validate_assurance"
->title="使用保證進行驗證"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_javascript_code"
->title="Javascript 程式碼"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_javascript_site"
->title="啟動網站並驗證"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_token"
->title="獲取裝置語彙基元"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_xcode"
->title="從 Xcode 啟動應用程式"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_certificate"
->title="提供推播憑證"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_key_id"
->title="金鑰 ID"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_team_id"
->title="團隊 ID"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_inapp_tag_property"
->title="選擇您的標記屬性"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_push_certificate_fcm"
->title="提供推播憑證"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_dependencies_add"
->title="新增相依性"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_import"
->title="匯入相依性"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_dependencies_import"
->title="匯入相依性"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_initialization_code"
->title="新增初始化程式碼"
->abstract="待定"
-
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_token_android"
->title="獲取裝置語彙基元"
->abstract="待定"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_android_studio"
->title="從 Android Studio 啟動應用程式"
->abstract="待定"
-
-<!-- priority scores-->
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_priority"
->title="優先順序"
->abstract="為行銷活動指派優先順序分數，範圍從 0 到 100。 數字越高表示優先順序越高。 當兩個行銷活動使用相同的表面時，Journey Optimizer 會選取優先順序分數最高的行銷活動。 如果行銷活動具有相同的分數，將會選擇最近修改的行銷活動。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_priority"
->title="優先順序"
->abstract="為歷程指派優先順序分數，範圍從 0 到 100。 數字越高表示優先順序越高。 當兩個歷程使用相同表面時，Journey Optimizer 會選取優先順序分數最高的歷程。 如果歷程分數相同，則會選擇最近修改的歷程。"
