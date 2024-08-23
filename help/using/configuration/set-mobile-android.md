@@ -10,10 +10,10 @@ level: Experienced
 keywords: 管道，表面，技術，引數，最佳化工具
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 4%
+source-wordcount: '1042'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_initialization_code"
 >title="新增初始化程式碼"
->abstract="待定"
+>abstract="將初始化程式碼整合至應用程式的&#x200B;**onCreate()**&#x200B;方法。 此方法會在首次建立應用程式時執行，確保程式碼在初始設定階段執行。 在此正確放置程式碼對於確保應用程式在執行任何後續操作之前已正確設定和初始化，至關重要。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_add"
@@ -206,10 +206,12 @@ ht-degree: 4%
 
 ## 設定應用程式內頻道 {#inapp-channel}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_inapp_tag_property"
->title="選擇您的標記屬性"
->abstract="待定"
+>title="Choose your tag property"
+>abstract="TBC"
+-->
 
 應用程式內頻道不需要額外設定。 為了驗證您的設定是否正確，您可以使用「保證」功能輕鬆傳送測試訊息。 這會立即提供系統整備程度的回饋，以便有效傳送應用程式內訊息。
 
@@ -229,7 +231,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
 >title="從 Xcode 啟動應用程式"
->abstract="待定"
+>abstract="若要取得推播權杖，請先使用Xcode啟動您的應用程式。 應用程式啟動後，請重新啟動應用程式，以確保驗證程式已完成。 Adobe接著會提供您的推播權杖作為驗證結果的一部分。 此代號是啟用推播通知的必要專案，一旦安裝程式成功驗證後，就會顯示。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"

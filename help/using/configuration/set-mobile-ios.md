@@ -10,9 +10,9 @@ level: Experienced
 keywords: 管道，表面，技術，引數，最佳化工具
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1058'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_initialization_code"
 >title="新增初始化程式碼"
->abstract="待定"
+>abstract="若要正確初始化您的應用程式，請將提供的初始化程式碼插入AppDelegate檔案的&#x200B;**didFinishLaunchingWithOptions**&#x200B;方法。 這可確保在應用程式啟動程式期間在適當的時間執行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_import"

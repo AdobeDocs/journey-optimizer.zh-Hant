@@ -10,10 +10,10 @@ level: Experienced
 keywords: 管道，表面，技術，引數，最佳化工具
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 5%
+source-wordcount: '523'
+ht-degree: 3%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="Javascript 程式碼"
->abstract="待定"
+>abstract="`<head>`標籤包含在網頁主要內容之前載入的基本中繼資料和資源。 將程式碼放置在此區段可確保程式碼已正確初始化並及早執行，讓您的網頁有效率地載入及運作。 將程式碼新增至`<head>`區段，有助於增強網站的結構、效能和整體使用者體驗。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_site"
 >title="啟動網站並驗證"
->abstract="待定"
+>abstract="成功實作程式碼並在您的網站上執行後，請提供您的基本URL。 如有需要，您可在稍後階段返回此頁面，以重新驗證並確認設定是否如預期般運作。"
 
 此設定有助於快速設定行銷管道，確保所有必要資源都能隨時在Experience Platform、Journey Optimizer和資料收集中取得。 這可讓您的行銷團隊立即開始行銷活動和歷程建立。
 
