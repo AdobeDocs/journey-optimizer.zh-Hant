@@ -76,7 +76,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 `{{profile.faxPhone.number}}`
 
-## 對象{#perso-segments}
+## 客群{#perso-segments}
 
 在[本節](functions/helpers.md#if-function)中瞭解如何在條件中運用設定檔屬性。
 

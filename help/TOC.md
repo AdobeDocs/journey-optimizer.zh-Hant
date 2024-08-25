@@ -61,10 +61,10 @@ ht-degree: 95%
       + [開始使用歷程活動](using/building-journeys/about-journey-activities.md)
       + [一般事件](using/building-journeys/general-events.md)
       + [反應](using/building-journeys/reaction-events.md)
-      + [對象資格](using/building-journeys/audience-qualification-events.md)
+      + [客群資格](using/building-journeys/audience-qualification-events.md)
       + [條件](using/building-journeys/condition-activity.md)
       + [等待](using/building-journeys/wait-activity.md)
-      + [讀取對象](using/building-journeys/read-audience.md)
+      + [讀取客群](using/building-journeys/read-audience.md)
       + [電子郵件、應用程式內、推播、簡訊](using/building-journeys/journeys-message.md)
       + [自訂動作](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 動作](using/building-journeys/using-adobe-campaign-standard.md)
@@ -337,15 +337,15 @@ ht-degree: 95%
       + [傳送電子郵件校樣](using/content-management/proofs.md)
       + [測試電子郵件轉譯](using/content-management/rendering.md)
       + [電子郵件垃圾郵件報告](using/content-management/spam-report.md)
-+ 對象、設定檔與身分{#audiences-profiles-identities}
-   + 對象 {#audiences}
++ 客群、輪廓與身分{#audiences-profiles-identities}
+   + 客群 {#audiences}
       + [開始使用 Audiences](using/audience/about-audiences.md)
       + [建置區段定義](using/audience/creating-a-segment-definition.md)
-      + 撰寫對象 {#audience-orchestration}
-         + [開始使用對象組合](using/audience/get-started-audience-orchestration.md)
+      + 撰寫客群 {#audience-orchestration}
+         + [開始使用客群組合](using/audience/get-started-audience-orchestration.md)
          + [建立組合工作流程](using/audience/create-compositions.md)
          + [使用組合畫布](using/audience/composition-canvas.md)
-         + [存取及管理對象](using/audience/access-audiences.md)
+         + [存取及管理客群](using/audience/access-audiences.md)
       + [聯合客群構成 (可用性限制)](https://experienceleague.adobe.com/zh-hant/docs/federated-audience-composition/using/home)
    + 設定檔{#profiles}
       + [開始使用設定檔](using/audience/get-started-profiles.md)

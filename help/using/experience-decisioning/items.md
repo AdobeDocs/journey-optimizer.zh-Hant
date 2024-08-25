@@ -62,9 +62,9 @@ Journey Optimizer 可讓您建立行銷優惠 (稱為決定項目)，您可以�
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
->title="新增對象或決定規則"
->abstract="預設情況下，所有設定檔都有資格接收決定項目，但您可以使用對象或規則將該項目限制為僅限特定設定檔。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用對象"
+>title="新增客群或決定規則"
+>abstract="預設情況下，所有輪廓都有資格接收決定項目，但您可以使用客群或規則將該項目限制為僅限特定輪廓。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用客群"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="使用決定規則"
 
 依預設，所有設定檔都符合接收決定專案的資格，但您可以使用對象或規則將專案限製為僅特定設定檔，這兩個解決方案都對應不同的使用方式。 展開下列區段以取得詳細資訊：

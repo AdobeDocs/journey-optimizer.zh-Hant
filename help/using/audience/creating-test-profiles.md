@@ -11,7 +11,7 @@ exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1323'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -180,7 +180,7 @@ ht-degree: 2%
 
 ## 使用API呼叫建立測試設定檔{#create-test-profiles-api}
 
-您也可以透過API呼叫建立測試設定檔。 進一步瞭解[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}。
+您也可以透過API呼叫建立測試設定檔。 透過 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}了解更多。
 
 您必須使用包含「設定檔測試詳細資料」欄位群組的設定檔結構描述。 testProfile旗標是此欄位群組的一部分。
 建立設定檔時，請務必傳遞值： testProfile = true。

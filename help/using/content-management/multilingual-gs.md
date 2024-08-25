@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-badge: label="可用性限制" type="Informative"
+badge: label="限量開放使用" type="Informative"
 source-git-commit: e2ebb540fe9380497b42d331d1ea259538d72f00
 workflow-type: tm+mt
 source-wordcount: '252'

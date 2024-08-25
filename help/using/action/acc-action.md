@@ -46,7 +46,7 @@ Journey Optimizer與Campaign執行個體之間的連線是在提出要求時Adob
 
 ## 重要備註 {#important-notes}
 
-* 沒有訊息限制。 系統會根據目前的Campaign SLA，將每5分鐘可傳送的訊息數量上限設為4000則以上。 因此，Journey Optimizer應僅用於單一使用案例（個別事件，而非對象）。
+* 沒有訊息限制。 根據目前的Campaign SLA，系統會將每5分鐘可傳送超過4000則的訊息數量限制在最高。 因此，Journey Optimizer應僅用於單一使用案例（個別事件，而非對象）。
 
 * 您必須針對要使用的每個範本，在畫布上設定一個動作。 您需要在Journey Optimizer中，為您要從Adobe Campaign使用的每個範本設定一個動作。
 

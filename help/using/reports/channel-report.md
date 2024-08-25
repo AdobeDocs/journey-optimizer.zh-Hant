@@ -201,7 +201,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_excluded_reasons"
 >title="排除原因"
->abstract="「排除原因」圖表和表格說明導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明導致使用者輪廓被排除在目標客群之外而未能收到訊息的各項因素。"
 
 ![](assets/channel_email_excluded.png)
 
@@ -384,7 +384,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_excluded_reasons"
 >title="排除原因"
->abstract="「排除原因」圖表和表格說明導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明導致使用者輪廓被排除在目標客群之外而未能收到訊息的各項因素。"
 
 ![](assets/channel_push_excluded.png)
 
@@ -514,7 +514,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_excluded_reasons"
 >title="排除原因"
->abstract="「排除原因」圖表和表格說明導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明導致使用者輪廓被排除在目標客群之外而未能收到訊息的各項因素。"
 
 ![](assets/channel_sms_excluded.png)
 
@@ -578,7 +578,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_excluded_reasons"
 >title="排除原因"
->abstract="「排除原因」圖表和表格說明導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明導致使用者輪廓被排除在目標客群之外而未能收到訊息的各項因素。"
 
 ![](assets/channel_direct_excluded.png)
 

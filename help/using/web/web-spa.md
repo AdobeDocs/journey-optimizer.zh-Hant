@@ -21,7 +21,7 @@ ht-degree: 16%
 >id="ajo_web_designer_modifications_views"
 >title="將變更套用到選取的視圖"
 >abstract="變更將僅套用到選取的視圖。可以使用&#x200B;**瀏覽**&#x200B;模式找到並瀏覽到視圖。找不到您要尋找的視圖？"
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="更多詳情"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="了解更多"
 
 **單頁應用程式** (SPA)現在可以在網頁設計工具視覺化編輯器中撰寫。 這可讓您選取要套用網頁修改的特定的&#x200B;**檢視**。
 

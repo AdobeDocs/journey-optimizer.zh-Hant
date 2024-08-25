@@ -26,8 +26,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
->title="排除行銷活動對象"
->abstract="選取行銷活動以將其對象排除在目前階段外。這可以防止先前聯絡過的設定檔再次成為目標；只有透過歷程收到通訊的人才會被排除在外。"
+>title="排除行銷活動客群"
+>abstract="選取行銷活動以將其客群排除在目前階段外。這可以防止先前聯絡過的設定檔再次成為目標；只有透過歷程收到通訊的人才會被排除在外。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
@@ -146,13 +146,13 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_pause"
->title="取消出現對象錯誤的執行"
->abstract="當針對執行評估對象，如果合格設定檔少於目標設定檔，選取此選項以取消該執行。"
+>title="取消出現客群錯誤的執行"
+>abstract="當針對執行評估客群，如果合格輪廓少於目標輪廓，選取此選項以取消該執行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
 >title="檢視合格設定檔"
->abstract="此資料欄顯示合格設定檔的數量。評估執行的對象後，如果目標設定檔多於合格設定檔，則執行仍會進行，除非「**發生錯誤時取消已啟動之執行**」選項已啟用。在此情況下，會取消此執行。"
+>abstract="此資料欄顯示合格設定檔的數量。評估執行的客群後，如果目標輪廓多於合格輪廓，則執行仍會進行，除非「**發生錯誤時取消已啟動之執行**」選項已啟用。在此情況下，會取消此執行。"
 
 1. 選取每次執行的排程，以確保在指定的時間執行。
 

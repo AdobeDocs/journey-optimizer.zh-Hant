@@ -53,7 +53,7 @@ ht-degree: 98%
 
 從此區段建立行銷活動與歷程。
 
-* **[!UICONTROL 行銷活動]** - 建立、設定及協調行銷活動，使用各種管道將一次性內容傳送給特定對象。 [了解更多](../campaigns/get-started-with-campaigns.md)
+* **[!UICONTROL 行銷活動]** - 建立、設定及協調行銷活動，使用各種管道將一次性內容傳送給特定客群。 [了解更多](../campaigns/get-started-with-campaigns.md)
 
 * **[!UICONTROL 歷程]** - 建立、設定及協調客戶歷程：結合事件、協調及動作活動，以建立多步驟跨頻道案例。 [了解更多](../building-journeys/journey-gs.md#jo-build)
 
@@ -100,9 +100,9 @@ ht-degree: 98%
 
 ### [!UICONTROL 客戶] {#left-nav-customers}
 
-從此區段管理對象與設定檔資料。
+從此區段管理客群與輪廓資料。
 
-* **[!UICONTROL 對象]** - 建立和管理 Experience Platform 對象，並將其用於歷程之中。 [了解更多](../audience/about-audiences.md)
+* **[!UICONTROL 客群]** - 建立和管理 Experience Platform 客群，並將其用於歷程之中。 [了解更多](../audience/about-audiences.md)
 
 * **[!UICONTROL 訂閱清單]** - 在 [!DNL Journey Optimizer] 中，選擇加入訂閱服務的客戶均會收集到訂閱清單中。 [了解更多](../landing-pages/subscription-list.md)
 

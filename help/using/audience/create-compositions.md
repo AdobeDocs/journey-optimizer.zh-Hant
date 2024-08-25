@@ -11,7 +11,7 @@ exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-此文件提供如何在 Adobe Journey Optimizer 中使用對象構成的詳細資訊。 如果您沒有使用Adobe Journey Optimizer，[請按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}。
+此文件提供如何在 Adobe Journey Optimizer 中使用客群構成的詳細資訊。 如果您沒有使用Adobe Journey Optimizer，[請按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -71,12 +71,12 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
->title="發佈您的對象"
->abstract="發佈您的組合以將產生的對象儲存到 Adobe Experience Platform 中。"
+>title="發佈您的客群"
+>abstract="發佈您的組合以將產生的客群儲存到 Adobe Experience Platform 中。"
 
 所有建立的構成都可以從&#x200B;**[!UICONTROL 構成]**&#x200B;索引標籤存取。 您可以使用清單中的省略符號按鈕，隨時複製或刪除現有的構成。
 
-組合可以有多種狀態：
+構成可以有多種狀態：
 
 * **[!UICONTROL 草稿]**：構成正在進行中，尚未發佈。
 * **[!UICONTROL 已發佈]**：構成已發佈，產生的對象已儲存並可使用。

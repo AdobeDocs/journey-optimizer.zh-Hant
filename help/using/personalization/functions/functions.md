@@ -301,7 +301,7 @@ ht-degree: 22%
         <td><a href="string.md#rightTrim">右側修剪</a></td><td>此函式移除字串結尾的空格 </td>
     </tr>
     <tr>
-        <td><a href="string.md#split">Split</a></td><td>此函式用於依指定字元分割字串</td>
+        <td><a href="string.md#split">分割</a></td><td>此函式用於依指定字元分割字串</td>
     </tr>
     <tr>
         <td><a href="string.md#startsWith">開頭為</a></td><td>此函式用於決定字串的開頭是否為指定的子字串</td>

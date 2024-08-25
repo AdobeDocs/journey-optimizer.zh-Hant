@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 存取及管理對象
+title: 存取及管理客群
 description: 瞭解如何存取及管理對象
 feature: Audiences, Profiles
 topic: Content Management
@@ -15,11 +15,11 @@ ht-degree: 16%
 
 ---
 
-# 存取及管理對象 {#access-manage-audiences}
+# 存取及管理客群 {#access-manage-audiences}
 
 >[!BEGINSHADEBOX]
 
-此文件提供如何在 Adobe Journey Optimizer 中使用對象構成的詳細資訊。 如果您沒有使用Adobe Journey Optimizer，[請按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}。
+此文件提供如何在 Adobe Journey Optimizer 中使用客群構成的詳細資訊。 如果您沒有使用Adobe Journey Optimizer，[請按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

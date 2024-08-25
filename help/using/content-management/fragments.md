@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 11%
+ht-degree: 21%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 11%
 >abstract="建立及管理獨立的內容片段，以便在多個歷程和行銷活動中重複使用你的內容。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="建立內容片段"
 
-片段是可重複使用的元件，可在跨[!DNL Journey Optimizer]個行銷活動和歷程的一封或多封電子郵件中參考。 此功能允許預先建置多個自訂內容區塊，可供行銷使用者在改良的設計流程中快速組合電子郵件內容。
+片段是可重複使用的元件，可在跨[!DNL Journey Optimizer]個行銷活動和歷程的一封或多封電子郵件中參考。 此功能可讓您預先建立多個自訂內容區塊，以便行銷使用者在改進的設計流程中使用這些內容區塊來快速組裝電子郵件內容。
 
 ![](../rn/assets/do-not-localize/fragments.gif)
 
@@ -45,7 +45,7 @@ ht-degree: 11%
 
 ## 視覺效果和運算式片段 {#visual-expression}
 
-提供兩種型別的片段：
+可用的片段類型有兩種：
 
 * **視覺片段**&#x200B;是預先定義的視覺化區塊，您可以使用[電子郵件Designer](../email/get-started-email-design.md)或在[內容範本](../email/use-email-templates.md)中，在多個電子郵件傳遞中重複使用。
 * **運算式片段**&#x200B;是預先定義的運算式，可從[個人化編輯器](../personalization/personalization-build-expressions.md)中的專用專案取得。

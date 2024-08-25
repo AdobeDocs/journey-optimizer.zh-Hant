@@ -307,7 +307,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_excluded_reasons"
 >title="電子郵件 - 排除原因"
->abstract="「排除原因」圖表和表格說明導致使用者設定檔被排除在目標對象之外，而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明導致使用者輪廓被排除在目標客群之外，而未能收到訊息的各項因素。"
 
 ![](assets/journey_email_excluded.png)
 
@@ -339,7 +339,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_open_clicks_domains"
 >title="依網域劃分的開啟和點按動作"
->abstract="「依網域劃分的開啟和點按動作」圖表和表格提供網域層級的詳細劃分資料，呈現對象與您電子郵件互動方式的全面檢視。"
+>abstract="「依網域劃分的開啟和點按動作」圖表和表格提供網域層級的詳細劃分資料，呈現客群與您電子郵件互動方式的全面檢視。"
 
 ![](assets/journey_email_open_domains.png)
 
@@ -554,7 +554,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons"
 >title="推播通知 - 排除原因"
->abstract="「排除原因」圖表和表格會說明導致使用者設定檔排除在目標對象之外，而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格會說明導致使用者輪廓排除在目標客群之外，而未能收到訊息的各項因素。"
 
 ![](assets/journey_push_excluded.png)
 
@@ -687,7 +687,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_reasons"
 >title="簡訊 - 排除原因"
->abstract="「排除原因」圖表和表格說明導致使用者設定檔被排除在目標對象之外，而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明導致使用者輪廓被排除在目標客群之外，而未能收到訊息的各項因素。"
 
 ![](assets/journey_sms_excluded.png)
 

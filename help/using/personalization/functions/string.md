@@ -673,7 +673,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= rightTrim(string) %}
 ```
 
-## Split {#split}
+## 分割 {#split}
 
 `split`函式是用來依指定字元分割字串。
 

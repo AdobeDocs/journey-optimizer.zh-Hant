@@ -605,20 +605,20 @@ ht-degree: 95%
 
 此發行版本隨附下列改進項目。
 
-**對象**
+**客群**
 
 * **種子清單** - 使用&#x200B;**種子清單**&#x200B;時現在支援變體。種子地址會收到相同訊息的所有變體的副本 (例如內容實驗的不同處理方式)。[閱讀全文](../configuration/seed-lists.md)
 
 以下改進之前以測試版形式提供，現在可供所有使用者使用：
 
-* 您現在可以鎖定&#x200B;**透過對象構成所建立的目標對象**，並在歷程中運用擴充屬性。 [了解更多](../building-journeys/read-audience.md)
+* 您現在可以選擇&#x200B;**透過客群構成所建立的目標客群**，並在歷程中運用擴充屬性。 [了解更多](../building-journeys/read-audience.md)
 
-* 您現在可以鎖定&#x200B;**從 CSV 檔案上傳**&#x200B;至歷程和行銷活動中的目標對象。[了解更多](../audience/about-audiences.md#segments-in-journey-optimizer)
+* 您現在可以選擇&#x200B;**從 CSV 檔案上傳**&#x200B;至歷程和行銷活動中的目標客群。[了解更多](../audience/about-audiences.md#segments-in-journey-optimizer)
 
   >[!AVAILABILITY]
   >
-  >* 目前無法將對象構成和自訂上傳 (CSV 檔案) 中的對象和屬性與 Healthcare Shield 或 Privacy and Security Shield 結合使用。
-  >* **從 CSV 檔案上傳對象**&#x200B;的改進將在首次發布後的幾天內逐步推出。雖然某些使用者可以立即存取，但其他使用者在其環境可用之前可能會遇到延遲。
+  >* 目前無法將客群構成和自訂上傳 (CSV 檔案) 中的客群和屬性與 Healthcare Shield 或 Privacy and Security Shield 結合使用。
+  >* **從 CSV 檔案上傳客群**&#x200B;的改進將在首次發布後的幾天內逐步推出。雖然某些使用者可以立即存取，但其他使用者在其環境可用之前可能會遇到延遲。
 
 **歷程**
 
@@ -705,7 +705,7 @@ ht-degree: 95%
 
 <!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 
-* **讀取對象** - **讀取對象**&#x200B;活動現在仰賴批次區段的設定檔快照資料集，其會在排程的每日批次工作執行後產生，一天只會產生一次，因此將會是截至最後的每日批次工作的最新資料。[了解更多](../building-journeys/read-audience.md)
+* **讀取客群** - **讀取客群**&#x200B;活動現在仰賴批次細分群體的輪廓快照資料集。批次細分群體會在排定的每日批次工作執行後產生，一天只會產生一次。所以資料將會是截至每日批次工作的最新資料。[了解更多](../building-journeys/read-audience.md)
 
 * **欄位群組** - 此發行版本修正在特定情況下無法儲存欄位群組的問題。
 

@@ -19,7 +19,7 @@ ht-degree: 28%
 
 >[!BEGINSHADEBOX]
 
-此文件提供如何在 Adobe Journey Optimizer 中使用對象構成的詳細資訊。 如果您沒有使用Adobe Journey Optimizer，[請按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}。
+此文件提供如何在 Adobe Journey Optimizer 中使用客群構成的詳細資訊。 如果您沒有使用Adobe Journey Optimizer，[請按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -76,17 +76,17 @@ ht-degree: 28%
 
 您可以隨時按一下右窗格中的刪除按鈕，從畫布中移除活動。  如果要刪除的活動是構成中其他活動的父項，則會顯示一則訊息，允許您指定是隻刪除所選活動，還是刪除其所有子活動。
 
-### 對象活動 {#audience}
+### 客群活動 {#audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"
->title="對象活動"
->abstract="對象活動可讓您在組合中包含屬於現有對象的其他設定檔。"
+>title="客群活動"
+>abstract="客群活動可讓您在組合中包含屬於現有客群的其他輪廓。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_merge_types"
 >title="合併類型"
->abstract="指定應如何合併選取對象的設定檔。"
+>abstract="指定應如何合併選取客群的輪廓。"
 
 **[!UICONTROL 對象]**&#x200B;活動可讓您在構成中包含屬於現有對象的其他設定檔。
 
@@ -97,12 +97,12 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude_type"
 >title="排除類型"
->abstract="使用排除對象類型以排除屬於現有對象的設定檔。使用屬性類型的排除可讓您根據特定屬性排除設定檔。"
+>abstract="使用排除客群類型以排除屬於現有客群的輪廓。使用屬性類型的排除可讓您根據特定屬性排除設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
 >title="排除活動"
->abstract="排除活動可讓您透過選取現有對象或使用規則從您的組合中排除設定檔。"
+>abstract="排除活動可讓您透過選取現有客群或使用規則從您的組合中排除輪廓。"
 
 **[!UICONTROL 排除]**&#x200B;活動可讓您從構成中排除設定檔。 有兩種排除型別可用：
 
@@ -127,24 +127,24 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="擴充活動"
->abstract="使用擴充活動透過來自 Adobe Experience Platform 資料集的其他屬性來擴充您的對象。例如，您可以新增與所購買產品相關的資訊 (例如名稱、價格或製造商 ID)，並利用這些資訊來個人化傳遞給對象的內容。"
+>abstract="使用擴充活動透過來自 Adobe Experience Platform 資料集的其他屬性來擴充您的客群。例如，您可以新增與所購買產品相關的資訊 (例如名稱、價格或製造商 ID)，並利用這些資訊來個人化傳遞給客群的內容。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
 >title="擴充資料集"
->abstract="選取擴充資料集，其中會包含要和對象建立關聯的資料。"
+>abstract="選取擴充資料集，其中會包含要和客群建立關聯的資料。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_criteria"
 >title="擴充條件"
->abstract="選取欄位以用作來源資料集 (即對象) 和擴充資料集之間的調和金鑰。"
+>abstract="選取欄位以用作來源資料集 (即客群) 和擴充資料集之間的調和金鑰。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="擴充屬性"
->abstract="從擴充資料集中選取要和對象相關聯的一或多個屬性。一旦發佈組合，這些屬性就會和對象相關聯，並且可以在 Journey Optimizer 行銷活動中加以利用以將傳遞個人化。"
+>abstract="從擴充資料集中選取要和客群相關聯的一或多個屬性。一旦發佈組合，這些屬性就會和客群相關聯，並且可以在 Journey Optimizer 行銷活動中加以利用以將傳遞個人化。"
 
-**[!UICONTROL 擴充]**&#x200B;活動可讓您利用來自Adobe Experience Platform資料集的其他屬性來擴充您的對象。 例如，您可以新增與所購買產品相關的資訊 (例如名稱、價格或製造商 ID)，並利用這些資訊來個人化傳遞給對象的內容。
+**[!UICONTROL 擴充]**&#x200B;活動可讓您利用來自Adobe Experience Platform資料集的其他屬性來擴充您的對象。 例如，您可以新增與所購買產品相關的資訊 (例如名稱、價格或製造商 ID)，並利用這些資訊來個人化傳遞給客群的內容。
 
 使用&#x200B;**[!UICONTROL 擴充]**&#x200B;活動時，請注意下列限制：
 
@@ -199,7 +199,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
 >title="分割活動"
->abstract="分割活動可讓您將組合分成多個路徑。發佈組合時，會針對每個路徑儲存一個對象到 Adobe Experience Platform 中。"
+>abstract="分割活動可讓您將組合分成多個路徑。發佈組合時，會針對每個路徑儲存一個客群到 Adobe Experience Platform 中。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
@@ -213,7 +213,7 @@ ht-degree: 28%
 
 **[!UICONTROL 分割]**&#x200B;活動可讓您將撰寫分割成多個路徑。
 
-此操作會在每個路徑的結尾自動新增&#x200B;**[!UICONTROL 儲存]**&#x200B;活動。 發佈組合時，會針對每個路徑儲存一個對象到 Adobe Experience Platform 中。
+此操作會在每個路徑的結尾自動新增&#x200B;**[!UICONTROL 儲存]**&#x200B;活動。 發佈組合時，會針對每個路徑儲存一個客群到 Adobe Experience Platform 中。
 
 有兩種分割操作可供使用：
 

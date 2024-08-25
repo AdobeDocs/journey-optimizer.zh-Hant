@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 關於 Adobe Experience Platform 對象
-description: 了解如何使用 Adobe Experience Platform 對象
+title: 關於 Adobe Experience Platform 客群
+description: 了解如何使用 Adobe Experience Platform 客群
 feature: Audiences, Profiles
 topic: Content Management
 role: User
@@ -16,17 +16,17 @@ ht-degree: 20%
 
 ---
 
-# 開始使用 Adobe Experience Platform 對象 {#about-segments}
+# 開始使用 Adobe Experience Platform 客群 {#about-segments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
->title="對象"
->abstract="透過使用即時客戶設定檔資料，Adobe Experience Platform 能讓您輕鬆建置區段定義，以建立能夠擷取客戶獨特行為與偏好的目標的對象。"
+>title="客群"
+>abstract="透過使用即時客戶輪廓資料，Adobe Experience Platform 能讓您輕鬆建置區段定義，以建立能夠擷取客戶獨特行為與偏好的目標的客群。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
->title="選取行銷活動的對象"
->abstract="此清單顯示所有可用的 Adobe Experience Platform 對象。為你的行銷活動選取目標對象。在行銷活動中設定的訊息將傳送給屬於所選對象的所有個人。[進一步了解對象](../audience/about-audiences.md)"
+>title="選取行銷活動的客群"
+>abstract="此清單顯示所有可用的 Adobe Experience Platform 客群。為你的行銷活動選取目標客群。在行銷活動中設定的訊息將傳送給屬於所選客群的所有個人。[進一步了解客群](../audience/about-audiences.md)"
 
 受眾是指一組具有類似行為和/或特徵的人。 在[Adobe Experience Platform Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}中進一步瞭解對象。
 
@@ -36,8 +36,8 @@ ht-degree: 20%
 
 * **區段定義**：使用Adobe Experience Platform Segmentation Service建立新的對象定義。 [瞭解如何建立區段定義](creating-a-segment-definition.md)
 * **自訂上傳**：使用CSV檔案匯入對象。 在Adobe Experience Platform [Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}中瞭解如何匯入對象。
-* **對象構成**：建立構成工作流程，將現有Adobe Experience Platform對象結合到視覺畫布中，並利用各種活動（分割、排除……）來建立新對象。 [開始使用對象組合](get-started-audience-orchestration.md)
-* **同盟對象構成**：直接從您現有的資料倉儲同盟資料集，以在一個系統中建立並擴充Adobe Experience Platform對象和屬性。 請閱讀[同盟對象構成](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home)的指南。
+* **對象構成**：建立構成工作流程，將現有Adobe Experience Platform對象結合到視覺畫布中，並利用各種活動（分割、排除……）來建立新對象。 [開始使用客群組合](get-started-audience-orchestration.md)
+* **同盟對象構成**：直接從您現有的資料倉儲同盟資料集，以在一個系統中建立並擴充Adobe Experience Platform對象和屬性。 請閱讀[同盟對象構成](https://experienceleague.adobe.com/zh-hant/docs/federated-audience-composition/using/home)的指南。
 
   >[!AVAILABILITY]
   >
@@ -51,15 +51,15 @@ ht-degree: 20%
 >
 >受眾構成和自訂上傳（CSV檔案）受眾中的受眾和屬性目前無法與Healthcare Shield或Privacy and Security Shield搭配使用。 [瞭解如何在Journey Optimizer中使用對象擴充屬性](../audience/about-audiences.md#enrichment)
 
-您可以在 **[!DNL Journey Optimizer]** 中以不同方式善用對象：
+您可以在 **[!DNL Journey Optimizer]** 中以不同方式善用客群：
 
-* 選擇&#x200B;**行銷活動**&#x200B;的對象，將訊息傳送給屬於所選對象的所有個人。 [了解如何定義行銷活動的對象](../campaigns/create-campaign.md#define-the-audience-audience)。
+* 選擇&#x200B;**行銷活動**&#x200B;的客群，將訊息傳送給屬於所選客群的所有個人。 [了解如何定義行銷活動的客群](../campaigns/create-campaign.md#define-the-audience-audience)。
 
-* 在歷程中使用&#x200B;**讀取對象**&#x200B;協調活動，讓對象中的所有個人進入歷程並接收歷程中包含的訊息。 假設您有「銀級客戶」對象。 透過此活動，您可以讓所有銀級客戶進入歷程，並向其傳送一系列個人化訊息。 [了解如何設定讀取對象活動](../building-journeys/read-audience.md#configuring-segment-trigger-activity)。
+* 在歷程中使用&#x200B;**讀取對象**&#x200B;協調活動，讓對象中的所有個人進入歷程並接收歷程中包含的訊息。 假設您有「銀級客戶」客群。 透過此活動，您可以讓所有銀級客戶進入歷程，並向其傳送一系列個人化訊息。 [了解如何設定讀取客群活動](../building-journeys/read-audience.md#configuring-segment-trigger-activity)。
 
-* 在歷程中使用&#x200B;**條件**&#x200B;活動，以根據對象成員資格建置條件。 [了解如何在條件中使用對象](../building-journeys/condition-activity.md#using-a-segment)。
+* 在歷程中使用&#x200B;**條件**&#x200B;活動，以根據客群成員資格建置條件。 [了解如何在條件中使用客群](../building-journeys/condition-activity.md#using-a-segment)。
 
-* 在歷程中使用&#x200B;**對象資格**&#x200B;事件活動，讓個人根據Adobe Experience Platform對象進出而在歷程中進入或前進。 例如，您可以讓所有新的銀級客戶進入歷程，並向其傳送訊息。 如需有關如何使用此活動的詳細資訊，請參閱[了解如何設定對象資格活動](../building-journeys/audience-qualification-events.md)。
+* 在歷程中使用&#x200B;**對象資格**&#x200B;事件活動，讓個人根據Adobe Experience Platform對象進出而在歷程中進入或前進。 例如，您可以讓所有新的銀級客戶進入歷程，並向其傳送訊息。 如需有關如何使用此活動的詳細資訊，請參閱[了解如何設定客群資格活動](../building-journeys/audience-qualification-events.md)。
 
   >[!NOTE]
   >
@@ -99,7 +99,7 @@ ht-degree: 20%
 >
 >自訂上傳擴充屬性尚未可在Journey Optimizer中使用。
 
-## 對象評估方法 {#evaluation-method-in-journey-optimizer}
+## 客群評估方法 {#evaluation-method-in-journey-optimizer}
 
 在Adobe Journey Optimizer中，使用下列三種評估方法之一，從區段定義產生對象。
 
@@ -107,7 +107,7 @@ ht-degree: 20%
 
 當新資料流入系統時，對象的設定檔清單會即時保持最新。
 
-串流細分是持續進行的資料選擇流程，其會根據使用者活動來更新對象。 在建置區段定義並儲存產生的對象後，區段定義會套用至傳入 Journey Optimizer 的資料。 這表示當個人設定檔資料變更時，將會在對象中新增或移除該個人，以確保您的目標對象永遠相關。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}
+串流細分是持續進行的資料選擇流程，其會根據使用者活動來更新客群。 在建置區段定義並儲存產生的客群後，區段定義會套用至傳入 Journey Optimizer 的資料。 這表示當個人設定檔資料變更時，將會在對象中新增或移除該個人，以確保您的目標對象永遠相關。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ ht-degree: 20%
 
 每24小時評估對象的設定檔清單。
 
-批次細分是串流細分的替代方法，其可透過區段定義一次處理所有設定檔資料。 這會建立對象的快照，可儲存和匯出以供使用。 不過，和串流區段不同，批次區段不會持續即時更新對象清單，而且批次程式之後傳入的新資料不會反映在對象中，直到下一個批次程式為止。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
+批次細分是串流細分的替代方法，其可透過區段定義一次處理所有設定檔資料。 這會建立客群的快照，可儲存和匯出以供使用。 不過，和串流區段不同，批次區段不會持續即時更新對象清單，而且批次程式之後傳入的新資料不會反映在對象中，直到下一個批次程式為止。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
 
 +++
 
@@ -141,9 +141,9 @@ Edge區段能在Adobe Experience Platform中即時評估[邊緣](https://experie
 >
 >If the **[!UICONTROL Evaluation method]** column does not display, you  need to add it using configuration button on the top right of the list.-->
 
-在您首次定義對象後，設定檔會在符合資格時新增至對象中。
+在您首次定義客群後，輪廓會在符合資格時新增至客群中。
 
-最多可能需要 24 小時才能從先前的資料回填對象。 回填對象之後，該對象會持續保持在最新狀態，並隨時準備好進行目標定位。
+最多可能需要 24 小時才能從先前的資料回填客群。 回填客群之後，該客群會持續保持在最新狀態，並隨時準備好進行目標定位。
 
 ### 串流區段的事件使用情形 {#streaming-segmentation-events-guardrails}
 

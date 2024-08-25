@@ -69,7 +69,7 @@ ht-degree: 98%
 <tbody>
 <tr>
 <td>
-<p>您現在可以使用 Adobe Experience Platform 設定檔屬性和對象，利用 Journey Optimizer UI 中的相同運算式編輯器元件來個人化優惠內容。 </p>
+<p>您現在可以使用 Adobe Experience Platform 輪廓屬性和客群，利用 Journey Optimizer UI 中的相同運算式編輯器元件來個人化優惠內容。 </p>
 <p>如需詳細資訊，請參閱<a href="../offers/offer-library/creating-personalized-offers.md#custom-text">詳細文件</a>。</p>
 </td>
 </tr>
@@ -83,7 +83,7 @@ ht-degree: 98%
 
 **歷程**
 
-* **運算式編輯器** - 身為超級使用者，您現在可以使用函式來處理地圖。 此功能可與訂閱清單搭配運用。 例如，您現在可以從對象的訂閱清單取得電子郵件地址。[在本範例進一步了解](../building-journeys/message-to-subscribers-uc.md)
+* **運算式編輯器** - 身為超級使用者，您現在可以使用函式來處理地圖。 此功能可與訂閱清單搭配運用。 例如，您現在可以從客群的訂閱清單取得電子郵件地址。[在本範例進一步了解](../building-journeys/message-to-subscribers-uc.md)
 
 * **監控** - 已增強即時歷程和測試模式的步驟事件。 [新欄位](../reports/sharing-field-list.md#serviceevents) 已新增與設定檔匯出作業有關的內容。 為了提供更佳的使用者體驗，步驟事件欄位現在會整理成不同類別。 所有先前的步驟事件欄位仍可在 [stepEvents](../reports/sharing-legacy-fields.md) 類別中使用。
 * **協助工具** - 歷程已導入協助工具增強功能。
@@ -125,7 +125,7 @@ ht-degree: 98%
 <thead>
 <tr>
 
-<th><strong>報告－以更好的方式深入解析目標閱聽眾</strong><br/></th>
+<th><strong>報告－以更好的方式深入解析目標客群</strong><br/></th>
 </thead>
 <tbody>
 <tr>
@@ -266,12 +266,12 @@ ht-degree: 98%
 
 * **動態標頭** - 您現在可以在 HTTP 標頭參數中傳遞動態資料。 接收歷程動作 HTTP 呼叫的整合系統可使用這些參數 (例如時間戳記或追蹤 ID)。 [進一步了解](../action/about-custom-action-configuration.md#url-configuration)
 * **Dynamic URL 路徑** - 您現在可以為自訂動作設定動態 URL 路徑。 [進一步了解](../action/about-custom-action-configuration.md#url-configuration)
-* 讀取對象的總節流率已從每秒 17,000 則訊息變更為每秒 20,000 則訊息。[進一步了解](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 讀取客群的總節流率已從每秒 17,000 則訊息變更為每秒 20,000 則訊息。[進一步了解](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **使用者介面**
 
 * **搜尋** - 在每個頁面上，您現在可以直接從「統一的 Experience Cloud」搜尋欄位搜尋業務物件和說明文章。 [進一步了解](../start/user-interface.md#unified-search)
-* **收件者** - 在 Adobe Journey Optimizer 首頁顯示收件者元素的功能，現在已擴充至其他業務物件。 透過此更新，提供包括您最近存取的訊息、歷程、對象、方案、資料集、資料來源、事件、動作、來源和目的地的捷徑。[進一步了解](../action/about-custom-action-configuration.md#passing-collection)
+* **收件者** - 在 Adobe Journey Optimizer 首頁顯示收件者元素的功能，現在已擴充至其他業務物件。 透過此更新，提供包括您最近存取的訊息、歷程、客群、方案、資料集、資料來源、事件、動作、來源和目的地的捷徑。[進一步了解](../action/about-custom-action-configuration.md#passing-collection)
 
 **內容設計**
 
@@ -341,12 +341,12 @@ ht-degree: 98%
 
 **歷程**
 
-* 對於在同一沙箱同時執行的所有讀取對象，其總節流率限制為每秒 17,000 則訊息。[閱讀全文](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 對於在同一沙箱同時執行的所有讀取客群，其總節流率限制為每秒 17,000 則訊息。[閱讀全文](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * **快取期間** 欄位已從資料來源設定窗格中移除。 [閱讀全文](../datasource/about-data-sources.md)
 * 對於外部資料來源，現在會自動定義每秒 15 次呼叫的上限規則。 [閱讀全文](../configuration/external-systems.md#capping)
 * 對於即時歷程，歷程屬性畫面現在會顯示發佈日期和發佈歷程的使用者名稱。 [閱讀全文](../building-journeys/journey-gs.md#change-properties)
 * 在歷程清單畫面中，已新增歷程類型篩選器。 [閱讀全文](../start/user-interface.md#filter-lists)
-* **[!UICONTROL 節流率]**&#x200B;參數已新增至讀取對象活動中。[閱讀全文](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* **[!UICONTROL 節流率]**&#x200B;參數已新增至讀取客群活動中。[閱讀全文](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **預覽和測試**
 

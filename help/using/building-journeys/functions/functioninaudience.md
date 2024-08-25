@@ -50,7 +50,7 @@ Adobe Experience Platform
 
 | 參數 | 說明 | 類型 |
 |--- |--- |--- |
-| 對象 | 對象名稱 | `<string>` |
+| 客群 | 對象名稱 | `<string>` |
 
 ## 簽章與傳回的型別
 

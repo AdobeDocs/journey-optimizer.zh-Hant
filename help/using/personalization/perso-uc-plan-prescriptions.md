@@ -5,15 +5,15 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
+exl-id: 832b0bfa-ec74-4b1d-ad85-d4e4ea2f8863
+source-git-commit: c7ecfdbc9c97c49c77f3c4fb8bcb1656e04819a8
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-
-# 健康計畫處方電子郵件 {#plan-prescription}
+# 健康計劃處方電子郵件 {#plan-prescription}
 
 設定檔包含健康計畫，而每個計畫都包含處方。 處方有各種狀態，例如「就緒」、「召回」或「已接受」。
 

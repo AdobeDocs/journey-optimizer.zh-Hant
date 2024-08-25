@@ -20,7 +20,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
 >title="建立規則"
->abstract="建置規則建立方法讓您可以使用 Adobe Experience Platform Segmentation Service 建立新的對象定義。"
+>abstract="建置規則建立方法讓您可以使用 Adobe Experience Platform Segmentation Service 建立新的客群定義。"
 
 在此範例中，我們將建立受眾，鎖定生活在亞特蘭大、舊金山或西雅圖且出生於1980年之後的所有客戶。 這些客戶應在過去7天內開啟Luma應用程式，然後在開啟應用程式後2小時內購買。
 
@@ -70,6 +70,6 @@ ht-degree: 16%
 
 ## 操作說明影片{#video-segment}
 
-了解 Journey Optimizer 如何使用規則產生對象，以及了解如何使用屬性、事件和現有對象來建立對象。
+了解 Journey Optimizer 如何使用規則產生客群，以及了解如何使用屬性、事件和現有客群來建立客群。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)

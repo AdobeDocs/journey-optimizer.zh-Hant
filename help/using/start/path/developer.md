@@ -9,8 +9,8 @@ hidefromtoc: true
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 作為開發人員，您需要&#x200B;**設定您的行動應用程式**，以便能夠在 [!DNL Adobe Journey Optimizer] 中傳送推播通知。
 
-[!DNL Journey Optimizer] 可讓您建立歷程並傳送訊息給目標對象。 開始使用 [!DNL Journey Optimizer] 傳送推播通知之前，您必須確保行動應用程式及 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch] 中的設定和整合已就緒。若要瞭解 [!DNL Adobe Journey Optimizer] 中的推播通知資料流程，請參閱[此頁面](../../push/push-gs.md)。
+[!DNL Journey Optimizer] 可讓您建立歷程並傳送訊息給目標客群。 開始使用 [!DNL Journey Optimizer] 傳送推播通知之前，您必須確保行動應用程式及 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch] 中的設定和整合已就緒。若要瞭解 [!DNL Adobe Journey Optimizer] 中的推播通知資料流程，請參閱[此頁面](../../push/push-gs.md)。
 
 設定推播通知頻道及測試行動應用程式整合的步驟詳見[此頁面](../../push/push-configuration.md)。
 

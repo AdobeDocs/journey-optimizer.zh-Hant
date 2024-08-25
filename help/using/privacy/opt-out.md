@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ## 管理歷程和行銷活動中的取消訂閱 {#opt-out-ajo}
 
-從歷程或行銷活動傳送訊息時，您必須一律確保客戶可取消訂閱未來的通訊。 取消訂閱後，個人資料將自動從未來行銷訊息的對象中移除。
+從歷程或行銷活動傳送訊息時，您必須一律確保客戶可取消訂閱未來的通訊。 取消訂閱後，輪廓將自動從未來行銷訊息的客群中移除。
 
 **[!DNL Journey Optimizer]** 提供管理電子郵件和簡訊訊息中選擇退出的方式，而推播通知不需要由您執行任何動作，因為收件者可以透過其裝置自行取消訂閱。 例如，在下載或使用您的應用程式時，他們可以選擇停止通知。 同樣地，他們也可以透過行動裝置作業系統變更通知設定。
 
@@ -69,11 +69,11 @@ ht-degree: 100%
 >
 >[!DNL Journey Optimizer]發起管道中使用的決定範圍符合其所屬歷程或行銷活動的這項要求。
 
-1. 建立 [Adobe Experience Platform 對象](../audience/access-audiences.md)，使用[細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}並使用設定檔屬性，例如&#x200B;**[!UICONTROL 個人化內容 = 是 (選擇加入)]**，以同意個人化的使用者為目標。
+1. 建立 [Adobe Experience Platform 客群](../audience/access-audiences.md)，使用[細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}並使用輪廓屬性，例如&#x200B;**[!UICONTROL 個人化內容 = 是 (選擇加入)]**，以同意個人化的使用者為目標。
 
    ![](assets/perso-consent-od-audience.png)
 
-1. 建立[決定](../offers/offer-activities/create-offer-activities.md)時，新增決定範圍，並根據此對象為包含個人化優惠的每個評估條件集合定義適用性限制。
+1. 建立[決定](../offers/offer-activities/create-offer-activities.md)時，新增決定範圍，並根據此客群為包含個人化優惠的每個評估條件集合定義適用性限制。
 
    ![](assets/perso-consent-od-audience-decision.png)
 
@@ -107,7 +107,7 @@ ht-degree: 100%
 
 在 [!DNL Journey Optimizer] 行銷活動中，依照下列方式強制執行同意原則：
 
-* 您可以在對象建立過程中加入同意原則定義，以確保為行銷活動選取的對象已&#x200B;**篩選掉不符合同意條件的設定檔**。 
+* 您可以在客群建立過程中加入同意原則定義，以確保為行銷活動選取的客群已&#x200B;**篩選掉不符合同意條件的輪廓**。 
 
 * [!DNL Journey Optimizer] 將在頻道層級執行一般同意檢查，**確保設定檔已選擇**&#x200B;接收對應頻道上的行銷通訊。
 
@@ -119,9 +119,9 @@ ht-degree: 100%
 
 ### 使用區段規則產生器
 
-您可以使用區段規則產生器，建立包含選擇退出設定檔的對象。
+您可以使用區段規則產生器，建立包含選擇退出輪廓的客群。
 
-1. 使用[細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}建立 [Adobe Experience Platform 對象](../audience/access-audiences.md)。
+1. 使用[細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}建立 [Adobe Experience Platform 客群](../audience/access-audiences.md)。
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -131,19 +131,19 @@ ht-degree: 100%
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-您現在可以使用此對象，從行銷活動中篩選掉未同意個人化的設定檔。
+您現在可以使用此客群，從行銷活動中篩選掉未同意個人化的輪廓。
 
 ### 在構成工作流程中使用分割活動
 
-您也可以將分割活動新增至構成工作流程，以將個人化同意檢查新增至對象。
+您也可以將分割活動新增至構成工作流程，以將個人化同意檢查新增至客群。
 
-1. 使用&#x200B;**[!UICONTROL 撰寫對象]**&#x200B;選項建立對象。 [了解更多如何建立構成工作流程的相關資訊](../audience/create-compositions.md)
+1. 使用&#x200B;**[!UICONTROL 撰寫客群]**&#x200B;選項建立客群。 [了解更多如何建立構成工作流程的相關資訊](../audience/create-compositions.md)
 
    ![](assets/perso-consent-audience-compose.png)
 
-1. 使用右側的專用按鈕新增起始對象。
+1. 使用右側的專用按鈕新增起始客群。
 
-1. 按一下 **+** 圖示，然後選取&#x200B;**[!UICONTROL 分割]**&#x200B;活動以建立分割對象。 [了解更多分割活動的相關資訊](../audience/composition-canvas.md#split)
+1. 按一下 **+** 圖示，然後選取&#x200B;**[!UICONTROL 分割]**&#x200B;活動以建立分割客群。 [了解更多分割活動的相關資訊](../audience/composition-canvas.md#split)
 
    ![](assets/perso-consent-audience-split.png)
 
@@ -157,7 +157,7 @@ ht-degree: 100%
 
    ![](assets/perso-consent-audience-consent-attribute.png)
 
-1. **[!UICONTROL 路徑 1]** 將會是非個人化的對象。 選擇相關標籤。
+1. **[!UICONTROL 路徑 1]** 將會是非個人化的客群。 選擇相關標籤。
 
 1. 從此[清單](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}中選擇適當的值。
 
@@ -167,12 +167,12 @@ ht-degree: 100%
 
 1. 您可以為其他選擇值建立個別路徑。 您也可以選擇刪除其餘路徑，然後開啟&#x200B;**[!UICONTROL 其他設定檔]**&#x200B;以包含沒有 `n` 選擇值的所有其他設定檔。
 
-1. 完成後，請對每個路徑按一下&#x200B;**[!UICONTROL 儲存對象]**，以將工作流程的結果儲存至新對象。 每個路徑都會將一個對象儲存至 Adobe Experience Platform。
+1. 完成後，請對每個路徑按一下&#x200B;**[!UICONTROL 儲存客群]**，以將工作流程的結果儲存至新客群。 每個路徑都會將一個客群儲存至 Adobe Experience Platform。
 
 1. 完成後，發佈構成工作流程。
 
-您現在可以使用此對象，從行銷活動中篩選掉未同意個人化的設定檔。
+您現在可以使用此客群，從行銷活動中篩選掉未同意個人化的輪廓。
 
 >[!NOTE]
 >
->如果您建立的對象未同意個人化，然後您在行銷活動中選取此對象，則個人化工具將仍然可用。 行銷使用者可自行了解，如果他們正與不應接收個人化的對象合作，則他們不應使用個人化工具。
+>如果您建立的客群未同意個人化，然後您在行銷活動中選取此客群，則個人化工具將仍然可用。 行銷使用者可自行了解，如果他們正與不應接收個人化的客群合作，則他們不應使用個人化工具。

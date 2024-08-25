@@ -68,7 +68,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="定義資格"
->abstract="依預設，任何設定檔都有資格獲得優惠，但您可以使用對象或決定規則將優惠限制給特定設定檔。"
+>abstract="依預設，任何輪廓都有資格獲得優惠，但您可以使用客群或決定規則將優惠限制給特定輪廓。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -79,7 +79,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="總設定檔估計值"
->abstract="當您選取對象或決定規則時，您可以看到有關預估合格設定檔的資訊。"
+>abstract="當您選取客群或決定規則時，您可以看到有關預估合格輪廓的資訊。"
 
 **[!UICONTROL 優惠資格]**&#x200B;區段可讓您將優惠限製為您使用對象或決定規則定義的特定設定檔。
 
@@ -119,7 +119,7 @@ ht-degree: 16%
 
 基本上，對象的輸出是設定檔清單，而決定規則是在決策流程期間根據單一設定檔執行的函式。 這兩種使用方式的差異詳述如下。
 
-* **對象**
+* **客群**
 
   一方面，受眾是一組Adobe Experience Platform設定檔，根據設定檔屬性和體驗事件符合特定邏輯。 不過，Offer Management不會重新計算對象，在展示優惠方案時，該對象可能不是最新狀態。
 

@@ -264,7 +264,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_excluded_reasons"
 >title="電子郵件 - 排除原因"
->abstract="「排除原因」圖表和表格說明導致使用者設定檔被排除在目標對象之外，而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明導致使用者輪廓被排除在目標客群之外，而未能收到訊息的各項因素。"
 
 ![](assets/campaign_email_excluded.png)
 
@@ -315,7 +315,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_open_domains"
 >title="依網域劃分的開啟和點按動作"
->abstract="「依網域劃分的開啟和點按動作」圖表和表格提供網域層級的詳細劃分資料，呈現對象與您電子郵件互動方式的全面檢視。"
+>abstract="「依網域劃分的開啟和點按動作」圖表和表格提供網域層級的詳細劃分資料，呈現客群與您電子郵件互動方式的全面檢視。"
 
 ![](assets/campaign_email_open_domains.png)
 
@@ -610,7 +610,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_excluded_reasons"
 >title="推播通知 - 排除原因"
->abstract="「排除原因」圖表和表格說明導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明導致使用者輪廓被排除在目標客群之外而未能收到訊息的各項因素。"
 
 ![](assets/campaign_push_excluded.png)
 
@@ -734,7 +734,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_excluded_reasons"
 >title="簡訊 - 排除原因"
->abstract="「排除原因」圖表和表格說明導致使用者設定檔被排除在目標對象之外，而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明導致使用者輪廓被排除在目標客群之外，而未能收到訊息的各項因素。"
 
 ![](assets/campaign_sms_excluded.png)
 
@@ -872,7 +872,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_excluded_reasons"
 >title="直接郵件 - 排除原因"
->abstract="「直接郵件排除原因」圖表和表格說明導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
+>abstract="「直接郵件排除原因」圖表和表格說明導致使用者輪廓被排除在目標客群之外而未能收到訊息的各項因素。"
 
 ![](assets/campaign_direct_excluded.png)
 

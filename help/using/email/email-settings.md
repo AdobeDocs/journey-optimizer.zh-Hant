@@ -238,7 +238,7 @@ List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="新增種子清單"
->abstract="選取您所選的種子清單，以自動向您的對象新增特定的內部地址。這些種子地址將在傳遞執行時包含在內，且為了保證目的將收到一份準確的訊息副本。"
+>abstract="選取您所選的種子清單，以自動向您的客群新增特定的內部地址。這些種子地址將在傳遞執行時包含在內，且為了保證目的將收到一份準確的訊息副本。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hant#use-seed-list" text="什麼是種子清單?"
 
 [!DNL Journey Optimizer]中的種子清單可讓您在傳遞中自動包含特定的電子郵件種子地址。 [了解更多](../configuration/seed-lists.md)

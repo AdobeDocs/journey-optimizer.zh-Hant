@@ -21,7 +21,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="內容實驗"
->abstract="您可以選擇改變訊息內容、主題或寄件者，以便定義多種處理方式並確定最適合您的對象的組合。"
+>abstract="您可以選擇改變訊息內容、主題或寄件者，以便定義多種處理方式並確定最適合您的客群的組合。"
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 
    >[!AVAILABILITY]
    >
-   >歷程中的實驗目前僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。
+   >歷程中的實驗目前僅適用於一組組織（可用性限制）。 如需存取權，請和您的 Adobe 代表聯絡。
 
 1. 從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;視窗，開始個人化處理A。
 

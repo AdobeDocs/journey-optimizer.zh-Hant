@@ -18,12 +18,12 @@ ht-degree: 6%
 
 # 在歷程中使用對象 {#segment-trigger-activity}
 
-## 新增閱讀對象活動 {#about-segment-trigger-actvitiy}
+## 新增閱讀客群活動 {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
->title="閱讀對象活動"
->abstract="「閱讀對象」活動可讓您安排屬於 Adobe Experience Platform 對象的所有個人進入歷程。進入歷程可以執行一次，也可以定期執行。"
+>title="閱讀客群活動"
+>abstract="「閱讀客群」活動可讓您安排屬於 Adobe Experience Platform 客群的所有個人進入歷程。進入歷程可以執行一次，也可以定期執行。"
 
 使用&#x200B;**讀取對象**&#x200B;活動讓對象的所有個人進入歷程。 進入歷程可以執行一次，也可以定期執行。
 
@@ -195,6 +195,6 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ## 操作說明影片 {#video}
 
-了解透過讀取對象活動所觸發歷程的適用使用案例。瞭解如何建立批次式歷程，以及套用哪些最佳實務。
+了解透過讀取客群活動所觸發歷程的適用使用案例。瞭解如何建立批次式歷程，以及套用哪些最佳實務。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

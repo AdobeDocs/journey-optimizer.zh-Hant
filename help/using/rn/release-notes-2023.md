@@ -63,10 +63,10 @@ ht-degree: 99%
 
 此發行版本隨附下列改進項目。
 
-**對象**
+**客群**
 
-* 您現在可以鎖定從 CSV 檔案上傳至歷程和行銷活動中的目標對象。[了解更多](../audience/about-audiences.md#segments-in-journey-optimizer)
-* 您現在可以鎖定透過對象構成所建立的目標對象，並在歷程中運用擴充屬性。 [了解更多](../building-journeys/read-audience.md)
+* 您現在可以鎖定從 CSV 檔案上傳至歷程和行銷活動中的目標客群。[了解更多](../audience/about-audiences.md#segments-in-journey-optimizer)
+* 您現在可以鎖定透過客群構成所建立的目標客群，並在歷程中運用擴充屬性。 [了解更多](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
@@ -188,7 +188,7 @@ ht-degree: 99%
 
 **警示**
 
-* 已引進新類型的系統警示。現在您可以在&#x200B;**讀取對象**&#x200B;活動失敗時收到通知。 [了解更多](../reports/alerts.md)。
+* 已引進新類型的系統警示。現在您可以在&#x200B;**讀取客群**&#x200B;活動失敗時收到通知。 [了解更多](../reports/alerts.md)。
 
 **網路頻道**
 
@@ -265,7 +265,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>現在您可在 Journey Optimizer 中建立和管理種子清單。 種子清單包含內部地址 (可以新增到實際對象) 並在傳送執行時收到與目標設定檔完全相同的訊息。 使用此功能可監視所傳送的通訊，並確保所有顯示格式、URL、影像和連結均正確無誤。</p>
+<p>現在您可在 Journey Optimizer 中建立和管理種子清單。 種子清單包含內部地址 (可以新增到實際客群) 並在傳送執行時收到與目標輪廓完全相同的訊息。 使用此功能可監視所傳送的通訊，並確保所有顯示格式、URL、影像和連結均正確無誤。</p>
 <img src="../configuration/assets/seed-list-details.png">
 <p>如需詳細資訊，請參閱<a href="../configuration/seed-lists.md">詳細文件</a>。</p>
 </td>
@@ -329,16 +329,16 @@ A new option is available in the email surface settings to include email address
 <table>
 <thead>
 <tr>
-<th><strong>對象構成</strong><br/></th>
+<th><strong>客群構成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以建立構成工作流程，將現有 Adobe Experience Platform 對象與視覺畫布結合，並利用各種活動 (分割、擴充...) 來建立新對象。 新建立的對象會與現有對象一起儲存回 Adobe Experience Platform，並可在 Journey Optimizer 行銷活動中運用，來鎖定目標客戶。</p>
+<p>您現在可以建立構成工作流程，將現有 Adobe Experience Platform 客群與視覺畫布結合，並利用各種活動 (分割、擴充...) 來建立新客群。 新建立的客群會與現有客群一起儲存回 Adobe Experience Platform，並可在 Journey Optimizer 行銷活動中運用，來鎖定目標客戶。</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>如需詳細資訊，請參閱<a href="../audience/get-started-audience-orchestration.md">詳細文件</a>。</p>
-<p>對象構成已與新的 Adobe Experience Platform「對象」選單完全整合，該選單可作為對象的集中式入口網站。 您現在可以使用瀏覽頁面，利用其中具有區段趨勢和重疊的新儀表板 ，來發掘新的深入分析，以及探索以資料夾與標記整理歸類的組織工具。 此體驗包含標準化對象標籤的治理控制項，以及管理啟用工作流程的對象生命週期管理功能。 有了這項新的管理體驗，您現在可以輕鬆安全地從單一位置管理對象。 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant" target="_blank">Adobe Experience Platform 文件</a>。</p></p>
+<p>客群構成已與新的 Adobe Experience Platform「客群」選單完全整合，該選單可作為客群的集中式入口網站。 您現在可以使用瀏覽頁面，利用其中具有區段趨勢和重疊的新儀表板 ，來發掘新的深入分析，以及探索以資料夾與標記整理歸類的組織工具。 此體驗包含標準化客群標籤的治理控制項，以及管理啟用工作流程的客群生命週期管理功能。 有了這項新的管理體驗，您現在可以輕鬆安全地從單一位置管理客群。 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant" target="_blank">Adobe Experience Platform 文件</a>。</p></p>
 </td>
 </tr>
 </tbody>
@@ -424,14 +424,14 @@ A new option is available in the email surface settings to include email address
 與行銷活動相關的內容事件現在可用於個人化編輯器的「內容屬性」選單。
 
 
-**對象**
+**客群**
 
-已增強歷程或行銷活動中的對象選取器功能，新增數欄顯示對象的來源與更新頻率。隨著對象構成入口網站的發行，Adobe Experience Platform 與 Adobe Journey Optimizer 已更新系統和文件內的「對象」與「區段」的使用方式。
+已增強歷程或行銷活動中的客群選取器功能，新增數欄顯示客群的來源與更新頻率。隨著客群構成入口網站的發行，Adobe Experience Platform 與 Adobe Journey Optimizer 已更新系統和文件內的「客群」與「區段」的使用方式。
 
-* 對象：一組具有共同特徵和行為的人員、帳戶、家庭或其他實體。
-* 區段定義：在 Adobe Experience Platform 中，用來描述目標對象之關鍵特性或行為的規則。 此辭彙先前稱為「區段」。
+* 客群：一組具有共同特徵和行為的人員、帳戶、家庭或其他實體。
+* 區段定義：在 Adobe Experience Platform 中，用來描述目標客群之關鍵特性或行為的規則。 此辭彙先前稱為「區段」。
 
-因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，您會看到「區段」被「對象」取代，以反映建立和管理對象的新路徑。
+因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，您會看到「區段」被「客群」取代，以反映建立和管理客群的新路徑。
 
 **API**
 
@@ -585,7 +585,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>Personalized Optimization AI 排名模型現在通常可在決策管理中使用。 這種新類型的模型可讓您根據對象與優惠方案績效來將優惠最佳化和個人化。</p>
+<p>Personalized Optimization AI 排名模型現在通常可在決策管理中使用。 這種新類型的模型可讓您根據客群與優惠方案績效來將優惠最佳化和個人化。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細文件</a>。</p>
 </td>
@@ -597,16 +597,16 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ### 改進項目 {#may-2023-improvements}
 
-**對象**
+**客群**
 
 * 為了因應全面推出的 Audience Portal 功能，Adobe Experience Platform 正在更新系統和文件內「對象」和「區段」的使用情況。
 
-   * 對象：一組具有共同特徵和行為的人員、帳戶、家庭或其他實體。
-   * 區段定義：在 Adobe Experience Platform 中，用來描述目標對象之關鍵特性或行為的規則。 此辭彙先前稱為「區段」。
+   * 客群：一組具有共同特徵和行為的人員、帳戶、家庭或其他實體。
+   * 區段定義：在 Adobe Experience Platform 中，用來描述目標客群之關鍵特性或行為的規則。 此辭彙先前稱為「區段」。
 
-  因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，您會看到「區段」被「對象」取代，以反映建立和管理對象的新路徑。
+  因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，您會看到「區段」被「客群」取代，以反映建立和管理客群的新路徑。
 
-  在指稱目標為接收訊息的一組設定檔時，「對象」一詞的翻譯已在部分語言的所有數位體驗產品中保持一致：
+  在指稱目標為接收訊息的一組輪廓時，「客群」一詞的翻譯已在部分語言的所有數位體驗產品中保持一致：
 
    * 德文：Zielgruppe
    * 巴西葡萄牙文：público-alvo
@@ -791,7 +791,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * 已增強歷程畫布，提供更簡單且改善的使用者體驗。 在畫布的每個路徑結尾處，已移除空白預留位置。 您現在只需將活動拖曳到路徑結尾即可新增活動。
 * 在歷程畫布，**結束**&#x200B;標籤的標籤不再自動設定為先前活動的名稱。使用者可視需要手動新增自訂標籤。
 * 歷程屬性中的預設逾時和錯誤持續時間已從 5 秒變更為 30 秒。[了解更多](../configuration/external-systems.md#timeout)
-* 讀取對象活動的預設節流率已從每秒 20,000 則訊息變更為每秒 5,000 則訊息。 [了解更多](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 讀取客群活動的預設節流率已從每秒 20,000 則訊息變更為每秒 5,000 則訊息。 [了解更多](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * 已將護欄新增至測試模式，以只監聽透過介面傳送的事件。透過外部工具傳送的事件不會納入考量。[進一步了解](../building-journeys/testing-the-journey.md)
 
 
@@ -922,9 +922,9 @@ Note that each widget can be resized and deleted as needed.
 
 **歷程**
 
-* 此&#x200B;**重新進入等待期**&#x200B;欄位已新增至歷程屬性。 此欄位可讓您定義在允許設定檔在單一歷程中再次進入歷程 (從事件或對象資格開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 [了解更多](../building-journeys/journey-properties.md#entrance)
+* 此&#x200B;**重新進入等待期**&#x200B;欄位已新增至歷程屬性。 此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或客群資格開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 [了解更多](../building-journeys/journey-properties.md#entrance)
 
-* 改進了&#x200B;**歷程開始與結束日期**。如果您尚未指定開始日期，則現在會在發佈時自動新增開始日期。針對&#x200B;**讀取對象**&#x200B;歷程，您現在可以新增結束日期。 這可讓設定檔在達到日期時自動退出。 [進一步了解](../building-journeys/journey-gs.md#dates)
+* 改進了&#x200B;**歷程開始與結束日期**。如果您尚未指定開始日期，則現在會在發佈時自動新增開始日期。針對&#x200B;**讀取客群**&#x200B;歷程，您現在可以新增結束日期。 這可讓設定檔在達到日期時自動退出。 [進一步了解](../building-journeys/journey-gs.md#dates)
 
 <!--
 
@@ -998,7 +998,7 @@ Note that each widget can be resized and deleted as needed.
 
 **歷程**
 
-* 在歷程中新增&#x200B;**對象資格**&#x200B;或&#x200B;**讀取對象**&#x200B;時，現已預設為使用上次使用的命名空間預先填入命名空間。 請參閱[對象資格](../building-journeys/audience-qualification-events.md#about-segment-qualification)與[讀取對象](../building-journeys/read-audience.md#configuring-segment-trigger-activity)小節。
+* 在歷程中新增&#x200B;**客群資格**&#x200B;或&#x200B;**讀取客群**&#x200B;時，現已預設為使用上次使用的命名空間預先填入命名空間。 請參閱[客群資格](../building-journeys/audience-qualification-events.md#about-segment-qualification)與[讀取客群](../building-journeys/read-audience.md#configuring-segment-trigger-activity)小節。
 
 * 在歷程畫布中，工具列提供新按鈕，可讓您下載歷程的螢幕擷取畫面。
 

@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # 設定推播通知頻道 {#push-notification-configuration}
 
-[!DNL Journey Optimizer] 可讓您建立歷程並傳送訊息給目標對象。 開始使用[!DNL Journey Optimizer]傳送推播通知之前，您必須確保行動應用程式上以及Adobe Experience Platform中的標籤已具備設定和整合。 若要瞭解 [!DNL Adobe Journey Optimizer] 中的推播通知資料流程，請參閱[此頁面](push-gs.md)。
+[!DNL Journey Optimizer] 可讓您建立歷程並傳送訊息給目標客群。 開始使用[!DNL Journey Optimizer]傳送推播通知之前，您必須確保行動應用程式上以及Adobe Experience Platform中的標籤已具備設定和整合。 若要瞭解 [!DNL Adobe Journey Optimizer] 中的推播通知資料流程，請參閱[此頁面](push-gs.md)。
 
 >[!AVAILABILITY]
 >
