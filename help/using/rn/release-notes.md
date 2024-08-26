@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 57%
+ht-degree: 63%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 57%
 <table>
 <thead>
 <tr>
-<th><strong>已改善通道設定</strong><br/></th>
+<th><strong>改善的頻道設定</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -102,7 +102,7 @@ ht-degree: 57%
 <table>
 <thead>
 <tr>
-<th><strong>Marketo Engage自訂動作</strong><br/></th>
+<th><strong>Marketo Engage 自訂動作</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -119,13 +119,13 @@ ht-degree: 57%
 <table>
 <thead>
 <tr>
-<th><strong>內容片段中的變數</strong><br/></th>
+<th><strong>內容片段變數</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>片段全域變數可增強現有片段功能，以提高內容重複使用性和指令碼使用案例的效率。 片段現在可以使用輸入變數，並建立可用於行銷活動和歷程內容的輸出變數。 片段可以在<a href="../personalization/use-expression-fragments.md">運算式片段</a>和<a href="../email/use-visual-fragments.md">視覺片段</a>中使用輸入變數。 您可以使用這些變數，在行銷活動和歷程中個人化您的訊息內容和引數。</p>
+<p>片段全域變數可增強現有片段功能，以提高內容重複使用性和指令碼使用案例的效率。 片段現在可以使用輸入變數，並建立可用於行銷活動和歷程內容的輸出變數。 片段可以在<a href="../personalization/use-expression-fragments.md">運算式片段</a>和<a href="../email/use-visual-fragments.md">視覺片段</a>中使用輸入變數。 您可以使用這些變數，在行銷活動和歷程個人化您的訊息內容和參數。</p>
 <p>如需詳細資訊，請參閱<a href="../personalization/use-expression-fragments.md">詳細文件</a>。</p>
 </p>
 </td>
@@ -152,7 +152,7 @@ ht-degree: 57%
 
 ### 改進項目 {#8-improvements}
 
-此版本帶來下列改善專案。
+此發行版本隨附下列改進項目。
 
 **歷程**
 

@@ -10,8 +10,8 @@ hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 61%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,13 +32,13 @@ ht-degree: 61%
 <table>
 <thead>
 <tr>
-<th><strong>內容片段中的變數</strong><br/></th>
+<th><strong>內容片段變數</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>片段現在可以在<a href="../personalization/use-expression-fragments.md">運算式片段</a>和<a href="../email/use-visual-fragments.md">視覺片段</a>中使用輸入變數。 您可以使用這些變數，在行銷活動和歷程中個人化您的訊息內容和引數。</p>
+<p>現在可以在<a href="../personalization/use-expression-fragments.md">運算式片段</a>和<a href="../email/use-visual-fragments.md">視覺片段</a>使用片段輸入變數。 您可以使用這些變數，在行銷活動和歷程個人化您的訊息內容和參數。</p>
 </p>
 </td>
 </tr>
@@ -85,13 +85,13 @@ ht-degree: 61%
 **歷程**
 
 * 在&#x200B;**條件**&#x200B;活動中，預設情況下，時間條件現在會依小時設定，從 00:00 到 12:00。 [閱讀全文](../building-journeys/condition-activity.md#time_condition)
-* 建立歷程時，警示現在會顯示在下拉式清單中，以與行銷活動警示保持一致，並提供一致的使用者體驗。 [閱讀全文](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
-* 歷程工具列中的縮放選項已改善：現在可以看到縮放百分比，您現在可以輕鬆將縮放值重設為100%。
+* 當建立歷程時，現在會於下拉式清單顯示提醒，跟行銷活動提醒保持同步，提供一致的使用者體驗。 [閱讀全文](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* 已改善歷程工具列的縮放選項：您現在可以看到縮放百分比，可以輕鬆將縮放值重設為 100%。
 
-**客群**
+**對象**
 
 * 自訂上傳的客群 (CSV 檔案) 現在可與「隱私權與安全防護板」搭配使用。
-* 鎖定自訂上傳（CSV檔案）對象時，您現在可以在行銷活動和歷程中使用檔案中的屬性。 這些屬性可用於個人化編輯器和歷程進階運算式編輯器，以個人化您的訊息。
+* 當鎖定自訂上傳 (CSV 檔案) 對象時，您現在可以在行銷活動和歷程使用檔案屬性。 這些屬性可用於個人化編輯器和歷程進階運算式編輯器來個人化您的訊息。
 
 
 <!--
