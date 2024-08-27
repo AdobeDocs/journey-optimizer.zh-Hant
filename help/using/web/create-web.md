@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '747'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
->title="定義Web設定"
->abstract="網頁設定可比對單一頁面URL或多個頁面，讓您在一或多個網頁上提供內容修改。"
+>title="定義網頁設定"
+>abstract="網頁設定可能會和單頁 URL 或多個頁面相符，可讓您在一或多個網頁間傳遞內容修改。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"

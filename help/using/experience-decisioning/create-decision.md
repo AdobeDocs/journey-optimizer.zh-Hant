@@ -10,7 +10,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
 >title="定義要傳回的項目數量"
->abstract="選取您想要傳回的決定項目數量。例如，如果您選取2，則會針對目前設定顯示最佳的2個合格優惠方案。"
+>abstract="選取您想要傳回的決定項目數量。例如，如果您選取 2，則目前設定將顯示最佳的 2 個符合資格的優惠。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"

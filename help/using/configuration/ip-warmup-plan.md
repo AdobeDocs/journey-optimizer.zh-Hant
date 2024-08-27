@@ -12,7 +12,7 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1669'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -267,13 +267,13 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將收集到&#x200B
 >id="ajo_admin_ip_warmup_upload"
 >title="指定您的 IP 暖身計劃"
 >abstract="在 Excel 範本中填入將成為計劃內容的所有資料，例如 IP 暖身階段以及個人資料的目標數量，然後在此處上傳。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=zh-Hant#prepare-file" text="準備 IP 暖身計畫檔案"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="準備 IP 暖身計畫檔案"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
 >title="選取行銷設定"
->abstract="您必須選取與您要與IP熱身計畫關聯的行銷活動中選取的相同設定。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=zh-Hant" text="設定頻道設定"
+>abstract="您選取的設定，必須是您想要與 IP 暖身計畫建立關聯之行銷活動中選取的相同設定。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=zh-Hant" text="設定管道設定"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=zh-Hant" text="建立 IP 暖身行銷活動"
 
 若要建立IP熱身計畫，請遵循下列步驟。

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 設定頻道設定
+title: 設定管道設定
 description: 瞭解如何設定和監控通道配置
 feature: Surface, Channel Configuration
 topic: Administration
@@ -12,21 +12,21 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
 source-wordcount: '1721'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
-# 設定頻道設定 {#set-up-channel-surfaces}
+# 設定管道設定 {#set-up-channel-surfaces}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
->title="頻道設定"
->abstract="頻道設定是由系統管理員定義的設定。 它包含所有用於傳送訊息的技術參數，如標頭參數、子網域、行動應用程式等等。"
+>title="管道設定"
+>abstract="管道設定是由系統管理員定義的設定。它包含所有用於傳送訊息的技術參數，如標頭參數、子網域、行動應用程式等。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_marketing_action"
 >title="行銷動作"
->abstract="選擇行銷動作，使用此設定將同意原則連結至訊息。 所有與行銷動作連結的同意原則將用於尊重客戶的偏好設定。"
+>abstract="選擇行銷動作可使用此設定將同意原則連結至此訊息。所有與行銷動作連結的同意原則都將用來執行客戶的偏好。"
 
 透過[!DNL Journey Optimizer]，您可以設定頻道設定（即訊息預設集），以定義訊息所需的所有技術引數：電子郵件型別、寄件者電子郵件和名稱、行動應用程式、簡訊設定等等。
 
@@ -48,18 +48,18 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
->title="頻道組態設定"
->abstract="設定頻道設定時，請選取套用至的頻道，並定義傳送所需的所有技術引數，例如電子郵件型別、寄件者名稱、行動應用程式、簡訊設定等。"
+>title="管道設定"
+>abstract="設定管道設定時，請選取它適用的管道，並定義您的傳送所需的所有技術參數，例如電子郵件類型、寄件者姓名、行動應用程式、簡訊設定等。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="頻道組態設定"
->abstract="為了能夠建立動作，例如來自歷程或行銷活動的電子郵件，您必須先建立管道設定，以定義訊息所需的所有技術設定。 您必須具有管理訊息預設集許可權，才能建立、編輯和刪除管道設定。"
+>title="管道設定"
+>abstract="為了能夠建立來自歷程或行銷活動的電子郵件之類的動作，您必須先建立一個管道設定來定義訊息所需的所有技術設定。您必須具有管理訊息預設集權限，才能建立、編輯和刪除管道設定。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"
 >title="選取行銷動作"
->abstract="在設定中選擇行銷動作，以將同意原則與訊息相關聯。"
+>abstract="在設定中選擇行銷動作，以便將內容原則與訊息建立關聯。"
 
 若要建立通道設定，請遵循下列步驟：
 

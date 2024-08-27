@@ -13,7 +13,7 @@ exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
 >title="個人化不可用"
->abstract="此設定是在沒有任何個人化屬性的情況下建立的。 如果需要個人化，請參閱文件以了解解決步驟。"
+>abstract="此設定建立時沒有任何個人化屬性。如果需要個人化，請參閱文件以了解解決步驟。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="啟用動態子網域"
->abstract="建立電子郵件設定時，您可以根據使用個人化編輯器定義的條件來設定動態子網域。 您最多可以新增 50 個動態子網域。"
+>abstract="建立電子郵件設定時，您可以根據使用個人化編輯器定義的條件來設定動態子網域。您最多可以新增 50 個動態子網域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"

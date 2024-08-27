@@ -1,6 +1,6 @@
 ---
 title: Web頻道設定
-description: 建立Web Channel設定
+description: 建立網頁管道設定
 feature: Web Channel, Channel Configuration
 topic: Content Management
 role: Admin
@@ -8,21 +8,21 @@ level: Experienced
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
-# 建立Web Channel設定 {#web-configuration}
+# 建立網頁管道設定 {#web-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_page_rule"
 >title="頁面比對規則"
->abstract="若要有效管理並鎖定共用相同條件的一組URL，請建立頁面比對規則。 此規則可讓您將多個URL整合到一個指引下，以簡化在這些頁面上應用一致設定和動作的程式。"
+>abstract="若要有效管理和定位共用相同準則的 URL 群組，請建立頁面比對規則。此規則可讓您將多個 URL 合併至一個準則下，以便更輕鬆在這些頁面間套用一致的設定和動作。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_url"
->title="預設撰寫和預覽URL"
->abstract="此欄位可確保規則產生或相符的頁面具有指定的URL，這點對於有效建立和預覽內容而言至關重要。"
+>title="預設製作和預覽 URL"
+>abstract="此欄位可確保根據規則產生或符合的頁面具有指定的 URL，這對於有效建立和預覽內容至關重要。"
 
 Web設定是由URL識別的Web屬性，將會傳送內容。 它可以比對單一頁面URL或多個頁面，讓您在一或多個網頁間提供修改內容。
 

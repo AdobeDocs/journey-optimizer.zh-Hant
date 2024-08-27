@@ -49,7 +49,7 @@ ht-degree: 9%
 >id="ajo_code_based_experience"
 >title="使用個人化編輯器"
 >abstract="插入並編輯您想要作為此基於程式碼之體驗動作的一部分的程式碼。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=zh-Hant" text="開始使用個人化編輯器"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="開始使用個人化編輯器"
 
 1. 在行銷活動版本畫面中，選取&#x200B;**[!UICONTROL 編輯代碼]**。
 

@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '2530'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="定義電子郵件類型"
->abstract="選取使用此設定時將傳送的電子郵件型別：行銷適用於促銷電子郵件（需要使用者同意），或交易適用於非商業電子郵件（也可在特定內容中傳送至已取消訂閱的設定檔）。"
+>abstract="選取使用此設定時將傳送的電子郵件類型：促銷用電子郵件的行銷型 (需要使用者同意)，或非商業電子郵件的交易型 (還可以傳送至特定內容中取消訂閱的設定檔)。"
 
 在&#x200B;**電子郵件型別**&#x200B;區段中，選取設定的訊息型別： **[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]**。
 
@@ -239,7 +239,7 @@ List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱
 >id="ajo_surface_seed_list"
 >title="新增種子清單"
 >abstract="選取您所選的種子清單，以自動向您的客群新增特定的內部地址。這些種子地址將在傳遞執行時包含在內，且為了保證目的將收到一份準確的訊息副本。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hant#use-seed-list" text="什麼是種子清單?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單?"
 
 [!DNL Journey Optimizer]中的種子清單可讓您在傳遞中自動包含特定的電子郵件種子地址。 [了解更多](../configuration/seed-lists.md)
 
@@ -265,7 +265,7 @@ List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱
 >id="ajo_admin_presets_retryperiod"
 >title="調整重試時段"
 >abstract="當電子郵件由於暫時性的軟退信錯誤而傳遞失敗時，將重試 3.5 天 (84 小時)。您可以調整此預設的重試時段以進一步滿足您的需求。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=zh-Hant" text="關於重試"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="關於重試"
 
 您可以設定&#x200B;**電子郵件重試引數**。
 

@@ -9,7 +9,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="確認要編輯的 URL"
->abstract="確認特定網頁的URL，以用來編輯將套用至上述定義之網頁組態的內容。 必須使用此 Adobe Experience Platform Web SDK 實施此網頁。"
+>abstract="確認特定網頁的 URL，以用於編輯套用到上方定義之網頁設定的內容。必須使用此 Adobe Experience Platform Web SDK 實施此網頁。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="了解更多"
 
 >[!CONTEXTUALHELP]
@@ -152,7 +152,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="使用瀏覽模式"
->abstract="在此模式中，您可以瀏覽至要個人化的所選設定的確切頁面。"
+>abstract="在此模式下，您可以從要個人化的選取設定導覽至確切的頁面。"
 
 您可以使用專用按鈕，將預設&#x200B;**[!UICONTROL 設計]**&#x200B;模式切換至&#x200B;**[!UICONTROL 瀏覽]**&#x200B;模式。
 

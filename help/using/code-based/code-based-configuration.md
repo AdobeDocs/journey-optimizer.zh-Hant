@@ -8,31 +8,31 @@ level: Experienced
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '899'
-ht-degree: 39%
+ht-degree: 55%
 
 ---
 
-# 設定您的程式碼型體驗 {#code-based-configuration}
+# 設定您基於程式碼的體驗 {#code-based-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
 >title="應用程式 ID"
->abstract="提供應用程式ID，在應用程式的作業環境中用於準確識別和設定，確保緊密整合和功能。"
+>abstract="提供應用程式 ID，以便在應用程式的操作環境中進行準確的識別和設定，確保緊密整合和功能。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
 >title="頁面上的位置"
->abstract="應用程式欄位內的位置或路徑，可指定您想讓使用者存取的應用程式內的確切目的地。 這可能是應用程式導覽結構中的特定區段或頁面。"
+>abstract="應用程式欄位內的位置或路徑會指定您希望使用者存取應用程式內的確切目標。這可能是應用程式導覽結構深處的特定區段或頁面。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
 >title="表面 URI"
->abstract="表面URI可做為指向應用程式中不同使用者介面元素或元件的精確識別碼。"
+>abstract="表面 URI 是作為精確的識別碼使用，會指向應用程式內的不同使用者介面元素或元件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
->title="預設撰寫和預覽URL"
->abstract="此欄位可確保規則產生或相符的頁面具有指定的URL，這點對於有效建立和預覽內容而言至關重要。"
+>title="預設製作和預覽 URL"
+>abstract="此欄位可確保根據規則產生或符合的頁面具有指定的 URL，這對於有效建立和預覽內容至關重要。"
 
 ## 建立管道設定 {#reatte-code-based-configuration}
 
@@ -87,8 +87,8 @@ ht-degree: 39%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"
->title="定義程式碼型體驗設定"
->abstract="程式碼型設定會定義應用程式內的路徑和位置，並以應用程式實作中的URI唯一識別，以便傳遞和使用內容。"
+>title="定義以程式碼為主的體驗設定"
+>abstract="以程式碼為主的設定會定義您應用程式中的路徑和位置，由應用程式實作中的 URI 唯一識別，且內容將在其中傳遞和使用。"
 
 **程式碼型體驗介面**&#x200B;是任何專為使用者或系統互動而設計的實體，可由URI唯一識別。 介面會在應用程式實作中指定，且應該與程式碼型體驗通道設定中的介面相對應。
 

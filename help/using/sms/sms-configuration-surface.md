@@ -10,17 +10,17 @@ exl-id: 0d541520-016e-468f-b011-808712847556
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
-# 建立簡訊/多媒體簡訊設定 {#message-preset-sms}
+# 建立 SMS/MMS 設定 {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
->title="定義訊息類別。"
->abstract="使用此設定選取文字訊息型別：行銷適用於促銷訊息（需要使用者同意），或交易適用於非商業訊息（例如重設密碼）。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hant#sms-opt-out-management" text="選擇不接收行銷文字簡訊"
+>title="定義訊息類別"
+>abstract="選取使用此設定的文字簡訊類型：需要使用者同意之促銷簡訊的行銷型訊息，或非商業簡訊的交易型訊息，例如密碼重設。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="選擇不接收行銷文字簡訊"
 
 設定您的SMS/MMS頻道後，您必須建立頻道設定，才能從&#x200B;**[!DNL Journey Optimizer]**&#x200B;傳送SMS和MMS訊息。
 
