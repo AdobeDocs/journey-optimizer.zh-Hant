@@ -10,10 +10,10 @@ level: Experienced
 keywords: 管道，表面，技術，引數，最佳化工具
 hide: true
 hidefromtoc: true
-source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 3%
+source-wordcount: '958'
+ht-degree: 2%
 
 ---
 
@@ -29,23 +29,6 @@ ht-degree: 3%
 此iOS設定可簡化行銷管道的快速設定，讓所有基本資源都能隨時在Experience Platform、Journey Optimizer和資料收集應用程式中使用。 這可讓您的行銷團隊快速開始建立行銷活動和歷程。
 
 ## 建立新的iOS設定 {#new-setup-ios}
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_add"
->title="新增相依性"
->abstract="在Xcode中，新增保證套件以檢查、證明、模擬和驗證應用程式中的資料收集和體驗。 此外，新增AEP傳訊功能，以傳送推播通知權杖和點進意見回饋至Adobe Experience Platform。"
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks#swift-package-manager" text="請參閱資料收集檔案"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_initialization_code"
->title="新增初始化程式碼"
->abstract="若要正確初始化您的應用程式，請將提供的初始化程式碼插入AppDelegate檔案的&#x200B;**didFinishLaunchingWithOptions**&#x200B;方法。 這可確保在應用程式啟動程式期間在適當的時間執行。"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_import"
->title="匯入相依性"
->abstract="在應用程式的&#x200B;**AppDelegate**&#x200B;類別中，匯入下列相依性：AEPCore、AEPAssurance、AEPEdge、AEPEdgeIdentity和AEPMessaging。"
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks#import-extensions" text="請參閱資料收集檔案"
 
 1. 從Journey Optimizer首頁，從&#x200B;**[!UICONTROL 設定行動與網路頻道]**&#x200B;卡片按一下&#x200B;**[!UICONTROL 開始]**。
 
