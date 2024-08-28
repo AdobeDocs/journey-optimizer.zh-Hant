@@ -10,9 +10,9 @@ level: Experienced
 keywords: 管道，表面，技術，引數，最佳化工具
 hide: true
 hidefromtoc: true
-source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
+source-git-commit: 7a1f337e2bc257d8f0fa9bda17abdaff92a86de5
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '481'
 ht-degree: 11%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="Javascript 程式碼"
->abstract="此 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> 標籤包含在網頁主要內容之前載入的基本中繼資料和資源。 將程式碼放置在此區段可確保程式碼已正確初始化並及早執行，讓您的網頁有效率地載入及運作。 將程式碼新增至 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> 區段，您可以協助增強網站的結構、效能和整體使用者體驗。"
+>abstract="head標籤包含在網頁主要內容之前載入的基本中繼資料和資源。 將程式碼放置在此區段可確保程式碼已正確初始化並及早執行，讓您的網頁有效率地載入及運作。 將程式碼新增至標題區段，有助於增強網站的結構、效能和整體使用者體驗。"
 
 此設定有助快速設定行銷頻道，確保隨時在都能在 Experience Platform、Journey Optimizer 資料收集取得所有必要資源。 這可讓您的行銷團隊立即開始行銷活動和歷程的建立。
 
