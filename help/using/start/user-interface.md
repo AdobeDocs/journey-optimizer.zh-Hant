@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 1c34c916843600d8602c5c1fe7164aebc83becd9
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1376'
 ht-degree: 98%
 
 ---
@@ -194,3 +194,14 @@ ht-degree: 98%
 * 選擇您偏好的語言，然後按一下 **「儲存」**。若您使用的元件未當地化為您的母語，您可選取第二種語言。
   ![](assets/select-language.png)
 
+<!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_priority"
+>title="優先順序"
+>abstract="為歷程指派優先順序分數，範圍從 0 到 100。 數字越高表示優先順序越高。 當兩個歷程使用相同表面時，Journey Optimizer 會選取優先順序分數最高的歷程。 如果歷程分數相同，則會選擇最近修改的歷程。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_priority"
+>title="優先順序"
+>abstract="為行銷活動指派優先順序分數，範圍從 0 到 100。 數字越高表示優先順序越高。 當兩個行銷活動使用相同的表面時，Journey Optimizer 會選取優先順序分數最高的行銷活動。 如果行銷活動具有相同的分數，將會選擇最近修改的行銷活動。"
