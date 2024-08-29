@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 377f75a67f3a392957cefb7b2ba9347c364c11a1
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 63%
+source-wordcount: '665'
+ht-degree: 59%
 
 ---
 
@@ -177,3 +177,11 @@ ht-degree: 63%
 * 目前的報告體驗將於10月發行後淘汰。 在此日期之後，新的報告體驗將成為標準。 建議您熟悉新功能，以確保順利轉換。
 
 [開始使用Journey Optimizer新的報表介面](../reports/report-gs-cja.md)
+
+* 新的使用案例已新增至新的報告體驗：
+
+   * 直接在您的報表中建立自訂計算量度。
+   * 從報表資料建立對象。
+   * 使用探索分析工具，從您選取的&#x200B;**[!UICONTROL Dimension]**&#x200B;和&#x200B;**[!UICONTROL 量度]**&#x200B;輕鬆建立表格和視覺效果。
+
+  如需詳細資訊，請參閱[詳細文件](../reports/report-cja-manage.md)。
