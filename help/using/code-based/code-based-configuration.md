@@ -5,10 +5,10 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 55%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,6 +33,16 @@ ht-degree: 55%
 >id="ajo_admin_default_mobile_url"
 >title="預設製作和預覽 URL"
 >abstract="此欄位可確保根據規則產生或符合的頁面具有指定的 URL，這對於有效建立和預覽內容至關重要。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_web_url"
+>title="預設製作和預覽 URL"
+>abstract="此欄位可確保根據規則產生或符合的頁面具有指定的 URL，這對於有效建立和預覽內容至關重要。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_mobile_url_preview"
+>title="預覽URL"
+>abstract="若要直接在應用程式的裝置上啟用內容的模擬和預覽，此欄位至關重要。"
 
 ## 建立管道設定 {#reatte-code-based-configuration}
 
@@ -68,6 +78,8 @@ ht-degree: 55%
 
    * 輸入您的&#x200B;**[!UICONTROL 應用程式ID]**&#x200B;和&#x200B;**[!UICONTROL 應用程式]**&#x200B;內的位置或路徑。
 
+     ![](assets/code_config_3.png)
+
 1. 如果您的實作不適用於Web、iOS或Android，或您需要鎖定特定URI，請選取「其他」作為平台。 選擇多個平台或新增多個URI時，內容將會傳送至所有選取的頁面或應用程式。
 
    * 輸入&#x200B;**[!UICONTROL 表面URI]**。
@@ -75,6 +87,35 @@ ht-degree: 55%
    >[!CAUTION]
    >
    >請確定您的程式碼型行銷活動中使用的表面URI與您自己的實施中使用的表面URI相符。 否則，將不會傳送變更。
+
+1. 填寫&#x200B;**[!UICONTROL 預覽URL]**&#x200B;欄位以啟用裝置上預覽。 此URL會通知預覽服務在觸發預覽時要使用的特定URL。
+
+   * 針對Web：
+
+      * 如果輸入單一頁面URL，該URL將用於預覽。
+      * 如果選取了頁面比對規則，您必須輸入預設預覽URL，此URL將用於預覽瀏覽器中的體驗。
+
+   * 針對行動平台(iOS / Android)：
+
+      * 預覽URL是應用程式開發人員在您的應用程式中設定的深層連結。 這可確保任何符合深層連結配置的URL都將在應用程式中開啟，而不是在行動網頁瀏覽器中開啟。 請連絡您的應用程式開發人員，取得為您的應用程式設定的深層連結配置。
+
++++  下列資源可協助您為應用程式實作設定深層連結
+
+      * 若為Android：
+
+         * [建立應用程式內容的深度連結](https://developer.android.com/training/app-links/deep-linking)
+
+      * 若為iOS：
+
+         * [定義您的應用程式的自訂 URL 綱要](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
+
+         * [支援您的應用程式中的通用連結](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
+
++++
+
+   >[!NOTE]
+   >
+   >如果您在預覽體驗時遇到問題，請參閱[本檔案](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)。
 
 1. 選擇應用程式在該特定位置所預期的格式。 這將用於編寫行銷活動和歷程中的程式碼型體驗。
 

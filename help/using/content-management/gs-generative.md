@@ -11,10 +11,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
+source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 * 上傳的品牌資產最大為 50MB。較大的檔案或大量影像可以處理，但處理時間會增加。
 * 最好使用 Adobe Campaign 創作的電子郵件範本 (最好是[內建電子郵件範本](../email/use-email-templates.md)、品牌特定範本或自訂範本) 來建立電子郵件內容。 建議電子郵件範本最多包含 8-10 張影像。
 * 選擇變體時，請確保使用向上、向下或標記圖示報告任何有問題的輸出。
-* 您對 AI 助理的使用必須遵守 Adobe Experience Cloud Generative AI 使用者指南。 [了解更多](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
+* 您對 AI 助理的使用必須遵守 Adobe Experience Cloud Generative AI 使用者指南。 [了解更多](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 
 以下限制適用於 Journey Optimizer 的 AI Assistant：
 
