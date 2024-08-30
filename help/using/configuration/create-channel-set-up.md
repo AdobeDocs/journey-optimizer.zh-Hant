@@ -10,9 +10,9 @@ level: Experienced
 keywords: 管道，表面，技術，引數，最佳化工具
 hide: true
 hidefromtoc: true
-source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
+source-git-commit: d7a1384ee83f81060333ca02c97b1db67427fbe5
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '646'
 ht-degree: 39%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="Javascript 程式碼"
->abstract="此 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> 標籤包含在網頁主要內容之前載入的基本中繼資料和資源。 將程式碼放置在此區段中可確保其正確初始化並儘早執行，使您的網頁以有效率的方式載入和運作。將程式碼新增至 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> 區段，您可以協助增強網站的結構、效能和整體使用者體驗。"
+>abstract="head標籤包含在網頁主要內容之前載入的基本中繼資料和資源。 將程式碼放置在此區段中可確保其正確初始化並儘早執行，使您的網頁以有效率的方式載入和運作。將程式碼新增至標題區段，有助於增強網站的結構、效能和整體使用者體驗。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
