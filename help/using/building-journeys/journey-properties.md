@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
+source-git-commit: c15894e0d474fbf3a8aa789632719b2c4c8d9612
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 17%
@@ -24,8 +24,8 @@ ht-degree: 17%
 >abstract="本區段會顯示歷程屬性。預設情況下，會隱藏唯讀參數。可用設定會依據歷程的狀態、您的權限和產品設定而定。"
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_exit_criterias"
->title="歷程結束條件"
+>id="ajo_journey_exit_criteria"
+>title="歷程退出條件"
 >abstract="本區段顯示結束條件選項。您可以為您的歷程建立一個或多個結束條件規則。"
 
 
