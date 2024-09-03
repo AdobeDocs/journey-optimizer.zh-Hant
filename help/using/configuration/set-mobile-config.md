@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 管道，表面，技術，引數，最佳化工具
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 0144809646e9e3b57089820290723ed7f9ed0acc
+source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 17%
@@ -48,6 +48,7 @@ ht-degree: 17%
    * 行動推送訊息
 
    * Web Basic
+
 
 請注意，您想要設定的每個平台都需要建立個別的設定。 這是因為每個應用程式都需要獨特的管道設定，這樣就能靈活地決定您想要用於每個平台的管道。
 

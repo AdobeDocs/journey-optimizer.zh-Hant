@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 管道，表面，技術，引數，最佳化工具
-source-git-commit: 0144809646e9e3b57089820290723ed7f9ed0acc
+source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 39%
@@ -51,6 +51,7 @@ ht-degree: 39%
 >id="ajo_mobile_web_setup_push_team_id"
 >title="團隊 ID"
 >abstract="團隊 ID 是用來識別您的團隊的字串值，位於您開發人員帳戶中的「**會籍**」索引標籤下方。"
+
 
 此設定可簡化行銷管道的快速設定，讓所有基本資源都能隨時在Experience Platform、Journey Optimizer和資料收集應用程式中使用。 這可讓您的行銷團隊快速開始建立行銷活動和歷程。
 
