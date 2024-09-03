@@ -8,9 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 管道，表面，技術，引數，最佳化工具
-hide: true
-hidefromtoc: true
-source-git-commit: d7a1384ee83f81060333ca02c97b1db67427fbe5
+source-git-commit: 549efb9e12dccedb27335553194e09deab09a35f
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 39%
