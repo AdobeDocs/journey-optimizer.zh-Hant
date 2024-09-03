@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1c34c916843600d8602c5c1fe7164aebc83becd9
+source-git-commit: 762fa346d9303865f1509bfc9c2e9cb3528227e4
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 98%
+source-wordcount: '1412'
+ht-degree: 96%
 
 ---
 
@@ -196,6 +196,8 @@ ht-degree: 98%
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
+<!--PRIORITIZATION & CONFLICT MANAGEMENT-->
+
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="優先順序"
@@ -205,3 +207,33 @@ ht-degree: 98%
 >id="ajo_campaigns_campaign_priority"
 >title="優先順序"
 >abstract="為行銷活動指派優先順序分數，範圍從 0 到 100。 數字越高表示優先順序越高。 當兩個行銷活動使用相同的表面時，Journey Optimizer 會選取優先順序分數最高的行銷活動。 如果行銷活動具有相同的分數，將會選擇最近修改的行銷活動。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_conflict"
+>title="行銷活動中的衝突檢視器"
+>abstract="行銷活動中的衝突檢視器"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_conflict"
+>title="在歷程中設定檢視器"
+>abstract="在歷程中設定檢視器"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_object_type"
+>title="物件類型"
+>abstract="物件類型"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_rule_set"
+>title="套用規則集至歷程"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_rule_set"
+>title="套用規則集至行銷活動"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_prioritization"
+>title="優先順序中的因素"
+>abstract="待定"
