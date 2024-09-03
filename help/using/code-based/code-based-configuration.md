@@ -5,7 +5,8 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
+exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
+source-git-commit: a025a269353d7451ff0426895688f62211768383
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 48%
@@ -78,7 +79,7 @@ ht-degree: 48%
 
    * 輸入您的&#x200B;**[!UICONTROL 應用程式ID]**&#x200B;和&#x200B;**[!UICONTROL 應用程式]**&#x200B;內的位置或路徑。
 
-     ![](assets/code_config_3.png)
+     ![](assets/code_config_3.png){width="500"}
 
 1. 如果您的實作不適用於Web、iOS或Android，或您需要鎖定特定URI，請選取「其他」作為平台。 選擇多個平台或新增多個URI時，內容將會傳送至所有選取的頁面或應用程式。
 
@@ -174,4 +175,3 @@ ht-degree: 48%
 | --------- | ----------- | ------- | 
 | 萬用字元網頁 | `wildcard:web://domain.com/*#element` | 萬用字元表面 - 代表特定網域下每個頁面中的個別元素。 |
 | 萬用字元網頁 | `wildcard:web://*domain.com/*#element` | 萬用字元表面 - 代表所有以「domain.com」結尾的網域下每個頁面中的個別元素。 |
-
