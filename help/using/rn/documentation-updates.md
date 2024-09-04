@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5454'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -205,7 +205,7 @@ ht-degree: 99%
 * 已新增備註，以指定如果對歷程訊息中使用的優惠決定進行變更，您需要取消發佈歷程並重新發佈。[閱讀全文](../building-journeys/publishing-the-journey.md)
 * 已在決策管理&#x200B;**限定事件**&#x200B;區段中，釐清如何確保在限定計數器中正確記錄事件的說明。[閱讀全文](../offers/offer-library/add-constraints.md#capping-event)
 * 已將新區段新增至&#x200B;**變更執行地址**&#x200B;頁面。其指定可以覆寫歷程進階參數中全域設定的執行欄位，但電子郵件地址覆寫僅用於特定使用案例。在大部分時間中，**執行欄位**&#x200B;中定義為主要電子郵件的值才是應該使用的值。[閱讀全文](../configuration/primary-email-addresses.md#journey-parameters)
-* **URL追蹤**&#x200B;區段現在提供所有內容屬性的清單和說明，這些內容屬性可以在電子郵件通道設定中設定為URL追蹤。 [閱讀全文](../email/email-settings.md#url-tracking)
+* 此 **URL 追蹤**&#x200B;區段現在提供所有內容屬性的清單和說明，您可以在電子郵件管道設定中，為 URL 追蹤設定這些屬性。[閱讀全文](../email/email-settings.md#url-tracking)
 
 ## 2023 年 3 月 {#march-2023}
 
@@ -296,7 +296,7 @@ ht-degree: 99%
 ## 2022 年 7 月 {#july-2022}
 
 * 針對 [!DNL Journey Optimizer]2022 年 7 月發行版本的新功能及改進項目，請參閱本文件以獲得所有詳細資料。 [閱讀全文](release-notes.md)
-* 已澄清&#x200B;**設定頻道設定**&#x200B;區段，並已更新連結頁面，說明如何設定SMS頻道。 [閱讀全文](../configuration/channel-surfaces.md#create-channel-surface)
+* 已澄清&#x200B;**設定管道設定**&#x200B;部分，並已更新連結頁面，說明如何設定簡訊管道。[閱讀全文](../configuration/channel-surfaces.md#create-channel-surface)
 * 歷程屬性的&#x200B;**個人資料時區**&#x200B;選項現在預設為停用。 [閱讀全文](../building-journeys/timezone-management.md#timezone-from-profiles)
 * **等待**&#x200B;活動的&#x200B;**固定日期**&#x200B;選項不再提供。 [閱讀全文](../building-journeys/wait-activity.md)
 * 已在&#x200B;**讀取客群**&#x200B;活動中新增&#x200B;**增量讀取**&#x200B;選項的詳細資訊。 [閱讀全文](../building-journeys/read-audience.md#configuring-segment-trigger-activity)

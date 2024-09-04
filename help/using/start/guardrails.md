@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2295'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -45,9 +45,9 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 訊息回饋同步目前不適用於 MMS。
 * 同意管理在 MMS 的 SMS 通道層級運作。
 
-### Web channel護欄 {#web-guardrails}
+### 網頁管道護欄 {#web-guardrails}
 
-[!DNL Journey Optimizer]個網站行銷活動會鎖定其他頻道上之前未參與的新設定檔。 這會增加您的可參與設定檔總數，如果您購買的可參與設定檔數量超過合約數量，可能會影響成本。 每個套件的授權量度都列在[Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。
+[!DNL Journey Optimizer] 網路行銷活動會選擇以其他管道上不曾有過互動的新設定檔為目標。這樣做會增加可互動設定檔總數，如果其超過您購買的可互動設定檔合約數量，可能會影響成本。 各個套件的授權量度都列在 [Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。
 
 
 ## 子網域護欄 {#subdomain-guardrails}

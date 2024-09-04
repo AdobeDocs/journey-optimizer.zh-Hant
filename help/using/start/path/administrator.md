@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '707'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 93%
 
 首次存取 [!DNL Journey Optimizer] 系統時，會佈建生產沙箱，並根據您的合約分配特定數量的 IP。
 
-若要建立您的歷程並傳送訊息，請存取&#x200B;**系統管理**&#x200B;功能表。 瀏覽&#x200B;**[!UICONTROL 管道]**&#x200B;功能表來設定訊息和管道設定（即訊息預設集）。
+若要建立您的歷程並傳送訊息，請存取&#x200B;**系統管理**&#x200B;功能表。 瀏覽&#x200B;**[!UICONTROL 管道]**&#x200B;功能表來設定訊息和管道設定 (即訊息預設集)。
 
 >[!NOTE]
 >作為&#x200B;**系統管理員**，如果您在 [!DNL Journey Optimizer] 中看不到&#x200B;**[!UICONTROL 管道]**&#x200B;功能表，請在 [Admin Console](https://adminconsole.adobe.com/){target="_blank"} 中更新您的權限。在[本頁](../../administration/permissions.md#edit-product-profile)了解如何更新您的產品設定檔。
@@ -50,11 +50,11 @@ ht-degree: 93%
 
 請遵循以下步驟：
 
-1. **設定訊息和頻道**：定義設定、調整和自訂電子郵件、簡訊和推播訊息設定
+1. **設定訊息和管道**：定義設定、調整和自訂電子郵件、簡訊和推播訊息設定
 
    * 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch] 中定義&#x200B;**推播通知設定**[了解更多](../../push/push-gs.md)
 
-   * 建立&#x200B;**通道設定** （即訊息預設集），以設定電子郵件、簡訊和推播通知所需的所有技術引數。 [了解更多](../../configuration/channel-surfaces.md)
+   * 建立&#x200B;**管道設定** (即訊息預設集)，以設定電子郵件、簡訊和推播通知所需的所有技術參數。[了解更多](../../configuration/channel-surfaces.md)
 
    * 設定 **SMS 通道**&#x200B;來設定簡訊所需的所有技術參數。 [了解更多](../../sms/sms-configuration.md)
 

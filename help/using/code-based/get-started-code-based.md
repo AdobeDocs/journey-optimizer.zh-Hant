@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -94,8 +94,8 @@ ht-degree: 82%
 **程式碼型體驗**
 
 * 使用[個人化編輯器](create-code-based.md#edit-code)，編輯您的內容。
-* 程式碼型體驗需要您實作之前的開發工作，以確保您的應用程式可以解譯並傳遞[!DNL Journey Optimizer]針對這些位置發佈在邊緣的內容。 [了解更多](code-based-configuration.md#surface-definition)
-* 它需要更多規劃，而且只能變更開發人員指定的內容。 因此，務必要識別介面上需要修改以進行個人化或測試的元件 (首頁橫幅、主圖影像、功能表列等)。，然後與您的開發團隊合作，建置處理這些變更所需的實作。
+* 程式碼型體驗需要先在實施中的進行開發工作，以確保您的應用程式可以通過 [!DNL Journey Optimizer] 來解譯和傳遞為這些位置在邊緣上發佈的內容。[了解更多](code-based-configuration.md#surface-definition)
+* 它需要更多規劃，而且只能變更開發人員指定的內容。 因此，務必要識別介面上需要修改以進行個人化或測試的元件 (首頁橫幅、主圖影像、功能表列等)。然後與開發團隊合作，建置處理這些變更所需的實施。
 * 它可讓您使用 JSON 程式碼內容。
 * 專注於開發人員角色。
 
@@ -109,12 +109,12 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->目前與設定相關聯的內容只能是HTML或JSON。<!--WILL COME LATER: text, image or another format depending on the application-->
+>目前與設定相關聯的內容只能是 HTML 或 JSON。<!--WILL COME LATER: text, image or another format depending on the application-->
 
 實作程式碼型行銷活動的重要步驟如下。
 
-1. 在您的應用程式實作中定義[介面](code-based-configuration.md#surface-definition)，這基本上是您要新增程式碼型體驗的位置，然後建立參考該位置的程式碼型體驗通道設定，然後使用此設定在[!DNL Journey Optimizer]中建立行銷活動。 [了解作法](create-code-based.md#create-code-based-campaign)
+1. 定義應用程式實作中的[表面](code-based-configuration.md#surface-definition)，其基本上是您要新增基於程式碼之體驗的位置，接著建立參考該位置且基於程式碼的體驗管道設定，然後使用此設定在 [!DNL Journey Optimizer] 中建立行銷活動。 [了解作法](create-code-based.md#create-code-based-campaign)
 
-1. 使用[!DNL Journey Optimizer]個人化編輯器為選取的組態指定內容來撰寫體驗。 [了解作法](create-code-based.md#edit-code)
+1. 使用 [!DNL Journey Optimizer] 個人化編輯器，為所選設定指定內容來編寫體驗。 [了解作法](create-code-based.md#edit-code)
 
 1. 應用程式實施團隊會發出明確 API 或 SDK 呼叫，為已命名的表面擷取內容，例如「橫幅文字」或「建議匣 1」，或應用程式中與 UI 無關的決策點，例如「搜尋演算法參數」。 在此情況下，實作團隊負責轉譯或解譯傳回的內容並採取行動。<!--TBC with Robert - should link to a new section with API/SDK call samples-->

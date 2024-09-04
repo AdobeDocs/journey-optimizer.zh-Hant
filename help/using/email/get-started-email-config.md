@@ -10,9 +10,9 @@ topic: Administration
 keywords: 電子郵件、設定、表面、子網域
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -28,14 +28,14 @@ ht-degree: 79%
 
    ![](../configuration/assets/ip-pool-create.png)
 
-1. 建立頻道設定並選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;頻道。 [了解更多](../configuration/channel-surfaces.md)
+1. 建立管道設定，然後選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;管道。[了解更多](../configuration/channel-surfaces.md)
 
 
    ![](../configuration/assets/preset-general.png)
 
-1. 在每個電子郵件通道設定中，設定傳遞電子郵件所需的所有技術引數。 [了解更多](email-settings.md)
+1. 在每個電子郵件管道設定，設定傳送電子郵件所需的所有技術參數。[了解更多](email-settings.md)
 
-   * 您可以在此處選取要用於傳送電子郵件的子網域，以及要與設定建立關聯的IP集區。 [了解更多](email-settings.md#subdomains-and-ip-pools)
+   * 可在此處選取要用於傳送電子郵件的子網域，以及要與設定關聯的 IP 集區。[了解更多](email-settings.md#subdomains-and-ip-pools)
 
    ![](assets/surface-subdomain-ip-pool.png)
 

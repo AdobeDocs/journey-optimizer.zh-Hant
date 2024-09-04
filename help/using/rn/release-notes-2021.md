@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2035'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -285,7 +285,7 @@ ht-degree: 98%
 **電子郵件設定**
 
 * **允許清單** - 您現在可以透過 API 呼叫，在非生產沙箱上啟用和停用允許清單。 [進一步了解](../configuration/allow-list.md#enable-allow-list)
-* **導覽** — 隱藏清單（可在&#x200B;**管理>管道>電子郵件設定>一般**&#x200B;功能表下存取）已移至新的&#x200B;**隱藏清單**&#x200B;子功能表，收集所有相關功能以便更輕鬆存取。 [進一步了解](../configuration/manage-suppression-list.md#access-suppression-list)
+* **導覽** - 可在&#x200B;**管理 > 管道 > 電子郵件設定 > 一般**&#x200B;功能表中存取的禁止名單，已移至新的&#x200B;**禁止名單**&#x200B;子功能表，收集所有相關功能以便更輕鬆存取。[進一步了解](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **決定管理**
 
