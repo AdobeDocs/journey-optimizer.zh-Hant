@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="限量開放使用" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 3098b63ef643da63a205f539ac48f902e823bbd1
+source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '889'
 ht-degree: 1%
 
 ---
@@ -140,6 +140,10 @@ d. Open the report for the journey that you added the metric to and ensure that 
 -->
 
 ## 從報表資料建立對象 {#create-audience}
+
+>[!IMPORTANT]
+>
+>每個組織僅限發佈25個對象。 此外，使用者每小時最多可發佈5個對象，每天最多可發佈20個
 
 您現在可以選取表格中的特定資料，並從這些選取專案直接建立對象，以精簡及簡化對象建立流程。
 

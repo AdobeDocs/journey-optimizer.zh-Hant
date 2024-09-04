@@ -5,10 +5,11 @@ feature: Web Channel, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
+source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -81,15 +82,46 @@ Web設定是由URL識別的Web屬性，將會傳送內容。 它可以比對單�
 
 * **路徑**
 
-  | | | |
-  |-|-|-|
-  | 運運算元  | 說明  | 範例  |
-  | 等於  | 路徑的確切相符專案。  |    |
-  | 開頭為  | 比對以輸入字串開頭的所有路徑（包括子路徑）。  |    |
-  | 結尾為  | 比對以輸入字串結尾的所有路徑（包括子路徑）。  |    |
-  | 任何  | 比對所有路徑 — 當鎖定一個或多個網域下的所有路徑時，這個用法很有用。  |    |
-  | 萬用字元比對  | 「萬用字元符合」運運算元可讓使用者在路徑中定義內部萬用字元，例如&quot;/products/*/detail&quot;。  路徑**元件中的萬用字元*會比對任何字元順序，直到遇到第一個/字元為止。  /*/符合任何字元順序（包括子路徑）  | 例如：「萬用字元符合： /products/*/detail」，符合所有路徑，例如：  example.com/products/yoga/detail  example.com/products/surf/detail  example.com/products/tennis/detail  example.com/products/yoga/pants/detail   例如：「符合： /prod*/detail，符合所有路徑，例如：  example.com/products/detail  example.com/production/detail   不符合如下的路徑：  example.com/products/yoga/detail  |
-  | 包含  | &quot;contains&quot;會轉譯為&quot;mystring&quot;之類的萬用字元，並比對包含此字元序列的所有路徑。  | 例如：「包含：product」，會比對包含字串產品的所有路徑，例如：example.com/products、example.com/yoga/perfproduct、example.com/surf/productdescription、example.com/home/product/page  |
-
+<table>
+    <thead>
+    <tr>
+        <th><strong>運算子</th>
+        <th><strong>說明</th>
+        <th><strong>範例</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>等於</td>
+        <td>路徑的確切相符專案。 </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>開頭為</td>
+        <td>比對以輸入字串開頭的所有路徑（包括子路徑）。</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>結尾為</td>
+        <td>比對以輸入字串結尾的所有路徑（包括子路徑）。</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>任何</td>
+        <td>比對所有路徑 — 當鎖定一個或多個網域下的所有路徑時，這個用法很有用。</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>萬用字元比對</td>
+        <td>「萬用字元符合」運運算元可讓使用者在路徑內定義內部萬用字元，例如"/products/*/detail"。  路徑**元件中的萬用字元*會比對任何字元順序，直到遇到第一個/字元為止。  /*/符合任何字元順序（包括子路徑）</td>
+        <td>例如：「萬用字元符合：/products/*/detail」，符合所有路徑，例如： <ul>example.com/products/yoga/detail</ul><ul>example.com/products/surf/detail</ul><ul>example.com/products/tennis/detail</ul><ul>example.com/products/yoga/pants/detail</ul>例如：「符合： /prod*/detail，符合所有路徑，例如：  <ul>example.com/products/detail</ul><ul>example.com/production/detail</ul>  不符合如下的路徑： <ul>example.com/products/yoga/detail</ul></td>
+    </tr>
+    <tr>
+        <td>包含</td>
+        <td>"contains"會轉譯為"mystring"之類的萬用字元，並比對包含此字元序列的所有路徑。</td>
+        <td>例如：「包含：產品」，符合包含字串產品的所有路徑，例如： <ul>example.com/products</ul><ul>example.com/yoga/perfproduct</ul><ul>example.com/surf/productdescription</ul><ul>example.com/home/product/page</ul></td>
+    </tr>
+    </tbody>
+</table>
 
 如果您的使用案例無法使用單一規則建模，那麼您可以選擇新增多個頁面規則，並且您可以在它們之間使用「Or」或「Exclude」運運算元。 當符合所定義規則的其中一個頁面不應作為目標時，「排除」會很有用：例如，包含「product」的所有「example.com」頁面，排除下列頁面： `https://example.com/blogs/productinfo`。
