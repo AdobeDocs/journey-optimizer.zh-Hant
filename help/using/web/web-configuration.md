@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
+source-git-commit: 37e60e5d7c0ad164cde67015b72341e1f4eda6a9
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 11%
@@ -114,12 +114,12 @@ Web設定是由URL識別的Web屬性，將會傳送內容。 它可以比對單�
     <tr>
         <td>萬用字元比對</td>
         <td>「萬用字元符合」運運算元可讓使用者在路徑內定義內部萬用字元，例如"/products/*/detail"。  路徑**元件中的萬用字元*會比對任何字元順序，直到遇到第一個/字元為止。  /*/符合任何字元順序（包括子路徑）</td>
-        <td>例如：「萬用字元符合：/products/*/detail」，符合所有路徑，例如： <ul>example.com/products/yoga/detail</ul><ul>example.com/products/surf/detail</ul><ul>example.com/products/tennis/detail</ul><ul>example.com/products/yoga/pants/detail</ul>例如：「符合： /prod*/detail，符合所有路徑，例如：  <ul>example.com/products/detail</ul><ul>example.com/production/detail</ul>  不符合如下的路徑： <ul>example.com/products/yoga/detail</ul></td>
+        <td>例如：「萬用字元符合：/products/*/detail」，符合所有路徑，例如： <ul><li>example.com/products/yoga/detail</li><li>example.com/products/surf/detail</li><li>example.com/products/tennis/detail</li><li>example.com/products/yoga/pants/detail</li></ul>例如：「符合： /prod*/detail，符合所有路徑，例如： <ul><li>example.com/products/detail</li><li>example.com/production/detail</li></ul>不符合如下的路徑： <ul><li>example.com/products/yoga/detail</li></ul></td>
     </tr>
     <tr>
         <td>包含</td>
         <td>"contains"會轉譯為"mystring"之類的萬用字元，並比對包含此字元序列的所有路徑。</td>
-        <td>例如：「包含：產品」，符合包含字串產品的所有路徑，例如： <ul>example.com/products</ul><ul>example.com/yoga/perfproduct</ul><ul>example.com/surf/productdescription</ul><ul>example.com/home/product/page</ul></td>
+        <td>例如：「包含：產品」，符合包含字串產品的所有路徑，例如： <ul><li>example.com/products</li><li>example.com/yoga/perfproduct</li><li>example.com/surf/productdescription</li><li>example.com/home/product/page</li></ul></td>
     </tr>
     </tbody>
 </table>
