@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 902458ec78df9a885b144bf19425c7865c208c28
 workflow-type: tm+mt
 source-wordcount: '744'
-ht-degree: 54%
+ht-degree: 85%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 54%
 <tbody>
 <tr>
 <td>
-<p>已增強目前的管道表面功能，以在所有管道中採取一致的方法。您現在可以為任何管道定義、管理和重複使用這些設定，包括網頁、應用程式內傳訊或程式碼型體驗。</p>
+<p>已增強目前的管道表面功能，以在所有管道中採取一致的方法。您現在可以為任何管道定義、管理和重複使用這些設定，包括網頁、應用程式內訊息或基於程式碼的體驗。</p>
 <p><ul>
 <li>管道表面現在已重新命名為<strong>管道設定</strong></li>
 <li>您可以附加一或多個行銷動作，以強制執行同意和資料治理原則</li>
@@ -127,7 +127,7 @@ ht-degree: 54%
 <tbody>
 <tr>
 <td>
-<p>片段全域變數可增強現有片段功能，以提高內容重複使用性和指令碼使用案例的效率。 片段現在可以使用輸入變數，並建立可用於行銷活動和歷程內容的輸出變數。 片段可以在<a href="../personalization/use-expression-fragments.md">運算式片段</a>和<a href="../email/use-visual-fragments.md">視覺片段</a>中使用輸入變數。 您可以使用這些變數，在行銷活動和歷程個人化您的訊息內容和參數。</p>
+<p>片段全域變數可增強現有片段功能，以提高內容再使用性與指令碼使用案例的效率。 片段現在可以使用輸入變數，以及建立可用於行銷活動和歷程內容的輸出變數。在<a href="../personalization/use-expression-fragments.md">運算式片段</a>和<a href="../email/use-visual-fragments.md">視覺片段</a>這兩種片段中，皆可使用輸入變數。您可以使用這些變數，在行銷活動和歷程個人化您的訊息內容和參數。</p>
 <p>如需詳細資訊，請參閱<a href="../personalization/use-expression-fragments.md">詳細文件</a>。</p>
 </p>
 </td>
@@ -158,9 +158,9 @@ ht-degree: 54%
 
 **歷程**
 
-* 在&#x200B;**條件**&#x200B;活動中，預設的&#x200B;**[!UICONTROL 時間條件]**&#x200B;現在會依小時設定，從00:00到12:00。 [閱讀全文](../building-journeys/condition-activity.md#time_condition)
-* 建立您的歷程時，現在會從&#x200B;**警報**&#x200B;按鈕顯示警報，以與其他警報保持一致，並提供一致的使用者體驗。 [閱讀全文](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
-* 歷程工具列中的縮放選項已改善：現在可以看到縮放百分比，且您現在可以更輕鬆地重設縮放值。
+* 在&#x200B;**條件**&#x200B;活動中，預設情況下，**[!UICONTROL 時間條件]**&#x200B;現在會從 00:00 到 12:00，依小時設定。 [閱讀全文](../building-journeys/condition-activity.md#time_condition)
+* 當建立歷程時，現在會從&#x200B;**警示**&#x200B;按鈕顯示提醒，跟其他提醒保持同步，提供一致的使用者體驗。[閱讀全文](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* 已改善歷程工具列的縮放選項：您現在可以看到縮放百分比，可以更輕鬆將重設縮放值。
 
 <!--**Audiences and Profiles**-->
 
@@ -168,17 +168,17 @@ ht-degree: 54%
 <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
 <!--* The License usage dashboard now shows the count of Engageable Profiles. [Read more](../audience/license-usage.md)-->
 
-**推播頻道**
+**推播管道**
 
-* 您現在可以在Adobe Journey Optimizer通道組態設定中新增行動應用程式推送認證。 您不再需要在Adobe Experience Platform資料彙集中建立應用程式表面。
+* 您現在可於 Adobe Journey Optimizer 管道設定的設定中新增行動應用程式推播認證。您不再需要在 Adobe Experience Platform 資料彙集中建立應用程式表面。
 
 ### 其他變更 {#changes}
 
 **報告**
 
-* 目前的報告體驗將於10月發行後淘汰。 在此日期之後，新的報告體驗將成為標準。 建議您熟悉新功能，以確保順利轉換。
+* 目前的報告體驗將於 10 月版本發行後淘汰。在此日期之後，新的報告體驗將成為標準體驗。建議您自行熟悉新功能，以確保順利轉換。
 
-[開始使用Journey Optimizer新的報表介面](../reports/report-gs-cja.md)
+[開始使用 Journey Optimizer 新報告介面](../reports/report-gs-cja.md)
 
 * 新的使用案例已新增至新的報告體驗：
 

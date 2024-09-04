@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 762fa346d9303865f1509bfc9c2e9cb3528227e4
 workflow-type: tm+mt
 source-wordcount: '1412'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -134,7 +134,7 @@ ht-degree: 96%
 
 * **[!UICONTROL 沙箱]** - Adobe Experience 平台提供的沙箱可將單一執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。瀏覽此區段以管理沙箱。[了解更多](../administration/sandboxes.md)
 
-* **[!UICONTROL 管道]** — 使用此區段來設定您的管道，包括子網域、設定和傳遞能力設定。 [了解更多](../configuration/get-started-configuration.md)
+* **[!UICONTROL 管道]** - 使用此區段來設定管道，包括子網域、設定和傳遞能力設定。 [了解更多](../configuration/get-started-configuration.md)
 
 * **[!UICONTROL 標籤]** - 利用統一標籤，您可以輕鬆分類歷程與行銷活動，進而改進清單的搜尋結果。[進一步了解](../start/search-filter-categorize.md#work-with-unified-tags)
 

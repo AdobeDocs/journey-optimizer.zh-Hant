@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
 workflow-type: tm+mt
-source-wordcount: '1963'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -200,8 +200,8 @@ ht-degree: 98%
    + [管理電子郵件選擇退出](using/email/email-opt-out.md)
    + 設定電子郵件頻道 {#configure-email}
       + [開始使用電子郵件設定](using/email/get-started-email-config.md)
-      + [設定電子郵件組態設定](using/email/email-settings.md)
-      + [個人化電子郵件設定](using/email/surface-personalization.md)
+      + [設定電子郵件組態的設定](using/email/email-settings.md)
+      + [個人化電子郵件組態](using/email/surface-personalization.md)
 + 應用程式內頻道{#in-app}
    + [開始使用應用程式內頻道](using/in-app/get-started-in-app.md)
    + [應用程式內頻道先決條件](using/in-app/inapp-configuration.md)
@@ -251,7 +251,7 @@ ht-degree: 98%
 + 程式碼型體驗 {#code-based-experience}
    + [開始使用程式碼型頻道](using/code-based/get-started-code-based.md)
    + [護欄和限制](using/code-based/code-based-prerequisites.md)
-   + [建立程式碼型體驗設定](using/code-based/code-based-configuration.md)
+   + [建立基於程式碼的體驗設定](using/code-based/code-based-configuration.md)
    + [實施方法範例](using/code-based/code-based-implementation-samples.md)
    + [建立程式碼型體驗](using/code-based/create-code-based.md)
 + 登陸頁面 {#landing-pages}
@@ -582,7 +582,7 @@ ht-degree: 98%
 + 設定 {#configuration}
    + [開始使用 Journey Optimizer 設定](using/configuration/get-started-configuration.md)
    + [設定管道設定](using/configuration/channel-surfaces.md)
-   + 引導式頻道設定{#guided-setup}
+   + 引導式管道設定{#guided-setup}
       + [開始使用引導式管道設定](using/configuration/set-mobile-config.md)
       + [建立管道設定](using/configuration/create-channel-set-up.md)
    + 委派電子郵件子網域 {#delegate-subdomains}
