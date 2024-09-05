@@ -12,7 +12,7 @@ exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="使用保證進行驗證"
->abstract="Adobe Experience Platform保證內嵌在此工作流程中，可協助您檢查SDK實作，以及模擬和驗證應用程式事件。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance 概觀"
+>abstract="Adobe Experience Platform Assurance 嵌入此工作流程中，可協助您檢查 SDK 實施，以及模擬和驗證應用程式事件。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance 概觀"
 
 此設定有助快速設定行銷頻道，確保隨時在都能在 Experience Platform、Journey Optimizer 資料收集取得所有必要資源。 這可讓您的行銷團隊從行銷活動和歷程建立開始。
 
