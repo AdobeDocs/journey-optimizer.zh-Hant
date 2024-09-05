@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 管道，表面，技術，引數，最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1737'
 ht-degree: 12%
 
 ---
@@ -271,10 +271,9 @@ ht-degree: 12%
 
 ![](assets/preset-activate.png)
 
-<!--
-## How-to video{#video-presets}
 
-Learn how to create channel configurations, how to use them and how to delegate a subdomain and create an IP pool.
+## 操作說明影片{#video-presets}
 
->[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
--->
+瞭解什麼是管道設定以及如何在Adobe Journey Optimizer中使用這些設定。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
