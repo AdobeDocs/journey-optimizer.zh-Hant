@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 762fa346d9303865f1509bfc9c2e9cb3528227e4
+source-git-commit: 6c2e974cb690866e9c34e80ba9e48b5375185024
 workflow-type: tm+mt
-source-wordcount: '1412'
-ht-degree: 97%
+source-wordcount: '1471'
+ht-degree: 94%
 
 ---
 
@@ -237,3 +237,45 @@ ht-degree: 97%
 >id="ajo_rule_set_prioritization"
 >title="優先順序中的因素"
 >abstract="待定"
+
+<!--CONTENT LOCKING-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_governance"
+>title="治理"
+>abstract="治理"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_mode"
+>title="模式"
+>abstract="模式"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_content_addition"
+>title="啟用內容新增"
+>abstract="啟用內容新增"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_structure"
+>title="結構中的內容鎖定"
+>abstract="結構中的內容鎖定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_component"
+>title="在元件中使用特定鎖定"
+>abstract="在元件中使用特定鎖定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_editable_areas"
+>title="反白可編輯區域"
+>abstract="反白可編輯區域"
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_locking_activated"
+>title="已啟用治理"
+>abstract="內容鎖定已啟用，且可能會阻止您進行修改。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_locking_read_only"
+>title="唯讀"
+>abstract="此內容是唯讀的，無法修改。"
