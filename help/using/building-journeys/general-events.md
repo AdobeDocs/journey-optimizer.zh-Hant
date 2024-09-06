@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 自訂，一般，事件，歷程
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
+source-git-commit: 343e7bbebf35711259d2f3392f1ce5658865599a
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '603'
 ht-degree: 21%
 
 ---
@@ -48,9 +48,9 @@ ht-degree: 21%
 
 1. 從事件屬性啟動&#x200B;**[!UICONTROL 定義事件逾時]**&#x200B;選項。
 
-1. 指定歷程將等待事件的時間長度。 持續時間上限為29天。
+1. 指定歷程將等待事件的時間長度。 持續時間上限為&#x200B;**90天**。
 
-1. 若您想在指定的逾時時間內未收到任何事件時，將個人傳送至逾時路徑，請啟用&#x200B;**[!UICONTROL 設定逾時路徑]**&#x200B;選項。 如果未啟用此選項，則到達逾時時間後，個人將繼續歷程。 建議您一律啟用&#x200B;**設定逾時路徑**&#x200B;選項。
+1. 在指定的逾時內未收到任何事件時，最佳實務是將個人傳送至逾時路徑。 為此，請啟用&#x200B;**[!UICONTROL 設定逾時路徑]**&#x200B;選項。 在這種情況下，一旦達到逾時，個人就會繼續歷程。 建議您一律啟用&#x200B;**[!UICONTROL 設定逾時路徑]**&#x200B;選項。
 
    ![](assets/event-timeout.png)
 
