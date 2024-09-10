@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a94d00a599a7dc87127802ceae91a552a0157ef
+source-git-commit: 5fd0ad50a39fbb57a2dd11ddb84f1d5b2598bcea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '824'
+ht-degree: 90%
 
 ---
 
@@ -40,11 +40,16 @@ ht-degree: 0%
 <p>引導式頻道設定讓您可以透過統一體驗，將頻道設定自動化，並加以驗證，便可使用 Journey Optimizer，加速快速入門的流程。 這項全新引導式設定能簡化快速頻道設定，確保能在 Experience Platform、Journey Optimizer 和資料彙集中，輕鬆安裝所有必要資源，確保一切運作都能順暢。這讓行銷、產品和資料工程團隊可以快速展開行銷活動，同時建立歷程。</p>
 <p>如需詳細資訊，請參閱<a href="../configuration/set-mobile-config.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
+<p>推出日期： 9月3日</p>
 </br>
 </td>
 </tr>
 </tbody>
 </table>
+
+**歷程**
+
+（可用性日期： 9月10日） **重試功能** — 擷取匯出作業時，現在預設會針對對象觸發的歷程（從&#x200B;**讀取對象**&#x200B;或&#x200B;**商業事件**&#x200B;開始）套用重試。 如果在匯出作業建立期間發生錯誤，將每隔10mn進行重試，最長為1小時。 之後，我們會將其視為失敗。 因此，這些型別的歷程可在排程時間後最多1小時執行。 [了解更多](../building-journeys/read-audience.md#retries)
 
 ## 2024 年 8 月發行說明 {#8-2024}
 
