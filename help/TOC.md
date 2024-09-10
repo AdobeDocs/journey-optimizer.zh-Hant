@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
-workflow-type: ht
-source-wordcount: '1963'
-ht-degree: 100%
+source-git-commit: ca28d323a2ef310ec82c732484c8aed1e2641135
+workflow-type: tm+mt
+source-wordcount: '1965'
+ht-degree: 99%
 
 ---
 
@@ -174,6 +174,14 @@ ht-degree: 100%
    + [檢閱及啟動行銷活動](using/campaigns/review-activate-campaign.md)
    + [管理行銷活動](using/campaigns/modify-stop-campaign.md)
    + [利用 API 觸發行銷活動](using/campaigns/api-triggered-campaigns.md)
++ 測試您的傳遞{#test}
+   + 預覽和測試內容{#preview-test}
+      + [開始預覽和測試](using/content-management/preview-test.md)
+      + [選取測試設定檔](using/content-management/test-profiles.md)
+      + [預覽您的內容](using/content-management/preview.md)
+      + [傳送電子郵件校樣](using/content-management/proofs.md)
+      + [測試電子郵件轉譯](using/content-management/rendering.md)
+      + [電子郵件垃圾郵件報告](using/content-management/spam-report.md)
 + 電子郵件頻道 {#email}
    + [開始使用電子郵件](using/email/get-started-email.md)
    + [建立電子郵件](using/email/create-email.md)
@@ -330,13 +338,6 @@ ht-degree: 100%
       + [開始使用動態內容](using/personalization/get-started-dynamic-content.md)
       + [建立條件式規則](using/personalization/create-conditions.md)
       + [建立動態內容](using/personalization/dynamic-content.md)
-   + 預覽和測試內容 {#preview-test}
-      + [開始預覽和測試](using/content-management/preview-test.md)
-      + [選取測試設定檔](using/content-management/test-profiles.md)
-      + [預覽您的內容](using/content-management/preview.md)
-      + [傳送電子郵件校樣](using/content-management/proofs.md)
-      + [測試電子郵件轉譯](using/content-management/rendering.md)
-      + [電子郵件垃圾郵件報告](using/content-management/spam-report.md)
 + 客群、輪廓與身分{#audiences-profiles-identities}
    + 客群 {#audiences}
       + [開始使用 Audiences](using/audience/about-audiences.md)
