@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 6268aafbec0aa21a7c8881514227cdb41674791a
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -215,8 +215,8 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
->title="在歷程中設定檢視器"
->abstract="在歷程中設定檢視器"
+>title="歷程中的衝突檢視器"
+>abstract="歷程中的衝突檢視器"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_object_type"
@@ -225,18 +225,18 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_rule_set"
->title="套用規則集至歷程"
->abstract="待定"
+>title="將規則集套用至歷程"
+>abstract="未定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rule_set"
->title="套用規則集至行銷活動"
->abstract="待定"
+>title="將規則集套用至行銷活動"
+>abstract="未定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_prioritization"
->title="優先順序中的因素"
->abstract="待定"
+>title="列出優先順序的因素"
+>abstract="未定"
 
 <!--CONTENT LOCKING-->
 
@@ -252,33 +252,33 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_content_addition"
->title="啟用內容新增"
->abstract="啟用內容新增"
+>title="啟用內容添加部分"
+>abstract="啟用內容添加部分"
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_structure"
->title="結構中的內容鎖定"
->abstract="結構中的內容鎖定"
+>title="結構下的內容鎖定機制"
+>abstract="結構下的內容鎖定機制"
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_component"
->title="在元件中使用特定鎖定"
->abstract="在元件中使用特定鎖定"
+>title="請在元件中使用特定鎖定機制"
+>abstract="請在元件中使用特定鎖定機制"
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_editable_areas"
->title="反白可編輯區域"
->abstract="反白可編輯區域"
+>title="強調可編輯區域"
+>abstract="強調可編輯區域"
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
 >title="已啟用治理"
->abstract="內容鎖定已啟用，且可能會阻止您進行修改。"
+>abstract="已啟用內容鎖定機制，系統可能會阻止您修改資料。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
 >title="唯讀"
->abstract="此內容是唯讀的，無法修改。"
+>abstract="此為唯讀內容，無法再行修改。"
 
 <!--GOVERNANCE POLICIES-->
 

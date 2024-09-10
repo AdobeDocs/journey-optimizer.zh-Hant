@@ -8,8 +8,8 @@ description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3a94d00a599a7dc87127802ceae91a552a0157ef
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 85%
 
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
-## 9月更新 {#9-2024}
+## 9 月份更新版 {#9-2024}
 
 <table>
 <thead>
@@ -37,7 +37,7 @@ ht-degree: 85%
 <tbody>
 <tr>
 <td>
-<p>引導式管道設定可讓您在統一體驗中自動化和驗證管道設定，加速開始使用Journey Optimizer的流程。 這項全新的引導式設定簡化了快速通道設定，確保所有必要資源都能在Experience Platform、Journey Optimizer和資料收集中輕鬆安裝及運作。 這可讓行銷、產品和資料工程團隊快速開始行銷活動和歷程建立。</p>
+<p>引導式頻道設定讓您可以透過統一體驗，將頻道設定自動化，並加以驗證，便可使用 Journey Optimizer，加速快速入門的流程。 這項全新引導式設定能簡化快速頻道設定，確保能在 Experience Platform、Journey Optimizer 和資料彙集中，輕鬆安裝所有必要資源，確保一切運作都能順暢。這讓行銷、產品和資料工程團隊可以快速展開行銷活動，同時建立歷程。</p>
 <p>如需詳細資訊，請參閱<a href="../configuration/set-mobile-config.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
 </br>
@@ -181,10 +181,10 @@ ht-degree: 85%
 
 [開始使用 Journey Optimizer 新報告介面](../reports/report-gs-cja.md)
 
-* 新的使用案例已新增至新的報告體驗：
+* 已將新的使用案例新增至全新報告體驗：
 
-   * 直接在您的報表中建立自訂計算量度。
-   * 從報表資料建立對象。
-   * 使用探索分析工具，從您選取的&#x200B;**[!UICONTROL Dimension]**&#x200B;和&#x200B;**[!UICONTROL 量度]**&#x200B;輕鬆建立表格和視覺效果。
+   * 可直接在報告中建立自訂計算量度。
+   * 請從報告資料那邊建立對象。
+   * 使用探索分析工具，可從已選取的&#x200B;**[!UICONTROL 維度]**&#x200B;和&#x200B;**[!UICONTROL 量度]**，輕鬆地建立表格和視覺效果。
 
   如需詳細資訊，請參閱[詳細文件](../reports/report-cja-manage.md)。
