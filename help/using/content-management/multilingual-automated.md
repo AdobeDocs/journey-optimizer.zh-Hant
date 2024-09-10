@@ -10,14 +10,24 @@ level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="限量開放使用" type="Informative"
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: a190b5547c2d8e13563391bd9d784add75c55fd4
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 4%
+source-wordcount: '1617'
+ht-degree: 3%
 
 ---
 
 # 使用自動化翻譯建立多語言內容 {#multilingual-automated}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_add_provider"
+>title="新增提供者"
+>abstract="視需要新增翻譯提供者與地區。 這可讓您管理專案中活躍的提供者和地區，讓您靈活地根據目前的需求和專案範圍調整資源及目標對象。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_edit_provider"
+>title="編輯提供者"
+>abstract="修改現有的翻譯提供者，並視需要新增語言環境。 此功能可讓您控制專案中活躍的提供者與地區，讓您靈活地根據目前的需求和專案目標調整資源與鎖定特定對象。"
 
 >[!AVAILABILITY]
 >
@@ -39,6 +49,11 @@ ht-degree: 4%
 
 ## 建立地區設定 {#create-locale}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_add_locale"
+>title="新增地區設定"
+>abstract="設定您的語言偏好設定時，如果多語言內容無法使用所需的語言環境，您可以選擇建立其他語言環境。"
+
 如[建立您的語言設定](#language-settings)一節中所述，設定您的語言設定時，如果多語言內容沒有特定的地區設定，您可以使用&#x200B;**[!UICONTROL 翻譯]**&#x200B;功能表彈性地建立所需數量的新地區設定。
 
 1. 從&#x200B;**[!UICONTROL 內容管理]**&#x200B;功能表，存取&#x200B;**[!UICONTROL 翻譯]**。
@@ -54,6 +69,16 @@ ht-degree: 4%
    ![](assets/locale_2.png)
 
 ## 建立翻譯專案 {#translation-project}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_create_project"
+>title="建立專案"
+>abstract="若要開始建立多語言內容，請識別目標地區設定，並為您的對象選取適當的語言或地區方言，以開始您的翻譯專案。 之後，請選擇符合專案需求的翻譯提供者。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_edit_project"
+>title="編輯專案"
+>abstract="更新您的翻譯專案以納入其他地區，讓您擴展內容以觸及更廣泛的對象。"
 
 透過指定Target地區設定來開始您的翻譯專案，指示內容的特定語言或地區。 之後，您可以選擇您的翻譯提供者。
 
@@ -205,6 +230,11 @@ ht-degree: 4%
 
 ## 管理內部來源翻譯專案 {#manage-ht-project}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_insourcing_project"
+>title="內部來源翻譯專案"
+>abstract="內部翻譯專案可讓您直接在翻譯專案中管理及執行翻譯、簡化程式，並維持翻譯品質與一致性的更佳控制。"
+
 如果您在設定語言設定時選取「內包」，則可直接在翻譯專案中翻譯內容。
 
 1. 從您的&#x200B;**[!UICONTROL 翻譯專案]**，存取&#x200B;**[!UICONTROL 更多動作]**&#x200B;功能表，並選取&#x200B;**[!UICONTROL 內包]**。
@@ -222,6 +252,16 @@ ht-degree: 4%
 1. 如果您已準備好發佈翻譯的文字，請按一下&#x200B;**[!UICONTROL 完成]**。
 
 ## 檢閱您的翻譯專案 {#review-translation-project}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_review_project"
+>title="檢閱您的翻譯專案"
+>abstract="一旦您選擇的翻譯提供者完成翻譯，您就可以直接在Journey Optimizer中檢閱結果。 這可讓您評估翻譯的正確性和品質，確保在最終確定翻譯前，其符合您的期望和專案要求。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_preview_project"
+>title="預覽您的翻譯專案"
+>abstract="「預覽」視窗可讓您檢視翻譯內容在各種語言中的顯示方式。 此功能可協助您檢查轉譯，並確保所有選取的語言均可正確有效地顯示內容。"
 
 如果您在您的&#x200B;**[!UICONTROL 翻譯專案]**&#x200B;中選取&#x200B;**[!UICONTROL 啟用檢閱工作流程]**，則您可在所選翻譯提供者完成之後，直接在Journey Optimizer中檢閱翻譯。
 
