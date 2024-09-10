@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，對象，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
+source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 6%
+source-wordcount: '1635'
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 6%
 
 ➡️ [在影片中探索此功能](#video)
 
-## 必讀 {#must-read}
+## 護欄和最佳實務 {#must-read}
 
 * 對於使用&#x200B;**讀取對象**&#x200B;活動的歷程，可以同時開始的歷程次數有上限。 系統將執行重試，但避免同時開始超過五個歷程（具有&#x200B;**讀取對象**、排程或「儘快」）。 最佳實務建議將其分散一段時間，例如相隔5到10分鐘。
 
@@ -40,6 +40,7 @@ ht-degree: 6%
 * 根據最佳實務，建議您僅在&#x200B;**讀取對象**&#x200B;活動中使用批次對象。 這將為歷程中使用的對象提供可靠且一致的計數。 讀取對象是針對批次使用案例而設計。 如果您的使用案例需要即時資料，請使用&#x200B;**[對象資格](audience-qualification-events.md)**&#x200B;活動。
 
 * 可在&#x200B;**讀取對象**&#x200B;活動中選取從CSV檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)匯入或從[組合工作流程](../audience/get-started-audience-orchestration.md)產生的對象[。 **對象資格**&#x200B;活動中沒有這些對象。
+
 
 與&#x200B;**讀取對象**&#x200B;活動相關的護欄列於[此頁面](../start/guardrails.md#read-segment-g)。
 
@@ -192,6 +193,13 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 聯合後，您可以執行細分或排除來再次分割對象。
 
 ![](assets/read-segment-audience3.png)
+
+
+## 重試次數 {#read-audience-retry}
+
+擷取匯出作業時，預設會對受眾觸發的歷程（從&#x200B;**讀取受眾**&#x200B;或&#x200B;**商業事件**&#x200B;開始）套用重試。 如果在匯出作業建立期間發生錯誤，將每隔10mn進行重試，最長為1小時。 之後，我們會將其視為失敗。 因此，這些型別的歷程可在排程時間後最多1小時執行。
+
+已擷取失敗的&#x200B;**讀取對象**&#x200B;觸發器，並顯示在&#x200B;**警示**&#x200B;中。 如果&#x200B;**讀取對象**&#x200B;活動在排定的執行時間後10分鐘未處理任何設定檔，**讀取對象警報**&#x200B;會警告您。 此失敗可能是技術問題或對象空白所造成。 如果失敗是由技術問題引起的，請注意，根據問題型別，重試仍可能發生（例如：如果匯出作業建立失敗，我們將每10mn重試一次，最長為1h）。 [了解更多](../reports/alerts.md#alert-read-audiences)
 
 ## 操作說明影片 {#video}
 
