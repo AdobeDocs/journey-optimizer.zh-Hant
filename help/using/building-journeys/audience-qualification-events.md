@@ -11,8 +11,8 @@ keywords: 資格，事件，對象，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="客群資格事件"
->abstract="本活動可讓您的歷程聆聽 Adobe Experience Platform 客群中輪廓的入口和出口，讓個人得以在歷程中進入或前進。"
+>abstract="本活動可讓您的歷程監聽輪廓是否符合 Adobe Experience Platform 客群資格，讓個人進入歷程或在歷程中前進。"
 
 此活動可讓您的歷程聆聽Adobe Experience Platform對象中設定檔的入口和出口，以便讓個人進入歷程或是在歷程中前進。 如需建立對象的詳細資訊，請參閱此[區段](../audience/about-audiences.md)。
 
