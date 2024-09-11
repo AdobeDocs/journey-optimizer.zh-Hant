@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b3e683e503f1784d61f6de4f0d866fc965515c1c
+source-git-commit: b1f23144d996e152018519b540d70f45b7c58695
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '928'
 ht-degree: 83%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 83%
 <p>透過<a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，親身體驗親身體驗，讓您親身體驗功能並充分瞭解其功能。</a></p>
 <p>如需詳細資訊，請參閱<a href="../content-management/gs-generative.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
+<p>推出日期： 9月12日</p>
 </td>
 </tr>
 </tbody>
