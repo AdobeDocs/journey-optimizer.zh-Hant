@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5fd0ad50a39fbb57a2dd11ddb84f1d5b2598bcea
+source-git-commit: 633d2f423301680a7aff83b748a08a6f1a1bbf16
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 90%
+source-wordcount: '927'
+ht-degree: 83%
 
 ---
 
@@ -27,6 +27,24 @@ ht-degree: 90%
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
 
 ## 9 月份更新版 {#9-2024}
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Optimizer中的AI Assistant — 內容加速器 </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>在您建立並個人化訊息後，請使用Journey Optimizer中的AI Assistant for Content Acceleration將您的內容提升到新的境界。 您現在可以使用AI助理透過實驗不同的主要標題和影像，以最佳化訊息的影響。 每個變體都會視為獨特的處理來管理，以測量並比較哪個標題能有效產生更多點按次數。</p>
+<p>透過<a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，親身體驗親身體驗，讓您親身體驗功能並充分瞭解其功能。</a></p>
+<p>如需詳細資訊，請參閱<a href="../content-management/gs-generative.md">詳細文件</a>。</p>
+<img src="assets/do-not-localize/ai-content.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

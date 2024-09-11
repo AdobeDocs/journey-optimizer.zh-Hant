@@ -1,40 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用 AI 助理進行內容實驗
-description: 使用 AI 助理進行內容實驗
+title: 使用Journey Optimizer中的AI Assistant進行內容實驗 — 內容加速器
+description: 使用Journey Optimizer中用於內容加速的AI助理進行內容實驗
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informative"
-hide: true
-hidefromtoc: true
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: d331c475f2460facf33ed275131f0c2e9517e27c
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 22%
+source-wordcount: '274'
+ht-degree: 4%
 
 ---
 
-# 使用 AI 助理進行內容實驗 {#generative-experimentation}
+# 使用Journey Optimizer中的AI Assistant進行內容實驗 — 內容加速器 {#generative-experimentation}
 
->[!BEGINSHADEBOX]
+>[!IMPORTANT]
+>
+>開始使用此功能之前，請先閱讀相關的[護欄和限制](gs-generative.md#generative-guardrails)。
+></br>
+>
+>您必須先同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI助理進行Content Acceleration。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-**目錄**
+當您製作好訊息並加以個人化後，請使用Adobe Journey Optimizer內容加速的AI助理提升您的內容，其中包括內容實驗功能。 此工具可讓您定義多種傳送處理方式、各種內容，以測量目標對象的效能。
 
-* [開始使用 AI 助理](gs-generative.md)
-* [使用 AI 助理產生電子郵件](generative-email.md)
-* [使用 AI 助理產生簡訊](generative-sms.md)
-* [使用 AI 助理推播產生](generative-push.md)
-* 使用 AI 助理進行內容實驗
-
->[!ENDSHADEBOX]
-
-當您製作好訊息並加以個人化後，請使用Adobe Journey Optimizer中的AI助理來提升您的內容，其中包括內容實驗功能。 此工具可讓您定義多種傳送處理方式、各種內容，以測量目標對象的效能。
-
-1. 建立您的行銷活動，並使用AI助理產生您的變體。
+1. 建立您的行銷活動，並使用Content Acceleration的AI助理產生變體。
 
    在此範例中，我們已產生包含促銷代碼的訂閱確認電子郵件。
 
@@ -48,7 +40,7 @@ ht-degree: 22%
 
 1. 選取您要納入實驗中的變數。
 
-1. 按一下&#x200B;**新增X處理**。
+1. 按一下&#x200B;**新增至實驗**。
 
    ![](assets/experiment-genai-3.png)
 

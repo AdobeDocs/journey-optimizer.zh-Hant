@@ -1,50 +1,38 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用 AI 助理推播產生
-description: 開始使用AI助理產生推播內容
+title: 在Journey Optimizer中使用AI助理進行推播產生，以加速內容
+description: 開始在Journey Optimizer中使用AI助理產生推播內容以加速內容
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informative"
-hide: true
-hidefromtoc: true
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 24561293e744c048dd3f895360a487c8598b0765
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 7%
+source-wordcount: '1500'
+ht-degree: 2%
 
 ---
 
-# 使用 AI 助理推播產生 {#generative-push}
+# 在Journey Optimizer中使用AI Assistant進行推播產生 — 內容加速器  {#generative-push}
 
->[!BEGINSHADEBOX]
-
-**目錄**
-
-* [開始使用 AI 助理](gs-generative.md)
-* [使用 AI 助理產生電子郵件](generative-email.md)
-* [使用 AI 助理產生簡訊](generative-sms.md)
-* 使用 AI 助理推播產生
-* [使用 AI 助理進行內容實驗](generative-experimentation.md)
-
->[!ENDSHADEBOX]
-
->[!NOTE]
+>[!IMPORTANT]
 >
 >開始使用此功能之前，請先閱讀相關的[護欄和限制](gs-generative.md#generative-guardrails)。
+></br>
+>
+>您必須先同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI助理進行Content Acceleration。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-在您建立並個人化訊息後，請使用Adobe Journey Optimizer中的AI助理將推播通知內容提升到新的境界。
+在您建立並個人化訊息後，請使用Journey Optimizer中的AI Assistant加速內容，將推播通知內容提升到新的境界。
 
-探索以下標籤，瞭解如何使用Journey Optimizer中的AI小幫手。
+探索以下標籤，瞭解如何使用Journey Optimizer中的AI助理加速內容。
 
 >[!BEGINTABS]
 
 >[!TAB 產生完整推送]
 
-在此特定範例中，瞭解如何使用AI助理傳送吸引人的推播通知。
+在此特定範例中，瞭解如何使用Journey Optimizer中的AI Assistant傳送吸引人的推播通知以加速內容。
 
 請依照下列步驟操作：
 
@@ -60,9 +48,7 @@ ht-degree: 7%
 
    ![](assets/push-genai-full-1.png){zoomable="yes"}
 
-1. 啟用AI助理的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;選項，以根據您的行銷活動內容、名稱和選取的對象來個人化新內容。
-
-   您的提示必須一律繫結至特定內容。
+1. 啟用內容加速的AI助理的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;選項，以根據選取的內容個人化新內容選項。
 
 1. 說明您要在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中產生的內容，以微調內容。
 
@@ -70,17 +56,28 @@ ht-degree: 7%
 
    ![](assets/push-genai-full-2.png){zoomable="yes"}
 
-1. 選取&#x200B;**[!UICONTROL 上傳品牌資產]**&#x200B;以新增任何包含可為AI助理提供額外內容的品牌資產。
+1. 選擇要產生的欄位： **[!UICONTROL 標題]**、**[!UICONTROL 訊息]**&#x200B;和/或&#x200B;**[!UICONTROL 影像]**。
 
-1. 選擇要產生的欄位： **[!UICONTROL 標題]**&#x200B;和/或&#x200B;**[!UICONTROL 訊息]**。
-
-1. 使用不同的選項量身打造您的提示：
+1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示：
 
    * **[!UICONTROL 通訊策略]**：選擇最適合您產生文字的通訊樣式。
-   * **[!UICONTROL 語言]**：選取您要產生內容的語言。
-   * **[!UICONTROL 音調]**：您的電子郵件音調應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力， AI Assistant都能據以調整訊息。
+   * **[!UICONTROL 音調]**：您的推播通知音調應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力， AI Assistant都能據以調整訊息。
 
    ![](assets/push-genai-full-3.png){zoomable="yes"}
+
+1. 選擇您的&#x200B;**[!UICONTROL 影像設定]**：
+
+   * **[!UICONTROL 內容型別]**：這會分類視覺元素的性質，區分不同的視覺呈現形式，例如像片、圖形或藝術品。
+   * **[!UICONTROL 視覺強度]**：您可以調整影像的強度來控制影像的影響。 較低的設定(2)可建立更柔和、更克制的外觀，而較高的設定(10)則可讓影像更生動、視覺效果更強大。
+   * **[!UICONTROL 色彩和色調]**：影像中顏色的整體外觀及其傳達的氣氛或氣氛。
+   * **[!UICONTROL 照明]**：這指的是影像中的閃電，它會塑造大氣層，並反白標示特定的元素。
+   * **[!UICONTROL 構成]**：這指的是影像框架中元素的排列
+
+   ![](assets/push-genai-full-5.png){zoomable="yes"}
+
+1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可為AI助理提供額外內容或選取先前上傳內容的品牌資產。
+
+   先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
 1. 提示就緒後，請按一下[產生]。****
 
@@ -92,7 +89,9 @@ ht-degree: 7%
 
    * **[!UICONTROL 重述]**： AI助理可以不同的方式重述您的訊息，讓您的寫作保持新鮮，並吸引不同受眾。
 
-   * **[!UICONTROL 使用簡單語言]**：利用AI助理簡化您的語言，確保更廣大的受眾擁有清晰易懂的語言內容。
+   * **[!UICONTROL 使用較簡單的語言]**：利用AI助理簡化您的語言，確保更廣大的受眾擁有清晰度和可存取性。
+
+   您也可以變更文字的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
 
    ![](assets/push-genai-full-4.png){zoomable="yes"}
 
@@ -100,13 +99,13 @@ ht-degree: 7%
 
    您也可以為內容啟用實驗。 [了解更多](generative-experimentation.md)
 
-1. 插入個人化欄位，以根據設定檔資料自訂您的電子郵件內容。 然後，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕以控制呈現，並使用測試設定檔檢查個人化設定。 [了解更多](../personalization/personalize.md)
+1. 插入個人化欄位，以根據設定檔資料自訂推播通知內容。 然後，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕以控制呈現，並使用測試設定檔檢查個人化設定。 [了解更多](../personalization/personalize.md)
 
 定義內容、對象和排程後，您就可以準備推播行銷活動。 [了解更多](../campaigns/review-activate-campaign.md)
 
->[!TAB 文字產生]
+>[!TAB 只產生文字]
 
-在此特定範例中，瞭解如何使用AI助理處理特定內容。 請依照下列步驟操作：
+在此特定範例中，瞭解如何將Journey Optimizer中的AI助理用於特定內容的內容加速。 請依照下列步驟操作：
 
 1. 建立並設定推播通知行銷活動後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。
 
@@ -116,13 +115,11 @@ ht-degree: 7%
 
 1. 視需要個人化您的推播通知。 [了解更多](../push/design-push.md)
 
-1. 存取您&#x200B;**[!UICONTROL 標題]**&#x200B;或&#x200B;**[!UICONTROL 訊息]**&#x200B;欄位旁的&#x200B;**[!UICONTROL 顯示AI小幫手]**&#x200B;功能表。
+1. 存取您&#x200B;**[!UICONTROL 標題]**&#x200B;或&#x200B;**[!UICONTROL 訊息]**&#x200B;欄位旁的&#x200B;**[!UICONTROL 使用AI助理編輯文字]**&#x200B;功能表。
 
    ![](assets/push-genai-1.png){zoomable="yes"}
 
-1. 啟用AI助理的&#x200B;**[!UICONTROL 使用參考內容]**&#x200B;選項，以根據您的行銷活動內容、名稱和選取的對象來個人化新內容。
-
-   您的提示必須一律繫結至特定內容。
+1. 啟用內容加速的AI助理的&#x200B;**[!UICONTROL 使用參考內容]**&#x200B;選項，以根據選取的內容個人化新內容。
 
 1. 說明您要在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中產生的內容，以微調內容。
 
@@ -130,22 +127,19 @@ ht-degree: 7%
 
    ![](assets/push-genai-2.png){zoomable="yes"}
 
-1. 選取&#x200B;**[!UICONTROL 上傳品牌資產]**&#x200B;以新增任何包含可為AI助理提供額外內容的品牌資產。
-
-   ![](assets/push-genai-3.png){zoomable="yes"}
-
-1. 使用不同的選項量身打造您的提示：
+1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示：
 
    * **[!UICONTROL 通訊策略]**：選擇最適合您產生文字的通訊樣式。
-   * **[!UICONTROL 語言]**：選取您要產生內容的語言。
-   * **[!UICONTROL 音調]**：您的電子郵件音調應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力， AI Assistant都能據以調整訊息。
+   * **[!UICONTROL 音調]**：推播通知的音調應該會與您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力， AI Assistant都能據以調整訊息。
    * **[!UICONTROL 長度]**：使用範圍滑桿選取內容的長度。
 
    ![](assets/push-genai-4.png){zoomable="yes"}
 
-1. 提示就緒後，請按一下[產生]。****
+1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可為AI助理提供額外內容或選取先前上傳內容的品牌資產。
 
-1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**，然後按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視所選變數的全熒幕版本。
+   先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
+
+1. 提示就緒後，請按一下[產生]。****
 
 1. 導覽至&#x200B;**[!UICONTROL 預覽]**&#x200B;視窗中的&#x200B;**[!UICONTROL 調整]**&#x200B;選項，以存取其他自訂功能：
 
@@ -153,11 +147,13 @@ ht-degree: 7%
 
    * **[!UICONTROL 精心設計]**： AI助理可以協助您展開特定主題，提供其他詳細資訊，以增進瞭解與參與。
 
-   * **[!UICONTROL 摘要]**：冗長的資訊可能會使電子郵件收件者超載。 使用AI Assistant將要點濃縮為清晰、簡潔的摘要，以吸引注意並鼓勵他們進一步閱讀。
+   * **[!UICONTROL 摘要]**：冗長的資訊可能會讓收件者超載。 使用AI Assistant將要點濃縮為清晰、簡潔的摘要，以吸引注意並鼓勵他們進一步閱讀。
 
    * **[!UICONTROL 重述]**：AI Assistant可以不同的方式重述您的訊息，讓您的寫作保持新鮮，並吸引不同受眾。
 
    * **[!UICONTROL 使用較簡單的語言]**：利用AI助理簡化您的語言，確保更廣大的受眾擁有清晰度和可存取性。
+
+   您也可以變更文字的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
 
    ![](assets/push-genai-5.png){zoomable="yes"}
 
@@ -165,7 +161,55 @@ ht-degree: 7%
 
    您也可以為內容啟用實驗。 [了解更多](generative-experimentation.md)
 
-1. 插入個人化欄位，以根據設定檔資料自訂您的電子郵件內容。 然後，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕以控制呈現，並使用測試設定檔檢查個人化設定。 [了解更多](../personalization/personalize.md)
+1. 插入個人化欄位，以根據設定檔資料自訂推播通知內容。 然後，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕以控制呈現，並使用測試設定檔檢查個人化設定。 [了解更多](../personalization/personalize.md)
+
+定義內容、對象和排程後，您就可以準備推播行銷活動。 [了解更多](../campaigns/review-activate-campaign.md)
+
+>[!TAB 只產生影像]
+
+1. 建立並設定推播通知行銷活動後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。
+
+   有關如何設定推播通知行銷活動的詳細資訊，請參閱[此頁面](../push/create-push.md)。
+
+1. 填寫行銷活動的&#x200B;**[!UICONTROL 基本詳細資料]**。 完成後，按一下&#x200B;**[!UICONTROL 編輯內容]**。
+
+1. 視需要個人化您的推播通知。 [了解更多](../push/design-push.md)
+
+1. 存取&#x200B;**[!UICONTROL 新增媒體]**&#x200B;功能表。
+
+   ![](assets/push-gen-img.png){zoomable="yes"}
+
+1. 啟用Content Acceleration的AI助理的&#x200B;**[!UICONTROL 參考樣式]**&#x200B;選項，以根據參考內容個人化新內容。 您也可以上傳影像以將內容新增至您的變數。
+
+1. 說明您要在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中產生的內容，以微調內容。
+
+   如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示資料庫]**，其中提供各種提示概念，以改進您的行銷活動。
+
+   ![](assets/push-gen-img-1.png){zoomable="yes"}
+
+1. 選擇您的&#x200B;**[!UICONTROL 影像設定]**：
+
+   * **[!UICONTROL 內容型別]**：這會分類視覺元素的性質，區分不同的視覺呈現形式，例如像片、圖形或藝術品。
+   * **[!UICONTROL 視覺強度]**：您可以調整影像的強度來控制影像的影響。 較低的設定(2)可建立更柔和、更克制的外觀，而較高的設定(10)則可讓影像更生動、視覺效果更強大。
+   * **[!UICONTROL 色彩和色調]**：影像中顏色的整體外觀及其傳達的氣氛或氣氛。
+   * **[!UICONTROL 照明]**：這指的是影像中的閃電，它會塑造大氣層，並反白標示特定的元素。
+   * **[!UICONTROL 構成]**：這指的是影像框架中元素的排列
+
+1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可為AI助理提供額外內容或選取先前上傳內容的品牌資產。
+
+   先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
+
+1. 提示就緒後，請按一下[產生]。****
+
+1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**。
+
+   ![](assets/push-gen-img-2.png){zoomable="yes"}
+
+1. 選取「**[!UICONTROL 產生類似專案]**」以檢視與目前選項非常相符的影像變化，提供具有一致主題的替代設計。
+
+1. 找到適當的內容後，按一下&#x200B;**[!UICONTROL 選取]**。
+
+   您也可以為內容啟用實驗。 [了解更多](generative-experimentation.md)
 
 定義內容、對象和排程後，您就可以準備推播行銷活動。 [了解更多](../campaigns/review-activate-campaign.md)
 

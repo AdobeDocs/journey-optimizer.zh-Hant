@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: ht
-source-wordcount: '376'
-ht-degree: 100%
+source-git-commit: 0bf1b65787eaf4d66964430bf89488fe4f930bfc
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 90%
 
 ---
 
@@ -20,23 +20,16 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB 8 月版本已上線！]
+>Journey Optimizer中的[!TAB AI助理 — 內容加速器]
 
-探索 Adobe Journey Optimizer 8 月版本的新功能及改進項目。
-
-[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+透過我們的即時功能預覽，親身體驗各項功能，讓您親身體驗各項功能，並全面瞭解各項功能。
+[![深入瞭解](using/assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)
 
 >[!TAB 使用 Customer Journey Analytics (Beta) 進行報告]
 
 Journey Optimizer 報告功能改進與 Customer Journey Analytics 功能的互通性，可將兩個平台間的報告標準化，並改善資料一致性與可靠性。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
-
->[!TAB AI 助理]
-
-AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並取得您特定環境的操作深入解析。 
-
-[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](/help/using/start/ai-assistant.md)
 
 >[!TAB 內容片段]
 
