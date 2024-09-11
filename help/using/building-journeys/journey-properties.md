@@ -25,7 +25,7 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criteria"
->title="歷程退出條件"
+>title="歷程結束條件"
 >abstract="本區段顯示結束條件選項。您可以為您的歷程建立一個或多個結束條件規則。"
 
 
