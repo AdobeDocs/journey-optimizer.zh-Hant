@@ -10,7 +10,7 @@ level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="限量開放使用" type="Informative"
-source-git-commit: e3685815dfed23c9fefa148e0025181258537135
+source-git-commit: 27c0be31ffc4ce7c43975a4db431713cd68f0461
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 12%
@@ -39,7 +39,7 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_error"
->title="翻譯錯誤
+>title="翻譯錯誤"
 >abstract="如果您無法存取翻譯頁面，可能是因為未啟用翻譯功能。 若要解決此問題，您將需要確保您的組織和沙箱管理員已啟動翻譯功能。"
 
 Adobe Journey Optimizer目前與翻譯提供者整合，這些翻譯提供者獨立於Adobe Journey Optimizer，提供協力廠商翻譯服務（機器翻譯或人力翻譯）。
