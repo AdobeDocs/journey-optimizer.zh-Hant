@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 448568ff9ee96d4fa6dbaaa43ce2d45e38d6b920
+source-git-commit: 616a9c30da4558d1e8b71733732dd4fd1f531ef8
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 42%
@@ -35,7 +35,7 @@ ht-degree: 42%
 
 >[!INFO]
 >
->透過[我們的互動式示範](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)，親身體驗親身體驗，讓您親身體驗其功能，並充分瞭解其功能。
+>透過[我們的互動式示範](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}，親身體驗親身體驗，讓您親身體驗其功能，並充分瞭解其功能。
 
 
 Adobe Journey Optimizer內容加速的AI Assistant由Microsoft Azure OpenAI和Adobe Firefly提供技術支援，針對文字和影像提供主動式內容變化建議。 它可用於電子郵件、推播和簡訊管道。這項新功能提供提示型文字與影像產生功能。 透過 Adobe Firefly 管理影像產生功能。
@@ -47,7 +47,7 @@ Adobe Journey Optimizer內容加速的AI Assistant由Microsoft Azure OpenAI和Ad
 >* 開始使用此功能之前，請先閱讀相關的[護欄和限制](#generative-guardrails)。
 >
 >
->* 您必須先同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Adobe Journey Optimizer中使用AI助理進行Content Acceleration。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>* 您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer中使用AI助理進行內容加速。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 ## 存取AI Assistant內容加速器 {#generative-access}
 
