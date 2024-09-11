@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 33dd0568ff55750d0f067e51442b5187820ec36a
+source-git-commit: 17b05590d1518b5cc6aa33a45619c96d6bd4a78e
 workflow-type: tm+mt
-source-wordcount: '1973'
+source-wordcount: '1979'
 ht-degree: 98%
 
 ---
@@ -278,11 +278,11 @@ ht-degree: 98%
 + 內容管理 {#content-management}
    + 使用 AI 助理{#ai-assistant}
       + [開始使用AI Assistant — 內容加速器](using/content-management/gs-generative.md)
-      + [電子郵件產生](using/content-management/generative-email.md)
-      + [推播產生](using/content-management/generative-push.md)
-      + [簡訊產生](using/content-management/generative-sms.md)
-      + [網頁產生](using/content-management/generative-web.md)
-      + [使用 AI 助理進行內容實驗](using/content-management/generative-experimentation.md)
+      + [使用人工智慧產生電子郵件](using/content-management/generative-email.md)
+      + [使用AI產生推播](using/content-management/generative-push.md)
+      + [使用AI產生簡訊](using/content-management/generative-sms.md)
+      + [使用AI產生網頁](using/content-management/generative-web.md)
+      + [使用AI的內容實驗](using/content-management/generative-experimentation.md)
       + [AI助理使用案例](using/content-management/generative-uc.md)
    + 可在多語言內容中使用{#content-multilingual}
       + [開始使用多語言內容](using/content-management/multilingual-gs.md)
