@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在Journey Optimizer中使用AI Assistant產生電子郵件 — 內容加速器
+title: 在Journey Optimizer Content Accelerator中使用AI助理產生電子郵件
 description: 開始使用Journey Optimizer中用於內容加速的AI助理產生電子郵件內容和資產
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 5798d4850ef9f8f2bc6761a9468fe6120460c524
+source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
 workflow-type: tm+mt
 source-wordcount: '1606'
 ht-degree: 1%
 
 ---
 
-# 使用AI Assistant - Content Accelerator產生電子郵件 {#generative-email}
+# 使用AI Assistant Content Accelerator產生電子郵件 {#generative-email}
 
 >[!IMPORTANT]
 >

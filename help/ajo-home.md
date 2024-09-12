@@ -5,7 +5,7 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 5adb5fc5f7601d57c18bd3619aff84705d0dd229
+source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 90%
@@ -20,9 +20,9 @@ ht-degree: 90%
 
 >[!BEGINTABS]
 
->[!TAB AI Assistant — 內容加速器]
+>[!TAB AI助理內容加速器]
 
-✨透過我們的[AI Assistant - Content Accelerator](../help/using/content-management/gs-generative.md)即時功能預覽，親身體驗親身體驗各種功能，讓您親身體驗各項功能，全面瞭解各項功能。
+✨透過我們的[AI Assistant Content Accelerator](../help/using/content-management/gs-generative.md)即時功能預覽，親身體驗親身體驗各種功能，讓您親身體驗各項功能，全面瞭解各項功能。
 
 [![深入瞭解](using/assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
