@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 2c4c9064b11bce44331b6604c91221ba9829eff7
+source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1195'
 ht-degree: 17%
 
 ---
@@ -40,7 +40,9 @@ ht-degree: 17%
 
 1. 從調色盤的&#x200B;**動作**&#x200B;區段，將&#x200B;**電子郵件**、**應用程式內**、**簡訊**&#x200B;或&#x200B;**推播**&#x200B;活動拖放至畫布。
 
-1. 設定您的活動。 在以下頁面瞭解建立訊息內容的詳細步驟：
+1. 設定您的活動。
+
+   在以下頁面瞭解建立訊息內容的詳細步驟：
 
    <table style="table-layout:fixed">
    <tr style="border: 0;">
@@ -80,6 +82,11 @@ ht-degree: 17%
    </td>
    </tr>
    </table>
+
+>[!NOTE]
+>
+>每個傳入訊息活動（應用程式內訊息、程式碼型體驗或卡片）都隨附3天的&#x200B;**等待**&#x200B;活動。 [了解更多](../building-journeys/wait-activity.md#auto-wait-node)
+>
 
 ## 更新即時內容{#update-live-content}
 
