@@ -5,7 +5,7 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: e7240415da052d0ca40fad5b27c9972be8825513
+source-git-commit: 68cf533bb459f33d2ebf951624b9a05910003fbb
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 90%
@@ -24,7 +24,7 @@ ht-degree: 90%
 
 ✨透過我們的[AI Assistant Content Accelerator](../help/using/content-management/gs-generative.md)即時功能預覽，親身體驗親身體驗各種功能，讓您親身體驗各項功能，全面瞭解各項功能。
 
-[![深入瞭解](using/assets/do-not-localize/try-it-now-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![深入瞭解](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB 使用 Customer Journey Analytics (Beta) 進行報告]
 
