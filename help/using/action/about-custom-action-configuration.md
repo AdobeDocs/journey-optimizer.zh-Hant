@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 067c990f7f82594418d59c3b1587a62a04799c09
+source-git-commit: 3d79eca67dbfe5011a4bbc4955bbbfb5d6c17b38
 workflow-type: tm+mt
-source-wordcount: '1561'
+source-wordcount: '1553'
 ht-degree: 21%
 
 ---
@@ -150,10 +150,6 @@ ht-degree: 21%
 1. 在&#x200B;**[!UICONTROL Request]**&#x200B;區段中，貼上要傳送至外部服務的JSON裝載範例。 此欄位是選用欄位，僅適用於POST和PUT呼叫方法。
 
 1. 在&#x200B;**[!UICONTROL 回應]**&#x200B;區段中，貼上呼叫傳回之裝載的範例。 此欄位是選用欄位，可用於所有呼叫方法。 如需如何在自訂動作中運用API呼叫回應的詳細資訊，請參閱[此頁面](../action/action-response.md)。
-
->[!NOTE]
->
->回應功能目前在Beta版中提供。
 
 ![](assets/action-response2bis.png){width="70%" align="left"}
 
