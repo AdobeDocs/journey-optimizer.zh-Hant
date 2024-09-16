@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
 workflow-type: tm+mt
-source-wordcount: '1979'
-ht-degree: 98%
+source-wordcount: '2010'
+ht-degree: 96%
 
 ---
 
@@ -262,6 +262,14 @@ ht-degree: 98%
    + [建立基於程式碼的體驗設定](using/code-based/code-based-configuration.md)
    + [實施方法範例](using/code-based/code-based-implementation-samples.md)
    + [建立程式碼型體驗](using/code-based/create-code-based.md)
++ 內容卡(LA){#content-card}
+   + [開始使用內容卡](using/content-card/get-started-content-card.md)
+   + 設定內容卡片頻道{#configure}
+      + [內容卡片先決條件](using/content-card/content-card-configuration-prereq.md)
+      + [在Journey Optimizer中設定內容卡片頻道](using/content-card/content-card-configuration.md)
+   + [建立內容卡片](using/content-card/create-content-card.md)
+   + [設計內容卡片](using/content-card/design-content-card.md)
+   + [內容卡片報表](using/content-card/content-card-report.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
    + [建立登陸頁面](using/landing-pages/create-lp.md)
