@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b560c88bf97143ca9dadf1399862165cb3f7bc62
+source-git-commit: d7d77bcbd401f7af68f644ded25d61f0921c03be
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 82%
+source-wordcount: '950'
+ht-degree: 80%
 
 ---
 
@@ -71,9 +71,15 @@ ht-degree: 82%
 </tbody>
 </table>
 
+**對象**
+
+（推出日期： 9月17日） **授權使用情況** — 授權使用情況儀表板現在會顯示可參與的設定檔，而不是可參與的對象。 [了解更多](../audience/license-usage.md)
+
 **歷程**
 
 （可用性日期： 9月10日） **重試功能** — 擷取匯出作業時，現在預設會針對對象觸發的歷程（從&#x200B;**讀取對象**&#x200B;或&#x200B;**商業事件**&#x200B;開始）套用重試。 如果在匯出作業建立期間發生錯誤，將每隔10mn進行重試，最長為1小時。 之後，我們會將其視為失敗。 因此，這些型別的歷程可在排程時間後最多1小時執行。 [了解更多](../building-journeys/read-audience.md#retries)
+
+
 
 ## 2024 年 8 月發行說明 {#8-2024}
 
