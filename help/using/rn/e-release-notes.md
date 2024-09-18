@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d998a66421c277b7a46e5f15585a9768bc360a7a
+source-git-commit: 9fdfc729346bc15f5781a7bca39c76055af71eb2
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 43%
@@ -189,7 +189,7 @@ ht-degree: 43%
 
 * [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}現在為互動式。 直接從檔案頁面探索API端點，以取得立即的回饋意見並加快您的技術實施。
 
-  所有API參考頁面現在都有&#x200B;**試用**&#x200B;功能，您可以用來直接在檔案網站頁面上測試API呼叫。 [取得必要的驗證認證](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"}並開始使用功能來探索API端點。
+  所有API參考頁面現在都有&#x200B;**試用**&#x200B;功能，您可以用來直接在檔案網站頁面上測試API呼叫。 [取得必要的驗證認證](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}並開始使用功能來探索API端點。
 
   使用此新功能來探索API端點的請求和回應，以立即獲得意見並加快您的技術實施。
 
