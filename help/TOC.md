@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
 workflow-type: tm+mt
 source-wordcount: '2010'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 96%
       + [模擬您的歷程](using/building-journeys/journey-simulation.md)
       + [發佈您的歷程](using/building-journeys/publishing-the-journey.md)
    + 管理您的歷程{#manage-journey}
-      + [設定檔入口管理](using/building-journeys/entry-management.md)
+      + [輪廓入口管理](using/building-journeys/entry-management.md)
       + [時區管理](using/building-journeys/timezone-management.md)
       + [結束您的歷程](using/building-journeys/end-journey.md)
       + [將歷程複製到另一個沙箱](using/building-journeys/copy-to-sandbox.md)
@@ -70,7 +70,7 @@ ht-degree: 96%
       + [Adobe Campaign Standard 動作](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 動作](using/building-journeys/using-adobe-campaign-v7-v8.md)
       + [跳轉](using/building-journeys/jump.md)
-      + [更新設定檔](using/building-journeys/update-profiles.md)
+      + [更新輪廓](using/building-journeys/update-profiles.md)
    + 建立運算式 {#building-advanced-conditions-journeys}
       + [使用進階運算式編輯器](using/building-journeys/expression/expressionadvanced.md)
       + 語法 {#syntax}
@@ -174,10 +174,10 @@ ht-degree: 96%
    + [檢閱及啟動行銷活動](using/campaigns/review-activate-campaign.md)
    + [管理行銷活動](using/campaigns/modify-stop-campaign.md)
    + [利用 API 觸發行銷活動](using/campaigns/api-triggered-campaigns.md)
-+ 測試您的傳遞{#test}
++ 測試您的交付項目{#test}
    + 預覽和測試內容{#preview-test}
       + [開始預覽和測試](using/content-management/preview-test.md)
-      + [選取測試設定檔](using/content-management/test-profiles.md)
+      + [選取測試輪廓](using/content-management/test-profiles.md)
       + [預覽您的內容](using/content-management/preview.md)
       + [傳送電子郵件校樣](using/content-management/proofs.md)
       + [測試電子郵件轉譯](using/content-management/rendering.md)
@@ -358,9 +358,9 @@ ht-degree: 96%
          + [使用組合畫布](using/audience/composition-canvas.md)
          + [存取及管理客群](using/audience/access-audiences.md)
       + [聯合客群構成 (可用性限制)](https://experienceleague.adobe.com/zh-hant/docs/federated-audience-composition/using/home)
-   + 設定檔{#profiles}
-      + [開始使用設定檔](using/audience/get-started-profiles.md)
-      + [建立測試設定檔](using/audience/creating-test-profiles.md)
+   + 輪廓{#profiles}
+      + [開始使用輪廓](using/audience/get-started-profiles.md)
+      + [建立測試輪廓](using/audience/creating-test-profiles.md)
       + [使用計算屬性](using/audience/computed-attributes.md)
    + [身分](using/audience/get-started-identity.md)
    + [授權使用情況](using/audience/license-usage.md)

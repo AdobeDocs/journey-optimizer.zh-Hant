@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 1c2505ba3dcd86834aa9961fa4e53cee9320724d
 workflow-type: tm+mt
 source-wordcount: '1545'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -106,7 +106,7 @@ ht-degree: 95%
 
 * **[!UICONTROL 訂閱清單]** - 在 [!DNL Journey Optimizer] 中，選擇加入訂閱服務的客戶均會收集到訂閱清單中。 [了解更多](../landing-pages/subscription-list.md)
 
-* **[!UICONTROL 設定檔]** - 即時客戶設定檔可為個別客戶建立整體檢視，並結合來自多個頻道的資料，包括線上、離線、CRM 和第三方資料。[了解更多](../audience/get-started-profiles.md)
+* **[!UICONTROL 輪廓]** - 即時客戶輪廓可為個別客戶建立整體檢視，並結合來自多個頻道的資料，包括線上、離線、CRM 和第三方資料。[了解更多](../audience/get-started-profiles.md)
 
 * **[!UICONTROL 識別]** - Adobe Experience Platform 身分服務透過 Adobe Experience Platform 的身分圖表，管理跨裝置、跨頻道及幾乎即時的客戶身分識別。[了解更多](../audience/get-started-identity.md)
 
@@ -140,13 +140,13 @@ ht-degree: 95%
 
 ## 產品內使用案例 {#in-product-uc}
 
-從 [!DNL Adobe Journey Optimizer] 首頁、產品使用案例可以快速輸入，以建立測試設定檔或第一個客戶歷程。
+從 [!DNL Adobe Journey Optimizer] 首頁、產品使用案例可以快速輸入，以建立測試輪廓或第一個客戶歷程。
 
 ![](assets/use-cases-home.png)
 
 可用的使用案例包括：
 
-* **建立測試設定檔**，以使用我們的 CSV 範本建立測試設定檔，以測試個人化訊息和歷程。在[本頁面](../audience/creating-test-profiles.md#use-case-1)瞭解如何實施此使用案例。
+* **建立測試輪廓**，以使用我們的 CSV 範本建立測試輪廓，以測試個人化訊息和歷程。在[本頁面](../audience/creating-test-profiles.md#use-case-1)瞭解如何實施此使用案例。
 * **傳送生日訊息給客戶**，以自動傳送電子郵件祝賀客戶生日。(即將推出)
 * **傳送電子郵件以吸引新客戶**，輕鬆傳送最多兩封電子郵件來歡迎新註冊的客戶。(即將推出)
 * **傳送推播訊息至匯入的客戶清單**，以快速將推播通知傳送至從 CSV 檔案匯入的客戶清單。(即將推出)
@@ -184,7 +184,7 @@ ht-degree: 95%
 * 繁體中文
 * 簡體中文
 
-您的預設介面語言是由使用者設定檔中指定的偏好語言所決定。
+您的預設介面語言是由使用者輪廓中指定的偏好語言所決定。
 
 若要變更您的語言：
 
@@ -230,13 +230,13 @@ ht-degree: 95%
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
->title="規則型別"
->abstract="規則型別"
+>title="規則類型"
+>abstract="規則類型"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
->title="優先順序檢視"
->abstract="優先順序檢視"
+>title="優先檢視"
+>abstract="優先檢視"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
@@ -315,18 +315,18 @@ ht-degree: 95%
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_change"
->title="要求變更"
->abstract="要求變更"
+>title="請求變更"
+>abstract="請求變更"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_edit_disabled"
 >title="編輯已停用"
->abstract="編輯已停用（行銷活動）"
+>abstract="編輯已停用 (行銷活動)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_edit_disabled"
 >title="編輯已停用"
->abstract="編輯已停用（歷程）"
+>abstract="編輯已停用 (歷程)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_approval_status"
@@ -336,12 +336,12 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_approve"
 >title="核准"
->abstract="核准（行銷活動）"
+>abstract="核准 (行銷活動)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_approve"
 >title="核准"
->abstract="核准（歷程）"
+>abstract="核准 (歷程)"
 
 <!--Multilingual-->
 
@@ -352,8 +352,8 @@ ht-degree: 95%
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_fallback"
->title="遞補偏好設定"
->abstract="遞補偏好設定"
+>title="遞補偏好"
+>abstract="遞補偏好"
 
 <!-- ExD in email-->
 

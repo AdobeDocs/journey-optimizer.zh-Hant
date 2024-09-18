@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d7d77bcbd401f7af68f644ded25d61f0921c03be
 workflow-type: tm+mt
 source-wordcount: '950'
-ht-degree: 80%
+ht-degree: 97%
 
 ---
 
@@ -36,17 +36,17 @@ ht-degree: 80%
 <table>
 <thead>
 <tr>
-<th><strong>AI Assistant內容加速器 </strong><br/></th>
+<th><strong>AI 助理內容加速器 </strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>在您建立並個人化訊息後，請使用Journey Optimizer中的AI Assistant for Content Acceleration將您的內容提升到新的境界。 您現在可以使用AI助理透過實驗不同的主要標題和影像，以最佳化訊息的影響。 每個變體都會視為獨特的處理來管理，以測量並比較哪個標題能有效產生更多點按次數。</p>
-<p>透過<a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，親身體驗親身體驗，讓您親身體驗功能並充分瞭解其功能。</a></p>
+<p>在您建立並個人化訊息後，對於內容加速，請在 Journey Optimizer 使用 AI 助理將內容提升到新的境界。您現在可以使用 AI 助理，使用不同的主要標題和影像進行實驗，讓訊息的影響達到最佳成效。 每個變體都會視為獨特的處理來管理，以測量並比較哪個標題能有效產生更多點按次數。</p>
+<p>透過<a href="https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，沉浸在親身體驗中，讓您親身體驗實際功能並充分瞭解其功能。</a></p>
 <p>如需詳細資訊，請參閱<a href="../content-management/gs-generative.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
-<p>推出日期： 9月12日</p>
+<p>推出日期：9 月 12 日</p>
 </td>
 </tr>
 </tbody>
@@ -64,7 +64,7 @@ ht-degree: 80%
 <p>引導式頻道設定讓您可以透過統一體驗，將頻道設定自動化，並加以驗證，便可使用 Journey Optimizer，加速快速入門的流程。 這項全新引導式設定能簡化快速頻道設定，確保能在 Experience Platform、Journey Optimizer 和資料彙集中，輕鬆安裝所有必要資源，確保一切運作都能順暢。這讓行銷、產品和資料工程團隊可以快速展開行銷活動，同時建立歷程。</p>
 <p>如需詳細資訊，請參閱<a href="../configuration/set-mobile-config.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
-<p>推出日期： 9月3日</p>
+<p>推出日期：9 月 3 日</p>
 </br>
 </td>
 </tr>
@@ -77,7 +77,7 @@ ht-degree: 80%
 
 **歷程**
 
-（可用性日期： 9月10日） **重試功能** — 擷取匯出作業時，現在預設會針對對象觸發的歷程（從&#x200B;**讀取對象**&#x200B;或&#x200B;**商業事件**&#x200B;開始）套用重試。 如果在匯出作業建立期間發生錯誤，將每隔10mn進行重試，最長為1小時。 之後，我們會將其視為失敗。 因此，這些型別的歷程可在排程時間後最多1小時執行。 [了解更多](../building-journeys/read-audience.md#retries)
+(可用日期：9月10日) **重試功能** - 擷取匯出作業時，現在預設會針對對象觸發的歷程 (從&#x200B;**讀取對象**&#x200B;或&#x200B;**商業事件**&#x200B;開始) 套用重試。如果在匯出工作建立期間發生錯誤，將每隔 10 分鐘進行重試，最長為 1 小時。在這之後，我們會將其視為失敗。因此，這些類型的歷程最多可以在預定時間後 1 小時執行。[了解更多](../building-journeys/read-audience.md#retries)
 
 
 
