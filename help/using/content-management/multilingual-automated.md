@@ -13,7 +13,7 @@ badge: label="限量開放使用" type="Informative"
 source-git-commit: a190b5547c2d8e13563391bd9d784add75c55fd4
 workflow-type: tm+mt
 source-wordcount: '1617'
-ht-degree: 3%
+ht-degree: 22%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_provider"
 >title="新增提供者"
->abstract="視需要新增翻譯提供者與地區。 這可讓您管理專案中活躍的提供者和地區，讓您靈活地根據目前的需求和專案範圍調整資源及目標對象。"
+>abstract="根據需要新增翻譯提供者和地區設定。您可以藉此管理專案目前可用的提供者和地區設定，並根據目前的要求和專案範圍彈性調整資源和目標客群。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_provider"
 >title="編輯提供者"
->abstract="修改現有的翻譯提供者，並視需要新增語言環境。 此功能可讓您控制專案中活躍的提供者與地區，讓您靈活地根據目前的需求和專案目標調整資源與鎖定特定對象。"
+>abstract="修改現有翻譯提供者並視需要新增地區設定。您可以利用此功能控制專案目前可用的提供者和地區設定，使您能夠根據目前的需求和專案目標彈性調整資源並鎖定特定客群。"
 
 >[!AVAILABILITY]
 >
@@ -52,7 +52,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_locale"
 >title="新增地區設定"
->abstract="設定您的語言偏好設定時，如果多語言內容無法使用所需的語言環境，您可以選擇建立其他語言環境。"
+>abstract="設定語言偏好設定時，如果您的多語言內容並未提供所需的地區設定，您可以選擇建立其他地區設定。"
 
 如[建立您的語言設定](#language-settings)一節中所述，設定您的語言設定時，如果多語言內容沒有特定的地區設定，您可以使用&#x200B;**[!UICONTROL 翻譯]**&#x200B;功能表彈性地建立所需數量的新地區設定。
 
@@ -73,12 +73,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_create_project"
 >title="建立專案"
->abstract="若要開始建立多語言內容，請識別目標地區設定，並為您的對象選取適當的語言或地區方言，以開始您的翻譯專案。 之後，請選擇符合專案需求的翻譯提供者。"
+>abstract="若要開始建立多語言內容，請確認目標地區設定，為您的客群選取適當的語言或當地方言來啟動翻譯專案。之後，選擇符合您專案需求的翻譯提供者。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_project"
 >title="編輯專案"
->abstract="更新您的翻譯專案以納入其他地區，讓您擴展內容以觸及更廣泛的對象。"
+>abstract="更新您的翻譯專案以加入其他地區設定，使您能夠擴展內容以接觸更廣大的客群。"
 
 透過指定Target地區設定來開始您的翻譯專案，指示內容的特定語言或地區。 之後，您可以選擇您的翻譯提供者。
 
@@ -228,12 +228,12 @@ ht-degree: 3%
 
 您現在可以啟動行銷活動或歷程。 傳送後，您可以在報表中測量多語言歷程或行銷活動的影響。
 
-## 管理內部來源翻譯專案 {#manage-ht-project}
+## 管理委內處理的翻譯專案 {#manage-ht-project}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_insourcing_project"
->title="內部來源翻譯專案"
->abstract="內部翻譯專案可讓您直接在翻譯專案中管理及執行翻譯、簡化程式，並維持翻譯品質與一致性的更佳控制。"
+>title="委內處理的翻譯專案"
+>abstract="委內處理的翻譯專案讓您直接在翻譯專案中管理和執行翻譯，簡化流程並加強控管翻譯品質和一致性。"
 
 如果您在設定語言設定時選取「內包」，則可直接在翻譯專案中翻譯內容。
 
@@ -256,12 +256,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_review_project"
 >title="檢閱您的翻譯專案"
->abstract="一旦您選擇的翻譯提供者完成翻譯，您就可以直接在Journey Optimizer中檢閱結果。 這可讓您評估翻譯的正確性和品質，確保在最終確定翻譯前，其符合您的期望和專案要求。"
+>abstract="您選擇的翻譯提供者完成翻譯後，您可以直接在 Journey Optimizer 中檢閱結果。您可以藉此評估翻譯的準確性和品質，在最終確定之前須確保其符合您的期望和專案要求。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_preview_project"
 >title="預覽您的翻譯專案"
->abstract="「預覽」視窗可讓您檢視翻譯內容在各種語言中的顯示方式。 此功能可協助您檢查轉譯，並確保所有選取的語言均可正確有效地顯示內容。"
+>abstract="您可以利用預覽視窗檢視以每一種語言顯示的翻譯內容。此功能可協助您檢查翻譯結果並確保選取的所有語言均能正確且有效地顯示內容。"
 
 如果您在您的&#x200B;**[!UICONTROL 翻譯專案]**&#x200B;中選取&#x200B;**[!UICONTROL 啟用檢閱工作流程]**，則您可在所選翻譯提供者完成之後，直接在Journey Optimizer中檢閱翻譯。
 
