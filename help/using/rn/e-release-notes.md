@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 23ff5c26620c8d7119abec5994c7ac3e7e2a208d
+source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 46%
+source-wordcount: '1008'
+ht-degree: 45%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 46%
 <tbody>
 <tr>
 <td>
-<p>您現在可以為歷程定義並組合退出條件規則。</p>
+<p>現在，您可以在歷程層級定義退出條件。 透過新增退出條件，您可以讓設定檔在事件發生時（例如：購買）或符合對象資格時立即退出歷程。 這會防止使用者從歷程取得任何進一步的通訊。</p>
 <!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/-->
 </td>
