@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9833f24479891bbf19b99674036856f585c53b3d
+source-git-commit: f5bcafb0963c5adf4a0ab307f611fd9cc0b34005
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 95%
+source-wordcount: '1797'
+ht-degree: 80%
 
 ---
 
@@ -201,22 +201,22 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="優先順序"
->abstract="為歷程指派優先順序分數，範圍從 0 到 100。 數字越高表示優先順序越高。 當兩個歷程使用相同表面時，Journey Optimizer 會選取優先順序分數最高的歷程。 如果歷程分數相同，則會選擇最近修改的歷程。"
+>abstract="為歷程指派優先順序分數，範圍從 0 到 100。 數字越高表示優先順序越高。 在此插入的優先順序值會由此歷程中包含的任何傳入動作（例如應用程式內）繼承。 若是其他行銷活動或歷程中使用了相同入站介面，優先順序分數最高的入站動作會顯示給收件者。 如果多個歷程或行銷活動具有相同的分數，則會選擇最近修改的元素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="優先順序"
->abstract="為行銷活動指派優先順序分數，範圍從 0 到 100。 數字越高表示優先順序越高。 當兩個行銷活動使用相同的表面時，Journey Optimizer 會選取優先順序分數最高的行銷活動。 如果行銷活動具有相同的分數，將會選擇最近修改的行銷活動。"
+>abstract="為行銷活動指派優先順序分數，範圍從 0 到 100。 數字越高表示優先順序越高。 若是其他行銷活動或歷程中使用了相同傳入表面（例如應用程式內），優先順序分數最高的傳入動作會顯示給收件者。 如果多個歷程或行銷活動具有相同的分數，則會選擇最近修改的元素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
 >title="行銷活動中的衝突檢視器"
->abstract="行銷活動中的衝突檢視器"
+>abstract="此工具可協助您判斷與其他歷程、行銷活動或表面的重疊。 如果您想要識別對象、開始和結束日期、頻道設定、頻道或規則集上的重疊，您可以在此處檢視潛在衝突。 "
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
 >title="歷程中的衝突檢視器"
->abstract="歷程中的衝突檢視器"
+>abstract="此工具可協助您判斷與其他歷程、行銷活動或表面的重疊。 如果您想要識別對象、開始和結束日期、頻道設定、頻道或規則集上的重疊，您可以在此處檢視潛在衝突。 "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
@@ -226,7 +226,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
 >title="將規則集套用至歷程"
->abstract="未定"
+>abstract="套用規則集以根據頻率上限規則將此歷程排除到部分對象。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
@@ -236,7 +236,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="優先檢視"
->abstract="優先檢視"
+>abstract=" 如果較高優先順序的歷程排程在此指定的時間內，則客戶將禁止進入此歷程。 若您希望以先到者輸入歷程的情況，我們建議先提供基礎，選擇每日前瞻期間，並確保當天任何其他歷程的優先順序分數小於歷程的優先順序分數。 為歷程提供100的優先順序分數也可確保已輸入。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
