@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9fdfc729346bc15f5781a7bca39c76055af71eb2
+source-git-commit: fc65a5d12af2b295cfb4bcac6f05a1f6ad4896d3
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 43%
+source-wordcount: '907'
+ht-degree: 49%
 
 ---
 
@@ -29,23 +29,21 @@ ht-degree: 43%
 
 此發行版本提供下列詳細介紹的新功能。
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>適用於行動應用程式和網站的內容卡</strong><br/></th>
+<th><strong>Content Cards for mobile apps and websites</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>內容卡是Adobe Journey Optimizer中的新數位傳訊功能，可直接在行動應用程式和網站中提供個人化且吸引人的內容。 與傳統推播通知不同，內容卡可順暢整合到使用者介面，提供永久、非侵入式更新來增強使用者互動和體驗。</p>
-<p>此功能可讓行銷人員向使用者呈現相關的豐富媒體內容，促進更高參與度，同時確保看到重要訊息，而不會中斷使用者歷程。</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
+<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -82,22 +80,37 @@ ht-degree: 43%
 </tbody>
 </table>
 
-
-
 <table>
 <thead>
 <tr>
-<th><strong>歷程中的程式碼型體驗</strong><br/></th>
+<th><strong>歷程中的全域退出條件</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>透過程式碼型體驗頻道，Adobe Journey Optimizer可讓您針對任何傳入屬性進行進階個人化和測試，實現跨不同接觸點（例如網頁應用程式、行動應用程式、案頭應用程式、視訊主控台、電視連線裝置、智慧型電視、資訊站、ATM、IoT裝置等）無縫傳送量身打造的體驗。 程式碼型體驗管道現在可在歷程畫布中使用。</p>
-<p>如需詳細資訊，請參閱<a href="../code-based/get-started-code-based.md">詳細文件</a>。</p>
+<p>您現在可以為歷程定義並組合退出條件規則。</p>
+<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/ai-content.gif"/-->
+</td>
 </tr>
 </tbody>
 </table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Code-based experiences in journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
+<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
+</tr>
+</tbody>
+</table-->
 
 
 <table>
@@ -151,25 +164,25 @@ ht-degree: 43%
 **對象**
 
 * 自訂上傳的對象 (CSV 檔案) 現在可與「隱私權與安全防護板」附加功能搭配使用。
-* 當鎖定自訂上傳 (CSV 檔案) 對象時，您現在可以在行銷活動和歷程使用檔案屬性。 這些屬性可用於個人化編輯器和歷程進階運算式編輯器來個人化您的訊息。
+  <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
 * （推出日期： 9月17日） **授權使用情況** — 授權使用情況儀表板現在會顯示可參與的設定檔，而不是可參與的對象。 [了解更多](../audience/license-usage.md)
 
 **資料控管**
 
 * 除了歷程中的自訂動作之外，您現在還可以將資料治理原則套用至Journey Optimizer管道。 此增強功能有助於防止在通訊中使用敏感欄位，方法是直接在您的管道設定中套用行銷動作。
 
+<!--
+**Frequency and priority management**
 
-**頻率和優先順序管理**
+* **Frequency capping by campaign or journey** - You can now create frequency rules to apply to your journeys, allowing you to limit the number of journeys per day, week, or month, as well as control the number of concurrent journeys running simultaneously.
 
-* **依行銷活動或歷程設定頻率上限** — 您現在可以建立頻率規則以套用至您的歷程，讓您限制每日、每週或每月的歷程次數，並控制同時執行的並行歷程次數。
+* **Priority score** - You can now assign a priority score to a campaign or a journey, ranging from 0 to 100. A higher number indicates a higher priority. When two campaigns or journeys use the same surface, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was most recently modified will be chosen. Priority score is available for all inbound channels in campaigns, and for the in-app channel in journeys.    
 
-* **優先順序分數** — 您現在可以指派優先順序分數至行銷活動或歷程，範圍從0到100。 數字越高表示優先順序越高。 當兩個行銷活動或歷程使用相同的介面時，Journey Optimizer會選取優先順序分數最高的行銷活動或歷程。 如果行銷活動具有相同的分數，將會選擇最近修改的行銷活動。 優先順序分數適用於行銷活動中的所有傳入頻道，以及歷程中的應用程式內頻道。
+* **View conflicts** - A new **View conflicts** button in journeys and campaigns now allows you to check whenever there's a possibility of overlap with other journeys or campaigns such as the start date, the targeted audience, or the selected channel configuration.
+-->
 
-* **檢視衝突** — 歷程和行銷活動中的新&#x200B;**檢視衝突**&#x200B;按鈕現在可讓您檢查與其他歷程或行銷活動重疊的可能性，例如開始日期、目標對象或選取的頻道設定。
 
 **歷程**
-
-* **全域退出條件** — 您現在可以為歷程定義和組合退出條件規則。
 
 * **即時歷程的最大數量** - Journey Optimizer在生產沙箱上現在具有500個即時歷程的護欄，而不是100個。 即時歷程的數量會顯示在歷程畫布中。
 
