@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1c2505ba3dcd86834aa9961fa4e53cee9320724d
+source-git-commit: 9833f24479891bbf19b99674036856f585c53b3d
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 99%
+source-wordcount: '1591'
+ht-degree: 95%
 
 ---
 
@@ -299,7 +299,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
 >title="資料治理原則違規"
->abstract="資料治理原則違規"
+>abstract="如果系統在歷程/行銷活動中或自訂動作中識別限制欄位，則會顯示錯誤，使您無法發佈。 使用此對話方塊中的資料歷程圖表來瞭解在您啟動歷程或行銷活動之前，需要進行哪些其他設定變更。"
 
 <!--APPROVAL POLICIES-->
 
