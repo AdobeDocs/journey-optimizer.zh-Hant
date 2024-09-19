@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: fc65a5d12af2b295cfb4bcac6f05a1f6ad4896d3
+source-git-commit: 777286e2c3e0fa6458f1f503756b0494cbcc9020
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 49%
+source-wordcount: '956'
+ht-degree: 50%
 
 ---
 
@@ -193,6 +193,7 @@ ht-degree: 49%
 **電子郵件頻道**
 
 * **密件副本郵件標題** — 已新增新的標題至所有電子郵件訊息。 此標頭的值對於每個已傳送的電子郵件及其對應的密件副本都是獨一無二的。 此標頭也儲存在訊息和密件副本回饋資料集中，可協調密件副本和對應的已傳送電子郵件資訊。
+* **垃圾郵件評分** (GA) — 您現在可以在專用的垃圾郵件報告中檢查您的內容垃圾郵件評分。 使用 SpamAssassin，Adobe Journey Optimizer 現在可以測試您的電子郵件內容並為其評分，以指出 ISP 或信箱提供者是否將其視為垃圾郵件。 [閱讀全文](../content-management/spam-report.md)
 
 **簡訊頻道**
 
