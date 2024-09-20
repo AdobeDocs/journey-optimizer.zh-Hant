@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
+source-git-commit: 88e85f79cc55899f8b803c37f660971751353e30
 workflow-type: tm+mt
 source-wordcount: '1588'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
 
@@ -172,10 +172,10 @@ ht-degree: 65%
 
 此發行版本隨附下列改進項目。
 
-**對象**
+**客群**
 
-* 自訂上傳的對象 (CSV 檔案) 現在可與「隱私權與安全防護板」附加功能搭配使用。
-  <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
+<!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.
+* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
 * （推出日期： 9月17日） **授權使用情況** — 授權使用情況儀表板現在會顯示可參與的設定檔，而不是可參與的對象。 [了解更多](../audience/license-usage.md)
 
 **資料控管**
@@ -210,9 +210,12 @@ ht-degree: 65%
 
 **簡訊頻道**
 
-* 您現在可以修改現有的簡訊設定
+* **編輯API認證** — 您現在可以編輯SMS API認證中的設定，包括更新選擇加入/退出關鍵字和回覆。
+* 您現在可以修改現有的 SMS 設定。
 
 **API**
+
+* **促銷活動模擬API** — 使用此API來觸發促銷活動的證明工作。 傳送Campaign校訂是非同步程式，API將傳回proofJobId，可用於檢查校訂的狀態。 [了解更多](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
 * [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}現在為互動式。 直接從檔案頁面探索API端點，以取得立即的回饋意見並加快您的技術實施。
 
@@ -223,9 +226,6 @@ ht-degree: 65%
   >[!CAUTION]
   >
   >請注意，使用文件頁面上的互動式 API 功能時，就是在對端點進行真正的 API 呼叫。在試驗生產沙箱時，請記住這一點。
-
-
-* **促銷活動模擬API** — 使用此API來觸發促銷活動的證明工作。 傳送Campaign校訂是非同步程式，API將傳回proofJobId，可用於檢查校訂的狀態。 [了解更多](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
 
 ## 2024 年 8 月發行說明 {#8-2024}
