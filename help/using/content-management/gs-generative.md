@@ -11,11 +11,11 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 9de2f498e104d316491e6061cbd851b2eb506036
 workflow-type: tm+mt
 source-wordcount: '884'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
-# 開始使用AI Assistant內容加速器 {#gs-content-assistant}
+# 開始使用 AI 助理內容加速器 {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"

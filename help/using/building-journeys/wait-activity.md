@@ -12,7 +12,7 @@ exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -114,6 +114,6 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node "
 >title="關於自動等待節點"
->abstract="此活動後會自動新增&#x200B;**等待**&#x200B;活動。 會設定3天。 您可以視需要移除或設定它。"
+>abstract="系統會在此活動之後自動新增&#x200B;**等待**&#x200B;活動。等待活動的時間設為 3 天。您可以視需求移除或設定等待活動。"
 
 每個傳入訊息活動（應用程式內訊息、程式碼型體驗或卡片）都隨附3天的&#x200B;**等待**&#x200B;活動。 由於當設定檔到達歷程終點時，傳入訊息會自動結束，因此我們假設您想要使用者至少在3天內看到它。 您可以移除此&#x200B;**等待**&#x200B;活動，或視需要變更其設定。
