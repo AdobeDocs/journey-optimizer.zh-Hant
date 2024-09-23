@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6229f295b961b0535139b64928216e40c3759947
+source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
 workflow-type: tm+mt
-source-wordcount: '1789'
-ht-degree: 80%
+source-wordcount: '1558'
+ht-degree: 89%
 
 ---
 
@@ -197,26 +197,6 @@ ht-degree: 80%
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
 <!--PRIORITIZATION & CONFLICT MANAGEMENT-->
-
->[!CONTEXTUALHELP]
->id="ajo_journey_priority"
->title="優先順序"
->abstract="為歷程指派優先順序分數，範圍從 0 到 100。 數字越高表示優先順序越高。 在此插入的優先順序值會由此歷程中包含的任何傳入動作（例如應用程式內）繼承。 若是其他行銷活動或歷程中使用了相同入站介面，優先順序分數最高的入站動作會顯示給收件者。 如果多個歷程或行銷活動具有相同的分數，則會選擇最近修改的元素。"
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_priority"
->title="優先順序"
->abstract="為行銷活動指派優先順序分數，範圍從 0 到 100。 數字越高表示優先順序越高。 若是其他行銷活動或歷程中使用了相同傳入表面（例如應用程式內），優先順序分數最高的傳入動作會顯示給收件者。 如果多個歷程或行銷活動具有相同的分數，則會選擇最近修改的元素。"
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_conflict"
->title="行銷活動中的衝突檢視器"
->abstract="此工具可協助您判斷與其他歷程、行銷活動或表面的重疊。 如果您想要識別對象、開始和結束日期、頻道設定、頻道或規則集上的重疊，您可以在此處檢視潛在衝突。 "
-
->[!CONTEXTUALHELP]
->id="ajo_journey_conflict"
->title="歷程中的衝突檢視器"
->abstract="此工具可協助您判斷與其他歷程、行銷活動或表面的重疊。 如果您想要識別對象、開始和結束日期、頻道設定、頻道或規則集上的重疊，您可以在此處檢視潛在衝突。 "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
