@@ -24,7 +24,7 @@ ht-degree: 21%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
->title="限制符合資格的設定檔"
+>title="限制符合資格的輪廓"
 >abstract="您可以限制此選擇策略的優惠選擇。 預設情況下，所有輪廓都符合資格，但您可以使用客群或規則將優惠選擇限制為僅限特定輪廓。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用客群"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="使用決定規則"
@@ -88,7 +88,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_ranking"
 >title="定義如何對優惠進行排名"
->abstract="如果多個優惠符合特定的選擇策略，請在建立選擇策略時選擇為每個設定檔選取最佳優惠的方法：優先順序或排名公式。"
+>abstract="如果多個產品建議符合特定的選擇策略，請在建立選擇策略時選擇為每個輪廓選取最佳優惠的方法：優先順序或排名公式。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="建立決定原則"
 
 如果數個優惠方案符合指定的選取策略資格，您可以選擇在建立選取策略時，用來選取每個設定檔之最佳優惠方案的方法。 您可以依下列方式排名優惠方案：

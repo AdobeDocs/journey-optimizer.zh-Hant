@@ -65,7 +65,7 @@ ht-degree: 17%
 >id="ajo_journey_properties_entrance"
 >title="允許重新進入"
 >abstract="預設情況下，新歷程允許重新進入。例如，如果您想在某人進入商店時提供一次性禮物，您可以取消選取「**允許重新進入**」選項。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="設定檔入口管理"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="輪廓入口管理"
 
 預設情況下，新歷程允許重新進入。您可以取消勾選「單次」歷程的&#x200B;**允許重新進入**&#x200B;選項，例如，如果您想要在某人進入商店時提供一次性禮物。
 
@@ -74,8 +74,8 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="重新進入等待期"
->abstract=" 設定允許設定檔在單一歷程中再次進入歷程之前等待的時間。這會防止使用者在選定的期間內重新進入歷程。最長持續時間：90 天。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="設定檔入口管理"
+>abstract=" 設定允許輪廓在單一歷程中再次進入歷程之前等待的時間。這會防止使用者在選定的期間內重新進入歷程。最長持續時間：90 天。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="輪廓入口管理"
 
 當啟動&#x200B;**允許重新進入**&#x200B;選項時，會顯示&#x200B;**重新進入等待期間**&#x200B;欄位。 此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或客群資格開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 持續時間上限為90天。
 
@@ -103,11 +103,11 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="結束日期"
->abstract="選擇歷程的結束日期。當到達該日期時，該歷程中的設定檔會自動退出，新的設定檔將無法再進入。"
+>abstract="選擇歷程的結束日期。當到達該日期時，該歷程中的輪廓會自動退出，新的輪廓將無法再進入。"
 
 您可以定義&#x200B;**開始日期**。 如果您尚未指定，則會在發佈時自動定義。
 
-您也可以新增&#x200B;**結束日期**。 這可讓設定檔在達到日期時自動退出。 如果未指定結束日期，則設定檔可以保留到[全域歷程逾時](#global_timeout) （通常為91天）為止。 唯一的例外是循環讀取對象歷程，其中&#x200B;**在循環**&#x200B;上強制重新進入，結束於下一個事件的開始日期。
+您也可以新增&#x200B;**結束日期**。 這可讓輪廓在達到日期時自動退出。 如果未指定結束日期，則設定檔可以保留到[全域歷程逾時](#global_timeout) （通常為91天）為止。 唯一的例外是循環讀取對象歷程，其中&#x200B;**在循環**&#x200B;上強制重新進入，結束於下一個事件的開始日期。
 
 ## 逾時 {#timeout}
 

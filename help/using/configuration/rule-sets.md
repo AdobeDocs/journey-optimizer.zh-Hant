@@ -84,7 +84,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_capping"
 >title="設定規則的上限"
->abstract="指定在所選時間範圍內傳送至客戶設定檔的最大訊息數量。頻率上限會以所選的行事曆期間為基礎，並會在對應的時間段開始時重設。 "
+>abstract="指定在所選時間範圍內傳送至客戶輪廓的最大訊息數量。頻率上限會以所選的行事曆期間為基礎，並會在對應的時間段開始時重設。 "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"

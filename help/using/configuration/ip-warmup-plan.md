@@ -266,7 +266,7 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將收集到&#x200B
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="指定您的 IP 暖身計劃"
->abstract="在 Excel 範本中填入將成為計劃內容的所有資料，例如 IP 暖身階段以及個人資料的目標數量，然後在此處上傳。"
+>abstract="在 Excel 範本中填入將成為計劃內容的所有資料，例如 IP 暖身階段以及輪廓的目標數量，然後在此處上傳。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="準備 IP 暖身計畫檔案"
 
 >[!CONTEXTUALHELP]

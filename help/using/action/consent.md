@@ -10,7 +10,7 @@ level: Experienced
 keywords: 原則、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1388'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 * 對於本機出站管道 (電子郵件、推播、簡訊、直接右鍵)，邏輯如下：
 
-   * 預設情況下，如果設定檔選擇不接收您的通訊，則相應的設定檔將被排除在後續傳送之外。
+   * 預設情況下，如果輪廓選擇不接收您的通訊，則相應的輪廓將被排除在後續傳送之外。
 
    * 如果您有 Adobe **Healthcare Shield** 或者 **Privacy and Security Shield**，您可以建立覆蓋預設邏輯的自訂同意原則。 例如，您可以定義一項原則，僅向所有選擇加入的個人傳送電子郵件。如果沒有自訂原則，則套用預設原則。
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 若要修改同意欄位值，您可以建立自訂同意原則，在其中定義行銷動作以及執行該動作的條件。[了解有關行銷活動的更多資訊](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant#marketing-actions){target="_blank"}
 
-例如，如果您想要建立同意原則以僅針對同意接收電子郵件通訊的設定檔，請依照下列步驟操作。
+例如，如果您想要建立同意原則以僅針對同意接收電子郵件通訊的輪廓，請依照下列步驟操作。
 
 1. 確保您的組織已購買 Adobe **Healthcare Shield** 或者 **Privacy and Security Shield** 附加產品。[了解更多](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html?lang=zh-Hant){target="_blank"}
 
@@ -79,7 +79,7 @@ ht-degree: 100%
 
 該行銷動作相關的所有同意原則都會自動利用，以尊重客戶的偏好設定。
 
-因此，在此範例中，任何[電子郵件](../email/create-email.md)在活動或歷程中使用該設定，只會傳送給同意接收您電子郵件的設定檔。不同意接收電子郵件通訊的個人資料被排除在外。
+因此，在此範例中，任何[電子郵件](../email/create-email.md)在活動或歷程中使用該設定，只會傳送給同意接收您電子郵件的輪廓。不同意接收電子郵件通訊的輪廓被排除在外。
 
 ## 透過自訂動作運用同意政策 {#journey-custom-actions}
 
@@ -96,7 +96,7 @@ ht-degree: 100%
 
 歷程使用的所有其他活動都不會納入考量。 如果您以客群資格開始歷程，則不會將客群納入考量。
 
-在歷程中，如果自訂動作的同意原則排除設定檔，則不會傳送訊息給他，但他會繼續歷程。 當使用條件時，設定檔不會前往逾時與錯誤路徑。
+在歷程中，如果自訂動作的同意原則排除輪廓，則不會傳送訊息給他，但他會繼續歷程。 當使用條件時，輪廓不會前往逾時與錯誤路徑。
 
 在重新整理位於歷程自訂動作的原則之前，請確定您的歷程無誤。
 
@@ -143,7 +143,7 @@ There are two types of latency regarding the use of consent policies:
 >[!CONTEXTUALHELP]
 >id="ajo_consent_refresh_policies_canvas"
 >title="視覺化呈現要在執行階段套用的同意原則"
->abstract="行銷動作會引入同意原則，該原則會結合動作參數與個別設定檔同意值，以篩選使用者。 按一下按鈕重新整理，以取得這些原則的最新定義。"
+>abstract="行銷動作會引入同意原則，該原則會結合動作參數與個別輪廓同意值，以篩選使用者。 按一下按鈕重新整理，以取得這些原則的最新定義。"
 
 當新增自訂動作至歷程時，您可利用數個選項管理同意。按一下&#x200B;**顯示唯讀欄位**&#x200B;以顯示所有參數。
 

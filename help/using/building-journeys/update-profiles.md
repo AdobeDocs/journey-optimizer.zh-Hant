@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 更新設定檔
+title: 更新輪廓
 description: 瞭解如何在歷程中使用更新設定檔活動
 feature: Journeys, Profiles, Activities
 topic: Content Management
@@ -16,12 +16,12 @@ ht-degree: 6%
 
 ---
 
-# 更新設定檔 {#update-profile}
+# 更新輪廓 {#update-profile}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
->title="更新設定檔活動"
->abstract="更新設定檔的動作活動可讓您利用來自事件、資料來源或使用特定值的資訊來更新現有的 Adobe Experience Platform 設定檔。"
+>title="更新輪廓活動"
+>abstract="更新輪廓的動作活動可讓您利用來自事件的資訊、資料源或使用特定值來更新現有的 Adobe Experience Platform 輪廓。"
 
 使用&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;動作活動，使用來自事件、資料來源的資訊或特定值來更新現有的Adobe Experience Platform設定檔。
 

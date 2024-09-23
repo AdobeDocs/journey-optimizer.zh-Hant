@@ -21,9 +21,9 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
 >title="Adobe Experience Platform 資料來源"
->abstract="Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶設定檔的連線。此資料來源是內建和預先設定的，並無法刪除。它旨在從即時客戶設定檔服務中擷取和使用資料 (例如，檢查進入歷程的人是否為女性)。它可讓您使用設定檔資料和體驗事件資料。"
+>abstract="Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶輪廓的連線。此資料來源是內建和預先設定的，並無法刪除。它旨在從即時客戶輪廓服務中擷取和使用資料 (例如，檢查進入歷程的人是否為女性)。它可讓您使用輪廓資料和體驗事件資料。"
 
-Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶設定檔的連線。此資料來源是內建和預先設定的，並無法刪除。此資料來源旨在擷取及使用即時客戶個人檔案服務的資料（例如，檢查進入歷程的人員是否為女性）。 其可讓您使用個人檔資料與體驗事件資料。 如需Adobe即時客戶個人檔案的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}。
+Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶輪廓的連線。此資料來源是內建和預先設定的，並無法刪除。此資料來源旨在擷取及使用即時客戶個人檔案服務的資料（例如，檢查進入歷程的人員是否為女性）。 其可讓您使用個人檔資料與體驗事件資料。 如需Adobe即時客戶個人檔案的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}。
 
 若要允許連線到即時客戶個人檔案服務，我們必須使用金鑰來識別人員，並使用名稱空間將金鑰內容化。 因此，如果您的歷程以包含索引鍵和名稱空間的事件開始，您只能使用此資料來源。 [了解更多](../building-journeys/journey.md)。
 

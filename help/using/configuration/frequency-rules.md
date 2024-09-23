@@ -21,7 +21,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
 >title="業務規則"
->abstract="訊息頻率規則是一種業務規則，用於限制使用者跨一個或多個管道接收訊息或進入歷程的次數。這些跨管道規則會自動從訊息和動作中排除過度請求的設定檔。"
+>abstract="訊息頻率規則是一種業務規則，用於限制使用者跨一個或多個管道接收訊息或進入歷程的次數。這些跨管道規則會自動從訊息和動作中排除過度請求的輪廓。"
 
 [!DNL Journey Optimizer]可讓您控制使用者經由一或多個頻道接收訊息或進入歷程的頻率。 訊息頻率規則，可自動從訊息和動作中排除過度請求的設定檔。
 
@@ -61,7 +61,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="設定業務規則的上限"
->abstract="指定在所選時間範圍內傳送至客戶設定檔的最大訊息數量。頻率上限會以所選的行事曆期間為基礎，並會在對應的時間段開始時重設。 "
+>abstract="指定在所選時間範圍內傳送至客戶輪廓的最大訊息數量。頻率上限會以所選的行事曆期間為基礎，並會在對應的時間段開始時重設。 "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"

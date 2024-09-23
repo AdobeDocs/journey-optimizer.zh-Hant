@@ -26,7 +26,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address_header"
 >title="定義要使用的地址"
->abstract="編輯用於確定設定檔的電子郵件地址或電話號碼的欄位以優先傳送。"
+>abstract="編輯用於確定輪廓的電子郵件地址或電話號碼的欄位以優先傳送。"
 
 當您定位設定檔時，資料庫中可能會提供數個電子郵件地址或電話號碼（專業電子郵件地址、個人電話號碼等）。
 

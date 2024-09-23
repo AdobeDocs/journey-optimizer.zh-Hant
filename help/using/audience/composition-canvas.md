@@ -97,7 +97,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude_type"
 >title="排除類型"
->abstract="使用排除客群類型以排除屬於現有客群的輪廓。使用屬性類型的排除可讓您根據特定屬性排除設定檔。"
+>abstract="使用排除客群類型以排除屬於現有客群的輪廓。使用屬性類型的排除可讓您根據特定屬性排除輪廓。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
@@ -170,12 +170,12 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
 >title="排名活動"
->abstract="排名可讓您根據特定屬性對設定檔進行排名，並將它們包含在您的組合中。例如，包含忠誠度點數最多的 50 個設定檔。"
+>abstract="排名可讓您根據特定屬性對輪廓進行排名，並將它們包含在您的組合中。例如，包含忠誠度點數最多的 50 個輪廓。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
->title="新增設定檔限制"
->abstract="開啟此選項以指定要包含在組合中的設定檔的最大數量。"
+>title="新增輪廓限制"
+>abstract="開啟此選項以指定要包含在組合中的輪廓的最大數量。"
 
 **[!UICONTROL 排名]**&#x200B;活動可讓您根據特定屬性來排名設定檔，並將它們納入您的組合中。 例如，您可以包含忠誠度點數最高的50個設定檔。
 
@@ -204,12 +204,12 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
 >title="分割類型"
->abstract="使用百分比分割類型將設定檔隨機分割為多個路徑。屬性分割類型可讓您根據特定屬性分割設定檔。"
+>abstract="使用百分比分割類型將輪廓隨機分割為多個路徑。屬性分割類型可讓您根據特定屬性分割輪廓。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_otherprofiles_text"
->title="其他設定檔"
->abstract="開啟此選項以建立額外路徑，其中剩餘的設定檔和其他路徑中指定的任何條件都不相符。"
+>title="其他輪廓"
+>abstract="若剩餘的輪廓和其他路徑中指定的任何條件都不相符，開啟此選項為剩餘輪廓建立額外路徑。"
 
 **[!UICONTROL 分割]**&#x200B;活動可讓您將撰寫分割成多個路徑。
 

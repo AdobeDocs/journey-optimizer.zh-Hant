@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
 source-wordcount: '4851'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 22%
 
 >[!AVAILABILITY]
 >
->目前的報告體驗將於10月發行後淘汰。 在此日期之後，新的報告體驗將成為標準。 建議您熟悉新功能，以確保順利轉換。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
+>目前的報告體驗將於 10 月版本發行後淘汰。在此日期之後，新的報告體驗將成為標準體驗。建議您熟悉新功能，以確保順利轉換。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
 
 全域報告可從&#x200B;**所有時間**&#x200B;標籤存取，可顯示至少兩小時前發生的事件，並涵蓋所選時段內的事件。 相較之下，即時報表著重於過去24小時內發生的事件，最短間隔為事件發生後的2分鐘。
 
@@ -53,7 +53,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_delivery_global"
 >title="行銷活動的統計資料"
->abstract="行銷活動的統計資料介面工具詳細說明與行銷活動相關的主要資訊，例如所輸入的設定檔及已完成的動作。"
+>abstract="行銷活動的統計資料介面工具詳細說明與行銷活動相關的主要資訊，例如所輸入的輪廓及已完成的動作。"
 
 ![](assets/campaign_report_global_1.png)
 
@@ -88,7 +88,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
 >title="成功量度"
->abstract="先前在建立實驗時選取的成功量度的總值除以設定檔的數量。"
+>abstract="先前在建立實驗時選取的成功量度的總值除以輪廓的數量。"
 
 ![](assets/experimentation_report_3.png)
 
@@ -168,7 +168,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_tracking_statistics"
 >title="電子郵件 - 追蹤統計資料"
->abstract="「電子郵件 - 追蹤統計資料」表格提供你的電子郵件設定檔活動的資料。"
+>abstract="「電子郵件 - 追蹤統計資料」表格提供你的電子郵件輪廓活動的資料。"
 
 ![](assets/campaign_email_tracking.png)
 
@@ -533,7 +533,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_tracking_statistics"
 >title="推播通知 - 追蹤統計資料"
->abstract="「推播追蹤統計資料」提供有關推播通知的設定檔活動的資料。"
+>abstract="「推播追蹤統計資料」提供有關推播通知的輪廓活動的資料。"
 
 ![](assets/campaign_push_tracking.png)
 
@@ -623,7 +623,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="推播通知 - 依平台劃分"
->abstract="「推播通知 - 依平台劃分」圖表和表格，會根據設定檔的作業系統提供推播通知成功傳送的劃分資料。"
+>abstract="「推播通知 - 依平台劃分」圖表和表格，會根據輪廓的作業系統提供推播通知成功傳送的劃分資料。"
 
 ![](assets/campaign_push_breakdown.png)
 

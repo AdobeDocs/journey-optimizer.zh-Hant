@@ -18,7 +18,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation"
 >title="模擬報價決策"
->abstract="模擬功能可讓您模擬出特定位置有哪些報價會傳送至測試設定檔。這讓您能夠在不影響目標收件者的情況下，測試和改善各種版本的報價。"
+>abstract="模擬功能可讓您模擬出特定位置有哪些產品建議會傳送至測試輪廓。這讓您能夠在不影響目標收件者的情況下，測試和改善各種版本的報價。"
 
 ## 關於模擬 {#about-simulation}
 
@@ -44,12 +44,12 @@ ht-degree: 12%
 ➡️ [Discover this feature in video](#video)
 -->
 
-## 選取測試設定檔 {#select-test-profiles}
+## 選取測試輪廓 {#select-test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation_test_profile"
->title="新增測試設定檔"
->abstract="您可以透過選取身分識別命名空間和相對應的身分識別值來新增測試設定檔。您必須擁有已可供使用的測試設定檔才能將它們用於模擬。"
+>title="新增測試輪廓"
+>abstract="您可以透過選取身分命名空間和相對應的身分值來新增測試輪廓。您必須擁有已可供使用的測試輪廓才能將它們用於模擬。"
 
 首先，您需要選取要用於模擬的測試設定檔。
 

@@ -1,5 +1,5 @@
 ---
-title: 選取測試設定檔
+title: 選取測試輪廓
 description: 瞭解如何選取測試設定檔以預覽和測試內容。
 feature: Preview, Proofs
 role: User
@@ -12,12 +12,12 @@ ht-degree: 16%
 
 ---
 
-# 選取測試設定檔 {#select-test-profiles}
+# 選取測試輪廓 {#select-test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"
->title="使用測試設定檔檢查您的內容"
->abstract="使用測試設定檔預覽和測試您的內容。 如果您新增了個人化欄位，可以使用測試設定檔資料檢查它們的顯示方式。"
+>title="使用測試輪廓檢查您的內容"
+>abstract="使用測試輪廓預覽和測試您的內容。 如果您新增了個人化欄位，可以使用測試輪廓資料檢查它們的顯示方式。"
 
 預覽或測試內容之前，您必須先選取測試設定檔，這些是不符合已定義定位准則的其他收件者。 [瞭解如何建立測試設定檔](../audience/creating-test-profiles.md)
 

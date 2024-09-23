@@ -24,7 +24,7 @@ ht-degree: 30%
 
 >[!AVAILABILITY]
 >
->目前的報告體驗將於10月發行後淘汰。 在此日期之後，新的報告體驗將成為標準。 建議您熟悉新功能，以確保順利轉換。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
+>目前的報告體驗將於 10 月版本發行後淘汰。在此日期之後，新的報告體驗將成為標準體驗。建議您熟悉新功能，以確保順利轉換。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
 
 從「最近24小時」索引標籤存取的即時報告，會顯示過去24小時內發生的事件，從事件發生起的最短時間間隔為兩分鐘。 相較之下，全域報表著重於至少兩小時前發生的事件，並涵蓋選定時段內的事件。
 
@@ -53,7 +53,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance_live"
 >title="歷程的績效"
->abstract="「歷程的績效」Widget 可讓您以視覺化方式追蹤目標設定檔於過去 24 小時內在您的歷程中的進展路徑。"
+>abstract="「歷程的績效」Widget 可讓您以視覺化方式追蹤目標輪廓於過去 24 小時內在您的歷程中的進展路徑。"
 
 ![](assets/journey_live_performance.png)
 
@@ -206,7 +206,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_statistics_live"
 >title="電子郵件 - 統計資料"
->abstract="「電子郵件 - 統計資料」表格提供過去 24 小時內你的電子郵件的設定檔活動資料。"
+>abstract="「電子郵件 - 統計資料」表格提供過去 24 小時內你的電子郵件的輪廓活動資料。"
 
 ![](assets/journey_live_email_statistics.png)
 

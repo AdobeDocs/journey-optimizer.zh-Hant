@@ -17,7 +17,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
 >title="檢查您的內容的呈現方式"
->abstract="定義內容後，您可以使用測試設定檔進行預覽，並根據您使用的管道檢查呈現是否正確。"
+>abstract="定義內容後，您可以使用測試輪廓進行預覽，並根據您使用的管道檢查呈現是否正確。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_simulate"

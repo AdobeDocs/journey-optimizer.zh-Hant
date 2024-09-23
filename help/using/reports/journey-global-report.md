@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
 source-wordcount: '4457'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 26%
 
 >[!AVAILABILITY]
 >
->目前的報告體驗將於10月發行後淘汰。 在此日期之後，新的報告體驗將成為標準。 建議您熟悉新功能，以確保順利轉換。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
+>目前的報告體驗將於 10 月版本發行後淘汰。在此日期之後，新的報告體驗將成為標準體驗。建議您熟悉新功能，以確保順利轉換。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
 
 全域報告可從「所有時間」標籤存取，它會顯示至少兩小時前發生的事件，以及所選時段內的封面事件。 相較之下，即時報表著重於過去24小時內發生的事件，最短間隔為事件發生後的2分鐘。
 
@@ -53,7 +53,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance"
 >title="歷程績效"
->abstract="「歷程績效」Widget 使您能夠以視覺化方式追蹤目標設定檔在您的歷程中的進展路徑。"
+>abstract="「歷程績效」Widget 使您能夠以視覺化方式追蹤目標輪廓在您的歷程中的進展路徑。"
 
 ![](assets/journey_performance.png)
 
@@ -161,7 +161,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_consent_policies"
 >title="同意原則"
->abstract="「同意原則」表格和圖表顯示從自訂動作的每項原則中排除的設定檔數量。此呈現內容可讓您清楚了解每項同意政策對設定檔排除造成的影響。"
+>abstract="「同意原則」表格和圖表顯示從自訂動作的每項原則中排除的輪廓數量。此呈現內容可讓您清楚了解每項同意政策對輪廓排除造成的影響。"
 
 ![](assets/journey_consent.png)
 
@@ -217,7 +217,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_tracking_statistics"
 >title="電子郵件 - 追蹤統計資料"
->abstract="「電子郵件 - 追蹤統計資料」表格提供你的電子郵件設定檔活動的資料。"
+>abstract="「電子郵件 - 追蹤統計資料」表格提供你的電子郵件輪廓活動的資料。"
 
 ![](assets/journey_email_tracking.png)
 
@@ -499,7 +499,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_tracking_statistics"
 >title="推播通知 - 追蹤統計資料"
->abstract="「推播追蹤統計資料」提供有關推播通知的設定檔活動的資料。"
+>abstract="「推播追蹤統計資料」提供有關推播通知的輪廓活動的資料。"
 
 **[!UICONTROL 推播 — 追蹤統計資料]** Widget提供與您的推播通知連結的設定檔活動詳細快照，提供參與和推播通知有效性的基本深入分析。
 
@@ -567,7 +567,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_breakdown_platform"
 >title="推播通知 - 依平台劃分"
->abstract="「推播通知 - 依平台劃分」圖表和表格，會根據設定檔的作業系統提供推播通知成功傳送的劃分資料。"
+>abstract="「推播通知 - 依平台劃分」圖表和表格，會根據輪廓的作業系統提供推播通知成功傳送的劃分資料。"
 
 ![](assets/journey_push_breakdown.png)
 

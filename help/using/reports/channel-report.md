@@ -11,7 +11,7 @@ exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
 source-wordcount: '3728'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 26%
 
 >[!AVAILABILITY]
 >
->目前的報告體驗將於10月發行後淘汰。 在此日期之後，新的報告體驗將成為標準。 建議您熟悉新功能，以確保順利轉換。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
+>目前的報告體驗將於 10 月版本發行後淘汰。在此日期之後，新的報告體驗將成為標準體驗。建議您熟悉新功能，以確保順利轉換。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
 
 >[!IMPORTANT]
 >
@@ -89,7 +89,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics"
 >title="電子郵件 - 追蹤統計資料總計"
->abstract="電子郵件 - 追蹤統計資料總計 KPI 提供有關你的電子郵件的設定檔活動的資料。"
+>abstract="電子郵件 - 追蹤統計資料總計 KPI 提供有關你的電子郵件的輪廓活動的資料。"
 
 ![](assets/channel_email_total_tracking.png)
 
@@ -143,7 +143,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics_overtime"
 >title="電子郵件 - 時間區間內追蹤統計資料"
->abstract="「電子郵件 - 時間區間內追蹤統計資料」圖表提供有關你的電子郵件的設定檔活動相關資料，依每小時、每天、每週或每月進行劃分。"
+>abstract="「電子郵件 - 時間區間內追蹤統計資料」圖表提供有關你的電子郵件的輪廓活動相關資料，依每小時、每天、每週或每月進行劃分。"
 
 ![](assets/channel_email_tracking_overtime.png)
 
@@ -323,7 +323,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics"
 >title="推播通知 - 追蹤統計資料總計"
->abstract="「推播通知 - 追蹤統計資料總計」提供有關推播通知的設定檔活動的資料。"
+>abstract="「推播通知 - 追蹤統計資料總計」提供有關推播通知的輪廓活動的資料。"
 
 **[!UICONTROL 推播通知 — 追蹤統計資料總計]** Widget提供與您的推播通知相連結之設定檔活動的詳細快照，提供參與和推播通知有效性的基本深入分析。
 
@@ -367,7 +367,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_overtime"
 >title="推播通知 - 時間區間內追蹤統計資料"
->abstract="「推播通知 - 時間區間內追蹤統計資料」圖表提供有關你的推播通知的設定檔活動相關資料，依每小時、每天、每週或每月劃分顯示。"
+>abstract="「推播通知 - 時間區間內追蹤統計資料」圖表提供有關你的推播通知的輪廓活動相關資料，依每小時、每天、每週或每月劃分顯示。"
 
 **[!UICONTROL 推播通知 — 追蹤一段時間內的統計資料]**&#x200B;圖表提供與您的推播通知相關的設定檔活動的詳細概觀。 此圖形表示法以每小時、每日、每週或每月為基準劃分資料，提供收件者參與度如何隨著不同時間間隔演變的寶貴見解。
 
@@ -408,7 +408,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_platform"
 >title="依平台劃分的追蹤統計資料"
->abstract="「依平台劃分的追蹤統計資料」圖表和表格根據你的設定檔的作業系統提供推播通知的設定檔活動相關資料。"
+>abstract="「依平台劃分的追蹤統計資料」圖表和表格根據你的輪廓的作業系統提供推播通知的輪廓活動相關資料。"
 
 **[!UICONTROL 推播通知 — 依據平台的追蹤]**&#x200B;圖形和表格會根據您設定檔的作業系統，詳細描述推播通知的收件者活動。
 
@@ -467,7 +467,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_tracking_statistics"
 >title="簡訊 - 追蹤統計資料總計"
->abstract="「SMS - 追蹤統計資料總計」提供有關你的簡訊的設定檔活動相關資料。"
+>abstract="「SMS - 追蹤統計資料總計」提供有關你的簡訊的輪廓活動相關資料。"
 
 ![](assets/channel_sms_tracking.png)
 
@@ -501,7 +501,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_tracking_statistics_overtime"
 >title="簡訊 - 時間區間內追蹤統計資料"
->abstract="「簡訊 - 時間區間內追蹤統計資料」圖表提供有關你的簡訊的設定檔活動相關資料，依每小時、每天、每週或每月劃分顯示。"
+>abstract="「簡訊 - 時間區間內追蹤統計資料」圖表提供有關你的簡訊的輪廓活動相關資料，依每小時、每天、每週或每月劃分顯示。"
 
 ![](assets/channel_sms_tracking_overtime.png)
 
