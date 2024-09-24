@@ -10,14 +10,19 @@ level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="限量開放使用" type="Informative"
-source-git-commit: 34156eb7f801586154506fbb18546d705e542f25
+source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 22%
+source-wordcount: '449'
+ht-degree: 21%
 
 ---
 
 # 開始使用多語言內容 {#multilingual-gs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_translation_homepage"
+>title="翻譯"
+>abstract="多語言功能可讓您在單一行銷活動或歷程中，輕鬆建立多種語言的內容。 透過翻譯頁面，您可以設定專案、選取翻譯提供者或管理地區特定字典"
 
 >[!AVAILABILITY]
 >
