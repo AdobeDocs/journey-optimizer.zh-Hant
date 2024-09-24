@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 查詢，集合，函式，裝載，歷程
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: b58d6bbcf2311be3f841f7eef0c0bf10692f1704
+source-git-commit: 1ba767ba8d2ecaabc17b717a983e7ad285dd52bb
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '696'
 ht-degree: 1%
 
 ---
@@ -236,10 +236,14 @@ _`<listExpression>`.at(`<index>`)_
 
 **其他範例**
 
+此運算式會根據SKU值傳回產品名稱。 這些產品的清單會包含在事件清單中，其條件為事件ID。
+
 ```json
-#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent. all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 
-_aepgdcdevenablement2.purchase_event.productListItems. all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
+#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 
+_aepgdcdevenablement2.purchase_event.productListItems.all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
 ```
+
+此運算式會擷取商務事件的產品清單中最後一個產品的名稱，其中事件型別為「productListAdds」，且總價大於或等於150。
 
 ```json
  #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
