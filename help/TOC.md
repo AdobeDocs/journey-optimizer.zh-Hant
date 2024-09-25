@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: 131cacc88670a965ed2e233984ffa941b37e8a08
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2020'
 ht-degree: 96%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 96%
 + 測試您的交付項目{#test}
    + [衝突管理與優先順序](using/test-approve/conflict-prioritization.md)
    + 預覽和測試內容{#preview-test}
-      + [使用自訂設定檔測試您的內容](using/test-approve/test-custom-profiles.md)
+      + [使用範例輸入資料測試您的內容](using/test-approve/simulate-sample-input.md)
       + [開始預覽和測試](using/content-management/preview-test.md)
       + [選取測試輪廓](using/content-management/test-profiles.md)
       + [預覽您的內容](using/content-management/preview.md)
@@ -287,7 +287,7 @@ ht-degree: 96%
       + [定義登陸頁面預設集](using/landing-pages/lp-presets.md)
 + 內容管理 {#content-management}
    + 使用 AI 助理{#ai-assistant}
-      + [開始使用AI Assistant內容加速器](using/content-management/gs-generative.md)
+      + [開始使用 AI 助理內容加速器](using/content-management/gs-generative.md)
       + [使用人工智慧產生電子郵件](using/content-management/generative-email.md)
       + [使用AI產生推播](using/content-management/generative-push.md)
       + [使用AI產生簡訊](using/content-management/generative-sms.md)
