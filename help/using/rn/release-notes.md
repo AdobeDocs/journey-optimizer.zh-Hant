@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a33b1f0323efd0a482781d21fded66c9c8dd6360
+source-git-commit: 2efff12350ffeada28728ef32cf59bfb0f5d5c49
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1600'
 ht-degree: 64%
 
 ---
@@ -177,6 +177,10 @@ ht-degree: 64%
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.
 * When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
 * （推出日期： 9月17日） **授權使用情況** — 授權使用情況儀表板現在會顯示可參與的設定檔，而不是可參與的對象。 [了解更多](../audience/license-usage.md)
+
+**內容管理**
+
+* 您現在可以在沙箱之間匯出內容範本和片段。
 
 **資料控管**
 
