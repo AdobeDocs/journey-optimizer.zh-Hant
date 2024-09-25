@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 131cacc88670a965ed2e233984ffa941b37e8a08
+source-git-commit: 13221645a22524deadc5576624bf6c31633c55c5
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="使用範例輸入進行模擬"
->abstract="在此畫面中，您可以透過CSV範本（下載CSV）或手動輸入值，提供個人化欄位值，以測試電子郵件內容的不同變體。
+>abstract="在此畫面中，您可以透過CSV範本（下載CSV）或手動輸入值，提供個人化欄位值，以測試電子郵件內容的不同變體。"
 
 >[!AVAILABILITY]
 >
@@ -46,7 +46,7 @@ Journey Optimizer可讓您預覽電子郵件內容，並使用從CSV檔案上傳
 
 開始使用範例輸入資料來測試內容之前，請考量下列護欄和先決條件。
 
-* 截至目前，僅電子郵件通道可使用範例輸入資料進行測試。
+* 截至目前，僅電子郵件通道可使用範例輸入資料進行測試。 無法從電子郵件Designer中的「模擬內容」按鈕存取體驗。
 * 目前體驗中不提供下列功能：收件匣轉譯、垃圾郵件報告、多語言內容和內容實驗。 若要使用這些功能，請從您的內容中選取&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以存取先前的使用者介面。
 * 目前僅支援設定檔屬性。 如果在您的內容中使用內容屬性進行個人化，您將無法使用這些屬性測試您的內容。
 * 為您的變體輸入資料時，僅支援下列資料型別：數字（整數與小數）、字串、布林值和日期型別。 任何其他資料型別都會顯示錯誤。
