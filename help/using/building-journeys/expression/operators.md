@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 運算式，語法，運運算元，編輯器，歷程
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 20dfd2a0c5e660601e6a0acea661eadfd42423d7
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '551'
 ht-degree: 5%
 
 ---
@@ -41,6 +41,10 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 * 使用乘法(`*`)時，兩個作業欄位必須具有相同的型別，可以是整數或小數。 範例：
    * 下列範例是正確的： `3.0 * 4.0`
    * `3 * 4.0`將導致錯誤
+
+* 使用`+`運運算元時，運算式必須封裝在括弧之間。 範例：
+   * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))`正確
+   * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))`將導致錯誤
 
 ## 邏輯  {#logical}
 
