@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
+workflow-type: tm+mt
 source-wordcount: '4394'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 * 現在，您可在任何等待時間中定義的最長期間是 29 天，而不是 30 天。此項改進的目的是在防止等待的持續時間超過 30 天的歷程期限。 這適用於：
 
    * [等待活動](../building-journeys/wait-activity.md)中的&#x200B;**時間長度**&#x200B;欄位
-   * [歷程屬性](../building-journeys/journey-properties.md#entrance)中的&#x200B;**重新進入等待期**
+   * [歷程屬性](../building-journeys/journey-properties.md#entrance)中的&#x200B;**重新進入等待期間**
    * [事件活動](../building-journeys/general-events.md#events-specific-time)逾時定義中的&#x200B;**等待**&#x200B;欄位。
 
 <!--
@@ -116,7 +116,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>計算屬性可讓您透過直覺式使用者介面，輕鬆地將事件資料總結為設定檔屬性，以增強行為型細分、個人化和啟用。 透過此功能，您可以自助建立計算屬性、管理這些屬性，並用於細分、即時客戶設定檔目的地或 Journey Optimizer。<br/><br/>
+<p>計算屬性可讓您透過直覺式使用者介面，輕鬆地將事件資料總結為輪廓屬性，以增強行為型細分、個人化和啟用。 透過此功能，您可以自助建立計算屬性、管理這些屬性，並用於細分、即時客戶輪廓目的地或 Journey Optimizer。<br/><br/>
 此外，計算屬性可簡化細分和歷程工作流程，協助您順暢地提供相關體驗。 在<a href="../audience/computed-attributes.md">詳細文件</a>中了解更多相關資訊。</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
@@ -209,13 +209,13 @@ ht-degree: 100%
 
 **電子郵件頻道**
 
-* 電子郵件表面設定中的新選項可讓您選擇將交易型訊息傳送至設定檔，即使其電子郵件地址在 Adobe [!DNL Journey Optimizer] 禁止清單中亦然。[了解更多](../email/email-settings.md#send-to-suppressed-email-addresses)
+* 電子郵件表面設定中的新選項可讓您選擇將交易型訊息傳送至輪廓，即使其電子郵件地址在 Adobe [!DNL Journey Optimizer] 禁止清單中亦然。[了解更多](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **簡訊頻道**
 
 * **選擇加入訊息**&#x200B;和&#x200B;**說明訊息**&#x200B;這兩個新欄位已新增至 API 設定畫面，可讓使用者自訂傳入關鍵字的回應。 請注意，這僅適用於 Sinch 簡訊提供者。 [了解更多](../sms/sms-configuration.md)
 
-* 簡訊選擇退出不再於頻道層級管理。 現在這是號碼特定功能，亦即如果部分設定檔選擇退出指定號碼或短代碼，您仍可使用其他正用來傳送簡訊的號碼，將訊息傳送給設定檔。 新選項可讓您選取要用於指定表面的&#x200B;**選擇退出號碼**。 [了解更多](../sms/sms-configuration.md)
+* 簡訊選擇退出不再於頻道層級管理。 現在這是號碼特定功能，亦即如果部分輪廓選擇退出指定號碼或短代碼，您仍可使用其他正用來傳送簡訊的號碼，將訊息傳送給輪廓。 新選項可讓您選取要用於指定表面的&#x200B;**選擇退出號碼**。 [了解更多](../sms/sms-configuration.md)
 
 **直接郵件頻道**
 
@@ -354,7 +354,7 @@ A new option is available in the email surface settings to include email address
 <tr>
 <td>
 <p>您現在可以在行銷活動中新增直接郵件訊息。 直接郵件是離線頻道，可讓您個人化和產生直接郵件提供者傳送郵件給客戶所需的檔案。</p>
-<p>當您準備傳送直接郵件時，Journey Optimizer 會產生一個檔案，其中包含所有目標設定檔和選擇的聯絡資訊 (例如，郵遞區號)。然後，您就可以將此檔案傳送給直接郵件提供者，由他們負責實際傳送。</p>
+<p>當您準備傳送直接郵件時，Journey Optimizer 會產生一個檔案，其中包含所有目標輪廓和選擇的聯絡資訊 (例如，郵遞區號)。然後，您就可以將此檔案傳送給直接郵件提供者，由他們負責實際傳送。</p>
 <p>目前，直接郵件頻道不適用於已購買 Adobe Healthcare Shield 附加產品的組織。</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
 <p>如需詳細資訊，請參閱<a href="../direct-mail/get-started-direct-mail.md">詳細文件</a>。</p>
@@ -818,7 +818,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **個人化**
 
-* 您現在可以在運算式編輯器中包含字串式設定檔屬性的預設遞補文字。如果選取的屬性未傳回任何結果，則會顯示這些值。[了解更多](../personalization/personalization-build-expressions.md#add)
+* 您現在可以在運算式編輯器中包含字串式輪廓屬性的預設遞補文字。如果選取的屬性未傳回任何結果，則會顯示這些值。[了解更多](../personalization/personalization-build-expressions.md#add)
 
 **報告**
 
@@ -922,9 +922,9 @@ Note that each widget can be resized and deleted as needed.
 
 **歷程**
 
-* 此&#x200B;**重新進入等待期**&#x200B;欄位已新增至歷程屬性。 此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或客群資格開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 [了解更多](../building-journeys/journey-properties.md#entrance)
+* **重新進入等待期間**&#x200B;欄位已新增至歷程屬性。 此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或客群資格開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 [了解更多](../building-journeys/journey-properties.md#entrance)
 
-* 改進了&#x200B;**歷程開始與結束日期**。如果您尚未指定開始日期，則現在會在發佈時自動新增開始日期。針對&#x200B;**讀取客群**&#x200B;歷程，您現在可以新增結束日期。 這可讓設定檔在達到日期時自動退出。 [進一步了解](../building-journeys/journey-gs.md#dates)
+* 改進了&#x200B;**歷程開始與結束日期**。如果您尚未指定開始日期，則現在會在發佈時自動新增開始日期。針對&#x200B;**讀取客群**&#x200B;歷程，您現在可以新增結束日期。 這可讓輪廓在達到日期時自動退出。 [進一步了解](../building-journeys/journey-gs.md#dates)
 
 <!--
 
