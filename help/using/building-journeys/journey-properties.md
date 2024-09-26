@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: fbe8d14ba81e168ecfb141d54bf3009a2565751c
+source-git-commit: a0c7dad29aabe6c377468a64b9638d7363f0b6f6
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 17%
+source-wordcount: '1983'
+ht-degree: 12%
 
 ---
 
@@ -23,19 +23,13 @@ ht-degree: 17%
 >title="歷程屬性"
 >abstract="本區段會顯示歷程屬性。預設情況下，會隱藏唯讀參數。可用設定會依據歷程的狀態、您的權限和產品設定而定。"
 
->[!CONTEXTUALHELP]
->id="ajo_journey_exit_criterias"
->title="歷程結束條件"
->abstract="本區段顯示結束條件選項。您可以為您的歷程建立一個或多個結束條件規則。"
-
-
 ## 存取歷程的屬性 {#access-properties}
 
 歷程的屬性會集中在右邊欄中。 建立新歷程時，預設會顯示此區段。 對於現有歷程，按一下歷程名稱旁的鉛筆圖示以開啟歷程。
 
 從此區段，您可以定義歷程的名稱、新增說明，以及：
 
-* 管理[進入與重新進入](#entrance)，
+* 管理[進入和重新進入](#entrance)，
 * 選擇開始和結束[日期](#dates)，
 * 管理[資料](#manage-access)的存取權，
 * 在歷程活動中定義[逾時期間](#timeout) （僅適用於管理員使用者），
@@ -53,31 +47,31 @@ ht-degree: 17%
 在本頁](expression/journey-properties.md)中進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們[。
 
 
-## 進入和重新進入 {#entrance}
+## 進入與重新進入 {#entrance}
 
 設定檔專案模式是在歷程層級的右側設定窗格中定義。 設定如下所述。
 
-設定檔入口管理取決於歷程型別。 在[此頁面](entry-management.md)中進一步瞭解設定檔進入與重新進入管理。
+設定檔入口管理取決於歷程型別。 在[此頁面](entry-management.md)中進一步瞭解設定檔進入和重新進入管理。
 
-### 允許重新進入  {#allow-re-entrance}
+### 允許重新進入  {#allow-reentrance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="允許重新進入"
->abstract="預設情況下，新歷程允許重新進入。例如，如果您想在某人進入商店時提供一次性禮物，您可以取消選取「**允許重新進入**」選項。"
+>abstract="依預設，新歷程允許重新進入。 例如，如果您想要在某人進入商店時提供單次贈品，您可以取消勾選&#x200B;**允許重新進入**&#x200B;選項。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="輪廓入口管理"
 
-預設情況下，新歷程允許重新進入。您可以取消勾選「單次」歷程的&#x200B;**允許重新進入**&#x200B;選項，例如，如果您想要在某人進入商店時提供一次性禮物。
+依預設，新歷程允許重新進入。 您可以取消勾選「單次」歷程的&#x200B;**允許重新進入**&#x200B;選項，例如，如果您想要在某人進入商店時提供一次性禮物。
 
-### 重新進入等待期  {#re-entrance-wait}
+### 重新進入等待期  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="重新進入等待期"
->abstract=" 設定允許輪廓在單一歷程中再次進入歷程之前等待的時間。這會防止使用者在選定的期間內重新進入歷程。最長持續時間：90 天。"
+>abstract="設定允許輪廓在單一歷程中再次進入歷程之前等待的時間。這可防止使用者在選定的期間內重新進入歷程。 最長持續時間：90 天。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="輪廓入口管理"
 
-當啟動&#x200B;**允許重新進入**&#x200B;選項時，會顯示&#x200B;**重新進入等待期間**&#x200B;欄位。 此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或客群資格開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 持續時間上限為90天。
+啟動&#x200B;**允許重新進入**&#x200B;選項時，會顯示&#x200B;**重新進入等待期間**&#x200B;欄位。 此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或客群資格開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 持續時間上限為90天。
 
 
 ## 管理存取權 {#manage-access}
@@ -258,3 +252,55 @@ Journey在從Adobe Experience Platform擷取設定檔資料時使用合併原則
 歷程將遵循在整個歷程中使用的合併原則。 因此，如果歷程中使用多個對象（例如：「inAudience」函式中），導致歷程使用的合併原則不一致，則會引發錯誤並封鎖發佈。 不過，如果在訊息個人化中使用不一致的對象，則儘管不一致，仍不會引發警報。 因此，強烈建議您在訊息個人化使用此對象時，檢查與對象相關聯的合併原則。
 
 若要深入瞭解合併原則，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}。
+
+
+## 退出條件 {#exit-criteria}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_exit_criterias"
+>title="歷程結束條件"
+>abstract="本區段顯示結束條件選項。您可以為您的歷程建立一個或多個結束條件規則。"
+
+### 說明
+
+行銷人員經常想在設定檔不再符合歷程目的時，從歷程中移除設定檔。 這將透過與目標管理密切相關的&#x200B;**全域退出條件**&#x200B;來實現。
+
+**範例使用案例：**
+
+行銷人員有一個促銷歷程，其中包含一系列通訊。 每次溝通都是為了促使客戶購買。 一旦完成購買，客戶即不應收到系列中的其餘訊息。 透過定義退出條件，會從歷程中移除購買的任何設定檔。
+
+### 設定與使用
+
+退出條件是在歷程層級設定。 一個歷程可以有多個退出條件。 當您設定了多個退出條件時，評估會使用OR邏輯從上到下進行。 因此，如果您有退出條件n°1和退出條件n°2，則會評估為n°1 **或** n°2。 會在歷程的每個步驟中評估條件。
+
+若要&#x200B;**建立**&#x200B;退出條件：
+
+* 按一下右側邊欄中的下列圖示![](assets/exitcriteria_icon.png){width="40%" align="left"}。
+* 按一下&#x200B;**新增退出條件**&#x200B;按鈕。
+
+![](assets/exitcriteria.png){width="40%" align="left"}
+
+* 您可以新增多個退出條件。
+* 輸入&#x200B;**標籤**，並選取您的退出條件是以事件或對象為基礎。
+
+### 根據事件的退出條件
+
+僅挑選單一事件。
+
+![](assets/exitcriteria_event.png){width="40%" align="left"}
+
+### 根據對象的退出條件
+
+挑選對象。
+
+![](assets/exitcriteria_audience.png){width="40%" align="left"}
+
+注意：使用對象的退出條件最多需要10分鐘才能運作。
+
+### 限制和限制
+
+* 退出條件是在草稿狀態中定義的
+* 事件和事件型退出條件之間的歷程名稱空間一致性
+
+
+
