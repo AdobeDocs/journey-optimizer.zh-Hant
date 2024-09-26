@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -206,7 +206,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
 >title="將規則集套用至歷程"
->abstract="套用規則集以根據頻率上限規則將此歷程排除到部分對象。"
+>abstract="套用規則集，以便依照頻率上限規則，對部分客群排除此歷程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
@@ -216,7 +216,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="優先檢視"
->abstract=" 如果較高優先順序的歷程排程在此指定的時間內，則客戶將禁止進入此歷程。 若您希望以先到者輸入歷程的情況，我們建議先提供基礎，選擇每日前瞻期間，並確保當天任何其他歷程的優先順序分數小於歷程的優先順序分數。 為歷程提供100的優先順序分數也可確保已輸入。"
+>abstract=" 如果這裡所指定的時段內已安排優先等級更高的歷程，將禁止客戶進入此歷程。如果遇到您希望以先到先得的方式進入歷程之情況，我們建議選擇每日展望期，並確保在那一天任何其他歷程的優先等級分數低於該歷程。為歷程指定 100 分的優先等級分數也可以確保進入該歷程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
@@ -279,7 +279,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
 >title="資料治理原則違規"
->abstract="如果系統在歷程/行銷活動中或自訂動作中識別限制欄位，則會顯示錯誤，使您無法發佈。 使用此對話方塊中的資料歷程圖表來瞭解在您啟動歷程或行銷活動之前，需要進行哪些其他設定變更。"
+>abstract="如果系統發現歷程/促銷活動有受限欄位，或有自訂動作，則會顯示錯誤並防止您發佈。使用此對話框中的資料譜系圖，了解在啟用歷程或促銷活動前需要進行哪些其他設定變更。"
 
 <!--APPROVAL POLICIES-->
 
