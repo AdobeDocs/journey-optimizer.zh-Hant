@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用範例輸入資料測試您的內容
-description: 瞭解如何使用範例輸入預覽電子郵件內容及傳送校樣。
+description: 瞭解如何使用範例輸入資料預覽電子郵件內容及傳送校樣。
 feature: Overview, Get Started
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 13221645a22524deadc5576624bf6c31633c55c5
+source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,6 @@ Journey Optimizer可讓您預覽電子郵件內容，並使用從CSV檔案上傳
 * 目前體驗中不提供下列功能：收件匣轉譯、垃圾郵件報告、多語言內容和內容實驗。 若要使用這些功能，請從您的內容中選取&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以存取先前的使用者介面。
 * 目前僅支援設定檔屬性。 如果在您的內容中使用內容屬性進行個人化，您將無法使用這些屬性測試您的內容。
 * 為您的變體輸入資料時，僅支援下列資料型別：數字（整數與小數）、字串、布林值和日期型別。 任何其他資料型別都會顯示錯誤。
-
-
-不是來自acrite
 
 ## 新增變體 {#profiles}
 
