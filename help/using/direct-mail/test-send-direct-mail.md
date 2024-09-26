@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 2%
+source-wordcount: '459'
+ht-degree: 3%
 
 ---
 
@@ -29,6 +29,10 @@ ht-degree: 2%
 一旦檔案內容已準備好傳送，請關閉模擬熒幕，然後按一下&#x200B;**[!UICONTROL 檢閱以啟動]**&#x200B;按鈕。
 
 ## 驗證並啟用直接郵件行銷活動 {#dm-validate}
+
+>[!IMPORTANT]
+>
+>從9月版本開始，全新的行銷活動和歷程啟用體驗可讓您管理整個核准流程，確保行銷活動和歷程在投入使用前皆由適當的利害關係人徹底審查和核准。 此功能在「有限可用性」中提供。 [了解更多](../test-approve/gs-approval.md)
 
 在啟用直接郵件行銷活動之前，請確定已正確設定行銷活動和擷取檔案。 若要這麼做，請檢查編輯器上半區段的警示。 其中一些是簡單的警告，但其他警告可能會阻止您傳送訊息。 可能會發生兩種型別的警報：警告和錯誤。
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+workflow-type: tm+mt
 source-wordcount: '3598'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 **歷程**
 
-* 已在定期讀取客群排程參數中新增&#x200B;**在重複時強制重新進入**&#x200B;選項。 此選項可讓您讓歷程中仍存在的所有設定檔在下次執行時自動退出。 停用選項時，設定檔必須先完成歷程，才能在另一個發生次數中重新輸入。 [進一步了解](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 已在定期讀取客群排程參數中新增&#x200B;**在重複時強制重新進入**&#x200B;選項。 此選項可讓您讓歷程中仍存在的所有輪廓在下次執行時自動退出。 停用選項時，輪廓必須先完成歷程，才能在另一個發生次數中重新輸入。 [進一步了解](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **管理**
 
@@ -212,7 +212,7 @@ ht-degree: 100%
 **歷程**
 
 * 此 **實體資料集** 現在可作為 Adobe Journey Optimizer 中的現成可用資料集。 此查詢資料集包含中繼資料，讓追蹤和意見回饋資料集資訊更為豐富。 這可協助您使用更易理解的資料，改善報告和查詢。 [了解更多](../data/datasets-query-examples.md#entity-dataset)
-* 已將新護欄新增至單一歷程 (從事件或客群資格開始)，以防止同一事件多次錯誤觸發歷程。 設定檔重新進入現在會依預設暫時封鎖 5 分鐘。 [進一步了解](../start/guardrails.md#events-g)
+* 已將新護欄新增至單一歷程 (從事件或客群資格開始)，以防止同一事件多次錯誤觸發歷程。 設定檔重新進入現在會依預設暫時封鎖5分鐘。 [進一步了解](../start/guardrails.md#events-g)
 
 **管理**
 
@@ -306,7 +306,7 @@ ht-degree: 100%
 
 **報告**
 
-* 同意原則表格和圖表現在可在歷程全域報告中使用。 這些介面工具集可讓您從自訂動作中的原則追蹤排除的設定檔。 [了解更多](../reports/journey-global-report.md#journey-global)
+* 同意原則表格和圖表現在可在歷程全域報告中使用。 這些介面工具集可讓您從自訂動作中的原則追蹤排除的輪廓。 [了解更多](../reports/journey-global-report.md#journey-global)
 
   若要存取最新的介面工具集，請注意您必須重設不同的報告儀表板。 如需儀表板自訂的詳細資訊，請參閱[詳細文件](../reports/global-report.md)。
 
@@ -395,7 +395,7 @@ ht-degree: 100%
 * **結束歷程** — 在歷程畫布中， **結束**&#x200B;活動已從調色盤中刪除。 現在，每個路徑的末端預設新增結束標籤而且無法移除。 這種改善能夠更好地報告客戶從歷程退出的位置，不需要由歷程業者採取任何動作。 請參閱[文件](../building-journeys/end-journey.md)及[功能影片](https://video.tv.adobe.com/v/345376){target="_blank"}。
 
 
-* 此 **個人資料時區** 「歷程屬性」中的選項現在預設為未勾選。 [了解更多](../building-journeys/timezone-management.md#timezone-from-profiles)
+* 此 **輪廓時區** 「歷程屬性」中的選項現在預設為未勾選。 [了解更多](../building-journeys/timezone-management.md#timezone-from-profiles)
 
 **訊息**
 
@@ -546,7 +546,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>您現在可以設定跨頻道的業務規則，這些業務規則將自動從訊息和動作中排除過度請求的設定檔。</p>
+<p>您現在可以設定跨頻道的業務規則，這些業務規則將自動從訊息和動作中排除過度請求的輪廓。</p>
 <!--img src="assets/do-not-localize/frequency-rn.gif"/-->
 <p>如需詳細資訊，請參閱<a href="../configuration/frequency-rules.md">詳細文件</a>。</p>
 </td>
@@ -563,7 +563,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>現在，您可以在決定管理中使用經過訓練的模型系統。 此新功能排名可於指定的設定檔顯示。</p>
+<p>現在，您可以在決定管理中使用經過訓練的模型系統。 此新功能排名可於指定的輪廓顯示。</p>
 <!--img src="assets/do-not-localize/optimization.gif"/-->
 <p>如需詳細資訊，請參閱<a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">詳細文件</a>。</p>
 </td>
@@ -625,7 +625,7 @@ ht-degree: 100%
 
 **管理**
 
-* **授權使用儀表板更新** - [!DNL Adobe Journey Optimizer]使用者介面中現在提供了授權使用儀表板，反映了&#x200B;**授權**&#x200B;平均設定檔豐富度的精確值。 您將看到此量度表示法中的一個數值下降，表示現在已正確報告授權限制。 [了解更多](../audience/license-usage.md)
+* **授權使用儀表板更新** - [!DNL Adobe Journey Optimizer]使用者介面中現在提供了授權使用儀表板，反映了&#x200B;**授權**&#x200B;平均輪廓豐富度的精確值。 您將看到此量度表示法中的一個數值下降，表示現在已正確報告授權限制。 [了解更多](../audience/license-usage.md)
 
 
 ## 2022 年 4 月發行版本 {#april-2022-release}
@@ -636,7 +636,7 @@ ht-degree: 100%
 
 * **核取方塊的新選項「選擇加入/選擇退出」** - 現在，您可以在訂閱項目登錄頁面中插入選擇加入/選擇退出的核取方塊。 使用者需要勾選方塊同意 (選擇加入)，並取消勾選方塊移除其同意 (選擇退出)。 [了解更多](../landing-pages/design-lp.md#define-lp-specific-content)
 
-* **預先填寫登陸頁面欄位** - 現在，使用者可以使用個人資料預先填寫登陸頁面欄位。 [進一步了解](../landing-pages/create-lp.md#configure-primary-page)
+* **預先填寫登陸頁面欄位** - 現在，使用者可以使用輪廓預先填寫登陸頁面欄位。 [進一步了解](../landing-pages/create-lp.md#configure-primary-page)
 
 **決定管理**
 
@@ -672,12 +672,12 @@ ht-degree: 100%
 
 **歷程**
 
-* 為避免統一設定檔綱要存在不必要的欄位，預設情況下不再為設定檔啟用「歷程步驟事件」綱要。 如有需要，可以啟用。 [了解更多](../reports/sharing-overview.md)
+* 為避免統一輪廓綱要存在不必要的欄位，預設情況下不再為輪廓啟用「歷程步驟事件」綱要。 如有需要，可以啟用。 [了解更多](../reports/sharing-overview.md)
 * 跟匯出工作有關的新步驟活動現在由 Journey Optimizer 傳送到 Adobe Experience Platform。 已在文件中新增查詢範例。 [進一步了解](../reports/query-examples.md)
 
 **決定管理**
 
-* 現在您可以指定在所有使用者或單個特定設定檔中套用優惠上限設定，以及指定在個別或所有投放位置上套用。[了解更多](../offers/offer-library/add-constraints.md#capping)
+* 現在您可以指定在所有使用者或單個特定輪廓中套用優惠上限設定，以及指定在個別或所有投放位置上套用。[了解更多](../offers/offer-library/add-constraints.md#capping)
 * 批次決策 API 允許組織在一次呼叫中，對指定客群中的所有輪廓使用決策管理功能。 客群中每個輪廓的優惠內容都放在 AEP 資料集，其可用於自訂批次處理工作流程。 [進一步了解](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **管理**
@@ -789,13 +789,13 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <table>
 <thead>
 <tr>
-<th><strong>歷程 — 使用個人資料上限條件最佳化 IP 提升</strong><br/></th>
+<th><strong>歷程 — 使用輪廓上限條件最佳化 IP 提升</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>當在歷程中設定<strong>條件</strong>活動時，您現在可以定義個人資料上限。 此新條件類型允許您為歷程路徑設定個人資料的最大數量。 當達到此限制後，輸入的個人資料將採用替代路徑。 這樣，您就可以提高傳遞量 (IP 提升)。 例如，您可能希望透過分割執行來加快網域上的傳遞量：在第 1 天傳送 1000 則訊息，在第 2 天傳送 2000 則訊息等。</p>
+<p>當在歷程中設定<strong>條件</strong>活動時，您現在可以定義輪廓上限。 此新條件類型允許您為歷程路徑設定輪廓的最大數量。 當達到此限制後，輸入的輪廓將採用替代路徑。 這樣，您就可以提高傳遞量 (IP 提升)。 例如，您可能希望透過分割執行來加快網域上的傳遞量：在第 1 天傳送 1000 則訊息，在第 2 天傳送 2000 則訊息等。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/condition-activity.md#profile_cap">詳細文件</a>。</p>
 </td>
 </tr>
@@ -828,7 +828,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 * 對於在已發佈訊息中直接或間接引用的優惠方案、遞補優惠、優惠收藏或優惠決定，現在將在對應訊息中自動反映您的更新，無需重新發佈。 [了解更多](../offers/offers-e2e.md#insert-decision-in-email)
 
-* 在模擬給定測試設定檔將提供哪些服務時，您現在可以修改預設模擬設定，並針對用於疑難排解的模擬查看對應的代碼。 [進一步了解](../offers/offer-activities/simulation.md#define-simulation-settings)
+* 在模擬給定測試輪廓將提供哪些服務時，您現在可以修改預設模擬設定，並針對用於疑難排解的模擬查看對應的代碼。 [進一步了解](../offers/offer-activities/simulation.md#define-simulation-settings)
 
 **管理**
 

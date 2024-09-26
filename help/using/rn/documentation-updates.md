@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+workflow-type: tm+mt
 source-wordcount: '5454'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
 * 已新增「常見問題集」一節，以處理有關在 Journey Optimizer 中使用客群構成和自訂上傳客群的常見問題。 [閱讀全文](../audience/about-audiences.md#faq)
 * [!DNL Journey Optimizer]3 月 24日發行版本新功能和改進項目的詳情，請參閱本文件。[閱讀全文](release-notes.md#mar-2024)
-* 改善設定檔進入管理頁面。 [閱讀全文](../building-journeys/entry-management.md)
+* 改善輪廓進入管理頁面。 [閱讀全文](../building-journeys/entry-management.md)
 * 疑難排解資訊已新增至「警示」頁面。 [閱讀全文](../reports/alerts.md#alert-troubleshooting)
 * 已在歷程報告的頁面中新增等待活動的資訊。 [閱讀全文](../reports/sharing-overview.md)
 * 對於測試模式中的歷程，已停用下列捷徑：
@@ -96,7 +96,7 @@ ht-degree: 100%
 * 已新增歷程大小的護欄。[閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
 * 已[在下列區段中](../building-journeys/journey-properties.md#global_timeout)詳細說明歷程逾時管理。
 * Journey Optimizer [j文件首頁](../../ajo-home.md)已經過重新設計。
-* 已新增有關更新設定檔活動的建議。[閱讀全文](../building-journeys/update-profiles.md)
+* 已新增有關更新輪廓活動的建議。[閱讀全文](../building-journeys/update-profiles.md)
 * 已新增有關歷程中事件活動逾時行為的資訊。如果未定義逾時路徑，在指定的逾時期間未收到任何事件時，個人將繼續歷程。 [閱讀全文](../building-journeys/general-events.md#events-specific-time)
 * 應用程式內頻道設定先決條件已更新，其中包含使用自訂資料集偏好設定合併原則的備註。 [閱讀全文](../in-app/inapp-configuration.md)
 * 已新增有關如何在自訂動作回應中操作集合的更多詳細資料。 [閱讀全文](../action/action-response.md#exp-syntax)。
@@ -169,7 +169,7 @@ ht-degree: 100%
 ## 2023 年 7 月 {#july-2023}
 
 * 有關所有 [!DNL Journey Optimizer]2023 年 7 月發行版本新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
-* 已改善等待活動文件頁面，其中包含與全域逾時和重新登入使用方式相關的其他資訊和最佳實務。 [閱讀全文](../building-journeys/wait-activity.md)
+* 已改善等待活動檔案頁面，其中包含與全域逾時和重新進入使用方式相關的其他資訊和最佳實務。 [閱讀全文](../building-journeys/wait-activity.md)
 * 改善登入管理頁面。 [閱讀全文](../building-journeys/entry-management.md)
 * 已在讀取客群活動文件中新增節流率的相關資訊。 [閱讀全文](../building-journeys/read-audience.md)
 * 已新增有關重試的其他資訊。 [閱讀全文](../start/guardrails.md#general-actions-g)
@@ -189,7 +189,7 @@ ht-degree: 100%
 * 有關[!DNL Journey Optimizer] 2023 年 5 月發佈內容的新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
 * 已新增新頁面說明如何設定子網域，以便用於發佈來自網頁體驗 Adobe Experience Manager Assets Essentials 的內容。 [閱讀全文](../web/web-delegated-subdomains.md)
 * 已新增新子區段，說明如何在電子郵件設計工具中新增個人化追蹤參數至 URL。 [閱讀全文](../email/message-tracking.md#url-tracking)
-* 已新增新區段，說明如何確保選擇退出使用其設定檔資料進行個人化的客戶獲得尊重。 [閱讀全文](../privacy/opt-out.md#opt-out-personalization)
+* 已新增新區段，說明如何確保選擇退出使用其輪廓資料進行個人化的客戶獲得尊重。 [閱讀全文](../privacy/opt-out.md#opt-out-personalization)
 * 已新增附註，說明如何使用包含在電子郵件內容中的 URL 特殊國際字元。 [閱讀全文](../email/message-tracking.md#insert-links)
 * 已新增測試和發佈登陸頁面所需的權限。 [閱讀全文](../landing-pages/create-lp.md)
 * 已新增備註，說明將自訂事件納入決策管理頻率限定所需的 Adobe Experience Platform 端點。 [閱讀全文](../offers/data-collection/schema-requirement.md#track-custom-events)
@@ -217,7 +217,7 @@ ht-degree: 100%
 * 已為使用增量讀取方式的讀取客群歷程新增護欄。 您無法建立新版本，需要複製歷程。[閱讀全文](../start/guardrails.md#journey-versions-g)
 * 已更新有關如何限制輸送量的使用案例，其中包含節流功能的資訊。 [閱讀全文](../building-journeys/limit-throughput.md)
 * 已新增備註，以明確說明回應承載定義中不支援純量陣列。 [閱讀全文](../datasource/external-data-sources.md)
-* 已更新有關設定檔上限條件的章節。 [閱讀全文](../building-journeys/condition-activity.md#profile_cap)
+* 已更新有關輪廓上限條件的章節。 [閱讀全文](../building-journeys/condition-activity.md#profile_cap)
 
 ## 2023 年 2 月 {#feb-2023}
 
@@ -297,10 +297,10 @@ ht-degree: 100%
 
 * 針對 [!DNL Journey Optimizer]2022 年 7 月發行版本的新功能及改進項目，請參閱本文件以獲得所有詳細資料。 [閱讀全文](release-notes.md)
 * 已澄清&#x200B;**設定管道設定**&#x200B;部分，並已更新連結頁面，說明如何設定簡訊管道。[閱讀全文](../configuration/channel-surfaces.md#create-channel-surface)
-* 歷程屬性的&#x200B;**個人資料時區**&#x200B;選項現在預設為停用。 [閱讀全文](../building-journeys/timezone-management.md#timezone-from-profiles)
+* 歷程屬性的&#x200B;**輪廓時區**&#x200B;選項現在預設為停用。 [閱讀全文](../building-journeys/timezone-management.md#timezone-from-profiles)
 * **等待**&#x200B;活動的&#x200B;**固定日期**&#x200B;選項不再提供。 [閱讀全文](../building-journeys/wait-activity.md)
 * 已在&#x200B;**讀取客群**&#x200B;活動中新增&#x200B;**增量讀取**&#x200B;選項的詳細資訊。 [閱讀全文](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
-* 已新增建議至&#x200B;**個人資料上限**&#x200B;條件類型。 [閱讀全文](../building-journeys/condition-activity.md#profile_cap)
+* 已新增建議至&#x200B;**輪廓上限**&#x200B;條件類型。 [閱讀全文](../building-journeys/condition-activity.md#profile_cap)
 * 新增業務事件的限制。 [閱讀全文](../start/guardrails.md#events-g)
 
 ## 2022 年 6 月 {#june-2022}
@@ -425,7 +425,7 @@ ht-degree: 100%
 * 更新具有動態 URL 路徑和動態標題之自訂動作的設定程式。 [閱讀全文](../action/about-custom-action-configuration.md#url-configuration)
 * 新增協助工具功能和捷徑的相關區段。 [閱讀全文](../start/user-interface.md#accessibility)
 * 新增客群評估方法的相關章節。 [閱讀全文](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
-* 在「隱藏」清單、「允許」清單和「電子郵件全域/即時」報告區段中新增附註，以指定從「電子郵件報告傳送」指標中排除狀態為「隱藏」和「不允許」設定檔。 [閱讀全文](../reports/global-report.md)
+* 在「隱藏」清單、「允許」清單和「電子郵件全域/即時」報告區段中新增附註，以指定從「電子郵件報告傳送」指標中排除狀態為「隱藏」和「不允許」輪廓。 [閱讀全文](../reports/global-report.md)
 * 新增區段，針對未列在允許清單病從傳送中排除的電子郵件地址或網域，說明如何加以擷取。 [閱讀全文](../configuration/allow-list.md#reporting)
 * 更新「啟用允許清單」區段。 [進一步了解](../configuration/allow-list.md#enable-allow-list)
 * 更新「監視」訊息預設集區段，其中包含預設集建立失敗的可能原因，以及這類錯誤的詳細資訊。 [閱讀全文](../configuration/channel-surfaces.md#monitor-channel-surfaces)

@@ -8,18 +8,18 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: 778ef71a531346774c5e10e296dbf1112fed891d
+source-git-commit: f00b157ec843eacdee480dcfe00a8724ab4a3495
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
 
-# 使用案例：使用自訂動作在Experience Platform中寫入歷程事件{#custom-action-aep}
+# 使用案例：使用自訂動作在Experience Platform中寫入歷程事件 {#custom-action-aep}
 
 此使用案例說明如何使用自訂動作和已驗證的呼叫，將自訂事件從歷程寫入Adobe Experience Platform。
 
-## 設定IO專案
+## 設定IO專案 {#custom-action-aep-IO}
 
 1. 在Adobe Developer Console中，按一下&#x200B;**專案**&#x200B;並開啟您的IO專案。
 
@@ -94,7 +94,11 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 }
 ```
 
-## 設定自訂動作
+## 設定自訂動作 {#custom-action-config}
+
+自訂動作設定在[此頁面](../action/about-custom-action-configuration.md)中有詳細說明。
+
+在此範例中，請遵循下列步驟：
 
 1. 開啟Adobe Journey Optimizer，然後按一下左側功能表中&#x200B;**管理**&#x200B;下的&#x200B;**組態**。 在&#x200B;**動作**&#x200B;下，按一下&#x200B;**管理**，然後按一下&#x200B;**建立動作**。
 
@@ -106,7 +110,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-7bis.png)
 
-### 設定驗證
+### 設定驗證 {#custom-action-aep-authentication}
 
 1. 選取&#x200B;**Type**&#x200B;做為&#x200B;**Custom**，並包含下列承載。
 
@@ -140,7 +144,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-8.png)
 
-### 設定裝載
+### 設定裝載 {#custom-action-aep-payload}
 
 1. 在&#x200B;**Request**&#x200B;與&#x200B;**Response**&#x200B;欄位中，貼上先前使用之來源連線的裝載。
 
@@ -167,7 +171,9 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. 將欄位組態從&#x200B;**常數**&#x200B;變更為&#x200B;**變數**，以動態方式填入欄位。 儲存自訂動作。
+1. 將欄位組態從&#x200B;**常數**&#x200B;變更為&#x200B;**變數**，以動態方式填入欄位。
+
+1. 儲存自訂動作。
 
 ## 歷程
 

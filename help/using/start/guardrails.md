@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
-workflow-type: ht
+source-git-commit: e19cd0c301b1f2a8f47ca4c9f9882d36fd560dbe
+workflow-type: tm+mt
 source-wordcount: '2361'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 權利、產品限制和效能護欄列於 [Adobe Journey Optimizer 產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
-在啟動](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hant){target="_blank"}之前，您還需要注意即時客戶設定檔資料的[護欄。
+在啟動](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hant){target="_blank"}之前，您還需要注意即時客戶輪廓資料的[護欄。
 
 當使用 [!DNL Adobe Journey Optimizer] 時，您將找到下面其他護欄和限制。
 
@@ -47,7 +47,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ### 網頁管道護欄 {#web-guardrails}
 
-[!DNL Journey Optimizer] 網路行銷活動會選擇以其他管道上不曾有過互動的新設定檔為目標。這樣做會增加可互動設定檔總數，如果其超過您購買的可互動設定檔合約數量，可能會影響成本。 各個套件的授權量度都列在 [Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。
+[!DNL Journey Optimizer] 網路行銷活動會選擇以其他管道上不曾有過互動的新輪廓為目標。這樣做會增加可互動輪廓總數，如果其超過您購買的可互動輪廓合約數量，可能會影響成本。 各個套件的授權量度都列在 [Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。
 
 
 ## 子網域護欄 {#subdomain-guardrails}
@@ -67,8 +67,9 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 * 歷程中的活動數限定為最多 50 個。活動數會顯示於歷程畫布的左上方區段。這有助於提高可讀性、QA 及疑難排解。
 * 當您發佈歷程時，我們會自動縮放和調整，以確保輸送量與穩定性達到最高。 當您一次接近 100 個即時歷程的里程碑時，您會看到此成果的 UI 中出現通知。 如果您看到此通知，並需要一次將歷程擴充至 100 個即時歷程以上，請建立客戶服務支援服務單，我們將協助您達成目標。
+  <!-- DOCAC-10977 * As you publish journeys, we automatically scale and adjust to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time, you will see a notification appear in the UI on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
 * 在歷程中使用客群資格時，該客群資格活動最多可能需要 10 分鐘，才會啟用和接聽進入或退出客群的輪廓。
-* 設定檔的歷程執行個體大小上限為 1MB。在歷程執行過程中收集的所有資料都會儲存在該歷程執行個體中。因此，來自傳入事件的資料、從 Adobe Experience Platform 擷取的設定檔資訊、自訂動作回應等會儲存在該歷程執行個體中，並影響歷程大小。當歷程以事件開始時，建議限制該事件承載的大小上限 (例如：低於 800 KB)，以避免在歷程執行中經過幾項活動後達到該限制。 當達到該限制時，設定檔處於錯誤狀態並將從歷程中排除。
+* 輪廓的歷程執行個體大小上限為 1MB。在歷程執行過程中收集的所有資料都會儲存在該歷程執行個體中。因此，來自傳入事件的資料、從 Adobe Experience Platform 擷取的輪廓資訊、自訂動作回應等會儲存在該歷程執行個體中，並影響歷程大小。當歷程以事件開始時，建議限制該事件承載的大小上限 (例如：低於 800 KB)，以避免在歷程執行中經過幾項活動後達到該限制。 當達到該限制時，輪廓處於錯誤狀態並將從歷程中排除。
 * 除了歷程活動中使用的逾時之外，還有一個不會顯示在介面且無法變更的全域歷程逾時。 此全域逾時會在個人進入歷程 91 天後停止其進度。 [閱讀全文](../building-journeys/journey-properties.md#global_timeout)
 
 
@@ -77,7 +78,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 如果出現錯誤，將系統地執行三次重試。您無法根據收到的錯誤訊息調整重試次數。除 HTTP 401、403 和 404 外，會對所有 HTTP 錯誤執行重試。
 * 內建的&#x200B;**反應**&#x200B;事件可讓您對開箱即用的動作做出反應。 在[本頁](../building-journeys/reaction-events.md)中瞭解更多。如果要對透過自訂動作傳送的訊息做出反應，則需設定專用事件。
 * 您無法同時進行兩個動作，必須逐一新增。
-* 設定檔無法在同一歷程中同時出現多次。如果啟用重新進入，設定檔可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。 [閱讀全文](../building-journeys/end-journey.md)
+* 輪廓無法在同一歷程中同時出現多次。如果啟用重新進入，設定檔可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。 [閱讀全文](../building-journeys/end-journey.md)
 
 ### 歷程版本 {#journey-versions-g}
 
@@ -90,7 +91,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ### 自訂動作 {#custom-actions-g}
 
-* 為每個主機和每個沙箱的所有自訂動作，定義 1 分鐘內 300,000 次呼叫的上限。請參見[此頁面](../action/about-custom-action-configuration.md)。此限制是根據客戶使用情況來設定，可保護自訂動作鎖定為目標的外部端點。您必須在以對象為基礎的歷程考慮這一點，透過定義適當的讀取率 (使用自訂動作時為每秒 5000 個設定檔)。如有需要，您可以透過上限/節流 API 定義較高的上限或節流限制來覆寫此設定。 請參閱[此頁面](../configuration/external-systems.md)。
+* 為每個主機和每個沙箱的所有自訂動作，定義 1 分鐘內 300,000 次呼叫的上限。請參見[此頁面](../action/about-custom-action-configuration.md)。此限制是根據客戶使用情況來設定，可保護自訂動作鎖定為目標的外部端點。您必須在以對象為基礎的歷程考慮這一點，透過定義適當的讀取率 (使用自訂動作時為每秒 5000 個輪廓)。如有需要，您可以透過上限/節流 API 定義較高的上限或節流限制來覆寫此設定。 請參閱[此頁面](../configuration/external-systems.md)。
 * 自訂動作 URL 不支援動態參數。
 * 支援 POST、PUT 和 GET 呼叫方法
 * 查詢參數或標題的名稱不得以「.」開頭 或 &quot;$&quot;
@@ -107,7 +108,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 * 對於系統產生的事件，必須先在 Journey Optimizer 中設定用於啟動客戶歷程的串流資料，才能取得唯一的協調流程 ID。 此協調流程 ID 必須附加至傳入 Adobe Experience Platform 的串流裝載。 此限制不適用於規則型事件。
 * 業務事件不能與單一事件或客群資格活動結合使用。
-* 單一歷程 (從事件或客群資格開始) 包含可防止同一事件多次錯誤觸發歷程的護欄。 在預設情況下，設定檔重新進入時會暫時封鎖 5 分鐘。 例如，如果某個事件在 12:01 觸發特定設定檔的歷程，而另一個事件在 12:03 達到時間限制 (無論是相同事件或是不同事件觸發相同歷程)，則此設定檔的歷程將不會再次開始。
+* 單一歷程 (從事件或客群資格開始) 包含可防止同一事件多次錯誤觸發歷程的護欄。 設定檔重新進入預設會暫時封鎖5分鐘。 例如，如果某個事件在 12:01 觸發特定輪廓的歷程，而另一個事件在 12:03 達到時間限制 (無論是相同事件或是不同事件觸發相同歷程)，則此輪廓的歷程將不會再次開始。
 * Journey Optimizer 需將事件串流至資料收集核心服務 (DCCS)，才能觸發歷程。 批次收錄的事件，或來自內部 Journey Optimizer 資料集的事件 (訊息意見回饋、電子郵件追蹤等等) 無法用來觸發歷程。 對於無法取得串流事件的使用案例，請根據這些事件建置對象，然後改為使用&#x200B;**讀取對象**&#x200B;活動。 技術上可使用對象資格，但不建議使用，因為它可能會根據所使用的操作導致下游挑戰。
 
 
@@ -120,21 +121,21 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 >
 >現已支援回應，對於外部資料來源使用案例，您應該使用自訂動作，而非資料來源。
 
-### 歷程與設定檔建立 {#journeys-limitation-profile-creation}
+### 歷程與輪廓建立 {#journeys-limitation-profile-creation}
 
-在 Adobe Experience Platform 中建立/更新以 API 為基礎的設定檔會有延遲。對於第 95 個百分位數的請求，服務層級目標 (SLT) 從接收到統一設定檔的延遲時間小於 1 分鐘，每秒請求量為 20K (RPS)。
+在 Adobe Experience Platform 中建立/更新以 API 為基礎的輪廓會有延遲。對於第 95 個百分位數的請求，服務層級目標 (SLT) 從接收到統一輪廓的延遲時間小於 1 分鐘，每秒請求量為 20K (RPS)。
 
-如果在建立設定檔的同時觸發歷程，並立即從設定檔服務檢查/擷取資訊，則可能無法正常運作。
+如果在建立輪廓的同時觸發歷程，並立即從輪廓服務檢查/擷取資訊，則可能無法正常運作。
 
 您可以從以下兩種解決方案中選擇一種：
 
-* 在第一個事件後新增等待活動，為 Adobe Experience Platform 提供執行擷取至設定檔服務所需的時間。
+* 在第一個事件後新增等待活動，為 Adobe Experience Platform 提供執行擷取至輪廓服務所需的時間。
 
-* 設定不會立即運用設定檔的歷程。 例如，如果歷程的設計是要確認帳戶的建立，則體驗事件可能包含傳送第一個確認訊息 (名字、姓氏、電子郵件地址等) 所需的資訊。
+* 設定不會立即運用輪廓的歷程。 例如，如果歷程的設計是要確認帳戶的建立，則體驗事件可能包含傳送第一個確認訊息 (名字、姓氏、電子郵件地址等) 所需的資訊。
 
-### 更新設定檔 {#update-profile-g}
+### 更新輪廓 {#update-profile-g}
 
-特定護欄套用於&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;活動。它們會在[本頁面](../building-journeys/update-profiles.md)中列出。
+特定護欄套用於&#x200B;**[!UICONTROL 更新輪廓]**&#x200B;活動。它們會在[本頁面](../building-journeys/update-profiles.md)中列出。
 
 
 ### 讀取對象 {#read-segment-g}
@@ -166,17 +167,17 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 * 此功能目前不適用於醫療保健客戶。
 
-* 個人化只能包含設定檔屬性。
+* 個人化只能包含輪廓屬性。
 
 * 應用程式內活動無法搭配 Adobe Campaign 活動使用。
 
-* 應用程式內顯示會繫結至歷程期限，這表示當設定檔的歷程結束時，該歷程中的所有應用程式內訊息將不再顯示該設定檔。  因此，無法直接從歷程活動停止應用程式內訊息。 而是必須結束整個歷程，才能停止將應用程式內訊息顯示給設定檔。
+* 應用程式內顯示會繫結至歷程期限，這表示當輪廓的歷程結束時，該歷程中的所有應用程式內訊息將不再顯示該輪廓。  因此，無法直接從歷程活動停止應用程式內訊息。 而是必須結束整個歷程，才能停止將應用程式內訊息顯示給輪廓。
 
 * 在測試模式中，應用程式內顯示取決於歷程的有效期限。 為避免歷程在測試期間過早結束，請調整&#x200B;**[!UICONTROL 等待]**&#x200B;活動的&#x200B;**[!UICONTROL 等待時間]**&#x200B;值。
 
 * **[!UICONTROL 回應]**&#x200B;活動無法用於對應用程式內開啟或點按做出反應。
 
-* 啟動延遲可能發生在使用者設定檔到達畫布中的應用程式內活動的時刻和他們開始看到該應用程式內訊息的時刻之間。
+* 啟動延遲可能發生在使用者輪廓到達畫布中的應用程式內活動的時刻和他們開始看到該應用程式內訊息的時刻之間。
 
 * 應用程式內訊息內容大小限制為 2Mb。 包含大型影像可能會阻礙發佈過程。
 

@@ -5,21 +5,14 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-badge: label="限量開放使用" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 3%
+source-wordcount: '485'
+ht-degree: 1%
 
 ---
 
 # 在Web SDK中設定內容卡支援 {#content-card-configuration-sdk}
-
->[!AVAILABILITY]
->
->內容卡目前僅可用於一組組織（可用性限制）。 如需存取權，請和您的 Adobe 代表聯絡。
 
 此範例示範如何使用Adobe Experience Platform從Adobe Journey Optimizer (AJO)擷取內容卡片。 藉由運用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)，個人化內容完全在使用者端擷取及呈現。
 

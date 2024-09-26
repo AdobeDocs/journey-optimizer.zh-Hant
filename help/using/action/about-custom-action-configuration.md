@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: b86a459681cda66596e0658b9f703185821aceea
+source-git-commit: 9f990d2b311237e49c3b93201cd7e9c2b02facef
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1566'
 ht-degree: 21%
 
 ---
@@ -149,7 +149,7 @@ ht-degree: 21%
 
 您可以定義裝載引數，如下所示：
 
-1. 在&#x200B;**[!UICONTROL Request]**&#x200B;區段中，貼上要傳送至外部服務的JSON裝載範例。 此欄位是選用欄位，僅適用於POST和PUT呼叫方法。
+1. 在&#x200B;**[!UICONTROL Request]**&#x200B;區段中，貼上要傳送至外部服務的JSON裝載範例。 此欄位是選用欄位，僅適用於POST和PUT呼叫方法。<!--DOCAC-10562 - Enable the **[!UICONTROL Allow NULL values]** option to keep Null values in the external call. Note that sending arrays of int, string, etc. with Null values within is not fully supported. For example the following array of integers [1, null, 2, 3] is sent as [1, 2, 3] even if this option is checked.-->
 
 1. 在&#x200B;**[!UICONTROL 回應]**&#x200B;區段中，貼上呼叫傳回之裝載的範例。 此欄位是選用欄位，可用於所有呼叫方法。 如需如何在自訂動作中運用API呼叫回應的詳細資訊，請參閱[此頁面](../action/action-response.md)。
 
@@ -157,7 +157,8 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->裝載範例不可包含Null值。 承載中的欄位名稱不得包含「。」 字元。 開頭不能為「$」字元。
+>承載中的欄位名稱不得包含「。」 字元。 開頭不能為「$」字元。
+>
 
 ![](assets/customactionpayloadmessage2.png)
 
@@ -171,3 +172,9 @@ ht-degree: 21%
 
    * **變數**&#x200B;表示引數的值會有所不同。 在歷程中使用此自訂動作的行銷人員可自由傳遞所需值，或指定從何處擷取此引數的值(例如從事件、Adobe Experience Platform等)。 在這種情況下，切換常數/變數右側的欄位是行銷人員將在歷程中看到的標籤，以命名此引數。
 
+<!--DOCAC-10562 - For optional parameters, enable the **[!UICONTROL Is optional]** option at the end of the line. By checking this option, you mark the parameter as non-mandatory, and let the journey practitioners choose to fill it or not when authoring that custom action in a journey.-->
+
+>[!NOTE]
+>
+>如果您在允許Null值時設定選用引數，則歷程從業人員未填入的引數會傳送為Null。
+>

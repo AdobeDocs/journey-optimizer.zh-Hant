@@ -5,40 +5,21 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-badge: label="限量開放使用" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 7%
+source-wordcount: '265'
+ht-degree: 4%
 
 ---
 
 # 內容卡片先決條件 {#content-card-configuration-prereq}
 
->[!BEGINSHADEBOX]
-
-**目錄**
-
-* [開始使用內容卡](get-started-content-card.md)
-* **內容卡先決條件**
-* [在Journey Optimizer中設定內容卡片頻道](content-card-configuration.md)
-* [建立內容卡片](create-content-card.md)
-* [設計內容卡片](design-content-card.md)
-* [內容卡片報表](content-card-report.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->內容卡目前僅可用於一組組織（可用性限制）。 如需存取權，請和您的 Adobe 代表聯絡。
-
 若要讓Adobe Journey Optimizer正確顯示內容卡，您必須設定下列Adobe Experience Platform設定：
 
 * **Adobe Experience Platform資料彙集**
 
-  [建立資料流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)並[新增Experience Platform服務](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep)。 啟用&#x200B;**[!UICONTROL Edge分段]**&#x200B;和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**&#x200B;選項。 這可確保Journey Optimizer事件由Adobe Experience PlatformEdge Network處理。 如需如何設定資料串流的詳細資訊，請參閱[資料串流檔案](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)。
+  [建立資料流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)並[新增Experience Platform服務](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep)。 啟用&#x200B;**[!UICONTROL Edge分段]**&#x200B;和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**選項。 這可確保Journey Optimizer事件由Adobe Experience PlatformEdge Network處理。
+將**體驗事件 — 主張互動**&#x200B;欄位群組新增至您的資料集，以將此資料納入您的報表。 [進一步瞭解資料串流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * **Adobe Experience Platform**
 

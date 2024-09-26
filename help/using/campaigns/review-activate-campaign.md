@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 keywords: 行銷活動，檢閱，驗證，啟用，啟用，最佳化工具
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 7%
+source-wordcount: '297'
+ht-degree: 6%
 
 ---
 
 # 檢閱及啟動行銷活動 {#review-activate}
+
+>[!IMPORTANT]
+>
+>從9月版本開始，全新的行銷活動和歷程啟用體驗可讓您管理整個核准流程，確保行銷活動和歷程在投入使用前皆由適當的利害關係人徹底審查和核准。 此功能在「有限可用性」中提供。 [了解更多](../test-approve/gs-approval.md)
 
 設定行銷活動後，您必須先檢閱其引數和內容，才能加以啟用。 要執行此操作，請依照下列步驟執行：
 

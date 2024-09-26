@@ -4,34 +4,14 @@ description: 瞭解如何設計內容卡內容
 topic: Content Management
 role: User
 level: Beginner
-badge: label="限量開放使用" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 4%
+source-wordcount: '511'
+ht-degree: 2%
 
 ---
 
 # 設計內容卡內容 {#design-content-card}
-
->[!BEGINSHADEBOX]
-
-**目錄**
-
-* [開始使用內容卡](get-started-content-card.md)
-* [內容卡片先決條件](content-card-configuration-prereq.md)
-* [在Journey Optimizer中設定內容卡片頻道](content-card-configuration.md)
-* [建立內容卡片](create-content-card.md)
-* **設計內容卡**
-* [內容卡片報表](content-card-report.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->內容卡目前僅可用於一組組織（可用性限制）。 如需存取權，請和您的 Adobe 代表聯絡。
 
 卡片的製作結構提供表單式製作體驗，為行銷人員提供開發人員可用來轉譯的基本輸入。
 

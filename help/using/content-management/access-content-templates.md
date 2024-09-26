@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: c7ecfdbc9c97c49c77f3c4fb8bcb1656e04819a8
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 7%
+source-wordcount: '317'
+ht-degree: 5%
 
 ---
 
@@ -63,3 +63,9 @@ ht-degree: 7%
 >目前只能為HTML型別的電子郵件內容範本產生適當的縮圖。
 
 更新內容時，您可能需要等候幾秒鐘，變更才會反映在縮圖中。
+
+## 將內容範本匯出至另一個沙箱 {#export}
+
+Journey Optimizer可讓您將內容範本從一個沙箱複製到另一個沙箱。 例如，您可以將範本從中繼沙箱環境複製到生產沙箱。
+
+復製程式是透過來源與目標沙箱之間的&#x200B;**封裝匯出和匯入**&#x200B;進行。 本節提供如何匯出物件並將其匯入目標沙箱的詳細資訊： [將物件複製到另一個沙箱](../configuration/copy-objects-to-sandbox.md)

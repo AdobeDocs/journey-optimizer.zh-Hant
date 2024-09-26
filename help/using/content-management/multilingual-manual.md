@@ -10,9 +10,9 @@ level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="限量開放使用" type="Informative"
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '661'
 ht-degree: 6%
 
 ---
@@ -139,6 +139,10 @@ ht-degree: 6%
    ![](assets/multilingual-campaign-8.png)
 
 您現在可以啟動行銷活動或歷程。 傳送後，您可以在報表中測量多語言歷程或行銷活動的影響。
+
+>[!IMPORTANT]
+>
+>從9月版本開始，全新的行銷活動和歷程啟用體驗可讓您管理整個核准流程，確保行銷活動和歷程在投入使用前皆由適當的利害關係人徹底審查和核准。 此功能在「有限可用性」中提供。 [了解更多](../test-approve/gs-approval.md)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

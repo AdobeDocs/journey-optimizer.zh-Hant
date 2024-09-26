@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 131cacc88670a965ed2e233984ffa941b37e8a08
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '2020'
-ht-degree: 96%
+source-wordcount: '2042'
+ht-degree: 95%
 
 ---
 
@@ -50,6 +50,7 @@ ht-degree: 96%
       + [測試您的歷程](using/building-journeys/testing-the-journey.md)
       + [模擬您的歷程](using/building-journeys/journey-simulation.md)
       + [發佈您的歷程](using/building-journeys/publishing-the-journey.md)
+      + [歷程中的即時報告](using/building-journeys/report-journey.md)
    + 管理您的歷程{#manage-journey}
       + [輪廓入口管理](using/building-journeys/entry-management.md)
       + [時區管理](using/building-journeys/timezone-management.md)
@@ -174,7 +175,7 @@ ht-degree: 96%
    + [檢閱及啟動行銷活動](using/campaigns/review-activate-campaign.md)
    + [管理行銷活動](using/campaigns/modify-stop-campaign.md)
    + [利用 API 觸發行銷活動](using/campaigns/api-triggered-campaigns.md)
-+ 測試您的交付項目{#test}
++ 測試並核准{#test}
    + [衝突管理與優先順序](using/test-approve/conflict-prioritization.md)
    + 預覽和測試內容{#preview-test}
       + [使用範例輸入資料測試您的內容](using/test-approve/simulate-sample-input.md)
@@ -184,6 +185,11 @@ ht-degree: 96%
       + [傳送電子郵件校樣](using/content-management/proofs.md)
       + [測試電子郵件轉譯](using/content-management/rendering.md)
       + [電子郵件垃圾郵件報告](using/content-management/spam-report.md)
+   + 核准歷程與行銷活動{#approve}
+      + [開始使用核准](using/test-approve/gs-approval.md)
+      + [建立和管理核准原則](using/test-approve/approval-policies.md)
+      + [請求核准](using/test-approve/request-approval.md)
+      + [核准請求](using/test-approve/review-approve-request.md)
 + 電子郵件頻道 {#email}
    + [開始使用電子郵件](using/email/get-started-email.md)
    + [建立電子郵件](using/email/create-email.md)
@@ -264,14 +270,13 @@ ht-degree: 96%
    + [建立基於程式碼的體驗設定](using/code-based/code-based-configuration.md)
    + [實施方法範例](using/code-based/code-based-implementation-samples.md)
    + [建立程式碼型體驗](using/code-based/create-code-based.md)
-+ 內容卡(LA){#content-card}
++ 內容卡片{#content-card}
    + [開始使用內容卡](using/content-card/get-started-content-card.md)
    + 設定內容卡片頻道{#configure}
       + [內容卡片先決條件](using/content-card/content-card-configuration-prereq.md)
       + [在Journey Optimizer中設定內容卡片頻道](using/content-card/content-card-configuration.md)
    + [建立內容卡片](using/content-card/create-content-card.md)
    + [設計內容卡片](using/content-card/design-content-card.md)
-   + [內容卡片報表](using/content-card/content-card-report.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
    + [建立登陸頁面](using/landing-pages/create-lp.md)
@@ -647,6 +652,7 @@ ht-degree: 96%
          + [在自訂動作中使用 API 呼叫回應](using/action/action-response.md)
          + [與 Marketo Engage 整合](using/action/marketo-engage.md)
    + [來源](using/start/get-started-sources.md)
+   + [將物件匯出至另一個沙箱](using/configuration/copy-objects-to-sandbox.md)
 + 存取控制 {#access-control}
    + 存取控制概覽{#privacy}
       + [開始使用使用者管理](using/administration/permissions-overview.md)

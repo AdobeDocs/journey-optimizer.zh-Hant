@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: e411810196c591727fb1049826dc761e3807ed03
+source-git-commit: e19cd0c301b1f2a8f47ca4c9f9882d36fd560dbe
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 3%
@@ -50,9 +50,14 @@ Adobe Journey Optimizer運用Identity Service來合併使用者的設定檔及�
 
 * 當您發佈歷程時，Journey Optimizer會自動進行擴充和調整，以確保最大的輸送量和穩定性。 當您在沙箱中一次接近100個即時歷程的里程碑時，您將看到此成就的介面中出現橘色覆蓋和警告符號。 如果您看到此通知，並需要一次將歷程擴充至 100 個即時歷程以上，請建立客戶服務支援服務單，我們將協助您達成目標。
 
+<!--DOCAC-10977
+
+* As you publish journeys, Journey Optimizer automatically scales and adjusts to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time in a sandbox, you will see an orange overlay and warning sign appear in the interface on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
+
+
 您可採納許多最佳實務，協助您在護欄內有效使用系統。
 
-* 如果您已接近即時歷程的限制，您可以採取的第一個步驟是前往「**歷程**」下的「**概觀**」標籤，以檢視過去24小時內有多少歷程處於作用中狀態（歷程具有作用中設定檔）。 您可以在此部分中檢查進入和退出歷程的設定檔數量，以確定。
+* 如果您已接近即時歷程的限制，您可以採取的第一個步驟是前往「**歷程**」下的「**概觀**」標籤，檢視過去24小時內有多少歷程處於作用中狀態，且已有作用中設定檔。 您可以在此部分中檢查進入和退出歷程的設定檔數量，以確定。
 
   ![](assets/journey-guardrails2.png)
 

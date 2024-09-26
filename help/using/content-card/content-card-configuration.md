@@ -5,30 +5,14 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-badge: label="限量開放使用" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 46%
+source-wordcount: '595'
+ht-degree: 47%
 
 ---
 
 # 設定內容卡 {#content-card-configuration}
-
->[!BEGINSHADEBOX]
-
-**目錄**
-
-* [開始使用內容卡](get-started-content-card.md)
-* [內容卡片先決條件](content-card-configuration-prereq.md)
-* **設定內容卡片頻道**
-* [建立內容卡片](create-content-card.md)
-* [設計內容卡片](design-content-card.md)
-* [內容卡片報表](content-card-report.md)
-
->[!ENDSHADEBOX]
 
 ## 什麼是設定？ {#surface-definition}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 27%
+source-wordcount: '980'
+ht-degree: 25%
 
 ---
 
@@ -128,3 +128,9 @@ ht-degree: 27%
 若要取消封存片段，請篩選&#x200B;**[!UICONTROL 已封存]**&#x200B;專案，然後從&#x200B;**[!UICONTROL 更多動作]**&#x200B;功能表中選取&#x200B;**[!UICONTROL 取消封存]**。 現在仍可從片段清單存取，並可用於任何電子郵件或範本。
 
 ![](assets/fragment-list-unarchive.png)
+
+## 將片段匯出至另一個沙箱 {#export}
+
+Journey Optimizer可讓您將片段從一個沙箱複製到另一個沙箱。 例如，您可以將片段從中繼沙箱環境複製到生產沙箱。
+
+復製程式是透過來源與目標沙箱之間的&#x200B;**封裝匯出和匯入**&#x200B;進行。 本節提供如何匯出物件並將其匯入目標沙箱的詳細資訊： [將物件複製到另一個沙箱](../configuration/copy-objects-to-sandbox.md)

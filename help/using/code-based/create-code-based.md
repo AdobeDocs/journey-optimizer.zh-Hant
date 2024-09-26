@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1127'
 ht-degree: 9%
 
 ---
@@ -113,6 +113,10 @@ ht-degree: 9%
     When copying the test URI, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].-->
 
 ## 啟用程式碼型行銷活動 {#activate-code-based-campaign}
+
+>[!IMPORTANT]
+>
+>從9月版本開始，全新的行銷活動和歷程啟用體驗可讓您管理整個核准流程，確保行銷活動和歷程在投入使用前皆由適當的利害關係人徹底審查和核准。 此功能在「有限可用性」中提供。 [了解更多](../test-approve/gs-approval.md)
 
 定義程式碼型行銷活動並使用[程式碼型編輯器](#edit-code)視需要編輯內容後，您就可以檢閱並啟用它。 請遵循下列步驟。
 

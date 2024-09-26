@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，歷程，業務，設定
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 12%
@@ -52,7 +52,7 @@ ht-degree: 12%
 
 **在歷程處理期間，接收業務事件時的行為為何？**
 
-商業活動會遵循重新進入規則，其方式與單一活動相同。 如果歷程允許重新進入，將處理下一個業務事件。
+業務事件會遵循與單一事件相同的重新進入規則。 如果歷程允許重新進入，將處理下一個業務事件。
 
 **避免過度載入具體化對象的護欄是什麼？**
 

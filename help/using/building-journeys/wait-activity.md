@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 等待，活動，歷程，下一步，畫布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 18%
@@ -43,7 +43,7 @@ ht-degree: 18%
 
 個人只有在歷程中剩餘的時間足以在91天歷程逾時前完成等待期間時，才能進入&#x200B;**等待**&#x200B;活動。
 
-### 等待並重新進入 {#wait-re-entrance}
+### 等待並重新進入 {#wait-reentrance}
 
 不使用&#x200B;**等待**&#x200B;活動以封鎖重新進入的最佳作法。 請改用歷程屬性層級的&#x200B;**允許重新進入**&#x200B;選項。 在[本頁](../building-journeys/journey-properties.md#entrance)中瞭解更多。
 

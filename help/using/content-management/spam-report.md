@@ -4,12 +4,11 @@ description: 瞭解如何使用電子郵件垃圾郵件報告。
 feature: Preview
 role: User
 level: Beginner
-badge: label="Beta"
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 5f69b252f5812f43b3d0a6fed0aac074ece0d10f
+source-git-commit: 9d95c3cf5c7f9a0da98654795370f40e84611dc9
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 24%
+source-wordcount: '365'
+ht-degree: 17%
 
 ---
 
@@ -21,10 +20,6 @@ ht-degree: 24%
 >abstract="您可以使用垃圾郵件報告來檢查電子郵件內容的垃圾郵件評分。該分數表示 ISP 或信箱提供者是否會將您的郵件視為垃圾郵件。分數越低越好。如果您的電子郵件內容得分高於 2，您應該考慮修正導致測試失敗的問題。"
 
 您可以在專用的垃圾郵件報告中檢查您的電子郵件內容垃圾郵件評分。 使用[SpamAssassin](https://spamassassin.apache.org/){target="_blank"}，Adobe Journey Optimizer可以測試您的電子郵件內容，並提供分數以指出ISP或信箱提供者是否將其視為垃圾郵件。
-
->[!AVAILABILITY]
->
->此功能目前為 Beta 版本，僅供 Beta 版客戶使用。若要加入 Beta 版計畫，請連絡 Adobe 客戶服務。
 
 在編輯或預覽您的電子郵件內容時，**[!UICONTROL 垃圾郵件報告]**&#x200B;按鈕會提供評分和建議以提高所列每個個別專案的分數。
 
@@ -49,6 +44,11 @@ ht-degree: 24%
 1. 檢查每個專案的分數和說明。
 
    分數越低越好。如果分數高於5，則會顯示警告：指出某些訊息在收到時可能會遭到封鎖或標籤為垃圾訊息。 最佳實務是讓分數低於2。
+
+   >[!NOTE]
+   >
+   >垃圾郵件分數是透過[SpamAssassin](https://spamassassin.apache.org/){target="_blank"}衍生的，而且規則不屬於Adobe。 如需這些規則的詳細資訊，請參閱SpamAssassin檔案。
+   >
 
 1. 根據該評分，如果您認為某些元素可以改善，請在[電子郵件Designer](../email/content-from-scratch.md)中編輯您的內容並進行必要的更新。
 
