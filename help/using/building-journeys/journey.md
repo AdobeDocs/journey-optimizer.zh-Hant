@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 歷程, 探索, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -82,7 +82,7 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 >[!NOTE]
 >
->通常而言，設定檔無法在同一歷程中同時出現多次。如果啟用重新進入，設定檔可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。 [閱讀全文](end-journey.md)。
+>通常而言，輪廓無法在同一歷程中同時出現多次。如果啟用重新進入，設定檔可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。 [閱讀全文](end-journey.md)。
 
 如果您需要修改為即時歷程，請建立歷程的新版本。
 
