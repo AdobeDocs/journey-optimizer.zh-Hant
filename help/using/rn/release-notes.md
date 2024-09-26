@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b89bb9791d8b8e34a598b1044c495a439f6107b4
+source-git-commit: 8cadb10c635e59fcdc55ad31d7881bad90e95ee7
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 68%
@@ -376,3 +376,4 @@ ht-degree: 68%
    * 使用探索分析工具，可從已選取的&#x200B;**[!UICONTROL 維度]**&#x200B;和&#x200B;**[!UICONTROL 量度]**，輕鬆地建立表格和視覺效果。
 
   如需詳細資訊，請參閱[詳細文件](../reports/report-cja-manage.md)。
+
