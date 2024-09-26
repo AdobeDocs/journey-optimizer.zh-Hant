@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8cadb10c635e59fcdc55ad31d7881bad90e95ee7
+source-git-commit: bd5b32049e9cfbbccaf6b12c98a8f4dfcc8d14ac
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 68%
+source-wordcount: '1611'
+ht-degree: 66%
 
 ---
 
@@ -211,7 +211,7 @@ ht-degree: 68%
 
 **歷程**
 
-<!-- DOCAC-10977 * **Max number of Live journeys** - Journey Optimizer now has a guardrail of 500 live journeys on production sandboxes, instead of 100. The number of live journeys is visible in the journey canvas.-->
+* **即時歷程的最大數量** - Journey Optimizer在生產沙箱上現在具有500個即時歷程的護欄，而不是100個。 即時歷程的數量會顯示在歷程畫布中。 在[此頁面](../start/guardrails.md#journeys-guardrails)中進一步瞭解歷程護欄
 
 * **即時報告增強功能** — 即時報告提供過去24小時內您歷程效能的深入分析。 我們已透過新增新量度（已進入、已退出、已捨棄的錯誤設定檔和設定檔）來增強該功能，允許您直接從Journey畫布更深入地瞭解使用者行為和效能。 [了解更多](../building-journeys/report-journey.md)
 
