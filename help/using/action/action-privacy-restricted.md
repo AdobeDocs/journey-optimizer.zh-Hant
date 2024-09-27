@@ -11,7 +11,7 @@ keywords: 資料、治理、DULE、標籤、標籤、平台、原則
 hide: true
 hidefromtoc: true
 badgePrivateBeta: label="Private Beta" type="Informative"
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 7384bcbba3e9793018628a66bb683c381d00e87a
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 33%
@@ -90,7 +90,7 @@ ht-degree: 33%
 
 如果系統識別受限欄位，則會顯示錯誤，使您無法發佈歷程或行銷活動。 [瞭解如何偵測治理原則違規](#violation)
 
-![](../privacy/assets/governance-policy-schema.png){zoomable="yes"}
+![](assets/governance-policy-schema.png){zoomable="yes"}
 
 *歷程與行銷活動的原則違規分析步驟*
 
@@ -126,7 +126,7 @@ ht-degree: 33%
 
 如果其中一個標示為&#x200B;_ePHI1_&#x200B;的欄位（我們範例中的血液型別欄位）在動作引數中偵測到，則會顯示錯誤，使您無法發佈歷程。 [瞭解如何偵測治理原則違規](#violation)
 
-![](../privacy/assets/governance-policy-custom-action-schema.png){zoomable="yes"}
+![](assets/governance-policy-custom-action-schema.png){zoomable="yes"}
 
 *歷程自訂動作的原則違規分析步驟*
 
