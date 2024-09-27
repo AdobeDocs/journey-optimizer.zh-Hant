@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 6adad3dfc9a0ec23c26be2027b0e1b3e2b757f6a
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 2%
+source-wordcount: '1136'
+ht-degree: 7%
 
 ---
 
@@ -27,11 +27,7 @@ ht-degree: 2%
 
 * 目前在[!DNL Journey Optimizer]中，您只能在&#x200B;**行銷活動**&#x200B;中建立網站體驗。 [了解更多](../campaigns/create-campaign.md#configure)
 
-* [!DNL Journey Optimizer]個網站行銷活動會鎖定其他頻道上之前未參與的新設定檔。 這會增加您的可參與設定檔總數，如果您購買的可參與設定檔數量超過合約數量，可能會影響成本。 每個套件的授權量度都列在[Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。
-
->[!AVAILABILITY]
->
->目前，Web頻道不適用於已購買Adobe **Healthcare Shield**&#x200B;和&#x200B;**Privacy and Security Shield**&#x200B;附加產品的組織。
+* [!DNL Journey Optimizer] 網路行銷活動會選擇以其他管道上不曾有過互動的新輪廓為目標。這樣做會增加可互動輪廓總數，如果其超過您購買的可互動輪廓合約數量，可能會影響成本。 各個套件的授權量度都列在 [Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。
 
 ## 實作必要條件 {#implementation-prerequisites}
 
