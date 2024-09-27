@@ -11,10 +11,10 @@ keywords: 原則、治理、平台、Healthcare Shield、同意
 hide: true
 hidefromtoc: true
 badgePrivateBeta: label="Private Beta" type="Informative"
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: b783832bc43e6a12d97b210e7d4441381eac63a2
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 79%
+source-wordcount: '1260'
+ht-degree: 77%
 
 ---
 
@@ -128,21 +128,6 @@ There are two types of latency regarding the use of consent policies:
 [本節](../action/about-custom-action-configuration.md#consent-management)詳細介紹了設定自訂動作的其他步驟。
 
 ### 在歷程中新增自訂動作時，善用同意原則 {#consent-journey}
-
->[!CONTEXTUALHELP]
->id="ajo_consent_required_marketing_action_canvas"
->title="必要行銷動作"
->abstract="在建立自訂動作時會定義必要行銷動作。 無法從動作移除或修改此必要行銷動作。"
-
->[!CONTEXTUALHELP]
->id="ajo_consent_additional_marketing_action_canvas"
->title="其他行銷動作"
->abstract="除必要行銷動作外，新增其他行銷動作。 將強制執行與這兩個行銷動作相關的同意原則。"
-
->[!CONTEXTUALHELP]
->id="ajo_consent_refresh_policies_canvas"
->title="視覺化呈現要在執行階段套用的同意原則"
->abstract="行銷動作會引入同意原則，該原則會結合動作參數與個別輪廓同意值，以篩選使用者。 按一下按鈕重新整理，以取得這些原則的最新定義。"
 
 當新增自訂動作至歷程時，您可利用數個選項管理同意。按一下&#x200B;**顯示唯讀欄位**&#x200B;以顯示所有參數。
 
