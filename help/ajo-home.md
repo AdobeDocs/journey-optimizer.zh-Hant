@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 68cf533bb459f33d2ebf951624b9a05910003fbb
+source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 90%
+source-wordcount: '392'
+ht-degree: 83%
 
 ---
 
@@ -20,13 +20,19 @@ ht-degree: 90%
 
 >[!BEGINTABS]
 
->[!TAB AI助理內容加速器]
+>[!TAB 9月發行版本]
+
+9月版本現已上線，包括行動應用程式和網站的內容卡、歷程和行銷活動中的核准原則(LA)、歷程中的全域退出條件等/
+
+[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB AI 助理]
 
 ✨透過我們的[AI Assistant Content Accelerator](../help/using/content-management/gs-generative.md)即時功能預覽，親身體驗親身體驗各種功能，讓您親身體驗各項功能，全面瞭解各項功能。
 
 [![了解更多](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB 使用 Customer Journey Analytics (Beta) 進行報告]
+>[!TAB 使用Customer Journey Analytics報告]
 
 Journey Optimizer 報告功能改進與 Customer Journey Analytics 功能的互通性，可將兩個平台間的報告標準化，並改善資料一致性與可靠性。
 

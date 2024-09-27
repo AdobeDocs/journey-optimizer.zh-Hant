@@ -1,23 +1,151 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 2024 年發行說明
+title: 2024年發行說明
 description: Journey Optimizer 2024 年發行說明
 feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
 workflow-type: tm+mt
-source-wordcount: '3352'
-ht-degree: 95%
+source-wordcount: '3850'
+ht-degree: 96%
 
 ---
 
 # 發行說明 2024 年 {#release-notes-2024}
 
 此頁面列出了於 2024 年發行的[!DNL Journey Optimizer]所有功能和改善。
+
+
+## 2024 年 8 月發行說明 {#8-2024}
+
+**發行日期**：2024 年 8 月 20-21 日
+
+### 新功能 {#8-features}
+
+此發行版本提供下列詳細介紹的新功能。
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Content Cards (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
+</br>
+<p>Content card are currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>改善的頻道設定</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>已增強目前的管道表面功能，以在所有管道中採取一致的方法。您現在可以為任何管道定義、管理和重複使用這些設定，包括網頁、應用程式內訊息或基於程式碼的體驗。</p>
+<p><ul>
+<li>管道表面現在已重新命名為<strong>管道設定</strong></li>
+<li>您可以附加一或多個行銷動作，以強制執行同意和資料治理原則</li>
+<li>物件層級存取控制 (OLAC) 現在可用於每個管道設定，可讓您決定允許哪些使用者建立或使用特定設定</li>
+<li>對於某些管道，您可以建立以多個平台為目標的管道設定。以下為可鎖定網頁、iOS 應用程式和 Android 應用程式的應用程式內傳送訊息管道設定範例。</li>
+</ul></p>
+<p>如需詳細資訊，請參閱<a href="../configuration/channel-surfaces.md">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Marketo Engage 自訂動作</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以將 Adobe Journey Optimizer 與Adobe Marketo Engage 整合，來建置您的 B2B 使用案例。 新的自訂動作可讓您從歷程將資料收錄到 Marketo。</p>
+<p>如需詳細資訊，請參閱<a href="../action/marketo-engage.md">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>內容片段變數</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>片段全域變數可增強現有片段功能，以提高內容再使用性與指令碼使用案例的效率。 片段現在可以使用輸入變數，以及建立可用於行銷活動和歷程內容的輸出變數。在<a href="../personalization/use-expression-fragments.md">運算式片段</a>和<a href="../email/use-visual-fragments.md">視覺片段</a>這兩種片段中，皆可使用輸入變數。您可以使用這些變數，在行銷活動和歷程個人化您的訊息內容和參數。</p>
+<p>如需詳細資訊，請參閱<a href="../personalization/use-expression-fragments.md">詳細文件</a>。</p>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>IP 暖身工作流程</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>推出日期：8 月 13 日</p>
+<p>如果您使用全新的 IP 位址傳送電子郵件，現在可以直接從使用者介面輕鬆執行 IP 暖身工作流程。 Adobe Journey Optimizer 提供標準化和有效率的方式，讓您的 IP 位址按照最佳實務來暖身，以實現最佳傳遞能力。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/ip-warmup-gs.md">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改進項目 {#8-improvements}
+
+此發行版本隨附下列改進項目。
+
+**歷程**
+
+* 在&#x200B;**條件**&#x200B;活動中，預設情況下，**[!UICONTROL 時間條件]**&#x200B;現在會從 00:00 到 12:00，依小時設定。 [閱讀全文](../building-journeys/condition-activity.md#time_condition)
+* 當建立歷程時，現在會從&#x200B;**警示**&#x200B;按鈕顯示提醒，跟其他提醒保持同步，提供一致的使用者體驗。[閱讀全文](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* 已改善歷程工具列的縮放選項：您現在可以看到縮放百分比，可以更輕鬆將重設縮放值。
+
+**推播管道**
+
+* 您現在可於 Adobe Journey Optimizer 管道設定的設定中新增行動應用程式推播認證。您不再需要在 Adobe Experience Platform 資料彙集中建立應用程式表面。
+
+### 其他變更 {#changes}
+
+**報告**
+
+* 已將新的使用案例新增至全新報告體驗：
+
+   * 可直接在報告中建立自訂計算量度。
+   * 請從報告資料那邊建立對象。
+   * 使用探索分析工具，可從已選取的&#x200B;**[!UICONTROL 維度]**&#x200B;和&#x200B;**[!UICONTROL 量度]**，輕鬆地建立表格和視覺效果。
+
+  如需詳細資訊，請參閱[詳細文件](../reports/report-cja-manage.md)。
+
 
 
 ## 2024 年 7 月發行說明 {#24-7-2024}
@@ -633,11 +761,11 @@ ht-degree: 95%
 
 **行銷活動**
 
-* **API 觸發的活動** - 在啟動 API 觸發的活動後產生的 cURL 程式碼已增強。 現在其可包含訊息中使用的所有個人化 (個人資料與內容) 變數。[閱讀全文](../campaigns/api-triggered-campaigns.md#execute)
+* **API 觸發的活動** - 在啟動 API 觸發的活動後產生的 cURL 程式碼已增強。 現在其可包含訊息中使用的所有個人化 (輪廓與內容) 變數。[閱讀全文](../campaigns/api-triggered-campaigns.md#execute)
 
 **頻率規則**
 
-* 除了電子郵件及推播之外，您現在還可以為簡訊和直接郵件管道建立頻率規則。 當達到頻率上限時，頻率規則會自動從訊息和動作中排除過度請求的設定檔。[閱讀全文](../configuration/frequency-rules.md)
+* 除了電子郵件及推播之外，您現在還可以為簡訊和直接郵件管道建立頻率規則。 當達到頻率上限時，頻率規則會自動從訊息和動作中排除過度請求的輪廓。[閱讀全文](../configuration/frequency-rules.md)
 
 <!--**Decision management**
 
@@ -695,7 +823,7 @@ ht-degree: 95%
 
 **簡訊頻道**
 
-* **雙重確認選擇加入** - 簡訊的雙重確認選擇加入工作流程可確保使用者從其裝置發出請求時，明確選擇加入要接收訊息。 使用者開始進行同意流程的方式為，傳送傳入簡訊。確認同意後，隨即會傳送後續追蹤訊息，要求進行最終驗證。如果使用者設定檔不存在，則會在成功確認時加以建立。[了解更多](../sms/sms-configuration.md)
+* **雙重確認選擇加入** - 簡訊的雙重確認選擇加入工作流程可確保使用者從其裝置發出請求時，明確選擇加入要接收訊息。 使用者開始進行同意流程的方式為，傳送傳入簡訊。確認同意後，隨即會傳送後續追蹤訊息，要求進行最終驗證。如果使用者輪廓不存在，則會在成功確認時加以建立。[了解更多](../sms/sms-configuration.md)
 
   請注意，此功能適用於 Sinch 和 Infobip 簡訊提供者。
 
@@ -713,7 +841,7 @@ ht-degree: 95%
 
 **頻率規則**
 
-* **每週頻率上限** - 除了以月為單位之外，您現在可以指定一週內所能傳送給客戶設定檔的訊息數量上限。頻率上限是以所選的行事曆期間為基礎，並會在對應的時間段開始時重設。 [了解更多](../configuration/frequency-rules.md#create-new-rule)
+* **每週頻率上限** - 除了以月為單位之外，您現在可以指定一週內所能傳送給客戶輪廓的訊息數量上限。頻率上限是以所選的行事曆期間為基礎，並會在對應的時間段開始時重設。 [了解更多](../configuration/frequency-rules.md#create-new-rule)
 
   >[!NOTE]
   >
