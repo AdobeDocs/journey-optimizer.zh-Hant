@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
+source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 53%
+source-wordcount: '1103'
+ht-degree: 52%
 
 ---
 
@@ -243,3 +243,7 @@ ht-degree: 53%
   >[!CAUTION]
   >
   >請注意，使用文件頁面上的互動式 API 功能時，就是在對端點進行真正的 API 呼叫。在試驗生產沙箱時，請記住這一點。
+
+**設定**
+
+* IP熱身計畫 — 此功能現在可供所有客戶使用，包括已購買Adobe **Healthcare Shield**&#x200B;或&#x200B;**Privacy and Security Shield**&#x200B;附加產品的組織。 [了解更多](../configuration/ip-warmup-gs.md)
