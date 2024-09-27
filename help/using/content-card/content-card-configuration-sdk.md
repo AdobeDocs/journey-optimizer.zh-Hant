@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: 02c4b61f22591a99824eb727aaccfd0cbe1facfc
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '484'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,10 @@ ht-degree: 1%
 
 ## 執行範例 {#run-sample}
 
-先決條件：您必須安裝節點和npm。 [請參閱此檔案](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+>[!PREREQUISITES]
+>
+>您必須安裝節點和npm。 [請參閱此檔案](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
 
 1. 設定HTTPS的本機SSL憑證。 這些範例需要本機簽署的SSL憑證，才能透過HTTPS提供內容：
 
