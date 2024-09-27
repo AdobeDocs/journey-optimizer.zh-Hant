@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1504'
 ht-degree: 100%
 
 ---
@@ -273,13 +273,6 @@ ht-degree: 100%
 >id="ajo_email_locking_read_only"
 >title="唯讀"
 >abstract="此為唯讀內容，無法再行修改。"
-
-<!--GOVERNANCE POLICIES-->
-
->[!CONTEXTUALHELP]
->id="ajo_data_governance_policy_violation"
->title="資料治理原則違規"
->abstract="如果系統發現歷程/促銷活動有受限欄位，或有自訂動作，則會顯示錯誤並防止您發佈。使用此對話框中的資料譜系圖，了解在啟用歷程或促銷活動前需要進行哪些其他設定變更。"
 
 <!--APPROVAL POLICIES-->
 
