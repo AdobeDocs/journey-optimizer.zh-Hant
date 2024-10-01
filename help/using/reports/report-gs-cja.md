@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="限量開放使用" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 40fde856e76d7e2d609ba90f93d4e07fe90f858f
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 14%
+source-wordcount: '365'
+ht-degree: 16%
 
 ---
 
@@ -42,9 +42,18 @@ Journey Optimizer 報告功能改善與 Customer Journey Analytics 功能的互�
 
 ## 先決條件 {#prerequisites}
 
-* 如果您&#x200B;**沒有**&#x200B;自己的Customer Journey Analytics，或如果您擁有它但&#x200B;**沒有**&#x200B;存取任何Customer Journey Analytics產品設定檔，許可權是在Journey Optimizer中進行管理。 在此情況下，您只需要&#x200B;**[!UICONTROL 檢視管道報表]**&#x200B;許可權或相關角色。 [進一步瞭解Journey Optimizer許可權](../administration/permissions.md)
-* 如果您擁有Customer Journey Analytics並有權存取Customer Journey Analytics產品設定檔，則套用標準Customer Journey Analytics許可權。 Customer Journey Analytics管理員負責維護適當的使用者存取權。 [進一步瞭解Customer Journey Analytics許可權](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
+* 如果您&#x200B;**沒有**&#x200B;自己的Customer Journey Analytics，或如果您擁有它但&#x200B;**沒有**&#x200B;存取任何Customer Journey Analytics產品設定檔，許可權是在Journey Optimizer中進行管理。 在此情況下，您將需要：
+
+   * **[!UICONTROL 檢視管道報告]**&#x200B;許可權或相關角色。 [了解更多](../administration/permissions.md)
+
+* 如果您&#x200B;**擁有** Customer Journey Analytics並有權存取Customer Journey Analytics產品設定檔，您將需要：
+
+   * Customer Journey Analytics的&#x200B;**[!UICONTROL 對象建立]**&#x200B;和&#x200B;**[!UICONTROL 對象檢視]**&#x200B;許可權。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
+
+   * **[!UICONTROL 管理Adobe Journey Optimizer的設定檔]**&#x200B;許可權。 [了解更多](../administration/permissions.md)
+
 * 您的Customer Journey Analytics資料檢視需要以下列設定來設定： **在Adobe Journey Optimizer中設定為預設資料檢視**。 [進一步瞭解資料檢視](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
+
 * 若要存取Journey Optimizer中的Customer Journey Analytics儀表板，只需在您的報告中啟用&#x200B;**[!UICONTROL 使用新體驗]**&#x200B;切換即可。
 
   ![](assets/cja-option.png)
