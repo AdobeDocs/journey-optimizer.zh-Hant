@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="使用範例輸入進行模擬"
->abstract="在此畫面中，您可以透過CSV範本（下載CSV）或手動輸入值，提供個人化欄位值，以測試電子郵件內容的不同變體。"
+>abstract="在這個畫面中，您可以透過 CSV 範本 (下載 CSV) 為個人化欄位提供值或手動輸入值來測試電子郵件內容的不同變體。"
 
 >[!AVAILABILITY]
 >

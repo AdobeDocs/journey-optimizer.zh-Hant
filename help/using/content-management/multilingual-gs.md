@@ -13,7 +13,7 @@ badge: label="限量開放使用" type="Informative"
 source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 21%
+ht-degree: 28%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_homepage"
 >title="翻譯"
->abstract="多語言功能可讓您在單一行銷活動或歷程中，輕鬆建立多種語言的內容。 透過翻譯頁面，您可以設定專案、選取翻譯提供者或管理地區特定字典"
+>abstract="多語言功能讓您可以透過單一行銷活動或歷程輕鬆建立多語言內容。 透過「翻譯」頁面，您可以設定專案、選擇翻譯提供者或管理地區設定字典"
 
 >[!AVAILABILITY]
 >
