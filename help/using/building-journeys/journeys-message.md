@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 14%
@@ -116,7 +116,7 @@ ht-degree: 14%
      >
      >每個傳入訊息活動都隨附3天&#x200B;**等待**&#x200B;活動。 [了解更多](../building-journeys/wait-activity.md#auto-wait-node)
 
-### 建議 {#recommendation}
+## 建議 {#recommendation}
 
 [!DNL Journey Optimizer]隨附內建訊息功能。 不過，自訂動作可讓您設定協力廠商系統的連線，以傳送訊息或API呼叫。
 
