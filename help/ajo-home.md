@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 9688a0303726d706106ba7c89157529e02ecbfca
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 84%
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 84%
 
 >[!TAB AI 助理]
 
-✨透過我們的[AI Assistant Content Accelerator](../help/using/content-management/gs-generative.md)即時功能預覽，親身體驗親身體驗各種功能，讓您親身體驗各項功能，全面瞭解各項功能。
+✨ 使用 [AI 助理內容加速器](../help/using/content-management/gs-generative.md)的即時功能預覽，親身體驗各種實作功能，旨在讓您直接探索各項功能，全面了解所有功能。
 
 [![了解更多](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

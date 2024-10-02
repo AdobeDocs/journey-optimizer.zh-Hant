@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
 source-wordcount: '2055'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -272,12 +272,12 @@ ht-degree: 95%
    + [建立程式碼型體驗](using/code-based/create-code-based.md)
 + 內容卡片{#content-card}
    + [開始使用內容卡](using/content-card/get-started-content-card.md)
-   + 設定內容卡片頻道{#configure}
-      + [內容卡片先決條件](using/content-card/content-card-configuration-prereq.md)
-      + [在Journey Optimizer中設定內容卡片頻道](using/content-card/content-card-configuration.md)
+   + 設定內容卡頻道 {#configure}
+      + [內容卡的先決條件](using/content-card/content-card-configuration-prereq.md)
+      + [在 Journey Optimizer 中設定內容卡頻道](using/content-card/content-card-configuration.md)
       + [在Web SDK中設定內容卡支援](using/content-card/content-card-configuration-sdk.md)
-   + [建立內容卡片](using/content-card/create-content-card.md)
-   + [設計內容卡片](using/content-card/design-content-card.md)
+   + [建立內容卡](using/content-card/create-content-card.md)
+   + [設計內容卡](using/content-card/design-content-card.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
    + [建立登陸頁面](using/landing-pages/create-lp.md)
@@ -294,11 +294,11 @@ ht-degree: 95%
 + 內容管理 {#content-management}
    + 使用 AI 助理{#ai-assistant}
       + [開始使用 AI 助理內容加速器](using/content-management/gs-generative.md)
-      + [使用人工智慧產生電子郵件](using/content-management/generative-email.md)
-      + [使用AI產生推播](using/content-management/generative-push.md)
-      + [使用AI產生簡訊](using/content-management/generative-sms.md)
-      + [使用AI產生網頁](using/content-management/generative-web.md)
-      + [使用AI的內容實驗](using/content-management/generative-experimentation.md)
+      + [使用 AI 來產生電子郵件](using/content-management/generative-email.md)
+      + [使用 AI 來產生推播](using/content-management/generative-push.md)
+      + [使用 AI 來產生簡訊](using/content-management/generative-sms.md)
+      + [使用 AI 來產生網頁](using/content-management/generative-web.md)
+      + [使用 AI 的內容實驗](using/content-management/generative-experimentation.md)
       + [AI助理使用案例](using/content-management/generative-uc.md)
    + 可在多語言內容中使用{#content-multilingual}
       + [開始使用多語言內容](using/content-management/multilingual-gs.md)

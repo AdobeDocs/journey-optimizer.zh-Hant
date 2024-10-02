@@ -206,7 +206,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
 >title="將規則集套用至歷程"
->abstract="套用規則集，以便依照頻率上限規則，對部分客群排除此歷程。"
+>abstract="依頻率上限規則規定，套用規則設定，即可針對部分對象，排除此歷程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
@@ -216,7 +216,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="優先檢視"
->abstract=" 如果這裡所指定的時段內已安排優先等級更高的歷程，將禁止客戶進入此歷程。如果遇到您希望以先到先得的方式進入歷程之情況，我們建議選擇每日展望期，並確保在那一天任何其他歷程的優先等級分數低於該歷程。為歷程指定 100 分的優先等級分數也可以確保進入該歷程。"
+>abstract=" 如果優先順序較高的歷程被安排在此指定時段，則客戶就會禁止進入此歷程。若您希望進入先到先接待的歷程情況，我們建議您先選擇每日優先檢視期間，確保當天任何其他歷程的優先順序分數一定會小於歷程的優先順序分數。給歷程的優先順序評分 100 分，也可確保已進入相同歷程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
