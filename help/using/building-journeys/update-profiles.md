@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 設定檔，更新，歷程，活動
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 3639a1b23ce259d0a8af5f4e801f8c54eb6b3b3c
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '628'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 6%
 
 使用&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;動作活動，使用來自事件、資料來源的資訊或特定值來更新現有的Adobe Experience Platform設定檔。
 
-## 建議
+## 重要概念 {#key-concepts}
 
 * **更新設定檔**&#x200B;動作只能用於具有名稱空間的歷程中。
 * 該動作只會更新現有欄位，不會建立新的設定檔欄位。
@@ -34,11 +34,12 @@ ht-degree: 6%
 * 傳送至Adobe Experience Platform的更新要求為立即/在一秒內。 這通常需要幾秒鐘的時間，但有時更長，無法保證。 因此，舉例來說，如果動作使用「欄位1」，而此欄位是由之前放置的&#x200B;**更新設定檔**&#x200B;動作所更新，您就不應該預期動作中會更新「欄位1」。
 * **更新設定檔**&#x200B;活動不支援定義為列舉的XDM欄位。
 * **[!UICONTROL 更新設定檔]**&#x200B;活動只會更新[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}，不會更新Data Lake。
-* 在&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;活動中選取資料集時，建議使用未由資料擷取流程鎖定的資料集。 由於&#x200B;**更新設定檔**&#x200B;更新僅儲存在[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}，因此可能會以資料擷取流程覆寫這類變更。
 
-  此外，**更新設定檔**&#x200B;活動設定不需要身分名稱空間。 因此，請確保選取的資料集使用啟動歷程的動作所使用的相同身分名稱空間，因為這些更新將使用此名稱空間。 身分對應也可以由選取的資料集使用。 若未選取具有正確名稱空間或使用身分對應的資料集，將導致&#x200B;**更新設定檔**&#x200B;活動失敗。
+## 資料集選取範圍 {#dataset-selection}
 
+**更新設定檔**&#x200B;活動需要專用的資料集來儲存更新。 由於此活動只會更新設定檔存放區（而非Datalake），因此所有更新都應儲存在專為&#x200B;**更新設定檔**&#x200B;動作指定的設定檔啟用資料集中。 使用用於批次或串流擷取的資料集會導致新上線的資料覆寫&#x200B;**更新設定檔**&#x200B;動作所做的變更。
 
+此外，**更新設定檔**&#x200B;活動設定不需要身分名稱空間。 因此，請確定選取的資料集使用啟動歷程的動作所使用的相同&#x200B;**身分名稱空間**，因為這是這些更新將使用的名稱空間。 身分對應也可以由選取的資料集使用。 若未選取具有正確名稱空間或使用身分對應的資料集，將導致更新設定檔活動失敗。
 
 ## 使用設定檔更新
 
