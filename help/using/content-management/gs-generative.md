@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 開始使用Journey Optimizer Content Accelerator中的AI助理
-description: 瞭解如何在Journey Optimizer Content Accelerator中存取及使用AI Assistant
+title: 開始使用 Journey Optimizer 內容加速器中的 AI 助理
+description: 了解如何在 Journey Optimizer 內容加速器中存取並使用 AI 助理完成工作
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 9de2f498e104d316491e6061cbd851b2eb506036
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '884'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 94%
 
 >[!INFO]
 >
->透過[我們的即時功能預覽](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}，親身體驗親身體驗，讓您親身體驗功能並全面瞭解其功能。
+>透過[即時功能預覽](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}，讓您親身體驗實作，直接探索並全面了解各項功能。
 
 
 在 Adobe Journey Optimizer 中，Microsoft Azure OpenAI 與 Adobe Firefly 技術所支援的內容加速 AI 助理，可為文字和影像提供主動式內容變化建議。 它可用於電子郵件、推播和簡訊管道。這項新功能提供提示型文字與影像產生功能。 透過 Adobe Firefly 管理影像產生功能。

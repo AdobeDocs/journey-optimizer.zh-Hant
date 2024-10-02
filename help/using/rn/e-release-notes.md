@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1008'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 45%
 
 **至發行日期之前，下方早期發行說明如有變更，恕不另行通知**。 連結、畫面及更新的文件會在發行當日發佈於[發行說明](release-notes.md)。
 
-## 2024 年 9 月搶先發行說明 {#e-2024}
+## 2024 年 9 月份搶先發行版本 {#e-2024}
 
-**發行日期**： 2024年9月24至25日
+**發行日期**：2024 年 9 月 24-25 日
 
 ### 新功能 {#e-features}
 
@@ -48,13 +48,13 @@ ht-degree: 45%
 <table>
 <thead>
 <tr>
-<th><strong>歷程與行銷活動中的核准</strong><br/></th>
+<th><strong>歷程與行銷活動通過核准</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>透過核准政策，您現在可以在Journey Optimizer中設定核准程式，讓行銷團隊確保行銷活動和歷程上線前會由適當的利害關係人稽核和簽署。</p>
+<p>待政策通過核准，您就可以立即在 Journey Optimizer 中設定核准程序，允許行銷團隊使用，以確保行銷活動和歷程在正式上線之前，會先由合適的利害關係人負責審核並簽核。</p>
 <!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/-->
 </td>
@@ -66,13 +66,13 @@ ht-degree: 45%
 <table>
 <thead>
 <tr>
-<th><strong>電子郵件內容鎖定</strong><br/></th>
+<th><strong>鎖定電子郵件內容</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer現在可讓您透過鎖定整個範本或特定結構和元件，來鎖定電子郵件範本中的內容。 這可讓您防止無意中編輯或刪除，讓您更能掌控範本自訂，並改善電子郵件行銷活動的效率和可靠性。</p>
+<p>Journey Optimizer 現在允許您透過鎖定整個範本，或是特定結構和元件，鎖定電子郵件範本中的內容。這樣做讓您可以防止無意間不小心編輯內容，或將內容刪除，讓您更能掌控範本自訂，進而提高電子郵件行銷活動的效率和可靠性。</p>
 <!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/-->
 </td>
@@ -83,13 +83,13 @@ ht-degree: 45%
 <table>
 <thead>
 <tr>
-<th><strong>歷程中的全域退出條件</strong><br/></th>
+<th><strong>歷程中的全域退出標準</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在，您可以在歷程層級定義退出條件。 透過新增退出條件，您可以讓設定檔在事件發生時（例如：購買）或符合對象資格時立即退出歷程。 這會防止使用者從歷程取得任何進一步的通訊。</p>
+<p>現在您可以在歷程層級為退出標準下定義。透過新增退出標準，一旦出現事件 (例如：購買)，或是符合對象資格時，您就可以馬上讓設定檔退出歷程。這能阻止使用者從歷程處取得任何進一步通訊資料。</p>
 <!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/-->
 </td>
@@ -126,7 +126,7 @@ ht-degree: 45%
 <p>透過<a href="https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，沉浸在親身體驗中，讓您親身體驗實際功能並充分瞭解其功能。</a></p>
 <p>如需詳細資訊，請參閱<a href="../content-management/gs-generative.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
-<p>推出日期：9 月 12 日</p>
+<p>推出日期為：9 月 12 日</p>
 </td>
 </tr>
 </tbody>
@@ -154,7 +154,7 @@ ht-degree: 45%
 >[!IMPORTANT]
 >
 >目前的報告體驗將於 10 月版本發行後淘汰。在此日期之後，新的報告體驗將成為標準體驗。建議您自行熟悉新功能，以確保順利轉換。
-> [開始使用Journey Optimizer新的報表介面](../reports/report-gs-cja.md)
+> [開始使用 Journey Optimizer 新的報告介面](../reports/report-gs-cja.md)
 
 
 ### 改進項目 {#e-improvements}
@@ -165,11 +165,11 @@ ht-degree: 45%
 
 * 自訂上傳的對象 (CSV 檔案) 現在可與「隱私權與安全防護板」附加功能搭配使用。
   <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
-* （推出日期： 9月17日） **授權使用情況** — 授權使用情況儀表板現在會顯示可參與的設定檔，而不是可參與的對象。 [了解更多](../audience/license-usage.md)
+* (推出日期為：9 月 17 日) **授權使用情況** - 授權使用情況控制面板會立即顯示可互動設定檔，而非可互動對象。[了解更多](../audience/license-usage.md)
 
 **資料控管**
 
-* 除了歷程中的自訂動作之外，您現在還可以將資料治理原則套用至Journey Optimizer管道。 此增強功能有助於防止在通訊中使用敏感欄位，方法是直接在您的管道設定中套用行銷動作。
+* 除了歷程中的自訂動作之外，您現在還可以將資料治理原則套用至 Journey Optimizer 頻道。此增強功能有助於阻止在通訊中使用敏感欄位，方法就是直接到頻道設定處套用行銷動作。
 
 <!--
 **Frequency and priority management**
@@ -184,35 +184,35 @@ ht-degree: 45%
 
 **歷程**
 
-* **即時歷程的最大數量** - Journey Optimizer在生產沙箱上現在具有500個即時歷程的護欄，而不是100個。 即時歷程的數量會顯示在歷程畫布中。
+* **即時歷程最大值** - Journey Optimizer 在生產沙箱上目前擁有 500 種即時歷程護欄，並非只有100 種。即時歷程的數目會顯示在歷程版面中。
 
-* **即時報告增強功能** — 即時報告提供過去24小時內您歷程效能的深入分析。 我們已透過新增新量度（已進入、已退出、已捨棄的錯誤設定檔和設定檔）來增強該功能，允許您直接從Journey畫布更深入地瞭解使用者行為和效能。
+* **即時報告增強功能** - 即時報告會針對您的歷程效能，提供過去 24 小時內的深入分析。我們已透過加入新的量度 (已進入、已退出、已捨棄的錯誤設定檔和設定檔) 增強此功能，允許您直接從 Journey 版面，更能深入去瞭解使用者行為和效能。
 
-* **自訂動作中的引數** — 自訂動作現在支援NULL和選用引數。
+* **自訂動作中的參數** - 自訂動作目前有支援無效和選用參數。
 
-* （可用性日期： 9月10日） **讀取對象上的自動重試** — 現在在擷取匯出作業時，預設會對對象觸發的歷程（從&#x200B;**讀取對象**&#x200B;或&#x200B;**業務事件**&#x200B;開始）套用重試。 如果在匯出工作建立期間發生錯誤，將每隔 10 分鐘進行重試，最長為 1 小時。在這之後，我們會將其視為失敗。因此，這些類型的歷程最多可以在預定時間後 1 小時執行。[了解更多](../building-journeys/read-audience.md#retries)
+* (推出日期為：9 月 10 日) **在讀取對象上方的自動重試功能** - 正在擷取匯出工作時，會按預設在對象觸發歷程上套用重試功能 (從&#x200B;**讀取對象**&#x200B;或&#x200B;**商業事件**&#x200B;開始)。如果在匯出工作建立期間發生錯誤，將每隔 10 分鐘進行重試，最長為 1 小時。在這之後，我們會將其視為失敗。因此，這些類型的歷程最多可以在預定時間後 1 小時執行。[了解更多](../building-journeys/read-audience.md#retries)
 
 **電子郵件頻道**
 
-* **密件副本郵件標題** — 已新增新的標題至所有電子郵件訊息。 此標頭的值對於每個已傳送的電子郵件及其對應的密件副本都是獨一無二的。 此標頭也儲存在訊息和密件副本回饋資料集中，可協調密件副本和對應的已傳送電子郵件資訊。
-* **垃圾郵件評分** (GA) — 您現在可以在專用的垃圾郵件報告中檢查您的內容垃圾郵件評分。 使用 SpamAssassin，Adobe Journey Optimizer 現在可以測試您的電子郵件內容並為其評分，以指出 ISP 或信箱提供者是否將其視為垃圾郵件。 [閱讀全文](../content-management/spam-report.md)
+* **密件副本電子郵件標題** - 已將新標題加入至所有電子郵件訊息。對每封已送出的電子郵件和對應的密件副本來說，只會產生唯一的標題數值。也會將此標題儲存到訊息和密件副本回饋意見資料集那邊，允許調和密件副本，還有對應的已送出電子郵件資訊。
+* **垃圾郵件評分** (GA)：您目前可以到專用垃圾郵件報告處，檢查內容垃圾郵件評分。使用 SpamAssassin，Adobe Journey Optimizer 現在可以測試您的電子郵件內容並為其評分，以指出 ISP 或信箱提供者是否將其視為垃圾郵件。 [閱讀全文](../content-management/spam-report.md)
 
 **簡訊頻道**
 
-* 您現在可以修改現有的簡訊設定
+* 您現在可以修改現有的簡訊設定。
 
 **API**
 
-* [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}現在為互動式。 直接從檔案頁面探索API端點，以取得立即的回饋意見並加快您的技術實施。
+* [Adobe Journey Optimizer 的 API 文件](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}目前為互動式。直接從文件頁面那邊探索 API 端點，即可立即取得回饋意見，加快技術實作的速度。
 
-  所有API參考頁面現在都有&#x200B;**試用**&#x200B;功能，您可以用來直接在檔案網站頁面上測試API呼叫。 [取得必要的驗證認證](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}並開始使用功能來探索API端點。
+  所有 API 參考頁面目前都有推出&#x200B;**試用版**&#x200B;功能，您就可以使用此功能，直接在文件網站頁面上測試 API 呼叫。[取得必要驗證憑證](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}，開始使用此功能，即可探索 API 端點。
 
-  使用此新功能來探索API端點的請求和回應，以立即獲得意見並加快您的技術實施。
+  使用這項新功能，即可探索從 API 端點收到的請求，還有送出的回應，立即取得回饋意見，加快技術實作速度。
 
   >[!CAUTION]
   >
   >請注意，使用文件頁面上的互動式 API 功能時，就是在對端點進行真正的 API 呼叫。在試驗生產沙箱時，請記住這一點。
 
 
-* **促銷活動模擬API** — 使用此API來觸發促銷活動的證明工作。 傳送Campaign校訂是非同步程式，API將傳回proofJobId，可用於檢查校訂的狀態。 [了解更多](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
+* **行銷活動模擬 API** - 使用此 API 來觸發行銷活動的校訂工作。傳送行銷活動校訂是種非同步程序，API 將傳回 proofJobId，可用來檢查校訂的狀態。[了解更多](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
