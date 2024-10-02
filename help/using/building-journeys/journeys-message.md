@@ -1,98 +1,137 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在歷程中新增訊息
-description: 瞭解如何在歷程中新增訊息
+title: 將內建頻道動作新增至歷程
+description: 瞭解如何將內建頻道動作新增到歷程
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內
+keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 17%
+source-wordcount: '1268'
+ht-degree: 14%
 
 ---
 
-# 傳送電子郵件、應用程式內訊息、推播訊息和簡訊 {#add-a-message-in-a-journey}
+# 使用內建頻道動作 {#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
->title="訊息活動"
->abstract="Journey Optimizer 內建訊息功能。您只需在歷程中新增推播、文字簡訊 (SMS/MMS)、應用程式內或電子郵件訊息活動，並定義設定和內容。然後會在歷程的內容中執行和傳送。"
+>title="內建頻道動作"
+>abstract="Journey Optimizer隨附內建頻道動作功能。 您只需新增傳出(電子郵件、簡訊(SMS/MMS)、推播)或傳入（應用程式內、網路、程式碼型體驗、內容卡片）活動至您的歷程，並定義設定和內容即可。 然後會在歷程的內容中執行和傳送。"
 
-[!DNL Journey Optimizer]隨附內建訊息功能。 您只需在歷程中新增推播、簡訊/多媒體簡訊、應用程式內或電子郵件訊息活動，以及定義設定和內容即可。 然後會在歷程的內容中執行和傳送。
+[!DNL Journey Optimizer]隨附內建頻道動作功能。 您只需新增傳出(電子郵件、簡訊(SMS/MMS)、推播)或傳入（應用程式內、網路、程式碼型體驗、內容卡片）活動至您的歷程，並定義設定和內容即可。 然後會在歷程的內容中執行和傳送。
 
-您也可以設定傳送訊息給您的特定動作：
+>[!NOTE]
+>
+>您也可以設定傳送訊息給您的特定動作。 [了解更多](#recommendation)
 
-* 如果您使用協力廠商系統來傳送訊息，則可建立自訂動作。 在此[節](../action/action.md)中瞭解更多。
+若要將內建頻道動作新增至歷程，請遵循下列步驟。
+
+1. 以[事件](general-events.md)或[讀取對象](read-audience.md)活動來開始您的歷程。
+
+1. 從調色盤的&#x200B;**動作**&#x200B;區段，拖放外寄（**電子郵件**、**推播**、**簡訊**）或內送（**應用程式內**、**網頁**、**程式碼型體驗**、**內容卡**）活動至畫布。
+
+   ![](assets/journey-web-activity.png)
+
+1. 設定您的活動。
+
+   * 瞭解建立訊息內容的詳細步驟，如下所示：
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../email/create-email.md">
+      <img alt="銷售機會" src="../assets/do-not-localize/email.jpg">
+      </a>
+      <div><a href="../email/create-email.md"><strong>建立電子郵件</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../push/create-push.md">
+      <img alt="不頻繁" src="../assets/do-not-localize/push.jpg">
+      </a>
+      <div>
+      <a href="../push/create-push.md"><strong>建立推播通知<strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../sms/create-sms.md">
+      <img alt="驗證" src="../assets/do-not-localize/sms.jpg">
+      </a>
+      <div>
+      <a href="../sms/create-sms.md"><strong>建立文字訊息（簡訊/多媒體簡訊）</strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   * 瞭解建立傳入動作的詳細步驟，如下所示：
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../in-app/create-in-app.md">
+      <img alt="銷售機會" src="../assets/do-not-localize/in-app.jpg">
+      </a>
+      <div><a href="../in-app/create-in-app.md"><strong>建立應用程式內訊息</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../web/create-web.md">
+      <img alt="銷售機會" src="../assets/do-not-localize/web-create.jpg">
+      </a>
+      <div><a href="../web/create-web.md"><strong>建立網站體驗</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../content-card/create-content-card.md">
+      <img alt="銷售機會" src="../assets/do-not-localize/sms-config.jpg">
+      </a>
+      <div><a href="../content-card/create-content-card.md"><strong>建立內容卡</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../code-based/create-code-based.md">
+      <img alt="不頻繁" src="../assets/do-not-localize/web-design.jpg">
+      </a>
+      <div>
+      <a href="../code-based/create-code-based.md"><strong>建立程式碼型體驗<strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+     >[!NOTE]
+     >
+     >每個傳入訊息活動都隨附3天&#x200B;**等待**&#x200B;活動。 [了解更多](../building-journeys/wait-activity.md#auto-wait-node)
+
+### 建議 {#recommendation}
+
+[!DNL Journey Optimizer]隨附內建訊息功能。 不過，自訂動作可讓您設定協力廠商系統的連線，以傳送訊息或API呼叫。
+
+* 如果您使用協力廠商系統來傳送訊息，則可建立自訂動作。 [了解更多](../action/action.md)
 
 * 如果您正在使用Campaign和Journey Optimizer，請參閱下列區段：
 
    * [[!DNL Journey Optimizer]和Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer]和Campaign Standard](../action/acs-action.md)
 
-若要在歷程中新增訊息，請遵循下列步驟：
-
-1. 以[事件](general-events.md)或[讀取對象](read-audience.md)活動來開始您的歷程。
-
-1. 從調色盤的&#x200B;**動作**&#x200B;區段，將&#x200B;**電子郵件**、**應用程式內**、**簡訊**&#x200B;或&#x200B;**推播**&#x200B;活動拖放至畫布。
-
-1. 設定您的活動。
-
-   在以下頁面瞭解建立訊息內容的詳細步驟：
-
-   <table style="table-layout:fixed">
-   <tr style="border: 0;">
-   <td>
-   <a href="../email/create-email.md">
-   <img alt="銷售機會" src="../assets/do-not-localize/email.jpg">
-   </a>
-   <div><a href="../email/create-email.md"><strong>建立電子郵件</strong>
-   </div>
-   <p>
-   </td>
-   <td>
-   <a href="../in-app/create-in-app.md">
-   <img alt="銷售機會" src="../assets/do-not-localize/in-app.jpg">
-   </a>
-   <div><a href="../in-app/create-in-app.md"><strong>建立應用程式內訊息</strong>
-   </div>
-   <p>
-   </td>
-   <td>
-   <a href="../push/create-push.md">
-   <img alt="不頻繁" src="../assets/do-not-localize/push.jpg">
-   </a>
-   <div>
-   <a href="../push/create-push.md"><strong>建立推播通知<strong></a>
-   </div>
-   <p>
-   </td>
-   <td>
-   <a href="../sms/create-sms.md">
-   <img alt="驗證" src="../assets/do-not-localize/sms.jpg">
-   </a>
-   <div>
-   <a href="../sms/create-sms.md"><strong>建立文字訊息（簡訊/多媒體簡訊）</strong></a>
-   </div>
-   <p>
-   </td>
-   </tr>
-   </table>
-
->[!NOTE]
->
->每個傳入訊息活動（應用程式內訊息、程式碼型體驗或卡片）都隨附3天的&#x200B;**等待**&#x200B;活動。 [了解更多](../building-journeys/wait-activity.md#auto-wait-node)
->
-
 ## 更新即時內容{#update-live-content}
 
-您可以在即時歷程中更新訊息內容（電子郵件、應用程式內、推播、簡訊）。
+您可以在即時歷程中更新內建頻道動作的內容。
 
-若要這麼做，請開啟您的即時歷程、選取訊息活動並按一下&#x200B;**編輯內容**。
+若要這麼做，請開啟您的即時歷程、選取頻道活動並按一下&#x200B;**編輯內容**。
 
 ![](assets/add-a-message2.png)
 
@@ -114,10 +153,12 @@ ht-degree: 17%
 >[!NOTE]
 >
 >此功能預設為未啟用。 您可以聯絡您的Adobe代表來啟用它。
+>
+>傳送時間最佳化功能僅適用於電子郵件和推播頻道。
 
 ### 關於傳送時間最佳化 {#about-send-time}
 
-Adobe Journey Optimizer的傳送時間最佳化功能採用Adobe的AI服務，可根據歷史開啟率和點按率，預測傳送電子郵件或推送訊息的最佳時機，最大化參與程度。 使用我們的機器學習模型，為每位使用者排程個人化的傳送時間，以提高您訊息的開啟及點閱率。
+Adobe Journey Optimizer的傳送時間最佳化功能採用Adobe的AI服務，可根據歷史開啟率和點按率，預測傳送&#x200B;**電子郵件**&#x200B;或&#x200B;**推送訊息**&#x200B;的最佳時機，最大化參與程度。 使用我們的機器學習模型，為每位使用者排程個人化的傳送時間，以提高您訊息的開啟及點閱率。
 
 傳送時間最佳化模型會擷取您的Adobe Journey Optimizer資料，並檢視使用者層級的開啟（針對電子郵件和推播）和點按（針對電子郵件）率，以判斷客戶何時最有可能參與您的傳訊。 傳送時間最佳化需要至少一個月的訊息追蹤資料，才能提出明智的建議。 對於每個使用者，系統將使用下列分數自動挑選最佳時間：
 

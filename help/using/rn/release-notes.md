@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 86625e5c88a5f4667782964e4dc9d7a77a50af31
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 81%
+source-wordcount: '1239'
+ht-degree: 74%
 
 ---
 
@@ -25,6 +25,46 @@ ht-degree: 81%
 [!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
 ![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
+
+## 2024年10月更新 {#24-10-rn}
+
+**發行日期**：2024年10月1日
+
+### 新功能 {#24-9-features}
+
+本次更新將推出以下詳細的新功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程中的程式碼型體驗</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>透過程式碼型體驗頻道，Adobe Journey Optimizer可讓您針對任何傳入屬性進行進階個人化和測試，實現跨不同接觸點（例如網頁應用程式、行動應用程式、案頭應用程式、視訊主控台、電視連線裝置、智慧型電視、資訊站、ATM、IoT裝置等）無縫傳送量身打造的體驗。 程式碼型體驗管道現在可在歷程畫布中使用。</p>
+<p>如需詳細資訊，請參閱<a href="../code-based/create-code-based.md">詳細文件</a>。</p>
+<img src="../assets/do-not-localize/code-based-journey.gif"/>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程中的網站體驗</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>透過Web管道，Adobe Journey Optimizer可讓您個人化透過傳入網頁歷程向客戶傳遞的網頁體驗。 Web Channel現在可在歷程畫布中使用。</p>
+<p>如需詳細資訊，請參閱<a href="../web/create-web.md">詳細文件</a>。</p>
+<img src="../assets/do-not-localize/web-journey.gif"/>
+</tr>
+</tbody>
+</table>
 
 ## 2024 年 9 月發行說明 {#24-9-rn}
 

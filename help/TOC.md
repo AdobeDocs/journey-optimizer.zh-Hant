@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '2055'
-ht-degree: 98%
+source-wordcount: '2054'
+ht-degree: 97%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 98%
       + [條件](using/building-journeys/condition-activity.md)
       + [等待](using/building-journeys/wait-activity.md)
       + [讀取客群](using/building-journeys/read-audience.md)
-      + [電子郵件、應用程式內、推播、簡訊](using/building-journeys/journeys-message.md)
+      + [內建頻道動作](using/building-journeys/journeys-message.md)
       + [自訂動作](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 動作](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 動作](using/building-journeys/using-adobe-campaign-v7-v8.md)
@@ -262,7 +262,7 @@ ht-degree: 98%
    + 製作網頁{#author-web-pages}
       + [編輯網頁內容](using/web/edit-web-content.md)
       + [管理修改](using/web/manage-web-modifications.md)
-      + [監視網路行銷活動](using/web/monitor-web-campaigns.md)
+      + [監視您的網站體驗](using/web/monitor-web-experiences.md)
       + [編寫單頁應用程式](using/web/web-spa.md)
 + 程式碼型體驗 {#code-based-experience}
    + [開始使用程式碼型頻道](using/code-based/get-started-code-based.md)

@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 歷程，活動，開始，事件，動作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 13%
+source-wordcount: '577'
+ht-degree: 12%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 13%
 
 從浮動視窗的畫面左側，**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 協調流程]**&#x200B;下方，可以找到&#x200B;**[!UICONTROL 動作]**&#x200B;類別。 可使用下列動作活動：
 
-* [電子郵件、簡訊、推播](../building-journeys/journeys-message.md)
+* [內建頻道動作](../building-journeys/journeys-message.md)
 * [自訂動作](../building-journeys/using-custom-actions.md)
 * [跳轉](../building-journeys/jump.md)
 
@@ -62,7 +62,16 @@ ht-degree: 13%
 
 這些活動代表不同的可用通訊通道。您可以將其合併，以建立跨管道情境。
 
-如果您已設定自訂動作，它們也會顯示在這裡。 [深入瞭解](../building-journeys/using-custom-actions.md))。
+<!--If you have configured custom actions, they also appear here. [Learn more](../building-journeys/using-custom-actions.md)-->
+
+您也可以設定傳送訊息給您的特定動作：
+
+* 如果您使用協力廠商系統來傳送訊息，則可建立特定的自訂動作。 [了解更多](../action/action.md)
+
+* 如果您正在使用Campaign和Journey Optimizer，請參閱下列區段：
+
+   * [[!DNL Journey Optimizer]和Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer]和Campaign Standard](../action/acs-action.md)
 
 ## 最佳作法 {#best-practices}
 

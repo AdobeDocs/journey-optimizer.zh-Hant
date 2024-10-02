@@ -6,24 +6,18 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 18%
+source-wordcount: '1167'
+ht-degree: 12%
 
 ---
 
 # 建立網站體驗 {#create-web}
 
-[!DNL Journey Optimizer]可讓您透過傳入的網頁行銷活動，個人化您提供給客戶的網頁體驗。
+[!DNL Journey Optimizer]可讓您個人化您透過傳入歷程或行銷活動提供給客戶的網頁體驗。
 
->[!CAUTION]
->
->目前在 [!DNL Journey Optimizer]，您只能使用&#x200B;**行銷活動**&#x200B;建立網路體驗。
-
-[透過此影片瞭解如何建立網路行銷活動](#video)
-
-## 建立網路行銷活動 {#create-web-campaign}
+## 透過歷程或行銷活動新增網站體驗 {#create-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
@@ -35,32 +29,75 @@ ht-degree: 18%
 >title="建置頁面比對規則"
 >abstract="頁面比對規則可以找出符合相同規則的多個 URL - 例如，如果您想要將變更套用到整個網站的主要橫幅，或新增顯示在網站所有產品頁面的頂端影像。"
 
-若要透過行銷活動開始建立您的Web體驗，請遵循下列步驟。
+若要透過行銷活動或歷程開始建立您的Web體驗，請遵循下列步驟。
 
 >[!NOTE]
 >
 >如果這是您第一次建立網頁體驗，請務必遵循[本章節](web-prerequisites.md)所說明的先決條件。
 
-1. 存取&#x200B;**[!UICONTROL 促銷活動]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立促銷活動]**。[了解更多](../campaigns/create-campaign.md)
+>[!BEGINTABS]
 
+>[!TAB 新增網站體驗至歷程]
+
+若要將&#x200B;**Web**&#x200B;活動新增至歷程，請遵循下列步驟：
+
+1. [建立歷程](../building-journeys/journey-gs.md)。
+
+1. 以[事件](../building-journeys/general-events.md)或[讀取對象](../building-journeys/read-audience.md)活動來開始您的歷程。
+
+1. 從浮動視窗的&#x200B;**[!UICONTROL 動作]**&#x200B;區段拖放&#x200B;**[!UICONTROL 網頁]**&#x200B;活動。
+
+   ![](assets/web-activity-journey.png)
+
+   >[!NOTE]
+   >
+   >由於&#x200B;**Web**&#x200B;是傳入訊息活動，因此它附帶3天&#x200B;**等待**&#x200B;活動。 [了解更多](../building-journeys/wait-activity.md#auto-wait-node)
+
+1. 為您的訊息輸入&#x200B;**[!UICONTROL 標籤]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
+
+1. 選取或建立要使用的[網頁組態](web-configuration.md)。
+
+   ![](assets/web-activity-configuration.png)
+
+1. 選取&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，並使用網頁設計工具視需要編輯您的內容。 [了解更多](edit-web-content.md)
+
+1. 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解更多](../building-journeys/about-journey-activities.md)
+
+1. 在您的Web體驗準備就緒後，完成設定並發佈您的歷程以將其啟用。 [了解更多](../building-journeys/publishing-the-journey.md)
+
+如需如何設定歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
+
+>[!TAB 建立網路行銷活動]
+
+若要透過行銷活動開始建立您的Web體驗，請遵循下列步驟。
+
+1. 建立行銷活動。 [了解更多](../campaigns/create-campaign.md)
 
 1. 選取您要執行的行銷活動型別
 
    * **已排程 — 行銷**：立即或在指定日期執行行銷活動。 已排程的行銷活動旨在傳送行銷訊息。 可從使用者介面設定及執行。
 
-   * **API觸發 — 行銷/異動**：使用API呼叫執行行銷活動。 API觸發的行銷活動旨在傳送行銷或交易式訊息，也就是在個人執行動作後傳送的訊息：密碼重設、購物車購買等。
+   * **API觸發 — 行銷/異動**：使用API呼叫執行行銷活動。 API觸發的行銷活動旨在傳送行銷或交易式訊息，也就是在個人執行動作後傳送的訊息：密碼重設、購物車購買等。 [瞭解如何使用API觸發行銷活動](../campaigns/api-triggered-campaigns.md)
 
 1. 完成步驟以建立網路行銷活動，例如行銷活動屬性、[對象](../audience/about-audiences.md)和[排程](../campaigns/create-campaign.md#schedule)。
 
 1. 選取&#x200B;**[!UICONTROL Web]**&#x200B;動作。
 
-1. 選取或建立新組態。 [進一步瞭解網頁組態](web-configuration.md)
+1. 選取或建立網頁組態。 [進一步瞭解網頁組態](web-configuration.md)
 
    ![](assets/web-campaign-steps.png)
 
+1. 按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，以使用網頁設計工具視需要編輯您的內容。 [了解更多](edit-web-content.md)
+
+   <!--![](assets/web-campaign-edit-content.png)-->
+
 如需如何設定行銷活動的詳細資訊，請參閱[此頁面](../campaigns/get-started-with-campaigns.md)。
 
-## 測試網路行銷活動 {#test-web-campaign}
+➡️[在此影片中瞭解如何建立網路行銷活動](#video)
+
+>[!ENDTABS]
+
+## 測試網站體驗 {#test-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"
@@ -69,7 +106,7 @@ ht-degree: 18%
 
 使用網頁設計工具[編寫您的網頁體驗](edit-web-content.md)後，您可以使用測試設定檔來預覽您修改的網頁。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容的顯示方式。
 
-若要這麼做，請從網頁行銷活動編輯內容畫面或網頁設計工具按一下&#x200B;**[!UICONTROL 模擬內容]**，然後新增測試設定檔，以使用測試設定檔資料檢查您的網頁。
+若要這麼做，請從歷程或行銷活動編輯內容畫面按一下&#x200B;**[!UICONTROL 模擬內容]**，然後新增測試設定檔，以使用測試設定檔資料檢查您的網頁。
 
 ![](assets/web-designer-preview.png)
 
@@ -81,18 +118,45 @@ ht-degree: 18%
 
 有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱[內容管理](../content-management/preview-test.md)區段。
 
-## 啟動網站行銷活動 {#activate-web-campaign}
+## 讓您的網頁體驗上線 {#web-experience-live}
 
 >[!IMPORTANT]
 >
 >從9月版本開始，全新的行銷活動和歷程啟用體驗可讓您管理整個核准流程，確保行銷活動和歷程在投入使用前皆由適當的利害關係人徹底審查和核准。 此功能在「有限可用性」中提供。 [了解更多](../test-approve/gs-approval.md)
 
-一旦您定義了[網頁行銷活動設定](#configure-web-campaign)，並視需要使用[網頁設計工具](edit-web-content.md#work-with-web-designer)編輯您的內容後，您就可以檢閱並啟用您的網頁行銷活動。 請遵循下列步驟。
+一旦您定義了您的網頁體驗，並視需要使用[網頁設計工具](edit-web-content.md#work-with-web-designer)編輯您的內容後，您就可以啟動您的歷程或行銷活動，讓您的變更對您的對象可見。
 
-<!--
+您也可以在讓網頁體驗內容上線之前，先預覽該內容。 [了解更多](#test-web-experience)
+
 >[!NOTE]
 >
->You can also preview your web campaign content before activating it. [Learn more](#test-web-campaign)-->
+>如果您啟用一個影響相同頁面的網頁歷程或行銷活動，做為另一個已上線的歷程或行銷活動，則所有變更將會套用至您的網頁。
+>
+>如果有多個歷程或行銷活動更新網站的相同元素，則會以最高優先順序的歷程/行銷活動優先。
+
+### Publish網站歷程 {#activate-web-journey}
+
+若要讓您的網頁體驗透過歷程上線，請遵循下列步驟。
+
+1. 確認您的歷程有效且沒有錯誤。 [了解更多](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+
+1. 在歷程中，選取位於右上角下拉式功能表中的&#x200B;**[!UICONTROL Publish]**&#x200B;選項。
+
+   ![](assets/web-journey-publish.png)
+
+   >[!NOTE]
+   >
+   >在[本節](../building-journeys/publishing-the-journey.md)中進一步瞭解發佈歷程。
+
+您的網路歷程會採用&#x200B;**[!UICONTROL 即時]**&#x200B;狀態，且現在為唯讀。 您歷程的每個收件者都能看到您新增至網站的修改專案。
+
+>[!NOTE]
+>
+>在您按一下&#x200B;**[!UICONTROL Publish]**&#x200B;後，最多可能需要15分鐘的時間才能讓變更在您的網站上上線。
+
+### 啟動網站行銷活動 {#activate-web-campaign}
+
+一旦您定義了您的網路行銷活動設定，並視需要使用[網路設計工具](edit-web-content.md#work-with-web-designer)編輯您的內容後，您就可以檢閱並啟用您的網路行銷活動。 請遵循下列步驟。
 
 1. 從您的網路行銷活動中，選取&#x200B;**[!UICONTROL 檢閱以啟動]**。
 
@@ -104,33 +168,37 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >按一下&#x200B;**[!UICONTROL 啟用]**&#x200B;後，最多可能需要15分鐘的時間才能讓網站上的網路行銷活動變更上線。
+   >在[本節](../campaigns/review-activate-campaign.md)中進一步瞭解啟用行銷活動。
 
-您的網路行銷活動會採用&#x200B;**[!UICONTROL 即時]**&#x200B;狀態，現在選定的對象可以看到。 行銷活動的每位收件者都可以看到您使用[!DNL Journey Optimizer]網頁設計工具新增至網站的修改。
+您的網路行銷活動會採用&#x200B;**[!UICONTROL 即時]**&#x200B;狀態，現在選定的對象可以看到。 行銷活動的每位收件者都能看到您新增至網站的修改內容。
 
 >[!NOTE]
+>
+>按一下&#x200B;**[!UICONTROL 啟用]**&#x200B;後，最多可能需要15分鐘的時間才能讓網站上的網路行銷活動變更上線。
 >
 >如果您為網路行銷活動定義排程，在到達開始日期和時間之前，其狀態為&#x200B;**[!UICONTROL 已排程]**。
->
->如果您啟動某個網路行銷活動，其影響的頁面與另一個已上線的行銷活動相同，則所有變更將會套用至您的網頁。
 
-在[本節](../campaigns/review-activate-campaign.md)中進一步瞭解啟用行銷活動。
+## 停止網站歷程或行銷活動 {#stop-web-experience}
 
-## 停止網站行銷活動 {#stop-web-campaign}
+當網站歷程或行銷活動上線時，您可以停止它以防止您的對象看到您的修改。 請遵循下列步驟。
 
-當網站行銷活動上線時，您可以停止它以防止您的對象看到您的修改。 請遵循下列步驟。
+1. 從個別清單中選取即時歷程或行銷活動。
 
-1. 從清單中選取即時行銷活動。
+1. 根據您的情況執行相關動作：
 
-1. 從頂端功能表選取&#x200B;**[!UICONTROL 停止行銷活動]**。
+   * 從行銷活動頂端功能表，選取&#x200B;**[!UICONTROL 停止行銷活動]**。
 
-   ![](assets/web-campaign-stop.png)
+     ![](assets/web-campaign-stop.png)
 
-1. 您所定義的對象將看不到您所新增的修改。
+   * 從歷程頂端功能表，按一下&#x200B;**[!UICONTROL 更多]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 停止]**。
+
+     ![](assets/web-journey-stop.png)
+
+1. 您所定義的對象看不見您新增的修改。
 
 >[!NOTE]
 >
->網路行銷活動停止後，您就無法再次編輯或啟動它。 您只能複製該檔案並啟動複製的促銷活動。
+>一旦網站歷程或行銷活動停止，您就無法再次編輯或啟動它。 您只能複製它並啟動複製的歷程/行銷活動。
 
 ## 操作說明影片{#video}
 

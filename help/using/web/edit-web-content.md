@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1068'
 ht-degree: 16%
 
 ---
 
 # 編輯網頁內容 {#edit-web-content}
 
-在您[新增網頁動作](create-web.md#create-web-campaign)至行銷活動後，您可以使用網頁設計工具編輯網站的內容。
+在您[將網頁體驗](create-web.md#create-web-experience)新增到歷程或行銷活動後，您可以使用網頁設計工具編輯您網站的內容。
 
 [透過此影片瞭解如何創作網路行銷活動](#video)
 
@@ -29,7 +29,7 @@ ht-degree: 16%
 
 * [管理修改](manage-web-modifications.md)
 
-* [監視網路行銷活動](monitor-web-campaigns.md)
+* [監視網路行銷活動](monitor-web-experiences.md)
 
 ## 使用網頁設計工具 {#work-with-web-designer}
 
@@ -45,9 +45,9 @@ ht-degree: 16%
 >abstract="輸入特定網頁的 URL，以用於編輯將套用到符合規則的所有網頁的內容。必須使用 Adobe Experience Platform Web SDK 實施此網頁。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="了解更多"
 
-若要開始撰寫網頁行銷活動，請遵循下列步驟。
+若要開始編寫您的Web體驗，請遵循下列步驟。
 
-1. 從[行銷活動](create-web.md#create-web-campaign)的&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL 編輯內容]**。<!--change screen with rule-->
+1. 從歷程中行銷活動或網頁體驗活動的&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤，選取&#x200B;**[!UICONTROL 編輯內容]**。<!--change screen with rule-->
 
    ![](assets/web-campaign-edit-content.png)
 
