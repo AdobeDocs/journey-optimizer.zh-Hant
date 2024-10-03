@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="限量開放使用" type="Informative"
 exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 66504f7affb767d5b102cd1a91934147638c68e5
 workflow-type: tm+mt
-source-wordcount: '4176'
+source-wordcount: '4184'
 ht-degree: 2%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 2%
 
 ![](assets/cja-journey-canvas.png)
 
-**[!UICONTROL 歷程畫布]** Widget可讓您在目標設定檔瀏覽您的歷程時，以視覺化方式追蹤其軌跡。
+**[!UICONTROL 歷程畫布]** Widget可讓您在目標設定檔瀏覽您的歷程時，以視覺化方式追蹤其軌跡。 [在Customer Journey Analytics檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 使用下列選項增強畫布自訂功能：
 
