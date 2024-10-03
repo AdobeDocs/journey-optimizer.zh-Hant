@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
+source-git-commit: b429082f44090033e0fdef64f05ab1e9964297b6
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1670'
 ht-degree: 20%
 
 ---
@@ -153,13 +153,13 @@ ht-degree: 20%
 
    啟用&#x200B;**[!UICONTROL 允許NULL值]**&#x200B;選項，以便在外部呼叫中保留Null值。 請注意，傳送int、字串等陣列。 不完全支援內有Null值的功能。 例如，即使已核取此選項，下列整數陣列`[1, null, 2, 3]`也會以`[1, 2, 3]`傳送。 除此之外，如果這類陣列為Null，則會以空白陣列傳送。
 
-1. 在&#x200B;**[!UICONTROL 回應]**&#x200B;區段中，貼上呼叫傳回之裝載的範例。 此欄位是選用欄位，可用於所有呼叫方法。 如需如何在自訂動作中運用API呼叫回應的詳細資訊，請參閱[此頁面](../action/action-response.md)。
+   ![](assets/null-values.png)
 
-![](assets/action-response2bis.png){width="70%" align="left"}
+1. 在&#x200B;**[!UICONTROL 回應]**&#x200B;區段中，貼上呼叫傳回之裝載的範例。 此欄位是選用欄位，可用於所有呼叫方法。 如需如何在自訂動作中運用API呼叫回應的詳細資訊，請參閱[此頁面](../action/action-response.md)。
 
 >[!NOTE]
 >
->承載中的欄位名稱不得包含「。」 字元。 開頭不能為「$」字元。
+>承載中的欄位名稱不能包含點`.`字元，也不能以`$`字元開頭。
 >
 
 ![](assets/customactionpayloadmessage2.png)
