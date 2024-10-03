@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 9f990d2b311237e49c3b93201cd7e9c2b02facef
+source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 21%
+source-wordcount: '1671'
+ht-degree: 20%
 
 ---
 
@@ -149,7 +149,9 @@ ht-degree: 21%
 
 您可以定義裝載引數，如下所示：
 
-1. 在&#x200B;**[!UICONTROL Request]**&#x200B;區段中，貼上要傳送至外部服務的JSON裝載範例。 此欄位是選用欄位，僅適用於POST和PUT呼叫方法。<!--DOCAC-10562 - Enable the **[!UICONTROL Allow NULL values]** option to keep Null values in the external call. Note that sending arrays of int, string, etc. with Null values within is not fully supported. For example the following array of integers [1, null, 2, 3] is sent as [1, 2, 3] even if this option is checked.-->
+1. 在&#x200B;**[!UICONTROL Request]**&#x200B;區段中，貼上要傳送至外部服務的JSON裝載範例。 此欄位是選用欄位，僅適用於POST和PUT呼叫方法。
+
+   啟用&#x200B;**[!UICONTROL 允許NULL值]**&#x200B;選項，以便在外部呼叫中保留Null值。 請注意，傳送int、字串等陣列。 不完全支援內有Null值的功能。 例如，即使已核取此選項，下列整數陣列`[1, null, 2, 3]`也會以`[1, 2, 3]`傳送。 除此之外，如果這類陣列為Null，則會以空白陣列傳送。
 
 1. 在&#x200B;**[!UICONTROL 回應]**&#x200B;區段中，貼上呼叫傳回之裝載的範例。 此欄位是選用欄位，可用於所有呼叫方法。 如需如何在自訂動作中運用API呼叫回應的詳細資訊，請參閱[此頁面](../action/action-response.md)。
 
@@ -170,9 +172,9 @@ ht-degree: 21%
 
    * **常數**&#x200B;表示引數值是由技術角色在動作設定窗格中定義。 值在歷程中一律相同。 這不會改變，且行銷人員在歷程中使用自訂動作時看不到。 例如，它可能是協力廠商系統期望的ID。 在這種情況下，常數值會設定為切換常數/變數右側的欄位。
 
-   * **變數**&#x200B;表示引數的值會有所不同。 在歷程中使用此自訂動作的行銷人員可自由傳遞所需值，或指定從何處擷取此引數的值(例如從事件、Adobe Experience Platform等)。 在這種情況下，切換常數/變數右側的欄位是行銷人員將在歷程中看到的標籤，以命名此引數。
+   * **變數**&#x200B;表示引數的值可以不同。 在歷程中使用此自訂動作的行銷人員可自由傳遞所需值，或指定從何處擷取此引數的值(例如從事件、Adobe Experience Platform等)。 在這種情況下，切換常數/變數右側的欄位是行銷人員將在歷程中看到的標籤，以命名此引數。
 
-<!--DOCAC-10562 - For optional parameters, enable the **[!UICONTROL Is optional]** option at the end of the line. By checking this option, you mark the parameter as non-mandatory, and let the journey practitioners choose to fill it or not when authoring that custom action in a journey.-->
+  若為選用引數，請啟用行尾的&#x200B;**[!UICONTROL 是選用的]**&#x200B;選項。 核取此選項後，您就會將引數標示為非強制引數，並讓歷程參與者在歷程中編寫該自訂動作時，選擇是否填入引數。
 
 >[!NOTE]
 >

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
+source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 74%
+source-wordcount: '1269'
+ht-degree: 72%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 74%
 <p>透過程式碼型體驗頻道，Adobe Journey Optimizer可讓您針對任何傳入屬性進行進階個人化和測試，實現跨不同接觸點（例如網頁應用程式、行動應用程式、案頭應用程式、視訊主控台、電視連線裝置、智慧型電視、資訊站、ATM、IoT裝置等）無縫傳送量身打造的體驗。 程式碼型體驗管道現在可在歷程畫布中使用。</p>
 <p>如需詳細資訊，請參閱<a href="../code-based/create-code-based.md">詳細文件</a>。</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
+<p>推出日期： 10月1日</p>
 </tr>
 </tbody>
 </table>
@@ -62,9 +63,17 @@ ht-degree: 74%
 <p>透過Web管道，Adobe Journey Optimizer可讓您個人化透過傳入網頁歷程向客戶傳遞的網頁體驗。 Web Channel現在可在歷程畫布中使用。</p>
 <p>如需詳細資訊，請參閱<a href="../web/create-web.md">詳細文件</a>。</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
+<p>推出日期： 10月1日</p>
 </tr>
 </tbody>
 </table>
+
+
+**歷程改善**
+
+* （使用日期： 10月3日） **自訂動作中的引數** - NULL和選用引數現在支援自訂動作。 [了解更多](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+
 
 ## 2024 年 9 月發行說明 {#24-9-rn}
 
@@ -256,7 +265,6 @@ ht-degree: 74%
 
 * **即時報告增強功能** - 即時報告會針對您的歷程效能，提供過去 24 小時內的深入分析。我們已透過新增新量度（已進入、已退出、已捨棄的錯誤設定檔和設定檔）來增強該功能，允許您直接從Journey畫布更深入地瞭解使用者行為和效能。 [了解更多](../building-journeys/report-journey.md)
 
-<!-- DOCAC-10562* **Parameters in custom actions** - NULL and optional parameters are now supported in custom actions. [Learn more](../action/about-custom-action-configuration.md#define-the-message-parameters)-->
 
 * (推出日期為：9 月 10 日) **在讀取對象上方的自動重試功能** - 正在擷取匯出工作時，會按預設在對象觸發歷程上套用重試功能 (從&#x200B;**讀取對象**&#x200B;或&#x200B;**商業事件**&#x200B;開始)。如果在匯出工作建立期間發生錯誤，將每隔 10 分鐘進行重試，最長為 1 小時。在這之後，我們會將其視為失敗。因此，這些類型的歷程最多可以在預定時間後 1 小時執行。[了解更多](../building-journeys/read-audience.md#retries)
 
