@@ -9,18 +9,18 @@ role: User
 level: Intermediate
 badge: label="限量開放使用" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 40fde856e76d7e2d609ba90f93d4e07fe90f858f
+source-git-commit: bccbf4af4610486dd2d4141b902737c6328b1034
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 16%
+source-wordcount: '389'
+ht-degree: 15%
 
 ---
 
 # 開始使用新的報告介面 {#channel-report-gs-cja}
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> 若要恢復為Journey Optimizer的傳統報告，只需切換&#x200B;**[!UICONTROL 使用新體驗]**&#x200B;選項。
+>Adobe Journey Optimizer中的報告目前標準化為UTC。 自訂報表時區的功能將在未來版本中推出。
 
 Journey Optimizer 報告功能改善與 Customer Journey Analytics 功能的互通性，可將兩個平台間的報告標準化，並改善資料一致性與可靠性。Journey Optimizer 與 Customer Journey Analytics 之間的緊密整合可讓您更清楚檢視績效量度，讓使用者能做出更明智的決策。
 
@@ -39,6 +39,10 @@ Journey Optimizer 報告功能改善與 Customer Journey Analytics 功能的互�
 * 如果您想要將您環境中所有行銷活動和歷程的量度設為目標，請導覽至「**[!UICONTROL 歷程管理]**」區段內的「**[!UICONTROL 報表]**」功能表，以存取「**概觀**」報表。 [進一步瞭解概觀報告](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
+
+>[!NOTE]
+>
+> 若要恢復為Journey Optimizer的傳統報告，只需切換&#x200B;**[!UICONTROL 使用新體驗]**&#x200B;選項。
 
 ## 先決條件 {#prerequisites}
 
