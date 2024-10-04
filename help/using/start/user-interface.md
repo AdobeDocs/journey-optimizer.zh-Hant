@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 7403058fac2e88a27b2e4dfc2f56bb4e3c2b1528
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 100%
@@ -60,7 +60,7 @@ ht-degree: 100%
 * **[!UICONTROL 登陸頁面]** - 建立、設計、測試和發佈登陸頁面：將使用者連結傳送至線上表單，使用者可以在其中選擇加入或選擇退出接收您的通訊，或訂閱特定服務。 [了解更多](../landing-pages/get-started-lp.md)
 
 
-### [!UICONTROL 決策管理] {#left-nav-offers}
+### [!UICONTROL 決策管理] {#left-nav-decision}
 
 從此區段建立優惠與元件。
 
