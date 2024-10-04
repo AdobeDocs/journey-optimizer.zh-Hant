@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="限量開放使用" type="Informative"
 exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
-source-git-commit: 66504f7affb767d5b102cd1a91934147638c68e5
+source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
 workflow-type: tm+mt
-source-wordcount: '4184'
+source-wordcount: '4802'
 ht-degree: 2%
 
 ---
@@ -33,6 +33,8 @@ ht-degree: 2%
 * [應用程式內](#in-app-global)
 * [Web](#web-cja)
 * [直接郵件](#direct-mail-cja)
+* [基於程式碼](#code-based)
+* [內容卡](#content-card)
 
 若要瞭解有關Customer Journey AnalyticsWorkspace以及如何篩選和分析資料的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
@@ -641,16 +643,15 @@ ht-degree: 2%
 
 ![](assets/cja-web-displays.png)
 
-**[!UICONTROL 顯示]**&#x200B;圖表可協助您瞭解訊息的整體觸及範圍和與其互動的不重複設定檔數目。
+**[!UICONTROL 顯示]**&#x200B;圖表可協助您瞭解程式碼型體驗已開啟的整體觸及範圍，以及與其互動的唯一設定檔數目。
 
 +++ 深入瞭解顯示量度
 
-* **[!UICONTROL 顯示]**：訊息開啟的次數。
+* **[!UICONTROL 顯示]**：程式碼型體驗開啟的次數。
 
-* **[!UICONTROL 不重複顯示]**：訊息開啟的次數，一個設定檔的多個互動未列入考量。
+* **[!UICONTROL 唯一顯示]**：程式碼型體驗開啟的次數，未考慮一個設定檔的多個互動。
 
 +++
-
 
 ### 追蹤資料 {#track-data-web}
 
@@ -761,3 +762,119 @@ ht-degree: 2%
 **[!UICONTROL 排除原因]**&#x200B;表格以視覺化方式呈現導致目標對象中排除使用者設定檔的各種因素，以防止他們接收您的直接郵件訊息。
 
 如需排除原因的完整清單，請參閱[此頁面](exclusion-list.md)。
+
+## 基於程式碼的體驗
+
+### 顯示並按一下 {#impressions-code}
+
+![](assets/code-based-display.png)
+
+**[!UICONTROL 顯示和點按]**&#x200B;圖表會顯示設定檔與程式碼型體驗互動的詳細分析，提供設定檔與內容互動方式的寶貴見解。
+
++++ 進一步瞭解「曝光與點按」量度
+
+* **[!UICONTROL 不重複點按]**：在您的體驗中點按內容的設定檔數目。
+
+* **[!UICONTROL 點按次數]**：內容在您的體驗中被點按的次數。
+
+* **[!UICONTROL 顯示]**：體驗開啟的次數。
+
+* **[!UICONTROL 不重複顯示]**：體驗開啟的次數，未考慮一個設定檔的多個互動。
+
++++
+
+### 追蹤資料 {#track-data-code}
+
+![](assets/code-based-tracking-data.png)
+
+**[!UICONTROL 追蹤資料]**&#x200B;表格提供與您的程式碼式體驗繫結的設定檔活動詳細快照，提供參與和體驗有效性的基本深入分析。
+
++++ 進一步瞭解追蹤資料量度
+
+* **[!UICONTROL 人員]**：符合體驗目標設定檔資格的使用者設定檔數目。
+
+* **[!UICONTROL 點進率(CTR)]**：與您體驗互動的使用者百分比。
+
+* **[!UICONTROL 點按次數]**：內容在您的體驗中被點按的次數。
+
+* **[!UICONTROL 不重複點按]**：在您的體驗中點按內容的設定檔數目。
+
+* **[!UICONTROL 顯示]**：您的體驗開啟的次數。
+
+* **[!UICONTROL 不重複顯示]**：您的體驗開啟的次數，一個設定檔的多個互動未列入考量。
+
++++
+
+### 追蹤的連結標籤 {#track-link-code}
+
+**[!UICONTROL 追蹤的連結標籤]**&#x200B;表格提供程式碼型體驗中連結標籤的完整概觀，其中會強調產生最高訪客流量的連結。 此功能可讓您識別最熱門的連結並加以優先處理。
+
++++ 進一步瞭解追蹤的連結標籤量度
+
+* **[!UICONTROL 不重複點按]**：在您的程式碼型體驗中點按內容的設定檔數目。
+
+* **[!UICONTROL 點按次數]**：在您的程式碼型體驗中點按內容的次數。
+
+* **[!UICONTROL 顯示]**：體驗開啟的次數。
+
+* **[!UICONTROL 不重複顯示]**：體驗開啟的次數，未考慮一個設定檔的多個互動。
+
++++
+
+## 內容卡 {#content-card}
+
+### 顯示並按一下 {#displays-content-card}
+
+![](assets/content-card-jo-display.png)
+
+**[!UICONTROL 顯示和點按]**&#x200B;圖表顯示設定檔與內容卡互動的詳細分析，提供設定檔與內容互動方式的寶貴見解。
+
++++ 進一步瞭解顯示和點按量度
+
+* **[!UICONTROL 不重複點按]**：在內容卡片中點按內容的設定檔數目。
+
+* **[!UICONTROL 點按]**：內容卡片中的內容點按次數。
+
+* **[!UICONTROL 顯示]**：您的內容卡開啟次數。
+
+* **[!UICONTROL 不重複顯示]**：內容卡開啟的次數，未考慮一個設定檔的多個互動。
+
++++
+
+### 追蹤資料 {#track-data-content}
+
+![](assets/code-based-tracking-data.png)
+
+**[!UICONTROL 追蹤資料]**&#x200B;表格提供與您的內容卡繫結的設定檔活動詳細快照，提供參與和體驗有效性的基本深入分析。
+
++++ 進一步瞭解追蹤資料量度
+
+* **[!UICONTROL 人員]**：符合內容卡目標設定檔資格的使用者設定檔數目。
+
+* **[!UICONTROL 點進率(CTR)]**：與您內容卡互動的使用者百分比。
+
+* **[!UICONTROL 點按]**：內容卡片中的內容點按次數。
+
+* **[!UICONTROL 不重複點按]**：在內容卡片中點按內容的設定檔數目。
+
+* **[!UICONTROL 顯示]**：您的內容卡開啟次數。
+
+* **[!UICONTROL 不重複顯示]**：您的內容卡已開啟的次數，一個設定檔的多個互動未列入考量。
+
++++
+
+### 追蹤的連結標籤 {#track-link-content}
+
+**[!UICONTROL 追蹤的連結標籤]**&#x200B;表格提供內容卡中連結標籤的完整概觀，重點說明產生最高訪客流量的連結。 此功能可讓您識別最熱門的連結並加以優先處理。
+
++++ 進一步瞭解追蹤的連結標籤量度
+
+* **[!UICONTROL 不重複點按]**：在內容卡片中點按內容的設定檔數目。
+
+* **[!UICONTROL 點按]**：內容卡片中的內容點按次數。
+
+* **[!UICONTROL 顯示]**：內容卡開啟的次數。
+
+* **[!UICONTROL 不重複顯示]**：內容卡開啟的次數，未考慮一個設定檔的多個互動。
+
++++

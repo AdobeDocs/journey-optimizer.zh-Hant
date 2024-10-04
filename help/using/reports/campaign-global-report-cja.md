@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="限量開放使用" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4540'
 ht-degree: 2%
 
 ---
@@ -844,14 +844,3 @@ KPI會因行銷活動中使用的管道而有所不同。
 
 +++
 
-### 追蹤的連結 URL {#tracked-link-url}
-
-**[!UICONTROL 追蹤的連結URL]**&#x200B;表格提供內容卡中吸引最高訪客流量之URL的完整概觀。 這可讓您識別最熱門的連結並排定其優先順序，進而更瞭解個人資料參與您的「內容」卡片中的特定內容。
-
-+++ 深入瞭解追蹤的連結URL量度
-
-* **[!UICONTROL 不重複點按]**：在內容卡片中點按內容的設定檔數目。
-
-* **[!UICONTROL 點按]**：內容卡片中的內容點按次數。
-
-+++
