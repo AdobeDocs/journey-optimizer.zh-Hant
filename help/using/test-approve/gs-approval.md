@@ -3,8 +3,9 @@ title: 開始使用歷程與行銷活動核准
 description: 瞭解如何設定歷程與行銷活動的核准流程。
 role: User
 level: Beginner
+feature: Approval
 badge: label="限量開放使用" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 18%

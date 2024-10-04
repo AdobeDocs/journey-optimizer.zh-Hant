@@ -3,8 +3,9 @@ title: 請求核准
 description: 瞭解在發佈您的歷程與行銷活動之前，如何請求核准。
 role: User
 level: Beginner
+feature: Approval
 badge: label="限量開放使用" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 3%
