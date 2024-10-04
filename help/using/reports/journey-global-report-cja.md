@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 badge: label="限量開放使用" type="Informative"
 exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
-source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
+source-git-commit: 67f1b70d4f55a0bfb289720c43b1ac8b336ab380
 workflow-type: tm+mt
 source-wordcount: '4802'
 ht-degree: 2%
@@ -763,7 +763,7 @@ ht-degree: 2%
 
 如需排除原因的完整清單，請參閱[此頁面](exclusion-list.md)。
 
-## 基於程式碼的體驗
+## 程式碼型體驗 {#code-based}
 
 ### 顯示並按一下 {#impressions-code}
 
