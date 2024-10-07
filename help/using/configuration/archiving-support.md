@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 封存，訊息， HIPAA，密件副本，電子郵件
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 794724670c41e5d36ff063072a2e29c37dd5fadd
+source-git-commit: bbc64b4274cee083e6c35147314b230391b35317
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 6%
@@ -28,7 +28,7 @@ HIPAA等法規要求[!DNL Journey Optimizer]應提供一種封存傳送給個人
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer]不支援SMS封存需求。 如需專屬的封存支援，請與您的SMS供應商（Synch、Infobip或Twilio）合作。
+>[!DNL Journey Optimizer]不支援SMS封存需求。 如需專屬的封存支援，請與您的SMS供應商（Sinch、Infobip或Twilio）合作。
 
 ## 如何使用密件副本寄送電子郵件 {#bcc-email}
 
