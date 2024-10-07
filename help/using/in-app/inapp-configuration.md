@@ -6,9 +6,9 @@ feature: In App
 level: Intermediate
 keywords: 應用程式內、訊息、設定、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '867'
 ht-degree: 9%
 
 ---
@@ -109,19 +109,21 @@ ht-degree: 9%
 
 您現在可以在建立應用程式內訊息時選取設定。
 
-## 內容實驗先決條件 {#experiment-prerequisites}
-
-若要啟用應用程式內管道的內容實驗，您必須確定應用程式內實作[資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}中使用的[資料集](../data/get-started-datasets.md)也包含在報告設定中。
-
-換言之，在設定實驗報告時，如果您新增的資料集未出現在網頁資料流中，則網頁資料不會顯示在內容實驗報告中。
-
-瞭解如何在[本節](../content-management/reporting-configuration.md#add-datasets)中為內容實驗報告新增資料集。
+## 報表必要條件 {#experiment-prerequisites}
 
 >[!NOTE]
 >
 >資料集由[!DNL Journey Optimizer]報告系統以唯讀方式使用，不會影響資料收集或資料擷取。
 
+若要啟用應用程式內管道的報表，您必須確定應用程式內實作[資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}中使用的[資料集](../data/get-started-datasets.md)也包含在報表設定中。
+
+換言之，在設定報表時，如果您新增的應用程式資料流中不存在的資料集，應用程式資料將不會顯示在報表中。
+
+瞭解如何在[本節](../reports/reporting-configuration.md#add-datasets)中新增資料集以進行報告。
+
 如果您&#x200B;**不**&#x200B;使用下列資料集結構描述的預先定義[欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： `AEP Web SDK ExperienceEvent`和`Consumer Experience Event` （如[此頁面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}中所定義），請務必新增下列欄位群組： `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`和`Web Details`。 [!DNL Journey Optimizer]內容實驗報告需要這些專案，因為它們正在追蹤每個設定檔參與哪些實驗和處理方式。
+
+[深入瞭解報告設定](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >

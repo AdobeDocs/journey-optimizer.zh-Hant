@@ -5,14 +5,14 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# 內容卡片先決條件 {#content-card-configuration-prereq}
+# 內容卡的先決條件 {#content-card-configuration-prereq}
 
 若要讓Adobe Journey Optimizer正確顯示內容卡，您必須設定下列Adobe Experience Platform設定：
 
@@ -45,4 +45,4 @@ ht-degree: 4%
 
   確認應用程式的[資料流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview#_blank)中使用的資料集也包含在內容實驗報告設定中。 如果資料集不符，應用程式資料不會顯示在報表中。
 
-  瞭解如何在[本節](../content-management/reporting-configuration.md)中為內容實驗報告新增資料集。
+  瞭解如何在[本節](../reports/reporting-configuration.md)中為內容實驗報告新增資料集。

@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1134'
 ht-degree: 7%
 
 ---
@@ -127,19 +127,21 @@ ht-degree: 7%
 
   [進一步瞭解Edge Delivery檢視](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/view/edge-delivery)
 
-## 內容實驗先決條件 {#experiment-prerequisites}
+## 報表必要條件 {#experiment-prerequisites}
 
-若要啟用Web管道的內容實驗，您必須確定在您的Web實作[資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}中使用的[資料集](../data/get-started-datasets.md)也包含在您的報告設定中。
+若要啟用Web Channel的報告，您必須確定在您的Web實作[資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}中使用的[資料集](../data/get-started-datasets.md)也包含在您的報告設定中。
 
-換言之，在設定實驗報告時，如果您新增的資料集未出現在網頁資料流中，則網頁資料不會顯示在內容實驗報告中。
+換言之，在設定報告時，如果您新增的資料集不存在您的網路資料流中，網路資料將不會顯示在您的報告中。
 
-瞭解如何在[本節](../content-management/reporting-configuration.md#add-datasets)中為內容實驗報告新增資料集。
+瞭解如何在[本節](../reports/reporting-configuration.md#add-datasets)中新增資料集以進行報告。
 
 >[!NOTE]
 >
 >資料集由[!DNL Journey Optimizer]報告系統以唯讀方式使用，不會影響資料收集或資料擷取。
 
 如果您&#x200B;**不**&#x200B;使用下列資料集結構描述的預先定義[欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： `AEP Web SDK ExperienceEvent`和`Consumer Experience Event` （如[此頁面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}中所定義），請務必新增下列欄位群組： `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`和`Web Details`。 [!DNL Journey Optimizer]內容實驗報告需要這些專案，因為它們正在追蹤每個設定檔參與哪些實驗和處理方式。
+
+[深入瞭解報告設定](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >

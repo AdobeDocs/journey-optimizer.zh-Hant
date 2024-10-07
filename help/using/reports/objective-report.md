@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta" type="Informative"
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 4%
@@ -50,7 +50,7 @@ ht-degree: 4%
 
 **[!UICONTROL 目標]**&#x200B;索引標籤可讓您以一個特定量度為目標，以更好地調整傳遞的報告。
 
-列出的&#x200B;**[!UICONTROL 目標]**&#x200B;連結到定義系統連線的&#x200B;**[!UICONTROL 資料集]**，以擷取其他資訊。 內建&#x200B;**[!UICONTROL 目標]**&#x200B;清單可供使用，但您可以新增新的&#x200B;**[!UICONTROL 資料集]**&#x200B;來新增您自己的目標。 如需詳細程式，請參閱此[區段](../content-management/reporting-configuration.md)。
+列出的&#x200B;**[!UICONTROL 目標]**&#x200B;連結到定義系統連線的&#x200B;**[!UICONTROL 資料集]**，以擷取其他資訊。 內建&#x200B;**[!UICONTROL 目標]**&#x200B;清單可供使用，但您可以新增新的&#x200B;**[!UICONTROL 資料集]**&#x200B;來新增您自己的目標。 如需詳細程式，請參閱此[區段](../reports/reporting-configuration.md)。
 
 選取您要鎖定的目標之後，兩個&#x200B;**[!UICONTROL 效能總覽]**&#x200B;和&#x200B;**[!UICONTROL 行銷活動目標]** Widget將提供您傳遞效能的詳細摘要。
 

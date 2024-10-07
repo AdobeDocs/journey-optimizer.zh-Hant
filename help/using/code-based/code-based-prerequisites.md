@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '580'
 ht-degree: 3%
 
 ---
@@ -59,13 +59,13 @@ ht-degree: 3%
 
   [進一步瞭解Edge Delivery檢視](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/view/edge-delivery)
 
-## 內容實驗先決條件 {#experiment-prerequisites}
+## 報表必要條件 {#experiment-prerequisites}
 
-若要啟用程式碼型管道的內容實驗，您必須確定應用程式實作[資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}中使用的[資料集](../data/get-started-datasets.md)也包含在報告設定中。
+若要啟用程式碼型管道的報告，您必須確定應用程式實作[資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}中使用的[資料集](../data/get-started-datasets.md)也包含在報告設定中。
 
-換言之，在設定實驗報告時，如果您新增的應用程式資料流中不存在的資料集，應用程式資料將不會顯示在內容實驗報告中。
+換言之，在設定報表時，如果您新增的應用程式資料流中不存在的資料集，應用程式資料將不會顯示在報表中。
 
-瞭解如何在[本節](../content-management/reporting-configuration.md#add-datasets)中為內容實驗報告新增資料集。
+瞭解如何在[本節](../reports/reporting-configuration.md#add-datasets)中新增資料集以進行報告。
 
 >[!NOTE]
 >

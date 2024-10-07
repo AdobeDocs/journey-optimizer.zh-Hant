@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 13%
@@ -25,7 +25,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->開始內容實驗之前，請確定您的報告設定已針對自訂資料集設定。 請參閱[此章節](reporting-configuration.md)深入瞭解。
+>開始內容實驗之前，請確定您的報告設定已針對自訂資料集設定。 請參閱[此章節](../reports/reporting-configuration.md)深入瞭解。
 
 Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量哪種方式最適合您的目標對象。 您可以選擇變更傳遞內容、主旨或寄件者。 感興趣的對象會隨機分配給每個處理，以決定哪個處理在指定量度方面效果最佳。
 
