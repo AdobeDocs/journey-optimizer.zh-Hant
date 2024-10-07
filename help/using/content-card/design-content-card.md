@@ -1,13 +1,13 @@
 ---
-title: 設計內容卡片
+title: 設計內容卡
 description: 瞭解如何設計內容卡內容
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: 96a218d54851cc9b309e08e120e9a4bca5c4e74f
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 2%
+source-wordcount: '418'
+ht-degree: 4%
 
 ---
 
@@ -39,17 +39,19 @@ ht-degree: 2%
 
 ![](assets/content-card-design-2.png)
 
-+++更多具有進階格式的選項
-
-如果&#x200B;**[!UICONTROL 進階格式模式]**&#x200B;已開啟，您可以為&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 內文]**&#x200B;選擇：
-
-* **[!UICONTROL 字型]**
-* **[!UICONTROL Pt大小]**
-* **[!UICONTROL 字型色彩]**
-* **[!UICONTROL 對齊]**
-+++
-
 如果您想要進一步修改訊息，請使用&#x200B;**[!UICONTROL Personalization]**&#x200B;圖示來新增個人化元素。 如需如何使用個人化功能的詳細說明，請參閱[本節](../personalization/personalize.md)。
+
+<!--
++++More options with advanced formatting
+
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Header]** and **[!UICONTROL Body]**:
+
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
++++
+-->
 
 ### 媒體 {#add-media}
 
@@ -59,11 +61,13 @@ ht-degree: 2%
 
 若要包含媒體，請輸入您要使用之媒體的URL，或按一下&#x200B;**[!UICONTROL 選取Assets]**&#x200B;圖示以從儲存在Assets媒體櫃中的資產中進行選擇。 [進一步瞭解資產管理](../content-management/assets.md)。
 
-+++更多具有進階格式的選項
+<!--
++++More options with advanced formatting
 
-如果&#x200B;**[!UICONTROL 進階格式模式]**&#x200B;已開啟，您可以在&#x200B;**[!UICONTROL 深色模式媒體URL]**&#x200B;欄位中新增用於熒幕閱讀應用程式的&#x200B;**[!UICONTROL 替代文字]**&#x200B;和另一個資產。
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can add an **[!UICONTROL Alternative text]** for screen reading applications and another asset in the **[!UICONTROL Dark Mode Media URL]** field.
 
 +++
+-->
 
 ### 按鈕 {#add-buttons}
 
@@ -79,16 +83,18 @@ ht-degree: 2%
 
 1. 在&#x200B;**[!UICONTROL Target]**&#x200B;欄位中，輸入網頁URL或深層連結，使用者在與按鈕互動後會導向該連結。
 
-+++更多具有進階格式的選項
+<!--
++++More options with advanced formatting
 
-如果&#x200B;**[!UICONTROL 進階格式化模式]**&#x200B;已開啟，您可以為&#x200B;**[!UICONTROL 按鈕]**&#x200B;選擇：
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Buttons]**:
 
-* **[!UICONTROL 字型]**
-* **[!UICONTROL Pt大小]**
-* **[!UICONTROL 字型色彩]**
-* **[!UICONTROL 對齊]**
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
 
 +++
+-->
 
 ### 點按時行為
 
