@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e6d6fe4ef068f806126de1c9a417fa0155bdc25d
+source-git-commit: 02df00b74dd07ff422f26f16120233b17a342c21
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1277'
 ht-degree: 72%
 
 ---
@@ -28,7 +28,9 @@ ht-degree: 72%
 
 ## 2024年10月更新 {#24-10-rn}
 
-以下列出Adobe Journey Optimizer中可用的最新功能。
+### 新功能 {#24-10-features}
+
+以下列出Adobe Journey Optimizer中最新可用的功能。
 
 <table>
 <thead>
@@ -39,6 +41,7 @@ ht-degree: 72%
 <tbody>
 <tr>
 <td>
+<p>推出日期： 10月1日</p>
 <p>透過程式碼型體驗頻道，Adobe Journey Optimizer可讓您針對任何傳入屬性進行進階個人化和測試，實現跨不同接觸點（例如網頁應用程式、行動應用程式、案頭應用程式、視訊主控台、電視連線裝置、智慧型電視、資訊站、ATM、IoT裝置等）無縫傳送量身打造的體驗。 程式碼型體驗管道現在可在歷程畫布中使用。</p>
 <p>如需詳細資訊，請參閱<a href="../code-based/create-code-based.md">詳細文件</a>。</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
@@ -56,6 +59,7 @@ ht-degree: 72%
 <tbody>
 <tr>
 <td>
+<p>推出日期： 10月1日</p>
 <p>透過Web管道，Adobe Journey Optimizer可讓您個人化透過傳入網頁歷程向客戶傳遞的網頁體驗。 Web Channel現在可在歷程畫布中使用。</p>
 <p>如需詳細資訊，請參閱<a href="../web/create-web.md">詳細文件</a>。</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
@@ -64,8 +68,9 @@ ht-degree: 72%
 </tbody>
 </table>
 
+### 改進項目 {#24-10-improvements}
 
-**歷程改善**
+**歷程**
 
 * （使用日期： 10月3日） **自訂動作中的引數** - NULL和選用引數現在支援自訂動作。 [了解更多](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
