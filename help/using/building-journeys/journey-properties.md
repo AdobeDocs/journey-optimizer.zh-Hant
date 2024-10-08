@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
+source-git-commit: e6da92e2459c83019a9bb72b79809fdf7cf68c98
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2048'
 ht-degree: 14%
 
 ---
@@ -278,18 +278,15 @@ Journey在從Adobe Experience Platform擷取設定檔資料時使用合併原則
 若要&#x200B;**建立**&#x200B;退出條件，請遵循下列步驟：
 
 1. 開啟您的歷程。
-1. 按一下位於歷程畫布右上角的&#x200B;**[!UICONTROL 顯示退出條件]**&#x200B;圖示。
 
-![](assets/exitcriteria_icon.png){width="40%" align="left"}
-
-1. 按一下&#x200B;**[!UICONTROL 新增退出條件]**&#x200B;按鈕。
-
-![](assets/exitcriteria.png){width="40%" align="left"}
-
-1. 輸入&#x200B;**標籤**，並選取您的退出條件是以事件或對象為基礎。
+1. 按一下位於歷程畫布右上角的&#x200B;**[!UICONTROL 顯示退出條件]**圖示。
+   ![](assets/exitcriteria_icon.png){width="40%" align="left"}
+1. 按一下&#x200B;**[!UICONTROL 新增退出條件]**按鈕。
+   ![](assets/exitcriteria.png){width="40%" align="left"}
+1. 輸入&#x200B;**標籤**，並選取您的退出條件是否以&#x200B;**事件**&#x200B;或&#x200B;**對象**&#x200B;為基礎。
 
 * 對於以事件為基礎的退出條件，僅挑選單一事件。
-* 對於根據對象的退出條件，請選取對象。 注意：使用對象的退出條件最多需要10分鐘才能運作。
+* 對於根據對象的退出條件，請選取對象。 注意：使用對象的退出條件最多可能需要10分鐘才會生效。
 
 您可以新增多個退出條件。
 
