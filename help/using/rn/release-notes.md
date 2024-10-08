@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
+source-git-commit: 5c9802eaa3fa35a43f53ef5dd86495b502149a04
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1333'
 ht-degree: 69%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 69%
 
 * （使用日期： 10月3日） **自訂動作中的引數** - NULL和選用引數現在支援自訂動作。 [了解更多](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
-**對象**
+**對象** — 推出日期： 10月8日
 
 * 目標為CSV檔案對象時，您現在可以在個人化編輯器以及歷程和行銷活動規則產生器中使用檔案的屬性。 [了解更多](../audience/about-audiences.md)
 
