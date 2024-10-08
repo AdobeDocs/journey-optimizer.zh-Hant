@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 原則、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: f61bd7d8d03ba2fd4e92c277f0cbfb730b3703c1
+source-git-commit: 21b30d75bac657acb28500b143b7b1f9018a13ff
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 100%
+source-wordcount: '1401'
+ht-degree: 99%
 
 ---
 
@@ -172,3 +172,9 @@ The following data is taken into account for consent:
 -->
 
 [本節](../building-journeys/using-custom-actions.md)詳細介紹了在歷程中設定自訂動作的其他步驟。
+
+## 操作說明影片 {#video}
+
+瞭解如何在Journey Optimizer管道中強制執行資料使用標籤。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3434901/?learn=on)
