@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 8b92f0c2bc5dd44e9059154e4a9b40872ad802f8
+source-git-commit: 64eb253efbe73d151dd1c94f4e4cb51a35e9d1a4
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 20%
+source-wordcount: '2272'
+ht-degree: 17%
 
 ---
 
@@ -67,25 +67,15 @@ ht-degree: 20%
 
 ## 使用對象擴充屬性 {#enrichment}
 
-使用構成工作流程產生目標對象時，您可以善用來自這些對象的擴充屬性來建立您的歷程並個人化您的訊息。
+使用構成工作流程或自訂（CSV檔案）對象產生的對象為目標時，您可以利用這些對象的擴充屬性來建立您的歷程並個人化您的訊息。
 
-若要在歷程中使用擴充屬性，請確定這些屬性已新增至「ExperiencePlatform」資料Source中的欄位群組。
+>[!NOTE]
+>
+>在2024年10月1日之前透過CSV檔案自訂上傳建立的對象不符合個人化資格。 若要使用這些對象的屬性並充分利用此功能，請重新建立並重新上傳在此日期之前匯入的任何外部CSV對象。
+>
+>同意原則不支援擴充屬性。 因此，任何同意原則規則都應該僅以設定檔中找到的屬性為基礎。
 
-+++ 瞭解如何將擴充屬性新增至欄位群組
-
-1. 導覽至「管理」>「設定」>「資料來源」。
-1. 選取「Experience Platform」並建立或編輯欄位群組。
-1. 開啟欄位選擇器，尋找您要新增的擴充屬性，然後選取這些屬性旁邊的核取方塊。
-1. 儲存您的變更。
-
-有關資料來源的詳細資訊，請參閱以下章節：
-
-* [使用Adobe Experience Platform資料來源](../datasource/adobe-experience-platform-data-source.md)
-* [設定資料來源](../datasource/configure-data-sources.md)
-
-+++
-
-將擴充屬性新增至欄位群組後，您可以在Journey Optimizer中的不同位置運用這些屬性：
+您可以使用對象的擴充屬性來執行下列動作：
 
 * **根據運用目標對象擴充屬性的規則，在歷程中建立多個路徑**。 若要這麼做，請使用[讀取對象](../building-journeys/read-audience.md)活動來鎖定對象，然後根據對象的擴充屬性，在[條件](../building-journeys/condition-activity.md)活動中建立規則。
 
@@ -95,9 +85,41 @@ ht-degree: 20%
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->自訂上傳擴充屬性尚未可在Journey Optimizer中使用。
+>若要從使用構成工作流程建立的對象中使用擴充屬性，請確保將其新增到「ExperiencePlatform」資料Source中的欄位群組。
+>
++++ 瞭解如何將擴充屬性新增至欄位群組>
+>
+1. 導覽至「管理」>「設定」>「資料來源」。
+1. 選取「Experience Platform」並建立或編輯欄位群組。
+1. 在架構選取器中，選取適當的架構。 結構描述的名稱將採用以下格式：「audienceId的結構描述：」+對象的ID。 您可以在對象詳細資訊畫面（在對象詳細資訊畫面中）上找到對象ID。
+1. 開啟欄位選擇器，尋找您要新增的擴充屬性，然後選取這些屬性旁邊的核取方塊。
+1. 儲存您的變更。
+1. 將擴充屬性新增至欄位群組後，您就可以在Journey Optimizer中於上述位置運用這些屬性。
+>
+有關資料來源的詳細資訊，請參閱以下章節：
+>
+* [使用Adobe Experience Platform資料來源](../datasource/adobe-experience-platform-data-source.md)
+* [設定資料來源](../datasource/configure-data-sources.md)
+>
++++
+
+## 自訂上傳（CSV檔案）對象 {#csv}
+
+本節提供處理自訂上傳（CSV檔案）對象時要牢記的關鍵資訊：
+
+* **CSV對象的預覽和校訂支援：**&#x200B;目前，使用CSV上傳建立的對象不支援預覽和校訂。 在規劃行銷活動時，請記住這一點。
+
+* **快速啟用與身分拼接延遲：** Adobe Experience Platform架構會延遲身分拼接，讓自訂上傳對象可立即在Journey Optimizer中啟用，並造成下列影響：
+
+   * 內嵌完成之後，對象就可以直接在Journey Optimizer中使用。 雖然這通常在一小時內完成，但可能會有所變動。
+   * 啟用的記錄數可能與身分拼接後的設定檔數不同。
+   * CSV檔案中的每個記錄都將啟動，包括任何重複專案。 在下次UPS設定檔匯出期間，這些記錄將進行身分拼接。
+
+* **從CSV上傳鎖定新設定檔：**&#x200B;當CSV記錄和UPS設定檔之間找不到相符專案時，會建立新的空白設定檔。 此設定檔連結至儲存在Data Lake中的擴充屬性。 由於此新設定檔為空白，因此Journey Optimizer中通常使用的目標定位欄位（例如personalEmail.address、mobilePhone.number）為空白，因此無法用於目標定位。
+
+  若要解決此問題，您可以在通道設定中將「執行欄位」（或「執行地址」，視通道而定）指定為「identityMap」。 這將確保在CSV上傳期間選擇作為身分的屬性將是用於在Journey Optimizer中定位的屬性。
 
 ## 客群評估方法 {#evaluation-method-in-journey-optimizer}
 
@@ -111,7 +133,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->請務必使用正確事件作為串流細分條件。 [了解更多](#streaming-segmentation-events-guardrails)
+請務必使用正確事件作為串流細分條件。 [了解更多](#streaming-segmentation-events-guardrails)
 
 +++
 
@@ -119,7 +141,7 @@ ht-degree: 20%
 
 每24小時評估對象的設定檔清單。
 
-批次細分是串流細分的替代方法，其可透過區段定義一次處理所有設定檔資料。 這會建立客群的快照，可儲存和匯出以供使用。 不過，和串流區段不同，批次區段不會持續即時更新對象清單，而且批次程式之後傳入的新資料不會反映在對象中，直到下一個批次程式為止。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
+批次細分是串流細分的替代方法，其可透過區段定義一次處理所有輪廓資料。 這會建立客群的快照，可儲存和匯出以供使用。 不過，和串流區段不同，批次區段不會持續即時更新對象清單，而且批次程式之後傳入的新資料不會反映在對象中，直到下一個批次程式為止。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
 
 +++
 
@@ -161,7 +183,7 @@ Edge區段能在Adobe Experience Platform中即時評估[邊緣](https://experie
 
 >[!NOTE]
 >
->您可以在批次細分中使用&#x200B;**已開啟的訊息**&#x200B;和&#x200B;**已傳送的訊息**&#x200B;事件，而不會有任何效能問題。
+您可以在批次細分中使用&#x200B;**已開啟的訊息**&#x200B;和&#x200B;**已傳送的訊息**&#x200B;事件，而不會有任何效能問題。
 
 
 ## 對象構成和自訂上傳常見問題集 {#faq}
@@ -178,7 +200,7 @@ Edge區段能在Adobe Experience Platform中即時評估[邊緣](https://experie
 
   >[!NOTE]
   >
-  >對於自訂上傳對象，如果循環歷程中啟用了「增量讀取」，則設定檔僅在第一次循環時擷取，因為這些對象已修正。
+  對於自訂上傳對象，如果循環歷程中啟用了「增量讀取」，則設定檔僅在第一次循環時擷取，因為這些對象已修正。
 
 此外，這些受眾可用於個人化編輯器中，以個人化歷程和行銷活動中的訊息。 [瞭解如何使用個人化編輯器](../personalization/personalization-build-expressions.md)
 
@@ -200,15 +222,11 @@ Edge區段能在Adobe Experience Platform中即時評估[邊緣](https://experie
 * 自訂動作屬性（歷程）
 * 訊息個人化（歷程與行銷活動）
 
->[!AVAILABILITY]
->
->自訂上傳擴充屬性尚未可在Journey Optimizer中使用。
-
 +++
 
 +++ 如何在歷程中啟用擴充屬性？
 
-若要在歷程中使用擴充屬性，請確定這些屬性已新增至「ExperiencePlatform」資料Source中的欄位群組。 有關如何將擴充屬性新增至欄位群組的資訊，請參閱[此區段](#enrichment)
+若要使用使用使用構成工作流程建立之對象的擴充屬性，請確保將其新增至「ExperiencePlatform」資料Source中的欄位群組。 有關如何將擴充屬性新增至欄位群組的資訊，請參閱[此區段](#enrichment)
 
 +++
 
