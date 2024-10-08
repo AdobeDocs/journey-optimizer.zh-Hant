@@ -6,12 +6,12 @@ description: 了解如何在 Adobe Journey Optimizer 使用 Adobe Experience Pla
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
-keywords: platform、資料湖、建立、湖、資料集、設定檔
+keywords: platform、資料湖、建立、湖、資料集、輪廓
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: 979cb8270a4be4c7ad08db8f0a2e072d590906de
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 100%
+source-wordcount: '860'
+ht-degree: 93%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ![](assets/datasets-home.png)
 
-將資料新增至 [!DNL Adobe Experience Platform] 是建立設定檔的基礎。 然後，您將能夠善用 [!DNL Adobe Journey Optimizer] 的設定檔。首先定義結構描述，使用 ETL 工具準備和標準化資料，然後根據您的結構描述建立資料集。
+將資料新增至 [!DNL Adobe Experience Platform] 是建立輪廓的基礎。 然後，您將能夠善用 [!DNL Adobe Journey Optimizer] 的輪廓。首先定義結構描述，使用 ETL 工具準備和標準化資料，然後根據您的結構描述建立資料集。
 
 選取&#x200B;**瀏覽**&#x200B;索引標籤，顯示貴組織所有可用資料集的清單。 系統會顯示每個列出資料集的詳細資訊，包括其名稱、資料集所遵守的結構描述，以及最新擷取執行的狀態。
 
@@ -35,15 +35,24 @@ ht-degree: 100%
 
 ![](assets/ajo-system-datasets.png)
 
+>[!NOTE]
+>
+>自2024年11月1日起，將在Journey Optimizer系統產生的資料集上強制實施存留時間(TTL)護欄，如下所示：
+>
+>* 個人資料存放區中的資料需要90天
+>* 資料湖中的資料需要13個月
+>
+>此外，目前串流區段將不再支援使用追蹤和意見資料集中的傳送和開啟事件。
+
+
+
 選取資料集名稱，以存取其「資料集」活動畫面，並查看所選取資料集的詳細資訊。 活動索引標籤包含將所使用訊息的比率視覺化的圖形，以及成功和失敗批次的清單。
 
 Adobe Journey Optimizer 的系統資料集如下所列。
 
-
 >[!CAUTION]
 >
 > 系統資料集&#x200B;**不得修改**。 每次產品更新都會自動回復任何變更。
->
 
 **報告**
 
@@ -56,7 +65,7 @@ Adobe Journey Optimizer 的系統資料集如下所列。
 
 **同意**
 
-* _同意服務資料集_：儲存設定檔的同意資訊。
+* _同意服務資料集_：儲存輪廓的同意資訊。
 
 **Intelligent Services**
 
@@ -95,7 +104,7 @@ Adobe Journey Optimizer 的系統資料集如下所列。
 
 ## 範例和使用案例{#uc-datasets}
 
-了解如何建立結構、資料集和擷取資料，以在 Adobe Journey Optimizer 新增測試設定檔，請參閱[此端對端範例](../audience/creating-test-profiles.md)
+了解如何建立結構、資料集和擷取資料，以在 Adobe Journey Optimizer 新增測試輪廓，請參閱[此端對端範例](../audience/creating-test-profiles.md)
 
 請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target="_blank"}，深入了解資料集建立。
 
