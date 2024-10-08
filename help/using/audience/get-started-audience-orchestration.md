@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 59%
+source-wordcount: '307'
+ht-degree: 60%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 59%
 
 >[!BEGINSHADEBOX]
 
-此文件提供如何在 Adobe Journey Optimizer 中使用客群構成的詳細資訊。 如果您是只使用即時客戶設定檔的客戶，且不使用 Adobe Journey Optimizer， 請[按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}。
+此文件提供如何在 Adobe Journey Optimizer 中使用客群構成的詳細資訊。 如果您是只使用即時客戶輪廓的客戶，且不使用 Adobe Journey Optimizer， 請[按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -36,7 +36,7 @@ ht-degree: 59%
 
 >[!IMPORTANT]
 >
->目前，Healthcare Shield或Privacy and Security Shield無法使用來自受眾構成和自訂上傳受眾的受眾和屬性。
+>受眾構成中的受眾和屬性目前無法用於Healthcare Shield或Privacy and Security Shield。
 >
 >擴充屬性尚未與原則執行服務整合。 因此，您套用至擴充屬性的任何資料使用標籤，都不會在Journey Optimizer行銷活動或歷程中強制執行。
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 64eb253efbe73d151dd1c94f4e4cb51a35e9d1a4
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '2272'
+source-wordcount: '2266'
 ht-degree: 17%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 17%
 
 >[!AVAILABILITY]
 >
->受眾構成和自訂上傳（CSV檔案）受眾中的受眾和屬性目前無法與Healthcare Shield或Privacy and Security Shield搭配使用。 [瞭解如何在Journey Optimizer中使用對象擴充屬性](../audience/about-audiences.md#enrichment)
+>受眾構成中的受眾和屬性目前無法用於Healthcare Shield或Privacy and Security Shield。 [瞭解如何在Journey Optimizer中使用對象擴充屬性](../audience/about-audiences.md#enrichment)
 
 您可以在 **[!DNL Journey Optimizer]** 中以不同方式善用客群：
 
