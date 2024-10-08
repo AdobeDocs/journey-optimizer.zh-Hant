@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Approval
 badge: label="限量開放使用" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 18%
@@ -85,6 +85,6 @@ Journey Optimizer可讓您設定核准程式，讓行銷團隊在行銷活動和
 
 ## 監視核准請求 {#monitor}
 
-您可以監視針對指定歷程或行銷活動提交的所有核准和變更要求。 若要這麼做，請按一下位於歷程畫布或行銷活動檢閱畫面右上角的&#x200B;**[!UICONTROL 顯示稽核軌跡]**&#x200B;按鈕。
+您可以監視針對指定歷程或行銷活動提交的所有核准和變更要求。 若要這麼做，請按一下位於歷程畫布或行銷活動檢閱畫面右上角的&#x200B;**[!UICONTROL 顯示稽核軌跡]**&#x200B;圖示。
 
 ![](assets/monitor-requests.png)

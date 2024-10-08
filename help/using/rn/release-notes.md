@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 02df00b74dd07ff422f26f16120233b17a342c21
+source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 72%
@@ -154,7 +154,7 @@ ht-degree: 72%
 <tr>
 <td>
 <p>現在您可以在歷程層級為退出標準下定義。透過新增退出標準，一旦出現事件 (例如：購買)，或是符合對象資格時，您就可以馬上讓設定檔退出歷程。這能阻止使用者從歷程處取得任何進一步通訊資料。</p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-properties.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-properties.md#exit-criteria">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
