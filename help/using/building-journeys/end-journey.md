@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: 重新進入、歷程、結束、即時、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: 20d99c082ef8d1f2442900dc6a6e6db6b0aaa46f
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 1%
+source-wordcount: '689'
+ht-degree: 2%
 
 ---
 
@@ -53,10 +53,10 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 歷程可以關閉，原因如下：
 
 * 歷程已透過&#x200B;**[!UICONTROL 關閉新入口]**&#x200B;按鈕手動關閉。
-* 已完成的單次區段型歷程。
+* 已完成執行且達到全域逾時91天的單次區段型歷程。
 * 在最後一次發生循環對象型歷程之後。
 
-手動關閉歷程可確保已進入歷程的客戶完成其路徑，但新使用者無法進入歷程。 歷程關閉時（基於上述任何原因），其狀態為&#x200B;**[!UICONTROL 已關閉]**。 歷程停止讓新個人進入歷程。 已在歷程中的人可以正常完成歷程。
+手動關閉歷程可確保已進入歷程的客戶完成其路徑，但新使用者無法進入歷程。 歷程關閉時（基於上述任何原因），其狀態為&#x200B;**[!UICONTROL 已關閉]**。 歷程停止讓新個人進入歷程。 已在歷程中的人可以正常完成歷程。 在預設全域逾時91天後，歷程將切換為「已完成」狀態。 請參閱[本節](journey-properties.md#timeout)。
 
 在91天[全域逾時](journey-properties.md#timeout)後，「讀取」對象歷程會切換為&#x200B;**已完成**&#x200B;狀態。 此行為僅設定91天（即[歷程全域逾時值](journey-properties.md#global_timeout)），因為有關進入歷程的設定檔的所有資訊都會在進入91天後移除。 仍在歷程中的人員會自動受到影響。 他們在91天逾時後退出歷程。
 
