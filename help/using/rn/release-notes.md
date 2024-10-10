@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5c9802eaa3fa35a43f53ef5dd86495b502149a04
+source-git-commit: ff2ad535b0919c3c9d8cf098dfcedf3f9ea8bba6
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 69%
+source-wordcount: '1331'
+ht-degree: 67%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 69%
 
 ### 新功能 {#24-10-features}
 
-以下列出Adobe Journey Optimizer中最新可用的功能。
+以下列出Adobe Journey Optimizer中可用的新功能。
 
 <table>
 <thead>
@@ -41,11 +41,10 @@ ht-degree: 69%
 <tbody>
 <tr>
 <td>
-<p>推出日期： 10月1日</p>
 <p>透過程式碼型體驗頻道，Adobe Journey Optimizer可讓您針對任何傳入屬性進行進階個人化和測試，實現跨不同接觸點（例如網頁應用程式、行動應用程式、案頭應用程式、視訊主控台、電視連線裝置、智慧型電視、資訊站、ATM、IoT裝置等）無縫傳送量身打造的體驗。 程式碼型體驗管道現在可在歷程畫布中使用。</p>
 <p>如需詳細資訊，請參閱<a href="../code-based/create-code-based.md">詳細文件</a>。</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
-<p>推出日期： 10月1日</p>
+<p>推出日期：2024年10月1日</p>
 </tr>
 </tbody>
 </table>
@@ -59,28 +58,27 @@ ht-degree: 69%
 <tbody>
 <tr>
 <td>
-<p>推出日期： 10月1日</p>
 <p>透過Web管道，Adobe Journey Optimizer可讓您個人化透過傳入網頁歷程向客戶傳遞的網頁體驗。 Web Channel現在可在歷程畫布中使用。</p>
 <p>如需詳細資訊，請參閱<a href="../web/create-web.md">詳細文件</a>。</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
-<p>推出日期： 10月1日</p>
+<p>推出日期：2024年10月1日</p>
 </tr>
 </tbody>
 </table>
 
 ### 改進項目 {#24-10-improvements}
 
-**歷程**
+**歷程** — 推出日期： 2024年10月3日
 
-* （使用日期： 10月3日） **自訂動作中的引數** - NULL和選用引數現在支援自訂動作。 [了解更多](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* **自訂動作中的引數** — 自訂動作現在支援NULL和選用引數。 [了解更多](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
-**對象** — 推出日期： 10月8日
+**對象** — 推出日期： 2024年10月8日
 
 * 目標為CSV檔案對象時，您現在可以在個人化編輯器以及歷程和行銷活動規則產生器中使用檔案的屬性。 [了解更多](../audience/about-audiences.md)
 
 * 自訂上傳（CSV檔案）的對象和屬性現在可搭配Healthcare Shield或Privacy and Security Shield使用。
 
-## 2024 年 9 月發行說明 {#24-9-rn}
+## 2024年9月發行 {#24-9-rn}
 
 <!--
 >[!CAUTION]
@@ -164,36 +162,6 @@ ht-degree: 69%
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Code-based experiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
-<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Web experiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the Web channel, Adobe Journey Optimizer allows you to personalize the web experience you deliver to your customers through inbound web journeys. The Web channel is now available in the journey canvas.</p>
-<p>For more information, refer to the <a href="../web/get-started-web.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table-->
-
 <table>
 <thead>
 <tr>
@@ -207,7 +175,7 @@ ht-degree: 69%
 <p>透過<a href="https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，沉浸在親身體驗中，讓您親身體驗實際功能並充分瞭解其功能。</a></p>
 <p>如需詳細資訊，請參閱<a href="../content-management/gs-generative.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
-<p>推出日期為：9 月 12 日</p>
+<p>推出日期： 2024年9月12日</p>
 </td>
 </tr>
 </tbody>
@@ -225,7 +193,7 @@ ht-degree: 69%
 <p>引導式頻道設定讓您可以透過統一體驗，將頻道設定自動化，並加以驗證，便可使用 Journey Optimizer，加速快速入門的流程。 這項全新引導式設定能簡化快速頻道設定，確保能在 Experience Platform、Journey Optimizer 和資料彙集中，輕鬆安裝所有必要資源，確保一切運作都能順暢。這讓行銷、產品和資料工程團隊可以快速展開行銷活動，同時建立歷程。</p>
 <p>如需詳細資訊，請參閱<a href="../configuration/set-mobile-config.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
-<p>推出日期：9 月 3 日</p>
+<p>推出日期： 2024年9月3日</p>
 </br>
 </td>
 </tr>
@@ -243,10 +211,10 @@ ht-degree: 69%
 
 此發行版本隨附下列改進項目。
 
-**客群**
+**對象** — 推出日期： 2024年9月17日
 
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
-* (推出日期為：9 月 17 日) **授權使用情況**，授權使用情況控制面板會立即顯示可互動設定檔，而非可互動對象。[了解更多](../audience/license-usage.md)
+* **授權使用情況** — 授權使用情況儀表板現在會顯示可參與的設定檔，而不是可參與的對象。 [了解更多](../audience/license-usage.md)
 
 **內容管理**
 
