@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
+source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
 workflow-type: tm+mt
-source-wordcount: '4394'
-ht-degree: 99%
+source-wordcount: '4384'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 此頁面列出了於 2023 年發行的[!DNL Journey Optimizer]所有功能和改善。
 
 
-## 2023 年 10 月發行說明 {#oct-rn-2023}
+## 2023年10月發行版本 {#oct-rn-2023}
 
 ### 新功能{#oct-2023-features}
 
@@ -101,7 +101,7 @@ ht-degree: 99%
 
 
 
-## 2023 年 9 月發行說明 {#sept-rn-2023}
+## 2023年9月發行 {#sept-rn-2023}
 
 ### 新功能{#sept-2023-features}
 
@@ -233,7 +233,7 @@ ht-degree: 99%
 
 Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
 
-## 2023 年 8 月發行說明 {#aug-rn-2023}
+## 2023年8月發行 {#aug-rn-2023}
 
 ### 新功能{#aug-2023-features}
 
@@ -322,7 +322,7 @@ A new option is available in the email surface settings to include email address
 
 
 
-## 2023 年 7 月發行說明 {#july-rn-2023}
+## 2023年7月發行 {#july-rn-2023}
 
 ### 新功能{#july-2023-features}
 
@@ -446,7 +446,7 @@ A new option is available in the email surface settings to include email address
 
 
 
-## 2023 年 6 月發行說明 {#june-rn-2023}
+## 2023年6月發行 {#june-rn-2023}
 
 <table>
 <thead>
@@ -496,7 +496,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * A new type of system alert has been introduced. You can now get notified when a custom action fails.
 -->
 
-## 2023 年 5 月發行說明 {#may-rn-2023}
+## 2023年5月發行 {#may-rn-2023}
 
 ### 新功能{#may-2023-features}
 
@@ -649,7 +649,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * 應用程式內訊息 — 修正行銷活動排程與訊息頻率設定衝突的問題。
 
 
-## 2023 年 4 月發行說明 {#apr-rn-2023}
+## 2023年4月發行 {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -730,7 +730,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 
 
-## 2023 年 3 月發行說明 {#mar-2023}
+## 2023年3月發行 {#mar-2023}
 
 ### 新功能{#mar-2023-features}
 
@@ -826,7 +826,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
   若要存取最新的介面工具集，請注意您必須重設不同的報告儀表板。 如需儀表板客製化的詳細資訊，請參閱[詳細文件](../reports/global-report.md#modify-dashboard)。
 
-## 2023 年 2 月發行說明 {#feb-2023}
+## 2023年2月發行 {#feb-2023}
 
 ### 新功能{#feb-2023-features}
 
@@ -954,7 +954,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **URL 個人化** - 將 URL 新增為優惠方案表示法的內容時，您現在可以使用運算式編輯器對這些 URL 進行個人化設定。[了解更多](../offers/offer-library/add-representations.md)
 
-## 2023 年 1 月發行說明{#jan-2023-release}
+## 2023年1月發行 {#jan-2023-release}
 
 ### 新功能{#jan-2023-features}
 

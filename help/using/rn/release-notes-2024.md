@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
+source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
 workflow-type: tm+mt
-source-wordcount: '3850'
-ht-degree: 96%
+source-wordcount: '3842'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 此頁面列出了於 2024 年發行的[!DNL Journey Optimizer]所有功能和改善。
 
 
-## 2024 年 8 月發行說明 {#8-2024}
+## 2024年8月發行 {#8-2024}
 
 **發行日期**：2024 年 8 月 20-21 日
 
@@ -148,7 +148,7 @@ ht-degree: 96%
 
 
 
-## 2024 年 7 月發行說明 {#24-7-2024}
+## 2024年7月發行 {#24-7-2024}
 
 **發行日期**：2024 年 7 月 30-31 日
 
@@ -199,7 +199,7 @@ ht-degree: 96%
 
 
 
-## 2024 年 6 月發行說明 {#24-6-2024}
+## 2024年6月發行 {#24-6-2024}
 
 **發行日期**：2024 年 6 月 18 日至 19 日
 
@@ -344,7 +344,6 @@ ht-degree: 96%
 * **合併原則**&#x200B;現已正式上市 - 歷程使用的合併原則現在在整個歷程中可見且一致。 [閱讀全文](../building-journeys/journey-properties.md#merge-policies)
 
 
-
 #### 行銷活動
 
 * 在 Adobe Journey Optimizer 中建立行銷活動時，您現在可以在新模式中選擇行銷活動類型 (已排程或啟動)。[閱讀全文](../campaigns/create-campaign.md)
@@ -376,7 +375,7 @@ ht-degree: 96%
 
 
 
-## 2024 年 5 月發行說明 {#may-2024}
+## 2024年5月發行 {#may-2024}
 
 **發行日期**：2024 年 5 月 21 日至 22 日
 
@@ -525,9 +524,7 @@ ht-degree: 96%
 作為我們不斷努力提供統一使用者體驗的一部分，我們統一了 Adobe Experience Cloud 產品和應用程式中使用的術語。 這會影響德文術語「標題」，在與物件名稱相關時會變更為「標籤」。 這些變更將會逐步在使用者介面與檔案中逐步推出。
 
 
-
-
-## 2024 年 4 月發行說明 {#apr-2024}
+## 2024年4月發行 {#apr-2024}
 
 **發行日期**：2024 年 5 月 2 日
 
@@ -636,7 +633,7 @@ ht-degree: 96%
 
 
 
-## 2024 年 3 月發行說明 {#mar-2024}
+## 2024年3月發行 {#mar-2024}
 
 **發行日期**： 2024 年 3 月 19 至 20 日
 
@@ -686,7 +683,7 @@ ht-degree: 96%
 
 當歷程處於中介狀態時，其是唯讀。[了解更多](../building-journeys/journey-gs.md#filter)
 
-## 2024 年 2 月發行說明 {#feb-2024}
+## 2024年2月發行 {#feb-2024}
 
 **發行日期**：2024 年 2 月 21 日至 22 日
 
@@ -772,7 +769,7 @@ ht-degree: 96%
 * **Capping rules** - You can now add **multiple capping rules** for one offer. This allows you to increase the level of control over the way offers are sent.-->
 
 
-## 2024 年 1 月發行說明 {#jan-2024}
+## 2024年1月發行 {#jan-2024}
 
 **發行日期**：2024 年 1 月 30 日至 31 日
 
