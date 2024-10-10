@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: e6da92e2459c83019a9bb72b79809fdf7cf68c98
+source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
 workflow-type: tm+mt
 source-wordcount: '2048'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -58,17 +58,17 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="允許重新進入"
->abstract="依預設，新歷程允許重新進入。 例如，如果您想要在某人進入商店時提供單次贈品，您可以取消勾選&#x200B;**允許重新進入**&#x200B;選項。"
+>abstract="預設情況下，新歷程允許重新進入。例如，如果您想在某人進入商店時提供一次性禮物，您可以取消勾選「**允許重新進入**」選項。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="輪廓入口管理"
 
-依預設，新歷程允許重新進入。 您可以取消勾選「單次」歷程的&#x200B;**允許重新進入**&#x200B;選項，例如，如果您想要在某人進入商店時提供一次性禮物。
+預設情況下，新歷程允許重新進入。您可以取消勾選「單次」歷程的&#x200B;**允許重新進入**&#x200B;選項，例如，如果您想要在某人進入商店時提供一次性禮物。
 
 ### 重新進入等待期  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="重新進入等待期"
->abstract="設定允許輪廓在單一歷程中再次進入歷程之前等待的時間。這可防止使用者在選定的期間內重新進入歷程。 最長持續時間：90 天。"
+>abstract="設定允許輪廓在單一歷程中再次進入歷程之前等待的時間。這會防止使用者在選定的期間內重新進入歷程。最長持續時間：90 天。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="輪廓入口管理"
 
 啟動&#x200B;**允許重新進入**&#x200B;選項時，會顯示&#x200B;**重新進入等待期間**&#x200B;欄位。 此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或客群資格開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 持續時間上限為90天。
@@ -298,6 +298,4 @@ Journey在從Adobe Experience Platform擷取設定檔資料時使用合併原則
 
 * 退出條件只能在草稿狀態中定義
 * 事件和事件型退出條件之間的歷程名稱空間一致性
-
-
 

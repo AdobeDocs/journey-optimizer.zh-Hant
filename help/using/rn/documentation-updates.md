@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
 workflow-type: tm+mt
-source-wordcount: '5454'
-ht-degree: 99%
+source-wordcount: '5555'
+ht-degree: 98%
 
 ---
 
@@ -19,8 +19,18 @@ ht-degree: 99%
 
 本頁面列出 [!DNL Journey Optimizer] 文件的所有最新更新。
 
+## 2024 年 9 月 {#sept-2024}
+
+* 有關[!DNL Journey Optimizer] 2024年9月發行版本的所有新功能和改進專案詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
+* 新增歷程重試管理的相關區段。 [閱讀全文](../building-journeys/read-audience.md#read-audience-retry)
+* 已更新自訂動作之上限/節流規則的常見問題集，其中提及預設上限規則。 [閱讀全文](../configuration/external-systems.md#faq)
+* 「控制存取」區段已更新，其中包含與AI Assistant內容產生器相關的許可權。 [閱讀全文](../administration/high-low-permissions.md#ai-permission)
+* 已新增有關AI Assistant Content Generator fir電子郵件產生的影片。 [閱讀全文](../content-management/generative-email.md#video)
+
+
 ## 2024 年 8 月 {#aug-2024}
 
+* 有關[!DNL Journey Optimizer] 2024年8月發行版本的所有新功能和改進專案詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
 * 更新決定管理的效能護欄，以提及具有/沒有 Edge 分段的決定 API 傳送輸送量。 [閱讀全文](../start/guardrails.md#decision-management)
 * 歷程護欄已更新。 [閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
 
