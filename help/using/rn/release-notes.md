@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ff2ad535b0919c3c9d8cf098dfcedf3f9ea8bba6
+source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 67%
+source-wordcount: '1489'
+ht-degree: 61%
 
 ---
 
@@ -71,6 +71,16 @@ ht-degree: 67%
 **歷程** — 推出日期： 2024年10月3日
 
 * **自訂動作中的引數** — 自訂動作現在支援NULL和選用引數。 [了解更多](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+**資料控管和同意原則** — 推出日期： 2024年10月7日
+
+* **資料治理原則**&#x200B;已在Journey Optimizer的所有管道中強制執行。 對於已在Adobe Experience Platform中建立原則的客戶，這些原則會套用至行銷動作，作為管道設定的一部分。 使用設定建立內容時，系統會檢查所有個人化欄位是否有任何資料治理違規。 如果發現違規，將無法發佈歷程或行銷活動。 [了解更多](../action/action-privacy.md)
+
+* **自訂同意原則**&#x200B;現在套用至所有Journey Optimizer管道。 在傳送訊息或傳送傳入體驗之前執行時，系統會檢查使用者是否已同意在將會收到的內容中使用個人化欄位。 如果未給予同意，則不會顯示體驗。 [了解更多](../action/consent.md)
+
+  >[!NOTE]
+  >
+  >同意原則目前僅適用已購買 Adobe **Healthcare Shield** 與&#x200B;**隱私權與安全性防護**&#x200B;附加產品的組織。
 
 **對象** — 推出日期： 2024年10月8日
 
