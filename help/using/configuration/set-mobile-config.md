@@ -21,12 +21,12 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
 >title="行動裝置和網頁設定名稱"
->abstract="輸入您的行動或網頁設定名稱。此名稱將用於使用引導式管道設定自動建立的每個資源。"
+>abstract="輸入您的行動裝置或網頁設定名稱。此名稱將用於使用引導式管道設定自動建立的每個資源。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="使用保證進行驗證"
->abstract="Adobe Experience Platform Assurance 嵌入此工作流程中，可協助您檢查 SDK 實施，以及模擬和驗證應用程式事件。"
+>abstract="將 Adobe Experience Platform Assurance 嵌入此工作流程中，可協助您檢查 SDK 實作，以及模擬和驗證應用程式事件。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance 概觀"
 
 此設定有助快速設定行銷頻道，確保隨時在都能在 Experience Platform、Journey Optimizer 資料收集取得所有必要資源。 這可讓您的行銷團隊從行銷活動和歷程建立開始。
@@ -70,7 +70,7 @@ ht-degree: 20%
     <tbody>
       <tr>
         <td>
-          <p>資料收集</p>
+          <p>資料彙集</p>
         </td>
         <td>
           <ul>
@@ -216,7 +216,7 @@ ht-degree: 20%
   </td>
   <td>
   <ul>
-  <li>頻道設定</li>
+  <li>管道設定</li>
   <li>上傳推送認證（僅限行動推送訊息）</li>
   </ul>
   </td>
@@ -311,7 +311,7 @@ ht-degree: 20%
   </td>
   <td>
   <ul>
-  <li>頻道設定</li>
+  <li>管道設定</li>
   <li>上傳推送認證（僅限行動推送訊息）</li>
   </ul>
   </td>
