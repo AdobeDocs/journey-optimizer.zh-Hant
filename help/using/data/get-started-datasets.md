@@ -8,7 +8,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform、資料湖、建立、湖、資料集、輪廓
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 979cb8270a4be4c7ad08db8f0a2e072d590906de
+source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 93%
@@ -43,8 +43,6 @@ ht-degree: 93%
 >* 資料湖中的資料需要13個月
 >
 >此外，目前串流區段將不再支援使用追蹤和意見資料集中的傳送和開啟事件。
-
-
 
 選取資料集名稱，以存取其「資料集」活動畫面，並查看所選取資料集的詳細資訊。 活動索引標籤包含將所使用訊息的比率視覺化的圖形，以及成功和失敗批次的清單。
 

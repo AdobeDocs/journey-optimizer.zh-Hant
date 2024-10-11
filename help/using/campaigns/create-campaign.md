@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
+source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 31%
+source-wordcount: '858'
+ht-degree: 27%
 
 ---
 
@@ -33,11 +33,6 @@ ht-degree: 31%
 >id="ajo_campaigns_campaign_type"
 >title="行銷活動類型"
 >abstract="**排程的行銷活動**&#x200B;會立即執行或在指定的日期執行，其目的在傳送行銷類型訊息。**API 觸發的**&#x200B;行銷活動是使用 API 呼叫執行的。這些目的是傳送行銷訊息 (需要使用者同意的促銷訊息) 或交易型訊息 (非商業訊息，也可以在特定情況下傳送到未訂閱的輪廓)。"
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_category"
->title="行銷活動類別"
->abstract="如果您正在建立排程的行銷活動，系統會自動選取&#x200B;**行銷**&#x200B;類型。若是 API 觸發的行銷活動，選擇您是否要傳送&#x200B;**行銷**&#x200B;訊息 (需要使用者同意的促銷訊息) 或&#x200B;**交易型**&#x200B;訊息 (非商業訊息，也可以在特定情況下傳送到未訂閱的輪廓)。"
 
 1. 選取您要執行的行銷活動型別
 
