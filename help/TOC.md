@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: 1e46321de543196277613889c438dc6756e45652
 workflow-type: tm+mt
-source-wordcount: '2067'
+source-wordcount: '2073'
 ht-degree: 96%
 
 ---
@@ -428,6 +428,7 @@ ht-degree: 96%
          + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
          + [使用者介面](using/offers/get-started/user-interface.md)
          + [建立和管理優惠的重要步驟](using/offers/offer-library/key-steps.md)
+         + [善用自訂上傳對象以做出決策](using/offers/custom-upload-decisioning.md)
          + [使用案例：在電子郵件中插入優惠](using/offers/offers-e2e.md)
       + 建立元件 {#create-components}
          + [建立位置](using/offers/offer-library/creating-placements.md)
