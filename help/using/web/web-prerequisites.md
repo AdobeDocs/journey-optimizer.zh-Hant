@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 7%
+source-wordcount: '1145'
+ht-degree: 6%
 
 ---
 
@@ -24,8 +24,6 @@ ht-degree: 7%
 * 若要正確傳遞Web體驗，請務必在[這裡](#delivery-prerequisites)定義詳細的Adobe Experience Platform設定。
 
 ## 警告注意事項 {#caution-notes-web}
-
-* 目前在[!DNL Journey Optimizer]中，您只能在&#x200B;**行銷活動**&#x200B;中建立網站體驗。 [了解更多](../campaigns/create-campaign.md#configure)
 
 * [!DNL Journey Optimizer] 網路行銷活動會選擇以其他管道上不曾有過互動的新輪廓為目標。這樣做會增加可互動輪廓總數，如果其超過您購買的可互動輪廓合約數量，可能會影響成本。 各個套件的授權量度都列在 [Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。
 
@@ -43,7 +41,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->目前不支援僅伺服器端實作。
+>Web Channel目前不支援僅伺服器端實作。 如果您的網頁只有伺服器端實作，您可以改用[程式碼型體驗管道](../code-based/get-started-code-based.md)。
 
 <!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 

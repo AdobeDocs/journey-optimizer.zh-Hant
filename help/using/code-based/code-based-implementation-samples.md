@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 75dcd6d4a36b09809cdf4db3a0ae3ba3a1cb35b5
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 2%
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}已包含在此頁面上。
 
-1. 您必須使用`sendEvent`命令並指定表面URI以擷取個人化內容。
+1. 您必須使用`sendEvent`命令並指定[表面URI](code-based-configuration.md#surface-definition)<!--( or location/path)-->來擷取個人化內容。
 
    ```javascript
    alloy("sendEvent", {

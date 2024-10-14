@@ -8,16 +8,22 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '5555'
-ht-degree: 98%
+source-wordcount: '5610'
+ht-degree: 97%
 
 ---
 
 # 文件更新 {#latest-updates}
 
 本頁面列出 [!DNL Journey Optimizer] 文件的所有最新更新。
+
+## 2024 年 10 月 {#oct-2024}
+
+* 「設定您的程式碼型體驗」頁面已經過改良，讓流程更加清楚，包括說明什麼是表面URI的區段。 [閱讀全文](../code-based/code-based-configuration.md)
+
+* 「建立Web通道設定」頁面已更新，以釐清建立頁面比對規則時的步驟，此規則也適用於程式碼型體驗設定。 [閱讀全文](../web/web-configuration.md#web-page-matching-rule)
 
 ## 2024 年 9 月 {#sept-2024}
 

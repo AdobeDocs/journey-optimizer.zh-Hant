@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
-workflow-type: ht
-source-wordcount: '716'
-ht-degree: 100%
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 83%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 100%
 
 * 如果您採用 API 型、無頭式或伺服器端實施，您也可以使用程式碼型頻道作為 [!DNL Journey Optimizer] 網頁或應用程式內頻道的替代方案。
 
-### 程式碼型對比網路頻道
+### 程式碼型對比網路頻道 {#code-based-vs-web}
 
 若要執行網路使用案例，您可以使用網路頻道或程式碼型體驗，但具體適合使用哪一種則視您的內容而定。 主要差異如下所列，以便您能對何時使用哪種體驗做出明智的決定。
 
@@ -103,18 +103,20 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->此功能適合開發人員角色和/或經驗豐富的使用者。 只要是由開發團隊處理表面實作和初始設定，具備一些程式碼撰寫技能的行銷人員就可以使用此功能。
+>此功能適合開發人員角色和/或經驗豐富的使用者。 只要您的開發團隊處理頻道設定和初始設定，具備某些程式碼撰寫技能的行銷人員就可以使用此功能。
 
-若要使用 [!DNL Journey Optimizer] 程式碼型體驗功能編輯內容，頁面或應用程式需要檢測。 若要這樣做，您必須預先宣告特定的個別位置 (稱為「[表面](code-based-configuration.md#surface-definition)」)，其為您要插入或取代內容的位置<!--HOW??-->。
+若要使用 [!DNL Journey Optimizer] 程式碼型體驗功能編輯內容，頁面或應用程式需要檢測。 若要這麼做，您必須先宣告您要插入或取代內容的特定個別位置（稱為&quot;[曲面](code-based-configuration.md#surface-definition)&quot;）。
 
 >[!NOTE]
 >
->目前與設定相關聯的內容只能是 HTML 或 JSON。<!--WILL COME LATER: text, image or another format depending on the application-->
+>目前，與設定相關聯的內容只能是HTML或JSON。
 
 實作程式碼型行銷活動的重要步驟如下。
 
-1. 定義應用程式實作中的[表面](code-based-configuration.md#surface-definition)，其基本上是您要新增基於程式碼之體驗的位置，接著建立參考該位置且基於程式碼的體驗管道設定，然後使用此設定在 [!DNL Journey Optimizer] 中建立行銷活動。 [了解作法](create-code-based.md#create-code-based-campaign)
+1. 在您的應用程式實作中定義[surface](code-based-configuration.md#surface-definition)，這基本上是您要新增程式碼型體驗的位置，並建立參照該位置的程式碼型體驗通道設定。 [了解作法](code-based-configuration.md#create-code-based-configuration)
+
+1. 使用此設定在[!DNL Journey Optimizer]中建立歷程或行銷活動。 [了解作法](create-code-based.md#create-code-based-campaign)
 
 1. 使用 [!DNL Journey Optimizer] 個人化編輯器，為所選設定指定內容來編寫體驗。 [了解作法](create-code-based.md#edit-code)
 
-1. 應用程式實施團隊會發出明確 API 或 SDK 呼叫，為已命名的表面擷取內容，例如「橫幅文字」或「建議匣 1」，或應用程式中與 UI 無關的決策點，例如「搜尋演算法參數」。 在此情況下，實作團隊負責轉譯或解譯傳回的內容並採取行動。<!--TBC with Robert - should link to a new section with API/SDK call samples-->
+1. 應用程式實施團隊會發出明確 API 或 SDK 呼叫，為已命名的表面擷取內容，例如「橫幅文字」或「建議匣 1」，或應用程式中與 UI 無關的決策點，例如「搜尋演算法參數」。 在此情況下，實作團隊負責轉譯或解譯傳回的內容並採取行動。 [了解更多](code-based-implementation-samples.md)

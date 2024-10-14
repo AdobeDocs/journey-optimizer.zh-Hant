@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1215'
 ht-degree: 9%
 
 ---
@@ -167,6 +167,8 @@ ht-degree: 9%
 >如果您啟用程式碼型歷程/行銷活動，將影響與另一個已上線的歷程或行銷活動相同的頁面，則所有變更將會套用至您的內容。
 >
 >如果有多個程式碼型歷程或行銷活動更新內容的相同元素，則會以最高優先順序的歷程/行銷活動優先。
+
+您的程式碼型歷程或行銷活動上線後，應用程式實作團隊將負責發出明確API或SDK呼叫，以擷取所選[程式碼型體驗設定](code-based-configuration.md)中定義之表面的內容。 在[本節](code-based-implementation-samples.md)中瞭解不同客戶實作的詳細資訊。
 
 ### Publish程式碼型歷程 {#publish-code-based-journey}
 

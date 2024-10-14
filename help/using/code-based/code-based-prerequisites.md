@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 3%
+source-wordcount: '570'
+ht-degree: 2%
 
 ---
 
@@ -20,10 +20,6 @@ ht-degree: 3%
 * 若要在應用程式中新增修改，您必須有特定的實施。 [了解更多](#implementation-prerequisites)
 
 * 為了正確傳遞程式碼型體驗，請務必在[這裡](#delivery-prerequisites)定義詳細的Adobe Experience Platform設定。
-
->[!CAUTION]
->
->您只能在&#x200B;**行銷活動**&#x200B;中建立程式碼型體驗。 [了解更多](../campaigns/create-campaign.md#configure)。
 
 ## 實作必要條件 {#implementation-prerequisites}
 

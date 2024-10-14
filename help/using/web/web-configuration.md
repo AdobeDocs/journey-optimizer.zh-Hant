@@ -6,26 +6,20 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: 37e60e5d7c0ad164cde67015b72341e1f4eda6a9
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 11%
+source-wordcount: '935'
+ht-degree: 10%
 
 ---
 
-# 建立網頁管道設定 {#web-configuration}
+# 設定您的網站體驗 {#web-configuration}
 
->[!CONTEXTUALHELP]
->id="ajo_admin_page_rule"
->title="頁面比對規則"
->abstract="若要有效管理和定位共用相同準則的 URL 群組，請建立頁面比對規則。此規則可讓您將多個 URL 合併至一個準則下，以便更輕鬆在這些頁面間套用一致的設定和動作。"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_default_url"
->title="預設製作和預覽 URL"
->abstract="此欄位可確保根據規則產生或符合的頁面具有指定的 URL，這對於有效建立和預覽內容至關重要。"
+## 建立Web頻道設定 {#create-web-configuration}
 
 Web設定是由URL識別的Web屬性，將會傳送內容。 它可以比對單一頁面URL或多個頁面，讓您在一或多個網頁間提供修改內容。
+
+若要建立Web Channel設定，請遵循以下步驟。
 
 1. 存取&#x200B;**[!UICONTROL 頻道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 頻道設定]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立頻道設定]**。
 
@@ -37,7 +31,7 @@ Web設定是由URL識別的Web屬性，將會傳送內容。 它可以比對單�
    >
    > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線`_`、點`.`和連字型大小`-`字元。
 
-1. 若要將自訂或核心資料使用標籤指派給組態，您可以選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)。
+1. 若要將自訂或核心資料使用標籤指派給組態，您可以選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
 
 1. 選取&#x200B;**Web**&#x200B;管道。
 
@@ -45,29 +39,57 @@ Web設定是由URL識別的Web屬性，將會傳送內容。 它可以比對單�
 
 1. 選取&#x200B;**[!UICONTROL 行銷動作]**，以使用此設定將同意原則與訊息相關聯。 系統會運用與行銷動作相關的所有同意政策，以尊重客戶的偏好設定。 [了解更多](../action/consent.md#surface-marketing-actions)
 
-1. 如果您只想將變更套用至單一頁面，可以輸入&#x200B;**[!UICONTROL 頁面URL]**。
+1. 在&#x200B;**[!UICONTROL 網頁設定]**&#x200B;區段中，選取下列其中一個選項：
 
-1. 或者，您可以建置符合規則&#x200B;]**的**[!UICONTROL &#x200B;頁面，以符合相同規則的多個URL為目標 — 例如，如果您想要將變更套用至整個網站的主圖橫幅，或新增顯示在網站所有產品頁面上的最上層影像。
+   * **[!UICONTROL 單一頁面]** — 如果您只想將變更套用至單一頁面，請輸入&#x200B;**[!UICONTROL 頁面URL]**。
 
-   若要這麼做，請選取&#x200B;**[!UICONTROL 符合規則]**&#x200B;的頁面。
+   * **[!UICONTROL 符合規則的頁面]** — 若要鎖定多個符合相同規則的URL，請建置符合規則的頁面，並輸入&#x200B;**[!UICONTROL 預設的撰寫和預覽URL]**。 [了解更多](#web-page-matching-rule)
 
-1. 定義&#x200B;**[!UICONTROL 網域]**&#x200B;和&#x200B;**[!UICONTROL 頁面]**&#x200B;欄位的條件。
+1. 按一下&#x200B;**[!UICONTROL 提交]**&#x200B;以儲存變更。
+
+現在當您在行銷活動或歷程中使用網路管道時，可以選取此設定。
+
+## 建置頁面比對規則 {#web-page-matching-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_page_rule"
+>title="建置頁面比對規則"
+>abstract="若要有效管理和定位共用相同準則的 URL 群組，請建立頁面比對規則。此規則可讓您將多個 URL 合併至一個準則下，以便更輕鬆在這些頁面間套用一致的設定和動作。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_url"
+>title="定義內容製作和預覽的URL"
+>abstract="此欄位可確保根據規則產生或符合的頁面具有指定的 URL，這對於有效建立和預覽內容至關重要。"
+
+建立網頁或[程式碼型體驗](../code-based/get-started-code-based.md)設定時，您可以建置符合規則&#x200B;]**的**[!UICONTROL &#x200B;頁面，以鎖定多個符合相同規則的URL。 因此，您可以一次將相同的內容變更套用至多個頁面。
+
+例如，您可能會想要將變更套用至整個網站的主圖橫幅，或新增顯示在網站所有產品頁面上的最上方影像。
+
+1. 設定您的[網頁](#web-configuration)或[程式碼型體驗](../code-based/code-based-configuration.md)時，請選取&#x200B;**[!UICONTROL 符合規則]**&#x200B;的頁面。
+
+1. 定義&#x200B;**[!UICONTROL 網域]**&#x200B;和&#x200B;**[!UICONTROL 頁面]**&#x200B;欄位的條件。 檢查[此區段](#available-operators)中可用的運運算元。
 
    例如，如果您想要編輯顯示在Luma網站所有女性產品頁面上的元素，請選取&#x200B;**[!UICONTROL 網域]** > **[!UICONTROL 開頭為]** > `luma`和&#x200B;**[!UICONTROL 頁面]** > **[!UICONTROL 包含]** > `women`。
 
    ![](assets/web_config_3.png)
 
-1. 如果您已建立符合規則&#x200B;]**的**[!UICONTROL &#x200B;頁面，您必須輸入&#x200B;**預設**&#x200B;的製作與預覽URL。 此步驟會確保規則產生或相符的頁面具有用於內容建立和預覽的指定URL。 在以下](#web-page-matching-rule)的[區段中進一步瞭解頁面比對規則。
+1. 如果您的使用案例無法使用單一規則建模，您可以選擇新增多個規則。 按一下&#x200B;**[!UICONTROL 新增其他頁面規則]**&#x200B;並重複上述步驟。
 
-1. 儲存您的變更。
+   >[!NOTE]
+   >
+   >您最多可以新增10個規則。
 
-現在當您在行銷活動或歷程中使用網路通道時，可以選取您的設定。
+1. 您可以在不同的規則之間使用&#x200B;**[!UICONTROL Or]**&#x200B;或&#x200B;**[!UICONTROL Exclude]**&#x200B;運運算元。
 
-## 頁面比對規則 {#web-page-matching-rule}
+   當符合所定義規則的其中一個頁面不應作為目標時，**[!UICONTROL 排除]**&#x200B;會很有用。 例如，您可以鎖定包含`product`的所有`luma.com`頁面，排除下列頁面： `https://luma.com/blogs/productinfo`。
 
-建立符合多個頁面的規則，以便一次在多個頁面上套用相同的內容變更時，您可以在&#x200B;**網域**&#x200B;和&#x200B;**路徑**&#x200B;區段上使用不同的運運算元來建置您想要的規則。 請檢查下方的可用運運算元。
+   ![](assets/web_config_4.png)
 
-建立頁面比對規則的可用運運算元：
+1. 輸入&#x200B;**[!UICONTROL 預設的撰寫與預覽URL]**。 此步驟會確保規則產生或相符的頁面具有用於內容建立和預覽的指定URL。
+
+### 建立頁面比對規則的可用運運算元 {#available-operators}
+
+建立符合多個頁面](#web-page-matching-rule)的[規則時，您可以在&#x200B;**[!UICONTROL 網域]**&#x200B;和&#x200B;**[!UICONTROL 路徑]**&#x200B;區段上使用不同的運運算元來建置您想要的規則。 可用的運運算元如下所列。
 
 * **網域**
 
@@ -123,5 +145,3 @@ Web設定是由URL識別的Web屬性，將會傳送內容。 它可以比對單�
     </tr>
     </tbody>
 </table>
-
-如果您的使用案例無法使用單一規則建模，那麼您可以選擇新增多個頁面規則，並且您可以在它們之間使用「Or」或「Exclude」運運算元。 當符合所定義規則的其中一個頁面不應作為目標時，「排除」會很有用：例如，包含「product」的所有「example.com」頁面，排除下列頁面： `https://example.com/blogs/productinfo`。
