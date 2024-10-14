@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
+source-git-commit: b5528c50a04de73a0af3d7ea2ba21fd562a88e1a
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 61%
+source-wordcount: '1496'
+ht-degree: 60%
 
 ---
 
@@ -20,17 +20,15 @@ ht-degree: 61%
 >title="新增功能？"
 >abstract="**Adobe Journey Optimizer** 持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每月最後一週整合於發行說明。"
 
-[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每月最後一週整合於發行說明。
-
-[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
-
-![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
+[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都將在每個月最後一週的發行說明中合併。 [!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
 ## 2024年10月更新 {#24-10-rn}
 
-### 新功能 {#24-10-features}
+即將發行的&#x200B;**發行日期**： 2024年10月28至30日
 
-以下列出Adobe Journey Optimizer中可用的新功能。
+下面列出的[功能](#24-10-features)和[改進](#24-10-improvements)已於本月發行。
+
+### 新功能 {#24-10-features}
 
 <table>
 <thead>
@@ -279,3 +277,6 @@ ht-degree: 61%
 **設定**
 
 * **IP熱身計畫** — 此功能現在可供所有客戶使用，包括已購買Adobe **Healthcare Shield**&#x200B;或&#x200B;**Privacy and Security Shield**&#x200B;附加產品的組織。 [了解更多](../configuration/ip-warmup-gs.md)
+
+
+![電子報](../assets/do-not-localize/nl-icon.png)立即註冊 [Adobe Journey Optimizer 季度電子報](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，把每季最新產品更新、精彩故事、使用案例、提示等內容直接傳送到您的收件匣。
