@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 3c4aef3e062eb6a8b106ce00b86cd0594e94d7b0
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1731'
 ht-degree: 7%
 
 ---
@@ -213,7 +213,7 @@ ht-degree: 7%
 
    <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-   選取不同的測試設定檔或處理時，預覽連結會變更，這樣您就可以擁有每個測試設定檔和/或處理的連結，並比較體驗。
+   當更新內容或選取不同的測試設定檔或處理方式時，預覽連結會自動重新整理。 您可以將連結複製到不同的瀏覽器標籤中，並比較體驗。
 
 ## 讓您的程式碼型體驗上線 {#code-based-experience-live}
 
