@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 573d6e8611e90df2390576912929d5f85e386537
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 6%
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 * 若要對網站新增修改，您必須具備特定實施。 [了解更多](#implementation-prerequisites)
 
-* 若要存取[!DNL Journey Optimizer]網頁設計工具，您必須安裝特定的Google Chrome瀏覽器擴充功能。 [了解更多](#visual-authoring-prerequesites)
+* 若要存取[!DNL Journey Optimizer]網頁設計工具，您必須安裝特定的Google Chrome瀏覽器擴充功能。 [了解更多](#visual-authoring-prerequisites)
 
 * 若要正確傳遞Web體驗，請務必在[這裡](#delivery-prerequisites)定義詳細的Adobe Experience Platform設定。
 
