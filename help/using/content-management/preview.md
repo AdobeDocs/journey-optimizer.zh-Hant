@@ -5,14 +5,16 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 7%
+source-wordcount: '196'
+ht-degree: 5%
 
 ---
 
-# 預覽您的內容 {#preview}
+# 檢查您的內容 {#preview}
+
+<!--## Preview your content {#preview-content}-->
 
 選取[測試設定檔](test-profiles.md)後，您就可以預覽內容。 請遵循以下步驟：
 
@@ -37,3 +39,8 @@ ht-degree: 7%
    ![](../email/assets/preview-test-profile.png)
 
 1. 選取其他測試設定檔，以針對訊息的每個變體預覽您的電子郵件。
+
+>[!NOTE]
+>
+>建立程式碼型體驗時，您可以直接在瀏覽器或行動裝置上預覽個人化內容，以進行真實生活的模擬。 [了解更多](../code-based/create-code-based.md#preview-on-device)
+

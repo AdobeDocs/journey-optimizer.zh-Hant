@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 9%
+source-wordcount: '1729'
+ht-degree: 7%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 9%
 
    您也可以將部分程式碼內容儲存為片段。 [了解作法](../content-management/fragments.md#save-as-expression-fragment)
 
-1. 使用程式碼型體驗時，您可以使用體驗決策功能。 從左側列選取&#x200B;**[!UICONTROL 決定原則]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL 新增決定原則]**。 [深入瞭解](../experience-decisioning/create-decision.md) <!--UI labels TBC + TBC for journeys (visible in UI so probably confirmed) -->
+1. 使用程式碼型體驗時，您可以使用體驗決策功能。 從左側列選取&#x200B;**[!UICONTROL 決定原則]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL 新增決定原則]**。 [了解更多](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
 
@@ -131,7 +131,7 @@ ht-degree: 9%
 >title="預覽您的基於程式碼的體驗"
 >abstract="模擬基於程式碼的體驗。"
 
-若要顯示已修改程式碼型體驗的預覽，請遵循下列步驟。 有關如何選取測試設定檔和預覽內容的詳細資訊，請參閱[預覽和測試內容頁面](../content-management/preview-test.md)。
+若要顯示已修改程式碼型體驗的預覽，請遵循下列步驟。
 
 >[!CAUTION]
 >
@@ -145,12 +145,75 @@ ht-degree: 9%
 
 1. 畫面上會顯示已修改程式碼式體驗的預覽。
 
-<!--
-    ![](assets/code-based-designer-preview.png)
+有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱[本節](../content-management/preview.md)。
 
-    You can also open it in the default browser, or copy the test URI to paste it in any browser. This allows you to share the link with your team and stakeholders who will be able to preview the new web experience in any browser before the campaign goes live.
+### 在裝置上預覽 {#preview-on-device}
 
-    When copying the test URI, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].-->
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device"
+>title="在真實裝置上預覽您的程式碼型體驗"
+>abstract="直接在您的瀏覽器或行動裝置上取得個人化體驗的預覽，以檢視它們在真實裝置上的外觀。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_web"
+>title="在裝置上預覽您的程式碼式Web體驗"
+>abstract="掃描QR碼或複製連結以在裝置上預覽。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_mobile"
+>title="在裝置上預覽您的程式碼型行動體驗"
+>abstract="掃描QR碼或複製連結以在裝置上預覽。 連線之後，請輸入裝置上的圖釘。 您可能需要重新啟動應用程式，才能在每次更新預覽連結時看到變更。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_refresh"
+>title="重新整理預覽連結以反映目前的檢視"
+>abstract="裝置上預覽將顯示自您建立或重新整理預覽連結時起的內容。 如果您已修改內容或選取不同的測試設定檔或處理，請重新整理預覽，使其反映目前的檢視。"
+
+為網頁或行動應用程式建立程式碼型體驗時，您可以直接在瀏覽器或行動裝置上預覽您的個人化體驗，以瞭解這些體驗在真實裝置上的外觀。
+
+>[!WARNING]
+>
+>使用[決定原則](../experience-decisioning/create-decision.md)或[個人化](../personalization/personalization-build-expressions.md)內容屬性時，裝置上的預覽無法使用。
+
+1. 在&#x200B;**[!UICONTROL 模擬]**&#x200B;畫面中，按一下&#x200B;**[!UICONTROL 開啟預覽選項]**&#x200B;按鈕。 預覽選項視您在[程式碼型組態](code-based-configuration.md#create-code-based-configuration)中選取的平台而定。
+
+1. 如果您在程式碼型組態中使用[Web平台](code-based-configuration.md#web)，**[!UICONTROL 裝置預覽URL]**&#x200B;唯讀欄位會預先填入為目前頻道組態輸入的URL。
+
+   ![](assets/preview-on-device-web.png)
+
+   您可以：
+
+   * 選取&#x200B;**[!UICONTROL 複製連結]**&#x200B;按鈕，然後將連結貼到瀏覽器索引標籤中。 您也可以與您的團隊和利害關係人共用連結，這些利害關係人可以在變更上線之前，在任何瀏覽器中預覽新體驗。
+
+   * 按一下&#x200B;**[!UICONTROL 在新標籤中開啟]**，以在您目前的瀏覽器中開啟連結。
+
+   * 使用行動裝置掃描二維碼，在行動瀏覽器上開啟預覽連結。
+
+1. 如果您在程式碼型組態中使用[行動平台](code-based-configuration.md#mobile) (iOS / Android)，**[!UICONTROL Deeplink]**&#x200B;唯讀欄位會預先填入在所選平台的頻道組態中輸入的&#x200B;**[!UICONTROL 預覽URL]**&#x200B;值。
+
+   在&#x200B;**[!UICONTROL iOS]**&#x200B;和&#x200B;**[!DNL Android]**&#x200B;標籤之間切換，以預覽您所選平台的體驗。
+
+   ![](assets/preview-on-device-mobile.png)
+
+   您可以：
+
+   * 選取&#x200B;**[!UICONTROL 複製連結]**&#x200B;按鈕，並與您的團隊和利害關係人共用連結，他們可以在變更上線之前，在任何行動瀏覽器中預覽新體驗。
+
+   * 使用行動裝置掃描二維碼，以直接在行動應用程式中開啟預覽連結。 您必須在裝置上輸入PIN，才能建立[Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}工作階段。
+
+     >[!NOTE]
+     >
+     >**Adobe Experience Platform Assurance**&#x200B;是Adobe Experience Cloud的產品，可協助您檢查、校樣、模擬及驗證如何在行動應用程式中收集資料或提供體驗。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/home){target="_blank"}
+
+1. 已針對選取的測試設定檔產生預覽連結，如果您在歷程或行銷活動中使用[內容實驗](../content-management/content-experiment.md)，則會針對選取的處理方式產生預覽連結。
+
+   <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
+
+   ![](assets/preview-on-device-refresh.png)-->
+
+   <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
+
+   選取不同的測試設定檔或處理時，預覽連結會變更，這樣您就可以擁有每個測試設定檔和/或處理的連結，並比較體驗。
 
 ## 讓您的程式碼型體驗上線 {#code-based-experience-live}
 

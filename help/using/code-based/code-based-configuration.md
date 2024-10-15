@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1537'
 ht-degree: 30%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 30%
 1. 下列專案適用於預覽URL：
 
    * 如果輸入單一頁面URL，該URL將用於預覽 — 不需要輸入其他URL。
-   * 如果選取了符合規則](../web/web-configuration.md#web-page-matching-rule)的[頁面，您必須輸入預設的撰寫和預覽URL ]**，以便在瀏覽器中預覽體驗。**[!UICONTROL 
+   * 如果選取了符合規則](../web/web-configuration.md#web-page-matching-rule)的[頁面，您必須輸入預設的撰寫和預覽URL ]**，以便在瀏覽器中預覽體驗。**[!UICONTROL [了解更多](../code-based/create-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -132,7 +132,7 @@ ht-degree: 30%
 
    ![](assets/code_config_3.png){width="500"}
 
-1. 填寫&#x200B;**[!UICONTROL 預覽URL]**&#x200B;欄位以啟用裝置上預覽。 此URL會通知預覽服務觸發預覽<!--on device. Learn more-->時要使用的特定URL。
+1. 填寫&#x200B;**[!UICONTROL 預覽URL]**&#x200B;欄位以啟用裝置上預覽。 此URL會通知預覽服務在裝置上觸發預覽時要使用的特定URL。 [了解更多](../code-based/create-code-based.md#preview-on-device)
 
    預覽URL是應用程式開發人員在您應用程式內設定的深層連結。 這可確保任何符合深層連結配置的URL都會在應用程式中開啟，而不是在行動網站瀏覽器中開啟。 請聯絡您的應用程式開發人員，取得為您的應用程式設定的深層連結配置。
 

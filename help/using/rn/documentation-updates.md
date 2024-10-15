@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 943969584b917d3172b0677118e8407eb3e153fd
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '5626'
+source-wordcount: '5667'
 ht-degree: 96%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 96%
 * **建立Web通道設定**&#x200B;頁面已更新，以釐清建立頁面符合規則的步驟，該規則也適用於程式碼型體驗設定。 [閱讀全文](../web/web-configuration.md#web-page-matching-rule)
 * 已新增有關系統產生資料集的近期存留時間(TTL)護欄的附註。 [閱讀全文](../data/get-started-datasets.md)
 
+
+* 已新增新區段，說明如何在瀏覽器或行動裝置上使用「在裝置上預覽」選項，在歷程或行銷活動中模擬內容時，預覽您的程式碼型個人化體驗。 [閱讀全文](../code-based/create-code-based.md#preview-on-device)
 
 ## 2024 年 9 月 {#sept-2024}
 
