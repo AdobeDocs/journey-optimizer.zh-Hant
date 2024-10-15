@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 573d6e8611e90df2390576912929d5f85e386537
+source-git-commit: c5308cfdb237fcf563886db1dfca257d23bb4449
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 6%
+source-wordcount: '1155'
+ht-degree: 3%
 
 ---
 
@@ -23,9 +23,10 @@ ht-degree: 6%
 
 * 若要正確傳遞Web體驗，請務必在[這裡](#delivery-prerequisites)定義詳細的Adobe Experience Platform設定。
 
-## 警告注意事項 {#caution-notes-web}
-
-* [!DNL Journey Optimizer] 網路行銷活動會選擇以其他管道上不曾有過互動的新輪廓為目標。這樣做會增加可互動輪廓總數，如果其超過您購買的可互動輪廓合約數量，可能會影響成本。 各個套件的授權量度都列在 [Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。
+>[!IMPORTANT]
+>
+>[!DNL Journey Optimizer] 網路行銷活動會選擇以其他管道上不曾有過互動的新輪廓為目標。這會增加您的可參與設定檔總數，如果您購買的可參與設定檔數目超過合約，可能會影響成本。 每個套件的授權量度都列在[Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。 您可以在[授權使用儀表板](../audience/license-usage.md)中檢查可參與的設定檔數目。
+>
 
 ## 實作必要條件 {#implementation-prerequisites}
 
