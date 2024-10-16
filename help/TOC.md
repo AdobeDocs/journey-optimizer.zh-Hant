@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
 workflow-type: tm+mt
-source-wordcount: '2073'
-ht-degree: 96%
+source-wordcount: '2136'
+ht-degree: 93%
 
 ---
 
@@ -384,17 +384,47 @@ ht-degree: 96%
       + [行銷活動即時報告](using/reports/campaign-live-report.md)
       + [登陸頁面即時報告](using/reports/lp-report-live.md)
       + [訂閱清單即時報告](using/reports/subscription-report-live.md)
-   + 全域報告 {#global-report}
-      + [開始使用全域報告](using/reports/global-report.md)
-      + [元件清單](using/reports/global-report-components.md)
-      + [歷程全域報告](using/reports/journey-global-report.md)
-      + [行銷活動全域報告](using/reports/campaign-global-report.md)
-      + [目標報告](using/reports/objective-report.md)
-      + [登陸頁面全域報告](using/reports/lp-report-global.md)
-      + [訂閱清單全域報告](using/reports/subscription-report-global.md)
-   + 頻道報告 {#channel-report}
-      + [開始使用頻道報告](using/reports/channel-report-gs.md)
-      + [頻道報告](using/reports/channel-report.md)
+   + Customer Journey Analytics報告{#channel-report}
+      + [開始使用Customer Journey Analytics報告](using/reports/report-gs-cja.md)
+      + [手動設定Customer Journey Analytics](using/reports/cja-ajo.md)
+      + [管理您的報告](using/reports/report-cja-manage.md)
+      + [報告和實驗先決條件](using/reports/reporting-configuration.md)
+      + 行銷活動報告{#reporting}
+         + [行銷活動報告](using/reports/campaign-global-report-cja.md)
+         + [程式碼型行銷活動報告](using/reports/campaign-global-report-cja-code.md)
+         + [內容卡行銷活動報告](using/reports/campaign-global-report-cja-content.md)
+         + [直接郵件行銷活動報告](using/reports/campaign-global-report-cja-direct.md)
+         + [電子郵件行銷活動報告](using/reports/campaign-global-report-cja-email.md)
+         + [實驗性行銷活動報告](using/reports/campaign-global-report-cja-experimentation.md)
+         + [應用程式內行銷活動報告](using/reports/campaign-global-report-cja-inapp.md)
+         + [推播通知行銷活動報告](using/reports/campaign-global-report-cja-push.md)
+         + [簡訊行銷活動報告](using/reports/campaign-global-report-cja-sms.md)
+         + [網站行銷活動報告](using/reports/campaign-global-report-cja-web.md)
+      + 歷程報告{#reporting}
+         + [歷程報告](using/reports/journey-global-report-cja.md)
+         + [程式碼型歷程報告](using/reports/journey-global-report-cja-code.md)
+         + [內容卡歷程報告](using/reports/journey-global-report-cja-content.md)
+         + [直接郵件歷程報告](using/reports/journey-global-report-cja-direct.md)
+         + [以電子郵件傳送歷程報告](using/reports/journey-global-report-cja-email.md)
+         + [應用程式內歷程報告](using/reports/journey-global-report-cja-inapp.md)
+         + [推播歷程報告](using/reports/journey-global-report-cja-push.md)
+         + [簡訊歷程報告](using/reports/journey-global-report-cja-sms.md)
+         + [網站歷程報告](using/reports/journey-global-report-cja-web.md)
+      + [概述報表](using/reports/channel-report-cja.md)
+      + [登陸頁面報告](using/reports/lp-report-global-cja.md)
+      + [訂閱清單報告](using/reports/subscription-report-global-cja.md)
+   + 前報告儀表板{#reports}
+      + 全域報告 {#global-report}
+         + [開始使用全域報告](using/reports/global-report.md)
+         + [元件清單](using/reports/global-report-components.md)
+         + [歷程全域報告](using/reports/journey-global-report.md)
+         + [行銷活動全域報告](using/reports/campaign-global-report.md)
+         + [目標報告](using/reports/objective-report.md)
+         + [登陸頁面全域報告](using/reports/lp-report-global.md)
+         + [訂閱清單全域報告](using/reports/subscription-report-global.md)
+      + 頻道報告 {#channel-report}
+         + [開始使用頻道報告](using/reports/channel-report-gs.md)
+         + [頻道報告](using/reports/channel-report.md)
    + 歷程報告 {#reports}
       + [建立歷程報告](using/reports/sharing-overview.md)
       + [步驟事件欄位清單](using/reports/sharing-field-list.md)
@@ -410,18 +440,8 @@ ht-degree: 96%
       + [開始使用傳遞能力](using/reports/deliverability.md)
       + [瞭解禁止名單](using/reports/suppression-list.md)
       + [新的 DMARC 需求](using/configuration/dmarc-record-update.md)
-   + [警報](using/reports/alerts.md)
-   + [使用 Customer Journey Analytics](using/reports/cja-ajo.md)
+   + [警示](using/reports/alerts.md)
    + [排除原因](using/reports/exclusion-list.md)
-+ 新報告介面 (LA){#channel-report}
-   + [開始使用新報告介面](using/reports/report-gs-cja.md)
-   + [報告和實驗必備條件](using/reports/reporting-configuration.md)
-   + [管理您的報告](using/reports/report-cja-manage.md)
-   + [歷程報告](using/reports/journey-global-report-cja.md)
-   + [行銷活動報告](using/reports/campaign-global-report-cja.md)
-   + [概述報表](using/reports/channel-report-cja.md)
-   + [登陸頁面報告](using/reports/lp-report-global-cja.md)
-   + [訂閱清單報告](using/reports/subscription-report-global-cja.md)
 + 決策{#decisioning}
    + 決定管理 {#offer-decisioning}
       + 開始使用決定管理 {#get-started-decision}
