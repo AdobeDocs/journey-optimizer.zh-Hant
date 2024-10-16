@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 1948bc304da8af9a83a2f0f81854a701d0d65e2b
 workflow-type: tm+mt
-source-wordcount: '5667'
+source-wordcount: '5672'
 ht-degree: 96%
 
 ---
@@ -24,9 +24,8 @@ ht-degree: 96%
 * 已改善&#x200B;**設定您的程式碼型體驗**&#x200B;頁面，讓程式更清楚，包括說明什麼是表面URI的章節。 [閱讀全文](../code-based/code-based-configuration.md)
 * **建立Web通道設定**&#x200B;頁面已更新，以釐清建立頁面符合規則的步驟，該規則也適用於程式碼型體驗設定。 [閱讀全文](../web/web-configuration.md#web-page-matching-rule)
 * 已新增有關系統產生資料集的近期存留時間(TTL)護欄的附註。 [閱讀全文](../data/get-started-datasets.md)
-
-
 * 已新增新區段，說明如何在瀏覽器或行動裝置上使用「在裝置上預覽」選項，在歷程或行銷活動中模擬內容時，預覽您的程式碼型個人化體驗。 [閱讀全文](../code-based/create-code-based.md#preview-on-device)
+* 已新增一個頁面，說明如何運用自訂上傳對象進行決策。 [閱讀全文](../offers/custom-upload-decisioning.md)
 
 ## 2024 年 9 月 {#sept-2024}
 
@@ -131,7 +130,6 @@ ht-degree: 96%
 * 更新 `toString` 函數中的&#x200B;**期間**&#x200B;參數。 [閱讀全文](../building-journeys/functions/functiontostring.md)
 * 對於某些外部資料來源使用案例，建議使用自訂操作。
 * 已更新事件欄位語法。 下列語法已過時 `@(my_event.myfield}`，並已由 `@event{my_event.myfield}` 取代。[閱讀全文](../building-journeys/expression/field-references.md)
-* 已重新整理「全域報告」和「即時報告」指南。 [閱讀全文](../reports/campaign-global-report.md)
 
 +++ 2023 版
 
@@ -179,7 +177,7 @@ ht-degree: 96%
 * 歷程中的&#x200B;**驗證快取管理**&#x200B;備註已更新，以詳細說明未在不同歷程之間共用權杖。 [閱讀全文](../datasource/external-data-sources.md#custom-authentication-mode)
 * 歷程&#x200B;**項目管理**&#x200B;相關頁面已更新，以釐清行為。 [閱讀全文](../building-journeys/entry-management.md)
 * Offer Decisioning **匯出資料集**&#x200B;現在預設為啟用。 已刪除有關先前行為的備註。  [閱讀全文](../offers/export-catalog/get-started-export.md)
-* 各種&#x200B;**行銷活動報告量度**&#x200B;已在即時和全域報告中重新命名。 [閱讀全文](../reports/campaign-global-report.md)
+* 各種&#x200B;**行銷活動報告量度**&#x200B;已在即時和全域報告中重新命名。 [閱讀全文](../reports/campaign-live-report.md)
 * 已新增有關 Web 通道內容實驗必要條件的新內容。 [閱讀全文](../web/web-prerequisites.md#experiment-prerequisites)
 * 已新增警告至&#x200B;**使用內容範本**&#x200B;頁面，指出測試電子郵件內容範本時不支援目前追蹤。 若要測試追蹤，您必須在電子郵件中使用內容範本並傳送校訂。 [閱讀全文](../content-management/content-templates.md#test-template)
 * 已新增數個警告至&#x200B;**建立及發佈登陸頁面**&#x200B;區段，指定您不能通過簡單地將建立頁面時定義的 URL 複製貼上到 Web 瀏覽器中來存取登陸頁面，即使該 URL 已發佈仍然如此。不過，您可以使用預覽功能來測試。 [閱讀全文](../landing-pages/create-lp.md)
@@ -297,9 +295,9 @@ ht-degree: 96%
 * 更新與 [toDateOnly](../building-journeys/functions/functiontodateonly.md) 和 [toString](../building-journeys/functions/functiontostring.md) 函式相關的頁面。
 * 已新增時間條件參數的詳細資訊。 [閱讀全文](../building-journeys/condition-activity.md#time_condition)
 * 已新增內建資料集的相關資訊。 [閱讀全文](../data/get-started-datasets.md#access-datasets)
-* 改善並重新組織「全域報告」和「即時報告」章節。 [閱讀全文](../reports/global-report.md)
+* 改善並重新組織「全域報告」和「即時報告」章節。 [閱讀全文](../reports/report-gs-cja.md)
 * 已新增 Adobe Journey Optimizer 中可用的每個報告量度的清單。
-  [閱讀全文](../reports/global-report.md#email-and-sms-metrics)
+  [閱讀全文](../reports/report-gs-cja.md#email-and-sms-metrics)
 * 「密件副本」電子郵件區段已移至新的「支援封存」頁面。 [閱讀全文](../configuration/archiving-support.md)
 
 ## 2022 年 8 月 {#august-2022}
@@ -444,7 +442,7 @@ ht-degree: 96%
 * 更新具有動態 URL 路徑和動態標題之自訂動作的設定程式。 [閱讀全文](../action/about-custom-action-configuration.md#url-configuration)
 * 新增協助工具功能和捷徑的相關區段。 [閱讀全文](../start/user-interface.md#accessibility)
 * 新增客群評估方法的相關章節。 [閱讀全文](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
-* 在「隱藏」清單、「允許」清單和「電子郵件全域/即時」報告區段中新增附註，以指定從「電子郵件報告傳送」指標中排除狀態為「隱藏」和「不允許」輪廓。 [閱讀全文](../reports/global-report.md)
+* 在「隱藏」清單、「允許」清單和「電子郵件全域/即時」報告區段中新增附註，以指定從「電子郵件報告傳送」指標中排除狀態為「隱藏」和「不允許」輪廓。 [閱讀全文](../reports/report-gs-cja.md)
 * 新增區段，針對未列在允許清單病從傳送中排除的電子郵件地址或網域，說明如何加以擷取。 [閱讀全文](../configuration/allow-list.md#reporting)
 * 更新「啟用允許清單」區段。 [進一步了解](../configuration/allow-list.md#enable-allow-list)
 * 更新「監視」訊息預設集區段，其中包含預設集建立失敗的可能原因，以及這類錯誤的詳細資訊。 [閱讀全文](../configuration/channel-surfaces.md#monitor-channel-surfaces)
