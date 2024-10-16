@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1268'
-ht-degree: 14%
+ht-degree: 19%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="內建頻道動作"
->abstract="Journey Optimizer隨附內建頻道動作功能。 您只需新增傳出(電子郵件、簡訊(SMS/MMS)、推播)或傳入（應用程式內、網路、程式碼型體驗、內容卡片）活動至您的歷程，並定義設定和內容即可。 然後會在歷程的內容中執行和傳送。"
+>abstract="Journey Optimizer 內建頻道動作功能。您只需在您的歷程中新增傳出 (電子郵件、簡訊 (SMS/MMS)、推播) 或傳入 (應用程式內、網頁版、基於程式碼的體驗、內容卡片) 活動，並定義設定和內容。然後會在歷程的內容中執行和傳送。"
 
-[!DNL Journey Optimizer]隨附內建頻道動作功能。 您只需新增傳出(電子郵件、簡訊(SMS/MMS)、推播)或傳入（應用程式內、網路、程式碼型體驗、內容卡片）活動至您的歷程，並定義設定和內容即可。 然後會在歷程的內容中執行和傳送。
+[!DNL Journey Optimizer]隨附內建頻道動作功能。 您只需在您的歷程中新增傳出 (電子郵件、簡訊 (SMS/MMS)、推播) 或傳入 (應用程式內、網頁版、基於程式碼的體驗、內容卡片) 活動，並定義設定和內容。然後會在歷程的內容中執行和傳送。
 
 >[!NOTE]
 >
@@ -190,7 +190,7 @@ Adobe Journey Optimizer的傳送時間最佳化功能採用Adobe的AI服務，�
 
 +++有哪些報表可用？
 
-存取您的歷程，按一下右上方的&#x200B;**檢視報告**&#x200B;按鈕，然後選取左側的&#x200B;**歷程**&#x200B;索引標籤。 [閱讀全文](../reports/journey-global-report.md)
+存取您的歷程，按一下右上方的&#x200B;**檢視報告**&#x200B;按鈕，然後選取左側的&#x200B;**歷程**&#x200B;索引標籤。 [閱讀全文](../reports/journey-global-report-cja.md)
 
 +++
 

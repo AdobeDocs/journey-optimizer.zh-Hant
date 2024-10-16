@@ -23,7 +23,7 @@ ht-degree: 21%
 
 在Journey Optimizer中，管理行銷活動和歷程的數量和時機是避免客戶因太多互動而感到不知所措的關鍵。 以下兩節介紹有助於您有效維持平衡並排定通訊優先順序的重要工具
 
-## 識別歷程與行銷活動中的潛在衝突 {#conflict}
+## 識別歷程和促銷活動中的潛在衝突 {#conflict}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"

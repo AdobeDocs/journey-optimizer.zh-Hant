@@ -215,8 +215,8 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
->title="規則上限"
->abstract="規則上限"
+>title="規則頻率上限"
+>abstract="規則頻率上限"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
