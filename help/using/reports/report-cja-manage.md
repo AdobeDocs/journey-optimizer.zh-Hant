@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="限量開放使用" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: a04f60d946845725e09855b4aa19bc6ef4b4db99
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '1089'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 >[!TAB 將報表匯出為CSV檔案]
 
-1. 從您的報表按一下[匯出]****，然後選取[CSV檔案]****&#x200B;來產生整體報表層級的CSV檔案。
+1. 從您的報表中，按一下「共用&#x200B;**[!UICONTROL 」]**&#x200B;並選取「下載CSV」****&#x200B;來產生整體報表層級的CSV檔案。
 
    ![](assets/export_cja_csv.png)
 
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 >[!TAB 將報表匯出為PDF檔案]
 
-1. 在報表中按一下[匯出]，然後選取[PDF檔案]。********
+1. 從您的報表中，按一下[共用]****&#x200B;並選取[下載PDF]]**。**[!UICONTROL 
 
    ![](assets/export_cja_pdf.png)
 
@@ -71,6 +71,52 @@ ht-degree: 1%
 您的報告現在可以檢視、下載或共用pdf檔案。
 
 >[!ENDTABS]
+
+
+## 排程匯出 {#schedule-export}
+
+**排程匯出**&#x200B;可讓您每週、每月或每年自動傳送最多10個報告。 您也可以透過更新、編輯、取消或刪除任何排程匯出的選項，輕鬆管理排程報告。
+
+1. 在報表中，按一下[共用]，然後選取[排程匯出]。********。
+
+   ![](assets/export-schedule-1.png)
+
+1. 在CSV和PDF之間選擇您的&#x200B;**[!UICONTROL 檔案型別]**。
+
+1. 如有需要，您可以將&#x200B;**[!UICONTROL 描述]**&#x200B;新增至您的匯出。
+
+1. 輸入將接收此自動傳遞的收件者名稱。
+
+   ![](assets/export-schedule-2.png)
+
+1. 選擇&#x200B;**[!UICONTROL 頻率]**。
+
+1. 根據選取的頻率，提供相關的排程詳細資料，例如：
+
+   * 開始和結束日期
+
+   * 間隔（例如每幾週）
+
+   * 一週中的特定日期
+
+   * 該月內的周
+
+   * 一個月中的日
+
+   * 月份
+
+1. 按一下&#x200B;**[!UICONTROL 依排程傳送]**。
+
+1. 若要編輯先前建立的排程匯出，請按一下[共用] ]**，然後選取[管理排程]****。**[!UICONTROL 
+
+   ![](assets/export-schedule-3.png)
+
+1. 從排程匯出清單中，選擇要更新的匯出專案，並進行必要的變更。
+
+1. 若要刪除排程報告，請從Managed排程清單中選取一個排程報告，然後按一下&#x200B;**[!UICONTROL 刪除]**。
+
+   ![](assets/export-schedule-4.png)
+
 
 ## 建立簡單量度 {#create-simple-metric}
 
