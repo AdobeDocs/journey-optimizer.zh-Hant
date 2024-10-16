@@ -10,10 +10,10 @@ level: Experienced
 keywords: 設定，電子郵件，設定，子網域
 badge: label="限量開放使用"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 14%
+source-wordcount: '792'
+ht-degree: 10%
 
 ---
 
@@ -36,12 +36,6 @@ ht-degree: 14%
 >id="ajo_surface_dynamic_subdomain"
 >title="啟用動態子網域"
 >abstract="建立電子郵件設定時，您可以根據使用個人化編輯器定義的條件來設定動態子網域。您最多可以新增 50 個動態子網域。"
-
->[!CONTEXTUALHELP]
->id="ajo_surface_dynamic_subdomain_list"
->title="某些子網域可能不可用"
->abstract="由於待處理意見回饋循環註冊，某些子網域目前無法選取。此程序可能需要長達 10 個工作天。完成後，您可以從所有可用子網域進行選擇。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="開始使用子網域委派"
 
 建立電子郵件設定時，您可以根據特定條件設定動態子網域。
 

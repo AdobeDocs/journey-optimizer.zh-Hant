@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 允許清單，清單，安全，設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 6c35809af2aaf4803eef7a8e5b3d8b0f351c8ba0
+source-git-commit: a7347c57bb82de5181df87e8ab816de392ef97a3
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1145'
 ht-degree: 16%
 
 ---
@@ -201,7 +201,7 @@ ht-degree: 16%
 >
 >訊息傳送程式會排除狀態為&#x200B;**[!UICONTROL 不允許]**&#x200B;的設定檔。 因此，雖然&#x200B;**歷程報告**&#x200B;會顯示這些設定檔已移動歷程（[讀取對象](../building-journeys/read-audience.md)和[訊息活動](../building-journeys/journeys-message.md)），但&#x200B;**電子郵件報告**&#x200B;不會將它們納入&#x200B;**[!UICONTROL 已傳送]**&#x200B;量度中，因為這些設定檔在電子郵件傳送前已篩選掉。
 >
->深入瞭解[即時報告](../reports/live-report.md)和[全域報告](../reports/global-report.md)。
+>深入瞭解[即時報告](../reports/live-report.md)和[Customer Journey Analytics報告](../reports/report-gs-cja.md)。
 
 當允許清單為[已停用](#deactivate-allow-list)時，您從目前沙箱傳送的所有電子郵件都會傳送給所有收件者（前提是這些電子郵件不在隱藏清單中），包括真實的客戶地址。
 
