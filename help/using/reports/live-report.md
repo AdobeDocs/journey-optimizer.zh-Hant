@@ -8,33 +8,25 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 903378c3bc28c4b4c5773238e422d0a3a448246a
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
 
 # 開始使用即時報告 {#live-report}
 
->[!AVAILABILITY]
->
->目前的報告體驗將於10月發行後淘汰。 在此日期之後，新的報告體驗將成為標準。 建議您熟悉新功能，以確保順利轉換。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
-
 使用&#x200B;**[!UICONTROL 即時報告]**，在內建儀表板中即時測量並視覺化歷程和訊息的影響和效能。
 當傳送您的傳遞或從**[!UICONTROL 過去24小時]**&#x200B;索引標籤執行您的歷程時，**[!UICONTROL 即時報告]**&#x200B;中就會提供資料。
 
-* 如果您想要在歷程內容中鎖定歷程，請從&#x200B;**[!UICONTROL 歷程]**&#x200B;功能表存取您的歷程，然後按一下&#x200B;**[!UICONTROL 檢視報告]**&#x200B;按鈕。
+* 如果您想要在歷程內容中鎖定歷程，請從&#x200B;**[!UICONTROL 歷程]**&#x200B;功能表，存取歷程的&#x200B;**[!UICONTROL 更多動作]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 檢視過去24小時報告]**&#x200B;按鈕。
 
   ![](assets/report_journey.png)
 
-* 如果您想要鎖定行銷活動，請從&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表存取行銷活動，然後按一下&#x200B;**[!UICONTROL 報表]**&#x200B;按鈕。
+* 如果您想要鎖定行銷活動，請從&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表，存取您的行銷活動，然後按一下&#x200B;**[!UICONTROL 報表]**&#x200B;按鈕，然後&#x200B;**[!UICONTROL 檢視過去24小時的報表]**。
 
   ![](assets/report_campaign.png)
-
-* 若要針對您的傳遞從&#x200B;**[!UICONTROL 全域報告]**&#x200B;切換為&#x200B;**[!UICONTROL 即時報告]**，請從索引標籤切換器按一下&#x200B;**[!UICONTROL 過去24小時]**。
-
-  ![](assets/report_3.png)
 
 如需Adobe Journey Optimizer中每個可用量度的詳細清單，請參閱[此頁面](#list-of-components-live)。
 
@@ -96,7 +88,7 @@ ht-degree: 1%
 
    ![](assets/export_4.png)
 
-1. 您也可以選擇從特定Widget匯出資料。 按一下所選Widget旁的&#x200B;**[!UICONTROL 將Widget資料匯出至CSV]**。
+1. 您也可以選擇從特定Widget匯出資料。 按一下所選Widget旁的&#x200B;**[!UICONTROL 下載CSV檔案]**。
 
    ![](assets/export_5.png)
 
