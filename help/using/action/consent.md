@@ -9,34 +9,34 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 原則、治理、平台、Healthcare Shield、同意
 source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1242'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # 使用同意原則 {#consent-management}
 
-您的資料可能受貴組織或法律法規所定義的使用限制所約束。 因此，請務必確保您在 Journey Optimizer 的資料操作符合[資料使用原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant){target="_blank"}。這些政策是Adobe Experience Platform規則，定義您可以對資料執行哪些行銷動作。
+您的資料可能受貴組織或法律法規所定義的使用限制所約束。 因此，請務必確保您在 Journey Optimizer 的資料操作符合[資料使用原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant){target="_blank"}。這些原則是 Adobe Experience Platform 規則，定義您可以對資料執行哪些行銷動作。
 
-根據預設，如果設定檔選擇不接收來自您的通訊，則後續傳送時將排除對應的設定檔。 您可以建立覆寫此預設邏輯的&#x200B;**同意原則**。 例如，您可以在Experience Platform中建立同意原則，以排除尚未同意接收特定頻道通訊的客戶。 如果沒有自訂原則，則套用預設原則。
+預設情況下，如果輪廓選擇不接收您的通訊，則相應的輪廓將被排除在後續傳送之外。您可以建立覆寫此預設邏輯的&#x200B;**同意原則**。 例如，您可在 Experience Platform 建立同意原則，以排除尚未同意接收通訊的客戶。如果沒有自訂原則，則套用預設原則。
 
 >[!IMPORTANT]
 >
 >同意原則目前僅適用已購買 Adobe **Healthcare Shield** 與&#x200B;**隱私權與安全性防護**&#x200B;附加產品的組織。
 
-套用同意政策的主要步驟如下：
+套用同意原則的主要步驟如下：
 
-1. 在Adobe Experience Platform中建立同意原則以及相關行銷動作。 [瞭解如何建立同意原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#consent-policy){target="_blank"}
+1. 在 Adobe Experience Platform 中，建立同意原則與相關聯的行銷動作。[了解如何建立同意原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#consent-policy){target="_blank"}
 
-2. 使用管道設定或歷程自訂動作，在Adobe Journey Optimizer中套用同意政策。
+2. 使用管道設定或歷程自訂動作，在 Adobe Journey Optimizer 中套用同意原則。
 
-   * 使用相關聯的行銷動作建立管道設定。 使用管道設定建立通訊時，它會繼承已關聯的行銷動作，並套用Adobe Experience Platform中定義的對應同意政策。 [瞭解如何透過管道設定運用同意原則](#surface-marketing-actions)
+   * 建立管道設定與相關聯的行銷動作。使用管道設定建立通訊時，它會繼承已建立關聯的行銷動作，並套用 Adobe Experience Platform 中定義的對應同意原則。[了解如何透過管道設定運用同意原則](#surface-marketing-actions)
 
    * 在歷程層級，您可以：
 
-      * 在設定頻道與行銷動作時，將其與自訂動作建立關聯。 [瞭解如何在設定自訂動作時運用同意原則](#consent-custom-action)
-      * 在歷程中新增自訂動作時，定義其他行銷動作。 [瞭解如何在歷程中新增自訂動作時運用同意原則](#consent-journey)
+      * 在設定自訂動作時，將管道與行銷動作與自訂動作建立關聯。[了解如何在設定自訂動作時運用同意原則](#consent-custom-action)
+      * 在歷程中新增自訂動作時，定義其他行銷動作。[了解如何在歷程中新增自訂動作時運用同意原則](#consent-journey)
 
 ## 透過管道設定運用同意原則 {#surface-marketing-actions}
 
@@ -104,11 +104,11 @@ There are two types of latency regarding the use of consent policies:
 * **Consent policy latency**: the delay from the time a consent policy is created or updated to the moment it is applied. This can take up to 6 hours
 -->
 
-### 設定自訂動作時善用同意原則{#consent-custom-action}
+### 設定自訂動作時運用同意原則{#consent-custom-action}
 
 在設定自訂動作時，可利用兩個欄位進行同意管理。
 
-**管道**&#x200B;欄位可讓您選取與此自訂動作相關的管道。 它會以所選頻道的預設行銷動作，預先填入&#x200B;**必要的行銷動作**&#x200B;欄位。 如果您選取&#x200B;**其他**，預設情況下不會定義任何行銷動作。 
+**管道**&#x200B;欄位可讓您選取與此自訂動作相關的管道。它會以所選頻道的預設行銷動作，預先填入&#x200B;**必要的行銷動作**&#x200B;欄位。 如果您選取&#x200B;**其他**，預設情況下不會定義任何行銷動作。 
 
 ![](assets/consent1.png)
 
@@ -120,7 +120,7 @@ There are two types of latency regarding the use of consent policies:
 
 [本節](../action/about-custom-action-configuration.md#consent-management)詳細介紹了設定自訂動作的其他步驟。
 
-### 在歷程中新增自訂動作時，善用同意原則 {#consent-journey}
+### 在歷程中新增自訂動作時運用同意原則 {#consent-journey}
 
 當新增自訂動作至歷程時，您可利用數個選項管理同意。按一下&#x200B;**顯示唯讀欄位**&#x200B;以顯示所有參數。
 

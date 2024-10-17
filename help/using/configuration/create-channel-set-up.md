@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 建立管道設定
-description: 瞭解如何建立管道設定
+description: 了解如何建立管道設定
 feature: Surface, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-keywords: 管道，表面，技術，引數，最佳化工具
+keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
 source-git-commit: 24a178839e29dccffde683a958ccc74da4180a73
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
@@ -54,49 +54,49 @@ ht-degree: 47%
 >abstract="團隊 ID 是用來識別您的團隊的字串值，位於您開發人員帳戶中的「**會籍**」索引標籤下方。"
 
 
-此設定可簡化行銷管道的快速設定，讓所有基本資源都能隨時在Experience Platform、Journey Optimizer和資料收集應用程式中使用。 這可讓您的行銷團隊快速開始建立行銷活動和歷程。
+此設定簡化快速設定行銷頻道，隨時都能在 Experience Platform、Journey Optimizer 及資料彙集應用程式取得所有必要資源。這可讓行銷團隊快速開始建立行銷活動與歷程。
 
-1. 從Journey Optimizer首頁，從&#x200B;**[!UICONTROL 設定行動與網路頻道]**&#x200B;卡片按一下&#x200B;**[!UICONTROL 開始]**。
+1. 從 Journey Optimizer 首頁的&#x200B;**[!UICONTROL 設定行動和網路管道]**&#x200B;卡片中，按一下&#x200B;**[!UICONTROL 開始]**。
 
    ![](assets/guided-setup-config-1.png)
 
-1. 建立&#x200B;**[!UICONTROL 新]**&#x200B;設定。
+1. 建立&#x200B;**[!UICONTROL 新的]**&#x200B;設定。
 
-   如果您已有現有的組態，您可以選擇選取一個組態，或建立新的組態。
+   如果您已有現有的設定，您可以選擇選取一個設定，或建立新的設定。
 
    ![](assets/guided-setup-config-2.png)
 
-1. 輸入新組態的&#x200B;**[!UICONTROL 名稱]**，然後選取或建立您的&#x200B;**[!UICONTROL 資料流]**。 此&#x200B;**[!UICONTROL 名稱]**&#x200B;將用於每個自動建立的資源。
+1. 輸入新設定的&#x200B;**[!UICONTROL 名稱]**，然後選取或建立&#x200B;**[!UICONTROL 資料流]**。此&#x200B;**[!UICONTROL 名稱]**&#x200B;將用於每個自動建立的資源。
 
-1. 如果您的組織有多個資料流，請從現有選項中選取一個資料流。 如果您沒有資料流，系統會自動為您建立一個資料流。
+1. 如果您的組織有多個資料流，請從現有選項中選取一個資料流。如果您沒有資料流，系統會自動為您建立一個資料流。
 
-1. 選取您的平台並按一下&#x200B;**[!UICONTROL 自動建立資源]**。
+1. 選取您的平台，然後按一下&#x200B;**[!UICONTROL 自動建立資源]**。
 
-1. 為了簡化設定程式，系統會自動建立必要資源來協助您開始使用。 這包括建立新的&#x200B;**[!UICONTROL 行動標籤屬性]**&#x200B;以及安裝擴充功能。
+1. 為了簡化設定程式，系統會自動建立必要資源來協助您開始使用。這包括建立新的&#x200B;**[!UICONTROL 行動標記屬性]**&#x200B;以及安裝擴充功能。
 
-[進一步瞭解自動產生的資源](set-mobile-config.md#auto-create-resources)
+[了解更多有關自動產生的資源](set-mobile-config.md#auto-create-resources)
 
-1. 資源產生完成後，請依照使用者介面中的指示，設定及驗證您的SDK和管道。
+1. 完成資源產生後，請依照使用者介面中的指示，設定和驗證 SDK 與管道。
 
-1. 完成設定後，請將自動產生的&#x200B;**[!UICONTROL 頻道設定]**&#x200B;與負責建立歷程與行銷活動的團隊成員共用。
+1. 完成設定後，請將自動產生的&#x200B;**[!UICONTROL 管道設定]**&#x200B;與負責建立歷程與行銷活動的團隊成員共用。
 
    ![](assets/guided-setup-config-ios-8.png){zoomable="yes"}
 
-1. 您現在可以在「行銷活動」或「歷程」介面中參考&#x200B;**[!UICONTROL 管道設定]**，以在您的設定與針對對象執行目標歷程和行銷活動之間實現順暢連線。
+1. 您現在可於「行銷活動」或「歷程」介面中參考&#x200B;**[!UICONTROL 管道設定]**，以讓您的設定與為對象執行的目標歷程和行銷活動之間順暢連線。
 
 ## 修改行動裝置現有設定 {#reconnect}
 
-建立設定後，您可以隨時輕鬆重新造訪以新增其他管道或進一步調整以符合您的需求
+建立設定後，您可以隨時輕鬆重新造訪，以新增其他管道或進一步調整以符合您的需求
 
-1. 從Journey Optimizer首頁，從&#x200B;**[!UICONTROL 設定行動與網路頻道]**&#x200B;卡片按一下&#x200B;**[!UICONTROL 開始]**。
+1. 從 Journey Optimizer 首頁的&#x200B;**[!UICONTROL 設定行動和網路管道]**&#x200B;卡片中，按一下&#x200B;**[!UICONTROL 開始]**。
 
    ![](assets/guided-setup-config-1.png)
 
-1. 選取&#x200B;**[!UICONTROL Existing]**，然後從下拉式清單中選擇您現有的&#x200B;**[!UICONTROL 標籤屬性]**。
+1. 選取&#x200B;**[!UICONTROL 現有]**，然後從下拉式清單中選擇現有的&#x200B;**[!UICONTROL 標記屬性]**。
 
    ![](assets/guided-setup-config-ios-9.png)
 
-1. 存取現有設定時，您需要重新連線至Adobe保證。 從SDK設定功能表，按一下&#x200B;**[!UICONTROL 重新連線]**。
+1. 存取現有設定時，您需要與 Adobe Assurance 重新連線。在「SDK 設定」功能表，按一下&#x200B;**[!UICONTROL 重新連線]**。
 
    ![](assets/guided-setup-config-ios-10.png)
 

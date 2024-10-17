@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: b29179518dec9a4c034e6dd21972aa2145839739
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 91%
 
 >[!BEGINTABS]
 
->[!TAB 2024年9月發行版本]
+>[!TAB 2024 年 9 月發行版本]
 
-9月版本現已上線，包括行動應用程式和網站的內容卡、歷程和行銷活動中的核准原則(LA)、歷程中的全域退出條件等。
+9 月發行版本現已上線，包括行動應用程式與網站的內容卡、歷程與行銷活動中的核准原則(LA)、歷程中的全域退出條件等。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -32,7 +32,7 @@ ht-degree: 91%
 
 [![了解更多](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB 使用CJA報告]
+>[!TAB 使用 CJA 進行報告]
 
 Journey Optimizer 報告功能改進與 Customer Journey Analytics 功能的互通性，可將兩個平台間的報告標準化，並改善資料一致性與可靠性。
 

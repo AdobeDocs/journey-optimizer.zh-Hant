@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1505'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 98%
 
 * **[!UICONTROL 設定]** - 使用此選單來設定[事件](../event/about-events.md)、[資料來源](../datasource/about-data-sources.md)和[動作](../action/action.md) ，以用於您的歷程。
 
-  您也可以存取&#x200B;**報表**&#x200B;區段，以設定行銷活動實驗和Web/行動裝置報表。 [了解更多](../reports/reporting-configuration.md)
+  您也可以存取&#x200B;**報告**&#x200B;區段來設定行銷活動實驗的報告。[了解更多](../reports/reporting-configuration.md)
 
 * **[!UICONTROL 業務規則]** - 使用此部分來建立跨通路業務規則，以控制使用者接收訊息或進入歷程的頻率。 [了解更多](../configuration/frequency-rules.md)
 
@@ -215,8 +215,8 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
->title="規則頻率上限"
->abstract="規則頻率上限"
+>title="規則上限"
+>abstract="規則上限"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
