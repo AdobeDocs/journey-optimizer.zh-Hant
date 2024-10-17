@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面，建立，發佈
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: ab4219c7045f9c4ba77fceb2cbb46fbbe6f536ac
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1715'
 ht-degree: 21%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 21%
 
 ![](assets/lp_access-list-filter.png)
 
-您可以從此清單存取已發佈專案的[登陸頁面即時報告](../reports/lp-report-live.md)或[登陸頁面全域報告](../reports/lp-report-global.md)。
+從這個清單中，您可以存取已發佈專案的[登陸頁面即時報告](../reports/lp-report-live.md)或[登陸頁面報告](../reports/lp-report-global-cja.md)。
 
 您也可以刪除、複製和取消發佈登入頁面。
 

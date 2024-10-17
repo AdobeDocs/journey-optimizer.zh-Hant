@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->開始使用此功能之前，請先閱讀相關的[護欄和限制](gs-generative.md#generative-guardrails)。
+>開始使用此功能之前，請先閱讀相關的[護欄與限制](gs-generative.md#generative-guardrails)。
 ></br>
 >
 >您必須先同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI助理進行Content Acceleration。 如需詳細資訊，請聯絡您的 Adobe 代表。
@@ -52,4 +52,4 @@ ht-degree: 4%
 
 1. 在啟動行銷活動之前，請仔細檢查所有設定是否正確，然後按一下[啟用]。****
 
-在成功設定行銷活動並個人化行銷活動後，您可以在行銷活動報告中追蹤您的行銷活動。 [了解更多](../reports/campaign-global-report.md)
+在成功設定行銷活動並個人化行銷活動後，您可以在行銷活動報告中追蹤您的行銷活動。 [了解更多](../reports/campaign-global-report-cja.md)

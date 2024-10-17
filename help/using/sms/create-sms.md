@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 9%
@@ -159,12 +159,12 @@ ht-degree: 9%
 
 執行測試並驗證內容後，您就可以傳送簡訊給對象。 這些步驟在[此頁面](send-sms.md)中有詳細說明
 
-傳送後，您可以在行銷活動或歷程報告中測量簡訊的影響。 如需報告的詳細資訊，請參閱[本區段](../reports/campaign-global-report.md#sms-tab)。
+傳送後，您可以在行銷活動或歷程報告中測量簡訊的影響。 如需報告的詳細資訊，請參閱[本區段](../reports/campaign-global-report-cja-sms.md)。
 
 **相關主題**
 
 * [預覽、測試並傳送您的文字訊息](send-sms.md)
 * [設定簡訊頻道](sms-configuration.md)
-* [簡訊/多媒體簡訊報告](../reports/journey-global-report.md#sms-global)
+* [簡訊/多媒體簡訊報告](../reports/journey-global-report-cja-sms.md)
 * [在歷程中新增訊息](../building-journeys/journeys-message.md)
 * [在行銷活動中新增訊息](../campaigns/create-campaign.md)

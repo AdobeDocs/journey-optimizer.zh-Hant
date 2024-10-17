@@ -8,9 +8,9 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '731'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 1%
 1. 個人化推播裝載會轉送至內部推播訊息傳遞服務
 1. 此內部服務接著會驗證與訊息相關聯之應用程式的認證，並且
 1. 傳送訊息至Apple與Google訊息服務，以進行最終傳送
-1. 會記錄訊息服務的意見回饋，並記錄錯誤和成功，以便在Journey Live和全域報告中報告
+1. 會記錄來自訊息服務的意見回饋，並記錄錯誤和成功，以便在Journey Live和Customer Journey Analytics報告中報告
 1. 推播通知會傳送至一般使用者裝置
 1. 一般使用者推播通知互動會透過SDK整合，從一般使用者使用者端以體驗事件的形式傳送
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 **相關主題**
 
 * [設定推播頻道](push-configuration.md)
-* [推播通知報告](../reports/journey-global-report.md#push-global)
+* [推播通知報告](../reports/journey-global-report-cja-push.md)
 * [建立推播通知](create-push.md)
 * [在歷程中新增訊息](../building-journeys/journeys-message.md)
 * [在行銷活動中新增訊息](../campaigns/create-campaign.md)

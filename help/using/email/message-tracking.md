@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1055'
 ht-degree: 35%
 
 ---
@@ -160,7 +160,7 @@ ht-degree: 35%
    * **[!UICONTROL 鏡像頁面]**：將此 URL 視為鏡像頁面 URL。
    * **[!UICONTROL Never]**：從未啟用此URL的追蹤。
 
-在[即時報告](../reports/live-report.md)和[全域報告](../reports/global-report.md)中都有開啟次數和點按次數報告。
+在[即時報告](../reports/live-report.md)和[Customer Journey Analytics報告](../reports/report-gs-cja.md)中都有開啟次數和點按次數報告。
 
 ## 個人化URL追蹤 {#url-tracking}
 

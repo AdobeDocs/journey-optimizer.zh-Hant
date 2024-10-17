@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP、群組、子網域、傳遞能力
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '2530'
+source-wordcount: '2532'
 ht-degree: 11%
 
 ---
@@ -290,7 +290,7 @@ IP熱身計畫本身可在單一位置作為整合報表。 您可以檢查每�
 
 ### 使用報表 {#reports}
 
-一般來說，若要測量計畫的影響，您可以使用[!DNL Journey Optimizer]行銷活動報告來檢查IP熱身行銷活動的效能。 若要這麼做，您可以針對每個已完成的執行，按一下&#x200B;**[!UICONTROL 檢視報表]**&#x200B;按鈕。 進一步瞭解行銷活動電子郵件[即時報告](../reports/campaign-live-report.md#email-live)和[全域報告](../reports/campaign-global-report.md#email-global)。
+一般來說，若要測量計畫的影響，您可以使用[!DNL Journey Optimizer]行銷活動報告來檢查IP熱身行銷活動的效能。 若要這麼做，您可以針對每個已完成的執行，按一下&#x200B;**[!UICONTROL 檢視報表]**&#x200B;按鈕。 進一步瞭解行銷活動電子郵件[即時報告](../reports/campaign-live-report.md#email-live)和[Customer Journey Analytics報告](../reports/campaign-global-report-cja-email.md)。
 
 ![](assets/ip-warmup-plan-reports.png)
 

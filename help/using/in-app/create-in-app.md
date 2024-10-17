@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '2009'
 ht-degree: 12%
@@ -256,5 +256,5 @@ ht-degree: 12%
 
 * [設計應用程式內訊息](design-in-app.md)
 * [測試並傳送您的應用程式內訊息](send-in-app.md)
-* [應用程式內報告](../reports/campaign-global-report.md#inapp-report)
+* [應用程式內報告](../reports/campaign-global-report-cja-inapp.md)
 * [應用程式內設定](inapp-configuration.md)

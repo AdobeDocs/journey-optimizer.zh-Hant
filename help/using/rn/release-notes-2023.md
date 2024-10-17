@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '4384'
+source-wordcount: '4377'
 ht-degree: 98%
 
 ---
@@ -136,7 +136,7 @@ ht-degree: 98%
 <p>頻道報告功能為分析師和行銷人員提供頻道層級流量和參與量度的全面概觀。 </p>
 <p>若要存取<b>報告</b>功能表，您必須擁有<b>檢視頻道報告</b>權限。</p>
 <img src="assets/channel-reports.png"/>
-<p>如需詳細資訊，請參閱<a href="../reports/channel-report.md">詳細文件</a>及<a href="../reports/channel-report.md#channel-report-video">作法影片</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../reports/channel-report-cja.md">詳細文件</a>。</p>
 </tr>
 </tbody>
 </table>
@@ -223,7 +223,7 @@ ht-degree: 98%
 
 **報告**
 
-* 您現在可以將 Journey Optimizer 報告匯出為 CSV 檔案。請在[詳細文件](../reports/global-report.md#export-reports)和[作法影片](../reports/global-report.md#video-csv)中了解更多相關資訊。
+* 您現在可以將 Journey Optimizer 報告匯出為 CSV 檔案。在[詳細文件](../reports/report-gs-cja.md)中了解更多相關資訊。
 
 **資產**
 
@@ -531,7 +531,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>You can now measure the performance of your campaigns across inbound and outbound through dedicated reports. Adobe Journey Optimizer reports can retrieve additional metrics to use in the Objectives tab of your campaign reports.</p>
 <img src="assets/do-not-localize/performance_report.gif"/>
-<p>For more information, refer to the <a href="../reports/campaign-global-report.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../reports/campaign-global-report-cja.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -722,7 +722,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **報告**
 
-* 您現在可以將 Journey Optimizer 報告匯出為 PDF。[了解更多](../reports/global-report.md#export-reports)
+* 您現在可以將 Journey Optimizer 報告匯出為 PDF。[了解更多](../reports/report-gs-cja.md)
 
 **內容設計工具**
 
@@ -824,7 +824,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * 報告介面控件功能已得到改善，可自訂使用者檢視其資料的方式。透過這項改善，使用者現在可以在多個視覺效果選項之間進行選擇，包括圖表、表格和環圈圖。 
 
-  若要存取最新的介面工具集，請注意您必須重設不同的報告儀表板。 如需儀表板客製化的詳細資訊，請參閱[詳細文件](../reports/global-report.md#modify-dashboard)。
+  若要存取最新的介面工具集，請注意您必須重設不同的報告儀表板。 如需儀表板客製化的詳細資訊，請參閱[詳細文件](../reports/report-gs-cja.md)。
 
 ## 2023年2月發行 {#feb-2023}
 

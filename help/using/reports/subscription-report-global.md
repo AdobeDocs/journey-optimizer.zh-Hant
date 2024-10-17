@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 16%
 
 >[!AVAILABILITY]
 >
->目前的報告體驗將於10月發行後淘汰。 在此日期之後，新的報告體驗將成為標準。 建議您熟悉新功能，以確保順利轉換。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
+>目前的報告體驗將於2025年1月淘汰。 在此日期之後，新的報告體驗將成為標準體驗。建議您熟悉新功能，以確保順利轉換。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
 
 全域報告可從「所有時間」標籤存取，它會顯示至少兩小時前發生的事件，以及所選時段內的封面事件。 相較之下，即時報表著重於過去24小時內發生的事件，最短間隔為事件發生後的2分鐘。
 

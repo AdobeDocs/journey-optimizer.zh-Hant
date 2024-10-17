@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 行銷活動，檢閱，驗證，啟用，啟用，最佳化工具
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 6%
@@ -48,6 +48,6 @@ ht-degree: 6%
 
 1. 行銷活動啟動後，您可以隨時透過開啟行銷活動來檢查其資訊。 摘要可讓您取得目標設定檔與傳送和失敗動作數的統計資料。
 
-   您也可以按一下&#x200B;**[!UICONTROL 報表]**&#x200B;按鈕，在專用報表中取得其他統計資料。 [了解更多](../reports/campaign-global-report.md)
+   您也可以按一下&#x200B;**[!UICONTROL 報表]**&#x200B;按鈕，在專用報表中取得其他統計資料。 [了解更多](../reports/campaign-global-report-cja.md)
 
    ![](assets/create-campaign-summary.png)

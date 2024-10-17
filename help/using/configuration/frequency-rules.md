@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1264'
 ht-degree: 14%
 
 ---
@@ -176,7 +176,7 @@ ht-degree: 14%
    >
    >選取的類別為&#x200B;**[!UICONTROL 異動]**&#x200B;的訊息將不會根據頻率規則進行評估。
 
-1. 您可以在[全域報告](../reports/global-report.md)和[即時報告](../reports/live-report.md)中檢視從傳送中排除的設定檔數目，其中商業規則會列為使用者從傳送中排除的可能原因。
+1. 您可以在[Customer Journey Analytics報告](../reports/report-gs-cja.md)和[即時報告](../reports/live-report.md)中檢視從傳送中排除的設定檔數目，其中商業規則會列為使用者從傳送中排除的可能原因。
 
 >[!NOTE]
 >

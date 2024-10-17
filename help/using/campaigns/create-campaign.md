@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 27%
@@ -129,7 +129,7 @@ ht-degree: 27%
 
 1. 在&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段中，指定是否要追蹤收件者對傳遞的反應：您可以追蹤點按和/或開啟。
 
-   一旦執行行銷活動，即可從行銷活動報表存取追蹤結果。 [進一步瞭解行銷活動報告](../reports/campaign-global-report.md)
+   一旦執行行銷活動，即可從行銷活動報表存取追蹤結果。 [進一步瞭解行銷活動報告](../reports/campaign-global-report-cja.md)
 
 ## 排程行銷活動 {#schedule}
 

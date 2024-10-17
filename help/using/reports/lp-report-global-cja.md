@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 登陸頁面全域報告
+title: 登陸頁面報告
 description: 瞭解如何使用登入頁面報表中的資料
 feature: Reporting, Landing Pages
 topic: Content Management
@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="限量開放使用" type="Informative"
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '791'
 ht-degree: 2%
 
 ---

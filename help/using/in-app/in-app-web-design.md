@@ -8,7 +8,7 @@ level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 hide: true
 hidefromtoc: true
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 7%
@@ -183,5 +183,5 @@ UI接管選項預設為啟用，可讓您讓應用程式內訊息背後的背景
 **相關主題：**
 
 * [測試並傳送您的應用程式內訊息](send-in-app.md)
-* [應用程式內報告](../reports/campaign-global-report.md#inapp-report)
+* [應用程式內報告](../reports/campaign-global-report-cja-inapp.md)
 * [應用程式內設定](inapp-configuration.md)

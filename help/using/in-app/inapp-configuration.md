@@ -6,7 +6,7 @@ feature: In App
 level: Intermediate
 keywords: 應用程式內、訊息、設定、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 9%
@@ -134,5 +134,5 @@ ht-degree: 9%
 * [建立應用程式內訊息](create-in-app.md)
 * [建立行銷活動](../campaigns/create-campaign.md)
 * [設計應用程式內訊息](design-in-app.md)
-* [應用程式內報告](../reports/campaign-global-report.md#inapp-report)
+* [應用程式內報告](../reports/campaign-global-report-cja-inapp.md)
 

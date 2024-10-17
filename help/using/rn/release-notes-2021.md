@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>您現在可以模擬將哪些優惠傳遞至測試設定檔中 Journey Optimizer UI 的指定位置。 這可讓您在投入生產之前，輕鬆驗證決定邏輯，包括資格限制和排名演算法。 此功能可讓非技術和技術使用者快速測試決策管理並針對潛在問題進行疑難排解。</p>
+<p>您現在可以模擬將哪些優惠傳遞至測試輪廓中 Journey Optimizer UI 的指定位置。 這可讓您在投入生產之前，輕鬆驗證決定邏輯，包括資格限制和排名演算法。 此功能可讓非技術和技術使用者快速測試決策管理並針對潛在問題進行疑難排解。</p>
 <p>如需詳細資訊，請參閱<a href="../offers/offer-activities/simulation.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 * **運算式編輯器** - 身為超級使用者，您現在可以使用函式來處理地圖。 此功能可與訂閱清單搭配運用。 例如，您現在可以從客群的訂閱清單取得電子郵件地址。[在本範例進一步了解](../building-journeys/message-to-subscribers-uc.md)
 
-* **監控** - 已增強即時歷程和測試模式的步驟事件。 [新欄位](../reports/sharing-field-list.md#serviceevents) 已新增與設定檔匯出作業有關的內容。 為了提供更佳的使用者體驗，步驟事件欄位現在會整理成不同類別。 所有先前的步驟事件欄位仍可在 [stepEvents](../reports/sharing-legacy-fields.md) 類別中使用。
+* **監控** - 已增強即時歷程和測試模式的步驟事件。 [新欄位](../reports/sharing-field-list.md#serviceevents) 已新增與輪廓匯出作業有關的內容。 為了提供更佳的使用者體驗，步驟事件欄位現在會整理成不同類別。 所有先前的步驟事件欄位仍可在 [stepEvents](../reports/sharing-legacy-fields.md) 類別中使用。
 * **協助工具** - 歷程已導入協助工具增強功能。
 * **集合** - 現在支援包含子物件的物件陣列。 [閱讀全文](../building-journeys/collections.md)
 * **清單** - 已改善歷程、事件、動作、資料來源的清單畫面。
@@ -131,8 +131,8 @@ ht-degree: 100%
 <tr>
 <td>
 <p>在報告中提供新指標：即時和全域報告都會顯示已鎖定和已排除對象的電子郵件和推送訊息。 </br> 若要存取最新指標，請注意，您必須為每個頻道和報告類型重新設定不同的報告儀表板。 如需儀表板客製化的詳細資訊，請參閱<a href="../reports/live-report.md">詳細文件。</a></p>
-<p>訊息執行清單中包含新欄顯示每個訊息執行的目標設定檔數量。 </p>
-<p>如需詳細資訊，請參閱<a href="../reports/global-report.md">詳細文件</a>。</p>
+<p>訊息執行清單中包含新欄顯示每個訊息執行的目標輪廓數量。 </p>
+<p>如需詳細資訊，請參閱<a href="../reports/report-gs-cja.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -219,7 +219,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>個人化 URL 會根據設定檔屬性，將收件者帶往網站特定頁面或個人化微網站。 您現在可以在 Adobe Journey Optimizer 的訊息內容加入個人化 URL。 URL 個人化可套用至文字和影像，同時使用個人資料或內容資料。</p>
+<p>個人化 URL 會根據輪廓屬性，將收件者帶往網站特定頁面或個人化微網站。 您現在可以在 Adobe Journey Optimizer 的訊息內容加入個人化 URL。 URL 個人化可套用至文字和影像，同時使用輪廓或內容資料。</p>
 <p>如需詳細資訊，請參閱<a href="../personalization/personalization-syntax.md#perso-urls">詳細文件</a>。</p>
 </td>
 </tr>
@@ -280,7 +280,7 @@ ht-degree: 100%
 
 **個人化**
 
-* **運算式編輯器** - 您現在可在定義個人化時輕鬆新增回傳值：當設定檔的個人化欄位空白時，將顯示回傳值。 [進一步了解](../personalization/functions/helpers.md)
+* **運算式編輯器** - 您現在可在定義個人化時輕鬆新增回傳值：當輪廓的個人化欄位空白時，將顯示回傳值。 [進一步了解](../personalization/functions/helpers.md)
 
 **電子郵件設定**
 

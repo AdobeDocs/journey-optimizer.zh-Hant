@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、設計、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 28%
@@ -243,7 +243,7 @@ UI接管選項預設為啟用，可讓您讓應用程式內訊息背後的背景
 **相關主題：**
 
 * [建立應用程式內訊息](create-in-app.md)
-* [應用程式內報告](../reports/campaign-global-report.md#inapp-report)
+* [應用程式內報告](../reports/campaign-global-report-cja-inapp.md)
 * [應用程式內設定](inapp-configuration.md)
 
 ## 操作說明影片{#video}

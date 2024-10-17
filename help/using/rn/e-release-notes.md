@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
-workflow-type: ht
-source-wordcount: '1008'
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
+source-wordcount: '963'
 ht-degree: 100%
 
 ---
@@ -150,12 +150,6 @@ ht-degree: 100%
 </tr>
 </tbody>
 </table>
-
->[!IMPORTANT]
->
->目前的報告體驗將於 10 月版本發行後淘汰。在此日期之後，新的報告體驗將成為標準體驗。建議您自行熟悉新功能，以確保順利轉換。
-> [開始使用 Journey Optimizer 新的報告介面](../reports/report-gs-cja.md)
-
 
 ### 改進項目 {#e-improvements}
 

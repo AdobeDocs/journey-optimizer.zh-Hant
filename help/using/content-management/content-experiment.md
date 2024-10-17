@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 13%
+source-wordcount: '734'
+ht-degree: 12%
 
 ---
 
@@ -45,10 +45,6 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 ## 建立您的內容 {#campaign-experiment}
 
 1. 首先，根據您的需求，建立並設定您的電子郵件、簡訊或推播通知[行銷活動](../campaigns/create-campaign.md)或[歷程](../building-journeys/journeys-message.md)。
-
-   >[!AVAILABILITY]
-   >
-   >歷程中的實驗目前僅適用於一組組織（可用性限制）。 如需存取權，請和您的 Adobe 代表聯絡。
 
 1. 從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;視窗，開始個人化處理A。
 
@@ -128,4 +124,4 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 
 1. 定義訊息內容後，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕以控制傳遞的呈現，並使用測試設定檔檢查個人化設定。 [了解更多](../content-management/preview-test.md)
 
-設定實驗後，您可以在報表中追蹤傳送成功。 [了解更多](../reports/campaign-global-report.md#experimentation-report)
+設定實驗後，您可以在報表中追蹤傳送成功。 [了解更多](../reports/campaign-global-report-cja-experimentation.md)

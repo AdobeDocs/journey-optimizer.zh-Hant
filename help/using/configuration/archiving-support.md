@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 封存，訊息， HIPAA，密件副本，電子郵件
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: de90083d67787495a28ee45f5912d2cbb0c0ff0c
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 6%
@@ -79,7 +79,7 @@ HIPAA等法規要求[!DNL Journey Optimizer]應提供一種封存傳送給個人
 
   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* 請勿開啟或點選傳送至密件副本位址的電子郵件，因為傳送分析的總開啟次數與點選次數已將其列入考量，這可能會導致[報告](../reports/global-report.md)的某些計算錯誤。
+* 請勿開啟或點選傳送至密件副本位址的電子郵件，因為傳送分析的總開啟次數與點選次數已將其列入考量，這可能會導致[報告](../reports/report-gs-cja.md)的某些計算錯誤。
 
 * 請勿在密件副本收件匣中將郵件標示為垃圾郵件，因為這會影響傳送至此地址的所有其他電子郵件。
 

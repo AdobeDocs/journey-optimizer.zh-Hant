@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 12%
+source-wordcount: '455'
+ht-degree: 14%
 
 ---
 
@@ -22,11 +22,7 @@ ht-degree: 12%
 >title="登陸頁面即時報告"
 >abstract="登陸頁面即時報告可讓您僅在過去 24 小時內對登陸頁面的影響和效能進行即時測量和視覺化。您的報告會分為不同的介面工具，詳細說明您的登陸頁面的成功和錯誤。每個報告儀表板都可以透過調整大小或移除介面工具來修改。"
 
->[!AVAILABILITY]
->
->目前的報告體驗將於10月發行後淘汰。 在此日期之後，新的報告體驗將成為標準。 建議您熟悉新功能，以確保順利轉換。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
-
-從「最近24小時」索引標籤存取的即時報告，會顯示過去24小時內發生的事件，從事件發生起的最短時間間隔為兩分鐘。 相較之下，全域報表著重於至少兩小時前發生的事件，並涵蓋選定時段內的事件。
+從「最近24小時」索引標籤存取的即時報告，會顯示過去24小時內發生的事件，從事件發生起的最短時間間隔為兩分鐘。 相較之下，Customer Journey Analytics報表著重於至少兩小時前發生的事件，並涵蓋選定時段內的事件。
 
 若要存取您的報告，請從您選取的登陸頁面的進階功能表中選取&#x200B;**[!UICONTROL 報告]**。
 

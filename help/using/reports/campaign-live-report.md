@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '3529'
+source-wordcount: '3485'
 ht-degree: 27%
 
 ---
@@ -22,11 +22,7 @@ ht-degree: 27%
 >title="行銷活動即時報告"
 >abstract="行銷活動即時報告可即時測量和視覺化行銷活動的影響和效能，範圍僅限於過去 24 小時。您的報表會分為不同的介面工具，詳述促銷活動的成功和錯誤。每個報告儀表板都可以透過調整大小或移除介面工具來修改。"
 
->[!AVAILABILITY]
->
->目前的報告體驗將於 10 月版本發行後淘汰。在此日期之後，新的報告體驗將成為標準體驗。建議您熟悉新功能，以確保順利轉換。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
-
-從「最近24小時」索引標籤存取的即時報告，會顯示過去24小時內發生的事件，從事件發生起的最短時間間隔為兩分鐘。 相較之下，全域報表著重於至少兩小時前發生的事件，並涵蓋選定時段內的事件。
+從「最近24小時」索引標籤存取的即時報告，會顯示過去24小時內發生的事件，從事件發生起的最短時間間隔為兩分鐘。 相較之下，Customer Journey Analytics報表著重於至少兩小時前發生的事件，並涵蓋選定時段內的事件。
 
 使用&#x200B;**[!UICONTROL 即時檢視]**&#x200B;按鈕，可以直接從行銷活動存取行銷活動即時報告。
 
@@ -610,4 +606,4 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 * [建立行銷活動](../campaigns/create-campaign.md)
 * [建立API觸發的行銷活動](../campaigns/api-triggered-campaigns.md)
 * [修改或停止行銷活動](../campaigns/modify-stop-campaign.md)
-* [行銷活動全域報告](campaign-global-report.md)
+* [行銷活動報告](campaign-global-report-cja.md)

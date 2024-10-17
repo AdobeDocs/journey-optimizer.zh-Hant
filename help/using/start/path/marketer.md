@@ -7,7 +7,7 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: b960757113a1620ac4d2f251e66c35c4943f6a9d
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
@@ -32,7 +32,7 @@ ht-degree: 100%
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **測試及驗證**。 定義內容後，您就可以使用測試設定檔來預覽其內容。 如果您已插入[個人化內容](../../personalization/personalize.md)，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。此外，利用您的 **Litmus** 帳戶登入，即可在&#x200B;**常見電子郵件用戶端[!DNL Journey Optimizer]立即預覽**&#x200B;電子郵件呈現。 您可以確保電子郵件內容都能看起來不錯，並且在每個收件匣中都正常運作。 [在本節](../../content-management/preview-test.md)深入瞭解如何測試與驗證訊息。 
+1. **測試及驗證**。 定義內容後，您就可以使用測試輪廓來預覽其內容。 如果您已插入[個人化內容](../../personalization/personalize.md)，您可以使用測試輪廓資料檢查此內容在訊息中的顯示方式。此外，利用您的 **Litmus** 帳戶登入，即可在&#x200B;**常見電子郵件用戶端[!DNL Journey Optimizer]立即預覽**&#x200B;電子郵件呈現。 您可以確保電子郵件內容都能看起來不錯，並且在每個收件匣中都正常運作。 [在本節](../../content-management/preview-test.md)深入瞭解如何測試與驗證訊息。 
 
 1. **設計客戶歷程**&#x200B;提供個人化的情境式體驗。 [!DNL Journey Optimizer]可讓您利用儲存在事件或資料來源中的情境資料，建立即時協調流程使用案例。設計由下列功能提供支援的多步驟進階案例：
 
@@ -48,4 +48,4 @@ ht-degree: 100%
 
    [在本節](../../building-journeys/journey-gs.md)深入瞭解如何設計與執行歷程
 
-1. **監控訊息及歷程**。為確保您的訊息成功執行、傳送及傳遞，[!DNL Journey Optimizer]提供可監控目前發佈及觸發之訊息的功能。 [在本節](../../reports/global-report.md)深入瞭解如何監控效能。
+1. **監控訊息及歷程**。為確保您的訊息成功執行、傳送及傳遞，[!DNL Journey Optimizer]提供可監控目前發佈及觸發之訊息的功能。 [在本節](../../reports/report-gs-cja.md)深入瞭解如何監控效能。

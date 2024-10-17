@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 99%
@@ -306,9 +306,9 @@ ht-degree: 99%
 
 **報告**
 
-* 同意原則表格和圖表現在可在歷程全域報告中使用。 這些介面工具集可讓您從自訂動作中的原則追蹤排除的輪廓。 [了解更多](../reports/journey-global-report.md#journey-global)
+* 同意原則表格和圖表現在可在歷程全域報告中使用。 這些介面工具集可讓您從自訂動作中的原則追蹤排除的輪廓。 [了解更多](../reports/journey-global-report-cja.md#journey-global)
 
-  若要存取最新的介面工具集，請注意您必須重設不同的報告儀表板。 如需儀表板自訂的詳細資訊，請參閱[詳細文件](../reports/global-report.md)。
+  若要存取最新的介面工具集，請注意您必須重設不同的報告儀表板。 如需儀表板自訂的詳細資訊，請參閱[詳細文件](../reports/report-gs-cja.md)。
 
 **管理**
 
