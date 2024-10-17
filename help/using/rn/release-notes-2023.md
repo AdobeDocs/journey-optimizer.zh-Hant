@@ -11,7 +11,7 @@ exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '4377'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 此頁面列出了於 2023 年發行的[!DNL Journey Optimizer]所有功能和改善。
 
 
-## 2023年10月發行版本 {#oct-rn-2023}
+## 2022 年 10 月發行版本 {#oct-rn-2023}
 
 ### 新功能{#oct-2023-features}
 
@@ -87,7 +87,7 @@ ht-degree: 98%
 * 現在，您可在任何等待時間中定義的最長期間是 29 天，而不是 30 天。此項改進的目的是在防止等待的持續時間超過 30 天的歷程期限。 這適用於：
 
    * [等待活動](../building-journeys/wait-activity.md)中的&#x200B;**時間長度**&#x200B;欄位
-   * [歷程屬性](../building-journeys/journey-properties.md#entrance)中的&#x200B;**重新進入等待期間**
+   * [歷程屬性](../building-journeys/journey-properties.md#entrance)中的&#x200B;**重新進入等待期**
    * [事件活動](../building-journeys/general-events.md#events-specific-time)逾時定義中的&#x200B;**等待**&#x200B;欄位。
 
 <!--
@@ -101,7 +101,7 @@ ht-degree: 98%
 
 
 
-## 2023年9月發行 {#sept-rn-2023}
+## 2023 年 9 月發行版本 {#sept-rn-2023}
 
 ### 新功能{#sept-2023-features}
 
@@ -233,7 +233,7 @@ ht-degree: 98%
 
 Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
 
-## 2023年8月發行 {#aug-rn-2023}
+## 2023 年 8 月發行版本 {#aug-rn-2023}
 
 ### 新功能{#aug-2023-features}
 
@@ -322,7 +322,7 @@ A new option is available in the email surface settings to include email address
 
 
 
-## 2023年7月發行 {#july-rn-2023}
+## 2023 年 7 月發行版本 {#july-rn-2023}
 
 ### 新功能{#july-2023-features}
 
@@ -446,7 +446,7 @@ A new option is available in the email surface settings to include email address
 
 
 
-## 2023年6月發行 {#june-rn-2023}
+## 2022 年 6 月發行版本 {#june-rn-2023}
 
 <table>
 <thead>
@@ -496,7 +496,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * A new type of system alert has been introduced. You can now get notified when a custom action fails.
 -->
 
-## 2023年5月發行 {#may-rn-2023}
+## 2023 年 5 月發行版本 {#may-rn-2023}
 
 ### 新功能{#may-2023-features}
 
@@ -649,7 +649,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * 應用程式內訊息 — 修正行銷活動排程與訊息頻率設定衝突的問題。
 
 
-## 2023年4月發行 {#apr-rn-2023}
+## 2023 年 4 月發行版本 {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -730,7 +730,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 
 
-## 2023年3月發行 {#mar-2023}
+## 2023 年 3 月發行版本 {#mar-2023}
 
 ### 新功能{#mar-2023-features}
 
@@ -826,7 +826,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
   若要存取最新的介面工具集，請注意您必須重設不同的報告儀表板。 如需儀表板客製化的詳細資訊，請參閱[詳細文件](../reports/report-gs-cja.md)。
 
-## 2023年2月發行 {#feb-2023}
+## 2023 年 2 月發行版本 {#feb-2023}
 
 ### 新功能{#feb-2023-features}
 
@@ -922,7 +922,7 @@ Note that each widget can be resized and deleted as needed.
 
 **歷程**
 
-* **重新進入等待期間**&#x200B;欄位已新增至歷程屬性。 此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或客群資格開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 [了解更多](../building-journeys/journey-properties.md#entrance)
+* 此&#x200B;**重新進入等待期**&#x200B;欄位已新增至歷程屬性。此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或客群資格開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 [了解更多](../building-journeys/journey-properties.md#entrance)
 
 * 改進了&#x200B;**歷程開始與結束日期**。如果您尚未指定開始日期，則現在會在發佈時自動新增開始日期。針對&#x200B;**讀取客群**&#x200B;歷程，您現在可以新增結束日期。 這可讓輪廓在達到日期時自動退出。 [進一步了解](../building-journeys/journey-gs.md#dates)
 
@@ -954,7 +954,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **URL 個人化** - 將 URL 新增為優惠方案表示法的內容時，您現在可以使用運算式編輯器對這些 URL 進行個人化設定。[了解更多](../offers/offer-library/add-representations.md)
 
-## 2023年1月發行 {#jan-2023-release}
+## 2023 年 1 月發行版本 {#jan-2023-release}
 
 ### 新功能{#jan-2023-features}
 

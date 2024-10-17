@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 2024年發行說明
+title: 2024 年發行說明
 description: Journey Optimizer 2024 年發行說明
 feature: Release Notes
 topic: Content Management
@@ -11,7 +11,7 @@ exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '3842'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 此頁面列出了於 2024 年發行的[!DNL Journey Optimizer]所有功能和改善。
 
 
-## 2024年8月發行 {#8-2024}
+## 2024 年 8 月發行版本 {#8-2024}
 
 **發行日期**：2024 年 8 月 20-21 日
 
@@ -148,7 +148,7 @@ ht-degree: 95%
 
 
 
-## 2024年7月發行 {#24-7-2024}
+## 2024 年 7 月發行版本 {#24-7-2024}
 
 **發行日期**：2024 年 7 月 30-31 日
 
@@ -199,7 +199,7 @@ ht-degree: 95%
 
 
 
-## 2024年6月發行 {#24-6-2024}
+## 2024 年 6 月發行版本 {#24-6-2024}
 
 **發行日期**：2024 年 6 月 18 日至 19 日
 
@@ -375,7 +375,7 @@ ht-degree: 95%
 
 
 
-## 2024年5月發行 {#may-2024}
+## 2024 年 5 月發行版本 {#may-2024}
 
 **發行日期**：2024 年 5 月 21 日至 22 日
 
@@ -393,7 +393,7 @@ ht-degree: 95%
 <tr>
 <td>
 <p>體驗決策透過提供稱為「決策項目」的集中行銷優惠目錄與複雜的決策引擎來簡化個人化。 此引擎運用規則與排名標準來選取並呈現最相關的決定項目給每個人。</p>
-<p>這些決策專案透過新的程式碼型體驗管道(現在可在Journey Optimizer促銷活動中存取)無縫整合到廣泛的傳入設定中。 Experience Decisioning 決策原則僅可用於程式碼型的體驗活動。</p>
+<p>這些決策項目透過新的程式碼型體驗管道無縫整合到廣泛的傳入設定，現在可在 Journey Optimizer 行銷活動中存取。Experience Decisioning 決策原則僅可用於程式碼型的體驗活動。</p>
 <p>體驗決策目前僅可適用於一組組織 (可用性限制)。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>如需詳細資訊，請參閱<a href="../experience-decisioning/gs-experience-decisioning.md">詳細文件</a>。</p>
@@ -405,14 +405,14 @@ ht-degree: 95%
 <table>
 <thead>
 <tr>
-<th><strong>電子郵件設定個人化 — 可用性限制</strong><br/></th>
+<th><strong>電子郵件設定個人化 - 有限可用性</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在建立電子郵件通道設定時定義動態子網域和個人化標題引數，以提升電子郵件設定的彈性和控制能力。</p>
-<p>電子郵件設定個人化目前僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<p>您可以在建立電子郵件管道設定時，馬上定義動態子網域和個人化標題參數，就能提高電子郵件設定彈性，更能夠掌握得當。</p>
+<p>電子郵件設定個人化目前僅開放給某些組織使用 (有限可用性)。若要取得存取權，請和您的 Adobe 代表聯絡。</p>
 <p>如需詳細資訊，請參閱<a href="../email/surface-personalization.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -524,7 +524,7 @@ ht-degree: 95%
 作為我們不斷努力提供統一使用者體驗的一部分，我們統一了 Adobe Experience Cloud 產品和應用程式中使用的術語。 這會影響德文術語「標題」，在與物件名稱相關時會變更為「標籤」。 這些變更將會逐步在使用者介面與檔案中逐步推出。
 
 
-## 2024年4月發行 {#apr-2024}
+## 2024 年 4 月發行版本 {#apr-2024}
 
 **發行日期**：2024 年 5 月 2 日
 
@@ -619,9 +619,9 @@ ht-degree: 95%
 
 **設定**
 
-* 您現在可以在管道設定層級選取行銷動作。 在設定中使用時，系統會運用與該行銷動作相關的所有同意原則，以尊重客戶的偏好設定。 [閱讀全文](../action/consent.md#surface-marketing-actions)
-* 通道設定現在可使用物件層級存取控制。 [閱讀全文](../configuration/channel-surfaces.md#create-channel-surface)
-* 在通道設定中啟用清單取消訂閱時，您現在可以定義同意層級，以符合您管理所有其他來源同意的方式。 [閱讀全文](../email/email-settings.md#list-unsubscribe)
+* 您現在可以在管道設定層級選取行銷動作。在設定使用時，會運用與該行銷動作相關的所有同意原則，以尊重客戶的偏好設定。[閱讀全文](../action/consent.md#surface-marketing-actions)
+* 現在管道設定可以使用「物件層級存取控制」。[閱讀全文](../configuration/channel-surfaces.md#create-channel-surface)
+* 在管道設定中啟用清單取消訂閱時，您現在可以定義同意級別，以與您管理所有其他來源的同意的方式保持一致。[閱讀全文](../email/email-settings.md#list-unsubscribe)
 
 **內容管理**
 
@@ -633,7 +633,7 @@ ht-degree: 95%
 
 
 
-## 2024年3月發行 {#mar-2024}
+## 2024 年 3 月發行版本 {#mar-2024}
 
 **發行日期**： 2024 年 3 月 19 至 20 日
 
@@ -683,7 +683,7 @@ ht-degree: 95%
 
 當歷程處於中介狀態時，其是唯讀。[了解更多](../building-journeys/journey-gs.md#filter)
 
-## 2024年2月發行 {#feb-2024}
+## 2024 年 2 月發行版本 {#feb-2024}
 
 **發行日期**：2024 年 2 月 21 日至 22 日
 
@@ -769,7 +769,7 @@ ht-degree: 95%
 * **Capping rules** - You can now add **multiple capping rules** for one offer. This allows you to increase the level of control over the way offers are sent.-->
 
 
-## 2024年1月發行 {#jan-2024}
+## 2024 年 1 月發行版本 {#jan-2024}
 
 **發行日期**：2024 年 1 月 30 日至 31 日
 

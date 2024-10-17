@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1948bc304da8af9a83a2f0f81854a701d0d65e2b
 workflow-type: tm+mt
 source-wordcount: '5672'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -29,16 +29,16 @@ ht-degree: 96%
 
 ## 2024 年 9 月 {#sept-2024}
 
-* 有關[!DNL Journey Optimizer] 2024年9月發行版本的所有新功能和改進專案詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
-* 新增歷程重試管理的相關區段。 [閱讀全文](../building-journeys/read-audience.md#read-audience-retry)
-* 已更新自訂動作之上限/節流規則的常見問題集，其中提及預設上限規則。 [閱讀全文](../configuration/external-systems.md#faq)
-* 「控制存取」區段已更新，其中包含與AI Assistant內容產生器相關的許可權。 [閱讀全文](../administration/high-low-permissions.md#ai-permission)
+* 有關 [!DNL Journey Optimizer] 2024 年 9 月發行版本的新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
+* 新增歷程重試管理的相關章節。[閱讀全文](../building-journeys/read-audience.md#read-audience-retry)
+* 已更新自訂動作的上限/節流規則相關常見問題，以提及預設上限規則。[閱讀全文](../configuration/external-systems.md#faq)
+* 已更新「控制存取權」章節，其中包含與 AI 助理內容產生器相關的權限。[閱讀全文](../administration/high-low-permissions.md#ai-permission)
 * 已新增有關用於電子郵件產生的AI助理內容產生器的影片。 [閱讀全文](../content-management/generative-email.md#video)
 
 
 ## 2024 年 8 月 {#aug-2024}
 
-* 有關[!DNL Journey Optimizer] 2024年8月發行版本的所有新功能和改進專案詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
+* 有關 [!DNL Journey Optimizer] 2024 年 8 月發行版本的所有新功能和改進項目詳情，請參閱本文件。[閱讀全文](release-notes.md)
 * 更新決定管理的效能護欄，以提及具有/沒有 Edge 分段的決定 API 傳送輸送量。 [閱讀全文](../start/guardrails.md#decision-management)
 * 歷程護欄已更新。 [閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
 
@@ -186,7 +186,7 @@ ht-degree: 96%
 ## 2023 年 7 月 {#july-2023}
 
 * 有關所有 [!DNL Journey Optimizer]2023 年 7 月發行版本新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
-* 已改善等待活動檔案頁面，其中包含與全域逾時和重新進入使用方式相關的其他資訊和最佳實務。 [閱讀全文](../building-journeys/wait-activity.md)
+* 已改善等待活動文件頁面，其中包含與全域逾時和重新進入使用方式相關的其他資訊和最佳實務。[閱讀全文](../building-journeys/wait-activity.md)
 * 改善登入管理頁面。 [閱讀全文](../building-journeys/entry-management.md)
 * 已在讀取客群活動文件中新增節流率的相關資訊。 [閱讀全文](../building-journeys/read-audience.md)
 * 已新增有關重試的其他資訊。 [閱讀全文](../start/guardrails.md#general-actions-g)

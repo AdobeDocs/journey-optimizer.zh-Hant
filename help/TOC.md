@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
 workflow-type: tm+mt
 source-wordcount: '2136'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 93%
       + [條件](using/building-journeys/condition-activity.md)
       + [等待](using/building-journeys/wait-activity.md)
       + [讀取客群](using/building-journeys/read-audience.md)
-      + [內建頻道動作](using/building-journeys/journeys-message.md)
+      + [內建管道動作](using/building-journeys/journeys-message.md)
       + [自訂動作](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 動作](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 動作](using/building-journeys/using-adobe-campaign-v7-v8.md)
@@ -175,7 +175,7 @@ ht-degree: 93%
    + [檢閱及啟動行銷活動](using/campaigns/review-activate-campaign.md)
    + [管理行銷活動](using/campaigns/modify-stop-campaign.md)
    + [利用 API 觸發行銷活動](using/campaigns/api-triggered-campaigns.md)
-+ 測試並核准{#test}
++ 測試與核准{#test}
    + [衝突管理與優先順序](using/test-approve/conflict-prioritization.md)
    + 衝突管理與優先順序{#conflict-prioritization}
       + [開始使用衝突管理和優先順序](using/test-approve/gs-conflict-prioritization.md)
@@ -190,7 +190,7 @@ ht-degree: 93%
       + [傳送電子郵件校樣](using/content-management/proofs.md)
       + [測試電子郵件轉譯](using/content-management/rendering.md)
       + [電子郵件垃圾郵件報告](using/content-management/spam-report.md)
-   + 核准歷程與行銷活動{#approve}
+   + 核准歷程與行銷活動 {#approve}
       + [開始使用核准](using/test-approve/gs-approval.md)
       + [建立和管理核准原則](using/test-approve/approval-policies.md)
       + [請求核准](using/test-approve/request-approval.md)
@@ -267,7 +267,7 @@ ht-degree: 93%
    + 製作網頁{#author-web-pages}
       + [編輯網頁內容](using/web/edit-web-content.md)
       + [管理修改](using/web/manage-web-modifications.md)
-      + [監視您的網站體驗](using/web/monitor-web-experiences.md)
+      + [監視網站體驗](using/web/monitor-web-experiences.md)
       + [編寫單頁應用程式](using/web/web-spa.md)
 + 程式碼型體驗 {#code-based-experience}
    + [開始使用程式碼型頻道](using/code-based/get-started-code-based.md)
@@ -275,12 +275,12 @@ ht-degree: 93%
    + [建立基於程式碼的體驗設定](using/code-based/code-based-configuration.md)
    + [實施方法範例](using/code-based/code-based-implementation-samples.md)
    + [建立程式碼型體驗](using/code-based/create-code-based.md)
-+ 內容卡片{#content-card}
++ 內容卡{#content-card}
    + [開始使用內容卡](using/content-card/get-started-content-card.md)
    + 設定內容卡頻道 {#configure}
       + [內容卡的先決條件](using/content-card/content-card-configuration-prereq.md)
       + [在 Journey Optimizer 中設定內容卡頻道](using/content-card/content-card-configuration.md)
-      + [在Web SDK中設定內容卡支援](using/content-card/content-card-configuration-sdk.md)
+      + [在 Web SDK 中設定內容卡支援](using/content-card/content-card-configuration-sdk.md)
    + [建立內容卡](using/content-card/create-content-card.md)
    + [設計內容卡](using/content-card/design-content-card.md)
 + 登陸頁面 {#landing-pages}
@@ -388,7 +388,7 @@ ht-degree: 93%
       + [開始使用Customer Journey Analytics報告](using/reports/report-gs-cja.md)
       + [手動設定Customer Journey Analytics](using/reports/cja-ajo.md)
       + [管理您的報告](using/reports/report-cja-manage.md)
-      + [報告和實驗先決條件](using/reports/reporting-configuration.md)
+      + [報告與實驗先決條件](using/reports/reporting-configuration.md)
       + 行銷活動報告{#reporting}
          + [行銷活動報告](using/reports/campaign-global-report-cja.md)
          + [程式碼型行銷活動報告](using/reports/campaign-global-report-cja-code.md)
