@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 如果您是使用者端實作，則可以使用其中一個AEP使用者端SDK：AEP Web SDK或AEP Mobile SDK。
 
-* 步驟[如下](#client-side-how)說明在範例&#x200B;**Web SDK**&#x200B;實作中，由程式碼型體驗行銷活動擷取在Edge上發佈的內容並顯示個人化內容的程式。
+* 步驟[如下](#client-side-how)說明在範例&#x200B;**Web SDK**&#x200B;實作中，擷取程式碼式體驗歷程和行銷活動在Edge上發佈的內容並顯示個人化內容的程式。
 
 * 在[本教學課程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}中說明使用&#x200B;**Mobile SDK**&#x200B;實作程式碼式頻道的步驟。
 
@@ -54,7 +54,7 @@ ht-degree: 2%
 
 1. 實作程式碼應手動套用程式碼型體驗專案（使用[`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"}方法），以根據決定更新DOM。
 
-1. 對於程式碼型體驗行銷活動，必須手動傳送顯示事件以指出內容已顯示時間。 這是透過`sendEvent`命令完成的。
+1. 對於程式碼型體驗歷程和行銷活動，必須手動傳送顯示事件以指出內容已顯示的時機。 這是透過`sendEvent`命令完成的。
 
    ```javascript
    function sendDisplayEvent(decision) {
@@ -80,7 +80,7 @@ ht-degree: 2%
    }
    ```
 
-1. 對於程式碼型體驗行銷活動，必須手動傳送互動事件，以指出使用者何時已與內容互動。 這是透過`sendEvent`命令完成的。
+1. 對於程式碼型體驗歷程和行銷活動，必須手動傳送互動事件，以指出使用者何時已與內容互動。 這是透過`sendEvent`命令完成的。
 
    ```javascript
    function sendInteractEvent(label, proposition) {
@@ -140,7 +140,7 @@ Cookie可用來儲存使用者身分和叢集資訊。 使用使用者端實作�
 
 如果您有伺服器端實作，則可以使用其中一個AEPEdge NetworkAPI。
 
-以下步驟說明在網頁的範例Edge NetworkAPI實作中，透過程式碼型體驗行銷活動擷取Edge上發佈的內容並顯示個人化內容的程式。
+以下步驟說明在網頁的範例Edge NetworkAPI實作中，透過程式碼型體驗歷程和促銷活動，擷取Edge上發佈的內容並顯示個人化內容的程式。
 
 ### 運作方式
 
@@ -226,8 +226,9 @@ Cookie可用來儲存使用者身分和叢集資訊。 使用使用者端實作�
    ).then((res) => res.json());
    ```
 
-1. 會從回應中讀取程式碼型體驗促銷活動中的JSON體驗，並在產生HTML回應時使用。
-1. 對於程式碼型體驗行銷活動，必須在實施中手動傳送顯示事件，以指出行銷活動內容已顯示的時間。 在此範例中，通知會在請求生命週期期間在伺服器端傳送。
+1. 程式碼型體驗歷程和促銷活動中的JSON體驗會從回應中讀取，並在產生HTML回應時使用。
+
+1. 對於程式碼型體驗歷程和行銷活動，必須在實施中手動傳送顯示事件，以指出顯示歷程或行銷活動內容的時間。 在此範例中，通知會在請求生命週期期間在伺服器端傳送。
 
    ```javascript
    function sendDisplayEvent(aepEdgeClient, req, propositions, cookieEntries) {

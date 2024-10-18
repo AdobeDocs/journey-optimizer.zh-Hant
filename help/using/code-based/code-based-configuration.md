@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 30%
+source-wordcount: '1558'
+ht-degree: 28%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="輸入特定位置"
->abstract="此欄位會指定頁面上或您要使用者存取之應用程式內的確切目的地。 這可能是導覽結構中的特定區段或頁面。"
+>title="指出您的頁面或應用程式內的特定位置"
+>abstract="此欄位會指定頁面內或您要使用者存取之應用程式內的確切目的地。 它可以是網頁內的特定區段，或應用程式導覽結構內的深入頁面。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
@@ -108,7 +108,7 @@ ht-degree: 30%
 
      ![](assets/code_config_matching_rules_preview.png)
 
-1. **[!UICONTROL 頁面]**&#x200B;上的位置欄位會指定您要使用者存取之網站內的確切目的地。 這可能是網站導覽結構中的特定區段或頁面。
+1. **[!UICONTROL 頁面]**&#x200B;上的位置欄位會指定您要使用者存取之頁面內的確切目的地。 它可以是網站導覽結構內頁面上的特定區段，例如「hero-banner」或「product-rail」。
 
    ![](assets/code_config_location_on_page.png)
 
@@ -128,7 +128,7 @@ ht-degree: 30%
 
 1. 輸入您的&#x200B;**[!UICONTROL 應用程式識別碼]**。 這可在應用程式的作業環境中進行準確的識別和設定，並確保順暢的整合和功能。
 
-1. 提供應用程式&#x200B;]**內的**[!UICONTROL &#x200B;位置或路徑。 此欄位會指定您想讓使用者存取的應用程式內的確切目的地。 這可能是應用程式導覽結構深處的特定區段或頁面。
+1. 提供應用程式&#x200B;]**內的**[!UICONTROL &#x200B;位置或路徑。 此欄位會指定您想讓使用者存取的應用程式內的確切目的地。 它可以是應用程式導覽結構中的特定區段或頁面，例如「hero-banner」或「product-rail」。
 
    ![](assets/code_config_3.png){width="500"}
 
