@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用 AI 助理產生簡訊
-description: 開始使用Journey Optimizer中的AI助理產生簡訊內容以進行內容加速
+description: 開始使用Journey Optimizer中的AI Assistant內容加速器產生SMS內容
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 4%
+source-wordcount: '904'
+ht-degree: 5%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->開始使用此功能之前，請先閱讀相關的[護欄和限制](gs-generative.md#generative-guardrails)。
+>開始使用此功能之前，請先閱讀相關的[護欄與限制](gs-generative.md#generative-guardrails)。
 ></br>
 >
->您必須先同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI助理進行Content Acceleration。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI Assistant內容加速器。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-精心打造和量身打造您的SMS訊息以符合對象的偏好設定後，請提升您與Journey Optimizer中用於Content Acceleration的AI助理的通訊。
+精心打造和量身打造您的SMS訊息以符合對象的偏好設定後，請提升您與Journey Optimizer中AI Assistant內容加速器的通訊水準。
 
 此資源提供有見地的建議，讓您微調內容，協助訊息引起共鳴，並促進最大程度的參與。
 
-探索以下標籤，瞭解如何使用Journey Optimizer中的AI助理加速內容。
+探索以下標籤，瞭解如何使用Journey Optimizer中的AI Assistant內容加速器。
 
 >[!BEGINTABS]
 
@@ -105,7 +105,7 @@ ht-degree: 4%
 
    ![](assets/sms-text-genai-1.png){zoomable="yes"}
 
-1. 啟用內容加速的AI助理的&#x200B;**[!UICONTROL 使用參考內容]**&#x200B;選項，以根據選取的內容個人化新內容。
+1. 啟用AI Assistant內容加速器的&#x200B;**[!UICONTROL 使用參考內容]**&#x200B;選項，以根據選取的內容個人化新內容。
 
 1. 說明您要在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中產生的內容，以微調內容。
 

@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用AI助理產生網頁
-description: 開始使用Journey Optimizer中用於內容加速的AI助理產生網頁內容和資產。
+description: 開始使用Journey Optimizer中的AI Assistant Content Accelerator產生網頁內容和資產。
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 1%
+source-wordcount: '999'
+ht-degree: 2%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->開始使用此功能之前，請先閱讀相關的[護欄和限制](gs-generative.md#generative-guardrails)。
+>開始使用此功能之前，請先閱讀相關的[護欄與限制](gs-generative.md#generative-guardrails)。
 ></br>
 >
->您必須先同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI助理進行Content Acceleration。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI Assistant內容加速器。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-建立並個人化您的網頁後，請使用由創作AI提供技術支援的Journey Optimizer內容加速AI助理，將您的內容提升到新的境界。
+在您建立網頁並將其個人化後，請使用Journey Optimizer中的AI Assistant Content Accelerator （由generative AI提供技術支援），將您的內容提升到新的境界。
 
-適用於Content Acceleration的Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不同內容，協助您最佳化傳送的影響。
+Journey Optimizer中的AI Assistant Content Accelerator可以建議更可能引起觀眾共鳴的不同內容，協助您最佳化傳送的影響。
 
 >[!BEGINTABS]
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
    ![](assets/web-gen-full-1.png){zoomable="yes"}
 
-1. 啟用內容加速的AI助理的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;選項，以根據選取的內容個人化新內容。
+1. 啟用AI Assistant內容加速器的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;選項，以根據選取的內容個人化新內容。
 
 1. 說明您要在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中產生的內容，以微調內容。
 
@@ -87,19 +87,19 @@ ht-degree: 1%
 
 >[!TAB 網頁影像產生]
 
-在以下範例中，瞭解如何運用Journey Optimizer中的AI Assistant進行內容加速，以最佳化和改善您的資產，確保更方便使用者的體驗。
+在以下範例中，瞭解如何在Journey Optimizer中運用AI Assistant內容加速器來最佳化和改善您的資產，確保更方便使用者的體驗。
 
 1. 建立並設定網頁之後，請按一下[編輯網頁] ****。
 
    如需如何設定網頁的詳細資訊，請參閱[此頁面](../web/create-web.md)。
 
-1. 選取您要使用AI Assistant for Content Acceleration變更的資產。
+1. 選取您要使用AI Assistant Content Accelerator變更的資產。
 
 1. 從右側功能表選取&#x200B;**[!UICONTROL 顯示AI小幫手]**。
 
    ![](assets/web-gen-img-1.png){zoomable="yes"}
 
-1. 啟用Content Acceleration的AI助理的&#x200B;**[!UICONTROL 參考樣式]**&#x200B;選項，以根據參考內容個人化新內容。 您也可以上傳影像以將內容新增至您的變數。
+1. 啟用AI Assistant內容加速器的&#x200B;**[!UICONTROL 參考樣式]**&#x200B;選項，以根據參考內容個人化新內容。 您也可以上傳影像以將內容新增至您的變數。
 
 1. 說明您要在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中產生的內容，以微調內容。
 

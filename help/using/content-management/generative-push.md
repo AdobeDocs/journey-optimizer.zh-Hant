@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在Journey Optimizer中使用AI助理進行推播產生，以加速內容
-description: 開始在Journey Optimizer中使用AI助理產生推播內容以加速內容
+title: 在Journey Optimizer中使用AI Assistant Content Accelerator進行推播產生
+description: 開始在Journey Optimizer中使用AI Assistant Content Accelerator產生推播內容
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '1497'
-ht-degree: 2%
+source-wordcount: '1487'
+ht-degree: 3%
 
 ---
 
@@ -19,20 +19,20 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->開始使用此功能之前，請先閱讀相關的[護欄和限制](gs-generative.md#generative-guardrails)。
+>開始使用此功能之前，請先閱讀相關的[護欄與限制](gs-generative.md#generative-guardrails)。
 ></br>
 >
->您必須先同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI助理進行Content Acceleration。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI Assistant內容加速器。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-在您建立並個人化訊息後，請使用Journey Optimizer中的AI Assistant加速內容，將推播通知內容提升到新的境界。
+在您建立並個人化訊息後，請使用Journey Optimizer中的AI Assistant Content Accelerator將推播通知內容提升到新的境界。
 
-探索以下標籤，瞭解如何使用Journey Optimizer中的AI助理加速內容。
+探索以下標籤，瞭解如何使用Journey Optimizer中的AI Assistant內容加速器。
 
 >[!BEGINTABS]
 
 >[!TAB 產生完整推送]
 
-在此特定範例中，瞭解如何使用Journey Optimizer中的AI Assistant傳送吸引人的推播通知以加速內容。
+在此特定範例中，瞭解如何使用Journey Optimizer中的AI Assistant Content Accelerator傳送吸引人的推播通知。
 
 請依照下列步驟操作：
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 
    ![](assets/push-genai-full-1.png){zoomable="yes"}
 
-1. 啟用內容加速的AI助理的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;選項，以根據選取的內容個人化新內容選項。
+1. 啟用AI Assistant內容加速器的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;選項，以根據選取的內容個人化新內容選項。
 
 1. 說明您要在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中產生的內容，以微調內容。
 
@@ -105,7 +105,7 @@ ht-degree: 2%
 
 >[!TAB 只產生文字]
 
-在此特定範例中，瞭解如何將Journey Optimizer中的AI助理用於特定內容的內容加速。 請依照下列步驟操作：
+在此特定範例中，瞭解如何針對特定內容在Journey Optimizer中使用AI Assistant內容加速器。 請依照下列步驟操作：
 
 1. 建立並設定推播通知行銷活動後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。
 
@@ -119,7 +119,7 @@ ht-degree: 2%
 
    ![](assets/push-genai-1.png){zoomable="yes"}
 
-1. 啟用內容加速的AI助理的&#x200B;**[!UICONTROL 使用參考內容]**&#x200B;選項，以根據選取的內容個人化新內容。
+1. 啟用AI Assistant內容加速器的&#x200B;**[!UICONTROL 使用參考內容]**&#x200B;選項，以根據選取的內容個人化新內容。
 
 1. 說明您要在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中產生的內容，以微調內容。
 
@@ -179,7 +179,7 @@ ht-degree: 2%
 
    ![](assets/push-gen-img.png){zoomable="yes"}
 
-1. 啟用Content Acceleration的AI助理的&#x200B;**[!UICONTROL 參考樣式]**&#x200B;選項，以根據參考內容個人化新內容。 您也可以上傳影像以將內容新增至您的變數。
+1. 啟用AI Assistant內容加速器的&#x200B;**[!UICONTROL 參考樣式]**&#x200B;選項，以根據參考內容個人化新內容。 您也可以上傳影像以將內容新增至您的變數。
 
 1. 說明您要在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中產生的內容，以微調內容。
 

@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 許可權，高階，低階，設定檔， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: e18c3ecdd78565277c3661bfab282b4f241ab378
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -511,7 +511,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 ## AI協助資源 {#ai-permissions}
 
-* **[!DNL Generate content]**&#x200B;高階許可權可讓使用者存取Journey Optimizer中的AI助理以加速內容。
+* **[!DNL Generate content]**&#x200B;高階許可權可讓使用者存取Journey Optimizer中的AI Assistant Content Accelerator。
 
 +++ 其中包含下列低階許可權：
 
