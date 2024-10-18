@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c54ad4cddeb7115f9a069102c67c41f0850a11ed
+source-git-commit: 5714e0aab20bce91ecf588c6b170a975be1f7d89
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 47%
@@ -176,7 +176,7 @@ ht-degree: 47%
 <table>
 <thead>
 <tr>
-<th><strong>更新的報告體驗（一般可用性）</strong><br/></th>
+<th><strong>更新的報告體驗（一般可用性）</strong><br/>自2024年10月16日起可用<br/></th>
 </tr>
 </thead>
 <tbody>
@@ -186,7 +186,6 @@ ht-degree: 47%
 <p>正式發行後，引進了四種新功能：建立簡易量度、建立和發佈對象、使用Insight Builder提出臨時問題，以及排程報表自動以電子郵件傳送給主要收件者。</p>
 <p>如需詳細資訊，請參閱<a href="../reports/report-cja-manage.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
-<p>推出日期：2024 年 10 月 16 日</p>
 </tr>
 </tbody>
 </table>
