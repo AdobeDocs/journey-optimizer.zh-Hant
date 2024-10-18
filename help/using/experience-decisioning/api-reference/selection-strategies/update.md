@@ -1,23 +1,23 @@
 ---
-title: 更新選取策略
+title: 更新選擇策略
 description: 選取策略包含與限制關聯的集合，以及決定優惠的排名方法。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
+exl-id: 060f8c5f-4750-44dc-83aa-630afbc180eb
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
-
 
 # 更新選取策略 {#update-selection-strategy}
 
 您可以透過向優惠資料庫API發出PATCH請求來修改或更新選擇策略。
 
-如需JSON修補程式的詳細資訊，包括可用的作業，請參閱官方[JSON修補程式檔案](http://jsonpatch.com/)。
+如需JSON修補程式的詳細資訊，包括可用的作業，請參閱官方[JSON修補程式檔案](https://jsonpatch.com/)。
 
 **API格式**
 
