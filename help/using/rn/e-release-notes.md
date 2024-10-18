@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: c54ad4cddeb7115f9a069102c67c41f0850a11ed
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 95%
+source-wordcount: '1671'
+ht-degree: 47%
 
 ---
 
@@ -21,47 +21,13 @@ ht-degree: 95%
 
 **至發行日期之前，下方早期發行說明如有變更，恕不另行通知**。 連結、畫面及更新的文件會在發行當日發佈於[發行說明](release-notes.md)。
 
-## 2024 年 9 月份搶先發行版本 {#e-2024}
+## 2024 年 10 月搶先發行說明 {#e-2024}
 
-**發行日期**：2024 年 9 月 24-25 日
+**發行日期**： 2024年10月29至30日
 
 ### 新功能 {#e-features}
 
 此發行版本提供下列詳細介紹的新功能。
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Content Cards for mobile apps and websites</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
-<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程與行銷活動通過核准</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>待政策通過核准，您就可以立即在 Journey Optimizer 中設定核准程序，允許行銷團隊使用，以確保行銷活動和歷程在正式上線之前，會先由合適的利害關係人負責審核並簽核。</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <table>
 <thead>
@@ -80,53 +46,38 @@ ht-degree: 95%
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>歷程中的全域退出標準</strong><br/></th>
+<th><strong>歷程與行銷活動中的核准（一般可用性）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在您可以在歷程層級為退出標準下定義。透過新增退出標準，一旦出現事件 (例如：購買)，或是符合對象資格時，您就可以馬上讓設定檔退出歷程。這能阻止使用者從歷程處取得任何進一步通訊資料。</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
+<p>待政策通過核准，您就可以立即在 Journey Optimizer 中設定核准程序，允許行銷團隊使用，以確保行銷活動和歷程在正式上線之前，會先由合適的利害關係人負責審核並簽核。</p>
+<p>核准原則先前可用於一組組織(LA)，現在可供所有使用者使用(GA)。</p>
+<p>如需詳細資訊，請參閱<a href="../test-approve/gs-approval.md">詳細文件</a>。</p>
+<img src="assets/do-not-localize/approval.gif"/>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Code-based experiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
-<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table-->
-
 
 <table>
 <thead>
 <tr>
-<th><strong>AI 助理內容加速器 </strong><br/></th>
+<th><strong>電子郵件設定個人化（全面發佈）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>在您建立並個人化訊息後，請使用Journey Optimizer中的AI Assistant Content Accelerator將您的內容提升到新的境界。 您現在可以使用AI Assistant，透過實驗不同的主要標題和影像來最佳化訊息的影響。 每個變體都會視為獨特的處理來管理，以測量並比較哪個標題能有效產生更多點按次數。</p>
-<p>透過<a href="https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，沉浸在親身體驗中，讓您親身體驗實際功能並充分瞭解其功能。</a></p>
-<p>如需詳細資訊，請參閱<a href="../content-management/gs-generative.md">詳細文件</a>。</p>
-<img src="assets/do-not-localize/ai-content.gif"/>
-<p>推出日期為：9 月 12 日</p>
+<p>您可以在建立電子郵件管道設定時，馬上定義動態子網域和個人化標題參數，就能提高電子郵件設定彈性，更能夠掌握得當。</p>
+<p>先前可用於一組組織(LA)，現在所有使用者都可使用電子郵件設定個人化(GA)。</p>
+<p>如需詳細資訊，請參閱<a href="../email/surface-personalization.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -135,78 +86,214 @@ ht-degree: 95%
 <table>
 <thead>
 <tr>
-<th><strong>引導式頻道設定</strong><br/></th>
+<th><strong>網頁設計工具的非視覺化編輯模式</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>引導式頻道設定讓您可以透過統一體驗，將頻道設定自動化，並加以驗證，便可使用 Journey Optimizer，加速快速入門的流程。 這項全新引導式設定能簡化快速頻道設定，確保能在 Experience Platform、Journey Optimizer 和資料彙集中，輕鬆安裝所有必要資源，確保一切運作都能順暢。這讓行銷、產品和資料工程團隊可以快速展開行銷活動，同時建立歷程。</p>
-<p>如需詳細資訊，請參閱<a href="../configuration/set-mobile-config.md">詳細文件</a>。</p>
-<img src="assets/do-not-localize/guided-setup.gif"/>
-<p>推出日期：9 月 3 日</p>
-</br>
+<p>作為Journey Optimizer網頁設計工具的替代方案，您現在可以使用非視覺化編輯器來新增修改至您的網站。 它可讓您手動輸入變更，而不需在視覺編輯器中開啟頁面。
+如果您無法安裝瀏覽器擴充功能(例如Adobe Experience Cloud Visual Helper)，這種非視覺化編輯模式相當實用；在Web設計工具中載入頁面需要此擴充功能。</p>
+<!--p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Mobile Ink與Adobe Journey Optimizer整合</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以整合Mobile Ink Da Vinci與Adobe Journey Optimizer。 透過這項新整合，您可以： </p>
+<p><ul><li>利用Mobile Ink的Da Vinci產品中的強大功能，為批次行銷活動組合和個人化電子郵件變體</li>
+<li>使用Da Vinci進行製作和AJO進行最佳化和交付的Journey Optimizer客戶，加速從業者工作流程</li>
+<li>使用Adobe資料最佳化達文西模型。</li></ul></p>
+<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程中的實驗（全面發佈）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer 現在支援歷程的實驗，行銷活動已提供此功能。實驗是在線上測試的情境下進行的隨機試驗，意即某些隨機選取的使用者會接觸到訊息的指定變化，而另一組隨機選取的使用者則會接觸到一些其他處理方式。 接觸到後，您就可以測量感興趣的結果量度，例如電子郵件開啟、訂閱或購買數。</p>
+<p>之前可用於一組組織(LA)，現在所有使用者(GA)都可以使用歷程中的實驗。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>業務規則（一般可用性）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以建立精細的頻率上限規則，並透過規則集將其套用至不同型別的行銷通訊。 這項新功能可讓您設定跨頻道規則，控制對象接收訊息的頻率，這些規則會自動從訊息和動作中排除過度請求的設定檔。</p>
+<p>規則集先前可用於一組組織(LA)，現在則可用於所有使用者(GA)。</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程與行銷活動中的多語言訊息（全面發佈）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以在單一行銷活動或歷程中，輕鬆建立多種語言的內容。透過此功能，您可以在編輯行銷活動或歷程時切換語言、簡化整個編輯流程，並提高有效管理多種語言內容的能力。</p>
+<p>先前可供一組組織(LA)使用，現在所有使用者都可使用多語言訊息(GA)。</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>更新的報告體驗（一般可用性）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer報告功能現已正式推出(GA)，且與Customer Journey Analytics功能的互通性也得以改善，將兩個平台的報告標準化，並改善資料一致性和可靠性。 Journey Optimizer 與 Customer Journey Analytics 之間的緊密整合可讓您更清楚檢視績效量度，讓使用者能做出更明智的決策。</p>
+<p>正式發行後，引進了四種新功能：建立簡易量度、建立和發佈對象、使用Insight Builder提出臨時問題，以及排程報表自動以電子郵件傳送給主要收件者。</p>
+<p>如需詳細資訊，請參閱<a href="../reports/report-cja-manage.md">詳細文件</a>。</p>
+<img src="assets/do-not-localize/ajo-cja.gif">
+<p>推出日期：2024 年 10 月 16 日</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程中的程式碼型體驗</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>透過程式碼型體驗管道，Adobe Journey Optimizer 可讓您針對任何傳入屬性進行進階個人化及測試，跨不同接觸點 (例如網頁應用程式、行動應用程式、桌面應用程式、視訊主控台、電視連結的裝置、智慧型電視、資訊站、ATM、IoT 裝置等) 達成量身打造的無縫傳遞體驗。程式碼型體驗管道現可在歷程版面中使用。</p>
+<p>如需詳細資訊，請參閱<a href="../code-based/create-code-based.md">詳細文件</a>。</p>
+<img src="../assets/do-not-localize/code-based-journey.gif"/>
+<p>推出日期：2024 年 10 月 1 日</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程中的網站體驗</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>有了網頁管道，Adobe Journey Optimizer 可讓您將透過傳入網頁歷程向客戶提供的網站體驗個人化。網頁管道現可在歷程版面中使用。</p>
+<p>如需詳細資訊，請參閱<a href="../web/create-web.md">詳細文件</a>。</p>
+<img src="../assets/do-not-localize/web-journey.gif"/>
+<p>推出日期：2024 年 10 月 1 日</p>
+</tr>
+</tbody>
+</table>
+
+>[!IMPORTANT]
+>
+>目前的報告體驗將於2025年1月淘汰。 在此日期之後，新的報告體驗將成為標準體驗。建議您自行熟悉新功能，以確保順利轉換。
+>
+> [了解如何開始使用 Journey Optimizer 的新報表介面](../reports/report-gs-cja.md)
+
 
 ### 改進項目 {#e-improvements}
 
 此發行版本隨附下列改進項目。
 
-**對象**
+**簡訊頻道**
 
-* 自訂上傳的對象 (CSV 檔案) 現在可與「隱私權與安全防護板」附加功能搭配使用。
-  <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
-* (推出日期為：9 月 17 日) **授權使用情況** - 授權使用情況控制面板會立即顯示可互動設定檔，而非可互動對象。[了解更多](../audience/license-usage.md)
+已引進簡訊增強功能來改善您的傳訊功能：
 
-**資料控管**
+* 您可以定義和管理簡訊行銷活動和歷程的唯一關鍵字，以實現更個人化且有效率的通訊。
+* 當關鍵字無法辨識時，您可以建立並傳遞預設簡訊。
 
-* 除了歷程中的自訂動作之外，您現在還可以將資料治理原則套用至 Journey Optimizer 頻道。此增強功能有助於阻止在通訊中使用敏感欄位，方法就是直接到頻道設定處套用行銷動作。
+**頻率和優先順序管理**
 
-<!--
-**Frequency and priority management**
+* **依行銷活動或歷程設定頻率上限** — 您現在可以建立頻率規則以套用至您的歷程，讓您限制每日、每週或每月的歷程次數，並控制同時執行的並行歷程次數。
 
-* **Frequency capping by campaign or journey** - You can now create frequency rules to apply to your journeys, allowing you to limit the number of journeys per day, week, or month, as well as control the number of concurrent journeys running simultaneously.
+* **優先順序分數** — 您現在可以指派優先順序分數至行銷活動或歷程，範圍從0到100。 數字越高表示優先順序越高。 當兩個行銷活動或歷程使用相同的介面時，Journey Optimizer會選取優先順序分數最高的行銷活動或歷程。 如果行銷活動具有相同的分數，將會選擇最近修改的行銷活動。 優先順序分數適用於行銷活動中的所有傳入頻道，以及歷程中的應用程式內頻道。
 
-* **Priority score** - You can now assign a priority score to a campaign or a journey, ranging from 0 to 100. A higher number indicates a higher priority. When two campaigns or journeys use the same surface, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was most recently modified will be chosen. Priority score is available for all inbound channels in campaigns, and for the in-app channel in journeys.    
+* **檢視衝突** — 歷程和行銷活動中的新&#x200B;**檢視衝突**&#x200B;按鈕現在可讓您檢查與其他歷程或行銷活動重疊的可能性，例如開始日期、目標對象或選取的頻道設定。
 
-* **View conflicts** - A new **View conflicts** button in journeys and campaigns now allows you to check whenever there's a possibility of overlap with other journeys or campaigns such as the start date, the targeted audience, or the selected channel configuration.
--->
+**決策管理**
 
+* **稽核** - **變更記錄**&#x200B;索引標籤允許您檢視對優惠或決定所做的所有變更，這些變更已被移除。 與優惠和決定相關的變更現在可以在以下連結檢視：**稽核**&#x200B;選單。
+
+
+**設定**
+
+* **表面個人化** — 在行銷活動或歷程中使用個人化設定時，您現在可以預覽電子郵件內容，以使用您定義的動態設定檢查潛在錯誤。
 
 **歷程**
 
-* **即時歷程最大值** - Journey Optimizer 在生產沙箱上目前擁有 500 種即時歷程護欄，並非只有100 種。即時歷程的數目會顯示在歷程版面中。
+* **歷程中的路徑實驗** — 有了歷程路徑實驗，您現在可以定義並追蹤歷程路徑的關鍵量度，讓您測量活動的影響並提供更清楚的績效分析。
 
-* **即時報告增強功能** - 即時報告會針對您的歷程效能，提供過去 24 小時內的深入分析。我們已透過加入新的量度 (已進入、已退出、已捨棄的錯誤設定檔和設定檔) 增強此功能，允許您直接從 Journey 版面，更能深入去瞭解使用者行為和效能。
+* **即時歷程最大值** - Journey Optimizer 在生產沙箱上目前擁有 500 種即時歷程護欄，並非只有100 種。即時歷程的數量會顯示在歷程畫布中。<!-- DOCAC-10977-->
 
-* **自訂動作中的參數** - 自訂動作目前有支援無效和選用參數。
+* **存留時間護欄** — 從2024年11月1日開始，將依下列方式在Journey Optimizer系統產生的資料集上強制執行存留時間(TTL)護欄：
 
-* (推出日期為：9 月 10 日) **在讀取對象上方的自動重試功能** - 正在擷取匯出工作時，會按預設在對象觸發歷程上套用重試功能 (從&#x200B;**讀取對象**&#x200B;或&#x200B;**商業事件**&#x200B;開始)。如果在匯出工作建立期間發生錯誤，將每隔 10 分鐘進行重試，最長為 1 小時。在這之後，我們會將其視為失敗。因此，這些類型的歷程最多可以在預定時間後 1 小時執行。[了解更多](../building-journeys/read-audience.md#retries)
+   * 個人資料存放區中的資料需要90天
+   * 資料湖中的資料需要13個月
 
-**電子郵件頻道**
+此外，目前串流區段將不再支援使用追蹤和意見反應資料集中的傳送和意見反應事件。 我們建議暫時不要將這些事件用於串流分段，現在我們將完全停用它們。
 
-* **密件副本電子郵件標題** - 已將新標題加入至所有電子郵件訊息。對每封已送出的電子郵件和對應的密件副本來說，只會產生唯一的標題數值。也會將此標題儲存到訊息和密件副本回饋意見資料集那邊，允許調和密件副本，還有對應的已送出電子郵件資訊。
-* **垃圾郵件評分** (GA)：您目前可以到專用垃圾郵件報告處，檢查內容垃圾郵件評分。使用 SpamAssassin，Adobe Journey Optimizer 現在可以測試您的電子郵件內容並為其評分，以指出 ISP 或信箱提供者是否將其視為垃圾郵件。 [閱讀全文](../content-management/spam-report.md)
+* 此變更只會限制在串流區段中使用傳送/開啟事件；點選事件仍可用於串流區段。 此外，傳送/開啟事件仍可用於批次區段。
+* 系統仍會收集追蹤資料。 此變更不會影響追蹤。 您仍可追蹤電子郵件傳送對象及電子郵件點選對象。
+* 歷程中的反應事件不受此變更的影響。
 
-**簡訊頻道**
+* **自訂動作中的引數** （使用日期：2024年10月3日） — 自訂動作現在支援NULL和選用引數。 [了解更多](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
-* 您現在可以修改現有的簡訊設定。
+**資料治理與同意原則** - 推出日期：2024 年 10 月 7 日
 
-**API**
+* 已在 Journey Optimizer 的所有管道中強制執行&#x200B;**資料治理原則**。對於已在 Adobe Experience Platform 中建立原則的客戶，這些原則會在設定管道設定時套用至行銷動作。使用設定建立內容時，系統會檢查所有個人化欄位是否有任何資料治理違規。如果發現違規，將無法發佈歷程或行銷活動。[了解更多](../action/action-privacy.md)
 
-* [Adobe Journey Optimizer 的 API 文件](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}目前為互動式。直接從文件頁面那邊探索 API 端點，即可立即取得回饋意見，加快技術實作的速度。
+* **自訂同意原則**&#x200B;現在適用於所有Journey Optimizer 管道。在傳送訊息或提供傳入體驗之前強制執行時，系統會檢查使用者是否已同意在將收到的內容中使用個人化欄位。如果未予以同意，則不會顯示該體驗。[了解更多](../action/consent.md)
 
-  所有 API 參考頁面目前都有推出&#x200B;**試用版**&#x200B;功能，您就可以使用此功能，直接在文件網站頁面上測試 API 呼叫。[取得必要驗證憑證](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}，開始使用此功能，即可探索 API 端點。
-
-  使用這項新功能，即可探索從 API 端點收到的請求，還有送出的回應，立即取得回饋意見，加快技術實作速度。
-
-  >[!CAUTION]
+  >[!NOTE]
   >
-  >請注意，使用文件頁面上的互動式 API 功能時，就是在對端點進行真正的 API 呼叫。在試驗生產沙箱時，請記住這一點。
+  >同意原則目前僅適用已購買 Adobe **Healthcare Shield** 與&#x200B;**隱私權與安全性防護**&#x200B;附加產品的組織。
+
+**對象** - 推出日期： 2024 年 10 月 8 日
+
+* 當鎖定目標的 CSV 檔案對象時，您現在可於個人化編輯器與在行銷活動和歷程規則產生器，使用檔案中的屬性。[了解更多](../audience/about-audiences.md)
+
+* 現在可以使用自訂上傳 (CSV 檔案) 中的對象與屬性，來與 Healthcare Shield 或 Privacy and Security Shield 搭配使用
 
 
-* **行銷活動模擬 API** - 使用此 API 來觸發行銷活動的校訂工作。傳送行銷活動校訂是種非同步程序，API 將傳回 proofJobId，可用來檢查校訂的狀態。[了解更多](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 

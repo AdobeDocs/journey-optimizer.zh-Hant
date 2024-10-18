@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: c54ad4cddeb7115f9a069102c67c41f0850a11ed
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 90%
@@ -239,28 +239,13 @@ ht-degree: 90%
 
 **對象** - 推出日期：2024 年 9 月 17 日
 
-<!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
-* **授權使用情況** - 授權使用情況控制面板現在會顯示可互動輪廓，而非可互動對象。[了解更多](../audience/license-usage.md)
+**授權使用情況** - 授權使用情況控制面板現在會顯示可互動輪廓，而非可互動對象。[了解更多](../audience/license-usage.md)
 
 **內容管理**
 
-* 您現在可於沙箱之間匯出內容範本與片段。[了解更多](../configuration/copy-objects-to-sandbox.md)
-
-<!--**Data Governance**
-
-* You can now apply data governance policies to Journey Optimizer channels, in addition to custom actions within journeys. This enhancement helps prevent the use of sensitive fields in communications by applying marketing actions directly within your channel configurations.    -->
-
-<!--
-**Conflict and priority management**
-
-* **Priority score** - You can now assign a priority score to a campaign or a journey, ranging from 0 to 100. A higher number indicates a higher priority. When two campaigns or journeys use the same surface, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was most recently modified will be chosen. Priority score is available for all inbound channels in campaigns, and for the in-app channel in journeys.    
-
-* **View conflicts** - A new **View conflicts** button in journeys and campaigns now allows you to check whenever there's a possibility of overlap with other journeys or campaigns such as the start date, the targeted audience, or the selected channel configuration.
--->
+您現在可於沙箱之間匯出內容範本與片段。[了解更多](../configuration/copy-objects-to-sandbox.md)
 
 **歷程**
-
-<!-- DOCAC-10977 * **Max number of Live journeys** - Journey Optimizer now has a guardrail of 500 live journeys on production sandboxes, instead of 100. The number of live journeys is visible in the journey canvas.-->
 
 * **即時報告增強功能** - 即時報告會針對您的歷程效能，提供過去 24 小時內的深入分析。我們已透過加入新的量度 (已進入、已退出、已捨棄的輪廓與錯誤輪廓) 增強此功能，讓您直接從歷程版面更深入了解使用者行為與效能。[了解更多](../building-journeys/report-journey.md)
 
