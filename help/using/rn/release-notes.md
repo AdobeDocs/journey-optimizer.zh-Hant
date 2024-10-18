@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: a64cfe6a474864df02e18fdb772974d73ec58cc5
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1602'
 ht-degree: 92%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>Customer Journey Analytics報表（一般可用性）</strong><br/></th>
+<th><strong>更新的報告體驗（一般可用性）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -43,7 +43,7 @@ ht-degree: 92%
 <p>正式發行後，引進了四種新功能：建立簡易量度、建立和發佈對象、使用Insight Builder提出臨時問題，以及排程報表自動以電子郵件傳送給主要收件者。</p>
 <p>如需詳細資訊，請參閱<a href="../reports/report-cja-manage.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
-<p>推出日期：2024 年 10 月 1 日</p>
+<p>推出日期：2024 年 10 月 16 日</p>
 </tr>
 </tbody>
 </table>
