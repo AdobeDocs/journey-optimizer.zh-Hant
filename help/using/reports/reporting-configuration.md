@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: 設定，實驗，報告，最佳化工具
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: f7a0feb38b902b14c402f631cb5c77c1e329886e
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 30%
+source-wordcount: '585'
+ht-degree: 29%
 
 ---
 
-# 報告和實驗先決條件 {#reporting-configuration}
+# 報告與實驗先決條件 {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
@@ -77,6 +77,10 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 -->
 
 ## 新增資料集 {#add-datasets}
+
+>[!NOTE]
+>
+>任何新建立的資料集將只能在Customer Journey Analytics報表中使用。
 
 1. 從&#x200B;**[!UICONTROL 管理]**&#x200B;功能表，選取&#x200B;**[!UICONTROL 組態]**。 在&#x200B;**[!UICONTROL 報表]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 管理]**。
 
