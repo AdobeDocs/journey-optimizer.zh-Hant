@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 關於新的存留時間(TTL)護欄
-description: Adobe Journey Optimizer新的存留時間(TTL)護欄
+title: 關於存留時間(TTL)和串流細分變更
+description: Adobe Journey Optimizer中的存留時間和串流細分變更
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform、資料湖、建立、湖、資料集、輪廓
-source-git-commit: f16ce53f61d64d23f530d007e0124a84e2cc3405
+source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '388'
 ht-degree: 5%
 
 ---
 
 
-# 存留時間(TTL)和串流細分更新 {#ttl-guardrail}
+# 存留時間和串流細分變更 {#ttl-guardrail}
 
 ## 存留時間(TTL)護欄 {#ttl}
 
@@ -49,7 +49,7 @@ CJA中的資料會與Experience Platform保持同步。 因此，因系統產生
 
 ## 串流區段更新 {#segmentation-update}
 
-此外，11月1日起，串流區段將不再支援使用追蹤和意見資料集中的傳送和意見回饋事件。 有關過去不鼓勵此作法的資訊，請參閱[這裡](../audience/about-audiences.md#streaming-segmentation-events-guardrails)。
+此外，11月1日起，串流區段將不再支援使用追蹤和意見資料集中的傳送和意見回饋事件。  有關過去不鼓勵此作法的資訊，請參閱[這裡](../audience/about-audiences.md#streaming-segmentation-events-guardrails)。
 
 
 **常見問題**
