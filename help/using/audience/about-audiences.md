@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+source-git-commit: b09a66743770eff9da7f183a1bf8de0d241db3d0
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2279'
 ht-degree: 17%
 
 ---
@@ -45,11 +45,12 @@ ht-degree: 17%
 
 ## 在[!DNL Journey Optimizer]中鎖定對象 {#segments-in-journey-optimizer}
 
-您可以在行銷活動和歷程中選取使用區段定義、自訂上傳或組合工作流程產生的任何對象。
+您可以在行銷活動和歷程中選取使用區段定義、自訂上傳、組合工作流程或同盟對象組合產生的任何對象。
 
 >[!AVAILABILITY]
 >
->受眾構成中的受眾和屬性目前無法用於Healthcare Shield或Privacy and Security Shield。 [瞭解如何在Journey Optimizer中使用對象擴充屬性](../audience/about-audiences.md#enrichment)
+>
+受眾構成中的受眾和屬性目前無法用於Healthcare Shield或Privacy and Security Shield。 [瞭解如何在Journey Optimizer中使用對象擴充屬性](../audience/about-audiences.md#enrichment)
 
 您可以在 **[!DNL Journey Optimizer]** 中以不同方式善用客群：
 
@@ -63,11 +64,11 @@ ht-degree: 17%
 
   >[!NOTE]
   >
-  >由於使用構成工作流程和自訂上傳建立的對象批次性質，您無法在「對象資格」活動中鎖定這些對象。 此活動中只能運用使用區段定義建立的對象。
+  >由於使用構成工作流程、自訂上傳或同盟對象構成所建立的對象批次性質，您無法在「對象資格」活動中鎖定這些對象。 此活動中只能運用使用區段定義建立的對象。
 
 ## 使用對象擴充屬性 {#enrichment}
 
-使用構成工作流程或自訂（CSV檔案）對象產生的對象為目標時，您可以利用這些對象的擴充屬性來建立您的歷程並個人化您的訊息。
+使用構成工作流程、自訂（CSV檔案）對象或同盟對象構成所產生的對象為目標時，您可以利用這些對象的擴充屬性來建立您的歷程並個人化您的訊息。
 
 >[!NOTE]
 >
@@ -105,21 +106,21 @@ ht-degree: 17%
 >
 +++
 
-## 自訂上傳（CSV檔案）對象 {#csv}
+## 自訂上傳和同盟受眾構成受眾 {#csv}
 
-本節提供處理自訂上傳（CSV檔案）對象時要牢記的關鍵資訊：
+本節提供處理自訂上傳（CSV檔案）和同盟對象構成對象時，請謹記的重要資訊：
 
-* **CSV對象的預覽和校訂支援：**&#x200B;目前，使用CSV上傳建立的對象不支援預覽和校訂。 在規劃行銷活動時，請記住這一點。
+* **預覽和校訂支援：**&#x200B;目前，使用CSV上傳或同盟對象構成所建立的對象不支援預覽和校訂。 在規劃行銷活動時，請記住這一點。
 
-* **快速啟用與身分拼接延遲：** Adobe Experience Platform架構會延遲身分拼接，讓自訂上傳對象可立即在Journey Optimizer中啟用，並造成下列影響：
+* **快速啟用與身分拼接延遲：** Adobe Experience Platform架構會延遲身分拼接，讓自訂上傳和同盟對象構成對象可立即在Journey Optimizer中啟用，並造成下列影響：
 
    * 內嵌完成之後，對象就可以直接在Journey Optimizer中使用。 雖然這通常在一小時內完成，但可能會有所變動。
    * 啟用的記錄數可能與身分拼接後的設定檔數不同。
-   * CSV檔案中的每個記錄都將啟動，包括任何重複專案。 在下次UPS設定檔匯出期間，這些記錄將進行身分拼接。
+   * 對象中的每個記錄都將啟動，包括任何重複專案。 在下次UPS設定檔匯出期間，這些記錄將進行身分拼接。
 
-* **從CSV上傳鎖定新設定檔：**&#x200B;當CSV記錄和UPS設定檔之間找不到相符專案時，會建立新的空白設定檔。 此設定檔連結至儲存在Data Lake中的擴充屬性。 由於此新設定檔為空白，因此Journey Optimizer中通常使用的目標定位欄位（例如personalEmail.address、mobilePhone.number）為空白，因此無法用於目標定位。
+* **鎖定新設定檔：**&#x200B;當記錄和UPS設定檔之間找不到相符專案時，會建立新的空白設定檔。 此設定檔連結至儲存在Data Lake中的擴充屬性。 由於此新設定檔為空白，因此Journey Optimizer中通常使用的目標定位欄位（例如personalEmail.address、mobilePhone.number）為空白，因此無法用於目標定位。
 
-  若要解決此問題，您可以在通道設定中將「執行欄位」（或「執行地址」，視通道而定）指定為「identityMap」。 這將確保在CSV上傳期間選擇作為身分的屬性將是用於在Journey Optimizer中定位的屬性。
+  若要解決此問題，您可以在通道設定中將「執行欄位」（或「執行地址」，視通道而定）指定為「identityMap」。 這將確保在建立受眾時選擇作為身分的屬性將是用於在Journey Optimizer中定位的屬性。
 
 ## 客群評估方法 {#evaluation-method-in-journey-optimizer}
 
