@@ -6,7 +6,7 @@ level: Beginner
 badge: label="有限可用性"
 hide: true
 hidefromtoc: true
-source-git-commit: d53d4ee40771e3f74ccd801cf22598b69661a403
+source-git-commit: 9e7c70c45fc49946c18617c6a5b81383b73da248
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 2%
@@ -102,7 +102,7 @@ ht-degree: 2%
 
 1. 按一下畫面右上角「新增規則」按鈕旁的省略符號按鈕，啟動整個規則集。
 
-   ![](assets/journey-capping-activate-rule-set.png){width="50%" zommable="yes"}
+   ![](assets/journey-capping-activate-rule-set.png)
 
 ## 將上限規則套用至歷程 {#apply-capping}
 
