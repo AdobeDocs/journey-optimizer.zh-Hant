@@ -6,9 +6,9 @@ feature: In App
 level: Intermediate
 keywords: 應用程式內、訊息、設定、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '866'
 ht-degree: 9%
 
 ---
@@ -121,13 +121,13 @@ ht-degree: 9%
 
 瞭解如何在[本節](../reports/reporting-configuration.md#add-datasets)中新增資料集以進行報告。
 
-如果您&#x200B;**不**&#x200B;使用下列資料集結構描述的預先定義[欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： `AEP Web SDK ExperienceEvent`和`Consumer Experience Event` （如[此頁面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}中所定義），請務必新增下列欄位群組： `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`和`Web Details`。 [!DNL Journey Optimizer]內容實驗報告需要這些專案，因為它們正在追蹤每個設定檔參與哪些實驗和處理方式。
+如果您&#x200B;**不**&#x200B;使用下列資料集結構描述的預先定義[欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： `AEP Web SDK ExperienceEvent`和`Consumer Experience Event` （如[此頁面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}中所定義），請務必新增下列欄位群組： `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`和`Web Details`。 [!DNL Journey Optimizer]報告需要這些資料，因為它們正在追蹤每個設定檔參與了哪些行銷活動和歷程。
 
 [深入瞭解報告設定](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >
->新增這些欄位群組不會影響正常的資料收集。 它僅適用於執行實驗的頁面，而保留所有其他追蹤不變。
+>新增這些欄位群組不會影響正常的資料收集。 它僅適用於執行行銷活動或歷程的頁面，而保留所有其他追蹤不變
 
 **相關主題：**
 

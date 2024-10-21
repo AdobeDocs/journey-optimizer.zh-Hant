@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: c5308cfdb237fcf563886db1dfca257d23bb4449
+source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1183'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 3%
 * 若要存取[!DNL Journey Optimizer]網頁設計工具，您必須安裝特定的Google Chrome瀏覽器擴充功能。 [了解更多](#visual-authoring-prerequisites)
 
 * 若要正確傳遞Web體驗，請務必在[這裡](#delivery-prerequisites)定義詳細的Adobe Experience Platform設定。
+
+* 若要啟用Web Channel的報告，您必須確定您的Web實作資料流中使用的資料集也包含在您的報告設定中。 [了解更多](#experiment-prerequisites)
 
 >[!IMPORTANT]
 >
@@ -138,13 +140,13 @@ ht-degree: 3%
 >
 >資料集由[!DNL Journey Optimizer]報告系統以唯讀方式使用，不會影響資料收集或資料擷取。
 
-如果您&#x200B;**不**&#x200B;使用下列資料集結構描述的預先定義[欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： `AEP Web SDK ExperienceEvent`和`Consumer Experience Event` （如[此頁面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}中所定義），請務必新增下列欄位群組： `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`和`Web Details`。 [!DNL Journey Optimizer]內容實驗報告需要這些專案，因為它們正在追蹤每個設定檔參與哪些實驗和處理方式。
+如果您&#x200B;**不**&#x200B;使用下列資料集結構描述的預先定義[欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： `AEP Web SDK ExperienceEvent`和`Consumer Experience Event` （如[此頁面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}中所定義），請務必新增下列欄位群組： `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`和`Web Details`。 [!DNL Journey Optimizer]報告需要這些資料，因為它們正在追蹤每個設定檔參與了哪些行銷活動和歷程。
 
 [深入瞭解報告設定](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >
->新增這些欄位群組不會影響正常的資料收集。 它僅適用於執行實驗的頁面，而保留所有其他追蹤不變。
+>新增這些欄位群組不會影響正常的資料收集。 它僅適用於執行行銷活動或歷程的頁面，而保留所有其他追蹤不變。
 
 ## 資產的品牌網域 {#branded-domains-for-assets}
 
