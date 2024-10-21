@@ -7,9 +7,9 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform、資料湖、建立、湖、資料集、輪廓
-source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
+source-git-commit: a88cb8fbf324bc9c03bc7570b6637e8c95f43a20
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '401'
 ht-degree: 5%
 
 ---
@@ -49,8 +49,7 @@ CJA中的資料會與Experience Platform保持同步。 因此，因系統產生
 
 ## 串流區段更新 {#segmentation-update}
 
-此外，11月1日起，串流區段將不再支援使用追蹤和意見資料集中的傳送和意見回饋事件。  有關過去不鼓勵此作法的資訊，請參閱[這裡](../audience/about-audiences.md#streaming-segmentation-events-guardrails)。
-
+此外，11月1日起，串流區段將不再支援使用追蹤和意見資料集中的傳送和意見回饋事件。  有關過去不鼓勵此作法的資訊，請參閱[這裡](../audience/about-audiences.md#streaming-segmentation-events-guardrails)。 此次變更將套用至所有客戶沙箱和組織。
 
 **常見問題**
 
