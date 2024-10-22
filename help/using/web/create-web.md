@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1150'
 ht-degree: 13%
 
 ---
@@ -122,7 +122,7 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->從9月版本開始，全新的行銷活動和歷程啟用體驗可讓您管理整個核准流程，確保行銷活動和歷程在投入使用前皆由適當的利害關係人徹底審查和核准。 此功能在「有限可用性」中提供。 [了解更多](../test-approve/gs-approval.md)
+> 如果您的行銷活動受核准原則的約束，您將需要請求核准才能啟用您的網站體驗。 [了解更多](../test-approve/gs-approval.md)
 
 一旦您定義了您的網頁體驗，並視需要使用[網頁設計工具](edit-web-content.md#work-with-web-designer)編輯您的內容後，您就可以啟動您的歷程或行銷活動，讓您的變更對您的對象可見。
 

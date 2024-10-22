@@ -4,20 +4,19 @@ description: 瞭解如何建立和管理核准政策。
 role: User
 level: Beginner
 feature: Approval
-badge: label="限量開放使用" type="Informative"
-source-git-commit: cd46b3346e284958e6f3f9fa641b548f68672000
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 5%
+source-wordcount: '432'
+ht-degree: 3%
 
 ---
 
 
 # 建立及管理核准原則 {#approval-policies}
 
->[!AVAILABILITY]
+>[!NOTE]
 >
-> 核准原則目前僅適用於一組組織（可用性限制）。 如需存取權，請和您的 Adobe 代表聯絡。
+>若要建立核准原則，您必須在Adobe Experience Platform中擁有系統或產品管理員許可權。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 核准政策可讓管理員建立歷程與行銷活動的驗證流程。 此系統概述特定條件，決定是否需要核准歷程或行銷活動。 這些政策在複雜度上可能有所差異，從僅要求所有行銷活動由特定使用者或團隊檢閱，到根據行銷活動的建立者來建立條件。
 

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '443'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->從9月版本開始，全新的行銷活動和歷程啟用體驗可讓您管理整個核准流程，確保行銷活動和歷程在投入使用前皆由適當的利害關係人徹底審查和核准。 此功能在「有限可用性」中提供。 [了解更多](../test-approve/gs-approval.md)
+> 如果您的行銷活動受核准政策的約束，您將需要請求核准才能傳送您的直接郵件行銷活動。 [了解更多](../test-approve/gs-approval.md)
 
 在啟用直接郵件行銷活動之前，請確定已正確設定行銷活動和擷取檔案。 若要這麼做，請檢查編輯器上半區段的警示。 其中一些是簡單的警告，但其他警告可能會阻止您傳送訊息。 可能會發生兩種型別的警報：警告和錯誤。
 

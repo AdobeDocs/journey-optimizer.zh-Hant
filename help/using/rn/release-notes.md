@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c54ad4cddeb7115f9a069102c67c41f0850a11ed
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1652'
 ht-degree: 90%
 
 ---
@@ -29,6 +29,23 @@ ht-degree: 90%
 下面列出的[功能](#24-10-features)和[改進](#24-10-improvements)已於本月發行。
 
 ### 新功能 {#24-10-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程與行銷活動中的核准（一般可用性）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>待政策通過核准，您就可以立即在 Journey Optimizer 中設定核准程序，允許行銷團隊使用，以確保行銷活動和歷程在正式上線之前，會先由合適的利害關係人負責審核並簽核。</p>
+<p>如需詳細資訊，請參閱<a href="../test-approve/gs-approval.md">詳細文件</a>。</p>
+<img src="assets/do-not-localize/approval.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

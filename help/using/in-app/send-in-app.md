@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 12%
+source-wordcount: '389'
+ht-degree: 13%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 12%
 
 >[!IMPORTANT]
 >
->從9月版本開始，全新的行銷活動和歷程啟用體驗可讓您管理整個核准流程，確保行銷活動和歷程在投入使用前皆由適當的利害關係人徹底審查和核准。 此功能在「有限可用性」中提供。 [了解更多](../test-approve/gs-approval.md)
+> 如果您的行銷活動受核准政策的約束，您將需要請求核准才能傳送您的應用程式內通知。 [了解更多](../test-approve/gs-approval.md)
 
 建立應用程式內訊息，並定義內容與個人化後，您就可以檢閱並啟用該訊息。
 

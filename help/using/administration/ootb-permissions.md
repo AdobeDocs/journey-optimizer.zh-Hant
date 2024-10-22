@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 許可權，製作，訊息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '792'
 ht-degree: 2%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 2%
 
 | 功能 | 權限 |
 |-|-|
-| AI 助理 | **[!DNL Generate content]**：存取Journey Optimizer中的AI Assistant Content Accelerator。 |
-| 行銷活動 | **[!DNL Manage campaigns]**：讀取、建立、編輯和刪除行銷活動。 </br>**[!DNL Publish campaigns]**：發佈行銷活動的權利。</br>**[!DNL View campaigns]**：行銷活動的唯讀存取權。 </br>**[!DNL View campaigns report]**：讀取和編輯行銷活動報告。 |
+| AI 助理 | **[!DNL Generate content]**：存取Journey Optimizer中的AI助理內容加速器。 |
+| 行銷活動 | **[!DNL Approve & publish Campaigns]**：套用原則時核准和發佈行銷活動的權利。 </br>**[!DNL Manage campaigns]**：讀取、建立、編輯和刪除行銷活動。</br>**[!DNL Publish campaigns]**：發佈行銷活動的權利。</br>**[!DNL View campaigns]**：行銷活動的唯讀存取權。</br>**[!DNL View campaigns report]**：讀取和編輯行銷活動報告。 |
 | 頻道設定 | **[!DNL Export suppression list]**：存取將隱藏清單匯出為CSV檔案的許可權。</br>**[!DNL Manage alerts]**：啟用/停用行銷活動、訊息和權益的警示。</br> **[!DNL Manage file routing]**：讀取、建立、編輯和刪除檔案路由設定。</br> **[!DNL Manage IP pools]**：讀取、建立、編輯和刪除ip集區。 </br>**[!DNL Manage landing page settings]**：讀取、建立、編輯和刪除登入頁面設定。</br> **[!DNL Manage messages general settings]**：讀取、建立、編輯和刪除訊息一般設定。</br>**[!DNL Manage messages presets]**：讀取、建立、編輯和刪除內容品牌。</br>**[!DNL Manage PTR records]**：讀取和編輯PTR記錄。 </br>**[!DNL Manage SMS settings]**：讀取、建立、編輯及刪除SMS設定。</br>**[!DNL Manage SMS subdomains]**：讀取、建立、編輯及刪除SMS子網域。</br> **[!DNL Manage Seedlist]**：讀取、建立、編輯和刪除Seedlist。</br> **[!DNL Manage subdomains delegation]**：讀取、建立、編輯和刪除子網域委派。 </br>**[!DNL Manage suppression rules]**：存取讀取、建立、編輯和刪除隱藏規則。</br> **[!DNL View channel surfaces]**：對頻道介面的唯讀存取權。</br>**[!DNL View file routing]**：檔案路由設定的唯讀存取權。</br>**[!DNL View messages general settings]**：訊息一般設定的唯讀存取權。</br> **[!DNL View messages presets]**：訊息預設集的唯讀存取權。</br> **[!DNL View PTR records]**：對PTR記錄的唯讀存取權。</br>**[!DNL View suppression list]**：讀取和匯出本機隱藏清單。 |
 | 儀表板 | **[!DNL View license usage dashboards]**： [授權使用量儀表板](../audience/license-usage.md)的唯讀存取權。 </br>**[!DNL Manage custom dashboards]**：可讓您建立新儀表板或編輯現有儀表板。</br>**[!DNL Manage standard dashboards]**：可讓您建立自訂Widget，並透過Widget資料庫編輯Widget結構描述。</br>**[!DNL View custom dashboards]**：使用者定義儀表板的唯讀存取權。</br>**[!DNL View standard dashboards]**：「設定檔」、「目的地」和「對象」儀表板的唯讀存取權。 |
 | 資料彙集 | **[!DNL Manage datastream]**：讀取、建立和編輯資料串流。</br>**[!DNL View datastream]**：資料串流的唯讀存取權。 |
@@ -37,7 +37,7 @@ ht-degree: 2%
 | 身分管理 | **[!DNL Manage identity namespaces]**：讀取、建立及編輯身分識別名稱空間。</br>**[!DNL Manage identity settings]**：讀取、建立及編輯身分設定。</br>**[!DNL View identity namespaces]**：識別名稱空間的唯讀存取權。</br>**[!DNL View identity settings]**：對身分設定的唯讀存取權。</br>**[!DNL View identity graph]**：身分圖表的唯讀存取權。 |
 | Journey Optimizer資料庫 | **[!DNL Manage Library Items]**：新增並刪除[!DNL Journey Optimizer]資料庫中已儲存的運算式。</br>**[!DNL Simulate content]**：存取預覽和校訂的模擬內容選項。</br>**[!DNL Publish fragments]**：發佈內容片段。 |
 | Journey Optimizer規則 | **[!DNL Manage frequency rules]**：存取、建立、編輯或刪除訊息頻率規則。</br>**[!DNL View frequency rules]**：規則的唯讀存取權。 |
-| 歷程 | **[!DNL Manage journeys]**：讀取、建立、編輯和刪除歷程。 若要存取及管理歷程，請將此許可權與&#x200B;**[!DNL View journeys events, data sources and actions]**&#x200B;結合。</br>**[!DNL Manage journeys events, data sources and actions]**：讀取、建立、編輯和刪除事件、來源或動作。</br>**[!DNL Publish journeys]**：發佈歷程。</br>**[!DNL View journeys]**：歷程的唯讀存取權。</br>**[!DNL View journeys events, data sources and actions]**：歷程事件、歷程自訂動作和歷程資料來源的唯讀存取權。</br>**[!DNL View journeys report]**：讀取及編輯歷程報告。</br> |
+| 歷程 | **[!DNL Approve & publish Journeys]**：套用原則時核准和發佈歷程的權利。</br> **[!DNL Manage journeys]**：讀取、建立、編輯和刪除歷程。 若要存取及管理歷程，請將此許可權與&#x200B;**[!DNL View journeys events, data sources and actions]**&#x200B;結合。</br>**[!DNL Manage journeys events, data sources and actions]**：讀取、建立、編輯和刪除事件、來源或動作。</br>**[!DNL Publish journeys]**：發佈歷程。</br>**[!DNL View journeys]**：歷程的唯讀存取權。</br>**[!DNL View journeys events, data sources and actions]**：歷程事件、歷程自訂動作和歷程資料來源的唯讀存取權。</br>**[!DNL View journeys report]**：讀取及編輯歷程報告。</br> |
 | 設定檔管理 | **[!DNL Evaluate a segment to an audience]**：評估區段定義，產生對象的設定檔。</br>**[!DNL Export audience segments]**：將評估過的對象區段匯出至資料集。</br>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</br>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除用於客戶設定檔的資料集。 對可用設定檔的唯讀存取權。</br>**[!DNL View merge policies]**：可用合併原則的唯讀存取權。</br>**[!DNL View profiles]**：可用設定檔的唯讀存取權。</br>**[!DNL View segments]**：可用對象的唯讀存取權。 |
 | 查詢服務 | **[!DNL Manage queries]**：讀取、建立、編輯和刪除Platform資料的結構化SQL查詢。</br>**[!DNL Manage query service integration]**：建立、更新和刪除查詢服務存取權不會到期的認證。 |
 | 報告 | **[!DNL View channel reports]**：讀取和編輯頻道報告。 |

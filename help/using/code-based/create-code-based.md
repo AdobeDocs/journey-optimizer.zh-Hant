@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1714'
 ht-degree: 7%
 
 ---
@@ -219,7 +219,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->從9月版本開始，全新的行銷活動和歷程啟用體驗可讓您管理整個核准流程，確保行銷活動和歷程在投入使用前皆由適當的利害關係人徹底審查和核准。 此功能在「有限可用性」中提供。 [了解更多](../test-approve/gs-approval.md)
+> 如果您的行銷活動受核准原則的約束，您將需要請求核准，才能啟用您的程式碼型體驗。 [了解更多](../test-approve/gs-approval.md)
 
 定義程式碼型體驗並使用[程式碼型編輯器](#edit-code)視需要編輯內容後，您就可以啟用歷程或行銷活動，讓您的變更對對象可見。
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-badge: label="限量開放使用" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+badge: label="可用性限制" type="Informative"
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '646'
 ht-degree: 6%
 
 ---
@@ -142,7 +142,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->從9月版本開始，全新的行銷活動和歷程啟用體驗可讓您管理整個核准流程，確保行銷活動和歷程在投入使用前皆由適當的利害關係人徹底審查和核准。 此功能在「有限可用性」中提供。 [了解更多](../test-approve/gs-approval.md)
+> 如果您的行銷活動受核准政策的約束，您將需要請求核准才能傳送您的多語言行銷活動或歷程。 [了解更多](../test-approve/gs-approval.md)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

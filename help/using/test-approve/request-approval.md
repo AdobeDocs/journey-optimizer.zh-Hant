@@ -4,20 +4,15 @@ description: 瞭解在發佈您的歷程與行銷活動之前，如何請求核�
 role: User
 level: Beginner
 feature: Approval
-badge: label="限量開放使用" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 3%
+source-wordcount: '325'
+ht-degree: 1%
 
 ---
 
 
 # 請求核准 {#request-approval}
-
->[!AVAILABILITY]
->
-> 核准原則目前僅適用於一組組織（可用性限制）。 如需存取權，請和您的 Adobe 代表聯絡。
 
 如果您的組織已啟用核准工作流程功能，您會注意到&#x200B;**[!UICONTROL 啟用]**&#x200B;和&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕分別無法在建立行銷活動和建立歷程工作流程中使用。 這些按鈕已由&#x200B;**[!UICONTROL 要求核准]**&#x200B;按鈕取代。
 

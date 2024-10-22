@@ -4,20 +4,15 @@ description: 瞭解如何檢閱及核准歷程與行銷活動發佈的請求。
 role: User
 level: Beginner
 feature: Approval
-badge: label="限量開放使用" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 2%
+source-wordcount: '343'
+ht-degree: 0%
 
 ---
 
 
 # 檢閱及核准請求 {#approve-requests}
-
->[!AVAILABILITY]
->
-> 核准原則目前僅適用於一組組織（可用性限制）。 如需存取權，請和您的 Adobe 代表聯絡。
 
 如果核准原則適用於歷程或行銷活動，則需要提交核准才能發佈。 若要這麼做，歷程/行銷活動建立者會傳送要求給核准原則中定義的核准者，且歷程/行銷活動取得&#x200B;**[!UICONTROL 稽核中]**&#x200B;狀態。
 
@@ -51,3 +46,7 @@ ht-degree: 2%
 ![](assets/request-changes.png)
 
 傳送請求後，歷程/行銷活動建立者會透過電子郵件和Journey Optimizer警報收到通知。 行銷活動會回到「草稿」狀態。 整合變更後，歷程/行銷活動建立者可以重新提交以進行核准。
+
+>[!NOTE]
+>
+> 如果您未透過電子郵件收到核准通知，則需要在Experience Cloud設定檔中更新訂閱偏好設定。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences)

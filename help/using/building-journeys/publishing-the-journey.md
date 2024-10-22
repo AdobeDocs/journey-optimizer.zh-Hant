@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '269'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,13 @@ ht-degree: 5%
 如果您停止歷程，歷程將會永久停止。 歷程中的所有人員將永久停止，且歷程將停止允許新入口。 如果您需要再次使用歷程，則需要複製並發佈。
 
 1. 發佈歷程之前，請確認其有效且沒有錯誤。 您將無法發佈含有錯誤的歷程。 請參閱[此節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)。 也建議您在發佈前測試您的歷程。 請參閱[此頁面](../building-journeys/testing-the-journey.md)。
+
 1. 若要發佈歷程，請按一下右上角下拉式功能表中的&#x200B;**[!UICONTROL Publish]**&#x200B;選項。
+
+   >[!NOTE]
+   >
+   > 如果您的歷程受限於核准政策，您將需要請求核准才能發佈您的歷程。 [了解更多](../test-approve/gs-approval.md)
+
 
    ![](assets/journeyuc1_18.png)
 
