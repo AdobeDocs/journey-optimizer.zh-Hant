@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
+source-git-commit: 972d517ec2a5779f8c3196b40f1418b9c207d791
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2147'
 ht-degree: 94%
 
 ---
@@ -195,94 +195,96 @@ ht-degree: 94%
       + [建立和管理核准原則](using/test-approve/approval-policies.md)
       + [請求核准](using/test-approve/request-approval.md)
       + [核准請求](using/test-approve/review-approve-request.md)
-+ 電子郵件頻道 {#email}
-   + [開始使用電子郵件](using/email/get-started-email.md)
-   + [建立電子郵件](using/email/create-email.md)
-   + 設計您的電子郵件內容 {#design-email}
-      + [開始使用電子郵件設計](using/email/get-started-email-design.md)
-      + 開始建立內容 {#start-creating-content}
-         + [從頭開始設計內容](using/email/content-from-scratch.md)
-         + [匯入內容](using/email/existing-content.md)
-         + [為您自己的內容撰寫程式碼](using/email/code-content.md)
-         + [使用電子郵件範本](using/email/use-email-templates.md)
-      + 設計您的內容 {#add-content}
-         + [使用內容元件](using/email/content-components.md)
-         + [運用視覺片段](using/email/use-visual-fragments.md)
-         + [新增連結及追蹤訊息](using/email/message-tracking.md)
-         + [插入個人化優惠方案](using/email/add-offers-email.md)
-         + [產生文字版本](using/email/text-version-email.md)
-         + [新增預覽文字](using/email/preheader.md)
-      + 編輯樣式 {#edit-style}
-         + [開始使用電子郵件樣式](using/email/get-started-email-style.md)
-         + [編輯背景設定](using/email/backgrounds.md)
-         + [調整垂直對齊與邊框間距](using/email/alignment-and-padding.md)
-         + [加入內嵌樣式屬性](using/email/inline-styling.md)
-   + [使用 Experience Manager 範本](using/email/aem-templates.md)
-   + [管理電子郵件選擇退出](using/email/email-opt-out.md)
-   + 設定電子郵件頻道 {#configure-email}
-      + [開始使用電子郵件設定](using/email/get-started-email-config.md)
-      + [設定電子郵件組態的設定](using/email/email-settings.md)
-      + [個人化電子郵件組態](using/email/surface-personalization.md)
-+ 應用程式內頻道{#in-app}
-   + [開始使用應用程式內頻道](using/in-app/get-started-in-app.md)
-   + [應用程式內頻道先決條件](using/in-app/inapp-configuration.md)
-   + [建立行動應用程式內訊息](using/in-app/create-in-app.md)
-   + [建立網頁應用程式內訊息](using/in-app/create-in-app-web.md)
-   + [設計您的應用程式內內容](using/in-app/design-in-app.md)
-   + [檢查並傳送應用程式內通知](using/in-app/send-in-app.md)
-+ 推播通知頻道{#push}
-   + [開始使用推播通知](using/push/get-started-push.md)
-   + [建立推播通知](using/push/create-push.md)
-   + [設計推播通知](using/push/design-push.md)
-   + [檢查並傳送推播通知](using/push/send-push.md)
-   + 設定推播通知{#push-config}
-      + [推播通知流量](using/push/push-gs.md)
-      + [設定推播通知頻道](using/push/push-configuration.md)
-      + [Mobile 上線快速入門工作流程](using/push/mobile-onboarding-wf.md)
-+ SMS / MMS 通道{#sms}
-   + [開始使用文字訊息](using/sms/get-started-sms.md)
-   + [建立文字簡訊 (SMS/MMS)](using/sms/create-sms.md)
-   + [檢查並傳送文字訊息](using/sms/send-sms.md)
-   + [管理文字訊息的選擇退出](using/sms/sms-opt-out.md)
-   + [設定簡訊子網域](using/sms/sms-subdomains.md)
-   + 設定 SMS / MMS 通道{#configure-sms}
-      + [開始使用簡訊設定](using/sms/sms-configuration.md)
-      + [設定 Sinch 提供者](using/sms/sms-configuration-sinch.md)
-      + [設定 Infobip 提供者](using/sms/sms-configuration-infobip.md)
-      + [設定 Twilio 提供者](using/sms/sms-configuration-twilio.md)
-      + [設定自訂提供者 (Beta)](using/sms/sms-configuration-custom.md)
-      + [建立簡訊設定](using/sms/sms-configuration-surface.md)
-+ 直接郵件 {#direct-mail}
-   + [開始使用直接郵件](using/direct-mail/get-started-direct-mail.md)
-   + [建立直接郵件](using/direct-mail/create-direct-mail.md)
-   + [檢查並傳送直接郵件訊息](using/direct-mail/test-send-direct-mail.md)
-   + [設定直接郵件](using/direct-mail/direct-mail-configuration.md)
-+ 網路頻道 {#web}
-   + [開始使用網路頻道](using/web/get-started-web.md)
-   + 設定網路頻道 {#configure-web-channel}
-      + [網路頻道先決條件](using/web/web-prerequisites.md)
-      + [設定網路子網域](using/web/web-delegated-subdomains.md)
-      + [建立網頁管道設定](using/web/web-configuration.md)
-   + [建立網站體驗](using/web/create-web.md)
-   + 製作網頁{#author-web-pages}
-      + [編輯網頁內容](using/web/edit-web-content.md)
-      + [管理修改](using/web/manage-web-modifications.md)
-      + [監視網站體驗](using/web/monitor-web-experiences.md)
-      + [編寫單頁應用程式](using/web/web-spa.md)
-+ 程式碼型體驗 {#code-based-experience}
-   + [開始使用程式碼型頻道](using/code-based/get-started-code-based.md)
-   + [護欄和限制](using/code-based/code-based-prerequisites.md)
-   + [建立基於程式碼的體驗設定](using/code-based/code-based-configuration.md)
-   + [實施方法範例](using/code-based/code-based-implementation-samples.md)
-   + [建立程式碼型體驗](using/code-based/create-code-based.md)
-+ 內容卡{#content-card}
-   + [開始使用內容卡](using/content-card/get-started-content-card.md)
-   + 設定內容卡頻道 {#configure}
-      + [內容卡的先決條件](using/content-card/content-card-configuration-prereq.md)
-      + [在 Journey Optimizer 中設定內容卡頻道](using/content-card/content-card-configuration.md)
-      + [在 Web SDK 中設定內容卡支援](using/content-card/content-card-configuration-sdk.md)
-   + [建立內容卡](using/content-card/create-content-card.md)
-   + [設計內容卡](using/content-card/design-content-card.md)
++ 通訊頻道 {#communication-channels}
+   + [開始使用通訊頻道](using/channels/gs-channels.md)
+   + 電子郵件頻道 {#email}
+      + [開始使用電子郵件](using/email/get-started-email.md)
+      + [建立電子郵件](using/email/create-email.md)
+      + 設計您的電子郵件內容 {#design-email}
+         + [開始使用電子郵件設計](using/email/get-started-email-design.md)
+         + 開始建立內容 {#start-creating-content}
+            + [從頭開始設計內容](using/email/content-from-scratch.md)
+            + [匯入內容](using/email/existing-content.md)
+            + [為您自己的內容撰寫程式碼](using/email/code-content.md)
+            + [使用電子郵件範本](using/email/use-email-templates.md)
+         + 設計您的內容 {#add-content}
+            + [使用內容元件](using/email/content-components.md)
+            + [運用視覺片段](using/email/use-visual-fragments.md)
+            + [新增連結及追蹤訊息](using/email/message-tracking.md)
+            + [插入個人化優惠方案](using/email/add-offers-email.md)
+            + [產生文字版本](using/email/text-version-email.md)
+            + [新增預覽文字](using/email/preheader.md)
+         + 編輯樣式 {#edit-style}
+            + [開始使用電子郵件樣式](using/email/get-started-email-style.md)
+            + [編輯背景設定](using/email/backgrounds.md)
+            + [調整垂直對齊與邊框間距](using/email/alignment-and-padding.md)
+            + [加入內嵌樣式屬性](using/email/inline-styling.md)
+      + [使用 Experience Manager 範本](using/email/aem-templates.md)
+      + [管理電子郵件選擇退出](using/email/email-opt-out.md)
+      + 設定電子郵件頻道 {#configure-email}
+         + [開始使用電子郵件設定](using/email/get-started-email-config.md)
+         + [設定電子郵件組態的設定](using/email/email-settings.md)
+         + [個人化電子郵件組態](using/email/surface-personalization.md)
+   + 應用程式內頻道{#in-app}
+      + [開始使用應用程式內頻道](using/in-app/get-started-in-app.md)
+      + [應用程式內頻道先決條件](using/in-app/inapp-configuration.md)
+      + [建立行動應用程式內訊息](using/in-app/create-in-app.md)
+      + [建立網頁應用程式內訊息](using/in-app/create-in-app-web.md)
+      + [設計您的應用程式內內容](using/in-app/design-in-app.md)
+      + [檢查並傳送應用程式內通知](using/in-app/send-in-app.md)
+   + 推播通知頻道{#push}
+      + [開始使用推播通知](using/push/get-started-push.md)
+      + [建立推播通知](using/push/create-push.md)
+      + [設計推播通知](using/push/design-push.md)
+      + [檢查並傳送推播通知](using/push/send-push.md)
+      + 設定推播通知{#push-config}
+         + [推播通知流量](using/push/push-gs.md)
+         + [設定推播通知頻道](using/push/push-configuration.md)
+         + [Mobile 上線快速入門工作流程](using/push/mobile-onboarding-wf.md)
+   + SMS / MMS 通道{#sms}
+      + [開始使用文字訊息](using/sms/get-started-sms.md)
+      + [建立文字簡訊 (SMS/MMS)](using/sms/create-sms.md)
+      + [檢查並傳送文字訊息](using/sms/send-sms.md)
+      + [管理文字訊息的選擇退出](using/sms/sms-opt-out.md)
+      + [設定簡訊子網域](using/sms/sms-subdomains.md)
+      + 設定 SMS / MMS 通道{#configure-sms}
+         + [開始使用簡訊設定](using/sms/sms-configuration.md)
+         + [設定 Sinch 提供者](using/sms/sms-configuration-sinch.md)
+         + [設定 Infobip 提供者](using/sms/sms-configuration-infobip.md)
+         + [設定 Twilio 提供者](using/sms/sms-configuration-twilio.md)
+         + [設定自訂提供者 (Beta)](using/sms/sms-configuration-custom.md)
+         + [建立簡訊設定](using/sms/sms-configuration-surface.md)
+   + 直接郵件 {#direct-mail}
+      + [開始使用直接郵件](using/direct-mail/get-started-direct-mail.md)
+      + [建立直接郵件](using/direct-mail/create-direct-mail.md)
+      + [檢查並傳送直接郵件訊息](using/direct-mail/test-send-direct-mail.md)
+      + [設定直接郵件](using/direct-mail/direct-mail-configuration.md)
+   + 網路頻道 {#web}
+      + [開始使用網路頻道](using/web/get-started-web.md)
+      + 設定網路頻道 {#configure-web-channel}
+         + [網路頻道先決條件](using/web/web-prerequisites.md)
+         + [設定網路子網域](using/web/web-delegated-subdomains.md)
+         + [建立網頁管道設定](using/web/web-configuration.md)
+      + [建立網站體驗](using/web/create-web.md)
+      + 製作網頁{#author-web-pages}
+         + [編輯網頁內容](using/web/edit-web-content.md)
+         + [管理修改](using/web/manage-web-modifications.md)
+         + [監視網站體驗](using/web/monitor-web-experiences.md)
+         + [編寫單頁應用程式](using/web/web-spa.md)
+   + 程式碼型體驗 {#code-based-experience}
+      + [開始使用程式碼型頻道](using/code-based/get-started-code-based.md)
+      + [護欄和限制](using/code-based/code-based-prerequisites.md)
+      + [建立基於程式碼的體驗設定](using/code-based/code-based-configuration.md)
+      + [實施方法範例](using/code-based/code-based-implementation-samples.md)
+      + [建立程式碼型體驗](using/code-based/create-code-based.md)
+   + 內容卡{#content-card}
+      + [開始使用內容卡](using/content-card/get-started-content-card.md)
+      + 設定內容卡頻道 {#configure}
+         + [內容卡的先決條件](using/content-card/content-card-configuration-prereq.md)
+         + [在 Journey Optimizer 中設定內容卡頻道](using/content-card/content-card-configuration.md)
+         + [在 Web SDK 中設定內容卡支援](using/content-card/content-card-configuration-sdk.md)
+      + [建立內容卡](using/content-card/create-content-card.md)
+      + [設計內容卡](using/content-card/design-content-card.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
    + [建立登陸頁面](using/landing-pages/create-lp.md)
@@ -395,7 +397,7 @@ ht-degree: 94%
          + [內容卡行銷活動報告](using/reports/campaign-global-report-cja-content.md)
          + [直接郵件行銷活動報告](using/reports/campaign-global-report-cja-direct.md)
          + [電子郵件行銷活動報告](using/reports/campaign-global-report-cja-email.md)
-         + [實驗性行銷活動報告](using/reports/campaign-global-report-cja-experimentation.md)
+         + [實驗行銷活動報告](using/reports/campaign-global-report-cja-experimentation.md)
          + [應用程式內行銷活動報告](using/reports/campaign-global-report-cja-inapp.md)
          + [推播通知行銷活動報告](using/reports/campaign-global-report-cja-push.md)
          + [簡訊行銷活動報告](using/reports/campaign-global-report-cja-sms.md)
@@ -701,3 +703,4 @@ ht-degree: 94%
       + [使用同意原則](using/action/consent.md)
    + [資料治理](using/action/action-privacy.md)
    + [設定和管理客戶託管金鑰](using/privacy/cmk.md)
+
