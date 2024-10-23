@@ -9,7 +9,7 @@ exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 28%
+ht-degree: 40%
 
 ---
 
@@ -17,23 +17,23 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"
->title="定義以程式碼為主的體驗設定"
->abstract="以程式碼為主的設定會定義您應用程式中的路徑和位置，由應用程式實作中的 URI 唯一識別，且內容將在其中傳遞和使用。"
+>title="定義基於程式碼的體驗設定"
+>abstract="基於程式碼的設定會定義您應用程式中的路徑和位置，由應用程式實作中的 URI 唯一識別，且內容將在其中傳遞和使用。"
 
 在[建置您的體驗](create-code-based.md)之前，您需要建立程式碼型體驗設定，在其中定義內容將在您的應用程式內傳遞和使用的位置。
 
 程式碼型體驗設定必須參考曲面，這基本上是您要呈現變更的位置。 根據所選的平台，您需要輸入位置/路徑，或完整表面URI。 [了解更多](#surface-definition)
 
-## 建立程式碼型體驗設定 {#create-code-based-configuration}
+## 建立基於程式碼的體驗設定 {#create-code-based-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="指出您的頁面或應用程式內的特定位置"
->abstract="此欄位會指定頁面內或您要使用者存取之應用程式內的確切目的地。 它可以是網頁內的特定區段，或應用程式導覽結構內的深入頁面。"
+>title="表示頁面或應用程式內的特定位置"
+>abstract="此欄位會指定您希望使用者存取之頁面或應用程式內的確切目標。它可以是網頁內的特定區段，也可以是應用程式導覽結構深處的頁面。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
->title="定義內容建立和預覽的URL"
+>title="定義內容建立和預覽 URL"
 >abstract="此欄位可確保根據規則產生或符合的頁面具有指定的 URL，這對於有效建立和預覽內容至關重要。"
 
 若要建立程式碼型體驗通道設定，請遵循下列步驟：
@@ -78,11 +78,11 @@ ht-degree: 28%
 >
 >您的應用程式實作團隊負責發出明確API或SDK呼叫，以擷取所選程式碼型體驗設定中定義之表面的內容。 在[本節](code-based-implementation-samples.md)中瞭解不同客戶實作的詳細資訊。
 
-### Web平台 {#web}
+### Web 平台 {#web}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_web_url"
->title="定義內容製作和預覽的URL"
+>title="定義內容製作和預覽 URL"
 >abstract="此欄位可確保根據規則產生或符合的頁面具有指定的 URL，這對於有效建立和預覽內容至關重要。"
 
 若要定義Web平台的程式碼型體驗組態設定，請遵循下列步驟。
@@ -112,16 +112,16 @@ ht-degree: 28%
 
    ![](assets/code_config_location_on_page.png)
 
-### 行動平台(iOS和Android) {#mobile}
+### 行動平台 (iOS 和 Android) {#mobile}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
->title="提供您的應用程式ID"
->abstract="輸入應用程式ID，即可在應用程式的作業環境中準確識別及設定，確保整齊整合及功能。"
+>title="提供您的應用程式 ID"
+>abstract="輸入應用程式 ID，以便在應用程式的操作環境中進行準確的識別和設定，確保緊密整合和功能。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mobile_url_preview"
->title="輸入預覽內容的URL"
+>title="輸入內容預覽 URL"
 >abstract="此欄位對於直接在裝置的應用程式中模擬和預覽內容至關重要。"
 
 若要定義行動平台的程式碼型體驗組態設定，請遵循下列步驟。
@@ -178,9 +178,9 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
->title="新增元件的表面URI"
->abstract="如果您的實作不適用於Web、iOS或Android，或如果您需要鎖定特定URI，請輸入表面URI，這是導向您要傳送體驗之實體的唯一識別碼。 請務必輸入與您自己的實施中所使用之URI相符的表面URI。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/code-based-configuration#other" text="為其他平台建立程式碼型體驗設定"
+>title="新增元件的表面 URI"
+>abstract="如果您的實作不是針對 Web、iOS 或 Android，或如果您需要以特定 URI 為目標，請輸入表面 URI，它是唯一識別碼，指向您想要提供體驗的實體。確保您輸入的表面 URI 符合您自己的實作中使用的 URI。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/code-based-experience/code-based-configuration#other" text="為其他平台建立基於程式碼的體驗設定"
 
 程式碼型體驗&#x200B;**surface**&#x200B;是任何專為使用者或系統互動而設計的實體，可由&#x200B;**URI**&#x200B;唯一識別。 介面會在應用程式實作中指定，且必須符合程式碼型體驗通道設定中參照的介面。
 

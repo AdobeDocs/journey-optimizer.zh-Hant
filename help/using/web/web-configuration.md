@@ -58,7 +58,7 @@ Web設定是由URL識別的Web屬性，將會傳送內容。 它可以比對單�
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_url"
->title="定義內容製作和預覽的URL"
+>title="定義內容製作和預覽 URL"
 >abstract="此欄位可確保根據規則產生或符合的頁面具有指定的 URL，這對於有效建立和預覽內容至關重要。"
 
 建立網頁或[程式碼型體驗](../code-based/get-started-code-based.md)設定時，您可以建置符合規則&#x200B;]**的**[!UICONTROL &#x200B;頁面，以鎖定多個符合相同規則的URL。 因此，您可以一次將相同的內容變更套用至多個頁面。

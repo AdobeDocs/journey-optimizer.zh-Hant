@@ -9,7 +9,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
 source-wordcount: '1714'
-ht-degree: 7%
+ht-degree: 15%
 
 ---
 
@@ -151,23 +151,23 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device"
->title="在真實裝置上預覽您的程式碼型體驗"
->abstract="直接在您的瀏覽器或行動裝置上取得個人化體驗的預覽，以檢視它們在真實裝置上的外觀。"
+>title="在真實裝置上預覽基於程式碼的體驗"
+>abstract="直接在瀏覽器或行動裝置上預覽您的個人化體驗，看看它們在真實裝置上的外觀。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_web"
->title="在裝置上預覽您的程式碼式Web體驗"
->abstract="掃描QR碼或複製連結以在裝置上預覽。"
+>title="在裝置上預覽基於程式碼的網頁體驗"
+>abstract="掃描 QR 碼或複製在裝置上預覽的連結。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_mobile"
->title="在裝置上預覽您的程式碼型行動體驗"
->abstract="掃描QR碼或複製連結以在裝置上預覽。 連線之後，請輸入裝置上的圖釘。 您可能需要重新啟動應用程式，才能在每次更新預覽連結時看到變更。"
+>title="在裝置上預覽基於程式碼的行動體驗"
+>abstract="掃描 QR 碼或複製在裝置上預覽的連結。連接後，在裝置上輸入 PIN 碼。每次更新預覽連結時，您可能需要重新啟動應用程式才能看到變更。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_refresh"
->title="重新整理預覽連結以反映目前的檢視"
->abstract="裝置上預覽將顯示自您建立或重新整理預覽連結時起的內容。 如果您已修改內容或選取不同的測試設定檔或處理，請重新整理預覽，使其反映目前的檢視。"
+>title="重新整理預覽連結以反映目前檢視"
+>abstract="在裝置上預覽將顯示您建立或重新整理預覽連結時的內容。如果您修改了內容或選取不同的測試設定檔或處理，請重新整理預覽使其反映目前檢視。"
 
 為網頁或行動應用程式建立程式碼型體驗時，您可以直接在瀏覽器或行動裝置上預覽您的個人化體驗，以瞭解這些體驗在真實裝置上的外觀。
 

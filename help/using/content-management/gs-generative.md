@@ -11,7 +11,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
 source-wordcount: '874'
-ht-degree: 72%
+ht-degree: 80%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 72%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="Journey Optimizer中的AI Assistant內容加速器"
->abstract="完成傳遞的製作和個人化後，您可以使用Journey Optimizer中的AI Assistant Content Accelerator來增強內容。 此功能可讓您透過描述想要產生的內容來微調內容，進而簡化個人化和內容改善的過程。"
+>title="Journey Optimizer 中的 AI 助理內容加速器"
+>abstract="精心打造並個人化您要傳遞的內容之後，便可以使用 Journey Optimizer AI 助理內容加速器來強化內容。此功能可讓您透過描述想要產生的內容來微調內容，進而簡化個人化和內容改善的過程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="上傳品牌資產"
->abstract="「上傳品牌資產」選單可讓您新增任何品牌資產，其中包含可為Journey Optimizer中的AI Assistant Content Accelerator提供額外內容的內容，或是選取先前上傳的資產。 此選項可確保 AI 助理能夠存取所有必要的資料，以增強其功能與相關性。"
+>abstract="您可以使用「上傳品牌資產」選單新增任何品牌資產，所含內容可為 Journey Optimizer AI 助理內容加速器提供更多背景資訊，或者選取先前上傳的資產。此選項可確保 AI 助理能夠存取所有必要的資料，以增強其功能與相關性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
