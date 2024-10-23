@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="有限可用性"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 5ffa0937bd9f23f29c8f02d2951cccac73d75f1b
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 18%
+source-wordcount: '1794'
+ht-degree: 14%
 
 ---
 
@@ -29,6 +29,12 @@ ht-degree: 18%
 >[!NOTE]
 >
 >在[!DNL Journey Optimizer]使用者介面中，決定原則會標示為決定<!--but they are decision policies. TBC if this note is needed-->。
+
+將決定政策用於程式碼型行銷活動的主要步驟如下：
+
+1. [在程式碼型行銷活動中建立決定原則](#add-decision)
+1. [將決定原則用於程式碼型行銷活動](#use-decision-policy)
+1. [建立自訂Customer Journey Analytics報告儀表板](#cja)
 
 ## 將決定原則新增至基於程式碼的行銷活動 {#add-decision}
 
@@ -51,6 +57,8 @@ ht-degree: 18%
 
 若要在您的網站或行動應用程式上向訪客呈現最佳動態優惠和體驗，請將決定原則新增至程式碼型行銷活動。 若要執行此操作，請遵循下列步驟。
 
+### 建立決定原則 {#add}
+
 1. 建立行銷活動並選取&#x200B;**[!UICONTROL 程式碼型體驗]**&#x200B;動作。 [了解更多](../code-based/create-code-based.md)
 
 1. 從[程式碼編輯器](../code-based/create-code-based.md#edit-code)，選取&#x200B;**[!UICONTROL 決定原則]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL 新增決定原則]**。
@@ -63,50 +71,45 @@ ht-degree: 18%
    >
    >目前僅提供預設的&#x200B;**[!UICONTROL 選件]**&#x200B;目錄。
 
+1. 選取要傳回的專案數。 例如，如果您選取2，則會針對目前設定顯示最佳的2個合格優惠方案。 按一下&#x200B;**[!UICONTROL 下一步]**。
+
    ![](assets/decision-code-based-details.png)
 
-1. 選取要傳回的專案數。 例如，如果您選取2，則會針對目前設定顯示最佳的2個合格優惠方案。 按一下&#x200B;**[!UICONTROL 下一步]**
+### 選取專案與選取策略 {#select}
 
-1. 使用&#x200B;**[!UICONTROL 新增策略]**&#x200B;按鈕，為您的決定原則定義選擇策略。 每個策略都包含與適用性限制相關聯的優惠方案集合，以及決定要顯示的優惠方案的排名方法。 [了解更多](selection-strategies.md)
+**[!UICONTROL 策略順序]**&#x200B;區段可讓您選取要與決策原則一起呈現的決定專案與選取策略。
 
-   ![](assets/decision-code-based-strategies.png)
+1. 按一下&#x200B;**[!UICONTROL 新增]**&#x200B;按鈕，然後選擇要包含在原則中的物件型別：
 
-   >[!NOTE]
-   >
-   >至少需要一個策略。您無法新增超過10個策略。
+   * **[!UICONTROL 選取策略]**：新增一或多個選取策略。 決策策略會運用與適用性限制和排名方法相關的集合，以決定要顯示的專案。 您可以選取現有的選取策略，或使用&#x200B;**[!UICONTROL 建立選取策略]**&#x200B;按鈕建立新的選取策略。[瞭解如何建立選擇策略](selection-strategies.md)
 
-1. 從&#x200B;**[!UICONTROL 新增策略]**&#x200B;畫面，您也可以建立策略。 **[!UICONTROL 建立選擇策略]**&#x200B;按鈕會將您重新導向至&#x200B;**[!UICONTROL 體驗決策]** > **[!UICONTROL 策略設定]**&#x200B;功能表。 [了解更多](selection-strategies.md)
+   * **[!UICONTROL 決定專案]**：新增單一決定專案以呈現，而不需執行選取策略。 您一次只能選取一個決定專案。 任何針對專案設定的適用性限制都會套用。
 
-   ![](assets/decision-code-based-add-strategy.png)
-
-1. 新增數個策略時，會以特定順序評估策略。 系統會先評估新增至序列的第一個策略，依此類推。 [了解更多](#evaluation-order)
-
-   若要變更預設順序，您可以拖放策略及/或群組以視需要重新排序。
-
-   ![](assets/decision-code-based-strategy-groups.png)
-
-1. 新增遞補。 如果上述選取策略均不合格，則會向使用者顯示後援專案。
-
-   ![](assets/decision-code-based-strategy-fallback.png)
-
-   您可以從清單中選取任何專案，這會顯示在目前沙箱上建立的所有決定專案。 如果沒有合格的選取策略，則無論套用至所選專案<!--nor frequency capping when available - TO CLARIFY-->的日期和適用性限制，都會對使用者顯示遞補。
+   ![](assets/decision-code-based-strategy-sequence.png)
 
    >[!NOTE]
    >
-   >遞補內容為選用。 如果未選取遞補策略，且沒有符合資格的策略，[!DNL Journey Optimizer]將不會顯示任何內容。
+   >至少需要一個決策專案或策略。 您無法新增超過10個策略。
 
-1. 儲存您的選取專案，然後按一下[建立]。**** 現在決定原則已建立，您可以在程式碼型體驗內容中使用決定屬性。 [了解更多](#use-decision-policy)
+1. 新增多個決定專案和/或策略時，將會以特定順序評估它們。 將先評估新增至序列的第一個物件，依此類推。     若要變更預設順序，您可以拖放物件及/或群組以視需要重新排序。 [進一步了解決策原則評估順序](#evaluation-order)
 
-   ![](assets/decision-code-based-decision-added.png)
+### 管理決定原則中的評估順序 {#evaluation-order}
 
-## 評估順序 {#evaluation-order}
+將決定專案和選取策略新增到原則之後，您可以安排它們的順序以決定它們的評估順序，並將選取策略組合在一起以一起評估。
 
-如上所述，策略包含集合、排名方法和資格限制。
+每個物件或物件群組左邊會以數字表示要評估專案與策略的&#x200B;**循序順序**。 若要在序列中移動選取策略（或一組策略）的位置，請將其拖放到另一個位置。
 
-您可以：
+>[!NOTE]
+>
+>在序列中只能拖放選取策略。 若要變更決定專案的位置，您必須移除它，並在新增您之前要評估的其他專案之後，使用&#x200B;**[!UICONTROL 新增]**&#x200B;按鈕將其重新新增。
 
-* 設定您要評估策略的循序順序，
-* 結合多個策略，以便一起評估而不是分別評估。
+![](assets/decision-code-based-strategy-groups.png)
+
+您也可以&#x200B;**將**&#x200B;多個選取策略組合成群組，以便一起評估而不是分別評估。 若要這麼做，請按一下選取策略下方的&#x200B;**`+`**&#x200B;按鈕，將其與另一個策略結合。 您也可以將選取策略拖放至另一個策略上，將兩個策略組成群組。
+
+>[!NOTE]
+>
+>決策專案無法與其他專案或選取策略一起分組。
 
 多個策略及其分組決定策略的優先順序以及合格優惠的排名。 第一個策略具有最高優先順序，且在相同群組內合併的策略具有相同優先順序。
 
@@ -159,6 +162,22 @@ ht-degree: 18%
 排名優惠方案現在如下：優惠方案5 、優惠方案3、優惠方案4、優惠方案2、優惠方案1、優惠方案6。
 
 +++
+
+### 新增遞補優惠 {#fallback}
+
+選取決定專案和/或選取策略後，如果上述專案或選取策略均不合格，您可以新增對使用者顯示的遞補優惠。
+
+![](assets/decision-code-based-strategy-fallback.png)
+
+您可以從清單中選取任何專案，這會顯示在目前沙箱上建立的所有決定專案。 如果沒有合格的選取策略，則無論套用至所選專案<!--nor frequency capping when available - TO CLARIFY-->的日期和適用性限制，都會對使用者顯示遞補。
+
+>[!NOTE]
+>
+>遞補內容為選用。 如果未選取遞補策略，且沒有符合資格的策略，[!DNL Journey Optimizer]將不會顯示任何內容。 您最多可以新增決定原則請求的專案數。 這保證了在使用案例需要時可傳回特定數量的專案。
+
+當您的決策原則準備就緒時，請儲存並按一下[建立]。**** 現在決定原則已建立，您可以在程式碼型體驗內容中使用決定屬性。 [了解更多](#use-decision-policy)
+
+![](assets/decision-code-based-decision-added.png)
 
 ## 在程式碼編輯器中使用決定原則 {#use-decision-policy}
 
