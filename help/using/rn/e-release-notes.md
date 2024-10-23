@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4663cecda07bdccd1bd0651047d83e2f7e0512d8
+source-git-commit: f2282fc4d0bbe67a945c43a191648e28b6b60c00
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1885'
 ht-degree: 40%
 
 ---
@@ -309,5 +309,6 @@ ht-degree: 40%
 
 * 現在可以使用自訂上傳 (CSV 檔案) 中的對象與屬性，來與 Healthcare Shield 或 Privacy and Security Shield 搭配使用
 
+**程式碼型管道**
 
-
+編輯程式碼型體驗行銷活動時，可供選擇的範本現在會根據預先選擇的管道設定，將範圍限定為HTML或JSON。
