@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
+source-git-commit: afe642177f690cdf873f838ec81044b7f8a7172e
 workflow-type: tm+mt
-source-wordcount: '1897'
-ht-degree: 40%
+source-wordcount: '1971'
+ht-degree: 39%
 
 ---
 
@@ -78,6 +78,24 @@ ht-degree: 40%
 <p>您可以在建立電子郵件管道設定時，馬上定義動態子網域和個人化標題參數，就能提高電子郵件設定彈性，更能夠掌握得當。</p><p>在行銷活動或歷程中使用個人化設定，可讓您預覽電子郵件內容，以使用您定義的動態設定檢查潛在錯誤。</p>
 <p>先前可用於一組組織(LA)，現在所有使用者都可使用電子郵件設定個人化(GA)。</p>
 <p>如需詳細資訊，請參閱<a href="../email/surface-personalization.md">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>使用範例輸入資料測試您的內容(Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer現在可讓您預覽電子郵件內容，並使用從CSV檔案上傳或手動新增的範例輸入資料傳送校樣，以測試電子郵件內容的不同變體。 系統會自動偵測您在內容中用於個人化的所有設定檔屬性，這些屬性可用於測試，以建立多個變體。</p>
+<p>此功能目前以Beta版提供。</p>
+<!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
