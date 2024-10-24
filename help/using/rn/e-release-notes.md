@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2f56a072f7ae6ee2dfa65597cf5597b63dacdbe3
+source-git-commit: 08754b850f26c95f3c09ab5277e4f2ea156d2da7
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1942'
 ht-degree: 38%
 
 ---
@@ -206,7 +206,7 @@ ht-degree: 38%
 <tr>
 <td>
 <p>您現在可以在單一行銷活動或歷程中，輕鬆建立多種語言的內容。透過此功能，您可以在編輯行銷活動或歷程時切換語言、簡化整個編輯流程，並提高有效管理多種語言內容的能力。</p>
-<p>先前可供一組組織(LA)使用，現在所有使用者都可使用多語言訊息(GA)。</p>
+<p>現在起，所有管道皆可普遍使用多語言內容。 </p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -293,7 +293,10 @@ ht-degree: 38%
 已引進簡訊增強功能來改善您的傳訊功能：
 
 * 您可以定義和管理簡訊行銷活動和歷程的唯一關鍵字，以實現更個人化且有效率的通訊。
+
 * 當關鍵字無法辨識時，您可以建立並傳遞預設簡訊。
+
+* 您現在可以編輯或刪除SMS API頻道設定。
 
 <!--**Journeys**-->
 
