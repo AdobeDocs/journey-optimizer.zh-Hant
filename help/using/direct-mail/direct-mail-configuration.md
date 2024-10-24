@@ -7,7 +7,7 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 21%
@@ -36,7 +36,7 @@ ht-degree: 21%
 >id="ajo_dm_file_routing_details"
 >title="定義檔案路由設定"
 >abstract="建立直接郵件訊息後，會產生包含目標客群資料的檔案並將其匯出到伺服器。您需要指定伺服器的詳細資訊，以便您的直接郵件提供者可以存取和使用該檔案來傳遞直接郵件。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="建立新的直接郵件訊息"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/direct-mail/create-direct-mail" text="建立新的直接郵件訊息"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -168,7 +168,7 @@ ht-degree: 21%
 >id="ajo_dm_surface_settings"
 >title="定義直接郵件設定"
 >abstract="直接郵件設定包含檔案格式的設定；該檔案包含目標對象資料，且將由郵件提供者使用。您也必須選取檔案路由設定，以定義該檔案匯出的位置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html#file-routing-configuration" text="設定檔案路由"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="設定檔案路由"
 
 <!--
 >[!CONTEXTUALHELP]

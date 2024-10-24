@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 33e007e66eb072441c816ae168727c6fc2c82262
+source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 14%
@@ -21,7 +21,7 @@ ht-degree: 14%
 >id="ajo_create_visual_fragment"
 >title="選取視覺內容類型"
 >abstract="建立獨立的視覺內容片段，以便在某個歷程或行銷活動的電子郵件中，或是某個內容範本中可以重複使用你的內容。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="在你的電子郵件中新增視覺內容片段"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication/channels/email/design-email/add-content/use-visual-fragments" text="在你的電子郵件中新增視覺內容片段"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"

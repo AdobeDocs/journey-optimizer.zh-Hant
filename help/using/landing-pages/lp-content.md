@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登入，登陸頁面，建立，頁面，表單，元件
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 050253e0f74f506649540ae3656a3a1f050331cb
+source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 9%
@@ -22,7 +22,7 @@ ht-degree: 9%
 >id="ac_lp_components"
 >title="使用內容元件"
 >abstract="內容元件指可用於建立登陸頁面版面的空白內容預留位置。若要定義讓使用者能夠選取並提交他們的選擇的特定內容，請使用表單元件。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="新增內容元件"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/email/design-email/add-content/content-components#add-content-components" text="新增內容元件"
 
 若要設計登入頁面內容，您可以使用與電子郵件的相同元件。 [了解更多](../email/content-components.md#add-content-components)
 
