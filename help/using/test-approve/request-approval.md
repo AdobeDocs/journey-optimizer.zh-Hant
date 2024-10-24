@@ -4,9 +4,9 @@ description: 瞭解在發佈您的歷程與行銷活動之前，如何請求核�
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: ade30d6b33467ad05146ddee3ea1c1a4115d38b2
+source-git-commit: 509ebc377ac8c24db464728b7544eaa96e8e5da4
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,11 @@ ht-degree: 0%
 
 * **存在使用中的核准原則**
 
-   * **行銷活動**：如果沙箱中的Campaign物件存在一或多個作用中核准原則，則所述沙箱中的所有行銷活動都會顯示&#x200B;**[!UICONTROL 要求核准]**&#x200B;按鈕。 這表示未經核准無法直接啟用行銷活動。
+   * **行銷活動**：如果沙箱中的Campaign物件存在一或多個作用中核准原則，則所述沙箱中的所有行銷活動都會顯示&#x200B;**[!UICONTROL 要求核准]**按鈕。
+如果按一下**[!UICONTROL 請求核准]**&#x200B;按鈕時沒有核准原則套用至選取的物件，則會觸發自動核准工作流程。
 
-   * **歷程**：如果沙箱中的Journey物件存在一或多個使用中的核准原則，則所有歷程都會顯示&#x200B;**[!UICONTROL 要求核准]**&#x200B;按鈕。 與行銷活動類似，如果核准政策有效，則無法直接發佈歷程。
+   * **歷程**：如果沙箱中的Journey物件存在一或多個使用中的核准原則，則所有歷程都會顯示&#x200B;**[!UICONTROL 要求核准]**按鈕。
+如果按一下**[!UICONTROL 請求核准]**&#x200B;按鈕時沒有核准原則套用至選取的物件，則會觸發自動核准工作流程。
 
 ## 傳送核准請求
 
