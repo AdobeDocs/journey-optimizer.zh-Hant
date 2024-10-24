@@ -1,15 +1,15 @@
 ---
-title: 識別歷程與行銷活動中的潛在衝突
+title: 識別歷程和促銷活動中的潛在衝突
 description: 瞭解如何識別歷程與行銷活動中的潛在衝突。
 role: User
 level: Beginner
 badge: label="有限可用性"
 hide: true
 hidefromtoc: true
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 3%
+source-wordcount: '699'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 * [開始使用衝突管理和優先順序](gs-conflict-prioritization.md)
 * **[偵測歷程與行銷活動中的潛在衝突](conflicts.md)**
-* [指派歷程和促銷活動的優先等級分數](priority-scores.md)
+* [指派歷程和行銷活動的優先順序分數](priority-scores.md)
 * [歷程上限與仲裁](journey-capping.md)
 
 >[!ENDSHADEBOX]
@@ -40,6 +40,8 @@ ht-degree: 3%
 * **頻道**：是否有其他通訊已排程為相同的時間範圍，如果是，有多少通訊？
 * **上限規則集**：我為哪些型別的歷程設定上限，而且這些歷程中有重疊？
 * **頻道設定**：是否有其他歷程或行銷活動使用同一歷程或行銷活動中使用的任何頻道設定，以防止向一般使用者顯示歷程或行銷活動？
+
+➡️ [在影片中探索此功能](#video)
 
 ## Journey Optimizer如何偵測衝突 {#detection}
 
@@ -86,3 +88,7 @@ ht-degree: 3%
 * 設定傳入動作的&#x200B;**優先順序**，以確保向客戶顯示最重要的動作。
 
 運用這些功能，您就能確保行銷努力一致，並在溝通策略中維持正確的平衡。
+
+## 操作說明影片 {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435528?quality=12)

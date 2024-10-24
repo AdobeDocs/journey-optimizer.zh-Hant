@@ -6,10 +6,10 @@ level: Beginner
 badge: label="有限可用性"
 hide: true
 hidefromtoc: true
-source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 2%
+source-wordcount: '706'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 * [開始使用衝突管理和優先順序](gs-conflict-prioritization.md)
 * [偵測歷程與行銷活動中的潛在衝突](conflicts.md)
-* [指派歷程和促銷活動的優先順序分數](priority-scores.md)
+* [指派歷程和行銷活動的優先順序分數](priority-scores.md)
 * **[歷程上限與仲裁](journey-capping.md)**
 
 >[!ENDSHADEBOX]
@@ -37,6 +37,8 @@ ht-degree: 2%
 * **並行上限**&#x200B;會限制設定檔可同時註冊的歷程數。
 
 這兩種型別的歷程上限都利用優先順序分數來仲裁專案。
+
+➡️ [在影片中探索此功能](#video)
 
 ## 建立歷程上限規則 {#create-rule}
 
@@ -115,3 +117,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >如果立即啟動歷程，系統最多可能需要15分鐘才能開始抑制客戶。 為了防止這種可能性，您可以將歷程排程為至少15分鐘後再開始。
+
+## 操作說明影片 {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

@@ -12,9 +12,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: d458cf01c9d14682deb080083ab8bb468b3b4fd7
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1968'
 ht-degree: 10%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 10%
 除了限制使用者透過一或多個通道接收訊息次數的全球商業規則之外，規則集還可讓您&#x200B;**將多個規則分組為規則集**，並將這些規則套用至您選擇的行銷活動。 這提供了更精細的精細度，可依通訊型別控制使用者接收訊息的頻率。
 
 例如，您可以建立規則集以限制傳送給客戶的&#x200B;**促銷通訊**&#x200B;數目，以及建立另一個規則集以限制傳送給客戶的&#x200B;**電子報**&#x200B;數目。 視您建立的促銷活動型別而定，您可以選擇套用促銷通訊或電子報規則集。
+
+➡️ [在影片中探索此功能](#video)
 
 ### 全域和自訂規則集 {#global-custom}
 
@@ -313,3 +315,7 @@ In this scenario, an individual profile:
 >如果立即啟動歷程，系統最多可能需要15分鐘才能開始抑制客戶。 為了防止這種可能性，您可以將歷程排程為至少15分鐘後再開始。
 
 +++
+
+## 操作說明影片 {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
