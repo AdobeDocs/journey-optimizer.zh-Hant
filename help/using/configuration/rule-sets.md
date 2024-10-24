@@ -12,7 +12,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
+source-git-commit: 87e2308b2d6a9aeb3cbc0ef4bb28ea7aeb3b869a
 workflow-type: tm+mt
 source-wordcount: '1968'
 ht-degree: 10%
@@ -56,9 +56,7 @@ ht-degree: 10%
 
 ### 管道和歷程上限規則 {#domain}
 
-建立規則集時，您需要指定規則集中的規則是否將強制執行通訊通道或歷程專用的上限規則。
-
-若要這麼做，請在建立規則集時，為規則集選取管道或歷程網域。 [瞭解如何建立規則集]
+建立規則集時，您需要指定規則集中的規則是否將強制執行通訊通道或歷程專用的上限規則。  若要這麼做，請在建立規則集時，為規則集選取管道或歷程網域。 [瞭解如何建立規則集](#create)
 
 * **管道**&#x200B;網域：為通訊管道套用上限規則。 例如，每天傳送的電子郵件或簡訊請勿超過1個。
 * **歷程**&#x200B;網域：將專案與並行上限規則套用至歷程。 例如，請勿同時在多個歷程中輸入設定檔。
