@@ -7,10 +7,10 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: a2219bf7791bc5c598228af883d0507180628abf
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 0%
 
 ---
 
@@ -82,6 +82,12 @@ ht-degree: 1%
 * 調整&#x200B;**[!UICONTROL 百分比值]**&#x200B;以決定不同歷程路徑之間的流量分佈。
 * 自訂您的&#x200B;**[!UICONTROL 箭頭設定]**&#x200B;以包含標籤、條件，或選擇乾淨顯示。
 * 啟用&#x200B;**[!UICONTROL 顯示流失]**&#x200B;選項，將直接在畫布上結束您歷程的設定檔視覺化。
+
+使用&#x200B;**[!UICONTROL 節點型別]**&#x200B;篩選時套用下列規則：
+
+* 在節點上建立區段時，即使已透過&#x200B;**[!UICONTROL 節點型別]**&#x200B;篩選器排除那些節點，該區段仍會包含歷程早期階段的節點。
+
+* 如果歷程早期階段的節點已透過&#x200B;**[!UICONTROL 節點型別]**&#x200B;篩選器排除，則無法建立由箭頭形成的區段。 在這種情況下，這些箭頭上的右鍵功能將會停用。
 
 ## 動作績效 {#action-performance}
 
