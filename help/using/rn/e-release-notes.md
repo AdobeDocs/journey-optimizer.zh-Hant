@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 08754b850f26c95f3c09ab5277e4f2ea156d2da7
+source-git-commit: 92ecd1261e6c734743c4ab5173969da6e54cd15a
 workflow-type: tm+mt
-source-wordcount: '1942'
-ht-degree: 38%
+source-wordcount: '1990'
+ht-degree: 37%
 
 ---
 
@@ -341,5 +341,6 @@ ht-degree: 38%
 
 * 現在提供內容範本。 您可以從開發人員建立的內容範本開始，加速程式碼型體驗的撰寫作業。 使用內容範本可讓行銷人員僅修改某些值或欄位，而不是構成整個HTML或JSON內容裝載。
 
+**決策**
 
-
+[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant)使用者現在可以選擇在決定中設定AI模型時最佳化的自訂模型（先前稱為Experience Decisioning）。 舉例來說，這可讓您對自訂「購買」表格進行最佳化，而不是使用點進率等已定義的限制。
