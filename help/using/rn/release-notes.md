@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
+source-git-commit: 7ae8a92be62f6b699a6b222ee5440540fbacffaa
 workflow-type: tm+mt
-source-wordcount: '3162'
-ht-degree: 54%
+source-wordcount: '3096'
+ht-degree: 56%
 
 ---
 
@@ -44,8 +44,8 @@ ht-degree: 54%
 <tr>
 <td>
 <p>Journey Optimizer 現在允許您透過鎖定整個範本，或是特定結構和元件，鎖定電子郵件範本中的內容。這樣做讓您可以防止無意間不小心編輯內容，或將內容刪除，讓您更能掌控範本自訂，進而提高電子郵件行銷活動的效率和可靠性。</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>-->
-<img src="assets/do-not-localize/ai-content.gif">
+<p>如需詳細資訊，請參閱<a href="../content-management/content-locking.md">詳細文件</a>。</p>
+<img src="assets/do-not-localize/gif-content-locking.gif">
 </td>
 </tr>
 </tbody>
@@ -138,10 +138,10 @@ ht-degree: 54%
 <p>在Journey Optimizer中，管理行銷活動和歷程的數量和時機是避免客戶因太多互動而感到不知所措的關鍵。 Journey Optimizer現在提供數種衝突管理和優先順序的工具。</p><p><ul><li><b>歷程頻率上限</b>：您現在可以建立規則集以套用至您的歷程，讓您限制設定檔每日、每週或每月的歷程次數，並控制同時執行的並行歷程次數。</li>
 <li><b>優先順序分數</b>：您現在可以指派優先順序分數至行銷活動或歷程，範圍從0到100。 數字越高表示優先順序越高。 當兩個行銷活動或歷程動作使用相同的管道設定時，Journey Optimizer會選取優先順序分數最高的行銷活動。 如果行銷活動具有相同的分數，將會選擇最近修改最低的行銷活動。</li>
 <li><b>檢視潛在衝突</b>：歷程和行銷活動中的新「檢視潛在衝突」按鈕現在可讓您識別與其他歷程或行銷活動的重疊，例如開始日期、目標對象或選取的頻道設定。</li>
-<li><b>歷程仲裁</b>：這項新功能可讓您為客戶提供最重要的歷程優先順序。 您可以建立規則，以在客戶符合即將進入的較高優先順序歷程的資格時，抑制進入較低優先順序歷程。</li></ul></p>
+<li><b>歷程仲裁</b>：這項新功能可讓您為客戶提供最重要的歷程優先順序。 您可以建立規則，以在客戶符合即將進入的較高優先順序歷程的資格時，抑制進入較低優先順序歷程。</li>
+<li><b>依通訊型別設定頻率上限： </b>使用規則集，您現在可以依通訊型別（例如「銷售」、「促銷」）設定精細規則，以防止訊息相似的客戶超載。 您可以跨多個管道控制頻率，自動排除過度請求的設定檔，以確保更好的客戶體驗。</li></ul>
 <!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 <p>特定客戶群組可在「有限可用性」中使用衝突和優先順序管理功能。 請注意，這些功能將在未來逐步向更多使用者推出。 如果您有興趣新增至這些功能的輪候表，請洽詢您的客戶團隊。</p>
-
 </td>
 </tr>
 </tbody>
@@ -191,34 +191,13 @@ ht-degree: 54%
 <tbody>
 <tr>
 <td>
-<p>決定功能先前可用於一組組織(LA)，並稱為Experience Decisioning，現在可供所有使用者使用(GA)。 透過提供稱為「決策專案」的行銷優惠集中目錄和複雜的決策引擎，其可簡化個人化。 此引擎運用規則和排名條件來選取最相關的決定專案，並將之呈現給每個人。 這些決策專案會透過程式碼型體驗管道順暢地整合至廣泛的傳入介面。</p>
+<p>之前適用於一組組織(LA)且稱為Experience Decisioning的Decisioning，現在可供所有使用者(GA)使用，包括已購買AdobeHealthcare Shield或Privacy and Security Shield附加產品的組織。</p><p>Decisioning透過提供稱為「決策專案」的行銷優惠集中目錄和複雜的決策引擎，簡化了個人化。 此引擎運用規則和排名條件來選取最相關的決定專案，並將之呈現給每個人。 這些決策專案會透過程式碼型體驗管道順暢地整合至廣泛的傳入介面。</p>
 
-<p>目前，已購買AdobeHealthcare Shield和Privacy and Security Shield附加產品的客戶無法使用Decisioning。</p>
-
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+<p>如需詳細資訊，請參閱<a href="../experience-decisioning/gs-experience-decisioning.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>規則集（可用性限制）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以建立精細的頻率上限規則，並透過規則集將其套用至您的訊息或歷程。 這項新功能可讓您設定跨頻道規則，控制對象接收訊息的頻率，這些規則會自動從訊息和動作中排除過度請求的設定檔。</p><p>它也可讓您限制每日、每週或每月的歷程次數，以及同時執行的並行歷程次數。</p>
-<p>特定客戶群組可在「有限可用性」中使用規則集。 請注意，這些功能將在未來逐步向更多使用者推出。 如果您有興趣加入此功能的輪候表，請洽詢您的客戶團隊。</p>
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <table>
 <thead>
