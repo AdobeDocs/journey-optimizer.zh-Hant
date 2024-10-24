@@ -29,7 +29,7 @@ ht-degree: 80%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
->title="Adobe 生成式 AI 術語"
+>title="Adobe 生成式 AI 條款"
 >abstract="要存取此功能，您必須同意 Adobe Experience Cloud Generative Al 使用者指南。請檢查此功能之任何輸出的準確性，並確保它適合您的使用案例。"
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 使用者手冊"
 
