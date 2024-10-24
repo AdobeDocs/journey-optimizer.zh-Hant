@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 972d517ec2a5779f8c3196b40f1418b9c207d791
+source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2152'
 ht-degree: 94%
 
 ---
@@ -350,6 +350,7 @@ ht-degree: 94%
       + [開始使用內容範本](using/content-management/content-templates.md)
       + [存取並管理範本](using/content-management/access-content-templates.md)
       + [建立內容範本](using/content-management/create-content-templates.md)
+      + [鎖定電子郵件範本中的內容](using/content-management/content-locking.md)
       + [建立內容範本](using/content-management/test-content-templates.md)
       + [使用內容範本](using/content-management/use-content-templates.md)
    + 可重複使用內容片段 {#fragments}
