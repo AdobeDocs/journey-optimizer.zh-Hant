@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 5%
+source-wordcount: '213'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 <!--## Preview your content {#preview-content}-->
 
-選取[測試設定檔](test-profiles.md)後，您就可以預覽內容。 請遵循以下步驟：
+定義[測試設定檔](test-profiles.md)後，您就可以預覽內容。 請遵循以下步驟：
 
 1. 從訊息的編輯內容畫面或電子郵件Designer中，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕。
 
@@ -42,5 +42,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->建立程式碼型體驗時，您可以直接在瀏覽器或行動裝置上預覽個人化內容，以進行真實生活的模擬。 [了解更多](../code-based/create-code-based.md#preview-on-device)
+>若在組態詳細資料中發現錯誤，請按一下&#x200B;**[!UICONTROL 檢視組態詳細資料]**&#x200B;按鈕。 [了解更多](../email/surface-personalization.md#check-configuration)
+
+建立程式碼型體驗時，您可以直接在瀏覽器或行動裝置上預覽個人化內容，以進行真實生活的模擬。 [了解更多](../code-based/create-code-based.md#preview-on-device)
 

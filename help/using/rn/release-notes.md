@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: acc3d61b571f577187503157b78de1d27ce5e1ee
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '3066'
-ht-degree: 55%
+source-wordcount: '3162'
+ht-degree: 54%
 
 ---
 
@@ -51,6 +51,25 @@ ht-degree: 55%
 </tbody>
 </table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>電子郵件設定個人化（全面發佈） </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>為提升彈性並控制電子郵件設定，您可以在建立電子郵件通道設定時定義動態子網域和個人化的標題引數。
+</p>
+<p>先前可用於一組組織(LA)，現在所有使用者都可使用電子郵件設定個人化(GA)。</p>
+<p>如需詳細資訊，請參閱<a href="../email/surface-personalization.md">詳細文件</a>。</p>
+<img src="assets/do-not-localize/surface-perso.gif"/>
+<p>推出日期：2024 年 10 月 23 日</p>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -342,7 +361,10 @@ ht-degree: 55%
 
 * 現在可以使用自訂上傳 (CSV 檔案) 中的對象與屬性，來與 Healthcare Shield 或 Privacy and Security Shield 搭配使用
 
-**程式碼型管道**
+**組態** — 推出日期： 2024年10月23日
+
+* 在行銷活動或歷程中使用個人化設定時，您現在可以預覽電子郵件內容，以使用您定義的動態設定檢查潛在錯誤。 [了解更多](../email/surface-personalization.md#check-configuration)
+  **程式碼型管道**
 
 * 現在提供內容範本。 您可以從開發人員建立的內容範本開始，加速程式碼型體驗的撰寫作業。 使用內容範本可讓行銷人員僅修改某些值或欄位，而不是構成整個HTML或JSON內容裝載。
 

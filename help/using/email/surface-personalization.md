@@ -8,22 +8,18 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定，子網域
-badge: label="限量開放使用"
+badge: label="可用性限制"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 10%
+source-wordcount: '1057'
+ht-degree: 7%
 
 ---
 
 # 個人化電子郵件組態設定 {#surface-personalization}
 
 為了增加彈性並控制您的電子郵件設定，[!DNL Journey Optimizer]可讓您在建立電子郵件設定時，定義子網域和標題<!--and URL tracking parameters-->的個人化值。
-
->[!AVAILABILITY]
->
->電子郵件設定個人化目前僅適用於一組組織（可用性限制）。 如需存取權，請和您的 Adobe 代表聯絡。
 
 ## 新增動態子網域 {#dynamic-subdomains}
 
@@ -110,13 +106,19 @@ ht-degree: 10%
 
    ![](assets/surface-email-personalize-header.png)
 
-1. [個人化編輯器](../personalization/personalization-build-expressions.md)開啟。 依照需要定義條件，然後儲存變更。
+1. [個人化編輯器](../personalization/personalization-build-expressions.md)開啟。 視需要定義您的條件並儲存變更。
 
-   例如，設定條件，例如每位收件者都會收到來自其品牌代表的電子郵件。
+   <!--For example, set a condition such as each recipient receives an email from their own brand representative.-->
 
    >[!NOTE]
    >
    >您只能選取&#x200B;**[!UICONTROL 設定檔屬性]**&#x200B;和&#x200B;**[!UICONTROL 協助程式函式]**。
+
+   假設您想要處理代表銷售助理傳送的動態電子郵件，其中銷售助理是從事件或行銷活動內容引數中擷取。 例如：
+
+   * 在[歷程](../building-journeys/journey-gs.md)中，當購買事件連結至特定商店的銷售助理時，電子郵件標題（寄件者姓名、寄件者電子郵件、回覆地址）可以使用銷售助理引數（取自事件屬性）進行個人化。
+
+   * 在由銷售助理從外部啟動的[API觸發的行銷活動](../campaigns/api-triggered-campaigns.md)中，可以代表銷售助理傳送觸發的電子郵件，以及從行銷活動內容引數取得的標題個人化值。
 
 1. 針對您想要新增個人化的每個引數，重複上述步驟。
 
@@ -138,7 +140,7 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 ## 檢視設定詳細資料 {#view-surface-details}
 
-在促銷活動或設定中使用具有個人化設定的設定時，您可以直接在促銷活動或設定中顯示設定詳細資料。 請遵循下列步驟。
+在行銷活動或歷程中使用具有個人化設定的設定時，您可以直接在行銷活動或歷程中顯示設定詳細資料。 請遵循下列步驟。
 
 1. 建立電子郵件[行銷活動](../campaigns/create-campaign.md)或[歷程](../building-journeys/journey-gs.md)。
 
@@ -157,3 +159,33 @@ Now when the email is sent out, this parameter will be automatically appended to
 1. 選取&#x200B;**[!UICONTROL 展開]**&#x200B;以顯示動態子網域的詳細資料。
 
    ![](assets/campaign-delivery-settings-subdomain-expand.png)
+
+## 檢查您的設定 {#check-configuration}
+
+在行銷活動或歷程中使用個人化設定時，您可以預覽電子郵件內容，以使用您定義的動態設定檢查潛在錯誤。 請遵循下列步驟。
+
+1. 從訊息的編輯內容畫面或電子郵件Designer中，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕。 [了解更多](../content-management/preview.md)
+
+1. 選取[測試設定檔](../content-management/test-profiles.md)。
+
+1. 如果顯示錯誤，請按一下&#x200B;**[!UICONTROL 檢視組態詳細資料]**&#x200B;按鈕。
+
+   ![](assets/campaign-simulate-config-error.png)
+
+1. 檢查&#x200B;**[!UICONTROL 傳遞設定]**&#x200B;畫面以取得錯誤詳細資料。
+
+   ![](assets/campaign-simulate-config-details.png)
+
+可能的錯誤如下：
+
+* 未針對選取的測試設定檔解析&#x200B;**子網域**。 例如，您的設定使用數個對應不同國家/地區的傳送子網域，但選取的設定檔並未針對`Country`屬性定義任何值，或是屬性已設為`France`，但此值未與該設定中的任何子網域相關聯。
+
+* 選取的設定檔沒有一或多個&#x200B;**標頭引數**&#x200B;的相關值。
+
+出現任何這些錯誤時，都不會將電子郵件傳送至選取的測試設定檔。
+
+若要避免這類錯誤，請確定您定義的標頭引數會將個人化屬性與大部分設定檔的值搭配使用。 缺少值可能會影響您的電子郵件傳遞能力。
+
+>[!NOTE]
+>
+>在[本節](../reports/deliverability.md)中進一步瞭解傳遞能力
