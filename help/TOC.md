@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
+source-git-commit: b6705059782a872939fa51fd51d335b1386a3e91
 workflow-type: tm+mt
 source-wordcount: '2152'
 ht-degree: 94%
@@ -195,7 +195,7 @@ ht-degree: 94%
       + [建立和管理核准原則](using/test-approve/approval-policies.md)
       + [請求核准](using/test-approve/request-approval.md)
       + [核准請求](using/test-approve/review-approve-request.md)
-+ 通訊頻道 {#communication-channels}
++ 通訊頻道 {#channels}
    + [開始使用通訊頻道](using/channels/gs-channels.md)
    + 電子郵件頻道 {#email}
       + [開始使用電子郵件](using/email/get-started-email.md)
