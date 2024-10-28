@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
+source-git-commit: 2ea81c13e25f1b5a3808bd956a588794f460a521
 workflow-type: tm+mt
-source-wordcount: '3101'
+source-wordcount: '3104'
 ht-degree: 56%
 
 ---
@@ -117,8 +117,8 @@ ht-degree: 56%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer現在可讓您預覽電子郵件內容，並使用從CSV檔案上傳或手動新增的範例輸入資料傳送校樣，以測試電子郵件內容的不同變體。 系統會自動偵測您在內容中用於個人化的所有設定檔屬性，這些屬性可用於測試，以建立多個變體。</p>
-<p>此功能目前以Beta版提供。</p>
+<p>Journey Optimizer現在可讓您預覽電子郵件內容，並使用從檔案上傳或手動新增的範例輸入資料傳送校樣，以測試電子郵件內容的不同變體。 系統會自動偵測您在內容中用於個人化的所有設定檔屬性，這些屬性可用於測試，以建立多個變體。</p>
+<p>此功能目前以公開測試版的形式提供給所有客戶。</p>
 <!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
