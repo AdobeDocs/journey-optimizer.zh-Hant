@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
-source-git-commit: 59a597a563074fa4daa74c64e97f6bb5c0f6834d
+source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 對於您的即時歷程，您有權存取：
 
-* **[!UICONTROL 已輸入設定檔]**：進入此活動的個人總數。
+* **[!UICONTROL 已進入設定檔]**：退出歷程的個人總數（包括錯誤）。
 * **[!UICONTROL 已退出設定檔]**：由於退出條件而從該活動退出歷程的個人總數。
 * **[!UICONTROL 發生錯誤的設定檔]**：歷程中發生錯誤的個人總數。
 * **[!UICONTROL 捨棄的設定檔]**：由於下列其中一個原因而從歷程捨棄的個人總數：
@@ -41,6 +41,6 @@ ht-degree: 0%
 
 對於每個即時歷程中的每一個活動，您都有權存取：
 
-* **[!UICONTROL 已輸入設定檔]**：進入此活動的個人總數。
-* **[!UICONTROL 已退出的設定檔]**：由於退出條件而從該活動退出的個人總數。
+* **[!UICONTROL 已進入]**：進入此活動的個人總數。
+* **[!UICONTROL 已退出（符合退出條件）]**：由於退出條件而從該活動退出歷程的個人總數。
 * **[!UICONTROL 錯誤]**：在該活動中發生錯誤的個人總數。
