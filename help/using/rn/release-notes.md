@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7ae8a92be62f6b699a6b222ee5440540fbacffaa
+source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
-source-wordcount: '3096'
+source-wordcount: '3101'
 ht-degree: 56%
 
 ---
@@ -309,14 +309,14 @@ ht-degree: 56%
 
 **資料集**
 
-* **存留時間護欄** — 從2024年11月1日開始，將在新沙箱和新組織中向Journey Optimizer系統產生的資料集推出存留時間(TTL)護欄，如下所示：
+* **傳送並開啟事件** — 自2024年11月1日起，串流區段將不再支援使用Journey Optimizer追蹤和意見反應資料集中的傳送和開啟事件。 此變更將套用至所有客戶沙箱和組織。 [了解更多](../data/datasets-ttl.md#segmentation-update)
+
+* **資料集存留時間(TTL)** — 從2025年2月開始，將在新沙箱和新組織中向Journey Optimizer系統產生的資料集推出存留時間(TTL)護欄，如下所示：
 
    * 輪廓存放區中的資料為 90 天
    * 資料湖中的資料為 13 個月
 
-  此變更將在第二階段後續推出至現有客戶沙箱。
-
-  此外，從11月1日開始，串流區段將不再支援使用追蹤和意見資料集中的傳送和開啟事件。 此變更屆時將套用至所有客戶沙箱和組織。 [了解更多](../data/datasets-ttl.md)
+  此變更將在後續階段中推出至現有客戶沙箱。 [了解更多](../data/datasets-ttl.md#ttl)
 
 * **自訂動作中的引數** （使用日期：2024年10月3日） — 自訂動作現在支援NULL和選用引數。 [了解更多](../action/about-custom-action-configuration.md#define-the-message-parameters)
 

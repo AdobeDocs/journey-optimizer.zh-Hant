@@ -8,9 +8,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform、資料湖、建立、湖、資料集、輪廓
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: f16ce53f61d64d23f530d007e0124a84e2cc3405
+source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '848'
 ht-degree: 95%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->自2024年11月1日起，Journey Optimizer系統產生的資料集將強制實行存留時間(TTL)護欄。 此外，目前串流區段將不再支援使用追蹤和意見資料集中的傳送和開啟事件。 [了解更多](datasets-ttl.md)
+>自2024年11月1日起，串流區段將不再支援使用來自Journey Optimizer追蹤和意見反應資料集的傳送和開啟事件。 此外，自2025年2月起，存留時間(TTL)護欄將推出至Journey Optimizer系統產生的資料集。 [了解更多](datasets-ttl.md)
 
 選取資料集名稱，以存取其「資料集」活動畫面，並查看所選取資料集的詳細資訊。 活動索引標籤包含將所使用訊息的比率視覺化的圖形，以及成功和失敗批次的清單。
 
