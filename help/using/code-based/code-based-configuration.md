@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
+source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
 workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 39%
@@ -180,7 +180,7 @@ ht-degree: 39%
 >id="ajo_admin_surface_uri"
 >title="新增元件的表面 URI"
 >abstract="如果您的實作不是針對 Web、iOS 或 Android，或如果您需要以特定 URI 為目標，請輸入表面 URI，它是唯一識別碼，指向您想要提供體驗的實體。確保您輸入的表面 URI 符合您自己的實作中使用的 URI。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/code-based-experience/code-based-configuration#other" text="為其他平台建立基於程式碼的體驗設定"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/code-based-configuration#other" text="為其他平台建立基於程式碼的體驗設定"
 
 程式碼型體驗&#x200B;**surface**&#x200B;是任何專為使用者或系統互動而設計的實體，可由&#x200B;**URI**&#x200B;唯一識別。 介面會在應用程式實作中指定，且必須符合程式碼型體驗通道設定中參照的介面。
 
