@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1948bc304da8af9a83a2f0f81854a701d0d65e2b
+source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
 workflow-type: tm+mt
-source-wordcount: '5672'
+source-wordcount: '5707'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 97%
 
 ## 2024 年 10 月 {#oct-2024}
 
+* 有關[!DNL Journey Optimizer] 2024年10月發行版本的所有新功能和改進專案詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
+* [!DNL Journey Optimizer]中可用的所有通訊管道現在都分組在檔案的專用區段中。 [閱讀全文](../channels/gs-channels.md)
 * 已改善&#x200B;**設定您的程式碼型體驗**&#x200B;頁面，讓程式更清楚，包括說明什麼是表面URI的章節。 [閱讀全文](../code-based/code-based-configuration.md)
 * **建立Web通道設定**&#x200B;頁面已更新，以釐清建立頁面符合規則的步驟，該規則也適用於程式碼型體驗設定。 [閱讀全文](../web/web-configuration.md#web-page-matching-rule)
 * 已新增有關系統產生資料集的近期存留時間(TTL)護欄的附註。 [閱讀全文](../data/get-started-datasets.md)
