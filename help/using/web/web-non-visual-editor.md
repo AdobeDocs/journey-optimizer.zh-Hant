@@ -5,10 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 6f517ca209ae992f8daf3b285ccabebac100081b
+source-git-commit: 59fae238326186092a29d4a451655efabaabb4b2
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '401'
+ht-degree: 0%
 
 ---
 
@@ -66,8 +66,8 @@ ht-degree: 1%
    如有需要，您也可以切換為網頁設計工具。 您的所有修改將會保留。
 
 
-1. 您可以啟用點選追蹤，並從左側邊欄的第二個圖示定義要追蹤的動作，如下所示：
+1. 您可以選取網站的任何元素並追蹤對該元素的點按。 若要啟用點選追蹤並定義要追蹤的動作，請按一下左側邊欄上的第二個圖示，如下所示：
 
    ![](assets/web-campaign-click.png)
 
-   按一下&#x200B;**新增元件**&#x200B;按鈕以選取要追蹤的新動作。
+   使用&#x200B;**新增元件**&#x200B;按鈕來選取要追蹤的新動作。 在[本節](monitor-web-experiences.md#use-click-tracking)中進一步瞭解點選追蹤使用量。
