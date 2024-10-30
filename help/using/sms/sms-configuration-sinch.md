@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '730'
 ht-degree: 3%
 
 ---
@@ -48,13 +48,21 @@ ht-degree: 3%
 
    * **[!UICONTROL 說明訊息]**：輸入自動傳送為您&#x200B;**說明訊息**&#x200B;的自訂回應。
 
-   * **[!UICONTROL 雙重加入關鍵字]**：輸入觸發雙重加入程式的關鍵字。 如果使用者設定檔不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。 [進一步瞭解簡訊雙重選擇加入](https://video.tv.adobe.com/v/3427129/?learn=on)。
+   * **[!UICONTROL 雙重加入關鍵字]**：輸入觸發雙重加入程式的關鍵字。 如果使用者輪廓不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。 [進一步瞭解簡訊雙重選擇加入](https://video.tv.adobe.com/v/3427129/?learn=on)。
 
    * **[!UICONTROL 雙重加入訊息]**：輸入自動傳送以回應雙重加入確認的自訂回應。
 
    * **[!UICONTROL 傳入號碼]**：新增您的唯一傳入號碼或簡短代碼。 這可讓您在不同的沙箱中使用相同的API認證，每個沙箱都有自己的傳入號碼或短程式碼。
 
+   * **[!UICONTROL 自訂傳入關鍵字]**：為特定動作（例如DISCOUNT、OFFERS、ENROLL）定義唯一的關鍵字。 這些關鍵字會擷取並儲存為設定檔中的屬性，可讓您在歷程中觸發串流區段資格，並提供自訂回應或動作。
+
+   * **[!UICONTROL 預設傳入回複訊息]**：輸入當一般使用者傳送的傳入SMS不符合任何已定義的關鍵字時，所傳送的預設回覆。
+
 1. 完成API認證的設定時，請按一下&#x200B;**[!UICONTROL 提交]**。
+
+1. 在&#x200B;**[!UICONTROL API認證]**&#x200B;功能表中，按一下bin圖示以刪除您的API認證。
+
+1. 若要修改現有認證，請找到所需的API認證，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;選項以進行必要的變更。
 
 建立和設定API認證後，您現在需要建立SMS訊息的通道設定。 [了解更多](sms-configuration-surface.md)
 
@@ -82,5 +90,9 @@ ht-degree: 3%
    * **[!UICONTROL 服務計畫ID]**&#x200B;和&#x200B;**[!UICONTROL SMS API Token]**：您的&#x200B;**[!UICONTROL 服務計畫ID]**&#x200B;和&#x200B;**[!UICONTROL SMS API Token]**&#x200B;位於API頁面的SMS索引標籤上。
 
 1. 完成API認證的設定時，請按一下&#x200B;**[!UICONTROL 提交]**。
+
+1. 在&#x200B;**[!UICONTROL API認證]**&#x200B;功能表中，按一下bin圖示以刪除您的API認證。
+
+1. 若要修改現有認證，請找到所需的API認證，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;選項以進行必要的變更。
 
 建立和設定API認證後，您現在需要建立MMS訊息的通道設定。 [了解更多](sms-configuration-surface.md)

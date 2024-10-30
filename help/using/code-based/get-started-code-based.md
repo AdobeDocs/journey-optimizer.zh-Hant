@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 83%
@@ -75,7 +75,7 @@ ht-degree: 83%
 
 * 透過網頁瀏覽器或行動應用程式存取數位屬性時，您都可以考慮使用程式碼型體驗，否則最好使用 [!DNL Journey Optimizer] [Web 管道](../web/get-started-web.md){target="_blank"}或[!DNL Journey Optimizer] [應用程式內傳訊](../in-app/get-started-in-app.md){target="_blank"}管道。
 
-* 如果網站無法載入至[網頁設計工具](../web/edit-web-content.md#work-with-web-designer){target="_blank"}視覺編輯器，或您無法使用可支援 Web 管道視覺化製作的[瀏覽器擴充功能](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"}，您可以使用程式碼型管道作為 [!DNL Journey Optimizer] Web 管道的替代方案。
+* 如果網站無法載入至[網頁設計工具](../web/web-visual-editor.md){target="_blank"}視覺編輯器，或您無法使用可支援 Web 管道視覺化製作的[瀏覽器擴充功能](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"}，您可以使用程式碼型管道作為 [!DNL Journey Optimizer] Web 管道的替代方案。
 
 * 如果您採用 API 型、無頭式或伺服器端實施，您也可以使用程式碼型頻道作為 [!DNL Journey Optimizer] 網頁或應用程式內頻道的替代方案。
 
@@ -85,9 +85,9 @@ ht-degree: 83%
 
 **網路**
 
-* 使用[網頁設計工具](../web/edit-web-content.md#work-with-web-designer){target="_blank"}視覺化編輯器，編輯您的內容。
+* 使用[網頁設計工具](../web/web-visual-editor.md){target="_blank"}視覺化編輯器，編輯您的內容。
 * 您需要已在網頁瀏覽器上安裝 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant){target="_blank"} 實作與 [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} 擴充功能。 [深入暸解](../web/web-prerequisites.md){target="_blank"}
-* 網路頻道可讓您修改頁面上的所有內容，並包含可用來進行變更的預先定義動作清單。 [了解更多](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
+* 網路頻道可讓您修改頁面上的所有內容，並包含可用來進行變更的預先定義動作清單。 [了解更多](../web/web-visual-editor.md){target="_blank"}
 * 設定容易，上手快速。
 * 專注於行銷人員角色。
 

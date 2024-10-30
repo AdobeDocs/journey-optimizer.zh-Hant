@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 3%
@@ -80,7 +80,7 @@ ht-degree: 3%
 
    ![](assets/web-visual-editing-extension-edge.png)
 
-現在，當在[!DNL Journey Optimizer] [網頁設計工具](edit-web-content.md#work-with-web-designer)中開啟網站以進行編寫時，會自動啟用Adobe Experience Cloud Visual Editing Helper。
+現在，當在[!DNL Journey Optimizer] [網頁設計工具](web-visual-editor.md)中開啟網站以進行編寫時，會自動啟用Adobe Experience Cloud Visual Editing Helper。
 
 擴充功能沒有任何條件設定，且會自動處理所有設定，包括SameSite Cookie設定。
 
@@ -122,7 +122,7 @@ ht-degree: 3%
 
   ![](assets/web-aep-merge-policy.png)
 
-* 若要針對Journey Optimizer Web體驗的傳遞進行疑難排解，您可以在&#x200B;**Edge Delivery保證**&#x200B;中使用&#x200B;**Adobe Experience Platform**&#x200B;檢視。 此外掛程式可讓您詳細檢查請求呼叫、驗證預期的邊緣呼叫是否如預期發生，以及檢查設定檔資料，包括身分對應、區段會籍和同意設定。 此外，您可以檢閱請求符合資格的活動，並識別未符合資格的活動。
+* 若要針對Journey Optimizer Web體驗的傳遞進行疑難排解，您可以在&#x200B;**Edge Delivery**&#x200B;中使用&#x200B;**Adobe Experience Platform Assurance**&#x200B;檢視。 此外掛程式可讓您詳細檢查請求呼叫、驗證預期的邊緣呼叫是否如預期發生，以及檢查設定檔資料，包括身分對應、區段會籍和同意設定。 此外，您可以檢閱請求符合資格的活動，並識別未符合資格的活動。
 
   使用&#x200B;**Edge Delivery**&#x200B;外掛程式可協助您取得所需的深入分析，以有效瞭解並疑難排解傳入的實作。
 

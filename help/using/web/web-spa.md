@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '463'
 ht-degree: 16%
 
 ---
@@ -41,13 +41,13 @@ Adobe[!DNL Journey Optimizer]可運用XDM檢視，讓行銷人員透過網頁視
 
 在Adobe Experience Platform Web SDK實作中完成SPA設定後，您必須導覽您要套用修改之網站的所有檢視。 請遵循下列步驟。
 
-1. [建立網站行銷活動](create-web.md)並存取[網站設計工具](edit-web-content.md)。
+1. [建立網頁歷程或行銷活動](create-web.md)並存取[網頁設計工具](web-visual-editor.md)。
 
    您目前所在的檢視畫面會顯示在左上方。
 
    ![](assets/web-designer-view-home.png)
 
-1. 切換至&#x200B;**[!UICONTROL 瀏覽]**&#x200B;模式。 [了解更多](../web/edit-web-content.md#browse-mode)
+1. 切換至&#x200B;**[!UICONTROL 瀏覽]**&#x200B;模式。 [了解更多](web-visual-editor.md#browse-mode)
 
    ![](assets/web-designer-view-browse.png)
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
-workflow-type: ht
-source-wordcount: '1505'
+source-git-commit: e3ebbb021b7336fa859deb19d4e5786a4f4fdf30
+workflow-type: tm+mt
+source-wordcount: '1446'
 ht-degree: 100%
 
 ---
@@ -232,45 +232,7 @@ ht-degree: 100%
 
 <!--CONTENT LOCKING-->
 
->[!CONTEXTUALHELP]
->id="ajo_locking_governance"
->title="治理"
->abstract="治理"
 
->[!CONTEXTUALHELP]
->id="ajo_locking_mode"
->title="模式"
->abstract="模式"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_content_addition"
->title="啟用內容添加部分"
->abstract="啟用內容添加部分"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_structure"
->title="結構下的內容鎖定機制"
->abstract="結構下的內容鎖定機制"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_component"
->title="請在元件中使用特定鎖定機制"
->abstract="請在元件中使用特定鎖定機制"
-
->[!CONTEXTUALHELP]
->id="ajo_email_editable_areas"
->title="強調可編輯區域"
->abstract="強調可編輯區域"
-
->[!CONTEXTUALHELP]
->id="ajo_email_locking_activated"
->title="已啟用治理"
->abstract="已啟用內容鎖定機制，系統可能會阻止您修改資料。"
-
->[!CONTEXTUALHELP]
->id="ajo_email_locking_read_only"
->title="唯讀"
->abstract="此為唯讀內容，無法再行修改。"
 
 <!--APPROVAL POLICIES-->
 

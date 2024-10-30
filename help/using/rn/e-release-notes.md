@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 92ecd1261e6c734743c4ab5173969da6e54cd15a
+source-git-commit: 42b9bfcc9079570a047462c23001d102abda58c9
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '2000'
 ht-degree: 37%
 
 ---
@@ -289,6 +289,10 @@ ht-degree: 37%
 此發行版本隨附下列改進項目。
 
 **簡訊頻道**
+
+>[!AVAILABILITY]
+>
+>下列增強功能僅適用於Sinch和Infobip提供者。
 
 已引進簡訊增強功能來改善您的傳訊功能：
 

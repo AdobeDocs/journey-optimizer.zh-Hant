@@ -6,9 +6,10 @@ description: 瞭解如何設定環境，以透過自訂提供者使用Journey Op
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
+exl-id: fd713864-96b9-4687-91bd-84e3533273ff
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '283'
 ht-degree: 3%
 
 ---
@@ -50,6 +51,10 @@ ht-degree: 3%
      確定承載包含`{{toNumber}}`、`{{fromNumber}}`、`{{message}}`。
 
 1. 完成API認證的設定時，請按一下&#x200B;**[!UICONTROL 提交]**。
+
+1. 在&#x200B;**[!UICONTROL API認證]**&#x200B;功能表中，按一下bin圖示以刪除您的API認證。
+
+1. 若要修改現有認證，請找到所需的API認證，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;選項以進行必要的變更。
 
 建立和設定API認證後，您現在需要建立SMS訊息的頻道介面。 [了解更多](sms-configuration-surface.md)
 

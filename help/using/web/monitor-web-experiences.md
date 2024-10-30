@@ -1,19 +1,19 @@
 ---
-title: 監視網路行銷活動
-description: 瞭解如何在Journey Optimizer中監視您的網路行銷活動
+title: 監視網站體驗
+description: 瞭解如何在Journey Optimizer中監視您的網站體驗
 feature: Web Channel, Reporting
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 3%
 
 ---
 
-# 監視網路行銷活動 {#monitor-web-experiences}
+# 監視網站體驗 {#monitor-web-experiences}
 
 ## 檢查網頁報告 {#check-web-reports}
 
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 若要進一步改善網站體驗監控，您也可以追蹤網站任何特定元素的點按次數。 這可讓您在網頁報告中顯示該元素的點按次數。 [了解作法](#use-click-tracing)
 
-## 使用點選追蹤 {#use-click-tracing}
+## 使用點選追蹤 {#use-click-tracking}
 
 網頁設計工具可讓您選取網站的任何元素，並追蹤對該元素的點按。
 

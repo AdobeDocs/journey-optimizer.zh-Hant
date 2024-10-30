@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
-workflow-type: ht
-source-wordcount: '160'
-ht-degree: 100%
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 81%
 
 ---
 
@@ -21,10 +21,9 @@ ht-degree: 100%
 
 ![](../rn/assets/do-not-localize/web-authoring.gif)
 
-
 如果您已使用輸出通道 (例如電子郵件、簡訊或推播通知)，您現在可以善用輸入網路頻道，提供跨越所有通道的真正個人化體驗。
 
-建立行銷活動後，請選取 **Web** 作為動作並定義基本設定。請參閱本[頁面](../campaigns/create-campaign.md#configure)，深入了解如何設定您的行銷活動。
+创建歷程或行銷活動後，選擇“ **Web** ”作為操作並定義基本設置。 有關如何配置旅程/行銷活動的更多信息，請参閱此 [頁面](create-web.md#create-web-experience)。
 
 >[!NOTE]
 >
@@ -50,11 +49,11 @@ ht-degree: 100%
 </div>
 <p></td>
 <td>
-<a href="edit-web-content.md">
+<a href="web-visual-editor.md">
 <img alt="驗證" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="edit-web-content.md"><strong>製作網頁</strong></a>
+<a href="web-visual-editor.md"><strong>製作網頁</strong></a>
 </div>
 <p>
 </td>

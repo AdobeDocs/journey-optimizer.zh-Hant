@@ -7,10 +7,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 2fe9fb915e4aaf13458e46d5eeb177862416907d
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 2%
+source-wordcount: '847'
+ht-degree: 1%
 
 ---
 
@@ -71,3 +71,91 @@ ht-degree: 2%
 * **[!UICONTROL 不重複顯示]**：體驗開啟的次數，未考慮一個設定檔的多個互動。
 
 +++
+
+## 決策KPI {#decisioning-kpis}
+
+![](assets/cja-decisioning-kpis.png)
+
+**決策KPI**&#x200B;提供訪客與您的體驗互動的重要深入分析，包括量度，例如：
+
+* **[!UICONTROL 專案總數]**：在指定期間內屬於個人化體驗或決策程式一部分的個別專案總數。
+
+* **[!UICONTROL 顯示總數]**：
+
+* **[!UICONTROL 總點按次數]**：使用者在指定期間點選專案、連結、產品或其他互動式元素的總次數。
+
+* **[!UICONTROL 遞補率]**：沒有符合選取策略的執行個體百分比，導致顯示一般或較不明確的選項。
+
+## 參與漏斗 {#engagement-funnel}
+
+![](assets/cja-engagement-funnel.png)
+
+**[!UICONTROL 參與漏斗]**&#x200B;表格會評估漏斗每個階段驅動使用者互動的效能，藉此監控個人化體驗的效能。
+
+* **[!UICONTROL 顯示]**：在各種接觸點向使用者顯示或展示個人化體驗的總次數。
+
+* **[!UICONTROL 點按]**：使用者點按顯示給他們之個人化體驗的總次數。
+
+## 依點進率排名最前的決定專案 {#top-decision}
+
+![](assets/cja-top-decisions-ctr.png)
+
+依CTR ]**排名的**[!UICONTROL &#x200B;個最上層決定專案表格會根據個別專案的點進率來強調其效能。 此量度有助於評估哪些專案最能有效吸引使用者並促進互動。
+
+* **[!UICONTROL 點進率(CTR)]**：使用者點按連結、廣告或推薦的次數與顯示次數比較的百分比。
+
+## 依選擇策略區分的參與漏斗 {#engagement-funnel-selection}
+
+![](assets/cja-engagement-funnel-selection.png)
+
+**[!UICONTROL 依選擇策略的「參與漏斗」]**&#x200B;表格可協助您監視和分析不同的選擇策略如何有效地吸引具有個人化體驗的使用者。
+
+* **[!UICONTROL 顯示]**：在各種接觸點向使用者顯示或展示個人化體驗的總次數。
+
+* **[!UICONTROL 點按]**：使用者點按顯示給他們之個人化體驗的總次數。
+
+## 決定專案績效 {#decision-items-performance}
+
+![](assets/cja-decisioning-item-performance.png)
+
+**[!UICONTROL 決定專案績效]**&#x200B;表格會評估每個專案在吸引使用者並促使所需動作（例如購買、點按或其他回應）執行時的表現。
+
+* **[!UICONTROL 顯示]**：在各種接觸點向使用者顯示或展示個人化體驗的總次數。
+
+* **[!UICONTROL 點按]**：使用者點按顯示給他們之個人化體驗的總次數。
+
+## 排名策略 {#ranking-strategy}
+
+>[!NOTE]
+>
+>**[!UICONTROL 排名策略]**&#x200B;表格只有在將AI模型合併到行銷活動中時才能使用。 [了解更多](../experience-decisioning/ranking.md)
+
+![](assets/cja-decision-ranking-strategy.png)
+
+**[!UICONTROL 排名策略]**&#x200B;表格提供在比較兩種流量型別的個人化體驗中，AI驅動排名模型效能的深入分析：
+
+* **模型導向**：使用者會收到由AI模型排名的內容，針對相關性和參與度進行最佳化。
+
+* **保留**：使用者會看到內容的通用版本，做為測量AI模型效能的控制組。
+
+顯示的關鍵量度包括：
+
+* **[!UICONTROL 顯示]**：在各種接觸點向使用者顯示或展示個人化體驗的總次數。
+
+* **[!UICONTROL 點按]**：使用者點按顯示給他們之個人化體驗的總次數。
+
+* **[!UICONTROL 轉換率]**：產生使用者動作（例如點按）的顯示百分比，表示模型成功與使用者互動。
+
+## 保留和模型導向流量的轉換率 {#conversion-rate}
+
+>[!NOTE]
+>
+>保留和模型驅動流量&#x200B;]**的**[!UICONTROL &#x200B;轉換率只有在將AI模型整合至行銷活動時才可供使用。 [了解更多](../experience-decisioning/ranking.md)
+
+![](assets/cja-decisioning-conversion.png)
+
+保留和模型驅動流量的&#x200B;**[!UICONTROL 轉換率]**&#x200B;圖表顯示兩種流量型別在一段時間內的轉換率：
+
+* **模型導向**：使用者會收到由AI模型排名的內容，針對相關性和參與度進行最佳化。
+
+* **保留**：使用者會看到內容的通用版本，做為測量AI模型效能的控制組。

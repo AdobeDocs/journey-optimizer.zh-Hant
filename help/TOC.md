@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b6705059782a872939fa51fd51d335b1386a3e91
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '2152'
+source-wordcount: '2157'
 ht-degree: 94%
 
 ---
@@ -267,7 +267,8 @@ ht-degree: 94%
          + [建立網頁管道設定](using/web/web-configuration.md)
       + [建立網站體驗](using/web/create-web.md)
       + 製作網頁{#author-web-pages}
-         + [編輯網頁內容](using/web/edit-web-content.md)
+         + [使用網頁設計工具](using/web/web-visual-editor.md)
+         + [使用非視覺化編輯器](using/web/web-non-visual-editor.md)
          + [管理修改](using/web/manage-web-modifications.md)
          + [監視網站體驗](using/web/monitor-web-experiences.md)
          + [編寫單頁應用程式](using/web/web-spa.md)

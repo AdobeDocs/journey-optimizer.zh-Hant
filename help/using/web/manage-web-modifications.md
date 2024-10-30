@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '971'
 ht-degree: 8%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 8%
    >[!CAUTION]
    >
    >刪除動作時請務必謹慎，因為動作可能會影響後續動作。
+
+1. 如果您正在編寫[單頁應用程式](web-spa.md)，您可以將任何修改套用至其他檢視。 [了解更多](web-spa.md#apply-modifications-views)
 
 1. 若要同時刪除多個修改，請按一下&#x200B;**[!UICONTROL 修改]**&#x200B;窗格上方的&#x200B;**[!UICONTROL 選取]**&#x200B;按鈕，檢查您選擇的修改，然後按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示。
 
