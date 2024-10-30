@@ -5,9 +5,9 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: c2403c04d1e881d3da7528aa3460bae47f001c36
+source-git-commit: a1502d2fa13508650cb9353e53ab3a43de650c27
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '381'
 ht-degree: 86%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 86%
 
 >[!TAB 2024年10月發行版本]
 
-10月版本現已上線，包括電子郵件內容鎖定、與行動油墨整合、程式碼型與歷程中的Web體驗。 先前在有限可用性(LA)中，現在所有使用者都可以使用以下功能：電子郵件設定個人化、核准政策、歷程中的內容實驗、改善的報告體驗。
+10月版本現已上線，包括電子郵件內容鎖定、與行動油墨整合、程式碼型與歷程中的Web體驗。 先前在「有限可用性」(LA)中，現在所有使用者都能使用下列功能：電子郵件設定個人化、核准原則、內容實驗、改善的報告體驗、多語言內容等。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
