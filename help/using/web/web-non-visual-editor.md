@@ -5,9 +5,9 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 59fae238326186092a29d4a451655efabaabb4b2
+source-git-commit: 23ce5d1f2bafcb3ef37e2351efb8edc6da1ce805
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,14 @@ ht-degree: 0%
 
    ![](assets/web-non-visual-editor.png)
 
-1. 選取修改型別：
+1. 在下拉式清單中，選取修改型別。
+
+   有兩種可供使用的型別。 它們提供不同的選項。 如需更多詳細資訊，請參閱下列連結：
 
    * **[!UICONTROL CSS選擇器]** - [深入瞭解](manage-web-modifications.md#css-selector)
-   * **[!UICONTROL 頁面`<Head>`]** - [深入瞭解](manage-web-modifications.md#page-head)
+   * **[!UICONTROL 頁面`<head>`]** - [深入瞭解](manage-web-modifications.md#page-head)
 
-1. 按一下&#x200B;**[!UICONTROL 進階編輯選項]**&#x200B;按鈕。 個人化編輯器隨即開啟。
+1. 按一下&#x200B;**[!UICONTROL 新增個人化]**&#x200B;按鈕。 個人化編輯器隨即開啟。
 
    您可以善用[!DNL Journey Optimizer]個人化編輯器及其所有個人化和編寫功能。 [了解更多](../personalization/personalization-build-expressions.md)
 
@@ -47,7 +49,7 @@ ht-degree: 0%
 
 1. 您的第一次修改會顯示在&#x200B;**[!UICONTROL 修改]**&#x200B;窗格上方。
 
-   按一下您修改旁的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕，並選取&#x200B;**[!UICONTROL 資訊]**&#x200B;以顯示其詳細資料。 您也可以&#x200B;**[!UICONTROL 編輯]**&#x200B;或&#x200B;**[!UICONTROL 刪除]**&#x200B;修改。
+   按一下您修改旁的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕，並選取&#x200B;**[!UICONTROL 資訊]**&#x200B;以顯示其詳細資料。 如果需要，您也可以&#x200B;**[!UICONTROL 刪除修改]**。
 
    ![](assets/web-non-visual-editor-ex-more.png)
 
@@ -55,19 +57,18 @@ ht-degree: 0%
    >
    >**[!UICONTROL 修改]**&#x200B;窗格與使用[網頁設計工具](web-visual-editor.md)時相同。 您可用它執行的所有動作都在[本節](manage-web-modifications.md#use-modifications-pane)中詳細說明。
 
-1. 按一下&#x200B;**[!UICONTROL 修改]**&#x200B;窗格頂端的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕以&#x200B;**[!UICONTROL 新增修改]**，並重複上述步驟。 [了解更多](manage-web-modifications.md#add-modifications)
-
-   ![](assets/web-non-visual-editor-more.png)
-
-1. 選取畫面左上方的箭頭，返回歷程或行銷活動版本畫面。 您可以檢視目前的變更數目，並新增更多修改。
-
-   ![](assets/web-campaign-modifications.png)
-
-   如有需要，您也可以切換為網頁設計工具。 您的所有修改將會保留。
+1. 按一下&#x200B;**[!UICONTROL 修改]**&#x200B;窗格頂端的&#x200B;**[!UICONTROL 新增]**&#x200B;按鈕以新增其他修改，並重複上述步驟。
 
 
-1. 您可以選取網站的任何元素並追蹤對該元素的點按。 若要啟用點選追蹤並定義要追蹤的動作，請按一下左側邊欄上的第二個圖示，如下所示：
+1. 此外，您可以選取網站的任何元素並追蹤該元素上的點按次數。 若要啟用點選追蹤並定義要追蹤的動作，請按一下左側邊欄上的第二個圖示，如下所示：
 
    ![](assets/web-campaign-click.png)
 
    使用&#x200B;**新增元件**&#x200B;按鈕來選取要追蹤的新動作。 在[本節](monitor-web-experiences.md#use-click-tracking)中進一步瞭解點選追蹤使用量。
+
+
+1. 按一下畫面左上方的箭頭，瀏覽回到歷程或行銷活動版本畫面。 您可以檢視目前的變更數目，並新增更多修改。
+
+   ![](assets/web-campaign-modifications.png)
+
+   如有需要，您也可以切換為網頁設計工具。 您的所有修改將會保留。
