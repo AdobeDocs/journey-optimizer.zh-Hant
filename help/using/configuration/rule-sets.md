@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用規則集
+title: 使用規則集(LA)
 description: 瞭解如何建立和套用規則集
 feature: Rules
 topic: Content Management
@@ -12,9 +12,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 87e2308b2d6a9aeb3cbc0ef4bb28ea7aeb3b869a
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '1968'
+source-wordcount: '1988'
 ht-degree: 10%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 10%
 
 >[!AVAILABILITY]
 >
->規則集目前僅供選定使用者使用，做為Beta版。 請洽詢您的Adobe代表，以便納入Beta。
+>規則集目前可在「有限可用性」中提供給選定的客戶群組。 請注意，此功能將在未來逐步向更多使用者推出。 如果您有興趣加入輪候表，請洽詢您的客戶團隊。
 
 ## 開始使用規則集 {#gs}
 
@@ -167,7 +167,7 @@ ht-degree: 10%
    * **[!UICONTROL 歷程專案上限]**：限制設定檔在指定期間內進入歷程的專案數。
    * **[!UICONTROL 歷程並行上限]**：限制設定檔可同時註冊的歷程數。
 
-1. 有關如何設定歷程上限規則的詳細資訊，請參閱[歷程上限和仲裁](../test-approve/journey-capping.md)區段。
+1. 有關如何設定歷程上限規則的詳細資訊，請參閱[歷程上限和仲裁](../conflict-prioritization/journey-capping.md)區段。
 
 +++
 
@@ -306,7 +306,7 @@ In this scenario, an individual profile:
 
 若要將上限規則套用至歷程，請存取歷程並開啟其屬性。 在&#x200B;**[!UICONTROL 上限規則]**&#x200B;下拉式清單中，選取相關的規則集。
 
-![](../test-approve/assets/journey-capping-apply.png)
+![](../conflict-prioritization//assets/journey-capping-apply.png)
 
 >[!IMPORTANT]
 >

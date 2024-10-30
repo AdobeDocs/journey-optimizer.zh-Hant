@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '2048'
-ht-degree: 16%
+source-wordcount: '2233'
+ht-degree: 18%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 16%
 * 在歷程活動中定義[逾時期間](#timeout) （僅適用於管理員使用者），
 * 選取歷程和設定檔[時區](#timezone)
 * 將Adobe Experience Platform統一標籤指派給您的歷程，以輕鬆分類並改善行銷活動清單中的搜尋。 [了解如何使用標籤](../start/search-filter-categorize.md#tags)
+* 使用[衝突管理工具](#conflict)監視衝突並排定您的歷程優先順序。
 
 ![](assets/journey32.png)
 
@@ -45,7 +46,6 @@ ht-degree: 16%
 **複製技術詳細資料**&#x200B;可讓您複製支援團隊可用於疑難排解的歷程相關技術資訊。 已複製下列資訊： `JourneyVersion UID`、`OrgID`、`orgName`、`sandboxName`、`lastDeployedBy`、`lastDeployedAt`。
 
 在本頁](expression/journey-properties.md)中進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們[。
-
 
 ## 進入與重新進入 {#entrance}
 
@@ -299,3 +299,14 @@ Journey在從Adobe Experience Platform擷取設定檔資料時使用合併原則
 * 退出條件只能在草稿狀態中定義
 * 事件和事件型退出條件之間的歷程名稱空間一致性
 
+## 衝突管理 {#conflict}
+
+歷程屬性中的&#x200B;**[!UICONTROL 衝突管理]**&#x200B;區段可讓您監視衝突並排定歷程的優先順序。 您可以：
+
+* 套用&#x200B;**規則集**&#x200B;以根據上限規則將此歷程排除給部分對象。 [瞭解如何使用規則集](../configuration/rule-sets.md)
+
+* 將&#x200B;**優先順序分數**&#x200B;指派給歷程，範圍從0到100。 數字越高表示優先順序越高。 此處插入的優先順序值將由這個歷程所包含的任何傳入動作 (例如應用程式內) 繼承。[瞭解如何使用優先順序分數](../conflict-prioritization/priority-scores.md)
+
+  如果遇到其他行銷活動或歷程使用相同傳入管道設定的情況，將為收件者顯示優先順序分數最高的傳入動作。如果多個歷程或行銷活動具有相同的分數，將選擇最近修改的元素。
+
+* **檢視與其他歷程、行銷活動或頻道設定衝突**。 如果您想要識別對象、開始和結束日期、頻道設定、頻道或規則集上的重疊，您可以在此處檢視潛在衝突。 [瞭解如何識別歷程中的潛在衝突](../conflict-prioritization/conflicts.md)
