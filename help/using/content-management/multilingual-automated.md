@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
 workflow-type: tm+mt
 source-wordcount: '2041'
 ht-degree: 15%
@@ -194,6 +194,7 @@ ht-degree: 15%
             }
         }
         ```
+
       * 按一下「**[!UICONTROL 保留變更]**」按鈕以確認並儲存您的規則。
 
 +++
