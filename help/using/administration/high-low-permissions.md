@@ -9,7 +9,7 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 許可權，高階，低階，設定檔， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 0%
@@ -51,20 +51,20 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Publish journeys]**&#x200B;高階許可權可讓使用者發佈歷程。
+* **[!DNL Publish journeys]**
 
-+++ 其中包含下列低階許可權：
-   * Journey Optimizer專用：
++++ It includes the following low-level permissions:
+   * Journey Optimizer specific:
       * journeys.publish
       * journeys.read
 
 +++
 
-* **[!DNL View journeys]**&#x200B;高階許可權可讓使用者瀏覽及檢視歷程。
+* **[!DNL View journeys]**
 
-+++ 其中包含下列低階許可權：
++++ It includes the following low-level permissions:
 
-   * Journey Optimizer專用：
+   * Journey Optimizer specific:
       * journeys.read
 
    * Adobe Experience Platform專用：
@@ -95,11 +95,11 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL View journeys events, data sources and actions]**&#x200B;高階許可權可讓使用者在歷程流程中使用事件和資料。
+* **[!DNL View journeys events, data sources and actions]**
 
-+++ 其中包含下列低階許可權：
++++ It includes the following low-level permissions:
 
-   * Journey Optimizer專用：
+   * Journey Optimizer specific:
       * journeys_events.read
       * journeys_data_sources.read
       * journeys_actions.read
@@ -133,7 +133,7 @@ ht-degree: 0%
 
 +++ 其中包含下列低階許可權：
 
-   * Journey Optimizer專用：
+   * Journey Optimizer specific:
       * frequency_rules.read
       * frequency_rules.write
       * frequency_rules.delete
@@ -149,26 +149,26 @@ ht-degree: 0%
 
 +++
 
-## 行銷活動資源 {#campaign-capability}
+## Campaign resource {#campaign-capability}
 
-* **[!DNL Export suppression list]**&#x200B;高階許可權可讓使用者將隱藏清單下載為CSV檔案。
+* **[!DNL Export suppression list]**
 
-+++ 其中包含下列低階許可權：
++++ It includes the following low-level permissions:
 
-   * Journey Optimizer專用：
-      * 隱藏清單匯出
+   * Journey Optimizer specific:
+      * suppression_list.export
 
-   * Adobe Experience Platform專用：
+   * Adobe Experience Platform specific:
       * profiles.read
       * datasets.read
 
 +++
 
-* **[!DNL Manage campaigns]**&#x200B;高階許可權可讓使用者建立新的和編輯/刪除行銷活動
+* **[!DNL Manage campaigns]**
 
-+++ 其中包含下列低階許可權：
++++ It includes the following low-level permissions:
 
-   * Journey Optimizer專用：
+   * Journey Optimizer specific:
 
       * campaign.read
       * campaign.write
@@ -183,7 +183,7 @@ ht-degree: 0%
 
 +++ 其中包含下列低階許可權：
 
-   * Journey Optimizer專用：
+   * Journey Optimizer specific:
 
       * campaign-read
       * campaign-publish
@@ -203,11 +203,11 @@ ht-degree: 0%
 
 +++
 
-## 決定管理資源 {#decisions-permissions}
+## Decision management resource {#decisions-permissions}
 
-* **[!DNL Manage decisions]**&#x200B;高階許可權可讓使用者建立新的和編輯/刪除現有的&#x200B;**[!DNL Activity entities]**，以及管理這些活動中用來做決定的物件。
+* **[!DNL Manage decisions]****[!DNL Activity entities]**
 
-+++ 其中包含下列低階許可權：
++++ It includes the following low-level permissions:
 
    * 特定決策管理：
       * activities.read
@@ -287,7 +287,7 @@ ht-degree: 0%
 ## 頻道設定資源 {#administration-permissions}
 
 <!--
-* **[!DNL Manage Experience decisions]** high-level permission allows users to read, create, edit, and delete Experience decisioning entities.
+* **[!DNL Manage Experience decisions]** high-level permission allows users to read, create, edit, and delete Decisioning entities.
 
   +++ It includes the following low-level permissions:  
 
@@ -308,10 +308,10 @@ ht-degree: 0%
   +++
 -->
 
-* **[!DNL Manage file routing]**&#x200B;高階許可權可讓使用者建立、編輯和刪除檔案路由設定。
+* **[!DNL Manage file routing]**
 
-+++ 其中包含下列低階許可權：
-   * Journey Optimizer專用：
++++ It includes the following low-level permissions:
+   * Journey Optimizer specific:
 
       * file_routing.read
       * file_routing.write
@@ -321,8 +321,8 @@ ht-degree: 0%
 
 * **[!DNL Manage IP pools]**&#x200B;高階許可權可讓使用者建立、編輯和刪除相似性定義。
 
-+++ 其中包含下列低階許可權：
-   * Journey Optimizer專用：
++++ It includes the following low-level permissions:
+   * Journey Optimizer specific:
       * IP_pools.read
       * IP_pools.write
       * IP_pools.delete
@@ -360,9 +360,9 @@ ht-degree: 0%
 
 * **[!DNL Manage messages presets]**&#x200B;高階許可權可讓使用者在沙箱層級讀取、建立、編輯和刪除跨頻道的頻道設定。
 
-+++ 其中包含下列低階許可權：
++++ It includes the following low-level permissions:
 
-   * Journey Optimizer專用：
+   * Journey Optimizer specific:
       * messages_presets.read
       * messages_presets.write
       * messages_presets.delete
@@ -376,9 +376,9 @@ ht-degree: 0%
 
 * **[!DNL Manage PTR records]**&#x200B;高階許可權可讓使用者讀取和編輯已根據子網域設定的PTR記錄。
 
-+++ 其中包含下列低階許可權：
++++ It includes the following low-level permissions:
 
-   * Journey Optimizer專用：
+   * Journey Optimizer specific:
       * PTR_records.read
       * PTR_records.write
       * subdomains_delegation.read
@@ -407,7 +407,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage subdomains delegations]**&#x200B;高階許可權可讓使用者建立、編輯和刪除子網域委派（包括IP集區）。
+* **[!DNL Manage subdomains delegations]**
 
 +++ 其中包含下列低階許可權：
    * Journey Optimizer專用：
@@ -418,10 +418,10 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage suppression]**&#x200B;高階許可權可讓使用者定義電子郵件地址新增至隱藏清單前的跳出次數，以及新增和刪除隱藏清單中的專案。
+* **[!DNL Manage suppression]**
 
-+++ 其中包含下列低階許可權：
-   * Journey Optimizer專用：
++++ It includes the following low-level permissions:
+   * Journey Optimizer specific:
       * suppression_rules.read
       * suppression_rules.write
       * suppression_rules.delete
@@ -430,7 +430,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL View file routing]**&#x200B;高階許可權可讓使用者檢視檔案路由設定。
+* **[!DNL View file routing]**
 
 +++ 其中包含下列低階許可權：
    * Journey Optimizer專用：
@@ -467,8 +467,8 @@ ht-degree: 0%
 
 * **[!DNL View PTR records]**&#x200B;高階許可權可讓使用者檢視已根據子網域設定的PTR記錄。
 
-+++ 其中包含下列低階許可權：
-   * Journey Optimizer專用：
++++ It includes the following low-level permissions:
+   * Journey Optimizer specific:
 
       * PTR_records.read
       * subdomains_delegation.read
@@ -488,9 +488,9 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
 -->
 
 
-* **[!DNL View suppression list]**&#x200B;高階許可權可讓使用者檢視隱藏清單內容與設定。
+* **[!DNL View suppression list]**
 
-+++ 其中包含下列低階許可權：
++++ It includes the following low-level permissions:
 
    * Journey Optimizer專用：
       * suppression_list.view
@@ -509,13 +509,13 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
   +++ It includes the following low-level permissions: 
 -->
 
-## AI協助資源 {#ai-permissions}
+## AI assistance resource {#ai-permissions}
 
-* **[!DNL Generate content]**&#x200B;高階許可權可讓使用者存取Journey Optimizer中的AI Assistant Content Accelerator。
+* **[!DNL Generate content]**
 
-+++ 其中包含下列低階許可權：
++++ It includes the following low-level permission:
 
-   * Journey Optimizer專用：
+   * Journey Optimizer specific:
       * ai-assistant-generated-content.generate
 
 +++

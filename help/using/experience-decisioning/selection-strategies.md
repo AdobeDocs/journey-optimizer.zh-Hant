@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 badge: label="有限可用性"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 21%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 21%
 
 ## 存取及管理選擇策略
 
-1. 移至&#x200B;**[!UICONTROL 體驗決策]** > **[!UICONTROL 策略設定]** > **[!UICONTROL 選取策略]**。
+1. 移至&#x200B;**[!UICONTROL 決策]** > **[!UICONTROL 策略設定]** > **[!UICONTROL 選取策略]**。
 
 1. 目前建立的所有選取策略都會列在清單中。 篩選器可協助您根據排名方法擷取策略。
 

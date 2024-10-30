@@ -1,43 +1,43 @@
 ---
-title: 開始使用體驗決策
-description: 進一步瞭解體驗決策
+title: Get started with Decisioning
+description: Learn more on Decisioning
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 badge: label="有限可用性"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 32%
+source-wordcount: '408'
+ht-degree: 19%
 
 ---
 
-# 開始使用體驗決策 {#get-started-experience-decisioning}
+# Get started with Decisioning {#get-started-experience-decisioning}
 
 >[!AVAILABILITY]
 >
->體驗決策目前僅可適用於一組組織 (可用性限制)。 若要取得存取權，請和您的 Adobe 代表聯絡。
+>Decisioning is currently only available for a set of organizations (Limited Availability). 若要取得存取權，請和您的 Adobe 代表聯絡。
 >
->目前，此功能無法供已購買Adobe **Healthcare Shield**&#x200B;和&#x200B;**Privacy and Security Shield**&#x200B;附加產品的客戶使用。
+>********
 
-## 什麼是Experience Decisioning {#about}
+## What is Decisioning {#about}
 
-體驗決策透過提供稱為「決策項目」的集中行銷優惠目錄與複雜的決策引擎來簡化個人化。 此引擎運用規則與排名標準來選取並呈現最相關的決定項目給每個人。
+Decisioning simplifies personalization by offering a centralized catalog of marketing offers known as &#39;decision items&#39; and a sophisticated decision engine. 此引擎運用規則與排名標準來選取並呈現最相關的決定項目給每個人。
 
-這些決定專案會透過[新的程式碼型體驗管道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based) (現在可在Journey Optimizer促銷活動中存取)，順暢地整合至廣泛的傳入介面。 Experience Decisioning 決策原則僅可用於程式碼型的體驗活動。
+[](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based)Decisioning decision policies are available for use in code-based experience campaigns only.
 
 
-## 體驗決策關鍵步驟 {#steps}
+## Decisioning key steps {#steps}
 
-使用Experience Decisioning的主要步驟如下：
+The main steps to work with Decisioning are as follows:
 
-1. **指派適當的許可權**。 Experience Decisioning僅適用於具有與Experience Decisioning相關的&#x200B;**[!UICONTROL 角色]**&#x200B;存取權的使用者，例如決策管理員。 如果您無法存取Experience Decisioning，則必須擴充您的許可權。
+1. ******** If you cannot access Decisioning, your permissions must be extended.
 
-   +++瞭解如何指派決策管理員角色
+   +++Learn how to assign the Decision managers role
 
-   1. 若要在[!DNL Permissions]產品中將角色指派給使用者，請瀏覽至&#x200B;**[!UICONTROL 角色]**&#x200B;標籤，並選取決策管理員。
+   1. [!DNL Permissions]****
 
       ![](assets/decision_permission_1.png)
 
@@ -55,16 +55,16 @@ ht-degree: 32%
 
 +++
 
-1. **設定自訂屬性**：將自訂屬性設定到目錄的結構描述中，根據您的特定需求量身打造專案目錄。
+1. ****
 
-1. **建立決策專案**&#x200B;以向您的目標對象顯示。
+1. ****
 
-1. **使用集合組織**：使用集合根據屬性型規則將決定專案分類。 將集合併入您的選擇策略，以決定應考慮的決定專案集合。
+1. **** Incorporate collections into your selection strategies to determine which collection of decision items should be considered.
 
-1. **建立決定規則**：決定專案和/或選擇策略中會使用決定規則來決定決定可以向誰顯示決定專案。
+1. ****
 
-1. **實作排名方法**：建立排名方法，並在決定策略中套用這些方法，以決定選取決定專案的優先順序。
+1. ****
 
-1. **建立選擇策略**：建置使用集合、決定規則和排名方法的選擇策略，以識別適合顯示給設定檔的決定專案。
+1. ****
 
-1. **將決定原則內嵌至您的程式碼型行銷活動**：決定原則會結合多個選取原則，以決定要顯示給目標對象的合格決定專案。
+1. ****

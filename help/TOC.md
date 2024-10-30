@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2156'
 ht-degree: 94%
 
 ---
@@ -446,7 +446,7 @@ ht-degree: 94%
       + [新的 DMARC 需求](using/configuration/dmarc-record-update.md)
    + [警示](using/reports/alerts.md)
    + [排除原因](using/reports/exclusion-list.md)
-+ 決策{#decisioning}
++ 決定功能{#decisioning}
    + 決定管理 {#offer-decisioning}
       + 開始使用決定管理 {#get-started-decision}
          + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
@@ -587,8 +587,8 @@ ht-degree: 94%
             + [決策 API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [邊緣決策 API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [批次決策 API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + 體驗決策 (LA) {#experience-decisioning}
-      + [開始使用體驗決策](using/experience-decisioning/gs-experience-decisioning.md)
+   + 決策(LA) {#experience-decisioning}
+      + [開始使用決策](using/experience-decisioning/gs-experience-decisioning.md)
       + API 參考{#api-reference}
          + 決定項目{#decision-items}
             + [建立決定項目](using/experience-decisioning/api-reference/decisions-items/create.md)

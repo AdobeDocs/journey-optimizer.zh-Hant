@@ -1,19 +1,19 @@
 ---
-title: Experience decisioning使用案例
+title: 決策使用案例
 description: 瞭解如何使用程式碼型管道的實驗建立決策
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
 badge: label="有限可用性"
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 6%
+source-wordcount: '327'
+ht-degree: 7%
 
 ---
 
-# Experience decisioning使用案例 {#experience-decisioning-uc}
+# 決策使用案例 {#experience-decisioning-uc}
 
 在此使用案例中，您會定義兩個傳遞處理，每個處理包含不同的決定原則，以評估哪個處理對目標對象執行時效果最佳。
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 您首先需要建立專案、在集合中將它們分組、設定規則和排名方法。 這些元素可讓您建置選取策略。
 
-1. 導覽至&#x200B;**[!UICONTROL 體驗決策]** > **[!UICONTROL 目錄]**，並建立數個選件專案。 使用對象或規則設定限制，將每個專案限製為僅限特定設定檔。 [了解更多](items.md)
+1. 導覽至&#x200B;**[!UICONTROL 決策]** > **[!UICONTROL 目錄]**，並建立數個選件專案。 使用對象或規則設定限制，將每個專案限製為僅限特定設定檔。 [了解更多](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
