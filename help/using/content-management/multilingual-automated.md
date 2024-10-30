@@ -9,11 +9,10 @@ role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-badge: label="可用性限制" type="Informative"
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 21%
+source-wordcount: '2041'
+ht-degree: 15%
 
 ---
 
@@ -29,44 +28,25 @@ ht-degree: 21%
 >title="編輯提供者"
 >abstract="修改現有翻譯提供者並視需要新增地區設定。您可以利用此功能控制專案目前可用的提供者和地區設定，使您能夠根據目前的需求和專案目標彈性調整資源並鎖定特定客群。"
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->多種語言內容目前僅適用於一組組織 (可用性限制)。若要取得存取權，請和您的 Adobe 代表聯絡。
+>針對自動化流程，使用者需要與&#x200B;**[!UICONTROL 翻譯服務]**&#x200B;功能相關的許可權。 [進一步瞭解許可權](../administration/permissions.md)
 
 使用自動化流程，您只需選取目標語言和語言提供者即可。 然後您的內容會直接傳送到翻譯，準備在完成後進行最終審查。
 
 請依照下列步驟，使用自動翻譯建立多語言內容：
 
-1. [建立您的地區設定](#create-locale)。
+1. [新增您的提供者](multilingual-provider.md)
 
-1. [建立語言專案](#create-translation-project)。
+1. [新增地區（選擇性）](multilingual-locale.md)
 
-1. [建立語言設定](#create-language-settings)。
+1. [建立語言專案](#create-translation-project)
 
-1. [建立多語言內容](#create-a-multilingual-campaign)。
+1. [建立語言設定](#create-language-settings)
 
-1. [檢閱您的翻譯工作（選擇性）](#review-translation-project)。
+1. [建立多語言內容](#create-a-multilingual-campaign)
 
-## 建立地區設定 {#create-locale}
-
->[!CONTEXTUALHELP]
->id="ajo_multi_add_locale"
->title="新增地區設定"
->abstract="設定語言偏好設定時，如果您的多語言內容並未提供所需的地區設定，您可以選擇建立其他地區設定。"
-
-如[建立您的語言設定](#language-settings)一節中所述，設定您的語言設定時，如果多語言內容沒有特定的地區設定，您可以使用&#x200B;**[!UICONTROL 翻譯]**&#x200B;功能表彈性地建立所需數量的新地區設定。
-
-1. 從&#x200B;**[!UICONTROL 內容管理]**&#x200B;功能表，存取&#x200B;**[!UICONTROL 翻譯]**。
-
-1. 從&#x200B;**[!UICONTROL 地區設定字典]**&#x200B;索引標籤，按一下&#x200B;**[!UICONTROL 新增地區設定]**。
-
-   ![](assets/locale_1.png)
-
-1. 從&#x200B;**[!UICONTROL 語言]**&#x200B;清單和相關的&#x200B;**[!UICONTROL 地區]**&#x200B;選取您的地區設定代碼。
-
-1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以建立您的地區設定。
-
-   ![](assets/locale_2.png)
+1. [檢閱您的翻譯任務（選擇性）](#review-translation-project)
 
 ## 建立翻譯專案 {#translation-project}
 
@@ -125,7 +105,17 @@ ht-degree: 21%
 
 ## 建立語言設定 {#language-settings}
 
-您可以在此段落中設定主要語言及其相關語言環境，以管理多語言內容。 您也可以選擇要用來查閱與設定檔語言相關資訊的屬性。
+>[!CONTEXTUALHELP]
+>id="ajo_multi_custom_conditional"
+>title="自訂條件設定"
+>abstract="自訂條件設定是規則集，可根據特定條件決定要顯示內容的地區設定。 這些設定可讓您根據使用者位置、語言偏好設定或其他內容元素等因素來控制內容顯示。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_fallback"
+>title="遞補偏好"
+>abstract="選擇遞補偏好設定對於改善使用者體驗至關重要。 如果未選取遞補內容，且設定檔不符合必要需求，則不會傳送內容。 選取適當的遞補內容，即使設定檔不符合初始條件，仍可確保內容傳送的一致性。"
+
+在本節中，您可以設定管理多語言內容的不同地區設定。 您也可以選擇要用來查閱與設定檔語言相關資訊的屬性。
 
 1. 從&#x200B;**[!UICONTROL 管理]**&#x200B;功能表，存取&#x200B;**[!UICONTROL 管道]** > **[!UICONTROL 一般設定]**。
 
@@ -133,27 +123,86 @@ ht-degree: 21%
 
    ![](assets/language_settings_1.png)
 
-1. 輸入您&#x200B;**[!UICONTROL 語言設定]**&#x200B;的名稱。
-
-1. 選擇&#x200B;**[!UICONTROL 翻譯專案]**&#x200B;選項。
+1. 輸入&#x200B;**[!UICONTROL 語言設定]**&#x200B;的名稱，然後選擇&#x200B;**[!UICONTROL 翻譯專案]**。
 
 1. 在&#x200B;**[!UICONTROL 翻譯專案]**&#x200B;欄位中，按一下&#x200B;**[!UICONTROL 編輯]**，然後選擇您先前建立的&#x200B;**[!UICONTROL 翻譯專案]**。
 
-   您先前設定的地區設定會自動匯入。
+   您先前設定的&#x200B;**[!UICONTROL 地區]**&#x200B;會自動匯入。
+
+1. 選取&#x200B;**[!UICONTROL 遞補偏好設定]**，以定義當設定檔不符合內容傳遞必要條件時的備份選項。
+
+   請注意，如果未選取遞補選項，則不會傳送行銷活動或歷程。
 
    ![](assets/language_settings_2.png)
 
-1. 從&#x200B;**[!UICONTROL 傳送喜好設定]**&#x200B;功能表，選取您要查詢以尋找設定檔語言資訊的屬性。
+1. 從下列選項中選擇您的傳送偏好設定：
 
-1. 按一下&#x200B;**[!UICONTROL 地區設定]**&#x200B;旁的&#x200B;**[!UICONTROL 編輯]**，進一步個人化設定檔並新增&#x200B;**[!UICONTROL 設定檔偏好設定]**。
+   * **[!UICONTROL 選取設定檔語言偏好設定屬性]**
+   * **[!UICONTROL 建立自訂條件規則]**
+
+1. 如果您選取&#x200B;**[!UICONTROL 選取設定檔語言喜好設定屬性]**，請從&#x200B;**[!UICONTROL 設定檔語言喜好設定屬性]**&#x200B;功能表選擇相關屬性，以查詢設定檔語言資訊。
+
+   ![](assets/multilingual-settings-3.png)
+
+1. 如果您選取&#x200B;**[!UICONTROL 建立自訂條件規則]**，請選取您要建立條件的地區設定。 接著，根據使用者位置、語言偏好設定或其他內容元素等因素建立規則。
 
    ![](assets/language_settings_3.png)
 
-1. 如果您的&#x200B;**[!UICONTROL 翻譯專案]**&#x200B;已更新，請按一下&#x200B;**[!UICONTROL 重新整理]**，以便在您的&#x200B;**[!UICONTROL 語言設定]**&#x200B;中反映這些變更。
+1. 新增屬性、事件或對象來定義目標群組，以開始建立條件。
 
-   ![](assets/language_settings_4.png)
+   >[!IMPORTANT]
+   >
+   >內容資料僅適用於Web、應用程式內、程式碼型體驗和內容卡頻道。 如果用於電子郵件、SMS、推播通知或直接郵件頻道，在沒有其他屬性的情況下，將使用清單上第一個選項的語言傳送行銷活動或歷程。
+
+   ![](assets/multilingual-settings-6.png)
+
+   +++在條件中使用內容事件的先決條件
+
+   當使用者顯示您的內容時，個人化請求會與體驗事件一併傳送。 若要在條件中運用內容資料，您必須將其他資料附加至個人化請求裝載。 若要這麼做，您需要在Adobe Experience Platform資料收集中建立規則以指定：如果傳送了個人化請求，則附加額外資料至請求，定義屬性以符合結構描述中的語言欄位。
+
+   >[!NOTE]
+   >
+   >這些先決條件僅是應用程式內和內容卡管道的必要條件。
+
+   1. 在Adobe Experience Platform資料彙集中存取&#x200B;**[!UICONTROL 規則]**&#x200B;功能表並建立新規則。 有關如何建立規則的詳細資訊，請參閱[!DNL Adobe Experience Platform] [資料收集檔案](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+
+   2. 在規則的&#x200B;**[!UICONTROL IF]**&#x200B;區段中，新增設定如下的事件：
+
+      ![](assets/multilingual-experience-events-rule-if.png)
+
+      * 選擇您正在使用的&#x200B;**[!UICONTROL 擴充功能]**。
+      * 在&#x200B;**[!UICONTROL 事件型別]**&#x200B;欄位中，選取「AEP要求事件」。
+      * 在右窗格中，選取「XDM事件型別等於personalization.request」
+      * 按一下&#x200B;**[!UICONTROL 保留變更]**&#x200B;按鈕以確認。
+
+   3. 在規則的&#x200B;**[!UICONTROL THEN]**&#x200B;區段中，新增設定如下的動作：
+
+      ![](assets/multilingual-experience-events-rule-then.png)
+
+      * 選擇您正在使用的&#x200B;**[!UICONTROL 擴充功能]**。
+      * 在&#x200B;**[!UICONTROL 動作型別]**&#x200B;欄位中，選取[附加資料]。
+      * 在JSON裝載區段中，確認用於擷取所使用語言的屬性（在以下範例中為「語言」）符合資料收集資料流流入之結構描述中指定的屬性名稱。
+
+        ```JSON
+        {
+            "xdm":{
+                "application":{
+                    "_dc":{
+                        "language":"{%%Language%%}"
+                    }
+                }
+            }
+        }
+        ```
+      * 按一下「**[!UICONTROL 保留變更]**」按鈕以確認並儲存您的規則。
+
++++
+
+1. 拖放地區設定以重新排序，並在清單中管理其優先順序。
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**&#x200B;以建立您的&#x200B;**[!UICONTROL 語言設定]**。
+
+請注意，設定您的語言偏好設定後，您將無法再選擇編輯它們。
 
 <!--
 1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.
@@ -165,6 +214,10 @@ ht-degree: 21%
 -->
 
 ## 建立多語言內容 {#create-multilingual-campaign}
+
+>[!AVAILABILITY]
+>
+> 程式碼型體驗和內容卡內容的預覽目前無法用於自動化流程。
 
 設定好翻譯專案和語言設定後，您就可以著手建立行銷活動或歷程，並針對不同的地區設定自訂內容。
 

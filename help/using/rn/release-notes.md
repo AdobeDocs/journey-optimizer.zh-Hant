@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fb8113f4ae85b661a3ea967327e6a0b532fc48f
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 47%
+source-wordcount: '1488'
+ht-degree: 49%
 
 ---
 
@@ -196,22 +196,22 @@ ht-degree: 47%
 </tbody>
 </table>-->
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Multilingual messages in journeys and campaigns (General availability)</strong><br/></th>
+<th><strong>歷程與行銷活動中的多語言訊息（全面發佈）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now effortlessly create content in multiple languages within a single campaign or journey. With this feature, you can switch between languages when editing your campaign or your journey, streamlining the entire editing process and improving your capability to efficiently manage multilingual content.</p>
-<p>For more information, refer to the <a href="../content-management/multilingual-gs.md">detailed documentation</a>.</p>
+<p>您現在可以在單一行銷活動或歷程中，輕鬆建立多種語言的內容。透過此功能，您可以在編輯行銷活動或歷程時切換語言、簡化整個編輯流程，並提高有效管理多種語言內容的能力。</p>
+<p>如需詳細資訊，請參閱<a href="../content-management/multilingual-gs.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/multilingual.gif">
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <table>

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 94%
+source-wordcount: '2163'
+ht-degree: 93%
 
 ---
 
@@ -310,6 +310,8 @@ ht-degree: 94%
       + [AI助理使用案例](using/content-management/generative-uc.md)
    + 可在多語言內容中使用{#content-multilingual}
       + [開始使用多語言內容](using/content-management/multilingual-gs.md)
+      + [建立地區設定](using/content-management/multilingual-locale.md)
+      + [建立語言提供者](using/content-management/multilingual-provider.md)
       + [使用手動翻譯建立多語言內容](using/content-management/multilingual-manual.md)
       + [使用自動化翻譯建立多語言內容](using/content-management/multilingual-automated.md)
    + 使用內容實驗{#content-experiment}
