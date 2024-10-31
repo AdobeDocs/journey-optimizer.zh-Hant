@@ -1,6 +1,6 @@
 ---
 title: 建立決定原則
-description: 瞭解如何制定決策策略
+description: 瞭解如何建立決定原則
 feature: Experience Decisioning
 topic: Integrations
 role: User
@@ -55,11 +55,11 @@ ht-degree: 14%
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="建立策略"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="評估順序"
 
-若要在您的網站或移动应用上向訪問者展示最佳動態優惠方案和體驗，請向基於代碼的行銷活動添加決策原則。 若要執行此操作，請遵循下列步驟。
+若要在您的網站或行動應用程式上向訪客呈現最佳動態優惠和體驗，請將決定原則新增至程式碼型行銷活動。 若要執行此操作，請遵循下列步驟。
 
 ### 建立決定原則 {#add}
 
-1. 建立行銷活動，然後選擇 **[!UICONTROL Code基體驗]** 操作。 [了解更多](../code-based/create-code-based.md)
+1. 建立行銷活動並選取&#x200B;**[!UICONTROL 程式碼型體驗]**&#x200B;動作。 [了解更多](../code-based/create-code-based.md)
 
 1. 從[程式碼編輯器](../code-based/create-code-based.md#edit-code)，選取&#x200B;**[!UICONTROL 決定原則]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL 新增決定原則]**。
 
@@ -83,15 +83,15 @@ ht-degree: 14%
 
    * **[!UICONTROL 選取策略]**：新增一或多個選取策略。 決策策略會運用與適用性限制和排名方法相關的集合，以決定要顯示的專案。 您可以選取現有的選取策略，或使用&#x200B;**[!UICONTROL 建立選取策略]**&#x200B;按鈕建立新的選取策略。[瞭解如何建立選擇策略](selection-strategies.md)
 
-   * **[!UICONTROL 決定專案]**：新增單一決定專案以呈現，而不需執行選取策略。 一次只能選擇一個決策項。 任何針對專案設定的適用性限制都會套用。
+   * **[!UICONTROL 決定專案]**：新增單一決定專案以呈現，而不需執行選取策略。 您一次只能選取一個決定專案。 任何針對專案設定的適用性限制都會套用。
 
    ![](assets/decision-code-based-strategy-sequence.png)
 
    >[!NOTE]
    >
-   >至少需要一個決策專案或策略。 您不能新增超過 10 個策略。
+   >至少需要一個決策專案或策略。 您無法新增超過10個策略。
 
-1. 添加多個決策項和/或策略時，將按特定順序對其進行評估。 將首先評估添加到序列的第一個物件，依此類推。     要更改預設序列，您可以拖放物件和/或組以根據需要對其進行重新排序。 [了解有關決策原則評估順序的更多信息](#evaluation-order)
+1. 新增多個決定專案和/或策略時，將會以特定順序評估它們。 將先評估新增至序列的第一個物件，依此類推。     若要變更預設順序，您可以拖放物件及/或群組以視需要重新排序。 [進一步了解決策原則評估順序](#evaluation-order)
 
 ### 管理決定原則中的評估順序 {#evaluation-order}
 
@@ -115,7 +115,7 @@ ht-degree: 14%
 
 例如，您有兩個集合，一個在策略A中，另一個在策略B中。此請求是為了傳回兩個決定專案。 假設有兩個來自策略A的合格優惠方案和三個來自策略B的合格優惠方案。
 
-* 如果兩個策略未 **合併** 或按順序（1 和 2）排列，則第一個策略中的前兩個符合條件的選件將在第一行返回。 如果第一個策略沒有兩個符合條件的選件，則決策引擎將在序列中轉到下一個策略，以查找仍需要的選件數量，並最終在需要時返回回退。
+* 如果兩個策略&#x200B;**未合併**&#x200B;或依序順序（1和2），則第一列中會傳回第一個策略中前兩個符合資格的優惠。 如果第一個策略沒有兩個符合資格的優惠，決定引擎會依序移至下一個策略，以找出仍需要多少優惠方案，最終在需要時傳回遞補。
 
   ![](assets/decision-code-based-consecutive-strategies.png)
 
@@ -173,13 +173,13 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->後援是可選的。 如果未選擇回退，且未限定任何策略，則 不會 [!DNL Journey Optimizer]顯示任何內容。 您最多可以增加決策原則請求的項目數。 這保證了在使用案例需要時返回一定數量的專案。
+>遞補內容為選用。 如果未選取遞補策略，且沒有符合資格的策略，[!DNL Journey Optimizer]將不會顯示任何內容。 您最多可以新增決定原則請求的專案數。 這保證了在使用案例需要時可傳回特定數量的專案。
 
-當您的 deicison 原則準備就緒時，保存它並按兩下建立&#x200B;****。创建決策原則后，您可以在基於代碼的體驗內容中使用決策屬性。 [了解更多](#use-decision-policy)
+當您的決策原則準備就緒時，請儲存並按一下[建立]。**** 現在決定原則已建立，您可以在程式碼型體驗內容中使用決定屬性。 [了解更多](#use-decision-policy)
 
 ![](assets/decision-code-based-decision-added.png)
 
-## 在代碼編輯者中使用決策原則 {#use-decision-policy}
+## 在程式碼編輯器中使用決定原則 {#use-decision-policy}
 
 建立後，決定原則便可用於[個人化編輯器](../code-based/create-code-based.md#edit-code)。 若要執行此操作，請遵循下列步驟。
 
@@ -204,19 +204,19 @@ ht-degree: 14%
    >針對決定原則專案追蹤，決策原則內容需要新增`trackingToken`屬性，如下所示：
    >`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
-1. 按一下每個資料夾以展開。 將滑鼠游標置於所需位置，然後按一下您要新增的屬性旁的+圖示。 您可以向代碼添加任意數量的屬性。
+1. 按一下每個資料夾以展開。 將滑鼠游標置於所需位置，然後按一下您要新增的屬性旁的+圖示。 您可以對程式碼新增任意數量的屬性。
 
    ![](assets/decision-code-based-add-decision-attributes.png)
 
-1. 您還可以添加個人化編輯者中可用的任何其他屬性，例如設定檔屬性。
+1. 您也可以新增個人化編輯器中可用的任何其他屬性，例如設定檔屬性。
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
 ## 客戶歷程分析報告 {#cja}
 
-如果您正在使用Customer Journey Analytics，則可以利用決策為基於代碼的廣告系列創建自定義報告儀錶板。
+如果您正在使用Customer Journey Analytics，可以利用Decisioning為您的程式碼型行銷活動建立自訂報告儀表板。
 
-主要步驟如下所示。 有關如何使用Customer Journey Analytics的詳細資訊，請參閱 [Customer Journey Analytics檔](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}。
+主要步驟列於下方。 有關如何使用Customer Journey Analytics的詳細資訊，請參閱[Customer Journey Analytics檔案](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}。
 
 1. 在Customer Journey Analytics中建立並設定&#x200B;**連線**。 這可讓您連線至您要製作報表的資料集。 [瞭解如何建立連線](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
 

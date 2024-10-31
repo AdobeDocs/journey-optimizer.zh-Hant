@@ -1,6 +1,6 @@
 ---
 title: 決定項目
-description: Learn how to work with decision items
+description: 瞭解如何使用決定專案
 feature: Experience Decisioning
 topic: Integrations
 role: User
@@ -41,12 +41,12 @@ Journey Optimizer 可讓您建立行銷優惠 (稱為決定項目)，您可以�
 >abstract="自訂屬性是根據您的需求訂製並且可以指派給決定項目的特定屬性。 它們是在決定項目的目錄方案中建立的。 只有當您已在目錄方案中新增至少一個自訂屬性時，才會顯示此區段。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="設定項目目錄"
 
-Start by defining the decision item&#39;s standard and custom attributes :
+首先定義決定專案的標準和自訂屬性：
 
 ![](assets/item-attributes.png)
 
-1. Provide a name and a description.
-1. Specify start and end dates. The item will only be considered by the decisioning engine within these dates.
+1. 提供名稱和說明。
+1. 指定開始和結束日期。 在此日期內，決策引擎僅會考慮該專案。
 1. 設定與其他專案比較的決策專案&#x200B;**[!UICONTROL 優先順序]** （如果設定檔符合多個專案的資格）。 較高的優先順序使該項目優先於其他項目。
 1. **標籤**&#x200B;欄位可讓您將Adobe Experience Platform統一標籤指派給您的決定專案。 這可讓您輕鬆分類並改善搜尋。 [了解如何使用標籤](../start/search-filter-categorize.md#tags)
 
@@ -71,11 +71,11 @@ Start by defining the decision item&#39;s standard and custom attributes :
 
 +++使用對象與決定規則
 
-Basically, the output of an audience is a list of profiles, whereas a decision rule is a function executed on demand against a single profile during the decisioning process.
+基本上，對象的輸出是設定檔清單，而決定規則是在決策流程期間根據單一設定檔執行的函式。
 
-* **** However, Offer Management does not recompute the audience, which may not be up-to-date when presenting the offer.
+* **對象**：一方面，對象是一組Adobe Experience Platform設定檔，根據設定檔屬性和體驗事件符合特定邏輯。 不過，Offer Management不會重新計算對象，在展示優惠方案時，該對象可能不是最新狀態。
 
-* **** Once selected in an offer or a decision for a given placement, the rule is executed every single time a decision is made, which ensures that each profile gets the latest and the best offer.
+* **決定規則**：另一方面，決定規則是以Adobe Experience Platform中可用的資料為基礎，並決定可向誰顯示優惠。 在優惠或指定位置的決定中選取後，每次做出決定時都會執行規則，以確保每個設定檔取得最新和最佳優惠。
 
 +++
 
@@ -91,9 +91,9 @@ Basically, the output of an audience is a list of profiles, whereas a decision r
 >
 >當規則引數包含不在設定檔中的資料（例如內容資料）時，設定檔預估無法使用。 例如，適用性規則要求目前天氣為≥80度。
 
-## Set capping rules {#capping}
+## 設定上限規則 {#capping}
 
-Capping is used as a constraint to define the maximum number of times an offer can be presented. 限制使用者取得特定優惠方案的次數，可讓您避免過度向客戶提供需求，進而使用最佳優惠方案將每個接觸點最佳化。 您最多可以為特定決定專案建立10個上限。
+上限會用作限制，以定義可顯示優惠方案的次數上限。 限制使用者取得特定優惠方案的次數，可讓您避免過度向客戶提供需求，進而使用最佳優惠方案將每個接觸點最佳化。 您最多可以為特定決定專案建立10個上限。
 
 ![](assets/item-capping.png)
 
@@ -106,10 +106,10 @@ Capping is used as a constraint to define the maximum number of times an offer c
 
 1. 定義將考慮哪個&#x200B;**[!UICONTROL 上限事件]**&#x200B;以增加計數器。
 
-   * ****
-   * ****
-   * ****
-   * ****&#x200B;例如，您可以限制贖回次數，直到它們相等10000或直到指定的設定檔已贖回1次。 若要這麼做，請使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}結構描述來建置自訂事件規則。
+   * **[!UICONTROL 決定事件]** （預設值）：可顯示優惠的最大次數。
+   * **[!UICONTROL 曝光次數]** （僅限傳入管道）：可向使用者顯示選件的次數上限。
+   * **[!UICONTROL 點按]**：使用者可點按決策專案的次數上限。
+   * **[!UICONTROL 自訂事件]**：您可以定義自訂事件，用來限制傳送專案的次數。 例如，您可以限制贖回次數，直到它們相等10000或直到指定的設定檔已贖回1次。 若要這麼做，請使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}結構描述來建置自訂事件規則。
 
    >[!NOTE]
    >
@@ -125,7 +125,7 @@ Capping is used as a constraint to define the maximum number of times an offer c
 
 1. 在&#x200B;**[!UICONTROL 上限計數限制]**&#x200B;欄位中，根據選取的上限型別，指定可向所有使用者或每個設定檔顯示優惠方案的次數。 數字必須是大於0的整數。
 
-   For example, you defined a custom capping event such as the number of checkouts is taken into account. 如果您在&#x200B;**[!UICONTROL 上限計數限制]**&#x200B;欄位中輸入10，則在10次結帳後不會再傳送優惠。
+   例如，您定義了自訂上限事件，例如將結帳次數納入考量。 如果您在&#x200B;**[!UICONTROL 上限計數限制]**&#x200B;欄位中輸入10，則在10次結帳後不會再傳送優惠。
 
 1. 在&#x200B;**[!UICONTROL 重設上限頻率]**&#x200B;下拉式清單中，設定上限計數器的重設頻率。 若要這麼做，請定義盤點的期間（每日、每週或每月），並輸入您選擇的天數/周數/月數。 例如，如果您希望每兩週重設一次上限計數，請從對應的下拉式清單中選取&#x200B;**[!UICONTROL 每週]**，然後在另一個欄位中輸入&#x200B;**2**。
 
@@ -135,13 +135,13 @@ Capping is used as a constraint to define the maximum number of times an offer c
    >
    >發佈決定專案後，您將無法變更您為頻率選取的時間期間（每月、每週或每日）。 如果專案具有&#x200B;**[!UICONTROL 草稿]**&#x200B;狀態，而且之前從未發佈並啟用頻率限定，您仍可以編輯頻率限定。
 
-1. **** You can create up to 10 rules for a single decision item. ****
+1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以確認建立上限規則。 您最多可以為單一決定專案建立10個規則。 若要這麼做，請按一下&#x200B;**[!UICONTROL 建立上限]**&#x200B;按鈕，並重複上述步驟。
 
    ![](assets/item-capping-rules.png)
 
-1. ****
+1. 定義決定專案的資格和上限規則後，按一下&#x200B;**[!UICONTROL 下一步]**&#x200B;以檢閱並儲存專案。
 
-1. ****&#x200B;當它準備好呈現給設定檔時，按一下省略符號按鈕並選取&#x200B;**[!UICONTROL 核准]**。
+1. 決定專案現在會顯示在清單中，並具有&#x200B;**[!UICONTROL 草稿]**&#x200B;狀態。 當它準備好呈現給設定檔時，按一下省略符號按鈕並選取&#x200B;**[!UICONTROL 核准]**。
 
    ![](assets/item-approve.png)
 
@@ -163,6 +163,6 @@ If a marketer wants to determine how many times a specific customer has been sho
 
   >[!IMPORTANT]
   >
-  >刪除後，就無法再存取決定專案及其內容。 此動作無法復原。 如果決定專案用於集合或決定中，則無法刪除該專案。 You must remove the decision item from any objects first.
+  >刪除後，就無法再存取決定專案及其內容。 此動作無法復原。 如果決定專案用於集合或決定中，則無法刪除該專案。 您必須先從任何物件中移除決定專案。
 
-* ********&#x200B;決定專案仍然可以從清單中使用，但您不能將其狀態設定回&#x200B;**[!UICONTROL 草稿]**&#x200B;或&#x200B;**[!UICONTROL 已核准]**。 You can only duplicate or delete it.
+* **[!UICONTROL 封存]**：將決定專案狀態設為&#x200B;**[!UICONTROL 已封存]**。 決定專案仍然可以從清單中使用，但您不能將其狀態設定回&#x200B;**[!UICONTROL 草稿]**&#x200B;或&#x200B;**[!UICONTROL 已核准]**。 您只能複製或刪除它。

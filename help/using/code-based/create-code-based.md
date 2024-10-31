@@ -1,6 +1,6 @@
 ---
 title: 建立程式碼型體驗
-description: Learn how to create code-based experiences in Journey Optimizer
+description: 瞭解如何在Journey Optimizer中建立程式碼型體驗
 feature: Code-based Experiences
 topic: Content Management
 role: User
@@ -19,13 +19,13 @@ ht-degree: 14%
 
 有關程式碼型體驗的特定護欄和建議，請參閱[此頁面](code-based-prerequisites.md)。
 
-## Add a code-based experience through a journey or a campaign {#create-code-based-experience}
+## 透過歷程或行銷活動新增程式碼型體驗 {#create-code-based-experience}
 
-To start building your code-based experience through a journey or a campaign, follow the steps below.
+若要透過歷程或行銷活動開始建立程式碼型體驗，請遵循下列步驟。
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB 將程式碼型體驗新增至歷程]
 
 若要將&#x200B;**程式碼型體驗**&#x200B;活動新增至歷程，請遵循下列步驟：
 
@@ -41,19 +41,19 @@ To start building your code-based experience through a journey or a campaign, fo
    >
    >由於&#x200B;**程式碼型體驗**&#x200B;是傳入訊息活動，因此會附帶3天&#x200B;**等待**&#x200B;活動。 [了解更多](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. ********
+1. 為您的訊息輸入&#x200B;**[!UICONTROL 標籤]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
-1. [](code-based-configuration.md)
+1. 選取或建立要使用的[程式碼型體驗組態](code-based-configuration.md)。
 
    ![](assets/code-based-activity-config.png)
 
-1. ****[了解更多](#edit-code)
+1. 選取&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，並使用個人化編輯器視需要編輯您的內容。 [了解更多](#edit-code)
 
    您也可以使用現有的內容範本作為程式碼內容的基礎。 請注意，可供選擇的範本會根據預先選擇的管道設定，限定為HTML或JSON的範圍。 [瞭解如何使用內容範本](../content-management/use-content-templates.md)
 
-1. If necessary, complete your journey flow by dragging and dropping additional actions or events. [了解更多](../building-journeys/about-journey-activities.md)
+1. 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解更多](../building-journeys/about-journey-activities.md)
 
-1. Once your code-base experience is ready, finalize the configuration and publish your journey to activate it. [了解更多](../building-journeys/publishing-the-journey.md)
+1. 一旦您的程式碼庫體驗準備就緒，請完成設定並發佈您的歷程以將其啟用。 [了解更多](../building-journeys/publishing-the-journey.md)
 
 如需如何設定歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
 
@@ -61,13 +61,13 @@ To start building your code-based experience through a journey or a campaign, fo
 
 若要透過行銷活動開始建置您的&#x200B;**程式碼型體驗**，請遵循下列步驟。
 
-1. Create a campaign. [了解更多](../campaigns/create-campaign.md)
+1. 建立行銷活動。 [了解更多](../campaigns/create-campaign.md)
 
-1. Select the type of campaign that you want to execute
+1. 選取您要執行的行銷活動型別
 
-   * ******** They are configured and executed from the user interface.
+   * **[!UICONTROL 已排程 — 行銷]**：立即或在指定日期執行行銷活動。 已排程的行銷活動旨在傳送&#x200B;**行銷**&#x200B;訊息。 可從使用者介面設定及執行。
 
-   * **** API觸發的行銷活動旨在傳送&#x200B;**行銷**&#x200B;或&#x200B;**異動**&#x200B;訊息，即在個人執行動作後傳送的訊息：密碼重設、購物車購買等。 [瞭解如何使用API觸發行銷活動](../campaigns/api-triggered-campaigns.md)
+   * **[!UICONTROL API觸發 — 行銷/異動]**：使用API呼叫執行行銷活動。 API觸發的行銷活動旨在傳送&#x200B;**行銷**&#x200B;或&#x200B;**異動**&#x200B;訊息，即在個人執行動作後傳送的訊息：密碼重設、購物車購買等。 [瞭解如何使用API觸發行銷活動](../campaigns/api-triggered-campaigns.md)
 
 1. 完成步驟以建立行銷活動，例如行銷活動屬性、[對象](../audience/about-audiences.md)和[排程](../campaigns/create-campaign.md#schedule)。 如需如何設定行銷活動的詳細資訊，請參閱[此頁面](../campaigns/get-started-with-campaigns.md)。
 
@@ -95,11 +95,11 @@ To start building your code-based experience through a journey or a campaign, fo
 >abstract="插入並編輯您想要作為此基於程式碼之體驗動作的一部分的程式碼。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="開始使用個人化編輯器"
 
-1. ****
+1. 在歷程活動或行銷活動版本畫面中，選取&#x200B;**[!UICONTROL 編輯代碼]**。
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. [](../personalization/personalization-build-expressions.md)這是非視覺化體驗建立介面，可讓您編寫程式碼。
+1. [個人化編輯器](../personalization/personalization-build-expressions.md)開啟。 這是非視覺化體驗建立介面，可讓您編寫程式碼。
 
 1. 您可以將編寫模式從HTML切換為JSON，反之亦然。
 
@@ -124,9 +124,9 @@ To start building your code-based experience through a journey or a campaign, fo
    >決策目前僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。
 
 
-1. ****
+1. 按一下&#x200B;**[!UICONTROL 儲存並關閉]**&#x200B;以確認您的變更。
 
-Now as soon as your developer makes an API or SDK call to fetch content for the surface defined in your channel configuration, the changes will be applied to your web page or app.
+現在，當您的開發人員進行API或SDK呼叫，擷取您管道設定中定義之表面的內容時，變更就會套用至您的網頁或應用程式。
 
 ## 測試基於程式碼的體驗 {#test-code-based-experience}
 
@@ -139,15 +139,15 @@ Now as soon as your developer makes an API or SDK call to fetch content for the 
 
 >[!CAUTION]
 >
->You must have test profiles available to simulate which offers will be delivered to them. 瞭解如何[建立測試設定檔](../audience/creating-test-profiles.md)。
+>您必須有可用的測試設定檔，以模擬將傳送給他們的優惠。 瞭解如何[建立測試設定檔](../audience/creating-test-profiles.md)。
 
-1. ****
+1. 在歷程或行銷活動中，從個人化編輯器或編輯內容畫面選取&#x200B;**[!UICONTROL 模擬內容]**。
 
    ![](assets/code-based-campaign-simulate.png)
 
-1. ****
+1. 按一下&#x200B;**[!UICONTROL 管理測試設定檔]**&#x200B;以選取一或多個測試設定檔。
 
-1. A preview of your modified code-based experience is displayed.
+1. 畫面上會顯示已修改程式碼式體驗的預覽。
 
 有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱[本節](../content-management/preview.md)。
 
@@ -173,11 +173,11 @@ Now as soon as your developer makes an API or SDK call to fetch content for the 
 >title="重新整理預覽連結以反映目前檢視"
 >abstract="在裝置上預覽將顯示您建立或重新整理預覽連結時的內容。如果您修改了內容或選取不同的測試設定檔或處理，請重新整理預覽使其反映目前檢視。"
 
-When building code-based experiences for web pages or mobile apps, you can preview your personalized experiences right on your browser or on your mobile devices, in order to see how these experiences look on real devices.
+為網頁或行動應用程式建立程式碼型體驗時，您可以直接在瀏覽器或行動裝置上預覽您的個人化體驗，以瞭解這些體驗在真實裝置上的外觀。
 
 >[!WARNING]
 >
->[](../experience-decisioning/create-decision.md)[](../personalization/personalization-build-expressions.md)
+>使用[決定原則](../experience-decisioning/create-decision.md)或[個人化](../personalization/personalization-build-expressions.md)內容屬性時，裝置上的預覽無法使用。
 
 1. 在&#x200B;**[!UICONTROL 模擬]**&#x200B;畫面中，按一下&#x200B;**[!UICONTROL 開啟預覽選項]**&#x200B;按鈕。 預覽選項視您在[程式碼型組態](code-based-configuration.md#create-code-based-configuration)中選取的平台而定。
 
@@ -187,15 +187,15 @@ When building code-based experiences for web pages or mobile apps, you can previ
 
    您可以：
 
-   * **** You can also share the link with your team and stakeholders, who can preview the new experience in any browser before the changes go live.
+   * 選取&#x200B;**[!UICONTROL 複製連結]**&#x200B;按鈕，然後將連結貼到瀏覽器索引標籤中。 您也可以與您的團隊和利害關係人共用連結，這些利害關係人可以在變更上線之前，在任何瀏覽器中預覽新體驗。
 
-   * ****
+   * 按一下&#x200B;**[!UICONTROL 在新標籤中開啟]**，以在您目前的瀏覽器中開啟連結。
 
-   * Scan the QR code with your mobile device to open the preview link on a mobile browser.
+   * 使用行動裝置掃描二維碼，在行動瀏覽器上開啟預覽連結。
 
-1. [](code-based-configuration.md#mobile)********
+1. 如果您在程式碼型組態中使用[行動平台](code-based-configuration.md#mobile) (iOS / Android)，**[!UICONTROL Deeplink]**&#x200B;唯讀欄位會預先填入在所選平台的頻道組態中輸入的&#x200B;**[!UICONTROL 預覽URL]**&#x200B;值。
 
-   ******[!DNL Android]**
+   在&#x200B;**[!UICONTROL iOS]**&#x200B;和&#x200B;**[!DNL Android]**&#x200B;標籤之間切換，以預覽您所選平台的體驗。
 
    ![](assets/preview-on-device-mobile.png)
 
@@ -217,25 +217,25 @@ When building code-based experiences for web pages or mobile apps, you can previ
 
    <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-   When updating the content, or selecting a different test profile or treatment, the preview link is automatically refreshed. You can copy the link into different browser tabs, and compare the experiences.
+   當更新內容或選取不同的測試設定檔或處理方式時，預覽連結會自動重新整理。 您可以將連結複製到不同的瀏覽器標籤中，並比較體驗。
 
-## Make your code-based experience live {#code-based-experience-live}
+## 讓您的程式碼型體驗上線 {#code-based-experience-live}
 
 >[!IMPORTANT]
 >
-> If your campaign is subject to an approval policy, you will need to request approval in order to be able to activate your code-based experiences. [了解更多](../test-approve/gs-approval.md)
+> 如果您的行銷活動受核准原則的約束，您將需要請求核准，才能啟用您的程式碼型體驗。 [了解更多](../test-approve/gs-approval.md)
 
 定義程式碼型體驗並使用[程式碼型編輯器](#edit-code)視需要編輯內容後，您就可以啟用歷程或行銷活動，讓您的變更對對象可見。
 
-You can also preview your code-based experience content before making it live. [了解更多](#test-code-based-experience)
+您也可以在讓程式碼型體驗內容上線之前，先預覽該內容。 [了解更多](#test-code-based-experience)
 
 >[!NOTE]
 >
->If you activate a code-based journey/campaign impacting the same pages as another journey or campaign which is already live, all the changes will be applied to your content.
+>如果您啟用程式碼型歷程/行銷活動，將影響與另一個已上線的歷程或行銷活動相同的頁面，則所有變更將會套用至您的內容。
 >
->If multiple code-based journeys or campaigns update the same element(s) of your content, the highest priority journey/campaign takes precedence.
+>如果有多個程式碼型歷程或行銷活動更新內容的相同元素，則會以最高優先順序的歷程/行銷活動優先。
 
-[](code-based-configuration.md)[](code-based-implementation-samples.md)
+您的程式碼型歷程或行銷活動上線後，應用程式實作團隊將負責發出明確API或SDK呼叫，以擷取所選[程式碼型體驗設定](code-based-configuration.md)中定義之表面的內容。 在[本節](code-based-implementation-samples.md)中瞭解不同客戶實作的詳細資訊。
 
 ### Publish程式碼型歷程 {#publish-code-based-journey}
 
@@ -265,31 +265,31 @@ You can also preview your code-based experience content before making it live. [
 
 1. 視需要檢查並編輯內容、屬性、設定、對象和排程。
 
-1. ****
+1. 選取&#x200B;**[!UICONTROL 啟動]**。
 
    ![](assets/code-based-campaign-activate.png)
 
    >[!NOTE]
    >
-   >[](../campaigns/review-activate-campaign.md)
+   >在[本節](../campaigns/review-activate-campaign.md)中進一步瞭解啟用行銷活動。
 
-**** Each recipient of your campaign can see the modifications you added to your content.
+您的程式碼型行銷活動會採用&#x200B;**[!UICONTROL 即時]**&#x200B;狀態，且現在對選取的對象可見。 行銷活動的每位收件者都能看到您新增至內容的修改。
 
 >[!NOTE]
 >
->****
+>按一下[啟動&#x200B;****]後，最多可能需要15分鐘才能讓您的變更上線。
 >
->****
+>如果您為程式碼型行銷活動定義排程，在到達開始日期和時間之前，其狀態為&#x200B;**[!UICONTROL 已排程]**。
 
 ## 停止程式碼型歷程或行銷活動 {#stop-code-based-experience}
 
-When a code-based experience is live, you can stop it to prevent your audience from seeing your modifications. 請遵循下列步驟。
+程式碼式體驗上線時，您可以停止該體驗，以防止對象看到您的修改。 請遵循下列步驟。
 
-1. Select a live journey or campaign from the respective list.
+1. 從個別清單中選取即時歷程或行銷活動。
 
-1. Perform the relevant action according to your case:
+1. 根據您的情況執行相關動作：
 
-   * ****
+   * 從行銷活動頂端功能表，選取&#x200B;**[!UICONTROL 停止行銷活動]**。
 
      ![](assets/code-based-campaign-stop.png)
 
