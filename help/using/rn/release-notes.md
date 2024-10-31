@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 35b0304df8bdb885ca494b561cb6a0eaa5e96545
+source-git-commit: 96ae7baf50f262aac86f86ecb04cc98b57968c28
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1910'
 ht-degree: 39%
 
 ---
@@ -275,15 +275,16 @@ ht-degree: 39%
 
 **簡訊頻道**
 
-已引進簡訊增強功能來改善您的傳訊功能：
-
-* 您可以定義和管理簡訊行銷活動和歷程的唯一關鍵字，以實現更個人化且有效率的通訊。
-
-* 當關鍵字無法辨識時，您可以建立並傳遞預設簡訊。
-
 * 您現在可以編輯或刪除SMS API頻道設定。
 
-在[Infobip](../sms/sms-configuration-infobip.md)和[Sinch](../sms/sms-configuration-sinch.md)的SMS設定檔案中進一步瞭解這些改善。
+* 我們引進了下列增強功能，以改進您使用Infobip和Sinch的SMS傳訊功能：
+
+   * 您可以定義和管理簡訊行銷活動和歷程的唯一關鍵字，以實現更個人化且有效率的通訊。
+
+   * 當關鍵字無法辨識時，您可以建立並傳遞預設簡訊。
+
+  在[Infobip](../sms/sms-configuration-infobip.md)和[Sinch](../sms/sms-configuration-sinch.md)的SMS設定檔案中進一步瞭解這些改善。
+
 
 <!--**Journeys**-->
 
@@ -307,7 +308,7 @@ ht-degree: 39%
 
   此變更將在後續階段中推出至現有客戶沙箱。 [了解更多](../data/datasets-ttl.md#ttl)
 
-* **自訂動作中的引數** （使用日期：2024年10月3日） — 自訂動作現在支援NULL和選用引數。 [了解更多](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* **自訂動作中的引數** — 使用日期： 2024年10月3日 — 自訂動作現在支援NULL和選用引數。 [了解更多](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
 **報告**
 
