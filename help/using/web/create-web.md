@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 13%
+source-wordcount: '1363'
+ht-degree: 17%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 [!DNL Journey Optimizer]可讓您個人化您透過傳入歷程或行銷活動提供給客戶的網頁體驗。
 
-## 透過歷程或行銷活動增加網路體驗 {#create-web-experience}
+## 透過歷程或行銷活動定義網站體驗 {#create-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
@@ -59,7 +59,7 @@ ht-degree: 13%
 
    ![](assets/web-activity-configuration.png)
 
-1. 選取&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，並使用網頁設計工具視需要編輯您的內容。 [了解更多](edit-web-content.md)
+1. 選取&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，並視需要編輯您的內容。 [了解更多](#edit-web-content)
 
 1. 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解更多](../building-journeys/about-journey-activities.md)
 
@@ -87,7 +87,7 @@ ht-degree: 13%
 
    ![](assets/web-campaign-steps.png)
 
-1. 按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，以使用網頁設計工具視需要編輯您的內容。 [了解更多](edit-web-content.md)
+1. 按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，視需要編輯您的內容。 [了解更多](#edit-web-content)
 
    <!--![](assets/web-campaign-edit-content.png)-->
 
@@ -97,6 +97,41 @@ ht-degree: 13%
 
 >[!ENDTABS]
 
+## 編輯網頁內容 {#edit-web-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_edit_surface"
+>title="確認要編輯的 URL"
+>abstract="確認特定網頁的 URL，以用於編輯套用到上方定義之網頁設定的內容。必須使用此 Adobe Experience Platform Web SDK 實施此網頁。"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="了解更多"
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_edit_rule"
+>title="輸入要編輯的 URL"
+>abstract="輸入特定網頁的 URL，以用於編輯將套用到符合規則的所有網頁的內容。必須使用 Adobe Experience Platform Web SDK 實施此網頁。"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="了解更多"
+
+在您[將網頁動作](#create-web-experience)新增到歷程或行銷活動後，您可以使用以下其中一種方式編輯您的網站內容：
+
+* [網頁設計工具](web-visual-editor.md)，使用視覺化編輯器創作您的體驗；
+* 或[非視覺化編輯器](web-non-visual-editor.md)。
+
+若要開始編寫您的Web體驗，請遵循下列步驟。
+
+1. 從行銷活動的&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤或歷程中的&#x200B;**[!UICONTROL 網頁]**&#x200B;活動，選取&#x200B;**[!UICONTROL 編輯內容]**。
+
+   ![](assets/web-campaign-edit-content.png)
+
+1. 版本畫面隨即顯示。 您可以：
+
+   * 按一下&#x200B;**[!UICONTROL 編輯網頁]**&#x200B;按鈕，開始使用網頁設計工具製作您的內容以提供視覺體驗。 [了解更多](web-visual-editor.md)
+
+     ![](assets/web-campaign-edit-web-page.png)
+
+   * 取消選取&#x200B;**[!UICONTROL 視覺化編輯器]**&#x200B;選項以改用非視覺化版本模式，然後按一下&#x200B;**[!UICONTROL 新增修改]**&#x200B;以開始編輯您的網頁內容而不載入視覺化編輯器。 [了解更多](web-non-visual-editor.md)
+
+     ![](assets/web-campaign-add-modification.png)
+
 ## 測試網路體驗 {#test-web-experience}
 
 >[!CONTEXTUALHELP]
@@ -104,7 +139,7 @@ ht-degree: 13%
 >title="預覽您的網頁體驗"
 >abstract="取得您的網頁體驗的模擬。"
 
-使用網頁設計工具[編寫您的網頁體驗](edit-web-content.md)後，您可以使用測試設定檔來預覽您修改的網頁。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容的顯示方式。
+使用網頁設計工具[編寫您的網頁體驗](web-visual-editor.md)後，您可以使用測試設定檔來預覽您修改的網頁。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容的顯示方式。
 
 若要這麼做，請從歷程或行銷活動編輯內容畫面按一下&#x200B;**[!UICONTROL 模擬內容]**，然後新增測試設定檔，以使用測試設定檔資料檢查您的網頁。
 
@@ -124,7 +159,7 @@ ht-degree: 13%
 >
 > 如果您的行銷活動受核准原則的約束，您將需要請求核准才能啟用您的網站體驗。 [了解更多](../test-approve/gs-approval.md)
 
-一旦您定義了您的網頁體驗，並視需要使用[網頁設計工具](edit-web-content.md#work-with-web-designer)編輯您的內容後，您就可以啟動您的歷程或行銷活動，讓您的變更對您的對象可見。
+定義網頁體驗並視需要編輯內容後，您就可以啟用歷程或行銷活動，讓您的變更對對象可見。
 
 您也可以在讓網頁體驗內容上線之前，先預覽該內容。 [了解更多](#test-web-experience)
 
@@ -156,7 +191,7 @@ ht-degree: 13%
 
 ### 啟動網站行銷活動 {#activate-web-campaign}
 
-一旦您定義了您的網路行銷活動設定，並視需要使用[網路設計工具](edit-web-content.md#work-with-web-designer)編輯您的內容後，您就可以檢閱並啟用您的網路行銷活動。 請遵循下列步驟。
+定義網路行銷活動設定並視需要編輯內容後，您就可以檢閱並啟用網路行銷活動。 請遵循下列步驟。
 
 1. 從您的網路行銷活動中，選取&#x200B;**[!UICONTROL 檢閱以啟動]**。
 
@@ -177,6 +212,8 @@ ht-degree: 13%
 >按一下&#x200B;**[!UICONTROL 啟用]**&#x200B;後，最多可能需要15分鐘的時間才能讓網站上的網路行銷活動變更上線。
 >
 >如果您為網路行銷活動定義排程，在到達開始日期和時間之前，其狀態為&#x200B;**[!UICONTROL 已排程]**。
+
+一旦您的體驗上線，您就可以監視您的網路歷程和行銷活動。 [了解更多](monitor-web-experiences.md)
 
 ## 停止網站歷程或行銷活動 {#stop-web-experience}
 
