@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ab6289ff4b1a9302adb94d9cdf150210eece3a27
+source-git-commit: 850aacd1873a63b6ff2010f097655244b9dea027
 workflow-type: tm+mt
-source-wordcount: '1910'
+source-wordcount: '1911'
 ht-degree: 39%
 
 ---
@@ -236,6 +236,8 @@ ht-degree: 39%
 </tbody>
 </table>
 
+<!--The following capabilities are available to all customers in public beta:-->
+
 <table>
 <thead>
 <tr>
@@ -245,15 +247,15 @@ ht-degree: 39%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer現在可讓您透過預覽內容並使用從檔案上傳或手動新增的範例輸入資料傳送校樣來測試內容的不同變體。 系統會自動偵測您在內容中用於個人化的所有設定檔屬性，這些屬性可用於測試，以建立多個變體。</p>
+<p>Journey Optimizer現在可讓您預覽內容，並使用從檔案上傳或手動新增的範例輸入資料傳送電子郵件校樣，以測試內容的不同變體。 系統會自動偵測您在內容中用於個人化的所有設定檔屬性，這些屬性可用於測試，以建立多個變體。</p>
 <p>此功能目前以公開測試版的形式提供給所有客戶用於電子郵件、簡訊和推播通知頻道。</p>
 <p>如需詳細資訊，請參閱<a href="../test-approve/simulate-sample-input.md">詳細文件</a>。</p>
+<img src="assets/do-not-localize/gif-simulate.gif">
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--The following capabilities are available to all customers in public beta:
 
 <!--<table>
 <thead>
