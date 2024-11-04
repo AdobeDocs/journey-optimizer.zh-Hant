@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
 workflow-type: tm+mt
 source-wordcount: '2161'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -227,7 +227,7 @@ ht-degree: 93%
    + 應用程式內頻道{#in-app}
       + [開始使用應用程式內頻道](using/in-app/get-started-in-app.md)
       + [應用程式內頻道先決條件](using/in-app/inapp-configuration.md)
-      + [建立行動應用程式內訊息](using/in-app/create-in-app.md)
+      + [建立行動裝置應用程式內訊息](using/in-app/create-in-app.md)
       + [建立網頁應用程式內訊息](using/in-app/create-in-app-web.md)
       + [設計您的應用程式內內容](using/in-app/design-in-app.md)
       + [檢查並傳送應用程式內通知](using/in-app/send-in-app.md)
@@ -299,7 +299,7 @@ ht-degree: 93%
       + [設定登陸頁面子網域](using/landing-pages/lp-subdomains.md)
       + [定義登陸頁面預設集](using/landing-pages/lp-presets.md)
 + 內容管理 {#content-management}
-   + 使用AI小幫手{#ai-assistant}
+   + 使用 AI 助理工作{#ai-assistant}
       + [開始使用 AI 助理內容加速器](using/content-management/gs-generative.md)
       + [使用 AI 來產生電子郵件](using/content-management/generative-email.md)
       + [使用 AI 來產生推播](using/content-management/generative-push.md)
@@ -390,8 +390,8 @@ ht-degree: 93%
       + [登陸頁面即時報告](using/reports/lp-report-live.md)
       + [訂閱清單即時報告](using/reports/subscription-report-live.md)
    + 已更新報告體驗{#channel-report}
-      + [開始使用更新的報告體驗](using/reports/report-gs-cja.md)
-      + [手動設定Customer Journey Analytics](using/reports/cja-ajo.md)
+      + [開始使用已更新的報告體驗](using/reports/report-gs-cja.md)
+      + [手動設定客戶歷程分析](using/reports/cja-ajo.md)
       + [管理您的報告](using/reports/report-cja-manage.md)
       + [報告與實驗先決條件](using/reports/reporting-configuration.md)
       + 行銷活動報告{#reporting}
@@ -404,21 +404,21 @@ ht-degree: 93%
          + [應用程式內行銷活動報告](using/reports/campaign-global-report-cja-inapp.md)
          + [推播通知行銷活動報告](using/reports/campaign-global-report-cja-push.md)
          + [簡訊行銷活動報告](using/reports/campaign-global-report-cja-sms.md)
-         + [網站行銷活動報告](using/reports/campaign-global-report-cja-web.md)
+         + [網頁行銷活動報告](using/reports/campaign-global-report-cja-web.md)
       + 歷程報告{#reporting}
          + [歷程報告](using/reports/journey-global-report-cja.md)
          + [程式碼型歷程報告](using/reports/journey-global-report-cja-code.md)
          + [內容卡歷程報告](using/reports/journey-global-report-cja-content.md)
          + [直接郵件歷程報告](using/reports/journey-global-report-cja-direct.md)
-         + [以電子郵件傳送歷程報告](using/reports/journey-global-report-cja-email.md)
+         + [電子郵件歷程報告](using/reports/journey-global-report-cja-email.md)
          + [應用程式內歷程報告](using/reports/journey-global-report-cja-inapp.md)
          + [推播歷程報告](using/reports/journey-global-report-cja-push.md)
          + [簡訊歷程報告](using/reports/journey-global-report-cja-sms.md)
-         + [網站歷程報告](using/reports/journey-global-report-cja-web.md)
+         + [網頁歷程報告](using/reports/journey-global-report-cja-web.md)
       + [概述報表](using/reports/channel-report-cja.md)
       + [登陸頁面報告](using/reports/lp-report-global-cja.md)
       + [訂閱清單報告](using/reports/subscription-report-global-cja.md)
-   + 先前的報告體驗{#reports}
+   + 舊版報告體驗{#reports}
       + 全域報告 {#global-report}
          + [開始使用全域報告](using/reports/global-report.md)
          + [元件清單](using/reports/global-report-components.md)
@@ -453,7 +453,7 @@ ht-degree: 93%
          + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
          + [使用者介面](using/offers/get-started/user-interface.md)
          + [建立和管理優惠的重要步驟](using/offers/offer-library/key-steps.md)
-         + [善用自訂上傳對象以做出決策](using/offers/custom-upload-decisioning.md)
+         + [善用自訂上傳對象，以便做決策](using/offers/custom-upload-decisioning.md)
          + [使用案例：在電子郵件中插入優惠](using/offers/offers-e2e.md)
       + 建立元件 {#create-components}
          + [建立位置](using/offers/offer-library/creating-placements.md)

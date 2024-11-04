@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
 workflow-type: tm+mt
 source-wordcount: '5707'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 97%
 
 * 有關[!DNL Journey Optimizer] 2024年10月發行版本的所有新功能和改進專案詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
 * [!DNL Journey Optimizer]中可用的所有通訊管道現在都分組在檔案的專用區段中。 [閱讀全文](../channels/gs-channels.md)
-* 已改善&#x200B;**設定您的程式碼型體驗**&#x200B;頁面，讓程式更清楚，包括說明什麼是表面URI的章節。 [閱讀全文](../code-based/code-based-configuration.md)
-* **建立Web通道設定**&#x200B;頁面已更新，以釐清建立頁面符合規則的步驟，該規則也適用於程式碼型體驗設定。 [閱讀全文](../web/web-configuration.md#web-page-matching-rule)
-* 已新增有關系統產生資料集的近期存留時間(TTL)護欄的附註。 [閱讀全文](../data/get-started-datasets.md)
-* 已新增新區段，說明如何在瀏覽器或行動裝置上使用「在裝置上預覽」選項，在歷程或行銷活動中模擬內容時，預覽您的程式碼型個人化體驗。 [閱讀全文](../code-based/create-code-based.md#preview-on-device)
-* 已新增一個頁面，說明如何運用自訂上傳對象進行決策。 [閱讀全文](../offers/custom-upload-decisioning.md)
+* 已改善&#x200B;**設定程式碼型體驗**&#x200B;分頁，讓程序更清楚，包括說明什麼是表面 URI 的區段。[閱讀全文](../code-based/code-based-configuration.md)
+* 已更新&#x200B;**建立網頁管道設定**&#x200B;頁面，以便釐清建立頁面比對規則的步驟，此規則也適用於程式碼型體驗設定。[閱讀全文](../web/web-configuration.md#web-page-matching-rule)
+* 已新增有關系統產生資料集的近期存留時間 (TTL) 護欄的備註。[閱讀全文](../data/get-started-datasets.md)
+* 已新增新區段，方便說明如何操作，當要在歷程或行銷活動中模擬內容時，就能透過瀏覽器，或是在行動裝置上，使用「在裝置上預覽」的選項，直接預覽程式碼型個人化體驗。[閱讀全文](../code-based/create-code-based.md#preview-on-device)
+* 已新增頁面，說明如何善用自訂上傳對象做決策。[閱讀全文](../offers/custom-upload-decisioning.md)
 
 ## 2024 年 9 月 {#sept-2024}
 
@@ -35,7 +35,7 @@ ht-degree: 97%
 * 新增歷程重試管理的相關章節。[閱讀全文](../building-journeys/read-audience.md#read-audience-retry)
 * 已更新自訂動作的上限/節流規則相關常見問題，以提及預設上限規則。[閱讀全文](../configuration/external-systems.md#faq)
 * 已更新「控制存取權」章節，其中包含與 AI 助理內容產生器相關的權限。[閱讀全文](../administration/high-low-permissions.md#ai-permission)
-* 已新增有關用於電子郵件產生的AI助理內容產生器的影片。 [閱讀全文](../content-management/generative-email.md#video)
+* 已新增有關 AI 助理內容產生器影片，可應用於電子郵件產生。[閱讀全文](../content-management/generative-email.md#video)
 
 
 ## 2024 年 8 月 {#aug-2024}
