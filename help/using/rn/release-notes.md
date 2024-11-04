@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4de613f38865a3b4f177ce809e1e051f9211e86e
+source-git-commit: 018ff365780c5064afd94c8f842ca0498fe06065
 workflow-type: tm+mt
-source-wordcount: '1911'
-ht-degree: 80%
+source-wordcount: '1960'
+ht-degree: 79%
 
 ---
 
@@ -345,6 +345,6 @@ ht-degree: 80%
 
 **Decisioning**
 
-<!--* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) users can now choose custom models to optimize on when setting up an AI model in Decisioning (formerly known as Experience Decisioning). This allows you, for example, to optimize on a custom "purchases" table rather than defined constraints such as clickthrough rate."-->
+* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 使用者目前可以選擇在決定中設定 AI 模型時，將 AI 模型最佳化 (之前又稱為體驗決策)。 舉例來說，這可讓您對自訂「購買」表格進行最佳化，而不是使用點進率等已定義的限制。 [了解更多](../experience-decisioning/ranking.md)
 
 * 將決定策略新增到具有決定的程式碼型行銷活動時，您現在除了選取策略之外，還可以手動選取單一決定專案。 此外，您目前還可以選取多種遞補優惠。 這能保證會傳回一定數量的決定項目。 [了解更多](../experience-decisioning/create-decision.md)
