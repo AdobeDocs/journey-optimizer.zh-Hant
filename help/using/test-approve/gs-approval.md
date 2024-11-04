@@ -1,18 +1,18 @@
 ---
-title: 開始使用歷程與行銷活動核准
+title: 開始使用歷程及行銷活動核准
 description: 了解如何設定歷程與行銷活動的核准程序。
 role: User
 level: Beginner
 feature: Approval
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '561'
 ht-degree: 100%
 
 ---
 
 
-# 開始使用歷程與行銷活動核准 {#send-proofs}
+# 開始使用歷程及行銷活動核准 {#send-proofs}
 
 ## 開始使用核准原則 {#gs}
 
