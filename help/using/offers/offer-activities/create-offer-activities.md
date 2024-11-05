@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2511'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,11 @@ ht-degree: 1%
 
 ## 建立決定 {#create-activity}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_details"
+>title="優惠決定詳細資料"
+>abstract="指定決定的名稱，並視需要定義開始和結束日期和時間。 若要指派自訂或核心資料使用標籤給決定，請選取&#x200B;**[!UICONTROL 管理存取權]**。"
+
 1. 存取決定清單，然後按一下&#x200B;**[!UICONTROL 建立決定]**。
 
 1. 指定決定的名稱。
@@ -43,6 +48,21 @@ ht-degree: 1%
 1. 若要指派自訂或核心資料使用標籤給決定，請選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../../administration/object-based-access.md)
 
 ## 定義決定範圍 {#add-decision-scopes}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_scopes"
+>title="決定範圍"
+>abstract="設定優惠決定的一或多個範圍，以決定要顯示的優惠。 您可以選取此位置的版位和相關聯的評估准則來完成此操作。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_placement"
+>title="版位"
+>abstract="選取將傳遞優惠的位置。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_evaluation"
+>title="評估條件"
+>abstract="評估准則包含與資格限制相關聯的優惠方案集合，以及決定要顯示在位置中的優惠方案的排名方法。 評估條件的順序會決定哪個集合會先評估。 至少需要一個評估標準。"
 
 1. 從下拉式清單中選取位置。 它會新增到您決定中的第一個決定範圍。
 
@@ -285,6 +305,11 @@ ht-degree: 1%
 +++
 
 ## 新增遞補優惠 {#add-fallback}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_fallback"
+>title="新增回溯優惠方案"
+>abstract="定義決定範圍後，定義遞補優惠方案，此優惠方案將作為不符合優惠方案適用性規則和限制之客戶的最後手段。"
 
 定義決定範圍後，定義遞補優惠方案，此優惠方案將作為不符合優惠方案適用性規則和限制之客戶的最後手段。
 

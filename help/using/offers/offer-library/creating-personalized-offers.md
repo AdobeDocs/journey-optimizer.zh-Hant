@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 10%
+source-wordcount: '804'
+ht-degree: 11%
 
 ---
 
@@ -38,6 +38,16 @@ ht-degree: 10%
 >id="ajo_decisioning_offer_attributes"
 >title="優惠屬性"
 >abstract="有了優惠屬性，您可以將索引鍵值組與優惠相關聯以用於報告和分析。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_personalized"
+>title="個人化優惠"
+>abstract="個人化優惠是根據適用性規則和限制的可自訂訊息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_fallback"
+>title="備援優惠方案"
+>abstract="當一般使用者不符合任何個人化優惠的資格時，遞補優惠會是顯示的預設優惠。"
 
 若要建立&#x200B;**選件**，請遵循下列步驟：
 

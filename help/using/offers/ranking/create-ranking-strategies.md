@@ -7,9 +7,9 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '480'
 ht-degree: 6%
 
 ---
@@ -23,6 +23,11 @@ ht-degree: 6%
 >若要建立、編輯或刪除AI模型，您必須擁有&#x200B;**管理排名策略**&#x200B;許可權。 [了解更多](../../administration/high-low-permissions.md#manage-ranking-strategies)
 
 ## 建立 AI 模型 {#create-ranking-strategy}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_ai_model_metric"
+>title="最佳化量度"
+>abstract="根據&#x200B;**轉換率** （轉換率=轉換事件總數/曝光事件總數），[!DNL Journey Optimizer]排名優惠。 轉換率是使用兩種量度型別計算： **曝光事件** （顯示的選件）和&#x200B;**轉換事件** （透過電子郵件或網頁產生點按的選件）。 系統會使用提供的Web SDK或Mobile SDK自動擷取這些事件。"
 
 若要建立AI模型，請遵循下列步驟：
 
