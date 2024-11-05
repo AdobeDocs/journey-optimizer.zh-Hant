@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用範例輸入資料測試您的內容(Beta)
+title: 使用範例輸入資料 (測試版) 來測試內容
 description: 瞭解如何使用CSV或JSON檔案的範例輸入資料或手動新增，來預覽內容並傳送電子郵件校樣。
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
@@ -11,12 +11,12 @@ badge: label="Beta"
 source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
 
-# 使用範例輸入資料測試您的內容(Beta) {#custom-profiles}
+# 使用範例輸入資料 (測試版) 來測試內容 {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
@@ -27,7 +27,7 @@ ht-degree: 1%
 >
 >此功能目前以公開測試版的形式提供給所有客戶。
 
-Journey Optimizer可讓您預覽內容，並使用從CSV或JSON檔案上傳或手動新增的範例輸入資料傳送校樣，以測試內容的不同變體。 系統會自動偵測您在內容中用於個人化的所有設定檔屬性，這些屬性可用於測試，以建立多個變體。
+Journey Optimizer可讓您預覽內容，並使用從CSV或JSON檔案上傳或手動新增的範例輸入資料傳送校樣，以測試內容的不同變體。 系統會自動偵測您在內容中使用到的所有設定檔屬性，以便進行個人化，以上屬性可應用到測試上，即可建立多個變體。
 
 >[!NOTE]
 >
