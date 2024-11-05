@@ -21,7 +21,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_homepage"
 >title="翻譯"
->abstract="多語言功能讓您可以透過單一行銷活動或歷程輕鬆建立多語言內容。 透過「翻譯」頁面，您可以設定專案、選擇翻譯提供者或管理地區設定字典"
+>abstract="多語言功能讓您可以透過單一行銷活動或歷程輕鬆建立多語言內容。透過「翻譯」頁面，您可以設定專案、選擇翻譯提供者或管理特定語系設定字典"
 
 >[!IMPORTANT]
 >
