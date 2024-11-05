@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1305'
 ht-degree: 99%
 
 ---
@@ -196,39 +196,7 @@ ht-degree: 99%
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
-<!--PRIORITIZATION & CONFLICT MANAGEMENT-->
 
->[!CONTEXTUALHELP]
->id="ajo_rule_set_domain"
->title="物件類型"
->abstract="物件類型"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_capping_rule"
->title="將規則集套用至歷程"
->abstract="依頻率上限規則規定，套用規則設定，即可針對部分對象，排除此歷程。"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_type"
->title="規則類型"
->abstract="規則類型"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_capping"
->title="規則上限"
->abstract="規則上限"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_concurrency_prioritization"
->title="優先檢視"
->abstract=" 如果優先順序較高的歷程被安排在此指定時段，則客戶就會禁止進入此歷程。若您希望進入先到先接待的歷程情況，我們建議您先選擇每日優先檢視期間，確保當天任何其他歷程的優先順序分數一定會小於歷程的優先順序分數。給歷程的優先順序評分 100 分，也可確保已進入相同歷程。"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_prioritization"
->title="列出優先順序的因素"
->abstract="未定"
-
-<!--TO REMOVE?-->
 
 <!--CONTENT LOCKING-->
 

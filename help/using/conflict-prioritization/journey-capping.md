@@ -4,19 +4,34 @@ description: 瞭解如何為歷程建立上限規則，以及如何仲裁歷程�
 role: User
 level: Beginner
 badge: label="有限可用性"
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 1%
+source-wordcount: '864'
+ht-degree: 19%
 
 ---
 
 
 # 歷程上限與仲裁 {#journey-capping}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_capping_rule"
+>title="將規則集套用至歷程"
+>abstract="依頻率上限規則規定，套用規則設定，即可針對部分對象，排除此歷程。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_concurrency_prioritization"
+>title="優先檢視"
+>abstract=" 如果優先順序較高的歷程被安排在此指定時段，則客戶就會禁止進入此歷程。若您希望進入先到先接待的歷程情況，我們建議您先選擇每日優先檢視期間，確保當天任何其他歷程的優先順序分數一定會小於歷程的優先順序分數。給歷程的優先順序評分 100 分，也可確保已進入相同歷程。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_prioritization"
+>title="列出優先順序的因素"
+>abstract="未定"
+
 >[!AVAILABILITY]
 >
->衝突和優先順序功能目前在「有限可用性」中提供給選定的客戶群組。 請注意，這些功能將在未來逐步向更多使用者推出。 如果您有興趣新增至這些功能的輪候表，請洽詢您的客戶團隊。
+>衝突和優先順序功能目前在「有限可用性」中提供給選定的客戶群組。 請注意，未來將會向更多使用者逐步推出以上功能。 如果您有興趣加入上述功能的等候名單，請洽詢客戶團隊。
 
 歷程上限可幫助您限制設定檔可註冊的歷程次數，防止通訊過載。 在Journey Optimizer中，您可以設定兩種型別的上限規則：
 
