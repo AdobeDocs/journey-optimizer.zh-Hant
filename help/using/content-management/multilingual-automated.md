@@ -21,7 +21,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_provider"
 >title="新增提供者"
->abstract="根據需要新增翻譯提供者和地區設定。您可以藉此管理專案目前可用的提供者和地區設定，並根據目前的要求和專案範圍彈性調整資源和目標客群。"
+>abstract="根據需要新增翻譯提供者和語系設定。您可以藉此管理專案目前可用的提供者和語系設定，並根據目前的要求和專案範圍彈性調整資源和目標客群。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_provider"
