@@ -4,9 +4,9 @@ description: 瞭解如何識別歷程與行銷活動中的潛在衝突。
 role: User
 level: Beginner
 badge: label="有限可用性"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '817'
 ht-degree: 7%
 
 ---
@@ -27,6 +27,10 @@ ht-degree: 7%
 * **頻道**：是否有其他通訊已排程為相同的時間範圍，如果是，有多少通訊？
 * **上限規則集**：我為哪些型別的歷程設定上限，而且這些歷程中有重疊？
 * **頻道設定**：是否有其他歷程或行銷活動使用同一歷程或行銷活動中使用的任何頻道設定，以防止向一般使用者顯示歷程或行銷活動？
+
+>[!NOTE]
+>
+>在行銷活動中，優先順序分數僅適用於網頁、應用程式內和程式碼型傳入頻道。
 
 ➡️ [在影片中探索此功能](#video)
 

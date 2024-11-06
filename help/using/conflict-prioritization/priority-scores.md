@@ -4,10 +4,10 @@ description: 瞭解如何將優先順序分數指派給歷程與行銷活動。
 role: User
 level: Beginner
 badge: label="有限可用性"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 12%
+source-wordcount: '438'
+ht-degree: 13%
 
 ---
 
@@ -32,7 +32,7 @@ Journey Optimizer可讓您為歷程或行銷活動指派優先順序分數。 �
 
 >[!NOTE]
 >
->傳入頻道（網頁、應用程式內和程式碼型頻道）有優先順序分數可供使用。 在歷程中，只有&#x200B;**應用程式內**&#x200B;和&#x200B;**程式碼型**&#x200B;管道有優先順序分數。
+>在行銷活動中，優先順序分數僅適用於網頁、應用程式內和程式碼型傳入頻道。
 
 ➡️ [在影片中探索此功能](#video)
 
