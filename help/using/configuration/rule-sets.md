@@ -10,34 +10,19 @@ level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 badge: label="有限可用性"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '1936'
-ht-degree: 11%
+source-wordcount: '1950'
+ht-degree: 6%
 
 ---
 
 # 使用規則集 {#rule-sets}
 
 >[!CONTEXTUALHELP]
->id="ajo_rule_set_domain"
->title="物件類型"
->abstract="物件類型"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_type"
->title="規則類型"
->abstract="規則類型"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_capping"
->title="規則上限"
->abstract="規則上限"
-
->[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="規則集"
->abstract="使用規則集將頻率上限套用至不同類型的行銷傳播。例如，您可以建立一個規則集來限制發送給客戶的&#x200B;**促銷通訊**&#x200B;數量，並建立另一個規則集來限制傳送給他們的&#x200B;**電子報**&#x200B;數量。"
+>abstract="使用規則集將頻率上限套用至不同類型的行銷傳播。您也可以建立規則集，以根據頻率上限規則排除部分對象的歷程。"
 
 >[!AVAILABILITY]
 >
@@ -65,7 +50,12 @@ ht-degree: 11%
 
 ### 管道和歷程上限規則 {#domain}
 
-建立規則集時，您需要指定規則集中的規則是否將強制執行通訊通道或歷程專用的上限規則。  若要這麼做，請在建立規則集時，為規則集選取管道或歷程網域。 [瞭解如何建立規則集](#create)
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_domain"
+>title="規則集網域"
+>abstract="建立規則集時，您需要指定規則集中的規則是否將強制執行通訊通道或歷程專用的上限規則。"
+
+建立規則集時，您需要指定規則集中的規則是否將強制執行通訊通道或歷程專用的上限規則。 若要這麼做，請在建立規則集時，為規則集選取管道或歷程網域。 [瞭解如何建立規則集](#create)
 
 * **管道**&#x200B;網域：為通訊管道套用上限規則。 例如，每天傳送的電子郵件或簡訊請勿超過1個。
 * **歷程**&#x200B;網域：將專案與並行上限規則套用至歷程。 例如，請勿同時在多個歷程中輸入設定檔。
@@ -101,10 +91,11 @@ ht-degree: 11%
 >title="選取訊息規則類別"
 >abstract="啟動並套用至訊息時，和所選類別相符的所有頻率規則會自動應用至該訊息。目前只有行銷類別可用。"
 
->[!CONTEXTUALHELP]
+<!--NOT USED?
+[!CONTEXTUALHELP]
 >id="ajo_rule_sets_capping"
->title="設定規則的上限"
->abstract="指定在所選時間範圍內傳送至客戶輪廓的最大訊息數量。頻率上限會以所選的行事曆期間為基礎，並會在對應的時間段開始時重設。 "
+>title="Set the capping for your rule"
+>abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
@@ -115,6 +106,11 @@ ht-degree: 11%
 >id="ajo_rule_sets_duration"
 >title="選取訊息規則類別"
 >abstract="啟動並套用至訊息時，和所選類別相符的所有頻率規則會自動應用至該訊息。目前只有行銷類別可用。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_capping"
+>title="規則上限"
+>abstract="設定規則的上限。 根據規則集網域和「規則型別」欄位中的選擇，此欄位可定義可傳送到設定檔的最大訊息數量，或設定檔可同時輸入或註冊的最大歷程數量。"
 
 若要將規則新增至規則集，請存取規則集並按一下[新增規則]。****
 

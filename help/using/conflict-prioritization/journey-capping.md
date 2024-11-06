@@ -4,30 +4,15 @@ description: 瞭解如何為歷程建立上限規則，以及如何仲裁歷程�
 role: User
 level: Beginner
 badge: label="有限可用性"
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 19%
+source-wordcount: '903'
+ht-degree: 18%
 
 ---
 
 
 # 歷程上限與仲裁 {#journey-capping}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_capping_rule"
->title="將規則集套用至歷程"
->abstract="依頻率上限規則規定，套用規則設定，即可針對部分對象，排除此歷程。"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_concurrency_prioritization"
->title="優先檢視"
->abstract=" 如果優先順序較高的歷程被安排在此指定時段，則客戶就會禁止進入此歷程。若您希望進入先到先接待的歷程情況，我們建議您先選擇每日優先檢視期間，確保當天任何其他歷程的優先順序分數一定會小於歷程的優先順序分數。給歷程的優先順序評分 100 分，也可確保已進入相同歷程。"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_prioritization"
->title="列出優先順序的因素"
->abstract="未定"
 
 >[!AVAILABILITY]
 >
@@ -43,6 +28,16 @@ ht-degree: 19%
 ➡️ [在影片中探索此功能](#video)
 
 ## 建立歷程上限規則 {#create-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_concurrency_prioritization"
+>title="優先檢視"
+>abstract=" 如果優先順序較高的歷程被安排在此指定時段，則客戶就會禁止進入此歷程。若您希望進入先到先接待的歷程情況，我們建議您先選擇每日優先檢視期間，確保當天任何其他歷程的優先順序分數一定會小於歷程的優先順序分數。給歷程的優先順序評分 100 分，也可確保已進入相同歷程。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_type"
+>title="規則類型"
+>abstract="指定規則的上限型別。 **[!UICONTROL 歷程專案上限]**&#x200B;會限制設定檔在指定期間內進入歷程的專案數，而&#x200B;**[!UICONTROL 歷程並行上限]**&#x200B;會限制設定檔可同時註冊的歷程數。"
 
 若要建立歷程上限規則，請遵循下列步驟：
 
@@ -109,6 +104,11 @@ ht-degree: 19%
    ![](assets/journey-capping-activate-rule-set.png)
 
 ## 將上限規則套用至歷程 {#apply-capping}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_capping_rule"
+>title="將規則集套用至歷程"
+>abstract="依頻率上限規則規定，套用規則設定，即可針對部分對象，排除此歷程。"
 
 若要將上限規則套用至歷程，請存取歷程並開啟其屬性。 在&#x200B;**[!UICONTROL 上限規則]**&#x200B;下拉式清單中，選取相關的規則集。 一旦啟動歷程，規則集中定義的上限規則將生效。
 

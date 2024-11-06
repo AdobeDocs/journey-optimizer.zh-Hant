@@ -4,10 +4,10 @@ description: 瞭解如何識別歷程與行銷活動中的潛在衝突。
 role: User
 level: Beginner
 badge: label="有限可用性"
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 3%
+source-wordcount: '802'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->衝突和優先順序功能目前在「有限可用性」中提供給選定的客戶群組。 請注意，這些功能將在未來逐步向更多使用者推出。 如果您有興趣新增至這些功能的輪候表，請洽詢您的客戶團隊。
+>衝突和優先順序功能目前在「有限可用性」中提供給選定的客戶群組。 請注意，未來將會向更多使用者逐步推出以上功能。 如果您有興趣加入上述功能的等候名單，請洽詢客戶團隊。
 
 隨著行銷人員在Journey Optimizer中增加行銷活動和歷程的數量，行銷人員越來越難以知道他們是否透過過多的行銷互動轟炸其客戶。 因此，必須輕鬆識別何時有重疊的行銷活動和歷程，以確保在行銷通訊之間取得正確的平衡，同時降低客戶疲勞的風險。
 
@@ -41,6 +41,16 @@ ht-degree: 3%
 * **即時/排程行銷活動**：即時/排程行銷活動可能會因為可能的對象重疊而互相衝突。 對於任何特定行銷活動，所有即時或排程的行銷活動都會列在衝突檢視器中。
 
 ## 檢視指定歷程或行銷活動的已識別衝突 {#view}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_conflict"
+>title="檢視潛在衝突"
+>abstract="只要與其他行銷活動有可能重疊，就請檢查。 衝突只會針對即時和已排程的行銷活動顯示。 請注意，您指派下列任何設定後，按鈕就會可供使用： **[!UICONTROL 開始/結束日期]**、**[!UICONTROL 對象]**、**[!UICONTROL 頻道]**、**[!UICONTROL 頻道設定]**&#x200B;以及&#x200B;**[!UICONTROL 規則集]**。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_conflict"
+>title="檢視潛在衝突"
+>abstract="只要有可能與其他歷程重疊，請檢視。 衝突僅針對即時和排程歷程顯示。 請注意，您指派下列任何設定後，按鈕就會可供使用： **[!UICONTROL 開始/結束日期]**、**[!UICONTROL 對象]**、**[!UICONTROL 頻道]**、**[!UICONTROL 頻道設定]**&#x200B;以及&#x200B;**[!UICONTROL 規則集]**。"
 
 製作歷程或行銷活動時，Journey Optimizer可讓您檢查與其他歷程或行銷活動重疊的可能性。 要執行此操作，請依照下列步驟執行：
 
