@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '1363'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 [!DNL Journey Optimizer]可讓您個人化您透過傳入歷程或行銷活動提供給客戶的網頁體驗。
 
-## 透過歷程或行銷活動定義網站體驗 {#create-web-experience}
+## 透過歷程或行銷活動定義網路體驗 {#create-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
@@ -97,7 +97,7 @@ ht-degree: 17%
 
 >[!ENDTABS]
 
-## 編輯網頁內容 {#edit-web-content}
+## 編輯網路內容 {#edit-web-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
