@@ -97,7 +97,7 @@ ht-degree: 18%
 
 >[!ENDTABS]
 
-## 編輯網路內容 {#edit-web-content}
+## 編輯網頁內容 {#edit-web-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
