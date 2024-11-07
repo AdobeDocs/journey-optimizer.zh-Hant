@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 0da5f10953ca3b5e14ddd2dd41eac14d5edca767
+source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
 workflow-type: tm+mt
-source-wordcount: '2279'
-ht-degree: 17%
+source-wordcount: '2049'
+ht-degree: 19%
 
 ---
 
@@ -35,13 +35,18 @@ ht-degree: 17%
 您可以使用不同方法來產生對象：
 
 * **區段定義**：使用Adobe Experience Platform Segmentation Service建立新的對象定義。 [瞭解如何建立區段定義](creating-a-segment-definition.md)
+
 * **自訂上傳**：使用CSV檔案匯入對象。 在Adobe Experience Platform [Segmentation Service檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}中瞭解如何匯入對象。
+
 * **對象構成**：建立構成工作流程，將現有Adobe Experience Platform對象結合到視覺畫布中，並利用各種活動（分割、排除……）來建立新對象。 [開始使用客群組合](get-started-audience-orchestration.md)
+
 * **同盟對象構成**：直接從您現有的資料倉儲同盟資料集，以在一個系統中建立並擴充Adobe Experience Platform對象和屬性。 請閱讀[同盟對象構成](https://experienceleague.adobe.com/zh-hant/docs/federated-audience-composition/using/home)的指南。
 
   >[!AVAILABILITY]
   >
   >聯合客群組成目前僅開放給某些組織使用 (限量開放使用)。如需詳細資訊，請聯絡您的 Adobe 代表。
+
+如需[!DNL Journey Optimizer]中使用自訂上傳和同盟對象構成對象的詳細資訊，請參閱[本節](custom-upload-fac.md)。
 
 ## 在[!DNL Journey Optimizer]中鎖定對象 {#segments-in-journey-optimizer}
 
@@ -104,22 +109,6 @@ ht-degree: 17%
 * [設定資料來源](../datasource/configure-data-sources.md)
 >
 +++
-
-## 自訂上傳和同盟受眾構成受眾 {#csv}
-
-本節提供處理自訂上傳（CSV檔案）和同盟對象構成對象時，請謹記的重要資訊：
-
-* **預覽和校訂支援：**&#x200B;目前，使用CSV上傳或同盟對象構成所建立的對象不支援預覽和校訂。 在規劃行銷活動時，請記住這一點。
-
-* **快速啟用與身分拼接延遲：** Adobe Experience Platform架構會延遲身分拼接，讓自訂上傳和同盟對象構成對象可立即在Journey Optimizer中啟用，並造成下列影響：
-
-   * 內嵌完成之後，對象就可以直接在Journey Optimizer中使用。 雖然這通常在一小時內完成，但可能會有所變動。
-   * 啟用的記錄數可能與身分拼接後的設定檔數不同。
-   * 對象中的每個記錄都將啟動，包括任何重複專案。 在下次UPS設定檔匯出期間，這些記錄將進行身分拼接。
-
-* **鎖定新設定檔：**&#x200B;當記錄和UPS設定檔之間找不到相符專案時，會建立新的空白設定檔。 此設定檔連結至儲存在Data Lake中的擴充屬性。 由於此新設定檔為空白，因此Journey Optimizer中通常使用的目標定位欄位（例如personalEmail.address、mobilePhone.number）為空白，因此無法用於目標定位。
-
-  若要解決此問題，您可以在通道設定中將「執行欄位」（或「執行地址」，視通道而定）指定為「identityMap」。 這將確保在建立受眾時選擇作為身分的屬性將是用於在Journey Optimizer中定位的屬性。
 
 ## 客群評估方法 {#evaluation-method-in-journey-optimizer}
 
@@ -184,7 +173,6 @@ Edge區段能在Adobe Experience Platform中即時評估[邊緣](https://experie
 >[!NOTE]
 >
 您可以在批次細分中使用&#x200B;**已開啟的訊息**&#x200B;和&#x200B;**已傳送的訊息**&#x200B;事件，而不會有任何效能問題。
-
 
 ## 對象構成和自訂上傳常見問題集 {#faq}
 
@@ -264,3 +252,8 @@ Adobe Experience Platform [Segmentation Service檔案](https://experienceleague.
 
 +++
 
+## 操作說明影片 {#video}
+
+了解 Journey Optimizer 的統一客戶輪廓及客群。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432671?quality=12)

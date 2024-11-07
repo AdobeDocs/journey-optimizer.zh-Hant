@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2166'
 ht-degree: 98%
 
 ---
@@ -368,6 +368,7 @@ ht-degree: 98%
 + 客群、輪廓與身分{#audiences-profiles-identities}
    + 客群 {#audiences}
       + [開始使用 Audiences](using/audience/about-audiences.md)
+      + [自訂上傳(CSV)和同盟對象構成](using/audience/custom-upload-fac.md)
       + [建置區段定義](using/audience/creating-a-segment-definition.md)
       + 撰寫客群 {#audience-orchestration}
          + [開始使用客群組合](using/audience/get-started-audience-orchestration.md)
