@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: cb7842209e03c579904979480304e543a6b50f50
 workflow-type: tm+mt
-source-wordcount: '2065'
-ht-degree: 80%
+source-wordcount: '2135'
+ht-degree: 79%
 
 ---
 
@@ -257,22 +257,22 @@ ht-degree: 80%
 </table>
 
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Use Adobe Experience Platform data for personalization (Beta)</strong><br/></th>
+<th><strong>使用Adobe Experience Platform資料進行個人化(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Leverage data from Adobe Experience Platform in the personalization editor to personalize your content. To do this, datasets needed for lookup personalization must first be enabled through an API call. Once done, you can use their data to personalize your content into [!DNL Journey Optimizer].</p>
-<p>This capability is currently available to all customers as a public beta.</p>
-<p>For more information, refer to the <a href="../personalization/lookup-aep-data.md"</a>.</p>
+<p>在個人化編輯器中運用Adobe Experience Platform中的資料，將您的內容個人化。 若要這麼做，必須首先透過API呼叫啟用查詢個人化所需的資料集。 完成後，您可以使用他們的資料將您的內容個人化為[!DNL Journey Optimizer]。</p>
+<p>只要是客戶都可在公開測試版中使用此功能。</p>
+<p>如需詳細資訊，請參閱<a href="../personalization/lookup-aep-data.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 ### 改進項目 {#24-10-improvements}
 

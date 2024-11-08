@@ -8,12 +8,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器
-hidefromtoc: true
-hide: true
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: a03541b5f1d9c799c30bf1d38b6f187d94c21dff
+source-git-commit: cb7842209e03c579904979480304e543a6b50f50
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '1015'
 ht-degree: 0%
 
 ---
@@ -22,11 +20,63 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->此功能目前僅以私人測試版的形式提供。
+>此功能目前以公開測試版的形式提供給所有客戶。
 >
->目前，它僅適用於&#x200B;**電子郵件管道**，以及您已提供給Adobe的非生產沙箱中的測試目的，以及測試版要求的資料集。
+>若要使用此功能，您必須先接受組織的測試版條款，在個人化編輯器中新增新的「datasetLookup」協助程式函式時，這些條款就會顯示。
 
-Journey Optimizer可讓您在個人化編輯器中運用Adobe Experience Platform中的資料，以[個人化您的內容](../personalization/personalize.md)。 步驟如下：
+Journey Optimizer可讓您在個人化編輯器中運用Adobe Experience Platform中的資料，以[個人化您的內容](../personalization/personalize.md)。 若要這麼做，必須首先透過API呼叫啟用查詢個人化所需的資料集，如下所述。 完成後，您可以使用他們的資料將您的內容個人化為[!DNL Journey Optimizer]。
+
+## Beta限制和指引 {#guidelines}
+
+開始之前，請檢閱下列限制和准則：
+
+### 資料集啟用 {#enablement}
+
+* **資料集大小**&#x200B;在生產資料集中限製為5GB，在開發沙箱資料集中限製為1GB
+* **在任何時候，每個組織最多可以啟用50個資料集**&#x200B;以供查閱。
+* **記錄數**&#x200B;在生產資料集中限製為5M，在開發沙箱資料集中限製為1M。
+* **資料使用標籤和強制執行**&#x200B;目前未針對啟用查閱的資料集強制執行。
+* **啟用查閱及用於個人化的資料集不會受到刪除保護**。 您可以自行追蹤用於個人化的資料集，以確保不會刪除或移除這些資料集。
+
+### 使用[!DNL Adobe Experience Platform]資料的Personalization {#perso}
+
+* **支援的頻道**：目前，此功能僅適用於電子郵件、簡訊、推播和直接郵件頻道。
+* **資料使用標籤和強制執行**&#x200B;目前未針對啟用查閱的資料集強制執行。
+* **運算式片段**：目前無法將資料集查詢個人化放在運算式片段中。
+
+## 啟用資料集以進行資料查詢 {#enable}
+
+為了將資料集中的資料用於個人化，您需要使用API呼叫來擷取其狀態並啟用查詢服務。
+
+### 先決條件 {#prerequisites-enable}
+
+* 依照[本檔案](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)中詳述的指示，設定您的環境以傳送API命令。
+* 開發人員專案必須將Adobe Journey Optimizer和Adobe Experience Platform API新增至其專案。
+
+  ![](assets/aep-data-api.png)
+
+* 您角色中必須有管理資料集許可權。
+* 資料集所依據的結構描述必須包含可作為查詢金鑰的&#x200B;**主要身分**。
+
+### API呼叫結構 {#call}
+
+```
+curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}" \ -H "Authorization: Bearer ${ACCESS_TOKEN}" \ -H "x-api-key: ${API_KEY}" \ -H "x-gw-ims-org-id: ${IMS_ORG}" \ -H "x-sandbox-name: ${SANDBOX_NAME}"
+```
+
+其中：
+
+* **URL**&#x200B;是`https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}`
+* **資料集識別碼**&#x200B;是您要啟用的資料集。
+* **動作**&#x200B;為啟用或停用。
+* **存取權杖**&#x200B;可從開發人員主控台擷取。
+* 可從開發人員主控台擷取&#x200B;**API金鑰**。
+* **IMS組織ID**&#x200B;是您的Adobe IMS組織。
+* **沙箱名稱**&#x200B;是資料集所在的沙箱名稱（例如prod、dev等）。
+
+## 運用資料集進行個人化 {#leverage}
+
+使用API呼叫啟用資料集查閱個人化後，您就可以使用其資料將您的內容個人化至[!DNL Journey Optimizer]。
 
 1. 開啟個人化編輯器，您可在每個內容中定義個人化（例如訊息），此編輯器可供使用。 [瞭解如何使用個人化編輯器](../personalization/personalization-build-expressions.md)
 
@@ -37,17 +87,21 @@ Journey Optimizer可讓您在個人化編輯器中運用Adobe Experience Platfor
 1. 此函式提供預先定義的語法，可讓您從Adobe Experience Platform資料集呼叫欄位。 語法如下：
 
    ```
-   {{entity.datasetId="datasetId" id="key" result="store"}}
+   {{datasetLookup datasetId="datasetId" id="key" result="store" required=false}}
    ```
 
-   * **entity.datasetId**&#x200B;為您正在處理的資料集識別碼。
+   * **datasetId**&#x200B;為您正在處理的資料集識別碼。
    * **id**&#x200B;是來源資料行的識別碼，應該以查詢資料集的主要身分聯結。
 
      >[!NOTE]
      >
-     >為此欄位輸入的值可以是欄位識別碼(*profile.couponValue*)、在歷程事件中傳遞的欄位(*context.journey.events.event_ID.couponValue*)，或是靜態值(*couponAbcd*)。 無論如何，系統都會使用值，並在資料集中查詢，以檢查它是否符合索引鍵。
+     >為此欄位輸入的值可以是欄位識別碼(*profile.packages.packageSKU*)、在歷程事件中傳遞的欄位(*context.journey.events.event_ID.productSKU*)，或是靜態值(*sku007653*)。 無論如何，系統都會使用值，並在資料集中查詢，以檢查它是否符合索引鍵。
+     >
+     >如果索引鍵使用常值字串值，請將文字放在引號中。 例如： `{{datasetLookup datasetId="datasetId" id="SKU1234" result="store" required=false}}`。 如果使用屬性值做為動態索引鍵，請移除引號。 例如： `{{datasetLookup datasetId="datasetId" id=category.product.SKU result="SKU" required=false}}`
 
    * **result**&#x200B;為任意名稱，您必須提供該名稱，以參考您要從資料集擷取的所有欄位值。 此值將在您的程式碼中用於呼叫每個欄位。
+
+   * **required=false**：如果required設為TRUE，則只有在找到相符的索引鍵時，才會傳遞訊息。 如果設為false，則不需要比對索引鍵，仍可傳送訊息。 請注意，如果設為false，建議您說明訊息內容的遞補或預設值。
 
    +++在哪裡擷取資料集ID？
 
@@ -60,7 +114,7 @@ Journey Optimizer可讓您在個人化編輯器中運用Adobe Experience Platfor
 1. 調整語法以符合您的需求。 在此範例中，我們要擷取和乘客航班相關的資料。 語法如下：
 
    ```
-   {{entity.datasetId="1234567890abcdtId" id=profile.upcomingFlightId result="flight"}}
+   {{datasetLookup datasetId="1234567890abcdtId" id=profile.upcomingFlightId result="flight"}}
    ```
 
    * 我們正在處理其ID為「1234567890abcdtId」的資料集，
@@ -73,8 +127,12 @@ Journey Optimizer可讓您在個人化編輯器中運用Adobe Experience Platfor
    {{result.fieldId}}
    ```
 
+   >[!NOTE]
+   >
+   >參考資料集欄位時，請確定您符合結構描述中定義的完整欄位路徑。
+
    * **result**&#x200B;是您已指派給&#x200B;**MultiEntity**&#x200B;協助程式函式中&#x200B;**result**&#x200B;引數的值。 在此範例中，「飛行」。
-   * **fieldID**&#x200B;是您要擷取的欄位識別碼。 瀏覽資料集時，此ID會顯示在Adobe Experience Platform使用者介面中。 展開下列區段以顯示範例：
+   * **fieldID**&#x200B;是您要擷取的欄位識別碼。 瀏覽與您的資料集相關的記錄結構描述時，[!DNL Adobe Experience Platform]使用者介面中會顯示此ID：
 
      +++從何處擷取欄位ID？
 
