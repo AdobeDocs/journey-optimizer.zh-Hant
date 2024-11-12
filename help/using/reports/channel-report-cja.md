@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: ea016af2dc08321bcf2e5110538031f66c888b90
+source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '644'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 +++ 進一步瞭解重點量度
 
-* **[!UICONTROL 歷程參與]**：與歷程所傳送之訊息互動的個人總數。
+* **[!UICONTROL 歷程參與]**：接收透過歷程傳送之訊息的不重複個人總數，代表到達歷程中指定動作點的不同設定檔。
 
 * **[!UICONTROL 歷程進入者]**：到達歷程進入事件的個人總數。
 

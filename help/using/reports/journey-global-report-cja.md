@@ -7,9 +7,10 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a2219bf7791bc5c598228af883d0507180628abf
+exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
+source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ ht-degree: 0%
 
 +++ 進一步瞭解歷程KPI量度
 
-* **[!UICONTROL 歷程參與]**：與歷程所傳送之訊息互動的個人總數
+* **[!UICONTROL 歷程參與]**：接收透過歷程傳送之訊息的不重複個人總數，代表到達歷程中指定動作點的不同設定檔。
 
 * **[!UICONTROL 歷程進入者]**：到達歷程進入事件的個人總數。
 
@@ -54,7 +55,7 @@ ht-degree: 0%
 
 +++ 進一步瞭解歷程統計量度
 
-* **[!UICONTROL 歷程參與]**：與歷程所傳送之訊息互動的個人總數。
+* **[!UICONTROL 歷程參與]**：接收透過歷程傳送之訊息的不重複個人總數，代表到達歷程中指定動作點的不同設定檔。
 
 * **[!UICONTROL 歷程進入者]**：到達歷程進入事件的個人總數。
 
