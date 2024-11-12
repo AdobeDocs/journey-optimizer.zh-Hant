@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
+source-git-commit: 40f46fd815a567934f886dd086102d830dea5ade
 workflow-type: tm+mt
-source-wordcount: '2041'
-ht-degree: 20%
+source-wordcount: '2053'
+ht-degree: 19%
 
 ---
 
@@ -31,6 +31,11 @@ ht-degree: 20%
 >[!IMPORTANT]
 >
 >針對自動化流程，使用者需要與&#x200B;**[!UICONTROL 翻譯服務]**&#x200B;功能相關的許可權。 [進一步瞭解許可權](../administration/permissions.md)
+
+>[!AVAILABILITY]
+>
+> 自動化流程暫時無法供EMEA地區的使用者使用。
+
 
 使用自動化流程，您只需選取目標語言和語言提供者即可。 然後您的內容會直接傳送到翻譯，準備在完成後進行最終審查。
 
