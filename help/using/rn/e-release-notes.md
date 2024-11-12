@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 61447b6400b65e29a9187790e74be47b09764c4a
 workflow-type: tm+mt
-source-wordcount: '1999'
+source-wordcount: '1967'
 ht-degree: 98%
 
 ---
@@ -306,7 +306,7 @@ ht-degree: 98%
 
 <!--* **Path experiment in journeys** - With the journey path experiment, you can now define and track key metrics for your journey paths, allowing you to measure the impact of your activities and to provide clearer insights into your performance. -->
 
-&lt;!--* **即時歷程最大值** - 目前 Journey Optimizer 在生產沙箱上還擁有 500 種即時歷程護欄，並非只有100 種而已。即時歷程的數目都會顯示在歷程版面中。<!-- DOCAC-10977-->
+<!--* **Max number of Live journeys** - Journey Optimizer now has a guardrail of 500 live journeys on production sandboxes, instead of 100. The number of live journeys is visible in the journey canvas. (DOCAC-10977) -->
 
 **資料集**
 
