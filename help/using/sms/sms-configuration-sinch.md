@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: a196a27fd22a03915838ab4a9bb6139f85242f6b
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '705'
 ht-degree: 3%
 
 ---
@@ -86,8 +86,6 @@ ht-degree: 3%
 
       * 針對&#x200B;**[!UICONTROL 專案識別碼]**&#x200B;和&#x200B;**[!UICONTROL 應用程式識別碼]**：存取您Sinch儀表板上Sinch專案的[交談API總覽](https://dashboard.sinch.com/convapi/overview)頁面。
       * 針對&#x200B;**[!UICONTROL API Token]**：取得您Sinch專案的[存取金鑰](https://community.sinch.com/t5/Customer-Dashboard/Sinch-Access-Keys/ta-p/12638)，並從您的Sinch專案&#x200B;**存取金鑰**&#x200B;中產生&#x200B;**Base64 API Token**。
-
-   * **[!UICONTROL 服務計畫ID]**&#x200B;和&#x200B;**[!UICONTROL SMS API Token]**：您的&#x200B;**[!UICONTROL 服務計畫ID]**&#x200B;和&#x200B;**[!UICONTROL SMS API Token]**&#x200B;位於API頁面的SMS索引標籤上。
 
 1. 完成API認證的設定時，請按一下&#x200B;**[!UICONTROL 提交]**。
 
