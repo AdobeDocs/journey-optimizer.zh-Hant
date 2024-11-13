@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
+source-git-commit: 3951201f24f5277774f192944ca479e8354c13bc
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2032'
 ht-degree: 19%
 
 ---
@@ -218,10 +218,9 @@ Edge區段能在Adobe Experience Platform中即時評估[邊緣](https://experie
 
 +++
 
-+++ 從受眾構成或自訂上傳發佈受眾多久後才能在Journey Optimizer中使用？
++++ 從受眾構成發佈受眾多久後才能在Journey Optimizer中使用？
 
-* 來自&#x200B;**對象構成**&#x200B;的對象會每天執行，因此您可能需要等候最多24小時，才能在Journey Optimizer中使用它們。
-* 來自&#x200B;**自訂上傳**&#x200B;的對象在發佈後約2小時可在Journey Optimizer中使用。
+來自&#x200B;**對象構成**&#x200B;的對象會每天執行，因此您可能需要等候最多24小時，才能在Journey Optimizer中使用它們。
 
 +++
 
