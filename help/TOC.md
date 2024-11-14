@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 87bb8739be76d9535fb9c77ceada0ea5f179b099
+source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2165'
 ht-degree: 98%
 
 ---
@@ -375,7 +375,7 @@ ht-degree: 98%
          + [建立組合工作流程](using/audience/create-compositions.md)
          + [使用組合畫布](using/audience/composition-canvas.md)
          + [存取及管理客群](using/audience/access-audiences.md)
-      + [聯合客群構成 (可用性限制)](https://experienceleague.adobe.com/zh-hant/docs/federated-audience-composition/using/home)
+      + [聯合客群構成](https://experienceleague.adobe.com/zh-hant/docs/federated-audience-composition/using/home)
    + 輪廓{#profiles}
       + [開始使用輪廓](using/audience/get-started-profiles.md)
       + [建立測試輪廓](using/audience/creating-test-profiles.md)
