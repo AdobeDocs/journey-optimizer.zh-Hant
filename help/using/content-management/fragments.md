@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
+source-git-commit: 2f5195f209c5e0e5665722b7c1e12e164acc587e
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 21%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 21%
 >abstract="建立及管理獨立的內容片段，以便在多個歷程和行銷活動中重複使用你的內容。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="建立內容片段"
 
-片段是可重複使用的元件，可在跨[!DNL Journey Optimizer]個行銷活動和歷程的一封或多封電子郵件中參考。 此功能可讓您預先建立多個自訂內容區塊，以便行銷使用者在改進的設計流程中使用這些內容區塊來快速組裝電子郵件內容。
+片段是可重複使用的元件，可在跨[!DNL Journey Optimizer]個行銷活動和歷程的一封或多封電子郵件中參考。 此功能可讓您預先建置多個自訂內容區塊，可供行銷使用者在改良的設計程式中快速組合電子郵件內容。
 
 ![](../rn/assets/do-not-localize/fragments.gif)
 
