@@ -4,13 +4,13 @@ description: 瞭解如何為歷程建立上限規則，以及如何仲裁歷程�
 role: User
 level: Beginner
 badge: label="有限可用性"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '903'
-ht-degree: 18%
+ht-degree: 23%
 
 ---
-
 
 # 歷程上限與仲裁 {#journey-capping}
 
@@ -27,7 +27,7 @@ ht-degree: 18%
 
 ➡️ [在影片中探索此功能](#video)
 
-## 建立歷程上限規則 {#create-rule}
+## 建立歷程頻率上限規則 {#create-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
@@ -37,7 +37,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
 >title="規則類型"
->abstract="指定規則的上限型別。 **[!UICONTROL 歷程專案上限]**&#x200B;會限制設定檔在指定期間內進入歷程的專案數，而&#x200B;**[!UICONTROL 歷程並行上限]**&#x200B;會限制設定檔可同時註冊的歷程數。"
+>abstract="指定規則的頻率上限類型。「**[!UICONTROL 歷程進入頻率上限]**」會限制輪廓在特定期間內進入歷程的數量，而「**[!UICONTROL 歷程並行頻率上限]**」則是限制輪廓能夠同時註冊的歷程數量。"
 
 若要建立歷程上限規則，請遵循下列步驟：
 
@@ -103,7 +103,7 @@ ht-degree: 18%
 
    ![](assets/journey-capping-activate-rule-set.png)
 
-## 將上限規則套用至歷程 {#apply-capping}
+## 將頻率上限規則套用至歷程 {#apply-capping}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"

@@ -9,7 +9,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '2511'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 1%
 * [個人化優惠](../offer-library/creating-personalized-offers.md)
 * [遞補優惠](../offer-library/creating-fallback-offers.md)
 
-## 建立決定 {#create-activity}
+## 建立決策 {#create-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_details"
->title="優惠決定詳細資料"
->abstract="指定決定的名稱，並視需要定義開始和結束日期和時間。 若要指派自訂或核心資料使用標籤給決定，請選取&#x200B;**[!UICONTROL 管理存取權]**。"
+>title="產品建議決策詳細資料"
+>abstract="指定決策的名稱並定義開始和結束的日期與時間 (如有需要)。若要對決策指派自訂或核心資料使用標籤，請選取「**[!UICONTROL 管理存取權]**」。"
 
 1. 存取決定清單，然後按一下&#x200B;**[!UICONTROL 建立決定]**。
 
@@ -47,22 +47,22 @@ ht-degree: 1%
 
 1. 若要指派自訂或核心資料使用標籤給決定，請選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../../administration/object-based-access.md)
 
-## 定義決定範圍 {#add-decision-scopes}
+## 定義決策範圍 {#add-decision-scopes}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_scopes"
->title="決定範圍"
->abstract="設定優惠決定的一或多個範圍，以決定要顯示的優惠。 您可以選取此位置的版位和相關聯的評估准則來完成此操作。"
+>title="決策範圍"
+>abstract="為產品建議決策設定一個或多個範圍，以決定要顯示的產品建議。設定範圍需要選取一個產品建議放置環境，以及這個產品建議放置環境的相關評估條件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
 >title="版位"
->abstract="選取將傳遞優惠的位置。"
+>abstract="選取用於傳遞產品建議的放置環境。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_evaluation"
 >title="評估條件"
->abstract="評估准則包含與資格限制相關聯的優惠方案集合，以及決定要顯示在位置中的優惠方案的排名方法。 評估條件的順序會決定哪個集合會先評估。 至少需要一個評估標準。"
+>abstract="評估條件包括與適用性限制相關的產品建議集合，以及決定要在產品建議放置環境中顯示哪些產品建議的排名方法。評估條件的順序會決定要先評估哪個集合。需要至少一項評估條件。"
 
 1. 從下拉式清單中選取位置。 它會新增到您決定中的第一個決定範圍。
 
@@ -304,14 +304,14 @@ ht-degree: 1%
 
 +++
 
-## 新增遞補優惠 {#add-fallback}
+## 新增後備產品建議 {#add-fallback}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_fallback"
->title="新增回溯優惠方案"
->abstract="定義決定範圍後，定義遞補優惠方案，此優惠方案將作為不符合優惠方案適用性規則和限制之客戶的最後手段。"
+>title="新增後備產品建議"
+>abstract="定義決策範圍後，請定義後備產品建議，這是為不符合產品建議適用性規則與限制之客戶顯示產品建議的最後手段。"
 
-定義決定範圍後，定義遞補優惠方案，此優惠方案將作為不符合優惠方案適用性規則和限制之客戶的最後手段。
+定義決策範圍後，請定義後備產品建議，這是為不符合產品建議適用性規則與限制之客戶顯示產品建議的最後手段。
 
 若要這麼做，請從決定中定義之位置的可用遞補優惠清單中選取它，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 

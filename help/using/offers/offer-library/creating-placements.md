@@ -9,7 +9,7 @@ exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 11%
+ht-degree: 31%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"
 >title="版位"
->abstract="位置是用於展示優惠的容器。它有助於確保正確的優惠內容顯示在訊息中的正確位置。位置是從「元件」選單建立的。"
+>abstract="產品建議放置環境是用於展示產品建議的容器。它有助於確保正確的優惠內容顯示在訊息中的正確位置。產品建議放置環境是從「元件」選單建立的。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement_request"
 >title="請求設定"
->abstract="啟用&#x200B;**[!UICONTROL 允許跨版位重複專案]**&#x200B;選項，讓系統針對多個版位考慮相同的選件。 使用&#x200B;**[!UICONTROL 要求選件]**&#x200B;欄位來調整傳回的選件數目。 例如，如果您選取2，則會針對所選決定範圍顯示最佳的2個優惠方案。"
+>abstract="啟用「**[!UICONTROL 允許多個產品建議放置環境之間有重複產品]**」選項，讓系統能夠考量在多個放置環境提供相同的產品建議。使用「**[!UICONTROL 請求產品建議]**」欄位來調整傳回的產品建議數量。例如，您若選取「2」，則會針對所選取的決策範圍顯示最佳的 2 項產品建議。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement_response"
 >title="回應格式"
->abstract="**[!UICONTROL 包含內容]**&#x200B;和&#x200B;**[!UICONTROL 包含中繼資料]**&#x200B;選項可讓您指定是否應該在API回應中傳回選件的內容和中繼資料。 您只能包含所有中繼資料或特定欄位。 依預設，「包含中繼資料」值會設為true。"
+>abstract="您可以使用「**[!UICONTROL 包含內容]**」和「**[!UICONTROL 包含中繼資料]**」選項來指定在 API 回應中是否回傳產品建議的內容和中繼資料。您可以選擇包含所有中繼資料或僅包含特定欄位。「包含中繼資料」的值預設為 true。"
 
 版位有助於確保正確的選件內容顯示在訊息的正確位置。 將內容新增至優惠方案時，系統會要求您選取可顯示該內容的版位。
 
@@ -63,9 +63,9 @@ ht-degree: 11%
 
      如果決策請求中任何位置的此選項設為false，則請求中的所有位置都將繼承「false」設定。
 
-   * **[!UICONTROL 要求優惠]**：依預設，會為每個設定檔傳回一個決定範圍的優惠。 您可以使用此選項調整傳回的優惠方案數量。 例如，如果您選取2，則會針對所選決定範圍顯示最佳的2個優惠方案。
+   * **[!UICONTROL 要求優惠]**：依預設，會為每個設定檔傳回一個決定範圍的優惠。 您可以使用此選項調整傳回的優惠方案數量。 例如，您若選取「2」，則會針對所選取的決策範圍顯示最佳的 2 項產品建議。
 
-   * **[!UICONTROL 包含內容]** / **[!UICONTROL 包含中繼資料]**：指定是否應該在API回應中傳回選件的內容和中繼資料。 您只能包含所有中繼資料或特定欄位。 依預設，「包含中繼資料」值會設為true。
+   * **[!UICONTROL 包含內容]** / **[!UICONTROL 包含中繼資料]**：指定是否應該在API回應中傳回選件的內容和中繼資料。 您可以選擇包含所有中繼資料或僅包含特定欄位。「包含中繼資料」的值預設為 true。
 
    如果您使用[決策API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html)，也可以將這些引數直接設定到您的API要求中。 不過，在使用者介面中設定這些變數有助於節省時間，因為您不需要在每個API要求中傳遞這些變數。 請注意，如果您同時在使用者介面和API要求中設定引數，來自API要求的值將會優先於來自介面的值。
 

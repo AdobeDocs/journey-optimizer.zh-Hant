@@ -8,20 +8,20 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta"
-source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
+exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
-
 
 # 使用範例輸入資料 (測試版) 來測試內容 {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="使用範例輸入進行模擬"
->abstract="在此畫面中，您可以透過CSV或JSON範本提供個人化欄位的值，或手動輸入值，以測試內容的不同變體。"
+>abstract="在這個畫面中，您可以透過 CSV 或 JSON 範本為個人化欄位提供值，或手動輸入值來測試內容的不同變體。"
 
 >[!AVAILABILITY]
 >

@@ -18,7 +18,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation"
 >title="模擬報價決策"
->abstract="模擬功能可讓您模擬出特定位置有哪些產品建議會傳送至測試輪廓。這讓您能夠在不影響目標收件者的情況下，測試和改善各種版本的報價。"
+>abstract="模擬功能可讓您模擬出特定產品建議放置環境有哪些產品建議會傳送至測試輪廓。這讓您能夠在不影響目標收件者的情況下，測試和改善各種版本的報價。"
 
 ## 關於模擬 {#about-simulation}
 

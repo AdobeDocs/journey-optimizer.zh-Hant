@@ -13,7 +13,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
 source-wordcount: '1950'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="規則集"
->abstract="使用規則集將頻率上限套用至不同類型的行銷傳播。您也可以建立規則集，以根據頻率上限規則排除部分對象的歷程。"
+>abstract="使用規則集將頻率上限套用至不同類型的行銷傳播。您也可以建立規則集，依照頻率上限規則，將部分客群排除在歷程以外。"
 
 >[!AVAILABILITY]
 >
@@ -48,12 +48,12 @@ ht-degree: 6%
 
 ![](assets/rule-sets-default.png)
 
-### 管道和歷程上限規則 {#domain}
+### 管道與歷程頻率上限規則 {#domain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
 >title="規則集網域"
->abstract="建立規則集時，您需要指定規則集中的規則是否將強制執行通訊通道或歷程專用的上限規則。"
+>abstract="建立規則集時，您必須指定規則集當中的規則要針對通訊管道或是歷程強制執行頻率上限規則。"
 
 建立規則集時，您需要指定規則集中的規則是否將強制執行通訊通道或歷程專用的上限規則。 若要這麼做，請在建立規則集時，為規則集選取管道或歷程網域。 [瞭解如何建立規則集](#create)
 
@@ -110,7 +110,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
 >title="規則上限"
->abstract="設定規則的上限。 根據規則集網域和「規則型別」欄位中的選擇，此欄位可定義可傳送到設定檔的最大訊息數量，或設定檔可同時輸入或註冊的最大歷程數量。"
+>abstract="設定規則的頻率上限。根據規則集網域和「規則類型」欄位中的選擇，此欄位可以定義傳送至輪廓的訊息數量上限，或者輪廓可同時進入或註冊的歷程數量上限。"
 
 若要將規則新增至規則集，請存取規則集並按一下[新增規則]。****
 

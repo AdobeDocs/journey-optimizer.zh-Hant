@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -41,13 +41,13 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_personalized"
->title="個人化優惠"
->abstract="個人化優惠是根據適用性規則和限制的可自訂訊息。"
+>title="個人化產品建議"
+>abstract="個人化產品建議是根據適用性規則與限制建立的自訂訊息。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
 >title="備援優惠方案"
->abstract="當一般使用者不符合任何個人化優惠的資格時，遞補優惠會是顯示的預設優惠。"
+>abstract="若一般使用者不符合資格享有任何個人化產品建議，其預設產品建議便會顯示後備產品建議。"
 
 若要建立&#x200B;**選件**，請遵循下列步驟：
 

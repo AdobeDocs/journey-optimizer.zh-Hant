@@ -11,7 +11,7 @@ exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
 workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -87,7 +87,7 @@ ISP通常具有將收到的訊息報告為垃圾訊息的顯著方法。 這樣�
 
 [進一步瞭解DMARC記錄](../configuration/dmarc-record.md)
 
-## 瞭解回饋迴路 {#feedback-loops}
+## 了解意見回饋循環 {#feedback-loops}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
