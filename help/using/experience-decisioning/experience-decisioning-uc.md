@@ -5,22 +5,22 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 3fb9e6cd61e73e9ddf1971f6aa8e15c8b82b8445
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '342'
 ht-degree: 6%
 
 ---
 
 # 決策使用案例 {#experience-decisioning-uc}
 
-在此使用案例中，您會定義兩個傳遞處理，每個處理包含不同的決定原則，以評估哪個處理對目標對象執行時效果最佳。
+在此使用案例中，您會建立行銷活動，在此定義兩個傳送處理 — 每個都包含不同的決定原則，以衡量哪個原則最適合您的目標對象。
 
-## 建立專案和策略
+## 建立決定專案和選取策略
 
 您首先需要建立專案、在集合中將它們分組、設定規則和排名方法。 這些元素可讓您建置選取策略。
 
-1. 導覽至&#x200B;**[!UICONTROL 決策]** > **[!UICONTROL 目錄]**，並建立數個選件專案。 使用對象或規則設定限制，將每個專案限製為僅限特定設定檔。 [了解更多](items.md)
+1. 導覽至&#x200B;**[!UICONTROL 決策]** > **[!UICONTROL 目錄]**&#x200B;並建立數個決策專案。 使用對象或規則設定限制，將每個專案限製為僅限特定設定檔。 [了解更多](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
@@ -37,11 +37,11 @@ ht-degree: 6%
 
 若要在您的網站或行動應用程式上向訪客呈現最佳動態優惠和體驗，請將決定原則新增至程式碼型行銷活動。
 
-定義兩個傳遞處理，每個處理包含不同的決定原則。
+<!--Define two delivery treatments each containing a different decision policy.-->
 
-1. 建立行銷活動並選取&#x200B;**[!UICONTROL 程式碼型體驗]**&#x200B;動作。 [了解更多](../code-based/create-code-based.md)
+1. 建立行銷活動，並選取&#x200B;**[!UICONTROL 程式碼型體驗]**&#x200B;動作。 [了解更多](../code-based/create-code-based.md)
 
-1. 從行銷活動摘要頁面，按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以開始設定您的內容實驗。 [了解更多](../content-management/content-experiment.md)
+1. 從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;視窗，開始個人化處理A。
 
 1. 選取&#x200B;**[!UICONTROL 決定]**&#x200B;圖示，按一下&#x200B;**[!UICONTROL 建立決定]**&#x200B;並填寫決定詳細資料。 [了解更多](create-decision.md)
 
@@ -61,7 +61,9 @@ ht-degree: 6%
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-1. 建立處理B並重複上述步驟以建立另一個決策。
+1. 從行銷活動摘要頁面，按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以開始設定您的內容實驗。 [了解更多](../content-management/content-experiment.md)
+
+1. 從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;視窗中，選取您的處理B以變更內容，並重複上述步驟以建立另一個決定。
 
 1. 儲存您的內容。
 
