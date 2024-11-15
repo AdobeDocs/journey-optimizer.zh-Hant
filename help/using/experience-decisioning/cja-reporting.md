@@ -1,20 +1,31 @@
 ---
-title: 客戶歷程分析報告
-description: 瞭解如何在Customer Journey Analytics中執行報表
+title: 決策報告
+description: 瞭解如何針對決策製作報表。
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
 badge: label="有限可用性"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 841a114610bfee743f5ebb349e3eef6312de0f7b
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 7%
+source-wordcount: '221'
+ht-degree: 3%
 
 ---
 
-# 客戶歷程分析報告 {#cja}
+
+# 決策報告 {#decisioning-report}
+
+## 程式碼型行銷活動報表 {#campaigns}
+
+一旦程式碼型體驗上線，您就可以存取專用報告，以全方位控制面板的形式監控關鍵績效指標(KPI)，提供與行銷活動相關之基本量度的分析。
+
+其中包括與決定專案效能相關的細節，以及使用者如何與它們互動。 [瞭解如何使用程式碼型體驗報告](../reports/campaign-global-report-cja-code.md)
+
+![](../reports/assets/cja-decisioning-item-performance.png)
+
+## 客戶歷程分析報告 {#cja}
 
 如果您正在使用Customer Journey Analytics，可以利用Decisioning為您的程式碼型行銷活動建立自訂報告儀表板。
 
