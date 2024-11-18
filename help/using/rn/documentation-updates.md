@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
+source-git-commit: 9c5dd4a8de32ccc037d6c8d57667ce3a5f455535
 workflow-type: tm+mt
-source-wordcount: '5707'
+source-wordcount: '5724'
 ht-degree: 99%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 99%
 * 已新增有關系統產生資料集的近期存留時間 (TTL) 護欄的備註。[閱讀全文](../data/get-started-datasets.md)
 * 已新增新區段，方便說明如何操作，當要在歷程或行銷活動中模擬內容時，就能透過瀏覽器，或是在行動裝置上，使用「在裝置上預覽」的選項，直接預覽程式碼型個人化體驗。[閱讀全文](../code-based/create-code-based.md#preview-on-device)
 * 已新增頁面，說明如何善用自訂上傳對象做決策。[閱讀全文](../offers/custom-upload-decisioning.md)
+* 已新增新頁面，以介紹Journey Optimizer中可用的決策功能。 [閱讀全文](../experience-decisioning/gs-decision.md)
 
 ## 2024 年 9 月 {#sept-2024}
 
