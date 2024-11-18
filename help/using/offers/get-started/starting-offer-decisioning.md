@@ -6,23 +6,23 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
+source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '896'
 ht-degree: 100%
 
 ---
 
-# 關於決定管理 {#about-decision-management}
+# 開始使用決策管理 {#about-decision-management}
 
 使用 [!DNL Journey Optimizer] 可在適當的時間為所有接觸點的客戶提供最佳優惠和體驗。設計完成後，透過個人化優惠目標定位客群。
 
-決策管理透過集中行銷優惠資料庫和決定引擎輕鬆實現個人化，該決策引擎將規則和限制套用於 Adobe Experience Platform 建立的豐富即時設定檔，以幫助您在適當的時間向客戶傳送合適的優惠。
+決策管理透過集中行銷優惠資料庫和決定引擎輕鬆實現個人化，該決策引擎將規則和限制套用於 Adobe Experience Platform 建立的豐富即時輪廓，以幫助您在適當的時間向客戶傳送合適的優惠。
 
 「決定管理」功能由兩個主要元件組成：
 
 * **集中式優惠資料庫**&#x200B;是您建立和管理不同元素的介面，這些元素會組成優惠，並定義其規則和限制。
-* **優惠決定引擎**&#x200B;運用 Adobe Experience Platform 資料、即時客戶設定檔以及優惠資料庫，以選擇即將提供優惠的適當時間、客戶和管道。
+* **優惠決定引擎**&#x200B;運用 Adobe Experience Platform 資料、即時客戶輪廓以及優惠資料庫，以選擇即將提供優惠的適當時間、客戶和管道。
 
 ![](../assets/architecture.png)
 
@@ -85,9 +85,9 @@ ht-degree: 100%
 
 * **決定**：決定包含通知選擇活動內容的邏輯。
 
-* **決定規則**：決定規則是新增至個人化優惠方案的限制，並可套用至設定檔以判斷適用性。
+* **決定規則**：決定規則是新增至個人化優惠方案的限制，並可套用至輪廓以判斷適用性。
 
-* **符合資格優惠**：符合資格優惠方案符合上游定義的限制，並可持續地提供給設定檔。
+* **符合資格優惠**：符合資格優惠方案符合上游定義的限制，並可持續地提供給輪廓。
 
 * **決定管理**：可讓您使用商業邏輯和決定規則，跨頻道和應用程式建立並提供使用者個人化的優惠體驗。
 
