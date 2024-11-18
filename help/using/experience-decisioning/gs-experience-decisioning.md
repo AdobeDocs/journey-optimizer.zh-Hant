@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
+source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 24%
+source-wordcount: '548'
+ht-degree: 17%
 
 ---
 
@@ -20,6 +20,26 @@ ht-degree: 24%
 Decisioning 會透過提供集中行銷優惠目錄，又稱為「決策項目」，還有複雜的決策引擎，設法簡化個人化。 此引擎運用規則與排名標準來選取並呈現最相關的決定項目給每個人。
 
 這些決定專案會透過[新的程式碼型體驗管道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based) (現在可在Journey Optimizer促銷活動中存取)，順暢地整合至廣泛的傳入介面。 決策決策政策僅適用於程式碼型體驗行銷活動。
+
+## 護欄和限制 {#guardrails}
+
+為確保最佳使用決策，請記住以下護欄和限制：
+
+### 一般護欄 {#general}
+
+* **優惠方案專案**：每個專案集合最多可包含500個優惠方案專案。
+* **自訂屬性**：決定專案最多可包含100個自訂屬性。
+* **選擇策略與每個原則的手動專案**：決定原則最多可支援10個選擇策略和手動專案組合。
+
+### 適用性規則 {#eligibility}
+
+* **巢狀層次**：巢狀深度限製為30個層次。 這是透過計算PQL字串中的`)`個右括弧來測量。
+* **規則字串大小**：規則字串的大小最多可以是15KB （UTF-8編碼字元）。 這相當於15,000個ASCII字元（每個1個位元組），或3,750-7,500個非ASCII字元（每個2-4個位元組）。
+
+### 排名公式 {#ranking}
+
+* **巢狀層次**：巢狀深度限製為30個層次。 這是透過計算PQL字串中的`)`個右括弧來測量。
+* **公式字串大小**：規則字串的大小最多可以是8KB （UTF-8編碼字元）。 這會增加到8,000個ASCII字元（每個1個位元組），或2,000至4,000個非ASCII字元（每個2-4個位元組）。
 
 ## 決策關鍵步驟 {#steps}
 
