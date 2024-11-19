@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 100%
@@ -449,7 +449,6 @@ ht-degree: 100%
 <tr>
 <td>
 <p>Adobe Stock 和 Adobe Journey Optimizer 電子郵件設計工具整合外掛程式，為客戶提供了用於訊息製作的導覽、授權和儲存影像的簡單方法。 您還可以藉由</br>新的<b>找到類似的相片庫</b>選項找出與影像內容、顏色和組成相符的影像庫。 </p>
-<!--img src="assets/do-not-localize/stock-rn.gif"/-->
 <p>如需詳細資訊，請參閱<a href="../content-management/stock.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -466,7 +465,6 @@ ht-degree: 100%
 <tr>
 <td>
 <p>您現在可以使用密件副本電子郵件（密件副本）功能來儲存 Adobe Journey Optimizer 傳送的電子郵件。 在電子郵件預設集中啟用此選項，以便將每封傳送的電子郵件以密件副本方式寄至密件副本地址。</p>
-<!--img src="assets/do-not-localize/bcc-rn.gif"/-->
 <p>如需詳細資訊，請參閱<a href="../configuration/archiving-support.md#bcc-email">詳細文件</a>。</p>
 </td>
 </tr>
@@ -547,7 +545,6 @@ ht-degree: 100%
 <tr>
 <td>
 <p>您現在可以設定跨頻道的業務規則，這些業務規則將自動從訊息和動作中排除過度請求的輪廓。</p>
-<!--img src="assets/do-not-localize/frequency-rn.gif"/-->
 <p>如需詳細資訊，請參閱<a href="../configuration/frequency-rules.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -564,7 +561,6 @@ ht-degree: 100%
 <tr>
 <td>
 <p>現在，您可以在決定管理中使用經過訓練的模型系統。 此新功能排名可於指定的輪廓顯示。</p>
-<!--img src="assets/do-not-localize/optimization.gif"/-->
 <p>如需詳細資訊，請參閱<a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">詳細文件</a>。</p>
 </td>
 </tr>
@@ -598,7 +594,6 @@ ht-degree: 100%
 <tr>
 <td>
 <p>您現在可以監視使用者對 Adobe Journey Optimizer 資源執行的動作。</p>
-<!--img src="assets/do-not-localize/audit-rn.gif"/-->
 <p>如需詳細資訊，請參閱<a href="../privacy/audit-logs.md">詳細文件</a>。</p>
 </td>
 </tr>
