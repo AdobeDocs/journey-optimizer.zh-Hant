@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1791'
 ht-degree: 14%
 
 ---
@@ -88,9 +88,9 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >至少需要一個決策專案或策略。 您無法新增超過10個策略。
+   >決策原則可支援最多10個合併的選擇策略和決策專案。 [進一步瞭解Decisioning護欄和限制](gs-experience-decisioning.md#guardrails)
 
-1. 新增多個決定專案和/或策略時，將會以特定順序評估它們。 將先評估新增至序列的第一個物件，依此類推。     若要變更預設順序，您可以拖放物件及/或群組以視需要重新排序。 [進一步了解決策原則評估順序](#evaluation-order)
+1. 新增多個決定專案和/或策略時，將會以特定順序評估它們。 將先評估新增至序列的第一個物件，依此類推。 若要變更預設順序，您可以拖放物件及/或群組以視需要重新排序。 [進一步了解決策原則評估順序](#evaluation-order)
 
 ### 管理決定原則中的評估順序 {#evaluation-order}
 

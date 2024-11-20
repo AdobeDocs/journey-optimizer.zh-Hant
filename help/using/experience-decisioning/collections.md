@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 50%
+source-wordcount: '384'
+ht-degree: 48%
 
 ---
 
@@ -50,3 +50,7 @@ ht-degree: 50%
    ![](assets/collection-create.png)
 
 1. 定義集合規則後，按一下[建立]。**** 集合現在會顯示在清單中。
+
+>[!NOTE]
+>
+>每個專案集合最多可包含500個選件專案。 [進一步瞭解Decisioning護欄和限制](gs-experience-decisioning.md#guardrails)
