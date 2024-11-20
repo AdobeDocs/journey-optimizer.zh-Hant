@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP、群組、子網域、傳遞能力
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2628'
 ht-degree: 11%
 
 ---
@@ -103,7 +103,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >此區段無法編輯。
 
-1. 如有需要，您可以使用&#x200B;**[!UICONTROL 取代]**&#x200B;按鈕來取代行銷活動。 您也可以使用&#x200B;**[!UICONTROL 清除]**&#x200B;按鈕&#x200B;**[!UICONTROL 清除]**&#x200B;選取的行銷活動。 此動作不僅會清除行銷活動，還會清除其他階段層級屬性，例如網域群組排除、行銷活動、歷程排除等。 清除後，您可以立即或稍後選擇新的行銷活動。
+1. 如有需要，您可以使用&#x200B;**[!UICONTROL 取代]**&#x200B;按鈕來取代行銷活動。 您也可以使用&#x200B;**[!UICONTROL 清除]**&#x200B;按鈕&#x200B;**[!UICONTROL 清除]**&#x200B;選取的行銷活動。 此動作不僅會清除行銷活動，還會清除其他階段層級屬性（網域群組不包括、行銷活動、歷程排除等）。 清除後，您可以立即或稍後選擇新的行銷活動。
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -187,6 +187,12 @@ At phase level, system ensures that previously targeted + new profiles are picke
 1. 選取&#x200B;**[!UICONTROL 發生錯誤時取消已啟動的執行專案]**&#x200B;選項，以便在評估該執行專案的對象後，如果合格的設定檔少於目標設定檔，則取消執行專案。 在這種情況下，執行會採用&#x200B;**[!UICONTROL 失敗]**&#x200B;狀態。
 
    ![](assets/ip-warmup-plan-pause.png)
+
+   如果合格的設定檔數量與目標設定檔的數量不符（例如，執行中目標設定檔為1500個Gmail地址，但只有700個合格的Gmail設定檔）：
+
+   * 如果已啟用此選項，則執行會失敗。 然後，您可以選擇在下一次執行中鎖定較少的設定檔，或選擇將執行](#split-phase)分割到新階段，並為新階段選取新的行銷活動，以再次鎖定相同的設定檔。[
+
+   * 如果未啟用選項，則會執行執行，但只將目標設定檔的可用數量設為。
 
 1. **[!UICONTROL 啟動]**&#x200B;執行。 [了解更多](#activate-run)
 

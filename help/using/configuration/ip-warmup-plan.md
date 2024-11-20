@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP、群組、子網域、傳遞能力
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1760'
 ht-degree: 6%
 
 ---
@@ -92,108 +92,108 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 
 ![](assets/ip-warmup-sample-file.png)
 
-### IP熱身計畫標籤 {#ip-warmup-plan-tab}
+### 熱身計畫標籤 {#ip-warmup-plan-tab}
 
-* 在此範例中，已準備超過17天的計畫（稱為&#39;**執行**&#39;），以達到超過一百萬個設定檔的目標磁碟區。
+若要建立IP熱身計畫，請在第一個索引標籤中填入提供計畫所需的資料。
+
+* 在上述範例中，已準備超過17天的計畫（稱為&#39;**執行**&#39;），以達到超過一百萬個設定檔的目標磁碟區。
 
 * 此計畫透過六個&#x200B;**階段**&#x200B;執行，每個階段都包含至少一個回合。
 
 * 您最多可以有6欄（網域群組為4欄，其他為&#x200B;**個**&#x200B;欄，其他為&#x200B;**參與天數**&#x200B;欄）。 在此範例中，計劃分為六個欄：
 
-   * 其中三個對應至要在您的計畫中使用的&#x200B;**現成可用的網域群組** (Gmail、Microsoft和Orange)。
-   * 其中一個對應到自訂網域群組（您需要使用[自訂網域群組](#custom-domain-group-tab)索引標籤來新增）。
+   * 其中三個對應至要在您的計畫(Gmail、Yahoo和Microsoft)中使用的&#x200B;**現成可用的網域群組**。 現成可用的網域群組全部列在[OOTB網域群組](#ootb-domain-groups-tab)索引標籤中。
+   * 一個資料行對應到自訂網域群組（您需要使用[自訂網域群組](#custom-domain-group-tab)索引標籤來新增）。
    * 第五欄&#x200B;**其他**&#x200B;包含計畫未明確涵蓋之其他網域的所有剩餘位址。 此欄是選用的：如果省略，電子郵件將只傳送到指定的網域。
    * 最後一欄&#x200B;**參與天數**&#x200B;可讓您指定應追蹤或評估參與的天數。
 
 我們的想法是逐步增加每個執行中的目標位址數量，同時減少每個階段的執行數量。
 
-以下列出您可以新增到計畫中的現成主要網域群組：
+### 自訂網域群組標籤 {#custom-domain-group-tab}
 
-<!--
-* Gmail
-* Adobe
-* WP
-* Comcast
-* Yahoo
-* Bigpond
-* Orange
-* Softbank
-* Docomo
-* United Internet
-* Microsoft
-* KDDI
-* Italia Online
-* La Poste
-* Apple
--->
+您也可以包含自訂網域群組，以新增更多欄到計畫中。
+
+使用&#x200B;**[!UICONTROL 自訂網域群組]**&#x200B;索引標籤來定義新的網域群組。 您可以為每個網域新增其涵蓋的所有子網域。
+
+>[!IMPORTANT]
+>
+>確定每個網域都是其網域群組的唯一網域，且不會與其他網域群組或[現成可用的網域群組](#ootb-domain-groups-tab)重疊。
+
+例如，如果您新增自訂網域Roadrunner，您希望納入下列子網域 — 例如在下列範例中：roadrunner.com、nc.rr.com、tampabay.rr.com、rochester.rr.com等。
+
+![](assets/ip-warmup-sample-file-custom.png)
+
+>[!NOTE]
+>
+>如果您不需要自訂網域，請將&#x200B;**[!UICONTROL 自訂網域群組]**&#x200B;索引標籤留空。
+
+### OOTB網域群組索引標籤 {#ootb-domain-groups-tab}
+
+IP熱身計畫範本的&#x200B;**OOTB網域群組**&#x200B;索引標籤包含您可以新增到計畫的所有現成主要網域群組。
+
+![](assets/ip-warmup-sample-file-ootb.png)
+
+>[!NOTE]
+>
+>如果此索引標籤中未列出網域群組，則您需要在對應的索引標籤中建立自訂網域群組。 [了解更多](#custom-domain-group-tab)
+
+現成可用的主要網域群組也列於下方：
 
 +++ Gmail
 gmail.com；google.com；googlemail.com；googlemail.co.uk
-+++
-
-+++WP
-wp.pl；o2.pl
-+++
-
-+++Comcast
-comcast.net
-+++
-
-+++Yahoo
-aol.fi；games.com；cs.com；yahoo.com.in；y7mail.com；yahoo.co.uk；yahoo.hu；yahoo.co.hu；yahoo.cn；yahoogroups.com.sg；yahoogroups.com.au；aol.es；yahoo.com.au yahoo.com.vn aol.co.nz yahoo.com.br yahoo.ne.jp ymail.com netscape.com yahoo.com.pe yahoo.co.id citlink.net wmconnect.com yahoo.com.jp yahoo.com.hk aol.com.br yahoo.co.kr yahoo.com.ar ygm.com yahoo.co.nz aol.com goowy.com rocketmail.com frontiernet.net aim.com yahoogroups.co.in netscape.net luckymail.com yahoo.co.jp yahoo.com.kr yahoo.co.za verizon.net aol.com.ve aol.com.ar aol.com.co wild4music.com yahoogroups.com.cn yahoo.com.co wow.com yahoo.com yahooxtra.co.nz yahoo.com.mx yahoo.com.ph sky.com aol.com.mx aol.com.au aolchina.com yahoo.com.net yahoo.com.tw talk21.com compuserve.com yahoo.com.sg yahoogroups.com.tw frontier.com yahoo.co.in yahoo.co.il verizon.net.in yahoo.com.tr yahoogroups.com.hk yahoogroups.co.uk yahoo.com.biz yahoo.com.hr aol.co.uk ybb.ne.jp yahoogroups.co.kr yahoo.com.my rogers.com gte.net yahoogroups.com yahoo.co.th yahoo.com.cn love.com bellatlantic.net yahoo.com.ve yahoo.com.ua；yahoo.ca；aol.hk；；aolpoland.pl；aolnorge.no；；yahoo.fi；；aolcom.tr；yahoo.si；aol.it；aol；it；yahoo.es；yahoo.dk；yahoogroups.ca；；aol.kr；yahoo.ie；aol.jp；；yahoo.lt aol.nl； yahoo.bg；；aol.se；；yahoo.de；；；yahoo.nl；；；；Yahol.se； myaol.jp； myaol.jp yahoo.pt；；yahoogrupper.dk； yahoo.fr；；aol.pl；；aol.ch； yahoo.it；；aolpolcka.pl；；ahogruppi.it；；yahoo.cl；；；yahoo.be；；；aol.tw；；；；；；aol.ru；；；yahoo.lv；aolpolska.pl；aol.at；yahoo.pl
-+++
-
-+++Bigpond
-bigpond.com；bigpond.com.au；bigpond.net；telstra.com；bigpond.net.au
-+++
-
-+++橙色
-voila.com；francetelecom.com；orange.com；orange.fr；wanadoo.fr；voila.fr
-+++
-
-+++軟銀
-c.vodafone.ne.jp；jp-h.ne.jp；k.vodafone.ne.jp；jp-d.ne.jp；jp-c.ne.jp；t.vodafone.ne.jp；h.vodafone.ne.jp；r.vodafone.ne.jp；q.vodafone.ne.jp jp-t.ne.jp jp-q.ne.jp s.vodafone.ne.jp jp-s.ne.jp jp-r.ne.jp jp-k.ne.jp n.vodafone.ne.jp d.vodafone.ne.jp softbank.ne.jp jp-n.ne.jp；；；；；；；；；
-+++
-
-+++杜科莫
-docomo.ne.jp
-+++
-
-+++聯合網際網路
-gmx.de；1and1.com；gmx.fr；mail.com；1und1.de；gmx.com；gmx.net；gmx.at；web.de；gmx.ch
 +++
 
 +++Microsoft
 hotmail.com.tr；live.de；live.ru；live.nl；windowslive.com；live.jp；mts.net；xbox.com；hotmail.fr；hotmail.cl；hotmail.cl；hotmail.com.au；hotmail.com；live.com.my hotmail.co.kr outlook.com.br hotmail.co.il live.co.kr live.co.uk live.com.mx hotmail.co.uk live.com.sg msn.com hotmail.co.jp live.co.za live.com.pt outlook.com live.com live.com.ar hotmail.com.br hotmail.com.ar；live.cl；live.at；live.com.au；hotmail.dk；hotmail.co.th；outlook.ie；live.cn；；hotmail.es；live.no；live.dk；hotmail.it；live.se；live.be；；live.in；hotmail.se；hotmail.ch；hotmail.ch；r；live.it；；hotmail.ca；；live.ca；hotmail.de
 +++
 
-+++KDDI
-au.com；ezweb.ne.jp；uqmobile.jp
-+++
-
-+++義大利線上
-inwind.it；blu.it；virgilio.it；giallo.it；iol.it；libero.it
-+++
-
-+++拉波斯特
-laposte.net
++++Yahoo
+aol.fi；games.com；cs.com；yahoo.com.in；y7mail.com；yahoo.co.uk；yahoo.hu；yahoo.co.hu；yahoo.cn；yahoogroups.com.sg；yahoogroups.com.au；aol.es；yahoo.com.au yahoo.com.vn aol.co.nz yahoo.com.br yahoo.ne.jp ymail.com netscape.com yahoo.com.pe yahoo.co.id citlink.net wmconnect.com yahoo.com.jp yahoo.com.hk aol.com.br yahoo.co.kr yahoo.com.ar ygm.com yahoo.co.nz aol.com goowy.com rocketmail.com frontiernet.net aim.com yahoogroups.co.in netscape.net luckymail.com yahoo.co.jp yahoo.com.kr yahoo.co.za verizon.net aol.com.ve aol.com.ar aol.com.co wild4music.com yahoogroups.com.cn yahoo.com.co wow.com yahoo.com yahooxtra.co.nz yahoo.com.mx yahoo.com.ph sky.com aol.com.mx aol.com.au aolchina.com yahoo.com.net yahoo.com.tw talk21.com compuserve.com yahoo.com.sg yahoogroups.com.tw frontier.com yahoo.co.in yahoo.co.il verizon.net.in yahoo.com.tr yahoogroups.com.hk yahoogroups.co.uk yahoo.com.biz yahoo.com.hr aol.co.uk ybb.ne.jp yahoogroups.co.kr yahoo.com.my rogers.com gte.net yahoogroups.com yahoo.co.th yahoo.com.cn love.com bellatlantic.net yahoo.com.ve yahoo.com.ua；yahoo.ca；aol.hk；；aolpoland.pl；aolnorge.no；；yahoo.fi；；aolcom.tr；yahoo.si；aol.it；aol；it；yahoo.es；yahoo.dk；yahoogroups.ca；；aol.kr；yahoo.ie；aol.jp；；yahoo.lt aol.nl； yahoo.bg；；aol.se；；yahoo.de；；；yahoo.nl；；；；Yahol.se； myaol.jp； myaol.jp yahoo.pt；；yahoogrupper.dk； yahoo.fr；；aol.pl；；aol.ch； yahoo.it；；aolpolcka.pl；；ahogruppi.it；；yahoo.cl；；；yahoo.be；；；aol.tw；；；；；；aol.ru；；；yahoo.lv；aolpolska.pl；aol.at；yahoo.pl
 +++
 
 +++Apple
 mac.com；icloud.com；apple.com；me.com
 +++
 
-### 自訂網域群組標籤 {#custom-domain-group-tab}
++++Comcast
+comcast.net
++++
 
-您也可以包含自訂網域群組，以新增更多欄到計畫中。
++++橙色
+voila.com；francetelecom.com；orange.com；orange.fr；wanadoo.fr；voila.fr
++++
 
-使用&#x200B;**[!UICONTROL 自訂網域群組]**&#x200B;索引標籤來定義新的網域群組。 您可以為每個網域新增其涵蓋的所有子網域。<!--TBC-->
++++拉波斯特
+laposte.net
++++
 
-對於用於上述計畫中的網域群組，請確保每個網域對於其網域群組都是唯一的，並且不會與其他網域群組重疊。 由於全域網域群組是自動定義的，使用者在建立自訂網域群組時應考慮這一點。
++++義大利線上
+inwind.it；blu.it；virgilio.it；giallo.it；iol.it；libero.it
++++
 
-例如，如果您新增自訂網域Luma，您希望加入下列子網域：luma.com、luma.co.uk、luma.it、luma.fr、luma.de等。
++++WP
+wp.pl；o2.pl
++++
 
-![](assets/ip-warmup-sample-file-custom.png)
++++聯合網際網路
+gmx.de；1and1.com；gmx.fr；mail.com；1und1.de；gmx.com；gmx.net；gmx.at；web.de；gmx.ch
++++
+
++++Bigpond
+bigpond.com；bigpond.com.au；bigpond.net；telstra.com；bigpond.net.au
++++
+
++++杜科莫
+docomo.ne.jp
++++
+
++++軟銀
+c.vodafone.ne.jp；jp-h.ne.jp；k.vodafone.ne.jp；jp-d.ne.jp；jp-c.ne.jp；t.vodafone.ne.jp；h.vodafone.ne.jp；r.vodafone.ne.jp；q.vodafone.ne.jp jp-t.ne.jp jp-q.ne.jp s.vodafone.ne.jp jp-s.ne.jp jp-r.ne.jp jp-k.ne.jp n.vodafone.ne.jp d.vodafone.ne.jp softbank.ne.jp jp-n.ne.jp；；；；；；；；；
++++
+
++++KDDI
+au.com；ezweb.ne.jp；uqmobile.jp
++++
 
 ### 範例 {#example}
 
@@ -208,13 +208,13 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將收集到&#x200B
 
 1. 在同一列新增所有Hotmail網域。
 
-   您可以[複製並貼上](#copy-paste) [IP熱身計畫標籤](#ip-warmup-plan-tab)區段中列出的所有Hotmail網域。
+   您可以[複製並貼上](#copy-paste) [OOTB網域群組標籤](#ootb-domain-groups-tab)區段中列出的所有Hotmail網域。
 
 1. 新增另一列。
 
 1. 建立&#x200B;**Microsoft_X**&#x200B;網域群組。
 
-1. 將非Hotmail的所有Microsoft網域新增至相同列。 同樣地，您可以從上述清單複製並貼上它們。 [了解更多](#copy-paste)
+1. 將非Hotmail的所有Microsoft網域新增至相同列。 同樣地，您也可以[從上方清單複製並貼上](#copy-paste)。
 
 1. 返回&#x200B;**[!UICONTROL IP熱身計畫]**&#x200B;標籤。
 
@@ -226,7 +226,7 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將收集到&#x200B
 
 ### 複製並貼上預設網域 {#copy-paste}
 
-舉例來說，如果您想建立包含所有Hotmail網域的自訂網域群組，您可以從上述[提供的預設清單複製並貼上網域](#ip-warmup-plan-tab)。
+舉例來說，如果您想建立包含所有Hotmail網域的自訂網域群組，您可以從[IP熱身計畫範本](assets/IPWarmupPlan-Template.xlsx)的&#x200B;**OOTB網域群組**&#x200B;索引標籤，或從](#ip-warmup-plan-tab)上方提供的[清單複製並貼上網域。
 
 然後使用Excel轉換工具將文字轉換為欄：
 
