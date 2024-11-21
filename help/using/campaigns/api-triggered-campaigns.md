@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## 關於API觸發的行銷活動 {#about}
 
-透過[!DNL Journey Optimizer]，您可以使用[互動式訊息執行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution)，根據使用者觸發從外部系統建立行銷活動，然後叫用它們。 這可讓您涵蓋各種行銷和異動訊息需求，例如密碼重設、OTP權杖等。
+透過[!DNL Journey Optimizer]，您可以使用[互動式訊息執行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution)，根據使用者觸發從外部系統建立行銷活動，然後再執行它們。 這可讓您涵蓋各種行銷和異動訊息需求，例如密碼重設、OTP權杖等。
 
 若要這麼做，您首先需要在Journey Optimizer中建立API觸發的行銷活動，然後透過API呼叫啟動其執行。
 

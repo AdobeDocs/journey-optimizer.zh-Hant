@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: 物件，層級，存取，控制，標籤， olac，授權
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '460'
 ht-degree: 6%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 6%
 >title="存取權管理標籤"
 >abstract="您可以根據存取權標籤來限制此行銷活動的存取權。 若要新增存取限制，請瀏覽至此頁面頂端的&#x200B;**管理存取權**&#x200B;按鈕。 請確定只選取您具有許可權的標籤。"
 
-物件層級存取控制(OLAC)可讓您定義授權，以管理對所選物件的資料存取：
+物件層級存取控制(OLAC)功能可讓您定義授權，以管理對所選物件的資料存取：
 
 * 歷程
 * Campaign
@@ -36,15 +36,13 @@ ht-degree: 6%
 * 管道設定
 * IP熱身計畫
 
-標準化標籤可讓您根據對象的治理和存取控制原則來分類對象。 例如，受眾標籤可用來防止品牌透過網站上的廣告鎖定特定受眾的成員。
-
 其目的是保護敏感數位資產，使其免受未經授權使用者的侵害，進而保護個人資料。
 
 ## 先決條件 {#prereq-labels}
 
 若要能夠[建立標籤](#create-labels)，您必須屬於具有&#x200B;**[!UICONTROL 管理使用標籤]**&#x200B;許可權的角色。
 
-若要能夠[指派標籤](#assign-labels)，您必須是具有&#x200B;**管理**&#x200B;許可權（例如[!DNL Manage journeys]、[!DNL Manage Campaigns]或[!DNL Manage decisions]）之角色的一部分。 若沒有此許可權，**[!UICONTROL 管理存取權]**&#x200B;按鈕將會呈現灰色。
+若要能夠[指派標籤](#assign-labels)，您必須是具有&#x200B;**管理**&#x200B;許可權（例如[!DNL Manage journeys]、[!DNL Manage Campaigns]或[!DNL Manage decisions]）之角色的一部分。 若沒有此許可權，**[!UICONTROL 管理存取權]**&#x200B;按鈕會變成灰色。
 
 若要了解權限的詳細資訊，請參閱[本章節](../administration/permissions.md)。
 

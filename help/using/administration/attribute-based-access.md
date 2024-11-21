@@ -9,16 +9,16 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac，屬性，授權，資料，存取，敏感，資產
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
 
 # 屬性型存取控制 {#attribute-based-access}
 
-以屬性為基礎的存取控制(ABAC)可讓您定義授權，以管理特定團隊或使用者群組的資料存取。 其目的是保護敏感數位資產，使其免受未經授權使用者的侵害，進而保護個人資料。
+以屬性為基礎的存取控制(ABAC)功能可讓您定義授權，以管理特定團隊或使用者群組的資料存取。 其目的是保護敏感數位資產，使其免受未經授權使用者的侵害，進而保護個人資料。
 
 在Adobe Journey Optimizer中，ABAC可讓您保護資料，並授與特定欄位元素的特定存取權，包括體驗資料模型(XDM)結構描述、設定檔屬性和對象。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->在管理角色的許可權之前，您必須先建立原則。 如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=zh-Hant)。
+>在管理角色的許可權之前，您必須先建立原則。 如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html)。
 
 **[!UICONTROL 角色]**&#x200B;是一組使用者，在您的組織內共用相同的許可權、標籤和沙箱。 屬於&#x200B;**[!UICONTROL Role]**的每個使用者都有權使用產品中包含的Adobe應用程式和服務。
 如果您想要微調使用者對介面中特定功能或物件的存取許可權，也可以建立您自己的**[!UICONTROL 角色]**。

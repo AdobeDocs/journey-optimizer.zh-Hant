@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 19%
+source-wordcount: '1204'
+ht-degree: 18%
 
 ---
 
@@ -34,29 +34,40 @@ ht-degree: 19%
 >title="行銷活動類型"
 >abstract="**排程的行銷活動**&#x200B;會立即執行或在指定的日期執行，其目的在傳送行銷類型訊息。**API 觸發的**&#x200B;行銷活動是使用 API 呼叫執行的。這些目的是傳送行銷訊息 (需要使用者同意的促銷訊息) 或交易型訊息 (非商業訊息，也可以在特定情況下傳送到未訂閱的輪廓)。"
 
-1. 選取您要執行的行銷活動型別
+建立新行銷活動時，必須先選取行銷活動的型別。 可用的行銷活動型別有三種：
 
-   * **[!UICONTROL 已排程 — 行銷]**：立即或在指定日期執行行銷活動。 已排程的行銷活動旨在傳送&#x200B;**行銷**&#x200B;訊息。 可從使用者介面設定及執行。
+1. **[!UICONTROL 已排程 — 行銷]** — 這些行銷活動會立即執行或在指定日期執行。 已排程的行銷活動旨在傳送&#x200B;**行銷**&#x200B;訊息，或建立傳入動作。 可從使用者介面設定及執行。
 
-   * **[!UICONTROL API觸發 — 行銷/異動]**：使用API呼叫執行行銷活動。 API觸發的行銷活動旨在傳送&#x200B;**行銷**&#x200B;或&#x200B;**異動**&#x200B;訊息，即在個人執行動作後傳送的訊息：密碼重設、購物車購買等。 [瞭解如何使用API觸發行銷活動](api-triggered-campaigns.md)
+1. **[!UICONTROL API觸發 — 行銷]** — 這些行銷活動會使用API呼叫執行。 選取此型別的行銷活動，將個人化行銷通訊傳送至目標對象。  [瞭解如何使用API觸發行銷活動](api-triggered-campaigns.md)
+
+1. **[!UICONTROL API觸發 — 異動]** — 與API觸發的行銷活動相同，這些行銷活動是使用API呼叫執行。 API觸發的交易式行銷活動旨在傳送&#x200B;**交易式**&#x200B;訊息，也就是在個人執行動作後傳送的訊息：密碼重設要求、購物車購買等。  [瞭解如何使用API觸發行銷活動](api-triggered-campaigns.md)
 
    ![](assets/create-campaign-modal.png)
 
-1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以建立行銷活動。
-
 ## 定義行銷活動屬性 {#create}
+
+行銷活動建立後，您必須定義其屬性。 請遵循以下步驟：
 
 1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中，輸入行銷活動的名稱和說明。
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../content-management/content-experiment.md).-->
 
-1. 使用&#x200B;**標籤**&#x200B;欄位將Adobe Experience Platform統一標籤指派給您的行銷活動。 這可讓您輕鬆分類，並改進行銷活動清單的搜尋。 [瞭解如何使用標籤](../start/search-filter-categorize.md#tags)。
+1. （選用）使用&#x200B;**標籤**&#x200B;欄位將Adobe Experience Platform統一標籤指派給您的行銷活動。 這可讓您輕鬆分類，並改進行銷活動清單的搜尋。 [瞭解如何使用標籤](../start/search-filter-categorize.md#tags)。
 
-1. 您可以根據存取權標籤來限制此行銷活動的存取權。 若要新增存取限制，請瀏覽至此頁面頂端的&#x200B;**[!UICONTROL 管理存取權]**&#x200B;按鈕。 請確定只選取您具有許可權的標籤。 [進一步瞭解物件層級存取控制](../administration/object-based-access.md)。
+1. （選用）您可以根據存取標籤來限制此行銷活動的存取權。 若要新增存取限制，請瀏覽至此頁面頂端的&#x200B;**[!UICONTROL 管理存取權]**&#x200B;按鈕。 請確定只選取您具有許可權的標籤。 [進一步瞭解物件層級存取控制](../administration/object-based-access.md)。
 
 ## 定義行銷活動對象 {#audience}
 
-受眾是指一組具有類似行為和/或特徵的人。 若要定義行銷活動定位的母體，請執行下列步驟：
+現在您可以選取行銷活動的閱聽眾。 受眾是指一組具有類似行為和/或特徵的人。
+
+>[!IMPORTANT]
+>
+>* [對象構成](../audience/get-started-audience-orchestration.md)的對象和屬性目前無法用於Healthcare Shield或Privacy and Security Shield。
+>
+>* 針對API觸發的行銷活動，必須透過API呼叫設定對象。
+
+
+若要定義排程行銷活動定位的母體，請遵循下列步驟：
 
 1. 在&#x200B;**對象**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕以顯示可用Adobe Experience Platform對象清單。 在[本節](../audience/about-audiences.md)中進一步瞭解對象。
 
@@ -70,18 +81,15 @@ ht-degree: 19%
 
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
->[!IMPORTANT]
->
->* [對象構成](../audience/get-started-audience-orchestration.md)的對象和屬性目前無法用於Healthcare Shield或Privacy and Security Shield。
->
->* 針對API觸發的行銷活動，必須透過API呼叫設定對象。
 
 
 ## 建立訊息並設定追蹤 {#content}
 
-1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，選取頻道。
+您現在可以定義訊息的內容。 請遵循以下步驟：
 
-   可用管道的清單取決於您的授權模式。 針對API觸發的交易式行銷活動，只有電子郵件、簡訊和推播通知通道可用。
+1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，選取通訊通道。
+
+   可用管道的清單取決於您的授權模式及附加元件。 針對API觸發的行銷活動，只有電子郵件、簡訊和推播通知通道可用。
 
 1. 選取通道設定。
 
@@ -132,11 +140,11 @@ ht-degree: 19%
 
    ![](assets/create-campaign-design.png)
 
-1. 在&#x200B;**[!UICONTROL 內容實驗]**&#x200B;區段中，您可以使用&#x200B;**[!UICONTROL 建立實驗]**&#x200B;按鈕來測試哪些內容效果更好。 在[本節](../content-management/content-experiment.md)中詳細說明內容實驗功能。
+1. （選擇性）在&#x200B;**[!UICONTROL 內容實驗]**&#x200B;區段中，您可以使用&#x200B;**[!UICONTROL 建立實驗]**&#x200B;按鈕來測試哪些內容效果更好。 在[本節](../content-management/content-experiment.md)中詳細說明內容實驗功能。
 
 1. 在&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段中，指定是否要追蹤收件者對傳遞的反應：您可以追蹤點按和/或開啟。
 
-   一旦執行行銷活動，即可從行銷活動報表存取追蹤結果。 [進一步瞭解行銷活動報告](../reports/campaign-global-report-cja.md)
+   執行行銷活動後，即可從行銷活動報表存取追蹤結果。 [進一步瞭解行銷活動報告](../reports/campaign-global-report-cja.md)
 
 ## 排程行銷活動 {#schedule}
 
@@ -160,12 +168,23 @@ ht-degree: 19%
 >title="行銷活動動作觸發程序"
 >abstract="定義應傳送行銷活動訊息的頻率。"
 
-根據預設，行銷活動在手動啟動後開始，並在傳送一次訊息後立即結束。
+根據預設，排程的行銷活動在手動啟動後開始，並在傳送一次訊息後立即結束。
 
-您可以定義行銷活動訊息的傳送頻率。 若要這麼做，請使用行銷活動建立畫面中的&#x200B;**[!UICONTROL 動作觸發器]**&#x200B;選項，指定行銷活動應該每日、每週或每月執行。
-
-如果您不想在行銷活動啟動後立即執行，可以使用&#x200B;**[!UICONTROL 行銷活動開始]**&#x200B;選項指定傳送訊息的日期和時間。 **[!UICONTROL 行銷活動結束]**&#x200B;選項可讓您指定循環行銷活動何時應停止執行。
+如果您不想在行銷活動啟動後立即執行，可以使用&#x200B;**[!UICONTROL 行銷活動開始]**&#x200B;選項指定傳送訊息的日期和時間。 **[!UICONTROL 行銷活動end]**&#x200B;選項可讓您指定行銷活動何時應停止執行。
 
 ![](assets/create-campaign-schedule.png)
 
-行銷活動準備就緒後，您就可以檢閱並啟用它。 [了解更多](review-activate-campaign.md)
+對於電子郵件、簡訊和推播通知行銷活動，您可以定義行銷活動訊息的傳送頻率。 若要這麼做，請使用行銷活動建立畫面中的&#x200B;**[!UICONTROL 動作觸發器]**&#x200B;選項，指定行銷活動應該每日、每週或每月執行。
+
+## 其他設定 {#settings}
+
+某些設定專用於為行銷活動選取的通訊頻道，或用於特定使用案例。 其詳情如下。
+
+* 對於電子郵件，您可以建立特定的IP熱身計畫啟用行銷活動。 請參閱[此章節](../configuration/ip-warmup-campaign.md)深入瞭解。
+* 對於網頁、應用程式內和程式碼型頻道，您可以為行銷活動指派優先順序分數。 請參閱[此章節](../conflict-prioritization/priority-scores.md)深入瞭解。
+* 對於內容卡行銷活動，您可以啟用其他傳送規則，以選擇觸發訊息的事件和條件。 請參閱[此章節](../content-card/create-content-card.md)深入瞭解。
+* 針對應用程式內訊息，您可以使用&#x200B;**[!UICONTROL 編輯觸發器]**&#x200B;按鈕，選擇觸發訊息的事件和條件。 請參閱[此章節](../in-app/create-in-app.md)深入瞭解。
+
+## 後續步驟 {#next}
+
+行銷活動設定和內容準備就緒後，您就可以檢閱並啟用它。 [了解更多](review-activate-campaign.md)
