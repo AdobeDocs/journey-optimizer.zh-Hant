@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '576'
+ht-degree: 82%
 
 ---
 
@@ -52,12 +52,13 @@ ht-degree: 100%
 >title="標記"
 >abstract="您可以利用此欄位為您的行銷活動指派 Adobe Experience Platform 統一標籤。這可讓您輕鬆分類，並改進行銷活動清單的搜尋。 "
 
-利用 Adobe Experience Platform [統一標籤](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=zh-Hant)，您可以輕鬆分類 Journey Optimizer 歷程與行銷活動，進而改進清單的搜尋。
+使用Adobe Experience Platform [整合式標籤](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=zh-Hant)，您可以輕鬆將Journey Optimizer物件分類，以改善清單中的搜尋。
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
 
+在Journey Optimizer中新增有意義的標籤至對象，可讓您稍後篩選及搜尋對象，以更輕鬆找到對象。 標籤另外還可用於在相關、可搜尋的資料夾中組織對象、建立個人化選件和體驗，以及用在體驗決定規則中。
 
-### 新增標籤至物件
+### 新增標籤至物件 {#add-tags}
 
 **[!UICONTROL 標籤]**&#x200B;欄位可讓您定義物件的標籤。標籤可用於下列物件：
 
@@ -79,7 +80,7 @@ ht-degree: 100%
    >
    > 標籤不區分大小寫。
 
-1. 如果您要搜尋的標籤無法使用，請按一下&#x200B;**[!UICONTROL 建立「」]**&#x200B;定義新物件 — 它會自動加入目前的物件中，並可供所有其他物件使用。
+1. 如果您要搜尋的標籤無法使用，請按一下&#x200B;**[!UICONTROL 建立「]**」以定義新標籤 — 此標籤會自動新增至目前的物件，並可供所有其他物件使用。
 
    ![](assets/tags4.png)
 
@@ -89,7 +90,7 @@ ht-degree: 100%
 > 
 > 如果您複製或建立新版本標籤，則會保留標籤。
 
-### 依標籤篩選
+### 依標籤篩選 {#filter-on-tags}
 
 每個物件清單都會顯示專屬欄，讓您輕鬆地將標籤視覺化。
 
@@ -101,7 +102,7 @@ ht-degree: 100%
 
 ![](assets/tags3.png)
 
-### 管理標籤
+### 管理標籤 {#manage-tags}
 
 管理員可利用&#x200B;**[!UICONTROL 管理]**&#x200B;下方的&#x200B;**[!UICONTROL 標籤]**&#x200B;選單來刪除標籤，並依類別進行管理。請參閱[統一標籤文件](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=zh-Hant)，深入了解標籤管理。
 

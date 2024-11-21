@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，單一，建立，歷程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: ca80a7bc1fbf819d27db2d9518832c9345cdaa18
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 12%
+source-wordcount: '1638'
+ht-degree: 10%
 
 ---
 
@@ -73,9 +73,9 @@ ht-degree: 12%
    >
    >如果您在建立事件後，使用新的列舉值修改綱要，則需要按照以下步驟將變更套用至現有事件：從事件欄位中取消選取列舉欄位，確認選擇，然後再次選取列舉欄位。 現在會顯示新的分項清單。
 
-1. 新增命名空間。此步驟為選填，但建議您新增命名空間，以便運用儲存在「即時客戶輪廓服務」的資訊。它會定義事件具備的金鑰類型。請參閱[本節](../event/about-creating.md#select-the-namespace)。
+1. 新增身分型別。 此步驟為選填，但建議您新增身分型別，以便運用儲存在「即時客戶個人檔案服務」的資訊。 它會定義事件具備的金鑰類型。請參閱[此章節](../event/about-creating.md#select-the-namespace)深入瞭解。
 
-1. 定義設定檔識別碼：從您的裝載欄位選擇一個欄位，或定義一個公式以識別與事件相關聯的人員。 如果您選取命名空間，系統便會自動設定此金鑰（但您仍可加以編輯）。事實上，歷程會挑選應該與名稱空間對應的金鑰（例如，如果您選取電子郵件名稱空間，系統便會選取電子郵件金鑰）。 請參閱[本節](../event/about-creating.md#define-the-event-key)。
+1. 定義設定檔識別碼：從您的裝載欄位選擇一個欄位，或定義一個公式以識別與事件相關聯的人員。 如果您選取身分型別，此金鑰會自動設定（但仍可編輯）。 事實上，歷程會挑選應該與身分型別對應的金鑰（例如，如果您選取電子郵件身分型別，則會選取電子郵件金鑰）。 請參閱[此章節](../event/about-creating.md#define-the-event-key)深入瞭解。
 
    ![](assets/jo-event7.png)
 
@@ -111,32 +111,32 @@ ht-degree: 12%
 
    ![](assets/journey12.png)
 
-## 選取命名空間 {#select-the-namespace}
+## 選取身分型別 {#select-the-namespace}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"
->title="身分識別命名空間"
+>title="身分類型"
 >abstract="選取索引鍵以識別和事件相關聯的客戶輪廓。"
 
-名稱空間可讓您定義用來識別與事件相關聯之人員的金鑰型別。 其設定是選用的。 如果您想要在歷程中擷取來自[即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}的其他資訊，則需要此專案。 如果您僅使用來自協力廠商系統的資料，透過自訂資料來源，則不需要名稱空間定義。
+身分型別（先前稱為「名稱空間」）可讓您定義用來識別與事件相關聯之人員的金鑰型別。 其設定是選用的。 如果您想要在歷程中擷取來自[即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}的其他資訊，則需要此專案。 如果您僅使用來自協力廠商系統的資料，透過自訂資料來源，則不需要身分型別定義。
 
-您可以使用其中一個預先定義的名稱空間，或使用「身分名稱空間」服務建立新的名稱空間。 請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target="_blank"}。
+您可以使用現有的身分型別，或使用Adobe Experience Platform Identity Service建立新的身分型別。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
 
-如果您選取具有主要身分的結構描述，則會預先填入&#x200B;**[!UICONTROL 效能評測器識別碼]**&#x200B;和&#x200B;**[!UICONTROL 名稱空間]**&#x200B;欄位。 如果未定義任何身分，我們選取&#x200B;_identityMap > id_&#x200B;作為主索引鍵。 接著您必須選取名稱空間，而且會使用&#x200B;_identityMap > id_&#x200B;預先填入金鑰（**[!UICONTROL 名稱空間]**&#x200B;欄位下方）。
+如果您選取具有主要身分的結構描述，則會預先填入&#x200B;**[!UICONTROL 效能評測器識別碼]**&#x200B;和&#x200B;**[!UICONTROL 身分型別]**&#x200B;欄位。 如果未定義任何身分，我們選取&#x200B;_identityMap > id_&#x200B;作為主索引鍵。 然後您必須選取身分型別，而且會使用&#x200B;_identityMap > id_&#x200B;預先填入金鑰（**[!UICONTROL 身分型別]**&#x200B;欄位下方）。
 
 選取欄位時，會標籤主要身分欄位。
 
 ![](assets/primary-identity.png)
 
-從下拉式清單中選取名稱空間。
+從下拉式清單中選取身分型別。
 
 ![](assets/journey17.png)
 
-每個歷程只允許一個名稱空間。 如果您在同一個歷程中使用數個事件，則需要使用相同的名稱空間。 請參閱[此頁面](../building-journeys/journey.md)。
+每個歷程只允許一個身分型別。 如果您在同一個歷程中使用數個事件，則需要使用相同的身分型別。 請參閱[此頁面](../building-journeys/journey.md)。
 
 >[!NOTE]
 >
->您只能選取以人物為基礎的身分名稱空間。 如果您已定義查閱表格的名稱空間（例如：產品查閱的ProductID名稱空間），它將無法在&#x200B;**名稱空間**&#x200B;下拉式清單中使用。
+>您只能選取以人物為基礎的身分型別。 如果您已定義查閱表格的身分型別（例如：產品查閱的ProductID身分型別），將無法在&#x200B;**身分型別**&#x200B;下拉式清單中找到它。
 
 ## 定義設定檔識別碼 {#define-the-event-key}
 
@@ -144,7 +144,7 @@ ht-degree: 12%
 
 若要使用Adobe即時客戶設定檔資料庫中儲存的資料，事件索引鍵必須是您在[即時客戶設定檔服務](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}中定義為設定檔身分的資訊。
 
-設定檔識別碼可讓系統在事件和個人設定檔之間執行調解。 如果您選取具有主要身分的結構描述，則會預先填入&#x200B;**[!UICONTROL 設定檔識別碼]**&#x200B;和&#x200B;**[!UICONTROL 名稱空間]**&#x200B;欄位。 如果未定義任何身分，則&#x200B;_identityMap > id_&#x200B;是主索引鍵。 然後您必須選取名稱空間，而且金鑰會使用&#x200B;_identityMap > id_&#x200B;自動預先填入。
+設定檔識別碼可讓系統在事件和個人設定檔之間執行調解。 如果您選取具有主要身分的結構描述，則會預先填入&#x200B;**[!UICONTROL 設定檔識別碼]**&#x200B;和&#x200B;**[!UICONTROL 身分型別]**&#x200B;欄位。 如果未定義任何身分，則&#x200B;_identityMap > id_&#x200B;是主索引鍵。 然後您必須選取身分型別，而且金鑰會使用&#x200B;_identityMap > id_&#x200B;自動預先填入。
 
 選取欄位時，會標籤主要身分欄位。
 
@@ -158,7 +158,7 @@ ht-degree: 12%
 
 1. 選取在裝載欄位清單中選為索引鍵的欄位。
 
-收到事件時，機碼的值可讓系統識別與事件相關聯的人員。 索引鍵與名稱空間相關聯（請參閱[此章節](../event/about-creating.md#select-the-namespace)），可用來在Adobe Experience Platform上執行查詢。 請參閱[此頁面](../building-journeys/about-journey-activities.md#orchestration-activities)。
+收到事件時，機碼的值可讓系統識別與事件相關聯的人員。 金鑰與[身分型別](../event/about-creating.md#select-the-namespace)相關聯，可用來在Adobe Experience Platform上執行查詢。 請參閱[此頁面](../building-journeys/about-journey-activities.md#orchestration-activities)。
 金鑰也可用來檢查個人是否在歷程中。 事實上，一個人在同一歷程中不能位於兩個不同的位置。 因此，系統不允許相同的金鑰（例如金鑰CRMID=3224）位於相同歷程中的不同位置。
 
 ## 進階運算式編輯器 {#adv-exp-editor}
