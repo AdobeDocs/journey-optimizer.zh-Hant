@@ -9,23 +9,18 @@ role: User
 level: Beginner
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: d39d46ad5376bb8418331f788e4287e21e4322a4
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 18%
+source-wordcount: '1221'
+ht-degree: 17%
 
 ---
 
 # 建立行銷活動 {#create-campaign}
 
-若要建立新的行銷活動，請存取&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立行銷活動]**。 您也可以複製現有的即時行銷活動，以建立新的行銷活動。 [了解更多](modify-stop-campaign.md#duplicate)
+若要建立新的行銷活動，請瀏覽至左側邊欄上的&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立行銷活動]**。 您也可以複製現有的即時行銷活動，以建立新的行銷活動。 [瞭解如何進行](modify-stop-campaign.md#duplicate)。
 
->[!NOTE]
->
->建立新行銷活動之前，請確定您有通道設定（即訊息表面）和Adobe Experience Platform受眾，且隨時可使用。 請在以下章節瞭解更多資訊：
->
->* [建立頻道設定](../configuration/channel-surfaces.md)
->* [開始使用對象](../audience/about-audiences.md)
+開始之前，請先閱讀[此頁面](get-started-with-campaigns.md#before-starting-campaign-prerequisites)中的行銷活動先決條件。
 
 ## 選取行銷活動型別 {#campaigntype}
 
@@ -82,10 +77,9 @@ ht-degree: 18%
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 
+## 選取頻道 {#channel}
 
-## 建立訊息並設定追蹤 {#content}
-
-您現在可以定義訊息的內容。 請遵循以下步驟：
+您現在可以選取通道及其設定。 請遵循以下步驟：
 
 1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，選取通訊通道。
 
@@ -103,42 +97,40 @@ ht-degree: 18%
    >
    >如果您正在建立推播通知行銷活動，可以啟用&#x200B;**[!UICONTROL 快速傳送模式]**，這是Journey Optimizer的附加元件，允許以大量快速推播訊息傳送。 [了解更多](../push/create-push.md#rapid-delivery)
 
-1. 按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，以建立並設計您的訊息。 在以下頁面瞭解建立訊息內容的詳細步驟：
+## 編輯內容 {#content}
 
-   <table style="table-layout:fixed">
-    <tr style="border: 0;">
-    <td>
-    <a href="../email/create-email.md">
-    <img alt="銷售機會" src="../assets/do-not-localize/email.jpg">
-    </a>
-    <div><a href="../email/create-email.md"><strong>建立電子郵件</strong>
-    </div>
-    <p>
-    </td>
-    <td>
-    <a href="../push/create-push.md">
-      <img alt="不頻繁" src="../assets/do-not-localize/push.jpg">
-    </a>
-    <div>
-    <a href="../push/create-push.md"><strong>建立推播通知</strong></a>
-    </div>
-    <p>
-    </td>
-    <td>
-    <a href="../sms/create-sms.md">
-      <img alt="驗證" src="../assets/do-not-localize/sms.jpg">
-    </a>
-    <div>
-    <a href="../sms/create-sms.md"><strong>建立簡訊</strong></a>
-    </div>
-    <p>
-    </td>
-    </tr>
-    </table>
+您現在可以從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕定義訊息的內容。 內容建立程式取決於您選取的管道。
 
-   定義內容後，請使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以測試設定檔預覽及測試您的內容。 [進一步瞭解](../content-management/preview-test.md)。若要瀏覽回到行銷活動建立畫面，請按一下向左箭頭。
+在以下頁面瞭解建立訊息內容的詳細步驟：
 
-   ![](assets/create-campaign-design.png)
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../email/create-email.md"><img alt="電子郵件" src="../channels/assets/do-not-localize/email.png"></a>
+<div align="center"><a href="../email/create-email.md"><strong>電子郵件</strong></a></div></td>
+<td><a href="../sms/create-sms.md"><img alt="簡訊" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><a href="../sms/create-sms.md"><strong>簡訊</strong></a></div></td>
+<td><a href="../push/create-push.md"><img alt="推播" src="../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><a href="../push/create-push.md"><strong>推播通知</strong></a></div></td>
+<td><a href="../direct-mail/create-direct-mail.md"><img alt="直接郵件" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
+<div align="center"><a href="../direct-mail/create-direct-mail.md"><strong>直接郵件</strong></a></div></td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../in-app/create-in-app.md"><img alt="應用程式內" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+<div align="center"><a href="../in-app/create-in-app.md"><strong>應用程式內</strong></a></div></td>
+<td><a href="../web/create-web.md"><img alt="網頁" src="../channels/assets/do-not-localize/web.jpg"></a>
+<div align="center"><a href="../web/create-web.md"><strong>網路</strong></a></div></td>
+<td><a href="../code-based/create-code-based.md"><img alt="程式碼型體驗" src="../channels/assets/do-not-localize/code.png"></a>
+<div align="center"><a href="../code-based/create-code-based.md"><strong>程式碼型體驗</strong></a></div></td>
+<td><a href="../content-card/create-content-card.md"><img alt="內容卡片" src="../channels/assets/do-not-localize/cards.png"></a>
+<div align="center"><a href="../content-card/create-content-card.md"><strong>內容卡</strong></a></div></td>
+</tr></table>
+
+定義內容後，請使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以測試設定檔預覽及測試您的內容。 [進一步瞭解](../content-management/preview-test.md)。若要瀏覽回到行銷活動建立畫面，請按一下向左箭頭。
+
+![](assets/create-campaign-design.png)
+
+除了訊息內容本身之外，您還可以進行下列設定：
 
 1. （選擇性）在&#x200B;**[!UICONTROL 內容實驗]**&#x200B;區段中，您可以使用&#x200B;**[!UICONTROL 建立實驗]**&#x200B;按鈕來測試哪些內容效果更好。 在[本節](../content-management/content-experiment.md)中詳細說明內容實驗功能。
 
