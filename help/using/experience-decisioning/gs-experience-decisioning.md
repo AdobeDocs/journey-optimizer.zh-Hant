@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
+source-git-commit: 6b0735f619379e01e87012ba4300c0ec41334fd4
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 17%
+source-wordcount: '609'
+ht-degree: 15%
 
 ---
 
@@ -69,14 +69,28 @@ Decisioning 會透過提供集中行銷優惠目錄，又稱為「決策項目�
 
 1. **設定自訂屬性**：將自訂屬性設定到目錄的結構描述中，根據您的特定需求量身打造專案目錄。
 
+   ➡️[瞭解如何設定專案目錄](catalogs.md)
+
 1. **建立決策專案**&#x200B;以向您的目標對象顯示。
+
+   ➡️[瞭解如何建立決定專案](items.md) （[API檔案](api-reference/decisions-items/create.md)）
 
 1. **使用集合組織**：使用集合根據屬性型規則將決定專案分類。 將集合併入您的選擇策略，以決定應考慮的決定專案集合。
 
+   ➡️[瞭解如何管理專案集合](collections.md) （[API檔案](api-reference/items-collections/create.md)）
+
 1. **建立決定規則**：決定專案和/或選擇策略中會使用決定規則來決定決定可以向誰顯示決定專案。
+
+   ➡️[瞭解如何建立決定規則](rules.md)
 
 1. **實作排名方法**：建立排名方法，並在決定策略中套用這些方法，以決定選取決定專案的優先順序。
 
+   ➡️[瞭解如何建立排名方法](ranking.md)
+
 1. **建立選擇策略**：建置使用集合、決定規則和排名方法的選擇策略，以識別適合顯示給設定檔的決定專案。
 
-1. **將決定原則內嵌至您的程式碼型行銷活動**：決定原則會結合多個選取原則，以決定要顯示給目標對象的合格決定專案。
+   ➡️[瞭解如何建立選擇策略](selection-strategies.md) （[API檔案](api-reference/selection-strategies/create.md)）
+
+1. **建立決定原則並將其內嵌至您的程式碼型行銷活動**：決定原則會結合多個選取策略，以決定要顯示給目標對象的合格決定專案。
+
+   ➡️[瞭解如何使用決定原則](create-decision.md)
