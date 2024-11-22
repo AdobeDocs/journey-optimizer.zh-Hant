@@ -5,17 +5,15 @@ title: 開始使用 [!DNL Adobe Journey Optimizer]中的通訊通道
 description: 瞭解如何使用 [!DNL Adobe Journey Optimizer] 通訊通道。
 role: User
 level: Beginner
-source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
+exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
+source-git-commit: ac71350cd344845582e09fa039fb796e9408b048
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '410'
 ht-degree: 2%
 
 ---
 
-
 # 開始使用[!DNL Adobe Journey Optimizer]個通訊通道 {#get-started-email}
-
-## [!DNL Adobe Journey Optimizer]個管道 {#overview}
 
 在現今多變的行銷格局中，透過各種平台有效觸及對象是建立持續人際關係及促進參與的關鍵。 本節提供[!DNL Adobe Journey Optimizer]中可用通訊管道的完整概觀，協助您瞭解如何在行銷策略中有效利用每個管道。
 
