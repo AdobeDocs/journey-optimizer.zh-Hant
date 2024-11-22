@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 16%
+source-wordcount: '274'
+ht-degree: 13%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 16%
 >abstract="使用測試輪廓預覽和測試您的內容。 如果您新增了個人化欄位，可以使用測試輪廓資料檢查它們的顯示方式。"
 
 預覽或測試內容之前，您必須先選取測試設定檔，這些是不符合已定義定位准則的其他收件者。 [瞭解如何建立測試設定檔](../audience/creating-test-profiles.md)
+
+>[!NOTE]
+>
+>除了測試設定檔之外，[!DNL Journey optimizer]也可讓您使用從CSV / JSON檔案上傳或手動新增的範例輸入資料，透過預覽和傳送校樣來測試內容的不同變體。 [瞭解如何使用範例輸入資料測試您的內容](../test-approve/simulate-sample-input.md)
 
 若要選取測試設定檔，請遵循下列步驟：
 

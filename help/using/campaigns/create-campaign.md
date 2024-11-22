@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: becd2d8bdb93abbe21a24c3767179b4e90c01523
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1235'
 ht-degree: 17%
 
 ---
@@ -126,7 +126,7 @@ ht-degree: 17%
 <div align="center"><a href="../content-card/create-content-card.md"><strong>內容卡</strong></a></div></td>
 </tr></table>
 
-定義內容後，請使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以測試設定檔預覽及測試您的內容。 [進一步瞭解](../content-management/preview-test.md)。若要瀏覽回到行銷活動建立畫面，請按一下向左箭頭。
+定義內容後，請使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以測試設定檔或從CSV / JSON檔案上傳的範例輸入資料來預覽和測試您的內容，或手動新增。 [進一步瞭解](../content-management/preview-test.md)。若要瀏覽回到行銷活動建立畫面，請按一下向左箭頭。
 
 ![](assets/create-campaign-design.png)
 

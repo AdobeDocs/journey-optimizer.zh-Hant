@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 建立測試設定檔
+title: 建立測試輪廓
 description: 瞭解如何建立測試設定檔
 feature: Test Profiles, Profiles
 topic: Content Management
@@ -9,16 +9,20 @@ role: User, Data Engineer
 level: Intermediate
 keywords: 測試設定檔，測試，測試，歷程
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 3%
+source-wordcount: '1367'
+ht-degree: 2%
 
 ---
 
-# 建立測試設定檔 {#create-test-profiles}
+# 建立測試輪廓 {#create-test-profiles}
 
 在歷程中使用[測試模式](../building-journeys/testing-the-journey.md)時需要測試設定檔，以及[預覽和測試您的內容](../content-management/preview-test.md)。
+
+>[!NOTE]
+>
+>[!DNL Journey optimizer]也可讓您使用從CSV / JSON檔案上傳或手動新增的範例輸入資料，預覽和傳送校樣，以測試內容的不同變體。 [瞭解如何使用範例輸入資料測試您的內容](../test-approve/simulate-sample-input.md)
 
 建立測試設定檔有數種方式。 您可以在此頁面中找到下列詳細資訊：
 

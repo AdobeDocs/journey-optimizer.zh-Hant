@@ -5,18 +5,22 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 5%
+source-wordcount: '282'
+ht-degree: 17%
 
 ---
 
 # 傳送電子郵件校樣 {#send-proofs}
 
-校樣是一種特定訊息，可讓您在將訊息傳送給主要對象之前先測試訊息。 校樣的收件者負責核准訊息：轉譯、內容、個人化設定、設定。
+校樣是一種特定訊息，可讓您在將訊息傳送至主要客群之前先測試訊息。校樣的收件者負責核准訊息：轉譯、內容、個人化設定、設定。
 
-選取[測試設定檔](test-profiles.md)後，您就可以傳送校樣。
+>[!NOTE]
+>
+>[!DNL Journey optimizer]也可讓您使用從CSV / JSON檔案上傳或手動新增的範例輸入資料，預覽和傳送校樣，以測試內容的不同變體。 [瞭解如何使用範例輸入資料測試您的內容](../test-approve/simulate-sample-input.md)
+
+若要在選取[測試設定檔](test-profiles.md)之後傳送電子郵件校樣，請遵循下列步驟：
 
 1. 在&#x200B;**[!UICONTROL 模擬]**&#x200B;畫面中，按一下&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;按鈕。
 

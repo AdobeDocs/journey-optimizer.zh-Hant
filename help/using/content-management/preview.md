@@ -5,18 +5,24 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 6%
+source-wordcount: '261'
+ht-degree: 3%
 
 ---
 
-# 檢查您的內容 {#preview}
+# 使用測試設定檔預覽您的內容 {#preview}
 
 <!--## Preview your content {#preview-content}-->
 
-定義[測試設定檔](test-profiles.md)後，您就可以預覽內容。 請遵循以下步驟：
+定義[測試設定檔](test-profiles.md)後，您就可以預覽內容。
+
+>[!NOTE]
+>
+>[!DNL Journey optimizer]也可讓您使用從CSV / JSON檔案上傳或手動新增的範例輸入資料，預覽和傳送校樣，以測試內容的不同變體。 [瞭解如何使用範例輸入資料測試您的內容](../test-approve/simulate-sample-input.md)
+
+若要使用測試設定檔預覽您的內容，請執行下列步驟：
 
 1. 從訊息的編輯內容畫面或電子郵件Designer中，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕。
 

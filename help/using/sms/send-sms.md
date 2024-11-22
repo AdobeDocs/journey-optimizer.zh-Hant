@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '299'
 ht-degree: 3%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 3%
 
 ## 預覽您的文字訊息 {#preview-sms}
 
-定義訊息內容後，您就可以使用測試設定檔來預覽其內容。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
+定義訊息內容後，您可以使用測試設定檔，或從CSV / JSON檔案上傳的範例輸入資料，或手動新增以預覽其內容。 如果您已插入個人化內容，您可以檢查此內容在訊息中的顯示方式。 [瞭解如何使用範例輸入資料測試您的內容](../test-approve/simulate-sample-input.md)
 
-若要這麼做，請按一下&#x200B;**[!UICONTROL 模擬內容]**，然後新增測試設定檔，以使用測試設定檔資料檢查您的訊息。
+若要這麼做，請按一下&#x200B;**[!UICONTROL 模擬內容]**，然後使用測試設定檔資料檢查您的訊息。
 
 ![](assets/sms_preview_2.png)
 
-有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱[內容管理](../content-management/preview-test.md)區段。
+有關如何預覽及測試內容的詳細資訊，請參閱[內容管理](../content-management/preview-test.md)區段。
 
 ## 驗證您的內容 {#sms-validate}
 

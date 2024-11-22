@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 10%
+source-wordcount: '801'
+ht-degree: 9%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 10%
 
 1. 在歷程設定畫面中，按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕以設定推播內容。 [設計推播通知](design-push.md)
 
-1. 定義訊息內容後，您就可以使用測試設定檔來預覽其內容。
+1. 定義訊息內容後，您可以使用測試設定檔，或從CSV / JSON檔案上傳的範例輸入資料，或手動新增以預覽其內容。
 
 1. 當您的推播就緒時，請完成[歷程](../building-journeys/journey-gs.md)的設定以傳送。
 
@@ -87,7 +87,7 @@ ht-degree: 10%
 
 1. 在行銷活動設定畫面中，按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕以設定推播內容。 [設計推播通知](design-push.md)
 
-1. 定義訊息內容後，您就可以使用測試設定檔來預覽其內容。
+1. 定義訊息內容後，您可以使用測試設定檔，或從CSV / JSON檔案上傳的範例輸入資料，或手動新增以預覽其內容。
 
 1. 當您的推播準備就緒時，請完成[行銷活動](../campaigns/create-campaign.md)的設定以傳送。
 

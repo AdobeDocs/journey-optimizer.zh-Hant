@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 建立，電子郵件，開始，歷程，行銷活動
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '956'
 ht-degree: 9%
 
 ---
@@ -147,6 +147,10 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 ## 檢查並傳送您的電子郵件
 
 定義訊息內容後，您就可以使用測試設定檔來預覽、傳送校樣並控制它在熱門案頭、行動裝置和網頁型使用者端中的轉譯。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
+
+>[!NOTE]
+>
+>除了測試設定檔之外，[!DNL Journey optimizer]也可讓您使用從CSV / JSON檔案上傳或手動新增的範例輸入資料，透過預覽和傳送校樣來測試內容的不同變體。 [瞭解如何使用範例輸入資料測試您的內容](../test-approve/simulate-sample-input.md)
 
 若要這麼做，請按一下&#x200B;**[!UICONTROL 模擬內容]**，然後新增測試設定檔，以使用測試設定檔資料檢查您的訊息。
 

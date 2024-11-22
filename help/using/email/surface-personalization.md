@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定，子網域
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 7%
+source-wordcount: '1112'
+ht-degree: 6%
 
 ---
 
@@ -161,7 +161,13 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 ## 檢查您的設定 {#check-configuration}
 
-在行銷活動或歷程中使用個人化設定時，您可以預覽電子郵件內容，以使用您定義的動態設定檢查潛在錯誤。 請遵循下列步驟。
+在行銷活動或歷程中使用個人化設定時，您可以使用測試設定檔來預覽電子郵件內容，以檢查您定義的動態設定是否可能錯誤。 請遵循下列步驟。
+
+>[!NOTE]
+>
+>除了測試設定檔之外，[!DNL Journey optimizer]也可讓您使用從CSV / JSON檔案上傳或手動新增的範例輸入資料，透過預覽和傳送校樣來測試內容的不同變體。 [瞭解如何使用範例輸入資料測試您的內容](../test-approve/simulate-sample-input.md)
+
+若要使用測試設定檔預覽您的內容，請執行下列步驟：
 
 1. 從訊息的編輯內容畫面或電子郵件Designer中，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕。 [了解更多](../content-management/preview.md)
 

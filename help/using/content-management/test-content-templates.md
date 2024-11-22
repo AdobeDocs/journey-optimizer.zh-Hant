@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 6%
+source-wordcount: '216'
+ht-degree: 5%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->測試電子郵件內容範本時目前不支援追蹤，這表示追蹤事件、UTM引數和登入頁面連結將在從範本傳送的校樣中無效。 若要測試追蹤，[在電子郵件中使用內容範本](../email/use-email-templates.md)並[傳送校樣](../content-management/preview-test.md#send-proofs)。
+>測試電子郵件內容範本時目前不支援追蹤，這表示追蹤事件、UTM引數和登入頁面連結將在從範本傳送的校樣中無效。 若要測試追蹤，[在電子郵件中使用內容範本](../email/use-email-templates.md)，並使用測試設定檔或從CSV / JSON檔案上傳的範例輸入資料，或手動新增來傳送校樣。 [瞭解如何預覽和測試您的內容](../content-management/preview-test.md)
