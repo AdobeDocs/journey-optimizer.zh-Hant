@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: a5eacd7a746b2f17804062b23aee3146db0434c9
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 28%
+source-wordcount: '438'
+ht-degree: 24%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 28%
 
 * **測試輪廓**
 
-  使用測試設定檔來預覽您的內容、傳送電子郵件校樣並檢查電子郵件呈現。 如果您新增了個人化欄位，可以使用測試輪廓資料檢查它們的顯示方式。
+  使用測試設定檔來預覽您的內容、傳送電子郵件校樣並檢查電子郵件呈現。 如果您新增個人化欄位，您可以使用測試設定檔資料檢查這些欄位的顯示方式。 如需詳細資訊，請參閱下列章節：
 
   ➡️[選取測試設定檔](test-profiles.md)
 
@@ -56,7 +56,7 @@ ht-degree: 28%
 
   ➡️[檢查電子郵件轉譯](rendering.md)
 
-  ➡️[在此影片中瞭解如何預覽和校訂您的電子郵件](#video-preview)
+  ➡️[預覽並校訂您的電子郵件（影片）](#video-preview)
 
 * **範例輸入資料**
 
