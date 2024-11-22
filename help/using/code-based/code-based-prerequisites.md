@@ -6,20 +6,24 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '640'
 ht-degree: 2%
 
 ---
 
-# 護欄和限制 {#web-prerequisites}
+# 護欄和限制 {#code-based-prerequisites}
 
 若要能夠在[!DNL Journey Optimizer]中使用程式碼型體驗動作，並傳遞您的應用程式可以使用的程式碼內容裝載，請遵循下列先決條件：
 
 * 若要在應用程式中新增修改，您必須有特定的實施。 [了解更多](#implementation-prerequisites)
 
 * 為了正確傳遞程式碼型體驗，請務必在[這裡](#delivery-prerequisites)定義詳細的Adobe Experience Platform設定。
+
+* 若要讓資料顯示在程式碼型體驗報表中，請務必遵循下列[報告必要條件](#reporting-prerequisites)。
+
+* 建立[程式碼型體驗通道組態](code-based-configuration.md)時，請務必輸入符合您自己的實作中宣告的字串/路徑或表面URI。 這可確保內容會傳送至指定應用程式或頁面內的所需位置。 否則，將無法傳送變更。 [閱讀全文](code-based-surface.md)
 
 ## 實作必要條件 {#implementation-prerequisites}
 
@@ -49,13 +53,13 @@ ht-degree: 2%
 
   ![](../web/assets/web-aep-merge-policy.png)
 
-* 若要針對Journey Optimizer Web體驗的傳遞進行疑難排解，您可以在&#x200B;**Edge Delivery保證**&#x200B;中使用&#x200B;**Adobe Experience Platform**&#x200B;檢視。 此外掛程式可讓您詳細檢查請求呼叫、驗證預期的邊緣呼叫是否如預期發生，以及檢查設定檔資料，包括身分對應、區段會籍和同意設定。 此外，您可以檢閱請求符合資格的活動，並識別未符合資格的活動。
+* 若要針對Journey Optimizer網頁體驗的傳遞進行疑難排解，您可以在&#x200B;**Edge Delivery**&#x200B;中使用&#x200B;**Adobe Experience Platform Assurance**&#x200B;檢視。 此外掛程式可讓您詳細檢查請求呼叫、驗證預期的邊緣呼叫是否如預期發生，以及檢查設定檔資料，包括身分對應、區段會籍和同意設定。 此外，您可以檢閱請求符合資格的活動，並識別未符合資格的活動。
 
   使用&#x200B;**Edge Delivery**&#x200B;外掛程式可協助您取得所需的深入分析，以有效瞭解並疑難排解傳入的實作。
 
   [進一步瞭解Edge Delivery檢視](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/view/edge-delivery)
 
-## 報表必要條件 {#experiment-prerequisites}
+## 報表必要條件 {#reporting-prerequisites}
 
 若要啟用程式碼型管道的報告，您必須確定應用程式實作[資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}中使用的[資料集](../data/get-started-datasets.md)也包含在報告設定中。
 

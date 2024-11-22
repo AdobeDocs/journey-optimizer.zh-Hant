@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 3%
@@ -50,5 +50,5 @@ ht-degree: 3%
 >
 >若在組態詳細資料中發現錯誤，請按一下&#x200B;**[!UICONTROL 檢視組態詳細資料]**&#x200B;按鈕。 [了解更多](../email/surface-personalization.md#check-configuration)
 
-建立程式碼型體驗時，您可以直接在瀏覽器或行動裝置上預覽個人化內容，以進行真實生活的模擬。 [了解更多](../code-based/create-code-based.md#preview-on-device)
+建立程式碼型體驗時，您可以直接在瀏覽器或行動裝置上預覽個人化內容，以進行真實生活的模擬。 [了解更多](../code-based/test-code-based.md#preview-on-device)
 

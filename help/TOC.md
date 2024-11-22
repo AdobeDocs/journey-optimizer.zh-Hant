@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '2168'
-ht-degree: 99%
+source-wordcount: '2185'
+ht-degree: 98%
 
 ---
 
@@ -273,10 +273,15 @@ ht-degree: 99%
          + [編寫單頁應用程式](using/web/web-spa.md)
    + 程式碼型體驗 {#code-based-experience}
       + [開始使用程式碼型頻道](using/code-based/get-started-code-based.md)
-      + [護欄和限制](using/code-based/code-based-prerequisites.md)
-      + [建立基於程式碼的體驗設定](using/code-based/code-based-configuration.md)
-      + [實施方法範例](using/code-based/code-based-implementation-samples.md)
-      + [建立程式碼型體驗](using/code-based/create-code-based.md)
+      + 設定程式碼型通道{#configure-code-based-channel}
+         + [護欄和限制](using/code-based/code-based-prerequisites.md)
+         + [程式碼型體驗介面](using/code-based/code-based-surface.md)
+         + [實施方法範例](using/code-based/code-based-implementation-samples.md)
+         + [建立基於程式碼的體驗設定](using/code-based/code-based-configuration.md)
+      + 建立程式碼型體驗{#create-code-based-experiences}
+         + [建置和撰寫程式碼型體驗](using/code-based/create-code-based.md)
+         + [測試程式碼型體驗](using/code-based/test-code-based.md)
+         + [管理程式碼型體驗](using/code-based/publish-code-based.md)
    + 內容卡{#content-card}
       + [開始使用內容卡](using/content-card/get-started-content-card.md)
       + 設定內容卡頻道 {#configure}

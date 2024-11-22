@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 40%
+source-wordcount: '1073'
+ht-degree: 23%
 
 ---
 
@@ -104,11 +104,15 @@ ht-degree: 40%
 1. 下列專案適用於預覽URL：
 
    * 如果輸入單一頁面URL，該URL將用於預覽 — 不需要輸入其他URL。
-   * 如果選取了符合規則](../web/web-configuration.md#web-page-matching-rule)的[頁面，您必須輸入預設的撰寫和預覽URL ]**，以便在瀏覽器中預覽體驗。**[!UICONTROL [了解更多](../code-based/create-code-based.md#preview-on-device)
+   * 如果選取了符合規則](../web/web-configuration.md#web-page-matching-rule)的[頁面，您必須輸入預設的撰寫和預覽URL ]**，以便在瀏覽器中預覽體驗。**[!UICONTROL [了解更多](test-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
 1. **[!UICONTROL 頁面]**&#x200B;上的位置欄位會指定您要使用者存取之頁面內的確切目的地。 它可以是網站導覽結構內頁面上的特定區段，例如「hero-banner」或「product-rail」。
+
+   >[!CAUTION]
+   >
+   >在此欄位中輸入的字串或路徑必須符合應用程式或頁面實作中宣告的字串或路徑。 這可確保內容會傳送至指定應用程式或頁面內的所需位置。 [了解更多](code-based-surface.md#uri-composition)
 
    ![](assets/code_config_location_on_page.png)
 
@@ -132,7 +136,7 @@ ht-degree: 40%
 
    ![](assets/code_config_3.png)
 
-1. 填寫&#x200B;**[!UICONTROL 預覽URL]**&#x200B;欄位以啟用裝置上預覽。 此URL會通知預覽服務在裝置上觸發預覽時要使用的特定URL。 [了解更多](../code-based/create-code-based.md#preview-on-device)
+1. 填寫&#x200B;**[!UICONTROL 預覽URL]**&#x200B;欄位以啟用裝置上預覽。 此URL會通知預覽服務在裝置上觸發預覽時要使用的特定URL。 [了解更多](test-code-based.md#preview-on-device)
 
    預覽URL是應用程式開發人員在您應用程式內設定的深層連結。 這可確保任何符合深層連結配置的URL都會在應用程式中開啟，而不是在行動網站瀏覽器中開啟。 請聯絡您的應用程式開發人員，取得為您的應用程式設定的深層連結配置。
 
@@ -160,73 +164,16 @@ ht-degree: 40%
 
 1. 如果您的實作不適用於Web、iOS或Android，或需要鎖定特定的URI，請選取&#x200B;**[!UICONTROL 其他]**&#x200B;作為平台。
 
-1. 輸入&#x200B;**[!UICONTROL 表面URI]**。 表面URI是與您要傳送體驗的實體對應的唯一識別碼。 [了解更多](#surface-definition)
+1. 輸入&#x200B;**[!UICONTROL 表面URI]**。 表面URI是與您要傳送體驗的實體對應的唯一識別碼。 [了解更多](code-based-surface.md#surface-uri)
 
    ![](assets/code_config_5.png)
 
    >[!CAUTION]
    >
-   >請務必輸入與您自己的實施中所使用之URI相符的表面URI。 否則，將無法傳送變更。
+   >請務必輸入與您自己的實施中所使用之URI相符的表面URI。 否則，將無法傳送變更。 [了解更多](code-based-surface.md#uri-composition)
 
 1. **[!UICONTROL 視需要新增另一個表面URI]**。 您可以新增最多10個URI。
 
    >[!NOTE]
    >
    >新增多個URI時，內容會傳遞至所有列出的元件。
-
-## 什麼是表面？ {#surface-definition}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_surface_uri"
->title="新增元件的表面 URI"
->abstract="如果您的實作不是針對 Web、iOS 或 Android，或如果您需要以特定 URI 為目標，請輸入表面 URI，它是唯一識別碼，指向您想要提供體驗的實體。確保您輸入的表面 URI 符合您自己的實作中使用的 URI。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/code-based-experience/code-based-configuration#other" text="為其他平台建立基於程式碼的體驗設定"
-
-程式碼型體驗&#x200B;**surface**&#x200B;是任何專為使用者或系統互動而設計的實體，可由&#x200B;**URI**&#x200B;唯一識別。 介面會在應用程式實作中指定，且必須符合程式碼型體驗通道設定中參照的介面。
-
-在任何階層層級中，只要有實體（接觸點）存在，即可將表面視為容器。
-
-* 其可以是網頁、行動應用程式、桌面應用程式，或大型實體內的特定內容位置 (例如`div`) 或非標準顯示模式 (例如，資訊站或桌面應用程式橫幅)。<!--In retail, a kiosk is a digital display or small structure that businesses often place in high-traffic areas to engage customers.-->
-
-* 其也可以延伸至內容容器的特定片段，用於非顯示或抽象顯示目的 (例如，傳遞至服務的 JSON Blob)。
-
-* 其也可以是符合各種用戶端介面定義的萬用字元表面 (例如，網站每個頁面上的主圖影像位置可翻譯為表面URI，例如：web://mydomain.com/*#hero_image)。
-
-建立程式碼型Experience Channel設定時，您有兩種方式可根據選取的平台指定表面：
-
-* 針對&#x200B;**[!UICONTROL Web]**、**[!UICONTROL iOS]**&#x200B;和&#x200B;**[!UICONTROL Android]**&#x200B;平台，您必須輸入&#x200B;**位置或路徑**&#x200B;來構成介面。
-
-* 如果平台是&#x200B;**[!UICONTROL Other]**，您必須輸入完整的&#x200B;**表面URI**，如下例所示。
-
-表面URI可作為指向應用程式中不同使用者介面元素或元件的精確識別碼。 表面URI基本上由多個區段組成：
-
-1. **類型**：網頁、行動應用程式、ATM、資訊站、tvcd、服務等
-1. **屬性**：頁面 URL 或應用程式套裝
-1. **容器**：頁面/應用程式活動上的位置
-
-下表列出各種裝置的一些表面 URI 定義範例。
-
-**網頁與行動裝置**
-
-| 類型 | URI | 說明 |
-| --------- | ----------- | ------- | 
-| Web | `web://domain.com/path/page.html#element` | 代表特定網域之特定頁面中的個別元素，其中元素可以是標籤，如下列範例中的標籤：hero_banner、top_nav、menu、footer 等。 |
-| iOS 應用程式 | `mobileapp://com.vendor.bundle/activity#element` | 代表原生應用程式活動中的特定元素，例如按鈕或其他檢視元素。 |
-| Android 應用程式 | `mobileapp://com.vendor.bundle/#element` | 代表原生應用程式中的特定元素。 |
-
-**其他裝置型別**
-
-| 類型 | URI | 說明 |
-| --------- | ----------- | ------- | 
-| 桌面 | `desktop://com.vendor.bundle/#element` | 代表應用程式中的特定元素，例如按鈕、功能表、主圖橫幅等。 |
-| 電視應用程式 | `tvcd://com.vendor.bundle/#element` | 代表智慧型電視或電視連結裝置應用程式的特定元素 - 套裝 ID。 |
-| 服務 | `service://servicename/#element` | 代表伺服器端程序或其他手動實體。 |
-| 資訊站 | `kiosk://location/screen#element` | 潛在可輕鬆新增的其他表面類型範例。 |
-| ATM | `atm://location/screen#element` | 潛在可輕鬆新增的其他表面類型範例。 |
-
-**萬用字元表面**
-
-| 類型 | URI | 說明 |
-| --------- | ----------- | ------- | 
-| 萬用字元網頁 | `wildcard:web://domain.com/*#element` | 萬用字元表面 - 代表特定網域下每個頁面中的個別元素。 |
-| 萬用字元網頁 | `wildcard:web://*domain.com/*#element` | 萬用字元表面 - 代表所有以「domain.com」結尾的網域下每個頁面中的個別元素。 |

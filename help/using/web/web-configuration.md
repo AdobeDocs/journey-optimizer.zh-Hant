@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 10%
@@ -67,7 +67,11 @@ Web設定是由URL識別的Web屬性，將會傳送內容。 它可以比對單�
 
 1. 設定您的[網頁](#web-configuration)或[程式碼型體驗](../code-based/code-based-configuration.md)時，請選取&#x200B;**[!UICONTROL 符合規則]**&#x200B;的頁面。
 
-1. 定義&#x200B;**[!UICONTROL 網域]**&#x200B;和&#x200B;**[!UICONTROL 頁面]**&#x200B;欄位的條件。 檢查[此區段](#available-operators)中可用的運運算元。
+1. 定義&#x200B;**[!UICONTROL 網域]**&#x200B;和&#x200B;**[!UICONTROL 頁面]**&#x200B;欄位的條件。
+
+   >[!NOTE]
+   >
+   >檢查[此區段](#available-operators)中可用的運運算元。
 
    例如，如果您想要編輯顯示在Luma網站所有女性產品頁面上的元素，請選取&#x200B;**[!UICONTROL 網域]** > **[!UICONTROL 開頭為]** > `luma`和&#x200B;**[!UICONTROL 頁面]** > **[!UICONTROL 包含]** > `women`。
 
