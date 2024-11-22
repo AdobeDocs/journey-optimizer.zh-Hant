@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: e3ebbb021b7336fa859deb19d4e5786a4f4fdf30
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4776'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 99%
 
 **發行版本日期**：2024 年 9 月 24-26 日
 
-### 新功能 {#24-9-features}
+### 全新功能 {#24-9-features}
 
 此發行版本提供下列詳細介紹的新功能。
 
@@ -61,7 +61,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>待政策通過核准，您就可以立即在 Journey Optimizer 中設定核准程序，允許行銷團隊使用，以確保行銷活動和歷程在正式上線之前，會先由合適的利害關係人負責審核並簽核。</p>
+<p>待政策通過核准，您就可以立即在 Journey Optimizer 中設定核准程序，允許行銷團隊使用，以確保行銷活動和歷程在正式上線之前，會先由合適的利害關係人負責審核，並完成簽核。</p>
 <p>目前核准原則僅開放給部分組織使用 (有限可用性)。若要取得存取權，請和您的 Adobe 代表聯絡。</p>
 <p>如需詳細資訊，請參閱<a href="../test-approve/gs-approval.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/approval.gif"/>
@@ -112,7 +112,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>在您建立並個人化訊息後，請使用Journey Optimizer中的AI Assistant Content Accelerator將您的內容提升到新的境界。 您現在可以使用AI Assistant，透過實驗不同的主要標題和影像來最佳化訊息的影響。 每個變體都會視為獨特的處理來管理，以測量並比較哪個標題能有效產生更多點按次數。</p>
+<p>建立訊息並進行個人化後，請在 Journey Optimizer 使用 AI 助理內容加速器，把內容提升到新的境界。您目前可以使用 AI 助理，使用不同的主要標題和影像進行實驗，讓訊息的影響力發揮最佳成效。 每個變體都會視為獨特的處理來管理，以測量並比較哪個標題能有效產生更多點按次數。</p>
 <p>透過<a href="https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，沉浸在親身體驗中，讓您親身體驗實際功能並充分瞭解其功能。</a></p>
 <p>如需詳細資訊，請參閱<a href="../content-management/gs-generative.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
@@ -199,7 +199,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 8 月 20-21 日
 
-### 新功能 {#8-features}
+### 全新功能 {#8-features}
 
 此發行版本提供下列詳細介紹的新功能。
 
@@ -327,7 +327,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 7 月 30-31 日
 
-### 新功能 {#27-4-features}
+### 全新功能 {#27-4-features}
 
 此發行版本提供下列新功能。
 
@@ -378,7 +378,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 6 月 18 日至 19 日
 
-### 新功能 {#june-24-features}
+### 全新功能 {#june-24-features}
 
 此發行版本提供下列詳細介紹的新功能。
 
@@ -554,7 +554,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 5 月 21 日至 22 日
 
-### 新功能 {#e-features}
+### 全新功能 {#e-features}
 
 此發行版本提供下列詳細介紹的新功能。
 
@@ -690,7 +690,7 @@ ht-degree: 99%
 
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
 * **mTLS 支援** - 自訂動作現在支援 mTLS 驗證。 自訂動作或歷程中不需要額外設定即可啟用 mTLS；當偵測到啟用 mTLS 的端點時，它會自動發生。 [閱讀全文](../action/about-custom-action-configuration.md#mtls-protocol-support)
-* **查詢事件中的表格** - 現在，當使用物件陣列內的屬性定義關聯性時，您可以運用查詢資料集中的資料。 查閱值將在歷程 (條件、自訂動作等) 以及訊息個人化中使用。 [閱讀全文](../event/experience-event-schema.md#relationships_limitations)
+* **查詢事件中的表格** - 現在，當使用物件陣列內的屬性定義關聯性時，您可以運用查詢資料集中的資料。 將在歷程中的 (條件、自訂動作等) 開放使用查閱數值，還有訊息個人化。[閱讀全文](../event/experience-event-schema.md#relationships_limitations)
 * **事件設定中的進階運算式編輯器** (LA) - 您現在可以在設定事件時運用進階運算式編輯器，讓您定義更複雜的運算式或在事件 ID 條件中使用函數。 此功能以「限量」形式向選定的客戶發布。[閱讀全文](../event/about-creating.md#adv-exp-editor)
 * **合併原則** (LA) - 歷程使用的合併原則現在在整個歷程中可見且一致。 此功能以「限量」形式向選定的客戶發布。[閱讀全文](../building-journeys/journey-properties.md#merge-policies)
 
@@ -703,7 +703,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 5 月 2 日
 
-### 新功能 {#apr-features}
+### 全新功能 {#apr-features}
 
 此發行版本提供下列詳細介紹的新功能。
 
@@ -862,7 +862,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 2 月 21 日至 22 日
 
-### 新功能{#feb-features}
+### 全新功能{#feb-features}
 
 此發行版本提供下列新功能。
 
@@ -948,7 +948,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 1 月 30 日至 31 日
 
-### 新功能{#jan24-features}
+### 全新功能{#jan24-features}
 
 此發行版本提供下列新功能。
 

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 81%
 
 如果您已使用輸出通道 (例如電子郵件、簡訊或推播通知)，您現在可以善用輸入網路頻道，提供跨越所有通道的真正個人化體驗。
 
-创建歷程或行銷活動後，選擇“ **Web** ”作為操作並定義基本設置。 有關如何配置旅程/行銷活動的更多信息，請参閱此 [頁面](create-web.md#create-web-experience)。
+一旦建立歷程或行銷活動，請選取&#x200B;**網頁**&#x200B;作為動作，然後定義基本設定。如需深入了解如何設定歷程/行銷活動，請參閱此[頁面](create-web.md#create-web-experience)。
 
 >[!NOTE]
 >

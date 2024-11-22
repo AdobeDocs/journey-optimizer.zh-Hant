@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 95%
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}：[!DNL Experience Platform] 據以組織客戶體驗資料的標準化框架。
    * [結構構成的基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant){target="_blank"}：了解 XDM 結構的基本建置區塊。
-* [決定管理](../../../using/offers/get-started/starting-offer-decisioning.md)：說明一般用於決定管理，尤其是決定管理的概念和元件。 說明在客戶體驗期間用於選取最佳選項的策略。
+* [決策管理](../../../using/offers/get-started/starting-offer-decisioning.md)：說明用於一般 Decisioning，特別是決策管理之概念和元件。說明在客戶體驗期間用於選取最佳選項的策略。
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=zh-Hant){target="_blank"}：PQL是一種在 XDM 執行個體上編寫運算式的强大語言。PQL 用於定義決策規則。
 
 ## 讀取範例 API 呼叫 {#reading-sample-api-calls}

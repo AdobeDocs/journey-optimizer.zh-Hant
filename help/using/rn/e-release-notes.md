@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 61447b6400b65e29a9187790e74be47b09764c4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1967'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 
 **發行日期**：2024 年 10 月 29-30 日
 
-### 新功能 {#e-features}
+### 全新功能 {#e-features}
 
 此發行版本提供下列詳細介紹的新功能。
 
@@ -292,7 +292,7 @@ ht-degree: 98%
 
 >[!AVAILABILITY]
 >
->下列增強功能僅適用於Sinch和Infobip提供者。
+>下列增強功能只適用於 Sinch 和 Infobip 提供者。
 
 已引進簡訊增強功能，改善傳送訊息功能：
 
@@ -323,7 +323,7 @@ ht-degree: 98%
 
 **報告**
 
-* **決策報告**&#x200B;現已可用，可提供訪客如何與您的體驗互動的基本深入分析。
+* **Decisioning 報告**&#x200B;現已開放使用，可提供基本深入分析，告訴訪客如何與體驗互動。
 
 **資料治理與同意原則** - 推出日期：2024 年 10 月 7 日
 

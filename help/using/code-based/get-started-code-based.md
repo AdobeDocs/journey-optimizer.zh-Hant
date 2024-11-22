@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 94%
 
 * 使用[個人化編輯器](create-code-based.md#edit-code)，編輯您的內容。
 * 程式碼型體驗需要先在實施中的進行開發工作，以確保您的應用程式可以通過 [!DNL Journey Optimizer] 來解譯和傳遞為這些位置在邊緣上發佈的內容。[了解更多](code-based-configuration.md#surface-definition)
-* 它需要更多規劃，而且只能變更開發人員指定的內容。 因此，您必須識別應用程式上需要修改以進行個人化或測試的元件（首頁橫幅、主圖影像、功能表列等），並與開發團隊合作建立處理這些變更所需的實作。
+* 它需要更多規劃，而且只能變更開發人員指定的內容。 因此，您必須識別應用程式上有哪些元件 (首頁橫幅、網頁橫幅、功能表列等) 需要修改，以便進行個人化或測試，同時與開發團隊合作，即可建立用來處理這類變更所需的實作。
 * 它可讓您使用 JSON 程式碼內容。
 * 專注於開發人員角色。
 

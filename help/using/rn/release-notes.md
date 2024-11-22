@@ -7,9 +7,9 @@ topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 97b6041d4b8523b11b13dd78cd8b241a6410f1bc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2103'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 78%
 
 **發行日期**：2024 年 10 月 29-30 日
 
-### 新功能 {#24-10-features}
+### 全新功能 {#24-10-features}
 
-此版本提供下列詳細的新功能：
+此發布內容有提供下列詳細介紹的新功能：
 
 <table>
 <thead>
@@ -119,14 +119,14 @@ ht-degree: 78%
 <td>
 <p>您目前可以將 Movable Ink Da Vinci 整合入 Adobe Journey Optimizer。 透過這項新的整合，您可以做到以下幾點： </p>
 <p><ul><li>善用 Movable Ink Da Vinci 產品中的強大功能，將批次行銷活動的電子郵件變化版本加以組合並進行個人化</li>
-<li>使用Da Vinci進行製作和Adobe Journey Optimizer進行最佳化和交付的Journey Optimizer客戶，加速從業者工作流程</li>
+<li>使用 Da Vinci 進行製作，利用 Adobe Journey Optimizer 進行最佳化和傳遞，可為 Journey Optimizer 的客戶，加速從業人員的工作流程</li>
 <li>使用 Adobe 資料，將 Da Vinci 模型最佳化。</li></ul></p>
-<p>如需詳細資訊，請參閱<a href="https://movableink.com/adobe-and-movable-ink">Movable Ink Da Vinci檔案</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://movableink.com/adobe-and-movable-ink">Movable Ink Da Vinci 文件</a>。</p>
 </tr>
 </tbody>
 </table>
 
-先前可供一組組織(LA)使用，現在所有使用者(GA)都可使用下列功能：
+先前會開放給整個組織 (LA) 使用，目前所有使用者 (GA) 都可以使用以下功能。
 
 <table>
 <thead>
@@ -227,10 +227,10 @@ ht-degree: 78%
 <tr>
 <td>
 <p>Journey Optimizer 報告功能目前開放給一般人使用 (GA)，改良後的版本擁有互通性，能使用 Customer Journey Analytics 功能，可將兩邊平台之間的報告標準化，改善資料一致性與可靠性。Journey Optimizer 與 Customer Journey Analytics 之間緊密整合，讓您可以更清楚地檢視效能量度，讓使用者能做出更睿智的決策。</p>
-<p>正式發行中引進了四項新功能：建立簡易量度、建立和發佈對象、使用Insight Builder提出臨時問題，以及排程報表自動以電子郵件傳送給主要收件者。</p>
+<p>推廣一般可用性之後，會引進四種新功能：可以建立簡易量度，建立並發佈對象，使用 Insight Builder 臨時提出問題，將排程報告流程自動化，寫封電子郵件寄給主要收件者。</p>
 <p>如需詳細資訊，請參閱<a href="../reports/report-cja-manage.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
-<p>重要：目前的報告體驗將於2025年1月淘汰。 過了上述日期，新的報告體驗就會成為標準版。建議您先自己熟悉一下新的功能，以確保能順利轉換服務。<a href="../reports/report-gs-cja.md">了解如何開始使用 Journey Optimizer 的新報告介面</a></p>
+<p>重要提醒：目前的報告體驗將於推出 2025 年 1 月份版本後，正式終止服務。過了上述日期，新的報告體驗就會成為標準版。建議您先自己熟悉一下新的功能，以確保能順利轉換服務。<a href="../reports/report-gs-cja.md">了解如何開始使用 Journey Optimizer 的新報告介面</a></p>
 <p>自 2024 年 10 月 16 日起開放使用</p>
 </tr>
 </tbody>
@@ -247,8 +247,8 @@ ht-degree: 78%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer現在可讓您預覽內容，並使用從檔案上傳或手動新增的範例輸入資料傳送電子郵件校樣，以測試內容的不同變體。 系統會自動偵測您在內容中使用到的所有設定檔屬性，以便進行個人化，以上屬性可應用到測試上，即可建立多個變體。</p>
-<p>此功能目前以公開測試版的形式提供給所有客戶用於電子郵件、簡訊和推播通知頻道。</p>
+<p>Journey Optimizer 目前讓您可以預覽內容，還能使用從檔案上傳或是手動新增的範例輸入資料，傳送電子郵件校樣，以便測試電子郵件內容的不同變體。 系統會自動偵測您在內容中使用到的所有設定檔屬性，以便進行個人化，以上屬性可應用到測試上，即可建立多個變體。</p>
+<p>此功能目前會透過公開測試版的形式，開放給所有客戶使用，可用於電子郵件、簡訊和推播通知頻道。</p>
 <p>如需詳細資訊，請參閱<a href="../test-approve/simulate-sample-input.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/gif-simulate.gif">
 </td>
@@ -260,13 +260,13 @@ ht-degree: 78%
 <table>
 <thead>
 <tr>
-<th><strong>使用Adobe Experience Platform資料進行個人化(Beta)</strong><br/></th>
+<th><strong>使用 Adobe Experience Platform 資料進行個人化 (測試版)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>在個人化編輯器中運用Adobe Experience Platform中的資料，將您的內容個人化。 若要這麼做，必須首先透過API呼叫啟用查詢個人化所需的資料集。 完成後，您可以使用他們的資料將您的內容個人化為[!DNL Journey Optimizer]。</p>
+<p>善用在個人化編輯器中的 Adobe Experience Platform 資料，將內容個人化。 若想這樣做，就必須先透過 API 呼叫，啟用查詢個人化所需的資料集。 一旦完成，您就可以使用這些資料，將內容個人化，改成[!DNL Journey Optimizer]。</p>
 <p>只要是客戶都可在公開測試版中使用此功能。</p>
 <p>如需詳細資訊，請參閱<a href="../personalization/lookup-aep-data.md">詳細文件</a>。</p>
 </td>
@@ -280,15 +280,15 @@ ht-degree: 78%
 
 **簡訊頻道**
 
-* 您現在可以編輯或刪除SMS API頻道設定。 [了解更多](../sms/sms-configuration.md)
+* 目前可以編輯或刪除簡訊 API 管道設定。[了解更多](../sms/sms-configuration.md)
 
-* 我們引進了下列增強功能，以改進您使用Infobip和Sinch的SMS傳訊功能：
+* 我們引進下列增強功能，即可改善使用 Infobip 和 Sinch 的簡訊傳送訊息功能：
 
    * 您可以定義並管理簡訊行銷活動，還有歷程的唯一關鍵字，啟用更個人化、有效率的通訊服務。
 
    * 當無法辨識關鍵字時，您可以先建立並傳遞預設簡訊。
 
-  在[Infobip](../sms/sms-configuration-infobip.md)和[Sinch](../sms/sms-configuration-sinch.md)的SMS設定檔案中進一步瞭解這些改善。
+  在 [Infobip](../sms/sms-configuration-infobip.md) 和 [Sinch](../sms/sms-configuration-sinch.md) 的簡訊設定文件中，進一步瞭解改進項目。
 
 
 <!--**Journeys**-->
@@ -299,7 +299,7 @@ ht-degree: 78%
 
 **網路頻道**
 
-* **網頁設計工具的非視覺化編輯模式** — 作為Journey Optimizer網頁設計工具的替代方案，您現在可以使用非視覺化編輯器對您的網站新增修改。 它可讓您手動輸入變更，而不需在視覺編輯器中開啟頁面。 如果您無法安裝瀏覽器擴充功能(例如Adobe Experience Cloud Visual Helper)，這種非視覺化編輯模式相當實用；在Web設計工具中載入頁面需要此擴充功能。 [了解更多](../web/web-non-visual-editor.md)
+* **網頁設計工具的非視覺化編輯模式**：作為 Journey Optimizer 網頁設計工具的替代方案，目前可以使用非視覺化編輯模式，將修改版本新增至自己的網站。 這項工具讓您可以手動輸入變更，不用在視覺化編輯器中開啟頁面。如果您無法安裝瀏覽器擴充功能，例如 Adobe Experience Cloud Visual Helper，這種非視覺化編輯模式可以算是相當實用，只要在網頁設計工具中載入頁面，就會需要用到這種擴充功能。[了解更多](../web/web-non-visual-editor.md)
 
 
 **資料集**
@@ -313,15 +313,15 @@ ht-degree: 78%
 
   將在後續階段，開放現有客戶沙箱使用這項變更。 [了解更多](../data/datasets-ttl.md#ttl)
 
-* **自訂動作中的引數** — 使用日期： 2024年10月3日 — 自訂動作現在支援NULL和選用引數。 [了解更多](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* **自訂動作中的參數** - 可用日期：2024 年 10 月 3 日：自訂動作目前有支援無效和選用參數。[了解更多](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
 **報告**
 
-* **決策報告**&#x200B;現已可用，可提供訪客如何與您的體驗互動的基本深入分析。 [了解更多](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
+* **決策報告**&#x200B;現已開放使用，可提供基本深入分析，告訴訪客如何與體驗互動。[了解更多](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
 
 **資料治理與同意原則** - 推出日期：2024 年 10 月 7 日
 
-* 已在 Journey Optimizer 的所有管道中強制執行&#x200B;**資料治理原則**。對於已在Adobe Experience Platform中建立原則的客戶，這些原則會套用至行銷動作，作為管道設定的一部分。 使用設定建立內容時，系統會檢查所有個人化欄位是否有任何資料治理違規。如果發現違規，將無法發佈歷程或行銷活動。[了解更多](../action/action-privacy.md)
+* 已在 Journey Optimizer 的所有管道中強制執行&#x200B;**資料治理原則**。對於已在 Adobe Experience Platform 中建立原則的客戶，這些原則會在設定頻道設定時套用至行銷動作。使用設定建立內容時，系統會檢查所有個人化欄位是否有任何資料治理違規。如果發現違規，將無法發佈歷程或行銷活動。[了解更多](../action/action-privacy.md)
 
 * **自訂同意原則**&#x200B;現在適用於所有Journey Optimizer 管道。在傳送訊息或提供傳入體驗之前強制執行時，系統會檢查使用者是否已同意在將收到的內容中使用個人化欄位。如果未予以同意，則不會顯示該體驗。[了解更多](../action/consent.md)
 
@@ -341,10 +341,10 @@ ht-degree: 78%
 
 **程式碼型頻道**
 
-* 目前有提供內容範本。 您可以從開發人員建立的內容範本開始使用，加速完成程式碼型體驗的製作。 使用內容範本可讓行銷人員僅修改某些值或欄位，而不是構成整個HTML或JSON內容裝載。 [了解更多](../content-management/content-templates.md)
+* 目前有提供內容範本。 您可以從開發人員建立的內容範本開始使用，加速完成程式碼型體驗的製作。 使用內容範本，讓行銷人員只要修改某些數值或欄位，不用撰寫整個 HTML 或 JSON 內容承載。[了解更多](../content-management/content-templates.md)
 
 **Decisioning**
 
-* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 使用者目前可以選擇在決定中設定 AI 模型時，將 AI 模型最佳化 (之前又稱為體驗決策)。 舉例來說，這可讓您對自訂「購買」表格進行最佳化，而不是使用點進率等已定義的限制。 [了解更多](../experience-decisioning/ranking.md)
+* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 使用者目前可以選擇在決定中設定 AI 模型時，將 AI 模型最佳化 (之前又稱為體驗決策)。 舉例來說，這讓您可以將自訂「購買」表格最佳化，不必受到轉換率等定義限制。[了解更多](../experience-decisioning/ranking.md)
 
-* 將決定策略新增到具有決定的程式碼型行銷活動時，您現在除了選取策略之外，還可以手動選取單一決定專案。 此外，您目前還可以選取多種遞補優惠。 這能保證會傳回一定數量的決定項目。 [了解更多](../experience-decisioning/create-decision.md)
+* 當將決定原則新增至擁有決策的程式碼型行銷活動時，除了選取策略之外，目前還可以手動選取單一決定項目。 此外，您目前還可以選取多種遞補優惠。 這能保證會傳回一定數量的決定項目。 [了解更多](../experience-decisioning/create-decision.md)

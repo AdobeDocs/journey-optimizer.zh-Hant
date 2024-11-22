@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: a1502d2fa13508650cb9353e53ab3a43de650c27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 86%
 
 >[!BEGINTABS]
 
->[!TAB 2024年10月發行版本]
+>[!TAB 2024 年 10 月發行版本]
 
-10月版本現已上線，包括電子郵件內容鎖定、與行動油墨整合、程式碼型與歷程中的Web體驗。 先前在「有限可用性」(LA)中，現在所有使用者都能使用下列功能：電子郵件設定個人化、核准原則、內容實驗、改善的報告體驗、多語言內容等。
+10 月份發布內容現已正式上線，包括電子郵件內容鎖定、Movable Ink 整合功能、程式碼型、歷程中的網頁體驗。 之前只有在「限量」(LA) 中開放使用，目前所有使用者都能使用下列功能：電子郵件組態個人化、核准原則、內容實驗、改善的報告體驗、多語言內容等。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -38,7 +38,7 @@ Journey Optimizer 報告功能改進與 Customer Journey Analytics 功能的互�
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
->[!TAB 歷程中的Web體驗]
+>[!TAB 歷程中的網頁體驗]
 
 有了網頁管道，Adobe Journey Optimizer 可讓您將透過傳入網頁歷程向客戶提供的網站體驗個人化。網頁管道現可在歷程版面中使用。
 
