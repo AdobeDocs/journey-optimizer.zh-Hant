@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 594bb029c7d8b711fe60697c5c2e06d9943189fa
 workflow-type: tm+mt
 source-wordcount: '1374'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -253,15 +253,15 @@ ht-degree: 95%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_attribute"
->title="從目錄選取決定屬性"
->abstract="決定屬性儲存在目錄的結構描述中。 從選取的目錄中選取要在此使用的屬性。"
+>title="從目錄中選取決策屬性"
+>abstract="決策屬性儲存於目錄結構描述中。從所選目錄中選取要在此處使用的屬性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_policy"
 >title="決策原則"
->abstract="決策原則可讓您從決策引擎挑選最佳專案並傳送給每個對象。"
+>abstract="決策原則讓您可以從決策引擎中挑選最佳項目，並傳遞至每個客群。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_placements"
 >title="版位"
->abstract="位置會決定決定決定引擎傳回的專案在訊息中出現的位置。 您可以在報表中的不同位置中追蹤其效能。"
+>abstract="產品建議放置環境決定從決策引擎傳回的項目出現在訊息中的位置。您可以在報告中追蹤他們在不同產品建議放置環境的效能。"
