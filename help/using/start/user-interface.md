@@ -253,15 +253,15 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_attribute"
->title="從目錄中選取決策屬性"
->abstract="決策屬性儲存於目錄結構描述中。從所選目錄中選取要在此處使用的屬性。"
+>title="從目錄選取決定的屬性"
+>abstract="會將決定屬性儲存在目錄的結構描述中。 從選取的目錄中，選取想在此處使用的屬性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_policy"
 >title="決策原則"
->abstract="決策原則讓您可以從決策引擎中挑選最佳項目，並傳遞至每個客群。"
+>abstract="決策原則可讓您先從決策引擎中挑選出最佳項目，再傳遞給所有對象。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_placements"
->title="版位"
+>title="刊登"
 >abstract="產品建議放置環境決定從決策引擎傳回的項目出現在訊息中的位置。您可以在報告中追蹤他們在不同產品建議放置環境的效能。"

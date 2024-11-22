@@ -21,8 +21,8 @@ ht-degree: 99%
 
 ## 2024 年 10 月 {#oct-2024}
 
-* 有關[!DNL Journey Optimizer] 2024年10月發行版本的所有新功能和改進專案詳情，請參閱本檔案。 [閱讀全文](release-notes.md)
-* [!DNL Journey Optimizer]中可用的所有通訊管道現在都分組在檔案的專用區段中。 [閱讀全文](../channels/gs-channels.md)
+* 有關 [!DNL Journey Optimizer]2024 年 10 月發布內容所有新功能，還有改良功能之詳情，請參閱本文件。 [閱讀全文](release-notes.md)
+* [!DNL Journey Optimizer] 中可用的所有通訊頻道，目前都已完成分組，會列入文件的專用區段中。 [閱讀全文](../channels/gs-channels.md)
 * 已改善&#x200B;**設定程式碼型體驗**&#x200B;分頁，讓程序更清楚，包括說明什麼是表面 URI 的區段。[閱讀全文](../code-based/code-based-configuration.md)
 * 已更新&#x200B;**建立網頁管道設定**&#x200B;頁面，以便釐清建立頁面比對規則的步驟，此規則也適用於程式碼型體驗設定。[閱讀全文](../web/web-configuration.md#web-page-matching-rule)
 * 已新增有關系統產生資料集的近期存留時間 (TTL) 護欄的備註。[閱讀全文](../data/get-started-datasets.md)

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
 workflow-type: tm+mt
 source-wordcount: '2168'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -187,7 +187,7 @@ ht-degree: 97%
       + [預覽您的內容](using/content-management/preview.md)
       + [傳送電子郵件校樣](using/content-management/proofs.md)
       + [測試電子郵件轉譯](using/content-management/rendering.md)
-      + [使用範例輸入資料測試內容(Beta)](using/test-approve/simulate-sample-input.md)
+      + [使用範例輸入資料 (測試版) 來測試內容](using/test-approve/simulate-sample-input.md)
       + [電子郵件垃圾郵件報告](using/content-management/spam-report.md)
    + 核准歷程與行銷活動 {#approve}
       + [開始使用核准](using/test-approve/gs-approval.md)
@@ -309,7 +309,7 @@ ht-degree: 97%
       + [AI助理使用案例](using/content-management/generative-uc.md)
    + 可在多語言內容中使用{#content-multilingual}
       + [開始使用多語言內容](using/content-management/multilingual-gs.md)
-      + [建立地區設定](using/content-management/multilingual-locale.md)
+      + [建立地區](using/content-management/multilingual-locale.md)
       + [建立語言提供者](using/content-management/multilingual-provider.md)
       + [使用手動翻譯建立多語言內容](using/content-management/multilingual-manual.md)
       + [使用自動化翻譯建立多語言內容](using/content-management/multilingual-automated.md)
@@ -326,7 +326,7 @@ ht-degree: 97%
       + [開始使用個人化](using/personalization/personalize.md)
       + [個人化內容](using/personalization/personalization-contexts.md)
       + [個人化語法](using/personalization/personalization-syntax.md)
-      + [使用Adobe Experience Platform資料進行個人化(Beta)](using/personalization/lookup-aep-data.md)
+      + [使用 Adobe Experience Platform 資料進行個人化 (測試版)](using/personalization/lookup-aep-data.md)
       + 使用個人化編輯器 {#expression-editor}
          + [關於個人化編輯器](using/personalization/personalization-build-expressions.md)
          + [將屬性新增至我的最愛](using/personalization/personalization-favorites.md)
@@ -368,7 +368,7 @@ ht-degree: 97%
 + 客群、輪廓與身分{#audiences-profiles-identities}
    + 客群 {#audiences}
       + [開始使用 Audiences](using/audience/about-audiences.md)
-      + [自訂上傳(CSV)和同盟對象構成](using/audience/custom-upload-fac.md)
+      + [自訂上傳 (CSV) 和聯合客群構成](using/audience/custom-upload-fac.md)
       + [建置區段定義](using/audience/creating-a-segment-definition.md)
       + 撰寫客群 {#audience-orchestration}
          + [開始使用客群組合](using/audience/get-started-audience-orchestration.md)
@@ -450,8 +450,8 @@ ht-degree: 97%
    + [排除原因](using/reports/exclusion-list.md)
 + 決定功能{#decisioning}
    + [開始使用決定功能](using/experience-decisioning/gs-decision.md)
-   + 決策{#experience-decisioning}
-      + [開始使用決策](using/experience-decisioning/gs-experience-decisioning.md)
+   + Decisioning{#experience-decisioning}
+      + [開始使用 Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
       + API 參考{#api-reference}
          + 決定項目{#decision-items}
             + [建立決定項目](using/experience-decisioning/api-reference/decisions-items/create.md)
@@ -659,7 +659,7 @@ ht-degree: 97%
    + [支援封存](using/configuration/archiving-support.md)
    + [變更執行地址](using/configuration/primary-email-addresses.md)
    + [設定業務規則](using/configuration/frequency-rules.md)
-   + [使用規則集(LA)](using/configuration/rule-sets.md)
+   + [使用規則集工作 (LA)](using/configuration/rule-sets.md)
    + 設定歷程 {#configure-journeys}
       + [關於資料來源、事件和動作](using/configuration/about-data-sources-events-actions.md)
       + 與外部系統整合{#external-systems}
