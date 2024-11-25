@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面，建立，發佈
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 13f07c2c6af38661ad6d58b2f1505c8199c0cc0b
+source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 21%
+source-wordcount: '1729'
+ht-degree: 20%
 
 ---
 
@@ -30,29 +30,33 @@ ht-degree: 21%
 
 ## 存取登陸頁面 {#access-landing-pages}
 
-若要存取登入頁面清單，請從左側功能表選取&#x200B;**[!UICONTROL 歷程管理]** > **[!UICONTROL 登入頁面]**。
+若要存取登入頁面清單，請從左側功能表選取&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 登入頁面]**。
 
 ![](assets/lp_access-list.png)
 
-**[!UICONTROL 登陸頁面]**&#x200B;清單會顯示所有已建立的專案。 您可以根據它們的狀態或修改日期來篩選它們。
+**[!UICONTROL 登陸頁面]**&#x200B;清單會顯示所有已建立的專案。 您可以根據它們的狀態、修改日期或標籤來篩選它們。
 
 ![](assets/lp_access-list-filter.png)
 
-從這個清單中，您可以存取已發佈專案的[登陸頁面即時報告](../reports/lp-report-live.md)或[登陸頁面報告](../reports/lp-report-global-cja.md)。
-
-您也可以刪除、複製和取消發佈登入頁面。
-
->[!CAUTION]
->
->如果取消發佈訊息中參照的登入頁面，則連結至登入頁面的連結將會中斷，並顯示錯誤頁面。
-
-按一下登入頁面旁的三個點，以選取所需的動作。
+從這個清單中，您可以存取許多動作。 按一下登入頁面旁的三個點，以選取所需的動作：
 
 ![](assets/lp_access-list-actions.png)
 
->[!NOTE]
->
->您無法刪除[已發佈](#publish-landing-page)登陸頁面。 若要刪除它，您必須先取消發佈。
+* 針對已發佈的專案，您可以存取[登陸頁面報告](../reports/lp-report-global-cja.md)或[過去24小時的即時報告](../reports/lp-report-live.md)。
+
+* 您可以刪除或複製登入頁面。
+
+  >[!NOTE]
+  >
+  >您無法刪除[已發佈](#publish-landing-page)登陸頁面。 若要刪除它，您必須先取消發佈。
+
+* 您可以取消發佈已發佈的登陸頁面。
+
+  >[!CAUTION]
+  >
+  >如果取消發佈訊息中參照的登入頁面，則連結至登入頁面的連結將會中斷，並顯示錯誤頁面。
+
+* 您也可以編輯登入頁面的相關[標籤](../start/search-filter-categorize.md#tags)。
 
 ## 建立登陸頁面 {#create-landing-page}
 
@@ -279,11 +283,6 @@ ht-degree: 21%
 
 **Errors**:
 
-* 
-
->[!CAUTION]
->
-> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## 發佈登陸頁面 {#publish-landing-page}
