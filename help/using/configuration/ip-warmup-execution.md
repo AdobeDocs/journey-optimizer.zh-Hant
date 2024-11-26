@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP、群組、子網域、傳遞能力
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+source-git-commit: 88dff9f42636a81b54b7050da3542f839c14164e
 workflow-type: tm+mt
-source-wordcount: '2628'
+source-wordcount: '2589'
 ht-degree: 11%
 
 ---
@@ -184,13 +184,13 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >如果您不想將任何參與期間套用至執行，請在&#x200B;**[!UICONTROL 上次參與]**&#x200B;欄位中輸入0。
 
-1. 選取&#x200B;**[!UICONTROL 發生錯誤時取消已啟動的執行專案]**&#x200B;選項，以便在評估該執行專案的對象後，如果合格的設定檔少於目標設定檔，則取消執行專案。 在這種情況下，執行會採用&#x200B;**[!UICONTROL 失敗]**&#x200B;狀態。
+1. 選取&#x200B;**[!UICONTROL 發生錯誤時取消已啟動的執行專案]**&#x200B;選項，以便在評估該執行專案的對象後，如果合格的設定檔少於目標設定檔，則取消執行專案。
 
    ![](assets/ip-warmup-plan-pause.png)
 
-   如果合格的設定檔數量與目標設定檔的數量不符（例如，執行中目標設定檔為1500個Gmail地址，但只有700個合格的Gmail設定檔）：
+   如果合格的設定檔數量與目標設定檔的數量不符（例如，執行中目標設定檔為1500個Gmail地址，但只有700個Gmail合格的設定檔）：
 
-   * 如果已啟用此選項，則執行會失敗。 然後，您可以選擇在下一次執行中鎖定較少的設定檔，或選擇將執行](#split-phase)分割到新階段，並為新階段選取新的行銷活動，以再次鎖定相同的設定檔。[
+   * 如果已啟用此選項，則執行會失敗，而且執行會採用&#x200B;**[!UICONTROL 失敗]**&#x200B;狀態。<!--You can then either choose to target less profiles in the next run, or to [split the run](#split-phase) to a new phase and select a new campaign for the new phase to target the same profiles again.-->
 
    * 如果未啟用選項，則會執行執行，但只將目標設定檔的可用數量設為。
 
