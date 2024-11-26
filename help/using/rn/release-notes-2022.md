@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3598'
 ht-degree: 100%
 
@@ -766,7 +766,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 **報告**
 
 * 現在可以根據狀態篩選傳遞：
-   * 您現在可以從「訊息執行」清單排除傳遞清單中的證明。
+   * 您現在可以從「訊息執行」清單排除傳遞清單中的校樣。
    * 您可以選擇從即時/全域報告排除測試事件。
 
 * 您現在可以存取有關最佳化傳送時間資料的報告：即時訊息的人數，以及經過 1 小時最佳化、2 小時最佳化等訊息的人數。
