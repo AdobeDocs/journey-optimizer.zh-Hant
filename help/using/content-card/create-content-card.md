@@ -2,9 +2,11 @@
 title: 建立內容卡片
 description: 瞭解如何在Journey Optimizer中製作內容卡片及編輯其內容
 topic: Content Management
+feature: Content Cards
 role: User
 level: Beginner
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
+source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 10%

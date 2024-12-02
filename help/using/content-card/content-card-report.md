@@ -1,30 +1,30 @@
 ---
 title: 內容卡報告
 description: 瞭解如何使用內容卡片報表中的資料
-feature: Reporting
+feature: Reporting, Content Cards
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
-# 內容卡片報表 {#content-card-report}
+# 內容卡報告 {#content-card-report}
 
 >[!BEGINSHADEBOX]
 
 **目錄**
 
 * [開始使用內容卡](get-started-content-card.md)
-* [內容卡片先決條件](content-card-configuration-prereq.md)
-* [在Journey Optimizer中設定內容卡片頻道](content-card-configuration.md)
-* [建立內容卡片](create-content-card.md)
-* [設計內容卡片](design-content-card.md)
+* [內容卡的先決條件](content-card-configuration-prereq.md)
+* [在 Journey Optimizer 中設定內容卡頻道](content-card-configuration.md)
+* [建立內容卡](create-content-card.md)
+* [設計內容卡](design-content-card.md)
 * **內容卡報告**
 
 >[!ENDSHADEBOX]
