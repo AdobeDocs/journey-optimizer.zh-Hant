@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '1235'
-ht-degree: 17%
+ht-degree: 21%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 17%
 
 開始之前，請先閱讀[此頁面](get-started-with-campaigns.md#before-starting-campaign-prerequisites)中的行銷活動先決條件。
 
-## 選取行銷活動型別 {#campaigntype}
+## 選取行銷活動類型 {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
@@ -49,7 +49,7 @@ ht-degree: 17%
 
 1. （選用）使用&#x200B;**標籤**&#x200B;欄位將Adobe Experience Platform統一標籤指派給您的行銷活動。 這可讓您輕鬆分類，並改進行銷活動清單的搜尋。 [瞭解如何使用標籤](../start/search-filter-categorize.md#tags)。
 
-1. （選用）您可以根據存取標籤來限制此行銷活動的存取權。 若要新增存取限制，請瀏覽至此頁面頂端的&#x200B;**[!UICONTROL 管理存取權]**&#x200B;按鈕。 請確定只選取您具有許可權的標籤。 [進一步瞭解物件層級存取控制](../administration/object-based-access.md)。
+1. （選用）您可以根據存取標籤來限制此行銷活動的存取權。 若要新增存取限制，請瀏覽至此頁面最上方的「**[!UICONTROL 管理存取]**」按鈕。請確定只選取您具有許可權的標籤。 [進一步瞭解物件層級存取控制](../administration/object-based-access.md)。
 
 ## 定義行銷活動對象 {#audience}
 
@@ -60,7 +60,6 @@ ht-degree: 17%
 >* [對象構成](../audience/get-started-audience-orchestration.md)的對象和屬性目前無法用於Healthcare Shield或Privacy and Security Shield。
 >
 >* 針對API觸發的行銷活動，必須透過API呼叫設定對象。
-
 
 若要定義排程行銷活動定位的母體，請遵循下列步驟：
 
@@ -143,7 +142,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="行銷活動排程"
->abstract="依預設，行銷活動會從手動啟動時開始，並在訊息傳送一次後立即結束。 您可以彈性地設定傳送訊息的特定日期和時間。 此外，你可以對定期執行或 API 觸發的行銷活動指定結束日期。在操作觸發條件中，你亦可根據自己的偏好設定訊息傳送頻率。"
+>abstract="預設情況下，行銷活動經由手動啟用後開始執行，並在訊息傳送一次後立即結束。您可以彈性設定發送訊息的具體日期和時間。此外，你可以對定期執行或 API 觸發的行銷活動指定結束日期。在操作觸發條件中，你亦可根據自己的偏好設定訊息傳送頻率。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"

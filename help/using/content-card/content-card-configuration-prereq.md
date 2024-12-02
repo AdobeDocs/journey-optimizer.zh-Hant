@@ -1,11 +1,12 @@
 ---
 title: 內容卡設定
 description: 內容卡片頻道先決條件
-feature: Channel Configuration
+feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+exl-id: df92e319-1e42-486f-b688-595964a762c9
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 5%
@@ -39,7 +40,7 @@ ht-degree: 5%
 
 * **疑難排解**
 
-  在&#x200B;**Edge Delivery保證**&#x200B;中使用&#x200B;**Adobe Experience Platform**&#x200B;檢視來疑難排解行動體驗。 它可以檢查請求、驗證Edge呼叫及檢查設定檔資料。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/view/edge-delivery)
+  在&#x200B;**Adobe Experience Platform Assurance**&#x200B;中使用&#x200B;**Edge Delivery**&#x200B;檢視來疑難排解行動體驗。 它可以檢查請求、驗證Edge呼叫及檢查設定檔資料。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/view/edge-delivery)
 
 * **內容實驗**
 
