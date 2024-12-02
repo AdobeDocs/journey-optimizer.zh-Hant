@@ -1,11 +1,12 @@
 ---
 title: 設計內容卡
 description: 瞭解如何設計內容卡內容
-topic: Content Management, Content Cards
+topic: Content Management
+feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+source-git-commit: 7e5dbd6106b8a5ffd9bee8b1364a7bf5b995668c
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 4%
