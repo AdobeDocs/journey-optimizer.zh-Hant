@@ -7,16 +7,25 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
+exl-id: 09770df2-c514-4217-a71b-e31c248df543
+source-git-commit: 196caffc918ef4f8fd97c2eb2c790ae4583aa311
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 6%
+source-wordcount: '393'
+ht-degree: 5%
 
 ---
 
 # 決策使用案例 {#experience-decisioning-uc}
 
+您不確定特定排名公式的效能是否優於預先指派的優惠優先順序。
+
 在此使用案例中，您會建立行銷活動，在此定義兩個傳送處理 — 每個都包含不同的決定原則，以衡量哪個原則最適合您的目標對象。
+
+設定實驗，讓：
+
+* 第一個處理包含一個選擇策略，優先順序作為排名方法。
+* 第二個處理包含不同的選取策略，其排名方法為公式。
+
 
 ## 建立決定專案和選取策略
 
@@ -68,5 +77,3 @@ ht-degree: 6%
 1. 從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;視窗中，選取您的處理B以變更內容，並重複上述步驟以建立另一個決定。
 
 1. 儲存您的內容。
-
-
