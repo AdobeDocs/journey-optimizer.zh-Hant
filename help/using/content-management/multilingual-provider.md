@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
-source-git-commit: e2024a9418374bed224db7d701d1a7642121f293
+source-git-commit: 424ebfb3670396d91c4b15b670eda26dc999699b
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '187'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Adobe Journey Optimizer與提供機器及人力翻譯服務的第三方翻譯提
 
    >[!NOTE]
    >
-   >若要新增提供者至清單，您可以要求您的提供者遵循[此檔案](https://developer.adobe.com/gcs/partner/)中詳述的指示，以完成其上線程式。
+   >若要新增新的&#x200B;**提供者**&#x200B;至清單，您可以要求您的&#x200B;**提供者**&#x200B;遵循[此檔案](https://developer.adobe.com/gcs/partner/)中詳述的指示，以完成其上線程式。
 
    ![](assets/provider_2.png)
 
