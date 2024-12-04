@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2188'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -273,13 +273,13 @@ ht-degree: 98%
          + [編寫單頁應用程式](using/web/web-spa.md)
    + 程式碼型體驗 {#code-based-experience}
       + [開始使用程式碼型頻道](using/code-based/get-started-code-based.md)
-      + 設定程式碼型通道{#configure-code-based-channel}
+      + 設定程式碼型頻道{#configure-code-based-channel}
          + [護欄和限制](using/code-based/code-based-prerequisites.md)
-         + [程式碼型體驗介面](using/code-based/code-based-surface.md)
+         + [程式碼型體驗表面](using/code-based/code-based-surface.md)
          + [實施方法範例](using/code-based/code-based-implementation-samples.md)
-         + [建立基於程式碼的體驗設定](using/code-based/code-based-configuration.md)
-      + 建立程式碼型體驗{#create-code-based-experiences}
-         + [建置和撰寫程式碼型體驗](using/code-based/create-code-based.md)
+         + [建立程式碼型體驗設定](using/code-based/code-based-configuration.md)
+      + 建立程式碼型體驗 {#create-code-based-experiences}
+         + [建立並撰寫程式碼型體驗](using/code-based/create-code-based.md)
          + [測試程式碼型體驗](using/code-based/test-code-based.md)
          + [管理程式碼型體驗](using/code-based/publish-code-based.md)
    + 內容卡{#content-card}
@@ -486,8 +486,8 @@ ht-degree: 98%
          + [善用內容資料](using/experience-decisioning/context-data.md)
       + [建立選擇策略](using/experience-decisioning/selection-strategies.md)
       + [建立決定原則](using/experience-decisioning/create-decision.md)
-      + [決策報告](using/experience-decisioning/cja-reporting.md)
-      + [決策使用案例](using/experience-decisioning/experience-decisioning-uc.md)
+      + [Decisioning 上的報告](using/experience-decisioning/cja-reporting.md)
+      + [Decisioning 使用案例](using/experience-decisioning/experience-decisioning-uc.md)
    + 決定管理 {#offer-decisioning}
       + 開始使用決定管理 {#get-started-decision}
          + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
