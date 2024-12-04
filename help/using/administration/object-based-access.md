@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 6%
+ht-degree: 15%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
->title="存取權管理標籤"
->abstract="您可以根據存取權標籤來限制此行銷活動的存取權。 若要新增存取限制，請瀏覽至此頁面頂端的&#x200B;**管理存取權**&#x200B;按鈕。 請確定只選取您具有許可權的標籤。"
+>title="存取管理標籤"
+>abstract="您可以根據存取標籤限制對此行銷活動的存取。若要新增存取限制，請瀏覽至此頁面最上方的「**管理存取**」按鈕。請確認僅選取您有權限使用的標籤。"
 
 物件層級存取控制(OLAC)功能可讓您定義授權，以管理對所選物件的資料存取：
 

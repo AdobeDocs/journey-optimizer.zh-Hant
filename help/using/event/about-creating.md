@@ -111,7 +111,7 @@ ht-degree: 10%
 
    ![](assets/journey12.png)
 
-## 選取身分型別 {#select-the-namespace}
+## 選取身分類型 {#select-the-namespace}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"

@@ -118,7 +118,7 @@ ht-degree: 21%
 <td><a href="../in-app/create-in-app.md"><img alt="應用程式內" src="../channels/assets/do-not-localize/inapp.jpg"></a>
 <div align="center"><a href="../in-app/create-in-app.md"><strong>應用程式內</strong></a></div></td>
 <td><a href="../web/create-web.md"><img alt="網頁" src="../channels/assets/do-not-localize/web.jpg"></a>
-<div align="center"><a href="../web/create-web.md"><strong>網路</strong></a></div></td>
+<div align="center"><a href="../web/create-web.md"><strong>網頁</strong></a></div></td>
 <td><a href="../code-based/create-code-based.md"><img alt="程式碼型體驗" src="../channels/assets/do-not-localize/code.png"></a>
 <div align="center"><a href="../code-based/create-code-based.md"><strong>程式碼型體驗</strong></a></div></td>
 <td><a href="../content-card/create-content-card.md"><img alt="內容卡片" src="../channels/assets/do-not-localize/cards.png"></a>
