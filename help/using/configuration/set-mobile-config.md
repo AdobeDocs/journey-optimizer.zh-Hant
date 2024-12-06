@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
-workflow-type: ht
+source-git-commit: 7a5bed3f4ee16c1a42289779fc53148bf6ab39e8
+workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
 >title="行動裝置和網頁設定名稱"
->abstract="輸入您的行動或網頁設定名稱。此名稱將用於使用引導式管道設定自動建立的每個資源。"
+>abstract="輸入您的行動裝置或網頁設定名稱。此名稱將用於使用引導式管道設定自動建立的每個資源。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="使用保證進行驗證"
->abstract="Adobe Experience Platform Assurance 嵌入此工作流程中，可協助您檢查 SDK 實施，以及模擬和驗證應用程式事件。"
+>abstract="將 Adobe Experience Platform Assurance 嵌入此工作流程中，可協助您檢查 SDK 實作，以及模擬和驗證應用程式事件。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance 概觀"
 
 此設定有助快速設定行銷頻道，確保隨時在都能在 Experience Platform、Journey Optimizer 資料收集取得所有必要資源。這可讓您的行銷團隊開始建立行銷活動和歷程。
@@ -109,7 +109,7 @@ ht-degree: 100%
 
 +++
 
-* 如果您使用現有設定選項，請確定您使用下列Adobe Experience Platform Mobile SDK 擴充功能版本。如需 SDK 設定的詳細資訊，包括必要的相依性與初始化程式碼，請參閱[下列文件](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks?lang=zh-Hant)。
+* 如果您使用現有設定選項，請確定您使用下列Adobe Experience Platform Mobile SDK 擴充功能版本。如需 SDK 設定的詳細資訊，包括必要的相依性與初始化程式碼，請參閱[下列文件](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks)。
 
   對於 Android
 
