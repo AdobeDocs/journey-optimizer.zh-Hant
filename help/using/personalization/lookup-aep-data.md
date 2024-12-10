@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用Adobe Experience Platform資料進行個人化(Beta)
+title: 使用 Adobe Experience Platform 資料進行個人化 (測試版)
 description: 瞭解如何使用Adobe Experience Platform資料進行個人化。
 feature: Personalization, Rules
 topic: Personalization
@@ -9,14 +9,14 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: cb7842209e03c579904979480304e543a6b50f50
+source-git-commit: a2e09052ef5cb38ca34cd8faa476ca750ea1965f
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 0%
+source-wordcount: '1044'
+ht-degree: 2%
 
 ---
 
-# 使用Adobe Experience Platform資料進行個人化(Beta) {#aep-data}
+# 使用 Adobe Experience Platform 資料進行個人化 (測試版) {#aep-data}
 
 >[!AVAILABILITY]
 >
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >若要使用此功能，您必須先接受組織的測試版條款，在個人化編輯器中新增新的「datasetLookup」協助程式函式時，這些條款就會顯示。
 
-Journey Optimizer可讓您在個人化編輯器中運用Adobe Experience Platform中的資料，以[個人化您的內容](../personalization/personalize.md)。 若要這麼做，必須首先透過API呼叫啟用查詢個人化所需的資料集，如下所述。 完成後，您可以使用他們的資料將您的內容個人化為[!DNL Journey Optimizer]。
+Journey Optimizer可讓您在個人化編輯器中運用Adobe Experience Platform中的資料，以[個人化您的內容](../personalization/personalize.md)。 若要這麼做，必須首先透過API呼叫啟用查詢個人化所需的資料集，如下所述。 一旦完成，您就可以使用這些資料，將內容個人化，改成[!DNL Journey Optimizer]。
 
 ## Beta限制和指引 {#guidelines}
 
@@ -40,7 +40,7 @@ Journey Optimizer可讓您在個人化編輯器中運用Adobe Experience Platfor
 
 ### 使用[!DNL Adobe Experience Platform]資料的Personalization {#perso}
 
-* **支援的頻道**：目前，此功能僅適用於電子郵件、簡訊、推播和直接郵件頻道。
+* **支援的頻道**：目前，此功能僅可用於電子郵件、簡訊和直接郵件頻道。
 * **資料使用標籤和強制執行**&#x200B;目前未針對啟用查閱的資料集強制執行。
 * **運算式片段**：目前無法將資料集查詢個人化放在運算式片段中。
 
@@ -73,6 +73,17 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 * 可從開發人員主控台擷取&#x200B;**API金鑰**。
 * **IMS組織ID**&#x200B;是您的Adobe IMS組織。
 * **沙箱名稱**&#x200B;是資料集所在的沙箱名稱（例如prod、dev等）。
+
+>[!NOTE]
+>
+>如果您在嘗試使用API呼叫啟用資料集時遇到以下錯誤，請嘗試從開發人員控制檯專案中移除Adobe Journey Optimizer API，然後重新新增它們。
+>
+>```
+>
+>"error_code": "403003", 
+>"message": "Api Key is invalid"
+>
+>```
 
 ## 運用資料集進行個人化 {#leverage}
 
