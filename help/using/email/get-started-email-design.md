@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、素材、資產
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 57a309956ebe2997dce3fe0eb1b6bb70b911da5e
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 100%
+source-wordcount: '608'
+ht-degree: 79%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 * 查找 **Adobe Stock 相片**&#x200B;建立內容並改進電子郵件設計。[了解更多](../content-management/stock.md)
 
-* 根據客戶的設定檔屬性建立個人化和動態訊息，以增強客戶體驗。深入瞭解[個人化](../personalization/personalize.md)及[動態內容](../personalization/get-started-dynamic-content.md)。
+* 根據客戶的輪廓屬性建立個人化和動態訊息，以增強客戶體驗。深入瞭解[個人化](../personalization/personalize.md)及[動態內容](../personalization/get-started-dynamic-content.md)。
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -35,6 +35,12 @@ ht-degree: 100%
 傳送電子郵件時，務必考慮到收件者有可能轉寄郵件，這有時可能會導致電子郵件呈現的問題。使用用於轉寄的電子郵件提供商可能不支援的 CSS 類別時尤其如此，例如，如果您使用「is-desktop-hidden」CSS 類別來隱藏行動裝置上的影像。
 
 若要將這些呈現問題降至最低，建議您盡可能維持電子郵件設計結構的簡單性。 請嘗試使用單一設計以便同時適用於桌面與行動裝置，並避免使用複雜 CSS 類別或其他設計元素，因為可能並非所有電子郵件用戶端均可完全支援。 無論收件者如何檢視或轉寄電子郵件，您都可遵循這些最佳實務來確保其均能以一致的方式正確呈現電子郵件。
+
+請參閱下表以瞭解電子郵件設計的最佳實務：
+
+| 建議 | 謹慎使用 | 不建議 |
+|-|-|-|
+| <ul><li>結構為<b>靜態、以資料表為基礎的配置</b></li> <li><b>HTML資料表和巢狀資料表</b>以取得配置一致性</li> <li><b>範本寬度</b>介於600px到800px之間 </li> <li>樣式設定的<b>簡單、內嵌CSS</b> </li> <li><b>網頁安全字型</b>提供通用相容性</li> | <ul><li><b>背景影像</b>可能不會出現在某些電子郵件平台上。</li><li><b>自訂網頁字型</b>缺乏通用支援。</li><li><b>寬版面配置</b>在較小的熒幕上可能無法正常顯示。</li><li><b>影像地圖</b>提供有限的功能。</li><li><b>內嵌CSS</b>有時會在電子郵件傳遞期間移除。</li> | <ul><li>電子郵件環境中通常不支援<b>JavaScript</b>。</li> <li> 大多數平台上已封鎖<b>`<iframe>`</b>個標籤。 </li> <li><b>Flash</b>已過時且不再支援。</li> <li><b>內嵌音訊</b>經常無法播放。</li> <li><b>內嵌視訊</b>與許多電子郵件平台不相容。</li> <li> <b>Forms</b>無法在電子郵件中運作。</li> <li> `<div>`分層可能會導致轉譯問題。</li> |
 
 ## 建立電子郵件內容的關鍵步驟 {#key-steps}
 
