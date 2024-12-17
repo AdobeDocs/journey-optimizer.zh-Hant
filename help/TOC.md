@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
-workflow-type: ht
-source-wordcount: '2188'
-ht-degree: 100%
+source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
+workflow-type: tm+mt
+source-wordcount: '2193'
+ht-degree: 99%
 
 ---
 
@@ -304,6 +304,7 @@ ht-degree: 100%
       + [設定登陸頁面子網域](using/landing-pages/lp-subdomains.md)
       + [定義登陸頁面預設集](using/landing-pages/lp-presets.md)
 + 內容管理 {#content-management}
+   + [Adobe Experience Manager內容片段](using/content-management/aem-fragments.md)
    + 使用 AI 助理工作{#ai-assistant}
       + [開始使用 AI 助理內容加速器](using/content-management/gs-generative.md)
       + [使用 AI 來產生電子郵件](using/content-management/generative-email.md)
@@ -370,7 +371,7 @@ ht-degree: 100%
       + [開始使用動態內容](using/personalization/get-started-dynamic-content.md)
       + [建立條件式規則](using/personalization/create-conditions.md)
       + [建立動態內容](using/personalization/dynamic-content.md)
-+ 客群、輪廓與身分{#audiences-profiles-identities}
++ 客群、輪廓與身分識別{#audiences-profiles-identities}
    + 客群 {#audiences}
       + [開始使用 Audiences](using/audience/about-audiences.md)
       + [自訂上傳 (CSV) 和聯合客群構成](using/audience/custom-upload-fac.md)
@@ -385,7 +386,7 @@ ht-degree: 100%
       + [開始使用輪廓](using/audience/get-started-profiles.md)
       + [建立測試輪廓](using/audience/creating-test-profiles.md)
       + [使用計算屬性](using/audience/computed-attributes.md)
-   + [身分](using/audience/get-started-identity.md)
+   + [身分識別](using/audience/get-started-identity.md)
    + [授權使用情況](using/audience/license-usage.md)
 + 追蹤和監視 {#reporting}
    + 即時報告 {#live-report}
@@ -445,7 +446,7 @@ ht-degree: 100%
          + [常用欄位](using/reports/sharing-common-fields.md)
          + [動作執行欄位](using/reports/sharing-execution-fields.md)
          + [資料擷取欄位](using/reports/sharing-fetch-fields.md)
-         + [身分欄位](using/reports/sharing-identity-fields.md)
+         + [身分識別欄位](using/reports/sharing-identity-fields.md)
       + [查詢範例](using/reports/query-examples.md)
    + 傳遞能力 {#deliverability}
       + [開始使用傳遞能力](using/reports/deliverability.md)
