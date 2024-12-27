@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2193'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -304,7 +304,7 @@ ht-degree: 99%
       + [設定登陸頁面子網域](using/landing-pages/lp-subdomains.md)
       + [定義登陸頁面預設集](using/landing-pages/lp-presets.md)
 + 內容管理 {#content-management}
-   + [Adobe Experience Manager內容片段](using/content-management/aem-fragments.md)
+   + [Adobe Experience Manager 內容片段](using/content-management/aem-fragments.md)
    + 使用 AI 助理工作{#ai-assistant}
       + [開始使用 AI 助理內容加速器](using/content-management/gs-generative.md)
       + [使用 AI 來產生電子郵件](using/content-management/generative-email.md)

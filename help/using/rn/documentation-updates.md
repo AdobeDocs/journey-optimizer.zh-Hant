@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d0419710c12bd7726bc161069b9c2ebff986826a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5767'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 ## 2024 年 12 月  {#nov-2024}
 
-* 已新增附註，以協助疑難排解使用Adobe Experience Platform資料啟用個人化資料集的API呼叫時可能傳出的錯誤訊息。 [閱讀全文](../personalization/lookup-aep-data.md)
+* 已新增備註，以便協助處理疑難排解，當使用 Adobe Experience Platform 資料來啟用個人化資料集的 API 呼叫時，很可能傳出錯誤訊息。 [閱讀全文](../personalization/lookup-aep-data.md)
 
 ## 2024 年 10 月 {#oct-2024}
 
@@ -78,7 +78,7 @@ ht-degree: 99%
 * 已詳細說明應用程式內傳送訊息設定步驟。 [閱讀全文](../in-app/inapp-configuration.md)
 * 已更新[優惠決策 API](../offers/api-reference/offer-delivery-api/decisioning-api.md) 與[批次決策 API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) 文件。
 * 決策管理文件中新增了有關在邊緣決策 API 使用頻率上限時邊緣與中心區域管理的資訊。[閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
-* 對於使用 API 觸發的行銷活動，已針對利用自訂名稱空間建立身分新增資訊。 [閱讀全文](../campaigns/api-triggered-campaigns.md)
+* 對於使用 API 觸發的行銷活動，已針對利用自訂名稱空間建立身分識別新增資訊。 [閱讀全文](../campaigns/api-triggered-campaigns.md)
 * 螢幕擷取畫面已更新，以反映改進的歷程畫布。
 * 命名約束已在以下頁面中更新：[設定單一事件](../event/about-creating.md)、[設定業務事件](../event/about-creating-business.md#gs-business-events)、[設定自訂動作](../action/about-custom-action-configuration.md#configuration-steps)、[外部資料來源](../datasource/external-data-sources.md)
 * 新增了有關傳送時間最佳化可用性的備註。 [閱讀全文](../building-journeys/journeys-message.md#send-time-optimization)
@@ -217,7 +217,7 @@ ht-degree: 99%
 * 已新增新區段，說明如何確保選擇退出使用其輪廓資料進行個人化的客戶獲得尊重。 [閱讀全文](../privacy/opt-out.md#opt-out-personalization)
 * 已新增附註，說明如何使用包含在電子郵件內容中的 URL 特殊國際字元。 [閱讀全文](../email/message-tracking.md#insert-links)
 * 已新增測試和發佈登陸頁面所需的權限。 [閱讀全文](../landing-pages/create-lp.md)
-* 已新增備註，說明將自訂事件納入決策管理頻率限定所需的 Adobe Experience Platform 端點。 [閱讀全文](../offers/data-collection/schema-requirement.md#track-custom-events)
+* 已新增備註，說明將自訂事件納入決策管理頻率上限所需的 Adobe Experience Platform 端點。 [閱讀全文](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## 2023 年 4 月 {#apr-2023}
 
@@ -258,7 +258,7 @@ ht-degree: 99%
 * 已對上限文件中的自訂驗證端點新增相關資訊。 [閱讀全文](../configuration/external-systems.md)
 * 已在外部資料來源章節中新增新的自訂驗證範例。 [閱讀全文](../datasource/external-data-sources.md#custom-authentication-mode)
 * 已為事件觸發的歷程新增有關資料彙集核心服務 (DCCS) 的備註。[閱讀全文](../start/guardrails.md#events-g)
-* 已在[讀取客群](../building-journeys/read-audience.md)、[客群資格](../building-journeys/audience-qualification-events.md)和[事件建立](../event/about-creating.md)章節中，新增有關擷取身分名稱空間的備註。
+* 已在[讀取客群](../building-journeys/read-audience.md)、[客群資格](../building-journeys/audience-qualification-events.md)和[事件建立](../event/about-creating.md)章節中，新增有關擷取身分識別名稱空間的備註。
 * [!DNL Journey Optimizer]中的協助工具功能現在會分組至專用頁面。 [閱讀全文](../start/accessibility.md)
 * 已在進階運算式編輯器文件的＜運算子＞章節中更新範例。 [閱讀全文](../building-journeys/expression/operators.md)
 * 已新增備註，說明使用物件陣列進行查詢的限制。[閱讀全文](../event/experience-event-schema.md#relationships_limitations)
@@ -370,7 +370,7 @@ ht-degree: 99%
 
 * 有關所有 [!DNL Journey Optimizer]2022 年 3 月發行版本新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
 * 已在 AI 模型快速入門手冊的 **Offer Decisioning** 部分新增頁面，詳細說明了[自動最佳化模型](../offers/ranking/auto-optimization-model.md)、其所使用的演算法及其他技術細節。 [閱讀全文](../offers/ranking/ai-models.md)
-* 測試輪廓建立頁面已移至&#x200B;**客群、輪廓及身分**&#x200B;的章節。 [閱讀全文](../audience/creating-test-profiles.md)
+* 測試輪廓建立頁面已移至&#x200B;**客群、輪廓及身分識別**&#x200B;的章節。 [閱讀全文](../audience/creating-test-profiles.md)
 * 在運算式編輯器中新增了如何加入運算式作為預設值的範例。[閱讀全文](../building-journeys/expression/field-references.md#default-value)
 * **建立個人化優惠**&#x200B;區段已重新整理，以提高可讀性。 [閱讀全文](../offers/offer-library/creating-personalized-offers.md)
 * 新的區段說明了變更優惠方案的開始和/或結束日期可能對此優惠方案的頻率上限產生的影響。 [閱讀全文](../offers/offer-library/add-constraints.md#capping-change-date)
