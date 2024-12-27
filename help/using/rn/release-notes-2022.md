@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 100%
 
@@ -306,9 +306,9 @@ ht-degree: 100%
 
 **報告**
 
-* 同意原則表格和圖表現在可在歷程全域報告中使用。 這些介面工具集可讓您從自訂動作中的原則追蹤排除的輪廓。 [了解更多](../reports/journey-global-report-cja.md#journey-global)
+* 同意原則表格和圖表現在可在歷程全域報告中使用。 這些小工具可讓您從自訂動作中的原則追蹤排除的輪廓。 [了解更多](../reports/journey-global-report-cja.md#journey-global)
 
-  若要存取最新的介面工具集，請注意您必須重設不同的報告儀表板。 如需儀表板自訂的詳細資訊，請參閱[詳細文件](../reports/report-gs-cja.md)。
+  若要存取最新的小工具，請注意您必須重設不同的報告儀表板。 如需儀表板自訂的詳細資訊，請參閱[詳細文件](../reports/report-gs-cja.md)。
 
 **管理**
 
@@ -817,7 +817,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 **歷程**
 
-* Journey Optimizer 步驟事件現在可以連結到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 中的其他資料集。  內建「歷程步驟事件」方案中的 **profileID** 欄位現在定義為身分欄位。 [了解更多](../reports/sharing-overview.md#integration-cja)
+* Journey Optimizer 步驟事件現在可以連結到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 中的其他資料集。  內建「歷程步驟事件」方案中的 **profileID** 欄位現在定義為身分識別欄位。 [了解更多](../reports/sharing-overview.md#integration-cja)
 
 **決定管理**
 

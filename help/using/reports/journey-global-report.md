@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '4457'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_global_report"
 >title="歷程全域報告"
->abstract="歷程全域報告可讓您測量您的歷程在選取時段內的影響。您的報告會分為不同的介面工具，詳細說明您的歷程的成功和錯誤。每個報告儀表板都可以透過調整大小或移除介面工具來修改。"
+>abstract="歷程全域報告可讓您測量您的歷程在選取時段內的影響。您的報告會分為不同的小工具，詳細說明您的歷程的成功和錯誤。每個報告儀表板都可以透過調整大小或移除小工具來修改。"
 
 >[!AVAILABILITY]
 >
->目前的報告體驗將於2025年1月淘汰。 在此日期之後，新的報告體驗將成為標準體驗。建議您熟悉新功能，以確保順利轉換。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
+>目前的報告體驗將於2025年1月淘汰。 過了上述日期，新的報告體驗就會成為標準版。建議您先自己熟悉一下新的功能，以確保能順利轉換服務。[開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
 
 全域報告可從「所有時間」標籤存取，它會顯示至少兩小時前發生的事件，以及所選時段內的封面事件。 相較之下，即時報表著重於過去24小時內發生的事件，最短間隔為事件發生後的2分鐘。
 
@@ -53,7 +53,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance"
 >title="歷程績效"
->abstract="「歷程績效」Widget 使您能夠以視覺化方式追蹤目標輪廓在您的歷程中的進展路徑。"
+>abstract="「歷程績效」小工具使您能夠以視覺化方式追蹤目標輪廓在您的歷程中的進展路徑。"
 
 ![](assets/journey_performance.png)
 
@@ -87,7 +87,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_performance"
 >title="動作績效"
->abstract="「動作績效」Widget 顯示了啟動動作時發生的最成功動作。"
+>abstract="「動作績效」小工具顯示了啟動動作時發生的最成功動作。"
 
 ![](assets/journey_action_performance.png)
 
@@ -273,7 +273,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces"
 >title="電子郵件 - 退回郵件的類別和原因"
->abstract="「電子郵件 - 退回郵件的類別和原因」Widget 彙總了有關退回郵件的資料，進而提供對導致電子郵件退回具體原因和類別的深入見解"
+>abstract="「電子郵件 - 退回郵件的類別和原因」小工具彙總了有關退回郵件的資料，進而提供對導致電子郵件退回具體原因和類別的深入見解"
 
 ![](assets/journey_email_bounce_categories.png)
 
@@ -399,7 +399,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization"
 >title="電子郵件 - 最佳化"
->abstract="「傳送時間最佳化」和「最佳化與非最佳化」Widget 提供有關您郵件的詳細資訊，進而凸顯它們是否已最佳化。"
+>abstract="「傳送時間最佳化」和「最佳化與非最佳化」小工具提供有關您郵件的詳細資訊，進而凸顯它們是否已最佳化。"
 
 ![](assets/journey_email_sto.png)
 
@@ -427,7 +427,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers"
 >title="電子郵件 - 優惠"
->abstract="「優惠統計資料」和「優惠詳細統計資料」Widget 提供對優惠績效的全面深入解析，進而提供其長期影響的詳細分析，並呈現詳細的統計資料以供更深入的了解。"
+>abstract="「優惠統計資料」和「優惠詳細統計資料」小工具提供對優惠績效的全面深入解析，進而提供其長期影響的詳細分析，並呈現詳細的統計資料以供更深入的了解。"
 
 >[!NOTE]
 >
@@ -629,7 +629,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_tracking_statistics"
 >title="簡訊 - 追蹤統計資料"
->abstract="「簡訊 - 追蹤統計資料」Widget 會提供訪客與您的 URL 互動相關基本資訊的全面概觀。"
+>abstract="「簡訊 - 追蹤統計資料」小工具會提供訪客與您的 URL 互動相關基本資訊的全面概觀。"
 
 ![](assets/journey_sms_tracking.png)
 
@@ -644,7 +644,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_perfomance_date"
 >title="簡訊 - 依日期劃分的績效"
->abstract="「簡訊 - 依日期劃分的績效」Widget 透過圖形呈現方式提供有關您簡訊的重要資訊。"
+>abstract="「簡訊 - 依日期劃分的績效」小工具透過圖形呈現方式提供有關您簡訊的重要資訊。"
 
 ![](assets/journey_sms_performance.png)
 
@@ -700,7 +700,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_clicks"
 >title="簡訊 - 依連結劃分的點按次數"
->abstract="「簡訊 - 依連結劃分的點按次數」Widget 會提供有關訪客與您訊息中 URL 互動的重要深入解析。"
+>abstract="「簡訊 - 依連結劃分的點按次數」小工具會提供有關訪客與您訊息中 URL 互動的重要深入解析。"
 
 ![](assets/journey_sms_clicks.png)
 

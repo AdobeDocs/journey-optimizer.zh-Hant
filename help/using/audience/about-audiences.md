@@ -247,7 +247,7 @@ Adobe Experience Platform [Segmentation Service檔案](https://experienceleague.
 
 +++
 
-## 操作說明影片 {#video}
+## 作法影片 {#video}
 
 了解 Journey Optimizer 的統一客戶輪廓及客群。
 

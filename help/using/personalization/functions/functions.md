@@ -358,7 +358,7 @@ ht-degree: 22%
         <td><a href="helpers.md#each">Each</a></td><td>此函式用於反複處理陣列</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#if-function">If</a></td><td>此函式用於定義條件區塊 — 如果運算式評估傳回true，則會轉譯區塊</td>
+        <td><a href="helpers.md#if-function">若</a></td><td>此函式用於定義條件區塊 — 如果運算式評估傳回true，則會轉譯區塊</td>
     </tr>
     <tr>
         <td><a href="helpers.md#let">Let</a></td><td>此函式允許將運算式儲存為變數，以便稍後在查詢中使用</td>
@@ -402,7 +402,7 @@ ht-degree: 22%
 
 <table>
     <tr>
-        <td><a href="operators.md#and">及</a></td><td>此運運算元建立邏輯結合</td>
+        <td><a href="operators.md#and">與</a></td><td>此運運算元建立邏輯結合</td>
     </tr>
     <tr>
         <td><a href="operators.md#or">或</a></td><td>此運運算元建立邏輯分離</td>
@@ -432,7 +432,7 @@ ht-degree: 22%
     </tr>
 </table>
 
-## 操作說明影片{#video}
+## 作法影片{#video}
 
 瞭解如何使用個人化協助程式函式來轉換個人化值，並瞭解協助程式函式的不同使用案例。
 

@@ -237,7 +237,7 @@ WHERE
 
 **如何檢查serviceEvent的詳細資料**
 
-Journey Step事件資料集包含所有stepEvents和serviceEvents。 stepEvents用於報告中，因為它們與活動（事件、動作等）相關 歷程中的設定檔。 serviceEvents會儲存在相同的資料集中，且會指出其他除錯資訊，例如捨棄體驗事件的原因。
+Journey Step事件資料集包含所有stepEvents和serviceEvents。 stepEvents用於報告中，因為它們與歷程中設定檔的活動（事件、動作等）相關。 serviceEvents會儲存在相同的資料集中，且會指出其他除錯資訊，例如捨棄體驗事件的原因。
 
 以下是查詢serviceEvent詳細資訊的範例：
 

@@ -44,7 +44,7 @@ ht-degree: 100%
 
 >[!MORELIKETHIS]
 >
->* [建立方案、資料集及擷取資料，即可在 Journey Optimizer 新增測試設定檔](../audience/creating-test-profiles.md)
+>* [建立方案、資料集及擷取資料，即可在 Journey Optimizer 新增測試輪廓](../audience/creating-test-profiles.md)
 >* [XDM 系統概觀](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}
 >* [資料模式的最佳做法](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=zh-Hant){target="_blank"}
 >* [使用結構描述登錄 API 建立結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=zh-Hant){target="_blank"}

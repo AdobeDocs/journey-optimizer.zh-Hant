@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -637,7 +637,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **決策管理**
 
-* 如果優惠方案具有&#x200B;**[!UICONTROL 草稿]** 狀態，之前從未發佈且已啟用頻率限定，您現在可以編輯頻率限定。 [閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
+* 如果優惠方案具有&#x200B;**[!UICONTROL 草稿]** 狀態，之前從未發佈且已啟用頻率上限，您現在可以編輯頻率上限。 [閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **個人化**
 
@@ -821,9 +821,9 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **報告**
 
-* 報告介面控件功能已得到改善，可自訂使用者檢視其資料的方式。透過這項改善，使用者現在可以在多個視覺效果選項之間進行選擇，包括圖表、表格和環圈圖。 
+* 報告小工具功能已得到改善，可自訂使用者檢視其資料的方式。透過這項改善，使用者現在可以在多個視覺效果選項之間進行選擇，包括圖表、表格和環圈圖。 
 
-  若要存取最新的介面工具集，請注意您必須重設不同的報告儀表板。 如需儀表板客製化的詳細資訊，請參閱[詳細文件](../reports/report-gs-cja.md)。
+  若要存取最新的小工具，請注意您必須重設不同的報告儀表板。 如需儀表板客製化的詳細資訊，請參閱[詳細文件](../reports/report-gs-cja.md)。
 
 ## 2023 年 2 月發行版本 {#feb-2023}
 

@@ -1,5 +1,5 @@
 ---
-title: 開發人員快速入門
+title: '開發人員快速入門 '
 description: 作為資料工程師，深入瞭解如何使用 Journey Optimizer
 feature: Get Started
 role: Developer
@@ -9,8 +9,8 @@ hidefromtoc: true
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '146'
+ht-degree: 100%
 
 ---
 

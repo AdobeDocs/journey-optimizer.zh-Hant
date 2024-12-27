@@ -23,7 +23,7 @@ ht-degree: 100%
 
 從 [!DNL Journey Optimizer] 開始？ 有經驗的使用者遇到特定問題？ 公司的執行個體管理員？ 採取客製化路徑，更快達成目標！
 
-若要透過逐步指引來學習和探索 Adobe Journey Optimizer 的強大功能，請選取您的設定檔。
+若要透過逐步指引來學習和探索 Adobe Journey Optimizer 的強大功能，請選取您的輪廓。
 
 * **我是管理員**
 

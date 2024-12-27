@@ -49,7 +49,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation_test_profile"
 >title="新增測試輪廓"
->abstract="您可以透過選取身分命名空間和相對應的身分值來新增測試輪廓。您必須擁有已可供使用的測試輪廓才能將它們用於模擬。"
+>abstract="您可以透過選取身分識別命名空間和相對應的身分識別值來新增測試輪廓。您必須擁有已可供使用的測試輪廓才能將它們用於模擬。"
 
 首先，您需要選取要用於模擬的測試設定檔。
 

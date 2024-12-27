@@ -64,7 +64,7 @@ ht-degree: 15%
 
 ## 建立個人化URL{#personalize-urls}
 
-個人化 URL 會根據設定檔屬性，將收件者帶往網站特定頁面或個人化微網站。 在Adobe Journey Optimizer中，您可以將個人化新增至訊息內容中的URL。 URL 個人化可套用至文字和影像，同時使用個人資料或內容資料。
+個人化 URL 會根據輪廓屬性，將收件者帶往網站特定頁面或個人化微網站。 在Adobe Journey Optimizer中，您可以將個人化新增至訊息內容中的URL。 URL 個人化可套用至文字和影像，同時使用輪廓或內容資料。
 
 瞭解如何在[本節](personalization-syntax.md#perso-urls)中插入個人化URL。
 

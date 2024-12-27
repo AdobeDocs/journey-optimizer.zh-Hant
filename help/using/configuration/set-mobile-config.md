@@ -10,7 +10,7 @@ level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 7a5bed3f4ee16c1a42289779fc53148bf6ab39e8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
 
@@ -92,7 +92,7 @@ ht-degree: 100%
             <li>管理輪廓：讀取、建立、編輯和刪除輪廓</li>
             <li>讀取資料集：資料集的唯讀存取權</li>
             <li>讀取結構描述：結構描述的唯讀存取權</li>
-            <li>讀取身分命名空間：身分命名空間的唯讀存取權</li>
+            <li>讀取身分識別命名空間：身分識別命名空間的唯讀存取權</li>
           </ul>
         </td>
       </tr>
@@ -165,7 +165,7 @@ ht-degree: 100%
   <li>Adobe Journey Optimizer</li>
   <li>AEP Assurance</li>
   <li>同意 (已啟用預設同意原則)</li>
-  <li>身分 (使用預設 ECID 搭配預設拼接規則)</li>
+  <li>身分識別 (使用預設 ECID 搭配預設拼接規則)</li>
   <li>Mobile Core</li>
   </ul>
   </td>
@@ -260,7 +260,7 @@ ht-degree: 100%
   <li>Adobe Journey Optimizer</li>
   <li>AEP Assurance</li>
   <li>同意 (已啟用預設同意原則)</li>
-  <li>身分 (使用預設 ECID 搭配預設拼接規則)</li>
+  <li>身分識別 (使用預設 ECID 搭配預設拼接規則)</li>
   <li>Mobile Core</li>
   </ul>
   </td>
@@ -355,7 +355,7 @@ ht-degree: 100%
   <li>Adobe Journey Optimizer</li>
   <li>AEP Assurance</li>
   <li>同意 (已啟用預設同意原則)</li>
-  <li>身分 (使用預設 ECID 搭配預設拼接規則)</li>
+  <li>身分識別 (使用預設 ECID 搭配預設拼接規則)</li>
   <li>Mobile Core</li>
   </ul>
   </td>

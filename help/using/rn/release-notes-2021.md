@@ -350,7 +350,7 @@ ht-degree: 100%
 
 **預覽和測試**
 
-* 身分和命名空間現在會顯示在&#x200B;**[!UICONTROL 預覽]**&#x200B;畫面中。[閱讀全文](../content-management/preview-test.md#preview-your-messages)
+* 身分識別和命名空間現在會顯示在&#x200B;**[!UICONTROL 預覽]**&#x200B;畫面中。[閱讀全文](../content-management/preview-test.md#preview-your-messages)
 * 校樣的測試電子郵件數目現在限制為 10 則。
 * 已在校樣中限制&#x200B;**主旨行首碼** 允許的字元。 [閱讀全文](../content-management/preview-test.md#send-proofs)
 

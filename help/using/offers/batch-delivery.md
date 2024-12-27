@@ -8,7 +8,7 @@ exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '841'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -57,7 +57,7 @@ Journey Optimizer可讓您將優惠決定傳送給特定Adobe Experience Platfor
 
    ![](assets/batch-decision.png)
 
-1. 依預設，會為每個設定檔傳回一個決定範圍優惠。 您可以使用每個設定檔&#x200B;**[!UICONTROL 要求選件]**&#x200B;選項來調整傳回的選件數目。 例如，如果您選取2，則會針對所選決定範圍顯示最佳的2個優惠方案。
+1. 依預設，會為每個設定檔傳回一個決定範圍優惠。 您可以使用每個設定檔&#x200B;**[!UICONTROL 要求選件]**&#x200B;選項來調整傳回的選件數目。 例如，您若選取「2」，則會針對所選取的決策範圍顯示最佳的 2 項產品建議。
 
    >[!NOTE]
    >

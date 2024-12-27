@@ -131,7 +131,7 @@ ht-degree: 16%
 
   在[本節](creating-decision-rules.md)中進一步了解決定規則。
 
-## 頻率限定 {#capping}
+## 頻率上限 {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
@@ -172,7 +172,7 @@ ht-degree: 16%
 >
 >優惠到期時或優惠方案開始日期後2年（以先到者為準）時，上限計數器會重設。 在[本節](creating-personalized-offers.md#create-offer)中瞭解如何定義優惠方案的日期。
 
-### 頻率限定事件 {#capping-event}
+### 頻率上限事件 {#capping-event}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping_impression"
@@ -215,7 +215,7 @@ ht-degree: 16%
 >
 >若要確保在上限計數器中已追蹤和說明每個上限事件，請確定用於收集體驗事件的結構描述包含該事件的正確欄位群組。 [了解更多](../data-collection/schema-requirement.md)
 
-### 頻率限定類型 {#capping-type}
+### 頻率上限類型 {#capping-type}
 
 您可以指定是否要將上限套用至所有使用者或一個特定設定檔：
 
@@ -241,12 +241,12 @@ ht-degree: 16%
 
 例如，您定義了自訂上限事件，例如將結帳次數納入考量。 如果您在&#x200B;**[!UICONTROL 上限計數限制]**&#x200B;欄位中輸入10，則在10次結帳後不會再傳送優惠。
 
-### 頻率限定 {#frequency-capping}
+### 頻率上限 {#frequency-capping}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="設定上限頻率"
->abstract="您可以選擇每天、每週或每月重設優惠上限計數器。請注意，啟用頻率限定並發佈優惠後，您將無法變更已定義的頻率。"
+>abstract="您可以選擇每天、每週或每月重設優惠上限計數器。請注意，啟用頻率上限並發佈優惠後，您將無法變更已定義的頻率。"
 
 **[!UICONTROL 重設上限頻率]**&#x200B;欄位可讓您定義上限計數的重設頻率。 若要這麼做，請定義盤點的期間（每日、每週或每月），並輸入您選擇的天數/周數/月數。 例如，如果您希望每兩週重設一次上限計數，請從對應的下拉式清單中選取&#x200B;**[!UICONTROL 每週]**，然後在另一個欄位中輸入&#x200B;**2**。
 
@@ -287,7 +287,7 @@ ht-degree: 16%
 
   例如，如果優惠方案有&#x200B;**電子郵件**&#x200B;版位和&#x200B;**網路**&#x200B;版位，而您將每個版位&#x200B;**的最高限定設為每個設定檔** 2，則每個設定檔最多可以接收電子郵件版位2次優惠方案，以及網路版位2次優惠方案。
 
-### 變更日期對頻率限定的影響 {#capping-change-date}
+### 變更日期對頻率上限的影響 {#capping-change-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"

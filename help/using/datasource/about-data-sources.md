@@ -36,7 +36,7 @@ ht-degree: 66%
 
 資料來源有兩種類型：
 
-* 預先設定的 Adobe Experience Platform 資料來源可定義「即時客戶個人檔案服務」的連線，這是內建的資料來源。請參閱[此頁面](../datasource/adobe-experience-platform-data-source.md)。
+* 預先設定的 Adobe Experience Platform 資料來源可定義「即時客戶輪廓服務」的連線，這是內建的資料來源。請參閱[此頁面](../datasource/adobe-experience-platform-data-source.md)。
 * 外部資料來源可讓您定義外部系統的連線，這些是您可以建立的資料來源。請參閱[此頁面](../datasource/external-data-sources.md)。
 
 >[!NOTE]
@@ -51,7 +51,7 @@ ht-degree: 66%
 
 如需如何設定Adobe Experience Platform Data Source和外部資料來源，以及如何在歷程中尋找和使用資料的詳細資訊，請觀看此[教學課程影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}。
 
-## 操作說明影片 {#video}
+## 作法影片 {#video}
 
 了解資料來源為何，以及如何設定 Experience Platform 和外部資料來源。
 

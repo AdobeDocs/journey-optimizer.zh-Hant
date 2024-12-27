@@ -17,7 +17,7 @@ ht-degree: 31%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"
->title="版位"
+>title="刊登"
 >abstract="產品建議放置環境是用於展示產品建議的容器。它有助於確保正確的優惠內容顯示在訊息中的正確位置。產品建議放置環境是從「元件」選單建立的。"
 
 >[!CONTEXTUALHELP]
@@ -81,7 +81,7 @@ ht-degree: 31%
 
    ![](../assets/placement_created.png)
 
-## 操作說明影片{#video}
+## 作法影片{#video}
 
 瞭解如何在決定管理中建立刊登版位。
 

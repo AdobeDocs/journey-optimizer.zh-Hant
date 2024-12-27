@@ -56,7 +56,7 @@ ht-degree: 23%
    >* **曝光事件** （顯示的選件）
    >* **轉換事件** （透過電子郵件或網頁產生點按的優惠方案）。
    >
-   >系統會使用提供的Web SDK或Mobile SDK自動擷取這些事件。 在[Adobe Experience Platform Web SDK總覽](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)中進一步瞭解此專案。
+   >系統會使用所提供的網頁SDK或行動SDK自動擷取這些事件。 在[Adobe Experience Platform Web SDK概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)中進一步瞭解此資訊。
 
 1. 選取轉換和曝光事件收集所在的資料集。 瞭解如何在[此區段](../data-collection/create-dataset.md)中建立這類資料集。<!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
@@ -90,7 +90,7 @@ ht-degree: 23%
 
 若要能夠在事件型別（顯示優惠或按一下優惠）中傳送，您必須在傳送至Adobe Experience Platform的體驗事件中，為每個事件型別設定正確的值。 [了解作法](../data-collection/schema-requirement.md)
 
-## 操作說明影片 {#video}
+## 作法影片 {#video}
 
 瞭解如何建立個人化最佳化模型，以及如何將其套用至決定。
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 自訂上傳(CSV)和同盟對象構成
+title: 自訂上傳 (CSV) 和聯合客群構成
 description: 瞭解使用自訂上傳(CSV)和同盟受眾構成受眾時的重要資訊和最佳實務。
 feature: Audiences, Profiles
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: d2365e3f-fbef-43c2-bf2a-0a868cb93015
 source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# 自訂上傳(CSV)和同盟對象構成 {#csv-fac}
+# 自訂上傳 (CSV) 和聯合客群構成 {#csv-fac}
 
 ## 關於自訂上傳和同盟對象構成 {#about}
 

@@ -246,7 +246,7 @@ UI接管選項預設為啟用，可讓您讓應用程式內訊息背後的背景
 * [應用程式內報告](../reports/campaign-global-report-cja-inapp.md)
 * [應用程式內設定](inapp-configuration.md)
 
-## 操作說明影片{#video}
+## 作法影片{#video}
 
 以下影片說明如何編寫和測試您的應用程式內訊息。
 

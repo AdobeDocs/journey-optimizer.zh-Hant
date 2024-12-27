@@ -41,7 +41,7 @@ ht-degree: 45%
 * 僅支援POST和PUT呼叫方法。 
 * 查詢參數或標題的名稱不得以「.」開頭 或「$」。 
 * 不允許IP位址。 
-* 內部 Adobe 位址 (.adobe.) 是不允許的。
+* 不允許內部Adobe位址(.adobe.)。
 
 ## 事件限制 {#events-limitations}
 

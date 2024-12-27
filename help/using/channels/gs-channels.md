@@ -69,7 +69,7 @@ Adobe Journey Optimizer提供多種溝通管道，讓您有效與對象互動。
 <td><a href="../in-app/get-started-in-app.md"><img alt="應用程式內" src="assets/do-not-localize/inapp.jpg"></a>
 <div align="center"><a href="../in-app/get-started-in-app.md"><strong>應用程式內</strong></a></div></td>
 <td><a href="../web/get-started-web.md"><img alt="網頁" src="assets/do-not-localize/web.jpg"></a>
-<div align="center"><a href="../web/get-started-web.md"><strong>網路</strong></a></div></td>
+<div align="center"><a href="../web/get-started-web.md"><strong>網頁</strong></a></div></td>
 <td><a href="../code-based/get-started-code-based.md"><img alt="程式碼型體驗" src="assets/do-not-localize/code.png"></a>
 <div align="center"><a href="../code-based/get-started-code-based.md"><strong>程式碼型體驗</strong></a></div></td>
 <td><a href="../content-card/get-started-content-card.md"><img alt="內容卡片" src="assets/do-not-localize/cards.png"></a>

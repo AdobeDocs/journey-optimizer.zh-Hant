@@ -63,7 +63,7 @@ ht-degree: 9%
    屬性會組織為三個索引標籤：
 
    * **[!UICONTROL 設定檔]**：
-      * **[!UICONTROL 對象]**&#x200B;列出所有對象屬性（即狀態、版本等） 針對[Adobe Experience Platform細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant)，
+      * **[!UICONTROL 對象]**&#x200B;列出[Adobe Experience Platform細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant)的所有對象屬性（即狀態、版本等）。
       * **[!UICONTROL XDM個人設定檔]**&#x200B;列出與Adobe Experience Platform中定義的[體驗資料模型(XDM)結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)相關聯的所有設定檔屬性。
    * **[!UICONTROL 內容]**：當您的訊息用於歷程時，內容歷程欄位可透過此索引標籤使用。
    * **[!UICONTROL 對象]**：列出從[Adobe Experience Platform細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant)中建立的區段定義產生的所有對象。

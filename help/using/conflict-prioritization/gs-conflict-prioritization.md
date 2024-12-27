@@ -4,21 +4,21 @@ description: 瞭解如何善用Journey Optimizer衝突和優先順序工具。
 role: User
 level: Beginner
 badge: label="有限可用性"
-source-git-commit: a7fdde15f7c491fd9a3b1fef898f018ba9954cde
+exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 1%
+ht-degree: 15%
 
 ---
-
 
 # 衝突管理與優先順序 {#conflict-prioritization}
 
 >[!AVAILABILITY]
 >
->衝突和優先順序功能目前在「有限可用性」中提供給選定的客戶群組。 請注意，這些功能將在未來逐步向更多使用者推出。 如果您有興趣新增至這些功能的輪候表，請洽詢您的客戶團隊。
+>衝突和優先順序功能目前在「有限可用性」中提供給選定的客戶群組。 請注意，未來將會向更多使用者逐步推出以上功能。 如果您有興趣加入上述功能的等候名單，請洽詢客戶團隊。
 
-在Journey Optimizer中，管理行銷活動和歷程的數量和時機是避免客戶因太多互動而感到不知所措的關鍵。 Journey Optimizer提供數個衝突管理和優先順序的工具。
+在 Journey Optimizer 中，管理行銷活動和歷程的數量和時機，正是避免客戶因互動次數過於頻繁而感到不知所措的重要關鍵。 Journey Optimizer提供數個衝突管理和優先順序的工具。
 
 使用&#x200B;**衝突偵測工具**，您可以識別歷程與行銷活動中的潛在重疊。 這很重要，因為太多的同時通訊可能會導致客戶疲勞。 Journey Optimizer可讓您監視時間軸、對象重疊和頻道設定等元素。 透過及早識別衝突，您可以調整行銷活動，以避免同時使用多則訊息轟炸客戶。 [瞭解如何偵測歷程與行銷活動中的潛在衝突](conflicts.md)
 

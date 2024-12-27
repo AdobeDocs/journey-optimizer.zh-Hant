@@ -8,10 +8,11 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 資料、治理、DULE、標籤、標籤、平台、原則
-source-git-commit: 7f54200facc8845d5c39bb5d16751ed49579ea8a
+exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 97%
 
 ## 開始使用資料治理原則 {#gs}
 
-透過其[資料使用標籤和實行(DULE)控管](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=zh-Hant){target="_blank"}架構，Adobe Experience Platform可讓您藉由&#x200B;**為欄位加上標籤**&#x200B;並為每個管道建立&#x200B;**行銷動作**，跨管道管理和實行資料控管原則。
+透過[資料使用標籤和實作 (DULE) 治理](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=zh-Hant){target="_blank"}框架，Adobe Experience Platform 讓您可以透過&#x200B;**為欄位加上標籤**，並為每個頻道建立&#x200B;**行銷動作**，跨頻道管理並強制執行資料治理原則。
 
 定義標籤與行銷動作後，您可以建立連結這兩個元素的&#x200B;**資料治理原則**。例如，您可以設定將「ePHI」標籤與「電子郵件目標定位」行銷動作建立關聯的原則，確保標記為「ePHI」的欄位不會用於個人化電子郵件訊息。[了解如何建立資料治理原則](#governance-policies)
 

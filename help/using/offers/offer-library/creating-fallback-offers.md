@@ -55,7 +55,7 @@ ht-degree: 4%
 
    ![](../assets/fallback_created.png)
 
-## 操作說明影片 {#video}
+## 作法影片 {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

@@ -56,7 +56,7 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
->title="版位"
+>title="刊登"
 >abstract="選取用於傳遞產品建議的放置環境。"
 
 >[!CONTEXTUALHELP]
@@ -396,7 +396,7 @@ ht-degree: 8%
 
 ![](../assets/decision_information.png)
 
-## 操作說明影片{#video}
+## 作法影片{#video}
 
 瞭解如何在決定管理中建立優惠活動。
 

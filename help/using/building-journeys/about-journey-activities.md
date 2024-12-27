@@ -54,7 +54,7 @@ ht-degree: 12%
 
 從浮動視窗的畫面左側，**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 協調流程]**&#x200B;下方，可以找到&#x200B;**[!UICONTROL 動作]**&#x200B;類別。 可使用下列動作活動：
 
-* [內建頻道動作](../building-journeys/journeys-message.md)
+* [內建管道動作](../building-journeys/journeys-message.md)
 * [自訂動作](../building-journeys/using-custom-actions.md)
 * [跳轉](../building-journeys/jump.md)
 

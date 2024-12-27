@@ -29,9 +29,9 @@ ht-degree: 16%
 
 檢視可定義為整個網站或網站上一組視覺元素，例如首頁、整個產品網站或所有結帳頁面上的傳遞偏好設定框架。
 
-需要一次性開發人員設定，才能定義Adobe Experience Platform Web SDK實作中的檢視。 這可讓您在SPA上建立並執行Adobe Journey Optimizer網路行銷活動。
+需要一次性開發人員設定，才能在Adobe Experience Platform Web SDK實作中定義檢視。 這可讓您在SPA上建立並執行Adobe Journey Optimizer網路行銷活動。
 
-## 在Web SDK實作中定義檢視 {#define-views}
+## 在網頁SDK實作中定義檢視 {#define-views}
 
 Adobe[!DNL Journey Optimizer]可運用XDM檢視，讓行銷人員透過網頁視覺化編輯器在SPA上執行網頁個人化和實驗行銷活動。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hant){target="_blank"}
 
@@ -39,7 +39,7 @@ Adobe[!DNL Journey Optimizer]可運用XDM檢視，讓行銷人員透過網頁視
 
 ## 在網頁設計工具中探索檢視 {#discover-views}
 
-在Adobe Experience Platform Web SDK實作中完成SPA設定後，您必須導覽您要套用修改之網站的所有檢視。 請遵循下列步驟。
+在Adobe Experience Platform Web SDK實作中完成SPA設定後，您需要導覽您要套用修改之網站的所有檢視。 請遵循下列步驟。
 
 1. [建立網頁歷程或行銷活動](create-web.md)並存取[網頁設計工具](web-visual-editor.md)。
 
@@ -81,7 +81,7 @@ Adobe[!DNL Journey Optimizer]可運用XDM檢視，讓行銷人員透過網頁視
 
    ![](assets/web-designer-modifications-applied-view.png)
 
-## 操作說明影片{#video}
+## 作法影片{#video}
 
 此影片說明如何：
 

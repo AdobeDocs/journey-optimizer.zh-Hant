@@ -11,7 +11,7 @@ exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
 source-wordcount: '848'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->自2024年11月1日起，串流區段將不再支援使用來自Journey Optimizer追蹤和意見反應資料集的傳送和開啟事件。 此外，自2025年2月起，存留時間(TTL)護欄將推出至Journey Optimizer系統產生的資料集。 [了解更多](datasets-ttl.md)
+>自 2024 年 11 月 1 日起，串流細分將不再支援使用 Journey Optimizer 追蹤和回饋意見資料集中的傳送和未結事件功能。 此外，自 2025 年 2 月起，將對 Journey Optimizer 系統產生的資料集正式推出存留時間 (TTL) 護欄。 [了解更多](datasets-ttl.md)
 
 選取資料集名稱，以存取其「資料集」活動畫面，並查看所選取資料集的詳細資訊。 活動索引標籤包含將所使用訊息的比率視覺化的圖形，以及成功和失敗批次的清單。
 

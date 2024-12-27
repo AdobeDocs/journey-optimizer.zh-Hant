@@ -27,9 +27,9 @@ ht-degree: 2%
 
 ## 使用者端實施 {#client-side-implementation}
 
-如果您是使用者端實作，則可以使用其中一個AEP使用者端SDK：AEP Web SDK或AEP Mobile SDK。
+如果您是使用者端實施，則可以使用其中一個AEP使用者端SDK：AEP Web SDK或AEP Mobile SDK。
 
-* 步驟[如下](#client-side-how)說明在範例&#x200B;**Web SDK**&#x200B;實作中，擷取程式碼式體驗歷程和行銷活動在Edge上發佈的內容並顯示個人化內容的程式。
+* 步驟[如下](#client-side-how)說明在範例&#x200B;**網頁SDK**&#x200B;實作中，由程式碼型體驗歷程和行銷活動擷取在Edge上發佈的內容並顯示個人化內容的程式。
 
 * 在[本教學課程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}中說明使用&#x200B;**Mobile SDK**&#x200B;實作程式碼式頻道的步驟。
 
@@ -37,9 +37,9 @@ ht-degree: 2%
   >
   >[iOS應用程式](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"}和[Android應用程式](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}有行動使用案例的範例實作。
 
-### 運作方式 — Web SDK {#client-side-how}
+### 運作方式 — 網頁SDK {#client-side-how}
 
-1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}已包含在此頁面上。
+1. [網頁版SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}已包含在此頁面上。
 
 1. 您必須使用`sendEvent`命令並指定[表面URI](code-based-surface.md)<!--( or location/path)-->來擷取個人化內容。
 
@@ -116,7 +116,7 @@ ht-degree: 2%
 
 **Cookie**
 
-Cookie可用來儲存使用者身分和叢集資訊。 使用使用者端實作時，Web SDK會在請求生命週期期間自動處理這些Cookie的儲存和傳送。
+Cookie可用來儲存使用者身分和叢集資訊。 使用使用者端實作時，Web SDK會在請求生命週期中自動處理這些Cookie的儲存和傳送。
 
 | Cookie | 目的 | 儲存者 | 傳送者 |
 | ------------------------ | -------------------------------------------------------------------------- | --------- | ------- |
@@ -145,7 +145,7 @@ Cookie可用來儲存使用者身分和叢集資訊。 使用使用者端實作�
 ### 運作方式
 
 1. 已要求網頁，而且已包含先前由瀏覽器儲存且前置詞為`kndctr_`的任何Cookie。
-1. 從應用程式伺服器要求頁面時，會傳送事件至[互動式資料收集端點](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html)，以擷取個人化內容。 此範例應用程式使用一些協助程式方法來簡化建立及傳送要求至API的程式（請參閱[aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}）。 但要求只是`POST`，其裝載包含事件和查詢。 先前步驟的Cookie （如果可用）包含在`meta>state>entries`陣列中的請求中。
+1. 從應用程式伺服器要求頁面時，會傳送事件至[互動式資料收集端點](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hant)，以擷取個人化內容。 此範例應用程式使用一些協助程式方法來簡化建立及傳送要求至API的程式（請參閱[aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}）。 但要求只是`POST`，其裝載包含事件和查詢。 先前步驟的Cookie （如果可用）包含在`meta>state>entries`陣列中的請求中。
 
    ```javascript
    fetch(
@@ -305,5 +305,5 @@ Cookie可用來儲存使用者身分和叢集資訊。 使用伺服器端實作�
 
 如果您採用混合式實作，請參閱下列連結。
 
-* Adobe技術部落格： Adobe Experience Platform Web SDK中的[Hybrid Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK檔案： [使用Web SDK和Edge Network伺服器API的混合個人化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+* Adobe技術部落格： [Adobe Experience Platform Web SDK中的Hybrid Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
+* SDK檔案： [使用網頁SDK和Edge Network伺服器API的混合個人化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}

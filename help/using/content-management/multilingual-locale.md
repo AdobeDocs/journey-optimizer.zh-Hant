@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+exl-id: 0b0e9344-f1ca-4aed-b143-facaa74c9b29
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 29%
@@ -35,4 +36,3 @@ ht-degree: 29%
 1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以建立您的地區設定。
 
    ![](assets/locale_2.png)
-

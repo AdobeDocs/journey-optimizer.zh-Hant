@@ -7,19 +7,19 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform、資料湖、建立、湖、資料集、輪廓
-source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
+exl-id: 08633a79-5601-4e36-b8cf-080234956d99
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 5%
+ht-degree: 13%
 
 ---
-
 
 # 存留時間和串流細分變更 {#ttl-guardrail}
 
 ## 串流區段更新 {#segmentation-update}
 
-自2024年11月1日起，串流區段將不再支援使用來自Journey Optimizer追蹤和意見反應資料集的傳送和開啟事件。 此變更將套用至所有客戶沙箱和組織。 有關過去不鼓勵此作法的資訊，請參閱[這裡](../audience/about-audiences.md#streaming-segmentation-events-guardrails)。
+自 2024 年 11 月 1 日起，串流細分將不再支援使用 Journey Optimizer 追蹤和回饋意見資料集中的傳送和未結事件功能。 會將此變更套用至所有客戶沙箱和組織中。 有關過去不鼓勵此作法的資訊，請參閱[這裡](../audience/about-audiences.md#streaming-segmentation-events-guardrails)。
 
 **常見問題**
 

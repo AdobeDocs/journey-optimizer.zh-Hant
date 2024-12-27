@@ -18,7 +18,7 @@ ht-degree: 5%
 
 # 使用Adobe Analytics資料 {#analytics-data}
 
-您可以善用已透過Adobe Analytics或Web SDK擷取並串流至Adobe Experience Platform的所有網頁行為事件資料，以觸發歷程並自動化客戶體驗。
+您可以善用已透過Adobe Analytics或Web SDK擷取並串流至Adobe Experience Platform的所有網站行為事件資料，以觸發歷程並自動化客戶體驗。
 
 為了讓此功能與Adobe Analytics搭配使用，您必須：
 

@@ -372,7 +372,7 @@ Datetimeonly可以與Datetimeonly比較。
 
 傳回1。
 
-## Math {#math}
+## 數學 {#math}
 
 ### 是數值
 

@@ -90,6 +90,6 @@ ht-degree: 19%
 
 運用這些功能，您就能確保行銷努力一致，並在溝通策略中維持正確的平衡。
 
-## 操作說明影片 {#video}
+## 作法影片 {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3435528?quality=12)

@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: 2f5195f209c5e0e5665722b7c1e12e164acc587e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '316'
+ht-degree: 13%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ![](assets/fragment-list.png)
 
-## 操作說明影片 {#video-fragments}
+## 作法影片 {#video-fragments}
 
 瞭解如何在[!DNL Journey Optimizer]中管理、編寫及使用&#x200B;**視覺化片段**。
 

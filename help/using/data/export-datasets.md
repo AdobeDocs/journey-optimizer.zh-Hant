@@ -6,7 +6,7 @@ description: 瞭解如何使用Adobe Experience Platform雲端儲存空間目的
 feature: Datasets
 role: User
 level: Beginner
-keywords: platform、資料湖、建立、湖、資料集、設定檔
+keywords: platform、資料湖、建立、湖、資料集、輪廓
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
@@ -71,9 +71,9 @@ Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
 
 | 類別 | 權限 |
 |--|--|
-| 目的地 | 管理和啟用資料集目的地 |
+| 目標 | 管理和啟用資料集目的地 |
 | 資料管理 | 檢視資料集 |
-| 目的地 | 檢視目的地 |
+| 目標 | 檢視目的地 |
 
 ## 匯出資料集的關鍵步驟 {#main-steps}
 

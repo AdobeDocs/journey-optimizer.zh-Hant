@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: f736dcc7-6f6e-42ff-a940-4602299ae2b6
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '125'
+ht-degree: 100%
 
 ---
 
 # 開始使用排名 {#create-fallback-offers}
 
-[!DNL Journey Optimizer] 可讓您使用排名對優惠方案進行排名，以針對指定的設定檔顯示：
+[!DNL Journey Optimizer] 可讓您使用排名對優惠方案進行排名，以針對指定的輪廓顯示：
 
 * **排名公式**&#x200B;可讓您定義規則，以決定應先針對指定位置呈現哪個優惠方案，而非考慮優惠方案的優先順序分數。 [深入了解排名公式](create-ranking-formulas.md)
 

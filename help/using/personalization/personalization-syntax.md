@@ -11,7 +11,7 @@ keywords: 運算式，編輯器，語法，個人化
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '721'
 ht-degree: 7%
 
 ---
@@ -50,7 +50,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
-## 設定檔
+## 輪廓
 
 此名稱空間可讓您參考[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}中所述的設定檔結構描述中定義的所有屬性。
 
@@ -128,7 +128,7 @@ Handlebars協助程式是簡單識別碼，後面可能會接著引數。
 每個引數都是Handlebars運算式。 這些協助程式可從範本中的任何內容存取。
 
 這些區塊協助程式是使用協助程式名稱前的#來識別，並需要相同名稱的相符結尾/ 。
-區塊是具有區塊開啟({{# }}) and closing ({{/}})的運算式。
+區塊是具有區塊開啟({{# }})和結束({{/}})的運算式。
 
 
 >[!NOTE]
@@ -153,7 +153,7 @@ Handlebars協助程式是簡單識別碼，後面可能會接著引數。
 
 ## URL PERSONALIZATION{#perso-urls}
 
-個人化 URL 會根據設定檔屬性，將收件者帶往網站特定頁面或個人化微網站。 在Adobe Journey Optimizer中，您可以將個人化新增至訊息內容中的URL。 URL 個人化可套用至文字和影像，同時使用個人資料或內容資料。
+個人化 URL 會根據輪廓屬性，將收件者帶往網站特定頁面或個人化微網站。 在Adobe Journey Optimizer中，您可以將個人化新增至訊息內容中的URL。 URL 個人化可套用至文字和影像，同時使用輪廓或內容資料。
 
 Journey Optimizer可讓您新增個人化欄位，以個人化訊息中的一或多個URL。 若要個人化URL，請遵循下列步驟：
 

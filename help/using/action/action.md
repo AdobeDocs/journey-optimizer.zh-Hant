@@ -45,7 +45,7 @@ ht-degree: 43%
 
 ![](assets/custom1.png)
 
-## 操作說明影片 {#video}
+## 作法影片 {#video}
 
 瞭解如何設定自訂動作。
 

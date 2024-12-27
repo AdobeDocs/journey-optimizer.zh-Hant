@@ -12,7 +12,7 @@ exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 54%
+ht-degree: 55%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 54%
 
 [瞭解如何管理共用資料夾](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}。
 
-## 操作說明影片{#video}
+## 作法影片{#video}
 
 瞭解何謂沙箱，以及如何區分開發沙箱和生產沙箱。 瞭解如何建立、重設和刪除沙箱。
 

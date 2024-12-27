@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 警報
+title: 警示
 description: 瞭解如何管理警報
 feature: Journeys, Alerts
 topic: Administration

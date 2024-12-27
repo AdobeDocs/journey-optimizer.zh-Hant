@@ -53,7 +53,7 @@ ht-degree: 2%
 | | externalKey | 外部金鑰 | 觸發歷程的個別識別碼 |
 | | organizationId | 組織識別碼 | 品牌組織 |
 | | sandboxName | 沙箱名稱 | 沙箱的名稱 |
-| 身分 | profileId | 設定檔識別碼 | 歷程中設定檔的識別碼 |
+| 身分識別 | profileId | 設定檔識別碼 | 歷程中設定檔的識別碼 |
 | | 名稱空間 | 設定檔身分名稱空間 | 歷程中設定檔的名稱空間（範例：ECID） |
 | 目前節點 | currentNodeId | 目前節點識別碼 | 目前活動（節點）的識別碼 |
 | | currentNodeName | 目前節點名稱 | 目前活動的名稱（節點） |

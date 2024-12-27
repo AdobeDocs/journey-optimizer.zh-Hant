@@ -8,13 +8,13 @@ topic: Content Management
 role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙箱，歷程，複製，環境
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 4%
 
 ---
-
 
 # 將Journey Optimizer物件複製到另一個沙箱 {#copy-to-sandbox}
 

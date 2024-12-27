@@ -41,7 +41,7 @@ ht-degree: 35%
 
 ## 運用設定檔資料個人化您的訊息 {#data}
 
-根據由 Adobe Experience Platform 定義的 **XDM 個人設定檔**&#x200B;方案管理的設定檔資料進行個人化。 在[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
+根據由 Adobe Experience Platform 定義的 **XDM 個人輪廓**&#x200B;方案管理的輪廓資料進行個人化。 在[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
 
 >[!CAUTION]
 >**XDM Individual Profile**&#x200B;結構描述是唯一可用來個人化[!DNL Journey Optimizer]中內容的結構描述。

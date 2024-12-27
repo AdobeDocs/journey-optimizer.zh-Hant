@@ -19,32 +19,32 @@ ht-degree: 1%
 
 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview)是使用者端的JavaScript資料庫，可讓Adobe Experience Cloud客戶透過Experience PlatformEdge Network與Experience Cloud中的各種服務互動。
 
-Experience Platform Web SDK支援Adobe查詢個人化解決方案，包括決定管理，可讓您擷取並轉譯您使用API或優惠資料庫建立的個人化優惠。 如需詳細指示，請參閱有關[建立選件](../../get-started/starting-offer-decisioning.md)的檔案。
+Experience PlatformWeb SDK支援Adobe查詢個人化解決方案，包括決定管理，可讓您擷取並轉譯您使用API或優惠資料庫建立的個人化優惠。 如需詳細指示，請參閱有關[建立選件](../../get-started/starting-offer-decisioning.md)的檔案。
 
-有兩種方式可透過[Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview)實作決定管理。 一種方式是針對開發人員，且需要網站和程式設計知識。 另一種方式是使用Adobe Experience Platform使用者介面來設定選件，這只需要在HTML頁面的標頭中參照小型指令碼。
+有兩種方式可透過[平台Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview)實作決定管理。 一種方式是針對開發人員，且需要網站和程式設計知識。 另一種方式是使用Adobe Experience Platform使用者介面來設定選件，這只需要在HTML頁面的標頭中參照小型指令碼。
 
-如需有關如何使用Adobe Experience Platform Web SDK提供個人化優惠的詳細資訊，請參閱有關[決定管理](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning)的Adobe Experience Platform檔案。
+如需有關如何使用Adobe Experience Platform Web SDK來提供個人化優惠的詳細資訊，請參閱[決定管理](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning)上的Adobe Experience Platform檔案。
 
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 
-Platform Web SDK會取代下列SDK：
+Platform Web SDK已取代下列SDK：
 
 * Visitor.js
 * AppMeasurement.js
 * AT.js
 * DIL.js
 
-SDK並未合併這些程式庫，而是全新實施。 若要使用，您必須先執行下列步驟：
+SDK並未結合這些程式庫，並從頭開始了新的實施。 若要使用，您必須先執行下列步驟：
 
-1. 確保貴組織擁有使用SDK的適當許可權，且您已正確設定許可權。
+1. 確保您的組織具有使用SDK的適當許可權，且您已正確設定許可權。
 
    <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
 1. [在Adobe Experience Cloud帳戶的「資料收集」標籤中設定您的資料串流](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)。
 
-1. 安裝SDK。 有多種方法可以執行此作業，這些方法包含在[安裝SDK頁面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)中。 本頁將繼續提供各種不同的實作方法。
+1. 安裝SDK。 有多種方法可以執行此操作，這些方法包含在[安裝SDK頁面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)中。 本頁將繼續提供各種不同的實作方法。
 
-若要使用SDK，您必須定義[結構描述](../../../data/get-started-schemas.md)和[資料串流](../../../data/get-started-datasets.md)。
+若要使用SDK，您必須定義[結構描述](../../../data/get-started-schemas.md)和[資料流](../../../data/get-started-datasets.md)。
 
 <!-- ****TODO - Configure schema**** -->
 
@@ -68,7 +68,7 @@ SDK並未合併這些程式庫，而是全新實施。 若要使用，您必須�
 
    ![設定擴充功能](../../assets/configure-sdk-extension.png)
 
-1. 建立必要的[資料元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html)。 您至少必須建立Platform Web SDK身分對應和Platform Web SDK XDM物件資料元素。
+1. 建立必要的[資料元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html)。 您至少必須建立Platform Web SDK「身分對應」和Platform Web SDK XDM物件資料元素。
 
    ![身分對應](../../assets/sdk-identity-map.png)
 
@@ -76,7 +76,7 @@ SDK並未合併這些程式庫，而是全新實施。 若要使用，您必須�
 
 1. 建立您的[規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)：
 
-   新增Platform Web SDK傳送事件動作，並將相關decisionScopes新增至該動作的設定
+   新增Platform Web SDK 「傳送事件」動作，並將相關decisionScopes新增至該動作的設定
 
    ![轉譯選件](../../assets/rule-render-offer.png)
 
@@ -105,7 +105,7 @@ javascript
 
 若要尋找您的edgeConfigID/資料串流ID，請前往資料收集並選取您的資料串流。 若要尋找您的orgId，請前往您的設定檔。
 
-依照本頁面上的指示，在JavaScript中設定SDK。 在設定函式中，您一律會使用edgeConfigId和orgId。 本檔案也會說明您的設定有哪些可選引數。 您的最終設定可能會如以下所示：
+依照本頁面的指示，在JavaScript中設定SDK。 在設定函式中，您一律會使用edgeConfigId和orgId。 本檔案也會說明您的設定有哪些可選引數。 您的最終設定可能會如以下所示：
 
 ```
 javascript

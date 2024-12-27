@@ -1,5 +1,5 @@
 ---
-title: 資料收集
+title: 資料彙集
 description: 進一步了解決策管理意見反應資料收集
 feature: Decision Management, Datasets
 topic: Integrations

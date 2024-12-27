@@ -4,13 +4,13 @@ description: 瞭解在發佈您的歷程與行銷活動之前，如何請求核�
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 509ebc377ac8c24db464728b7544eaa96e8e5da4
+exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
 
 ---
-
 
 # 請求核准 {#request-approval}
 
@@ -55,6 +55,3 @@ ht-degree: 0%
 ![](assets/changes-requested.png)
 
 若要處理變更請求，請從電子郵件或警報中將其開啟，以存取歷程或促銷活動，並進行請求的變更。 當您的歷程/行銷活動準備好再次接受檢閱時，請使用&#x200B;**[!UICONTROL 請求核准]**&#x200B;按鈕傳送新的核准請求。
-
-
-

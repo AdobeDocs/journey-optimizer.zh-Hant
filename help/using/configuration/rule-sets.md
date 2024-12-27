@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用規則集(LA)
+title: 使用規則集工作 (LA)
 description: 瞭解如何建立和套用規則集
 feature: Rules
 topic: Content Management
@@ -316,6 +316,6 @@ In this scenario, an individual profile:
 
 +++
 
-## 操作說明影片 {#video}
+## 作法影片 {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 建立測試設定檔
+title: 建立測試輪廓
 description: 瞭解如何建立測試設定檔
 feature: Profiles, Test Profiles
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 ---
 
-# 建立測試設定檔 {#create-test-profiles}
+# 建立測試輪廓 {#create-test-profiles}
 
 在歷程中使用[測試模式](../building-journeys/testing-the-journey.md)時需要測試設定檔，以及[預覽和測試您的內容](../content-management/preview-test.md)。
 
@@ -231,7 +231,7 @@ curl -X POST \
 }'
 ```
 
-## 操作說明影片 {#video}
+## 作法影片 {#video}
 
 瞭解如何建立測試設定檔。
 

@@ -68,7 +68,7 @@ ht-degree: 16%
 
 對象現在可用於您的歷程。 如需詳細資訊，請參閱[本章節](../audience/about-audiences.md)。
 
-## 操作說明影片{#video-segment}
+## 作法影片{#video-segment}
 
 了解 Journey Optimizer 如何使用規則產生客群，以及了解如何使用屬性、事件和現有客群來建立客群。
 

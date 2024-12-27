@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 更新的報告體驗
-description: 開始使用更新的報告體驗
+description: 開始使用已更新的報告體驗
 feature: Reporting
 topic: Content Management
 role: User
@@ -11,17 +11,17 @@ exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
 source-git-commit: a64cfe6a474864df02e18fdb772974d73ec58cc5
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 15%
+ht-degree: 19%
 
 ---
 
-# 開始使用更新的報告體驗 {#channel-report-gs-cja}
+# 開始使用已更新的報告體驗 {#channel-report-gs-cja}
 
 >[!IMPORTANT]
 >
 >Adobe Journey Optimizer中的報告目前標準化為UTC。 自訂報表時區的功能將在未來版本中推出。
 
-Journey Optimizer 報告功能改善與 Customer Journey Analytics 功能的互通性，可將兩個平台間的報告標準化，並改善資料一致性與可靠性。Journey Optimizer 與 Customer Journey Analytics 之間的緊密整合可讓您更清楚檢視績效量度，讓使用者能做出更明智的決策。
+Journey Optimizer 報告功能改善與 Customer Journey Analytics 功能的互通性，可將兩個平台間的報告標準化，並改善資料一致性與可靠性。Journey Optimizer 與 Customer Journey Analytics 之間緊密整合，讓您可以更清楚地檢視效能量度，讓使用者能做出更睿智的決策。
 
 * 如果您想要在歷程內容中鎖定歷程或傳送，請從&#x200B;**[!UICONTROL 歷程]**&#x200B;功能表存取您的歷程，然後按一下&#x200B;**[!UICONTROL 檢視報告]**&#x200B;按鈕。
 
@@ -53,7 +53,7 @@ Journey Optimizer 報告功能改善與 Customer Journey Analytics 功能的互�
 
 * 您的Customer Journey Analytics資料檢視需要以下列設定來設定： **在Adobe Journey Optimizer中設定為預設資料檢視**。 [進一步瞭解資料檢視](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
 
-## 操作說明影片{#video}
+## 作法影片{#video}
 
 以下影片說明如何搭配Customer Journey Analytics使用增強的Journey Optimizer報表。
 

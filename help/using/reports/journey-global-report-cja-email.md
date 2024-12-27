@@ -7,14 +7,15 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 2%
 
 ---
 
-# 以電子郵件傳送歷程報告 {#journey-global-report}
+# 電子郵件歷程報告 {#journey-global-report}
 
 ## 已傳遞vs點選趨勢 {#delivered-click}
 

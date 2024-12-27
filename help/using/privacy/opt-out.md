@@ -59,7 +59,7 @@ ht-degree: 100%
 
 ## 實施個人化同意 {#opt-out-personalization}
 
-您的客戶也可以選擇退出提供的個人化內容。 設定檔從個人化選擇退出後，您需要確保其資料不會用於個人化，且您必須使用遞補變體取代任何個人化內容。
+您的客戶也可以選擇退出提供的個人化內容。 輪廓從個人化選擇退出後，您需要確保其資料不會用於個人化，且您必須使用遞補變體取代任何個人化內容。
 
 ### 在決策管理中 {#opt-out-decision-management}
 
@@ -87,13 +87,13 @@ ht-degree: 100%
 
 如果使用者：
 
-* 同意個人化，決定範圍將決定該設定檔的最佳優惠。
+* 同意個人化，決定範圍將決定該輪廓的最佳優惠。
 
-* 未同意個人化，對應的設定檔將不符合評估條件中的任何優惠方案資格，因此將收到非個人化的遞補優惠方案。
+* 未同意個人化，對應的輪廓將不符合評估條件中的任何優惠方案資格，因此將收到非個人化的遞補優惠方案。
 
 >[!NOTE]
 >
->尚未支援 [!DNL Journey Optimizer] 中將設定檔資料用於[資料模式](../offers/ranking/ai-models.md)的同意。
+>尚未支援 [!DNL Journey Optimizer] 中將輪廓資料用於[資料模式](../offers/ranking/ai-models.md)的同意。
 
 ### 在個人化編輯器中 {#opt-out-expression-editor}
 
@@ -109,7 +109,7 @@ ht-degree: 100%
 
 * 您可以在客群建立過程中加入同意原則定義，以確保為行銷活動選取的客群已&#x200B;**篩選掉不符合同意條件的輪廓**。 
 
-* [!DNL Journey Optimizer] 將在頻道層級執行一般同意檢查，**確保設定檔已選擇**&#x200B;接收對應頻道上的行銷通訊。
+* [!DNL Journey Optimizer] 將在頻道層級執行一般同意檢查，**確保輪廓已選擇**&#x200B;接收對應頻道上的行銷通訊。
 
   >[!NOTE]
   >
@@ -125,7 +125,7 @@ ht-degree: 100%
 
    ![](assets/perso-consent-audience-build-rule.png)
 
-1. 選取設定檔屬性，例如&#x200B;**[!UICONTROL 個人化內容 = 否 (選擇退出)]**，排除未同意個人化的使用者。
+1. 選取輪廓屬性，例如&#x200B;**[!UICONTROL 個人化內容 = 否 (選擇退出)]**，排除未同意個人化的使用者。
 
    ![](assets/perso-consent-audience-no.png)
 
@@ -151,7 +151,7 @@ ht-degree: 100%
 
    ![](assets/perso-consent-audience-attribute-split.png)
 
-1. 按一下&#x200B;**[!UICONTROL 屬性]**&#x200B;欄位旁邊的鉛筆圖示，以開啟&#x200B;**[!UICONTROL 選取設定檔屬性]**&#x200B;視窗。
+1. 按一下&#x200B;**[!UICONTROL 屬性]**&#x200B;欄位旁邊的鉛筆圖示，以開啟&#x200B;**[!UICONTROL 選取輪廓屬性]**&#x200B;視窗。
 
 1. 搜尋個人化同意屬性 (`profile.consents.personalize.content.val`) 並加以選取。
 
@@ -165,7 +165,7 @@ ht-degree: 100%
 
    ![](assets/perso-consent-audience-path-1-n.png)
 
-1. 您可以為其他選擇值建立個別路徑。 您也可以選擇刪除其餘路徑，然後開啟&#x200B;**[!UICONTROL 其他設定檔]**&#x200B;以包含沒有 `n` 選擇值的所有其他設定檔。
+1. 您可以為其他選擇值建立個別路徑。 您也可以選擇刪除其餘路徑，然後開啟&#x200B;**[!UICONTROL 其他輪廓]**&#x200B;以包含沒有 `n` 選擇值的所有其他輪廓。
 
 1. 完成後，請對每個路徑按一下&#x200B;**[!UICONTROL 儲存客群]**，以將工作流程的結果儲存至新客群。 每個路徑都會將一個客群儲存至 Adobe Experience Platform。
 

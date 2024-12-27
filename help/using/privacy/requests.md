@@ -40,7 +40,7 @@ Privacy Service 支援兩種類型的請求：**資料存取**&#x200B;和&#x200B
 
 >[!NOTE]
 >
->本指南僅涵蓋向 Adobe Journey Optimizer 提出隱私權請求的方法。如果您也計劃向 Platform Data Lake 提出隱私權請求，除了本教學課程以外，也請參閱此[指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/privacy)。若為即時客戶設定檔，請參閱此[指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/privacy)，若為身分服務，請參閱此[指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/privacy)。對於刪除及存取請求，您需要呼叫這些個體系統，以確保每個系統都能處理請求。 向 Adobe Journey Optimizer 提出隱私權請求並不會移除所有這些系統的資料。
+>本指南僅涵蓋向 Adobe Journey Optimizer 提出隱私權請求的方法。如果您也計劃向 Platform Data Lake 提出隱私權請求，除了本教學課程以外，也請參閱此[指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/privacy)。若為即時客戶輪廓，請參閱此[指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/privacy)，若為身分識別服務，請參閱此[指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/privacy)。對於刪除及存取請求，您需要呼叫這些個體系統，以確保每個系統都能處理請求。 向 Adobe Journey Optimizer 提出隱私權請求並不會移除所有這些系統的資料。
 
 對於&#x200B;**存取請求**，從 UI 指定「Adobe Journey Optimizer」(或「CJM」作為 API 的產品程式碼)。
 

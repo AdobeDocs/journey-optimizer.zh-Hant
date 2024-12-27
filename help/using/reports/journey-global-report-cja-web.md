@@ -7,14 +7,15 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 7591a07b-1680-4081-a745-192755d35371
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 2%
 
 ---
 
-# 網站歷程報告 {#journey-global-report}
+# 網頁歷程報告 {#journey-global-report}
 
 ## 曝光與點按趨勢 {#impressions-web}
 
@@ -115,4 +116,3 @@ ht-degree: 2%
 * **[!UICONTROL 不重複顯示]**：訊息開啟的次數，一個設定檔的多個互動未列入考量。
 
 +++
-

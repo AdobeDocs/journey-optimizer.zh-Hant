@@ -122,6 +122,6 @@ ht-degree: 23%
 
 ![](assets/journey-report.png)
 
-## 操作說明影片 {#video}
+## 作法影片 {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

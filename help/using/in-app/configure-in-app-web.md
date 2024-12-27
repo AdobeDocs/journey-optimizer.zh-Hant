@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ## 先決條件 {#prerequisites}
 
-* 請確認您使用的是最新版的&#x200B;**Adobe Experience Platform Web SDK**&#x200B;擴充功能。
+* 確定您使用的是您&#x200B;**Adobe Experience Platform Web SDK**&#x200B;擴充功能的最新版本。
 
 * 在您的&#x200B;**標籤屬性**&#x200B;中安裝&#x200B;**Adobe Experience Platform Web SDK**&#x200B;擴充功能，並啟用&#x200B;**Personalization儲存空間**&#x200B;選項。
 

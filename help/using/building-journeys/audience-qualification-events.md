@@ -11,8 +11,8 @@ keywords: 資格，事件，對象，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1091'
+ht-degree: 10%
 
 ---
 
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 ![](assets/segment-overload.png)
 
-## 操作說明影片 {#video}
+## 作法影片 {#video}
 
 了解客群資格歷程的適用使用案例。 了解如何透過客群資格建立歷程，以及套用哪些最佳實務。
 

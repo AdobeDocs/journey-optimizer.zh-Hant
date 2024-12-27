@@ -1,5 +1,5 @@
 ---
-title: 內容卡片設定Web SDK
+title: 內容卡設定網頁SDK
 description: 在 Web SDK 中設定內容卡支援
 feature: Channel Configuration, Content Cards
 topic: Content Management
@@ -46,7 +46,7 @@ ht-degree: 4%
 
 ## 運作方式 {#setup}
 
-1. 使用範例資料夾中`.env`檔案的設定，在頁面上包含並設定[Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)。
+1. 使用範例資料夾中`.env`檔案的設定，在頁面上包含並設定[網頁SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)。
 
    ```
    <script src="https://cdn1.adoberesources.net/alloy/2.18.0/alloy.min.js" async></script>

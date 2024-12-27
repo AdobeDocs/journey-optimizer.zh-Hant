@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 全域報告
+title: '全域報告 '
 description: 瞭解如何使用全域報告中的資料
 feature: Reporting
 topic: Content Management
@@ -11,7 +11,7 @@ exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '873'
-ht-degree: 28%
+ht-degree: 30%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 28%
 
 >[!AVAILABILITY]
 >
->目前的報告體驗將於2025年1月淘汰。 在此日期之後，新的報告體驗將成為標準體驗。建議您熟悉新功能，以確保順利轉換。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
+>目前的報告體驗將於2025年1月淘汰。 過了上述日期，新的報告體驗就會成為標準版。建議您先自己熟悉一下新的功能，以確保能順利轉換服務。[開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
 
 >[!NOTE]
 >
@@ -136,94 +136,94 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_ctr"
 >title="CTR"
->abstract="CTR Widget"
+>abstract="CTR 小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_clicks"
 >title="點按次數"
->abstract="點按次數 Widget"
+>abstract="點按次數小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_delivered"
 >title="已傳遞"
->abstract="已傳遞的 Widget"
+>abstract="已傳遞的小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_overview"
 >title="Campaign 概觀"
->abstract="Campaign 概觀 Widget"
+>abstract="Campaign 概觀小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_funnel"
 >title="Campaign 漏斗結果"
->abstract="Campaign 漏斗結果 Widget"
+>abstract="Campaign 漏斗結果小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_tracking_link"
 >title="追蹤的連結標籤"
->abstract="追蹤的連結標籤 Widget"
+>abstract="追蹤的連結標籤小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_displays"
 >title="展示次數"
->abstract="展示次數 Widget"
+>abstract="展示次數小工具"
 
 <!--campaign email-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_delivered_click"
 >title="已傳遞與點按趨勢"
->abstract="已傳遞與點按趨勢 Widget"
+>abstract="已傳遞與點按趨勢小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_delivery_status"
 >title="傳遞狀態"
->abstract="傳遞狀態 Widget"
+>abstract="傳遞狀態小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_sending_statistics"
 >title="傳送統計資料"
->abstract="傳送統計資料 Widget"
+>abstract="傳送統計資料小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_tracking_statistics"
 >title="追蹤統計資料"
->abstract="追蹤統計資料 Widget"
+>abstract="追蹤統計資料小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_domains"
 >title="電子郵件網域"
->abstract="電子郵件網域 Widget"
+>abstract="電子郵件網域小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_tracked_link"
 >title="追蹤的連結標籤"
->abstract="追蹤的連結標籤 Widget"
+>abstract="追蹤的連結標籤小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_tracked_link_urls"
 >title="追蹤的連結 URL"
->abstract="追蹤的連結 URL Widget"
+>abstract="追蹤的連結 URL 小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_subjects"
 >title="電子郵件主旨"
->abstract="電子郵件主旨 Widget"
+>abstract="電子郵件主旨小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_bounce_reasons"
 >title="退回原因"
->abstract="退回原因 Widget"
+>abstract="退回原因小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_exclude"
 >title="排除原因"
->abstract="排除原因 Widget"
+>abstract="排除原因小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_error"
 >title="錯誤原因"
->abstract="錯誤原因 Widget"
+>abstract="錯誤原因小工具"
 
 
 <!--campaign push-->
@@ -231,37 +231,37 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_sending_statistics"
 >title="傳送統計資料"
->abstract="傳送統計資料 Widget"
+>abstract="傳送統計資料小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_tracking_statistics"
 >title="追蹤統計資料"
->abstract="追蹤統計資料 Widget"
+>abstract="追蹤統計資料小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_tracked_link"
 >title="追蹤的連結標籤"
->abstract="追蹤的連結標籤 Widget"
+>abstract="追蹤的連結標籤小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_tracked_link_urls"
 >title="追蹤的連結 URL"
->abstract="追蹤的連結 URL Widget"
+>abstract="追蹤的連結 URL 小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_bounce_reasons"
 >title="退回原因"
->abstract="退回原因 Widget"
+>abstract="退回原因小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_exclude"
 >title="排除原因"
->abstract="排除原因 Widget"
+>abstract="排除原因小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_email_error"
 >title="錯誤原因"
->abstract="錯誤原因 Widget"
+>abstract="錯誤原因小工具"
 
 <!--campaign inapp-->
 
@@ -269,32 +269,32 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_impression"
 >title="印象與點按趨勢"
->abstract="印象與點按趨勢 Widget"
+>abstract="印象與點按趨勢小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_clicks"
 >title="點按次數"
->abstract="點按次數 Widget"
+>abstract="點按次數小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_displays"
 >title="展示次數"
->abstract="展示次數 Widget"
+>abstract="展示次數小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_tracking_data"
 >title="追蹤資料"
->abstract="追蹤資料 Widget"
+>abstract="追蹤資料小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_tracked_link"
 >title="追蹤的連結標籤"
->abstract="追蹤的連結標籤 Widget"
+>abstract="追蹤的連結標籤小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_tracked_link_urls"
 >title="追蹤的連結 URL"
->abstract="追蹤的連結 URL Widget"
+>abstract="追蹤的連結 URL 小工具"
 
 <!--campaign sms-->
 
@@ -302,49 +302,49 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_delivered_click"
 >title="已傳遞與點按趨勢"
->abstract="已傳遞與點按趨勢 Widget"
+>abstract="已傳遞與點按趨勢小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_delivery_status"
 >title="傳遞狀態"
->abstract="傳遞狀態 Widget"
+>abstract="傳遞狀態小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_tracked_link"
 >title="追蹤的連結標籤"
->abstract="追蹤的連結標籤 Widget"
+>abstract="追蹤的連結標籤小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_tracked_link_urls"
 >title="追蹤的連結 URL"
->abstract="追蹤的連結 URL Widget"
+>abstract="追蹤的連結 URL 小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_inbound"
 >title="簡訊傳入訊息"
->abstract="簡訊傳入訊息 Widget"
+>abstract="簡訊傳入訊息小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_message_type"
 >title="簡訊類型"
->abstract="簡訊類型 Widget"
+>abstract="簡訊類型小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_providers"
 >title="簡訊提供者"
->abstract="SMS 提供者 Widget"
+>abstract="SMS 提供者小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_bounce"
 >title="退回原因"
->abstract="退回原因 Widget"
+>abstract="退回原因小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_exclude"
 >title="排除原因"
->abstract="排除原因 Widget"
+>abstract="排除原因小工具"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_error"
 >title="錯誤原因"
->abstract="錯誤原因 Widget"
+>abstract="錯誤原因小工具"

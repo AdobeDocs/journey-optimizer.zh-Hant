@@ -12,7 +12,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1268'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 19%
       <a href="../content-card/create-content-card.md">
       <img alt="銷售機會" src="../assets/do-not-localize/sms-config.jpg">
       </a>
-      <div><a href="../content-card/create-content-card.md"><strong>建立內容卡</strong>
+      <div><a href="../content-card/create-content-card.md"><strong>建立內容卡片</strong>
       </div>
       <p>
       </td>

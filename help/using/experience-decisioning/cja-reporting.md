@@ -1,5 +1,5 @@
 ---
-title: 決策報告
+title: Decisioning 上的報告
 description: 瞭解如何針對決策製作報表。
 feature: Decisioning
 topic: Integrations
@@ -10,12 +10,12 @@ exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 
-# 決策報告 {#decisioning-report}
+# Decisioning 上的報告 {#decisioning-report}
 
 ## 程式碼型行銷活動報表 {#campaigns}
 

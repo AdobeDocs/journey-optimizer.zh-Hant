@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 開始使用 Journey Optimizer 的身分
-description: 了解如何在 Adobe Journey Optimizer 管理身分
+title: 開始使用 Journey Optimizer 的身分識別
+description: 了解如何在 Adobe Journey Optimizer 管理身分識別
 feature: Profiles, Identities
 role: User
 level: Beginner
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 ---
 
-# 開始使用身分 {#identities-gs}
+# 開始使用身分識別 {#identities-gs}
 
 身分是實體所獨有的資料，通常是真實世界的物件，例如個人、硬體裝置或網頁瀏覽器。 完全合格的身分包含兩個元素：
 

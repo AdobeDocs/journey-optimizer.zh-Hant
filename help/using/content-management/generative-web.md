@@ -7,7 +7,8 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+exl-id: ebe2df77-4aaa-45b1-a8ce-931d4191cc67
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 2%
@@ -141,4 +142,3 @@ Journey Optimizer中的AI Assistant Content Accelerator可以建議更可能引�
 定義網路行銷活動設定，並使用網頁設計工具視需要編輯內容後，您就可以檢閱及啟用網路行銷活動。 [了解更多](../web/create-web.md#activate-web-campaign)
 
 >[!ENDTABS]
-

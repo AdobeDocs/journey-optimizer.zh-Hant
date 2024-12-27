@@ -1,18 +1,18 @@
 ---
-title: 善用自訂上傳對象以做出決策
+title: 善用自訂上傳對象，以便做決策
 description: 瞭解如何運用自訂上傳對象進行決策。
 feature: Decision Management
 role: User
 level: Intermediate
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-
-# 善用自訂上傳對象以做出決策 {#custom-upload-decisioning}
+# 善用自訂上傳對象，以便做決策 {#custom-upload-decisioning}
 
 透過Journey Optimizer，您可以利用使用自訂上傳（CSV檔案）建立的對象資料至Adobe Experience Platform來支援您的決策管理工作流程。 當設定檔上不需要資料，但在決策用途中仍然是必要資料時，這會特別有用。
 

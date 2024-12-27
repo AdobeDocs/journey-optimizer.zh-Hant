@@ -231,7 +231,7 @@ Create a direct mail and select the **[!UICONTROL Marketing]** category for that
 >
 >測試商業規則時，建議使用新建立的[測試設定檔](../audience/creating-test-profiles.md)，因為一旦達到設定檔的頻率上限，就無法在下個月之前重設計數器。 停用規則將允許限定設定檔接收訊息，但不會移除或刪除任何計數器增量。
 
-## 操作說明影片 {#video}
+## 作法影片 {#video}
 
 瞭解如何建立、啟用、測試及報告商業規則。
 

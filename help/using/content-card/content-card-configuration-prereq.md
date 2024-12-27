@@ -32,7 +32,7 @@ ht-degree: 5%
 
 * **Adobe Experience Platform Mobile或Platform Web SDK**
 
-  若是行動與網頁應用程式，若要新增修改至您的網頁或行動應用程式，您必須在您的網站上實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/implement-web-sdk/overview)，或在行動應用程式上實作[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/)。
+  若要使用行動與網頁應用程式，將修改新增至您的網頁或行動應用程式，您必須在您的網站上實施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/implement-web-sdk/overview)，或在行動應用程式上實施[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/)。
 
 * **Journey Optimizer**
 

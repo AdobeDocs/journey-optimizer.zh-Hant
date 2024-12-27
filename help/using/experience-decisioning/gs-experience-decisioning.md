@@ -1,5 +1,5 @@
 ---
-title: 開始使用決策
+title: 開始使用 Decisioning
 description: 進一步了解決策
 feature: Decisioning
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
-# 開始使用決策 {#get-started-experience-decisioning}
+# 開始使用 Decisioning {#get-started-experience-decisioning}
 
 ## 什麼是決策 {#about}
 

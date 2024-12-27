@@ -99,7 +99,7 @@ ht-degree: 0%
 
 深入瞭解在[本節](#preview-your-messages)中檢查訊息預覽的詳細步驟。
 
-## 操作說明影片{#video-offers}
+## 作法影片{#video-offers}
 
 瞭解如何在[!DNL Journey Optimizer]中新增決定管理元件至訊息。
 

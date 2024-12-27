@@ -20,7 +20,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_live_report"
 >title="歷程即時報告"
->abstract="歷程即時報告可讓您僅在過去 24 小時內對歷程的影響和效能進行即時測量和視覺化。您的報告會分為不同的介面工具，詳細說明您的歷程的成功和錯誤。每個報告儀表板都可以透過調整大小或移除介面工具來修改。"
+>abstract="歷程即時報告可讓您僅在過去 24 小時內對歷程的影響和效能進行即時測量和視覺化。您的報告會分為不同的小工具，詳細說明您的歷程的成功和錯誤。每個報告儀表板都可以透過調整大小或移除小工具來修改。"
 
 從「最近24小時」索引標籤存取的即時報告，會顯示過去24小時內發生的事件，從事件發生起的最短時間間隔為兩分鐘。 相較之下，Customer Journey Analytics報表著重於至少兩小時前發生的事件，並涵蓋選定時段內的事件。
 
@@ -49,7 +49,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance_live"
 >title="歷程的績效"
->abstract="「歷程的績效」Widget 可讓您以視覺化方式追蹤目標輪廓於過去 24 小時內在您的歷程中的進展路徑。"
+>abstract="「歷程的績效」小工具可讓您以視覺化方式追蹤目標輪廓於過去 24 小時內在您的歷程中的進展路徑。"
 
 ![](assets/journey_live_performance.png)
 
@@ -82,7 +82,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed_live"
 >title="過去 24 小時內執行的動作"
->abstract="「過去 24 小時內執行的動作」Widget 提供最近績效的快照，進而呈現過去 24 小時內執行動作的效益。"
+>abstract="「過去 24 小時內執行的動作」小工具提供最近績效的快照，進而呈現過去 24 小時內執行動作的效益。"
 
 ![](assets/journey_live_executed_24hours.png)
 
@@ -101,7 +101,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed__errors_live"
 >title="已執行的動作和錯誤"
->abstract="「已執行的動作和錯誤」Widget 呈現過去 24 小時內觸發動作期間發生的最成功動作和任何錯誤。此 Widget 提供成功執行和所遇到錯誤的全面概觀，為您最近的動作績效提供珍貴的見解。"
+>abstract="「已執行的動作和錯誤」小工具呈現過去 24 小時內觸發動作期間發生的最成功動作和任何錯誤。這個小工具提供成功執行和所遇到錯誤的全面概觀，為您最近的動作績效提供珍貴的見解。"
 
 ![](assets/journey_live_actions_errors.png)
 
@@ -142,7 +142,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_24hours_live"
 >title="過去 24 小時內執行的事件"
->abstract="「過去 24 小時內執行的事件」Widget 可讓您識別過去 24 小時內成功執行哪些事件。 "
+>abstract="「過去 24 小時內執行的事件」小工具可讓您識別過去 24 小時內成功執行哪些事件。 "
 
 ![](assets/journey_live_event_24hours.png)
 
@@ -153,7 +153,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_live"
 >title="事件"
->abstract="「事件」Widget 提供哪些事件已成功執行的全面檢視，進而提供過去 24 小時內詳細深入解析的摘要數字、圖表和表格。"
+>abstract="「事件」小工具提供哪些事件已成功執行的全面檢視，進而提供過去 24 小時內詳細深入解析的摘要數字、圖表和表格。"
 
 ![](assets/journey_live_events.png)
 
@@ -328,7 +328,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers_live"
 >title="電子郵件 - 優惠"
->abstract="「優惠統計資料」和「優惠詳細統計資料」Widget 提供過去 24 小時對優惠績效的全面深入解析，進而提供其長期影響的詳細分析，並呈現詳細的統計資料以供更深入的了解。"
+>abstract="「優惠統計資料」和「優惠詳細統計資料」小工具提供過去 24 小時對優惠績效的全面深入解析，進而提供其長期影響的詳細分析，並呈現詳細的統計資料以供更深入的了解。"
 
 >[!NOTE]
 >
@@ -351,7 +351,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization_live"
 >title="電子郵件 - 最佳化"
->abstract="「傳送時間最佳化」和「最佳化與非最佳化」Widget 提供有關您郵件過去 24 小時的詳細資訊，進而凸顯它們是否已最佳化。"
+>abstract="「傳送時間最佳化」和「最佳化與非最佳化」小工具提供有關您郵件過去 24 小時的詳細資訊，進而凸顯它們是否已最佳化。"
 
 ![](assets/journey_email_sto.png)
 
@@ -523,7 +523,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_performance_live"
 >title="簡訊 - 依日期劃分的績效"
->abstract="「依日期劃分的簡訊效能」介面工具透過圖形呈現方式提供過去 24 小時內有關你的簡訊的重要資訊。"
+>abstract="「依日期劃分的簡訊效能」小工具透過圖形呈現方式提供過去 24 小時內有關你的簡訊的重要資訊。"
 
 ![](assets/journey_live_sms_performance.png)
 

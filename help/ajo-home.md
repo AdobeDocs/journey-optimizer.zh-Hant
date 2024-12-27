@@ -6,7 +6,7 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: a1502d2fa13508650cb9353e53ab3a43de650c27
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 100%
 
@@ -100,7 +100,7 @@ Journey Optimizer 報告功能改進與 Customer Journey Analytics 功能的互�
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
-      <strong>輪廓與客群</strong><br/><a href="using/audience/about-audiences.md">客群</a> - <a href="using/audience/get-started-profiles.md">輪廓</a> - <a href="using/audience/get-started-identity.md">身分</a> - <a href="using/audience/license-usage.md">授權使用情況</a> - <a href="using/privacy/get-started-privacy.md">隱私權管理</a>
+      <strong>輪廓與客群</strong><br/><a href="using/audience/about-audiences.md">客群</a> - <a href="using/audience/get-started-profiles.md">輪廓</a> - <a href="using/audience/get-started-identity.md">身分識別</a> - <a href="using/audience/license-usage.md">授權使用情況</a> - <a href="using/privacy/get-started-privacy.md">隱私權管理</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon-data.svg" width="35px"><br/>

@@ -12,7 +12,7 @@ exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -87,7 +87,7 @@ Adobe Experience Platform可讓您定義結構描述之間的關係，以便將�
 
 ![](assets/schema15.png)
 
-您也可以與物件陣列內部的屬性定義結構描述關係，例如購買資訊清單（產品ID、產品名稱、價格、折扣）。 查閱值將在歷程 (條件、自訂動作等) 和訊息個人化。
+您也可以與物件陣列內部的屬性定義結構描述關係，例如購買資訊清單（產品ID、產品名稱、價格、折扣）。 查閱值將在歷程（條件、自訂動作等）和個人化訊息中使用。
 
 ![](assets/schema16.png)
 

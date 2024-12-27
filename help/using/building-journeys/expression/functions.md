@@ -11,7 +11,7 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
@@ -71,8 +71,8 @@ ht-degree: 68%
 | 清單 | [listSize](../functions/functionlistsize.md) |
 | 清單 | [serializeList](../functions/functionserializelist.md) |
 | 清單 | [sort](../functions/functionsort.md) |
-| Math | [random](../functions/functionrandom.md) |
-| Math | [round](../functions/functionround.md) |
+| 數學 | [random](../functions/functionrandom.md) |
+| 數學 | [round](../functions/functionround.md) |
 | 字串 | [concat](../functions/functionconcat.md) |
 | 字串 | [contain](../functions/functioncontain.md) |
 | 字串 | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |

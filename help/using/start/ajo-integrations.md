@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> Adobe Journey Optimizer 以 Adobe Experience Platform 為基礎，以原生方式連線至 [Adobe 即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}。此內建資料來源已預先設定，且設計旨在從即時客戶個人檔案擷取並使用資料 (例如，檢查進入歷程的人員是否為客戶)。 其可讓您使用個人檔資料與體驗事件資料。 [了解更多](../datasource/adobe-experience-platform-data-source.md)。
+> Adobe Journey Optimizer 以 Adobe Experience Platform 為基礎，以原生方式連線至 [Adobe 即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}。此內建資料來源已預先設定，且設計旨在從即時客戶輪廓擷取並使用資料 (例如，檢查進入歷程的人員是否為客戶)。 其可讓您使用個人檔資料與體驗事件資料。 [了解更多](../datasource/adobe-experience-platform-data-source.md)。
 >
 
 ## Adobe Customer Journey Analytics {#integration-cja}
@@ -62,7 +62,7 @@ Journey Optimizer 會將資料儲存在 Adobe Experience Platform，並利用 Cu
 
 Adobe Intelligent Services 是即時客戶資料平台的原生功能，可讓您在客戶體驗使用案例中運用人工智慧與機器學習的強大功能。 這可讓行銷分析人員利用業務層級設定，針對公司需求設定專屬預測，而無需資料科學的專業知識。
 
-Customer AI 可讓品牌建立流失率或轉換機器學習型分數，這些分數將在 Adobe Experience Platform 以設定檔屬性形式提供，且可用來個人化歷程。
+Customer AI 可讓品牌建立流失率或轉換機器學習型分數，這些分數將在 Adobe Experience Platform 以輪廓屬性形式提供，且可用來個人化歷程。
 
 [了解更多](../building-journeys/ai-services-overview.md)。
 

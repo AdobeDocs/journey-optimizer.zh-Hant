@@ -7,12 +7,12 @@ feature: Surface, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-keywords: 管道，表面，技術，引數，最佳化工具
+keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
 workflow-type: tm+mt
 source-wordcount: '1737'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 12%
 
 * **SPF驗證失敗**： SPF (Sender Policy Framework)是電子郵件驗證通訊協定，允許指定可從指定子網域傳送電子郵件的授權IP。 SPF驗證失敗表示SPF記錄中的IP位址與用來傳送電子郵件給信箱提供者的IP位址不符。
 
-* **DKIM驗證失敗**： DKIM (DomainKeys Identified Mail)可讓收件者伺服器確認所收到的郵件是由相關網域的正版寄件者所傳送，且原始郵件的內容並未在途中變更。 DKIM驗證失敗表示接收郵件伺服器無法驗證郵件內容的真實性及其與傳送網域的關聯：
+* **DKIM驗證失敗**： DKIM (DomainKeys Identified Mail)可讓收件者伺服器確認所收到的郵件是由相關網域的正版寄件者傳送，且原始郵件的內容並未在途中變更。 DKIM驗證失敗表示接收郵件伺服器無法驗證郵件內容的真實性，以及其與傳送網域的關聯：
 
 * **MX記錄驗證失敗**： MX (Mail eXchange)記錄驗證失敗表示負責代表指定子網域接收傳入電子郵件的郵件伺服器未正確設定。
 
@@ -272,8 +272,8 @@ ht-degree: 12%
 ![](assets/preset-activate.png)
 
 
-## 操作說明影片{#video-presets}
+## 作法影片{#video-presets}
 
-瞭解什麼是管道設定以及如何在Adobe Journey Optimizer中使用這些設定。
+了解什麼是管道設定，以及如何在 Adobe Journey Optimizer 加以使用。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)

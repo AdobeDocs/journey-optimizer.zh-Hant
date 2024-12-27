@@ -44,7 +44,7 @@ ht-degree: 4%
 
 為了能夠利用Journey Optimizer中的計算屬性，您必須先將它們新增到Journey Optimizer **Experience Platform**&#x200B;資料來源。
 
-Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶設定檔的連線。此資料來源旨在從即時客戶個人檔案服務中擷取個人檔案資料和Experience Events資料。
+Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶輪廓的連線。此資料來源旨在從即時客戶個人檔案服務中擷取個人檔案資料和Experience Events資料。
 
 若要將計算屬性新增至資料來源，請遵循下列步驟：
 

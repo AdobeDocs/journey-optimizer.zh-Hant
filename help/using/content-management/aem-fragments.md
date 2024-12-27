@@ -8,14 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
+exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
+source-git-commit: 3d0576983854b5cc33d8dc956c601b638164a813
 workflow-type: tm+mt
 source-wordcount: '405'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Adobe Experience Manager內容片段 {#aem-fragments}
+# Adobe Experience Manager 內容片段 {#aem-fragments}
 
 透過將Adobe Experience Manager與Adobe Journey Optimizer整合，您現在可以將AEM內容片段順暢地整合到Journey Optimizer電子郵件內容中。 此簡化的連線可簡化存取及運用AEM內容的程式，讓您建立個人化和動態的行銷活動和歷程。
 
@@ -90,4 +91,3 @@ ht-degree: 1%
 1. 按一下&#x200B;**[!UICONTROL 儲存]**，然後在預覽中檢查您的訊息。 您現在可以測試並檢查您的訊息內容，如[本節](preview.md)所詳述。
 
 執行測試並驗證內容後，您就可以使用[行銷活動](../campaigns/review-activate-campaign.md)或[歷程](../building-journeys/publishing-the-journey.md)，將電子郵件傳送給您的對象。
-

@@ -340,7 +340,7 @@ ht-degree: 2%
 
 * [Personalization搭配決策型優惠](../offers/offers-e2e.md)
 
-## 操作說明影片{#video}
+## 作法影片{#video}
 
 瞭解如何使用協助程式函式。
 

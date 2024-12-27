@@ -42,6 +42,6 @@ ht-degree: 23%
 
    ![](../assets/tags_created.png)
 
-## 操作說明影片 {#video}
+## 作法影片 {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

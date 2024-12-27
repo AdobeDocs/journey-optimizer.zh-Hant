@@ -1,5 +1,5 @@
 ---
-title: 決策使用案例
+title: Decisioning 使用案例
 description: 瞭解如何使用程式碼型管道的實驗建立決策
 feature: Decisioning
 topic: Integrations
@@ -11,11 +11,11 @@ exl-id: 09770df2-c514-4217-a71b-e31c248df543
 source-git-commit: 196caffc918ef4f8fd97c2eb2c790ae4583aa311
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-# 決策使用案例 {#experience-decisioning-uc}
+# Decisioning 使用案例 {#experience-decisioning-uc}
 
 您不確定特定排名公式的效能是否優於預先指派的優惠優先順序。
 

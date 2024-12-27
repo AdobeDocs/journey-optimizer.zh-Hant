@@ -76,7 +76,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->您的應用程式實作團隊負責發出明確API或SDK呼叫，以擷取所選程式碼型體驗設定中定義之表面的內容。 在[本節](code-based-implementation-samples.md)中瞭解不同客戶實作的詳細資訊。
+>您的應用程式實作團隊負責發出明確API或SDK呼叫，以便為選取的程式碼型體驗設定中定義的表面擷取內容。 在[本節](code-based-implementation-samples.md)中瞭解不同客戶實作的詳細資訊。
 
 ### Web 平台 {#web}
 

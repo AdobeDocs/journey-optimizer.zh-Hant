@@ -4,13 +4,13 @@ description: 瞭解如何建立和管理核准政策。
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 3%
 
 ---
-
 
 # 建立及管理核准原則 {#approval-policies}
 
@@ -133,4 +133,3 @@ ht-degree: 3%
 1. 從&#x200B;**[!UICONTROL 原則]**&#x200B;功能表，開啟進階選項，以視需要&#x200B;**[!UICONTROL 編輯]**、**[!UICONTROL 停用]**&#x200B;或&#x200B;**[!UICONTROL 複製]**&#x200B;原則。
 
    ![](assets/policy_activate_2.png)
-

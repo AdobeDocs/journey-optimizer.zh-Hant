@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: 在
+title: '在 '
 description: 瞭解中的函式
 feature: Journeys
 role: Data Engineer, Architect

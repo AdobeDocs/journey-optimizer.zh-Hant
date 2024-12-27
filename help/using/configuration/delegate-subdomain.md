@@ -81,7 +81,7 @@ ht-degree: 23%
 
    ![](assets/subdomain-submit.png)
 
-1. 設定DMARC記錄。 如果子網域有現有的DMARC記錄，而且它由[!DNL Journey Optimizer]擷取，則您可以使用相同的值或視需要變更它們。 如果您未新增任何值，則會使用預設值。 [了解更多](dmarc-record.md)
+1. 設定DMARC記錄。 如果子網域有現有的DMARC記錄，而且由[!DNL Journey Optimizer]擷取，則您可以使用相同的值，或視需要加以變更。 如果您未新增任何值，則會使用預設值。 [了解更多](dmarc-record.md)
 
    ![](assets/dmarc-record-found.png)
 
@@ -157,7 +157,7 @@ CNAME子網域設定可讓您建立子網域，並使用CNAME指向Adobe特定�
 
    ![](assets/subdomain-create-dns-confirm.png)
 
-1. 設定DMARC記錄。 如果子網域有現有的DMARC記錄，而且它由[!DNL Journey Optimizer]擷取，則您可以使用相同的值或視需要變更它們。 如果您未新增任何值，則會使用預設值。 [了解更多](dmarc-record.md)
+1. 設定DMARC記錄。 如果子網域有現有的DMARC記錄，而且由[!DNL Journey Optimizer]擷取，則您可以使用相同的值，或視需要加以變更。 如果您未新增任何值，則會使用預設值。 [了解更多](dmarc-record.md)
 
    ![](assets/dmarc-record-found.png)
 
@@ -225,7 +225,7 @@ CNAME子網域設定可讓您建立子網域，並使用CNAME指向Adobe特定�
 
 1. **建立PTR記錄**： ISP需要PTR記錄（也稱為反向DNS記錄），以免將電子郵件標示為垃圾郵件。 Gmail也建議每個IP都有PTR記錄。 Adobe只會在您第一次委派子網域時建立PTR記錄，每個IP各一個，所有IP都指向該子網域。 例如，如果IP是&#x200B;*192.1.2.1*，而子網域是&#x200B;*email.example.com*，則PTR記錄會是： *192.1.2.1 PTR r1.email.example.com*。 您之後可以更新PTR記錄，以指向新的委派網域。 [進一步瞭解PTR記錄](ptr-records.md)
 
-## 操作說明影片{#video}
+## 作法影片{#video}
 
 瞭解如何使用 CNAME 建立子網域以指向 Adobe 特定記錄。
 

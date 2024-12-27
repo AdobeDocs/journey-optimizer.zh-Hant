@@ -40,7 +40,7 @@ ht-degree: 7%
 >
 >您也可以使用API建立和管理內容範本。 如需詳細資訊，請參閱[Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}。
 
-## 操作說明影片 {#video-templates}
+## 作法影片 {#video-templates}
 
 瞭解如何在[!DNL Journey Optimizer]中建立、編輯及使用內容範本。
 
