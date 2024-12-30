@@ -262,7 +262,7 @@ ht-degree: 100%
       + [開始使用網路頻道](using/web/get-started-web.md)
       + 設定網路頻道 {#configure-web-channel}
          + [網路頻道先決條件](using/web/web-prerequisites.md)
-         + [設定網路子網域](using/web/web-delegated-subdomains.md)
+         + [設定網頁子網域](using/web/web-delegated-subdomains.md)
          + [建立網頁管道設定](using/web/web-configuration.md)
       + [建立網站體驗](using/web/create-web.md)
       + 製作網頁{#author-web-pages}
