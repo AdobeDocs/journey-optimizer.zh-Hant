@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 設定網路子網域
+title: 設定網頁子網域
 description: 瞭解如何使用Journey Optimizer設定網頁子網域
 role: Admin
 feature: Web Channel, Subdomains
@@ -15,7 +15,7 @@ ht-degree: 24%
 
 ---
 
-# 設定網路子網域 {#web-subdomains}
+# 設定網頁子網域 {#web-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_header"
