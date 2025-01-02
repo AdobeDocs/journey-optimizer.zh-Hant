@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 主要，執行，電子郵件，目標，設定檔，最佳化工具
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 18%
+source-wordcount: '484'
+ht-degree: 16%
 
 ---
 
@@ -66,7 +66,15 @@ ht-degree: 18%
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## 覆寫歷程引數中的值 {#journey-parameters}
+## 覆寫預設值 {#override-default-execution-address}
+
+### 在電子郵件設定中
+
+定義電子郵件通道設定時，您可以變更在沙箱層級設定的預設執行欄位。 [了解更多](../email/email-settings.md#execution-address)
+
+在設定層級定義執行位址時，執行位址會當作主要位址使用，並覆寫沙箱層級的一般設定。
+
+### 在歷程引數中 {#journey-parameters}
 
 僅針對特定使用案例，您可以全域覆寫執行欄位設定，並在歷程層級定義不同的值，尤其是電子郵件頻道。
 
@@ -84,3 +92,4 @@ ht-degree: 18%
 
 * 測試電子郵件。 您可以新增自己的電子郵件地址：發佈歷程後，會傳送電子郵件給您。
 * 傳送電子郵件給清單的訂閱者。 在[此使用案例](../building-journeys/message-to-subscribers-uc.md)中了解更多。
+

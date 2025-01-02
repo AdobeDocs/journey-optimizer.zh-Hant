@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 10%
+source-wordcount: '2687'
+ht-degree: 11%
 
 ---
 
@@ -340,3 +340,26 @@ List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱
 >[!NOTE]
 >
 >您也可以將動態個人化追蹤引數新增至電子郵件內容中存在的連結，但無法在設定層級執行此操作。 使用電子郵件設計工具製作訊息時，您必須執行此動作。 [了解更多](message-tracking.md#url-tracking)
+
+## 執行地址 {#execution-address}
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_execution_address"
+>title="定義要使用的地址"
+>abstract="當資料庫 (個人、專業等) 中有多個電子郵件地址或電話號碼時，您可以選擇優先傳送哪一個。"
+
+當您定位設定檔時，資料庫中可能會提供數個電子郵件地址（專業電子郵件地址、個人電子郵件地址等）。
+
+在這種情況下，[!DNL Journey Optimizer]會在沙箱層級使用&#x200B;**[!UICONTROL 執行欄位]**&#x200B;中指定的地址，以優先決定要從設定檔服務使用的電子郵件地址。 [了解更多](../configuration/primary-email-addresses.md)
+
+>[!NOTE]
+>
+>若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**&#x200B;功能表。
+
+不過，您可以在電子郵件通道設定層級變更此預設執行欄位。
+
+若要這麼做，請編輯&#x200B;**[!UICONTROL 傳遞地址]**&#x200B;欄位，並從可用的電子郵件型別XDM欄位清單中選取專案。
+
+![](assets/email-config-delivery-address.png)
+
+執行欄位會更新，然後作為主要地址使用。 它會覆寫沙箱層級的一般設定。

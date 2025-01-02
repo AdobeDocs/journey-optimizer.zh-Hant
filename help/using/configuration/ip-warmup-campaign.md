@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: IP、集區、傳遞能力
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '437'
 ht-degree: 12%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 12%
 
 若要建立IP熱身行銷活動，請遵循下列步驟。
 
-1. 針對您為熱身計畫識別的網域和IP，建立[電子郵件](../email/email-settings.md)管道[設定](channel-surfaces.md)。
+1. 針對您為熱身計畫識別的網域和IP，建立電子郵件通道[設定](channel-surfaces.md)。
+
+   與您的傳遞顧問合作，識別要使用的網域和IP。 在[本節](../email/email-settings.md#subdomains-and-ip-pools)中瞭解如何在電子郵件設定中選取它們。
 
    >[!NOTE]
    >
-   >* 在[本節](../email/email-settings.md#subdomains-and-ip-pools)中瞭解如何選取要用於電子郵件設定的網域和IP。
-   >
-   >* 請與您的傳遞顧問合作，識別要用於IP熱身計畫的網域和IP。<!--TBC-->
+   >即使您變更電子郵件設定中的[執行地址](../email/email-settings.md#execution-address)，系統仍會使用在沙箱層級設定的預設欄位。 [了解更多](primary-email-addresses.md)
 
 1. 建立排程的行銷[行銷活動](../campaigns/create-campaign.md)並選取[電子郵件](../email/create-email.md#create-email-journey-campaign)動作。
 
