@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 選擇退出，電子郵件，連結，取消訂閱
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: cb7e2e209872176c67020add47242f95a7304c6c
+source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 26%
+source-wordcount: '1317'
+ht-degree: 23%
 
 ---
 
@@ -26,14 +26,14 @@ ht-degree: 26%
 
 若要在電子郵件內容中插入取消訂閱連結，您可以：
 
-* 在電子郵件標題中新增一鍵取消訂閱URL。 在頻道設定層級啟用&#x200B;**[!UICONTROL List-Unsubscribe Header]**&#x200B;選項，會在電子郵件標題中新增選擇退出連結。 [進一步瞭解電子郵件標頭中的選擇退出](#unsubscribe-header)
+* 在電子郵件標題中新增一鍵取消訂閱URL。 頻道設定層級的&#x200B;**[!UICONTROL 啟用List-Unsubscribe]**&#x200B;選項會將選擇退出連結新增至電子郵件標題。 [進一步瞭解電子郵件標頭中的選擇退出](#unsubscribe-header)
 
 * 為您的電子郵件啟用&#x200B;**一鍵退出連結**。  [瞭解如何新增一鍵退出連結](#one-click-opt-out)
 
 * 插入登陸頁面&#x200B;**的**&#x200B;連結。 [瞭解如何新增選擇退出的登陸頁面](#opt-out-external-lp)
 
 
-## 單步驟選擇退出 {#opt-out-one-step}
+## 一步選擇退出 {#opt-out-one-step}
 
 ### 電子郵件標頭中的一鍵取消訂閱 URL {#unsubscribe-header}
 
@@ -41,9 +41,9 @@ ht-degree: 26%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="在電子郵件標頭中新增取消訂閱 URL"
->abstract="啟用取消訂閱清單標頭，以在電子郵件標頭中新增取消訂閱 URL。若要設定取消訂閱 URL，請在電子郵件內容插入一鍵式選擇退出連結。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hant#one-click-opt-out" text="一鍵選擇退出"
+>title="新增取消訂閱URL至電子郵件標題"
+>abstract="啟用List-Unsubscribe將取消訂閱URL新增到電子郵件標題。 若要在訊息中設定取消訂閱URL，請在電子郵件內容中插入一鍵退出連結。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="一鍵選擇退出電子郵件內容"
 
 一鍵式清單取消訂閱URL是電子郵件寄件者資訊旁邊顯示的取消訂閱連結或按鈕，可讓收件者只要按一下即可立即選擇退出您的郵寄清單。 在Adobe Journey Optimizer中，當&#x200B;**啟用List-Unsubscribe**&#x200B;選項切換時，電子郵件標題預設會包含收件者可用於取消訂閱郵寄清單的郵件和/或URL。
 

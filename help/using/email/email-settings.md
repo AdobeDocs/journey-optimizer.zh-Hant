@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: f5f8855f23200253a2cb8fca3e01ca7d5b31f274
+source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2724'
 ht-degree: 10%
 
 ---
@@ -63,9 +63,7 @@ ht-degree: 10%
 
 為了維護您網域的聲譽，請加快IP暖身過程並改善傳遞能力，將您的傳送子網域委派給Adobe。 [了解更多](../configuration/about-subdomain-delegation.md)
 
-
 ## IP集區詳細資料 {#ip-pools}
-
 
 選取要與設定關聯的IP集區。 [了解更多](../configuration/ip-pools.md)
 
@@ -83,10 +81,9 @@ ht-degree: 10%
 >
 >如果未設定PTR記錄，請聯絡您的Adobe代表。
 
-## 清單取消訂閱標頭{#list-unsubscribe}
+## 清單取消訂閱{#list-unsubscribe}
 
 <!--Do not modify - Legal Review Done -->
-
 
 從清單中選取[子網域](#subdomains-and-ip-pools)後，會顯示&#x200B;**[!UICONTROL 啟用List-Unsubscribe]**&#x200B;選項。
 
@@ -94,20 +91,23 @@ ht-degree: 10%
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-如果停用此選項，一鍵式取消訂閱URL不會顯示在電子郵件標頭中。
+>[!NOTE]
+>
+>如果停用此選項，一鍵式取消訂閱URL不會顯示在電子郵件標頭中。
 
 您可以從&#x200B;**[!UICONTROL 同意層級]**&#x200B;下拉式清單中選取同意層級。 它可特定於通道或設定檔身分。 根據此設定，當使用者使用電子郵件標題中的清單取消訂閱URL取消訂閱時，同意會在Adobe Journey Optimizer中以頻道層級或ID層級更新。
 
-List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱URL，如下所述），除非您取消核取其中一項或兩項功能，否則預設會啟用這兩種功能：
+List unsubscribe標題提供兩種功能，除非您取消核取其中一項或兩項功能，否則預設會啟用：
+
+![](assets/surface-list-unsubscribe-mailto.png){width="80%"}
+
+<!--![](assets/surface-list-unsubscribe.png){width="80%"}-->
 
 * **Mailto （取消訂閱）**&#x200B;位址，這是將取消訂閱要求路由至以進行自動處理的目的地位址。
 
   在Journey Optimizer中，取消訂閱電子郵件地址是根據您[選取的子網域](#subdomains-and-ip-pools)，顯示在頻道設定中的預設&#x200B;**Mailto （取消訂閱）**&#x200B;位址。
 
-  ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
-
-
-* **一鍵取消訂閱URL**，根據您在「頻道組態設定」中設定和設定的子網域，預設為一鍵選擇我們的URL產生的「清單取消訂閱標頭」。
+* **一鍵取消訂閱URL**，根據您在通道組態設定中設定和設定的子網域，預設為一鍵選擇退出URL產生的清單取消訂閱標頭。
 
 <!--
     >[!AVAILABILITY]
@@ -116,15 +116,19 @@ List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱
     >
 -->
 
-**[!UICONTROL Mailto （取消訂閱）]**&#x200B;功能和&#x200B;**[!UICONTROL 一鍵取消訂閱URL]**&#x200B;功能是選用功能。 如果您不想使用預設產生的一鍵式取消訂閱URL，可以取消核取該功能。 在已開啟&#x200B;**[!UICONTROL 選擇退出組態]**&#x200B;選項且已取消勾選&#x200B;**[!UICONTROL 一鍵取消訂閱URL]**&#x200B;功能的案例中，如果您將[一鍵選擇退出連結](../privacy/opt-out.md#one-click-opt-out)新增至使用此組態建立的訊息，清單取消訂閱標題將會挑選您已插入電子郵件內文的一鍵選擇退出連結，並將其當做一鍵取消訂閱URL值。
+**[!UICONTROL Mailto （取消訂閱）]**&#x200B;功能和&#x200B;**[!UICONTROL 一鍵取消訂閱URL]**&#x200B;功能是選用功能。
+
+如果您不想使用預設產生的一鍵式取消訂閱URL，可以取消核取該功能。 在已開啟&#x200B;**[!UICONTROL 啟用List-Unsubscribe]**&#x200B;選項且已取消勾選&#x200B;**[!UICONTROL 一鍵取消訂閱URL]**&#x200B;功能的案例中，如果您將[一鍵選擇退出連結](../privacy/opt-out.md#one-click-opt-out)新增至使用此組態所建立的郵件，List unsubscribe標題會挑選您已插入電子郵件內文的一鍵選擇退出連結，並將其當做一鍵取消訂閱URL值。
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->如果您未在訊息內容中新增一鍵退出連結，且頻道設定中取消核取預設的一鍵取消訂閱URL，則不會URL作為List Unsubscribe標頭的一部分傳遞至電子郵件標頭。
+>如果您未在訊息內容中新增一鍵退出連結，且頻道設定中預設的一鍵取消訂閱URL為取消勾選，則清單取消訂閱標題不會將URL傳入電子郵件標題。
 
 在[本節](../email/email-opt-out.md#unsubscribe-header)中進一步瞭解管理訊息中的取消訂閱功能。
+
+<!--![](assets/surface-list-unsubscribe-custom.png){width="80%"}-->
 
 ## 標頭引數 {#email-header}
 
@@ -146,7 +150,7 @@ List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱
 >
 >**[!UICONTROL 寄件者電子郵件]**&#x200B;和&#x200B;**[!UICONTROL 錯誤電子郵件]**&#x200B;地址必須使用目前選取的[委派子網域](../configuration/about-subdomain-delegation.md)。 例如，如果委派的子網域是&#x200B;*marketing.luma.com*，您可以使用&#x200B;*contact@marketing.luma.com*&#x200B;和&#x200B;*error@marketing.luma.com*。
 
-![](assets/preset-header.png)
+![](assets/preset-header.png){width="80%"}
 
 >[!NOTE]
 >
@@ -255,7 +259,7 @@ List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱
 
 在&#x200B;**[!UICONTROL 種子清單]**&#x200B;區段中選取與您相關的清單。 在[本節](../configuration/seed-lists.md#create-seed-list)中瞭解如何建立種子清單。
 
-![](../configuration/assets/seed-list-surface.png)
+![](../configuration/assets/seed-list-surface.png){width="80%"}
 
 >[!NOTE]
 >
@@ -305,7 +309,7 @@ List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱
 
 您可使用&#x200B;**[!UICONTROL 新增引數]**&#x200B;按鈕，新增最多10個追蹤引數。
 
-![](assets/preset-url-tracking.png)
+![](assets/preset-url-tracking.png){width="80%"}
 
 若要設定URL追蹤引數，您可以在&#x200B;**[!UICONTROL 名稱]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;欄位中直接輸入所需的值。
 
