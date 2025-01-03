@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: IP、集區、傳遞能力
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '441'
 ht-degree: 12%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >即使您變更電子郵件設定中的[執行地址](../email/email-settings.md#execution-address)，系統仍會使用在沙箱層級設定的預設欄位。 [了解更多](primary-email-addresses.md)
+   >對於IP熱身行銷活動，即使您變更電子郵件設定中的[執行位址](../email/email-settings.md#execution-address)，仍會使用在沙箱層級設定的預設欄位。 [了解更多](primary-email-addresses.md)
 
 1. 建立排程的行銷[行銷活動](../campaigns/create-campaign.md)並選取[電子郵件](../email/create-email.md#create-email-journey-campaign)動作。
 
