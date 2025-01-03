@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 8d6ac8b3d201baf8115d92b35639d5d6e22b9b2d
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2716'
 ht-degree: 11%
 
 ---
@@ -57,9 +57,11 @@ ht-degree: 11%
 
 選取要用來傳送電子郵件的子網域。
 
-為了維護您網域的聲譽，請加快IP暖身過程並改善傳遞能力，將您的傳送子網域委派給Adobe。 [了解更多](../configuration/about-subdomain-delegation.md)
+>[!NOTE]
+>
+>為了增加對電子郵件設定的控制，您可以定義動態子網域。 [了解更多](../email/surface-personalization.md#dynamic-subdomains)
 
-<!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+為了維護您網域的聲譽，請加快IP暖身過程並改善傳遞能力，將您的傳送子網域委派給Adobe。 [了解更多](../configuration/about-subdomain-delegation.md)
 
 
 ## IP集區詳細資料 {#ip-pools}
@@ -127,6 +129,10 @@ List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱
 ## 標頭引數 {#email-header}
 
 在&#x200B;**[!UICONTROL 標頭引數]**&#x200B;區段中，輸入與該設定所傳送電子郵件型別相關的寄件者名稱和電子郵件地址。
+
+>[!NOTE]
+>
+>為了增加對電子郵件設定的控制，您可以個人化標頭引數。 [了解更多](../email/surface-personalization.md#personalize-header)
 
 * **[!UICONTROL 寄件者名稱]**：寄件者的名稱，例如您的品牌名稱。
 * **[!UICONTROL 寄件者電子郵件]**：您要用於通訊的電子郵件地址。
