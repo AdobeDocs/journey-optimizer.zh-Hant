@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8d6ac8b3d201baf8115d92b35639d5d6e22b9b2d
+source-git-commit: f5f8855f23200253a2cb8fca3e01ca7d5b31f274
 workflow-type: tm+mt
-source-wordcount: '2716'
-ht-degree: 11%
+source-wordcount: '2737'
+ht-degree: 10%
 
 ---
 
@@ -351,8 +351,8 @@ List Unsubscribe Header提供兩種功能（Mailto和按一下即可取消訂閱
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
->title="定義要使用的地址"
->abstract="當資料庫 (個人、專業等) 中有多個電子郵件地址或電話號碼時，您可以選擇優先傳送哪一個。"
+>title="覆寫要使用的預設執行地址"
+>abstract="當資料庫中有數個電子郵件地址（個人、專業人員等）時，您可以選擇優先傳送哪個電子郵件地址。 主要地址是在沙箱層級定義，但您可以在此處覆寫此特定電子郵件設定的預設設定。"
 
 當您定位設定檔時，資料庫中可能會提供數個電子郵件地址（專業電子郵件地址、個人電子郵件地址等）。
 
