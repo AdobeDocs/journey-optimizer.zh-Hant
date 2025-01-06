@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: 3d9fc6480719cf46a3485914c57a883451f2a058
+source-git-commit: eea6cbaf29f3558f85b462d3dd3750d7f716bbcc
 workflow-type: tm+mt
 source-wordcount: '2045'
 ht-degree: 20%
@@ -168,7 +168,7 @@ ht-degree: 20%
 
    1. 存取&#x200B;**[!UICONTROL 規則]**&#x200B;功能表並建立新規則。 有關如何建立規則的詳細資訊，請參閱[!DNL Adobe Experience Platform] [資料收集檔案](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
-   2. 在規則的&#x200B;**[!UICONTROL IF]**&#x200B;區段中，新增設定如下的事件：
+   1. 在規則的&#x200B;**[!UICONTROL IF]**&#x200B;區段中，新增設定如下的事件：
 
       ![](assets/multilingual-experience-events-rule-if.png)
 
@@ -177,7 +177,7 @@ ht-degree: 20%
       * 在右窗格中，選取「XDM事件型別等於personalization.request」
       * 按一下&#x200B;**[!UICONTROL 保留變更]**&#x200B;按鈕以確認。
 
-   3. 在規則的&#x200B;**[!UICONTROL THEN]**&#x200B;區段中，新增設定如下的動作：
+   1. 在規則的&#x200B;**[!UICONTROL THEN]**&#x200B;區段中，新增設定如下的動作：
 
       ![](assets/multilingual-experience-events-rule-then.png)
 
