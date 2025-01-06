@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
+source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2735'
 ht-degree: 10%
 
 ---
@@ -366,7 +366,7 @@ List unsubscribe標題提供兩種功能，除非您取消核取其中一項或�
 >
 >若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**&#x200B;功能表。
 
-不過，您可以在電子郵件通道設定層級變更此預設執行欄位。
+不過，您可以在電子郵件通道設定層級變更此預設執行欄位。 然後，您可以將此設定套用至特定行銷活動或歷程。
 
 若要這麼做，請編輯&#x200B;**[!UICONTROL 傳遞地址]**&#x200B;欄位，並從可用的電子郵件型別XDM欄位清單中選取專案。
 
