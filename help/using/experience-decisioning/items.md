@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
+source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
 workflow-type: tm+mt
 source-wordcount: '1743'
 ht-degree: 15%
@@ -47,11 +47,12 @@ Journey Optimizer 可讓您建立行銷優惠 (稱為決定項目)，您可以�
 1. 提供名稱和說明。
 1. 指定開始和結束日期。 在此日期內，決策引擎僅會考慮該專案。
 1. 設定與其他專案比較的決策專案&#x200B;**[!UICONTROL 優先順序]** （如果設定檔符合多個專案的資格）。 較高的優先順序使該項目優先於其他項目。
-1. **標籤**&#x200B;欄位可讓您將Adobe Experience Platform統一標籤指派給您的決定專案。 這可讓您輕鬆分類並改善搜尋。 [了解如何使用標籤](../start/search-filter-categorize.md#tags)
 
    >[!NOTE]
    >
    >優先順序是整數資料型別。 整數資料型別的所有屬性都應包含整數值（無小數）。
+
+1. **標籤**&#x200B;欄位可讓您將Adobe Experience Platform統一標籤指派給您的決定專案。 這可讓您輕鬆分類並改善搜尋。 [了解如何使用標籤](../start/search-filter-categorize.md#tags)
 
 1. 指定自訂屬性（選擇性）。 自訂屬性是根據您的需求訂製並且可以指派給決定項目的特定屬性。 它們會在決定專案的目錄結構描述中定義。 [瞭解如何使用目錄](catalogs.md)
 
