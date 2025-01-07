@@ -5,20 +5,22 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 83da97926138c867ea2dacca6e5cf5e40c926eda
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 17%
+source-wordcount: '309'
+ht-degree: 16%
 
 ---
 
 # 傳送電子郵件校樣 {#send-proofs}
 
+>[!PREREQUISITES]
+>
+>若要傳送校樣，使用者必須擁有與電子郵件相關之特定資源、行銷活動或歷程的&#x200B;**核准和發佈**&#x200B;許可權。 [進一步瞭解許可權](../administration/ootb-permissions.md)
+
 校樣是一種特定訊息，可讓您在將訊息傳送至主要客群之前先測試訊息。校樣的收件者負責核准訊息：轉譯、內容、個人化設定、設定。
 
->[!NOTE]
->
->[!DNL Journey optimizer]也可讓您使用從CSV / JSON檔案上傳或手動新增的範例輸入資料，預覽和傳送校樣，以測試內容的不同變體。 [瞭解如何使用範例輸入資料測試您的內容](../test-approve/simulate-sample-input.md)
+請注意，[!DNL Journey optimizer]也可讓您使用從CSV / JSON檔案上傳或手動新增的範例輸入資料，預覽並傳送校樣來測試內容的不同變體。 [瞭解如何使用範例輸入資料測試您的內容](../test-approve/simulate-sample-input.md)
 
 若要在選取[測試設定檔](test-profiles.md)之後傳送電子郵件校樣，請遵循下列步驟：
 
