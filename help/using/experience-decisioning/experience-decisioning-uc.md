@@ -8,10 +8,10 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
+source-git-commit: 7da07ebb5fd2ded0f86ee1ca8fc355e422f01502
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 7%
+source-wordcount: '636'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 7%
 
 在此使用案例中，您不確定特定排名公式的效能是否優於預先指派的優惠優先順序。
 
-若要測量哪個傳送方式最適合您的目標對象，請建立行銷活動，您可在此定義兩個傳送處理方式：
+若要測量哪個對象對您的目標對象執行得最好，請使用[內容實驗](../content-management/content-experiment.md)建立行銷活動，您可在此定義兩個傳遞處理：
 
 <!--Set up the experiment such that:-->
 
@@ -48,23 +48,23 @@ ht-degree: 7%
    >
    >優先順序是整數資料型別。 整數資料型別的所有屬性都應包含整數值（無小數）。
 
-1. 定義對象或規則，將專案限製為僅限特定設定檔。 [瞭解如何設定決定專案的資格](items.md#eligibility)
+1. 設定決定專案的資格：
 
-1. 設定上限規則以定義可顯示優惠方案的最大次數。 [了解作法](items.md#capping)
+   * 定義對象或規則，將專案限製為僅限特定設定檔。 [了解更多](items.md#eligibility)
 
-<!--1. If needed, repeat the steps above to create one or more additional decision items.-->
+   * 設定上限規則以定義可顯示優惠方案的最大次數。 [了解更多](items.md#capping)
+
+1. 如有需要，請重複上述步驟以建立其他決定專案。
 
 1. 建立包含決策專案的&#x200B;**集合**。 [了解更多](collections.md)
 
-1. 建立&#x200B;**選取策略**。 [了解作法](selection-strategies.md#create-selection-strategy)
+1. 建立[選取策略](selection-strategies.md#create-selection-strategy)，並選取包含要考慮之選件的[集合](collections.md)。
 
-1. 選取包含要考慮之選件的[集合](collections.md)。
+1. [選擇排名方法](#select-ranking-method)，用來為每個設定檔選取最佳優惠方案。
 
-1. [選擇排名方法](#select-ranking-method)，用來為每個設定檔選取最佳優惠方案。 在此情況下，請選取&#x200B;**[!UICONTROL 優惠優先順序]**。 [了解更多](selection-strategies.md#offer-priority)
+   在此情況下，請選取&#x200B;**[!UICONTROL 優惠方案優先順序]**：如果多個優惠方案符合此策略的資格，決定引擎會在優惠方案中使用設定為&#x200B;**[!UICONTROL 優先順序]**&#x200B;的值。 [了解更多](selection-strategies.md#offer-priority)
 
    ![](assets/exd-uc-strategy-priority.png)
-
-   <!--If multiple offers are eligible for this strategy, the [Offer priority](#offer-priority) method uses the value defined in the offers.-->
 
 ### 建立第二個選取策略
 
@@ -74,51 +74,49 @@ ht-degree: 7%
 
 <!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
 
-1. 定義對象或規則，將專案限製為僅限特定設定檔。 [瞭解如何設定決定專案的資格](items.md#eligibility)
+1. 設定決定專案的資格：
 
-1. 設定上限規則以定義可顯示優惠方案的最大次數。 [了解作法](items.md#capping)
+   * 定義對象或規則，將專案限製為僅限特定設定檔。 [了解更多](items.md#eligibility)
 
-<!--1. If needed, repeat the steps above to create one or more additional decision items.-->
+   * 設定上限規則以定義可顯示優惠方案的最大次數。 [了解更多](items.md#capping)
+
+1. 如有需要，請重複上述步驟以建立其他決定專案。
 
 1. 建立包含決策專案的&#x200B;**集合**。 [了解更多](collections.md)
 
-1. 建立&#x200B;**選取策略**。 [了解作法](selection-strategies.md#create-selection-strategy)
+1. 建立[選取策略](selection-strategies.md#create-selection-strategy)，並選取包含要考慮之選件的[集合](collections.md)。
 
-1. 選取包含要考慮之選件的[集合](collections.md)。
+1. [選擇您要用來為每個設定檔選取最佳優惠方案的排名方法](#select-ranking-method)。
 
-1. [選取您要用來為每個設定檔選取最佳優惠方案的排名方法](#select-ranking-method)。 在此情況下，請選取&#x200B;**[!UICONTROL 公式]**，以使用特定計算分數來選擇要傳遞的合格優惠。 [了解更多](selection-strategies.md#ranking-formula)
+   在此情況下，請選取&#x200B;**[!UICONTROL 公式]**，以使用特定計算分數來選擇要傳遞的合格優惠。 [了解更多](selection-strategies.md#ranking-formula)
 
    ![](assets/exd-uc-strategy-formula.png)
 
-<!--
-## Create decision items and selection strategies
-
-You first need to create items, group them together in collections, set up rules and ranking methods. These elements will allow you to build selection strategies.
-
-1. Navigate to **[!UICONTROL Decisioning]** > **[!UICONTROL Catalogs]** and create several decision items. Set constraints using audiences or rules to restrict each item to specific profiles only. [Learn more](items.md)
-
-1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)
-
-1. Create **collections** to categorize and group your decision items according to your preferences. [Learn more](collections.md)
-
-1. Create **decision rules** to determine to whom a decision item can be shown. [Learn more](rules.md)
-
-1. Create **ranking methods** and apply them within decision strategies to determine the priority order for selecting decision items. [Learn more](ranking.md)
-
-1. Build **selection strategies** that leverage collections, decision rules, and ranking methods to identify the decision items suitable for displaying to profiles. [Learn more](selection-strategies.md)
--->
-
-## 建立決定原則
+## 建立程式碼型體驗行銷活動
 
 <!--To present the best dynamic offer and experience to your visitors on your website or mobile app, add a decision policy to a code-based campaign.
 
 Define two delivery treatments each containing a different decision policy.-->
 
+設定兩個選取策略後，請建立程式碼型體驗行銷活動，針對每個策略定義不同的處理方式，以比較哪個策略的效能最佳。
+
 1. 建立行銷活動，並選取&#x200B;**[!UICONTROL 程式碼型體驗]**&#x200B;動作。 [了解更多](../code-based/create-code-based.md)
 
-1. 從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;視窗，開始個人化處理A。
+1. 從行銷活動摘要頁面，按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以開始設定您的內容實驗。 [了解更多](../content-management/content-experiment.md)
 
-1. 選取&#x200B;**[!UICONTROL 決定]**&#x200B;圖示，按一下&#x200B;**[!UICONTROL 建立決定]**&#x200B;並填寫決定詳細資料。 [了解更多](create-decision.md)
+   ![](assets/exd-uc-create-experiment.png)
+
+1. 按一下&#x200B;**[!UICONTROL 編輯內容]**。
+
+<!--1. Sart personalizing **Treatment A** by clicking **[!UICONTROL Create]**.
+
+    ![](assets/exd-uc-create-treatment-a.png)-->
+
+1. 在內容版本視窗中，按一下&#x200B;**[!UICONTROL 編輯代碼]**，開始個人化&#x200B;**處理A**。
+
+   ![](assets/exd-uc-experiment-treatment-a.png)
+
+1. 選取&#x200B;**[!UICONTROL 決定原則]**，按一下&#x200B;**[!UICONTROL 新增決定原則]**&#x200B;並填寫決定詳細資料。 [了解更多](create-decision.md)
 
    ![](assets/decision-code-based-create.png)
 
@@ -136,10 +134,8 @@ Define two delivery treatments each containing a different decision policy.-->
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-1. 從行銷活動摘要頁面，按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以開始設定您的內容實驗。 [了解更多](../content-management/content-experiment.md)
+1. 從內容版本視窗中，選取&#x200B;**處理B**，然後重複上述步驟以建立另一個決定原則，並選取您建立的第二個選擇原則。
 
-1. 從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;視窗中，選取處理B ，並重複上述步驟以建立另一個決定。
-
-1. 選取您建立的第二個策略。 按一下&#x200B;**[!UICONTROL 新增策略]**。
+   ![](assets/exd-uc-experiment-treatment-b.png)
 
 1. 儲存您的內容。
