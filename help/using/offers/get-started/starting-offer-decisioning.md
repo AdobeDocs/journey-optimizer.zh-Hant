@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: c9efdf634831822e670257f6ee738310081a96fb
-workflow-type: tm+mt
-source-wordcount: '933'
+source-git-commit: 2acb883b66e5da9c06ba1551f708bb8ab47ce343
+workflow-type: ht
+source-wordcount: '896'
 ht-degree: 100%
 
 ---
@@ -34,11 +34,9 @@ ht-degree: 100%
 
 ➡️ [在這些影片中瞭解有關決策管理的更多資訊](#video)
 
-## 必讀 {#must-read}
-
-* 目前，決策管理暫不支援以下功能：物件層級存取控制、欄位層級存取控制，以及同意原則執行服務。 如果您想使用其中任何一項，請考慮使用 Journey Optimizer [決策](../../experience-decisioning/gs-experience-decisioning.md)功能。
-
-* 如果您是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target="_blank"} 使用者且正在利用&#x200B;**優惠方案決策**&#x200B;應用程式，本節中介紹的所有決策管理功能也適用於您。
+>[!NOTE]
+>
+>如果您是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target="_blank"} 使用者且正在利用&#x200B;**優惠方案決策**&#x200B;應用程式，本節中介紹的所有決策管理功能也適用於您。
 
 ## 關於優惠和決定 {#about-offers-and-decisions}
 
