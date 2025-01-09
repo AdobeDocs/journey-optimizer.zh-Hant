@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: ff17e7609eb6504632d35671a4bd2aa11a613372
+source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '737'
 ht-degree: 5%
 
 ---
@@ -30,6 +30,10 @@ ht-degree: 5%
 
 首先，您需要建立兩個選取策略：一個使用優先順序作為排名方法，另一個使用公式作為排名方法。
 
+>[!NOTE]
+>
+>您也可以建立單一決定專案，而無需執行選取策略。 將套用為每個專案設定的優先順序。
+
 ### 建立第一個選取策略
 
 若要建置優先順序為排名方法的第一個選取策略，請遵循下列步驟。
@@ -38,7 +42,7 @@ ht-degree: 5%
 
 1. 將決策專案的&#x200B;**[!UICONTROL 優先順序]**&#x200B;設定為與其他專案比較。 如果設定檔符合多個專案的資格，則較高的優先順序會授予專案優先於其他專案的優先順序。
 
-   ![](assets/exd-uc-item-priority.png)
+   ![](assets/exd-uc-item-priority.png){width="80%"}
 
    >[!NOTE]
    >
@@ -58,7 +62,7 @@ ht-degree: 5%
 
 1. [選擇排名方法](#select-ranking-method)，用來為每個設定檔選取最佳優惠方案。 在此情況下，請選取&#x200B;**[!UICONTROL 優惠方案優先順序]**：如果多個優惠方案符合此策略的資格，決定引擎會在優惠方案中使用設定為&#x200B;**[!UICONTROL 優先順序]**&#x200B;的值。 [了解更多](selection-strategies.md#offer-priority)
 
-   ![](assets/exd-uc-strategy-priority.png)
+   ![](assets/exd-uc-strategy-priority.png){width="80%"}
 
 ### 建立第二個選取策略
 
@@ -66,7 +70,7 @@ ht-degree: 5%
 
 1. 建立決定專案。 [了解作法](items.md)
 
-   <!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
+   <!--Do you need to set the same **[!UICONTROL Priority]** as for the first decision item, or it won't be considered at all?-->
 
 1. 設定決定專案的資格：
 
@@ -96,40 +100,46 @@ Define two delivery treatments each containing a different decision policy.-->
 
 1. 從行銷活動摘要頁面，按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以開始設定您的內容實驗。 [了解更多](../content-management/content-experiment.md)
 
-   ![](assets/exd-uc-create-experiment.png)
+   ![](assets/exd-uc-create-experiment.png){width="80%"}
 
-1. 從行銷活動摘要頁面，選取或建立程式碼式設定，然後按一下&#x200B;**[!UICONTROL 編輯內容]**。
+1. 從行銷活動摘要頁面，選取程式碼型設定，然後按一下&#x200B;**[!UICONTROL 編輯內容]**。
 
-   ![](assets/exd-uc-edit-cbe-content.png)
+   ![](assets/exd-uc-edit-cbe-content.png){width="80%"}
 
-<!--1. Sart personalizing **Treatment A** by clicking **[!UICONTROL Create]**.
+1. 從內容版本視窗，若要開始個人化&#x200B;**處理A**，請按一下&#x200B;**[!UICONTROL 編輯代碼]**。
 
-    ![](assets/exd-uc-create-treatment-a.png)-->
+   ![](assets/exd-uc-experiment-treatment-a.png){width="80%"}
 
-1. 在內容版本視窗中，按一下&#x200B;**[!UICONTROL 編輯代碼]**，開始個人化&#x200B;**處理A**。
-
-   ![](assets/exd-uc-experiment-treatment-a.png)
-
-1. 選取&#x200B;**[!UICONTROL 決定原則]**，按一下&#x200B;**[!UICONTROL 新增決定原則]**&#x200B;並填寫決定詳細資料。 [了解更多](create-decision.md)
+1. 從[程式碼編輯器](../code-based/create-code-based.md#edit-code)，選取&#x200B;**[!UICONTROL 決定原則]**，按一下&#x200B;**[!UICONTROL 新增決定原則]**&#x200B;並填寫決定詳細資料。 [了解更多](create-decision.md#add)
 
    ![](assets/decision-code-based-create.png)
 
-1. 選取您建立的第一個策略。 按一下&#x200B;**[!UICONTROL 新增策略]**。
+1. 在&#x200B;**[!UICONTROL 策略順序]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;按鈕，然後選擇&#x200B;**[!UICONTROL 選取策略]**。 [了解更多](create-decision.md#select)
 
-1. 按一下 **[!UICONTROL 建立]**。新決定已新增至&#x200B;**[!UICONTROL 決定]**&#x200B;下。
+   ![](assets/decision-code-based-strategy-sequence.png){width="80%"}
 
-   ![](assets/decision-code-based-decision-added.png)
+   >[!NOTE]
+   >
+   >您也可以選取&#x200B;**[!UICONTROL 決定專案]**&#x200B;來新增單一專案，而不需執行選取策略。 將套用為每個專案設定的優先順序。
 
-1. 按一下「更多動作」圖示（三個點）並選取「**[!UICONTROL 新增]**」。 現在，您可以在此新增所有需要的決定屬性。
+1. 選取您建立的第一個策略。
 
-   ![](assets/decision-code-based-add-decision.png)
+   ![](assets/exd-uc-experiment-strategy-priority.png){width="80%"}
 
-1. 您也可以新增個人化編輯器中可用的任何其他屬性，例如設定檔屬性。
+1. 儲存您的變更，然後按一下[建立]。**** 新決定已新增至&#x200B;**[!UICONTROL 決定原則]**&#x200B;下。
 
-   ![](assets/decision-code-based-decision-profile-attribute.png)
+1. 按一下&#x200B;**[!UICONTROL 插入原則]**&#x200B;按鈕。 已新增與決定原則對應的程式碼。 然後將您想要的所有屬性新增至程式碼，包括設定檔屬性。 [了解更多](create-decision.md#use-decision-policy)
 
-1. 從內容版本視窗中，選取&#x200B;**處理B**，然後重複上述步驟以建立另一個決定原則，並選取您建立的第二個選擇原則。
+   ![](assets/exd-uc-experiment-insert-policy.png){width="80%"}
 
-   ![](assets/exd-uc-experiment-treatment-b.png)
+1. 儲存您的變更。
 
-1. 儲存您的內容。
+1. 返回內容版本視窗，選取+按鈕以新增&#x200B;**處理B**，選取它並按一下&#x200B;**[!UICONTROL 編輯代碼]**。
+
+   ![](assets/exd-uc-experiment-treatment-b.png){width="80%"}
+
+1. 重複上述步驟以建立另一個決定原則，並選取您建立的第二個選擇原則。<!--Do you need to create exactly the same content to compare only the ranking method?-->
+
+1. 儲存您的變更並[發佈您的程式碼型體驗行銷活動](../code-based/publish-code-based.md)。
+
+您可以使用[實驗行銷活動報告](../reports/campaign-global-report-cja-experimentation.md)和[決策報告](cja-reporting.md)來追蹤行銷活動的執行情況。<!--TBC how to check which treatment performs best-->

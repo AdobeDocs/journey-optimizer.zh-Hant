@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1798'
 ht-degree: 14%
 
 ---
@@ -60,9 +60,15 @@ ht-degree: 14%
 
 1. 建立行銷活動並選取&#x200B;**[!UICONTROL 程式碼型體驗]**&#x200B;動作。 [了解更多](../code-based/create-code-based.md)
 
-1. 從[程式碼編輯器](../code-based/create-code-based.md#edit-code)，選取&#x200B;**[!UICONTROL 決定原則]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL 新增決定原則]**。
+1. 從[程式碼編輯器](../code-based/create-code-based.md#edit-code)，選取&#x200B;**[!UICONTROL 決定原則]**，然後按一下&#x200B;**[!UICONTROL 新增決定原則]**。
 
    ![](assets/decision-code-based-create.png)
+
+1. 依預設，建立新原則。
+
+   >[!NOTE]
+   >
+   >您也可以選擇選取現有的原則。
 
 1. 填寫決策原則的詳細資訊：新增名稱並選取目錄。
 
@@ -78,9 +84,11 @@ ht-degree: 14%
 
 **[!UICONTROL 策略順序]**&#x200B;區段可讓您選取要與決策原則一起呈現的決定專案與選取策略。
 
-1. 按一下&#x200B;**[!UICONTROL 新增]**&#x200B;按鈕，然後選擇要包含在原則中的物件型別：
+1. 按一下&#x200B;**[!UICONTROL 新增]**&#x200B;按鈕。
 
-   * **[!UICONTROL 選取策略]**：新增一或多個選取策略。 決策策略會運用與適用性限制和排名方法相關的集合，以決定要顯示的專案。 您可以選取現有的選取策略，或使用&#x200B;**[!UICONTROL 建立選取策略]**&#x200B;按鈕建立新的選取策略。[瞭解如何建立選擇策略](selection-strategies.md)
+1. 選擇要包含在原則中的物件型別：
+
+   * **[!UICONTROL 選取策略]**：新增一或多個選取策略。 決策策略會運用與適用性限制和排名方法相關的集合，以決定要顯示的專案。 您可以選取現有的選取策略，或使用&#x200B;**[!UICONTROL 建立選取策略]**&#x200B;按鈕建立新的選取策略。 [瞭解如何建立選擇策略](selection-strategies.md)
 
    * **[!UICONTROL 決定專案]**：新增單一決定專案以呈現，而不需執行選取策略。 您一次只能選取一個決定專案。 任何針對專案設定的適用性限制都會套用。
 
@@ -90,7 +98,9 @@ ht-degree: 14%
    >
    >決策原則可支援最多10個合併的選擇策略和決策專案。 [進一步瞭解Decisioning護欄和限制](gs-experience-decisioning.md#guardrails)
 
-1. 新增多個決定專案和/或策略時，將會以特定順序評估它們。 將先評估新增至序列的第一個物件，依此類推。 若要變更預設順序，您可以拖放物件及/或群組以視需要重新排序。 [進一步了解決策原則評估順序](#evaluation-order)
+1. 新增多個決定專案和/或策略時，將會以特定順序評估它們。 將先評估新增至序列的第一個物件，依此類推。
+
+   若要變更預設順序，您可以拖放物件和/或群組以視需要重新排序。 [了解更多](#evaluation-order)
 
 ### 管理決定原則中的評估順序 {#evaluation-order}
 
@@ -174,7 +184,7 @@ ht-degree: 14%
 >
 >遞補內容為選用。 如果未選取遞補策略，且沒有符合資格的策略，[!DNL Journey Optimizer]將不會顯示任何內容。 您最多可以新增決定原則請求的專案數。 這保證了在使用案例需要時可傳回特定數量的專案。
 
-當您的決策原則準備就緒時，請儲存並按一下[建立]。**** 現在決定原則已建立，您可以在程式碼型體驗內容中使用決定屬性。 [了解更多](#use-decision-policy)
+當您的決定原則準備就緒時，請儲存並按一下&#x200B;**[!UICONTROL 建立]**。 現在決定原則已建立，您可以在程式碼型體驗內容中使用決定屬性。 [了解更多](#use-decision-policy)
 
 ![](assets/decision-code-based-decision-added.png)
 
