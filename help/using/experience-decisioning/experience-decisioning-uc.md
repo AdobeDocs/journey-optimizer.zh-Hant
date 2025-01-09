@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: 7da07ebb5fd2ded0f86ee1ca8fc355e422f01502
+source-git-commit: ff17e7609eb6504632d35671a4bd2aa11a613372
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '640'
 ht-degree: 5%
 
 ---
@@ -19,16 +19,12 @@ ht-degree: 5%
 
 此使用案例提供將Decisioning與[!DNL Journey Optimizer]程式碼型管道搭配使用所需的所有步驟。
 
-<!--In this use case, you create a campaign where you define two delivery treatments - each containing a different decision policy in order to measure which one performs best for your target audience.-->
-
-在此使用案例中，您不確定特定排名公式的效能是否優於預先指派的優惠優先順序。
+在此範例中，您不確定特定排名公式的效能是否優於預先指派的優惠方案優先順序。
 
 若要測量哪個對象對您的目標對象執行得最好，請使用[內容實驗](../content-management/content-experiment.md)建立行銷活動，您可在此定義兩個傳遞處理：
 
-<!--Set up the experiment such that:-->
-
-* 第一個處理包含一個選擇策略，優先順序作為排名方法。
-* 第二個處理包含不同的選取策略，其排名方法為公式。
+* 第一個處理使用優先順序作為排名方法。
+* 第二個使用公式的處理方式是排名方法。
 
 ## 建立選擇策略
 
@@ -36,7 +32,7 @@ ht-degree: 5%
 
 ### 建立第一個選取策略
 
-在第一個選取策略中，選取優先順序作為排名方法。 請遵循下列步驟。
+若要建置優先順序為排名方法的第一個選取策略，請遵循下列步驟。
 
 1. 建立決定專案。 [了解作法](items.md)
 
@@ -60,19 +56,17 @@ ht-degree: 5%
 
 1. 建立[選取策略](selection-strategies.md#create-selection-strategy)，並選取包含要考慮之選件的[集合](collections.md)。
 
-1. [選擇排名方法](#select-ranking-method)，用來為每個設定檔選取最佳優惠方案。
-
-   在此情況下，請選取&#x200B;**[!UICONTROL 優惠方案優先順序]**：如果多個優惠方案符合此策略的資格，決定引擎會在優惠方案中使用設定為&#x200B;**[!UICONTROL 優先順序]**&#x200B;的值。 [了解更多](selection-strategies.md#offer-priority)
+1. [選擇排名方法](#select-ranking-method)，用來為每個設定檔選取最佳優惠方案。 在此情況下，請選取&#x200B;**[!UICONTROL 優惠方案優先順序]**：如果多個優惠方案符合此策略的資格，決定引擎會在優惠方案中使用設定為&#x200B;**[!UICONTROL 優先順序]**&#x200B;的值。 [了解更多](selection-strategies.md#offer-priority)
 
    ![](assets/exd-uc-strategy-priority.png)
 
 ### 建立第二個選取策略
 
-在第二個選取策略中，選取公式作為排名方法。 請遵循下列步驟。
+若要建立第二個選取策略，並選取公式作為排名方法，請遵循下列步驟。
 
 1. 建立決定專案。 [了解作法](items.md)
 
-<!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
+   <!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
 
 1. 設定決定專案的資格：
 
@@ -86,9 +80,7 @@ ht-degree: 5%
 
 1. 建立[選取策略](selection-strategies.md#create-selection-strategy)，並選取包含要考慮之選件的[集合](collections.md)。
 
-1. [選擇您要用來為每個設定檔選取最佳優惠方案的排名方法](#select-ranking-method)。
-
-   在此情況下，請選取&#x200B;**[!UICONTROL 公式]**，以使用特定計算分數來選擇要傳遞的合格優惠。 [了解更多](selection-strategies.md#ranking-formula)
+1. [選擇您要用來為每個設定檔選取最佳優惠方案的排名方法](#select-ranking-method)。 在此情況下，請選取&#x200B;**[!UICONTROL 公式]**&#x200B;以使用特定的計算分數來決定要傳遞的合格優惠方案。 [了解更多](selection-strategies.md#ranking-formula)
 
    ![](assets/exd-uc-strategy-formula.png)
 
@@ -106,7 +98,9 @@ Define two delivery treatments each containing a different decision policy.-->
 
    ![](assets/exd-uc-create-experiment.png)
 
-1. 按一下&#x200B;**[!UICONTROL 編輯內容]**。
+1. 從行銷活動摘要頁面，選取或建立程式碼式設定，然後按一下&#x200B;**[!UICONTROL 編輯內容]**。
+
+   ![](assets/exd-uc-edit-cbe-content.png)
 
 <!--1. Sart personalizing **Treatment A** by clicking **[!UICONTROL Create]**.
 
