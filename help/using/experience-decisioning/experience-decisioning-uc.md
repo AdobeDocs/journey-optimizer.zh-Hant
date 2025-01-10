@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
+source-git-commit: aa0791b7ca3eb4c39f700fbe23937b5529f44376
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '739'
 ht-degree: 5%
 
 ---
@@ -19,12 +19,10 @@ ht-degree: 5%
 
 此使用案例提供將Decisioning與[!DNL Journey Optimizer]程式碼型管道搭配使用所需的所有步驟。
 
-在此範例中，您不確定特定排名公式的效能是否優於預先指派的優惠方案優先順序。
-
-若要測量哪個對象對您的目標對象執行得最好，請使用[內容實驗](../content-management/content-experiment.md)建立行銷活動，您可在此定義兩個傳遞處理：
+在此範例中，您不確定特定排名公式的效能是否優於預先指派的優惠方案優先順序。 若要測量哪個對象對您的目標對象執行得最好，您可以使用[內容實驗](../content-management/content-experiment.md)來建立行銷活動，其中您可定義兩個傳遞處理方式：
 
 * 第一個處理使用優先順序作為排名方法。
-* 第二個使用公式的處理方式是排名方法。
+* 第二種處理方式使用公式作為排名方法。
 
 ## 建立選擇策略
 
@@ -34,7 +32,7 @@ ht-degree: 5%
 >
 >您也可以建立單一決定專案，而無需執行選取策略。 將套用為每個專案設定的優先順序。
 
-### 建立第一個選取策略
+### 使用優先順序建立策略
 
 若要建置優先順序為排名方法的第一個選取策略，請遵循下列步驟。
 
@@ -64,7 +62,7 @@ ht-degree: 5%
 
    ![](assets/exd-uc-strategy-priority.png){width="80%"}
 
-### 建立第二個選取策略
+### 使用公式建立另一個策略
 
 若要建立第二個選取策略，並選取公式作為排名方法，請遵循下列步驟。
 
