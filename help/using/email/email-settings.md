@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
 workflow-type: tm+mt
 source-wordcount: '2735'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -356,7 +356,7 @@ List unsubscribe標題提供兩種功能，除非您取消核取其中一項或�
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
 >title="覆寫要使用的預設執行地址"
->abstract="當資料庫中有數個電子郵件地址（個人、專業人員等）時，您可以選擇優先傳送哪個電子郵件地址。 主要地址是在沙箱層級定義，但您可以在此處覆寫此特定電子郵件設定的預設設定。"
+>abstract="當資料庫 (個人、專業等) 中有多個電子郵件地址時，您可以選擇優先傳送哪一個。此主要地址是在沙箱層級定義，但您可以在此處覆寫此特定電子郵件設定的預設設定。"
 
 當您定位設定檔時，資料庫中可能會提供數個電子郵件地址（專業電子郵件地址、個人電子郵件地址等）。
 
