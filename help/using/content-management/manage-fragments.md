@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+source-git-commit: d93ef15df4a25e7a6d6fab3df1f9838a0c3d31df
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '979'
 ht-degree: 25%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 25%
 
    >[!NOTE]
    >
-   >編輯運算式片段時，您可以移除任何個人化欄位，但無法將新欄位新增至片段內容。 如果您想要新增個人化欄位，請復製片段以建立新片段。
+   >編輯片段時，您可以移除任何個人化欄位，但無法將新欄位新增至片段內容。 如果您想要新增個人化欄位，請復製片段以建立新片段。
 
    您也可以選取&#x200B;**總管參考**&#x200B;選項，以檢查目前正在使用片段的歷程、行銷活動和內容範本清單。 [了解更多](#explore-references)
 
