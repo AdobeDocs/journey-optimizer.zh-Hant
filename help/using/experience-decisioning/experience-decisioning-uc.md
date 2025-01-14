@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: fbe07345079c6e8cf5ae081094fbc8c25f6d0e57
+source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '789'
 ht-degree: 5%
 
 ---
@@ -96,7 +96,7 @@ Define two delivery treatments each containing a different decision policy.-->
 
 1. 建立行銷活動，並選取&#x200B;**[!UICONTROL 程式碼型體驗]**&#x200B;動作。 [了解更多](../code-based/create-code-based.md)
 
-1. 從行銷活動摘要頁面，按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以開始設定您的內容實驗。 [了解更多](../content-management/content-experiment.md)
+1. 從行銷活動摘要頁面，按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以設定您的內容實驗。 [了解作法](../content-management/content-experiment.md)
 
    ![](assets/exd-uc-create-experiment.png){width="90%"}
 
@@ -140,4 +140,6 @@ Define two delivery treatments each containing a different decision policy.-->
 
 1. 儲存您的變更並[發佈您的程式碼型體驗行銷活動](../code-based/publish-code-based.md)。
 
-您可以使用[實驗行銷活動報告](../reports/campaign-global-report-cja-experimentation.md)和[決策報告](cja-reporting.md)來追蹤行銷活動的執行情況。<!--TBC how to check which treatment performs best-->
+執行實驗後，透過[實驗行銷活動報告](../reports/campaign-global-report-cja-experimentation.md)追蹤行銷活動處理的成效。<!-- and [report on decisioning](cja-reporting.md).-->您就可以解譯實驗的結果。 [了解作法](../content-management/get-started-experiment.md#interpret-results)
+
+如果您的實驗結果為結論，您可以將具有最佳績效排名的處理推送給所有客戶。 或者，您也可以使用選取策略來建立新的行銷活動，並複製表現最佳的排名方法。
