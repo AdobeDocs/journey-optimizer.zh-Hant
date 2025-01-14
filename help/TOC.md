@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
+source-git-commit: a9efa676242b1e3453033c77f1f5afb9da931a3d
 workflow-type: tm+mt
-source-wordcount: '2193'
-ht-degree: 100%
+source-wordcount: '2154'
+ht-degree: 99%
 
 ---
 
@@ -396,8 +396,8 @@ ht-degree: 100%
       + [行銷活動即時報告](using/reports/campaign-live-report.md)
       + [登陸頁面即時報告](using/reports/lp-report-live.md)
       + [訂閱清單即時報告](using/reports/subscription-report-live.md)
-   + 已更新報告體驗{#channel-report}
-      + [開始使用已更新的報告體驗](using/reports/report-gs-cja.md)
+   + 所有時間報告{#channel-report}
+      + [開始使用所有時間報告](using/reports/report-gs-cja.md)
       + [手動設定客戶歷程分析](using/reports/cja-ajo.md)
       + [管理您的報告](using/reports/report-cja-manage.md)
       + [報告與實驗先決條件](using/reports/reporting-configuration.md)
@@ -425,18 +425,6 @@ ht-degree: 100%
       + [概述報表](using/reports/channel-report-cja.md)
       + [登陸頁面報告](using/reports/lp-report-global-cja.md)
       + [訂閱清單報告](using/reports/subscription-report-global-cja.md)
-   + 舊版報告體驗{#reports}
-      + 全域報告 {#global-report}
-         + [開始使用全域報告](using/reports/global-report.md)
-         + [元件清單](using/reports/global-report-components.md)
-         + [歷程全域報告](using/reports/journey-global-report.md)
-         + [行銷活動全域報告](using/reports/campaign-global-report.md)
-         + [目標報告](using/reports/objective-report.md)
-         + [登陸頁面全域報告](using/reports/lp-report-global.md)
-         + [訂閱清單全域報告](using/reports/subscription-report-global.md)
-      + 頻道報告 {#channel-report}
-         + [開始使用頻道報告](using/reports/channel-report-gs.md)
-         + [頻道報告](using/reports/channel-report.md)
    + 歷程報告 {#reports}
       + [建立歷程報告](using/reports/sharing-overview.md)
       + [步驟事件欄位清單](using/reports/sharing-field-list.md)
