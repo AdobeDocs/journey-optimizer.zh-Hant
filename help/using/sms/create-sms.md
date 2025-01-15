@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 25ca0dd72622ef15db3edeedfd16b91d392127d4
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1042'
 ht-degree: 9%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 9%
 
    請注意，若要使用URL縮短功能，您必須先設定子網域，然後再將其連結至您的設定。 [了解更多](sms-subdomains.md)
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    > 若要存取及編輯SMS子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理SMS子網域]**&#x200B;許可權。 若要了解權限的詳細資訊，請參閱[本章節](../administration/high-low-permissions.md)。
 
@@ -123,6 +123,10 @@ ht-degree: 9%
 
 1. 在`originalUrl`欄位中，貼上您要縮短的URL，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
+   >[!CAUTION]
+   >
+   > 短URL的生命週期設為15天。 在此期間之後，將無法再存取這些短URL，且會顯示訊息： `404 short-code not found`。
+
 1. 按一下&#x200B;**[!UICONTROL 儲存]**，然後在預覽中檢查您的訊息。 您現在可以測試並檢查您的訊息內容，如[本節](#sms-mms-test)所詳述。
 
 ## 定義多媒體簡訊內容{#mms-content}
@@ -131,7 +135,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->* MMS頻道在[此頁面](../start/guardrails.md#sms-guardrails)中列出幾項限制。
+> MMS頻道在[此頁面](../start/guardrails.md#sms-guardrails)中列出幾項限制。
 
 若要建立MMS內容，請遵循下列步驟：
 
