@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: b3d1d02605ff5e759c665847efad2d78bef6a1cf
+source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1353'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 1%
 # 管理您的報告 {#channel-cja-manage}
 
 ## 在Customer Journey Analytics中分析 {#analyze}
+
+>[!AVAILABILITY]
+>
+> 擁有[!DNL Customer Journey Analytics]授權的使用者僅可使用CJA中的&#x200B;**分析**&#x200B;功能。
 
 ![](assets/cja-analyze.png)
 
@@ -211,3 +215,47 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 您現在可以繼續將新建立的對象用於歷程或行銷活動。
 
+## 管理範本 {#cja-template}
+
+>[!AVAILABILITY]
+>
+> **範本**&#x200B;功能會分階段逐步推出，預計於1月底全面推出，且僅供擁有[!DNL Customer Journey Analytics]授權的使用者使用。
+
+您現在可以選擇運用Customer Journey Analytics範本來增強Journey Optimizer報表。 [進一步瞭解Customer Journey Analytics範本](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+
+存取報告時，您可以從&#x200B;**[!UICONTROL 選取範本]**&#x200B;下拉式清單中選擇兩種範本型別：
+
+* Adobe提供的預設範本
+* 客戶產生的範本
+
+![](assets/cja_template_5.png)
+
+如果未建立範本，您的報表介面中就不會出現&#x200B;**[!UICONTROL 選取範本]**&#x200B;下拉式清單。
+
+若要建立範本，請遵循下列步驟：
+
+1. 在[!DNL Customer Journey Analytics]中，瀏覽至&#x200B;**[!UICONTROL Workspace]**&#x200B;功能表並選取&#x200B;**[!UICONTROL Adobe範本]**。 [進一步瞭解可用的範本](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
+
+1. 瀏覽可用的預先建立範本，然後按一下&#x200B;**[!UICONTROL 使用範本]**&#x200B;以選取一個範本。
+
+   ![](assets/cja_template_1.png)
+
+1. 調整您的報告以符合您的需求。 請參閱[Customer Journey Analytics檔案](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
+
+1. 完成自訂範本後，請存取&#x200B;**[!UICONTROL 專案]**&#x200B;功能表並選取&#x200B;**[!UICONTROL 另存為範本]**。
+
+   ![](assets/cja_template_2.png)
+
+1. 提供範本的必要詳細資料。 如需詳細資訊，請參閱[Customer Journey Analytics檔案](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template)。
+
+   >[!IMPORTANT]
+   >
+   > 請務必在&#x200B;**[!UICONTROL 使用案例]**&#x200B;下選擇&#x200B;**Journey Optimizer**，並指定對應的&#x200B;**Journey Optimizer活動型別**&#x200B;和&#x200B;**活動**。 這可讓您的報表顯示在Journey Optimizer中。
+
+   ![](assets/cja_template_3.png)
+
+1. 在[!DNL Journey Optimizer]中，從您的報表存取您的報表，並從&#x200B;**[!UICONTROL 選取範本]**&#x200B;下拉式清單中選擇您先前建立的範本。
+
+   ![](assets/cja_template_4.png)
+
+若要直接從您的Journey Optimizer報告建立範本，只要存取您的行銷活動或歷程報告，選取&#x200B;**[!UICONTROL 在CJA中分析]**，並依照上述步驟自訂預設範本。

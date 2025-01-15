@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 97b6041d4b8523b11b13dd78cd8b241a6410f1bc
+source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 100%
+source-wordcount: '2172'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,25 @@ ht-degree: 100%
 >abstract="**Adobe Journey Optimizer** 持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每月最後一週整合於發行說明。"
 
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+
+## 2025年1月更新 {#25-01-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>Customer Journey Analytics範本</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以選擇運用Customer Journey Analytics範本來增強Journey Optimizer報表。 這項新功能可讓您透過根據分析需求量身打造的預先設計範本，簡化報告程式。
+</p>
+<p>如需詳細資訊，請參閱<a href="../reports/report-cja-manage.md#cja-template">詳細文件</a>。</p>
+<p> <b>範本</b>功能會分階段逐步推出，並計畫於1月底全面推出</p>
+</tr>
+</tbody>
+</table>
 
 ## 2024 年 10 月發行版本 {#24-10-rn}
 
