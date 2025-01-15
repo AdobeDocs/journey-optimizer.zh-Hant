@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
+source-git-commit: 0eeb9f6aa6276b99a4d38efc2d371ebdb58c141d
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 6%
+source-wordcount: '1045'
+ht-degree: 8%
 
 ---
 
@@ -55,11 +55,14 @@ ISP通常具有將收到的訊息報告為垃圾訊息的顯著方法。 這樣�
 
 ## 使用監控工具 {#monitoring-tools}
 
-使用[!DNL Journey Optimizer]提供的功能來監視您的傳遞能力。
+使用[!DNL Journey Optimizer]提供的報告功能來監視您的傳遞能力。
 
-訊息清單的&#x200B;**[!UICONTROL 執行]**&#x200B;索引標籤可讓您透過一組即時指標檢查傳遞的執行方式。 除其他外，此標籤會顯示：
+行銷活動和歷程報告可讓您透過一組即時指標檢查傳遞的執行方式。 其中會顯示下列專案：
+
 * 成功執行、傳送及傳遞的訊息數。
 * 已開啟的訊息數以及已點按的訊息/連結數。
+
+深入瞭解[即時報告](../reports/live-report.md)和[所有時間報告](../reports/report-gs-cja.md)
 
 ## 調整訊息內容 {#adapt-message-content}
 
@@ -76,6 +79,12 @@ ISP通常具有將收到的訊息報告為垃圾訊息的顯著方法。 這樣�
 ## 建立您作為寄件者的信譽 {#reputation}
 
 如果您最近移至其他電子郵件服務提供者、IP位址或電子郵件網域或子網域，您必須建立您作為寄件者的信譽。 否則，您的傳遞可能會遭到封鎖或移至收件者信箱的垃圾郵件資料夾。
+
+在全新的網址傳送電子郵件時，您現在可以直接從使用者介面輕鬆執行IP熱身工作流程。
+
+Adobe Journey Optimizer 提供標準化和有效率的方式，讓您的 IP 位址按照最佳實務來暖身，以實現最佳傳遞能力。
+
+[深入瞭解IP熱身計畫](../configuration/ip-warmup-gs.md)
 
 <!--To warm up your IP, you can gradually ramp up the number of your deliveries. Learn more in this [use case](../building-journeys/ramp-up-deliveries-uc.md).-->
 
