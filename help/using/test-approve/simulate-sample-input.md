@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Beta"
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: e6e7890d2ff1fc91155da14e1e6c1cde01f25447
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 9%
+source-wordcount: '933'
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 9%
 >
 >此功能目前以公開測試版的形式提供給所有客戶。
 
-Journey Optimizer可讓您預覽內容，並使用從CSV或JSON檔案上傳或手動新增的範例輸入資料傳送校樣，以測試內容的不同變體。 系統會自動偵測您在內容中使用到的所有設定檔屬性，以便進行個人化，以上屬性可應用到測試上，即可建立多個變體。
+Journey Optimizer可讓您預覽內容，並使用從CSV或JSON檔案上傳或手動新增的範例輸入資料傳送校樣，以測試內容的不同變體。 系統會自動偵測您在內容中用於個人化的所有設定檔屬性，這些屬性可用於測試，以建立多個變體。 變體是指具有不同屬性值的內容版本。
 
 >[!NOTE]
 >
@@ -66,13 +66,29 @@ Journey Optimizer可讓您預覽內容，並使用從CSV或JSON檔案上傳或�
 若要從檔案新增變體，請遵循下列步驟：
 
 1. 按一下&#x200B;**[!UICONTROL 下載範例]**&#x200B;連結以擷取檔案範本，然後選擇您要使用的檔案格式（CSV、JSON或JSONLINES）。
-
 1. 按一下&#x200B;**[!UICONTROL 下載]**，然後將範本儲存在所需的位置。
-
 1. 開啟檔案，然後填寫範本以符合您的需求。 此範本包含用於內容中個人化之每個設定檔屬性的欄。
 
-1. 當您的檔案準備就緒時，請按一下&#x200B;**[!UICONTROL 上傳輸入資料]**&#x200B;以載入它以測試您的內容。
+   +++檔案範例
 
+   ```
+   {
+   "profile": {
+       "attributes": {
+       "person": {
+           "name": {
+               "lastName": "Doe",
+               "firstName": "John"
+               }
+           }
+       }
+   }
+   }
+   ```
+
++++
+
+1. 當您的檔案準備就緒時，請按一下&#x200B;**[!UICONTROL 上傳輸入資料]**&#x200B;以載入它以測試您的內容。
 1. 上傳檔案後，會在左窗格中為檔案的每一行新增一個方塊。 每個方塊都包含內容中用於個人化的所有設定檔屬性。 您現在可以使用變體在右窗格中預覽您的內容並傳送校樣。
 
    ![](assets/simulate-custom-variants.png)
@@ -95,9 +111,13 @@ Journey Optimizer可讓您預覽內容，並使用從CSV或JSON檔案上傳或�
 
 若要使用其中一個變體預覽您的內容，請選取相關方塊，以使用為此變體輸入的資訊更新右側區段中的內容預覽。
 
-您可以使用右上角的省略符號按鈕並選取&#x200B;**[!UICONTROL 移除]**，隨時移除變體。 若要編輯變體的資訊，請按一下省略符號按鈕，然後選取&#x200B;**[!UICONTROL 編輯]**。
+在以下範例中，我們已為電子郵件主旨行新增兩種變體：
 
-![](assets/simulate-custom-boxes.png)
+| 變體1選擇 | 變體2選擇 |
+|----------|-------------|
+| ![](assets/simulate-custom-boxes.png) | ![](assets/simulate-custom-boxes2.png) |
+
+您可以使用右上角的省略符號按鈕並選取&#x200B;**[!UICONTROL 移除]**，隨時移除變體。 若要編輯變體的資訊，請按一下省略符號按鈕，然後選取&#x200B;**[!UICONTROL 編輯]**。
 
 ## 發送校訂 {#proofs}
 
