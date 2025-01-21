@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: bab4cd8065830e36fd6188d3ebf0bd62a63947f3
+source-git-commit: d2451bbaf9830ce3d928e71a609627c23a7566fa
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '744'
 ht-degree: 3%
 
 ---
@@ -102,13 +102,14 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 | 屬性 | 說明 | 範例 |
 | -------- | ----------- | ------- |
-| `xdm:segmentIds` | 值是包含對象唯一識別碼的陣列。 它只能包含一個值。 | `609028e4-e66c-4776-b0d9-c782887e2273` |
+| `xdm:activityId` | 決定的唯一識別碼。 |
 | `xdm:dataSetId` | 可寫入決定事件的輸出資料集。 | `6196b4a1a63bd118dafe093c` |
-| `xdm:propositionRequests` | 包含`placementId`和`activityId`的包裝函式 |  |
-| `xdm:activityId` | 決定的唯一識別碼。 | `xcore:offer-activity:1410cdcda196707b` |
-| `xdm:placementId` | 唯一位置識別碼。 | `xcore:offer-placement:1410c4117306488a` |
-| `xdm:itemCount` | 此選擇性欄位會顯示專案數量，例如為決定範圍要求的選項。 依預設，API會針對每個範圍傳回一個選項，但您可以指定此欄位以明確要求更多選項。 每個範圍最多可請求30個選項，最少為1個。 | `1` |
+| `xdm:enrichedAudience` | 如果您正在定位CSV對象，請新增此引數並將其設為「true」 | `true` |
 | `xdm:includeContent` | 這是選擇性欄位，預設為`false`。 如果`true`，則選件內容會包含在資料集的決定事件中。 | `false` |
+| `xdm:itemCount` | 此選擇性欄位會顯示專案數量，例如為決定範圍要求的選項。 依預設，API會針對每個範圍傳回一個選項，但您可以指定此欄位以明確要求更多選項。 每個範圍最多可請求30個選項，最少為1個。 | `1` | `xcore:offer-activity:1410cdcda196707b` |
+| `xdm:placementId` | 唯一位置識別碼。 | `xcore:offer-placement:1410c4117306488a` |
+| `xdm:propositionRequests` | 包含`placementId`和`activityId`的包裝函式 |
+| `xdm:segmentIds` | 值是包含對象唯一識別碼的陣列。 它只能包含一個值。 | `609028e4-e66c-4776-b0d9-c782887e2273` |
 
 請參閱[決定管理檔案](../../get-started/starting-offer-decisioning.md)，以取得主要概念和屬性的概觀。
 
