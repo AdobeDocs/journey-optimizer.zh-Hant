@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: d9b64dd5bc1553583da23a24aadf4d15d0b6874f
+source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '817'
 ht-degree: 5%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 5%
 
 在此範例中，您不確定特定排名公式的效能是否優於預先指派的優惠方案優先順序。 若要測量哪個對象對您的目標對象執行得最好，您可以使用[內容實驗](../content-management/content-experiment.md)來建立行銷活動，其中您可定義兩個傳遞處理方式：
 
-* 第一個處理使用優先順序作為排名方法。
-* 第二種處理方式使用公式作為排名方法。
+* 第一個處理使用&#x200B;**優先順序**&#x200B;作為排名方法。
+* 第二個處理使用&#x200B;**公式**&#x200B;作為排名方法。
 
 ## 建立選擇策略
 
@@ -120,7 +120,7 @@ Define two delivery treatments each containing a different decision policy.-->
    >
    >您也可以選取&#x200B;**[!UICONTROL 決定專案]**&#x200B;來新增單一專案，而不需執行選取策略。 將套用為每個專案設定的優先順序。
 
-1. 選取您建立的第一個策略。
+1. 選取您建立的第一個策略 — 具有優先順序的策略，作為排名方法。
 
    ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
@@ -136,10 +136,17 @@ Define two delivery treatments each containing a different decision policy.-->
 
    ![](assets/exd-uc-experiment-treatment-b.png){width="90%"}
 
-1. 重複上述步驟以建立另一個決定原則，並選取您建立的第二個選擇原則。<!--Do you need to create exactly the same content to compare only the ranking method?-->
+1. 重複上述步驟5和6以建立另一個決定原則，並選取您建立的第二個選取原則 — 使用公式作為排名方法的策略。<!--Do you need to create exactly the same content to compare only the ranking method?-->
+
+   ![](assets/exd-uc-experiment-strategy-formula.png){width="90%"}
+
+1. 依需要編輯您的決定原則（請參閱上述步驟8和9）。
 
 1. 儲存您的變更並[發佈您的程式碼型體驗行銷活動](../code-based/publish-code-based.md)。
 
 執行實驗後，透過[實驗行銷活動報告](../reports/campaign-global-report-cja-experimentation.md)追蹤行銷活動處理的成效。<!-- and [report on decisioning](cja-reporting.md).-->您就可以解譯實驗的結果。 [了解作法](../content-management/get-started-experiment.md#interpret-results)
 
-如果結果已有定論，您可以將表現最佳排名的處理推送給所有客戶。 或者，您也可以使用選取策略來建立新的行銷活動，並複製表現最佳的排名方法。
+如果結果已有定論：
+
+* 您可以將績效最佳的排名推送給所有客戶。
+* 或者，您也可以使用選取策略來建立新的行銷活動，並複製表現最佳的排名方法。
