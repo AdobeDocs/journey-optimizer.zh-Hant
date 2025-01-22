@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1411'
 ht-degree: 21%
 
 ---
@@ -124,6 +124,10 @@ ht-degree: 21%
 
    ![](assets/file-routing-config-sftp-detail.png)
 
+   >[!NOTE]
+   >
+   >若要指定伺服器上儲存檔案的路徑，請更新直接郵件促銷活動的&#x200B;**[!UICONTROL 檔案名稱]**&#x200B;欄位，以包含所要的路徑。 [了解更多](create-direct-mail.md#extraction-file)
+
 1. 若要加密檔案，請在&#x200B;**[!UICONTROL PGP/GPG加密金鑰]**&#x200B;欄位中複製並貼上您的加密金鑰。
 
 1. 選取&#x200B;**[!UICONTROL 提交]**。 檔案路由設定是以&#x200B;**[!UICONTROL 作用中]**&#x200B;狀態建立的。 現在已準備好用於[直接郵件組態](#direct-mail-surface)。
@@ -152,7 +156,7 @@ ht-degree: 21%
 
    * **容器名稱**：若要尋找您的&#x200B;**容器名稱**，請參閱[此頁面](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal)。
 
-     **容器名稱**&#x200B;應僅包含容器名稱，不含任何斜線。 若要在容器內指定儲存檔案的路徑，請更新直接郵件促銷活動的檔案名稱，以包含所需的路徑。
+     **容器名稱**&#x200B;應僅包含容器名稱，不含任何斜線。 若要指定容器內的路徑以儲存檔案，請更新直接郵件促銷活動的&#x200B;**[!UICONTROL 檔案名稱]**&#x200B;欄位，以包含所要的路徑。 [了解更多](create-direct-mail.md#extraction-file)
 
 1. 若要加密檔案，請在&#x200B;**[!UICONTROL PGP/GPG加密金鑰]**&#x200B;欄位中複製並貼上您的加密金鑰。
 
