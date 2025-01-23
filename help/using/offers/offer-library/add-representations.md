@@ -1,5 +1,5 @@
 ---
-title: 在優惠中新增聲明
+title: 在產品建議中新增聲明
 description: 瞭解如何將代表新增至您的優惠
 feature: Decision Management
 topic: Integrations
@@ -13,14 +13,14 @@ ht-degree: 7%
 
 ---
 
-# 在優惠中新增聲明 {#add-representations}
+# 在產品建議中新增聲明 {#add-representations}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="表示方式"
->abstract="新增表示方式以定義您的優惠在訊息中顯示的位置。產品建議具有的表示方式越多，在不同的產品建議放置環境內容中使用產品建議的機會就越多。"
+>abstract="新增表示方式以定義您的產品建議在訊息中顯示的位置。產品建議具有的表示方式越多，在不同位置內容中使用產品建議的機會就越多。"
 
-選件可顯示在訊息中的不同位置：在含有影像的頂端橫幅中、作為段落中的文字、作為HTML區塊等。 產品建議具有的表示方式越多，在不同的產品建議放置環境內容中使用產品建議的機會就越多。
+選件可顯示在訊息中的不同位置：在含有影像的頂端橫幅中、作為段落中的文字、作為HTML區塊等。 產品建議具有的表示方式越多，在不同位置內容中使用產品建議的機會就越多。
 
 ## 設定優惠的宣告 {#representations}
 

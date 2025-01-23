@@ -17,8 +17,8 @@ ht-degree: 31%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_collection"
->title="關於優惠集合"
->abstract="有了優惠集合，您可以將優惠重新群組到您選擇的類別中以組織優惠。"
+>title="關於產品建議集合"
+>abstract="有了產品建議集合，您可以將產品建議重新群組到您選擇的類別中以組織產品建議。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_dynamic"

@@ -1,5 +1,5 @@
 ---
-title: 建立個人化優惠方案
+title: 建立個人化產品建議
 description: 瞭解如何建立、設定和管理您的優惠方案
 feature: Decision Management
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 14%
 
 ---
 
-# 建立個人化優惠方案 {#create-personalized-offers}
+# 建立個人化產品建議 {#create-personalized-offers}
 
 建立優惠方案之前，請確定您已建立：
 
@@ -27,17 +27,17 @@ ht-degree: 14%
 
 ![](../assets/offers_list.png)
 
-## 建立優惠方案 {#create-offer}
+## 建立產品建議 {#create-offer}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
->title="關於優惠屬性"
->abstract="有了優惠屬性，您可以將索引鍵值組與優惠相關聯以用於報告和分析。"
+>title="關於產品建議屬性"
+>abstract="有了產品建議屬性，您可以將索引鍵值組與產品建議相關聯以用於報告和分析。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_attributes"
->title="優惠屬性"
->abstract="有了優惠屬性，您可以將索引鍵值組與優惠相關聯以用於報告和分析。"
+>title="產品建議屬性"
+>abstract="有了產品建議屬性，您可以將索引鍵值組與產品建議相關聯以用於報告和分析。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_personalized"
@@ -46,7 +46,7 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
->title="備援優惠方案"
+>title="備援產品建議"
 >abstract="若一般使用者不符合資格享有任何個人化產品建議，其預設產品建議便會顯示後備產品建議。"
 
 若要建立&#x200B;**選件**，請遵循下列步驟：
@@ -75,7 +75,7 @@ ht-degree: 14%
 
    ![](../assets/offer_manage-access.png)
 
-1. 新增表示方式以定義您的優惠在訊息中顯示的位置。[了解更多](add-representations.md)
+1. 新增表示方式以定義您的產品建議在訊息中顯示的位置。[了解更多](add-representations.md)
 
    ![](../assets/channel-placement.png)
 

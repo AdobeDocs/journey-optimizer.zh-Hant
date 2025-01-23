@@ -40,7 +40,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
 >title="定義要傳回的項目數量"
->abstract="選取您想要傳回的決定項目數量。例如，如果您選取 2，則目前設定將顯示最佳的 2 個符合資格的優惠。"
+>abstract="選取您想要傳回的決定項目數量。例如，如果您選取 2，則目前設定將顯示最佳的 2 個符合資格的產品建議。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"

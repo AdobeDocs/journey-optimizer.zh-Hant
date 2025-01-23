@@ -1,5 +1,5 @@
 ---
-title: 在優惠中新增限制
+title: 在產品建議中新增限制
 description: 瞭解如何定義優惠方案顯示的條件
 feature: Decision Management
 topic: Integrations
@@ -13,27 +13,27 @@ ht-degree: 16%
 
 ---
 
-# 在優惠中新增限制 {#add-constraints}
+# 在產品建議中新增限制 {#add-constraints}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
->title="關於優惠限制"
->abstract="透過限制，您可以指定與其他優惠相比，如何確定優惠的優先順序並呈現給使用者。"
+>title="關於產品建議限制"
+>abstract="透過限制，您可以指定與其他產品建議相比，如何確定產品建議的優先順序並呈現給使用者。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_constraints"
->title="關於優惠限制"
->abstract="透過限制，您可以指定與其他優惠相比，如何確定優惠的優先順序並呈現給使用者。"
+>title="關於產品建議限制"
+>abstract="透過限制，您可以指定與其他產品建議相比，如何確定產品建議的優先順序並呈現給使用者。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
->title="關於優惠優先順序"
->abstract="在此欄位中，您可以指定優惠的優先順序設定。優先順序是一個數字，用於對滿足所有限制 (例如資格、日期和上限) 的優惠進行排名。"
+>title="關於產品建議優先順序"
+>abstract="在此欄位中，您可以指定產品建議的優先順序設定。優先順序是一個數字，用於對滿足所有限制 (例如資格、日期和上限) 的產品建議進行排名。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
 >title="設定優先順序"
->abstract="如果使用者符合資格可獲得多個優惠，則優先順序有助於定義優惠相較於其他優惠的優先順序。優惠的優先順序越高，相較於其他優惠的優先順序就越高。"
+>abstract="如果使用者符合資格可獲得多個產品建議，則優先順序有助於定義產品建議相較於其他產品建議的優先順序。產品建議的優先順序越高，相較於其他產品建議的優先順序就越高。"
 
 限制可讓您定義優惠的顯示條件。
 
@@ -41,7 +41,7 @@ ht-degree: 16%
 
    ![](../assets/offer-eligibility.png)
 
-1. 如果使用者符合多個優惠方案的資格，請定義優惠方案與其他優惠方案相比的&#x200B;**[!UICONTROL 優先順序]**。 優惠的優先順序越高，相較於其他優惠的優先順序就越高。
+1. 如果使用者符合多個優惠方案的資格，請定義優惠方案與其他優惠方案相比的&#x200B;**[!UICONTROL 優先順序]**。 產品建議的優先順序越高，相較於其他產品建議的優先順序就越高。
 
    ![](../assets/offer-priority.png)
 
@@ -68,12 +68,12 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="定義資格"
->abstract="依預設，任何輪廓都有資格獲得優惠，但您可以使用客群或決定規則將優惠限制給特定輪廓。"
+>abstract="依預設，任何輪廓都有資格獲得產品建議，但您可以使用客群或決定規則將產品建議限制給特定輪廓。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
->title="關於優惠資格"
->abstract="在此部分，您可以使用決定規則來確定哪些使用者有資格獲得優惠。"
+>title="關於產品建議資格"
+>abstract="在此部分，您可以使用決定規則來確定哪些使用者有資格獲得產品建議。"
 >additional-url="https://video.tv.adobe.com/v/329373" text="觀看示範影片"
 
 >[!CONTEXTUALHELP]
@@ -135,13 +135,13 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
->title="關於優惠上限"
->abstract="在此欄位中，您可以指定優惠可以呈現的次數。"
+>title="關於產品建議上限"
+>abstract="在此欄位中，您可以指定產品建議可以呈現的次數。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="使用上限"
->abstract="為避免過度招攬客戶，請使用上限來定義優惠的呈現次數上限。您可以為指定優惠建立最多 10 個上限規則。"
+>abstract="為避免過度招攬客戶，請使用上限來定義產品建議的呈現次數上限。您可以為指定產品建議建立最多 10 個上限規則。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="變更日期會影響上限"
 
 上限會用作限制，以定義可顯示優惠方案的次數上限。 限制使用者取得特定優惠方案的次數，可讓您避免過度向客戶提供需求，進而使用最佳優惠方案將每個接觸點最佳化。
@@ -164,7 +164,7 @@ ht-degree: 16%
 
 1. 在儲存並核准後，如果根據您定義的條件和時間範圍，已根據您在此欄位中指定的次數向優惠方案顯示次數，則其傳送將停止。
 
-系統會在準備電子郵件時計算建議某個優惠方案的次數。 例如，如果您準備包含多個優惠方案的電子郵件，無論是否有傳送電子郵件，這些數量都會計入您的次數上限中。
+系統會在準備電子郵件時計算建議某個優惠方案的次數。 例如，如果您準備包含多個產品建議的電子郵件，無論是否有傳送電子郵件，這些數量都會計入您的次數上限中。
 
 <!--If an email delivery is deleted or if the preparation is done again before being sent, the capping value for the offer is automatically updated.-->
 
@@ -246,7 +246,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="設定上限頻率"
->abstract="您可以選擇每天、每週或每月重設優惠上限計數器。請注意，啟用頻率上限並發佈優惠後，您將無法變更已定義的頻率。"
+>abstract="您可以選擇每天、每週或每月重設產品建議上限計數器。請注意，啟用頻率上限並發佈產品建議後，您將無法變更已定義的頻率。"
 
 **[!UICONTROL 重設上限頻率]**&#x200B;欄位可讓您定義上限計數的重設頻率。 若要這麼做，請定義盤點的期間（每日、每週或每月），並輸入您選擇的天數/周數/月數。 例如，如果您希望每兩週重設一次上限計數，請從對應的下拉式清單中選取&#x200B;**[!UICONTROL 每週]**，然後在另一個欄位中輸入&#x200B;**2**。
 
@@ -292,7 +292,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
 >title="變更日期會影響上限"
->abstract="如果將上限套用到此優惠，則當您變更開始或結束日期時，它可能會受到影響。"
+>abstract="如果將上限套用到此產品建議，則當您變更開始或結束日期時，它可能會受到影響。"
 
 變更優惠方案的日期時，您必須謹慎進行，因為如果符合以下條件，這可能會對上限產生影響：
 
