@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2154'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 99%
       + [開始使用歷程活動](using/building-journeys/about-journey-activities.md)
       + [一般事件](using/building-journeys/general-events.md)
       + [反應](using/building-journeys/reaction-events.md)
-      + [客群資格](using/building-journeys/audience-qualification-events.md)
+      + [客群資格篩選](using/building-journeys/audience-qualification-events.md)
       + [條件](using/building-journeys/condition-activity.md)
       + [等待](using/building-journeys/wait-activity.md)
       + [讀取客群](using/building-journeys/read-audience.md)
