@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 14%
 
 片段可從左側&#x200B;**[!UICONTROL 片段]**&#x200B;功能表從頭建立。 此外，您也可以在設計內容時，將現有內容的一部分儲存為片段。 [了解作法](#save-as-fragment)
 
-儲存後，您的片段即可用於歷程、行銷活動或範本。 在歷程和行銷活動中建置任何內容時，可以使用此片段。 請參閱[新增視覺化片段](../email/use-visual-fragments.md)和[運用運算式片段](../personalization/use-expression-fragments.md)
+儲存後，您的片段即可用於歷程、行銷活動或範本。 在歷程和行銷活動中建置任何內容時，可以使用此片段。 請參閱[新增視覺化片段](../email/use-visual-fragments.md)和[運用運算式片段](../personalization/use-expression-fragments.md)。
 
 若要建立片段，請遵循以下步驟。
 
@@ -71,7 +71,7 @@ ht-degree: 14%
 
   ![](assets/fragment-expression-editor.png)
 
-當您的內容準備就緒時，請按一下&#x200B;**儲存**&#x200B;按鈕。 已建立片段並新增至具有&#x200B;**草稿**&#x200B;狀態的片段清單。 您可以預覽並發佈它，使其可在歷程和行銷活動中使用。
+當您的內容準備就緒時，請按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;按鈕。 已建立片段並新增至具有&#x200B;**[!UICONTROL 草稿]**&#x200B;狀態的片段清單。 您可以預覽並發佈它，使其可在歷程和行銷活動中使用。
 
 ## 預覽和發佈片段 {#publish}
 
@@ -79,23 +79,23 @@ ht-degree: 14%
 >
 >若要發佈片段，您必須擁有[Publish片段](../administration/ootb-product-profiles.md#content-library-manager)使用者許可權。
 
-如果您的片段已準備好上線，您可以預覽和發佈它以使其可在您的歷程和行銷活動中使用。 若要這麼做，請依照以下步驟進行：
+如果您的片段已準備好上線，您可以預覽和發佈它以使其可在您的歷程和行銷活動中使用。 若要執行此操作，請遵循下列步驟。
 
 1. 在設計其內容後返回片段建立畫面，或從片段清單中開啟。
 
-1. 在&#x200B;**標籤**&#x200B;欄位下有片段的預覽可供使用，以檢查其轉譯。 如果您需要進行任何變更，請按一下畫面上方的&#x200B;**編輯**&#x200B;按鈕，根據片段型別開啟電子郵件Designer或個人化編輯器。
+1. 在&#x200B;**[!UICONTROL 標籤]**&#x200B;欄位下有片段的預覽可供使用，以檢查其轉譯。 如果您需要進行任何變更，請按一下畫面上方的&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕，根據片段型別開啟電子郵件Designer或個人化編輯器。
 
    ![](assets/fragment-preview.png)
 
-1. 按一下右上角的&#x200B;**Publish**&#x200B;按鈕以發佈片段。
+1. 按一下右上角的&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕以發佈片段。
 
-   如果片段用於即時歷程或行銷活動中，則會開啟訊息以通知您。 按一下&#x200B;**檢視更多**&#x200B;連結可存取參考它的歷程及/或行銷活動清單。 [瞭解如何探索片段的參考](../content-management/manage-fragments.md#explore-references)
-
-   按一下&#x200B;**確認**&#x200B;以發佈片段，並在使用它的即時歷程/行銷活動中更新。
+1. 如果片段用於即時歷程或行銷活動中，則會開啟訊息以通知您。 按一下&#x200B;**[!UICONTROL 檢視更多]**&#x200B;連結可存取參考它的歷程及/或行銷活動清單。 [瞭解如何探索片段的參考](../content-management/manage-fragments.md#explore-references)
 
    ![](assets/fragment-publish.png){width="70%" align="center"}
 
-片段現在是&#x200B;**即時**，並在[!DNL Journey Optimizer]電子郵件Designer或個人化編輯器中建立任何內容時可供使用：
+   按一下&#x200B;**[!UICONTROL 確認]**&#x200B;以發佈片段，並在使用它的即時歷程/行銷活動中更新。
+
+片段現在是&#x200B;**[!UICONTROL 即時]**，並在[!DNL Journey Optimizer]電子郵件Designer或個人化編輯器中建立任何內容時可供使用。
 
 * [瞭解如何使用視覺化片段](../email/use-visual-fragments.md)
 * [瞭解如何使用運算式片段](../personalization/use-expression-fragments.md)

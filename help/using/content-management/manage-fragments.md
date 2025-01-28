@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: d93ef15df4a25e7a6d6fab3df1f9838a0c3d31df
+source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 25%
+source-wordcount: '1062'
+ht-degree: 11%
 
 ---
 
@@ -35,10 +35,12 @@ ht-degree: 25%
 
 從每個片段旁邊的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕可以：
 
+<!--* Add to package
+* Open draft version-->
 * 復製片段。
 * 使用&#x200B;**[!UICONTROL 探索參考]**&#x200B;選項可檢視使用它的歷程、行銷活動或範本。 [了解更多](#explore-references)
 * 封存片段。 [了解更多](#archive-fragments)
-* 編輯片段的標籤[瞭解如何使用統一標籤](../start/search-filter-categorize.md#tags)。
+* 編輯片段的標籤。 [瞭解如何使用統一標籤](../start/search-filter-categorize.md#tags)
 
 ![](assets/fragment-list-more-actions.png)
 
@@ -47,7 +49,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="新的片段狀態"
->abstract="由於 Journey Optimizer 6 月版本引入了&#x200B;**草稿**&#x200B;和&#x200B;**即時**&#x200B;狀態，因此在此版本之前建立的所有片段都具有「草稿」狀態，即使這些片段用於旅程或活動中也是如此。如果您對這些片段進行任何變更，則需要發佈它們以使其進入「即時」狀態，並將變更內容傳遞到關聯的行銷活動和旅程。您還需要建立一個新的旅程/行銷活動版本，然後進行發佈。<br/>發佈需要<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">發佈片段</a>使用者權限。"
+>abstract="由於&#x200B;**草稿**&#x200B;和&#x200B;**即時**&#x200B;狀態已隨Journey Optimizer 6月發行版本引入，在此發行之前建立的所有片段都會具有&#x200B;**草稿**&#x200B;狀態，即使它們用於歷程或行銷活動亦然。 如果您對這些片段進行變更，您必須發佈這些片段，才能讓這些片段&#x200B;**上線**，並將變更傳播至相關的行銷活動和歷程。 您還需要建立一個新的旅程/行銷活動版本，然後進行發佈。<br/>發佈需要<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">發佈片段</a>使用者權限。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="了解更多有關內容片段權限的資訊"
 
 片段可以有多個狀態：
@@ -63,7 +65,7 @@ ht-degree: 25%
 
 >[!CAUTION]
 >
->由於 Journey Optimizer 6 月版本引入了&#x200B;**草稿**&#x200B;和&#x200B;**即時**&#x200B;狀態，因此在此版本之前建立的所有片段都具有「草稿」狀態，即使這些片段用於旅程或活動中也是如此。如果您對這些片段進行任何變更，則需要發佈它們以使其進入「即時」狀態，並將變更內容傳遞到關聯的行銷活動和旅程。您還需要建立一個新的旅程/行銷活動版本，然後進行發佈。發佈需要[Publish片段](../administration/ootb-product-profiles.md#content-library-manager)使用者許可權。
+>由於&#x200B;**草稿**&#x200B;和&#x200B;**即時**&#x200B;狀態已隨Journey Optimizer 6月發行版本引入，在此發行之前建立的所有片段都會具有&#x200B;**草稿**&#x200B;狀態，即使它們用於歷程或行銷活動亦然。 如果您對這些片段進行變更，您必須發佈這些片段，才能讓這些片段&#x200B;**上線**，並將變更傳播至相關的行銷活動和歷程。 您還需要建立一個新的旅程/行銷活動版本，然後進行發佈。發佈需要[Publish片段](../administration/ootb-product-profiles.md#content-library-manager)使用者許可權。
 
 ## 編輯片段 {#edit-fragments}
 
@@ -83,21 +85,47 @@ ht-degree: 25%
 
 1. 片段屬性隨即開啟，並預覽其內容。
 
-1. 如果正在編輯的片段具有&#x200B;**即時**&#x200B;狀態，請按一下&#x200B;**修改**&#x200B;按鈕以建立片段的草稿版本。 片段的目前版本將繼續上線，直到您發佈草稿版本為止。
-
-1. 對片段進行所需的變更。 若要編輯其內容，請按一下&#x200B;**編輯**&#x200B;按鈕，然後編輯您的內容，就像從頭開始建立片段時所做的一樣。 [瞭解如何建立片段](#create-from-scratch)
+1. 如果正在編輯的片段具有&#x200B;**[!UICONTROL 即時]**&#x200B;狀態，請按一下&#x200B;**[!UICONTROL 修改]**&#x200B;按鈕以建立片段的草稿版本。
 
    >[!NOTE]
    >
-   >編輯片段時，您可以移除任何個人化欄位，但無法將新欄位新增至片段內容。 如果您想要新增個人化欄位，請復製片段以建立新片段。
+   >片段的目前版本將繼續上線，直到您發佈草稿版本為止。
 
-   您也可以選取&#x200B;**總管參考**&#x200B;選項，以檢查目前正在使用片段的歷程、行銷活動和內容範本清單。 [了解更多](#explore-references)
+1. 對片段進行所需的變更。 若要編輯其內容，請按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕並更新您的內容，就像從頭開始建立片段時所做的一樣。 [瞭解如何建立片段](#create-from-scratch)
+
+   >[!NOTE]
+   >
+   >編輯已發佈的片段時，您可以移除任何個人化欄位，但無法將新欄位新增至片段內容。 如果您想要新增個人化屬性，您必須復製片段。 [了解更多](#adding-new-attributes)
+
+1. 您也可以選取&#x200B;**總管參考**&#x200B;選項，以檢查目前正在使用片段的歷程、行銷活動和內容範本清單。 [了解更多](#explore-references)
 
    ![](assets/fragment-edit.png)
 
 1. 一旦您的變更準備就緒後，請按一下&#x200B;**Publish**&#x200B;按鈕，讓您的修改上線。
 
-當您編輯片段時，變更會自動傳播至使用該片段的所有內容，包括即時歷程和行銷活動，但您中斷原始片段繼承的內容除外。 瞭解如何中斷[新增視覺化片段至您的電子郵件](../email/use-visual-fragments.md#break-inheritance)和[運用運算式片段](../personalization/use-expression-fragments.md#break-inheritance)區段中的繼承。
+當您編輯片段時，變更會自動傳播至使用該片段的所有內容，包括即時歷程和行銷活動，但您中斷原始片段繼承的內容除外。
+
+>[!NOTE]
+>
+>瞭解如何中斷[新增視覺化片段至您的電子郵件](../email/use-visual-fragments.md#break-inheritance)和[運用運算式片段](../personalization/use-expression-fragments.md#break-inheritance)區段中的繼承。
+
+## 將新屬性新增到即時片段 {#adding-new-attributes}
+
+>[!WARNING]
+>
+>不支援向即時片段新增屬性。
+
+片段發佈後，系統會針對參考該片段的所有行銷活動和歷程，鎖定其個人化或內容屬性集。
+
+若要將其他屬性合併到即時片段，請遵循以下步驟。
+
+1. 複製現有片段。
+
+1. 將所需的屬性新增至複製的草稿版本。
+
+1. Publish新版本。
+
+1. 更新任何行銷活動或歷程，以參考已新增屬性的更新片段。
 
 ## 探索參考 {#explore-references}
 
