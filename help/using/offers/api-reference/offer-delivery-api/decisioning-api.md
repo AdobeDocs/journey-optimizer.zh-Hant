@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 129863516a4b027906d1ed809148053ffd1df22e
+source-git-commit: f415209a7a62c8b7936abdb474b1b5b70c788973
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1012'
 ht-degree: 2%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 2%
 您可以向[!DNL Decisioning] API發出POST要求，以建立並傳遞優惠方案。
 
 本教學課程需要實際瞭解API，特別是有關決定管理。 如需詳細資訊，請參閱[決定管理API開發人員指南](../getting-started.md)。 本教學課程還要求您有唯一的位置ID和決定ID值可用。 如果您尚未取得這些值，請參閱[建立位置](../offers-api/placements/create.md)和[建立決定](../activities-api/activities/create.md)的教學課程。
-
-➡️[在影片中探索此功能](#video)
 
 ## 必要的標頭 {#required-headers}
 
