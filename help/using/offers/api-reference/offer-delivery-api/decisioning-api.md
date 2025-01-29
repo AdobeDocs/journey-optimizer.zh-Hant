@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 8c7fca7789931fbae6ac5d4821bc051ff9eb0923
+source-git-commit: 129863516a4b027906d1ed809148053ffd1df22e
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 2%
@@ -65,8 +65,8 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 -d '{
     "xdm:propositionRequests": [
         {
-            "xdm:activityId": "xcore:offer-activity:15ded04b1786ea27",
-            "xdm:placementId": "xcore:offer-placement:15d9bc01d35e1238"
+            "xdm:activityId": "dps:offer-activity:15ded04b1786ea27",
+            "xdm:placementId": "dps:offer-placement:15d9bc01d35e1238"
         }
     ],
     "xdm:profiles": [
@@ -105,8 +105,8 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | 屬性 | 說明 | 範例 |
 | -------- | ----------- | ------- |
 | `xdm:propositionRequests` | 此物件包含位置與決定識別碼。 |
-| `xdm:propositionRequests.xdm:placementId` | 唯一位置識別碼。 | `"xdm:placementId": "xcore:offer-placement:ffed0456"` |
-| `xdm:propositionRequests.xdm:activityId` | 唯一決定識別碼。 | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
+| `xdm:propositionRequests.xdm:placementId` | 唯一位置識別碼。 | `"xdm:placementId": "dps:offer-placement:ffed0456"` |
+| `xdm:propositionRequests.xdm:activityId` | 唯一決定識別碼。 | `"xdm:activityId": "dps:offer-activity:ffed0123"` |
 | `xdm:itemCount` | 要傳回的優惠方案數量。 最大數目為30。 | `"xdm:itemCount": 2` |
 | `xdm:profiles` | 此物件包含請求決策的設定檔的相關資訊。 針對API請求，這將包含一個設定檔。 |
 | `xdm:profiles.xdm:identityMap` | 此物件會根據身分的名稱空間整合程式碼，保留一組一般使用者身分。 身分對應可攜帶每個名稱空間一個以上的身分。 如需名稱空間的詳細資訊，請參閱[此頁面](../../../audience/get-started-identity.md)。 | `Email: [{"xdm:id": "123@abc.com"}]` |
@@ -132,22 +132,22 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
   "xdm:propositions": [
     {
       "xdm:activity": {
-        "xdm:id": "xcore:activity:ffed0123",
+        "xdm:id": "dps:activity:ffed0123",
         "repo:etag": 4
       },
       "xdm:placement": {
-        "xdm:id": "xcore:placement:ffed0456",
+        "xdm:id": "dps:placement:ffed0456",
         "repo:etag": 1
       },
       "xdm:options": [
         {
-          "xdm:id": "xcore:personalized-option:ccc0111",
+          "xdm:id": "dps:personalized-option:ccc0111",
           "repo:etag": 3,
           "@type": "https://ns.adobe.com/experience/decisioning/content-component-html-template",
           "xdm:content": "<html>some html</html>"
         },
         {
-          "xdm:id": "xcore:personalized-option:ccc0222",
+          "xdm:id": "dps:personalized-option:ccc0222",
           "repo:etag": 5,
           "@type": "https://ns.adobe.com/experience/decisioning/content-component-html-template",
           "xdm:content": "<html>hello, world</html>",
@@ -157,15 +157,15 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
     },
     {
       "xdm:activity": {
-        "xdm:id": "xcore:activity:ffed0123",
+        "xdm:id": "dps:activity:ffed0123",
         "repo:etag": 4
       },
       "xdm:placement": {
-        "xdm:id": "xcore:placement:ffed0789",
+        "xdm:id": "dps:placement:ffed0789",
         "repo:etag": 2
       },
       "xdm:fallback": {
-        "xdm:id": "xcore:fallback:ccc0222",
+        "xdm:id": "dps:fallback:ccc0222",
         "repo:etag": 5,
         "@type": "https://ns.adobe.com/experience/decisioning/content-component-imagelink",
         "dc:format": "image/png",
@@ -182,13 +182,13 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | -------- | ----------- | ------- |
 | `xdm:propositionId` | 與XDM DecisionEvent相關聯之主張實體的唯一識別碼。 | `"xdm:propositionId": "5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8"` |
 | `xdm:propositions` | 此物件包含單一決定主張。 可針對決定傳回多個選項。 如果找不到選項，則會傳回決定的遞補優惠。 單一決定主張一律包含`options`屬性或`fallback`屬性。 當出現時，`options`屬性不能是空的。 |
-| `xdm:propositions.xdm:activity` | 此物件包含決定的唯一識別碼。 | `"xdm:id": "xcore:activity:ffed0123"` |
-| `xdm:propositions.xdm:placement` | 此物件包含優惠方案位置的唯一識別碼。 | `"xdm:id": "xcore:placement:ffed0456"` |
-| `xdm:propositions.xdm:options` | 此物件包含單一選項，包括其唯一識別碼。 如果存在，此物件不得為空白。 | `xdm:id": "xcore:personalized-option:ccc0111` |
+| `xdm:propositions.xdm:activity` | 此物件包含決定的唯一識別碼。 | `"xdm:id": "dps:activity:ffed0123"` |
+| `xdm:propositions.xdm:placement` | 此物件包含優惠方案位置的唯一識別碼。 | `"xdm:id": "dps:placement:ffed0456"` |
+| `xdm:propositions.xdm:options` | 此物件包含單一選項，包括其唯一識別碼。 如果存在，此物件不得為空白。 | `xdm:id": "dps:personalized-option:ccc0111` |
 | `xdm:propositions.xdm:options.@type` | 定義元件的型別。 `@type`充當使用者端的處理合約。 組裝體驗時，撰寫器會尋找具有特定型別的元件。 | `https://ns.adobe.com/experience/offer-management/content-component-imagelink` |
 | `xdm:propositions.xdm:content` | 回應內容的格式。 | 回應內容可以是： `text`、`html block`或`image link` |
 | `xdm:score` | 選項的得分，計算方式為與選項或決定相關聯的排名函式。 如果排名功能涉及在排名期間決定優惠方案的分數，API會傳回此欄位。 | `"xdm:score": 45.65` |
-| `xdm:propositions.xdm:fallback` | 此物件包含單一遞補優惠，包括其唯一識別碼。 | `"xdm:id": "xcore:fallback:ccc0222"` |
+| `xdm:propositions.xdm:fallback` | 此物件包含單一遞補優惠，包括其唯一識別碼。 | `"xdm:id": "dps:fallback:ccc0222"` |
 | `xdm:propositions.xdm:fallback.dc:format` | 資源的實體或數位表現形式。 通常，格式應包括資源的媒體型別。 格式可用於決定顯示或操作資源所需的軟體、硬體或其他裝置。 建議從受控制的辭彙中選取值，例如，定義電腦媒體格式的[網際網路媒體型別](https://www.iana.org/assignments/media-types/)清單。 | `"dc:format": "image/png"`或`"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | 用於從內容傳遞網路或服務端點讀取資產的選用URL。 此URL可用來從使用者代理程式公開存取資產。 | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | 決定回應訊息的建立時間。 以紀元時間表示。 | `"ode:createDate": 1566497582038` |
