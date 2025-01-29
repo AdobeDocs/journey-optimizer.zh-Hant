@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
+source-git-commit: abbc5c77545f30ac2d70d718f605acd30f7e7830
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 11%
+source-wordcount: '1075'
+ht-degree: 12%
 
 ---
 
@@ -81,27 +81,31 @@ ht-degree: 11%
 
 若要編輯片段，請遵循以下步驟。
 
-1. 從&#x200B;**[!UICONTROL 片段]**&#x200B;清單中按一下所需的片段。
+1. 從&#x200B;**[!UICONTROL 片段]**&#x200B;清單中按一下所需的片段。 片段屬性畫面會開啟，並預覽其內容。
 
-1. 片段屬性隨即開啟，並預覽其內容。
+1. 您可以選取&#x200B;**[!UICONTROL 探索參考]**&#x200B;選項，以檢查目前正在使用片段的歷程、行銷活動和內容範本清單。 [了解更多](#explore-references)
+
+   ![](assets/fragment-edit-references.png)
 
 1. 如果正在編輯的片段具有&#x200B;**[!UICONTROL 即時]**&#x200B;狀態，請按一下&#x200B;**[!UICONTROL 修改]**&#x200B;按鈕以建立片段的草稿版本。
 
+   <!--![](assets/fragment-live-modify.png)-->
+
    >[!NOTE]
    >
-   >片段的目前版本將繼續上線，直到您發佈草稿版本為止。
+   >片段的目前版本將繼續上線，直到您發佈新的更新版本為止。
 
-1. 對片段進行所需的變更。 若要編輯其內容，請按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕並更新您的內容，就像從頭開始建立片段時所做的一樣。 [瞭解如何建立片段](#create-from-scratch)
+1. 對片段進行所需的變更。
+
+1. 若要修改內容，請按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕，並更新您的內容，就像從頭開始建立片段時所做的一樣。 [瞭解如何建立片段](#create-from-scratch)
+
+   ![](assets/fragment-edit.png)
 
    >[!NOTE]
    >
    >編輯已發佈的片段時，您可以移除任何個人化欄位，但無法將新欄位新增至片段內容。 如果您想要新增個人化屬性，您必須復製片段。 [了解更多](#adding-new-attributes)
 
-1. 您也可以選取&#x200B;**總管參考**&#x200B;選項，以檢查目前正在使用片段的歷程、行銷活動和內容範本清單。 [了解更多](#explore-references)
-
-   ![](assets/fragment-edit.png)
-
-1. 一旦您的變更準備就緒後，請按一下&#x200B;**Publish**&#x200B;按鈕，讓您的修改上線。
+1. 準備好變更後，請儲存變更並按一下&#x200B;**Publish**&#x200B;按鈕，讓您的修改上線。
 
 當您編輯片段時，變更會自動傳播至使用該片段的所有內容，包括即時歷程和行銷活動，但您中斷原始片段繼承的內容除外。
 
@@ -113,17 +117,19 @@ ht-degree: 11%
 
 >[!WARNING]
 >
->不支援向即時片段新增屬性。
+>不支援將新的[個人化屬性](../personalization/personalization-build-expressions.md)新增到即時片段。
 
 片段發佈後，系統會針對參考該片段的所有行銷活動和歷程，鎖定其個人化或內容屬性集。
 
 若要將其他屬性合併到即時片段，請遵循以下步驟。
 
-1. 複製現有片段。
+1. 使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕複製現有片段。
 
-1. 將所需的屬性新增至複製的草稿版本。
+   ![](assets/fragment-list-more-actions.png)
 
-1. Publish新版本。
+1. [將想要的新屬性](../personalization/personalization-build-expressions.md#add)新增到重複的草稿版本。
+
+1. Publish新版本。 [了解作法](create-fragments.md#publish)
 
 1. 更新任何行銷活動或歷程，以參考已新增屬性的更新片段。
 
