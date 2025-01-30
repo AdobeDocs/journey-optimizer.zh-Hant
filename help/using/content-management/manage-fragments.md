@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: fd9cea04711dcf57afb0d44ade7a1643e4649b46
+source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1148'
 ht-degree: 11%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 11%
 從每個片段旁邊的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕可以：
 
 * 將其新增至套件以供匯出。 [了解更多](#export)
-* 如果片段是即時的，請開啟草稿版本以進行編輯。 [了解更多](#edit-fragments)
+* 如果正在編輯即時片段，請開啟此片段的草稿版本。 [了解更多](#edit-fragments)
 * 復製片段。
 * 使用&#x200B;**[!UICONTROL 探索參考]**&#x200B;選項可檢視使用它的歷程、行銷活動或範本。 [了解更多](#explore-references)
 * 封存片段。 [了解更多](#archive-fragments)

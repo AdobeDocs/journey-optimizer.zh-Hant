@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
+source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '639'
 ht-degree: 15%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 15%
 
 1. 在設計其內容後返回片段建立畫面，或從片段清單中開啟。
 
-1. 在&#x200B;**[!UICONTROL 標籤]**&#x200B;欄位下有片段的預覽可供使用，以檢查其轉譯。 如果您需要進行任何變更，請按一下畫面上方的&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕，根據片段型別開啟電子郵件Designer或個人化編輯器。
+1. 在&#x200B;**[!UICONTROL 標籤]**&#x200B;欄位下有片段的預覽可供使用，以檢查其轉譯。 如果您需要進行任何變更，請按一下畫面上方的&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕，根據片段型別開啟電子郵件Designer或個人化編輯器。 [了解更多](manage-fragments.md#edit-fragments)
 
    ![](assets/fragment-preview.png)
 
