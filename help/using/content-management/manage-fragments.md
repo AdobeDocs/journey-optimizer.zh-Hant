@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: abbc5c77545f30ac2d70d718f605acd30f7e7830
+source-git-commit: 69aa2eb79ac5a86c8cc5e27951d3b4edd2a5d8bf
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 12%
+source-wordcount: '1144'
+ht-degree: 11%
 
 ---
 
@@ -21,8 +21,6 @@ ht-degree: 12%
 
 目前沙箱上建立的所有片段 — 使用[另存為片段](#save-as-fragment)選項從&#x200B;**[!UICONTROL 片段]**&#x200B;功能表](#create-fragments)中的[ — 都會顯示。
 
-![](assets/fragment-list-filters.png)
-
 您可以在其上篩選片段：
 
 * 狀態（草稿或即時）
@@ -31,18 +29,20 @@ ht-degree: 12%
 * 狀態（是否封存）
 * 標記
 
+![](assets/fragment-list-filters.png){width="90%" align="left"}
+
 您也可以選擇顯示所有片段，或僅顯示目前使用者建立或修改的專案。
 
 從每個片段旁邊的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕可以：
 
-<!--* Add to package
-* Open draft version-->
+* 將其新增至套件以供匯出。 [了解更多](#export)
+* 如果片段是即時的，請開啟草稿版本以進行編輯。 [了解更多](#edit-fragments)
 * 復製片段。
 * 使用&#x200B;**[!UICONTROL 探索參考]**&#x200B;選項可檢視使用它的歷程、行銷活動或範本。 [了解更多](#explore-references)
 * 封存片段。 [了解更多](#archive-fragments)
 * 編輯片段的標籤。 [瞭解如何使用統一標籤](../start/search-filter-categorize.md#tags)
 
-![](assets/fragment-list-more-actions.png)
+![](assets/fragment-list-more-actions.png){width="70%" align="left"}
 
 ## 片段的狀態
 
@@ -83,29 +83,27 @@ ht-degree: 12%
 
 1. 從&#x200B;**[!UICONTROL 片段]**&#x200B;清單中按一下所需的片段。 片段屬性畫面會開啟，並預覽其內容。
 
-1. 您可以選取&#x200B;**[!UICONTROL 探索參考]**&#x200B;選項，以檢查目前正在使用片段的歷程、行銷活動和內容範本清單。 [了解更多](#explore-references)
+1. 您可以檢查目前使用片段之歷程、行銷活動和內容範本的清單。 若要這麼做，請從[更多]動作按鈕中選取&#x200B;**[!UICONTROL 瀏覽參考]**&#x200B;選項。 [了解更多](#explore-references)
 
-   ![](assets/fragment-edit-references.png)
+1. 如果正在編輯的片段具有&#x200B;**[!UICONTROL 即時]**&#x200B;狀態，請按一下&#x200B;**[!UICONTROL 修改]**&#x200B;按鈕以建立片段的草稿版本。 按一下「**[!UICONTROL 確認]**」。
 
-1. 如果正在編輯的片段具有&#x200B;**[!UICONTROL 即時]**&#x200B;狀態，請按一下&#x200B;**[!UICONTROL 修改]**&#x200B;按鈕以建立片段的草稿版本。
-
-   <!--![](assets/fragment-live-modify.png)-->
+   ![](assets/fragment-live-modify.png){width="70%" align="left"}
 
    >[!NOTE]
    >
    >片段的目前版本將繼續上線，直到您發佈新的更新版本為止。
 
-1. 對片段進行所需的變更。
+1. 視需要對片段詳細資料進行所需的變更。
 
-1. 若要修改內容，請按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕，並更新您的內容，就像從頭開始建立片段時所做的一樣。 [瞭解如何建立片段](#create-from-scratch)
+1. 若要修改片段的內容，請按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕，然後更新您的內容，就像從頭開始建立片段時所做的一樣。 [瞭解如何建立片段](create-fragments.md#content)
 
-   ![](assets/fragment-edit.png)
+   ![](assets/fragment-edit.png){width="70%" align="left"}
 
    >[!NOTE]
    >
    >編輯已發佈的片段時，您可以移除任何個人化欄位，但無法將新欄位新增至片段內容。 如果您想要新增個人化屬性，您必須復製片段。 [了解更多](#adding-new-attributes)
 
-1. 準備好變更後，請儲存變更並按一下&#x200B;**Publish**&#x200B;按鈕，讓您的修改上線。
+1. 準備好變更後，請儲存變更並按一下&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕，讓您的修改上線。 [了解更多](create-fragments.md#publish)
 
 當您編輯片段時，變更會自動傳播至使用該片段的所有內容，包括即時歷程和行銷活動，但您中斷原始片段繼承的內容除外。
 
@@ -125,23 +123,30 @@ ht-degree: 12%
 
 1. 使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕複製現有片段。
 
-   ![](assets/fragment-list-more-actions.png)
+   ![](assets/fragment-list-more-actions.png){width="70%" align="left"}
 
-1. [將想要的新屬性](../personalization/personalization-build-expressions.md#add)新增到重複的草稿版本。
+1. 選取要開啟的重複片段，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕。
 
-1. Publish新版本。 [了解作法](create-fragments.md#publish)
+1. [將想要的新屬性](../personalization/personalization-build-expressions.md#add)新增到重複的片段，例如個人化欄位。
+
+   ![](assets/fragment-add-new-attribute.png){width="70%" align="left"}
+
+1. 儲存變更並發佈新片段。 [了解作法](create-fragments.md#publish)
 
 1. 更新任何行銷活動或歷程，以參考已新增屬性的更新片段。
 
+   * [瞭解如何使用視覺化片段](../email/use-visual-fragments.md)
+   * [瞭解如何使用運算式片段](../personalization/use-expression-fragments.md)
+
 ## 探索參考 {#explore-references}
 
-您可以顯示目前使用片段的歷程、行銷活動和內容範本清單。 若要這麼做，請從片段清單的&#x200B;**[!UICONTROL 更多動作]**&#x200B;功能表或片段屬性畫面中選取&#x200B;**[!UICONTROL 探索參考]**。
+您可以顯示目前使用片段的歷程、行銷活動和內容範本清單。 若要這麼做，請在片段清單或片段屬性畫面中，從&#x200B;**[!UICONTROL 更多動作]**&#x200B;選單中選取&#x200B;**[!UICONTROL 探索參考]**。
 
-![](assets/fragment-explore-references.png)
+![](assets/fragment-explore-references.png){width="70%" align="left"}
 
 選取索引標籤以在歷程、行銷活動、範本和片段之間切換。 您可以檢視其狀態，然後按一下名稱，重新導向至已引用片段的對應專案。
 
-![](assets/fragment-usage-screen.png)
+![](assets/fragment-usage-screen.png){width="70%" align="left"}
 
 >[!NOTE]
 >
@@ -153,7 +158,7 @@ ht-degree: 12%
 
 若要這麼做，請按一下所需片段旁的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 封存]**。 它會從片段清單中消失，從而防止使用者在未來的電子郵件或範本中使用它。
 
-![](assets/fragment-list-archive.png)
+![](assets/fragment-list-archive.png){width="70%" align="left"}
 
 >[!NOTE]
 >
@@ -161,10 +166,10 @@ ht-degree: 12%
 
 若要取消封存片段，請篩選&#x200B;**[!UICONTROL 已封存]**&#x200B;專案，然後從&#x200B;**[!UICONTROL 更多動作]**&#x200B;功能表中選取&#x200B;**[!UICONTROL 取消封存]**。 現在仍可從片段清單存取，並可用於任何電子郵件或範本。
 
-![](assets/fragment-list-unarchive.png)
+![](assets/fragment-list-unarchive.png){width="70%" align="left"}
 
 ## 將片段匯出至另一個沙箱 {#export}
 
 Journey Optimizer可讓您將片段從一個沙箱複製到另一個沙箱。 例如，您可以將片段從中繼沙箱環境複製到生產沙箱。
 
-復製程式是透過來源與目標沙箱之間的&#x200B;**封裝匯出和匯入**&#x200B;進行。 本節提供如何匯出物件並將其匯入目標沙箱的詳細資訊： [將物件複製到另一個沙箱](../configuration/copy-objects-to-sandbox.md)
+復製程式是透過來源與目標沙箱之間的&#x200B;**封裝匯出和匯入**&#x200B;進行。 本節提供如何匯出物件並將其匯入目標沙箱的詳細資訊： [將物件複製到另一個沙箱](../configuration/copy-objects-to-sandbox.md)。

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 5951428b9317af9c1e40fac64f0d18c6c80c15b0
+source-git-commit: 69aa2eb79ac5a86c8cc5e27951d3b4edd2a5d8bf
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 13%
+source-wordcount: '626'
+ht-degree: 14%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 13%
 
 1. 從&#x200B;**[!UICONTROL 標籤]**&#x200B;欄位選取或建立Adobe Experience Platform標籤，將您的片段分類，以改善搜尋。 [瞭解如何使用統一標籤](../start/search-filter-categorize.md#tags)
 
-1. 選取片段型別： **視覺片段**&#x200B;或&#x200B;**運算式片段**。 [進一步瞭解視覺和運算式片段](../content-management/fragments.md#visual-expression)
+1. 選取片段型別： **視覺片段**&#x200B;或&#x200B;**運算式片段**。 [了解更多](../content-management/fragments.md#visual-expression)
 
    >[!NOTE]
    >
