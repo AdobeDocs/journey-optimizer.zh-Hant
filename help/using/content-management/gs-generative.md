@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: 2de3766c9fea36422c017ccaab3eb0a2501c6740
 workflow-type: tm+mt
 source-wordcount: '874'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 100%
 
 以下會列出使用 Adobe Journey Optimizer 的 AI 助理內容加速器產生電子郵件的一般準則：
 
-* 產生內容的品質很大程度上受到您定義的行銷目標/提示的影響。 使用定義明確的提示讓 GenAI 模型準確解釋。  
+* 產生的內容品質強烈受到您定義的行銷目標/提示所影響。 使用定義明確的提示讓 GenAI 模型準確解釋。  
 * 上傳品牌資產以獲得準確的品牌內容。 另外，內容以公開資訊為依據。上傳的內容可以採用以下格式：PDF、JPEG、PNG 或 ZIP 檔案 (支援的檔案格式)。
 * 上傳的品牌資產最大為 50MB。較大的檔案或大量影像可以處理，但處理時間會增加。
 * 使用品牌特定範本，或是自訂範本，就能使用 Adobe Journey Optimizer 中的 AI 助理內容加速器，建立電子郵件內容。建議電子郵件範本最多包含 8-10 張影像。
