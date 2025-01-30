@@ -5,8 +5,8 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
-workflow-type: ht
+source-git-commit: a54f298b5d2a053c8e50874477a72ff656a37abc
+workflow-type: tm+mt
 source-wordcount: '2154'
 ht-degree: 100%
 
@@ -210,7 +210,7 @@ ht-degree: 100%
             + [使用內容元件](using/email/content-components.md)
             + [運用視覺片段](using/email/use-visual-fragments.md)
             + [新增連結及追蹤訊息](using/email/message-tracking.md)
-            + [插入個人化優惠方案](using/email/add-offers-email.md)
+            + [插入個人化產品建議](using/email/add-offers-email.md)
             + [產生文字版本](using/email/text-version-email.md)
             + [新增預覽文字](using/email/preheader.md)
          + 編輯樣式 {#edit-style}
@@ -304,7 +304,6 @@ ht-degree: 100%
       + [設定登陸頁面子網域](using/landing-pages/lp-subdomains.md)
       + [定義登陸頁面預設集](using/landing-pages/lp-presets.md)
 + 內容管理 {#content-management}
-   + [Adobe Experience Manager 內容片段](using/content-management/aem-fragments.md)
    + 使用 AI 助理工作{#ai-assistant}
       + [開始使用 AI 助理內容加速器](using/content-management/gs-generative.md)
       + [使用 AI 來產生電子郵件](using/content-management/generative-email.md)
@@ -371,6 +370,7 @@ ht-degree: 100%
       + [開始使用動態內容](using/personalization/get-started-dynamic-content.md)
       + [建立條件式規則](using/personalization/create-conditions.md)
       + [建立動態內容](using/personalization/dynamic-content.md)
+   + [Adobe Experience Manager 內容片段](using/content-management/aem-fragments.md)
 + 客群、輪廓與身分識別{#audiences-profiles-identities}
    + 客群 {#audiences}
       + [開始使用 Audiences](using/audience/about-audiences.md)
@@ -481,9 +481,9 @@ ht-degree: 100%
       + 開始使用決定管理 {#get-started-decision}
          + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
          + [使用者介面](using/offers/get-started/user-interface.md)
-         + [建立和管理優惠的重要步驟](using/offers/offer-library/key-steps.md)
+         + [建立和管理產品建議的重要步驟](using/offers/offer-library/key-steps.md)
          + [善用自訂上傳對象，以便做決策](using/offers/custom-upload-decisioning.md)
-         + [使用案例：在電子郵件中插入優惠](using/offers/offers-e2e.md)
+         + [使用案例：在電子郵件中插入產品建議](using/offers/offers-e2e.md)
       + 建立元件 {#create-components}
          + [建立位置](using/offers/offer-library/creating-placements.md)
          + [建立決定規則](using/offers/offer-library/creating-decision-rules.md)
@@ -497,16 +497,16 @@ ht-degree: 100%
             + [自動最佳化模型](using/offers/ranking/auto-optimization-model.md)
             + [個人化最佳化模型](using/offers/ranking/personalized-optimization-model.md)
             + [建立 AI 模型](using/offers/ranking/create-ranking-strategies.md)
-      + 建立和管理優惠方案 {#managing-offers-in-the-offer-library}
-         + 設定優惠方案 {#configure-offers}
-            + [建立個人化優惠方案](using/offers/offer-library/creating-personalized-offers.md)
+      + 建立和管理產品建議 {#managing-offers-in-the-offer-library}
+         + 設定產品建議 {#configure-offers}
+            + [建立個人化產品建議](using/offers/offer-library/creating-personalized-offers.md)
             + [新增代表](using/offers/offer-library/add-representations.md)
             + [新增限制](using/offers/offer-library/add-constraints.md)
-         + [建立遞補優惠](using/offers/offer-library/creating-fallback-offers.md)
+         + [建立後備產品建議](using/offers/offer-library/creating-fallback-offers.md)
          + [建立集合](using/offers/offer-library/creating-collections.md)
       + 建立和管理決定 {#create-manage-activities}
          + [建立決定](using/offers/offer-activities/create-offer-activities.md)
-         + [設定決定中的優惠選擇](using/offers/offer-activities/configure-offer-selection.md)
+         + [設定決定中的產品建議選擇](using/offers/offer-activities/configure-offer-selection.md)
          + [建立模擬](using/offers/offer-activities/simulation.md)
       + [使用批次決策](using/offers/batch-delivery.md)
       + 收集事件資料{#collect-event-data}
@@ -516,16 +516,16 @@ ht-degree: 100%
       + 建立決策管理報告 {#create-reports}
          + [使用決策管理事件](using/offers/reports/get-started-events.md)
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
-      + 匯出優惠目錄 {#export-catalog}
-         + [開始使用優惠目錄匯出](using/offers/export-catalog/get-started-export.md)
-         + [存取匯出的優惠目錄](using/offers/export-catalog/access-dataset.md)
-         + [個人化優惠資料集](using/offers/export-catalog/export-offers.md)
+      + 匯出產品建議目錄 {#export-catalog}
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
+         + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
+         + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
          + [位置資料集](using/offers/export-catalog/export-placements.md)
          + [遞補資料集](using/offers/export-catalog/export-fallback.md)
       + API 參考 {#api-reference}
          + [快速入門](using/offers/api-reference/getting-started.md)
-         + 使用 API 建立和管理優惠 {#offers-api}
+         + 使用 API 建立和管理產品建議 {#offers-api}
             + 位置 {#placements}
                + [清單位置](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [查詢位置](using/offers/api-reference/offers-api/placements/lookup.md)
@@ -544,24 +544,24 @@ ht-degree: 100%
                + [建立集合限定詞](using/offers/api-reference/offers-api/tags/create.md)
                + [更新集合限定詞](using/offers/api-reference/offers-api/tags/update.md)
                + [刪除集合限定詞](using/offers/api-reference/offers-api/tags/delete.md)
-            + 個人化優惠 {#personalized-offers}
-               + [列出個人化優惠](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
-               + [查詢個人化優惠](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
-               + [建立個人化優惠](using/offers/api-reference/offers-api/personalized-offers/create.md)
-               + [更新個人化優惠](using/offers/api-reference/offers-api/personalized-offers/update.md)
-               + [刪除個人化優惠](using/offers/api-reference/offers-api/personalized-offers/delete.md)
+            + 個人化產品建議 {#personalized-offers}
+               + [列出個人化產品建議](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
+               + [查詢個人化產品建議](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
+               + [建立個人化產品建議](using/offers/api-reference/offers-api/personalized-offers/create.md)
+               + [更新個人化產品建議](using/offers/api-reference/offers-api/personalized-offers/update.md)
+               + [刪除個人化產品建議](using/offers/api-reference/offers-api/personalized-offers/delete.md)
             + 集合 {#collections}
                + [清單集合](using/offers/api-reference/offers-api/collections/collections-list.md)
                + [查詢集合](using/offers/api-reference/offers-api/collections/lookup.md)
                + [建立集合](using/offers/api-reference/offers-api/collections/create.md)
                + [更新集合](using/offers/api-reference/offers-api/collections/update.md)
                + [刪除集合](using/offers/api-reference/offers-api/collections/delete.md)
-            + 遞補優惠 {#fallback-offers}
-               + [列出遞補優惠](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
-               + [查詢遞補優惠](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
-               + [建立遞補優惠](using/offers/api-reference/offers-api/fallback-offers/create.md)
-               + [更新遞補優惠](using/offers/api-reference/offers-api/fallback-offers/update.md)
-               + [刪除遞補優惠](using/offers/api-reference/offers-api/fallback-offers/delete.md)
+            + 後備產品建議 {#fallback-offers}
+               + [列出後備產品建議](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
+               + [查詢後備產品建議](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
+               + [建立後備產品建議](using/offers/api-reference/offers-api/fallback-offers/create.md)
+               + [更新後備產品建議](using/offers/api-reference/offers-api/fallback-offers/update.md)
+               + [刪除後備產品建議](using/offers/api-reference/offers-api/fallback-offers/delete.md)
             + 決策 {#decisions-api}
                + [列舉決定](using/offers/api-reference/activities-api/activities/activities-list.md)
                + [查詢決定](using/offers/api-reference/activities-api/activities/lookup.md)
@@ -588,18 +588,18 @@ ht-degree: 100%
                   + [建立集合限定詞](using/offers/api-reference/offers-api/legacy-apis/tags/create.md)
                   + [更新集合限定詞](using/offers/api-reference/offers-api/legacy-apis/tags/update.md)
                   + [刪除集合限定詞](using/offers/api-reference/offers-api/legacy-apis/tags/delete.md)
-               + 個人化優惠 {#personalized-offers}
-                  + [列出個人化優惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/offers-list.md)
-                  + [查詢個人化優惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/lookup.md)
-                  + [建立個人化優惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/create.md)
-                  + [更新個人化優惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/update.md)
-                  + [刪除個人化優惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/delete.md)
-               + 遞補優惠 {#fallback-offers}
-                  + [列出遞補優惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/fallback-list.md)
-                  + [查詢遞補優惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/lookup.md)
-                  + [建立遞補優惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
-                  + [更新遞補優惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/update.md)
-                  + [刪除遞補優惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/delete.md)
+               + 個人化產品建議 {#personalized-offers}
+                  + [列出個人化產品建議](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/offers-list.md)
+                  + [查詢個人化產品建議](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/lookup.md)
+                  + [建立個人化產品建議](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/create.md)
+                  + [更新個人化產品建議](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/update.md)
+                  + [刪除個人化產品建議](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/delete.md)
+               + 後備產品建議 {#fallback-offers}
+                  + [列出後備產品建議](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/fallback-list.md)
+                  + [查詢後備產品建議](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/lookup.md)
+                  + [建立後備產品建議](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
+                  + [更新後備產品建議](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/update.md)
+                  + [刪除後備產品建議](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/delete.md)
                + 集合 {#collections}
                   + [清單集合](using/offers/api-reference/offers-api/legacy-apis/collections/collections-list.md)
                   + [查詢集合](using/offers/api-reference/offers-api/legacy-apis/collections/lookup.md)
@@ -612,14 +612,14 @@ ht-degree: 100%
                   + [建立決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
                   + [更新決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
                   + [刪除決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
-         + 利用 API 傳遞優惠方案{#offer-delivery-api}
-            + [開始使用傳遞優惠方案 API](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+         + 利用 API 傳遞產品建議{#offer-delivery-api}
+            + [開始使用傳遞產品建議 API](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
             + [決策 API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [邊緣決策 API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [批次決策 API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + 資料管理 {#data-management}
    + [開始使用資料管理](using/data/gs-data.md)
-   + [使用方案](using/data/get-started-schemas.md)
+   + [使用結構描述](using/data/get-started-schemas.md)
    + Journey Optimizer 資料集 {#datasets}
       + [開始使用資料集](using/data/get-started-datasets.md)
       + [存留時間和串流細分更新](using/data/datasets-ttl.md)
@@ -665,7 +665,7 @@ ht-degree: 100%
          + [使用歷程事件](using/event/about-events.md)
          + 設定單一事件 {#unitary-events}
             + [開始使用單一事件](using/event/about-creating.md)
-            + [關於 ExperienceEvent 方案](using/event/experience-event-schema.md)
+            + [關於 ExperienceEvent 結構描述](using/event/experience-event-schema.md)
             + [與 Adobe Analytics 整合](using/event/about-analytics.md)
          + [設定業務事件](using/event/about-creating-business.md)
          + [傳送事件的其他步驟](using/event/additional-steps-to-send-events-to-journey.md)
