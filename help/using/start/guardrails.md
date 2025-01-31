@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
+source-git-commit: 35dde8b905cf4c37c0c1b5f6b8a84f41821eb240
 workflow-type: tm+mt
 source-wordcount: '2361'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 權利、產品限制和效能護欄列於 [Adobe Journey Optimizer 產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
-在啟動](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hant){target="_blank"}之前，您還需要注意即時客戶輪廓資料的[護欄。
+在開始之前，您還需要注意即時客戶設定檔資料](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hant){target="_blank"}的[護欄。
 
 當使用 [!DNL Adobe Journey Optimizer] 時，您將找到下面其他護欄和限制。
 
@@ -68,7 +68,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 歷程中的活動數限定為最多 50 個。活動數會顯示於歷程畫布的左上方區段。這有助於提高可讀性、QA 及疑難排解。
 * 當您發佈歷程時，我們會自動縮放和調整，以確保輸送量與穩定性達到最高。 當您一次接近 100 個即時歷程的里程碑時，您會看到此成果的 UI 中出現通知。 如果您看到此通知，並需要一次將歷程擴充至 100 個即時歷程以上，請建立客戶服務支援服務單，我們將協助您達成目標。
   <!-- DOCAC-10977 * As you publish journeys, we automatically scale and adjust to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time, you will see a notification appear in the UI on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
-* 在歷程中使用客群資格時，該客群資格活動最多可能需要 10 分鐘，才會啟用和接聽進入或退出客群的輪廓。
+* 在歷程中使用客群資格篩選時，該客群資格篩選活動最多可能需要 10 分鐘，才會啟用和接聽進入或退出客群的輪廓。
 * 輪廓的歷程執行個體大小上限為 1MB。在歷程執行過程中收集的所有資料都會儲存在該歷程執行個體中。因此，來自傳入事件的資料、從 Adobe Experience Platform 擷取的輪廓資訊、自訂動作回應等會儲存在該歷程執行個體中，並影響歷程大小。當歷程以事件開始時，建議限制該事件承載的大小上限 (例如：低於 800 KB)，以避免在歷程執行中經過幾項活動後達到該限制。 當達到該限制時，輪廓處於錯誤狀態並將從歷程中排除。
 * 除了歷程活動中使用的逾時之外，還有一個不會顯示在介面且無法變更的全域歷程逾時。 此全域逾時會在個人進入歷程 91 天後停止其進度。 [閱讀全文](../building-journeys/journey-properties.md#global_timeout)
 
@@ -82,9 +82,9 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ### 歷程版本 {#journey-versions-g}
 
-* 從 v1 中的事件活動開始的歷程無法從其他版本中的事件開始。您無法透過&#x200B;**客群資格**&#x200B;事件開始歷程。
-* 在 v1 中以&#x200B;**客群資格**&#x200B;活動開始的歷程，在後續版本中必須一律以&#x200B;**客群資格**&#x200B;開始。
-* 在&#x200B;**客群資格** (第一個節點) 中選擇的客群與命名空間在新版本中無法變更。
+* 從 v1 中的事件活動開始的歷程無法從其他版本中的事件開始。您無法透過&#x200B;**客群資格篩選**&#x200B;事件開始歷程。
+* 在 v1 中以&#x200B;**客群資格篩選**&#x200B;活動開始的歷程，在後續版本中必須一律以&#x200B;**客群資格篩選**&#x200B;開始。
+* 在&#x200B;**客群資格篩選** (第一個節點) 中選擇的客群與命名空間在新版本中無法變更。
 * 所有歷程版本中的重新進入規則必須相同。
 * 以&#x200B;**讀取客群**&#x200B;開始的歷程在後續版本中無法以另一個事件開始。
 * 您無法建立使用增量讀取方式的新讀取客群歷程版本。 您必須重複歷程。
@@ -107,9 +107,9 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 ### 活動 {#events-g}
 
 * 對於系統產生的事件，必須先在 Journey Optimizer 中設定用於啟動客戶歷程的串流資料，才能取得唯一的協調流程 ID。 此協調流程 ID 必須附加至傳入 Adobe Experience Platform 的串流裝載。 此限制不適用於規則型事件。
-* 業務事件不能與單一事件或客群資格活動結合使用。
-* 單一歷程 (從事件或客群資格開始) 包含可防止同一事件多次錯誤觸發歷程的護欄。 在預設情況下，輪廓重新進入時會暫時封鎖 5 分鐘。例如，如果某個事件在 12:01 觸發特定輪廓的歷程，而另一個事件在 12:03 達到時間限制 (無論是相同事件或是不同事件觸發相同歷程)，則此輪廓的歷程將不會再次開始。
-* Journey Optimizer 需將事件串流至資料收集核心服務 (DCCS)，才能觸發歷程。 批次擷取的事件，或來自內部Journey Optimizer資料集的事件（訊息回饋、電子郵件追蹤等）無法用於觸發歷程。 對於無法取得串流事件的使用案例，請根據這些事件建置對象，然後改為使用&#x200B;**讀取對象**&#x200B;活動。 技術上可使用對象資格，但不建議使用，因為它可能會根據所使用的操作導致下游挑戰。
+* 業務事件不能與單一事件或客群資格篩選活動結合使用。
+* 單一歷程 (從事件或客群資格篩選開始) 包含可防止同一事件多次錯誤觸發歷程的護欄。 在預設情況下，輪廓重新進入時會暫時封鎖 5 分鐘。例如，如果某個事件在 12:01 觸發特定輪廓的歷程，而另一個事件在 12:03 達到時間限制 (無論是相同事件或是不同事件觸發相同歷程)，則此輪廓的歷程將不會再次開始。
+* Journey Optimizer 需將事件串流至資料收集核心服務 (DCCS)，才能觸發歷程。 批次擷取的事件，或來自內部Journey Optimizer資料集的事件（訊息回饋、電子郵件追蹤等）無法用於觸發歷程。 對於無法取得串流事件的使用案例，請根據這些事件建置對象，然後改為使用&#x200B;**讀取對象**&#x200B;活動。 技術上可使用客群資格篩選，但不建議使用，因為它可能會根據所使用的操作導致下游挑戰。
 
 
 ### 資料來源 {#data-sources-g}
@@ -151,16 +151,16 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 擷取匯出工作時，預設會對對象觸發的歷程 (從&#x200B;**讀取客群**&#x200B;或&#x200B;**商業事件**&#x200B;開始) 套用重試。如果在匯出工作建立期間發生錯誤，將每隔 10 分鐘進行重試，最長為 1 小時。在這之後，我們會將其視為失敗。因此，這些類型的歷程可在排程時間後最多 1 小時執行。
 
 
-### 對象資格 {#audience-qualif-g}
+### 客群資格篩選 {#audience-qualif-g}
 
-下列護欄適用於&#x200B;**[!UICONTROL 對象資格]**&#x200B;活動：
+下列護欄適用於&#x200B;**[!UICONTROL 客群資格篩選]**&#x200B;活動：
 
-* 對象資格活動無法與 Adobe Campaign 活動搭配使用。
+* 客群資格篩選活動無法與 Adobe Campaign 活動搭配使用。
 
 
 ### 運算式編輯器 {#expression-editor}
 
-* 從讀取客群、客群資格或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。 您需要建立新對象，以及在歷程中使用非對象條件。
+* 從讀取客群、客群資格篩選或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。 您需要建立新對象，以及在歷程中使用非對象條件。
 
 
 ### 應用程式內活動 {#in-app-activity-limitations}
@@ -191,7 +191,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 下列護欄適用於 **[!UICONTROL Campaign v7/v8]** 和 **[!UICONTROL Campaign Standard]** 活動：
 
-* Adobe Campaign 活動不能與讀取對象或對象資格活動搭配使用。
+* Adobe Campaign 活動不能與讀取客群或客群資格篩選活動搭配使用。
 * 這些活動無法與應用程式內活動搭配使用。
 
 ## 客群護欄 {#audience}
@@ -214,10 +214,10 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 決策管理限制如下所列。
 
-* **核准的個人化優惠 + 遞補優惠** - 核准的個人化優惠與核准的遞補優惠合併計算，最多 10,000 個。
+* **核准的個人化產品建議 + 後備產品建議** - 核准的個人化產品建議與核准的後備產品建議合併計算，最多 10,000 個。
 * **決策** - 最多 10,000 個決策。
 * **即時決策** - Offer Decisioning 應用程式服務支援最多 1,000 個即時決策。
-* **每個回應傳回的優惠數** - Offer Decisioning 在請求中的所有決策範圍，支援每個請求最多傳回 100 個優惠。
+* **每個回應傳回的產品建議數** - Offer Decisioning 在請求中的所有決策範圍，支援每個請求最多傳回 100 個產品建議。
 * **集合** - 最多 10,000 個集合。
 * **每個決策的集合** - 每個決策最多 30 個集合。
 * **決定規則 + 排名函數** - 決定規則和排名函數合併計算，最多 10,000 個。
@@ -225,5 +225,5 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * **每個決策的位置** - 每個決策最多 30 個位置。
 * **每個決策的排名方法** - Offer Decisioning 應用程式服務支援每個決策最多 30 個排名函數。
 * **AI 排名模型** - Offer Decisioning 應用程式服務支援最多 5 個 AI 排名模型。
-* **每個優惠或集合的集合限定詞** - 在任何單一個人化優惠或單一集合中，Offer Decisioning 應用程式服務支援最多 20 個集合限定詞。
+* **每個產品建議或集合的集合限定詞** - 在任何單一個人化產品建議或單一集合中，Offer Decisioning 應用程式服務支援最多 20 個集合限定詞。
 * **集合限定詞總數** -Offer Decisioning 應用程式服務支援最多 1,000 個集合限定詞。
