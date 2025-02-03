@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: dfe59dc0533fca394ee197193ad4558568c4c11c
+source-git-commit: a1bdbc741a96325d71562b8f5ce5279096689cf0
 workflow-type: tm+mt
-source-wordcount: '2854'
-ht-degree: 13%
+source-wordcount: '2834'
+ht-degree: 11%
 
 ---
 
@@ -85,8 +85,8 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
->title="輸入自訂清單 — 取消訂閱端點"
->abstract="如果您在 Adob&#x200B;&#x200B;e 外面管理同意，請選取「**客戶管理**」選項，以輸入自訂取消訂閱電子郵件地址和您自己的一鍵式取消訂閱 URL。在這種情況下，請注意 Adob&#x200B;&#x200B;e 不會儲存任何取消訂閱資訊。客戶同意資訊的所有者負責管理他們的同意資料並將其推送回 Journey Optimizer。"
+>title="定義管理取消訂閱資料的方式"
+>abstract="**受管理的Adobe**：同意資料是由您在Adobe系統中管理的。<br>**客戶管理**：同意資料是由您在外部系統中管理，除非您啟動，否則不會在Adobe系統中更新任何同意資料的同步處理。"
 
 <!--Do not modify - Legal Review Done -->
 
