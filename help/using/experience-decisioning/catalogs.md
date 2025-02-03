@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
+source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,25 @@ ht-degree: 0%
 目前，所有已建立的決定專案已整合至單一「優惠」目錄中，可透過&#x200B;**[!UICONTROL 目錄]**&#x200B;功能表存取。
 
 ![](assets/catalogs-list.png)
+
+## 護欄和限制
+
+為了確保最佳效能和一致性，Decisioning會強制實行下列護欄和限制：
+
+* **支援的資料型別**
+
+  目前，Decisioning僅支援下列資料型別：字串、整數、布林值、日期、日期時間、Decisioning資產和物件。 在製作決定專案或目錄時，落在這些資料型別之外的任何欄位都無法使用。
+
+
+* **自訂屬性限制**
+
+  每個決定專案最多可包含100個自訂屬性。
+
+* **巢狀限制**
+
+  最多支援四個巢狀層級。 最後層級不支援影像。
+
+## 存取及編輯目錄的結構描述
 
 若要存取儲存決定專案屬性的目錄結構，請執行下列步驟：
 
@@ -38,16 +57,14 @@ ht-degree: 0%
 
 1. 填寫新增屬性的必要欄位，然後按一下&#x200B;**[!UICONTROL 套用]**。
 
-   >[!CAUTION]
-   >
-   >目前，Decisioning僅支援下列資料型別：字串、整數、布林值、日期、日期時間和決定資產。 在製作決定專案或目錄時，落在這些資料型別之外的任何欄位都無法使用。
-
    在含有決策資產屬性的屬性上輸入的值是公共url。 大部分時間這會指向影像。
 
    有關如何使用Adobe Experience Platform結構描述的詳細資訊，請參閱[XDM系統檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant)。
 
 1. 新增您所需的自訂屬性後，請儲存結構。 新欄位現在可在&#x200B;**[!UICONTROL 自訂屬性]**&#x200B;區段的決定專案建立畫面中使用。
 
->[!NOTE]
->
->決策專案最多可包含100個自訂屬性。 [進一步瞭解Decisioning護欄和限制](gs-experience-decisioning.md#guardrails)
+
+   下列範例顯示具有自訂屬性（例如結構描述中定義的物件）的專案建立畫面。
+
+   ![](assets/custom-attributes.png)
+

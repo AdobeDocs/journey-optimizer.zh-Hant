@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
-workflow-type: ht
-source-wordcount: '2172'
-ht-degree: 100%
+source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
+workflow-type: tm+mt
+source-wordcount: '2196'
+ht-degree: 99%
 
 ---
 
@@ -40,6 +40,14 @@ ht-degree: 100%
 </tr>
 </tbody>
 </table>
+
+### 改進項目 {#25-01-improvements}
+
+此發行版本隨附下列改進項目。
+
+**Decisioning**
+
+* 編輯專案目錄的結構描述時，決策功能現在支援物件資料型別。 [閱讀全文](../experience-decisioning/catalogs.md)
 
 ## 2024 年 10 月發行版本 {#24-10-rn}
 
@@ -211,7 +219,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Decisioning 之前有開放給一整組組織 (LA) 使用，又稱為體驗決策，目前可供所有使用者 (GA) 使用，包括已購買 Adobe Healthcare Shield 或 Privacy and Security Shield 附加產品的組織的使用者。</p><p>Decisioning 會透過提供集中行銷優惠目錄，又稱為「決策項目」，還有複雜的決策引擎，設法簡化個人化。 此引擎會運用規則與排名標準來選取，並呈現出最相關的決定項目給每個人。這些決策項目會透過新的程式碼型體驗頻道，無縫整合入廣泛的傳入介面。</p>
+<p>Decisioning 之前有開放給一整組組織 (LA) 使用，又稱為體驗決策，目前可供所有使用者 (GA) 使用，包括已購買 Adobe Healthcare Shield 或 Privacy and Security Shield 附加產品的組織的使用者。</p><p>Decisioning 會透過提供集中行銷產品建議目錄，又稱為「決策項目」，還有複雜的決策引擎，設法簡化個人化。 此引擎會運用規則與排名標準來選取，並呈現出最相關的決定項目給每個人。這些決策項目會透過新的程式碼型體驗頻道，無縫整合入廣泛的傳入介面。</p>
 <p>如需詳細資訊，請參閱<a href="../experience-decisioning/gs-experience-decisioning.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -366,4 +374,4 @@ ht-degree: 100%
 
 * [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 使用者目前可以選擇在決定中設定 AI 模型時，將 AI 模型最佳化 (之前又稱為體驗決策)。 舉例來說，這讓您可以將自訂「購買」表格最佳化，不必受到轉換率等定義限制。[了解更多](../experience-decisioning/ranking.md)
 
-* 當將決定原則新增至擁有決策的程式碼型行銷活動時，除了選取策略之外，目前還可以手動選取單一決定項目。 此外，您目前還可以選取多種遞補優惠。 這能保證會傳回一定數量的決定項目。 [了解更多](../experience-decisioning/create-decision.md)
+* 當將決定原則新增至擁有決策的程式碼型行銷活動時，除了選取策略之外，目前還可以手動選取單一決定項目。 此外，您目前還可以選取多種後備產品建議。 這能保證會傳回一定數量的決定項目。 [了解更多](../experience-decisioning/create-decision.md)
