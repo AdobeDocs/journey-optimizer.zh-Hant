@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 0dc8f4700a9ffe9073aecfda1b3ad31e0d30610e
 workflow-type: tm+mt
-source-wordcount: '1535'
-ht-degree: 49%
+source-wordcount: '1593'
+ht-degree: 41%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 49%
 >title="外部資料來源"
 >abstract="外部資料來源可讓您定義與協力廠商系統的連線，例如使用飯店訂房系統來檢查某人是否已登記客房。與內建的 Adobe Experience Platform 資料來源不同，您可以視需要儘量建立外部資料來源。"
 
+## 使用外部資料來源 {#gs-ext-data-sources}
+
 外部資料來源可讓您定義與協力廠商系統的連線，例如使用飯店訂房系統來檢查某人是否已登記客房。與內建的 Adobe Experience Platform 資料來源不同，您可以視需要儘量建立外部資料來源。
 
 >[!NOTE]
 >
->使用外部系統時的護欄列在[此頁面](../configuration/external-systems.md)中。
-
->[!NOTE]
+>* 使用外部系統時的護欄列在[此頁面](../configuration/external-systems.md)中。
 >
->現在支援回應，因此您應該針對外部資料來源使用案例使用自訂動作，而非資料來源。 如需回應的詳細資訊，請參閱此[區段](../action/action-response.md)
+>* 現在支援回應，因此您應該針對外部資料來源使用案例使用自訂動作，而非資料來源。 如需回應的詳細資訊，請參閱此[區段](../action/action-response.md)
 
 支援使用 POST 或 GET 以及傳回 JSON 的 REST API。支援 API 金鑰、基本和自訂驗證模式。
 
@@ -43,6 +43,9 @@ ht-degree: 49%
 * _https://api.adobeweather.org/weather?lat=35&amp;lon=139&amp;appid=1234_
 
 此呼叫由主要 URL (_https://api.adobeweather.org/weather_)、兩個參數集 （&quot;city&quot; 代表城市、&quot;lat/long&quot; 代表經緯度）和 API 金鑰 (appid) 組成。
+
+
+## 建立及設定外部資料來源 {#create-ext-data-sources}
 
 以下是建立和設定新外部資料來源的主要步驟：
 
@@ -75,9 +78,12 @@ ht-degree: 49%
 
    >[!NOTE]
    >
-   >執行驗證呼叫時，會在Authentication標頭中新增以base64編碼的`<username>:<password>`字串。
+   >* 執行驗證呼叫時，會在Authentication標頭中新增以base64編碼的`<username>:<password>`字串。
+   >
+   >* Adobe Journey Optimizer會自動加密自訂動作中定義的秘密。 每個組織的加密金鑰都會在與其組織繫結的專屬儲存庫中受到安全管理。 憑證在介面中顯示時，預設會加以遮罩，以防止意外曝光。
 
-   如需自訂驗證模式的詳細資訊，請參閱[本節](../datasource/external-data-sources.md#custom-authentication-mode)。 在我們的範例中，我們選擇API金鑰驗證模式：
+
+   如需自訂驗證模式的詳細資訊，請參閱[本節](../datasource/external-data-sources.md#custom-authentication-mode)。 在我們的範例中，我們選擇API金鑰驗證模式，如下所示：
 
    * **[!UICONTROL 型別]**： &quot;API金鑰&quot;
    * **[!UICONTROL 名稱]**： &quot;appid&quot; （這是API金鑰引數名稱）
@@ -108,28 +114,28 @@ ht-degree: 49%
 
 ![](assets/journey29.png)
 
-按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 資料來源現在已設定完畢，且可供您在歷程中使用，例如在您的條件或個人化電子郵件中。如果溫度超過 30°C，您可以決定傳送特定通訊。
 
-## 自訂驗證模式{#custom-authentication-mode}
+## 自訂驗證模式 {#custom-authentication-mode}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="關於自訂驗證"
 >abstract="自訂驗證模式會用於複雜驗證，以呼叫 OAuth2 這類 API 封裝通訊協定。動作執行是兩個步驟的流程。首先，系統會執行端點呼叫以產生存取權杖。接著，存取權杖會插入到動作的 HTTP 要求中。"
 
-此驗證模式會用於複雜驗證，常用來呼叫 OAuth2 這類 API 封裝通訊協定，以擷取要插入到動作之實際 HTTP 要求中的存取權杖。
+自訂驗證模式會用於複雜驗證，常用來呼叫OAuth2等API封裝通訊協定，以擷取要插入到動作之實際HTTP要求中的存取權杖。
 
-當您設定自訂驗證時，可以按一下下方的按鈕，以檢查自訂驗證有效負載是否已正確設定。
+當您設定自訂驗證時，請使用&#x200B;**[!UICONTROL 按一下以檢查驗證]**&#x200B;按鈕，以控制自訂驗證裝載是否已正確設定。
 
 ![](assets/journey29-bis.png)
 
-如果測試成功，按鈕就會變成綠色。
+測試成功時，按鈕會變成綠色。
 
 ![](assets/journey29-ter.png)
 
-使用此驗證的話，動作執行會是兩個步驟的流程：
+使用此驗證模式，動作執行是兩個步驟的流程：
 
 1. 呼叫端點以產生存取權仗。
 1. 以正確的方式插入存取權仗來呼叫 REST API。
