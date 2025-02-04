@@ -9,9 +9,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 3d0576983854b5cc33d8dc956c601b638164a813
+source-git-commit: 098fbf3bdc13cb916804c30a77b72944f0902046
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '423'
 ht-degree: 2%
 
 ---
@@ -67,16 +67,9 @@ ht-degree: 2%
 
 1. 從可用的清單中選取&#x200B;**[!UICONTROL 內容片段]**，以匯入您的Journey Optimizer內容。
 
-   >[!IMPORTANT]
-   >
-   >只能使用已發佈的&#x200B;**[!UICONTROL 內容片段]**。
-
 1. 按一下「**[!UICONTROL 顯示篩選器]**」以微調您的內容片段清單。
 
-   內容片段選擇器包含預先設定的篩選器：
-
-   * **[!UICONTROL 狀態]**：已發佈，已修改
-   * **[!UICONTROL 標籤]**：根據您的Journey Optimizer環境（組織ID和沙箱）自動定義
+   依預設，內容片段篩選器預設為僅顯示核准的內容。
 
    ![](assets/aem_campaign_4.png)
 
@@ -84,7 +77,9 @@ ht-degree: 2%
 
    ![](assets/aem_campaign_5.png)
 
-1. 從您的&#x200B;**[!UICONTROL 內容片段]**&#x200B;中選擇所需的欄位以新增至您的內容。
+1. 從您的&#x200B;**[!UICONTROL 內容片段]**&#x200B;中選擇所需的欄位以新增至您的內容。 您可以新增內容或複製其值。
+
+   請注意，如果您選擇複製值，您日後對&#x200B;**[!UICONTROL 內容片段]**&#x200B;所做的任何更新都不會反映在您的行銷活動或歷程中。
 
    ![](assets/aem_campaign_6.png)
 
