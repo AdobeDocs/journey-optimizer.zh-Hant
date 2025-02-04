@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 962366b6e7eb959d24411a5b383678a5a183ad75
+source-git-commit: 8faeaea48e2f6e32cb3d66d0bd1fe53c33b08e65
 workflow-type: tm+mt
-source-wordcount: '1593'
-ht-degree: 41%
+source-wordcount: '1595'
+ht-degree: 40%
 
 ---
 
@@ -102,21 +102,19 @@ ht-degree: 41%
 * **[!UICONTROL 回應承載]**：在&#x200B;**[!UICONTROL 承載]**&#x200B;欄位內按一下，並貼上呼叫傳回之承載的範例。 例如，我們使用了氣象 API 網站上找到的有效負載。確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。請注意，如果要變更目前傳遞的裝載，可以按一下&#x200B;**[!UICONTROL 貼上新的裝載]**。
 * **[!UICONTROL 已傳送裝載]**：此欄位未出現在我們的範例中。 只有選取 POST 方法時才能使用。貼上會傳送至協力廠商系統的有效負載。
 
-  若是GET呼叫所需的引數，您會在&#x200B;**[!UICONTROL 動態值]**&#x200B;欄位中輸入引數，呼叫結束時會自動新增這些引數。 若是 POST 呼叫，您需要：
+若是GET呼叫所需的引數，您會在&#x200B;**[!UICONTROL 動態值]**&#x200B;欄位中輸入引數，呼叫結束時會自動新增這些引數。 若是 POST 呼叫，您需要：
 
-   * 在&#x200B;**[!UICONTROL 動態值]**&#x200B;欄位中列出呼叫時要傳遞的引數（在以下範例中：「識別碼」）。
-   * 在已傳送有效負載的正文中，也使用完全相同的語法指定它們。若要這麼做，您必須新增：&quot;param&quot;： 「name of your parameter」 （在以下範例中：「identifier」）。 請遵循下列語法：
+* 在&#x200B;**[!UICONTROL 動態值]**&#x200B;欄位中列出呼叫時要傳遞的引數（在以下範例中：「識別碼」）。
+* 在已傳送有效負載的正文中，也使用完全相同的語法指定它們。若要這麼做，您必須新增：&quot;param&quot;： 「name of your parameter」 （在以下範例中：「identifier」）。 請遵循下列語法：
 
-     ```json
-     {"id":{"param":"identifier"}}
-     ```
+  ```json
+  {"id":{"param":"identifier"}}
+  ```
 
-     ![](assets/journey29.png)
+  ![](assets/journey29.png)
 
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
-
-資料來源現在已設定完畢，且可供您在歷程中使用，例如在您的條件或個人化電子郵件中。如果溫度超過 30°C，您可以決定傳送特定通訊。
+儲存變更後，資料來源已設定完畢，且可供您在歷程中使用，例如在您的條件或個人化電子郵件中。 如果溫度超過 30°C，您可以決定傳送特定通訊。
 
 ## 自訂驗證模式 {#custom-authentication-mode}
 
