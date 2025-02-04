@@ -8,14 +8,20 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 33b6cc18-dd63-48d9-8d85-526500d83d37
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 3%
+source-wordcount: '367'
+ht-degree: 2%
 
 ---
 
 # 程式碼型歷程報告 {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+您的歷程報告可能同時顯示多個歷程的資訊，因為使用者一次可以涉及多個歷程。 因此，如果輸入通訊（應用程式內、網頁和程式碼型）是為參與同時作用中歷程的使用者觸發的，則可能會顯示在多個歷程中，這可能會造成資料重疊。
+
+>[!ENDSHADEBOX]
 
 ## 顯示並按一下 {#impressions-code}
 
