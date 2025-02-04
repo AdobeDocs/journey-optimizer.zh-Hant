@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 594bb029c7d8b711fe60697c5c2e06d9943189fa
+source-git-commit: cb6b73db76c710dd8e736e710f5eb758337be696
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1370'
 ht-degree: 100%
 
 ---
@@ -62,9 +62,9 @@ ht-degree: 100%
 
 ### [!UICONTROL 決策管理] {#left-nav-decision}
 
-從此區段建立優惠與元件。
+從此區段建立產品建議與元件。
 
-* **[!UICONTROL 訂閱詳情]** - 從此功能表存取您最近的資源和資料集。使用此區段建立優惠。[了解更多](../offers/offer-library/creating-personalized-offers.md)
+* **[!UICONTROL 訂閱詳情]** - 從此功能表存取您最近的資源和資料集。使用此區段建立產品建議。[了解更多](../offers/offer-library/creating-personalized-offers.md)
 
 * **[!UICONTROL 元件]** - 建立位置、規則和標記。 [了解更多](../offers/offer-library/key-steps.md)
 
@@ -245,11 +245,6 @@ ht-degree: 100%
 >abstract="核准 (歷程)"
 
 <!-- ExD in email-->
-
->[!CONTEXTUALHELP]
->id="ajo_email_enable_experience_decisioning"
->title="啟用決策"
->abstract="啟用決策"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_attribute"

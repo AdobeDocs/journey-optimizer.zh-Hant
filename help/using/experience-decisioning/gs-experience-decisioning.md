@@ -6,18 +6,23 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: cb6b73db76c710dd8e736e710f5eb758337be696
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '642'
 ht-degree: 16%
 
 ---
 
 # 開始使用 Decisioning {#get-started-experience-decisioning}
 
+>[!CONTEXTUALHELP]
+>id="ajo_email_enable_experience_decisioning"
+>title="什麼是決策？"
+>abstract="決策是除了決策管理之外的新工具，可從決策引擎挑選最佳專案並交付給每個人。 它需要額外的設定才能使用。"
+
 ## 什麼是決策 {#about}
 
-Decisioning 會透過提供集中行銷優惠目錄，又稱為「決策項目」，還有複雜的決策引擎，設法簡化個人化。 此引擎運用規則與排名標準來選取並呈現最相關的決定項目給每個人。
+Decisioning 會透過提供集中行銷產品建議目錄，又稱為「決策項目」，還有複雜的決策引擎，設法簡化個人化。 此引擎運用規則與排名標準來選取並呈現最相關的決定項目給每個人。
 
 這些決定專案會透過[新的程式碼型體驗管道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based) (現在可在Journey Optimizer促銷活動中存取)，順暢地整合至廣泛的傳入介面。 決策決策政策僅適用於程式碼型體驗行銷活動。
 
