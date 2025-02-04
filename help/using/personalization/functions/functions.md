@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
 workflow-type: tm+mt
-source-wordcount: '1872'
-ht-degree: 22%
+source-wordcount: '2390'
+ht-degree: 27%
 
 ---
 
@@ -102,37 +102,116 @@ ht-degree: 22%
 
 <table>
     <tr>
-        <td><a href="dates.md#age">年齡</a></td><td>此函式從指定日期擷取年齡</td>
+        <td><a href="dates.md#add-days">增加天數</a></td><td>此函式會依指定的天數調整指定日期，使用正值增加值，使用負值減少值。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#current">目前時間 (以毫秒為單位)</a></td><td>此函式擷取目前時間（以紀元毫秒為單位）</td>
+        <td><a href="dates.md#add-hours">增加小時數</a></td><td>此函式依指定的小時數調整指定日期，使用正值增加值，使用負值減少值。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#date-diff">日期差異</a></td><td>此函式擷取兩個日期之間的天數差異</td>
+        <td><a href="dates.md#add-minutes">增加分鐘數</a></td><td>此函式以指定的分鐘數調整指定日期，使用正值增加值，使用負值減少值。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-week">星期幾</a></td><td>此函式擷取星期幾</td>
+        <td><a href="dates.md#add-months">增加月數</a></td><td>此函式會依指定的月份數調整指定日期，使用正值增加值，使用負值減少值。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-year">年中的日</a></td><td>此函式擷取一年當中的第幾天</td>
+        <td><a href="dates.md#add-seconds">增加秒數</a></td><td>此函式以指定的秒數調整指定日期，使用正值增加值，使用負值減少值。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#format-date">格式化日期</a></td><td>此函式格式化日期時間值</td>
+        <td><a href="dates.md#add-years">增加年數</a></td><td>此函式依指定的年數調整指定日期，使用正值增加值，使用負值減少值。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#age">年齡</a></td><td>此函式從指定日期擷取年齡。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#age-days">年齡 (以天為單位)</a></td><td>此函式計算指定日期的年齡（以天為單位），即指定日期與目前日期之間經過的天數、未來日期的負數與過去日期的正數。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#age-months">年齡 (以月為單位)</a></td><td>此函式計算指定日期的年齡（月數），即指定日期和目前日期之間經過的月數；若為未來日期的負數，則為過去日期的正數。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#compare-dates">比較日期</a></td><td>此函數會將第一個輸入日期與另一個輸入日期進行比較。如果 date1 等於 date2，則傳回 0；如果 date1 在 date2 之前，則傳回 -1；如果 date1 在 date2 之後，則傳回 1。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#convert-zoned-date-time">轉換分區日期時間</a></td><td>此函式將日期時間轉換為指定時區。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#current">目前時間 (以毫秒為單位)</a></td><td>此函式以紀元毫秒為單位擷取目前時間。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#date-diff">日期差異</a></td><td>此函式擷取兩個日期之間的天數差。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-month">當月的第幾天</a></td><td>此函數會傳回表示當月日次的數字。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-week">星期幾</a></td><td>此函式擷取星期幾。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-year">年中的日</a></td><td>此函式擷取一年當中的第幾天。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#diff-seconds">差異 (以秒為單位)</a></td><td>此函數會傳回兩個日期之間的秒差。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-hours">擷取小時</a></td><td>此函數會從給定的時間戳記中擷取小時部分。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-minutes">擷取分鐘</a></td><td>此函數會從給定的時間戳記中擷取分鐘部分。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-months">擷取月份</a></td><td>此函數會從給定的時間戳記中擷取月份部分。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-seconds">擷取秒</a></td><td>此函數會從給定的時間戳記中擷取秒數部分。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#format-date">格式化日期</a></td><td>此函式格式化日期時間值。</td>
     </tr>
     <tr>
         <td><a href="dates.md#format-date-locale">支援地區設定的日期格式</a></td><td>此函式將日期時間值格式化為其對應的語言敏感表示法，亦即所需的地區設定。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-days">設定天數</a></td><td>此函式為給定的日期時間設定月份日期</td>
+        <td><a href="dates.md#get-current-zoned-date-time">取得目前分區日期時間</a></td><td>此函數會傳回目前日期和時間以及時區資訊。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-hours">設定時數</a></td><td>此函式設定日期時間的小時</td>
+        <td><a href="dates.md#hours-difference">小時差</a></td><td>此函式以時數傳回兩個日期之間的差值。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#to-utc">到 UTC</a></td><td>此函式將日期時間轉換為UTC</td>
+        <td><a href="dates.md#diff-minutes">分鐘差</a></td><td>此函式傳回兩個日期之間的分鐘數差。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#months-difference">月差</a></td><td>此函式傳回兩個日期之間的月差。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-days">設定天數</a></td><td>此函數為給定的日期時間設定月份日期。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-hours">設定時數</a></td><td>此函數設定日期時間的小時。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#to-date-time">至日期時間</a></td><td>此函式將字串轉換為日期。 針對無效輸入會傳回epoch日期作為輸出。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#to-utc">到 UTC</a></td><td>此函數將日期時間轉換為 UTC。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-day">截斷至當天的開始</a></td><td>此函數會透過將給定日期時間設定為當天的開始並將時間設定為 00:00 來修改該日期時間。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-quarter">截斷至季的開始</a></td><td>此函式在00:00將日期時間截斷為其季度的第一天（例如1月1日、4月1日、7月1日、10月1日）。
+</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-week">截斷至週的開始</a></td><td>此函數會透過將給定日期時間設定為當週的開始 (星期一的 00:00) 來修改該日期時間。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-year">截斷至年的開始</a></td><td>此函數會透過將給定日期時間截斷至該年第一天 (1 月 1 日) 的 00:00 來修改該日期時間。</td>
     </tr>
     <tr>
         <td><a href="dates.md#week-of-year">年中的週</a></td><td>此函式傳回年中的周數</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#diff-years">年差</a></td><td>此函式傳回兩個日期之間的年數差異。</td>
     </tr>
 </table>
 </table>
