@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0dc8f4700a9ffe9073aecfda1b3ad31e0d30610e
+source-git-commit: 3fae8e27dd043762ba4e5e2705300798298fc613
 workflow-type: tm+mt
 source-wordcount: '1593'
 ht-degree: 41%
@@ -90,7 +90,7 @@ ht-degree: 41%
    * **[!UICONTROL 值]**： &quot;1234&quot; （這是我們API金鑰的值）
    * **[!UICONTROL 位置]**： &quot;Query parameter&quot; （API金鑰位於URL）
 
-   ![](assets/journey28.png)
+     ![](assets/journey28.png)
 
 1. 按一下&#x200B;**[!UICONTROL 新增欄位群組]**，為每個API引數集新增欄位群組。 欄位群組名稱中只允許使用英數字元和底線。 長度上限為30個字元。 在我們的範例中，我們需要建立兩個欄位群組，每個群各有一個參數集（city 及 long/lat）。
 
