@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: b6c2b6370c5a68937ebcafcbe70c4a240bc14536
+source-git-commit: 34ecb4b7f30741d88fa69007e1c236eb731dc06c
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 19%
+source-wordcount: '1324'
+ht-degree: 18%
 
 ---
 
@@ -150,11 +150,14 @@ ht-degree: 19%
 >title="關於傳送時間最佳化"
 >abstract="Adobe Journey Optimizer 的傳送時間最佳化功能由 Adobe 的 AI 服務提供支援，可以預測傳送電子郵件或推播訊息的最佳時間，以根據歷史開啟率和點擊率將參與度提高至最大限度。"
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->此功能預設為未啟用。 您可以聯絡您的Adobe代表來啟用它。
+>* 傳送時間最佳化預設為未啟用。 您可以聯絡您的Adobe代表來啟用它。
 >
->傳送時間最佳化功能僅適用於電子郵件和推播頻道。
+>* 對於初始傳送時間最佳化訓練和評分，建議使用至少1,000個包含近期訊息資料的設定檔。
+>
+>* 傳送時間最佳化僅適用於&#x200B;**電子郵件**&#x200B;和&#x200B;**推播通知**&#x200B;頻道。
+
 
 ### 關於傳送時間最佳化 {#about-send-time}
 
