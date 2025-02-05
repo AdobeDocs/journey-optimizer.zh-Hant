@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Publish歷程
+title: 發佈此歷程
 description: 瞭解如何報告您的歷程
 feature: Journeys
 topic: Content Management
@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: b604ab6d94f414b96378f15986edbcf92cee77dc
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 0%
+source-wordcount: '312'
+ht-degree: 1%
 
 ---
 
@@ -30,8 +30,8 @@ ht-degree: 0%
 
 對於您的即時歷程，您有權存取：
 
-* **[!UICONTROL 已進入設定檔]**：退出歷程的個人總數（包括錯誤）。
-* **[!UICONTROL 已退出設定檔]**：由於退出條件而從該活動退出歷程的個人總數。
+* **[!UICONTROL 已進入設定檔]**：進入歷程的個人總數。
+* **[!UICONTROL 已退出設定檔]**：已退出歷程的個人總數（包括錯誤）。
 * **[!UICONTROL 發生錯誤的設定檔]**：歷程中發生錯誤的個人總數。
 * **[!UICONTROL 捨棄的設定檔]**：由於下列其中一個原因而從歷程捨棄的個人總數：
 
