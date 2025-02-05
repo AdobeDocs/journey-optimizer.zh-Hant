@@ -7,7 +7,7 @@ feature: Audiences, Profiles
 role: User
 level: Intermediate
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 12449430f48153ebe3fbb30b782f51de4b11d4ef
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 4%
@@ -32,7 +32,7 @@ ht-degree: 4%
 
 若要建立計算屬性，請導覽至左側的&#x200B;**[!UICONTROL 設定檔]**&#x200B;功能表中的&#x200B;**[!UICONTROL 計算屬性]**&#x200B;索引標籤。
 
-在此畫面中，您可以建置規則來建構計算屬性，這些規則會在指定的回顧期間內，結合事件屬性、彙總函式。 例如，您可以計算過去三個月中進行的購買總數、識別上週未購買的設定檔所檢視的最新專案，或統計每個設定檔累積的總獎勵點。
+在此畫面中，您可以建置規則來建構計算屬性，這些規則會結合事件屬性、彙總函式以及指定的回顧期間。 例如，您可以計算過去三個月中進行的購買總數、識別上週未購買的設定檔所檢視的最新專案，或統計每個設定檔累積的總獎勵點。
 
 ![](assets/computed-attributes.png)
 
