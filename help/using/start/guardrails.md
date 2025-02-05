@@ -8,20 +8,26 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
 workflow-type: tm+mt
-source-wordcount: '2361'
-ht-degree: 98%
+source-wordcount: '2421'
+ht-degree: 95%
 
 ---
 
 # 護欄與限制 {#limitations}
 
+當使用 [!DNL Adobe Journey Optimizer] 時，您將找到下面其他護欄和限制。
+
 權利、產品限制和效能護欄列於 [Adobe Journey Optimizer 產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
 在開始之前，您還需要注意即時客戶設定檔資料](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hant){target="_blank"}的[護欄。
 
-當使用 [!DNL Adobe Journey Optimizer] 時，您將找到下面其他護欄和限制。
+
+>[!NOTE]
+>
+>在極少數情況下，特定區域的暫時中斷可能會導致從歷程中排除有效的設定檔，或導致錯誤標示為退件的郵件。 服務恢復後，重新檢查歷程記錄，驗證同意設定檔欄位，並在需要時重新發佈歷程。 在ISP中斷的情況下，在[本節](../configuration/manage-suppression-list.md#remove-from-suppression-list)中瞭解如何從隱藏清單移除設定檔。
+>
 
 ## 支援的瀏覽器 {#browsers}
 

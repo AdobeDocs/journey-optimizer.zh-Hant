@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 隱藏，清單，退信，電子郵件，最佳化工具，隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 22%
@@ -207,7 +207,7 @@ Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
 
-## 從隱藏清單移除位址{#remove-from-suppression-list}
+## 從隱藏清單移除位址 {#remove-from-suppression-list}
 
 您可以手動更新隱藏清單。 從隔離區中移除電子郵件地址是一項敏感操作，可能會影響您的IP信譽和傳遞率。 請務必謹慎進行。
 
