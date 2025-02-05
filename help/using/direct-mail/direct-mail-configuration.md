@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
+source-git-commit: 179d0f8571bf2e4d4ea1c5ad8ab498de9e7b5550
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 21%
+source-wordcount: '1405'
+ht-degree: 19%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="選取您的檔案的伺服器類型"
->abstract="選擇要用於匯出直接郵件檔案的伺服器類型。Journey Optimizer 目前僅支援 Amazon S3 和 SFTP。"
+>abstract="選擇您要用於匯出直接郵件檔案的伺服器型別：Amazon S3、SFTP或Azure。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
