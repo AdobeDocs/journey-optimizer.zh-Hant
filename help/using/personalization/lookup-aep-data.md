@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: a2e09052ef5cb38ca34cd8faa476ca750ea1965f
+source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1043'
 ht-degree: 2%
 
 ---
@@ -71,7 +71,7 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 * **動作**&#x200B;為啟用或停用。
 * **存取權杖**&#x200B;可從開發人員主控台擷取。
 * 可從開發人員主控台擷取&#x200B;**API金鑰**。
-* **IMS組織ID**&#x200B;是您的Adobe IMS組織。
+* **IMS組織ID**&#x200B;是您的Adobe組織。
 * **沙箱名稱**&#x200B;是資料集所在的沙箱名稱（例如prod、dev等）。
 
 >[!NOTE]

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
+source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
 workflow-type: tm+mt
-source-wordcount: '2212'
-ht-degree: 98%
+source-wordcount: '2278'
+ht-degree: 96%
 
 ---
 
@@ -37,6 +37,22 @@ ht-degree: 98%
 </p>
 <p>如需詳細資訊，請參閱<a href="../reports/report-cja-manage.md#cja-template">詳細文件</a>。</p>
 <p> <b>範本</b>功能會分階段逐步推出，並計畫於 1 月底全面發行</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>彈性的對象評估（可用性限制）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>彈性的受眾評估可讓您視需求針對選取的受眾執行細分工作，確保在將受眾鎖定目標至Journey Optimizer歷程和行銷活動之前，您始終擁有最新的受眾資料。</p>
+<p>如需詳細資訊，請參閱<a href="../audience/about-audiences.md#flexible">詳細文件</a>。</p>
+<p> 彈性的對象評估僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
 </tr>
 </tbody>
 </table>

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
+source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 19%
+source-wordcount: '2162'
+ht-degree: 18%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 19%
 
 * 在歷程中使用&#x200B;**條件**&#x200B;活動，以根據客群成員資格建置條件。 [了解如何在條件中使用客群](../building-journeys/condition-activity.md#using-a-segment)。
 
-* 在歷程中使用&#x200B;**對象資格**&#x200B;事件活動，讓個人根據Adobe Experience Platform對象進出而在歷程中進入或前進。 例如，您可以讓所有新的銀級客戶進入歷程，並向其傳送訊息。 如需有關如何使用此活動的詳細資訊，請參閱[了解如何設定客群資格活動](../building-journeys/audience-qualification-events.md)。
+* 在歷程中使用&#x200B;**對象資格**&#x200B;事件活動，讓個人根據Adobe Experience Platform對象進出而在歷程中進入或前進。 例如，您可以讓所有新的銀級客戶進入歷程，並向其傳送訊息。 如需有關如何使用此活動的詳細資訊，請參閱[了解如何設定客群資格篩選活動](../building-journeys/audience-qualification-events.md)。
 
   >[!NOTE]
   >
@@ -152,9 +152,26 @@ Edge區段能在Adobe Experience Platform中即時評估[邊緣](https://experie
 
 最多可能需要 24 小時才能從先前的資料回填客群。 回填客群之後，該客群會持續保持在最新狀態，並隨時準備好進行目標定位。
 
+### [!BADGE 可用性限制]{type=Informative}彈性對象評估（可用性限制） {#flexible}
+
+>[!AVAILABILITY]
+>
+彈性的對象評估僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。
+
+Adobe Experience Platform受眾入口網站可讓您依需求針對選取的受眾執行細分工作，確保您始終擁有最新的受眾資料，然後再將其鎖定為Journey Optimizer歷程和行銷活動。
+
+透過彈性的對象評估，您可以：
+
+1. 根據您的最新資料建立全新的區段。
+1. 即時評估對象以確保準確性。 若要這麼做，請選擇您要評估的對象，然後選取「評估對象」，前提是這些對象符合特定條件（例如以人物為基礎、分段服務來源）。
+1. 在Adobe Journey Optimizer中使用評估過的對象
+行銷活動或歷程，以精確鎖定目標。
+
+您一次最多可以評估20個對象，不符合資格的對象將自動排除。 如需詳細資訊，請參閱[對象入口網站檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation)。
+
 ### 串流區段的事件使用情形 {#streaming-segmentation-events-guardrails}
 
-串流區段對於具有高價值使用案例的即時個人化相當實用。 不過，請務必選擇正確的[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}以作為分段條件。
+串流區段對於具有高價值使用案例的即時個人化相當實用。 不過，請務必選擇正確的[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}
 
 因此，為了串流區段最佳效能，請避免使用以下事件：
 

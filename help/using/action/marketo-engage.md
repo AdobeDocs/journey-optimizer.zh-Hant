@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo， marketo engage整合
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
+source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '249'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 4%
 ## 先決條件 {#prerequisites}
 
 * Marketo Engage的客戶執行個體必須已啟用IMS。
-* Marketo Engage執行個體和AEP/AJO執行個體必須位於相同的IMS組織中。
+* Marketo Engage例項和Adobe Experience Platform/Journey Optimizer例項必須位於相同組織。
 * 客戶必須布建&#x200B;**MktoSync：內嵌服務存取**
 
 ## 設定動作 {#configure-marketo-action}
