@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2258a305f1d3b477b728ce50b882ac226f3e4342
+source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
 workflow-type: tm+mt
-source-wordcount: '5888'
+source-wordcount: '5907'
 ht-degree: 97%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 97%
 * **標頭引數**&#x200B;區段已更新，以反映使用者介面中的新標籤和變更。 [閱讀全文](../email/email-settings.md#email-header)
 
 * **轉寄電子郵件**&#x200B;區段已更新，以指定所有傳送至&#x200B;**寄件者電子郵件**&#x200B;地址的電子郵件都會轉寄至轉寄電子郵件地址。 如果未指定轉寄電子郵件，則會捨棄這些電子郵件。 [閱讀全文](../email/email-settings.md#forward-email)
+
+* 傳遞至API觸發之行銷活動要求中的內容屬性大小上限已更新為200kb。 [閱讀全文](../campaigns/api-triggered-campaigns.md#contextual)
 
 <!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 

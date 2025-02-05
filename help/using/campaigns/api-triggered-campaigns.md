@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 2%
@@ -110,7 +110,7 @@ API觸發的行銷活動的可用管道包括電子郵件、簡訊和推播訊�
 
 >[!IMPORTANT]
 >
->傳入要求的內容屬性不能超過50kb，且一律視為字串型別。
+>傳入要求的內容屬性不能超過200kb，且一律視為字串型別。
 >
 >`context.system`語法限製為僅限Adobe內部使用，且不應用來傳遞內容屬性。
 
