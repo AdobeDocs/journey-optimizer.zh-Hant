@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b4075b722ba07f003b9658b5f399896ce0e85b9a
+source-git-commit: dbe312f332031391c49a973f323994f860e354e3
 workflow-type: tm+mt
-source-wordcount: '5938'
+source-wordcount: '5954'
 ht-degree: 96%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 96%
 * 傳遞至API觸發之行銷活動要求中的內容屬性大小上限已更新為200kb。 [閱讀全文](../campaigns/api-triggered-campaigns.md#contextual)
 
 * 已對&#x200B;**管理片段**&#x200B;頁面新增一個區段，以說明如何將新屬性新增到即時片段中。 整頁也已改善。 [閱讀全文](../content-management/manage-fragments.md#adding-new-attributes)
+
+* 「護欄和限制」區段已新增到衝突管理和優先順序工具檔案。 [閱讀全文](../conflict-prioritization/gs-conflict-prioritization.md)
 
 <!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
