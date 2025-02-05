@@ -8,7 +8,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform、資料湖、建立、湖、資料集、輪廓
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 13%
@@ -41,13 +41,11 @@ ht-degree: 13%
 
 +++
 
-
 +++ 此變更是否會影響反應事件？
 
 歷程中的反應事件不受此變更的影響。
 
 +++
-
 
 +++ 此變更只會套用至生產沙箱，還是也會套用至開發沙箱？
 

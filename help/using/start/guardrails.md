@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
+source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
 workflow-type: tm+mt
-source-wordcount: '2421'
-ht-degree: 95%
+source-wordcount: '2476'
+ht-degree: 94%
 
 ---
 
@@ -38,6 +38,15 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 您無法向帶有[!DNL Journey Optimizer]的電子郵件新增附件。
 * 您無法使用相同的傳送網域從[!DNL Adobe Journey Optimizer]和其他產品 (例如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]) 傳送訊息。
 
+## 資料集護欄 {#datasets-guardrails}
+
+從2025年2月開始，存留時間(TTL)護欄將推出至&#x200B;**新沙箱和新組織**&#x200B;中的Journey Optimizer系統產生的資料集，如下所示：
+
+* 輪廓存放區中的資料為 90 天
+* 資料湖中的資料為 13 個月
+
+瀏覽[常見問題集](../data/datasets-ttl.md#ttl)，瞭解這些護欄的詳細資訊。
+
 ## 登陸頁面護欄 {#lp-guardrails}
 
 * 一個主頁面只能使用一個&#x200B;**表單**&#x200B;元件。
@@ -54,7 +63,6 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 ### 網頁管道護欄 {#web-guardrails}
 
 [!DNL Journey Optimizer] 網路行銷活動會選擇以其他管道上不曾有過互動的新輪廓為目標。這樣做會增加可互動輪廓總數，如果其超過您購買的可互動輪廓合約數量，可能會影響成本。 各個套件的授權量度都列在 [Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。
-
 
 ## 子網域護欄 {#subdomain-guardrails}
 
