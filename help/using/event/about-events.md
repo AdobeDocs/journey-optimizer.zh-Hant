@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，歷程，定義，開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 52%
@@ -40,7 +40,7 @@ ht-degree: 52%
 >
 >如果您編輯草稿或即時歷程中使用的事件，則只能變更名稱和說明，或是新增有效負載欄位。我們對草稿或即時歷程版本有嚴格限制，以免中斷歷程。
 
-單一歷程 (從事件或客群資格開始) 包含可防止同一事件多次錯誤觸發歷程的護欄。 在預設情況下，輪廓重新進入時會暫時封鎖 5 分鐘。例如，如果某個事件在 12:01 觸發特定輪廓的歷程，而另一個事件在 12:03 達到時間限制 (無論是相同事件或是不同事件觸發相同歷程)，則此輪廓的歷程將不會再次開始。
+單一歷程 (從事件或客群資格篩選開始) 包含可防止同一事件多次錯誤觸發歷程的護欄。 在預設情況下，輪廓重新進入時會暫時封鎖 5 分鐘。例如，如果某個事件在 12:01 觸發特定輪廓的歷程，而另一個事件在 12:03 達到時間限制 (無論是相同事件或是不同事件觸發相同歷程)，則此輪廓的歷程將不會再次開始。
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -54,7 +54,7 @@ ht-degree: 52%
 
   >[!CAUTION]
   >
-  >已為規則型事件定義上限規則。 對於指定組織，這會將歷程可處理的合格事件數限製為每秒5000。 它對應於Journey Optimizer SLA。 請參閱您的Journey Optimizer授權和[Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html)。
+  >已為規則型事件定義上限規則。 對於指定組織，歷程可處理的合格事件數限製為每秒5,000個。 它對應於Journey Optimizer SLA。 請參閱您的Journey Optimizer授權和[Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html)。
 
 * **系統產生的** 事件：這些事件需要 eventID。建立事件時，會自動產生此 eventID 欄位。 推播事件的系統不應產生 ID，而應傳遞有效裝載預覽中可用的 ID。
 

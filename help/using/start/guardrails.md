@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 35dde8b905cf4c37c0c1b5f6b8a84f41821eb240
+source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
 workflow-type: tm+mt
 source-wordcount: '2361'
 ht-degree: 98%
@@ -91,7 +91,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ### 自訂動作 {#custom-actions-g}
 
-* 為每個主機和每個沙箱的所有自訂動作，定義 1 分鐘內 300,000 次呼叫的上限。請參見[此頁面](../action/about-custom-action-configuration.md)。此限制是根據客戶使用情況來設定，可保護自訂動作鎖定為目標的外部端點。您必須在以對象為基礎的歷程考慮這一點，透過定義適當的讀取率 (使用自訂動作時為每秒 5000 個輪廓)。如有需要，您可以透過上限/節流 API 定義較高的上限或節流限制來覆寫此設定。 請參閱[此頁面](../configuration/external-systems.md)。
+* 為每個主機和每個沙箱的所有自訂動作，定義 1 分鐘內 300,000 次呼叫的上限。請參見[此頁面](../action/about-custom-action-configuration.md)。此限制是根據客戶使用情況來設定，可保護自訂動作鎖定為目標的外部端點。您必須在以對象為基礎的歷程考慮這一點，透過定義適當的讀取率 (使用自訂動作時為每秒 5,000 個輪廓)。如有需要，您可以透過上限/節流 API 定義較高的上限或節流限制來覆寫此設定。 請參閱[此頁面](../configuration/external-systems.md)。
 * 自訂動作 URL 不支援動態參數。
 * 支援 POST、PUT 和 GET 呼叫方法
 * 查詢參數或標題的名稱不得以「.」開頭 或 &quot;$&quot;
@@ -207,8 +207,8 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 | API | 每秒決策數 |
 |---------|----------|
 | 決策 API 請求 | 每秒 500 個 |
-| Edge Decisioning API 請求與 Edge 分段 | 每秒 1500 個 |
-| Edge Decisioning API 請求不含 Edge 分段 | 每秒 5000 個 |
+| Edge Decisioning API 請求與 Edge 分段 | 每秒 1,500 個 |
+| Edge Decisioning API 請求不含 Edge 分段 | 每秒 5,000 個 |
 
 ### 限制 {#offers-limitations}
 
