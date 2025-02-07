@@ -7,11 +7,10 @@ feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
-mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
+source-git-commit: a48fe20dcd06771c41164ecb1ea6df9d83a9a96c
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: '2160'
 ht-degree: 18%
 
 ---
@@ -152,7 +151,7 @@ Edge區段能在Adobe Experience Platform中即時評估[邊緣](https://experie
 
 最多可能需要 24 小時才能從先前的資料回填客群。 回填客群之後，該客群會持續保持在最新狀態，並隨時準備好進行目標定位。
 
-### [!BADGE 可用性限制]{type=Informative}彈性對象評估（可用性限制） {#flexible}
+### [!BADGE 有限可用性]{type=Informative} 彈性客群評估 {#flexible}
 
 >[!AVAILABILITY]
 >
