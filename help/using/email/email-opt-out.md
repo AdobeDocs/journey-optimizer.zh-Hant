@@ -12,7 +12,7 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
 workflow-type: tm+mt
 source-wordcount: '1312'
-ht-degree: 23%
+ht-degree: 27%
 
 ---
 
@@ -39,14 +39,14 @@ ht-degree: 23%
 
 當收件者按一下一鍵退出連結時，收件者的取消訂閱請求會據此處理。
 
-### 在電子郵件標題中按一下取消訂閱URL {#unsubscribe-header}
+### 電子郵件標頭中的一鍵取消訂閱 URL {#unsubscribe-header}
 
 <!--Do not modify - Legal Review Done -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="新增取消訂閱URL至您的電子郵件"
->abstract="啟用List-Unsubscribe以自動將取消訂閱URL新增到電子郵件標題。 您也可以在電子郵件內容中插入一鍵退出連結，以在訊息中設定取消訂閱URL。"
+>title="新增取消訂閱 URL 至您的電子郵件"
+>abstract="啟用清單取消訂閱，將取消訂閱 URL 自動新增至電子郵件標頭。透過在電子郵件內容中插入一鍵式選擇退出連結，您也可在訊息中設定取消訂閱 URL。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="一鍵式選擇退出電子郵件內容"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="在電子郵件設定中啟用清單取消訂閱"
 

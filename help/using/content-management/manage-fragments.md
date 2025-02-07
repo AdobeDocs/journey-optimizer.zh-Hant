@@ -11,7 +11,7 @@ exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 11%
+ht-degree: 22%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="新的片段狀態"
->abstract="由於&#x200B;**草稿**&#x200B;和&#x200B;**即時**&#x200B;狀態已隨Journey Optimizer 6月發行版本引入，在此發行之前建立的所有片段都會具有&#x200B;**草稿**&#x200B;狀態，即使它們用於歷程或行銷活動亦然。 如果您對這些片段進行變更，您必須發佈這些片段，才能讓這些片段&#x200B;**上線**，並將變更傳播至相關的行銷活動和歷程。 您還需要建立一個新的旅程/行銷活動版本，然後進行發佈。<br/>發佈需要<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">發佈片段</a>使用者權限。"
+>abstract="由於 Journey Optimizer 6 月版本推出「**草稿**」和「**即時**」狀態，因此在此版本之前建立的所有片段均具有「**草稿**」狀態，即使這些片段用於歷程或活動中亦然。如果您對這些片段進行任何變更，則需要將其發佈，使其進入「**即時**」狀態，並將變更內容傳遞至相關的行銷活動和歷程。您還需要建立一個新的歷程/行銷活動版本，然後進行發佈。<br/>發佈需要<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">發佈片段</a>使用者權限。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="了解更多有關內容片段權限的資訊"
 
 片段可以有多個狀態：
@@ -67,7 +67,7 @@ ht-degree: 11%
 
 >[!CAUTION]
 >
->由於&#x200B;**草稿**&#x200B;和&#x200B;**即時**&#x200B;狀態已隨Journey Optimizer 6月發行版本引入，在此發行之前建立的所有片段都會具有&#x200B;**草稿**&#x200B;狀態，即使它們用於歷程或行銷活動亦然。 如果您對這些片段進行變更，您必須發佈這些片段，才能讓這些片段&#x200B;**上線**，並將變更傳播至相關的行銷活動和歷程。 您還需要建立一個新的旅程/行銷活動版本，然後進行發佈。發佈需要[Publish片段](../administration/ootb-product-profiles.md#content-library-manager)使用者許可權。
+>由於 Journey Optimizer 6 月版本推出「**草稿**」和「**即時**」狀態，因此在此版本之前建立的所有片段均具有「**草稿**」狀態，即使這些片段用於歷程或活動中亦然。如果您對這些片段進行任何變更，則需要將其發佈，使其進入「**即時**」狀態，並將變更內容傳遞至相關的行銷活動和歷程。您還需要建立一個新的歷程/行銷活動版本，然後進行發佈。發佈需要[Publish片段](../administration/ootb-product-profiles.md#content-library-manager)使用者許可權。
 
 ## 編輯片段 {#edit-fragments}
 
