@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 2de3766c9fea36422c017ccaab3eb0a2501c6740
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '874'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,8 +30,8 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
 >title="Adobe 生成式 AI 條款"
->abstract="要存取此功能，您必須同意 Adobe Experience Cloud 生成式 AI 使用者準則。請檢查此功能之任何輸出的準確性，並確保它適合您的使用案例。"
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 使用者準則"
+>abstract="要存取此功能，您必須同意 Adobe Experience Cloud Generative Al 使用者指南。請檢查此功能之任何輸出的準確性，並確保它適合您的使用案例。"
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 使用者手冊"
 
 >[!INFO]
 >
@@ -81,7 +81,7 @@ ht-degree: 98%
 
 以下會列出使用 Adobe Journey Optimizer 的 AI 助理內容加速器產生電子郵件的一般準則：
 
-* 產生的內容品質強烈受到您定義的行銷目標/提示所影響。 使用定義明確的提示讓 GenAI 模型準確解釋。  
+* 產生內容的品質很大程度上受到您定義的行銷目標/提示的影響。使用定義明確的提示讓 GenAI 模型準確解釋。  
 * 上傳品牌資產以獲得準確的品牌內容。 另外，內容以公開資訊為依據。上傳的內容可以採用以下格式：PDF、JPEG、PNG 或 ZIP 檔案 (支援的檔案格式)。
 * 上傳的品牌資產最大為 50MB。較大的檔案或大量影像可以處理，但處理時間會增加。
 * 使用品牌特定範本，或是自訂範本，就能使用 Adobe Journey Optimizer 中的 AI 助理內容加速器，建立電子郵件內容。建議電子郵件範本最多包含 8-10 張影像。

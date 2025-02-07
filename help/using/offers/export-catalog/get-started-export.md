@@ -7,9 +7,9 @@ role: User, Data Engineer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
 source-git-commit: 91584f394d956df4b69a885feacc40435360dae3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '114'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Journey Optimizer 可讓您自動將產品建議目錄匯出至 Adobe Experience
 
 >[!NOTE]
 >
->此功能預設為啟用。 您無需執行任何其他啟動步驟，即可開始使用。 啟用後，匯出工作將會自動執行，您不需要採取任何動作。
+>此功能預設為啟用狀態。您無需執行任何其他啟動步驟，即可開始使用。啟用後，匯出工作就會自動化，您無需執行任何動作。
 
 <!--
 >[!NOTE]
