@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: dbe312f332031391c49a973f323994f860e354e3
 workflow-type: tm+mt
 source-wordcount: '5954'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 96%
 
 ## 2025 年 1 月 {#jan-2025}
 
-* 已新增有關電子郵件組態中&#x200B;**[!UICONTROL 執行地址]**&#x200B;選項的新區段。 主要地址是在沙箱層級定義，但預設設定可針對特定電子郵件設定覆寫。 [閱讀全文](../email/email-settings.md#execution-address)
+* 已新增有關電子郵件設定中&#x200B;**[!UICONTROL 執行地址]**&#x200B;選項的新區段。主要地址是在沙箱層級定義，但預設設定可針對特定電子郵件設定覆寫。[閱讀全文](../email/email-settings.md#execution-address)
 
-* 更新&#x200B;**開始傳遞能力**&#x200B;頁面，可以直接從使用者介面建立IP熱身工作流程。 [閱讀全文](../reports/deliverability.md#reputation)
+* **開始使用傳遞能力**&#x200B;頁面已更新，可以直接從使用者介面建立 IP 熱身工作流程。[閱讀全文](../reports/deliverability.md#reputation)
 
-* **標頭引數**&#x200B;區段已更新，以反映使用者介面中的新標籤和變更。 [閱讀全文](../email/email-settings.md#email-header)
+* **標頭參數**&#x200B;區段已更新，以反映使用者介面的新標籤和變更。[閱讀全文](../email/email-settings.md#email-header)
 
-* **轉寄電子郵件**&#x200B;區段已更新，以指定所有傳送至&#x200B;**寄件者電子郵件**&#x200B;地址的電子郵件都會轉寄至轉寄電子郵件地址。 如果未指定轉寄電子郵件，則會捨棄這些電子郵件。 [閱讀全文](../email/email-settings.md#forward-email)
+* **轉寄電子郵件**&#x200B;區段已更新，以指定所有傳送至&#x200B;**寄件者電子郵件**&#x200B;地址的電子郵件都會轉寄至這個轉寄電子郵件地址。如果未指定轉寄電子郵件，這些電子郵件將被捨棄。[閱讀全文](../email/email-settings.md#forward-email)
 
 * 傳遞至API觸發之行銷活動要求中的內容屬性大小上限已更新為200kb。 [閱讀全文](../campaigns/api-triggered-campaigns.md#contextual)
 
@@ -48,7 +48,7 @@ ht-degree: 96%
 * 已改善&#x200B;**設定程式碼型體驗**&#x200B;分頁，讓程序更清楚，包括說明什麼是表面 URI 的區段。[閱讀全文](../code-based/code-based-configuration.md)
 * 已更新&#x200B;**建立網頁管道設定**&#x200B;頁面，以便釐清建立頁面比對規則的步驟，此規則也適用於程式碼型體驗設定。[閱讀全文](../web/web-configuration.md#web-page-matching-rule)
 * 已新增有關系統產生資料集的近期存留時間 (TTL) 護欄的備註。[閱讀全文](../data/get-started-datasets.md)
-* 已新增新區段，說明如何在瀏覽器或行動裝置上使用&#x200B;**在裝置上預覽**&#x200B;選項，在歷程或行銷活動中模擬內容時，預覽您的程式碼型個人化體驗。 [閱讀全文](../code-based/test-code-based.md#preview-on-device)
+* 已新增新區段，方便說明如何操作，當要在歷程或行銷活動中模擬內容時，就能透過瀏覽器，或是在行動裝置上，使用&#x200B;**在裝置上預覽**&#x200B;的選項，直接預覽程式碼型個人化體驗。[閱讀全文](../code-based/test-code-based.md#preview-on-device)
 * 已新增頁面，說明如何善用自訂上傳對象做決策。[閱讀全文](../offers/custom-upload-decisioning.md)
 * 已新增新頁面，以便介紹 Journey Optimizer 中可用的決定功能。[閱讀全文](../experience-decisioning/gs-decision.md)
 * Decisioning 文件已新增護欄和限制。 [閱讀全文](../experience-decisioning/gs-experience-decisioning.md#guardrails)

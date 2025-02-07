@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 5b16e3a89a9a39723a2443345c4e8180a490112e
 workflow-type: tm+mt
 source-wordcount: '2476'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 94%
 
 權利、產品限制和效能護欄列於 [Adobe Journey Optimizer 產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
-在開始之前，您還需要注意即時客戶設定檔資料](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hant){target="_blank"}的[護欄。
+在啟動之前，您還需要注意 [即時客戶設定檔資料護欄](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hant){target="_blank"}。
 
 
 >[!NOTE]
@@ -123,7 +123,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 對於系統產生的事件，必須先在 Journey Optimizer 中設定用於啟動客戶歷程的串流資料，才能取得唯一的協調流程 ID。 此協調流程 ID 必須附加至傳入 Adobe Experience Platform 的串流裝載。 此限制不適用於規則型事件。
 * 業務事件不能與單一事件或客群資格篩選活動結合使用。
 * 單一歷程 (從事件或客群資格篩選開始) 包含可防止同一事件多次錯誤觸發歷程的護欄。 在預設情況下，輪廓重新進入時會暫時封鎖 5 分鐘。例如，如果某個事件在 12:01 觸發特定輪廓的歷程，而另一個事件在 12:03 達到時間限制 (無論是相同事件或是不同事件觸發相同歷程)，則此輪廓的歷程將不會再次開始。
-* Journey Optimizer 需將事件串流至資料收集核心服務 (DCCS)，才能觸發歷程。 批次擷取的事件，或來自內部Journey Optimizer資料集的事件（訊息回饋、電子郵件追蹤等）無法用於觸發歷程。 對於無法取得串流事件的使用案例，請根據這些事件建置對象，然後改為使用&#x200B;**讀取對象**&#x200B;活動。 技術上可使用客群資格篩選，但不建議使用，因為它可能會根據所使用的操作導致下游挑戰。
+* Journey Optimizer 需將事件串流至資料收集核心服務 (DCCS)，才能觸發歷程。 批次收錄的事件，或來自內部 Journey Optimizer 資料集的事件（訊息意見回饋、電子郵件追蹤等等）不能用於觸發歷程。對於無法取得串流事件的使用案例，請根據這些事件建置對象，然後改為使用&#x200B;**讀取對象**&#x200B;活動。 技術上可使用客群資格篩選，但不建議使用，因為它可能會根據所使用的操作導致下游挑戰。
 
 
 ### 資料來源 {#data-sources-g}
