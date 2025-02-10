@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: a0e9800c5909369845f2a243e8967f7037c808d8
+source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 96%
@@ -67,7 +67,7 @@ ht-degree: 96%
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
-➡️[本章節](experience-decisioning-uc.md)中呈現了一個端對端使用案例，說明如何使用內容實驗來比較決策與程式碼型體驗管道。
+➡️[本章節](../experience-decisioning/experience-decisioning-uc.md)中呈現了一個端對端使用案例，說明如何使用內容實驗來比較決策與程式碼型體驗管道。
 
 ## 何時使用程式碼型頻道，而不是其他頻道 {#code-based-vs-other-channels}
 

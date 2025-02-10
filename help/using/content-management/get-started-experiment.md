@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 98%
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 實驗是在線上測試的情境下進行的一組隨機試驗，意即某些隨機選取的使用者會接觸到訊息的指定變化，而另一組隨機選取的使用者則會接觸到其他處理方式。 傳送訊息後，您就可以測量您感興趣的結果量度，例如電子郵件開啟數或點擊數。
 
-➡️[本章節](experience-decisioning-uc.md)中呈現了一個端對端使用案例，說明如何使用內容實驗來比較決策與程式碼型體驗管道。
+➡️[本章節](../experience-decisioning/experience-decisioning-uc.md)中呈現了一個端對端使用案例，說明如何使用內容實驗來比較決策與程式碼型體驗管道。
 
 ## 為什麼要進行實驗？
 
