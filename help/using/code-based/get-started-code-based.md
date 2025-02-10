@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+source-git-commit: a0e9800c5909369845f2a243e8967f7037c808d8
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 100%
+source-wordcount: '791'
+ht-degree: 96%
 
 ---
 
@@ -66,6 +66,8 @@ ht-degree: 100%
 </tr></table>
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
+
+➡️[本章節](experience-decisioning-uc.md)中呈現了一個端對端使用案例，說明如何使用內容實驗來比較決策與程式碼型體驗管道。
 
 ## 何時使用程式碼型頻道，而不是其他頻道 {#code-based-vs-other-channels}
 
@@ -136,6 +138,4 @@ ht-degree: 100%
    >[!INFO]
    >
    >若想確認，應用程式實施團隊會送出明確 API 或 SDK 呼叫，為程式碼型設定中已定義的表面擷取內容，例如「橫幅文字」或「建議匣 1」，或應用程式中與 UI 無關的決策點，例如「搜尋演算法參數」。 <!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [了解更多](code-based-implementation-samples.md)
-
-
 
