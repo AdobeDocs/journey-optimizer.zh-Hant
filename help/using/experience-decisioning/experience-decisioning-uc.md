@@ -1,21 +1,19 @@
 ---
 title: Decisioning 使用案例
-description: 瞭解如何使用程式碼型管道的實驗建立決策
+description: 瞭解如何透過程式碼型體驗管道建立決定並用於內容實驗
 feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-hide: true
-hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 5%
+source-wordcount: '828'
+ht-degree: 4%
 
 ---
 
-# Decisioning 使用案例 {#experience-decisioning-uc}
+# 透過內容實驗在程式碼型體驗中使用決策 {#experience-decisioning-uc}
 
 此使用案例提供將Decisioning與[!DNL Journey Optimizer]程式碼型管道搭配使用所需的所有步驟。
 

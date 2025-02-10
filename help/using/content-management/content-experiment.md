@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '748'
 ht-degree: 12%
 
 ---
@@ -41,6 +41,8 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 此處的目標是檢視收件者是否會根據收到的實驗與電子郵件互動。 因此，我們將選擇&#x200B;**[!UICONTROL 電子郵件開啟次數]**&#x200B;作為此內容實驗中的主要目標量度。
 
 ![](assets/content_experiment.png)
+
+➡了️解如何使用內容實驗來比較決定與[此使用案例](experience-decisioning-uc.md)中的程式碼型體驗管道。
 
 ## 建立您的內容 {#campaign-experiment}
 
@@ -125,3 +127,4 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 1. 定義訊息內容後，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕以控制傳遞的呈現，並使用測試設定檔檢查個人化設定。 [了解更多](../content-management/preview-test.md)
 
 設定實驗後，您可以在報表中追蹤傳送成功。 [了解更多](../reports/campaign-global-report-cja-experimentation.md)
+
