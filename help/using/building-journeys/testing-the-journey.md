@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: fcad0d71b6de9ae7e21b201fb954e712b2028526
+source-git-commit: 66f8943093670b3310a600a77adcd8123bb213ff
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 9%
@@ -91,7 +91,7 @@ ht-degree: 9%
 >
 >* 當您在測試模式中觸發事件時，會產生實際事件，這表示它也會點選聆聽此事件的其他歷程。
 >
->*請確定測試模式中的每個事件都是以正確的順序在設定的等待期間內觸發。 例如，如果等候60秒，則必須在60秒等待過後、逾時限制過期之前觸發第二個事件。
+>* 確保測試模式中的每個事件都按正確順序在設定的等待期間內觸發。 例如，如果等候60秒，則必須在60秒等待過後、逾時限制過期之前觸發第二個事件。
 >
 
 您必須先瞭解哪些設定檔在Adobe Experience Platform中標示為測試設定檔。 事實上，測試模式僅允許在歷程中這些設定檔，而且事件必須包含ID。 預期的ID取決於事件設定。 例如，可以是ECID或電子郵件地址。 需要將此金鑰的值新增到&#x200B;**設定檔識別碼**&#x200B;欄位中。
@@ -166,5 +166,5 @@ ht-degree: 9%
 
 使用測試模式觸發事件時，會自動以來源名稱產生資料集。
 
-測試模式會自動建立體驗事件並將其傳送至Adobe Experience Platform。 此體驗事件的來源名稱是「Journey Orchestration測試事件」。
+測試模式會自動建立體驗事件並將其傳送至Adobe Experience Platform。 此體驗事件的來源名稱為「Journey Orchestration測試事件」。
 
