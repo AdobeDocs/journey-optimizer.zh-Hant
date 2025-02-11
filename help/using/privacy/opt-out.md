@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 100%
+source-wordcount: '1056'
+ht-degree: 98%
 
 ---
 
@@ -63,23 +63,23 @@ ht-degree: 100%
 
 ### 在決策管理中 {#opt-out-decision-management}
 
-運用優惠方案時，個人化偏好設定不會自動於使用來自[決策](../offers/api-reference/offer-delivery-api/decisioning-api.md) API 請求或 [邊緣決策](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API 請求的[決定範圍](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)實施。 在這種情況下，您需要手動強制執行個人化同意。 若要執行此操作，請遵循下列步驟。
+運用產品建議時，個人化偏好設定不會自動於使用來自[決策](../offers/api-reference/offer-delivery-api/decisioning-api.md) API 請求或 [邊緣決策](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API 請求的[決定範圍](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)實施。 在這種情況下，您需要手動強制執行個人化同意。 若要執行此操作，請遵循下列步驟。
 
 >[!NOTE]
 >
 >[!DNL Journey Optimizer]發起管道中使用的決定範圍符合其所屬歷程或行銷活動的這項要求。
 
-1. 建立 [Adobe Experience Platform 客群](../audience/access-audiences.md)，使用[細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}並使用輪廓屬性，例如&#x200B;**[!UICONTROL 個人化內容 = 是 (選擇加入)]**，以同意個人化的使用者為目標。
+1. 建立 [Adobe Experience Platform 客群](../audience/about-audiences.md)，使用[細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}並使用輪廓屬性，例如&#x200B;**[!UICONTROL 個人化內容 = 是 (選擇加入)]**，以同意個人化的使用者為目標。
 
    ![](assets/perso-consent-od-audience.png)
 
-1. 建立[決定](../offers/offer-activities/create-offer-activities.md)時，新增決定範圍，並根據此客群為包含個人化優惠的每個評估條件集合定義適用性限制。
+1. 建立[決定](../offers/offer-activities/create-offer-activities.md)時，新增決定範圍，並根據此客群為包含個人化產品建議的每個評估條件集合定義適用性限制。
 
    ![](assets/perso-consent-od-audience-decision.png)
 
-1. 建立不包括個人化內容的[遞補優惠](../offers/offer-library/creating-fallback-offers.md)。
+1. 建立不包括個人化內容的[後備產品建議](../offers/offer-library/creating-fallback-offers.md)。
 
-1. 將非個人化遞補優惠[指派](../offers/offer-activities/create-offer-activities.md#add-fallback)至決定。
+1. 將非個人化後備產品建議[指派](../offers/offer-activities/create-offer-activities.md#add-fallback)至決定。
 
    ![](assets/perso-consent-od-audience-fallback.png)
 
@@ -87,9 +87,9 @@ ht-degree: 100%
 
 如果使用者：
 
-* 同意個人化，決定範圍將決定該輪廓的最佳優惠。
+* 同意個人化，決定範圍將決定該輪廓的最佳產品建議。
 
-* 未同意個人化，對應的輪廓將不符合評估條件中的任何優惠方案資格，因此將收到非個人化的遞補優惠方案。
+* 未同意個人化，對應的輪廓將不符合評估條件中的任何產品建議資格，因此將收到非個人化的後備產品建議。
 
 >[!NOTE]
 >
@@ -121,7 +121,7 @@ ht-degree: 100%
 
 您可以使用區段規則產生器，建立包含選擇退出輪廓的客群。
 
-1. 使用[細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}建立 [Adobe Experience Platform 客群](../audience/access-audiences.md)。
+1. 使用[細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}建立 [Adobe Experience Platform 客群](../audience/about-audiences.md)。
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -137,13 +137,13 @@ ht-degree: 100%
 
 您也可以將分割活動新增至構成工作流程，以將個人化同意檢查新增至客群。
 
-1. 使用&#x200B;**[!UICONTROL 撰寫客群]**&#x200B;選項建立客群。 [了解更多如何建立構成工作流程的相關資訊](../audience/create-compositions.md)
+1. 使用&#x200B;**[!UICONTROL 撰寫客群]**&#x200B;選項建立客群。 [了解更多如何建立構成工作流程的相關資訊](../audience/get-started-audience-orchestration.md)
 
    ![](assets/perso-consent-audience-compose.png)
 
 1. 使用右側的專用按鈕新增起始客群。
 
-1. 按一下 **+** 圖示，然後選取&#x200B;**[!UICONTROL 分割]**&#x200B;活動以建立分割客群。 [了解更多分割活動的相關資訊](../audience/composition-canvas.md#split)
+1. 按一下&#x200B;**+**&#x200B;圖示並選取&#x200B;**[!UICONTROL 分割]**&#x200B;活動以建立分割對象。
 
    ![](assets/perso-consent-audience-split.png)
 

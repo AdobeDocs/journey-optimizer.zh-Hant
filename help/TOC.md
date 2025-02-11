@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a54f298b5d2a053c8e50874477a72ff656a37abc
-workflow-type: ht
-source-wordcount: '2154'
-ht-degree: 100%
+source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+workflow-type: tm+mt
+source-wordcount: '2143'
+ht-degree: 99%
 
 ---
 
@@ -374,14 +374,13 @@ ht-degree: 100%
 + 客群、輪廓與身分識別{#audiences-profiles-identities}
    + 客群 {#audiences}
       + [開始使用 Audiences](using/audience/about-audiences.md)
-      + [自訂上傳 (CSV) 和聯合客群構成](using/audience/custom-upload-fac.md)
-      + [建置區段定義](using/audience/creating-a-segment-definition.md)
-      + 撰寫客群 {#audience-orchestration}
-         + [開始使用客群組合](using/audience/get-started-audience-orchestration.md)
-         + [建立組合工作流程](using/audience/create-compositions.md)
-         + [使用組合畫布](using/audience/composition-canvas.md)
-         + [存取及管理客群](using/audience/access-audiences.md)
-      + [聯合客群構成](https://experienceleague.adobe.com/zh-hant/docs/federated-audience-composition/using/home)
+      + 建立客群 {#create}
+         + [區段定義](using/audience/creating-a-segment-definition.md)
+         + [客群構成](using/audience/get-started-audience-orchestration.md)
+         + [自訂上傳](using/audience/custom-upload.md)
+         + [同盟對象構成（可用性限制）](using/audience/federated-audience-composition.md)
+      + [行銷活動和歷程中的對象啟用](using/audience/target-audiences.md)
+      + [運用擴充屬性](using/audience/enrichment-attributes.md)
    + 輪廓{#profiles}
       + [開始使用輪廓](using/audience/get-started-profiles.md)
       + [建立測試輪廓](using/audience/creating-test-profiles.md)
