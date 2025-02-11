@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
@@ -47,13 +47,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>決定管理 — 優惠模擬</strong><br/></th>
+<th><strong>決定管理 — 產品建議模擬</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以模擬將哪些優惠傳遞至測試輪廓中 Journey Optimizer UI 的指定位置。 這可讓您在投入生產之前，輕鬆驗證決定邏輯，包括資格限制和排名演算法。 此功能可讓非技術和技術使用者快速測試決策管理並針對潛在問題進行疑難排解。</p>
+<p>您現在可以模擬將哪些產品建議傳遞至測試輪廓中 Journey Optimizer UI 的指定位置。 這可讓您在投入生產之前，輕鬆驗證決定邏輯，包括資格限制和排名演算法。 此功能可讓非技術和技術使用者快速測試決策管理並針對潛在問題進行疑難排解。</p>
 <p>如需詳細資訊，請參閱<a href="../offers/offer-activities/simulation.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -63,13 +63,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>決定管理 — 個人化您的優惠</strong><br/></th>
+<th><strong>決定管理 — 個人化您的產品建議</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以使用 Adobe Experience Platform 輪廓屬性和客群，利用 Journey Optimizer UI 中的相同運算式編輯器元件來個人化優惠內容。 </p>
+<p>您現在可以使用 Adobe Experience Platform 輪廓屬性和客群，利用 Journey Optimizer UI 中的相同運算式編輯器元件來個人化產品建議內容。 </p>
 <p>如需詳細資訊，請參閱<a href="../offers/offer-library/creating-personalized-offers.md#custom-text">詳細文件</a>。</p>
 </td>
 </tr>
@@ -107,7 +107,7 @@ ht-degree: 100%
 
 **決定管理**
 
-* **評估排序** - 全新改進的決定建立流程不僅可讓您更順暢瀏覽於決定物件之間，而且讓您能夠完全控制決定引擎如何評估優惠集合。 其中包括哪些集合會一起進行評估或分別評估，以及應以何種順序評估集合。 [進一步了解](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* **評估排序** - 全新改進的決定建立流程不僅可讓您更順暢瀏覽於決定物件之間，而且讓您能夠完全控制決定引擎如何評估產品建議集合。 其中包括哪些集合會一起進行評估或分別評估，以及應以何種順序評估集合。 [進一步了解](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ### 修正
 
@@ -161,7 +161,7 @@ ht-degree: 100%
 
 **歷程**
 
-* 在佈建步驟事件期間建立並由系統產生的方案和資料集現在改為唯讀模式，可避免重要方案發生任何意外修改。 [進一步了解](../reports/sharing-overview.md)
+* 在佈建步驟事件期間建立並由系統產生的結構描述和資料集現在改為唯讀模式，可避免重要結構描述發生任何意外修改。 [進一步了解](../reports/sharing-overview.md)
 * 簡潔標示&#x200B;**等待**&#x200B;活動，並在畫布中顯示標籤。 標籤也會用於報告和測試模式記錄，以清楚識別您正在執行的動作。 [進一步了解](../building-journeys/about-journey-activities.md#best-practices)
 * 使用搜尋，透過篩選&#x200B;**事件**&#x200B;和&#x200B;**動作**&#x200B;類別中的元素，更快找到您的事件和動作。 不再篩選協調活動。 [進一步了解](../building-journeys/using-the-journey-designer.md)
 * 在規則型或商業活動中定義事件 ID 條件時，「包含」運算子現在可用於字串類型欄位。 [進一步了解](../event/about-creating.md)
@@ -186,7 +186,7 @@ ht-degree: 100%
 <td>
 <p>使用 Adobe Journey Optimizer 在最適當的時間自動向您接洽的每個客戶傳送推播通知或電子郵件。「傳送時間最佳化」採用 Adobe 的 AI 服務，可根據立即可用的歷史開啟率和點按率，預測傳送電子郵件或推播訊息的最佳時機，以實現最大化參與程度。</p>
 <p>此功能目前為測試版本，僅供測試版客戶使用。 若要加入測試版計畫，請連絡 Adobe 客戶服務。</p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/journeys-message.md#send-time-optimization">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/send-time-optimization.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -196,13 +196,13 @@ ht-degree: 100%
 <thead>
 <tr>
 
-<th><strong>在商業活動中利用方案關係 — 查閱表格管理</strong><br/></th>
+<th><strong>在商業活動中利用結構描述關係 — 查閱表格管理</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在當您設定商業活動時，可以利用方案之間的關係。除了可在當設定單一事件時、當在歷程中、在個人化訊息和在個人化自訂動作中使用條件時運用連結表格的欄位，同時還包含此功能。</p>
+<p>現在當您設定商業活動時，可以利用結構描述之間的關係。除了可在當設定單一事件時、當在歷程中、在個人化訊息和在個人化自訂動作中使用條件時運用連結表格的欄位，同時還包含此功能。</p>
 <p>如需詳細資訊，請參閱<a href="../event/experience-event-schema.md#leverage_schema_relationships">詳細文件</a>。</p>
 </td>
 </tr>
@@ -271,7 +271,7 @@ ht-degree: 100%
 **使用者介面**
 
 * **搜尋** - 在每個頁面上，您現在可以直接從「統一的 Experience Cloud」搜尋欄位搜尋業務物件和說明文章。 [進一步了解](../start/user-interface.md#unified-search)
-* **收件者** - 在 Adobe Journey Optimizer 首頁顯示收件者元素的功能，現在已擴充至其他業務物件。 透過此更新，提供包括您最近存取的訊息、歷程、客群、方案、資料集、資料來源、事件、動作、來源和目的地的捷徑。[進一步了解](../action/about-custom-action-configuration.md#passing-collection)
+* **收件者** - 在 Adobe Journey Optimizer 首頁顯示收件者元素的功能，現在已擴充至其他業務物件。 透過此更新，提供包括您最近存取的訊息、歷程、客群、結構描述、資料集、資料來源、事件、動作、來源和目的地的捷徑。[進一步了解](../action/about-custom-action-configuration.md#passing-collection)
 
 **內容設計**
 
@@ -289,7 +289,7 @@ ht-degree: 100%
 
 **決定管理**
 
-* 建立優惠方案時新增和設定代表的方式已更新，以改善使用者體驗。 特別是，現在只有當您定義代表的影像類型內容時，才會顯示資料庫。[進一步了解](../offers/offer-library/creating-personalized-offers.md#representations)
+* 建立產品建議時新增和設定代表的方式已更新，以改善使用者體驗。 特別是，現在只有當您定義代表的影像類型內容時，才會顯示資料庫。[進一步了解](../offers/offer-library/creating-personalized-offers.md#representations)
 
 ### 修正
 
@@ -314,7 +314,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>透過您載入 Journey Optimizer 的參考資料豐富您的體驗。 例如，在體驗事件中查詢預訂 ID 的中繼資料，或在體驗事件中從 SKU 尋找產品資訊以用於畫布。 </p>
-<p>您現在可以運用方案間的關係，將一個資料集作為其他資料集的查閱表格。 接著，當設定單一事件時、當在歷程中、在個人化訊息和在個人化自訂動作中使用條件時，您就可以運用連結表格中的所有欄位。</p>
+<p>您現在可以運用結構描述間的關係，將一個資料集作為其他資料集的查閱表格。 接著，當設定單一事件時、當在歷程中、在個人化訊息和在個人化自訂動作中使用條件時，您就可以運用連結表格中的所有欄位。</p>
 <p>如需詳細資訊，請參閱<a href="../event/experience-event-schema.md#leverage_schema_relationships">詳細文件</a>。</p>
 </td>
 </tr>
@@ -363,6 +363,6 @@ ht-degree: 100%
 * 修正導致批次電子郵件傳遞重複傳送訊息的問題。
 * 當重試期間結束後未執行電子郵件傳送時，現在會據此產生事件。
 * 修正「PTR 記錄」畫面中缺少 IP 資訊的問題。
-* 現在運算式編輯器中已實施本地化的優惠邊欄。
+* 現在運算式編輯器中已實施本地化的產品建議邊欄。
 * 修正資訊快顯視窗的間距錯誤。
 * 修正當電子郵件設計工具中上傳 HTML 檔案時，內部樣式表包含未支援的 `background-image` 屬性問題。

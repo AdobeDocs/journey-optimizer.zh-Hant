@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 建立，電子郵件，開始，歷程，行銷活動
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 9%
@@ -43,7 +43,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->您可以使用傳送時間最佳化選項，根據歷史開啟率和點按率，預測傳送訊息的最佳時機，以最大化參與程度。 [瞭解如何使用傳送時間最佳化](../building-journeys/journeys-message.md#send-time-optimization)
+>您可以使用傳送時間最佳化選項，根據歷史開啟率和點按率，預測傳送訊息的最佳時機，以最大化參與程度。 [瞭解如何使用傳送時間最佳化](../building-journeys/send-time-optimization.md)
 
 如需如何設定歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
 
@@ -94,13 +94,13 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_designer_edit_email_body.png)
 
-1. 如果您在行銷活動中，也可以按一下&#x200B;**[!UICONTROL 代碼編輯器]**&#x200B;按鈕，使用顯示的快顯視窗以純HTML編碼您自己的內容。
+1. 如果您在行銷活動中，也可以按一下&#x200B;**[!UICONTROL 代碼編輯器]**&#x200B;按鈕，使用顯示的快顯視窗在普通HTML中編碼您自己的內容。
 
    ![](assets/email_designer_edit_code_editor.png)
 
    >[!NOTE]
    >
-   >如果您已透過電子郵件Designer建立或匯入內容，此內容將會以HTML顯示。
+   >如果您已透過電子郵件Designer建立或匯入內容，此內容將會顯示在HTML中。
 
 ## 檢查警報 {#check-email-alerts}
 
@@ -124,7 +124,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
      >
      >行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 訊息類別（**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]**）是在[頻道設定](email-settings.md#email-type)層級，以及[從歷程或行銷活動建立訊息](#create-email-journey-campaign)時定義的。
 
-   * **[!UICONTROL HTML的文字版本是空的]**：別忘了定義您的電子郵件內文的文字版本，因為當HTML內容無法顯示時會使用此版本。 瞭解如何在[本節](text-version-email.md)中建立文字版本。
+   * **[!UICONTROL HTML的文字版本是空的]**：別忘了定義您的電子郵件內文的文字版本，因為當HTML內容無法顯示時，將會使用此版本。 瞭解如何在[本節](text-version-email.md)中建立文字版本。
 
    * **[!UICONTROL 電子郵件內文中出現空白連結]**：檢查您電子郵件中的所有連結是否正確。 在[本節](content-from-scratch.md)中瞭解如何管理內容和連結。
 

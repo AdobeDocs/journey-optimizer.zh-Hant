@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 9%
@@ -40,7 +40,7 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >如果您從歷程傳送推播通知，您可以運用Adobe Journey Optimizer的傳送時間最佳化功能，根據歷史開啟率和點按率，預測傳送訊息的最佳時機，最大化參與程度。 [瞭解如何使用傳送時間最佳化](../building-journeys/journeys-message.md#send-time-optimization)
+   >如果您從歷程傳送推播通知，您可以運用Adobe Journey Optimizer的傳送時間最佳化功能，根據歷史開啟率和點按率，預測傳送訊息的最佳時機，最大化參與程度。 [瞭解如何使用傳送時間最佳化](../building-journeys/send-time-optimization.md)
 
    如需如何設定歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)
 

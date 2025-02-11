@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '3705'
 ht-degree: 30%
@@ -357,7 +357,7 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->**[!UICONTROL 傳送時間最佳化]**&#x200B;和&#x200B;**[!UICONTROL 已最佳化與未最佳化]** Widget只有在傳送的「傳送時間最佳化」選項已啟用時才可用。 如需傳送時間最佳化的詳細資訊，請參閱[此頁面](../building-journeys/journeys-message.md#send-time-optimization)。
+>**[!UICONTROL 傳送時間最佳化]**&#x200B;和&#x200B;**[!UICONTROL 已最佳化與未最佳化]** Widget只有在傳送的「傳送時間最佳化」選項已啟用時才可用。 如需傳送時間最佳化的詳細資訊，請參閱[此頁面](../building-journeys/send-time-optimization.md)。
 
 **[!UICONTROL 傳送時間最佳化]**&#x200B;和&#x200B;**[!UICONTROL 已最佳化與未最佳化]** Widget會根據傳送方法（已最佳化或正常）詳細列出您的電子郵件是否成功。
 

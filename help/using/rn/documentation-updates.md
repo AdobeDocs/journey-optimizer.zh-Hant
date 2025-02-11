@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
-source-wordcount: '5981'
+source-wordcount: '6014'
 ht-degree: 98%
 
 ---
@@ -18,6 +18,12 @@ ht-degree: 98%
 # 文件更新 {#latest-updates}
 
 本頁面列出 [!DNL Journey Optimizer] 文件的所有最新更新。
+
+
+## 2025 年 2 月 {#feb-2025}
+
+* **[!UICONTROL 傳送時間最佳化]**&#x200B;的檔案及其相關常見問題集已更新、改進並移至新的專用頁面。 [閱讀全文](../building-journeys/send-time-optimization.md)
+* 已新增歷程事件的護欄。 [閱讀全文](../start/guardrails.md#events-g)
 
 ## 2025 年 1 月 {#jan-2025}
 
@@ -99,7 +105,7 @@ ht-degree: 98%
 * 對於使用 API 觸發的行銷活動，已針對利用自訂名稱空間建立身分識別新增資訊。 [閱讀全文](../campaigns/api-triggered-campaigns.md)
 * 螢幕擷取畫面已更新，以反映改進的歷程畫布。
 * 命名約束已在以下頁面中更新：[設定單一事件](../event/about-creating.md)、[設定業務事件](../event/about-creating-business.md#gs-business-events)、[設定自訂動作](../action/about-custom-action-configuration.md#configuration-steps)、[外部資料來源](../datasource/external-data-sources.md)
-* 新增了有關傳送時間最佳化可用性的備註。 [閱讀全文](../building-journeys/journeys-message.md#send-time-optimization)
+* 新增了有關傳送時間最佳化可用性的備註。 [閱讀全文](../building-journeys/send-time-optimization.md)
 * 新增了一個關於如何建立自訂動作以將資料傳送到 Experience Platform 的新技術使用案例。 [閱讀全文](../building-journeys/custom-action-aep.md)
 
 ## 2024 年 3 月 {#march-2024}
@@ -358,7 +364,7 @@ ht-degree: 98%
 * 「允許」清單頁面已移到「設定」部分。 [閱讀全文](../configuration/allow-list.md)
 * 已更新「隱藏」清單頁面以澄清一些資訊，包括隱藏欄位中允許包含 32 到 126 之間的所有 ASCII 字元。 [閱讀全文](../configuration/manage-suppression-list.md)
 * 已新增到用於決定管理的護欄和靜態限制的連結。 [閱讀全文](../start/guardrails.md)
-* 傳送時間最佳化現在可供所有客戶使用。 已刪除測試版的描述。 [閱讀全文](../building-journeys/journeys-message.md#send-time-optimization)
+* 傳送時間最佳化現在可供所有客戶使用。 已刪除測試版的描述。 [閱讀全文](../building-journeys/send-time-optimization.md)
 * 批次決策 API 已新增至可用 API 清單，以傳遞個人化產品建議。 [閱讀全文](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022 年 5 月 {#may-2022}
