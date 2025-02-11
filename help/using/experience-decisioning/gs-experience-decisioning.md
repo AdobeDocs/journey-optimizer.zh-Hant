@@ -9,7 +9,7 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="什麼是決策？"
->abstract="決策是除了決策管理之外的新工具，可從決策引擎挑選最佳專案並交付給每個人。 它需要額外的設定才能使用。"
+>title="什麼是 Decisioning？"
+>abstract="Decisioning 是決策管理以外的新工具，從決定引擎中挑選出最好的項目並傳送給每個個體。要使用 Decisioning 必須額外進行設定。"
 
 ## 什麼是決策 {#about}
 

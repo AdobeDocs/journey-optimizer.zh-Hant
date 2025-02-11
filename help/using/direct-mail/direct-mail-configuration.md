@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 179d0f8571bf2e4d4ea1c5ad8ab498de9e7b5550
 workflow-type: tm+mt
 source-wordcount: '1405'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="選取您的檔案的伺服器類型"
->abstract="選擇您要用於匯出直接郵件檔案的伺服器型別：Amazon S3、SFTP或Azure。"
+>abstract="選擇匯出直接郵件檔案所要使用的伺服器類型：Amazon S3、SFTP 或 Azure。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
@@ -197,7 +197,7 @@ ht-degree: 19%
 
    >[!NOTE]
    >
-   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線`_`、點`.`和連字型大小`-`字元。
+   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線 `_`、點 `.` 和連字號 `-` 字元。
 
 1. 若要將自訂或核心資料使用標籤指派給組態，您可以選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)。
 
