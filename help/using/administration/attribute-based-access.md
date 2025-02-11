@@ -2,27 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 屬性型存取控制
-description: 以屬性為基礎的存取控制(ABAC)可讓您定義授權，以管理特定團隊或使用者群組的資料存取。
+description: 以屬性為基礎的存取控制可讓您定義授權，以管理特定團隊或使用者群組的資料存取。
 feature: Access Management
 topic: Administration
 role: Admin,Leader
 level: Intermediate
 keywords: abac，屬性，授權，資料，存取，敏感，資產
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
 
 # 屬性型存取控制 {#attribute-based-access}
 
-以屬性為基礎的存取控制(ABAC)功能可讓您定義授權，以管理特定團隊或使用者群組的資料存取。 其目的是保護敏感數位資產，使其免受未經授權使用者的侵害，進而保護個人資料。
+以屬性為基礎的存取控制功能可讓您定義授權，以管理特定團隊或使用者群組的資料存取。 其目的是保護敏感數位資產，使其免受未經授權使用者的侵害，進而保護個人資料。
 
-在Adobe Journey Optimizer中，ABAC可讓您保護資料，並授與特定欄位元素的特定存取權，包括體驗資料模型(XDM)結構描述、設定檔屬性和對象。
+在Adobe Journey Optimizer中使用以屬性為基礎的存取控制，以保護資料並授與特定欄位元素的特定存取權，包括體驗資料模型(XDM)結構描述、設定檔屬性和對象。
 
-如需ABAC所用術語的詳細清單，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=zh-Hant)。
+如需與屬性式存取控制搭配使用的術語詳細清單，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=zh-Hant){target="_blank"}。
 
 在此範例中，我們想要將標籤新增至&#x200B;**國籍**&#x200B;結構描述欄位，以限制未經授權的使用者使用它。 為了讓此功能發揮作用，您需要執行以下步驟：
 
@@ -32,15 +32,15 @@ ht-degree: 0%
 
 1. 使用Adobe Journey Optimizer中的&#x200B;**[!UICONTROL 結構描述欄位]**。
 
-請注意，也可以使用屬性式存取控制API來存取&#x200B;**[!UICONTROL 角色]**、**[!UICONTROL 原則]**&#x200B;和&#x200B;**[!UICONTROL 產品]**。 如需詳細資訊，請參閱此[檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html)。
+請注意，也可以使用屬性式存取控制API來存取&#x200B;**[!UICONTROL 角色]**、**[!UICONTROL 原則]**&#x200B;和&#x200B;**[!UICONTROL 產品]**。 如需詳細資訊，請參閱此[檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html){target="_blank"}。
 
 ## 建立角色並指派標籤 {#assign-role}
 
 >[!IMPORTANT]
 >
->在管理角色的許可權之前，您必須先建立原則。 如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html)。
+>在管理角色的許可權之前，您必須先建立原則。 如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html){target="_blank"}。
 
-**[!UICONTROL 角色]**&#x200B;是一組使用者，在您的組織內共用相同的許可權、標籤和沙箱。 屬於&#x200B;**[!UICONTROL Role]**的每個使用者都有權使用產品中包含的Adobe應用程式和服務。
+**[!UICONTROL 角色]**&#x200B;是一組使用者，在您的組織內共用相同的許可權、標籤和沙箱。 屬於&#x200B;**[!UICONTROL 角色]**的每個使用者都有權使用產品中包含的Adobe應用程式和服務。
 如果您想要微調使用者對介面中特定功能或物件的存取許可權，也可以建立您自己的**[!UICONTROL 角色]**。
 
 我們現在要授與選取的使用者存取&#x200B;**國籍**&#x200B;欄位（標示為C2）的許可權。 若要這麼做，我們需要建立具有特定使用者集的新&#x200B;**[!UICONTROL 角色]**，並授與他們標籤C2，以讓他們在&#x200B;**[!UICONTROL 歷程]**&#x200B;中使用&#x200B;**國籍**&#x200B;詳細資料。
@@ -59,7 +59,7 @@ ht-degree: 0%
 
    ![](assets/role_3.png)
 
-1. 從下拉式清單中，選取連結至所選功能的&#x200B;**[!UICONTROL 許可權]**，例如&#x200B;**[!UICONTROL 檢視歷程]**&#x200B;或&#x200B;**[!UICONTROL Publish歷程]**。
+1. 從下拉式清單中，選取連結至所選功能的&#x200B;**[!UICONTROL 許可權]**，例如&#x200B;**[!UICONTROL 檢視歷程]**&#x200B;或&#x200B;**[!UICONTROL 發佈歷程]**。
 
    ![](assets/role_6.png)
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 請注意，您也可以將&#x200B;**[!UICONTROL 標籤]**&#x200B;新增至&#x200B;**[!UICONTROL 結構描述]**、**[!UICONTROL 資料集]**&#x200B;和&#x200B;**[!UICONTROL 對象]**。
 
-1. 建立您的&#x200B;**[!UICONTROL 結構描述]**。 如需詳細資訊，請參閱[此檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant)。
+1. 建立您的&#x200B;**[!UICONTROL 結構描述]**。 如需詳細資訊，請參閱[此檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant){target="_blank"}。
 
    ![](assets/label_1.png)
 
@@ -104,11 +104,11 @@ ht-degree: 0%
 
    ![](assets/label_3.png)
 
-1. 選取對應的&#x200B;**[!UICONTROL 標籤]**，在此例中，C2 — 資料無法匯出至協力廠商。 如需可用標籤的詳細清單，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels)。
+1. 選取對應的&#x200B;**[!UICONTROL 標籤]**，在此例中，C2 — 資料無法匯出至協力廠商。 如需可用標籤的詳細清單，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels){target="_blank"}。
 
    ![](assets/label_4.png)
 
-1. 視需要進一步個人化您的結構描述，然後啟用它。 有關如何啟用結構描述的詳細步驟，請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile)。
+1. 視需要進一步個人化您的結構描述，然後啟用它。 有關如何啟用結構描述的詳細步驟，請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile){target="_blank"}。
 
 現在只會顯示您結構描述的欄位，而且只能由屬於以C2標籤設定的角色的使用者使用。
 藉由將**[!UICONTROL 標籤]**&#x200B;套用至您的&#x200B;**[!UICONTROL 欄位名稱]**，請注意&#x200B;**[!UICONTROL 標籤]**&#x200B;會自動套用至每個建立之結構描述中的&#x200B;**國籍**&#x200B;欄位。

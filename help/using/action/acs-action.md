@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: 行銷活動，標準，整合，上限，動作
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 3%
@@ -26,11 +26,11 @@ ht-degree: 3%
 
 ## 重要備註 {#important-notes}
 
-* Adobe Campaign Standard動作會自動定義每5分鐘4000次呼叫的上限規則。 此量度與Adobe Campaign Standard交易式訊息的官方量度相對應。 在[Adobe Campaign Standard產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html)中進一步瞭解異動訊息SLA。
+* Adobe Campaign Standard動作會自動定義每5分鐘4000次呼叫的上限規則。 此量度與Adobe Campaign Standard交易式訊息的官方量度相對應。 在[Adobe Campaign Standard產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html){target="_blank"}中進一步瞭解異動訊息SLA。
 
 * Adobe Campaign Standard整合是透過動作清單中的專屬內建動作來設定。 需要為每個沙箱設定此專案。
 
-* Campaign Standard動作不可與對象資格或讀取對象活動搭配使用。
+* Campaign Standard動作無法與對象資格或讀取對象活動搭配使用。
 
 * 歷程不能同時使用訊息和Campaign Standard動作。
 
