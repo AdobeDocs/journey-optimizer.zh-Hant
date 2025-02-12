@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 76b97c513a78def54a520279c178fb24002040b7
+source-git-commit: 40c067d85b278380abd874fc6edc69f32c0c56ef
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '494'
 ht-degree: 18%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->您也可以設定自訂動作以傳送訊息給您。 [了解更多](#recommendation)
+>您也可以設定自訂動作，以便在[!DNL Journey Optimizer]中傳送訊息。 [了解更多](#recommendation)
 
 ## 在歷程中新增訊息  {#add-msg-in-journey}
 
