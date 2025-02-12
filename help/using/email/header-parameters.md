@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 93%
@@ -44,7 +44,7 @@ ht-degree: 93%
 >
 >位址必須以字母 (A-Z) 開頭，並且只能包含英數字元。您也可以使用底線 `_`、點 `.` 和連字號 `-` 字元。
 
-### 回覆電子郵件 {#reply-to-email}
+## 回覆電子郵件 {#reply-to-email}
 
 定義&#x200B;**[!UICONTROL 回覆電子郵件]**&#x200B;地址時，只要電子郵件地址是有效、格式正確且不含任何拼寫錯誤，您就可以指定任何電子郵件地址。
 
@@ -66,7 +66,7 @@ ht-degree: 93%
 >
 >如果您輸入之位址的子網域是[已完全委派](../configuration/delegate-subdomain.md#full-subdomain-delegation)至 Adobe 的網域，請連絡您的 Adobe 帳戶主管。
 
-### 轉寄電子郵件 {#forward-email}
+## 轉寄電子郵件 {#forward-email}
 
 若要將 [!DNL Journey Optimizer] 收到的委派子網域的所有電子郵件轉寄至特定電子郵件地址，請聯絡 Adobe 客戶服務部門。
 
