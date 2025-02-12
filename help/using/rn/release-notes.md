@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fc6a552700a52c5f513299ab861750263aeda98a
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '2270'
-ht-degree: 96%
+source-wordcount: '2346'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,25 @@ ht-degree: 96%
 
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
-## 2025 年 1 月更新 {#25-01-rn}
+## 最新&#39;25更新 {#25-01-rn}
+
+### 2月改進 {#25-02-improvements}
+
+以下的改善專案是由2月的更新所提供。
+
+**電子郵件組態** — 推出日期： 2025年2月10日
+
+* 如果您在Adobe外部管理同意，您現在可以設定自訂取消訂閱電子郵件地址和自訂一鍵取消訂閱URL，作為電子郵件通道組態設定的一部分。 [瞭解詳情](../email/list-unsubscribe.md#custom-managed)
+
+  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+
+  >[!AVAILABILITY]
+  >
+  >此功能以有限可用性 (LA) 形式向一小部分客戶發布。
+
+### 全新功能 {#25-01-features}
+
+1月發行的新功能詳述如下。
 
 <table>
 <thead>
@@ -59,9 +77,9 @@ ht-degree: 96%
 </tbody>
 </table>
 
-### 改進項目 {#25-01-improvements}
+### 1月改善專案 {#25-01-improvements}
 
-此發行版本隨附下列改進項目。
+1月發行的改良功能列示如下。
 
 **Decisioning**
 
