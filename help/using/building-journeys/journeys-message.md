@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: 56a1ef1ba256d1aac3593d8a61e67bdc42c17d32
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '444'
 ht-degree: 27%
 
 ---
@@ -72,6 +72,10 @@ ht-degree: 27%
       </tr>
       </table>
 
+     >[!NOTE]
+     >
+     >針對電子郵件與推播通知，您可以啟用傳送時間最佳化。 [了解更多](send-time-optimization.md)
+
    * 瞭解建立傳入動作的詳細步驟，如下所示：
 
      <table style="table-layout:fixed">
@@ -114,20 +118,10 @@ ht-degree: 27%
 
      >[!NOTE]
      >
-     >每個傳入訊息活動都隨附3天&#x200B;**等待**&#x200B;活動。 [了解更多](../building-journeys/wait-activity.md#auto-wait-node)
+     >每個傳入訊息活動都隨附3天&#x200B;**等待**&#x200B;活動。 [了解更多](wait-activity.md#auto-wait-node)
 
-## 建議 {#recommendation}
 
-[!DNL Journey Optimizer]隨附內建訊息功能。 不過，自訂動作可讓您設定協力廠商系統的連線，以傳送訊息或API呼叫。
-
-* 如果您使用協力廠商系統來傳送訊息，則可建立自訂動作。 [了解更多](../action/action.md)
-
-* 如果您正在使用Campaign和Journey Optimizer，請參閱下列區段：
-
-   * [[!DNL Journey Optimizer]和Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer]與Campaign Standard](../action/acs-action.md)
-
-## 更新即時內容{#update-live-content}
+## 更新即時內容 {#update-live-content}
 
 您可以在即時歷程中更新內建頻道動作的內容。
 
@@ -137,8 +131,19 @@ ht-degree: 27%
 
 但是，您無法變更個人化中使用的屬性，無論是設定檔屬性或內容資料（來自事件或歷程屬性）。
 
-如果您修改內容資料，將會顯示下列錯誤訊息： ERR_AUTHORING_JOURNEYVERSION_201
+如果您修改內容資料，將會顯示下列錯誤訊息： `ERR_AUTHORING_JOURNEYVERSION_201`
 
-如果您修改設定檔屬性，將會顯示下列錯誤訊息：ERR_AUTHORING_JOURNEYVERSION_202
+如果您修改設定檔屬性，將會顯示下列錯誤訊息： `ERR_AUTHORING_JOURNEYVERSION_202`
 
 請注意，針對應用程式內活動，可以在歷程上線時對內容進行任何變更，但無法修改應用程式內觸發器。
+
+## 隨自訂動作傳送 {#recommendation}
+
+您可以使用自訂動作來設定協力廠商系統的連線，以傳送訊息或API呼叫，而不使用內建訊息功能。
+
+* 如果您使用協力廠商系統來傳送訊息，則可建立自訂動作。 [了解更多](../action/action.md)
+
+* 如果您使用Adobe Campaign，請參閱下列章節：
+
+   * [[!DNL Journey Optimizer]和Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer]與Campaign Standard](../action/acs-action.md)
