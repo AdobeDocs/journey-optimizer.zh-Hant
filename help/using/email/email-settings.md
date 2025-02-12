@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 307655ebfb161ab5023430be801c46b378326ccd
+source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1471'
 ht-degree: 96%
 
 ---
@@ -182,16 +182,6 @@ ht-degree: 96%
 欲了解有關重試的更多資訊，請參閱[本節](../configuration/retries.md)。
 
 ## URL 追蹤 {#url-tracking}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_utm"
->title="定義 URL 追蹤參數"
->abstract="使用此區段以將追蹤參數自動附加到電子郵件內容中的 URL。此功能為選用。"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_url_preview"
->title="預覽 URL 追蹤參數"
->abstract="重新探討要如何將追蹤參數附加到電子郵件內容中出現的 URL。"
 
 您可以使用 **[!UICONTROL URL 追蹤參數]**&#x200B;來測量跨頻道行銷工作的有效性。[了解更多](url-tracking.md)
 
