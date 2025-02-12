@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: 9538c8c19b242036ce58799b51ef25b8204bf6ec
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 93%
@@ -28,7 +28,7 @@ ht-degree: 93%
 
 以下的改善專案是由2月的更新所提供。
 
-**電子郵件組態** — 推出日期： 2025年2月10日
+**電子郵件組態** — 推出日期： 2025年2月12日
 
 * 如果您在Adobe外部管理同意，您現在可以設定自訂取消訂閱電子郵件地址和自訂一鍵取消訂閱URL，作為電子郵件通道組態設定的一部分。 [瞭解詳情](../email/list-unsubscribe.md#custom-managed)
 
