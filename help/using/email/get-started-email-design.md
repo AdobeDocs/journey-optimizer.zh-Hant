@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、素材、資產
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 57a309956ebe2997dce3fe0eb1b6bb70b911da5e
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
@@ -22,9 +22,9 @@ ht-degree: 100%
 
 * 利用[!DNL Journey Optimizer] **電子郵件設計功能**&#x200B;來建立或匯入回應式電子郵件。[了解更多](content-from-scratch.md)
 
-* 利用 **Adobe Experience Manager Assets Essentials** 豐富您的電子郵件，建立並管理您自己的資產資料庫。[了解更多](../content-management/assets.md)
+* 利用 **Adobe Experience Manager Assets Essentials** 豐富您的電子郵件，建立並管理您自己的資產資料庫。[了解更多](../integrations/assets.md)
 
-* 查找 **Adobe Stock 相片**&#x200B;建立內容並改進電子郵件設計。[了解更多](../content-management/stock.md)
+* 查找 **Adobe Stock 相片**&#x200B;建立內容並改進電子郵件設計。[了解更多](../integrations/stock.md)
 
 * 根據客戶的輪廓屬性建立個人化和動態訊息，以增強客戶體驗。深入瞭解[個人化](../personalization/personalize.md)及[動態內容](../personalization/get-started-dynamic-content.md)。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 1. 在電子郵件設計工具首頁，從下列選項選取您希望如何設計電子郵件：
 
-   * 透過電子郵件設計工具介面並善用 [Adobe Experience Manager Assets](../content-management/assets.md) 的影像&#x200B;**從頭開始設計電子郵件**。在[本節](content-from-scratch.md)了解如何設計您的電子郵件內容。
+   * 透過電子郵件設計工具介面並善用 [Adobe Experience Manager Assets](../integrations/assets.md) 的影像&#x200B;**從頭開始設計電子郵件**。在[本節](content-from-scratch.md)了解如何設計您的電子郵件內容。
 
    * 直接在電子郵件設計工具&#x200B;**撰寫或貼上原始 HTML**。在[本節](code-content.md)了解如何撰寫您自己的內容。
 

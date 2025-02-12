@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 資料，管理，平台
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 1ed007d5921573dce30df6faa625bb0bce5d6616
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 透過 [!DNL Adobe Journey Optimizer]，您可以輕鬆管理、保留這些資料，並將其匯出至屬於您技術堆疊一部分的平台或系統。 
 
-**我的資料，我的規則** - [!DNL Adobe Journey Optimizer] 除了所有歷程資料及營運固有的優惠方案資料外，還會持續 (並即時) 建立一組豐富的客戶輪廓。 從您的資料庫擷取的 Strawman 版本使用者資料，會透過涵蓋範圍和深度而擴充轉換為高價值的資料。 您希望資料安全無虞且無處不在，以便可以在整體 IT 生態系統中發揮其價值。
+**我的資料，我的規則** - [!DNL Adobe Journey Optimizer] 除了所有歷程資料及營運固有的產品建議資料外，還會持續 (並即時) 建立一組豐富的客戶輪廓。 從您的資料庫擷取的 Strawman 版本使用者資料，會透過涵蓋範圍和深度而擴充轉換為高價值的資料。 您希望資料安全無虞且無處不在，以便可以在整體 IT 生態系統中發揮其價值。
 
 整體而言，您希望資料具有的彈性是：
 
@@ -33,7 +33,7 @@ ht-degree: 100%
     <div><img alt="目的地" src="assets/do-not-localize/dest.png" /> 
     <br>可在其他目的地使用 — 同時 [!DNL Adobe Journey Optimizer] 針對超個人化的客戶體驗同步並整合資料，您希望這些資料出現在整體技術環境的其他系統中，同時尋找其他方法善用這些資料。
     <div>
-     <a href="../start/ajo-integrations.md">了解更多</a></div>
+     <a href="../integrations/ajo-integrations.md">了解更多</a></div>
     </div>
     <br>
   </td>
@@ -70,7 +70,7 @@ ht-degree: 100%
   請注意，無法透過上述 API 或目標方法擷取歷程或行銷活動使用的內容。
 
 <!--
-* **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer’s default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization’s data retention policy.
+* **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer's default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy.
 
   Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target="_blank"}.
 -->

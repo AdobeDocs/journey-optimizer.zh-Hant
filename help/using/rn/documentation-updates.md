@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6b75f1f1916a20c1ad66f5b89ec706e5b8b6844b
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '6024'
 ht-degree: 98%
@@ -130,7 +130,7 @@ ht-degree: 98%
 ## 2024 年 2 月 {#feb-2024}
 
 * [!DNL Journey Optimizer]3 月 23 日發行版本所有新功能和改進項目的詳情，請參閱本文件。[閱讀全文](release-notes.md#feb-2024)
-* Journey Optimizer + Workfront 整合已新增至整合頁面。[閱讀全文](../start/ajo-integrations.md)
+* Journey Optimizer + Workfront 整合已新增至整合頁面。[閱讀全文](../integrations/ajo-integrations.md)
 * 已新增有關如何根據內容資料個人化服務的表示形式的資訊。[閱讀全文](../offers/offer-library/add-representations.md#context-data)
 * 已更新護欄頁面，其中包含自訂動作的說明，僅在使用請求或回應裝載時支援 JSON 格式。[閱讀全文](../start/guardrails.md#custom-actions-g)
 * 已新增有關外部資料來源中基本驗證類型的其他資訊。[閱讀全文](../datasource/external-data-sources.md)
@@ -250,7 +250,7 @@ ht-degree: 98%
 * 已新增備註，以明確說明無法移除內建動作。 [閱讀全文](../start/guardrails.md#custom-actions-g)
 * 已新增 serviceEvents 的相關資訊，以及檢查 serviceEvent 詳細資料的查詢範例。 [閱讀全文](../reports/query-examples.md#common-queries)
 * 已新增備註，以明確說明您無法對時間序列執行查詢。 [閱讀全文](../building-journeys/condition-activity.md)
-* Adobe Experience Manager Assets Essentials 以及 Adobe Stock 已新增至多解決方案整合頁面。 [閱讀全文](../start/ajo-integrations.md)
+* Adobe Experience Manager Assets Essentials 以及 Adobe Stock 已新增至多解決方案整合頁面。 [閱讀全文](../integrations/ajo-integrations.md)
 * 不允許的多層級電子郵件子網域警告已移除，因為現在已支援。[閱讀全文](../configuration/delegate-subdomain.md)
 * 已新增備註，以指定如果對歷程訊息中使用的產品建議決策進行變更，您需要取消發佈歷程並重新發佈。[閱讀全文](../building-journeys/publishing-the-journey.md)
 * 已在決策管理&#x200B;**限定事件**&#x200B;區段中，釐清如何確保在限定計數器中正確記錄事件的說明。[閱讀全文](../offers/offer-library/add-constraints.md#capping-event)
@@ -306,7 +306,7 @@ ht-degree: 98%
 
 ## 2022 年 11 月 {#november-2022}
 
-* 新增 Journey Optimizer 整合的頁面。 [閱讀全文](../start/ajo-integrations.md)
+* 新增 Journey Optimizer 整合的頁面。 [閱讀全文](../integrations/ajo-integrations.md)
 * 新增關於鏡像頁面 URL 長度的建議。 [閱讀全文](../email/message-tracking.md)
 * 電子郵件設定組態的新小節已新增至電子郵件地址的回覆，包括確保正確回覆管理的建議。 [閱讀全文](../email/email-settings.md#reply-to-email)
 * 已新增如何修改即時歷程中訊息內容的章節。 [閱讀全文](../building-journeys/journeys-message.md#update-live-content)

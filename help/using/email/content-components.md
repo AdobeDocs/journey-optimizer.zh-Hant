@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 元件，電子郵件設計工具，編輯器，電子郵件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 50%
@@ -121,7 +121,7 @@ ht-degree: 50%
    * **字型大小**：選取文字的字型大小 (以像素為單位)。
    * **[!UICONTROL 變更字型顏色]**：選擇字型的顏色。
    * **[!UICONTROL 插入連結]**：新增任何型別的連結至您的內容。
-   * **[!UICONTROL 編輯影像]**：將影像或資產新增至文字元件。 [進一步瞭解資產管理](../content-management/assets.md)
+   * **[!UICONTROL 編輯影像]**：將影像或資產新增至文字元件。 [進一步瞭解資產管理](../integrations/assets.md)
    * **[!UICONTROL 變更字型顏色]**：選擇字型的顏色。
    * **[!UICONTROL 新增個人化]**：新增個人化欄位，以自訂設定檔資料的內容。 [進一步了解內容個人化](../personalization/personalize.md)
    * **[!UICONTROL 顯示原始碼]**：顯示文字的原始碼。原始碼無法變更。
@@ -151,7 +151,7 @@ ht-degree: 50%
 
    ![](assets/email_designer_html_component.png)
 
-1. 複製並貼上您要新增至電子郵件的HTML代碼，然後按一下[儲存]。****
+1. 複製並貼上您要新增至電子郵件的HTML程式碼，然後按一下[儲存]。****
 
    ![](assets/email_designer_html_content.png)
 
@@ -173,7 +173,7 @@ ht-degree: 50%
 
    >[!NOTE]
    >
-   > 為確保您的連結保持作用中狀態並避免任何到期問題，我們建議使用AdobeAssets，而不是依賴影像的來源URL。
+   > 為確保您的連結維持作用中狀態並避免任何到期問題，我們建議您使用Adobe Assets，而不是仰賴影像的來源URL。
 
 1. 您也可以使用&#x200B;**[!UICONTROL 尋找Adobe Stock像片]**&#x200B;選項，直接在Adobe Stock中搜尋。
 
@@ -184,7 +184,7 @@ ht-degree: 50%
 
    ![](assets/email_designer_10.png)
 
-1. 您也可以選擇&#x200B;**[!UICONTROL 尋找類似的像片]**。 [了解更多](../content-management/stock.md)
+1. 您也可以選擇&#x200B;**[!UICONTROL 尋找類似的像片]**。 [了解更多](../integrations/stock.md)
 
 1. 從&#x200B;**[!UICONTROL 樣式]**&#x200B;索引標籤，調整其他樣式屬性，例如邊界、邊框等。 或新增連結以將客群重新導向到「**[!UICONTROL 元件設定]**」窗格中的另一個內容。
 

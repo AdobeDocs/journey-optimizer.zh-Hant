@@ -6,7 +6,7 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: 7e5dbd6106b8a5ffd9bee8b1364a7bf5b995668c
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 4%
@@ -61,7 +61,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 
 ![](assets/content-card-design-3.png)
 
-若要包含媒體，請輸入您要使用之媒體的URL，或按一下&#x200B;**[!UICONTROL 選取Assets]**&#x200B;圖示以從儲存在Assets媒體櫃中的資產中進行選擇。 [進一步瞭解資產管理](../content-management/assets.md)。
+若要包含媒體，請輸入您要使用之媒體的URL，或按一下&#x200B;**[!UICONTROL 選取Assets]**&#x200B;圖示以從儲存在Assets媒體櫃中的資產中進行選擇。 [進一步瞭解資產管理](../integrations/assets.md)。
 
 <!--
 +++More options with advanced formatting

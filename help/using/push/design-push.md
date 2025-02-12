@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 3dd2db31a239ec5a81bfd677355aca862602e030
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 17%
@@ -60,7 +60,7 @@ ht-degree: 17%
 
 * 使用「**[!UICONTROL 新增媒體]**」按鈕在&#x200B;**[!DNL Adobe Experience Manager Assets]**&#x200B;中選取資產。
 
-  瞭解如何在[此頁面](../content-management/assets.md)中使用&#x200B;**[!DNL Adobe Experience Manager Assets]**。
+  瞭解如何在[此頁面](../integrations/assets.md)中使用&#x200B;**[!DNL Adobe Experience Manager Assets]**。
 
 * 或在&#x200B;**[!UICONTROL 新增媒體]**&#x200B;欄位中輸入媒體URL。 在這種情況下，您可以將個人化新增至URL。
 
@@ -107,7 +107,7 @@ ht-degree: 17%
 >title="設定推播通知的自訂資料。"
 >abstract="根據你的行動應用程式設定，在承載中新增自訂變數。"
 
-在&#x200B;**[!UICONTROL 自訂資料]**&#x200B;區段中，您可以根據行動應用程式設定，將自訂變數新增至裝載。 如需如何在Adobe Experience Platform和Adobe啟動中設定推播通知的詳細資訊，請參閱[本節](push-gs.md)
+在&#x200B;**[!UICONTROL 自訂資料]**&#x200B;區段中，您可以根據行動應用程式設定，將自訂變數新增至裝載。 如需如何在Adobe Experience Platform和Adobe Launch中設定推播通知的詳細資訊，請參閱[本節](push-gs.md)
 
 ## 進階選項 {#advanced-options-push}
 

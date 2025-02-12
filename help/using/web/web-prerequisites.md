@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 3%
@@ -40,7 +40,7 @@ ht-degree: 3%
   >
   >確定您的[Adobe Experience Platform Web SDK版本](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/release-notes){target="_blank"}為2.16或更高版本。
 
-* 混合模式 — 您可以使用[AEPEdge Network伺服器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hant){target="_blank"}來要求個人化伺服器端；回應會提供給Adobe Experience Platform Web SDK，以轉譯使用者端修改。 進一步瞭解Adobe Experience Platform [Edge Network伺服器API檔案](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}。 您可以在[此部落格](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}中找到更多有關混合模式的資訊，並檢視一些實作範例。
+* 混合模式 — 您可以使用[AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hant){target="_blank"}來要求個人化伺服器端；回應會提供給Adobe Experience Platform Web SDK，以轉譯修改內容的使用者端。 在Adobe Experience Platform [Edge Network伺服器API檔案](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}中進一步瞭解。 您可以在[此部落格](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}中找到更多有關混合模式的資訊，並檢視一些實作範例。
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ ht-degree: 3%
 
 ### 疑難排解網站未載入 {#troubleshooting}
 
-使用Adobe[!DNL Journey Optimizer]網頁設計工具時，如果嘗試載入無法載入的網站，會顯示一則訊息，建議您安裝[Visual Editing Helper瀏覽器擴充功能](#install-visual-editing-helper)。
+使用Adobe [!DNL Journey Optimizer]網頁設計工具時，如果嘗試載入無法載入的網站，會顯示一則訊息，建議您安裝[Visual Editing Helper瀏覽器擴充功能](#install-visual-editing-helper)。
 
 1. 請確定Visual Editing Helper瀏覽器擴充功能已正確安裝。
 
@@ -104,7 +104,7 @@ ht-degree: 3%
 
 1. 嘗試先在新瀏覽器標籤中登入，並導覽至所需的頁面，然後複製URL並嘗試在[!DNL Journey Optimizer]網頁設計工具中開啟它。
 
-2. 如果您仍然無法在[!DNL Journey Optimizer]網頁設計工具中載入網站，請連絡Adobe客戶服務以回報問題，並確定您指定了失敗的URL。
+2. 如果您還是無法在[!DNL Journey Optimizer]網頁設計工具中載入網站，請連絡Adobe客戶服務以回報問題，並確定您指定了失敗的URL。
 
 ## 傳遞必要條件 {#delivery-prerequisites}
 
@@ -150,4 +150,4 @@ ht-degree: 3%
 
 ## 資產的品牌網域 {#branded-domains-for-assets}
 
-編寫網頁體驗時，如果您新增來自[Adobe Experience Manager Assets](../content-management/assets.md)資料庫的內容，則必須設定用於發佈此內容的子網域。 [了解更多](web-delegated-subdomains.md)
+編寫網頁體驗時，如果您新增來自[Adobe Experience Manager Assets](../integrations/assets.md)資料庫的內容，則必須設定用於發佈此內容的子網域。 [了解更多](web-delegated-subdomains.md)

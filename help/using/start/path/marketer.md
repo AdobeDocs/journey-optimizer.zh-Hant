@@ -7,7 +7,7 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 100%
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 # 行銷人員快速入門 {#get-started-marketers}
 
-作為&#x200B;**行銷人員**&#x200B;或&#x200B;**歷程操作者**，您必須負責建立優惠方案及歷程以及設計內容。 一旦[系統管理員](administrator.md)及[資料工程師](data-engineer.md)授予您存取權限並準備好您的環境，您就可以開始使用[!DNL Adobe Journey Optimizer]。
+作為&#x200B;**行銷人員**&#x200B;或&#x200B;**歷程操作者**，您必須負責建立產品建議及歷程以及設計內容。 一旦[系統管理員](administrator.md)及[資料工程師](data-engineer.md)授予您存取權限並準備好您的環境，您就可以開始使用[!DNL Adobe Journey Optimizer]。
 
-請參閱下列章節，以設定您的第一個歷程、新增優惠方案及資產並傳送訊息：
+請參閱下列章節，以設定您的第一個歷程、新增產品建議及資產並傳送訊息：
 
 1. **建立客群**。Journey Optimizer 可讓您直接從&#x200B;**客群**&#x200B;選單，透過區段定義建立客群，並將其善用於歷程之中。 [在此頁面中](../../audience/about-audiences.md)了解更多有關客群的資訊。 [在此範例中](../../audience/creating-a-segment-definition.md)探索如何建置區段定義。
 
@@ -26,9 +26,9 @@ ht-degree: 100%
 
    ![](../assets/perso_ee2.png)
 
-1. **建立及管理資產**。[!DNL Adobe Experience Manager Assets]提供了可用於填入訊息的單一、集中式資產存放庫。請參閱[本節](../../content-management/assets.md)。
+1. **建立及管理資產**。[!DNL Adobe Experience Manager Assets]提供了可用於填入訊息的單一、集中式資產存放庫。請參閱[本節](../../integrations/assets.md)。
 
-1. **新增優惠方案**。使用 [!DNL Journey Optimizer] 可在適當的時間為所有接觸點的客戶提供最佳優惠和體驗。設計完成後，透過個人化優惠目標定位客群。[在此章節](../../offers/get-started/starting-offer-decisioning.md)深入瞭解決策管理相關內容。
+1. **新增產品建議**。使用 [!DNL Journey Optimizer] 可在適當的時間為所有接觸點的客戶提供最佳產品建議和體驗。設計完成後，透過個人化產品建議目標定位客群。[在此章節](../../offers/get-started/starting-offer-decisioning.md)深入瞭解決策管理相關內容。
 
    ![](../assets/offers-e2e-offers-displayed.png)
 

@@ -7,9 +7,9 @@ feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate, Experienced
-keywords: 程式碼、HTML、編輯器
+keywords: 程式碼，HTML，編輯器
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 68%
@@ -24,7 +24,7 @@ ht-degree: 68%
 
 >[!CAUTION]
 >
-> 使用此方法時，無法參考[Adobe Experience Manager Assets](../content-management/assets.md)中的影像。 您的HTML程式碼中參照的影像必須儲存到公共位置。
+> 使用此方法時，無法參考[Adobe Experience Manager Assets](../integrations/assets.md)中的影像。 您的HTML程式碼中參照的影像必須儲存到公共位置。
 
 1. 從電子郵件Designer首頁，選取&#x200B;**[!UICONTROL 自行編碼]**。
 

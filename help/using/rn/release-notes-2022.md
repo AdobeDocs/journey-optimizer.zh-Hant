@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 100%
@@ -212,7 +212,7 @@ ht-degree: 100%
 **歷程**
 
 * 此 **實體資料集** 現在可作為 Adobe Journey Optimizer 中的現成可用資料集。 此查詢資料集包含中繼資料，讓追蹤和意見回饋資料集資訊更為豐富。 這可協助您使用更易理解的資料，改善報告和查詢。 [了解更多](../data/datasets-query-examples.md#entity-dataset)
-* 已將新護欄新增至單一歷程 (從事件或客群資格開始)，以防止同一事件多次錯誤觸發歷程。 輪廓重新進入現在會依預設暫時封鎖 5 分鐘。[進一步了解](../start/guardrails.md#events-g)
+* 已將新護欄新增至單一歷程 (從事件或客群資格篩選開始)，以防止同一事件多次錯誤觸發歷程。 輪廓重新進入現在會依預設暫時封鎖 5 分鐘。[進一步了解](../start/guardrails.md#events-g)
 
 **管理**
 
@@ -240,7 +240,7 @@ ht-degree: 100%
 ### 其他變更{#sept-2022-other}
 
 * 「行銷活動快速傳送」模式已取代「歷程突發模式」。 [了解更多](../push/create-push.md#rapid-delivery)
-* 為了改善效能，從讀取客群、客群資格或業務事件活動開始的歷程中，無法再使用體驗事件欄位群組。 此變更僅適用於新歷程。 現有行為會保留目前的行為。 [了解更多](../start/guardrails.md#expression-editor)
+* 為了改善效能，從讀取客群、客群資格篩選或業務事件活動開始的歷程中，無法再使用體驗事件欄位群組。 此變更僅適用於新歷程。 現有行為會保留目前的行為。 [了解更多](../start/guardrails.md#expression-editor)
 * 排程的讀取客群歷程以 1 小時為限的限制已經移除。 這些歷程現在可立即執行。
 
 
@@ -345,7 +345,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>現在，您可以使用定義組織或資料使用範圍的標籤標示身分綱要欄位。 管理員可以使用權限介面定義涵蓋 XDM 綱要欄位的存取原則，並更好地管理使用者或使用者群組 (內部、外部或協力廠商使用者) 的存取權限，以及管理對特定類型資料 (即敏感個人資料/SPD) 的存取權限。</p>
+<p>現在，您可以使用定義組織或資料使用範圍的標籤標示身分結構描述欄位。 管理員可以使用權限介面定義涵蓋 XDM 結構描述欄位的存取原則，並更好地管理使用者或使用者群組 (內部、外部或協力廠商使用者) 的存取權限，以及管理對特定類型資料 (即敏感個人資料/SPD) 的存取權限。</p>
 <p>以屬性為基礎的存取控制目前僅限於選定使用者，將在未來的版本中同步到所有環境。</p>
 <p>如需詳細資訊，請參閱<a href="../administration/attribute-based-access.md">詳細文件</a>。</p>
 </td>
@@ -373,13 +373,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>在您的決定中自動執行最佳優惠方案 (可用性限制)</strong><br/></th>
+<th><strong>在您的決定中自動執行最佳產品建議 (可用性限制)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在，您可以在決策管理中使用個人化最佳化模型系統。 這種新類型的模型可讓您根據客群與優惠方案績效來將優惠最佳化和個人化。</p>
+<p>現在，您可以在決策管理中使用個人化最佳化模型系統。 這種新類型的模型可讓您根據客群與產品建議績效來將產品建議最佳化和個人化。</p>
 <p>個人化最佳化 AI 模型的使用目前僅限於選定使用者，將在未來的版本中同步到所有環境。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細文件</a>。</p>
@@ -413,7 +413,7 @@ ht-degree: 100%
 
 **決定管理**
 
-* **客群規模** - 當建立決定規則、選擇客群或規則以設定優惠方案適用性或將客群或規則新增至決定範圍時，新的客群規模預估元件現在會顯示在使用者介面中。
+* **客群規模** - 當建立決定規則、選擇客群或規則以設定產品建議適用性或將客群或規則新增至決定範圍時，新的客群規模預估元件現在會顯示在使用者介面中。
 
 
 ## 2022 年 6 月發行版本 {#june-2022-release}
@@ -449,7 +449,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>Adobe Stock 和 Adobe Journey Optimizer 電子郵件設計工具整合外掛程式，為客戶提供了用於訊息製作的導覽、授權和儲存影像的簡單方法。 您還可以藉由</br>新的<b>找到類似的相片庫</b>選項找出與影像內容、顏色和組成相符的影像庫。 </p>
-<p>如需詳細資訊，請參閱<a href="../content-management/stock.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../integrations/stock.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -498,7 +498,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>現在，您可以從 Journey Optimizer 沙箱將體驗重新建立到另一個沙箱，例如從非生產沙箱重新建立到生產沙箱。 這個新功能可將整個 Journey 從一個環境複製到另一個環境，包括 Journey 賴以正確運作的任何物件。 除了 Journeys 之外，您還可以複製其他元件，如 Offirs、Messages、Schemas、Datasets、Data Sources、Events 和 Actions。</p>
+<p>現在，您可以從 Journey Optimizer 沙箱將體驗重新建立到另一個沙箱，例如從非生產沙箱重新建立到生產沙箱。 這個新功能可將整個 Journey 從一個環境複製到另一個環境，包括 Journey 賴以正確運作的任何物件。 除了歷程之外，您還可以複製其他元件，如產品建議、消息、結構描述、資料集、資料來源、事件和動作。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/copy-to-sandbox.md">詳細文件</a>。
 </td>
 </tr>
@@ -512,7 +512,7 @@ ht-degree: 100%
 
 **決策管理**
 
-* **HTML 和 JSON 檔案支援** — 您現在可以將外部 HTML 和 JSON 檔案從 Adobe Experience Cloud 資產庫拖放到優惠方案聲明內容中。 [了解更多](../offers/offer-library/add-representations.md#html-json)
+* **HTML 和 JSON 檔案支援** — 您現在可以將外部 HTML 和 JSON 檔案從 Adobe Experience Cloud 資產庫拖放到產品建議展現方案內容中。 [了解更多](../offers/offer-library/add-representations.md#html-json)
 
 
 **電子郵件**
@@ -635,7 +635,7 @@ ht-degree: 100%
 
 **決定管理**
 
-* **邊緣決策 API** - 邊緣決策 API 可以提供並轉譯受決策管理管理的個人化服務。 您可以使用決策管理使用者介面 (UI) 或 API 建立您的優惠方案與其他相關物件。 [進一步了解](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **邊緣決策 API** - 邊緣決策 API 可以提供並轉譯受決策管理管理的個人化服務。 您可以使用決策管理使用者介面 (UI) 或 API 建立您的產品建議與其他相關物件。 [進一步了解](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **管理**
 
@@ -667,13 +667,13 @@ ht-degree: 100%
 
 **歷程**
 
-* 為避免統一輪廓綱要存在不必要的欄位，預設情況下不再為輪廓啟用「歷程步驟事件」綱要。 如有需要，可以啟用。 [了解更多](../reports/sharing-overview.md)
+* 為避免統一輪廓結構描述存在不必要的欄位，預設情況下不再為輪廓啟用「歷程步驟事件」結構描述。 如有需要，可以啟用。 [了解更多](../reports/sharing-overview.md)
 * 跟匯出工作有關的新步驟活動現在由 Journey Optimizer 傳送到 Adobe Experience Platform。 已在文件中新增查詢範例。 [進一步了解](../reports/query-examples.md)
 
 **決定管理**
 
-* 現在您可以指定在所有使用者或單個特定輪廓中套用優惠上限設定，以及指定在個別或所有投放位置上套用。[了解更多](../offers/offer-library/add-constraints.md#capping)
-* 批次決策 API 允許組織在一次呼叫中，對指定客群中的所有輪廓使用決策管理功能。 客群中每個輪廓的優惠內容都放在 AEP 資料集，其可用於自訂批次處理工作流程。 [進一步了解](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* 現在您可以指定在所有使用者或單個特定輪廓中套用產品建議上限設定，以及指定在個別或所有投放位置上套用。[了解更多](../offers/offer-library/add-constraints.md#capping)
+* 批次決策 API 允許組織在一次呼叫中，對指定客群中的所有輪廓使用決策管理功能。 客群中每個輪廓的產品建議內容都放在 AEP 資料集，其可用於自訂批次處理工作流程。 [進一步了解](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **管理**
 
@@ -817,11 +817,11 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 **歷程**
 
-* Journey Optimizer 步驟事件現在可以連結到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 中的其他資料集。  內建「歷程步驟事件」方案中的 **profileID** 欄位現在定義為身分識別欄位。 [了解更多](../reports/sharing-overview.md#integration-cja)
+* Journey Optimizer 步驟事件現在可以連結到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 中的其他資料集。  內建「歷程步驟事件」結構描述中的 **profileID** 欄位現在定義為身分識別欄位。 [了解更多](../reports/sharing-overview.md#integration-cja)
 
 **決定管理**
 
-* 對於在已發佈訊息中直接或間接引用的優惠方案、遞補優惠、優惠收藏或優惠決定，現在將在對應訊息中自動反映您的更新，無需重新發佈。 [了解更多](../offers/offers-e2e.md#insert-decision-in-email)
+* 對於在已發佈訊息中直接或間接引用的產品建議、後備產品建議、產品建議集合或產品建議決策，現在將在對應訊息中自動反映您的更新，無需重新發佈。 [了解更多](../offers/offers-e2e.md#insert-decision-in-email)
 
 * 在模擬給定測試輪廓將提供哪些服務時，您現在可以修改預設模擬設定，並針對用於疑難排解的模擬查看對應的代碼。 [進一步了解](../offers/offer-activities/simulation.md#define-simulation-settings)
 

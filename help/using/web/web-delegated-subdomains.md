@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web、子網域、設定
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 24%
@@ -32,9 +32,9 @@ ht-degree: 24%
 >title="設定網頁子網域"
 >abstract="從已委派給 Adobe 的子網域清單中選取一個子網域。您可以將此網頁子網域設定為預設子網域，但一次只能使用一個預設子網域。"
 
-編寫網頁體驗時，如果您新增來自[Adobe Experience Manager Assets](../content-management/assets.md)資料庫的內容，則必須設定用於發佈此內容的子網域。
+編寫網頁體驗時，如果您新增來自[Adobe Experience Manager Assets](../integrations/assets.md)資料庫的內容，則必須設定用於發佈此內容的子網域。
 
-您可以使用已委派給Adobe的子網域，也可以設定另一個子網域。 在[本節](../configuration/delegate-subdomain.md)中進一步瞭解將子網域委派給Adobe。
+您可以使用已委派給Adobe的子網域，也可以設定另一個子網域。 在[本節](../configuration/delegate-subdomain.md)中進一步瞭解將子網域委派至Adobe。
 
 >[!CAUTION]
 >
@@ -151,7 +151,7 @@ ht-degree: 24%
 
    >[!NOTE]
    >
-   >您必須先等到Adobe執行所需的檢查（最多可能需要4小時），才能使用該子網域傳送網頁訊息。
+   >您必須等待Adobe執行所需檢查（最多可能需要4小時），才能使用該子網域傳送網頁訊息。
 
 1. 檢查成功後，子網域會取得&#x200B;**[!UICONTROL Success]**&#x200B;狀態。 它已準備好用於建立Web Channel設定。
 

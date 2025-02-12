@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
@@ -97,7 +97,7 @@ ht-degree: 100%
 
 **決策管理**
 
-* 已更新與決策管理介面中的優惠方案上限相關的幾個標籤。 [了解更多](../offers/offer-library/add-constraints.md#capping)
+* 已更新與決策管理介面中的產品建議上限相關的幾個標籤。 [了解更多](../offers/offer-library/add-constraints.md#capping)
 
 
 
@@ -227,7 +227,7 @@ ht-degree: 100%
 
 **資產**
 
-* Assets 的新選項可讓您在 Journey Optimizer 中選擇 Assets 的存放庫。 如果您擁有此解決方案，您可以選擇使用 Assets Essentials 存放庫或 Assets as a Cloud Service 存放庫。 [了解更多](../content-management/assets.md)
+* Assets 的新選項可讓您在 Journey Optimizer 中選擇 Assets 的存放庫。 如果您擁有此解決方案，您可以選擇使用 Assets Essentials 存放庫或 Assets as a Cloud Service 存放庫。 [了解更多](../integrations/assets.md)
 
 <!--**Decision management**
 
@@ -584,7 +584,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>Personalized Optimization AI 排名模型現在通常可在決策管理中使用。 這種新類型的模型可讓您根據客群與優惠方案績效來將優惠最佳化和個人化。</p>
+<p>Personalized Optimization AI 排名模型現在通常可在決策管理中使用。 這種新類型的模型可讓您根據客群與產品建議績效來將產品建議最佳化和個人化。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細文件</a>。</p>
 </td>
@@ -637,7 +637,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **決策管理**
 
-* 如果優惠方案具有&#x200B;**[!UICONTROL 草稿]** 狀態，之前從未發佈且已啟用頻率上限，您現在可以編輯頻率上限。 [閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
+* 如果產品建議具有&#x200B;**[!UICONTROL 草稿]** 狀態，之前從未發佈且已啟用頻率上限，您現在可以編輯頻率上限。 [閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **個人化**
 
@@ -809,7 +809,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
   請注意，雖然「標籤」一詞不再用於決策管理使用者介面，但仍用於 API 及資料集等後端服務。
 
-* 您現在可以每天、每週或每月重設優惠方案限定計數器。[了解更多](../offers/offer-library/add-constraints.md#capping)
+* 您現在可以每天、每週或每月重設產品建議限定計數器。[了解更多](../offers/offer-library/add-constraints.md#capping)
 
 * 您也可以選擇應查看哪個 Adobe Experience Platform 事件以設定 Offer Decisioning 上限。[了解更多](../offers/offer-library/add-constraints.md#capping)
 
@@ -921,7 +921,7 @@ Note that each widget can be resized and deleted as needed.
 
 **歷程**
 
-* 此&#x200B;**重新進入等待期**&#x200B;欄位已新增至歷程屬性。此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或客群資格開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 [了解更多](../building-journeys/journey-properties.md#entrance)
+* 此&#x200B;**重新進入等待期**&#x200B;欄位已新增至歷程屬性。此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或客群資格篩選開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 [了解更多](../building-journeys/journey-properties.md#entrance)
 
 * 改進了&#x200B;**歷程開始與結束日期**。如果您尚未指定開始日期，則現在會在發佈時自動新增開始日期。針對&#x200B;**讀取客群**&#x200B;歷程，您現在可以新增結束日期。 這可讓輪廓在達到日期時自動退出。 [進一步了解](../building-journeys/journey-gs.md#dates)
 
@@ -951,7 +951,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **版位** - 版位建立畫面中已新增其他參數。 它們可讓您控制某個活動內容是否可在多個版位之間複製，以及指定是否應將該活動內容的內容與中繼資料包含在 API 回應中。 [了解更多](../offers/offer-library/creating-placements.md)
 
-* **URL 個人化** - 將 URL 新增為優惠方案表示法的內容時，您現在可以使用運算式編輯器對這些 URL 進行個人化設定。[了解更多](../offers/offer-library/add-representations.md)
+* **URL 個人化** - 將 URL 新增為產品建議表示法的內容時，您現在可以使用運算式編輯器對這些 URL 進行個人化設定。[了解更多](../offers/offer-library/add-representations.md)
 
 ## 2023 年 1 月發行版本 {#jan-2023-release}
 
@@ -997,7 +997,7 @@ Note that each widget can be resized and deleted as needed.
 
 **歷程**
 
-* 在歷程中新增&#x200B;**客群資格**&#x200B;或&#x200B;**讀取客群**&#x200B;時，現已預設為使用上次使用的命名空間預先填入命名空間。 請參閱[客群資格](../building-journeys/audience-qualification-events.md#about-segment-qualification)與[讀取客群](../building-journeys/read-audience.md#configuring-segment-trigger-activity)小節。
+* 在歷程中新增&#x200B;**客群資格篩選**&#x200B;或&#x200B;**讀取客群**&#x200B;時，現已預設為使用上次使用的命名空間預先填入命名空間。 請參閱[客群資格篩選](../building-journeys/audience-qualification-events.md#about-segment-qualification)與[讀取客群](../building-journeys/read-audience.md#configuring-segment-trigger-activity)小節。
 
 * 在歷程畫布中，工具列提供新按鈕，可讓您下載歷程的螢幕擷取畫面。
 

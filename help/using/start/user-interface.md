@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: cb6b73db76c710dd8e736e710f5eb758337be696
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 100%
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 從此區段建立和管理內容。
 
-* **[!UICONTROL 資產]** - [!DNL Adobe Experience Manager Assets]為資產集中存放庫，可用來填入訊息。[了解更多](../content-management/assets.md)
+* **[!UICONTROL 資產]** - [!DNL Adobe Experience Manager Assets]為資產集中存放庫，可用來填入訊息。[了解更多](../integrations/assets.md)
 
 * **[!UICONTROL 內容範本]** - 為了加快並改善設計流程，請建立獨立範本，以在 Journey Optimizer 行銷活動與歷程中輕鬆重複使用自訂內容。 [了解更多](../content-management/content-templates.md)
 

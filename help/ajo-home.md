@@ -5,7 +5,7 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: a1502d2fa13508650cb9353e53ab3a43de650c27
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 100%
@@ -96,7 +96,7 @@ Journey Optimizer 報告功能改進與 Customer Journey Analytics 功能的互�
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>內容管理</strong><br/><a href="using/content-management/assets.md">資產/影像</a> - <a href="using/personalization/personalize.md">個人化</a> - <a href="using/content-management/content-templates.md">可重複使用</a>和<a href="using/personalization/dynamic-content.md">動態</a>內容 - <a href="using/content-management/preview-test.md">測試和預覽內容</a>
+      <strong>內容管理</strong><br/><a href="using/integrations/assets.md">資產/影像</a> - <a href="using/personalization/personalize.md">個人化</a> - <a href="using/content-management/content-templates.md">可重複使用</a>和<a href="using/personalization/dynamic-content.md">動態</a>內容 - <a href="using/content-management/preview-test.md">測試和預覽內容</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>

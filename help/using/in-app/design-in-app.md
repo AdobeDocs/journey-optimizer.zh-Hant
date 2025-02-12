@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、設計、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 28%
@@ -64,7 +64,7 @@ ht-degree: 28%
 
      使用左窗格以運用Journey Optimizer個人化功能。 如需詳細資訊，請參閱[本章節](../personalization/personalize.md)。
 
-   * 選取&#x200B;**[!UICONTROL 匯入]**&#x200B;以匯入包含您HTML內容的HTML或.zip檔案。
+   * 選取&#x200B;**[!UICONTROL 匯入]**&#x200B;以匯入包含HTML內容的HTML或.zip檔案。
 
 ## 內容索引標籤 {#content-tab}
 
@@ -104,7 +104,7 @@ ht-degree: 28%
 
 ![](assets/in_app_web_design_3.png)
 
-輸入您的媒體URL或按一下&#x200B;**[!UICONTROL 選取Assets]**&#x200B;圖示，直接將儲存在Assets資料庫中的資產新增至您的應用程式內訊息。 [進一步瞭解資產管理](../content-management/assets.md)。
+輸入您的媒體URL或按一下&#x200B;**[!UICONTROL 選取Assets]**&#x200B;圖示，直接將儲存在Assets資料庫中的資產新增至您的應用程式內訊息。 [進一步瞭解資產管理](../integrations/assets.md)。
 您也可以為熒幕閱讀應用程式新增**[!UICONTROL 替代文字]**。
 
 +++更多具有進階格式的選項

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
-source-wordcount: '2148'
-ht-degree: 99%
+source-wordcount: '2156'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,6 @@ ht-degree: 99%
    + [協助工具](using/start/accessibility.md)
    + [使用案例教戰手冊](using/start/playbooks.md)
    + [使用 AI 助理](using/start/ai-assistant.md)
-   + [整合](using/start/ajo-integrations.md)
    + [護欄](using/start/guardrails.md)
    + [最佳作法](using/start/best-practices.md)
 + 歷程 {#orchestrate-journeys}
@@ -219,7 +218,6 @@ ht-degree: 99%
             + [編輯背景設定](using/email/backgrounds.md)
             + [調整垂直對齊與邊框間距](using/email/alignment-and-padding.md)
             + [加入內嵌樣式屬性](using/email/inline-styling.md)
-      + [使用 Experience Manager 範本](using/email/aem-templates.md)
       + [管理電子郵件選擇退出](using/email/email-opt-out.md)
       + 設定電子郵件頻道 {#configure-email}
          + [開始使用電子郵件設定](using/email/get-started-email-config.md)
@@ -326,9 +324,6 @@ ht-degree: 99%
       + 技術備忘稿 {#technotes}
          + [了解統計計算](using/content-management/experiment-calculations.md)
          + [了解實驗報告中的統計計算](using/content-management/experiment-report-calculations.md)
-   + 資產/影像 {#assets-images}
-      + [使用 Experience Manager Assets](using/content-management/assets.md)
-      + [使用 Adobe Stock](using/content-management/stock.md)
    + 個人化 {#personalization}
       + [開始使用個人化](using/personalization/personalize.md)
       + [個人化內容](using/personalization/personalization-contexts.md)
@@ -372,7 +367,6 @@ ht-degree: 99%
       + [開始使用動態內容](using/personalization/get-started-dynamic-content.md)
       + [建立條件式規則](using/personalization/create-conditions.md)
       + [建立動態內容](using/personalization/dynamic-content.md)
-   + [Adobe Experience Manager 內容片段](using/content-management/aem-fragments.md)
 + 客群、輪廓與身分識別{#audiences-profiles-identities}
    + 客群 {#audiences}
       + [開始使用 Audiences](using/audience/about-audiences.md)
@@ -389,6 +383,13 @@ ht-degree: 99%
       + [使用計算屬性](using/audience/computed-attributes.md)
    + [身分識別](using/audience/get-started-identity.md)
    + [授權使用情況](using/audience/license-usage.md)
++ 整合{#assets-images}
+   + [與其他解決方案的整合](using/integrations/ajo-integrations.md)
+   + [使用 Experience Manager Assets](using/integrations/assets.md)
+   + [使用 Adobe Stock](using/integrations/stock.md)
+   + [使用Experience Manager範本](using/integrations/aem-templates.md)
+   + [使用Experience Manager內容片段](using/integrations/aem-fragments.md)
+   + [使用Dynamic Media](using/integrations/aem-dynamic.md)
 + 追蹤和監視 {#reporting}
    + 即時報告 {#live-report}
       + [開始使用即時報告](using/reports/live-report.md)

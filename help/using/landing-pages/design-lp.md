@@ -7,9 +7,9 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-keywords: 登陸，登陸頁面，設計，HTML
+keywords: 登陸，登陸頁面，設計， HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 13%
@@ -24,9 +24,9 @@ ht-degree: 13%
 
 從那裡，您可以：
 
-* **透過內容設計工具的介面，從頭開始設計您的登入頁面**，並運用[Adobe Experience Manager Assets](../content-management/assets.md)的影像。 瞭解如何設計您的內容<!--or use built-in templates--> [在此區段](../email/content-from-scratch.md)。
+* **透過內容設計工具的介面，從頭開始設計您的登入頁面**，並運用[Adobe Experience Manager Assets](../integrations/assets.md)的影像。 瞭解如何設計您的內容<!--or use built-in templates--> [在此區段](../email/content-from-scratch.md)。
 
-* **將原始HTML**&#x200B;直接編碼或貼上到內容設計工具中。 在本節](../email/code-content.md)中瞭解如何編碼您自己的內容[。
+* **將原始HTML**&#x200B;直接編碼或貼到內容設計工具中。 在本節](../email/code-content.md)中瞭解如何編碼您自己的內容[。
 
 * 從檔案或 .zip 資料夾&#x200B;**匯入現有 HTML 內容**。在本節](../email/existing-content.md)中瞭解如何匯入內容[。
 
