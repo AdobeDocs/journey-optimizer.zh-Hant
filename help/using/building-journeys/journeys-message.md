@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 56a1ef1ba256d1aac3593d8a61e67bdc42c17d32
+source-git-commit: 4c1908ad8022ff811537aa25be95db66a55882b4
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 27%
+source-wordcount: '491'
+ht-degree: 18%
 
 ---
 
@@ -23,23 +23,30 @@ ht-degree: 27%
 >title="內建頻道動作"
 >abstract="Journey Optimizer 內建頻道動作功能。您只需在您的歷程中新增傳出 (電子郵件、簡訊 (SMS/MMS)、推播) 或傳入 (應用程式內、網頁版、基於程式碼的體驗、內容卡片) 活動，並定義設定和內容。然後會在歷程的內容中執行和傳送。"
 
-[!DNL Journey Optimizer]隨附內建頻道動作功能。 您只需在您的歷程中新增傳出 (電子郵件、簡訊 (SMS/MMS)、推播) 或傳入 (應用程式內、網頁版、基於程式碼的體驗、內容卡片) 活動，並定義設定和內容。然後會在歷程的內容中執行和傳送。
+[!DNL Journey Optimizer]附帶內建頻道動作功能，可用來傳送訊息：當設定檔進入此活動時，會傳送訊息給設定檔。
+
+若要將內建頻道動作新增至您的歷程，請拖放頻道活動，並定義其設定和內容。 然後會在歷程的內容中執行和傳送。
 
 >[!NOTE]
 >
->您也可以設定傳送訊息給您的特定動作。 [了解更多](#recommendation)
+>您也可以設定自訂動作以傳送訊息給您。 [了解更多](#recommendation)
+
+## 在歷程中新增訊息  {#add-msg-in-journey}
+
+透過內建頻道動作，您可以設定傳出或傳入訊息。 支援的傳入頻道包括電子郵件、簡訊(SMS/MMS)、推播通知。 支援的輸出管道包括應用程式內、網路、程式碼型體驗、內容卡。
 
 若要將內建頻道動作新增至歷程，請遵循下列步驟。
 
 1. 以[事件](general-events.md)或[讀取對象](read-audience.md)活動來開始您的歷程。
 
-1. 從調色盤的&#x200B;**動作**&#x200B;區段，拖放外寄（**電子郵件**、**推播**、**簡訊**）或內送（**應用程式內**、**網頁**、**程式碼型體驗**、**內容卡**）活動至畫布。
+1. 從浮動視窗的&#x200B;**動作**&#x200B;區段，將頻道活動拖放至畫布中。
 
    ![](assets/journey-web-activity.png)
 
-1. 設定您的活動。
 
-   * 瞭解建立訊息內容的詳細步驟，如下所示：
+1. 設定您的活動。 以下連結提供詳細的設定指南。
+
+   * 瞭解建立傳出動作的詳細步驟，如下所示：
 
      <table style="table-layout:fixed">
       <tr style="border: 0;">
