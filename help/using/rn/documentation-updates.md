@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: 6b75f1f1916a20c1ad66f5b89ec706e5b8b6844b
 workflow-type: tm+mt
-source-wordcount: '6014'
+source-wordcount: '6024'
 ht-degree: 98%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 98%
 
 * **[!UICONTROL 傳送時間最佳化]**&#x200B;的檔案及其相關常見問題集已更新、改進並移至新的專用頁面。 [閱讀全文](../building-journeys/send-time-optimization.md)
 * 已新增歷程事件的護欄。 [閱讀全文](../start/guardrails.md#events-g)
+* 內建頻道動作頁面已重新整理。 [閱讀全文](../building-journeys/journeys-message.md)
 
 ## 2025 年 1 月 {#jan-2025}
 
