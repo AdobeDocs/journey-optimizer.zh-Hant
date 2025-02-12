@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 建立管道設定
 description: 了解如何建立管道設定
-feature: Surface, Channel Configuration
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
-source-git-commit: 24a178839e29dccffde683a958ccc74da4180a73
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 100%

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 個人化電子郵件組態設定
 description: 瞭解如何在電子郵件通道設定層級為您的設定定義個人化值
-feature: Surface, Subdomains
+feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定，子網域
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '1069'
 ht-degree: 7%

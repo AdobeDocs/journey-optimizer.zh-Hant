@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 設定管道設定
 description: 瞭解如何設定和監控通道配置
-feature: Surface, Channel Configuration
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '1737'
 ht-degree: 13%
@@ -73,7 +73,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線`_`、點`.`和連字型大小`-`字元。
+   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線 `_`、點 `.` 和連字號 `-` 字元。
 
 1. 若要將自訂或核心資料使用標籤指派給組態，您可以選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)。
 
@@ -108,7 +108,7 @@ ht-degree: 13%
    > * 對於&#x200B;**非生產沙箱**，或如果選取的子網域已在另一個核准的管道設定中&#x200B;**使用**，則程式最多只需&#x200B;**3小時**。
 
 
-   這些檢查包括由Adobe團隊執行的設定和技術測試：
+   這些檢查包括Adobe團隊執行的設定和技術測試：
 
    * SPF驗證
    * DKIM驗證

@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 37%
@@ -43,7 +43,7 @@ ht-degree: 37%
    * [與Sinch](sms-configuration-sinch.md)
    * [使用Infobip](sms-configuration-infobip.md)
    * [使用自訂提供者](sms-configuration-custom.md)
-1. [建立簡訊表面](sms-configuration-surface.md)
+1. [建立簡訊設定](sms-configuration-surface.md)
 
 這些步驟必須由Adobe Journey Optimizer [系統管理員](../start/path/administrator.md)執行。
 
@@ -53,7 +53,7 @@ Adobe Journey Optimizer目前與獨立於Adobe Journey Optimizer提供文字訊�
 
 在設定SMS通道之前，您必須與其中一個提供者建立帳戶，以取得您的&#x200B;**API Token**&#x200B;和&#x200B;**服務ID**，您需要這些帳戶來設定Adobe Journey Optimizer與適用提供者之間的連線。
 
-您對簡訊和MMS服務的使用受適用提供者的其他條款與條件的約束。 作為協力廠商解決方案，Adobe Journey Optimizer使用者可透過整合使用Sinch、Twilio和Infobip。 Adobe不會控制，且對協力廠商產品不負任何責任。 如有任何與簡訊服務(SMS/MMS)相關的問題或尋求協助的請求，請聯絡您的提供者。
+您對簡訊和MMS服務的使用受適用提供者的其他條款與條件的約束。 作為協力廠商解決方案，Adobe Journey Optimizer使用者可透過整合使用Sinch、Twilio和Infobip。 Adobe無法控制，且對協力廠商產品不負任何責任。 如有任何與簡訊服務(SMS/MMS)相關的問題或尋求協助的請求，請聯絡您的提供者。
 
 >[!CAUTION]
 >

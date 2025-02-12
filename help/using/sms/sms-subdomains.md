@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: 簡訊、子網域、設定
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 24%
+source-wordcount: '743'
+ht-degree: 23%
 
 ---
 
@@ -26,17 +26,17 @@ ht-degree: 24%
 >id="ajo_admin_subdomain_sms"
 >title="委派 SMS/MMS 子網域"
 >abstract="您必須設定要用於文字簡訊的子網域，因為您需要此子網域才能建立簡訊設定。您可以使用已委派給 Adobe 的子網域，也可以設定新的子網域。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="建立簡訊表面"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="建立簡訊設定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
 >title="選取 SMS/MMS 子網域"
 >abstract="為了能夠建立簡訊設定，請確保您之前已至少設定一個簡訊子網域，才能從子網域名稱清單中挑選。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="建立簡訊表面"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="建立簡訊設定"
 
 若要能夠縮短新增至SMS/MMS訊息的URL，您必須設定在[建立SMS設定](sms-configuration.md#message-preset-sms)時將選取的子網域。
 
-您可以使用已委派給Adobe的子網域，也可以設定另一個子網域。 在[本節](../configuration/delegate-subdomain.md)中進一步瞭解將子網域委派給Adobe。
+您可以使用已委派給Adobe的子網域，也可以設定另一個子網域。 在[本節](../configuration/delegate-subdomain.md)中進一步瞭解將子網域委派至Adobe。
 
 >[!CAUTION]
 >
@@ -87,7 +87,7 @@ ht-degree: 24%
 
    >[!NOTE]
    >
-   >您必須等到Adobe執行必要的檢查，才能使用該子網域傳送訊息，最多可能需要4小時。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   >您必須等到Adobe執行必要的檢查，才能使用該子網域傳送訊息，最多可能需要4小時的時間。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. 檢查成功後，子網域會取得&#x200B;**[!UICONTROL Success]**&#x200B;狀態。 它已準備好用來建立SMS通道設定。
 
@@ -136,6 +136,6 @@ ht-degree: 24%
 
 1. 提交子網域委派後，子網域會顯示在狀態為&#x200B;**[!UICONTROL 處理中]**&#x200B;的清單中。 如需子網域狀態的詳細資訊，請參閱[本區段](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-使用子網域傳送SMS訊息之前，您必須先等候直到Adobe執行所需檢查，這可能需要4小時。<!--Learn more in [this section](#subdomain-validation).-->檢查成功後，子網域會取得&#x200B;**[!UICONTROL Success]**&#x200B;狀態。 它已準備好用來建立SMS通道設定。
+使用子網域傳送SMS訊息之前，您必須先等待Adobe執行所需檢查，這可能需要4小時。<!--Learn more in [this section](#subdomain-validation).-->檢查成功後，子網域會取得&#x200B;**[!UICONTROL Success]**&#x200B;狀態。 它已準備好用來建立SMS通道設定。
 
 請注意，如果您無法在託管解決方案上建立驗證記錄，子網域將會標示為&#x200B;**[!UICONTROL 失敗]**。

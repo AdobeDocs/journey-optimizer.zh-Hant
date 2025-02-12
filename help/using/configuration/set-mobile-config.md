@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 設定行動裝置和網頁
 description: 了解如何設定和監視行動和網路管道
-feature: Surface, Channel Configuration
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 7a5bed3f4ee16c1a42289779fc53148bf6ab39e8
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
