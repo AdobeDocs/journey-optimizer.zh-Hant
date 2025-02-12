@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 4c1908ad8022ff811537aa25be95db66a55882b4
+source-git-commit: 76b97c513a78def54a520279c178fb24002040b7
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '493'
 ht-degree: 18%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 18%
 
 ## 在歷程中新增訊息  {#add-msg-in-journey}
 
-透過內建頻道動作，您可以設定傳出或傳入訊息。 支援的傳入頻道包括電子郵件、簡訊(SMS/MMS)、推播通知。 支援的輸出管道包括應用程式內、網路、程式碼型體驗、內容卡。
+透過內建頻道動作，您可以設定傳出或傳入訊息。 支援的傳入頻道包括電子郵件、簡訊(SMS/MMS)和推播通知。 支援的輸出管道包括應用程式內、網頁、程式碼型體驗和內容卡。
 
 若要將內建頻道動作新增至歷程，請遵循下列步驟。
 
@@ -79,10 +79,6 @@ ht-degree: 18%
       </tr>
       </table>
 
-     >[!NOTE]
-     >
-     >針對電子郵件與推播通知，您可以啟用傳送時間最佳化。 [了解更多](send-time-optimization.md)
-
    * 瞭解建立傳入動作的詳細步驟，如下所示：
 
      <table style="table-layout:fixed">
@@ -123,9 +119,12 @@ ht-degree: 18%
       </tr>
       </table>
 
-     >[!NOTE]
-     >
-     >每個傳入訊息活動都隨附3天&#x200B;**等待**&#x200B;活動。 [了解更多](wait-activity.md#auto-wait-node)
+>[!NOTE]
+>
+>* 每個傳入訊息活動都隨附3天&#x200B;**等待**&#x200B;活動。 [了解更多](wait-activity.md#auto-wait-node)
+>
+>* 針對電子郵件與推播通知，您可以啟用傳送時間最佳化。 [了解更多](send-time-optimization.md)
+
 
 
 ## 更新即時內容 {#update-live-content}
