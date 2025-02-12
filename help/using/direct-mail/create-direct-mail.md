@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 直接郵件, 訊息, 行銷活動
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
+source-git-commit: 6bcfbc835a61aa326d4ee548722a6ad6e2942ea2
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '751'
 ht-degree: 18%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 18%
 
    >[!IMPORTANT]
    >
-   >目前，受眾選擇限製為3百萬個設定檔。 如有要求，您的Adobe代表可自行解除此限制。
+   >目前，受眾選擇限製為3百萬個設定檔。 如有要求，您可向Adobe代表解除此限制。
 
 1. 在&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;欄位中，選取適當的名稱空間以識別所選對象中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
 
@@ -85,7 +85,7 @@ ht-degree: 18%
 
       >[!NOTE]
       >
-      >依預設，檔案會寫入根目錄。 **[!UICONTROL Filename]**&#x200B;欄位接受格式「/your/path/here/Filename.csv」，其中指定的路徑是所選伺服器上的目標目錄。<!--TBC if for SFTP and Azure only, or for all servers including S3-->
+      >依預設，檔案會寫入伺服器上的根目錄中。 **[!UICONTROL Filename]**&#x200B;欄位也接受格式「/your/path/here/Filename.csv」，其中指定的路徑是所選伺服器上的目標目錄。<!--TBC if for SFTP and Azure only, or for all servers including S3-->
 
    1. 如果要將自動時間戳記新增到指定的檔案名稱，請選擇性地啟用&#x200B;**[!UICONTROL 附加時間戳記以匯出檔案名稱]**&#x200B;選項。
 
