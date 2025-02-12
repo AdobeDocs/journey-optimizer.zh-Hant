@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 98%
+source-wordcount: '2160'
+ht-degree: 97%
 
 ---
 
@@ -221,9 +221,11 @@ ht-degree: 98%
       + [管理電子郵件選擇退出](using/email/email-opt-out.md)
       + 設定電子郵件頻道 {#configure-email}
          + [開始使用電子郵件設定](using/email/get-started-email-config.md)
-         + [設定電子郵件組態的設定](using/email/email-settings.md)
-         + [個人化電子郵件組態](using/email/surface-personalization.md)
+         + [定義電子郵件組態設定](using/email/email-settings.md)
          + [啟用清單取消訂閱](using/email/list-unsubscribe.md)
+         + [標頭參數](using/email/header-parameters.md)
+         + [URL 追蹤](using/email/url-tracking.md)
+         + [個人化電子郵件組態](using/email/surface-personalization.md)
    + 應用程式內頻道{#in-app}
       + [開始使用應用程式內頻道](using/in-app/get-started-in-app.md)
       + [應用程式內頻道先決條件](using/in-app/inapp-configuration.md)
