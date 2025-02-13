@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9538c8c19b242036ce58799b51ef25b8204bf6ec
+source-git-commit: 8c9e69e35ee2c56215f7fe3f4a1f5f9759a2f9b8
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 93%
@@ -53,6 +53,7 @@ ht-degree: 93%
 <td>
 <p>您現可選擇運用客戶歷程分析範本來增強 Journey Optimizer 報告。這項新功能可讓您透過根據分析需求量身打造的預先設計範本，來簡化報告流程。
 </p>
+<img src="assets/do-not-localize/cja-templates.gif">
 <p>如需詳細資訊，請參閱<a href="../reports/report-cja-manage.md#cja-template">詳細文件</a>。</p>
 <p>可用日期：自2025年1月15日起</p>
 </tr>
