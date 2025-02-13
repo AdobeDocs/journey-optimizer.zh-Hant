@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: e1192f6540ee3317a0e03100dedb7780708f7bec
+source-git-commit: 99f4dc8dc7ba3c6acb886e4a37ba36d9b187c68b
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 26%
+source-wordcount: '676'
+ht-degree: 25%
 
 ---
 
@@ -104,6 +104,8 @@ ht-degree: 26%
 
 以下改良功能隨2月更新提供。
 
+* **歷程** — 您現在可以從管理使用者介面傳送API呼叫來測試您的歷程自訂動作。 這項新功能可協助您進行自訂動作疑難排解。
+
 * **資料集存留時間(TTL)** — 從本月開始，存留時間(TTL)護欄將推出至新沙箱和新組織中的Journey Optimizer系統產生的資料集，如下所示：
 
    * 輪廓存放區中的資料為 90 天
@@ -114,6 +116,12 @@ ht-degree: 26%
 * **教戰手冊** — 您現在可以在Journey Optimizer中建立並發佈自己的使用案例教戰手冊。
 
 * **直接郵件** - DLZ （DAta登陸區域）現在支援作為直接郵件設定中檔案路由的伺服器型別。
+
+**個人化**
+
+* 個人化編輯器已增強，並具備自動完成、搜尋和篩選選項等新功能。 您也可以顯示或隱藏已棄用的屬性。
+
+* 推出日期： 2025年1月29日 — 新的日期/時間協助程式功能可用於個人化編輯器。 [閱讀全文](../personalization/functions/dates.md)
 
 **電子郵件組態** — 推出日期： 2025年2月12日
 
@@ -128,7 +136,3 @@ ht-degree: 26%
 **決策** — 推出日期： 2025年1月28日
 
 * 編輯專案目錄的結構描述時，決策功能現在支援物件資料型別。 [閱讀全文](../experience-decisioning/catalogs.md)
-
-**Personalization** — 推出日期： 2025年1月29日
-
-* 新的日期/時間協助程式功能可用於個人化編輯器。 [閱讀全文](../personalization/functions/dates.md)
