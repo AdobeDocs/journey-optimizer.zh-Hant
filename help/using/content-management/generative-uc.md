@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 內容加速器使用案例的AI助理
-description: 透過使用案例瞭解如何使用Content Accelerator的AI Assistant
+title: AI 助理使用案例
+description: 透過使用案例瞭解如何使用AI Assistant
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 2%
+source-wordcount: '529'
+ht-degree: 3%
 
 ---
 
-# 內容加速器使用案例的AI助理 {#generative-uc}
+# AI 助理使用案例 {#generative-uc}
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 1. 開啟&#x200B;**[!UICONTROL AI助理]**&#x200B;區段。
 
-1. 開啟內容加速器的AI Assistant中的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;功能，根據您的行銷活動詳細資料（包括行銷活動名稱和目標對象）量身打造新內容。
+1. 開啟AI助理中的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;功能，根據您的行銷活動詳細資料（包括行銷活動名稱和目標對象）量身打造新內容。
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;方塊中指定您的要求來調整內容，並視需要自訂設定。
 
@@ -95,11 +95,11 @@ ht-degree: 2%
 
 1. 設定並設定電子郵件行銷活動後，按一下&#x200B;**[!UICONTROL 編輯內容]**。
 
-1. 使用Content Accelerator的AI Assistant選擇要修改的資產。
+1. 選擇您要使用AI助理修改的資產。
 
 1. 從右窗格功能表中選擇&#x200B;**[!UICONTROL AI小幫手]**。
 
-1. 開啟&#x200B;**[!UICONTROL 參考樣式]**&#x200B;選項，讓Content Accelerator的AI助理可以使用參考資料產生新內容。
+1. 開啟&#x200B;**[!UICONTROL 參考樣式]**&#x200B;選項，讓AI助理可以使用參考資料產生新內容。
 
 1. 按一下&#x200B;**[!UICONTROL 上傳影像]**&#x200B;以包含將內容新增至變數的影像。
 

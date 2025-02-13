@@ -1,40 +1,40 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在Journey Optimizer Content Accelerator中使用AI助理產生電子郵件
-description: 開始使用Journey Optimizer中的AI Assistant Content Accelerator產生電子郵件內容和資產
+title: 在Journey Optimizer中使用AI助理產生電子郵件
+description: 開始使用Journey Optimizer中的AI助理產生電子郵件內容和資產
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1563'
 ht-degree: 2%
 
 ---
 
-# 使用AI Assistant Content Accelerator產生電子郵件 {#generative-email}
+# 使用 AI 助理產生電子郵件  {#generative-email}
 
 >[!IMPORTANT]
 >
 >開始使用此功能之前，請先閱讀相關的[護欄與限制](gs-generative.md#generative-guardrails)。
 ></br>
 >
->您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI Assistant內容加速器。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須先同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-製作並自訂電子郵件後，請善用Journey Optimizer中AI Assistant Content Accelerator的強大功能（由創作AI提供技術支援），提升您的內容。
+製作並自訂電子郵件後，請善用Journey Optimizer中由創作AI提供支援的AI助理功能，提升您的內容。
 
-使用Journey Optimizer中的AI Assistant Content Accelerator，製作完整的電子郵件、量身打造的文字片段和自訂影像，直接對您的對象說話，促進參與和互動，進而提高行銷活動的效率。
+使用Journey Optimizer中的AI Assistant，製作完整的電子郵件、量身打造的文字片段和自訂影像，直接與您的對象交談，促進參與和互動，進而提高行銷活動的效率。
 
-探索以下標籤，瞭解如何使用Journey Optimizer中的AI Assistant內容加速器。
+探索以下標籤，瞭解如何使用Journey Optimizer中的AI小幫手。
 
 >[!BEGINTABS]
 
 >[!TAB 產生完整電子郵件]
 
-在下列範例中，我們將運用AI Assistant內容加速器來調整現有的電子郵件範本。
+在下列範例中，我們將利用AI助理來調整現有的電子郵件範本。
 
 1. 建立並設定電子郵件行銷活動後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。
 
@@ -44,7 +44,7 @@ ht-degree: 2%
 
    ![](assets/full-email-1.png){zoomable="yes"}
 
-1. 啟用AI Assistant內容加速器的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;選項，以根據選取的內容個人化新內容。
+1. 啟用AI助理的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;選項，以根據選取的內容個人化新內容。
 
 1. 說明您要在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中產生的內容，以微調內容。
 
@@ -101,7 +101,7 @@ ht-degree: 2%
 
 >[!TAB 只產生文字]
 
-在下列範例中，我們將利用AI Assistant內容加速器來增強電子郵件的內容。
+在以下範例中，我們將利用AI助理來增強電子郵件的內容。
 
 1. 建立並設定電子郵件行銷活動後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。
 
@@ -111,7 +111,7 @@ ht-degree: 2%
 
    ![](assets/text-genai-1.png){zoomable="yes"}
 
-1. 啟用AI Assistant內容加速器的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;選項，以根據選取的內容個人化新內容。
+1. 啟用AI助理的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;選項，以根據選取的內容個人化新內容。
 
 1. 說明您要在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中產生的內容，以微調內容。
 
@@ -163,19 +163,19 @@ ht-degree: 2%
 
 >[!TAB 只產生影像]
 
-在以下範例中，瞭解如何運用AI Assistant內容加速器來最佳化和改善您的資產，確保更方便使用者的體驗。
+在以下範例中，瞭解如何運用AI Assistant來最佳化和改善您的資產，確保更方便使用者的體驗。
 
 1. 建立並設定電子郵件行銷活動後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。
 
    如需如何設定電子郵件促銷活動的詳細資訊，請參閱[此頁面](../email/create-email.md)。
 
-1. 選取您要使用AI Assistant Content Accelerator變更的資產。
+1. 選取您要使用AI助理變更的資產。
 
 1. 從右側功能表選取&#x200B;**[!UICONTROL AI小幫手]**。
 
    ![](assets/image-genai-1.png){zoomable="yes"}
 
-1. 啟用AI Assistant內容加速器的&#x200B;**[!UICONTROL 參考樣式]**&#x200B;選項，以根據參考內容個人化新內容。 您也可以上傳影像以將內容新增至您的變數。
+1. 啟用AI助理的&#x200B;**[!UICONTROL 參考樣式]**&#x200B;選項，以根據參考內容個人化新內容。 您也可以上傳影像以將內容新增至您的變數。
 
 1. 說明您要在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中產生的內容，以微調內容。
 
@@ -219,6 +219,6 @@ ht-degree: 2%
 
 ## 操作說明影片 {#video}
 
-瞭解如何使用Journey Optimizer中的AI Assistant Content Accelerator產生完整的電子郵件、文字或影像。
+瞭解如何使用Journey Optimizer中的AI助理產生完整電子郵件、文字或影像。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433552)

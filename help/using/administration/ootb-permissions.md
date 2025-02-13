@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 許可權，製作，訊息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '903'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 | 功能 | 權限 |
 |-|-|
-| AI 助理 | **[!DNL Generate content]**：存取Journey Optimizer中的AI助理內容加速器。 |
+| AI 助理 | **[!DNL Generate content]**：存取Journey Optimizer中的AI助理。 |
 | 行銷活動 | **[!DNL Approve & publish Campaigns]**：套用原則時核准和發佈行銷活動的權利。 </br>**[!DNL Manage campaigns]**：讀取、建立、編輯和刪除行銷活動。</br>**[!DNL Publish campaigns]**：發佈行銷活動的權利。</br>**[!DNL View campaigns]**：行銷活動的唯讀存取權。</br>**[!DNL View campaigns report]**：讀取和編輯行銷活動報告。 |
 | 頻道設定 | **[!DNL Export suppression list]**：存取將隱藏清單匯出為CSV檔案的許可權。</br>**[!DNL Manage alerts]**：啟用/停用行銷活動、訊息和權益的警示。</br> **[!DNL Manage file routing]**：讀取、建立、編輯和刪除檔案路由設定。</br> **[!DNL Manage IP pools]**：讀取、建立、編輯和刪除ip集區。 </br>**[!DNL Manage landing page settings]**：讀取、建立、編輯和刪除登入頁面設定。</br> **[!DNL Manage messages general settings]**：讀取、建立、編輯和刪除訊息一般設定。</br>**[!DNL Manage messages presets]**：讀取、建立、編輯和刪除內容品牌。</br>**[!DNL Manage PTR records]**：讀取和編輯PTR記錄。 </br>**[!DNL Manage SMS settings]**：讀取、建立、編輯及刪除SMS設定。</br>**[!DNL Manage SMS subdomains]**：讀取、建立、編輯及刪除SMS子網域。</br> **[!DNL Manage Seedlist]**：讀取、建立、編輯和刪除Seedlist。</br> **[!DNL Manage subdomains delegation]**：讀取、建立、編輯和刪除子網域委派。 </br>**[!DNL Manage suppression rules]**：存取讀取、建立、編輯和刪除隱藏規則。</br> **[!DNL View channel surfaces]**：對頻道介面的唯讀存取權。</br>**[!DNL View file routing]**：檔案路由設定的唯讀存取權。</br>**[!DNL View messages general settings]**：訊息一般設定的唯讀存取權。</br> **[!DNL View messages presets]**：訊息預設集的唯讀存取權。</br> **[!DNL View PTR records]**：對PTR記錄的唯讀存取權。</br>**[!DNL View suppression list]**：讀取和匯出本機隱藏清單。 |
 | 儀表板 | **[!DNL View license usage dashboards]**： [授權使用量儀表板](../audience/license-usage.md)的唯讀存取權。 </br>**[!DNL Manage custom dashboards]**：可讓您建立新儀表板或編輯現有儀表板。</br>**[!DNL Manage standard dashboards]**：可讓您建立自訂Widget，並透過Widget資料庫編輯Widget結構描述。</br>**[!DNL View custom dashboards]**：使用者定義儀表板的唯讀存取權。</br>**[!DNL View standard dashboards]**：「設定檔」、「目的地」和「對象」儀表板的唯讀存取權。 |

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2158'
 ht-degree: 97%
 
 ---
@@ -307,7 +307,7 @@ ht-degree: 97%
       + [定義登陸頁面預設集](using/landing-pages/lp-presets.md)
 + 內容管理 {#content-management}
    + 使用 AI 助理工作{#ai-assistant}
-      + [開始使用 AI 助理內容加速器](using/content-management/gs-generative.md)
+      + [開始使用 AI 助理](using/content-management/gs-generative.md)
       + [使用 AI 來產生電子郵件](using/content-management/generative-email.md)
       + [使用 AI 來產生推播](using/content-management/generative-push.md)
       + [使用 AI 來產生簡訊](using/content-management/generative-sms.md)
