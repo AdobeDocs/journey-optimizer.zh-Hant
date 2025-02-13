@@ -1,17 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 設定電子郵件設定
-description: 瞭解如何在頻道設定層級設定List-Unsubscribe
+title: 設定清單取消訂閱
+description: 瞭解如何在設定頻道設定時，將一鍵式取消訂閱URL納入電子郵件標題中
 feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
-source-git-commit: 8e299b90f601cd931940a64e691e186894d4012e
+exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
+source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 38%
+source-wordcount: '779'
+ht-degree: 37%
 
 ---
 
