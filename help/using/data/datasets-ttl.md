@@ -1,89 +1,119 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 關於存留時間(TTL)和串流細分變更
-description: Adobe Journey Optimizer中的存留時間和串流細分變更
+title: 關於資料集存留時間(TTL)護欄
+description: ' [!DNL Adobe Journey Optimizer]中的資料集存留時間護欄'
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform、資料湖、建立、湖、資料集、輪廓
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 13%
+source-wordcount: '696'
+ht-degree: 14%
 
 ---
 
-# 存留時間和串流細分變更 {#ttl-guardrail}
+# 資料集存留時間(TTL)護欄 {#ttl-guardrail}
 
-## 串流區段更新 {#segmentation-update}
+自2025年2月起，存留時間(TTL)護欄將轉出至&#x200B;**新沙箱和新組織**&#x200B;中的Journey Optimizer系統產生的資料集，如下所示：
 
-自 2024 年 11 月 1 日起，串流細分將不再支援使用 Journey Optimizer 追蹤和回饋意見資料集中的傳送和未結事件功能。 會將此變更套用至所有客戶沙箱和組織中。 有關過去不鼓勵此作法的資訊，請參閱[這裡](../audience/about-audiences.md#streaming-segmentation-events-guardrails)。
-
-**常見問題**
-
-+++ 這些變更是否會影響點按或其他追蹤事件的使用？
-
-此變更只會影響傳送和開啟事件的使用；點按次數和其他追蹤事件仍可用於串流區段。
-
-+++
-
-+++ 此變更是否會影響批次細分？
-
-此變更只會影響串流分段；傳送和開啟事件仍可用於批次區段。 如果用於串流區段，則會以批次方式評估。
-
-+++
-
-+++ 此變更是否會影響追蹤資料的收集？
-
-此變更不會影響追蹤資料的收集。 將繼續收集傳送和開啟的事件。
-
-+++
-
-+++ 此變更是否會影響反應事件？
-
-歷程中的反應事件不受此變更的影響。
-
-+++
-
-+++ 此變更只會套用至生產沙箱，還是也會套用至開發沙箱？
-
-此變更將套用至所有沙箱型別。
-
-+++
-
-+++ 傳送事件產生的意見反應事件是否也會受到此變更的影響？
-
-此變更也適用於排除事件和由傳送導致的退回/延遲事件。
-
-+++
-
-## 分階段存留時間(TTL)更新 {#ttl}
-
-從2025年2月開始，存留時間(TTL)護欄將推出至&#x200B;**新沙箱和新組織**&#x200B;中的Journey Optimizer系統產生的資料集，如下所示：
-
-* 輪廓存放區中的資料為 90 天
-* 資料湖中的資料為 13 個月
+* 90天用於設定檔存放區的資料，
+* Data Lake中的資料為13個月。
 
 此變更將在後續階段中轉出到&#x200B;**現有的客戶沙箱**。
 
-**常見問題**
+## 受影響的資料集 {#datasets}
 
-+++ 此變更只會套用至生產沙箱，還是也會套用至開發沙箱？
+下表列出所有受影響的資料集及其在資料湖和個人資料存放區中的個別存留時間。
+
+| 資料集 | 資料湖TTL | 設定檔存放區TTL |
+|------|-----|-----|
+| AJO訊息回饋事件資料集 | 13 個月 | 90 天 |
+| AJO電子郵件追蹤體驗事件資料集 | 13 個月 | 90 天 |
+| AJO推播追蹤體驗事件資料集 | 13 個月 | 90 天 |
+| AJO實體資料集 | 13 個月 | 90 天 |
+| AJO表面資料集 | 13 個月 | 不適用 |
+| AJO傳入活動事件資料集 | 13 個月 | 90 天 |
+| AJO分類資料集 | 13 個月 | 不適用 |
+| AJO電子郵件密件副本意見事件資料集 | 13 個月 | 不適用 |
+| acpEntity事件資料集 | 13 個月 | 不適用 |
+| 歷程 | 13 個月 | 不適用 |
+| 歷程步驟事件 | 13 個月 | 不適用 |
+| 決定物件存放庫 — 個人化優惠 | 13 個月 | 不適用 |
+| 決定物件存放庫 — 遞補優惠 | 13 個月 | 不適用 |
+| 決定物件存放庫 — 位置 | 13 個月 | 不適用 |
+| 決定物件存放庫 — 活動 | 13 個月 | 不適用 |
+| ODE DecisionEvents - prod decisioning | 13 個月 | 不適用 |
+| AJO同意服務資料集 | 不適用 | 90 天 |
+| AJO互動式訊息設定檔資料集 | 不適用 | 90 天 |
+| AJO設定檔計數器擴充功能 | 不適用 | 90 天 |
+| AJO推播設定檔資料集 | 不適用 | 90 天 |
+| AJO可參與的設定檔資料集 | 不適用 | 90 天 |
+
+
+
+## 常見問題 {#faq}
+
+以下是有關資料集TLL常見問題的解答清單。
+
++++此變更只會套用至生產沙箱，還是也會套用至開發沙箱？
 
 此變更將套用至所有沙箱型別。
 
 +++
 
-+++ 對於設定檔存放區中的90天TTL，設定檔本身是否會受到影響？
++++若為設定檔存放區中的90天TTL，設定檔本身是否會受到影響？
 
 90天後，會捨棄設定檔中系統產生的資料集資料，而非設定檔本身。
 
 +++
 
-+++ 如果系統產生的資料集資料被推送到Customer Journey Analytics (CJA)，CJA中的資料也會受到TTL影響嗎？
++++如果系統產生的資料集資料被推送到[!DNL Customer Journey Analytics] (CJA)，CJA中的資料也會受到TTL影響嗎？
 
-CJA中的資料會與Experience Platform保持同步。 因此，因系統產生的資料集資料的TTL而移除資料，也會影響CJA中的資料。
+[!DNL Customer Journey Analytics]中的資料會與Experience Platform保持同步。 因此，因系統產生的資料集資料的TTL而移除資料，也會影響[!DNL Customer Journey Analytics]中的資料。
+
++++
+
++++ 客戶是否可以在設定檔存放區中增加[!DNL Journey Optimizer]系統資料集資料的TTL？
+
+目前不支援TTL副檔名。 不過，我們已計畫最佳化TTL流程，以便在2025年下半年開始的某個時候允許這些擴充請求。
+
+>[!NOTE]
+>
+>儲存在設定檔中的資料受限於「總資料量」權益。 因此，設定檔上因TTL延伸所增加的任何資料儲存都將計入「總資料量」權益。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target="_blank}
+
++++
+
++++客戶能否為Data Lake中的[!DNL Journey Optimizer]系統資料集增加TTL？
+
+目前不支援TTL副檔名。 擁有Real-Time CDP權益的客戶可以透過目的地匯出資料，以保留更長的資料時間。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank}
+
++++
+
++++下列功能是否會受到TTL的影響？
+
+* **查詢存放區**：否
+* **歷程上限**：否
+* **優惠方案上限**：否
+* **傳送時間最佳化(STO)**：否
+* **訊息頻率上限** （亦即商務規則）：否
+* **報告**：否
+
+  >[!NOTE]
+  >
+  >已在[!DNL Customer Journey Analytics] (CJA)連線上實作TTL，這會將受影響資料集資料的有效回顧期間縮短為13個月。
+
+* **Experience Platform資料來源**：是 — 體驗事件擷取須遵守90天TTL。
+* **計算屬性**：是 — 初始回填計算將限製為過去90天的資料；計算屬性將根據後續更新的增量事件進行更新。 後續更新一旦達到回顧期間（最多6個月），TTL基本上就不會再影響運算屬性。 更多詳情。
+* **分段和重新目標定位**：是 — 分段取決於設定檔存放區中的資料；因此，受影響資料集資料的回顧時間限製為90天。
+* **追蹤**：是 — 將受影響資料集資料的有效回顧期間縮短至90天。 來自受影響資料集的資料會在Data Lake中存留13個月。
+
++++
+
++++哪一個時間戳記會用於TTL強制執行（例如，用於回填使用案例）？
+
+系統會使用事件時間戳記（即並非擷取日期）。
 
 +++

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 22%
+source-wordcount: '981'
+ht-degree: 20%
 
 ---
 
@@ -78,9 +78,14 @@ ht-degree: 22%
 
 串流細分是持續進行的資料選擇流程，其會根據使用者活動來更新客群。 在建置區段定義並儲存產生的客群後，區段定義會套用至傳入 Journey Optimizer 的資料。 這表示當個人設定檔資料變更時，將會在對象中新增或移除該個人，以確保您的目標對象永遠相關。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->請務必使用正確事件作為串流細分條件。 [了解更多](#streaming-segmentation-events-guardrails)
+>自2024年11月1日起，串流區段不再支援使用來自Journey Optimizer追蹤和意見回應資料集的&#x200B;**傳送**&#x200B;和&#x200B;**開啟**&#x200B;事件。
+>* 此變更適用於所有客戶沙箱和組織。
+>* 只有傳送和開啟的事件會受到影響：點按次數和其他追蹤事件仍可用於串流細分。
+>* 這項變更僅適用於串流區段。 傳送和開啟事件仍可用於批次區段，但如果包含在串流區段中，則會以批次方式評估它們。 此外，此變更也會影響排除事件以及傳送事件產生的退回/延遲事件。
+>* 追蹤資料收集不受影響。 系統仍會照常收集傳送和開啟的事件。
+>* 歷程中的反應事件不受此變更的影響。
 
 +++
 
