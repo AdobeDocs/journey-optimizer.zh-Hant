@@ -21,7 +21,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_provider"
 >title="新增提供者"
->abstract="根據需要新增翻譯提供者和語系設定。您可以藉此管理專案目前可用的提供者和語系設定，並根據目前的要求和專案範圍彈性調整資源和目標客群。"
+>abstract="根據需要新增翻譯提供者和語系設定。您可以藉此管理專案目前可用的提供者和語系設定，並根據目前的需求和專案範圍彈性調整資源和目標客群。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_provider"
@@ -113,7 +113,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_fallback"
 >title="遞補偏好"
->abstract="選擇備援偏好設定對於改善使用者體驗至關重要。如果未選取備援且客戶輪廓不符合必要的要求，將不會傳送內容。透過選取適當的備援，即使客戶輪廓與初始條件不相符，您也可以確保內容傳送一致。"
+>abstract="選擇備援偏好設定對於改善使用者體驗至關重要。如果未選取備援且客戶輪廓不符合必要的需求，將不會傳送內容。透過選取適當的備援，即使客戶輪廓與初始條件不相符，您也可以確保內容傳送一致。"
 
 在本節中，您可以設定管理多語言內容的不同地區設定。 您也可以選擇要用來查閱與設定檔語言相關資訊的屬性。
 
@@ -254,7 +254,7 @@ ht-degree: 20%
 
    * **[!UICONTROL 正在進行翻譯]**：您的服務供應商正在處理翻譯。
 
-     如果您在設定&#x200B;**語言設定**&#x200B;時選取&#x200B;**內包**，則可直接在翻譯專案中翻譯您的內容。 [了解更多](#manage-ht-project)
+     如果您在設定&#x200B;**語言設定**&#x200B;時選取&#x200B;**Insourcing**，則可直接在翻譯專案中翻譯內容。 [了解更多](#manage-ht-project)
 
    * **[!UICONTROL 已準備好檢閱]**：檢閱程式已準備就緒，可讓您存取翻譯並拒絕或核准它。
 
@@ -295,9 +295,9 @@ ht-degree: 20%
 >title="委內處理的翻譯專案"
 >abstract="委內處理的翻譯專案讓您直接在翻譯專案中管理和執行翻譯，簡化流程並加強控管翻譯品質和一致性。"
 
-如果您在設定語言設定時選取「內包」，則可直接在翻譯專案中翻譯內容。
+如果您在設定語言設定時選取Insourcing，則可以直接在翻譯專案中翻譯內容。
 
-1. 從您的&#x200B;**[!UICONTROL 翻譯專案]**，存取&#x200B;**[!UICONTROL 更多動作]**&#x200B;功能表，並選取&#x200B;**[!UICONTROL 內包]**。
+1. 從您的&#x200B;**[!UICONTROL 翻譯專案]**，存取&#x200B;**[!UICONTROL 更多動作]**&#x200B;功能表並選取&#x200B;**[!UICONTROL Insourcing]**。
 
    ![](assets/inhouse-translation-1.png)
 
@@ -316,7 +316,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_review_project"
 >title="檢閱您的翻譯專案"
->abstract="您選擇的翻譯提供者完成翻譯後，您可以直接在 Journey Optimizer 中檢閱結果。您可以藉此評估翻譯的準確性和品質，在最終確定之前須確保其符合您的期望和專案要求。"
+>abstract="您選擇的翻譯提供者完成翻譯後，您可以直接在 Journey Optimizer 中檢閱結果。您可以藉此評估翻譯的準確性和品質，在最終確定之前須確保其符合您的期望和專案需求。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_preview_project"
@@ -325,7 +325,7 @@ ht-degree: 20%
 
 如果您在您的&#x200B;**[!UICONTROL 翻譯專案]**&#x200B;中選取&#x200B;**[!UICONTROL 啟用檢閱工作流程]**，則您可在所選翻譯提供者完成之後，直接在Journey Optimizer中檢閱翻譯。
 
-請注意，如果停用此選項，當您的提供者完成翻譯後，翻譯工作狀態會自動設定為&#x200B;**[!UICONTROL 已檢閱]**，允許您按一下&#x200B;**[!UICONTROL Publish]**&#x200B;來快速繼續。
+請注意，如果停用此選項，當您的提供者完成翻譯後，翻譯工作狀態會自動設定為&#x200B;**[!UICONTROL 已檢閱]**，允許您按一下&#x200B;**[!UICONTROL 發佈]**&#x200B;來快速繼續。
 
 1. 一旦您的翻譯從服務供應商處完成，您就可以從&#x200B;**[!UICONTROL 翻譯專案]**&#x200B;或直接從&#x200B;**[!UICONTROL 行銷活動]**&#x200B;存取翻譯以供檢閱。
 
@@ -361,7 +361,7 @@ ht-degree: 20%
 
 1. 一旦您的&#x200B;**[!UICONTROL 翻譯專案]**&#x200B;狀態設定為「已檢閱」，您就可以將其傳送至您的行銷活動。
 
-   從&#x200B;**[!UICONTROL 其他動作]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL Publish]**。
+   從&#x200B;**[!UICONTROL 其他動作]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 發佈]**。
 
    ![](assets/translation_review_7.png)
 

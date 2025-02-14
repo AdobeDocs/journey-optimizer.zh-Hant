@@ -102,13 +102,13 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="確認要編輯的 URL"
->abstract="確認特定網頁的 URL，以用於編輯套用到上方定義之網頁設定的內容。必須使用此 Adobe Experience Platform Web SDK 實施此網頁。"
+>abstract="確認特定網頁的 URL，以用於編輯套用到上方定義之網頁設定的內容。必須使用此 Adobe Experience Platform Web SDK 實作此網頁。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="了解更多"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="輸入要編輯的 URL"
->abstract="輸入特定網頁的 URL，以用於編輯將套用到符合規則的所有網頁的內容。必須使用 Adobe Experience Platform Web SDK 實施此網頁。"
+>abstract="輸入特定網頁的 URL，以用於編輯將套用到符合規則的所有網頁的內容。必須使用 Adobe Experience Platform Web SDK 實作此網頁。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="了解更多"
 
 在您[將網頁動作](#create-web-experience)新增到歷程或行銷活動後，您可以使用以下其中一種方式編輯您的網站內容：
@@ -169,13 +169,13 @@ ht-degree: 18%
 >
 >如果有多個歷程或行銷活動更新網站的相同元素，則會以最高優先順序的歷程/行銷活動優先。
 
-### Publish網站歷程 {#activate-web-journey}
+### 發佈網站歷程 {#activate-web-journey}
 
 若要讓您的網頁體驗透過歷程上線，請遵循下列步驟。
 
 1. 確認您的歷程有效且沒有錯誤。 [了解更多](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 
-1. 在歷程中，選取位於右上角下拉式功能表中的&#x200B;**[!UICONTROL Publish]**&#x200B;選項。
+1. 在歷程中，選取位於右上角下拉式功能表中的&#x200B;**[!UICONTROL 發佈]**&#x200B;選項。
 
    ![](assets/web-journey-publish.png)
 
@@ -187,7 +187,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->在您按一下&#x200B;**[!UICONTROL Publish]**&#x200B;後，最多可能需要15分鐘的時間才能讓變更在您的網站上上線。
+>按一下&#x200B;**[!UICONTROL 發佈]**&#x200B;之後，最多可能需要15分鐘的時間才能讓變更在您的網站上上線。
 
 ### 啟動網站行銷活動 {#activate-web-campaign}
 
