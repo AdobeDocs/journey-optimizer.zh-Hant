@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 39e52d7e552859137c9e179f48319ed508caabb5
+source-git-commit: f371f2181b5a4b302e3cb1f47c85d470a58b9f90
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 25%
+source-wordcount: '637'
+ht-degree: 26%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 25%
 
   此變更將在後續階段中推出至現有客戶沙箱。
 
-* **教戰手冊** — 您現在可以在Journey Optimizer中建立並發佈自己的使用案例教戰手冊。
+<!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
 * **直接郵件** - DLZ （DAta登陸區域）現在支援作為直接郵件設定中檔案路由的伺服器型別。
 
