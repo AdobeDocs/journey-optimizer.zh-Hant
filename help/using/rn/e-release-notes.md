@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1ac5f7362cd0184b7207b0f175d83c5c60921e7e
+source-git-commit: 4e405fe395c8432ed22d64887631b222df83a3e9
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 24%
+source-wordcount: '711'
+ht-degree: 21%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 24%
 <table>
 <thead>
 <tr>
-<th><strong>業務規則</strong><br/></th>
+<th><strong>建立和管理商業規則</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -62,24 +62,41 @@ ht-degree: 24%
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong>客戶歷程分析範本</strong><br/></th>
+<th><strong>使用AI助理產生登陸頁面</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現可選擇運用客戶歷程分析範本來增強 Journey Optimizer 報告。這項新功能可讓您透過根據分析需求量身打造的預先設計範本，來簡化報告流程。
-</p>
-<img src="assets/do-not-localize/cja-templates.gif">
-<p>如需詳細資訊，請參閱<a href="../reports/report-cja-manage.md#cja-template">詳細文件</a>。</p>
-<p>可用日期：自2025年1月15日起</p>
+<p>AI Assistant現在可用於登陸頁面傳送，讓您產生文字、影像或完整頁面配置。</p>
+<!--img src="assets/do-not-localize/ai-lp.gif">
+<p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
+</td>
 </tr>
 </tbody>
 </table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>品牌指南（測試版）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以設定自己的品牌指引，以定義品牌的視覺和口頭識別。 請注意，品牌功能會以私人測試版發佈，未來發佈的版本將逐步提供給所有客戶。</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 <table>
 <thead>
@@ -100,11 +117,33 @@ ht-degree: 24%
 </table>
 
 
+
+<table>
+<thead>
+<tr>
+<th><strong>客戶歷程分析範本</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現可選擇運用客戶歷程分析範本來增強 Journey Optimizer 報告。這項新功能可讓您透過根據分析需求量身打造的預先設計範本，來簡化報告流程。
+</p>
+<img src="assets/do-not-localize/cja-templates.gif">
+<p>如需詳細資訊，請參閱<a href="../reports/report-cja-manage.md#cja-template">詳細文件</a>。</p>
+<p>可用日期：自2025年1月15日起</p>
+</tr>
+</tbody>
+</table>
+
+
+
+
 ### 改進項目 {#25-02-improvements}
 
 以下改良功能隨2月更新提供。
 
-* **歷程** — 您現在可以從管理使用者介面傳送API呼叫來測試您的歷程自訂動作。 這項新功能可協助您進行自訂動作疑難排解。
+* **歷程** — 您現在可以從管理區段傳送API呼叫來測試自訂動作。 這項新功能可協助您在歷程中使用自訂動作之前，和之後進行疑難排解。
 
 * **資料集存留時間(TTL)** — 從本月開始，存留時間(TTL)護欄將推出至新沙箱和新組織中的Journey Optimizer系統產生的資料集，如下所示：
 
