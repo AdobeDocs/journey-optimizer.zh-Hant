@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f371f2181b5a4b302e3cb1f47c85d470a58b9f90
+source-git-commit: c1712985598b927d26da0b0d0562cd3fe60aa962
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 26%
+source-wordcount: '632'
+ht-degree: 24%
 
 ---
 
@@ -113,6 +113,8 @@ ht-degree: 26%
 
   此變更將在後續階段中推出至現有客戶沙箱。
 
+  在[此專屬常見問答集](../data/datasets-ttl.md#frequently-asked-questions)中進一步瞭解此更新。
+
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
 * **直接郵件** - DLZ （DAta登陸區域）現在支援作為直接郵件設定中檔案路由的伺服器型別。
@@ -129,10 +131,6 @@ ht-degree: 26%
 * 如果您在Adobe外部管理同意，您現在可以設定自訂取消訂閱電子郵件地址和自訂一鍵取消訂閱URL，作為電子郵件通道組態設定的一部分。 [瞭解詳情](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
-
-  >[!AVAILABILITY]
-  >
-  >此功能以有限可用性 (LA) 形式向一小部分客戶發布。
 
 **決策** — 推出日期： 2025年1月28日
 
