@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 382327f7816340696d8645f04e5079eb56fe07a3
+source-git-commit: c226e8458aecdd32ed14c3529d19d845cf9d946b
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '714'
 ht-degree: 21%
 
 ---
@@ -49,22 +49,6 @@ ht-degree: 21%
 <table>
 <thead>
 <tr>
-<th><strong>SMS的多區域支援</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以透過覆寫傳送、回饋、傳入和回呼URL來管理來自多區域端點的SMS訊息傳送。 為了支援此功能，已在API認證設定中新增欄位覆寫URL。 此變更僅適用於Sinch提供者。</p>
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>使用AI助理產生登陸頁面</strong><br/></th>
 </tr>
 </thead>
@@ -72,8 +56,8 @@ ht-degree: 21%
 <tr>
 <td>
 <p>您現在可以藉助AI助理，為登陸頁面製作引人入勝的內容，包括全頁設計、個人化文字和自訂視覺效果。</p>
-<!--img src="assets/do-not-localize/ai-lp.gif">
-<p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
+<img src="assets/do-not-localize/ai-lp.gif">
+<!--p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -90,7 +74,7 @@ ht-degree: 21%
 <tr>
 <td>
 <p>您現在可以設定自己的品牌指引，以定義品牌的視覺和口頭識別。 請注意，品牌功能會以私人測試版發佈，未來發佈的版本將逐步提供給所有客戶。</p>
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+<!--p>For more information, refer to the <a href="../content-management/brands.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -158,6 +142,8 @@ ht-degree: 21%
 
 * **直接郵件** — 直接郵件通道設定中的檔案路由現在支援新的伺服器型別，資料登陸區域。
 
+**簡訊** — 您現在可以覆寫傳遞、回饋、傳入和回撥URL，以管理來自多區域端點的簡訊傳遞。 為了支援此功能，已在API認證設定中新增欄位覆寫URL。 此變更僅適用於Sinch提供者。 [閱讀全文](../sms/sms-configuration-sinch.md)
+
 **個人化**
 
 <!--
@@ -174,3 +160,4 @@ ht-degree: 21%
 **決策** — 推出日期： 2025年1月28日
 
 * 編輯專案目錄的結構描述時，決策功能現在支援物件資料型別。 [閱讀全文](../experience-decisioning/catalogs.md)
+
