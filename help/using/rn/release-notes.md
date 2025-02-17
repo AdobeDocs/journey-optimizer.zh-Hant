@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: befad89c8f50c92751e5e0995e73df8427a193b3
+source-git-commit: 9b7e7a908f7f38570d35d8727a42cbcc216a1387
 workflow-type: tm+mt
-source-wordcount: '2807'
-ht-degree: 78%
+source-wordcount: '2795'
+ht-degree: 77%
 
 ---
 
@@ -127,48 +127,41 @@ ht-degree: 78%
 
 以下改良功能隨2月更新提供。
 
-* **歷程** — 您現在可以從管理區段傳送API呼叫來測試自訂動作。 這項新功能可協助您在歷程中使用自訂動作之前，和之後進行疑難排解。
+**歷程** — 您現在可以從管理區段傳送API呼叫來測試自訂動作。 這項新功能可協助您在歷程中使用自訂動作之前或之後，進行疑難排解。
 
-* **資料集存留時間(TTL)** — 從本月開始，存留時間(TTL)護欄將推出至新沙箱和新組織中的Journey Optimizer系統產生的資料集，如下所示：
+**資料集存留時間(TTL)** — 從本月開始，存留時間(TTL)護欄將推出至新沙箱和新組織中的Journey Optimizer系統產生的資料集，如下所示：
 
-   * 輪廓存放區中的資料為 90 天
-   * 資料湖中的資料為 13 個月
-
-  此變更將在後續階段中推出至現有客戶沙箱。
-
-  在[此專屬常見問答集](../data/datasets-ttl.md#frequently-asked-questions)中進一步瞭解此更新。
+設定檔存放區中的資料    * 90天
+    * 13個月資料湖中的資料
+    
+    此變更將在後續階段中推出到現有的客戶沙箱。
+    
+    在[此專屬常見問答集](../data/datasets-ttl.md#frequently-asked-questions)中進一步瞭解此更新。
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
-* **直接郵件** — 直接郵件通道設定中的檔案路由現在支援新的伺服器型別，資料登陸區域。
+**直接郵件** — 直接郵件通道設定中的檔案路由現在支援新的伺服器型別，資料登陸區域。
 
 **簡訊** — 您現在可以覆寫傳遞、回饋、傳入和回撥URL，以管理來自多區域端點的簡訊傳遞。 為了支援此功能，已在API認證設定中新增欄位覆寫URL。 此變更僅適用於Sinch提供者。 [閱讀全文](../sms/sms-configuration-sinch.md)
 
-**個人化**
+**Personalization** （推出日期： 2025年1月29日） — 新的日期/時間協助程式功能可用於個人化編輯器。 [閱讀全文](../personalization/functions/dates.md)
+
 
 <!--
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
-* 推出日期： 2025年1月29日 — 新的日期/時間協助程式功能可用於個人化編輯器。 [閱讀全文](../personalization/functions/dates.md)
 
-
-**電子郵件組態** — 推出日期： 2025年2月12日
+**電子郵件組態** （推出日期：2025年2月12日）
 
 * 如果您在Adobe外部管理同意，您現在可以設定自訂取消訂閱電子郵件地址和自訂一鍵取消訂閱URL，作為電子郵件通道組態設定的一部分。 [瞭解詳情](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
-  >[!AVAILABILITY]
-  >
-  >此功能以有限可用性 (LA) 形式向一小部分客戶發布。
-
 * 如果您在Adobe外部管理同意，您現在可以設定自訂取消訂閱電子郵件地址和自訂一鍵取消訂閱URL，作為電子郵件通道組態設定的一部分。 [瞭解詳情](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
-**決策** — 推出日期： 2025年1月28日
-
-* 編輯專案目錄的結構描述時，決策功能現在支援物件資料型別。 [閱讀全文](../experience-decisioning/catalogs.md)
+**決策** （推出日期： 2025年1月28日） — 決策現在在編輯專案目錄的結構描述時支援物件資料型別。 [閱讀全文](../experience-decisioning/catalogs.md)
 
 
 ## 2024 年 10 月發行版本 {#24-10-rn}
