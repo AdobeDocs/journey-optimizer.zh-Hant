@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 501a0ad799b91c41785da44d37cc8bd5d9976740
+source-git-commit: 92ea7f4093184b0ca3a2ddb9adde26fc7eebb3a3
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2784'
 ht-degree: 79%
 
 ---
@@ -22,7 +22,9 @@ ht-degree: 79%
 
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
-## 2025年2月發行 {#25-02-rn}
+## 2025年2月早期發行說明 {#25-02-rn}
+
+**至發行日期之前，下方早期發行說明如有變更，恕不另行通知**。 連結、畫面和更新文件會於發行日期在發行說明發佈。
 
 **發行日期**： 2025年2月18至19日
 
