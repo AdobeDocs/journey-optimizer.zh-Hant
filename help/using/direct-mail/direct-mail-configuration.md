@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b134fe166402e4ae49cd96fc09a19e14beb13523
+source-git-commit: 63786170a4aaa5659751a9bb5febd98419e2e64a
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1532'
 ht-degree: 19%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer]目前支援Amazon S3、SFTP和Azure。
+>目前[!DNL Journey Optimizer]支援Amazon S3、SFTP、Azure和資料登陸區域。
 
 為了傳遞直接郵件訊息，[!DNL Journey Optimizer]會產生包含目標對象資料的檔案，並將其匯出至伺服器。
 

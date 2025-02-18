@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f25fb5ef7eb8febbe9f94f67aa16b0d8e725bbf9
+source-git-commit: 63786170a4aaa5659751a9bb5febd98419e2e64a
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '766'
 ht-degree: 22%
 
 ---
@@ -142,7 +142,7 @@ ht-degree: 22%
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
-* **直接郵件** — 直接郵件通道設定中的檔案路由現在支援新的伺服器型別，資料登陸區域。
+* **直接郵件** — 直接郵件通道設定中的檔案路由現在支援新的伺服器型別，資料登陸區域。 [閱讀全文](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
 
 * **簡訊** — 您現在可以覆寫傳遞、回饋、傳入和回撥URL，以管理來自多區域端點的簡訊傳遞。 為了支援此功能，已在API認證設定中新增欄位覆寫URL。 此變更僅適用於Sinch提供者。 [閱讀全文](../sms/sms-configuration-sinch.md)
 
