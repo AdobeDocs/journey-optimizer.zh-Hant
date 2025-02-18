@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP、群組、子網域、傳遞能力
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 88dff9f42636a81b54b7050da3542f839c14164e
+source-git-commit: 0c128feac32baff14f1b71aed688e3bde4c67d35
 workflow-type: tm+mt
-source-wordcount: '2589'
+source-wordcount: '2634'
 ht-degree: 11%
 
 ---
@@ -74,11 +74,15 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       ![](assets/ip-warmup-plan-exclude-domains.png)
 
-      例如，執行IP熱身幾天後，您意識到網域(例如Adobe)的ISP信譽不佳，您想要在不停止IP熱身計畫的情況下解決它。 在這種情況下，您可以排除Adobe網域群組。
+      例如，執行IP熱身幾天後，您意識到網域(例如Adobe)的ISP信譽不好，您想要在不停止IP熱身計畫的情況下解決它。 在這種情況下，您可以排除Adobe網域群組。
 
       >[!NOTE]
       >
       >您只能排除已新增至[IP熱身計畫範本](ip-warmup-plan.md#prepare-file)的自訂網域群組。 如果不是這種情況，請以要排除的自訂網域群組更新範本，然後[重新上傳計畫](#re-upload-plan)。
+
+      >[!CAUTION]
+      >
+      >一旦IP熱身計畫執行後，如果您更新用於IP熱身行銷活動的電子郵件通道[設定](channel-surfaces.md)中的[執行位址](../email/email-settings.md#execution-address)，網域排除可能會失敗。 在IP熱身計畫啟動後，請勿編輯電子郵件通道設定。
 
    1. 在用於排除設定檔&#x200B;]**區段的**[!UICONTROL &#x200B;行銷活動中，選取要從目前階段排除對象的行銷活動。
 

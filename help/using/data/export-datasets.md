@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: platform、資料湖、建立、湖、資料集、輪廓
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '870'
 ht-degree: 6%
 
 ---
@@ -27,43 +27,15 @@ Journey Optimizer可讓您與雲端儲存位置建立即時連線，以匯出資
 
 ![](assets/dataset-export-setup.png)
 
-
 Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
 
-* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html)
-* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html)
-* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html)
-* [資料登陸區域](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html)
-* [Google雲端儲存空間](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html)
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html)
+* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html){target="_blank"}
+* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html){target="_blank"}
+* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html){target="_blank"}
+* [Data Landing Zone](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html){target="_blank"}
+* [Google雲端儲存空間](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html){target="_blank"}
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html){target="_blank"}。
 
-## 可供匯出的可用資料集 {#datasets}
-
-從下表瞭解您可以匯出哪些Journey Optimizer資料集。
-
-| 資料集 | 說明 |
-| ------- | ------- | 
-| AJO密件副本意見事件資料集 | AJO密件副本意見事件資料集 |
-| AJO分類資料集 | 用於從Journey Optimizer擷取電子郵件和推播應用程式意見回饋事件的資料集。 透過SDK建立。 |
-| AJO同意服務資料集 | 儲存設定檔的同意資訊。 |
-| AJO電子郵件追蹤體驗事件資料集 | 用於報告和建立受眾的電子郵件頻道的互動記錄。  |
-| AJO實體資料集 | 用於儲存傳送給一般使用者之訊息的實體中繼資料的資料集。  |
-| AJO傳入活動事件資料集 | Journey Optimizer網路和應用程式內頻道傳遞與互動事件的資料集。 |
-| AJO互動式訊息設定檔資料集 | 儲存為支援API觸發的行銷活動而建立的設定檔 |
-| AJO訊息回饋事件資料集 | 訊息傳遞記錄。 有關用於報告與客群建立目的，而從 Journey Optimizer 傳遞之所有訊息的資訊。 電子郵件 ISP 對退回郵件的意見也會記錄在此資料集。 |
-| AJO設定檔計數器擴充功能 | 儲存包含counter_value和expiryDate的物件地圖，並以counter_id作為索引鍵 |
-| AJO推播設定檔資料集 | 儲存設定檔的推播權杖。 |
-| AJO推播追蹤體驗事件資料集 | 推播頻道的互動記錄，用於報表和建立受眾。  |
-| AJO表面資料集 | 與Journey Optimizer傳入表面結構描述相關的空白資料集 |
-| AOOutputForUPSDatset | 包含要回寫至UPS的所有AO對象會籍 |
-| Audience Orchestration設定檔資料集 | 由對象構成對象針對對象構成對象所產生。 包含所有對象構成對象、其屬性和擴充資料 |
-| 決定物件存放庫 — 活動 | 也稱為使用者介面中的決策。 但是這些是使用者建立的物件，會將所有建置區塊放在一起，包括決策邏輯。 例如，針對特定位置（位置），應考量哪些優惠（優惠收藏），以及要對這些優惠方案使用哪個排名方法。 |
-| 決定物件存放庫 — 遞補優惠 | 這是使用者建立之其他型別優惠方案的存放庫。 具體來說，如果他們沒有資格檢視個人化優惠且需要檢視某些內容，他們至少會看到遞補優惠。 此資料集包含此型別選件的屬性 |
-| 決定物件存放庫 — 個人化優惠 | 這是使用者建立之優惠方案型別的存放庫。 因此，此資料集包含此類選件的相關屬性 | Ultimate |
-| 決定物件存放庫 — 位置 | 這是物件的存放庫，會定義需要顯示優惠的位置。 |
-| 歷程步驟事件 | 擷取從Journey Optimizer產生並供Reporting等服務使用的所有歷程步驟體驗事件。 |
-| 歷程 | 中繼資料資料集存放歷程中每個步驟的資訊 |
-| ODE DecisionEvents - prod decisioning | 每當我們根據請求做出決定時，就會將其計為決定事件 |
 
 ## 先決條件 {#prerequisites}
 
@@ -108,3 +80,31 @@ Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
    <!--![](assets/dataset-export-review.png)-->
 
 匯出完成後，資料集的內容會根據您設定的排程儲存在雲端儲存位置。 [瞭解如何確認資料集匯出成功](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}。
+
+## 可供匯出的可用資料集 {#datasets}
+
+從下表瞭解您可以匯出哪些Journey Optimizer資料集。
+
+| 資料集 | 說明 |
+| ------- | ------- | 
+| AJO密件副本意見事件資料集 | AJO密件副本意見事件資料集 |
+| AJO分類資料集 | 用於從Journey Optimizer擷取電子郵件和推播應用程式意見回饋事件的資料集。 透過SDK建立。 |
+| AJO同意服務資料集 | 儲存設定檔的同意資訊。 |
+| AJO電子郵件追蹤體驗事件資料集 | 用於報告和建立受眾的電子郵件頻道的互動記錄。  |
+| AJO實體資料集 | 用於儲存傳送給一般使用者之訊息的實體中繼資料的資料集。  |
+| AJO傳入活動事件資料集 | Journey Optimizer網路和應用程式內頻道傳遞與互動事件的資料集。 |
+| AJO互動式訊息設定檔資料集 | 儲存為支援API觸發的行銷活動而建立的設定檔 |
+| AJO訊息回饋事件資料集 | 訊息傳遞記錄。 有關用於報告與客群建立目的，而從 Journey Optimizer 傳遞之所有訊息的資訊。 電子郵件 ISP 對退回郵件的意見也會記錄在此資料集。 |
+| AJO設定檔計數器擴充功能 | 儲存包含counter_value和expiryDate的物件地圖，並以counter_id作為索引鍵 |
+| AJO推播設定檔資料集 | 儲存設定檔的推播權杖。 |
+| AJO推播追蹤體驗事件資料集 | 推播頻道的互動記錄，用於報表和建立受眾。  |
+| AJO表面資料集 | 與Journey Optimizer傳入表面結構描述相關的空白資料集 |
+| AOOutputForUPSDatset | 包含要回寫至UPS的所有AO對象會籍 |
+| Audience Orchestration設定檔資料集 | 由對象構成對象針對對象構成對象所產生。 包含所有對象構成對象、其屬性和擴充資料 |
+| 決定物件存放庫 — 活動 | 也稱為使用者介面中的決策。 但是這些是使用者建立的物件，會將所有建置區塊放在一起，包括決策邏輯。 例如，針對特定位置（位置），應考量哪些優惠（優惠收藏），以及要對這些優惠方案使用哪個排名方法。 |
+| 決定物件存放庫 — 遞補優惠 | 這是使用者建立之其他型別優惠方案的存放庫。 具體來說，如果他們沒有資格檢視個人化優惠且需要檢視某些內容，他們至少會看到遞補優惠。 此資料集包含此型別選件的屬性 |
+| 決定物件存放庫 — 個人化優惠 | 這是使用者建立之優惠方案型別的存放庫。 因此，此資料集包含此類選件的相關屬性 |
+| 決定物件存放庫 — 位置 | 這是物件的存放庫，會定義需要顯示優惠的位置。 |
+| 歷程步驟事件 | 擷取從Journey Optimizer產生並供Reporting等服務使用的所有歷程步驟體驗事件。 |
+| 歷程 | 中繼資料資料集存放歷程中每個步驟的資訊 |
+| ODE DecisionEvents - prod decisioning | 每當我們根據請求做出決定時，就會將其計為決定事件 |

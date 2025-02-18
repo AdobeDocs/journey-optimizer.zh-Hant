@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 179d0f8571bf2e4d4ea1c5ad8ab498de9e7b5550
+source-git-commit: b134fe166402e4ae49cd96fc09a19e14beb13523
 workflow-type: tm+mt
-source-wordcount: '1405'
-ht-degree: 21%
+source-wordcount: '1529'
+ht-degree: 19%
 
 ---
 
@@ -142,7 +142,7 @@ ht-degree: 21%
 
 1. 設定組態的名稱。
 
-1. 選取Azure **[!UICONTROL 伺服器型別]**&#x200B;以用於匯出直接郵件檔案。
+1. 選取Azure作為&#x200B;**[!UICONTROL 伺服器型別]**，以用於匯出直接郵件檔案。
 
    ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
 
@@ -163,6 +163,28 @@ ht-degree: 21%
 1. 選取&#x200B;**[!UICONTROL 提交]**。 檔案路由設定是以&#x200B;**[!UICONTROL 作用中]**&#x200B;狀態建立的。 現在已準備好用於[直接郵件組態](#direct-mail-surface)。
 
    您也可以選取&#x200B;**[!UICONTROL 另存為草稿]**&#x200B;以建立檔案路由組態，但您無法在組態中選取它，直到它是&#x200B;**[!UICONTROL 作用中]**&#x200B;為止。
+
+>[!TAB 資料登陸區域]
+
+1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 直接郵件設定]** > **[!UICONTROL 檔案路由]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立路由設定]**。
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. 設定組態的名稱。
+
+1. 選取資料登陸區域作為&#x200B;**[!UICONTROL 伺服器型別]**，以用於匯出直接郵件檔案。
+
+   ![](assets/file-routing-config-type-dlz.png){width="800" align="center"}
+
+1. 若要加密檔案，請在&#x200B;**[!UICONTROL PGP/GPG加密金鑰]**&#x200B;欄位中複製並貼上您的加密金鑰。<!--To find it, ...-->
+
+   ![](assets/file-routing-config-dlz-detail.png)
+
+1. 選取&#x200B;**[!UICONTROL 提交]**。 檔案路由設定是以&#x200B;**[!UICONTROL 作用中]**&#x200B;狀態建立的。 現在已準備好用於[直接郵件組態](#direct-mail-surface)。
+
+   您也可以選取&#x200B;**[!UICONTROL 另存為草稿]**&#x200B;以建立檔案路由組態，但您無法在組態中選取它，直到它是&#x200B;**[!UICONTROL 作用中]**&#x200B;為止。
+
+在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中進一步瞭解資料登陸區域。
 
 >[!ENDTABS]
 

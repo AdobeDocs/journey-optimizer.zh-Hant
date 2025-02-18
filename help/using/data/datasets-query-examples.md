@@ -9,24 +9,24 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 資料集，最佳化工具，使用案例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '843'
 ht-degree: 2%
 
 ---
 
-# 資料集使用案例 {#tracking-datasets}
+# 查詢範例 {#query-examples}
 
 在此頁面中，您會找到Adobe Journey Optimizer資料集和相關使用案例的清單：
 
-[電子郵件追蹤體驗事件資料集](#email-tracking-experience-event-dataset)
-[訊息回饋事件資料集](#message-feedback-event-dataset)
-[推播追蹤體驗事件資料集](#push-tracking-experience-event-dataset)
-[歷程步驟事件](#journey-step-event)
-[決策事件資料集](#ode-decisionevents)
-[密件副本意見事件資料集](#bcc-feedback-event-dataset)
-[實體資料集](#entity-dataset)
+* [電子郵件追蹤體驗事件資料集](#email-tracking-experience-event-dataset)
+* [訊息回饋事件資料集](#message-feedback-event-dataset)
+* [推播追蹤體驗事件資料集](#push-tracking-experience-event-dataset)
+* [歷程步驟事件](#journey-step-event)
+* [決策事件資料集](#ode-decisionevents)
+* [密件副本意見事件資料集](#bcc-feedback-event-dataset)
+* [實體資料集](#entity-dataset)
 
 若要檢視每個結構描述的欄位與屬性完整清單，請參閱 [Journey Optimizer 結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}。
 

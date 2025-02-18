@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '320'
 ht-degree: 5%
 
 ---
@@ -48,19 +48,19 @@ ht-degree: 5%
 >
 >編輯或刪除範本時，使用此範本建立的行銷活動或歷程（包括內容）不受影響。
 
-## 將範本顯示為縮圖 {#template-thumbnails}
+## [!BADGE 可用性限制]{type=Informative}將範本顯示為縮圖 {#template-thumbnails}
 
 選取&#x200B;**[!UICONTROL 格線檢視]**&#x200B;模式，將每個範本顯示為縮圖。
 
 >[!AVAILABILITY]
 >
->此功能以有限可用性 (LA) 形式向一小部分客戶發布。
+此功能以有限可用性 (LA) 形式向一小部分客戶發布。
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
->目前只能為HTML型別的電子郵件內容範本產生適當的縮圖。
+目前只能為HTML型別產生適當的縮圖 email 內容範本。
 
 更新內容時，您可能需要等候幾秒鐘，變更才會反映在縮圖中。
 

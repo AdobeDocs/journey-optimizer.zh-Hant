@@ -1,18 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用規則集工作 (LA)
+title: 使用規則集
 description: 瞭解如何建立和套用規則集
 feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
-badge: label="有限可用性"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1933'
 ht-degree: 12%
 
 ---
@@ -23,10 +22,6 @@ ht-degree: 12%
 >id="ajo_business_rules_rule_sets"
 >title="規則集"
 >abstract="使用規則集將頻率上限套用至不同類型的行銷傳播。您也可以建立規則集，依照頻率上限規則，將部分客群排除在歷程以外。"
-
->[!AVAILABILITY]
->
->規則集目前可在「有限可用性」中提供給選定的客戶群組。 請注意，此功能將在未來逐步向更多使用者推出。 如果您有興趣加入輪候表，請洽詢您的客戶團隊。
 
 ## 開始使用規則集 {#gs}
 
@@ -68,7 +63,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->您最多可以建立3個自訂規則集。
+>您可以建立最多3個管道網域的本機規則集和最多5個歷程網域的本機規則集。
 
 1. 存取&#x200B;**[!UICONTROL 規則集]**&#x200B;清單，然後按一下&#x200B;**[!UICONTROL 建立規則集]**。
 
@@ -127,6 +122,10 @@ ht-degree: 12%
 1. 從&#x200B;**[!UICONTROL 持續時間]**&#x200B;下拉式清單中，選取是否要每月、每週或每日套用上限。 頻率上限是根據所選的日曆期間。 它會在對應的時間範圍開始時重設。
 
    ![](assets/rule-set-capping-duration.png)
+
+   >[!AVAILABILITY]
+   >
+   >「每日」期間僅供隨選使用。 若要取得存取權，請聯絡您的Adobe代表以取得存取權。
 
    每個期間的計數器到期日如下：
 
@@ -193,7 +192,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->完全啟用規則或規則集最多可能需要10分鐘。 您不需要修改訊息或重新發佈歷程，規則就能生效。
+>完全啟用規則或規則集最多可能需要20分鐘。 您不需要修改訊息或重新發佈歷程，規則就能生效。
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 

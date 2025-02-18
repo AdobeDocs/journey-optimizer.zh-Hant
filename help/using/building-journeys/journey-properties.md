@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 2ce069f92e11fa9246736a4b71dfd66391d8b06c
+source-git-commit: 3331fd2ca9277bb634e3df0dd2e5a262bef459d7
 workflow-type: tm+mt
-source-wordcount: '2232'
+source-wordcount: '2261'
 ht-degree: 18%
 
 ---
@@ -285,8 +285,8 @@ Journey在從Adobe Experience Platform擷取設定檔資料時使用合併原則
    ![](assets/exitcriteria.png){width="40%" align="left"}
 1. 輸入&#x200B;**標籤**，並選取您的退出條件是否以&#x200B;**事件**&#x200B;或&#x200B;**對象**&#x200B;為基礎。
 
-對於以事件為基礎的退出條件，僅挑選單一事件。
-對於根據對象的退出條件，請選取對象。 注意：使用對象的退出條件最多可能需要10分鐘才會生效。
+* 對於根據事件的退出條件，例如下載應用程式或新增產品至購物車，請僅挑選單一事件。
+* 對於根據對象的退出條件，例如檢查客戶在過去24小時內是否購買的對象，請選取對象。 注意：使用對象的退出條件最多可能需要10分鐘才會生效。
 
 您可以新增多個退出條件。
 

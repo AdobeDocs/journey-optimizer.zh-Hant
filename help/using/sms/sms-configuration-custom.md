@@ -4,17 +4,18 @@ product: journey optimizer
 title: 設定您的自訂提供者
 description: 瞭解如何設定環境，以透過自訂提供者使用Journey Optimizer傳送文字訊息
 feature: SMS, Channel Configuration
+badge: label="Beta" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
-# 設定自訂提供者 (Beta) {#sms-configuration-custom}
+# 設定自訂提供者 {#sms-configuration-custom}
 
 >[!AVAILABILITY]
 >
@@ -22,7 +23,7 @@ ht-degree: 3%
 >
 >請注意，此Beta不支援選擇加入/選擇退出同意管理和傳遞報告的傳入訊息。
 
-若要在Journey Optimizer中使用無法透過Adobe立即使用的自訂提供者（例如Sinch、Infobip、Twilio）傳送訊息，請遵循下列步驟：
+若要在Journey Optimizer中使用Adobe未提供的現成可用自訂提供者（例如Sinch、Infobip、Twilio）傳送訊息，請遵循下列步驟：
 
 1. 在左側邊欄中，瀏覽至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;並選取&#x200B;**[!UICONTROL API認證]**&#x200B;功能表。
 

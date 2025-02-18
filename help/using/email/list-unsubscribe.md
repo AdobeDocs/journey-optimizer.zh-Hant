@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: b3655506dff97756a59a63d5b8f0c358dc7c7510
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '765'
 ht-degree: 97%
 
 ---
@@ -64,10 +64,6 @@ ht-degree: 97%
 >id="ajo_email_config_unsubscribe_custom"
 >title="定義如何管理取消訂閱的資料"
 >abstract="**Adobe 管理**：同意資料由您在 Adobe 系統內進行管理。<br>**客戶管理**：同意資料由您在外部系統中進行管理，除非由您啟動，否則 Adobe 系統中不會同步更新同意資料。"
-
->[!AVAILABILITY]
->
->此功能以有限可用性 (LA) 形式向一小部分客戶發布。
 
 如果您在 Adobe 外部管理同意，請選取 [**[!UICONTROL 客戶管理]**]選項，即可輸入自訂取消訂閱電子郵件地址，還有自己的一鍵式取消訂閱 URL。
 

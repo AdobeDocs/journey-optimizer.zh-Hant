@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP、集區、傳遞能力
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
+source-git-commit: 84cbaebc9c274f620ee707cb0d9320673ae24b71
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 12%
+source-wordcount: '427'
+ht-degree: 11%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 12%
 
    與您的傳遞顧問合作，識別要使用的網域和IP。 在[本節](../email/email-settings.md#subdomains-and-ip-pools)中瞭解如何在電子郵件設定中選取它們。
 
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >對於IP熱身行銷活動，即使您變更電子郵件設定中的[執行位址](../email/email-settings.md#execution-address)，仍會使用在沙箱層級設定的預設欄位。 [了解更多](primary-email-addresses.md)
+   >在IP熱身計畫[已啟動](ip-warmup-execution.md)後，請勿編輯電子郵件通道設定。
 
 1. 建立排程的行銷[行銷活動](../campaigns/create-campaign.md)並選取[電子郵件](../email/create-email.md#create-email-journey-campaign)動作。
 

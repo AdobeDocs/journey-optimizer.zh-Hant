@@ -5,9 +5,9 @@ role: User
 level: Beginner
 badge: label="有限可用性"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '920'
 ht-degree: 23%
 
 ---
@@ -70,6 +70,10 @@ ht-degree: 23%
 
       1. 在&#x200B;**[!UICONTROL 上限]**&#x200B;欄位中，設定設定檔可輸入的歷程數目上限。
       1. 在&#x200B;**[!UICONTROL 期間]**&#x200B;欄位中，定義要考慮的時間段。 請注意，持續時間是根據UTC時區。 例如，每日上限將在UTC午夜重設。
+
+     >[!AVAILABILITY]
+     >
+     >「每日」期間僅供隨選使用。 若要取得存取權，請聯絡您的Adobe代表以取得存取權。
 
      在此範例中，我們要限制設定檔在一個月內輸入超過「5」個歷程。
 

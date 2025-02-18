@@ -9,16 +9,16 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙箱，歷程，複製，環境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1070'
 ht-degree: 4%
 
 ---
 
-# 將Journey Optimizer物件複製到另一個沙箱 {#copy-to-sandbox}
+# 將物件匯出至另一個沙箱 {#copy-to-sandbox}
 
-沙箱工具可讓您運用套件匯出和匯入，跨多個沙箱複製物件，例如歷程、內容範本或片段。 套件可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。
+您可以使用套件匯出和匯入功能，跨多個沙箱複製物件，例如歷程、內容範本或片段。 套件可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。
 
 本頁說明Journey Optimizer內容中的沙箱工具使用案例。 如需功能本身的詳細資訊，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html)。
 
@@ -88,13 +88,13 @@ Journey Optimizer可將歷程、內容範本和片段匯出至另一個沙箱。
 >
 >除了歷程本身外，對於歷程匯出，Journey Optimizer也會複製歷程所依賴的大部分物件：對象、結構描述、事件和動作。 如需歷程匯出的詳細資訊，請參閱[本節](../building-journeys/copy-to-sandbox.md)。
 
-## Publish要匯出的套件 {#publish}
+## 發佈要匯出的套件 {#publish}
 
 準備好要匯出套件後，請依照下列步驟進行發佈：
 
 1. 瀏覽至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 沙箱]**&#x200B;功能表，選取&#x200B;**套件**&#x200B;標籤。
 
-1. 開啟您要匯出的套件，選取您要匯出的物件，然後按一下&#x200B;**Publish**。
+1. 開啟您要匯出的封裝，選取您要匯出的物件，然後按一下&#x200B;**發佈**。
 
    在此範例中，我們要匯出歷程、內容範本和片段。
 

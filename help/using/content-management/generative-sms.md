@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 5%
+source-wordcount: '1000'
+ht-degree: 4%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 5%
 
    ![](assets/sms-genai-1.png){zoomable="yes"}
 
+1. 選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。 [進一步瞭解](brands.md)品牌。
+
+   請注意，品牌功能會以私人測試版發佈，未來發佈的版本將逐步提供給所有客戶。
+
 1. 說明您要在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中產生的內容，以微調內容。
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示資料庫]**，其中提供各種提示概念，以改進您的行銷活動。
@@ -55,7 +59,7 @@ ht-degree: 5%
 1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示：
 
    * **[!UICONTROL 通訊策略]**：針對產生的文字選取所要的通訊方式。
-   * **[!UICONTROL 語言]**：選擇變體內容的語言。
+   * **[!UICONTROL 語言]**：西班牙文、義大利文、瑞典文和挪威文等語言選項已發佈為私人測試版，未來版本將逐步提供給所有客戶。
    * **[!UICONTROL 音調]**：確定文字適合您的對象和目的。
    * **[!UICONTROL 長度]**：使用範圍滑桿選取內容的長度。
 
@@ -107,6 +111,10 @@ ht-degree: 5%
 
 1. 啟用AI助理的&#x200B;**[!UICONTROL 使用參考內容]**&#x200B;選項，以根據選取的內容個人化新內容。
 
+1. 選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。 [進一步瞭解](brands.md)品牌。
+
+   請注意，品牌功能會以私人測試版發佈，未來發佈的版本將逐步提供給所有客戶。
+
 1. 說明您要在&#x200B;**[!UICONTROL 提示]**&#x200B;欄位中產生的內容，以微調內容。
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示資料庫]**，其中提供各種提示概念，以改進您的行銷活動。
@@ -116,7 +124,7 @@ ht-degree: 5%
 1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示：
 
    * **[!UICONTROL 通訊策略]**：針對產生的文字選取所要的通訊方式。
-   * **[!UICONTROL 語言]**：選擇變體內容的語言。
+   * **[!UICONTROL 語言]**：西班牙文、義大利文、瑞典文和挪威文等語言選項已發佈為私人測試版，未來版本將逐步提供給所有客戶。
    * **[!UICONTROL 音調]**：確定文字適合您的對象和目的。
    * **[!UICONTROL 長度]**：使用範圍滑桿選取內容的長度。
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 22%
@@ -30,14 +30,16 @@ ht-degree: 22%
 
 對象是具有相同類似行為和/或特徵的人的集合。 透過Adobe Experience Platform Segmentation Service，這些功能可在Adobe Experience Platform上集中設定和維護，並可在Journey Optimizer中輕鬆存取，以便在您的歷程和行銷活動中啟用。
 
-Adobe Journey Optimizer提供強大的工具，用於建立、管理和豐富受眾，以強化行銷工作。 在與Adobe Real-time Customer Data Platform結合時，Journey Optimizer可讓您針對更複雜的細分細分細分細分細分細分對象，並與其他Adobe Experience Cloud解決方案雙向共用對象。
+Adobe Journey Optimizer提供強大的工具，用於建立、管理和豐富受眾，以強化行銷工作。 在與Adobe Real-Time Customer Data Platform結合時，Journey Optimizer可讓您針對更複雜的細分細分細分細分細分細分對象，並與其他Adobe Experience Cloud解決方案雙向共用對象。
 
 當即時資料串流或批次上傳時，資料集更新和Journey Optimizer會即時以動態方式將個人移入和移出對象和歷程。
 
 >[!BEGINSHADEBOX]
 
 本檔案提供如何在[!DNL Adobe Journey Optimizer]內使用對象的資訊。 有關對象入口網站和對象的詳細資訊，請參閱Adobe Experience Platform細分服務檔案。 如需詳細資訊，請參閱以下章節：
+
 * [Segmentation Service UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+
 * [分段服務 — 常見問題](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/faq){target="_blank"}
 
 >[!ENDSHADEBOX]

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 開始使用 Journey Optimizer 的資料
+title: 開始使用Journey Optimizer中的資料管理
 description: 了解如何在 Journey Optimizer 使用資料
 feature: Journeys
 topic: Content Management
@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: 資料，管理，平台
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# 開始使用 [!DNL Journey Optimizer] 中的資料管理  {#about-data}
+# 開始使用資料管理 {#about-data}
 
 終端客戶資料的豐富性和涵蓋範圍，是任何客戶體驗解決方案的優勢和成功的關鍵；這項資料是神聖的，對於任何特定客戶而言，都具有最高價值。 技術選擇現在內建了對資料管理功能的嚴格評估。
 
