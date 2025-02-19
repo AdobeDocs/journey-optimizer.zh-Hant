@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
-source-wordcount: '6051'
-ht-degree: 97%
+source-wordcount: '6045'
+ht-degree: 96%
 
 ---
 
@@ -123,7 +123,7 @@ ht-degree: 97%
    * E：用於觸發事件歷程中事件的捷徑。
    * P：用於在以客群為基礎的歷程中觸發事件的捷徑，並為其啟用一次單一輪廓選項
    * L：指定用來顯示測試記錄的捷徑。
-* 「訊息頻率規則」頁面已更新，包含有關每日頻率上限的新子區段，除了每週或每月上限外，還可隨選提供。 [閱讀全文](../configuration/frequency-rules.md#daily-frequency-cap)
+* 「訊息頻率規則」頁面已更新，包含有關每日頻率上限的新子區段，除了每週或每月上限外，還可隨選提供。
 * 改善並更新「使用同意原則」頁面，其中包含 Experience Platform 文件的實用連結。 [閱讀全文](../action/consent.md)
 * 已新增新區段，以反映您可以使用「網格」檢視模式 (「有限可用性」) 將 HTML 電子郵件內容範本顯示為縮圖。 [閱讀全文](../content-management/content-templates.md#template-thumbnails)
 * 「傳遞能力」頁面已新增一個區段，說明回饋迴路以及其運用方式。 [閱讀全文](../reports/deliverability.md#feedback-loops)
@@ -140,7 +140,7 @@ ht-degree: 97%
 * 進階運算式編輯器中可用的函式清單已更新。[閱讀全文](../building-journeys/expression/functions.md)
 * 已更新「分割」函式上的頁面。[閱讀全文](../building-journeys/functions/functioninaudience.md)
 * 已新增有關選擇加入或選擇退出推播通知對應用程式內訊息之影響的資訊。[閱讀全文](../in-app/create-in-app.md)
-* 訊息頻率規則頁面已更新，以反映使用者介面中可用的期間選項 (每週或每月)。[閱讀全文](../configuration/frequency-rules.md)
+* 訊息頻率規則頁面已更新，以反映使用者介面（每週或每月）中可用的期間選項。
 * 「編輯 PTR 記錄」章節已更新，以釐清 PTR 記錄無法手動建立，以及您需要編輯 PTR 記錄以為其指派新子網域的事實。[閱讀全文](../configuration/ptr-records.md#edit-ptr-record)
 
 ## 2024 年 1 月 {#jan-2024}
@@ -338,7 +338,7 @@ ht-degree: 97%
 ## 2022 年 8 月 {#august-2022}
 
 * 有關 [!DNL Journey Optimizer] 2022 年 8 月發行版本的所有新功能和改進項目詳情，請參閱本文件。 [閱讀全文](release-notes.md)
-* 已更新「頻率規則」區段以反映全新內嵌訊息流程。 [閱讀全文](../configuration/frequency-rules.md#apply-frequency-rule)
+* 已更新「頻率規則」章節，以反映新的內嵌訊息流程。
 * 現在，開始使用登陸頁面區段將引用一份如何設定訂閱和建立登陸頁面的展示影片。 [閱讀全文](../landing-pages/get-started-lp.md#video)
 * 已為使用讀取客群活動的歷程新增限制。 [閱讀全文](../building-journeys/read-audience.md)
 * 已改善運算式編輯器操作者頁面。 [閱讀全文](../building-journeys/expression/operators.md)
