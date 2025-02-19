@@ -8,16 +8,21 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 05a882d3dec6b6f62eac432d14bb9ac9ad48257d
+source-git-commit: 1465b110812beba8b58c7dc2e01a65189f984c27
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 3%
+source-wordcount: '1362'
+ht-degree: 2%
 
 ---
 
 # 建立測試輪廓 {#create-test-profiles}
 
 在歷程中使用[測試模式](../building-journeys/testing-the-journey.md)時需要測試設定檔，以及[預覽和測試您的內容](../content-management/preview-test.md)。
+
+
+>[!NOTE]
+>
+>[!DNL Journey optimizer]也可讓您使用從CSV / JSON檔案上傳或手動新增的範例輸入資料，預覽和傳送校樣，以測試內容的不同變體。 [瞭解如何使用範例輸入資料測試您的內容](../test-approve/simulate-sample-input.md)
 
 建立測試設定檔有數種方式。 您可以在此頁面中找到下列詳細資訊：
 
