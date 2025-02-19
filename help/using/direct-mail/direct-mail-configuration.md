@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 63786170a4aaa5659751a9bb5febd98419e2e64a
+source-git-commit: 324e477ca334e2d614265b3ea25428bea089ac69
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 19%
+source-wordcount: '1317'
+ht-degree: 21%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="選取您的檔案的伺服器類型"
->abstract="選擇匯出直接郵件檔案所要使用的伺服器類型：Amazon S3、SFTP 或 Azure。"
+>abstract="選擇您要用於匯出直接郵件檔案的伺服器型別：Amazon S3、SFTP、Azure或資料登陸區域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
@@ -68,19 +68,25 @@ ht-degree: 19%
 
 若要設定檔案路由，請遵循下列步驟。
 
->[!BEGINTABS]
-
->[!TAB Amazon S3]
-
 1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 直接郵件設定]** > **[!UICONTROL 檔案路由]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立路由設定]**。
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. 設定組態的名稱。
 
-1. 選取&#x200B;**Amazon S3**&#x200B;作為&#x200B;**[!UICONTROL 伺服器型別]**，以用於匯出直接郵件檔案。
+1. 選取您要用於匯出直接郵件檔案的伺服器型別：Amazon S3、SFTP、Azure或資料登陸區域。 每種伺服器型別的特定欄位會在以下標籤中詳細說明。
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
+
+1. 選取&#x200B;**[!UICONTROL 提交]**。 檔案路由設定是以&#x200B;**[!UICONTROL 作用中]**&#x200B;狀態建立的。 現在已準備好用於[直接郵件組態](#direct-mail-surface)。
+
+   您也可以選取&#x200B;**[!UICONTROL 另存為草稿]**&#x200B;以建立檔案路由組態，但您無法在組態中選取它，直到它是&#x200B;**[!UICONTROL 作用中]**&#x200B;為止。
+
+>[!BEGINTABS]
+
+>[!TAB Amazon S3]
+
+1. 選取&#x200B;**[!UICONTROL Amazon S3]**&#x200B;做為&#x200B;**[!UICONTROL 伺服器型別]**。
 
 1. 填寫伺服器的詳細資訊和認證
 
@@ -96,21 +102,9 @@ ht-degree: 19%
 
 1. 若要加密檔案，請在&#x200B;**[!UICONTROL PGP/GPG加密金鑰]**&#x200B;欄位中複製並貼上您的加密金鑰。
 
-1. 選取&#x200B;**[!UICONTROL 提交]**。 檔案路由設定是以&#x200B;**[!UICONTROL 作用中]**&#x200B;狀態建立的。 現在已準備好用於[直接郵件組態](#direct-mail-surface)。
-
-   您也可以選取&#x200B;**[!UICONTROL 另存為草稿]**&#x200B;以建立檔案路由組態，但您無法在組態中選取它，直到它是&#x200B;**[!UICONTROL 作用中]**&#x200B;為止。
-
 >[!TAB SFTP]
 
-1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 直接郵件設定]** > **[!UICONTROL 檔案路由]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立路由設定]**。
-
-   ![](assets/file-routing-config-button.png){width="800" align="center"}
-
-1. 設定組態的名稱。
-
-1. 選取SFTP作為&#x200B;**[!UICONTROL 伺服器型別]**，以用於匯出直接郵件檔案。
-
-   ![](assets/file-routing-config-type-sftp.png){width="800" align="center"}
+1. 選取&#x200B;**[!UICONTROL SFTP]**&#x200B;做為&#x200B;**[!UICONTROL 伺服器型別]**。
 
 1. 填寫伺服器的詳細資訊和認證：
 
@@ -130,21 +124,9 @@ ht-degree: 19%
 
 1. 若要加密檔案，請在&#x200B;**[!UICONTROL PGP/GPG加密金鑰]**&#x200B;欄位中複製並貼上您的加密金鑰。
 
-1. 選取&#x200B;**[!UICONTROL 提交]**。 檔案路由設定是以&#x200B;**[!UICONTROL 作用中]**&#x200B;狀態建立的。 現在已準備好用於[直接郵件組態](#direct-mail-surface)。
-
-   您也可以選取&#x200B;**[!UICONTROL 另存為草稿]**&#x200B;以建立檔案路由組態，但您無法在組態中選取它，直到它是&#x200B;**[!UICONTROL 作用中]**&#x200B;為止。
-
 >[!TAB Azure]
 
-1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 直接郵件設定]** > **[!UICONTROL 檔案路由]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立路由設定]**。
-
-   ![](assets/file-routing-config-button.png){width="800" align="center"}
-
-1. 設定組態的名稱。
-
-1. 選取Azure作為&#x200B;**[!UICONTROL 伺服器型別]**，以用於匯出直接郵件檔案。
-
-   ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
+1. 選取&#x200B;**[!UICONTROL Azure]**&#x200B;做為&#x200B;**[!UICONTROL 伺服器型別]**。
 
 1. 填寫伺服器的詳細資訊和認證：
 
@@ -156,33 +138,23 @@ ht-degree: 19%
 
    * **容器名稱**：若要尋找您的&#x200B;**容器名稱**，請參閱[此頁面](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal)。
 
-     **容器名稱**&#x200B;應僅包含容器名稱，不含任何斜線。 若要指定容器內的路徑以儲存檔案，請更新直接郵件促銷活動的&#x200B;**[!UICONTROL 檔案名稱]**&#x200B;欄位，以包含所要的路徑。 [了解更多](create-direct-mail.md#extraction-file)
+     **容器名稱**&#x200B;應僅包含容器名稱，不含任何斜線。
+
+     >[!NOTE]
+     >
+     >若要指定容器內的路徑以儲存檔案，請更新直接郵件促銷活動的&#x200B;**[!UICONTROL 檔案名稱]**&#x200B;欄位，以包含所要的路徑。 [了解更多](create-direct-mail.md#extraction-file)
+
+     ![](assets/file-routing-config-azure-detail.png)
 
 1. 若要加密檔案，請在&#x200B;**[!UICONTROL PGP/GPG加密金鑰]**&#x200B;欄位中複製並貼上您的加密金鑰。
 
-1. 選取&#x200B;**[!UICONTROL 提交]**。 檔案路由設定是以&#x200B;**[!UICONTROL 作用中]**&#x200B;狀態建立的。 現在已準備好用於[直接郵件組態](#direct-mail-surface)。
-
-   您也可以選取&#x200B;**[!UICONTROL 另存為草稿]**&#x200B;以建立檔案路由組態，但您無法在組態中選取它，直到它是&#x200B;**[!UICONTROL 作用中]**&#x200B;為止。
-
 >[!TAB 資料登陸區域]
 
-1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 直接郵件設定]** > **[!UICONTROL 檔案路由]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立路由設定]**。
+1. 選取&#x200B;**[!UICONTROL 資料登陸區域]**&#x200B;做為&#x200B;**[!UICONTROL 伺服器型別]**。
 
-   ![](assets/file-routing-config-button.png){width="800" align="center"}
-
-1. 設定組態的名稱。
-
-1. 選取資料登陸區域作為&#x200B;**[!UICONTROL 伺服器型別]**，以用於匯出直接郵件檔案。
-
-   ![](assets/file-routing-config-type-dlz.png){width="800" align="center"}
-
-1. 若要加密檔案，請在&#x200B;**[!UICONTROL PGP/GPG加密金鑰]**&#x200B;欄位中複製並貼上您的加密金鑰。<!--To find it, ...-->
+1. 若要加密檔案，請在&#x200B;**[!UICONTROL PGP/GPG加密金鑰]**&#x200B;欄位中複製並貼上您的加密金鑰。
 
    ![](assets/file-routing-config-dlz-detail.png)
-
-1. 選取&#x200B;**[!UICONTROL 提交]**。 檔案路由設定是以&#x200B;**[!UICONTROL 作用中]**&#x200B;狀態建立的。 現在已準備好用於[直接郵件組態](#direct-mail-surface)。
-
-   您也可以選取&#x200B;**[!UICONTROL 另存為草稿]**&#x200B;以建立檔案路由組態，但您無法在組態中選取它，直到它是&#x200B;**[!UICONTROL 作用中]**&#x200B;為止。
 
 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中進一步瞭解資料登陸區域。
 
