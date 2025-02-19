@@ -9,9 +9,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
-source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
+source-git-commit: d7ef9cb8b74781d5c711bd2958070767735a3b24
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '583'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 2%
 
 若要使用&#x200B;**[!UICONTROL 傳送測試要求]**&#x200B;功能，**自訂動作**&#x200B;必須預先設定URL、標頭和驗證設定。
 
-管理員若要使用此權能，需要下列許可權：
+管理員若要使用此功能，需要下列許可權：
 
 * 使用者必須有&#x200B;**[!DNL Manage journeys events, data sources and actions]**&#x200B;許可權。
 * 此許可權包含在&#x200B;*歷程管理員*&#x200B;角色中。
@@ -44,12 +44,15 @@ ht-degree: 2%
 
 在[本節](../administration/high-low-permissions.md#journey-capability)中進一步瞭解歷程許可權。
 
-## 如何使用傳送測試要求功能 {#troubleshoot-custom-action-use}
+## 如何使用傳送測試請求功能 {#troubleshoot-custom-action-use}
 
 若要測試自訂動作，請遵循下列步驟：
 
-1. 瀏覽至&#x200B;**自訂動作**&#x200B;設定畫面。
-1. 按一下&#x200B;**[!UICONTROL 傳送測試要求]**&#x200B;按鈕。
+1. 導覽至&#x200B;**自訂動作**&#x200B;設定畫面，然後選取自訂動作。
+1. 按一下動作設定畫面底部的&#x200B;**[!UICONTROL 傳送測試要求]**&#x200B;按鈕。
+
+![在動作設定面板中傳送測試要求按鈕](assets/test-request.png){width="70%" align="left"}
+
 1. 在快顯視窗中，允許您指定請求引數：
 
    * 如果&#x200B;**自訂動作方法是GET**，則不需要裝載。
