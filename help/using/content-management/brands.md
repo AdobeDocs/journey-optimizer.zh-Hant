@@ -7,10 +7,10 @@ badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 4919c8c749f9216be526bab2437a815da0136df5
+source-git-commit: b1ccacd30acb886e06a3305f0c7046d85f558357
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 19%
+source-wordcount: '427'
+ht-degree: 22%
 
 ---
 
@@ -19,15 +19,14 @@ ht-degree: 19%
 >[!AVAILABILITY]
 >
 >此功能已發佈私人測試版。 未來版本將逐步開放所有客戶使用。
->
 
 品牌指引是一組詳細的規則和標準，可建立品牌的視覺和口頭識別。 這些可作為參考，以在所有行銷和通訊平台上維持一致的品牌代表性。
 
-在Journey Optimizer中，您現在可以選擇手動輸入及組織品牌詳細資訊，或上傳品牌指引檔案以進行自動資訊擷取。
+在[!DNL Journey Optimizer]中，您現在可以選擇手動輸入及組織您的品牌詳細資料，或上傳品牌指引檔案以進行自動資訊擷取。
 
 ## 存取品牌 {#generative-access}
 
-若要存取Adobe Journey Optimizer中的品牌功能表，使用者必須被授予&#x200B;**受管理的品牌套件**&#x200B;或&#x200B;**[!UICONTROL 啟用AI小幫手]**&#x200B;許可權。 [了解更多](../administration/permissions.md)
+若要存取[!DNL Adobe Journey Optimizer]中的&#x200B;**[!UICONTROL 品牌]**&#x200B;功能表，使用者必須被授與&#x200B;**[!UICONTROL 受管理的品牌套件]**&#x200B;或&#x200B;**[!UICONTROL 啟用AI小幫手]**&#x200B;許可權。 [了解更多](../administration/permissions.md)
 
 +++  瞭解如何指派品牌相關許可權
 
@@ -51,34 +50,41 @@ ht-degree: 19%
 
 1. 如果之前未建立使用者，請參閱[此文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users)。
 
-
 +++
 
 ## 建立您的品牌 {#create-brand-kit}
 
 若要建立和管理您的品牌指引，您可以自行輸入詳細資料，或上傳品牌指引檔案以自動擷取資訊：
 
-1. 在&#x200B;**[!UICONTROL 品牌]**&#x200B;功能表中，按一下&#x200B;**[!UICONTROL 新增品牌]**。
+1. 在&#x200B;**[!UICONTROL 品牌]**&#x200B;功能表中，按一下&#x200B;**[!UICONTROL 建立品牌]**。
 
    ![](assets/brands-1.png)
 
-1. 為您的品牌指引輸入&#x200B;**[!UICONTROL 名稱]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
+1. 輸入您品牌<!--and a **[!UICONTROL Description]** to your brand guideline-->的&#x200B;**[!UICONTROL 名稱]**。
 
-1. 拖放或選取您的檔案，以上傳您的品牌指引，並自動擷取相關的品牌資訊。 按一下&#x200B;**[!UICONTROL 新增品牌]**。
+   ![](assets/brands-2-temp.png)
 
-   資訊擷取程式現在開始。 請注意，可能需要幾分鐘才能完成。
+<!--
 
-   ![](assets/brands-2.png)
+[Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)]
 
-1. 系統現在會自動填入您的內容和視覺化建立標準。 瀏覽不同的標籤，視需要調整資訊。
+1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information. Click **[!UICONTROL Create brand]**.
 
-1. 根據&#x200B;**[!UICONTROL 內容建立標準]**，按一下![](assets/do-not-localize/Smock_Add_18_N.svg)以新增其他准則、範例或排除專案。
+    The information extraction process now begins. Note that it may take several minutes to complete.
+
+    ![](assets/brands-2.png)
+
+1. Your Content and visual creation standards are now automatically populated. Browse through the different tabs to adapt the information as needed.
+
+-->
+
+1. 從&#x200B;**[!UICONTROL 撰寫樣式]**&#x200B;索引標籤，按一下![](assets/do-not-localize/Smock_Add_18_N.svg)以新增指引或排除專案。 您也可以新增範例。
 
    ![](assets/brands-3.png)
 
-1. 從&#x200B;**[!UICONTROL 視覺化建立標準]**&#x200B;中，按一下![](assets/do-not-localize/Smock_Add_18_N.svg)以新增其他指南、範例或排除專案。
+1. 從&#x200B;**[!UICONTROL 視覺內容]**&#x200B;索引標籤，按一下![](assets/do-not-localize/Smock_Add_18_N.svg)以新增其他准則或排除專案。
 
-1. 若要新增影像範例，請按一下&#x200B;**[!UICONTROL 選取影像]**。 您也可以新增任何已識別的不正確分析。
+1. 若要新增影像範例，請按一下&#x200B;**[!UICONTROL 選取影像]**。 您也可以新增使用方式不正確的影像，作為排除範例。
 
    ![](assets/brands-4.png)
 
