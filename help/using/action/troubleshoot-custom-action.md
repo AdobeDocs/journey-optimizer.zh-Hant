@@ -9,7 +9,7 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
-source-git-commit: d7ef9cb8b74781d5c711bd2958070767735a3b24
+source-git-commit: 51882b5f664e335c472afd790494f86b300e0e56
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 2%
@@ -49,10 +49,8 @@ ht-degree: 2%
 若要測試自訂動作，請遵循下列步驟：
 
 1. 導覽至&#x200B;**自訂動作**&#x200B;設定畫面，然後選取自訂動作。
-1. 按一下動作設定畫面底部的&#x200B;**[!UICONTROL 傳送測試要求]**&#x200B;按鈕。
-
-![在動作設定面板中傳送測試要求按鈕](assets/test-request.png){width="70%" align="left"}
-
+1. 按一下動作設定畫面底部的&#x200B;**[!UICONTROL 傳送測試要求]**按鈕。
+   ![在動作設定面板中傳送測試要求按鈕](assets/test-request.png){width="70%" align="left"}
 1. 在快顯視窗中，允許您指定請求引數：
 
    * 如果&#x200B;**自訂動作方法是GET**，則不需要裝載。
