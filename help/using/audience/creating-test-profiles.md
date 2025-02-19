@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: e798d413a4962bb037ff3cae595bcd87f4121e4f
 workflow-type: tm+mt
 source-wordcount: '1323'
 ht-degree: 3%
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 ## 先決條件 {#test-profile-prerequisites}
 
-為了能夠建立設定檔，您必須先在Adobe[!DNL Journey Optimizer]中建立結構描述和資料集。
+為了能夠建立設定檔，您必須先在Adobe [!DNL Journey Optimizer]中建立結構描述和資料集。
 
 若要&#x200B;**建立結構描述**，請執行下列步驟：
 
@@ -140,7 +140,7 @@ ht-degree: 3%
 1. 新增&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;動作活動。
 1. 選取結構描述、**testProfiles**&#x200B;欄位和資料集，並將值設定為&#x200B;**True**。 若要執行此動作，請在&#x200B;**[!UICONTROL VALUE]**&#x200B;欄位中按一下右側的&#x200B;**筆**&#x200B;圖示，選取&#x200B;**[!UICONTROL 進階模式]**&#x200B;並輸入&#x200B;**true**。
    ![](assets/test-profiles-26.png)
-1. 按一下&#x200B;**[!UICONTROL Publish]**。
+1. 按一下&#x200B;**[!UICONTROL 發佈]**。
 1. 在&#x200B;**[!UICONTROL 對象]**區段中，檢查設定檔是否已正確更新。
    ![](assets/test-profiles-28.png)
 
@@ -174,9 +174,12 @@ ht-degree: 3%
    ![](assets/test-profiles-21.png)
 
 您的測試設定檔已新增，現在可用於測試歷程。 請參閱[本節](../building-journeys/testing-the-journey.md)。
+
+
 >[!NOTE]
 >
 > 如需csv匯入的詳細資訊，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}。
+
 
 ## 使用API呼叫建立測試設定檔{#create-test-profiles-api}
 
