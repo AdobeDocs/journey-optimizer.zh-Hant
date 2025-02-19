@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '767'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 7%
 >title="表示方式"
 >abstract="新增表示方式以定義您的產品建議在訊息中顯示的位置。產品建議具有的表示方式越多，在不同位置內容中使用產品建議的機會就越多。"
 
-選件可顯示在訊息中的不同位置：在含有影像的頂端橫幅中、作為段落中的文字、作為HTML區塊等。 產品建議具有的表示方式越多，在不同位置內容中使用產品建議的機會就越多。
+選件可顯示在訊息中的不同位置：在含有影像的頂端橫幅中、在段落中作為文字、在HTML區塊中等。 產品建議具有的表示方式越多，在不同位置內容中使用產品建議的機會就越多。
 
 ## 設定優惠的宣告 {#representations}
 
@@ -88,9 +88,9 @@ ht-degree: 7%
 
 ### 新增HTML或JSON檔案 {#html-json}
 
-如果選取的位置為HTML型別，您也可以新增來自[Adobe Experience Cloud資產資料庫](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}的HTML或JSON內容。
+如果選取的位置為HTML型別，您也可以新增來自[HTML資產庫](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}的Adobe Experience Cloud或JSON內容。
 
-例如，您已於[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"}建立HTML電子郵件範本，且您想要將該檔案用於您的優惠方案內容。 您不必建立新檔案，只要將範本上傳到&#x200B;**資產庫**，就能在優惠方案代表中重複使用它。
+例如，您已於[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"}建立HTML電子郵件範本，且想要將該檔案用於您的優惠方案內容。 您不必建立新檔案，只要將範本上傳到&#x200B;**資產庫**，就能在優惠方案代表中重複使用它。
 
 若要在呈現中重複使用您的內容，請依照[本節](#images)所述瀏覽&#x200B;**資產庫**，並選取您選擇的HTML或JSON檔案。
 
@@ -140,7 +140,7 @@ ht-degree: 7%
 
 在[Edge decisioning](../api-reference/offer-delivery-api/edge-decisioning-api.md)呼叫中傳遞內容資料時，您可以運用這些資料以動態方式個人化表示。 例如，您可以根據即時因素（例如在做出決定時的目前天氣條件）來定製優惠方案的表示方式。
 
-若要這麼做，請使用`profile.timeSeriesEvents.`名稱空間，將內容資料變數直接併入表現內容中。
+若要在優惠方案表示中使用內容資料，請使用`profile.timeSeriesEvents.`名稱空間，直接將內容資料變數併入表示內容。
 
 以下是根據使用者的作業系統來個人化優惠方案表現的語法範例：
 

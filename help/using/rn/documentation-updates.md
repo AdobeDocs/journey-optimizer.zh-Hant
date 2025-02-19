@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '6064'
-ht-degree: 96%
+source-wordcount: '6117'
+ht-degree: 95%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 96%
 * 在決定和決定管理區段中新增了護欄和限制。
    * [決策護欄和限制](../experience-decisioning/decisioning-guardrails.md)
    * [決策管理護欄和限制](../offers/decision-management-guardrails.md)
+* 已在決定管理檔案中新增內容資料的新區段。 它提供如何在決定引擎中運用內容資料的資訊，例如，設計決定規則，要求作出決定請求時目前的天氣為≥80度。 [閱讀全文](../offers/context-data.md)
 
 ## 2025 年 1 月 {#jan-2025}
 

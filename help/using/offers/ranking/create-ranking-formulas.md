@@ -5,11 +5,12 @@ feature: Ranking, Decision Management
 topic: Integrations
 role: User
 level: Intermediate
+mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: baf76d3c571c62105c1f0a59e07ca70e61a83cc6
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 3%
+source-wordcount: '595'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 3%
 
 排名公式以&#x200B;**PQL語法**&#x200B;表示，而且可以利用設定檔屬性、內容資料和優惠屬性。 如需如何使用PQL語法的詳細資訊，請參閱[專屬檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=zh-Hant)。
 
-建立排名公式後，您就可以將其指派給決定中的位置。 如需深入了解，請參閱[在決策設定優惠方案選取項目](../offer-activities/configure-offer-selection.md)。
+建立排名公式後，您就可以將其指派給決定中的位置。 如需深入了解，請參閱[在決策設定產品建議選取項目](../offer-activities/configure-offer-selection.md)。
 
 ## 建立排名公式 {#create-ranking-formula}
 
@@ -37,7 +38,7 @@ ht-degree: 3%
 
 1. 指定公式名稱、說明和公式。
 
-   在此範例中，如果實際天氣炎熱，我們想提高所有具有「炎熱」屬性之選件的優先順序。 若要這麼做，已在決策呼叫中傳遞&#x200B;**contextData.weather=hot**。
+   在此範例中，如果實際天氣炎熱，我們想提高所有具有「炎熱」屬性之選件的優先順序。 若要這麼做，已在決策呼叫中傳遞&#x200B;**contextData.weather=hot**。 [瞭解如何使用內容資料](../context-data.md)
 
    ![](../assets/ranking-syntax.png)
 
@@ -105,42 +106,6 @@ if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 
 if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
 ```
 
-### 根據內容資料，透過特定選件屬性提升選件
-
-根據決策呼叫中傳遞的內容資料，提升特定優惠方案。 例如，如果在決策呼叫中傳遞`contextData.weather=hot`，則必須提升所有具有`attribute=hot`的優惠方案的優先順序。
-
-**排名公式：**
-
-```
-if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
-and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
-```
-
-請注意，使用決策API時，內容資料會新增至請求內文中的設定檔元素，如下例所示。
-
-**要求內文的程式碼片段：**
-
-```
-"xdm:profiles": [
-{
-    "xdm:identityMap": {
-        "crmid": [
-            {
-            "xdm:id": "CRMID1"
-            }
-        ]
-    },
-    "xdm:contextData": [
-        {
-            "@type":"_xdm.context.additionalParameters;version=1",
-            "xdm:data":{
-                "xdm:weather":"hot"
-            }
-        }
-    ]
- }],
-```
-
 ### 根據客戶購買所提供產品的傾向提升優惠方案
 
 您可以根據客戶傾向分數來提升優惠方案的分數。
@@ -169,14 +134,100 @@ and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;ver
 }
 ```
 
-選件會包含&#x200B;*propensityType*&#x200B;的屬性，該屬性符合分數中的類別：
+### 根據內容資料提升優惠方案 {#context-data}
 
-![](../assets/ranking-example-propensityType.png)
+[!DNL Journey Optimizer]可讓您根據呼叫中傳遞的內容資料，提升某些優惠方案。 例如，如果傳遞`contextData.weather=hot`，則必須提升所有具有`attribute=hot`的優惠方案的優先順序。 有關如何使用&#x200B;**Edge Decisioning**&#x200B;和&#x200B;**Decisioning** API傳遞內容資料的詳細資訊，請參閱[本節](../context-data.md)
 
-您的排名公式就可以將每個優惠方案的優先順序設定為等於該&#x200B;*propensityType*&#x200B;的客戶&#x200B;*propensityScore*。 如果找不到分數，請使用優惠方案上設定的靜態優先順序：
+請注意，使用&#x200B;**決策** API時，內容資料會新增至請求內文中的設定檔元素，如下例所示。
 
 ```
-let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring
-             where _Individual_Scoring1.core.category.equals(offer.characteristics.get("propensityType"), false)).head().core.propensityScore
-in if(score.isNotNull(), score, offer.rank.priority)
+"xdm:profiles": [
+{
+    "xdm:identityMap": {
+        "crmid": [
+            {
+            "xdm:id": "CRMID1"
+            }
+        ]
+    },
+    "xdm:contextData": [
+        {
+            "@type":"_xdm.context.additionalParameters;version=1",
+            "xdm:data":{
+                "xdm:weather":"hot"
+            }
+        }
+    ]
+    
+}],
 ```
+
+以下範例說明如何在排名公式中使用內容資料來提升優惠方案的優先順序。 展開每個區段，以取得排名公式語法的詳細資訊。
+
+>[!NOTE]
+>
+>在Edge Decisioning API範例中，將`<OrgID>`取代為您的組織租使用者ID。
+
++++如果內容資料的管道符合客戶偏好的管道，則將優惠方案優先順序提升10
+
+>[!BEGINTABS]
+
+>[!TAB 決策API]
+
+`if (@{_xdm.context.additionalParameters;version=1}.channel.isNotNull() and @{_xdm.context.additionalParameters;version=1}.channel.equals(_abcMobile.preferredChannel), offer.rank.priority + 10, offer.rank.priority)`
+
+>[!TAB Edge Decisioning API]
+
+`if (xEvent.<OrgID>.channel.isNotNull() and xEvent.<OrgID>.channel.equals(_abcMobile.preferredChannel), offer.rank.priority + 10, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++如果在呼叫中傳遞&quot;contextData.weather=hot&quot;，則提升具有&quot;attribute=hot&quot;之所有選件的優先順序。
+
+>[!BEGINTABS]
+
+>[!TAB 決策API]
+
+`if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull() and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)`
+
+>[!TAB Edge Decisioning API]
+
+`if (xEvent.<OrgID>.weather.isNotNull() and offer.characteristics.get("weather")=xEvent.<OrgID>.weather, offer.rank.priority + 5, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++內容來源提升
+
+>[!BEGINTABS]
+
+>[!TAB 決策API]
+
+`if (@{_xdm.context.additionalParameters;version=1}.contentorigin.isNotNull() and offer.characteristics.contentorigin=@{_xdm.context.additionalParameters;version=1}.contentorigin, offer.rank.priority * 100, offer.rank.priority)`
+
+>[!TAB Edge Decisioning API]
+
+`if (xEvent.<OrgID>.contentorigin.isNotNull() and offer.characteristics.contentorigin=xEvent.<OrgID>.contentorigin, offer.rank.priority * 100, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++天氣提升
+
+>[!BEGINTABS]
+
+>[!TAB 決策API]
+
+`if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull() and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority * offer.characteristics.scoringBoost, offer.rank.priority)`
+
+>[!TAB Edge Decisioning API]
+
+`if (xEvent.<OrgID>.weather.isNotNull() and offer.characteristics.weather=xEvent.<OrgID>.weather, offer.rank.priority * offer.characteristics.scoringBoost, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
