@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '2513'
-ht-degree: 93%
+source-wordcount: '2305'
+ht-degree: 91%
 
 ---
 
@@ -75,6 +75,17 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 視覺片段僅可用於電子郵件管道。
 * 運算式片段不適用於應用程式內管道。
 
+## 客群護欄 {#audience}
+
+您可以在指定的沙箱中發佈最多 10 個客群組合。如果您達到此臨界值，則需要刪除組合以釋放空間，才能發佈新的組合。
+
+## 決策與決策管理護欄 {#decisioning}
+
+使用決策或決策管理時需要牢記的護欄和限制會在以下決策和決策管理部分中詳細說明：
+
+* [決策護欄和限制](../experience-decisioning/decisioning-guardrails.md)
+* [決策管理護欄和限制](../offers/decision-management-guardrails.md)
+
 ## 歷程護欄 {#journeys-guardrails}
 
 ### 一般歷程護欄 {#journeys-guardrails-journeys}
@@ -85,7 +96,6 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 在歷程中使用客群資格篩選時，該客群資格篩選活動最多可能需要 10 分鐘，才會啟用和接聽進入或退出客群的輪廓。
 * 輪廓的歷程執行個體大小上限為 1MB。在歷程執行過程中收集的所有資料都會儲存在該歷程執行個體中。因此，來自傳入事件的資料、從 Adobe Experience Platform 擷取的輪廓資訊、自訂動作回應等會儲存在該歷程執行個體中，並影響歷程大小。當歷程以事件開始時，建議限制該事件承載的大小上限 (例如：低於 800 KB)，以避免在歷程執行中經過幾項活動後達到該限制。 當達到該限制時，輪廓處於錯誤狀態並將從歷程中排除。
 * 除了歷程活動中使用的逾時之外，還有一個不會顯示在介面且無法變更的全域歷程逾時。 此全域逾時會在個人進入歷程 91 天後停止其進度。 [閱讀全文](../building-journeys/journey-properties.md#global_timeout)
-
 
 ### 一般動作 {#general-actions-g}
 
@@ -127,7 +137,6 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 單一歷程 (從事件或客群資格篩選開始) 包含可防止同一事件多次錯誤觸發歷程的護欄。 在預設情況下，輪廓重新進入時會暫時封鎖 5 分鐘。例如，如果某個事件在 12:01 觸發特定輪廓的歷程，而另一個事件在 12:03 達到時間限制 (無論是相同事件或是不同事件觸發相同歷程)，則此輪廓的歷程將不會再次開始。
 * Journey Optimizer 需將事件串流至資料收集核心服務 (DCCS)，才能觸發歷程。 批次收錄的事件，或來自內部 Journey Optimizer 資料集的事件（訊息意見回饋、電子郵件追蹤等等）不能用於觸發歷程。對於無法取得串流事件的使用案例，請根據這些事件建置對象，然後改為使用&#x200B;**讀取對象**&#x200B;活動。 技術上可使用客群資格篩選，但不建議使用，因為它可能會根據所使用的操作導致下游挑戰。
 
-
 ### 資料來源 {#data-sources-g}
 
 * 可在客戶歷程中利用外部資料來源即時查詢外部資料。 這些來源必須可透過 REST API 使用、支援 JSON 並且能夠處理大量請求。
@@ -153,7 +162,6 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 特定護欄套用於&#x200B;**[!UICONTROL 更新輪廓]**&#x200B;活動。它們會在[本頁面](../building-journeys/update-profiles.md)中列出。
 
-
 ### 讀取對象 {#read-segment-g}
 
 下列護欄適用於&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動：
@@ -166,18 +174,15 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 另請參閱[此頁面](../building-journeys/read-audience.md)中關於如何使用&#x200B;**讀取客群**&#x200B;活動的建議。
 * 擷取匯出工作時，預設會對對象觸發的歷程 (從&#x200B;**讀取客群**&#x200B;或&#x200B;**商業事件**&#x200B;開始) 套用重試。如果在匯出工作建立期間發生錯誤，將每隔 10 分鐘進行重試，最長為 1 小時。在這之後，我們會將其視為失敗。因此，這些類型的歷程可在排程時間後最多 1 小時執行。
 
-
 ### 客群資格篩選 {#audience-qualif-g}
 
 下列護欄適用於&#x200B;**[!UICONTROL 客群資格篩選]**&#x200B;活動：
 
 * 客群資格篩選活動無法與 Adobe Campaign 活動搭配使用。
 
-
 ### 運算式編輯器 {#expression-editor}
 
 * 從讀取客群、客群資格篩選或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。 您需要建立新對象，以及在歷程中使用非對象條件。
-
 
 ### 應用程式內活動 {#in-app-activity-limitations}
 
@@ -197,8 +202,6 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 * 應用程式內訊息內容大小限制為 2Mb。 包含大型影像可能會阻礙發佈過程。
 
-
-
 ### 跳轉活動 {#jump-g}
 
 特定護欄適用於&#x200B;**[!UICONTROL 跳轉]**&#x200B;活動。它們會[在本頁面](../building-journeys/jump.md#jump-limitations)中列出。
@@ -209,37 +212,3 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 * Adobe Campaign 活動不能與讀取客群或客群資格篩選活動搭配使用。
 * 這些活動無法與應用程式內活動搭配使用。
-
-## 客群護欄 {#audience}
-
-您可以在指定的沙箱中發佈最多 10 個客群組合。如果您達到此臨界值，則需要刪除組合以釋放空間，才能發佈新的組合。
-
-## 決策管理護欄 {#decision-management}
-
-### 效能護欄 {#performance-guardrails}
-
-傳遞輸送量對應至決策管理應用程式服務可在指定時間內傳遞的決策回應數。 每秒的決策數如下表所示。
-
-| API | 每秒決策數 |
-|---------|----------|
-| 決策 API 請求 | 每秒 500 個 |
-| Edge Decisioning API 請求與 Edge 分段 | 每秒 1,500 個 |
-| Edge Decisioning API 請求不含 Edge 分段 | 每秒 5,000 個 |
-
-### 限制 {#offers-limitations}
-
-決策管理限制如下所列。
-
-* **核准的個人化產品建議 + 後備產品建議** - 核准的個人化產品建議與核准的後備產品建議合併計算，最多 10,000 個。
-* **決策** - 最多 10,000 個決策。
-* **即時決策** - Offer Decisioning 應用程式服務支援最多 1,000 個即時決策。
-* **每個回應傳回的產品建議數** - Offer Decisioning 在請求中的所有決策範圍，支援每個請求最多傳回 100 個產品建議。
-* **集合** - 最多 10,000 個集合。
-* **每個決策的集合** - 每個決策最多 30 個集合。
-* **決定規則 + 排名函數** - 決定規則和排名函數合併計算，最多 10,000 個。
-* **位置** - 最多 1,000 個位置。
-* **每個決策的位置** - 每個決策最多 30 個位置。
-* **每個決策的排名方法** - Offer Decisioning 應用程式服務支援每個決策最多 30 個排名函數。
-* **AI 排名模型** - Offer Decisioning 應用程式服務支援最多 5 個 AI 排名模型。
-* **每個產品建議或集合的集合限定詞** - 在任何單一個人化產品建議或單一集合中，Offer Decisioning 應用程式服務支援最多 20 個集合限定詞。
-* **集合限定詞總數** -Offer Decisioning 應用程式服務支援最多 1,000 個集合限定詞。

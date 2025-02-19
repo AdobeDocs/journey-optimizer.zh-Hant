@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2174'
 ht-degree: 97%
 
 ---
@@ -452,6 +452,7 @@ ht-degree: 97%
    + [開始使用決定功能](using/experience-decisioning/gs-decision.md)
    + Decisioning{#experience-decisioning}
       + [開始使用 Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+      + [決策護欄和限制](using/experience-decisioning/decisioning-guardrails.md)
       + API 參考{#api-reference}
          + 決定項目{#decision-items}
             + [建立決定項目](using/experience-decisioning/api-reference/decisions-items/create.md)
@@ -486,6 +487,7 @@ ht-degree: 97%
    + 決定管理 {#offer-decisioning}
       + 開始使用決定管理 {#get-started-decision}
          + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
+         + [決策管理護欄和限制](using/offers/decision-management-guardrails.md)
          + [使用者介面](using/offers/get-started/user-interface.md)
          + [建立和管理產品建議的重要步驟](using/offers/offer-library/key-steps.md)
          + [善用自訂上傳對象，以便做決策](using/offers/custom-upload-decisioning.md)
