@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 324e477ca334e2d614265b3ea25428bea089ac69
+source-git-commit: 8f296109555edcfdc9e66fae312e6100e98ed78e
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 21%
+source-wordcount: '1356'
+ht-degree: 20%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 21%
 
 在能夠產生此檔案之前，您需要建立：
 
-1. [檔案路由組態](#file-routing-configuration)，指定要匯出檔案的伺服器，並視需要加密檔案。
+1. [檔案路由組態](#file-routing-configuration)，指定檔案匯出的伺服器，並視需要加密檔案。
 
    >[!CAUTION]
    >
-   >若要建立檔案路由設定，您必須擁有&#x200B;**[!DNL Manage file routing]**&#x200B;內建許可權。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)。
+   >若要建立檔案路由設定，您必須擁有&#x200B;**[!DNL Manage file routing]**&#x200B;內建許可權。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
 
-1. 將參考檔案路由設定的[直接郵件設定](#direct-mail-configuration)。 如果您尚未設定任何檔案路由選項，您將無法建立直接郵件設定。
+1. [直接郵件設定](#direct-mail-configuration)，將參考檔案路由設定。 如果您尚未設定任何檔案路由選項，您將無法建立直接郵件設定。
 
 ## 設定檔案路由 {#file-routing-configuration}
 
@@ -68,97 +68,99 @@ ht-degree: 21%
 
 若要設定檔案路由，請遵循下列步驟。
 
-1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 直接郵件設定]** > **[!UICONTROL 檔案路由]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立路由設定]**。
+1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 直接郵件設定]** > **[!UICONTROL 檔案路由]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立檔案路由設定]**。
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. 設定組態的名稱。
 
-1. 選取您要用於匯出直接郵件檔案的伺服器型別：Amazon S3、SFTP、Azure或資料登陸區域。 每種伺服器型別的特定欄位會在以下標籤中詳細說明。
+1. 選取您要用於匯出直接郵件檔案的伺服器型別：Amazon S3、SFTP、Azure或資料登陸區域。
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
-1. 選取&#x200B;**[!UICONTROL 提交]**。 檔案路由設定是以&#x200B;**[!UICONTROL 作用中]**&#x200B;狀態建立的。 現在已準備好用於[直接郵件組態](#direct-mail-surface)。
+1. 請填入每種伺服器型別的特定欄位，如以下標籤所詳述。
 
-   您也可以選取&#x200B;**[!UICONTROL 另存為草稿]**&#x200B;以建立檔案路由組態，但您無法在組態中選取它，直到它是&#x200B;**[!UICONTROL 作用中]**&#x200B;為止。
+   >[!BEGINTABS]
 
->[!BEGINTABS]
+   >[!TAB Amazon S3]
 
->[!TAB Amazon S3]
+   如果您選取&#x200B;**[!UICONTROL Amazon S3]**&#x200B;做為&#x200B;**[!UICONTROL 伺服器型別]**：
 
-1. 選取&#x200B;**[!UICONTROL Amazon S3]**&#x200B;做為&#x200B;**[!UICONTROL 伺服器型別]**。
+   1. 填寫伺服器的詳細資訊和認證
 
-1. 填寫伺服器的詳細資訊和認證
+      * **AWS貯體名稱**：若要瞭解在何處尋找您的AWS貯體名稱，請參閱[此頁面](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)。
 
-   * **AWS貯體名稱**：若要瞭解在何處尋找您的AWS貯體名稱，請參閱[此頁面](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)。
+      * **AWS存取金鑰**：若要瞭解在何處尋找您的AWS存取金鑰ID，請參閱[此頁面](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys)。
 
-   * **AWS存取金鑰**：若要瞭解在何處尋找您的AWS存取金鑰ID，請參閱[此頁面](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys)。
+      * **AWS秘密金鑰**：若要瞭解在何處尋找您的AWS秘密金鑰，請參閱[此頁面](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/)。
 
-   * **AWS秘密金鑰**：若要瞭解在何處尋找您的AWS秘密金鑰，請參閱[此頁面](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/)。
+      * **AWS區域**：選擇伺服器基礎結構將位於的&#x200B;**[!UICONTROL AWS區域]**。 AWS區域是AWS用來託管其雲端基礎結構的地理區域。 一般而言，建議您選擇距離直接郵件提供者位置最近的區域。
 
-   * **AWS區域**：選擇伺服器基礎結構將位於的&#x200B;**[!UICONTROL AWS區域]**。 AWS區域是AWS用來託管其雲端基礎結構的地理區域。 一般而言，建議您選擇距離直接郵件提供者位置最近的區域。
+      ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
-   ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
+   1. 若要加密檔案，請在&#x200B;**[!UICONTROL PGP/GPG加密金鑰]**&#x200B;欄位中複製並貼上您的加密金鑰。
 
-1. 若要加密檔案，請在&#x200B;**[!UICONTROL PGP/GPG加密金鑰]**&#x200B;欄位中複製並貼上您的加密金鑰。
+   >[!TAB SFTP]
 
->[!TAB SFTP]
+   如果您選取&#x200B;**[!UICONTROL SFTP]**&#x200B;做為&#x200B;**[!UICONTROL 伺服器型別]**：
 
-1. 選取&#x200B;**[!UICONTROL SFTP]**&#x200B;做為&#x200B;**[!UICONTROL 伺服器型別]**。
+   1. 填寫伺服器的詳細資訊和認證：
 
-1. 填寫伺服器的詳細資訊和認證：
+      * **帳戶**：用來連線至SFTP伺服器的帳戶名稱。
 
-   * **帳戶**：用來連線至SFTP伺服器的帳戶名稱。
+      * **伺服器位址**： &#x200B;SFTP伺服器的URL。
 
-   * **伺服器位址**： &#x200B;SFTP伺服器的URL。
+      * **連線埠**： FTP連線連線埠號碼。
 
-   * **連線埠**： FTP連線連線埠號碼。
+      * **密碼**：&#x200B;用來連線至SFTP伺服器的密碼。
 
-   * **密碼**：&#x200B;用來連線至SFTP伺服器的密碼。
+      ![](assets/file-routing-config-sftp-detail.png)
 
-   ![](assets/file-routing-config-sftp-detail.png)
+      >[!NOTE]
+      >
+      >若要指定伺服器上儲存檔案的路徑，請更新直接郵件促銷活動的&#x200B;**[!UICONTROL 檔案名稱]**&#x200B;欄位，以包含所要的路徑。 [了解更多](create-direct-mail.md#extraction-file)
 
-   >[!NOTE]
-   >
-   >若要指定伺服器上儲存檔案的路徑，請更新直接郵件促銷活動的&#x200B;**[!UICONTROL 檔案名稱]**&#x200B;欄位，以包含所要的路徑。 [了解更多](create-direct-mail.md#extraction-file)
+   1. 若要加密檔案，請在&#x200B;**[!UICONTROL PGP/GPG加密金鑰]**&#x200B;欄位中複製並貼上您的加密金鑰。
 
-1. 若要加密檔案，請在&#x200B;**[!UICONTROL PGP/GPG加密金鑰]**&#x200B;欄位中複製並貼上您的加密金鑰。
+   >[!TAB Azure]
 
->[!TAB Azure]
+   如果您選取&#x200B;**[!UICONTROL Azure]**&#x200B;做為&#x200B;**[!UICONTROL 伺服器型別]**：
 
-1. 選取&#x200B;**[!UICONTROL Azure]**&#x200B;做為&#x200B;**[!UICONTROL 伺服器型別]**。
+   1. 填寫伺服器的詳細資訊和認證：
 
-1. 填寫伺服器的詳細資訊和認證：
+      * **Azure連線字串**：若要尋找您的&#x200B;**Azure連線字串**，請參閱[此頁面](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account)。
 
-   * **Azure連線字串**：若要尋找您的&#x200B;**Azure連線字串**，請參閱[此頁面](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account)。
+        **Azure連線字串**&#x200B;應遵循以下格式：
 
-     **Azure連線字串**&#x200B;應遵循以下格式：
+        `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
 
-     `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
+      * **容器名稱**：若要尋找您的&#x200B;**容器名稱**，請參閱[此頁面](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal)。
 
-   * **容器名稱**：若要尋找您的&#x200B;**容器名稱**，請參閱[此頁面](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal)。
+        **容器名稱**&#x200B;應僅包含容器名稱，不含任何斜線。
 
-     **容器名稱**&#x200B;應僅包含容器名稱，不含任何斜線。
+        >[!NOTE]
+        >
+        >若要指定容器內的路徑以儲存檔案，請更新直接郵件促銷活動的&#x200B;**[!UICONTROL 檔案名稱]**&#x200B;欄位，以包含所要的路徑。 [了解更多](create-direct-mail.md#extraction-file)
 
-     >[!NOTE]
-     >
-     >若要指定容器內的路徑以儲存檔案，請更新直接郵件促銷活動的&#x200B;**[!UICONTROL 檔案名稱]**&#x200B;欄位，以包含所要的路徑。 [了解更多](create-direct-mail.md#extraction-file)
+        ![](assets/file-routing-config-azure-detail.png)
 
-     ![](assets/file-routing-config-azure-detail.png)
+   1. 若要加密檔案，請在&#x200B;**[!UICONTROL PGP/GPG加密金鑰]**&#x200B;欄位中複製並貼上您的加密金鑰。
 
-1. 若要加密檔案，請在&#x200B;**[!UICONTROL PGP/GPG加密金鑰]**&#x200B;欄位中複製並貼上您的加密金鑰。
+   >[!TAB 資料登陸區域]
 
->[!TAB 資料登陸區域]
+   如果您選取&#x200B;**[!UICONTROL 資料登陸區域]**&#x200B;做為&#x200B;**[!UICONTROL 伺服器型別]**，則不需要特定的詳細資料。
 
-1. 選取&#x200B;**[!UICONTROL 資料登陸區域]**&#x200B;做為&#x200B;**[!UICONTROL 伺服器型別]**。
-
-1. 若要加密檔案，請在&#x200B;**[!UICONTROL PGP/GPG加密金鑰]**&#x200B;欄位中複製並貼上您的加密金鑰。
+   若要加密檔案，請在&#x200B;**[!UICONTROL PGP/GPG加密金鑰]**&#x200B;欄位中複製並貼上您的加密金鑰。
 
    ![](assets/file-routing-config-dlz-detail.png)
 
-在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中進一步瞭解資料登陸區域。
+   [!DNL Adobe Experience Platform]的所有客戶都已為每個沙箱布建一個資料登陸區域容器。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中進一步瞭解資料登陸區域。
 
->[!ENDTABS]
+   >[!ENDTABS]
+
+1. 填寫伺服器型別的詳細資料後，請選取&#x200B;**[!UICONTROL 提交]**。 檔案路由設定是以&#x200B;**[!UICONTROL 作用中]**&#x200B;狀態建立的。 現在已準備好用於[直接郵件組態](#direct-mail-surface)。
+
+   您也可以選取&#x200B;**[!UICONTROL 另存為草稿]**&#x200B;以建立檔案路由組態，但您無法在組態中選取它，直到它是&#x200B;**[!UICONTROL 作用中]**&#x200B;為止。
 
 ## 建立直接郵件設定 {#direct-mail-surface}
 
