@@ -9,16 +9,18 @@ role: User
 level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 53%
+source-wordcount: '989'
+ht-degree: 52%
 
 ---
 
 # 疑難排解您的歷程 {#troubleshooting}
 
-在本節中，瞭解如何在測試或發佈之前疑難排解歷程。 下列所有檢查皆可在歷程處於測試模式或歷程為即時狀態時執行。建議您在測試模式中進行下列所有檢查，然後繼續發佈。請參閱[此頁面](../building-journeys/testing-the-journey.md)。
+在本節中，瞭解如何在測試或發佈之前疑難排解歷程。 下列所有檢查皆可在歷程處於測試模式或歷程為即時狀態時執行。建議您在測試模式中進行下列所有檢查，然後繼續發佈。在[此頁面](../building-journeys/testing-the-journey.md)中進一步瞭解測試模式。
+
+作為管理員，您還可以直接從使用者介面發出真正的API呼叫，以測試自訂動作設定。 在[本頁](../action/troubleshoot-custom-action.md)中瞭解更多。
 
 ## 請先檢查錯誤，然後再進行測試 {#checking-for-errors-before-testing}
 

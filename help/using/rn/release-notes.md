@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 63786170a4aaa5659751a9bb5febd98419e2e64a
+source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '768'
 ht-degree: 22%
 
 ---
@@ -129,7 +129,7 @@ ht-degree: 22%
 
 以下改良功能隨2月更新提供。
 
-* **歷程** — 您現在可以從管理區段傳送API呼叫來測試自訂動作。 這項新功能可協助您在歷程中使用自訂動作之前或之後，進行疑難排解。
+* **歷程** — 您現在可以從管理區段傳送API呼叫來測試自訂動作。 這項新功能可協助您在歷程中使用自訂動作之前或之後，進行疑難排解。 [閱讀全文](../action/troubleshoot-custom-action.md)
 
 * **資料集存留時間(TTL)** — 從本月開始，存留時間(TTL)護欄將推出至新沙箱和新組織中的Journey Optimizer系統產生的資料集，如下所示：
 
