@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: ef7ae0a6ad1f582f91e53fd93dabffa39036a584
+source-git-commit: c0698c949622dbd9b4d97eaefedb67ff9f557347
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 53%
+source-wordcount: '1030'
+ht-degree: 52%
 
 ---
 
@@ -97,13 +97,6 @@ ht-degree: 53%
 >title="其他輪廓"
 >abstract="若剩餘的輪廓和其他路徑中指定的任何條件都不相符，開啟此選項為剩餘輪廓建立額外路徑。"
 
->[!CONTEXTUALHELP]
->id="ajo_ao_publish"
->title="發佈您的客群"
->abstract="發佈您的組合以將產生的客群儲存到 Adobe Experience Platform 中。"
->
-[!BEGINSHADEBOX]
-
 此文件提供如何在 Adobe Journey Optimizer 中使用客群構成的詳細資訊。 如果您是只使用即時客戶輪廓的客戶，且不使用 Adobe Journey Optimizer， 請[按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}。
 
 >[!ENDSHADEBOX]
@@ -172,11 +165,6 @@ ht-degree: 53%
 >來自&#x200B;**對象構成**&#x200B;的對象會每天執行，因此您可能需要等候最多24小時，才能在Journey Optimizer中使用它們。 對象構成對象中的豐富屬性與上次執行構成一樣新，過去最多可達24小時。
 
 ## 存取組合 {#access}
-
->[!CONTEXTUALHELP]
->id="ajo_ao_publish"
->title="發佈您的客群"
->abstract="發佈您的組合以將產生的客群儲存到 Adobe Experience Platform 中。"
 
 所有建立的構成都可以從&#x200B;**[!UICONTROL 構成]**&#x200B;索引標籤存取。 您可以使用清單中的省略符號按鈕，隨時複製或刪除現有的構成。
 
