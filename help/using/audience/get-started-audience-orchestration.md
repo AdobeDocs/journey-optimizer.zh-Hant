@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: ef7ae0a6ad1f582f91e53fd93dabffa39036a584
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 28%
+source-wordcount: '1062'
+ht-degree: 53%
 
 ---
 
@@ -22,7 +22,87 @@ ht-degree: 28%
 >title="建立構成"
 >abstract="建立構成工作流程，以將現有的 Adobe Experience Platform 客群合併到視覺化畫布中，並利用各種活動 (分割、排除…) 建立新的客群。"
 
->[!BEGINSHADEBOX]
+>[!CONTEXTUALHELP]
+>id="ajo_ao_publish"
+>title="發佈您的客群"
+>abstract="發佈您的組合以將產生的客群儲存到 Adobe Experience Platform 中。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_audience"
+>title="客群活動"
+>abstract="客群活動可讓您在組合中包含屬於現有客群的其他輪廓。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_merge_types"
+>title="合併類型"
+>abstract="指定應如何合併選取客群的輪廓。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_exclude_type"
+>title="排除類型"
+>abstract="使用排除客群類型以排除屬於現有客群的輪廓。使用屬性類型的排除可讓您根據特定屬性排除輪廓。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_exclude"
+>title="排除活動"
+>abstract="排除活動可讓您透過選取現有客群或使用規則從您的組合中排除輪廓。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich"
+>title="擴充活動"
+>abstract="使用擴充活動透過來自 Adobe Experience Platform 資料集的其他屬性來擴充您的客群。例如，您可以新增與所購買產品相關的資訊 (例如名稱、價格或製造商 ID)，並利用這些資訊來個人化傳遞給客群的內容。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_dataset"
+>title="擴充資料集"
+>abstract="選取擴充資料集，其中會包含要和客群建立關聯的資料。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_criteria"
+>title="擴充條件"
+>abstract="選取欄位以用作來源資料集 (即客群) 和擴充資料集之間的調和金鑰。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_attributes"
+>title="擴充屬性"
+>abstract="從擴充資料集中選取要和客群相關聯的一或多個屬性。一旦發佈組合，這些屬性就會和客群相關聯，並且可以在 Journey Optimizer 行銷活動中加以利用以將傳遞個人化。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_ranking"
+>title="排名活動"
+>abstract="排名可讓您根據特定屬性對輪廓進行排名，並將它們包含在您的組合中。例如，包含忠誠度點數最多的 50 個輪廓。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_rank_profilelimit_text"
+>title="新增輪廓限制"
+>abstract="開啟此選項以指定要包含在組合中的輪廓的最大數量。"
+
+<!-- [!CONTEXTUALHELP]
+>id="ajo_ao_control_group_text"
+>title="Control Group"
+>abstract="Use control groups to isolate a portion of the profiles. This allows you to measure the impact of a marketing activity and make a comparison with the behavior of the rest of the population."-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split"
+>title="分割活動"
+>abstract="分割活動可讓您將組合分成多個路徑。發佈組合時，會針對每個路徑儲存一個客群到 Adobe Experience Platform 中。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_type"
+>title="分割類型"
+>abstract="使用百分比分割類型將輪廓隨機分割為多個路徑。屬性分割類型可讓您根據特定屬性分割輪廓。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_otherprofiles_text"
+>title="其他輪廓"
+>abstract="若剩餘的輪廓和其他路徑中指定的任何條件都不相符，開啟此選項為剩餘輪廓建立額外路徑。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_publish"
+>title="發佈您的客群"
+>abstract="發佈您的組合以將產生的客群儲存到 Adobe Experience Platform 中。"
+>
+[!BEGINSHADEBOX]
 
 此文件提供如何在 Adobe Journey Optimizer 中使用客群構成的詳細資訊。 如果您是只使用即時客戶輪廓的客戶，且不使用 Adobe Journey Optimizer， 請[按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}。
 
@@ -75,7 +155,7 @@ ht-degree: 28%
 
    ![](assets/audiences-publish.png)
 
-1. 一旦您的構成準備就緒，請按一下&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕以發佈構成，並將產生的對象儲存到Adobe Experience Platform中。
+1. 一旦您的構成準備就緒，請按一下&#x200B;**[!UICONTROL 發佈]**&#x200B;按鈕以發佈構成並將產生的對象儲存到Adobe Experience Platform。
 
    >[!IMPORTANT]
    >
