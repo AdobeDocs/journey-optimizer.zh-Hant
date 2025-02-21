@@ -12,7 +12,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
 workflow-type: tm+mt
 source-wordcount: '1651'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"
 >title="自訂動作"
->abstract="如果您使用協力廠商系統來傳送訊息，或想要歷程傳送API呼叫至協力廠商系統，請使用自訂動作來設定其與您歷程的連線。"
+>abstract="如果您使用第三方系統來傳送訊息，或想要歷程傳送 API 呼叫至第三方系統，請使用自訂動作來設定第三方系統與歷程的連線。"
 
 如果您使用協力廠商系統來傳送訊息，或想要歷程傳送 API 呼叫至協力廠商系統，請使用自訂動作來設定系統至您歷程的連線。例如，您可以使用自訂動作連線到下列系統：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase等。
 

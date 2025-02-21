@@ -25,8 +25,8 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
->title="選取行銷活動的客群"
->abstract="此清單顯示所有可用的 Adobe Experience Platform 客群。為你的行銷活動選取目標客群。在行銷活動中設定的訊息將傳送給屬於所選客群的所有個人。[進一步了解客群](../audience/about-audiences.md)"
+>title="選取行銷活動的對象"
+>abstract="此清單顯示所有可用的 Adobe Experience Platform 對象。為你的行銷活動選取目標對象。在行銷活動中設定的訊息將傳送給屬於所選對象的所有個人。[進一步了解對象](../audience/about-audiences.md)"
 
 對象是具有相同類似行為和/或特徵的人的集合。 透過Adobe Experience Platform Segmentation Service，這些功能可在Adobe Experience Platform上集中設定和維護，並可在Journey Optimizer中輕鬆存取，以便在您的歷程和行銷活動中啟用。
 

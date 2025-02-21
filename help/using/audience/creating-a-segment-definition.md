@@ -20,7 +20,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
 >title="建立規則"
->abstract="建置規則建立方法讓您可以使用 Adobe Experience Platform Segmentation Service 建立新的客群定義。"
+>abstract="建置規則建立方法讓您可以使用 Adobe Experience Platform Segmentation Service 建立新的對象定義。"
 
 ## 建立區段定義 {#create}
 

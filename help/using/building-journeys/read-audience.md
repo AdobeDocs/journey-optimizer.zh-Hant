@@ -18,12 +18,12 @@ ht-degree: 11%
 
 # 在歷程中使用對象 {#segment-trigger-activity}
 
-## 新增讀取客群活動 {#about-segment-trigger-actvitiy}
+## 新增讀取對象活動 {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
->title="讀取客群活動"
->abstract="「讀取客群」活動可讓您安排屬於 Adobe Experience Platform 客群的所有個人進入歷程。進入歷程可以執行一次，也可以定期執行。"
+>title="讀取對象活動"
+>abstract="「讀取對象」活動可讓您安排屬於 Adobe Experience Platform 對象的所有個人進入歷程。進入歷程可以執行一次，也可以定期執行。"
 
 使用&#x200B;**讀取對象**&#x200B;活動讓對象的所有個人進入歷程。 進入歷程可以執行一次，也可以定期執行。
 
@@ -162,7 +162,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 **區段**
 
-您可以使用&#x200B;**條件**&#x200B;活動來使用條件來執行分段。 例如，您可以讓VIP人員採用特定路徑，讓非VIP人員採用其他路徑。
+您可以使用&#x200B;**條件**&#x200B;活動來使用條件來執行分段。 例如，您可以讓VIP人員採用特定路徑，而非VIP人員則採用其他路徑。
 
 區段可根據：
 
@@ -176,7 +176,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 **排除**
 
-用於分段的相同&#x200B;**條件**&#x200B;活動（請參閱上文）也可讓您排除部分母體。 例如，您可以排除VIP人員，方法是讓這些人員流入具有緊接在後面的結束步驟的分支。
+用於分段的相同&#x200B;**條件**&#x200B;活動（請參閱上文）也可讓您排除部分母體。 例如，您可以排除VIP人員，方法是讓該人員流入之後有結束步驟的分支。
 
 此排除作業可能會在對象擷取之後發生、基於母體計數目的或沿著多步驟歷程發生。
 
@@ -188,7 +188,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 因此，您可以讓兩個對象回到共同體驗。
 
-例如，在歷程中追蹤十天內的不同體驗後，VIP和非VIP客戶可以返回相同路徑。
+例如，在歷程中追蹤十天內的不同體驗後，VIP和非VIP客戶可以回到相同路徑。
 
 聯合後，您可以執行細分或排除來再次分割對象。
 

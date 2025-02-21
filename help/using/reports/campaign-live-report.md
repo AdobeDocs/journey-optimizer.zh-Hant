@@ -203,7 +203,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_excluded_reasons"
 >title="電子郵件 - 排除原因"
->abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者輪廓被排除在目標客群之外，而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者輪廓被排除在目標對象之外，而未能收到訊息的各項因素。"
 
 ![](assets/campaign_email_live_excluded.png)
 
@@ -222,7 +222,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 電子郵件 — 最佳收件者網域]**&#x200B;圖表和表格提供過去24小時內設定檔最常用來開啟電子郵件之網域的完整劃分。 這可提供描述檔行為的寶貴見解，可幫助您瞭解偏好的平台。
 
-### 電子郵件 - 優惠 {#email-offers}
+### 電子郵件 - 產品建議 {#email-offers}
 
 >[!NOTE]
 >
@@ -371,7 +371,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_excluded_reasons"
 >title="推播通知 - 排除原因"
->abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者輪廓被排除在目標客群之外，而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者輪廓被排除在目標對象之外而未能收到訊息的各項因素。"
 
 **[!UICONTROL 排除的原因]**&#x200B;圖表和表格會顯示阻止使用者設定檔從目標設定檔排除的原因，導致其在過去24小時內無法接收推播通知。
 
@@ -481,7 +481,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
 >title="簡訊 - 排除原因"
->abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者輪廓被排除在目標客群之外，而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者輪廓被排除在目標對象之外而未能收到訊息的各項因素。"
 
 ![](assets/campaign_live_sms_excluded.png)
 
@@ -592,7 +592,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"
 >title="直接郵件 - 排除原因"
->abstract="「直接郵件排除原因」圖表和表格說明在過去 24 小時內導致使用者輪廓被排除在目標客群之外而未能收到訊息的各項因素。"
+>abstract="「直接郵件排除原因」圖表和表格說明在過去 24 小時內導致使用者輪廓被排除在目標對象之外而未能收到訊息的各項因素。"
 
 ![](assets/campaign_live_directmail_excluded.png)
 

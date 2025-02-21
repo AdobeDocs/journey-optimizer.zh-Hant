@@ -68,7 +68,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="定義資格"
->abstract="依預設，任何輪廓都有資格獲得產品建議，但您可以使用客群或決定規則將產品建議限制給特定輪廓。"
+>abstract="依預設，任何輪廓都有資格獲得產品建議，但您可以使用對象或決定規則將產品建議限制給特定輪廓。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -79,7 +79,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="總輪廓估計值"
->abstract="當您選取客群或決定規則時，您可以看到有關預估合格輪廓的資訊。"
+>abstract="當您選取對象或決定規則時，您可以看到有關預估合格輪廓的資訊。"
 
 **[!UICONTROL 優惠資格]**&#x200B;區段可讓您將優惠限製為您使用對象或決定規則定義的特定設定檔。
 

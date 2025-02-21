@@ -304,7 +304,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_excluded_live"
 >title="電子郵件 - 排除原因"
->abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者輪廓被排除在目標客群之外，而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者輪廓被排除在目標對象之外，而未能收到訊息的各項因素。"
 
 ![](assets/journey_live_email_excluded.png)
 
@@ -481,7 +481,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons_live"
 >title="推播通知 - 排除原因"
->abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者輪廓被排除在目標客群之外，而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者輪廓被排除在目標對象之外而未能收到訊息的各項因素。"
 
 ![](assets/journey_live_push_excluded.png)
 
@@ -566,7 +566,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_live"
 >title="簡訊 - 排除原因"
->abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者輪廓被排除在目標客群之外，而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者輪廓被排除在目標對象之外而未能收到訊息的各項因素。"
 
 ![](assets/journey_live_sms_excluded.png)
 

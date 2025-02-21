@@ -24,8 +24,8 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
 >title="限制符合資格的輪廓"
->abstract="您可以限制此選擇策略的產品建議選擇。 預設情況下，所有輪廓都符合資格，但您可以使用客群或規則將產品建議選擇限制為僅限特定輪廓。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用客群"
+>abstract="您可以限制此選擇策略的產品建議選擇。 預設情況下，所有輪廓都符合資格，但您可以使用對象或規則將產品建議選擇限制為僅限特定輪廓。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用對象"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="使用決定規則"
 
 選取策略可重複使用，包含與適用性限制關聯的集合，以及決定在[決定原則](create-decision.md)中選取時顯示的優惠的排名方法。
@@ -68,7 +68,7 @@ ht-degree: 21%
 
    ![](assets/strategy-create-eligibility.png)
 
-   * 若要將優惠方案的選擇限制在Experience Platform對象的成員，請選取&#x200B;**[!UICONTROL 對象]**，然後從清單中選擇對象。 [學習如何使用客群](../audience/about-audiences.md)
+   * 若要將優惠方案的選擇限制在Experience Platform對象的成員，請選取「**[!UICONTROL 對象]**」，然後從清單中選擇對象。 [學習如何使用客群](../audience/about-audiences.md)
 
    * 如果您想要新增具有決定規則的選擇限制，請使用&#x200B;**[!UICONTROL 決定規則]**&#x200B;選項並選取您選擇的規則。 [瞭解如何建立規則](rules.md)
 

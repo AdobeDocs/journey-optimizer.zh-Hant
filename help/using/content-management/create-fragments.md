@@ -21,7 +21,7 @@ ht-degree: 15%
 >id="ajo_create_visual_fragment"
 >title="選取視覺內容類型"
 >abstract="建立獨立的視覺內容片段，以便在某個歷程或行銷活動的電子郵件中，或是某個內容範本中可以重複使用你的內容。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="在你的電子郵件中新增視覺內容片段"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="在您的電子郵件中新增視覺片段"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
@@ -77,7 +77,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->若要發佈片段，您必須擁有[Publish片段](../administration/ootb-product-profiles.md#content-library-manager)使用者許可權。
+>若要發佈片段，您必須擁有[發佈片段](../administration/ootb-product-profiles.md#content-library-manager)使用者許可權。
 
 如果您的片段已準備好上線，您可以預覽和發佈它以使其可在您的歷程和行銷活動中使用。 若要執行此操作，請遵循下列步驟。
 
@@ -87,7 +87,7 @@ ht-degree: 15%
 
    ![](assets/fragment-preview.png)
 
-1. 按一下右上角的&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕以發佈片段。
+1. 按一下右上角的&#x200B;**[!UICONTROL 發佈]**&#x200B;按鈕以發佈片段。
 
 1. 如果片段用於即時歷程或行銷活動中，則會開啟訊息以通知您。 按一下&#x200B;**[!UICONTROL 檢視更多]**&#x200B;連結可存取參考它的歷程及/或行銷活動清單。 [瞭解如何探索片段的參考](../content-management/manage-fragments.md#explore-references)
 

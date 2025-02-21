@@ -20,12 +20,12 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="建立構成"
->abstract="建立構成工作流程，以將現有的 Adobe Experience Platform 客群合併到視覺化畫布中，並利用各種活動 (分割、排除…) 建立新的客群。"
+>abstract="建立構成工作流程，以將現有的 Adobe Experience Platform 對象合併到視覺化畫布中，並利用各種活動 (分割、排除…) 建立新的對象。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
->title="發佈您的客群"
->abstract="發佈您的組合以將產生的客群儲存到 Adobe Experience Platform 中。"
+>title="發佈您的對象"
+>abstract="發佈您的組合以將產生的對象儲存到 Adobe Experience Platform 中。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"

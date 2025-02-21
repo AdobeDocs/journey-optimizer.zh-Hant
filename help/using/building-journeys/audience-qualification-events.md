@@ -18,12 +18,12 @@ ht-degree: 10%
 
 # 對象資格事件 {#segment-qualification}
 
-## 關於客群資格鑑定事件{#about-segment-qualification}
+## 關於對象資格鑑定事件{#about-segment-qualification}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
->title="客群資格鑑定事件"
->abstract="本活動可讓您的歷程監聽輪廓是否符合 Adobe Experience Platform 客群資格，讓個人進入歷程或在歷程中前進。"
+>title="對象資格鑑定事件"
+>abstract="本活動可讓您的歷程監聽輪廓是否符合 Adobe Experience Platform 對象資格，讓個人進入歷程或在歷程中前進。"
 
 此活動可讓您的歷程聆聽Adobe Experience Platform對象中設定檔的入口和出口，以便讓個人進入歷程或是在歷程中前進。 如需建立對象的詳細資訊，請參閱此[區段](../audience/about-audiences.md)。
 
@@ -48,7 +48,7 @@ ht-degree: 10%
 
 * 從讀取對象、對象資格或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。
 
-* 在歷程中使用客群資格時，該客群資格活動最多可能需要 10 分鐘，才會啟用和接聽進入或退出客群的輪廓。
+* 在歷程中使用客群資格篩選時，該客群資格篩選活動最多可能需要 10 分鐘，才會啟用和接聽進入或退出客群的輪廓。
 
 ### 設定活動{#cnfigure-segment-qualification}
 
@@ -138,6 +138,6 @@ ht-degree: 10%
 
 ## 作法影片 {#video}
 
-了解客群資格歷程的適用使用案例。 了解如何透過客群資格建立歷程，以及套用哪些最佳實務。
+了解客群資格篩選歷程的適用使用案例。 了解如何透過客群資格篩選建立歷程，以及套用哪些最佳實務。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

@@ -21,7 +21,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="內容實驗"
->abstract="您可以選擇改變訊息內容、主題或寄件者，以便定義多種處理方式並確定最適合您的客群的組合。"
+>abstract="您可以選擇改變訊息內容、主題或寄件者，以便定義多種處理方式並確定最適合您的對象的組合。"
 
 >[!NOTE]
 >

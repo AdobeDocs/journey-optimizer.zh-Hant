@@ -49,12 +49,12 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
 >title="檢視潛在衝突"
->abstract="有可能與其他行銷活動重疊時，皆要進行檢查。僅會呈現即時和已排程行銷活動的衝突。請注意，只要您指派以下任何一項設定，即可使用該按鈕：「**[!UICONTROL 開始/結束日期]**」、「**[!UICONTROL 客群]**」、「**[!UICONTROL 管道]**」、「**[!UICONTROL 管道設定]**」或「**[!UICONTROL 規則集]**」。"
+>abstract="有可能與其他行銷活動重疊時，皆要進行檢查。僅會呈現即時和已排程行銷活動的衝突。請注意，只要您指派以下任何一項設定，即可使用該按鈕：「**[!UICONTROL 開始/結束日期]**」、「**[!UICONTROL 對象]**」、「**[!UICONTROL 管道]**」、「**[!UICONTROL 管道設定]**」或「**[!UICONTROL 規則集]**」。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
 >title="檢視潛在衝突"
->abstract="有可能與其他歷程重疊時，皆要進行檢查。僅會呈現即時和已排程歷程的衝突。請注意，只要您指派以下任何一項設定，即可使用該按鈕：「**[!UICONTROL 開始/結束日期]**」、「**[!UICONTROL 客群]**」、「**[!UICONTROL 管道]**」、「**[!UICONTROL 管道設定]**」，或「**[!UICONTROL 規則集]**」。"
+>abstract="有可能與其他歷程重疊時，皆要進行檢查。僅會呈現即時和已排程歷程的衝突。請注意，只要您指派以下任何一項設定，即可使用該按鈕：「**[!UICONTROL 開始/結束日期]**」、「**[!UICONTROL 對象]**」、「**[!UICONTROL 管道]**」、「**[!UICONTROL 管道設定]**」，或「**[!UICONTROL 規則集]**」。"
 
 製作歷程或行銷活動時，Journey Optimizer可讓您檢查與其他歷程或行銷活動重疊的可能性。 要執行此操作，請依照下列步驟執行：
 

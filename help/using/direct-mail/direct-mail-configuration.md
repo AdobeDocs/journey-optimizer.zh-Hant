@@ -35,7 +35,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="定義檔案路由設定"
->abstract="建立直接郵件訊息後，會產生包含目標客群資料的檔案並將其匯出到伺服器。您需要指定伺服器的詳細資訊，以便您的直接郵件提供者可以存取和使用該檔案來傳遞直接郵件。"
+>abstract="建立直接郵件訊息後，會產生包含目標對象資料的檔案並將其匯出到伺服器。您需要指定伺服器的詳細資訊，以便您的直接郵件提供者可以存取和使用該檔案來傳遞直接郵件。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="建立新的直接郵件訊息"
 
 >[!CONTEXTUALHELP]
@@ -167,7 +167,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
 >title="定義檔案分割臨界值"
->abstract="您必須為包含客群資料的每個檔案設定最大記錄數。您可以選取 1 到 200,000 筆記錄之間的任一數字。達到指定的臨界值後，將為剩餘記錄建立另一個檔案。"
+>abstract="您必須為包含對象資料的每個檔案設定最大記錄數。您可以選取 1 到 200,000 筆記錄之間的任一數字。達到指定的臨界值後，將為剩餘記錄建立另一個檔案。"
 
 若要能夠透過[!DNL Journey Optimizer]傳遞直接郵件，您必須建立通道設定，以定義郵件提供者將使用的檔案格式設定。
 
