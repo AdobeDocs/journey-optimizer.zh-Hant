@@ -17,8 +17,8 @@ ht-degree: 26%
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="什麼是 Decisioning？"
->abstract="Decisioning 是決策管理以外的新工具，從決定引擎中挑選出最好的項目並傳送給每個個體。要使用 Decisioning 必須額外進行設定。"
+>title="什麼是決策?"
+>abstract="決策是決策管理以外的新工具，從決定引擎中挑選出最好的項目並傳送給每個個體。要使用決策必須額外進行設定。"
 
 ## 什麼是決策 {#about}
 
