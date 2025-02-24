@@ -10,9 +10,9 @@ level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -83,13 +83,13 @@ ht-degree: 96%
 
 ## 清單取消訂閱 {#list-unsubscribe}
 
-從清單中選取子網域時，會顯示&#x200B;**[!UICONTROL 啟用List-Unsubscribe]**&#x200B;選項。 預設為啟用。
+從清單中選取子網域後，會顯示&#x200B;**[!UICONTROL 啟用清單取消訂閱]** 選項。這項設定預設為啟用。
 
-它可讓您在電子郵件標題中加入一鍵式取消訂閱URL。 [了解更多](list-unsubscribe.md)
+它可讓您在電子郵件標題中加入一鍵式取消訂閱 URL。 [了解更多](list-unsubscribe.md)
 
 ## 標頭參數 {#email-header}
 
-在&#x200B;**[!UICONTROL 標頭引數]**&#x200B;區段中，輸入與該設定所傳送電子郵件型別相關的寄件者名稱和電子郵件地址。 [了解更多](header-parameters.md)
+在&#x200B;**[!UICONTROL 標頭參數]**&#x200B;區段中，輸入與該設定所傳送電子郵件類型相關的寄件者名稱和電子郵件地址。[了解更多](header-parameters.md)
 
 ## 密件副本電子郵件 {#bcc-email}
 
@@ -138,7 +138,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="新增種子清單"
->abstract="選取您所選的種子清單，以自動向您的對象新增特定的內部地址。這些種子地址將在傳遞執行時包含在內，且為了保證目的將收到一份準確的訊息副本。"
+>abstract="選取您所選的種子清單，以自動向您的客群新增特定的內部地址。這些種子地址將在傳遞執行時包含在內，且為了保證目的將收到一份準確的訊息副本。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單?"
 
 [!DNL Journey Optimizer] 內的種子清單，可讓您在您的傳送過程中自動包含特定的電子郵件種子地址。[了解更多](../configuration/seed-lists.md)

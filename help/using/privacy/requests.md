@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Privacy Service 支援兩種類型的請求：**資料存取**&#x200B;和&#x200B
 
 若要請求存取及刪除 Adobe Journey Optimizer 的資料，您必須：
 
-* Adobe組織ID
+* Adobe 組織 ID
 * 您要對其採取動作之人員的身分識別碼以及對應名稱空間。如需 Adobe Journey Optimizer 與 Experience Platform 身分命名空間的詳細資訊，請參閱[身分命名空間概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)。
 
 ### Adobe Journey Optimizer 用於 API 請求的必填欄位值
