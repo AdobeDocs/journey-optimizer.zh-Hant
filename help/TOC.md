@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
 source-wordcount: '2191'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -380,7 +380,7 @@ ht-degree: 96%
          + [自訂上傳](using/audience/custom-upload.md)
          + [聯合客群構成](using/audience/federated-audience-composition.md)
       + [行銷活動和歷程中的對象啟用](using/audience/target-audiences.md)
-      + [運用擴充屬性](using/audience/enrichment-attributes.md)
+      + [善用擴充屬性](using/audience/enrichment-attributes.md)
    + 輪廓{#profiles}
       + [開始使用輪廓](using/audience/get-started-profiles.md)
       + [建立測試輪廓](using/audience/creating-test-profiles.md)
@@ -388,12 +388,12 @@ ht-degree: 96%
    + [身分識別](using/audience/get-started-identity.md)
    + [授權使用情況](using/audience/license-usage.md)
 + 整合{#assets-images}
-   + [與其他解決方案的整合](using/integrations/ajo-integrations.md)
+   + [與其他解決方案整合](using/integrations/ajo-integrations.md)
    + [使用 Experience Manager Assets](using/integrations/assets.md)
    + [使用 Adobe Stock](using/integrations/stock.md)
-   + [使用Experience Manager範本](using/integrations/aem-templates.md)
-   + [使用Experience Manager內容片段](using/integrations/aem-fragments.md)
-   + [使用Dynamic Media](using/integrations/aem-dynamic.md)
+   + [使用 Experience Manager 模板工作](using/integrations/aem-templates.md)
+   + [使用 Experience Manager 內容片段工作](using/integrations/aem-fragments.md)
+   + [使用 Dynamic Media 工作](using/integrations/aem-dynamic.md)
 + 追蹤和監視 {#reporting}
    + 即時報告 {#live-report}
       + [開始使用即時報告](using/reports/live-report.md)

@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 22%
+ht-degree: 27%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 22%
 **發行日期**： 2025年2月18至19日
 
 
-### 全新功能 {#25-02-features}
+### 新功能 {#25-02-features}
 
 此版本隨附的新功能詳述如下。
 
@@ -114,11 +114,11 @@ ht-degree: 22%
 <tbody>
 <tr>
 <td>
-<p>彈性的受眾評估可讓您視需求針對選取的受眾執行細分工作，確保在將受眾鎖定目標至Journey Optimizer歷程和行銷活動之前，您始終擁有最新的受眾資料。</p>
+<p>彈性客群評估可讓您視需求針對選取的客群執行細分工作，確保在將客群鎖定目標至 Journey Optimizer 歷程和行銷活動之前，始終擁有最新的客群資料。</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>如需詳細資訊，請參閱<a href="../audience/creating-a-segment-definition.md#flexible">詳細文件</a>。</p>
 <p>此功能僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
-<p>推出日期：2025年1月28日</p>
+<p>推出日期：2025 年 1 月 28 日</p>
 </tr>
 </tbody>
 </table>
@@ -153,7 +153,7 @@ ht-degree: 22%
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 
-* **電子郵件設定** — 如果您在Adobe外部管理同意，您現在可以設定自訂取消訂閱電子郵件地址和自訂一鍵取消訂閱URL，做為電子郵件通道設定的一部分。 [瞭解詳情](../email/list-unsubscribe.md#custom-managed)
+* **電子郵件設定** — 如果您在Adobe外部管理同意，您現在可以設定自訂取消訂閱電子郵件地址和自訂一鍵取消訂閱URL，做為電子郵件通道設定的一部分。[閱讀全文](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 

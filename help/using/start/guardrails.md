@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
 source-wordcount: '2305'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->在極少數情況下，特定區域的暫時中斷可能會導致從歷程中排除有效的設定檔，或導致錯誤標示為退件的郵件。 服務恢復後，重新檢查歷程記錄，驗證同意設定檔欄位，並在需要時重新發佈歷程。 在ISP中斷的情況下，在[本節](../configuration/manage-suppression-list.md#remove-from-suppression-list)中瞭解如何從隱藏清單移除設定檔。
+>在極少數情況下，特定區域的暫時中斷可能會導致有效的設定檔被排除在歷程之外，或導致郵件被錯誤標示為退回郵件。 服務恢復後，重新檢查歷程記錄，驗證同意設定檔欄位，並在需要時重新發佈歷程。 若發生 ISP 中斷，請參閱[本節](../configuration/manage-suppression-list.md#remove-from-suppression-list)以了解如何從禁止名單之中移除設定檔。
 >
 
 ## 支援的瀏覽器 {#browsers}
@@ -130,8 +130,8 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ### 活動 {#events-g}
 
-* Journey Optimizer支援每秒5,000個傳入歷程事件的尖峰量。
-* 事件觸發的歷程最多可能需要5分鐘來處理歷程中的第一個動作。
+* Journey Optimizer 支援每秒 5,000 個傳入歷程事件的尖峰量。
+* 事件觸發的歷程最多可能需要 5 分鐘來處理歷程的第一個動作。
 * 對於系統產生的事件，必須先在 Journey Optimizer 中設定用於啟動客戶歷程的串流資料，才能取得唯一的協調流程 ID。 此協調流程 ID 必須附加至傳入 Adobe Experience Platform 的串流裝載。 此限制不適用於規則型事件。
 * 業務事件不能與單一事件或客群資格篩選活動結合使用。
 * 單一歷程 (從事件或客群資格篩選開始) 包含可防止同一事件多次錯誤觸發歷程的護欄。 在預設情況下，輪廓重新進入時會暫時封鎖 5 分鐘。例如，如果某個事件在 12:01 觸發特定輪廓的歷程，而另一個事件在 12:03 達到時間限制 (無論是相同事件或是不同事件觸發相同歷程)，則此輪廓的歷程將不會再次開始。

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定清單取消訂閱
-description: 瞭解如何在設定頻道設定時，將一鍵式取消訂閱URL納入電子郵件標題中
+description: 瞭解如何在設定管道設定時，將一鍵式取消訂閱 URL 新增到電子郵件標頭
 feature: Email, Surface
 topic: Administration
 role: Admin
@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: b3655506dff97756a59a63d5b8f0c358dc7c7510
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 <!--Do not modify - Legal Review Done -->
 
-設定新的電子郵件頻道設定時，只要從清單中選取[子網域](email-settings.md#subdomains-and-ip-pools)，系統就會顯示&#x200B;**[!UICONTROL 啟用清單取消訂閱]**&#x200B;選項。
+設定新的電子郵件管道設定時，從清單[選取子網域](email-settings.md#subdomains-and-ip-pools)後，會顯示&#x200B;**[!UICONTROL 啟用清單取消訂閱]**&#x200B;選項。
 
 ![](assets/preset-list-unsubscribe.png)
 
@@ -34,15 +34,15 @@ ht-degree: 97%
 >
 >如果停用此選項，一鍵取消訂閱 URL 將不會顯示在電子郵件標頭。
 
-清單取消訂閱標題有提供兩種功能，除非您取消核取其中一兩項功能，否則按預設，這兩項功能都會啟用：
+清單取消訂閱標題有提供兩種功能，除非您取消選取其中一兩項功能，否則按預設，這兩項功能都會啟用：
 
 ![](assets/surface-list-unsubscribe.png){width="80%"}
 
 * **[!UICONTROL Mailto (取消訂閱)]** 位址，這是將取消訂閱要求路由至進行自動處理的目標位址。
 
-  在 [!DNL Journey Optimizer] 中，取消訂閱電子郵件地址是根據[選取的子網域](#subdomains-and-ip-pools)，顯示在頻道設定的預設 **[!UICONTROL Mailto (取消訂閱)]**&#x200B;位址。<!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->
+  在 [!DNL Journey Optimizer] 中，取消訂閱電子郵件地址是根據[選取的子網域](#subdomains-and-ip-pools)，顯示在管道設定的預設 **[!UICONTROL Mailto (取消訂閱)]**&#x200B;位址。<!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->
 
-* **[!UICONTROL 一鍵取消訂閱 URL]**，按預設是一鍵退出 URL 產生的清單取消訂閱標題，主要依據您在頻道設定中設定、設定的子網域。<!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
+* **[!UICONTROL 一鍵取消訂閱 URL]**，預設為一鍵選擇退出 URL 產生的清單取消訂閱標題，主要依據您在管道設定中設定、設定的子網域。<!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
 
 您可以從下拉式清單中，選取&#x200B;**[!UICONTROL 同意層級]**。它可特定於頻道或設定檔身分。依據設定，當使用者使用電子郵件標題的清單取消訂閱 URL 時，就會在 [!DNL Adobe Journey Optimizer] 中，按頻道層級或 ID 層級，更新同意內容。
 
@@ -56,16 +56,16 @@ ht-degree: 97%
 >
 >如果您未在訊息內容加入一鍵退出連結，且頻道組態設定中的預設&#x200B;**[!UICONTROL 一鍵取消訂閱 URL]** 已取消勾選，則清單取消訂閱標題的電子郵件標頭不會傳遞任何 URL。
 
-在 [本章節](../email/email-opt-out.md#unsubscribe-header)中，進一步了解訊息中的管理取消訂閱功能等更多資訊。
+在[本章節](../email/email-opt-out.md#unsubscribe-header)中，進一步了解訊息中的管理取消訂閱功能等更多資訊。
 
-## 請從外部管理取消訂閱資料 {#custom-managed}
+## 從外部管理取消訂閱資料 {#custom-managed}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
 >title="定義如何管理取消訂閱的資料"
 >abstract="**Adobe 管理**：同意資料由您在 Adobe 系統內進行管理。<br>**客戶管理**：同意資料由您在外部系統中進行管理，除非由您啟動，否則 Adobe 系統中不會同步更新同意資料。"
 
-如果您在 Adobe 外部管理同意，請選取 [**[!UICONTROL 客戶管理]**]選項，即可輸入自訂取消訂閱電子郵件地址，還有自己的一鍵式取消訂閱 URL。
+如果您在 Adobe 外部管理同意，請選取&#x200B;**[!UICONTROL 客戶管理]**&#x200B;選項，即可輸入自訂取消訂閱電子郵件地址，還有自己的一鍵式取消訂閱 URL。
 
 ![](assets/surface-list-unsubscribe-custom.png){width="80%"}
 

@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
 source-wordcount: '6117'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 95%
 
 ## 2025 年 2 月 {#feb-2025}
 
-* **[!UICONTROL 傳送時間最佳化]**&#x200B;的檔案及其相關常見問題集已更新、改進並移至新的專用頁面。 [閱讀全文](../building-journeys/send-time-optimization.md)
-* 已新增歷程事件的護欄。 [閱讀全文](../start/guardrails.md#events-g)
+*  **[!UICONTROL 傳送時間最佳化]** 的文件及其相關常見問題集已更新、改進並移至新的專用頁面。 [閱讀全文](../building-journeys/send-time-optimization.md)
+* 已新增歷程事件護欄。 [閱讀全文](../start/guardrails.md#events-g)
 * 內建頻道動作頁面已重新整理。 [閱讀全文](../building-journeys/journeys-message.md)
 * 在決定和決定管理區段中新增了護欄和限制。
    * [決策護欄和限制](../experience-decisioning/decisioning-guardrails.md)
@@ -40,15 +40,15 @@ ht-degree: 95%
 
 * **轉寄電子郵件**&#x200B;區段已更新，以指定所有傳送至&#x200B;**寄件者電子郵件**&#x200B;地址的電子郵件都會轉寄至這個轉寄電子郵件地址。如果未指定轉寄電子郵件，這些電子郵件將被捨棄。[閱讀全文](../email/email-settings.md#forward-email)
 
-* 傳遞至API觸發之行銷活動要求中的內容屬性大小上限已更新為200kb。 [閱讀全文](../campaigns/api-triggered-campaigns.md#contextual)
+* 傳遞至 API 觸發之行銷活動要求中的內容屬性大小上限已更新為 200kb。 [閱讀全文](../campaigns/api-triggered-campaigns.md#contextual)
 
-* 已對&#x200B;**管理片段**&#x200B;頁面新增一個區段，以說明如何將新屬性新增到即時片段中。 整頁也已改善。 [閱讀全文](../content-management/manage-fragments.md#adding-new-attributes)
+* 已對&#x200B;**管理章節**&#x200B;頁面新增一個區段，以說明如何將新屬性新增至即時片段中。 整個頁面也得到了改善。 [閱讀全文](../content-management/manage-fragments.md#adding-new-attributes)
 
-* 「護欄和限制」區段已新增到衝突管理和優先順序工具檔案。 [閱讀全文](../conflict-prioritization/gs-conflict-prioritization.md)
+* 「護欄和限制」區段已新增至衝突管理與優先順序工具文件之中。 [閱讀全文](../conflict-prioritization/gs-conflict-prioritization.md)
 
-* 已新增端對端使用案例，以呈現[!DNL Journey Optimizer]程式碼型體驗管道的內容實驗中使用決策所需的所有步驟。 [閱讀全文](../experience-decisioning/experience-decisioning-uc.md)
+* 已新增端對端使用案例，以呈現 [!DNL Journey Optimizer] 程式碼型體驗管道的內容實驗中使用決策所需的所有步驟。 [閱讀全文](../experience-decisioning/experience-decisioning-uc.md)
 
-* **設定電子郵件設定**&#x200B;頁面已分割成數個子頁面，以改善可讀性，包括專用於[清單取消訂閱](../email/list-unsubscribe.md)、[標頭引數](../email/header-parameters.md)和[URL追蹤](../email/url-tracking.md)的新獨立頁面。
+*  **設定電子郵件設定** 頁面已分割成數個子頁面，以改善可讀性，包括專用於[清單取消訂閱](../email/list-unsubscribe.md)、[標頭參數](../email/header-parameters.md) 以及 [URL 追蹤](../email/url-tracking.md)的新獨立頁面。
 
 ## 2024 年 12 月  {#nov-2024}
 
