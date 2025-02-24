@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 962dbbb070bbfe944e174bc330659599a1101ebe
+source-git-commit: 3a10f8440515bd569f9def6d15ac74d57427c1cf
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 2%
@@ -55,7 +55,7 @@ ht-degree: 2%
 
 您的內容現在包含動態媒體。 您在Experience Manager中所做的任何更新都會自動顯示在Journey Optimizer中。
 
-## 含文字覆蓋的Personalization
+## 個人化您的文字覆蓋
 
 使用您選擇的新文字取代現有的文字覆蓋圖，輕鬆自訂任何動態媒體，實現順暢的更新及個人化。
 
