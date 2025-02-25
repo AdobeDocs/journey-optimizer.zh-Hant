@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 歷程, 探索, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: e9964494fa38a9e693eeb6c8bdfd6dd3d21262e0
+source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '417'
 ht-degree: 38%
 
 ---
@@ -31,6 +31,8 @@ Journey Optimizer歷程設計工具提供行銷人員和歷程從業人員跨頻
 * 使用&#x200B;**歷程設計工具**，建置多步驟使用案例：輕鬆拖放進入事件或讀取客群活動、新增條件及傳送個人化訊息。
 
 在[此頁面](journey-gs.md)中瞭解如何建立及設計您的第一個歷程。
+
+➡{️0}在影片中探索Journey Optimizer](#video)[
 
 ## 使用案例{#uc-journey}
 
