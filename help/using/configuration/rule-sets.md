@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6ba6f697060db83e2703bc0ac7cccbbccf816437
+source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 12%
@@ -311,7 +311,7 @@ In this scenario, an individual profile:
 
 >[!IMPORTANT]
 >
->如果立即啟動歷程，系統最多可能需要15分鐘才能開始抑制客戶。 為了防止這種可能性，您可以將歷程排程為至少15分鐘後再開始。
+>如果立即啟動歷程，系統最多可能需要20分鐘才能開始抑制客戶。 為了防止這種可能性，您可以將歷程排程為至少未來20分鐘開始。
 
 +++
 

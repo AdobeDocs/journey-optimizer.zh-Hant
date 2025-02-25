@@ -5,7 +5,7 @@ role: User
 level: Beginner
 badge: label="有限可用性"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
+source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 23%
@@ -120,7 +120,7 @@ ht-degree: 23%
 
 >[!IMPORTANT]
 >
->如果立即啟動歷程，系統最多可能需要15分鐘才能開始抑制客戶。 為了防止這種可能性，您可以將歷程排程為至少15分鐘後再開始。
+>如果立即啟動歷程，系統最多可能需要20分鐘才能開始抑制客戶。 為了防止這種可能性，您可以將歷程排程為至少未來20分鐘開始。
 
 歷程上線後，如果規則集導致在&#x200B;**[!UICONTROL 歷程排除]**&#x200B;表格中從歷程排除任何專案，您可以簽入歷程報告。 [瞭解如何使用歷程報告](../reports/journey-global-report-cja.md)
 
