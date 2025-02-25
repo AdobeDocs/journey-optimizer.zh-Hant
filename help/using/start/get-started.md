@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 100%
@@ -24,6 +24,11 @@ ht-degree: 100%
 [!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 結合並統一即時客戶輪廓、API 優先開放框架、集中式產品建議決策、人工智慧 (AI) 和機器學習 (ML)，以進行個人化和最佳化。Journey Optimizer 可讓品牌在整個客戶歷程中，以規模、速度和彈性的方式，聰明地決定下一個最佳的互動方式。 透過[!DNL Adobe Journey Optimizer]，公司可以在相同應用程式中建立並傳送排程行銷活動 (例如零售商店的每週促銷活動) 和量身打造的個別通訊 (例如忠誠應用程式客戶可能已查看過該項目，且該項目先前無存貨的推播通知)。
 
 ➡️ [探索 Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=zh-Hant){target="_blank"} (影片)
+
+
+<!-- Use [!DNL Adobe Journey Optimizer] to build multi-step customer journeys that initiate a sequence of interactions, offers, and messages across channels in real time. This approach ensures customers are engaged at the optimal moments based on their actions and relevant business signals. Learn how to build journeys in [this section](../building-journeys/journey-gs.md).
+
+You can also create audience-based campaigns to send messages.-->
 
 
 ## 使用案例 {#use-cases}
@@ -46,7 +51,7 @@ ht-degree: 100%
 
 * **現代全通路協調 &amp; 執行** - 在單一畫布上協調並最佳化客戶歷程，以實現 1:1 客戶參與和行銷拓展，以協助品牌在客戶生命週期中提供更多價值。在[!DNL Adobe Journey Optimizer]中設計的客戶歷程可以是動態且以事件為基礎，以協助品牌對即時訊號做出反應，並將這些互動與已排程的行銷活動進行連結，以便針對要傳送客戶的通訊、傳送時間及透過哪些頻道做出正確的決定。
 
-* **智慧型決策與個人化** - 品牌可套用集中式決策，並將人工智慧與機器學習整合至整體客戶體驗中的設定預測性深入分析，讓自動化決策與大規模最佳化體驗更加輕鬆。優惠决策可透過 [!DNL Adobe Journey Optimizer] 大規模提供跨頻道的集中式優惠。
+* **智慧型決策與個人化** - 品牌可套用集中式決策，並將人工智慧與機器學習整合至整體客戶體驗中的設定預測性深入分析，讓自動化決策與大規模最佳化體驗更加輕鬆。產品建議决策可透過 [!DNL Adobe Journey Optimizer] 大規模提供跨頻道的集中式產品建議。
 
 ## 架構 {#architecture}
 

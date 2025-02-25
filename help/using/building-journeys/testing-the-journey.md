@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 66f8943093670b3310a600a77adcd8123bb213ff
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 9%
+source-wordcount: '1671'
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 9%
 >title="測試您的歷程"
 >abstract="在發佈您的歷程之前使用測試輪廓進行測試。這可讓您分析個人在歷程中的流動方式並在發佈前進行疑難排解。"
 
-在發佈您的歷程之前使用測試輪廓進行測試。此模式允許您執行歷程測試並使用測試設定檔識別問題。
+一旦您建立了您的歷程，您就可以在發佈之前先測試它。 Journey Optimizer提供「測試模式」，以便在測試設定檔歷程中移動時檢視測試設定檔，並在啟用之前偵測潛在錯誤。 執行快速測試可讓您檢查歷程是否正確運作，以便您能夠放心發佈。
 
 只有測試設定檔才能進入歷程測試模式。 您可以建立新的測試設定檔，或將現有的設定檔轉換為測試設定檔。 在[本節](../audience/creating-test-profiles.md)中進一步瞭解測試設定檔。
 

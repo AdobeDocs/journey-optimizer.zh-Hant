@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '6117'
+source-wordcount: '6152'
 ht-degree: 97%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 97%
 
 ## 2025 年 2 月 {#feb-2025}
 
+* 已詳細說明建立第一個歷程的步驟，並新增檔案區段的連結。 [閱讀全文](../building-journeys/journey-gs.md)
+* 新頁面現在可供詳細瞭解歷程管理使用者介面歷程。 [閱讀全文](../building-journeys/journey-ui.md)
 *  **[!UICONTROL 傳送時間最佳化]** 的文件及其相關常見問題集已更新、改進並移至新的專用頁面。 [閱讀全文](../building-journeys/send-time-optimization.md)
 * 已新增歷程事件護欄。 [閱讀全文](../start/guardrails.md#events-g)
 * 內建頻道動作頁面已重新整理。 [閱讀全文](../building-journeys/journeys-message.md)

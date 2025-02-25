@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 設計，畫布，歷程，介面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 5%
@@ -59,13 +59,15 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 ![](assets/journey59bis.png)
 
-根據歷程的狀態，您可以使用右上角的按鈕對歷程執行不同的動作： **[!UICONTROL Publish]**、**[!UICONTROL 重複]**、**[!UICONTROL 刪除]**、**[!UICONTROL 測試模式]**、**[!UICONTROL 管理存取]**、**[!UICONTROL 警報]**。 未選取任何活動時，這些按鈕就會顯示。 有些按鈕會根據內容顯示。 測試模式啟動時，測試模式記錄按鈕出現。
+根據歷程的狀態，您可以使用右上角的按鈕對歷程執行不同的動作： **[!UICONTROL 發佈]**、**[!UICONTROL 重複]**、**[!UICONTROL 刪除]**、**[!UICONTROL 測試模式]**、**[!UICONTROL 管理存取]**、**[!UICONTROL 警報]**。 未選取任何活動時，這些按鈕就會顯示。 有些按鈕會根據內容顯示。 測試模式啟動時，測試模式記錄按鈕出現。
 
 ![](assets/journey41.png)
 
 ## 開始您的歷程 {#start-your-journey}
 
-當您設計歷程時，您想問的第一個問題是設定檔將如何進入歷程。 有兩種可能性：
+當您設計歷程時，您想問的第一個問題是設定檔將如何進入歷程。
+
+有兩種可能性：
 
 1. **從事件開始**：當歷程設定為接聽事件時，個人會即時統一進入歷程&#x200B;****。 您歷程中包含的訊息會傳送給目前流入歷程的人。 [進一步瞭解事件](../event/about-events.md)
 
