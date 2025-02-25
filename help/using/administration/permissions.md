@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 產品，設定檔，沙箱
-source-git-commit: be372f8f80d304067748d539fb8e210df6280721
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 7%
+source-wordcount: '739'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 7%
 
 透過[!DNL Journey Optimizer]產品，您能夠從預先存在的&#x200B;**[!UICONTROL 角色]**&#x200B;範圍中進行選擇，每個角色都具有不同等級的許可權，以便指派給您的使用者。 如需可用&#x200B;**[!UICONTROL 角色]**&#x200B;的詳細資訊，請參閱此[頁面](ootb-product-profiles.md)。
 
-當使用者屬於&#x200B;**[!UICONTROL Role]**&#x200B;時，他們會被授予產品內含之Adobe應用程式和服務的存取權。
+當使用者屬於&#x200B;**[!UICONTROL 角色]**&#x200B;時，他們會被授予產品內含之Adobe應用程式和服務的存取權。
 
 如果預先存在的角色不符合您組織的特定需求，您也可以建立自訂&#x200B;**[!UICONTROL 角色]**，以微調介面中特定功能或物件的存取許可權。 如此一來，您便可確保每位使用者僅能存取有效執行其工作所需的資源和工具。
 
@@ -75,9 +75,9 @@ ht-degree: 7%
 
    ![](assets/do-not-localize/access_control_6.png)
 
-1. **[!UICONTROL 資源]**&#x200B;功能表會顯示套用至&#x200B;**[!UICONTROL Experience Cloud- Platform支援的應用程式]**&#x200B;產品的資源清單。 拖放資源以指派許可權。
+1. **[!UICONTROL 資源]**&#x200B;功能表會顯示套用至&#x200B;**[!UICONTROL Experience Cloud - Platform支援的應用程式]**&#x200B;產品的資源清單。 拖放資源以指派許可權。
 
-   從&#x200B;**[!UICONTROL 歷程]**&#x200B;資源下拉式清單中，我們在這裡選擇Publish歷程&#x200B;**[!UICONTROL 許可權]**。
+   我們從&#x200B;**[!UICONTROL 歷程]**&#x200B;資源下拉式清單中選擇發佈歷程&#x200B;**[!UICONTROL 許可權]**。
 
    ![](assets/do-not-localize/access_control_14.png)
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '2305'
-ht-degree: 95%
+source-wordcount: '2333'
+ht-degree: 94%
 
 ---
 
@@ -64,6 +64,10 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 [!DNL Journey Optimizer] 網路行銷活動會選擇以其他管道上不曾有過互動的新輪廓為目標。這樣做會增加可互動輪廓總數，如果其超過您購買的可互動輪廓合約數量，可能會影響成本。 各個套件的授權量度都列在 [Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。
 
+### 程式碼型管道護欄 {#code-based-guardrails}
+
+若要在[!DNL Journey Optimizer]中使用程式碼型體驗動作，並傳遞您的應用程式可以使用的程式碼內容承載，請遵循[此頁面](../code-based/code-based-prerequisites.md)中詳述的先決條件。
+
 ## 子網域護欄 {#subdomain-guardrails}
 
 預設情況下，[!DNL Journey Optimizer]可讓您總共委派最多 10 個子網域 (包含電子郵件與 Web 管道)。
@@ -85,6 +89,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 * [決策護欄和限制](../experience-decisioning/decisioning-guardrails.md)
 * [決策管理護欄和限制](../offers/decision-management-guardrails.md)
+
 
 ## 歷程護欄 {#journeys-guardrails}
 
