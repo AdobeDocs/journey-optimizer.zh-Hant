@@ -8,18 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: cbd121dda4093fdea6f6bded02e8ae3e188e827d
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 100%
+source-wordcount: '575'
+ht-degree: 87%
 
 ---
 
 # 搜尋、篩選、整理 {#search-filter-organize}
 
-## 搜尋{#unified-search}
+## 搜尋 {#unified-search}
 
-在 Adobe Journey Optimizer 介面的任意處，利用頂端列中央的 Unified Adobe Experience Cloud 搜尋功能，在您的沙箱尋找資產、歷程、資料集等等。 
+從Adobe Journey Optimizer介面，使用頂端列中央的統一Adobe Experience Cloud搜尋功能，在您的沙箱中尋找資產、歷程、資料集等。
 
 開始輸入內容以顯示排名最前的結果。有關輸入關鍵字的說明文章也會顯示在結果中。
 
@@ -29,11 +29,11 @@ ht-degree: 100%
 
 ![](assets/search-and-filter.png)
 
-## 篩選清單{#filter-lists}
+## 篩選清單 {#filter-lists}
 
 在大部分清單中使用搜尋列來尋找特定項目並定義篩選條件。
 
-按一下清單左上方的篩選圖示，即可存取篩選器。篩選選單可讓您根據不同條件篩選顯示的元素：您可選擇僅顯示特定類型或狀態的元素、您建立的元素，或最近 30 天修改的元素。 選項會因內容而異。
+按一下清單左上方的篩選圖示，即可存取篩選器。篩選功能表可讓您根據不同的條件篩選顯示的元素：您可以選擇僅顯示特定型別或狀態的元素、您建立的元素，或在過去30天內修改的元素。 選項會因內容而異。
 
 此外，您也可利用統一標籤來篩選清單，視指派至物件的標籤而定。 目前，標籤可供歷程與行銷活動使用。 [了解如何使用標籤](#tags)
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
 
-在 Journey Optimizer 中，將有意義的標籤新增至客群，可讓您稍後篩選並搜尋客群，以便更輕鬆找到客群。 另外還可將標籤用於可搜尋的相關資料夾中，方便組織客群、建立個人化優惠和體驗，同時可應用到體驗決定規則中。
+在 Journey Optimizer 中，將有意義的標籤新增至客群，可讓您稍後篩選並搜尋客群，以便更輕鬆找到客群。 另外還可將標籤用於可搜尋的相關資料夾中，方便組織客群、建立個人化產品建議和體驗，同時可應用到體驗決定規則中。
 
 ### 新增標籤至物件 {#add-tags}
 
