@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 29%
+source-wordcount: '1124'
+ht-degree: 26%
 
 ---
 
@@ -64,11 +64,19 @@ ht-degree: 29%
 
 ## 歷程型別 {#journey-types}
 
-型別可以是： **[!UICONTROL 單一事件]**、**[!UICONTROL 對象資格]**、**[!UICONTROL 讀取對象]**&#x200B;或&#x200B;**[!UICONTROL 商業事件]**。
+歷程的型別取決於該歷程中使用的活動。 可以是：
+
+* **[!UICONTROL 單一事件]** — 單一事件歷程已連結至特定設定檔。 事件與人的行為或與人相關的事情有關（例如，某人達到10,000點忠誠點數）。 [了解更多](../event/about-events.md)。
+* **[!UICONTROL 商務活動]**。 業務事件歷程以非設定檔相關事件開始。 事件設定由技術使用者執行，且無法編輯。 [了解更多](../event/about-events.md)。
+* **[!UICONTROL 對象資格]** — 對象資格歷程會聆聽Adobe Experience Platform對象中設定檔的入口和出口，以便讓個人進入歷程或是在歷程中前進。 [了解更多](audience-qualification-events.md)。
+* **[!UICONTROL 讀取對象]** — 在讀取對象歷程中，對象中的所有個人都會進入歷程並接收歷程中包含的訊息。  [了解更多](read-audience.md)。
+
+
+在[此頁面](entry-management.md)中進一步瞭解歷程型別和相關的專案管理。
 
 ## 歷程狀態 {#journey-statuses}
 
-歷程狀態可以是：
+歷程狀態取決於其生命週期。 可以是：
 
 * **已關閉**：歷程已使用&#x200B;**關閉新入口**&#x200B;按鈕關閉。 歷程停止讓新個人進入歷程。 已在歷程中的人可以正常完成歷程。
 * **草稿**：歷程處於第一個階段。 尚未發佈。

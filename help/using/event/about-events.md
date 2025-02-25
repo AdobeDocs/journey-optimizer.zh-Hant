@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，歷程，定義，開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '986'
 ht-degree: 52%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="歷程事件"
->abstract="事件會與某位人員連結。事件與人員的行為相關 (例如某人購買產品、造訪商店、退出網站等等)，或所發生的事情與人員有關 (例如某人的忠誠度點數達到 10,000 點)。這是 Journey Optimizer 會在歷程中監聽的事件，並藉此協調最佳的後續動作。"
+>abstract="事件會與某位人員連結。事件與人員的行為相關 (例如某人購買產品、造訪商店、退出網站等等)，或所發生的事情與人員有關 (例如某人的忠誠度點數達到 10,000 點)。Journey Optimizer會聽取歷程中的單一事件，以協調下一個最佳動作。"
 
-事件設定可讓您定義 [!DNL Journey Optimizer] 會接收以作為事件的資訊。您可以使用多個事件（在歷程的不同步驟中），而數個歷程則可以使用相同事件。
+事件設定可讓您定義[!DNL Journey Optimizer]接收做為事件的資訊。 您可以使用多個事件（在歷程的不同步驟中），而數個歷程則可以使用相同事件。
 
 >[!CAUTION]
 >
@@ -60,7 +60,7 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->Journey Optimizer 需將事件串流至資料收集核心服務 (DCCS)，才能觸發歷程。 批次擷取的事件，或來自內部Journey Optimizer資料集的事件（訊息回饋、電子郵件追蹤等）無法用於觸發歷程。 對於無法取得串流事件的使用案例，請根據這些事件建置客群，然後改為使用&#x200B;**讀取客群**&#x200B;活動。 技術上可使用對象資格，但可能根據使用動作而造成下游挑戰。 此資料不一定需要前往即時輪廓。 如果您想要在個別歷程中使用事件進行細分或查詢，建議您為輪廓啟用資料集。
+>Journey Optimizer 需將事件串流至資料收集核心服務 (DCCS)，才能觸發歷程。 批次收錄的事件，或來自內部 Journey Optimizer 資料集的事件（訊息意見回饋、電子郵件追蹤等等）不能用於觸發歷程。對於無法取得串流事件的使用案例，請根據這些事件建置客群，然後改為使用&#x200B;**讀取客群**&#x200B;活動。 技術上可使用對象資格，但可能根據使用動作而造成下游挑戰。 此資料不一定需要前往即時輪廓。 如果您想要在個別歷程中使用事件進行細分或查詢，建議您為輪廓啟用資料集。
 
 ## 資料週期 {#data-cycle}
 

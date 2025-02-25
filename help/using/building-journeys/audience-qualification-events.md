@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 資格，事件，對象，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 10%
@@ -50,7 +50,7 @@ ht-degree: 10%
 
 * 在歷程中使用客群資格篩選時，該客群資格篩選活動最多可能需要 10 分鐘，才會啟用和接聽進入或退出客群的輪廓。
 
-### 設定活動{#cnfigure-segment-qualification}
+### 設定活動 {#configure-segment-qualification}
 
 若要設定&#x200B;**[!UICONTROL 對象資格]**&#x200B;活動，請遵循下列步驟：
 
