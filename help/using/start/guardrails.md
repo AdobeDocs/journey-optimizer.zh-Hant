@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 341c5c6a1a451819737797bfa70a8625f900388d
+source-git-commit: 27c448948b4bcee97f8bbba1a7144bfef796905f
 workflow-type: tm+mt
 source-wordcount: '2333'
 ht-degree: 93%
@@ -66,7 +66,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 各個套件的授權量度都列在 [Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。
 
-### 程式碼型管道護欄 {#code-based-guardrails}
+## 程式碼型管道護欄 {#code-based-guardrails}
 
 若要在[!DNL Journey Optimizer]中使用程式碼型體驗動作，並傳遞您的應用程式可以使用的程式碼內容承載，請遵循[此頁面](../code-based/code-based-prerequisites.md)中詳述的先決條件。
 
