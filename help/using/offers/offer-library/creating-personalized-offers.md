@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
+source-git-commit: b4bd7290fca3221798ce677bdbfb2281e34cec37
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '817'
 ht-degree: 14%
 
 ---
@@ -28,6 +28,12 @@ ht-degree: 14%
 ![](../assets/offers_list.png)
 
 ## 建立產品建議 {#create-offer}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_offer_details"
+>title="優惠詳細資料"
+>abstract="填寫優惠方案名稱及其開始和結束日期。
+Outside of these dates, the offer won't be selected by the Decisioning engine."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
