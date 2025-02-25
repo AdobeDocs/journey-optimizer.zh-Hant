@@ -9,22 +9,25 @@ role: User
 level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
+source-git-commit: 3a1e00ecc74ccca5cba0e15ac642eeb7ddb40ae0
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '305'
 ht-degree: 5%
 
 ---
 
 # 發佈您的歷程 {#publishing-the-journey}
 
-您必須發佈歷程才能啟用它，並讓新設定檔可以進入它。 發佈歷程之前，請確認其有效且沒有錯誤。 您無法發佈含有錯誤的歷程。 瞭解如何在[此頁面](testing-the-journey.md)中測試您的歷程。
+您必須發佈歷程才能啟用它，並讓新設定檔可以進入它。 發佈歷程之前，請確認其有效且沒有錯誤。 您無法發佈含有錯誤的歷程。
 
 ➡️ [在影片中探索此功能](#video)
 
 發佈歷程的步驟詳述如下：
 
-1. 發佈歷程之前，請確認其有效且沒有錯誤。 您將無法發佈含有錯誤的歷程。 在[本節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)中瞭解如何疑難排解您的歷程。
+1. 發佈歷程之前，請確認其有效且沒有錯誤。 您將無法發佈含有錯誤的歷程。
+
+   * 瞭解如何在[此頁面](testing-the-journey.md)中測試您的歷程。
+   * 在[本節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)中瞭解如何疑難排解您的歷程錯誤。
 
 1. 若要發佈歷程，請按一下右上角下拉式功能表中的&#x200B;**[!UICONTROL 發佈]**&#x200B;選項。
 
