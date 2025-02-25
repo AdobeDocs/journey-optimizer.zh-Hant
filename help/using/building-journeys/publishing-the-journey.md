@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Publish歷程
+title: 發佈此歷程
 description: 瞭解如何發佈歷程
 feature: Journeys
 topic: Content Management
@@ -9,35 +9,36 @@ role: User
 level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '304'
 ht-degree: 5%
 
 ---
 
-# 發佈您的歷程{#publishing-the-journey}
+# 發佈您的歷程 {#publishing-the-journey}
 
-您可以在測試歷程的有效性後發佈歷程。
+您必須發佈歷程才能啟用它，並讓新設定檔可以進入它。 發佈歷程之前，請確認其有效且沒有錯誤。 您無法發佈含有錯誤的歷程。 瞭解如何在[此頁面](testing-the-journey.md)中測試您的歷程。
 
 ➡️ [在影片中探索此功能](#video)
 
-如果您需要修改已發佈的歷程，則需要建立歷程的新版本。 請參閱[此頁面](../building-journeys/journey.md)。 當歷程為唯讀時，您只能修改活動標籤和說明、歷程的名稱和歷程的說明。
+發佈歷程的步驟詳述如下：
 
-如果您停止歷程，歷程將會永久停止。 歷程中的所有人員將永久停止，且歷程將停止允許新入口。 如果您需要再次使用歷程，則需要複製並發佈。
+1. 發佈歷程之前，請確認其有效且沒有錯誤。 您將無法發佈含有錯誤的歷程。 在[本節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)中瞭解如何疑難排解您的歷程。
 
-1. 發佈歷程之前，請確認其有效且沒有錯誤。 您將無法發佈含有錯誤的歷程。 請參閱[此節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)。 也建議您在發佈前測試您的歷程。 請參閱[此頁面](../building-journeys/testing-the-journey.md)。
-
-1. 若要發佈歷程，請按一下右上角下拉式功能表中的&#x200B;**[!UICONTROL Publish]**&#x200B;選項。
+1. 若要發佈歷程，請按一下右上角下拉式功能表中的&#x200B;**[!UICONTROL 發佈]**&#x200B;選項。
 
    >[!NOTE]
    >
-   > 如果您的歷程受限於核准政策，您將需要請求核准才能發佈您的歷程。 [了解更多](../test-approve/gs-approval.md)
+   > 如果您的歷程受核准政策的約束，您必須請求核准才能發佈您的歷程。 [了解更多](../test-approve/gs-approval.md)
 
 
    ![](assets/journeyuc1_18.png)
 
-發佈歷程時，歷程處於唯讀模式。
+發佈歷程時，它處於&#x200B;**唯讀**&#x200B;模式。 當歷程為唯讀時，您只能修改活動標籤和說明、歷程的名稱和歷程的說明。 如果您需要對已發佈的歷程進行更多修改，請建立歷程的[新版本](journey-ui.md#journey-versions)。
+
+當您停止歷程時，其會永久停止：在歷程中流動的所有人員會永久停止，且歷程會停止允許新入口。 如果您需要再次執行歷程，必須複製歷程並發佈新歷程。
+
 
 >[!IMPORTANT]
 >
@@ -45,6 +46,6 @@ ht-degree: 5%
 
 ## 作法影片 {#video}
 
-瞭解如何發佈歷程。
+透過此影片瞭解如何發佈歷程：
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
