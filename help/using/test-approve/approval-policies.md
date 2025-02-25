@@ -5,14 +5,26 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: decd8e222a1cd2f8767a1b88b0af03aa209a741e
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 3%
+source-wordcount: '494'
+ht-degree: 5%
 
 ---
 
 # 建立及管理核准原則 {#approval-policies}
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_approval"
+>title="請求核准"
+>abstract="請求核准"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_change"
+>title="請求變更"
+>abstract="請求變更"
+
 
 >[!NOTE]
 >
@@ -21,6 +33,13 @@ ht-degree: 3%
 核准政策可讓管理員建立歷程與行銷活動的驗證流程。 此系統概述特定條件，決定是否需要核准歷程或行銷活動。 這些政策在複雜度上可能有所差異，從僅要求所有行銷活動由特定使用者或團隊檢閱，到根據行銷活動的建立者來建立條件。
 
 ## 建立核准原則 {#create-policies}
+
+>[!CONTEXTUALHELP]
+>id="ajo_permissions_approval_policy"
+>title="新核准原則"
+>abstract="在此畫面中，輸入名稱，並選取核准原則的內容，然後建立條件以決定誰可以啟動核准要求，以及誰可以驗證核准要求。"
+
+若要建立核准政策，請遵循下列步驟：
 
 1. 從Journey Optimizer的&#x200B;**[!UICONTROL 管理]**&#x200B;功能表，存取&#x200B;**[!UICONTROL 許可權]**&#x200B;然後&#x200B;**[!UICONTROL 原則]**。
 
@@ -34,9 +53,11 @@ ht-degree: 3%
 
    ![](assets/policy_create_2.png)
 
-您現在可以調整條件，以指定起始核准要求及驗證要求的對象。
+您現在可以調整條件，以指定誰可以起始核准要求，以及誰可以驗證核准要求。
 
 ## 設定核准政策的條件 {#conditions}
+
+若要定義與核准原則相關的條件，請遵循下列步驟：
 
 1. 存取您的&#x200B;**[!UICONTROL 核准原則]**。
 
