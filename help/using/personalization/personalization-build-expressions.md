@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，關於，開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 962dbbb070bbfe944e174bc330659599a1101ebe
+source-git-commit: fe22eef1e1d74101ba7c046fca28a5a95007dd81
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '484'
 ht-degree: 10%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor_autocomplete"
 >title="自動完成"
->abstract="切換此選項可讓系統在您輸入運算式時自動完成程式碼並提出建議。 此選項僅適用於HTML和文字格式。"
+>abstract="切換此選項可讓系統在您輸入運算式時自動完成程式碼並提出建議。 此選項僅適用於HTML格式。"
 
 個人化編輯器是[!DNL Journey Optimizer]中個人化的核心。 它可用於您需要定義個人化的每個內容，例如電子郵件、推播和選件。
 
