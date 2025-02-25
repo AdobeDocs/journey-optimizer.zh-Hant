@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: fa1b26900ca4cf56a3ad95429320d1f5e9c920ed
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '676'
+ht-degree: 95%
 
 ---
 
@@ -53,6 +53,12 @@ You can also create audience-based campaigns to send messages.-->
 
 * **智慧型決策與個人化** - 品牌可套用集中式決策，並將人工智慧與機器學習整合至整體客戶體驗中的設定預測性深入分析，讓自動化決策與大規模最佳化體驗更加輕鬆。產品建議决策可透過 [!DNL Adobe Journey Optimizer] 大規模提供跨頻道的集中式產品建議。
 
+
+>[!NOTE]
+>
+> 您環境中可用的元件和功能取決於您的[許可權](../administration/permissions.md)和您的[授權套件](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何問題，請聯絡您的Adobe客戶成功經理或Adobe代表。
+
+
 ## 架構 {#architecture}
 
 在下圖中了解 [!DNL Adobe Journey Optimizer] 的基礎架構、整合點，以及 [!DNL Journey Optimizer] 和 [!DNL Experience Platform] 之間的關係。
@@ -63,7 +69,7 @@ You can also create audience-based campaigns to send messages.-->
 >[!NOTE]
 >
 > Adobe Experience Cloud 的一般隱私權准則和流程適用於 [!DNL Journey Optimizer]。 [進一步瞭解 Adobe Experience Cloud 隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html)。
-> 在啟動](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hant)之前，您還需要注意即時客戶輪廓資料的[護欄。
+>
 
 
 >[!MORELIKETHIS]
