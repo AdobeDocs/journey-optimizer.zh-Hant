@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
+source-git-commit: 93dab17fc74396887e3b68051be777645e02709f
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 25%
@@ -42,19 +42,19 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 * 如果您想要在收到事件時統一觸發您的歷程，您需要&#x200B;**設定事件**。 您可以定義預期的資訊及其處理方式。 [閱讀全文](../event/about-events.md)。
 
-  ![](assets/jo-event7bis.png)
+<!--   ![](assets/jo-event7bis.png)  -->
 
 * 您的歷程也可以監聽Adobe Experience Platform對象，以批次傳送訊息至指定的設定檔集。 為此，您需要&#x200B;**建立對象**。 [閱讀全文](../audience/about-audiences.md)。
 
-  ![](assets/segment2.png)
+<!--   ![](assets/segment2.png)  -->
 
 * 您可以定義系統連線，以擷取將用於歷程的其他資訊，例如在您的條件中。 此連線依賴&#x200B;**資料來源**。 [閱讀全文](../datasource/about-data-sources.md)
 
-  ![](assets/jo-datasource.png)
+<!--   ![](assets/jo-datasource.png)  -->
 
 * Journey Optimizer隨附[內建訊息](../building-journeys/journeys-message.md)功能。 如果您使用協力廠商系統來傳送訊息，您可以&#x200B;**建立自訂動作**。 在此[節](../action/action.md)中瞭解更多。
 
-  ![](assets/custom2.png)
+<!--    ![](assets/custom2.png)  -->
 
 
 對於資料工程師，設定歷程的步驟 (包括資料來源、事件和動作) 已詳細說明，請參閱[本節](../configuration/about-data-sources-events-actions.md)。

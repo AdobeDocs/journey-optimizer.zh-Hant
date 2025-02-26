@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
+source-git-commit: 2af3cef357bf68091d9b8b5d2750e73a290bc682
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1692'
 ht-degree: 19%
 
 ---
@@ -139,7 +139,13 @@ ht-degree: 19%
    >
    >標頭會根據欄位剖析規則進行驗證。 深入瞭解[此檔案](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}。
 
-## mTLS通訊協定支援 {#mtls-protocol-support}
+## 傳輸安全層 {#tls}
+
+### TLS通訊協定支援 {#tls-protocol-support}
+
+Adobe Journey Optimizer預設對自訂動作支援TLS 1.3。 如果使用者端也支援TLS 1.3，則會透過TLS 1.3進行通訊。否則，TLS交涉程式可能會回復到TLS 1.2。
+
+### mTLS通訊協定支援 {#mtls-protocol-support}
 
 您可以使用相互傳輸層安全性(mTLS)來確保對Adobe Journey Optimizer自訂動作的輸出連線具有增強的安全性。 mTLS是一種用於相互驗證的端對端安全性方法，可確保共用資訊的雙方在共用資料之前，都是聲稱的身分。 mTLS包括相較於TLS的額外步驟，其中伺服器也會要求使用者端的憑證並在其末端驗證它。
 
