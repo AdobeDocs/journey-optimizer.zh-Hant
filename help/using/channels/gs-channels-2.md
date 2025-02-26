@@ -7,14 +7,14 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 51b60b3e0f4026bce0d57eb1e2949e816828135b
+source-git-commit: 66dbaf6b8856b1ce70bccfa504a63f22bf293daf
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '213'
 ht-degree: 9%
 
 ---
 
-# 開始使用[!DNL Adobe Journey Optimizer]個通訊通道 {#get-started-email}
+# 開始使用[!DNL Adobe Journey Optimizer]中的通訊通道
 
 在現今多變的行銷格局中，透過各種平台有效觸及對象是建立持續人際關係及促進參與的關鍵。 本節提供[!DNL Adobe Journey Optimizer]中可用通訊管道的完整概觀，協助您瞭解如何在行銷策略中有效利用每個管道。
 
