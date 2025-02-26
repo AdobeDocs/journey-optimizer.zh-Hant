@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 資料，來源，歷程，平台
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 66%
+ht-degree: 57%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 66%
 
 資料來源有兩種類型：
 
-* 預先設定的 Adobe Experience Platform 資料來源可定義「即時客戶輪廓服務」的連線，這是內建的資料來源。請參閱[此頁面](../datasource/adobe-experience-platform-data-source.md)。
-* 外部資料來源可讓您定義外部系統的連線，這些是您可以建立的資料來源。請參閱[此頁面](../datasource/external-data-sources.md)。
+* **預先設定的** Adobe Experience Platform資料來源定義與即時客戶個人檔案服務的連線。 這是內建的資料來源。請參閱[此頁面](../datasource/adobe-experience-platform-data-source.md)。
+* 允許您定義外部系統連線的&#x200B;**外部**&#x200B;資料來源。 這些是您可以建立的資料來源。請參閱[此頁面](../datasource/external-data-sources.md)。
 
 >[!NOTE]
 >

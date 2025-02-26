@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 3984009b7bf78673fa46481e26d75fae1bb007ea
+source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 26%
+source-wordcount: '711'
+ht-degree: 25%
 
 ---
 
@@ -32,33 +32,29 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 ![歷程畫布範例](assets/journey38.png)
 
-建立多步驟客戶歷程，即時起始跨管道的互動、優惠方案和訊息順序。 此方法可確保根據客戶的動作和相關業務訊號，在最佳時刻與客戶互動。
 
 建立歷程的主要步驟將於本頁面詳細說明。 其簡化如下：
 
 ![歷程建立步驟：建立、設計、測試和發佈](assets/journey-creation-process.png)
 
 
-## 先決條件 {#start-prerequisites}
+建立多步驟客戶歷程可跨管道即時起始一系列互動、優惠方案和訊息。 此方法可確保根據客戶的動作和相關業務訊號，在最佳時刻與客戶互動。 可以根據行為、情境資料和業務事件來定義Target對象。 先決條件取決於您的使用案例，以及您正在建置的[歷程型別](entry-management.md#types-of-journeys)。 在開始設計您的歷程之前，請檢查相關的設定步驟是否已完成：
 
-若要在歷程中傳送訊息，必須具備下列先決條件：
+* 如果您想要在收到事件時統一觸發您的歷程，您需要&#x200B;**設定事件**。 您可以定義預期的資訊及其處理方式。 [閱讀全文](../event/about-events.md)。
 
-1. **設定事件**：如果您要在收到事件時統一觸發您的歷程，則需要設定事件。 您可以定義預期的資訊及其處理方式。 此步驟由&#x200B;**技術使用者**&#x200B;執行。 [閱讀全文](../event/about-events.md)。
+  ![](assets/jo-event7bis.png)
 
-   ![](assets/jo-event7bis.png)
+* 您的歷程也可以監聽Adobe Experience Platform對象，以批次傳送訊息至指定的設定檔集。 為此，您需要&#x200B;**建立對象**。 [閱讀全文](../audience/about-audiences.md)。
 
-1. **建立對象**：您的歷程也可以聆聽Adobe Experience Platform對象，以批次傳送訊息至指定的設定檔集。 為此，您需要建立對象。 [閱讀全文](../audience/about-audiences.md)。
+  ![](assets/segment2.png)
 
-   ![](assets/segment2.png)
+* 您可以定義系統連線，以擷取將用於歷程的其他資訊，例如在您的條件中。 此連線依賴&#x200B;**資料來源**。 [閱讀全文](../datasource/about-data-sources.md)
 
-1. **設定資料來源**：您可以定義系統連線，以擷取將用於歷程的其他資訊，例如在您的條件中。 佈建時也會設定內建的 Adobe Experience Platform 資料來源。如果您只會運用歷程中事件的資料，則不需要執行此步驟。此步驟由&#x200B;**技術使用者**&#x200B;執行。 [閱讀全文](../datasource/about-data-sources.md)
+  ![](assets/jo-datasource.png)
 
-   ![](assets/jo-datasource.png)
+* Journey Optimizer隨附[內建訊息](../building-journeys/journeys-message.md)功能。 如果您使用協力廠商系統來傳送訊息，您可以&#x200B;**建立自訂動作**。 在此[節](../action/action.md)中瞭解更多。
 
-1. **設定動作**：如果您使用協力廠商系統來傳送訊息，可以建立自訂動作。 在此[節](../action/action.md)中瞭解更多。 此步驟由&#x200B;**技術使用者**&#x200B;執行。 如果您使用Journey Optimizer內建訊息功能，只需將頻道動作新增至歷程並設計內容即可。
-
-   ![](assets/custom2.png)
-
+  ![](assets/custom2.png)
 
 
 對於資料工程師，設定歷程的步驟 (包括資料來源、事件和動作) 已詳細說明，請參閱[本節](../configuration/about-data-sources-events-actions.md)。
@@ -68,7 +64,7 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 >
 >更多有關歷程護欄和限制的資訊可參閱[此頁面](../start/guardrails.md)
 
-## 建立多步驟歷程 {#jo-build}
+## 建立歷程 {#jo-build}
 
 若要建立多步驟歷程，請遵循下列步驟：
 
