@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 93dab17fc74396887e3b68051be777645e02709f
+source-git-commit: 5f48c3df14768e699e174e5a3539438e9b774e1a
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 25%
@@ -38,7 +38,9 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 ![歷程建立步驟：建立、設計、測試和發佈](assets/journey-creation-process.png)
 
 
-建立多步驟客戶歷程可跨管道即時起始一系列互動、優惠方案和訊息。 此方法可確保根據客戶的動作和相關業務訊號，在最佳時刻與客戶互動。 可以根據行為、情境資料和業務事件來定義Target對象。 先決條件取決於您的使用案例，以及您正在建置的[歷程型別](entry-management.md#types-of-journeys)。 在開始設計您的歷程之前，請檢查相關的設定步驟是否已完成：
+建立多步驟客戶歷程可跨管道即時起始一系列互動、優惠方案和訊息。 此方法可確保根據客戶的動作和相關業務訊號，在最佳時刻與客戶互動。 可以根據行為、情境資料和業務事件來定義Target對象。 先決條件取決於您的使用案例，以及您正在建置的[歷程型別](entry-management.md#types-of-journeys)。
+
+在開始建立您的歷程之前，請檢查相關的設定步驟已完成：
 
 * 如果您想要在收到事件時統一觸發您的歷程，您需要&#x200B;**設定事件**。 您可以定義預期的資訊及其處理方式。 [閱讀全文](../event/about-events.md)。
 
