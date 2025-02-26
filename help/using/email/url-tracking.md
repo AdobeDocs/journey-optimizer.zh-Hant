@@ -8,13 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
-source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
+exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
+source-git-commit: 5f7e9556a27fb12618f8da35da5427de3a0867dc
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 84%
+source-wordcount: '402'
+ht-degree: 83%
 
 ---
-
 
 # URL 追蹤 {#url-tracking}
 
@@ -28,11 +28,7 @@ ht-degree: 84%
 >title="預覽 URL 追蹤參數"
 >abstract="重新探討要如何將追蹤參數附加到電子郵件內容中出現的 URL。"
 
-設定新的[電子郵件通道設定](email-settings.md)時，您可以定義&#x200B;**[!UICONTROL URL追蹤引數]**，以評估您跨通道行銷工作的有效性。
-
->[!NOTE]
->
->此功能為選用。
+設定新的[電子郵件通道設定](email-settings.md)時，您可以定義&#x200B;**[!UICONTROL URL追蹤引數]**，以評估您跨通道行銷工作的有效性。 啟用此功能為選填。
 
 對應區段中定義的引數將會附加至電子郵件內容中所包含的URL結尾。 接著，您就可以在 Adobe Analytics 或 Google Analytics 等網站分析工具中擷取這些參數，並建立各種效能報告。
 
