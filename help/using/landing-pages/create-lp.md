@@ -9,24 +9,20 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面，建立，發佈
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
+source-git-commit: 2f8c59a3c07dfc772cb62efe5665189d7a176d6f
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 20%
+source-wordcount: '1723'
+ht-degree: 21%
 
 ---
 
 # 建立和發佈登陸頁面 {#create-lp}
 
->[!CAUTION]
->
->若要能夠測試和發佈登入頁面，您必須擁有&#x200B;**[!UICONTROL Publish訊息]**&#x200B;許可權。
-
 若要將您的客戶導向至您要在他們按一下特定連結時顯示的已定義網頁，請在[!DNL Journey Optimizer]中建立登陸頁面、設定主要頁面及任何子頁面、測試並發佈。
 
->[!CAUTION]
->
->您無法將建立頁面](#create-landing-page)時所定義的URL複製貼入網頁瀏覽器，即使已發佈，也無法存取您的登入頁面。 [您可以改用預覽函式來測試，如[此區段](#test-landing-page)中所述。
+建立登入頁面的主要步驟如下：
+
+![](assets/lp-creation-process.png)
 
 ## 存取登陸頁面 {#access-landing-pages}
 
@@ -34,29 +30,28 @@ ht-degree: 20%
 
 ![](assets/lp_access-list.png)
 
-**[!UICONTROL 登陸頁面]**&#x200B;清單會顯示所有已建立的專案。 您可以根據它們的狀態、修改日期或標籤來篩選它們。
+**[!UICONTROL 登陸頁面]**&#x200B;清單會顯示所有現有的登陸頁面。 您可以根據它們的狀態、修改日期或標籤來篩選它們。
 
 ![](assets/lp_access-list-filter.png)
 
-從這個清單中，您可以存取許多動作。 按一下登入頁面旁的三個點，以選取所需的動作：
+您也可以從此清單存取複製、刪除、取消發佈登入頁面，或存取登入頁面報表。 對此，請按一下登入頁面旁的三個點，然後選取所需的動作：
 
 ![](assets/lp_access-list-actions.png)
 
-* 針對已發佈的專案，您可以存取[登陸頁面報告](../reports/lp-report-global-cja.md)或[過去24小時的即時報告](../reports/lp-report-live.md)。
 
-* 您可以刪除或複製登入頁面。
+您可以：
 
-  >[!NOTE]
-  >
-  >您無法刪除[已發佈](#publish-landing-page)登陸頁面。 若要刪除它，您必須先取消發佈。
+* 針對已發佈的登陸頁面，存取下列&#x200B;**報告**： [登陸頁面報告](../reports/lp-report-global-cja.md)和[過去24小時的即時報告](../reports/lp-report-live.md)。
 
-* 您可以取消發佈已發佈的登陸頁面。
+* **刪除**&#x200B;或&#x200B;**複製**&#x200B;登入頁面。 您無法刪除[已發佈](#publish-landing-page)登陸頁面。 若要刪除它，您必須先&#x200B;**取消發佈**。
+
+* **取消發佈**&#x200B;登陸頁面。
 
   >[!CAUTION]
   >
-  >如果取消發佈訊息中參照的登入頁面，則連結至登入頁面的連結將會中斷，並顯示錯誤頁面。
+  >如果您取消發佈訊息中參照的登陸頁面，則連結至登陸頁面的連結將會中斷，且使用者嘗試存取該頁面時，將會收到錯誤頁面。
 
-* 您也可以編輯登入頁面的相關[標籤](../start/search-filter-categorize.md#tags)。
+* 編輯登入頁面的相關[標籤](../start/search-filter-categorize.md#tags)。
 
 ## 建立登陸頁面 {#create-landing-page}
 
@@ -71,9 +66,11 @@ ht-degree: 20%
 >abstract="為了保護敏感的數位資產，您可以定義授權，以使用標籤來管理對登陸頁面的資料存取。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="物件等級存取控制"
 
-建立登入頁面的主要步驟如下：
 
-![](assets/lp-creation-process.png)
+若要建立登入頁面，您必須選取預設集，然後設定主要頁面和子頁面，最後在發佈頁面之前先測試頁面。 這些步驟詳述如下：
+
+
+1. 從左側功能表瀏覽至&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 登陸頁面]**。
 
 1. 從登入頁面清單中，按一下&#x200B;**[!UICONTROL 建立登入頁面]**。
 
@@ -223,7 +220,7 @@ ht-degree: 20%
 
 >[!CAUTION]
 >
->若要能夠測試登入頁面，您必須擁有&#x200B;**[!UICONTROL Publish訊息]**&#x200B;許可權。
+>若要能夠測試登入頁面，您必須擁有&#x200B;**[!UICONTROL 發佈訊息]**&#x200B;許可權。
 >
 >您必須有可用的測試設定檔，才能預覽訊息和傳送校樣。 瞭解如何[建立測試設定檔](../audience/creating-test-profiles.md)。
 
@@ -289,7 +286,8 @@ ht-degree: 20%
 
 >[!CAUTION]
 >
->若要發佈登入頁面，您必須擁有&#x200B;**[!UICONTROL Publish訊息]**&#x200B;許可權。
+>若要發佈登入頁面，使用者必須擁有&#x200B;**[!UICONTROL 發佈訊息]**&#x200B;許可權。
+
 
 一旦登入頁面準備就緒後，您就可以發佈該頁面，以供訊息使用。
 
