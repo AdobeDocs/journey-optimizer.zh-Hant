@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+source-git-commit: 890d3925a418c117451864558be92030a3a0f87f
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 23%
@@ -46,7 +46,7 @@ ht-degree: 23%
 
    >[!NOTE]
    >
-   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線`_`、點`.`和連字型大小`-`字元。
+   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線 `_`、點 `.` 和連字號 `-` 字元。
 
 1. 若要將自訂或核心資料使用標籤指派給組態，您可以選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
 
