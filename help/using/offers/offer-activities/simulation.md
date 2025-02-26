@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: e213261a1c2cb3421d59ba6c44c832a5f5929cd1
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 12%
@@ -132,13 +132,13 @@ ht-degree: 12%
 
    ![](../assets/offers_simulation-settings.png)
 
-1. 在&#x200B;**[!UICONTROL 重複資料刪除]**&#x200B;區段中，您可以選擇允許跨決定和/或版位重複優惠。 這表示可能會將相同優惠指派給多個決定/位置。
+1. 在&#x200B;**[!UICONTROL 重複資料刪除]**&#x200B;區段中，您可以選擇允許跨決定和/或刊登版位重複優惠。 這表示可能會將相同優惠指派給多個決定/位置。
 
    ![](../assets/offers_simulation-settings-deduplication.png)
 
    >[!NOTE]
    >
-   >依預設，會啟用所有重複資料刪除旗標以進行模擬，這表示決定引擎允許重複專案，因此可以在多個決定/版位中提出相同的主張。 在[本節](../api-reference/offer-delivery-api/decisioning-api.md)中進一步瞭解[!DNL Decisioning] API要求屬性。
+   >依預設，會啟用所有重複資料刪除旗標以進行模擬，這表示決定引擎允許重複專案，因此可以跨多個決定/位置提出相同的主張。 在[本節](../api-reference/offer-delivery-api/decisioning-api.md)中進一步瞭解[!DNL Decisioning] API要求屬性。
 
 1. 在&#x200B;**[!UICONTROL 回應格式]**&#x200B;區段中，您可以選擇在程式碼檢視中包含中繼資料。 核取對應的選項，然後選取您選擇的中繼資料。 選取&#x200B;**[!UICONTROL 檢視代碼]**&#x200B;時，它們會顯示在請求和回應裝載中。 在[檢視模擬結果](#simulation-results)區段中瞭解更多。
 

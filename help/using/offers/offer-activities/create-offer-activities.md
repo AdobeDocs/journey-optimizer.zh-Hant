@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 8535040fd3fe1622d4358a762f92bd93f5694cfa
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 8%
@@ -27,8 +27,8 @@ ht-degree: 8%
 
 * [版位](../offer-library/creating-placements.md)
 * [集合](../offer-library/creating-collections.md)
-* [個人化優惠](../offer-library/creating-personalized-offers.md)
-* [遞補優惠](../offer-library/creating-fallback-offers.md)
+* [個人化產品建議](../offer-library/creating-personalized-offers.md)
+* [後備產品建議](../offer-library/creating-fallback-offers.md)
 
 ## 建立決策 {#create-activity}
 
@@ -220,7 +220,7 @@ ht-degree: 8%
 
 **如果複製關閉**
 
-當您將數個決定範圍新增至決定時，如果版位不允許重複，則系統會依請求中的決定範圍順序，依序選取合格優惠。
+當您將數個決定範圍新增至決定時，如果不允許跨版位複製，則系統會依請求中的決定範圍順序，依序選取合格的優惠。
 
 >[!NOTE]
 >
@@ -264,7 +264,7 @@ ht-degree: 8%
 
 **如果重複位於**
 
-當允許跨所有版位複製時，可以跨不同版位多次建議相同的選件。 如果啟用，系統會針對多個位置考慮相同的選件。 [進一步瞭解複製引數](../offer-library/creating-placements.md)
+當允許跨所有版位重複時，可以跨不同版位多次建議相同的選件。 如果啟用，系統會針對多個位置考慮相同的選件。 [進一步瞭解複製引數](../offer-library/creating-placements.md)
 
 讓我們採取和上面相同的範例，其中您新增了兩個決定範圍，例如：
 

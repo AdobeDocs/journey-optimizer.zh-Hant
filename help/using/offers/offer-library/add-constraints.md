@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
 workflow-type: tm+mt
 source-wordcount: '2636'
 ht-degree: 16%
@@ -61,7 +61,7 @@ ht-degree: 16%
 
 * 只有符合「金級忠誠客戶」決策規則的使用者才會考量此優惠。
 * 優惠方案的優先順序設為「50」，這表示將會在優先順序介於1到49的優惠方案之前以及優先順序至少為51的優惠方案之後顯示優惠方案。
-* 每個使用者在所有位置每月只會顯示一次選件。
+* 所有版位中每個使用者每月僅會顯示一次選件。
 
 ## 適用性 {#eligibility}
 
