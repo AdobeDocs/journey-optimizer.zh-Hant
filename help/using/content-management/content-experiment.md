@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 824926a3448acc57ed10074a92cc283cb8bbb658
+source-git-commit: c1dc65616219520a72416a62399f7c2dbca7ca77
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 12%
+source-wordcount: '746'
+ht-degree: 9%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="內容實驗"
->abstract="您可以選擇改變訊息內容、主題或寄件者，以便定義多種處理方式並確定最適合您的對象的組合。"
+>abstract="您可以選擇變更訊息內容或主旨，以定義多種處理方式，並決定適合您對象的最佳組合。"
 
 >[!NOTE]
 >
 >開始內容實驗之前，請確定您的報告設定已針對自訂資料集設定。 請參閱[此章節](../reports/reporting-configuration.md)深入瞭解。
 
-Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量哪種方式最適合您的目標對象。 您可以選擇變更傳遞內容、主旨或寄件者。 感興趣的對象會隨機分配給每個處理，以決定哪個處理在指定量度方面效果最佳。
+Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量哪種方式最適合您的目標對象。 您可以選擇變更傳送內容或主旨。 感興趣的對象會隨機分配給每個處理，以決定哪個處理在指定量度方面效果最佳。
 
 ![](../rn/assets/do-not-localize/experiment.gif)
 
