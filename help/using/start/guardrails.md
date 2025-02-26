@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 9cab78c89d0885b6da6b43a444754e9ad1e17ae0
+source-git-commit: 82a73c9e6d03563ce9dcc5bd4eaa8eb1166caf1f
 workflow-type: tm+mt
 source-wordcount: '2335'
 ht-degree: 93%
@@ -42,7 +42,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 此變更將在後續階段中轉出到&#x200B;**現有的客戶沙箱**。 [進一步瞭解資料集離開時間(TTL)護欄](../data/datasets-ttl.md)
 
-## 頻道護欄 {#channel-guardrails}
+## 色版護欄 {#channel-guardrails}
 
 ### 電子郵件護欄 {#message-guardrails}
 
