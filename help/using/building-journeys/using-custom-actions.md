@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: 動作，自訂， API，歷程，設定，服務
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8b96c9d4698dc58abdc5ae0261db92b0ce708597
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 26%
+source-wordcount: '412'
+ht-degree: 20%
 
 ---
 
@@ -23,7 +23,11 @@ ht-degree: 26%
 >title="自訂動作"
 >abstract="自訂動作可讓您設定協力廠商系統的連線，以傳送訊息或 API 呼叫。您可以使用任何提供者提供的任何服務來設定動作，這些服務可透過具有 JSON 格式的裝載，透過 REST API 進行呼叫。"
 
-自訂動作可讓您設定協力廠商系統的連線，以傳送訊息或 API 呼叫。您可以使用任何提供者提供的任何服務來設定動作，這些服務可透過具有 JSON 格式的裝載，透過 REST API 進行呼叫。
+使用自訂動作來啟用與協力廠商系統的連線，以傳送訊息或API呼叫。 您可以使用任何提供者提供的任何服務來設定動作，這些服務可透過具有 JSON 格式的裝載，透過 REST API 進行呼叫。
+
+在[本節](../action/action.md)中進一步瞭解自訂動作。
+
+瞭解如何在[此頁面](../action/about-custom-action-configuration.md)中建立和設定自訂動作。
 
 ## 同意與資料控管 {#privacy}
 
@@ -67,6 +71,3 @@ ht-degree: 26%
 
 在&#x200B;**[!UICONTROL 動作引數]**&#x200B;區段中，您會看到定義為&#x200B;_「變數」_&#x200B;的訊息引數。 對於這些引數，您可以定義從何處取得此資訊（例如：事件、資料來源）、手動傳遞值或使用進階運算式編輯器進行進階使用案例。 進階使用案例可以是資料操控和其他函式用途。 請參閱此[頁面](expression/expressionadvanced.md)。
 
-**相關主題**
-
-[設定動作](../action/about-custom-action-configuration.md)
