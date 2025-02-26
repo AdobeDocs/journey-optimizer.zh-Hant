@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面，清單，訂閱，服務
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 0000d5e4a11c316340382ea9b68f8252f109cb61
+source-git-commit: c66fe22f0cf81cf8e14592df1433739735afbe43
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '673'
 ht-degree: 7%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 7%
 
 ## 監視您的訂閱清單 {#monitor-subscription-lists}
 
-您可以透過專用報告監控您的訂閱清單影響。 您可以存取：
+您可以透過專用報告監控您的訂閱清單影響。 您可以存取兩種型別的報表：
 
 * 訂閱清單即時報告
 
