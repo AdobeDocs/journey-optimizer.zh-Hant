@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 05dc60a4eb33be91ba9cc7b4897fa1f28b5557b6
+source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2175'
 ht-degree: 92%
 
 ---
@@ -169,7 +169,7 @@ ht-degree: 92%
          + [使用自訂動作動態傳遞集合](using/building-journeys/collections.md)
          + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
          + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
-         + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
+         + [使用自訂動作在Experience Platform中寫入歷程事件](using/building-journeys/custom-action-aep.md)
 + 行銷活動{#campaigns}
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
    + [建立行銷活動](using/campaigns/create-campaign.md)
@@ -683,17 +683,17 @@ ht-degree: 92%
          + [設定業務事件](using/event/about-creating-business.md)
          + [傳送事件的其他步驟](using/event/additional-steps-to-send-events-to-journey.md)
       + 資料來源設定{#data-source-journeys}
-         + [關於資料來源](using/datasource/about-data-sources.md)
+         + [開始使用資料來源](using/datasource/about-data-sources.md)
          + [設定資料來源](using/datasource/configure-data-sources.md)
          + [Adobe Experience Platform 資料來源](using/datasource/adobe-experience-platform-data-source.md)
          + [外部資料來源](using/datasource/external-data-sources.md)
       + 動作設定 {#action-journeys}
-         + [關於動作](using/action/action.md)
-         + [設定動作](using/action/about-custom-action-configuration.md)
+         + [開始使用自訂動作](using/action/action.md)
+         + [設定自訂動作](using/action/about-custom-action-configuration.md)
          + [疑難排解自訂動作](using/action/troubleshoot-custom-action.md)
+         + [在自訂動作中使用 API 呼叫回應](using/action/action-response.md)
          + [與 Adobe Campaign Standard 整合](using/action/acs-action.md)
          + [與 Adobe Campaign v7/v8 整合](using/action/acc-action.md)
-         + [在自訂動作中使用 API 呼叫回應](using/action/action-response.md)
          + [與 Marketo Engage 整合](using/action/marketo-engage.md)
    + [來源](using/start/get-started-sources.md)
    + [將物件匯出至另一個沙箱](using/configuration/copy-objects-to-sandbox.md)

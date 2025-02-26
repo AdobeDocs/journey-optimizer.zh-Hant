@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 關於資料來源
-description: 瞭解如何設定資料來源
+title: 開始使用資料來源
+description: 瞭解如何開始使用資料來源
 feature: Journeys, Data Sources
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 資料，來源，歷程，平台
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
+source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 57%
+source-wordcount: '344'
+ht-degree: 52%
 
 ---
 
-# 關於資料來源 {#about-data-sources}
+# 開始使用資料來源 {#about-data-sources}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_list"
