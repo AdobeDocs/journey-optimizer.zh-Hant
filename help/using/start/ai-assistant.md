@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: f64cf166d5fa732ae0353414b5638c97d43099a1
+source-git-commit: 1004a1919e1e043a42d389395030dd85e5a94062
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 14%
@@ -32,7 +32,7 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 
 * **產品知識** （一般可用性）
 
-  產品知識問題與Adobe Journey Optimizer各方面相關的Adobe概念。 產品知識問題的一些範例包括：
+  產品知識問題與Adobe概念有關，與Adobe Journey Optimizer的各個方面相關。 產品知識問題的一些範例包括：
 
    * 一個Adobe Journey Optimizer沙箱中可以有多少個已上線活動？
    * 如何在Adobe Journey Optimizer中設定行銷活動？
@@ -54,11 +54,11 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 
 若要提出問題，請在畫面底部的欄位中輸入，然後按Enter鍵。
 
-![](assets/do-not-localize/ai-assistant-ask.png){width="50%" align="left"}
+![](assets/do-not-localize/ai-assistant-ask.png){width="30%" align="left"}
 
 檢查答案，並使用&#x200B;**顯示來源**&#x200B;按鈕取得產品檔案的直接連結，並瞭解更多資訊。
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="30%" align="left"}
 
 使用向上或向下縮圖來評等答案。
 
