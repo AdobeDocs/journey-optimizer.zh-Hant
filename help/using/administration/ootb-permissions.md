@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 許可權，製作，訊息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
+source-git-commit: 5c84bc726d50df555b9a156233c70f08f3febaba
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '934'
 ht-degree: 2%
 
 ---
@@ -39,6 +39,7 @@ ht-degree: 2%
 | Journey Optimizer資料庫 | **[!DNL Manage Library Items]**：新增並刪除[!DNL Journey Optimizer]資料庫中已儲存的運算式。</br>**[!DNL Simulate content]**：存取預覽和校訂的模擬內容選項。</br>**[!DNL Publish fragments]**：發佈內容片段。 |
 | Journey Optimizer規則 | **[!DNL Manage frequency rules]**：存取、建立、編輯或刪除訊息頻率規則。</br>**[!DNL View frequency rules]**：規則的唯讀存取權。 |
 | 歷程 | **[!DNL Approve & publish Journeys]**：套用原則時核准和發佈歷程的權利。</br> **[!DNL Manage journeys]**：讀取、建立、編輯和刪除歷程。 若要存取及管理歷程，請將此許可權與&#x200B;**[!DNL View journeys events, data sources and actions]**&#x200B;結合。</br>**[!DNL Manage journeys events, data sources and actions]**：讀取、建立、編輯和刪除事件、來源或動作。</br>**[!DNL Publish journeys]**：發佈歷程。</br>**[!DNL View journeys]**：歷程的唯讀存取權。</br>**[!DNL View journeys events, data sources and actions]**：歷程事件、歷程自訂動作和歷程資料來源的唯讀存取權。</br>**[!DNL View journeys report]**：讀取及編輯歷程報告。</br> |
+| 訊息 | **[!DNL Manage messages]**：讀取、建立、編輯和刪除訊息。 </br>**[!DNL Manage messages preview and test]**：套用原則時，核准和發佈訊息的權利。</br>**[!DNL Publish messages]**：發佈訊息的權利。</br>**[!DNL View messages]**：訊息的唯讀存取權。</br>**[!DNL View messages report]**：讀取和編輯訊息報告。 |
 | 設定檔管理 | **[!DNL Evaluate a segment to an audience]**：評估區段定義，產生對象的設定檔。</br>**[!DNL Export audience segments]**：將評估過的對象區段匯出至資料集。</br>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</br>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除用於客戶設定檔的資料集。 對可用設定檔的唯讀存取權。</br>**[!DNL View merge policies]**：可用合併原則的唯讀存取權。</br>**[!DNL View profiles]**：可用設定檔的唯讀存取權。</br>**[!DNL View segments]**：可用對象的唯讀存取權。 |
 | 查詢服務 | **[!DNL Manage queries]**：讀取、建立、編輯和刪除Platform資料的結構化SQL查詢。</br>**[!DNL Manage query service integration]**：建立、更新和刪除查詢服務存取權不會到期的認證。 |
 | 報告 | **[!DNL View channel reports]**：讀取和編輯頻道報告。 |
