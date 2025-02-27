@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
-workflow-type: ht
-source-wordcount: '791'
-ht-degree: 100%
+source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
+workflow-type: tm+mt
+source-wordcount: '789'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->有關程式碼型體驗的特定護欄和建議，請參閱[此頁面](code-based-prerequisites.md)。
+>在[此頁面](code-based-prerequisites.md)中詳細說明程式碼型體驗的特定建議。
 
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->

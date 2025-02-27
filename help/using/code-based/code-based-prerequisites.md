@@ -1,19 +1,19 @@
 ---
-title: 程式碼型體驗護欄和先決條件
+title: 程式碼型體驗必要條件
 description: 若要使用Journey Optimizer程式碼型功能編輯應用程式和網頁，請遵循本頁面的先決條件
 feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '638'
 ht-degree: 2%
 
 ---
 
-# 護欄和先決條件 {#code-based-prerequisites}
+# 程式碼型體驗必要條件 {#code-based-prerequisites}
 
 若要能夠在[!DNL Journey Optimizer]中使用程式碼型體驗動作，並傳遞您的應用程式可以使用的程式碼內容裝載，請遵循下列先決條件：
 

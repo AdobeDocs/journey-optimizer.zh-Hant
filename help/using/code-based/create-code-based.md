@@ -6,18 +6,16 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
+source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 10%
+source-wordcount: '701'
+ht-degree: 9%
 
 ---
 
 # 建立程式碼型體驗 {#create-code-based}
 
 在[!DNL Journey Optimizer]中，您可以在歷程或行銷活動中建立程式碼型體驗。
-
-有關程式碼型體驗的特定護欄和建議，請參閱[此頁面](code-based-prerequisites.md)。
 
 ## 透過歷程或行銷活動新增程式碼型體驗 {#create-code-based-experience}
 
@@ -103,7 +101,7 @@ ht-degree: 10%
 
 1. [個人化編輯器](../personalization/personalization-build-expressions.md)開啟。 這是非視覺化體驗建立介面，可讓您編寫程式碼。
 
-1. 您可以將編寫模式從HTML切換為JSON，反之亦然。
+1. 您可以將撰寫模式從HTML切換為JSON，反之亦然。
 
    ![](assets/code-based-campaign-code-editor.png)
 
