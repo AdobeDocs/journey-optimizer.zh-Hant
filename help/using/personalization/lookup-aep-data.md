@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
+source-git-commit: 47ff62f7dee5974afbffdd38dfe4a3f967781e93
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1044'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ Journey Optimizer可讓您在個人化編輯器中運用Adobe Experience Platfor
 
 * **支援的頻道**：目前，此功能僅可用於電子郵件、簡訊和直接郵件頻道。
 * **資料使用標籤和強制執行**&#x200B;目前未針對啟用查閱的資料集強制執行。
-* **運算式片段**：目前無法將資料集查詢個人化放在運算式片段中。
+* **片段**：目前無法將資料集查詢個人化放在運算式或視覺化片段中。
 
 ## 啟用資料集以進行資料查詢 {#enable}
 
