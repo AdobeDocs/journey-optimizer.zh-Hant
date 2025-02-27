@@ -9,13 +9,13 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
-source-git-commit: d6501c8cc7e3293bd6a057d8e74654bced7dae75
+exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
+source-git-commit: 4cedc368d630c0932782ac031fdd904e9b003fa0
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '580'
 ht-degree: 2%
 
 ---
-
 
 # 疑難排解您的自訂動作 {#troubleshoot-a-custom-action}
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 * **基本驗證：**&#x200B;使用者必須提供&#x200B;*密碼*。
 * **API金鑰驗證：**&#x200B;使用者必須輸入API金鑰&#x200B;*值*。
-* **自訂驗證：**&#x200B;使用者必須在要求&#x200B;*bodyParam*&#x200B;中提供驗證引數。 在此案例中新增了兩個要完成的區段： **驗證要求**&#x200B;和&#x200B;**驗證回應**。
+* **自訂驗證：**&#x200B;使用者必須在要求&#x200B;*bodyParam*&#x200B;中提供驗證引數。 在此案例中新增了兩個區段： **驗證要求**&#x200B;和&#x200B;**驗證回應**。
 
 ## 主要優點 {#troubleshoot-custom-action-benefits}
 
@@ -94,4 +94,3 @@ ht-degree: 2%
 * 要求方法(GET與POST的比較)和對應的裝載。
 * 自訂動作中定義的API端點和標題。
 * 使用回應資料來識別可能的設定錯誤。
-
