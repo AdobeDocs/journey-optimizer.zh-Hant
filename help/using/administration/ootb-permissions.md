@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: 許可權，製作，訊息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
 | 儀表板 | **[!DNL View license usage dashboards]**： [授權使用量儀表板](../audience/license-usage.md)的唯讀存取權。 </br>**[!DNL Manage custom dashboards]**：可讓您建立新儀表板或編輯現有儀表板。</br>**[!DNL Manage standard dashboards]**：可讓您建立自訂Widget，並透過Widget資料庫編輯Widget結構描述。</br>**[!DNL View custom dashboards]**：使用者定義儀表板的唯讀存取權。</br>**[!DNL View standard dashboards]**：「設定檔」、「目的地」和「對象」儀表板的唯讀存取權。 |
 | 資料彙集 | **[!DNL Manage datastream]**：讀取、建立和編輯資料串流。</br>**[!DNL View datastream]**：資料串流的唯讀存取權。 |
 | 資料治理 | **[!DNL Manage usage labels]**：讀取、建立、編輯和刪除標籤。</br>**[!DNL Manage data usage policies]**：讀取、建立、編輯和刪除資料使用原則。</br>**[!DNL View data usage policies]**：屬於您組織之資料使用原則的唯讀存取權。</br>**[!DNL View user activity log]**：唯讀存取權，可檢視Platform活動記錄的稽核記錄。 |
-| 資料衛生 | **[!DNL Manage data hygiene]**：讀取、建立、編輯和刪除資料衛生。</br>**[!DNL View data hygiene]**：資料衛生的唯讀存取。 |
+| 資料生命週期 | **[!DNL Manage data lifecycle]**：讀取、建立、編輯和刪除資料生命週期。</br>**[!DNL View data lifecycle]**：資料生命週期的唯讀存取。 |
 | 資料擷取 | **[!DNL Manage sources]**：讀取、建立、編輯和停用來源。</br>**[!DNL View sources]**： Catalog索引標籤中可用來源的唯讀存取權，以及Browse索引標籤中已驗證的來源。 |
 | 資料管理 | **[!DNL Data monitoring]**：監視資料集和資料流的唯讀存取權。</br>**[!DNL Manage datasets]**：讀取、建立、編輯和刪除資料集。 結構描述的唯讀存取權。</br>**[!DNL View datasets]**：資料集和結構描述的唯讀存取權。 |
 | 資料模式 | **[!DNL Manage identity metadata]**：讀取、建立、編輯和刪除結構描述的身分中繼資料。</br> **[!DNL Manage relationships]**：讀取、建立、編輯和刪除結構描述關係。</br>**[!DNL Manage schemas]**：讀取、建立和編輯Experience Data Model (XDM)結構描述。</br>**[!DNL View schemas]**：結構描述的唯讀存取權。 |
