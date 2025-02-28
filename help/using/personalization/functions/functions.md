@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
+source-git-commit: 9fa5330d766aa6fb1998e668a08d769d3fd1b2cc
 workflow-type: tm+mt
-source-wordcount: '2390'
+source-wordcount: '2388'
 ht-degree: 27%
 
 ---
@@ -301,7 +301,7 @@ ht-degree: 27%
         <td><a href="string.md#doesNotStartWith">開頭不是</a></td><td>此函式用於決定字串的開頭是否不是指定的子字串</td>
     </tr>
     <tr>
-        <td><a href="string.md#encode64">編碼64</a></td><td>此函式用於編碼或解碼字串</td>
+        <td><a href="string.md#encode64">編碼64</a></td><td>此函式用於編碼字串</td>
     </tr>
     <tr>
         <td><a href="string.md#endsWith">結尾為</a></td><td>此函式用於決定字串的結尾是否為指定的子字串</td>
