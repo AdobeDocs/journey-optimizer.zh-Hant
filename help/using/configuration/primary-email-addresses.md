@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address_header"
 >title="定義要使用的地址"
->abstract="編輯用於確定輪廓的電子郵件地址或電話號碼的欄位以優先傳送。"
+>abstract="編輯用於確定設定檔的電子郵件地址或電話號碼的欄位以優先傳送。"
 
 當您定位設定檔時，資料庫中可能會提供數個電子郵件地址或電話號碼（專業電子郵件地址、個人電話號碼等）。
 
 在這種情況下，[!DNL Journey Optimizer]會使用&#x200B;**[!UICONTROL 執行欄位]**&#x200B;來決定要優先使用設定檔服務中的電子郵件地址或電話號碼。
 
-若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**&#x200B;功能表。
+若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**&#x200B;選單。
 
 ![](assets/primary-address-execution-fields.png)
 

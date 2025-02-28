@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: f930fd23431d826ba7efc72035811f0023fcf4d1
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="選取您的檔案的伺服器類型"
->abstract="選擇您要用於匯出直接郵件檔案的伺服器型別：Amazon S3、SFTP、Azure或資料登陸區域。"
+>abstract="選擇匯出直接郵件檔案所要使用的伺服器類型：Amazon S3、SFTP、Azure 或 Data Landing Zone。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"

@@ -43,12 +43,12 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"
 >title="建立條件"
->abstract="結合輪廓屬性、內容關聯式事件或對象以建置定義在訊息中應顯示哪些內容的規則。"
+>abstract="結合設定檔屬性、內容關聯式事件或對象以建置定義在訊息中應顯示哪些內容的規則。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions"
 >title="建立條件"
->abstract="結合輪廓屬性、內容關聯式事件或對象以建置定義在訊息中應顯示哪些內容的規則。"
+>abstract="結合設定檔屬性、內容關聯式事件或對象以建置定義在訊息中應顯示哪些內容的規則。"
 
 建立條件規則的步驟如下：
 

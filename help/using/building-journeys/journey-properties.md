@@ -68,7 +68,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="重新進入等待期"
->abstract="設定允許輪廓在單一歷程中再次進入歷程之前等待的時間。這會防止使用者在選定的期間內重新進入歷程。最長持續時間：90 天。"
+>abstract="設定允許設定檔在單一歷程中再次進入歷程之前等待的時間。這會防止使用者在選定的期間內重新進入歷程。最長持續時間：90 天。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="輪廓入口管理"
 
 啟動&#x200B;**允許重新進入**&#x200B;選項時，會顯示&#x200B;**重新進入等待期間**&#x200B;欄位。 此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或客群資格篩選開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 持續時間上限為90天。
@@ -97,7 +97,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="結束日期"
->abstract="選擇歷程的結束日期。當到達該日期時，該歷程中的輪廓會自動退出，新的輪廓將無法再進入。"
+>abstract="選擇歷程的結束日期。當到達該日期時，該歷程中的設定檔會自動退出，新的設定檔將無法再進入。"
 
 您可以定義&#x200B;**開始日期**。 如果您尚未指定，則會在發佈時自動定義。
 

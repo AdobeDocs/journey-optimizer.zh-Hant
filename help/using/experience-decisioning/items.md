@@ -32,7 +32,7 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_priority"
 >title="定義決定項目的優先順序"
->abstract="如果一個輪廓符合多個項目的條件，則可以透過優先順序將此決定項目與其他決定項目進行比較。 較高的優先順序使該項目優先於其他項目。"
+>abstract="如果一個設定檔符合多個項目的條件，則可以透過優先順序將此決定項目與其他決定項目進行比較。 較高的優先順序使該項目優先於其他項目。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
@@ -63,7 +63,7 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
 >title="新增對象或決定規則"
->abstract="預設情況下，所有輪廓都有資格接收決定項目，但您可以使用對象或規則將該項目限制為僅限特定輪廓。"
+>abstract="預設情況下，所有設定檔都有資格接收決定項目，但您可以使用對象或規則將該項目限制為僅限特定設定檔。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用對象"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="使用決定規則"
 

@@ -20,7 +20,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
 >title="成功量度"
->abstract="先前在建立實驗時選取的成功量度的總值除以輪廓的數量。"
+>abstract="先前在建立實驗時選取的成功量度的總值除以設定檔的數量。"
 
 ## 實驗 {#experimentation}
 

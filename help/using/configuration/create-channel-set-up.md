@@ -10,7 +10,7 @@ level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
 source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
 >title="獲取裝置語彙基元"
->abstract="為了確保裝置的推播權杖與您的 Adobe Experience Platform 輪廓正確同步，您必須將以下程式碼整合到應用程式中。為了保持最新的通訊功能和確保順暢的使用者體驗，此整合相當重要。"
+>abstract="為了確保裝置的推播權杖與您的 Adobe Experience Platform 設定檔正確同步，您必須將以下程式碼整合到應用程式中。為了保持最新的通訊功能和確保順暢的使用者體驗，此整合相當重要。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
@@ -41,12 +41,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_certificate"
 >title="提供推播憑證"
->abstract=".p8 金鑰檔案包含一個私密金鑰，用來透過 Apple 伺服器對您的應用程式進行驗證，以實現安全的推播通知。您可以從您開發人員帳戶中的「憑證、識別碼和輪廓」頁面獲得此金鑰。"
+>abstract=".p8 金鑰檔案包含一個私密金鑰，用來透過 Apple 伺服器對您的應用程式進行驗證，以實現安全的推播通知。您可以從您開發人員帳戶中的「憑證、識別碼和設定檔」頁面獲得此金鑰。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_key_id"
 >title="金鑰 ID"
->abstract="金鑰 ID 是在建立 p8 驗證金鑰期間指派的 10 字元字串，可在您開發人員帳戶中的「憑證、識別碼和輪廓」頁面的「**金鑰**」標籤下方找到。"
+>abstract="金鑰 ID 是在建立 p8 驗證金鑰期間指派的 10 字元字串，可在您開發人員帳戶中的「憑證、識別碼和設定檔」頁面的「**金鑰**」標籤下方找到。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_team_id"

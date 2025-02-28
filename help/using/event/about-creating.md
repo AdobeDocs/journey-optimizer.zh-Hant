@@ -21,9 +21,9 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_unitary"
 >title="單一事件"
->abstract="事件設定可讓您定義 Journey Optimizer 會接收為事件的資訊。您可以使用多個事件 (在歷程的不同步驟中)，而好幾個歷程可以使用同一個事件。單一事件會連結到特定的輪廓。它們可能是以規則為基礎或由系統產生。"
+>abstract="事件設定可讓您定義 Journey Optimizer 會接收為事件的資訊。您可以使用多個事件 (在歷程的不同步驟中)，而好幾個歷程可以使用同一個事件。單一事件會連結到特定的設定檔。它們可能是以規則為基礎或由系統產生。"
 
-單一事件會連結到特定的輪廓。可以是規則型或系統產生。  閱讀有關單一事件[本節](../event/about-events.md)的詳細資訊。
+單一事件會連結到特定的設定檔。可以是規則型或系統產生。  閱讀有關單一事件[本節](../event/about-events.md)的詳細資訊。
 
 以下是設定新事件的第一個步驟：
 
@@ -85,7 +85,7 @@ ht-degree: 10%
 
 ## 定義裝載欄位 {#define-the-payload-fields}
 
-裝載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯之人員的金鑰。 裝載是以Experience CloudXDM欄位定義為基礎。 如需XDM的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}。
+裝載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯之人員的金鑰。 裝載是根據Experience Cloud XDM欄位定義。 如需XDM的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}。
 
 1. 從清單中選取XDM結構描述，然後按一下&#x200B;**[!UICONTROL 欄位]**&#x200B;欄位或&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示。
 
@@ -116,7 +116,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"
 >title="身分識別類型"
->abstract="選取索引鍵以識別和事件相關聯的客戶輪廓。"
+>abstract="選取索引鍵以識別和事件相關聯的客戶設定檔。"
 
 身分型別（先前稱為「名稱空間」）可讓您定義用來識別與事件相關聯之人員的金鑰型別。 其設定是選用的。 如果您想要在歷程中擷取來自[即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}的其他資訊，則需要此專案。 如果您僅使用來自協力廠商系統的資料，透過自訂資料來源，則不需要身分型別定義。
 
@@ -140,9 +140,9 @@ ht-degree: 10%
 
 ## 定義設定檔識別碼 {#define-the-event-key}
 
-索引鍵是欄位或欄位組合，這是事件裝載資料的一部分，可讓系統識別與事件相關聯的人員。 例如，索引鍵可以是Experience CloudID、CRM ID或電子郵件地址。
+索引鍵是欄位或欄位組合，這是事件裝載資料的一部分，可讓系統識別與事件相關聯的人員。 例如，索引鍵可以是Experience Cloud ID、CRM ID或電子郵件地址。
 
-若要使用Adobe即時客戶設定檔資料庫中儲存的資料，事件索引鍵必須是您在[即時客戶設定檔服務](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}中定義為設定檔身分的資訊。
+若要使用儲存在Adobe即時客戶設定檔資料庫中的資料，事件索引鍵必須是您在[即時客戶設定檔服務](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}中定義為設定檔身分的資訊。
 
 設定檔識別碼可讓系統在事件和個人設定檔之間執行調解。 如果您選取具有主要身分的結構描述，則會預先填入&#x200B;**[!UICONTROL 設定檔識別碼]**&#x200B;和&#x200B;**[!UICONTROL 身分型別]**&#x200B;欄位。 如果未定義任何身分，則&#x200B;_identityMap > id_&#x200B;是主索引鍵。 然後您必須選取身分型別，而且金鑰會使用&#x200B;_identityMap > id_&#x200B;自動預先填入。
 

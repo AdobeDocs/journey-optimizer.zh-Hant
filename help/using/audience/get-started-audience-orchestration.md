@@ -30,22 +30,22 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"
 >title="客群活動"
->abstract="客群活動可讓您在組合中包含屬於現有客群的其他輪廓。"
+>abstract="客群活動可讓您在組合中包含屬於現有客群的其他設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_merge_types"
 >title="合併類型"
->abstract="指定應如何合併選取客群的輪廓。"
+>abstract="指定應如何合併選取客群的設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude_type"
 >title="排除類型"
->abstract="使用排除客群類型以排除屬於現有客群的輪廓。使用屬性類型的排除可讓您根據特定屬性排除輪廓。"
+>abstract="使用排除客群類型以排除屬於現有客群的設定檔。使用屬性類型的排除可讓您根據特定屬性排除設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
 >title="排除活動"
->abstract="排除活動可讓您透過選取現有客群或使用規則從您的組合中排除輪廓。"
+>abstract="排除活動可讓您透過選取現有客群或使用規則從您的組合中排除設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
@@ -70,12 +70,12 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
 >title="排名活動"
->abstract="排名可讓您根據特定屬性對輪廓進行排名，並將它們包含在您的組合中。例如，包含忠誠度點數最多的 50 個輪廓。"
+>abstract="排名可讓您根據特定屬性對設定檔進行排名，並將它們包含在您的組合中。例如，包含忠誠度點數最多的 50 個設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
->title="新增輪廓限制"
->abstract="開啟此選項以指定要包含在組合中的輪廓的最大數量。"
+>title="新增設定檔限制"
+>abstract="開啟此選項以指定要包含在組合中的設定檔的最大數量。"
 
 <!-- [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
@@ -90,12 +90,12 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
 >title="分割類型"
->abstract="使用百分比分割類型將輪廓隨機分割為多個路徑。屬性分割類型可讓您根據特定屬性分割輪廓。"
+>abstract="使用百分比分割類型將設定檔隨機分割為多個路徑。屬性分割類型可讓您根據特定屬性分割設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_otherprofiles_text"
->title="其他輪廓"
->abstract="若剩餘的輪廓和其他路徑中指定的任何條件都不相符，開啟此選項為剩餘輪廓建立額外路徑。"
+>title="其他設定檔"
+>abstract="若剩餘的設定檔和其他路徑中指定的任何條件都不相符，開啟此選項為剩餘設定檔建立額外路徑。"
 
 此文件提供如何在 Adobe Journey Optimizer 中使用客群構成的詳細資訊。 如果您是只使用即時客戶輪廓的客戶，且不使用 Adobe Journey Optimizer， 請[按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}。
 
