@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1004a1919e1e043a42d389395030dd85e5a94062
+source-git-commit: 5e907e12958055f0a4f75fe99103218288c758fa
 workflow-type: tm+mt
-source-wordcount: '2175'
+source-wordcount: '2187'
 ht-degree: 91%
 
 ---
@@ -455,24 +455,26 @@ ht-degree: 91%
       + [開始使用 Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
       + [決策護欄和限制](using/experience-decisioning/decisioning-guardrails.md)
       + API 參考{#api-reference}
-         + 決定項目{#decision-items}
-            + [建立決定項目](using/experience-decisioning/api-reference/decisions-items/create.md)
-            + [決定項目清單](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
-            + [刪除決定項目](using/experience-decisioning/api-reference/decisions-items/delete.md)
-            + [查找決定項目](using/experience-decisioning/api-reference/decisions-items/lookup.md)
-            + [更新決定項目](using/experience-decisioning/api-reference/decisions-items/update.md)
-         + 項目集合{#items-collections}
-            + [建立項目集合](using/experience-decisioning/api-reference/items-collections/create.md)
-            + [刪除項目集合](using/experience-decisioning/api-reference/items-collections/delete.md)
-            + [項目集合清單](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
-            + [查找項目集合](using/experience-decisioning/api-reference/items-collections/lookup.md)
-            + [更新項目集合](using/experience-decisioning/api-reference/items-collections/update.md)
-         + 選擇策略{#selection-strategies}
-            + [建立選擇策略](using/experience-decisioning/api-reference/selection-strategies/create.md)
-            + [刪除選擇策略](using/experience-decisioning/api-reference/selection-strategies/delete.md)
-            + [查找選擇策略](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
-            + [選擇策略清單](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
-            + [更新選擇策略](using/experience-decisioning/api-reference/selection-strategies/update.md)
+         + 建立和管理優惠方案專案{#create-manage}
+            + 決定項目{#decision-items}
+               + [建立決定項目](using/experience-decisioning/api-reference/decisions-items/create.md)
+               + [決定項目清單](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
+               + [刪除決定項目](using/experience-decisioning/api-reference/decisions-items/delete.md)
+               + [查找決定項目](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+               + [更新決定項目](using/experience-decisioning/api-reference/decisions-items/update.md)
+            + 項目集合{#items-collections}
+               + [建立項目集合](using/experience-decisioning/api-reference/items-collections/create.md)
+               + [刪除項目集合](using/experience-decisioning/api-reference/items-collections/delete.md)
+               + [項目集合清單](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+               + [查找項目集合](using/experience-decisioning/api-reference/items-collections/lookup.md)
+               + [更新項目集合](using/experience-decisioning/api-reference/items-collections/update.md)
+            + 選擇策略{#selection-strategies}
+               + [建立選擇策略](using/experience-decisioning/api-reference/selection-strategies/create.md)
+               + [刪除選擇策略](using/experience-decisioning/api-reference/selection-strategies/delete.md)
+               + [查找選擇策略](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+               + [選擇策略清單](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
+               + [更新選擇策略](using/experience-decisioning/api-reference/selection-strategies/update.md)
+         + [使用程式碼型體驗管道提供優惠方案](using/experience-decisioning/api-reference/deliver.md)
       + 管理決定項目 {#decision-items}
          + [設定項目目錄](using/experience-decisioning/catalogs.md)
          + [建立決定項目](using/experience-decisioning/items.md)

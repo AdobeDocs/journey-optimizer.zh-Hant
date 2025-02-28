@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 5e907e12958055f0a4f75fe99103218288c758fa
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 26%
+source-wordcount: '501'
+ht-degree: 25%
 
 ---
 
@@ -85,3 +85,4 @@ Decisioning 會透過提供集中行銷產品建議目錄，又稱為「決策�
 1. **建立決定原則並將其內嵌至您的程式碼型行銷活動**：決定原則會結合多個選取策略，以決定要顯示給目標對象的合格決定專案。
 
    ➡️[瞭解如何使用決定原則](create-decision.md)
+➡️若要透過程式碼型通道成功傳遞優惠方案，請依照[本節](../code-based/code-based-implementation-samples.md)中的實作步驟操作
