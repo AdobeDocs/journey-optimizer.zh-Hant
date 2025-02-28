@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 82a73c9e6d03563ce9dcc5bd4eaa8eb1166caf1f
+source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
 workflow-type: tm+mt
-source-wordcount: '2335'
-ht-degree: 93%
+source-wordcount: '2346'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 90天用於設定檔存放區的資料，
 * Data Lake中的資料為13個月。
 
-此變更將在後續階段中轉出到&#x200B;**現有的客戶沙箱**。 [進一步瞭解資料集離開時間(TTL)護欄](../data/datasets-ttl.md)
+此變更將在後續階段中轉出到&#x200B;**現有的客戶沙箱**。 [進一步瞭解資料集的存留時間(TTL)護欄](../data/datasets-ttl.md)
 
 ## 色版護欄 {#channel-guardrails}
 
@@ -220,4 +220,4 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 下列護欄適用於 **[!UICONTROL Campaign v7/v8]** 和 **[!UICONTROL Campaign Standard]** 活動：
 
 * Adobe Campaign 活動不能與讀取客群或客群資格篩選活動搭配使用。
-* 這些活動無法與應用程式內活動搭配使用。
+* 行銷活動不能與其他管道活動搭配使用：卡片、程式碼型體驗、電子郵件、推播、簡訊、應用程式內訊息、網頁。
