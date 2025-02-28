@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙箱，歷程，複製，環境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: bf18b629c23f9ef48d53b0042d466ba7c1f57c78
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1042'
 ht-degree: 4%
 
 ---
@@ -30,8 +30,6 @@ ht-degree: 4%
 
 1. 在來源沙箱中新增要匯出為封裝的物件。
 1. 將套件匯出至目標沙箱。
-
-此外，您可以運用Journey Optimizer **物件復制服務REST API**&#x200B;來管理沙箱的物件。 [瞭解如何使用物件復制服務REST API](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
 
 ## 匯出的物件與最佳實務 {#objects}
 
