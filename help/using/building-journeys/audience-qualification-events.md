@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 對象資格事件
-description: 瞭解對象資格事件
+description: 瞭解如何使用及設定對象資格事件
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 資格，事件，對象，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
+source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 10%
+source-wordcount: '1212'
+ht-degree: 5%
 
 ---
 
@@ -33,7 +33,11 @@ ht-degree: 10%
 
 ➡️ [在影片中探索此功能](#video)
 
-### 重要備註{#important-notes-segment-qualification}
+### 重要備註 {#important-notes-segment-qualification}
+
+* 對象資格歷程主要設計用於串流對象：此組合將保證更好的即時體驗。 我們強烈建議您在對象資格活動中只使用&#x200B;**串流對象**。
+
+  不過，如果您想要在串流對象中使用批次擷取型屬性，或想要批次對象用於對象資格歷程，請考慮對象評估/啟用的時間範圍 — 使用批次擷取屬性的批次對象或串流對象，應在您完成細分工作後約&#x200B;**2小時**&#x200B;用於&#x200B;**對象資格**&#x200B;活動(此工作每天會在Adobe組織管理員定義的時間執行一次)。
 
 * 請記得，Adobe Experience Platform對象是每天計算一次（**批次**&#x200B;對象），或是即時計算(使用Adobe Experience Platform的「高頻對象」選項，針對&#x200B;**串流**&#x200B;對象)。
 
@@ -46,9 +50,12 @@ ht-degree: 10%
   >
   >由於使用構成工作流程和自訂上傳建立的對象批次性質，您無法在「對象資格」活動中鎖定這些對象。 此活動中只能運用使用區段定義建立的對象。
 
-* 從讀取對象、對象資格或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。
+* 體驗事件欄位群組不能用於以&#x200B;**讀取對象**、**對象資格**&#x200B;或&#x200B;**商業事件**&#x200B;活動開始的歷程。
 
-* 在歷程中使用客群資格篩選時，該客群資格篩選活動最多可能需要 10 分鐘，才會啟用和接聽進入或退出客群的輪廓。
+* 在歷程中使用&#x200B;**對象資格**&#x200B;活動時，該活動最多可能需要10分鐘才會生效，並聆聽進入或退出對象的設定檔。
+
+
+另請參閱下方的[對象資格最佳實務](#best-practices-segments)。
 
 ### 設定活動 {#configure-segment-qualification}
 
@@ -100,7 +107,7 @@ ht-degree: 10%
 
 ![](assets/segment8.png)
 
-包含對象資格事件的新歷程在發佈後10分鐘即可運作。 此時間間隔對應到專用服務的快取重新整理間隔。 因此，您必須等待10分鐘才能使用此歷程。
+包含&#x200B;**對象資格**&#x200B;事件的新歷程在您發佈10分鐘後即可運作。 此時間間隔對應到專用服務的快取重新整理間隔。 因此，您必須等待10分鐘才能使用此歷程。
 
 ## 最佳作法 {#best-practices-segments}
 
@@ -108,21 +115,21 @@ ht-degree: 10%
 
 此資訊的接收速度很快。 所做的測量顯示速度為每秒接收10,000個事件。 因此，您應該確保瞭解入口尖峰可能如何發生、如何避免以及如何讓您的歷程準備好迎接他們。
 
-### 批次對象{#batch-speed-segment-qualification}
+### 批次對象 {#batch-speed-segment-qualification}
 
-針對批次對象使用對象資格時，請注意，入口尖峰將發生在每日計算時。 峰值的大小將取決於每天進入（或退出）對象的個人數量。
+針對批次對象使用「對象資格」時，請注意，入口尖峰會在每日計算時發生。 峰值的大小將取決於每天進入（或退出）對象的個人數量。
 
 此外，如果在歷程中新建立並立即使用批次對象，則第一批計算可能會讓大量個人進入歷程。
 
-### 串流對象{#streamed-speed-segment-qualification}
+### 串流對象 {#streamed-speed-segment-qualification}
 
-針對串流對象使用對象資格時，由於持續評估對象，入口/出口出現大型峰值的風險較低。 然而，如果受眾定義導致大量客戶同時符合資格，則也可能出現峰值。
+針對串流對象使用「對象資格」時，由於持續評估對象，入口/出口出現大型峰值的風險較低。 然而，如果受眾定義導致大量客戶同時符合資格，則也可能出現峰值。
 
 避免使用具有串流細分的開啟和傳送事件。 請改用真正的使用者活動訊號，例如點選、購買或信標資料。 針對頻率或隱藏邏輯，請使用商業規則而非傳送事件。 [了解更多](../audience/about-audiences.md#open-and-send-event-guardrails)
 
 如需串流區段的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)。
 
-### 如何避免多載{#overloads-speed-segment-qualification}
+### 如何避免多載 {#overloads-speed-segment-qualification}
 
 以下是將有助於避免讓歷程中所運用的系統（資料來源、自訂動作、管道動作活動）過載的一些最佳做法。
 
@@ -138,6 +145,6 @@ ht-degree: 10%
 
 ## 作法影片 {#video}
 
-了解客群資格篩選歷程的適用使用案例。 了解如何透過客群資格篩選建立歷程，以及套用哪些最佳實務。
+透過此影片瞭解對象資格歷程的適用使用案例。 瞭解如何使用對象資格建立歷程，以及套用哪些最佳實務。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

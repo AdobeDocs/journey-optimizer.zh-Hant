@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 691474e332e9c62dd1be8b8b044e0d02781805ff
+source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 25%
@@ -53,7 +53,7 @@ ht-degree: 25%
 
 * 在歷程中使用&#x200B;**條件**&#x200B;活動，以根據客群成員資格建置條件。 [了解如何在條件中使用客群](../building-journeys/condition-activity.md#using-a-segment)。
 
-* 在歷程中使用&#x200B;**對象資格**&#x200B;事件活動，讓個人根據Adobe Experience Platform對象進出而在歷程中進入或前進。 例如，您可以讓所有新的銀級客戶進入歷程，並向其傳送訊息。 如需有關如何使用此活動的詳細資訊，請參閱[了解如何設定客群資格篩選活動](../building-journeys/audience-qualification-events.md)。
+* 在歷程中使用&#x200B;**對象資格**&#x200B;事件活動，以根據Adobe Experience Platform對象進入和退出，讓個人進入歷程或是在歷程中前進。 例如，您可以讓所有新的銀級客戶進入歷程，並向其傳送訊息。 如需有關如何使用此活動的詳細資訊，請參閱[了解如何設定客群資格篩選活動](../building-journeys/audience-qualification-events.md)。
 
   >[!NOTE]
   >
