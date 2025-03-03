@@ -3,26 +3,20 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 疑難排解您的自訂動作
 description: 瞭解如何疑難排解自訂動作
-badge: label="有限可用性"
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 4cedc368d630c0932782ac031fdd904e9b003fa0
+source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 2%
+source-wordcount: '559'
+ht-degree: 0%
 
 ---
 
 # 疑難排解您的自訂動作 {#troubleshoot-a-custom-action}
-
->[!AVAILABILITY]
->
->此功能僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。
->
 
 您可以從Journey Optimizer使用者介面的管理區段傳送API呼叫，以測試自訂動作。 此功能可協助您在歷程中使用自訂動作之前或之後，進行疑難排解。
 
