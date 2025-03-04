@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: c0698c949622dbd9b4d97eaefedb67ff9f557347
+source-git-commit: 1ff33c3da5236cb4a89a893f83476867a2ecddd3
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 52%
@@ -96,6 +96,8 @@ ht-degree: 52%
 >id="ajo_ao_split_otherprofiles_text"
 >title="其他設定檔"
 >abstract="若剩餘的設定檔和其他路徑中指定的任何條件都不相符，開啟此選項為剩餘設定檔建立額外路徑。"
+
+>[!BEGINSHADEBOX]
 
 此文件提供如何在 Adobe Journey Optimizer 中使用客群構成的詳細資訊。 如果您是只使用即時客戶輪廓的客戶，且不使用 Adobe Journey Optimizer， 請[按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}。
 
