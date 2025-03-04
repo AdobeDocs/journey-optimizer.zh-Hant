@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 主要，執行，電子郵件，目標，設定檔，最佳化工具
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
+source-git-commit: 5b6543fd98b0457652374a34712e91501ace898c
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 20%
@@ -70,6 +70,11 @@ ht-degree: 20%
 
 對於特定使用案例，您可以全域覆寫執行欄位設定，並在電子郵件設定層級或歷程層級定義不同的值。
 
+覆寫此值可能很實用，例如：
+
+* 測試電子郵件。 您可以新增自己的電子郵件地址：在您發佈歷程後，系統會傳送電子郵件給您。
+* 傳送電子郵件給清單的訂閱者。 在[此使用案例](../building-journeys/message-to-subscribers-uc.md)中了解更多。
+
 ### 在電子郵件設定中
 
 定義電子郵件通道設定時，您可以變更[一般設定](#admin-settings)中的預設執行欄位集。 [了解更多](../email/email-settings.md#execution-address)
@@ -88,8 +93,4 @@ ht-degree: 20%
 >
 >電子郵件地址覆寫僅用於特定使用案例。 在大多數情況下，您不需要變更電子郵件地址，因為&#x200B;**[!UICONTROL 執行欄位]**&#x200B;中定義為主要電子郵件的值才是應該使用的值。
 
-覆寫此值可能很實用，例如：
-
-* 測試電子郵件。 您可以新增自己的電子郵件地址：在您發佈歷程後，系統會傳送電子郵件給您。
-* 傳送電子郵件給清單的訂閱者。 在[此使用案例](../building-journeys/message-to-subscribers-uc.md)中了解更多。
 
