@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: 96f6fe5d1a941a904ecddf66e9b4a51802e5d00b
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -121,7 +121,7 @@ Edge區段能在Adobe Experience Platform中即時評估[邊緣](https://experie
 
 >[!AVAILABILITY]
 >
-彈性的對象評估僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。
+彈性客群評估僅適用於特定組織 (可用性限制)。若要取得存取權，請和您的 Adobe 代表聯絡。
 
 Adobe Experience Platform受眾入口網站可讓您依需求針對選取的受眾執行細分工作，確保您始終擁有最新的受眾資料，然後再將其鎖定為Journey Optimizer歷程和行銷活動。
 
@@ -129,8 +129,7 @@ Adobe Experience Platform受眾入口網站可讓您依需求針對選取的受�
 
 1. 根據您的最新資料建立全新的區段。
 1. 即時評估對象以確保準確性。 若要這麼做，請選擇您要評估的對象，然後選取「評估對象」，前提是這些對象符合特定條件（例如以人物為基礎、分段服務來源）。
-1. 在Adobe Journey Optimizer中使用評估過的對象
-行銷活動或歷程，以精確鎖定目標。
+1. 在Adobe Journey Optimizer行銷活動或歷程中使用評估過的對象來精確鎖定目標。
 
 您一次最多可以評估20個對象，不符合資格的對象將自動排除。 如需詳細資訊，請參閱[對象入口網站檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation)。
 
