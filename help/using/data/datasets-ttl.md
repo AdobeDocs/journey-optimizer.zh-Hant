@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform、資料湖、建立、湖、資料集、輪廓
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: 0e164877044430509fc7b2f2bf3ca2eda8e7497b
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 14%
+source-wordcount: '655'
+ht-degree: 12%
 
 ---
 
@@ -46,13 +46,6 @@ ht-degree: 14%
 | 決定物件存放庫 — 位置 | 13 個月 | 不適用 |
 | 決定物件存放庫 — 活動 | 13 個月 | 不適用 |
 | ODE DecisionEvents - prod decisioning | 13 個月 | 不適用 |
-| AJO同意服務資料集 | 不適用 | 90 天 |
-| AJO互動式訊息設定檔資料集 | 不適用 | 90 天 |
-| AJO設定檔計數器擴充功能 | 不適用 | 90 天 |
-| AJO推播設定檔資料集 | 不適用 | 90 天 |
-| AJO可參與的設定檔資料集 | 不適用 | 90 天 |
-
-
 
 ## 常見問題 {#faq}
 
