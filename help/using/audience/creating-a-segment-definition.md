@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 96f6fe5d1a941a904ecddf66e9b4a51802e5d00b
+source-git-commit: 963bf0ae62664a3aa47639b27f0b39b849d51055
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 21%
+source-wordcount: '1017'
+ht-degree: 19%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 21%
 
 當新資料流入系統時，對象的設定檔清單會即時保持最新。
 
-串流細分是持續進行的資料選擇流程，其會根據使用者活動來更新客群。 在建置區段定義並儲存產生的客群後，區段定義會套用至傳入 Journey Optimizer 的資料。 這表示當個人設定檔資料變更時，將會在對象中新增或移除該個人，以確保您的目標對象永遠相關。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}
+串流細分是持續進行的資料選擇流程，其會根據使用者活動來更新客群。 在建置區段定義並儲存產生的客群後，區段定義會套用至傳入 Journey Optimizer 的資料。 這表示當個人設定檔資料變更時，將會在對象中新增或移除該個人，以確保您的目標對象永遠相關。 [在Adobe Expe中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}
 
 >[!IMPORTANT]
 >
@@ -93,17 +93,17 @@ ht-degree: 21%
 
 每24小時評估對象的設定檔清單。
 
-批次細分是串流細分的替代方法，其可透過區段定義一次處理所有輪廓資料。 這會建立客群的快照，可儲存和匯出以供使用。 不過，和串流區段不同，批次區段不會持續即時更新對象清單，而且批次程式之後傳入的新資料不會反映在對象中，直到下一個批次程式為止。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
+批次細分是串流細分的替代方法，其可透過區段定義一次處理所有輪廓資料。 這會建立客群的快照，可儲存和匯出以供使用。 不過，和串流區段不同，批次區段不會持續即時更新對象清單，而且批次程式之後傳入的新資料不會反映在對象中，直到下一個批次程式為止。 如需詳細資訊，請參閱[Adobe Experience Platform劃分服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
 
 +++
 
 +++ 邊緣分段
 
-Edge區段能在Adobe Experience Platform中即時評估[邊緣](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}上的區段，啟用相同頁面和下一頁個人化使用案例。 目前只有選取的查詢型別可使用邊緣分段進行評估。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
+Edge區段能在Adobe Experience Platform中即時評估[邊緣](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}上的區段，啟用相同頁面和下一頁個人化使用案例。 目前只有選取的查詢型別可使用邊緣分段進行評估。 如需詳細資訊，請參閱[Adobe Experience Platform劃分服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
 
 +++
 
-如果您知道要使用的評估方法，請使用下拉式清單選取它。 您也可以按一下帶有放大鏡的瀏覽圖示資料夾圖示，以檢視可用區段定義評估方法的清單。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#segment-properties){target="_blank"}
+如果您知道要使用的評估方法，請使用下拉式清單選取它。 您也可以按一下帶有放大鏡的瀏覽圖示資料夾圖示，以檢視可用區段定義評估方法的清單。 如需詳細資訊，請參閱[Adobe Experience Platform劃分服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#segment-properties){target="_blank"}
 
 ![](assets/evaluation-methods.png)
 
@@ -131,7 +131,7 @@ Adobe Experience Platform受眾入口網站可讓您依需求針對選取的受�
 1. 即時評估對象以確保準確性。 若要這麼做，請選擇您要評估的對象，然後選取「評估對象」，前提是這些對象符合特定條件（例如以人物為基礎、分段服務來源）。
 1. 在Adobe Journey Optimizer行銷活動或歷程中使用評估過的對象來精確鎖定目標。
 
-您一次最多可以評估20個對象，不符合資格的對象將自動排除。 如需詳細資訊，請參閱[對象入口網站檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation)。
+您一次最多可以評估20個對象，不符合資格的對象將自動排除。 如需詳細資訊，請參閱[Adobe Experience Platform Segmentation Service檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation)。
 
 ## 作法影片{#video-segment}
 
