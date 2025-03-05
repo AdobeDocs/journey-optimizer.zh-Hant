@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 963bf0ae62664a3aa47639b27f0b39b849d51055
+source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1041'
 ht-degree: 19%
 
 ---
@@ -93,7 +93,9 @@ ht-degree: 19%
 
 每24小時評估對象的設定檔清單。
 
-批次細分是串流細分的替代方法，其可透過區段定義一次處理所有輪廓資料。 這會建立客群的快照，可儲存和匯出以供使用。 不過，和串流區段不同，批次區段不會持續即時更新對象清單，而且批次程式之後傳入的新資料不會反映在對象中，直到下一個批次程式為止。 如需詳細資訊，請參閱[Adobe Experience Platform劃分服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
+批次細分是串流細分的替代方法，其可透過區段定義一次處理所有輪廓資料。 這會建立客群的快照，可儲存和匯出以供使用。 不過，和串流區段不同，批次區段不會持續即時更新對象清單，而且批次程式之後傳入的新資料不會反映在對象中，直到下一個批次程式為止。 嘗試強制立即更新將不會覆寫每日週期。 如需立即的增量更新，請考慮使用串流或隨選細分選項。
+
+如需詳細資訊，請參閱[Adobe Experience Platform劃分服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
 
 +++
 
