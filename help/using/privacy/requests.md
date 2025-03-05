@@ -7,10 +7,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+source-git-commit: 95d02900fb9686466fa6b20c90e1c425567db145
+workflow-type: tm+mt
+source-wordcount: '490'
+ht-degree: 45%
 
 ---
 
@@ -22,29 +22,24 @@ Adobe Experience Platform **Privacy Service** 提供 RESTful API 和使用者介
 
 ![](assets/requests.png)
 
-有關 Privacy Service 以及如何建立和管理隱私權請求的詳細資訊，請參閱 Adobe Experience Platform 文件：
+如需Privacy Service以及如何建立和管理隱私權要求的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target="_blank"}。
 
-* [Privacy Service 概述](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant)
-* [管理 Privacy Service UI 中的隱私作業](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant)
+<!--* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
+* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)-->
 
-
-
-## 管理您可傳送至 Adobe Journey Optimizer 的個別資料隱私權請求 {#data-privacy-requests}
+## 管理您可傳送至Adobe Journey Optimizer的個別資料隱私權請求 {#data-privacy-requests}
 
 您可以透過兩種方式，提交個別請求以存取和刪除 Adobe Journey Optimizer 中消費者資料：
 
-* 透過 **Privacy Service UI**。請參閱[此處](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/ui/user-guide#_blank)的文件。
-* 透過 **Privacy Service API**。請參閱[此處](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank)的文件與[此處](https://developer.adobe.com/experience-platform-apis/#_blank)的 API 資訊。
+* 透過 **Privacy Service UI**。[了解更多](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant){target="_blank"}
+* 透過 **Privacy Service API**。[了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"}
+  <!--More specific information on Privacy Service API [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank).-->
 
-Privacy Service 支援兩種類型的請求：**資料存取**&#x200B;和&#x200B;**資料刪除**。
+Privacy Service支援兩種請求： **資料存取**&#x200B;和&#x200B;**資料刪除**。
 
->[!NOTE]
->
->本指南僅涵蓋向 Adobe Journey Optimizer 提出隱私權請求的方法。如果您也計劃向 Platform Data Lake 提出隱私權請求，除了本教學課程以外，也請參閱此[指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/privacy)。若為即時客戶輪廓，請參閱此[指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/privacy)，若為身分識別服務，請參閱此[指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/privacy)。對於刪除及存取請求，您需要呼叫這些個體系統，以確保每個系統都能處理請求。 向 Adobe Journey Optimizer 提出隱私權請求並不會移除所有這些系統的資料。
+針對&#x200B;**存取要求**，請從UI指定&quot;**Adobe Journey Optimizer**&quot; （或&quot;**CJM**&quot;作為API中的產品代碼）。
 
-對於&#x200B;**存取請求**，從 UI 指定「Adobe Journey Optimizer」(或「CJM」作為 API 的產品程式碼)。
-
-對於&#x200B;**刪除請求**，除「Adobe Journey Optimizer」請求外，您還必須向三個上游服務提交刪除請求，以防止 Journey Optimizer 重新插入已刪除的資料。 如果未指定這些上游服務，「Adobe Journey Optimizer」請求將維持在「處理」狀態，直到建立上游服務的刪除請求為止。
+對於&#x200B;**刪除請求**，除了&quot;**Adobe Journey Optimizer**&quot;請求之外，您還必須向&#x200B;**三個上游服務**&#x200B;提交刪除請求，以防止Journey Optimizer重新插入已刪除的資料。 如果未指定這些上游服務，「Adobe Journey Optimizer」請求將維持在「處理」狀態，直到建立上游服務的刪除請求為止。
 
 這三種上游服務為：
 
@@ -52,7 +47,18 @@ Privacy Service 支援兩種類型的請求：**資料存取**&#x200B;和&#x200B
 * AEP 資料湖 (產品代碼：「AdobeCloudPlatform」)
 * 身分 (產品代碼：「identity」)
 
-## 如何建立存取及刪除請求
+>[!NOTE]
+>
+>本指南僅說明如何為[!UICONTROL Adobe Journey Optimizer]提出隱私權請求。
+>
+>* 如果您也計畫提出Platform Data Lake的隱私權請求，除了本教學課程外，另請參閱本[指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/privacy)。
+>
+>* 如需即時客戶設定檔，請參閱此[指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/privacy)。
+>* 如需身分識別服務，請參閱此[指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/privacy)。
+>
+>對於刪除和存取請求，您需要呼叫這些個別系統，以確定每個系統都處理這些請求。 向[!DNL Adobe Journey Optimizer]提出隱私權請求並不會從所有這些系統中移除資料。
+
+## 建立存取與刪除請求
 
 ### 先決條件
 
@@ -61,7 +67,11 @@ Privacy Service 支援兩種類型的請求：**資料存取**&#x200B;和&#x200B
 * Adobe 組織 ID
 * 您要對其採取動作之人員的身分識別碼以及對應名稱空間。如需 Adobe Journey Optimizer 與 Experience Platform 身分命名空間的詳細資訊，請參閱[身分命名空間概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)。
 
-### Adobe Journey Optimizer 用於 API 請求的必填欄位值
+>[!IMPORTANT]
+>
+>提交隱私權要求時，請務必指定&#39;[!DNL '**Adobe Journey Optimizer**]&#39;作為目標產品名稱，並指定&#x200B;**與需要存取或移除的設定檔資料相關的所有身分名稱空間** （例如&#39;Email&#39;、&#39;ECID&#39;或&#39;Loyalty ID&#39;）。 尤其是，對於刪除請求，如果您未明確包含產品名稱和所有適用的名稱空間，資料將保留在[!DNL Adobe Journey Optimizer]中。
+
+### Journey Optimizer中用於API請求的必填欄位值
 
 ```json
 "companyContexts":
@@ -87,11 +97,11 @@ Privacy Service 支援兩種類型的請求：**資料存取**&#x200B;和&#x200B
 ```
 
 
-### GDPR 存取請求範例：
+### GDPR存取請求範例：
 
 從 UI：
 
-![](assets/accessrequest.png)
+![](assets/accessrequest.png){width="60%" align="center"}
 
 使用 API：
 
@@ -167,11 +177,11 @@ Privacy Service 支援兩種類型的請求：**資料存取**&#x200B;和&#x200B
 }
 ```
 
-### GDPR 刪除請求範例：
+### GDPR刪除請求範例：
 
 從 UI：
 
-![](assets/deleterequest.png)
+![](assets/deleterequest.png){width="60%" align="center"}
 
 使用 API：
 
