@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 12a3520ec05737cbf5cdc813aa22ce16a9270d18
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 35%
+source-wordcount: '436'
+ht-degree: 34%
 
 ---
 
@@ -22,31 +22,19 @@ ht-degree: 35%
 
 ➡️ [在影片中探索此功能](#video)
 
-**即時客戶設定檔{&#x200B;1}**
+**即時客戶設定檔{1&#x200B;} — 將來自線上、離線和假名的客戶屬性和事件整合到單一整合的設定檔中。&#x200B;URL**&#x200B;使用設定檔以跨多個接觸點提供個人化即時體驗來吸引客戶。&#x200B;URL
 
-將來自線上、離線和假名來源的客戶屬性和事件整合到單一整合設定檔中。&#x200B;URL使用設定檔以跨多個接觸點提供個人化即時體驗來吸引客戶。&#x200B;URL
+**資料擷取** — 連線至各種資料來源，以擷取行為、異動、財務和營運資料。 即時或透過批次上傳擷取資料，以持續更新設定檔。&#x200B;URL
 
-**資料擷取**
+**身分圖表** — 使用客戶身分結合來自不同來源的資料，例如忠誠度識別碼或CRM系統ID。&#x200B;URL透過對應品牌資料集中不同身分之間的關係來建立客戶的完整檢視。&#x200B;URL
 
-連線至各種資料來源，以擷取行為、異動、財務和營運資料。 即時或透過批次上傳擷取資料，以持續更新設定檔。&#x200B;URL
+**客戶參與度** — 使用即時客戶設定檔來提供情境式個人化體驗，例如鎖定目標的選件和訊息。&#x200B;URL跨各種管道與客戶互動，包括行銷活動、客戶支援和交易更新。&#x200B;URL
 
-**身分圖表**
-
-使用客戶身分結合來自不同來源的資料，例如忠誠度ID或CRM系統ID。&#x200B;URL透過對應品牌資料集中不同身分之間的關係來建立客戶的完整檢視。&#x200B;URL
-
-**客戶參與度**
-
-使用即時客戶設定檔來提供情境式個人化體驗，例如鎖定目標的選件和訊息。&#x200B;URL跨各種管道與客戶互動，包括行銷活動、客戶支援和交易更新。&#x200B;URL
-
-**資料共用**
-
-與Amazon Web Services、Microsoft Azure和Google Cloud等主要的雲端儲存提供者共用客戶設定檔。 使用共用的設定檔，透過商業智慧工具進行報告、資料封存或更深入的分析。
+**資料共用** — 與Amazon Web Services、Microsoft Azure和Google Cloud等頂級雲端儲存提供者共用客戶設定檔。 使用共用的設定檔，透過商業智慧工具進行報告、資料封存或更深入的分析。
 
 ## 設定檔儀表板
 
 若要存取設定檔，請導覽至左側導覽窗格中的&#x200B;**[!UICONTROL 客戶]** / **[!UICONTROL 設定檔]**&#x200B;功能表。
-
-![](assets/profiles-home.png)
 
 >[!NOTE]
 >
@@ -54,9 +42,12 @@ ht-degree: 35%
 
 您可從多個來源將資料片段集合在一起並加以結合，以便查看每個客戶的完整檢視。彙總此資料時，合併原則是用來判斷資料優先順序的方式以及將合併哪些資料以建立統一檢視的規則。 在此[文件](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant){target="_blank"}深入了解&#x200B;**合併原則**。
 
+![](assets/profiles-home.png)
+
 >[!MORELIKETHIS]
 >
 >* [即時客戶輪廓文件](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant){target="_blank"}
+>* [即時客戶設定檔資料和細分的預設護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}
 >* [即時客戶輪廓概觀影片](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}
 
 ## 作法影片 {#video}
