@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，驗證，錯誤，個人化
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: ff6619925a36d2687922d1b631d1cabbcb98167e
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 2%
@@ -24,13 +24,11 @@ ht-degree: 2%
 
 >[!NOTE]
 > 當您按一下&#x200B;**新增**&#x200B;按鈕以關閉編輯器視窗時，會自動執行驗證。
->
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > 如果個人化語法無效，則無法關閉個人化編輯器視窗。
->
 
 ## 常見錯誤 {#common-errors}
 
