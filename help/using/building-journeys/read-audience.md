@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，對象，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
+source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1687'
 ht-degree: 11%
 
 ---
@@ -32,6 +32,10 @@ ht-degree: 11%
 ➡️ [在影片中探索此功能](#video)
 
 ## 護欄和最佳實務 {#must-read}
+
+* 歷程中只能使用一個&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動，而且必須是畫布中的第一個活動。
+
+* **[!UICONTROL 讀取對象]**&#x200B;活動只能鎖定一個對象。 如果需要多個對象，請考慮在使用前將這些對象合併為單一對象。 [瞭解如何使用組合工作流程結合對象](../audience/get-started-audience-orchestration.md)
 
 * 對於使用&#x200B;**讀取客群**&#x200B;活動的歷程，則可同時開始的歷程次數有其上限。 系統將執行重試，但避免同時開始超過五個歷程（具有&#x200B;**讀取對象**、排程或「儘快」）。 最佳實務建議將其分散一段時間，例如相隔5到10分鐘。
 

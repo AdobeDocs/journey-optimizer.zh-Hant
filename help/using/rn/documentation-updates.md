@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
+source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
-source-wordcount: '6193'
+source-wordcount: '6222'
 ht-degree: 96%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 96%
 
 ## 2025 年 2 月 {#feb-2025}
 
+* 「讀取對象」活動護欄已更新，以指定歷程中只能使用一個活動，並且只能鎖定一個對象。 [閱讀全文](../building-journeys/read-audience.md)
 * 更新使用行銷活動時的歷程護欄。 [閱讀全文](../start/guardrails.md#ac-g)
 * 已詳細說明建立第一個歷程的步驟，並新增檔案區段的連結。 [閱讀全文](../building-journeys/journey-gs.md)
 * 新頁面現在已可用，以詳細說明歷程控制面板和篩選使用者介面。 [閱讀全文](../building-journeys/journey-ui.md)
