@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
+source-git-commit: 6480bb7e35d92ba1771b3e5c01310ee93a8c77b1
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '746'
 ht-degree: 27%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 27%
 <table>
 <thead>
 <tr>
-<th><strong>疑難排解您的自訂動作（可用性限制）</strong><br/></th>
+<th><strong>疑難排解您的自訂動作</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -100,7 +100,7 @@ ht-degree: 27%
 <td>
 <p>您現在可以直接從Adobe Journey Optimizer發出真正的API呼叫，以驗證自訂動作設定。 </p>
 <p>如需詳細資訊，請參閱<a href="../action/troubleshoot-custom-action.md">詳細文件</a>。</p>
-<p> 此功能僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<!--p> This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p-->
 </td>
 </tr>
 </tbody>
