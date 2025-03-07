@@ -12,7 +12,7 @@ exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 155ae8ef14e5482d94e54b15962afa09aa6826fc
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 10%
+ht-degree: 16%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor_autocomplete"
 >title="自動完成"
->abstract="切換此選項可讓系統在您輸入運算式時自動完成程式碼並提出建議。 此選項僅適用於HTML和文字格式。"
+>abstract="啟用此選項後，系統將在您輸入運算式時自動完成程式碼並提供建議。此選項僅適用於 HTML 和 Text 格式。"
 
 個人化編輯器是[!DNL Journey Optimizer]中個人化的核心。 它可用於您需要定義個人化的每個內容，例如電子郵件、推播和選件。
 

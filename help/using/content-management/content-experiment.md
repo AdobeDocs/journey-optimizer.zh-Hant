@@ -12,7 +12,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: c1dc65616219520a72416a62399f7c2dbca7ca77
 workflow-type: tm+mt
 source-wordcount: '746'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="內容實驗"
->abstract="您可以選擇變更訊息內容或主旨，以定義多種處理方式，並決定適合您對象的最佳組合。"
+>abstract="您可以選擇改變訊息內容或主旨，以便定義多種處理方式並確定最適合您的客群的組合。"
 
 >[!NOTE]
 >

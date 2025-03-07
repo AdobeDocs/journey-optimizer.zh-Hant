@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: f30b7c72e98d3676be0885162101c1e9a5eedeaf
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_details"
->title="優惠詳細資料"
->abstract="填寫優惠方案名稱及其開始和結束日期。 在這些日期之外，決策引擎將不會選取選件。"
+>title="產品建議詳細資料"
+>abstract="填寫產品建議的名稱及其開始及結束日期。在這些日期之外，決策引擎將不會選取該產品建議。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
@@ -60,7 +60,7 @@ ht-degree: 14%
 
    ![](../assets/create_offer.png)
 
-1. 指定優惠方案名稱及其開始和結束日期和時間。 在這些日期之外，決策引擎將不會選取選件。
+1. 指定優惠方案名稱及其開始和結束日期和時間。 在這些日期之外，決策引擎將不會選取該產品建議。
 
    >[!NOTE]
    >

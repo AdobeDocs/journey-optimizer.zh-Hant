@@ -12,7 +12,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
 source-wordcount: '986'
-ht-degree: 52%
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="歷程事件"
->abstract="事件會與某位人員連結。事件與人員的行為相關 (例如某人購買產品、造訪商店、退出網站等等)，或所發生的事情與人員有關 (例如某人的忠誠度點數達到 10,000 點)。Journey Optimizer會聽取歷程中的單一事件，以協調下一個最佳動作。"
+>abstract="事件會與某位人員連結。事件與人員的行為相關 (例如某人購買產品、造訪商店、退出網站等等)，或所發生的事情與人員有關 (例如某人的忠誠度點數達到 10,000 點)。Journey Optimizer 會在歷程中監聽單一事件，並藉此協調最佳的後續動作。"
 
 事件設定可讓您定義[!DNL Journey Optimizer]接收做為事件的資訊。 您可以使用多個事件（在歷程的不同步驟中），而數個歷程則可以使用相同事件。
 

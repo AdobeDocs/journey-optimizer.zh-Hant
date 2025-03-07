@@ -1,5 +1,5 @@
 ---
-title: 建立及管理核准原則
+title: 建立和管理核准原則
 description: 瞭解如何建立和管理核准政策。
 role: User
 level: Beginner
@@ -8,11 +8,11 @@ exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
-# 建立及管理核准原則 {#approval-policies}
+# 建立和管理核准原則 {#approval-policies}
 
 
 >[!CONTEXTUALHELP]
@@ -36,8 +36,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_permissions_approval_policy"
->title="新核准原則"
->abstract="在此畫面中，輸入名稱，並選取核准原則的內容，然後建立條件以決定誰可以啟動核准要求，以及誰可以驗證核准要求。"
+>title="全新核准原則"
+>abstract="在此畫面中，輸入名稱並選取核准原則的情境，接著建置條件以確定誰可以發起核准請求、誰可以進行批准。"
 
 若要建立核准政策，請遵循下列步驟：
 

@@ -16,7 +16,7 @@ ht-degree: 29%
 
 ---
 
-# 報告和實驗必備條件 {#reporting-configuration}
+# 報告和實驗先決條件 {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
