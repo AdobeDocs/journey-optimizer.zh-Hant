@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 3646c67dd23bb786cf2486c5c43748197ba04f85
+source-git-commit: 12dc96bb08f03865c82382baac276f46bc42baeb
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 16%
+source-wordcount: '618'
+ht-degree: 15%
 
 ---
 
@@ -28,9 +28,14 @@ ht-degree: 16%
 >abstract="選擇您的品牌，以確保所有AI產生的內容都經過量身打造，符合您品牌的規格和指導方針。"
 
 >[!CONTEXTUALHELP]
+>id="ajo_brand_score_overview"
+>title="品牌選擇"
+>abstract="選擇您的品牌，以確保您的內容符合其特定准則、標準和身分，並維持一致性和品牌完整性。"
+
+>[!CONTEXTUALHELP]
 >id="ajo_brand_score"
 >title="品牌一致性分數"
->abstract="您的品牌一致性分數會測量AI產生的內容遵守您品牌指引的程度，以確保色彩、字型、標誌、影像和寫作風格的一致性。"
+>abstract="您的品牌一致性分數會衡量您的內容遵守品牌指引的程度，以確保色彩、字型、標誌、影像和寫作風格的一致性。"
 
 
 >[!AVAILABILITY]
