@@ -21,7 +21,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="設定 DMARC 記錄"
->abstract="DMARC 是一種電子郵件驗證方法，可讓網域擁有者保護其網域免遭未經授權的使用，並避免信箱提供者的傳遞問題。<br>為了執行產業最佳實務，Google 和 Yahoo! 都要求您對傳送電子郵件所使用的任何網域留有 DMARC 記錄。"
+>abstract="DMARC 是一種電子郵件驗證方法，可讓網域擁有者保護其網域免遭未經授權的使用，並避免信箱提供者的傳遞問題。<br>為了執行產業最佳做法，Google 和 Yahoo! 都要求您對傳送電子郵件所使用的任何網域留有 DMARC 記錄。"
 
 ## 什麼是DMARC？ {#what-is-dmarc}
 
@@ -70,13 +70,13 @@ SPF和DKIM都可用來關聯電子郵件與網域，並共同驗證電子郵件�
 
 因此，Adobe強烈建議您採取下列動作：
 
-* 確定已為&#x200B;**您已委派**&#x200B;到[!DNL Journey Optimizer]中Adobe的所有子網域設定&#x200B;**DMARC記錄**。 [了解作法](#check-subdomains-for-dmarc)
+* 確定已在[!DNL Journey Optimizer]中為&#x200B;**您已委派**&#x200B;至DMARC的所有子網域設定&#x200B;**Adobe記錄**。 [了解作法](#check-subdomains-for-dmarc)
 
-* 當&#x200B;**將任何新子網域**&#x200B;委派給Adobe時，您可以在[!DNL Journey Optimizer]管理介面&#x200B;**中直接**&#x200B;設定DMARC ****。 [了解作法](#implement-dmarc)
+* 將&#x200B;**任何新子網域**&#x200B;委派給Adobe時，您可以在[!DNL Journey Optimizer]管理介面&#x200B;**中直接**&#x200B;設定DMARC ****。 [了解作法](#implement-dmarc)
 
 ## 在[!DNL Journey Optimizer]中實作DMARC {#implement-dmarc}
 
-[!DNL Journey Optimizer]管理介面可讓您針對您已委派或正在委派給Adobe的所有子網域設定DMARC記錄。 詳細步驟如下所述。
+[!DNL Journey Optimizer]管理介面可讓您針對您已委派或正在委派給DMARC的所有子網域設定Adobe記錄。 詳細步驟如下所述。
 
 ### 檢查DMARC的現有子網域 {#check-subdomains-for-dmarc}
 
@@ -102,7 +102,7 @@ SPF和DKIM都可用來關聯電子郵件與網域，並共同驗證電子郵件�
 
      請確定DNS記錄已產生至您的網域託管解決方案，並勾選「我確認……」方塊。
 
-   * 如果您正在編輯已完全委派給Adobe的子網域[](delegate-subdomain.md#full-subdomain-delegation)，只需填入[此區段](#implement-dmarc)中詳細說明的&#x200B;**[!UICONTROL DMARC記錄]**&#x200B;欄位。 不需要進一步動作。
+   * 如果您正在編輯已完全委派給Adobe的子網域[](delegate-subdomain.md#full-subdomain-delegation)，只需填入[本節](#implement-dmarc)中詳細說明的&#x200B;**[!UICONTROL DMARC記錄]**&#x200B;欄位。 不需要進一步動作。
 
      ![](assets/dmarc-record-edit-full.png)
 
@@ -110,7 +110,7 @@ SPF和DKIM都可用來關聯電子郵件與網域，並共同驗證電子郵件�
 
 ### 為新子網域設定DMARC {#set-up-dmarc}
 
-將新子網域委派給[!DNL Journey Optimizer]中的Adobe時，將會為您的網域在DNS中建立DMARC記錄。 請依照下列步驟實作DMARC。
+在[!DNL Journey Optimizer]中將新子網域委派給Adobe時，將會為您的網域在DNS中建立DMARC記錄。 請依照下列步驟實作DMARC。
 
 >[!CAUTION]
 >
@@ -144,7 +144,7 @@ SPF和DKIM都可用來關聯電子郵件與網域，並共同驗證電子郵件�
 
    >[!NOTE]
    >
-   >請確定您的控制中有正版收件匣(非Adobe)可接收這些報告。
+   >請確定您的控制中有正版收件匣(而非Adobe)可接收這些報表。
 
    ISP會產生兩種不同的報表，讓傳送者可透過其DMARC原則中的RUA/RUF標籤接收：
 

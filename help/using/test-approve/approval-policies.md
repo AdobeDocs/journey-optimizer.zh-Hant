@@ -37,7 +37,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_permissions_approval_policy"
 >title="全新核准原則"
->abstract="在此畫面中，輸入名稱並選取核准原則的情境，接著建置條件以確定誰可以發起核准請求、誰可以進行批准。"
+>abstract="在此畫面中，輸入名稱並選取核准原則的情境，接著建置條件以確定誰可以發起核准要求、誰可以進行驗證。"
 
 若要建立核准政策，請遵循下列步驟：
 
