@@ -7,9 +7,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: 95d02900fb9686466fa6b20c90e1c425567db145
+source-git-commit: b400b48d6f0429b05be523d4c2f520c383eef514
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '491'
 ht-degree: 45%
 
 ---
@@ -69,7 +69,7 @@ Privacy Service支援兩種請求： **資料存取**&#x200B;和&#x200B;**資料
 
 >[!IMPORTANT]
 >
->提交隱私權要求時，請務必指定&#39;[!DNL '**Adobe Journey Optimizer**]&#39;作為目標產品名稱，並指定&#x200B;**與需要存取或移除的設定檔資料相關的所有身分名稱空間** （例如&#39;Email&#39;、&#39;ECID&#39;或&#39;Loyalty ID&#39;）。 尤其是，對於刪除請求，如果您未明確包含產品名稱和所有適用的名稱空間，資料將保留在[!DNL Adobe Journey Optimizer]中。
+>提交隱私權要求時，請務必指定&#39;[!DNL '**Adobe Journey Optimizer**]&#39;作為目標產品名稱，並指定&#x200B;**與需要存取或移除的設定檔資料相關的所有身分名稱空間** （例如&#39;Email&#39;、&#39;ECID&#39;或&#39;Loyalty ID&#39;）。 尤其是，對於刪除請求，如果您未明確包含產品名稱和所有適用的名稱空間，則不會從[!DNL Adobe Journey Optimizer]中移除資料。
 
 ### Journey Optimizer中用於API請求的必填欄位值
 
