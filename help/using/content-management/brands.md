@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 7e354b5235aa6a6378ebc3d13a2c99017064379f
+source-git-commit: 3646c67dd23bb786cf2486c5c43748197ba04f85
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 19%
+source-wordcount: '592'
+ht-degree: 16%
 
 ---
 
@@ -39,9 +39,7 @@ ht-degree: 19%
 
 品牌指引是一組詳細的規則和標準，可建立品牌的視覺和口頭識別。 這些可作為參考，以在所有行銷和通訊平台上維持一致的品牌代表性。
 
-<!--Upload feature currently behind feature flag--
-
-In [!DNL Journey Optimizer], you now have the option to manually input and organize your brand details or upload brand guideline documents for automatic information extraction.-->
+在[!DNL Journey Optimizer]中，您現在可以選擇手動輸入及組織您的品牌詳細資料，或上傳品牌指引檔案以進行自動資訊擷取。
 
 ## 存取品牌 {#generative-access}
 
@@ -78,31 +76,21 @@ In [!DNL Journey Optimizer], you now have the option to manually input and organ
 >title="建立您的品牌"
 >abstract="輸入您的品牌名稱並上傳您的品牌指南檔案。 此工具會自動擷取關鍵詳細資訊，讓您更輕鬆地維護品牌識別。"
 
-若要建立和管理您的品牌指引，請遵循下列步驟。
-
-<!--Upload feature currently behind feature flag--
-
-To create and manage your Brand guideline, you can either enter the details yourself, or upload your brand guidelines document to have the information extracted automatically:-->
+若要建立和管理您的品牌指引，您可以自行輸入詳細資料，或上傳品牌指引檔案以自動擷取資訊：
 
 1. 在&#x200B;**[!UICONTROL 品牌]**&#x200B;功能表中，按一下&#x200B;**[!UICONTROL 建立品牌]**。
 
    ![](assets/brands-1.png)
 
-1. 輸入您品牌<!--and a **[!UICONTROL Description]** to your brand guideline-->的&#x200B;**[!UICONTROL 名稱]**。
+1. 輸入您品牌的&#x200B;**[!UICONTROL 名稱]**。
 
-   ![](assets/brands-2-temp.png)
+1. 拖放或選取您的檔案，以上傳您的品牌指引，並自動擷取相關的品牌資訊。 按一下&#x200B;**[!UICONTROL 建立品牌]**。
 
-<!--Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)--
+   資訊擷取程式現在開始。 請注意，可能需要幾分鐘才能完成。
 
-1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information. Click **[!UICONTROL Create brand]**.
+   ![](assets/brands-2.png)
 
-    The information extraction process now begins. Note that it may take several minutes to complete.
-
-    ![](assets/brands-2.png)
-
-1. Your Content and visual creation standards are now automatically populated. Browse through the different tabs to adapt the information as needed.
-
--->
+1. 系統現在會自動填入您的內容和視覺化建立標準。 瀏覽不同的標籤，視需要調整資訊。
 
 1. 在&#x200B;**[!UICONTROL 撰寫樣式]**&#x200B;索引標籤中，按一下![](assets/do-not-localize/Smock_Add_18_N.svg)以新增指引或排除專案，包括範例。
 
