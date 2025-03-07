@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+source-git-commit: c1ca6175e504dff5e89aaddc2105d150992a8b28
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1277'
 ht-degree: 21%
 
 ---
@@ -166,6 +166,10 @@ ht-degree: 21%
 ![](assets/create-campaign-schedule.png)
 
 對於電子郵件、簡訊和推播通知行銷活動，您可以定義行銷活動訊息的傳送頻率。 若要這麼做，請使用行銷活動建立畫面中的&#x200B;**[!UICONTROL 動作觸發器]**&#x200B;選項，指定行銷活動應該每日、每週或每月執行。
+
+>[!NOTE]
+>
+>在[!DNL Adobe Journey Optimizer]中排程行銷活動時，請確定您的開始日期/時間與所要的首次傳遞一致。 對於循環行銷活動，如果初始排程時間已過，行銷活動將根據其循環規則滾動至下一個可用時段。
 
 ## 其他設定 {#settings}
 
