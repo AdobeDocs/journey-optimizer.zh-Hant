@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 890d3925a418c117451864558be92030a3a0f87f
+source-git-commit: 9ea7f2c76cc09949bb4467d5b9b2c19550f9975e
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 23%
@@ -22,7 +22,7 @@ ht-degree: 23%
 
 在[建置您的體驗](create-code-based.md)之前，您需要建立程式碼型體驗設定，在其中定義內容將在您的應用程式內傳遞和使用的位置。
 
-程式碼型體驗設定必須參考曲面，這基本上是您要呈現變更的位置。 根據所選的平台，您需要輸入位置/路徑，或完整表面URI。 [了解更多](#surface-definition)
+程式碼型體驗設定必須參考曲面，這基本上是您要呈現變更的位置。 根據所選的平台，您需要輸入位置/路徑，或完整表面URI。 [了解更多](code-based-surface.md)
 
 ## 建立基於程式碼的體驗設定 {#create-code-based-configuration}
 
