@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 8d477f724b9bddcfd05df62ea236ebbaa25bc549
+source-git-commit: a6a601477e29e558bf4f4e9416187b2db3e15942
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 若要深入瞭解Adobe Experience Manager as a Cloud Service中的Dynamic Media，請參閱[Experience Manager檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)。
 
-## 新增及管理Dynamic Media
+## 新增及管理Dynamic Media {#dynamic-media}
 
 直接從Adobe Experience Manager as a Cloud Service將動態媒體插入您的Journey Optimizer內容，以針對任何熒幕或瀏覽器增強及最佳化您的內容。  然後您可以視需要調整大小、裁切、增強及進行其他調整。
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 
 您的內容現在包含動態媒體。 您在Experience Manager中所做的任何更新都會自動顯示在Journey Optimizer中。
 
-## 個人化您的文字覆蓋
+## 個人化您的文字覆蓋 {#text-overlay}
 
 使用您選擇的新文字取代現有的文字覆蓋圖，輕鬆自訂任何動態媒體，實現順暢的更新及個人化。
 
@@ -96,13 +96,13 @@ ht-degree: 1%
 
 ![](assets/dynamic-media-layout-3.png)
 
-## 新增及管理您的Dynamic Media範本
+## 新增及管理您的Dynamic Media範本 {#dynamic-media-template}
 
 在Journey Optimizer中輕鬆新增動態媒體範本，並視需要更新媒體內容。 您現在可以將個人化欄位整合到媒體中，讓您在Journey Optimizer中建立更自訂且吸引人的內容。
 
 深入瞭解[動態媒體範本](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics)。
 
-### 使用影像元件
+### 使用影像元件 {#image-component}
 
 您可以使用影像元件，直接將動態範本插入內容中：
 
@@ -136,7 +136,7 @@ ht-degree: 1%
 
 一旦您執行測試並驗證內容後，您就可以將訊息傳送給對象。
 
-### 搭配HTML元件
+### 搭配HTML元件 {#html-component}
 
 您可以使用HTML元件，直接將動態範本插入內容中：
 
