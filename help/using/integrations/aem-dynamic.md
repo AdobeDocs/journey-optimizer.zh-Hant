@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 3a10f8440515bd569f9def6d15ac74d57427c1cf
+source-git-commit: 8d477f724b9bddcfd05df62ea236ebbaa25bc549
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 2%
+source-wordcount: '755'
+ht-degree: 1%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 使用您選擇的新文字取代現有的文字覆蓋圖，輕鬆自訂任何動態媒體，實現順暢的更新及個人化。
 
-例如，使用實驗功能，您可以更新現有的文字覆蓋，方法為使用不同文字取代每個處理，以確保在開啟訊息時為每個設定檔自訂它。
+例如，使用實驗功能，您可以更新現有的文字覆蓋，方法是為每個處理使用不同的文字來取代，以確保在開啟訊息時為每個設定檔自訂它。
 
 ![](assets/dynamic-media-layout-1.png)
 
@@ -95,6 +95,72 @@ ht-degree: 2%
 您的內容現在包含更新的文字覆蓋。
 
 ![](assets/dynamic-media-layout-3.png)
+
+## 新增及管理您的Dynamic Media範本
+
+在Journey Optimizer中輕鬆新增動態媒體範本，並視需要更新媒體內容。 您現在可以將個人化欄位整合到媒體中，讓您在Journey Optimizer中建立更自訂且吸引人的內容。
+
+深入瞭解[動態媒體範本](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics)。
+
+### 使用影像元件
+
+您可以使用影像元件，直接將動態範本插入內容中：
+
+1. 開啟您的行銷活動或歷程並存取您的內容。
+
+1. 將&#x200B;**影像元件**&#x200B;拖放到您的版面配置中。
+
+   如需影像元件的詳細資訊，請參閱[此頁面](../email/content-components.md)。
+
+   ![](assets/dynamic-media-template-1.png)
+
+1. 瀏覽您的AEM資產，並選取您要新增至內容的Dynamic Media範本。
+
+   ![](assets/dynamic-media-template-2.png)
+
+1. 在&#x200B;**影像設定**&#x200B;中，瀏覽以存取動態媒體範本的引數。
+
+   可用的欄位取決於Adobe Experience Manager中[範本建立](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters)期間新增的引數。
+
+   ![](assets/dynamic-media-template-3.png)
+
+1. 填寫不同的欄位，並使用個人化編輯器新增個人化內容。 您可以使用任何屬性（例如設定檔名稱、城市或其他相關詳細資訊）來建立更自訂的體驗。
+
+   在[此頁面](../personalization/personalize.md)中進一步瞭解個人化。
+
+   ![](assets/do-not-localize/dynamic_media_template.gif)
+
+1. 條件式內容可套用至Dynamic Media元件，以產生不同的內容變體。 [了解更多](../personalization/dynamic-content.md)
+
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+
+一旦您執行測試並驗證內容後，您就可以將訊息傳送給對象。
+
+### 搭配HTML元件
+
+您可以使用HTML元件，直接將動態範本插入內容中：
+
+1. 開啟您的行銷活動或歷程並存取您的內容。
+
+1. 將&#x200B;**HTML元件**&#x200B;拖放到您的版面配置中。
+
+   ![](assets/dynamic-media-template-4.png)
+
+1. 選取&#x200B;**[!UICONTROL 顯示原始程式碼]**。
+
+   ![](assets/dynamic-media-template-5.png)
+
+1. 從&#x200B;**[!UICONTROL 編輯HTML]**&#x200B;功能表，存取&#x200B;**[!UICONTROL Assets]**，然後&#x200B;**[!UICONTROL 開啟資產選擇器]**。
+
+   您也可以直接複製並貼上資產URL。
+
+1. 視需要調整影像文字引數，以符合您的資產需求。
+
+   ![](assets/do-not-localize/dynamic_media_template_html.gif)
+
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+
+一旦您執行測試並驗證內容後，您就可以將訊息傳送給對象。
 
 <!--
 ## Personalization with Text Overlay
