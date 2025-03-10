@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
+source-git-commit: 3e9392d65bc4a5cbbb95ed27350c6de56edcbf18
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 96%
+source-wordcount: '1366'
+ht-degree: 95%
 
 ---
 
@@ -248,3 +248,8 @@ ht-degree: 96%
 >id="ajo_exd_placements"
 >title="刊登"
 >abstract="產品建議放置環境決定從決策引擎傳回的項目出現在訊息中的位置。您可以在報告中追蹤他們在不同產品建議放置環境的效能。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_express_menu"
+>title="Adobe Express整合"
+>abstract="Adobe express"
