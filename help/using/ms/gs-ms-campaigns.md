@@ -5,9 +5,9 @@ title: 開始使用多步驟行銷活動
 description: 瞭解如何開始使用多步驟行銷活動
 hide: true
 hidefromtoc: true
-source-git-commit: a0bdab445a53521be621ce4ace390f83964a0c79
+source-git-commit: f8c7d2a21f87f558e3bf8ee3da7a46abda97326b
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '419'
 ht-degree: 25%
 
 ---
@@ -21,17 +21,12 @@ ht-degree: 25%
 
 **目錄**
 
-* 開始使用多步驟行銷活動
-* [重要原則](gs-campaign-creation.md)
-* [護欄與限制](guardrails.md)
-* [建立行銷活動](create-ms-campaign.md)
-* [協調活動](orchestrate-activities.md)
-* [設定行銷活動設定](ms-campaign-settings.md)
+* [重要原則](gs-campaign-creation.md) - [護欄與限制](guardrails.md)
+* [建立行銷活動](create-ms-campaign.md) - [設定行銷活動設定](ms-campaign-settings.md)
 * [開始和監視您的行銷活動](start-monitor-campaigns.md)
-* [多步驟行銷活動中的事件變數](event-variables.md)
-* 使用多步驟行銷活動
-   * [開始使用活動](activities/about-activities.md)
-   * 活動清單： [並加入](activities/and-join.md) - [建置對象](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [頻道動作](activities/channels.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [載入檔案](activities/load-file.md) - [調解](activities/reconciliation.md) - [儲存對象](activities/save-audience.md) - [排程器](activities/scheduler.md) - [Scheduler拆分](activities/split.md) - [測試](activities/test.md) - [更新資料](activities/update-data.md) - [等待](activities/wait.md)
+* [事件變數](event-variables.md)
+* [開始使用活動](activities/about-activities.md) - [協調活動](orchestrate-activities.md)
+* 活動清單： [並加入](activities/and-join.md) - [建置對象](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [頻道動作](activities/channels.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [載入檔案](activities/load-file.md) - [調解](activities/reconciliation.md) - [儲存對象](activities/save-audience.md) - [排程器](activities/scheduler.md) - [Scheduler拆分](activities/split.md) - [測試](activities/test.md) - [更新資料](activities/update-data.md) - [等待](activities/wait.md)
 
 >[!ENDSHADEBOX]
 
