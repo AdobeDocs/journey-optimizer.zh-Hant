@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 85bc9308402eaf2f13df0ca8d340b96769fc777e
+source-git-commit: b77cac6ba9984139f7fd5cb761759cafb26ccc48
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1198'
 ht-degree: 31%
 
 ---
@@ -120,7 +120,7 @@ Adobe Journey Optimizer產生的映象頁面包含所有個人化資料。
 
 1. 在插入連結的&#x200B;**[!UICONTROL 文字]**&#x200B;元件中，選取您的連結。
 
-1. 從&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤中，選取在&#x200B;**[!UICONTROL 目標]**&#x200B;下拉式清單中開啟連結的位置：
+1. 從&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤中，選取在&#x200B;**[!UICONTROL 目標]**&#x200B;下拉式清單中開啟連結的位置。 可能的值列於下方：
 
    * **[!UICONTROL 無]**：當框架被點按時在相同框架中開啟連結 (預設)。
    * **[!UICONTROL 空白]**：在新的視窗或索引標籤中開啟連結。
