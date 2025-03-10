@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，動態，內容
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '563'
 ht-degree: 10%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 10%
 
 Adobe Journey Optimizer可讓您善用程式庫中建立的條件規則，將動態內容新增至訊息。
 
-動態內容可建立到任何欄位中，您可在其中使用個人化編輯器新增個人化。 這包括主旨列、連結、推播通知內容或文字型別優惠的表示方式。 [進一步瞭解個人化內容](personalization-contexts.md)
+動態內容可建立到任何欄位中，您可在其中使用個人化編輯器新增個人化。 這包括主旨列、連結、推播通知內容或文字型別優惠的表示方式。 [進一步瞭解個人化](personalize.md)
 
 此外，您可以在電子郵件Designer中使用條件式規則，以建立內容元件的多個變體。
 

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ff31c69255e6d4e0762a57430f112c92f34191c3
+source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
 workflow-type: tm+mt
-source-wordcount: '2280'
-ht-degree: 96%
+source-wordcount: '2266'
+ht-degree: 95%
 
 ---
 
@@ -359,15 +359,11 @@ ht-degree: 96%
          + [了解實驗報告中的統計計算](using/content-management/experiment-report-calculations.md)
    + 個人化 {#personalization}
       + [開始使用個人化](using/personalization/personalize.md)
-      + [個人化內容](using/personalization/personalization-contexts.md)
+      + [新增個人化](using/personalization/personalization-build-expressions.md)
       + [個人化語法](using/personalization/personalization-syntax.md)
-      + [使用 Adobe Experience Platform 資料進行個人化 (測試版)](using/personalization/lookup-aep-data.md)
-      + 使用個人化編輯器 {#expression-editor}
-         + [關於個人化編輯器](using/personalization/personalization-build-expressions.md)
-         + [將屬性新增至我的最愛](using/personalization/personalization-favorites.md)
-         + [使用運算式片段](using/personalization/use-expression-fragments.md)
-         + [個人化驗證](using/personalization/personalization-validation.md)
-      + 輔助函式{#functions}
+      + [重複使用運算式片段](using/personalization/use-expression-fragments.md)
+      + [使用Adobe Experience Platform資料進行個人化(Beta)](using/personalization/lookup-aep-data.md)
+      + 協助程式函式清單{#functions}
          + [開始使用輔助函式](using/personalization/functions/functions.md)
          + [聚合函式](using/personalization/functions/aggregation.md)
          + [算術函式](using/personalization/functions/arithmetic-functions.md)

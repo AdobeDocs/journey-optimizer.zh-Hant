@@ -9,19 +9,18 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，語法，個人化
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 7%
+source-wordcount: '571'
+ht-degree: 3%
 
 ---
 
 # 個人化語法 {#personalization-syntax}
 
-[!DNL Journey Optimizer]中的Personalization是以名為Handlebars的範本語法為基礎。
-如需Handlebars語法的完整說明，請參閱[HandlebarsJS檔案](https://handlebarsjs.com/)。
+[!DNL Journey Optimizer]中的Personalization是以名為Handlebars的範本語法為基礎。 如需Handlebars語法的完整說明，請參閱[HandlebarsJS檔案](https://handlebarsjs.com/)。
 
-它使用範本和輸入物件來產生HTML或其他文字格式。 Handlebars範本看起來像含有內嵌Handlebars運算式的規則文字。
+它會使用範本和輸入物件來產生HTML或其他文字格式。 Handlebars範本看起來像含有內嵌Handlebars運算式的規則文字。
 
 簡單運算式範例：
 
@@ -34,107 +33,96 @@ ht-degree: 7%
 
 ## 語法一般規則 {#general-rules}
 
-識別碼可以是任何Unicode字元，但以下專案除外：
+* 識別碼可以是任何Unicode字元，但以下專案除外：
 
-```
-Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
-```
+  ```
+  Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
+  ```
 
-語法區分大小寫。
+* 語法區分大小寫。
 
-字詞&#x200B;**true**、**false**、**null**&#x200B;和&#x200B;**未定義**&#x200B;只允許在路徑運算式的第一個部分中。
+* 字詞&#x200B;**true**、**false**、**null**&#x200B;和&#x200B;**未定義**&#x200B;只允許在路徑運算式的第一個部分中。
 
-在Handlebars中，{{expression}}傳回的值是&#x200B;**HTML逸出**。 如果運算式包含`&`，則會產生傳回的HTML逸出輸出為`&amp;`。 如果您不希望Handlebars逸出值，請使用「三重儲存」。
+* 在Handlebars中，{{expression}}傳回的值是&#x200B;**HTML逸出**。 如果運算式包含`&`，則會產生傳回的HTML逸出輸出為`&amp;`。 如果您不希望Handlebars逸出值，請使用「三重儲存」。
 
-關於常值函式引數，範本化語言剖析器不支援單一未逸出的反斜線(`\`)符號。 此字元必須使用其他反斜線(`\`)符號逸出。 範例：
+* 關於常值函式引數，範本化語言剖析器不支援單一未逸出的反斜線(`\`)符號。 此字元必須使用其他反斜線(`\`)符號逸出。 範例：
 
-`{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
+  `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
-## 輪廓
+## 可用的名稱空間 {#namespaces}
 
-此名稱空間可讓您參考[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}中所述的設定檔結構描述中定義的所有屬性。
+* **輪廓**
 
-屬性必須先在結構描述中定義，才能在[!DNL Journey Optimizer]個人化區塊中參考。
+  此名稱空間可讓您參考[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}中所述的設定檔結構描述中定義的所有屬性。
 
->[!NOTE]
->
->在[本節](functions/helpers.md#if-function)中瞭解如何在條件中運用設定檔屬性。
+  屬性必須先在結構描述中定義，才能在[!DNL Journey Optimizer]個人化區塊中參考。
 
-**範例參考：**
+  如需如何在條件中運用設定檔屬性的詳細資訊，請參閱[本節](functions/helpers.md#if-function)。
 
-`{{profile.person.name.fullName}}`
+  +++範例參考
 
-`{{profile.person.name.firstName}}`
+   * `{{profile.person.name.fullName}}`
+   * `{{profile.person.name.firstName}}`
+   * `{{profile.person.gender}}`
+   * `{{profile.personalEmail.address}}`
+   * ` {{profile.mobilePhone.number}}`
+   * `{{profile.homeAddress.city}}`
+   * `{{profile.faxPhone.number}}`
 
-`{{profile.person.gender}}`
++++
 
-`{{profile.personalEmail.address}}`
+* **客群**
 
-`{{profile.mobilePhone.number}}`
+  若要深入瞭解細分服務，請參閱[此檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}。
 
-`{{profile.homeAddress.city}}`
+* **產品建議**
 
-`{{profile.faxPhone.number}}`
+  此名稱空間可讓您參考現有的優惠決定。
 
-## 客群{#perso-segments}
+  若要參照選件，您必須使用定義選件的不同資訊來宣告路徑。 此路徑的結構如下：
 
-在[本節](functions/helpers.md#if-function)中瞭解如何在條件中運用設定檔屬性。
+  `offers.Type.[Placement Id].[Activity Id].Attribute`
 
->[!NOTE]
->若要深入瞭解細分服務，請參閱[此檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}。
+  其中：
 
-## 優惠 {#offers-syntax}
+   * `offers`會識別屬於優惠方案名稱空間的路徑運算式
+   * `Type`決定優惠方案宣告的型別。 可能的值為： `image`、`html`和`text`
+   * `Placement Id`和`Activity Id`是位置與活動識別碼
+   * `Attributes`是優惠方案特定屬性，其取決於優惠方案型別。 範例： `deliveryUrl`影像
 
-此名稱空間可讓您參考現有的優惠決定。
-若要參照選件，您必須使用定義選件的不同資訊來宣告路徑。
+  如需有關Decisions API和優惠宣告的詳細資訊，請參閱[此頁面](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
-此路徑的結構如下：
+  所有參考資料都是透過具有[此頁面](../personalization/personalization-build-expressions.md)中說明的驗證機制的優惠方案結構描述進行驗證
 
-`offers.Type.[Placement Id].[Activity Id].Attribute`
+  +++範例參考
 
-其中：
+   * 影像的託管位置：
 
-* `offers`會識別屬於優惠方案名稱空間的路徑運算式
-* `Type`決定優惠方案宣告的型別。 可能的值為： `image`、`html`和`text`
-* `Placement Id`和`Activity Id`是位置與活動識別碼
-* `Attributes`是優惠方案特定屬性，其取決於優惠方案型別。 範例： `deliveryUrl`影像
+     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
-如需Decisions API和優惠方案呈現的詳細資訊，請參閱[此頁面](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+   * 按一下影像時的目標URL：
 
-所有參考資料都是透過具有[此頁面](personalization-validation.md)中說明的驗證機制的優惠方案結構描述進行驗證
+     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-**範例參考：**
+   * 來自決策引擎的優惠方案文字內容：
 
-* 影像的託管位置：
+     `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
+   * 來自決策引擎之優惠方案的HTML內容：
 
-* 按一下影像時的目標URL：
+     `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
-
-* 來自決策引擎的優惠方案文字內容：
-
-  `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
-
-* 來自決策引擎的優惠方案HTML內容：
-
-  `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
-
++++
 
 ## 輔助程式{#helpers-all}
 
-Handlebars協助程式是簡單識別碼，後面可能會接著引數。
-每個引數都是Handlebars運算式。 這些協助程式可從範本中的任何內容存取。
+Handlebars協助程式是簡單識別碼，後面可能會接著引數。 每個引數都是Handlebars運算式。 這些協助程式可從範本中的任何內容存取。
 
-這些區塊協助程式是使用協助程式名稱前的#來識別，並需要相同名稱的相符結尾/ 。
-區塊是具有區塊開啟({{# }})和結束({{/}})的運算式。
+這些區塊協助程式由協助程式名稱前的`#`識別，並需要相同名稱的相符結尾`/`。
 
+區塊是具有區塊開啟(`{{# }}`)和結束(`{{/}}`)的運算式。
 
->[!NOTE]
->
->協助程式函式在[本節](functions/helpers.md)中有詳細說明。
->
+如需協助程式函式的詳細資訊，請參閱[本節](functions/helpers.md)。
 
 ## 常值型別 {#literal-types}
 
@@ -150,30 +138,3 @@ Handlebars協助程式是簡單識別碼，後面可能會接著引數。
 >[!CAUTION]
 >
 >個人化運算式無法使用&#x200B;**xEvent**&#x200B;變數。 對xEvent的任何參考都會導致驗證失敗。
-
-## URL PERSONALIZATION{#perso-urls}
-
-個人化 URL 會根據輪廓屬性，將收件者帶往網站特定頁面或個人化微網站。 在Adobe Journey Optimizer中，您可以將個人化新增至訊息內容中的URL。 URL 個人化可套用至文字和影像，同時使用輪廓或內容資料。
-
-Journey Optimizer可讓您新增個人化欄位，以個人化訊息中的一或多個URL。 若要個人化URL，請遵循下列步驟：
-
-1. 在您的訊息內容中建立連結。 [了解更多](../email/message-tracking.md#insert-links)
-1. 從個人化圖示中，選取屬性。 個人化圖示僅適用於下列型別的連結： **外部連結**、**取消訂閱連結**&#x200B;和&#x200B;**選擇退出**。
-
-   ![](assets/perso-url.png)
-
->[!NOTE]
->
->在個人化編輯器中，當您編輯個人化URL時，基於安全理由，會停用協助程式功能和對象成員資格。
->
-
-**個人化URL範例**
-
-* `https://www.adobe.com/users/{{profile.person.name.lastName}}`
-* `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
-* `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
-* `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
-
->[!CAUTION]
->
->url內使用的個人化權杖不支援空格。
