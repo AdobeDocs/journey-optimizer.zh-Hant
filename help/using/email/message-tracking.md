@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 85bc9308402eaf2f13df0ca8d340b96769fc777e
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 34%
+source-wordcount: '1193'
+ht-degree: 31%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 34%
 
 ## 啟用追蹤 {#enable-tracking}
 
-您可以在電子郵件訊息層級啟用追蹤，方法是在歷程或行銷活動中建立訊息時，勾選&#x200B;**[!UICONTROL 電子郵件開啟次數]**&#x200B;及/或&#x200B;**[!UICONTROL 按一下電子郵件]**&#x200B;選項。
+您可以在電子郵件訊息層級啟用追蹤，方法是勾選&#x200B;**[!UICONTROL 電子郵件開啟次數]**&#x200B;和/或&#x200B;**[!UICONTROL 在歷程或行銷活動中建立訊息時，按一下電子郵件]**&#x200B;選項，如下列標籤所示：
 
 >[!BEGINTABS]
 
@@ -40,38 +40,34 @@ ht-degree: 34%
 >
 >這兩個選項預設為啟用。
 
-這可讓您透過以下方式追蹤收件者的行為：
+啟用後，這些選項會追蹤訊息收件者的行為：
 
-* **[!UICONTROL 電子郵件開啟]**：已開啟的郵件。
-* **[!UICONTROL 按一下電子郵件]**：按一下電子郵件中的連結。
+* **[!UICONTROL 電子郵件開啟]**&#x200B;量度會檢查已開啟的郵件數。
+* **[!UICONTROL 點按電子郵件]**&#x200B;量度會計算電子郵件中連結的點按次數。
 
 ## 插入連結 {#insert-links}
 
-設計訊息，您可以新增連結到您的內容。
-
->[!NOTE]
->
->啟用[追蹤](#enable-tracking)時，會追蹤訊息內容中包含的所有連結。
+啟用[追蹤](#enable-tracking)時，會追蹤訊息內容中包含的所有連結。
 
 若要將連結插入到電子郵件內容，請依照以下步驟進行：
 
-1. 選取元素，然後從內容關聯式工具列中按一下「**[!UICONTROL 插入連結]**」。
+1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。****
 
    ![](assets/message-tracking-insert-link.png)
 
 1. 選擇您要建立的連結型別：
 
-   * **[!UICONTROL 外部連結]**：插入外部URL的連結。
+   * 選取&#x200B;**[!UICONTROL 外部連結]**&#x200B;以插入外部URL的連結。
 
-   * **[!UICONTROL 登陸頁面]**：插入登陸頁面的連結。 [了解更多](../landing-pages/get-started-lp.md)
+   * 選取&#x200B;**[!UICONTROL 登陸頁面]**&#x200B;以插入登陸頁面的連結。 [了解更多](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL 按一下選擇退出]**：插入連結，讓使用者能夠快速取消訂閱您的通訊，而不需要確認選擇退出。 [了解更多](email-opt-out.md#one-click-opt-out)。
+   * 選取&#x200B;**[!UICONTROL 按一下[選擇退出]]**&#x200B;插入連結，讓使用者能夠快速取消訂閱您的通訊，而不需要確認選擇退出。 [了解更多](email-opt-out.md#one-click-opt-out)。
 
-   * **[!UICONTROL 外部選擇加入/訂閱]**：插入連結以接受來自您品牌的通訊。
+   * 選取&#x200B;**[!UICONTROL 外部選擇加入/訂閱]**&#x200B;以插入連結，接受來自您品牌的通訊。
 
-   * **[!UICONTROL 外部選擇退出/取消訂閱]**：插入連結以取消訂閱接收您品牌的通訊。 進一步瞭解[本章節](email-opt-out.md#opt-out-management)中的選擇退出管理。
+   * 選取&#x200B;**[!UICONTROL 外部選擇退出/取消訂閱]**&#x200B;以插入取消訂閱的連結，以停止接收來自您品牌的通訊。 進一步瞭解[本章節](email-opt-out.md#opt-out-management)中的選擇退出管理。
 
-   * **[!UICONTROL 映象頁面]**：新增連結以在網頁瀏覽器中顯示電子郵件內容。 [了解更多](#mirror-page)
+   * 選取&#x200B;**[!UICONTROL 映象頁面]**&#x200B;以新增電子郵件映象頁面的連結。 [了解更多](#mirror-page)
 
 1. 在對應欄位中輸入所需的URL，或選取登入頁面，並定義連結設定和樣式。 [了解更多](#adjust-links)
 
@@ -91,13 +87,40 @@ ht-degree: 34%
 >
 >行銷型別電子郵件訊息必須包含[選擇退出連結](../privacy/opt-out.md#opt-out-management)，交易式訊息不需要此連結。 訊息類別（**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]**）在建立訊息時已在[頻道設定](../configuration/channel-surfaces.md#email-type)中定義。
 
-## 調整連結 {#adjust-links}
 
-您可以使用右側的&#x200B;**[!UICONTROL 設定]**&#x200B;和&#x200B;**[!UICONTROL 樣式]**&#x200B;窗格調整連結。 您可以為連結加上底線、編輯其顏色並選取其目標。
+## 連結至映象頁面 {#mirror-page}
+
+映象頁面是電子郵件的線上版本。 將連結新增至映象頁面是電子郵件行銷的良好做法。 使用者可以瀏覽到電子郵件的鏡像頁面，例如他們在嘗試在收件匣中檢視郵件時遇到轉譯問題或影像毀損。我們建議基於存取性原因或鼓勵社交共享，提供線上版本。
+
+Adobe Journey Optimizer產生的映象頁面包含所有個人化資料。
+
+若要在電子郵件中新增映象頁面的連結，請[插入連結](#insert-links)，並選取&#x200B;**[!UICONTROL 映象頁面]**&#x200B;作為連結型別。
+
+![](assets/message-tracking-mirror-page.png)
+
+映象頁面會自動建立。 電子郵件傳送後，當收件者按一下鏡像頁面連結時，電子郵件的內容將顯示在他們的預設網頁瀏覽器中。
+
+映象頁面的保留期為&#x200B;**60天**。 該段時間之後，鏡像頁面無法繼續使用。
+
+>[!CAUTION]
+>
+>* 鏡像頁面連結是自動產生的，無法編輯。它們包含轉譯原始電子郵件所需的所有加密的個人化資料。因此，使用具有較大值的個人化屬性可能會產生冗長的鏡像頁面 URL，如果網頁瀏覽器具有最大 URL 長度，將導致連結無法在該網頁瀏覽器中作用。
+>
+>* 在傳送到測試設定檔的[校訂](../content-management/proofs.md)中，映象頁面的連結未啟用。 它只會在最終訊息中處於活動狀態。
+
+## 自訂連結外觀和目標 {#adjust-links}
+
+您可以調整連結，例如加上底線、變更顏色或選取目標。  這些變更是在內容編輯器右側區段的&#x200B;**[!UICONTROL 設定]**&#x200B;和&#x200B;**[!UICONTROL 樣式]**&#x200B;窗格中設定的。
+
+### Target {#link-target}
+
+**target**&#x200B;屬性是用來控制所連結的頁面將在何處開啟。 在錨點標籤中新增目標屬性，可以指定連結應該在新索引標籤、相同索引標籤還是不同框架中開啟。
+
+若要定義連結的目標，請執行下列步驟：
 
 1. 在插入連結的&#x200B;**[!UICONTROL 文字]**&#x200B;元件中，選取您的連結。
 
-1. 從&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤中，選擇透過&#x200B;**[!UICONTROL Target]**&#x200B;下拉式清單重新導向對象的方式：
+1. 從&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤中，選取在&#x200B;**[!UICONTROL 目標]**&#x200B;下拉式清單中開啟連結的位置：
 
    * **[!UICONTROL 無]**：當框架被點按時在相同框架中開啟連結 (預設)。
    * **[!UICONTROL 空白]**：在新的視窗或索引標籤中開啟連結。
@@ -107,37 +130,21 @@ ht-degree: 34%
 
    ![](assets/link_2.png)
 
-1. 檢查&#x200B;**[!UICONTROL 將連結]**&#x200B;加底線以將連結的標籤文字加底線。
-
-   ![](assets/link_1.png)
-
-1. 若要變更連結的顏色，請從「**[!UICONTROL 樣式]**&#x200B;索引標籤，按一下「**[!UICONTROL 連結顏色]**」。
-
-   ![](assets/link_3.png)
-
 1. 儲存您的變更。
 
-## 連結至映象頁面 {#mirror-page}
 
-鏡像頁面是可透過網頁瀏覽器線上存取的 HTML 頁面。其內容與電子郵件的內容相同。
+### 將連結加底線 {#link-underline}
 
-若要在電子郵件中新增映象頁面的連結，請[插入連結](#insert-links)，並選取&#x200B;**[!UICONTROL 映象頁面]**&#x200B;作為連結型別。
+核取&#x200B;**[!UICONTROL 加底線連結]**&#x200B;選項，為您的連結的標籤加底線。
 
-![](assets/message-tracking-mirror-page.png)
+![](assets/link_1.png)
 
-鏡像頁面會自動建立。
+### 連結顏色 {#link-color}
 
->[!IMPORTANT]
->
->鏡像頁面連結是自動產生的，無法編輯。它們包含轉譯原始電子郵件所需的所有加密的個人化資料。因此，使用具有較大值的個人化屬性可能會產生冗長的鏡像頁面 URL，如果網頁瀏覽器具有最大 URL 長度，將導致連結無法在該網頁瀏覽器中作用。
+若要變更連結的顏色，請從「**[!UICONTROL 樣式]**&#x200B;索引標籤，按一下「**[!UICONTROL 連結顏色]**」。
 
-電子郵件傳送後，當收件者按一下鏡像頁面連結時，電子郵件的內容將顯示在他們的預設網頁瀏覽器中。
+![](assets/link_3.png)
 
->[!NOTE]
->
->在傳送到測試設定檔的[校訂](../content-management/proofs.md)中，映象頁面的連結未啟用。 它僅在最終訊息中啟用。
-
-映象頁面的保留期為60天。 經過此延遲後，將無法再使用映象頁面。
 
 ## 管理追蹤 {#manage-tracking}
 
