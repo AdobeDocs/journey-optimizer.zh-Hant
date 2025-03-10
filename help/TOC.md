@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dfc0774468710a7b8791c9b2a6c70397a90443fa
+source-git-commit: 170dd966ae9fe9721a92bdebccd76305ad6fa1dc
 workflow-type: tm+mt
-source-wordcount: '2187'
-ht-degree: 91%
+source-wordcount: '2251'
+ht-degree: 90%
 
 ---
 
@@ -170,7 +170,35 @@ ht-degree: 91%
          + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
          + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
          + [使用自訂動作在Experience Platform中寫入歷程事件](using/building-journeys/custom-action-aep.md)
-+ 行銷活動{#campaigns}
++ 多步驟行銷活動{#ms-campaigns}
+   + [開始使用多步驟行銷活動](using/ms/gs-ms-campaigns.md)
+   + 建立您的第一個多步驟行銷活動{#create-ms-campaign}
+      + [重要原則](using/ms/gs-campaign-creation.md)
+      + [護欄與限制](using/ms/guardrails.md)
+      + [建立行銷活動](using/ms/create-ms-campaign.md)
+      + [協調活動](using/ms/orchestrate-activities.md)
+      + [設定行銷活動設定](using/ms/ms-campaign-settings.md)
+      + [開始和監視您的行銷活動](using/ms/start-monitor-campaigns.md)
+      + [多步驟行銷活動中的事件變數](using/ms/event-variables.md)
+   + 多步驟行銷活動活動{#design-campaigns}
+      + [關於多步驟行銷活動活動](using/ms/activities/about-activities.md)
+      + [合併連結](using/ms/activities/and-join.md)
+      + [建置客群](using/ms/activities/build-audience.md)
+      + [變更維度](using/ms/activities/change-dimension.md)
+      + [合併](using/ms/activities/combine.md)
+      + [重複資料刪除](using/ms/activities/deduplication.md)
+      + [頻道動作](using/ms/activities/channels.md)
+      + [擴充](using/ms/activities/enrichment.md)
+      + [分支](using/ms/activities/fork.md)
+      + [載入檔案](using/ms/activities/load-file.md)
+      + [調和](using/ms/activities/reconciliation.md)
+      + [儲存客群](using/ms/activities/save-audience.md)
+      + [排程器](using/ms/activities/scheduler.md)
+      + [分割](using/ms/activities/split.md)
+      + [測試](using/ms/activities/test.md)
+      + [更新資料](using/ms/activities/update-data.md)
+      + [等待](using/ms/activities/wait.md)
++ 行銷活動 {#campaigns}
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
    + [建立行銷活動](using/campaigns/create-campaign.md)
    + [檢閱及啟動行銷活動](using/campaigns/review-activate-campaign.md)
@@ -192,7 +220,7 @@ ht-degree: 91%
       + [電子郵件垃圾郵件報告](using/content-management/spam-report.md)
    + 核准歷程與行銷活動 {#approve}
       + [開始使用核准](using/test-approve/gs-approval.md)
-      + [建立及管理核准原則](using/test-approve/approval-policies.md)
+      + [建立和管理核准原則](using/test-approve/approval-policies.md)
       + [請求核准](using/test-approve/request-approval.md)
       + [核准請求](using/test-approve/review-approve-request.md)
 + 通訊頻道 {#channels}
@@ -407,7 +435,7 @@ ht-degree: 91%
       + [開始使用所有時間報告](using/reports/report-gs-cja.md)
       + [手動設定客戶歷程分析](using/reports/cja-ajo.md)
       + [管理您的報告](using/reports/report-cja-manage.md)
-      + [報告和實驗必備條件](using/reports/reporting-configuration.md)
+      + [報告和實驗先決條件](using/reports/reporting-configuration.md)
       + 行銷活動報告{#reporting}
          + [行銷活動報告](using/reports/campaign-global-report-cja.md)
          + [程式碼型行銷活動報告](using/reports/campaign-global-report-cja-code.md)
