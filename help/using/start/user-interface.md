@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 3e9392d65bc4a5cbbb95ed27350c6de56edcbf18
 workflow-type: tm+mt
 source-wordcount: '1366'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->* 您環境中可用的元件和功能取決於您的[許可權](../administration/permissions.md)和您的[授權套件](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何問題，請聯絡您的Adobe客戶成功經理或Adobe代表。
+>* 您的環境可用元件和功能取決於您的[權限](../administration/permissions.md)以及您的[授權套件](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何問題，請聯絡您的 Adobe 客戶成功經理或 Adobe 代表。
 >
 >* 本文件將經常更新，以反應此產品使用者介面的最新變更。不過，有些螢幕擷取畫面可能會與使用者介面稍有不同。
 >
@@ -122,7 +122,7 @@ ht-degree: 95%
 
 * **[!UICONTROL 稽核]** - 瀏覽至此區段以檢查活動記錄。 [了解更多](../privacy/audit-logs.md)
 
-* **[!UICONTROL 資料生命週期]** — 此區段可讓您設定並排程資料生命週期作業，以確保您的記錄受到適當的維護。 [了解更多](../privacy/data-hygiene.md)
+* **[!UICONTROL 資料生命週期]** — 此區段可讓您設定和排程資料生命週期作業，確保記錄得到正確維護。 [了解更多](../privacy/data-hygiene.md)
 
 ### [!UICONTROL 管理] {#left-nav-admin}
 

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 170dd966ae9fe9721a92bdebccd76305ad6fa1dc
 workflow-type: tm+mt
 source-wordcount: '2251'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
@@ -169,7 +169,7 @@ ht-degree: 90%
          + [使用自訂動作動態傳遞集合](using/building-journeys/collections.md)
          + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
          + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
-         + [使用自訂動作在Experience Platform中寫入歷程事件](using/building-journeys/custom-action-aep.md)
+         + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
 + 多步驟行銷活動{#ms-campaigns}
    + [開始使用多步驟行銷活動](using/ms/gs-ms-campaigns.md)
    + 建立您的第一個多步驟行銷活動{#create-ms-campaign}
@@ -261,7 +261,7 @@ ht-degree: 90%
       + [建立行動裝置應用程式內訊息](using/in-app/create-in-app.md)
       + [建立網頁應用程式內訊息](using/in-app/create-in-app-web.md)
       + [設計您的應用程式內內容](using/in-app/design-in-app.md)
-      + [檢查並傳送您的應用程式內通知](using/in-app/send-in-app.md)
+      + [檢查並傳送應用程式內通知](using/in-app/send-in-app.md)
    + 推播通知頻道{#push}
       + [開始使用推播通知](using/push/get-started-push.md)
       + [建立推播通知](using/push/create-push.md)
@@ -274,7 +274,7 @@ ht-degree: 90%
    + SMS / MMS 通道{#sms}
       + [開始使用文字訊息](using/sms/get-started-sms.md)
       + [建立文字簡訊 (SMS/MMS)](using/sms/create-sms.md)
-      + [檢查並傳送您的簡訊](using/sms/send-sms.md)
+      + [檢查並傳送文字訊息](using/sms/send-sms.md)
       + [管理文字訊息的選擇退出](using/sms/sms-opt-out.md)
       + [設定簡訊子網域](using/sms/sms-subdomains.md)
       + 設定 SMS / MMS 通道{#configure-sms}
@@ -305,12 +305,12 @@ ht-degree: 90%
    + 程式碼型體驗 {#code-based-experience}
       + [開始使用程式碼型頻道](using/code-based/get-started-code-based.md)
       + 設定程式碼型頻道{#configure-code-based-channel}
-         + [護欄和先決條件](using/code-based/code-based-prerequisites.md)
+         + [護欄和限制](using/code-based/code-based-prerequisites.md)
          + [程式碼型體驗表面](using/code-based/code-based-surface.md)
          + [實施方法範例](using/code-based/code-based-implementation-samples.md)
          + [建立程式碼型體驗設定](using/code-based/code-based-configuration.md)
       + 建立程式碼型體驗 {#create-code-based-experiences}
-         + [建置和撰寫程式碼型體驗](using/code-based/create-code-based.md)
+         + [建立並撰寫程式碼型體驗](using/code-based/create-code-based.md)
          + [測試程式碼型體驗](using/code-based/test-code-based.md)
          + [管理程式碼型體驗](using/code-based/publish-code-based.md)
    + 內容卡{#content-card}
@@ -342,9 +342,9 @@ ht-degree: 90%
       + [使用 AI 來產生簡訊](using/content-management/generative-sms.md)
       + [使用 AI 來產生網頁](using/content-management/generative-web.md)
       + [使用 AI 的內容實驗](using/content-management/generative-experimentation.md)
-      + [具有AI的登陸頁面](using/content-management/generative-lp.md)
-      + [AI助理使用案例](using/content-management/generative-uc.md)
-      + [建立及管理您的品牌(Beta)](using/content-management/brands.md)
+      + [使用 AI 登陸頁面](using/content-management/generative-lp.md)
+      + [AI 助理使用案例](using/content-management/generative-uc.md)
+      + [建立及管理您的品牌 (Beta)](using/content-management/brands.md)
    + 可在多語言內容中使用{#content-multilingual}
       + [開始使用多語言內容](using/content-management/multilingual-gs.md)
       + [建立地區](using/content-management/multilingual-locale.md)
@@ -423,7 +423,7 @@ ht-degree: 90%
    + [使用 Experience Manager 模板工作](using/integrations/aem-templates.md)
    + [使用 Experience Manager 內容片段工作](using/integrations/aem-fragments.md)
    + [使用 Dynamic Media 工作](using/integrations/aem-dynamic.md)
-+ 追蹤和監視{#reporting}
++ 追蹤與監視 {#reporting}
    + 即時報告 {#live-report}
       + [開始使用即時報告](using/reports/live-report.md)
       + [元件清單](using/reports/live-report-components.md)
@@ -435,7 +435,7 @@ ht-degree: 90%
       + [開始使用所有時間報告](using/reports/report-gs-cja.md)
       + [手動設定客戶歷程分析](using/reports/cja-ajo.md)
       + [管理您的報告](using/reports/report-cja-manage.md)
-      + [報告和實驗先決條件](using/reports/reporting-configuration.md)
+      + [報告與實驗先決條件](using/reports/reporting-configuration.md)
       + 行銷活動報告{#reporting}
          + [行銷活動報告](using/reports/campaign-global-report-cja.md)
          + [程式碼型行銷活動報告](using/reports/campaign-global-report-cja-code.md)
@@ -481,7 +481,7 @@ ht-degree: 90%
    + [開始使用決定功能](using/experience-decisioning/gs-decision.md)
    + Decisioning{#experience-decisioning}
       + [開始使用 Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
-      + [決策護欄和限制](using/experience-decisioning/decisioning-guardrails.md)
+      + [決策護欄與限制](using/experience-decisioning/decisioning-guardrails.md)
       + API 參考{#api-reference}
          + 建立和管理優惠方案專案{#create-manage}
             + 決定項目{#decision-items}
@@ -518,7 +518,7 @@ ht-degree: 90%
    + 決定管理 {#offer-decisioning}
       + 開始使用決定管理 {#get-started-decision}
          + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
-         + [決策管理護欄和限制](using/offers/decision-management-guardrails.md)
+         + [決策管理護欄與限制](using/offers/decision-management-guardrails.md)
          + [使用者介面](using/offers/get-started/user-interface.md)
          + [建立和管理優惠的重要步驟](using/offers/offer-library/key-steps.md)
          + [善用自訂上傳對象，以便做決策](using/offers/custom-upload-decisioning.md)
@@ -536,14 +536,14 @@ ht-degree: 90%
             + [自動最佳化模型](using/offers/ranking/auto-optimization-model.md)
             + [個人化最佳化模型](using/offers/ranking/personalized-optimization-model.md)
             + [建立 AI 模型](using/offers/ranking/create-ranking-strategies.md)
-      + 建立和管理優惠{#managing-offers-in-the-offer-library}
+      + 建立和管理優惠 {#managing-offers-in-the-offer-library}
          + 設定產品建議 {#configure-offers}
             + [建立個人化產品建議](using/offers/offer-library/creating-personalized-offers.md)
             + [新增代表](using/offers/offer-library/add-representations.md)
             + [新增限制](using/offers/offer-library/add-constraints.md)
          + [建立後備產品建議](using/offers/offer-library/creating-fallback-offers.md)
          + [建立集合](using/offers/offer-library/creating-collections.md)
-      + 建立和管理決定{#create-manage-activities}
+      + 建立和管理決定 {#create-manage-activities}
          + [建立決定](using/offers/offer-activities/create-offer-activities.md)
          + [設定決定中的產品建議選擇](using/offers/offer-activities/configure-offer-selection.md)
          + [建立模擬](using/offers/offer-activities/simulation.md)
@@ -552,9 +552,9 @@ ht-degree: 90%
          + [開始使用資料收集](using/offers/data-collection/data-collection.md)
          + [建立資料集以收集事件](using/offers/data-collection/create-dataset.md)
          + [設定事件擷取](using/offers/data-collection/schema-requirement.md)
-      + 善用內容資料{#context-data}
+      + 善用內容資料 {#context-data}
          + [開始使用內容資料](using/offers/context-data.md)
-         + [內容資料與Edge Decisioning請求](using/offers/context-data-edge.md)
+         + [內容資料與邊緣決策請求](using/offers/context-data-edge.md)
          + [內容資料與決策請求](using/offers/context-data-decisioning.md)
       + 建立決策管理報告 {#create-reports}
          + [使用決策管理事件](using/offers/reports/get-started-events.md)
@@ -568,7 +568,7 @@ ht-degree: 90%
          + [遞補資料集](using/offers/export-catalog/export-fallback.md)
       + API 參考 {#api-reference}
          + [快速入門](using/offers/api-reference/getting-started.md)
-         + 使用API {#offers-api}建立和管理優惠
+         + 使用 API 建立和管理優惠 {#offers-api}
             + 位置 {#placements}
                + [清單位置](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [查詢位置](using/offers/api-reference/offers-api/placements/lookup.md)
@@ -665,7 +665,7 @@ ht-degree: 90%
    + [使用結構描述](using/data/get-started-schemas.md)
    + Journey Optimizer 資料集 {#datasets}
       + [開始使用資料集](using/data/get-started-datasets.md)
-      + [資料集存留時間(TTL)護欄](using/data/datasets-ttl.md)
+      + [資料集存留時間 (TTL) 護欄](using/data/datasets-ttl.md)
       + [匯出 Journey Optimizer 資料集](using/data/export-datasets.md)
       + [查詢範例](using/data/datasets-query-examples.md)
       + [內建結構 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant)
@@ -681,8 +681,8 @@ ht-degree: 90%
       + [委派子網域](using/configuration/delegate-subdomain.md)
       + [設定 DMARC 記錄](using/configuration/dmarc-record.md)
       + [新增 Google TXT 記錄](using/configuration/google-txt.md)
-      + [存取和編輯PTR記錄](using/configuration/ptr-records.md)
-      + [建立 IP 池](using/configuration/ip-pools.md)
+      + [存取和編輯 PTR 記錄](using/configuration/ptr-records.md)
+      + [建立 IP 集區](using/configuration/ip-pools.md)
    + 實作 IP 暖身計劃 {#implement-ip-warmup-plan}
       + [開始使用 IP 暖身計劃](using/configuration/ip-warmup-gs.md)
       + [建立 IP 暖身行銷活動](using/configuration/ip-warmup-campaign.md)
@@ -720,7 +720,7 @@ ht-degree: 90%
       + 動作設定 {#action-journeys}
          + [開始使用自訂動作](using/action/action.md)
          + [設定自訂動作](using/action/about-custom-action-configuration.md)
-         + [疑難排解自訂動作](using/action/troubleshoot-custom-action.md)
+         + [設定自訂動作](using/action/troubleshoot-custom-action.md)
          + [在自訂動作中使用 API 呼叫回應](using/action/action-response.md)
          + [與 Adobe Campaign Standard 整合](using/action/acs-action.md)
          + [與 Adobe Campaign v7/v8 整合](using/action/acc-action.md)
@@ -746,4 +746,4 @@ ht-degree: 90%
       + [管理選擇退出](using/privacy/opt-out.md)
       + [使用同意原則](using/action/consent.md)
    + [資料治理](using/action/action-privacy.md)
-   + [設定及管理客戶自控金鑰](using/privacy/cmk.md)
+   + [設定和管理客戶託管金鑰](using/privacy/cmk.md)
