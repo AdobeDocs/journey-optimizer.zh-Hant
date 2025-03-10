@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 開始使用資料集
-description: 瞭解如何在Adobe Journey Optimizer中使用Adobe Experience Platform資料集
+description: 了解如何在 Adobe Journey Optimizer 使用 Adobe Experience Platform 資料集
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
-keywords: platform、資料湖、建立、湖、資料集、輪廓
+keywords: 平台、資料湖、建立、湖、資料集、設定檔
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '848'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

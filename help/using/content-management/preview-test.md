@@ -6,18 +6,18 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# 預覽和測試您的內容 {#preview-test}
+# 預覽並測試您的內容 {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
 >title="檢查您的內容的呈現方式"
->abstract="定義內容後，您可以使用測試設定檔進行預覽，並根據您使用的管道檢查呈現是否正確。"
+>abstract="定義內容後，您可以使用測試輪廓進行預覽，並根據您使用的管道檢查呈現是否正確。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_simulate"
@@ -56,7 +56,7 @@ ht-degree: 97%
 
   ➡️[檢查電子郵件轉譯](rendering.md)
 
-  ➡️[預覽和校訂您的電子郵件（影片）](#video-preview)
+  ➡️ [預覽並校訂您的電子郵件 (影片)](#video-preview)
 
 * **範例輸入資料**
 

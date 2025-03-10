@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 開始使用結構描述
-description: 瞭解如何在Adobe Journey Optimizer中使用Adobe Experience Platform結構描述
+description: 了解如何在 Adobe Journey Optimizer 使用 Adobe Experience Platform 結構描述
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 結構描述、平台、資料、結構
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 78%
 
 結構是一組規則，可代表及驗證資料的結構和格式。 從高層面來說，結構提供了真實對象 (如人) 的抽象定義，並概述應包含在該對象的每個執行個體中的資料 (如名字、姓氏、生日等)。
 
-在[本檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant){target="_blank"}中瞭解如何建置結構描述。
+在[本文件](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant){target="_blank"}了解如何建立結構描述
 
 此&#x200B;**結構描述**&#x200B;工作區[!DNL Adobe Journey Optimizer]使用者介面可讓您管理 Experience Data Model (XDM) 資源，包括結構描述、類別、結構描述欄位群組以及資料類型。 您可以檢視並探索 Adobe 提供的核心資源，並為貴組織建立自訂資源和結構描述。
 
@@ -31,9 +31,9 @@ ht-degree: 78%
 
 在[本文件](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant){target="_blank"}了解如何使用結構描述使用者介面
 
-[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant){target="_blank"}提供使用結構描述編輯器建立結構描述的逐步檔案。
+請參閱 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant){target="_blank"} 瞭解使用結構描述編輯器建立結構描述的逐步文件。
 
-請參閱[Journey Optimizer結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}，以檢視每個結構描述的完整欄位和屬性清單。
+請參閱 [Journey Optimizer 結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}，以檢視每個結構描述的完整欄位和屬性清單。
 
 
 ## 操作說明影片{#video-schema}

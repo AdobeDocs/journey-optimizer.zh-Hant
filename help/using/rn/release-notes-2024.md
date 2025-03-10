@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6785'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 10 月 29-30 日
 
-### 全新功能 {#24-10-features}
+### 新功能 {#24-10-features}
 
 此發布內容有提供下列詳細介紹的新功能：
 
@@ -359,7 +359,7 @@ ht-degree: 99%
 
 **發行版本日期**：2024 年 9 月 24-26 日
 
-### 全新功能 {#24-9-features}
+### 新功能 {#24-9-features}
 
 此發行版本提供下列詳細介紹的新功能。
 
@@ -441,7 +441,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>在您建立並個人化訊息後，請使用Journey Optimizer中的AI助理將您的內容提升到新的境界。 您目前可以使用 AI 助理，使用不同的主要標題和影像進行實驗，讓訊息的影響力發揮最佳成效。 每個變體都會視為獨特的處理來管理，以測量並比較哪個標題能有效產生更多點按次數。</p>
+<p>建立訊息並進行個人化後，請在 Journey Optimizer 使用 AI 助理，把內容提升到新的境界。您目前可以使用 AI 助理，使用不同的主要標題和影像進行實驗，讓訊息的影響力發揮最佳成效。 每個變體都會視為獨特的處理來管理，以測量並比較哪個標題能有效產生更多點按次數。</p>
 <p>透過<a href="https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，沉浸在親身體驗中，讓您親身體驗實際功能並充分瞭解其功能。</a></p>
 <p>如需詳細資訊，請參閱<a href="../content-management/gs-generative.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
@@ -528,7 +528,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 8 月 20-21 日
 
-### 全新功能 {#8-features}
+### 新功能 {#8-features}
 
 此發行版本提供下列詳細介紹的新功能。
 
@@ -656,7 +656,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 7 月 30-31 日
 
-### 全新功能 {#27-4-features}
+### 新功能 {#27-4-features}
 
 此發行版本提供下列新功能。
 
@@ -707,7 +707,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 6 月 18 日至 19 日
 
-### 全新功能 {#june-24-features}
+### 新功能 {#june-24-features}
 
 此發行版本提供下列詳細介紹的新功能。
 
@@ -883,7 +883,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 5 月 21 日至 22 日
 
-### 全新功能 {#e-features}
+### 新功能 {#e-features}
 
 此發行版本提供下列詳細介紹的新功能。
 
@@ -1032,7 +1032,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 5 月 2 日
 
-### 全新功能 {#apr-features}
+### 新功能 {#apr-features}
 
 此發行版本提供下列詳細介紹的新功能。
 
@@ -1191,7 +1191,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 2 月 21 日至 22 日
 
-### 全新功能{#feb-features}
+### 新功能{#feb-features}
 
 此發行版本提供下列新功能。
 
@@ -1277,7 +1277,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 1 月 30 日至 31 日
 
-### 全新功能{#jan24-features}
+### 新功能{#jan24-features}
 
 此發行版本提供下列新功能。
 
