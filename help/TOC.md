@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
+source-git-commit: 326a0a47c859f475d9036c6142b057a5b59b0ae9
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2267'
 ht-degree: 95%
 
 ---
@@ -173,7 +173,6 @@ ht-degree: 95%
 + 多步驟行銷活動{#ms-campaigns}
    + [開始使用多步驟行銷活動](using/ms/gs-ms-campaigns.md)
    + [重要原則](using/ms/gs-campaign-creation.md)
-   + [護欄與限制](using/ms/guardrails.md)
    + 設定 {#ms-config}
       + [結構描述](using/ms/ms-schemas.md)
       + [使用事件變數](using/ms/event-variables.md)

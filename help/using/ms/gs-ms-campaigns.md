@@ -6,9 +6,9 @@ description: 瞭解如何開始使用多步驟行銷活動
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
+source-git-commit: 326a0a47c859f475d9036c6142b057a5b59b0ae9
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '402'
 ht-degree: 18%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 18%
 **目錄**
 
 * 開始使用多步驟行銷活動
-* [金鑰原則](gs-campaign-creation.md) - [護欄與限制](guardrails.md)
+* [重要原則](gs-campaign-creation.md)
 * 設定： [使用結構描述](ms-schemas.md) - [使用事件變數](event-variables.md)
 * 開始使用： [建立協調的行銷活動](create-ms-campaign.md) - [設定行銷活動設定](ms-campaign-settings.md) - [開始並監視您的行銷活動](start-monitor-campaigns.md) - [開始使用活動](activities/about-activities.md) - [協調活動](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * 活動清單： [並加入](activities/and-join.md) - [建置對象](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [頻道動作](activities/channels.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [載入檔案](activities/load-file.md) - [調解](activities/reconciliation.md) - [儲存對象](activities/save-audience.md) - [排程器](activities/scheduler.md) - [Scheduler拆分](activities/split.md) - [測試](activities/test.md) - [更新資料](activities/update-data.md) - [等待](activities/wait.md)
@@ -43,6 +43,8 @@ ht-degree: 18%
 ## Journey Orchestration與行銷活動策劃
 
 歷程與行銷活動 — 說明差異、使用案例和最佳實務
+
+
 
 ## 讓我們深入探討
 
