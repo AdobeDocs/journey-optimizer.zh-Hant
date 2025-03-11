@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: 13bf2bca3997ff85aca619c8b610aaa0be9142f8
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '871'
 ht-degree: 86%
 
 ---
@@ -34,6 +34,8 @@ Journey Optimizer個人化編輯器已更新，其中包含新功能：
 * **內嵌JSON驗證** — 為JSON內容提供即時使用者端驗證，以加速錯誤偵測。
 * **設定檔和內容屬性的自動完成** — 提供智慧型建議以簡化內容建立。
 * **加強的語法醒目提示** — 透過讓程式碼結構在視覺上更加不同，改善可讀性。
+
+![在Personalization編輯器中顯示新功能的影片](assets/do-not-localize/personalization-editor.gif)
 
 如需詳細資訊，請參閱[詳細文件](../personalization/personalization-build-expressions.md)。
 
