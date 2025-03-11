@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
+source-git-commit: a009743e176f81cc0ad843c1c056983d66c5cc48
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 >
 >若是手動流程，使用者必須被授予&#x200B;**[!UICONTROL 管理語言設定]**&#x200B;許可權。
 
-使用手動流程，您可以輕鬆地直接在行銷活動和歷程中翻譯您的內容，為您提供多語言訊息的精確控制和自訂選項。 此外，您可以使用「匯入HTML」選項輕鬆匯入預先存在的多語言內容。
+使用手動流程，您可以輕鬆地直接在行銷活動和歷程中翻譯您的內容，為您提供多語言訊息的精確控制和自訂選項。 此外，您也可以使用「匯入HTML」選項，輕鬆匯入既存的多語言內容。
 
 請依照下列步驟，使用手動翻譯建立多語言內容：
 
@@ -30,9 +30,9 @@ ht-degree: 2%
 
 1. [新增地區（選擇性）](multilingual-locale.md)
 
-1. [建立語言設定](#create-language-settings)
+1. [建立語言設定](#language-settings)
 
-1. [建立多語言內容](#create-a-multilingual-campaign)
+1. [建立多語言內容](#create-multilingual-campaign)
 
 ## 建立語言設定 {#language-settings}
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 1. 選取與此設定相關聯的&#x200B;**[!UICONTROL 地區]**。 您最多可以新增50個地區設定。
 
-   如果&#x200B;**[!UICONTROL 地區設定]**&#x200B;遺失，您可以預先從&#x200B;**[!UICONTROL 翻譯]**&#x200B;功能表或透過API手動建立。 請參閱[建立新的地區設定](#create-locale)。
+   如果&#x200B;**[!UICONTROL 地區設定]**&#x200B;遺失，您可以預先從&#x200B;**[!UICONTROL 翻譯]**&#x200B;功能表或透過API手動建立。 請參閱[建立新的地區設定](multilingual-locale.md)。
 
    ![](assets/multilingual-settings-2.png)
 
@@ -155,7 +155,7 @@ ht-degree: 2%
 
    ![](assets/multilingual-campaign-2.png)
 
-1. 按一下&#x200B;**[!UICONTROL 新增語言]**，然後選取您先前建立的&#x200B;**[!UICONTROL 語言設定]**。 [了解更多](#create-language-settings)
+1. 按一下&#x200B;**[!UICONTROL 新增語言]**，然後選取您先前建立的&#x200B;**[!UICONTROL 語言設定]**。 [了解更多](#language-settings)
 
    ![](assets/multilingual-campaign-3.png)
 
