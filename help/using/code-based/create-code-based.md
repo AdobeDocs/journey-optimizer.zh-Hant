@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: b7cd42f89ea6fb4c0359b2be6c75202d5e1ea001
+source-git-commit: 7658448ad902e2d2d2ef73ee7f71ea2cdda8d497
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '623'
 ht-degree: 9%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 9%
 >id="ajo_code_based_experience"
 >title="使用個人化編輯器"
 >abstract="插入並編輯您想要作為此基於程式碼之體驗動作的一部分的程式碼。"
-
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="使用個人化編輯器"
 
 1. 在歷程活動或行銷活動版本畫面中，選取&#x200B;**[!UICONTROL 編輯代碼]**。
 
