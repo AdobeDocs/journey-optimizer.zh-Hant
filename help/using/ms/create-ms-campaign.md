@@ -5,21 +5,31 @@ title: 使用Journey Optimizer建立多步驟行銷活動
 description: 瞭解如何使用Adobe Journey Optimizer建立多步驟行銷活動
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 0%
+source-wordcount: '706'
+ht-degree: 1%
 
 ---
 
-
-# 建立多步驟行銷活動 {#create-first-campaign}
+# 建立協調的行銷活動 {#create-first-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
 >title="多步驟行銷活動清單"
 >abstract="**多重步驟**&#x200B;索引標籤會列出所有多重步驟行銷活動。 按一下多步驟行銷活動的名稱以進行編輯。 使用&#x200B;**建立多步驟行銷活動**&#x200B;按鈕以新增新的多步驟行銷活動。"
 
+## 先決條件
+
+### 權限
+
+### 設定
+
+新管理員設定>結構描述、執行欄位、合併原則的概觀。 [了解更多](ms-schemas.md)
+
+
+## 建立步驟
 
 若要建立多步驟行銷活動，請遵循下列步驟：
 

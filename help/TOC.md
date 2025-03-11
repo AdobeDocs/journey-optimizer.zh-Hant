@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2270'
 ht-degree: 95%
 
 ---
@@ -172,14 +172,17 @@ ht-degree: 95%
          + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
 + 多步驟行銷活動{#ms-campaigns}
    + [開始使用多步驟行銷活動](using/ms/gs-ms-campaigns.md)
+   + [重要原則](using/ms/gs-campaign-creation.md)
+   + [護欄與限制](using/ms/guardrails.md)
+   + 設定 {#ms-config}
+      + [結構描述](using/ms/ms-schemas.md)
+      + [使用事件變數](using/ms/event-variables.md)
    + 建立您的第一個多步驟行銷活動{#create-ms-campaign}
-      + [重要原則](using/ms/gs-campaign-creation.md)
-      + [護欄與限制](using/ms/guardrails.md)
-      + [建立行銷活動](using/ms/create-ms-campaign.md)
+      + [建立協調的行銷活動](using/ms/create-ms-campaign.md)
       + [協調活動](using/ms/orchestrate-activities.md)
       + [設定行銷活動設定](using/ms/ms-campaign-settings.md)
       + [開始和監視您的行銷活動](using/ms/start-monitor-campaigns.md)
-      + [多步驟行銷活動中的事件變數](using/ms/event-variables.md)
+      + [管理個人化](using/ms/ms-personalization.md)
    + 多步驟行銷活動活動{#design-campaigns}
       + [關於多步驟行銷活動活動](using/ms/activities/about-activities.md)
       + [合併連結](using/ms/activities/and-join.md)

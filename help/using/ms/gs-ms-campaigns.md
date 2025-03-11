@@ -6,30 +6,28 @@ description: 瞭解如何開始使用多步驟行銷活動
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 040635e03fe4fa0542eeddbc0a2b87c6c838d339
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 25%
+source-wordcount: '404'
+ht-degree: 18%
 
 ---
 
 # 開始使用多步驟行銷活動 {#ms-camp}
 
-多步驟行銷活動可匯入強大的品牌啟動批次行銷活動功能，讓您使用進階細分策略來規劃和協調跨頻道行銷活動，藉此增強Adobe Journey Optimizer。
-
 >[!BEGINSHADEBOX]
 
 **目錄**
 
-* [重要原則](gs-campaign-creation.md) - [護欄與限制](guardrails.md)
-* [建立行銷活動](create-ms-campaign.md) - [設定行銷活動設定](ms-campaign-settings.md)
-* [開始和監視您的行銷活動](start-monitor-campaigns.md)
-* [事件變數](event-variables.md)
-* [開始使用活動](activities/about-activities.md) - [協調活動](orchestrate-activities.md)
+* 開始使用多步驟行銷活動
+* [金鑰原則](gs-campaign-creation.md) - [護欄與限制](guardrails.md)
+* 設定： [使用結構描述](ms-schemas.md) - [使用事件變數](event-variables.md)
+* 開始使用： [建立協調的行銷活動](create-ms-campaign.md) - [設定行銷活動設定](ms-campaign-settings.md) - [開始並監視您的行銷活動](start-monitor-campaigns.md) - [開始使用活動](activities/about-activities.md) - [協調活動](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * 活動清單： [並加入](activities/and-join.md) - [建置對象](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [頻道動作](activities/channels.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [載入檔案](activities/load-file.md) - [調解](activities/reconciliation.md) - [儲存對象](activities/save-audience.md) - [排程器](activities/scheduler.md) - [Scheduler拆分](activities/split.md) - [測試](activities/test.md) - [更新資料](activities/update-data.md) - [等待](activities/wait.md)
 
 >[!ENDSHADEBOX]
 
+多步驟行銷活動可匯入強大的品牌啟動批次行銷活動功能，讓您使用進階細分策略來規劃和協調跨頻道行銷活動，藉此增強Adobe Journey Optimizer。
 
 ## 什麼是多步驟行銷活動？
 
@@ -41,12 +39,10 @@ ht-degree: 25%
 
 使用完整的圖形環境，您可以設計流程，例如細分、行銷活動執行、檔案處理。 多步驟行銷活動也可以讓使用者參與，為他們指派任務或讓他們核准已執行的任務，讓您更輕鬆地管理團隊的工作並確保一切皆已正確完成。
 
-以下是如何在Adobe Journey Optimizer中使用多步驟行銷活動的一些範例：
 
-* 為非使用中的客戶推出後續行銷活動，
-* 向服務的所有新訂閱者傳送歡迎電子郵件，
-* 根據客戶的忠誠計劃狀態或興趣點量身打造跨管道傳遞。
+## Journey Orchestration與行銷活動策劃
 
+歷程與行銷活動 — 說明差異、使用案例和最佳實務
 
 ## 讓我們深入探討
 

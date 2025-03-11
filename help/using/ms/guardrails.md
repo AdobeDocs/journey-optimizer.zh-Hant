@@ -5,10 +5,11 @@ title: 使用Journey Optimizer建立多步驟行銷活動
 description: 瞭解如何使用Journey Optimizer建立多步驟行銷活動
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 8c80010f-e432-48ea-87cf-af635932d26b
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 12%
+source-wordcount: '265'
+ht-degree: 15%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 12%
 >title="多步驟行銷活動"
 >abstract="在此畫面中，您可以存取多步驟行銷活動的完整清單、檢查其目前狀態、上次/下次執行日期，以及建立新的多步驟行銷活動。"
 
-**[!UICONTROL 行銷活動]**&#x200B;功能表，瀏覽至多步驟索引標籤，以存取多步驟行銷活動的完整清單。
+**[!UICONTROL 行銷活動]**&#x200B;功能表，瀏覽至多步驟索引標籤以存取多步驟行銷活動的完整清單。
 
 
 清單中的每個多步驟行銷活動會顯示其目前[狀態](#status)、上次執行或修改的時間，以及下一個排程執行日期和時間的相關資訊。
@@ -33,16 +34,6 @@ ht-degree: 12%
 >[!NOTE]
 >
 >您可以複製進行中的多步驟行銷活動，但無法刪除它。
-
-## 工作流程的狀態 {#status}
-
-工作流程可以有多個狀態：
-
-* **[!UICONTROL 草稿]**：已建立並儲存多步驟行銷活動。
-* **[!UICONTROL 進行中]**：多步驟行銷活動目前正在執行。
-* **[!UICONTROL 已完成]**：多步驟行銷活動執行完成。
-* **[!UICONTROL 已暫停]**：多步驟行銷活動已暫停。
-* **[!UICONTROL 錯誤]**：多步驟行銷活動發生錯誤。 開啟多步驟行銷活動，並存取記錄檔與工作以識別錯誤並加以解決。
 
 
 ## 多步驟行銷活動範本 {#templates}

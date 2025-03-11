@@ -1,18 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 多步驟行銷活動事件變數
+title: 在多步驟行銷活動中使用事件變數
 description: 瞭解如何在您的多步驟行銷活動中運用事件變數
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: f86dd262-0209-42f6-a180-736f1de98d78
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
-# 多步驟行銷活動事件變數 {#event-variables}
+# 使用事件變數 {#event-variables}
 
 有些多步驟行銷活動可讓您在運算式編輯器中編輯指令碼以執行特定動作，例如擷取來自先前活動的資料、建置條件或根據事件變數計算檔案名稱。
 
