@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 13bf2bca3997ff85aca619c8b610aaa0be9142f8
+source-git-commit: a0e657842ba67b8e96996bcb95e2170da6fcbb97
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 86%
+source-wordcount: '853'
+ht-degree: 81%
 
 ---
 
@@ -114,7 +114,7 @@ Journey Optimizer個人化編輯器已更新，其中包含新功能：
 <tbody>
 <tr>
 <td>
-<p>您現在可以直接從 Adobe Journey Optimizer 進行真正的 API 呼叫，以驗證自訂動作設定。 </p>
+<p>您現在可以直接從Adobe Journey Optimizer發出真正的API呼叫，以驗證自訂動作設定。 這項新功能可協助您在歷程中使用自訂動作之前或之後，進行疑難排解。 </p>
 <p>如需詳細資訊，請參閱<a href="../action/troubleshoot-custom-action.md">詳細文件</a>。</p>
 <!--p> This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p-->
 </td>
@@ -145,8 +145,6 @@ Journey Optimizer個人化編輯器已更新，其中包含新功能：
 ### 改進項目 {#25-02-improvements}
 
 以下列出了 2 月發行的改進項目。
-
-* **歷程** — 您現在可以從管理區段傳送 API 呼叫來測試自訂動作。 這項新功能可協助您在歷程中使用自訂動作之前或之後，進行疑難排解。 [閱讀全文](../action/troubleshoot-custom-action.md)
 
 * **資料集存留時間 (TTL)** ：自本月起，將在新沙箱和新組織中，向 Journey Optimizer 系統產生的資料集，開放使用存留時間 (TTL) 護欄功能，如下所示：
 
