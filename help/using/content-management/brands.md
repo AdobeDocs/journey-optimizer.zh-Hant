@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 12dc96bb08f03865c82382baac276f46bc42baeb
+source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 15%
+source-wordcount: '640'
+ht-degree: 16%
 
 ---
 
@@ -37,6 +37,30 @@ ht-degree: 15%
 >title="品牌一致性分數"
 >abstract="您的品牌一致性分數會衡量您的內容遵守品牌指引的程度，以確保色彩、字型、標誌、影像和寫作風格的一致性。"
 
+>[!CONTEXTUALHELP]
+>id="ajo_brand_colors"
+>title="色彩分數"
+>abstract="色彩分數"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_fonts"
+>title="字型分數"
+>abstract="字型分數"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_logos"
+>title="Logos分數"
+>abstract="Logos分數"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_imagery"
+>title="影像分數"
+>abstract="影像分數"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_writing_style"
+>title="寫入樣式分數"
+>abstract="寫入樣式分數"
 
 >[!AVAILABILITY]
 >
