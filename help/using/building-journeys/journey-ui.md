@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1134'
 ht-degree: 26%
 
 ---
@@ -20,8 +20,12 @@ ht-degree: 26%
 
 ## 歷程儀表板 {#dashboard-jo}
 
-在「歷程管理」功能表區段中，按一下&#x200B;**[!UICONTROL 歷程]**。 有兩個索引標籤可供使用： **[!UICONTROL 概觀]**&#x200B;和&#x200B;**[!UICONTROL 瀏覽]**。
+>[!CONTEXTUALHELP]
+>id="ajo_journey_view"
+>title="歷程表格和時間表檢視"
+>abstract="歷程表格和時間表檢視"
 
+在「歷程管理」功能表區段中，按一下&#x200B;**[!UICONTROL 歷程]**。 有兩個索引標籤可供使用： **[!UICONTROL 概觀]**&#x200B;和&#x200B;**[!UICONTROL 瀏覽]**。
 
 * **[!UICONTROL 總覽]**&#x200B;標籤會顯示包含與您的歷程相關之關鍵量度的儀表板。
 
@@ -35,7 +39,6 @@ ht-degree: 26%
   >[!NOTE]
   >
   >此儀表板會考慮過去24小時內具有流量的歷程。 只會顯示您有權存取的歷程。 量度每30分鐘會重新整理一次，且僅當有新資料可用時才會重新整理。
-
 
 * **[!UICONTROL 瀏覽]**&#x200B;索引標籤會顯示現有歷程的清單。 您可以搜尋歷程、使用篩選器並對每個元素執行基本動作。 例如，您可以複製或刪除項目。
 

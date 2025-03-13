@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 管理行銷活動、狀態、排程、存取、最佳化工具
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '598'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,11 @@ ht-degree: 1%
 此外，您可以複製即時行銷活動（執行一次或循環執行）以建立新行銷活動，並封存已完成或停止的行銷活動。
 
 ## 存取行銷活動 {#access}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_view"
+>title="Campaigns表格和時間表檢視"
+>abstract="行銷活動表格和時間表檢視"
 
 可從&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表存取行銷活動。
 
