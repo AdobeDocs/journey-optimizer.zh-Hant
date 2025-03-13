@@ -11,31 +11,31 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 16%
+ht-degree: 38%
 
 ---
 
-# 建立並管理您的品牌 {#brands}
+# 建立和管理您的品牌 {#brands}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_overview"
 >title="開始使用品牌"
->abstract="建立並自訂您自己的品牌，以定義您獨特的視覺和口頭身分，同時更輕鬆地產生符合您品牌風格和聲音的內容。"
+>abstract="建立和自訂自己的品牌，以定義您唯一的視覺和語言識別，同時更輕鬆地產生符合您品牌風格和語調的內容。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_ai_menu"
 >title="選取您的品牌"
->abstract="選擇您的品牌，以確保所有AI產生的內容都經過量身打造，符合您品牌的規格和指導方針。"
+>abstract="選擇您的品牌以確保所有 AI 產生的內容是量身打造，以符合您品牌的規格和準則。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score_overview"
->title="品牌選擇"
->abstract="選擇您的品牌，以確保您的內容符合其特定准則、標準和身分，並維持一致性和品牌完整性。"
+>title="品牌選取項目"
+>abstract="選取您的品牌以確保您的內容製作符合其特定的準則、標準和識別，從而維持一致性和品牌完整性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
 >title="品牌一致性分數"
->abstract="您的品牌一致性分數會衡量您的內容遵守品牌指引的程度，以確保色彩、字型、標誌、影像和寫作風格的一致性。"
+>abstract="您的品牌一致性分數會衡量您的內容遵循品牌準則的程度，從而確保顏色、字體、標誌、影像和寫作風格的一致性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_colors"
@@ -103,7 +103,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_brands_create"
 >title="建立您的品牌"
->abstract="輸入您的品牌名稱並上傳您的品牌指南檔案。 此工具會自動擷取關鍵詳細資訊，讓您更輕鬆地維護品牌識別。"
+>abstract="輸入您的品牌名稱，並上傳您的品牌準則檔案。此工具將自動擷取關鍵詳細資訊，讓您更輕鬆維持品牌識別。"
 
 若要建立和管理您的品牌指引，您可以自行輸入詳細資料，或上傳品牌指引檔案以自動擷取資訊：
 
