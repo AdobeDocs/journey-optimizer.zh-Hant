@@ -5,16 +5,15 @@ topic: Content Management
 feature: Content Cards
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: 163a4cc533b5c24e762b2be95a1f2c7dea0eea96
+exl-id: 8e1a1e94-c3c1-4981-9380-76b7d8302c78
+source-git-commit: 0351f0ffafe73245582453ab35742951bb42af7c
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 8%
+ht-degree: 3%
 
 ---
 
-# 在 Web SDK 中設定內容卡支援 {#content-card-lp}
+# 在行動SDK中設定內容卡支援 {#content-card-lp}
 
 內容卡可從Adobe Journey Optimizer擷取，並在您的行動應用程式中使用Adobe Experience Platform Mobile SDK呈現，以支援行動應用程式中的端對端參與。 傳訊SDK提供簡單易用的API來擷取在Adobe Journey Optimizer上建立的內容卡片，並為這些卡片建置原生行動檢視，可供您的應用程式輕鬆使用或自訂以符合您的應用程式主題。 它也會自動追蹤所有應用程式使用者與所顯示內容卡片的互動，以確保在Journey Optimizer上正確報告行銷活動。
 
@@ -48,4 +47,3 @@ ht-degree: 8%
 <p>
 </td>
 </tr></table>
-
