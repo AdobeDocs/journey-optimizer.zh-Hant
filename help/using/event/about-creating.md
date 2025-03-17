@@ -116,7 +116,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"
 >title="身分識別類型"
->abstract="選取索引鍵以識別和事件相關聯的客戶設定檔。"
+>abstract="選取索引鍵以識別和事件相關聯的客戶輪廓。"
 
 身分型別（先前稱為「名稱空間」）可讓您定義用來識別與事件相關聯之人員的金鑰型別。 其設定是選用的。 如果您想要在歷程中擷取來自[即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}的其他資訊，則需要此專案。 如果您僅使用來自協力廠商系統的資料，透過自訂資料來源，則不需要身分型別定義。
 

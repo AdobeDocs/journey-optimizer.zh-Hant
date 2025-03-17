@@ -18,12 +18,12 @@ ht-degree: 11%
 
 # 在歷程中使用對象 {#segment-trigger-activity}
 
-## 新增讀取對象活動 {#about-segment-trigger-actvitiy}
+## 新增讀取客群活動 {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
->title="讀取對象活動"
->abstract="「讀取對象」活動可讓您安排屬於 Adobe Experience Platform 對象的所有個人進入歷程。進入歷程可以執行一次，也可以定期執行。"
+>title="讀取客群象活動"
+>abstract="「讀取客群」活動可讓您安排屬於 Adobe Experience Platform 客群的所有個人進入歷程。進入歷程可以執行一次，也可以定期執行。"
 
 使用&#x200B;**讀取對象**&#x200B;活動讓對象的所有個人進入歷程。 進入歷程可以執行一次，也可以定期執行。
 
