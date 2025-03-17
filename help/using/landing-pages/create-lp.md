@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面，建立，發佈
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 2f8c59a3c07dfc772cb62efe5665189d7a176d6f
+source-git-commit: 5af58cd9efc465b30386fad5dc6cd073626c3aed
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1682'
 ht-degree: 21%
 
 ---
@@ -157,9 +157,9 @@ ht-degree: 21%
 
    ![](assets/lp_expiry-date.png)
 
-1. 在&#x200B;**[!UICONTROL 其他資料]**&#x200B;區段中，定義一或多個索引鍵及其對應的引數值。 您可以使用[個人化編輯器](../personalization/personalization-build-expressions.md)，在首頁面和子頁面的內容中運用這些金鑰。 請參閱[此章節](lp-content.md#use-form-component#use-additional-data)深入瞭解。
+<!--1. In the **[!UICONTROL Additional data]** section, define one or more keys and their corresponding parameter values. You will be able to leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md). Learn more in [this section](lp-content.md#use-form-component#use-additional-data).
 
-   ![](assets/lp_create-lp-additional-data.png)
+    ![](assets/lp_create-lp-additional-data.png)-->
 
 1. 如果您在[設計主要頁面](design-lp.md)時選取一或多個訂閱清單，它們會顯示在&#x200B;**[!UICONTROL 訂閱清單]**&#x200B;區段中。
 
