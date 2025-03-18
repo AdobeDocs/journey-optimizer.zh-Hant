@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: ac9c3687100da33149e6d237b35ffbf6d22afac3
 workflow-type: tm+mt
 source-wordcount: '2279'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -170,20 +170,20 @@ ht-degree: 94%
          + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
          + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
          + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
-+ 多步驟行銷活動{#ms-campaigns}
++ 多步驟行銷活動 {#ms-campaigns}
    + [開始使用多步驟行銷活動](using/ms/gs-ms-campaigns.md)
-   + [重要原則](using/ms/gs-campaign-creation.md)
+   + [主要原則](using/ms/gs-campaign-creation.md)
    + 設定 {#ms-config}
       + [結構描述](using/ms/ms-schemas.md)
       + [使用事件變數](using/ms/event-variables.md)
-   + 建立您的第一個多步驟行銷活動{#create-ms-campaign}
-      + [建立協調的行銷活動](using/ms/create-ms-campaign.md)
+   + 建立第一個多步驟行銷活動 {#create-ms-campaign}
+      + [建立協調行銷活動](using/ms/create-ms-campaign.md)
       + [協調活動](using/ms/orchestrate-activities.md)
       + [設定行銷活動設定](using/ms/ms-campaign-settings.md)
-      + [開始和監視您的行銷活動](using/ms/start-monitor-campaigns.md)
+      + [開始並監控行銷活動](using/ms/start-monitor-campaigns.md)
       + [管理個人化](using/ms/ms-personalization.md)
-   + 多步驟行銷活動活動{#design-campaigns}
-      + [關於多步驟行銷活動活動](using/ms/activities/about-activities.md)
+   + 多步驟行銷活動 {#design-campaigns}
+      + [關於多步驟行銷活動](using/ms/activities/about-activities.md)
       + [合併連結](using/ms/activities/and-join.md)
       + [建置客群](using/ms/activities/build-audience.md)
       + [變更維度](using/ms/activities/change-dimension.md)
@@ -338,7 +338,7 @@ ht-degree: 94%
       + [設定登陸頁面子網域](using/landing-pages/lp-subdomains.md)
       + [定義登陸頁面預設集](using/landing-pages/lp-presets.md)
 + 內容管理 {#content-management}
-   + 用於產生內容的AI小幫手{#ai-assistant}
+   + 用於內容產生的 AI 助理{#ai-assistant}
       + [開始使用 AI 助理](using/content-management/gs-generative.md)
       + [使用 AI 來產生電子郵件](using/content-management/generative-email.md)
       + [使用 AI 來產生推播](using/content-management/generative-push.md)
@@ -365,8 +365,8 @@ ht-degree: 94%
       + [新增個人化](using/personalization/personalization-build-expressions.md)
       + [個人化語法](using/personalization/personalization-syntax.md)
       + [重複使用運算式片段](using/personalization/use-expression-fragments.md)
-      + [使用Adobe Experience Platform資料進行個人化(Beta)](using/personalization/lookup-aep-data.md)
-      + 協助程式函式清單{#functions}
+      + [使用 Adobe Experience Platform 資料進行個人化 (Beta)](using/personalization/lookup-aep-data.md)
+      + 協助程式功能清單{#functions}
          + [開始使用輔助函式](using/personalization/functions/functions.md)
          + [聚合函式](using/personalization/functions/aggregation.md)
          + [算術函式](using/personalization/functions/arithmetic-functions.md)
@@ -504,8 +504,8 @@ ht-degree: 94%
             + 排名公式{#ranking-formulas}
                + [建立排名公式](using/experience-decisioning/api-reference/ranking-formulas/create.md)
                + [刪除排名公式](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
-               + [查閱排名公式](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
-               + [選取範圍排名公式](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
+               + [查詢排名公式](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
+               + [選擇排名公式](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
                + [更新排名公式](using/experience-decisioning/api-reference/ranking-formulas/update.md)
             + 適用性規則{#eligibility-rules}
                + [建立適用性規則](using/experience-decisioning/api-reference/eligibility-rules/create.md)
@@ -513,7 +513,7 @@ ht-degree: 94%
                + [查詢適用性規則](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
                + [適用性規則清單](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
                + [更新適用性規則](using/experience-decisioning/api-reference/eligibility-rules/update.md)
-         + [使用程式碼型體驗管道提供優惠方案](using/experience-decisioning/api-reference/deliver.md)
+         + [使用程式碼型體驗頻道提供優惠方案](using/experience-decisioning/api-reference/deliver.md)
       + 管理決定項目 {#decision-items}
          + [設定項目目錄](using/experience-decisioning/catalogs.md)
          + [建立決定項目](using/experience-decisioning/items.md)
