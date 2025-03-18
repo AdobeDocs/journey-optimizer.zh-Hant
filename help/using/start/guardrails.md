@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2346'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 輪廓存放區中的資料為 90 天
 * 資料湖中的資料為 13 個月
 
-將在後續階段，開放&#x200B;**現有客戶沙箱**&#x200B;使用這項變更。 [進一步瞭解資料集的存留時間(TTL)護欄](../data/datasets-ttl.md)
+將在後續階段，開放&#x200B;**現有客戶沙箱**&#x200B;使用這項變更。 [進一步瞭解資料集存留時間 (TTL) 護欄](../data/datasets-ttl.md)
 
 ## 管道護欄 {#channel-guardrails}
 
