@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 運算式，編輯器，關於，開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 47b8308030ca73b3383938a4be025e332265540e
+source-git-commit: 4240f64cd7b6473f589d2324a2ebf87e2c60d394
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1406'
 ht-degree: 5%
 
 ---
@@ -32,9 +32,9 @@ ht-degree: 5%
 
 ## 我可以在哪裡新增個人化
 
-您可以使用![新增個人化圖示](assets/do-not-localize/add-perso-icon.svg)圖示，在每一個欄位的&#x200B;**[!DNL Journey Optimizer]**&#x200B;中新增個人化。
+您可以使用![新增個人化圖示](assets/do-not-localize/add-perso-icon.svg)圖示，在每一個欄位的&#x200B;**[!DNL Journey Optimizer]**&#x200B;中新增個人化。 請展開下列各節以取得詳細資訊。
 
-### 訊息
++++訊息
 
 在郵件中，可以在郵件的不同位置新增個人化，例如&#x200B;**[!UICONTROL 主旨列]**&#x200B;欄位。
 
@@ -42,28 +42,32 @@ ht-degree: 5%
 
 您也可以在內容的其他區段中新增。 例如，對於[推播通知](../push/push-gs.md)，可以在&#x200B;**標題**、**內文**、**自訂聲音**、**徽章**&#x200B;和&#x200B;**自訂資料**&#x200B;欄位中新增個人化。
 
-### 電子郵件 Designer
++++
+
++++傳送電子郵件至Designer
 
 在[電子郵件Designer](../email/get-started-email-design.md)中編輯電子郵件內容時，您可以使用內容相關工具列中的圖示，在文字區塊和URL中新增個人化。
 
 ![](assets/perso_insert.png)
 
-### 產品建議
++++
+
++++選件
 
 在您的&#x200B;**優惠方案代表**&#x200B;中使用文字型別內容時，您可以新增個人化。 [瞭解如何建立個人化優惠](../offers/offer-library/creating-personalized-offers.md)
 
-### URL
++++
+
++++URLs
 
 Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。  個人化 URL 會根據輪廓屬性，將收件者帶往網站特定頁面或個人化微網站。 URL個人化可用於這些型別的連結： **外部連結**、**取消訂閱連結**&#x200B;和&#x200B;**選擇退出**。
 
-+++請參閱個人化URL範例
+個人化URL範例：
 
 * `https://www.adobe.com/users/{{profile.person.name.lastName}}`
 * `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
 * `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
 * `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
-
-+++
 
 ![](assets/perso-url.png){width="50%"}
 
@@ -73,9 +77,11 @@ Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。  個人化 
 >
 >url內使用的個人化權杖不支援空格。
 
++++
+
 ## Personalization來源 {#sources}
 
-畫面左側會顯示網域選擇器，讓您選取個人化的來源。 可用的來源包括：
+導覽窗格可讓您選取個人化的來源。 可用的來源包括：
 
 * **[!UICONTROL 設定檔屬性]** ：列出與[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}中說明的設定檔結構描述相關的所有參考。
 * **[!UICONTROL 對象]** ：列出在Adobe Experience Platform細分服務中建立的所有對象。 [此處](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}提供分段的相關詳細資訊。
@@ -93,9 +99,9 @@ Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。  個人化 
 >title="自動完成"
 >abstract="切換此選項可讓系統在您輸入時自動建議並完成程式碼。 此功能僅適用於HTML和文字格式，並支援「設定檔」和「內容」屬性。 如果透過切換功能停用，編輯器將提供原生HTML程式碼自動完成。"
 
-中央工作區是您建置個人化語法的位置。 若要使用屬性來個人化您的訊息，請在左側導覽窗格中找出該屬性，然後按一下`+`按鈕，將該屬性加入運算式中。
+中央工作區是您建置個人化語法的位置。 若要使用屬性來個人化您的訊息，請在導覽窗格中找出該屬性，然後按一下`+`按鈕，將該屬性加入運算式中。
 
-`+`圖示旁的省略符號功能表可讓您取得每個屬性的詳細資訊，並將您最常用的屬性新增至我的最愛。 新增至我的最愛屬性可從左側導覽窗格中的&#x200B;**[!UICONTROL 我的最愛]**&#x200B;功能表存取。
+`+`圖示旁的省略符號功能表可讓您取得每個屬性的詳細資訊，並將您最常用的屬性新增至我的最愛。 可透過導覽窗格中的&#x200B;**[!UICONTROL 我的最愛]**&#x200B;功能表存取新增至我的最愛的屬性。
 
 此外，您可以定義預設後援文字，當字串型別的設定檔屬性為空白時將會顯示。 若要這麼做，請按一下屬性旁的省略符號按鈕，然後選取&#x200B;**[!UICONTROL 插入後援文字]**。 如果設定檔的屬性值是空的，則寫入預設應顯示的文字，然後按一下&#x200B;**[!UICONTROL 新增]**。
 
