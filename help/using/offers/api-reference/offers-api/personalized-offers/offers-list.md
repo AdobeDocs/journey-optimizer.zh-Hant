@@ -1,20 +1,20 @@
 ---
-title: 列出個人化優惠
+title: 列出個人化產品建議
 description: 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b3fed5a48480647010f59fa471c505b4031b8701
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 7%
+source-wordcount: '283'
+ht-degree: 6%
 
 ---
 
 
-# 列出個人化優惠 {#list-personalized-offers}
+# 列出個人化產品建議 {#list-personalized-offers}
 
 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 
@@ -123,6 +123,76 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers?offer-type=personali
         "self": {
             "href": "/offers?offer-type=personalized&href={SELF_HREF}",
             "type": "application/json"
+        }
+    }
+}
+```
+
+如果回應中缺少多個個人化優惠，請執行分頁。
+
+**回應**
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {
+        "href": "/offers?orderby=-modified&limit=2&offer-type=PERSONALIZED",
+        "type": "application/json"
+        },
+        "next": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
+        }
+    }
+    }
+```
+
+| 量度 | 說明 |
+|---------|-------------|
+| `total` | 個人化優惠方案數量。 |
+| `count` | 此回應中傳回的優惠方案數。 |
+
+從`_links.next.href` （例如`/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED`）擷取端點，並將其附加至API。
+
+**API格式**
+
+```http
+GET /{ENDPOINT_PATH}/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED
+```
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {...},
+        "next": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
+        }
+    }
+}
+```
+
+同樣地，如果您不在第一頁，而且需要擷取個人化優惠方案的前一頁，請使用`_links.prev`中的`href`值。 向URL提出要求，以擷取前一組結果，如以下範例所示。
+
+**回應**
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {...},
+        "next": {...},
+        "prev": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
         }
     }
 }
