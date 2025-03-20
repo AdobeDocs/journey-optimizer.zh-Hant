@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 636c1f6e03017f166da70707d03835feceab1a00
+source-git-commit: d2039ce0efdefaa0708a790135599d2ce97e48f1
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '663'
 ht-degree: 41%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 41%
 
 ### 改進項目 {#25-03-improv}
 
-**Personalization編輯器**
+**Personalization編輯器** （推出日期： 3月12日）
 
 已更新 Journey Optimizer 個人化編輯器，並新增功能：
 
