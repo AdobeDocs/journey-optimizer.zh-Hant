@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1badd589ee3722b28e9a404a9ffbe53eb0ae7c69
+source-git-commit: 636c1f6e03017f166da70707d03835feceab1a00
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 58%
+source-wordcount: '659'
+ht-degree: 41%
 
 ---
 
@@ -50,6 +50,48 @@ ht-degree: 58%
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程的行事曆檢視（可用性限制）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>行事曆檢視現在可讓您以視覺化方式呈現所有歷程啟用。 此功能已以「有限可用性」的形式發行給選定的客戶群組。<p>
+<p>此變更僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>與Dynamic Media整合（可用性限制）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Dynamic Media資產現在可直接在Journey Optimizer中使用和存取。 此整合可讓您：
+<ul>
+<li>透過即時更新集中管理資產</li>
+<li>立即修改您的資產設定，例如寬度和高度</li>
+<li>使用含文字覆蓋圖的影像個人化您的內容</li>
+<li>更新您的內容並新增個人化欄位，以自訂Dynamic Media範本</li>
+</ul>
+<p>
+<p>此整合僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
 
 
 <table>
@@ -103,3 +145,25 @@ ht-degree: 58%
 ![在Personalization編輯器中顯示新功能的影片](assets/do-not-localize/personalization-editor.gif)
 
 如需詳細資訊，請參閱[詳細文件](../personalization/personalization-build-expressions.md)。
+
+
+**行銷活動**
+
+* 在行銷活動清單中，選取行銷活動現在會開啟一個窗格，顯示其詳細資訊。
+* 您現在可以將行銷活動從沙箱複製到另一個沙箱。
+
+**個人化**
+
+個人化編輯器新增了「藥丸」按鈕。 啟用後，設定檔和內容屬性會顯示為Pills，增強程式碼的可讀性。
+
+**核准**
+
+定義核准原則的條件時，您現在可以選擇依標籤和/或物件類別篩選。
+
+**頻道設定**
+
+您現在可以將Adobe Experience Platform統一標籤指派給管道設定。 這可讓您輕鬆分類，以及改善所有清單的搜尋和導覽。
+
+**傳遞度**
+
+您現在可以從上層透過受管理的DMARC委派子網域。
