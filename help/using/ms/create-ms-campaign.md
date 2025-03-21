@@ -9,11 +9,11 @@ exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
 source-wordcount: '706'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 建立協調的行銷活動 {#create-first-campaign}
+# 建立協調行銷活動 {#create-first-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"

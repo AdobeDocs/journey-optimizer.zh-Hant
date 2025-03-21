@@ -25,7 +25,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_brand_ai_menu"
 >title="選取您的品牌"
->abstract="選擇您的品牌以確保所有 AI 產生的內容是量身打造，以符合您品牌的規格和準則。"
+>abstract="選擇您的品牌，以確保所有 AI 生成內容都是量身打造，符合您品牌的規格和準則。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score_overview"

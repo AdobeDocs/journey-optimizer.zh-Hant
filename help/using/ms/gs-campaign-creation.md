@@ -13,7 +13,7 @@ ht-degree: 24%
 
 ---
 
-# 重要原則 {#ms-campaign-creation}
+# 主要原則 {#ms-campaign-creation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
