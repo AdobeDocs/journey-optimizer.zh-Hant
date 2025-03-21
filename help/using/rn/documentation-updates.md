@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
-workflow-type: ht
-source-wordcount: '6222'
-ht-degree: 100%
+source-git-commit: 6acfe14469a74216b196e4d5ee059839aea32226
+workflow-type: tm+mt
+source-wordcount: '6333'
+ht-degree: 97%
 
 ---
 
@@ -23,11 +23,19 @@ ht-degree: 100%
 
 * 已更新「客群資格篩選」事件的相關頁面，並新增建議。[閱讀全文](../building-journeys/audience-qualification-events.md)
 * 所有客戶現在都能使用自訂動作疑難排解功能 (GA)。[閱讀全文](../action/troubleshoot-custom-action.md)
+* 資料衛生現在是產品使用者介面中的資料生命週期。 說明檔案已更新，以反映此變更。 [閱讀全文](../privacy/data-hygiene.md)
+* 檔案中已新增缺少的登陸頁面內建許可權。 [閱讀全文](../administration/ootb-permissions.md)
+* 已新增有關排程週期性行銷活動的附註。 [閱讀全文](../campaigns/create-campaign.md)
+* 有關在電子郵件訊息中插入連結及啟用追蹤的區段已更新並重新組織。 [閱讀全文](../email/message-tracking.md)
+* Adobe Journey Optimizer中個人化功能的相關區段已重新整理並改良。 [閱讀全文](../personalization/personalize.md)
+* 用於列出個人化優惠的決定管理API已更新，如果回應中缺少多個個人化優惠，則使用範例來執行分頁。 [閱讀全文](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
+
+
 
 ## 2025 年 2 月 {#feb-2025}
 
-* 已更新「讀取客群」活動護欄，以指定歷程中只能使用一個活動，並只能鎖定一個客群。[閱讀全文](../building-journeys/read-audience.md)
-* 使用行銷活動時的歷程護欄已更新。 [閱讀全文](../start/guardrails.md#ac-g)
+* 「讀取對象」活動護欄已更新，以指定歷程中只能使用一個活動，而且只能鎖定一個對象。 [閱讀全文](../building-journeys/read-audience.md)
+* 更新使用Adobe Campaign活動時的歷程護欄。 [閱讀全文](../start/guardrails.md#ac-g)
 * 已詳細說明建立第一個歷程的步驟，並新增檔案區段的連結。 [閱讀全文](../building-journeys/journey-gs.md)
 * 新頁面現在已可用，以詳細說明歷程控制面板和篩選使用者介面。 [閱讀全文](../building-journeys/journey-ui.md)
 *  **[!UICONTROL 傳送時間最佳化]** 的文件及其相關常見問題集已更新、改進並移至新的專用頁面。 [閱讀全文](../building-journeys/send-time-optimization.md)
