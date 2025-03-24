@@ -100,12 +100,12 @@ ht-degree: 9%
 * [設定推播頻道](push-gs.md)
 * [在歷程中新增訊息](../building-journeys/journeys-message.md)
 
-## 快速傳送模式 {#rapid-delivery}
+## 快速傳遞模式 {#rapid-delivery}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
->title="快速傳送模式"
->abstract="快速傳送模式讓您可以在推播管道上向 3000 萬以下的對象規模執行快速訊息傳送。"
+>title="快速傳遞模式"
+>abstract="快速傳遞模式讓您可以在推播管道上向 3000 萬以下的輪廓規模執行高速傳訊功能。"
 
 快速傳送模式是[!DNL Journey Optimizer]附加元件，允許透過行銷活動以非常快的速度傳送大量推送訊息。
 

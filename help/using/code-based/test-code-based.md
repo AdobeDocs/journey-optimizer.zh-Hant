@@ -48,12 +48,12 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_web"
 >title="在裝置上預覽基於程式碼的網頁體驗"
->abstract="掃描 QR 碼或複製在裝置上預覽的連結。"
+>abstract="請掃描 QR 碼或複製連結，在裝置上預覽。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_mobile"
 >title="在裝置上預覽基於程式碼的行動體驗"
->abstract="掃描 QR 碼或複製在裝置上預覽的連結。連接後，在裝置上輸入 PIN 碼。每次更新預覽連結時，您可能需要重新啟動應用程式才能看到變更。"
+>abstract="請掃描 QR 碼或複製連結，在裝置上預覽。連接後，在裝置上輸入 PIN 碼。每次更新預覽連結時，您可能需要重新啟動應用程式才能看到變更。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_refresh"
