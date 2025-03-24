@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，動態，內容
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: 98cc28a942626576666a3f0f3cc8ee7b50c2354c
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 10%
+source-wordcount: '608'
+ht-degree: 9%
 
 ---
 
@@ -87,9 +87,13 @@ Adobe Journey Optimizer可讓您善用程式庫中建立的條件規則，將動
 1. 視需要為內容元件新增任意數量的變體。 您可以隨時切換不同的變體，以檢查內容元件會根據條件規則如何顯示。
 
    >[!NOTE]
-   >如果傳送訊息時不符合變體中所定義的規則，內容元件將會顯示&#x200B;**[!UICONTROL 預設變體]**&#x200B;中所定義的內容。
    >
-   >條件式內容將會以變體的顯示順序，根據關聯的規則進行評估。 如果未符合其他條件，則一律顯示預設變體。
+   >* 如果傳送訊息時不符合變體中所定義的規則，內容元件將會顯示&#x200B;**[!UICONTROL 預設變體]**&#x200B;中所定義的內容。
+   >
+   >* 條件式內容將會以變體的顯示順序，根據關聯的規則進行評估。 如果未符合其他條件，則一律顯示預設變體。
+   >
+   >* 針對包含多個條件變體的電子郵件來模擬或呈現校樣時，Journey Optimizer可能需要更多處理時間。 如果您遇到逾時或錯誤訊息，請考慮減少變體總數或簡化條件規則。 在[此頁面](../content-management/preview-test.md)中進一步瞭解如何測試您的內容。
+
 
 1. 若要刪除變體，請按一下所需變體旁的「更多動作」圖示，並選取&#x200B;**[!UICONTROL 刪除]**。
 
