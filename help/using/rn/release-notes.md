@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a0e657842ba67b8e96996bcb95e2170da6fcbb97
+source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 94%
+source-wordcount: '1399'
+ht-degree: 64%
 
 ---
 
@@ -22,9 +22,117 @@ ht-degree: 94%
 
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
-## 2025 年 3 月更新 {#25-03-rn}
 
-**個人化編輯器增強功能**
+## 2025年3月早期發行說明 {#25-3-rn}
+
+
+**至發行日期之前，下方早期發行說明如有變更，恕不另行通知**。 連結、畫面和更新文件會於發行日期在發行說明發佈。
+
+**發行日期**：2025 年 3 月 26-27 日
+
+
+### 新功能 {#25-03-features}
+
+此版本隨附的新功能詳述如下。
+
+
+<table>
+<thead>
+<tr>
+<th><strong>與Adobe Express整合</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer中的Adobe Express整合可讓您在內容建立期間直接使用Adobe Express的編輯工具，讓您調整大小、移除背景、裁切，以及將資產轉換為JPEG或PNG。<p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程的行事曆檢視（可用性限制）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>行事曆檢視現在可讓您以視覺化方式呈現所有歷程啟用。 此功能已以「有限可用性」的形式發行給選定的客戶群組。<p>
+<p>此變更僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>與Dynamic Media整合（可用性限制）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Dynamic Media資產現在可直接在Journey Optimizer中使用和存取。 此整合可讓您：
+<ul>
+<li>透過即時更新集中管理資產</li>
+<li>立即修改您的資產設定，例如寬度和高度</li>
+<li>使用含文字覆蓋圖的影像個人化您的內容</li>
+<li>更新您的內容並新增個人化欄位，以自訂Dynamic Media範本</li>
+</ul>
+<p>
+<p>此整合僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>與Adobe GenStudio整合（可用性限制）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>為了提升行銷效率及維持品牌一致性，您現在可以將GenStudio for Performance Marketing體驗與Journey Optimizer緊密整合。 這使您能夠利用GenStudio的AI支援內容建立以及Journey Optimizer的進階協調功能。<p>
+<p>Journey Optimizer中的GenStudio整合目前無法與Healthcare Shield或Privacy and Security Shield （限量提供）搭配使用。</p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>LINE頻道（可用性限制）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer已擴充其跨頻道功能，以包含對LINE頻道的支援。 此增強功能可讓您建立、編輯和預覽LINE體驗，以啟用更個人化且吸引人的互動。 透過LINE，您可以與更多客戶聯絡、傳送相關內容並改善您的參與。<p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### 改進項目 {#25-03-improv}
+
+**Personalization編輯器** （推出日期： 3月12日）
 
 已更新 Journey Optimizer 個人化編輯器，並新增功能：
 * **已更新程式碼編輯器設計** – 更簡潔的現代化介面，可改善使用性和焦點。
@@ -38,6 +146,36 @@ ht-degree: 94%
 ![在Personalization編輯器中顯示新功能的影片](assets/do-not-localize/personalization-editor.gif)
 
 如需詳細資訊，請參閱[詳細文件](../personalization/personalization-build-expressions.md)。
+
+**行銷活動**
+
+* 在行銷活動清單中，選取行銷活動現在會開啟一個窗格，顯示其詳細資訊。
+* 您現在可以將行銷活動從沙箱複製到另一個沙箱。
+
+**個人化**
+
+個人化編輯器新增了「藥丸」按鈕。 啟用後，設定檔和內容屬性會顯示為Pills，增強程式碼的可讀性。
+
+**核准**
+
+定義核准原則的條件時，您現在可以選擇依標籤和/或物件類別篩選。
+
+**頻道設定**
+
+您現在可以將Adobe Experience Platform統一標籤指派給管道設定。 這可讓您輕鬆分類，以及改善所有清單的搜尋和導覽。
+
+**傳遞度**
+
+您現在可以從上層透過受管理的DMARC委派子網域。
+
+**商業規則**
+
+您現在可以在包含批次細分的歷程和行銷活動中，使用每日頻率上限。 為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的名稱空間。 在[平台身分服務指南](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中進一步瞭解名稱空間優先順序
+
+**內容管理**
+
+為了輕鬆管理您的片段和內容範本，您現在可以使用資料夾以更有效的方式將其組織到結構化階層中。
+
 
 ## 2025 年 2 月發行說明 {#25-02-rn}
 

@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c4961af2653e8135c72dd57997131c56f54b24a5
+source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 38%
+source-wordcount: '738'
+ht-degree: 37%
 
 ---
 
@@ -171,3 +171,7 @@ ht-degree: 38%
 **商業規則**
 
 您現在可以在包含批次細分的歷程和行銷活動中，使用每日頻率上限。 為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的名稱空間。 在[平台身分服務指南](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中進一步瞭解名稱空間優先順序
+
+**內容管理**
+
+為了輕鬆管理您的片段和內容範本，您現在可以使用資料夾以更有效的方式將其組織到結構化階層中。
