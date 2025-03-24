@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 98cc28a942626576666a3f0f3cc8ee7b50c2354c
+source-git-commit: 55cc584e2dfcfb9de8784069c7d635a8e4e47929
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 90%
@@ -30,17 +30,19 @@ ht-degree: 90%
 
 您也可以將電子郵件訊息的測試傳遞寄給特定收件者或訂閱者，以便進行測試和驗證，同時檢查郵件內容在熱門桌面、行動裝置和網頁型用戶端中的轉譯內容。
 
+所有這些動作都可以使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕來執行，可已從訊息的編輯內容畫面，或透過電子郵件、網頁頻道的電子郵件和網頁設計工具，存取此按鈕。
+
+![](../email/assets/email-preview-button.png)
+
+請注意，您必須產品設定檔案中加入&#x200B;**[!DNL Manage Simulate Content]**&#x200B;權限&#x200B;**[!DNL Content Library Manager]**。[了解更多](../administration/ootb-product-profiles.md#content-library-manager)。
+
+
 >[!CAUTION]
 >
 >* 當預覽訊息或傳送校樣時，只會顯示出設定檔個人化資料。 根據內容資料，例如事件資訊等個人化資料，只能在歷程的內容中測試。 了解如何在[這個使用案例](../personalization/personalization-use-case.md)中測試個人化。
 >
 >* 針對包含多個條件變體的電子郵件來模擬或呈現校樣時，Journey Optimizer可能需要更多處理時間。 如果您遇到逾時或錯誤訊息，請考慮減少變體總數或簡化條件規則。 深入瞭解[此頁面](../personalization/dynamic-content.md)的條件式內容。
 
-所有這些動作都可以使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕來執行，可已從訊息的編輯內容畫面，或透過電子郵件、網頁頻道的電子郵件和網頁設計工具，存取此按鈕。
-
-![](../email/assets/email-preview-button.png)
-
-請注意，您必須產品設定檔案中加入&#x200B;**[!DNL Manage Simulate Content]**&#x200B;權限&#x200B;**[!DNL Content Library Manager]**。[了解更多](../administration/ootb-product-profiles.md#content-library-manager)。
 
 ## 使用測試設定檔或範例輸入資料來進行測試 {#methods}
 
