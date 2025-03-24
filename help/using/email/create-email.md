@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 建立，電子郵件，開始，歷程，行銷活動
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: e052e7bfea5381583ad8d2d7b785d44486cb9975
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '969'
 ht-degree: 9%
 
 ---
@@ -89,6 +89,12 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
    ![](assets/email_designer_edit_content_header.png)
 
 1. 新增訊息的主旨列。 若要使用個人化編輯器設定並個人化主旨列，請按一下&#x200B;**[!UICONTROL 開啟個人化對話方塊]**&#x200B;圖示。 [了解更多](../personalization/personalization-build-expressions.md)
+
+   >[!NOTE]
+   >
+   >* 主旨列是必填欄位。
+   >
+   >* 主旨列不得包含分行符號。
 
 1. 按一下&#x200B;**[!UICONTROL 編輯電子郵件內文]**&#x200B;按鈕以存取電子郵件Designer並開始建立您的內容。 [了解更多](get-started-email-design.md)
 
