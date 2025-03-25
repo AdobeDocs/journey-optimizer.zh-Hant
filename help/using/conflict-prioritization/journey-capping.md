@@ -5,9 +5,9 @@ role: User
 level: Beginner
 badge: label="有限可用性"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
+source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '941'
 ht-degree: 23%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 23%
 
 這兩種型別的歷程上限都利用優先順序分數來仲裁專案。
 
+>[!AVAILABILITY]
+>
+>**歷程**&#x200B;網域規則集僅供有限的使用者集使用（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。
+
 ➡️ [在影片中探索此功能](#video)
 
 ## 建立歷程頻率上限規則 {#create-rule}
@@ -41,7 +45,7 @@ ht-degree: 23%
 
 若要建立歷程上限規則，請遵循下列步驟：
 
-1. 導覽至&#x200B;**[!UICONTROL 商業規則(Beta)]**&#x200B;功能表以存取規則集詳細目錄。
+1. 導覽至&#x200B;**[!UICONTROL 商業規則]**&#x200B;功能表以存取規則集詳細目錄。
 
 1. 選取您要新增上限規則的規則集，或建立新規則集：
 

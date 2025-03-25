@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
+source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '2013'
 ht-degree: 12%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 12%
 
 ### 全域和自訂規則集 {#global-custom}
 
-第一次從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 商業規則(Beta)]**&#x200B;功能表存取規則集時，預設規則集已預先建立且作用中： **全域預設規則集**。
+第一次從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 商業規則]**&#x200B;功能表存取規則集時，預設規則集已預先建立且作用中： **全域預設規則集**。
 
 此規則集包含您可以套用的全域規則，以控制使用者跨一或多個管道接收訊息的頻率，類似於目前商業規則的運作方式。 此規則集中定義的所有規則都適用於所有選取的管道，不論通訊是從歷程或行銷活動傳送。 [瞭解如何使用商業規則](../configuration/rule-sets.md)
 
@@ -55,6 +55,10 @@ ht-degree: 12%
 * **管道**&#x200B;網域：為通訊管道套用上限規則。 例如，每天傳送的電子郵件或簡訊請勿超過1個。
 * **歷程**&#x200B;網域：將專案與並行上限規則套用至歷程。 例如，請勿同時在多個歷程中輸入設定檔。
 
+>[!AVAILABILITY]
+>
+>雖然&#x200B;**管道**&#x200B;網域規則集可供所有使用者使用，但&#x200B;**歷程**&#x200B;網域規則集僅供有限的使用者集使用（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。
+
 ## 建立您的第一個自訂規則集 {#create-rule-set}
 
 ### 建立規則集並選取其網域 {#create}
@@ -62,6 +66,8 @@ ht-degree: 12%
 若要建立規則集，請遵循下列步驟。
 
 >[!NOTE]
+>
+>若要建立規則集，您必須擁有`Manage Messages Presets`許可權。 [進一步瞭解使用者管理](../administration/permissions-overview.md)
 >
 >您可以建立最多3個管道網域的本機規則集和最多5個歷程網域的本機規則集。
 
@@ -74,6 +80,10 @@ ht-degree: 12%
 1. 選取規則集的網域。 網域可讓您指定規則集是否包含通訊通道或歷程專用的上限規則。 [進一步瞭解頻道和歷程上限規則](#domain)
 
    ![](assets/rule-sets-create.png)
+
+   >[!AVAILABILITY]
+   >
+   >雖然&#x200B;**管道**&#x200B;網域規則集可供所有使用者使用，但&#x200B;**歷程**&#x200B;網域規則集僅供有限的使用者集使用（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
@@ -208,7 +218,7 @@ ht-degree: 12%
 
 ## 存取及管理規則集 {#access-rule-sets}
 
-所有建立的規則集都會顯示在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 商業規則(Beta)]**&#x200B;功能表中。 它們會依上次修改日期排序。
+所有建立的規則集都會顯示在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 商業規則]**&#x200B;功能表中。 它們會依上次修改日期排序。
 
 ![](assets/rule-sets-list.png)
 
