@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
+source-git-commit: 5e4d122c38c89055419102d54b3e749f1b8f925e
 workflow-type: tm+mt
-source-wordcount: '2013'
+source-wordcount: '2030'
 ht-degree: 12%
 
 ---
@@ -32,6 +32,15 @@ ht-degree: 12%
 例如，您可以建立規則集以限制傳送給客戶的&#x200B;**促銷通訊**&#x200B;數目，以及建立另一個規則集以限制傳送給客戶的&#x200B;**電子報**&#x200B;數目。 視您建立的促銷活動型別而定，您可以選擇套用促銷通訊或電子報規則集。
 
 ➡️ [在影片中探索此功能](#video)
+
+### 權限 {#permissions-frequency-rules}
+
+若要使用商業規則，您需要下列許可權：
+
+* **[!UICONTROL 檢影片率規則]**：存取和檢視商業規則。
+* **[!UICONTROL 管理頻率規則]**：建立、編輯或刪除商業規則。
+
+若要了解權限的詳細資訊，請參閱[本章節](../administration/high-low-permissions.md)。
 
 ### 全域和自訂規則集 {#global-custom}
 
@@ -66,8 +75,6 @@ ht-degree: 12%
 若要建立規則集，請遵循下列步驟。
 
 >[!NOTE]
->
->若要建立規則集，您必須擁有`Manage Messages Presets`許可權。 [進一步瞭解使用者管理](../administration/permissions-overview.md)
 >
 >您可以建立最多3個管道網域的本機規則集和最多5個歷程網域的本機規則集。
 
@@ -237,16 +244,6 @@ ht-degree: 12%
 * 刪除規則
 
 ![](assets/rule-set-example-rules.png)
-
-<!--### Permissions{#permissions-frequency-rules}
-
-To access, create, edit or delete message frequency rules, you must have the **[!UICONTROL Manage frequency rules]** permission. 
-
-Users with the **[!UICONTROL View frequency rules]** permission are able to view rules, but not to modify or delete them.
-
-![](assets/message-rules-access.png)
-
-Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
 
 ## 將規則集套用至訊息或歷程 {#apply-frequency-rule}
 
