@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
+source-git-commit: d023eaba1205ea8bfb402b195bfd341dae4f59d3
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1410'
 ht-degree: 64%
 
 ---
@@ -82,7 +82,6 @@ ht-degree: 64%
 <ul>
 <li>透過即時更新集中管理資產</li>
 <li>立即修改您的資產設定，例如寬度和高度</li>
-<li>使用含文字覆蓋圖的影像個人化您的內容</li>
 <li>更新您的內容並新增個人化欄位，以自訂Dynamic Media範本</li>
 </ul>
 <p>
@@ -135,6 +134,7 @@ ht-degree: 64%
 **Personalization編輯器** （推出日期： 3月12日）
 
 已更新 Journey Optimizer 個人化編輯器，並新增功能：
+
 * **已更新程式碼編輯器設計** – 更簡潔的現代化介面，可改善使用性和焦點。
 * **搜尋和取代** – 新增的功能可在編輯器中快速尋找和取代內容。
 * **復原與重做支援** – 可讓您輕鬆還原或重新套用變更。
@@ -174,7 +174,7 @@ ht-degree: 64%
 
 **內容管理**
 
-為了輕鬆管理您的片段和內容範本，您現在可以使用資料夾以更有效的方式將其組織到結構化階層中。
+為了輕鬆管理您的片段和內容範本，您現在可以使用資料夾以更有效的方式將其組織到結構化階層中。 這項改善僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。
 
 
 ## 2025 年 2 月發行說明 {#25-02-rn}
