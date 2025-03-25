@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 74bb16aa01c442ad9d427cdd2c79c9e8b7b8a394
+source-git-commit: 4c1c0b17b6dc1d5b2e35cb9f250c82f0d5d31faa
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '2036'
 ht-degree: 13%
 
 ---
@@ -142,7 +142,7 @@ ht-degree: 13%
 
    >[!AVAILABILITY]
    >
-   >「每日」期間僅供隨選使用。 若要取得存取權，請和您的 Adobe 代表聯絡。
+   >「每日」期間僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。
 
    每個期間的計數器到期日如下：
 

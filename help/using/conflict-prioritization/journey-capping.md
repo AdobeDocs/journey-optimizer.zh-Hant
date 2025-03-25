@@ -5,10 +5,10 @@ role: User
 level: Beginner
 badge: label="有限可用性"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
+source-git-commit: 4c1c0b17b6dc1d5b2e35cb9f250c82f0d5d31faa
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 23%
+source-wordcount: '944'
+ht-degree: 24%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 23%
 
      >[!AVAILABILITY]
      >
-     >「每日」期間僅供隨選使用。 若要取得存取權，請聯絡您的Adobe代表以取得存取權。
+     >「每日」期間僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。
 
      在此範例中，我們要限制設定檔在一個月內輸入超過「5」個歷程。
 
