@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0a6fa748aca04f544954089d2dfdd8e9a3afdd97
+source-git-commit: 1776d9fa7352fc41d52f685c0a402e60bced348d
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 62%
+source-wordcount: '1441'
+ht-degree: 61%
 
 ---
 
@@ -160,13 +160,11 @@ ht-degree: 62%
 
 定義核准原則的條件時，您現在可以選擇依標籤和/或物件類別篩選。
 
-**頻道設定**
+**設定**
 
-您現在可以將Adobe Experience Platform統一標籤指派給管道設定。 這可讓您輕鬆分類，以及改善所有清單的搜尋和導覽。
+* 您現在可以將Adobe Experience Platform統一標籤指派給管道設定。 這可讓您輕鬆分類，以及改善所有清單的搜尋和導覽。
 
-**傳遞度**
-
-您現在可以從上層透過受管理的DMARC委派子網域。
+* 在Journey Optimizer中設定或編輯電子郵件子網域時，如果您可在上層網域中使用，您現在可以選擇自行管理相關的DMARC記錄。
 
 **商業規則**
 
