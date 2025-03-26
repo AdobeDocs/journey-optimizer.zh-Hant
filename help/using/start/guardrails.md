@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
-workflow-type: ht
-source-wordcount: '2346'
-ht-degree: 100%
+source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
+workflow-type: tm+mt
+source-wordcount: '2471'
+ht-degree: 93%
 
 ---
 
@@ -22,12 +22,6 @@ ht-degree: 100%
 權利、產品限制和效能護欄列於 [Adobe Journey Optimizer 產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
 在啟動之前，您還需要注意 [即時客戶設定檔資料護欄](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hant){target="_blank"}。
-
-
->[!NOTE]
->
->在極少數情況下，特定區域的暫時中斷可能會導致有效的設定檔被排除在歷程之外，或導致郵件被錯誤標示為退回郵件。 服務恢復後，重新檢查歷程記錄，驗證同意設定檔欄位，並在需要時重新發佈歷程。 若發生 ISP 中斷，請參閱[本節](../configuration/manage-suppression-list.md#remove-from-suppression-list)以了解如何從禁止名單之中移除設定檔。
->
 
 ## 支援的瀏覽器 {#browsers}
 
@@ -44,12 +38,21 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ## 管道護欄 {#channel-guardrails}
 
+>[!NOTE]
+>
+>在極少數情況下，特定區域的暫時中斷可能會導致有效的設定檔被排除在歷程之外，或導致郵件被錯誤標示為退回郵件。 服務恢復後，重新檢查歷程記錄，驗證同意設定檔欄位，並在需要時重新發佈歷程。 若發生 ISP 中斷，請參閱[本節](../configuration/manage-suppression-list.md#remove-from-suppression-list)以了解如何從禁止名單之中移除設定檔。
+>
+
 ### 電子郵件護欄 {#message-guardrails}
+
+下列護欄適用於[電子郵件通道](../email/get-started-email.md)：
 
 * 您無法向帶有[!DNL Journey Optimizer]的電子郵件新增附件。
 * 您無法使用相同的傳送網域從[!DNL Adobe Journey Optimizer]和其他產品 (例如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]) 傳送訊息。
 
 ### SMS 護欄 {#sms-guardrails}
+
+下列護欄適用於[簡訊頻道](../sms/get-started-sms.md)：
 
 * MMS 適用的媒體檔案可透過支援的 URL 加入。請確定媒體檔案已個別上傳。
 * 訊息回饋同步目前不適用於 MMS。
@@ -57,7 +60,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ### 網頁管道護欄 {#web-guardrails}
 
-[!DNL Journey Optimizer] 網路行銷活動會選擇以其他管道上不曾有過互動的新輪廓為目標。這樣做會增加可互動設定檔總數，如果其超過您購買的可互動設定檔合約數量，可能會影響成本。 
+[!DNL Journey Optimizer] [網頁行銷活動](../web/get-started-web.md)將目標鎖定在其他頻道中之前未參與的新設定檔。 這樣做會增加可互動設定檔總數，如果其超過您購買的可互動設定檔合約數量，可能會影響成本。 
 
 各個套件的授權量度都列在 [Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。
 
@@ -66,6 +69,8 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 若要在 [!DNL Journey Optimizer] 中使用程式碼型體驗動作，並傳送您的應用程式可以使用的程式碼內容承載，請遵循[此頁面](../code-based/code-based-prerequisites.md)詳述的先決條件。
 
 ## 登陸頁面護欄 {#lp-guardrails}
+
+下列護欄適用於[登陸頁面](../landing-pages/get-started-lp.md)：
 
 * 一個主頁面只能使用一個&#x200B;**表單**&#x200B;元件。
 * 此&#x200B;**表單**&#x200B;元件無法在子頁面中使用。
@@ -78,7 +83,11 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 然而，根據您的授權合約，您最多可委派 100 個子網域。 請聯絡您的 Adobe 聯絡人，了解更多您有權使用的子網域數量。
 
+在[此頁面](../configuration/delegate-subdomain.md)中進一步瞭解網域委派。
+
 ## 片段護欄 {#fragments-guardrails}
+
+下列護欄適用於[片段](../content-management/fragments.md)：
 
 * 視覺片段僅可用於電子郵件管道。
 * 運算式片段不適用於應用程式內管道。
@@ -86,6 +95,8 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 ## 客群護欄 {#audience}
 
 您可以在指定的沙箱中發佈最多 10 個客群組合。如果您達到此臨界值，則需要刪除組合以釋放空間，才能發佈新的組合。
+
+在[此頁面](../audience/get-started-audience-orchestration.md)中進一步瞭解對象組合。
 
 ## 決策與決策管理護欄 {#decisioning-guardrails}
 
@@ -108,12 +119,16 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ### 一般動作 {#general-actions-g}
 
+下列護欄適用於歷程中的[動作](../building-journeys/about-journey-activities.md)：
+
 * 如果出現錯誤，將系統地執行三次重試。您無法根據收到的錯誤訊息調整重試次數。除 HTTP 401、403 和 404 外，會對所有 HTTP 錯誤執行重試。
 * 內建的&#x200B;**反應**&#x200B;事件可讓您對開箱即用的動作做出反應。 在[本頁](../building-journeys/reaction-events.md)中瞭解更多。如果要對透過自訂動作傳送的訊息做出反應，則需設定專用事件。
 * 您無法同時進行兩個動作，必須逐一新增。
 * 輪廓無法在同一歷程中同時出現多次。如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
 
 ### 歷程版本 {#journey-versions-g}
+
+下列護欄適用於[歷程版本](../start/user-interface.md)：
 
 * 從 v1 中的事件活動開始的歷程無法從其他版本中的事件開始。您無法透過&#x200B;**客群資格篩選**&#x200B;事件開始歷程。
 * 在 v1 中以&#x200B;**客群資格篩選**&#x200B;活動開始的歷程，在後續版本中必須一律以&#x200B;**客群資格篩選**&#x200B;開始。
@@ -123,6 +138,8 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 您無法建立使用增量讀取方式的新讀取客群歷程版本。 您必須重複歷程。
 
 ### 自訂動作 {#custom-actions-g}
+
+下列護欄適用於歷程中的[自訂動作](../action/action.md)：
 
 * 為每個主機和每個沙箱的所有自訂動作，定義 1 分鐘內 300,000 次呼叫的上限。請參見[此頁面](../action/about-custom-action-configuration.md)。此限制是根據客戶使用情況來設定，可保護自訂動作鎖定為目標的外部端點。您必須在以對象為基礎的歷程考慮這一點，透過定義適當的讀取率 (使用自訂動作時為每秒 5,000 個輪廓)。如有需要，您可以透過上限/節流 API 定義較高的上限或節流限制來覆寫此設定。 請參閱[此頁面](../configuration/external-systems.md)。
 * 自訂動作 URL 不支援動態參數。
@@ -139,6 +156,8 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ### 活動 {#events-g}
 
+下列護欄適用於您歷程中的[事件](../event/about-events.md)：
+
 * Journey Optimizer 支援每秒 5,000 個傳入歷程事件的尖峰量。
 * 事件觸發的歷程最多可能需要 5 分鐘來處理歷程的第一個動作。
 * 對於系統產生的事件，必須先在 Journey Optimizer 中設定用於啟動客戶歷程的串流資料，才能取得唯一的協調流程 ID。 此協調流程 ID 必須附加至傳入 Adobe Experience Platform 的串流裝載。 此限制不適用於規則型事件。
@@ -147,6 +166,8 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * Journey Optimizer 需將事件串流至資料收集核心服務 (DCCS)，才能觸發歷程。 批次收錄的事件，或來自內部 Journey Optimizer 資料集的事件（訊息意見回饋、電子郵件追蹤等等）不能用於觸發歷程。對於無法取得串流事件的使用案例，請根據這些事件建置對象，然後改為使用&#x200B;**讀取對象**&#x200B;活動。 技術上可使用客群資格篩選，但不建議使用，因為它可能會根據所使用的操作導致下游挑戰。
 
 ### 資料來源 {#data-sources-g}
+
+下列護欄適用於您歷程中的[資料來源](../datasource/about-data-sources.md)：
 
 * 可在客戶歷程中利用外部資料來源即時查詢外部資料。 這些來源必須可透過 REST API 使用、支援 JSON 並且能夠處理大量請求。
 * 內部 Adobe 地址 (`.adobe.*`) 不允許在 URL 及 API 中使用。
@@ -173,7 +194,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ### 讀取對象 {#read-segment-g}
 
-下列護欄適用於&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動：
+下列護欄適用於[讀取對象](../building-journeys/read-audience.md)歷程活動：
 
 * 串流客群一律為最新狀態，但擷取時不會計算批次客群。 它們僅在每日批次評估時間每天進行評估。
 * 對於使用&#x200B;**讀取客群**&#x200B;活動的歷程，則可同時開始的歷程次數有其上限。 系統將執行重試，但請避免同時開始超過五個歷程 (使用&#x200B;**讀取客群**、已排程或「盡快」開始)，方法是將其分散在一段時間內開始，例如相隔 5 到 10 分鐘。
@@ -183,17 +204,21 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 另請參閱[此頁面](../building-journeys/read-audience.md)中關於如何使用&#x200B;**讀取客群**&#x200B;活動的建議。
 * 擷取匯出工作時，預設會對對象觸發的歷程 (從&#x200B;**讀取客群**&#x200B;或&#x200B;**商業事件**&#x200B;開始) 套用重試。如果在匯出工作建立期間發生錯誤，將每隔 10 分鐘進行重試，最長為 1 小時。在這之後，我們會將其視為失敗。因此，這些類型的歷程可在排程時間後最多 1 小時執行。
 
-### 客群資格篩選 {#audience-qualif-g}
+### 對象資格 {#audience-qualif-g}
 
-下列護欄適用於&#x200B;**[!UICONTROL 客群資格篩選]**&#x200B;活動：
+下列護欄適用於[對象資格](../building-journeys/audience-qualification-events.md)歷程活動：
 
 * 客群資格篩選活動無法與 Adobe Campaign 活動搭配使用。
 
 ### 運算式編輯器 {#expression-editor}
 
+下列護欄適用於[歷程運算式編輯器](../building-journeys/expression/expressionadvanced.md)：
+
 * 從讀取客群、客群資格篩選或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。 您需要建立新對象，以及在歷程中使用非對象條件。
 
 ### 應用程式內活動 {#in-app-activity-limitations}
+
+下列護欄適用於&#x200B;**[!UICONTROL 應用程式內訊息]**&#x200B;動作。 在[此頁面](../in-app/create-in-app.md)中進一步瞭解應用程式內訊息。
 
 * 此功能目前不適用於醫療保健客戶。
 

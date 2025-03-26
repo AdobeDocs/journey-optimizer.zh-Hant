@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
+source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 26%
+source-wordcount: '1150'
+ht-degree: 27%
 
 ---
 
@@ -126,6 +126,9 @@ ht-degree: 26%
 當您發佈歷程的新版本時，舊版本會自動結束並切換到&#x200B;**已關閉**&#x200B;狀態。歷程無法進入。即使您停止最新版本，先前版本仍會保持關閉狀態。
 
 
+>[!NOTE]
+>
+>特定護欄和限制適用於歷程的版本設定。 在[本頁](../start/guardrails.md#journey-versions-journey-versions-g)中瞭解更多。
 
 ## 複製歷程 {#duplicate-a-journey}
 
