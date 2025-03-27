@@ -12,7 +12,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
->title="Campaigns表格和時間表檢視"
->abstract="行銷活動表格和時間表檢視"
+>title="行銷活動表和時間軸視圖"
+>abstract="行銷活動表和時間軸視圖"
 
 可從&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表存取行銷活動。
 

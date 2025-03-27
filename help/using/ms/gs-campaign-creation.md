@@ -9,7 +9,7 @@ exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 3ecb1691cc8a1c429d9bd9919b06ddc5a316eff7
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 24%
+ht-degree: 30%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
 >title="多步驟行銷活動"
->abstract="在此畫面中，您可以存取多步驟行銷活動的完整清單、檢查其目前狀態、上次/下次執行日期，以及建立新的多步驟行銷活動。"
+>abstract="在此畫面中，您可以存取多步驟行銷活動工作的完整清單、檢查其目前狀態、上次/下次執行日期，並建立新的多步驟行銷活動。"
 
 透過Adobe Journey Optimizer，您可以將多步驟行銷活動建置到視覺畫布中，以設計跨管道流程，例如細分、行銷活動執行、檔案處理。
 

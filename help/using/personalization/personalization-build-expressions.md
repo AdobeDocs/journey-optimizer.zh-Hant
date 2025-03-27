@@ -13,7 +13,7 @@ exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 4240f64cd7b6473f589d2324a2ebf87e2c60d394
 workflow-type: tm+mt
 source-wordcount: '1406'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -97,7 +97,7 @@ Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。  個人化 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor_autocomplete"
 >title="自動完成"
->abstract="切換此選項可讓系統在您輸入時自動建議並完成程式碼。 此功能僅適用於HTML和文字格式，並支援「設定檔」和「內容」屬性。 如果透過切換功能停用，編輯器將提供原生HTML程式碼自動完成。"
+>abstract="啟用此選項後，可允許系統在您輸入時自動建議並完成程式碼。此功能僅適用於 HTML 和文字格式，並支援設定檔和內容屬性。如果透過切換進行停用，編輯器將提供原生 HTML 程式碼自動完成。"
 
 中央工作區是您建置個人化語法的位置。 若要使用屬性來個人化您的訊息，請在導覽窗格中找出該屬性，然後按一下`+`按鈕，將該屬性加入運算式中。
 
@@ -121,7 +121,7 @@ Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。  個人化 
 
 1. **[!UICONTROL 尋找]** / **[!UICONTROL 尋找並取代]**：搜尋您的運算式並自動取代部分程式碼。
 1. **[!UICONTROL 還原]** / **[!UICONTROL 重做]**：還原/重做上一個操作。
-1. **[!UICONTROL 自動完成]**：在您輸入時自動建議並完成程式碼。 此功能僅適用於HTML和文字格式，並支援「設定檔」和「內容」屬性。 如果透過切換功能停用，編輯器將提供原生HTML程式碼自動完成。
+1. **[!UICONTROL 自動完成]**：在您輸入時自動建議並完成程式碼。 此功能僅適用於 HTML 和文字格式，並支援設定檔和內容屬性。如果透過切換進行停用，編輯器將提供原生 HTML 程式碼自動完成。
 
    ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"}
 

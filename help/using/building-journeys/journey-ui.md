@@ -12,7 +12,7 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
->title="歷程表格和時間表檢視"
->abstract="歷程表格和時間表檢視"
+>title="歷程表和時間軸視圖"
+>abstract="歷程表和時間軸視圖"
 
 在「歷程管理」功能表區段中，按一下&#x200B;**[!UICONTROL 歷程]**。 有兩個索引標籤可供使用： **[!UICONTROL 概觀]**&#x200B;和&#x200B;**[!UICONTROL 瀏覽]**。
 

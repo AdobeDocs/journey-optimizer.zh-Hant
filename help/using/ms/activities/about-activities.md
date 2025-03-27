@@ -5,15 +5,15 @@ title: 使用多步驟行銷活動
 description: 瞭解如何多步驟行銷活動活動
 hide: true
 hidefromtoc: true
-source-git-commit: 658d82820d3f307481c44a142c38727f777fd879
+exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 23%
+ht-degree: 27%
 
 ---
 
-
-# 關於多步驟行銷活動活動 {#ms-campaign-activities}
+# 關於多步驟行銷活動 {#ms-campaign-activities}
 
 多步驟行銷活動會分組為三個類別。 可用的活動可能會依據內容而有所不同。
 
@@ -54,7 +54,7 @@ Adobe Journey Optimizer可讓您跨多個管道自動執行行銷活動。 您�
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="結束活動"
->abstract="**End**&#x200B;活動可讓您以圖形方式標示多步驟行銷活動的結尾。 此活動並不會造成任何功能性影響，因此為選用。"
+>abstract="「**結束**」活動可讓您以圖形方式標記多步驟行銷活動的結束。此活動並不會造成功能性影響，因此為選用。"
 
 以下活動專用於組織和執行多步驟行銷活動。 這些活動的主要任務是協調其他活動：
 

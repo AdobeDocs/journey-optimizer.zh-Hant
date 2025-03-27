@@ -5,10 +5,11 @@ title: 使用儲存對象活動
 description: 瞭解如何在多步驟行銷活動中使用分叉活動
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 84e34d21-dca1-4203-8539-f2b20e461936
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 10%
+ht-degree: 15%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"
 >title="儲存一個對象"
->abstract="使用此活動來更新現有的對象，或是從多步驟行銷活動中的母體運算上游建立新的對象。 建立的對象將新增至對象清單中，並可透過「**對象**」選單使用。"
+>abstract="使用此活動來更新現有客群，或是從多步驟行銷活動中的族群運算上游建立新客群。建立的對象將新增至對象清單中，並可透過「**對象**」選單使用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_saveaudience_outbound"

@@ -5,10 +5,11 @@ title: 使用分割活動
 description: 瞭解如何在多步驟行銷活動中使用分割活動
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 76%
+ht-degree: 79%
 
 ---
 
@@ -26,7 +27,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="分割活動的區段"
->abstract="依需求新增任意數量的子集，將傳入的群體進行細分。<br/></br>執行&#x200B;**分割** 活動時，系統會依照子集新增至活動的順序，將群體細分成不同的子集。在開始多步驟行銷活動之前，請使用箭頭按鈕，確保已依適合您需求的順序排序子集。"
+>abstract="依需求新增任意數量的子集，將傳入的群體進行細分。<br/></br>執行&#x200B;**分割** 活動時，系統會依照子集新增至活動的順序，將群體細分成不同的子集。在開始多步驟行銷活動之前，請確保已使用箭頭按鈕按照符合您需求的順序排列子集。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"

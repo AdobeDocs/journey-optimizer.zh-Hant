@@ -5,10 +5,11 @@ title: 使用擴充活動
 description: 瞭解如何使用擴充活動
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '2049'
-ht-degree: 30%
+ht-degree: 37%
 
 ---
 
@@ -49,12 +50,12 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
 >title="擴充資料"
->abstract="選取要用來擴充多步驟行銷活動的資料。 您可以選取兩種類型的擴充資料：目標市場選擇維度中的單一擴充屬性，或集合連結 (即表格之間具有 1-N 基數的連結)。"
+>abstract="選取要用於擴充多步驟行銷活動的資料。您可以選取兩種類型的擴充資料：目標維度中的單一擴充屬性，或集合連結 (即表格之間具有 1-N 基數的連結)。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
 >title="擴充活動"
->abstract="將擴充資料新增至多步驟行銷活動後，就可在擴充活動後新增的活動中使用，以根據客戶行為、偏好和需求將客戶劃分為不同的群組，或建立更可能引起目標對象共鳴的個人化行銷訊息和行銷活動。"
+>abstract="將擴充資料新增至多步驟行銷活動後，可用於在擴充活動之後新增的活動中，根據客戶的行為、偏好和需求將客戶細分成不同群組，或是用於建立最有可能讓目標客群產生共鳴的個人化行銷訊息和行銷活動。"
 
 1. 按一下&#x200B;**新增擴充資料**，並選取要用來擴充資料的屬性。
 
@@ -73,7 +74,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_simplejoin"
 >title="連結定義"
->abstract="在工作表格資料與Adobe Journey Optimizer之間建立連結。 例如，如果您從包含收件者的帳號、國家/地區和電子郵件的檔案載入資料，您必須建立指向國家/地區表的連結，才能更新其設定檔中的此資訊。"
+>abstract="在工作表資料和 Adobe Journey Optimizer 資料庫之間建立連結。例如，如果您從包含收件者的帳號、國家/地區和電子郵件的檔案載入資料，您必須建立指向國家/地區表的連結，才能更新其設定檔中的此資訊。"
 
 **[!UICONTROL 連結定義]**&#x200B;區段可讓您在工作表格資料與Adobe Journey Optimizer之間建立連結。 例如，如果您從包含收件者的帳號、國家/地區和電子郵件的檔案載入資料，您必須建立指向國家/地區表的連結，才能更新其設定檔中的此資訊。
 
@@ -108,9 +109,9 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_reconciliation"
 >title="調和"
->abstract="**擴充**&#x200B;活動可用來調解來自Journey Optimizer結構描述的資料與其他結構描述的資料，或是來自暫時結構描述的資料，例如使用載入檔案活動上傳的資料。 這種類型的連結定義對唯一記錄的調和。Journey Optimizer會在目標表格中新增外部索引鍵，以儲存唯一記錄的參考，藉此建立指向目標表格的連結。"
+>abstract="您可使用「**擴充**」活動將 Journey Optimizer 結構描述中的資料與其他結構描述中的資料，或來自臨時結構描述的資料 (例如使用「載入」檔案活動上傳的資料) 用於調和資料。此類型的連結定義對唯一記錄的調和。Journey Optimizer 透過在其中新增外來金鑰以建立目標表格的連結，來儲存對唯一記錄的參考。"
 
-您可使用「**擴充**」活動將 Campaign 資料庫結構描述中的資料與其他結構描述中的資料，或來自臨時結構描述的資料 (例如使用「載入」檔案活動上傳的資料) 進行調和。這種類型的連結定義對唯一記錄的調和。Journey Optimizer會在目標表格中新增外部索引鍵，以儲存唯一記錄的參考，藉此建立指向目標表格的連結。
+您可使用「**擴充**」活動將 Campaign 資料庫結構描述中的資料與其他結構描述中的資料，或來自臨時結構描述的資料 (例如使用「載入」檔案活動上傳的資料) 進行調和。此類型的連結定義對唯一記錄的調和。Journey Optimizer 透過在其中新增外來金鑰以建立目標表格的連結，來儲存對唯一記錄的參考。
 
 例如，您可以使用此選項將上傳檔案中指定的輪廓所在國家/地區與 Campaign 資料庫專用表中可用的國家/地區之一進行調和。
 
@@ -268,4 +269,3 @@ ht-degree: 30%
 * 已新增第二個&#x200B;**擴充**&#x200B;活動，以使用來自&#x200B;**載入檔案**&#x200B;活動的購買資料，擴充來自多步驟行銷活動表格的資料。 這可讓我們在後續活動中使用這些資料，例如，個人化傳送給客戶的訊息，其中包含客戶購買的相關資訊。
 
   ![](../assets/enrichment-uc-link-data.png)
-

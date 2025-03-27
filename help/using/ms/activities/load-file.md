@@ -5,10 +5,11 @@ title: 使用載入檔案活動
 description: 瞭解如何在多步驟行銷活動中使用載入檔案活動
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: ae0dc980-2361-4c3b-a68e-ae0bb5dc0a26
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '1178'
-ht-degree: 38%
+ht-degree: 41%
 
 ---
 
@@ -105,7 +106,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_loadfile_targetdb"
 >title="目標資料庫"
->abstract="如果您正在存取已設定的&#x200B;**[!UICONTROL 載入檔案]**&#x200B;活動，如果您已將活動設定為上傳檔案至外部資料庫，則可以使用額外的&#x200B;**[!UICONTROL 目標資料庫]**&#x200B;區段。"
+>abstract="如果您正在存取已設定的「**[!UICONTROL 載入檔案]**」活動，則在您已設定將檔案上傳至外部資料庫的活動時，有其他「**[!UICONTROL 目標資料庫]**」區段可用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_loadfile_command"

@@ -5,10 +5,11 @@ title: 使用排程器活動
 description: 瞭解如何在多步驟行銷活動中使用排程器活動
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: da77a0bf-7b17-40fc-b2cb-2f0940152e64
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '547'
-ht-degree: 20%
+ht-degree: 27%
 
 ---
 
@@ -18,10 +19,10 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="排程器活動"
->abstract="**排程器**&#x200B;活動可讓您在多步驟行銷活動開始時進行排程。 此活動應視為已排程的開始。它只能作為多步驟行銷活動的第一個活動。"
+>abstract="「**排程器**」活動可讓您安排多步驟行銷活動何時開始。此活動應視為已排程的開始。其僅可做為多步驟行銷活動的第一個活動。"
 
 
-**排程器**&#x200B;活動是&#x200B;**流程控制**&#x200B;活動。 它可讓您排程多步驟行銷活動何時開始。 此活動應視為已排程的開始。它只能作為多步驟行銷活動的第一個活動。
+**排程器**&#x200B;活動是&#x200B;**流程控制**&#x200B;活動。 它可讓您排程多步驟行銷活動何時開始。 此活動應視為已排程的開始。其僅可做為多步驟行銷活動的第一個活動。
 
 ## 最佳作法{#scheduler-best-practices}
 

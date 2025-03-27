@@ -5,10 +5,11 @@ title: 使用AND — 聯結活動
 description: 瞭解如何在多步驟行銷活動中使用AND聯結活動
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 65%
+ht-degree: 77%
 
 ---
 
@@ -17,13 +18,13 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="AND-join 活動"
->abstract="**並加入**&#x200B;活動可讓您同步多步驟行銷活動的多個執行分支。 一旦所有前面的活動完成，就會觸發此活動。這可讓您在繼續執行多步驟行銷活動之前，確定特定活動已完成。"
+>abstract="「**合併連結**」活動可讓您同步處理多步驟行銷活動的多個執行分支。一旦所有前面的活動皆已完成，即觸發此活動。這可讓您在確保特定活動已完成後，再繼續多步驟行銷活動。"
 
 「**合併連結**」活動是一種&#x200B;**流程控制**&#x200B;活動。它可讓您同步多步驟行銷活動的多個執行分支。
 
 此活動只會在所有傳入轉變啟動後，才會觸發其傳出轉變，換句話說，會在所有之前的活動完成後觸發。這可讓您在繼續執行多步驟行銷活動之前，確定特定活動已完成。
 
-## 設定 And-join 活動{#and-join-configuration}
+## 設定合併連結活動{#and-join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join_merging"

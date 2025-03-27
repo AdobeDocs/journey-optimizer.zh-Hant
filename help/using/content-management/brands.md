@@ -11,7 +11,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 38%
+ht-degree: 42%
 
 ---
 
@@ -44,23 +44,23 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_fonts"
->title="字型分數"
->abstract="字型分數"
+>title="字體分數"
+>abstract="字體分數"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_logos"
->title="Logos分數"
->abstract="Logos分數"
+>title="標誌分數"
+>abstract="標誌分數"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_imagery"
->title="影像分數"
->abstract="影像分數"
+>title="影像層分數"
+>abstract="影像層分數"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
->title="寫入樣式分數"
->abstract="寫入樣式分數"
+>title="寫作風格分數"
+>abstract="寫作風格分數"
 
 >[!AVAILABILITY]
 >

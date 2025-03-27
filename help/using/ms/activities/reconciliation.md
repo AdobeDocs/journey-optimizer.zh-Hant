@@ -5,10 +5,11 @@ title: 使用調解活動
 description: 瞭解如何在多步驟行銷活動中使用調解活動
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 36%
+ht-degree: 39%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation"
 >title="調和活動"
->abstract="**調解**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動，可讓您定義Adobe Journey Optimizer與工作表中資料之間的連結。"
+>abstract="「**調和**」活動是&#x200B;**目標定位**&#x200B;活動，可讓您定義 Adobe Journey Optimizer 和工作表資料之間的連結。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_field"
@@ -121,4 +122,3 @@ ht-degree: 36%
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 
 * [儲存對象](save-audience.md)活動，以根據這些更新建立新的對象。 如果您不需要建立或更新特定對象，您也可以以&#x200B;**結束**&#x200B;活動取代&#x200B;**儲存對象**&#x200B;活動。 收件者設定檔會在您執行多步驟行銷活動時更新。
-
