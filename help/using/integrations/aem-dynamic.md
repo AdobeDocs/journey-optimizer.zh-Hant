@@ -6,14 +6,12 @@ description: 搭配Journey Optimizer使用Dynamic Media
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
-badge: label="Beta" type="Informative"
+badge: label="可用性限制" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 62d8da17a806713b1e77d8e7e494106dbb825c8b
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 1%
+source-wordcount: '777'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +19,11 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->這項整合僅適用於使用Dynamic Media Manager as a Cloud Service的客戶。
+>此整合僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。
 
 「資產」選擇器現在支援Dynamic Media，讓您在Journey Optimizer中順暢地選取並使用核准的Dynamic Media轉譯。 對Adobe Experience Manager中的資產所做的變更會立即反映在您的Journey Optimizer內容中，以確保最新版本始終在使用中，而不需要手動更新。
+
+請注意，這項整合僅適用於使用Dynamic Media Manager as a Cloud Service的客戶。
 
 若要深入瞭解Adobe Experience Manager as a Cloud Service中的Dynamic Media，請參閱[Experience Manager檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}。
 

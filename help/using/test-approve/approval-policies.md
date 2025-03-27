@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '525'
 ht-degree: 13%
 
 ---
@@ -109,6 +109,14 @@ ht-degree: 13%
     </tr>
     <tr>
     <td>內容卡</td>
+    </tr>
+    <tr>
+    <td>標記</td>
+    <td>用來組織對象的標籤名稱。 </td>
+    </tr>
+    <tr>
+    <td>物件名稱</td>
+    <td>物件的名稱。</td>
     </tr>
     <tr>
     <td>請求者使用者名稱</td>

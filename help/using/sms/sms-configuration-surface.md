@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線`_`、點`.`和連字型大小`-`字元。
+   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線 `_`、點 `.` 和連字號 `-` 字元。
 
 1. 定義&#x200B;**簡訊設定**。
 
@@ -51,7 +51,7 @@ ht-degree: 10%
 
    >[!CAUTION]
    >
-   >**異動**&#x200B;訊息可傳送給取消訂閱行銷通訊的設定檔。 這些訊息只能在特定內容中傳送。
+   >**異動**&#x200B;訊息可傳送給取消訂閱行銷通訊的設定檔。 這些訊息只能在特定情境中傳送。
 
 1. 選取&#x200B;**[!UICONTROL SMS設定]**&#x200B;以與設定關聯。
 
@@ -75,7 +75,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >如果檢查不成功，請在[本節](#monitor-channel-surfaces)中進一步瞭解可能的失敗原因。
+   >如果檢查不成功，請在[本節](../configuration/channel-surfaces.md)中進一步瞭解可能的失敗原因。
 
 1. 檢查成功後，通道設定會取得&#x200B;**[!UICONTROL 作用中]**&#x200B;狀態。 已準備好用於傳遞訊息。
 

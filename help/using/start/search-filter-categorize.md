@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: cbd121dda4093fdea6f6bded02e8ae3e188e827d
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 99%
 
 ---
 
@@ -69,6 +69,7 @@ ht-degree: 100%
 * [登陸頁面](../landing-pages/create-lp.md)
 * [訂閱清單](../landing-pages/subscription-list.md)
 * [範本](../content-management/content-templates.md)
+* [頻道設定](../configuration/channel-surfaces.md#channel-config-tags)
 
 您可選取現有標籤或建立新標籤。若要執行此操作，請遵循下列步驟。
 

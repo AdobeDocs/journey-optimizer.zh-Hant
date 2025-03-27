@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 43cf43c6ba92d64836222ce872054b5dec6d11fe
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '2259'
+source-wordcount: '2298'
 ht-degree: 18%
 
 ---
@@ -243,16 +243,19 @@ ht-degree: 18%
 
 ## 合併原則 {#merge-policies}
 
-Journey在從Adobe Experience Platform擷取設定檔資料時使用合併原則。 根據歷程型別，會使用不同的合併原則：
+從Adobe Experience Platform擷取設定檔資料時，Adobe Journey Optimizer會使用合併原則。 根據歷程型別，會使用不同的合併原則：
 
 * 在讀取對象或對象資格歷程中：使用來自對象的合併原則
 * 在單一事件歷程中：使用預設合併原則
 * 在業務事件歷程中：使用以下讀取對象活動中來自目標對象的合併原則
 
-歷程將遵循在整個歷程中使用的合併原則。 因此，如果歷程中使用多個對象（例如：「inAudience」函式中），導致歷程使用的合併原則不一致，則會引發錯誤並封鎖發佈。 不過，如果在訊息個人化中使用不一致的對象，則儘管不一致，仍不會引發警報。 因此，強烈建議您在訊息個人化使用此對象時，檢查與對象相關聯的合併原則。
+Adobe Journey Optimizer會套用在整個歷程中使用的合併原則。 因此，如果歷程中使用多個對象（例如：「inAudience」函式中），導致歷程使用的合併原則不一致，則會引發錯誤並封鎖發佈。 不過，如果在訊息個人化中使用不一致的對象，則儘管不一致，仍不會引發警報。 因此，強烈建議您在訊息個人化使用此對象時，檢查與對象相關聯的合併原則。
 
 若要深入瞭解合併原則，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}。
 
+>[!NOTE]
+>
+>更新對象合併原則時，必須重新發佈（或複製）任何參照該對象的作用中歷程。 變更合併原則會有效建立「新」對象，而現有歷程無法存取該對象，以確保資料一致性。
 
 ## 退出條件 {#exit-criteria}
 

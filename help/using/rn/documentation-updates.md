@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 65aed24e1df7bf2cfa2d8afbddbadb14a353da38
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 84%
+source-wordcount: '916'
+ht-degree: 83%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 84%
 * 有關在電子郵件訊息中插入連結及啟用追蹤的區段已更新並重新組織。 [閱讀全文](../email/message-tracking.md)
 * Adobe Journey Optimizer中個人化功能的相關區段已重新整理並改良。 [閱讀全文](../personalization/personalize.md)
 * 用於列出個人化優惠的決定管理API已更新，如果回應中缺少多個個人化優惠，則使用範例來執行分頁。 [閱讀全文](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
-
+* 已建立新頁面，以收集有關「清單取消訂閱」功能的所有資訊，從而提高清晰度。 [閱讀全文](../email/list-unsubscribe.md)
 
 
 ## 2025 年 2 月 {#feb-2025}

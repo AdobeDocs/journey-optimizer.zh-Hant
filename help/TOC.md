@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac9c3687100da33149e6d237b35ffbf6d22afac3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '2279'
-ht-degree: 99%
+source-wordcount: '2314'
+ht-degree: 97%
 
 ---
 
@@ -45,6 +45,7 @@ ht-degree: 99%
    + 建立歷程{#create-journey}
       + [建立您的第一個歷程](using/building-journeys/journey-gs.md)
       + [設定您的歷程屬性](using/building-journeys/journey-properties.md)
+      + [設定及追蹤您的歷程量度](using/building-journeys/success-metrics.md)
       + [設計您的歷程](using/building-journeys/using-the-journey-designer.md)
       + [測試您的歷程](using/building-journeys/testing-the-journey.md)
       + [模擬您的歷程](using/building-journeys/journey-simulation.md)
@@ -324,6 +325,11 @@ ht-degree: 99%
          + [在 Web SDK 中設定內容卡支援](using/content-card/content-card-configuration-sdk.md)
       + [建立內容卡](using/content-card/create-content-card.md)
       + [設計內容卡](using/content-card/design-content-card.md)
+   + WhatsApp{#whatsapp}
+      + [開始使用WhatsApp訊息](using/whatsapp/get-started-whatsapp.md)
+      + [在Journey Optimizer中設定WhatsApp頻道](using/whatsapp/whatsapp-configuration.md)
+      + [建立WhatsApp訊息](using/whatsapp/create-whatsapp.md)
+      + [檢查並傳送您的WhatsApp訊息](using/whatsapp/send-whatsapp.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
    + [建立登陸頁面](using/landing-pages/create-lp.md)
@@ -419,9 +425,11 @@ ht-degree: 99%
    + [與其他解決方案整合](using/integrations/ajo-integrations.md)
    + [使用 Experience Manager Assets](using/integrations/assets.md)
    + [使用 Adobe Stock](using/integrations/stock.md)
+   + [使用Adobe Express](using/integrations/express.md)
    + [使用 Experience Manager 模板工作](using/integrations/aem-templates.md)
    + [使用Experience Manager內容片段](using/integrations/aem-fragments.md)
    + [使用 Dynamic Media 工作](using/integrations/aem-dynamic.md)
+   + [使用GenStudio](using/integrations/genstudio.md)
 + 追蹤與監視 {#reporting}
    + 即時報告 {#live-report}
       + [開始使用即時報告](using/reports/live-report.md)

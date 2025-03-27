@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1800'
 ht-degree: 13%
 
 ---
@@ -271,6 +271,19 @@ ht-degree: 13%
 
 ![](assets/preset-activate.png)
 
+## 將標籤新增至管道設定 {#channel-config-tags}
+
+1. 存取通道設定清單。
+
+1. 針對您選擇的使用中組態，按一下&#x200B;**[!UICONTROL 其他動作]**&#x200B;按鈕。
+
+1. 按一下&#x200B;**[!UICONTROL 編輯標籤]**。
+
+1. 從清單中選取Adobe Experience Platform標籤，將您的頻道設定分類以改善搜尋。 [瞭解如何使用統一標籤](../start/search-filter-categorize.md#tags)
+
+   ![](assets/config-edit-tags.png)
+
+1. 將標籤指派給您的管道設定後，您可以[在標籤上篩選](../start/search-filter-categorize.md#filter-on-tags)。
 
 ## 作法影片{#video-presets}
 

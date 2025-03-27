@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子網域, 網域, 郵件, dmarc, 記錄
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 12%
+source-wordcount: '1482'
+ht-degree: 11%
 
 ---
 
@@ -94,17 +94,21 @@ SPF和DKIM都可用來關聯電子郵件與網域，並共同驗證電子郵件�
 
 1. 選取沒有DMARC記錄關聯的子網域，並根據您組織的需求填寫&#x200B;**[!UICONTROL DMARC記錄]**&#x200B;區段。 在[本節](#implement-dmarc)中詳細說明填入DMARC記錄欄位的步驟。
 
-1. 請考量下列兩個選項：
+   <!--![](assets/dmarc-record-edit-full.png)-->
 
-   * 如果您正在編輯以[CNAME](delegate-subdomain.md#cname-subdomain-delegation)設定的子網域，您必須將DMARC的DNS記錄複製到您的代管解決方案中，以產生相符的DNS記錄。
+   >[!NOTE]
+   >
+   >根據是否在父項網域中找到DMARC記錄，您可以選擇使用父項網域的值，或讓Adobe管理DMARC記錄。 [了解更多](#implement-dmarc)
+
+1. 如果您正在編輯子網域：
+
+   * [已完全委派](delegate-subdomain.md#full-subdomain-delegation)給Adobe，不需要進一步的動作。
+
+   * 使用[CNAME](delegate-subdomain.md#cname-subdomain-delegation)進行設定，您必須將DMARC的DNS記錄複製到您的代管解決方案中，以產生相符的DNS記錄。
 
      ![](assets/dmarc-record-edit-cname.png)
 
      請確定DNS記錄已產生至您的網域託管解決方案，並勾選「我確認……」方塊。
-
-   * 如果您正在編輯已完全委派給Adobe的子網域[](delegate-subdomain.md#full-subdomain-delegation)，只需填入[本節](#implement-dmarc)中詳細說明的&#x200B;**[!UICONTROL DMARC記錄]**&#x200B;欄位。 不需要進一步動作。
-
-     ![](assets/dmarc-record-edit-full.png)
 
 1. 儲存您的變更。
 
@@ -122,13 +126,33 @@ SPF和DKIM都可用來關聯電子郵件與網域，並共同驗證電子郵件�
 
 1. 移至&#x200B;**[!UICONTROL DMARC記錄]**&#x200B;區段。
 
-   如果子網域有現有的DMARC記錄，而且已由[!DNL Journey Optimizer]擷取，則您可以使用介面中反白顯示的相同值，或視需要加以變更。
+1. 如果在與子網域相關聯的父網域上有DMARC記錄可用，便會顯示兩個選項：
 
    ![](assets/dmarc-record-found.png)
 
-   >[!NOTE]
-   >
-   >如果您未新增任何值，則會使用預先填入的預設值。
+   * **[!UICONTROL 使用Adobe管理]**：您可以讓Adobe管理子網域的DMARC記錄。 請依照[本節](#manage-dmarc-with-adobe)中詳述的步驟操作。
+
+   * **[!UICONTROL 自行管理]**： <!--This option is selected by default.-->此選項可讓您使用父網域的值，在[!DNL Journey Optimizer]之外管理DMARC記錄。 這些值會顯示在介面中，但您無法加以編輯。
+
+     ![](assets/dmarc-record-found-own.png){width="80%"}
+
+1. 如果在父網域上找不到DMARC記錄，則只有&#x200B;**[!UICONTROL 使用Adobe管理]**&#x200B;選項可用。 請依照下列[步驟](#manage-dmarc-with-adobe)為您的子網域設定DMARC記錄。
+
+   ![](assets/dmarc-record-not-found.png){width="80%"}
+
+### 使用Adobe管理DMARC記錄 {#manage-dmarc-with-adobe}
+
+若要讓Adobe為您管理DMARC記錄，請選取&#x200B;**[!UICONTROL 使用Adobe管理]**&#x200B;選項，然後遵循下列步驟。
+
+>[!NOTE]
+>
+>如果[!DNL Journey Optimizer]擷取，您可以使用介面中反白顯示的相同值，或視需要加以變更。
+
+![](assets/dmarc-record-with-adobe-ex.png){width="80%"}
+
+>[!NOTE]
+>
+>如果您未新增任何值，則會使用預先填入的預設值。
 
 1. 定義當DMARC失敗時，收件者伺服器將執行的動作。 根據您要套用的[DMARC原則](#dmarc-policies)，選取下列三個選項之一：
 
@@ -167,12 +191,11 @@ SPF和DKIM都可用來關聯電子郵件與網域，並共同驗證電子郵件�
 
 1. 選取24到168小時之間的&#x200B;**報告間隔**。 它可讓網域擁有者定期接收電子郵件驗證結果的更新，並採取必要動作來改善電子郵件安全性。
 
-   <!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
+<!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
 
-    The default value (24 hours) is generally the email providers' expectation.-->
+The default value (24 hours) is generally the email providers' expectation.
 
-
-<!--
+**********
 
 Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.
 

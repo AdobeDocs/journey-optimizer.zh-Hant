@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 垂直對齊，電子郵件編輯器，邊框間距
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 14%
+source-wordcount: '199'
+ht-degree: 12%
 
 ---
 
@@ -41,3 +41,7 @@ ht-degree: 14%
 1. 以類似的方式調整其他欄的對齊方式和邊框間距。
 
 1. 儲存您的變更。
+
+>[!TIP]
+>
+>在Android裝置上為Gmail設計電子郵件內容時，請確定影像和分隔符號使用欄邊距，而非大型的固定邊界。 Android上的Gmail經常會不正確地呈現過大的影像和邊界，造成版面溢位或分隔線減少。 使用較小的影像寬度或仰賴欄式邊框間距來維持顯示的一致性。

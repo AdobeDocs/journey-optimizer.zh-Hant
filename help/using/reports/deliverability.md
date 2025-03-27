@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 0eeb9f6aa6276b99a4d38efc2d371ebdb58c141d
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 8%
+source-wordcount: '1138'
+ht-degree: 7%
 
 ---
 
@@ -106,7 +106,7 @@ Adobe Journey Optimizer 提供標準化和有效率的方式，讓您的 IP 位�
 
 回饋迴路(FBL)是部分ISP提供的服務，當收到電子郵件的使用者選擇將其標示為垃圾郵件（也稱為「投訴」）時，可自動通知電子郵件寄件者。
 
-一般使用者提出由ISP傳回Adobe的投訴後，電子郵件地址會自動新增到[隱藏清單](../reports/suppression-list.md)並從未來的傳遞中排除。 事實上，傳送電子郵件給標籤為垃圾訊息的使用者會對寄件者信譽產生負面影響，並可能導致傳遞問題。 [進一步瞭解垃圾訊息申訴](../reports/suppression-list.md#spam-complaints)
+一般使用者提出由ISP傳回Adobe的投訴後，電子郵件地址會自動新增至[隱藏清單](../reports/suppression-list.md)並從未來的傳遞中排除。 事實上，傳送電子郵件給標籤為垃圾訊息的使用者會對寄件者信譽產生負面影響，並可能導致傳遞問題。 [進一步瞭解垃圾訊息申訴](../reports/suppression-list.md#spam-complaints)
 
 >[!IMPORTANT]
 >
@@ -171,3 +171,13 @@ Adobe Journey Optimizer 提供標準化和有效率的方式，讓您的 IP 位�
 * Ziggo
 
 Adobe會定期稽核這些FBL，以確保新增最新的可用FBL。
+
+## 使用SMTP轉送 {#smtp-relay}
+
+[!DNL Journey Optimizer]使用Adobe擁有的郵件傳輸代理程式(MTA)和IP，將您的電子郵件傳送給網際網路服務提供者(ISP)。 但是，在某些情況下，您可能會想要透過自己的MTA和IP來路由傳送最終電子郵件，或者在傳送電子郵件給收件者之前，對電子郵件執行最終驗證。
+
+在這種情況下，您可以選擇將電子郵件中繼至您的組織託管的SMTP伺服器，而非直接從Journey Optimizer傳送至ISP。
+
+>[!AVAILABILITY]
+>
+>SMTP轉送容量可依需求提供 — 請聯絡您的Adobe代表。

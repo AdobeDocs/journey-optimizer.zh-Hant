@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 1ff33c3da5236cb4a89a893f83476867a2ecddd3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 52%
@@ -110,9 +110,9 @@ ht-degree: 52%
 
 >[!IMPORTANT]
 >
->受眾構成中的受眾和屬性目前無法用於Healthcare Shield或Privacy and Security Shield。
+>* 受眾構成中的受眾和屬性目前無法用於Healthcare Shield或Privacy and Security Shield。
 >
->擴充屬性尚未與原則執行服務整合。 因此，您套用至擴充屬性的任何資料使用標籤，都不會在Journey Optimizer行銷活動或歷程中強制執行。
+>* 擴充屬性尚未與原則執行服務整合。 因此，您套用至擴充屬性的任何資料使用標籤，都不會在Journey Optimizer行銷活動或歷程中強制執行。
 
 可從 Adobe Journey Optimizer **[!UICONTROL 客群]**&#x200B;選單存取客群構成：
 
