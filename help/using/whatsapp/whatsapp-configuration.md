@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 設定WhatsApp頻道
 description: 瞭解如何設定您的環境，以使用Journey Optimizer傳送WhatsApp訊息
-feature: WhatsApp, Channel Configuration
+feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 4%
