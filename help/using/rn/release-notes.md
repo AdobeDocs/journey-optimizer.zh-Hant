@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e29586f24f6ef84869a277ae6121d83f962405f7
+source-git-commit: 20d41af0829946300cffb5ff8585923b99a12a4b
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1336'
 ht-degree: 64%
 
 ---
@@ -166,6 +166,8 @@ ht-degree: 64%
 **核准**
 
 定義核准原則的條件時，您現在可以選擇依標籤和/或物件類別篩選。
+
+如需詳細資訊，請參閱[詳細文件](../test-approve/approval-policies.md)。
 
 **設定**
 
