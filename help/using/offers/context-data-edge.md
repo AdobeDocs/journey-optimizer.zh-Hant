@@ -1,27 +1,27 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: 內容資料與Edge Decisioning請求
+title: 內容資料與邊緣決策請求
 description: 瞭解如何在Edge Decisioning請求中傳遞內容資料。
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-
-# 內容資料與Edge Decisioning請求 {#edge}
+# 內容資料與邊緣決策請求 {#edge}
 
 本節將引導您在Edge Decisioning請求中傳遞內容資料，並在適用性規則中使用這些資料。 我們將探索端對端使用案例，以示範如何根據客戶使用的裝置型別提供個人化優惠方案。
 
 此使用案例涉及幾個關鍵步驟：
 
 1. [設定先決條件](#prerequisites)：確定已完成所有必要步驟，以便在您的請求中傳遞內容資料。
-1. [在適用性規則中使用內容資料](#rule)：建立根據使用者的裝置型別決定要顯示哪些優惠方案的規則。
+1. [在適用性規則中使用內容資料](#rules)：建立根據使用者的裝置型別決定要顯示哪些優惠方案的規則。
 1. [設計裝置特定優惠方案](#offers)：為每個裝置型別建立量身打造的優惠方案，並將其連結至對應的規則。
 1. [建立優惠方案集合](#collection)：將所有優惠方案群組為一個靜態集合。
 1. [設定決定](#decision) ：建立新決定，利用優惠決定引擎根據使用者的裝置型別，挑選要呈現給使用者的最佳優惠。
@@ -149,33 +149,33 @@ ht-degree: 0%
 
 ```
 {
-	"events": [{
-		"xdm": {
-			"identityMap": {
-				"customerId": [{
-					"id": "0000158216",
-					"authenticatedState": "authenticated",
-					"primary": true
-				}]
-			},
-			"_experienceplatform": {
-				"identity": {
-					"core": {
-						"customerId": "0000158216"
-					}
-				},
+    "events": [{
+        "xdm": {
+            "identityMap": {
+                "customerId": [{
+                    "id": "0000158216",
+                    "authenticatedState": "authenticated",
+                    "primary": true
+                }]
+            },
+            "_experienceplatform": {
+                "identity": {
+                    "core": {
+                        "customerId": "0000158216"
+                    }
+                },
                 "offerContextData" : {
                     "language" : "NL",
                     "deviceType" : "iphone"
                 }
-			}
-		}
-	}],
-	"query": {
-		"personalization": {
-			"decisionScopes": ["eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE3M2I1MGM5Mjg0ZGQ4NzkiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTZhMzQxZWQ4ZDYyMzc2MSJ9"]
-		}
-	}
+            }
+        }
+    }],
+    "query": {
+        "personalization": {
+            "decisionScopes": ["eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE3M2I1MGM5Mjg0ZGQ4NzkiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTZhMzQxZWQ4ZDYyMzc2MSJ9"]
+        }
+    }
 }
 ```
 

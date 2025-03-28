@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
-source-wordcount: '2636'
-ht-degree: 16%
+source-wordcount: '2719'
+ht-degree: 15%
 
 ---
 
@@ -223,7 +223,7 @@ ht-degree: 16%
 
 * 選取總計&#x200B;**[!UICONTROL 個]**&#x200B;以定義可在合併的目標對象中建議多少次選件，亦即在所有使用者中建議。
 
-  例如，如果您是具有「電視看門人交易」的電子零售商，您只想要在所有設定檔中傳回200次選件。
+  例如，如果您是具有「TV doorbuster deal」的電子產品retailer，您只想讓所有設定檔傳回200次選件。
 
 * 選取&#x200B;**[!UICONTROL 每個設定檔]**&#x200B;以定義可向同一個使用者建議某個優惠方案的次數。
 
@@ -258,9 +258,9 @@ ht-degree: 16%
 >
 >發佈優惠方案後，您將無法變更您為頻率選取的時間期間（每月、每週或每日）。 如果優惠方案具有&#x200B;**[!UICONTROL 草稿]**&#x200B;狀態，而且之前從未發佈並啟用頻率限定，您仍可編輯頻率限定。
 
-+++ **必讀：頻率上限與Edge Decisioning API**
++++ **必讀：頻率上限與決定管理API**
 
-不到3秒內，Edge Decisioning API決策中的頻率限定計數器即已更新並可用。
+頻率上限計數器已更新，並且可在3秒內於[Edge Decisioning API](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#edge)決定中使用。
 
 每個中心區域都與一個或多個邊緣區域相關聯。 頻率限定規則會從每個中心區域產生並匯出至其關聯的邊緣區域。 每當使用Edge Decisioning API做出決定時，系統都會強制實施相同邊緣區域中可用的規則：
 
@@ -269,7 +269,17 @@ ht-degree: 16%
 
 例如，假設您組織的中心區域為&#x200B;*NLD2*，而您正傳送來自歐洲（*IRL1*&#x200B;邊緣區域）的決策請求。 在此案例中，決策請求將遞增設定檔的計數器，因為規則可在（愛爾蘭） *IRL1*&#x200B;區域中使用。 但是，如果決策請求來自日本(*JPN3*)這樣的區域，該區域不是繫結至（荷蘭） *NLD2*&#x200B;中樞區域的邊緣區域，則不會建立任何計數器，也不會強制執行頻率上限規則。
 
+>[!NOTE]
+>
+>當計數器從邊緣傳播到集線器或從集線器傳播到邊緣區域時，可能會延遲幾分鐘。
+
 如需瞭解哪些中心與邊緣區域與貴組織建立關聯，請洽詢您的Adobe代表。
+
+若使用其他API，頻率上限計數器會更新如下：
+
+* 在[決策API](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#decisioning)決定中，視流量而定，頻率上限計數器可能會延遲幾分鐘而更新。
+
+* 在[批次決定API](../api-reference/offer-delivery-api/batch-decisioning-api.md)決定中，會使用快照，其中頻率上限計數器保持固定。 只要使用相同的快照，計數器就會維持不變。
 
 +++
 

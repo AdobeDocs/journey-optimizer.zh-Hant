@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 21%
+source-wordcount: '733'
+ht-degree: 20%
 
 ---
 
@@ -114,6 +114,11 @@ ht-degree: 21%
 
 ### AI 排名 {#ai-ranking}
 
-您也可以使用經過訓練的模型系統，藉由選取AI模型，自動排名要針對指定設定檔顯示的優惠方案。 在[本節](ranking.md)中瞭解如何建立AI模型。
+您也可以使用經過訓練的模型系統，藉由選取AI模型，自動排名要針對指定設定檔顯示的優惠方案。 在[本節](../offers/ranking/ai-models.md)中瞭解如何建立AI模型。
 
 建立AI模型後，您即可在選取策略中使用它。 如果多個優惠方案都符合條件，經過訓練的模型系統將決定應該首先針對此選擇策略顯示哪個優惠方案。
+
+>[!NOTE]
+>
+>目前[提升度測量](../offers/ranking/auto-optimization-model.md#lift)報告僅適用於[個人化最佳化](../offers/ranking/personalized-optimization-model.md) AI模型。
+
