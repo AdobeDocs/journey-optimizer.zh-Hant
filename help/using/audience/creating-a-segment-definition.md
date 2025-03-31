@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
+source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 19%
@@ -81,6 +81,7 @@ ht-degree: 19%
 >[!IMPORTANT]
 >
 >自2024年11月1日起，串流區段不再支援使用來自Journey Optimizer追蹤和意見回應資料集的&#x200B;**傳送**&#x200B;和&#x200B;**開啟**&#x200B;事件。
+>
 >* 此變更適用於所有客戶沙箱和組織。
 >* 只有傳送和開啟的事件會受到影響：點按次數和其他追蹤事件仍可用於串流細分。
 >* 這項變更僅適用於串流區段。 傳送和開啟事件仍可用於批次區段，但如果包含在串流區段中，則會以批次方式評估它們。 此外，此變更也會影響排除事件以及傳送事件產生的退回/延遲事件。

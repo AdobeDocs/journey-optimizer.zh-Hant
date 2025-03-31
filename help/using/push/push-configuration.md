@@ -7,10 +7,10 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 3%
+source-wordcount: '1839'
+ht-degree: 5%
 
 ---
 
@@ -23,19 +23,7 @@ ht-degree: 3%
 >新的&#x200B;**行動入門快速入門工作流程**&#x200B;現已推出。 使用這項新產品功能，快速設定行動SDK，以開始收集和驗證行動事件資料，並傳送行動推播通知。 此功能可作為公開測試版透過Data Collection首頁存取。 [了解更多](mobile-onboarding-wf.md)
 >
 
-
-## 開始之前 {#before-starting}
-
-<!--
-### Check provisioning
-
-Your Adobe Experience Platform account must be provisioned to contain following schemas and datasets for push notification data flow to function correctly:
-
-| Schema <br>Dataset                                                                       | Group of fields                                                                                                                                                                         | Operation                                                |
-| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| CJM Push Profile Schema <br>CJM Push Profile Dataset                                     | Push Notification Details<br>Adobe CJM ExperienceEvent - Message Profile Details<br>Adobe CJM ExperienceEvent - Message Execution Details<br>Application Details<br>Environment Details | Register Push Token                                      |
-| CJM Push Tracking Experience Event Schema<br>CJM Push Tracking Experience Event Dataset | Push Notification Tracking                                                                                                                                                              | Track interactions and provide data for the reporting UI |
--->
+## 開始之前 {#start-push}
 
 ### 設定許可權 {#setup-permissions}
 
@@ -71,7 +59,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
    * **[!UICONTROL 開發]**
    * **[!UICONTROL 管理環境]**
    * **[!UICONTROL 管理擴充功能]**
-   * **[!UICONTROL Publish]**
+   * **[!UICONTROL 發佈]**
 
    在Adobe Experience Platform Mobile SDK中安裝和發佈Adobe Journey Optimizer擴充功能及發佈應用程式屬性時，需要這些許可權。
 
@@ -109,6 +97,25 @@ Your Adobe Experience Platform account must be provisioned to contain following 
    >如果使用者先前不是在Admin Console中建立的，請參閱[新增使用者檔案](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)。
 
    ![](assets/push_product_7.png)
+
+
+### 檢查您的資料集 {#push-datasets}
+
+推播通知通道可使用下列結構描述和資料集：
+
+| 結構描述<br>資料集 | 欄位群組 | 作業 |
+| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| CJM推播設定檔結構描述<br>CJM推播設定檔資料集 | 推播通知詳細資料<br>Adobe CJM ExperienceEvent — 訊息設定檔詳細資料<br>Adobe CJM ExperienceEvent — 訊息執行詳細資料<br>應用程式詳細資料<br>環境詳細資料 | 註冊推播權杖 |
+| CJM推播追蹤體驗事件結構描述<br>CJM推播追蹤體驗事件資料集 | 推播通知追蹤 | 追蹤互動並為報表UI提供資料 |
+
+
+>[!NOTE]
+>
+>將推播追蹤事件擷取至CJM推播追蹤體驗事件資料集時，即使部分資料已成功擷取，仍可能會發生一些失敗。 如果某些對應欄位不存在傳入事件中，就可能發生這種情況：系統記錄警告，但未阻止擷取資料的有效部分。 這些警告在批次狀態中顯示為「失敗」，但反映部分擷取成功。
+>
+>若要檢視每個結構描述的欄位與屬性完整清單，請參閱 [Journey Optimizer 結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}。
+
+
 
 ### 設定您的應用程式 {#configure-app}
 
@@ -199,7 +206,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
    >[!NOTE]
    >
-   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線`_`、點`.`和連字型大小`-`字元。
+   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線 `_`、點 `.` 和連字號 `-` 字元。
 
 
 1. 若要將自訂或核心資料使用標籤指派給組態，您可以選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)。
