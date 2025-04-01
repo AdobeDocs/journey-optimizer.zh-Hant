@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 36%
 **至發行日期之前，下方早期發行說明如有變更，恕不另行通知**。 連結、畫面及更新的文件會在發行當日發佈於[發行說明](release-notes.md)。
 
 
-## 2025年3月早期發行說明 {#25-3-rn}
+## 2025 年 3 月搶先發行說明 {#25-3-rn}
 
 
-**至發行日期之前，下方早期發行說明如有變更，恕不另行通知**。 連結、畫面和更新文件會於發行日期在發行說明發佈。
+**至發行日期之前，下方早期發行說明如有變更，恕不另行通知**。 連結、畫面和更新文件會於發行日期發佈。
 
 **發行日期**：2025 年 3 月 26-27 日
 
@@ -38,13 +38,13 @@ ht-degree: 36%
 <table>
 <thead>
 <tr>
-<th><strong>與Adobe Express整合</strong><br/></th>
+<th><strong>與 Adobe Analytics 的整合</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer中的Adobe Express整合可讓您在內容建立期間直接使用Adobe Express的編輯工具，讓您調整大小、移除背景、裁切，以及將資產轉換為JPEG或PNG。<p>
+<p>Adobe Journey Optimizer 中的 Adobe Express 整合可讓您在內容建立期間直接使用 Adobe Express 的編輯工具，讓您調整大小、移除背景、裁切，以及將資產轉換為 JPEG 或 PNG。<p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -70,14 +70,14 @@ ht-degree: 36%
 <table>
 <thead>
 <tr>
-<th><strong>歷程的行事曆檢視（可用性限制）</strong><br/></th>
+<th><strong>歷程的行事曆檢視 (可用性限制)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>行事曆檢視現在可讓您以視覺化方式呈現所有歷程啟用。 此功能已以「有限可用性」的形式發行給選定的客戶群組。<p>
-<p>此變更僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<p>行事曆檢視現在可讓您以視覺化方式呈現所有歷程啟用。此功能以有限可用性的形式發行給指定的客戶群。<p>
+<p>此變更僅適用於一組組織 (有限可用性)。若要取得存取權，請聯絡您的 Adobe 代表。</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -87,21 +87,21 @@ ht-degree: 36%
 <table>
 <thead>
 <tr>
-<th><strong>與Dynamic Media整合（可用性限制）</strong><br/></th>
+<th><strong>與 Dynamic Media 的整合（有限可用性）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Dynamic Media資產現在可直接在Journey Optimizer中使用和存取。 此整合可讓您：
+<p>Dynamic Media 資產現在可直接在 Journey Optimizer 中使用和存取。此整合可讓您：
 <ul>
 <li>透過即時更新集中管理資產</li>
 <li>立即修改您的資產設定，例如寬度和高度</li>
-<li>使用含文字覆蓋圖的影像個人化您的內容</li>
-<li>更新您的內容並新增個人化欄位，以自訂Dynamic Media範本</li>
+<li>使用含文字覆蓋的影像個人化您的內容</li>
+<li>更新您的內容並新增個人化欄位，以自訂 Dynamic Media 範本</li>
 </ul>
 <p>
-<p>此整合僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<p>此整合僅適用於一組組織 (有限可用性)。若要取得存取權，請聯絡您的 Adobe 代表。</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -113,14 +113,14 @@ ht-degree: 36%
 <table>
 <thead>
 <tr>
-<th><strong>與Adobe GenStudio整合（可用性限制）</strong><br/></th>
+<th><strong>與 Adobe GenStudio 的整合 (有限可用性)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>為了提升行銷效率及維持品牌一致性，您現在可以將GenStudio for Performance Marketing體驗與Journey Optimizer緊密整合。 這使您能夠利用GenStudio的AI支援內容建立以及Journey Optimizer的進階協調功能。<p>
-<p>Journey Optimizer中的GenStudio整合目前無法與Healthcare Shield或Privacy and Security Shield （限量提供）搭配使用。</p>
+<p>為了提升行銷效率及維持品牌一致性，您現在可以將 GenStudio for Performance Marketing 體驗與 Journey Optimizer 緊密整合。這使您能夠利用 GenStudio 的 AI 支援內容建立以及 Journey Optimizer 的進階協調功能。<p>
+<p>Journey Optimizer 中的 GenStudio 整合目前無法與 Healthcare Shield 或 Privacy and Security Shield (有限可用性) 搭配使用。</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -130,14 +130,14 @@ ht-degree: 36%
 <table>
 <thead>
 <tr>
-<th><strong>LINE頻道（可用性限制）</strong><br/></th>
+<th><strong>LINE 頻道 (有限可用性)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer已擴充其跨頻道功能，以包含對LINE頻道的支援。 此增強功能可讓您建立、編輯和預覽LINE體驗，以啟用更個人化且吸引人的互動。 透過LINE，您可以與更多客戶聯絡、傳送相關內容並改善您的參與。<p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<p>Adobe Journey Optimizer 已擴充其跨頻道功能，以包含對 LINE 頻道的支援。此增強功能可讓您建立、編輯和預覽 LINE 體驗，以啟用更個人化且吸引人的互動。透過 LINE，您可以與更多客戶連絡、傳送相關內容並改善您的參與度。<p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若要取得存取權，請聯絡您的 Adobe 代表。</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -146,7 +146,7 @@ ht-degree: 36%
 
 ### 改進項目 {#25-03-improv}
 
-**Personalization編輯器** （推出日期： 3月12日）
+**個人化編輯器** (推出日期：3 月 12 日)
 
 已更新 Journey Optimizer 個人化編輯器，並新增功能：
 
@@ -158,36 +158,36 @@ ht-degree: 36%
 * **自動完成設定檔和內容屬性** – 提供智慧型建議以簡化內容建立。
 * **增強語法強調** – 讓程式碼結構在視覺上更加不同，來改善可讀性。
 
-![在Personalization編輯器中顯示新功能的影片](assets/do-not-localize/personalization-editor.gif)
+![展示個人化編輯器新功能的影片](assets/do-not-localize/personalization-editor.gif)
 
 如需詳細資訊，請參閱[詳細文件](../personalization/personalization-build-expressions.md)。
 
 
 **行銷活動**
 
-* 在行銷活動清單中，選取行銷活動現在會開啟一個窗格，顯示其詳細資訊。
-* 您現在可以將行銷活動從沙箱複製到另一個沙箱。
+* 現在，在行銷活動清單中，選取行銷活動會開啟窗格並顯示其詳細資訊。
+* 您現在可以將行銷活動從一個沙箱複製到另一個沙箱。
 
 **個人化**
 
-個人化編輯器新增了「藥丸」按鈕。 啟用後，設定檔和內容屬性會顯示為Pills，增強程式碼的可讀性。
+個人化編輯器新增了「藥丸」按鈕。啟用後，個人資料和內容屬性都會以藥丸形式顯示，增強代碼的可讀性。
 
 **核准**
 
 定義核准原則的條件時，您現在可以選擇依標籤和/或物件類別篩選。
 
-**頻道設定**
+**管道設定**
 
-您現在可以將Adobe Experience Platform統一標籤指派給管道設定。 這可讓您輕鬆分類，以及改善所有清單的搜尋和導覽。
+您現可指派 Adobe Experience Platform 統一標籤至管道設定。這可讓您輕鬆分類，以及改善所有清單的搜尋和導覽體驗。
 
 **傳遞度**
 
-您現在可以從上層透過受管理的DMARC委派子網域。
+您現在可以透過受上層管理的 DMARC 委派子網域。
 
-**商業規則**
+**業務規則**
 
-您現在可以在具有&#x200B;**批次**&#x200B;細分的歷程和行銷活動中使用每日頻率上限。 為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的名稱空間。 在[平台身分服務指南](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中進一步瞭解名稱空間優先順序
+您現在可以在包含&#x200B;**批次**&#x200B;細分的歷程和行銷活動中，使用每日頻率上限。為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的命名空間。在[平台身分服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中進一步瞭解命名空間優先順序
 
 **內容管理**
 
-為了輕鬆管理您的片段和內容範本，您現在可以使用資料夾以更有效的方式將其組織到結構化階層中。
+為了輕鬆管理您的片段和內容範本，您現在可以使用資料夾來更有效地將其整理到結構化階層中。
