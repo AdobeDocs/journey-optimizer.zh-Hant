@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 badge: label="可用性限制" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 3%
+source-wordcount: '540'
+ht-degree: 2%
 
 ---
 
 # 應用程式內行銷活動報告 {#campaign-global-report-cja-inapp}
 
-## 曝光與點按趨勢 {#impression-click-trend}
+## 顯示與點選趨勢 {#impression-click-trend}
 
 ![](assets/cja-inapp-impressions-click.png)
 
@@ -34,6 +34,8 @@ ht-degree: 3%
 
 ## 點按次數 {#clicks-inapp}
 
+![](assets/cja-campaign-inapp-clicks.png)
+
 **[!UICONTROL 點按次數]**&#x200B;圖形會顯示應用程式內點按量度，說明內容點按總次數和點按內容的不重複設定檔數量。
 
 +++ 進一步瞭解點按量度
@@ -46,6 +48,8 @@ ht-degree: 3%
 
 ## 顯示 {#display-inapp}
 
+![](assets/cja-campaign-inapp-displays.png)
+
 **[!UICONTROL 顯示]**&#x200B;圖表可協助您瞭解訊息的整體觸及範圍和與其互動的不重複設定檔數目。
 
 +++ 深入瞭解顯示量度
@@ -57,6 +61,8 @@ ht-degree: 3%
 +++
 
 ## 追蹤資料 {#tracking-data-inapp}
+
+![](assets/cja-campaign-inapp-tracking-data.png)
 
 **[!UICONTROL 追蹤資料]**&#x200B;表格提供與您的應用程式內訊息繫結的設定檔活動詳細快照，提供參與和應用程式內訊息有效性的基本深入分析。
 
@@ -78,11 +84,11 @@ ht-degree: 3%
 
 * **[!UICONTROL 傳送]**：您的應用程式內訊息的傳送總數。
 
-<!--
-* **[!UICONTROL Inbound triggered]**: 
+* **[!UICONTROL 傳入已觸發]**：使用者互動或預先定義的事件已觸發應用程式內訊息的次數。
 
-* **[!UICONTROL Inbound dismisses]**: 
--->
+* **[!UICONTROL 傳入解除次數]**：使用者未與應用程式內訊息互動即解除該訊息的次數。
+
+
 +++
 
 ## 追蹤的連結標籤 {#track-link-label-inapp}

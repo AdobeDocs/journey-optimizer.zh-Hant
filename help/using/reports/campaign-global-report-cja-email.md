@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: 32f34b6e2a5cd3eda6de9177c5a4b5c2be7b8058
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1056'
 ht-degree: 2%
 
 ---
@@ -65,13 +65,13 @@ ht-degree: 2%
 
 +++ 進一步瞭解如何傳送統計資料
 
-* **[!UICONTROL 人員]**：符合訊息目標設定檔資格的使用者設定檔數目。
-
 * **[!UICONTROL 已鎖定目標]**：傳送程式期間處理的電子郵件總數。
 
 * **[!UICONTROL 傳送]**：您電子郵件的傳送總數。
 
 * **[!UICONTROL 已傳遞]**：成功傳送的電子郵件數目，與已傳送的訊息總數相關。
+
+* **[!UICONTROL 不重複送達]**：成功收到至少一封電子郵件的設定檔數。
 
 * **[!UICONTROL 傳出頻道的跳出數]**：傳送程式與自動傳回處理期間累計的錯誤總數，與已傳送訊息總數相關。
 
@@ -99,12 +99,13 @@ ht-degree: 2%
 
 * **[!UICONTROL 電子郵件開啟次數]**：您的電子郵件在行銷活動中開啟的次數。
 
-* **[!UICONTROL 不重複電子郵件開啟次數]**：開啟電子郵件的百分比。
+* **[!UICONTROL 不重複電子郵件開啟次數]**：開啟電子郵件的設定檔數目。
 
 * **[!UICONTROL 垃圾訊息申訴]**：訊息被宣告為垃圾郵件或垃圾訊息的次數。
 
 * **[!UICONTROL 取消訂閱]**：取消訂閱連結的點按次數。
 
+* **[!UICONTROL 不重複電子郵件取消訂閱]**：取消訂閱您電子郵件的設定檔數目。
 +++
 
 ## 電子郵件網域 {#email-domains}
@@ -119,13 +120,12 @@ ht-degree: 2%
 
 * **[!UICONTROL 已傳遞]**：與已傳送電子郵件總數相關的成功傳送電子郵件數目。
 
-* **[!UICONTROL 電子郵件開啟次數]**：您的電子郵件在行銷活動中開啟的次數。
-
-* **[!UICONTROL 點按]**：內容在電子郵件中的點按次數。
-
 * **[!UICONTROL 傳出頻道的跳出數]**：傳送程式與自動傳回處理期間累計的錯誤總數，與已傳送電子郵件總數相關。
 
 * **[!UICONTROL 傳出錯誤]**：在傳送過程中發生的錯誤總數，導致無法將其傳送至設定檔。
+
+* **[!UICONTROL 傳出排除]**： Adobe Journey Optimizer已排除的設定檔數目。
+
 +++
 
 ## 追蹤的連結標籤 {#track-link-label}
@@ -154,10 +154,6 @@ ht-degree: 2%
 
 * **[!UICONTROL 點按]**：內容在電子郵件中的點按次數。
 
-* **[!UICONTROL 顯示]**：電子郵件開啟的次數。
-
-* **[!UICONTROL 唯一顯示]**：電子郵件開啟的次數，一個設定檔的多個互動未列入考量。
-
 +++
 
 ## 電子郵件主旨 {#email-subjects}
@@ -168,8 +164,9 @@ ht-degree: 2%
 
 +++ 進一步瞭解電子郵件主題量度
 
-* **[!UICONTROL 人員]**：符合電子郵件目標設定檔資格的使用者設定檔數目。
+* **[!UICONTROL 已傳遞]**：與已傳送電子郵件總數相關的成功傳送電子郵件數目。
 
+* **[!UICONTROL 唯一傳遞]**：成功收到至少一個電子郵件的不同設定檔數目，確保不計算重複專案。
 +++
 
 ## 排除原因 {#excluded-reasons}

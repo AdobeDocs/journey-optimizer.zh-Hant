@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 0%
+source-wordcount: '887'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ![](assets/gs-cja-report-3.png)
 
-若要瞭解有關Customer Journey AnalyticsWorkspace以及如何篩選和分析資料的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
+若要瞭解有關Customer Journey Analytics Workspace以及如何篩選和分析資料的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 歷程概觀 {#journey-global}
 
@@ -43,8 +43,6 @@ ht-degree: 0%
 
 * **[!UICONTROL 歷程結束]**：結束歷程的個人總數。
 
-* **[!UICONTROL 歷程失敗]**：未成功執行的個別歷程總數。
-
 +++
 
 ### 歷程統計資料 {#journey-stats}
@@ -54,6 +52,8 @@ ht-degree: 0%
 **[!UICONTROL 歷程統計資料]**&#x200B;表格提供有關您歷程的重要資料的詳細摘要。 其中包括關鍵量度，例如失敗次數和成功登入次數，針對您的電子郵件和歷程的效能和觸及範圍提供有價值的深入分析。
 
 +++ 進一步瞭解歷程統計量度
+
+* **[!UICONTROL 歷程排除]**：由於預先定義的條件或隱藏規則而從歷程排除的個人總數。
 
 * **[!UICONTROL 歷程參與]**：接收透過歷程傳送之訊息的不重複個人總數，代表到達歷程中指定動作點的不同設定檔。
 
@@ -70,6 +70,16 @@ ht-degree: 0%
 * **[!UICONTROL 不重複歷程失敗]**：未成功執行的個別歷程總數，未考慮一個設定檔的多個互動。
 
 +++
+
+## 歷程排除 {#journey-exclusion}
+
+**[!UICONTROL 歷程排除]**&#x200B;表格提供導致排除使用者設定檔的不同因素的完整檢視。
+
+## 動作錯誤 {#action-error}
+
+![](assets/cja-journey-action-error.png)
+
+**[!UICONTROL 動作錯誤]** Widget會詳細說明歷程動作所發生的不同錯誤。
 
 ## 歷程畫布 {#journey-canvas}
 
@@ -106,9 +116,11 @@ ht-degree: 0%
 
 +++ 進一步瞭解動作概觀量度
 
-* **[!UICONTROL 人員]**：符合動作目標設定檔資格的使用者設定檔數目。
+* **[!UICONTROL 節點進入]**：進入歷程中特定節點的個人總數。
 
-* **[!UICONTROL 點按谷底率]**：與動作互動的使用者百分比。
+* **[!UICONTROL 歷程失敗]**：未成功執行的個別歷程總數。
+
+* **[!UICONTROL 點進率]**：與動作互動的使用者百分比。
 
 * **[!UICONTROL 點按]**：內容在您的動作中被點按的次數。
 

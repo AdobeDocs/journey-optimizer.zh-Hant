@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 4%
+source-wordcount: '495'
+ht-degree: 3%
 
 ---
 
@@ -25,15 +25,13 @@ ht-degree: 4%
 
 +++ 進一步瞭解如何傳送統計資料
 
-* **[!UICONTROL 人員]**：符合推播通知目標設定檔資格的使用者設定檔數目。
-
 * **[!UICONTROL 已鎖定目標]**：分析期間處理的推播通知總數。
 
 * **[!UICONTROL 傳送]**：推播通知的傳送總數。
 
 * **[!UICONTROL 已傳遞]**：成功傳送的推播通知數目（與已傳送的推播通知總數相關）。
 
-* **[!UICONTROL 傳出頻道的跳出數]**：傳送程式與自動傳回處理期間累計的錯誤總數，與推播通知總數相關。
+* **[!UICONTROL 唯一傳遞]**：成功收到至少一個推播通知的設定檔數。
 
 * **[!UICONTROL 傳出錯誤]**：發生且無法傳送至設定檔的錯誤總數。
 
@@ -51,18 +49,15 @@ ht-degree: 4%
 
 * **[!UICONTROL 點進率(CTR)]**：與推播通知互動的使用者百分比。
 
-* **[!UICONTROL 點進開啟率(CTOR)]**：推播通知開啟的次數。
-
 * **[!UICONTROL 點按]**：推播通知內容被點按的次數。
 
 * **[!UICONTROL 不重複點按]**：點按推播通知中內容的設定檔數目。
 
-<!--
-* **[!UICONTROL Push custom actions]**: 
--->
+* **[!UICONTROL 推播自訂動作]**：設定檔回應推播通知所採取的自訂動作數目。
+
 +++
 
-## 追蹤的連結標籤 {#track-link-label-push}
+## 追蹤的標籤 {#track-link-label-push}
 
 ![](assets/cja-campaign-push-link-labels.png)
 

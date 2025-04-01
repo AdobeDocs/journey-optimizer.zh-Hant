@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd743a3b-0317-45d9-8e76-98d5cc258752
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 3%
@@ -18,6 +18,8 @@ ht-degree: 3%
 # 簡訊行銷活動報告 {#campaign-global-report-cja-sms}
 
 ## 已傳遞vs點選趨勢 {#delivered-click-sms}
+
+![](assets/cja-campaign-sms-delivered.png)
 
 **[!UICONTROL 已傳遞與點選趨勢]**&#x200B;圖表提供您設定檔與電子郵件互動的詳細分析，提供設定檔與內容互動方式的寶貴見解。
 
@@ -30,6 +32,8 @@ ht-degree: 3%
 +++
 
 ## 傳遞狀態 {#delivery-status-sms}
+
+![](assets/cja-campaign-sms-status.png)
 
 **[!UICONTROL 傳遞狀態]**&#x200B;表格提供與您的SMS行銷活動相關的設定檔活動的詳細帳戶。 這包括已傳送的量度、點按次數和其他相關的參與指標，以提供設定檔與簡訊內容互動方式的完整檢視。
 

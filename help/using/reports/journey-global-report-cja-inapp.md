@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '594'
 ht-degree: 2%
 
 ---
@@ -83,11 +83,10 @@ ht-degree: 2%
 
 * **[!UICONTROL 傳送]**：您的應用程式內訊息的傳送總數。
 
-<!--
-* **[!UICONTROL Inbound triggered]**: 
+* **[!UICONTROL 傳入已觸發]**：使用者互動或預先定義的事件已觸發應用程式內訊息的次數。
 
-* **[!UICONTROL Inbound dismisses]**: 
--->
+* **[!UICONTROL 傳入解除次數]**：使用者未與應用程式內訊息互動即解除該訊息的次數。
+
 +++
 
 ## 追蹤的連結標籤 {#track-link-label-inapp}
