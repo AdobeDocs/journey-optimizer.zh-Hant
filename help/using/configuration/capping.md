@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: fd89412703d015fa173f58fa117f65323b954fec
+source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 25%
+source-wordcount: '725'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,9 @@ ht-degree: 25%
 
 本節提供如何使用API的全域資訊。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/)中提供詳細的API描述。
 
-## 設定API說明上限
+## 設定API說明與Postman集合的上限 {#description}
+
+下表列出適用於上限API的可用命令。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)提供詳細資訊，包括要求範例、引數和回應格式。
 
 | 方法 | 路徑 | 說明 |
 |---|---|---|
@@ -36,6 +38,15 @@ ht-degree: 25%
 
 建立或更新設定時，會自動執行檢查以確保語法和裝載的完整性。
 如果發生某些問題，作業會傳回警告或錯誤，以協助您更正設定。
+
+此外，[這裡](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json)也提供Postman集合，協助您進行測試設定。
+
+此集合已設定為共用透過&#x200B;__[Postman Console的整合功能產生的Adobe I/O變數集合](https://console.adobe.io/integrations) >嘗試使用>下載Postman__，這會產生具有所選整合值的Postman環境檔案。
+
+一旦下載並上傳至 Postman，您需要新增三個變數：`{JO_HOST}`、`{BASE_PATH}`以及`{SANDBOX_NAME}`。
+* `{JO_HOST}` ： [!DNL Journey Optimizer]閘道URL。
+* `{BASE_PATH}` ： API的進入點。
+* `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。
 
 ## 端點設定
 
@@ -66,7 +77,7 @@ ht-degree: 25%
 >
 >在部署上限設定時，如果未提供「maxHttpConnection」值，則會在部署的設定中新增預設的「maxHttpConnection = -1」，這表示Journey Optimizer將使用預設系統值。
 
-### 範例：
+範例：
 
 ```
 `{
@@ -112,55 +123,66 @@ ht-degree: 25%
 
 ## 使用案例
 
-在本節中，您將會找到五個主要使用案例，您可執行這些案例來管理[!DNL Journey Optimizer]中的上限設定。
+本節列出在[!DNL Journey Optimizer]中管理上限設定的主要使用案例，以及實施使用案例所需的相關API命令。
 
-為協助您進行測試和設定，可在[此處](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json)取得 Postman 集合。
+每個API命令的詳細資訊可在[API說明和Postman集合](#description)中取得。
 
-此 Postman 集合已設定為共用透過 __[Adobe I/O 主控台的整合](https://console.adobe.io/integrations)產生的 Postman 變數集合 > 試用 > 下載 Postman__，會產生包含選取整合值的 Postman 環境檔案。
++++建立和部署新的上限設定
 
-一旦下載並上傳至 Postman，您需要新增三個變數：`{JO_HOST}`、`{BASE_PATH}`以及`{SANDBOX_NAME}`。
-* `{JO_HOST}` : [!DNL Journey Optimizer]閘道 URL
-* `{BASE_PATH}` ： API的進入點。
-* `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。
+要使用的API呼叫：
 
-您將在下節找到用於執行使用案例的 Rest API 呼叫排序清單。
+1. **`list`** — 擷取現有設定。
+1. **`create`** — 建立新的組態。
+1. **`candeploy`** — 檢查組態是否可以部署。
+1. **`deploy`** — 部署設定。
 
-使用案例n°1： **建立及部署新的上限設定**
++++
 
-1. list
-1. create
-1. candeploy
-1. deploy
++++更新並部署上限設定（尚未部署）
 
-使用案例n°2： **更新並部署尚未部署的上限設定**
+要使用的API呼叫：
 
-1. list
-1. get
-1. update
-1. candeploy
-1. deploy
+1. **`list`** — 擷取現有設定。
+1. **`get`** — 擷取特定設定的詳細資料。
+1. **`update`** — 修改設定。
+1. **`candeploy`** — 檢查部署資格。
+1. **`deploy`** — 部署設定。
 
-使用案例n°3： **取消部署並刪除已部署的上限設定**
++++
 
-1. list
-1. undeploy
-1. delete
++++取消部署和刪除已部署的上限設定
 
-使用案例n°4： **刪除已部署的上限設定。**
+要使用的API呼叫：
 
-在僅一個 API 呼叫，您可以使用 forceDelete 參數來取消部署和刪除設定。
-1. list
-1. 刪除，使用 forceDelete 參數
+1. **`list`** — 擷取現有設定。
+1. **`undeploy`** — 取消部署設定。
+1. **`delete`** — 移除設定。
 
-使用案例n°5： **更新已部署的上限設定**
++++
+
++++在一個步驟中刪除已部署的上限設定
+
+您只能在一個API呼叫中使用`forceDelete`引數來取消部署及刪除組態。
+
+要使用的API呼叫：
+
+1. **`list`** — 擷取現有設定。
+1. **`delete`（含`forceDelete`引數）** — 在單一步驟中強制刪除已部署的組態。
+
++++
+
++++更新已部署的上限設定
 
 >[!NOTE]
 >
->如果更新已部署的組態，則必須重新部署。
+>更新已部署的組態後需要重新部署。
 
-1. list
-1. get
-1. update
-1. undeploy
-1. candeploy
-1. deploy
+要使用的API呼叫：
+1. **`list`** — 擷取現有設定。
+1. **`get`** — 擷取特定設定的詳細資料。
+1. **`update`** — 修改設定。
+1. **`undeploy`** — 在套用變更之前先取消部署設定。
+1. **`candeploy`** — 檢查部署資格。
+1. **`deploy`** — 部署更新的設定。
+
++++

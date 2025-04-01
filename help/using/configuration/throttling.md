@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 91%
+source-wordcount: '880'
+ht-degree: 62%
 
 ---
 
@@ -29,7 +29,9 @@ ht-degree: 91%
 >
 >當達到 API 設定的限制時，會將更多事件排入佇列，最多 6 小時。 無法修改此值。
 
-## 節流 API 說明 {#description}
+## 節流API說明與Postman集合 {#description}
+
+下表列出可用於節流API的命令。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)提供詳細資訊，包括要求範例、引數和回應格式。
 
 | 方法 | 路徑 | 說明 |
 |---|---|---|
@@ -41,6 +43,15 @@ ht-degree: 91%
 | [!DNL PUT] | /throttlingConfigs/`{uid}` | 更新節流設定 |
 | [!DNL GET] | /throttlingConfigs/`{uid}` | 擷取節流設定 |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | 刪除節流設定 |
+
+此外，[這裡](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json)也提供Postman集合，協助您進行測試設定。
+
+此集合已設定為共用透過&#x200B;__[Postman Console的整合功能產生的Adobe I/O變數集合](https://console.adobe.io/integrations) >嘗試使用>下載Postman__，這會產生具有所選整合值的Postman環境檔案。
+
+一旦下載並上傳至 Postman，您需要新增三個變數：`{JO_HOST}`、`{BASE_PATH}`以及`{SANDBOX_NAME}`。
+* `{JO_HOST}` ： [!DNL Journey Optimizer]閘道URL。
+* `{BASE_PATH}` ： API的進入點。
+* `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。
 
 ## 節流設定{#configuration}
 
@@ -134,57 +145,6 @@ ht-degree: 91%
     "requestId": "A7ezT8JhOQT4WIAf1Fv7K2wCDA8281qM"
 }
 ```
-
-## 使用案例 {#uc}
-
-為協助您進行測試和設定，可在[此處](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json)取得 Postman 集合。
-
-此 Postman 集合已設定為共用透過 __[Adobe I/O 主控台的整合](https://console.adobe.io/integrations)產生的 Postman 變數集合 > 試用 > 下載 Postman__，會產生包含選取整合值的 Postman 環境檔案。
-
-一旦下載並上傳至 Postman，您需要新增三個變數：`{JO_HOST}`、`{BASE_PATH}`以及`{SANDBOX_NAME}`。
-* `{JO_HOST}` : [!DNL Journey Optimizer]閘道 URL
-* `{BASE_PATH}` ： API的進入點。
-* `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。
-
-您將在下節找到用於執行使用案例的 Rest API 呼叫排序清單。
-
-使用案例 n°1：**建立和部署新的節流設定**
-
-1. list
-1. create
-1. candeploy
-1. deploy
-
-使用案例 n°2：**更新並部署尚未部署的節流設定**
-
-1. list
-1. get
-1. update
-1. candeploy
-1. deploy
-
-使用案例 n°3：**取消部署並刪除已部署的節流設定**
-
-1. list
-1. undeploy
-1. delete
-
-使用案例 n°4：**刪除已部署的節流設定**
-
-在僅一個 API 呼叫，您可以使用 forceDelete 參數來取消部署和刪除設定。
-
-1. list
-1. 刪除，使用 forceDelete 參數
-
-使用案例 n°5：**更新已部署的節流設定**
-
->[!NOTE]
->
->更新前不需要取消部署設定
-
-1. list
-1. get
-1. update
 
 ## 在執行階段層級設定生命週期 {#config}
 
@@ -338,3 +298,67 @@ ht-degree: 91%
     }
 }
 ```
+
+## 使用案例 {#uc}
+
+本節列出在[!DNL Journey Optimizer]中管理節流設定的主要使用案例，以及實施使用案例所需的相關API命令。
+
+每個API命令的詳細資訊可在[API說明和Postman集合](#description)中取得。
+
++++建立及部署新的節流設定
+
+要使用的API呼叫：
+
+1. **`list`** — 擷取現有設定。
+1. **`create`** — 建立新的組態。
+1. **`candeploy`** — 檢查組態是否可以部署。
+1. **`deploy`** — 部署設定。
+
++++
+
++++更新及部署節流設定（尚未部署）
+
+要使用的API呼叫：
+
+1. **`list`** — 擷取現有設定。
+1. **`get`** — 擷取特定設定的詳細資料。
+1. **`update`** — 修改設定。
+1. **`candeploy`** — 檢查部署資格。
+1. **`deploy`** — 部署設定。
+
++++
+
++++取消部署和刪除已部署的節流設定
+
+要使用的API呼叫：
+
+1. **`list`** — 擷取現有設定。
+1. **`undeploy`** — 取消部署設定。
+1. **`delete`** — 移除設定。
+
++++
+
++++刪除已部署的節流設定
+
+您只能在一個API呼叫中使用`forceDelete`引數來取消部署及刪除組態。
+
+要使用的API呼叫：
+
+1. **`list`** — 擷取現有設定。
+1. **`delete`（含`forceDelete`引數）** — 在單一步驟中強制刪除已部署的組態。
+
++++
+
++++更新已部署的節流設定
+
+>[!NOTE]
+>
+>更新前不需要取消部署設定
+
+要使用的API呼叫：
+
+1. **`list`** — 擷取現有設定。
+1. **`get`** — 擷取特定設定的詳細資料。
+1. **`update`** — 修改設定。
+
++++
