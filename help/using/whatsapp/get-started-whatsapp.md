@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 514e9072ba2154bdb5d587ed91111f1b3941f6d1
+source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 13%
@@ -69,6 +69,7 @@ ht-degree: 13%
 * **回應訊息**：此版本不支援自動或預先定義的回應訊息。
 
 ## 作法影片 {#video}
+
 
 以下影片說明如何使用WhatsApp動作建立歷程。
 
