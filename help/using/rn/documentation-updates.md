@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b441c1edaf50104ae63f4cd9f14f3c268dee02dd
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 80%
+ht-degree: 94%
 
 ---
 
@@ -23,19 +23,19 @@ ht-degree: 80%
 
 * 已更新「客群資格篩選」事件的相關頁面，並新增建議。[閱讀全文](../building-journeys/audience-qualification-events.md)
 * 所有客戶現在都能使用自訂動作疑難排解功能 (GA)。[閱讀全文](../action/troubleshoot-custom-action.md)
-* 資料衛生現在是產品使用者介面中的資料生命週期。 說明檔案已更新，以反映此變更。 [閱讀全文](../privacy/data-hygiene.md)
-* 檔案中已新增缺少的登陸頁面內建許可權。 [閱讀全文](../administration/ootb-permissions.md)
-* 已新增有關排程週期性行銷活動的附註。 [閱讀全文](../campaigns/create-campaign.md)
+* 資料衛生現在是產品使用者介面的資料生命週期。 說明文件已更新，以反映此變更。 [閱讀全文](../privacy/data-hygiene.md)
+* 檔案已新增缺少的登陸頁面內建權限。 [閱讀全文](../administration/ootb-permissions.md)
+* 已新增有關排程定期性行銷活動的附註。 [閱讀全文](../campaigns/create-campaign.md)
 * 有關在電子郵件訊息中插入連結及啟用追蹤的區段已更新並重新組織。 [閱讀全文](../email/message-tracking.md)
-* Adobe Journey Optimizer中個人化功能的相關區段已重新整理並改良。 [閱讀全文](../personalization/personalize.md)
-* 用於列出個人化優惠的決定管理API已更新，如果回應中缺少多個個人化優惠，則使用範例來執行分頁。 [閱讀全文](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
+* Adobe Journey Optimizer 個人化功能的相關區段已重新整理並改善。 [閱讀全文](../personalization/personalize.md)
+* 用於列出個人化優惠的決策管理 API 已更新，如果回應中缺少多個個人化優惠，則使用範例來執行分頁。 [閱讀全文](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
 * 已建立新頁面，收集有關「清單取消訂閱」功能的所有資訊，以提高清晰度。 [閱讀全文](../email/list-unsubscribe.md)
 * 已更新「頻率限定」章節，其中包含如何在Edge Decisioning API之外更新「決策」和「批次決策」API的頻率限定計數器。 [閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
 
 ## 2025 年 2 月 {#feb-2025}
 
-* 「讀取對象」活動護欄已更新，以指定歷程中只能使用一個活動，而且只能鎖定一個對象。 [閱讀全文](../building-journeys/read-audience.md)
-* 更新使用Adobe Campaign活動時的歷程護欄。 [閱讀全文](../start/guardrails.md#ac-g)
+* 已更新「讀取客群」活動護欄，以指定歷程中只能使用一個活動，並只能鎖定一個客群。[閱讀全文](../building-journeys/read-audience.md)
+* 使用 Adobe Campaign 行銷活動時的歷程護欄已更新。 [閱讀全文](../start/guardrails.md#ac-g)
 * 已詳細說明建立第一個歷程的步驟，並新增檔案區段的連結。 [閱讀全文](../building-journeys/journey-gs.md)
 * 新頁面現在已可用，以詳細說明歷程控制面板和篩選使用者介面。 [閱讀全文](../building-journeys/journey-ui.md)
 *  **[!UICONTROL 傳送時間最佳化]** 的文件及其相關常見問題集已更新、改進並移至新的專用頁面。 [閱讀全文](../building-journeys/send-time-optimization.md)

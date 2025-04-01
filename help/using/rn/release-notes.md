@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 6ce4bc2874b90b7ff9634fc56d8a0f89a8bead31
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 45%
+ht-degree: 85%
 
 ---
 
@@ -87,20 +87,20 @@ ht-degree: 45%
 <table>
 <thead>
 <tr>
-<th><strong>與Dynamic Media整合（可用性限制）</strong><br/></th>
+<th><strong>與 Dynamic Media 的整合（有限可用性）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Dynamic Media資產現在可直接在Journey Optimizer中使用和存取。 此整合可讓您：
+<p>Dynamic Media 資產現在可直接在 Journey Optimizer 中使用和存取。此整合可讓您：
 <ul>
 <li>透過即時更新集中管理資產</li>
 <li>立即修改您的資產設定，例如寬度和高度</li>
-<li>更新您的內容並新增個人化欄位，以自訂Dynamic Media範本</li>
+<li>更新您的內容並新增個人化欄位，以自訂 Dynamic Media 範本</li>
 </ul>
 <p>
-<p>此整合僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<p>此整合僅適用於一組組織 (有限可用性)。若要取得存取權，請聯絡您的 Adobe 代表。</p>
 <p>如需詳細資訊，請參閱<a href="../integrations/aem-dynamic.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -112,14 +112,14 @@ ht-degree: 45%
 <table>
 <thead>
 <tr>
-<th><strong>與Adobe GenStudio整合（可用性限制）</strong><br/></th>
+<th><strong>與 Adobe GenStudio 的整合 (有限可用性)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>為了提升行銷效率及維持品牌一致性，您現在可以將GenStudio for Performance Marketing體驗與Journey Optimizer緊密整合。 這使您能夠利用GenStudio的AI支援內容建立以及Journey Optimizer的進階協調功能。<p>
-<p>Journey Optimizer中的GenStudio整合目前無法與Healthcare Shield或Privacy and Security Shield （限量提供）搭配使用。</p>
+<p>為了提升行銷效率及維持品牌一致性，您現在可以將 GenStudio for Performance Marketing 體驗與 Journey Optimizer 緊密整合。這使您能夠利用 GenStudio 的 AI 支援內容建立以及 Journey Optimizer 的進階協調功能。<p>
+<p>Journey Optimizer 中的 GenStudio 整合目前無法與 Healthcare Shield 或 Privacy and Security Shield (有限可用性) 搭配使用。</p>
 <p>如需詳細資訊，請參閱<a href="../integrations/genstudio.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/genstudio.gif"/>
 </td>
@@ -148,7 +148,7 @@ ht-degree: 45%
 
 ### 改進項目 {#25-03-improv}
 
-**Personalization編輯器** （推出日期： 3月12日）
+**個人化編輯器** (推出日期：3 月 12 日)
 
 已更新 Journey Optimizer 個人化編輯器，並新增功能：
 * **已更新程式碼編輯器設計** – 更簡潔的現代化介面，可改善使用性和焦點。
@@ -159,7 +159,7 @@ ht-degree: 45%
 * **自動完成設定檔和內容屬性** – 提供智慧型建議以簡化內容建立。
 * **增強語法強調** – 讓程式碼結構在視覺上更加不同，來改善可讀性。
 
-![在Personalization編輯器中顯示新功能的影片](assets/do-not-localize/personalization-editor.gif)
+![展示個人化編輯器新功能的影片](assets/do-not-localize/personalization-editor.gif)
 
 如需詳細資訊，請參閱[詳細文件](../personalization/personalization-build-expressions.md)。
 
@@ -171,15 +171,15 @@ ht-degree: 45%
 
 **設定**
 
-* 您現在可以將Adobe Experience Platform統一標籤指派給管道設定。 這可讓您輕鬆分類，並改善所有清單中的搜尋和導覽。 [了解更多](../configuration/channel-surfaces.md#channel-config-tags)
+* 您現可指派 Adobe Experience Platform 統一標籤至管道設定。這可讓您輕鬆分類，並改善所有清單中的搜尋和導覽。 [了解更多](../configuration/channel-surfaces.md#channel-config-tags)
 
 * 在Journey Optimizer中設定或編輯電子郵件子網域時，如果您可在上層網域中使用，您現在可以選擇自行管理相關的DMARC記錄。 [了解更多](../configuration/dmarc-record.md#set-up-dmarc)
 
-**商業規則**
+**業務規則**
 
-您現在可以在包含批次細分的歷程和行銷活動中，使用每日頻率上限。 為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的名稱空間。 在[平台身分服務指南](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中進一步瞭解名稱空間優先順序
+您現在可以在包含批次細分的歷程和行銷活動中，使用每日頻率上限。為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的命名空間。在[平台身分服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中進一步瞭解命名空間優先順序
 
-提醒您，規則集中的每日頻率上限僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。
+提醒您，規則集中的每日頻率上限僅適用於一組組織（可用性限制）。 若要取得存取權，請聯絡您的 Adobe 代表。
 
 如需商業規則的詳細資訊，請參閱[詳細檔案](../configuration/rule-sets.md)。
 

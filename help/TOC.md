@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
 workflow-type: tm+mt
 source-wordcount: '2318'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -322,7 +322,7 @@ ht-degree: 97%
       + 設定內容卡頻道 {#configure}
          + [內容卡的先決條件](using/content-card/content-card-configuration-prereq.md)
          + [在 Journey Optimizer 中設定內容卡頻道](using/content-card/content-card-configuration.md)
-         + [在行動SDK中設定內容卡支援](using/content-card/content-card-lp.md)
+         + [在 Mobile SDK 中設定內容卡支援](using/content-card/content-card-lp.md)
          + [在 Web SDK 中設定內容卡支援](using/content-card/content-card-configuration-sdk.md)
       + [建立內容卡](using/content-card/create-content-card.md)
       + [設計內容卡](using/content-card/design-content-card.md)
@@ -428,7 +428,7 @@ ht-degree: 97%
    + [使用 Adobe Stock](using/integrations/stock.md)
    + [使用Adobe Express](using/integrations/express.md)
    + [使用 Experience Manager 模板工作](using/integrations/aem-templates.md)
-   + [使用Experience Manager內容片段](using/integrations/aem-fragments.md)
+   + [使用 Experience Manager 內容片段工作](using/integrations/aem-fragments.md)
    + [使用 Dynamic Media 工作](using/integrations/aem-dynamic.md)
    + [使用GenStudio](using/integrations/genstudio.md)
 + 追蹤與監視 {#reporting}
@@ -492,7 +492,7 @@ ht-degree: 97%
       + [開始使用 Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
       + [決策護欄與限制](using/experience-decisioning/decisioning-guardrails.md)
       + API 參考{#api-reference}
-         + 建立和管理優惠方案專案{#create-manage}
+         + 建立並管理產品建議項目{#create-manage}
             + 決定項目{#decision-items}
                + [建立決定項目](using/experience-decisioning/api-reference/decisions-items/create.md)
                + [決定項目清單](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
