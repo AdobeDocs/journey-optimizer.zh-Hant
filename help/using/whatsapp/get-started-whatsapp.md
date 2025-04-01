@@ -10,10 +10,11 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 17%
+source-wordcount: '293'
+ht-degree: 13%
 
 ---
 
@@ -42,7 +43,22 @@ ht-degree: 17%
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 
-## 限制 {#limitations}
+## 先決條件 {#prereq}
+
+將WhatsApp與Journey Optimizer整合需要下列專案：
+
+* 中繼業務管理員帳戶
+* WhatsApp商業帳戶
+* WhatsApp電話號碼
+
+在繼續整合之前，您還需要瞭解下列內容：
+
+* [WhatsApp內容規則](https://www.whatsapp.com/legal/messaging-guidelines)
+* [符合中繼原則](https://www.whatsapp.com/legal)
+* [24小時交談限制](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
+* [核准的中繼範本](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+
+## Beta限制 {#limitations}
 
 此Beta版不含下列功能：
 
@@ -51,3 +67,13 @@ ht-degree: 17%
 * **選擇加入/選擇退出關鍵字**：使用者將無法選擇在此階段使用特定關鍵字來訂閱或取消訂閱。
 
 * **回應訊息**：此版本不支援自動或預先定義的回應訊息。
+
+## 作法影片 {#video}
+
+以下影片說明如何使用Whatsapp動作建立歷程。
+
++++ 觀看影片
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451621?learn=on)
+
++++

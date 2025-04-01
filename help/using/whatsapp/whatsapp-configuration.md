@@ -9,9 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '461'
 ht-degree: 4%
 
 ---
@@ -42,7 +43,7 @@ ht-degree: 4%
 
 1. 設定您的API認證，如下所述：
 
-   * **API Token**： https://developers.facebook.com/docs/facebook-login/guides/access-tokens/
+   * **API Token**：輸入您的API Token。 進一步瞭解[中繼檔案](https://developers.facebook.com/docs/facebook-login/guides/access-tokens/)
    * **企業帳戶ID**：輸入與您的企業組合相關的唯一編號。 進一步瞭解[中繼檔案](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)。
 
    ![](assets/whatsapp-api.png)
@@ -88,7 +89,7 @@ ht-degree: 4%
 
 1. 選取&#x200B;**[!UICONTROL 行銷動作]**，以使用此設定將同意原則與訊息相關聯。 系統會運用與行銷動作相關的所有同意政策，以尊重客戶的偏好設定。 了解更多
 
-1. 選取先前建立的&#x200B;**[!UICONTROL WhatsApp設定]**。
+1. 選取先前建立的&#x200B;**[!UICONTROL WhatsApp API組態]**。
 
    ![](assets/whatsapp-config-3.png)
 

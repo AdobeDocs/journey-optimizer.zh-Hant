@@ -10,9 +10,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '613'
 ht-degree: 3%
 
 ---
@@ -31,8 +32,6 @@ ht-degree: 3%
 >[!ENDSHADEBOX]
 
 透過Adobe Journey Optimizer，您可以在WhatsApp上設計和傳送吸引人的訊息。 只需將WhatsApp動作新增至您的歷程或行銷活動，並製作您的訊息內容，如下所述。 Adobe Journey Optimizer也可讓您在傳送WhatsApp訊息之前先行測試，確保完美的呈現、精確的個人化，以及所有設定的正確設定。
-
->[!VIDEO](https://video.tv.adobe.com/v/3451621?learn=on)
 
 ## 新增WhatsApp訊息 {#create-whatsapp-journey-campaign}
 
@@ -76,7 +75,7 @@ ht-degree: 3%
 
 1. 行銷活動旨在特定日期或循環頻率執行。 在[本節](../campaigns/create-campaign.md#schedule)中瞭解如何設定行銷活動的&#x200B;**[!UICONTROL 排程]**。
 
-1. 從&#x200B;**[!UICONTROL 動作觸發程式]**&#x200B;功能表，選擇SMS訊息的&#x200B;**[!UICONTROL 頻率]**：
+1. 從&#x200B;**[!UICONTROL 動作觸發程式]**&#x200B;功能表，選擇WhatsApp訊息的&#x200B;**[!UICONTROL 頻率]**：
 
    * 一次
    * 每日
@@ -89,9 +88,13 @@ ht-degree: 3%
 
 ## 定義您的WhatsApp內容{#whatsapp-content}
 
->[!IMPORTANT]
->
->在Journey Optimizer中設計WhatsApp訊息之前，您必須先在Meta中建立範本。 [了解更多](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+>[!BEGINSHADEBOX]
+
+在Journey Optimizer中設計WhatsApp訊息之前，您必須先在Meta中建立並設計範本。 Journey Optimizer僅支援傳出訊息元素。 [了解更多](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+
+請注意，您的WhatsApp範本必須先由Meta核准，才能在Journey Optimizer中使用。 此程式通常需要幾個小時，但最多可能需要24小時。 [了解更多](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
+
+>[!ENDSHADEBOX]
 
 1. 在歷程或行銷活動設定畫面中，按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，設定WhatsApp訊息內容。
 
