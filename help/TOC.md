@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
 workflow-type: tm+mt
-source-wordcount: '2315'
+source-wordcount: '2318'
 ht-degree: 97%
 
 ---
@@ -434,13 +434,14 @@ ht-degree: 97%
 + 追蹤與監視 {#reporting}
    + 即時報告 {#live-report}
       + [開始使用即時報告](using/reports/live-report.md)
-      + [元件清單](using/reports/live-report-components.md)
+      + [量度清單](using/reports/live-report-components.md)
       + [歷程即時報告](using/reports/journey-live-report.md)
       + [行銷活動即時報告](using/reports/campaign-live-report.md)
       + [登陸頁面即時報告](using/reports/lp-report-live.md)
       + [訂閱清單即時報告](using/reports/subscription-report-live.md)
    + 所有時間報告{#channel-report}
       + [開始使用所有時間報告](using/reports/report-gs-cja.md)
+      + [量度清單](using/reports/global-report-components-cja.md)
       + [手動設定客戶歷程分析](using/reports/cja-ajo.md)
       + [管理您的報告](using/reports/report-cja-manage.md)
       + [報告與實驗先決條件](using/reports/reporting-configuration.md)
