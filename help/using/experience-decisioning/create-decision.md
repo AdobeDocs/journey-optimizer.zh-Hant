@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
+source-git-commit: a82c9e2d999b28ed97374f3a3804e11d4acd7983
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1756'
 ht-degree: 10%
 
 ---
@@ -227,27 +227,26 @@ ht-degree: 10%
 
 請依照下列步驟完成程式碼型體驗，並即時進行變更。
 
-1. 發佈前，顯示程式碼型體驗的預覽以進行測試。
-
-   >[!CAUTION]
-   >
-   >目前您無法在[程式碼型體驗](../code-based/create-code-based.md)促銷活動或歷程中使用決定，從使用者介面模擬內容。
-
-   若要測試決策，您可以將`dryRun`標幟新增至使用者端實作中的XDM事件`data`區塊：
-
-   ```
-   {
-   "data": {
-       "__adobe": {
-       "ajo":
-   {         "dryRun": true       }
-       }
-   }
-   }
-   ```
-
 1. 檢閱並發佈您的程式碼型體驗行銷活動或歷程。 [了解作法](../code-based/publish-code-based.md)
 
    現在，當您的開發人員執行API或SDK呼叫，擷取您頻道設定中定義之表面的內容時，變更就會套用至您的網頁或應用程式。
 
+1. 目前您無法在[程式碼型體驗](../code-based/create-code-based.md)促銷活動或歷程中使用決定，從使用者介面模擬內容。
+
+   暫行解決方法是將`dryRun`旗標新增至使用者端實作中的XDM事件`data`區塊，以在發佈行銷活動後測試決策：
+
+   ```
+   {
+       "data": {
+           "__adobe": {
+               "ajo": {
+                   "dryRun": true
+               }
+           }
+       }
+   }
+   ```
+
 1. 若要檢視決策的執行狀況，您現在可以建立自訂[Customer Journey Analytics報告控制面板](cja-reporting.md)。
+
+
