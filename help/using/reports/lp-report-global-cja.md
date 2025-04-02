@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
-source-git-commit: ea016af2dc08321bcf2e5110538031f66c888b90
+source-git-commit: 5849d1d52f3b1b075e804efbd3473d83cbac9fbe
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '787'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 登陸頁面檢視]**：來自歷程和外部來源的登陸頁面瀏覽總數，包括一個設定檔的多次瀏覽。
 
-* **[!UICONTROL 登陸頁面轉換率]**：與登陸頁面互動的人數（例如訂閱了表單），與造訪總數相關。
+* **[!UICONTROL 登陸頁面轉換]**：與登陸頁面互動的人數，例如訂閱了表單，與造訪總數相關。
 
 ## 登陸頁面績效 {#lp-performance}
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 不重複登陸頁面檢視]**：造訪您登陸頁面的人員數量，未考慮一個設定檔的多次造訪。
 
-* **[!UICONTROL 不重複登陸頁面轉換率]**：與登陸頁面互動的人數，一個設定檔的多重互動不會納入考量。
+* **[!UICONTROL 不重複登陸頁面轉換]**：與登陸頁面互動的人數，一個設定檔的多重互動不會納入考量。
 
 * **[!UICONTROL 登陸頁面檢視]**：來自歷程和外部來源的登陸頁面瀏覽總數，包括一個設定檔的多次瀏覽。
 
