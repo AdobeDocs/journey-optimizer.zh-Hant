@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1285'
 ht-degree: 32%
 
 ---
@@ -64,6 +64,8 @@ Journey Optimizer可讓您透過鎖定整個範本或特定結構和元件，來
 >[!AVAILABILITY]
 >
 >擁有建立內容範本許可權的使用者可以啟用內容鎖定。
+
+➡️ [在影片中探索此功能](#video)
 
 ## 鎖定電子郵件範本 {#define}
 
@@ -190,3 +192,9 @@ Journey Optimizer可讓您透過鎖定整個範本或特定結構和元件，來
 | 無法刪除的鎖定結構 | ![](assets/locking-sample-structure-locked-conf.png){zoomable="yes"} | ![](assets/locking-sample-structure-locked.png){zoomable="yes"} |
 | 具有鎖定樣式且無法刪除的元件。 使用者只能修改內容。 | ![](assets/locking-sample-content-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-content-only.png){zoomable="yes"} |
 | 鎖定結構內的可編輯元件。 | ![](assets/locking-sample-editable-component-conf.png){zoomable="yes"} | ![](assets/locking-sample-editable-component.png){zoomable="yes"} |
+
+## 作法影片 {#video}
+
+瞭解如何鎖定電子郵件範本中的內容。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

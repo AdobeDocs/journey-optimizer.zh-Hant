@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 22%
+source-wordcount: '1469'
+ht-degree: 17%
 
 ---
 
@@ -22,6 +22,16 @@ ht-degree: 22%
 若要管理您的片段，請從&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 片段]**&#x200B;左側功能表存取片段清單。
 
 目前沙箱上建立的所有片段 — 使用[另存為片段](#save-as-fragment)選項從&#x200B;**[!UICONTROL 片段]**&#x200B;功能表](#create-fragments)中的[ — 都會顯示。
+
+左側的窗格可讓您將片段整理到資料夾中。 依預設，會顯示所有片段。 選取資料夾時，只會顯示所選資料夾中包含的片段和資料夾。 [了解更多](#folders)
+
+>[!NOTE]
+>
+>片段資料夾僅適用於一組組織（可用性限制），並將逐步推出給更多使用者。
+
+![](assets/fragment-list-folders.png)
+
+若要尋找特定專案，請在搜尋欄位中開始輸入名稱。 選取[資料夾](#folders)時，搜尋將套用到該資料夾<!--(not nested items)-->的第一個階層中的所有片段或資料夾。
 
 您可以在其上篩選片段：
 
@@ -43,10 +53,54 @@ ht-degree: 22%
 * 使用&#x200B;**[!UICONTROL 探索參考]**&#x200B;選項可檢視使用它的歷程、行銷活動或範本。 [了解更多](#explore-references)
 * 封存片段。 [了解更多](#archive-fragments)
 * 編輯片段的標籤。 [瞭解如何使用統一標籤](../start/search-filter-categorize.md#tags)
+* 將片段移至資料夾。 [了解更多](#folders)
 
-![](assets/fragment-list-more-actions.png){width="70%" align="left"}
+![](assets/fragment-list-more-actions.png)
 
-## 片段的狀態
+## 使用資料夾管理片段 {#folders}
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_folders"
+>title="將片段組織到資料夾中"
+>abstract="使用資料夾，根據您的組織需求對您的片段進行分類和管理。"
+
+>[!AVAILABILITY]
+>
+>片段資料夾僅適用於一組組織（可用性限制），並將逐步推出給更多使用者。
+
+若要輕鬆導覽您的片段，您可以使用資料夾以更有效地將其組織到結構化階層中。 這可讓您根據組織需求將專案分類和管理。
+
+![](assets/fragment-folders.png)
+
+1. 按一下「**[!UICONTROL 所有片段]**」按鈕，以顯示先前建立的所有專案，而不使用資料夾分組。
+
+1. 按一下&#x200B;**[!UICONTROL Root]**&#x200B;資料夾以顯示所有已建立的資料夾。
+
+   >[!NOTE]
+   >
+   >如果您尚未建立資料夾，則會顯示所有片段。
+
+1. 按一下&#x200B;**[!UICONTROL 根]**&#x200B;資料夾內的任何資料夾以顯示其內容。
+
+1. 按一下&#x200B;**[!UICONTROL 根]**&#x200B;資料夾或任何其他資料夾後，**[!DNL Create folder]**&#x200B;按鈕就會顯示。 選取它。
+
+   ![](assets/fragment-create-folder.png)
+
+1. 輸入新資料夾的名稱，然後按一下[儲存]。**** 新資料夾會顯示在&#x200B;**[!UICONTROL Root]**&#x200B;資料夾內的片段清單上方，或顯示在目前選取的資料夾內。
+
+1. 您可以按一下&#x200B;**[!UICONTROL 其他動作]**&#x200B;按鈕，重新命名或刪除資料夾。
+
+   ![](assets/fragment-folder-more-actions.png)
+
+1. 使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕，您也可以將片段移動到另一個現有的資料夾。
+
+   ![](assets/fragment-folder-moved.png)
+
+1. 現在您可以導覽至您剛建立的資料夾。 您[從此處](create-fragments.md)建立的每個新片段都會儲存到目前的資料夾中。
+
+   ![](assets/fragment-folder-create.png)
+
+## 片段的狀態 {#fragments-statuses}
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
@@ -67,7 +121,7 @@ ht-degree: 22%
 
 >[!CAUTION]
 >
->由於 Journey Optimizer 6 月版本推出「**草稿**」和「**即時**」狀態，因此在此版本之前建立的所有片段均具有「**草稿**」狀態，即使這些片段用於歷程或活動中亦然。如果您對這些片段進行任何變更，則需要將其發佈，使其進入「**即時**」狀態，並將變更內容傳遞至相關的行銷活動和歷程。您還需要建立一個新的歷程/行銷活動版本，然後進行發佈。發佈需要[Publish片段](../administration/ootb-product-profiles.md#content-library-manager)使用者許可權。
+>由於 Journey Optimizer 6 月版本推出「**草稿**」和「**即時**」狀態，因此在此版本之前建立的所有片段均具有「**草稿**」狀態，即使這些片段用於歷程或活動中亦然。如果您對這些片段進行任何變更，則需要將其發佈，使其進入「**即時**」狀態，並將變更內容傳遞至相關的行銷活動和歷程。您還需要建立一個新的歷程/行銷活動版本，然後進行發佈。發佈需要[發佈片段](../administration/ootb-product-profiles.md#content-library-manager)使用者許可權。
 
 ## 編輯片段 {#edit-fragments}
 
@@ -105,7 +159,7 @@ ht-degree: 22%
    >
    >編輯已發佈的片段時，您可以移除任何個人化欄位，但無法將新欄位新增至片段內容。 如果您想要新增個人化屬性，您必須復製片段。 [了解更多](#adding-new-attributes)
 
-1. 準備好變更後，請儲存變更並按一下&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕，讓您的修改上線。 [了解更多](create-fragments.md#publish)
+1. 一旦您的變更準備就緒後，請儲存變更並按一下&#x200B;**[!UICONTROL 發佈]**&#x200B;按鈕讓您的修改上線。 [了解更多](create-fragments.md#publish)
 
 當您編輯片段時，變更會自動傳播至使用該片段的所有內容，包括即時歷程和行銷活動，但您中斷原始片段繼承的內容除外。
 

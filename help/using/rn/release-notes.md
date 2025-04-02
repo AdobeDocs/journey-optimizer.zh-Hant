@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6ce4bc2874b90b7ff9634fc56d8a0f89a8bead31
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 85%
+source-wordcount: '613'
+ht-degree: 79%
 
 ---
 
@@ -22,6 +22,20 @@ ht-degree: 85%
 
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
+
+## 2025年4月更新
+
+### 改進項目 {#25-04-improv}
+
+**內容管理**
+
+為了輕鬆管理您的內容範本和片段，您現在可以使用資料夾將它們更有效地組織到結構化的階層中。
+
+在[內容範本](../content-management/access-content-templates.md#folders)和[片段](../content-management/manage-fragments.md#folders)區段中瞭解更多。
+
+>[!AVAILABILITY]
+>
+>這項改善僅適用於一組組織（可用性限制）。
 
 ## 2025年3月發行說明 {#25-3-rn}
 
@@ -183,11 +197,7 @@ ht-degree: 85%
 
 如需商業規則的詳細資訊，請參閱[詳細檔案](../configuration/rule-sets.md)。
 
-<!--**Content management**
-
-To easily manage your fragments and your content templates, you can now use folders to organize them more effectively into a structured hierarchy. This improvement is only available for a set of organizations (Limited Availability). <!--To gain access, contact your Adobe representative.
-
-**Deliverability**
+<!--**Deliverability**
 
 You can now choose to have your emails relayed to your SMTP servers instead of being sent directly from Journey Optimizer to ISPs. This allows you to route final email deliveries through your own Mail Transfer Agents and IPs, or to perform final validations on the emails before sending them to your recipients. The SMTP relay capacity is available on demand - contact your Adobe representative.-->
 

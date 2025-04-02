@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 5%
+source-wordcount: '626'
+ht-degree: 3%
 
 ---
 
@@ -24,6 +24,16 @@ ht-degree: 5%
 
 所有在目前沙箱上建立的範本(來自歷程或使用&#x200B;**[!UICONTROL 另存為範本]**&#x200B;選項（來自&#x200B;**[!UICONTROL 內容範本]**&#x200B;功能表）的行銷活動)都會顯示。 [瞭解如何建立範本](#create-content-templates)
 
+左側的窗格可讓您將內容範本整理到資料夾中。 依預設，會顯示所有範本。 選取資料夾時，只會顯示所選資料夾中包含的範本和資料夾。 [了解更多](#folders)
+
+>[!NOTE]
+>
+>內容範本資料夾僅適用於一組組織（可用性限制），並將逐步推出給更多使用者。
+
+![](assets/content-template-list-folders.png)
+
+若要尋找特定專案，請在搜尋欄位中開始輸入名稱。 選取[資料夾](#folders)時，搜尋會套用至該資料夾<!--(not nested items)-->階層第一層級中的所有內容範本或資料夾。
+
 您可以依下列方式排序內容範本：
 * 類型
 * Channel
@@ -33,6 +43,44 @@ ht-degree: 5%
 您也可以選擇只顯示您自己建立或修改的專案。
 
 ![](assets/content-template-list-filters.png)
+
+## 使用資料夾管理內容範本 {#folders}
+
+>[!AVAILABILITY]
+>
+>內容範本資料夾僅適用於一組組織（可用性限制），並將逐步推出給更多使用者。
+
+若要輕鬆導覽您的內容範本，您可以使用資料夾來更有效地將其組織到結構化階層中。 這可讓您根據組織需求將專案分類和管理。
+
+![](assets/content-template-folders.png)
+
+1. 按一下&#x200B;**[!UICONTROL 所有內容範本]**&#x200B;按鈕，以顯示先前建立的所有專案，但不包含資料夾群組。
+
+1. 按一下&#x200B;**[!UICONTROL Root]**&#x200B;資料夾以顯示所有已建立的資料夾。
+
+   >[!NOTE]
+   >
+   >如果您尚未建立資料夾，則會顯示所有內容範本。
+
+1. 按一下&#x200B;**[!UICONTROL 根]**&#x200B;資料夾內的任何資料夾以顯示其內容。
+
+1. 按一下&#x200B;**[!UICONTROL 根]**&#x200B;資料夾或任何其他資料夾後，**[!DNL Create folder]**&#x200B;按鈕就會顯示。 選取它。
+
+   ![](assets/content-template-create-folder.png)
+
+1. 輸入新資料夾的名稱，然後按一下[儲存]。**** 新資料夾會顯示在&#x200B;**[!UICONTROL Root]**&#x200B;資料夾內內容範本清單的頂端，或顯示在目前選取的資料夾內。
+
+1. 您可以按一下&#x200B;**[!UICONTROL 其他動作]**&#x200B;按鈕，重新命名或刪除資料夾。
+
+   ![](assets/content-template-folder-more-actions.png)
+
+1. 使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕，您也可以將內容範本移至其他現有資料夾。
+
+   ![](assets/content-template-folder-moved.png)
+
+1. 現在您可以導覽至您剛建立的資料夾。 您[從此處](create-content-templates.md)建立的每個新內容範本都會儲存到目前的資料夾中。
+
+   ![](assets/content-template-folder-create.png)
 
 ## 編輯和刪除內容範本 {#edit}
 
@@ -54,7 +102,7 @@ ht-degree: 5%
 
 >[!AVAILABILITY]
 >
-此功能以有限可用性 (LA) 形式向一小部分客戶發布。
+此功能以可用性限制 (LA) 形式向一小部分客戶發行。
 
 ![](assets/content-template-grid-view.png)
 
