@@ -7,7 +7,7 @@ role: User
 level: Experienced
 badge: label="有限可用性"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
+source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 5%
@@ -27,7 +27,7 @@ ht-degree: 5%
 
 ## 客戶歷程分析報告 {#cja}
 
-如果您正在使用Customer Journey Analytics，可以利用Decisioning為您的程式碼型行銷活動建立自訂報告儀表板。
+如果您使用Customer Journey Analytics，可以利用Decisioning為您的程式碼型行銷活動建立自訂報告儀表板。
 
 主要步驟列於下方。 有關如何使用Customer Journey Analytics的詳細資訊，請參閱[Customer Journey Analytics檔案](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}。
 

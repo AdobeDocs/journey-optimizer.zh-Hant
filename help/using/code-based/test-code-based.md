@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: c402a8ab41eb588eae47463fd0217693853d8ca7
+source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '732'
 ht-degree: 24%
 
 ---
@@ -37,6 +37,11 @@ ht-degree: 24%
 1. 畫面上會顯示已修改程式碼式體驗的預覽。
 
 有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱[本節](../content-management/preview.md)。
+
+>[!NOTE]
+>
+>目前無法使用[決策](../experience-decisioning/gs-experience-decisioning.md)，從程式碼式體驗行銷活動或歷程的使用者介面模擬內容。 [此區段](../experience-decisioning/create-decision.md)中有因應措施。
+
 
 ## 在裝置上預覽 {#preview-on-device}
 

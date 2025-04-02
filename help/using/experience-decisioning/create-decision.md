@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 3abaa58fa4fa3baae5c7072bdc112de4a5e9119a
+source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 15%
+source-wordcount: '1761'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 15%
 
 決策原則是優惠方案的容器，可運用決策引擎，根據對象挑選最佳內容進行傳遞。
 
-決定原則包含決策引擎選擇最佳內容的所有選擇邏輯。決定原則是針對行銷活動的。其目標是為每個設定檔選擇最佳產品建議，而行銷活動製作允許您指明如何呈現所選決定項目，包括要在訊息中包含哪些項目屬性。
+<!--Decision policies contain all of the selection logic for the decisioning engine to pick the best content. Decision policies are campaign specific. -->其目標是為每個設定檔選取最佳優惠方案，而行銷活動/歷程製作可讓您指示應如何顯示選取的決策專案，包括要包含在訊息中的專案屬性。
 
 >[!NOTE]
 >
@@ -31,11 +31,11 @@ ht-degree: 15%
 
 將決定政策用於程式碼型行銷活動的主要步驟如下：
 
-1. [在程式碼型行銷活動中建立決定原則](#add-decision)
-1. [將決定原則用於程式碼型行銷活動](#use-decision-policy)
-1. [建立自訂Customer Journey Analytics報告儀表板](#cja)
+1. [將決定原則新增至程式碼型體驗](#add-decision)
+1. [使用決定原則](#use-decision-policy)
+1. [建立自訂Customer Journey Analytics報告儀表板](cja-reporting.md)
 
-## 將決定原則新增至基於程式碼的行銷活動 {#add-decision}
+## 將決定原則新增至程式碼型體驗 {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
@@ -54,7 +54,7 @@ ht-degree: 15%
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="建立策略"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="評估順序"
 
-若要在您的網站或行動應用程式上向訪客呈現最佳動態優惠和體驗，請將決定原則新增至程式碼型行銷活動。 若要執行此操作，請遵循下列步驟。
+若要在您的網站或行動應用程式上向訪客呈現最佳動態優惠和體驗，請將決定原則新增至程式碼型促銷活動或歷程。 若要執行此操作，請遵循下列步驟。
 
 ### 建立決定原則 {#add}
 
@@ -221,3 +221,33 @@ ht-degree: 15%
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
+1. 按一下&#x200B;**[!UICONTROL 儲存並關閉]**&#x200B;以確認您的變更。
+
+## 測試並發佈您的程式碼型體驗 {#test-and-publish}
+
+請依照下列步驟完成程式碼型體驗，並即時進行變更。
+
+1. 發佈前，顯示程式碼型體驗的預覽以進行測試。
+
+   >[!CAUTION]
+   >
+   >目前您無法在[程式碼型體驗](../code-based/create-code-based.md)促銷活動或歷程中使用決定，從使用者介面模擬內容。
+
+   若要測試決策，您可以將`dryRun`標幟新增至使用者端實作中的XDM事件`data`區塊：
+
+   ```
+   {
+   "data": {
+       "__adobe": {
+       "ajo":
+   {         "dryRun": true       }
+       }
+   }
+   }
+   ```
+
+1. 檢閱並發佈您的程式碼型體驗行銷活動或歷程。 [了解作法](../code-based/publish-code-based.md)
+
+   現在，當您的開發人員執行API或SDK呼叫，擷取您頻道設定中定義之表面的內容時，變更就會套用至您的網頁或應用程式。
+
+1. 若要檢視決策的執行狀況，您現在可以建立自訂[Customer Journey Analytics報告控制面板](cja-reporting.md)。
