@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 運算式，編輯器，關於，開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 4240f64cd7b6473f589d2324a2ebf87e2c60d394
+source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 11%
+source-wordcount: '1436'
+ht-degree: 10%
 
 ---
 
@@ -99,9 +99,15 @@ Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。  個人化 
 >title="自動完成"
 >abstract="啟用此選項後，可允許系統在您輸入時自動建議並完成程式碼。此功能僅適用於 HTML 和文字格式，並支援設定檔和內容屬性。如果透過切換進行停用，編輯器將提供原生 HTML 程式碼自動完成。"
 
-中央工作區是您建置個人化語法的位置。 若要使用屬性來個人化您的訊息，請在導覽窗格中找出該屬性，然後按一下`+`按鈕，將該屬性加入運算式中。
+中央工作區是您建置個人化語法的位置。 若要使用屬性來個人化您的訊息，請找到屬性窗格，然後按一下`+`按鈕，將其加入運算式。
+
+![](assets/personalization-add-attribute.png)
 
 `+`圖示旁的省略符號功能表可讓您取得每個屬性的詳細資訊，並將您最常用的屬性新增至我的最愛。 可透過導覽窗格中的&#x200B;**[!UICONTROL 我的最愛]**&#x200B;功能表存取新增至我的最愛的屬性。
+
+>[!NOTE]
+>
+>依預設，屬性窗格只會顯示填入的屬性。 若要顯示所有屬性，請選取搜尋欄位上方的![](assets/do-not-localize/settings-icon.svg)按鈕，並切換&#x200B;**[!UICONTROL 僅顯示填入的屬性]**&#x200B;選項。
 
 此外，您可以定義預設後援文字，當字串型別的設定檔屬性為空白時將會顯示。 若要這麼做，請按一下屬性旁的省略符號按鈕，然後選取&#x200B;**[!UICONTROL 插入後援文字]**。 如果設定檔的屬性值是空的，則寫入預設應顯示的文字，然後按一下&#x200B;**[!UICONTROL 新增]**。
 
