@@ -5,16 +5,25 @@ title: 使用Adobe Journey Optimizer開始和監視多步驟行銷活動
 description: 瞭解如何使用Adobe Journey Optimizer開始和監視多步驟行銷活動
 hide: true
 hidefromtoc: true
-source-git-commit: f73d847c1d335260a0198e844d237a652e346729
+exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
+source-git-commit: 70864a3e14a748562518c699513184e0f63c1139
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 0%
+source-wordcount: '579'
+ht-degree: 1%
 
 ---
 
-# 開始和監視您的多步驟行銷活動 {#start-monitor}
+# 開始和監視您協調的行銷活動 {#start-monitor}
 
-一旦您建立了工作流程並設計了要在畫布中執行的任務，您就可以啟動它並監視其執行方式。
+<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">您的瀏覽器不支援音訊元素。</audio>
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_publication"
+>title="發佈協調的行銷活動"
+>abstract="若要開始您的行銷活動，您必須將其發佈。 確保在發佈之前清除所有警告。"
+
+
+一旦您建立了協調流程並設計了要在畫布中執行的任務，您就可以發佈它並監視其執行方式。
 
 ## 開始多步驟行銷活動 {#start}
 
