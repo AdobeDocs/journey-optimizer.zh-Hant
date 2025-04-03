@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
+source-git-commit: effc706cfa56eca21cde0f26fe7b6332d3728b74
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 24%
@@ -40,7 +40,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->目前無法使用[決策](../experience-decisioning/gs-experience-decisioning.md)，從程式碼式體驗行銷活動或歷程的使用者介面模擬內容。 [此區段](../experience-decisioning/create-decision.md)中有因應措施。
+>目前無法使用[決策](../experience-decisioning/gs-experience-decisioning.md)，從程式碼式體驗行銷活動或歷程的使用者介面模擬內容。 [此區段](../experience-decisioning/create-decision.md#test-and-publish)中有因應措施。
 
 
 ## 在裝置上預覽 {#preview-on-device}
