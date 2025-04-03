@@ -10,7 +10,7 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 運算式，編輯器，關於，開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
+source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 10%
@@ -107,7 +107,7 @@ Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。  個人化 
 
 >[!NOTE]
 >
->依預設，屬性窗格只會顯示填入的屬性。 若要顯示所有屬性，請選取搜尋欄位上方的![](assets/do-not-localize/settings-icon.svg)按鈕，並切換&#x200B;**[!UICONTROL 僅顯示填入的屬性]**&#x200B;選項。
+>依預設，屬性窗格只會顯示填入的屬性。 若要顯示所有屬性，請選取搜尋欄位上方的![](assets/do-not-localize/settings-icon.svg)按鈕，並關閉&#x200B;**[!UICONTROL 只顯示填入的屬性]**&#x200B;選項。
 
 此外，您可以定義預設後援文字，當字串型別的設定檔屬性為空白時將會顯示。 若要這麼做，請按一下屬性旁的省略符號按鈕，然後選取&#x200B;**[!UICONTROL 插入後援文字]**。 如果設定檔的屬性值是空的，則寫入預設應顯示的文字，然後按一下&#x200B;**[!UICONTROL 新增]**。
 
