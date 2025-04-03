@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6d4b7669-7852-42f0-9347-399a3994011f
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '542'
 ht-degree: 3%
 
 ---
 
 # 推播通知歷程報告 {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+您可以按一下歷程中的&#x200B;**[!UICONTROL 檢視報告]**&#x200B;按鈕，存取推播通知歷程報告。 [了解更多](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
+
+>[!ENDSHADEBOX]
 
 ## 正在傳送統計數據 {#sending-statistics-push}
 
@@ -57,9 +65,7 @@ ht-degree: 3%
 
 * **[!UICONTROL 不重複點按]**：點按推播通知中內容的設定檔數目。
 
-<!--
-* **[!UICONTROL Push custom actions]**: 
--->
+* **[!UICONTROL 推播自訂動作]**：設定檔回應推播通知所採取的自訂動作數目。
 +++
 
 ## 追蹤的連結標籤 {#track-link-label-push}

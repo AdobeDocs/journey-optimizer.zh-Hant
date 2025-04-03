@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b0771fd9-72bd-4891-a394-f08e3dde6126
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '370'
 ht-degree: 4%
 
 ---
 
 # 直接郵件行銷活動報告 {#campaign-global-report-cja-direct}
+
+>[!BEGINSHADEBOX]
+
+您可以按一下行銷活動中的&#x200B;**[!UICONTROL 報表]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 檢視所有時間報表]**，以存取您的直接郵件行銷活動報表。 [了解更多](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## 正在傳送統計數據 {#sending-statistics-directmail}
 

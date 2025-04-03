@@ -8,18 +8,24 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 33b6cc18-dd63-48d9-8d85-526500d83d37
-source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 2%
+source-wordcount: '385'
+ht-degree: 3%
 
 ---
 
 # 程式碼型歷程報告 {#journey-global-report}
 
+>[!INFO]
+>
+> 您的歷程報告可能同時顯示多個歷程的資訊，因為使用者一次可以涉及多個歷程。 因此，如果輸入通訊（應用程式內、網頁和程式碼型）是為參與同時作用中歷程的使用者觸發的，則可能會顯示在多個歷程中，這可能會造成資料重疊。
+
 >[!BEGINSHADEBOX]
 
-您的歷程報告可能同時顯示多個歷程的資訊，因為使用者一次可以涉及多個歷程。 因此，如果輸入通訊（應用程式內、網頁和程式碼型）是為參與同時作用中歷程的使用者觸發的，則可能會顯示在多個歷程中，這可能會造成資料重疊。
+您可以按一下歷程中的&#x200B;**[!UICONTROL 檢視報告]**&#x200B;按鈕，存取您的程式碼型歷程報告。 [了解更多](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
 
 >[!ENDSHADEBOX]
 

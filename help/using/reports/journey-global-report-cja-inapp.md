@@ -8,28 +8,34 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '611'
 ht-degree: 2%
 
 ---
 
 # 應用程式內歷程報告 {#journey-global-report}
 
+>[!INFO]
+>
+>您的歷程報告可能同時顯示多個歷程的資訊，因為使用者一次可以涉及多個歷程。 因此，如果輸入通訊（應用程式內、網頁和程式碼型）是為參與同時作用中歷程的使用者觸發的，則可能會顯示在多個歷程中，這可能會造成資料重疊。
+
 >[!BEGINSHADEBOX]
 
-您的歷程報告可能同時顯示多個歷程的資訊，因為使用者一次可以涉及多個歷程。 因此，如果輸入通訊（應用程式內、網頁和程式碼型）是為參與同時作用中歷程的使用者觸發的，則可能會顯示在多個歷程中，這可能會造成資料重疊。
+您可以按一下歷程中的&#x200B;**[!UICONTROL 報告]**&#x200B;按鈕，存取應用程式內歷程報告。 [了解更多](report-gs-cja.md)
+
+![](assets/report-access.png)
 
 >[!ENDSHADEBOX]
 
-## 曝光與點按趨勢 {#impression-click-trend}
+## 顯示與點選趨勢 {#display-click-trend}
 
 ![](assets/cja-inapp-impressions-click.png)
 
-**[!UICONTROL 曝光與點按趨勢]**&#x200B;圖表提供設定檔與應用程式內訊息互動的詳細分析，提供設定檔與內容互動方式的寶貴見解。
+**[!UICONTROL 顯示和點按趨勢]**&#x200B;圖表提供設定檔與應用程式內訊息互動的詳細分析，提供設定檔與內容互動方式的寶貴見解。
 
-+++ 進一步瞭解「曝光與點選」趨勢量度
++++ 進一步瞭解「顯示和點按趨勢」量度
 
 * **[!UICONTROL 點按]**：內容在您應用程式內訊息中的點按次數。
 

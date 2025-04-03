@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 * [行銷活動](#campaign)
 * [管道](#channel)
 
-若要瞭解有關Customer Journey AnalyticsWorkspace以及如何篩選和分析資料的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
+若要瞭解有關Customer Journey Analytics Workspace以及如何篩選和分析資料的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 反白顯示 {#highlights}
 
@@ -87,7 +87,11 @@ ht-degree: 1%
 
 * **[!UICONTROL 人員]**：符合訊息目標設定檔資格的使用者設定檔數目。
 
+* **[!UICONTROL 點進率(CTR)]**：您訊息中的點按百分比。
+
 * **[!UICONTROL 傳送]**：每個行銷活動的傳送總數。
+
+* **[!UICONTROL 已傳遞]**：已成功傳送的訊息數。
 
 * **[!UICONTROL 顯示]**：訊息開啟的次數。
 
@@ -107,9 +111,9 @@ ht-degree: 1%
 
 * **[!UICONTROL 人員]**：符合訊息目標設定檔資格的使用者設定檔數目。
 
-* **[!UICONTROL 點進率]**：您訊息中的點按百分比。
+* **[!UICONTROL 點進率(CTR)]**：您訊息中的點按百分比。
 
-* **[!UICONTROL 傳送]**：每個行銷活動的傳送總數。
+* **[!UICONTROL 已傳遞]**：已成功傳送的訊息數。
 
 * **[!UICONTROL 顯示]**：訊息開啟的次數。
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '3705'
+source-wordcount: '3712'
 ht-degree: 30%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 30%
 
 從「最近24小時」索引標籤存取的即時報告，會顯示過去24小時內發生的事件，從事件發生起的最短時間間隔為兩分鐘。 相較之下，Customer Journey Analytics報表著重於至少兩小時前發生的事件，並涵蓋選定時段內的事件。
 
-可以使用&#x200B;**[!UICONTROL 檢視報告]**&#x200B;按鈕，直接從您的歷程存取歷程即時報告。
+從[!UICONTROL 歷程]功能表存取即時歷程報告，方法是開啟歷程的[!UICONTROL 更多動作]功能表並選取[!UICONTROL 檢視過去24小時的報告]。
 
 ![](assets/report_journey.png)
 

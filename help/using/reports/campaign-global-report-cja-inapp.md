@@ -9,14 +9,22 @@ role: User
 level: Intermediate
 badge: label="可用性限制" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 2%
+source-wordcount: '563'
+ht-degree: 3%
 
 ---
 
 # 應用程式內行銷活動報告 {#campaign-global-report-cja-inapp}
+
+>[!BEGINSHADEBOX]
+
+您可以按一下行銷活動中的&#x200B;**[!UICONTROL 報表]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 檢視所有時間報表]**，以存取應用程式內行銷活動報表。 [了解更多](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## 顯示與點選趨勢 {#impression-click-trend}
 

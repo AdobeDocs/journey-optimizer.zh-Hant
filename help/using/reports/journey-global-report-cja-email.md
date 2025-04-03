@@ -8,20 +8,27 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1077'
 ht-degree: 2%
 
 ---
 
 # 電子郵件歷程報告 {#journey-global-report}
 
+>[!INFO]
+>
+>由於Apple為原生郵件應用程式引入了新的隱私權保護功能，包括郵件隱私權保護，因此傳送者無法再使用追蹤畫素來收集已啟用Apple郵件隱私權保護的設定檔資料。 因此，Adobe Journey Optimizer使用追蹤畫素來追蹤電子郵件開啟的能力可能會受到影響。
+> [深入瞭解](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) Apple iOS隱私權變更對電子郵件行銷的影響。
+> 
+> 我們建議將重點放在點按次數和轉換量度上，而非開放率，以取得更準確的深入分析。
+
 >[!BEGINSHADEBOX]
 
-由於Apple為原生郵件應用程式引入了新的隱私權保護功能，包括郵件隱私權保護，因此傳送者無法再使用追蹤畫素來收集已啟用Apple郵件隱私權保護的設定檔資料。 因此，Adobe Journey Optimizer使用追蹤畫素來追蹤電子郵件開啟的能力可能會受到影響。 [深入瞭解](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) Apple iOS隱私權變更對電子郵件行銷的影響。
+您可以按一下歷程中的&#x200B;**[!UICONTROL 檢視報告]**&#x200B;按鈕，存取您的電子郵件歷程報告。 [了解更多](report-gs-cja.md)
 
-我們建議將重點放在點按次數和轉換量度上，而非開放率，以取得更準確的深入分析。
+![](assets/report-access-jo.png)
 
 >[!ENDSHADEBOX]
 

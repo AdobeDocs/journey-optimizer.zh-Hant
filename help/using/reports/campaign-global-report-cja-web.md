@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 39441fe9-5cdc-4787-9267-798de80e3af2
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 2%
+source-wordcount: '538'
+ht-degree: 3%
 
 ---
 
 # 網頁行銷活動報告 {#campaign-global-report-cja-web}
+
+>[!BEGINSHADEBOX]
+
+您可以按一下行銷活動中的&#x200B;**[!UICONTROL 報告]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 檢視所有時間報告]**，以存取您的網站行銷活動報告。 [了解更多](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## 曝光與點按趨勢 {#impressions-web}
 
