@@ -6,16 +6,17 @@ description: 瞭解如何使用Adobe Journey Optimizer開始和監視多步驟�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 70864a3e14a748562518c699513184e0f63c1139
+source-git-commit: 990d49202a790b5a117a7da665ed32f52f27b554
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '571'
 ht-degree: 1%
 
 ---
 
 # 開始和監視您協調的行銷活動 {#start-monitor}
 
-<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">您的瀏覽器不支援音訊元素。</audio>
+<!--
+<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
