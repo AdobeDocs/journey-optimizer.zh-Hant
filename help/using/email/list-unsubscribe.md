@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: 0fd6c054b9b4df9e3ed900c610e0d1186e479750
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 48%
+ht-degree: 51%
 
 ---
 
@@ -53,9 +53,9 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="新增取消訂閱 URL 至您的電子郵件"
->abstract="啟用此選項以自動將取消訂閱URL新增至電子郵件標題。 透過在電子郵件內容中插入一鍵式選擇退出連結，您也可在訊息中設定取消訂閱 URL。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="設定電子郵件內容的一鍵選擇退出"
+>title="將取消訂閱 URL 新增至您的電子郵件"
+>abstract="啟用此選項，自動將取消訂閱 URL 新增至電子郵件標頭。透過在電子郵件內容中插入一鍵式選擇退出連結，您也可在訊息中設定取消訂閱 URL。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="設定一鍵式選擇退出電子郵件內容"
 
 啟用&#x200B;**[!UICONTROL 啟用List-Unsubscribe]**&#x200B;選項時，如果收件者的電子郵件使用者端支援，則電子郵件標題預設會包含收件者可用以取消訂閱您郵寄清單的郵件和/或URL。
 
@@ -106,8 +106,8 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom_url"
->title="輸入您自己的單鍵取消訂閱URL"
->abstract="**一鍵取消訂閱URL**&#x200B;必須使用POST要求方法。"
+>title="輸入您自己的一鍵式取消訂閱 URL"
+>abstract="**一鍵式取消訂閱 URL** 必須使用 POST 要求方法。"
 
 如果您在 Adobe 外部管理同意，請選取&#x200B;**[!UICONTROL 客戶管理]**&#x200B;選項，即可輸入自訂取消訂閱電子郵件地址，還有自己的一鍵式取消訂閱 URL。
 

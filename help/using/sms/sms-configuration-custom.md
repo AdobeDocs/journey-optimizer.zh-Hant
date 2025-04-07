@@ -11,7 +11,7 @@ exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: 201d7d367540f7b36f27ca4a09b6f0ce12e3e22f
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 2%
+ht-degree: 27%
 
 ---
 
@@ -19,23 +19,23 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
->title="提供者URL"
->abstract="指定您計畫連線之外部API的URL。 此URL可當作存取API特色與功能的端點。"
+>title="提供者 URL"
+>abstract="指定您計劃連線之外部 API 的 URL。此 URL 會做為存取 API 功能的端點。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_auth_type"
 >title="驗證類型"
->abstract="指定存取API所需的驗證方法，例如OAuth或持有人權杖。 這可確保與外部服務的安全且授權通訊。"
+>abstract="指定存取 API 所需的驗證方法，例如 OAuth 或 Bearer 權杖。這能確保與外部服務的通訊是安全且獲得授權的。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_header_parameters"
 >title="標頭參數"
->abstract="指定其他標頭的標籤、型別和值，以啟用適當的驗證、內容格式化和有效的API通訊。 "
+>abstract="指定附加標頭的標籤、類型和值，以啟用正確的驗證、內容格式和有效的 API 通訊。 "
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_payload"
->title="提供者裝載"
->abstract="提供要求裝載，以確保傳送正確的資料以進行處理和產生回應。"
+>title="提供者承載"
+>abstract="提供要求承載，確保能發送用於進行處理和產生回應的正確資料。"
 
 >[!AVAILABILITY]
 >
