@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙箱，歷程，複製，環境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
+source-git-commit: ead10229b82aa8cb2e638ac9c26539de766f3497
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1100'
 ht-degree: 4%
 
 ---
@@ -51,7 +51,7 @@ Journey Optimizer可將歷程、內容範本和片段匯出至另一個沙箱。
 
 * 復製程式只會複製歷程的中繼資料以及該歷程中的物件。 此程式不會複製任何設定檔或資料集資料。
 
-### 行銷活動(#campaigns)
+### 行銷活動 {#campaigns}
 
 行銷活動會連同與設定檔、對象、結構、內嵌訊息和相依物件相關的所有專案一起複製。
 
