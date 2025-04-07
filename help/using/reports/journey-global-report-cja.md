@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ![](assets/gs-cja-report-3.png)
 
-若要瞭解有關Customer Journey Analytics Workspace以及如何篩選和分析資料的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
+若要進一步瞭解Customer Journey Analytics Workspace以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 歷程概觀 {#journey-global}
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 **[!UICONTROL 歷程]**&#x200B;關鍵績效指標(KPI)可作為全方位儀表板，提供與您的歷程相關之基本量度的分析。 這包含已輸入設定檔計數和失敗個別歷程例項等詳細資訊，提供歷程成效和參與層級的全面深入分析。
 
-+++ 進一步瞭解歷程KPI量度
++++ 進一步瞭解Journey KPI量度
 
 * **[!UICONTROL 歷程參與]**：接收透過歷程傳送之訊息的不重複個人總數，代表到達歷程中指定動作點的不同設定檔。
 

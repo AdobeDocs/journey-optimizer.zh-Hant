@@ -9,7 +9,7 @@ role: Admin, Data Engineer, User
 level: Intermediate, Experienced
 keywords: 歷程，訊息，行銷活動，整合
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 2%
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 我們將先在Campaign中建立交易式電子郵件範本。 然後，在Journey Optimizer中，我們將建立事件、動作並設計歷程。
 
-若要瞭解有關Campaign整合的詳細資訊，請參閱以下頁面：
+若要進一步瞭解Campaign整合，請參閱以下頁面：
 
 * [建立行銷活動動作](../action/acc-action.md)
 * [在歷程中使用動作](../building-journeys/using-adobe-campaign-v7-v8.md)。
@@ -51,7 +51,7 @@ ht-degree: 2%
 
    ![](assets/accintegration-uc-3.png)
 
-1. Publish您的交易式範本。
+1. 發佈您的交易式範本。
 
    ![](assets/accintegration-uc-4.png)
 

@@ -11,10 +11,10 @@ keywords: 資產，整合
 hide: true
 hidefromtoc: true
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 6ce4bc2874b90b7ff9634fc56d8a0f89a8bead31
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 10%
 
 Adobe Journey Optimizer中的Adobe Express整合可讓您在建立內容時輕鬆存取Adobe Express強大的編輯工具。 此整合可讓您調整影像大小、移除背景、裁切視覺效果，以及將資產轉換為JPEG或PNG，而不需要在解決方案之間切換。
 
-如需瞭解 Adobe Express 的詳細資訊，請參閱[本文件](https://helpx.adobe.com/tw/express/user-guide.html)。
+若要進一步瞭解Adobe Express，請參閱[本檔案](https://helpx.adobe.com/tw/express/user-guide.html)。
 
 若要存取&#x200B;**[!DNL Adobe Express]**&#x200B;功能表，請從電子郵件設計工具存取您的&#x200B;**影像設定**，然後按一下[在Adobe Express中編輯] ****。
 
