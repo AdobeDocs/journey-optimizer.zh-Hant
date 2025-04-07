@@ -9,19 +9,25 @@ role: User
 level: Intermediate
 keywords: 活動，條件，畫布，歷程
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
+source-git-commit: 8a4315940595113441a5f5fb51a3c6573c79cff3
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 17%
+source-wordcount: '1541'
+ht-degree: 14%
 
 ---
 
-# 條件活動{#condition-activity}
+# 條件活動 {#condition-activity}
+
+## 新增條件活動 {#add-condition-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="條件活動"
->abstract="此活動可讓您定義個人在歷程中的流動方式。將根據各種條件建立多條路徑。您還可以在發生逾時或錯誤的情況下建立替代路徑。"
+>abstract="**條件**&#x200B;活動可讓您根據特定條件建立多個路徑，以定義個人在您的歷程中如何前進。 您也可以設定替代路徑來處理逾時或錯誤，確保順暢的體驗。"
+
+**條件**&#x200B;活動可讓您根據特定條件建立多個路徑，以定義個人在您的歷程中如何前進。 您也可以設定替代路徑來處理逾時或錯誤，確保順暢的體驗。
+
+![](assets/journey49.png)
 
 可使用下列型別的條件：
 
@@ -31,9 +37,9 @@ ht-degree: 17%
 * [日期條件](#date_condition)
 * [設定檔上限](#profile_cap)
 
-![](assets/journey49.png)
+您也可以在歷程條件中使用對象。 [了解更多](#using-a-segment)
 
-## 關於條件活動 {#about_condition}
+## 新增及管理條件路徑 {#about_condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
@@ -48,7 +54,7 @@ ht-degree: 17%
 
 請注意，歷程的設計具有功能影響。 在條件之後定義數個路徑時，只會執行第一個符合資格的路徑。 這表示您可以透過將路徑置於彼此上方或下方來改變路徑的優先順序。
 
-例如，讓我們以第一個路徑的條件「Person is a VIP」以及第二個路徑的條件「Person is a male」為例。 如果同時符合兩個條件的人(身為VIP的男性)通過此步驟，即使此人也有資格進入第二個路徑，仍會選擇第一個路徑，因為第一個路徑為「以上」。 若要變更此優先順序，請以另一個垂直順序移動您的活動。
+讓我們以第一個路徑的條件「個人是VIP」以及第二個路徑的條件「個人是男性」為例。 如果同時符合兩個條件的人(身為VIP的男性)通過此步驟，即使此人也有資格進入第二個路徑，仍會選擇第一個路徑，因為第一個路徑為「以上」。 若要變更此優先順序，請以另一個垂直順序移動您的活動。
 
 ![](assets/journey48.png)
 
@@ -102,7 +108,7 @@ ht-degree: 17%
 
 ## 百分比分割 {#percentage_split}
 
-此選項可讓您隨機分割對象，以針對每個群組定義不同的動作。 定義每個路徑的分割數與重新分割區。 分割計算是統計性的，因為系統無法預測有多少人會在此歷程的活動中流動。 因此，分割的錯誤邊界非常低。 此函式以Java隨機機製為基礎（請參閱此[頁面](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)）。
+此選項可讓您隨機分割對象，以針對每個群組定義不同的動作。 定義每個路徑的分割數與重新分割區。 分割計算是統計性的，因為系統無法預測有多少人會在此歷程的活動中流動。 因此，分割的錯誤邊界非常低。 此函式以Java隨機機製為基礎（請參閱此[頁面](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html){target="_blank"}）。
 
 在測試模式中，達到分割時，一律選擇頂端分支。 如果您希望測試選擇不同的路徑，可以重新組織分割分支的位置。 請參見[此頁面](../building-journeys/testing-the-journey.md)。
 
