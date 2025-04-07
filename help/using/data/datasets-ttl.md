@@ -6,21 +6,21 @@ description: ' [!DNL Adobe Journey Optimizer]中的資料集存留時間護欄'
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
-keywords: platform、資料湖、建立、湖、資料集、輪廓
+keywords: 平台、資料湖、建立、湖、資料集、設定檔
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 0e164877044430509fc7b2f2bf3ca2eda8e7497b
+source-git-commit: 7243da6ecab9bce2afeb86a35d35b7bc94d4d196
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 12%
+source-wordcount: '672'
+ht-degree: 18%
 
 ---
 
-# 資料集存留時間(TTL)護欄 {#ttl-guardrail}
+# 資料集存留時間 (TTL) 護欄 {#ttl-guardrail}
 
-自2025年2月起，存留時間(TTL)護欄將轉出至&#x200B;**新沙箱和新組織**&#x200B;中的Journey Optimizer系統產生的資料集，如下所示：
+自 2025 年 2 月起，將在 **新沙箱和新組織** 中，向 Journey Optimizer 系統產生的資料集，開放使用存留時間 (TTL) 護欄功能，如下所示：
 
-* 90天用於設定檔存放區的資料，
-* Data Lake中的資料為13個月。
+* 輪廓存放區中的資料為 90 天
+* 資料湖中的資料為 13 個月
 
 此變更將在後續階段中轉出到&#x200B;**現有的客戶沙箱**。
 
@@ -81,7 +81,7 @@ ht-degree: 12%
 
 +++客戶能否為Data Lake中的[!DNL Journey Optimizer]系統資料集增加TTL？
 
-目前不支援TTL副檔名。 擁有Real-Time CDP權益的客戶可以透過目的地匯出資料，以保留更長的資料時間。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank}
+目前不支援TTL副檔名。 客戶可以透過目的地匯出資料，以保留更長的資料時間。 [深入瞭解](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank}。 此外，擁有&#x200B;**[!DNL Data Distiller]**&#x200B;權益的客戶可以建立衍生資料集，以便在沒有TTL的情況下將資料儲存在Data Lake中。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank}
 
 +++
 
