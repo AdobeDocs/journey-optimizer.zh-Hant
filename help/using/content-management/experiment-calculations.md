@@ -9,7 +9,7 @@ role: User
 level: Experienced
 keywords: 內容，實驗，統計，計算
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 本文說明Experimentation的運作方式，並直覺地介紹Adobe的&#x200B;**任何時間有效的信賴序列**。
 
-對於專家使用者，[此頁面](../content-management/assets/confidence_sequence_technical_details.pdf)中會詳細說明技術詳細資訊和參考資料。
+對於專家使用者，技術詳細資訊和參考資料會在[此頁面](../content-management/assets/confidence_sequence_technical_details.pdf)上詳細說明。
 
 ## 統計測試和控制錯誤 {#statistical-testing}
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 **信賴序列**&#x200B;將實驗焦點轉移到預估而不是假設測試，也就是專注於精確估計不同處理之間的方式差異，而不是是否根據統計顯著性臨界值拒絕Null假設。
 
-但是，以類似於`p-values` （或&#x200B;**信賴度**）與&#x200B;**信賴區間**&#x200B;之間的關係的方式，**信賴序列**&#x200B;與任何時間有效的`p-values`或任何時間有效的信賴度之間也有關係。 考慮到信賴度等量的熟悉度，Adobe在其報表中同時提供&#x200B;**信賴序列**&#x200B;和任何時間有效的信賴度。
+但是，以類似於`p-values` （或&#x200B;**信賴度**）與&#x200B;**信賴區間**&#x200B;之間的關係的方式，**信賴序列**&#x200B;與任何時間有效的`p-values`或任何時間有效的信賴度之間也有關係。 根據信賴度等量的熟悉度，Adobe會提供&#x200B;**信賴序列**&#x200B;及其報表中的任何時間有效信賴度。
 
 **信賴序列**&#x200B;的理論基礎來自隨機變數（稱為烈酒）序列的研究。 以下提供專家讀者的部分主要結果，但從業者的建議很清楚：
 

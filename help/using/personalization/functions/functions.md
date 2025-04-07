@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2388'
 ht-degree: 27%
@@ -15,7 +15,7 @@ ht-degree: 27%
 
 # 開始使用協助程式函式{#functions}
 
-使用[!DNL Journey Optimizer]範本化語言對資料執行作業，例如計算、資料格式設定或轉換、條件，並在個人化的內容中加以處理。 在[此頁面](../personalization-syntax.md)中瞭解個人化語法准則。
+使用[!DNL Journey Optimizer]範本化語言對資料執行作業，例如計算、資料格式設定或轉換、條件，並在個人化的內容中加以處理。 在[此頁面](../personalization-syntax.md)上瞭解個人化語法准則。
 
 ➡️[在此影片中瞭解如何使用協助程式函式](#video)
 
@@ -424,7 +424,7 @@ ht-degree: 27%
 
 ## 輔助程式{#helper-helper}
 
-協助程式在[此頁面](helpers.md)中有詳細說明。
+協助程式詳細資料於[此頁面](helpers.md)。
 
 
 <table>

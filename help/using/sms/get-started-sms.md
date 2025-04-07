@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 
 文字訊息可在歷程或行銷活動中建立和傳送。 對於 MMS 和 SMS，請使用 SMS 動作。
 
-* 在&#x200B;**歷程**&#x200B;中。建立歷程、新增 SMS 活動及定義基本設定，然後瀏覽至&#x200B;**[!UICONTROL 動作：SMS]** 右窗格以建立 SMS/MMS 訊息的內容。 在[此頁面](../building-journeys/journey-gs.md)中進一步了解如何建立歷程。
+* 在&#x200B;**歷程**&#x200B;中。建立歷程、新增 SMS 活動及定義基本設定，然後瀏覽至&#x200B;**[!UICONTROL 動作：SMS]** 右窗格以建立 SMS/MMS 訊息的內容。 瞭解如何在[此頁面](../building-journeys/journey-gs.md)上建立歷程。
 
-* 在&#x200B;**行銷活動**&#x200B;中。建立行銷活動，選取 SMS 作為您的動作並定義基本設定，然後編輯訊息內容以定義要傳送的 SMS/MMS 訊息。在[此頁面](../campaigns/create-campaign.md#configure)了解如何建立行銷活動。
+* 在&#x200B;**行銷活動**&#x200B;中。建立行銷活動，選取 SMS 作為您的動作並定義基本設定，然後編輯訊息內容以定義要傳送的 SMS/MMS 訊息。瞭解如何在[此頁面](../campaigns/create-campaign.md#configure)上建立行銷活動。
 
 Adobe Journey Optimizer 會透過 SMS 服務提供者 (或 SMS 閘道提供者) 傳送文字訊息。建立 SMS/MMS 訊息之前，請先使用 Journey Optimizer 設定文字訊息的服務提供者。[了解更多](sms-configuration.md)。
 

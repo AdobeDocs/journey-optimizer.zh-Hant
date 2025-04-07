@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 1004a1919e1e043a42d389395030dd85e5a94062
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 14%
@@ -26,7 +26,7 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 
 >[!CAUTION]
 >
->您必須同意Adobe Experience Cloud Generative AI使用者准則，才能使用AI助理。 在[此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}中進一步瞭解合約。
+>您必須同意Adobe Experience Cloud Generative AI使用者准則，才能使用AI助理。 在[此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}上進一步瞭解合約。
 
 在Adobe Journey Optimizer中，您可以存取下列使用案例：
 
@@ -41,7 +41,7 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 
 * 歷程(Beta)中的&#x200B;**營運深入分析**
 
-  操作深入分析問題與組織沙箱中的歷程物件有關。 營運分析問題或提示的一些範例包括：
+  操作insight問題與您的組織沙箱中的歷程物件有關。 insight操作問題或提示的一些範例包括：
 
    * Adobe Journey Optimizer中有多少個即時歷程？
    * 提供所有已排程歷程的清單

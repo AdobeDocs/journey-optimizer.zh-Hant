@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 5f48c3df14768e699e174e5a3539438e9b774e1a
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '711'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 25%
 >title="歷程"
 >abstract="設計客戶歷程提供個人化的內容關聯式體驗。Journey Optimizer 可讓您利用儲存在事件或資料來源中的內容關聯式資料，建立即時協調流程使用案例。**概觀&#x200B;**&#x200B;索引標籤會顯示儀表板，其中包含與您的歷程相關的關鍵量度。**瀏覽&#x200B;**&#x200B;索引標籤會顯示現有歷程的清單。"
 
-Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員協調行銷外聯活動與一對一客戶參與。 使用者介面可讓您輕鬆將活動從浮動視窗拖放至畫布，以建立您的歷程。 歷程使用者介面在[此頁面](journey-ui.md)中有詳細說明。
+Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員協調行銷外聯活動與一對一客戶參與。 使用者介面可讓您輕鬆將活動從浮動視窗拖放至畫布，以建立您的歷程。 歷程使用者介面在[此頁面](journey-ui.md)上詳細說明。
 
 ![歷程畫布範例](assets/journey38.png)
 
 
-建立歷程的主要步驟將於本頁面詳細說明。 其簡化如下：
+建立歷程的主要步驟將於本頁詳細說明。 其簡化如下：
 
 ![歷程建立步驟：建立、設計、測試和發佈](assets/journey-creation-process.png)
 
@@ -64,7 +64,7 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 >[!NOTE]
 >
->更多有關歷程護欄和限制的資訊可參閱[此頁面](../start/guardrails.md)
+>在[此頁面](../start/guardrails.md)上詳細描述歷程護欄和限制
 
 ## 建立歷程 {#jo-build}
 
@@ -74,7 +74,7 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 1. 按一下&#x200B;**[!UICONTROL 建立歷程]**&#x200B;按鈕以建立新歷程。
 
-1. 編輯歷程的設定窗格以定義歷程的名稱並設定其屬性。 在[此頁面](journey-properties.md)中瞭解如何設定歷程的屬性。
+1. 編輯歷程的設定窗格以定義歷程的名稱並設定其屬性。 瞭解如何在[此頁面](journey-properties.md)上設定您的歷程屬性。
 
    ![](assets/jo-properties.png)
 

@@ -5,7 +5,7 @@ feature: A/B Testing, Experimentation
 role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 Journey Experimentation面板會顯示實驗中個別處理方式的「隨時有效」信賴區間（信賴序列）。
 
-個別變體`ν`的信賴序列是Adobe所使用的統計方法的核心。 您可以在[此頁面](https://doi.org/10.48550/arXiv.2103.06476)中找到其定義（從[Waudby-Smith et al.]重新產生）。
+個別變體`ν`的信賴序列是Adobe所使用的統計方法的核心。 您可以在[此頁面](https://doi.org/10.48550/arXiv.2103.06476)上找到其定義（轉載自[Waudby-Smith et al.]）。
 
 如果您有興趣估計目標引數`ψ`，例如實驗中的變體轉換率，一系列「固定時間」信賴區間(CI)與時間一致信賴序列(CS)之間的二分法可歸納如下：
 
@@ -56,7 +56,7 @@ Journey Experimentation面板會顯示實驗中個別處理方式的「隨時有
 * 實驗可以持續監控、自適應停止或繼續。
 * type-I錯誤會在所有停止時間（包括資料相依時間）受到控制。
 
-Adobe使用漸近信賴序列，對於平均估計為`μ`的個別變體而言，其形式如下：
+Adobe使用漸近信賴序列，對具有平均預估值`μ`的個別變體而言，其形式為：
 
 ![](assets/statistical_5.png){width="300" align="center"}
 
@@ -65,7 +65,7 @@ Adobe使用漸近信賴序列，對於平均估計為`μ`的個別變體而言�
 * `N`是該變體的單位數。
 * `σ`是標準差的樣本估計值（定義於上面）。
 * `α`是所需的型別I錯誤（或覆蓋範圍錯誤機率）層級。 此值一律設為0.05。
-* ρ<sup>2</sup>是一個常數，可調整CS最緊密的樣本大小。 Adobe已選擇通用值ρ<sup>2</sup> = 10<sup>-2.8</sup>，這適用於線上實驗中所見的轉換率型別。
+* ρ<sup>2</sup>是一個常數，可調整CS最緊密的樣本大小。 Adobe已選擇通用值ρ<sup>2</sup> = 10<sup>-2.8</sup>，該值適用於線上實驗中所見的轉換率型別。
 
 ## 信賴度 {#confidence}
 

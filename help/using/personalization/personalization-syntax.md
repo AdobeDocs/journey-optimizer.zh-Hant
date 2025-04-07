@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，語法，個人化
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 3%
@@ -92,7 +92,7 @@ ht-degree: 3%
 
   如需有關Decisions API和優惠宣告的詳細資訊，請參閱[此頁面](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
-  所有參考資料都是透過具有[此頁面](../personalization/personalization-build-expressions.md)中說明的驗證機制的優惠方案結構描述進行驗證
+  所有參考資料都是透過在[此頁面](../personalization/personalization-build-expressions.md)中說明的驗證機制針對優惠方案結構描述進行驗證
 
   +++範例參考
 

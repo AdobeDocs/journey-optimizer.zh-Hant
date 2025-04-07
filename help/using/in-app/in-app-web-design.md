@@ -8,7 +8,7 @@ level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 hide: true
 hidefromtoc: true
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 7%
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 **[!UICONTROL 進階格式]**&#x200B;切換可啟動其他選項來自訂體驗。
 
-建立應用程式內訊息，並定義內容與個人化後，您就可以檢閱並啟用該訊息。 然後，將根據行銷活動排程傳送通知。 在[本頁](send-in-app.md)中瞭解更多。
+建立應用程式內訊息，並定義內容與個人化後，您就可以檢閱並啟用該訊息。 然後，將根據行銷活動排程傳送通知。 在[此頁面](send-in-app.md)瞭解更多資訊。
 
 ## 訊息版面 {#message-layout}
 
@@ -59,7 +59,7 @@ ht-degree: 7%
 
      使用左窗格以運用Journey Optimizer個人化功能。 如需詳細資訊，請參閱[本章節](../personalization/personalize.md)。
 
-   * 選取&#x200B;**[!UICONTROL 匯入]**&#x200B;以匯入包含您HTML內容的HTML或.zip檔案。
+   * 選取&#x200B;**[!UICONTROL 匯入]**&#x200B;以匯入包含HTML內容的HTML或.zip檔案。
 
 ## 內容索引標籤 {#content-tab}
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 25ca0dd72622ef15db3edeedfd16b91d392127d4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 9%
@@ -69,7 +69,7 @@ ht-degree: 9%
 
 1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，選擇&#x200B;**[!UICONTROL 簡訊]**，然後選取或建立新的設定。
 
-   在[此頁面](sms-configuration.md)中進一步瞭解簡訊設定。
+   在[此頁面](sms-configuration.md)上進一步瞭解SMS設定。
 
    ![](assets/sms_create_3.png)
 
@@ -135,7 +135,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
-> MMS頻道在[此頁面](../start/guardrails.md#sms-guardrails)中列出幾項限制。
+> MMS頻道在[此頁面](../start/guardrails.md#sms-guardrails)上提供一些限制。
 
 若要建立MMS內容，請遵循下列步驟：
 
@@ -161,7 +161,7 @@ ht-degree: 9%
 
 ![](assets/sms-content-preview.png)
 
-執行測試並驗證內容後，您就可以傳送簡訊給對象。 這些步驟在[此頁面](send-sms.md)中有詳細說明
+執行測試並驗證內容後，您就可以傳送簡訊給對象。 這些步驟在[此頁面](send-sms.md)上詳細說明
 
 傳送後，您可以在行銷活動或歷程報告中測量簡訊的影響。 如需報告的詳細資訊，請參閱[本區段](../reports/campaign-global-report-cja-sms.md)。
 

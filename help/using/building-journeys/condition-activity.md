@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 活動，條件，畫布，歷程
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 8a4315940595113441a5f5fb51a3c6573c79cff3
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 14%
@@ -94,7 +94,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->* 時區不是條件所特有，而是在歷程屬性中的歷程層級定義。 在[本頁](../building-journeys/timezone-management.md)中瞭解更多。
+>* 時區不是條件所特有，而是在歷程屬性中的歷程層級定義。 在[此頁面](../building-journeys/timezone-management.md)瞭解更多資訊。
 >
 >* 根據預設，**[!UICONTROL 時間條件]**&#x200B;是依小時設定，從00:00到12:00。
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 選擇退出，電子郵件，連結，取消訂閱
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 564dcb691d61a2f48694d208644847d7bb65d664
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 24%
+ht-degree: 23%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 24%
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
-   您可以個人化連結。 進一步瞭解[本章節](../personalization/personalization-syntax.md)的個人化 URL。
+   您可以個人化連結。 在[本節](../personalization/personalization-syntax.md)中進一步瞭解個人化URL。
 
 1. 選取您要套用選擇退出的方式：在頻道或身分層級。
 
@@ -91,7 +91,7 @@ ht-degree: 24%
 
 若要設定兩步驟選擇退出機制，您必須建立自己的取消訂閱登入頁面。 第一個登入頁面將會從您的訊息連結，而且必須包含行動號召按鈕。 當使用者按一下按鈕時，應顯示確認訊息。
 
-瞭解如何在Adobe Journey Optimizer中建立登陸頁面，以便在[此頁面](../landing-pages/lp-use-cases.md#opt-out)中管理取消訂閱。
+瞭解如何在Adobe Journey Optimizer中建立登陸頁面，以管理[此頁面](../landing-pages/lp-use-cases.md#opt-out)上的取消訂閱。
 
 您也可以使用外部登入頁面。 在此情況下，請設定API以在收件者取消訂閱時將資訊傳送至Adobe Journey Optimizer。
 

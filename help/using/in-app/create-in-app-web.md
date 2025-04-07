@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 7%
@@ -30,7 +30,7 @@ ht-degree: 7%
 
 1. 存取&#x200B;**[!UICONTROL 促銷活動]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立促銷活動]**。
 
-1. 選擇您的行銷活動執行型別：排程或API觸發。 在[此頁面](../campaigns/create-campaign.md#campaigntype)中進一步瞭解行銷活動型別。
+1. 選擇您的行銷活動執行型別：排程或API觸發。 在[此頁面](../campaigns/create-campaign.md#campaigntype)上進一步瞭解行銷活動型別。
 
 1. 從&#x200B;**[!UICONTROL 動作]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL 應用程式內訊息]**。
 

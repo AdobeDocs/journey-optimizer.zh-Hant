@@ -11,7 +11,7 @@ keywords: 發佈，歷程，即時，有效性，檢查
 hide: true
 hidefromtoc: true
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: 48ef8d42057ffe51c27221c2176192d4e637fb96
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 5%
@@ -78,7 +78,7 @@ ht-degree: 5%
 
 1. 從您的&#x200B;**[!UICONTROL 歷程]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 建立歷程]**。
 
-1. 編輯歷程的設定窗格以定義歷程的名稱並設定其屬性。 在[此頁面](../building-journeys/journey-properties.md)中瞭解如何設定歷程的屬性。
+1. 編輯歷程的設定窗格以定義歷程的名稱並設定其屬性。 瞭解如何在[此頁面](../building-journeys/journey-properties.md)上設定您的歷程屬性。
 
 1. 選擇您的&#x200B;**[!UICONTROL 歷程量度]**，用於測量歷程的成效。
 

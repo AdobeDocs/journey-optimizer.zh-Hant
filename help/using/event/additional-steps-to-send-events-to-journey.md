@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 步驟，設定，歷程，事件，串流， API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 3%
 若要設定要傳送至&#x200B;**[!UICONTROL 串流擷取API]**&#x200B;並用於[!DNL Journey Optimizer]的事件，您必須遵循下列步驟：
 
 1. 從Adobe Experience Platform API取得入口URL。 深入瞭解[串流擷取API概觀](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hant){target="_blank"}。
-1. 從&#x200B;**[!UICONTROL Event]**&#x200B;功能表的裝載預覽複製裝載。 在[本頁](../event/about-creating.md#define-the-payload-fields)中瞭解更多。
+1. 從&#x200B;**[!UICONTROL Event]**&#x200B;功能表的裝載預覽複製裝載。 在[此頁面](../event/about-creating.md#define-the-payload-fields)瞭解更多資訊。
 
 然後，您需要設定資料系統，使用您複製的裝載將事件推送至串流獲取API：
 
-1. 設定對串流獲取API URL的POSTAPI呼叫（稱為入口）。
+1. 設定對串流獲取API URL的POST API呼叫（稱為入口）。
 1. 使用您從[!DNL Journey Optimizer]複製的裝載，該裝載位於串流獲取API之API呼叫的內文（「資料區段」）中。 如需範例，請參閱下文
 1. 決定從何處取得裝載中出現的所有變數。 範例：如果事件應該要傳達位址，貼上的裝載將會顯示「address」：「string」。 「string」應該取代為會自動填入正確值的變數，也就是傳送訊息對象的電子郵件。 請注意，在裝載預覽的&#x200B;**[!UICONTROL 標題]**&#x200B;區段中，我們會自動填入許多預期有助於您工作的值。
 1. 選取「application/json」作為內文型別。

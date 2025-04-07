@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: 許可權，製作，訊息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 5c84bc726d50df555b9a156233c70f08f3febaba
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # 內建權限 {#ootb-permissions}
 
-內建許可權代表可以指派給&#x200B;**[!UICONTROL 角色]**&#x200B;的各種許可權，以微調您對Journey Optimizer的使用者存取權。 高層級許可權包含低層級許可權，詳細資訊請參閱[此頁面](high-low-permissions.md)。
+內建許可權代表可以指派給&#x200B;**[!UICONTROL 角色]**&#x200B;的各種許可權，以微調您對Journey Optimizer的使用者存取權。 高層級許可權包含低層級許可權，詳細資訊位於[此頁面](high-low-permissions.md)。
 
 | 功能 | 權限 |
 |-|-|

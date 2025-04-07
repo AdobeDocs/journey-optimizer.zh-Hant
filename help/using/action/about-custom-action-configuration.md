@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2af3cef357bf68091d9b8b5d2750e73a290bc682
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1692'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 19%
 
 如果您使用協力廠商系統來傳送訊息，或想要歷程傳送 API 呼叫至協力廠商系統，請使用自訂動作來設定系統至您歷程的連線。例如，您可以使用自訂動作連線到下列系統：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase等。
 
-自訂動作是技術使用者定義的其他動作，可供行銷人員使用。 設定之後，它們會顯示在您歷程的左側浮動視窗，位於&#x200B;**[!UICONTROL 動作]**&#x200B;類別中。 在[本頁](../building-journeys/about-journey-activities.md#action-activities)中瞭解更多。
+自訂動作是技術使用者定義的其他動作，可供行銷人員使用。 設定之後，它們會顯示在您歷程的左側浮動視窗，位於&#x200B;**[!UICONTROL 動作]**&#x200B;類別中。 在[此頁面](../building-journeys/about-journey-activities.md#action-activities)瞭解更多資訊。
 
 ## 限制{#custom-actions-limitations}
 
-自訂動作在[此頁面](../start/guardrails.md)中列出一些限制。
+自訂動作在[此頁面](../start/guardrails.md)上列出一些限制。
 
-在自訂動作引數中，您可以傳遞簡單集合以及物件集合。 在[此頁面](../building-journeys/collections.md#limitations)中進一步瞭解集合限制。
+在自訂動作引數中，您可以傳遞簡單集合以及物件集合。 深入瞭解[此頁面](../building-journeys/collections.md#limitations)上的集合限制。
 
 另請注意，自訂動作引數採用預期格式（例如：字串、小數等）。 您必須注意遵守這些預期的格式。 在此[使用案例](../building-journeys/collections.md)中瞭解更多。
 

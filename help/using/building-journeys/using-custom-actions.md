@@ -9,7 +9,7 @@ role: User, Developer
 level: Intermediate
 keywords: 動作，自訂， API，歷程，設定，服務
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 8b96c9d4698dc58abdc5ae0261db92b0ce708597
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 20%
@@ -27,7 +27,7 @@ ht-degree: 20%
 
 在[本節](../action/action.md)中進一步瞭解自訂動作。
 
-瞭解如何在[此頁面](../action/about-custom-action-configuration.md)中建立和設定自訂動作。
+瞭解如何在[此頁面](../action/about-custom-action-configuration.md)上建立和設定自訂動作。
 
 ## 同意與資料控管 {#privacy}
 

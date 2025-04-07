@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1595'
 ht-degree: 40%
@@ -29,7 +29,7 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->* 使用外部系統時的護欄列在[此頁面](../configuration/external-systems.md)中。
+>* 使用外部系統時的護欄列在[此頁面](../configuration/external-systems.md)上。
 >
 >* 現在支援回應，因此您應該針對外部資料來源使用案例使用自訂動作，而非資料來源。 如需回應的詳細資訊，請參閱此[區段](../action/action-response.md)
 
@@ -102,7 +102,7 @@ ht-degree: 40%
 * **[!UICONTROL 回應承載]**：在&#x200B;**[!UICONTROL 承載]**&#x200B;欄位內按一下，並貼上呼叫傳回之承載的範例。 例如，我們使用了氣象 API 網站上找到的有效負載。確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。請注意，如果要變更目前傳遞的裝載，可以按一下&#x200B;**[!UICONTROL 貼上新的裝載]**。
 * **[!UICONTROL 已傳送裝載]**：此欄位未出現在我們的範例中。 只有選取 POST 方法時才能使用。貼上會傳送至協力廠商系統的有效負載。
 
-若是GET呼叫所需的引數，您會在&#x200B;**[!UICONTROL 動態值]**&#x200B;欄位中輸入引數，呼叫結束時會自動新增這些引數。 若是 POST 呼叫，您需要：
+若是GET呼叫所需的引數，您會在&#x200B;**[!UICONTROL 動態值]**&#x200B;欄位中輸入引數，系統就會在呼叫結束時自動新增這些引數。 若是 POST 呼叫，您需要：
 
 * 在&#x200B;**[!UICONTROL 動態值]**&#x200B;欄位中列出呼叫時要傳遞的引數（在以下範例中：「識別碼」）。
 * 在已傳送有效負載的正文中，也使用完全相同的語法指定它們。若要這麼做，您必須新增：&quot;param&quot;： 「name of your parameter」 （在以下範例中：「identifier」）。 請遵循下列語法：
@@ -148,7 +148,7 @@ ht-degree: 40%
 * `endpoint`：用來產生端點的URL
 * 端點（`GET`或`POST`）上的HTTP要求方法
 * `headers`：必要時，在此呼叫中插入做為標題的機碼值組
-* `body`：說明呼叫的主體(如果方法POST)。 我們支援有限的正文結構，如bodyParams （索引鍵值配對）中所定義。 bodyType 說明了呼叫內正文的格式和編碼：
+* `body`：說明方法為POST時呼叫的主體。 我們支援有限的正文結構，如bodyParams （索引鍵值配對）中所定義。 bodyType 說明了呼叫內正文的格式和編碼：
    * `form`：表示內容型別將會是application/x-www-form-urlencoded （字元集UTF-8），而金鑰 — 值配對將會序列化為：key1=value1&amp;key2=value2&amp;...
    * `json`：表示內容型別將會是application/json （字元集UTF-8），而金鑰 — 值配對將會序列化為JSON物件，如下所示： _{ &quot;key1&quot;： &quot;value1&quot;， &quot;key2&quot;： &quot;value2&quot;， ...}_
 

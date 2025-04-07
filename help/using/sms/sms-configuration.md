@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 37%
+ht-degree: 36%
 
 ---
 
@@ -57,6 +57,6 @@ Adobe Journey Optimizer目前與獨立於Adobe Journey Optimizer提供文字訊�
 
 >[!CAUTION]
 >
->若要存取及編輯SMS子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理SMS子網域]**&#x200B;許可權。 在[本頁面](../administration/high-low-permissions.md#administration-permissions)中深入了解權限。
+>若要存取及編輯SMS子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理SMS子網域]**&#x200B;許可權。 在[此頁面](../administration/high-low-permissions.md#administration-permissions)上進一步瞭解許可權。
 >
 

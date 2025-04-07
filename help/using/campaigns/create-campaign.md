@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 6acfe14469a74216b196e4d5ee059839aea32226
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 21%
@@ -20,7 +20,7 @@ ht-degree: 21%
 
 若要建立新的行銷活動，請瀏覽至左側邊欄上的&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立行銷活動]**。 您也可以複製現有的即時行銷活動，以建立新的行銷活動。 [瞭解如何進行](modify-stop-campaign.md#duplicate)。
 
-開始之前，請先閱讀[此頁面](get-started-with-campaigns.md#before-starting-campaign-prerequisites)中的行銷活動先決條件。
+開始之前，請先閱讀[此頁面](get-started-with-campaigns.md#before-starting-campaign-prerequisites)上的行銷活動先決條件。
 
 ## 選取行銷活動類型 {#campaigntype}
 

@@ -1,12 +1,12 @@
 ---
 title: 在電子郵件中使用個人化優惠
-description: 探索端對端範例，以說明設定優惠方案並將其用於電子郵件所需的所有步驟。
+description: 探索端對端範例，以說明設定產品建議並將其用於電子郵件所需的所有步驟。
 feature: Decision Management, Email
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 4%
@@ -37,7 +37,7 @@ ht-degree: 4%
       * 為每個優惠方案新增規則
       * 定義每個優惠方案的優先順序
 
-1. [建立遞補優惠](#create-fallback)
+1. [建立後備產品建議](#create-fallback)
 
 1. [建立集合](#create-collection)以包含您建立的個人化優惠
 
@@ -153,7 +153,7 @@ ht-degree: 4%
 
 建立和設定優惠方案的詳細步驟在[本節](../../using/offers/offer-library/creating-personalized-offers.md)中說明。
 
-## 建立遞補優惠 {#create-fallback}
+## 建立後備產品建議 {#create-fallback}
 
 1. 建立遞補優惠。
 
@@ -223,6 +223,6 @@ ht-degree: 4%
 
 ## 在電子郵件中插入決定 {#insert-decision-in-email}
 
-現在您的決定已上線，您可以將其插入電子郵件訊息。 若要這麼做，請依照[此頁面](../../using/email/add-offers-email.md)中詳述的步驟操作。
+現在您的決定已上線，您可以將其插入電子郵件訊息。 若要這麼做，請依照[此頁面](../../using/email/add-offers-email.md)上詳述的步驟操作。
 
 ![](assets/offers-e2e-offers-displayed.png)

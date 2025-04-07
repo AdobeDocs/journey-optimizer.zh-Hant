@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 等待，活動，歷程，下一步，畫布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -39,17 +39,17 @@ ht-degree: 18%
 
 ### 多個等待活動 {#multiple-wait-activities}
 
-在歷程中使用多個&#x200B;**等待**&#x200B;活動時，請注意，歷程的[全域逾時](journey-properties.md#global_timeout)為91天，這表示設定檔在進入歷程後，一律會退出歷程的最長91天。 在[本頁](journey-properties.md#global_timeout)中瞭解更多。
+在歷程中使用多個&#x200B;**等待**&#x200B;活動時，請注意，歷程的[全域逾時](journey-properties.md#global_timeout)為91天，這表示設定檔在進入歷程後，一律會退出歷程的最長91天。 在[此頁面](journey-properties.md#global_timeout)瞭解更多資訊。
 
 個人只有在歷程中剩餘的時間足以在91天歷程逾時前完成等待期間時，才能進入&#x200B;**等待**&#x200B;活動。
 
 ### 等待並重新進入 {#wait-reentrance}
 
-不使用&#x200B;**等待**&#x200B;活動以封鎖重新進入的最佳作法。 請改用歷程屬性層級的&#x200B;**允許重新進入**&#x200B;選項。 在[本頁](../building-journeys/journey-properties.md#entrance)中瞭解更多。
+不使用&#x200B;**等待**&#x200B;活動以封鎖重新進入的最佳作法。 請改用歷程屬性層級的&#x200B;**允許重新進入**&#x200B;選項。 在[此頁面](../building-journeys/journey-properties.md#entrance)瞭解更多資訊。
 
 ### 等待和測試模式 {#wait-test-modd}
 
-在測試模式中，測試&#x200B;]**中的**[!UICONTROL &#x200B;等待時間引數可讓您定義每個&#x200B;**等待**&#x200B;活動的持續時間。 預設時間為 10 秒。這將確保您能快速獲得測試結果。 在[本頁](../building-journeys/testing-the-journey.md)中瞭解更多。
+在測試模式中，測試&#x200B;]**中的**[!UICONTROL &#x200B;等待時間引數可讓您定義每個&#x200B;**等待**&#x200B;活動的持續時間。 預設時間為 10 秒。這將確保您能快速獲得測試結果。 在[此頁面](../building-journeys/testing-the-journey.md)瞭解更多資訊。
 
 ## 設定 {#wait-configuration}
 

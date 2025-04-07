@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 3a1e00ecc74ccca5cba0e15ac642eeb7ddb40ae0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 5%
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 1. 發佈歷程之前，請確認其有效且沒有錯誤。 您將無法發佈含有錯誤的歷程。
 
-   * 瞭解如何在[此頁面](testing-the-journey.md)中測試您的歷程。
+   * 瞭解如何在[此頁面](testing-the-journey.md)上測試您的歷程。
    * 在[本節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)中瞭解如何疑難排解您的歷程錯誤。
 
 1. 若要發佈歷程，請按一下右上角下拉式功能表中的&#x200B;**[!UICONTROL 發佈]**&#x200B;選項。

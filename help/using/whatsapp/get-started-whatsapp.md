@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 13%
+ht-degree: 7%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 13%
 
 您現在可以直接透過Journey Optimizer傳送WhatsApp訊息。 此功能可將WhatsApp緊密整合至歷程和行銷活動，加強與收件者的溝通和參與。
 
-* 在&#x200B;**歷程**&#x200B;中。建立歷程、新增&#x200B;**WhatsApp**&#x200B;活動並定義基本設定，然後瀏覽至&#x200B;**[!UICONTROL 動作： WhatsApp]**&#x200B;右側窗格以建立WhatsApp訊息的內容。 在[此頁面](../building-journeys/journey-gs.md)中進一步了解如何建立歷程。
+* 在&#x200B;**歷程**&#x200B;中。建立歷程、新增&#x200B;**WhatsApp**&#x200B;活動並定義基本設定，然後瀏覽至&#x200B;**[!UICONTROL 動作： WhatsApp]**&#x200B;右側窗格以建立WhatsApp訊息的內容。 瞭解如何在[此頁面](../building-journeys/journey-gs.md)上建立歷程。
 
-* 在&#x200B;**行銷活動**&#x200B;中。建立行銷活動，選取&#x200B;**WhatsApp**&#x200B;作為您的動作並定義基本設定，然後編輯訊息內容以定義要傳送的WhatsApp訊息。 在[此頁面](../campaigns/create-campaign.md#configure)了解如何建立行銷活動。
+* 在&#x200B;**行銷活動**&#x200B;中。建立行銷活動，選取&#x200B;**WhatsApp**&#x200B;作為您的動作並定義基本設定，然後編輯訊息內容以定義要傳送的WhatsApp訊息。 瞭解如何在[此頁面](../campaigns/create-campaign.md#configure)上建立行銷活動。
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 

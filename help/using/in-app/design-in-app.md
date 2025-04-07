@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、設計、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1154'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 28%
 
 **[!UICONTROL 進階格式]**&#x200B;切換可啟動其他選項來自訂體驗。
 
-建立應用程式內訊息，並定義內容與個人化後，您就可以檢閱並啟用該訊息。 然後，將根據行銷活動排程傳送通知。 在[本頁](send-in-app.md)中瞭解更多。
+建立應用程式內訊息，並定義內容與個人化後，您就可以檢閱並啟用該訊息。 然後，將根據行銷活動排程傳送通知。 在[此頁面](send-in-app.md)瞭解更多資訊。
 
 ## 訊息版面 {#message-layout}
 

@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 開始使用警示 {#alerts}
 
-建立您的歷程與行銷活動時，請使用&#x200B;**警示**&#x200B;按鈕，在執行或發佈錯誤之前檢查並解決錯誤。 在[此頁面](../building-journeys/troubleshooting.md)瞭解如何疑難排解您的歷程。 在[此頁面](../campaigns/review-activate-campaign.md)瞭解如何檢閱您的行銷活動。
+建立您的歷程與行銷活動時，請使用&#x200B;**警示**&#x200B;按鈕，在執行或發佈錯誤之前檢查並解決錯誤。 在[此頁面](../building-journeys/troubleshooting.md)瞭解如何疑難排解您的歷程。 瞭解如何在[此頁面](../campaigns/review-activate-campaign.md)上檢閱您的行銷活動。
 
 您也可以訂閱Adobe Journey Optimizer系統警示，如本頁所述。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 ## 疑難排解 {#alert-troubleshooting}
 
-若要疑難排解&#x200B;**讀取對象**&#x200B;警示，請在Experience Platform介面中檢查您的對象計數。
+若要針對&#x200B;**讀取對象**&#x200B;警示進行疑難排解，請在Experience Platform介面中檢查您的對象計數。
 
 ![](assets/alert-troubleshooting-0.png)
 

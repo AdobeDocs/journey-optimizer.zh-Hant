@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: da27bb78de305c0d80737aaf7423cd62962732da
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2009'
 ht-degree: 12%
@@ -143,7 +143,7 @@ ht-degree: 12%
 
 1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，選擇&#x200B;**[!UICONTROL 應用程式內訊息]**，然後選取或建立新的設定。
 
-   在[此頁面](inapp-configuration.md)中進一步瞭解應用程式內設定。
+   在[此頁面](inapp-configuration.md)上進一步瞭解應用程式內設定。
 
    ![](assets/in_app_create_1.png)
 

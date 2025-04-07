@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 18%
@@ -45,13 +45,13 @@ ht-degree: 18%
 
 **複製技術詳細資料**&#x200B;可讓您複製支援團隊可用於疑難排解的歷程相關技術資訊。 已複製下列資訊： `JourneyVersion UID`、`OrgID`、`orgName`、`sandboxName`、`lastDeployedBy`、`lastDeployedAt`。
 
-在本頁](expression/journey-properties.md)中進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們[。
+在本頁](expression/journey-properties.md)進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們[。
 
 ## 進入與重新進入 {#entrance}
 
 設定檔專案模式是在歷程層級的右側設定窗格中定義。 設定如下所述。
 
-設定檔入口管理取決於歷程型別。 在[此頁面](entry-management.md)中進一步瞭解設定檔進入和重新進入管理。
+設定檔入口管理取決於歷程型別。 在[此頁面](entry-management.md)上進一步瞭解設定檔進入和重新進入管理。
 
 ### 允許重新進入  {#allow-reentrance}
 

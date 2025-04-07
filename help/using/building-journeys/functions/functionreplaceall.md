@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: replaceAll，函式，運算式，歷程
 exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 10%
@@ -48,4 +48,4 @@ ht-degree: 10%
 
 傳回「Hexxo Worxd」。
 
-由於目標引數是RegExp，因此根據您要取代的字串，您可能需要將部分字元逸出。 請參考[此頁面](../functions/functionreplace.md#example_2)中的範例。
+由於目標引數是RegExp，因此根據您要取代的字串，您可能需要將部分字元逸出。 請參閱[此頁面](../functions/functionreplace.md#example_2)上的範例。

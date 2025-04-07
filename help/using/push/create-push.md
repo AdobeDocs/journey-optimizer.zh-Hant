@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 9%
@@ -70,7 +70,7 @@ ht-degree: 9%
 
 1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，選擇&#x200B;**[!UICONTROL 推播通知]**，然後選取或建立新設定。
 
-   在[此頁面](push-configuration.md)中進一步瞭解推播設定。
+   在[此頁面](push-configuration.md)上進一步瞭解推播設定。
 
    ![](assets/push_create_3.png)
 

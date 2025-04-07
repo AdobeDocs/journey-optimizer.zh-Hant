@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -90,7 +90,7 @@ Customer AI 可讓品牌建立流失率或轉換機器學習型分數，這些�
 
 如果您使用協力廠商系統來傳送訊息，或想要歷程傳送 API 呼叫至協力廠商系統，請使用自訂動作來連線至您的歷程。 例如，您可利用自訂動作連線至下列系統：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase 等等。
 
-自訂動作是技術使用者定義的其他動作，可供行銷人員使用。 在設定之後，其會顯示在您歷程的左側浮動視窗，位於&#x200B;**[!UICONTROL 動作]**&#x200B;類別。 在[本頁](../building-journeys/about-journey-activities.md#action-activities)中瞭解更多。
+自訂動作是技術使用者定義的其他動作，可供行銷人員使用。 在設定之後，其會顯示在您歷程的左側浮動視窗，位於&#x200B;**[!UICONTROL 動作]**&#x200B;類別。 在[此頁面](../building-journeys/about-journey-activities.md#action-activities)瞭解更多資訊。
 
 深入了解[自訂動作](../action/about-custom-action-configuration.md)。
 

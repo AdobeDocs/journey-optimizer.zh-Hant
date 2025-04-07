@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: f00b157ec843eacdee480dcfe00a8724ab4a3495
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 0%
@@ -96,7 +96,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 ## 設定自訂動作 {#custom-action-config}
 
-自訂動作設定在[此頁面](../action/about-custom-action-configuration.md)中有詳細說明。
+自訂動作設定在[此頁面](../action/about-custom-action-configuration.md)上詳細說明。
 
 在此範例中，請遵循下列步驟：
 

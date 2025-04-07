@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 28%
 * **[!UICONTROL 讀取對象]** — 在讀取對象歷程中，對象中的所有個人都會進入歷程並接收歷程中包含的訊息。  [了解更多](read-audience.md)。
 
 
-在[此頁面](entry-management.md)中進一步瞭解歷程型別和相關的專案管理。
+在[此頁面](entry-management.md)上進一步瞭解歷程型別和相關的專案管理。
 
 ## 歷程狀態 {#journey-statuses}
 
@@ -128,7 +128,7 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->特定護欄和限制適用於歷程的版本設定。 在[本頁](../start/guardrails.md#journey-versions-journey-versions-g)中瞭解更多。
+>特定護欄和限制適用於歷程的版本設定。 在[此頁面](../start/guardrails.md#journey-versions-journey-versions-g)瞭解更多資訊。
 
 ## 複製歷程 {#duplicate-a-journey}
 
