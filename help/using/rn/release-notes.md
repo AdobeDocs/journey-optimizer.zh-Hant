@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 88c938199412e38a08b4c94f283cb4d4e09ded2f
+source-git-commit: b7148ebeedf8bfce8d244f676fe96172ea8904e0
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 70%
+source-wordcount: '708'
+ht-degree: 69%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 70%
 
 ### 改進項目 {#25-04-improv}
 
-**沙箱工具**
+**沙箱工具** — 推出日期： 2025年4月3日
 
 您現在可以使用套件匯出和匯入功能，跨多個沙箱複製行銷活動。 行銷活動會連同與設定檔、對象、結構、內嵌訊息和相依物件相關的所有專案一起複製。 有些專案不會複製，例如決定專案、資料使用標籤和語言設定。 [閱讀全文](../configuration/copy-objects-to-sandbox.md)
 
-**個人化**
+**Personalization** — 推出日期： 2025年4月2日
 
 個人化編輯器中的屬性窗格現在預設只會顯示已填入的屬性。 若要檢視所有屬性，請使用設定按鈕來關閉&#x200B;**[!UICONTROL 僅顯示填入的屬性]**&#x200B;選項。 [閱讀全文](../personalization/personalization-build-expressions.md)
 
