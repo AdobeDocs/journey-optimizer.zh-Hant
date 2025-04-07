@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 資格，事件，對象，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: ce05723342af3e0016965df7fb7a2e0b79856f6f
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 5%
@@ -18,12 +18,12 @@ ht-degree: 5%
 
 # 對象資格事件 {#segment-qualification}
 
-## 關於對象資格鑑定事件{#about-segment-qualification}
-
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="對象資格鑑定事件"
 >abstract="本活動可讓您的歷程監聽設定檔是否符合 Adobe Experience Platform 對象資格，讓個人進入歷程或在歷程中前進。"
+
+## 關於對象資格鑑定事件{#about-segment-qualification}
 
 此活動可讓您的歷程聆聽Adobe Experience Platform對象中設定檔的入口和出口，以便讓個人進入歷程或是在歷程中前進。 如需建立對象的詳細資訊，請參閱此[區段](../audience/about-audiences.md)。
 
