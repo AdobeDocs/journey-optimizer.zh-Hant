@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 17%
@@ -106,7 +106,7 @@ ht-degree: 17%
 >id="ajo_fragment_statuses"
 >title="新的片段狀態"
 >abstract="由於 Journey Optimizer 6 月版本推出「**草稿**」和「**即時**」狀態，因此在此版本之前建立的所有片段均具有「**草稿**」狀態，即使這些片段用於歷程或活動中亦然。如果您對這些片段進行任何變更，則需要將其發佈，使其進入「**即時**」狀態，並將變更內容傳遞至相關的行銷活動和歷程。您還需要建立一個新的歷程/行銷活動版本，然後進行發佈。<br/>發佈需要<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">發佈片段</a>使用者權限。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="了解更多有關內容片段權限的資訊"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="進一步瞭解內容片段許可權"
 
 片段可以有多個狀態：
 

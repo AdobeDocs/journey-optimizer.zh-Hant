@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 19%
@@ -26,7 +26,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
 >title="選取行銷活動的對象"
->abstract="此清單顯示所有可用的 Adobe Experience Platform 對象。為你的行銷活動選取目標對象。在行銷活動中設定的訊息將傳送給屬於所選對象的所有個人。[進一步了解對象](../audience/about-audiences.md)"
+>abstract="此清單顯示所有可用的 Adobe Experience Platform 對象。為你的行銷活動選取目標對象。在行銷活動中設定的訊息將傳送給屬於所選對象的所有個人。[進一步瞭解對象](../audience/about-audiences.md)"
 
 對象是具有相同類似行為和/或特徵的人的集合。 透過Adobe Experience Platform Segmentation Service，這些功能可在Adobe Experience Platform上集中設定和維護，並可在Journey Optimizer中輕鬆存取，以便在您的歷程和行銷活動中啟用。
 
@@ -44,7 +44,7 @@ Adobe Journey Optimizer提供強大的工具，用於建立、管理和豐富受
 
 >[!ENDSHADEBOX]
 
-## 瀏覽對象 {#browse}
+## 瀏覽客群 {#browse}
 
 可從&#x200B;**[!UICONTROL 客戶]** > **[!UICONTROL 對象]**&#x200B;功能表取得對象。
 

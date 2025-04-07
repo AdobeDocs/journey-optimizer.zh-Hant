@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子網域, 網域, 郵件, dmarc, 記錄
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: da5b8d6c95e76af98b27ffcff11e75c26b90200a
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
->title="了解更多有關必要的 DMARC 更新的資訊"
+>title="進一步瞭解強制性DMARC更新"
 >abstract="為了執行產業最佳做法，Google 和 Yahoo 都要求您對傳送電子郵件所使用的任何網域留有 **DMARC 記錄** (從 **2024 年 2 月 1 日**&#x200B;開始)。<br>因此，請務必確認您在 Journey Optimizer 中委派給 Adobe 的所有子網域已經設定 DMARC 記錄。"
 
 網域型訊息驗證、報告和符合性 (DMARC) 是一種電子郵件驗證方法，可讓網域擁有者保護其網域免受未經授權的使用。向電子郵件提供者/ISP 提供明確的原則，有助於防止惡意行為者傳送聲稱來自您網域的電子郵件。實作 DMARC 可降低合法電子郵件遭標示為垃圾郵件或遭拒絕的風險，並改善電子郵件傳遞能力。
