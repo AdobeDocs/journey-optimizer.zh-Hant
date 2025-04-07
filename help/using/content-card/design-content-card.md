@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 卡片的製作結構提供表單式製作體驗，為行銷人員提供開發人員可用來轉譯的基本輸入。
 
-定義內容並注入個人化後，您就可以檢閱並加以啟用。 將根據設定的排程傳送您的行銷活動。 [在本頁中深入瞭解](../campaigns/review-activate-campaign.md)。
+定義內容並注入個人化後，您就可以檢閱並加以啟用。 將根據設定的排程傳送您的行銷活動。 [在此頁面瞭解更多](../campaigns/review-activate-campaign.md)。
 
 ## 內容索引標籤 {#content-tab}
 

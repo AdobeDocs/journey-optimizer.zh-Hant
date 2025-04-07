@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，歷程，定義，開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 50%
@@ -40,7 +40,7 @@ ht-degree: 50%
 
 ## 商業事件 {#business-events}
 
-**企業**&#x200B;事件未連結至特定設定檔。 例如，可以是新聞警報、運動更新、航班變更或取消、詳細目錄更新、天氣事件等。 雖然這些事件不是設定檔所特有，但任何數量的設定檔都可能有興趣：訂閱特定新聞主題的個人、航班上的乘客、對無存貨產品感興趣的購物者等。 業務事件一律以規則為基礎。 當您在歷程中放置商業活動時，它會在之後自動新增&#x200B;**讀取對象**&#x200B;活動。在此頁面](../event/about-creating-business.md)瞭解如何建立商業活動[。
+**企業**&#x200B;事件未連結至特定設定檔。 例如，可以是新聞警報、運動更新、航班變更或取消、詳細目錄更新、天氣事件等。 雖然這些事件不是設定檔所特有，但任何數量的設定檔都可能有興趣：訂閱特定新聞主題的個人、航班上的乘客、對無存貨產品感興趣的購物者等。 業務事件一律以規則為基礎。 當您在歷程中放置商業活動時，它會在之後自動新增&#x200B;**讀取對象**&#x200B;活動。瞭解如何在此頁面](../event/about-creating-business.md)上建立商業活動[。
 
 ## 建議
 

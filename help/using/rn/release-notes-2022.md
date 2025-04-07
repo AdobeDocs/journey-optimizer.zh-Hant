@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
-workflow-type: ht
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+workflow-type: tm+mt
 source-wordcount: '3598'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -223,7 +223,7 @@ ht-degree: 100%
 
 **稽核控制**
 
-* 使用 Journey Optimizer，您可以識別系統中的使用者對各種服務和功能（如行銷活動、歷程、訊息、登陸頁面）執行的動作。稽核記錄資源現在包含對各種其他動作的變更，並會在活動發生時自動記錄。 在[本頁](../privacy/audit-logs.md)中深入瞭解。
+* 使用 Journey Optimizer，您可以識別系統中的使用者對各種服務和功能（如行銷活動、歷程、訊息、登陸頁面）執行的動作。稽核記錄資源現在包含對各種其他動作的變更，並會在活動發生時自動記錄。 在此頁面](../privacy/audit-logs.md)瞭解更多[。
 
 **封存支援**
 

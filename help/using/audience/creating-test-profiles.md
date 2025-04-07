@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 1465b110812beba8b58c7dc2e01a65189f984c27
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
 source-wordcount: '1362'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 >
 >[!DNL Journey optimizer]也可讓您使用從CSV / JSON檔案上傳或手動新增的範例輸入資料，預覽和傳送校樣，以測試內容的不同變體。 [瞭解如何使用範例輸入資料測試您的內容](../test-approve/simulate-sample-input.md)
 
-建立測試設定檔有數種方式。 您可以在此頁面中找到下列詳細資訊：
+建立測試設定檔有數種方式。 您可以在此頁面找到下列詳細資訊：
 
 * 將[現有的設定檔](#turning-profile-into-test)轉換為測試設定檔
 
@@ -137,7 +137,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   > 對象計算可能需要一些時間。 在[本節](../audience/about-audiences.md)中進一步瞭解對象。
+   > 對象計算可能需要一些時間。 若要了解客群的詳細資訊，請參閱[本章節](../audience/about-audiences.md)。
 
 1. 現在建立新歷程，並從&#x200B;**[!UICONTROL 讀取對象]**&#x200B;協調活動開始。
 1. 選擇先前建立的對象和設定檔使用的名稱空間。
