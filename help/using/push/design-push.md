@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 1a4c452adeb6bca876d5c108065e0219353a2540
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1362'
 ht-degree: 17%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 17%
 >title="設定推播通知的自訂資料。"
 >abstract="根據你的行動應用程式設定，在承載中新增自訂變數。"
 
-在&#x200B;**[!UICONTROL 自訂資料]**&#x200B;區段中，您可以根據行動應用程式設定，將自訂變數新增至裝載。 如需如何在Adobe Experience Platform和Adobe Launch中設定推播通知的詳細資訊，請參閱[本節](push-gs.md)
+在&#x200B;**[!UICONTROL 自訂資料]**&#x200B;區段中，您可以根據行動應用程式設定，將自訂變數新增至裝載。 如需如何在Adobe Experience Platform中設定推播通知的詳細資訊，請參閱[本節](push-gs.md)
 
 ## 進階選項 {#advanced-options-push}
 
