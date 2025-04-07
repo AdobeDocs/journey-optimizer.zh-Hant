@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: eea6cbaf29f3558f85b462d3dd3750d7f716bbcc
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2045'
 ht-degree: 20%

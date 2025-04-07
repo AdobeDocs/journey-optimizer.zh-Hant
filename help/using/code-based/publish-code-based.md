@@ -1,12 +1,12 @@
 ---
-title: Publish及管理程式碼型體驗
+title: 發佈和管理程式碼型體驗
 description: 瞭解如何在Journey Optimizer中發佈和停止程式碼型體驗
 feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 1%
@@ -31,15 +31,15 @@ ht-degree: 1%
 >
 >如果有多個程式碼型歷程或行銷活動更新內容的相同元素，則會以最高優先順序的歷程/行銷活動優先。
 
-您的程式碼型歷程或行銷活動上線後，應用程式實作團隊將負責發出明確API或SDK呼叫，以擷取所選[程式碼型體驗設定](code-based-configuration.md)中定義之表面的內容。 在[本節](code-based-implementation-samples.md)中瞭解不同客戶實作的詳細資訊。
+您的程式碼型歷程或行銷活動上線後，應用程式實作團隊將負責發出明確API或SDK呼叫，以擷取所選[程式碼型體驗設定](code-based-configuration.md)中定義之表面的內容。 在[本節](code-based-implementation-samples.md)中進一步瞭解不同的客戶實作。
 
-### Publish程式碼型歷程 {#publish-code-based-journey}
+### 發佈程式碼型歷程 {#publish-code-based-journey}
 
 若要讓您的程式碼型體驗在歷程中上線，請遵循下列步驟。
 
 1. 確認您的歷程有效且沒有錯誤。 [了解更多](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 
-1. 在歷程中，選取位於右上角下拉式功能表中的&#x200B;**[!UICONTROL Publish]**&#x200B;選項。
+1. 在歷程中，選取位於右上角下拉式功能表中的&#x200B;**[!UICONTROL 發佈]**&#x200B;選項。
 
    ![](assets/code-based-journey-publish.png)
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->按一下&#x200B;**[!UICONTROL Publish]**&#x200B;後，最多可能需要15分鐘才能讓變更上線。
+>按一下&#x200B;**[!UICONTROL 發佈]**&#x200B;之後，最多可能需要15分鐘才能讓變更上線。
 
 ### 啟用程式碼型行銷活動 {#activate-code-based-campaign}
 
@@ -113,9 +113,9 @@ Global reports display events that occurred at least two hours ago and cover eve
 
 ### Code-based live report {#live-report-code-based}
 
-From your campaign **[!UICONTROL Live report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages. [Learn more on live report](../reports/campaign-live-report.md)
+From your campaign **[!UICONTROL Live report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages. [Learn more about live report](../reports/campaign-live-report.md)
 
-+++Learn more on the different metrics and widgets available for the Code-based experience report.
++++Learn more about the different metrics and widgets available for the Code-based experience report.
 
 The **[!UICONTROL Code-based experience performance]** KPIs detail the main information relative to your visitors' engagement with your code-based experiences, such as:
 
@@ -130,7 +130,7 @@ TBC: The **[!UICONTROL Interactions by element]** table details the main informa
 
 ### Code-based global report {#global-report-code-based}
 
-Code-based campaign global report can be accessed directly from your journey or campaign with the **[!UICONTROL View report]** button. [Learn more on global report](../reports/campaign-global-report-cja.md)
+Code-based campaign global report can be accessed directly from your journey or campaign with the **[!UICONTROL View report]** button. [Learn more about global report](../reports/campaign-global-report-cja.md)
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages.
 
@@ -138,7 +138,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Code-based 
 
 Add image TBC
 
-+++Learn more on the different metrics and widgets available for the Code-based experience report.
++++Learn more about the different metrics and widgets available for the Code-based experience report.
 
 The **[!UICONTROL Code-based experience performance]** KPIs detail the main information relative to your visitors' engagement with your experiences, such as:
 

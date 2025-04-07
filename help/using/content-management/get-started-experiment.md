@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2004'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 實驗是在線上測試的情境下進行的一組隨機試驗，意即某些隨機選取的使用者會接觸到訊息的指定變化，而另一組隨機選取的使用者則會接觸到其他處理方式。 傳送訊息後，您就可以測量您感興趣的結果量度，例如電子郵件開啟數或點擊數。
 
-➡️[本章節](../experience-decisioning/experience-decisioning-uc.md)中呈現了一個端對端使用案例，說明如何使用內容實驗來比較決策與程式碼型體驗管道。
+➡️[本章節](../experience-decisioning/experience-decisioning-uc.md)呈現了一個端對端使用案例，說明如何使用內容實驗來比較決策與程式碼型體驗管道。
 
 ## 為什麼要進行實驗？
 
@@ -58,7 +58,7 @@ Adobe Journey Optimizer 中的內容實驗使用訪客身分識別的偽隨機�
 * 直接量度，使用者會直接回應處理方式，例如：開啟電子郵件或按一下連結。
 * 間接或「漏斗底部」量度，這會在使用者接觸到處理後發生。
 
-對於 Adobe Journey Optimizer 追蹤訊息的直接目標量度，一般使用者的回應事件會自動以行銷活動和處理識別碼加上標籤，使回應量度和處理能直接關聯。 [進一步了解追蹤](../email/message-tracking.md)。
+對於 Adobe Journey Optimizer 追蹤訊息的直接目標量度，一般使用者的回應事件會自動以行銷活動和處理識別碼加上標籤，使回應量度和處理能直接關聯。 [進一步瞭解追蹤](../email/message-tracking.md)。
 
 ![](assets/technote_2.png)
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6d4b7669-7852-42f0-9347-399a3994011f
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 3%
@@ -74,7 +74,7 @@ ht-degree: 3%
 
 **[!UICONTROL 追蹤的連結標籤]**&#x200B;表格提供推播通知內連結標籤的完整概觀，其中會強調產生最高訪客流量的連結。 此功能可讓您識別最熱門的連結並加以優先處理。
 
-+++ 進一步瞭解追蹤的連結標籤量度
++++ 深入瞭解追蹤的連結標籤量度
 
 * **[!UICONTROL 不重複點按]**：點按推播通知中內容的設定檔數目。
 

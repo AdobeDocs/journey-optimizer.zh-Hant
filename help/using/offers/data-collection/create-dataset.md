@@ -7,7 +7,7 @@ feature: Ranking, Decision Management, Datasets
 role: Data Engineer, Developer
 level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 7%
@@ -28,7 +28,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >在[XDM系統總覽檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}中瞭解更多有關XDM結構描述和欄位群組的資訊。
+   >在[XDM系統總覽檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}中進一步瞭解XDM結構描述和欄位群組。
 
 1. 輸入結構描述的名稱和描述，然後按一下&#x200B;**完成**。
    ![](../assets/ai-ranking-xdm-event-2.png)

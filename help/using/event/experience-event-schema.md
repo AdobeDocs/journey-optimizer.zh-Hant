@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 結構描述， XDM，平台，串流，擷取，歷程
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
 
   ![](assets/schema8.png)
 
-## 利用綱要關係{#leverage_schema_relationships}
+## 利用結構描述關係{#leverage_schema_relationships}
 
 Adobe Experience Platform可讓您定義結構描述之間的關係，以便將一個資料集用作另一個資料集的查詢表。
 

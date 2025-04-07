@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 子網域，最佳化工具，委派
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 30%
@@ -44,7 +44,7 @@ ht-degree: 30%
 
 實作解決方案時，對外向元件會有需求：包括設定要追蹤的連結和網頁、顯示映象頁面等。
 
-雖然這些需求是透過Adobe和客戶託管的元件來管理，但它們包含電子郵件收件者可以看到的URL。 為避免具有指出基礎技術解決方案或託管提供者的URL，可以設定子網域以讓此對電子郵件的收件者透明。
+雖然這些需求是透過Adobe和客戶託管的元件進行管理，但包含電子郵件收件者可檢視的URL。 為避免具有指出基礎技術解決方案或託管提供者的URL，可以設定子網域以讓此對電子郵件的收件者透明。
 
 **了解更多**
 
@@ -75,7 +75,7 @@ ht-degree: 30%
 
 如需網域設定的其他資訊，請參閱[此文件](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=zh-Hant)。
 
-如果您對子網域設定方法有任何疑問，請聯絡Adobe，或最終聯絡客戶服務以要求獲得傳遞能力諮詢。
+如果您對子網域設定方法有任何疑問，請聯絡Adobe，或最終聯絡客戶服務以請求傳遞能力諮詢。
 
 ## 存取委派的子網域 {#access-delegated-subdomains}
 

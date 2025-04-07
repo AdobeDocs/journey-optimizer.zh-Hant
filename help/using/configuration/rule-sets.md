@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 173d73996a676be4ebcad471f396b5f5256b80a5
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2045'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 13%
 
 >[!AVAILABILITY]
 >
->雖然&#x200B;**管道**&#x200B;網域規則集可供所有使用者使用，但&#x200B;**歷程**&#x200B;網域規則集僅供有限的使用者集使用（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。
+>雖然&#x200B;**管道**&#x200B;網域規則集可供所有使用者使用，但&#x200B;**歷程**&#x200B;網域規則集僅供有限的使用者集使用（可用性限制）。 若要取得存取權，請聯絡您的 Adobe 代表。
 
 ## 建立您的第一個自訂規則集 {#create-rule-set}
 
@@ -84,13 +84,13 @@ ht-degree: 13%
 
 1. 為規則集定義唯一名稱並新增說明。
 
-1. 選取規則集的網域。 網域可讓您指定規則集是否包含通訊通道或歷程專用的上限規則。 [進一步瞭解頻道和歷程上限規則](#domain)
+1. 選取規則集的網域。 網域可讓您指定規則集是否包含通訊通道或歷程專用的上限規則。 [進一步瞭解管道和歷程上限規則](#domain)
 
    ![](assets/rule-sets-create.png)
 
    >[!AVAILABILITY]
    >
-   >雖然&#x200B;**管道**&#x200B;網域規則集可供所有使用者使用，但&#x200B;**歷程**&#x200B;網域規則集僅供有限的使用者集使用（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。
+   >雖然&#x200B;**管道**&#x200B;網域規則集可供所有使用者使用，但&#x200B;**歷程**&#x200B;網域規則集僅供有限的使用者集使用（可用性限制）。 若要取得存取權，請聯絡您的 Adobe 代表。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
@@ -142,7 +142,7 @@ ht-degree: 13%
 
    >[!AVAILABILITY]
    >
-   >「每日」期間僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。
+   >「每日」期間僅適用於一組組織（可用性限制）。 若要取得存取權，請聯絡您的 Adobe 代表。
 
    每個期間的計數器到期日如下：
 
@@ -154,7 +154,7 @@ ht-degree: 13%
 
      >[!CAUTION]
      > 
-     >為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的名稱空間。 在[平台身分服務指南](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中進一步瞭解名稱空間優先順序
+     >為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的命名空間。在[平台身分服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中進一步瞭解名稱空間優先順序
 
    請注意，一旦傳遞通訊，設定檔計數器值就會更新。 當您傳送大量通訊時，請注意這一點，因為輸送量可能導致收件者在啟動通訊後數分鐘甚至數小時收到電子郵件（若您同時傳送數百萬封通訊）。
 

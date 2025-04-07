@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: 登陸，登陸頁面，設定，環境，子網域，預設集
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線`_`、點`.`和連字型大小`-`字元。
+   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線 `_`、點 `.` 和連字號 `-` 字元。
 
 1. 從下拉式清單中選取登陸頁面子網域。
 

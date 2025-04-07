@@ -6,9 +6,9 @@ description: 瞭解如何使用Adobe Experience Platform雲端儲存空間目的
 feature: Datasets
 role: User
 level: Beginner
-keywords: platform、資料湖、建立、湖、資料集、輪廓
+keywords: 平台、資料湖、建立、湖、資料集、設定檔
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 6%
@@ -67,7 +67,7 @@ Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
    >
    >如果您使用Adobe Journey Optimizer以及即時客戶設定檔，目的地卡片會顯示「**啟用**」按鈕，讓您根據已啟用許可權，匯出資料集並啟用此目的地的對象。
 
-1. **選取您要匯出至所選目的地的資料集**。 [進一步瞭解可用於匯出的Journey Optimizer資料集](#datasets)
+1. **選取您要匯出至所選目的地的資料集**。 [深入瞭解可用於匯出的Journey Optimizer資料集](#datasets)
 
    <!--![](assets/dataset-export-dataset-selection.png)-->
 

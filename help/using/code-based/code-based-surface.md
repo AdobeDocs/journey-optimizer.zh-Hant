@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 53%
@@ -73,7 +73,7 @@ ht-degree: 53%
 在[!DNL Journey Optimizer]中，程式碼型Experience Channel支援兩種客戶實作：
 
 * 根據您網站的[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant){target="_blank"}，或行動應用程式的[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}；
-* 使用[AEPEdge Network伺服器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hant){target="_blank"}的伺服器端或混合式。
+* 使用[AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hant){target="_blank"}的伺服器端或混合式。
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ ht-degree: 53%
 
 * **網頁/行動SDK**：您的網頁/行動開發人員需要將這些精細的位置定義為簡單的字串，因為網頁/行動SDK能根據目前的URL/應用程式ID和位置字串自動撰寫表面URI。
 
-* **Edge NetworkAPI**：應用程式/頁面開發人員必須定義包含完整路徑和使用內容位置的完整表面URI，因為此型別的實作需要完整URI。
+* **Edge Network API**：應用程式/頁面開發人員必須定義包含完整路徑和使用內容位置的完整表面URI，因為此型別的實作需要完整URI。
 
 這就是建立[程式碼型體驗通道組態](code-based-configuration.md)時，您有兩種方式可根據選取的平台指定介面：
 

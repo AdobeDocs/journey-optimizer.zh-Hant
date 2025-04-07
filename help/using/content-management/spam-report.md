@@ -5,7 +5,7 @@ feature: Preview
 role: User
 level: Beginner
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 9d95c3cf5c7f9a0da98654795370f40e84611dc9
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 17%
@@ -47,7 +47,7 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >垃圾郵件分數是透過[SpamAssassin](https://spamassassin.apache.org/){target="_blank"}衍生的，而且規則不屬於Adobe。 如需這些規則的詳細資訊，請參閱SpamAssassin檔案。
+   >垃圾郵件分數是透過[SpamAssassin](https://spamassassin.apache.org/){target="_blank"}衍生，而且規則不屬於Adobe。 如需這些規則的詳細資訊，請參閱SpamAssassin檔案。
    >
 
 1. 根據該評分，如果您認為某些元素可以改善，請在[電子郵件Designer](../email/content-from-scratch.md)中編輯您的內容並進行必要的更新。
@@ -58,7 +58,7 @@ ht-degree: 17%
 
 <!--You can also check the message's alerts for warnings on potential risk of spam detection. Follow the steps below.
 
-1. Click the **[!UICONTROL Alerts]** button on top right of the screen. [Learn more on email alerts](../email/create-email.md#check-email-alerts)
+1. Click the **[!UICONTROL Alerts]** button on top right of the screen. [Learn more about email alerts](../email/create-email.md#check-email-alerts)
 
 1. If **[!UICONTROL Spam checker alert]** is displayed, you should check your content for a potential risk of spam using the **[!UICONTROL Spam report]** feature as detailed above.
 

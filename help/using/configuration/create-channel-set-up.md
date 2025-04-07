@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
 1. 為了簡化設定程式，系統會自動建立必要資源來協助您開始使用。這包括建立新的&#x200B;**[!UICONTROL 行動標記屬性]**&#x200B;以及安裝擴充功能。
 
-[了解更多有關自動產生的資源](set-mobile-config.md#auto-create-resources)
+[進一步瞭解自動產生的資源](set-mobile-config.md#auto-create-resources)
 
 1. 完成資源產生後，請依照使用者介面中的指示，設定和驗證 SDK 與管道。
 

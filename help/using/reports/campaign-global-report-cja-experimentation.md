@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 69742163-7378-49ab-929e-86213d6e65e3
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 11%
@@ -51,7 +51,7 @@ ht-degree: 11%
 依傳入點按次數區分的&#x200B;**[!UICONTROL 變體]** Widget詳細說明每個變體的效能。
 如需深入瞭解這些結果以及如何解譯，請參閱[此頁面](../content-management/get-started-experiment.md#interpret-results)。
 
-+++ 進一步瞭解依據傳入點按量度的變體
++++ 進一步瞭解依據傳入點按次數量度的變體
 
 * **[!UICONTROL 人員]**：符合訊息目標設定檔資格的使用者設定檔數目。
 

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 允許清單，清單，安全，設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: a7347c57bb82de5181df87e8ab816de392ef97a3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 16%
@@ -40,7 +40,7 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->檢視、匯出及管理允許清單的許可權限製為[歷程管理員](../administration/ootb-product-profiles.md#journey-administrator)。 在[本節](../administration/permissions-overview.md)中進一步瞭解管理[!DNL Journey Optimizer]使用者的存取權。
+>檢視、匯出及管理允許清單的許可權限製為[歷程管理員](../administration/ootb-product-profiles.md#journey-administrator)。 在[本節](../administration/permissions-overview.md)中進一步瞭解如何管理[!DNL Journey Optimizer]使用者的存取權。
 
 若要將允許清單匯出為CSV檔案，請選取&#x200B;**[!UICONTROL 下載CSV]**&#x200B;按鈕。
 

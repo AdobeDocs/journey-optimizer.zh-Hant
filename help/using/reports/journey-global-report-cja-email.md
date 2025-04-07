@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 **[!UICONTROL 已傳遞與點選趨勢]**&#x200B;圖表提供您設定檔與電子郵件互動的詳細分析，提供各種網域如何與您的內容互動的寶貴見解。
 
-+++ 深入瞭解傳遞與點選趨勢量度
++++ 深入瞭解已傳遞與點選趨勢量度
 
 * **[!UICONTROL 已傳遞]**：與已傳送電子郵件總數相關的成功傳送電子郵件數目。
 
@@ -145,7 +145,7 @@ ht-degree: 2%
 
 **[!UICONTROL 追蹤的連結標籤]**&#x200B;表格提供您電子郵件中連結標籤的完整概觀，其中會強調產生最高訪客流量的連結。 此功能可讓您識別最熱門的連結並加以優先處理。
 
-+++ 進一步瞭解追蹤的連結標籤量度
++++ 深入瞭解追蹤的連結標籤量度
 
 * **[!UICONTROL 不重複點按]**：點按電子郵件中內容的設定檔數目。
 

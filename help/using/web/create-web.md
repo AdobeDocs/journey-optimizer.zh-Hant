@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 18%
@@ -83,7 +83,7 @@ ht-degree: 18%
 
 1. 選取&#x200B;**[!UICONTROL Web]**&#x200B;動作。
 
-1. 選取或建立網頁組態。 [進一步瞭解網頁組態](web-configuration.md)
+1. 選取或建立網頁組態。 [進一步瞭解Web設定](web-configuration.md)
 
    ![](assets/web-campaign-steps.png)
 

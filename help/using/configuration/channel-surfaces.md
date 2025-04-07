@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1800'
 ht-degree: 13%
@@ -253,7 +253,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->處理更新時，您無法停用管道設定。 您必須等待更新成功或失敗。 深入瞭解[編輯頻道設定](#edit-channel-surface)和[更新狀態](#update-statuses)。
+>處理更新時，您無法停用管道設定。 您必須等待更新成功或失敗。 深入瞭解[編輯頻道設定](#edit-channel-surface)以及[更新狀態](#update-statuses)。
 
 1. 存取通道設定清單。
 

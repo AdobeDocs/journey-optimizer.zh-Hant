@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子網域、委派、網域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1818'
 ht-degree: 23%
 
 ---
@@ -51,9 +51,9 @@ ht-degree: 23%
 >abstract="若要將新的子網域完全委派給 Adobe，您需要將 Journey Optimizer 介面中顯示的 Adobe 名稱伺服器資訊複製貼上您的網域託管解決方案中，以產生相符的 DNS 記錄。若要使用 CNAME 委派子網域，您還需要複製貼上 SSL CDN URL 驗證記錄。一旦檢查成功，子網域就準備好可用於傳遞訊息了。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain#cname-subdomain-delegation" text="CNAME 子網域委派"
 
-[!DNL Journey Optimizer]可讓您完全委派子網域以直接從產品介面Adobe。 藉由這樣做，Adobe將能夠控制並維護傳遞、演算及追蹤電子郵件行銷活動所需的DNS的各個層面，以受管理的方式傳遞訊息。
+[!DNL Journey Optimizer]可讓您直接從產品介面將子網域完全委派給Adobe。 藉由這樣做，Adobe將能夠控制並維護傳遞、演算及追蹤電子郵件行銷活動所需的DNS的各個層面，以受管理的方式傳遞訊息。
 
-您可以仰賴Adobe來維護所需的DNS基礎架構，以符合電子郵件行銷傳送網域的產業標準傳遞能力要求，同時繼續維護和控制內部電子郵件網域的DNS。
+您可以仰賴Adobe維護所需的DNS基礎架構，以符合電子郵件行銷傳送網域的產業標準傳遞能力要求，同時繼續維護及控制內部電子郵件網域的DNS。
 
 若要將新子網域完全委派給Adobe，請執行以下步驟：
 
@@ -95,7 +95,7 @@ ht-degree: 23%
 
    ![](assets/subdomain-processing.png)
 
-   您必須先等到Adobe執行所需的檢查（最多可能需要3小時），才能使用該子網域傳送訊息。 請參閱[此章節](#subdomain-validation)深入瞭解。
+   您必須等待Adobe執行所需檢查（最多可能需要3小時），才能使用該子網域傳送訊息。 請參閱[此章節](#subdomain-validation)深入瞭解。
 
    >[!NOTE]
    >
@@ -107,7 +107,7 @@ ht-degree: 23%
    >
    >如果您無法在您的代管解決方案上建立驗證記錄，子網域將會標示為&#x200B;**[!UICONTROL 失敗]**。
 
-一旦將子網域委派給[!DNL Journey Optimizer]中的Adobe，就會自動建立PTR記錄並與此子網域建立關聯。 [了解更多](ptr-records.md)
+在[!DNL Journey Optimizer]中將子網域委派給Adobe後，系統會自動建立PTR記錄並與此子網域建立關聯。 [了解更多](ptr-records.md)
 
 >[!CAUTION]
 >
@@ -125,7 +125,7 @@ ht-degree: 23%
 >title="複製驗證記錄"
 >abstract="Adobe 會產生驗證記錄。您需要在您的託管平台上建立相對應的記錄，以進行 CDN URL 驗證。"
 
-如果您有網域特定的限制原則，並且您希望Adobe只擁有對DNS的部份控制權，您可以選擇在您這邊執行所有DNS相關的活動。
+如果您有網域特定的限制原則，並且您希望Adobe只擁有對DNS的部份控制權，您可以選擇在自己這邊執行所有DNS相關的活動。
 
 CNAME子網域設定可讓您建立子網域，並使用CNAME指向Adobe特定記錄。 使用此設定，您和 Adobe 都有責任維護 DNS，針對電子郵件的傳送、轉譯和追蹤設定環境。
 
@@ -167,7 +167,7 @@ CNAME子網域設定可讓您建立子網域，並使用CNAME指向Adobe特定�
    >
    >您稍後可以使用&#x200B;**[!UICONTROL 另存為草稿]**&#x200B;按鈕來建立記錄。 然後，您就可以在此階段繼續子網域委派，方法是從子網域清單中開啟該子網域。
 
-1. 等候，直到Adobe驗證在您的託管解決方案上產生記錄時沒有發生錯誤。 此程式最多可能需要2分鐘。
+1. 等候Adobe驗證在您的託管解決方案上產生記錄時沒有發生錯誤。 此程式最多可能需要2分鐘。
 
    >[!NOTE]
    >
@@ -189,7 +189,7 @@ CNAME子網域設定可讓您建立子網域，並使用CNAME指向Adobe特定�
    >
    >如果您無法在您的代管解決方案上建立驗證記錄，子網域將會標示為&#x200B;**[!UICONTROL 失敗]**。
 
-在驗證記錄並安裝憑證時，Adobe會自動建立CNAME子網域的PTR記錄。 [了解更多](ptr-records.md)
+在驗證記錄並安裝憑證後，Adobe會自動建立CNAME子網域的PTR記錄。 [了解更多](ptr-records.md)
 
 >[!CAUTION]
 >
@@ -201,9 +201,9 @@ CNAME子網域設定可讓您建立子網域，並使用CNAME指向Adobe特定�
 
 >[!NOTE]
 >
->這些步驟由Adobe執行，最多可能需要3小時。
+>這些步驟由Adobe執行，最多可能需要3小時的時間。
 
-1. **預先驗證**：Adobe會檢查子網域是否已委派給AdobeDNS （NS記錄、SOA記錄、區域設定、所有權記錄）。 如果預先驗證步驟失敗，則會傳回錯誤及相應原因，否則Adobe會進行下一個步驟。
+1. **預先驗證**： Adobe會檢查子網域是否已委派給Adobe DNS （NS記錄、SOA記錄、區域設定、所有權記錄）。 如果預先驗證步驟失敗，則會傳回錯誤及相應原因，否則Adobe會進行下一個步驟。
 
 1. **設定網域**&#x200B;的DNS：
 
@@ -223,7 +223,7 @@ CNAME子網域設定可讓您建立子網域，並使用CNAME指向Adobe特定�
 
 1. **建立轉送DNS**：如果這是您委派的第一個子網域，Adobe將建立建立PTR記錄所需的轉送DNS — 每個IP各一個。
 
-1. **建立PTR記錄**： ISP需要PTR記錄（也稱為反向DNS記錄），以免將電子郵件標示為垃圾郵件。 Gmail也建議每個IP都有PTR記錄。 Adobe只會在您第一次委派子網域時建立PTR記錄，每個IP各一個，所有IP都指向該子網域。 例如，如果IP是&#x200B;*192.1.2.1*，而子網域是&#x200B;*email.example.com*，則PTR記錄會是： *192.1.2.1 PTR r1.email.example.com*。 您之後可以更新PTR記錄，以指向新的委派網域。 [進一步瞭解PTR記錄](ptr-records.md)
+1. **建立PTR記錄**： ISP需要PTR記錄（也稱為反向DNS記錄），以免將電子郵件標示為垃圾郵件。 Gmail也建議每個IP都有PTR記錄。 Adobe只會在您第一次委派子網域時建立PTR記錄，每個IP各一個，所有IP都指向該子網域。 例如，如果IP是&#x200B;*192.1.2.1*&#x200B;且子網域是&#x200B;*email.example.com*，則PTR記錄將是： *192.1.2.1PTR r1.email.example.com*。 您之後可以更新PTR記錄，以指向新的委派網域。 [進一步瞭解PTR記錄](ptr-records.md)
 
 ## 作法影片{#video}
 

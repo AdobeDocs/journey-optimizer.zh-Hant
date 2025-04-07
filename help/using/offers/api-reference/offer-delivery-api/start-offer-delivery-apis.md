@@ -1,19 +1,19 @@
 ---
-title: 開始使用傳遞優惠方案 API
+title: 開始使用傳遞產品建議 API
 description: 深入瞭解可用於提供個人化優惠的API。
 feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 2ef555bd10d7b8fa32c1324b201d55d2a4b1aec7
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 4%
 
 ---
 
-# 開始使用傳遞優惠方案 API {#about-decisioning-apis}
+# 開始使用傳遞產品建議 API {#about-decisioning-apis}
 
 您可以使用&#x200B;**決策**&#x200B;或&#x200B;**Edge決策** API來傳遞優惠方案。 此外，**批次決策** API可讓您透過一次呼叫，將優惠傳送給指定對象中的所有設定檔。 對象中每個設定檔的選件內容都會放在Adobe Experience Platform資料集中，可用於自訂批次工作流程。
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 建立 IP 池
+title: 建立 IP 集區
 description: 瞭解如何管理IP集區
 feature: Subdomains, Channel Configuration
 topic: Administration
@@ -9,14 +9,14 @@ role: Admin
 level: Experienced
 keywords: IP、集區、群組、子網域、傳遞能力
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 11%
 
 ---
 
-# 建立 IP 池 {#create-ip-pools}
+# 建立 IP 集區 {#create-ip-pools}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"

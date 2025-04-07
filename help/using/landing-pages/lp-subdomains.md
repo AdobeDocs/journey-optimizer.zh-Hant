@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: 登陸、登陸頁面、子網域、設定
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 23%
@@ -36,7 +36,7 @@ ht-degree: 23%
 
 若要能夠[建立登陸頁面預設集](lp-presets.md)，您必須設定您將用於登陸頁面的子網域。
 
-您可以使用已委派給Adobe的子網域，也可以設定另一個子網域。 在[本節](../configuration/delegate-subdomain.md)中進一步瞭解將子網域委派給Adobe。
+您可以使用已委派給Adobe的子網域，也可以設定另一個子網域。 在[本節](../configuration/delegate-subdomain.md)中進一步瞭解將子網域委派至Adobe。
 
 >[!CAUTION]
 >
@@ -76,7 +76,7 @@ ht-degree: 23%
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   請注意，您無法使用相同上層網域的多個委派子網域。 例如，如果已針對您的登入頁面將「marketing1.yourcompany.com」委派給Adobe，您將無法使用「marketing2.yourcompany.com」。 不過，支援登陸頁面的多層子網域可繼續使用「marketing1.yourcompany.com」的子網域（例如「email.marketing1.yourcompany.com」）或不同的上層網域。
+   請注意，您無法使用相同上層網域的多個委派子網域。 例如，如果「marketing1.yourcompany.com」已針對您的登陸頁面委派給Adobe，您將無法使用「marketing2.yourcompany.com」。 不過，支援登陸頁面的多層子網域可繼續使用「marketing1.yourcompany.com」的子網域（例如「email.marketing1.yourcompany.com」）或不同的上層網域。
 
    >[!CAUTION]
    >
@@ -90,7 +90,7 @@ ht-degree: 23%
 
    >[!NOTE]
    >
-   >您必須等到Adobe執行必要的檢查，才能使用該子網域傳送訊息，最多可能需要4小時。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   >您必須等到Adobe執行必要的檢查，才能使用該子網域傳送訊息，最多可能需要4小時的時間。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. 檢查成功後，子網域會取得&#x200B;**[!UICONTROL Success]**&#x200B;狀態。 它已準備好用來建立登入頁面預設集。
 
@@ -139,7 +139,7 @@ ht-degree: 23%
 
    >[!NOTE]
    >
-   >您必須先等到Adobe執行必要的檢查，才能將該子網域用於登入頁面，最多可能需要4小時。<!--Learn more in [this section](#subdomain-validation).-->
+   >您必須等到Adobe執行必要的檢查（最多可能需要4小時）後，才能將該子網域用於登入頁面。<!--Learn more in [this section](#subdomain-validation).-->
 
 1. 檢查成功後，子網域會取得&#x200B;**[!UICONTROL Success]**&#x200B;狀態。 它已準備好用來建立登入頁面預設集。
 

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 隱藏，清單，退信，電子郵件，最佳化工具，隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 22%
@@ -22,7 +22,7 @@ ht-degree: 22%
 
 這些電子郵件地址會自動收集到Journey Optimizer **隱藏清單**&#x200B;中。 隱藏清單包含要從對象中排除的地址和網域。 它會收集在單一使用者端環境中所有郵件中隱藏的電子郵件地址和網域，這表示會特定於與沙箱ID關聯的組織ID。
 
-在[本節](../reports/suppression-list.md)中進一步瞭解隱藏清單的概念及使用方式。
+在[本節](../reports/suppression-list.md)中進一步瞭解隱藏清單概念及使用方式。
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ ht-degree: 22%
 
 >[!CAUTION]
 >
->檢視、匯出及管理隱藏清單的許可權限製為[歷程管理員](../administration/ootb-product-profiles.md#journey-administrator)。 在[本節](../administration/permissions-overview.md)中進一步瞭解管理[!DNL Journey Optimizer]使用者的存取權。
+>檢視、匯出及管理隱藏清單的許可權限製為[歷程管理員](../administration/ootb-product-profiles.md#journey-administrator)。 在[本節](../administration/permissions-overview.md)中進一步瞭解如何管理[!DNL Journey Optimizer]使用者的存取權。
 
 
 篩選器可幫助您瀏覽清單。

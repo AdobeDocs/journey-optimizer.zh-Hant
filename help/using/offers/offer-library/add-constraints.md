@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2719'
 ht-degree: 15%
@@ -123,7 +123,7 @@ ht-degree: 15%
 
   一方面，受眾是一組Adobe Experience Platform設定檔，根據設定檔屬性和體驗事件符合特定邏輯。 不過，Offer Management不會重新計算對象，在展示優惠方案時，該對象可能不是最新狀態。
 
-  在[本節](../../audience/about-audiences.md)中進一步瞭解對象。
+  若要了解客群的詳細資訊，請參閱[本章節](../../audience/about-audiences.md)。
 
 * **決定規則**
 

@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: 設定，實驗，報告，最佳化工具
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 29%
 
 ---
 
-# 報告和實驗先決條件 {#reporting-configuration}
+# 報告與實驗先決條件 {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
@@ -62,7 +62,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->在[XDM系統總覽檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}中瞭解更多有關XDM結構描述和欄位群組的資訊。
+>在[XDM系統總覽檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}中進一步瞭解XDM結構描述和欄位群組。
 
 <!--
 ## Objectives corresponding to each field group {#objective-list}
@@ -118,7 +118,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-namespace.png)
 
-   在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant){target="_blank"}中瞭解更多有關名稱空間的資訊。
+   在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant){target="_blank"}中進一步瞭解名稱空間。
 
 1. 儲存變更以將選取資料集新增到報告設定清單。
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '6785'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -870,7 +870,7 @@ ht-degree: 100%
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* 您現在可以使用 Edge Delivery 外掛程式，取得了解傳入實作及疑難排解所需的資訊。[了解更多 Edge Delivery 檢視](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+* 您現在可以使用 Edge Delivery 外掛程式，取得了解傳入實作及疑難排解所需的資訊。[進一步瞭解Edge Delivery檢視](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}。
 
 
 #### 直接郵件頻道

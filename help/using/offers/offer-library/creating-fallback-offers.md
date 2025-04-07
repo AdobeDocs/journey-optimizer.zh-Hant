@@ -1,19 +1,19 @@
 ---
-title: 建立遞補優惠方案
+title: 建立後備產品建議
 description: 瞭解如何建立遞補優惠，以顯示給不符合任何優惠方案資格的客戶
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 4%
 
 ---
 
-# 建立遞補優惠方案 {#create-fallback-offers}
+# 建立後備產品建議 {#create-fallback-offers}
 
 如果客戶不符合其他優惠方案的資格，系統會將遞補優惠方案傳送給客戶。 建立遞補優惠的步驟包含建立一或多個表示，例如建立優惠時。
 

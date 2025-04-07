@@ -1,18 +1,18 @@
 ---
-title: 決策管理護欄和限制
+title: 決策管理護欄與限制
 description: 進一步了解決策管理護欄和限制。
 feature: Decisioning
 role: User
 level: Intermediate
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 14%
+ht-degree: 17%
 
 ---
 
-
-# 決策管理護欄和限制 {#decision-management-guardrails}
+# 決策管理護欄與限制 {#decision-management-guardrails}
 
 為確保最佳使用決定管理，請謹記以下護欄和限制。
 

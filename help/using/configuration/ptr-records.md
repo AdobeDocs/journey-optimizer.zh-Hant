@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子網域, PTR, 記錄, DNS, 網域, 郵件
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 86%
 >
 >此[更新處理](#processing)最多可能需要 3 小時的時間。
 
-若要檢查 PTR 記錄更新詳細資料，請按一下其旁邊的圖示。 請在[此節](#ptr-record-update-statuses)了解更多與不同圖示相關聯的狀態。
+若要檢查 PTR 記錄更新詳細資料，請按一下其旁邊的圖示。 在[本節](#ptr-record-update-statuses)中進一步瞭解與不同圖示相關聯的狀態。
 
 ![](assets/ptr-record-recent-update.png)
 

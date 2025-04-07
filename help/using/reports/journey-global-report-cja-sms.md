@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cf50ce33-7934-4e37-a757-08cda14e97ac
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 3%
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 **[!UICONTROL 已傳遞與點選趨勢]**&#x200B;圖表提供您設定檔與簡訊訊息互動的詳細分析，提供不同網域與內容互動方式的寶貴見解。
 
-+++ 深入瞭解傳遞與點選趨勢量度
++++ 深入瞭解已傳遞與點選趨勢量度
 
 * **[!UICONTROL 已傳遞]**：成功傳送的SMS訊息數目（與SMS訊息總數相關）。
 
@@ -57,7 +57,7 @@ ht-degree: 3%
 
 **[!UICONTROL 追蹤的連結標籤]**&#x200B;表格提供您SMS訊息中連結標籤的完整概觀，強調產生最高訪客流量的連結。 此功能可讓您識別最熱門的連結並加以優先處理。
 
-+++ 進一步瞭解追蹤的連結標籤量度
++++ 深入瞭解追蹤的連結標籤量度
 
 * **[!UICONTROL 不重複點按]**：點按SMS訊息中內容的設定檔數目。
 
@@ -95,7 +95,7 @@ ht-degree: 3%
 
 **[!UICONTROL SMS訊息型別]**&#x200B;表格提供哪種SMS訊息型別吸引最多訪客流量的完整概觀。 此資源提供受眾參與動態的寶貴見解。
 
-+++ 進一步瞭解簡訊型別量度
++++ 深入瞭解簡訊型別量度
 
 * **[!UICONTROL 人員]**：符合簡訊訊息目標設定檔資格的使用者設定檔數目。
 

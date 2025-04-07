@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -54,6 +54,6 @@ ht-degree: 3%
 
 若要再次啟用，設定檔屬性必須變更回`consents.marketing.postalMail.val` ： `y`。
 
-若要管理設定檔的屬性，請移至Experience Platform，並透過選取身分名稱空間和對應的身分值來存取設定檔。 在[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
+若要管理設定檔的屬性，請前往Experience Platform ，並透過選取身分名稱空間和對應的身分值來存取設定檔。 在[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
 
 在[本節](../privacy/opt-out.md)中進一步瞭解如何在Journey Optimizer中管理選擇退出。

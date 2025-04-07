@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b77cac6ba9984139f7fd5cb761759cafb26ccc48
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 31%
 
    * 選取&#x200B;**[!UICONTROL 外部選擇加入/訂閱]**&#x200B;以插入連結，接受來自您品牌的通訊。
 
-   * 選取&#x200B;**[!UICONTROL 外部選擇退出/取消訂閱]**&#x200B;以插入取消訂閱的連結，以停止接收來自您品牌的通訊。 進一步瞭解[本章節](email-opt-out.md#opt-out-management)中的選擇退出管理。
+   * 選取&#x200B;**[!UICONTROL 外部選擇退出/取消訂閱]**&#x200B;以插入取消訂閱的連結，以停止接收來自您品牌的通訊。 在[本節](email-opt-out.md#opt-out-management)中進一步瞭解選擇退出管理。
 
    * 選取&#x200B;**[!UICONTROL 映象頁面]**&#x200B;以新增電子郵件映象頁面的連結。 [了解更多](#mirror-page)
 

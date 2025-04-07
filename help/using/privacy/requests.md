@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 隱私權請求
-description: 了解有關隱私權請求和 Privacy Service 的更多資訊。
+title: 隱私請求
+description: 進一步瞭解隱私權請求和Privacy Service。
 feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: b400b48d6f0429b05be523d4c2f520c383eef514
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

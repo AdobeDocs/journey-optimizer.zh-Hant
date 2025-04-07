@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->在[本節](../administration/object-based-access.md)中了解更多物件層級存取控制 (OLAC)。
+>在[本節](../administration/object-based-access.md)中進一步瞭解物件層級存取控制(OLAC)。
 
 在 [!DNL Journey Optimizer] 行銷活動中，依照下列方式強制執行同意原則：
 
@@ -137,7 +137,7 @@ ht-degree: 97%
 
 您也可以將分割活動新增至構成工作流程，以將個人化同意檢查新增至客群。
 
-1. 使用&#x200B;**[!UICONTROL 撰寫客群]**&#x200B;選項建立客群。 [了解更多如何建立構成工作流程的相關資訊](../audience/get-started-audience-orchestration.md)
+1. 使用&#x200B;**[!UICONTROL 撰寫客群]**&#x200B;選項建立客群。 [進一步瞭解如何建立組合工作流程](../audience/get-started-audience-orchestration.md)
 
    ![](assets/perso-consent-audience-compose.png)
 

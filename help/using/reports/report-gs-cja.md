@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 15%
+ht-degree: 19%
 
 ---
 
@@ -41,7 +41,7 @@ Journey Optimizer 報告功能改善與 Customer Journey Analytics 功能的互�
 
 ## 先決條件 {#prerequisites}
 
-* 如果您&#x200B;**沒有**&#x200B;自己的Customer Journey Analytics，或如果您擁有它但&#x200B;**沒有**&#x200B;存取任何Customer Journey Analytics產品設定檔，許可權是在Journey Optimizer中進行管理。 在此情況下，您將需要：
+* 如果您&#x200B;**沒有**&#x200B;擁有的Customer Journey Analytics，或如果您擁有它但&#x200B;**沒有**&#x200B;存取任何Customer Journey Analytics產品設定檔，許可權是在Journey Optimizer中進行管理。 在此情況下，您將需要：
 
    * **[!UICONTROL 檢視管道報告]**&#x200B;許可權或相關角色。 [了解更多](../administration/permissions.md)
 

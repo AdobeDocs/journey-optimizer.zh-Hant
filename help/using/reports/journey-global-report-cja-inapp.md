@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 2%
@@ -47,7 +47,7 @@ ht-degree: 2%
 
 **[!UICONTROL 點按次數]**&#x200B;圖形會顯示應用程式內點按量度，說明內容點按總次數和點按內容的不重複設定檔數量。
 
-+++ 進一步瞭解點按量度
++++ 進一步瞭解點選量度
 
 * **[!UICONTROL 不重複點按]**：在您的應用程式內訊息中點按內容的設定檔數目
 
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 **[!UICONTROL 顯示]**&#x200B;圖表可協助您瞭解訊息的整體觸及範圍和與其互動的不重複設定檔數目。
 
-+++ 深入瞭解顯示量度
++++ 進一步瞭解顯示量度
 
 * **[!UICONTROL 顯示]**：訊息開啟的次數。
 
@@ -101,7 +101,7 @@ ht-degree: 2%
 
 **[!UICONTROL 追蹤的連結標籤]**&#x200B;表格提供您應用程式內訊息中連結標籤的完整概觀，其中會強調產生最高訪客流量的連結。 此功能可讓您識別最熱門的連結並加以優先處理。
 
-+++ 進一步瞭解追蹤的連結標籤量度
++++ 深入瞭解追蹤的連結標籤量度
 
 * **[!UICONTROL 不重複點按]**：在您的應用程式內訊息中點按內容的設定檔數目。
 

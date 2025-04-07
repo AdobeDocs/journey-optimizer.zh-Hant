@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '3492'
 ht-degree: 27%
@@ -79,7 +79,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 電子郵件 — 傳送效能]**&#x200B;提供過去24小時內傳送之電子郵件相關資料的完整概觀。 它提供基本量度的深入分析，例如傳送和跳出，以便詳細檢查電子郵件傳送過程。
 
-+++ 進一步瞭解電子郵件傳送效能量度
++++ 進一步瞭解電子郵件傳送效能度量
 
 * **[!UICONTROL 已傳遞]**：成功傳送的電子郵件數目。
 
@@ -146,7 +146,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 如需退信的詳細資訊，請參閱[隱藏清單](../reports/suppression-list.md)頁面。
 
-+++ 進一步瞭解電子郵件 — 退回類別和原因量度
++++ 深入瞭解電子郵件 — 退回類別和原因量度
 
 * **[!UICONTROL 硬退信]**：永久錯誤的總數，例如錯誤的電子郵件地址。 這包含明確指出地址無效的錯誤訊息，例如「未知使用者」。
 
@@ -167,7 +167,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 電子郵件 — 依據日期的效能]**&#x200B;介面工具集提供與訊息相關之重要資訊的詳細概觀，透過圖表呈現，提供過去24小時效能趨勢的深入分析。
 
-+++ 進一步瞭解電子郵件 — 依據日期和原因量度的績效
++++ 進一步瞭解電子郵件 — 依據日期和原因的績效量度
 
 * **[!UICONTROL 已傳送]**：傳送總數。
 
@@ -230,7 +230,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 優惠統計資料]**&#x200B;和&#x200B;**[!UICONTROL 一段時間內的優惠統計資料]** Widget可測量您的優惠是否成功，以及是否對目標受眾造成影響。 它會使用KPI詳細說明與您的訊息相關的主要資訊。
 
-+++ 進一步瞭解電子郵件 — 優惠方案量度
++++ 深入瞭解電子郵件 — 優惠方案量度
 
 * **[!UICONTROL 已傳送的優惠]**：優惠的傳送總數。
 
@@ -302,7 +302,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 推播通知傳送績效]**&#x200B;圖表提供過去24小時內傳送之推播通知相關資料的完整概觀。 它提供基本量度的深入分析，例如傳送和跳出，以便詳細檢查推播通知傳送流程。
 
-+++ 進一步瞭解推播通知 — 傳送效能量度
++++ 深入瞭解推播通知 — 傳送效能量度
 
 * **[!UICONTROL 已傳遞]**：已成功傳送的訊息數。
 
@@ -457,7 +457,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 依日期的SMS效能]** Widget提供與訊息相關之重要資訊的詳細總覽，透過圖表呈現，提供過去24小時內效能趨勢的深入分析。
 
-+++ 進一步瞭解簡訊 — 依據日期量度的績效
++++ 深入瞭解簡訊 — 依據日期量度的效能
 
 * **[!UICONTROL 已傳送]**：傳送總數。
 
@@ -513,7 +513,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 網頁成效]** KPI提供訪客過去24小時內與您的網頁互動情況的全面分析，包含曝光數和互動數等關鍵量度。
 
-+++ 進一步瞭解網站績效計量
++++ 進一步瞭解網頁效能測量結果
 
 * **[!UICONTROL 曝光次數]**：傳送給所有使用者的網頁體驗總數。
 

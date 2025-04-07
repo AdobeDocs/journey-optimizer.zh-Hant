@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線`_`、點`.`和連字型大小`-`字元。
+   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線 `_`、點 `.` 和連字號 `-` 字元。
 
 1. 若要將自訂或核心資料使用標籤指派給組態，您可以選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)。
 

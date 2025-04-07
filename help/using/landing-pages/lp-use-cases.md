@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 登陸、登陸頁面、使用案例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 12%
@@ -48,7 +48,7 @@ ht-degree: 12%
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [Publish](create-lp.md#publish)登入頁面。
+1. [發佈](create-lp.md#publish)登入頁面。
 
 1. 在[歷程](../building-journeys/journey.md)中，新增&#x200B;**電子郵件**&#x200B;活動以將流量引導至註冊登入頁面。
 
@@ -141,7 +141,7 @@ ht-degree: 12%
    >
    >若要能夠傳送您的訊息，請確定您選取的登入頁面尚未過期。 在本節](create-lp.md#configure-primary-page)中瞭解如何更新到期日[。
 
-1. Publish並執行歷程。 [了解更多](../building-journeys/journey.md)。
+1. 發佈並執行歷程。 [了解更多](../building-journeys/journey.md)。
 
 1. 收到訊息後，如果收件者按一下電子郵件中的取消訂閱連結，就會顯示您的登陸頁面。
 

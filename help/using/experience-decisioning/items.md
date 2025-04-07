@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1743'
 ht-degree: 15%
@@ -79,7 +79,7 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 
 +++
 
-* 若要將決策專案的呈現限制在一或多個Adobe Experience Platform對象的成員中，請選取&#x200B;**[!UICONTROL 屬於一或多個對象的訪客]**&#x200B;選項，然後從左窗格新增一或多個對象，並使用&#x200B;**[!UICONTROL And]** / **[!UICONTROL Or]**&#x200B;邏輯運運算元將其合併。 [深入瞭解對象](../audience/about-audiences.md)。
+* 若要將決策專案的呈現限制在一或多個Adobe Experience Platform對象的成員中，請選取&#x200B;**[!UICONTROL 屬於一或多個對象的訪客]**&#x200B;選項，然後從左窗格新增一或多個對象，並使用&#x200B;**[!UICONTROL And]** / **[!UICONTROL Or]**&#x200B;邏輯運運算元將其合併。 [進一步瞭解對象](../audience/about-audiences.md)。
 
 * 若要將特定決定規則與決定專案建立關聯，請選取&#x200B;**[!UICONTROL 依規則]**，然後將需要的規則從左側窗格拖曳到中央區域。 [進一步了解決定規則](rules.md)。
 
@@ -119,7 +119,7 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 
 1. 選擇上限型別：
 
-   * 選取總計&#x200B;**[!UICONTROL 個]**&#x200B;以定義可在合併目標對象中建議多少次該專案，亦即在所有使用者中。 例如，如果您是具有「電視看門人交易」的電子零售商，您只想要在所有設定檔中傳回200次選件。
+   * 選取總計&#x200B;**[!UICONTROL 個]**&#x200B;以定義可在合併目標對象中建議多少次該專案，亦即在所有使用者中。 例如，如果您是具有「TV doorbuster deal」的電子產品retailer，您只想讓所有設定檔傳回200次選件。
 
    * 選取&#x200B;**[!UICONTROL 每個設定檔]**&#x200B;以定義可建議給同一個使用者多少次選件。 例如，如果您是具有「白金信用卡」優惠方案的銀行，您不希望此優惠方案在每個設定檔中顯示超過5次。 事實上，您相信，如果使用者看過5次選件且未採取行動，則他們有較高機會對下一個最佳選件採取行動。
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 19%
+source-wordcount: '516'
+ht-degree: 18%
 
 ---
 
@@ -42,6 +42,7 @@ ht-degree: 19%
 
 無需任何步驟，即可確保SMS選擇退出功能在Adobe Journey Optimizer中運作，因為關鍵字回應STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE會自動識別。 在Adobe Journey Optimizer中即時更新設定檔選擇退出狀態。
 
+請注意，如果客戶對文字訊息回應STOP，提供者會封鎖該特定傳送者ID （短代碼或長數字）的所有後續SMS，包括交易式訊息。 為確保異動SMS的傳送不會中斷，請使用先前未選取退出的個別傳送者ID。
 
 ## 封鎖清單 {#sms-blocklists}
 
@@ -56,7 +57,7 @@ ht-degree: 19%
 
 ## 英數字元寄件者 ID {#alphanumeric}
 
-英數字元寄件者 ID 僅用於單向傳訊，無法接收傳入訊息。 因此，Adobe Journey Optimizer的SMS STOP、START、HELP關鍵字不適用於Alpha傳送者ID。 您必須提供其他指示，如寫入支援團隊、呼叫支援電話熱線或傳送文字訊息給其他電話號碼或程式碼，以允許使用者選擇退出透過英數字元寄件者 ID 傳送的訊息。
+英數字元寄件者 ID 僅用於單向傳訊，無法接收傳入訊息。 因此，Adobe Journey Optimizer的SMS STOP、START、HELP關鍵字不適用於Alpha寄件者ID。 您必須提供其他指示，如寫入支援團隊、呼叫支援電話熱線或傳送文字訊息給其他電話號碼或程式碼，以允許使用者選擇退出透過英數字元寄件者 ID 傳送的訊息。
 
 ## 影片 {#video-sms}
 

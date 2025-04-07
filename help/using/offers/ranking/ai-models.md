@@ -7,7 +7,7 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 260b9ec0a70526ac37da444e183fc1d01b97b22b
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 14%
@@ -52,6 +52,6 @@ ht-degree: 14%
 
    >[!IMPORTANT]
    >
-   >排名模型需要意見事件以體驗事件的形式傳送才能收集。 [進一步了解決定管理資料彙集](../data-collection/data-collection.md)
+   >排名模型需要意見事件以體驗事件的形式傳送才能收集。 [進一步了解決定管理資料集合](../data-collection/data-collection.md)
 
 1. 將AI模型指派給決定中的位置，以排名合格的優惠。 [了解更多](../offer-activities/configure-offer-selection.md)

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 封存，訊息， HIPAA，密件副本，電子郵件
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 6%
@@ -67,7 +67,7 @@ HIPAA等法規要求[!DNL Journey Optimizer]應提供一種封存傳送給個人
 
 但是，會擷取密件副本位址，以便按照[這裡](../email/email-settings.md)描述的邏輯傳送通訊。
 
-### Recommendations和限制 {#bcc-recommendations-limitations}
+### 建議和限制 {#bcc-recommendations-limitations}
 
 * 為確保您的隱私權合規性，密件副本電子郵件必須由能夠安全儲存個人識別資訊(PII)的封存系統處理。
 

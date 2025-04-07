@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 9ea7f2c76cc09949bb4467d5b9b2c19550f9975e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 23%
@@ -76,7 +76,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->您的應用程式實作團隊負責發出明確API或SDK呼叫，以便為選取的程式碼型體驗設定中定義的表面擷取內容。 在[本節](code-based-implementation-samples.md)中瞭解不同客戶實作的詳細資訊。
+>您的應用程式實作團隊負責發出明確API或SDK呼叫，以便為選取的程式碼型體驗設定中定義的表面擷取內容。 在[本節](code-based-implementation-samples.md)中進一步瞭解不同的客戶實作。
 
 ### Web 平台 {#web}
 

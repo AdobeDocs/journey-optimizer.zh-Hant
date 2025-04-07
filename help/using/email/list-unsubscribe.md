@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 0fd6c054b9b4df9e3ed900c610e0d1186e479750
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 51%
+ht-degree: 50%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 51%
 
   >[!NOTE]
   >
-  >在[本章節](../email/email-opt-out.md#unsubscribe-header)中，進一步了解訊息中的管理取消訂閱功能等更多資訊。
+  >在[本節](../email/email-opt-out.md#unsubscribe-header)中進一步瞭解如何管理訊息中的取消訂閱功能。
 
 在 [!DNL Journey Optimizer]中，同意由 Experience Platform [同意結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"}負責處理。 預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 您可以在上線時修改此預設值，成為[這裡](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}可能列出的一個值，或使用[同意原則](../action/consent.md)來覆寫預設邏輯。
 

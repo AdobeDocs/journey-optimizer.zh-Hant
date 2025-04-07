@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 2%
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 **[!UICONTROL 顯示和點按]**&#x200B;圖表會顯示設定檔與程式碼型體驗互動的詳細分析，提供設定檔與內容互動方式的寶貴見解。
 
-+++ 進一步瞭解「曝光與點按」量度
++++ 進一步瞭解曝光和點選量度
 
 * **[!UICONTROL 不重複點按]**：在您的體驗中點按內容的設定檔數目。
 
@@ -69,7 +69,7 @@ ht-degree: 2%
 
 **[!UICONTROL 追蹤的連結標籤]**&#x200B;表格提供程式碼型體驗中連結標籤的完整概觀，其中會強調產生最高訪客流量的連結。 此功能可讓您識別最熱門的連結並加以優先處理。
 
-+++ 進一步瞭解追蹤的連結標籤量度
++++ 深入瞭解追蹤的連結標籤量度
 
 * **[!UICONTROL 不重複點按]**：在您的程式碼型體驗中點按內容的設定檔數目。
 

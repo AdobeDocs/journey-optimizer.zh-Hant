@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 >
 >對於非生產環境，Adobe 不會建立立即可用的測試子網域，也不會授予共用傳送 IP 集區的存取權。您需要[委派自己的子網域](../configuration/delegate-subdomain.md)，並使用指派至您組織集區的 IP。
 
-選取 IP 集區後，當游標停留在 IP 集區下拉式清單下方顯示的 IP 位址上時，會顯示 PTR 資訊。[進一步了解 PTR 記錄](../configuration/ptr-records.md)
+選取 IP 集區後，當游標停留在 IP 集區下拉式清單下方顯示的 IP 位址上時，會顯示 PTR 資訊。[進一步瞭解PTR記錄](../configuration/ptr-records.md)
 
 >[!NOTE]
 >
@@ -179,7 +179,7 @@ ht-degree: 100%
 * 若是交易型電子郵件，最小重試時段為 10 分鐘。
 * 對於這兩種電子郵件類型，重試時段的上限為 84 小時（或 5040 分鐘）。
 
-欲了解有關重試的更多資訊，請參閱[本節](../configuration/retries.md)。
+在[本節](../configuration/retries.md)中進一步瞭解重試。
 
 ## URL 追蹤 {#url-tracking}
 

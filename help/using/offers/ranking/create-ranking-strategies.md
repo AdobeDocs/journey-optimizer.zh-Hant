@@ -7,7 +7,7 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 23%
@@ -56,7 +56,7 @@ ht-degree: 23%
    >* **曝光事件** （顯示的選件）
    >* **轉換事件** （透過電子郵件或網頁產生點按的優惠方案）。
    >
-   >系統會使用所提供的網頁SDK或行動SDK自動擷取這些事件。 在[Adobe Experience Platform Web SDK概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)中進一步瞭解此資訊。
+   >系統會使用所提供的網頁SDK或行動SDK自動擷取這些事件。 請在[Adobe Experience Platform Web SDK總覽](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)中進一步瞭解此專案。
 
 1. 選取轉換和曝光事件收集所在的資料集。 瞭解如何在[此區段](../data-collection/create-dataset.md)中建立這類資料集。<!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 

@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 開始使用動態內容
-description: 深入了解更多動態內容
+description: 進一步瞭解動態內容
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 運算式、編輯器、開始使用、條件、開始
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 64%
+ht-degree: 60%
 
 ---
 
