@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，對象，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
 workflow-type: tm+mt
-source-wordcount: '1687'
-ht-degree: 11%
+source-wordcount: '1786'
+ht-degree: 10%
 
 ---
 
@@ -24,6 +24,41 @@ ht-degree: 11%
 >id="ajo_journey_read_segment"
 >title="讀取客群象活動"
 >abstract="「讀取客群」活動可讓您安排屬於 Adobe Experience Platform 客群的所有個人進入歷程。進入歷程可以執行一次，也可以定期執行。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_start_date"
+>title="開始日期/時間"
+>abstract="定義您要觸發此歷程的日期和時間。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_until"
+>title="重複直到"
+>abstract="定義定期發生的結束日期。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_every"
+>title="重複間隔"
+>abstract="定義重新循環排程器的頻率。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_incremental_read"
+>title="增量讀取"
+>abstract="僅允許自上次讀取以來的新設定檔進入歷程。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_force_reentrance"
+>title="強制重新進入"
+>abstract="在讀取每個對象之前放置所有歷程參與者。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience"
+>title="使用受眾匯出同步化歷程執行"
+>abstract="開啟此選項，以便在有新的對象匯出可用時觸發歷程。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
+>title="使用受眾匯出同步化歷程執行"
+>abstract="指定歷程將等待的持續時間，以確保有新的受眾匯出可用。"
 
 使用&#x200B;**讀取對象**&#x200B;活動讓對象的所有個人進入歷程。 進入歷程可以執行一次，也可以定期執行。
 
@@ -63,7 +98,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >此外，您也可以鎖定使用[對象組合](../audience/get-started-audience-orchestration.md)或從CSV檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}上傳的[建立的Adobe Experience Platform對象。
+   >此外，您也可以鎖定使用從CSV檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}上傳的[對象組合](../audience/get-started-audience-orchestration.md)或[建立的Adobe Experience Platform對象。
 
    請注意，您可以自訂清單中顯示的欄並加以排序。
 
