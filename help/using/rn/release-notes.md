@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 315cd1df52018497c24da29d1b899c9662bfa576
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 63%
+source-wordcount: '761'
+ht-degree: 61%
 
 ---
 
@@ -20,31 +20,33 @@ ht-degree: 63%
 >title="新增功能？"
 >abstract="**Adobe Journey Optimizer** 持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每月最後一週整合於發行說明。"
 
-[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 延續了最新版本的創新和改進內容。 在[Adobe Experience Platform發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}中進一步瞭解這些變更。
 
 ## 2025年4月更新
 
 ### 改進項目 {#25-04-improv}
 
-**電子郵件設計工具**
 
-為了增強Journey Optimizer的協助工具，電子郵件Designer現在提供兩個新欄位：它們對應至電子郵件內容`<html>`元素中的`<title>`元素和`lang`屬性。 除了電子郵件&#x200B;**[!UICONTROL 內文]**&#x200B;區段中的&#x200B;**[!UICONTROL Preheader]**&#x200B;欄位外，您還可以定義這些設定。 [閱讀全文](../email/email-metadata.md)
+* **沙箱工具** — 推出日期： 2025年4月3日
 
-**沙箱工具** — 推出日期： 2025年4月3日
+  您現在可以使用套件匯出和匯入功能，跨多個沙箱複製行銷活動。 行銷活動會連同與設定檔、對象、結構、內嵌訊息和相依物件相關的所有專案一起複製。 有些專案不會複製，例如決定專案、資料使用標籤和語言設定。 [閱讀全文](../configuration/copy-objects-to-sandbox.md)
 
-您現在可以使用套件匯出和匯入功能，跨多個沙箱複製行銷活動。 行銷活動會連同與設定檔、對象、結構、內嵌訊息和相依物件相關的所有專案一起複製。 有些專案不會複製，例如決定專案、資料使用標籤和語言設定。 [閱讀全文](../configuration/copy-objects-to-sandbox.md)
+* **Personalization** — 推出日期： 2025年4月2日
 
-**Personalization** — 推出日期： 2025年4月2日
+  個人化編輯器中的屬性窗格現在預設只會顯示已填入的屬性。 若要檢視所有屬性，請使用設定按鈕來關閉&#x200B;**[!UICONTROL 僅顯示填入的屬性]**&#x200B;選項。 [閱讀全文](../personalization/personalization-build-expressions.md)
 
-個人化編輯器中的屬性窗格現在預設只會顯示已填入的屬性。 若要檢視所有屬性，請使用設定按鈕來關閉&#x200B;**[!UICONTROL 僅顯示填入的屬性]**&#x200B;選項。 [閱讀全文](../personalization/personalization-build-expressions.md)
+* **內容管理** — 推出日期： 2025年4月2日
 
-**內容管理** — 推出日期： 2025年4月2日
+  為了輕鬆管理您的內容範本和片段，您現在可以使用資料夾將它們更有效地組織到結構化的階層中。 在[內容範本](../content-management/access-content-templates.md#folders)和[片段](../content-management/manage-fragments.md#folders)區段中瞭解更多。
 
-為了輕鬆管理您的內容範本和片段，您現在可以使用資料夾將它們更有效地組織到結構化的階層中。 在[內容範本](../content-management/access-content-templates.md#folders)和[片段](../content-management/manage-fragments.md#folders)區段中瞭解更多。
+  >[!AVAILABILITY]
+  >
+  >這項改善僅適用於一組組織（可用性限制）。
 
->[!AVAILABILITY]
->
->這項改善僅適用於一組組織（可用性限制）。
+* **電子郵件Designer** — 推出日期： 2025年4月1日
+
+  為了增強Journey Optimizer的協助工具，電子郵件Designer現在提供兩個新欄位：它們對應至電子郵件內容`<html>`元素中的`<title>`元素和`lang`屬性。 除了電子郵件&#x200B;**[!UICONTROL 內文]**&#x200B;區段中的&#x200B;**[!UICONTROL Preheader]**&#x200B;欄位外，您還可以定義這些設定。 [閱讀全文](../email/email-metadata.md)
+
 
 ## 2025年3月發行說明 {#25-3-rn}
 
