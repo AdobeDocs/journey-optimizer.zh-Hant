@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: f57a89e249c41e76f9ebf1a77dfe383129ae9250
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '768'
 ht-degree: 3%
 
 ---
@@ -50,15 +50,12 @@ WhatsApp支援下列訊息型別：
 | 內文 | 透過引數支援動態內容。 |
 | 頁尾文字 | 透過引數支援動態內容。 |
 
-下列召喚行動選項適用於您的WhatsApp訊息：
+以下call-to-action選項適用於您的WhatsApp訊息：
 
 | 行動號召 | 說明 |
 |-|-|
-| 呼叫電話號碼 | 僅可用於訊息範本。 僅限一個按鈕。 |
-| 自訂快速回覆按鈕 | 最多支援三個按鈕。 |
-| 行銷選擇退出按鈕 | 不會自動更新訂閱狀態。 |
-| 優惠券代碼訊息範本 | 僅供訊息範本使用。 |
-| CTA回應訊息 | 允許在回應訊息中包含號召性用語按鈕。 |
+| 造訪網站 | 只允許一個按鈕，包含變數引數。 |
+
 
 +++
 
@@ -97,6 +94,8 @@ WhatsApp支援下列訊息型別：
 1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，選擇&#x200B;**[!UICONTROL WhatsApp]**，然後選取或建立新的設定。
 
    在[此頁面](whatsapp-configuration.md)上進一步瞭解WhatsApp設定。
+
+   ![](assets/whatsapp-campaign-1.png)
 
 1. 按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以開始設定您的內容實驗，並建立處理以測量其效能，並為您的目標對象識別最佳選項。 [了解更多](../content-management/content-experiment.md)
 
@@ -139,13 +138,19 @@ WhatsApp支援下列訊息型別：
 
    [進一步瞭解範本類別](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
 
+   ![](assets/whatsapp-design-1.png)
+
 1. 從&#x200B;**WhatsApp範本**&#x200B;下拉式清單中，選取您先前在Meta中建立的範本。
 
    [進一步瞭解如何建立您的Whatsapp範本](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
+   ![](assets/whatsapp-design-2.png)
+
 1. 使用個人化編輯器將個人化新增到您的範本。 您可以使用任何屬性，例如設定檔名稱或城市。
 
    瀏覽下列頁面，進一步瞭解[個人化](../personalization/personalize.md)。
+
+   ![](assets/whatsapp-design-3.png)
 
 1. 使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕來預覽您的WhatsApp訊息內容、縮短的URL和個人化內容。 [了解更多](send-whatsapp.md)
 
