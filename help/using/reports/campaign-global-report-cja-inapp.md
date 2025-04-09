@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 badge: label="可用性限制" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8a820441ccd8e36280eb001f7912860f7727b7b4
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '584'
 ht-degree: 3%
 
 ---
 
 # 應用程式內行銷活動報告 {#campaign-global-report-cja-inapp}
+
+>[!IMPORTANT]
+>
+>在您報告應用程式內行銷活動和歷程之前，請務必遵循[本頁面](../in-app/inapp-configuration.md#experiment-prerequisites)提供的報告先決條件。
 
 >[!BEGINSHADEBOX]
 
