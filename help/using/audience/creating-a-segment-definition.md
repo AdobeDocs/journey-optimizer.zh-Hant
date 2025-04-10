@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
+source-git-commit: 9fcf0e07edad27ab1eac3c29b26888fd99e26751
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 19%
+source-wordcount: '1017'
+ht-degree: 17%
 
 ---
 
@@ -120,11 +120,7 @@ Edge區段能在Adobe Experience Platform中即時評估[邊緣](https://experie
 
 在您首次定義對象後，設定檔將在其符合資格時新增到對象。 最多可能需要 24 小時才能從先前的資料回填客群。 回填客群之後，該客群會持續保持在最新狀態，並隨時準備好進行目標定位。
 
-## [!BADGE 有限可用性]{type=Informative} 彈性客群評估 {#flexible}
-
->[!AVAILABILITY]
->
-彈性客群評估僅適用於特定組織 (可用性限制)。若要取得存取權，請和您的 Adobe 代表聯絡。
+## 彈性的受眾評估 {#flexible}
 
 Adobe Experience Platform受眾入口網站可讓您依需求針對選取的受眾執行細分工作，確保您始終擁有最新的受眾資料，然後再將其鎖定為Journey Optimizer歷程和行銷活動。
 
