@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7973f56c26c01d4845138f70cd00bce8ab7fc09c
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 18%
+source-wordcount: '568'
+ht-degree: 16%
 
 ---
 
@@ -43,6 +43,12 @@ ht-degree: 18%
 無需任何步驟，即可確保SMS選擇退出功能在Adobe Journey Optimizer中運作，因為關鍵字回應STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE會自動識別。 在Adobe Journey Optimizer中即時更新設定檔選擇退出狀態。
 
 請注意，如果客戶對文字訊息回應STOP，提供者會封鎖該特定傳送者ID （短代碼或長數字）的所有後續SMS，包括交易式訊息。 為確保異動SMS的傳送不會中斷，請使用先前未選取退出的個別傳送者ID。
+
+
+>[!NOTE]
+>
+>如果您打算使用雙向SMS （以STOP、QUIT等回覆），請確定您先傳送至少一次單向SMS以建立電話號碼與設定檔對應。 提供者認證過期或設定錯誤會導致傳入關鍵字無法更新使用者設定檔，導致遺失或延遲選擇退出記錄。
+
 
 ## 封鎖清單 {#sms-blocklists}
 
