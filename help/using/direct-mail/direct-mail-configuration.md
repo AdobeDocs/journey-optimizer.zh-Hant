@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 23%
+source-wordcount: '1344'
+ht-degree: 22%
 
 ---
 
@@ -24,11 +24,14 @@ ht-degree: 23%
 
 1. [檔案路由組態](#file-routing-configuration)，指定檔案匯出的伺服器，並視需要加密檔案。
 
-   >[!CAUTION]
-   >
-   >若要建立檔案路由設定，您必須擁有&#x200B;**[!DNL Manage file routing]**&#x200B;內建許可權。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
-
 1. [直接郵件設定](#direct-mail-configuration)，將參考檔案路由設定。 如果您尚未設定任何檔案路由選項，您將無法建立直接郵件設定。
+
+
+>[!CAUTION]
+>
+>* 若要建立檔案路由設定，您必須擁有&#x200B;**[!DNL Manage file routing]**&#x200B;內建許可權。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
+>
+>* 直接郵件檔案只會在匯出時產生；系統不會無限期儲存較舊的匯出專案。 如需更長或永久的備份，請設定檔案路由選項（SFTP或雲端儲存空間）。
 
 ## 設定檔案路由 {#file-routing-configuration}
 

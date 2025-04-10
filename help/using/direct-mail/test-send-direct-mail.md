@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 5%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 5%
 
 當您的直接郵件行銷活動準備就緒時，請按一下&#x200B;**[!UICONTROL 啟動]**&#x200B;按鈕。 當行銷活動開始時，擷取檔案會自動產生，並匯出至[檔案路由設定](../direct-mail/direct-mail-configuration.md)中指定的伺服器。
 
-傳送後，您可以在行銷活動報表中測量直接郵件行銷活動的影響。 如需報告的詳細資訊，請參閱本區段。
+傳送後，您可以在行銷活動報表中測量直接郵件行銷活動的影響。 如需直接郵件報告的詳細資訊，請參閱[本節](../reports/campaign-global-report-cja-direct.md)。
 
 ## 管理直接郵件的同意 {#dm-consent-management}
 
@@ -54,6 +54,6 @@ ht-degree: 5%
 
 若要再次啟用，設定檔屬性必須變更回`consents.marketing.postalMail.val` ： `y`。
 
-若要管理設定檔的屬性，請前往Experience Platform ，並透過選取身分名稱空間和對應的身分值來存取設定檔。 在[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
+若要管理設定檔的屬性，請前往Experience Platform ，並透過選取身分名稱空間和對應的身分值來存取設定檔。 在[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant#getting-started){target="_blank"}中進一步瞭解。
 
 在[本節](../privacy/opt-out.md)中進一步瞭解如何在Journey Optimizer中管理選擇退出。
