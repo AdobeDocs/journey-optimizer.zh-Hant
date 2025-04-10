@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 1ee75284f3c5f0c7870e8bd8779d4daf9879aa40
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 51%
+source-wordcount: '1057'
+ht-degree: 48%
 
 ---
 
@@ -65,6 +65,10 @@ ht-degree: 51%
 您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。如果您收到錯誤，則表示您的呼叫發生問題。再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。您可以諮詢管理員哪個是要點擊的正確 URL。
 
 不會直接將事件從來源推送到歷程。 事實上，歷程依賴Adobe Experience Platform的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}，以疑難排解串流獲取API。
+
+如果您的歷程無法啟用測試模式，錯誤為`ERR_MODEL_RULES_16`，請確定使用的事件包含使用通道動作時的[身分名稱空間](../audience/get-started-identity.md)。
+
+身分名稱空間會用於唯一識別測試設定檔。 例如，如果使用電子郵件來識別測試設定檔，則應選取身分名稱空間&#x200B;**電子郵件**。 如果唯一識別碼是電話號碼，則應該選取識別名稱空間&#x200B;**電話**。
 
 ## 檢查是否有人進入歷程 {#checking-if-people-enter-the-journey}
 
