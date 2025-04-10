@@ -11,8 +11,8 @@ keywords: 設定、電子郵件、設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 99%
+source-wordcount: '1481'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 在頻道設定的專用區段中定義電子郵件設定，如下所述。
 
-![](assets/surface-email-settings.png){width="50%" align="left"}
+![](assets/surface-email-settings.png){width="50%" align="left"}{width=&quot;50%&quot; align=&quot;left&quot;}
 
 電子郵件設定依照下列邏輯傳送通訊：
 
@@ -43,7 +43,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="定義電子郵件類型"
->abstract="選取使用此設定時將傳送的電子郵件類型：促銷用的行銷型電子郵件 (需使用者同意)，或非商業的交易型電子郵件 (還可在特定情況下傳送至取消訂閱的設定檔)。"
+>abstract="選取使用此設定時將傳送的電子郵件類型：促銷用的行銷型電子郵件 (需使用者同意)，或非商業的交易型電子郵件 (還可在特定情況下傳送至取消訂閱的輪廓)。"
 
 在&#x200B;**電子郵件類型**&#x200B;區段中，選取設定的訊息類型：**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 交易型]**。
 
@@ -67,7 +67,7 @@ ht-degree: 99%
 
 選取要與設定關聯的 IP 集區。[了解更多](../configuration/ip-pools.md)
 
-![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
+![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}{width=&quot;50%&quot; align=&quot;left&quot;}
 
 當選取的 IP 集區處於[版本](../configuration/ip-pools.md#edit-ip-pool)（**[!UICONTROL 處理中]**&#x200B;狀態）且從未與所選子網域關聯時，您無法繼續建立設定。否則，仍會使用 IP 集區/子網域關聯的最舊版本。如果是這種情況，請將設定儲存為草稿，並在 IP 集區具有&#x200B;**[!UICONTROL 成功]**&#x200B;狀態時重試。
 
@@ -149,7 +149,7 @@ ht-degree: 99%
 
 在&#x200B;**[!UICONTROL 種子清單]**&#x200B;區段中選取與您相關的清單。在[本節](../configuration/seed-lists.md#create-seed-list)之中了解如何建立種子清單。
 
-![](../configuration/assets/seed-list-surface.png){width="80%"}
+![](../configuration/assets/seed-list-surface.png){width="80%"}{width=&quot;80%&quot;}
 
 >[!NOTE]
 >

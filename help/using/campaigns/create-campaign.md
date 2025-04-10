@@ -11,7 +11,7 @@ keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1281'
 ht-degree: 21%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="行銷活動類型"
->abstract="**排程的行銷活動**&#x200B;會立即執行或在指定的日期執行，其目的在傳送行銷類型訊息。**API 觸發的**&#x200B;行銷活動是使用 API 呼叫執行的。這些目的是傳送行銷訊息 (需要使用者同意的促銷訊息) 或交易型訊息 (非商業訊息，也可以在特定情況下傳送到未訂閱的設定檔)。"
+>abstract="**排程的行銷活動**&#x200B;會立即執行或在指定的日期執行，其目的在傳送行銷類型訊息。**API 觸發的**&#x200B;行銷活動是使用 API 呼叫執行的。這些目的是傳送行銷訊息 (需要使用者同意的促銷訊息) 或交易型訊息 (非商業訊息，也可以在特定情況下傳送到取消訂閱的輪廓)。"
 
 建立新行銷活動時，必須先選取行銷活動的型別。 可用的行銷活動型別有三種：
 
@@ -65,13 +65,13 @@ ht-degree: 21%
 
 1. 在&#x200B;**對象**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕以顯示可用Adobe Experience Platform對象清單。 在[本節](../audience/about-audiences.md)中進一步瞭解對象。
 
-1. 在&#x200B;**[!UICONTROL 身分型別]**&#x200B;欄位中，選擇用來識別所選對象中個人的金鑰型別。 您可以使用現有的身分型別，或使用Adobe Experience Platform Identity Service建立新的身分型別。 標準身分名稱空間列於[此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}。
+1. 在&#x200B;**[!UICONTROL 身分型別]**&#x200B;欄位中，選擇用來識別所選對象中個人的金鑰型別。 您可以使用現有的身分型別，或使用Adobe Experience Platform Identity Service建立新的身分型別。 標準身分名稱空間列於[此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}{target=&quot;_blank&quot;}。
 
    每個行銷活動只允許一個身分型別。 如果屬於區段的個人在不同身分中沒有選取的身分型別，則無法將該行銷活動設為目標。
 
    ![](assets/create-campaign-namespace.png)
 
-   在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target="_blank"}中進一步瞭解身分型別和名稱空間。
+   在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target="_blank"}{target=&quot;_blank&quot;}中進一步瞭解身分型別和名稱空間。
 
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
