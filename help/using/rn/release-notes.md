@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: aa5170ec5d195ec22684d748cd3520dfa8400fed
+source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 71%
+source-wordcount: '867'
+ht-degree: 69%
 
 ---
 
@@ -24,8 +24,28 @@ ht-degree: 71%
 
 ## 2025 年 4 月更新
 
-### 改進項目 {#25-04-improv}
+### 新功能 {#25-04-feature}
 
+<table>
+<thead>
+<tr>
+<th><strong>歷程量度</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>歷程量度現已推出，可讓您透過關鍵業務量度測量活動的影響，並針對您的績效提供更清楚的深入分析。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/success-metrics.md">詳細文件</a>。</p>
+<p>推出日期： 2025年4月9日</p>
+</br>
+<img src="assets/do-not-localize/success-metric.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改進項目 {#25-04-improv}
 
 * **沙箱工具** — 推出日期： 2025年4月3日
 

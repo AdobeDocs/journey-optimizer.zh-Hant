@@ -8,17 +8,15 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
-hide: true
-hidefromtoc: true
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
 workflow-type: tm+mt
 source-wordcount: '488'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
-# 設定及追蹤您的歷程量度 {#success-metrics}
+# 設定並追蹤您的歷程量度 {#success-metrics}
 
 有了歷程量度，您可以根據預先定義的量度追蹤活動績效，藉此有效評估活動的影響。
 透過追蹤這些量度，您可以瞭解歷程的表現如何、識別需要改進的領域，並做出明智的決策以增強客戶參與。
