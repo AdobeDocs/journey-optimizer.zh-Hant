@@ -8,8 +8,8 @@ description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 315cd1df52018497c24da29d1b899c9662bfa576
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 61%
+source-wordcount: '765'
+ht-degree: 76%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 61%
 >title="新增功能？"
 >abstract="**Adobe Journey Optimizer** 持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每月最後一週整合於發行說明。"
 
-[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 延續了最新版本的創新和改進內容。 在[Adobe Experience Platform發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}中進一步瞭解這些變更。
+[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變動，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}{target=&quot;_blank&quot;}。
 
-## 2025年4月更新
+## 2025 年 4 月更新
 
 ### 改進項目 {#25-04-improv}
 
@@ -37,18 +37,18 @@ ht-degree: 61%
 
 * **內容管理** — 推出日期： 2025年4月2日
 
-  為了輕鬆管理您的內容範本和片段，您現在可以使用資料夾將它們更有效地組織到結構化的階層中。 在[內容範本](../content-management/access-content-templates.md#folders)和[片段](../content-management/manage-fragments.md#folders)區段中瞭解更多。
+  為了輕鬆管理您的內容範本和片段，您現在可以使用資料夾將它們更有效地組織到結構化的階層中。 請在[內容範本](../content-management/access-content-templates.md#folders)和[片段](../content-management/manage-fragments.md#folders)一節瞭解更多資訊。
 
   >[!AVAILABILITY]
   >
-  >這項改善僅適用於一組組織（可用性限制）。
+  >此改善功能僅適用於一組組織 (有限可用性)。
 
 * **電子郵件Designer** — 推出日期： 2025年4月1日
 
   為了增強Journey Optimizer的協助工具，電子郵件Designer現在提供兩個新欄位：它們對應至電子郵件內容`<html>`元素中的`<title>`元素和`lang`屬性。 除了電子郵件&#x200B;**[!UICONTROL 內文]**&#x200B;區段中的&#x200B;**[!UICONTROL Preheader]**&#x200B;欄位外，您還可以定義這些設定。 [閱讀全文](../email/email-metadata.md)
 
 
-## 2025年3月發行說明 {#25-3-rn}
+## 2025 年 3 月發行說明 {#25-3-rn}
 
 
 ### 新功能 {#25-03-features}
@@ -196,17 +196,17 @@ ht-degree: 61%
 
 **設定**
 
-* 您現可指派 Adobe Experience Platform 統一標籤至管道設定。這可讓您輕鬆分類，並改善所有清單中的搜尋和導覽。 [了解更多](../configuration/channel-surfaces.md#channel-config-tags)
+* 您現可指派 Adobe Experience Platform 統一標籤至管道設定。這可讓您輕鬆分類，以及改善所有清單的搜尋和導覽體驗。[了解更多](../configuration/channel-surfaces.md#channel-config-tags)
 
-* 在Journey Optimizer中設定或編輯電子郵件子網域時，如果您可在上層網域中使用，您現在可以選擇自行管理相關的DMARC記錄。 [了解更多](../configuration/dmarc-record.md#set-up-dmarc)
+* 在 Journey Optimizer 設定或編輯電子郵件子網域時，如果您可在上層網域可使用，您現在可以選擇自行管理相關的 DMARC 記錄。 [了解更多](../configuration/dmarc-record.md#set-up-dmarc)
 
 **業務規則**
 
-您現在可以在包含批次細分的歷程和行銷活動中，使用每日頻率上限。為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的命名空間。在[平台身分服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中進一步瞭解名稱空間優先順序
+您現在可以在包含批次細分的歷程和行銷活動中，使用每日頻率上限。為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的命名空間。在[平台身分服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}{target=&quot;_blank&quot;}中進一步瞭解名稱空間優先順序
 
 提醒您，規則集中的每日頻率上限僅適用於一組組織（可用性限制）。 若要取得存取權，請聯絡您的 Adobe 代表。
 
-如需商業規則的詳細資訊，請參閱[詳細檔案](../configuration/rule-sets.md)。
+如需有關業務規則的詳細資訊，請參閱[詳細說明文件](../configuration/rule-sets.md)。
 
 <!--**Deliverability**
 

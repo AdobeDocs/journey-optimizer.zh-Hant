@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 94%
 * 有關在電子郵件訊息中插入連結及啟用追蹤的區段已更新並重新組織。 [閱讀全文](../email/message-tracking.md)
 * Adobe Journey Optimizer 個人化功能的相關區段已重新整理並改善。 [閱讀全文](../personalization/personalize.md)
 * 用於列出個人化優惠的決策管理 API 已更新，如果回應中缺少多個個人化優惠，則使用範例來執行分頁。 [閱讀全文](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
-* 已建立新頁面，收集有關「清單取消訂閱」功能的所有資訊，以提高清晰度。 [閱讀全文](../email/list-unsubscribe.md)
-* 已更新「頻率限定」章節，其中包含如何在Edge Decisioning API之外更新「決策」和「批次決策」API的頻率限定計數器。 [閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
+* 已建立新頁面，收集有關清單取消訂閱功能的所有資訊，以提高清晰度。 [閱讀全文](../email/list-unsubscribe.md)
+* 已更新「頻率限定」章節，其中包含如何在 Edge Decisioning API 之外更新「決策」和「批次決策」API 的頻率限定計數器。 [閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
 
 ## 2025 年 2 月 {#feb-2025}
 
