@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 運算式編輯器，資料，歷程
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
+source-git-commit: 4a60b9f8c754e161ca156c7644d7241adb9bfc1f
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 63%
+source-wordcount: '692'
+ht-degree: 60%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 63%
 
 >[!NOTE]
 >
->可在簡單或進階運算式編輯器中定義條件。它們一律會傳回布林值類型。
+>* 可在簡單或進階運算式編輯器中定義條件。它們一律會傳回布林值類型。
 >
->藉由選取欄位或透過進階運算式編輯器，以定義動作參數。他們會根據其運算式傳回特定資料類型。
+>* 藉由選取欄位或透過進階運算式編輯器，以定義動作參數。他們會根據其運算式傳回特定資料類型。
 
 您可以透過不同方式存取進階運算式編輯器：
 
@@ -83,6 +83,12 @@ ht-degree: 63%
 語法驗證機制會檢查程式碼的完整性。錯誤會顯示在編輯器上方。
 
 ![](../assets/journey69.png)
+
+
+>[!TIP]
+>
+>在進階運算式編輯器中建立條件時，請確定您的運算式不包含隱藏或不可列印的字元。 此外，請使用單行運算式，以避免剖析錯誤。
+
 
 **使用進階運算式編輯器建立條件時，需要使用參數**
 
