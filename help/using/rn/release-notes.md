@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 315cd1df52018497c24da29d1b899c9662bfa576
+source-git-commit: aa5170ec5d195ec22684d748cd3520dfa8400fed
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 76%
+source-wordcount: '823'
+ht-degree: 71%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 76%
 >title="新增功能？"
 >abstract="**Adobe Journey Optimizer** 持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每月最後一週整合於發行說明。"
 
-[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變動，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}{target=&quot;_blank&quot;}。
+[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Adobe Journey Optimizer] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
 ## 2025 年 4 月更新
 
@@ -152,6 +152,22 @@ ht-degree: 76%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>彈性的對象評估(GA)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>先前可供一組組織(LA)使用，現在所有使用者均可使用(GA)彈性對象評估。 此功能可讓您依需求針對選取的對象執行細分工作，在將其鎖定目標至Journey Optimizer歷程和行銷活動之前，確保您始終擁有最新的對象資料。</p>
+<img src="assets/do-not-localize/flexible-audience.gif">
+<p>如需詳細資訊，請參閱<a href="../audience/creating-a-segment-definition.md#flexible">詳細文件</a>。</p>
+</tr>
+</tbody>
+</table>
+</table>
 
 <!--table>
 <thead>
@@ -202,7 +218,7 @@ ht-degree: 76%
 
 **業務規則**
 
-您現在可以在包含批次細分的歷程和行銷活動中，使用每日頻率上限。為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的命名空間。在[平台身分服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}{target=&quot;_blank&quot;}中進一步瞭解名稱空間優先順序
+您現在可以在包含批次細分的歷程和行銷活動中，使用每日頻率上限。為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的命名空間。在[平台身分服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中進一步瞭解名稱空間優先順序
 
 提醒您，規則集中的每日頻率上限僅適用於一組組織（可用性限制）。 若要取得存取權，請聯絡您的 Adobe 代表。
 
