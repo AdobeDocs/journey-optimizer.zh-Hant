@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP、集區、群組、子網域、傳遞能力
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 11%
@@ -68,7 +68,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->如果沒有為IP設定PTR記錄，則無法選取該IP。 請聯絡您的Adobe代表以設定該IP的PTR記錄。
+>如果沒有為IP設定PTR記錄，則無法選取該IP。 請聯絡您的Adobe代表以設定該IP的PTR記錄。<!--Now this only happens when first subdomain delegated to Adobe is with CNAME method.-->
 
 建立IP集區後，當游標停留在IP集區下拉式清單下方顯示的IP位址上時，會顯示PTR資訊。
 

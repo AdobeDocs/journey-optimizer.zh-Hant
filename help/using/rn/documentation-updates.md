@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e8e3b002bf614e49c6ef098b6f2475d65bb47112
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 92%
+source-wordcount: '1087'
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 92%
 * 在`inAudience`函式區段中新增重新命名對象時影響和最佳實務的警告注意事項。 [閱讀全文](../building-journeys/functions/functioninaudience.md)
 * 新增使用雙向SMS時原生關鍵字用法的建議。 [閱讀全文](../sms/sms-opt-out.md)
 * 已更新歷程測試頁面，其中附註說明必須在使用的事件中包含身分名稱空間。 [閱讀全文](../building-journeys/testing-the-journey.md)
-
+* 目前您無法透過[!UICONTROL Journey Optimizer]使用者介面取消委派子網域，請洽詢您的Adobe代表。 電子郵件、登陸頁面、簡訊和網頁子網域區段已更新，其中包含此資訊和聯絡Adobe之前所需執行的步驟。 [閱讀全文](../configuration/delegate-subdomain.md#undelegate-subdomain)
 
 ## 2025 年 3 月 {#mar-2025}
 

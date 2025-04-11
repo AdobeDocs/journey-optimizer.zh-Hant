@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子網域、委派、網域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 23%
+source-wordcount: '2039'
+ht-degree: 20%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 23%
 >
 >子網域設定在所有環境中都是通用的。 因此，對子網域所做的任何修改也會影響生產沙箱。
 
-## 完全子網域委派 {#full-subdomain-delegation}
+## 將子網域完全委派給Adobe {#full-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
@@ -113,7 +113,7 @@ ht-degree: 23%
 >
 >[!DNL Journey Optimizer]目前不支援並行執行子網域。 如果您嘗試在其他子網域處於&#x200B;**[!UICONTROL 正在處理]**&#x200B;狀態時提交子網域以進行委派，您將會收到錯誤訊息。
 
-## CNAME 子網域設定 {#cname-subdomain-delegation}
+## 設定具有CNAME的子網域 {#cname-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
@@ -224,6 +224,47 @@ CNAME子網域設定可讓您建立子網域，並使用CNAME指向Adobe特定�
 1. **建立轉送DNS**：如果這是您委派的第一個子網域，Adobe將建立建立PTR記錄所需的轉送DNS — 每個IP各一個。
 
 1. **建立PTR記錄**： ISP需要PTR記錄（也稱為反向DNS記錄），以免將電子郵件標示為垃圾郵件。 Gmail也建議每個IP都有PTR記錄。 Adobe只會在您第一次委派子網域時建立PTR記錄，每個IP各一個，所有IP都指向該子網域。 例如，如果IP是&#x200B;*192.1.2.1*&#x200B;且子網域是&#x200B;*email.example.com*，則PTR記錄將是： *192.1.2.1PTR r1.email.example.com*。 您之後可以更新PTR記錄，以指向新的委派網域。 [進一步瞭解PTR記錄](ptr-records.md)
+
+## 取消委派子網域 {#undelegate-subdomain}
+
+如果您想要取消委派子網域，請聯絡您的Adobe代表。
+
+不過，在聯絡Adobe之前，您需要在使用者介面中執行數個步驟。
+
+>[!NOTE]
+>
+>您只能取消委派狀態為&#x200B;**[!UICONTROL 成功]**&#x200B;的子網域。 可以從使用者介面中刪除具有&#x200B;**[!UICONTROL 草稿]**&#x200B;和&#x200B;**[!UICONTROL 失敗]**&#x200B;狀態的子網域。
+
+首先，在[!DNL Journey Optimizer]中執行下列步驟：
+
+1. 停用與子網域相關聯的所有管道設定。 [了解作法](../configuration/channel-surfaces.md#deactivate-a-surface)
+
+1. 取消委派與此子網域關聯的任何登陸頁面子網域、SMS子網域和Web子網域。
+
+   >[!NOTE]
+   >
+   >您必須針對每個[登陸頁面](../landing-pages/lp-subdomains.md#undelegate-subdomain)、[簡訊](../sms/sms-subdomains.md#undelegate-subdomain)或[網頁子網域](../web/web-delegated-subdomains.md#undelegate-subdomain)提出專屬要求。
+
+1. 停止與子網域相關聯的作用中行銷活動。 [了解作法](../campaigns/modify-stop-campaign.md#stop)
+
+1. 停止與子網域相關聯的使用中歷程。 [了解作法](../building-journeys/end-journey.md#stop-journey)
+
+1. 將連結至子網域的[PTR記錄](ptr-records.md#edit-ptr-record)指向另一個子網域。
+
+   >[!NOTE]
+   >
+   >如果這是唯一委派的子網域，您可以略過此步驟。
+
+完成後，請聯絡您的Adobe代表，提供您要取消委派的子網域。
+
+Adobe處理您的請求後，未委派網域不再顯示在子網域詳細目錄頁面上。
+
+>[!CAUTION]
+>
+>取消委派子網域後：
+>
+>   * 您無法重新啟用使用該子網域的管道設定。
+>   * 您無法透過使用者介面再次委派確切的子網域。 如果您想要這樣做，請聯絡您的Adobe代表。
 
 ## 作法影片{#video}
 

@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: 登陸、登陸頁面、子網域、設定
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 23%
+source-wordcount: '968'
+ht-degree: 19%
 
 ---
 
@@ -144,3 +144,38 @@ ht-degree: 23%
 1. 檢查成功後，子網域會取得&#x200B;**[!UICONTROL Success]**&#x200B;狀態。 它已準備好用來建立登入頁面預設集。
 
    請注意，如果您無法在託管解決方案上建立驗證記錄，子網域將會標示為&#x200B;**[!UICONTROL 失敗]**。
+
+## 取消委派子網域 {#undelegate-subdomain}
+
+如果您想要解除委派登入頁面子網域，請聯絡您的Adobe代表。
+
+不過，在聯絡Adobe之前，您需要在使用者介面中執行數個步驟。
+
+>[!NOTE]
+>
+>您只能取消委派狀態為&#x200B;**[!UICONTROL 成功]**&#x200B;的子網域。 可以從使用者介面中刪除具有&#x200B;**[!UICONTROL 草稿]**&#x200B;和&#x200B;**[!UICONTROL 失敗]**&#x200B;狀態的子網域。
+
+首先，在[!DNL Journey Optimizer]中執行下列步驟：
+
+1. 取消發佈與子網域關聯的所有登陸頁面。 [了解作法](create-lp.md#access-landing-pages)
+
+1. 停用與子網域相關聯的所有管道設定。 [了解作法](../configuration/channel-surfaces.md#deactivate-a-surface)
+
+<!--
+1. If the landing page subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)
+
+1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
+
+1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)
+-->
+
+完成後，請聯絡您的Adobe代表，提供您要取消委派的子網域。
+
+Adobe處理您的請求後，未委派網域不再顯示在子網域詳細目錄頁面上。
+
+>[!CAUTION]
+>
+>取消委派子網域後：
+>
+>   * 您無法重新啟用使用該子網域的管道設定。
+>   * 您無法透過使用者介面再次委派確切的子網域。 如果您想要這樣做，請聯絡您的Adobe代表。

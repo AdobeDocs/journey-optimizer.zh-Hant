@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: 簡訊、子網域、設定
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 24%
+source-wordcount: '925'
+ht-degree: 20%
 
 ---
 
@@ -139,3 +139,37 @@ ht-degree: 24%
 使用子網域傳送SMS訊息之前，您必須先等待Adobe執行所需檢查，這可能需要4小時。<!--Learn more in [this section](#subdomain-validation).-->檢查成功後，子網域會取得&#x200B;**[!UICONTROL Success]**&#x200B;狀態。 它已準備好用來建立SMS通道設定。
 
 請注意，如果您無法在託管解決方案上建立驗證記錄，子網域將會標示為&#x200B;**[!UICONTROL 失敗]**。
+
+## 取消委派子網域 {#undelegate-subdomain}
+
+如果您想要取消委派SMS子網域，請聯絡您的Adobe代表。
+
+不過，在聯絡Adobe之前，您需要在使用者介面中執行數個步驟。
+
+>[!NOTE]
+>
+>您只能取消委派狀態為&#x200B;**[!UICONTROL 成功]**&#x200B;的子網域。 可以從使用者介面中刪除具有&#x200B;**[!UICONTROL 草稿]**&#x200B;和&#x200B;**[!UICONTROL 失敗]**&#x200B;狀態的子網域。
+
+首先，在[!DNL Journey Optimizer]中執行下列步驟：
+
+1. 停用與子網域相關聯的所有管道設定。 [了解作法](../configuration/channel-surfaces.md#deactivate-a-surface)
+
+<!--
+1. If the SMS subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+
+1. 停止與子網域相關聯的作用中行銷活動。 [了解作法](../campaigns/modify-stop-campaign.md#stop)
+
+1. 停止與子網域相關聯的使用中歷程。 [了解作法](../building-journeys/end-journey.md#stop-journey)
+
+1. 如果SMS子網域是[新委派的子網域](#sms-configure-new-subdomain)，請移除與該子網域關聯的DNS專案。
+
+完成後，請聯絡您的Adobe代表，提供您要取消委派的子網域。
+
+Adobe處理您的請求後，未委派網域不再顯示在子網域詳細目錄頁面上。
+
+>[!CAUTION]
+>
+>取消委派子網域後：
+>
+>   * 您無法重新啟用使用該子網域的管道設定。
+>   * 您無法透過使用者介面再次委派確切的子網域。 如果您想要這樣做，請聯絡您的Adobe代表。
