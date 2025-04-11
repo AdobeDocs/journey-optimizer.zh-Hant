@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inAudience，函式，運算式，歷程
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 6e733e94e492fb46014e140b90e2aa47d64d584f
+source-git-commit: 385e27fd4ea34f6a10b8da6b99a2c888edf9d57e
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '229'
 ht-degree: 5%
 
 ---
@@ -36,6 +36,11 @@ ht-degree: 5%
 `inAudience('audienceName') == true`表示您擁有狀態為已輸入的segmentMembership。
 
 `inAudience('audienceName') == false`表示您擁有退出狀態的segmentMembership。
+
+
+>[!IMPORTANT]
+>
+>變更現有對象的名稱不會自動更新歷程運算式中對該對象的任何參考。 如果您的條件節點使用`inAudience('oldAudienceName')`，您必須手動編輯運算式以使用新名稱。 若未這麼做，將導致歷程條件中斷。
 
 ## 類別
 
@@ -65,7 +70,3 @@ Adobe Experience Platform
 
 如果歷程執行個體中的個人是名為「超過50歲的男性」的Adobe Experience Platform對象的一部分，則函式會傳回&#x200B;**[!UICONTROL true]**，否則會傳回&#x200B;**[!UICONTROL false]**。
 
-
->[!CAUTION]
->
->變更現有對象的名稱不會自動更新歷程運算式中對該對象的任何參考。 如果您的條件節點使用inAudience(&#39;oldAudienceName&#39;)，您必須手動編輯運算式以使用新名稱。 若未這麼做，將導致歷程條件中斷。
