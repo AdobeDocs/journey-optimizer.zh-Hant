@@ -8,16 +8,26 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '949'
-ht-degree: 100%
+source-git-commit: e8e3b002bf614e49c6ef098b6f2475d65bb47112
+workflow-type: tm+mt
+source-wordcount: '1041'
+ht-degree: 92%
 
 ---
 
 # 文件更新 {#latest-updates}
 
 本頁面列出 [!DNL Journey Optimizer] 文件的所有最新更新。
+
+
+## 2025 年 4 月 {#apr-2025}
+
+* 在直接郵件設定頁面上新增了關於輸出檔案暫時儲存的附註。 [閱讀全文](../direct-mail/direct-mail-configuration.md)
+* 在歷程進階運算式編輯器章節中新增條件格式指南的相關提示。 [閱讀全文](../building-journeys/expression/expressionadvanced.md)
+* 在`inAudience`函式區段中新增重新命名對象時影響和最佳實務的警告注意事項。 [閱讀全文](../building-journeys/functions/functioninaudience.md)
+* 新增使用雙向SMS時原生關鍵字用法的建議。 [閱讀全文](../sms/sms-opt-out.md)
+* 已更新歷程測試頁面，其中附註說明必須在使用的事件中包含身分名稱空間。 [閱讀全文](../building-journeys/testing-the-journey.md)
+
 
 ## 2025 年 3 月 {#mar-2025}
 
