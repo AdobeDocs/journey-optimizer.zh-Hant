@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
+source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 62%
+source-wordcount: '1014'
+ht-degree: 49%
 
 ---
 
@@ -21,13 +21,14 @@ ht-degree: 62%
 
 本節提供如何使用API的全域資訊。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/)中提供詳細的API描述。
 
->[!IMPORTANT]
->
->目前每個組織僅允許一個設定。 必須在生產沙箱上定義設定 (透過標題中的 x-sandbox-name 提供)。
->
->組織層級會套用設定。
->
->當達到 API 設定的限制時，會將更多事件排入佇列，最多 6 小時。 無法修改此值。
+## 必讀
+
+* **每個組織一個組態：**&#x200B;目前每個組織只允許一個組態。 必須在生產沙箱上定義設定（透過標頭中的`x-sandbox-name`提供）。
+* **組織層級應用程式：**&#x200B;在組織層級套用組態。
+* **API限制處理：**&#x200B;當達到API中設定的限制時，其他事件將最多排入6小時的佇列。 無法修改此值。
+* **`maxHttpConnections`引數：** &#39;maxHttpConnections&#39;引數是可選引數，可在Capping API中使用，僅允許您限制Journey Optimizer將開啟至外部系統的連線數目。 [瞭解如何使用上限API](../configuration/capping.md)
+
+  如果您想限制連線的數量，同時也要限制這些外部呼叫，則可以在相同端點上設定兩個設定，一個限制和一個上限。 兩個設定可以共存於一個端點。 若要為節流端點設定「maxHttpConnections」，請使用節流API設定節流臨界值，並使用上限API設定「maxHttpConnections」。 呼叫上限API時，您可以將上限臨界值設為高於節流臨界值的專案，這樣上限規則就不會有效發揮作用。
 
 ## 節流API說明與Postman集合 {#description}
 

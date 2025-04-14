@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 88%
+source-wordcount: '1114'
+ht-degree: 86%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 88%
 * 新增使用雙向SMS時原生關鍵字用法的建議。 [閱讀全文](../sms/sms-opt-out.md)
 * 已更新歷程測試頁面，其中附註說明必須在使用的事件中包含身分名稱空間。 [閱讀全文](../building-journeys/testing-the-journey.md)
 * 目前您無法透過[!UICONTROL Journey Optimizer]使用者介面取消委派子網域，請洽詢您的Adobe代表。 電子郵件、登陸頁面、簡訊和網頁子網域區段已更新，其中包含此資訊和聯絡Adobe之前所需執行的步驟。 [閱讀全文](../configuration/delegate-subdomain.md#undelegate-subdomain)
+* 已新增有關歷程上限API中選用的`maxHttpConnections`引數的說明，包括如何將其與相同端點的節流設定一起使用的指引。 [閱讀全文](../configuration/throttling.md)
 
 ## 2025 年 3 月 {#mar-2025}
 
