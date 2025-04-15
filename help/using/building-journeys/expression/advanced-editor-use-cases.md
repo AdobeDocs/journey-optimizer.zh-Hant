@@ -6,11 +6,11 @@ description: 瞭解如何建立進階運算式
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: 運算式、條件、使用案例、事件
+keywords: expression, condition, use-cases, events
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '535'
 ht-degree: 1%
 
 ---
@@ -19,13 +19,18 @@ ht-degree: 1%
 
 進階運算式編輯器可用來建立條件，以允許您篩選歷程中的使用者。 這些條件能讓您鎖定時間、日期、位置、持續時間或動作（例如購買或放棄購物車）的使用者，以便在歷程中重新鎖定他們。
 
->[!NOTE]
+>[!CAUTION]
 >
->事件以@開頭，資料來源以#開頭。
+>支援在歷程運算式/條件中使用體驗事件，但不建議使用。 如果您的使用案例需要使用體驗事件，請考慮替代方法，例如[計算屬性](../../audience/computed-attributes.md)，或使用事件建立區段並將該區段合併到[`inAudience`運算式](../../building-journeys/functions/functioninaudience.md)中。
+
 
 ## 在體驗事件上建立條件
 
 進階運算式編輯器必須對時間序列執行查詢，例如購買清單或訊息的過去點按。 無法使用簡單編輯器執行此類查詢。
+
+>[!NOTE]
+>
+>事件以@開頭，資料來源以#開頭。
 
 體驗事件會以反向時間順序的集合形式從Adobe Experience Platform中擷取，因此：
 
@@ -40,7 +45,7 @@ ht-degree: 1%
 
 <!--**This expression looks for a specified value in a string value:**
 
-`In (“addToCart”, #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`-->
 
 **此運算式會尋找此使用者在過去7天中指定的所有事件：**
 

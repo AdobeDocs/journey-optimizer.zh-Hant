@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 運算式編輯器，資料，歷程
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 4a60b9f8c754e161ca156c7644d7241adb9bfc1f
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 60%
+source-wordcount: '734'
+ht-degree: 57%
 
 ---
 
@@ -69,6 +69,11 @@ ht-degree: 60%
 在畫面左側，會顯示可用的欄位和函式：
 
 * **[!UICONTROL 事件]**：選擇從傳入事件接收的其中一個欄位。 顯示的事件欄位清單會與情境相關，而且會根據歷程中新增的事件而有所不同。 [閱讀全文](../../event/about-events.md)
+
+  >[!CAUTION]
+  >
+  >支援在歷程運算式/條件中使用體驗事件，但不建議使用。 如果您的使用案例需要使用體驗事件，請考慮替代方法，例如[計算屬性](../../audience/computed-attributes.md)，或使用事件建立區段並將該區段合併到[`inAudience`運算式](../../building-journeys/functions/functioninaudience.md)中。
+
 * **[!UICONTROL 對象]**：如果您已卸除&#x200B;**[!UICONTROL 對象資格]**&#x200B;事件，請選擇您要在運算式中使用的對象。 [閱讀全文](../condition-activity.md#using-a-segment)
 * **[!UICONTROL 資料來源]**：從資料來源欄位群組中的可用欄位清單中選擇。 [閱讀全文](../../datasource/about-data-sources.md)
 * **[!UICONTROL 歷程屬性]**：此區段會將與特定設定檔之歷程相關的技術欄位重新分組。 [閱讀全文](journey-properties.md)
