@@ -1,39 +1,58 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 開始使用 [!DNL Journey Optimizer] 設定
-description: 深入了解 [!DNL Journey Optimizer] 設定
+title: 開始使用 [!DNL Journey Optimizer] 管道設定
+description: 深入瞭解 [!DNL Journey Optimizer] 頻道設定
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 設定、配置、訊息、通道、沙箱、最佳化程式
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
+source-git-commit: e052cf9bcd42cecbaaeb9047990ed603dd0730a0
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 93%
+source-wordcount: '244'
+ht-degree: 48%
 
 ---
 
 
-# 開始使用[!DNL Journey Optimizer]設定 {#start-optimizer-configuration}
+# 開始使用管道設定 {#start-optimizer-configuration}
 
 首次存取 [!DNL Journey Optimizer] 系統時，會佈建生產沙箱，並根據您的合約分配特定數量的 IP。
 
-若要建立歷程並傳送訊息，您必須完成下列設定步驟。
 
-## 設定訊息與通道
+若要傳送訊息，您必須完成下列設定步驟：
 
-1. 若要建立並傳送訊息，您需根據通道執行特定設定。
+1. 作為[Adobe Journey Optimizer系統管理員](../start/path/administrator.md)，定義您的頻道設定。 請在下列頁面瞭解如何設定這些設定：
 
-   * 對於&#x200B;**電子郵件**&#x200B;通道，您需要將子網域委派給 Adobe 並建立 IP 集區以將 IP 位址組合在一起。[了解更多](../email/get-started-email-config.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../email/get-started-email-config.md"><img alt="電子郵件" src="../channels/assets/do-not-localize/email.png"></a>
+<div align="center"><a href="../email/get-started-email-config.md"><strong>電子郵件</strong></a></div></td>
+<td><a href="../sms/sms-configuration.md"><img alt="簡訊" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><a href="../sms/sms-configuration.md"><strong>簡訊</strong></a></div></td>
+<td><a href="../push/push-configuration.md"><img alt="推播" src="../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><a href="../push/push-configuration.md"><strong>推播通知</strong></a></div></td>
+<td><a href="../direct-mail/direct-mail-configuration.md"><img alt="直接郵件" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
+<div align="center"><a href="../direct-mail/direct-mail-configuration.md"><strong>直接郵件</strong></a></div></td>
+</tr></table>
 
-   * 對於&#x200B;**推播**&#x200B;通道，您需要在 [!DNL Adobe Experience Platform] 與 [!DNL Adobe Experience Platform Launch] 中定義推播通知設定。[了解更多](../push/push-configuration.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../in-app/inapp-configuration.md"><img alt="應用程式內" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+<div align="center"><a href="../in-app/inapp-configuration.md"><strong>應用程式內</strong></a></div></td>
+<td><a href="../web/web-configuration.md"><img alt="網頁" src="../channels/assets/do-not-localize/web.jpg"></a>
+<div align="center"><a href="../web/web-configuration.md"><strong>網頁</strong></a></div></td>
+<td><a href="../code-based/code-based-configuration.md"><img alt="程式碼型體驗" src="../channels/assets/do-not-localize/code.png"></a>
+<div align="center"><a href="../code-based/code-based-configuration.md"><strong>程式碼型體驗</strong></a></div></td>
+<td><a href="../content-card/content-card-configuration-prereq.md"><img alt="內容卡片" src="../channels/assets/do-not-localize/cards.png"></a>
+<div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>內容卡</strong></a></div></td>
+</tr></table>
 
-   * 對於&#x200B;**簡訊**&#x200B;通道，您需要設定執行個體以傳送簡訊，包括整合提供者設定與 [!DNL Journey Optimizer]。[了解更多](../sms/sms-configuration.md)
+>[!NOTE]
+>
+>針對行動裝置頻道，[引導式頻道設定](set-mobile-config.md)有助於快速設定行銷頻道，確保所有必要資源都能隨時在Experience Platform、Journey Optimizer和資料收集中取得。 這可讓您的行銷團隊開始建立行銷活動和歷程。
 
-1. 完成後，您必須建立&#x200B;**通道設定**，以設定傳遞訊息所需的所有技術引數。 [了解更多](channel-surfaces.md)
+1. 完成後，您必須建立&#x200B;**通道設定**，以設定傳遞訊息所需的所有技術引數。 [進一步瞭解頻道設定](channel-surfaces.md)
 
 1. 您也可以：
 
@@ -44,21 +63,3 @@ ht-degree: 93%
    * 設定&#x200B;**商業規則**&#x200B;以避免過度向收件者請求。 [了解更多](../configuration/rule-sets.md)
 
    * 當 Adobe Experience Platform 有多個位址/號碼可用時，請確定收件者優先使用哪個電子郵件位址和/或電話號碼。[了解更多](primary-email-addresses.md)
-
-<!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
-
->[!NOTE]
->
->這些步驟必須由 [Adobe Journey Optimizer 系統管理員](../start/path/administrator.md)執行。
-
-## 設定歷程
-
-若要建立歷程，您需要設定&#x200B;**[!UICONTROL 資料來源]**、**[!UICONTROL 事件]**&#x200B;及&#x200B;**[!UICONTROL 動作]**。[了解更多](about-data-sources-events-actions.md)
-
-![](assets/admin-menu.png)
-
-* **資料來源**&#x200B;設定可讓您定義系統連線，以擷取將用於歷程的其他資訊。[了解更多](../datasource/about-data-sources.md)
-
-* **事件**&#x200B;可讓您一直觸發歷程，以即時傳送訊息給流入歷程的個人。 在事件設定中，您會設定歷程中預期的事件。 會依照 Adobe Experience Data Model (XDM)，對傳入事件的資料進行標準化。事件來自串流擷取 API，適用於驗證和未驗證的事件 (例如 Adobe Mobile SDK 事件)。[了解更多](../event/about-events.md)
-
-* [!DNL Journey Optimizer] 隨附內建的訊息功能，可讓您設計並傳送內容。 如果您使用協力廠商系統來傳送訊息，請建立&#x200B;**自訂動作**。[了解更多](../action/action.md)
