@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: 登陸，登陸頁面，設定，環境，子網域，預設集
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 19%
+source-wordcount: '367'
+ht-degree: 15%
 
 ---
 
@@ -22,11 +22,15 @@ ht-degree: 19%
 >title="建立一個登陸頁面預設集"
 >abstract="為了建置登陸頁面並透過 Journey Optimizer 加以利用，您必須建立一個包含要使用的子網域的登陸頁面預設集。"
 
-當[建立登陸頁面](../landing-pages/create-lp.md#create-a-lp)時，您必須選取登陸頁面預設集，才能建立登陸頁面並透過&#x200B;**[!DNL Journey Optimizer]**&#x200B;運用。
+## 開始使用登陸頁面預設集 {#gs-lp-presets}
+
+當[建立登陸頁面](../landing-pages/create-lp.md#create-a-lp)時，您必須選取登陸頁面預設集，才能建立登陸頁面並透過&#x200B;**[!DNL Journey Optimizer]**&#x200B;運用。 預設集包含根據此預設集用於登陸頁面的子網域。
+
+建立預設集之前，請確定您先前已設定至少一個登陸頁面子網域。 [瞭解如何建立登陸頁面子網域](lp-subdomains.md)。
 
 ## 存取登陸頁面預設集 {#access-lp-presets}
 
-若要存取登入頁面預設集，請遵循下列步驟。
+若要存取登入頁面預設集，請遵循下列步驟：
 
 1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;功能表。
 
@@ -40,13 +44,9 @@ ht-degree: 19%
 
 ## 建立一個登陸頁面預設集 {#lp-create-preset}
 
-若要建立登入頁面預設集，請遵循下列步驟。
+若要建立登入頁面預設集，請遵循下列步驟：
 
->[!NOTE]
->
->為了能夠建立預設集，請確定您先前已設定至少一個登陸頁面子網域。 [了解作法](lp-subdomains.md)
-
-1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 登陸頁面設定]** > **[!UICONTROL 登陸頁面預設集]**。
+1. 瀏覽&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 登陸頁面設定]** > **[!UICONTROL 登陸頁面預設集]**。
 
 1. 選取&#x200B;**[!UICONTROL 建立登陸頁面預設集]**。
 
@@ -54,21 +54,17 @@ ht-degree: 19%
 
 1. 輸入預設集的名稱和說明。
 
-   >[!NOTE]
-   >
-   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線 `_`、點 `.` 和連字號 `-` 字元。
+   名稱必須以字母(A-Z)開頭，且僅包含英數字元、底線`_`、點`.`和連字型大小`-`字元。
 
 1. 從下拉式清單中選取登陸頁面子網域。
 
    ![](assets/lp_preset-subdomain.png)
 
-   >[!NOTE]
-   >
-   >若要能夠選取子網域，請確定您先前已設定至少一個登陸頁面子網域。 [了解作法](#lp-subdomains)
+   若要能夠選取子網域，請確定您先前已設定至少一個登陸頁面子網域。 [了解作法](#lp-subdomains)
 
    與所選子網域對應的設定隨即顯示。
 
-1. 如果您想要選取追蹤URL的登陸頁面子網域，請核取&#x200B;**[!UICONTROL 與登陸頁面子網域相同]**&#x200B;選項。 [進一步瞭解追蹤](../email/message-tracking.md)
+1. 您可以核取&#x200B;**[!UICONTROL 與登陸頁面子網域相同]**&#x200B;選項，以選取追蹤URL的登陸頁面子網域。 [進一步瞭解追蹤](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

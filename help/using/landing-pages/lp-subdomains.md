@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: 登陸、登陸頁面、子網域、設定
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
+source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '972'
 ht-degree: 19%
 
 ---
@@ -34,15 +34,17 @@ ht-degree: 19%
 >abstract="為了能夠建立登陸頁面預設集，請確保您之前已設定了至少一個登陸頁面子網域，才能從子網域名稱清單中挑選。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="建立登陸頁面預設集"
 
+## 開始使用登陸頁面子網域 {#gs-lp-subdomains}
+
 若要能夠[建立登陸頁面預設集](lp-presets.md)，您必須設定您將用於登陸頁面的子網域。
 
 您可以使用已委派給Adobe的子網域，也可以設定另一個子網域。 在[本節](../configuration/delegate-subdomain.md)中進一步瞭解將子網域委派至Adobe。
 
-Landing page subdomain configuration is **common to all environments**. 因此：
+登陸頁面子網域設定是&#x200B;**所有環境通用**。 因此：
 
 * 若要存取及編輯登陸頁面子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理登陸頁面子網域]**&#x200B;許可權。
 
-* Any modification to a landing page subdomain also impacts the production sandboxes.
+* 對登陸頁面子網域所做的任何修改也會影響生產沙箱。
 
 ## 使用現有的子網域 {#lp-use-existing-subdomain}
 
@@ -121,11 +123,11 @@ Landing page subdomain configuration is **common to all environments**. 因此�
 
    ![](assets/lp_add-your-own-subdomain-confirm.png)
 
-   When you configure a new landing page subdomain, it always points to a CNAME record.
+   當您設定新的登陸頁面子網域時，它一律會指向CNAME記錄。
 
 1. 提交子網域委派後，子網域會顯示在狀態為&#x200B;**[!UICONTROL 處理中]**&#x200B;的清單中。 如需子網域狀態的詳細資訊，請參閱[本區段](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-   Before being able to use that subdomain for your landing pages, you must wait until Adobe performs the required checks, which can take **up to 4 hours**.<!--Learn more in [this section](#subdomain-validation).-->
+   您必須等到Adobe執行必要的檢查（最多可能需要&#x200B;**4小時**.<!--Learn more in [this section](#subdomain-validation).-->），才能將該子網域用於您的登陸頁面
 
 1. 檢查成功後，子網域會取得&#x200B;**[!UICONTROL Success]**&#x200B;狀態。 它已準備好用來建立登入頁面預設集。
 
