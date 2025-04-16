@@ -8,9 +8,9 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: 簡訊、子網域、設定
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
+source-git-commit: 19f127c2abc81239abda8ebd38bdcacee796a1b0
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '928'
 ht-degree: 20%
 
 ---
@@ -34,14 +34,15 @@ ht-degree: 20%
 >abstract="為了能夠建立簡訊設定，請確保您之前已至少設定一個簡訊子網域，才能從子網域名稱清單中挑選。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="建立簡訊設定"
 
+## 開始使用簡訊子網域 {#gs-sms-mms-subdomains}
+
 若要能夠縮短新增至SMS/MMS訊息的URL，您必須設定在[建立SMS設定](sms-configuration.md#message-preset-sms)時將選取的子網域。
 
-您可以使用已委派給Adobe的子網域，也可以設定另一個子網域。 在[本節](../configuration/delegate-subdomain.md)中進一步瞭解將子網域委派至Adobe。
+您可以使用已委派給Adobe的子網域，或設定另一個子網域。 在[本節](../configuration/delegate-subdomain.md)中進一步瞭解將子網域委派至Adobe。
 
 SMS子網域設定是&#x200B;**在所有環境之間共用**。 因此，對SMS子網域所做的任何修改也會影響其他生產沙箱。
 
 若要存取及編輯SMS子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理SMS子網域]**&#x200B;許可權。 若要了解權限的詳細資訊，請參閱[本章節](../administration/high-low-permissions.md)。
-
 
 ## 使用現有的子網域 {#sms-use-existing-subdomain}
 
@@ -79,9 +80,7 @@ SMS子網域設定是&#x200B;**在所有環境之間共用**。 因此，對SMS�
 
 1. 提交後，子網域會顯示在狀態為&#x200B;**[!UICONTROL 處理中]**&#x200B;的清單中。 如需子網域狀態的詳細資訊，請參閱[本區段](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-   >[!NOTE]
-   >
-   >您必須等到Adobe執行必要的檢查，才能使用該子網域傳送訊息，最多可能需要4小時的時間。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   您必須等到Adobe執行必要的檢查（最多可能需要&#x200B;**4小時**.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->），才能使用該子網域傳送訊息。
 
 1. 檢查成功後，子網域會取得&#x200B;**[!UICONTROL Success]**&#x200B;狀態。 它已準備好用來建立SMS通道設定。
 
