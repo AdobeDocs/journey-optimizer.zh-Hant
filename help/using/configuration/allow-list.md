@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 允許清單，清單，安全，設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 2af0e9237bbcc79456a31042ed8e42233bbccac3
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 16%
+source-wordcount: '1179'
+ht-degree: 15%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >啟用允許清單後，有5分鐘的延遲，讓它在您的歷程和行銷活動中生效。
+   >啟用允許清單後，有10分鐘的延遲，才會在您的歷程和行銷活動中生效。 同樣地，允許清單和隱藏清單的更新最多可能需要10分鐘的時間才會反映。
 
 當功能作用中時，會套用允許清單邏輯。 請參閱[此章節](#logic)深入瞭解。
 
@@ -90,7 +90,7 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >停用允許清單後，有5分鐘的延遲，它就會在您的歷程和行銷活動中生效。
+   >停用允許清單後，有10分鐘的延遲，才會在您的歷程和行銷活動中生效。 同樣地，允許清單和隱藏清單的更新最多可能需要10分鐘的時間才會反映。
 
 停用功能時，不會套用允許清單邏輯。 請參閱[此章節](#logic)深入瞭解。
 
@@ -140,7 +140,7 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >在&#x200B;**[!UICONTROL 原因]**&#x200B;欄位中允許包含32到126之間的所有ASCII字元。 例如，完整清單可在[此頁面](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}中找到。
+   >在&#x200B;**[!UICONTROL 原因]**&#x200B;欄位中允許包含32到126之間的所有ASCII字元。 例如，您可以在[此頁面](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}找到完整清單。
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**。
 
