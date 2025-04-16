@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
+source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1343'
 ht-degree: 22%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 22%
 
 1. [檔案路由組態](#file-routing-configuration)，指定檔案匯出的伺服器，並視需要加密檔案。
 
-1. [直接郵件設定](#direct-mail-configuration)，將參考檔案路由設定。 如果您尚未設定任何檔案路由選項，您將無法建立直接郵件設定。
+1. [參考檔案路由設定的直接郵件設定](#direct-mail-configuration)。 如果您尚未設定任何檔案路由選項，您將無法建立直接郵件設定。
 
 
 >[!CAUTION]

@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 621f9bcb32d108490e7674778ce40385938af18e
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 99%
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
-> Adobe Journey Optimizer 以 Adobe Experience Platform 為基礎，以原生方式連線至 [Adobe 即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}。此內建資料來源已預先設定，且設計旨在從即時客戶輪廓擷取並使用資料 (例如，檢查進入歷程的人員是否為客戶)。 其可讓您使用個人檔資料與體驗事件資料。 [了解更多](../datasource/adobe-experience-platform-data-source.md)。
+> Built on Adobe Experience Platform, Adobe Journey Optimizer is natively connected to [Adobe Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}. 此內建資料來源已預先設定，且設計旨在從即時客戶輪廓擷取並使用資料 (例如，檢查進入歷程的人員是否為客戶)。 其可讓您使用個人檔資料與體驗事件資料。 [了解更多](../datasource/adobe-experience-platform-data-source.md)。
 >
 
 ## Adobe Customer Journey Analytics {#integration-cja}
@@ -82,13 +82,13 @@ Customer AI 可讓品牌建立流失率或轉換機器學習型分數，這些�
 
 使用 Adobe Workfront 中的 Adobe Journey Optimizer 模組來建立、讀取、更新或刪除記錄，或對 Adobe Journey Optimizer API 執行自訂 API 呼叫。
 
-[這篇部落格文章中](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}提供了此整合關鍵步驟的概觀。
+An overview of the key step of this integration is available [in this blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
-了解更多有關 Journey Optimizer + Adobe Workfront [的資訊，請參閱 Adobe Workfront 文件](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hant){target="_blank"}。
+Learn more about Journey Optimizer + Adobe Workfront [in Adobe Workfront documentation](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hant){target="_blank"}.
 
 ## 自訂通道 {#integration-custom}
 
-如果您使用協力廠商系統來傳送訊息，或想要歷程傳送 API 呼叫至協力廠商系統，請使用自訂動作來連線至您的歷程。 例如，您可利用自訂動作連線至下列系統：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase 等等。
+如果您使用協力廠商系統來傳送訊息，或想要歷程傳送 API 呼叫至協力廠商系統，請使用自訂動作來連線至您的歷程。 For example, you can connect to the following systems with custom actions: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, etc.
 
 自訂動作是技術使用者定義的其他動作，可供行銷人員使用。 在設定之後，其會顯示在您歷程的左側浮動視窗，位於&#x200B;**[!UICONTROL 動作]**&#x200B;類別。 在[此頁面](../building-journeys/about-journey-activities.md#action-activities)瞭解更多資訊。
 

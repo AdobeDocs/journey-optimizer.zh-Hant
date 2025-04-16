@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 沙箱，虛擬，環境，組織，平台
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 060d65e8d3fb1442b04626170a35d463d1faa514
+source-git-commit: 621f9bcb32d108490e7674778ce40385938af18e
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 59%
+ht-degree: 52%
 
 ---
 
@@ -20,10 +20,9 @@ ht-degree: 59%
 
 ## 使用沙箱 {#using-sandbox}
 
-[!DNL Journey Optimizer] 可讓您將執行個體分割到名為沙箱的個別虛擬環境中。沙箱是透過許可權中的角色指派。 [瞭解如何指派 sandbox](permissions.md#create-product-profile)。
+[!DNL Journey Optimizer]可讓您將執行個體分割到名為沙箱的個別虛擬環境中。 沙箱是透過許可權中的角色指派。 [瞭解如何指派 sandbox](permissions.md#create-product-profile)。
 
-[!DNL Journey Optimizer] 反映針對指定組織建立的 Adobe Experience Platform sandbox。
-可從 Adobe Experience Platform 執行個體建立或重設 Adobe Experience Platform sandbox。[進一步瞭解 sandbox 使用手冊](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target="_blank"}。
+[!DNL Journey Optimizer]會反映針對指定組織建立的Adobe Experience Platform沙箱。 可從 Adobe Experience Platform 執行個體建立或重設 Adobe Experience Platform sandbox。[進一步瞭解 sandbox 使用手冊](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target="_blank"}。
 
 您可以在熒幕右上角組織名稱旁找到沙箱切換器控制項。 若要從一個沙箱切換至另一個沙箱，請按一下切換器中目前作用中的沙箱，然後從下拉式清單中選取另一個沙箱。
 
