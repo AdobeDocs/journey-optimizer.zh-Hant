@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用AND — 聯結活動
-description: 瞭解如何在多步驟行銷活動中使用AND聯結活動
+description: 瞭解如何在協調的行銷活動中使用AND — 加入活動
 hide: true
 hidefromtoc: true
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 77%
+ht-degree: 65%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="AND-join 活動"
->abstract="「**合併連結**」活動可讓您同步處理多步驟行銷活動的多個執行分支。一旦所有前面的活動皆已完成，即觸發此活動。這可讓您在確保特定活動已完成後，再繼續多步驟行銷活動。"
+>abstract="**並加入**&#x200B;活動可讓您同步處理協調行銷活動的多個執行分支。 一旦所有前面的活動皆已完成，即觸發此活動。這可讓您在繼續執行協調的行銷活動之前，先確定某些活動已完成。"
 
-「**合併連結**」活動是一種&#x200B;**流程控制**&#x200B;活動。它可讓您同步多步驟行銷活動的多個執行分支。
+「**合併連結**」活動是一種&#x200B;**流程控制**&#x200B;活動。它可讓您同步處理協調行銷活動的多個執行分支。
 
-此活動只會在所有傳入轉變啟動後，才會觸發其傳出轉變，換句話說，會在所有之前的活動完成後觸發。這可讓您在繼續執行多步驟行銷活動之前，確定特定活動已完成。
+此活動只會在所有傳入轉變啟動後，才會觸發其傳出轉變，換句話說，會在所有之前的活動完成後觸發。這可讓您在繼續執行協調的行銷活動之前，先確定某些活動已完成。
 
 ## 設定合併連結活動{#and-join-configuration}
 
@@ -42,6 +42,6 @@ ht-degree: 77%
 
 ## 範例{#and-join-example}
 
-以下範例顯示兩個具有電子郵件和簡訊傳遞的多步驟行銷活動分支。 同時啟用兩個傳入轉變時，「合併連結」即會觸發。只有在兩個傳遞都完成後，接著才會傳送推播通知。
+下列範例顯示兩個協調的行銷活動分支，其中包含電子郵件和簡訊傳送。 同時啟用兩個傳入轉變時，「合併連結」即會觸發。只有在兩個傳遞都完成後，接著才會傳送推播通知。
 
 ![](../assets/workflow-andjoin-example.png){zoomable="yes"}

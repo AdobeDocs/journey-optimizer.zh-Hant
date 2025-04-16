@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用建立對象活動
-description: 瞭解如何在多步驟行銷活動中使用「建立對象」活動
+description: 瞭解如何在協調的行銷活動中使用建立對象活動
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 64%
+ht-degree: 45%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="建置對象活動"
->abstract="「**建置客群**」活動可讓您定義會進入多步驟行銷活動的客群。在多步驟行銷活動中傳送訊息時，不會在管道活動中定義訊息客群，而是在「**建置客群**」活動中定義。"
+>abstract="**建立對象**&#x200B;活動可讓您定義將進入協調行銷活動的對象。 在協調的行銷活動內容中傳送訊息時，訊息對象未定義於頻道活動中，而是定義於&#x200B;**建立對象**&#x200B;活動中。"
 
-「**建置客群**」活動是一種「**目標定位**」活動。此活動可讓您定義將進入多步驟行銷活動的對象。 在多步驟行銷活動中傳送訊息時，不會在管道活動中定義訊息客群，而是在「**建置客群**」活動中定義。
+「**建置客群**」活動是一種「**目標定位**」活動。此活動可讓您定義將進入協調行銷活動的對象。 在協調的行銷活動內容中傳送訊息時，訊息對象未定義於頻道活動中，而是定義於&#x200B;**建立對象**&#x200B;活動中。
 
 若要定義客群群體，您可以：
 
@@ -74,6 +74,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 ## 範例{#build-audience-examples}
 
-以下是含有兩個&#x200B;**建立對象**&#x200B;活動的多步驟行銷活動範例。 第一個目標是撲克玩家客群，然後是電子郵件傳遞。第二個目標是 VIP 用戶端客群，然後是簡訊傳遞。
+以下是包含兩個&#x200B;**建立對象**&#x200B;活動的協調行銷活動範例。 第一個目標是撲克玩家客群，然後是電子郵件傳遞。第二個目標是 VIP 用戶端客群，然後是簡訊傳遞。
 
 ![](../assets/workflow-audience-example.png)

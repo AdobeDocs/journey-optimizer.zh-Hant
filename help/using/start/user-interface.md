@@ -262,5 +262,5 @@ ht-degree: 94%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
->title="Define a Decision policy"
->abstract="A Decision policy allows you to pick the best items from decision engine and deliver them to the right audience."
+>title="定義決定原則"
+>abstract="決策原則可讓您從決策引擎中挑選最佳專案，並將其傳送給適當的對象。"
