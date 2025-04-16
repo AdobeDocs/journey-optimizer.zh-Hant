@@ -1,11 +1,12 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在多步驟行銷活動中使用等待活動
-description: 瞭解如何在多步驟行銷活動中使用等待活動
+title: 在協調的行銷活動中使用等待活動
+description: 瞭解如何在協調的行銷活動中使用等待活動
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 77%
@@ -25,7 +26,7 @@ ht-degree: 77%
 
 請按照以下步驟設定&#x200B;**等待**&#x200B;活動：
 
-1. 將&#x200B;**等待**&#x200B;活動新增至您的多步驟行銷活動。
+1. 將&#x200B;**等待**&#x200B;活動新增至您協調的行銷活動。
 
 1. 指定傳入和傳出轉變之間等待的&#x200B;**持續時間**。
 

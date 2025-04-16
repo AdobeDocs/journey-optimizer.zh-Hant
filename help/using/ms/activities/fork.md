@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用「分支」活動
-description: 瞭解如何在多步驟行銷活動中使用分叉活動
+description: 瞭解如何在協調的行銷活動中使用分叉活動
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 83%
@@ -33,7 +34,7 @@ ht-degree: 83%
 
 ![](../assets/workflow-fork.png)
 
-1. 將&#x200B;**分支**&#x200B;活動新增至您的多步驟行銷活動。
+1. 將&#x200B;**分支**&#x200B;活動新增至您協調的行銷活動。
 1. 若要新增傳出轉變，請按一下「**新增轉變**」。預設情況下，會定義兩種轉變。
 1. 對每種轉變新增標籤。
 

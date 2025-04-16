@@ -1,11 +1,12 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在多步驟行銷活動中使用更新資料活動
+title: 在您的協調行銷活動中使用「更新資料」活動
 description: 瞭解如何使用更新資料活動
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 68e7c929-5f07-4d5a-9831-690e071947f8
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 13%
@@ -32,7 +33,7 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 ## 設定更新資料活動{#update-data-configuration}
 
-若要設定&#x200B;**更新資料**&#x200B;活動，請從將活動新增至您的多步驟行銷活動並定義標籤開始。
+若要設定&#x200B;**更新資料**&#x200B;活動，請從將活動新增至您協調的行銷活動並定義標籤開始。
 
 ![](../assets/workflow-update-data.png)
 
@@ -45,7 +46,7 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 * **更新**：只更新資料庫中已存在的記錄資料。
 * **刪除**：刪除資料。
 
-**批次大小**&#x200B;欄位可讓您選取要更新的入站轉變元素數目。 例如，如果您宣告500，則處理的前500筆記錄將會更新。
+**批次大小**&#x200B;欄位可讓您選取要更新的入站轉變元素數目。 For example, if you state 500, the first 500 records dealt with will be updated.
 
 ### 記錄識別
 
@@ -59,9 +60,9 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 在要更新的&#x200B;**欄位**&#x200B;區段中，新增將套用更新的欄位，並視需要新增條件，以執行此更新。 若要這麼做，請使用&#x200B;**Taken account if**&#x200B;欄位。 條件會依清單順序逐一套用。使用右邊的箭頭以變更更新順序。您可以多次使用相同的目的地欄位。
 
-您可以使用&#x200B;**自動對應**&#x200B;按鈕自動連結欄位。 自動連結會偵測具有相同名稱的欄位。
+You can automatically link fields using the **Auto-mapping** button. 自動連結會偵測具有相同名稱的欄位。
 
-在&#x200B;**插入或更新**&#x200B;作業型別期間，您可以個別選取要對每個欄位套用的作業。 若要這麼做，請在&#x200B;**作業型別**&#x200B;欄位中選取您想要的值。
+During an **Insert or update** operation type, you can individually select the operation to apply for each field. 若要這麼做，請在&#x200B;**作業型別**&#x200B;欄位中選取您想要的值。
 
 ### 進階選項
 
@@ -77,6 +78,6 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 最後兩個選項可讓您執行特定動作：
 
-* **產生出站轉變**：建立將在執行結束時啟用的出站轉變。 更新通常表示目標多步驟行銷活動的結束，因此預設不會啟用選項。
+* **產生出站轉變**：建立將在執行結束時啟用的出站轉變。 更新通常表示目標定位協調行銷活動的結束，因此預設不會啟用選項。
 
-* **為拒絕產生出站轉變**：建立包含更新後未正確處理的記錄的出站轉變（例如，如果有重複記錄）。 更新通常會標籤目標多步驟行銷活動的結尾，因此預設不會啟用選項。
+* **為拒絕產生出站轉變**：建立包含更新後未正確處理的記錄的出站轉變（例如，如果有重複記錄）。 更新通常會標籤目標定位協調行銷活動的結尾，因此預設不會啟用選項。
