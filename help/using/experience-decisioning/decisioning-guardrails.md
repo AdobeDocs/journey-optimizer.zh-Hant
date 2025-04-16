@@ -5,7 +5,7 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 17%
@@ -22,8 +22,8 @@ ht-degree: 17%
 
 | 護欄 | 限制 |
 | ------- | ------- |
-| 程式碼型體驗API請求，搭配運用Edge區段的決定原則 | 1500 |
-| 具有未利用Edge細分之決策原則的程式碼型體驗API請求 | 5000 |
+| 使用Edge細分的具有決策原則的程式碼型體驗API請求 | 1500 |
+| 具有不使用Edge細分之決策原則的程式碼型體驗API請求 | 5000 |
 
 ## 專案集合
 

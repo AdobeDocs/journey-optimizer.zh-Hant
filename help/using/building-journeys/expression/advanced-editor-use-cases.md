@@ -6,9 +6,9 @@ description: 瞭解如何建立進階運算式
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: expression, condition, use-cases, events
+keywords: 運算式、條件、使用案例、事件
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 1%

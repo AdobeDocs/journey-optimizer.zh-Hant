@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 86%
+source-wordcount: '1162'
+ht-degree: 83%
 
 ---
 
@@ -22,6 +22,9 @@ ht-degree: 86%
 
 ## 2025 年 4 月 {#apr-2025}
 
+* 設定章節現在分成三個章節： [頻道設定](../configuration/get-started-configuration.md)、[歷程設定](../configuration/about-data-sources-events-actions.md)以及[連線您的系統](../configuration/ajo-apis.md)。
+* 新增在歷程運算式和條件中使用體驗事件的警告事項。 [閱讀全文](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
+* 針對[電子郵件](../configuration/delegate-subdomain.md#undelegate-subdomain)、[簡訊](../sms/sms-subdomains.md#undelegate-a-subdomain-undelegate-subdomain)、[網頁體驗](../web/web-delegated-subdomains.md#undelegate-a-subdomain-undelegate-subdomain)及[登陸頁面](../landing-pages/lp-subdomains.md#undelegate-subdomain)，現在已詳細說明取消委派子網域的步驟。
 * 在直接郵件設定頁面上新增了關於輸出檔案暫時儲存的附註。 [閱讀全文](../direct-mail/direct-mail-configuration.md)
 * 在歷程進階運算式編輯器章節中新增條件格式指南的相關提示。 [閱讀全文](../building-journeys/expression/expressionadvanced.md)
 * 在`inAudience`函式區段中新增重新命名對象時影響和最佳實務的警告注意事項。 [閱讀全文](../building-journeys/functions/functioninaudience.md)

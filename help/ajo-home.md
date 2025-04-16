@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
-workflow-type: ht
-source-wordcount: '349'
-ht-degree: 100%
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 新增功能
 
-快速一覽 Journey Optimizer 產品和文件的最新增強功能！如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](using/rn/release-notes.md)。請造訪[文件更新頁面](using/rn/documentation-updates.md)，了解文件的最新變更。
+快速一覽 Journey Optimizer 產品和文件的最新增強功能！如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](using/rn/release-notes.md)。請造訪[檔案更新頁面](using/rn/documentation-updates.md)，以掌握產品檔案的最新變更。
 
 >[!BEGINTABS]
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ✨ 透過我們 [AI 助理](../help/using/content-management/gs-generative.md)即時功能預覽，讓您沉浸在實作體驗中，旨在讓您直接探索各項功能，全面了解所有功能。
 
-[![了解更多](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![深入瞭解](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB 使用 CJA 進行報告]
 
