@@ -8,9 +8,9 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: 簡訊、子網域、設定
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '924'
 ht-degree: 20%
 
 ---
@@ -38,12 +38,10 @@ ht-degree: 20%
 
 您可以使用已委派給Adobe的子網域，也可以設定另一個子網域。 在[本節](../configuration/delegate-subdomain.md)中進一步瞭解將子網域委派至Adobe。
 
->[!CAUTION]
->
->* 簡訊子網域設定會在所有環境之間共用。 因此，對SMS子網域所做的任何修改也會影響其他生產沙箱。
->
->* 若要存取及編輯SMS子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理SMS子網域]**&#x200B;許可權。 若要了解權限的詳細資訊，請參閱[本章節](../administration/high-low-permissions.md)。
->
+SMS子網域設定是&#x200B;**在所有環境之間共用**。 因此，對SMS子網域所做的任何修改也會影響其他生產沙箱。
+
+若要存取及編輯SMS子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理SMS子網域]**&#x200B;許可權。 若要了解權限的詳細資訊，請參閱[本章節](../administration/high-low-permissions.md)。
+
 
 ## 使用現有的子網域 {#sms-use-existing-subdomain}
 
@@ -61,15 +59,11 @@ ht-degree: 20%
 
 1. 輸入將顯示在簡訊URL中的前置詞。
 
-   >[!NOTE]
-   >
-   >只允許使用英數字元和連字型大小。
+   只允許使用英數字元和連字型大小。
 
 1. 從清單中選取委派的子網域。
 
-   >[!NOTE]
-   >
-   >您無法選取已用作SMS子網域的子網域。
+   您無法選取已用作SMS子網域的子網域。
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -120,9 +114,7 @@ ht-degree: 20%
 
    不允許將無效的子網域委派給Adobe。 請務必輸入貴組織所擁有的有效子網域，例如marketing.yourcompany.com。
 
-   >[!NOTE]
-   >
-   >支援（相同父項網域的）多階層子網域。 例如，您可以使用「sms.marketing.yourcompany.com」。
+   支援（相同父項網域的）多階層子網域。 例如，您可以使用「sms.marketing.yourcompany.com」。
 
 1. 將會顯示要放置在DNS伺服器中的記錄。 複製此記錄或下載CSV檔案，然後導覽至您的網域託管解決方案，以產生相符的DNS記錄。
 
@@ -130,9 +122,7 @@ ht-degree: 20%
 
    ![](assets/sms_add-your-own-subdomain-confirm.png)
 
-   >[!NOTE]
-   >
-   >當您設定新的SMS子網域時，它永遠會指向CNAME記錄。
+   當您設定新的SMS子網域時，它始終指向CNAME記錄。
 
 1. 提交子網域委派後，子網域會顯示在狀態為&#x200B;**[!UICONTROL 處理中]**&#x200B;的清單中。 如需子網域狀態的詳細資訊，請參閱[本區段](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 

@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: 登陸、登陸頁面、子網域、設定
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '966'
 ht-degree: 19%
 
 ---
@@ -38,17 +38,15 @@ ht-degree: 19%
 
 您可以使用已委派給Adobe的子網域，也可以設定另一個子網域。 在[本節](../configuration/delegate-subdomain.md)中進一步瞭解將子網域委派至Adobe。
 
->[!CAUTION]
->
->登陸頁面子網域設定對所有環境都是通用的。 因此：
->
->* 若要存取及編輯登陸頁面子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理登陸頁面子網域]**&#x200B;許可權。
->
-> * 對登陸頁面子網域所做的任何修改也會影響生產沙箱。
+Landing page subdomain configuration is **common to all environments**. 因此：
+
+* 若要存取及編輯登陸頁面子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理登陸頁面子網域]**&#x200B;許可權。
+
+* Any modification to a landing page subdomain also impacts the production sandboxes.
 
 ## 使用現有的子網域 {#lp-use-existing-subdomain}
 
-若要使用已委派給Adobe的子網域，請遵循下列步驟。
+若要使用已委派給Adobe的子網域，請遵循下列步驟：
 
 1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 登陸頁面設定]** > **[!UICONTROL 登陸頁面子網域]**。
 
@@ -62,15 +60,11 @@ ht-degree: 19%
 
 1. 輸入要顯示在登入頁面URL中的前置詞。
 
-   >[!NOTE]
-   >
-   >只允許使用英數字元和連字型大小。
+   只允許使用英數字元和連字型大小。
 
 1. 從清單中選取委派的子網域。
 
-   >[!NOTE]
-   >
-   >您無法選取已用作登陸頁面子網域的子網域。
+   您無法選取已用作登陸頁面子網域的子網域。
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -88,9 +82,7 @@ ht-degree: 19%
 
    ![](assets/lp_subdomain-processing.png)
 
-   >[!NOTE]
-   >
-   >您必須等到Adobe執行必要的檢查，才能使用該子網域傳送訊息，最多可能需要4小時的時間。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   您必須等到Adobe執行必要的檢查（最多可能需要&#x200B;**4小時**.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->），才能使用該子網域傳送訊息。
 
 1. 檢查成功後，子網域會取得&#x200B;**[!UICONTROL Success]**&#x200B;狀態。 它已準備好用來建立登入頁面預設集。
 
@@ -115,15 +107,13 @@ ht-degree: 19%
 
    >[!CAUTION]
    >
-   >您無法使用現有的登陸頁面子網域。
+   >* 您無法使用現有的登陸頁面子網域。
    >
-   >子網域中不允許使用大寫字母。
+   >* 子網域中不允許使用大寫字母。
 
    不允許將無效的子網域委派給Adobe。 請務必輸入貴組織所擁有的有效子網域，例如marketing.yourcompany.com。
 
-   >[!NOTE]
-   >
-   >對於登入頁面，支援多層級子網域。 例如，您可以使用「email.marketing.yourcompany.com」。
+   對於登入頁面，支援多層級子網域。 例如，您可以使用「email.marketing.yourcompany.com」。
 
 1. 將會顯示要放置在DNS伺服器中的記錄。 複製此記錄或下載CSV檔案，然後導覽至您的網域託管解決方案，以產生相符的DNS記錄。
 
@@ -131,15 +121,11 @@ ht-degree: 19%
 
    ![](assets/lp_add-your-own-subdomain-confirm.png)
 
-   >[!NOTE]
-   >
-   >當您設定新的登陸頁面子網域時，它將永遠指向CNAME記錄。
+   When you configure a new landing page subdomain, it always points to a CNAME record.
 
 1. 提交子網域委派後，子網域會顯示在狀態為&#x200B;**[!UICONTROL 處理中]**&#x200B;的清單中。 如需子網域狀態的詳細資訊，請參閱[本區段](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-   >[!NOTE]
-   >
-   >您必須等到Adobe執行必要的檢查（最多可能需要4小時）後，才能將該子網域用於登入頁面。<!--Learn more in [this section](#subdomain-validation).-->
+   Before being able to use that subdomain for your landing pages, you must wait until Adobe performs the required checks, which can take **up to 4 hours**.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. 檢查成功後，子網域會取得&#x200B;**[!UICONTROL Success]**&#x200B;狀態。 它已準備好用來建立登入頁面預設集。
 
@@ -178,4 +164,5 @@ Adobe處理您的請求後，未委派網域不再顯示在子網域詳細目錄
 >取消委派子網域後：
 >
 >   * 您無法重新啟用使用該子網域的管道設定。
+>
 >   * 您無法透過使用者介面再次委派確切的子網域。 如果您想要這樣做，請聯絡您的Adobe代表。
