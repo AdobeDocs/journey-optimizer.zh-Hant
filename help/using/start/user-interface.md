@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: f15962bf68c7ea5087e0def33888b06f52d580cd
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 94%
+source-wordcount: '1440'
+ht-degree: 92%
 
 ---
 
@@ -134,7 +134,7 @@ ht-degree: 94%
 
 * **[!UICONTROL 警報]** - 使用者介面可讓您根據 Adobe Experience Platform 可檢視性深入解析顯示的指標查看收到警報的歷史記錄。UI 也可讓您檢視、啟用和停用可用的警報規則。 [了解更多](../reports/alerts.md)
 
-* **[!UICONTROL 沙箱]** - Adobe Experience 平台提供的沙箱可將單一執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。瀏覽此區段以管理沙箱。[了解更多](../administration/sandboxes.md)
+* **[!UICONTROL 沙箱]** - Adobe Experience 平台提供的沙箱可將單一執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。此外，[!DNL Journey Optimizer]可讓您使用封裝匯出和匯入功能，在多個沙箱中複製物件，例如歷程、內容範本或片段。 [了解更多](../administration/sandboxes.md)
 
 * **[!UICONTROL 管道]** - 使用此區段來設定管道，包括子網域、設定和傳遞能力設定。 [了解更多](../configuration/get-started-configuration.md)
 

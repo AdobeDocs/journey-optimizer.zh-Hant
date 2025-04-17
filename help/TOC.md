@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 270dac97dce9e12795f5c99e2da3cbf6a5afd876
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2335'
 ht-degree: 89%
 
 ---
@@ -738,7 +738,7 @@ ht-degree: 89%
       + [設定自訂動作](using/action/about-custom-action-configuration.md)
       + [設定自訂動作](using/action/troubleshoot-custom-action.md)
       + [在自訂動作中使用 API 呼叫回應](using/action/action-response.md)
-+ 連線您的系統{#connect-systems}
++ 連線您的系統和環境 {#connect-systems}
    + [使用Journey Optimizer API](using/configuration/ajo-apis.md)
    + 將您的歷程與外部系統整合 {#external-systems}
       + [與外部系統的歷程整合](using/configuration/external-systems.md)
@@ -748,8 +748,10 @@ ht-degree: 89%
       + [與Campaign Standard的歷程整合](using/action/acs-action.md)
       + [與Campaign v7/v8的歷程整合](using/action/acc-action.md)
       + [與Marketo Engage的歷程整合](using/action/marketo-engage.md)
+   + 沙箱管理 {#sandbox}
+      + [使用和指派沙箱](using/administration/sandboxes.md)
+      + [將物件匯出至另一個沙箱](using/configuration/copy-objects-to-sandbox.md)
    + [設定來源聯結器](using/start/get-started-sources.md)
-   + [將物件匯出至另一個沙箱](using/configuration/copy-objects-to-sandbox.md)
 + 存取控制 {#access-control}
    + 存取控制概覽 {#privacy}
       + [開始使用使用者管理](using/administration/permissions-overview.md)
@@ -759,7 +761,6 @@ ht-degree: 89%
    + [管理使用者和角色](using/administration/permissions.md)
    + [以屬性為基礎的存取控制](using/administration/attribute-based-access.md)
    + [物件等級存取控制](using/administration/object-based-access.md)
-   + [沙箱管理](using/administration/sandboxes.md)
 + 隱私權 {#privacy}
    + [開始使用隱私權](using/privacy/get-started-privacy.md)
    + [隱私權請求](using/privacy/requests.md)

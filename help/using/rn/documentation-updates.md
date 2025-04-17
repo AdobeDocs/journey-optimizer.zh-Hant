@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a2d23466d62b3b1df6f8024e3f68414b18bf0b88
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 80%
+source-wordcount: '1251'
+ht-degree: 77%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 80%
 * 目前您無法透過[!UICONTROL Journey Optimizer]使用者介面取消委派子網域，請洽詢您的Adobe代表。 電子郵件、登陸頁面、簡訊和網頁子網域區段已更新，其中包含此資訊和聯絡Adobe之前所需執行的步驟。 [閱讀全文](../configuration/delegate-subdomain.md#undelegate-subdomain)
 * 已新增有關歷程上限API中選用的`maxHttpConnections`引數的說明，包括如何將其與相同端點的節流設定一起使用的指引。 [閱讀全文](../configuration/throttling.md)
 * 在「體驗決策」區段中新增指引，說明已核准的優惠專案如果用於集合或決策，則無法刪除。 包含使用&#x200B;**[!UICONTROL 復原核准]**&#x200B;選項將其狀態變更為「草稿」的步驟。 [閱讀全文](../experience-decisioning/items.md#manage)
+* 有關沙箱的資訊已分組到新的「沙箱管理」區段。 這個新的區段提供如何使用和指派沙箱的相關資訊，以及如何使用套件匯出和匯入功能，在多個沙箱中複製物件（例如歷程、內容範本或片段）。 [閱讀全文](../administration/sandboxes.md)
 
 ## 2025 年 3 月 {#mar-2025}
 
