@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 31e88f02ed2569357a31552db717225d7f37a1eb
+source-git-commit: 270dac97dce9e12795f5c99e2da3cbf6a5afd876
 workflow-type: tm+mt
-source-wordcount: '2329'
+source-wordcount: '2330'
 ht-degree: 89%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 89%
 + 新增功能？ {#whats-new}
    + [早期發行說明](using/rn/e-release-notes.md)
    + [最新發行說明](using/rn/release-notes.md)
-   + 上一個發行說明 {#previous-rn-new}
+   + 舊版發行說明 {#previous-rn-new}
       + [2025](using/rn/release-notes-2025.md)
       + [2024 年](using/rn/release-notes-2024.md)
       + [2023 版](using/rn/release-notes-2023.md)
@@ -75,7 +75,7 @@ ht-degree: 89%
       + [Adobe Campaign v7/v8 動作](using/building-journeys/using-adobe-campaign-v7-v8.md)
       + [跳轉](using/building-journeys/jump.md)
       + [更新輪廓](using/building-journeys/update-profiles.md)
-   + 建立表達式 {#building-advanced-conditions-journeys}
+   + 建立運算式 {#building-advanced-conditions-journeys}
       + [使用進階運算式編輯器](using/building-journeys/expression/expressionadvanced.md)
       + 語法 {#syntax}
          + [進階運算式編輯器語法](using/building-journeys/expression/generalities.md)
@@ -178,7 +178,7 @@ ht-degree: 89%
    + 設定 {#ms-config}
       + [結構描述](using/ms/ms-schemas.md)
       + [使用事件變數](using/ms/event-variables.md)
-   + 建立您的第一個編排行銷活動 {#create-ms-campaign}
+   + 建立您的第一個協調行銷活動 {#create-ms-campaign}
       + [建立協調行銷活動](using/ms/create-ms-campaign.md)
       + [協調活動](using/ms/orchestrate-activities.md)
       + [設定行銷活動設定](using/ms/ms-campaign-settings.md)
@@ -214,7 +214,7 @@ ht-degree: 89%
    + [指派優先順序分數](using/conflict-prioritization/priority-scores.md)
    + [歷程上限與仲裁](using/conflict-prioritization/journey-capping.md)
 + 測試與核准 {#test}
-   + 預覽 &amp; 測試 內容 {#preview-test}
+   + 預覽和測試內容 {#preview-test}
       + [開始預覽和測試](using/content-management/preview-test.md)
       + [選取測試輪廓](using/content-management/test-profiles.md)
       + [預覽您的內容](using/content-management/preview.md)
@@ -252,7 +252,7 @@ ht-degree: 89%
             + [調整垂直對齊與邊框間距](using/email/alignment-and-padding.md)
             + [加入內嵌樣式屬性](using/email/inline-styling.md)
       + [管理電子郵件選擇退出](using/email/email-opt-out.md)
-      + 設定電子郵件通道 {#configure-email}
+      + 設定電子郵件頻道 {#configure-email}
          + [開始使用電子郵件設定](using/email/get-started-email-config.md)
          + [定義電子郵件組態設定](using/email/email-settings.md)
          + [啟用清單取消訂閱](using/email/list-unsubscribe.md)
@@ -271,11 +271,11 @@ ht-degree: 89%
       + [建立推播通知](using/push/create-push.md)
       + [設計推播通知](using/push/design-push.md)
       + [檢查並傳送推播通知](using/push/send-push.md)
-      + 設定推送通知{#push-config}
+      + 設定推播通知{#push-config}
          + [推播通知流量](using/push/push-gs.md)
          + [設定推播通知頻道](using/push/push-configuration.md)
          + [Mobile 上線快速入門工作流程](using/push/mobile-onboarding-wf.md)
-   + 短信/彩信通道{#sms}
+   + 簡訊/多媒體簡訊頻道{#sms}
       + [開始使用文字訊息](using/sms/get-started-sms.md)
       + [建立文字簡訊 (SMS/MMS)](using/sms/create-sms.md)
       + [檢查並傳送文字訊息](using/sms/send-sms.md)
@@ -295,7 +295,7 @@ ht-degree: 89%
       + [設定直接郵件](using/direct-mail/direct-mail-configuration.md)
    + 網頁管道 {#web}
       + [開始使用網路頻道](using/web/get-started-web.md)
-      + 設定網站通道 {#configure-web-channel}
+      + 設定Web管道 {#configure-web-channel}
          + [網路頻道先決條件](using/web/web-prerequisites.md)
          + [設定網頁子網域](using/web/web-delegated-subdomains.md)
          + [建立網頁管道設定](using/web/web-configuration.md)
@@ -537,7 +537,7 @@ ht-degree: 89%
       + [Decisioning 上的報告](using/experience-decisioning/cja-reporting.md)
       + [Decisioning 使用案例](using/experience-decisioning/experience-decisioning-uc.md)
    + 決策管理 {#offer-decisioning}
-      + 決策管理入門 {#get-started-decision}
+      + 開始使用決定管理 {#get-started-decision}
          + [關於決定管理](using/offers/get-started/starting-offer-decisioning.md)
          + [決策管理護欄與限制](using/offers/decision-management-guardrails.md)
          + [使用者介面](using/offers/get-started/user-interface.md)
@@ -564,7 +564,7 @@ ht-degree: 89%
             + [新增限制](using/offers/offer-library/add-constraints.md)
          + [建立後備產品建議](using/offers/offer-library/creating-fallback-offers.md)
          + [建立集合](using/offers/offer-library/creating-collections.md)
-      + 建立和管理決策 {#create-manage-activities}
+      + 建立和管理決定 {#create-manage-activities}
          + [建立決定](using/offers/offer-activities/create-offer-activities.md)
          + [設定決定中的產品建議選擇](using/offers/offer-activities/configure-offer-selection.md)
          + [建立模擬](using/offers/offer-activities/simulation.md)
@@ -577,7 +577,7 @@ ht-degree: 89%
          + [開始使用內容資料](using/offers/context-data.md)
          + [內容資料與邊緣決策請求](using/offers/context-data-edge.md)
          + [內容資料與決策請求](using/offers/context-data-decisioning.md)
-      + 建立決策管理報表 {#create-reports}
+      + 建立決定管理報表 {#create-reports}
          + [使用決策管理事件](using/offers/reports/get-started-events.md)
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出優惠目錄 {#export-catalog}
@@ -676,7 +676,7 @@ ht-degree: 89%
                   + [建立決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
                   + [更新決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
                   + [刪除決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
-         + 使用 API 傳送選件 {#offer-delivery-api}
+         + 使用API傳遞優惠方案 {#offer-delivery-api}
             + [開始使用傳遞產品建議 API](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
             + [決策 API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [邊緣決策 API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
@@ -684,7 +684,7 @@ ht-degree: 89%
 + 資料管理 {#data-management}
    + [開始使用資料管理](using/data/gs-data.md)
    + [使用結構描述](using/data/get-started-schemas.md)
-   + Journey Optimizer 數據集 {#datasets}
+   + Journey Optimizer資料集 {#datasets}
       + [開始使用資料集](using/data/get-started-datasets.md)
       + [資料集存留時間 (TTL) 護欄](using/data/datasets-ttl.md)
       + [匯出 Journey Optimizer 資料集](using/data/export-datasets.md)
@@ -697,14 +697,14 @@ ht-degree: 89%
    + 引導式通道設定 {#guided-setup}
       + [開始使用引導式管道設定](using/configuration/set-mobile-config.md)
       + [建立管道設定](using/configuration/create-channel-set-up.md)
-   + 委派電子郵件子域 {#delegate-subdomains}
+   + 委派電子郵件子網域 {#delegate-subdomains}
       + [開始使用子網域委派](using/configuration/about-subdomain-delegation.md)
       + [委派子網域](using/configuration/delegate-subdomain.md)
       + [設定 DMARC 記錄](using/configuration/dmarc-record.md)
       + [新增 Google TXT 記錄](using/configuration/google-txt.md)
       + [存取和編輯 PTR 記錄](using/configuration/ptr-records.md)
       + [建立 IP 集區](using/configuration/ip-pools.md)
-   + 實施IP預熱計劃 {#implement-ip-warmup-plan}
+   + 實作IP熱身計畫 {#implement-ip-warmup-plan}
       + [開始使用 IP 暖身計劃](using/configuration/ip-warmup-gs.md)
       + [建立 IP 暖身行銷活動](using/configuration/ip-warmup-campaign.md)
       + [建立 IP 暖身計劃](using/configuration/ip-warmup-plan.md)
@@ -739,15 +739,15 @@ ht-degree: 89%
       + [設定自訂動作](using/action/troubleshoot-custom-action.md)
       + [在自訂動作中使用 API 呼叫回應](using/action/action-response.md)
 + 連線您的系統{#connect-systems}
-   + [ADOBE JOURNEY OPTIMIZER API](using/configuration/ajo-apis.md)
-   + 使用歷程API {#external-systems}
-      + [與外部系統整合的歷程](using/configuration/external-systems.md)
+   + [使用Journey Optimizer API](using/configuration/ajo-apis.md)
+   + 將您的歷程與外部系統整合 {#external-systems}
+      + [與外部系統的歷程整合](using/configuration/external-systems.md)
       + [設定 API 上限](using/configuration/capping.md)
       + [節流 API](using/configuration/throttling.md)
-   + 傳送Adobe Systems解決方案 {#adobe-solutions}
-      + [歷程與 Adobe Campaign Standard 整合](using/action/acs-action.md)
-      + [Journeys與Adobe Campaign v7/v8整合](using/action/acc-action.md)
-      + [Journeys與Marketo Engage整合](using/action/marketo-engage.md)
+   + 與Adobe解決方案一同傳送 {#adobe-solutions}
+      + [與Campaign Standard的歷程整合](using/action/acs-action.md)
+      + [與Campaign v7/v8的歷程整合](using/action/acc-action.md)
+      + [與Marketo Engage的歷程整合](using/action/marketo-engage.md)
    + [設定來源聯結器](using/start/get-started-sources.md)
    + [將物件匯出至另一個沙箱](using/configuration/copy-objects-to-sandbox.md)
 + 存取控制 {#access-control}
