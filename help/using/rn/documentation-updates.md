@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: a2d23466d62b3b1df6f8024e3f68414b18bf0b88
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 83%
+source-wordcount: '1202'
+ht-degree: 80%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 83%
 * 已更新歷程測試頁面，其中附註說明必須在使用的事件中包含身分名稱空間。 [閱讀全文](../building-journeys/testing-the-journey.md)
 * 目前您無法透過[!UICONTROL Journey Optimizer]使用者介面取消委派子網域，請洽詢您的Adobe代表。 電子郵件、登陸頁面、簡訊和網頁子網域區段已更新，其中包含此資訊和聯絡Adobe之前所需執行的步驟。 [閱讀全文](../configuration/delegate-subdomain.md#undelegate-subdomain)
 * 已新增有關歷程上限API中選用的`maxHttpConnections`引數的說明，包括如何將其與相同端點的節流設定一起使用的指引。 [閱讀全文](../configuration/throttling.md)
+* 在「體驗決策」區段中新增指引，說明已核准的優惠專案如果用於集合或決策，則無法刪除。 包含使用&#x200B;**[!UICONTROL 復原核准]**&#x200B;選項將其狀態變更為「草稿」的步驟。 [閱讀全文](../experience-decisioning/items.md#manage)
 
 ## 2025 年 3 月 {#mar-2025}
 
