@@ -9,11 +9,11 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# 開始和監視您協調的行銷活動 {#start-monitor}
+# 開始並監控協調行銷活動 {#start-monitor}
 
 <!--
 <audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
@@ -21,7 +21,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
 >title="發佈協調的行銷活動"
->abstract="若要開始您的行銷活動，您必須將其發佈。 確保在發佈之前清除所有警告。"
+>abstract="若要開始您的行銷活動，您必須發佈該活動。在發佈前，請確定已經清除所有警告。"
 
 
 一旦您建立了協調流程並設計了要在畫布中執行的任務，您就可以發佈它並監視其執行方式。

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 將中繼資料新增至您的電子郵件內容
+title: 將中繼資料新增至電子郵件內容
 description: 瞭解如何使用Journey Optimizer中的中繼資料改善電子郵件內容的可讀性和可存取性
 feature: Email Design
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 24%
+ht-degree: 28%
 
 ---
 
-# 將中繼資料新增至您的電子郵件內容 {#email-metadata}
+# 將中繼資料新增至電子郵件內容 {#email-metadata}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"

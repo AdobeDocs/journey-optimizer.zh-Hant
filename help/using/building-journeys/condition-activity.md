@@ -12,7 +12,7 @@ exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1541'
-ht-degree: 14%
+ht-degree: 19%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="條件活動"
->abstract="**條件**&#x200B;活動可讓您根據特定條件建立多個路徑，以定義個人在您的歷程中如何前進。 您也可以設定替代路徑來處理逾時或錯誤，確保順暢的體驗。"
+>abstract="**條件**&#x200B;活動讓您根據具體條件建立多個路徑，藉此定義每個人在您的歷程中如何推進。您也可以設定處理逾時或錯誤的替代路徑，確保提供順暢的體驗。"
 
-**條件**&#x200B;活動可讓您根據特定條件建立多個路徑，以定義個人在您的歷程中如何前進。 您也可以設定替代路徑來處理逾時或錯誤，確保順暢的體驗。
+**條件**&#x200B;活動讓您根據具體條件建立多個路徑，藉此定義每個人在您的歷程中如何推進。您也可以設定處理逾時或錯誤的替代路徑，確保提供順暢的體驗。
 
 ![](assets/journey49.png)
 
@@ -39,7 +39,7 @@ ht-degree: 14%
 
 您也可以在歷程條件中使用對象。 [了解更多](#using-a-segment)
 
-## 新增及管理條件路徑 {#about_condition}
+## 新增和管理條件路徑 {#about_condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"

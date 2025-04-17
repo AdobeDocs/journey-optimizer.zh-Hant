@@ -9,7 +9,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1756'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 10%
 
 將決定政策用於程式碼型行銷活動的主要步驟如下：
 
-1. [將決定原則新增至程式碼型體驗](#add-decision)
+1. [新增決定原則至程式碼型體驗](#add-decision)
 1. [使用決定原則](#use-decision-policy)
 1. [建立自訂Customer Journey Analytics報告儀表板](cja-reporting.md)
 
-## 將決定原則新增至程式碼型體驗 {#add-decision}
+## 新增決定原則至程式碼型體驗 {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"

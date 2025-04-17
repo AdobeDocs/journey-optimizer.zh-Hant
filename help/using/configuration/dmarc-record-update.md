@@ -12,7 +12,7 @@ exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
->title="進一步瞭解強制性DMARC更新"
+>title="了解更多關於必要的 DMARC 更新"
 >abstract="為了執行產業最佳做法，Google 和 Yahoo 都要求您對傳送電子郵件所使用的任何網域留有 **DMARC 記錄** (從 **2024 年 2 月 1 日**&#x200B;開始)。<br>因此，請務必確認您在 Journey Optimizer 中委派給 Adobe 的所有子網域已經設定 DMARC 記錄。"
 
 網域型訊息驗證、報告和符合性 (DMARC) 是一種電子郵件驗證方法，可讓網域擁有者保護其網域免受未經授權的使用。向電子郵件提供者/ISP 提供明確的原則，有助於防止惡意行為者傳送聲稱來自您網域的電子郵件。實作 DMARC 可降低合法電子郵件遭標示為垃圾郵件或遭拒絕的風險，並改善電子郵件傳遞能力。
@@ -66,8 +66,8 @@ ht-degree: 98%
 
 **實用連結**
 
-* 於[傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hant#about){target="_blank"}了解更多有關 DMARC 的資訊
-* 詳閱 [Google Gmail 公告](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
-* 詳閱 [Yahoo!公告](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
+* 在[傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hant#about){target="_blank"}中進一步瞭解DMARC
+* 閱讀[Google Gmail宣告](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
+* 詳閱 [Yahoo!宣告](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
 
 <!--Find more guidance about these changes in the [Deliverability Best Practice Guide]-->

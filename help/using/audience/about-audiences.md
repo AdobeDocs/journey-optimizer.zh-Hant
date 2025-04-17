@@ -26,7 +26,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
 >title="選取行銷活動的對象"
->abstract="此清單顯示所有可用的 Adobe Experience Platform 對象。為你的行銷活動選取目標對象。在行銷活動中設定的訊息將傳送給屬於所選對象的所有個人。[進一步瞭解對象](../audience/about-audiences.md)"
+>abstract="此清單顯示所有可用的 Adobe Experience Platform 對象。為你的行銷活動選取目標對象。在行銷活動中設定的訊息將傳送給屬於所選對象的所有個人。[了解更多關於客群](../audience/about-audiences.md)"
 
 對象是具有相同類似行為和/或特徵的人的集合。 透過Adobe Experience Platform Segmentation Service，這些功能可在Adobe Experience Platform上集中設定和維護，並可在Journey Optimizer中輕鬆存取，以便在您的歷程和行銷活動中啟用。
 
@@ -54,7 +54,7 @@ Adobe Journey Optimizer提供強大的工具，用於建立、管理和豐富受
 
 從受眾入口網站，您可以透過標準標籤、治理控制、可搜尋資料夾和標籤輕鬆管理、尋找和探索受眾。
 
-如需如何在Audience Portal中使用對象的詳細資訊，請參閱[Adobe Experience Platform細分服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}。
+如需如何在Audience Portal中使用對象的詳細資訊，請參閱[Adobe Experience Platform Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}。
 
 ## 對象型別 {#types}
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 對象資格事件
+title: 客群資格鑑定事件
 description: 瞭解如何使用及設定對象資格事件
 feature: Journeys, Activities, Audiences
 topic: Content Management
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 ---
 
-# 對象資格事件 {#segment-qualification}
+# 客群資格鑑定事件 {#segment-qualification}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
