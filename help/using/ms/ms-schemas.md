@@ -1,22 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在協調的行銷活動中使用方案
-description: 瞭解如何在您的協調行銷活動中建立和管理方案
+title: 為協調的行銷活動建立關聯式結構描述
+description: 瞭解如何為您的協調行銷活動建立和管理關聯式結構描述
 hide: true
 hidefromtoc: true
 exl-id: b0125a50-d187-49fc-ad12-bbe6650f8f1e
-source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
+source-git-commit: c26cf974525ac6f7de0b93a5e50e85a111b2a475
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 5%
+source-wordcount: '72'
+ht-degree: 61%
 
 ---
 
-# 使用結構描述 {#ms-schemas}
+# 建立關聯式結構描述 {#ms-schemas}
 
-說明TYPE II關聯式存放區的核心原則，從資料結構描述模型化到資料擷取，重點說明UPS與關聯式模型之間的互動
+結構描述可表示並驗證資料的結構和格式。它提供了現實世界物件 (例如人員) 的抽象定義，並概述了該物件的每個實例中應包含哪些資料 (例如姓名、生日等)。
 
-顯示建立關聯式結構描述的路徑
-
-顯示關聯式結構描述中擷取資料的路徑
+![已選取[關聯式]選項的[建立結構描述]按鈕](assets/create-relational-schema.png)
