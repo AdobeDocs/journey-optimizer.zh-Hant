@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
+source-git-commit: 8998e4c6c1eca4e0cd6c0336df781eb6628b118d
 workflow-type: tm+mt
-source-wordcount: '2339'
+source-wordcount: '2337'
 ht-degree: 89%
 
 ---
@@ -174,7 +174,6 @@ ht-degree: 89%
          + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
 + 協調的行銷活動 {#orchestrated-campaigns}
    + [開始使用協調的行銷活動](using/ms/gs-ms-campaigns.md)
-   + [配置步驟](using/ms/gs-campaign-config.md)
    + [主要原則](using/ms/gs-campaign-creation.md)
    + 設定 {#ms-config}
       + [配置步驟](using/ms/gs-campaign-config.md)
