@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 3d33d0bdbaf5b56a68d4ea708ce023c6aaae4811
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1040'
 ht-degree: 7%
 
 ---
@@ -104,6 +104,4 @@ ht-degree: 7%
 
 * **[!UICONTROL 連續錯誤]**：在&#x200B;**[!UICONTROL 發生錯誤]**&#x200B;欄位中選取&#x200B;**[!UICONTROL 忽略]**&#x200B;值時，此欄位將可供使用。 您可以指定程序停止之前可以忽略的錯誤數。一旦達到此數目，協調的行銷活動狀態就會變更為&#x200B;**[!UICONTROL 失敗]**。 如果此欄位的值為0，無論錯誤數量如何，協調的行銷活動都不會停止。
 
-## 初始化指令碼 {#initialization-script}
 
-**初始化指令碼**&#x200B;可讓您初始化變數或修改活動屬性。 按一下&#x200B;**編輯程式碼**&#x200B;按鈕，然後輸入要執行的程式碼片段。 當協調的行銷活動執行時，會呼叫指令碼。 請參閱與[事件變數](event-variables.md)相關的章節。

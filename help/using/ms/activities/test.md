@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 3d33d0bdbaf5b56a68d4ea708ce023c6aaae4811
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '376'
 ht-degree: 16%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 16%
 
 1. 根據預設，**[!UICONTROL Test]**&#x200B;活動會呈現簡單的布林值測試。 如果符合「True」轉變中定義的條件，則會啟動此轉變。 否則，將會啟用預設的「False」轉變。
 
-1. 若要設定與轉變關聯的條件，請按一下&#x200B;**[!UICONTROL 開啟個人化對話方塊]**&#x200B;圖示。 使用運算式編輯器來定義啟動此轉變所需的規則。 您也可以善用事件變數、條件和日期/時間函式。 [瞭解如何使用事件變數和運算式編輯器](../event-variables.md)
+1. 若要設定與轉變關聯的條件，請按一下&#x200B;**[!UICONTROL 開啟個人化對話方塊]**&#x200B;圖示。 使用運算式編輯器來定義啟動此轉變所需的規則。 您也可以善用事件變數、條件和日期/時間函式。
 
    此外，您可以修改&#x200B;**[!UICONTROL 標籤]**&#x200B;欄位，在協調的行銷活動畫布上個人化轉變名稱。
 
