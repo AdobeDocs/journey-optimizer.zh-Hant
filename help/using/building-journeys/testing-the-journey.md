@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 1ee75284f3c5f0c7870e8bd8779d4daf9879aa40
+source-git-commit: 0f783c57ba946866cb74c2b16e1807ff963cfbaf
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1768'
 ht-degree: 8%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 8%
 * 為了最佳化效能及避免過時資源的使用，所有處於測試模式且一週內未觸發的歷程將切換回&#x200B;**草稿**&#x200B;狀態。
 * 測試模式所觸發的事件會儲存在專用的資料集中。 這些資料集標示如下： `JOtestmode - <schema of your event>`
 * 測試包含多個事件的歷程時，您必須依序觸發每個事件。 太早（第一個等待節點完成之前）或太晚（在設定的逾時後）傳送事件將會捨棄事件，並將設定檔傳送至逾時路徑。 一律透過在定義的視窗中傳送裝載，確認對事件裝載欄位的任何參考保持有效
-
+* 請確定歷程設定的選擇[開始和結束日期/時間](journey-properties.md#dates)視窗包括起始測試模式時的目前時間。 否則，觸發的測試事件會以無訊息方式捨棄。
 
 <!--
 * Fields from related entities are hidden from the test mode.
