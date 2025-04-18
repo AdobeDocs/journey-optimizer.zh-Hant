@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 重新進入、歷程、設定檔、週期性
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
+source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '703'
 ht-degree: 5%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 ## 歷程型別 {#types-of-journeys}
 
-在Adobe Journey Optimizer中，提供下列型別的歷程：
+您可以使用Adobe Journey Optimizer建立下列型別的歷程：
 
 * **單一事件**&#x200B;歷程：這些歷程始於單一事件。 收到事件時，關聯的設定檔會進入歷程。 [閱讀全文](#entry-unitary)
 

@@ -7,10 +7,10 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 87%
+source-wordcount: '124'
+ht-degree: 52%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 
 作為開發人員，您需要&#x200B;**設定您的行動應用程式**，以便能夠在 [!DNL Adobe Journey Optimizer] 中傳送推播通知。
 
-[!DNL Journey Optimizer] 可讓您建立歷程並傳送訊息給目標客群。 開始使用 [!DNL Journey Optimizer] 傳送推播通知之前，您必須確保行動應用程式及 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch] 中的設定和整合已就緒。若要瞭解 [!DNL Adobe Journey Optimizer] 中的推播通知資料流程，請參閱[此頁面](../../push/push-gs.md)。
+[!DNL Journey Optimizer]可讓您建立歷程並傳送訊息給目標對象。 開始使用[!DNL Journey Optimizer]傳送推播通知之前，請確定行動應用程式上以及[!DNL Adobe Experience Platform]和[!DNL Adobe Experience Platform Launch]中的設定和整合已就緒。 若要瞭解 [!DNL Adobe Journey Optimizer] 中的推播通知資料流程，請參閱[此頁面](../../push/push-gs.md)。
 
 設定推播通知通道及測試行動應用程式整合的步驟已詳載於[此頁面](../../push/push-configuration.md)。
 
@@ -28,4 +28,4 @@ ht-degree: 87%
 
 您也可以使用 **[!DNL Adobe Journey Optimizer]API** 執行多個動作。
 
-協助您開始使用 [!DNL Offer Library] API 的步驟已[在本節中](../../offers/api-reference/getting-started.md)詳細說明。本指南提供範例 API 呼叫，用於使用決策引擎執行主要作業。
+深入瞭解[Adobe Journey Optimizer API](../../configuration/ajo-apis.md)。
