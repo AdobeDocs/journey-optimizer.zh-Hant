@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8998e4c6c1eca4e0cd6c0336df781eb6628b118d
+source-git-commit: d4d7cab6b6841c2122d901f55c3162f0549ad5ff
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2342'
 ht-degree: 89%
 
 ---
@@ -177,13 +177,14 @@ ht-degree: 89%
    + [主要原則](using/ms/gs-campaign-creation.md)
    + 設定 {#ms-config}
       + [配置步驟](using/ms/gs-campaign-config.md)
-      + [結構描述](using/ms/ms-schemas.md)
+      + [建立關聯式結構描述](using/ms/ms-schemas.md)
       + [使用事件變數](using/ms/event-variables.md)
    + 建立您的第一個協調行銷活動 {#create-ms-campaign}
       + [建立協調行銷活動](using/ms/create-ms-campaign.md)
       + [協調活動](using/ms/orchestrate-activities.md)
       + [設定行銷活動設定](using/ms/ms-campaign-settings.md)
-      + [開始並監控行銷活動](using/ms/start-monitor-campaigns.md)
+      + [排程及開始您的行銷活動](using/ms/start-monitor-campaigns.md)
+      + [協調的行銷活動報告](using/ms/reporting-campaigns.md)
       + [管理個人化](using/ms/ms-personalization.md)
    + 協調的行銷活動 {#design-campaigns}
       + [關於協調的行銷活動](using/ms/activities/about-activities.md)
