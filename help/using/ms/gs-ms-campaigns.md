@@ -6,10 +6,10 @@ description: 瞭解如何從協調的行銷活動開始
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 18%
+source-wordcount: '527'
+ht-degree: 14%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 18%
 **目錄**
 
 * 開始使用協調的行銷活動 — [關鍵原則](gs-campaign-creation.md)
-* 設定： [使用結構描述](ms-schemas.md) - [使用事件變數](event-variables.md)
-* 開始使用： [建立協調的行銷活動](create-ms-campaign.md) - [設定行銷活動設定](ms-campaign-settings.md) - [開始並監視您的行銷活動](start-monitor-campaigns.md) - [開始使用活動](activities/about-activities.md) - [協調活動](orchestrate-activities.md) - [Personalization](ms-personalization.md)
+* 設定： [設定您協調的行銷活動](gs-campaign-config.md) - [使用結構描述](ms-schemas.md) - [使用事件變數](event-variables.md)
+* 開始使用： [建立協調的行銷活動](create-ms-campaign.md) - [設定行銷活動設定](ms-campaign-settings.md) - [排程並啟動行銷活動](start-monitor-campaigns.md) - [開始使用活動](activities/about-activities.md) - [協調活動](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * 活動清單： [並加入](activities/and-join.md) - [建置對象](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [頻道動作](activities/channels.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [載入檔案](activities/load-file.md) - [調解](activities/reconciliation.md) - [儲存對象](activities/save-audience.md) - [排程器](activities/scheduler.md) - [Scheduler拆分](activities/split.md) - [測試](activities/test.md) - [更新資料](activities/update-data.md) - [等待](activities/wait.md)
 
 >[!ENDSHADEBOX]
@@ -41,8 +41,11 @@ ht-degree: 18%
 
 ## Journey Orchestration與行銷活動策劃
 
-歷程與行銷活動 — 說明差異、使用案例和最佳實務
+Campaign Orchestration是大規模設計、傳送及追蹤品牌通訊的領先模組。 它可藉由結合設定檔和非設定檔實體，運用現有資料區段來有效個人化，實現向目標對象自動發佈行銷訊息。 Campaign Orchestration是行銷活動導向式外聯的理想選擇，可確保一致、有效率的訊息傳送（通常預先排程），以推動客戶參與度並支援關鍵行銷目標。
 
+Campaign Orchestration透過在Adobe Journey Optimizer中啟用多實體來重新定義對象細分，並方便根據特定狀態、事件、合約或預訂等提供目標式訊息。 由於您可以傳送通訊至設定檔以外的實體，或針對任何實體建立查詢，因此您可以擁有整體檢視，並擷取大量深入分析以建立您的對象。
+
+Campaign Orchestration支援資料導向式決策，可針對動態豐富的資料集運用多個來源。
 
 
 ## 讓我們深入探討
@@ -55,7 +58,7 @@ ht-degree: 18%
 <img alt="存取並管理工作流程" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
-<a href="gs-campaign-creation.md"><strong>重要原則</strong></a>
+<a href="gs-campaign-creation.md"><strong>配置步驟</strong></a>
 </div>
 <p>
 </td>
@@ -63,7 +66,7 @@ ht-degree: 18%
 <a href="create-ms-campaign.md">
 <img alt="銷售機會" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-ms-campaign.md"><strong>建立多步驟行銷活動</strong>
+<div><a href="create-ms-campaign.md"><strong>建立協調的行銷活動</strong>
 </div>
 <p>
 </td>
