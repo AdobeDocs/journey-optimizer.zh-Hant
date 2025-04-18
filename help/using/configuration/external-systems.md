@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: e3ed3d2d662d76c022a7820f3771289b14c8b8b8
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1374'
 ht-degree: 28%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 28%
 
 本頁介紹Journey Optimizer在整合外部系統時提供的各種護欄，以及最佳實務：如何使用上限API最佳化外部系統的保護、如何設定歷程逾時，以及重試如何運作。
 
-Journey Optimizer 可讓您透過自訂資料來源與自訂動作來設定與外部系統的連線。 舉例來說，這可讓您利用來自外部訂房系統的資料，或利用第三方系統(例如Epsilon或Facebook)傳送訊息，讓您的歷程更為豐富。
+Journey Optimizer 可讓您透過自訂資料來源與自訂動作來設定與外部系統的連線。 舉例來說，這可讓您利用來自外部訂房系統的資料，豐富您的歷程，或是使用Epsilon或Facebook等協力廠商系統傳送訊息。
 
 整合外部系統時，您可能會遇到幾個問題：系統可能緩慢、停止回應，或是可能無法處理較大的磁碟區。 Journey Optimizer提供數個護欄，可保護您的系統避免過載。
 
@@ -29,7 +29,11 @@ Journey Optimizer執行外部API呼叫時，技術護欄會依照以下方式執
 
 1. 套用上限或節流規則：如果達到最大速率，則會捨棄剩餘呼叫或將其排入佇列。
 
-2. 逾時並重試：如果達到上限或節流規則，Journey Optimizer會嘗試執行呼叫，直到逾時期間結束時為止。
+1. 逾時並重試：如果達到上限或節流規則，Journey Optimizer會嘗試執行呼叫，直到逾時期間結束時為止。
+
+>[!TIP]
+>
+>我們建議在外部API的權杖有效期間與您的Journey Optimizer [`cacheDuration`設定](../datasource/external-data-sources.md#custom-authentication-access-token)之間至少保留一分鐘的緩衝區，尤其是在工作負荷繁重的情況下，以避免到期不相符和401錯誤。
 
 ## 上限和節流API {#capping}
 
