@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2056'
 ht-degree: 12%
 
 ---
@@ -118,6 +118,10 @@ ht-degree: 12%
 1. 應用程式內訊息準備就緒後，請完成設定並發佈您的歷程以將其啟用。
 
 如需如何設定歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
+
+>[!NOTE]
+>
+>如果您想要在傳送推播通知後立即顯示應用程式內訊息，請使用&#x200B;**等待**&#x200B;活動，以允許應用程式內訊息裝載時間傳播。 通常建議等候5至15分鐘，但確切時間會因裝載複雜性和個人化需求而有所不同。
 
 >[!TAB 新增應用程式內訊息至行銷活動]
 

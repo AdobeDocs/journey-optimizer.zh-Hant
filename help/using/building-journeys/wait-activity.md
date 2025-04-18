@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 等待，活動，歷程，下一步，畫布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 16%
+source-wordcount: '649'
+ht-degree: 15%
 
 ---
 
@@ -47,9 +47,13 @@ ht-degree: 16%
 
 不使用&#x200B;**等待**&#x200B;活動以封鎖重新進入的最佳作法。 請改用歷程屬性層級的&#x200B;**允許重新進入**&#x200B;選項。 在[此頁面](../building-journeys/journey-properties.md#entrance)瞭解更多資訊。
 
-### 等待和測試模式 {#wait-test-modd}
+### 等待和測試模式 {#wait-test-mode}
 
 在測試模式中，測試&#x200B;]**中的**[!UICONTROL &#x200B;等待時間引數可讓您定義每個&#x200B;**等待**&#x200B;活動的持續時間。 預設時間為 10 秒。這將確保您能快速獲得測試結果。 在[此頁面](../building-journeys/testing-the-journey.md)瞭解更多資訊。
+
+### 等待和行動裝置頻道 {#wait-mobile-channels}
+
+如果您想要在傳送[推播通知](../push/get-started-push.md)後立即顯示[應用程式內訊息](../in-app/create-in-app.md)，請使用&#x200B;**等待**&#x200B;活動來允許應用程式內訊息裝載時間傳播。 通常建議等候5至15分鐘，但確切時間會因裝載複雜性和個人化需求而有所不同。
 
 ## 設定 {#wait-configuration}
 
