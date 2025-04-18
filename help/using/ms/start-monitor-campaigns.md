@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用Adobe Journey Optimizer開始和監視協調的行銷活動
-description: 瞭解如何使用Adobe Journey Optimizer開始及監控協調的行銷活動
+title: 使用Adobe Journey Optimizer排程及開始協調的行銷活動
+description: 瞭解如何使用Adobe Journey Optimizer排程及開始協調的行銷活動
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
-# 開始並監控協調行銷活動 {#start-monitor}
+# 排程及開始您的協調行銷活動 {#start-monitor}
 
 <!--
 <audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
@@ -22,7 +22,6 @@ ht-degree: 4%
 >id="ajo_campaign_publication"
 >title="發佈協調的行銷活動"
 >abstract="若要開始您的行銷活動，您必須發佈該活動。在發佈前，請確定已經清除所有警告。"
-
 
 一旦您建立了協調流程並設計了要在畫布中執行的任務，您就可以發佈它並監視其執行方式。
 
