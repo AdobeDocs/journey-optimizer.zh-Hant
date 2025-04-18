@@ -6,9 +6,9 @@ description: 瞭解如何使用Adobe Journey Optimizer排程及開始協調的�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1124'
 ht-degree: 9%
 
 ---
@@ -127,9 +127,15 @@ ht-degree: 9%
 
 ## 監視日誌和任務 {#logs-tasks}
 
-監視工作流程記錄和任務是分析協調行銷活動並確保其正常執行的關鍵步驟。 可從動作工具列及每個活動屬性窗格中的&#x200B;**[!UICONTROL 記錄檔]**&#x200B;圖示存取。
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_logs"
+>title="記錄檔與任務"
+>abstract="**記錄檔與工作**&#x200B;畫面提供協調行銷活動執行的歷程記錄，記錄所有使用者動作和遇到的錯誤。"
 
-**[!UICONTROL 記錄檔與工作]**功能表提供協調行銷活動執行的歷程記錄，記錄所有使用者動作和遇到的錯誤。
+監視記錄檔及工作是分析協調行銷活動並確保其正常執行的關鍵步驟。 可從動作工具列及每個活動屬性窗格中的&#x200B;**[!UICONTROL 記錄檔]**&#x200B;圖示存取。
+
+**[!UICONTROL 記錄檔與工作]**&#x200B;功能表提供協調行銷活動執行的歷程記錄，記錄所有使用者動作和遇到的錯誤。
+
 ![](assets/workflow-logs.png){zoomable="yes"}
 
 提供兩種資訊：
