@@ -3,13 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 開始使用協調的行銷活動
 description: 瞭解如何從協調的行銷活動開始
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 14%
+source-wordcount: '531'
+ht-degree: 17%
 
 ---
 
@@ -19,12 +20,21 @@ ht-degree: 14%
 
 **目錄**
 
-* 開始使用協調的行銷活動 — [關鍵原則](gs-campaign-creation.md)
-* 設定： [設定您協調的行銷活動](gs-campaign-config.md) - [使用結構描述](ms-schemas.md) - [使用事件變數](event-variables.md)
-* 開始使用： [建立協調的行銷活動](create-ms-campaign.md) - [設定行銷活動設定](ms-campaign-settings.md) - [開始使用活動](activities/about-activities.md) - [協調活動](orchestrate-activities.md) - [Personalization](ms-personalization.md)
-* 活動清單： [並加入](activities/and-join.md) - [建置對象](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [頻道動作](activities/channels.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [載入檔案](activities/load-file.md) - [調解](activities/reconciliation.md) - [儲存對象](activities/save-audience.md) - [排程器](activities/scheduler.md) - [Scheduler拆分](activities/split.md) - [測試](activities/test.md) - [更新資料](activities/update-data.md) - [等待](activities/wait.md)
+* 開始使用協調的行銷活動
+* 設定
+   * [設定您的協調行銷活動](gs-campaign-config.md)
+   * [建立關聯式結構描述](ms-schemas.md)
+* 建立您的第一個協調行銷活動
+   * [重要原則](gs-campaign-creation.md)
+   * [建立協調行銷活動](create-ms-campaign.md)
+   * [設定行銷活動設定](ms-campaign-settings.md)
+   * [開始使用活動](activities/about-activities.md)
+   * [協調活動](orchestrate-activities.md)
+* [個人化](ms-personalization.md)
+* [測試及驗證您的訊息](ms-proofs.md)
 * [排程並啟動您的行銷活動](start-monitor-campaigns.md)
-* [監控與報告](reporting-campaigns.md)
+* 活動清單： [並加入](activities/and-join.md) - [建置對象](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [頻道動作](activities/channels.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [載入檔案](activities/load-file.md) - [調解](activities/reconciliation.md) - [儲存對象](activities/save-audience.md) - [分割](activities/split.md) - [Split測試](activities/test.md) - [更新資料](activities/update-data.md) - [等待](activities/wait.md)
+* [報告](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
 

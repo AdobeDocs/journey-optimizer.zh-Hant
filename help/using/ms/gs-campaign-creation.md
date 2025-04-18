@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 協調行銷活動建立的主要原則
 description: 瞭解使用Adobe Journey Optimizer協調行銷活動的主要原則
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '462'
 ht-degree: 25%
 
 ---

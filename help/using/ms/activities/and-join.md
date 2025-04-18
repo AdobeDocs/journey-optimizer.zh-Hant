@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用AND — 聯結活動
 description: 瞭解如何在協調的行銷活動中使用AND — 加入活動
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '262'
 ht-degree: 65%
 
 ---

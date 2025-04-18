@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4d7cab6b6841c2122d901f55c3162f0549ad5ff
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2337'
 ht-degree: 89%
 
 ---
@@ -174,12 +174,11 @@ ht-degree: 89%
          + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
 + 協調的行銷活動 {#orchestrated-campaigns}
    + [開始使用協調的行銷活動](using/ms/gs-ms-campaigns.md)
-   + [主要原則](using/ms/gs-campaign-creation.md)
    + 設定 {#ms-config}
       + [配置步驟](using/ms/gs-campaign-config.md)
       + [建立關聯式結構描述](using/ms/ms-schemas.md)
-      + [使用事件變數](using/ms/event-variables.md)
    + 建立您的第一個協調行銷活動 {#create-ms-campaign}
+      + [主要原則](using/ms/gs-campaign-creation.md)
       + [建立協調行銷活動](using/ms/create-ms-campaign.md)
       + [協調活動](using/ms/orchestrate-activities.md)
       + [設定行銷活動設定](using/ms/ms-campaign-settings.md)
@@ -199,7 +198,6 @@ ht-degree: 89%
       + [載入檔案](using/ms/activities/load-file.md)
       + [調和](using/ms/activities/reconciliation.md)
       + [儲存客群](using/ms/activities/save-audience.md)
-      + [排程器](using/ms/activities/scheduler.md)
       + [分割](using/ms/activities/split.md)
       + [測試](using/ms/activities/test.md)
       + [更新資料](using/ms/activities/update-data.md)

@@ -1,15 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用Adobe Journey Optimizer監控協調的行銷活動
-description: 瞭解如何使用Adobe Journey Optimizer監控及存取有關協調行銷活動的報告
+title: 使用Adobe Journey Optimizer報告協調的行銷活動
+description: 瞭解如何使用Adobe Journey Optimizer存取有關協調行銷活動的報告
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 0%
+source-wordcount: '24'
+ht-degree: 4%
 
 ---
 
-# 協調的行銷活動報告與監控 {#report-ms}
+# 協調的行銷活動報告 {#report-ms}

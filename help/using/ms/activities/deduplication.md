@@ -1,14 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Use the Deduplication activity
-description: Learn how to use the Deduplication activity
+title: 使用重複資料刪除活動
+description: 瞭解如何使用重複資料刪除活動
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '602'
 ht-degree: 53%
 
 ---
@@ -35,7 +36,7 @@ ht-degree: 53%
 >title="重複項目刪除設定"
 >abstract="若要刪除傳入資料中的重複項目，請在以下欄位中定義重複項目刪除方法。預設只會保留一筆記錄。您還應該根據運算式或屬性選取重複項目刪除模式。預設會隨機選取要避免重複的記錄。"
 
-**重複資料刪除**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動。 This activity allows you to delete duplicates in the result(s) of the inbound activities, for example duplicated profiles in the recipient list. The **Deduplication** activity is generally used following targeting activities, and before activities that allow the use of targeted data.
+**重複資料刪除**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動。 此活動可讓您刪除入站活動結果中的重複專案，例如收件者清單中的重複設定檔。 **重複資料刪除**&#x200B;活動通常用於目標定位活動之後，以及允許使用目標定位資料的活動之前。
 
 ## 設定重複資料刪除活動{#deduplication-configuration}
 
@@ -43,7 +44,7 @@ ht-degree: 53%
 
 ![](../assets/workflow-deduplication.png)
 
-1. Add a **Deduplication** activity to your orchestrated campaign.
+1. 將&#x200B;**重複資料刪除**&#x200B;活動新增至您協調的行銷活動。
 
 1. 在&#x200B;**&#x200B;用於識別重複資料的欄位&#x200B;**&#x200B;區段，按一下&#x200B;**&#x200B;新增屬性**&#x200B;按鈕以指定可允許識別重複資料之相同值的欄位，例如：電子郵件地址、名字、姓氏等。欄位的順序可讓您指定首要處理的條件。
 
@@ -57,12 +58,12 @@ ht-degree: 53%
 
 1. 選取要使用的&#x200B;**重複資料刪除方法**：
 
-   * **Random selection**: Randomly selects the record to be kept out of the duplicates.
-   * **Using an expression**: Keep the records in which the value of the expression entered is the smallest or the biggest.
-   * **Non-empty values**: Keep the records for which the expression is not empty.
-   * **Following a list of values**: Define a value priority for one or more fields. To define the values, click **Attribute** to select a field or create an expression, then add the value(s) into the appropriate table. To define a new field, click the **Add button** located above the list of values.
+   * **隨機選取**：隨機選取要保留在重複專案外的記錄。
+   * **使用運算式**：保留所輸入運算式的值最小或最大的記錄。
+   * **非空白值**：保留運算式不是空白的記錄。
+   * **依循值清單**：定義一或多個欄位的值優先順序。 若要定義值，請按一下&#x200B;**屬性**&#x200B;來選取欄位或建立運算式，然後將值新增至適當的資料表。 若要定義新欄位，請按一下值清單上方的&#x200B;**新增按鈕**。
 
-1. Check the **Generate complement** option if you wish to exploit the remaining population. 補充包含所有重複專案。 An additional transition will then be added to the activity.
+1. 如果要利用剩餘母體，請核取&#x200B;**產生補充**&#x200B;選項。 補充包含所有重複專案。 隨後會將其他轉變新增至活動。
 
 ## 範例{#deduplication-example}
 
