@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 平台、資料湖、建立、湖、資料集、設定檔
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: ht
-source-wordcount: '848'
-ht-degree: 100%
+source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
+workflow-type: tm+mt
+source-wordcount: '847'
+ht-degree: 87%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->自 2024 年 11 月 1 日起，串流細分將不再支援使用 Journey Optimizer 追蹤和回饋意見資料集中的傳送和未結事件功能。 此外，自 2025 年 2 月起，將對 Journey Optimizer 系統產生的資料集正式推出存留時間 (TTL) 護欄。 [了解更多](datasets-ttl.md)
+>自2024年11月1日起，串流區段不再支援使用來自Journey Optimizer追蹤和意見反應資料集的傳送和開啟事件。 此外，自2025年2月起，存留時間(TTL)護欄正逐步部署至Journey Optimizer系統產生的資料集。 [了解更多](datasets-ttl.md)
 
 選取資料集名稱，以存取其「資料集」活動畫面，並查看所選取資料集的詳細資訊。 活動索引標籤包含將所使用訊息的比率視覺化的圖形，以及成功和失敗批次的清單。
 
@@ -64,7 +64,7 @@ Adobe Journey Optimizer 的系統資料集如下所列。
 
 * _傳送時間最佳化分數 / 參與分數_：輸出 Journey AI 的分數。
 
-若要檢視每個結構描述的欄位與屬性完整清單，請參閱 [Journey Optimizer 結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}。
+若要檢視每個結構描述的完整欄位和屬性清單，請參閱[Journey Optimizer結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}。
 
 ## 預覽資料集{#preview-datasets}
 
@@ -93,19 +93,19 @@ Adobe Journey Optimizer 的系統資料集如下所列。
 
 [!DNL Adobe Experience Platform Data Governance] 可讓您管理客戶資料，並確保符合適用於資料使用的法規、限制與原則。它在 Experience Platform 的各個層面發揮關鍵作用，包括編目、資料譜系、資料使用標籤、資料使用原則和控制資料在行銷活動的使用。
 
-深入了解資料控管及資料使用標籤，請參閱[資料控管文件](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=zh-Hant){target="_blank"}
+在[資料控管檔案](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=zh-Hant){target="_blank"}中進一步瞭解資料控管和資料使用標籤
 
 ## 範例和使用案例{#uc-datasets}
 
 了解如何建立結構、資料集和擷取資料，以在 Adobe Journey Optimizer 新增測試輪廓，請參閱[此端對端範例](../audience/creating-test-profiles.md)
 
-請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target="_blank"}，深入了解資料集建立。
+在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target="_blank"}中進一步瞭解資料集建立。
 
-請參閱[資料擷取概觀文件](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target="_blank"}，了解如何使用資料集 UI。
+在[資料擷取概觀檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target="_blank"}中瞭解如何使用資料集UI。
 
 [此處](../data/datasets-query-examples.md)提供查詢範例的使用案例清單。
 
 >[!MORELIKETHIS]
 >
->* [串流擷取概觀](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hant){target="_blank"}
->* [將資料擷取至 Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hant){target="_blank"}
+>* [串流擷取總覽](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hant){target="_blank"}
+>* [將資料內嵌至Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hant){target="_blank"}
