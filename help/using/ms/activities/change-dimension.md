@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: f0213f1270e9821b61a5dc396e39f5707f8f4b42
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 26%
+source-wordcount: '332'
+ht-degree: 23%
 
 ---
 
@@ -26,7 +26,9 @@ ht-degree: 26%
 >title="變更維度活動"
 >abstract="此活動可讓您在建立對象時變更目標市場選擇維度。其會根據資料範本和輸入維度來移動軸。例如，您可以從「合約」維度切換到「用戶端」維度。"
 
-**變更維度**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動。 此活動可讓您在建立協調的行銷活動時變更目標維度。 它會根據資料範本和輸入維度來移動軸。
+行銷人員可以在協調的行銷活動中，將目標維度從一個實體切換至另一個連結的實體，並根據不同的資料集調整對象目標，例如從設定使用者到將其特定動作或預訂做為目標。
+
+若要執行此動作，請使用&#x200B;**變更維度**&#x200B;目標定位活動。 此活動可讓您在建立協調的行銷活動時變更目標維度。 它會根據資料範本和輸入維度來移動軸。
 
 例如，您可以將協調行銷活動的目標維度從「設定檔」切換為「合約」，以傳送訊息給目標合約所有者。
 
@@ -41,7 +43,7 @@ ht-degree: 26%
 
 1. 新增&#x200B;**變更維度**&#x200B;活動至您協調的行銷活動。
 
-   ![](assets/change-dimension.png)
+   ![](../assets/change-dimension.png)
 
 1. 定義&#x200B;**新目標維度**。 在維度變更期間，會保留所有記錄。
 
@@ -53,4 +55,4 @@ ht-degree: 26%
 
 然後使用&#x200B;**[!UICONTROL 變更維度]**&#x200B;活動，將協調的行銷活動目標維度切換為「收件者」。 這可讓我們鎖定符合查詢的收件者。
 
-![](assets/change-dimension-example.png)
+![](../assets/change-dimension-example.png)

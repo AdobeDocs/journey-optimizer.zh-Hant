@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 17%
+source-wordcount: '535'
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,8 @@ ht-degree: 17%
    * [設定行銷活動設定](ms-campaign-settings.md)
    * [開始使用活動](activities/about-activities.md)
    * [協調活動](orchestrate-activities.md)
-* [個人化](ms-personalization.md)
+* [個人化您的訊息](ms-personalization.md)*
+* [建立查詢](ms-query-modeler.md)
 * [測試及驗證您的訊息](ms-proofs.md)
 * [排程並啟動您的行銷活動](start-monitor-campaigns.md)
 * 活動清單： [並加入](activities/and-join.md) - [建置對象](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [頻道動作](activities/channels.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [載入檔案](activities/load-file.md) - [調解](activities/reconciliation.md) - [儲存對象](activities/save-audience.md) - [分割](activities/split.md) - [Split測試](activities/test.md) - [更新資料](activities/update-data.md) - [等待](activities/wait.md)
