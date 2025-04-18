@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
+source-git-commit: 75a5a1dc7c6b411e44147250ab58a0eabf651207
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 16%
@@ -30,7 +30,7 @@ ht-degree: 16%
    * [設定行銷活動設定](ms-campaign-settings.md)
    * [開始使用活動](activities/about-activities.md)
    * [協調活動](orchestrate-activities.md)
-* [個人化您的訊息](ms-personalization.md)*
+* [個人化您的訊息](ms-personalization.md)
 * [建立查詢](ms-query-modeler.md)
 * [測試及驗證您的訊息](ms-proofs.md)
 * [排程並啟動您的行銷活動](start-monitor-campaigns.md)

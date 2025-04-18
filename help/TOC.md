@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
+source-git-commit: 75a5a1dc7c6b411e44147250ab58a0eabf651207
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2344'
 ht-degree: 88%
 
 ---
@@ -182,6 +182,7 @@ ht-degree: 88%
       + [建立協調行銷活動](using/ms/create-ms-campaign.md)
       + [協調活動](using/ms/orchestrate-activities.md)
       + [設定行銷活動設定](using/ms/ms-campaign-settings.md)
+      + [建置查詢](using/ms/ms-query-modeler.md)
       + [測試及驗證您的訊息](using/ms/ms-proofs.md)
       + [排程及開始您的行銷活動](using/ms/start-monitor-campaigns.md)
       + [協調的行銷活動報告](using/ms/reporting-campaigns.md)
