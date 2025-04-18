@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 2a2abe3e663f8c9ff24c804eae53d44988960838
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 40%
+source-wordcount: '1626'
+ht-degree: 39%
 
 ---
 
@@ -44,6 +44,9 @@ ht-degree: 40%
 
 此呼叫由主要 URL (_https://api.adobeweather.org/weather_)、兩個參數集 （&quot;city&quot; 代表城市、&quot;lat/long&quot; 代表經緯度）和 API 金鑰 (appid) 組成。
 
+>[!TIP]
+>
+>我們建議在外部API的權杖有效期間與您的Journey Optimizer [`cacheDuration`設定](#custom-authentication-access-token)之間至少保留一分鐘的緩衝區，尤其是在工作負荷繁重的情況下，以避免到期不相符和401錯誤。
 
 ## 建立及設定外部資料來源 {#create-ext-data-sources}
 
@@ -59,9 +62,7 @@ ht-degree: 40%
 
 1. 輸入您的資料來源名稱。
 
-   >[!NOTE]
-   >
-   >只允許使用英數字元和底線。 長度上限為30個字元。
+只允許使用英數字元和底線。 長度上限為30個字元。
 
 1. 新增說明至您的資料來源。此步驟為選填。
 1. 新增外部服務的 URL。在我們的範例中：_https://api.adobeweather.org/weather_。
