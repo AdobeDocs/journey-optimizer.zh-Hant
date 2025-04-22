@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 25%
+source-wordcount: '401'
+ht-degree: 26%
 
 ---
 
@@ -38,12 +38,6 @@ ht-degree: 25%
 * [調解](reconciliation.md)：定義Journey Optimizer資料中的資料與工作表中的資料之間的連結，例如從外部檔案載入的資料。
 * [儲存對象](save-audience.md)：更新現有的對象，或是從協調行銷活動中的母體運算上游建立新的對象。
 * [分割](split.md)：將傳入母體分割成數個子集。
-
-## 資料管理活動 {#data}
-
-這些活動專門用於操控和豐富人口資料。
-
-* [載入檔案](load-file.md)：使用儲存在外部檔案中的設定檔和資料。
 
 ## 管道活動 {#channel}
 

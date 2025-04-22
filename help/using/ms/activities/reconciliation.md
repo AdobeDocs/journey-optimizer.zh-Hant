@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 39%
+source-wordcount: '560'
+ht-degree: 44%
 
 ---
 
@@ -93,33 +93,3 @@ ht-degree: 39%
 1. 您可以使用&#x200B;**建立篩選器**&#x200B;按鈕來篩選要調解的資料。 這可讓您使用查詢建模器建立自訂條件。
 
 依預設，未調解的資料會保留在出站轉變中，並可在工作表中供未來使用。 若要移除未調和的資料，請停用「**保留未調和的資料**」選項。
-
-## 範例 {#reconciliation-example}
-
-下列範例會示範一個協調的行銷活動，其會直接從包含新客戶的匯入檔案建立設定檔對象。 它由下列活動組成：
-
-協調的行銷活動設計如下：
-
-![](../assets/workflow-reconciliation-sample-1.0.png)
-
-
-它是透過以下活動建置：
-
-* [載入檔案](load-file.md)活動會上傳包含從外部工具擷取之輪廓資料的檔案。
-
-  例如：
-
-  ```
-  lastname;firstname;email;birthdate;
-  JACKMAN;Megan;megan.jackman@testmail.com;07/08/1975;
-  PHILLIPS;Edward;phillips@testmail.com;09/03/1986;
-  WEAVER;Justin;justin_w@testmail.com;11/15/1990;
-  MARTIN;Babe;babeth_martin@testmail.net;11/25/1964;
-  REESE;Richard;rreese@testmail.com;02/08/1987;
-  ```
-
-* 使用&#x200B;**電子郵件**&#x200B;和&#x200B;**出生日期**&#x200B;欄位作為調解條件，將傳入資料識別為設定檔的&#x200B;**調解**&#x200B;活動。
-
-  ![](../assets/workflow-reconciliation-sample-1.1.png)
-
-* [儲存對象](save-audience.md)活動，以根據這些更新建立新的對象。 如果您不需要建立或更新特定對象，您也可以以&#x200B;**結束**&#x200B;活動取代&#x200B;**儲存對象**&#x200B;活動。 無論如何當您執行協調的行銷活動時，收件者設定檔都會更新。
