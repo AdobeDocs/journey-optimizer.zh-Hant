@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 733b08dff82f0d6f0f62d2e7644aeee493a69503
+source-git-commit: b620d479548791df97912b143e7dbe7557ab4acc
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '389'
 ht-degree: 27%
 
 ---
@@ -53,11 +53,12 @@ Adobe Journey Optimizer可讓您跨多個管道自動執行行銷活動。 您�
 
 ![流量控制活動清單](../assets/flow-control-activities.png){width="30%" align="left"}
 
-
 下列活動是組織和執行協調行銷活動專屬的活動。 這些活動的主要任務是協調其他活動：
 
 * [並加入](and-join.md)：同步處理協調行銷活動的多個執行分支。
-* **結束**：以圖形方式標示已協調行銷活動的結束。 此活動對功能沒有影響，因此是選用的
 * [分支](fork.md)：建立出站轉變，以同時啟動多個活動。
-* [測試](test.md)：根據指定的條件啟用轉換。
+  <!--* [Test](test.md): Enable transitions based on specified conditions.-->
 * [等待](wait.md)：暫時暫停執行部分協調的行銷活動。
+
+>[!NOTE]
+>**End**&#x200B;活動會以圖形方式標示已協調行銷活動的結尾。 此活動對功能沒有影響，因此是選用的
