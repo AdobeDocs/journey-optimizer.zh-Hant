@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 75a5a1dc7c6b411e44147250ab58a0eabf651207
+source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
 workflow-type: tm+mt
-source-wordcount: '2344'
+source-wordcount: '2342'
 ht-degree: 88%
 
 ---
@@ -202,7 +202,6 @@ ht-degree: 88%
       + [儲存客群](using/ms/activities/save-audience.md)
       + [分割](using/ms/activities/split.md)
       + [測試](using/ms/activities/test.md)
-      + [更新資料](using/ms/activities/update-data.md)
       + [等待](using/ms/activities/wait.md)
 + 行銷活動 {#campaigns}
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
@@ -229,7 +228,7 @@ ht-degree: 88%
       + [建立和管理核准原則](using/test-approve/approval-policies.md)
       + [請求核准](using/test-approve/request-approval.md)
       + [核准請求](using/test-approve/review-approve-request.md)
-+ 通訊通道 {#channels}
++ 通訊管道 {#channels}
    + [開始使用通訊頻道](using/channels/gs-channels.md)
    + 電子郵件頻道 {#email}
       + [開始使用電子郵件](using/email/get-started-email.md)
