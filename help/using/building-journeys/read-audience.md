@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，對象，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
+source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
 workflow-type: tm+mt
-source-wordcount: '1786'
-ht-degree: 15%
+source-wordcount: '1783'
+ht-degree: 13%
 
 ---
 
@@ -52,13 +52,13 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="將歷程執行與客群匯出同步"
->abstract="當您可以使用全新匯出的客群時，切換此選項即可觸發歷程。"
+>title="批次對象評估後觸發"
+>abstract="開啟此選項以在重新評估批次對象後觸發歷程執行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="將歷程執行與客群匯出同步"
->abstract="指定歷程為了確保可使用新匯出的客群而等待的期間。"
+>title="全新對象評估的等待時間"
+>abstract="指定歷程將等待批次對象重新評估的時間長度。"
 
 使用&#x200B;**讀取對象**&#x200B;活動讓對象的所有個人進入歷程。 進入歷程可以執行一次，也可以定期執行。
 
