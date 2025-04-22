@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 733b08dff82f0d6f0f62d2e7644aeee493a69503
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 27%
@@ -24,13 +24,13 @@ ht-degree: 27%
 * [管道活動](#channel)
 * [流量控制活動](#flow-control)
 
-![畫布中可用的活動清單](../assets/workflow-activities.png){width="70%" align="left"}
+![畫布中可用的活動清單](../assets/workflow-activities.png){width="80%" align="left"}
 
 ## 目標定位活動 {#targeting}
 
 這些活動特定於定位。 這些活動可讓您使用交集、聯合或排除作業定義客群並分割或結合這些客群，從而建置一個或多個目標。
 
-![目標定位活動清單](../assets/targeting-activities.png){width="50%" align="left"}
+![目標定位活動清單](../assets/targeting-activities.png){width="40%" align="left"}
 
 * [建立對象](build-audience.md)：定義您的目標母體。 您可以選取現有對象，或使用查詢建模器來定義您自己的查詢。
 * [變更維度](change-dimension.md)：在建置您的協調行銷活動時，變更目標維度。
@@ -51,7 +51,7 @@ Adobe Journey Optimizer可讓您跨多個管道自動執行行銷活動。 您�
 >title="結束活動"
 >abstract="**End**&#x200B;活動可讓您以圖形方式標示已協調行銷活動的結尾。 此活動並不會造成功能性影響，因此為選用。"
 
-![流量控制活動清單](../assets/flow-control-activities.png){width="50%" align="left"}
+![流量控制活動清單](../assets/flow-control-activities.png){width="30%" align="left"}
 
 
 下列活動是組織和執行協調行銷活動專屬的活動。 這些活動的主要任務是協調其他活動：
