@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 77%
+source-wordcount: '1249'
+ht-degree: 75%
 
 ---
 
@@ -103,8 +103,8 @@ ht-degree: 77%
 * 有關 [!DNL Journey Optimizer] 2024 年 9 月發行版本的新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
 * 新增歷程重試管理的相關章節。[閱讀全文](../building-journeys/read-audience.md#read-audience-retry)
 * 已更新自訂動作的上限/節流規則相關常見問題，以提及預設上限規則。[閱讀全文](../configuration/external-systems.md#faq)
-* 已更新「控制存取權」章節，其中包含與 AI 助理內容產生器相關的權限。[閱讀全文](../administration/high-low-permissions.md#ai-permission)
-* 已新增有關 AI 助理內容產生器影片，可應用於電子郵件產生。[閱讀全文](../content-management/generative-email.md#video)
+* 「控制存取」區段已更新，其中包含與AI Assistant內容產生器相關的許可權。 [閱讀全文](../administration/high-low-permissions.md#ai-permission)
+* 已新增有關用於電子郵件產生的AI助理內容產生器的影片。 [閱讀全文](../content-management/generative-email.md#video)
 
 <!--
 

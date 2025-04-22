@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2340'
 ht-degree: 88%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 88%
    + [搜尋、篩選、分類](using/start/search-filter-categorize.md)
    + [協助工具](using/start/accessibility.md)
    + [使用案例教戰手冊](using/start/playbooks.md)
-   + [使用 AI 助理](using/start/ai-assistant.md)
+   + [使用AI助理](using/start/ai-assistant.md)
    + [護欄](using/start/guardrails.md)
    + [最佳作法](using/start/best-practices.md)
 + 歷程 {#orchestrate-journeys}
@@ -347,7 +347,7 @@ ht-degree: 88%
       + [定義登陸頁面預設集](using/landing-pages/lp-presets.md)
 + 內容管理 {#content-management}
    + 用於內容產生的 AI 助理{#ai-assistant}
-      + [開始使用 AI 助理](using/content-management/gs-generative.md)
+      + [開始使用AI助理](using/content-management/gs-generative.md)
       + [使用 AI 來產生電子郵件](using/content-management/generative-email.md)
       + [使用 AI 來產生推播](using/content-management/generative-push.md)
       + [使用 AI 來產生簡訊](using/content-management/generative-sms.md)

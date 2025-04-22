@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 3%
+source-wordcount: '523'
+ht-degree: 4%
 
 ---
 
@@ -59,11 +59,11 @@ ht-degree: 3%
 
    * **[!UICONTROL 精心設計]**：讓AI助理在特定點上擴展，提供更深入和細節的資訊，以提升參與度。
 
-   * **[!UICONTROL 摘要]**：如需冗長的資訊，請使用AI助理建立簡短的摘要，讓電子郵件收件者更容易摘要。
+   * **[!UICONTROL 摘要]**：如需冗長的資訊，請使用AI助理建立簡短的摘要，讓電子郵件收件者更容易理解。
 
    * **[!UICONTROL 重述]**： AI助理可以不同的方式呈現您的訊息，協助讓各種對象保持內容新鮮。
 
-   * **[!UICONTROL 使用較簡單的語言]**：使用AI助理簡化語言，以確保訊息清晰且所有讀者都能存取。
+   * **[!UICONTROL 使用較簡單的語言]**：使用AI Assistant簡化語言，以確保訊息清晰且所有讀者都能存取。
 
    此外，您可以調整內容的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
 

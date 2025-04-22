@@ -1,15 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在Journey Optimizer中使用AI助理產生登陸頁面
+title: 使用Journey Optimizer中的AI助理產生登陸頁面
 description: 開始使用Journey Optimizer中的AI助理產生登陸頁面內容和資產
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 099c0955e9ad2b1abe345d0256d656d41fc0748e
+exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1524'
 ht-degree: 2%
 
 ---
@@ -23,11 +24,11 @@ ht-degree: 2%
 >
 >* 您必須接受[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-使用由創作AI提供支援的Journey Optimizer AI助理來轉換您的登陸頁面。
+使用由創作AI提供支援的Journey Optimizer AI Assistant，轉換您的登陸頁面。
 
 輕鬆建立具影響力的內容，包括完整頁面、量身打造的文字片段，以及可引起觀眾共鳴的自訂視覺效果，進而促進參與度和互動。
 
-探索以下標籤，瞭解如何使用Journey Optimizer中的AI小幫手。
+探索以下標籤，瞭解如何在Journey Optimizer中使用AI助理。
 
 >[!BEGINTABS]
 
@@ -55,7 +56,7 @@ ht-degree: 2%
 
    * **[!UICONTROL 通訊策略]**：選擇最適合您產生文字的通訊樣式。
    * **[!UICONTROL 語言]**：西班牙文、義大利文、瑞典文和挪威文等語言選項已發佈為私人測試版，未來版本將逐步提供給所有客戶。
-   * **[!UICONTROL 膚色]**：登陸頁面的膚色應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力， AI Assistant都能據以調整訊息。
+   * **[!UICONTROL 膚色]**：登陸頁面的膚色應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力，AI Assistant都能據以調整訊息。
 
    ![](assets/lp-full-gen-3.png){zoomable="yes"}
 
@@ -69,7 +70,7 @@ ht-degree: 2%
 
    ![](assets/lp-full-gen-4.png){zoomable="yes"}
 
-1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可為AI助理提供額外內容或選取先前上傳內容的品牌資產。
+1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可提供額外內容AI助理或選取先前上傳之內容的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
@@ -83,7 +84,7 @@ ht-degree: 2%
 
    * **[!UICONTROL 重述]**： AI助理可以不同的方式重述您的訊息，讓您的寫作保持新鮮，並吸引不同受眾。
 
-   * **[!UICONTROL 使用較簡單的語言]**：利用AI助理簡化您的語言，確保更廣大的受眾擁有清晰度和可存取性。
+   * **[!UICONTROL 使用較簡單的語言]**：利用AI Assistant簡化您的語言，確保更廣大的受眾擁有清晰易懂的語言。
 
    您也可以變更文字的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
 
@@ -119,12 +120,12 @@ ht-degree: 2%
 
    * **[!UICONTROL 通訊策略]**：選擇最適合您產生文字的通訊樣式。
    * **[!UICONTROL 語言]**：西班牙文、義大利文、瑞典文和挪威文等語言選項已發佈為私人測試版，未來版本將逐步提供給所有客戶。
-   * **[!UICONTROL 膚色]**：登陸頁面的膚色應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力， AI Assistant都能據以調整訊息。
+   * **[!UICONTROL 膚色]**：登陸頁面的膚色應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力，AI Assistant都能據以調整訊息。
    * **文字長度**：使用滑桿來選取所要的文字長度。
 
    ![](assets/lp-text-gen-3.png){zoomable="yes"}
 
-1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可為AI助理提供額外內容或選取先前上傳內容的品牌資產。
+1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可提供額外內容AI助理或選取先前上傳之內容的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
@@ -144,7 +145,7 @@ ht-degree: 2%
 
    * **[!UICONTROL 重述]**：AI Assistant可以不同的方式重述您的訊息，讓您的寫作保持新鮮，並吸引不同受眾。
 
-   * **[!UICONTROL 使用較簡單的語言]**：利用AI助理簡化您的語言，確保更廣大的受眾擁有清晰度和可存取性。
+   * **[!UICONTROL 使用較簡單的語言]**：利用AI Assistant簡化您的語言，確保更廣大的受眾擁有清晰易懂的語言。
 
    您也可以變更文字的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
 
@@ -189,7 +190,7 @@ ht-degree: 2%
 
    ![](assets/lp-image-gen-3.png){zoomable="yes"}
 
-1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可為AI助理提供額外內容或選取先前上傳內容的品牌資產。
+1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可提供額外內容AI助理或選取先前上傳之內容的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 

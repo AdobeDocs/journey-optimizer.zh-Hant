@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '6785'
+source-wordcount: '6783'
 ht-degree: 99%
 
 ---
@@ -441,7 +441,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>建立訊息並進行個人化後，請在 Journey Optimizer 使用 AI 助理，把內容提升到新的境界。您目前可以使用 AI 助理，使用不同的主要標題和影像進行實驗，讓訊息的影響力發揮最佳成效。 每個變體都會視為獨特的處理來管理，以測量並比較哪個標題能有效產生更多點按次數。</p>
+<p>在您建立並個人化訊息後，請使用Journey Optimizer中的AI助理將您的內容提升到新的境界。 您現在可以使用AI Assistant，透過實驗不同的主要標題和影像來最佳化訊息的影響。 每個變體都會視為獨特的處理來管理，以測量並比較哪個標題能有效產生更多點按次數。</p>
 <p>透過<a href="https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，沉浸在親身體驗中，讓您親身體驗實際功能並充分瞭解其功能。</a></p>
 <p>如需詳細資訊，請參閱<a href="../content-management/gs-generative.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
@@ -504,10 +504,10 @@ ht-degree: 99%
 
 * **行銷活動模擬 API** - 使用此 API 來觸發行銷活動的校訂工作。傳送行銷活動校訂是種非同步程序，API 將傳回 proofJobId，可用來檢查校訂的狀態。[了解更多](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
-* (推出日期：9 月 10 日) [Adobe Journey Optimizer API 文件](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}現為互動式。直接從文件頁面那邊探索 API 端點，即可立即取得回饋意見，加快技術實作的速度。
+* （推出日期： 9月10日） [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}現在為互動式。 直接從文件頁面那邊探索 API 端點，即可立即取得回饋意見，加快技術實作的速度。
 
 
-  所有 API 參考頁面目前都有推出&#x200B;**試用版**&#x200B;功能，您就可以使用此功能，直接在文件網站頁面上測試 API 呼叫。[取得必要驗證憑證](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}，開始使用此功能，即可探索 API 端點。
+  所有 API 參考頁面目前都有推出&#x200B;**試用版**&#x200B;功能，您就可以使用此功能，直接在文件網站頁面上測試 API 呼叫。[取得必要的驗證憑證](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}並開始使用該功能，即可探索 API 端點。
 
   使用這項新功能，即可探索從 API 端點收到的請求，還有送出的回應，立即取得回饋意見，加快技術實作速度。
 
@@ -1081,7 +1081,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>Once you have created and personalized your message, take your content to the next level with the AI Assistant. You can now use the AI Assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>Once you have created and personalized your message, take your content to the next level with AI Assistant. You can now use AI Assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
 </td>
 </tr>
 </tbody>

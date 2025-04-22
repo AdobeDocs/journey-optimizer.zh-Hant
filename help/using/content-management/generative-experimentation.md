@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 11%
+source-wordcount: '249'
+ht-degree: 9%
 
 ---
 
-# 使用 AI 助理進行內容實驗{#generative-experimentation}
+# 使用AI助理進行內容實驗{#generative-experimentation}
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ ht-degree: 11%
 >
 >您必須先同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-當您製作好訊息並加以個人化後，請使用Adobe Journey Optimizer中的AI助理來提升您的內容，其中包括內容實驗功能。 此工具可讓您定義多種傳送處理方式、各種內容，以測量目標對象的效能。
+當您製作好訊息並加以個人化後，請使用Adobe Journey Optimizer中的AI助理提升您的內容，其中包括內容實驗功能。 此工具可讓您定義多種傳送處理方式、各種內容，以測量目標對象的效能。
 
 1. 建立您的行銷活動並使用AI助理產生您的變體。
 

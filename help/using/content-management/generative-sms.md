@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用 AI 助理產生簡訊
-description: 開始使用Journey Optimizer中的AI助理產生SMS內容
+title: 使用AI助理產生簡訊
+description: 開始使用Journey Optimizer中的AI助理產生簡訊內容
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '989'
 ht-degree: 4%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 4%
 >
 >您必須先同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-精心打造和量身打造您的SMS訊息以符合對象的偏好後，請在Journey Optimizer中提升與AI助理的通訊。
+精心打造和量身打造您的SMS訊息以符合對象的偏好後，請在Journey Optimizer中提升您與AI助理的通訊。
 
 此資源提供有見地的建議，讓您微調內容，協助訊息引起共鳴，並促進最大程度的參與。
 
-探索以下標籤，瞭解如何使用Journey Optimizer中的AI小幫手。
+探索以下標籤，瞭解如何在Journey Optimizer中使用AI助理。
 
 >[!BEGINTABS]
 
@@ -65,7 +65,7 @@ ht-degree: 4%
 
    ![](assets/sms-genai-3.png){zoomable="yes"}
 
-1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可為AI助理提供額外內容或選取先前上傳內容的品牌資產。
+1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可提供額外內容AI助理或選取先前上傳之內容的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
@@ -79,7 +79,7 @@ ht-degree: 4%
 
    * **[!UICONTROL 重述]**：AI Assistant可以不同的方式重述您的訊息，讓您的寫作保持新鮮，並吸引不同受眾。
 
-   * **[!UICONTROL 使用較簡單的語言]**：利用AI助理簡化您的語言，確保更廣大的受眾擁有清晰度和可存取性。
+   * **[!UICONTROL 使用較簡單的語言]**：利用AI Assistant簡化您的語言，確保更廣大的受眾擁有清晰易懂的語言。
 
    您也可以變更文字的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
 
@@ -130,7 +130,7 @@ ht-degree: 4%
 
    ![](assets/sms-text-genai-3.png){zoomable="yes"}
 
-1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可為AI助理提供額外內容或選取先前上傳內容的品牌資產。
+1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可提供額外內容AI助理或選取先前上傳之內容的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
@@ -144,7 +144,7 @@ ht-degree: 4%
 
    * **[!UICONTROL 重述]**：AI Assistant可以不同的方式重述您的訊息，讓您的寫作保持新鮮，並吸引不同受眾。
 
-   * **[!UICONTROL 使用較簡單的語言]**：利用AI助理簡化您的語言，確保更廣大的受眾擁有清晰度和可存取性。
+   * **[!UICONTROL 使用較簡單的語言]**：利用AI Assistant簡化您的語言，確保更廣大的受眾擁有清晰易懂的語言。
 
    ![](assets/sms-text-genai-4.png){zoomable="yes"}
 

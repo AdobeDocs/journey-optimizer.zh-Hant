@@ -1,32 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用 AI 助理
+title: 使用AI助理
 description: 瞭解如何善用AI助理
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 14%
+source-wordcount: '343'
+ht-degree: 24%
 
 ---
 
-# 使用 AI 助理 {#ai-assistant}
+# 使用AI助理 {#ai-assistant}
 
 AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並取得您特定環境的操作見解。 它適用於 Adobe Experience Cloud 的多種產品，包括 Adobe Journey Optimizer。
 
-若要存取AI助理，請按一下頂端列中的圖示。 「AI助理」會顯示在畫面的右側區段。
+若要存取AI助理，請按一下頂端列中的圖示。 AI 助理便會顯示在畫面右側區段。
 
 ![](assets/do-not-localize/ai-assistant-open.png)
 
 
 >[!CAUTION]
 >
->您必須同意Adobe Experience Cloud Generative AI使用者准則，才能使用AI助理。 在[此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}上進一步瞭解合約。
+>您必須同意Adobe Experience Cloud Generative AI使用者准則，才能使用AI Assistant。 在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}上進一步瞭解合約。
 
 在Adobe Journey Optimizer中，您可以存取下列使用案例：
 
@@ -49,17 +49,17 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 
   >[!NOTE]
   >
-  >您有權向AI助理操作深入分析詢問相關問題的唯一Adobe Journey Optimizer物件是&#x200B;**歷程**。 其中只會包含您目前所在沙箱的資料。
+  >您有權向AI助理詢問有關操作深入分析問題的唯一Adobe Journey Optimizer物件是&#x200B;**歷程**。 其中只會包含您目前所在沙箱的資料。
 
 
 若要提出問題，請在畫面底部的欄位中輸入，然後按Enter鍵。
 
 ![](assets/do-not-localize/ai-assistant-ask.png){width="30%" align="left"}
 
-檢查答案，並使用&#x200B;**顯示來源**&#x200B;按鈕取得產品檔案的直接連結，並瞭解更多資訊。
+查看答案並使用「**顯示來源**」按鈕，取得產品文件的直接連結並了解更多資訊。
 
 ![](assets/do-not-localize/ai-assistant-answer.png){width="30%" align="left"}
 
-使用向上或向下縮圖來評等答案。
+使用「按讚」和「不滿意」來評價該答案。
 
-若要瞭解如何使用AI助理，請參閱您可以使用AI助理完成的目標範例，並瞭解AI助理的運作方式，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}。
+若要瞭解如何使用AI助理，請參閱您可以使用AI助理完成的目標範例，並瞭解AI助理的運作方式，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}。
