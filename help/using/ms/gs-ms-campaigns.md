@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 7cd52f1954e50be521a6fc9ae26fb63586c53faa
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 17%
+source-wordcount: '524'
+ht-degree: 16%
 
 ---
 
@@ -20,22 +20,19 @@ ht-degree: 17%
 
 **目錄**
 
-* 開始使用協調的行銷活動
-* 設定
-   * [設定您的協調行銷活動](gs-campaign-config.md)
-   * [建立關聯式結構描述](ms-schemas.md)
-* 建立您的第一個協調行銷活動
-   * [重要原則](gs-campaign-creation.md)
-   * [建立協調行銷活動](create-ms-campaign.md)
-   * [設定行銷活動設定](ms-campaign-settings.md)
-   * [開始使用活動](activities/about-activities.md)
-   * [協調活動](orchestrate-activities.md)
+* 設定： [設定您的協調行銷活動](gs-campaign-config.md)
+* 設定： [建立關聯式結構描述](ms-schemas.md)
+* 建立您的第一個協調行銷活動： [關鍵原則](gs-campaign-creation.md)
+* [建立協調行銷活動](create-ms-campaign.md)
+* [設定行銷活動設定](ms-campaign-settings.md)
 * [個人化您的訊息](ms-personalization.md)
 * [建立查詢](ms-query-modeler.md)
 * [測試及驗證您的訊息](ms-proofs.md)
 * [排程並啟動您的行銷活動](start-monitor-campaigns.md)
-* 活動清單： [並加入](activities/and-join.md) - [建置對象](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [頻道動作](activities/channels.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [調解](activities/reconciliation.md) - [分割](activities/split.md) - [測試](activities/test.md) - [等待](activities/wait.md)
-* [報告](reporting-campaigns.md)
+* 活動： [開始使用活動](activities/about-activities.md)
+* [協調活動](orchestrate-activities.md)
+* [並加入](activities/and-join.md) - [建置對象](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [管道動作](activities/channels.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [調解](activities/reconciliation.md) - [分割](activities/split.md) - &lt;！—[測試](activities/test.md) —> [等待](activities/wait.md)
+* 監視： [報告](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
 
