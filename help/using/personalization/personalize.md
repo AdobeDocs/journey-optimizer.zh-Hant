@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: 運算式，編輯器，開始，個人化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: e19a85d05fcb7727c3086f16e2e4f066a5ecd55c
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 30%
+source-wordcount: '489'
+ht-degree: 26%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 30%
 
 使用&#x200B;**個人化編輯器**，您可以選取、排列、自訂及驗證所有資料，以建立您內容的自訂個人化，並利用各種工具（例如協助程式功能或預先定義的運算式）來有效地自訂訊息。
 
-Journey Optimizer採用以Handlebars為基礎的內嵌個人化語法，可讓您建立包含雙大括弧&#x200B;**{{}}**&#x200B;之內容的運算式。
+Journey Optimizer採用以Handlebars為基礎的內嵌個人化語法，可讓您建立包含雙大括弧&#x200B;**{{}}{{}}**&#x200B;之內容的運算式。
 
 處理訊息時，Journey Optimizer會以Experience Platform資料集中包含的資料取代運算式。 例如，`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`會動態變成`Hello John Doe`。
 
@@ -42,6 +42,16 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 您也可以運用&#x200B;**計算屬性**&#x200B;來個人化您的內容。 計算屬性可讓您將個別行為事件摘要為Adobe Experience Platform上可用的計算設定檔屬性。 [瞭解如何使用計算屬性](../audience/computed-attributes.md)
 
 此外，[!DNL Journey Optimizer]可讓您在個人化編輯器中運用Adobe Experience Platform的資料，來個人化您的內容。 若想這樣做，就必須先透過 API 呼叫，啟用查詢個人化所需的資料集。 完成後，您可以使用他們的資料在Journey Optimizer中個人化您的內容。 此功能目前在Beta版中提供。 [了解更多](../personalization/lookup-aep-data.md)
+
+## 學習並實驗個人化 {#playground}
+
+**[!DNL Adobe Journey Optimizer]**&#x200B;包含互動式工具，旨在協助您學習及實驗個人化功能。
+
+此遊樂場提供模擬環境，讓您使用範例資料來撰寫和測試個人化程式碼，而不需要即時資料集。 您可以運用預先定義的程式碼範例、編輯虛擬設定檔裝載，並即時預覽個人化程式碼的輸出。
+
+![個人化遊樂場](assets/playground.png)
+
+➡️[存取個人化遊樂場](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## 讓我們深入探討
 
