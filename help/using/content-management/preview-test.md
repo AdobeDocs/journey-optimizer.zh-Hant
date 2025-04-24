@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 98%
 >
 >* 當預覽訊息或傳送校樣時，只會顯示出設定檔個人化資料。 根據內容資料，例如事件資訊等個人化資料，只能在歷程的內容中測試。 了解如何在[這個使用案例](../personalization/personalization-use-case.md)中測試個人化。
 >
->* 針對包含多個條件變體的電子郵件來模擬或轉譯校樣時，Journey Optimizer 可能需要更多處理時間。 如果您遇到逾時或錯誤訊息，請考慮減少變體總數或簡化條件規則。 在[此頁面](../personalization/dynamic-content.md)上進一步瞭解條件式內容。
+>* 針對包含多個條件變體的電子郵件來模擬或轉譯校樣時，Journey Optimizer 可能需要更多處理時間。 如果您遇到逾時或錯誤訊息，請考慮減少變體總數或簡化條件規則。 請在[此頁面](../personalization/dynamic-content.md)深入了解相關內容。
 
 
 ## 使用測試設定檔或範例輸入資料來進行測試 {#methods}

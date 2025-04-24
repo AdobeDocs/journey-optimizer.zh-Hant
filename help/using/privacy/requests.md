@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 隱私請求
-description: 進一步瞭解隱私權請求和Privacy Service。
+title: 隱私權要求
+description: 了解有關隱私權請求和 Privacy Service 的更多資訊。
 feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 隱私權請求 {#track-changes}
+# 隱私權要求 {#track-changes}
 
 Adobe Experience Platform **Privacy Service** 提供 RESTful API 和使用者介面，幫助您管理客戶資料請求。 藉由 Privacy Service，您可以提交存取和刪除 Adobe Experience Cloud 應用程式中的個人客戶資料請求，協助促進法律資訊和組織隱私法規的自動合規性。
 

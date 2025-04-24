@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 開始使用隱私權
-description: 進一步瞭解Adobe Journey Optimizer和Adobe Experience Platform的隱私權。
+description: 深入了解 Adobe Journey Optimizer 和 Adobe Experience Platform 的隱私權。
 feature: Privacy, Consent Management
 role: User
 level: Intermediate
 exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

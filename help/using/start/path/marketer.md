@@ -8,9 +8,9 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 請參閱下列章節，以設定您的第一個歷程、新增產品建議及資產並傳送訊息：
 
-1. **建立客群**。Journey Optimizer 可讓您直接從&#x200B;**客群**&#x200B;選單，透過區段定義建立客群，並將其善用於歷程之中。 在此頁面](../../audience/about-audiences.md)上進一步瞭解對象[。 [在此範例中](../../audience/creating-a-segment-definition.md)探索如何建置區段定義。
+1. **建立客群**。Journey Optimizer 可讓您直接從&#x200B;**客群**&#x200B;選單，透過區段定義建立客群，並將其善用於歷程之中。 請[在此頁面](../../audience/about-audiences.md)了解更多有關客群的資訊。 [在此範例中](../../audience/creating-a-segment-definition.md)探索如何建置區段定義。
 
 1. **新增個人化及動態內容**。 利用 Journey Optimizer 個人化及動態內容功能，使您的訊息能與客群相符合。 深入瞭解[個人化](../../personalization/personalize.md)及[動態內容](../../personalization/get-started-dynamic-content.md)。
 

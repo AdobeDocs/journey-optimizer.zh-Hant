@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 96%
 
 本開發人員指南提供了協助您開始使用 [!DNL Offer Library] API 的步驟。 接著，本指南會提供範例 API 呼叫，用於使用決策引擎執行主要作業。
 
-➡️[在此影片中進一步了解決定管理的元件](#video)
+➡️ [了解更多此影片中的決策管理元件相關資訊](#video)
 
 ## 先決條件 {#prerequisites}
 

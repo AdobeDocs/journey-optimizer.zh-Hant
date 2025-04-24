@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -144,7 +144,7 @@ ht-degree: 98%
 </tbody>
 </table>
 
-### 改進項目 {#25-03-improv}
+### 功能改進 {#25-03-improv}
 
 **個人化編輯器** (推出日期：3 月 12 日)
 
@@ -186,7 +186,7 @@ ht-degree: 98%
 
 **業務規則**
 
-您現在可以在包含&#x200B;**批次**&#x200B;細分的歷程和行銷活動中，使用每日頻率上限。為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的命名空間。在[平台身分服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中進一步瞭解名稱空間優先順序
+您現在可以在包含&#x200B;**批次**&#x200B;細分的歷程和行銷活動中，使用每日頻率上限。為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的命名空間。在[平台身分服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}之中進一步了解命名空間優先順序
 
 **內容管理**
 

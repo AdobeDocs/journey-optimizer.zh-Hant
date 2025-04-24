@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2035'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 <td>
 <p>Adobe Journey Optimizer 現在支援 CNAME。 CNAME (正式名稱) 記錄是指向其他網域位址而非 IP 位址的記錄。 CNAME 子網域委派可讓您建立子網域，並使用 CNAME 指向 Adobe 特定記錄。 使用此設定，您和 Adobe 都有責任維護 DNS，針對電子郵件的傳送、轉譯和追蹤設定環境。</p>
 <p>如果貴司的原則限制完整的子網域委派法，則建議使用此方法。</p>
-<p>在<a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation">詳細檔案</a>中進一步瞭解CNAME子網域委派。</p>
+<p>如需 CNAME 子網域委派的詳細資訊，請參閱<a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -79,7 +79,7 @@ ht-degree: 99%
 
 另請參閱 [Adobe Experience Platform 10 月發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=zh-Hant){target="_blank"}以瞭解更多變更。
 
-### 改進項目
+### 功能改進
 
 **歷程**
 
@@ -157,7 +157,7 @@ ht-degree: 99%
 </tbody>
 </table>
 
-### 改進項目
+### 功能改進
 
 **歷程**
 
@@ -260,7 +260,7 @@ ht-degree: 99%
 </table>
 
 
-### 改進項目
+### 功能改進
 
 **歷程**
 
@@ -337,7 +337,7 @@ ht-degree: 99%
 </tbody>
 </table>
 
-### 改進項目
+### 功能改進
 
 **歷程**
 

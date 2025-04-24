@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 資料，管理，平台
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 99%
 
 * **清除與封存機制**：資料清除和封存可自由定義，並可在 [!DNL Adobe Journey Optimizer] 自動化， 以自動化資料保留原則。 您可以為不同的資料實體定義不同的老化策略。 也可以定義匯出機制，在清除或封存過時資料之前自動匯出資料。
 
-  資料生命週期工作區可讓您建立及監控各種資料生命週期工作，包括刪除消費者身分識別和排程資料集期限。 此工作區可與安全和隱私保護以及醫療保健一起使用。 在[此頁面](../privacy/data-hygiene.md)瞭解更多資訊。
+  資料生命週期工作區可讓您建立及監控各種資料生命週期工作，包括刪除消費者身分識別和排程資料集期限。 此工作區可與安全和隱私保護以及醫療保健一起使用。 請在[此頁面](../privacy/data-hygiene.md)了解更多。
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

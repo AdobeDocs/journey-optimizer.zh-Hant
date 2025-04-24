@@ -10,9 +10,9 @@ level: Beginner
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -61,8 +61,8 @@ ht-degree: 96%
 
 +++
 
-1. **您需要客群**。建立行銷活動之前必須有可用的客群。 在此頁面](../audience/about-audiences.md)上進一步瞭解對象[。
-1. **需要管道設定**。若要選取管道，您必須建立相對應的管道設定 (即預設)，使其可供使用。在此頁面](../configuration/channel-surfaces.md)上進一步瞭解通道設定[。
+1. **您需要客群**。建立行銷活動之前必須有可用的客群。 請[在此頁面](../audience/about-audiences.md)了解更多有關客群的資訊。 
+1. **需要管道設定**。若要選取管道，您必須建立相對應的管道設定 (即預設)，使其可供使用。請[在此頁面](../configuration/channel-surfaces.md)深入了解管道設定。
 
 ## 操作說明影片 {#video}
 

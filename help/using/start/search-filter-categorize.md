@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 98%
 
 ### 管理標籤 {#manage-tags}
 
-管理員可利用&#x200B;**[!UICONTROL 管理]**&#x200B;下方的&#x200B;**[!UICONTROL 標籤]**&#x200B;選單來刪除標籤，並依類別進行管理。在[整合標籤檔案](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=zh-Hant)中進一步瞭解標籤管理。
+管理員可利用&#x200B;**[!UICONTROL 管理]**&#x200B;下方的&#x200B;**[!UICONTROL 標籤]**&#x200B;選單來刪除標籤，並依類別進行管理。請參閱[統一標籤文件](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=zh-Hant)，深入了解標籤管理。
 
 >[!NOTE]
 >

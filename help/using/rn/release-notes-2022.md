@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3598'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 99%
 
 -->
 
-### 改進項目 {#oct-2022-improvements}
+### 功能改進 {#oct-2022-improvements}
 
 **歷程**
 
@@ -207,7 +207,7 @@ ht-degree: 99%
 </tbody>
 </table-->
 
-### 改進項目{#sept-2022-improvements}
+### 功能改進{#sept-2022-improvements}
 
 **歷程**
 
@@ -223,7 +223,7 @@ ht-degree: 99%
 
 **稽核控制**
 
-* 使用 Journey Optimizer，您可以識別系統中的使用者對各種服務和功能（如行銷活動、歷程、訊息、登陸頁面）執行的動作。稽核記錄資源現在包含對各種其他動作的變更，並會在活動發生時自動記錄。 在此頁面](../privacy/audit-logs.md)瞭解更多[。
+* 使用 Journey Optimizer，您可以識別系統中的使用者對各種服務和功能（如行銷活動、歷程、訊息、登陸頁面）執行的動作。稽核記錄資源現在包含對各種其他動作的變更，並會在活動發生時自動記錄。 請在[此頁面](../privacy/audit-logs.md)深入了解。
 
 **封存支援**
 
@@ -302,7 +302,7 @@ ht-degree: 99%
 </table-->
 
 
-### 改進項目
+### 功能改進
 
 **報告**
 
@@ -388,7 +388,7 @@ ht-degree: 99%
 </tbody>
 </table>
 
-### 改進項目
+### 功能改進
 
 **歷程**
 
@@ -508,7 +508,7 @@ ht-degree: 99%
 
 
 
-### 改進項目
+### 功能改進
 
 **決策管理**
 
@@ -600,7 +600,7 @@ ht-degree: 99%
 </tbody>
 </table>
 
-### 改進項目
+### 功能改進
 
 **個人化**
 
@@ -625,7 +625,7 @@ ht-degree: 99%
 
 ## 2022 年 4 月發行版本 {#april-2022-release}
 
-### 改進項目
+### 功能改進
 
 **登陸頁面**
 
@@ -663,7 +663,7 @@ ht-degree: 99%
 
 ## 2022 年 3 月發行 {#march-2022-release}
 
-### 改進項目
+### 功能改進
 
 **歷程**
 
@@ -756,7 +756,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 </tbody>
 </table>
 
-### 改進項目
+### 功能改進
 
 **歷程**
 
@@ -813,7 +813,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 </tbody>
 </table>
 
-### 改進項目
+### 功能改進
 
 **歷程**
 
