@@ -271,7 +271,7 @@ ht-degree: 99%
 </tbody>
 </table>
 
-### 改進項目 {#24-10-improvements}
+### 功能改進 {#24-10-improvements}
 
 此發行版本隨附下列改進項目。
 
@@ -471,7 +471,7 @@ ht-degree: 99%
 </table>
 
 
-### 改進項目 {#24-9-improvements}
+### 功能改進 {#24-9-improvements}
 
 此發行版本隨附下列改進項目。
 
@@ -624,7 +624,7 @@ ht-degree: 99%
 </tbody>
 </table>
 
-### 改進項目 {#8-improvements}
+### 功能改進 {#8-improvements}
 
 此發行版本隨附下列改進項目。
 
@@ -693,7 +693,7 @@ ht-degree: 99%
 </tbody>
 </table>
 
-### 改進項目 {#27-4-improvements}
+### 功能改進 {#27-4-improvements}
 
 此發行版本隨附下列改進項目。
 
@@ -811,7 +811,7 @@ ht-degree: 99%
 </tbody>
 </table-->
 
-### 改進項目 {#june24-improvements}
+### 功能改進 {#june24-improvements}
 
 此發行版本隨附下列改進項目。
 
@@ -973,7 +973,7 @@ ht-degree: 99%
 </tbody>
 </table-->
 
-### 改進項目 {#e-improvements}
+### 功能改進 {#e-improvements}
 
 此發行版本隨附下列改進項目。
 
@@ -1103,7 +1103,7 @@ ht-degree: 99%
 </tbody>
 </table-->
 
-### 改進項目 {#apr-improvements}
+### 功能改進 {#apr-improvements}
 
 此發行版本隨附下列改進項目。
 
@@ -1165,7 +1165,7 @@ ht-degree: 99%
 </tbody>
 </table>
 
-### 改進項目 {#mar-improvements}
+### 功能改進 {#mar-improvements}
 
 此發行版本隨附下列改進項目。
 
@@ -1230,7 +1230,7 @@ ht-degree: 99%
 </table>
 
 
-### 改進項目 {#feb-improvements}
+### 功能改進 {#feb-improvements}
 
 此發行版本隨附下列改進項目。
 
@@ -1314,7 +1314,7 @@ ht-degree: 99%
 </tbody>
 </table>
 
-### 改進項目 {#jan24-improvements}
+### 功能改進 {#jan24-improvements}
 
 此發行版本隨附下列改進項目。
 

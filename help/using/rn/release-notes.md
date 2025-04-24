@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 66%
+ht-degree: 94%
 
 ---
 
@@ -35,9 +35,9 @@ ht-degree: 66%
 <tbody>
 <tr>
 <td>
-<p>歷程量度現已推出，可讓您透過關鍵業務量度測量活動的影響，並針對您的績效提供更清楚的深入分析。</p>
+<p>歷程量度現已推出，可讓您衡量您的活動對業務關鍵指標的影響，並針對您的績效提供更清楚的深入分析。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/success-metrics.md">詳細文件</a>。</p>
-<p>推出日期： 2025年4月9日</p>
+<p>推出日期： 2025 年 4 月 9 日</p>
 </br>
 <img src="assets/do-not-localize/success-metric.gif"/>
 </td>
@@ -45,27 +45,27 @@ ht-degree: 66%
 </tbody>
 </table>
 
-### 改進項目 {#25-04-improv}
+### 功能改進 {#25-04-improv}
 
-* **沙箱工具** — 推出日期： 2025年4月3日
+* **沙箱工具** — 推出日期： 2025 年 4 月 3 日
 
-  您現在可以使用套件匯出和匯入功能，跨多個沙箱複製行銷活動。 行銷活動會連同與設定檔、對象、結構、內嵌訊息和相依物件相關的所有專案一起複製。 有些專案不會複製，例如決定專案、資料使用標籤和語言設定。 [閱讀全文](../configuration/copy-objects-to-sandbox.md)
+  您現在可以使用套件匯出和匯入功能，跨多個沙箱複製行銷活動。 行銷活動會連同與輪廓、對象、結構描述、內嵌訊息以及從屬物件相關的所有項目一起複製。 有些項目不會複製，例如決定項目、資料使用標籤及語言設定。 [閱讀全文](../configuration/copy-objects-to-sandbox.md)
 
-* **Personalization** — 推出日期： 2025年4月2日
+* **個人化** — 推出日期： 2025 年 4 月 2 日
 
-  個人化編輯器中的屬性窗格現在預設只會顯示已填入的屬性。 若要檢視所有屬性，請使用設定按鈕來關閉&#x200B;**[!UICONTROL 僅顯示填入的屬性]**&#x200B;選項。 [閱讀全文](../personalization/personalization-build-expressions.md)
+  個人化編輯器的屬性窗格，現在預設僅顯示已填入的屬性。 若要檢視所有屬性，請使用設定按鈕來關閉&#x200B;**[!UICONTROL 僅顯示填入的屬性]**&#x200B;選項。 [閱讀全文](../personalization/personalization-build-expressions.md)
 
-* **內容管理** — 推出日期： 2025年4月2日
+* **內容管理** — 推出日期： 2025 年 4 月 2 日
 
-  為了輕鬆管理您的內容範本和片段，您現在可以使用資料夾將它們更有效地組織到結構化的階層中。 請在[內容範本](../content-management/access-content-templates.md#folders)和[片段](../content-management/manage-fragments.md#folders)一節瞭解更多資訊。
+  為了輕鬆管理您的內容範本與片段，您現在可以使用資料夾將其更有效地整理至結構化階層之中。請在[內容範本](../content-management/access-content-templates.md#folders)和[片段](../content-management/manage-fragments.md#folders)一節瞭解更多資訊。
 
   >[!AVAILABILITY]
   >
   >此改善功能僅適用於一組組織 (有限可用性)。
 
-* **電子郵件Designer** — 推出日期： 2025年4月1日
+* **電子郵件設計工具** — 推出日期： 2025 年 4 月 1 日
 
-  為了增強Journey Optimizer的協助工具，電子郵件Designer現在提供兩個新欄位：它們對應至電子郵件內容`<html>`元素中的`<title>`元素和`lang`屬性。 除了電子郵件&#x200B;**[!UICONTROL 內文]**&#x200B;區段中的&#x200B;**[!UICONTROL Preheader]**&#x200B;欄位外，您還可以定義這些設定。 [閱讀全文](../email/email-metadata.md)
+  為了增強 Journey Optimizer 協助工具，電子郵件設計工具現在提供兩個新欄位：它們對應至電子郵件內容 `<html>` 元素中的 `<title>` 元素和 `lang` 屬性。 除了電子郵件&#x200B;**[!UICONTROL 內文]**&#x200B;區段的&#x200B;**[!UICONTROL 預覽文字]**&#x200B;欄位外，您還可以定義這些設定。 [閱讀全文](../email/email-metadata.md)
 
 
 ## 2025 年 3 月發行說明 {#25-3-rn}
@@ -175,13 +175,13 @@ ht-degree: 66%
 <table>
 <thead>
 <tr>
-<th><strong>彈性的對象評估(GA)</strong><br/></th>
+<th><strong>彈性客群評估限制 (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>先前可供一組組織(LA)使用，現在所有使用者均可使用(GA)彈性對象評估。 此功能可讓您依需求針對選取的對象執行細分工作，在將其鎖定目標至Journey Optimizer歷程和行銷活動之前，確保您始終擁有最新的對象資料。</p>
+<p>靈活的受眾評估以前僅供一組組織 (LA) 使用，現在可供所有使用者 (GA) 使用。此功能可讓您根據需要針對選定的客群執行細分工作，確保在將客群鎖定目標至 Journey Optimizer 歷程和行銷活動之前，始終擁有最新的客群資料。</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>如需詳細資訊，請參閱<a href="../audience/creating-a-segment-definition.md#flexible">詳細文件</a>。</p>
 </tr>
@@ -207,7 +207,7 @@ ht-degree: 66%
 </table-->
 
 
-### 改進項目 {#25-03-improv}
+### 功能改進 {#25-03-improv}
 
 **個人化編輯器** (推出日期：3 月 12 日)
 

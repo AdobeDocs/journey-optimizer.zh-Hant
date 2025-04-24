@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
 source-wordcount: '1440'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -253,8 +253,8 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
->title="練習您的歷程"
->abstract="設計歷程後，請執行試執行以確認其運作正常，並確保步驟正確。 此發佈模式可讓您煙霧測試歷程，而不傳送通訊給任何設定檔。"
+>title="模擬演練您的歷程"
+>abstract="設計歷程後，請進行模擬演練執行來確認其運作正常，確保步驟正確。 此發布模式可讓您煙霧測試歷程，無需傳送通訊給任何輪廓。"
 
 
 
@@ -263,4 +263,4 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
 >title="定義決定原則"
->abstract="決策原則可讓您從決策引擎中挑選最佳專案，並將其傳送給適當的對象。"
+>abstract="您可以利用決定原則，從決定引擎中挑選最佳項目，並將其傳遞給合適的客群。"

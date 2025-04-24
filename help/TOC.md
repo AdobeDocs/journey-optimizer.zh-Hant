@@ -19,7 +19,7 @@ ht-degree: 88%
    + [早期發行說明](using/rn/e-release-notes.md)
    + [最新發行說明](using/rn/release-notes.md)
    + 舊版發行說明 {#previous-rn-new}
-      + [2025](using/rn/release-notes-2025.md)
+      + [2025 版](using/rn/release-notes-2025.md)
       + [2024 年](using/rn/release-notes-2024.md)
       + [2023 版](using/rn/release-notes-2023.md)
       + [2022 版](using/rn/release-notes-2022.md)
@@ -68,7 +68,7 @@ ht-degree: 88%
       + [客群資格篩選](using/building-journeys/audience-qualification-events.md)
       + [條件](using/building-journeys/condition-activity.md)
       + [等待](using/building-journeys/wait-activity.md)
-      + [讀取客群](using/building-journeys/read-audience.md)
+      + [讀取對象](using/building-journeys/read-audience.md)
       + [內建管道動作](using/building-journeys/journeys-message.md)
       + [自訂動作](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 動作](using/building-journeys/using-adobe-campaign-standard.md)
@@ -762,7 +762,7 @@ ht-degree: 88%
    + [物件等級存取控制](using/administration/object-based-access.md)
 + 隱私權 {#privacy}
    + [開始使用隱私權](using/privacy/get-started-privacy.md)
-   + [隱私權請求](using/privacy/requests.md)
+   + [隱私權要求](using/privacy/requests.md)
    + [針對資源的稽核動作](using/privacy/audit-logs.md)
    + [執行資料生命週期作業](using/privacy/data-hygiene.md)
    + 管理同意 {#consent}
