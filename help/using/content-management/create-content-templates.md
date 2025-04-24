@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 15%
+source-wordcount: '633'
+ht-degree: 16%
 
 ---
 
@@ -38,6 +38,10 @@ ht-degree: 15%
 
 ## 從頭開始建立範本 {#create-template-from-scratch}
 
+>[!NOTE]
+>
+>自2025年3月起，HTML型別內容範本已棄用。 您仍然可以使用先前在[!DNL Journey Optimizer]中建立的現有HTML內容範本。
+
 若要從頭開始建立內容範本，請遵循下列步驟。
 
 1. 透過&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 內容範本]**&#x200B;左側功能表存取內容範本清單。
@@ -51,14 +55,6 @@ ht-degree: 15%
    >[!NOTE]
    >
    >目前除了Web之外，所有管道皆可使用。
-
-1. 為選取的頻道選擇&#x200B;**[!UICONTROL 型別]**。
-
-   ![](assets/content-template-type.png)
-
-   * 針對&#x200B;**[!UICONTROL 電子郵件]**，如果您選取&#x200B;**[!UICONTROL 內容]**，您可以將[主旨列](../email/create-email.md#define-email-content)定義為範本的一部分。 如果您選取&#x200B;**[!UICONTROL HTML]**，則只能定義電子郵件內文的內容。
-
-   * 對於&#x200B;**[!UICONTROL SMS]**、**[!UICONTROL 推播]**、**[!UICONTROL 應用程式內]**&#x200B;和&#x200B;**[!UICONTROL 直接郵件]**，目前頻道僅可使用預設型別。 您仍需要選取它。
 
 1. 從&#x200B;**[!UICONTROL 標籤]**&#x200B;欄位選取或建立Adobe Experience Platform標籤，將範本分類以改善搜尋。 [了解更多](../start/search-filter-categorize.md#tags)
 
@@ -75,7 +71,7 @@ ht-degree: 15%
    * [定義直接郵件內容](../direct-mail/create-direct-mail.md)
    * [定義應用程式內內容](../in-app/design-in-app.md)
 
-1. 如果您正在建立&#x200B;**[!UICONTROL HTML]**&#x200B;型別的&#x200B;**[!UICONTROL 電子郵件]**&#x200B;範本，您可以測試您的內容。 [了解作法](#test-template)
+1. 您可以測試內容。 [了解作法](#test-template)
 
 1. 範本準備就緒後，請按一下[儲存]。****
 
@@ -110,7 +106,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >目前的管道和型別會自動填入，且無法編輯。 對於從[電子郵件Designer](../email/get-started-email-design.md)建立的電子郵件範本，**[!UICONTROL HTML]**&#x200B;型別會自動選取。
+   >目前的管道會自動填入，且無法編輯。
 
 1. 從&#x200B;**標籤**&#x200B;欄位選取或建立Adobe Experience Platform標籤，以將您的範本分類。 [了解更多](../start/search-filter-categorize.md#tags)
 

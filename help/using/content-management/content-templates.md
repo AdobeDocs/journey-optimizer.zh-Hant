@@ -8,15 +8,19 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 7%
+source-wordcount: '236'
+ht-degree: 6%
 
 ---
 
 
 # 開始使用內容範本 {#content-templates}
+
+>[!NOTE]
+>
+>自2025年3月起，HTML型別內容範本已棄用。 您仍然可以使用先前在[!DNL Journey Optimizer]中建立的現有HTML內容範本。
 
 為了加快並改善設計流程，您可以建立獨立的範本，以輕鬆地在[!DNL Journey Optimizer]個行銷活動和歷程中重複使用自訂內容。
 

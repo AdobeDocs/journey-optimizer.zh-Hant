@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '647'
 ht-degree: 3%
 
 ---
@@ -43,6 +43,10 @@ ht-degree: 3%
 您也可以選擇只顯示您自己建立或修改的專案。
 
 ![](assets/content-template-list-filters.png)
+
+>[!NOTE]
+>
+>自2025年3月起，HTML型別內容範本已棄用。 您仍可存取先前在[!DNL Journey Optimizer]中建立的現有HTML內容範本。
 
 ## 使用資料夾管理內容範本 {#folders}
 
@@ -96,19 +100,19 @@ ht-degree: 3%
 >
 >編輯或刪除範本時，使用此範本建立的行銷活動或歷程（包括內容）不受影響。
 
-## [!BADGE 可用性限制]{type=Informative}將範本顯示為縮圖 {#template-thumbnails}
+## [!BADGE 有限可用性]{type=Informative}將範本顯示為縮圖 {#template-thumbnails}
 
 選取&#x200B;**[!UICONTROL 格線檢視]**&#x200B;模式，將每個範本顯示為縮圖。
 
 >[!AVAILABILITY]
 >
-此功能以可用性限制 (LA) 形式向一小部分客戶發行。
+>此功能以可用性限制 (LA) 形式向一小部分客戶發行。
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
-目前只能為HTML型別產生適當的縮圖 email 內容範本。
+>目前只能為HTML型別的電子郵件內容範本產生適當的縮圖。
 
 更新內容時，您可能需要等候幾秒鐘，變更才會反映在縮圖中。
 
