@@ -10,7 +10,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
 source-wordcount: '2050'
-ht-degree: 34%
+ht-degree: 37%
 
 ---
 
@@ -51,12 +51,12 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
 >title="擴充資料"
->abstract="選取要用來擴充您協調之行銷活動的資料。 您可以選取兩種類型的擴充資料：目標維度中的單一擴充屬性，或集合連結 (即表格之間具有 1-N 基數的連結)。"
+>abstract="選取要用於擴充協調的行銷活動的資料。您可以選取兩種類型的擴充資料：目標維度中的單一擴充屬性，或集合連結 (即表格之間具有 1-N 基數的連結)。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
 >title="擴充活動"
->abstract="擴充資料新增至協調的行銷活動後，就可在擴充活動後新增的活動中使用，以根據客戶行為、偏好和需求將客戶劃分為不同的群組，或建立更可能引起目標對象共鳴的個人化行銷訊息和行銷活動。"
+>abstract="將擴充資料新增至協調的行銷活動後，在擴充活動之後新增的活動中便可以使用擴充資料，根據客戶的行為、偏好和需求將客戶細分成不同群組，或是用於建立最有可能讓目標客群產生共鳴的個人化行銷訊息和行銷活動。"
 
 1. 按一下&#x200B;**新增擴充資料**，並選取要用來擴充資料的屬性。
 

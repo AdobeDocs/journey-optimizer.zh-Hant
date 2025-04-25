@@ -10,7 +10,7 @@ exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 25%
+ht-degree: 30%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
 >title="協調的行銷活動"
->abstract="在此畫面中，您可以存取協調行銷活動的完整清單、檢查其目前狀態、上次/下次執行日期，以及建立新的協調行銷活動。"
+>abstract="在此畫面中，您可以存取協調的行銷活動的完整清單、檢查其目前狀態、上次/下次執行日期，並建立新的協調的行銷活動。"
 
 透過Adobe Journey Optimizer，您可以將協調的行銷活動建置到視覺畫布中，以設計跨管道流程，例如細分、行銷活動執行、檔案處理。
 
 ## 策劃的行銷活動內含哪些內容？ {#gs-ms-campaign-inside}
 
-精心安排的行銷活動畫布可呈現預期的情形。 它會說明要執行的各種任務以及任務如何連結在一起。
+精心安排的行銷活動畫布可呈現預期的情形。 其會說明要執行的各種任務以及任務如何連結在一起。
 
 ![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
 

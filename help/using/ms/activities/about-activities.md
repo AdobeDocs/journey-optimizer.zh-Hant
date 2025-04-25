@@ -10,7 +10,7 @@ exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 source-git-commit: b620d479548791df97912b143e7dbe7557ab4acc
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 27%
+ht-degree: 31%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Journey Optimizer可讓您跨多個管道自動執行行銷活動。 您�
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="結束活動"
->abstract="**End**&#x200B;活動可讓您以圖形方式標示已協調行銷活動的結尾。 此活動並不會造成功能性影響，因此為選用。"
+>abstract="**結束**&#x200B;活動讓您可以用圖形方式標記協調的行銷活動之結束。此活動並不會造成功能性影響，因此為選用。"
 
 ![流量控制活動清單](../assets/flow-control-activities.png){width="30%" align="left"}
 

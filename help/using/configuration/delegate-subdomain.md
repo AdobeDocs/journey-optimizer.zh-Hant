@@ -12,7 +12,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
 source-wordcount: '2009'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 20%
 >
 >[!DNL Journey Optimizer]不支援同時提交子網域。 如果您嘗試在其他子網域處於&#x200B;**[!UICONTROL 處理]**&#x200B;狀態時提交子網域以進行委派，您會收到錯誤訊息。
 
-## 將子網域完全委派給Adobe {#full-subdomain-delegation}
+## 將子網域完全委派給 Adobe {#full-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
@@ -108,7 +108,7 @@ ht-degree: 20%
 在[!DNL Journey Optimizer]中將子網域委派給Adobe後，系統會自動建立PTR記錄並與此子網域建立關聯。 [了解更多](ptr-records.md)
 
 
-## 設定具有CNAME的子網域 {#cname-subdomain-delegation}
+## 使用 CNAME 設定子網域 {#cname-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
@@ -209,7 +209,7 @@ CNAME子網域設定可讓您建立子網域，並使用CNAME指向Adobe特定�
 
 1. **建立轉送DNS**：如果這是您委派的第一個子網域，Adobe將建立建立PTR記錄所需的轉送DNS — 每個IP各一個。
 
-1. **建立PTR記錄**： ISP需要PTR記錄（也稱為反向DNS記錄），以免將電子郵件標示為垃圾郵件。 Gmail也建議每個IP都有PTR記錄。 Adobe只會在您第一次委派子網域時建立PTR記錄，每個IP各一個，所有IP都指向該子網域。 例如，如果IP是&#x200B;*192.1.2.1*&#x200B;且子網域是&#x200B;*email.example.com*，則PTR記錄將是： *192.1.2.1PTR r1.email.example.com*。 您之後可以更新PTR記錄，以指向新的委派網域。 [進一步瞭解PTR記錄](ptr-records.md)
+1. **建立PTR記錄**： ISP需要PTR記錄（也稱為反向DNS記錄），以免將電子郵件標示為垃圾郵件。 Gmail也建議每個IP都有PTR記錄。 Adobe只會在您第一次委派子網域時建立PTR記錄，每個IP各一個，所有IP都指向該子網域。 例如，如果IP是&#x200B;*192.1.2.1*&#x200B;且子網域是&#x200B;*email.example.com*，則PTR記錄將是： *192.1.2.1PTR r1.email.example.com*。 您之後可以更新PTR記錄，以指向新的委派網域。 [進一步了解 PTR 記錄](ptr-records.md)
 
 ## 取消委派子網域 {#undelegate-subdomain}
 
