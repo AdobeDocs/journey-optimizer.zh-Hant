@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3f64d497b304e513fa439a9bc4f1c9c0a58b2224
+source-git-commit: 6fbae788495ac97fae1a511a99e773eba718e11a
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '956'
 ht-degree: 16%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>Campaign和歷程詳細目錄的行事曆檢視（可用性限制）</strong><br/></th>
+<th><strong>行銷活動和歷程詳細目錄的行事曆檢視（可用性限制）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -127,7 +127,7 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>自備簡訊提供者（一般可用性）</strong><br/></th>
+<th><strong>自備簡訊提供者（全面發佈）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -217,7 +217,7 @@ ht-degree: 16%
 
 **客群**
 
-- **移除擴充屬性的限制**
+- **移除對象組合擴充屬性的限制**
 
   現在可搭配Healthcare Shield或Privacy and Security Shield使用受眾構成中的受眾和屬性。
 
@@ -233,11 +233,11 @@ ht-degree: 16%
 
 **沙箱工具**
 
-- **決策沙箱副本**
+- **決策沙箱復本**
 
   現在可以在沙箱之間複製決策物件，簡化測試和部署工作流程。
 
-- 自訂動作的&#x200B;**沙箱工具**
+- **自訂動作的沙箱工具**
 
   自訂動作現在包含在可以使用沙箱工具功能複製的Adobe Journey Optimizer物件清單中，以簡化測試和部署。
 
@@ -247,11 +247,11 @@ ht-degree: 16%
 
 **個人化**
 
-- **Personalization Editor - Pills啟動**
+- **藥丸啟用**
 
   個人化編輯器新增了「藥丸」按鈕。啟用後，個人資料和內容屬性都會以藥丸形式顯示，增強代碼的可讀性。
 
-- **Personalization — 可觀察的結構描述**
+- **屬性窗格中的已填入屬性**
 
   個人化編輯器的屬性窗格，現在預設僅顯示已填入的屬性。 若要檢視所有屬性，請使用設定按鈕來關閉「只顯示填入的屬性」選項。
 
@@ -275,7 +275,7 @@ ht-degree: 16%
 
   為了輕鬆管理您的登入頁面，您現在也可以使用資料夾，以更有效的方式將其組織到簡化的階層中。
 
-- 行銷活動清單中的&#x200B;**右側邊欄**
+- **行銷活動清單中的右側邊欄**
 
   已新增右側邊欄至行銷活動清單，以在選取行銷活動時提供詳細資訊。
 
