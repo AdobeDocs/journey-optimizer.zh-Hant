@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b79ab63dfefde9df1b4991ed3a81f1d61bc4bb96
+source-git-commit: b7549bb2ec9e3af4c08def9d46cde0b574df3d3a
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 12%
+source-wordcount: '918'
+ht-degree: 17%
 
 ---
 
@@ -37,13 +37,13 @@ ht-degree: 12%
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Express整合(LA)</strong><br/></th>
+<th><strong>Adobe Express整合（可用性限制）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer現在與Adobe Express整合，讓使用者能夠透過journey orchestration順暢地連線其創意資產。 此整合可簡化跨行銷活動設計和部署個人化內容的程式。 此功能目前處於「有限可用性」。</p>
+<p>Adobe Journey Optimizer現在與Adobe Express整合，可讓您透過journey orchestration順暢地連線創意資產。 此整合可簡化跨行銷活動設計和部署個人化內容的程式。 此功能目前處於「有限可用性」。</p>
 </td>
 </tr>
 </tbody>
@@ -52,13 +52,13 @@ ht-degree: 12%
 <table>
 <thead>
 <tr>
-<th><strong>Campaign和Journey Inventory (LA)的日曆檢視</strong><br/></th>
+<th><strong>Campaign和歷程詳細目錄的行事曆檢視（可用性限制）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>新的行事曆檢視現在可用於行銷活動和歷程啟用。 此功能可提供排程活動的視覺化呈現，讓使用者更有效率地檢視和管理其行銷活動和歷程。 選取行事曆專案會開啟右側邊欄，其中包含詳細資訊。 此功能目前處於「有限可用性」。</p>
+<p>新的行事曆檢視現在可用於行銷活動和歷程啟用。 此功能可提供排程活動的視覺化呈現，讓您更有效地檢視和管理您的行銷活動和歷程。 選取行事曆專案會開啟右側邊欄，其中包含詳細資訊。 此功能目前處於「有限可用性」。</p>
 </td>
 </tr>
 </tbody>
@@ -88,7 +88,7 @@ ht-degree: 12%
 <tbody>
 <tr>
 <td>
-<p>Experience League現在提供互動式Personalization遊樂場。 此功能可讓使用者探索Adobe Journey Optimizer並練習個人化功能。 使用者可以撰寫個人化程式碼、使用範例負載進行測試，並模擬真實情境以增強其學習體驗。</p>
+<p>Experience League現在提供互動式Personalization遊樂場。 此功能可讓您在Adobe Journey Optimizer中探索及練習個人化功能。 您可以撰寫個人化程式碼、使用範例負載進行測試，並模擬真實情境以增強您的學習體驗。</p>
 </td>
 </tr>
 </tbody>
@@ -97,13 +97,13 @@ ht-degree: 12%
 <table>
 <thead>
 <tr>
-<th><strong>批次對象評估(LA)後觸發歷程執行</strong><br/></th>
+<th><strong>批次細分完成後觸發每日歷程執行（可用性限制）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>使用者現在可指定時段，以等待讀取對象節點中的批次對象重新評估。 如果評估在視窗內完成，則會觸發歷程；否則，則會略過歷程。 此功能解決批次分段工作的延遲問題，目前處於「有限可用性」。</p>
+<p>對於每日排程的歷程，新選項可讓您定義最多6小時的時間範圍，以等待批次分段工作的對象資料，確保歷程以最新資料執行，如果未準備就緒則予以跳過。 批次對象評估後觸發選項僅適用於一組組織（可用性限制）。 若要取得存取權，請聯絡您的 Adobe 代表。</p>
 </td>
 </tr>
 </tbody>
@@ -112,13 +112,13 @@ ht-degree: 12%
 <table>
 <thead>
 <tr>
-<th><strong>次世代校訂(GA)</strong><br/></th>
+<th><strong>模擬內容變化（一般可用性）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>新一代校訂功能現已正式推出。 此增強功能支援內容屬性、多語言內容、實驗和內容範本，提供更強大且彈性的校訂體驗。</p>
+<p>先前提供測試版的內容變異模擬現在為一般可用(GA)。 它可讓您使用從CSV或JSON檔案上傳或手動新增的範例輸入資料，預覽內容的不同變體。 系統會自動偵測您在內容中用於個人化的所有屬性，這些屬性可用於測試以建立多個變體。</p>
 </td>
 </tr>
 </tbody>
@@ -127,13 +127,13 @@ ht-degree: 12%
 <table>
 <thead>
 <tr>
-<th><strong>自備簡訊提供者(GA)</strong><br/></th>
+<th><strong>自備簡訊提供者（一般可用性）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer現在支援自訂SMS提供者，讓使用者可整合他們偏好的SMS服務，以提升通訊彈性。</p>
+<p>Adobe Journey Optimizer現在支援自訂SMS提供者，可讓您整合您偏好的SMS服務，以提升通訊彈性。</p>
 </td>
 </tr>
 </tbody>
@@ -219,7 +219,7 @@ ht-degree: 12%
 
 - **移除擴充屬性的限制**
 
-  擁有醫療保健和隱私權盾牌的客戶現在可以在Adobe Journey Optimizer管道中使用對象構成擴充屬性，增強資料使用功能。
+  現在可搭配Healthcare Shield或Privacy and Security Shield使用受眾構成中的受眾和屬性。
 
 **電子郵件頻道**
 
@@ -234,13 +234,13 @@ ht-degree: 12%
 
 - **[包含主題的Beta]電子郵件編輯器改良**
 
-  新的Beta版功能為電子郵件編輯器引進了主題，可讓行銷人員定義可重複使用的樣式，並使用預先設定的模組更快地建置電子郵件。
+  新的Beta版功能為電子郵件編輯器引進了主題，可讓您定義可重複使用的樣式，並使用預先設定的模組更快地建置電子郵件。
 
 **沙箱工具**
 
 - **決策沙箱副本**
 
-  現在可以在沙箱之間複製決策物件，簡化測試和部署工作流程。 決策物件的專屬子區段將新增到檔案中。
+  現在可以在沙箱之間複製決策物件，簡化測試和部署工作流程。
 
 - 自訂動作的&#x200B;**沙箱工具**
 
@@ -254,11 +254,11 @@ ht-degree: 12%
 
 - **Personalization Editor - Pills啟動**
 
-  個人化編輯器中的新按鈕可讓使用者開啟或關閉藥丸。 此功能可去除編輯器中的雜訊，並可讓您更輕鬆地編輯Dynamic Media影像引數和設定檔屬性。
+  個人化編輯器新增了「藥丸」按鈕。啟用後，個人資料和內容屬性都會以藥丸形式顯示，增強代碼的可讀性。
 
 - **Personalization — 可觀察的結構描述**
 
-  個人化編輯器中新增了可觀察的結構描述支援，可進行結構描述型屬性的動態更新。
+  個人化編輯器的屬性窗格，現在預設僅顯示已填入的屬性。 若要檢視所有屬性，請使用設定按鈕來關閉「只顯示填入的屬性」選項。
 
 - **新的系統內容變數**
 
@@ -270,7 +270,7 @@ ht-degree: 12%
 
 - **AI模型 — 統一排名 — 新的公式產生器**
 
-  行銷人員現在可以使用新的公式產生器，調整Adobe Decisioning AI模型的即時分數。 此功能會集中處理優先順序和模型分數的排名調整。
+  您現在可以使用新的公式產生器調整Adobe Decisioning AI模型的即時分數。 此功能會集中處理優先順序和模型分數的排名調整。
 
 **導覽**
 
@@ -296,6 +296,6 @@ ht-degree: 12%
 
 **教戰手冊**
 
-- **[Beta]建立您自己的教戰手冊**
+- **建立您自己的教戰手冊(Beta)**
 
-  使用者現在可以在Adobe Journey Optimizer中建立自己的教戰手冊，在歷程規劃中實現更好的自訂和靈活性。
+  您現在可以在Adobe Journey Optimizer中建立自己的教戰手冊，在歷程規劃中啟用更好的自訂和彈性。
