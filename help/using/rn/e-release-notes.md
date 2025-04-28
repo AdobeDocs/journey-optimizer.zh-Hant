@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '768'
-ht-degree: 100%
+source-git-commit: b79ab63dfefde9df1b4991ed3a81f1d61bc4bb96
+workflow-type: tm+mt
+source-wordcount: '865'
+ht-degree: 12%
 
 ---
 
@@ -22,30 +22,28 @@ ht-degree: 100%
 **至發行日期之前，下方早期發行說明如有變更，恕不另行通知**。 連結、畫面及更新的文件會在發行當日發佈於[發行說明](release-notes.md)。
 
 
-## 2025 年 3 月搶先發行說明 {#25-3-rn}
+## 2025年4月早期發行說明 {#25-4-rn}
 
 
 **至發行日期之前，下方早期發行說明如有變更，恕不另行通知**。 連結、畫面和更新文件會於發行日期發佈。
 
-**發行日期**：2025 年 3 月 26-27 日
+**發行日期**： 2025年4月29至30日
 
 
-### 新功能 {#25-03-features}
+### 新功能 {#25-04-features}
 
 此版本隨附的新功能詳述如下。
 
-
 <table>
 <thead>
 <tr>
-<th><strong>與 Adobe Analytics 的整合</strong><br/></th>
+<th><strong>Adobe Express整合(LA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer 中的 Adobe Express 整合可讓您在內容建立期間直接使用 Adobe Express 的編輯工具，讓您調整大小、移除背景、裁切，以及將資產轉換為 JPEG 或 PNG。<p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+<p>Adobe Journey Optimizer現在與Adobe Express整合，讓使用者能夠透過journey orchestration順暢地連線其創意資產。 此整合可簡化跨行銷活動設計和部署個人化內容的程式。 此功能目前處於「有限可用性」。</p>
 </td>
 </tr>
 </tbody>
@@ -54,14 +52,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>歷程量度</strong><br/></th>
+<th><strong>Campaign和Journey Inventory (LA)的日曆檢視</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>歷程量度可讓您在對業務最重要的量度上測量活動的影響，並針對您的績效提供更清楚的深入分析。</p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+<p>新的行事曆檢視現在可用於行銷活動和歷程啟用。 此功能可提供排程活動的視覺化呈現，讓使用者更有效率地檢視和管理其行銷活動和歷程。 選取行事曆專案會開啟右側邊欄，其中包含詳細資訊。 此功能目前處於「有限可用性」。</p>
 </td>
 </tr>
 </tbody>
@@ -70,15 +67,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>歷程的行事曆檢視 (可用性限制)</strong><br/></th>
+<th><strong>Adobe Experience Manager as a Cloud Service整合(GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>行事曆檢視現在可讓您以視覺化方式呈現所有歷程啟用。此功能以有限可用性的形式發行給指定的客戶群。<p>
-<p>此變更僅適用於一組組織 (有限可用性)。若要取得存取權，請聯絡您的 Adobe 代表。</p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+<p>Adobe Journey Optimizer與Adobe Experience Manager as a Cloud Service之間整合的一般可用性。 此整合可針對個人化客戶歷程啟用順暢的內容來源及管理。</p>
 </td>
 </tr>
 </tbody>
@@ -87,107 +82,220 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>與 Dynamic Media 的整合（有限可用性）</strong><br/></th>
+<th><strong>Experience League中的Personalization遊樂場</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Dynamic Media 資產現在可直接在 Journey Optimizer 中使用和存取。此整合可讓您：
+<p>Experience League現在提供互動式Personalization遊樂場。 此功能可讓使用者探索Adobe Journey Optimizer並練習個人化功能。 使用者可以撰寫個人化程式碼、使用範例負載進行測試，並模擬真實情境以增強其學習體驗。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>批次對象評估(LA)後觸發歷程執行</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>使用者現在可指定時段，以等待讀取對象節點中的批次對象重新評估。 如果評估在視窗內完成，則會觸發歷程；否則，則會略過歷程。 此功能解決批次分段工作的延遲問題，目前處於「有限可用性」。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>次世代校訂(GA)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新一代校訂功能現已正式推出。 此增強功能支援內容屬性、多語言內容、實驗和內容範本，提供更強大且彈性的校訂體驗。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>自備簡訊提供者(GA)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer現在支援自訂SMS提供者，讓使用者可整合他們偏好的SMS服務，以提升通訊彈性。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Integration with Adobe Express</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The Adobe Express integration in Adobe Journey Optimizer lets you use Adobe Express's editing tools directly during content creation, enabling you to resize, remove backgrounds, crop, and convert assets to JPEG or PNG.<p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Calendar view for journeys (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A calendar view is now allows you to visualize all journeys activations. This capability is released as a Limited Availability to a select group of customers.<p>
+<p>This change is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Integration with Dynamic Media (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Dynamic media assets are now directly available and accessible in Journey Optimizer. This integration enables you to:
 <ul>
-<li>透過即時更新集中管理資產</li>
-<li>立即修改您的資產設定，例如寬度和高度</li>
-<li>使用含文字覆蓋的影像個人化您的內容</li>
-<li>更新您的內容並新增個人化欄位，以自訂 Dynamic Media 範本</li>
+<li>Centrally manage assets with real-time updates</li>
+<li>Modify your assets settings such as width and height instantly</li>
+<li>Personalize your content using images with text overlays</li>
+<li>Customize Dynamic Media templates by updating your content and adding personalization fields</li>
 </ul>
 <p>
-<p>此整合僅適用於一組組織 (有限可用性)。若要取得存取權，請聯絡您的 Adobe 代表。</p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+<p>This integration is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
 
 
 <table>
 <thead>
 <tr>
-<th><strong>與 Adobe GenStudio 的整合 (有限可用性)</strong><br/></th>
+<th><strong>LINE channel (Limited Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>為了提升行銷效率及維持品牌一致性，您現在可以將 GenStudio for Performance Marketing 體驗與 Journey Optimizer 緊密整合。這使您能夠利用 GenStudio 的 AI 支援內容建立以及 Journey Optimizer 的進階協調功能。<p>
-<p>Journey Optimizer 中的 GenStudio 整合目前無法與 Healthcare Shield 或 Privacy and Security Shield (有限可用性) 搭配使用。</p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+<p>Adobe Journey Optimizer has expanded its cross-channel capabilities to include support for the LINE channel. This enhancement allows you to create, edit, and preview LINE experiences enabling more personalized and engaging interactions. With LINE, you can connect with more customers, send relevant content, and improve your engagement.<p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
-<thead>
-<tr>
-<th><strong>LINE 頻道 (有限可用性)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer 已擴充其跨頻道功能，以包含對 LINE 頻道的支援。此增強功能可讓您建立、編輯和預覽 LINE 體驗，以啟用更個人化且吸引人的互動。透過 LINE，您可以與更多客戶連絡、傳送相關內容並改善您的參與度。<p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若要取得存取權，請聯絡您的 Adobe 代表。</p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
+### 功能改進 {#25-04-improv}
 
-### 功能改進 {#25-03-improv}
+**客群**
 
-**個人化編輯器** (推出日期：3 月 12 日)
+- **移除擴充屬性的限制**
 
-已更新 Journey Optimizer 個人化編輯器，並新增功能：
+  擁有醫療保健和隱私權盾牌的客戶現在可以在Adobe Journey Optimizer管道中使用對象構成擴充屬性，增強資料使用功能。
 
-* **已更新程式碼編輯器設計** – 更簡潔的現代化介面，可改善使用性和焦點。
-* **搜尋和取代** – 新增的功能可在編輯器中快速尋找和取代內容。
-* **復原與重做支援** – 可讓您輕鬆還原或重新套用變更。
-* **可自訂的字型大小** – 可調整編輯器的字型大小，以提升可讀性。
-* **內嵌 JSON 驗證** – 為 JSON 內容提供即時用戶端驗證，以加速錯誤偵測。
-* **自動完成設定檔和內容屬性** – 提供智慧型建議以簡化內容建立。
-* **增強語法強調** – 讓程式碼結構在視覺上更加不同，來改善可讀性。
+**電子郵件頻道**
 
-![展示個人化編輯器新功能的影片](assets/do-not-localize/personalization-editor.gif)
+- **支援協助工具的其他欄位**
 
-如需詳細資訊，請參閱[詳細文件](../personalization/personalization-build-expressions.md)。
+  已將兩個新欄位新增到電子郵件編輯器以支援協助工具：檔案標題的`<title>`元素和`<html>`標籤中語言規格的`lang`屬性。
+
+- **電子郵件表面Personalization的增強功能 — URL追蹤**
+
+  電子郵件個人化中的URL追蹤已增強，允許更精細的追蹤和報告。 更新包括個人化電子郵件設定的改良設定選項。
 
 
-**行銷活動**
+- **[包含主題的Beta]電子郵件編輯器改良**
 
-* 現在，在行銷活動清單中，選取行銷活動會開啟窗格並顯示其詳細資訊。
-* 您現在可以將行銷活動從一個沙箱複製到另一個沙箱。
+  新的Beta版功能為電子郵件編輯器引進了主題，可讓行銷人員定義可重複使用的樣式，並使用預先設定的模組更快地建置電子郵件。
+
+**沙箱工具**
+
+- **決策沙箱副本**
+
+  現在可以在沙箱之間複製決策物件，簡化測試和部署工作流程。 決策物件的專屬子區段將新增到檔案中。
+
+- 自訂動作的&#x200B;**沙箱工具**
+
+  自訂動作現在包含在可以使用沙箱工具功能複製的Adobe Journey Optimizer物件清單中，以簡化測試和部署。
+
+- **行銷活動的沙箱工具**
+
+  行銷活動現在可以使用沙箱工具功能來複製，以簡化環境之間行銷活動物件的移轉。
 
 **個人化**
 
-個人化編輯器新增了「藥丸」按鈕。啟用後，個人資料和內容屬性都會以藥丸形式顯示，增強代碼的可讀性。
+- **Personalization Editor - Pills啟動**
 
-**核准**
+  個人化編輯器中的新按鈕可讓使用者開啟或關閉藥丸。 此功能可去除編輯器中的雜訊，並可讓您更輕鬆地編輯Dynamic Media影像引數和設定檔屬性。
 
-定義核准原則的條件時，您現在可以選擇依標籤和/或物件類別篩選。
+- **Personalization — 可觀察的結構描述**
 
-**管道設定**
+  個人化編輯器中新增了可觀察的結構描述支援，可進行結構描述型屬性的動態更新。
 
-您現可指派 Adobe Experience Platform 統一標籤至管道設定。這可讓您輕鬆分類，以及改善所有清單的搜尋和導覽體驗。
+- **新的系統內容變數**
+
+  已引入新的系統內容變數，以唯一識別傳送到目標設定檔的每則訊息。 此變數可用於追蹤和個人化目的。
+
+
+
+**Decisioning**
+
+- **AI模型 — 統一排名 — 新的公式產生器**
+
+  行銷人員現在可以使用新的公式產生器，調整Adobe Decisioning AI模型的即時分數。 此功能會集中處理優先順序和模型分數的排名調整。
+
+**導覽**
+
+- **資料夾 — 登陸頁面**
+
+  增強Adobe Journey Optimizer中登入頁面的資料夾管理，包括UI變更、流程和API更新。
+
+- **資料夾 — 範本和片段**
+
+  範本和片段中的資料夾已移除「有限可用性」提及，表示此功能現在可正式使用。
+
+- 行銷活動清單中的&#x200B;**右側邊欄**
+
+  已新增右側邊欄至行銷活動清單，以在選取行銷活動時提供詳細資訊。
+
+
 
 **傳遞度**
 
-您現在可以透過受上層管理的 DMARC 委派子網域。
+- **改善追加IP的工作流程以及移除委派的子網域**
 
-**業務規則**
+  改善管理追加IP和委派子網域的工作流程，進而簡化使用者的程式。
 
-您現在可以在包含&#x200B;**批次**&#x200B;細分的歷程和行銷活動中，使用每日頻率上限。為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的命名空間。在[平台身分服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}之中進一步了解命名空間優先順序
+**教戰手冊**
 
-**內容管理**
+- **[Beta]建立您自己的教戰手冊**
 
-為了輕鬆管理您的片段和內容範本，您現在可以使用資料夾來更有效地將其整理到結構化階層中。
+  使用者現在可以在Adobe Journey Optimizer中建立自己的教戰手冊，在歷程規劃中實現更好的自訂和靈活性。
