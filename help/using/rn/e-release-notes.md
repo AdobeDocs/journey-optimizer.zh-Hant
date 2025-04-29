@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6fbae788495ac97fae1a511a99e773eba718e11a
+source-git-commit: 00aa5d5283bae43949df133a48700aa91b3a8c7f
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '972'
 ht-degree: 16%
 
 ---
@@ -119,6 +119,7 @@ ht-degree: 16%
 <tr>
 <td>
 <p>先前提供測試版的內容變異模擬現在為一般可用(GA)。 它可讓您使用從CSV或JSON檔案上傳或手動新增的範例輸入資料，預覽內容的不同變體。 系統會自動偵測您在內容中用於個人化的所有屬性，這些屬性可用於測試以建立多個變體。</p>
+<p>在「一般可用性」發行版本中，此功能現在包含對多語言內容和內容實驗的支援，讓您測試不同語言和處理的變數。 此外，它現在支援內容屬性（除了設定檔屬性外），以允許進行更多動態和情境式內容測試。</p>
 </td>
 </tr>
 </tbody>
@@ -215,11 +216,11 @@ ht-degree: 16%
 
 ### 功能改進 {#25-04-improv}
 
-**客群**
+<!--**Audiences**
 
-- **移除對象組合擴充屬性的限制**
+- **Remove limitation for Audience Composition enrichment attributes** 
 
-  現在可搭配Healthcare Shield或Privacy and Security Shield使用受眾構成中的受眾和屬性。
+  The use of audiences and attributes from audience composition is now available for use with Healthcare Shield or Privacy and Security Shield.-->
 
 **電子郵件頻道**
 
