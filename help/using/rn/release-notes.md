@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: d5ddf00b1a39c66b29ffb967389fb069a9648e83
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 52%
@@ -240,11 +240,11 @@ ht-degree: 52%
 
   Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows.-->
 
-- **自訂動作的沙箱工具**
+* **自訂動作的沙箱工具**
 
   自訂動作現在包含在可以使用沙箱工具功能複製的Adobe Journey Optimizer物件清單中，以簡化測試和部署。 [閱讀全文](../configuration/copy-objects-to-sandbox.md)
 
-- **行銷活動的沙箱工具** — 推出日期： 2025年4月3日
+* **行銷活動的沙箱工具** — 推出日期： 2025年4月3日
 
   您現在可以使用套件匯出和匯入功能，跨多個沙箱複製行銷活動。 行銷活動會連同與輪廓、對象、結構描述、內嵌訊息以及從屬物件相關的所有項目一起複製。 有些項目不會複製，例如決定項目、資料使用標籤及語言設定。 [閱讀全文](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
@@ -254,12 +254,12 @@ ht-degree: 52%
 
   A new "Pills" button has been to the personalization editor. When enabled, profile and contextual attributes display as pills, enhancing the readability of your code.-->
 
-- **在屬性窗格中填入屬性** — 使用日期： 2025年4月2日
+* **在屬性窗格中填入屬性** — 使用日期： 2025年4月2日
 
   個人化編輯器的屬性窗格，現在預設僅顯示已填入的屬性。 若要檢視所有屬性，請使用設定按鈕來關閉&#x200B;**[!UICONTROL 僅顯示填入的屬性]**&#x200B;選項。 [閱讀全文](../personalization/personalization-build-expressions.md)
 
 
-- **新的內容屬性**
+* **新的內容屬性**
 
   新的內容屬性&#x200B;**訊息設定檔ID**&#x200B;現在可從個人化編輯器選取。 這是訊息導向屬性，可唯一識別傳送中傳送至每個目標設定檔的每個訊息。 例如，此唯一識別碼可用作URL追蹤引數，以區分收件者開啟或點按的每個連結。
 
