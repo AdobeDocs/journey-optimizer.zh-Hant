@@ -19,7 +19,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="使用 Journey Optimizer 設定您的 SMS 服務提供者"
->abstract="Adobe Journey Optimizer 會透過簡訊服務供應商發送文字訊息。選取您的服務提供者並填寫您的 API 認證。"
+>abstract="Adobe Journey Optimizer 會透過簡訊服務提供者傳送文字訊息。選取您的服務提供者並填寫您的 API 認證。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
@@ -28,8 +28,8 @@ ht-degree: 36%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="使用 Journey Optimizer 設定您的 SMS/MMS 服務提供者"
->abstract="在傳送文字簡訊 (SMS/MMS) 之前，您必須將提供者設定和 Journey Optimizer 整合。完成後，您需要建立一個 SMS/MMS 設定。這些步驟必須由 Adobe Journey Optimizer 系統管理員執行。"
+>title="使用 Journey Optimizer 設定您的簡訊/多媒體簡訊提供者"
+>abstract="在傳送文字訊息 (簡訊/多媒體簡訊) 之前，您必須將提供者設定和 Journey Optimizer 整合。完成後，您需要建立一個簡訊/多媒體簡訊設定這些步驟必須由 Adobe Journey Optimizer 系統管理員執行。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="建立簡訊管道設定"
 
 >[!CONTEXTUALHELP]
