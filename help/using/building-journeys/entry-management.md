@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: 重新進入、歷程、設定檔、週期性
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 5%
+source-wordcount: '566'
+ht-degree: 6%
 
 ---
 
@@ -79,19 +79,7 @@ Business events follow reentrance rules in the same way as for unitary events. I
 
 * 對於循環歷程：依預設，屬於對象的所有設定檔都會在每次循環時進入歷程。 使用者必須先完成歷程，才能在另一個發生次數中重新進入。
 
-有兩個選項可用於循環讀取受眾歷程：
-
-* **增量讀取**&#x200B;選項：當具有週期性&#x200B;**讀取對象**&#x200B;的歷程首次執行時，對象中的所有設定檔都會進入歷程。 此選項可讓您在第一次發生後，僅將目標設定為自上次執行歷程以來進入對象的個人。
-
-  >[!NOTE]
-  >
-  >如果您在歷程中鎖定為[自訂上傳對象](../audience/about-audiences.md#segments-in-journey-optimizer)，則只有在循環歷程中啟用此選項時，才會擷取第一次循環的設定檔，因為這些對象已修正。
-
-* **重複時強制重新進入**：此選項可讓您讓歷程中仍存在的所有設定檔在下次執行時自動退出。 如果設定檔在此歷程中的生命週期可能超過週期頻率（例如，如果您使用等待活動），請勿啟用此選項以確保設定檔可完成其歷程。
-
-![](assets/read-audience-options.png)
-
-如需詳細資訊，請參閱此[區段](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+有數個選項可用於循環讀取受眾歷程。 如需詳細資訊，請參閱[在歷程中使用對象](../building-journeys/read-audience.md)區段。
 
 <!--
 After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 

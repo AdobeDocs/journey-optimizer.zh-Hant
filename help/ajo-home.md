@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 94%
+source-wordcount: '335'
+ht-degree: 85%
 
 ---
 
@@ -20,11 +20,17 @@ ht-degree: 94%
 
 >[!BEGINTABS]
 
->[!TAB 2025 年 3 月發行版本]
+>[!TAB 2025年4月發行版本]
 
-三月發行版本已上線！請參閱發行說明以探索新功能、變更及改進。
+4月版本現已上線！ 請參閱發行說明以探索新功能、變更及改進。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB Adobe Express整合]
+
+adobe Journey Optimizer現在與Adobe Express整合，可讓您透過journey orchestration順暢地連線創意資產。
+
+[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
 >[!TAB AI 助理]
 
@@ -38,11 +44,6 @@ Journey Optimizer 報告功能改進與 Customer Journey Analytics 功能的互�
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
->[!TAB 歷程中的網頁體驗]
-
-有了網頁管道，Adobe Journey Optimizer 可讓您將透過傳入網頁歷程向客戶提供的網站體驗個人化。網頁管道現可在歷程版面中使用。
-
-[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/web/create-web.md)
 
 >[!ENDTABS]
 

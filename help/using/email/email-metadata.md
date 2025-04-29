@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 預覽文字, 編輯器, 摘要, 電子郵件
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="新增預覽文字"
+>title="定義預覽文字"
 >abstract="預覽文字指在檢視來自您的電子郵件用戶端的電子郵件時接在主旨行後面的簡短摘要文字。在許多情況下，這段文字會提供電子郵件的簡短摘要，並且長度通常只有一個句子。"
 
 在設計電子郵件時，為了提高可讀性和可存取性，您可以為內容定義其他中繼屬性。 [!DNL Journey Optimizer] [電子郵件Designer](get-started-email-design.md)可讓您指定下列元素：

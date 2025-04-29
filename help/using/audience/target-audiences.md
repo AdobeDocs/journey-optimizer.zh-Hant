@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 25%
+source-wordcount: '660'
+ht-degree: 22%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 25%
 ## 對象啟用延遲 {#activation}
 
 內嵌完成之後，對象就可以直接在Journey Optimizer中使用。 雖然這通常在一小時內完成，但可能會有所變動。 從構成中產生的對象應在發佈後24小時內可用。
+
+對於批次分段工作產生的對象，啟用可能會因批次擷取變數而延遲。 對於每日排程的讀取對象歷程，您可以在歷程屬性中定義時間範圍，以確保在歷程執行之前有新的對象資料可用。 如果分段工作未在定義的時間範圍內完成，將略過歷程直到其下次發生。 [瞭解如何排程讀取對象歷程](../building-journeys/read-audience.md)
+
+>[!AVAILABILITY]
+>
+>批次對象評估之後的&#x200B;**[!UICONTROL 觸發器]**&#x200B;選項僅適用於一組組織（可用性限制）。 若要取得存取權，請聯絡您的 Adobe 代表。
 
 ## 自訂上傳和同盟對象構成
 

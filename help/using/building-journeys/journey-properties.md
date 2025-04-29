@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '2301'
-ht-degree: 18%
+source-wordcount: '2344'
+ht-degree: 17%
 
 ---
 
@@ -73,7 +73,6 @@ ht-degree: 18%
 
 啟動&#x200B;**允許重新進入**&#x200B;選項時，會顯示&#x200B;**重新進入等待期間**&#x200B;欄位。 此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或客群資格篩選開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 持續時間上限為90天。
 
-
 ## 管理存取權 {#manage-access}
 
 若要指派自訂或核心資料使用標籤給歷程，請按一下&#x200B;**[!UICONTROL 管理存取權]**&#x200B;按鈕。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
@@ -130,7 +129,6 @@ ht-degree: 18%
 由於91天歷程逾時，當歷程不允許重新進入時，我們無法確保重新進入封鎖將超過91天。 事實上，當我們移除在進入歷程91天後進入歷程之人員的所有相關資訊時，我們無法得知此人之前已進入（超過91天前）。
 
 個人只有在歷程剩餘的時間夠在91天歷程逾時前的等待期間完成時，才能進入等待活動。 請參閱[此頁面](../building-journeys/wait-activity.md)。
-
 
 #### 存留時間(TTL)與資料保留常見問題集 {#timeout-faq}
 
@@ -301,6 +299,10 @@ Adobe Journey Optimizer會套用在整個歷程中使用的合併原則。 因�
 
 * 退出條件只能在草稿狀態中定義
 * 事件和事件型退出條件之間的歷程名稱空間一致性
+
+## 歷程排程 {#schedule}
+
+**[!UICONTROL 排程]**&#x200B;區段僅在畫布中捨棄&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動時可用。 它可讓您定義歷程應執行的特定日期/時間和頻率。 [瞭解如何排程讀取對象歷程](../building-journeys/read-audience.md)
 
 ## 衝突管理 {#conflict}
 

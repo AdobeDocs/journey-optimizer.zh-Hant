@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，對象，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 13%
+source-wordcount: '2195'
+ht-degree: 11%
 
 ---
 
 # 在歷程中使用對象 {#segment-trigger-activity}
 
-## 新增讀取客群活動 {#about-segment-trigger-actvitiy}
+## 關於讀取閱聽眾活動 {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
@@ -58,7 +58,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
 >title="全新對象評估的等待時間"
->abstract="指定歷程將等待批次對象重新評估的時間長度。"
+>abstract="指定歷程將等待批次對象重新評估的時間長度。 等待期間限製為整數值，可以以分鐘或小時指定，並且必須介於1到6小時之間。"
 
 使用&#x200B;**讀取對象**&#x200B;活動讓對象的所有個人進入歷程。 進入歷程可以執行一次，也可以定期執行。
 
@@ -80,13 +80,13 @@ ht-degree: 13%
 
 * 可在&#x200B;**讀取對象**&#x200B;活動中選取從CSV檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)匯入或從[組合工作流程](../audience/get-started-audience-orchestration.md)產生的對象[。 **對象資格**&#x200B;活動中沒有這些對象。
 
-
 與&#x200B;**讀取對象**&#x200B;活動相關的護欄列於[此頁面](../start/guardrails.md#read-segment-g)。
-
 
 ## 設定活動 {#configuring-segment-trigger-activity}
 
-設定「讀取對象」活動的步驟如下：
+設定「讀取對象」活動的步驟如下。
+
+### 新增讀取對象活動並選取對象
 
 1. 展開&#x200B;**[!UICONTROL 協調流程]**&#x200B;類別，並將&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動拖放到您的畫布中。
 
@@ -120,33 +120,78 @@ ht-degree: 13%
    >
    >如果屬於對象的個人在不同身分中沒有選取的身分（名稱空間），則無法進入歷程。 您只能選取以人物為基礎的身分名稱空間。 如果您已定義查閱表格的名稱空間（例如：產品查閱的ProductID名稱空間），它將無法在&#x200B;**名稱空間**&#x200B;下拉式清單中使用。
 
-1. 設定&#x200B;**[!UICONTROL 讀取率]**。 這是每秒可以進入歷程的設定檔數目上限。 此費率僅適用於此活動，不適用於歷程中的其他活動。 例如，如果您想定義自訂動作的節流率，則需使用節流應用程式開發介面。 請參閱此[頁面](../configuration/throttling.md)。
+### 管理歷程中的設定檔專案
 
-   此值會儲存在歷程版本裝載中。 預設值為每秒5,000個設定檔。 您可以將此值從每秒500個設定檔修改為20,000個設定檔。
+設定&#x200B;**[!UICONTROL 讀取率]**。 這是每秒可以進入歷程的設定檔數目上限。 此費率僅適用於此活動，不適用於歷程中的其他活動。 例如，如果您想定義自訂動作的節流率，則需使用節流應用程式開發介面。 請參閱此[頁面](../configuration/throttling.md)。
 
-   >[!NOTE]
-   >
-   >每個沙箱的整體讀取率設定為每秒20,000個設定檔。 因此，在相同沙箱中同時執行的所有讀取對象讀取率，每秒最多可新增20,000個設定檔。 您無法修改此上限。
+此值會儲存在歷程版本裝載中。 預設值為每秒5,000個設定檔。 您可以將此值從每秒500個設定檔修改為20,000個設定檔。
 
-1. **[!UICONTROL 讀取對象]**&#x200B;活動可讓您指定對象進入歷程的時間。 若要這麼做，請按一下&#x200B;**[!UICONTROL 編輯歷程排程]**&#x200B;連結以存取歷程的屬性，然後設定&#x200B;**[!UICONTROL 排程器型別]**&#x200B;欄位。
+>[!NOTE]
+>
+>每個沙箱的整體讀取率設定為每秒20,000個設定檔。 因此，在相同沙箱中同時執行的所有讀取對象讀取率，每秒最多可新增20,000個設定檔。 您無法修改此上限。
+
+### 排程歷程 {#schedule}
+
+歷程預設會設定為執行一次。 若要定義執行歷程的特定日期/時間和頻率，請遵循下列步驟。
+
+>[!NOTE]
+>
+>單次讀取對象歷程在歷程執行91天（[歷程全域逾時](journey-properties.md#global_timeout)）後移至&#x200B;**已完成**&#x200B;狀態。 對於已排程的讀取對象，是在上次執行後的91天。
+
+1. 在&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動屬性中，請選取&#x200B;**[!UICONTROL 編輯歷程排程]**。
 
    ![](assets/read-segment-schedule.png)
 
-   依預設，對象會儘快&#x200B;**[!UICONTROL 進入歷程]**。 如果您希望讓對象在特定日期/時間或循環進入歷程，請從清單中選取所需的值。
-
-   >[!NOTE]
-   >
-   >請注意，**[!UICONTROL 排程]**&#x200B;區段僅在畫布中捨棄&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動時可用。
+1. 歷程的屬性隨即顯示。 在&#x200B;**[!UICONTROL 排程器型別]**&#x200B;下拉式清單中，選取您要執行歷程的頻率。
 
    ![](assets/read-segment-schedule-list.png)
 
-   **增量讀取**&#x200B;選項：當具有週期性&#x200B;**讀取對象**&#x200B;的歷程首次執行時，對象中的所有設定檔都會進入歷程。 此選項可讓您在第一次發生後，只將目標鎖定在自上次執行歷程以來進入對象的個人。
+對於週期性歷程，特定選項可協助您管理設定檔對歷程的進入。 展開下列各節，瞭解各個選項的詳細資訊。
 
-       >[！NOTE]
-       >
-       >如果您要在歷程中鎖定[自訂上傳對象](../audience/about-audiences.md#segments-in-journey-optimizer)，只有在循環歷程中啟用此選項時，才會於第一次循環時擷取設定檔，因為這些對象已修正。
-   
-   **重複時強制重新進入**：此選項可讓您讓歷程中仍存在的所有設定檔在下次執行時自動退出。 例如，如果您在每日循環歷程中等待2天，透過啟用此選項，設定檔將一律會在下次歷程執行（也就是之後的那天）中移動，無論它們是否在下次執行的對象中。 如果此歷程中設定檔的生命週期可能超過週期頻率，請勿啟用此選項以確保設定檔可完成其歷程。
+![](assets/read-audience-options.png)
+
++++**[!UICONTROL 增量讀取]**
+
+當具有週期性&#x200B;**讀取對象**&#x200B;的歷程首次執行時，對象中的所有設定檔都會進入歷程。
+
+此選項可讓您在第一次發生後，只將目標鎖定在自上次執行歷程以來進入對象的個人。
+
+>[!NOTE]
+>
+>如果您在歷程中鎖定為[自訂上傳對象](../audience/about-audiences.md#segments-in-journey-optimizer)，則只有在循環歷程中啟用此選項時，才會擷取第一次循環的設定檔，因為這些對象已修正。
+
++++
+
++++**[!UICONTROL 在週期時強制重新進入]**
+
+此選項可讓您讓歷程中仍存在的所有設定檔在下次執行時自動退出。
+
+例如，如果您在每日循環歷程中等待2天，透過啟用此選項，設定檔將一律會在下次歷程執行（也就是之後的那天）中移動，無論它們是否在下次執行的對象中。
+
+如果此歷程中設定檔的生命週期可能超過週期頻率，請勿啟用此選項以確保設定檔可完成其歷程。
+
++++
+
++++批次對象評估後&#x200B;**[!UICONTROL 觸發]** （可用性限制）
+
+>[!AVAILABILITY]
+>
+>批次對象評估之後的&#x200B;**[!UICONTROL 觸發器]**&#x200B;選項僅適用於一組組織（可用性限制）。 若要取得存取權，請聯絡您的 Adobe 代表。
+
+對於每日排程的歷程和目標鎖定批次對象，您可以定義最多6小時的時間視窗，讓歷程等待批次分段工作產生新的對象資料。 如果分段工作於時間範圍內完成，則歷程會觸發。 否則，會略過歷程，直到下一次發生為止。 此選項可確保歷程以準確且最新的對象資料執行。
+
+例如，如果歷程排程為每日下午6點，您可以指定歷程執行前要等待的分鐘數或小時數。 當歷程下午6點醒來時，它會檢查是否有新的受眾，這表示受眾比上一個歷程執行中使用的受眾更新。 在指定的時間範圍內，當偵測到新的受眾時，將會立即執行歷程。 不過，如果未偵測到新的對象，將會略過當天的歷程執行。
+
+**增量讀取歷程的回顧期間**
+
+選取批次對象評估&#x200B;]**後的**[!UICONTROL &#x200B;觸發程式時，[!DNL Journey Optimizer]會尋找新的對象評估。 對於回顧期間的起點，系統會使用上次成功執行歷程的時間，即使發生於24小時之前。 這對於通常具有24小時回顧期間的增量讀取歷程非常重要。
+
+每日增量讀取歷程範例：
+
+* 啟用「批次對象評估後觸發」功能：如果自增量設定檔進入歷程以來已經過了三天，則在尋找增量設定檔時，回顧期間會向後延長三天。
+* 不啟用「批次對象評估後觸發」：如果自增量設定檔進入歷程以來已經過了三天，則尋找增量設定檔時，回顧期間只會回溯24小時。
+
++++
 
 <!--
 
@@ -166,10 +211,6 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 **Lookback window**: define when you want to start to listen to entrances or exits. This lookback window is expressed in hours, starting from the moment the journey is triggered.  If you set this duration to 0, the journey will target all members of the segment. For recurring journeys, it will take into account all entrances/exits since the last time the journey was triggered.
 
 -->
-
->[!NOTE]
->
->單次讀取對象歷程在歷程執行91天（[歷程全域逾時](journey-properties.md#global_timeout)）後移至&#x200B;**已完成**&#x200B;狀態。 對於已排程的讀取對象，是在上次執行後的91天。
 
 ## 測試並發佈歷程 {#testing-publishing}
 
@@ -213,6 +254,12 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ![](assets/read-segment-audience1.png)
 
+>[!NOTE]
+>
+>搭配&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動使用「每日」排程器型別時，您可以為歷程定義等待新對象資料的時間範圍。 這可確保準確定位，並防止批次分段工作延遲所造成的問題。 [瞭解如何排程歷程](#schedule)
+>
+>批次對象評估之後的&#x200B;**[!UICONTROL 觸發器]**&#x200B;選項僅適用於一組組織（可用性限制）。 若要取得存取權，請聯絡您的 Adobe 代表。
+
 **排除**
 
 用於分段的相同&#x200B;**條件**&#x200B;活動（請參閱上文）也可讓您排除部分母體。 例如，您可以排除VIP人員，方法是讓該人員流入之後有結束步驟的分支。
@@ -223,16 +270,11 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 **聯集**
 
-歷程可讓您建立N個分支，並在分段後將其聯結。
+歷程可讓您建立N個分支，並在分段後將其聯結。 因此，您可以讓兩個對象回到共同體驗。
 
-因此，您可以讓兩個對象回到共同體驗。
-
-例如，在歷程中追蹤十天內的不同體驗後，VIP和非VIP客戶可以回到相同路徑。
-
-聯合後，您可以執行細分或排除來再次分割對象。
+例如，在歷程中追蹤十天內的不同體驗後，VIP和非VIP客戶可以回到相同路徑。 聯合後，您可以執行細分或排除來再次分割對象。
 
 ![](assets/read-segment-audience3.png)
-
 
 ## 重試次數 {#read-audience-retry}
 

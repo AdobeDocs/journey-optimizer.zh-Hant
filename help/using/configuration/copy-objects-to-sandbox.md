@@ -9,16 +9,16 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙箱，歷程，複製，環境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: ead10229b82aa8cb2e638ac9c26539de766f3497
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1212'
 ht-degree: 4%
 
 ---
 
 # 將物件匯出至另一個沙箱 {#copy-to-sandbox}
 
-您可以使用套件匯出和匯入功能，跨多個沙箱複製物件，例如歷程、內容範本或片段。 套件可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。
+您可以使用套件匯出和匯入功能，跨多個沙箱複製物件，例如歷程、自訂動作、內容範本或片段。 套件可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。
 
 本頁說明Journey Optimizer內容中的沙箱工具使用案例。 如需功能本身的詳細資訊，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html)。
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## 匯出的物件與最佳實務 {#objects}
 
-Journey Optimizer可將歷程、內容範本和片段匯出至另一個沙箱。 以下各節提供每種物件型別的資訊和最佳實務。
+Journey Optimizer可將歷程、自訂動作、內容範本和片段匯出至另一個沙箱。 以下各節提供每種物件型別的資訊和最佳實務。
 
 ### 一般最佳實務 {#global}
 
@@ -43,13 +43,21 @@ Journey Optimizer可將歷程、內容範本和片段匯出至另一個沙箱。
 
 ### 歷程 {#journeys}
 
-* 匯出歷程時，除了歷程本身，Journey Optimizer也會複製歷程所依賴的大部分物件：受眾、結構描述、事件和動作。 如需所複製物件的詳細資訊，請參閱此[區段](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects)。
+* 匯出歷程時，除了歷程本身，Journey Optimizer也會複製歷程所依賴的大部分物件：受眾、自訂動作、結構描述、事件和動作。 如需所複製物件的詳細資訊，請參閱此[區段](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects)。
 
 * 我們不保證所有連結的元素都會複製到目的地沙箱。 我們強烈建議您執行徹底檢查，例如在發佈歷程之前。 這可讓您識別任何可能遺失的物件。
 
 * 目標沙箱中的複製物件是唯一的，沒有覆寫現有元素的風險。 歷程及歷程內的任何訊息都會以草稿模式帶入。 這可讓您在目標沙箱上發佈之前執行徹底驗證。
 
 * 復製程式只會複製歷程的中繼資料以及該歷程中的物件。 此程式不會複製任何設定檔或資料集資料。
+
+### 自訂動作 {#custom-actions}
+
+* 匯出自訂動作時，會複製URL設定和裝載引數。 然而，基於安全考量，驗證引數不會複製，而是以「在此處插入密碼」取代。 常數請求標題和查詢引數值也由「在此插入密碼」取代。
+
+  這包括特殊用途的自訂動作([!DNL Adobe Campaign Standard]、[!DNL Campaign Classic]、[!DNL Marketo Engage])。
+
+* 將歷程複製到另一個沙箱時，如果您在匯入程式期間為自訂動作選取「使用現有」，則您選取的現有自訂動作必須與來源自訂動作相同（即相同的設定、引數等）。 否則，新的歷程副本將有無法在畫布中解決的錯誤。
 
 ### 行銷活動 {#campaigns}
 

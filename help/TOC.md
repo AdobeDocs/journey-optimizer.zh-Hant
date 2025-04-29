@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2364'
 ht-degree: 87%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 87%
    + [搜尋、篩選、分類](using/start/search-filter-categorize.md)
    + [協助工具](using/start/accessibility.md)
    + [使用案例教戰手冊](using/start/playbooks.md)
-   + [使用AI助理](using/start/ai-assistant.md)
+   + [使用 AI 助理](using/start/ai-assistant.md)
    + [護欄](using/start/guardrails.md)
    + [最佳作法](using/start/best-practices.md)
 + 歷程 {#orchestrate-journeys}
@@ -358,7 +358,9 @@ ht-degree: 87%
       + [使用 AI 的內容實驗](using/content-management/generative-experimentation.md)
       + [使用 AI 登陸頁面](using/content-management/generative-lp.md)
       + [AI 助理使用案例](using/content-management/generative-uc.md)
-      + [建立及管理您的品牌 (Beta)](using/content-management/brands.md)
+      + 品牌（測試版）{#brands}
+         + [建立及管理您的品牌](using/content-management/brands.md)
+         + [評估您的品牌一致性分數](using/content-management/brands-score.md)
    + 使用多語言內容{#content-multilingual}
       + [開始使用多語言內容](using/content-management/multilingual-gs.md)
       + [建立地區](using/content-management/multilingual-locale.md)
