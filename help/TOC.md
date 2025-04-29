@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
 workflow-type: tm+mt
-source-wordcount: '2336'
-ht-degree: 88%
+source-wordcount: '2358'
+ht-degree: 87%
 
 ---
 
@@ -330,6 +330,11 @@ ht-degree: 88%
       + [在 Journey Optimizer 設定 WhatsApp 頻道](using/whatsapp/whatsapp-configuration.md)
       + [建立 WhatsApp 訊息](using/whatsapp/create-whatsapp.md)
       + [檢查並傳送 WhatsApp 訊息](using/whatsapp/send-whatsapp.md)
+   + LINE {#line}
+      + [開始使用LINE頻道](using/line/get-started-line.md)
+      + [在Journey Optimizer中設定LINE頻道](using/line/line-configuration.md)
+      + [建立LINE訊息](using/line/create-line.md)
+      + [檢查並傳送您的LINE訊息](using/line/send-line.md)
 + 登陸頁面 {#landing-pages}
    + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
    + [建立登陸頁面](using/landing-pages/create-lp.md)
