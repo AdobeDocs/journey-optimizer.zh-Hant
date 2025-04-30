@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 5f7e9556a27fb12618f8da35da5427de3a0867dc
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 83%
+source-wordcount: '380'
+ht-degree: 78%
 
 ---
 
@@ -74,4 +74,4 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->您也可以將動態個人化追蹤參數新增至電子郵件內容中存在的連結，但無法在設定層級執行此操作。您必須在使用電子郵件設計工具撰寫訊息時執行此操作。[了解更多](message-tracking.md#url-tracking)
+>您也可以將動態個人化追蹤引數新增至電子郵件內容呈現的連結。 [了解更多](surface-personalization.md#personalize-url-tracking)

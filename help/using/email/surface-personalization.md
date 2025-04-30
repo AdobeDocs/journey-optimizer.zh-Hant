@@ -7,18 +7,18 @@ feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-keywords: 設定，電子郵件，設定，子網域
+keywords: 設定， 電子郵件， 設定， 子域
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 7%
+source-wordcount: '1170'
+ht-degree: 6%
 
 ---
 
-# 個人化電子郵件組態設定 {#surface-personalization}
+# 個人化電子郵件配置設置 {#surface-personalization}
 
-為了增加彈性並控制您的電子郵件設定，[!DNL Journey Optimizer]可讓您在建立電子郵件設定時，定義子網域和標題<!--and URL tracking parameters-->的個人化值。
+為了提高電子郵件設定的靈活性和控制力， [!DNL Journey Optimizer] 允許您在建立電子郵件配置時為子域和標頭<!--and URL tracking parameters--> 定義個人化值。
 
 ## 新增動態子網域 {#dynamic-subdomains}
 
@@ -34,15 +34,15 @@ ht-degree: 7%
 
 建立電子郵件設定時，您可以根據特定條件設定動態子網域。
 
-例如，如果您有從每個國家/地區的專屬電子郵件地址傳送訊息的法律限制，則可以使用動態子網域。 這可讓您建立單一設定，並針對不同國家/地區使用數個傳送子網域，而非針對每個國家/地區建立多個設定。 然後，您可以將不同國家/地區的目標客戶整合為單一行銷活動。
+例如，如果您有從每個國家/地區的專屬電子郵件地址傳送訊息的法律限制，則可以使用動態子網域。 This allows you to create a single configuration with several sending subdomains corresponding to different countries - instead of creating multiple configurations for each country. 然後，您可以將不同國家/地區的目標客戶整合為單一行銷活動。
 
 若要定義電子郵件通道設定中的動態子網域，請遵循下列步驟。
 
 1. 在建立設定之前，請先根據您的使用案例設定您要用於傳送電子郵件的子網域。 [了解作法](../configuration/about-subdomain-delegation.md)
 
-   例如，假設您想針對不同的國家/地區使用不同的子網域：設定一個美國特定的子網域、一個英國特定的子網域等。
+   例如，假設您要對不同的國家/地區使用不同的子域：設置一個特定於美國的子域，一個特定於英國的子域，等等。
 
-1. 建立管道設定。 [了解作法](../configuration/channel-surfaces.md)
+1. 建立通道配置。 [了解作法](../configuration/channel-surfaces.md)
 
 1. 選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;頻道。
 
@@ -56,11 +56,11 @@ ht-degree: 7%
 
    ![](assets/surface-email-edit-condition.png)
 
-1. 選取您要與此條件關聯的子網域。 [進一步瞭解子網域](../configuration/about-subdomain-delegation.md)
+1. 選取您要與此條件關聯的子網域。 [詳細瞭解子域](../configuration/about-subdomain-delegation.md)
 
    >[!NOTE]
    >
-   >某些子網域目前無法選取，因為[回饋迴路](../reports/deliverability.md#feedback-loops)註冊擱置中。 此程序可能需要長達 10 個工作天。完成後，您可以從所有可用的子網域中進行選擇。<!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >由于意見迴圈](../reports/deliverability.md#feedback-loops)註冊待定[，某些子域目前無法選擇。此程序可能需要長達 10 個工作天。完成後，您可以從所有可用的子域中進行選擇。 <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 
@@ -90,7 +90,7 @@ ht-degree: 7%
 
 您也可以針對設定中定義的所有標頭引數使用個人化。
 
-例如，如果您有多個品牌，您可以建立單一設定，並對電子郵件標題使用個人化值。 這可讓您確保從不同品牌傳送的所有電子郵件都會以正確的&#x200B;**寄件者**&#x200B;名稱和電子郵件傳送給每個客戶。 同樣地，當您的收件者按一下電子郵件使用者端軟體中的&#x200B;**回覆**&#x200B;按鈕時，您希望&#x200B;**回覆**&#x200B;名稱和電子郵件對應至正確使用者的正確品牌。
+例如，如果您有多個品牌，則可以創建單個配置併為電子郵件標頭使用個人化值。 這使您可以確保從不同品牌發送的所有電子郵件都使用正確的 **寄件者** 名稱和電子郵件發送給每個客戶。 同樣地，當您的收件者按一下電子郵件使用者端軟體中的&#x200B;**回覆**&#x200B;按鈕時，您希望&#x200B;**回覆**&#x200B;名稱和電子郵件對應至正確使用者的正確品牌。
 
 若要針對設定標題引數使用個人化變數，請遵循下列步驟。
 
@@ -98,22 +98,21 @@ ht-degree: 7%
 >
 >您可以個人化所有&#x200B;**[!UICONTROL 標頭引數]**&#x200B;欄位，**[!UICONTROL 錯誤電子郵件首碼]**&#x200B;欄位除外。
 
-
-1. 依照您通常的作法定義標頭引數。 [了解作法](email-settings.md#email-header)
+1. Define your header parameters as you would usually do. [了解作法](email-settings.md#email-header)
 
 1. 對於每個欄位，選取編輯圖示。
 
    ![](assets/surface-email-personalize-header.png)
 
-1. [個人化編輯器](../personalization/personalization-build-expressions.md)開啟。 視需要定義您的條件並儲存變更。
+1. 此時會 [開啟個人化編輯者](../personalization/personalization-build-expressions.md) 。 根據需要定義條件並保存更改。
 
    <!--For example, set a condition such as each recipient receives an email from their own brand representative.-->
 
    >[!NOTE]
    >
-   >您只能選取&#x200B;**[!UICONTROL 設定檔屬性]**&#x200B;和&#x200B;**[!UICONTROL 協助程式函式]**。
+   >只能選擇 **[!UICONTROL 設定檔屬性]** 和 **[!UICONTROL 説明程式函數]**。
 
-   例如，您想要動態處理代表關係經理傳送的電子郵件，其詳細資料儲存在客戶設定檔中，以便每個客戶都與關係經理連結。 在[歷程](../building-journeys/journey-gs.md)中，電子郵件標題（寄件者名稱、寄件者電子郵件、回覆地址）可以個人化關係管理員的引數，這些引數取自設定檔屬性。
+   例如，您希望處理代表關係經理發送的動態電子郵件，其詳細信息存儲在客戶設定檔中，以便每個客戶都連結到關係經理。 在歷程](../building-journeys/journey-gs.md)中[，電子郵件標頭（寄件者姓名、寄件者電子郵件、回復位址）可以使用關係管理器的參數進行個人化設置，這些參數取自設定檔屬性。
 
    <!--The examples below use event parameters, which are currently not available.
     
@@ -125,31 +124,33 @@ ht-degree: 7%
 >
 >如果您新增一或多個動態子網域至您的設定，將會根據解析的[動態子網域](#dynamic-subdomains)填入&#x200B;**寄件者電子郵件**&#x200B;和&#x200B;**錯誤電子郵件**&#x200B;尾碼。
 
-<!--
 ## Use personalized URL tracking {#personalize-url-tracking}
 
-To use personalized URL tracking prameters, follow the steps below.
+To use personalized URL tracking parameters, follow the steps below.
 
-1. Select the profile attribute of your choice from the personalization editor.
+1. 移至電子郵件通道設定的&#x200B;**[!UICONTROL URL追蹤引數]**&#x200B;區段。
+
+1. 按一下每個欄位旁的編輯圖示。 除了上下文屬性外，您還可以選擇設定檔屬性。
+
+1. 從個人化編輯者](../personalization/personalization-build-expressions.md)選擇[您選擇的設定檔屬性。
 
 1. Repeat the steps above for each tracking parameter you want to personalize.
 
-Now when the email is sent out, this parameter will be automatically appended to the end of the URL. You can then capture this parameter in web analytics tools or in performance reports.
--->
+Now when the email is sent out, the personalized parameter will be automatically appended to the end of the URL. 接著，您就可以在網站分析工具或效能報表中擷取此引數。
 
-## 檢視設定詳細資料 {#view-surface-details}
+## View configuration details {#view-surface-details}
 
 在行銷活動或歷程中使用具有個人化設定的設定時，您可以直接在行銷活動或歷程中顯示設定詳細資料。 請遵循下列步驟。
 
 1. 建立電子郵件[行銷活動](../campaigns/create-campaign.md)或[歷程](../building-journeys/journey-gs.md)。
 
-1. 選取&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕。
+1. 選擇編輯 **[!UICONTROL 內容按鈕]** 。
 
-1. 按一下&#x200B;**[!UICONTROL 檢視組態詳細資料]**&#x200B;按鈕。
+1. 按兩下檢視 **[!UICONTROL 配置詳細資訊]** 按鈕。
 
    ![](assets/campaign-view-surface-details.png)
 
-1. 顯示&#x200B;**[!UICONTROL 傳遞設定]**&#x200B;視窗。 您可以檢視所有組態設定，包括動態子網域和個人化的標頭引數。
+1. 顯示「 **[!UICONTROL 傳送設定]** 」視窗。 您可以視圖所有配置設置，包括動態子域和個性化標頭参數。
 
    >[!NOTE]
    >
@@ -177,13 +178,13 @@ Now when the email is sent out, this parameter will be automatically appended to
 
    ![](assets/campaign-simulate-config-error.png)
 
-1. 檢查&#x200B;**[!UICONTROL 傳遞設定]**&#x200B;畫面以取得錯誤詳細資料。
+1. **[!UICONTROL 查看「傳送設定]**」螢幕以瞭解錯誤詳情。
 
    ![](assets/campaign-simulate-config-details.png)
 
-可能的錯誤如下：
+可能的錯誤可能如下所示：
 
-* 未針對選取的測試設定檔解析&#x200B;**子網域**。 例如，您的設定使用數個對應不同國家/地區的傳送子網域，但選取的設定檔並未針對`Country`屬性定義任何值，或是屬性已設為`France`，但此值未與該設定中的任何子網域相關聯。
+* 未針對選取的測試設定檔解析&#x200B;**子網域**。 例如，您的配置使用對應於不同國家/地區的多個發送子域，但所選設定檔沒有為 `Country` 該屬性定義值，或者該屬性設置為 但 `France` 此值未與該配置中的任何子域相關聯。
 
 * 選取的設定檔沒有一或多個&#x200B;**標頭引數**&#x200B;的相關值。
 
