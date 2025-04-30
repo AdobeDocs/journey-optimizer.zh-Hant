@@ -6,10 +6,9 @@ description: 瞭解如何在Journey Optimizer中建立LINE訊息
 feature: Line
 topic: Content Management
 role: User
-hide: true
-hidefromtoc: true
 level: Beginner
-source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
+exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
+source-git-commit: 81cd7c2c8be26d760f369ecacc5859cf090234fc
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 4%
@@ -94,4 +93,3 @@ ht-degree: 4%
 一旦您執行測試並驗證內容後，您就可以傳送LINE訊息給對象。 這些步驟在[此頁面](send-line.md)中有詳細說明
 
 傳送後，您可以在行銷活動或歷程報告中測量LINE的影響。 如需報告的詳細資訊，請參閱[本區段](../reports/campaign-global-report-cja.md)。
-

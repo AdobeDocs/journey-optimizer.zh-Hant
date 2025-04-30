@@ -7,12 +7,10 @@ feature: Line
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
+source-git-commit: 8714ac6b2fd76ec859c358535fa322f0ac333a82
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 18%
+source-wordcount: '186'
+ht-degree: 15%
 
 ---
 
@@ -20,6 +18,10 @@ ht-degree: 18%
 
 使用[!DNL Journey Optimizer]在客戶的LINE應用程式上傳送LINE訊息。 您可以在LINE編輯器中建立、個人化和預覽訊息。
 
+[!AVAILABILITY]
+>>
+Adobe Journey Optimizer客戶可依請求啟用LINE頻道。 請聯絡Adobe客戶服務或您的Adobe代表，為您的組織啟用此功能。
+>
 LINE訊息可在歷程或行銷活動中建立及傳送：
 
 * 在&#x200B;**歷程**&#x200B;中。建立歷程、新增LINE活動並定義基本設定，然後瀏覽至&#x200B;**[!UICONTROL 動作： LINE]**&#x200B;右側窗格以建立LINE訊息的內容。 在[此頁面](../building-journeys/journey-gs.md)中進一步了解如何建立歷程。
