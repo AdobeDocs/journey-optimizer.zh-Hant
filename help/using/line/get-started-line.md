@@ -7,9 +7,9 @@ feature: Line
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: fe10df5e855c627fb4beaf2a56403b5845cb84c4
+source-git-commit: edd012bc8f2b840d211658782239003749e06df8
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '182'
 ht-degree: 15%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 15%
 
 >[!AVAILABILITY]
 >
->Adobe Journey Optimizer客戶可依請求啟用LINE頻道。 請聯絡Adobe客戶服務或您的Adobe代表，為您的組織啟用此功能。
+>Adobe Journey Optimizer客戶可依請求啟用LINE頻道。 請聯絡您的Adobe代表，為您的組織啟用此功能。
 
 LINE訊息可在歷程或行銷活動中建立及傳送：
 
