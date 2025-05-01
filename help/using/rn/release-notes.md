@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2816b5aefaa184949471c6b0d2ee1c6ec6de0ed0
+source-git-commit: 7bb46f33d877d0a1976e8d74b88a5cccb81c1d4e
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 49%
+source-wordcount: '906'
+ht-degree: 47%
 
 ---
 
@@ -277,7 +277,9 @@ ht-degree: 49%
 
   為了增強 Journey Optimizer 協助工具，電子郵件設計工具現在提供兩個新欄位：它們對應至電子郵件內容 `<html>` 元素中的 `<title>` 元素和 `lang` 屬性。 除了電子郵件&#x200B;**[!UICONTROL 內文]**&#x200B;區段的&#x200B;**[!UICONTROL 預覽文字]**&#x200B;欄位外，您還可以定義這些設定。 [閱讀全文](../email/email-metadata.md)
 
+**使用案例教戰手冊**
 
+* **教戰手冊製作和共用(Beta)** — 您現在可以建立、管理和共用您自己的使用案例教戰手冊。 此功能目前以公開測試版的形式提供給所有客戶。 [閱讀全文](../start/playbooks.md)
 
 **導覽**
 
