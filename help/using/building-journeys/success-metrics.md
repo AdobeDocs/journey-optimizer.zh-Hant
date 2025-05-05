@@ -2,24 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 發佈此歷程
-description: 瞭解如何報告您選擇的歷程量度
+description: 瞭解如何報告您的歷程量度
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 7%
+source-wordcount: '495'
+ht-degree: 5%
 
 ---
 
-# 設定並追蹤您的歷程量度 {#success-metrics}
+# 設定及追蹤您的歷程量度 {#success-metrics}
 
-有了歷程量度，您可以根據預先定義的量度追蹤活動績效，藉此有效評估活動的影響。
-透過追蹤這些量度，您可以瞭解歷程的表現如何、識別需要改進的領域，並做出明智的決策以增強客戶參與。
+透過歷程量度清楚掌握客戶歷程的成效。 此功能可讓您根據定義的KPI追蹤效能、發掘有效方法的深入分析，以及識別最佳化區域。 透過即時衡量影響，您可以推動持續改善，並以資料為基礎做出提升客戶參與度的決策。
 
 ## 先決條件 {#prerequisites}
 
@@ -27,7 +26,7 @@ ht-degree: 7%
 
 ## 可用量度 {#metrics}
 
-量度清單會依據資料集所包含的[欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}而有所不同。
+量度清單會依資料集所包含的[欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}而有所不同。
 
 如果您的資料集未設定，則只有下列量度可供使用： **[!UICONTROL 點按]**、**[!UICONTROL 不重複點按]**、**[!UICONTROL 點進率]**&#x200B;和&#x200B;**[!UICONTROL 開啟率]**。
 

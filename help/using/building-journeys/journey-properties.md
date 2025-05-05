@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '2344'
-ht-degree: 17%
+source-wordcount: '2395'
+ht-degree: 13%
 
 ---
 
@@ -27,17 +27,20 @@ ht-degree: 17%
 
 歷程的屬性會集中在右邊欄中。 建立新歷程時，預設會顯示此區段。 對於現有歷程，按一下歷程名稱旁的鉛筆圖示以開啟歷程。
 
-從此區段，您可以定義歷程的名稱、新增說明，以及：
+從此區段中，定義歷程的名稱、新增說明，並設定您的歷程全域屬性。
 
-* 管理[進入和重新進入](#entrance)，
-* 選擇開始和結束[日期](#dates)，
-* 管理[資料](#manage-access)的存取權，
-* 在歷程活動中定義[逾時期間](#timeout) （僅適用於管理員使用者），
-* 選取歷程和設定檔[時區](#timezone)
+您可以：
+
 * 將Adobe Experience Platform統一標籤指派給您的歷程，以輕鬆分類並改善行銷活動清單中的搜尋。 [了解如何使用標籤](../start/search-filter-categorize.md#tags)
-* 使用[衝突管理工具](#conflict)監視衝突並排定您的歷程優先順序。
+* 選取您的歷程量度。 [瞭解如何設定及追蹤您的歷程量度](success-metrics.md)
+* 管理[進入和重新進入](#entrance)。 設定檔入口管理取決於歷程型別。 詳細資料可在[此頁面](entry-management.md)上取得
+* 管理[資料存取權](#manage-access)
+* 選取歷程和設定檔[時區](#timezone)
+* 選擇自訂[開始和結束日期](#dates)
+* 在歷程活動中定義[逾時期間](#timeout) （僅適用於管理員使用者）
+* 使用[衝突管理工具](#conflict)監視衝突並排定您的歷程優先順序
 
-![](assets/journey32.png)
+![](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
 >[!NOTE]
 >
@@ -75,46 +78,46 @@ ht-degree: 17%
 
 ## 管理存取權 {#manage-access}
 
-若要指派自訂或核心資料使用標籤給歷程，請按一下&#x200B;**[!UICONTROL 管理存取權]**&#x200B;按鈕。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
+您可以根據存取標籤來限制歷程的存取權。
 
-![](assets/journeys-manage-access.png)
+若要指派自訂資料使用標籤給歷程，請按一下&#x200B;**[!UICONTROL 管理存取標籤]**&#x200B;圖示，並選取一或多個標籤。
+
+[深入瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
 
 ## 歷程和設定檔時區 {#timezone}
 
 時區是在歷程層級定義。 您可以輸入固定時區，或使用Adobe Experience Platform設定檔來定義歷程時區。 如果在Adobe Experience Platform設定檔中定義了時區，則可在歷程中擷取該時區。
 
-如需時區管理的詳細資訊，請參閱[此頁面](../building-journeys/timezone-management.md)。
+[進一步瞭解時區管理](../building-journeys/timezone-management.md)
 
 ## 開始和結束日期 {#dates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="開始日期"
->abstract="選擇歷程可以開始的日期項目。如果未指定開始日期，則會在發佈時自動設定。"
-
+>abstract="選取設定檔可以開始進入歷程的日期。 如果未設定開始日期，則預設為歷程的發佈日期。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="結束日期"
->abstract="選擇歷程的結束日期。當到達該日期時，該歷程中的輪廓會自動退出，新的輪廓將無法再進入。"
+>abstract="設定歷程結束的日期。 在此日期，作用中的設定檔將自動退出歷程，不允許新的專案。"
 
-您可以定義&#x200B;**開始日期**。 如果您尚未指定，則會在發佈時自動定義。
+依預設，設定檔發佈後即可進入您的歷程，並可一直保留，直到達到[全域歷程逾時](#global_timeout)。 唯一的例外是循環讀取對象歷程，其中&#x200B;**在循環**&#x200B;上強制重新進入，結束於下一個事件的開始日期。
 
-您也可以新增&#x200B;**結束日期**。 這可讓輪廓在達到日期時自動退出。 如果未指定結束日期，則設定檔可以保留到[全域歷程逾時](#global_timeout) （通常為91天）為止。 唯一的例外是循環讀取對象歷程，其中&#x200B;**在循環**&#x200B;上強制重新進入，結束於下一個事件的開始日期。
+如有需要，您可以定義自訂&#x200B;**開始日期**&#x200B;和&#x200B;**結束日期**。 這可讓設定檔在特定日期進入您的歷程，並在達到結束日期時自動退出。
 
 ## 逾時 {#timeout}
 
-### 歷程活動逾時或錯誤 {#timeout_and_error}
+### 歷程活動中的逾時 {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
->title="逾時"
->abstract="定義歷程嘗試執行動作或驗證條件的時間長度，在此之後視為逾時。"
-
+>title="逾時或錯誤"
+>abstract="指定歷程嘗試執行動作或評估條件的時間長度，然後再將其視為逾時。 建議的值介於1到30秒之間。"
 
 編輯動作或條件活動時，您可以定義替代路徑，以防錯誤或逾時。 如果處理詢問協力廠商系統的活動超過歷程屬性的&#x200B;**[!UICONTROL 逾時或錯誤]**&#x200B;欄位中定義的逾時期間，將會選擇第二個路徑來執行可能的遞補動作。
 
-授權值介於1到30秒之間。
+建議的值介於1到30秒之間。
 
 如果您的歷程有時效性（例如：對人員的即時位置有所反應），建議您定義非常簡短的&#x200B;**[!UICONTROL 逾時或錯誤]**&#x200B;值，因為您的動作不能延遲超過幾秒鐘。 如果您的歷程較不有時效性，您可以使用較長的值，讓系統有更多時間呼叫，以傳送有效回應。
 

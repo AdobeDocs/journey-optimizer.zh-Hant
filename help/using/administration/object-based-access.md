@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: 物件，層級，存取，控制，標籤， olac，授權
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 15%
+source-wordcount: '472'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,9 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="存取管理標籤"
->abstract="您可以根據存取標籤限制對此行銷活動的存取。若要新增存取限制，請瀏覽至此頁面最上方的「**管理存取**」按鈕。請確認僅選取您有權限使用的標籤。"
+>abstract="您可以根據存取權標籤來限制物件的存取權。 其目的是保護敏感數位資產，使其免受未經授權使用者的侵害，進而保護個人資料。 **請確定只選取您有許可權的標籤。**"
+
+您可以根據存取權標籤來限制物件的存取權。 其目的是保護敏感數位資產，使其免受未經授權使用者的侵害，進而保護個人資料。
 
 物件層級存取控制(OLAC)功能可讓您定義授權，以管理對所選物件的資料存取：
 
@@ -30,13 +32,12 @@ ht-degree: 15%
 * 範本
 * 片段
 * 登陸頁面
-* 選件
+* 產品建議
 * 靜態優惠收藏
 * 優惠決定
 * 管道設定
 * IP熱身計畫
 
-其目的是保護敏感數位資產，使其免受未經授權使用者的侵害，進而保護個人資料。
 
 ## 先決條件 {#prereq-labels}
 
@@ -44,7 +45,7 @@ ht-degree: 15%
 
 若要能夠[指派標籤](#assign-labels)，您必須是具有&#x200B;**管理**&#x200B;許可權（例如[!DNL Manage journeys]、[!DNL Manage Campaigns]或[!DNL Manage decisions]）之角色的一部分。 若沒有此許可權，**[!UICONTROL 管理存取權]**&#x200B;按鈕會變成灰色。
 
-若要了解權限的詳細資訊，請參閱[本章節](../administration/permissions.md)。
+若要了解更多關於權限的資訊，請參閱[此區段](../administration/permissions.md)。
 
 ## 建立標籤 {#create-labels}
 
