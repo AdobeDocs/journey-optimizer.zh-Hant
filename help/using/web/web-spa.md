@@ -90,4 +90,4 @@ ht-degree: 16%
 * 將網站修改套用至多個檢視或所有探索到的檢視
 * 對修改執行大量動作
 
->[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446896/?quality=12&learn=on&captions=chi_hant)
