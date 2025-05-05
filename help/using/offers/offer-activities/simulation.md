@@ -65,7 +65,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >身分名稱空間會定義識別碼的內容，例如電子郵件地址或CRM ID。 在本節](../../audience/get-started-identity.md){target="_blank"}中進一步瞭解Adobe Experience Platform識別名稱空間[。
+   >身分名稱空間會定義識別碼的內容，例如電子郵件地址或CRM ID。 在本節[&#128279;](../../audience/get-started-identity.md){target="_blank"}中進一步瞭解Adobe Experience Platform識別名稱空間。
 
 1. 輸入身分值並按一下&#x200B;**[!UICONTROL 檢視]**&#x200B;列出可用的設定檔。
 
@@ -102,7 +102,7 @@ ht-degree: 12%
    * 您可以使用搜尋欄位來縮小選取範圍。
    * 您可以按一下&#x200B;**[!UICONTROL 開啟優惠決定]**&#x200B;連結，開啟您建立的所有決定清單。 深入瞭解[決定](create-offer-activities.md)。
 
-   選取您選擇的決定並按一下[新增]。****
+   選取您選擇的決定並按一下[新增]。**&#x200B;**
 
    ![](../assets/offers_simulation-add-decision-scope-add.png)
 

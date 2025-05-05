@@ -62,7 +62,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >若要能夠傳送您的訊息，請確定您選取的登入頁面尚未過期。 在本節](create-lp.md#configure-primary-page)中瞭解如何更新到期日[。
+   >若要能夠傳送您的訊息，請確定您選取的登入頁面尚未過期。 在本節[&#128279;](create-lp.md#configure-primary-page)中瞭解如何更新到期日。
 
    收到電子郵件後，如果您的收件者按一下登陸頁面的連結，則會被導向至「感謝您」頁面，且會將其新增至訂閱清單。
 
@@ -98,7 +98,7 @@ ht-degree: 12%
 
 ### 選擇退出管理 {#opt-out-management}
 
-法律規定必須讓收件者能夠取消訂閱來自品牌的通訊。 進一步瞭解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hant)的適用法規。{target="_blank"}
+法律規定必須讓收件者能夠取消訂閱來自品牌的通訊。 進一步瞭解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hant){target="_blank"}的適用法規。
 
 因此，您必須在每封寄送給收件者的電子郵件中一律包含&#x200B;**取消訂閱連結**：
 
@@ -139,7 +139,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >若要能夠傳送您的訊息，請確定您選取的登入頁面尚未過期。 在本節](create-lp.md#configure-primary-page)中瞭解如何更新到期日[。
+   >若要能夠傳送您的訊息，請確定您選取的登入頁面尚未過期。 在本節[&#128279;](create-lp.md#configure-primary-page)中瞭解如何更新到期日。
 
 1. 發佈並執行歷程。 [了解更多](../building-journeys/journey.md)。
 

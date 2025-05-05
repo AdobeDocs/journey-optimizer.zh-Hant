@@ -60,7 +60,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >由于意見迴圈](../reports/deliverability.md#feedback-loops)註冊待定[，某些子域目前無法選擇。此程序可能需要長達 10 個工作天。完成後，您可以從所有可用的子域中進行選擇。 <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >由于意見迴圈[&#128279;](../reports/deliverability.md#feedback-loops)註冊待定，某些子域目前無法選擇。此程序可能需要長達 10 個工作天。完成後，您可以從所有可用的子域中進行選擇。 <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 
@@ -112,7 +112,7 @@ ht-degree: 6%
    >
    >只能選擇 **[!UICONTROL 設定檔屬性]** 和 **[!UICONTROL 説明程式函數]**。
 
-   例如，您希望處理代表關係經理發送的動態電子郵件，其詳細信息存儲在客戶設定檔中，以便每個客戶都連結到關係經理。 在歷程](../building-journeys/journey-gs.md)中[，電子郵件標頭（寄件者姓名、寄件者電子郵件、回復位址）可以使用關係管理器的參數進行個人化設置，這些參數取自設定檔屬性。
+   例如，您希望處理代表關係經理發送的動態電子郵件，其詳細信息存儲在客戶設定檔中，以便每個客戶都連結到關係經理。 在歷程[&#128279;](../building-journeys/journey-gs.md)中，電子郵件標頭（寄件者姓名、寄件者電子郵件、回復位址）可以使用關係管理器的參數進行個人化設置，這些參數取自設定檔屬性。
 
    <!--The examples below use event parameters, which are currently not available.
     
@@ -132,7 +132,7 @@ To use personalized URL tracking parameters, follow the steps below.
 
 1. 按一下每個欄位旁的編輯圖示。 除了上下文屬性外，您還可以選擇設定檔屬性。
 
-1. 從個人化編輯者](../personalization/personalization-build-expressions.md)選擇[您選擇的設定檔屬性。
+1. 從個人化編輯者[&#128279;](../personalization/personalization-build-expressions.md)選擇您選擇的設定檔屬性。
 
 1. Repeat the steps above for each tracking parameter you want to personalize.
 

@@ -109,7 +109,7 @@ ht-degree: 2%
 
 ![](assets/cja-top-decisions-ctr.png)
 
-依CTR ]**排名的**[!UICONTROL &#x200B;個最上層決定專案表格會根據個別專案的點進率來強調其效能。 此量度有助於評估哪些專案最能有效吸引使用者並促進互動。
+依CTR **排名的**&#x200B;個最上層決定專案表格會根據個別專案的點進率來強調其效能。 此量度有助於評估哪些專案最能有效吸引使用者並促進互動。
 
 * **[!UICONTROL 點進率(CTR)]**：使用者點按連結、廣告或推薦的次數與顯示次數比較的百分比。
 
@@ -159,7 +159,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->保留和模型驅動流量&#x200B;]**的**[!UICONTROL &#x200B;轉換率只有在將AI模型整合至行銷活動時才可供使用。 [了解更多](../experience-decisioning/ranking.md)
+>保留和模型驅動流量&#x200B;**的**&#x200B;轉換率只有在將AI模型整合至行銷活動時才可供使用。 [了解更多](../experience-decisioning/ranking.md)
 
 ![](assets/cja-decisioning-conversion.png)
 

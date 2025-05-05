@@ -47,11 +47,11 @@ ht-degree: 30%
 
 ## 插入連結 {#insert-links}
 
-啟用](#enable-tracking)追踪後[，便會追踪訊息內容中包含的所有連結。
+啟用[&#128279;](#enable-tracking)追踪後，便會追踪訊息內容中包含的所有連結。
 
 若要將連結插入到電子郵件內容，請依照以下步驟進行：
 
-1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。****
+1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。**&#x200B;**
 
    ![](assets/message-tracking-insert-link.png)
 
@@ -85,7 +85,7 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->行銷類型的電子郵件必須包含 [退出連結](../privacy/opt-out.md#opt-out-management)，這對於事務性郵件不是必需的。 创建消息時，消息類別&#x200B;**[!UICONTROL （行銷]**&#x200B;或&#x200B;**[!UICONTROL 交易）]**&#x200B;在通道配置](../configuration/channel-surfaces.md#email-type)中[定義。
+>行銷類型的電子郵件必須包含 [退出連結](../privacy/opt-out.md#opt-out-management)，這對於事務性郵件不是必需的。 创建消息時，消息類別&#x200B;**[!UICONTROL （行銷]**&#x200B;或&#x200B;**[!UICONTROL 交易）]**&#x200B;在通道配置[&#128279;](../configuration/channel-surfaces.md#email-type)中定義。
 
 
 ## 連結至鏡像頁面 {#mirror-page}

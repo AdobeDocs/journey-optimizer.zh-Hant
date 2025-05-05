@@ -65,9 +65,9 @@ ht-degree: 7%
       | 平台 | 已將資料傳送至Platform | 在行動應用程式發出邊緣體驗事件以將資料傳送至Adobe Experience Platform時觸發。 API通常會從AEP Edge擴充功能呼叫[sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)。 |
       | 手動 | 手動觸發 | 兩個相關聯的資料元素：索引鍵（定義資料集的常數，例如，性別、顏色、價格）和值（屬於資料集的變數，例如，男性/女性、綠色、100）。 |
 
-+++
+      +++
 
-   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。****
+   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。**&#x200B;**
 
    1. 若要新增更多&#x200B;**[!UICONTROL 觸發器]**，請選擇&#x200B;**[!UICONTROL 或]**&#x200B;條件，以進一步展開規則。
 
@@ -82,7 +82,7 @@ ht-degree: 7%
       | 平台 | XDM事件型別 | 當符合指定的事件型別時觸發。 |
       | 平台 | XDM值 | 當符合指定的XDM值時觸發。 |
 
-+++
+      +++
 
       ![](assets/in_app_web_surface_9.png)
 

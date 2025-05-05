@@ -67,9 +67,9 @@ ht-degree: 12%
       | 地點 | 輸入POI | 當您的客戶進入您設定的Point of Interest (POI)時，由Places SDK觸發。 |
       | 地點 | 退出POI | 在您的客戶離開您設定的興趣點(POI)時，由Places SDK觸發。 |
 
-+++
+      +++
 
-   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。****
+   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。**&#x200B;**
 
    1. 若要新增更多&#x200B;**[!UICONTROL 觸發器]**，請選擇&#x200B;**[!UICONTROL 或]**&#x200B;條件，以進一步展開規則。
 
@@ -99,7 +99,7 @@ ht-degree: 12%
       | 地點 | 上次輸入的POI | 根據您上次進入興趣點(POI)的客戶，由Places SDK觸發。 |
       | 地點 | 上次退出的POI | 根據您的客戶上次退出興趣點(POI)，由Places SDK觸發。 |
 
-+++
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -173,9 +173,9 @@ ht-degree: 12%
       | 地點 | 輸入POI | 當您的客戶進入您設定的Point of Interest (POI)時，由Places SDK觸發。 |
       | 地點 | 退出POI | 在您的客戶離開您設定的興趣點(POI)時，由Places SDK觸發。 |
 
-+++
+      +++
 
-   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。****
+   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。**&#x200B;**
 
    1. 若要新增更多&#x200B;**[!UICONTROL 觸發器]**，請選擇&#x200B;**[!UICONTROL 或]**&#x200B;條件，以進一步展開規則。
 
@@ -205,7 +205,7 @@ ht-degree: 12%
       | 地點 | 上次輸入的POI | 根據您上次進入興趣點(POI)的客戶，由Places SDK觸發。 |
       | 地點 | 上次退出的POI | 根據您的客戶上次退出興趣點(POI)，由Places SDK觸發。 |
 
-+++
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -238,7 +238,7 @@ ht-degree: 12%
 
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
-+++
+  +++
 
 * 以下影片說明如何設定和分析A/B測試應用程式內訊息的內容實驗。
 
@@ -246,7 +246,7 @@ ht-degree: 12%
 
   >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
-+++
+  +++
 
 * 以下影片說明如何在歷程中建立應用程式內訊息，以及如何測試和發佈您的歷程。
 
@@ -254,7 +254,7 @@ ht-degree: 12%
 
   >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
-+++
+  +++
 
 **相關主題：**
 

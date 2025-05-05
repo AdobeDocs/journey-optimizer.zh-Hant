@@ -67,7 +67,7 @@ ht-degree: 5%
 
 完成此設定后，請連絡 Adobe Systems 讓您的 Journey Optimizer 環境使用此資料來源。 只有Adobe Analytics數據源才需要執行此步驟。 若要執行此動作：
 
-1. 取得 資料來源 ID。 此信息在用戶介面中可用：流覽到從“源&#x200B;**”**&#x200B;功能表的數據流標籤創建的&#x200B;****&#x200B;資料來源。找到它的最簡單方法是過濾Adobe Analytics來源。
+1. 取得 資料來源 ID。 此信息在用戶介面中可用：流覽到從“源&#x200B;**”**&#x200B;功能表的數據流標籤創建的&#x200B;**&#x200B;**&#x200B;資料來源。找到它的最簡單方法是過濾Adobe Analytics來源。
 1. 請連絡Adobe Systems客戶服務並提供下列詳細資料：
 
    * 主旨：為歷程啟用Adobe Analytics事件
@@ -91,7 +91,7 @@ ht-degree: 5%
 
 1. 從Adobe Journey Optimizer存取&#x200B;**[!UICONTROL 設定]**&#x200B;功能表。
 
-1. 然後，從“事件&#x200B;]**”**[!UICONTROL &#x200B;卡片中選擇&#x200B;**[!UICONTROL 管理]**。
+1. 然後，從“事件&#x200B;**”**&#x200B;卡片中選擇&#x200B;**[!UICONTROL 管理]**。
 
    ![](assets/ajo-aa_5.png)
 
@@ -102,7 +102,7 @@ ht-degree: 5%
    * **[!UICONTROL 名稱]**：個人化&#x200B;**[!UICONTROL 活動]**&#x200B;的名稱。
    * **[!UICONTROL 型別]**：選擇&#x200B;**[!UICONTROL 單一]**&#x200B;型別。 [了解更多](../event/about-events.md)
    * **[!UICONTROL 事件ID型別]**：選擇以&#x200B;**[!UICONTROL 規則為基礎的]**&#x200B;事件ID型別。 [了解更多](../event/about-events.md#event-id-type)
-   * **[!UICONTROL 結構描述]**：選取在](#leverage-analytics-data)之前建立的Analytics或WebSDK結構描述[。
+   * **[!UICONTROL 結構描述]**：選取在[&#128279;](#leverage-analytics-data)之前建立的Analytics或WebSDK結構描述。
    * **[!UICONTROL 欄位]**：選取裝載欄位。 [了解更多](../event/about-creating.md#define-the-payload-fields)
    * **[!UICONTROL 事件ID條件]**：定義條件以識別將觸發您歷程的事件。
 
@@ -127,7 +127,7 @@ ht-degree: 5%
 
    ![](assets/ajo-aa_9.png)
 
-1. 從超時路徑中，添加電子郵件&#x200B;****&#x200B;作。此路徑將用來傳送電子郵件給未完成訂單的客戶，以提醒他們其購物車仍然可用。
+1. 從超時路徑中，添加電子郵件&#x200B;**&#x200B;**&#x200B;作。此路徑將用來傳送電子郵件給未完成訂單的客戶，以提醒他們其購物車仍然可用。
 
 1. 在主要路徑後新增&#x200B;**[!UICONTROL 等待]**&#x200B;活動，並將其設定為所需的持續時間。
 

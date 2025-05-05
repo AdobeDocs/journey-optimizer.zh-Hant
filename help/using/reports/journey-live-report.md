@@ -135,7 +135,7 @@ ht-degree: 30%
 
 ![](assets/journey_live_error_type.png)
 
-動作&#x200B;]**的**[!UICONTROL &#x200B;錯誤型別表格和圖表提供過去24小時內每次執行動作所發生錯誤的完整概觀。
+動作&#x200B;**的**&#x200B;錯誤型別表格和圖表提供過去24小時內每次執行動作所發生錯誤的完整概觀。
 
 ### 過去 24 小時內執行的事件 {#event-executed-24hours}
 
@@ -647,4 +647,4 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 
 ![](assets/journey_live_inapp_interactions.png)
 
-依型別&#x200B;]**的**[!UICONTROL &#x200B;互動圖表和表格詳細說明了使用者如何透過追蹤任何點按、解除或互動來與您的應用程式內訊息互動。
+依型別&#x200B;**的**&#x200B;互動圖表和表格詳細說明了使用者如何透過追蹤任何點按、解除或互動來與您的應用程式內訊息互動。

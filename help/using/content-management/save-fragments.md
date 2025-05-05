@@ -17,7 +17,7 @@ ht-degree: 13%
 
 # 將內容另存為片段 {#save-as-fragment}
 
-在[!DNL Journey Optimizer]中編輯內容時，您可以將全部或部分內容儲存為片段，以供日後重複使用。 您可以從電子郵件Designer](#save-as-visual-fragment)儲存內容為片段[，或從運算式編輯器](#save-as-expression-fragment)儲存內容[。
+在[!DNL Journey Optimizer]中編輯內容時，您可以將全部或部分內容儲存為片段，以供日後重複使用。 您可以從電子郵件Designer[&#128279;](#save-as-visual-fragment)儲存內容為片段[，或從運算式編輯器](#save-as-expression-fragment)儲存內容。
 
 ## 另存為視覺片段 {#save-as-visual-fragment}
 

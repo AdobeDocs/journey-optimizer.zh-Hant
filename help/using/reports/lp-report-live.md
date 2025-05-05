@@ -56,7 +56,7 @@ ht-degree: 13%
 
 **[!UICONTROL 依據訊息的造訪]** / **[!UICONTROL 依據訊息的轉換]**&#x200B;圖表代表過去24小時內與您的登入頁面成功互動的造訪總數和人員（視傳送的訊息而定）。
 
-管道的&#x200B;**[!UICONTROL 造訪次數]** / **[!UICONTROL 管道的轉換]**圖表代表過去24小時內與您的登入頁面成功互動的造訪總數和人員，視管道而定。
+管道的&#x200B;**[!UICONTROL 造訪次數]** / **[!UICONTROL 管道的轉換]**&#x200B;圖表代表過去24小時內與您的登入頁面成功互動的造訪總數和人員，視管道而定。
 +++
 
 如需Adobe Journey Optimizer中每個可用量度的詳細清單，請參閱[此頁面](live-report.md#list-of-components-live)。

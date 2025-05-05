@@ -72,7 +72,7 @@ SPF和DKIM都可用來關聯電子郵件與網域，並共同驗證電子郵件�
 
 * 確定已在[!DNL Journey Optimizer]中為&#x200B;**您已委派**&#x200B;至DMARC的所有子網域設定&#x200B;**Adobe記錄**。 [了解作法](#check-subdomains-for-dmarc)
 
-* 將&#x200B;**任何新子網域**&#x200B;委派給Adobe時，您可以在[!DNL Journey Optimizer]管理介面&#x200B;**中直接**&#x200B;設定DMARC ****。 [了解作法](#implement-dmarc)
+* 將&#x200B;**任何新子網域**&#x200B;委派給Adobe時，您可以在[!DNL Journey Optimizer]管理介面&#x200B;**中直接**&#x200B;設定DMARC **&#x200B;**。 [了解作法](#implement-dmarc)
 
 ## 在[!DNL Journey Optimizer]中實作DMARC {#implement-dmarc}
 

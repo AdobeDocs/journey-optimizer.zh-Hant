@@ -28,7 +28,7 @@ ht-degree: 2%
 * 目前步驟、上一個目前步驟等。
 * 捨棄的設定檔
 
-  此區段](#journey-properties-fields)中的欄位清單為[。
+  此區段[&#128279;](#journey-properties-fields)中的欄位清單為。
 
 您可以使用這些欄位來建立運算式。 在歷程執行期間，系統會直接從歷程擷取值。
 

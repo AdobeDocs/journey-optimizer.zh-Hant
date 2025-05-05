@@ -53,7 +53,7 @@ ht-degree: 0%
 
       [位置](../offers/offer-library/creating-placements.md)是用來展示您的優惠方案的容器。 在此範例中，我們將使用「電子郵件上層影像」位置。 此位置已在選件資料庫中建立，以顯示位於訊息頂端的影像型別選件。
 
-   1. 與所選位置相符的決定隨即顯示。 選取要在內容元件中使用的決定，然後按一下[新增]。****
+   1. 與所選位置相符的決定隨即顯示。 選取要在內容元件中使用的決定，然後按一下[新增]。**&#x200B;**
 
       >[!NOTE]
       >
@@ -81,7 +81,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >在此範例中，我們使用&#x200B;**電子郵件**&#x200B;名稱空間。 在本節](../audience/get-started-identity.md)中進一步瞭解Adobe Experience Platform識別名稱空間[。
+      >在此範例中，我們使用&#x200B;**電子郵件**&#x200B;名稱空間。 在本節[&#128279;](../audience/get-started-identity.md)中進一步瞭解Adobe Experience Platform識別名稱空間。
 
    1. 在&#x200B;**[!UICONTROL 識別值]**&#x200B;欄位中，輸入識別測試設定檔的值。 在此範例中，輸入測試設定檔的電子郵件地址。
 

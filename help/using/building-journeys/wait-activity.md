@@ -49,7 +49,7 @@ ht-degree: 15%
 
 ### 等待和測試模式 {#wait-test-mode}
 
-在測試模式中，測試&#x200B;]**中的**[!UICONTROL &#x200B;等待時間引數可讓您定義每個&#x200B;**等待**&#x200B;活動的持續時間。 預設時間為 10 秒。這將確保您能快速獲得測試結果。 在[此頁面](../building-journeys/testing-the-journey.md)瞭解更多資訊。
+在測試模式中，測試&#x200B;**中的**&#x200B;等待時間引數可讓您定義每個&#x200B;**等待**&#x200B;活動的持續時間。 預設時間為 10 秒。這將確保您能快速獲得測試結果。 在[此頁面](../building-journeys/testing-the-journey.md)瞭解更多資訊。
 
 ### 等待和行動裝置頻道 {#wait-mobile-channels}
 

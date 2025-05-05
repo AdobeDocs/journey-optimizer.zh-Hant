@@ -176,7 +176,7 @@ not 3.15 < 1
 
 >[!NOTE]
 >
-&lt;expression1>和&lt;expression2>沒有資料型別控制項。
+>&lt;expression1>和&lt;expression2>沒有資料型別控制項。
 
 結果是布林值。
 

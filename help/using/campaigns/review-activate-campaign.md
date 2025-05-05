@@ -34,7 +34,7 @@ ht-degree: 7%
 
    ![](assets/create-campaign-alerts.png)
 
-1. 檢查您的行銷活動是否已正確設定，然後按一下[啟動]。****
+1. 檢查您的行銷活動是否已正確設定，然後按一下[啟動]。**&#x200B;**
 
 1. 行銷活動現在已啟用。 其狀態為&#x200B;**[!UICONTROL 即時]**，或者&#x200B;**[!UICONTROL 已排程]** （如果您已輸入開始日期）。 [進一步瞭解行銷活動狀態](get-started-with-campaigns.md#statuses)。
 
