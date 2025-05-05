@@ -25,7 +25,7 @@ ht-degree: 4%
 
 請注意，這項整合僅適用於使用Dynamic Media Manager as a Cloud Service的客戶。
 
-若要進一步瞭解Adobe Experience Manager as a Cloud Service中的Dynamic Media，請參閱[Experience Manager檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}。
+若要進一步瞭解Adobe Experience Manager as a Cloud Service中的Dynamic Media，請參閱[Experience Manager檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}。
 
 ## 新增及管理Dynamic Media {#dynamic-media}
 
@@ -47,7 +47,7 @@ ht-degree: 4%
 
 1. 視需要調整影像引數（例如高度、寬度、旋轉、翻轉、亮度、色相等），以符合您的資產需求。
 
-   如需可新增至URL的影像引數完整清單，請參閱[Experience Manager檔案](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference)。
+   如需可新增至URL的影像引數完整清單，請參閱[Experience Manager檔案](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference)。
 
    ![](assets/dynamic-media-3.png)
 
@@ -100,7 +100,7 @@ ht-degree: 4%
 
 在Journey Optimizer中輕鬆新增動態媒體範本，並視需要更新媒體內容。 您現在可以將個人化欄位整合到媒體中，讓您在Journey Optimizer中建立更自訂且吸引人的內容。
 
-深入瞭解[動態媒體範本](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics)。
+深入瞭解[動態媒體範本](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics)。
 
 ### 使用影像元件 {#image-component}
 
@@ -120,7 +120,7 @@ ht-degree: 4%
 
 1. 在&#x200B;**影像設定**&#x200B;中，瀏覽以存取動態媒體範本的引數。
 
-   可用的欄位取決於Adobe Experience Manager中[範本建立](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters)期間新增的引數。
+   可用的欄位取決於Adobe Experience Manager中[範本建立](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters)期間新增的引數。
 
    ![](assets/dynamic-media-template-3.png)
 

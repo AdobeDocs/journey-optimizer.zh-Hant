@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # 清單選取策略 {#list-selection-strategies}
 
-選擇策略包含與適用性限制相關的集合和排名方法，以決定在[決定原則](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision)中選取時要顯示的優惠。
+選擇策略包含與適用性限制相關的集合和排名方法，以決定在[決定原則](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision)中選取時要顯示的優惠。
 
 您可以透過對優惠資料庫API執行單一GET請求，來檢視所有選擇策略的清單。
 

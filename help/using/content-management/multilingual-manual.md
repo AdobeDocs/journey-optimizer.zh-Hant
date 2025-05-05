@@ -85,7 +85,7 @@ ht-degree: 2%
    >
    >這些先決條件僅是應用程式內和內容卡管道的必要條件。
 
-   1. 在Adobe Experience Platform資料彙集中存取&#x200B;**[!UICONTROL 規則]**&#x200B;功能表並建立新規則。 有關如何建立規則的詳細資訊，請參閱[!DNL Adobe Experience Platform] [資料收集檔案](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. 在Adobe Experience Platform資料彙集中存取&#x200B;**[!UICONTROL 規則]**&#x200B;功能表並建立新規則。 有關如何建立規則的詳細資訊，請參閱[!DNL Adobe Experience Platform] [資料收集檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    2. 在規則的&#x200B;**[!UICONTROL IF]**&#x200B;區段中，新增設定如下的事件：
 

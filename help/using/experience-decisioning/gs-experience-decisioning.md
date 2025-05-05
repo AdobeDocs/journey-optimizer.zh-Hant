@@ -24,7 +24,7 @@ ht-degree: 25%
 
 Decisioning 會透過提供集中行銷產品建議目錄，又稱為「決策項目」，還有複雜的決策引擎，設法簡化個人化。 此引擎運用規則與排名標準來選取並呈現最相關的決定項目給每個人。
 
-這些決定專案會透過[新的程式碼型體驗管道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based) (現在可在Journey Optimizer促銷活動中存取)，順暢地整合至廣泛的傳入介面。
+這些決定專案會透過[新的程式碼型體驗管道](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/code-based-experience/get-started-code-based) (現在可在Journey Optimizer促銷活動中存取)，順暢地整合至廣泛的傳入介面。
 
 >[!IMPORTANT]
 >

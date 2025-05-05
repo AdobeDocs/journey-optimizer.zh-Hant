@@ -63,7 +63,7 @@ ht-degree: 13%
 
 依預設，個人化最佳化模型會使用&#x200B;**優惠點按**&#x200B;作為最佳化量度。 如果您正在使用[!DNL Customer Journey Analytics]，[!DNL Decisioning]可讓您運用自己的自訂量度來最佳化您的模型。
 
-若要這麼做，請存取個人化AI模型建立畫面並展開&#x200B;**[!UICONTROL 轉換事件]**&#x200B;下拉式清單。 來自您的預設[!DNL Customer Journey Analytics] [資料檢視](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}的所有量度都會顯示在清單中。 選取您想要最佳化模型的量度，然後照常完成AI模型建立。
+若要這麼做，請存取個人化AI模型建立畫面並展開&#x200B;**[!UICONTROL 轉換事件]**&#x200B;下拉式清單。 來自您的預設[!DNL Customer Journey Analytics] [資料檢視](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}的所有量度都會顯示在清單中。 選取您想要最佳化模型的量度，然後照常完成AI模型建立。
 
 ![](assets/ai-ranking-custom-metrics.png)
 
@@ -73,7 +73,7 @@ ht-degree: 13%
 >
 >雖然可修改歸因模型，但並非所有歸因模型都適用於AI模型最佳化。 建議您仔細選取符合您最佳化目標的歸因模型，以確保模型精確度和效能。
 >
->如需有關可用歸因模型及其使用指南的詳細資訊，請參閱[[!DNL Customer Journey Analytics] 檔案](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
+>如需有關可用歸因模型及其使用指南的詳細資訊，請參閱[[!DNL Customer Journey Analytics] 檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
 
 +++
 

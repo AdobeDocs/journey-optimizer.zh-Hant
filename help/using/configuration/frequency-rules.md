@@ -134,7 +134,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->為確保每日頻率上限規則的正確性，建議使用[串流分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}。 在[本節](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)中進一步瞭解對象評估方法。
+>為確保每日頻率上限規則的正確性，建議使用[串流分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=zh-Hant){target="_blank"}。 在[本節](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)中進一步瞭解對象評估方法。
 
 ## 啟用商業規則 {#activate-rule}
 

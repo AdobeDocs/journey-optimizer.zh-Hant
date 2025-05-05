@@ -24,8 +24,8 @@ Adobe Experience Platform **Privacy Service** 提供 RESTful API 和使用者介
 
 如需有關 Privacy Service 以及如何建立和管理隱私請求的詳細資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target="_blank"}。
 
-<!--* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
-* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)-->
+<!--* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant)
+* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant)-->
 
 ## 管理您可傳送至 Adobe Journey Optimizer 的個別資料隱私請求 {#data-privacy-requests}
 
