@@ -22,7 +22,7 @@ ht-degree: 17%
 
 >[!CAUTION]
 >
->目前該功能僅適用於電子郵件頻道。
+>目前該功能僅適用於電子郵件管道。
 
 種子地址用於鎖定不符合所定義的目標準則的收件者。如此一來，不在傳遞範圍的收件者可以像任何其他目標收件者一樣接收傳遞。
 
@@ -82,7 +82,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"
 >title="定義種子清單"
->abstract="使用種子清單自動將指定的內部地址新增到您的傳遞對象，當作保障機制。種子清單讓您可以監視發送出去的郵件副本，以確保所有顯示元素正確無誤並保護您的郵寄清單。目前該功能僅適用於電子郵件頻道。"
+>abstract="使用種子清單自動將指定的內部地址新增到您的傳遞對象，當作保障機制。種子清單讓您可以監視發送出去的郵件副本，以確保所有顯示元素正確無誤並保護您的郵寄清單。目前該功能僅適用於電子郵件管道。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單?"
 
 >[!CONTEXTUALHELP]

@@ -10,7 +10,7 @@ level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 100%
 
@@ -18,13 +18,14 @@ ht-degree: 100%
 
 # 設定電子郵件設定 {#email-settings}
 
-若要開始建立電子郵件，您必須設定電子郵件頻道設定，定義郵件所需的所有技術參數。[了解如何建立設定](../configuration/channel-surfaces.md)
+若要開始建立電子郵件，您必須設定電子郵件管道設定，定義郵件訊息所需的所有技術參數。[了解如何建立設定](../configuration/channel-surfaces.md)
 
 >[!NOTE]
 >
 >為了維護您的聲譽並改善您的傳遞能力，在建立電子郵件設定之前，請設定您用於傳送電子郵件的子網域。[了解更多](../configuration/about-subdomain-delegation.md)
 
-在頻道設定的專用區段中定義電子郵件設定，如下所述。
+在管道設定的專用區段中定義電子郵件設定，如下所述。
+
 
 ![](assets/surface-email-settings.png){width="50%" align="left"}
 
@@ -51,7 +52,7 @@ ht-degree: 100%
 
 * 對於非商業電子郵件，請選取&#x200B;**交易型**，例如訂購確認、密碼重設通知或傳遞資訊。這些電子郵件可以傳送給&#x200B;**取消訂閱**&#x200B;行銷通訊的使用者。這些訊息只能在特定情境中傳送。
 
-建立訊息時，您必須選擇符合您為電子郵件選取之類別的有效頻道設定。
+建立訊息時，您必須選擇符合您為電子郵件選取之類別的有效管道設定。
 
 ## 子網域 {#subdomains}
 
@@ -69,7 +70,8 @@ ht-degree: 100%
 
 ![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
-當選取的 IP 集區處於[版本](../configuration/ip-pools.md#edit-ip-pool)（**[!UICONTROL 處理中]**&#x200B;狀態）且從未與所選子網域關聯時，您無法繼續建立設定。否則，仍會使用 IP 集區/子網域關聯的最舊版本。如果是這種情況，請將設定儲存為草稿，並在 IP 集區具有&#x200B;**[!UICONTROL 成功]**&#x200B;狀態時重試。
+當選取的 IP 集區處於[編輯](../configuration/ip-pools.md#edit-ip-pool)（**[!UICONTROL 處理中]**&#x200B;狀態）且從未與所選子網域關聯時，您無法繼續建立設定。
+否則，仍會使用 IP 集區/子網域關聯的最舊版本。如果是這種情況，請將設定儲存為草稿，並在 IP 集區具有**[!UICONTROL 成功]**&#x200B;狀態時重試。
 
 >[!NOTE]
 >
@@ -83,7 +85,7 @@ ht-degree: 100%
 
 ## 清單取消訂閱 {#list-unsubscribe}
 
-從清單中選取子網域後，會顯示&#x200B;**[!UICONTROL 啟用清單取消訂閱]** 選項。這項設定預設為啟用。
+從清單中選取子網域後，會顯示&#x200B;**[!UICONTROL 啟用取消清單訂閱]** 選項。這項設定預設為啟用。
 
 它可讓您在電子郵件標題中加入一鍵式取消訂閱 URL。 [了解更多](list-unsubscribe.md)
 
@@ -95,7 +97,8 @@ ht-degree: 100%
 
 您可以將 [!DNL Journey Optimizer] 傳送之電子郵件的相同副本（或密件副本）傳送至密件副本收件匣，以儲存這些電子郵件以供合規性或封存。
 
-若要這麼做，請在頻道設定層級啟用&#x200B;**[!UICONTROL 密件副本電子郵件]**&#x200B;選用功能。[了解更多](../configuration/archiving-support.md#bcc-email)
+若要這麼做，請在管道設定層級啟用&#x200B;**[!UICONTROL 密件副本電子郵件]**&#x200B;選用功能。
+[了解更多](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
 
@@ -115,13 +118,15 @@ ht-degree: 100%
 >
 >只有當您選取&#x200B;**[!UICONTROL 交易型]**&#x200B;電子郵件類型時，才能使用此選項。[了解更多](#email-type)
 
-在 [!DNL Journey Optimizer] 中，所有標示為永久性退信、暫時性退信和垃圾郵件投訴的電子郵件地址都會自動收集到[禁止名單](../configuration/manage-suppression-list.md)之中，不會被納入到歷程或行銷活動的傳送範圍。
+在 [!DNL Journey Optimizer] 中，所有標示為硬退回、軟退回和垃圾郵件投訴的電子郵件地址都會自動收集到[禁止名單](../configuration/manage-suppression-list.md)之中，不會被納入到歷程或行銷活動的傳送範圍。
+
 
 不過，您可以決定繼續傳送&#x200B;**交易型**&#x200B;類型的訊息給設定檔，即使其電子郵件地址因使用者投訴垃圾郵件而列入禁止名單中亦然。
 
 事實上，交易型訊息通常包含有用的預期資訊，例如訂購確認或密碼重設通知。因此，即使他們將您的一封行銷訊息舉報為垃圾郵件，大多數情況下您仍希望客戶收到此類非商業電子郵件。
 
-若要將因垃圾郵件投訴而被封鎖的電子郵件地址包含在交易型訊息對象中，請從&#x200B;**[!UICONTROL 傳送至封鎖的電子郵件地址]**&#x200B;區段中選取對應的選項。
+若要將因垃圾郵件投訴而被禁止的電子郵件地址包含在交易型訊息收件者中，請從&#x200B;**[!UICONTROL 傳送至非禁止的電子郵件地址]**&#x200B;區段中選取對應的選項。
+
 
 ![](assets/preset-suppressed-email-addresses.png)
 
@@ -145,7 +150,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->目前該功能僅適用於電子郵件頻道。
+>目前該功能僅適用於電子郵件管道。
 
 在&#x200B;**[!UICONTROL 種子清單]**&#x200B;區段中選取與您相關的清單。在[本節](../configuration/seed-lists.md#create-seed-list)之中了解如何建立種子清單。
 
@@ -155,7 +160,7 @@ ht-degree: 100%
 >
 >一次只能選取一個種子清單。
 
-當行銷活動或歷程中使用目前設定時，在傳送執行時候會包含所選種子清單上的電子郵件地址，這表示他們將會收到傳送的副本以供保證。
+當行銷活動或歷程中使用目前設定時，在傳送執行時候會包含所選種子清單上的電子郵件地址，這表示他們將會收到傳送的副本以供驗證之用。
 
 在[本節](../configuration/seed-lists.md#use-seed-list)之中了解如何在行銷活動或歷程中使用種子清單。
 
@@ -173,17 +178,19 @@ ht-degree: 100%
 
 依預設，[重試時段](../configuration/retries.md#retry-duration)設定為 84 小時，但您可以調整此設定以更符合您的需求。
 
-您必須輸入下列範圍內的整數值（小時或分鐘）：
+您必須輸入下列範圍內的整數值 (小時或分鐘)：
+
 
 * 若是行銷電子郵件，最小重試時段為 6 小時。
 * 若是交易型電子郵件，最小重試時段為 10 分鐘。
-* 對於這兩種電子郵件類型，重試時段的上限為 84 小時（或 5040 分鐘）。
+* 對於這兩種電子郵件類型，重試時段的上限為 84 小時 (或 5,040 分鐘)。
+
 
 在[本節](../configuration/retries.md)之中了解重試參數的更多資訊。
 
 ## URL 追蹤 {#url-tracking}
 
-您可以使用 **[!UICONTROL URL 追蹤參數]**&#x200B;來測量跨頻道行銷工作的有效性。[了解更多](url-tracking.md)
+您可以使用 **[!UICONTROL URL 追蹤參數]**&#x200B;來測量跨頻道行銷工作的有效性。[了解更多](url-tracking.md)
 
 ## 執行地址 {#execution-address}
 
@@ -198,12 +205,14 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**&#x200B;選單。
+>若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**選單。
 
-不過，您可以在電子郵件頻道設定層級變更此預設執行欄位。然後，您可以將此設定套用至特定行銷活動或歷程。
 
-若要這麼做，請編輯 **[!UICONTROL 傳送地址]**&#x200B;欄位，並從可用的電子郵件類型 XDM 欄位清單中選取項目。
+不過，您可以在電子郵件管頻道設定層級變更此預設執行欄位。然後，您可以將此設定套用至特定行銷活動或歷程。
+
+若要這麼做，請編輯 **[!UICONTROL 傳遞地址]]**欄位，並從可用的電子郵件類型 XDM 欄位清單中選取項目。
+
 
 ![](assets/email-config-delivery-address.png)
 
-執行欄位會更新，然後作為主要地址使用。它會覆寫沙箱層級的一般設定。
+執行欄位會更新，然後作為預設地址使用。它會覆寫沙箱層級的一般設定。

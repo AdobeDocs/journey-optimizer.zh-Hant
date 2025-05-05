@@ -1,6 +1,6 @@
 ---
 title: 編寫單頁應用程式
-description: 瞭解如何在Journey Optimizer中撰寫SPA及套用修改至不同的檢視
+description: 瞭解如何撰寫SPA及將修改套用至Journey Optimizer中的不同檢視
 feature: Web Channel
 topic: Content Management
 role: User
@@ -33,7 +33,7 @@ ht-degree: 16%
 
 ## 在網頁SDK實作中定義檢視 {#define-views}
 
-Adobe[!DNL Journey Optimizer]可運用XDM檢視，讓行銷人員透過網頁視覺化編輯器在SPA上執行網頁個人化和實驗行銷活動。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hant){target="_blank"}
+在Adobe [!DNL Journey Optimizer]中可運用XDM檢視，讓行銷人員能夠透過Web視覺編輯器在SPA上執行Web個人化和實驗行銷活動。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hant){target="_blank"}
 
 若要能夠在[!DNL Journey Optimizer]使用者介面中存取及編寫檢視，請務必遵循[本節](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}中列出的步驟。
 

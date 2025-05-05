@@ -162,7 +162,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 您可以選擇定義一個時間範圍，萬一[對象評估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}有任何延遲，IP熱身行銷活動可以在此期間執行。 若要這麼做，請按一下左上角計畫名稱旁的「屬性」圖示，然後使用&#x200B;**[!UICONTROL 重試執行時間]**&#x200B;下拉式清單來選取持續時間 — 最多240分鐘（4小時）。
+1. 或者，您可以定義一個時間範圍，在萬一[對象評估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}有任何延遲時，可以執行IP熱身行銷活動。 若要這麼做，請按一下左上角計畫名稱旁的「屬性」圖示，然後使用&#x200B;**[!UICONTROL 重試執行時間]**&#x200B;下拉式清單來選取持續時間 — 最多240分鐘（4小時）。
 
    >[!NOTE]
    >
@@ -254,7 +254,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
      >
      >在後續階段的最後一個參與篩選器沒有變更時，系統不會建立新的對象。
 
-   * 已建立[對象組合](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}，此組合與行銷活動將傳送至的對象相對應，其命名慣例如下： `<warmupName>-Phase<phaseNo>-Run<runNo>`。
+   * 已建立[對象構成](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}，對應促銷活動將傳送至的對象，其命名慣例如下： `<warmupName>-Phase<phaseNo>-Run<runNo>`。
 
      >[!NOTE]
      >
