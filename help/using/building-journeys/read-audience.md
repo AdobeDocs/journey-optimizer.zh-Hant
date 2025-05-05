@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 活動，歷程，讀取，對象，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 3da510cffe6fddc644c867fe8d89da9d9c5861d1
 workflow-type: tm+mt
 source-wordcount: '2195'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -24,41 +24,6 @@ ht-degree: 11%
 >id="ajo_journey_read_segment"
 >title="讀取客群象活動"
 >abstract="「讀取客群」活動可讓您安排屬於 Adobe Experience Platform 客群的所有個人進入歷程。進入歷程可以執行一次，也可以定期執行。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_start_date"
->title="開始日期/時間"
->abstract="定義您想要觸發此歷程的日期和時間。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_repeat_until"
->title="重複直到"
->abstract="定義定期發生的結束日期。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_repeat_every"
->title="重複間隔"
->abstract="定義定期排程器的頻率。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_incremental_read"
->title="增量讀取"
->abstract="僅允許自上次讀取以來的新輪廓進入歷程。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_force_reentrance"
->title="強制重新進入"
->abstract="在每次讀取客群之前，移除所有歷程參與者。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="批次對象評估後觸發"
->abstract="開啟此選項以在重新評估批次對象後觸發歷程執行。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="全新對象評估的等待時間"
->abstract="指定歷程將等待批次對象重新評估的時間長度。 等待期間限製為整數值，可以以分鐘或小時指定，並且必須介於1到6小時之間。"
 
 使用&#x200B;**讀取對象**&#x200B;活動讓對象的所有個人進入歷程。 進入歷程可以執行一次，也可以定期執行。
 
@@ -131,6 +96,41 @@ ht-degree: 11%
 >每個沙箱的整體讀取率設定為每秒20,000個設定檔。 因此，在相同沙箱中同時執行的所有讀取對象讀取率，每秒最多可新增20,000個設定檔。 您無法修改此上限。
 
 ### 排程歷程 {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_start_date"
+>title="開始日期/時間"
+>abstract="定義您想要觸發此歷程的日期和時間。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_until"
+>title="重複直到"
+>abstract="定義定期發生的結束日期。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_every"
+>title="重複間隔"
+>abstract="定義定期排程器的頻率。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_incremental_read"
+>title="增量讀取"
+>abstract="僅允許自上次讀取以來的新輪廓進入歷程。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_force_reentrance"
+>title="強制重新進入"
+>abstract="在每次讀取客群之前，移除所有歷程參與者。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience"
+>title="在進行批次客群評估之後觸發"
+>abstract="將這個選項切換為開始，以便在進行批次客群全新評估之後，觸發歷程執行。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
+>title="全新客群評估的等待時間"
+>abstract="指定歷程將等待批次對象重新評估的時間長度。 等待期間限製為整數值，可以以分鐘或小時指定，並且必須介於1到6小時之間。"
 
 歷程預設會設定為執行一次。 若要定義執行歷程的特定日期/時間和頻率，請遵循下列步驟。
 
