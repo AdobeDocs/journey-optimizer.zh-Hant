@@ -226,7 +226,7 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將收集到&#x200B
 
 ### 複製並貼上預設網域 {#copy-paste}
 
-舉例來說，如果您想建立包含所有Hotmail網域的自訂網域群組，您可以從[IP熱身計畫範本](assets/IPWarmupPlan-Template.xlsx)的&#x200B;**OOTB網域群組**&#x200B;索引標籤，或從](#ip-warmup-plan-tab)上方提供的[清單複製並貼上網域。
+舉例來說，如果您想建立包含所有Hotmail網域的自訂網域群組，您可以從[IP熱身計畫範本](assets/IPWarmupPlan-Template.xlsx)的&#x200B;**OOTB網域群組**&#x200B;索引標籤，或從[&#128279;](#ip-warmup-plan-tab)上方提供的清單複製並貼上網域。
 
 然後使用Excel轉換工具將文字轉換為欄：
 
