@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 運算式，編輯器，關於，開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6ffa9d9125f941febbc894e75dcb1a202e1e9cc0
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1458'
 ht-degree: 10%
 
 ---
@@ -76,6 +76,12 @@ Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。  個人化 
 >在個人化編輯器中編輯個人化URL時，基於安全考量，會停用協助程式功能和對象成員資格。
 >
 >url內使用的個人化權杖不支援空格。
+
++++
+
++++電子郵件設定
+
+建立電子郵件通道設定時，您可以定義子網域、標題和URL追蹤引數的個人化值。 [了解更多](../email/surface-personalization.md)
 
 +++
 
@@ -187,7 +193,7 @@ Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。  個人化 
 {{/each}}
 ```
 
-* **無效的Handlebars語法。 找到`‘[XYZ}}’`**
+* **無效的Handlebars語法。 找到`'[XYZ}}'`**
 
 使用無效的Handlebars語法時。
 
