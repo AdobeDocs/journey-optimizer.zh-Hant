@@ -31,4 +31,4 @@ Adobe Experience Platform對象入口網站可讓您使用CSV檔案匯入對象�
 
 瞭解如何在影片中以CSV格式上傳對象：
 
->[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3423355?quality=12&captions=chi_hant)

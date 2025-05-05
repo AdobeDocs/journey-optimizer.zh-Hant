@@ -236,7 +236,7 @@ ht-degree: 12%
 
   +++請觀看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3451893?quality=12&learn=on&captions=chi_hant)
 
   +++
 
@@ -244,7 +244,7 @@ ht-degree: 12%
 
   +++請觀看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3445299/?learn=on&autoplay=true&captions=chi_hant)
 
   +++
 

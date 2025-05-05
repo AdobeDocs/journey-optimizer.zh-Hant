@@ -197,4 +197,4 @@ Journey Optimizer可讓您透過鎖定整個範本或特定結構和元件，來
 
 瞭解如何鎖定電子郵件範本中的內容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451618?quality=12&captions=chi_hant)
