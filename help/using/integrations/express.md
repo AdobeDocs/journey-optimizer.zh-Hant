@@ -45,12 +45,12 @@ Adobe Journey Optimizer中的Adobe Express整合可讓您在建立內容時輕�
 
 +++擁有Adobe Express企業授權的使用者可用使用案例
 
-* [移除背景](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
-* [移除物件](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [清除](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
-* [插入物件](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
-* [裁切](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
-* [效果](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+* [移除背景](https://helpx.adobe.com/tw/express/create-and-edit-images/edit-images/remove-background.html)
+* [移除物件](https://helpx.adobe.com/tw/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [清除](https://helpx.adobe.com/tw/express/create-and-edit-images/edit-images/eraser.html)
+* [插入物件](https://helpx.adobe.com/tw/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [裁切](https://helpx.adobe.com/tw/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
+* [效果](https://helpx.adobe.com/tw/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
 
 +++
 
