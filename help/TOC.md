@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3cbda018a1380e13ba3670563240238367517353
+source-git-commit: c6553c3012b1be39d8ade96444e3c1b9ded63fa5
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2360'
 ht-degree: 87%
 
 ---
@@ -335,44 +335,20 @@ ht-degree: 87%
       + [在Journey Optimizer中設定LINE頻道](using/line/line-configuration.md)
       + [建立LINE訊息](using/line/create-line.md)
       + [檢查並傳送您的LINE訊息](using/line/send-line.md)
-+ 登陸頁面 {#landing-pages}
-   + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
-   + [建立登陸頁面](using/landing-pages/create-lp.md)
-   + 設計內容 {#landing-pages-design}
-      + [關於登陸頁面設計](using/landing-pages/design-lp.md)
-      + [建立登陸頁面內容](using/landing-pages/lp-content.md)
-      + [建立範本](using/landing-pages/lp-templates.md)
-      + [新增自訂 JavaScript](using/landing-pages/lp-custom-js.md)
-   + [建立訂閱清單](using/landing-pages/subscription-list.md)
-   + [透過使用案例了解](using/landing-pages/lp-use-cases.md)
-   + 設定登陸頁面 {#lp-configuration}
++ 內容管理 {#content-management}
+   + 登陸頁面 {#landing-pages}
+      + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
+      + [建立登陸頁面](using/landing-pages/create-lp.md)
+      + 設計內容 {#landing-pages-design}
+         + [關於登陸頁面設計](using/landing-pages/design-lp.md)
+         + [建立登陸頁面內容](using/landing-pages/lp-content.md)
+         + [建立範本](using/landing-pages/lp-templates.md)
+         + [新增自訂 JavaScript](using/landing-pages/lp-custom-js.md)
+      + [建立訂閱清單](using/landing-pages/subscription-list.md)
+      + [透過使用案例了解](using/landing-pages/lp-use-cases.md)
+      + 設定登陸頁面 {#lp-configuration}
       + [設定登陸頁面子網域](using/landing-pages/lp-subdomains.md)
       + [定義登陸頁面預設集](using/landing-pages/lp-presets.md)
-+ 內容管理 {#content-management}
-   + 用於內容產生的 AI 助理{#ai-assistant}
-      + [開始使用 AI 助理](using/content-management/gs-generative.md)
-      + [使用 AI 來產生電子郵件](using/content-management/generative-email.md)
-      + [使用 AI 來產生推播](using/content-management/generative-push.md)
-      + [使用 AI 來產生簡訊](using/content-management/generative-sms.md)
-      + [使用 AI 來產生網頁](using/content-management/generative-web.md)
-      + [使用 AI 的內容實驗](using/content-management/generative-experimentation.md)
-      + [使用 AI 登陸頁面](using/content-management/generative-lp.md)
-      + [AI 助理使用案例](using/content-management/generative-uc.md)
-      + 品牌（測試版）{#brands}
-         + [建立及管理您的品牌](using/content-management/brands.md)
-         + [評估您的品牌一致性分數](using/content-management/brands-score.md)
-   + 使用多語言內容{#content-multilingual}
-      + [開始使用多語言內容](using/content-management/multilingual-gs.md)
-      + [建立地區](using/content-management/multilingual-locale.md)
-      + [建立語言提供者](using/content-management/multilingual-provider.md)
-      + [使用手動翻譯建立多語言內容](using/content-management/multilingual-manual.md)
-      + [使用自動化翻譯建立多語言內容](using/content-management/multilingual-automated.md)
-   + 使用內容實驗 {#content-experiment}
-      + [開始使用內容實驗](using/content-management/get-started-experiment.md)
-      + [建立內容實驗](using/content-management/content-experiment.md)
-      + 技術說明 {#technotes}
-         + [了解統計計算](using/content-management/experiment-calculations.md)
-         + [了解實驗報告中的統計計算](using/content-management/experiment-report-calculations.md)
    + 個人化 {#personalization}
       + [開始使用個人化](using/personalization/personalize.md)
       + [新增個人化](using/personalization/personalization-build-expressions.md)
@@ -412,6 +388,30 @@ ht-degree: 87%
       + [開始使用動態內容](using/personalization/get-started-dynamic-content.md)
       + [建立條件式規則](using/personalization/create-conditions.md)
       + [建立動態內容](using/personalization/dynamic-content.md)
+   + 用於內容產生的 AI 助理{#ai-assistant}
+      + [開始使用 AI 助理](using/content-management/gs-generative.md)
+      + [使用 AI 來產生電子郵件](using/content-management/generative-email.md)
+      + [使用 AI 來產生推播](using/content-management/generative-push.md)
+      + [使用 AI 來產生簡訊](using/content-management/generative-sms.md)
+      + [使用 AI 來產生網頁](using/content-management/generative-web.md)
+      + [使用 AI 的內容實驗](using/content-management/generative-experimentation.md)
+      + [使用 AI 登陸頁面](using/content-management/generative-lp.md)
+      + [AI 助理使用案例](using/content-management/generative-uc.md)
+      + 品牌（測試版）{#brands}
+         + [建立及管理您的品牌](using/content-management/brands.md)
+         + [評估您的品牌一致性分數](using/content-management/brands-score.md)
+   + 多語言內容{#content-multilingual}
+      + [開始使用多語言內容](using/content-management/multilingual-gs.md)
+      + [建立地區](using/content-management/multilingual-locale.md)
+      + [建立語言提供者](using/content-management/multilingual-provider.md)
+      + [使用手動翻譯建立多語言內容](using/content-management/multilingual-manual.md)
+      + [使用自動化翻譯建立多語言內容](using/content-management/multilingual-automated.md)
+   + 內容實驗 {#content-experiment}
+      + [開始使用內容實驗](using/content-management/get-started-experiment.md)
+      + [建立內容實驗](using/content-management/content-experiment.md)
+      + 技術說明 {#technotes}
+         + [了解統計計算](using/content-management/experiment-calculations.md)
+         + [了解實驗報告中的統計計算](using/content-management/experiment-report-calculations.md)
 + 對象、設定檔與身分{#audiences-profiles-identities}
    + 客群 {#audiences}
       + [開始使用 Audiences](using/audience/about-audiences.md)
