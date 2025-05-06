@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 資產，整合
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: f2c072cd410afac79604cfad532fbd75591b34fa
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 8%
+source-wordcount: '517'
+ht-degree: 7%
 
 ---
 
@@ -31,9 +31,28 @@ Adobe Journey Optimizer中的Adobe Express整合可讓您在建立內容時輕�
 
 若要進一步瞭解Adobe Express，請參閱[本檔案](https://helpx.adobe.com/tw/express/user-guide.html)。
 
-若要存取&#x200B;**[!DNL Adobe Express]**&#x200B;功能表，請從電子郵件設計工具存取您的&#x200B;**影像設定**，然後按一下[在Adobe Express中編輯] **&#x200B;**。
+若要存取&#x200B;**[!DNL Adobe Express]**&#x200B;功能表，請從電子郵件設計工具存取您的&#x200B;**影像設定**，然後按一下[在Adobe Express中編輯] ****。
 
 ![](assets/express_1.png)
+
+## Adobe Express企業授權 {#licence}
+
+沒有Adobe Express Enterprise授權的使用者可存取以下各節中詳述的功能。
+
+透過企業授權，使用者可完整存取Adobe Express編輯器，並可調整色彩、亮度、銳利度、對比度、尺寸和其他設定來修改影像。
+
+![](assets/express-licence.png)
+
++++擁有Adobe Express企業授權的使用者可用使用案例
+
+* [移除背景](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
+* [移除物件](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [清除](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
+* [插入物件](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [裁切](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
+* [效果](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+
++++
 
 ## 調整影像大小 {#resize}
 
@@ -67,7 +86,7 @@ Adobe Journey Optimizer中的Adobe Express整合可讓您在建立內容時輕�
 
 1. 系統會自動顯示您的資產，而不會顯示其背景。
 
-   按一下[套用&#x200B;**&#x200B;**]以將此用於您的內容。
+   按一下[套用&#x200B;****]以將此用於您的內容。
 
    ![](assets/express-background-2.png)
 
@@ -89,7 +108,7 @@ Adobe Journey Optimizer中的Adobe Express整合可讓您在建立內容時輕�
 
    ![](assets/express-crop-2.png)
 
-1. 按一下[套用&#x200B;**&#x200B;**]以將此用於您的內容。 然後，**[!UICONTROL 儲存]**&#x200B;您修改的資產。
+1. 按一下[套用&#x200B;****]以將此用於您的內容。 然後，**[!UICONTROL 儲存]**&#x200B;您修改的資產。
 
 1. 在&#x200B;**[!UICONTROL 上傳影像]**&#x200B;視窗中，按一下&#x200B;**[!UICONTROL 下一步]**，然後選取資料夾以儲存您修改的資產。
 
