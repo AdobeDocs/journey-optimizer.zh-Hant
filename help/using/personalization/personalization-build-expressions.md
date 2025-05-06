@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 運算式，編輯器，關於，開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 6ffa9d9125f941febbc894e75dcb1a202e1e9cc0
+source-git-commit: 192542cf938c583093638c71a3d8728bbaf238b2
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1510'
 ht-degree: 10%
 
 ---
@@ -105,7 +105,7 @@ Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。  個人化 
 >title="自動完成"
 >abstract="啟用此選項後，可允許系統在您輸入時自動建議並完成程式碼。此功能僅適用於 HTML 和文字格式，並支援設定檔和內容屬性。如果透過切換進行停用，編輯器將提供原生 HTML 程式碼自動完成。"
 
-中央工作區是您建置個人化語法的位置。 若要使用屬性來個人化您的訊息，請找到屬性窗格，然後按一下`+`按鈕，將其加入運算式。
+中央工作區是您建置個人化語法的位置。 若要使用屬性來個人化您的訊息，請在左側導覽窗格中找出該屬性，然後按一下`+`按鈕，將該屬性加入運算式中。
 
 ![](assets/personalization-add-attribute.png)
 
@@ -123,7 +123,7 @@ Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。  個人化 
 
 ![](assets/perso_ee2.png)
 
-## 運算式編輯工具
+## 運算式編輯選項 {#options}
 
 中央工作區提供各種工具，協助您撰寫個人化運算式。
 
@@ -146,6 +146,13 @@ Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。  個人化 
    * **On** — 以編輯器的寬度換行。
    * **自動換行** — 當行字元達到80個字元時換行。
    * **已繫結** — 以編輯器寬度或80個字元（以較小者為準）來換行。
+1. **[!UICONTROL Picks]**：將屬性顯示為精簡的「Picks」，藉由隱藏長屬性路徑來改善可讀性。 按一下屬性以顯示其完整路徑。
+
+   >[!NOTE]
+   >
+   >未來30天內，藥丸展示會逐步推廣到所有環境。
+   >
+   >此選項僅適用於設定檔屬性、內容屬性和動態媒體。
 
 在導覽窗格中，有其他功能可協助您建置個人化運算式。
 
