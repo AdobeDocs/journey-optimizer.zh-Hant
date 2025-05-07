@@ -11,11 +11,11 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '1237'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# 發行說明 2025 年 {#release-notes-2025}
+# 2025 年發行說明 {#release-notes-2025}
 
 此頁面列出了於 2025 年發行的[!DNL Journey Optimizer]所有功能和改善。
 
@@ -188,7 +188,7 @@ ht-degree: 94%
 
 **業務規則**
 
-您現在可以在包含批次細分的歷程和行銷活動中，使用每日頻率上限。為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的命名空間。在[平台身分服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中進一步瞭解名稱空間優先順序
+您現在可以在包含批次細分的歷程和行銷活動中，使用每日頻率上限。為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的命名空間。在[平台身分服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}之中進一步了解命名空間優先順序
 
 提醒您，規則集中的每日頻率上限僅適用於一組組織（可用性限制）。 若要取得存取權，請聯絡您的 Adobe 代表。
 
@@ -196,7 +196,7 @@ ht-degree: 94%
 
 **內容範本**
 
-HTML型別內容範本現已棄用。 請注意，您仍可使用先前在[!DNL Journey Optimizer]中建立的現有HTML內容範本。 [進一步瞭解內容範本](../content-management/content-templates.md)
+HTML 類型內容範本現已棄用。 請注意，您仍可使用先前在 [!DNL Journey Optimizer] 中建立的現有 HTML 內容範本。 [進一步瞭解內容範本](../content-management/content-templates.md)
 
 
 <!--**Deliverability**
@@ -237,13 +237,13 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <table>
 <thead>
 <tr>
-<th><strong>使用AI助理產生登陸頁面</strong><br/></th>
+<th><strong>使用 AI 助理產生登陸頁面</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以透過AI Assistant為登陸頁面製作引人入勝的內容，包括全頁設計、個人化文字和自訂視覺效果。</p>
+<p>您現在可以藉助 AI 助理，為登陸頁面製作引人入勝的內容，包括全頁設計、個人化文字和自訂視覺效果。</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>如需詳細資訊，請參閱<a href="../content-management/generative-lp.md">詳細文件</a>。</p>
 </td>
@@ -255,7 +255,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <table>
 <thead>
 <tr>
-<th><strong>具有AI助理的品牌(Beta)</strong><br/></th>
+<th><strong>具有 AI 助理 (Beta) 的品牌</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -306,7 +306,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 </table>
 
 
-### 改進項目 {#25-02-improvements}
+### 功能改進 {#25-02-improvements}
 
 以下列出了 2 月發行的改進項目。
 
