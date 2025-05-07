@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 開始使用客群組合
+title: 開始使用客群構成
 description: 進一步瞭解對象構成
 feature: Audiences, Profiles
 topic: Content Management
@@ -10,12 +10,12 @@ level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 060d65e8d3fb1442b04626170a35d463d1faa514
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 51%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 開始使用客群組合 {#get-start-audience-composition}
+# 開始使用客群構成 {#get-start-audience-composition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
@@ -25,12 +25,12 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
 >title="發佈您的對象"
->abstract="發佈您的組合以將產生的對象儲存到 Adobe Experience Platform 中。"
+>abstract="發佈您的構成以將產生的客群儲存到 Adobe Experience Platform 中。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"
 >title="客群活動"
->abstract="客群活動可讓您在組合中包含屬於現有客群的其他設定檔。"
+>abstract="客群活動可讓您在構成中包含屬於現有客群的其他輪廓。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_merge_types"
@@ -45,7 +45,7 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
 >title="排除活動"
->abstract="排除活動可讓您透過選取現有客群或使用規則從您的組合中排除設定檔。"
+>abstract="排除活動可讓您透過選取現有客群或使用規則從您的構成中排除輪廓。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
@@ -65,17 +65,17 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="擴充屬性"
->abstract="從擴充資料集中選取要和客群相關聯的一或多個屬性。一旦發佈組合，這些屬性就會和客群相關聯，並且可以在 Journey Optimizer 行銷活動中加以利用以將傳遞個人化。"
+>abstract="從擴充資料集中選取要和客群相關聯的一或多個屬性。一旦發佈構成，這些屬性就會和客群相關聯，並且可以在 Journey Optimizer 行銷活動中加以利用以將傳遞個人化。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
 >title="排名活動"
->abstract="排名可讓您根據特定屬性對設定檔進行排名，並將它們包含在您的組合中。例如，包含忠誠度點數最多的 50 個設定檔。"
+>abstract="排名可讓您根據特定屬性對輪廓進行排名，並將它們包含在您的構成中。例如，包含忠誠度點數最多的 50 個設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
 >title="新增設定檔限制"
->abstract="開啟此選項以指定要包含在組合中的設定檔的最大數量。"
+>abstract="開啟此選項以指定要包含在構成中的輪廓的最大數量。"
 
 <!-- [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
@@ -85,7 +85,7 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
 >title="分割活動"
->abstract="分割活動可讓您將組合分成多個路徑。發佈組合時，會針對每個路徑儲存一個客群到 Adobe Experience Platform 中。"
+>abstract="分割活動可讓您將構成分成多個路徑。發佈構成時，會針對每個路徑儲存一個客群到 Adobe Experience Platform 中。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
@@ -105,7 +105,7 @@ ht-degree: 51%
 
 對象構成可讓您建立&#x200B;**構成工作流程**，您可以在其中將現有Adobe Experience Platform對象結合到視覺畫布中，並利用各種活動（分割、排除……）來建立新對象。
 
-完成後，**產生的對象**&#x200B;會連同現有對象一起儲存到Adobe Experience Platform中，並可在Journey Optimizer行銷活動和歷程中運用於鎖定客戶。 瞭解如何在Journey Optimizer中鎖定對象
+完成後，**產生的對象**會連同現有對象一起儲存到Adobe Experience Platform中，並可在Journey Optimizer行銷活動和歷程中運用於鎖定客戶。 瞭解如何在Journey Optimizer中鎖定對象
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
@@ -122,7 +122,7 @@ ht-degree: 51%
 
 * 此&#x200B;**[!UICONTROL 瀏覽]**&#x200B;索引標籤會列出儲存至 Adobe Experience Platform 的所有現有客群。
 
-* 此&#x200B;**[!UICONTROL 組合]**&#x200B;索引標籤可讓您建立組合工作流程，在其中結合並排列客群以建立新客群。
+* 此&#x200B;**[!UICONTROL 構成]**&#x200B;索引標籤可讓您建立構成工作流程，在其中構成並排列客群以建立新客群。
 
 ## 建立構成工作流程 {#create}
 
@@ -146,7 +146,7 @@ ht-degree: 51%
 
    ![](assets/audiences-properties.png)
 
-1. 在&#x200B;**[!UICONTROL 對象]**&#x200B;和&#x200B;**[!UICONTROL 儲存]**&#x200B;活動之間新增所需數量的活動，以設定您的組合。 如需如何建立組合的詳細資訊，請參閱[對象組合檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-composition)。
+1. 在&#x200B;**[!UICONTROL 對象]**&#x200B;和&#x200B;**[!UICONTROL 儲存]**&#x200B;活動之間新增所需數量的活動，以設定您的組合。 如需如何建立組合的詳細資訊，請參閱[對象組合檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)。
 
    ![](assets/audiences-publish.png)
 
@@ -154,7 +154,7 @@ ht-degree: 51%
 
    >[!IMPORTANT]
    >
-   >您可以在指定的沙箱中發佈最多10個組合。 如果您達到此臨界值，則需要刪除組合以釋放空間，才能發佈新的組合。
+   >您可以在指定的沙箱中發佈最多10個組合。 如果您達到此臨界值，則需要刪除構成以釋放空間，才能發佈新的構成。
 
    如果在發佈期間發生任何錯誤，將顯示警報，其中包含如何解決問題的資訊。
 
@@ -166,7 +166,7 @@ ht-degree: 51%
 >
 >來自&#x200B;**對象構成**&#x200B;的對象會每天執行，因此您可能需要等候最多24小時，才能在Journey Optimizer中使用它們。 對象構成對象中的豐富屬性與上次執行構成一樣新，過去最多可達24小時。
 
-## 存取組合 {#access}
+## 存取構成 {#access}
 
 所有建立的構成都可以從&#x200B;**[!UICONTROL 構成]**&#x200B;索引標籤存取。 您可以使用清單中的省略符號按鈕，隨時複製或刪除現有的構成。
 
@@ -179,4 +179,4 @@ ht-degree: 51%
 
 >[!NOTE]
 >
->對象構成目前未與沙箱重設功能整合。 在起始沙箱重設之前，您需要手動刪除您的構圖，以確保適當的清理關聯的對象資料。 Adobe Experience Platform [沙箱檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant#delete-audience-compositions)中有提供詳細資訊
+>對象構成目前未與沙箱重設功能整合。 在起始沙箱重設之前，您需要手動刪除您的構圖，以確保適當的清理關聯的對象資料。 Adobe Experience Platform [沙箱檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)中有提供詳細資訊
