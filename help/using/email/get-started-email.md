@@ -10,9 +10,9 @@ level: Beginner
 keywords: 電子郵件、開始、建立、預覽
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 88%
 <a href="../content-management/generative-email.md">
 <img alt="AI 助理" src="../assets/do-not-localize/email-generate.jpg">
 </a>
-<div>用於產生內容的<a href="../content-management/generative-email.md"><strong>AI小幫手</strong>
+<div><a href="../content-management/generative-email.md"><strong>用於內容產生的 AI 助理</strong>
 </div>
 <p>
 </td>
@@ -104,7 +104,7 @@ ht-degree: 88%
 <img alt="結合您的解決方案" src="../assets/do-not-localize/colors.jpeg">
 </a>
 <div>
-<a href="../integrations/assets.md"><strong>結合Adobe應用程式和解決方案</strong></a>
+<a href="../integrations/assets.md"><strong>結合 Adobe 應用程式與解決方案</strong></a>
 </div>
 <p>
 </td>

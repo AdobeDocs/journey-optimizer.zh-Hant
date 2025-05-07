@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6783'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>在 Journey Optimizer 中，管理行銷活動和歷程的數量和時機，正是避免客戶因互動次數過於頻繁而感到不知所措的重要關鍵。 Journey Optimizer 目前有提供多種衝突管理和排定優先順序工具。 <p>如需詳細資訊，請參閱<a href="../conflict-prioritization/gs-conflict-prioritization.md">詳細文件</a>。</p></p><p><ul><li><b>歷程頻率上限</b>：您目前可以建立規則集，以便套用至歷程中，讓您可以為設定檔限制每日、每週或每月的歷程次數，還能控制同時執行的並行歷程次數。</li>
+<p>在 Journey Optimizer 中，管理行銷活動和歷程的數量與時機，正是避免客戶因互動次數過於頻繁而感到不知所措的重要關鍵。 Journey Optimizer 目前有提供多種衝突管理和排定優先順序工具。 <p>如需詳細資訊，請參閱<a href="../conflict-prioritization/gs-conflict-prioritization.md">詳細文件</a>。</p></p><p><ul><li><b>歷程頻率上限</b>：您目前可以建立規則集，以便套用至歷程中，讓您可以為設定檔限制每日、每週或每月的歷程次數，還能控制同時執行的並行歷程次數。</li>
 <li><b>優先順序分數</b>：您目前可以將優先順序分數指派給行銷活動，或是歷程，分數由 0 到100 分起跳。 分數越高則表示優先順序越高。 當有兩種行銷活動同時使用到相同的管道設定時，Journey Optimizer 就會選取優先順序分數最高的行銷活動。如果行銷活動的分數一樣，就會選擇最近才修改過的行銷活動。</li>
 <li><b>檢視潛在衝突</b>：歷程和行銷活動中的最新「檢視潛在衝突」按鈕目前可以讓您識別與其他歷程，或是行銷活動之間的重疊程度，例如開始日期、目標對象，或是選取的管道設定。</li>
 <li><b>歷程仲裁</b>：這項新功能讓您可以找出最重要的歷程優先順序，再提供給客戶使用。 您可以建立規則，以便在客戶符合即將進入的優先順序較高的歷程資格時，阻止對方進入優先順序較低的歷程。</li>
@@ -391,7 +391,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>待政策通過核准，您就可以立即在 Journey Optimizer 中設定核准程序，允許行銷團隊使用，以確保行銷活動和歷程在正式上線之前，會先由合適的利害關係人負責審核，並完成簽核。</p>
-<p>目前核准原則僅開放給部分組織使用 (有限可用性)。若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<p>目前核准原則僅開放給部分組織使用 (有限可用性)。若要取得存取權，請聯絡您的 Adobe 代表。</p>
 <p>如需詳細資訊，請參閱<a href="../test-approve/gs-approval.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/approval.gif"/>
 </td>
@@ -441,7 +441,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>在您建立並個人化訊息後，請使用Journey Optimizer中的AI助理將您的內容提升到新的境界。 您現在可以使用AI Assistant，透過實驗不同的主要標題和影像來最佳化訊息的影響。 每個變體都會視為獨特的處理來管理，以測量並比較哪個標題能有效產生更多點按次數。</p>
+<p>建立訊息並進行個人化後，請在 Journey Optimizer 使用 AI 助理，把內容提升到新的境界。您目前可以使用 AI 助理，使用不同的主要標題和影像進行實驗，讓訊息的影響力發揮最佳成效。 每個變體都會視為獨特的處理來管理，以測量並比較哪個標題能有效產生更多點按次數。</p>
 <p>透過<a href="https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，沉浸在親身體驗中，讓您親身體驗實際功能並充分瞭解其功能。</a></p>
 <p>如需詳細資訊，請參閱<a href="../content-management/gs-generative.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
@@ -504,7 +504,7 @@ ht-degree: 99%
 
 * **行銷活動模擬 API** - 使用此 API 來觸發行銷活動的校訂工作。傳送行銷活動校訂是種非同步程序，API 將傳回 proofJobId，可用來檢查校訂的狀態。[了解更多](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
-* （推出日期： 9月10日） [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}現在為互動式。 直接從文件頁面那邊探索 API 端點，即可立即取得回饋意見，加快技術實作的速度。
+* (推出日期：9 月 10 日) [Adobe Journey Optimizer API 文件](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}現為互動式。直接從文件頁面那邊探索 API 端點，即可立即取得回饋意見，加快技術實作的速度。
 
 
   所有 API 參考頁面目前都有推出&#x200B;**試用版**&#x200B;功能，您就可以使用此功能，直接在文件網站頁面上測試 API 呼叫。[取得必要的驗證憑證](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}並開始使用該功能，即可探索 API 端點。
@@ -772,7 +772,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>您現在可以在單一行銷活動或歷程中，輕鬆建立多種語言的內容。透過此功能，您可以在編輯行銷活動或歷程時切換語言、簡化整個編輯流程，並提高有效管理多種語言內容的能力。</p>
-<p>多種語言內容目前僅適用於一組組織 (可用性限制)。若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<p>多種語言內容目前僅適用於一組組織 (可用性限制)。若要取得存取權，請聯絡您的 Adobe 代表。</p>
 </td>
 </tr>
 </tbody>
@@ -789,7 +789,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>Adobe Journey Optimizer 現在支援歷程的實驗，行銷活動已提供此功能。實驗是在線上測試的情境下進行的隨機試驗，意即某些隨機選取的使用者會接觸到訊息的指定變化，而另一組隨機選取的使用者則會接觸到一些其他處理方式。 接觸到後，您就可以測量感興趣的結果量度，例如電子郵件開啟、訂閱或購買數。</p>
-<p>歷程的實驗目前僅適用於一組組織 (可用性限制)。若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<p>歷程的實驗目前僅適用於一組組織 (可用性限制)。若要取得存取權，請聯絡您的 Adobe 代表。</p>
 </td>
 </tr>
 </tbody>
@@ -870,7 +870,7 @@ ht-degree: 99%
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* 您現在可以使用 Edge Delivery 外掛程式，取得了解傳入實作及疑難排解所需的資訊。[進一步瞭解Edge Delivery檢視](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}。
+* 您現在可以使用 Edge Delivery 外掛程式，取得了解傳入實作及疑難排解所需的資訊。[了解更多 Edge Delivery 檢視](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}。
 
 
 #### 直接郵件頻道
@@ -898,7 +898,7 @@ ht-degree: 99%
 <td>
 <p>體驗決策透過提供稱為「決策項目」的集中行銷產品建議目錄與複雜的決策引擎來簡化個人化。 此引擎運用規則與排名標準來選取並呈現最相關的決定項目給每個人。</p>
 <p>這些決策項目透過新的程式碼型體驗管道無縫整合到廣泛的傳入設定，現在可在 Journey Optimizer 行銷活動中存取。Experience Decisioning 決策原則僅可用於程式碼型的體驗活動。</p>
-<p>體驗決策目前僅可適用於一組組織 (可用性限制)。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<p>體驗決策目前僅可適用於一組組織 (可用性限制)。 若要取得存取權，請聯絡您的 Adobe 代表。</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>如需詳細資訊，請參閱<a href="../experience-decisioning/gs-experience-decisioning.md">詳細文件</a>。</p>
 </td>
@@ -916,7 +916,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>您可以在建立電子郵件管道設定時，馬上定義動態子網域和個人化標題參數，就能提高電子郵件設定彈性，更能夠掌握得當。</p>
-<p>電子郵件設定個人化目前僅開放給某些組織使用 (有限可用性)。若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<p>電子郵件設定個人化目前僅開放給某些組織使用 (有限可用性)。若要取得存取權，請聯絡您的 Adobe 代表。</p>
 <p>如需詳細資訊，請參閱<a href="../email/surface-personalization.md">詳細文件</a>。</p>
 </td>
 </tr>
