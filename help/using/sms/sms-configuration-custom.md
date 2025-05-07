@@ -162,4 +162,4 @@ ht-degree: 0%
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3431625)
+>[!VIDEO](https://video.tv.adobe.com/v/3443617?captions=chi_hant)
