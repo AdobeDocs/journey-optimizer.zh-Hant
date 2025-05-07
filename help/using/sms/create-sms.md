@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="建立文字訊息。"
->abstract="若要建立文字簡訊 (SMS/SMS)，請在歷程或活動中新增 SMS 動作，然後開始使用個人化編輯器對其進行個人化設定。"
+>abstract="若要建立文字訊息 (簡訊/多媒體簡訊)，請在歷程或行銷活動中新增簡訊動作，然後使用個人化編輯器開始對其進行個人化設定。"
 
 您可以使用Adobe Journey Optimizer設計和傳送文字(SMS)和多媒體(MMS)訊息。 您首先需要在歷程或行銷活動中新增SMS動作，然後定義文字訊息的內容，如下所述。 Adobe Journey Optimizer也提供在傳送文字訊息前先測試訊息的功能，讓您可檢查轉譯、個人化屬性和所有其他設定。
 
@@ -113,7 +113,7 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   > 若要存取及編輯SMS子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理SMS子網域]**&#x200B;許可權。 若要了解權限的詳細資訊，請參閱[本章節](../administration/high-low-permissions.md)。
+   > 若要存取及編輯SMS子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理SMS子網域]**&#x200B;許可權。 若要了解更多關於權限的資訊，請參閱[此區段](../administration/high-low-permissions.md)。
 
    ![](assets/sms_tracking_1.png)
 

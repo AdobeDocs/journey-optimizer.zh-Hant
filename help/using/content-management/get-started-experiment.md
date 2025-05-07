@@ -11,8 +11,8 @@ keywords: 開始使用、開始、內容、實驗
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '2004'
-ht-degree: 99%
+source-wordcount: '2003'
+ht-degree: 98%
 
 ---
 
@@ -92,7 +92,7 @@ Adobe Journey Optimizer 接著會使用進階的「隨時有效」統計方法�
 +++以適當的客群規模或足夠長的時間執行測試
 
 如果您執行測試的時間更長，將能夠偵測不同處理方式之間目標量度的較小差異。不過，如果目標量度的基線值較小，則需要較大的樣本量。
-實驗必須包含的使用者數量取決於您要偵測的效果大小、目標量度的變數或分佈，以及您對誤報的容忍度。在經典實驗，您可使用[樣本數量計算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=zh-Hant){_blank}，確定必須執行測試的時間。 
+實驗必須包含的使用者數量取決於您要偵測的效果大小、目標量度的變數或分佈，以及您對誤報的容忍度。在傳統實驗中，您可以使用[樣本大小電腦](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=zh-Hant){_blank}來決定測試必須執行多久。
 +++
 
 +++了解統計不確定性
@@ -111,7 +111,7 @@ Adobe Journey Optimizer 接著會使用進階的「隨時有效」統計方法�
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_summary"
 >title="摘要小工具"
->abstract="摘要小工具提供實驗結果的概覽，包括實驗有無結論。它提供一個快捷又容易的方式理解您的實驗結果。"
+>abstract="摘要小工具提供實驗結果的概觀，包括實驗有無結論。它提供一個快捷又容易的方式理解您的實驗結果。"
 
 ![](assets/experimentation_report_3.png)
 
