@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面，建立，發佈
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 877a4d148966bf7d872f762ac78e5c725676a54f
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 21%
+source-wordcount: '1524'
+ht-degree: 23%
 
 ---
 
@@ -23,35 +23,6 @@ ht-degree: 21%
 建立登入頁面的主要步驟如下：
 
 ![](assets/lp-creation-process.png)
-
-## 存取登陸頁面 {#access-landing-pages}
-
-若要存取登入頁面清單，請從左側功能表選取&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 登入頁面]**。
-
-![](assets/lp_access-list.png)
-
-**[!UICONTROL 登陸頁面]**&#x200B;清單會顯示所有現有的登陸頁面。 您可以根據它們的狀態、修改日期或標籤來篩選它們。
-
-![](assets/lp_access-list-filter.png)
-
-您也可以從此清單存取複製、刪除、取消發佈登入頁面，或存取登入頁面報表。 對此，請按一下登入頁面旁的三個點，然後選取所需的動作：
-
-![](assets/lp_access-list-actions.png)
-
-
-您可以：
-
-* 針對已發佈的登陸頁面，存取下列&#x200B;**報告**： [登陸頁面報告](../reports/lp-report-global-cja.md)和[過去24小時的即時報告](../reports/lp-report-live.md)。
-
-* **刪除**&#x200B;或&#x200B;**複製**&#x200B;登入頁面。 您無法刪除[已發佈](#publish-landing-page)登陸頁面。 若要刪除它，您必須先&#x200B;**取消發佈**。
-
-* **取消發佈**&#x200B;登陸頁面。
-
-  >[!CAUTION]
-  >
-  >如果您取消發佈訊息中參照的登陸頁面，則連結至登陸頁面的連結將會中斷，且使用者嘗試存取該頁面時，將會收到錯誤頁面。
-
-* 編輯登入頁面的相關[標籤](../start/search-filter-categorize.md#tags)。
 
 ## 建立登陸頁面 {#create-landing-page}
 
@@ -64,7 +35,7 @@ ht-degree: 21%
 >id="ajo_lp_access_management_labels"
 >title="為您的登陸頁面指派標籤"
 >abstract="為了保護敏感的數位資產，您可以定義授權，以使用標籤來管理對登陸頁面的資料存取。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=zh-Hant" text="物件等級存取控制"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="物件等級存取控制"
 
 
 若要建立登入頁面，您必須選取預設集，然後設定主要頁面和子頁面，最後在發佈頁面之前先測試頁面。 這些步驟詳述如下：
@@ -110,14 +81,14 @@ ht-degree: 21%
 >id="ajo_lp_primary_page"
 >title="定義您的主要頁面設定"
 >abstract="使用者點選您的登陸頁面連結 (例如從電子郵件或網站) 後，主要頁面會隨即向使用者顯示。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=zh-Hant" text="設計登陸頁面內容"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="設計登陸頁面內容"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
 >title="定義您的登陸頁面 URL"
 >abstract="在本區段中，定義一個唯一的登陸頁面 URL。URL 的第一部分需要您預先設定一個登陸頁面子網域作為您選取的預設集的一部分。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains" text="設定登陸頁面子網域"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hant#lp-create-preset" text="建立登陸頁面預設集"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="建立登陸頁面預設集"
 
 主要頁面是使用者按一下登陸頁面連結後（例如從電子郵件或網站）立即顯示給使用者的頁面。
 
@@ -183,8 +154,8 @@ ht-degree: 21%
 >id="ajo_lp_access_settings-subpage"
 >title="定義您的登陸頁面 URL"
 >abstract="在本區段中，定義一個唯一的登陸頁面 URL。URL 的第一部分需要您預先設定一個登陸頁面子網域作為您選取的預設集的一部分。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html?lang=zh-Hant" text="設定登陸頁面子網域"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hant#lp-create-preset" text="建立登陸頁面預設集"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="設定登陸頁面子網域"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="建立登陸頁面預設集"
 
 您最多可新增 2 個子頁面。例如，您可以建立一個「感謝」頁面，該頁面將在使用者提交表單後顯示，而且您可以定義一個錯誤頁面，如果登陸頁面出現問題，將呼叫該頁面。
 
@@ -214,7 +185,7 @@ ht-degree: 21%
 >id="ac_preview_lp_profiles"
 >title="預覽和測試您的登陸頁面"
 >abstract="定義登陸頁面設定和內容後，您就可以使用測試設定檔進行預覽。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=zh-Hant" text="選取測試輪廓"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html" text="選取測試輪廓"
 
 定義登入頁面設定和內容後，您就可以使用測試設定檔來預覽。 如果您已插入[個人化內容](../personalization/personalize.md)，您可以使用測試設定檔資料檢查此內容在登入頁面中的顯示方式。
 
@@ -303,6 +274,6 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->您無法將建立頁面[&#128279;](#create-landing-page)時所定義的URL複製貼入網頁瀏覽器，即使已發佈，也無法存取您的登入頁面。 您可以改用預覽函式來測試，如[此區段](#test-landing-page)中所述。
+>您無法將建立頁面](#create-landing-page)時所定義的URL複製貼入網頁瀏覽器，即使已發佈，也無法存取您的登入頁面。 [您可以改用預覽函式來測試，如[此區段](#test-landing-page)中所述。
 
 您可以透過特定報告監控您的登入頁面影響。 [了解更多](../reports/lp-report-live.md)

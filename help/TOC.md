@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+source-git-commit: ce76c1b7c60ad3a3ffba7350fd61cf80eb6dad49
 workflow-type: tm+mt
-source-wordcount: '2365'
+source-wordcount: '2369'
 ht-degree: 99%
 
 ---
@@ -339,6 +339,7 @@ ht-degree: 99%
    + 登陸頁面 {#landing-pages}
       + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
       + [建立登陸頁面](using/landing-pages/create-lp.md)
+      + [管理您的登入頁面](using/landing-pages/manage-lp.md)
       + 設計內容 {#landing-pages-design}
          + [關於登陸頁面設計](using/landing-pages/design-lp.md)
          + [建立登陸頁面內容](using/landing-pages/lp-content.md)
@@ -347,8 +348,8 @@ ht-degree: 99%
       + [建立訂閱清單](using/landing-pages/subscription-list.md)
       + [透過使用案例了解](using/landing-pages/lp-use-cases.md)
       + 設定登陸頁面 {#lp-configuration}
-      + [設定登陸頁面子網域](using/landing-pages/lp-subdomains.md)
-      + [定義登陸頁面預設集](using/landing-pages/lp-presets.md)
+         + [設定登陸頁面子網域](using/landing-pages/lp-subdomains.md)
+         + [定義登陸頁面預設集](using/landing-pages/lp-presets.md)
    + 個人化 {#personalization}
       + [開始使用個人化](using/personalization/personalize.md)
       + [新增個人化](using/personalization/personalization-build-expressions.md)
