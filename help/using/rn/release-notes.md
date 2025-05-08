@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 72553cb3570b375b5bdf9cdebbfbf17e52c805da
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 46%
+source-wordcount: '985'
+ht-degree: 74%
 
 ---
 
@@ -24,6 +24,15 @@ ht-degree: 46%
 
 ## 2025年5月更新 {#25-5-rn}
 
+* **決策 — 新AI公式產生器** — 推出日期： 2025年5月7日
+
+  您現在可以從改善的新介面定義並結合條件，以建立特定的決定排名公式。 排名公式可讓您定義規則來決定應先呈現哪些決策項目，而不是考慮優先等級分數。
+
+  如需詳細資訊，請參閱[詳細檔案](../experience-decisioning/exd-ranking-formulas.md)
+
+  ![](assets/do-not-localize/formula-builder.gif)
+
+
 * **個人化的Papers啟用** — 推出日期： 2025年5月5日
 
   新的「藥丸」按鈕已新增至個人化編輯器。 啟用後，設定檔和內容屬性會顯示為Pills，增強程式碼的可讀性。 [閱讀全文](../personalization/personalization-build-expressions.md#options)
@@ -32,9 +41,9 @@ ht-degree: 46%
   >
   >此功能將在接下來的30天內逐步推廣到所有環境。
 
-## 2025年4月發行說明 {#25-4-rn}
+## 2025 年 4 月發行說明 {#25-4-rn}
 
-**發行日期**： 2025年4月29至30日
+**發行日期**：2025 年 4 月 29-30 日
 
 ### 新功能 {#25-04-features}
 
@@ -43,15 +52,15 @@ ht-degree: 46%
 <table>
 <thead>
 <tr>
-<th><strong>Personalization編輯器 — 透過實踐學習</strong><br/></th>
+<th><strong>個人化編輯器 — 透過實踐學習</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在提供個人化遊樂場，您可以在其中實驗個人化運算式。 它可讓您探索範例範本和裝載，以幫助您開始並試用您自己的個人化運算式。</p>
+<p>現在提供個人化遊樂場，您可以在其中嘗試個人化運算式。 它可讓您探索範例範本與裝載，以幫助您開始並試用自己的個人化運算式。</p>
 <p>如需詳細資訊，請參閱<a href="../personalization/personalize.md#playground">詳細文件</a>。</p>
-<p>推出日期： 2025年4月24日</p>
+<p>推出日期： 2025 年 4 月 24 日</p>
 <img src="assets/do-not-localize/templating-playground.gif"/>
 </td>
 </tr>
@@ -164,13 +173,13 @@ ht-degree: 46%
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Express整合（可用性限制）</strong><br/></th>
+<th><strong>Adobe Express 整合 (有限可用性)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer現在與Adobe Express整合，可讓您透過journey orchestration順暢地連線創意資產。 此整合可簡化跨行銷活動設計和部署個人化內容的程式。 </p>
+<p>Adobe Journey Optimizer 現在與 Adobe Express 整合，可讓您透過 journey orchestration 順暢地連線創意資產。 此整合可簡化跨行銷活動設計和部署個人化內容的程式。 </p>
 <p>此整合目前不適用於Healthcare Shield或Privacy and Security Shield。</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>如需詳細資訊，請參閱<a href="../integrations/express.md">詳細文件</a>。</p>
@@ -182,13 +191,13 @@ ht-degree: 46%
 <table>
 <thead>
 <tr>
-<th><strong>批次細分完成後觸發每日歷程執行（可用性限制）</strong><br/></th>
+<th><strong>批次細分完成後觸發每日歷程執行 (有限可用性)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>對於每日排程的歷程，新選項可讓您定義最多6小時的時間範圍，以等待批次分段工作的對象資料，確保歷程以最新資料執行，如果未準備就緒則予以跳過。 批次對象評估後觸發選項僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。</p>
+<p>對於每日排程的歷程，新選項可讓您定義最多 6 小時的時間範圍，以等待批次分段工作的對象資料，確保歷程以最新資料執行，如果未準備就緒則予以跳過。 批次客群評估後觸發選項僅適用於一般組織 (有限可用性)。若要取得存取權，請聯絡您的 Adobe 代表。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/read-audience.md#schedule">詳細文件</a>。</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>
@@ -218,7 +227,7 @@ ht-degree: 46%
 <table>
 <thead>
 <tr>
-<th><strong>品牌一致性分數(Beta)</strong><br/></th>
+<th><strong>品牌一致性分數 (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -264,11 +273,11 @@ ht-degree: 46%
 
   Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows.-->
 
-* **自訂動作的沙箱工具**
+* **自訂操作的沙箱工具**
 
-  自訂動作現在包含在可以使用沙箱工具功能複製的Adobe Journey Optimizer物件清單中，以簡化測試和部署。 [閱讀全文](../configuration/copy-objects-to-sandbox.md)
+  自訂操作現在包含在可以使用沙箱工具功能複製的 Adobe Journey Optimizer 物件清單中，以簡化測試和部署。 [閱讀全文](../configuration/copy-objects-to-sandbox.md)
 
-* **行銷活動的沙箱工具** — 推出日期： 2025年4月3日
+* **行銷活動的沙箱工具** — 推出日期： 2025 年 4 月 3 日
 
   您現在可以使用套件匯出和匯入功能，跨多個沙箱複製行銷活動。 行銷活動會連同與輪廓、對象、結構描述、內嵌訊息以及從屬物件相關的所有項目一起複製。 有些項目不會複製，例如決定項目、資料使用標籤及語言設定。 [閱讀全文](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
@@ -276,9 +285,9 @@ ht-degree: 46%
 
 * **新的內容屬性**
 
-  新的內容屬性&#x200B;**訊息設定檔ID**&#x200B;現在可從個人化編輯器選取。 這是訊息導向屬性，可唯一識別傳送中傳送至每個目標設定檔的每個訊息。 例如，此唯一識別碼可用作URL追蹤引數，以區分收件者開啟或點按的每個連結。
+  新的內容屬性&#x200B;**訊息輪廓 ID** 現在可從個人化編輯器選取。 這是訊息導向屬性，可唯一識別傳送期間傳送至每個目標輪廓的每個訊息。 例如，此唯一識別碼可用作 URL 追蹤參數，區分收件者開啟或點擊的每個連結。
 
-* **在屬性窗格中填入屬性** — 使用日期： 2025年4月2日
+* **在屬性窗格中填入屬性** — 推出日期： 2025 年 4 月 2 日
 
   個人化編輯器的屬性窗格，現在預設僅顯示已填入的屬性。 若要檢視所有屬性，請使用設定按鈕來關閉&#x200B;**[!UICONTROL 僅顯示填入的屬性]**&#x200B;選項。 [閱讀全文](../personalization/personalization-build-expressions.md)
 

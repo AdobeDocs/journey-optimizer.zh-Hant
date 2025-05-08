@@ -6,19 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 13%
+source-wordcount: '604'
+ht-degree: 5%
 
 ---
 
 # 排名方法 {#rankings}
-
->[!CONTEXTUALHELP]
->id="ajo_exd_config_formulas"
->title="建立排名公式"
->abstract="公式可讓您定義規則，以決定應先呈現哪個項目，而不是考慮項目的優先順序分數。 建立排名方法後，您可以將其指派給選擇策略以定義應先選取哪些項目。"
 
 排名方法可讓您針對要針對指定設定檔顯示的專案進行排名。 建立排名方法後，您可以將其指派給選擇策略以定義應先選取哪些項目。
 
@@ -42,7 +37,7 @@ ht-degree: 13%
 
    有關如何建立排名公式和AI模型的詳細資訊，請參閱決策管理檔案：
 
-   * [排名公式](../offers/ranking/create-ranking-formulas.md)
+   * [排名公式](exd-ranking-formulas.md)
    * [AI 模型](../offers/ranking/ai-models.md)
 
    >[!NOTE]
@@ -63,7 +58,7 @@ ht-degree: 13%
 
 依預設，個人化最佳化模型會使用&#x200B;**優惠點按**&#x200B;作為最佳化量度。 如果您正在使用[!DNL Customer Journey Analytics]，[!DNL Decisioning]可讓您運用自己的自訂量度來最佳化您的模型。
 
-若要這麼做，請存取個人化AI模型建立畫面並展開&#x200B;**[!UICONTROL 轉換事件]**&#x200B;下拉式清單。 來自您的預設[!DNL Customer Journey Analytics] [資料檢視](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}的所有量度都會顯示在清單中。 選取您想要最佳化模型的量度，然後照常完成AI模型建立。
+若要這麼做，請存取個人化AI模型建立畫面並展開&#x200B;**[!UICONTROL 轉換事件]**&#x200B;下拉式清單。 來自您的預設[!DNL Customer Journey Analytics] [資料檢視](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}的所有量度都會顯示在清單中。 選取您想要最佳化模型的量度，然後照常完成AI模型建立。
 
 ![](assets/ai-ranking-custom-metrics.png)
 
@@ -73,13 +68,17 @@ ht-degree: 13%
 >
 >雖然可修改歸因模型，但並非所有歸因模型都適用於AI模型最佳化。 建議您仔細選取符合您最佳化目標的歸因模型，以確保模型精確度和效能。
 >
->如需有關可用歸因模型及其使用指南的詳細資訊，請參閱[[!DNL Customer Journey Analytics] 檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
+>如需有關可用歸因模型及其使用指南的詳細資訊，請參閱[[!DNL Customer Journey Analytics] 檔案](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
 
 +++
 
 ## 在公式中善用決定專案屬性 {#items}
 
 排名公式以&#x200B;**PQL語法**&#x200B;表示，而且可以利用各種屬性，例如設定檔屬性、[內容資料](context-data.md)以及與決策專案相關的屬性。
+
+>[!NOTE]
+>
+>如需如何使用PQL語法的詳細資訊，請參閱[專屬檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=zh-Hant)
 
 若要在公式中運用與決策專案相關的屬性，請務必遵循排名公式程式碼中的以下語法。 展開每個區段以取得詳細資訊：
 

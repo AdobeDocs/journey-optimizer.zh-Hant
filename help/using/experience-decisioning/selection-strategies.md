@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 20%
@@ -19,14 +19,14 @@ ht-degree: 20%
 >id="ajo_exd_config_strategies"
 >title="定義您的選擇策略"
 >abstract="選擇策略可重複使用，並包括與適用性限制和排名方法相關聯的集合，用以確定在選取某個決定原則時要顯示的產品建議。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=zh-Hant" text="建立決定原則"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="建立決定原則"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
 >title="限制符合資格的設定檔"
 >abstract="您可以限制此選擇策略的產品建議選擇。 預設情況下，所有設定檔都符合資格，但您可以使用對象或規則將產品建議選擇限制為僅限特定設定檔。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=zh-Hant" text="使用對象"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html?lang=zh-Hant" text="使用決定規則"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用對象"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="使用決定規則"
 
 選取策略可重複使用，包含與適用性限制關聯的集合，以及決定在[決定原則](create-decision.md)中選取時顯示的優惠的排名方法。
 
@@ -88,7 +88,7 @@ ht-degree: 20%
 >id="ajo_exd_strategy_ranking"
 >title="定義如何對產品建議進行排名"
 >abstract="如果多個產品建議符合特定的選擇策略，請在建立選擇策略時選擇為每個設定檔選取最佳產品建議的方法：優先順序或排名公式。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=zh-Hant" text="建立決定原則"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="建立決定原則"
 
 如果數個優惠方案符合指定的選取策略資格，您可以選擇在建立選取策略時，用來選取每個設定檔之最佳優惠方案的方法。 您可以依下列方式排名優惠方案：
 
@@ -108,7 +108,7 @@ ht-degree: 20%
 
 除了優惠優先順序之外，Journey Optimizer還可讓您建立&#x200B;**排名公式**。 這些公式可決定應先針對指定位置顯示哪個優惠，而不是考慮優惠的優先順序分數。
 
-例如，您可以提升結束日期距離現在不足24小時的所有優惠方案的優先順序，或如果設定檔的興趣點為「執行中」，則提升「執行中」類別的優惠方案。 瞭解如何在[本節](ranking.md)中建立排名公式。
+例如，您可以提升結束日期距離現在不足24小時的所有優惠方案的優先順序，或如果設定檔的興趣點為「執行中」，則提升「執行中」類別的優惠方案。 瞭解如何在[本節](exd-ranking-formulas.md)中建立排名公式。
 
 建立之後，您可以在選擇策略中使用此公式。 使用此選取策略時，如果多個優惠方案符合呈現的條件，決策將使用選取的公式來計算要先傳送哪個優惠方案。
 
