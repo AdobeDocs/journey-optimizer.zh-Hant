@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 00ddfe985258eed766c6626a95c3ca1ae0e3cc96
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1777'
 ht-degree: 11%
 
 ---
@@ -246,6 +246,10 @@ ht-degree: 11%
        }
    }
    ```
+
+   >[!CAUTION]
+   >
+   >將`dryRun`標幟新增至您的請求時，將無法擷取回饋意見以供報表使用，也無法新增頻率計數器。
 
 1. 若要檢視決策的執行狀況，您現在可以建立自訂[Customer Journey Analytics報告控制面板](cja-reporting.md)。
 
