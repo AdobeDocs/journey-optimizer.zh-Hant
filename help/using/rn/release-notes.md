@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f8c08461b82aea5680c3fa9631f5361b78daafe6
+source-git-commit: 942fa8e40768f7252702fbf9bc5fc23bdaff40ac
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 72%
+source-wordcount: '1022'
+ht-degree: 69%
 
 ---
 
@@ -20,22 +20,21 @@ ht-degree: 72%
 >title="新增功能？"
 >abstract="**Adobe Journey Optimizer** 持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每月最後一週整合於發行說明。"
 
-[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}。
 
 ## 2025年5月更新 {#25-5-rn}
 
+* **登入頁面的資料夾** — 推出日期： 2025年5月9日
+
+  為了輕鬆管理您的登入頁面，您現在可以使用資料夾，以更有效的方式將其組織到簡化的階層中。  [閱讀全文](../landing-pages/manage-lp.md)
+
 * **決策 — 新AI公式產生器** — 推出日期： 2025年5月7日
 
-  您現在可以從改善的新介面定義並結合條件，以建立特定的決定排名公式。 排名公式可讓您定義規則來決定應先呈現哪些決策項目，而不是考慮優先等級分數。
+  您現在可以從改善的新介面定義並結合條件，以建立特定的決定排名公式。 您可以定義自訂排名公式，這些公式會透過引導式介面組合AI模型分數、優惠方案優先順序、設定檔屬性、優惠方案屬性和內容訊號，而不是僅依賴靜態優惠方案優先順序。
 
   如需詳細資訊，請參閱[詳細檔案](../experience-decisioning/exd-ranking-formulas.md)
 
   ![](assets/do-not-localize/formula-builder.gif)
-
-
-* **登入頁面的資料夾** — 推出日期： 2025年5月7日
-
-  為了輕鬆管理您的登入頁面，您現在也可以使用資料夾，以更有效的方式將其組織到簡化的階層中。  [閱讀全文](../landing-pages/manage-lp.md)
 
 * **個人化的Papers啟用** — 推出日期： 2025年5月5日
 
@@ -186,7 +185,7 @@ ht-degree: 72%
 <p>Adobe Journey Optimizer 現在與 Adobe Express 整合，可讓您透過 journey orchestration 順暢地連線創意資產。 此整合可簡化跨行銷活動設計和部署個人化內容的程式。 </p>
 <p>此整合目前不適用於Healthcare Shield或Privacy and Security Shield。</p>
 <img src="assets/do-not-localize/express_resize.gif">
-<p>如需詳細資訊，請參閱<a href="../integrations/express.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../integrations/express.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -238,7 +237,7 @@ ht-degree: 72%
 <tr>
 <td>
 <p>品牌一致性分數功能可直接在電子郵件設計工具中提供清楚的意見回饋，協助您檢視內容是否與品牌的語調、風格和指導方針一致。 Beta提供此功能。</p>
-<p>如需詳細資訊，請參閱<a href="../content-management/brands-score.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content-management/brands-score.md">詳細說明文件</a>。</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
 </tr>
