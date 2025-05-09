@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面，清單，訂閱，服務
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c66fe22f0cf81cf8e14592df1433739735afbe43
+source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 7%
@@ -22,7 +22,7 @@ ht-degree: 7%
 >id="ajo_subscription_list"
 >title="設定訂閱清單"
 >abstract="建立訂閱清單以收集已選擇接收有關特定主旨或事件的通訊內容的設定檔。 "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html?lang=zh-Hant#define-subscription-list" text="建立訂閱清單"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html#define-subscription-list" text="建立訂閱清單"
 
 訂閱服務是指為已選擇接收特定主旨/事件/興趣/等之通訊的客戶提供的行銷商品和服務。 持續進行。 在[!DNL Journey Optimizer]中，這些選擇加入的客戶會收集到訂閱清單中。
 
