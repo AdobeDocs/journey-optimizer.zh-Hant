@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5e82bd6cfcb186fef324627e353b9e54d2332c3e
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 19%
@@ -21,7 +21,7 @@ ht-degree: 19%
 
 若要管理您的片段，請從&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 片段]**&#x200B;左側功能表存取片段清單。
 
-目前沙箱上建立的所有片段 — 使用[另存為片段](#save-as-fragment)選項從&#x200B;**[!UICONTROL 片段]**&#x200B;功能表[&#128279;](#create-fragments)中的 — 都會顯示。
+目前沙箱上建立的所有片段 — 使用[另存為片段](#save-as-fragment)選項從&#x200B;**[!UICONTROL 片段]**&#x200B;功能表](#create-fragments)中的[ — 都會顯示。
 
 左側的窗格可讓您將片段整理到資料夾中。 依預設，會顯示所有片段。 選取資料夾時，只會顯示所選資料夾中包含的片段和資料夾。 [了解更多](#folders)
 
@@ -86,7 +86,7 @@ ht-degree: 19%
 
    ![](assets/fragment-create-folder.png)
 
-1. 輸入新資料夾的名稱，然後按一下[儲存]。**&#x200B;** 新資料夾會顯示在&#x200B;**[!UICONTROL Root]**&#x200B;資料夾內的片段清單上方，或顯示在目前選取的資料夾內。
+1. 輸入新資料夾的名稱，然後按一下[儲存]。**** 新資料夾會顯示在&#x200B;**[!UICONTROL Root]**&#x200B;資料夾內的片段清單上方，或顯示在目前選取的資料夾內。
 
 1. 您可以按一下&#x200B;**[!UICONTROL 其他動作]**&#x200B;按鈕，重新命名或刪除資料夾。
 
@@ -94,7 +94,7 @@ ht-degree: 19%
 
 1. 使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕，您也可以將片段移動到另一個現有的資料夾。
 
-   ![](assets/fragment-folder-moved.png)
+   <!--![](assets/fragment-folder-moved.png)-->
 
 1. 現在您可以導覽至您剛建立的資料夾。 您[從此處](create-fragments.md)建立的每個新片段都會儲存到目前的資料夾中。
 
