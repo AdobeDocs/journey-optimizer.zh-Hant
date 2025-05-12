@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: 運算式，編輯器，開始，個人化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: e19a85d05fcb7727c3086f16e2e4f066a5ecd55c
+source-git-commit: 85fc6bdc6386f52374172d50667edeea5344011f
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 26%
+source-wordcount: '506'
+ht-degree: 25%
 
 ---
 
@@ -51,7 +51,7 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 
 ![個人化遊樂場](assets/playground.png)
 
-➡️[存取個人化遊樂場](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️[存取個人化遊樂場](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## 讓我們深入探討
 
@@ -77,7 +77,7 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 </td>
 <td>
 <a href="../personalization/functions/functions.md">
-<img alt="不頻繁" src="assets/do-not-localize/functions.png">
+<img alt="不常使用" src="assets/do-not-localize/functions.png">
 </a>
 <div>
 <a href="../personalization/functions/functions.md"><strong>協助程式函式清單</strong></a>
@@ -85,7 +85,7 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 <p></td>
 <td>
 <a href="../personalization/personalization-use-case.md">
-<img alt="不頻繁" src="assets/do-not-localize/uc.png">
+<img alt="不常使用" src="assets/do-not-localize/uc.png">
 </a>
 <div>
 <a href="../personalization/personalization-use-case.md"><strong>Personalization使用案例</strong></a>
@@ -97,9 +97,12 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 
 瞭解如何使用歷程中的內容事件資訊來個人化訊息。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448153?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 了解如何將以輪廓為基礎的個人化新增至訊息，以及如何使用客群成員資格作為個人化區塊的先決條件。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
+瞭解如何善用個人化編輯器遊樂場，使用範例資料來撰寫及測試個人化程式碼。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
