@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 3e4d030fb655c32f340d1fa54726b1dc2ce7a1e8
+source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -19,22 +19,22 @@ ht-degree: 0%
 
 在程式碼型體驗中使用決策時，請考慮在下列所述的情況下將下列標幟新增到您的使用者端實作。
 
-## 使用決定測試程式碼型體驗
+## 使用決定測試程式碼型體驗 {#code-based-test-decisions}
 
 目前您無法在[程式碼型體驗](create-code-based.md)促銷活動或歷程中使用決定，從使用者介面模擬內容。
 
 暫行解決方法是將`dryRun`旗標新增至使用者端實作中的XDM事件`data`區塊，以在發佈行銷活動後測試決策：
 
     &quot;
-    &lbrace;
-    &quot;資料&quot;： &lbrace;
-    &quot;__adobe&quot;： &lbrace;
-    &quot;ajo&quot;： &lbrace;
+    {
+    &quot;資料&quot;： {
+    &quot;__adobe&quot;： {
+    &quot;ajo&quot;： {
     &quot;dryRun&quot;： true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
     &quot;&#39;
 
 >[!CAUTION]
