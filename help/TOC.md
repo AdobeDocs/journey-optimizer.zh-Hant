@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ce76c1b7c60ad3a3ffba7350fd61cf80eb6dad49
+source-git-commit: fe909a37c67030e59c665a80292feb8d289ddd35
 workflow-type: tm+mt
-source-wordcount: '2369'
+source-wordcount: '2374'
 ht-degree: 99%
 
 ---
@@ -311,6 +311,7 @@ ht-degree: 99%
          + [護欄和限制](using/code-based/code-based-prerequisites.md)
          + [程式碼型體驗表面](using/code-based/code-based-surface.md)
          + [實施方法範例](using/code-based/code-based-implementation-samples.md)
+         + [在程式碼型實施中決定重複資料刪除](using/code-based/code-based-decisioning-deduplication.md)
          + [建立程式碼型體驗設定](using/code-based/code-based-configuration.md)
       + 建立程式碼型體驗 {#create-code-based-experiences}
          + [建立並撰寫程式碼型體驗](using/code-based/create-code-based.md)
