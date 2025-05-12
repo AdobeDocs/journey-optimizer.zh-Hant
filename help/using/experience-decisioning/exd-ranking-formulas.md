@@ -5,7 +5,10 @@ feature: Ranking, Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+hide: true
+hidefromtoc: true
+exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
+source-git-commit: d7b1809fa2d04e5477fe375699153315365a6f3b
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 0%
@@ -103,7 +106,7 @@ To leverage data from an AEP dataset, you can select it in the **[!UICONTROL ELS
    >
    >按一下欄位旁的圖示，新增預先定義的變數。
 
-1. 按一下[新增條件]&#x200B;**&#x200B;**，視需要多次新增一或多個條件。 邏輯如下：
+1. 按一下[新增條件]****，視需要多次新增一或多個條件。 邏輯如下：
    * 如果指定決策專案的第一個條件為true，則其優先於下一個條件。
    * 如果不為true，則決策引擎會繼續執行第二個標準，以此類推。
 

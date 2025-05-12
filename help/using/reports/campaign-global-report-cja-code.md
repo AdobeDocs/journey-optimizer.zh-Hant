@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+source-git-commit: d7b1809fa2d04e5477fe375699153315365a6f3b
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '854'
 ht-degree: 2%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 2%
 
 ![](assets/cja-top-decisions-ctr.png)
 
-依CTR **排名的**&#x200B;個最上層決定專案表格會根據個別專案的點進率來強調其效能。 此量度有助於評估哪些專案最能有效吸引使用者並促進互動。
+依CTR ]**排名的**[!UICONTROL &#x200B;個最上層決定專案表格會根據個別專案的點進率來強調其效能。 此量度有助於評估哪些專案最能有效吸引使用者並促進互動。
 
 * **[!UICONTROL 點進率(CTR)]**：使用者點按連結、廣告或推薦的次數與顯示次數比較的百分比。
 
@@ -161,7 +161,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->保留和模型驅動流量&#x200B;**的**&#x200B;轉換率只有在將AI模型整合至行銷活動時才可供使用。 [了解更多](../experience-decisioning/ranking.md)
+>保留和模型驅動流量&#x200B;]**的**[!UICONTROL &#x200B;轉換率只有在將AI模型整合至行銷活動時才可供使用。 [了解更多](../experience-decisioning/ranking.md)
 
 ![](assets/cja-decisioning-conversion.png)
 
@@ -170,7 +170,7 @@ ht-degree: 2%
 * **模型導向**：使用者會收到由AI模型排名的內容，針對相關性和參與度進行最佳化。
 
 * **保留**：使用者在模型探索階段會收到隨機提供的內容。
-
+<!--
 >[!CAUTION]
 >
->使用合併到[排名公式](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula)中的AI模型時，轉換率報表中不會反映資料。
+>When using an AI model incorporated into a [ranking formula](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula), data are not reflected in the Conversion rate report.-->
