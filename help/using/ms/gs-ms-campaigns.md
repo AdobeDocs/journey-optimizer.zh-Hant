@@ -1,44 +1,65 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 開始使用協調的行銷活動
+title: 開始使用精心策劃的行銷活動
 description: 瞭解如何從協調的行銷活動開始
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 7cd52f1954e50be521a6fc9ae26fb63586c53faa
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 16%
+source-wordcount: '529'
+ht-degree: 21%
 
 ---
 
-# 開始使用協調的行銷活動 {#ms-camp}
+# 開始使用精心策劃的行銷活動 {#ms-camp}
 
->[!BEGINSHADEBOX]
 
-**目錄**
++++目錄
 
-* 設定： [設定您的協調行銷活動](gs-campaign-config.md)
-* 設定： [建立關聯式結構描述](ms-schemas.md)
-* 建立您的第一個協調行銷活動： [關鍵原則](gs-campaign-creation.md)
+歡迎！
+
+* 開始使用精心策劃的行銷活動
+* [重要原則](gs-campaign-creation.md)
+* [建立協調行銷活動的步驟](gs-campaign-steps.md)
+
+
+設定步驟
+
+* [建立關係結構](ms-schemas.md)
+
+建立步驟
+
 * [建立協調行銷活動](create-ms-campaign.md)
 * [設定行銷活動設定](ms-campaign-settings.md)
-* [個人化您的訊息](ms-personalization.md)
-* [建立查詢](ms-query-modeler.md)
-* [測試及驗證您的訊息](ms-proofs.md)
 * [排程並啟動您的行銷活動](start-monitor-campaigns.md)
-* 活動： [開始使用活動](activities/about-activities.md)
+* [建立查詢](ms-query-modeler.md)
+
+活動
+
+* [開始使用活動](activities/about-activities.md)
 * [協調活動](orchestrate-activities.md)
-* [並加入](activities/and-join.md) - [建置對象](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [管道動作](activities/channels.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [調解](activities/reconciliation.md) - [分割](activities/split.md) - &lt;！—[測試](activities/test.md) —> [等待](activities/wait.md)
-* 監視： [報告](reporting-campaigns.md)
+* [並加入](activities/and-join.md) - [建置對象](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [調解](activities/reconciliation.md) - [分割](activities/split.md) - <!--[Test](activities/test.md) --> [等待](activities/wait.md)
 
->[!ENDSHADEBOX]
 
-精心安排的行銷活動可增強Adobe Journey Optimizer，方法為引入強大的品牌啟動批次行銷活動功能，讓您透過進階分段策略來規劃和協調跨頻道行銷活動。
+訊息
+
+* [頻道動作](activities/channels.md)
+* [個人化您的訊息](ms-personalization.md)
+* [測試及驗證您的訊息](ms-proofs.md)
+
+報告與監控
+
+* [報告](reporting-campaigns.md)
+
++++
+
 
 ## 什麼是協調的行銷活動？
+
+精心安排的行銷活動可增強Adobe Journey Optimizer，方法為引入強大的品牌啟動批次行銷活動功能，讓您透過進階分段策略來規劃和協調跨頻道行銷活動。
 
 跨管道行銷對於任何希望有效率觸及客戶的企業是必要的。Adobe Journey Optimizer提供完整的圖形環境，可讓您設計複雜的流程，協助您輕鬆管理行銷活動。 透過協調的行銷活動，您可以協調全方位的流程和任務，提升行銷活動各方面的速度和規模，從建立區段、準備訊息到傳遞。 此外，您可以讓您的管道與一個易於使用的單一介面同步，用於行銷活動協調流程。
 
@@ -68,7 +89,7 @@ Campaign Orchestration支援資料導向式決策，可針對動態豐富的資�
 <img alt="存取並管理工作流程" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
-<a href="gs-campaign-creation.md"><strong>配置步驟</strong></a>
+<a href="gs-campaign-creation.md"><strong>設定步驟</strong></a>
 </div>
 <p>
 </td>
@@ -82,7 +103,7 @@ Campaign Orchestration支援資料導向式決策，可針對動態豐富的資�
 </td>
 <td>
 <a href="activities/about-activities.md">
-<img alt="不頻繁" src="assets/do-not-localize/workflow-activities.jpeg">
+<img alt="不常使用" src="assets/do-not-localize/workflow-activities.jpeg">
 </a>
 <div>
 <a href="activities/about-activities.md"><strong>使用活動</strong></a>

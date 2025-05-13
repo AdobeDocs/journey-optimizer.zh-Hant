@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7d70ffcb1fb3469084dda302a4b29d22df7fe9ea
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
 source-wordcount: '2374'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -174,33 +174,35 @@ ht-degree: 99%
          + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
 + 協調的行銷活動 {#orchestrated-campaigns}
    + [開始使用精心策劃的行銷活動](using/ms/gs-ms-campaigns.md)
-   + 設定 {#ms-config}
-      + [設定步驟](using/ms/gs-campaign-config.md)
+   + [主要原則](using/ms/gs-campaign-creation.md)
+   + [建立協調行銷活動的步驟](using/ms/gs-campaign-steps.md)
+   + 設定步驟 {#ms-config}
       + [建立關係結構](using/ms/ms-schemas.md)
-   + 建立您第一個精心策畫的行銷活動 {#create-ms-campaign}
-      + [主要原則](using/ms/gs-campaign-creation.md)
+   + 建立步驟{#create-ms-campaign}
       + [建立協調行銷活動](using/ms/create-ms-campaign.md)
-      + [協調活動](using/ms/orchestrate-activities.md)
       + [設定行銷活動設定](using/ms/ms-campaign-settings.md)
+      + [排程並啟動您的行銷活動](using/ms/start-monitor-campaigns.md)
       + [建置查詢](using/ms/ms-query-modeler.md)
-      + [測試並驗證您的訊息](using/ms/ms-proofs.md)
-      + [排程及開始您的行銷活動](using/ms/start-monitor-campaigns.md)
-      + [精心策劃的行銷活動報告](using/ms/reporting-campaigns.md)
-      + [管理個人化](using/ms/ms-personalization.md)
-   + 精心策劃的行銷活動 {#design-campaigns}
-      + [關於精心策劃的行銷活動](using/ms/activities/about-activities.md)
+   + 活動 {#design-campaigns}
+      + [開始使用活動](using/ms/activities/about-activities.md)
+      + [協調活動](using/ms/orchestrate-activities.md)
       + [合併連結](using/ms/activities/and-join.md)
       + [建置客群](using/ms/activities/build-audience.md)
       + [變更維度](using/ms/activities/change-dimension.md)
       + [合併](using/ms/activities/combine.md)
       + [重複資料刪除](using/ms/activities/deduplication.md)
-      + [頻道動作](using/ms/activities/channels.md)
       + [擴充](using/ms/activities/enrichment.md)
       + [分支](using/ms/activities/fork.md)
       + [調和](using/ms/activities/reconciliation.md)
       + [分割](using/ms/activities/split.md)
       + [測試](using/ms/activities/test.md)
       + [等待](using/ms/activities/wait.md)
+   + 訊息 {#messages}
+      + [頻道動作](using/ms/activities/channels.md)
+      + [個人化您的內容](using/ms/ms-personalization.md)
+      + [測試並驗證您的訊息](using/ms/ms-proofs.md)
+   + 報告與監控 {#report}
+      + [報告](using/ms/reporting-campaigns.md)
 + 行銷活動 {#campaigns}
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
    + [建立行銷活動](using/campaigns/create-campaign.md)
