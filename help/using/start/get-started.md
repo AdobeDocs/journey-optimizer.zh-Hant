@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: e758e4f3532d9f1abb7a564431993c11032804ba
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 86%
@@ -67,15 +67,13 @@ You can also create audience-based campaigns to send messages.-->
 
 在下圖中了解 [!DNL Adobe Journey Optimizer] 的基礎架構、整合點，以及 [!DNL Journey Optimizer] 和 [!DNL Experience Platform] 之間的關係。
 
-Adobe Experience Platform是強大、彈性、開放和集中的資料基礎，可收集、標準化、控管、將AI見解套用至並整合資料，以提供有思考力的相關數位客戶
-體驗。
+Adobe Experience Platform是強大、彈性、開放和集中的資料基礎，可收集、標準化、控管、將AI見解套用至並整合資料，以提供有思考力的相關數位客戶體驗。
 
 ![](assets/ajo-aep-architecture-diagram.png){width="70%" zoomable="yes"}
 
 Experience Platform上原生建置了四個應用程式：Adobe Real-Time Customer Data Platform、Journey Optimizer、Customer Journey Analytics和Adobe Mix Modeler。
 
-Journey Optimizer的核心功能和服務會在Adobe Experience Platform的基本元件之外運作，其中包括即時客戶個人檔案。 雖然Journey Optimizer可順暢運作，並可與Real-Time CDP和Customer Journey Analytics相互操作，但您可以
-也可獨立當成獨立應用程式運作。
+Journey Optimizer的核心功能和服務會在Adobe Experience Platform的基本元件之外運作，其中包括即時客戶個人檔案。 雖然Journey Optimizer可順暢運作，並可與Real-Time CDP和Customer Journey Analytics相互操作，但它也可以作為獨立應用程式獨立運作。
 
 ![](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
 
