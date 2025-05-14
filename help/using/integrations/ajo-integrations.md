@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 621f9bcb32d108490e7674778ce40385938af18e
+source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 91%
+source-wordcount: '766'
+ht-degree: 87%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 91%
 
 >[!NOTE]
 >
-> Built on Adobe Experience Platform, Adobe Journey Optimizer is natively connected to [Adobe Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}. 此內建資料來源已預先設定，且設計旨在從即時客戶輪廓擷取並使用資料 (例如，檢查進入歷程的人員是否為客戶)。 其可讓您使用個人檔資料與體驗事件資料。 [了解更多](../datasource/adobe-experience-platform-data-source.md)。
+> Adobe Journey Optimizer以Adobe Experience Platform為基礎，以原生方式連線至[Adobe即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}。 此內建資料來源已預先設定，且設計旨在從即時客戶輪廓擷取並使用資料 (例如，檢查進入歷程的人員是否為客戶)。 其可讓您使用個人檔資料與體驗事件資料。 [了解更多](../datasource/adobe-experience-platform-data-source.md)。
 >
 
 ## Adobe Customer Journey Analytics {#integration-cja}
 
 在 Journey Optimizer 產生資料之後，您可利用 Customer Journey Analytics 對該資料執行進階分析。
 
-Journey Optimizer 會將資料儲存在 Adobe Experience Platform，並利用 Customer Journey Analytics，透過自動化報告分送與資料的自訂視覺效果，全面掌握您的所有歷程、行銷活動及產品建議。
+Journey Optimizer會將資料儲存在Adobe Experience Platform，並利用Customer Journey Analytics，透過自動化報表分送與資料的自訂視覺效果，全面掌握您的所有歷程、行銷活動及選件。
 
 在 Journey Optimizer 建立您的歷程之後，Customer Journey Analytics 可從平台擷取資料以開始報告，並了解客戶與您歷程每次互動的影響。
 
@@ -82,15 +82,15 @@ Customer AI 可讓品牌建立流失率或轉換機器學習型分數，這些�
 
 使用 Adobe Workfront 中的 Adobe Journey Optimizer 模組來建立、讀取、更新或刪除記錄，或對 Adobe Journey Optimizer API 執行自訂 API 呼叫。
 
-An overview of the key step of this integration is available [in this blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
+此部落格[提供這項整合的關鍵步驟概述](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}。
 
-Learn more about Journey Optimizer + Adobe Workfront [in Adobe Workfront documentation](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hant){target="_blank"}.
+在Journey Optimizer檔案](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hant){target="_blank"}中進一步瞭解Adobe Workfront + Adobe Workfront [。
 
 ## 自訂通道 {#integration-custom}
 
-如果您使用協力廠商系統來傳送訊息，或想要歷程傳送 API 呼叫至協力廠商系統，請使用自訂動作來連線至您的歷程。 For example, you can connect to the following systems with custom actions: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, etc.
+如果您使用協力廠商系統來傳送訊息，或想要歷程傳送 API 呼叫至協力廠商系統，請使用自訂動作來連線至您的歷程。 例如，您可以使用自訂動作連線到下列系統：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase等。
 
-自訂動作是技術使用者定義的其他動作，可供行銷人員使用。 在設定之後，其會顯示在您歷程的左側浮動視窗，位於&#x200B;**[!UICONTROL 動作]**&#x200B;類別。 在[此頁面](../building-journeys/about-journey-activities.md#action-activities)瞭解更多資訊。
+自訂動作是技術使用者定義的其他動作，可供行銷人員使用。 在設定之後，其會顯示在您歷程的左側浮動視窗，位於&#x200B;**[!UICONTROL 動作]**&#x200B;類別。 請在[此頁面](../building-journeys/about-journey-activities.md#action-activities)了解更多。
 
 深入了解[自訂動作](../action/about-custom-action-configuration.md)。
 

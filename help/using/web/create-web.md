@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1362'
 ht-degree: 18%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >由於&#x200B;**Web**&#x200B;是傳入訊息活動，因此它附帶3天&#x200B;**等待**&#x200B;活動。 [了解更多](../building-journeys/wait-activity.md#auto-wait-node)
+   >由於&#x200B;**Web**&#x200B;是傳入體驗活動，因此它附帶3天&#x200B;**等待**&#x200B;活動。 [了解更多](../building-journeys/wait-activity.md#auto-wait-node)
 
 1. 為您的訊息輸入&#x200B;**[!UICONTROL 標籤]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
@@ -93,7 +93,7 @@ ht-degree: 18%
 
 如需如何設定行銷活動的詳細資訊，請參閱[此頁面](../campaigns/get-started-with-campaigns.md)。
 
-➡️[在此影片中瞭解如何建立網路行銷活動](#video)
+➡️ [在此影片中瞭解如何建立網站行銷活動](#video)
 
 >[!ENDTABS]
 
@@ -241,4 +241,4 @@ ht-degree: 18%
 
 以下影片說明如何建立網站行銷活動、設定其屬性、檢閱及發佈。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449992/?quality=12&learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

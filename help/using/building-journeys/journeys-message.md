@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 40c067d85b278380abd874fc6edc69f32c0c56ef
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 18%
+source-wordcount: '496'
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="內建頻道動作"
->abstract="Journey Optimizer 內建頻道動作功能。您只需在您的歷程中新增傳出 (電子郵件、簡訊 (SMS/MMS)、推播) 或傳入 (應用程式內、網頁版、基於程式碼的體驗、內容卡片) 活動，並定義設定和內容。接著會根據歷程的內容執行和傳送該活動。"
+>abstract="Journey Optimizer 內建頻道動作功能。您只需新增訊息(電子郵件、簡訊(SMS/MMS)、推播)或傳入體驗（應用程式內、網路、程式碼型體驗、內容卡片）活動至您的歷程中，並定義設定和內容即可。 接著會根據歷程的內容執行和傳送該活動。"
 
 [!DNL Journey Optimizer]附帶內建頻道動作功能，可用來傳送訊息：當設定檔進入此活動時，會傳送訊息給設定檔。
 
@@ -60,10 +60,10 @@ ht-degree: 18%
       </td>
       <td>
       <a href="../push/create-push.md">
-      <img alt="不頻繁" src="../assets/do-not-localize/push.jpg">
+      <img alt="不常使用" src="../assets/do-not-localize/push.jpg">
       </a>
       <div>
-      <a href="../push/create-push.md"><strong>建立推播通知<strong></a>
+      <a href="../push/create-push.md"><strong>建立推播<strong></a>
       </div>
       <p>
       </td>
@@ -109,7 +109,7 @@ ht-degree: 18%
       </td>
       <td>
       <a href="../code-based/create-code-based.md">
-      <img alt="不頻繁" src="../assets/do-not-localize/web-design.jpg">
+      <img alt="不常使用" src="../assets/do-not-localize/web-design.jpg">
       </a>
       <div>
       <a href="../code-based/create-code-based.md"><strong>建立程式碼型體驗<strong></a>
@@ -121,7 +121,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->* 每個傳入訊息活動都隨附3天&#x200B;**等待**&#x200B;活動。 [了解更多](wait-activity.md#auto-wait-node)
+>* 每個傳入體驗活動都隨附3天&#x200B;**等待**&#x200B;活動。 [了解更多](wait-activity.md#auto-wait-node)
 >
 >* 針對電子郵件與推播通知，您可以啟用傳送時間最佳化。 [了解更多](send-time-optimization.md)
 
