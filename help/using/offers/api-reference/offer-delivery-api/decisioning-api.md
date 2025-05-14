@@ -218,4 +218,4 @@ The following video is intended to support your understanding of the components 
 
 ## 後續步驟 {#next-steps}
 
-依照此API指南，您已使用[!DNL Decisions] API建立和傳遞優惠方案。 如需詳細資訊，請參閱決策管理](../../../offers/get-started/starting-offer-decisioning.md)的[概觀。
+依照此API指南，您已使用[!DNL Decisions] API建立和傳遞優惠方案。 如需詳細資訊，請參閱決策管理[&#128279;](../../../offers/get-started/starting-offer-decisioning.md)的概觀。
