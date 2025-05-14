@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 增強的電子郵件製作體驗
 description: 瞭解如何使用可重複使用的主題和模組簡化電子郵件建立，確保行銷活動中的設計一致性和效率。
-feature: Email Theme Management, Modules
-topic: Email Design
-role: Marketer
-level: Intermediate
+feature: Email Design
+topic: Content Management
+role: User
+level: Beginner, Intermediate
 keywords: 電子郵件主題，模組，可重複使用，品牌一致性，電子郵件設計，自訂CSS，行動裝置最佳化
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: d550765b378bfa2fdf0638da01c297792e0876ef
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 3%
@@ -114,7 +114,7 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
    <!--![](assets/theme-buttons.png)-->
 
-1. 按一下[儲存]儲存此佈景主題以供日後使用。**&#x200B;**
+1. 按一下[儲存]儲存此佈景主題以供日後使用。****
 
 ## 套用主題至電子郵件 {#apply-themes}
 
