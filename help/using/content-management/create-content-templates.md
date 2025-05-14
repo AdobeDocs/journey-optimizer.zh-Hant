@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '661'
 ht-degree: 16%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 16%
 
 1. 若要指派自訂或核心資料使用標籤給範本，您可以選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)。
 
-1. 按一下「建立&#x200B;**&#x200B;**」，並視需要設計您的內容，就像您在歷程或行銷活動中的任何內容所做的一樣 — 根據您選取的頻道。
+1. 按一下「建立&#x200B;****」，並視需要設計您的內容，就像您在歷程或行銷活動中的任何內容所做的一樣 — 根據您選取的頻道。
 
    ![](assets/content-template-edition.png)
 
@@ -73,13 +73,17 @@ ht-degree: 16%
 
 1. 您可以測試內容。 [了解作法](#test-template)
 
-1. 範本準備就緒後，請按一下[儲存]。**&#x200B;**
+1. 範本準備就緒後，請按一下[儲存]。****
 
 1. 按一下範本名稱旁的箭頭，返回&#x200B;**[!UICONTROL 詳細資料]**&#x200B;畫面。
 
    ![](assets/content-template-back.png)
 
 此範本現在已準備好在[!DNL Journey Optimizer]內建置任何內容時使用。 [了解作法](#use-content-templates)
+
+>[!NOTE]
+>
+>建立電子郵件內容範本時，若要快速套用符合您的品牌和設計的特定樣式，您可以將主題套用至內容。 [了解更多](../email/apply-email-themes.md)
 
 ## 將內容儲存為內容範本 {#save-as-template}
 

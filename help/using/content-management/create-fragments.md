@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 16%
+source-wordcount: '700'
+ht-degree: 14%
 
 ---
 
@@ -66,6 +66,14 @@ ht-degree: 16%
 * 針對視覺片段，視需要編輯您的內容，就像處理歷程或行銷活動中的任何電子郵件一樣。 [了解更多](../email/get-started-email-design.md)
 
   ![](assets/fragment-designer.png)
+
+  若要快速套用符合您的品牌和設計的特定樣式，您可以將[佈景主題](../email/apply-email-themes.md)套用至您的片段。
+
+  ![](assets/fragment-themes.png)
+
+  >[!CAUTION]
+  >
+  >佈景主題和傳統模式之間的片段不相容。 為了能夠在您想要套用主題的內容中使用片段，此片段必須在主題模式中建立。 [進一步瞭解主題](../email/apply-email-themes.md)
 
 * 針對運算式片段，利用[!DNL Journey Optimizer]個人化編輯器及其所有個人化和編寫功能，建置您的片段內容。 [了解更多](../personalization/personalization-build-expressions.md)
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 電子郵件，匯入，內容， html， zip， css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 33%
 
 [!DNL Journey Optimizer]可讓您匯入現有的HTML內容，以設計您的電子郵件。 此內容可以是：
 
-* 包含合併樣式表的&#x200B;**HTML檔案**；
+* **HTML檔案**，包含合併的樣式表；
 * **.zip資料夾**&#x200B;包含HTML檔案、樣式表(.css)和影像。
 
   >[!NOTE]
@@ -47,11 +47,11 @@ ht-degree: 33%
 
    >[!NOTE]
    >
-   > 使用`<table>`標籤做為HTML檔案中的第一個圖層可能會造成樣式遺失，包括上層圖層標籤中的背景和寬度設定。
+   > 在HTML檔案中使用`<table>`標籤做為第一個圖層可能會造成樣式遺失，包括上層圖層標籤中的背景和寬度設定。
 
-1. 您現在可以根據需要，使用電子郵件Designer功能[瞭解更多](content-from-scratch.md)個人化匯入的檔案。
+1. 您現在可以根據需要，使用電子郵件Designer功能個人化匯入的檔案。 [了解更多](content-from-scratch.md)
 
-## 作法影片 {#video}
+## 操作說明影片 {#video}
 
 瞭解如何匯入現有的 HTML 內容、調整設計、新增鏡像頁面和取消訂閱連結，以及如何編寫內容的程式碼。
 
