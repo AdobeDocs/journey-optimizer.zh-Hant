@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: d2451bbaf9830ce3d928e71a609627c23a7566fa
+source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '729'
 ht-degree: 3%
 
 ---
@@ -26,11 +26,11 @@ ht-degree: 3%
 
    1. **批次POST要求**，用以啟動工作負載，以批次處理選件選擇。
 
-   2. 取得批次工作負載狀態的&#x200B;**批次GET請求**。
+   2. **批次GET請求**&#x200B;以取得批次工作負載狀態。
 
 * 將資料集匯出至訊息傳送供應商API。
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=zh-Hant) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -51,13 +51,13 @@ ht-degree: 3%
 
 除了[決定管理API開發人員指南](../getting-started.md)中參考的標頭外，所有[!DNL Batch Decisioning]要求都需要下列標頭：
 
-* `Content-Type`： `application/json`
+* `Content-Type`：`application/json`
 * `x-request-id`：識別要求的唯一字串。
 * `x-sandbox-name`：沙箱名稱。
 
 ## 開始批次處理 {#start-a-batch-process}
 
-若要啟動工作負載以批次處理決定，請向`/workloads/decisions`端點發出POST請求。
+若要啟動工作負載以批次處理決定，請對`/workloads/decisions`端點發出POST請求。
 
 >[!NOTE]
 >
@@ -104,7 +104,6 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 | -------- | ----------- | ------- |
 | `xdm:activityId` | 決定的唯一識別碼。 |
 | `xdm:dataSetId` | 可寫入決定事件的輸出資料集。 | `6196b4a1a63bd118dafe093c` |
-| `xdm:enrichedAudience` | 如果您正在定位CSV對象，請新增此引數並將其設為「true」 | `true` |
 | `xdm:includeContent` | 這是選擇性欄位，預設為`false`。 如果`true`，則選件內容會包含在資料集的決定事件中。 | `false` |
 | `xdm:itemCount` | 此選擇性欄位會顯示專案數量，例如為決定範圍要求的選項。 依預設，API會針對每個範圍傳回一個選項，但您可以指定此欄位以明確要求更多選項。 每個範圍最多可請求30個選項，最少為1個。 | `1` | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | 唯一位置識別碼。 | `xcore:offer-placement:1410c4117306488a` |
@@ -133,7 +132,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 ## 擷取批次決定的資訊 {#retrieve-information-on-a-batch-decision}
 
-若要擷取特定決定的資訊，請對`/workloads/decisions`端點提出GET要求，同時為您決定提供對應的工作負載ID值。
+若要擷取特定決定的資訊，請對`/workloads/decisions`端點提出GET要求，同時為您的決定提供對應的工作負載ID值。
 
 **API格式**
 
@@ -180,4 +179,4 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 
 ## 後續步驟 {#next-steps}
 
-依照此API指南，您已使用[!DNL [!DNL Batch Decisioning]] API檢查工作負荷狀態和傳遞的選件。 如需詳細資訊，請參閱決策管理[&#128279;](../../get-started/starting-offer-decisioning.md)的概觀。
+依照此API指南，您已使用[！DNL [!DNL Batch Decisioning]] API檢查工作負荷狀態和傳遞的選件。 如需詳細資訊，請參閱決策管理](../../get-started/starting-offer-decisioning.md)的[概觀。

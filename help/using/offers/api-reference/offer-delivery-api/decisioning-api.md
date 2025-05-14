@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: f415209a7a62c8b7936abdb474b1b5b70c788973
+source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1027'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 使用決定管理，您可以使用商業邏輯和決定規則，跨頻道和應用程式建立並提供使用者個人化的優惠體驗。 優惠方案是行銷訊息，其中可能包含與其關聯的規則，以指定誰有資格檢視優惠方案。
 
-您可以向[!DNL Decisioning] API發出POST要求，以建立並傳遞優惠方案。
+您可以對[!DNL Decisioning] API發出POST要求，以建立並傳遞優惠方案。
 
 本教學課程需要實際瞭解API，特別是有關決定管理。 如需詳細資訊，請參閱[決定管理API開發人員指南](../getting-started.md)。 本教學課程還要求您有唯一的位置ID和決定ID值可用。 如果您尚未取得這些值，請參閱[建立位置](../offers-api/placements/create.md)和[建立決定](../activities-api/activities/create.md)的教學課程。
 
@@ -112,6 +112,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:allowDuplicatePropositions` | 此物件是去重複化規則的控制項結構。 它包含一系列標幟，標幟指出是否可以在特定維度中建議相同的選項。 若標幟設為true，表示允許重複專案，且標幟指示的類別中不應移除重複專案。 設為false的標幟表示決定引擎不應跨維度提出相同主張，而是為其中一個子決定挑選下一個最佳選項。 |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | 若設為true，系統可能會將相同選項指派給多個決策。 | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | 若設為true，系統可能會將相同選項指派給多個版位。 | `"xdm:acrossPlacements": true` |
+| `xdm:enrichedAudience` | 如果您正在定位CSV對象，請新增此引數並將其設為「true」 | `"xdm:enrichedAudience": true` |
 | `xdm:mergePolicy.xdm:id` | 識別用來控管設定檔存取服務傳回資料的合併原則。 如果未在請求中指定，決策管理將不會傳遞任何設定檔存取服務，否則將會傳遞呼叫者提供的ID。 | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | 設定回應內容格式的一組標幟。 |
 | `xdm:responseFormat.xdm:includeContent` | 布林值，如果設為`true`，會包含回應的內容。 | `"xdm:includeContent": true` |
@@ -217,4 +218,4 @@ The following video is intended to support your understanding of the components 
 
 ## 後續步驟 {#next-steps}
 
-依照此API指南，您已使用[!DNL Decisions] API建立和傳遞優惠方案。 如需詳細資訊，請參閱決策管理[&#128279;](../../../offers/get-started/starting-offer-decisioning.md)的概觀。
+依照此API指南，您已使用[!DNL Decisions] API建立和傳遞優惠方案。 如需詳細資訊，請參閱決策管理](../../../offers/get-started/starting-offer-decisioning.md)的[概觀。

@@ -1,23 +1,23 @@
 ---
-title: 建立個人化優惠
+title: 建立個人化產品建議
 description: 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 10%
 
 ---
 
-# 建立個人化優惠 {#create-personalized-offer}
+# 建立個人化產品建議 {#create-personalized-offer}
 
 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 
-您可以向[!DNL Offer Library] API發出POST要求，以建立個人化優惠方案。
+您可以向[!DNL Offer Library] API發出POST要求，以建立個人化優惠。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
@@ -30,7 +30,7 @@ ht-degree: 10%
 **API格式**
 
 ```http
-POST /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
+POST /{ENDPOINT_PATH}/offers/offers?offer-type=personalized
 ```
 
 | 參數 | 說明 | 範例 |

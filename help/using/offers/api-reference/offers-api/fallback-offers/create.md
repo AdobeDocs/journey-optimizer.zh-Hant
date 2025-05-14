@@ -1,21 +1,21 @@
 ---
-title: 建立遞補優惠
+title: 建立後備產品建議
 description: 如果客戶不符合其他優惠方案的資格，系統會傳送遞補優惠方案給客戶
 feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 14%
 
 ---
 
-# 建立遞補優惠 {#create-fallback-offer}
+# 建立後備產品建議 {#create-fallback-offer}
 
-您可以向[!DNL Offer Library] API發出POST要求，以建立遞補優惠。
+您可以對[!DNL Offer Library] API發出POST要求，以建立遞補優惠。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
@@ -28,7 +28,7 @@ ht-degree: 14%
 **API格式**
 
 ```http
-POST /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
+POST /{ENDPOINT_PATH}/offers/offers?offer-type=fallback
 ```
 
 | 參數 | 說明 | 範例 |
