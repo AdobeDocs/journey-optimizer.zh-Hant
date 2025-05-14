@@ -5,10 +5,8 @@ feature: Ranking, Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: ec5baea16b5dcd0f3ab9713020c918aa414ea46b
+source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 0%
@@ -18,8 +16,6 @@ ht-degree: 0%
 # 使用AI公式產生器 {#create-ranking-formulas}
 
 **排名公式**&#x200B;可讓您定義規則，這些規則將決定應首先顯示哪個優惠，而不是考慮優先順序分數。
-
-<!--In today's world, relevance demands more than static priorities.The new formula builder in **[!UICONTROL Adobe Journey Optimizer]** empowers marketers to dynamically rank offers by blending AI-driven model scores with business priorities, offer attributes, and contextual signals — no coding required.-->
 
 若要建立這些規則，**[!UICONTROL Adobe Journey Optimizer]**&#x200B;中的AI公式產生器可提供更大的彈性，並可控制優惠的排名方式。 您現在可以定義自訂排名公式，這些公式透過引導式介面組合AI模型分數、優惠方案優先順序、設定檔屬性、優惠方案屬性和內容訊號，而不是僅仰賴靜態優惠方案優先順序。
 
@@ -84,8 +80,6 @@ To leverage data from an AEP dataset, you can select it in the **[!UICONTROL ELS
 
    ![](assets/ranking-formula-criterion-1.png){width="70%"}
 
-   <!--You can refer to [offer attributes](items.md#attributes), profile attributes, or [context data](context-data.md).-->
-
 1. 或者，您可以指定其他元素，將條件的符合條件調整為true。
 
    ![](assets/ranking-formula-addtional-conditions.png){width="80%"}
@@ -106,7 +100,7 @@ To leverage data from an AEP dataset, you can select it in the **[!UICONTROL ELS
    >
    >按一下欄位旁的圖示，新增預先定義的變數。
 
-1. 按一下[新增條件]&#x200B;**&#x200B;**，視需要多次新增一或多個條件。 邏輯如下：
+1. 按一下[新增條件]****，視需要多次新增一或多個條件。 邏輯如下：
    * 如果指定決策專案的第一個條件為true，則其優先於下一個條件。
    * 如果不為true，則決策引擎會繼續執行第二個標準，以此類推。
 
@@ -118,7 +112,7 @@ To leverage data from an AEP dataset, you can select it in the **[!UICONTROL ELS
 
 ### 排名公式範例
 
-請考量下列範例：<!--To be checked by PM-->
+考量下列範例：
 
 ![](assets/ranking-formula-example.png){width="80%"}
 
