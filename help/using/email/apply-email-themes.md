@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 電子郵件主題，模組，可重複使用，品牌一致性，電子郵件設計，自訂CSS，行動裝置最佳化
-source-git-commit: d550765b378bfa2fdf0638da01c297792e0876ef
+exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
+source-git-commit: bfe0ce29a30cff7ba876b43d9ed7858ffaab6bb5
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 3%
 
 ---
-
 
 # 將主題套用至您的電子郵件內容 {#apply-email-themes}
 
@@ -60,7 +60,7 @@ Key Benefits:
 
 * 如果使用在HTML中建立的內容，您將處於[相容性模式](existing-content.md)，而且您無法套用主題至此內容。
 
-  若要充分利用Email Designer的所有功能，包括主題，您必須在主題模式中建立新內容，或轉換匯入的HTML內容。 [了解更多](existing-content.md)
+  若要充分利用Email Designer的所有功能，包括主題，您必須在主題模式下建立新內容，或轉換匯入的HTML內容。 [了解更多](existing-content.md)
 
 <!--If using a content created in Classic mode or HTML, you cannot apply themes to this content. You must create a new content in Theme mode.
 
@@ -114,7 +114,7 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
    <!--![](assets/theme-buttons.png)-->
 
-1. 按一下[儲存]儲存此佈景主題以供日後使用。**&#x200B;**
+1. 按一下[儲存]儲存此佈景主題以供日後使用。****
 
 ## 套用主題至電子郵件 {#apply-themes}
 
@@ -172,5 +172,3 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
 ### 2. Switching Themes
 - A marketer applies a holiday-themed design to an existing email by switching to a pre-designed holiday theme.-->
-
-
