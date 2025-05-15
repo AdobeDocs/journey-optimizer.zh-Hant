@@ -61,4 +61,4 @@ ht-degree: 69%
 
 您可以使用AI協助或手動輸入來定義中繼資料、關聯技術資產（例如結構描述、區段），並在不同的IMS組織之間共用您的行動手冊。
 
-如需如何建立和分享教戰手冊的詳細資訊，請參閱使用案例教戰手冊檔案： [使用AI助理編寫和分享您自己的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=en#sharing-playbooks-sandboxes){target="_blank"}。
+如需如何建立和分享教戰手冊的詳細資訊，請參閱使用案例教戰手冊檔案： [使用AI助理編寫和分享您自己的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=zh-Hant#sharing-playbooks-sandboxes){target="_blank"}。
