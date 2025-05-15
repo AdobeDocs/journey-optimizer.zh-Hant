@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙箱，歷程，複製，環境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 23cd384354a7b3f6a4c6c35030fbd9275952c0b1
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 4%
+source-wordcount: '1284'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 您可以使用套件匯出和匯入功能，跨多個沙箱複製物件，例如歷程、自訂動作、內容範本或片段。 套件可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。
 
-本頁說明Journey Optimizer內容中的沙箱工具使用案例。 如需功能本身的詳細資訊，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hant)。
+本頁說明Journey Optimizer內容中的沙箱工具使用案例。 如需功能本身的詳細資訊，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html)。
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Journey Optimizer可將歷程、自訂動作、內容範本和片段匯出至另
 
 ### 歷程 {#journeys}
 
-* 匯出歷程時，除了歷程本身，Journey Optimizer也會複製歷程所依賴的大部分物件：受眾、自訂動作、結構描述、事件和動作。 如需所複製物件的詳細資訊，請參閱此[區段](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hant#abobe-journey-optimizer-objects)。
+* 匯出歷程時，除了歷程本身，Journey Optimizer也會複製歷程所依賴的大部分物件：受眾、自訂動作、結構描述、事件和動作。 如需所複製物件的詳細資訊，請參閱此[區段](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects)。
 
 * 我們不保證所有連結的元素都會複製到目的地沙箱。 我們強烈建議您執行徹底檢查，例如在發佈歷程之前。 這可讓您識別任何可能遺失的物件。
 
@@ -61,18 +61,18 @@ Journey Optimizer可將歷程、自訂動作、內容範本和片段匯出至另
 
 ### 行銷活動 {#campaigns}
 
-行銷活動會連同與設定檔、對象、結構、內嵌訊息和相依物件相關的所有專案一起複製。
+行銷活動會連同與輪廓、對象、結構描述、內嵌訊息以及從屬物件相關的所有項目一起複製。 但是，下列專案&#x200B;**不是**&#x200B;已複製：
 
-但是，下列專案&#x200B;**不是**&#x200B;已複製：
+* 多語言變體和語言設定，
+* 商業規則，
+* 標籤，
+* 資料使用標籤和實行(DULE)標籤。
 
-* 多語言變體和語言設定
-* 實驗變體
-* 決定原則與決定專案
-* 業務規則
-* 標記
-* 資料使用標籤和實作(DULE)標籤
+複製行銷活動時，請確保下方列出的物件已在目標沙箱中驗證，以避免錯誤設定：
 
-複製行銷活動後，必須手動選取管道設定。
+* **管道設定**：管道設定會與行銷活動一起複製。 複製行銷活動後，必須在目標沙箱中手動選取管道設定。
+* **實驗變體和設定**：實驗變體和設定包含在行銷活動復製程式中。 匯入後，在目標沙箱中驗證這些設定。
+* **整合式決策**：決策原則與決策專案支援匯出與匯入。 確保決策相關的相依性在目標沙箱中正確對應。
 
 ### 內容範本 {#content-templates}
 
