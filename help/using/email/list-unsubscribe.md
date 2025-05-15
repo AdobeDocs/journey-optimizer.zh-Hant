@@ -10,9 +10,9 @@ level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 <!--Do not modify - Legal Review Done -->
 
-在 [!DNL Adobe Journey Optimizer] 之中設定新的電子郵件頻道設定時，從清單中[選取子網域](email-settings.md#subdomains-and-ip-pools)後，系統就會顯示&#x200B;**[!UICONTROL 啟用清單取消訂閱]** 選項。這項設定預設為啟用。
+在 [!DNL Adobe Journey Optimizer]設定新的電子郵件管道設定時，從清單選取[子網域後](email-settings.md#subdomains-and-ip-pools)，會顯示&#x200B;**[!UICONTROL 啟用取消清單訂閱]**&#x200B;選項。這項設定預設為啟用。
 
 ![](assets/preset-list-unsubscribe.png)
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 >
 >請參閱下方[本節](#enable-list-unsubscribe)以瞭解如何管理取消訂閱設定。
 
-在這兩種情況下，當收件者按一下選擇退出連結時，則會據此處理其取消訂閱請求。 對應的輪廓會立即退出，而此選項會在 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant#getting-started){target="_blank"} 中更新。 
+在這兩種情況下，當收件者按一下選擇退出連結時，則會據此處理其取消訂閱請求。 對應的設定檔會立即退出，而此選項會在[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant#getting-started){target="_blank"}中更新。
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ ht-degree: 100%
 >
 >如果停用此選項，一鍵取消訂閱 URL 將不會顯示在電子郵件標頭。
 
-清單取消訂閱標題有提供兩種功能，除非您取消選取其中一兩項功能，否則按預設，這兩項功能都會啟用：
+「取消清單訂閱」標頭提供兩種功能，除非您取消選取至少一項功能，否則按預設，這兩項功能都會啟用：
 
 ![](assets/surface-list-unsubscribe.png){width="80%"}
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 *  **[!UICONTROL 一鍵取消訂閱 URL]**，預設為根據[選取的子網域](email-settings.md#subdomains)產生的一鍵選擇退出 URL 清單取消訂閱標頭。<!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
 
-您可以從下拉式清單中，選取&#x200B;**[!UICONTROL 同意層級]**。它可特定於頻道或設定檔身分。依據設定，當使用者使用電子郵件標題的清單取消訂閱 URL 時，就會在 [!DNL Adobe Journey Optimizer] 中，按頻道層級或 ID 層級，更新同意內容。
+您可以從下拉式清單中，選取&#x200B;**[!UICONTROL 同意層級]**。它可特定於管道或輪廓身分。依據設定，當使用者使用電子郵件標題的「取消清單訂閱」URL 時，同意內容就會在 [!DNL Adobe Journey Optimizer] 中，按管道層級或 ID 層級更新。
 
 ## 護欄和推薦 {#list-unsubscribe-guardrails}
 
@@ -83,17 +83,19 @@ ht-degree: 100%
 
 * 如果您不想使用預設產生的一鍵取消訂閱 URL，可以取消核取該功能。
 
-   * 在&#x200B;**[!UICONTROL 啟用清單取消訂閱]**&#x200B;選項處於開啟狀態且&#x200B;**[!UICONTROL 一鍵取消訂閱 URL]** 功能處於取消勾選的情況下，如果您在使用此設定所建立的訊息中新增[一鍵退出連結](../email/email-opt-out.md#one-click-opt-out)，則清單取消訂閱標頭會獲取您在電子郵件內文插入的一鍵退出連結，並將其用作一鍵取消訂閱 URL 值。
+   * 在&#x200B;**[!UICONTROL 啟用取消清單訂閱]**&#x200B;選項處於開啟狀態且&#x200B;**[!UICONTROL 一鍵取消訂閱 URL]** 功能處於取消勾選的情況下，如果您在使用此設定所建立的訊息中新增[一鍵選擇退出連結](../email/email-opt-out.md#one-click-opt-out)，則「取消清單訂閱」標頭會取得您在電子郵件內文插入的一鍵選擇退出連結，並將其用作一鍵取消訂閱 URL 值。
+
 
      ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   * 如果您未在訊息內容加入一鍵退出連結，且頻道組態設定中的預設&#x200B;**[!UICONTROL 一鍵取消訂閱 URL]** 已取消勾選，則清單取消訂閱標題的電子郵件標頭不會傳遞任何 URL。
+   * 如果您未在訊息內容加入一鍵選擇退出連結，且管道設定中的預設&#x200B;**[!UICONTROL 一鍵取消訂閱 URL]** 取消勾選，則沒有 URL 會傳遞至「取消清單訂閱」標題的電子郵件標頭。
+
 
   >[!NOTE]
   >
   >在 [本章節](../email/email-opt-out.md#unsubscribe-header)之中，進一步了解訊息中的管理取消訂閱功能等更多資訊。
 
-在 [!DNL Journey Optimizer]中，同意由 Experience Platform [同意結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"}負責處理。 預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 您可以在上線時修改此預設值，成為[這裡](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}可能列出的一個值，或使用[同意原則](../action/consent.md)來覆寫預設邏輯。
+在[!DNL Journey Optimizer]中，同意由Experience Platform [同意結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"}處理。 預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 您可以在上線時修改此預設值，成為[這裡](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}可能列出的一個值，或使用[同意原則](../action/consent.md)來覆寫預設邏輯。
 
 目前，[!DNL Journey Optimizer]未將特定標籤附加至清單取消訂閱功能所觸發的取消訂閱事件。 如果您需要區分清單取消訂閱點擊與其他取消訂閱操作，則必須在外部實施自訂標記，或利用外部登陸頁面進行追蹤。
 
@@ -117,21 +119,21 @@ ht-degree: 100%
 
 >[!WARNING]
 >
->如果您使用&#x200B;**[!UICONTROL 客戶管理]**&#x200B;的選項，Adobe 就不會儲存任何取消訂閱，或是同意資料。 使用&#x200B;**[!UICONTROL 客戶管理]**&#x200B;的選項，組織會選擇使用外部系統，在這類外部系統中，會負責管理同意資料。 外部系統與 [!DNL Journey Optimizer] 之間並沒有自動同步處理同意資料。 同意資料的任何同步處理作業都源自外部系統，以便更新 [!DNL Journey Optimizer] 中的使用者同意資料，必須由組織透過資料傳輸方式啟動，才能將同意資料推播回[!DNL Journey Optimizer]。
+>如果您使用&#x200B;**[!UICONTROL 客戶管理]**&#x200B;的選項，Adobe 就不會儲存任何取消訂閱，或是同意資料。 使用&#x200B;**[!UICONTROL 客戶管理]**&#x200B;選項，組織即選擇使用外部系統，並在此類外部系統中負責管理同意資料。外部系統與 [!DNL Journey Optimizer] 之間不會自動同步處理同意資料。 若同意資料的同步處理作業源自外部系統，以便更新 [!DNL Journey Optimizer] 中的使用者同意資料，則此同步作業必須由組織透過資料傳輸方式啟動，才能將同意資料推播回 [!DNL Journey Optimizer]。
 
 ### 設定解密 API {#configure-decrypt-api}
 
-只要選取&#x200B;**[!UICONTROL 客戶管理]**&#x200B;選項，如果您輸入自訂端點，並在行銷活動或歷程中使用這些選項，當收件者按一下 [取消訂閱] 連結時，[!DNL Journey Optimizer] 就會將一些預設設定檔的特定參數附加到同意更新事件<!--sent to the custom endpoint -->上。
+選取&#x200B;**[!UICONTROL 客戶管理]**&#x200B;的選項時，若您輸入會在行銷活動或歷程中使用的自訂端點，當收件者按一下「取消訂閱]」連結時，[!DNL Journey Optimizer] 就會將一些輪廓專屬的預設參數新增到同意更新事件上 <!--sent to the custom endpoint -->。
 
-這些參數會透過加密方式，傳送至端點。 因此，外部同意系統必須透過 [Adobe Developer](https://developer.adobe.com){target="_blank"} 實施特定 API，才能解密 Adobe 送出的參數。
+這些參數會透過加密方式，傳送至端點。 因此，外部同意系統需要透過[Adobe Developer](https://developer.adobe.com){target="_blank"}實作特定API，以解密Adobe傳送的引數。
 
-擷取這些參數的 GET 呼叫大多取決於目前正在使用的清單取消訂閱選項，**[!UICONTROL 一鍵取消訂閱 URL]** 或是 **[!UICONTROL Mailto (取消訂閱)]**。
+擷取這些參數的 GET 呼叫大多取決於目前正在使用的取消清單訂閱選項，**[!UICONTROL 一鍵取消訂閱 URL]** 或是 **[!UICONTROL Mailto (取消訂閱)]**。
 
 <!--To configure the API to send back the information to [!DNL Adobe Journey Optimizer] when a recipient has unsubscribed using the List unsubscribe option with custom endpoints, follow the steps below.-->
 
 +++ 一鍵取消訂閱 URL
 
-使用&#x200B;**[!UICONTROL 一鍵取消訂閱 URL]** 選項，按一下 [取消訂閱] 連結，即可直接取消訂閱使用者。
+使用&#x200B;**[!UICONTROL 一鍵取消訂閱 URL]** 選項時，使用者按一下 [取消訂閱] 連結即可直接取消訂閱。
 
 GET 呼叫分述如下：
 
@@ -142,13 +144,13 @@ GET 呼叫分述如下：
 * **params**：包含加密的裝載
 * **pid**：加密的輪廓 ID
 
-會將這兩個參數加入到傳送到的自訂端點同意更新事件中。
+這兩個參數包含在傳送到自訂端點的同意更新事件中。
 
-頁首需求：
+標頭要求：
 
 * x-api-key
 * x-gw-ims-org-id
-* 授權 (來自技術帳戶的使用者權杖)
+* 授權 (用於技術帳戶驗證的使用者權杖)
 
 以下是範例參數及同意回應：
 
@@ -176,7 +178,8 @@ GET 呼叫分述如下：
 
 +++ Mailto (取消訂閱)
 
-使用 **[!UICONTROL Mailto (取消訂閱)]** 選項，按一下 [取消訂閱] 連結，就會將預先填入的電子郵件傳送給指定的取消訂閱地址。
+使用 **[!UICONTROL Mailto (取消訂閱)]** 選項時，按一下 [取消訂閱] 連結後將開啟一封預先填入的電子郵件，該電子郵件將傳送至指定的取消訂閱電子郵件地址。
+
 
 GET 呼叫分述如下。
 
@@ -184,15 +187,16 @@ GET 呼叫分述如下。
 
 查詢參數：
 
-* **emailParams**：包含 **params** (加密承載) 和 **pid** (加密輪廓 ID) 參數的字串。
+* **emailParams**：包含 **params** (加密承載) 和 **pid** (加密輪廓 ID) 參數的字串。
 
-**參數**&#x200B;和 **pid** 會將參數加入要傳送給自訂端點的同意更新事件中。
 
-頁首需求：
+**params** 和 **pid** 參數包含在傳送至自訂端點的同意更新事件中。
+
+標頭要求：
 
 * x-api-key
 * x-gw-ims-org-id
-* 授權 (來自技術帳戶的使用者權杖)
+* 授權 (用於技術帳戶驗證的使用者權杖)
 
 以下是範例參數及同意回應：
 
