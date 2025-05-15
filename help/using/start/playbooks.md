@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
-source-git-commit: 7bb46f33d877d0a1976e8d74b88a5cccb81c1d4e
+source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '499'
 ht-degree: 69%
 
 ---
@@ -51,14 +51,14 @@ ht-degree: 69%
 
 此外，您可以將教戰手冊資產匯入其他沙箱。 這樣做可在您已設定自己的結構描述、欄位和欄位群組時，讓產生的資產與現有資產趨於一致，並確保其與您的資料相容。使用案例行動手冊檔案中會詳細說明這些步驟： [將行動手冊產生的資產發佈到其他沙箱](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=zh-Hant){target="_blank"}。
 
-## 建立您自己的教戰手冊(Beta) {#create}
+## 建立您自己的教戰手冊（私人測試版） {#create}
 
 >[!AVAILABILITY]
 >
->使用案例教戰手冊建立目前可作為公開測試版提供給所有客戶。
+>使用案例教戰手冊建立目前僅可用於一組組織作為私人測試版。 若要取得存取權，請聯絡您的 Adobe 代表。
 
 除了運用預先定義的教戰手冊，您還可以在Adobe Experience Platform中建立和分享您自己的教戰手冊。
 
 您可以使用AI協助或手動輸入來定義中繼資料、關聯技術資產（例如結構描述、區段），並在不同的IMS組織之間共用您的行動手冊。
 
-如需如何建立和分享教戰手冊的詳細資訊，請參閱使用案例教戰手冊檔案： [使用AI助理編寫和分享您自己的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=zh-Hant#sharing-playbooks-sandboxes){target="_blank"}。
+如需如何建立和分享教戰手冊的詳細資訊，請參閱使用案例教戰手冊檔案： [使用AI助理編寫和分享您自己的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=en#sharing-playbooks-sandboxes){target="_blank"}。

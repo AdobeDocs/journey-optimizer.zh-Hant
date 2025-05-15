@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bfe0ce29a30cff7ba876b43d9ed7858ffaab6bb5
+source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1135'
 ht-degree: 65%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 65%
 >title="新增功能？"
 >abstract="**Adobe Journey Optimizer** 持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每月最後一週整合於發行說明。"
 
-[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}。
 
 ## 2025年5月更新 {#25-5-rn}
 
@@ -318,9 +318,7 @@ ht-degree: 65%
 
 **使用案例教戰手冊**
 
-* **教戰手冊製作和共用（私人測試版）** — 您現在可以建立、管理和共用您自己的使用案例教戰手冊。 此功能目前僅供一組組織作為私人測試版使用。 若要取得存取權，請聯絡您的 Adobe 代表。
-
-作為公開測試版的所有客戶。 [閱讀全文](../start/playbooks.md)
+* **教戰手冊製作和共用（私人測試版）** — 您現在可以建立、管理和共用您自己的使用案例教戰手冊。 此功能目前僅供一組組織作為私人測試版使用。 若要取得存取權，請聯絡您的Adobe代表。 [閱讀全文](../start/playbooks.md)
 
 **導覽**
 
