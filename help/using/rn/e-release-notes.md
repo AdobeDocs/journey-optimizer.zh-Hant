@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 264927ba06ccb8cb1c7e7709e8fef053c1b37608
+source-git-commit: 4deb0b34266816e45c77c9b4d7328431995197fa
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 22%
+source-wordcount: '1513'
+ht-degree: 23%
 
 ---
 
@@ -292,9 +292,6 @@ ht-degree: 22%
 
 * **子網域 — &#39;無委派&#39;方法**\
   除了完全委派和CNAME方法之外，現在還提供新的子網域設定方法：「無委派」方法，可讓您完全控制並維護傳遞、轉譯和追蹤訊息所需的DNS的各個層面。
-
-* **支援Personalization中的自訂資料來源**\
-  您現在可以建立查詢，並從外部來源抓取資料(亦即未儲存在Adobe Experience Platform中)，以用於Journey Optimizer的傳入和傳出表面，以進行個人化和歷程協調。
 
 * **直接郵件 — SSH支援**\
   除了現有的具有密碼驗證型別的SFTP之外，您現在還可以將直接郵件檔案匯出至具有SSH金鑰驗證的SFTP伺服器。
