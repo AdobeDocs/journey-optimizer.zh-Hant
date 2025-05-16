@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3f22c2cd744cb9016f48a5df46c0c903ccce617d
+source-git-commit: 264927ba06ccb8cb1c7e7709e8fef053c1b37608
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 24%
+source-wordcount: '1554'
+ht-degree: 22%
 
 ---
 
@@ -229,6 +229,24 @@ ht-degree: 24%
 </table>
 
 
+<table>
+<thead>
+<tr>
+<th><strong>事件觸發歷程的補充ID</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以使用設定檔ID搭配其他識別碼（例如訂單ID、訂閱ID或處方ID）來觸發歷程，允許相同設定檔一次多次處於相同歷程中。 這能啟用同時管理多個訂單或訂閱等情境，每個執行個體會依循其自己的歷程路徑。</p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若要取得存取權，請聯絡您的 Adobe 代表。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
 ### 功能改進 {#25-05-improv}
 
 以下列出此版本隨附的改進。
@@ -250,12 +268,11 @@ ht-degree: 24%
 * **決策 — 利用Adobe Experience Platform資料集**\
   Journey Optimizer現在可讓您在下列決策物件中運用Adobe Experience Platform資料集：適用性規則、排名公式和上限規則。
 
-* 範本和片段中的&#x200B;**資料夾（一般可用性）**\
-  以前可供一組組織 (LA) 使用的資料夾，現在可供所有使用者 (GA) 管理其內容範本和片段。 資料夾可讓您更輕鬆有效地將內容範本和片段組織成結構化的層次結構。
+* 範本和片段中的&#x200B;**資料夾**\
+  資料夾可讓您更輕鬆有效地將內容範本和片段整理到結構化的階層中。 以前可供一組組織(LA)使用的資料夾，現在可供所有使用者(GA)管理其內容範本和片段。
 
 * **新行銷活動物件支援沙箱復本** <!-- - Availability date: -->
-
-  使用套件匯出和匯入功能跨多個沙箱複製行銷活動時，現在也會複製下列相依性：管道設定、實驗變體和設定、決定政策和專案。 [閱讀全文](../configuration/copy-objects-to-sandbox.md)
+使用套件匯出和匯入功能跨多個沙箱複製行銷活動時，現在也會複製下列相依性：管道設定、實驗變體和設定、決定政策和專案。 [閱讀全文](../configuration/copy-objects-to-sandbox.md)
 
 * Web channel **中的**&#39;重新導向至URL&#39;支援\
   Journey Optimizer Web Channel現在可讓您將訪客重新導向至另一個現有URL，而不是在視覺化編輯器中編寫新的變數。 此功能可用來執行比較兩個完全不同頁面的實驗，而不只是變更頁面中的少數元素。
@@ -272,11 +289,12 @@ ht-degree: 24%
 * **決策規則的決策專案屬性支援**\
   您現在可以利用決策專案屬性來建立決策規則。
 
-* **多個歷程重新進入**\
-  您現在可以使用設定檔ID搭配其他識別碼（例如訂單ID、訂閱ID或處方ID）來觸發歷程，允許相同設定檔一次多次處於相同歷程中。 這能啟用同時管理多個訂單或訂閱等情境，每個執行個體會依循其自己的歷程路徑。
 
 * **子網域 — &#39;無委派&#39;方法**\
   除了完全委派和CNAME方法之外，現在還提供新的子網域設定方法：「無委派」方法，可讓您完全控制並維護傳遞、轉譯和追蹤訊息所需的DNS的各個層面。
 
 * **支援Personalization中的自訂資料來源**\
   您現在可以建立查詢，並從外部來源抓取資料(亦即未儲存在Adobe Experience Platform中)，以用於Journey Optimizer的傳入和傳出表面，以進行個人化和歷程協調。
+
+* **直接郵件 — SSH支援**\
+  除了現有的具有密碼驗證型別的SFTP之外，您現在還可以將直接郵件檔案匯出至具有SSH金鑰驗證的SFTP伺服器。
