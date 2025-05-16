@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7347adf8b40942408042c8b09572beed67425899
+source-git-commit: d069fb775cc8cf561c5d7b9ef87b9c8d9f5ba0e7
 workflow-type: tm+mt
 source-wordcount: '1485'
 ht-degree: 23%
@@ -206,8 +206,8 @@ ht-degree: 23%
 <tr>
 <td>
 <p>Journey Optimizer現在可讓您在預設選項之外設定其他SMS提供者：Sinch、Infobip和Twilio。 透過自訂SMS提供者設定，您可以直接整合第三方提供者、運用動態訊息的進階裝載自訂，並管理同意偏好設定（選擇加入/選擇退出）以確保法規遵循。</p>
-<p>如需詳細資訊，請參閱<a href="../sms/sms-configuration-custom.md">詳細說明文件</a>。</p></td>
-<p>先前以「有限可用性」發行，現在此功能可用於所有環境（一般可用性）。</p>
+<p>如需詳細資訊，請參閱<a href="../sms/sms-configuration-custom.md">詳細說明文件</a>。</p>
+<p>先前以「有限可用性」發行，現在此功能可用於所有環境（一般可用性）。</p></td>
 </td>
 </tr>
 </tbody>
