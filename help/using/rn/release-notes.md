@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8261a80675afe900bb19b9730fcd69933e42b29e
+source-git-commit: 8de314a3d2c8e242e12b18d39fb1dc594ea825f5
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 26%
@@ -252,7 +252,8 @@ ht-degree: 26%
      現在可以在沙箱之間複製決策物件，簡化測試和部署工作流程。 [閱讀全文](../configuration/copy-objects-to-sandbox.md#decisioning)
 
 * **登入頁面的資料夾** — 推出日期： 2025年5月9日
-為了輕鬆管理您的登入頁面，您現在可以使用資料夾，將其更有效地組織到結構化階層中。 [閱讀全文](../landing-pages/manage-lp.md)
+
+  為了輕鬆管理您的登入頁面，您現在可以使用資料夾，將其更有效地組織到結構化階層中。 [閱讀全文](../landing-pages/manage-lp.md)
 
 * **直接郵件： SFTP連線的SSH金鑰支援** — 推出日期： 2025年5月5日
 
@@ -266,26 +267,32 @@ ht-degree: 26%
   >
   >此功能將在接下來的30天內逐步推廣到所有環境。
 
-* **電子郵件範本中的點選追蹤**\
+* **電子郵件範本中的點選追蹤**
+
   Journey Optimizer現在原生支援電子郵件範本中影像地圖內`<area>`元素的點選追蹤。 這是為了確保影像地圖區域接收相同的追蹤包裝、追蹤資料，以及作為標準超連結附加的引數。
 
-* **決策 — 利用Adobe Experience Platform資料集**\
+* **決策 — 利用Adobe Experience Platform資料集**
+
   Journey Optimizer現在可讓您在下列決策物件中運用Adobe Experience Platform資料集：適用性規則、排名公式和上限規則。
 
-* 範本和片段的&#x200B;**資料夾**\
+* 範本和片段的&#x200B;**資料夾**
+
   資料夾可讓您更輕鬆有效地將內容範本和片段整理到結構化的階層中。 以前可供一組組織(LA)使用的資料夾，現在可供所有使用者(GA)管理其內容範本和片段。
 
+* Web channel **中的**&#39;重新導向至URL&#39;支援
 
-* Web channel **中的**&#39;重新導向至URL&#39;支援\
   Journey Optimizer Web Channel現在可讓您將訪客重新導向至另一個現有URL，而不是在視覺化編輯器中編寫新的變數。 此功能可用來執行比較兩個完全不同頁面的實驗，而不只是變更頁面中的少數元素。
 
-* **行銷活動清單的右側邊欄**\
+* **行銷活動清單的右側邊欄**
+
   現在，在行銷活動清單中，選取行銷活動會開啟窗格並顯示其詳細資訊。
 
-* 程式碼型體驗內容中的&#x200B;**表單欄位**\
+* 程式碼型體驗內容中的&#x200B;**表單欄位**
+
   在內容範本中，您現在可以定義特定的JSON或HTML欄位，讓非技術使用者輕鬆地編輯程式碼型體驗中的內容，而不需要操作程式碼。
 
-* **決策規則的決策專案屬性支援**\
+* **決策規則的決策專案屬性支援**
+
   您現在可以利用決策專案屬性來建立決策規則。
 
 <!--
