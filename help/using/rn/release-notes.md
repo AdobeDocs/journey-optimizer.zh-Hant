@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8de314a3d2c8e242e12b18d39fb1dc594ea825f5
+source-git-commit: ef06334d0977af4b325b994bb480162b45ceaecf
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1385'
 ht-degree: 26%
 
 ---
@@ -218,21 +218,23 @@ ht-degree: 26%
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>事件觸發歷程的補充ID</strong><br/></th>
+<th><strong>Supplemental ID for event-triggered journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以使用設定檔ID搭配其他識別碼（例如訂單ID、訂閱ID或處方ID）來觸發歷程，允許相同設定檔一次多次處於相同歷程中。 這能啟用同時管理多個訂單或訂閱等情境，每個執行個體會依循其自己的歷程路徑。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若要取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>You can now trigger journeys using a profile ID along with another identifier, such as an order ID, subscription ID, or prescription ID, allowing the same profile to be in the same journey multiple times at once. This enables scenarios like managing multiple orders or subscriptions in parallel, with each instance following its own path through the journey.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 
 
