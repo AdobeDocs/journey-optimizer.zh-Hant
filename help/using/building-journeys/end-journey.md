@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: 重新進入、歷程、結束、即時、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
+source-git-commit: e435a4bf9d284845f27021b3d36c555def749fbe
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 即時歷程的結束方式
 
-當達到全域歷程逾時時，或在上次發生循環對象型歷程後，歷程會關閉。 [瞭解歷程如何結束](#close-journey)。
+當達到全域歷程逾時時，或在上次發生循環以對象為基礎的歷程後，歷程會關閉。 [瞭解歷程如何結束](#close-journey)。
 
 如果您需要終止即時歷程，建議[您手動將其關閉](#close-to-new-entrances)。 接著，新客戶進入歷程時會被封鎖。 已進入歷程的個人檔案能夠體驗到結尾。
 
