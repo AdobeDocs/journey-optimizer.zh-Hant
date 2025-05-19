@@ -9,7 +9,7 @@ exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
 source-wordcount: '1165'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="建立排名公式"
->abstract="公式可讓您定義規則，這些規則將決定應首先顯示哪個決定專案，而不是考慮專案的優先順序分數。 建立排名公式後，您就可以將其指派給選取策略。"
+>abstract="排名公式可讓您定義規則，將決定應先呈現的決定項目，而不是考慮項目的優先順序分數。一旦建立排名公式，您即可將其指派至選取策略。"
 
 若要建立排名公式，請遵循下列步驟。
 
@@ -100,7 +100,7 @@ To leverage data from an AEP dataset, you can select it in the **[!UICONTROL ELS
    >
    >按一下欄位旁的圖示，新增預先定義的變數。
 
-1. 按一下[新增條件]&#x200B;**&#x200B;**，視需要多次新增一或多個條件。 邏輯如下：
+1. 按一下[新增條件]****，視需要多次新增一或多個條件。 邏輯如下：
    * 如果指定決策專案的第一個條件為true，則其優先於下一個條件。
    * 如果不為true，則決策引擎會繼續執行第二個標準，以此類推。
 

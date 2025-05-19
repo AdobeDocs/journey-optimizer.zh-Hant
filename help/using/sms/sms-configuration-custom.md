@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: fc78fcfb0f2ce3616cb8b1df44dda2cfd66262fe
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '738'
+ht-degree: 13%
 
 ---
 
-# 設定自訂簡訊提供者 {#sms-configuration-custom}
+# 設定自訂 SMS 提供者 {#sms-configuration-custom}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
@@ -103,12 +103,12 @@ ht-degree: 0%
 
 設定後，您就可以運用所有立即可用的頻道功能，例如訊息製作、個人化、連結追蹤和報告。
 
-### 自訂SMS提供者的驗證選項 {#auth-options}
+### 自訂 SMS 提供者的驗證選項 {#auth-options}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_auth_type"
 >title="驗證類型"
->abstract="指定存取API所需的驗證方法，以確保與外部服務的安全且授權通訊。"
+>abstract="指定存取此 API 所需的驗證方法，可確保與外部服務進行安全且獲授權的通訊。"
 
 >[!BEGINTABS]
 
@@ -162,4 +162,4 @@ ht-degree: 0%
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443617?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3431625)

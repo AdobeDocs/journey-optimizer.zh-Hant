@@ -11,7 +11,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '1463'
-ht-degree: 16%
+ht-degree: 23%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 16%
 
 >[!AVAILABILITY]
 >
->此功能已發佈私人測試版。 未來版本將逐步開放所有客戶使用。
+>此功能以私人測試版形式發佈。未來版本將逐步開放所有客戶使用。
 >您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 品牌指引是一組詳細的規則和標準，可建立品牌的視覺和口頭識別。 這些可作為參考，以在所有行銷和通訊平台上維持一致的品牌代表性。
@@ -69,7 +69,7 @@ ht-degree: 16%
 
 +++
 
-## 建立並管理您的品牌 {#create-brand-kit}
+## 建立和管理您的品牌 {#create-brand-kit}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brands_create"
@@ -100,7 +100,7 @@ ht-degree: 16%
 
 1. 設定之後，按一下&#x200B;**[!UICONTROL 儲存]**，然後按一下&#x200B;**[!UICONTROL 發佈]**，讓您的品牌指引可在AI助理中取得。
 
-1. 若要修改您發佈的品牌，請按一下[編輯品牌]。**&#x200B;**
+1. 若要修改您發佈的品牌，請按一下[編輯品牌]。****
 
    >[!NOTE]
    >
@@ -183,8 +183,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
->title="寫入樣式對齊分數"
->abstract="「書寫樣式」區段定義語言、格式和結構的標準，以確保清晰一致的內容。 一致性分數（從高到低的評分）會顯示您的內容遵循這些指引的程度，並強調需要改善的領域。"
+>title="寫作風格一致性分數"
+>abstract="寫作風格區段會定義語言、格式及結構的標準，以確保內容清晰且一致。一致性分數從高至低評分，會顯示您的內容對這些準則的遵循程度，並醒目提示需要改善的區域。"
 
 **[!UICONTROL 撰寫樣式]**&#x200B;區段概述撰寫內容的標準，詳述如何使用語言、格式和結構來維持所有資料的清晰度、一致性和一致性。
 
@@ -273,7 +273,7 @@ ht-degree: 16%
 
 1. 從&#x200B;**[!UICONTROL 寫入樣式]**&#x200B;索引標籤，按一下![](assets/do-not-localize/Smock_Add_18_N.svg)以新增建議、例外或排除專案。
 
-1. 輸入您的建議、例外或排除專案，然後按一下[新增]。**&#x200B;**
+1. 輸入您的建議、例外或排除專案，然後按一下[新增]。****
 
    ![](assets/brands-3.png)
 
@@ -289,8 +289,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_imagery"
->title="視覺內容對齊方式分數"
->abstract="視覺內容一致性分數表示您的內容符合您設定的品牌指導方針的程度。 從高到低的評分，可幫助您快速評估一致性。 探索不同的類別，以找出需改善的領域，並找出可能品牌外的元素。"
+>title="視覺內容一致性分數"
+>abstract="視覺內容一致性分數表示您的內容與設定之品牌準則的符合程度。從高至低的評分可協助您總覽評估一致性。探索不同的類別可找出需要改善的區域，並找出可能不符合品牌的元素。"
 
 **[!UICONTROL 視覺內容]**&#x200B;區段定義影像和設計的標準，詳細說明維持統一一致的品牌外觀所需的規格。
 
@@ -335,7 +335,7 @@ ht-degree: 16%
 
 1. 從&#x200B;**[!UICONTROL 視覺內容]**&#x200B;索引標籤，按一下![](assets/do-not-localize/Smock_Add_18_N.svg)以新增指引、排除專案或範例。
 
-1. 輸入您的建議、排除專案或範例，然後按一下[新增]。**&#x200B;**
+1. 輸入您的建議、排除專案或範例，然後按一下[新增]。****
 
    ![](assets/brands-4.png)
 

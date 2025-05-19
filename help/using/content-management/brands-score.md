@@ -9,16 +9,16 @@ exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 source-git-commit: d5dd842d4fc906b454e1601ae850a12f457bcd7b
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 11%
+ht-degree: 24%
 
 ---
 
-# 品牌一致性(Beta){#brands-score}
+# 品牌一致性 (Beta){#brands-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
 >title="品牌一致性分數"
->abstract="您的品牌一致性分數會衡量您的內容遵守品牌指引的程度，以確保色彩、字型、標誌、影像和寫作風格的一致性。"
+>abstract="您的品牌一致性分數會衡量您的內容對品牌準則的遵循程度，確保顏色、字體、標誌、影像及寫作風格的一致性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_colors"
@@ -37,7 +37,7 @@ ht-degree: 11%
 
 >[!AVAILABILITY]
 >
->此功能已發佈私人測試版。 未來版本將逐步開放所有客戶使用。
+>此功能以私人測試版形式發佈。未來版本將逐步開放所有客戶使用。
 >您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 「品牌一致性」功能可協助您建立、檢閱及管理符合品牌指引的內容。 它可確保您的電子郵件行銷活動的語調、訊息和視覺身分的一致性，同時在內容上線之前作為品質檢查。

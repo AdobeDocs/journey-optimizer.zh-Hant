@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 登陸，登陸頁面
-source-git-commit: 38ed45222aad458bb581e714a9a2a0e5ed088c3f
+exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
+source-git-commit: 27e5d1565522f5daa006a16438671ce9d559465b
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -53,12 +54,12 @@ ht-degree: 2%
 
 ![](assets/lp_access-list-actions.png)
 
-## 使用資料夾管理登入頁面 {#folders}
+## 使用資料夾來管理登陸頁面 {#folders}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_folders"
->title="將您的登入頁面整理到資料夾中"
->abstract="使用資料夾，根據您的組織需求分類及管理您的登入頁面。"
+>title="將您的登陸頁面整理至資料夾"
+>abstract="根據組織的需求，使用資料夾來分類和管理您的登陸頁面。"
 
 若要輕鬆導覽您的登入頁面，您可以使用資料夾更有效地將其組織到結構化階層中。 這可讓您根據組織需求將專案分類和管理。
 
@@ -78,7 +79,7 @@ ht-degree: 2%
 
    ![](assets/lp-create-folder.png)
 
-1. 輸入新資料夾的名稱，然後按一下[儲存]。**&#x200B;** 新資料夾會顯示在&#x200B;**[!UICONTROL 根]**&#x200B;資料夾內，或目前選取的資料夾內。
+1. 輸入新資料夾的名稱，然後按一下[儲存]。**** 新資料夾會顯示在&#x200B;**[!UICONTROL 根]**&#x200B;資料夾內，或目前選取的資料夾內。
 
 1. 您可以按一下&#x200B;**[!UICONTROL 其他動作]**&#x200B;按鈕，重新命名或刪除資料夾。
 

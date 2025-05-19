@@ -11,7 +11,7 @@ keywords: 內容，實驗，多個，對象，處理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: c1dc65616219520a72416a62399f7c2dbca7ca77
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '745'
 ht-degree: 12%
 
 ---
@@ -42,7 +42,7 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 
 ![](assets/content_experiment.png)
 
-➡了️解如何使用內容實驗來比較決定與[此使用案例](../experience-decisioning/experience-decisioning-uc.md)中的程式碼型體驗管道。
+➡️瞭解如何在[此使用案例](../experience-decisioning/experience-decisioning-uc.md)中使用內容實驗，將決定與程式碼型體驗管道進行比較。
 
 ## 建立您的內容 {#campaign-experiment}
 
@@ -66,7 +66,7 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_success_metric"
 >title="成功量度"
->abstract="成功量度用於追蹤和評估實驗中表現最佳的處理。在使用之前，請務必針對特定量度設定資料集。"
+>abstract="成功量度是用於追蹤和評估實驗中表現最佳的處理。在使用之前，請務必針對特定量度設定資料集。"
 
 1. 當您的訊息已個人化時，從行銷活動摘要頁面，按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以開始設定您的內容實驗。
 

@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 8%
+ht-degree: 19%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="存取管理標籤"
->abstract="您可以根據存取權標籤來限制物件的存取權。 其目的是保護敏感數位資產，使其免受未經授權使用者的侵害，進而保護個人資料。 **請確定只選取您有許可權的標籤。**"
+>abstract="您可以根據存取標籤限制對物件的存取權。其目的是保護敏感的數位資產免受未授權的使用者存取，從而進一步保護個人資料。**請確認僅選取您有權限使用的標籤。**"
 
-您可以根據存取權標籤來限制物件的存取權。 其目的是保護敏感數位資產，使其免受未經授權使用者的侵害，進而保護個人資料。
+您可以根據存取標籤限制對物件的存取權。其目的是保護敏感數位資產，使其免受未經授權使用者的侵害，進而保護個人資料。
 
 物件層級存取控制(OLAC)功能可讓您定義授權，以管理對所選物件的資料存取：
 
@@ -53,7 +53,7 @@ ht-degree: 8%
 
 使用標籤為使用者提供存取權，並強制執行資料治理和同意原則。 這些治理標籤可能會影響下游消耗。
 
-您可以在[!DNL Permissions]產品中建立標籤。 如需詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html?lang=zh-Hant){target="_blank"}。
+您可以在[!DNL Permissions]產品中建立標籤。 如需詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html){target="_blank"}。
 
 您也可以直接在Journey Optimizer中建立&#x200B;**[!UICONTROL 標籤]**。 若要建立標籤，請遵循下列步驟：
 
@@ -72,7 +72,7 @@ ht-degree: 8%
 
    ![](assets/olac_3.png)
 
-1. 按一下[建立]&#x200B;**[!UICONTROL 以儲存您的**&#x200B;[!UICONTROL &#x200B;標籤&#x200B;]&#x200B;**。]**
+1. 按一下[建立]**[!UICONTROL 以儲存您的**[!UICONTROL &#x200B;標籤&#x200B;]**。]**
 
 您新建立的&#x200B;**[!UICONTROL 標籤]**&#x200B;現在可在清單中使用。 如有需要，您可以在[!DNL Permissions]產品中修改它。
 
@@ -86,7 +86,7 @@ ht-degree: 8%
 
 1. 從&#x200B;**[!UICONTROL 管理存取權]**&#x200B;視窗，選取您的自訂或核心資料使用標籤，以管理此物件的存取權。
 
-   如需核心資料使用標籤的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hant){target="_blank"}。
+   如需核心資料使用標籤的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html){target="_blank"}。
 
    ![](assets/olac_4.png)
 
@@ -95,4 +95,4 @@ ht-degree: 8%
 若要存取此物件，使用者必須在其&#x200B;**[!UICONTROL 角色]**&#x200B;中包含特定的&#x200B;**[!UICONTROL 標籤]**。
 例如，具有C1標籤的使用者將只能存取C1標籤或未標籤的物件。
 
-有關如何將&#x200B;**[!UICONTROL 標籤]**&#x200B;指派給&#x200B;**[!UICONTROL 角色]**&#x200B;的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=zh-Hant#manage-labels-for-a-role){target="_blank"}。
+有關如何將&#x200B;**[!UICONTROL 標籤]**&#x200B;指派給&#x200B;**[!UICONTROL 角色]**&#x200B;的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role){target="_blank"}。

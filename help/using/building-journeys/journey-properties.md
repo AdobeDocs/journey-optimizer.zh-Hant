@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
 source-wordcount: '2395'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 13%
 
 **複製技術詳細資料**&#x200B;可讓您複製支援團隊可用於疑難排解的歷程相關技術資訊。 已複製下列資訊： `JourneyVersion UID`、`OrgID`、`orgName`、`sandboxName`、`lastDeployedBy`、`lastDeployedAt`。
 
-在本頁[&#128279;](expression/journey-properties.md)進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們。
+在本頁](expression/journey-properties.md)進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們[。
 
 ## 進入與重新進入 {#entrance}
 
@@ -95,12 +95,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="開始日期"
->abstract="選取設定檔可以開始進入歷程的日期。 如果未設定開始日期，則預設為歷程的發佈日期。"
+>abstract="選取設定檔可開始進入此歷程的日期。如果沒有設定開始日期，則預設為歷程的發佈日期。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="結束日期"
->abstract="設定歷程結束的日期。 在此日期，作用中的設定檔將自動退出歷程，不允許新的專案。"
+>abstract="設定歷程結束的日期。在此日期，主要設定檔將自動退出此歷程旅程，且不允許任何新的進入。"
 
 依預設，設定檔發佈後即可進入您的歷程，並可一直保留，直到達到[全域歷程逾時](#global_timeout)。 唯一的例外是循環讀取對象歷程，其中&#x200B;**在循環**&#x200B;上強制重新進入，結束於下一個事件的開始日期。
 
@@ -108,16 +108,16 @@ ht-degree: 13%
 
 ## 逾時 {#timeout}
 
-### 歷程活動中的逾時 {#timeout_and_error}
+### 歷程活動逾時 {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
 >title="逾時或錯誤"
->abstract="指定歷程嘗試執行動作或評估條件的時間長度，然後再將其視為逾時。 建議的值介於1到30秒之間。"
+>abstract="在歷程視為逾時之前，指定應嘗試執行動作或評估條件的所需時間。建議值介於 1 至 30 秒之間。"
 
 編輯動作或條件活動時，您可以定義替代路徑，以防錯誤或逾時。 如果處理詢問協力廠商系統的活動超過歷程屬性的&#x200B;**[!UICONTROL 逾時或錯誤]**&#x200B;欄位中定義的逾時期間，將會選擇第二個路徑來執行可能的遞補動作。
 
-建議的值介於1到30秒之間。
+建議值介於 1 至 30 秒之間。
 
 如果您的歷程有時效性（例如：對人員的即時位置有所反應），建議您定義非常簡短的&#x200B;**[!UICONTROL 逾時或錯誤]**&#x200B;值，因為您的動作不能延遲超過幾秒鐘。 如果您的歷程較不有時效性，您可以使用較長的值，讓系統有更多時間呼叫，以傳送有效回應。
 
@@ -137,7 +137,7 @@ ht-degree: 13%
 
 自2024年6月Adobe Journey Optimizer發行版本開始，歷程全域逾時已從30天移動至91天。 影響會列於以下的常見問題集中：
 
-單一歷程的&#x200B;**&#x200B;**
+單一歷程的&#x200B;****
 <table style="table-layout:auto">
   <tr style="border: 1;">
     <td>
@@ -181,7 +181,7 @@ ht-degree: 13%
   </tr>
 </table>
 
-針對區段觸發器歷程&#x200B;**&#x200B;**
+針對區段觸發器歷程&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -252,7 +252,7 @@ ht-degree: 13%
 
 Adobe Journey Optimizer會套用在整個歷程中使用的合併原則。 因此，如果在歷程中使用多個對象（例如使用[`inAudience`函式](functions/functioninaudience.md)中的），這會造成與歷程使用的合併原則不一致、引發錯誤並封鎖發佈。 不過，如果在訊息個人化中使用不一致的對象，則儘管不一致，仍不會引發警報。 因此，強烈建議您在訊息個人化使用此對象時，檢查與對象相關聯的合併原則。
 
-若要深入瞭解合併原則，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/overview){target="_blank"}。
+若要深入瞭解合併原則，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}。
 
 >[!NOTE]
 >
@@ -311,7 +311,7 @@ Adobe Journey Optimizer會套用在整個歷程中使用的合併原則。 因�
 
 歷程屬性中的&#x200B;**[!UICONTROL 衝突管理]**&#x200B;區段可讓您監視衝突並排定歷程的優先順序。 您可以：
 
-* 套用&#x200B;**規則集**&#x200B;以根據上限規則將此歷程排除給部分對象。 [瞭解如何使用規則集](../configuration/rule-sets.md)
+* 套用&#x200B;**規則集**&#x200B;以根據上限規則將此歷程排除給部分對象。 [學習如何使用規則集](../configuration/rule-sets.md)
 
 * 將&#x200B;**優先順序分數**&#x200B;指派給歷程，範圍從0到100。 分數越高則表示優先順序越高。 此處插入的優先順序值將由這個歷程所包含的任何傳入動作 (例如應用程式內) 繼承。[瞭解如何使用優先順序分數](../conflict-prioritization/priority-scores.md)
 

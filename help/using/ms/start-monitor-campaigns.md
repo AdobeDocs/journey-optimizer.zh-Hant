@@ -9,7 +9,7 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
@@ -125,12 +125,12 @@ ht-degree: 12%
 | ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | 活動發生錯誤。 若要解決此問題，請開啟協調的行銷活動記錄檔，以取得詳細資訊。 |
 | ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | 已成功執行活動。 |
 
-## 監視日誌和任務 {#logs-tasks}
+## 監視記錄和任務 {#logs-tasks}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
->title="記錄檔與任務"
->abstract="**記錄檔與工作**&#x200B;畫面提供協調行銷活動執行的歷程記錄，記錄所有使用者動作和遇到的錯誤。"
+>title="記錄和任務"
+>abstract="**記錄和任務**&#x200B;畫面提供協調的行銷活動執行歷史記錄，記錄所有使用者動作和發生的錯誤。"
 
 監視記錄檔及工作是分析協調行銷活動並確保其正常執行的關鍵步驟。 可從動作工具列及每個活動屬性窗格中的&#x200B;**[!UICONTROL 記錄檔]**&#x200B;圖示存取。
 
