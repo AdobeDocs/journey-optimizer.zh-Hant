@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
+source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 64%
+source-wordcount: '1184'
+ht-degree: 62%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 64%
 >title="新增功能？"
 >abstract="**Adobe Journey Optimizer** 持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每月最後一週整合於發行說明。"
 
-[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}。
 
 ## 2025年5月更新 {#25-5-rn}
 
@@ -61,6 +61,11 @@ ht-degree: 64%
    * **決策** — 推出日期： 2025年5月16日
 
      現在可以在沙箱之間複製決策物件，簡化測試和部署工作流程。 [閱讀全文](../configuration/copy-objects-to-sandbox.md#decisioning)
+
+* **直接郵件： SFTP連線的SSH金鑰支援** — 推出日期： 2025年5月5日
+
+  直接郵件檔案路由設定中的SFTP伺服器連線現在支援SSH金鑰驗證。
+
 
 ## 2025 年 4 月發行說明 {#25-4-rn}
 

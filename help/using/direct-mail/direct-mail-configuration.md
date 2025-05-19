@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
+source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1365'
 ht-degree: 22%
 
 ---
@@ -103,13 +103,15 @@ ht-degree: 22%
 
 如果您選取&#x200B;**[!UICONTROL SFTP]**&#x200B;做為&#x200B;**[!UICONTROL 伺服器型別]**，請填入伺服器的詳細資料和認證：
 
-* **帳戶**：用來連線至SFTP伺服器的帳戶名稱。
+* **[!UICONTROL 驗證型別]**：選取用來連線到伺服器的驗證型別（密碼或SSH金鑰）。
 
-* **伺服器位址**： &#x200B;SFTP伺服器的URL。
+* **[!UICONTROL 帳戶]**：用來連線至SFTP伺服器的帳戶名稱。
 
-* **連線埠**： FTP連線連線埠號碼。
+* **[!UICONTROL 伺服器位址]**： &#x200B;SFTP伺服器的URL。
 
-* **密碼**：&#x200B;用來連線至SFTP伺服器的密碼。
+* **[!UICONTROL 連線埠]**： SFTP連線連線埠號碼。
+
+* **[!UICONTROL 密碼]** / **[!UICONTROL SSH金鑰]**： &#x200B;用來連線至SFTP伺服器的密碼或SSH金鑰。
 
 ![](assets/file-routing-config-sftp-detail.png)
 
@@ -143,7 +145,7 @@ ht-degree: 22%
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]的所有客戶都已為每個沙箱布建一個資料登陸區域容器。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中進一步瞭解資料登陸區域。
+[!DNL Adobe Experience Platform]的所有客戶都已為每個沙箱布建一個資料登陸區域容器。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中進一步瞭解資料登陸區域。
 
 >[!ENDTABS]
 
