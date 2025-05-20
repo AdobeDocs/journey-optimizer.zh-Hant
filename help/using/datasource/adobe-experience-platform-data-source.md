@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 內建，來源，資料，平台，整合
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: f5ea4455fc0a8ed9e2819a260a8691fc1237844c
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '422'
 ht-degree: 31%
 
 ---
@@ -33,20 +33,22 @@ Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶設定檔�
 >
 >您可以擷取不到一年前建立的1000個最新體驗事件。
 
-以下是新增欄位群組至內建資料來源的主要步驟。
+將欄位群組新增至內建資料來源的主要步驟詳述如下：
 
-1. 從資料來源清單中，選取內建的Adobe Experience Platform資料來源。
+1. 從資料來源清單中，選取內建的&#x200B;**Adobe Experience Platform**&#x200B;資料來源。
 
    這會開啟畫面右側的資料來源設定窗格。
 
    ![](assets/journey23.png)
 
-1. 按一下&#x200B;**[!UICONTROL 新增欄位群組]**&#x200B;以定義要擷取的新欄位系列。 [了解更多](../datasource/configure-data-sources.md#define-field-groups)。
+1. 選取&#x200B;**[!UICONTROL 新增欄位群組]**&#x200B;以定義[要擷取的新欄位系列](../datasource/configure-data-sources.md#define-field-groups)。
 
    ![](assets/journey24.png)
 
-1. 從&#x200B;**[!UICONTROL 結構描述]**&#x200B;下拉式清單中選取結構描述。 此欄位列出Adobe Experience Platform中可用的設定檔和體驗事件結構。 未在[!DNL Journey Optimizer]中執行結構描述建立。 在Adobe Experience Platform中執行。
-1. 選取您要使用的欄位。
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 從&#x200B;**[!UICONTROL 結構描述]**&#x200B;下拉式清單中選取結構描述。 此欄位列出Adobe Experience Platform中可用的&#x200B;**設定檔**&#x200B;和&#x200B;**體驗事件**&#x200B;結構描述。 結構描述建立是在Adobe Experience Platform中執行，而非在Adobe Journey Optimizer中執行。
+1. 選取要使用的欄位，並儲存變更。
 
-將游標放在欄位群組的名稱上時，您會在右側看到兩個圖示。 它們可讓您刪除和複製欄位群組。 請注意，欄位群組未用於任何即時或草稿歷程時（**[!UICONTROL 用於]**&#x200B;欄位中顯示的資訊），才可使用&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示。
+
+>[!TIP]
+>
+>將滑鼠懸停在欄位群組的名稱上，可在右側顯示兩個圖示。 使用這些來&#x200B;**複製**&#x200B;或&#x200B;**刪除**&#x200B;欄位群組。 請注意，**[!UICONTROL 刪除]**&#x200B;圖示只有在任何&#x200B;**即時**、**草稿**&#x200B;或&#x200B;**已完成**&#x200B;歷程中未使用欄位群組時才可用。 請參考&#x200B;**[!UICONTROL 用於]**&#x200B;欄位以檢查情況是否如此。
