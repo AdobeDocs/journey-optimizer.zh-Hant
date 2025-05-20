@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '935'
 ht-degree: 12%
 
 ---
@@ -52,9 +52,9 @@ ht-degree: 12%
 
 在歷程清單中，使用各種篩選器可讓您調整歷程清單。
 
-![](assets/filter-journeys.png)
+![熒幕顯示已選取兩種歷程型別的歷程篩選範例](assets/filter-journeys.png)
 
-您可以根據歷程的[狀態](#journey-statuses)、[型別](#journey-types)、[版本](#journey-versions)，以及從&#x200B;**[!UICONTROL 狀態和版本篩選器]**&#x200B;指派的[標籤](../start/search-filter-categorize.md#tags)來篩選歷程。
+您可以根據歷程的[狀態](#journey-statuses)、[型別](#journey-types)、[版本](publishing-the-journey.md#journey-versions-journey-versions)，以及從&#x200B;**[!UICONTROL 狀態和版本篩選器]**&#x200B;指派的[標籤](../start/search-filter-categorize.md#tags)來篩選歷程。
 
 使用&#x200B;**[!UICONTROL 建立篩選器]**，根據歷程的建立日期或建立歷程的使用者來篩選歷程。
 
