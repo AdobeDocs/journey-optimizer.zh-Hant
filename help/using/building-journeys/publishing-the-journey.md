@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 5%
+source-wordcount: '614'
+ht-degree: 41%
 
 ---
 
@@ -47,8 +47,45 @@ ht-degree: 5%
 >
 >如果對歷程訊息中使用的優惠決定進行變更，您需要取消發佈歷程並重新發佈。  這將確保將變更納入歷程的訊息中，並且該訊息與最新更新一致。
 
+
+## 歷程版本 {#journey-versions}
+
+在歷程清單中，所有歷程版本都會連同版本號碼一起顯示。當您搜尋歷程時，最新版本會在應用程式首次開啟時出現在清單頂端。然後，您可以定義所需的排序，應用程式會將其保留為使用者偏好設定。歷程的版本也會顯示在畫布上方的歷程版本介面頂端。
+
+![](assets/journeyversions1.png)
+
+>[!NOTE]
+>
+>通常，對於歷程的所有作用中版本，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](entry-management.md)。
+
+### 建立歷程的新版本 {#journey-create-new-version}
+
+如果您需要修改為即時歷程，請建立歷程的新版本。 若要建立現有歷程的新版本，請遵循下列步驟：
+
+1. 開啟最新版本的即時歷程，按一下&#x200B;**[!UICONTROL 建立新版本]**&#x200B;並確認。
+
+   ![](assets/journeyversions2.png)
+
+   >[!NOTE]
+   >
+   >您只能從歷程的最新版本建立新版本。
+
+1. 進行修改，按一下&#x200B;**[!UICONTROL 發佈]**&#x200B;並確認。
+
+從發佈歷程的那一刻起，個人就會開始進入歷程的最新版本。 已進入舊版本的人會保留在舊版本中，直到歷程結束。如果他們稍後重新進入相同的歷程，則會進入最新版本。
+
+歷程版本可個別停止。所有版本的歷程都有相同的名稱。
+
+當您發佈歷程的新版本時，舊版本會自動結束並切換到&#x200B;**已關閉**&#x200B;狀態。歷程無法進入。即使您停止最新版本，先前版本仍會保持關閉狀態。
+
+
+>[!NOTE]
+>
+>特定護欄和限制適用於歷程的版本設定。 請在[此頁面](../start/guardrails.md#journey-versions-journey-versions-g)了解更多。
+
+
 ## 作法影片 {#video}
 
 透過此影片瞭解如何發佈歷程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3427942?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

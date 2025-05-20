@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 27%
+source-wordcount: '922'
+ht-degree: 12%
 
 ---
 
@@ -43,6 +43,10 @@ ht-degree: 27%
 * **[!UICONTROL 瀏覽]**&#x200B;索引標籤會顯示現有歷程的清單。 您可以搜尋歷程、使用篩選器並對每個元素執行基本動作。 例如，您可以複製或刪除項目。
 
   ![歷程儀表板醒目提示「瀏覽」索引標籤](assets/journeys-browse.png)
+
+在歷程清單中，所有歷程版本都會連同版本號碼一起顯示。當您搜尋歷程時，最新版本會在應用程式首次開啟時出現在清單頂端。然後，您可以定義所需的排序，應用程式會將其保留為使用者偏好設定。歷程的版本也會顯示在畫布上方的歷程版本介面頂端。 深入瞭解[歷程版本管理](publishing-the-journey.md#journey-versions-journey-versions)。
+
+
 
 ## 篩選您的歷程 {#journey-filter}
 
@@ -94,41 +98,6 @@ ht-degree: 27%
 >
 >* 如果您需要修改為&#x200B;**即時**&#x200B;歷程，請[建立歷程的新版本](#journey-versions)。
 
-
-## 歷程版本 {#journey-versions}
-
-在歷程清單中，所有歷程版本都會連同版本號碼一起顯示。當您搜尋歷程時，最新版本會在應用程式首次開啟時出現在清單頂端。然後，您可以定義所需的排序，應用程式會將其保留為使用者偏好設定。歷程的版本也會顯示在畫布上方的歷程版本介面頂端。
-
-![](assets/journeyversions1.png)
-
->[!NOTE]
->
->通常而言，輪廓無法在同一歷程中同時出現多次。如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](end-journey.md)。
-
-### 建立歷程的新版本 {#journey-create-new-version}
-
-如果您需要修改為即時歷程，請建立歷程的新版本。 若要建立現有歷程的新版本，請遵循下列步驟：
-
-1. 開啟最新版本的即時歷程，按一下&#x200B;**[!UICONTROL 建立新版本]**&#x200B;並確認。
-
-   ![](assets/journeyversions2.png)
-
-   >[!NOTE]
-   >
-   >您只能從歷程的最新版本建立新版本。
-
-1. 進行修改，按一下&#x200B;**[!UICONTROL 發佈]**&#x200B;並確認。
-
-從發佈歷程的那一刻起，個人就會開始進入歷程的最新版本。 已進入舊版本的人會保留在舊版本中，直到歷程結束。如果他們稍後重新進入相同的歷程，則會進入最新版本。
-
-歷程版本可個別停止。所有版本的歷程都有相同的名稱。
-
-當您發佈歷程的新版本時，舊版本會自動結束並切換到&#x200B;**已關閉**&#x200B;狀態。歷程無法進入。即使您停止最新版本，先前版本仍會保持關閉狀態。
-
-
->[!NOTE]
->
->特定護欄和限制適用於歷程的版本設定。 在[此頁面](../start/guardrails.md#journey-versions-journey-versions-g)瞭解更多資訊。
 
 ## 複製歷程 {#duplicate-a-journey}
 
