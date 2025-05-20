@@ -9,22 +9,24 @@ role: User
 level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: 5bdacef2196592776c6b37708b0df0986460ca1f
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '613'
 ht-degree: 41%
 
 ---
 
 # 發佈您的歷程 {#publishing-the-journey}
 
-您必須發佈歷程才能啟用它，並讓新設定檔可以進入它。 發佈歷程之前，請確認其有效且沒有錯誤。 您無法發佈含有錯誤的歷程。
+若要啟用歷程並允許新設定檔進入歷程，您必須發佈歷程。 發佈可讓歷程上線且正常運作。 發佈之前，您必須確保歷程完整且有效，並修正任何錯誤，因為歷程包含錯誤時無法發佈。
 
 ➡️ [在影片中探索此功能](#video)
 
+## 發佈程式 {#journey-publication}
+
 發佈歷程的步驟詳述如下：
 
-1. 發佈歷程之前，請確認其有效且沒有錯誤。 您將無法發佈含有錯誤的歷程。
+1. 發佈歷程之前，請確定歷程有效且沒有錯誤。 如果歷程包含任何錯誤，則無法發佈歷程。
 
    * 瞭解如何在[此頁面](testing-the-journey.md)上測試您的歷程。
    * 在[本節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)中瞭解如何疑難排解您的歷程錯誤。
@@ -33,7 +35,7 @@ ht-degree: 41%
 
    >[!NOTE]
    >
-   > 如果您的歷程受核准政策的約束，您必須請求核准才能發佈您的歷程。 [了解更多](../test-approve/gs-approval.md)
+   > 如果您的歷程受限於核准政策，您必須先請求核准才能發佈。 [了解更多](../test-approve/gs-approval.md)
 
 
    ![](assets/journeyuc1_18.png)
@@ -88,4 +90,4 @@ ht-degree: 41%
 
 透過此影片瞭解如何發佈歷程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3427942?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
