@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 08b8fe41c09ee2d2580bebd5d21472576a7c62a6
+source-git-commit: ef93f92e717815a89e03e4ba85331aac6a041ee8
 workflow-type: tm+mt
-source-wordcount: '1385'
-ht-degree: 26%
+source-wordcount: '1314'
+ht-degree: 24%
 
 ---
 
@@ -110,23 +110,23 @@ ht-degree: 26%
 </tbody>
 </table>
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>行銷活動和歷程詳細目錄的行事曆檢視</strong><br/></th>
+<th><strong>Calendar View for Campaign and Journey inventory</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>歷程和行銷活動清單現在提供日曆檢視。 它可讓您以視覺化方式呈現個別清單中的所有歷程和行銷活動啟用。</p>
-<p>此變更僅適用於一組組織 (有限可用性)。若要取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>A calendar view is now available in the journeys and campaigns lists. It allows you to visualize all journeys and campaigns activations in the respective lists.</p>
+<p>This change is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 <img src="assets/do-not-localize/calendar.gif">
-<!--<p>For more information, refer to these sections: <a href="../building-journeys/journey-ui.md">Browse & filter your journeys</a>, <a href="../campaigns/modify-stop-campaign.md">Access campaigns</a>.</p>-->
+<p>For more information, refer to these sections: <a href="../building-journeys/journey-ui.md">Browse & filter your journeys</a>, <a href="../campaigns/modify-stop-campaign.md">Access campaigns</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 <table>
 <thead>
@@ -288,9 +288,9 @@ ht-degree: 26%
 
   Journey Optimizer Web Channel現在可讓您將訪客重新導向至另一個現有URL，而不是在視覺化編輯器中編寫新的變數。 此功能可用來執行比較兩個完全不同頁面的實驗，而不只是變更頁面中的少數元素。
 
-* **行銷活動清單的右側邊欄**
+<!--* **Right rail in campaigns list**
 
-  現在，在行銷活動清單中，選取行銷活動會開啟窗格並顯示其詳細資訊。
+  In the campaign list, selecting a campaign now opens a pane displaying its details.-->
 
 * 程式碼型體驗內容中的&#x200B;**表單欄位**
 
