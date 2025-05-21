@@ -117,4 +117,4 @@ ht-degree: 19%
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447626?quality=12&captions=chi_hant)
