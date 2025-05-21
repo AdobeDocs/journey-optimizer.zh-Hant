@@ -43,7 +43,7 @@ ht-degree: 14%
 
 * 根據最佳實務，建議您僅在&#x200B;**讀取對象**&#x200B;活動中使用批次對象。 這將為歷程中使用的對象提供可靠且一致的計數。 讀取對象是針對批次使用案例而設計。 如果您的使用案例需要即時資料，請使用&#x200B;**[對象資格](audience-qualification-events.md)**&#x200B;活動。
 
-* 可在&#x200B;**讀取對象**&#x200B;活動中選取從CSV檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)匯入或從[組合工作流程](../audience/get-started-audience-orchestration.md)產生的對象[。 **對象資格**&#x200B;活動中沒有這些對象。
+* 可在&#x200B;**讀取對象**&#x200B;活動中選取從CSV檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)匯入或從[組合工作流程](../audience/get-started-audience-orchestration.md)產生的對象。 **對象資格**&#x200B;活動中沒有這些對象。
 
 與&#x200B;**讀取對象**&#x200B;活動相關的護欄列於[此頁面](../start/guardrails.md#read-segment-g)。
 
@@ -63,7 +63,7 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >此外，您也可以鎖定使用從CSV檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}上傳的[對象組合](../audience/get-started-audience-orchestration.md)或[建立的Adobe Experience Platform對象。
+   >此外，您也可以鎖定使用從CSV檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}上傳的[對象組合](../audience/get-started-audience-orchestration.md)或建立的Adobe Experience Platform對象。
 
    請注意，您可以自訂清單中顯示的欄並加以排序。
 
@@ -180,7 +180,7 @@ ht-degree: 14%
 
 **增量讀取歷程的回顧期間**
 
-選取批次對象評估&#x200B;]**後的**[!UICONTROL &#x200B;觸發程式時，[!DNL Journey Optimizer]會尋找新的對象評估。 對於回顧期間的起點，系統會使用上次成功執行歷程的時間，即使發生於24小時之前。 這對於通常具有24小時回顧期間的增量讀取歷程非常重要。
+選取批次對象評估&#x200B;**後的**&#x200B;觸發程式時，[!DNL Journey Optimizer]會尋找新的對象評估。 對於回顧期間的起點，系統會使用上次成功執行歷程的時間，即使發生於24小時之前。 這對於通常具有24小時回顧期間的增量讀取歷程非常重要。
 
 每日增量讀取歷程範例：
 
