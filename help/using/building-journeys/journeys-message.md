@@ -12,7 +12,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
 source-wordcount: '496'
-ht-degree: 12%
+ht-degree: 18%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="內建頻道動作"
->abstract="Journey Optimizer 內建頻道動作功能。您只需新增訊息(電子郵件、簡訊(SMS/MMS)、推播)或傳入體驗（應用程式內、網路、程式碼型體驗、內容卡片）活動至您的歷程中，並定義設定和內容即可。 接著會根據歷程的內容執行和傳送該活動。"
+>abstract="Journey Optimizer 內建頻道動作功能。您可以直接在自己的歷程中新增一則訊息 (電子郵件、文字簡訊 (SMS/MMS)、推播) 或傳入體驗 (應用程式內、網頁版、程式碼型體驗、內容卡片) 活動，以及定義設定和內容。接著會根據歷程的內容執行和傳送該活動。"
 
 [!DNL Journey Optimizer]附帶內建頻道動作功能，可用來傳送訊息：當設定檔進入此活動時，會傳送訊息給設定檔。
 

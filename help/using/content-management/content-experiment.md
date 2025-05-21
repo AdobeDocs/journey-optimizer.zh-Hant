@@ -66,7 +66,7 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_success_metric"
 >title="成功量度"
->abstract="成功量度是用於追蹤和評估實驗中表現最佳的處理。在使用之前，請務必針對特定量度設定資料集。"
+>abstract="成功量度是用於追蹤和評估實驗中表現最佳的處理。在使用之前，請務必為某些量度設定資料集。"
 
 1. 當您的訊息已個人化時，從行銷活動摘要頁面，按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以開始設定您的內容實驗。
 

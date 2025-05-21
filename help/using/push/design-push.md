@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 14%
+ht-degree: 17%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-compose"
->title="推播通知個人化。"
->abstract="若要撰寫訊息，請在&#x200B;**標題**&#x200B;和&#x200B;**內文**&#x200B;欄位中輸入內容。 若要納入個人化語彙基元，請開啟個人化對話框。"
+>title="推播個人化。"
+>abstract="若要撰寫您的訊息，請在「**標題**」與「**內文**」欄位輸入內容。若要加入個人化權杖，請開啟個人化對話框。"
 
 若要撰寫訊息，請按一下&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 內文]**&#x200B;欄位。 使用個人化編輯器來定義內容、個人化資料及新增動態內容。 進一步瞭解個人化編輯器中的[個人化](../personalization/personalize.md)和[動態內容](../personalization/get-started-dynamic-content.md)。
 
@@ -70,8 +70,8 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
->title="新增按鈕讓使用者可以與你的推播通知互動。"
->abstract="從此區段，將call-to-action按鈕新增至您的訊息。 對於Apple iOS，請指定通知類別識別碼。 對於Google Android，您可以包含每個按鈕的自訂文字和目標。"
+>title="新增按鈕讓使用者可以與您的推播互動。"
+>abstract="從這個區段開始，在您的訊息中加入召喚行動按鈕。使用 Apple iOS 者請指定通知類別識別碼。使用 Google Android 者可以為每個按鈕加入自訂文字與目標。"
 
 將按鈕新增至推播內容，以建立可操作的通知。
 

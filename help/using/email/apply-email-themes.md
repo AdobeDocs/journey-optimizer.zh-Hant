@@ -12,16 +12,16 @@ exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
 source-git-commit: bfe0ce29a30cff7ba876b43d9ed7858ffaab6bb5
 workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# 將主題套用至您的電子郵件內容 {#apply-email-themes}
+# 對您的電子郵件內容套用主題 {#apply-email-themes}
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_theme"
->title="將主題套用至電子郵件"
->abstract="選取電子郵件的主題，以快速套用符合您的品牌和設計的特定樣式。"
+>title="對您的電子郵件套用主題"
+>abstract="為您的電子郵件選擇主題，以快速套用符合品牌形象與設計的特定樣式。"
 
 <!--This documentation provides a comprehensive guide to using themes to streamline your email creation process. With the ability to define reusable themes and leverage pre-designed modules, marketers can create professional, brand-aligned emails faster and with less effort.-->
 
@@ -114,7 +114,7 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
    <!--![](assets/theme-buttons.png)-->
 
-1. 按一下[儲存]儲存此佈景主題以供日後使用。**&#x200B;**
+1. 按一下[儲存]儲存此佈景主題以供日後使用。****
 
 ## 套用主題至電子郵件 {#apply-themes}
 
