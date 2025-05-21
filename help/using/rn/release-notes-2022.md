@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: ht
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 100%
 
@@ -382,7 +382,7 @@ ht-degree: 100%
 <p>現在，您可以在決策管理中使用個人化最佳化模型系統。 這種新類型的模型可讓您根據客群與產品建議績效來將產品建議最佳化和個人化。</p>
 <p>個人化最佳化 AI 模型的使用目前僅限於選定使用者，將在未來的版本中同步到所有環境。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -448,7 +448,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Adobe Stock 和 Adobe Journey Optimizer 電子郵件設計工具整合外掛程式，為客戶提供了用於訊息製作的導覽、授權和儲存影像的簡單方法。 您還可以藉由</br>新的<b>找到類似的相片庫</b>選項找出與影像內容、顏色和組成相符的影像庫。 </p>
+<p>Adobe Stock 和 Adobe Journey Optimizer 電子郵件設計工具整合外掛程式，為客戶提供了用於訊息製作的導覽、授權和儲存影像的簡單方法。 您還可以藉由</br>新的<b>找到類似的相片庫</b>選項找出與影像內容、顏色和構成相符的影像庫。 </p>
 <p>如需詳細資訊，請參閱<a href="../integrations/stock.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -499,7 +499,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>現在，您可以從 Journey Optimizer 沙箱將體驗重新建立到另一個沙箱，例如從非生產沙箱重新建立到生產沙箱。 這個新功能可將整個 Journey 從一個環境複製到另一個環境，包括 Journey 賴以正確運作的任何物件。 除了歷程之外，您還可以複製其他元件，如產品建議、消息、結構描述、資料集、資料來源、事件和動作。</p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/copy-to-sandbox.md">詳細文件</a>。
+<p>如需詳細資訊，請參閱<a href="../building-journeys/copy-to-sandbox.md">詳細說明文件</a>。
 </td>
 </tr>
 </tbody>
@@ -545,7 +545,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>您現在可以設定跨頻道的業務規則，這些業務規則將自動從訊息和動作中排除過度請求的輪廓。</p>
-<p>如需詳細資訊，請參閱<a href="../configuration/rule-sets.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../conflict-prioritization/rule-sets.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -594,7 +594,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>您現在可以監視使用者對 Adobe Journey Optimizer 資源執行的動作。</p>
-<p>如需詳細資訊，請參閱<a href="../privacy/audit-logs.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../privacy/audit-logs.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -750,7 +750,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tr>
 <td>
 <p>在 Journey Optimizer 訊息內容中，您現在可以將 UTM 參數加入連結：提供有關該連結的其他資料，幫助您確定某人按下連結的位置及原因。</p>
-<p>如需詳細資訊，請參閱<a href="../configuration/channel-surfaces.md#configure-email-settings">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/channel-surfaces.md#configure-email-settings">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -807,7 +807,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tr>
 <td>
 <p><strong>增量讀取</strong>選項已新增至定期<strong>讀取客群</strong>活動。 此選項允許您僅將目標定位在自上次執行歷程以來進入客群的個人。 第一次執行總是會將目標定位在所有客群成員。</p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">詳細文件</a>。
+<p>如需詳細資訊，請參閱<a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">詳細說明文件</a>。
 </td>
 </tr>
 </tbody>

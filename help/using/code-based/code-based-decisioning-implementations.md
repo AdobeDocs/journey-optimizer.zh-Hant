@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -21,25 +21,28 @@ ht-degree: 0%
 
 ## 使用決定測試程式碼型體驗 {#code-based-test-decisions}
 
-目前您無法在[程式碼型體驗](create-code-based.md)促銷活動或歷程中使用決定，從使用者介面模擬內容。
+<!--Currently you cannot simulate content from the user interface in a [code-based experience](create-code-based.md) campaign or journey using decisions.-->
 
-暫行解決方法是將`dryRun`旗標新增至使用者端實作中的XDM事件`data`區塊，以在發佈行銷活動後測試決策：
+使用決策測試[程式碼型體驗](create-code-based.md)時，`dryRun`旗標可用於抑制報表和上限計數器的意見反應事件。
+
+發佈行銷活動後，將`dryRun`標幟新增至使用者端實作中的XDM事件`data`區塊：
 
     &quot;
-    &lbrace;
-    &quot;資料&quot;： &lbrace;
-    &quot;__adobe&quot;： &lbrace;
-    &quot;ajo&quot;： &lbrace;
+    {
+    &quot;資料&quot;： {
+    &quot;__adobe&quot;： {
+    &quot;ajo&quot;： {
     &quot;dryRun&quot;： true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
     &quot;&#39;
 
+<!--
 >[!CAUTION]
 >
->將`dryRun`標幟新增至您的請求時，將無法擷取回饋意見以供報表使用，也無法新增頻率計數器。
+>Adding the `dryRun` flag to your request will prevent feedback to be captured for reporting and frequency counters from being added to.-->
 
 ## 程式碼型實施中的決定專案重複資料刪除 {#code-based-decisioning-deduplication}
 
@@ -61,7 +64,7 @@ ht-degree: 0%
 
 ### 在請求中套用重複資料刪除 {#deduplication-in-request}
 
-根據預設，重複資料刪除旗標設為`true` （未傳遞）。
+依照預設，重複資料刪除旗標設為`true`。
 
 在Konductor請求中，如果您想在回應中取得唯一元素，可傳遞重複資料刪除旗標。 在此情況下，請將其設為`false`。
 

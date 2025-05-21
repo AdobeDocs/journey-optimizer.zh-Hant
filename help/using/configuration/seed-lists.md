@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 種子清單，種子清單，種子，設定
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 17%
@@ -83,7 +83,7 @@ ht-degree: 17%
 >id="ajo_seed_list_details"
 >title="定義種子清單"
 >abstract="使用種子清單自動將指定的內部地址新增到您的傳遞對象，當作保障機制。種子清單讓您可以監視發送出去的郵件副本，以確保所有顯示元素正確無誤並保護您的郵寄清單。目前該功能僅適用於電子郵件管道。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hant#use-seed-list" text="什麼是種子清單?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
@@ -96,7 +96,7 @@ ht-degree: 17%
 
 1. 選取&#x200B;**[!UICONTROL 建立種子清單]**&#x200B;按鈕。
 
-   ![](assets/seed-list-create-button.png)
+   <!--![](assets/seed-list-create-button.png)-->
 
 1. 填寫詳細資訊。 從新增名稱開始。
 
@@ -120,7 +120,7 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >您可以合併兩個選項，但種子清單中的地址總數不能超過50。
+   >您可以合併兩個選項，但種子清單中的地址總數不能超過300。
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以確認。 新建立的種子清單會顯示在[種子清單畫面](#access-seed-lists)中。
 

@@ -7,14 +7,26 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 4%
+source-wordcount: '528'
+ht-degree: 3%
 
 ---
 
 # 設定 Infobip 提供者 {#sms-configuration-infobip}
+
+>[!BEGINSHADEBOX]
+
+如果未提供選擇加入或選擇退出關鍵字，系統會使用標準同意訊息來尊重使用者隱私權。 新增自訂關鍵字會自動覆寫預設值。
+
+**預設關鍵字：**
+
+* **選擇加入**：訂閱，是，取消停止，開始，繼續，繼續，開始
+* **選擇退出**：停止、結束、取消、結束、取消訂閱、否
+* **說明**：說明
+
+>[!ENDSHADEBOX]
 
 若要使用Journey Optimizer設定Infobip，請遵循下列步驟：
 

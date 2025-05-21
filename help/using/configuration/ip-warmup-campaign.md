@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP、集區、傳遞能力
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 84cbaebc9c274f620ee707cb0d9320673ae24b71
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 11%
@@ -57,7 +57,7 @@ ht-degree: 11%
 
    >[!IMPORTANT]
    >
-   >IP熱身行銷活動中允許的對象必須以[區段為基礎](../audience/creating-a-segment-definition.md)，並使用[預設合併原則](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}建立。
+   >IP熱身行銷活動中允許的對象必須以[區段為基礎](../audience/creating-a-segment-definition.md)，並使用[預設合併原則](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}建立。
 
    如需如何設定行銷活動的詳細資訊，請參閱[此頁面](../campaigns/get-started-with-campaigns.md)。
 
@@ -65,7 +65,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >[商務規則](rule-sets.md#apply-frequency-rule)不應用於IP熱身計畫。 套用這些規則可能會阻礙達到行銷活動所需目標設定檔數。
+   >[商務規則](../conflict-prioritization/rule-sets.md#apply-frequency-rule)不應用於IP熱身計畫。 套用這些規則可能會阻礙達到行銷活動所需目標設定檔數。
 
    對於已啟用IP熱身計畫的即時行銷活動，**[!UICONTROL 刪除]**&#x200B;按鈕將一直可用，直到它與IP熱身計畫相關聯為止。 行銷活動在計畫中使用後，即無法再刪除。
 

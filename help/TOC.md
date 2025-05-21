@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2390'
 ht-degree: 97%
 
 ---
@@ -213,7 +213,10 @@ ht-degree: 97%
    + [開始使用衝突管理和優先順序](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [識別潛在衝突](using/conflict-prioritization/conflicts.md)
    + [指派優先順序分數](using/conflict-prioritization/priority-scores.md)
-   + [歷程上限與仲裁](using/conflict-prioritization/journey-capping.md)
+設定訊息和歷程上限規則 {#capping-rules}
+      + [使用規則集](using/conflict-prioritization/rule-sets.md)
+      + [歷程上限與仲裁](using/conflict-prioritization/journey-capping.md)
+      + [依據頻道和通訊型別設定頻率上限](using/conflict-prioritization/channel-capping.md)
 + 測試與核准 {#test}
    + 預覽和測試內容 {#preview-test}
       + [開始預覽和測試](using/content-management/preview-test.md)
@@ -730,7 +733,6 @@ ht-degree: 97%
    + [支援封存](using/configuration/archiving-support.md)
    + [變更執行地址](using/configuration/primary-email-addresses.md)
    + [設定業務規則](using/configuration/frequency-rules.md)
-   + [使用規則集](using/configuration/rule-sets.md)
 + 歷程設定 {#configure-journeys}
    + [設定資料來源、事件和動作](using/configuration/about-data-sources-events-actions.md)
    + 事件設定 {#events-journeys}

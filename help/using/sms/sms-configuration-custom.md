@@ -4,14 +4,13 @@ product: journey optimizer
 title: 設定您的自訂提供者
 description: 瞭解如何設定環境，以透過自訂提供者使用Journey Optimizer傳送文字訊息
 feature: SMS, Channel Configuration
-badge: label="Beta" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: fc78fcfb0f2ce3616cb8b1df44dda2cfd66262fe
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 13%
+source-wordcount: '1012'
+ht-degree: 9%
 
 ---
 
@@ -32,25 +31,22 @@ ht-degree: 13%
 >title="提供者承載"
 >abstract="提供要求承載，確保能發送用於進行處理和產生回應的正確資料。"
 
->[!AVAILABILITY]
->
->自訂提供者目前僅供選定使用者使用，做為Beta版。 請洽詢您的Adobe代表，以便納入Beta。
->請注意，此Beta不支援選擇加入/選擇退出同意管理和傳遞報告的傳入訊息。
-
-
 此功能可讓您整合及設定自己的簡訊提供者，提供預設提供者（Sinch、Twilio和Infobip）以外的彈性。 這可讓您順暢地編寫、傳送SMS、製作報表及管理同意。
 
-透過簡訊的自訂提供者設定，您可以：
+透過簡訊的自訂提供者設定，您可以直接在Journey Optimizer中設定自訂簡訊提供者，對動態訊息使用進階裝載自訂，並管理同意偏好設定（選擇加入/選擇退出）以確保法規遵循。
 
-* 直接在Journey Optimizer中設定自訂SMS提供者。
-* 對動態訊息使用進階裝載自訂。
-* 管理同意偏好設定（選擇加入/選擇退出）以確保法規遵循。
+若要設定自訂簡訊提供者，請遵循下列步驟：
+
+1. [建立API認證](#api-credential)
+1. [建立Webhook](#webhook)
+1. [建立頻道設定](sms-configuration-surface.md)
+1. [透過簡訊頻道動作建立歷程或行銷活動](create-sms.md)
 
 ## 建立您的API認證 {#api-credential}
 
 若要在Journey Optimizer中使用Adobe未提供的現成可用自訂提供者（例如Sinch、Infobip、Twilio）傳送訊息，請遵循下列步驟：
 
-1. 在左側邊欄中，瀏覽至&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 管道]**，選取&#x200B;**[!UICONTROL API認證]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立新的API認證]**&#x200B;按鈕。
+1. 在左側邊欄中，瀏覽至&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 管道]**，選取&#x200B;**[!UICONTROL 簡訊設定]**&#x200B;下的&#x200B;**[!UICONTROL API認證]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立新的API認證]**&#x200B;按鈕。
 
    ![](assets/sms_byo_1.png)
 
@@ -78,20 +74,9 @@ ht-degree: 13%
 
 1. 新增您的&#x200B;**[!UICONTROL 提供者裝載]**，以驗證及自訂您的要求裝載。
 
-   您可以使用設定檔屬性來動態個人化您的裝載，並透過內建的協助程式函式，確保傳送準確資料以供處理和產生回應。
-<!--
-1. Add your **Inbound settings** to determine how your system handles incoming messages and subscriber preferences: 
-
-    * **[!UICONTROL Inbound Webhook URL]**: Specify the endpoint URL where inbound messages (e.g. replies or new messages from users) are sent.
-    * **[!UICONTROL Opt-in Keywords]**: Enter the default or custom keywords that will automatically trigger your Opt-In Message. For multiple keywords, use comma-separated values.
-    * **[!UICONTROL Opt-in Message]**: Enter the custom response that is automatically sent as your Opt-In Message.
-    * **[!UICONTROL Opt-out Keywords]**: Enter the default or custom keywords that will automatically trigger your Opt-Out Message. For multiple keywords, use comma-separated values.
-    * **[!UICONTROL Opt-out Message]**: Enter the custom response that is automatically sent as your Opt-Out Message.
--->
-
 1. 完成API認證的設定時，請按一下&#x200B;**[!UICONTROL 提交]**。
 
-1. 在&#x200B;**[!UICONTROL API認證]**&#x200B;功能表中，按一下bin圖示以刪除您的API認證。
+1. 在&#x200B;**[!UICONTROL API認證]**&#x200B;功能表中，按一下![bin圖示](assets/do-not-localize/Smock_Delete_18_N.svg)以刪除您的API認證。
 
    ![](assets/sms_byo_3.png)
 
@@ -99,9 +84,7 @@ ht-degree: 13%
 
    ![](assets/sms_byo_4.png)
 
-建立和設定API認證後，您現在需要建立SMS訊息的頻道介面。 [了解更多](sms-configuration-surface.md)
-
-設定後，您就可以運用所有立即可用的頻道功能，例如訊息製作、個人化、連結追蹤和報告。
+在建立及設定您的API認證後，您現在需要為Webhook](#webhook)設定[簡訊的傳入設定。
 
 ### 自訂 SMS 提供者的驗證選項 {#auth-options}
 
@@ -160,6 +143,59 @@ ht-degree: 13%
 
 >[!ENDTABS]
 
-## 作法影片 {#video}
+## 建立Webhook {#webhook}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443617?captions=chi_hant)
+>[!BEGINSHADEBOX]
+
+如果未提供選擇加入或選擇退出關鍵字，系統會使用標準同意訊息來尊重使用者隱私權。 新增自訂關鍵字會自動覆寫預設值。
+
+**預設關鍵字：**
+
+* **選擇加入**：訂閱，是，取消停止，開始，繼續，繼續，開始
+* **選擇退出**：停止、結束、取消、結束、取消訂閱、否
+* **說明**：說明
+
+>[!ENDSHADEBOX]
+
+成功建立API認證後，下一步就是建立webhook並設定您的傳入設定。 此設定可確保您的系統能夠正確接收及處理傳入的資料或訊息。
+
+1. 在左側邊欄中，瀏覽至&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 管道]**，選取&#x200B;**[!UICONTROL 簡訊設定]**&#x200B;下的&#x200B;**[!UICONTROL 簡訊Webhook]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立Webhook]**&#x200B;按鈕。
+
+   ![](assets/sms_byo_5.png)
+
+1. 設定您的Webhook設定，如下所述：
+
+   * **[!UICONTROL 名稱]**：輸入您Webhook的名稱。
+
+   * **[!UICONTROL 選取簡訊供應商]**：自訂。
+
+   * **[!UICONTROL 選取API認證]**：從下拉式清單中選擇您[先前設定的API認證](#api-credential)。
+
+   * **[!UICONTROL 選擇加入關鍵字]**：輸入將會自動觸發選擇加入訊息的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。
+
+   * **[!UICONTROL 選擇加入訊息]**：輸入自訂回應，此回應會自動作為您的選擇加入訊息傳送。
+
+   * **[!UICONTROL 選擇退出關鍵字]**：輸入將會自動觸發選擇退出訊息的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。
+
+   * **[!UICONTROL 選擇退出訊息]**：輸入自訂回應，此回應會自動作為您的選擇退出訊息傳送。
+
+   ![](assets/sms_byo_6.png)
+
+1. 按一下&#x200B;**[!UICONTROL 檢視裝載編輯器]**&#x200B;以驗證及自訂您的要求裝載。
+
+   您可以使用設定檔屬性來動態個人化您的裝載，並透過內建的協助程式函式，確保傳送準確資料以供處理和產生回應。
+
+1. 完成Webhook的設定時，請按一下&#x200B;**[!UICONTROL 提交]**。
+
+1. 在&#x200B;**[!UICONTROL Webhook]**&#x200B;功能表中，按一下![bin圖示](assets/do-not-localize/Smock_Delete_18_N.svg)以刪除您的Webhook。
+
+1. 若要修改現有組態，請找到所需的Webhook，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;選項以進行必要的變更。
+
+1. 從您先前提交的&#x200B;**[!UICONTROL Webhook]**&#x200B;存取及複製新的&#x200B;**[!UICONTROL Webhook URL]**。
+
+   ![](assets/sms_byo_7.png)
+
+在建立並設定Webhook的輸入設定後，您現在需要建立SMS訊息的[頻道設定](sms-configuration-surface.md)。
+
+設定後，您就可以運用所有立即可用的頻道功能，例如訊息製作、個人化、連結追蹤和報告。
+

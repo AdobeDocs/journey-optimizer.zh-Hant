@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 設定、配置、訊息、通道、沙箱、最佳化程式
-source-git-commit: e052cf9bcd42cecbaaeb9047990ed603dd0730a0
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 48%
+ht-degree: 54%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 48%
 <div align="center"><a href="../web/web-configuration.md"><strong>網頁</strong></a></div></td>
 <td><a href="../code-based/code-based-configuration.md"><img alt="程式碼型體驗" src="../channels/assets/do-not-localize/code.png"></a>
 <div align="center"><a href="../code-based/code-based-configuration.md"><strong>程式碼型體驗</strong></a></div></td>
-<td><a href="../content-card/content-card-configuration-prereq.md"><img alt="內容卡片" src="../channels/assets/do-not-localize/cards.png"></a>
+<td><a href="../content-card/content-card-configuration-prereq.md"><img alt="內容卡" src="../channels/assets/do-not-localize/cards.png"></a>
 <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>內容卡</strong></a></div></td>
 </tr></table>
 
@@ -60,6 +60,6 @@ ht-degree: 48%
 
    * 啟用 **BBC電子郵件選項**，保留傳送給個人的訊息副本。 [了解更多](archiving-support.md#enable-bcc)
 
-   * 設定&#x200B;**商業規則**&#x200B;以避免過度向收件者請求。 [了解更多](../configuration/rule-sets.md)
+   * 設定&#x200B;**商業規則**&#x200B;以避免過度向收件者請求。 [了解更多](../conflict-prioritization/rule-sets.md)
 
    * 當 Adobe Experience Platform 有多個位址/號碼可用時，請確定收件者優先使用哪個電子郵件位址和/或電話號碼。[了解更多](primary-email-addresses.md)

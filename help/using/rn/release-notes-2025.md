@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 7946af7c1d0908fb6a9dad18e7685fa4993ee4c4
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '2031'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
@@ -212,7 +212,7 @@ ht-degree: 90%
 <tbody>
 <tr>
 <td>
-<p>品牌一致性分數功能可直接在電子郵件設計工具中提供清楚的意見回饋，協助您檢視內容是否與品牌的語調、風格和指導方針一致。 Beta提供此功能。</p>
+<p>品牌一致性分數功能可直接在電子郵件設計工具中提供清晰的回饋意見，協助您了解內容是否符合品牌的基調、風格和方針。此功能目前提供 Beta 版。</p>
 <p>如需詳細資訊，請參閱<a href="../content-management/brands-score.md">詳細說明文件</a>。</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -362,7 +362,7 @@ ht-degree: 90%
 <td>
 <p>A calendar view is now available in Journey Optimizer to visualize all journeys activations. From this view, you can browse your journeys and check details and properties.<p>
 <p>This change is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-<p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../conflict-prioritization/rule-sets.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -439,7 +439,7 @@ ht-degree: 90%
 <td>
 <p>Adobe Journey Optimizer has expanded its cross-channel capabilities to include support for the LINE channel. This enhancement allows you to create, edit, and preview LINE experiences enabling more personalized and engaging interactions. With LINE, you can connect with more customers, send relevant content, and improve your engagement.<p>
 <p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-<p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../conflict-prioritization/rule-sets.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -481,7 +481,7 @@ ht-degree: 90%
 
 提醒您，規則集中的每日頻率上限僅適用於一組組織（可用性限制）。 若要取得存取權，請聯絡您的 Adobe 代表。
 
-如需有關業務規則的詳細資訊，請參閱[詳細說明文件](../configuration/rule-sets.md)。
+如需有關業務規則的詳細資訊，請參閱[詳細說明文件](../conflict-prioritization/rule-sets.md)。
 
 **內容範本**
 
@@ -517,7 +517,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <p><ul><li>建立管道規則集，以限制跨一或多個管道傳送的訊息數。 將它們套用至行銷活動或歷程動作，以強制執行規則集中定義的規則。 管道規則集可讓您根據通訊類型套用上限規則。 例如，設定規則集以限制「促銷訊息」，並針對「電子報」設定另一個規則集。 根據您傳送的通訊類型，在您的行銷活動或歷程動作中套用適當的規則集。</li>
 <li> 建立歷程規則集以控制設定檔專案進入歷程。 限制設定檔在指定期間內輸入歷程的頻率，或設定檔可同時註冊的歷程數。 在歷程層級套用這些專案，以確保適當地進入管理。</li></ul></p>
 <p>業務規則以前僅可供一組組織 (LA) 使用，目前可供所有使用者使用 (GA)。歷程網域業務規則仍僅可用於有限的一組組織 (LA)。</p>
-<p>如需詳細資訊，請參閱<a href="../configuration/rule-sets.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../conflict-prioritization/rule-sets.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>

@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: ht
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -265,7 +265,7 @@ ht-degree: 100%
 <td>
 <p>善用在個人化編輯器中的 Adobe Experience Platform 資料，將內容個人化。 若想這樣做，就必須先透過 API 呼叫，啟用查詢個人化所需的資料集。 一旦完成，您就可以使用這些資料，將內容個人化，改成[!DNL Journey Optimizer]。</p>
 <p>只要是客戶都可在公開測試版中使用此功能。</p>
-<p>如需詳細資訊，請參閱<a href="../personalization/lookup-aep-data.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../personalization/lookup-aep-data.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -618,7 +618,7 @@ ht-degree: 100%
 <td>
 <p>推出日期：8 月 13 日</p>
 <p>如果您使用全新的 IP 位址傳送電子郵件，現在可以直接從使用者介面輕鬆執行 IP 暖身工作流程。 Adobe Journey Optimizer 提供標準化和有效率的方式，讓您的 IP 位址按照最佳實務來暖身，以實現最佳傳遞能力。</p>
-<p>如需詳細資訊，請參閱<a href="../configuration/ip-warmup-gs.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/ip-warmup-gs.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -687,7 +687,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>Adobe Journey Optimizer 現已提供聯合客群構成。它可讓企業自行組合資料，以便在各種使用案例中能善加運用。有了這種新方法，身為 Adobe Real-Time 客戶資料平台和/或 Adobe Journey Optimizer 使用者，您就可以直接聯合現有資料倉儲中的資料集，透過單一系統建置並擴充 Adobe 體驗平台的客群及屬性。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/federated-audience-composition/using/home"  target="_blank">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/federated-audience-composition/using/home"  target="_blank">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -917,7 +917,7 @@ ht-degree: 100%
 <td>
 <p>您可以在建立電子郵件管道設定時，馬上定義動態子網域和個人化標題參數，就能提高電子郵件設定彈性，更能夠掌握得當。</p>
 <p>電子郵件設定個人化目前僅開放給某些組織使用 (有限可用性)。若要取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="../email/surface-personalization.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/surface-personalization.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -1066,7 +1066,7 @@ ht-degree: 100%
 <p>除改善歷程畫布設計外，我們也引進了直接在歷程畫布檢視過去 24 小時報告量度的功能。 </p>
 <img src="assets/new-canvas6bis.png"/>
 <p><strong>注意</strong>：這些變更將會從 4 月發布內容開始在所有環境逐步推出。</p>
-<p>如需詳細資訊，請參閱<a href="new-canvas.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="new-canvas.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -1159,7 +1159,7 @@ ht-degree: 100%
 <ul><li> 通用個人化：擴充所有接觸點的個人化體驗，確保一致且量身打造的使用者歷程</li>
 <li>精細的編輯精確度：在應用程式或網頁內的個別位置編輯特定內容</li>
 <li>多樣化實施：支援伺服器端、API 或 SDK 型實施方法，以便順暢整合您的開發環境。</li></ul></p>
-<p>如需詳細資訊，請參閱<a href="../code-based/get-started-code-based.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../code-based/get-started-code-based.md">詳細說明文件</a>。</p>
 <img src="assets/do-not-localize/code-based.gif"> 
 </tr>
 </tbody>
@@ -1223,7 +1223,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>除了電子郵件，以下管道現在也提供內容範本：推播、應用程式內、簡訊與直接郵件，每個管道都有專用的範本類型。針對電子郵件，您現在可以選取內容類型，這可讓您將主旨行儲存為電子郵件範本的一部分。 <br/><br/></p>
-<p>如需詳細資訊，請參閱<a href="../content-management/content-templates.md">詳細文件</a>。<br></br></p>
+<p>如需詳細資訊，請參閱<a href="../content-management/content-templates.md">詳細說明文件</a>。<br></br></p>
 <img src="assets/do-not-localize/multi-chan-templates.gif"> 
 </tr>
 </tbody>
@@ -1266,7 +1266,7 @@ ht-degree: 100%
 
 **頻率規則**
 
-* 除了電子郵件及推播之外，您現在還可以為簡訊和直接郵件管道建立頻率規則。 當達到頻率上限時，頻率規則會自動從訊息和動作中排除過度請求的輪廓。[閱讀全文](../configuration/rule-sets.md)
+* 除了電子郵件及推播之外，您現在還可以為簡訊和直接郵件管道建立頻率規則。 當達到頻率上限時，頻率規則會自動從訊息和動作中排除過度請求的輪廓。[閱讀全文](../conflict-prioritization/rule-sets.md)
 
 <!--**Decision management**
 
@@ -1308,7 +1308,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>在 Real-Time CDP 和 Journey Optimizer 中，利用特定產業使用案例教戰手冊的目錄，解決您可以使用 Adobe Experience Platform 和 Adobe Journey Optimizer 來執行的常見使用案例。</p><p>在您選擇最符合需求的教戰手冊後，您可加以啟用來產生歷程、訊息、結構描述或區段等支援使用案例所需的資產，並根據結構描述來予以自訂，以加速創造價值。</p>
-<p>如需詳細資訊，請參閱<a href="../start/playbooks.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../start/playbooks.md">詳細說明文件</a>。</p>
 <br/><img src="assets/do-not-localize/playbooks.gif"/>
 </tr>
 </tbody>
@@ -1342,7 +1342,7 @@ ht-degree: 100%
 
 **頻率規則**
 
-* **每週頻率上限** - 除了以月為單位之外，您現在可以指定一週內所能傳送給客戶輪廓的訊息數量上限。頻率上限是以所選的行事曆期間為基礎，並會在對應的時間段開始時重設。 [了解更多](../configuration/rule-sets.md)
+* **每週頻率上限** - 除了以月為單位之外，您現在可以指定一週內所能傳送給客戶輪廓的訊息數量上限。頻率上限是以所選的行事曆期間為基礎，並會在對應的時間段開始時重設。 [了解更多](../conflict-prioritization/rule-sets.md)
 
   >[!NOTE]
   >

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 18%
+source-wordcount: '1543'
+ht-degree: 16%
 
 ---
 
@@ -153,6 +153,31 @@ ht-degree: 18%
 
 有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱[內容管理](../content-management/preview-test.md)區段。
 
+## 重新導向至URL {#web-redirect-to-url}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_redirect"
+>title="重新導向至其他URL"
+>abstract="輸入現有的URL，您要重新導向頁面的訪客。"
+
+建立Web體驗時，您可以將訪客重新導向至另一個現有URL，而不是在Web設計工具中編寫新的變數。
+
+使用此容量，您可以執行比較兩個不同體驗的[內容實驗](../content-management/content-experiment.md)，而不只是變更頁面中的幾個元素。
+
+例如，建立具有兩種處理的網路行銷活動：
+
+* 在&#x200B;**處理A**&#x200B;中，使用網頁設計工具為一半目標母體編寫網頁體驗。
+
+* 在&#x200B;**處理B**&#x200B;中，選取目標母體其他一半的&#x200B;**[!UICONTROL 重新導向至URL]**&#x200B;選項。 輸入您於[!DNL Journey Optimizer]之外編寫之替代設計的頁面URL。
+
+  ![](assets/web-campaign-redirect-to-url.png)
+
+  >[!NOTE]
+  >
+  >網站預覽不再顯示，**[!UICONTROL 視覺化編輯器]**&#x200B;切換按鈕已停用。
+
+一旦您的網頁行銷活動上線，您就可以追蹤您在[!DNL Journey Optimizer]中編寫的網頁體驗針對重新導向至外部登陸頁面之訪客的執行情形。 瞭解如何使用[實驗性行銷活動報告](../reports/campaign-global-report-cja-experimentation.md)
+
 ## 讓您的網頁體驗上線 {#web-experience-live}
 
 >[!IMPORTANT]
@@ -241,4 +266,4 @@ ht-degree: 18%
 
 以下影片說明如何建立網站行銷活動、設定其屬性、檢閱及發佈。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449992/?quality=12&learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

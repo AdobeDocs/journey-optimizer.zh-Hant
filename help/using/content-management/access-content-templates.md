@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '603'
 ht-degree: 3%
 
 ---
@@ -25,10 +25,6 @@ ht-degree: 3%
 所有在目前沙箱上建立的範本(來自歷程或使用&#x200B;**[!UICONTROL 另存為範本]**&#x200B;選項（來自&#x200B;**[!UICONTROL 內容範本]**&#x200B;功能表）的行銷活動)都會顯示。 [瞭解如何建立範本](#create-content-templates)
 
 左側的窗格可讓您將內容範本整理到資料夾中。 依預設，會顯示所有範本。 選取資料夾時，只會顯示所選資料夾中包含的範本和資料夾。 [了解更多](#folders)
-
->[!NOTE]
->
->內容範本資料夾僅適用於一組組織（可用性限制），並將逐步推出給更多使用者。
 
 ![](assets/content-template-list-folders.png)
 
@@ -50,10 +46,6 @@ ht-degree: 3%
 
 ## 使用資料夾管理內容範本 {#folders}
 
->[!AVAILABILITY]
->
->內容範本資料夾僅適用於一組組織（可用性限制），並將逐步推出給更多使用者。
-
 若要輕鬆導覽您的內容範本，您可以使用資料夾來更有效地將其組織到結構化階層中。 這可讓您根據組織需求將專案分類和管理。
 
 ![](assets/content-template-folders.png)
@@ -72,7 +64,7 @@ ht-degree: 3%
 
    ![](assets/content-template-create-folder.png)
 
-1. 輸入新資料夾的名稱，然後按一下[儲存]。**&#x200B;** 新資料夾會顯示在&#x200B;**[!UICONTROL Root]**&#x200B;資料夾內內容範本清單的頂端，或顯示在目前選取的資料夾內。
+1. 輸入新資料夾的名稱，然後按一下[儲存]。**** 新資料夾會顯示在&#x200B;**[!UICONTROL Root]**&#x200B;資料夾內內容範本清單的頂端，或顯示在目前選取的資料夾內。
 
 1. 您可以按一下&#x200B;**[!UICONTROL 其他動作]**&#x200B;按鈕，重新命名或刪除資料夾。
 
