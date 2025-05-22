@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
+source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '736'
 ht-degree: 6%
 
 ---
@@ -95,6 +95,10 @@ ht-degree: 6%
   }
 }
 ```
+
+>[!IMPORTANT]
+>
+>只有在呼叫&#x200B;**部署**&#x200B;端點之後，設定才會啟用。
 
 ## 警告和錯誤
 
