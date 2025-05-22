@@ -27,7 +27,7 @@ ht-degree: 0%
 * 顏色對比
 * 驗證必填欄位
 
-本檔案](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hant){target="_blank"}中詳細介紹了Adobe Experience Platform的協助工具功能[。
+本檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hant){target="_blank"}中詳細介紹了Adobe Experience Platform的協助工具功能。
 
 [!DNL Journey Optimizer]中提供了以下常用鍵盤快捷鍵：
 
