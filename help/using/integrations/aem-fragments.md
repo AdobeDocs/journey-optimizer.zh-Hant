@@ -22,7 +22,7 @@ ht-degree: 1%
 
 透過將Adobe Experience Manager as a Cloud Service與Adobe Journey Optimizer整合，您現在可以將AEM內容片段順暢地整合到Journey Optimizer內容中。 此簡化的連線可簡化存取及運用AEM內容的程式，讓您建立個人化和動態的行銷活動和歷程。
 
-若要深入瞭解AEM內容片段，請參閱Experience Manager檔案中的[使用內容片段](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/overview)。
+若要深入瞭解AEM內容片段，請參閱Experience Manager檔案中的[使用內容片段](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/overview)。
 
 ## 限制 {#limitations}
 
@@ -48,9 +48,9 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**建立**。
 
-1. 定義您的內容片段模式(如[Experience Manager檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models)中所詳述)，並指派您新建立的Journey Optimizer標籤。
+1. 定義您的內容片段模式(如[Experience Manager檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models)中所詳述)，並指派您新建立的Journey Optimizer標籤。
 
-您現在可以開始建立和設定內容片段，以便稍後在Journey Optimizer中使用。 進一步瞭解[Experience Manager檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing)。
+您現在可以開始建立和設定內容片段，以便稍後在Journey Optimizer中使用。 進一步瞭解[Experience Manager檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing)。
 
 ## 新增Experience Manager內容片段 {#aem-add}
 
