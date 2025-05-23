@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: bc433a215021b9c5c6a8948468468808e7121712
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 13%
+source-wordcount: '276'
+ht-degree: 10%
 
 ---
 
@@ -17,17 +17,13 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"
 >title="使用測試設定檔檢查您的內容"
->abstract="使用測試設定檔預覽和測試您的內容。 如果您新增了個人化欄位，可以使用測試設定檔資料檢查它們的顯示方式。"
+>abstract="使用測試設定檔預覽和測試您的內容。 如果您已新增個人化欄位，您可以使用測試設定檔資料檢查這些欄位的顯示方式。"
 
-預覽或測試內容之前，您必須先選取測試設定檔，這些是不符合已定義定位准則的其他收件者。 [瞭解如何建立測試設定檔](../audience/creating-test-profiles.md)
+測試設定檔是不符合已定義定位准則的其他收件者。 [瞭解如何建立測試設定檔](../audience/creating-test-profiles.md)
 
->[!NOTE]
->
->除了測試設定檔之外，[!DNL Journey optimizer]也可讓您使用從CSV / JSON檔案上傳或手動新增的範例輸入資料，透過預覽和傳送校樣來測試內容的不同變體。 [瞭解如何使用範例輸入資料測試您的內容](../test-approve/simulate-sample-input.md)
+使用測試設定檔測試內容之前，您必須先選取設定檔。 要執行此操作，請依照下列步驟執行：
 
-若要選取測試設定檔，請遵循下列步驟：
-
-1. 從訊息的編輯內容畫面或電子郵件Designer中，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕。
+1. 從訊息的編輯內容畫面或電子郵件Designer中，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 模擬內容]**。
 
 1. 按一下&#x200B;**[!UICONTROL 管理測試設定檔]**&#x200B;按鈕，然後按一下&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;選取圖示，選取要用來識別測試設定檔的名稱空間。 [進一步瞭解Adobe Experience Platform身分識別名稱空間](../audience/get-started-identity.md)。
 
@@ -48,3 +44,7 @@ ht-degree: 13%
    ![](../email/assets/preview-profile-list.png)
 
    此清單會根據訊息個人化元素，在相關欄中顯示每個測試設定檔的資料。
+
+>[!NOTE]
+>
+>除了測試設定檔之外，[!DNL Journey optimizer]也可讓您使用從CSV / JSON檔案上傳或手動新增的範例輸入資料，透過預覽和傳送校樣來測試內容的不同變體。 [瞭解如何模擬內容變化](../test-approve/simulate-sample-input.md)

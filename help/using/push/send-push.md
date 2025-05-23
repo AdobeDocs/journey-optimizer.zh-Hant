@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '382'
 ht-degree: 6%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 6%
 
 ## 預覽推播通知 {#preview-push}
 
-定義訊息內容後，您可以使用測試設定檔，或從CSV / JSON檔案上傳的範例輸入資料，或手動新增以預覽其內容。 如果您已插入個人化內容，您可以檢查此內容在訊息中的顯示方式。 [瞭解如何使用範例輸入資料測試您的內容](../test-approve/simulate-sample-input.md)
+定義訊息內容後，您可以使用測試設定檔，或從CSV / JSON檔案上傳的範例輸入資料，或手動新增以預覽其內容。 如果您已插入個人化內容，您可以檢查此內容在訊息中的顯示方式。
 
-若要這麼做，請按一下[模擬內容]。**&#x200B;** 然後，您可以選取要預覽內容的裝置型別： **[!UICONTROL iOS]**&#x200B;或&#x200B;**[!UICONTROL Android]**。
+若要這麼做，請按一下[模擬內容]。**** 然後，您可以選取要預覽內容的裝置型別： **[!UICONTROL iOS]**&#x200B;或&#x200B;**[!UICONTROL Android]**。
 
 ![](assets/push_preview_3.png)
 

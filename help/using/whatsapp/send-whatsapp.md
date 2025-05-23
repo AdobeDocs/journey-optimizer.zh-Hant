@@ -10,29 +10,30 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
+source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 2%
+source-wordcount: '266'
+ht-degree: 9%
 
 ---
 
-# 檢查並傳送您的WhatsApp訊息 {#send-whatsapp}
+# 檢查並傳送 WhatsApp 訊息 {#send-whatsapp}
 
 >[!BEGINSHADEBOX]
 
 **目錄**
 
-* [開始使用WhatsApp訊息](get-started-whatsapp.md)
-* [開始使用WhatsApp設定](whatsapp-configuration.md)
-* [建立WhatsApp訊息](create-whatsapp.md)
+* [開始使用 WhatsApp 訊息](get-started-whatsapp.md)
+* [開始使用 WhatsApp 設定](whatsapp-configuration.md)
+* [建立 WhatsApp 訊息](create-whatsapp.md)
 * **[檢查並傳送您的WhatsApp訊息](send-whatsapp.md)**
 
 >[!ENDSHADEBOX]
 
 ## 預覽您的WhatsApp訊息 {#preview-whatsapp}
 
-定義訊息內容後，您可以使用測試設定檔，或從CSV / JSON檔案上傳的範例輸入資料，或手動新增以預覽其內容。 如果您已插入個人化內容，您可以檢查此內容在訊息中的顯示方式。 [瞭解如何使用範例輸入資料測試您的內容](../test-approve/simulate-sample-input.md)
+定義訊息內容後，您可以使用測試設定檔，或從CSV / JSON檔案上傳的範例輸入資料，或手動新增以預覽其內容。 如果您已插入個人化內容，您可以檢查此內容在訊息中的顯示方式。
 
 若要這麼做，請按一下&#x200B;**[!UICONTROL 模擬內容]**，然後使用測試設定檔資料檢查您的訊息。
 

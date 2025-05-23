@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: eb3879db92d765a71626b6b68299286818d9569b
+source-git-commit: 3ca20bf61a4bd6dc8fa066323291cc804cb09571
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 30%
+source-wordcount: '1058'
+ht-degree: 35%
 
 ---
 
@@ -175,23 +175,23 @@ ht-degree: 30%
 </tbody>
 </table>-->
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Simulate content variations</strong><br/></th>
+<th><strong>模擬內容變化版本</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Previously available in beta, content variations simulation is now generally available (GA). It allows you to preview different variations of your content using sample input data uploaded from a CSV or JSON file or added manually. All the attributes used in your content for personalization are automatically detected by the system and can be used for your tests to create multiple variants.</p>
-<p>Previously released in Limited Availability, this capability is now available to all environments. With this General Availability release, the feature now includes support for multilingual content and content experiments, enabling you to test variations across different languages and treatments. Additionally, it now supports contextual attributes (in addition to profile attributes), allowing for even more dynamic and situational content testing.</p>
+<p>先前提供測試版的內容變化模擬現在為一般可用 (GA)。 可讓您使用從 CSV / JSON 檔案上傳，或是手動新增的範例輸入資料來預覽內容的不同變更。 系統會自動偵測您在內容中使用到的所有輪廓屬性，以便進行個人化，以上屬性可用於測試，即可建立多個變體。</p>
+<p>此功能先前以「有限可用性」發行，現在可供所有環境使用。 透過此一般可用性版本，功能現在包含對多語言內容和內容實驗的支援，可讓您測試不同語言和處理的變數。 此外，它現在支援內容屬性（除了輪廓屬性外），以允許進行更多動態與情境式內容測試。</p>
 <img src="assets/do-not-localize/variants.gif">
-<p>For more information, refer to the <a href="../test-approve/simulate-sample-input.md">detailed documentation</a>.</p>
+<p>如需詳細資訊，請參閱<a href="../test-approve/simulate-sample-input.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 <!--table>
 <thead>
