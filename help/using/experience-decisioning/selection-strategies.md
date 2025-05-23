@@ -19,13 +19,13 @@ ht-degree: 19%
 >id="ajo_exd_config_strategies"
 >title="定義您的選擇策略"
 >abstract="選擇策略可重複使用，並包括與適用性限制和排名方法相關聯的集合，用以確定在選取某個決定原則時要顯示的產品建議。"
-<!-->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="Create decision policies"-->
+<!-->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=zh-Hant" text="Create decision policies"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
 >title="限制符合資格的設定檔"
 >abstract="您可以限制此選擇策略的產品建議選擇。 預設情況下，所有設定檔都符合資格，但您可以使用對象或規則將產品建議選擇限制為僅限特定設定檔。"
-<!-->>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Use audiences"
+<!-->>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=zh-Hant" text="Use audiences"
 >additional-url=&quot;https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html&quot; text=&quot;使用決定規則&quot;—>
 
 選取策略可重複使用，包含與適用性限制關聯的集合，以及決定在[決定原則](create-decision.md)中選取時顯示的優惠的排名方法。
@@ -88,7 +88,7 @@ ht-degree: 19%
 >id="ajo_exd_strategy_ranking"
 >title="定義如何對產品建議進行排名"
 >abstract="如果多個產品建議符合特定的選擇策略，請在建立選擇策略時選擇為每個設定檔選取最佳產品建議的方法：優先順序或排名公式。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="建立決定原則"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=zh-Hant" text="建立決定原則"
 
 如果數個優惠方案符合指定的選取策略資格，您可以選擇在建立選取策略時，用來選取每個設定檔之最佳優惠方案的方法。 您可以依下列方式排名優惠方案：
 
