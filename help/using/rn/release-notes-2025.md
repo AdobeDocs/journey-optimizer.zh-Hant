@@ -10,34 +10,34 @@ level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 2025 年發行說明 {#release-notes-2025}
+# 發行說明 2025 年 {#release-notes-2025}
 
-此頁面列出了於 2025 年發行的[!DNL Journey Optimizer]所有功能和改善。
+此頁面列出了於 2025 年發行的 [!DNL Journey Optimizer] 所有功能和改進項目。
 
 
 ## 2025 年 4 月發行說明 {#25-4-rn}
 
-**發行日期**：2025 年 4 月 29-30 日
+**發布內容日期**：2025 年 4 月 29-30 日
 
-### 新功能 {#25-04-features}
+### 全新功能 {#25-04-features}
 
-以下列出此發行版本的新功能。
+此發布內容版本隨附的新功能，會詳述如下。
 
 <table>
 <thead>
 <tr>
-<th><strong>個人化編輯器 — 透過實踐學習</strong><br/></th>
+<th><strong>個人化編輯器：透過實踐學習</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在提供個人化遊樂場，您可以在其中嘗試個人化運算式。 它可讓您探索範例範本與裝載，以幫助您開始並試用自己的個人化運算式。</p>
+<p>目前有提供個人化遊樂場，您可以在裡面實驗個人化運算式。這讓您可以探索範例範本和裝載，以便協助您開始使用，可以自己試用看看個人化運算式。</p>
 <p>如需詳細資訊，請參閱<a href="../personalization/personalize.md#playground">詳細文件</a>。</p>
 <p>推出日期： 2025 年 4 月 24 日</p>
 <img src="assets/do-not-localize/templating-playground.gif"/>
@@ -82,14 +82,14 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>LINE頻道</strong><br/></th>
+<th><strong>LINE 頻道</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Adobe Journey Optimizer 已擴充其跨頻道功能，以包含對 LINE 頻道的支援。此增強功能可讓您建立、編輯和預覽 LINE 體驗，以啟用更個人化且吸引人的互動。透過 LINE，您可以與更多客戶連絡、傳送相關內容並改善您的參與度。</p>
-<p>Adobe Journey Optimizer客戶可依請求啟用LINE頻道。 請聯絡Adobe客戶服務或您的Adobe代表，為您的組織啟用此功能。</p>
+<p>客戶可按請求，啟用 Adobe Journey Optimizer 的 LINE 頻道。請聯絡 Adobe 客戶服務，或是您的 Adobe 代表，為貴組織啟用這項功能。</p>
 <p>如需詳細資訊，請參閱<a href="../line/get-started-line.md">詳細文件</a>。</p></td>
 </tr>
 </tbody>
@@ -152,16 +152,16 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Express 整合 (有限可用性)</strong><br/></th>
+<th><strong>Adobe Express 整合 (可用性限制)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer 現在與 Adobe Express 整合，可讓您透過 journey orchestration 順暢地連線創意資產。 此整合可簡化跨行銷活動設計和部署個人化內容的程式。 </p>
+<p>Adobe Journey Optimizer 目前可以整合入 Adobe Express，讓您可以透過歷程協調，順利連上創意資產。此整合能簡化跨行銷活動設計、部署個人化內容的程序。 </p>
 <p>此整合目前不適用於Healthcare Shield或Privacy and Security Shield。</p>
 <img src="assets/do-not-localize/express_resize.gif">
-<p>如需詳細資訊，請參閱<a href="../integrations/express.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../integrations/express.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -170,13 +170,13 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>批次細分完成後觸發每日歷程執行 (有限可用性)</strong><br/></th>
+<th><strong>批次分段完成後，就會觸發每日歷程執行 (可用性限制)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>對於每日排程的歷程，新選項可讓您定義最多 6 小時的時間範圍，以等待批次分段工作的對象資料，確保歷程以最新資料執行，如果未準備就緒則予以跳過。 批次客群評估後觸發選項僅適用於一般組織 (有限可用性)。若要取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>針對每日既定行程，新增選項可讓您定義的時間視窗長達 6 小時之久，等待批次分段作業的受眾資料，確保使用到最新資料來執行歷程，或者如果尚未準備好，就會直接跳過。[批次客群評估後就會觸發] 選項僅適用於一組組織 (可用性限制)。若要取得存取權，請聯絡您的 Adobe 代表。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/read-audience.md#schedule">詳細文件</a>。</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>
@@ -206,13 +206,13 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>品牌一致性分數 (Beta)</strong><br/></th>
+<th><strong>品牌聯名分數 (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>品牌一致性分數功能可直接在電子郵件設計工具中提供清晰的回饋意見，協助您了解內容是否符合品牌的基調、風格和方針。此功能目前提供 Beta 版。</p>
+<p>品牌聯名分數功能可直接在電子郵件設計工具中，提供清晰的意見回饋，協助您檢視內容是否與品牌的語調、風格和指導方針一致。Beta 提供此功能。</p>
 <p>如需詳細資訊，請參閱<a href="../content-management/brands-score.md">詳細說明文件</a>。</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -242,17 +242,17 @@ ht-degree: 92%
 
 ### 功能改進 {#25-04-improv}
 
-**行銷活動預覽API**
+**行銷活動預覽 API**
 
-除了現有的校樣傳送功能外，新API也可用於預覽行銷活動。 [閱讀全文](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}。
+除了現有的校訂傳送功能外，新的 API 也可預覽行銷活動。[閱讀全文](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}。
 
 **沙箱工具**
 
-* **自訂操作的沙箱工具**
+* **自訂動作的沙箱工具**
 
-  自訂操作現在包含在可以使用沙箱工具功能複製的 Adobe Journey Optimizer 物件清單中，以簡化測試和部署。 [閱讀全文](../configuration/copy-objects-to-sandbox.md)
+  自訂動作目前已加入在 Adobe Journey Optimizer 物件清單中，可以使用沙箱工具功能複製，以便簡化測試和部署。[閱讀全文](../configuration/copy-objects-to-sandbox.md)
 
-* **行銷活動的沙箱工具** — 推出日期： 2025 年 4 月 3 日
+* **行銷活動適用的沙箱工具** — 推出日期： 2025 年 4 月 3 日
 
   您現在可以使用套件匯出和匯入功能，跨多個沙箱複製行銷活動。 行銷活動會連同與輪廓、對象、結構描述、內嵌訊息以及從屬物件相關的所有項目一起複製。 有些項目不會複製，例如決定項目、資料使用標籤及語言設定。 [閱讀全文](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
@@ -260,17 +260,17 @@ ht-degree: 92%
 
 * **新的內容屬性**
 
-  新的內容屬性&#x200B;**訊息輪廓 ID** 現在可從個人化編輯器選取。 這是訊息導向屬性，可唯一識別傳送期間傳送至每個目標輪廓的每個訊息。 例如，此唯一識別碼可用作 URL 追蹤參數，區分收件者開啟或點擊的每個連結。
+  新的內容屬性、**訊息設定檔識別碼**&#x200B;目前都可以從個人化編輯器那邊選取。這是訊息導向屬性，唯一標識出的每條訊息，都會傳送到交付中的每個目標設定檔。例如，此唯一識別碼可用作網址追蹤參數，以便區分收件者開啟或點選的每個連結。
 
-* **在屬性窗格中填入屬性** — 推出日期： 2025 年 4 月 2 日
+* **請在屬性窗格中填入屬性** — 使用日期：2025 年 4 月 2 日
 
   個人化編輯器的屬性窗格，現在預設僅顯示已填入的屬性。 若要檢視所有屬性，請使用設定按鈕來關閉&#x200B;**[!UICONTROL 僅顯示填入的屬性]**&#x200B;選項。 [閱讀全文](../personalization/personalization-build-expressions.md)
 
 **電子郵件頻道**
 
-* **個人化URL追蹤** — 推出日期： 2025年4月30日
+* **個人化網址追蹤** — 推出日期： 2025 年 4 月 30 日
 
-  為了增加彈性並控制電子郵件設定，您現在可以在電子郵件通道設定層級一次個人化所有URL追蹤引數，而不是在電子郵件設計工具中為內容中的每個連結這麼做。 [閱讀全文](../email/surface-personalization.md#personalize-url-tracking)
+  為了增加彈性，控制電子郵件設定，您目前可以到電子郵件設定那邊，一次將所有網址追蹤引數個人化，而不用到電子郵件設計工具中，逐一設定內容中的每個連結。[閱讀全文](../email/surface-personalization.md#personalize-url-tracking)
 
 * **電子郵件設計工具** — 推出日期： 2025 年 4 月 1 日
 
@@ -310,7 +310,7 @@ ht-degree: 92%
 
 ## 2025 年 3 月發行說明 {#25-3-rn}
 
-### 新功能 {#25-03-features}
+### 全新功能 {#25-03-features}
 
 此版本隨附的新功能詳述如下。
 
@@ -477,7 +477,7 @@ ht-degree: 92%
 
 **業務規則**
 
-您現在可以在包含批次細分的歷程和行銷活動中，使用每日頻率上限。為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的命名空間。在[平台身分服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}之中進一步了解命名空間優先順序
+您現在可以在包含批次細分的歷程和行銷活動中，使用每日頻率上限。為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的命名空間。請至[平台身分識別服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中，進一步了解命名空間的優先順序
 
 提醒您，規則集中的每日頻率上限僅適用於一組組織（可用性限制）。 若要取得存取權，請聯絡您的 Adobe 代表。
 
@@ -485,7 +485,7 @@ ht-degree: 92%
 
 **內容範本**
 
-HTML 類型內容範本現已棄用。 請注意，您仍可使用先前在 [!DNL Journey Optimizer] 中建立的現有 HTML 內容範本。 [進一步瞭解內容範本](../content-management/content-templates.md)
+HTML 類型內容範本現已棄用。請注意，您仍可使用之前在 [!DNL Journey Optimizer] 中建立的現有 HTML 內容範本。[深入瞭解內容範本](../content-management/content-templates.md)
 
 
 <!--**Deliverability**
@@ -500,7 +500,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 **發行日期**：2025 年 2 月 18-19 日
 
 
-### 新功能 {#25-02-features}
+### 全新功能 {#25-02-features}
 
 此版本隨附的新功能詳述如下。
 
@@ -526,13 +526,13 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <table>
 <thead>
 <tr>
-<th><strong>使用 AI 助理產生登陸頁面</strong><br/></th>
+<th><strong>使用 AI 助理，產生登陸頁面</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以藉助 AI 助理，為登陸頁面製作引人入勝的內容，包括全頁設計、個人化文字和自訂視覺效果。</p>
+<p>現在就可以使用 AI 助理，為登陸頁面製作引人入勝的內容，包括全頁設計、個人化文字和自訂視覺效果。</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>如需詳細資訊，請參閱<a href="../content-management/generative-lp.md">詳細文件</a>。</p>
 </td>
@@ -544,7 +544,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <table>
 <thead>
 <tr>
-<th><strong>具有 AI 助理 (Beta) 的品牌</strong><br/></th>
+<th><strong>擁有 AI 助理 (Beta) 的品牌</strong><br/></th>
 </tr>
 </thead>
 <tbody>

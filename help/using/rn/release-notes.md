@@ -8,8 +8,8 @@ description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 27%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
->title="新增功能？"
+>title="有哪幾種新增功能？"
 >abstract="**Adobe Journey Optimizer** 持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每月最後一週整合於發行說明。"
 
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
@@ -26,7 +26,7 @@ ht-degree: 27%
 
 **發行日期**： 2025年5月20至21日
 
-### 新功能 {#25-05-features}
+### 全新功能 {#25-05-features}
 
 此版本隨附的新功能詳述如下。
 
@@ -42,7 +42,7 @@ ht-degree: 27%
 <p>您現在可以快速套用預先核准的主題，以確保所有電子郵件中的品牌一致性，加快您的行銷活動建立流程，並獨立產生高品質電子郵件，同時減少對設計團隊的依賴。</p>
 <img src="assets/do-not-localize/themes.gif">
 <p>此功能目前為 Beta 版本，僅供 Beta 版客戶使用。若要加入 Beta 版計畫，請聯絡 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="../email/apply-email-themes.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/apply-email-themes.md">詳細文件</a>。</p>
 <p>推出日期： 2025年5月14日</p>
 </td>
 </tr>
@@ -60,7 +60,7 @@ ht-degree: 27%
 <td>
 <p>您現在可以從改善的新介面定義並結合條件，以建立特定的決定排名公式。 您可以定義自訂排名公式，這些公式會透過引導式介面組合AI模型分數、優惠方案優先順序、設定檔屬性、優惠方案屬性和內容訊號，而不是僅依賴靜態優惠方案優先順序。</p>
 <img src="assets/do-not-localize/formula-builder.gif">
-<p>如需詳細資訊，請參閱<a href="../experience-decisioning/exd-ranking-formulas.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../experience-decisioning/exd-ranking-formulas.md">詳細文件</a>。</p>
 <p>推出日期： 2025年5月14日</p>
 </td>
 </tr>
@@ -79,7 +79,7 @@ ht-degree: 27%
 <p>您現在可以在批次細分完成後觸發每日歷程執行。 現在，所有客戶都可以在每日排程的歷程中使用此選項。 它可讓您定義最多6小時的時間範圍，以等待批次分段工作的對象資料，確保歷程以最新資料執行，如果未準備就緒則予以跳過。</p>
 <p>先前以「有限可用性」發行，現在此功能可用於所有環境（一般可用性）。</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
-<p>如需詳細資訊，請參閱<a href="../building-journeys/read-audience.md#schedule">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/read-audience.md#schedule">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -211,7 +211,7 @@ ht-degree: 27%
 <tr>
 <td>
 <p>Journey Optimizer現在可讓您在預設選項之外設定其他SMS提供者：Sinch、Infobip和Twilio。 透過自訂SMS提供者設定，您可以直接整合第三方提供者、運用動態訊息的進階裝載自訂，並管理同意偏好設定（選擇加入/選擇退出）以確保法規遵循。</p>
-<p>如需詳細資訊，請參閱<a href="../sms/sms-configuration-custom.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../sms/sms-configuration-custom.md">詳細文件</a>。</p>
 <p>先前以「有限可用性」發行，現在此功能可用於所有環境（一般可用性）。</p></td>
 </td>
 </tr>
@@ -261,11 +261,11 @@ ht-degree: 27%
 
 * **個人化的Papers啟用** — 推出日期： 2025年5月5日
 
-  新的「藥丸」按鈕已新增至個人化編輯器。 啟用後，設定檔和內容屬性會顯示為Pills，增強程式碼的可讀性。 [閱讀全文](../personalization/personalization-build-expressions.md#options)
+  個人化編輯器已新增新的 [膠囊狀] 按鈕。啟用時，設定檔和內容屬性都會以 [膠囊狀] 按鈕形式顯示，增強驗證碼的可讀性。[閱讀全文](../personalization/personalization-build-expressions.md#options)
 
   >[!AVAILABILITY]
   >
-  >此功能將在接下來的30天內逐步推廣到所有環境。
+  >在接下來 30 天內，會將此功能逐步推廣到合適環境。
 
 * Web channel **中的**&#39;重新導向至URL&#39;支援
 
