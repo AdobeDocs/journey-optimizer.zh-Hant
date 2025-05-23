@@ -6,58 +6,59 @@ description: 瞭解如何存取及管理AEM內容片段
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: eb3879db92d765a71626b6b68299286818d9569b
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 2%
+source-wordcount: '598'
+ht-degree: 1%
 
 ---
 
 # Adobe Experience Manager 內容片段 {#aem-fragments}
 
-將Adobe Experience Manager與Adobe Journey Optimizer整合後，您現在可以將AEM內容片段順暢地整合至Journey Optimizer電子郵件內容。 此簡化的連線可簡化存取及運用AEM內容的程式，讓您建立個人化和動態的行銷活動和歷程。
+>[!AVAILABILITY]
+>
+> 對於醫療保健客戶，整合僅在授權Journey Optimizer Healthcare Shield和Adobe Experience Manager增強式安全性附加方案時啟用。
 
-若要深入瞭解AEM內容片段，請參閱[Experience Manager檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments)。
+透過將Adobe Experience Manager as a Cloud Service與Adobe Journey Optimizer整合，您現在可以將AEM內容片段順暢地整合到Journey Optimizer內容中。 此簡化的連線可簡化存取及運用AEM內容的程式，讓您建立個人化和動態的行銷活動和歷程。
+
+若要深入瞭解AEM內容片段，請參閱Experience Manager檔案中的[使用內容片段](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/overview)。
 
 ## 限制 {#limitations}
 
-* 僅適用於電子郵件頻道。
-
-* 使用者目前無法切換其所連線的AEM執行個體，因為每個沙箱僅限於單一執行個體。
-
-* 建議限制有權存取發佈內容片段的使用者人數，以降低電子郵件中意外錯誤的風險。
+* 建議限制有權存取發佈內容片段的使用者人數，以降低意外錯誤的風險。
 
 * 對於多語言內容，僅支援手動流程。
 
-* 目前不支援變體。
+* 目前不支援變數。
 
-* 您需要建立Journey Optimizer專屬的標籤。
+## 在Experience Manager中建立及指派標籤
 
-+++ 瞭解如何建立Journey Optimizer標籤
+在Journey Optimizer中使用內容片段之前，您需要建立專門用於Journey Optimizer的標籤：
 
-   1. 存取您的&#x200B;**Experience Manager**&#x200B;環境。
+1. 存取您的&#x200B;**Experience Manager**&#x200B;環境。
 
-   1. 從&#x200B;**工具**&#x200B;功能表，瀏覽至&#x200B;**一般**&#x200B;標籤，並選取&#x200B;**標籤**。
+1. 從&#x200B;**工具**&#x200B;功能表，選取&#x200B;**標籤**。
 
-   1. 按一下&#x200B;**建立新標籤**。
+   ![](assets/do-not-localize/aem_tag_1.png)
 
-   1. 確定ID遵循下列語法： `ajo-enabled:{AJO-OrgId}/{AJO-SandboxName}`。
+1. 按一下&#x200B;**建立標籤**。
 
-   1. 按一下&#x200B;**建立**。
+1. 確定ID遵循下列語法： `ajo-enabled:{AJO-OrgId}/{AJO-SandboxName}`。
 
-  您現在可以將此Journey Optimizer標籤指派給您的內容片段。
-+++
+1. 按一下&#x200B;**建立**。
 
-## 新增AEM內容片段 {#aem-add}
+1. 定義您的內容片段模式(如[Experience Manager檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models)中所詳述)，並指派您新建立的Journey Optimizer標籤。
 
-建立並個人化您的[AEM內容片段](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments)後，您現在可以將其匯入您的Journey Optimizer行銷活動或歷程。
+您現在可以開始建立和設定內容片段，以便稍後在Journey Optimizer中使用。 進一步瞭解[Experience Manager檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing)。
 
-1. 使用電子郵件動作建立您的[行銷活動](../email/create-email.md)或[歷程](../email/create-email.md)後，請存取電子郵件設計工具以設定電子郵件內容。 [了解更多](../email/get-started-email-design.md)
+## 新增Experience Manager內容片段 {#aem-add}
 
-1. 按一下文字區塊內部或主旨列，然後從內容工具列選取&#x200B;**[!UICONTROL 新增Personalization]**。
+建立並個人化AEM內容片段後，您現在可以將其匯入您的Journey Optimizer行銷活動或歷程。
+
+1. 建立您的[行銷活動](../campaigns/create-campaign.md)或[歷程](../building-journeys/journey-gs.md)。
+
+1. 若要存取您的AEM內容片段，請按一下任何文字欄位中的![Personalization圖示](assets/do-not-localize/Smock_PersonalizationField_18_N.svg)，或透過HTML內容元件開啟原始程式碼。
 
    ![](assets/aem_campaign_2.png)
 
@@ -77,12 +78,46 @@ ht-degree: 2%
 
    ![](assets/aem_campaign_5.png)
 
-1. 從您的&#x200B;**[!UICONTROL 內容片段]**&#x200B;中選擇所需的欄位以新增至您的內容。 您可以新增內容或複製其值。
+1. 按一下&#x200B;**[!UICONTROL 檢視片段]**&#x200B;以顯示您的片段資訊。 請注意，開啟&#x200B;**[!UICONTROL 片段資訊]**&#x200B;功能表會將編輯器置於唯讀模式。
 
-   請注意，如果您選擇複製值，您日後對&#x200B;**[!UICONTROL 內容片段]**&#x200B;所做的任何更新都不會反映在您的行銷活動或歷程中。
+   從右側選單中選取「**[!UICONTROL 預覽]**」，在Adobe Experience Manager中檢視您的片段。
+
+   ![](assets/aem_campaign_7.png)
+
+1. 按一下![更多動作圖示](assets/do-not-localize/Smock_MoreSmallList_18_N.svg)以存取片段的進階功能表：
+
+   * **[!UICONTROL 交換片段]**
+   * **[!UICONTROL 探索參考]**
+   * 在AEM中&#x200B;**[!UICONTROL 開啟]**
+
+   ![](assets/aem_campaign_8.png)
+
+1. 從您的&#x200B;**[!UICONTROL 片段]**&#x200B;中選擇所需的欄位以新增至您的內容。
+   <!--
+    Note that if you choose to copy the value, any future updates to the Content Fragment will not be reflected in your campaign or journey. However, using dynamic placeholders ensures real-time updates.-->
 
    ![](assets/aem_campaign_6.png)
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**，然後在預覽中檢查您的訊息。 您現在可以測試並檢查您的訊息內容，如[本節](../content-management/preview.md)所詳述。
+1. 若要啟用即時個人化，**[!UICONTROL 內容片段]**&#x200B;中使用的所有預留位置，必須由使用者明確宣告為片段協助程式標籤中的引數。 您可以使用下列方法，將這些預留位置對應至設定檔屬性、內容屬性、靜態字串或預先定義的變數：
 
-執行測試並驗證內容後，您就可以使用[行銷活動](../campaigns/review-activate-campaign.md)或[歷程](../building-journeys/publishing-the-journey.md)，將電子郵件傳送給您的對象。
+   1. **設定檔或內容屬性對應**：將預留位置指派給設定檔或內容屬性，例如name = profile.person.name.firstName。
+
+   1. **靜態字串對應**：將固定字串值放在雙引號中，例如名稱= &quot;John&quot;，以指派固定字串值。
+
+   1. **變數對應**：參照同一HTML中先前宣告的變數，例如name = &#39;variableName&#39;。
+在此情況下，請確保在新增片段ID之前使用以下語法宣告**_variableName_**：
+
+      ```html
+      {% let variableName = attribute name %} 
+      ```
+
+   在下列範例中，**_name_**&#x200B;預留位置對應至片段中的&#x200B;**_profile.person.name.firstName_**&#x200B;屬性。
+
+   ![](assets/aem_campaign_9.png){zoomable="yes"}
+
+
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。您現在可以測試並檢查您的訊息內容，如[本節](../content-management/preview.md)所詳述。
+
+執行測試並驗證內容後，您就可以將您的[行銷活動](../campaigns/review-activate-campaign.md)或[歷程](../building-journeys/publishing-the-journey.md)傳送給您的對象。
+
+Adobe Experience Manager可讓您識別使用內容片段的Journey Optimizer行銷活動或歷程。
