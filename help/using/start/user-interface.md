@@ -262,5 +262,5 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
->title="定義決定原則"
->abstract="您可以利用決定原則，從決定引擎中挑選最佳項目，並將其傳遞給合適的客群。"
+>title="定義決策原則"
+>abstract="您可以利用決策原則，從決策引擎中挑選最佳項目，並將其傳遞給合適的客群。"
