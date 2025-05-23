@@ -43,7 +43,7 @@ ht-degree: 14%
 
 * 根據最佳實務，建議您僅在&#x200B;**讀取對象**&#x200B;活動中使用批次對象。 這將為歷程中使用的對象提供可靠且一致的計數。 讀取對象是針對批次使用案例而設計。 如果您的使用案例需要即時資料，請使用&#x200B;**[對象資格](audience-qualification-events.md)**&#x200B;活動。
 
-* 可在&#x200B;**讀取對象**&#x200B;活動中選取從CSV檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant#import-audience)匯入或從[組合工作流程](../audience/get-started-audience-orchestration.md)產生的對象。 **對象資格**&#x200B;活動中沒有這些對象。
+* 可在&#x200B;**讀取對象**&#x200B;活動中選取從CSV檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)匯入或從[組合工作流程](../audience/get-started-audience-orchestration.md)產生的對象[。 **對象資格**&#x200B;活動中沒有這些對象。
 
 與&#x200B;**讀取對象**&#x200B;活動相關的護欄列於[此頁面](../start/guardrails.md#read-segment-g)。
 
@@ -63,7 +63,7 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >此外，您也可以鎖定使用從CSV檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant#import-audience){target="_blank"}上傳的[對象組合](../audience/get-started-audience-orchestration.md)或建立的Adobe Experience Platform對象。
+   >此外，您也可以鎖定使用從CSV檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}上傳的[對象組合](../audience/get-started-audience-orchestration.md)或[建立的Adobe Experience Platform對象。
 
    請注意，您可以自訂清單中顯示的欄並加以排序。
 
@@ -77,7 +77,7 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會進入歷程。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會進入歷程。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 在&#x200B;**[!UICONTROL 名稱空間]**&#x200B;欄位中，選擇要使用的名稱空間，以識別個人。 依預設，此欄位會預先填入最後使用的名稱空間。 [進一步瞭解名稱空間](../event/about-creating.md#select-the-namespace)。
 
@@ -125,12 +125,12 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="在進行批次客群評估後觸發"
->abstract="將這個選項切換為開始，以便在進行批次客群全新評估之後，觸發歷程執行。"
+>abstract="開啟此選項以在重新評估批次客群後觸發歷程執行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="全新客群評估的等待時間"
->abstract="指定歷程將等待批次客群進行全新評估的時間長度。等待期限制為整數值，可以指定以分鐘或小時為單位，且必須介於 1 至 6 小時之間。"
+>title="新客群評估的等待時間"
+>abstract="指定歷程將等待批次客群新評估的時間長度。等待期間限制為整數值，可以以分鐘或小時指定，並且必須介於 1 到 6 小時之間。"
 
 歷程預設會設定為執行一次。 若要定義執行歷程的特定日期/時間和頻率，請遵循下列步驟。
 
@@ -180,7 +180,7 @@ ht-degree: 14%
 
 **增量讀取歷程的回顧期間**
 
-選取批次對象評估&#x200B;**後的**&#x200B;觸發程式時，[!DNL Journey Optimizer]會尋找新的對象評估。 對於回顧期間的起點，系統會使用上次成功執行歷程的時間，即使發生於24小時之前。 這對於通常具有24小時回顧期間的增量讀取歷程非常重要。
+選取批次對象評估&#x200B;]**後的**[!UICONTROL &#x200B;觸發程式時，[!DNL Journey Optimizer]會尋找新的對象評估。 對於回顧期間的起點，系統會使用上次成功執行歷程的時間，即使發生於24小時之前。 這對於通常具有24小時回顧期間的增量讀取歷程非常重要。
 
 每日增量讀取歷程範例：
 
@@ -282,4 +282,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 了解透過讀取客群活動所觸發歷程的適用使用案例。瞭解如何建立批次式歷程，以及套用哪些最佳實務。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430361?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
