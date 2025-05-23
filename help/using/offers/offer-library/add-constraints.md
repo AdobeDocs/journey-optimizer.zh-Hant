@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7f035141092d12af8eac96cf43c9021939a55883
 workflow-type: tm+mt
-source-wordcount: '2719'
+source-wordcount: '2709'
 ht-degree: 15%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 15%
 
    ![](../assets/offer-capping.png)
 
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以確認您定義的所有限制。
+1. 按一下[下一步]****&#x200B;以確認您定義的所有限制。
 
 例如，如果您設定下列限制：
 
@@ -74,7 +74,8 @@ ht-degree: 15%
 >id="od_offer_eligibility"
 >title="關於產品建議資格"
 >abstract="在此部分，您可以使用決定規則來確定哪些使用者有資格獲得產品建議。"
->additional-url="https://video.tv.adobe.com/v/329373" text="觀看示範影片"
+
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -103,7 +104,7 @@ ht-degree: 15%
 
   >[!CAUTION]
   >
-  >[!DNL Journey Optimizer]目前不支援事件型優惠。 如果您根據[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hant#events){target="_blank"}建立決定規則，則無法在優惠方案中使用它。
+  >[!DNL Journey Optimizer]目前不支援事件型優惠。 如果您根據[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}建立決定規則，則無法在優惠方案中使用它。
 
 當您選取對象或決定規則時，您可以檢視有關預估合格設定檔的資訊。 按一下&#x200B;**[!UICONTROL 重新整理]**&#x200B;以更新資料。
 
@@ -142,7 +143,8 @@ ht-degree: 15%
 >id="ajo_decisioning_capping"
 >title="使用上限"
 >abstract="為避免過度招攬客戶，請使用上限來定義產品建議的呈現次數上限。您可以為指定產品建議建立最多 10 個上限規則。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=zh-Hant#capping-change-date" text="變更日期會影響上限"
+
+<!--additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="Changing dates can impact capping"-->
 
 上限會用作限制，以定義可顯示優惠方案的次數上限。 限制使用者取得特定優惠方案的次數，可讓您避免過度向客戶提供需求，進而使用最佳優惠方案將每個接觸點最佳化。
 
@@ -306,7 +308,7 @@ ht-degree: 15%
 
 變更優惠方案的日期時，您必須謹慎進行，因為如果符合以下條件，這可能會對上限產生影響：
 
-* 優惠方案已核准[&#128279;](#review)。
+* 優惠方案已核准[](#review)。
 * [上限](#capping)已套用至選件。
 * 上限是按設定檔定義的。
 

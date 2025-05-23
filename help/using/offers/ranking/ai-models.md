@@ -7,10 +7,10 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7f035141092d12af8eac96cf43c9021939a55883
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 14%
+source-wordcount: '366'
+ht-degree: 13%
 
 ---
 
@@ -26,13 +26,14 @@ ht-degree: 14%
 >
 >目前，Journey Optimizer編寫管道不支援排名模型。
 
-## AI 模式類型 {#ai-model-types}
+## AI 模型類型 {#ai-model-types}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_ai_model_type"
 >title="選擇模式類型"
 >abstract="選取您要建立的 AI 模式類型：「**自動最佳化**」可以根據過去的產品建議績效來最佳化產品建議，而「**個人化最佳化**」可根據對象和產品建議績效來最佳化和個人化產品建議。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="建立 AI 模型"
+
+<!--additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="Create an AI model"-->
 
 [!DNL Journey Optimizer]中有兩種可用的AI模型型別：
 
