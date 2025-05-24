@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b086b442be958108d66f7fff37a676f3a1c15ab3
+source-git-commit: 261f93625def59b787894f38877ee1cf5c543748
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 35%
+source-wordcount: '1154'
+ht-degree: 34%
 
 ---
 
@@ -237,6 +237,7 @@ ht-degree: 35%
 <p>您現在可以使用設定檔ID搭配其他識別碼（例如訂單ID、訂閱ID或處方ID）來觸發歷程，允許相同設定檔一次多次處於相同歷程中。 這能啟用同時管理多個訂單或訂閱等情境，每個執行個體會依循其自己的歷程路徑。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/supplemental-identifier.md">詳細文件</a>。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若要取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>推出日期： 2025年5月23日</p>
 </td>
 </tr>
 </tbody>
