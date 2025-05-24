@@ -2,9 +2,9 @@
 title: 事件觸發的歷程中的補充識別碼
 description: 瞭解如何在事件觸發的歷程中使用補充識別碼。
 badge: label="可用性限制" type="Informative"
-source-git-commit: bfff5bfe0a87d65c453018c4f1af01e9b1456052
+source-git-commit: c4b9ee59fe22bad97975cce01a84002541d8c9df
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '803'
 ht-degree: 3%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 3%
 
 +++ 檢視範例
 
-   在補充ID為「bookingNum」且屬性位於相同層級「bookingCountry」的物件陣列中，歷程將根據bookingNum逐一檢視陣列物件，並為每個物件建立歷程例項。
+   在補充ID為`bookingNum`且屬性位於相同層級`bookingCountry`的物件陣列中，歷程將根據bookingNum逐一檢視陣列物件，並為每個物件建立歷程執行個體。
 
    * 條件活動中的下列運算式將逐一檢視物件陣列，並檢查`bookingCountry`的值是否等於「FR」：
 
@@ -112,7 +112,7 @@ ht-degree: 3%
      @event{<event_name>.<object_path>.<object_array_name>.all(currentEventField.<attribute_path>.bookingNum==${supplementalId}).at(0).<attribute_path>.bookingCountry}=="FR"
      ```
 
-   * 電子郵件個人化編輯器中的下列運算式將逐一檢視物件陣列、提取適用於目前歷程執行個體的「bookingCountry」，並在內容中顯示：
+   * 電子郵件個人化編輯器中的下列運算式將會逐一檢視物件陣列、提取適用於目前歷程執行個體的`bookingCountry`，並在內容中顯示它：
 
      ```
      {{#each context.journey.events.<event_ID>.<object_path>.<object_array_name> as |l|}} 
