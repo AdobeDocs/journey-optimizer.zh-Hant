@@ -7,7 +7,7 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 3ac201f33bb90a9f49b5e01d2668fc740929c9f3
+source-git-commit: b9ec22318baf888ba5d1ed3b1b7c64b658785cc1
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 62%
@@ -21,7 +21,7 @@ ht-degree: 62%
 >[!NOTE]
 >
 > Adobe Journey Optimizer以Adobe Experience Platform為基礎，以原生方式連線至[Adobe即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}。 此內建資料來源已預先設定，且設計旨在從即時客戶輪廓擷取並使用資料 (例如，檢查進入歷程的人員是否為客戶)。 其可讓您使用個人檔資料與體驗事件資料。 [了解更多](../datasource/adobe-experience-platform-data-source.md)。
->
+
 
 ## Adobe Customer Journey Analytics {#integration-cja}
 
@@ -123,7 +123,7 @@ Customer AI 可讓品牌建立流失率或轉換機器學習型分數，這些�
 
 此部落格[提供這項整合的關鍵步驟概述](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}。
 
-在Journey Optimizer檔案[&#128279;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hant){target="_blank"}中進一步瞭解Adobe Workfront + Adobe Workfront 。
+在Journey Optimizer檔案](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hant){target="_blank"}中進一步瞭解Adobe Workfront + Adobe Workfront [。
 
 ## 自訂通道 {#integration-custom}
 
