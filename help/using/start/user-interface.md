@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: tm+mt
-source-wordcount: '1440'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -262,5 +262,5 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
->title="定義決策原則"
->abstract="您可以利用決策原則，從決策引擎中挑選最佳項目，並將其傳遞給合適的客群。"
+>title="定義決定原則"
+>abstract="您可以利用決定原則，從決定引擎中挑選最佳項目，並將其傳遞給合適的客群。"
