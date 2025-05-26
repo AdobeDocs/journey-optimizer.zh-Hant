@@ -2,15 +2,20 @@
 title: 事件觸發的歷程中的補充識別碼
 description: 瞭解如何在事件觸發的歷程中使用補充識別碼。
 badge: label="可用性限制" type="Informative"
-source-git-commit: c4b9ee59fe22bad97975cce01a84002541d8c9df
+exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
+source-git-commit: dad3dc0022d04c9f9c82477d75a6fb8de7e85a6a
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 3%
+source-wordcount: '844'
+ht-degree: 7%
 
 ---
 
-
 # 事件觸發的歷程中的補充識別碼
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_parameters_supplemental_identifier"
+>title="使用補充識別碼"
+>abstract="補充識別碼是次要識別碼，提供更多有關歷程執行方式的背景資訊。要定義補充識別碼，請選擇要用作補充識別碼的欄位並選擇與其建立關聯的命名空間。"
 
 >[!AVAILABILITY]
 >
