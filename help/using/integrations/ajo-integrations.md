@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: 3ac201f33bb90a9f49b5e01d2668fc740929c9f3
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 59%
+source-wordcount: '960'
+ht-degree: 62%
 
 ---
 
@@ -52,11 +52,14 @@ Journey Optimizer會將資料儲存在Adobe Experience Platform，並利用Custo
 
 [![了解更多](../assets/do-not-localize/learn-more-button.svg)](../integrations/assets.md)
 
->[!TAB AEM範本]
+<!--
+>[!TAB AEM Templates]
 
-透過Adobe Journey Optimizer，您可以透過Adobe Experience Manager網站建立自訂訊息。 首先，使用Adobe Experience Manager的內容來源設計範本，然後傳送至Adobe Journey Optimizer。 共用後，您就可以在Adobe Journey Optimizer的電子郵件設計工具中存取這些範本，以簡化製作及傳送訊息給所需對象的程式。
+With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's email designer, simplifying the process of crafting and sending messages to your desired audience.
 
-[![了解更多](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-templates.md)
+[![learn more](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-templates.md)
+
+-->
 
 >[!TAB AEM片段]
 
@@ -120,7 +123,7 @@ Customer AI 可讓品牌建立流失率或轉換機器學習型分數，這些�
 
 此部落格[提供這項整合的關鍵步驟概述](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}。
 
-在Journey Optimizer檔案[&#128279;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hant){target="_blank"}中進一步瞭解Adobe Workfront + Adobe Workfront 。
+在Journey Optimizer檔案](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hant){target="_blank"}中進一步瞭解Adobe Workfront + Adobe Workfront [。
 
 ## 自訂通道 {#integration-custom}
 

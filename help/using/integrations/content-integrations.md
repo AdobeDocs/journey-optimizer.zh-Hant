@@ -8,10 +8,10 @@ topic: Content Management, Integrations
 role: User
 level: Beginner
 keywords: 資產，整合
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: 3ac201f33bb90a9f49b5e01d2668fc740929c9f3
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 16%
+source-wordcount: '693'
+ht-degree: 18%
 
 ---
 
@@ -36,11 +36,12 @@ Assets Essentials可連線到Adobe Creative Cloud中的Adobe Express和Adobe Pho
 
 進一步了解 [Journey Optimizer + Adobe Experience Manager Assets](../integrations/assets.md)。
 
-### 範本
+<!--
+### Templates
 
-透過Adobe Journey Optimizer，您可以透過Adobe Experience Manager網站建立自訂訊息。 首先，使用Adobe Experience Manager的內容來源設計範本，然後傳送至Adobe Journey Optimizer。 共用後，您就可以在Adobe Journey Optimizer的電子郵件設計工具中存取這些範本，以簡化製作及傳送訊息給所需對象的程式。
+With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's email designer, simplifying the process of crafting and sending messages to your desired audience.
 
-深入瞭解[Journey Optimizer + Adobe Experience Manager範本](../integrations/aem-templates.md)。
+Learn more about [Journey Optimizer + Adobe Experience Manager templates](../integrations/aem-templates.md).-->
 
 ### 片段
 
@@ -69,7 +70,7 @@ Assets Essentials可連線到Adobe Creative Cloud中的Adobe Express和Adobe Pho
 
 Adobe Journey Optimizer中的Adobe Express整合可讓您在建立內容時輕鬆存取Adobe Express強大的編輯工具。 此整合可讓您調整影像大小、移除背景、裁切視覺效果，以及將資產轉換為JPEG或PNG，而不需要在解決方案之間切換。
 
-若要存取&#x200B;**[!DNL Adobe Express]**&#x200B;功能表，請從電子郵件設計工具存取您的&#x200B;**影像設定**，然後按一下[在Adobe Express中編輯] **&#x200B;**。
+若要存取&#x200B;**[!DNL Adobe Express]**&#x200B;功能表，請從電子郵件設計工具存取您的&#x200B;**影像設定**，然後按一下[在Adobe Express中編輯] ****。
 
 請注意，使用Enterprise授權時，使用者可完整存取Adobe Express編輯器，並可調整色彩、亮度、銳利度、對比、尺寸和其他設定來修改影像。
 
