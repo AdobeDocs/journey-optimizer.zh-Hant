@@ -62,7 +62,7 @@ ht-degree: 2%
 
    ![](assets/aem-outbound-menu.png)
 
-1. 您可以從內容資料庫使用先前設定的範本或從頭開始建立範本。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
+1. 您可以從內容資料庫使用先前設定的範本或從頭開始建立範本。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=zh-Hant#creating-a-new-page)
 
 1. 將Journey Optimizer個人化語法合併至範本中，即可增強其自訂功能。 [了解更多](../personalization/personalization-syntax.md)
 
