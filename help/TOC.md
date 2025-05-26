@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 33ebde5ef42519137c3ef057e6c95a71f1c45a6c
+source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
 workflow-type: tm+mt
-source-wordcount: '2382'
-ht-degree: 97%
+source-wordcount: '2393'
+ht-degree: 96%
 
 ---
 
@@ -394,6 +394,15 @@ ht-degree: 97%
       + [開始使用動態內容](using/personalization/get-started-dynamic-content.md)
       + [建立條件式規則](using/personalization/create-conditions.md)
       + [建立動態內容](using/personalization/dynamic-content.md)
+   + 跨解決方案使用案例 {#combine}
+      + [結合解決方案以管理您的內容](using/integrations/content-integrations.md)
+      + [使用 Experience Manager Assets](using/integrations/assets.md)
+      + [使用 Adobe Stock](using/integrations/stock.md)
+      + [使用 Adobe Express 工作](using/integrations/express.md)
+      + [使用 Experience Manager 範本工作](using/integrations/aem-templates.md)
+      + [使用Experience Manager內容片段](using/integrations/aem-fragments.md)
+      + [使用 Dynamic Media 工作](using/integrations/aem-dynamic.md)
+      + [使用GenStudio for Performance Marketing](using/integrations/genstudio.md)
    + 用於內容產生的 AI 助理{#ai-assistant}
       + [開始使用 AI 助理](using/content-management/gs-generative.md)
       + [使用 AI 來產生電子郵件](using/content-management/generative-email.md)
@@ -434,15 +443,6 @@ ht-degree: 97%
       + [使用計算屬性](using/audience/computed-attributes.md)
    + [身分識別](using/audience/get-started-identity.md)
    + [授權使用情況](using/audience/license-usage.md)
-+ 整合{#integrations}
-   + [與其他解決方案整合](using/integrations/ajo-integrations.md)
-   + [使用 Experience Manager Assets](using/integrations/assets.md)
-   + [使用 Adobe Stock](using/integrations/stock.md)
-   + [使用 Adobe Express 工作](using/integrations/express.md)
-   + [使用 Experience Manager 範本工作](using/integrations/aem-templates.md)
-   + [使用 Experience Manager 內容片段工作](using/integrations/aem-fragments.md)
-   + [使用 Dynamic Media 工作](using/integrations/aem-dynamic.md)
-   + [使用 GenStudio 工作](using/integrations/genstudio.md)
 + 追蹤與監視 {#reporting}
    + 即時報告 {#live-report}
       + [開始使用即時報告](using/reports/live-report.md)
@@ -752,6 +752,7 @@ ht-degree: 97%
       + [設定自訂動作](using/action/troubleshoot-custom-action.md)
       + [在自訂動作中使用 API 呼叫回應](using/action/action-response.md)
 + 連線系統和環境 {#connect-systems}
+   + [與其他解決方案整合](using/integrations/ajo-integrations.md)
    + [使用 Journey Optimizer API 運作](using/configuration/ajo-apis.md)
    + 將歷程整合入外部系統 {#external-systems}
       + [將歷程整合入外部系統](using/configuration/external-systems.md)
