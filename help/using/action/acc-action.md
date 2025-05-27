@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign， acc，整合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
+source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 17%
+source-wordcount: '553'
+ht-degree: 13%
 
 ---
 
@@ -23,28 +23,29 @@ ht-degree: 17%
 >title="Adobe Campaign v7/v8 動作"
 >abstract="此整合適用於 Adobe Campaign v7 和 v8。這可讓您使用 Adobe Campaign 交易型訊息功能來傳送電子郵件、推播通知及簡訊。Journey Optimizer 和 Campaign 執行個體之間的連線在佈建時由 Adobe 設定。"
 
-您的歷程中提供特定的自訂動作，以整合Adobe Journey Optimizer和Adobe Campaign v7/v8。
+如果您有Adobe Campaign Classic v7或Campaign v8，則可在您的歷程中使用特定的自訂動作，以整合Adobe Journey Optimizer和Adobe Campaign。 此整合可讓您使用Adobe Campaign異動訊息功能來傳送電子郵件、推播通知和SMS。 在此[端對端使用案例](../building-journeys/ajo-ac.md)中瞭解更多。
 
-此整合適用於Adobe Campaign v7/v8的7.1發行版本，以及Adobe Campaign v8。 這可讓您使用 Adobe Campaign 交易型訊息功能來傳送電子郵件、推播通知及簡訊。
+對於設定的每個動作，歷程設計工具浮動視窗中都會提供[促銷活動動作活動](../building-journeys/using-adobe-campaign-v7-v8.md)。
 
-此[區段](../building-journeys/ajo-ac.md)中呈現端對端使用案例。
+## 啟用 {#access}
 
-對於已設定的每個動作，歷程設計器浮動視窗中都提供動作活動。 請參閱本[章節](../building-journeys/using-adobe-campaign-v7-v8.md)。
+提出要求時，Adobe會在布建時設定Journey Optimizer與Adobe Campaign環境之間的連線。 如果您在布建時尚未要求連線，請聯絡Adobe Journey Optimizer支援以要求啟用。 您必須提供下列詳細資料：
 
-## 存取 {#access}
+>[!BEGINTABS]
 
-Journey Optimizer與Campaign執行個體之間的連線在布建時由Adobe依請求設定。 如果您在布建時尚未要求連線，請聯絡Adobe Journey Optimizer支援，提供下列詳細資料以請求啟用：
-
-從Adobe Journey Optimizer：
+>適用於Adobe Journey Optimizer]的[!TAB 
 
 * 組織ID (Adobe OrgID)
-* 沙箱
+* 沙箱名稱
 
-從Adobe Campaign：
+>適用於Adobe Campaign]的[!TAB 
 
-* 促銷活動URL
-* RT URL
+* 行銷活動伺服器URL
+* 即時伺服器URL
 * Campaign 版本
+
+>[!ENDTABS]
+
 
 ## 重要備註 {#important-notes}
 
@@ -60,13 +61,13 @@ Journey Optimizer與Campaign執行個體之間的連線在布建時由Adobe依�
 
 ## 先決條件 {#prerequisites}
 
-在Campaign中，您需要建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=zh-Hant#transactional-messaging){target="_blank"}。
+在Adobe Campaign中，您必須建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
 
-您可以依照以下模式，建置與每則訊息相對應的JSON裝載。 之後，當您在Journey Optimizer中設定動作時，就會貼上此裝載（請參閱下文）
+您可以依照以下模式，建置與每則訊息相對應的JSON裝載。 之後，當您在Journey Optimizer中設定動作時，就會貼上此裝載（請參閱下文）。
 
 其範例如下：
 
-```
+```JSON
 {
     "channel": "email",
     "eventType": "welcome",
@@ -79,13 +80,13 @@ Journey Optimizer與Campaign執行個體之間的連線在布建時由Adobe依�
 
 * **頻道**：為您的Campaign交易範本定義的頻道
 * **eventType**：您的行銷活動事件的內部名稱
-* **ctx**：變數，根據您訊息中的個人化設定而定。
+* **ctx**：變數，根據您訊息中的個人化設定而定
 
 ## 設定動作 {#configure-action}
 
-在Journey Optimizer中，您需為每個異動訊息設定一個動作。 請依照下列步驟操作：
+在Journey Optimizer中，您必須為每個異動訊息設定一個動作。 請依照下列步驟操作：
 
-1. 建立新動作。 請參閱本[章節](../action/action.md)。
+1. 建立新動作。 [進一步瞭解自訂動作](../action/action.md)。
 1. 輸入名稱和說明。
 1. 在&#x200B;**動作型別**&#x200B;欄位中，選取&#x200B;**Adobe Campaign Classic**。
 1. 按一下&#x200B;**裝載**&#x200B;欄位，然後貼上與Campaign訊息相對應的JSON裝載範例。 聯絡Adobe以取得此裝載。
