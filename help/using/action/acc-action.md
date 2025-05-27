@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign， acc，整合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
+source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 18%
+source-wordcount: '559'
+ht-degree: 17%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 18%
 >title="Adobe Campaign v7/v8 動作"
 >abstract="此整合適用於 Adobe Campaign v7 和 v8。這可讓您使用 Adobe Campaign 交易型訊息功能來傳送電子郵件、推播通知及簡訊。Journey Optimizer 和 Campaign 執行個體之間的連線在佈建時由 Adobe 設定。"
 
+您的歷程中提供特定的自訂動作，以整合Adobe Journey Optimizer和Adobe Campaign v7/v8。
+
 此整合適用於Adobe Campaign v7/v8的7.1發行版本，以及Adobe Campaign v8。 這可讓您使用 Adobe Campaign 交易型訊息功能來傳送電子郵件、推播通知及簡訊。
 
 此[區段](../building-journeys/ajo-ac.md)中呈現端對端使用案例。
@@ -31,11 +33,11 @@ ht-degree: 18%
 
 ## 存取 {#access}
 
-Journey Optimizer與Campaign執行個體之間的連線是在提出要求時Adobe進行設定。 如果您在布建時尚未要求連線，請聯絡Adobe Journey Optimizer支援，提供下列詳細資料以請求啟用：
+Journey Optimizer與Campaign執行個體之間的連線在布建時由Adobe依請求設定。 如果您在布建時尚未要求連線，請聯絡Adobe Journey Optimizer支援，提供下列詳細資料以請求啟用：
 
 從Adobe Journey Optimizer：
 
-* 組織ID (AdobeOrgID)
+* 組織ID (Adobe OrgID)
 * 沙箱
 
 從Adobe Campaign：
@@ -58,7 +60,7 @@ Journey Optimizer與Campaign執行個體之間的連線是在提出要求時Adob
 
 ## 先決條件 {#prerequisites}
 
-在Campaign中，您需要建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=zh-Hant#transactional-messaging){target="_blank"}。
+在Campaign中，您需要建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target="_blank"}。
 
 您可以依照以下模式，建置與每則訊息相對應的JSON裝載。 之後，當您在Journey Optimizer中設定動作時，就會貼上此裝載（請參閱下文）
 

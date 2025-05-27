@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
 workflow-type: tm+mt
-source-wordcount: '2393'
+source-wordcount: '2390'
 ht-degree: 96%
 
 ---
@@ -759,9 +759,9 @@ ht-degree: 96%
       + [設定 API 上限](using/configuration/capping.md)
       + [節流 API](using/configuration/throttling.md)
    + 使用 Adobe 解決方案傳送 {#adobe-solutions}
-      + [將歷程整合入 Campaign Standard](using/action/acs-action.md)
-      + [將歷程整合入 Campaign v7/v8](using/action/acc-action.md)
-      + [將歷程整合入 Marketo Engage](using/action/marketo-engage.md)
+      + [歷程中的Campaign Standard](using/action/acs-action.md)
+      + [歷程中的Campaign v7/v8](using/action/acc-action.md)
+      + [歷程中的Marketo Engage](using/action/marketo-engage.md)
    + 沙箱管理 {#sandbox}
       + [使用並指派沙箱](using/administration/sandboxes.md)
       + [將物件匯出至另一個沙箱](using/configuration/copy-objects-to-sandbox.md)

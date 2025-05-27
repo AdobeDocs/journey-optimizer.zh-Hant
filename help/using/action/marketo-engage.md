@@ -9,24 +9,26 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo， marketo engage整合
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
+source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 4%
+source-wordcount: '266'
+ht-degree: 3%
 
 ---
 
 # 與 Marketo Engage 整合 {#integrating-with-marketo-engage}
 
-開始與Marketo Engage無縫整合資料的歷程。 Journey Optimizer中的這個特定自訂動作支援擷取兩種關鍵資料型別：
+您可在整合Adobe Journey Optimizer和Marketo Engage的歷程中使用特定的自訂動作。
+
+開始與Marketo Engage無縫資料整合的歷程。 Journey Optimizer中的這個特定自訂動作支援擷取兩種關鍵資料型別：
 
 * 人員（設定檔）： Marketo會將設定檔轉換為可操作的深入分析。
 * 自訂物件：使用自訂物件（例如產品）量身打造您的資料，以利個人化行銷方法。
 
 ## 先決條件 {#prerequisites}
 
-* Marketo Engage的客戶執行個體必須已啟用IMS。
-* Marketo Engage例項和Adobe Experience Platform/Journey Optimizer例項必須位於相同組織。
+* Marketo Engage的客戶例項必須啟用IMS。
+* Marketo Engage執行個體和Adobe Experience Platform/Journey Optimizer執行個體必須位於相同組織中。
 * 客戶必須布建&#x200B;**MktoSync：內嵌服務存取**
 
 ## 設定動作 {#configure-marketo-action}
@@ -42,12 +44,12 @@ ht-degree: 4%
 
 ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
-* Inspect和設定裝載值
-注意：若要以動態方式傳遞值，請針對每個欄位變更&#x200B;**常數**&#x200B;至&#x200B;**變數**。
+* 檢查並設定裝載值
+注意：若要以動態方式傳遞值，請針對每個欄位變更**常數**&#x200B;至&#x200B;**變數**。
 
 ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
-* 在[欄位設定]視窗中按一下[儲存]，然後按一下[儲存]，為您的自訂動作&#x200B;**[儲存]**。**&#x200B;**
+* 在[欄位設定]視窗中按一下[儲存]，然後按一下[儲存]，為您的自訂動作&#x200B;**[儲存]**。****
 
 您現在可以在專屬畫布上使用自訂動作。
 
