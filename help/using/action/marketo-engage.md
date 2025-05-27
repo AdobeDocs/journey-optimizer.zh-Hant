@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo， marketo engage整合
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
+source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 4%
@@ -27,8 +27,8 @@ ht-degree: 4%
 
 下列先決條件適用於此整合：
 
-* Marketo Engage的客戶例項必須啟用IMS。
-* Marketo Engage執行個體和Adobe Experience Platform/Journey Optimizer執行個體必須位於相同組織中。
+* Marketo Engage的客戶例項必須啟用IMS
+* Marketo Engage執行個體和Adobe Experience Platform/Journey Optimizer執行個體必須位於相同組織
 * 客戶必須布建&#x200B;**MktoSync：內嵌服務存取**
 
 ## 設定動作 {#configure-marketo-action}
@@ -48,11 +48,11 @@ ht-degree: 4%
 ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
 1. 檢查並設定裝載值
-注意：若要以動態方式傳遞值，請針對每個欄位變更&#x200B;**常數**&#x200B;至&#x200B;**變數**。
+注意：若要以動態方式傳遞值，請針對每個欄位變更**常數**&#x200B;至&#x200B;**變數**。
 
 ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
-1. 在[欄位]設定畫面中按一下[儲存]。**&#x200B;**，然後按一下[儲存]。**&#x200B;**&#x200B;您的自訂動作。
+1. 在[欄位]設定畫面中按一下[儲存]。****，然後按一下[儲存]。****&#x200B;您的自訂動作。
 
 您現在可以在歷程畫布上使用自訂動作。
 

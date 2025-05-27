@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign， acc，整合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: bf4044bc23b0e7c0ef74e5b612d93cb45ec20242
+source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 13%
+source-wordcount: '543'
+ht-degree: 14%
 
 ---
 
@@ -32,13 +32,14 @@ ht-degree: 13%
 提出要求時，Adobe會在布建時設定Journey Optimizer與Adobe Campaign環境之間的連線。 如果您在布建時尚未要求連線，請聯絡Adobe Journey Optimizer支援以要求啟用。 您必須提供下列詳細資料：
 
 >[!BEGINTABS]
->[!TAB 適用於Adobe Journey Optimizer的] 
+
+>適用於Adobe Journey Optimizer]的[!TAB 
 
 * 組織ID (Adobe OrgID)
 
 * 沙箱名稱
 
->[!TAB 適用於Adobe Campaign的] 
+>適用於Adobe Campaign]的[!TAB 
 
 * 行銷活動伺服器URL
 
@@ -49,13 +50,13 @@ ht-degree: 13%
 >[!ENDTABS]
 
 
-## 重要備註 {#important-notes}
+## 護欄與限制 {#important-notes}
 
-* 沒有訊息限制。 根據目前的Campaign SLA，系統會將每5分鐘可傳送超過4000則的訊息數量限制在最高。 因此，Journey Optimizer應僅用於單一使用案例（個別事件，而非對象）。
+* 沒有訊息限制。 系統會根據目前的Campaign SLA，將每5分鐘可傳送的訊息數上限設為4,000則以上。 因此，Journey Optimizer應僅用於單一使用案例（個別事件，而非對象）。
 
 * 您必須針對要使用的每個範本，在畫布上設定一個動作。 您需要在Journey Optimizer中，為您要從Adobe Campaign使用的每個範本設定一個動作。
 
-* 建議您使用針對這項整合而託管的專用訊息中心執行個體，以避免影響您可能正在進行的任何其他行銷活動作業。 行銷伺服器可以是託管式或內部部署。 所需的組建版本是21.1版本候選版本或更新版本。
+* 建議您針對這項整合使用專用的訊息中心託管或Managed Services執行個體，以免影響您可能進行的任何其他行銷活動作業。 行銷伺服器可以是託管或內部部署。<!--The build required is 21.1 Release Candidate or greater. -->
 
 * 沒有驗證裝載或行銷活動訊息是否正確。
 
@@ -63,13 +64,13 @@ ht-degree: 13%
 
 ## 先決條件 {#prerequisites}
 
-在Adobe Campaign中，您必須建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
+在Adobe Campaign中，您必須建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
 
 您可以依照以下模式，建置與每則訊息相對應的JSON裝載。 之後，當您在Journey Optimizer中設定動作時，就會貼上此裝載（請參閱下文）。
 
 其範例如下：
 
-```JSON
+```json
 {
     "channel": "email",
     "eventType": "welcome",
