@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙箱，歷程，複製，環境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
+source-git-commit: 25d48a675f49bca6818841bb45ccf31671225e0e
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1260'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 您可以使用套件匯出和匯入功能，跨多個沙箱複製物件，例如歷程、自訂動作、內容範本或片段。 套件可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。
 
-本頁說明Journey Optimizer內容中的沙箱工具使用案例。 如需功能本身的詳細資訊，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hant)。
+本頁說明Journey Optimizer內容中的沙箱工具使用案例。 如需功能本身的詳細資訊，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html)。
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Journey Optimizer可將歷程、自訂動作、內容範本和片段匯出至另
 
 ### 歷程 {#journeys}
 
-* 匯出歷程時，除了歷程本身，Journey Optimizer也會複製歷程所依賴的大部分物件：受眾、自訂動作、結構描述、事件和動作。 如需所複製物件的詳細資訊，請參閱此[區段](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hant#abobe-journey-optimizer-objects)。
+* 匯出歷程時，除了歷程本身，Journey Optimizer也會複製歷程所依賴的大部分物件：受眾、自訂動作、結構描述、事件和動作。 如需所複製物件的詳細資訊，請參閱此[區段](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects)。
 
 * 我們不保證所有連結的元素都會複製到目的地沙箱。 我們強烈建議您執行徹底檢查，例如在發佈歷程之前。 這可讓您識別任何可能遺失的物件。
 
@@ -72,7 +72,7 @@ Journey Optimizer可將歷程、自訂動作、內容範本和片段匯出至另
 
 * **管道設定**：管道設定會與行銷活動一起複製。 複製行銷活動後，必須在目標沙箱中手動選取管道設定。
 * **實驗變體和設定**：實驗變體和設定包含在行銷活動復製程式中。 匯入後，在目標沙箱中驗證這些設定。
-* **整合式決策**：決策原則與決策專案支援匯出與匯入。 確保決策相關的相依性在目標沙箱中正確對應。
+  <!--* **Unified decisioning**: Decision policies and decision items are supported for export and import. Ensure that decision-related dependencies are correctly mapped in the target sandbox.-->
 
 ### 內容範本 {#content-templates}
 
@@ -82,17 +82,17 @@ Journey Optimizer可將歷程、自訂動作、內容範本和片段匯出至另
 
 * 若要進一步避免重複，建議匯出單一套件中的內容範本。 這可確保系統有效率地管理重複資料刪除。
 
-### Decisioning {#decisioning}
+<!--### Decisioning {#decisioning}
 
-* 在複製決定物件之前，以下物件必須存在於目的地沙箱中：
+* The objects below must be present in the destination sandbox before copying Decisioning objects:
 
-   * 用於決策物件的設定檔屬性，
-   * 自訂選件屬性的欄位群組，
-   * 用於跨規則、排名或上限之內容屬性的資料串流結構。
+   * Profile Attributes used across Decisioning objects,
+   * The field group of custom Offer Attributes,
+   * The schemas of Datastreams used for Context Attributes across Rules, Ranking or Capping.
 
-* 目前不支援使用AI模型排名公式的沙箱複製。
+* Sandbox copy for ranking formulas with AI Models is currently not supported.
 
-* 複製決定實體時，請務必在&#x200B;**任何其他物件之前複製決定專案**。 例如，如果您先複製集合，而新沙箱中沒有選件，則該新集合將保持空白。
+* When copying Decisioning entities, make sure you copy decision items **before** any other object. For example, if you copy a collection first, and there are no offers in the new sandbox, then that new collection will remain empty. -->
 
 ### 片段 {#fragments}
 

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8418b0c9251e090575671acb65f83bee911cd039
+source-git-commit: 25d48a675f49bca6818841bb45ccf31671225e0e
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 34%
+source-wordcount: '1135'
+ht-degree: 35%
 
 ---
 
@@ -249,15 +249,13 @@ ht-degree: 34%
 以下列出此版本隨附的改進。
 
 
-* **新物件支援沙箱復本**
+* **沙箱復本的新行銷活動物件支援** — 推出日期： 2025年5月15日
 
-   * **行銷活動** — 推出日期： 2025年5月15日
+  使用套件匯出和匯入功能跨多個沙箱複製行銷活動時，現在也會複製下列相依性：管道設定、實驗變體和設定、決定政策和專案。 [閱讀全文](../configuration/copy-objects-to-sandbox.md)
 
-     使用套件匯出和匯入功能跨多個沙箱複製行銷活動時，現在也會複製下列相依性：管道設定、實驗變體和設定、決定政策和專案。 [閱讀全文](../configuration/copy-objects-to-sandbox.md)
+  <!--* **Decisioning** - Availability date: May 16, 2025
 
-   * **決策** — 推出日期： 2025年5月16日
-
-     現在可以在沙箱之間複製決策物件，簡化測試和部署工作流程。 [閱讀全文](../configuration/copy-objects-to-sandbox.md#decisioning)
+    Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows. [Read more](../configuration/copy-objects-to-sandbox.md#decisioning)-->
 
 * **登入頁面的資料夾** — 推出日期： 2025年5月9日
 
