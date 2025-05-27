@@ -9,20 +9,22 @@ role: User
 level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: 3cbda018a1380e13ba3670563240238367517353
+source-git-commit: d772ef2d98775446618bd6614a26b9f352e073bd
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 5%
+source-wordcount: '522'
+ht-degree: 6%
 
 ---
 
-# 設定及追蹤您的歷程量度 {#success-metrics}
+# 設定並追蹤歷程量度 {#success-metrics}
 
 透過歷程量度清楚掌握客戶歷程的成效。 此功能可讓您根據定義的KPI追蹤效能、發掘有效方法的深入分析，以及識別最佳化區域。 透過即時衡量影響，您可以推動持續改善，並以資料為基礎做出提升客戶參與度的決策。
 
 ## 先決條件 {#prerequisites}
 
-在使用歷程量度之前，您必須新增包含`Commerce Details`、`Web`和`Mobile` [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}的資料集。
+在使用歷程量度之前，您必須在Adobe Experience Platform中的設定>報告下新增包含`Commerce Details`、`Web`和`Mobile` [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}的資料集。
+
+這些欄位群組必須從內建選項中選取，而不是從自訂群組中選取。 請參閱[新增資料集](../reports/reporting-configuration.md#add-datasets)區段。
 
 ## 可用量度 {#metrics}
 
@@ -30,7 +32,7 @@ ht-degree: 5%
 
 如果您的資料集未設定，則只有下列量度可供使用： **[!UICONTROL 點按]**、**[!UICONTROL 不重複點按]**、**[!UICONTROL 點進率]**&#x200B;和&#x200B;**[!UICONTROL 開啟率]**。
 
-請注意，使用Customer Journey Analytics授權可讓您建立自訂成功量度。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+請注意，使用Customer Journey Analytics授權可讓您建立自訂成功量度。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | 量度 | 相關欄位群組 |
@@ -67,7 +69,7 @@ ht-degree: 5%
 
   透過Journey Optimizer和Customer Journey Analytics授權，您可以建立具有特定歸因設定的自訂量度，或變更內建量度的歸因。
 
-  深入瞭解[歸因模型](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
+  深入瞭解[歸因模型](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
 ## 指派您的歷程量度 {#assign}
 

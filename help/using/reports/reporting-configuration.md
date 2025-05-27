@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 設定，實驗，報告，最佳化工具
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d772ef2d98775446618bd6614a26b9f352e073bd
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 29%
+source-wordcount: '585'
+ht-degree: 28%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 29%
 
 ## 先決條件
 
-必須先建立該資料集，才能將資料集新增到報表設定。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant#create){target="_blank"}中進一步瞭解。
+必須先建立該資料集，才能將資料集新增到報表設定。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}中進一步瞭解。
 
 * 您只能新增事件型別資料集。
 
@@ -86,7 +86,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-menu.png)
 
-   將顯示已新增的資料集清單。
+   此時會顯示已新增的資料集清單。
 
 1. 從&#x200B;**[!UICONTROL 資料集]**&#x200B;索引標籤，按一下&#x200B;**[!UICONTROL 新增資料集]**。
 
@@ -100,7 +100,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    >[!CAUTION]
    >
-   >您只能選取事件型別資料集，該資料集必須至少包含一個支援的[欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： **應用程式詳細資料**、**Commerce詳細資料**、**網頁詳細資料**。 如果選取的資料集與這些條件不相符，將無法儲存變更。
+   >您只能選取事件型別資料集，該資料集必須至少包含支援的[欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}之一： **應用程式詳細資料**、**Commerce詳細資料**、**網頁詳細資料**。 如果選取的資料集與這些條件不相符，將無法儲存變更。
 
    ![](assets/reporting-config-datasets.png)
 
