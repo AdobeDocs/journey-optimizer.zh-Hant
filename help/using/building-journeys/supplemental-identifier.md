@@ -3,9 +3,9 @@ title: 事件觸發的歷程中的補充識別碼
 description: 瞭解如何在事件觸發的歷程中使用補充識別碼。
 badge: label="可用性限制" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 3ed75f1193b1a580183d8ee148792ec136d281cd
+source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '861'
 ht-degree: 7%
 
 ---
@@ -164,11 +164,11 @@ ht-degree: 7%
 
 ### **訂閱管理**
 
-* **案例**：訂閱服務會針對每個繫結至客戶設定檔的訂閱，傳送量身打造的訊息。
+* **案例**：當訂閱觸發事件時，訂閱服務會針對每個訂閱傳送量身打造的訊息。
 * **執行**：
    * 設定檔： 「Jane」。
-   * 補充ID： `"Luma Yoga Program ", "Luma Fitness PlPrograman"`。
-   * 歷程會針對每個訂閱個別執行，並提供個人化的續約優惠。
+   * 補充ID： `"Luma Yoga Program ", "Luma Fitness Program"`。
+   * 每個事件都包含訂閱ID和該訂閱的詳細資訊。 歷程會針對每個事件/訂閱個別執行，允許每個訂閱提供個人化的續約優惠。
 
 ### **產品推薦**
 
