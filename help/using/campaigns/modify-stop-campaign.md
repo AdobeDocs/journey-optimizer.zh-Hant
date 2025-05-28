@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 管理行銷活動、狀態、排程、存取、最佳化工具
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
+source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 3%
+source-wordcount: '868'
+ht-degree: 1%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
->title="行銷活動表和時間軸視圖"
->abstract="行銷活動表和時間軸視圖"
+>title="行銷活動清單和行事曆檢視"
+>abstract="除了行銷活動清單，[!DNL Journey Optimizer]還提供行銷活動的行事曆檢視，提供其排程的清晰視覺化呈現。 您可以隨時使用這些按鈕在清單和行事曆檢視之間切換。"
 
 可從&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表存取行銷活動。
 
@@ -35,7 +35,35 @@ ht-degree: 3%
 
 ![](assets/create-campaign-list.png)
 
-此外，您可以根據行銷活動型別和頻道，或是在建立行銷活動時指派給行銷活動的標籤來篩選清單。 [瞭解如何將標籤指派給行銷活動](create-campaign.md#create)
+您也可以根據行銷活動型別和頻道，或是在建立行銷活動時指派給行銷活動的標籤來篩選清單。 [瞭解如何將標籤指派給行銷活動](create-campaign.md#create)
+
+## 行銷活動行事曆 {#calendar}
+
+除了行銷活動清單，[!DNL Journey Optimizer]還提供行銷活動的行事曆檢視，提供其排程的清晰視覺化呈現。
+
+>[!AVAILABILITY]
+>
+>行事曆檢視目前僅可用於一組組織（可用性限制）。 若要要求存取權，請使用[此表單](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}。
+>
+>此功能正在開發中。 我們歡迎您使用上方功能表中的&#x200B;**[!UICONTROL Beta意見回饋]**&#x200B;按鈕來輸入和請求。
+
+行事曆顯示本週排程的所有行銷活動。 使用行事曆上方的箭頭按鈕，在周之間導覽。
+
+![行事曆檢視顯示已上線的行銷活動](assets/campaigns-timeline.png)
+
+行銷活動的呈現方式：
+
+* 依預設，行事曆格線會顯示所選周的所有即時和已排程行銷活動。 其他篩選器選項可顯示已完成、已停止和已完成的特定型別或管道的啟動或啟動。
+* 不顯示草稿行銷活動。
+* 橫跨多天的行銷活動會顯示在行事曆格線的頂端。
+* 如果未指定開始時間，則會使用最接近的手動啟動時間，將其放置在行事曆中。
+* 行銷活動會顯示為1小時時間跨度，但這並不反映實際的傳送或完成時間。
+
+如需促銷活動的詳細資訊，請按一下其視覺區塊以開啟詳細資訊。
+
+若要檢視特定行銷活動的詳細資料，請從清單中選取它。 資訊窗格會隨即開啟，內含促銷活動的各種資訊，例如，其型別、報表存取權或已指派的標籤。
+
+![已開啟資訊窗格的行銷活動清單](assets/campaign-rail.png)
 
 ## 行銷活動狀態和警示 {#statuses}
 
@@ -92,7 +120,7 @@ ht-degree: 3%
 
 ## 複製行銷活動 {#duplicate}
 
-您可以複製即時行銷活動以建立新行銷活動。 若要這麼做，請開啟行銷活動，然後按一下[複製]。**&#x200B;**
+您可以複製即時行銷活動以建立新行銷活動。 若要這麼做，請開啟行銷活動，然後按一下[複製]。****
 
 ![](assets/create-campaign-duplicate.png)
 

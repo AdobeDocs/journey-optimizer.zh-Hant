@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 25d48a675f49bca6818841bb45ccf31671225e0e
+source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 35%
+source-wordcount: '1220'
+ht-degree: 34%
 
 ---
 
@@ -134,23 +134,25 @@ ht-degree: 35%
 </tbody>
 </table>
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Calendar View for Campaign and Journey inventory</strong><br/></th>
+<th><strong>行銷活動和歷程詳細目錄的行事曆檢視</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A calendar view is now available in the journeys and campaigns lists. It allows you to visualize all journeys and campaigns activations in the respective lists.</p>
-<p>This change is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>歷程和行銷活動清單現在提供日曆檢視。 它可讓您以視覺化方式呈現個別清單中的所有歷程和行銷活動啟用。</p>
+<p>此變更目前僅適用於一組組織（可用性限制）。 若要要求存取權，請使用<a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">此表單</a>。</p>
+
+
 <img src="assets/do-not-localize/calendar.gif">
-<p>For more information, refer to these sections: <a href="../building-journeys/journey-ui.md">Browse & filter your journeys</a>, <a href="../campaigns/modify-stop-campaign.md">Access campaigns</a>.</p>
+<p>如需詳細資訊，請參閱下列章節： <a href="../building-journeys/journey-ui.md">瀏覽及篩選您的歷程</a>、<a href="../campaigns/modify-stop-campaign.md">存取行銷活動</a>。</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 <!--<table>
 <thead>
@@ -288,13 +290,13 @@ ht-degree: 35%
 <!--
 * **Decisioning - Leverage Adobe Experience Platform datasets** 
   
-  Journey Optimizer now allows you to leverage Adobe Experience Platform datasets in the following Decisioning objects: eligibility rules, ranking formulas, and capping rules.
+  Journey Optimizer now allows you to leverage Adobe Experience Platform datasets in the following Decisioning objects: eligibility rules, ranking formulas, and capping rules.-->
 
-* **Right rail in campaigns list**
+* **行銷活動清單的右側邊欄**
 
-  In the campaign list, selecting a campaign now opens a pane displaying its details.
+  現在，在行銷活動清單中，選取行銷活動會開啟窗格並顯示其詳細資訊。
 
-* **Form fields in code-based experience content**
+<!--* **Form fields in code-based experience content**
 
   In content templates, you can now define specific JSON or HTML fields which enable non-technical users to easily edit content in code-based experiences without the need to manipulate code.
 
