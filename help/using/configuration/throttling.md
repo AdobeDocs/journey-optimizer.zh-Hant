@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 48%
@@ -101,7 +101,7 @@ ht-degree: 48%
 當建立、刪除或部署節流設定時，可能會發生以下錯誤：
 
 * **ERR_THROTTLING_CONFIG_100**：節流設定：`<mandatory attribute>`必填
-* **ERR_THROTTLING_CONFIG_101**：節流設定：maxThroughput 為必填，且必須大於或等於 200 且小於或等於 5000
+* **ERR_THROTTLING_CONFIG_101**：節流設定：maxThroughput 為必填，且必須大於或等於 200 且小於或等於 5,000
 * **ERR_THROTTLING_CONFIG_104**：節流設定：格式錯誤的 URL 模式
 * **ERR_THROTTLING_CONFIG_105**：節流設定：URL 模式的主機部分不允許使用萬用字元
 * **ERR_THROTTLING_CONFIG_106**：節流設定：無效負載

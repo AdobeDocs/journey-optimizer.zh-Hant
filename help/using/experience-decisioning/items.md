@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: ab70ce5b686a54dc1be7336411c5b0959fc3c584
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
 source-wordcount: '1752'
 ht-degree: 15%
@@ -19,7 +19,7 @@ ht-degree: 15%
 >id="ajo_exd_items"
 >title="管理決定項目"
 >abstract="Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您可以將其建立並組織到集中式目錄和集合中。目前，所有建立的決定項目都合併在一個「產品建議」目錄中。在此畫面中，您還可以使用&#x200B;**編輯結構描述**&#x200B;按鈕來存取目錄的結構描述，並為您的決定項目建立自訂屬性。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=zh-Hant" text="設定項目目錄"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="設定項目目錄"
 
 Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您可以將其建立並組織到集中式目錄和集合中。這些屬性由標準和自訂屬性組成，旨在精確符合您的需求。 此外，它們納入設定檔限制，可讓您定義決策專案可顯示給誰。
 
@@ -38,7 +38,7 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >id="ajo_exd_item_custom_attributes"
 >title="定義自訂屬性"
 >abstract="自訂屬性是根據您的需求訂製並且可以指派給決定項目的特定屬性。 它們是在決定項目的目錄結構描述中建立的。 只有當您已在目錄結構描述中新增至少一個自訂屬性時，才會顯示此區段。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=zh-Hant" text="設定項目目錄"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="設定項目目錄"
 
 首先定義決定專案的標準和自訂屬性：
 
@@ -64,8 +64,8 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >id="ajo_exd_item_constraints"
 >title="新增對象或決定規則"
 >abstract="預設情況下，所有設定檔都有資格接收決定項目，但您可以使用對象或規則將該項目限制為僅限特定設定檔。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=zh-Hant" text="使用對象"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html?lang=zh-Hant" text="使用決定規則"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用對象"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="使用決定規則"
 
 依預設，所有設定檔都符合接收決定專案的資格，但您可以使用對象或規則將專案限製為僅特定設定檔，這兩個解決方案都對應不同的使用方式。 展開下列區段以取得詳細資訊：
 
@@ -109,7 +109,7 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
    * **[!UICONTROL 決定事件]** （預設值）：可顯示優惠的最大次數。
    * **[!UICONTROL 曝光次數]** （僅限傳入管道）：可向使用者顯示選件的次數上限。
    * **[!UICONTROL 點按]**：使用者可點按決策專案的次數上限。
-   * **[!UICONTROL 自訂事件]**：您可以定義自訂事件，用來限制傳送專案的次數。 例如，您可以限制贖回次數，直到它們相等10000或直到指定的設定檔已贖回1次。 若要這麼做，請使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}結構描述來建置自訂事件規則。
+   * **[!UICONTROL 自訂事件]**：您可以定義自訂事件，用來限制傳送專案的次數。 例如，您可以限制贖回次數，直到它們等於10,000，或直到指定的設定檔已贖回1次。 若要這麼做，請使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}結構描述來建置自訂事件規則。
 
    >[!NOTE]
    >

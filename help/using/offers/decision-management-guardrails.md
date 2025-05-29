@@ -5,7 +5,7 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 17%
@@ -25,8 +25,8 @@ ht-degree: 17%
 | 護欄 | 限制 |
 | ------- | ------- |
 | 每秒決策API要求 | 500 |
-| 每秒Edge Decisioning API請求與Edge分段 | 1500 |
-| Edge Decisioning API請求（每秒），不含Edge分段 | 5000 |
+| 每秒Edge Decisioning API請求與Edge分段 | 1,500 |
+| Edge Decisioning API請求（每秒），不含Edge分段 | 5,000 |
 | 每個回應傳回的優惠 | 每個決定範圍最多30個，或總共最多100個 |
 | 每個請求涉及的最大優惠方案規則數 | 100 |
 
@@ -51,7 +51,7 @@ ht-degree: 17%
 | 護欄 | 限制 |
 | ------- | ------- |
 | 每個優惠或集合的集合限定詞 | 20 |
-| 集合限定詞總數 | 1000 |
+| 集合限定詞總數 | 1,000 |
 
 ## 產品建議
 
@@ -85,6 +85,6 @@ ht-degree: 17%
 
 | 護欄 | 限制 |
 | ------- | ------- |
-| 版位 | 1000 |
+| 位置 | 1000 |
 | AI排名模型 | 5 |
 | 頻率限定 — 每個選件的上限規則數量上限 | 10 |

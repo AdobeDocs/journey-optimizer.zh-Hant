@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign， acc，整合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 14a10c742ab40c5e3bdb545f595d28e25b535fdc
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 13%
+source-wordcount: '546'
+ht-degree: 12%
 
 ---
 
@@ -32,12 +32,13 @@ ht-degree: 13%
 提出要求時，Adobe會在布建時設定Journey Optimizer與Adobe Campaign環境之間的連線。 如果您在布建時尚未要求連線，請聯絡Adobe Journey Optimizer支援以要求啟用。 您必須提供下列詳細資料：
 
 >[!BEGINTABS]
->[!TAB 適用於Adobe Journey Optimizer的] 
+
+>適用於Adobe Journey Optimizer]的[!TAB 
 
 * 組織ID (Adobe OrgID)
 * 沙箱名稱
 
->[!TAB 適用於Adobe Campaign的] 
+>適用於Adobe Campaign]的[!TAB 
 
 * 行銷活動伺服器URL
 * 即時伺服器URL
@@ -60,11 +61,11 @@ ht-degree: 13%
 
 ## 先決條件 {#prerequisites}
 
-在Adobe Campaign中，您必須建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
+在Adobe Campaign中，您必須建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
 
 您可以依照以下模式，建置與每則訊息相對應的JSON裝載。 之後，當您在Journey Optimizer中設定動作時，就會貼上此裝載（請參閱下文）。
 
-其範例如下：
++++ 範例
 
 ```json
 {
@@ -81,15 +82,19 @@ ht-degree: 13%
 * **eventType**：您的行銷活動事件的內部名稱
 * **ctx**：變數，根據您訊息中的個人化設定而定
 
++++
+
 ## 設定動作 {#configure-action}
 
-在Journey Optimizer中，您必須為每個異動訊息設定一個動作。 請依照下列步驟操作：
+在Journey Optimizer中，您必須為每個異動訊息設定一個動作。
 
-1. 建立新動作。 [進一步瞭解自訂動作](../action/action.md)。
+若要建立Campaign動作，請遵循下列步驟：
+
+1. 建立新動作。 [瞭解如何建立自訂動作](../action/action.md)。
 1. 輸入名稱和說明。
 1. 在&#x200B;**動作型別**&#x200B;欄位中，選取&#x200B;**Adobe Campaign Classic**。
+   ![](assets/accintegration1.png)
 1. 按一下&#x200B;**裝載**&#x200B;欄位，然後貼上與Campaign訊息相對應的JSON裝載範例。 聯絡Adobe以取得此裝載。
-1. 視您想要在歷程畫布上對應欄位，將不同的欄位調整為靜態或變數。 某些欄位，例如電子郵件地址和個人化欄位(ctx)的管道引數，您可能會想要定義為歷程內容中對應的變數。
+1. 根據您想要每個欄位在歷程畫布上對應，將其設定為靜態或變數。 例如，電子郵件通道引數和個人化欄位(`ctx`)等欄位通常應設定為變數，以便能夠在歷程中動態調整。
 1. 按一下&#x200B;**儲存**。
 
-![](assets/accintegration1.png)
