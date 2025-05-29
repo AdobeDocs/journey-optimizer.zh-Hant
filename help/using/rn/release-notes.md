@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 120a496baf8acc8af6831a5b63b855f609497d03
+source-git-commit: 951056d22975a34af50faa450859d635b542f90f
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 33%
@@ -165,8 +165,9 @@ ht-degree: 33%
 <td>
 <p>Journey Optimizer現在可讓您在預設選項之外設定其他SMS提供者：Sinch、Infobip和Twilio。 透過自訂SMS提供者設定，您可以直接整合第三方提供者、運用動態訊息的進階裝載自訂，並管理同意偏好設定（選擇加入/選擇退出）以確保法規遵循。</p>
 <p>如需詳細資訊，請參閱<a href="../sms/sms-configuration-custom.md">詳細文件</a>。</p>
-<p>先前以「有限可用性」發行，現在此功能可用於所有環境（一般可用性）。</p></td>
+<p>先前以「有限可用性」發行，現在此功能可用於所有環境（一般可用性）。</p>
 <p>推出日期： 2025年5月20日</p>
+</td>
 </td>
 </tr>
 </tbody>
