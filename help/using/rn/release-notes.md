@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 951056d22975a34af50faa450859d635b542f90f
+source-git-commit: 3cc1cf6818cf361c19497a478435c4f1db02cf8f
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1238'
 ht-degree: 33%
 
 ---
@@ -59,10 +59,10 @@ ht-degree: 33%
 <tr>
 <td>
 <p>透過Adobe Experience Manager與Adobe Journey Optimizer的整合，您現在可以在Journey Optimizer內容中輕鬆使用Adobe Experience Manager內容片段。 這種無縫連線讓您更輕鬆地直接在Journey Optimizer中存取和使用您的AEM內容。</p>
-<p>此功能先前僅供有限組織(LA)使用，現已正式推出，並具備下列增強功能：</p>
+<p>此功能先前可用於一組有限的組織(LA)，現在為GA，並具備下列增強功能：您現在可以使用編輯器模式，定義片段簽章中的預留位置及對應個人化值。</p>
 <ul>
-<!--li>Create offers by directly selecting an AEM Content Fragment.</li-->
-<li>使用編輯器模式，在片段簽章中定義預留位置及對應個人化值。</li>
+<!--li>Create offers by directly selecting an AEM Content Fragment.</li>
+<li>Define placeholders and map personalization values within the fragment signature using the Editor mode.</li-->
 </ul>
 </br>
 <img src="assets/do-not-localize/content-fragment.gif">
