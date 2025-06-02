@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 53%
+source-wordcount: '766'
+ht-degree: 50%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 53%
 * 其也可以延伸至內容容器的特定片段，用於非顯示或抽象顯示目的 (例如，傳遞至服務的 JSON Blob)。
 
 * 其也可以是符合各種用戶端介面定義的萬用字元表面 (例如，網站每個頁面上的主圖影像位置可翻譯為表面URI，例如：web://mydomain.com/*#hero_image)。
+
+>[!NOTE]
+>
+>當您在同一個表面上執行多個程式碼型體驗動作時，如果使用者符合多個動作的資格，促銷活動或歷程的&#x200B;**[!UICONTROL 優先順序分數]**&#x200B;會決定要傳遞給他們的專案。 [進一步瞭解優先順序分數](../conflict-prioritization/priority-scores.md)
 
 ## 表面識別碼 {#surface-uri}
 

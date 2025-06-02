@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 10%
+source-wordcount: '698'
+ht-degree: 9%
 
 ---
 
@@ -41,9 +41,13 @@ ht-degree: 10%
 
 1. 為您的訊息輸入&#x200B;**[!UICONTROL 標籤]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
-1. 選取或建立要使用的[程式碼型體驗組態](code-based-configuration.md)。
+1. 選取或建立要使用的程式碼型體驗設定。 [了解更多](code-based-configuration.md)
 
    ![](assets/code-based-activity-config.png)
+
+   >[!NOTE]
+   >
+   >當您有多個使用相同管道設定的程式碼型體驗動作時，歷程的&#x200B;**[!UICONTROL 優先順序分數]**&#x200B;會決定傳遞給使用者的專案（如果他們符合多個動作的資格）。 [進一步瞭解優先順序分數](../conflict-prioritization/priority-scores.md)
 
 1. 選取&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，並使用個人化編輯器視需要編輯您的內容。 [了解更多](#edit-code)
 
@@ -67,9 +71,13 @@ ht-degree: 10%
 
 1. 選取&#x200B;**[!UICONTROL 程式碼型體驗]**&#x200B;動作。
 
-1. 選取或建立程式碼型體驗設定。 [了解更多](code-based-configuration.md)
+1. 選取或建立要使用的程式碼型體驗設定。 [了解更多](code-based-configuration.md)
 
    ![](assets/code-based-campaign-surface.png)
+
+   >[!NOTE]
+   >
+   >當您有多個使用相同管道設定的程式碼型體驗動作時，促銷活動的&#x200B;**[!UICONTROL 優先順序分數]**&#x200B;會決定傳遞給使用者的專案（如果使用者符合多個動作的資格）。 [進一步瞭解優先順序分數](../conflict-prioritization/priority-scores.md)
 
 1. 使用個人化編輯器，視需要編輯您的內容。 [了解更多](#edit-code)
 
@@ -123,4 +131,4 @@ ht-degree: 10%
 
 以下影片說明如何建立程式碼型體驗行銷活動、設定其屬性、測試並發佈。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449464/?quality=12&learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

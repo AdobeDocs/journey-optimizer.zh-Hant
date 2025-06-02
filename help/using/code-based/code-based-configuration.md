@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 23%
+source-wordcount: '1118'
+ht-degree: 22%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 23%
 在[建置您的體驗](create-code-based.md)之前，您需要建立程式碼型體驗設定，在其中定義內容將在您的應用程式內傳遞和使用的位置。
 
 程式碼型體驗設定必須參考曲面，這基本上是您要呈現變更的位置。 根據所選的平台，您需要輸入位置/路徑，或完整表面URI。 [了解更多](code-based-surface.md)
+
+>[!NOTE]
+>
+>當您有多個使用相同管道設定的程式碼型體驗動作（因此在相同表面上執行）時，如果使用者符合多個動作的資格，促銷活動或歷程的&#x200B;**[!UICONTROL 優先順序分數]**&#x200B;會決定要傳遞給他們的專案。 [進一步瞭解優先順序分數](../conflict-prioritization/priority-scores.md)
 
 ## 建立基於程式碼的體驗設定 {#create-code-based-configuration}
 
@@ -104,7 +108,7 @@ ht-degree: 23%
 1. 下列專案適用於預覽URL：
 
    * 如果輸入單一頁面URL，該URL將用於預覽 — 不需要輸入其他URL。
-   * 如果選取了符合規則(../web/web-configuration.md#web-page-matching-rule)的[頁面，您必須輸入預設的撰寫和預覽URL ]&#x200B;**，以便在瀏覽器中預覽體驗。**&#x200B;[了解更多](test-code-based.md#preview-on-device)
+   * 如果選取了符合規則](../web/web-configuration.md#web-page-matching-rule)的[頁面，您必須輸入預設的撰寫和預覽URL ]**，以便在瀏覽器中預覽體驗。**[!UICONTROL [了解更多](test-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -132,7 +136,7 @@ ht-degree: 23%
 
 1. 輸入您的&#x200B;**[!UICONTROL 應用程式識別碼]**。 這可在應用程式的作業環境中進行準確的識別和設定，並確保順暢的整合和功能。
 
-1. 提供應用程式&#x200B;**內的**&#x200B;位置或路徑。 此欄位會指定您想讓使用者存取的應用程式內的確切目的地。 它可以是應用程式導覽結構中的特定區段或頁面，例如「hero-banner」或「product-rail」。
+1. 提供應用程式&#x200B;]**內的**[!UICONTROL &#x200B;位置或路徑。 此欄位會指定您想讓使用者存取的應用程式內的確切目的地。 它可以是應用程式導覽結構中的特定區段或頁面，例如「hero-banner」或「product-rail」。
 
    ![](assets/code_config_3.png)
 
@@ -156,7 +160,7 @@ ht-degree: 23%
 
    >[!NOTE]
    >
-   >如果您在預覽體驗時遇到問題，請參閱[本檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)。
+   >如果您在預覽體驗時遇到問題，請參閱[本檔案](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)。
 
 ### 其他平台 {#other}
 

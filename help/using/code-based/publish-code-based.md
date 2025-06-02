@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '499'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 >
 >如果您啟用程式碼型歷程/行銷活動，將影響與另一個已上線的歷程或行銷活動相同的頁面，則所有變更將會套用至您的內容。
 >
->如果有多個程式碼型歷程或行銷活動更新內容的相同元素，則會以最高優先順序的歷程/行銷活動優先。
+>如果有多個程式碼型歷程或行銷活動更新內容的相同元素，則會以最高優先順序的歷程/行銷活動優先。 [進一步瞭解優先順序分數](../conflict-prioritization/priority-scores.md)
 
 您的程式碼型歷程或行銷活動上線後，應用程式實作團隊將負責發出明確API或SDK呼叫，以擷取所選[程式碼型體驗設定](code-based-configuration.md)中定義之表面的內容。 在[本節](code-based-implementation-samples.md)中進一步瞭解不同的客戶實作。
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->按一下[啟動&#x200B;**&#x200B;**]後，最多可能需要15分鐘才能讓您的變更上線。
+>按一下[啟動&#x200B;****]後，最多可能需要15分鐘才能讓您的變更上線。
 >
 >如果您為程式碼型行銷活動定義排程，在到達開始日期和時間之前，其狀態為&#x200B;**[!UICONTROL 已排程]**。
 

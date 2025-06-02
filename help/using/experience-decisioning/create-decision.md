@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 0b7f76ca43ef8dda3861abf2c3b058cef725e967
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1735'
 ht-degree: 11%
 
 ---
@@ -215,6 +215,10 @@ ht-degree: 11%
 1. 按一下每個資料夾以展開。 將滑鼠游標置於所需位置，然後按一下您要新增的屬性旁的+圖示。 您可以對程式碼新增任意數量的屬性。
 
    ![](assets/decision-code-based-add-decision-attributes.png)
+
+1. 請務必將`#each`回圈包裝在一對方括弧`[ ]`內，並在結尾的`/each`前加上逗號。
+
+   ![](assets/decision-code-based-wrap-code.png)
 
 1. 您也可以新增個人化編輯器中可用的任何其他屬性，例如設定檔屬性。
 
