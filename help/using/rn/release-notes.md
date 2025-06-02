@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3343f4f525db4b8bc5b5f6e12f9c6f5f0290b034
+source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 30%
+source-wordcount: '1239'
+ht-degree: 29%
 
 ---
 
@@ -21,6 +21,26 @@ ht-degree: 30%
 >abstract="**Adobe Journey Optimizer** 持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每月最後一週整合於發行說明。"
 
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+
+## 2025年6月更新 {#25-6-rn}
+
+
+<table>
+<thead>
+<tr>
+<th><strong>擴展您的實驗成功者</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>縮放您的Experimentation成功者，可讓您自動或手動將實驗的成功變數轉出給完整受眾。 此功能確保一旦識別出績效最佳者，您就可以最大化其觸及範圍和效率，而不需持續手動監督。</p>
+<p>如需詳細資訊，請參閱<a href="../content-management/content-experiment.md">詳細文件</a>。</p>
+<p>推出日期： 2025年6月2日</p></td>
+</tr>
+</tbody>
+</table>
+
 
 ## 2025年5月發行說明 {#25-5-rn}
 
@@ -233,23 +253,8 @@ ht-degree: 30%
 </table>-->
 
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Scale your Experimentation winner</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Scale the Winner enables you to automatically or manually roll out the winning variation of an experiment to your full audience. This feature ensures that, once a top performer is identified, you can maximize its reach and effectiveness without constant manual oversight.</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
-
-### 功能改進 {#25-05-improv}
+### 功能改善 {#25-05-improv}
 
 以下列出此版本隨附的改進。
 
