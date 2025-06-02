@@ -174,7 +174,7 @@ ht-degree: 0%
 
 1. 導覽至[!DNL Journey Optimizer]左側導覽窗格中的&#x200B;**[!UICONTROL 客戶]** > **[!UICONTROL 設定檔]**&#x200B;功能表，並使用名稱空間和ID瀏覽至設定檔。 深入瞭解[即時客戶設定檔](../audience/get-started-profiles.md)
 
-1. 選取&#x200B;**[!UICONTROL 屬性]**&#x200B;標籤，然後選擇&#x200B;**[!UICONTROL 中心]**檢視。
+1. 選取&#x200B;**[!UICONTROL 屬性]**&#x200B;標籤，然後選擇&#x200B;**[!UICONTROL 中心]**&#x200B;檢視。
    <!--cannot see Hub/Edge wiews for the profile-->
 
 1. 按一下&#x200B;**[!UICONTROL 檢視JSON]**&#x200B;以開啟設定檔的JSON檢視。
