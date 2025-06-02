@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 傳入動作，疑難排解，歷程，偵錯，自助，檢查，錯誤
-source-git-commit: 86b83f8b368a77ef96581c422f19f35d939e51f4
+source-git-commit: 344cfd108b44a1b34408423418f45f125474bbe5
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 開始疑難排解之前，請先確定下列事項：
 
-1. 設定&#x200B;**Assurance**&#x200B;工作階段。 在[Adobe Experience Platform Assurance檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}中進一步瞭解。
+1. 設定&#x200B;**Assurance**&#x200B;工作階段。 在[Adobe Experience Platform Assurance檔案](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}中進一步瞭解。
 
 1. 導覽至包含傳入動作的歷程，以擷取歷程名稱和版本ID。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    ![](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. 取得設定檔名稱空間和ID，以識別設定檔遇到的問題。 根據您的設定，例如名稱空間可以是ECID、電子郵件或客戶ID。 在[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}中瞭解如何查詢設定檔。
+1. 取得設定檔名稱空間和ID，以識別設定檔遇到的問題。 根據您的設定，例如名稱空間可以是ECID、電子郵件或客戶ID。 在[Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}中瞭解如何查詢設定檔。
 
 ## 案例1：使用者尚未收到傳入內容 {#scenario-1}
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 2. 已在平台身分中定義&#x200B;**&#39;joai&#39;身分**
 
-   傳入動作使用設定檔`segmentMembership`中的&#x200B;**&#39;joai&#39;**&#x200B;名稱空間來啟動傳入步驟的設定檔。 確定已在沙箱的Platform身分中定義它。 深入瞭解[Experience Platform Identity服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/home){target="_blank"}
+   傳入動作使用設定檔`segmentMembership`中的&#x200B;**&#39;joai&#39;**&#x200B;名稱空間來啟動傳入步驟的設定檔。 確定已在沙箱的Platform身分中定義它。 深入瞭解[Experience Platform Identity服務](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"}
 
 ### 偵錯步驟 {#debugging-steps}
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 >[!TAB 應用程式內頻道]
 
-1. 前往[Assurance](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}工作階段，然後從左側面板選取&#x200B;**[!UICONTROL 應用程式內傳訊]**&#x200B;區段。
+1. 前往[Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}工作階段，然後從左側面板選取&#x200B;**[!UICONTROL 應用程式內傳訊]**&#x200B;區段。
 
 1. 在&#x200B;**[!UICONTROL 裝置]**&#x200B;上的訊息標籤中，按一下&#x200B;**[!UICONTROL 訊息]**&#x200B;下拉式清單，並檢查是否有歷程名稱后接&#39; — 應用程式內訊息&#39;的訊息。 如果存在，表示裝置/使用者端上存在應用程式內訊息，而問題可能和應用程式內觸發器有關。
 
@@ -91,11 +91,11 @@ ht-degree: 0%
 
 >[!TAB 網路頻道]
 
-造訪頁面並檢查網路標籤，或在[Edge](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}工作階段的&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;區段中檢查Assurance回應裝載。
+造訪頁面並檢查網路標籤，或在[Edge](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}工作階段的&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;區段中檢查Assurance回應裝載。
 
 >[!TAB 程式碼型體驗管道]
 
-使用[Adobe的API](https://developer.adobe.com/data-collection-apis/docs/api/)執行curl要求，並在[Edge](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}工作階段的&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;區段中檢查Assurance回應裝載。
+使用[Adobe的API](https://developer.adobe.com/data-collection-apis/docs/api/)執行curl要求，並在[Edge](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}工作階段的&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;區段中檢查Assurance回應裝載。
 
 >[!ENDTABS]
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
    您可以開啟「設定檔」區段的&#x200B;**segmentsMap**&#x200B;元素，並尋找&#x200B;**joai**&#x200B;區段ID是否存在，來仔細檢查&#x200B;**joai**&#x200B;區段是否存在於設定檔的Edge Network傳遞伺服器檢視中。
 
-1. 如果Edge Network傳遞伺服器未檢視設定檔為位於相關的&#x200B;**joai**&#x200B;區段中，請移至下一個步驟。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. 如果Edge Network傳遞伺服器未檢視設定檔為位於相關的&#x200B;**joai**&#x200B;區段中，請移至下一個步驟。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 #### 步驟3：檢查Joai對象成員資格是否已傳播至Edge Network {#step-3}
 
@@ -148,11 +148,11 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL 檢視JSON]**&#x200B;以開啟設定檔的JSON檢視。
 
-   ![](assets/troubleshoot-inbound-profile-view-json.png)
+   ![](assets/troubleshoot-inbound-profile-view-json.png){width="80%"}
 
 1. 移至&#x200B;**[!UICONTROL segmentMembership]**&#x200B;屬性，並檢查區段識別碼`<JourneyVersionID>_<ActionID>`是否出現在&#x200B;**joai**&#x200B;名稱空間中，以及是否在&#x200B;**[!UICONTROL 已實現]** <!--or existing?-->狀態中。
 
-   ![](assets/troubleshoot-inbound-profile-json-realized.png)
+   ![](assets/troubleshoot-inbound-profile-json-realized.png){width="90%"}
 
    * 如果存在，則表示與傳入歷程動作相對應的&#x200B;**joai**&#x200B;區段已正確傳播至Edge設定檔。
 
@@ -222,9 +222,9 @@ ht-degree: 0%
 
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [Adobe Experience Platform Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hant)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 
 ## Warnings and Notes {#warnings-and-notes}
 
