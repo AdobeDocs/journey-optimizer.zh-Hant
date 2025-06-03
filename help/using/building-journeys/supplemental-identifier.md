@@ -1,16 +1,16 @@
 ---
-title: 事件觸發的歷程中的補充識別碼
+title: 事件觸發歷程中的補充識別碼
 description: 瞭解如何在事件觸發的歷程中使用補充識別碼。
 badge: label="可用性限制" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
 workflow-type: tm+mt
 source-wordcount: '861'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
-# 事件觸發的歷程中的補充識別碼 {#supplemental-id}
+# 事件觸發歷程中的補充識別碼 {#supplemental-id}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 >[!AVAILABILITY]
 >
->此功能僅適用於一組組織 (可用性限制)。 若要取得存取權，請聯絡您的 Adobe 代表。
+>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
 
 依預設，事件觸發的歷程會在&#x200B;**設定檔ID**&#x200B;的內容中執行。 這表示，只要設定檔在指定歷程中處於作用中狀態，就無法將設定檔重新進入另一個歷程。 為避免此問題，Journey Optimizer可讓您在事件中擷取&#x200B;**補充識別碼**，例如訂單ID、訂閱ID、處方ID以及設定檔ID。
 在此範例中，我們已新增預訂ID作為補充識別碼。

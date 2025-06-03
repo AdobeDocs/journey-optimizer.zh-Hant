@@ -12,11 +12,11 @@ exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
 source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
 workflow-type: tm+mt
 source-wordcount: '669'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
-# 使用GenStudio for Performance Marketing {#ajo-genstudio}
+# 使用 GenStudio for Performance Marketing {#ajo-genstudio}
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"
@@ -82,13 +82,13 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
    >[!NOTE]
    >
-   >在[HTML使用手冊](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}專屬區段中，瞭解如何將Adobe GenStudio for Performance Marketing範本上傳至[!DNL GenStudio]。
+   >在[HTML使用手冊](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}專屬區段中，瞭解如何將Adobe GenStudio for Performance Marketing範本上傳至[!DNL GenStudio]。
 
 1. 在GenStudio中，使用此範本建立具有AI提示的多個電子郵件變體並儲存。
 
    >[!NOTE]
    >
-   >瞭解如何在GenStudio專屬的[區段](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}中建立電子郵件體驗。
+   >瞭解如何在GenStudio專屬的[區段](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}中建立電子郵件體驗。
 
 ### 在Journey Optimizer中善用GenStudio體驗 {#leverage-genstudio-experiences}
 
@@ -120,7 +120,7 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
    >[!NOTE]
    >
-   >從 [!DNL Journey Optimizer] 範本[&#128279;](#export-from-ajo-to-genstudio)建立的GenStudio體驗會直接匯入電子郵件Designer。 未使用[!DNL Journey Optimizer]範本建立的GenStudio體驗已匯入至[相容性模式](../email/existing-content.md)。
+   >從 [!DNL Journey Optimizer] 範本](#export-from-ajo-to-genstudio)建立的GenStudio體驗[會直接匯入電子郵件Designer。 未使用[!DNL Journey Optimizer]範本建立的GenStudio體驗已匯入至[相容性模式](../email/existing-content.md)。
 
    使用[電子郵件內容編輯工具](../email/content-from-scratch.md)和[個人化欄位](../personalization/personalize.md)，依需要編輯您的電子郵件。 儲存您的內容。
 
@@ -140,4 +140,4 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
 了解將電子郵件範本從 Journey Optimizer 匯出至 GenStudio 進行績效行銷的過程、使用GenStudio 範本製作符合品牌要求的電子郵件，然後順暢地將其匯回 Journey Optimizer。
 
->[!VIDEO](https://video.tv.adobe.com/v/3456060/?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)
