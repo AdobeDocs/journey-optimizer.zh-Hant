@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 86b83f8b368a77ef96581c422f19f35d939e51f4
+source-git-commit: 2f2caf8615af8e3526124e0d7ed91873ccb6edc3
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1179'
 ht-degree: 4%
 
 ---
 
-# 使用AI公式產生器 {#create-ranking-formulas}
+# 使用 AI 公式產生器 {#create-ranking-formulas}
 
 **排名公式**&#x200B;可讓您定義規則，這些規則將決定應首先顯示哪個優惠，而不是考慮優先順序分數。
 
@@ -48,11 +48,11 @@ ht-degree: 4%
    >
    >[AI公式產生器不支援使用連續量度的個人化最佳化模型](../offers/ranking/personalized-optimization-model.md)。
 
-當您在下方定義公式時每次參考模型分數時，將會使用您選取的AI模型。
+   當您在下方定義公式時每次參考模型分數時，將會使用您選取的AI模型。
 
-    >[！CAUTION]
-    >
-    >使用納入排名公式的AI模型時，資料不會反映在[保留和模型驅動流量的轉換率](../reports/campaign-global-report-cja-code.md#conversion-rate)報表中。
+   >[!CAUTION]
+   >
+   >使用納入排名公式的AI模型時，資料不會反映在保留和模型驅動流量的[轉換率](../reports/campaign-global-report-cja-code.md#conversion-rate)報表中。
 
 1. 定義將決定相符決策專案排名分數的條件。 您可以
 
@@ -106,7 +106,7 @@ To leverage data from an AEP dataset, you can select it in the **[!UICONTROL ELS
    >
    >按一下欄位旁的圖示，新增預先定義的變數。
 
-1. 按一下[新增條件]&#x200B;**&#x200B;**，視需要多次新增一或多個條件。 邏輯如下：
+1. 按一下[新增條件]****，視需要多次新增一或多個條件。 邏輯如下：
    * 如果指定決策專案的第一個條件為true，則其優先於下一個條件。
    * 如果不為true，則決策引擎會繼續執行第二個標準，以此類推。
 
