@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 資格，事件，對象，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
+source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1191'
 ht-degree: 5%
 
 ---
@@ -38,20 +38,21 @@ ht-degree: 5%
 請遵循以下護欄和建議，以建置對象資格歷程。 另請參閱[對象資格最佳做法](#best-practices-segments)。
 
 
-* 對象資格歷程主要設計用於串流對象：此組合將保證更好的即時體驗。 我們強烈建議您在對象資格活動中只使用&#x200B;**串流對象**。
+* 對象資格歷程主要設計用於串流對象。 此組合可確保提供更出色的即時體驗。 強烈建議在對象資格活動中使用&#x200B;**串流對象**。
 
-  不過，如果您想要在串流對象中使用批次擷取型屬性，或想要批次對象用於對象資格歷程，請考慮對象評估/啟用的時間範圍 — 使用批次擷取屬性的批次對象或串流對象，應在您完成細分工作後約&#x200B;**2小時**&#x200B;用於&#x200B;**對象資格**&#x200B;活動(此工作每天會在Adobe組織管理員定義的時間執行一次)。
+  不過，如果您想要在串流對象或批次對象中使用批次擷取型屬性以進行「對象資格」歷程，請考慮對象評估/啟用的時間範圍。 使用批次擷取屬性的批次對象或串流對象在細分工作完成約&#x200B;**2小時**&#x200B;後，即可在&#x200B;**對象資格**&#x200B;活動中使用。 此工作每天會在Adobe組織管理員定義的時間執行一次。
 
-* 請記得，Adobe Experience Platform對象是每天計算一次（**批次**&#x200B;對象），或是即時計算(使用Adobe Experience Platform的「高頻對象」選項，針對&#x200B;**串流**&#x200B;對象)。
+* Adobe Experience Platform對象可每天計算一次（**批次**&#x200B;對象），或使用Adobe Experience Platform的「高頻對象」選項即時計算&#x200B;**串流**&#x200B;對象。
 
-   * 如果對選取的對象進行串流處理，屬於此對象的個人可能會即時進入歷程。
+   * 如果對選取的對象進行串流，屬於此對象的個人可能會即時進入歷程。
    * 如果對象是批次，則新符合此對象資格的人員可能會在Adobe Experience Platform上執行對象計算時進入歷程。
 
-  因此，作為最佳實務，我們建議僅在&#x200B;**對象資格**&#x200B;活動中使用串流對象。 若是批次使用案例，請使用&#x200B;**[讀取對象](read-audience.md)**&#x200B;活動。
+  最佳做法是在&#x200B;**對象資格**&#x200B;活動中使用串流對象。 若是批次使用案例，請使用&#x200B;**[讀取對象](read-audience.md)**&#x200B;活動。
 
   >[!NOTE]
   >
-  >由於使用構成工作流程和自訂上傳建立的對象批次性質，您無法在「對象資格」活動中鎖定這些對象。 此活動中只能運用使用區段定義建立的對象。
+  >由於使用構成工作流程和自訂上傳建立的對象批次性質，無法在「對象資格」活動中鎖定這些對象。 此活動中只能運用使用區段定義建立的對象。
+
 
 * 體驗事件欄位群組不能用於以&#x200B;**讀取對象**、**對象資格**&#x200B;或&#x200B;**商業事件**&#x200B;活動開始的歷程。
 
@@ -78,7 +79,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >請注意，您可以自訂清單中顯示的欄並加以排序。
+   >您可以自訂清單中顯示的欄並加以排序。
 
    ![](assets/segment6.png)
 
@@ -92,7 +93,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >請注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至Adobe Experience Platform中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;對象參與狀態。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至Adobe Experience Platform中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;對象參與狀態。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 選取名稱空間。 只有在將事件定位為歷程的第一步時，才需要此專案。 依預設，此欄位會預先填入最後使用的名稱空間。
 
@@ -114,44 +115,44 @@ ht-degree: 5%
 
 ![](assets/segment8.png)
 
-包含&#x200B;**對象資格**&#x200B;事件的新歷程在您發佈10分鐘後即可運作。 此時間間隔對應到專用服務的快取重新整理間隔。 因此，您必須等待10分鐘才能使用此歷程。
+包含&#x200B;**對象資格**&#x200B;事件的新歷程在您發佈10分鐘後即可開始運作。 此時間間隔對應到專用服務的快取重新整理間隔。 因此，您必須等待10分鐘才能使用此歷程。
 
 ## 最佳作法 {#best-practices-segments}
 
-**[!UICONTROL 對象資格]**&#x200B;活動可讓符合Adobe Experience Platform對象資格或取消資格的個人在歷程中立即進入。
+**[!UICONTROL 對象資格]**&#x200B;活動可讓符合Adobe Experience Platform對象資格或被取消資格的個人立即進入歷程。
 
-此資訊的接收速度很快。 所做的測量顯示速度為每秒接收10,000個事件。 因此，您應該確保瞭解入口尖峰可能如何發生、如何避免以及如何讓您的歷程準備好迎接他們。
+此資訊的接收速度很快。 測量顯示每秒接收10,000個事件的速度。 因此，請確定您瞭解入口尖峰可能如何發生、如何避免，以及如何讓您的歷程準備好迎接它們。
 
 ### 批次對象 {#batch-speed-segment-qualification}
 
-針對批次對象使用「對象資格」時，請注意，入口尖峰會在每日計算時發生。 峰值的大小將取決於每天進入（或退出）對象的個人數量。
+針對批次對象使用「對象資格」時，請注意，入口尖峰會在每日計算時發生。 尖峰的大小取決於每天進入（或退出）對象的個人數量。
 
-此外，如果在歷程中新建立並立即使用批次對象，則第一批計算可能會讓大量個人進入歷程。
+此外，如果在歷程中新建立並立即使用批次對象，則第一批計算可能會導致大量個人進入歷程。
 
 ### 串流對象 {#streamed-speed-segment-qualification}
 
-針對串流對象使用「對象資格」時，由於持續評估對象，入口/出口出現大型峰值的風險較低。 然而，如果受眾定義導致大量客戶同時符合資格，則也可能出現峰值。
+針對串流對象使用「對象資格」時，由於持續評估對象，入口/出口出現大型峰值的風險較低。 但是，如果受眾定義導致大量客戶同時符合資格，則峰值可能仍會發生。
 
 避免使用具有串流細分的開啟和傳送事件。 請改用真正的使用者活動訊號，例如點選、購買或信標資料。 針對頻率或隱藏邏輯，請使用商業規則而非傳送事件。 [了解更多](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-如需串流區段的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
+如需串流區段的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
 
 ### 如何避免多載 {#overloads-speed-segment-qualification}
 
-以下是將有助於避免讓歷程中所運用的系統（資料來源、自訂動作、管道動作活動）過載的一些最佳做法。
+以下是一些避免讓歷程中所運用的系統過載的最佳實務（資料來源、自訂動作、管道動作活動）：
 
-在&#x200B;**[!UICONTROL 對象資格]**&#x200B;活動中，請勿在建立後立即使用批次對象。 它會避免第一個計算尖峰。 請注意，如果您即將使用從未計算過的對象，歷程畫布中將會出現黃色警告。
+* 在&#x200B;**[!UICONTROL 對象資格]**&#x200B;活動中建立批次對象後，請勿立即使用批次對象。 這會避免第一個計算尖峰。 如果您即將使用從未計算過的對象，歷程畫布中會顯示黃色警告。
 
-![](assets/segment-error.png)
+  ![](assets/segment-error.png)
 
-為歷程中使用的資料來源和動作設定上限規則，以避免其過載。 深入瞭解[Journey Optimizer上限API](../configuration/capping.md)。 請注意，上限規則沒有重試。 如果您需要重試，您必須在歷程中使用替代路徑，方法是核取方塊&#x200B;**[!UICONTROL 在逾時或在條件或動作中發生錯誤]**&#x200B;時新增替代路徑。
+* 為歷程中使用的資料來源和動作設定上限規則，以避免其過載。 進一步瞭解[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}。 請注意，上限規則沒有重試。 如果您需要重試，請核取方塊&#x200B;**[!UICONTROL 在逾時或在條件或動作中發生錯誤]**&#x200B;時新增替代路徑，以在歷程中使用替代路徑。
 
-在歷程中使用對象之前，請一律先評估每天符合此對象資格的個人數量。 若要這麼做，您可以檢查&#x200B;**[!UICONTROL 對象]**&#x200B;功能表、開啟對象，然後檢視&#x200B;**[!UICONTROL 一段時間內的設定檔]**&#x200B;圖表。
+* 在生產歷程中使用對象之前，請每天評估符合此對象資格的個人數量。 若要這麼做，請檢查&#x200B;**[!UICONTROL 對象]**&#x200B;功能表、開啟對象，然後檢視&#x200B;**[!UICONTROL 隨著時間變化的設定檔]**&#x200B;圖表。
 
-![](assets/segment-overload.png)
+  ![](assets/segment-overload.png)
 
 ## 作法影片 {#video}
 
 透過此影片瞭解對象資格歷程的適用使用案例。 瞭解如何使用對象資格建立歷程，以及套用哪些最佳實務。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446215?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

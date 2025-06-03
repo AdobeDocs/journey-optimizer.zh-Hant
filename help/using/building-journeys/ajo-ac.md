@@ -9,22 +9,22 @@ role: Admin, Data Engineer, User
 level: Intermediate, Experienced
 keywords: 歷程，訊息，行銷活動，整合
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '389'
 ht-degree: 2%
 
 ---
 
 # 使用案例：使用Campaign v7/v8傳送訊息 {#campaign-v7-v8-use-case}
 
-此使用案例會介紹使用與Adobe Campaign v7和Adobe Campaign v8的整合來傳送電子郵件所需的所有步驟。
+此使用案例說明使用與Adobe Campaign v7和Adobe Campaign v8的整合來傳送電子郵件所需的所有步驟。
 
 >[!NOTE]
 >
 >若要使用此整合，您必須有Campaign v7/v8版本編號9125或更高版本。
 
-我們將先在Campaign中建立交易式電子郵件範本。 然後，在Journey Optimizer中，我們將建立事件、動作並設計歷程。
+首先，在Campaign中建立交易式電子郵件範本。 然後，在Journey Optimizer中建立事件、動作並設計歷程。
 
 若要進一步瞭解Campaign整合，請參閱以下頁面：
 
@@ -33,21 +33,21 @@ ht-degree: 2%
 
 **Adobe Campaign**
 
-需要布建您的Campaign執行個體才能進行此整合。 需要設定異動訊息傳送功能。
+必須布建您的Campaign執行個體才能進行此整合。 必須設定異動訊息傳送功能。
 
 1. 登入您的Campaign控制例項。
 
-1. 在&#x200B;**管理** > **平台** > **列舉**&#x200B;下，選取&#x200B;**事件型別** (eventType)列舉。 建立新的事件型別（範例中為「journey-event」）。 稍後寫入JSON檔案時，您必須使用事件型別的內部名稱。
+1. 在&#x200B;**管理** > **平台** > **列舉**&#x200B;下，選取&#x200B;**事件型別** (eventType)列舉。 建立新的事件型別（範例中為「journey-event」）。 稍後寫入JSON檔案時，請使用事件型別的內部名稱。
 
    ![](assets/accintegration-uc-1.png)
 
-1. 中斷連線並重新連線到執行個體，以便建立生效。
+1. 中斷連線並重新連線至執行個體，建立作業才會生效。
 
 1. 在&#x200B;**訊息中心** > **異動訊息範本**&#x200B;下，根據先前建立的事件型別建立新的電子郵件範本。
 
    ![](assets/accintegration-uc-2.png)
 
-1. 設計您的範本。 在此範例中，我們會對設定檔的名字和訂單編號使用個人化。 名字位於Adobe Experience Platform資料來源中，而訂單編號則是來自Journey Optimizer事件的欄位。 請務必在Campaign中使用正確的欄位名稱。
+1. 設計您的範本。 在此範例中，個人化會套用至設定檔的名字和訂單編號。 名字在Adobe Experience Platform資料來源中，而訂單編號是Journey Optimizer事件中的欄位。 請確定您在Campaign中使用正確的欄位名稱。
 
    ![](assets/accintegration-uc-3.png)
 
@@ -55,7 +55,7 @@ ht-degree: 2%
 
    ![](assets/accintegration-uc-4.png)
 
-1. 現在您需要撰寫與範本相對應的JSON裝載。
+1. 撰寫與範本相對應的JSON裝載。
 
 ```
 {
@@ -75,11 +75,11 @@ ht-degree: 2%
 
 **Journey Optimizer**
 
-1. 首先，您必須建立事件。 請務必加入「purchaseOrderNumber」欄位。
+1. 建立事件。 包含「purchaseOrderNumber」欄位。
 
    ![](assets/accintegration-uc-5.png)
 
-1. 然後，您需要在Journey Optimizer中建立與行銷活動範本對應的動作。 在&#x200B;**動作型別**&#x200B;下拉式清單中，選取&#x200B;**Adobe Campaign Classic**。
+1. 在Journey Optimizer中建立與行銷活動範本對應的動作。 在&#x200B;**動作型別**&#x200B;下拉式清單中，選取&#x200B;**Adobe Campaign Classic**。
 
    ![](assets/accintegration-uc-6.png)
 
