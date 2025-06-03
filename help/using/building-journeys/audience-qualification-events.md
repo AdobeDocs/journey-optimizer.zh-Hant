@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 資格，事件，對象，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 948637433e1a90421ff8bab87f78f92b02354a89
+source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1236'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,10 @@ ht-degree: 5%
 
 ➡️ [在影片中探索此功能](#video)
 
-### 重要備註 {#important-notes-segment-qualification}
+### 護欄和推薦 {#important-notes-segment-qualification}
+
+請遵循以下護欄和建議，以建置對象資格歷程。 另請參閱[對象資格最佳做法](#best-practices-segments)。
+
 
 * 對象資格歷程主要設計用於串流對象：此組合將保證更好的即時體驗。 我們強烈建議您在對象資格活動中只使用&#x200B;**串流對象**。
 
@@ -55,7 +58,11 @@ ht-degree: 5%
 * 在歷程中使用&#x200B;**對象資格**&#x200B;活動時，該活動最多可能需要10分鐘才會生效，並聆聽進入或退出對象的設定檔。
 
 
-另請參閱下方的[對象資格最佳實務](#best-practices-segments)。
+>[!CAUTION]
+>
+>[即時客戶個人檔案資料和分段的護欄](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hant){target="_blank"}也適用於Adobe Journey Optimizer。
+
+
 
 ### 設定活動 {#configure-segment-qualification}
 
@@ -85,7 +92,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >請注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至Adobe Experience Platform中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;對象參與狀態。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >請注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至Adobe Experience Platform中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;對象參與狀態。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 選取名稱空間。 只有在將事件定位為歷程的第一步時，才需要此專案。 依預設，此欄位會預先填入最後使用的名稱空間。
 
@@ -127,7 +134,7 @@ ht-degree: 5%
 
 避免使用具有串流細分的開啟和傳送事件。 請改用真正的使用者活動訊號，例如點選、購買或信標資料。 針對頻率或隱藏邏輯，請使用商業規則而非傳送事件。 [了解更多](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-如需串流區段的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
+如需串流區段的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
 
 ### 如何避免多載 {#overloads-speed-segment-qualification}
 
@@ -147,4 +154,4 @@ ht-degree: 5%
 
 透過此影片瞭解對象資格歷程的適用使用案例。 瞭解如何使用對象資格建立歷程，以及套用哪些最佳實務。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446215?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

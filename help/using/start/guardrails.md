@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
-workflow-type: ht
-source-wordcount: '2504'
-ht-degree: 100%
+source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
+workflow-type: tm+mt
+source-wordcount: '2503'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,11 @@ ht-degree: 100%
 
 權益、產品限制和效能護欄全都列於 [Adobe Journey Optimizer 產品說明頁面上](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
-開始之前，還需注意[即時客戶設定檔的資料護欄](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hant){target="_blank"}。
+
+>[!CAUTION]
+>
+>[即時客戶個人檔案資料和分段的護欄](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hant){target="_blank"}也適用於Adobe Journey Optimizer。
+
 
 ## 支援的瀏覽器 {#browsers}
 
