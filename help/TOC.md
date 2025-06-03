@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
 source-wordcount: '2398'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 95%
    + 管理歷程{#manage-journey}
       + [瀏覽及篩選您的歷程](using/building-journeys/journey-ui.md)
       + [歷程中的設定檔入口](using/building-journeys/entry-management.md)
-      + [事件觸發的歷程中的補充識別碼](using/building-journeys/supplemental-identifier.md)
+      + [事件觸發歷程中的補充識別碼](using/building-journeys/supplemental-identifier.md)
       + [時區管理](using/building-journeys/timezone-management.md)
       + [傳送時間最佳化](using/building-journeys/send-time-optimization.md)
       + [結束您的歷程](using/building-journeys/end-journey.md)
@@ -183,7 +183,7 @@ ht-degree: 95%
    + 建立步驟{#create-ms-campaign}
       + [建立協調行銷活動](using/ms/create-ms-campaign.md)
       + [設定行銷活動設定](using/ms/ms-campaign-settings.md)
-      + [排程並啟動您的行銷活動](using/ms/start-monitor-campaigns.md)
+      + [安排時程，並開始投放行銷活動](using/ms/start-monitor-campaigns.md)
       + [建置查詢](using/ms/ms-query-modeler.md)
    + 活動 {#design-campaigns}
       + [開始使用活動](using/ms/activities/about-activities.md)
@@ -201,9 +201,9 @@ ht-degree: 95%
       + [等待](using/ms/activities/wait.md)
    + 訊息 {#messages}
       + [頻道動作](using/ms/activities/channels.md)
-      + [個人化您的內容](using/ms/ms-personalization.md)
+      + [將內容個人化](using/ms/ms-personalization.md)
       + [測試並驗證訊息](using/ms/ms-proofs.md)
-   + 報告與監控 {#report}
+   + 報告與監視 {#report}
       + [報告](using/ms/reporting-campaigns.md)
 + 行銷活動 {#campaigns}
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
@@ -220,8 +220,8 @@ ht-degree: 95%
    + 預覽與測試內容 {#preview-test}
       + [開始預覽和測試](using/content-management/preview-test.md)
       + [選取測試輪廓](using/content-management/test-profiles.md)
-      + [使用測試設定檔預覽](using/content-management/preview.md)
-      + [使用測試設定檔資料傳送校樣](using/content-management/proofs.md)
+      + [使用測試設定檔進行預覽](using/content-management/preview.md)
+      + [使用測試設定檔資料，傳送校樣](using/content-management/proofs.md)
       + [測試電子郵件轉譯](using/content-management/rendering.md)
       + [模擬內容變化版本](using/test-approve/simulate-sample-input.md)
       + [電子郵件垃圾郵件報告](using/content-management/spam-report.md)
@@ -316,7 +316,7 @@ ht-degree: 95%
          + [護欄和限制](using/code-based/code-based-prerequisites.md)
          + [程式碼型體驗表面](using/code-based/code-based-surface.md)
          + [實施方法範例](using/code-based/code-based-implementation-samples.md)
-         + [程式碼型體驗實施中的決策](using/code-based/code-based-decisioning-implementations.md)
+         + [程式碼型體驗實作中的決策](using/code-based/code-based-decisioning-implementations.md)
          + [建立程式碼型體驗設定](using/code-based/code-based-configuration.md)
       + 建立程式碼型體驗 {#create-code-based-experiences}
          + [建立並撰寫程式碼型體驗](using/code-based/create-code-based.md)
@@ -345,7 +345,7 @@ ht-degree: 95%
    + 登陸頁面 {#landing-pages}
       + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
       + [建立登陸頁面](using/landing-pages/create-lp.md)
-      + [管理您的登入頁面](using/landing-pages/manage-lp.md)
+      + [管理登陸頁面](using/landing-pages/manage-lp.md)
       + 設計內容 {#landing-pages-design}
          + [關於登陸頁面設計](using/landing-pages/design-lp.md)
          + [建立登陸頁面內容](using/landing-pages/lp-content.md)
@@ -396,14 +396,14 @@ ht-degree: 95%
       + [建立條件式規則](using/personalization/create-conditions.md)
       + [建立動態內容](using/personalization/dynamic-content.md)
    + 跨解決方案使用案例 {#combine}
-      + [結合解決方案以管理您的內容](using/integrations/content-integrations.md)
+      + [結合解決方案，以便管理內容](using/integrations/content-integrations.md)
       + [使用 Experience Manager Assets](using/integrations/assets.md)
       + [使用 Adobe Stock](using/integrations/stock.md)
       + [使用 Adobe Express 工作](using/integrations/express.md)
       + [使用 Experience Manager 範本工作](using/integrations/aem-templates.md)
-      + [使用Experience Manager內容片段](using/integrations/aem-fragments.md)
+      + [使用 Experience Manager 內容片段工作](using/integrations/aem-fragments.md)
       + [使用 Dynamic Media 工作](using/integrations/aem-dynamic.md)
-      + [使用GenStudio for Performance Marketing](using/integrations/genstudio.md)
+      + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
    + 用於內容產生的 AI 助理{#ai-assistant}
       + [開始使用 AI 助理](using/content-management/gs-generative.md)
       + [使用 AI 來產生電子郵件](using/content-management/generative-email.md)
@@ -416,7 +416,7 @@ ht-degree: 95%
       + 品牌（Beta 測試版）{#brands}
          + [建立並管理品牌](using/content-management/brands.md)
          + [評估品牌定位分數](using/content-management/brands-score.md)
-   + 多語言內容{#content-multilingual}
+   + 多語種內容{#content-multilingual}
       + [開始使用多語言內容](using/content-management/multilingual-gs.md)
       + [建立地區](using/content-management/multilingual-locale.md)
       + [建立語言提供者](using/content-management/multilingual-provider.md)
@@ -544,7 +544,7 @@ ht-degree: 95%
       + 設定項目選取項目 {#selection}
          + [建立決定規則](using/experience-decisioning/rules.md)
          + [建立排名方法](using/experience-decisioning/ranking.md)
-         + [使用AI公式產生器](using/experience-decisioning/exd-ranking-formulas.md)
+         + [使用 AI 公式產生器](using/experience-decisioning/exd-ranking-formulas.md)
          + [善用內容資料](using/experience-decisioning/context-data.md)
       + [建立選擇策略](using/experience-decisioning/selection-strategies.md)
       + [建立決定原則](using/experience-decisioning/create-decision.md)
