@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 99%
+source-wordcount: '2394'
+ht-degree: 98%
 
 ---
 
@@ -768,14 +768,13 @@ ht-degree: 99%
       + [將物件匯出至另一個沙箱](using/configuration/copy-objects-to-sandbox.md)
    + [設定來源連接器](using/start/get-started-sources.md)
 + 存取控制 {#access-control}
-   + 存取控制概觀 {#privacy}
-      + [開始使用使用者管理](using/administration/permissions-overview.md)
-      + [內建角色](using/administration/ootb-product-profiles.md)
-      + [內建權限](using/administration/ootb-permissions.md)
-      + [權限層級](using/administration/high-low-permissions.md)
+   + [開始使用存取控制](using/administration/permissions-overview.md)
    + [管理使用者和角色](using/administration/permissions.md)
-   + [以屬性為基礎的存取控制](using/administration/attribute-based-access.md)
-   + [物件等級存取控制](using/administration/object-based-access.md)
+   + [內建角色](using/administration/ootb-product-profiles.md)
+   + [內建權限](using/administration/ootb-permissions.md)
+   + [權限層級](using/administration/high-low-permissions.md)
+   + [屬性型存取控制](using/administration/attribute-based-access.md)
+   + [物件層級存取控制](using/administration/object-based-access.md)
 + 隱私權 {#privacy}
    + [開始使用隱私權](using/privacy/get-started-privacy.md)
    + [隱私權要求](using/privacy/requests.md)

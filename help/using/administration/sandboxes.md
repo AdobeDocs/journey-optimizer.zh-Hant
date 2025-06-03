@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用和指派沙箱
+title: 使用並指派沙箱
 description: 瞭解如何管理沙箱
 feature: Sandboxes
 topic: Administration
@@ -9,26 +9,26 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 沙箱，虛擬，環境，組織，平台
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
+source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 50%
+source-wordcount: '321'
+ht-degree: 28%
 
 ---
 
-# 使用和指派沙箱 {#sandboxes}
+# 使用並指派沙箱 {#sandboxes}
 
 ## 使用沙箱 {#using-sandbox}
 
-[!DNL Journey Optimizer]可讓您將執行個體分割到名為沙箱的個別虛擬環境中。 沙箱是透過許可權中的角色指派。 [瞭解如何指派 sandbox](permissions.md#create-product-profile)。
+[!DNL Journey Optimizer]可讓您將執行個體分割到稱為沙箱的個別虛擬環境中。 沙箱是透過許可權中的角色指派。 [瞭解如何指派 sandbox](permissions.md#create-product-profile)。
 
-[!DNL Journey Optimizer]會反映針對指定組織建立的Adobe Experience Platform沙箱。 可從 Adobe Experience Platform 執行個體建立或重設 Adobe Experience Platform sandbox。[進一步瞭解 sandbox 使用手冊](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target="_blank"}。
+[!DNL Journey Optimizer]反映針對指定組織建立的Adobe Experience Platform沙箱。 可從 Adobe Experience Platform 執行個體建立或重設 Adobe Experience Platform sandbox。[進一步瞭解 sandbox 使用手冊](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target="_blank"}。
 
-您可以在熒幕右上角組織名稱旁找到沙箱切換器控制項。 若要從一個沙箱切換至另一個沙箱，請按一下切換器中目前作用中的沙箱，然後從下拉式清單中選取另一個沙箱。
+您可以在熒幕右上角、組織名稱旁找到沙箱切換器控制項。 若要從一個沙箱切換至另一個沙箱，請按一下切換器中目前作用中的沙箱，然後從下拉式清單中選取另一個沙箱。
 
 ![](assets/sandbox_5.png)
 
-➡️[在此影片中進一步瞭解沙箱](#video)
+➡️ [在此影片中進一步瞭解沙箱](#video)
 
 ## 指派沙箱 {#assign-sandboxes}
 
@@ -58,11 +58,11 @@ ht-degree: 50%
 
 ## 存取內容 {#content-access}
 
-若要設定內容協助功能，您必須將內容共用資料夾指派給每個 sandbox。 您可以在[!DNL Admin Console]中顯示的&#x200B;**[!UICONTROL 儲存體]**&#x200B;索引標籤中，為管理員建立和設定共用資料夾。 如果您以系統管理員的身份可以存取[!DNL Admin Console]，則可以建立共用資料夾，並將具有不同存取等級的指派新增到共用資料夾。
+若要設定內容協助工具，請將內容共用資料夾指派給每個沙箱。 您可以在[!DNL Admin Console]中顯示的&#x200B;**[!UICONTROL 儲存體]**&#x200B;索引標籤中為管理員建立和設定共用資料夾。 如果您以系統管理員的身份可以存取[!DNL Admin Console]，則可以建立共用資料夾，並將具有不同存取等級的指派新增到共用資料夾。
 
 ![](assets/do-not-localize/content_access.png)
 
-請注意，若要讓內容與正確的 sandbox 同步，您必須遵循與 sandbox 相同的語法，例如，如果您的 sandbox 被稱為開發，您的共用資料夾應具有相同的名稱。
+請注意，若要讓內容與正確的沙箱同步，您必須遵循與沙箱相同的語法。 例如，如果您的沙箱稱為「開發」，則共用資料夾應具有相同的名稱。
 
 [瞭解如何管理共用資料夾](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}。
 

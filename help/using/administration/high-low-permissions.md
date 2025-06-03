@@ -9,18 +9,18 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 許可權，高階，低階，設定檔， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
 
 # 權限層級 {#high-low-permissions}
 
-![](assets/do-not-localize/permissions.png)
 
 每個角色都包含允許使用者存取不同功能的許可權。
+
 它們可以分為兩種型別：
 
 * **高階許可權**：代表可指派給&#x200B;**[!UICONTROL 角色]**&#x200B;的不同許可權，例如&#x200B;**[!DNL Publish journeys]**&#x200B;和&#x200B;**[!DNL Manage subdomains delegation]**。 高階許可權包括低階許可權。 在[此頁面](ootb-permissions.md)上詳細說明了高階許可權。
@@ -29,11 +29,14 @@ ht-degree: 0%
 
 例如，**[!DNL Journey administrator]**&#x200B;角色已指派&#x200B;**[!DNL Manage journeys]**&#x200B;許可權。 此許可權會產生低階許可權，可讓歷程管理員寫入、讀取和刪除歷程。
 
+![](assets/do-not-localize/permissions.png){width="70%"}
+
+
 ## 歷程資源 {#journey-capability}
 
 * **[!DNL Manage journeys]**&#x200B;高階許可權可讓使用者建立新的和編輯/刪除現有的歷程，以及存取歷程畫布中用來建立歷程流程的物件。
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
 
    * Journey Optimizer專用：
 
@@ -53,7 +56,7 @@ ht-degree: 0%
 
 * **[!DNL Publish journeys]**&#x200B;高階許可權可讓使用者發佈歷程。
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
    * Journey Optimizer專用：
       * journeys.publish
       * journeys.read
@@ -62,7 +65,7 @@ ht-degree: 0%
 
 * **[!DNL View journeys]**&#x200B;高階許可權可讓使用者瀏覽及檢視歷程。
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
 
    * Journey Optimizer專用：
       * journeys.read
@@ -75,7 +78,7 @@ ht-degree: 0%
 
 * **[!DNL Manage journeys events, data sources and actions]**&#x200B;高階許可權可讓使用者設定事件和資料設定。
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
 
    * Journey Optimizer專用：
       * journeys_events.read
@@ -97,7 +100,7 @@ ht-degree: 0%
 
 * **[!DNL View journeys events, data sources and actions]**&#x200B;高階許可權可讓使用者在歷程流程中使用事件和資料。
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
 
    * Journey Optimizer專用：
       * journeys_events.read
@@ -113,7 +116,7 @@ ht-degree: 0%
 
 * **[!DNL View journeys report]**&#x200B;高階許可權可讓使用者以唯讀方式存取歷程報告。
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
 
    * Journey Optimizer專用：
       * journeys_report.read
@@ -131,7 +134,7 @@ ht-degree: 0%
 
 * **[!DNL Manage frequency rules]**&#x200B;高階許可權可讓使用者讀取、建立、編輯、刪除和啟用/停用頻率規則。
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
 
    * Journey Optimizer專用：
       * frequency_rules.read
@@ -142,7 +145,7 @@ ht-degree: 0%
 
 * **[!DNL View frequency rules]**&#x200B;高階許可權可讓使用者檢影片率規則。
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
 
    * Journey Optimizer專用：
       * frequency_rules.read
@@ -166,7 +169,7 @@ ht-degree: 0%
 
 * **[!DNL Manage campaigns]**&#x200B;高階許可權可讓使用者建立新的和編輯/刪除行銷活動
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
 
    * Journey Optimizer專用：
 
@@ -193,7 +196,7 @@ ht-degree: 0%
 
 * **[!DNL View campaigns report]**&#x200B;高階許可權可讓使用者閱讀及編輯行銷活動報告。
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
 
    * Journey Optimizer專用：
       * campaign.read
@@ -207,7 +210,7 @@ ht-degree: 0%
 
 * **[!DNL Manage decisions]**&#x200B;高階許可權可讓使用者建立新的和編輯/刪除現有的&#x200B;**[!DNL Activity entities]**，以及管理這些活動中用來做決定的物件。
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
 
    * 特定決策管理：
       * activities.read
@@ -233,7 +236,7 @@ ht-degree: 0%
 
 * **[!DNL View decisions]**&#x200B;高階許可權可讓使用者使用現有的活動和相關商業物件來做出決定。
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
 
    * 特定決策管理：
       * activities.read
@@ -250,7 +253,7 @@ ht-degree: 0%
 
 * **[!DNL Manage offers]**&#x200B;高階許可權可讓使用者建立、編輯和刪除所有優惠、元件、讀取決定和集合。
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
 
    * 特定決策管理：
       * offers_activity.read
@@ -272,7 +275,7 @@ ht-degree: 0%
 
 * **[!DNL Manage ranking strategies]**&#x200B;高階許可權可讓使用者讀取、建立、編輯和刪除排名策略。
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
 
    * 特定決策管理：
       * ranking_strategy.read
@@ -289,7 +292,7 @@ ht-degree: 0%
 <!--
 * **[!DNL Manage Experience decisions]** high-level permission allows users to read, create, edit, and delete Decisioning entities.
 
-  +++ It includes the following low-level permissions:  
+  +++ This role includes the following low-level permissions:  
 
   * Experience decisions specific:
     * ranking_strategy.read
@@ -310,7 +313,7 @@ ht-degree: 0%
 
 * **[!DNL Manage file routing]**&#x200B;高階許可權可讓使用者建立、編輯和刪除檔案路由設定。
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
    * Journey Optimizer專用：
 
       * file_routing.read
@@ -321,7 +324,7 @@ ht-degree: 0%
 
 * **[!DNL Manage IP pools]**&#x200B;高階許可權可讓使用者建立、編輯和刪除相似性定義。
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
    * Journey Optimizer專用：
       * IP_pools.read
       * IP_pools.write
@@ -346,7 +349,7 @@ ht-degree: 0%
 
 * **[!DNL Manage messages general settings]**&#x200B;高階許可權可讓使用者在沙箱層級建立、編輯和刪除全域設定。
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
 
    * Journey Optimizer專用：
       * messages_general_settings.read
@@ -409,7 +412,7 @@ ht-degree: 0%
 
 * **[!DNL Manage subdomains delegations]**&#x200B;高階許可權可讓使用者建立、編輯和刪除子網域委派（包括IP集區）。
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
    * Journey Optimizer專用：
 
       * subdomains_delegation.read
@@ -420,7 +423,7 @@ ht-degree: 0%
 
 * **[!DNL Manage suppression]**&#x200B;高階許可權可讓使用者定義電子郵件地址新增至隱藏清單前的跳出次數，以及新增和刪除隱藏清單中的專案。
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
    * Journey Optimizer專用：
       * suppression_rules.read
       * suppression_rules.write
@@ -432,7 +435,7 @@ ht-degree: 0%
 
 * **[!DNL View file routing]**&#x200B;高階許可權可讓使用者檢視檔案路由設定。
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
    * Journey Optimizer專用：
 
       * file_routing.read
@@ -479,7 +482,7 @@ ht-degree: 0%
 ### [!DNL View channel configuration] permission {#view-channel-surface}
 
 The **[!DNL View channel configuration]** high-level permission allows users to view channel configurations in order to know which channel configurations to use. 
-  +++ It includes the following low-level permissions:  
+  +++ This role includes the following low-level permissions:  
 
 * messages_presets.read
 * subdomains_delegation.read
@@ -490,7 +493,7 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
 
 * **[!DNL View suppression list]**&#x200B;高階許可權可讓使用者檢視隱藏清單內容與設定。
 
-+++ 其中包含下列低階許可權：
++++ 此角色包含下列低階許可權：
 
    * Journey Optimizer專用：
       * suppression_list.view
