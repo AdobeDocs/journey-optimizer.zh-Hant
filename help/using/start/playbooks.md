@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
 source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '499'
+ht-degree: 100%
 
 ---
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 此外，您可以將教戰手冊資產匯入其他沙箱。 這樣做可在您已設定自己的結構描述、欄位和欄位群組時，讓產生的資產與現有資產趨於一致，並確保其與您的資料相容。會在使用案例教戰手冊檔案中，詳細說明這些步驟：[將教戰手冊產生的資產，發佈到其他沙箱](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=zh-Hant){target="_blank"}。
 
-## 建立您自己的教戰手冊（私人測試版） {#create}
+## 建立專屬教戰手冊 (Private beta) {#create}
 
 >[!AVAILABILITY]
 >
->使用案例教戰手冊建立目前僅可用於一組組織作為私人測試版。 若要取得存取權，請聯絡您的 Adobe 代表。
+>建立使用案例教戰手冊，目前只適用於部分組織，當成 Private Beta 使用。 若想取得存取權，請聯絡您的 Adobe 代表。
 
 除了使用事先定義好的教戰手冊之外，您還可以在 Adobe Experience Platform 中，建立並分享您專屬的教戰手冊。
 

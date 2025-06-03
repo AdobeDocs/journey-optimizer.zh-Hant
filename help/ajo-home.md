@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '334'
+ht-degree: 100%
 
 ---
 
@@ -20,21 +20,21 @@ ht-degree: 0%
 
 >[!BEGINTABS]
 
->[!TAB 2025年5月發行版本]
+>[!TAB 2025 年 5 月發布內容]
 
-5月版本現已上線！ 請參閱發行說明以探索新功能、變更及改進。
+5 月發布內容現已正式上線！請參閱發行說明以探索新功能、變更及改進。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 >[!TAB Adobe Express 整合]
 
-Adobe Journey Optimizer現在與Adobe Express整合，可讓您透過journey orchestration順暢地連線創意資產。
+Adobe Journey Optimizer 現與 Adobe Express 整合在一處，讓您可以透過歷程協調，順利連線上創意資產。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
 >[!TAB AI 助理]
 
-✨透過我們的[AI Assistant](../help/using/content-management/gs-generative.md)即時功能預覽，親身體驗親身體驗各種功能，讓您親身體驗各項功能，全面瞭解各項功能。
+✨透過我們 [AI 助理](../help/using/content-management/gs-generative.md)即時功能預覽，讓您沉浸在實作體驗中，旨在可以直接探索各項功能，全面了解所有功能。
 
 [![了解更多](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
@@ -47,7 +47,7 @@ Journey Optimizer 報告功能改進與 Customer Journey Analytics 功能的互�
 
 >[!ENDTABS]
 
-## 從基礎知識開始！
+## 就從基本概念開始吧！
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">

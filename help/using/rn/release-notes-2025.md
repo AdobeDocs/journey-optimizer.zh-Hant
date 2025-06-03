@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2031'
+ht-degree: 100%
 
 ---
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 <tr>
 <td>
 <p>Adobe Journey Optimizer 目前可以整合入 Adobe Express，讓您可以透過歷程協調，順利連上創意資產。此整合能簡化跨行銷活動設計、部署個人化內容的程序。 </p>
-<p>此整合目前不適用於Healthcare Shield或Privacy and Security Shield。</p>
+<p>此整合目前不適用於 Healthcare Shield 或 Privacy 和 Security Shield。</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>如需詳細資訊，請參閱<a href="../integrations/express.md">詳細文件</a>。</p>
 </td>
@@ -176,7 +176,7 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td>
-<p>針對每日既定行程，新增選項可讓您定義的時間視窗長達 6 小時之久，等待批次分段作業的受眾資料，確保使用到最新資料來執行歷程，或者如果尚未準備好，就會直接跳過。[批次客群評估後就會觸發] 選項僅適用於一組組織 (可用性限制)。若要取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>針對每日既定行程，新增選項可讓您定義的時間視窗長達 6 小時之久，等待批次分段作業的受眾資料，確保使用到最新資料來執行歷程，或者如果尚未準備好，就會直接跳過。[批次客群評估後就會觸發] 選項僅適用於一組組織 (可用性限制)。若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/read-audience.md#schedule">詳細文件</a>。</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>
@@ -240,7 +240,7 @@ ht-degree: 0%
 </table>
 -->
 
-### 功能改進 {#25-04-improv}
+### 改良功能 {#25-04-improv}
 
 **行銷活動預覽 API**
 
@@ -278,7 +278,7 @@ ht-degree: 0%
 
 **使用案例教戰手冊**
 
-* **教戰手冊製作和共用（私人測試版）** — 您現在可以建立、管理和共用您自己的使用案例教戰手冊。 此功能目前僅供一組組織作為私人測試版使用。 若要取得存取權，請聯絡您的Adobe代表。 [閱讀全文](../start/playbooks.md)
+* **教戰手冊製作與分享 (Private beta)** - 您可以立即建立、管理並分享自己的使用案例教戰手冊。此功能目前僅作為 Private Beta 使用，可提供給某些組織參考。若想取得存取權，請聯絡 Adobe 代表。[閱讀全文](../start/playbooks.md)
 
 **導覽**
 
@@ -384,7 +384,7 @@ ht-degree: 0%
 <li>更新您的內容並新增個人化欄位，以自訂 Dynamic Media 範本</li>
 </ul>
 <p>
-<p>此整合僅適用於一組組織 (有限可用性)。若要取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>此整合僅適用於一組組織 (有限可用性)。若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p>如需詳細資訊，請參閱<a href="../integrations/aem-dynamic.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -446,7 +446,7 @@ ht-degree: 0%
 </table-->
 
 
-### 功能改進 {#25-03-improv}
+### 改良功能 {#25-03-improv}
 
 **個人化編輯器** (推出日期：3 月 12 日)
 
@@ -479,7 +479,7 @@ ht-degree: 0%
 
 您現在可以在包含批次細分的歷程和行銷活動中，使用每日頻率上限。為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的命名空間。請至[平台身分識別服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中，進一步了解命名空間的優先順序
 
-提醒您，規則集中的每日頻率上限僅適用於一組組織（可用性限制）。 若要取得存取權，請聯絡您的 Adobe 代表。
+提醒您，規則集中的每日頻率上限僅適用於一組組織（可用性限制）。 若想取得存取權，請聯絡您的 Adobe 代表。
 
 如需有關業務規則的詳細資訊，請參閱[詳細說明文件](../configuration/rule-sets.md)。
 
@@ -587,7 +587,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <p>彈性客群評估可讓您視需求針對選取的客群執行細分工作，確保在將客群鎖定目標至 Journey Optimizer 歷程和行銷活動之前，始終擁有最新的客群資料。</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>如需詳細資訊，請參閱<a href="../audience/creating-a-segment-definition.md#flexible">詳細文件</a>。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若要取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p>推出日期：2025 年 1 月 28 日</p>
 </tr>
 </tbody>
@@ -595,7 +595,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 </table>
 
 
-### 功能改進 {#25-02-improvements}
+### 改良功能 {#25-02-improvements}
 
 以下列出了 2 月發行的改進項目。
 
