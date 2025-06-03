@@ -9,7 +9,7 @@ role: Admin, Architect
 level: Intermediate
 keywords: 許可權，許可權，限制，存取，沙箱
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: 97c8950cf8d680434485690adcff2fd8acec0743
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 [!DNL Journey Optimizer]的存取控制是透過Adobe Experience Cloud中的&#x200B;**許可權**&#x200B;提供。 此功能利用角色和原則，將使用者與許可權和沙箱連結。
 
-若要設定Journey Optimizer的存取控制，您必須擁有組織的系統或產品管理員許可權。 可授予或撤銷許可權的最低角色為產品管理員。 可以管理許可權的其他管理員角色是系統管理員（無限制）。 如需詳細資訊，請參閱有關管理角色的[Adobe說明中心文章](https://helpx.adobe.com/tw/enterprise/using/admin-roles.html){target="_blank"}。
+若要設定Journey Optimizer的存取控制，您必須擁有組織的系統或產品管理員許可權。 可授予或撤銷許可權的最低角色為產品管理員。 可以管理許可權的其他管理員角色是系統管理員（無限制）。 如需詳細資訊，請參閱有關管理角色的[Adobe說明中心文章](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"}。
 
 <!-- A high-level workflow for gaining and assigning access permissions can be summarized as follows:
 
@@ -53,6 +53,7 @@ ht-degree: 3%
 
 現在您已瞭解&#x200B;**[!DNL Journey Optimizer]**&#x200B;中的存取控制概念，您可以更深入探討這些檔案區段，以開始設定許可權。
 
+
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="permissions.md">
@@ -79,9 +80,7 @@ ht-degree: 3%
 <div>
 <a href="sandboxes.md"><strong>管理沙箱</strong></a>
 </div>
-<p>
-</td>
-<td>
+<p></td>
 <td>
 <a href="attribute-based-access.md">
 <img alt="屬性型存取控制" src="assets/do-not-localize/data-access.jpeg">
@@ -91,5 +90,4 @@ ht-degree: 3%
 </div>
 <p>
 </td>
-<td>
 </tr></table>
