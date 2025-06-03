@@ -39,21 +39,21 @@ ht-degree: 3%
 >
 >若要從使用構成工作流程建立的對象中使用擴充屬性，請確保將其新增到「ExperiencePlatform」資料Source中的欄位群組。
 >
-+++ 瞭解如何將擴充屬性新增至欄位群組>
+>+++ 瞭解如何將擴充屬性新增至欄位群組>
 >
-1. 導覽至「管理」>「設定」>「資料來源」。
-1. 選取「Experience Platform」並建立或編輯欄位群組。
-1. 在架構選取器中，選取適當的架構。 結構描述的名稱將遵循以下格式：「audienceId的結構描述：」+對象的ID。 您可以在對象詳細資訊畫面（在對象詳細資訊畫面中）上找到對象ID。
-1. 開啟欄位選擇器，尋找您要新增的擴充屬性，然後選取這些屬性旁邊的核取方塊。
-1. 儲存您的變更。
-1. 將擴充屬性新增至「欄位群組」後，您就可以在Journey Optimizer中於上述位置使用擴充屬性。
+>1. 導覽至「管理」>「設定」>「資料來源」。
+>1. 選取「Experience Platform」並建立或編輯欄位群組。
+>1. 在架構選取器中，選取適當的架構。 結構描述的名稱將遵循以下格式：「audienceId的結構描述：」+對象的ID。 您可以在對象詳細資訊畫面（在對象詳細資訊畫面中）上找到對象ID。
+>1. 開啟欄位選擇器，尋找您要新增的擴充屬性，然後選取這些屬性旁邊的核取方塊。
+>1. 儲存您的變更。
+>1. 將擴充屬性新增至「欄位群組」後，您就可以在Journey Optimizer中於上述位置使用擴充屬性。
 >
-有關資料來源的詳細資訊，請參閱以下章節：
+>有關資料來源的詳細資訊，請參閱以下章節：
 >
-* [使用Adobe Experience Platform資料來源](../datasource/adobe-experience-platform-data-source.md)
-* [設定資料來源](../datasource/configure-data-sources.md)
+>* [使用Adobe Experience Platform資料來源](../datasource/adobe-experience-platform-data-source.md)
+>* [設定資料來源](../datasource/configure-data-sources.md)
 >
-+++
+>+++
 
 
 
