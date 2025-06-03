@@ -9,18 +9,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 產品，設定檔，沙箱
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '710'
 ht-degree: 5%
 
 ---
 
 # 管理使用者和角色 {#manage-permissions}
-
->[!IMPORTANT]
->
-> 以下詳述的每個程式只能由&#x200B;**[!UICONTROL 產品]**&#x200B;或&#x200B;**[!UICONTROL 系統]**&#x200B;管理員執行。
 
 **[!UICONTROL 角色]**&#x200B;是指共用相同許可權和沙箱的使用者集合。 這些角色可讓您輕鬆管理組織內不同使用者群組的存取和許可權。
 
@@ -29,6 +25,12 @@ ht-degree: 5%
 當使用者屬於&#x200B;**[!UICONTROL 角色]**&#x200B;時，他們將獲得產品內所包含Adobe應用程式和服務的存取權。
 
 如果預先存在的角色不符合您組織的特定需求，您也可以建立自訂&#x200B;**[!UICONTROL 角色]**，以微調介面中特定功能或物件的存取許可權。 如此一來，您便可確保每位使用者僅能存取有效執行其工作所需的資源和工具。
+
+
+>[!IMPORTANT]
+>
+>以下詳述的步驟和程式只能由&#x200B;**[!UICONTROL 產品]**&#x200B;或&#x200B;**[!UICONTROL 系統]**&#x200B;管理員執行。
+
 
 ## 指派角色 {#assigning-role}
 
@@ -46,9 +48,9 @@ ht-degree: 5%
 
    ![](assets/do-not-localize/access_control_3.png)
 
-1. 輸入您的使用者名稱或電子郵件地址，或從清單中選取使用者，然後按一下[儲存]。**&#x200B;**
+1. 輸入您的使用者名稱或電子郵件地址，或從清單中選取使用者，然後按一下[儲存]。****
 
-   如果使用者先前未在[!DNL Admin Console]中建立，請參閱[新增使用者檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=zh-Hant){target="_blank"}。
+   如果使用者先前未在[!DNL Admin Console]中建立，請參閱[新增使用者檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html){target="_blank"}。
 
    ![](assets/do-not-localize/access_control_4.png)
 
@@ -62,13 +64,15 @@ ht-degree: 5%
 
 ## 編輯現有角色 {#edit-product-profile}
 
-針對現成或自訂&#x200B;**[!UICONTROL 角色]**，您可以隨時決定新增或刪除許可權。
+針對內建或自訂&#x200B;**[!UICONTROL 角色]**，您可以隨時決定新增或刪除許可權。
 
-在此範例中，我們要為指派給歷程檢視器&#x200B;**[!UICONTROL 角色]**&#x200B;的使用者，新增與&#x200B;**[!UICONTROL 歷程]**&#x200B;資源相關的&#x200B;**[!UICONTROL 許可權]**。 之後，使用者就可以發佈歷程。
+在下列範例中，我們要為指派給歷程檢視器&#x200B;**[!UICONTROL 角色]**&#x200B;的使用者，新增與&#x200B;**[!UICONTROL 歷程]**&#x200B;資源相關的&#x200B;**[!UICONTROL 許可權]**。 之後，使用者就可以發佈歷程。
 
-請注意，如果您修改現成可用的或自訂的&#x200B;**[!UICONTROL 角色]**，將會影響指派給此&#x200B;**[!UICONTROL 角色]**&#x200B;的每個使用者。
+>[!IMPORTANT]
+>
+>對內建或自訂角色進行的變更將會影響指派給該角色的所有使用者。
 
-1. 若要在[!DNL Permissions]產品中將角色指派給使用者，請瀏覽至&#x200B;**[!UICONTROL 角色]**&#x200B;索引標籤，並選取所需的角色，這裡是歷程檢視器&#x200B;**[!UICONTROL 角色]**。
+1. 若要編輯[!DNL Permissions]產品中的角色，請導覽至&#x200B;**[!UICONTROL 角色]**&#x200B;索引標籤並選取所需的角色，這裡是歷程檢視器&#x200B;**[!UICONTROL 角色]**。
    ![](assets/do-not-localize/access_control_5.png)
 
 1. 從您的&#x200B;**[!UICONTROL 角色]**&#x200B;儀表板，按一下&#x200B;**[!UICONTROL 編輯]**。
@@ -85,7 +89,7 @@ ht-degree: 5%
 
 1. 完成時，按一下&#x200B;**[!UICONTROL 儲存]**。
 
-如有需要，您也可以建立具有特定許可權的新角色。 如需詳細資訊，請參閱[建立新角色](#create-product-profile)。
+如有需要，您也可以建立具有特定許可權的新角色。
 
 ## 建立新角色 {#create-product-profile}
 
@@ -125,4 +129,4 @@ ht-degree: 5%
 
 您的&#x200B;**[!UICONTROL 角色]**&#x200B;現已建立並設定。 您現在需要將其指派給使用者。
 
-如需角色建立與管理的詳細資訊，請參閱[Adobe Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=zh-Hant){target="_blank"}。
+如需角色建立與管理的詳細資訊，請參閱[Adobe Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html){target="_blank"}。
