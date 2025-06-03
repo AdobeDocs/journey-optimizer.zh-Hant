@@ -5,17 +5,15 @@ feature: Code-based Experiences
 topic: Content Management
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 57686b9684f9233c81bd46b67d12ec5f1e3544c5
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 0%
+source-wordcount: '378'
+ht-degree: 1%
 
 ---
 
-# 程式碼型體驗實施中的決策
+# 程式碼型體驗實作中的決策
 
 在程式碼型體驗中使用決策時，請考慮在下列所述的情況下將下列標幟新增到您的使用者端實作。
 
@@ -28,15 +26,15 @@ ht-degree: 0%
 發佈行銷活動後，將`dryRun`標幟新增至使用者端實作中的XDM事件`data`區塊：
 
     &quot;
-    &lbrace;
-    &quot;資料&quot;： &lbrace;
-    &quot;__adobe&quot;： &lbrace;
-    &quot;ajo&quot;： &lbrace;
+    {
+    &quot;資料&quot;： {
+    &quot;__adobe&quot;： {
+    &quot;ajo&quot;： {
     &quot;dryRun&quot;： true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
     &quot;&#39;
 
 <!--
@@ -46,7 +44,7 @@ ht-degree: 0%
 
 ## 程式碼型實施中的決定專案重複資料刪除 {#code-based-decisioning-deduplication}
 
-在您的程式碼型體驗中使用[決定原則](../experience-decisioning/create-decision.md)時，瞭解如何在使用者端實作中將重複資料刪除套用至您的決定請求。
+當您在程式碼型體驗中使用[決定原則](../experience-decisioning/create-decision.md)時，您可以在使用者端實作中將重複資料刪除套用至您的決定請求。
 
 決策請求（透過Konductor）接受重複資料刪除旗標，這會處理包含多個決策原則或位置的單一請求中的決策專案唯一性。
 
