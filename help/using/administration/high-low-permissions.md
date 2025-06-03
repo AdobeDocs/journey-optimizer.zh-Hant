@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 許可權，高階，低階，設定檔， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 49a607e8e4b4cce7bcf41d92abe6b9fa54dfb411
+source-git-commit: 3e106b971f5ce301584869e85efeaeb941237ac8
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -156,7 +156,7 @@ ht-degree: 0%
 
 * **[!DNL Export suppression list]**&#x200B;高階許可權可讓使用者將隱藏清單下載為CSV檔案。
 
-+++ 其中包含下列低階許可權：
++++ 此許可權包括下列低階許可權：
 
    * Journey Optimizer專用：
       * 隱藏清單匯出
@@ -184,7 +184,7 @@ ht-degree: 0%
 
 * **[!DNL Publish campaigns]**&#x200B;高階許可權可讓使用者發佈行銷活動。
 
-+++ 其中包含下列低階許可權：
++++ 此許可權包括下列低階許可權：
 
    * Journey Optimizer專用：
 
@@ -334,7 +334,7 @@ ht-degree: 0%
 
 * **[!DNL Manage landing page settings]**&#x200B;高階許可權可讓使用者讀取、建立及編輯登陸頁面子網域和預設集設定。
 
-+++ 其中包含下列低階許可權：
++++ 此許可權包括下列低階許可權：
 
    * Journey Optimizer專用：
 
@@ -363,7 +363,7 @@ ht-degree: 0%
 
 * **[!DNL Manage messages presets]**&#x200B;高階許可權可讓使用者在沙箱層級讀取、建立、編輯和刪除跨頻道的頻道設定。
 
-+++ 其中包含下列低階許可權：
++++ 此許可權包括下列低階許可權：
 
    * Journey Optimizer專用：
       * messages_presets.read
@@ -379,7 +379,7 @@ ht-degree: 0%
 
 * **[!DNL Manage PTR records]**&#x200B;高階許可權可讓使用者讀取和編輯已根據子網域設定的PTR記錄。
 
-+++ 其中包含下列低階許可權：
++++ 此許可權包括下列低階許可權：
 
    * Journey Optimizer專用：
       * PTR_records.read
@@ -390,7 +390,7 @@ ht-degree: 0%
 
 * **[!DNL Manage Seedlist]**&#x200B;高階許可權可讓使用者讀取、建立、編輯及刪除Seedlist。
 
-+++ 其中包含下列低階許可權：
++++ 此許可權包括下列低階許可權：
 
    * Journey Optimizer專用：
       * seedlist.read
@@ -401,7 +401,7 @@ ht-degree: 0%
 
 * **[!DNL Manage SMS subdomains]**&#x200B;高階許可權可讓使用者讀取、建立、編輯及刪除SMS子網域。
 
-+++ 其中包含下列低階許可權：
++++ 此許可權包括下列低階許可權：
 
    * Journey Optimizer專用：
       * sms_subdomains.read
@@ -444,7 +444,7 @@ ht-degree: 0%
 
 * **[!DNL View messages general settings]**&#x200B;高階許可權可讓使用者檢視訊息的一般設定，例如執行位址。
 
-+++ 其中包含下列低階許可權：
++++ 此許可權包括下列低階許可權：
 
    * Journey Optimizer專用：
       * messages_general_settings.read
@@ -456,7 +456,7 @@ ht-degree: 0%
 
 * **[!DNL View messages presets]**&#x200B;高階許可權可讓使用者檢視訊息預設集。
 
-+++ 其中包含下列低階許可權：
++++ 此許可權包括下列低階許可權：
 
    * Journey Optimizer專用：
       * messages_presets.read
@@ -470,7 +470,7 @@ ht-degree: 0%
 
 * **[!DNL View PTR records]**&#x200B;高階許可權可讓使用者檢視已根據子網域設定的PTR記錄。
 
-+++ 其中包含下列低階許可權：
++++ 此許可權包括下列低階許可權：
    * Journey Optimizer專用：
 
       * PTR_records.read
@@ -509,7 +509,7 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
 
 The **[!DNL Manage web subdomain]** high-level permission allows users to read, create, edit, and delete web subdomains.
 
-  +++ It includes the following low-level permissions: 
+  +++ This permission includes the following low-level permissions: 
 -->
 
 ## AI協助資源 {#ai-permissions}
