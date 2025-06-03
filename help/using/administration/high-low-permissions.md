@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 權限層級
-description: 瞭解允許使用者存取不同功能的高和低層級許可權。
+description: 瞭解允許使用者存取不同功能的高階和低階許可權。
 topic: Administration
 feature: Access Management
 role: Admin, Architect, Developer
 level: Experienced
 keywords: 許可權，高階，低階，設定檔， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 每個角色都包含允許使用者存取不同功能的許可權。
 它們可以分為兩種型別：
 
-* **高階許可權**：代表可指派給&#x200B;**[!UICONTROL 角色]**&#x200B;的不同許可權，例如&#x200B;**[!DNL Publish journeys]**&#x200B;和&#x200B;**[!DNL Manage subdomains delegation]**。 高層級許可權包含低層級許可權。 在[此頁面](ootb-permissions.md)上詳細說明了高階許可權。
+* **高階許可權**：代表可指派給&#x200B;**[!UICONTROL 角色]**&#x200B;的不同許可權，例如&#x200B;**[!DNL Publish journeys]**&#x200B;和&#x200B;**[!DNL Manage subdomains delegation]**。 高階許可權包括低階許可權。 在[此頁面](ootb-permissions.md)上詳細說明了高階許可權。
 
 * **低階許可權**：代表來自高階許可權的不同許可權。
 
