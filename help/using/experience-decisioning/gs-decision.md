@@ -6,22 +6,22 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: a9dc2998097c45bd6235af3f5c08bc7077dc3f2f
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '287'
 ht-degree: 20%
 
 ---
 
-# 開始使用[!DNL Journey Optimizer]決策功能 {#gs-decision}
+# 開始使用[!DNL Journey Optimizer]中的決定功能 {#gs-decision}
 
 [!DNL Journey Optimizer]中的決策功能可讓您在正確的時間為所有接觸點的客戶提供最佳優惠和個人化體驗。 這些功能透過集中目錄的行銷優惠和進階決策引擎簡化個人化，該引擎使用規則和排名條件為每個人提供最相關的內容。
 
 主要優點：
 
-* 透過跨多管道提供個人化優惠，改善行銷活動績效；
-* 改善工作流程：行銷團隊可以建立單一傳遞，並在範本的不同部分提供不同優惠方案，藉此改善工作流程，而無須建立多個傳遞或行銷活動；
-* 控制在電子郵件行銷活動中和向客戶顯示優惠方案的次數。
+* 透過跨多管道提供個人化產品建議，改善行銷活動績效；
+* 改善工作流程：行銷團隊可以建立單一傳遞，並在範本的不同部分提供不同產品建議，藉此改善工作流程，而無須建立多個傳遞或行銷活動；
+* 控制在電子郵件行銷活動中和向客戶顯示產品建議的次數。
 
 目前，[!DNL Journey Optimizer]提供下列兩個核心解決方案。
 
@@ -38,7 +38,7 @@ ht-degree: 20%
 
 目前，程式碼型Experience Channel支援Experience Decisioning。
 
-➡️[開始使用決策](../experience-decisioning/gs-experience-decisioning.md)
+➡️ [開始使用決策](../experience-decisioning/gs-experience-decisioning.md)
 
 ## 決策管理 {#decision-management}
 
@@ -48,4 +48,4 @@ ht-degree: 20%
 
 決定管理目前支援四個管道：電子郵件、應用程式內傳訊、推播通知和簡訊。
 
-➡️[開始使用決定管理](../offers/get-started/starting-offer-decisioning.md)
+➡️ [開始使用決定管理](../offers/get-started/starting-offer-decisioning.md)
