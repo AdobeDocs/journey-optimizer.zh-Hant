@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
+source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 22%
@@ -27,7 +27,7 @@ ht-degree: 22%
 
 內嵌完成之後，對象就可以直接在Journey Optimizer中使用。 雖然這通常在一小時內完成，但可能會有所變動。 從構成中產生的對象應在發佈後24小時內可用。
 
-對於批次分段工作產生的對象，啟用可能會因批次擷取變數而延遲。 對於每日排程的讀取對象歷程，您可以在歷程屬性中定義時間範圍，以確保在歷程執行之前有新的對象資料可用。 如果分段工作未在定義的時間範圍內完成，將略過歷程直到其下次發生。 [瞭解如何排程讀取對象歷程](../building-journeys/read-audience.md)
+對於批次分段工作產生的對象，啟用可能會因批次擷取變數而延遲。 對於每日排程的讀取對象歷程，您可以在歷程屬性中定義時間範圍，以確保在歷程執行之前有新的對象資料可用。 如果區段工作未在定義的時間範圍內完成，將略過歷程直到其下一次發生。 [瞭解如何排程讀取對象歷程](../building-journeys/read-audience.md)
 
 ## 自訂上傳和同盟對象構成
 

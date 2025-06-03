@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 管理行銷活動、狀態、排程、存取、最佳化工具
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
+source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 1%
@@ -120,7 +120,7 @@ ht-degree: 1%
 
 ## 複製行銷活動 {#duplicate}
 
-您可以複製即時行銷活動以建立新行銷活動。 若要這麼做，請開啟行銷活動，然後按一下[複製]。**&#x200B;**
+您可以複製即時行銷活動以建立新行銷活動。 若要這麼做，請開啟行銷活動，然後按一下[複製]。****
 
 ![](assets/create-campaign-duplicate.png)
 

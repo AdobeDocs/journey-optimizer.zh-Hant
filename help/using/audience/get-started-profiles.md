@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: f6c77a93c4adea33df8434ff8f950b8d39c92845
+source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 33%
+source-wordcount: '428'
+ht-degree: 25%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 33%
 
 ➡️ [在影片中探索此功能](#video)
 
-**即時客戶設定檔{1&#x200B;} — 將來自線上、離線和假名的客戶屬性和事件整合到單一整合的設定檔中。&#x200B;URL**&#x200B;使用設定檔以跨多個接觸點提供個人化即時體驗來吸引客戶。&#x200B;URL
+**即時客戶設定檔{&#x200B;1} — 將來自線上、離線和假名的客戶屬性和事件整合到單一整合的設定檔中。&#x200B;URL**&#x200B;使用設定檔以跨多個接觸點提供個人化即時體驗來吸引客戶。&#x200B;URL
 
 **資料擷取** — 連線至各種資料來源，以擷取行為、異動、財務和營運資料。 即時或透過批次上傳擷取資料，以持續更新設定檔。
 
@@ -35,8 +35,8 @@ ht-degree: 33%
 >[!MORELIKETHIS]
 >
 >* [即時客戶輪廓文件](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant){target="_blank"}
->* [即時客戶設定檔資料和細分的預設護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}
->* {&#x200B;0}資料擷取檔案[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/home){target="_blank"}
+>* [即時客戶個人檔案資料和細分的預設護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}
+>* {&#x200B;0}資料擷取檔案](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}[
 
 ## 設定檔儀表板
 
@@ -46,7 +46,7 @@ ht-degree: 33%
 >
 >如果貴組織是初次使用 [!DNL Adobe Journey Optimizer]，且尚未建立作用中的輪廓資料集或合併原則，則&#x200B;**輪廓**&#x200B;儀表板不可見。**總覽**&#x200B;標籤會顯示Adobe Experience Platform檔案的連結，以協助您開始使用即時客戶個人檔案。 若要瞭解如何使用&#x200B;**設定檔儀表板**，以及有關儀表板中顯示之量度的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}。
 
-您可從多個來源將資料片段集合在一起並加以結合，以便查看每個客戶的完整檢視。彙總此資料時，合併原則是用來判斷資料優先順序的方式以及將合併哪些資料以建立統一檢視的規則。 在此[文件](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant){target="_blank"}深入了解&#x200B;**合併原則**。
+您可以將多個來源的資料片段放在一起，然後組合這些片段，即可檢視每個個別客戶的完整檢視。 彙總此資料時，合併原則是用來判斷資料優先順序的方式以及合併哪些資料以建立統一檢視的規則。 在此[檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant){target="_blank"}中進一步瞭解&#x200B;**合併原則**。
 
 ![](assets/profiles-home.png)
 
