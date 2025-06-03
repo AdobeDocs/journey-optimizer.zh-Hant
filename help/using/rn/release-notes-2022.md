@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+workflow-type: tm+mt
+source-wordcount: '3598'
 ht-degree: 100%
 
 ---
@@ -545,7 +545,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>您現在可以設定跨頻道的業務規則，這些業務規則將自動從訊息和動作中排除過度請求的輪廓。</p>
-<p>如需詳細資訊，請參閱<a href="../configuration/rule-sets.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../conflict-prioritization/rule-sets.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>

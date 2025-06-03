@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
-source-wordcount: '2044'
+source-wordcount: '1960'
 ht-degree: 14%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 14%
 
 第一次從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 商業規則]**&#x200B;功能表存取規則集時，預設規則集已預先建立且作用中： **全域預設規則集**。
 
-此規則集包含您可以套用的全域規則，以控制使用者跨一或多個通道接收訊息的頻率，類似於目前商業規則的運作方式。 此規則集中定義的所有規則都適用於所有選取的管道，不論通訊是從歷程或行銷活動傳送。 [瞭解如何使用商業規則](../configuration/rule-sets.md)
+此規則集包含您可以套用的全域規則，以控制使用者跨一或多個通道接收訊息的頻率，類似於目前商業規則的運作方式。 此規則集中定義的所有規則都適用於所有選取的管道，不論通訊是從歷程或行銷活動傳送。 [瞭解如何使用商業規則](../conflict-prioritization/rule-sets.md)
 
 除了此「全域預設規則集」規則集外，您還可以建立可套用至任何促銷活動的&#x200B;**自訂規則集**，以限制在該促銷活動中傳送的訊息數目。 [瞭解如何建立自訂規則集](#create)
 
@@ -63,10 +63,6 @@ ht-degree: 14%
 
 * **管道**&#x200B;網域：為通訊管道套用上限規則。 例如，每天傳送的電子郵件或簡訊請勿超過1個。
 * **歷程**&#x200B;網域：將專案與並行上限規則套用至歷程。 例如，請勿同時在多個歷程中輸入設定檔。
-
->[!AVAILABILITY]
->
->雖然&#x200B;**管道**&#x200B;網域規則集可供所有使用者使用，但&#x200B;**歷程**&#x200B;網域規則集僅供有限的使用者集使用（可用性限制）。 若要取得存取權，請聯絡您的 Adobe 代表。
 
 ## 建立您的第一個自訂規則集 {#create-rule-set}
 
@@ -87,10 +83,6 @@ ht-degree: 14%
 1. 選取規則集的網域。 網域可讓您指定規則集是否包含通訊通道或歷程專用的上限規則。 [進一步瞭解管道和歷程上限規則](#domain)
 
    ![](assets/rule-sets-create.png)
-
-   >[!AVAILABILITY]
-   >
-   >雖然&#x200B;**管道**&#x200B;網域規則集可供所有使用者使用，但&#x200B;**歷程**&#x200B;網域規則集僅供有限的使用者集使用（可用性限制）。 若要取得存取權，請聯絡您的 Adobe 代表。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
@@ -124,7 +116,7 @@ ht-degree: 14%
 >title="規則上限"
 >abstract="設定規則的頻率上限。根據規則集網域和「規則類型」欄位中的選擇，此欄位可以定義傳送至設定檔的訊息數量上限，或者設定檔可同時進入或註冊的歷程數量上限。"
 
-若要將規則新增至規則集，請存取規則集並按一下[新增規則]。**&#x200B;**
+若要將規則新增至規則集，請存取規則集並按一下[新增規則]。****
 
 規則可用的引數取決於建立時選取的規則集網域。
 
@@ -140,10 +132,6 @@ ht-degree: 14%
 
    ![](assets/rule-set-capping-duration.png)
 
-   >[!AVAILABILITY]
-   >
-   >「每日」期間僅適用於一組組織（可用性限制）。 若要取得存取權，請聯絡您的 Adobe 代表。
-
    每個期間的計數器到期日如下：
 
    * **[!UICONTROL 每月]**：頻率上限在每月最後一天23:59:59 UTC之前有效。 例如，1月的每月到期日為01-31 23:59:59 UTC。
@@ -154,7 +142,7 @@ ht-degree: 14%
 
      >[!CAUTION]
      > 
-     >為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的命名空間。在[平台身分服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}之中進一步了解命名空間優先順序
+     >為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的命名空間。請至[平台身分識別服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中，進一步了解命名空間的優先順序
 
    請注意，一旦傳遞通訊，設定檔計數器值就會更新。 當您傳送大量通訊時，請注意這一點，因為輸送量可能導致收件者在啟動通訊後數分鐘甚至數小時收到電子郵件（若您同時傳送數百萬封通訊）。
 
@@ -324,4 +312,4 @@ In this scenario, an individual profile:
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444737?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+workflow-type: tm+mt
+source-wordcount: '1440'
 ht-degree: 100%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 100%
 
   您也可以存取&#x200B;**報告**&#x200B;區段來設定行銷活動實驗的報告。[了解更多](../reports/reporting-configuration.md)
 
-* **[!UICONTROL 業務規則]** - 使用此部分來建立跨通路業務規則，以控制使用者接收訊息或進入歷程的頻率。 [了解更多](../configuration/rule-sets.md)
+* **[!UICONTROL 業務規則]** - 使用此部分來建立跨通路業務規則，以控制使用者接收訊息或進入歷程的頻率。 [了解更多](../conflict-prioritization/rule-sets.md)
 
 * **[!UICONTROL 警報]** - 使用者介面可讓您根據 Adobe Experience Platform 可檢視性深入解析顯示的指標查看收到警報的歷史記錄。UI 也可讓您檢視、啟用和停用可用的警報規則。 [了解更多](../reports/alerts.md)
 
@@ -262,5 +262,5 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
->title="定義決定原則"
->abstract="您可以利用決定原則，從決定引擎中挑選最佳項目，並將其傳遞給合適的客群。"
+>title="定義決策原則"
+>abstract="您可以利用決策原則，從決策引擎中挑選最佳項目，並將其傳遞給合適的客群。"

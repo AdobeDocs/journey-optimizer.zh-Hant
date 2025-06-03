@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+workflow-type: tm+mt
+source-wordcount: '6783'
 ht-degree: 100%
 
 ---
@@ -273,7 +273,7 @@ ht-degree: 100%
 
 ### 功能改進 {#24-10-improvements}
 
-此發行版本隨附下列改進項目。
+此發行版本隨附下列改善項目。
 
 **簡訊頻道**
 
@@ -473,7 +473,7 @@ ht-degree: 100%
 
 ### 功能改進 {#24-9-improvements}
 
-此發行版本隨附下列改進項目。
+此發行版本隨附下列改善項目。
 
 **對象** - 推出日期：2024 年 9 月 17 日
 
@@ -813,7 +813,7 @@ ht-degree: 100%
 
 ### 功能改進 {#june24-improvements}
 
-此發行版本隨附下列改進項目。
+此發行版本隨附下列改善項目。
 
 #### 決策管理
 
@@ -975,7 +975,7 @@ ht-degree: 100%
 
 ### 功能改進 {#e-improvements}
 
-此發行版本隨附下列改進項目。
+此發行版本隨附下列改善項目。
 
 **體驗決策** (限量)
 
@@ -1105,7 +1105,7 @@ ht-degree: 100%
 
 ### 功能改進 {#apr-improvements}
 
-此發行版本隨附下列改進項目。
+此發行版本隨附下列改善項目。
 
 <!--
 * **Expression Fragments supported for Web and In-App**: Expression fragments are now available for the Web and In-app channels. 
@@ -1167,7 +1167,7 @@ ht-degree: 100%
 
 ### 功能改進 {#mar-improvements}
 
-此發行版本隨附下列改進項目。
+此發行版本隨附下列改善項目。
 
 **內容範本**
 
@@ -1232,7 +1232,7 @@ ht-degree: 100%
 
 ### 功能改進 {#feb-improvements}
 
-此發行版本隨附下列改進項目。
+此發行版本隨附下列改善項目。
 
 **客群**
 
@@ -1266,7 +1266,7 @@ ht-degree: 100%
 
 **頻率規則**
 
-* 除了電子郵件及推播之外，您現在還可以為簡訊和直接郵件管道建立頻率規則。 當達到頻率上限時，頻率規則會自動從訊息和動作中排除過度請求的輪廓。[閱讀全文](../configuration/rule-sets.md)
+* 除了電子郵件及推播之外，您現在還可以為簡訊和直接郵件管道建立頻率規則。 當達到頻率上限時，頻率規則會自動從訊息和動作中排除過度請求的輪廓。[閱讀全文](../conflict-prioritization/rule-sets.md)
 
 <!--**Decision management**
 
@@ -1316,7 +1316,7 @@ ht-degree: 100%
 
 ### 功能改進 {#jan24-improvements}
 
-此發行版本隨附下列改進項目。
+此發行版本隨附下列改善項目。
 
 **報告**
 
@@ -1342,7 +1342,7 @@ ht-degree: 100%
 
 **頻率規則**
 
-* **每週頻率上限** - 除了以月為單位之外，您現在可以指定一週內所能傳送給客戶輪廓的訊息數量上限。頻率上限是以所選的行事曆期間為基礎，並會在對應的時間段開始時重設。 [了解更多](../configuration/rule-sets.md)
+* **每週頻率上限** - 除了以月為單位之外，您現在可以指定一週內所能傳送給客戶輪廓的訊息數量上限。頻率上限是以所選的行事曆期間為基礎，並會在對應的時間段開始時重設。 [了解更多](../conflict-prioritization/rule-sets.md)
 
   >[!NOTE]
   >

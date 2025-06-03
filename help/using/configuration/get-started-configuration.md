@@ -9,7 +9,7 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 設定、配置、訊息、通道、沙箱、最佳化程式
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 54%
@@ -60,6 +60,6 @@ ht-degree: 54%
 
    * 啟用 **BBC電子郵件選項**，保留傳送給個人的訊息副本。 [了解更多](archiving-support.md#enable-bcc)
 
-   * 設定&#x200B;**商業規則**&#x200B;以避免過度向收件者請求。 [了解更多](../configuration/rule-sets.md)
+   * 設定&#x200B;**商業規則**&#x200B;以避免過度向收件者請求。 [了解更多](../conflict-prioritization/rule-sets.md)
 
    * 當 Adobe Experience Platform 有多個位址/號碼可用時，請確定收件者優先使用哪個電子郵件位址和/或電話號碼。[了解更多](primary-email-addresses.md)

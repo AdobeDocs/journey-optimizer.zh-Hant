@@ -3,20 +3,15 @@ title: 歷程上限與仲裁
 description: 瞭解如何為歷程建立上限規則，以及如何仲裁歷程專案
 role: User
 level: Beginner
-badge: label="有限可用性"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 25%
+source-wordcount: '910'
+ht-degree: 19%
 
 ---
 
 # 歷程上限與仲裁 {#journey-capping}
-
->[!AVAILABILITY]
->
->衝突與優先順序功能目前僅對特定客戶群組提供有限的可用性。 請注意，未來將會向更多使用者逐步推出以上功能。 如果您有興趣加入上述功能的等候名單，請洽詢客戶團隊。
 
 歷程上限可幫助您限制設定檔可註冊的歷程次數，防止通訊過載。 在Journey Optimizer中，您可以設定兩種型別的上限規則：
 
@@ -24,10 +19,6 @@ ht-degree: 25%
 * **並行上限**&#x200B;會限制設定檔可同時註冊的歷程數。
 
 這兩種型別的歷程上限都利用優先順序分數來仲裁專案。
-
->[!AVAILABILITY]
->
->**歷程**&#x200B;網域規則集僅供有限的使用者集使用（可用性限制）。 若要取得存取權，請聯絡您的 Adobe 代表。
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -57,59 +48,49 @@ ht-degree: 25%
 
      ![](assets/journey-capping-rule-set.png)
 
-1. 在規則集畫面中，按一下&#x200B;**[!UICONTROL 新增規則]**&#x200B;按鈕，然後設定符合您需求的規則：
+1. 在規則集畫面中，按一下&#x200B;**[!UICONTROL 新增規則]**&#x200B;按鈕，然後提供規則的唯一名稱。
+
+1. 在&#x200B;**[!UICONTROL 規則型別]**&#x200B;下拉式清單中，指定規則的上限型別。
+
+   * **[!UICONTROL 歷程專案上限]**：限制設定檔在指定期間內進入歷程的專案數。
+   * **[!UICONTROL 歷程並行上限]**：限制設定檔可同時註冊的歷程數。
 
    ![](assets/journey-capping-concurrency.png)
 
-   * 為規則提供唯一名稱。
+1. 展開下列各節以瞭解如何設定每種型別的上限：
 
-   * 在&#x200B;**[!UICONTROL 規則型別]**&#x200B;下拉式清單中，指定規則的上限型別。
+   +++設定歷程專案上限規則
 
-      * **[!UICONTROL 歷程專案上限]**：限制設定檔在指定期間內進入歷程的專案數。
-      * **[!UICONTROL 歷程並行上限]**：限制設定檔可同時註冊的歷程數。
+   1. 在&#x200B;**[!UICONTROL 上限]**&#x200B;欄位中，設定設定檔可輸入的歷程數目上限。
+   1. 在&#x200B;**[!UICONTROL 期間]**&#x200B;欄位中，定義要考慮的時間段。 請注意，持續時間是根據UTC時區。 例如，每日上限將在UTC午夜重設。
 
-   * 展開下列各節以瞭解如何設定每種型別的上限：
+   在此範例中，我們要限制設定檔在一個月內輸入超過「5」個歷程。
 
-     +++設定歷程專案上限規則
+   ![](assets/journey-capping-entry-example.png)
 
-      1. 在&#x200B;**[!UICONTROL 上限]**&#x200B;欄位中，設定設定檔可輸入的歷程數目上限。
-      1. 在&#x200B;**[!UICONTROL 期間]**&#x200B;欄位中，定義要考慮的時間段。 請注意，持續時間是根據UTC時區。 例如，每日上限將在UTC午夜重設。
+   >[!NOTE]
+   >
+   >系統會考量套用此相同規則之即將排程歷程的優先順序。
+   >
+   >在此範例中，如果行銷人員已輸入4個歷程，而本月有另一個具有較高優先順序的即將排程歷程，則會抑制客戶進入較低優先順序的歷程。
 
-     >[!AVAILABILITY]
-     >
-     >「每日」期間僅適用於一組組織（可用性限制）。 若要取得存取權，請聯絡您的 Adobe 代表。
++++
 
-     在此範例中，我們要限制設定檔在一個月內輸入超過「5」個歷程。
+   +++設定歷程並行上限規則
 
-     ![](assets/journey-capping-entry-example.png)
+   1. 在&#x200B;**[!UICONTROL 上限]**&#x200B;欄位中，設定設定檔可同時註冊的歷程數上限。
 
-     >[!NOTE]
-     >
-     >系統會考量套用此相同規則之即將排程歷程的優先順序。
-     >
-     >在此範例中，如果行銷人員已輸入4個歷程，而本月有另一個具有較高優先順序的即將排程歷程，則會抑制客戶進入較低優先順序的歷程。
+   1. 使用&#x200B;**[!UICONTROL 優先順序檢視]**&#x200B;欄位，根據所選期間（例如1天、7天、30天）的優先順序分數仲裁歷程專案。 如果設定檔符合多個歷程的資格，這有助於排定進入較高價值歷程的優先順序。
 
-     +++
+   在此範例中，如果設定檔已註冊到包含相同規則集的另一個歷程，我們會限制設定檔進入歷程。 如果未來7天內的另一個歷程有較高的優先順序分數，則設定檔不會進入此歷程。
 
-     +++設定歷程並行上限規則
+   ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
-      1. 在&#x200B;**[!UICONTROL 上限]**&#x200B;欄位中，設定設定檔可同時註冊的歷程數上限。
++++
 
-      1. 使用&#x200B;**[!UICONTROL 優先順序檢視]**&#x200B;欄位，根據所選期間（例如1天、7天、30天）的優先順序分數仲裁歷程專案。 如果設定檔符合多個歷程的資格，這有助於排定進入較高價值歷程的優先順序。
+1. 重複上述步驟，視需求將任意數量的規則新增至規則集。
 
-     在此範例中，如果設定檔已註冊到包含相同規則集的另一個歷程，我們會限制設定檔進入歷程。 如果未來7天內的另一個歷程有較高的優先順序分數，則設定檔不會進入此歷程。
-
-     ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
-
-     +++
-
-1. 當上限規則準備好套用至歷程時，請按一下其名稱旁邊的省略符號按鈕以啟動它。
-
-   ![](assets/journey-capping-activate-rule.png)
-
-1. 按一下畫面右上角「新增規則」按鈕旁的省略符號按鈕，啟動整個規則集。
-
-   ![](assets/journey-capping-activate-rule-set.png)
+1. 當上限規則準備好套用至歷程時，請啟動已新增該規則的規則和規則集。 [瞭解如何啟用規則集](../conflict-prioritization/rule-sets.md#create)
 
 ## 將頻率上限規則套用至歷程 {#apply-capping}
 
@@ -122,14 +103,18 @@ ht-degree: 25%
 
 ![](assets/journey-capping-apply.png)
 
->[!IMPORTANT]
+>[!NOTE]
 >
->如果立即啟動歷程，系統最多可能需要20分鐘才能開始抑制客戶。 為了防止這種可能性，您可以將歷程排程為至少未來20分鐘開始。
+>如果立即啟動歷程，系統最多可能需要10分鐘才能開始抑制客戶。 因此，如果您嘗試發佈開始時間少於10分鐘的歷程，則會顯示訊息。
 
-歷程上線後，如果規則集導致在&#x200B;**[!UICONTROL 歷程排除]**&#x200B;表格中從歷程排除任何專案，您可以簽入歷程報告。 [瞭解如何使用歷程報告](../reports/journey-global-report-cja.md)
+## 監視規則集排除 {#monitor}
+
+歷程上線後，如果規則集導致在&#x200B;**[!UICONTROL 歷程排除]**&#x200B;表格中從歷程排除任何專案，您可以簽入歷程報告。 「歷程排除專案」表格包含依規則集和規則名稱的排除專案詳細劃分，深入分析設定檔遭到捨棄的原因。 [瞭解如何使用歷程報告](../reports/journey-global-report-cja.md)
 
 ![](assets/journey-report.png)
 
+此外，您也可以利用Adobe Experience Platform **查詢服務**&#x200B;來建立查詢，以識別導致設定檔無法進入指定歷程的規則。 [此區段](../reports/query-examples.md#common-queries)中有查詢範例。
+
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447626?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
