@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
 workflow-type: tm+mt
-source-wordcount: '2406'
-ht-degree: 98%
+source-wordcount: '2411'
+ht-degree: 96%
 
 ---
 
@@ -175,36 +175,33 @@ ht-degree: 98%
          + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
          + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
 + 協調的行銷活動 {#orchestrated-campaigns}
-   + [開始使用協調行銷活動](using/ms/gs-ms-campaigns.md)
-   + [主要原則](using/ms/gs-campaign-creation.md)
-   + [建立協調行銷活動的步驟](using/ms/gs-campaign-steps.md)
-   + 設定步驟 {#ms-config}
-      + [建立相關結構](using/ms/ms-schemas.md)
-   + 建立步驟{#create-ms-campaign}
-      + [建立協調行銷活動](using/ms/create-ms-campaign.md)
-      + [設定行銷活動設定](using/ms/ms-campaign-settings.md)
-      + [安排時程，並開始投放行銷活動](using/ms/start-monitor-campaigns.md)
-      + [建置查詢](using/ms/ms-query-modeler.md)
-   + 活動 {#design-campaigns}
-      + [開始使用活動](using/ms/activities/about-activities.md)
-      + [協調活動](using/ms/orchestrate-activities.md)
-      + [合併連結](using/ms/activities/and-join.md)
-      + [建置客群](using/ms/activities/build-audience.md)
-      + [變更維度](using/ms/activities/change-dimension.md)
-      + [合併](using/ms/activities/combine.md)
-      + [重複資料刪除](using/ms/activities/deduplication.md)
-      + [擴充](using/ms/activities/enrichment.md)
-      + [分支](using/ms/activities/fork.md)
-      + [調和](using/ms/activities/reconciliation.md)
-      + [分割](using/ms/activities/split.md)
-      + [測試](using/ms/activities/test.md)
-      + [等待](using/ms/activities/wait.md)
-   + 訊息 {#messages}
-      + [頻道動作](using/ms/activities/channels.md)
-      + [將內容個人化](using/ms/ms-personalization.md)
-      + [測試並驗證訊息](using/ms/ms-proofs.md)
-   + 報告與監視 {#report}
-      + [報告](using/ms/reporting-campaigns.md)
+   + [開始使用協調行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
+   + [設定步驟](using/orchestrated/configuration-steps.md)
+   + [協調行銷活動建立的關鍵步驟](using/orchestrated/gs-campaign-creation.md)
+   + 啟動您的第一個協調行銷活動{#launch}
+      + [建立協調行銷活動](using/orchestrated/create-orchestrated-campaign.md)
+      + [協調活動](using/orchestrated/orchestrate-activities.md)
+      + [使用協調的行銷活動傳送訊息](using/orchestrated/send-messages.md)
+      + [開始和監視行銷活動](using/orchestrated/start-monitor-campaigns.md)
+      + [報告](using/orchestrated/reporting-campaigns.md)
+   + 查詢資料庫 {#query-database}
+      + [使用查詢Modeler](using/orchestrated/orchestrated-query-modeler.md)
+      + [建置您的第一個查詢](using/orchestrated/build-query.md)
+      + [編輯運算式](using/orchestrated/edit-expressions.md)
+   + 協調的行銷活動活動 {#design-campaigns}
+      + [開始使用活動](using/orchestrated/activities/about-activities.md)
+      + [合併連結](using/orchestrated/activities/and-join.md)
+      + [建置客群](using/orchestrated/activities/build-audience.md)
+      + [變更維度](using/orchestrated/activities/change-dimension.md)
+      + [合併](using/orchestrated/activities/combine.md)
+      + [重複資料刪除](using/orchestrated/activities/deduplication.md)
+      + [擴充](using/orchestrated/activities/enrichment.md)
+      + [分支](using/orchestrated/activities/fork.md)
+      + [調和](using/orchestrated/activities/reconciliation.md)
+      + [分割](using/orchestrated/activities/split.md)
+      + [測試](using/orchestrated/activities/test.md)
+      + [等待](using/orchestrated/activities/wait.md)
+      + [管道活動](using/orchestrated/activities/channels.md)
 + 行銷活動 {#campaigns}
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
    + [建立行銷活動](using/campaigns/create-campaign.md)
