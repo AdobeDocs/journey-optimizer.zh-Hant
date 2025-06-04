@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+source-git-commit: c46c202d68613f08e2d2b23ea882fb6561669b08
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 27%
@@ -30,7 +30,7 @@ ht-degree: 27%
 
 | 歡迎使用協調的行銷活動 | 啟動您的第一個協調行銷活動 | 查詢資料庫 | 協調的行銷活動活動 |
 |---|---|---|---|
-| [開始使用協調的行銷活動](gs-orchestrated-campaigns.md)<br/><br/>[設定步驟](configuration-steps.md)<br/><br/>[建立協調行銷活動的重要步驟](gs-campaign-creation.md) | [建立協調的行銷活動](create-orchestrated-campaign.md)<br/><br/>[協調活動](orchestrate-activities.md)<br/><br/>[使用協調的行銷活動傳送訊息](send-messages.md)<br/><br/>[開始並監視行銷活動](start-monitor-campaigns.md)<br/><br/>[報告](reporting-campaigns.md) | [使用查詢Modeler](orchestrated-query-modeler.md)<br/><br/>[建置您的第一個查詢](build-query.md)<br/><br/>[編輯運算式](edit-expressions.md) | [開始使用活動](activities/about-activities.md)<br/><br/>活動：<br/>[並加入](activities/and-join.md) - [建置對象](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [調解](activities/reconciliation.md) - [分割](activities/split.md) - [等待](activities/wait.md) |
+| [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>[設定步驟](../configuration-steps.md)<br/><br/>[建立協調行銷活動的重要步驟](../gs-campaign-creation.md) | [建立協調的行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/>[使用協調的行銷活動傳送訊息](../send-messages.md)<br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用查詢Modeler](../orchestrated-query-modeler.md)<br/><br/>[建置您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/>[並加入](and-join.md) - [建置對象](build-audience.md) - [變更維度](change-dimension.md) - [合併](combine.md) - [重複資料刪除](/deduplication.md) - [擴充](enrichment.md) - [分支](fork.md) - [調解](reconciliation.md) - [分割](split.md) - [等待](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -54,7 +54,7 @@ ht-degree: 27%
 
    ![](../assets/workflow-test-default.png)
 
-1. 您可以新增多個輸出轉變到&#x200B;**[!UICONTROL 測試]**&#x200B;活動。 若要這麼做，請按一下&#x200B;**[!UICONTROL 新增條件]**&#x200B;按鈕，並為每個轉變設定標籤和相關聯的條件。
+1. 您可以新增多個輸出轉變到&#x200B;**[!UICONTROL 測試]**&#x200B;活動。 若要這麼做，請按一下&#x200B;**[!UICONTROL 新增條件]**按鈕，並為每個轉變設定標籤和相關聯的條件。
 v
 1. 在協調的行銷活動執行期間，將循序測試每個條件，直至滿足其中一個條件。如果未符合任何條件，則協調的行銷活動會沿著&#x200B;**[!UICONTROL 預設條件]**&#x200B;的路徑繼續。 如果沒有啟用預設條件，工作流程將在此時停止。
 
