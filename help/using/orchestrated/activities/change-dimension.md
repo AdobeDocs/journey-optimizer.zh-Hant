@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 19%
@@ -36,7 +36,7 @@ ht-degree: 19%
 
 +++
 
-<br/><br/>
+<br/>
 
 行銷人員可以在協調的行銷活動中，將目標維度從一個實體切換至另一個連結的實體，並根據不同的資料集調整對象目標，例如從設定使用者到將其特定動作或預訂做為目標。
 

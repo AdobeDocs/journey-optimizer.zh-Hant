@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b0125a50-d187-49fc-ad12-bbe6650f8f1e
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 34%
@@ -26,7 +26,7 @@ ht-degree: 34%
 
 +++
 
-<br/><br/>
+<br/>
 
 結構描述可表示並驗證資料的結構和格式。它提供了現實世界物件 (例如人員) 的抽象定義，並概述了該物件的每個實例中應包含哪些資料 (例如姓名、生日等)。
 

@@ -6,13 +6,13 @@ description: 瞭解如何為您的協調行銷活動建立查詢
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 3%
 
 ---
-
 
 # 為您協調的行銷活動建立查詢 {#orchestrated-create-queries}
 
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 +++
 
-<br/><br/>
+<br/>
 
 >[!BEGINSHADEBOX]
 

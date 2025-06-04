@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 36%
@@ -31,7 +31,7 @@ ht-degree: 36%
 
 +++
 
-<br/><br/>
+<br/>
 
 「**擴充**」活動是一種「**目標定位**」活動。此活動可讓您使用資料庫中的其他資訊來增強目標資料。這通常會用於分段活動之後的工作流程。
 
@@ -185,7 +185,7 @@ ht-degree: 36%
 在協調的行銷活動中，如果您想要使用在傳送中從擴充活動取得的選件，請遵循下列步驟：
 
 1. 開啟傳送活動，然後前往內容版本。 按一下&#x200B;**[!UICONTROL 優惠方案設定]**&#x200B;按鈕，然後在下拉式清單中選取與您的優惠方案對應的&#x200B;**[!UICONTROL 優惠方案空間]**。
-如果您只想檢視擴充活動的優惠方案，請將&#x200B;**[!UICONTROL 建議]**&#x200B;的數目設為0，然後儲存修改。
+如果您只想檢視擴充活動的優惠方案，請將**[!UICONTROL 建議]**&#x200B;的數目設為0，然後儲存修改。
 
    ![](../assets/offers-settings.png)
 

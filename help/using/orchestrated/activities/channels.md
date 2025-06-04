@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 44%
@@ -26,7 +26,7 @@ ht-degree: 44%
 
 +++
 
-<br/><br/>
+<br/>
 
 Adobe Journey Optimizer可讓您跨傳入和傳出頻道自動執行行銷活動。 您可以將頻道活動結合到協調的行銷活動畫布中，以建立跨頻道協調的行銷活動，其可根據客戶行為和資料觸發動作。 支援的管道列於[此頁面](../../channels/gs-channels.md)。
 
