@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 01fbf78d15e620fa7b540e3a1a6972949a0c4795
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 39%
+source-wordcount: '621'
+ht-degree: 34%
 
 ---
 
@@ -50,12 +50,9 @@ ht-degree: 39%
 
 **調解**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動，可讓您定義Adobe Journey Optimizer中的資料與工作表中的資料之間的連結，例如從外部檔案載入的資料。
 
-## 最佳作法 {#reconciliation-best-practices}
+擴充活動可讓您將其他資料新增至您的協調行銷活動，例如，合併來自多個來源的資料或連結至暫時資源。 相對地，調解活動用於比對未識別或外部資料與資料庫中的現有資源。
 
-雖然&#x200B;**擴充**&#x200B;活動可讓您定義要在您的協調行銷活動中處理的其他資料（您可以使用&#x200B;**擴充**&#x200B;活動來合併來自多組資料，或建立臨時資源的連結），但&#x200B;**調解**&#x200B;活動可讓您將未識別的資料連結到現有資源。
-
->[!NOTE]
->調解作業表示連結維度的資料已在資料庫中。  例如，如果您匯入購買檔案，顯示何時購買了哪些產品、哪個客戶等，則產品和客戶必須已存在於資料庫中。
+調解需要系統中已存在相關記錄。 例如，如果您匯入列有產品、時間戳記和客戶資訊的購買檔案，產品和客戶必須已存在於資料庫中才能建立連結。
 
 ## 設定調和活動 {#reconciliation-configuration}
 
@@ -74,7 +71,7 @@ ht-degree: 39%
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="選取目標市場選擇維度"
 >abstract="選取要調和之輸入資料的目標市場選擇維度。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=zh-Hant&#targeting-dimensions" text="目標市場選擇維度"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?#targeting-dimensions" text="目標市場選擇維度"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
