@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 54d8b2fb-745d-459c-85d6-c224aa5e352e
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '148'
 ht-degree: 6%
 
 ---
@@ -26,4 +26,11 @@ ht-degree: 6%
 
 +++
 
-身為行銷活動經理，您可以傳送個人化訊息的&#x200B;**校訂版本**&#x200B;給預先定義的內部稽核者清單，確保所有內容、個人化和連結在完整版推出前皆如預期般運作。
+<br/><br/>
+
+>[!BEGINSHADEBOX]
+
+檔案處理中
+
+>[!ENDSHADEBOX]
+>身為行銷活動經理，您可以傳送個人化訊息的**校訂版本**&#x200B;給預先定義的內部稽核者清單，確保所有內容、個人化和連結在完整版推出前皆如預期般運作。

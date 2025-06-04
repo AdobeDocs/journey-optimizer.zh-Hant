@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
 source-wordcount: '1116'
 ht-degree: 26%
@@ -30,6 +30,8 @@ ht-degree: 26%
 {style="table-layout:fixed"}
 
 +++
+
+<br/><br/>
 
 在畫布中建立協調行銷活動或協調行銷活動時，您可以存取與協調行銷活動相關的進階設定。 例如，您可以為協調的行銷活動設定特定時區、管理協調的行銷活動在發生錯誤時的行為方式，或管理應清除協調的行銷活動歷史記錄的延遲時間。
 

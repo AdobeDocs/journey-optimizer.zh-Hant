@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -25,6 +25,8 @@ ht-degree: 1%
 {style="table-layout:fixed"}
 
 +++
+
+<br/><br/>
 
 一旦您[建立協調的行銷活動](gs-campaign-creation.md)後，無論是從協調的行銷活動功能表還是在行銷活動中，您都可以開始協調它將執行的不同工作。 為此，我們提供視覺畫布，讓您建構協調的行銷活動圖表。 在此圖表中，您可以新增各種活動，並依序連線它們。
 

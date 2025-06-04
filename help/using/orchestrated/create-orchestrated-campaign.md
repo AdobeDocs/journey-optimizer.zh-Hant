@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 17%
@@ -16,6 +16,11 @@ ht-degree: 17%
 
 
 # 建立協調行銷活動 {#create-first-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_creation_workflow"
+>title="協調的行銷活動清單"
+>abstract="「**多步驟**」索引標籤列出所有協調的行銷活動。按一下協調的行銷活動的名稱即可編輯。使用「**建立協調的行銷活動**」按鈕新增新的協調的行銷活動。"
 
 +++ 目錄
 
@@ -27,10 +32,7 @@ ht-degree: 17%
 
 +++
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_creation_workflow"
->title="協調的行銷活動清單"
->abstract="「**多步驟**」索引標籤列出所有協調的行銷活動。按一下協調的行銷活動的名稱即可編輯。使用「**建立協調的行銷活動**」按鈕新增新的協調的行銷活動。"
+<br/><br/>
 
 ## 建立行銷活動
 

@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '160'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,13 @@ ht-degree: 2%
 
 +++
 
-*進行中*
+<br/><br/>
+
+>[!BEGINSHADEBOX]
+
+檔案處理中
+
+>[!ENDSHADEBOX]
 
 協調的行銷活動隨附查詢模型工具，可簡化根據各種條件篩選資料庫的程式。 查詢模組化工具會有效率地管理非常複雜和冗長的查詢，提供增強的彈性和精確度。 它也支援條件內的預先定義篩選器，讓使用者能夠輕鬆調整查詢，同時利用進階運算式和運運算元實現全面的受眾目標定位和細分策略。
 

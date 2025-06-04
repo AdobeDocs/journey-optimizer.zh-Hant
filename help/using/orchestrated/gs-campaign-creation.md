@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 27%
@@ -31,6 +31,8 @@ ht-degree: 27%
 {style="table-layout:fixed"}
 
 +++
+
+<br/><br/>
 
 您可以將協調的行銷活動建置到視覺畫布中，以設計跨管道流程，例如細分、行銷活動執行、檔案處理。
 
