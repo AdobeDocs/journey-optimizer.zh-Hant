@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 52226a4374fa6321b31ac2d57f76a48594df1c51
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 59%
+source-wordcount: '216'
+ht-degree: 27%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 59%
 >id="ajo_orchestration_fork"
 >title="分支活動"
 >abstract="**分支**&#x200B;活動可讓您建立傳出轉變，以同時啟動多個活動。"
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_fork_transitions"
@@ -39,7 +38,7 @@ ht-degree: 59%
 
 <br/>
 
-「**分支**」活動是一種&#x200B;**流程控制**&#x200B;活動。其可讓您建立出站轉變，以同時啟動多個活動。
+**Fork**&#x200B;活動是&#x200B;**流量控制**&#x200B;元件，可讓您建立多個輸出轉變，讓多個活動平行執行。
 
 ## 設定分叉活動{#fork-configuration}
 
@@ -48,14 +47,11 @@ ht-degree: 59%
 ![](../assets/workflow-fork.png)
 
 1. 將&#x200B;**分支**&#x200B;活動新增至您協調的行銷活動。
-1. 若要新增傳出轉變，請按一下「**新增轉變**」。預設情況下，會定義兩種轉變。
-1. 對每種轉變新增標籤。
 
-## 範例{#fork-example}
+1. 定義&#x200B;**標籤**。
 
-在下面的範例中，我們會使用兩種&#x200B;**分支**&#x200B;活動：
+1. 為每個出站轉變指派標籤。 依預設，會提供兩個轉變。
 
-* 一個在兩個查詢之前，以同時執行查詢。
-* 一個在交集之後，以同時傳送電子郵件和簡訊給目標群體。
+1. 若要移除轉變，請按一下![](../assets/do-not-localize/Smock_Delete_18_N.svg)圖示。
 
-![](../assets/workflow-fork-example.png)
+1. 如有需要，請按一下&#x200B;**新增轉變**&#x200B;以新增額外的輸出轉變。
