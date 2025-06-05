@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: b240d815826cd87b40cf0ed7dde9c9a28822dcba
+source-git-commit: 42c57cc8e6bd6a84495738fb987b271743c0dea7
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '732'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,11 @@ ht-degree: 1%
 
 可新增至圖表的活動清單隨即顯示。 可用的活動取決於您在協調的行銷活動圖表中的位置。 例如，新增第一個活動時，您可以透過鎖定對象、分割協調的行銷活動路徑或設定&#x200B;**等待**&#x200B;活動以延遲協調的行銷活動執行，來開始協調的行銷活動。 另一方面，在&#x200B;**建立對象**&#x200B;活動後，您可以調整目標定位活動、傳送傳遞至具有頻道活動的對象，或組織具有流量控制活動的協調行銷活動程式。
 
-![](assets/workflow-start.png){zoomable="yes"}
+![](assets/orchestrated-start.png){zoomable="yes"}
 
 將活動新增到圖表後，右側窗格會出現，可讓您使用特定設定來設定新新增的活動。 有關如何設定每個活動的詳細資訊，請參閱[本節](activities/about-activities.md)。
 
-![](assets/workflow-configure-activities.png){zoomable="yes"}
+![](assets/orchestrated-configure-activities.png){zoomable="yes"}
 
 重複此程式，根據您想要協調的行銷活動執行的工作，視需要新增儘可能多的活動。 請注意，您也可以在兩個活動之間插入新活動。 若要這麼做，請按一下活動之間轉變上的&#x200B;**+**&#x200B;按鈕，選取所需的活動，並在右窗格中設定它。
 
@@ -60,7 +60,7 @@ ht-degree: 1%
 * **縮小** / **放大**：縮小或進入畫布。
 * **顯示地圖**：開啟顯示您所在位置的畫布快照。
 
-![](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
+![](assets/orchestrated-toolbar.png){zoomable="yes"}{width="50%"}
 
 ## 管理活動 {#manage}
 
@@ -74,8 +74,6 @@ ht-degree: 1%
 * **停用/啟用**&#x200B;活動。 執行協調的行銷活動時，停用的活動以及相同路徑上的下列活動不會執行，且協調的行銷活動會停止。
 * **暫停/繼續**&#x200B;活動。 執行協調的行銷活動時，會在暫停的活動中暫停。 系統不會執行對應的任務，以及在相同路徑中跟隨著該任務的所有任務。
 * **複製**&#x200B;活動。 請參閱[本節](#copy)。
-* **將**&#x200B;活動及其所有子節點移至另一個轉變。 請參閱[此節](#move)
-* 存取活動的&#x200B;**執行選項**。
 * 存取活動的&#x200B;**記錄檔與工作**。
 
 若干&#x200B;**目標定位**&#x200B;活動（例如&#x200B;**合併**&#x200B;或&#x200B;**重複資料刪除**），可讓您處理剩餘母體，並將其納入其他出站轉變中。 例如，如果您使用&#x200B;**分割**&#x200B;活動，則補數包含不符合任何先前定義之子集的母體。 若要使用此功能，請啟動&#x200B;**產生補充**&#x200B;選項。
@@ -90,75 +88,79 @@ ht-degree: 1%
 
 * 使用動作按鈕複製一個活動。
 
-  ![](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
+  ![](assets/orchestrated-copy-1.png){zoomable="yes"}{width="70%"}
 
 * 使用工具列按鈕複製多個活動。
 
-  ![](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
+  ![](assets/orchestrated-copy-2.png){zoomable="yes"}{width="70%"}
 
 若要貼上複製的活動，請按一下轉變上的&#x200B;**+**&#x200B;按鈕，然後選取「貼上X活動」。
 
-![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
+![](assets/orchestrated-copy-3.png){zoomable="yes"}{width="50%"}
 
-### 移動活動及其子節點 {#move}
+<!--
+### Move activities and their child nodes {#move}
 
-Journey Optimizer可讓您將活動及其子節點的全部內容（包括其內的所有轉變和活動）移動到相同協調行銷活動內另一個轉變的結尾。
+Journey Optimizer allows you to move an activity, along with the entire content of its child nodes (including all transitions and activities within it) to the end of another transition within the same orchestrated campaign.
 
-此程式會中斷活動及其出站轉變中所有專案與初始位置的連線，並將其移至新的目標轉變。
+This process disconnects the activity and everything in its outbound transition from the initial location, moving it to the new target transition.
 
-若要移動活動：
+To move an activity:
 
-1. 選取您要移動的活動。
-1. 在活動的屬性窗格中，按一下&#x200B;**移動**&#x200B;按鈕。
-1. 選取您要放置活動及其出站轉變的轉變，然後確認。
+1. Select the activity you wish to move.
+1. In the activity's properties pane, click the **Move** button.
+1. Select the transition where you want to place the activity and its outbound transition, then confirm.
 
 ![](assets/activity-move.png)
 
-## 執行選項 {#execution}
 
-所有活動均可讓您管理其執行選項。 選取活動並按一下&#x200B;**執行選項**&#x200B;按鈕。 這可讓您定義活動的執行模式和發生錯誤時的行為。
+## Execution options {#execution}
+
+All activities allow you to manage their execution options. Select an activity and click on the **Execution options** button. This lets you define the activity's execution mode and behavior in case of errors.
 
 ![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
-### 屬性
 
-**執行**&#x200B;欄位可讓您定義工作啟動時要執行的動作。
+### Properties
 
-**最長執行期間**&#x200B;欄位可讓您指定期間，例如&quot;30s&quot;或&quot;1h&quot;。 如果活動在指定的持續時間過後仍未完成，則會觸發警報。 這對協調的行銷活動運作方式沒有影響。
+The **Execution** field allows you to define the action to be carried out when the task is started.
 
-**時區**&#x200B;欄位可讓您選取活動的時區。 Adobe Journey Optimizer可讓您在同一例項上管理多個國家/地區之間的時間差異。 套用的設定會在建立執行個體時進行設定。
+The **Maximum execution duration** field allows you to specify a duration such as "30s" or "1h". If the activity is not finished after the duration specified has been elapsed, an alert is triggered. This has no impact on how the orchestrated campaign functions.
 
-**Affinity**&#x200B;欄位可讓您強制在特定電腦上執行協調的行銷活動或協調的行銷活動。 若要這麼做，您必須為相關協調的行銷活動或活動指定一或多個相關性。
+The **Time zone** field allows you to select the time zone of the activity. Adobe Journey Optimizer allows you to manage the time differences between multiple countries on the same instance. The setting applied is configured when the instance is created.
 
-**行為**&#x200B;欄位可讓您定義在使用非同步工作時要遵循的程式。
+**The Affinity** field allows you to force an orchestrated campaign or an orchestrated campaign activity to execute on a particular machine. To do this, you must specify one or several affinities for the orchestrated campaign or activity in question.
 
-### 錯誤管理
+The **Behavior** field allows you to define the procedure to follow if asynchronous tasks are used.
 
-**發生錯誤**&#x200B;欄位可讓您指定活動發生錯誤時要執行的動作。
+### Error management
 
-### 初始化指令碼
+The **In case of error** field allows you to specify the action to be carried out should the activity encounter an error.
 
-**初始化指令碼**&#x200B;可讓您初始化變數或修改活動屬性。 按一下&#x200B;**編輯程式碼**&#x200B;按鈕，然後輸入要執行的程式碼片段。 當活動執行時，會呼叫指令碼。
+### Initialization script
 
-## 範例 {#example}
+The **Initialization script** lets you initialize variables or modify activity properties. Click the **Edit code** button and type the snippet of code to execute. The script is called when the activity executes. 
 
-以下是經過協調的行銷活動範例，專為傳送電子郵件給所有對咖啡機感興趣的客戶(VIP客戶除外)所設計。
+## Example {#example}
+
+Here is an orchestrated campaign example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
 
 ![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
 
-為達成此目的，已新增下列活動：
+To achieve this, activities below have been added:
 
-* **[!UICONTROL 分支]**&#x200B;活動，將協調的行銷活動分成三個路徑（每組客戶各一個），
-* **[!UICONTROL 建立對象]**&#x200B;活動，以鎖定三組客戶：
+* A **[!UICONTROL Fork]** activity that divides the orchestrated campaign into three paths (one for each set of customer),
+* **[!UICONTROL Build audience]** activities to target the three sets of customers:
 
-   * 擁有電子郵件的客戶，
-   * 屬於既有「感興趣的咖啡機」受眾的客戶，
-   * 屬於既有「VIP或獎勵」對象的客戶。
+    * Customers with an email,
+    * Customers belonging to the pre-existing "Interrested in Coffee Machine(s)" audience,
+    * Customers belonging to the pre-existing "VIP ro reward" audience.
 
-* **[!UICONTROL 合併]**&#x200B;活動，將電子郵件和咖啡機愛好者的客戶分組，
-* 排除VIP客戶的&#x200B;**[!UICONTROL 合併]**&#x200B;活動，
-* **[!UICONTROL 電子郵件傳遞]**&#x200B;活動，會傳送電子郵件給產生的客戶。
+* A **[!UICONTROL Combine]** activity that groups together customers with an email and those interested in coffee machines,
+* A **[!UICONTROL Combine]** activity that excludes VIP customers,
+* An **[!UICONTROL Email delivery]** activity that sends an email to the resulting customers. 
 
-完成協調的行銷活動後，在圖表結尾新增&#x200B;**[!UICONTROL End]**&#x200B;活動。 此活動可讓您以視覺化方式標示工作流程的結尾，而不會對功能造成影響。
+Once you have completed the orchestrated campaign, add en **[!UICONTROL End]** activity at the end of the diagram. This activity allow you to visually mark the end of a workflow and has no functional impact.
 
-成功設計協調的行銷活動圖表後，您可以執行協調的行銷活動並追蹤其各種任務的進度。 [瞭解如何開始協調的行銷活動並監視其執行](start-monitor-campaigns.md)
+After successfully designing the orchestrated campaign diagram, you can execute the orchestrated campaign and track the progress of its various tasks. [Learn how to start an orchestrated campaign and monitor its execution](start-monitor-campaigns.md)
+-->
