@@ -41,14 +41,14 @@ ht-degree: 27%
 
 
 
----
+&#x200B;---
 對象：一般使用者
 title：使用查詢建模器建置您的第一個查詢
 description：瞭解如何在Adobe Campaign Web查詢建模器中建置您的第一個查詢。
 exl-id： f9a365ac-c8be-423f-a99d-40ad5492223c
 ---
 
-# 編輯運算式 {#expression}
+&#x200B;# 編輯運算式 {#expression}
 
 編輯運算式需要手動輸入條件以形成規則。 此模式可讓您使用進階函式，這些函式可讓您控制用於執行特定查詢的值，例如控制日期、字串、數值欄位和排序。
 
@@ -59,7 +59,7 @@ exl-id： f9a365ac-c8be-423f-a99d-40ad5492223c
 >[!IMPORTANT]
 >
 >有一個全新的查詢建模器介面可供使用，若要切換至這個新的規則產生器體驗，請按一下右上角的切換按鈕。 您可以隨時返回傳統查詢建模器，只要按回切換鍵以停用新介面即可。 您可以在此新介面中套用與查詢建模程式相同的原則。
->>![顯示新規則產生器介面](assets/query-modeler-toggle.png){zoomable="yes"}切換的影像
+>&#x200B;>![顯示新規則產生器介面](assets/query-modeler-toggle.png){zoomable="yes"}切換的影像
 
 ## 使用運算式編輯器 {#edit}
 
@@ -67,7 +67,7 @@ exl-id： f9a365ac-c8be-423f-a99d-40ad5492223c
 
 | 從&#x200B;**屬性**&#x200B;欄位存取 | 從&#x200B;**值**&#x200B;欄位存取 |
 | --- | --- |
-| 屬性欄位](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 | 值欄位](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 |
+| 屬性欄位![&#128279;](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 | 值欄位](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的運算式編輯器 |
 
 運算式編輯器提供：
 
