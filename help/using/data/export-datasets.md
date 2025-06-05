@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: 平台、資料湖、建立、湖、資料集、設定檔
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: bb2272e6959d896fb6b3286cec2c16a545a9f671
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '889'
 ht-degree: 6%
 
 ---
@@ -29,17 +29,17 @@ Journey Optimizer可讓您與雲端儲存位置建立即時連線，以匯出資
 
 Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
 
-* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=zh-Hant){target="_blank"}
-* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=zh-Hant){target="_blank"}
-* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=zh-Hant){target="_blank"}
-* [Data Landing Zone](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=zh-Hant){target="_blank"}
-* [Google雲端儲存空間](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=zh-Hant){target="_blank"}
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=zh-Hant){target="_blank"}。
+* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html){target="_blank"}
+* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html){target="_blank"}
+* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html){target="_blank"}
+* [資料登陸區域](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html){target="_blank"}
+* [Google雲端儲存空間](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html){target="_blank"}
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html){target="_blank"}。
 
 
 ## 先決條件 {#prerequisites}
 
-若要匯出資料集，您需要下列[存取控制許可權](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant#permissions){target="_blank"}。 閱讀[存取控制總覽](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=zh-Hant){target="_blank"}或連絡您的產品管理員以取得必要的許可權。
+若要匯出資料集，您需要下列[存取控制許可權](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"}。 閱讀[存取控制總覽](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"}或連絡您的產品管理員以取得必要的許可權。
 
 | 類別 | 權限 |
 |--|--|
@@ -53,9 +53,9 @@ Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
 
 ![](assets/dataset-export-process.png)
 
-每個步驟的詳細資訊可在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hant){target="_blank"}中取得。
+每個步驟的詳細資訊可在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}中取得。
 
-1. **設定您的雲端儲存空間目的地**。 如果您尚未這麼做，請從目的地目錄連線至雲端儲存空間目的地。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=zh-Hant#setup){target="_blank"}中瞭解如何建立新的目的地連線。
+1. **設定您的雲端儲存空間目的地**。 如果您尚未這麼做，請從目的地目錄連線至雲端儲存空間目的地。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}中瞭解如何建立新的目的地連線。
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -79,7 +79,7 @@ Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
 
    <!--![](assets/dataset-export-review.png)-->
 
-匯出完成後，資料集的內容會根據您設定的排程儲存在雲端儲存位置。 [瞭解如何確認資料集匯出成功](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hant#verify){target="_blank"}。
+匯出完成後，資料集的內容會根據您設定的排程儲存在雲端儲存位置。 [瞭解如何驗證資料集匯出是否成功](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}。
 
 ## 可供匯出的可用資料集 {#datasets}
 
@@ -98,6 +98,7 @@ Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
 | AJO設定檔計數器擴充功能 | 儲存包含counter_value和expiryDate的物件地圖，並以counter_id作為索引鍵 |
 | AJO推播設定檔資料集 | 儲存設定檔的推播權杖。 |
 | AJO推播追蹤體驗事件資料集 | 推播頻道的互動記錄，用於報表和建立受眾。  |
+| AJO簡訊體驗事件資料集 | 簡訊頻道的互動記錄，用於報表和建立受眾。  |
 | AJO表面資料集 | 與Journey Optimizer傳入表面結構描述相關的空白資料集 |
 | AOOutputForUPSDatset | 包含要回寫至UPS的所有AO對象會籍 |
 | Audience Orchestration設定檔資料集 | 由對象構成對象針對對象構成對象所產生。 包含所有對象構成對象、其屬性和擴充資料 |
