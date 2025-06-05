@@ -242,7 +242,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_policy"
 >title="決策原則"
->abstract="決策原則可讓您先從決策引擎中挑選出最佳項目，再傳遞給所有對象。"
+>abstract="決策原則可讓您先從決策引擎中挑選出最佳項目，再傳遞給所有客群。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_placements"
