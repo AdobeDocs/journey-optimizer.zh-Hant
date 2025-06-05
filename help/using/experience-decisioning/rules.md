@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 8418b0c9251e090575671acb65f83bee911cd039
+source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '450'
 ht-degree: 20%
 
 ---
@@ -42,13 +42,16 @@ ht-degree: 20%
 
 1. 決定規則建立畫面隨即開啟。 為規則命名並提供說明。
 
-1. 使用Adobe Experience Platform區段產生器建立符合您需求的決定規則。 若要這麼做，Tou可運用各種資料來源，例如來自Adobe Experience Platform的設定檔屬性、對象或內容資料。 [瞭解如何運用內容資料](#context-data)
+1. 使用Adobe Experience Platform區段產生器建立符合您需求的決定規則。 為此，您可以利用各種資料來源，例如：
+   * 設定檔和決定專案屬性，
+   * 受眾，
+   * 來自Adobe Experience Platform的內容資料。 [瞭解如何運用內容資料](#context-data)
 
    ![](assets/decision-rules-build.png)
 
    >[!NOTE]
    >
-   >相較於Adobe Experience Platform區段服務使用的區段產生器，用來建立決定規則的區段產生器呈現出一些特性。  不過，檔案中描述的全域程式對於建置決定規則仍然有效。 [瞭解如何建立區段定義](../audience/creating-a-segment-definition.md)
+   >相較於Adobe Experience Platform區段服務使用的區段產生器，用來建立決定規則的區段產生器呈現出一些特性。 不過，檔案中描述的全域程式對於建置決定規則仍然有效。 [瞭解如何建立區段定義](../audience/creating-a-segment-definition.md)
 
 1. 當您在工作區中新增及設定新欄位時，**[!UICONTROL 對象屬性]**&#x200B;窗格會顯示屬於該對象的預估設定檔資訊。 按一下&#x200B;**[!UICONTROL 重新整理預估值]**&#x200B;以更新資料。
 
