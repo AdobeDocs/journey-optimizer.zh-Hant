@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 457445e1c5f3e5819b484a26e9944f1295726d1e
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '461'
 ht-degree: 27%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 27%
 
 | 歡迎使用協調的行銷活動 | 啟動您的第一個協調行銷活動 | 查詢資料庫 | 協調的行銷活動活動 |
 |---|---|---|---|
-| [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>[設定步驟](../configuration-steps.md)<br/><br/>[建立協調行銷活動的重要步驟](../gs-campaign-creation.md) | [建立協調的行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/>[使用協調的行銷活動傳送訊息](../send-messages.md)<br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用查詢Modeler](../orchestrated-query-modeler.md)<br/><br/>[建置您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/>[並加入](and-join.md) - [建置對象](build-audience.md) - [變更維度](change-dimension.md) - [合併](combine.md) - [重複資料刪除](deduplication.md) - [擴充](enrichment.md) - [分支](fork.md) - [調解](reconciliation.md) - [分割](split.md) - [等待](wait.md) |
+| [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>[設定步驟](../configuration-steps.md)<br/><br/>[建立協調行銷活動的重要步驟](../gs-campaign-creation.md) | [建立協調的行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/>[使用協調的行銷活動傳送訊息](../send-messages.md)<br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用查詢Modeler](../orchestrated-rule-builder.md)<br/><br/>[建置您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/>[並加入](and-join.md) - [建置對象](build-audience.md) - [變更維度](change-dimension.md) - [合併](combine.md) - [重複資料刪除](deduplication.md) - [擴充](enrichment.md) - [分支](fork.md) - [調解](reconciliation.md) - [分割](split.md) - [等待](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -36,7 +36,7 @@ ht-degree: 27%
 * [管道活動](#channel)
 * [流量控制活動](#flow-control)
 
-![畫布中可用的活動清單](../assets/workflow-activities.png){width="80%" align="left"}
+![畫布中可用的活動清單](../assets/orchestrated-activities.png){width="80%" align="left"}
 
 ## 目標定位活動 {#targeting}
 
@@ -54,7 +54,7 @@ ht-degree: 27%
 
 ## 管道活動 {#channel}
 
-Adobe Journey Optimizer可讓您跨多個管道自動執行行銷活動。 您可以將頻道活動結合到畫布中，以建立跨頻道協調的行銷活動，其可根據客戶行為觸發動作。 以下&#x200B;**頻道**&#x200B;活動可供使用：電子郵件、簡訊、Android和iOS推播通知。 [瞭解如何在協調的行銷活動內容中建立管道動作](channels.md)。
+Adobe Journey Optimizer可讓您跨多個管道自動執行行銷活動。 您可以將頻道活動結合到畫布中，以建立跨頻道協調的行銷活動，其可根據客戶行為觸發動作。 有下列&#x200B;**頻道**&#x200B;活動可用：電子郵件和簡訊。 [瞭解如何在協調的行銷活動內容中建立管道動作](channels.md)。
 
 ## 流程控制活動 {#flow-control}
 
@@ -69,8 +69,8 @@ Adobe Journey Optimizer可讓您跨多個管道自動執行行銷活動。 您�
 
 * [並加入](and-join.md)：同步處理協調行銷活動的多個執行分支。
 * [分支](fork.md)：建立出站轉變，以同時啟動多個活動。
-  <!--* [Test](test.md): Enable transitions based on specified conditions.-->
 * [等待](wait.md)：暫時暫停執行部分協調的行銷活動。
+  <!--* [Test](test.md): Enable transitions based on specified conditions.-->
 
 >[!NOTE]
 >**End**&#x200B;活動會以圖形方式標示已協調行銷活動的結尾。 此活動對功能沒有影響，因此是選用的

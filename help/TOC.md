@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
 workflow-type: tm+mt
 source-wordcount: '2411'
 ht-degree: 96%
@@ -185,7 +185,7 @@ ht-degree: 96%
       + [開始和監視行銷活動](using/orchestrated/start-monitor-campaigns.md)
       + [報告](using/orchestrated/reporting-campaigns.md)
    + 查詢資料庫 {#query-database}
-      + [使用查詢Modeler](using/orchestrated/orchestrated-query-modeler.md)
+      + [使用規則產生器](using/orchestrated/orchestrated-rule-builder.md)
       + [建置您的第一個查詢](using/orchestrated/build-query.md)
       + [編輯運算式](using/orchestrated/edit-expressions.md)
    + 協調的行銷活動活動 {#design-campaigns}
@@ -281,7 +281,7 @@ ht-degree: 96%
          + [Mobile 上線快速入門工作流程](using/push/mobile-onboarding-wf.md)
    + 簡訊 / MMS 通道{#sms}
       + [開始使用文字訊息](using/sms/get-started-sms.md)
-      + [建立文字簡訊 (SMS/MMS)](using/sms/create-sms.md)
+      + [建立文字訊息 (簡訊/多媒體簡訊)](using/sms/create-sms.md)
       + [檢查並傳送文字訊息](using/sms/send-sms.md)
       + [管理文字訊息的選擇退出](using/sms/sms-opt-out.md)
       + [設定簡訊子網域](using/sms/sms-subdomains.md)
