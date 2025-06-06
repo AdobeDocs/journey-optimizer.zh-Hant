@@ -4,7 +4,6 @@ product: journey optimizer
 title: 歷程練習
 description: 瞭解如何在練習模式下發佈歷程
 feature: Journeys
-topic: Content Management
 role: User
 level: Intermediate
 hide: true
@@ -12,7 +11,7 @@ hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: c34aa14f34759e9094df2eead1c784c0c23da356
+source-git-commit: cd85b58350b4f8829aa1bc925c151be9b061b170
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 8%

@@ -2,18 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 暫停歷程
-description: 瞭解如何暫停/繼續歷程
+description: 瞭解如何暫停並繼續即時歷程
 feature: Journeys
-topic: Content Management
 role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
-source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
+source-git-commit: cd85b58350b4f8829aa1bc925c151be9b061b170
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '704'
 ht-degree: 3%
 
 ---
