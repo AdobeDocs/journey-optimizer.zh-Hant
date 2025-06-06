@@ -28,7 +28,7 @@ ht-degree: 29%
 
 <br/>
 
-# 編輯運算式 {#expression}
+&#x200B;# 編輯運算式 {#expression}
 
 編輯運算式需要手動輸入條件以形成規則。 此模式可讓您使用進階函式，這些函式可讓您控制用於執行特定查詢的值，例如控制日期、字串、數值欄位和排序。
 
@@ -42,7 +42,7 @@ ht-degree: 29%
 
 | 從&#x200B;**屬性**&#x200B;欄位存取 | 從&#x200B;**值**&#x200B;欄位存取 |
 | --- | --- |
-| 屬性欄位](assets/rule-builder-expression-access-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 | 值欄位](assets/rule-builder-expression-access-value.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 |
+| 屬性欄位![&#128279;](assets/rule-builder-expression-access-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 | 值欄位](assets/rule-builder-expression-access-value.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的運算式編輯器 |
 
 運算式編輯器提供：
 
