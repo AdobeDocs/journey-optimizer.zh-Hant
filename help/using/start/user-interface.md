@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 2169ab0e42ab2e8890c87e698e937f0341515b1f
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1402'
 ht-degree: 100%
 
 ---
@@ -249,12 +249,7 @@ ht-degree: 100%
 >title="刊登"
 >abstract="產品建議放置環境決定從決策引擎傳回的項目出現在訊息中的位置。您可以在報告中追蹤他們在不同產品建議放置環境的效能。"
 
-<!-- Journey Dry Run - DOCAC-12459-->
 
->[!CONTEXTUALHELP]
->id="ajo_journey_dry_run"
->title="模擬演練您的歷程"
->abstract="設計歷程後，請進行模擬演練執行來確認其運作正常，確保步驟正確。 此發布模式可讓您煙霧測試歷程，無需傳送通訊給任何輪廓。"
 
 
 
