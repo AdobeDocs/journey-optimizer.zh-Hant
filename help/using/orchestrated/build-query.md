@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: 450f83eb53068df10a63d39d1a43483ad3c7e803
+source-git-commit: 04a21534d91e4fcfa550af50450ea241c9b1235c
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1798'
 ht-degree: 7%
 
 ---
@@ -44,6 +44,8 @@ ht-degree: 7%
 
    您也可以使用預先定義的篩選器來開始查詢。 若要這麼做，請按一下&#x200B;**[!UICONTROL 選取或儲存篩選器]**&#x200B;按鈕，然後選擇&#x200B;**[!UICONTROL 選取預先定義的篩選器]**。
 
+   ![影像顯示規則產生器](assets/rule-builder-add.png)
+
 1. 識別資料庫中的屬性，以用作條件的條件。 屬性旁的「i」圖示提供有關其儲存位置及其資料型別的表格資訊。
 
    顯示屬性選取範圍的![影像](assets/rule-builder-select-attribute.png)
@@ -52,7 +54,7 @@ ht-degree: 7%
    >
    >**編輯運算式**&#x200B;按鈕可讓您使用運算式編輯器，使用資料庫和協助程式函式的欄位來手動定義運算式。 [瞭解如何編輯運算式](../orchestrated/edit-expressions.md)
 
-1. 按一下屬性旁顯示[更多動作]按鈕![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)的影像，以存取這些其他選項：
+1. 按一下屬性旁顯示[更多動作]按鈕](assets/do-not-localize/rule-builder-icon-more.svg)的![影像，以存取這些其他選項：
 
 +++ 值分佈
 
@@ -80,9 +82,7 @@ ht-degree: 7%
 
    ![影像顯示新增了條件的規則產生器](assets/rule-builder-condition.png)
 
-1. 從下拉式清單中選取要套用的&#x200B;**[!UICONTROL 運運算元]**。
-
-   可以使用各種運運算元。 下拉式清單中可用的運運算元取決於屬性的資料型別。
+1. 從下拉式清單中選取要套用的&#x200B;**[!UICONTROL 運運算元]**。 可以使用各種運運算元。 下拉式清單中可用的運運算元取決於屬性的資料型別。
 
    +++可用運運算元清單
 
@@ -105,9 +105,9 @@ ht-degree: 7%
    | 類似 | 與Contains運運算元類似，它可讓您在值中插入%萬用字元。 | 姓氏(@lastName)類似&#39;Jon%s&#39;。 萬用字元可當做「小丑」來尋找「Jones」之類的名稱。 |
    | Not like | 與Contains運運算元類似，它可讓您在值中插入%萬用字元。 | 姓氏(@lastName)不像&#39;Smi%h&#39;。 不會傳回姓氏為&#39;Smith&#39;的收件者。 |
 
-   +++
++++
 
-1. 在&#x200B;**值**&#x200B;欄位中，定義預期的值。 您也可以使用運算式編輯器，以使用資料庫和協助程式函式的欄位，手動定義運算式。 若要這麼做，請按一下顯示運算式編輯器圖示![&#128279;](assets/do-not-localize/rule-builder-icon-editor.svg)圖示的影像。 [瞭解如何編輯運算式](../orchestrated/edit-expressions.md)
+1. 在&#x200B;**值**&#x200B;欄位中，定義預期的值。 您也可以使用運算式編輯器，以使用資料庫和協助程式函式的欄位，手動定義運算式。 若要這麼做，請按一下顯示運算式編輯器圖示](assets/do-not-localize/rule-builder-icon-editor.svg)圖示的![影像。 [瞭解如何編輯運算式](../orchestrated/edit-expressions.md)
 
    對於日期型別屬性，預先定義的值可使用&#x200B;**[!UICONTROL 預設集]**&#x200B;選項。
 
@@ -115,7 +115,7 @@ ht-degree: 7%
 
    ![影像顯示預設集選項](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### 連結表格的自訂條件（1-1和1-N連結）{#links}
 
@@ -203,7 +203,7 @@ ht-degree: 7%
 
 * 若要群組兩個現有條件，請選取兩個條件之一，然後按一下![向上移動選取範圍圖示](assets/do-not-localize/rule-builder-icon-up.svg)或![向下移動選取範圍圖示](assets/do-not-localize/rule-builder-icon-down.svg)按鈕，以群組條件高於或低於。
 
-* 若要將現有條件群組為新條件，請選取條件，按一下顯示[更多動作]按鈕(assets/do-not-localize/rule-builder-icon-more.svg)按鈕的![影像，然後選取[新增群組]]&#x200B;**。**&#x200B;選取要新增至群組的新屬性，然後確認。
+* 若要將現有條件群組為新條件，請選取條件，按一下顯示[更多動作]按鈕](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的![影像，然後選取[新增群組]]**。**[!UICONTROL &#x200B;選取要新增至群組的新屬性，然後確認。
 
   ![](assets/rule-builder-edit-groups.png)
 
@@ -220,8 +220,10 @@ ht-degree: 7%
 * **計算**：更新並顯示規則所定位的記錄數目。
 * **選取或儲存篩選器**：選擇現有的預先定義篩選器以用於畫布中，或將您的查詢儲存為預先定義的篩選器，以供日後重複使用。
 
-  >[!IMPORTANT]
-  >
-  >從「規則屬性」窗格中選取預先定義的篩選器，將畫布中建立的規則替換為所選篩選器。
+<br/>
+
+    >[！IMPORTANT]
+    >
+    >從[規則屬性]窗格中選取預先定義的篩選器，以選取的篩選器取代畫布中建置的規則。
 
 當您的規則準備就緒時，請按一下中的&#x200B;**[!UICONTROL 確認]**&#x200B;按鈕以儲存。
