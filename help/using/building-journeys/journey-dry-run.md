@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
+source-git-commit: c34aa14f34759e9094df2eead1c784c0c23da356
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '743'
 ht-degree: 8%
 
 ---
@@ -90,7 +90,7 @@ Journey Dirun提供：
 
 * **[!UICONTROL 已進入]**：進入此活動的個人總數。
 * **[!UICONTROL 已退出（符合退出條件）]**：由於退出條件而從該活動退出歷程的個人總數。
-* **[!UICONTROL 已退出（強制退出）]**：歷程暫停時已退出的個人總數。
+* **[!UICONTROL 已退出（強制退出）]**：歷程暫停時已退出的個人總數。 對於處於練習模式的歷程，此量度一律等於零。
 * **[!UICONTROL 錯誤]**：在該活動中發生錯誤的個人總數。
 
 
