@@ -7,12 +7,13 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
-source-git-commit: 450f83eb53068df10a63d39d1a43483ad3c7e803
+source-git-commit: 70cef55d438894a8279bb4f8f3e1d3e460c1c82e
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2142'
 ht-degree: 29%
 
 ---
+
 
 # 編輯運算式 {#edit-expressions}
 
@@ -28,8 +29,6 @@ ht-degree: 29%
 
 <br/>
 
-&#x200B;# 編輯運算式 {#expression}
-
 編輯運算式需要手動輸入條件以形成規則。 此模式可讓您使用進階函式，這些函式可讓您控制用於執行特定查詢的值，例如控制日期、字串、數值欄位和排序。
 
 >[!NOTE]
@@ -42,7 +41,7 @@ ht-degree: 29%
 
 | 從&#x200B;**屬性**&#x200B;欄位存取 | 從&#x200B;**值**&#x200B;欄位存取 |
 | --- | --- |
-| 屬性欄位![&#128279;](assets/rule-builder-expression-access-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 | 值欄位](assets/rule-builder-expression-access-value.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的運算式編輯器 |
+| 屬性欄位](assets/rule-builder-expression-access-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 | 值欄位](assets/rule-builder-expression-access-value.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![運算式編輯器 |
 
 運算式編輯器提供：
 
