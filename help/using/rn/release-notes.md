@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
+source-git-commit: 0abf2743f7b43b54df5305f47e3bd20d37df6f39
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 87%
+source-wordcount: '1470'
+ht-degree: 85%
 
 ---
 
@@ -72,6 +72,10 @@ ht-degree: 87%
 * **決策規則的決策專案屬性支援** — 推出日期： 2025年6月4日
 
   您現在可以利用決策專案屬性來建立決策規則。 [閱讀全文](../experience-decisioning/rules.md#create)
+
+* **互動式訊息執行API更新** — 推出日期： 2025年6月6日
+
+  互動式訊息執行API現在可讓您刪除即將執行之行銷活動的排程。 [閱讀全文](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
 
 ## 2025 年 5 月發行說明 {#25-5-rn}
 
