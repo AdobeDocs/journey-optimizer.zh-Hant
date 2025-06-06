@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 7845b9823ca86014e74ce2a48483b645f672850a
+source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '730'
 ht-degree: 8%
 
 ---
@@ -70,7 +70,7 @@ Journey Dirun提供：
 * 未執行包含電子郵件、簡訊或推播通知的&#x200B;**頻道動作**&#x200B;節點。
 * **自訂動作**&#x200B;已在試執行期間停用，而且其回應設定為Null。
 * 在試執行期間略過&#x200B;**等待節點**。
-您可以覆寫等待區塊逾時，如果等待區塊持續時間超過允許的試執行歷程持續時間，則該分支將不會完全執行。
+  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
 * 預設會執行&#x200B;**外部資料來源**。
 
 >[!NOTE]
@@ -90,7 +90,7 @@ Journey Dirun提供：
 
 * **[!UICONTROL 已進入]**：進入此活動的個人總數。
 * **[!UICONTROL 已退出（符合退出條件）]**：由於退出條件而從該活動退出歷程的個人總數。
-* **[!UICONTROL 已退出（強制退出）]**：已退出的個人總數。
+* **[!UICONTROL 已退出（強制退出）]**：歷程暫停時已退出的個人總數。
 * **[!UICONTROL 錯誤]**：在該活動中發生錯誤的個人總數。
 
 
