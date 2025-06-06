@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: 72bceb03a3e94b0f3c13dddb22c8d3b4de0fcb44
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '303'
 ht-degree: 4%
 
 ---
@@ -45,17 +45,7 @@ ht-degree: 4%
 
 ![顯示規則產生器介面的影像](assets/rule-builder-interface.png)
 
-* **中央畫布**&#x200B;是您新增並合併不同元件以建置規則的地方。 工具列提供可輕鬆操控規則元件的選項：
-
-  | 工具列圖示 | 說明 |
-  |--- |--- |
-  | ![上移選取範圍圖示](assets/do-not-localize/rule-builder-icon-up.svg) | 將元件向上移動一列。 |
-  | ![下移選取範圍圖示](assets/do-not-localize/rule-builder-icon-down.svg) | 將元件下移一列。 |
-  | ![群組選擇圖示](assets/do-not-localize/rule-builder-icon-group.svg) | 將兩個元件放在一個群組中。 |
-  | ![取消群組選取範圍圖示](assets/do-not-localize/rule-builder-icon-ungroup.svg) | 將單一群組的元件分開。 |
-  | ![全部展開圖示](assets/do-not-localize/rule-builder-icon-expand.svg) | 展開所有群組。 |
-  | ![摺疊所有圖示](assets/do-not-localize/rule-builder-icon-collapse.svg) | 摺疊所有群組。 |
-  | ![移除所有圖示](assets/do-not-localize/rule-builder-icon-delete.svg) | 移除所有群組和元件。 |
+* **中央畫布**&#x200B;是您新增並合併不同元件以建置規則的地方。 [瞭解如何建立規則](../orchestrated/build-query.md)
 
 * **[!UICONTROL 規則屬性]**&#x200B;窗格會提供有關您規則的資訊。 它可讓您執行各種作業來檢查規則，並確保它符合您的需求。
 
