@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: f387eecbb7fd98adaa9911f5da7bed76d746cd7b
 workflow-type: tm+mt
-source-wordcount: '2126'
-ht-degree: 36%
+source-wordcount: '564'
+ht-degree: 31%
 
 ---
 
@@ -33,31 +33,11 @@ ht-degree: 36%
 
 <br/>
 
-「**擴充**」活動是一種「**目標定位**」活動。此活動可讓您使用資料庫中的其他資訊來增強目標資料。這通常會用於分段活動之後的工作流程。
+**[!UICONTROL 擴充]**&#x200B;活動是&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;活動，可讓您使用其他屬性增強您的對象資料。
 
-擴充資料可以：
-
-* **來自與您的協調行銷活動目標相同的工作表**：
-
-  *鎖定一組客戶，並將[出生日期]欄位新增至目前的工作表*。
-
-* **來自另一個工作表**：
-
-  *以一組客戶為目標，並新增來自「購買」表格的「數量」和「產品類型」欄位*。
-
-擴充資料新增至協調的行銷活動後，即可用於&#x200B;**擴充**&#x200B;活動後新增的活動，根據客戶的行為、偏好和需求將客戶細分為不同的群組，或建立更可能引起目標對象共鳴的個人化行銷訊息和行銷活動。
-
-例如，您可以將客戶購買的相關資訊新增至精心安排的行銷活動工作表資訊，並使用此資料來個人化電子郵件，其中包含客戶最近一次購買或這些購買的花費金額。
+您可以善用此資訊，根據行為、偏好或需求更精確地劃分對象，並製作個人化訊息，以便與每個設定檔更密切地連結。
 
 ## 新增擴充活動 {#enrichment-configuration}
-
-請按照以下步驟設定&#x200B;**擴充**&#x200B;活動：
-
-1. 新增活動，例如「**建置客群**」和「**組合**」活動。
-1. 新增「**擴充**」活動。
-1. 如果您的協調行銷活動中已設定多個轉變，您可以使用&#x200B;**[!UICONTROL 主要集]**&#x200B;欄位來定義應該使用哪個轉變作為主要集以擴充資料。
-
-## 新增擴充資料 {#enrichment-add}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
@@ -69,215 +49,239 @@ ht-degree: 36%
 >title="擴充活動"
 >abstract="將擴充資料新增至協調的行銷活動後，在擴充活動之後新增的活動中便可以使用擴充資料，根據客戶的行為、偏好和需求將客戶細分成不同群組，或是用於建立最有可能讓目標客群產生共鳴的個人化行銷訊息和行銷活動。"
 
+請按照以下步驟設定&#x200B;**擴充**&#x200B;活動：
+
+1. 新增「**擴充**」活動。
+
 1. 按一下&#x200B;**新增擴充資料**，並選取要用來擴充資料的屬性。
 
    您可以選取兩種擴充資料：來自目標維度的單一擴充屬性，或集合連結。 以下範例詳細說明了每種型別：
+
    * [單一擴充屬性](#single-attribute)
    * [集合連結](#collection-link)
 
-   >[!NOTE]
-   >
-   >屬性選取畫面中的&#x200B;**編輯運算式按鈕**&#x200B;可讓您建置進階運算式以選取屬性。
-
-   ![](../assets/workflow-enrichment1.png)
-
-## 建立表格之間的連結 {#create-links}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_enrichment_simplejoin"
->title="連結定義"
->abstract="在工作表資料和 Adobe Journey Optimizer 資料庫之間建立連結。例如，如果您從包含收件者的帳號、國家/地區和電子郵件的檔案載入資料，您必須建立指向國家/地區表的連結，才能更新其設定檔中的此資訊。"
-
-**[!UICONTROL 連結定義]**&#x200B;區段可讓您在工作表格資料與Adobe Journey Optimizer之間建立連結。 例如，如果您從包含收件者的帳號、國家/地區和電子郵件的檔案載入資料，您必須建立指向國家/地區表的連結，才能更新其設定檔中的此資訊。
-
-有數種可用的連結型別：
-
-* **[!UICONTROL 1基數簡易連結]**：來自主要集的每個記錄都可以與來自連結資料的一個及唯一一個記錄相關聯。
-* **[!UICONTROL 0或1個基數簡單連結]**：來自主要集的每個記錄都可以與來自連結資料的0或1個記錄相關聯，但不能與多個記錄相關聯。
-* **[!UICONTROL N個基數集合連結]**：來自主要集的每個記錄都可以與來自連結資料的0、1或更多(N)個記錄相關聯。
-
-若要建立連結，請依照下列步驟進行：
-
-1. 在&#x200B;**[!UICONTROL 連結定義]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 新增連結]**&#x200B;按鈕。
-
-   ![](../assets/workflow-enrichment-link.png)
-
-1. 在&#x200B;**關聯型別**&#x200B;下拉式清單中，選擇要建立的連結型別。
-
-1. 識別您要將主要集連結到的目標：
-
-   * 若要連結資料庫中現有的資料表，請選擇&#x200B;**[!UICONTROL 資料庫綱要]**，然後從&#x200B;**[!UICONTROL 目標綱要]**&#x200B;欄位中選取所要的資料表。
-   * 若要與輸入轉變中的資料連結，請選擇&#x200B;**暫存結構描述**，並選取您要使用其資料的轉變。
-
-1. 定義調解准則，將來自主要集的資料與連結的結構描述相符。 可用的聯結型別有兩種：
-
-   * **簡單聯結**：選取特定屬性，以比對兩個結構描述中的資料。 按一下&#x200B;**新增聯結**，然後選取要用來作為調解條件的&#x200B;**Source**&#x200B;和&#x200B;**目的地**&#x200B;屬性。
-   * **進階聯結**：使用進階條件建立聯結。 按一下&#x200B;**新增聯結**，然後按一下&#x200B;**建立條件**&#x200B;按鈕以開啟查詢模型工具。
-
-[範例](#link-example)區段提供使用連結的工作流程範例。
-
-## 資料調和 {#reconciliation}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_enrichment_reconciliation"
->title="調和"
->abstract="您可使用「**擴充**」活動將 Journey Optimizer 結構描述中的資料與其他結構描述中的資料，或來自臨時結構描述的資料 (例如使用「載入」檔案活動上傳的資料) 用於調和資料。此類型的連結定義對唯一記錄的調和。Journey Optimizer 透過在其中新增外來金鑰以建立目標表格的連結，來儲存對唯一記錄的參考。"
-
-您可使用「**擴充**」活動將 Campaign 資料庫結構描述中的資料與其他結構描述中的資料，或來自臨時結構描述的資料 (例如使用「載入」檔案活動上傳的資料) 進行調和。此類型的連結定義對唯一記錄的調和。Journey Optimizer 透過在其中新增外來金鑰以建立目標表格的連結，來儲存對唯一記錄的參考。
-
-例如，您可以使用此選項將上傳檔案中指定的輪廓所在國家/地區與 Campaign 資料庫專用表中可用的國家/地區之一進行調和。
-
-請依照下列步驟，使用調解連結設定&#x200B;**擴充**&#x200B;活動：
-
-1. 按一下&#x200B;**調解**&#x200B;區段中的&#x200B;**新增連結**&#x200B;按鈕。
-1. 識別您要建立調解連結的資料。
-
-   * 若要使用Campaign資料庫中的資料建立調解連結，請選取&#x200B;**資料庫綱要**，然後選擇儲存目標的綱要。
-   * 若要使用來自輸入轉變的資料建立調解連結，請選取&#x200B;**暫時綱要**，然後選擇儲存目標資料之協調行銷活動轉變。
-
-1. **標籤**&#x200B;和&#x200B;**名稱**&#x200B;欄位會根據所選的目標結構描述自動填入。 您可以視需要變更其值。
-
-1. 在&#x200B;**調解條件**&#x200B;區段中，指定您要如何調解來源資料表和目的地資料表的資料：
-
-   * **簡單聯結**：調解來源資料表中的特定欄位與目的地資料表中的另一個欄位。 若要這麼做，請按一下&#x200B;**新增聯結**&#x200B;按鈕，並指定要用於調解的&#x200B;**Source**&#x200B;和&#x200B;**目的地**&#x200B;欄位。
-
-     >[!NOTE]
-     >
-     >您可使用一或多個&#x200B;**簡單聯結**&#x200B;條件，在此情況下，這些條件都必須經過驗證，才能將資料連結在一起。
-
-   * **進階聯結**：使用查詢模組化程式來設定調解條件。 若要這麼做，請按一下&#x200B;**建立條件**&#x200B;按鈕，然後使用AND和OR作業建立您自己的規則，以定義調解條件。
-
-以下範例顯示一個協調的行銷活動，其設定為在Journey Optimizer設定檔表格與產生&#x200B;**載入檔案**&#x200B;活動的暫存表格之間建立連結。 在此範例中，**擴充**&#x200B;活動會使用電子郵件地址作為調解條件來調解兩個表格。
-
-![](../assets/enrichment-reconciliation.png)
-
-## 新增產品建議 {#add-offers}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_enrichment_offer_proposition"
->title="產品建議提議"
->abstract="擴充活動可讓您為每個客戶設定檔新增產品建議。"
-
-**[!UICONTROL 擴充]**&#x200B;活動可讓您為每個設定檔新增優惠。
-
-若要這麼做，請依照步驟使用選件設定&#x200B;**[!UICONTROL 擴充]**&#x200B;活動：
-
-1. 在&#x200B;**[!UICONTROL 擴充]**&#x200B;活動中，在&#x200B;**[!UICONTROL 優惠方案主張]**&#x200B;區段，按一下&#x200B;**[!UICONTROL 新增優惠方案]**&#x200B;按鈕
-
-   ![](../assets/enrichment-addoffer.png)
-
-1. 您有兩個選項可選取優惠方案：
-
-   * **[!UICONTROL 搜尋類別中的最佳優惠方案]** ：勾選此選項並指定優惠方案引擎呼叫引數（優惠方案空間、類別或主題、聯絡日期、要保留的優惠方案數目）。 引擎將根據這些引數計算要新增的最佳選件。 我們建議填寫「類別」或「主題」欄位，而不是同時填寫兩者。
-
-     ![](../assets/enrichment-bestoffer.png)
-
-   * **[!UICONTROL 預先定義的優惠方案]** ：核取此選項，並指定優惠方案空間、特定優惠方案和聯絡日期，以直接設定您要新增的優惠方案，而不呼叫優惠方案引擎。
-
-     ![](../assets/enrichment-predefinedoffer.png)
-
-1. 選取您的選件後，按一下&#x200B;**[!UICONTROL 確認]**&#x200B;按鈕。
-
-您現在可以在傳送活動中使用選件。
-
-### 使用擴充活動的選件
-
-在協調的行銷活動中，如果您想要使用在傳送中從擴充活動取得的選件，請遵循下列步驟：
-
-1. 開啟傳送活動，然後前往內容版本。 按一下&#x200B;**[!UICONTROL 優惠方案設定]**&#x200B;按鈕，然後在下拉式清單中選取與您的優惠方案對應的&#x200B;**[!UICONTROL 優惠方案空間]**。
-如果您只想檢視擴充活動的優惠方案，請將&#x200B;**[!UICONTROL 建議]**&#x200B;的數目設為0，然後儲存修改。
-
-   ![](../assets/offers-settings.png)
-
-1. 在電子郵件設計工具中，新增包含優惠方案的個人化時，按一下&#x200B;**[!UICONTROL 主張]**&#x200B;圖示，將顯示您從&#x200B;**[!UICONTROL 擴充]**&#x200B;活動取得的優惠。 按一下選件，開啟您要選擇的選件。
-
-   ![](../assets/offers-propositions.png)
-
-   進入&#x200B;**[!UICONTROL 演算函式]**，並根據您的需求選擇&#x200B;**[!UICONTROL HTML演算]**&#x200B;或&#x200B;**[!UICONTROL 文字演算]**。
-
-   ![](../assets/offers-rendering.png)
-
->[!NOTE]
->
->如果您選擇在&#x200B;**[!UICONTROL 擴充]**&#x200B;活動中於&#x200B;**[!UICONTROL 要保留的優惠方案數目]**&#x200B;選項處有多個優惠方案，則按一下&#x200B;**[!UICONTROL 主張]**&#x200B;圖示時，會顯示所有優惠方案。
+   ![](../assets/enrichment-1.png)
 
 ## 範例 {#example}
 
 ### 單一擴充屬性 {#single-attribute}
 
-在這裡，我們只新增單一擴充屬性，例如出生日期。請按照以下步驟操作：
+在此範例中，您會使用目前目標維度的單一屬性（例如出生日期）來豐富對象。
 
-1. 按一下「**屬性**」欄位內部。
-1. 在目標定位維度中選取一個簡單的欄位，在範例中是出生日期。
-1. 按一下「**確認**」。
+操作步驟：
 
-![](../assets/workflow-enrichment2.png)
+1. 按一下「**[!UICONTROL 新增擴充資料]**」。
+
+1. 從目前維度中選取簡單欄位，例如&#x200B;**[!UICONTROL 出生日期]**。
+
+   ![](../assets/enrichment-2.png)
+
+1. 按一下「**[!UICONTROL 確認]**」。
 
 ### 集合連結 {#collection-link}
 
-在這個較複雜的使用案例中，我們要選取集合連結，這是表格之間具有 1-N 基數的連結。讓我們擷取最近三筆低於 100 美元的購買。為了這麼做，您需要定義：
+此使用案例利用連結表格的資料來豐富您的受眾。 例如，您想要擷取最近在$100以下進行的三次購買。
 
-* 擴充屬性： **價格**&#x200B;欄位
-* 要擷取的行數：3
-* 篩選：篩除大於 100 美元的項目
-* 排序： **排序日期**&#x200B;欄位的降序排序。
+若要達成此目的，請依照以下方式設定擴充：
+
+* **擴充屬性**： **[!UICONTROL 價格]**
+
+* **要擷取的記錄數**： 3
+
+* **篩選器**：僅包含&#x200B;**[!UICONTROL 價格]**&#x200B;小於$100的購買
 
 #### 新增此屬性 {#add-attribute}
 
-您可以在此處選取用作擴充資料的集合連結。
+首先，選取包含您要擴充之資料的收集連結。
 
-1. 按一下「**屬性**」欄位內部。
-1. 按一下「**顯示進階屬性**」。
-1. 從&#x200B;**購買**&#x200B;資料表中選取&#x200B;**價格**&#x200B;欄位。
+1. 按一下「**[!UICONTROL 新增擴充資料]**」。
 
-<!-- ![](../assets/workflow-enrichment3.png) -->
+1. 從&#x200B;**[!UICONTROL 購買]**&#x200B;表格中，選取&#x200B;**[!UICONTROL 價格]**&#x200B;欄位。
+
+   ![](../assets/enrichment-2.png)
 
 #### 定義集合設定{#collection-settings}
 
-然後，定義收集資料的方式以及要擷取的記錄數。
+接下來，設定應如何收集資料以及要包含多少專案。
 
-1. 選取「**集合資料**」(從「**選取收集資料的方式**」下拉選單)。
-1. 在「**要擷取的行 (要建立的欄)**」欄位輸入「3」。
+1. 在&#x200B;**[!UICONTROL 選取資料收集方式]**&#x200B;下拉式清單中，選擇&#x200B;**[!UICONTROL 收集資料]**。
 
-![](../assets/workflow-enrichment4bis.png)
+   ![](../assets/enrichment-4.png)
 
-例如，如果您想要取得某個客戶的平均購買金額，請改為選取「**彙總資料**」，然後選取「**平均**」(從「**彙總函數**」下拉選單)。
+1. 在&#x200B;**[!UICONTROL 要擷取（要建立的資料行）]**&#x200B;欄位中，輸入`3`。
 
-請使用您屬性的&#x200B;**標籤**&#x200B;和&#x200B;**別名**&#x200B;欄位，使其更易於理解，如下所示。
+1. 若要執行彙總（例如，平均購買金額），請選取&#x200B;**[!UICONTROL 彙總資料]**，然後從&#x200B;**[!UICONTROL 彙總函式]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL 平均]**。
 
-![](../assets/workflow-enrichment5bis.png)
+   ![](../assets/enrichment-5.png)
+
+1. 使用&#x200B;**[!UICONTROL 標籤]**&#x200B;和&#x200B;**[!UICONTROL 別名]**&#x200B;欄位，讓擴充屬性在後續活動中更容易識別。
 
 #### 定義篩選條件{#collection-filters}
 
-在這裡，我們可定義擴充屬性的最大值。我們會篩除大於 100 美元的項目。
-1. 按一下&#x200B;**建立篩選器**。
-1. 新增下列兩個篩選器： **Price**&#x200B;存在且&#x200B;**Price**&#x200B;小於100。 第一個會篩選出 NULL 值，因為這會顯示為最大值。
-1. 按一下「**確認**」。
+最後，套用篩選條件以確保僅包含相關記錄：
 
-![](../assets/workflow-enrichment6bis.png)
+1. 按一下&#x200B;**[!UICONTROL 建立篩選器]**。
 
-#### 定義排序{#collection-sorting}
+1. 新增這兩個條件：
 
-我們現在需要套用排序，以擷取三筆&#x200B;**最近的**&#x200B;購買。
+   * **[!UICONTROL 價格]**&#x200B;存在（排除NULL）
 
-1. 啟動「**啟用排序**」選項。
-1. 按一下「**屬性**」欄位內部。
-1. 選取「**訂購日期**」欄位。
-1. 按一下「**確認**」。
-1. 選取「**遞減**」(從「**排序**」下拉選單)。
+   * **[!UICONTROL 價格]**&#x200B;小於100
+
+   ![](../assets/enrichment-6.png)
+
+1. 按一下「**[!UICONTROL 確認]**」。
+
+
+<!--
+#### Define the sorting{#collection-sorting}
+
+We now need to apply sorting in order to retrieve the three **latest** purchases.
+
+1. Activate the **Enable sorting** option.
+1. Click inside the **Attribute** field.
+1. Select the **Order date** field.
+1. Click **Confirm**. 
+1. Select **Descending** from the **Sort** drop-down.
 
 ![](../assets/workflow-enrichment7bis.png)
 
-### 使用連結的資料擴充 {#link-example}
 
-以下範例顯示一個協調的行銷活動，其設定為在兩個轉變之間建立連結。 第一個轉變目標為使用&#x200B;**查詢**&#x200B;活動的設定檔資料，而第二個轉變包括儲存在透過「載入檔案」活動載入的檔案中的購買資料。
+## Data reconciliation {#reconciliation}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_enrichment_reconciliation"
+>title="Reconciliation"
+>abstract="The **Enrichment** activity can be used to reconcile data from the Journey Optimizer schema with data from another schema, or with data coming from a temporary schema such as data uploaded using a Load file activity. This type of link defines a reconciliation towards a unique record. Journey Optimizer creates a link to a target table by adding a foreign key in it for storing a reference to the unique record."
+
+The **Enrichment** activity can be used to reconcile data from the the Campaign database schema with data from another schema, or with data coming from a temporary schema such as data uploaded using a Load file activity. This type of link defines a reconciliation towards a unique record. Journey Optimizer creates a link to a target table by adding a foreign key in it for storing a reference to the unique record.
+
+For example, you can use this option to reconcile a profile's country, specified in an uploaded file, with one of the countries available in the dedicated table of the Campaign database. 
+
+Follow the steps to configure an **Enrichment** activity with a reconciliation link: 
+
+1. Click the **Add link** button in the **Reconciliation** section.
+1. Identify the data you want to create a reconciliation link with.
+
+    * To create a reconciliation link with data from the Campaign database, select **Database schema** and choose the schema where the target is stored. 
+    * To create a reconciliation link with data coming from the input transition, select **Temporary schema** and choose the orchestrated campaign transition where the target data is stored. 
+
+1. The **Label** and **Name** fields are automatically populated based on the selected target schema. You can change their values if necessary.
+
+1. In the **Reconciliation criteria** section, specify how you want to reconcile data from the source and destination tables:
+
+    * **Simple join**: Reconcile a specific field from the source table with another field in the destination table. To do this, click the **Add join** button and specify the **Source** and **Destination** fields to use for the reconciliation.
+
+        >[!NOTE]
+        >
+        >You can use one or more **Simple join** criteria, in which case they must all be verified so that the data can be linked together.
+
+    * **Advanced join**: Use the query modeler to configure the reconciliation criteria. To do this, click the **Create condition** button then define your reconciliation criteria by building your own rule using AND and OR operations.
+
+The example below shows an orchestrated campaign configured to create a link between Journey Optimizer profiles table and a temporary table generated a **Load file** activity. In this example, the **Enrichment** activity reconciliates both tables using the email address as reconciliation criteria.
+
+![](../assets/enrichment-reconciliation.png)
+
+### Enrichment with linked data {#link-example}
+
+The example below shows an orchestrated campaign configured to create a link between two transitions. The first transitions targets profile data using a **Query** activity, while the second transition includes purchase data stored into a file loaded through a Load file activity.
 
 ![](../assets/enrichment-uc-link.png)
 
-* 第一個&#x200B;**擴充**&#x200B;活動會將主要集（來自&#x200B;**查詢**&#x200B;活動的資料）與&#x200B;**載入檔案**&#x200B;活動的結構描述連結。 這可讓我們將查詢定位的每個設定檔與對應的購買資料進行比對。
+* The first **Enrichment** activity links the primary set (data from the **Query** activity) with the schema from the **Load file** activity. This allows us to match each profile targeted by the query with the corresponding purchase data.
 
-  ![](../assets/enrichment-uc-link-purchases.png)
+    ![](../assets/enrichment-uc-link-purchases.png)
 
-* 已新增第二個&#x200B;**擴充**&#x200B;活動，以便使用來自&#x200B;**載入檔案**&#x200B;活動的購買資料，擴充來自協調行銷活動表格的資料。 這可讓我們在後續活動中使用這些資料，例如，個人化傳送給客戶的訊息，其中包含客戶購買的相關資訊。
+* A second **Enrichment** activity is added in order to enrich data from the orchestrated campaign table with the purchase data coming from the **Load file** activity. This allows us to use those data in further activities, for example, to personalize messages sent to the customers with information on their purchase.
 
-  ![](../assets/enrichment-uc-link-data.png)
+    ![](../assets/enrichment-uc-link-data.png)
+
+
+## Create links between tables {#create-links}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_enrichment_simplejoin"
+>title="Link definition"
+>abstract="Create a link between the working table data and Adobe Journey Optimizer. For example, if you load data from a file which contains the account number, country and email of recipients, you have to create a link towards the country table in order to update this information in their profiles."
+
+The **[!UICONTROL Link definition]** section allows you to create a link between the working table data and Adobe Journey Optimizer. For example, if you load data from a file which contains the account number, country and email of recipients, you have to create a link towards the country table in order to update this information in their profiles.
+
+There are several types of links available:
+
+* **[!UICONTROL 1 cardinality simple link]**: Each record from the primary set can be associated with one and only one record from the linked data.
+* **[!UICONTROL 0 or 1 cardinality simple link]**: Each record from the primary set can be associated with 0 or 1 record from the linked data, but not more than one.
+* **[!UICONTROL N cardinality collection link]**: Each record from the primary set can be associated with 0, 1 or more (N) records from the linked data.
+
+To create a link, follow these steps:
+
+1. In the **[!UICONTROL Link definition]** section, click the **[!UICONTROL Add link]** button.
+
+    ![](../assets/workflow-enrichment-link.png)
+
+1. In the **Relation type** drop-down list, choose the type of link you want to create.
+
+1. Identify the target you want to link the primary set to:
+
+    * To link an existing table in the database, choose **[!UICONTROL Database schema]** and select the desired table from the **[!UICONTROL Target schema]** field.
+    * To link with data from the input transition, choose **Temporary schema** and select the transition whose data you want to use.
+
+1. Define the reconciliation criteria to match data from the primary set with the linked schema. There are two types of joins available:
+
+    * **Simple join**: Select a specific attribute to match data from the two schemas. Click **Add join** and select the **Source** and **Destination** attributes to use as reconciliation criteria. 
+    * **Advanced join**: Create a join using advanced conditions. Click **Add join** and click the **Create condition** button to open the query modeler.
+
+A workflow example using links is available in the [Examples](#link-example) section.
+
+## Add offers {#add-offers}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_enrichment_offer_proposition"
+>title="Offer proposition"
+>abstract="The Enrichment activity allows you to add offers for each profile."
+
+The **[!UICONTROL Enrichment]** activity allows you to add offers for each profile.
+
+To do so, follow the steps to configure an **[!UICONTROL Enrichment]** activity with an offer: 
+
+1. In the **[!UICONTROL Enrichment]** activity, at the **[!UICONTROL Offer proposition]** section, click on the **[!UICONTROL Add offer]** button
+
+    ![](../assets/enrichment-addoffer.png)
+
+1. You have two choices for the offer selection :
+
+    * **[!UICONTROL Search for the best offer in category]** : check this option and specify the offer engine call parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will calculate the best offer(s) to add according to these parameters. We recommend completing either the Category or the Theme field, rather than both at the same time.
+
+        ![](../assets/enrichment-bestoffer.png)
+
+    * **[!UICONTROL A predefined offer]** : check this option and specify an offer space, a specific offer, and a contact date to directly configure the offer that you would like to add, without calling the offer engine.
+
+        ![](../assets/enrichment-predefinedoffer.png)
+
+1. After selecting your offer, click on **[!UICONTROL Confirm]** button.
+
+You can now use the offer in the delivery activity.
+
+
+
+### Using the offers from Enrichment activity
+
+Within an orchestrated campaign, if you want to use the offers you get from an enrichment activity in your delivery, follow the steps below:
+
+1. Open the delivery activity and go in the content edition. Click on **[!UICONTROL Offers settings]** button and select in the drop-down list the **[!UICONTROL Offers space]** corresponding to your offer. 
+If you want to to view only offers from the enrichment activity, set the number of **[!UICONTROL Propositions]** to 0, and save the modifications.
+
+    ![](../assets/offers-settings.png) 
+
+1. In the email designer, when adding a personalization with offers, click on the **[!UICONTROL Propositions]** icon, it will display the offer(s) you get from the **[!UICONTROL Enrichment]** activity. Open the offer you want to choose by clicking on it.
+
+    ![](../assets/offers-propositions.png) 
+
+    Go in **[!UICONTROL Rendering functions]** and choose **[!UICONTROL HTML rendering]** or **[!UICONTROL Text rendering]** according to your needs.
+
+    ![](../assets/offers-rendering.png) 
+
+>[!NOTE]
+>
+>If you choose to have more than one offer in the **[!UICONTROL Enrichment]** activity at the **[!UICONTROL Number of offers to keep]** option, all the offers are displayed when clicking on the **[!UICONTROL Propositions]** icon.
+
+-->
