@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 841c918da9c330a652dc8c6e1e4396677783a1e2
+source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '821'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 7%
 >title="模擬演練您的歷程"
 >abstract="設計歷程後，請進行模擬演練執行來確認其運作正常，確保步驟正確。 此發布模式可讓您煙霧測試歷程，無需傳送通訊給任何輪廓。"
 
-歷程練習是Adobe Journey Optimizer中的特殊歷程發佈模式，可讓行銷人員使用真實生產資料測試歷程，而不需聯絡真實客戶或更新設定檔資訊。  此功能可協助行銷人員在發佈其即時內容之前，先取得對其歷程設計和對象定位的信心。
+歷程練習是Adobe Journey Optimizer中的特殊歷程發佈模式，可讓歷程從業人員使用真實生產資料測試歷程，而不需聯絡真實客戶或更新設定檔資訊。  此功能有助於歷程參與者在發佈其歷程設計和對象鎖定目標之前獲得信心。
 
 
 >[!AVAILABILITY]
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 ## 主要優點 {#journey-dry-run-benefits}
 
-Journey Diry run使用真實的生產資料對客戶歷程進行安全、資料導向的測試，免除聯絡客戶或變更設定檔資訊的風險，進而提高從業人員信心和歷程成功。 此功能可讓行銷人員在上線前驗證受眾觸及範圍和分支邏輯，確保歷程與其預期業務目標一致。
+Journey Diry run使用真實的生產資料對客戶歷程進行安全、資料導向的測試，免除聯絡客戶或變更設定檔資訊的風險，進而提高從業人員信心和歷程成功。 此功能讓歷程從業人員在上線前驗證受眾觸及範圍和分支邏輯，確保歷程與其預期業務目標一致。
 
 有了歷程練習，您就能根據實際資料（而非假設）及早識別問題、最佳化鎖定目標策略，以及改善歷程設計。 練習版直接整合至歷程畫布，提供直覺式報告功能，並洞察關鍵績效指標，讓團隊充滿信心地反複交流，並簡化核准工作流程。 如此可提升營運效率、降低上市風險，並帶來更佳的客戶參與成果。
 
@@ -45,17 +45,19 @@ Journey Dirun提供：
 
 1. **安全測試環境**：未連絡處於試執行模式的設定檔，確保沒有傳送通訊或影響即時資料的風險。
 1. **對象深入分析**：歷程從業人員可以預測對象在各種歷程節點上的可達性，包括退出、排除和其他條件。
-1. **即時回饋**：量度會直接顯示在歷程畫布中，類似即時報告，讓行銷人員能夠調整其歷程設計。
+1. **即時回饋**：量度會直接顯示在歷程畫布中，類似即時報告，讓歷程參與者能夠調整其歷程設計。
 
 
 >[!CAUTION]
 >
-> 啟動試執行許可權僅限於具有&#x200B;**[!DNL Publish journeys]**&#x200B;高階許可權的使用者。 啟動停止試執行許可權僅限於具有&#x200B;**[!DNL Manage journeys]**&#x200B;高階許可權的使用者。 在[本節](../administration/permissions-overview.md)中進一步瞭解如何管理[!DNL Journey Optimizer]使用者的存取權。
+>啟動試執行許可權僅限於具有&#x200B;**[!DNL Publish journeys]**&#x200B;高階許可權的使用者。 停止試執行的許可權僅限於具有&#x200B;**[!DNL Manage journeys]**&#x200B;高階許可權的使用者。 在[本節](../administration/permissions-overview.md)中進一步瞭解如何管理[!DNL Journey Optimizer]使用者的存取權。
 
 
 ## 護欄與限制 {#journey-dry-run-limitations}
 
 * 試執行模式不適用於包含反應事件的歷程。
+* 處於試執行模式的設定檔計入可參與的設定檔。
+* 練習歷程不會影響商業規則。
 * 建立新歷程版本時，如果先前的歷程版本為&#x200B;**即時**，則新版本不允許試執行啟動。
 * 歷程練習會產生stepEvents。 這些stepEvents具有特定標幟和Derun ID：
    * 如果已啟動試運行，`_experience.journeyOrchestration.stepEvents.inDryRun`會傳回`true`，否則會傳回`false`
@@ -67,11 +69,6 @@ Journey Dirun提供：
    * 在試執行期間略過&#x200B;**等待節點**。
      <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
    * **預設會執行**&#x200B;資料來源，包括外部資料來源。
-
->[!NOTE]
->
-> * 處於試執行模式的設定檔計入可參與的設定檔。
-> * 練習歷程不會影響商業規則。
 
 ## 開始試用 {#journey-dry-run-start}
 
@@ -124,6 +121,8 @@ Journey Dirun提供：
 
 ## 停止試用 {#journey-dry-run-stop}
 
-試執行歷程&#x200B;**必須**&#x200B;手動停止。 按一下&#x200B;**關閉**&#x200B;按鈕以結束測試，然後確認。
+試執行歷程&#x200B;**必須**&#x200B;手動停止。
 
-14天後，練習歷程會自動轉換到&#x200B;**草稿**&#x200B;狀態。
+按一下&#x200B;**關閉**&#x200B;按鈕以結束測試，然後確認。
+
+<!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->

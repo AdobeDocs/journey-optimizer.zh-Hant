@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
-source-git-commit: 3f00e7efd58fec09187be7d31199139b753dfcc2
+source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '705'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 ## 主要優點 {#journey-dry-run-benefits}
 
-暫停和繼續歷程可讓行銷人員在不中斷客戶體驗的情況下暫時暫停即時歷程，以提供更優異的控制力和彈性。 暫停時，不會傳送任何通訊，而且設定檔會維持在暫停狀態，直到歷程繼續為止。
+暫停和繼續歷程可讓歷程參與者在不中斷客戶體驗的情況下暫時暫停即時歷程，擁有更優異的控制權和彈性。 暫停時，不會傳送任何通訊，而且設定檔會維持在暫停狀態，直到歷程繼續為止。
 
 此功能減少在錯誤或更新期間（例如：變更訊息內容）傳送意外訊息的風險，支援更安全的歷程管理，並提高從業人員的信心。 直接在UI中檢視暫停的歷程及其狀態，可進一步增強透明度和作業靈敏度。
 
