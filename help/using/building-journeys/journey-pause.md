@@ -10,16 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
-source-git-commit: 341f818d84264e3cb57563466866fdf43ebc401c
+source-git-commit: 3f00e7efd58fec09187be7d31199139b753dfcc2
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '704'
 ht-degree: 3%
 
 ---
 
 # 暫停歷程 {#journey-pause}
 
-您可以隨時暫停即時歷程、執行所有需要的變更，然後再次繼續。 歷程最多可暫停14天。 <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->歷程在暫停期間結束時自動繼續。 您也可以[手動](#journey-resume-steps)繼續進行。
+您可以隨時暫停即時歷程、執行所有需要的變更，然後再次繼續。 <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->歷程在暫停期間結束時自動繼續。 您也可以[手動](#journey-resume-steps)繼續進行。
 
 
 >[!AVAILABILITY]
@@ -74,13 +74,11 @@ ht-degree: 3%
 
 1. 按一下&#x200B;**暫停**&#x200B;按鈕確認。
 
-歷程最多可暫停14天。
-
 ## 如何繼續暫停的歷程 {#journey-resume-steps}
 
-暫停的歷程可以隨時手動繼續。
+暫停的歷程會在最大暫停期間14天結束後自動恢復。 可隨時手動繼續進行。
 
-若要結束歷程暫停並開始再次收聽歷程事件，請依照下列步驟操作：
+若要繼續暫停的歷程並重新開始聆聽歷程事件，請遵循下列步驟：
 
 1. 開啟您要繼續的歷程。
 1. 按一下歷程畫布右上角的&#x200B;**...更多**&#x200B;按鈕，然後選取&#x200B;**繼續**。
