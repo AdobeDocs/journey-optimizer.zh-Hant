@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: dd1a9b6e14617014756e5b4449578a1f7bf805b4
+source-git-commit: fcd1ac3b8b34fe4976695775590cad8974b5281f
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 13%
@@ -44,7 +44,7 @@ ht-degree: 13%
 
 若要建立協調的行銷活動，請遵循下列步驟：
 
-1. 瀏覽至&#x200B;**[ !UICONTRO 行銷活動]**&#x200B;功能表，選取&#x200B;**[!UICONTROL 協調流程]**&#x200B;索引標籤，然後選取&#x200B;**[!UICONTROL 建立行銷活動]**。
+1. 瀏覽至&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表，選取&#x200B;**[!UICONTROL 協調流程]**&#x200B;索引標籤，然後選取&#x200B;**[!UICONTROL 建立行銷活動]**。
 
    ![](assets/inventory-create.png)
 
