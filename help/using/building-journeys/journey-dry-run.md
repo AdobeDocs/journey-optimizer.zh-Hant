@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
+source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '826'
 ht-degree: 7%
 
 ---
@@ -123,6 +123,6 @@ Journey Dirun提供：
 
 試執行歷程&#x200B;**必須**&#x200B;手動停止。
 
-按一下&#x200B;**關閉**&#x200B;按鈕以結束測試，然後確認。
+按一下&#x200B;**關閉**&#x200B;按鈕以結束測試，然後按一下&#x200B;**返回草稿**&#x200B;以確認。
 
 <!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->

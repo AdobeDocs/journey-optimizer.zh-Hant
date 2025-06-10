@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
-source-git-commit: 0de7e1befa73cec2758be30caa28c93a2bf45b90
+source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1078'
 ht-degree: 2%
 
 ---
@@ -68,8 +68,8 @@ ht-degree: 2%
 
    您可以：
 
-   * 保留設定檔 — 設定檔將等待歷程繼續
-   * 捨棄設定檔 — 設定檔將在下一個動作節點從歷程中排除
+   * **保留**&#x200B;設定檔 — 設定檔將等待歷程繼續
+   * **捨棄**&#x200B;設定檔 — 設定檔將在下一個動作節點從歷程中排除
 
 1. 按一下&#x200B;**暫停**&#x200B;按鈕確認。
 
@@ -101,16 +101,21 @@ ht-degree: 2%
 
 例如，若要將所有法國客戶排除在至法國的行銷通訊之外，請遵循下列步驟：
 
-
 1. 瀏覽至您要修改的暫停歷程。
 
 1. 按一下&#x200B;**退出條件與全域篩選器**&#x200B;圖示。
 
-1. 在「全域篩選」設定中，根據設定檔屬性定義篩選。
+   ![將全域篩選器新增至暫停的歷程](assets/add-global-filter.png){width="50%" align="left"}
+
+1. 在&#x200B;**退出條件與全域篩選器**&#x200B;設定中，根據設定檔屬性定義篩選器。
 
 1. 設定運算式，以排除國家/地區屬性等於「法國」的設定檔。
 
-1. 繼續歷程。
+   ![將全域篩選器新增至暫停的歷程](assets/add-country-filter.png){width="50%" align="left"}
+
+1. 儲存您的篩選器，然後按一下&#x200B;**更新歷程**&#x200B;按鈕以套用您的變更。
+
+1. [繼續歷程](#journey-resume-steps)。
 
    在恢復時，國家/地區屬性設定為France的所有設定檔將自動從歷程中排除。 任何國家/地區屬性設定為法國的新設定檔嘗試進入歷程將被封鎖。
 
