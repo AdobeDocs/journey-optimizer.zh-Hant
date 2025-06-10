@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: d308086a6de56f3ee2c16c7d11c8891221325c97
+source-git-commit: 6109c9176c160c2c0b1eafa06b855ebaf285e3ee
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 65%
+source-wordcount: '387'
+ht-degree: 66%
 
 ---
 
@@ -32,7 +32,7 @@ Journey Optimizer現在提供數種衝突管理和優先順序的工具。 這�
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/gs-conflict-prioritization.md)
 
->[!TAB Adobe Express x Journey Optimizer]
+>[!TAB Adobe Express與Journey Optimizer]
 
 Adobe Journey Optimizer中的Adobe Express整合可讓您在建立內容時輕鬆存取Adobe Express強大的編輯工具。 此整合可讓您調整影像大小、移除背景、裁切視覺效果，以及將資產轉換為JPEG或PNG，而不需要在解決方案之間切換。
 
@@ -43,9 +43,9 @@ Adobe Journey Optimizer中的Adobe Express整合可讓您在建立內容時輕�
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
->[!TAB AEM內容片段x Journey Optimizer]
+>[!TAB AEM內容片段和Journey Optimizer]
 
 透過將Adobe Experience Manager as a Cloud Service與Adobe Journey Optimizer整合，您現在可以將AEM內容片段順暢地整合到Journey Optimizer內容中。 此簡化的連線可簡化存取及運用AEM內容的程式，讓您建立個人化和動態的行銷活動和歷程。
 
