@@ -10,17 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
-source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
+source-git-commit: 0de7e1befa73cec2758be30caa28c93a2bf45b90
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 3%
+source-wordcount: '1047'
+ht-degree: 2%
 
 ---
 
 # 暫停歷程 {#journey-pause}
 
-您可以隨時暫停即時歷程、執行所有需要的變更，然後再次繼續。 <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->歷程在暫停期間結束時自動繼續。 您也可以[手動](#journey-resume-steps)繼續進行。
-
+您可以隨時暫停即時歷程、執行所有需要的變更，然後再次繼續。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->在暫停期間，您可以[套用全域篩選器](#journey-global-filters)以根據其屬性排除設定檔。 歷程會在暫停期間結束時自動繼續。 您也可以[手動](#journey-resume-steps)繼續進行。
 
 >[!AVAILABILITY]
 >
@@ -54,14 +53,14 @@ ht-degree: 3%
 
 ## 如何暫停歷程 {#journey-pause-steps}
 
-您可以暫停任何即時歷程。
+您可以暫停任何&#x200B;**即時**&#x200B;歷程。
 
 若要暫停您的歷程，請依照下列步驟進行：
 
 1. 開啟您要暫停的歷程。
 1. 按一下歷程畫布右上角的&#x200B;**...更多**&#x200B;按鈕，然後選取&#x200B;**暫停**。
 
-   ![暫停歷程按鈕](assets/pause-journey-button.png)
+   ![暫停歷程按鈕](assets/pause-journey-button.png){width="80%" align="left"}
 
 1. 選取如何管理目前位於歷程中的設定檔。
 
@@ -74,6 +73,11 @@ ht-degree: 3%
 
 1. 按一下&#x200B;**暫停**&#x200B;按鈕確認。
 
+從您的歷程清單中，您可以暫停一或多個&#x200B;**即時**&#x200B;歷程。 若要暫停歷程群組（_大量暫停_），請在清單中選取它們，然後按一下畫面底部藍色列中的&#x200B;**暫停**&#x200B;按鈕。 **暫停**&#x200B;按鈕僅在選取&#x200B;**即時**&#x200B;歷程時可用。
+
+![從底部列大量暫停兩個即時歷程](assets/bulk-pause-journeys.png){width="80%" align="left"}
+
+
 ## 如何繼續暫停的歷程 {#journey-resume-steps}
 
 暫停的歷程會在最大暫停期間14天結束後自動恢復。 可隨時手動繼續進行。
@@ -85,6 +89,35 @@ ht-degree: 3%
 
    歷程會切換至&#x200B;**繼續**&#x200B;狀態。 從&#x200B;**繼續**&#x200B;到&#x200B;**即時**&#x200B;狀態的轉換可能需要一些時間：所有設定檔都必須繼續，歷程才能再次變成&#x200B;**即時**。
 
+1. 按一下「**繼續**」按鈕確認。
 
 
+從歷程清單中，您可以繼續一或多個&#x200B;**已暫停**&#x200B;歷程。 若要繼續歷程群組（_大量繼續_），請選取它們並按一下畫面底部藍色列中的&#x200B;**繼續**&#x200B;按鈕。 請注意，**繼續**&#x200B;按鈕只有在選取&#x200B;**已暫停**&#x200B;歷程時才可用。
 
+
+## 將全域篩選器套用至暫停歷程中的設定檔  {#journey-global-filters}
+
+歷程暫停時，您可以根據設定檔屬性套用全域篩選器。 此篩選器可讓您排除與恢復時定義的運算式相符的設定檔。 符合歷程中目前條件的設定檔將退出歷程，而嘗試輸入的新設定檔將遭到封鎖。
+
+例如，若要將所有法國客戶排除在至法國的行銷通訊之外，請遵循下列步驟：
+
+
+1. 瀏覽至您要修改的暫停歷程。
+
+1. 按一下&#x200B;**退出條件與全域篩選器**&#x200B;圖示。
+
+1. 在「全域篩選」設定中，根據設定檔屬性定義篩選。
+
+1. 設定運算式，以排除國家/地區屬性等於「法國」的設定檔。
+
+1. 繼續歷程。
+
+   在恢復時，國家/地區屬性設定為France的所有設定檔將自動從歷程中排除。 任何國家/地區屬性設定為法國的新設定檔嘗試進入歷程將被封鎖。
+
+請注意，目前歷程中設定檔的設定檔排除和新設定檔的設定檔排除只有在到達動作節點時才會發生。
+
+>[!CAUTION]
+>
+>* 每個歷程只能設定&#x200B;**一個**&#x200B;全域篩選器。
+>
+>* 您只能在&#x200B;**已暫停**&#x200B;歷程中建立、更新或刪除全域篩選器。
