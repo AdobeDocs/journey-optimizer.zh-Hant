@@ -11,7 +11,7 @@ hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
+source-git-commit: 140720d72b57ec32250dee01b8c282b8ce871fc5
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 7%
@@ -81,7 +81,7 @@ Journey Dirun提供：
 
    ![開始歷程試運行](assets/dry-run-button.png)
 
-1. 確認發佈
+1. 確認發佈。
 
    轉換發生時，會出現狀態訊息&#x200B;**啟動試用**。
 
