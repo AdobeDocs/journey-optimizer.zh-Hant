@@ -1,32 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用Journey Optimizer建立協調的行銷活動
+title: 使用Journey Optimizer建立及排程協調的行銷活動
 description: 瞭解如何使用Adobe Journey Optimizer建立協調的行銷活動
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 935ab0399da88c792104b7dc14793b69713951fc
+source-git-commit: dd1a9b6e14617014756e5b4449578a1f7bf805b4
 workflow-type: tm+mt
-source-wordcount: '1734'
-ht-degree: 20%
+source-wordcount: '342'
+ht-degree: 13%
 
 ---
 
 
-# 建立協調行銷活動 {#create-first-campaign}
+# 建立及排程協調的行銷活動 {#create-first-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
 >title="協調的行銷活動清單"
->abstract="「**多步驟**」索引標籤列出所有協調的行銷活動。按一下協調的行銷活動的名稱即可編輯。使用「**建立協調的行銷活動**」按鈕新增新的協調的行銷活動。"
+>abstract="**協調流程**&#x200B;索引標籤會列出所有協調的行銷活動。 按一下協調的行銷活動的名稱即可編輯。使用「**建立協調的行銷活動**」按鈕新增新的協調的行銷活動。"
 
 +++ 目錄
 
 | 歡迎使用協調的行銷活動 | 啟動您的第一個協調行銷活動 | 查詢資料庫 | 協調的行銷活動活動 |
 |---|---|---|---|
-| [開始使用協調的行銷活動](gs-orchestrated-campaigns.md)<br/><br/>[設定步驟](configuration-steps.md)<br/><br/>[存取及管理協調的行銷活動](access-manage-orchestrated-campaigns.md) | [建立協調行銷活動的重要步驟](gs-campaign-creation.md)<br/><br/><b>[建立並設定行銷活動](create-orchestrated-campaign.md)</b><br/><br/>[協調活動](orchestrate-activities.md)<br/><br/>[傳送包含協調行銷活動的訊息](send-messages.md)<br/><br/>[開始並監視行銷活動](start-monitor-campaigns.md)<br/><br/>[報告](reporting-campaigns.md) | [使用規則產生器](orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](build-query.md)<br/><br/>[編輯運算式](edit-expressions.md) | [開始使用活動](activities/about-activities.md)<br/><br/>活動：<br/>[並加入](activities/and-join.md) - [建置對象](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [調解](activities/reconciliation.md) - [分割](activities/split.md) - [等待](activities/wait.md) |
+| [開始使用協調的行銷活動](gs-orchestrated-campaigns.md)<br/><br/>[設定步驟](configuration-steps.md)<br/><br/>[存取及管理協調的行銷活動](access-manage-orchestrated-campaigns.md) | [建立協調行銷活動的關鍵步驟](gs-campaign-creation.md)<br/><br/><b>[建立並排程行銷活動](create-orchestrated-campaign.md)</b><br/><br/>[協調活動](orchestrate-activities.md)<br/><br/>[傳送包含協調行銷活動的訊息](send-messages.md)<br/><br/>[開始並監視行銷活動](start-monitor-campaigns.md)<br/><br/>[報告](reporting-campaigns.md) | [使用規則產生器](orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](build-query.md)<br/><br/>[編輯運算式](edit-expressions.md) | [開始使用活動](activities/about-activities.md)<br/><br/>活動：<br/>[並加入](activities/and-join.md) - [建置對象](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [調解](activities/reconciliation.md) - [分割](activities/split.md) - [等待](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -34,158 +34,115 @@ ht-degree: 20%
 
 <br/>
 
+>[!BEGINSHADEBOX]
+
+檔案處理中
+
+>[!ENDSHADEBOX]
+
 ## 建立行銷活動 {#create}
 
 若要建立協調的行銷活動，請遵循下列步驟：
 
-1. 瀏覽至&#x200B;**行銷活動**&#x200B;功能表。
+1. 瀏覽至&#x200B;**[!UICONTRO 行銷活動]**&#x200B;功能表，選取&#x200B;**[!UICONTROL 協調流程]**&#x200B;索引標籤，然後選取&#x200B;**[!UICONTROL 建立行銷活動]**。
 
-1. 按一下畫面右上角的&#x200B;**[!UICONTROL 建立協調的行銷活動]**&#x200B;按鈕。
+   ![](assets/inventory-create.png)
 
-1. 在協調的行銷活動&#x200B;**屬性**&#x200B;對話方塊中，選取要用來建立協調行銷活動的範本（您也可以使用預設的內建範本）。 [進一步瞭解協調的行銷活動範本](#campaign-templates)。
+1. 輸入已協調行銷活動的名稱。 此外，我們強烈建議您在專用欄位中新增說明。
 
-1. 輸入已協調行銷活動的標籤。 此外，強烈建議您在畫面的&#x200B;**[!UICONTROL 其他選項]**&#x200B;區段的專屬欄位中，新增描述至您的協調行銷活動。
+1. （選用）使用&#x200B;**標籤**&#x200B;欄位將Adobe Experience Platform統一標籤指派給您協調的行銷活動。 這可讓您輕鬆分類，並改進行銷活動清單的搜尋。 [瞭解如何使用標籤](../start/search-filter-categorize.md#tags)。
 
-1. 展開&#x200B;**[!UICONTROL 其他選項]**&#x200B;區段，為協調的行銷活動設定更多設定。
-
-1. 按一下&#x200B;**[!UICONTROL 建立協調的行銷活動]**&#x200B;按鈕，以確認建立您的協調行銷活動。
-
-您協調的行銷活動現在已建立，並可在工作流程清單中使用。 您現在可以存取其視覺畫布，並開始新增、設定和協調其將執行的任務。 [瞭解如何協調行銷活動](orchestrate-activities.md)。
-
-## 設定行銷活動設定 {#settings}
-
-<!--Overview of new admin settings> schemas, execution fields, merge policy. [Learn more](configuration-steps.md)-->
-
-在畫布中建立協調行銷活動或協調行銷活動時，您可以存取與協調行銷活動相關的進階設定。 例如，您可以為協調的行銷活動設定特定時區、管理協調的行銷活動在發生錯誤時的行為方式，或管理應清除協調的行銷活動歷史記錄的延遲時間。
-
-這些設定是在建立協調行銷活動時，在選取的範本中預先設定的，但可視需要為此特定協調行銷活動進行編輯。
-
-![](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
-
-### 協調的行銷活動屬性 {#properties}
-
->[!CONTEXTUALHELP]
->id="ajo_workflow_settings_properties"
->title="協調的行銷活動屬性"
->abstract="此區段提供協調的行銷活動的通用屬性，在建立協調的行銷活動時也可以存取這些屬性。您可以選擇用於建立協調的行銷活動的範本並指定標籤。展開「其他選項」區段以完成特定設定，例如協調的行銷活動儲存資料夾或時區。"
-
-**[!UICONTROL 屬性]**&#x200B;區段提供一般設定，可在建立協調行銷活動時進行設定。 若要存取現有已協調行銷活動的屬性，請按一下已協調行銷活動畫布上方動作列中的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕。
-
-![](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}
-
-這些屬性包括：
-
-* 顯示在清單中的協調行銷活動的&#x200B;**[!UICONTROL 標籤]**。
-* 協調行銷活動的&#x200B;**[!UICONTROL 內部名稱]**。
-* 應儲存協調行銷活動的&#x200B;**[!UICONTROL 資料夾]**。
-* 用於所有協調行銷活動活動的預設&#x200B;**[!UICONTROL 時區]**。 根據預設，已協調的行銷活動時區是為目前行銷活動運運算元定義的時區。
-可能的值包括：
-   * **伺服器時區**，使用您Adobe Experience Platform組織的時區
-   * **運運算元時區**，使用執行協調行銷活動的運運算元時區
-   * **資料庫**&#x200B;的時區，以使用資料庫伺服器的時區
-   * 特定時區
-* 當協調的行銷活動失敗時，屬於&#x200B;**[!UICONTROL 監督員]**&#x200B;欄位中所選操作員群組的操作員會收到電子郵件通知。
-* 您也可以輸入已協調行銷活動的&#x200B;**[!UICONTROL 說明]**。
-
-### 細分設定  {#segmentation-settings}
-
->[!CONTEXTUALHELP]
->id="ajo_workflow_settings_segmentation"
->title="細分設定"
->abstract="在此區段中，您可以選取目標選擇維度以便在協調的行銷活動中選定輪廓，並選擇保留兩次執行之間的工作流程結果。此選項應僅用於測試目的，絕不能在生產協調的行銷活動中啟用。"
-
-* **[!UICONTROL 目標維度]**：選取目標維度，以用於目標定位設定檔：收件者、合約受益者、操作員、訂閱者等。
-
-* **[!UICONTROL 保留兩次執行之間的臨時母體結果]**：依預設，僅保留上次執行協調行銷活動的工作表。 先前執行的工作表由技術協調的行銷活動清除，該活動每天都會執行。
-
-  如果啟用此選項，即使執行協調的行銷活動後，也會保留工作表。 您可以將其用於測試目的，因此&#x200B;**只能**&#x200B;用於開發或中繼環境。 在生產環境協調的行銷活動中，絕不可核取此專案。
-
-### 執行設定  {#exec-settings}
-
->[!CONTEXTUALHELP]
->id="ajo_workflow_settings_execution"
->title="執行設定"
->abstract="在此區段中，您可以設定與工作流程執行相關的設定，例如保留協調的行銷活動歷史記錄的天數。"
-
-* **[!UICONTROL 歷程記錄（以天為單位）]**：指定必須清除歷程記錄的天數。 歷史記錄包含與協調行銷活動相關的元素：記錄、任務、事件（連結至協調行銷活動操作的技術物件）。 現成可用的協調行銷活動範本預設值為30天。 清除歷史記錄是由「資料庫清理」技術協調的行銷活動執行，預設為每天執行
-
-  >[!IMPORTANT]
-  >
-  >如果「**[!UICONTROL 歷史記錄 (天)]**」欄位為空白，欄位值將被視為「1」，表示歷史記錄將在 1 天後清除。
-
-* **[!UICONTROL 預設相似性]**：如果您的安裝包含數個協調的行銷活動伺服器，請使用此欄位指定將在其中執行協調行銷活動的伺服器。 這會在特定伺服器上強制執行該協調的行銷活動。 您可以選擇任何現有的相似性名稱，但請勿使用空格或標點符號。 如果您使用不同的伺服器，請指定不同的名稱（以逗號分隔）。
-
-  >[!IMPORTANT]
-  >
-  >如果此欄位中定義的值不存在於任何伺服器上，則協調的行銷活動將維持擱置狀態。
+1. 按一下「**[!UICONTROL 建立]**」按鈕確認。
 
 
-* **[!UICONTROL 將SQL查詢儲存在記錄檔中]**：核取此選項以將workflmulti-step campaignow中的SQL查詢儲存在記錄檔中。 此功能保留給進階使用者使用。它適用於包含&#x200B;**[!UICONTROL 建立對象]**&#x200B;等目標定位活動的協調行銷活動。 啟用此選項後，在協調的行銷活動執行期間傳送到資料庫的SQL查詢會顯示在協調的行銷活動記錄中，可讓您分析這些查詢以最佳化查詢或診斷問題。
+您協調的行銷活動現在已建立，並可在行銷活動清單中使用。 您可以按一下行銷活動畫布中的![行銷活動設定圖示](assets/do-not-localize/campaign-settings.svg)圖示，隨時變更這些屬性。
 
-### 錯誤管理設定  {#error-settings}
 
->[!CONTEXTUALHELP]
->id="ajo_workflow_settings_error"
->title="錯誤管理設定"
->abstract="在此區段中，您可以定義協調的行銷活動在執行期間應如何管理錯誤。您可以選擇暫停此流程、忽略一定數量的錯誤，或是停止執行協調的行銷活動。"
+## 排程行銷活動 {#schedule}
 
-* **[!UICONTROL 錯誤管理]**：此欄位可讓您定義在協調的行銷活動任務發生錯誤時要採取的動作。 有三個可能的選項：
+根據預設，協調的行銷活動會在手動啟動後開始，並在執行活動後立即結束。
 
-   * **[!UICONTROL 暫停處理序]**：已自動暫停協調的行銷活動，其狀態變更為&#x200B;**[!UICONTROL 失敗]**。 問題解決後，請使用&#x200B;**[!UICONTROL 繼續]**&#x200B;按鈕繼續協調的行銷活動。
-   * **[!UICONTROL 忽略]**：觸發錯誤的工作狀態變更為&#x200B;**[!UICONTROL 失敗]**，但協調的行銷活動會保留&#x200B;**[!UICONTROL 已啟動]**&#x200B;狀態。<!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
-   * **[!UICONTROL 中止處理序]**：已自動停止協調的行銷活動，其狀態變更為&#x200B;**[!UICONTROL 失敗]**。 問題解決後，請使用&#x200B;**[!UICONTROL 開始]**&#x200B;按鈕重新啟動協調的行銷活動。
+如果您不想在協調行銷活動啟動後立即執行，您可以指定應執行的日期和時間。 您也可以根據各種條件，以固定頻率執行行銷活動。
 
-* **[!UICONTROL 連續錯誤]**：在&#x200B;**[!UICONTROL 發生錯誤]**&#x200B;欄位中選取&#x200B;**[!UICONTROL 忽略]**&#x200B;值時，此欄位將可供使用。 您可以指定程序停止之前可以忽略的錯誤數。一旦達到此數目，協調的行銷活動狀態就會變更為&#x200B;**[!UICONTROL 失敗]**。 如果此欄位的值為0，無論錯誤數量如何，協調的行銷活動都不會停止。
+若要設定行銷活動的排程，請開啟協調的行銷活動，然後按一下&#x200B;**[!UICONTROL 儘快]**&#x200B;按鈕。
 
-## 使用協調的行銷活動範本 {#campaign-templates}
+![](assets/create-schedule.png)
+
+<!--In the Execution frequency field, select 
+
+time zone
+
+daily, weekly, monthly
+several times a day based on specific hours or periodically
+
+recurring frequencies (all except as soon and once)
+preview launch times
+validity period
+
+>[!NOTE]
+>
+>When scheduling campaigns in [!DNL Adobe Journey Optimizer], ensure your start date/time aligns with the desired first delivery. For recurring campaigns, if the initial scheduled time has already passed, the campaigns will roll over to the next available time slot according to their recurrence rules.
+
+## Work with orchestrated campaign templates {#campaign-templates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_for_campaign"
->title="協調的行銷活動範本"
->abstract="協調的行銷活動範本包含預先設定的設定和活動，在建立新的協調的行銷活動時可以重複使用。"
+>title="Orchestrated campaign templates"
+>abstract="Orchestrated campaign templates contain pre-configured settings and activities which can be reused for creating new orchestrated campaign."
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_creation_properties"
->title="協調的行銷活動屬性"
->abstract="協調的行銷活動範本包含預先設定的設定和活動，在建立新的協調的行銷活動時可以重複使用。在此畫面中，輸入協調的行銷活動範本的標籤並設定其設定，例如其內部名稱、資料夾和執行資料夾、時區和監督者群組。"
+>title="Orchestrated campaign properties"
+>abstract="Orchestrated campaign templates contain pre-configured settings and activities which can be reused for creating new orchestrated campaigns. In this screen, enter the label of the orchestrated campaign template and configure its settings such as its internal name, folder and execution folders, timezone, and supervisor group."
 
-協調的行銷活動範本包含預先設定的設定和活動，在建立新的協調的行銷活動時可以重複使用。建立協調行銷活動時，您可以從協調的行銷活動屬性中選取協調行銷活動的範本。 預設會提供空白範本。
+Orchestrated campaign templates contain pre-configured settings and activities which can be reused for creating new orchestrated campaigns. You can select the template of your orchestrated campaign from the orchestrated campaign properties, when creating an orchestrated campaign. An empty template is provided by default.
 
-您可以從現有的協調行銷活動建立範本，或從頭開始建立新範本。 兩種方法皆詳述於下方。
+You can create a template from an existing orchestrated campaign, or create a new template from scratch. Both methods are detailed below.
 
 >[!BEGINTABS]
 
->[!TAB 從現有的協調行銷活動建立範本]
+>[!TAB Create a template from an existing orchestrated campaign]
 
-若要從現有的協調行銷活動建立協調行銷活動範本，請遵循下列步驟：
+To create an orchestrated campaign template from an existing orchestrated campaign, follow these steps:
 
-1. 開啟&#x200B;**行銷活動**&#x200B;功能表，並瀏覽至協調的行銷活動以另存為範本。
-1. 按一下協調行銷活動名稱右側的三個點，然後選擇&#x200B;**復製為範本**。
-1. 在快顯視窗中，確認範本建立。
-1. 在協調的行銷活動範本畫布中，視需要檢查、新增及設定活動。
-1. 從&#x200B;**設定**&#x200B;按鈕瀏覽至設定，以變更協調行銷活動範本的名稱，並輸入說明。
-1. 選取範本的&#x200B;**資料夾**&#x200B;和&#x200B;**執行資料夾**。 資料夾是儲存協調行銷活動範本的位置。 執行資料夾是指儲存根據此範本建立之協調行銷活動的資料夾。
-1. 儲存您的變更。
+1. Open to the **Campaign** menu and browse to the orchestrated campaign to save as a template.
+1. Click the three dots on the right of the name of the orchestrated campaign, and choose **Copy as template**.
+1. In the popup window, confirm the template creation.
+1. In the orchestrated campaign template canvas, check, add, and configure the activities as needed.
+1. Browse to the settings, from the **Settings** button, to change the name of the orchestrated campaign template, and enter a description.
+1. Select the **folder** and **execution folder** of the template. The folder is the location where the orchestrated campaign template is saved. The execution folder is the folder where orchestrated campaigns created based on this template are saved.
+1. Save your changes. 
 
-範本清單現在提供已協調的行銷活動範本。 您可以根據此範本建立協調的行銷活動。 此協調的行銷活動將會預先設定範本中定義的設定和活動。
-
-
->[!TAB 從頭開始建立範本]
+The orchestrated campaign template is now available in the template list. You can create an orchestrated campaign based on this template. This orchestrated campaign will be pre-configured with the settings and activities defined in the template.
 
 
-若要從頭開始建立協調的行銷活動範本，請遵循下列步驟：
+>[!TAB Create a template from scratch]
 
-1. 開啟&#x200B;**促銷活動**&#x200B;功能表，並瀏覽至&#x200B;**範本**&#x200B;標籤。 您可以檢視可用協調的行銷活動範本清單。
-1. 按一下畫面右上角的&#x200B;**[!UICONTROL 建立範本]**&#x200B;按鈕。
-1. 輸入標籤，然後開啟其他選項，以輸入協調行銷活動範本的說明。
-1. 選取範本的資料夾和執行資料夾。 資料夾是儲存協調行銷活動範本的位置。 執行資料夾是指儲存根據此範本建立之協調行銷活動的資料夾。
-1. 按一下「**建立**」按鈕以確認您的設定。
-1. 在協調的行銷活動範本畫布中，視需要新增及設定活動。
 
-   ![](assets/wf-template-activities.png){zoomable="yes"}
+To create an orchestrated campaign template from scratch, follow these steps:
 
-1. 儲存您的變更。
+1. Open to the **Campaign** menu and browse to the **Templates** tab. You can see the list of available orchestrated campaign templates.
+1. Click the **[!UICONTROL Create template]** button in the upper-right corner of the screen.
+1. Enter the label and open the additional options to enter a description of your orchestrated campaign template.
+1. Select the folder and execution folder of the template. The folder is the location where the orchestrated campaign template is saved. The execution folder is the folder where orchestrated campaigns created based on this template are saved.
+1. Click the **Create** button to confirm your settings.
+1. In the orchestrated campaign template canvas, add and configure the activities as needed.
 
-範本清單現在提供已協調的行銷活動範本。 您可以根據此範本建立協調的行銷活動。 此協調的行銷活動將會預先設定範本中定義的設定和活動。
+     ![](assets/wf-template-activities.png){zoomable="yes"}
+
+1. Save your changes. 
+
+The orchestrated campaign template is now available in the template list. You can create an orchestrated campaign based on this template. This orchestrated campaign will be pre-configured with the settings and activities defined in the template.
 
 >[!ENDTABS]
+
+
+
+
+
+
+## Next steps {#next}
+
+Once your campaign configuration and content are ready, you can review and activate it. [Learn more](review-activate-campaign.md)
+
+-->
