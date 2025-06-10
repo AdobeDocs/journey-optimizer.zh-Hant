@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
+source-git-commit: a06872dd267b6fa63ea5be7fcc111015ff5e9d77
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 100%
+source-wordcount: '1451'
+ht-degree: 96%
 
 ---
 
@@ -58,6 +58,8 @@ ht-degree: 100%
 * **[!UICONTROL 行銷活動]** - 建立、設定及協調行銷活動，使用各種管道將一次性內容傳送給特定客群。 [了解更多](../campaigns/get-started-with-campaigns.md)
 
 * **[!UICONTROL 歷程]** - 建立、設定及協調客戶歷程：結合事件、協調及動作活動，以建立多步驟跨頻道案例。 [了解更多](../building-journeys/journey-gs.md#jo-build)
+
+* **[!UICONTROL 報告]** - Journey Optimizer報告功能與Customer Journey Analytics功能完全整合，可跨兩個平台標準化報告，並改善資料一致性和可靠性。 Journey Optimizer與Customer Journey Analytics之間的緊密整合可讓您更清楚檢視效能指標，讓使用者能做出更明智的決策。 [了解更多](../reports/report-gs-cja.md)
 
 
 ### [!UICONTROL 決策管理] {#left-nav-decision}
