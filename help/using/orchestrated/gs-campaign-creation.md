@@ -7,20 +7,15 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 6574735581de0872e78e8e05efea5c6a50dc59b1
+source-git-commit: 935ab0399da88c792104b7dc14793b69713951fc
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 27%
+source-wordcount: '496'
+ht-degree: 23%
 
 ---
 
 
-# 存取及管理協調行銷活動建立的步驟 {#orchestrated-campaign-creation}
-
->[!CONTEXTUALHELP]
->id="ajo_targeting_workflow_list"
->title="協調的行銷活動"
->abstract="在此畫面中，您可以存取協調的行銷活動的完整清單、檢查其目前狀態、上次/下次執行日期，並建立新的協調的行銷活動。"
+# 協調行銷活動建立的關鍵步驟 {#orchestrated-campaign-creation}
 
 +++ 目錄
 

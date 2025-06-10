@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 6574735581de0872e78e8e05efea5c6a50dc59b1
+source-git-commit: 935ab0399da88c792104b7dc14793b69713951fc
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1734'
 ht-degree: 20%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 20%
 
 若要建立協調的行銷活動，請遵循下列步驟：
 
-1. 若要建立&#x200B;**協調的行銷活動**，請瀏覽至&#x200B;**行銷活動**&#x200B;功能表。
+1. 瀏覽至&#x200B;**行銷活動**&#x200B;功能表。
 
 1. 按一下畫面右上角的&#x200B;**[!UICONTROL 建立協調的行銷活動]**&#x200B;按鈕。
 

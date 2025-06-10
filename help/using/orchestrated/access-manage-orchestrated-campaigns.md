@@ -6,8 +6,7 @@ description: 瞭解使用Adobe Journey Optimizer建立協調行銷活動的主�
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 6574735581de0872e78e8e05efea5c6a50dc59b1
+source-git-commit: 935ab0399da88c792104b7dc14793b69713951fc
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 27%
