@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 1%
@@ -17,8 +17,7 @@ ht-degree: 1%
 
 # 開始使用即時報告 {#live-report}
 
-使用&#x200B;**[!UICONTROL 即時報告]**，在內建儀表板中即時測量並視覺化歷程和訊息的影響和效能。
-當傳送您的傳遞或從&#x200B;**[!UICONTROL 過去24小時]**&#x200B;索引標籤執行您的歷程時，**[!UICONTROL 即時報告]**&#x200B;中就會提供資料。
+使用&#x200B;**[!UICONTROL 即時報告]**，在內建儀表板中即時測量並視覺化歷程和訊息的影響和效能。 當傳送您的傳遞或從&#x200B;**[!UICONTROL 過去24小時]**&#x200B;索引標籤執行您的歷程時，**[!UICONTROL 即時報告]**&#x200B;中就會提供資料。
 
 * 如果您想要在歷程內容中鎖定歷程，請從&#x200B;**[!UICONTROL 歷程]**&#x200B;功能表，存取歷程的&#x200B;**[!UICONTROL 更多動作]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 檢視過去24小時報告]**&#x200B;按鈕。
 
@@ -50,7 +49,7 @@ ht-degree: 1%
 
    ![](assets/report_modify_8.png)
 
-1. 按一下「移除&#x200B;**&#x200B;**」以移除任何您不需要的Widget。
+1. 按一下「移除&#x200B;****」以移除任何您不需要的Widget。
 
    ![](assets/report_modify_9.png)
 
@@ -64,19 +63,19 @@ ht-degree: 1%
 
 ## 匯出您的報告 {#export-reports}
 
-您可以輕鬆地將不同的報表匯出為PDF或CSV格式，以便共用或列印它們。
+您可以輕鬆地將不同的報表匯出為PDF或CSV格式，以便共用或列印。
 
 >[!BEGINTABS]
 
 >[!TAB 將報表匯出為PDF檔案]
 
-1. 在報表中按一下[匯出]，然後選取[PDF檔案]。**&#x200B;**&#x200B;**&#x200B;**
+1. 從您的報表中，按一下[匯出]，然後選取[匯出]，並選取[PDF檔案]。********
 
    ![](assets/export_6.png)
 
 1. 在「列印」視窗中，視需要設定檔案。 請注意，選項可能會依您的瀏覽器而有所不同。
 
-1. 選擇列印或儲存報表為PDF。
+1. 選擇將報表列印或儲存為PDF。
 
 1. 找到您要儲存檔案的資料夾，視需要重新命名，然後按一下「儲存」。
 
@@ -84,7 +83,7 @@ ht-degree: 1%
 
 >[!TAB 將報表匯出為CSV檔案]
 
-1. 從您的報表按一下[匯出]&#x200B;**&#x200B;**，然後選取[CSV檔案]&#x200B;**&#x200B;**&#x200B;來產生整體報表層級的CSV檔案。
+1. 從您的報表按一下[匯出]****，然後選取[CSV檔案]****&#x200B;來產生整體報表層級的CSV檔案。
 
    ![](assets/export_4.png)
 

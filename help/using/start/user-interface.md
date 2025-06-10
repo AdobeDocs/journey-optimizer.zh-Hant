@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 2169ab0e42ab2e8890c87e698e937f0341515b1f
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 100%
@@ -59,8 +59,6 @@ ht-degree: 100%
 
 * **[!UICONTROL 歷程]** - 建立、設定及協調客戶歷程：結合事件、協調及動作活動，以建立多步驟跨頻道案例。 [了解更多](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL 登陸頁面]** - 建立、設計、測試和發佈登陸頁面：將使用者連結傳送至線上表單，使用者可以在其中選擇加入或選擇退出接收您的通訊，或訂閱特定服務。 [了解更多](../landing-pages/get-started-lp.md)
-
 
 ### [!UICONTROL 決策管理] {#left-nav-decision}
 
@@ -79,6 +77,9 @@ ht-degree: 100%
 * **[!UICONTROL 內容範本]** - 為了加快並改善設計流程，請建立獨立範本，以在 Journey Optimizer 行銷活動與歷程中輕鬆重複使用自訂內容。 [了解更多](../content-management/content-templates.md)
 
 * **[!UICONTROL 片段]** - 建立和管理片段，以順利進行電子郵件設計流程：預先建立自訂內容區塊，用於快速組合電子郵件內容。 [了解更多](../content-management/fragments.md)
+
+* **[!UICONTROL 登陸頁面]** - 建立、設計、測試和發佈登陸頁面：將使用者連結傳送至線上表單，使用者可以在其中選擇加入或選擇退出接收您的通訊，或訂閱特定服務。 [了解更多](../landing-pages/get-started-lp.md)
+
 
 ### [!UICONTROL 資料管理] {#left-nav-data}
 
