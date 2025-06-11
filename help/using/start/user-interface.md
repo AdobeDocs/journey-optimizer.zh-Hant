@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6eb552466cbd25b9ddf0e02bad75c8c750b1f738
+source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 89%
+source-wordcount: '1694'
+ht-degree: 87%
 
 ---
 
@@ -184,7 +184,7 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 
 若要存取 AI 助理，請按一下頂端列上的圖示。AI 助理便會顯示在畫面右側區段。
 
-在此頁面[&#128279;](ai-assistant.md)上瞭解如何存取及使用AI小幫手。
+在此頁面](ai-assistant.md)上瞭解如何存取及使用AI小幫手[。
 
 ## 語言偏好設定 {#language-pref}
 
@@ -226,7 +226,8 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 
 <!--ORCHESTRATED CAMPAIGNS - Overview page-->
 
-<!--ORCHESTRATED CAMPAIGNS SKU only-->
+
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS SKU only-->
 
 
 >[!CONTEXTUALHELP]
@@ -255,7 +256,7 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 >title="可用通道"
 >abstract="電子郵件、簡訊、推播通知、直接郵件"
 
-<!--ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
 
 >[!CONTEXTUALHELP]
@@ -268,6 +269,30 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 >id="ajo_oc_jo_camppaign_ovv_2"
 >title="可用通道"
 >abstract="電子郵件、簡訊、推播通知、應用程式內、Web、程式碼型體驗"
+
+
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS - API triggered tab -->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_1"
+>title="異動API觸發的行銷活動"
+>abstract="透過API呼叫觸發即時訊息"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_2"
+>title="行銷訊息"
+>abstract="促銷內容（需要選擇加入，受商業規則限制）"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_3"
+>title="交易型訊息"
+>abstract="服務相關內容（確認、警示、不受行銷同意約束）"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_4"
+>title="可用通道"
+>abstract="電子郵件、簡訊、推播通知"
 
 <!--APPROVAL POLICIES-->
 
