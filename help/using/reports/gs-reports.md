@@ -5,10 +5,10 @@ title: 開始使用 [!DNL Adobe Journey Optimizer]中的報告和監視功能
 description: 瞭解如何使用 [!DNL Adobe Journey Optimizer] 報告和監視功能。
 role: User
 level: Beginner
-source-git-commit: 760579d13eb9f1e264dafb3f7b1e06cebd9aaaa2
+source-git-commit: a9349cedc4da2a8e76e53f9e2b5185270cda2558
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 17%
+source-wordcount: '325'
+ht-degree: 2%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 17%
 
 Adobe Journey Optimizer透過強大的報告功能，為您提供可操作的深入分析。 報告適用於行銷活動、歷程、登陸頁面、訂閱清單等。 可用的報告如下所列。
 
-此外，為了最佳化您[!DNL Journey Optimizer]體驗的傳遞能力，我們建議使用本區段[&#128279;](deliverability.md)中列出的最佳實務。
+此外，為了最佳化您[!DNL Journey Optimizer]體驗的傳遞能力，我們建議使用本區段](deliverability.md)中列出的[最佳實務。
 
 
 ## 報表型別 {#reporting-types}
 
-* **過去24小時的即時報告** — 使用&#x200B;**[!UICONTROL 即時報告]**，在內建儀表板中測量並即時視覺化歷程和訊息的影響和效能。 當傳送您的傳遞或從&#x200B;**[!UICONTROL 過去24小時]**&#x200B;索引標籤執行您的歷程時，**[!UICONTROL 即時報告]**&#x200B;中就會提供資料。 在本節[&#128279;](live-report.md)中進一步瞭解即時報告。
+* **過去24小時的即時報告** — 使用&#x200B;**[!UICONTROL 即時報告]**，在內建儀表板中測量並即時視覺化歷程和訊息的影響和效能。 當傳送您的傳遞或從&#x200B;**[!UICONTROL 過去24小時]**&#x200B;索引標籤執行您的歷程時，**[!UICONTROL 即時報告]**&#x200B;中就會提供資料。 在本節](live-report.md)中進一步瞭解即時報告[。
 
   ![](assets/report_journey.png)
 
 
-* **使用Customer Journey Analytics的全時報告** - Journey Optimizer報告與Customer Journey Analytics功能完全整合，可跨兩個平台標準化報告，並改善資料一致性和可靠性。 Journey Optimizer與Customer Journey Analytics之間的緊密整合可讓您更清楚檢視效能指標，讓使用者能做出更明智的決策。 在本節[&#128279;](report-gs-cja.md)中進一步瞭解所有時間報表。
+* **使用Customer Journey Analytics的全時報告** - Journey Optimizer報告與Customer Journey Analytics功能完全整合，可跨兩個平台標準化報告，並改善資料一致性和可靠性。 Journey Optimizer與Customer Journey Analytics之間的緊密整合可讓您更清楚檢視效能指標，讓使用者能做出更明智的決策。 在本節](report-gs-cja.md)中進一步瞭解所有時間報表[。
 
   ![](assets/gs-cja-report-1.png)
 
@@ -98,36 +98,4 @@ Adobe Journey Optimizer透過強大的報告功能，為您提供可操作的深
 <p>
 <p>
 </td>
-</tr></table>
-
-## 每個頻道的所有時間報表
-
-### 傳出頻道
-
-選取要探索相關&#x200B;**全域所有時間報表**&#x200B;的出站頻道。
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><img alt="電子郵件" src="../channels/assets/do-not-localize/email.png">
-<div align="center"><p><strong>電子郵件頻道</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>歷程報告</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-sms.md"><img alt="簡訊" src="../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><p><strong>簡訊頻道</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>歷程報告</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-push.md"><img alt="推播" src="../channels/assets/do-not-localize/push.png"></a>
-<div align="center"><p><strong>推播頻道</strong></p><p><a href="campaign-global-report-cja-push.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-push.md"><strong>歷程報告</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-direct.md"><img alt="直接郵件" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
-<div align="center"><p><strong>直接郵件頻道</strong></p><p><a href="campaign-global-report-cja-direct.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-direct.md"><strong>歷程報告</strong></a></p></div></td>
-</tr></table>
-
-### 傳入體驗
-
-選取傳入體驗，以探索相關的&#x200B;**全域所有時間報表**。
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><img alt="應用程式內" src="../channels/assets/do-not-localize/inapp.jpg">
-<div align="center"><p><strong>應用程式內頻道</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>歷程報告</strong></a></p></div></td>
-<td><p><img alt="網頁" src="../channels/assets/do-not-localize/web.jpg"></p>
-<div align="center"><p><strong>網頁管道</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>歷程報告</strong></a></p></div></td>
-<td><img alt="程式碼型體驗" src="../channels/assets/do-not-localize/code.png">
-<div align="center"><p><strong>程式碼型體驗</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>行銷活動報告</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>歷程報告</strong></a></p></div></td>
-<td><img alt="內容卡" src="../channels/assets/do-not-localize/cards.png">
-<div align="center"><p><strong>內容卡</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>歷程報告</strong></a></p></div></td>
 </tr></table>
