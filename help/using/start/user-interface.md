@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: a06872dd267b6fa63ea5be7fcc111015ff5e9d77
+source-git-commit: 476aaeb0d9d208eed3729b38c71a572daf0ec941
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 96%
+source-wordcount: '1643'
+ht-degree: 90%
 
 ---
 
@@ -174,6 +174,14 @@ ht-degree: 96%
 
 ![](assets/do-not-localize/Context-help.gif)
 
+## AI 助理 {#ai-assistant}
+
+AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並取得您特定環境的操作見解。 它適用於 Adobe Experience Cloud 的多種產品，包括 Adobe Journey Optimizer。
+
+若要存取 AI 助理，請按一下頂端列上的圖示。AI 助理便會顯示在畫面右側區段。
+
+在此頁面](ai-assistant.md)上瞭解如何存取及使用AI小幫手[。
+
 ## 語言偏好設定 {#language-pref}
 
 使用者介面提供下列語言版本：
@@ -199,13 +207,60 @@ ht-degree: 96%
 * 選擇您偏好的語言，然後按一下 **「儲存」**。若您使用的元件未當地化為您的母語，您可選取第二種語言。
   ![](assets/select-language.png)
 
+
+## 了解更多 {#more}
+
+從 [!DNL Journey Optimizer] 開始？ 有經驗的使用者遇到特定問題？ 公司的執行個體管理員？ [採取自己的路徑，更快達成目標](quick-start.md)！
+
+
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
 
 
-<!--CONTENT LOCKING-->
+<!--ORCHESTRATED CAMPAIGNS - Overview page-->
+
+<!--ORCHESTRATED CAMPAIGNS SKU only-->
 
 
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_1"
+>title="Campaign策劃"
+>abstract="分割、組合、擴充及操控關聯式資料集，以定義您的對象"
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_2"
+>title=Leverage multi-entity data"
+>abstract="瞭解協調的行銷活動如何運用關聯式資料集，讓資料更為豐富，以便進行細分和個人化"
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_3"
+>title="臨機細分和精確計數"
+>abstract="使用精確計數逐步建置區段"
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_4"
+>title="可用通道"
+>abstract="電子郵件、簡訊、推播通知、直接郵件"
+
+<!--ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_jo_camppaign_ovv_1"
+>title="建立和傳送行銷活動的引導式UI"
+>abstract="透過頻道設定一或多個動作、選擇對象、設定內容、定義排程，您就可以傳送了"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_jo_camppaign_ovv_2"
+>title="可用通道"
+>abstract="電子郵件、簡訊、推播通知、應用程式內、Web、程式碼型體驗"
 
 <!--APPROVAL POLICIES-->
 
