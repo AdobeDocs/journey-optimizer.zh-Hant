@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2ea588d81b685c762ffe795a569f2099bdd86e31
+source-git-commit: 38d4cc896414fce2e8453940fb4674ce7e60fd2b
 workflow-type: tm+mt
-source-wordcount: '2430'
-ht-degree: 95%
+source-wordcount: '2351'
+ht-degree: 97%
 
 ---
 
@@ -176,35 +176,6 @@ ht-degree: 95%
          + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
          + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
          + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
-+ 協調的行銷活動 {#orchestrated-campaigns}
-   + [開始使用協調行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
-   + [設定步驟](using/orchestrated/configuration-steps.md)
-   + [存取及管理協調的行銷活動](using/orchestrated/access-manage-orchestrated-campaigns.md)
-   + 啟動您的第一個協調行銷活動{#launch}
-      + [協調行銷活動建立的關鍵步驟](using/orchestrated/gs-campaign-creation.md)
-      + [建立及排程行銷活動](using/orchestrated/create-orchestrated-campaign.md)
-      + [協調活動](using/orchestrated/orchestrate-activities.md)
-      + [使用協調的行銷活動傳送訊息](using/orchestrated/send-messages.md)
-      + [開始和監視行銷活動](using/orchestrated/start-monitor-campaigns.md)
-      + [報告](using/orchestrated/reporting-campaigns.md)
-   + 查詢資料庫 {#query-database}
-      + [使用規則產生器](using/orchestrated/orchestrated-rule-builder.md)
-      + [建置您的第一個規則](using/orchestrated/build-query.md)
-      + [編輯運算式](using/orchestrated/edit-expressions.md)
-   + 協調的行銷活動活動 {#design-campaigns}
-      + [開始使用活動](using/orchestrated/activities/about-activities.md)
-      + [合併連結](using/orchestrated/activities/and-join.md)
-      + [建置客群](using/orchestrated/activities/build-audience.md)
-      + [變更維度](using/orchestrated/activities/change-dimension.md)
-      + [合併](using/orchestrated/activities/combine.md)
-      + [重複資料刪除](using/orchestrated/activities/deduplication.md)
-      + [擴充](using/orchestrated/activities/enrichment.md)
-      + [分支](using/orchestrated/activities/fork.md)
-      + [調和](using/orchestrated/activities/reconciliation.md)
-      + [分割](using/orchestrated/activities/split.md)
-      + [測試](using/orchestrated/activities/test.md)
-      + [等待](using/orchestrated/activities/wait.md)
-      + [管道活動](using/orchestrated/activities/channels.md)
 + 行銷活動 {#campaigns}
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
    + [建立行銷活動](using/campaigns/create-campaign.md)
