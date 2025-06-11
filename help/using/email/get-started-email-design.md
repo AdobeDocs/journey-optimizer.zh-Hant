@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、素材、資產
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
-workflow-type: ht
-source-wordcount: '608'
-ht-degree: 100%
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
+source-wordcount: '607'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 | 建議 | 使用時請務必謹慎 | 並不建議 |
 |-|-|-|
-| <ul><li>結構為<b>以靜態表格為基礎的版面</b></li> <li><b>HTML 表格和巢狀表格</b>，維持版面一致性</li> <li><b>範本寬度</b>介於 600px 到 800px 之間 </li> <li>樣式的<b>簡單、內嵌 CSS</b> </li> <li><b>網頁安全字型</b>兼具通用相容性</li> | <ul><li><b>背景圖片</b>可能不會出現在某些電子郵件平台上。</li><li><b>自訂網頁字型</b>缺少通用支援。</li><li><b>寬版面</b>可能無法在較小的螢幕上正常顯示。</li><li><b>影像圖片</b>只提供有限功能。</li><li>有時會在電子郵件傳送期間，將<b>內嵌 CSS</b> 移除。</li> | <ul><li>電子郵件環境中，通常不會支援 <b>JavaScript</b>。</li> <li> 大多數的平台上，都已封鎖 <b>`<iframe>`</b> 個標籤。 </li> <li><b>Flash</b> 已過時，系統不再提供支援。</li> <li><b>內嵌音訊</b>通常無法正常播放。</li> <li><b>內嵌影片</b>和許多電子郵件平台並不相容。</li> <li> <b>表單</b>無法在電子郵件中正常運作。</li> <li> `<div>` 分層可能會導致轉譯問題。</li> |
+| <ul><li>結構為<b>以靜態表格為基礎的版面</b></li> <li><b>HTML 表格和巢狀表格</b>，維持版面一致性</li> <li><b>範本寬度</b>介於 600px 到 800px 之間 </li> <li>樣式的<b>簡單、內嵌 CSS</b> </li> <li><b>網頁安全字型</b>兼具通用相容性</li> | <ul><li><b>背景圖片</b>可能不會出現在某些電子郵件平台上。</li><li><b>自訂網頁字型</b>缺少通用支援。</li><li><b>寬版面</b>可能無法在較小的螢幕上正常顯示。</li><li><b>影像圖片</b>只提供有限功能。</li><li>有時會在電子郵件傳送期間，將<b>嵌入 CSS</b> 移除。</li> | <ul><li>電子郵件環境中，通常不會支援 <b>JavaScript</b>。</li> <li> 大多數的平台上，都已封鎖 <b>`<iframe>`</b> 個標籤。 </li> <li><b>Flash</b> 已過時，系統不再提供支援。</li> <li><b>嵌入音訊</b>通常無法正常播放。</li> <li><b>嵌入影片</b>和許多電子郵件平台並不相容。</li> <li> <b>表單</b>無法在電子郵件中正常運作。</li> <li> `<div>` 分層可能會導致轉譯問題。</li> |
 
 ## 建立電子郵件內容的關鍵步驟 {#key-steps}
 
@@ -52,9 +52,9 @@ ht-degree: 100%
 
 1. 在電子郵件設計工具首頁，從下列選項選取您希望如何設計電子郵件：
 
-   * 透過電子郵件設計工具介面並善用 [Adobe Experience Manager Assets](../integrations/assets.md) 的影像&#x200B;**從頭開始設計電子郵件**。在[本節](content-from-scratch.md)了解如何設計您的電子郵件內容。
+   * **透過Designer的電子郵件介面從草稿開始設計您的電子郵件**，並運用[Adobe Experience Manager Assets](../integrations/assets.md)的影像。 在[本節](content-from-scratch.md)了解如何設計您的電子郵件內容。
 
-   * 直接在電子郵件設計工具&#x200B;**撰寫或貼上原始 HTML**。在[本節](code-content.md)了解如何撰寫您自己的內容。
+   * **直接在電子郵件Designer中編碼或貼上原始HTML**。 在[本節](code-content.md)了解如何撰寫您自己的內容。
 
      >[!NOTE]
      >
@@ -78,4 +78,4 @@ ht-degree: 100%
 
 了解如何設定內容實驗以進行 A/B 測試並探索電子郵件內容，以最佳方式推動您的業務目標。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447342?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

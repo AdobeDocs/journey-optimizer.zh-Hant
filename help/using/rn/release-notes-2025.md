@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '2031'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -212,7 +212,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>品牌聯名分數功能可直接在電子郵件設計工具中，提供清晰的意見回饋，協助您檢視內容是否與品牌的語調、風格和指導方針一致。Beta 提供此功能。</p>
+<p>品牌一致性分數功能會直接在電子郵件Designer中提供清楚的意見回饋，協助您檢視內容是否與品牌的語調、風格和指南一致。 Beta 提供此功能。</p>
 <p>如需詳細資訊，請參閱<a href="../content-management/brands-score.md">詳細說明文件</a>。</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -270,7 +270,7 @@ ht-degree: 100%
 
 * **個人化網址追蹤** — 推出日期： 2025 年 4 月 30 日
 
-  為了增加彈性，控制電子郵件設定，您目前可以到電子郵件設定那邊，一次將所有網址追蹤引數個人化，而不用到電子郵件設計工具中，逐一設定內容中的每個連結。[閱讀全文](../email/surface-personalization.md#personalize-url-tracking)
+  為了提高彈性並控制電子郵件設定，您現在可以在電子郵件通道設定層級一次個人化所有URL追蹤引數，而不是在電子郵件Designer中針對內容中的每個連結這麼做。 [閱讀全文](../email/surface-personalization.md#personalize-url-tracking)
 
 * **電子郵件設計工具** — 推出日期： 2025 年 4 月 1 日
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 16%
@@ -89,7 +89,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->網頁內容設計工具通常與電子郵件設計工具類似。 深入瞭解[使用 [!DNL Journey Optimizer]](../email/get-started-email-design.md)設計內容。
+>網頁內容設計工具大多與電子郵件Designer類似。 深入瞭解[使用 [!DNL Journey Optimizer]](../email/get-started-email-design.md)設計內容。
 
 ## 使用元件 {#content-components}
 
@@ -103,8 +103,8 @@ ht-degree: 16%
    * [分隔線](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [影像](../email/content-components.md#image)
-   * 標題 — 使用此元件類似於在電子郵件設計工具中使用&#x200B;**[!UICONTROL Text]**&#x200B;元件。 [了解更多](../email/content-components.md#text)
-   * 段落 — 使用此元件類似於在電子郵件設計工具中使用&#x200B;**[!UICONTROL 文字]**&#x200B;元件。 [了解更多](../email/content-components.md#text)
+   * 標題 — 使用此元件類似於在電子郵件Designer中使用&#x200B;**[!UICONTROL Text]**&#x200B;元件。 [了解更多](../email/content-components.md#text)
+   * 段落 — 使用此元件類似於在電子郵件Designer中使用&#x200B;**[!UICONTROL 文字]**&#x200B;元件。 [了解更多](../email/content-components.md#text)
    * 連結
 
    ![](assets/web-designer-components.png)

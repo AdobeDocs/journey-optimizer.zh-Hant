@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 98e99978-8538-40b4-92ac-7184864017eb
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 8%
@@ -20,13 +20,13 @@ ht-degree: 8%
 >id="ajo_web_url_to_edit_surface"
 >title="Confirm the URL to edit"
 >abstract="Confirm the URL of the specific web page to use for editing the content that will be applied on the web configuration defined above. The web page must be implemented using the Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Enter the URL to edit"
 >abstract="Enter the URL of a specific web page to use for editing the content that will be applied to all pages matching the rule. The web page must be implemented using Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 -->
 
 在[!DNL Journey Optimizer]中，視覺化網頁製作是由&#x200B;**Adobe Experience Cloud Visual Helper** Chrome瀏覽器擴充功能所支援。 [了解更多](web-prerequisites.md#visual-authoring-prerequisites)
@@ -73,7 +73,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->網頁內容設計工具通常與電子郵件設計工具類似。 深入瞭解[使用 [!DNL Journey Optimizer]](../email/get-started-email-design.md)設計內容。
+>網頁內容設計工具大多與電子郵件Designer類似。 深入瞭解[使用 [!DNL Journey Optimizer]](../email/get-started-email-design.md)設計內容。
 
 編輯網頁內容後，您就可以管理您的修改。 [了解更多](manage-web-modifications.md)
 
@@ -89,8 +89,8 @@ ht-degree: 8%
    * [分隔線](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [影像](../email/content-components.md#image)
-   * 標題 — 使用此元件類似於在電子郵件設計工具中使用&#x200B;**[!UICONTROL Text]**&#x200B;元件。 [了解更多](../email/content-components.md#text)
-   * 段落 — 使用此元件類似於在電子郵件設計工具中使用&#x200B;**[!UICONTROL 文字]**&#x200B;元件。 [了解更多](../email/content-components.md#text)
+   * 標題 — 使用此元件類似於在電子郵件Designer中使用&#x200B;**[!UICONTROL Text]**&#x200B;元件。 [了解更多](../email/content-components.md#text)
+   * 段落 — 使用此元件類似於在電子郵件Designer中使用&#x200B;**[!UICONTROL 文字]**&#x200B;元件。 [了解更多](../email/content-components.md#text)
    * 連結
 
    ![](assets/web-designer-components.png)

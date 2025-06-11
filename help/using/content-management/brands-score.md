@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: d5dd842d4fc906b454e1601ae850a12f457bcd7b
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 24%
@@ -38,7 +38,7 @@ ht-degree: 24%
 >[!AVAILABILITY]
 >
 >此功能以私人測試版形式發佈。未來版本將逐步開放所有客戶使用。
->您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>>您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 「品牌一致性」功能可協助您建立、檢閱及管理符合品牌指引的內容。 它可確保您的電子郵件行銷活動的語調、訊息和視覺身分的一致性，同時在內容上線之前作為品質檢查。
 
@@ -48,7 +48,7 @@ ht-degree: 24%
 
 1. 建立您的[電子郵件行銷活動](../campaigns/create-campaign.md)。
 
-1. 開啟電子郵件設計工具中的&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;功能表。
+1. 開啟[電子郵件Designer]中的&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;功能表。
 
    系統會自動根據您的預設品牌評估您的內容。 [瞭解如何指派預設品牌](brands.md)。
 

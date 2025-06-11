@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用電子郵件設計人員內容元件
+title: 使用電子郵件Designer內容元件
 description: 了解如何在電子郵件中使用內容元件
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-keywords: 元件，電子郵件設計工具，編輯器，電子郵件
+keywords: 元件，電子郵件Designer，編輯器，電子郵件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 50%
@@ -151,7 +151,7 @@ ht-degree: 50%
 
    ![](assets/email_designer_html_component.png)
 
-1. 複製並貼上您要新增至電子郵件的HTML程式碼，然後按一下[儲存]。**&#x200B;**
+1. 複製並貼上您要新增至電子郵件的HTML程式碼，然後按一下[儲存]。****
 
    ![](assets/email_designer_html_content.png)
 
@@ -169,7 +169,7 @@ ht-degree: 50%
 
 1. 在&#x200B;**[!UICONTROL 設定]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL 瀏覽]**&#x200B;以從您的資產選擇影像檔案，或按一下&#x200B;**[!UICONTROL 匯入媒體]**&#x200B;以將資產上傳到Adobe Experience Manager Assets。
 
-   若要深入瞭解[!DNL Adobe Experience Manager Assets]，請參閱[Adobe Experience Manager Assets檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hant){target="_blank"}。
+   若要深入瞭解[!DNL Adobe Experience Manager Assets]，請參閱[Adobe Experience Manager Assets檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}。
 
    >[!NOTE]
    >

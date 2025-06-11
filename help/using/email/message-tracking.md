@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 30%
@@ -42,16 +42,16 @@ ht-degree: 30%
 
 啟用後，這些選項會追蹤訊息收件者的行為：
 
-* 電子郵件將 **[!UICONTROL 打開]** 量度檢查已打開的郵件數量。
-* 「 **[!UICONTROL 點按電子郵件]** 」量度計算點按電子郵件中連結的次數。
+* **[!UICONTROL 電子郵件開啟]**&#x200B;量度會檢查已開啟的郵件數。
+* **[!UICONTROL 點按電子郵件]**&#x200B;量度會計算電子郵件中連結的點按次數。
 
 ## 插入連結 {#insert-links}
 
-啟用[&#128279;](#enable-tracking)追踪後，便會追踪訊息內容中包含的所有連結。
+啟用[追蹤](#enable-tracking)時，會追蹤訊息內容中包含的所有連結。
 
 若要將連結插入到電子郵件內容，請依照以下步驟進行：
 
-1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。**&#x200B;**
+1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。****
 
    ![](assets/message-tracking-insert-link.png)
 
@@ -85,12 +85,12 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->行銷類型的電子郵件必須包含 [退出連結](../privacy/opt-out.md#opt-out-management)，這對於事務性郵件不是必需的。 创建消息時，消息類別&#x200B;**[!UICONTROL （行銷]**&#x200B;或&#x200B;**[!UICONTROL 交易）]**&#x200B;在通道配置[&#128279;](../configuration/channel-surfaces.md#email-type)中定義。
+>行銷型別電子郵件訊息必須包含[選擇退出連結](../privacy/opt-out.md#opt-out-management)，交易式訊息不需要此連結。 訊息類別（**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]**）在建立訊息時已在[頻道設定](../configuration/channel-surfaces.md#email-type)中定義。
 
 
-## 連結至鏡像頁面 {#mirror-page}
+## 連結至映象頁面 {#mirror-page}
 
-該鏡像頁面是您電子郵件的線上版本。 向鏡像頁面添加連結是一種電子郵件行銷好的做法。 使用者可以瀏覽到電子郵件的鏡像頁面，例如他們在嘗試在收件匣中檢視郵件時遇到轉譯問題或影像毀損。我們建議基於存取性原因或鼓勵社交共享，提供線上版本。
+映象頁面是電子郵件的線上版本。 將連結新增至映象頁面是電子郵件行銷的良好做法。 使用者可以瀏覽到電子郵件的鏡像頁面，例如他們在嘗試在收件匣中檢視郵件時遇到轉譯問題或影像毀損。我們建議基於存取性原因或鼓勵社交共享，提供線上版本。
 
 Adobe Journey Optimizer產生的映象頁面包含所有個人化資料。
 
@@ -114,9 +114,9 @@ Adobe Journey Optimizer產生的映象頁面包含所有個人化資料。
 
 ### Target {#link-target}
 
-**目標** 屬性用于控制連結頁面的打開位置。在錨點標記中添加 目標 属性可以指定連結是否應在新標籤、同一標籤或不同的框架中打開。
+**target**&#x200B;屬性是用來控制所連結的頁面將在何處開啟。 在錨點標籤中新增目標屬性，可以指定連結應該在新索引標籤、相同索引標籤還是不同框架中開啟。
 
-若要定義連結的目標，追隨以下步驟：
+若要定義連結的目標，請執行下列步驟：
 
 1. 在插入連結的&#x200B;**[!UICONTROL 文字]**&#x200B;元件中，選取您的連結。
 
@@ -165,7 +165,7 @@ Adobe Journey Optimizer產生的映象頁面包含所有個人化資料。
    * **[!UICONTROL 已追蹤]**：啟動追蹤此 URL。
    * **[!UICONTROL 選擇退出]**：將此 URL 視為選擇退出或取消訂閱 URL。
    * **[!UICONTROL 鏡像頁面]**：將此 URL 視為鏡像頁面 URL。
-   * **[!UICONTROL 從不]**： 從不啟動此URL的追蹤。
+   * **[!UICONTROL Never]**：從未啟用此URL的追蹤。
 
 在[即時報告](../reports/live-report.md)和[Customer Journey Analytics報告](../reports/report-gs-cja.md)中都有開啟次數和點按次數報告。
 
@@ -173,7 +173,7 @@ Adobe Journey Optimizer產生的映象頁面包含所有個人化資料。
 
 [URL追蹤](email-settings.md#url-tracking)在設定層級管理，並套用至訊息內容中包含的所有URL。
 
-您也可以在電子郵件設計工具中[個人化個別URL](../personalization/personalization-syntax.md#perso-urls)。 若要將個人化URL追蹤引數新增至內容中的單一連結，請遵循下列步驟。
+您也可以在電子郵件Designer中[個人化個別URL](../personalization/personalization-syntax.md#perso-urls)。 若要將個人化URL追蹤引數新增至內容中的單一連結，請遵循下列步驟。
 
 1. 選取連結並按一下內容工具列中的&#x200B;**[!UICONTROL 插入連結]**。
 

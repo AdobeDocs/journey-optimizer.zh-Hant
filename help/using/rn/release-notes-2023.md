@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '4377'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -54,14 +54,14 @@ ht-degree: 100%
 <td>
 <p>透過簡訊管道，您現在可以傳送多媒體訊息服務 (MMS) 訊息，來與客戶分享影像、GIF 或影片，藉此增強通訊交流。 請注意，目前只有 Sinch 提供此功能。</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>如需詳細資訊，請參閱<a href="../sms/create-sms.md#mms-content">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../sms/create-sms.md#mms-content">詳細說明文件</a>。</p>
 </tr>
 </tbody>
 </table>
 
-### 改進項目 {#oct-2023-improvements}
+### 功能改進 {#oct-2023-improvements}
 
-此發行版本隨附下列改進項目。
+此發行版本隨附下列改善項目。
 
 **客群**
 
@@ -169,14 +169,14 @@ ht-degree: 100%
 <tr>
 <td>
 <p>這項新功能可讓您輕鬆管理推播認證，並將其與應用程式介面中的專用沙箱建立關聯。</p>
-<p>如需詳細資訊，請參閱<a href="../in-app/inapp-configuration.md#channel-prerequisites">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../in-app/inapp-configuration.md#channel-prerequisites">詳細說明文件</a>。</p>
 </tr>
 </tbody>
 </table>
 
-### 改進項目 {#sept-2023-improvements}
+### 功能改進 {#sept-2023-improvements}
 
-此發行版本隨附下列改進項目。
+此發行版本隨附下列改善項目。
 
 **決策管理**
 
@@ -267,7 +267,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>現在您可在 Journey Optimizer 中建立和管理種子清單。 種子清單包含內部地址 (可以新增到實際客群) 並在傳送執行時收到與目標輪廓完全相同的訊息。 使用此功能可監視所傳送的通訊，並確保所有顯示格式、URL、影像和連結均正確無誤。</p>
 <img src="../configuration/assets/seed-list-details.png">
-<p>如需詳細資訊，請參閱<a href="../configuration/seed-lists.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/seed-lists.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -293,7 +293,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 
 
-### 改進項目 {#aug-2023-improvements}
+### 功能改進 {#aug-2023-improvements}
 
 此發行版本隨附下列改進項目。
 
@@ -364,13 +364,13 @@ A new option is available in the email surface settings to include email address
 <table>
 <thead>
 <tr>
-<th><strong>為電子郵件設計工具轉換 HTML 內容</strong><br/></th>
+<th><strong>轉換電子郵件Designer的HTML內容</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在 Journey Optimizer 的電子郵件編輯器中匯入和轉換任何 HTML 內容。 在電子郵件設計工具中，可自動識別和提供內容區塊：使用該工具的強大設計功能來更新和個人化！</p>
+<p>您現在可以在 Journey Optimizer 的電子郵件編輯器中匯入和轉換任何 HTML 內容。 內容區塊會自動識別，並可透過電子郵件Designer取得：利用其強大的設計功能進行更新及個人化！</p>
 <img src="assets/html-convert.png">
 <p>如需詳細資訊，請參閱<a href="../email/existing-content.md">詳細文件</a>。</p>
 </td>
@@ -407,15 +407,15 @@ A new option is available in the email surface settings to include email address
 <tr>
 <td>
 <p>您現在可以使用專用的 API 來建立和管理 Adobe Journey Optimizer 內容範本，與現有的內容系統緊密整合。</p>
-<p>如需詳細資訊，請參閱<a href="https://developer.adobe.com/journey-optimizer-apis/references/content/">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://developer.adobe.com/journey-optimizer-apis/references/content/">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 改進項目 {#july-2023-improvements}
+### 功能改進 {#july-2023-improvements}
 
-此發行版本隨附下列改進項目。
+此發行版本隨附下列改善項目。
 
 
 **行銷活動**
@@ -586,7 +586,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>Personalized Optimization AI 排名模型現在通常可在決策管理中使用。 這種新類型的模型可讓您根據客群與產品建議績效來將產品建議最佳化和個人化。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -594,7 +594,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 
 
-### 改進項目 {#may-2023-improvements}
+### 改良功能 {#may-2023-improvements}
 
 **客群**
 
@@ -703,13 +703,13 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <li>使用<strong>瀏覽</strong>標籤來存取所有歷程的清單。</li></ul>
 <p>此功能可在公開測試版的所有歷程中使用。</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-gs.md#journey-access">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-gs.md#journey-access">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 改進項目 {#april-2023-improvements}
+### 功能改進 {#april-2023-improvements}
 
 **歷程**
 
@@ -776,13 +776,13 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tr>
 <td>
 <p>身為 Journey Optimizer 從業人員，您現在可以使用標籤來組織業務物件。標籤是一種快速、簡便的物件分類方法，用於改進搜尋。此功能目前處於測試階段，僅適用於歷程。</p>
-<p>如需詳細資訊，請參閱<a href="../start/search-filter-categorize.md#tags">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../start/search-filter-categorize.md#tags">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 改進項目 {#mar-2023-improvements}
+### 功能改進 {#mar-2023-improvements}
 
 **歷程**
 
@@ -859,7 +859,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <p>您現在可以與雲端儲存空間位置建立即時連線，以匯出資料集的內容。 可用目的地包括：Amazon S3 雲端儲存空間、 Azure Blob、Azure Data Lake Gen 2、資料登陸區、Google 雲端儲存空間、SFTP。</p>
 <p><strong>注意</strong> - 此功能目前為測試版，所有 Adobe Journey Optimizer 使用者都能使用。 如果您尚未擁有存取權，請與 Adobe 代表合作，取得目的地的存取權。</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
-<p>如需詳細資訊，請參閱<a href="../data/export-datasets.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../data/export-datasets.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -917,7 +917,7 @@ Note that each widget can be resized and deleted as needed.
 
 -->
 
-### 改進項目 {#feb-2023-improvements}
+### 功能改進 {#feb-2023-improvements}
 
 **歷程**
 
@@ -986,14 +986,14 @@ Note that each widget can be resized and deleted as needed.
 <p>您現在可以建立獨立內容範本，這些範本可用於歷程及行銷活動，以快速重複使用。</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>在<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=zh-Hant">此影片</a>瞭解如何建立、編輯並使用內容範本。如需詳細資訊，請參閱<a href="../content-management/content-templates.md">詳細文件</a>。
+<p>在<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=zh-Hant">此影片</a>瞭解如何建立、編輯並使用內容範本。如需詳細資訊，請參閱<a href="../content-management/content-templates.md">詳細說明文件</a>。
 </p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 改進項目 {#jan-2023-improvements}
+### 功能改進 {#jan-2023-improvements}
 
 **歷程**
 
