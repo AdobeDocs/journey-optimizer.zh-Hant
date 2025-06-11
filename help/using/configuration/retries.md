@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 重試，退回，軟退回，最佳化工具，錯誤
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: e422a62f49864c89bdaaab2d4b7622dc90163a71
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '572'
 ht-degree: 9%
 
 ---
@@ -34,11 +34,11 @@ ht-degree: 9%
 
 例如：
 
-* 您會在星期一傳送一封電子郵件，其重試時段設定為24小時。 無法傳遞emma.jones@mail.com位址。 電子郵件最多會重試三次，並在達到24小時的重試期間時停止重試。
+* 您會在星期一傳送一封電子郵件，其重試時段設定為24小時。 無法傳遞`emma.jones@mail.com`位址。 電子郵件最多會重試三次，並在達到24小時的重試期間時停止重試。
 
-* 您會在星期三傳送另一封電子郵件。 已有三次錯誤計數的emma.jones@mail.com也會被定位，並且再次無法傳送 — 兩次。 另外兩個錯誤已說明原因。
+* 您會在星期三傳送另一封電子郵件。 已有三次錯誤計數的`emma.jones@mail.com`也已定位，並再次無法傳遞 — 兩次。 另外兩個錯誤已說明原因。
 
-如果未嘗試其他傳遞，且在這兩封電子郵件之間傳遞成功，則會將emma.jones@mail.com位址新增至隱藏清單，因為3 + 2個錯誤的累積影響。
+如果未嘗試其他傳遞，且在這兩封電子郵件之間傳遞成功，則會將`emma.jones@mail.com`位址新增至隱藏清單，因為3 + 2個錯誤的累積影響。
 
 ## 重試閾值版本 {#edit-retry-threshold}
 
@@ -46,7 +46,7 @@ ht-degree: 9%
 >id="ajo_admin_suppression_list_bounces"
 >title="更新重試臨界值"
 >abstract="如果預設值不適合您的需求，您可以修改連續軟退信的允許次數。當重試計數器達到特定電子郵件地址的錯誤臨界值時，會將該地址加入禁止名單中。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=zh-Hant" text="了解禁止名單"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="了解禁止名單"
 
 如果預設值5不符合您的需求，您可以按照以下步驟修改錯誤臨界值。
 
@@ -72,7 +72,7 @@ ht-degree: 9%
 
 預設會從郵件新增至電子郵件佇列的時間開始，執行&#x200B;**3.5天** （或&#x200B;**84小時**）的重試。
 
-不過，為了確保當不再需要重試時不再執行，您可以在建立或編輯套用至電子郵件頻道的[頻道設定](channel-surfaces.md) （即訊息預設集）時，根據您的需求變更此設定。
+不過，為了確保當不再需要重試時不再執行，您可以在建立或編輯套用至電子郵件通道的[通道設定](channel-surfaces.md)時，根據您的需求變更此設定。
 
 例如，對於與密碼重設相關的交易式電子郵件，您可以將重試期間設為24小時，其中包含僅一天有效的連結。 同樣地，對於午夜銷售，您可能想要定義6小時的重試期間。
 
