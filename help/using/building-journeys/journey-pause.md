@@ -10,14 +10,19 @@ hide: true
 hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
-source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
+source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1196'
 ht-degree: 2%
 
 ---
 
 # 暫停歷程 {#journey-pause}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_pause"
+>title="暫停您的歷程"
+>abstract="暫停即時歷程以阻止新設定檔進入。 選擇是否捨棄目前歷程中的設定檔，或是將其保留在適當位置。 如果保留，在歷程重新啟動後，他們將在下一個動作活動繼續執行。 最適合更新或緊急停止，而不會失去進度。"
 
 您可以隨時暫停即時歷程、執行所有需要的變更，然後再次繼續。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->在暫停期間，您可以[套用全域篩選器](#journey-global-filters)以根據其屬性排除設定檔。 歷程會在暫停期間結束時自動繼續。 您也可以[手動](#journey-resume-steps)繼續進行。
 
@@ -80,7 +85,12 @@ ht-degree: 2%
 
 ## 如何繼續暫停的歷程 {#journey-resume-steps}
 
-暫停的歷程會在最大暫停期間14天結束後自動恢復。 可隨時手動繼續進行。
+>[!CONTEXTUALHELP]
+>id="ajo_journey_pause"
+>title="繼續您的歷程"
+>abstract="繼續暫停的歷程，讓新設定檔再次進入。 如果設定檔在暫停期間等待，則會繼續其歷程。 適用於在更新或暫停後安全地重新啟動歷程。"
+
+暫停的歷程會在最大暫停期間14天結束後自動恢復。 可隨時手動繼續進行。 繼續暫停的歷程可讓新設定檔再次進入。 如果設定檔在暫停期間等待，則會繼續其歷程。 適用於在更新或暫停後安全地重新啟動歷程。
 
 若要繼續暫停的歷程並重新開始聆聽歷程事件，請遵循下列步驟：
 
