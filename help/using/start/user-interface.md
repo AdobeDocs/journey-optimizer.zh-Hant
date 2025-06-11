@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 476aaeb0d9d208eed3729b38c71a572daf0ec941
+source-git-commit: 35ab5ee85ee573da64bf34d9ec007796ee589f59
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1646'
 ht-degree: 90%
 
 ---
@@ -180,7 +180,7 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 
 若要存取 AI 助理，請按一下頂端列上的圖示。AI 助理便會顯示在畫面右側區段。
 
-在此頁面[&#128279;](ai-assistant.md)上瞭解如何存取及使用AI小幫手。
+在此頁面](ai-assistant.md)上瞭解如何存取及使用AI小幫手[。
 
 ## 語言偏好設定 {#language-pref}
 
@@ -231,7 +231,7 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
->title=Leverage multi-entity data"
+>title="善用多實體資料"
 >abstract="瞭解協調的行銷活動如何運用關聯式資料集，讓資料更為豐富，以便進行細分和個人化"
 
 
