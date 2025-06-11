@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
-source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
+source-git-commit: 25f5f30bd91b281310727069b4543c9815b485c2
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 2%
@@ -86,7 +86,7 @@ ht-degree: 2%
 ## 如何繼續暫停的歷程 {#journey-resume-steps}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_pause"
+>id="ajo_journey_resume"
 >title="繼續您的歷程"
 >abstract="繼續暫停的歷程，讓新設定檔再次進入。 如果設定檔在暫停期間等待，則會繼續其歷程。 適用於在更新或暫停後安全地重新啟動歷程。"
 
