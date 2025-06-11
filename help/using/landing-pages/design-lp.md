@@ -26,9 +26,9 @@ ht-degree: 13%
 
 * **透過內容設計工具的介面，從頭開始設計您的登入頁面**，並運用[Adobe Experience Manager Assets](../integrations/assets.md)的影像。 瞭解如何設計您的內容<!--or use built-in templates--> [在此區段](../email/content-from-scratch.md)。
 
-* **將原始HTML**&#x200B;直接編碼或貼到內容設計工具中。 在本節](../email/code-content.md)中瞭解如何編碼您自己的內容[。
+* **將原始HTML**&#x200B;直接編碼或貼到內容設計工具中。 在本節[&#128279;](../email/code-content.md)中瞭解如何編碼您自己的內容。
 
-* 從檔案或 .zip 資料夾&#x200B;**匯入現有 HTML 內容**。在本節](../email/existing-content.md)中瞭解如何匯入內容[。
+* 從檔案或 .zip 資料夾&#x200B;**匯入現有 HTML 內容**。在本節[&#128279;](../email/existing-content.md)中瞭解如何匯入內容。
 
 * **使用在[!DNL Journey Optimizer]中建立的已儲存登入頁面範本**。 [了解更多](lp-templates.md)
 
