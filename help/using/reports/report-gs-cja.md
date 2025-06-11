@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: a9349cedc4da2a8e76e53f9e2b5185270cda2558
+source-git-commit: 15a73ba3f2d91a38d61e6518d704fc218ad0eea3
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 32%
+source-wordcount: '408'
+ht-degree: 25%
 
 ---
 
@@ -53,49 +53,15 @@ Journey Optimizer 報告功能改善與 Customer Journey Analytics 功能的互�
 
 * 如果您&#x200B;**擁有** Customer Journey Analytics並有權存取Customer Journey Analytics產品設定檔，您需要：
 
-   * Customer Journey Analytics的&#x200B;**[!UICONTROL 對象建立]**&#x200B;和&#x200B;**[!UICONTROL 對象檢視]**&#x200B;許可權。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/access-control){target="_blank"}
+   * Customer Journey Analytics的&#x200B;**[!UICONTROL 對象建立]**&#x200B;和&#x200B;**[!UICONTROL 對象檢視]**&#x200B;許可權。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control){target="_blank"}
 
    * **[!UICONTROL 管理Adobe Journey Optimizer的設定檔]**&#x200B;許可權。 [了解更多](../administration/permissions.md)
 
-* 您的Customer Journey Analytics資料檢視需要以下列設定來設定： **在Adobe Journey Optimizer中設定為預設資料檢視**。 [進一步瞭解資料檢視](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
+* 您的Customer Journey Analytics資料檢視需要以下列設定來設定： **在Adobe Journey Optimizer中設定為預設資料檢視**。 [進一步瞭解資料檢視](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
-
-## 每個頻道的所有時間報表
-
-您的所有管道皆可使用所有時間全域報表。 選擇您要取得詳細資訊之管道的報告。
-
-### 傳出頻道
-
-選取要探索相關&#x200B;**全域所有時間報表**&#x200B;的出站頻道。
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><img alt="電子郵件" src="../channels/assets/do-not-localize/email.png">
-<div align="center"><p><strong>電子郵件頻道</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>歷程報告</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-sms.md"><img alt="簡訊" src="../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><p><strong>簡訊頻道</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>歷程報告</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-push.md"><img alt="推播" src="../channels/assets/do-not-localize/push.png"></a>
-<div align="center"><p><strong>推播頻道</strong></p><p><a href="campaign-global-report-cja-push.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-push.md"><strong>歷程報告</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-direct.md"><img alt="直接郵件" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
-<div align="center"><p><strong>直接郵件頻道</strong></p><p><a href="campaign-global-report-cja-direct.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-direct.md"><strong>歷程報告</strong></a></p></div></td>
-</tr></table>
-
-### 傳入體驗
-
-選取傳入體驗，以探索相關的&#x200B;**全域所有時間報表**。
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><img alt="應用程式內" src="../channels/assets/do-not-localize/inapp.jpg">
-<div align="center"><p><strong>應用程式內頻道</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>歷程報告</strong></a></p></div></td>
-<td><p><img alt="網頁" src="../channels/assets/do-not-localize/web.jpg"></p>
-<div align="center"><p><strong>網頁管道</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>歷程報告</strong></a></p></div></td>
-<td><img alt="程式碼型體驗" src="../channels/assets/do-not-localize/code.png">
-<div align="center"><p><strong>程式碼型體驗</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>行銷活動報告</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>歷程報告</strong></a></p></div></td>
-<td><img alt="內容卡" src="../channels/assets/do-not-localize/cards.png">
-<div align="center"><p><strong>內容卡</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>歷程報告</strong></a></p></div></td>
-</tr></table>
 
 ## 作法影片{#video}
 
 以下影片說明如何搭配Customer Journey Analytics使用增強的Journey Optimizer報表。
 
->[!VIDEO](https://video.tv.adobe.com/v/3443162?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)
