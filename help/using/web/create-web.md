@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '1543'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -153,12 +153,12 @@ ht-degree: 16%
 
 有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱[內容管理](../content-management/preview-test.md)區段。
 
-## 重新導向至URL {#web-redirect-to-url}
+## 重新導向至 URL {#web-redirect-to-url}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_redirect"
->title="重新導向至其他URL"
->abstract="輸入現有的URL，您要重新導向頁面的訪客。"
+>title="重新導向至另一個 URL"
+>abstract="輸入您想要將您頁面訪客重新導向過去的現有 URL。"
 
 建立Web體驗時，您可以將訪客重新導向至另一個現有URL，而不是在Web設計工具中編寫新的變數。
 
@@ -266,4 +266,4 @@ ht-degree: 16%
 
 以下影片說明如何建立網站行銷活動、設定其屬性、檢閱及發佈。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449992/?quality=12&learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

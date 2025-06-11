@@ -8,7 +8,7 @@ exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 source-git-commit: bc433a215021b9c5c6a8948468468808e7121712
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 10%
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"
 >title="使用測試設定檔檢查您的內容"
->abstract="使用測試設定檔預覽和測試您的內容。 如果您已新增個人化欄位，您可以使用測試設定檔資料檢查這些欄位的顯示方式。"
+>abstract="使用測試設定檔預覽和測試您的內容。 若您已新增個人化欄位，便能使用測試設定檔資料確認其顯示方式。"
 
 測試設定檔是不符合已定義定位准則的其他收件者。 [瞭解如何建立測試設定檔](../audience/creating-test-profiles.md)
 
