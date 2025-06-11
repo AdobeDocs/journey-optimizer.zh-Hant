@@ -53,11 +53,11 @@ Journey Optimizer 報告功能改善與 Customer Journey Analytics 功能的互�
 
 * 如果您&#x200B;**擁有** Customer Journey Analytics並有權存取Customer Journey Analytics產品設定檔，您需要：
 
-   * Customer Journey Analytics的&#x200B;**[!UICONTROL 對象建立]**&#x200B;和&#x200B;**[!UICONTROL 對象檢視]**&#x200B;許可權。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control){target="_blank"}
+   * Customer Journey Analytics的&#x200B;**[!UICONTROL 對象建立]**&#x200B;和&#x200B;**[!UICONTROL 對象檢視]**&#x200B;許可權。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/access-control){target="_blank"}
 
    * **[!UICONTROL 管理Adobe Journey Optimizer的設定檔]**&#x200B;許可權。 [了解更多](../administration/permissions.md)
 
-* 您的Customer Journey Analytics資料檢視需要以下列設定來設定： **在Adobe Journey Optimizer中設定為預設資料檢視**。 [進一步瞭解資料檢視](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
+* 您的Customer Journey Analytics資料檢視需要以下列設定來設定： **在Adobe Journey Optimizer中設定為預設資料檢視**。 [進一步瞭解資料檢視](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
 
 ## 作法影片{#video}
