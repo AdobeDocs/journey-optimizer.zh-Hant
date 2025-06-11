@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 35ab5ee85ee573da64bf34d9ec007796ee589f59
+source-git-commit: 6eb552466cbd25b9ddf0e02bad75c8c750b1f738
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 90%
+source-wordcount: '1657'
+ht-degree: 89%
 
 ---
 
@@ -149,12 +149,16 @@ ht-degree: 90%
 
 ![](assets/use-cases-home.png)
 
++++ **可用的使用案例**
+
 可用的使用案例包括：
 
 * **建立測試輪廓**，以使用我們的 CSV 範本建立測試輪廓，以測試個人化訊息和歷程。在[本頁面](../audience/creating-test-profiles.md#use-case-1)瞭解如何實施此使用案例。
 * **傳送生日訊息給客戶**，以自動傳送電子郵件祝賀客戶生日。(即將推出)
 * **傳送電子郵件以吸引新客戶**，輕鬆傳送最多兩封電子郵件來歡迎新註冊的客戶。(即將推出)
 * **傳送推播訊息至匯入的客戶清單**，以快速將推播通知傳送至從 CSV 檔案匯入的客戶清單。(即將推出)
+
++++
 
 若要深入了解每個使用案例，請按一下&#x200B;**[!UICONTROL 檢視詳情]**&#x200B;連結。
 
@@ -180,7 +184,7 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 
 若要存取 AI 助理，請按一下頂端列上的圖示。AI 助理便會顯示在畫面右側區段。
 
-在此頁面[&#128279;](ai-assistant.md)上瞭解如何存取及使用AI小幫手。
+在此頁面](ai-assistant.md)上瞭解如何存取及使用AI小幫手[。
 
 ## 語言偏好設定 {#language-pref}
 
@@ -199,14 +203,17 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 
 您的預設介面語言是由使用者輪廓中指定的偏好語言所決定。
 
-若要變更您的語言：
++++ **如何變更您的語言**
 
-* 按一下右上角頭像處的&#x200B;**「偏好設定」**。
-  ![](assets/preferences.png)
-* 然後按一下您電子郵件地址下方顯示的語言
-* 選擇您偏好的語言，然後按一下 **「儲存」**。若您使用的元件未當地化為您的母語，您可選取第二種語言。
-  ![](assets/select-language.png)
+若要變更您的語言，請遵循下列步驟：
 
+1. 按一下右上角頭像處的&#x200B;**「偏好設定」**。
+   ![](assets/preferences.png)
+1. 然後按一下您電子郵件地址下方顯示的語言
+1. 選擇您偏好的語言，然後按一下 **「儲存」**。若您使用的元件未當地化為您的母語，您可選取第二種語言。
+   ![](assets/select-language.png)
+
++++
 
 ## 了解更多 {#more}
 
