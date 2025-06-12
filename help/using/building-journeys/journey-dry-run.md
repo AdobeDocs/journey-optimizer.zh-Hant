@@ -11,10 +11,10 @@ hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
+source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 6%
+source-wordcount: '917'
+ht-degree: 4%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
+>此功能僅適用於一組組織（可用性限制），並將在未來版本中在全球推出。
 
 
 ## 主要優點 {#journey-dry-run-benefits}
