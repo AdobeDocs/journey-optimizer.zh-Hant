@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
 workflow-type: tm+mt
 source-wordcount: '2434'
 ht-degree: 95%
@@ -269,9 +269,9 @@ ht-degree: 95%
          + [URL 追蹤](using/email/url-tracking.md)
          + [個人化電子郵件組態](using/email/surface-personalization.md)
       + 電子郵件傳遞能力 {#deliverability}
-      + [開始使用傳遞能力](using/reports/deliverability.md)
-      + [瞭解禁止名單](using/reports/suppression-list.md)
-      + [新的 DMARC 需求](using/configuration/dmarc-record-update.md)
+         + [開始使用傳遞能力](using/reports/deliverability.md)
+         + [瞭解禁止名單](using/reports/suppression-list.md)
+         + [新的 DMARC 需求](using/configuration/dmarc-record-update.md)
    + 應用程式內頻道{#in-app}
       + [開始使用應用程式內頻道](using/in-app/get-started-in-app.md)
       + [應用程式內頻道先決條件](using/in-app/inapp-configuration.md)
@@ -468,6 +468,7 @@ ht-degree: 95%
       + [手動設定客戶歷程分析](using/reports/cja-ajo.md)
       + [管理您的報告](using/reports/report-cja-manage.md)
       + [報告與實驗先決條件](using/reports/reporting-configuration.md)
+      + [排除原因](using/reports/exclusion-list.md)
       + 行銷活動報告{#reporting}
          + [行銷活動報告](using/reports/campaign-global-report-cja.md)
          + [程式碼型行銷活動報告](using/reports/campaign-global-report-cja-code.md)
@@ -492,7 +493,6 @@ ht-degree: 95%
       + [概觀報表](using/reports/channel-report-cja.md)
       + [登陸頁面報告](using/reports/lp-report-global-cja.md)
       + [訂閱清單報告](using/reports/subscription-report-global-cja.md)
-      + [排除原因](using/reports/exclusion-list.md)
    + 自訂歷程報告 {#reports}
       + [建立歷程報告](using/reports/sharing-overview.md)
       + [步驟事件欄位清單](using/reports/sharing-field-list.md)
