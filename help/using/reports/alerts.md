@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 警示
-description: 瞭解如何管理警報
+title: 存取及訂閱系統警示
+description: 瞭解如何存取及訂閱系統警示
 feature: Journeys, Alerts
 topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# 開始使用警示 {#alerts}
+# 存取及訂閱系統警示 {#alerts}
 
 建立您的歷程與行銷活動時，請使用&#x200B;**警示**&#x200B;按鈕，在執行或發佈錯誤之前檢查並解決錯誤。 在[此頁面](../building-journeys/troubleshooting.md)瞭解如何疑難排解您的歷程。 瞭解如何在[此頁面](../campaigns/review-activate-campaign.md)上檢閱您的行銷活動。
 
@@ -37,9 +37,9 @@ ht-degree: 0%
 
 ![](assets/alert-subscribe.png)
 
-您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"}訂閱警示。 警報規則會整理到不同的訂閱套件中。 與特定Journey Optimizer警報對應的事件訂閱詳述如下。
+您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}訂閱警示。 警報規則會整理到不同的訂閱套件中。 與特定Journey Optimizer警報對應的事件訂閱詳述如下。
 
-如果發生非預期的行為，會傳送警示通知給訂閱者。 根據使用者偏好設定，警報會透過電子郵件傳送，及/或直接在使用者介面右上角的Journey Optimizer通知中心傳送。 依預設，僅啟用應用程式內警報。 若要啟用電子郵件警示，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hant#enable-email-alerts){target="_blank"}。
+如果發生非預期的行為，會傳送警示通知給訂閱者。 根據使用者偏好設定，警報會透過電子郵件傳送，及/或直接在使用者介面右上角的Journey Optimizer通知中心傳送。 依預設，僅啟用應用程式內警報。 若要啟用電子郵件警示，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}。
 
 警報解決後，訂閱者會收到「已解決」通知。
 

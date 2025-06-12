@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 開始使用 [!DNL Adobe Journey Optimizer]中的報告和監視功能
-description: 瞭解如何使用 [!DNL Adobe Journey Optimizer] 報告和監視功能。
+title: 開始使用 [!DNL Adobe Journey Optimizer]的報告功能
+description: 瞭解如何存取及使用 [!DNL Adobe Journey Optimizer] 報告。
 role: User
 level: Beginner
-source-git-commit: 15a73ba3f2d91a38d61e6518d704fc218ad0eea3
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '432'
 ht-degree: 15%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 15%
 
 Adobe Journey Optimizer透過強大的報告功能，為您提供可操作的深入分析。 報告適用於行銷活動、歷程、登陸頁面、訂閱清單等。 可用的報告如下所列。
 
-此外，為了最佳化您[!DNL Journey Optimizer]體驗的傳遞能力，我們建議使用本區段[&#128279;](deliverability.md)中列出的最佳實務。
+此外，為了最佳化您[!DNL Journey Optimizer]體驗的傳遞能力，我們建議使用本區段](deliverability.md)中列出的[最佳實務。
 
 
 ## 報表型別 {#reporting-types}
 
-* **過去24小時的即時報告** — 使用&#x200B;**[!UICONTROL 即時報告]**，在內建儀表板中測量並即時視覺化歷程和訊息的影響和效能。 當傳送您的傳遞或從&#x200B;**[!UICONTROL 過去24小時]**&#x200B;索引標籤執行您的歷程時，**[!UICONTROL 即時報告]**&#x200B;中就會提供資料。 在本節[&#128279;](live-report.md)中進一步瞭解即時報告。
+* **過去24小時的即時報告** — 使用&#x200B;**[!UICONTROL 即時報告]**，在內建儀表板中測量並即時視覺化歷程和訊息的影響和效能。 當傳送您的傳遞或從&#x200B;**[!UICONTROL 過去24小時]**&#x200B;索引標籤執行您的歷程時，**[!UICONTROL 即時報告]**&#x200B;中就會提供資料。 在本節](live-report.md)中進一步瞭解即時報告[。
 
   ![](assets/report_journey.png)
 
 
-* **使用Customer Journey Analytics的全時報告** - Journey Optimizer報告與Customer Journey Analytics功能完全整合，可跨兩個平台標準化報告，並改善資料一致性和可靠性。 Journey Optimizer與Customer Journey Analytics之間的緊密整合可讓您更清楚檢視效能指標，讓使用者能做出更明智的決策。 在本節[&#128279;](report-gs-cja.md)中進一步瞭解所有時間報表。
+* **使用Customer Journey Analytics的全時報告** - Journey Optimizer報告與Customer Journey Analytics功能完全整合，可跨兩個平台標準化報告，並改善資料一致性和可靠性。 Journey Optimizer與Customer Journey Analytics之間的緊密整合可讓您更清楚檢視效能指標，讓使用者能做出更明智的決策。 在本節](report-gs-cja.md)中進一步瞭解所有時間報表[。
 
   ![](assets/gs-cja-report-1.png)
 
