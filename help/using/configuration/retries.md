@@ -47,7 +47,7 @@ ht-degree: 8%
 >title="更新重試臨界值"
 >abstract="如果預設值不適合您的需求，您可以修改連續軟退信的允許次數。當重試計數器達到特定電子郵件地址的錯誤臨界值時，會將該地址加入禁止名單中。"
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Understand the suppresion list"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=zh-Hant" text="Understand the suppresion list"-->
 
 如果預設值5不符合您的需求，您可以按照以下步驟修改錯誤臨界值。
 
