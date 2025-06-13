@@ -10,9 +10,9 @@ role: User
 level: Beginner
 keywords: 資產，整合
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: bba2fd3b481c582f33ffad79d1f1c1327143f108
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '549'
 ht-degree: 11%
 
 ---
@@ -35,32 +35,25 @@ Adobe Journey Optimizer中的Adobe Express整合可讓您在建立內容時輕�
 
 若要進一步瞭解Adobe Express，請參閱[本檔案](https://helpx.adobe.com/tw/express/user-guide.html)。
 
-若要存取&#x200B;**[!DNL Adobe Express]**&#x200B;功能表，請從[電子郵件Designer]存取您的&#x200B;**影像設定**，然後按一下[在Adobe Express中編輯]&#x200B;**&#x200B;**。
+若要存取&#x200B;**[!DNL Adobe Express]**&#x200B;功能表，請從[電子郵件Designer]存取您的&#x200B;**影像設定**，然後按一下[在Adobe Express中編輯]****。
 
 ![](assets/express_1.png)
 
 ➡️ [在影片中探索此功能](#video)
 
-## Adobe Express企業授權 {#licence}
+## 搭配使用Adobe Express與企業授權 {#licence}
 
 沒有Adobe Express Enterprise授權的使用者可存取以下各節中詳述的功能。
 
-透過企業授權，使用者可完整存取Adobe Express編輯器，並可調整色彩、亮度、銳利度、對比度、尺寸和其他設定來修改影像。
+透過企業授權，使用者擁有Adobe Express網頁編輯器的完整存取權，可調整資產設定、使用Firefly產生內容、新增文字及套用其他自訂。
 
 ![](assets/express-licence.png)
 
-+++擁有Adobe Express企業授權的使用者可用使用案例
+有關擁有Adobe Express企業授權的使用者可用使用案例的詳細資訊，請參閱[Adobe Express網頁檔案](https://helpx.adobe.com/express/web.html)。
 
-* [移除背景](https://helpx.adobe.com/tw/express/create-and-edit-images/edit-images/remove-background.html)
-* [移除物件](https://helpx.adobe.com/tw/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [清除](https://helpx.adobe.com/tw/express/create-and-edit-images/edit-images/eraser.html)
-* [插入物件](https://helpx.adobe.com/tw/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
-* [裁切](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
-* [效果](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+## 在沒有企業授權的情況下使用Adobe Express  {#edit}
 
-+++
-
-## 調整影像大小 {#resize}
+### 調整影像大小 {#resize}
 
 1. 在Adobe Express功能表中，選取&#x200B;**[!UICONTROL 調整影像大小]**。
 
@@ -84,7 +77,7 @@ Adobe Journey Optimizer中的Adobe Express整合可讓您在建立內容時輕�
 
 您的影像現在已準備好用於內容中。
 
-## 移除背景 {#background}
+### 移除背景 {#background}
 
 1. 在Adobe Express功能表中，選取&#x200B;**[!UICONTROL 移除背景]**。
 
@@ -92,7 +85,7 @@ Adobe Journey Optimizer中的Adobe Express整合可讓您在建立內容時輕�
 
 1. 系統會自動顯示您的資產，而不會顯示其背景。
 
-   按一下[套用&#x200B;**&#x200B;**]以將此用於您的內容。
+   按一下[套用&#x200B;****]以將此用於您的內容。
 
    ![](assets/express-background-2.png)
 
@@ -104,7 +97,7 @@ Adobe Journey Optimizer中的Adobe Express整合可讓您在建立內容時輕�
 
 您的影像現在已準備好用於內容中。
 
-## 裁切影像 {#crop-image}
+### 裁切影像 {#crop-image}
 
 1. 從Adobe Express功能表選取&#x200B;**[!UICONTROL 裁切影像]**。
 
@@ -114,7 +107,7 @@ Adobe Journey Optimizer中的Adobe Express整合可讓您在建立內容時輕�
 
    ![](assets/express-crop-2.png)
 
-1. 按一下[套用&#x200B;**&#x200B;**]以將此用於您的內容。 然後，**[!UICONTROL 儲存]**&#x200B;您修改的資產。
+1. 按一下[套用&#x200B;****]以將此用於您的內容。 然後，**[!UICONTROL 儲存]**&#x200B;您修改的資產。
 
 1. 在&#x200B;**[!UICONTROL 上傳影像]**&#x200B;視窗中，按一下&#x200B;**[!UICONTROL 下一步]**，然後選取資料夾以儲存您修改的資產。
 
@@ -122,7 +115,7 @@ Adobe Journey Optimizer中的Adobe Express整合可讓您在建立內容時輕�
 
 您的影像現在已準備好用於內容中。
 
-## 轉換為JPEG或PNG {#convert}
+### 轉換為JPEG或PNG {#convert}
 
 1. 在Adobe Express功能表中，依影像原始格式選取&#x200B;**[!UICONTROL 轉換成JPEG]**&#x200B;或&#x200B;**[!UICONTROL 轉換成PNG]**。
 
@@ -144,12 +137,11 @@ Adobe Journey Optimizer中的Adobe Express整合可讓您在建立內容時輕�
 
 您的影像現在已準備好用於內容中。
 
-
 ## 作法影片 {#video}
 
 了解如何使用 Adobe Express 工具在 Adobe Journey Optimizer 編輯您的資產。
 
->[!VIDEO](https://video.tv.adobe.com/v/3455534/?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
