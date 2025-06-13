@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
+source-git-commit: eff3f2fb4d1c369e77a22013ae1576b57449a8b7
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1000'
 ht-degree: 35%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 35%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer現在支援RCS (Rich Communication Services)傳訊功能，可根據電信業者支援啟用下列增強傳訊功能：</p>
+<p>Journey Optimizer現在支援RCS (Rich Communication Services)傳訊，可根據提供者和電信業者支援，啟用下列增強傳訊功能：</p>
 <ul>
 <li>品牌和認證寄件者支援：使用具有品牌元素（標誌、寄件者名稱等）的認證企業檔案來傳送訊息。</li>
 <li>訊息傳遞見解：接收包括訊息狀態更新（例如，已傳送、已傳遞、已讀取）的詳細傳遞報告。</li>
