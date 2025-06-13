@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0abf2743f7b43b54df5305f47e3bd20d37df6f39
+source-git-commit: 9845e8ca89943b7c2bb7d236cac5e30aa2b01e23
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 85%
+source-wordcount: '2129'
+ht-degree: 62%
 
 ---
 
@@ -22,7 +22,125 @@ ht-degree: 85%
 
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
-## 2025年6月更新 {#25-6-rn}
+
+
+## 2025年6月早期發行說明 {#25-6-rn}
+
+
+**至發行日期之前，下方早期發行說明如有變更，恕不另行通知**。 連結、畫面和更新文件會於發行日期發佈。
+
+**發行日期**：2025 年 6 月 17-18 日
+
+
+### 全新功能 {#25-06-features}
+
+此版本隨附的新功能詳述如下。
+
+
+<table>
+<thead>
+<tr>
+<th><strong>RCS傳訊</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer現在支援Rich Communication Services (RCS)傳訊，可根據提供者和電信業者支援，啟用下列增強傳訊功能：</p>
+<ul>
+<li>品牌和認證寄件者支援：使用具有品牌元素（標誌、寄件者名稱等）的認證企業檔案來傳送訊息。</li>
+<li>訊息傳遞見解：接收包括訊息狀態更新（例如，已傳送、已傳遞、已讀取）的詳細傳遞報告。</li>
+<li>連結追蹤：在RCS訊息中內嵌及追蹤URL，以進行參與分析。</li>
+<li>回覆SMS：當設定檔的裝置不支援RCS或暫時無法透過RCS連線時，自動回覆SMS。</li>
+<li>基本訊息構成：傳送包含選擇性媒體與豐富元素的文字型RCS訊息（視提供者支援而定）。</li>
+</ul>
+<!--p>For more information, refer to the <a href="../sms/sms-configuration.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>程式碼型體驗內容中的表單欄位</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以在JSON或HTML內容範本中定義特定的可編輯欄位，讓非技術使用者輕鬆地在程式碼型體驗通道製作中的表單檢視中編輯內容，而不需要操作任何程式碼。 不僅如此，在定義程式碼型體驗內容範本時，您現在可以在範本中插入決定原則，增加可重複使用性和易用性。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>子網域的自訂委派方法</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>除了完全委派和CNAME方法之外，現在還提供新的子網域設定方法：自訂委派方法，可讓您完全控制並維護傳遞、轉譯和追蹤訊息所需的DNS的各個層面。</p>
+<p>之前以「限量」的名義發行，目前此功能所有環境都適用（一般可用性）。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程中的內容決策活動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以透過歷程畫布中的專用內容決定活動，將個人化優惠方案納入您的歷程，並在歷程活動（包括條件和自訂動作）中使用。</p>
+<p>此功能僅適用於一組組織（可用性限制），並將在未來版本中在全球推出。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程練習</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>歷程練習是Adobe Journey Optimizer中的特殊歷程發佈模式，可讓歷程從業人員使用真實生產資料測試歷程，而不需聯絡真實客戶或更新設定檔資訊。 此功能有助於歷程參與者在發佈其歷程設計和對象鎖定目標之前獲得信心。</p>
+<p>此功能僅適用於一組組織（可用性限制），並將在未來版本中在全球推出。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>暫停並繼續歷程</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以暫停並繼續您的歷程。 此功能可讓歷程從業人員在不中斷客戶體驗的情況下暫時暫停即時歷程，藉此提供更大的控制力與彈性。 暫停時，不會傳送任何通訊，而且設定檔會維持在暫停狀態，直到歷程繼續為止。</p>
+<p>您只能暫停並繼續一個歷程，或執行大量暫停並繼續一組歷程的操作。</p>
+<p>此外，您可以將全域篩選器套用至暫停的歷程，以根據其屬性排除設定檔。</p>
+<p>此功能僅適用於一組組織（可用性限制），並將在未來版本中在全球推出。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -63,7 +181,26 @@ ht-degree: 85%
 </tbody>
 </table>
 
-### 改良功能
+
+### 改良功能 {#25-06-improv}
+
+以下列舉部分發布內容附上的改良功能。
+
+* **管道規則集**
+
+   * **上限的自訂持續時間視窗** — 新的&#x200B;**重複計數**&#x200B;欄位現在可在管道規則集設定畫面中使用，可讓您根據指定的持續時間，套用數天、數週或數月的頻率上限規則。
+
+   * **每小時持續時間** — 您現在可以為管道規則集套用每小時上限。
+
+* **程式碼型體驗**
+
+  現在可在程式碼型體驗內容範本和程式碼編輯器右側欄中使用決定原則。
+
+* **電子郵件設計工具**
+
+   * **自訂CSS支援** - Journey Optimizer現在可讓您直接在電子郵件設計工具中，將自訂CSS新增至您的電子郵件內容。
+   * **深色模式支援** - Journey Optimizer電子郵件設計工具現在提供切換到深色模式的功能，您可以在其中定義特定設定。
+
 
 * **決策** — 推出日期： 2025年6月3日
 
