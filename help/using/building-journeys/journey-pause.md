@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
-source-git-commit: 101796a9221beeb1fa4950d806a91997ee6c9ae4
+source-git-commit: 0c872f6bcc370c9f1557eca1b185fcb8fb0509f9
 workflow-type: tm+mt
 source-wordcount: '2000'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 >
 >* 暫停和恢復歷程的許可權僅限於具有&#x200B;**[!DNL Publish journeys]**&#x200B;高階許可權的使用者。 在[本節](../administration/permissions-overview.md)中進一步瞭解如何管理[!DNL Journey Optimizer]使用者的存取權。
 >
->* 開始使用暫停/恢復功能之前，[請先閱讀護欄和限制] (journey-pause-guardrails)。
+>* 開始使用暫停/恢復功能之前，[請先閱讀護欄和限制](#journey-pause-guardrails)。
 
 
 ## 如何暫停歷程 {#journey-pause-steps}
