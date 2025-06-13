@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子網域、委派、網域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 229f335f4a5880bd310fe2d522ab6b3d3160d72b
+source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2011'
 ht-degree: 21%
 
 ---
@@ -128,7 +128,7 @@ CNAME子網域設定可讓您建立子網域，並使用CNAME指向Adobe特定�
 >
 >如果貴組織的原則限制完整的子網域委派方法，則建議使用CNAME方法。 此方法需要您自行維護和管理DNS記錄。 Adobe將無法協助變更、維護或管理透過CNAME方法設定的子網域的DNS。
 
-➡️[在此影片中瞭解如何使用CNAME建立子網域以指向Adobe特定記錄](#video)
+➡️ [在此影片中瞭解如何使用CNAME建立子網域以指向Adobe特定記錄](#video)
 
 若要使用CNAME設定子網域，請遵循下列步驟：
 
@@ -243,10 +243,10 @@ Adobe處理您的請求後，未委派網域不再顯示在子網域詳細目錄
 
 >[!CAUTION]
 >
->取消委派子網域後：
+>取消委派子網域後，將套用以下內容：
 >
->   * 您無法重新啟用使用該子網域的管道設定。
->   * 您無法透過使用者介面再次委派確切的子網域。 如果您想要這樣做，請聯絡您的Adobe代表。
+>* 您無法重新啟用使用該子網域的管道設定。
+>* 您無法透過使用者介面再次委派相同的子網域。 如果您想要這樣做，請聯絡您的Adobe代表。
 
 ## 作法影片{#video}
 
