@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 101796a9221beeb1fa4950d806a91997ee6c9ae4
+source-git-commit: c00d5a97e7bedf6f1a22a59cc3bd7588eb9ad32e
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 62%
+source-wordcount: '2164'
+ht-degree: 61%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 62%
 
 **發行日期**：2025 年 6 月 17-18 日
 
-另請參閱[Adobe Experience Platform發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+另請參閱[Adobe Experience Platform發行說明](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
 ### 全新功能 {#25-06-features}
 
@@ -201,6 +201,7 @@ ht-degree: 62%
    * **自訂CSS支援** - Journey Optimizer現在可讓您直接在電子郵件設計工具中，將自訂CSS新增至您的電子郵件內容。
    * **深色模式支援** - Journey Optimizer電子郵件設計工具現在提供切換到深色模式的功能，您可以在其中定義特定設定。
 
+* **行銷活動** — 動作行銷活動的全新索引標籤導覽。 這個新的導覽模式可讓您更快速地存取內容製作，並支援行銷活動間的進一步設定擴充。
 
 * **決策** — 推出日期： 2025年6月3日
 
