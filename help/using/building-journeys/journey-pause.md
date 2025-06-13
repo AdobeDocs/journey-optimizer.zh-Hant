@@ -41,7 +41,7 @@ ht-degree: 0%
 >
 >* 暫停和恢復歷程的許可權僅限於具有&#x200B;**[!DNL Publish journeys]**&#x200B;高階許可權的使用者。 在[本節](../administration/permissions-overview.md)中進一步瞭解如何管理[!DNL Journey Optimizer]使用者的存取權。
 >
->* 開始使用暫停/恢復功能之前，[請先閱讀護欄和限制](journey-pause-guardrails)。
+>* 開始使用暫停/恢復功能之前，[請先閱讀護欄和限制] (journey-pause-guardrails)。
 
 
 ## 如何暫停歷程 {#journey-pause-steps}
