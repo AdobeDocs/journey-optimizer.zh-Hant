@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: eff3f2fb4d1c369e77a22013ae1576b57449a8b7
+source-git-commit: 8188749c47be0a3d91b9857d170bceb4747a3400
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 35%
+source-wordcount: '1017'
+ht-degree: 32%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 35%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer現在支援RCS (Rich Communication Services)傳訊，可根據提供者和電信業者支援，啟用下列增強傳訊功能：</p>
+<p>Journey Optimizer現在支援Rich Communication Services (RCS)傳訊，可根據提供者和電信業者支援，啟用下列增強傳訊功能：</p>
 <ul>
 <li>品牌和認證寄件者支援：使用具有品牌元素（標誌、寄件者名稱等）的認證企業檔案來傳送訊息。</li>
 <li>訊息傳遞見解：接收包括訊息狀態更新（例如，已傳送、已傳遞、已讀取）的詳細傳遞報告。</li>
@@ -83,8 +83,7 @@ ht-degree: 35%
 <tbody>
 <tr>
 <td>
-<p>您現在可以在JSON或HTML內容範本中定義特定的可編輯欄位，讓非技術使用者輕鬆地編輯程式碼型體驗中的內容，而不需要操作程式碼。</p>
-<p>之前以「限量」的名義發行，目前此功能所有環境都適用（一般可用性）。</p>
+<p>您現在可以在JSON或HTML內容範本中定義特定的可編輯欄位，讓非技術使用者輕鬆地在程式碼型體驗通道製作中的表單檢視中編輯內容，而不需要操作任何程式碼。 不僅如此，在定義程式碼型體驗內容範本時，您現在可以在範本中插入決定原則，增加可重複使用性和易用性。</p>
 </td>
 </tr>
 </tbody>
