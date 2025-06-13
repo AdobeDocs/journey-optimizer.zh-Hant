@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
-source-git-commit: 68a115d3075f7953501b10f2057b5aa87e0fcf92
+source-git-commit: adff7581d72947273675ab9b7bc36702d76d3792
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 0%
@@ -123,13 +123,13 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**退出條件與全域篩選器**&#x200B;圖示。
 
-   ![將全域篩選器新增至暫停的歷程](assets/add-global-filter.png){width="50%" align="left"}
+   ![將全域篩選器新增至暫停的歷程](assets/add-global-filter.png)
 
 1. 在&#x200B;**退出條件與全域篩選器**&#x200B;設定中，按一下&#x200B;**新增全域篩選器**&#x200B;根據設定檔屬性定義篩選器。
 
 1. 設定運算式，以排除國家/地區屬性等於「法國」的設定檔。
 
-   ![將全域篩選器新增至暫停的歷程](assets/add-country-filter.png){width="50%" align="left"}
+   ![將全域篩選器新增至暫停的歷程](assets/add-country-filter.png)
 
 1. 儲存您的篩選器，然後按一下&#x200B;**更新歷程**&#x200B;按鈕以套用您的變更。
 
