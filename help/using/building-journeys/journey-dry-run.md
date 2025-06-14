@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '930'
 ht-degree: 4%
 
 ---
@@ -56,25 +56,10 @@ Journey Dirun提供：
 
 >[!CAUTION]
 >
->啟動試執行許可權僅限於具有&#x200B;**[!DNL Publish journeys]**&#x200B;高階許可權的使用者。 停止試執行的許可權僅限於具有&#x200B;**[!DNL Manage journeys]**&#x200B;高階許可權的使用者。 在[本節](../administration/permissions-overview.md)中進一步瞭解如何管理[!DNL Journey Optimizer]使用者的存取權。
+>* 啟動試執行許可權僅限於具有&#x200B;**[!DNL Publish journeys]**&#x200B;高階許可權的使用者。 停止試執行的許可權僅限於具有&#x200B;**[!DNL Manage journeys]**&#x200B;高階許可權的使用者。 在[本節](../administration/permissions-overview.md)中進一步瞭解如何管理[!DNL Journey Optimizer]使用者的存取權。
+>
+>* 開始使用試執行功能之前，[請先閱讀護欄和限制](#journey-dry-run-limitations)。
 
-
-## 護欄與限制 {#journey-dry-run-limitations}
-
-* 試執行模式不適用於包含反應事件的歷程。
-* 處於試執行模式的設定檔計入可參與的設定檔。
-* 練習歷程不會影響商業規則。
-* 建立新歷程版本時，如果先前的歷程版本為&#x200B;**即時**，則新版本不允許試執行啟動。
-* 歷程練習會產生stepEvents。 這些stepEvents具有特定標幟和Derun ID：
-   * 如果已啟動試運行，`_experience.journeyOrchestration.stepEvents.inDryRun`會傳回`true`，否則會傳回`false`
-   * `_experience.journeyOrchestration.stepEvents.dryRunID`傳回試執行個體的識別碼
-* 在模擬執行期間，歷程會以下列特性執行：
-
-   * 未執行&#x200B;**頻道動作**&#x200B;節點，包括電子郵件、簡訊或推播通知。
-   * **自訂動作**&#x200B;已在試執行期間停用，而且其回應設定為Null。
-   * 在試執行期間略過&#x200B;**等待節點**。
-     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * **預設會執行**&#x200B;資料來源，包括外部資料來源。
 
 ## 開始試用 {#journey-dry-run-start}
 
@@ -132,3 +117,20 @@ Journey Dirun提供：
 按一下&#x200B;**關閉**&#x200B;按鈕以結束測試，然後按一下&#x200B;**返回草稿**&#x200B;以確認。
 
 <!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->
+
+## 護欄與限制 {#journey-dry-run-limitations}
+
+* 試執行模式不適用於包含反應事件的歷程。
+* 處於試執行模式的設定檔計入可參與的設定檔。
+* 練習歷程不會影響商業規則。
+* 建立新歷程版本時，如果先前的歷程版本為&#x200B;**即時**，則新版本不允許試執行啟動。
+* 歷程練習會產生stepEvents。 這些stepEvents具有特定標幟和Derun ID：
+   * 如果已啟動試運行，`_experience.journeyOrchestration.stepEvents.inDryRun`會傳回`true`，否則會傳回`false`
+   * `_experience.journeyOrchestration.stepEvents.dryRunID`傳回試執行個體的識別碼
+* 在模擬執行期間，歷程會以下列特性執行：
+
+   * 未執行&#x200B;**頻道動作**&#x200B;節點，包括電子郵件、簡訊或推播通知。
+   * **自訂動作**&#x200B;已在試執行期間停用，而且其回應設定為Null。
+   * 在試執行期間略過&#x200B;**等待節點**。
+     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+   * **預設會執行**&#x200B;資料來源，包括外部資料來源。

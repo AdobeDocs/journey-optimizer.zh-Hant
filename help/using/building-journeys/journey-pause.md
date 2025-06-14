@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
-source-git-commit: adff7581d72947273675ab9b7bc36702d76d3792
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 0%
@@ -113,7 +113,7 @@ ht-degree: 0%
 從歷程清單中，您可以繼續一或多個&#x200B;**已暫停**&#x200B;歷程。 若要繼續歷程群組（_大量繼續_），請選取它們並按一下畫面底部藍色列中的&#x200B;**繼續**&#x200B;按鈕。 請注意，**繼續**&#x200B;按鈕只有在選取&#x200B;**已暫停**&#x200B;歷程時才可用。
 
 
-## 將全域篩選器套用至暫停歷程中的設定檔  {#journey-global-filters}
+## 將全域篩選器套用至暫停歷程中的設定檔 {#journey-global-filters}
 
 歷程暫停時，您可以根據設定檔屬性套用全域篩選器。 此篩選器可讓您排除與恢復時定義的運算式相符的設定檔。 設定全域篩選器後，該篩選器將套用至動作節點，即使新設定檔入口亦然。 符合條件的設定檔和嘗試輸入的新設定檔，將從他們遇到的下一個動作節點&#x200B;**上的歷程**&#x200B;中排除。
 
