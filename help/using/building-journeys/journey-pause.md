@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
-source-git-commit: 79082cfa45680f9f53bc715800179aea8d251fc5
+source-git-commit: 60d3cbb1a95e347d6e727b79ccee8534453a55ab
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2019'
 ht-degree: 0%
 
 ---
@@ -79,17 +79,20 @@ ht-degree: 0%
 | 歷程活動 | 影響 |
 |-------------------------|--------------------------------------------------|
 | [對象資格](audience-qualification-events.md) | <ul> <li>在第一個節點中：會捨棄對象 </li><li>在其他節點中：與即時歷程中的行為相同，但如果對象資格在<strong>動作</strong>活動後且使用者在該動作上暫停，則會捨棄對象資格。 </li></ul> |
-| [單一事件](general-events.md) | <ul> <li>在第一個節點中：會捨棄事件</li> <br><li>在其他節點中：與即時歷程中的行為相同，但如果事件在<strong>動作</strong>活動之後，且使用者在該動作上暫停，則會捨棄事件。 </li></ul> |
-| [讀取對象](read-audience.md) | 與即時歷程中的行為相同，但有幾項特性：<br>1。  如果在<strong>讀取對象</strong>活動開始後按下<strong>暫停</strong>，則已進入歷程的設定檔將會繼續（直到下一個<strong>動作</strong>活動）。 當歷程以特定速度讀取對象時，如果完整對象尚未進入，則會捨棄佇列中的剩餘設定檔。   <br>2. 針對單一執行：如果排程日期在恢復日期之前，則不會在恢復時間顯示任何錯誤。 將會忽略該排程。 <br>3.對於增量歷程： <br> — 如果暫停發生在第一次發生之前，則在繼續時，將會播放完整的對象。 <br> — 例如，如果暫停發生，在每日週期的第4天，並且歷程保持暫停直到第9天，則在恢復時，將會包含從第4天到第9天輸入的所有設定檔 |
-| [回應](reaction-events.md) | 與即時歷程中的行為相同，但如果回應是在<strong>動作</strong>活動之後，且使用者在該動作上暫停，則會捨棄該事件。 |
-| [等待](wait-activity.md) | 與即時歷程中的行為相同 |
-| [條件](condition-activity.md) | 與即時歷程中的行為相同 |
-| 內容決策 | 設定檔會根據使用者在歷程暫停後所選取的內容進行暫留或停用 |
-| [頻道動作](journeys-message.md) | 設定檔會根據使用者在歷程暫停後所選取的內容進行暫留或停用 |
-| [自訂動作](../action/action.md) | 設定檔會根據使用者在歷程暫停後所選取的內容進行暫留或停用 |
-| [更新設定檔](update-profiles.md)與[跳轉](jump.md) | 與即時歷程中的行為相同 |
-| [外部資料Source](../datasource/external-data-sources.md) | 與即時歷程中的行為相同 |
-| [退出條件](journey-properties.md#exit-criteria) | 與即時歷程中的行為相同 |
+| [單一事件](general-events.md) | <ul> <li>在第一個節點中：會捨棄事件</li><li>在其他節點中：與即時歷程中的行為相同，但如果事件在<strong>動作</strong>活動之後，且使用者在該動作上暫停，則會捨棄事件。 </li></ul> |
+| [讀取對象](read-audience.md) | 與即時歷程的行為相同，但有幾項特性：<ol> |
+<li> 如果在<strong>讀取對象</strong>活動開始後按下<strong>暫停</strong>，則已進入歷程的設定檔將會繼續（直到下一個<strong>動作</strong>活動）。 當歷程以特定速度讀取對象時，如果完整對象尚未進入，則會捨棄佇列中的剩餘設定檔。</li>
+<li> 針對單一執行：如果排程日期在恢復日期之前，則不會在恢復時間顯示任何錯誤。 將會忽略該排程。</li>&lt;
+<li>對於增量歷程： <ul><li>如果暫停發生在第一次發生之前，則在繼續時，將會播放完整的對象。 </li><li>例如，如果暫停發生，在每日週期的第4天，並且歷程保持暫停直到第9天，則在恢復時，將包含從第4天到第9天輸入的所有設定檔  </li></ul></ol>   |
+| [反應](reaction-events.md)      | 與即時歷程中的行為相同，但如果回應是在<strong>動作</strong>活動之後，且使用者在該動作上暫停，則會捨棄該事件。    |
+| [等待](wait-activity.md)             | 與即時歷程中的行為相同 | 
+| [Condition](condition-activity.md)  | 與即時歷程中的行為相同 |
+| 內容決策  | 設定檔會根據使用者在歷程暫停後所選取的內容進行暫留或停用 |
+| [頻道動作](journeys-message.md)  | 設定檔會根據使用者在歷程暫停後所選取的內容進行暫留或停用 |
+| [自訂動作](../action/action.md)   | 設定檔會根據使用者在歷程暫停後所選取的內容進行暫留或停用 |
+| [更新設定檔](update-profiles.md)和[Jump](jump.md) | 與即時歷程中的行為相同  |
+| [外部資料Source](../datasource/external-data-sources.md)  | 與即時歷程中的行為相同 |
+| [退出條件](journey-properties.md#exit-criteria)  | 與即時歷程中的行為相同 |
 
 ## 如何繼續暫停的歷程 {#journey-resume-steps}
 
