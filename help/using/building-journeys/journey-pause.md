@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
-source-git-commit: 8e5213cf51183c68e87c2cec9cb12984acf8151a
+source-git-commit: 437868d49f4bc4123e370b60d09ba0bf644e43d9
 workflow-type: tm+mt
 source-wordcount: '2021'
 ht-degree: 6%
@@ -164,7 +164,7 @@ ht-degree: 6%
 * 某些已捨棄的設定檔會顯示在歷程步驟事件中，但不會顯示在報表中。 例如：
    * 捨棄&#x200B;**讀取對象**&#x200B;的商業事件
    * **讀取對象**&#x200B;工作因暫停歷程而捨棄
-   * 在&#x200B;**Event**&#x200B;活動在設定檔等待的動作之後時，捨棄事件
+   * 在&#x200B;**Event**活動在設定檔等待的動作之後時，捨棄事件
      <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
 ## 端對端範例 {#journey-pause-sample}
@@ -185,5 +185,5 @@ ht-degree: 6%
 
 當您繼續此歷程時：
 
-1. 全新歷程入口在一分鐘內開始
+1. 全新的歷程入口在一分鐘內開始。
 1. 目前在&#x200B;**動作**&#x200B;活動上等待歷程的設定檔會以5k tps的速率繼續。 接著，他們就可以進入等待的&#x200B;**動作**，然後繼續歷程。
