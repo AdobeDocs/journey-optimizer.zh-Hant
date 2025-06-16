@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
-source-git-commit: 33b60693d060e37873f9d505d0893839698036a8
+source-git-commit: d1b1670992ba5da14f1a4d0bfab0a7b15b29dec3
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 0%
+source-wordcount: '2014'
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"
 >title="暫停您的歷程"
->abstract="暫停即時歷程以阻止新設定檔進入。 選擇是否捨棄目前歷程中的設定檔，或是將其保留在適當位置。 如果保留，在歷程重新啟動後，他們將在下一個動作活動繼續執行。 最適合更新或緊急停止，而不會失去進度。"
+>abstract="暫停上線的歷程以防止新輪廓進入。選擇是否捨棄目前在歷程當中的輪廓或予以保留。若要保留，一旦歷程重新開始，輪廓將在下一個動作活動中繼續執行。非常適合更新或緊急停止的情況使用，不會遺失任何進度。"
 
 您可以隨時暫停即時歷程、執行所有需要的變更，然後再次繼續。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->在暫停期間，您可以[套用全域篩選器](#journey-global-filters)以根據其屬性排除設定檔。 歷程會在暫停期間結束時自動繼續。 您也可以[手動](#journey-resume-steps)繼續進行。
 
@@ -77,11 +77,11 @@ ht-degree: 0%
 歷程暫停時，設定檔管理和活動執行會根據活動而定。 行為方式詳述如下。 如需完整瞭解，另請參閱此[端對端範例](#journey-pause-sample)。
 
 
-| 歷程活動 | 影響 |
+| 歷程活動 | 暫停歷程時 |
 |-------------------------|--------------------------------------------------|
 | [對象資格](audience-qualification-events.md) | <ul> <li>在第一個節點中：會捨棄對象 </li><li>在其他節點中：與即時歷程中的行為相同，但如果對象資格在<strong>動作</strong>活動後且使用者在該動作上暫停，則會捨棄對象資格。 </li></ul> |
 | [單一事件](general-events.md) | <ul> <li>在第一個節點中：會捨棄事件</li><li>在其他節點中：與即時歷程中的行為相同，但如果事件在<strong>動作</strong>活動之後，且使用者在該動作上暫停，則會捨棄事件。 </li></ul> |
-| [讀取對象](read-audience.md) | 與即時歷程相同的行為，但有一些特異性 <ol> <li> 如果在<strong>讀取對象</strong>活動開始後按下<strong>暫停</strong>，則已進入歷程的設定檔將會繼續（直到下一個<strong>動作</strong>活動）。 當歷程以特定速度讀取對象時，如果完整對象尚未進入，則會捨棄佇列中的剩餘設定檔。</li><li> 針對單一執行：如果排程日期在恢復日期之前，則不會在恢復時間顯示任何錯誤。 將會忽略該排程。</li><li>對於增量歷程： <ul><li>如果暫停發生在第一次發生之前，則在繼續時，將會播放完整的對象。 </li><li>例如，如果暫停發生，在每日週期的第4天，並且歷程保持暫停直到第9天，則在恢復時，將包含從第4天到第9天輸入的所有設定檔  </li></ul></ol> |
+| [讀取對象](read-audience.md) | 與即時歷程的行為相同，但有幾項特性： <ol> <li> 如果在<strong>讀取對象</strong>活動開始後按下<strong>暫停</strong>，則已進入歷程的設定檔將會繼續（直到下一個<strong>動作</strong>活動）。 當歷程以特定速度讀取對象時，如果完整對象尚未進入，則會捨棄佇列中的剩餘設定檔。</li><li> 針對單一執行：如果排程日期在恢復日期之前，則不會在恢復時間顯示任何錯誤。 將會忽略該排程。</li><li>對於增量歷程： <ul><li>如果暫停發生在第一次發生之前，則在繼續時，將會播放完整的對象。 </li><li>例如，如果暫停發生，在每日週期的第4天，並且歷程保持暫停直到第9天，則在恢復時，將包含從第4天到第9天輸入的所有設定檔  </li></ul></ol> |
 | [回應](reaction-events.md) | 與即時歷程中的行為相同，但如果回應是在<strong>動作</strong>活動之後，且使用者在該動作上暫停，則會捨棄該事件。 |
 | [等待](wait-activity.md) | 與即時歷程中的行為相同 |
 | [條件](condition-activity.md) | 與即時歷程中的行為相同 |
@@ -96,10 +96,10 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_resume"
->title="繼續您的歷程"
->abstract="繼續暫停的歷程，讓新設定檔再次進入。 如果設定檔在暫停期間等待，則會繼續其歷程。 適用於在更新或暫停後安全地重新啟動歷程。"
+>title="繼續歷程"
+>abstract="繼續暫停的歷程，允許新的輪廓再次進入。如果輪廓在暫停期間是等待狀態，將會繼續其歷程。非常適合在更新或暫停後安全地重新啟動歷程時使用。"
 
-暫停的歷程會在最大暫停期間14天結束後自動恢復。 可隨時手動繼續進行。 繼續暫停的歷程可讓新設定檔再次進入。 如果設定檔在暫停期間等待，則會繼續其歷程。 適用於在更新或暫停後安全地重新啟動歷程。
+暫停的歷程會在最大暫停期間14天結束後自動恢復。 可隨時手動繼續進行。 繼續暫停的歷程可讓新設定檔再次進入。 如果輪廓在暫停期間是等待狀態，將會繼續其歷程。非常適合在更新或暫停後安全地重新啟動歷程時使用。
 
 若要繼續暫停的歷程並重新開始聆聽歷程事件，請遵循下列步驟：
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 * 某些已捨棄的設定檔會顯示在歷程步驟事件中，但不會顯示在報表中。 例如：
    * 捨棄&#x200B;**讀取對象**&#x200B;的商業事件
    * **讀取對象**&#x200B;工作因暫停歷程而捨棄
-   * 在&#x200B;**Event**&#x200B;活動在設定檔等待的動作之後時，捨棄事件
+   * 在&#x200B;**Event**活動在設定檔等待的動作之後時，捨棄事件
      <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
 ## 端對端範例 {#journey-pause-sample}
