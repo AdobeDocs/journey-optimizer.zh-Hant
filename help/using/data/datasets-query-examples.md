@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 資料集，最佳化工具，使用案例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: 1728d43bf278f9caf127d8ed44ef8b15969485f7
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '894'
 ht-degree: 2%
 
 ---
@@ -167,6 +167,12 @@ ORDER BY timestamp DESC;
 其中日期的格式為： `YYYY-MM-DD HH:MM:SS`。
 
 在識別之後，從Journey Optimizer隱藏清單中移除這些地址。 [了解更多](../configuration/manage-suppression-list.md#remove-from-suppression-list)。
+
+
+>[!NOTE]
+>
+>在某些歷程中，`messageID`可能不會對每個個別傳遞都是唯一的。 如果歷程將相同動作重新傳送至相同的設定檔，則可重複使用相同的`messageID`。 因此，若要在個別傳送層級準確追蹤或歸因事件，請合併`journeyVersionID`、`journeyActionID`和`batchInstanceID` （適用於批次歷程）或`identityMap`欄位，以獲得更精確的唯一性。
+
 
 ## 推播追蹤體驗事件資料集 {#push-tracking-experience-event-dataset}
 
