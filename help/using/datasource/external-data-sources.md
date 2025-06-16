@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 2a2abe3e663f8c9ff24c804eae53d44988960838
+source-git-commit: 71d1a7c305c33ab7bef91b82329ecb692445fb27
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 39%
+source-wordcount: '1674'
+ht-degree: 38%
 
 ---
 
@@ -229,9 +229,9 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->每個歷程都會快取驗證Token：如果兩個歷程使用相同的自訂動作，每個歷程都會快取其自己的Token。 該權杖不會在這些歷程之間共用。
+>* 每個歷程都會快取驗證Token：如果兩個歷程使用相同的自訂動作，每個歷程都會快取其自己的Token。 該權杖不會在這些歷程之間共用。
 >
->快取持續時間有助於避免對驗證端點的過多呼叫。 驗證權杖保留在服務中會快取，沒有持續性。 如果重新啟動服務，它會從乾淨的快取開始。 快取持續時間預設為1小時。 在自訂驗證裝載中，可透過指定另一個保留期間來調整它。
+>* 快取持續時間有助於避免對驗證端點的過多呼叫。 驗證權杖保留在服務中會快取，沒有持續性。 如果重新啟動服務，它會從乾淨的快取開始。 快取持續時間預設為1小時。 在自訂驗證裝載中，可透過指定另一個保留期間來調整它。
 >
 
 以下是標頭驗證型別的範例：
@@ -269,3 +269,7 @@ ht-degree: 39%
   "expiryDuration" : 5
 }
 ```
+
+>[!CAUTION]
+>
+>設定自訂動作的自訂驗證時，請注意，巢狀JSON物件（例如`bodyParams`內的子物件）目前&#x200B;**不支援**。 最終請求承載中只會包含一般索引鍵/值組。 如果您的驗證端點需要巢狀物件，這可能會導致缺少欄位和驗證失敗。
