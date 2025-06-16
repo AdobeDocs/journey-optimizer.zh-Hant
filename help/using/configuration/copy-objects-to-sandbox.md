@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙箱，歷程，複製，環境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 4945e2fb37b54683f56ca3b832553345486d0a80
+source-git-commit: 4aaef970b76002c72e3c28f55078d96fdc3cd882
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 5%
+source-wordcount: '1450'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 您可以使用套件匯出和匯入功能，跨多個沙箱複製物件，例如歷程、自訂動作、內容範本或片段。 套件可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。
 
-本頁說明Journey Optimizer內容中的沙箱工具使用案例。 如需功能本身的詳細資訊，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hant)。
+本頁說明Journey Optimizer內容中的沙箱工具使用案例。 如需功能本身的詳細資訊，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html)。
 
 >[!NOTE]
 >
@@ -41,9 +41,12 @@ Journey Optimizer可將歷程、自訂動作、內容範本和片段匯出至另
 
 * 如果匯出的物件包含設定檔個人化，請確定目標沙箱中存在適當的結構描述，以避免任何個人化問題。
 
+* 登陸頁面目前不支援在沙箱之間移轉。 將歷程複製到另一個沙箱時，歷程中任何對登陸頁面的參考或電子郵件內容仍會指向原始（來源）沙箱登陸頁面ID。 移轉後，您必須手動更新歷程和電子郵件內容中的所有登陸頁面參考，以使用來自目標（目的地）沙箱的正確登陸頁面ID。 請參閱[建立和發佈登入頁面](../landing-pages/create-lp.md)。
+
+
 ### 歷程 {#journeys}
 
-* 匯出歷程時，除了歷程本身，Journey Optimizer也會複製歷程所依賴的大部分物件：受眾、自訂動作、結構描述、事件和動作。 如需所複製物件的詳細資訊，請參閱此[區段](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hant#abobe-journey-optimizer-objects)。
+* 匯出歷程時，除了歷程本身，Journey Optimizer也會複製歷程所依賴的大部分物件：受眾、自訂動作、結構描述、事件和動作。 如需所複製物件的詳細資訊，請參閱此[區段](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects)。
 
 * 我們不保證所有連結的元素都會複製到目的地沙箱。 我們強烈建議您執行徹底檢查，例如在發佈歷程之前。 這可讓您識別任何可能遺失的物件。
 
