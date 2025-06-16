@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 資料集，最佳化工具，使用案例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 1728d43bf278f9caf127d8ed44ef8b15969485f7
+source-git-commit: 3df87ee9028217d353d657167e541e7d113c6065
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 2%
@@ -146,6 +146,11 @@ select hardBounceCount, case when sentCount > 0 then(hardBounceCount/sentCount)*
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM ajo_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
 
+>[!NOTE]
+>
+>在某些歷程中，`messageID`可能不會對每個個別傳遞都是唯一的。 如果歷程將相同動作重新傳送至相同的設定檔，則可重複使用相同的`messageID`。 因此，若要在個別傳送層級準確追蹤或歸因事件，請合併`journeyVersionID`、`journeyActionID`和`batchInstanceID` （適用於批次歷程）或`identityMap`欄位，以獲得更精確的唯一性。
+
+
 ### 在ISP中斷後識別隔離地址{#isp-outage-query}
 
 如果網際網路服務提供者(ISP)中斷，您必須識別在時間範圍內特定網域被錯誤當作跳出（隔離）的電子郵件地址。 若要取得這些位址，請使用下列查詢：
@@ -169,9 +174,6 @@ ORDER BY timestamp DESC;
 在識別之後，從Journey Optimizer隱藏清單中移除這些地址。 [了解更多](../configuration/manage-suppression-list.md#remove-from-suppression-list)。
 
 
->[!NOTE]
->
->在某些歷程中，`messageID`可能不會對每個個別傳遞都是唯一的。 如果歷程將相同動作重新傳送至相同的設定檔，則可重複使用相同的`messageID`。 因此，若要在個別傳送層級準確追蹤或歸因事件，請合併`journeyVersionID`、`journeyActionID`和`batchInstanceID` （適用於批次歷程）或`identityMap`欄位，以獲得更精確的唯一性。
 
 
 ## 推播追蹤體驗事件資料集 {#push-tracking-experience-event-dataset}
