@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
-source-git-commit: 9d84a319497e833aa77416479dd019bab59aab55
+source-git-commit: df9787d3a22d6fc615049fd738317c943e46ce8f
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 1. 開啟您要暫停的歷程。
 1. 按一下歷程畫布右上角的&#x200B;**...更多**&#x200B;按鈕，然後選取&#x200B;**暫停**。
 
-   ![暫停歷程按鈕](assets/pause-journey-button.png){width="80%" align="left"}
+   ![暫停歷程按鈕](assets/pause-journey-button.png)
 
 1. 選取如何管理目前位於歷程中的設定檔。
 
@@ -78,8 +78,8 @@ ht-degree: 0%
 
 | 歷程活動 | 輪廓管理 |
 |-------------------------|--------------------------------------------------|
-| [對象資格](audience-qualification-events.md) | 在第一個節點中：已捨棄<br>在其他節點中：與即時歷程中的行為相同，但如果對象資格在<strong>動作</strong>活動後且使用者在該動作上暫停，則會捨棄對象資格。 |
-| [單一事件](general-events.md) | 在第一個節點中：已捨棄<br>在其他節點中：與即時歷程中的行為相同，但如果事件在<strong>動作</strong>活動之後，且使用者在該動作上暫停，則會捨棄該事件。 |
+| [對象資格](audience-qualification-events.md) | <ul> <li>在第一個節點中：會捨棄設定檔 </li><br><li>在其他節點中：與即時歷程中的行為相同，但如果對象資格在<strong>動作</strong>活動後且使用者在該動作上暫停，則會捨棄對象資格。 </li></ul> |
+| [單一事件](general-events.md) |  — 在第一個節點中：已捨棄設定檔<br>在其他節點中：與即時歷程的行為相同，但如果事件在<strong>動作</strong>活動之後且使用者在該動作上暫停，則會捨棄事件。 |
 | [讀取對象](read-audience.md) | 與即時歷程中的行為相同，但有幾項特性：<br>1。  如果在<strong>讀取對象</strong>活動開始後按下<strong>暫停</strong>，則已進入歷程的設定檔將會繼續（直到下一個<strong>動作</strong>活動）。 當歷程以特定速度讀取對象時，如果完整對象尚未進入，則會捨棄佇列中的剩餘設定檔。   <br>2. 針對單一執行：如果排程日期在恢復日期之前，則不會在恢復時間顯示任何錯誤。 將會忽略該排程。 <br>3.對於增量歷程： <br> — 如果暫停發生在第一次發生之前，則在繼續時，將會播放完整的對象。 <br> — 例如，如果暫停發生，在每日週期的第4天，並且歷程保持暫停直到第9天，則在恢復時，將會包含從第4天到第9天輸入的所有設定檔 |
 | [回應](reaction-events.md) | 與即時歷程中的行為相同，但如果回應是在<strong>動作</strong>活動之後，且使用者在該動作上暫停，則會捨棄該事件。 |
 | [等待](wait-activity.md) | 與即時歷程中的行為相同 |
