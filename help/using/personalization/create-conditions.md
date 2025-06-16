@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，條件，規則
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 6f9bdb179f2bfff30494495b68a15aaac77d6b9e
+source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 9%
+source-wordcount: '605'
+ht-degree: 8%
 
 ---
 
@@ -56,17 +56,17 @@ ht-degree: 9%
 
 1. 根據您的需求建置條件式規則。 若要這麼做，請從左側選單拖放並排列所需的屬性至畫布中。
 
-   將屬性合併至畫布的步驟與區段建立體驗類似。 如需如何使用規則產生器畫布的詳細資訊，請參閱[本檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hant#rule-builder-canvas)。
+   將屬性合併至畫布的步驟與區段建立體驗類似。 如需如何使用規則產生器畫布的詳細資訊，請參閱[本檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas)。
 
    ![](assets/conditions-create.png)
 
    屬性會組織為三個索引標籤：
 
    * **[!UICONTROL 設定檔]**：
-      * **[!UICONTROL 對象]**&#x200B;列出[Adobe Experience Platform細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant)的所有對象屬性（即狀態、版本等）。
-      * **[!UICONTROL XDM個人設定檔]**&#x200B;列出與Adobe Experience Platform中定義的[體驗資料模型(XDM)結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)相關聯的所有設定檔屬性。
+      * **[!UICONTROL 對象]**&#x200B;列出[Adobe Experience Platform細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}的所有對象屬性（即狀態、版本等）。
+      * **[!UICONTROL XDM個人設定檔]**&#x200B;列出與Adobe Experience Platform中定義的[體驗資料模型(XDM)結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}相關聯的所有設定檔屬性。
    * **[!UICONTROL 內容]**：當您的訊息用於歷程時，內容歷程欄位可透過此索引標籤使用。
-   * **[!UICONTROL 對象]**：列出從[Adobe Experience Platform細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant)中建立的區段定義產生的所有對象。
+   * **[!UICONTROL 對象]**：列出從[Adobe Experience Platform細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}中建立的區段定義產生的所有對象。
 
 1. 條件式規則準備就緒後，您就可以將其新增至訊息，以建立動態內容。 [瞭解如何新增動態內容](dynamic-content.md)
 
@@ -82,11 +82,16 @@ ht-degree: 9%
 
 1. 在條件版本畫面中，按一下&#x200B;**[!UICONTROL 儲存條件]**&#x200B;按鈕。
 
-1. 提供規則的名稱和說明（選擇性），然後按一下[新增]。**&#x200B;**
+1. 提供規則的名稱和說明（選擇性），然後按一下[新增]。****
 
    ![](assets/conditions-name-description.png)
 
 1. 條件規則會儲存至程式庫。 您現在可以使用它來建立訊息中的動態內容。 [瞭解如何新增動態內容](dynamic-content.md)
+
+
+>[!CAUTION]
+>
+>為條件式內容變體命名時，僅使用英數字元(A-Z、a-z、0-9)。 在變體名稱中使用特殊字元（例如`<`、`>`、`=`、`{`、`}`等）可能會導致範本編輯器中斷或隱藏元件。
 
 ## 編輯和刪除儲存的條件規則 {#edit-delete}
 
