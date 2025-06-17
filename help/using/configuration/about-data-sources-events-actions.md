@@ -12,7 +12,7 @@ exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 33%
+ht-degree: 63%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
 >title="關於歷程設定"
->abstract="若要隨歷程傳送訊息，必須設定資料來源、事件和動作。 資料來源可讓您建立與系統的連線，以擷取將用於歷程的其他資訊，例如在條件中。 事件允許在收到事件時觸發您的歷程。 自訂動作有助於連線至協力廠商系統以傳送訊息。 如果您使用Journey Optimizer的內建傳訊功能，則不需要設定動作。"
+>abstract="若要傳送包含歷程的訊息，必須設定資料來源、事件和動作。透過資料來源，您可以與系統建立連線並擷取將在歷程中使用 (例如在條件中使用) 的其他資訊。事件在收到事件時會觸發您的歷程。自訂動作協助您連線到第三方系統以傳送訊息。若使用 Journey Optimizer 內建的訊息功能，則無需設定動作。"
 
-若要傳送包含歷程的訊息，必須設定&#x200B;**[!UICONTROL 資料來源]**、**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 動作]**。 資料來源可讓您建立與系統的連線，以擷取將用於歷程的其他資訊，例如在條件中。 事件允許在收到事件時觸發您的歷程。 自訂動作有助於連線至協力廠商系統以傳送訊息。 如果您使用Journey Optimizer的內建傳訊功能，則不需要設定動作。
+若要傳送包含歷程的訊息，必須設定&#x200B;**[!UICONTROL 資料來源]**、**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 動作]**。 透過資料來源，您可以與系統建立連線並擷取將在歷程中使用 (例如在條件中使用) 的其他資訊。事件在收到事件時會觸發您的歷程。自訂動作協助您連線到第三方系統以傳送訊息。若使用 Journey Optimizer 內建的訊息功能，則無需設定動作。
 
 
 ![](assets/admin-menu.png)

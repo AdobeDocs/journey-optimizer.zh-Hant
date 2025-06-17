@@ -12,7 +12,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 17%
+ht-degree: 29%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 17%
 
 ### 什麼是規則集？ {#what}
 
-規則集可讓您&#x200B;**將多個規則**&#x200B;分組為規則集，並將其套用至您選擇的歷程和行銷活動。 這提供了更精細的精細度，以限制客戶在特定時間範圍內可以進入的頻率及歷程數，或根據通訊型別控制使用者接收訊息的頻率。
+規則集讓您可以&#x200B;**先將許多規則設為群組改成規則集**，再將這些群組套用至選擇的歷程、行銷活動。這提供更明確的精細度，以便限制客戶在特定時段內可以進入的頻率、歷程次數，或可根據通訊類型，控制使用者接收到訊息的頻率。
 
 您可以建立兩種型別的規則集：
 
@@ -55,7 +55,7 @@ ht-degree: 17%
 
 ![](assets/rule-sets-default.png)
 
-## 建立及啟用規則集 {#Create}
+## 建立並啟動規則集 {#Create}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
@@ -81,7 +81,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
 >title="規則上限"
->abstract="設定規則的頻率上限。根據規則集網域和規則型別欄位中的選擇，此欄位可以定義可傳送到設定檔的最大訊息數量，或設定檔可同時輸入或註冊的最大歷程數量。"
+>abstract="設定規則的頻率上限。根據規則集網域和「規則類型」欄位中的選擇，此欄位可以定義傳送至輪廓的訊息數量上限，或者輪廓可同時進入或註冊的歷程數量上限。"
 
 若要建立規則集，請遵循下列步驟。
 
@@ -109,7 +109,7 @@ ht-degree: 17%
    以下章節提供了有關如何設定歷程和管道上限規則的詳細資訊：
 
    * [歷程上限](../conflict-prioritization/journey-capping.md)
-   * [依據頻道和通訊型別設定頻率上限](../conflict-prioritization/channel-capping.md)
+   * [依據頻道、通訊類型，設定頻率上限](../conflict-prioritization/channel-capping.md)
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認建立規則。 您的訊息已新增至規則集，狀態為&#x200B;**[!UICONTROL 草稿]**。
 
@@ -164,4 +164,4 @@ ht-degree: 17%
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444737?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 歷程練習
+title: 歷程試運行
 description: 瞭解如何在練習模式下發佈歷程
 feature: Journeys
 role: User
@@ -14,24 +14,24 @@ exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 4%
+ht-degree: 20%
 
 ---
 
-# 歷程練習 {#journey-dry-run}
+# 歷程試運行 {#journey-dry-run}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
 >title="試執行模式"
->abstract="此歷程已進入練習階段。 歷程練習是Adobe Journey Optimizer中的特殊歷程發佈模式，可讓歷程從業人員使用真實生產資料測試歷程，而不需聯絡真實客戶或更新設定檔資訊。  此功能有助於歷程參與者在發佈其歷程設計和對象鎖定目標之前獲得信心。"
+>abstract="本次歷程處於試執行階段。歷程試執行是 Adobe Journey Optimizer 中的特殊歷程發佈模式，允許歷程實踐者使用真實的生產資料測試歷程，而無需聯絡真實客戶或更新輪廓資訊。此功能可協助歷程實踐者對其歷程設計與客群鎖定累積信心，然後再將歷程發佈上線。"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
->title="以試執行模式發佈歷程"
->abstract="歷程練習是Adobe Journey Optimizer中的特殊歷程發佈模式，可讓歷程從業人員使用真實生產資料測試歷程。 設計歷程後，請進行模擬演練執行來確認其運作正常，確保步驟正確。 此發布模式可讓您煙霧測試歷程，無需傳送通訊給任何輪廓。"
+>title="在試執行模式中發佈歷程"
+>abstract="歷程試執行是 Adobe Journey Optimizer 中的特殊歷程發佈模式，允許歷程實踐者使用真實的生產資料測試歷程。設計歷程後，請進行模擬演練執行來確認其運作正常，確保步驟正確。 此發布模式可讓您煙霧測試歷程，無需傳送通訊給任何輪廓。"
 
-歷程練習是Adobe Journey Optimizer中的特殊歷程發佈模式，可讓歷程從業人員使用真實生產資料測試歷程，而不需聯絡真實客戶或更新設定檔資訊。  此功能有助於歷程參與者在發佈其歷程設計和對象鎖定目標之前獲得信心。
+歷程試執行是 Adobe Journey Optimizer 中的特殊歷程發佈模式，允許歷程實踐者使用真實的生產資料測試歷程，而無需聯絡真實客戶或更新輪廓資訊。此功能可協助歷程實踐者對其歷程設計與客群鎖定累積信心，然後再將歷程發佈上線。
 
 
 >[!AVAILABILITY]

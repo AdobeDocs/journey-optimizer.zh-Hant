@@ -12,7 +12,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
 workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
->title="行銷活動清單和行事曆檢視"
->abstract="除了行銷活動清單，[!DNL Journey Optimizer]還提供行銷活動的行事曆檢視，提供其排程的清晰視覺化呈現。 您可以隨時使用這些按鈕在清單和行事曆檢視之間切換。"
+>title="行銷活動清單和行事曆視圖"
+>abstract="除了行銷活動清單之外，[!DNL Journey Optimizer] 還提供行銷活動的行事曆視圖，以清晰的視覺化方式呈現排程。您可以使用這些按鈕隨時在清單和行事曆視圖之間切換。"
 
 可從&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表存取行銷活動。
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->行事曆檢視目前僅可用於一組組織（可用性限制）。 若要要求存取權，請使用[此表單](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}。
+>行事曆檢視目前僅可用於一組組織（可用性限制）。 若想請求存取權，請使用[這份表單](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}。
 >
 >此功能正在開發中。 我們歡迎您使用上方功能表中的&#x200B;**[!UICONTROL Beta意見回饋]**&#x200B;按鈕來輸入和請求。
 
@@ -120,7 +120,7 @@ ht-degree: 1%
 
 ## 複製行銷活動 {#duplicate}
 
-您可以複製即時行銷活動以建立新行銷活動。 若要這麼做，請開啟行銷活動，然後按一下[複製]。**&#x200B;**
+您可以複製即時行銷活動以建立新行銷活動。 若要這麼做，請開啟行銷活動，然後按一下[複製]。****
 
 ![](assets/create-campaign-duplicate.png)
 

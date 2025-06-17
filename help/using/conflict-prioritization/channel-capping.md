@@ -8,20 +8,21 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
+source-git-commit: d17cff4cbe661cb8f41ef09ef9850f6010fc21e5
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-# 依據頻道和通訊型別設定頻率上限 {#rule-sets}
+# 依據頻道、通訊類型，設定頻率上限 {#rule-sets}
 
 **管道**&#x200B;規則集套用上限規則至通訊管道。 例如，每天傳送的電子郵件或簡訊請勿超過1個。
 
 運用管道規則集，可讓您根據通訊型別設定頻率上限，以防止訊息相似的客戶超載。 例如，您可以建立規則集以限制傳送給客戶的&#x200B;**促銷通訊**&#x200B;數目，以及建立另一個規則集以限制傳送給客戶的&#x200B;**電子報**&#x200B;數目。 視您建立的促銷活動型別而定，您可以選擇套用促銷通訊或電子報規則集。
 
-## 建立管道上限規則
+## 建立管道頻率上限規則
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
@@ -44,7 +45,7 @@ ht-degree: 5%
 
      ![](assets/journey-capping-list.png)
 
-   * 若要在新規則集內建立上限規則，請按一下[建立規則集] **&#x200B;**，指定規則集的唯一名稱，並從[規則集網域] **[!UICONTROL 下拉式清單中選取[管道]，然後按一下[儲存]]**。**&#x200B;**
+   * 若要在新規則集內建立上限規則，請按一下[建立規則集] ****，指定規則集的唯一名稱，並從[規則集網域] **[!UICONTROL 下拉式清單中選取[管道]，然後按一下[儲存]]**。]****[!UICONTROL 
 
      ![](assets/rule-sets-create.png)
 
@@ -151,4 +152,4 @@ In this scenario, an individual profile:
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444737?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

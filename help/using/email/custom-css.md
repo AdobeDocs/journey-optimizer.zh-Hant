@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 新增自訂CSS至您的電子郵件內容
+title: 將自訂 CSS 新增至您的電子郵件內容
 description: 瞭解如何直接在Journey Optimizer的電子郵件Designer中，將自訂CSS新增至您的電子郵件內容
 feature: Email Design
 topic: Content Management
@@ -13,16 +13,16 @@ hidefromtoc: true
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
-# 新增自訂CSS至您的電子郵件內容 {#email-metadata}
+# 將自訂 CSS 新增至您的電子郵件內容 {#email-metadata}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_css"
->title="輸入您自己的CSS"
->abstract="為了提供更大的彈性並控制內容的外觀，您可以直接在電子郵件Designer中新增自訂CSS，以套用進階和特定的樣式。"
+>title="輸入自己的 CSS"
+>abstract="若想要擁有更大的彈性與控制力來決定內容的外觀，您可以直接在電子郵件設計工具中新增自訂 CSS 來套用進階和特定樣式。"
 
 在設計電子郵件時，您可以直接在[!DNL Journey Optimizer] [電子郵件Designer](get-started-email-design.md)中新增您自己的自訂CSS。 此功能可讓您套用進階和特定的樣式，以更靈活的方式控制內容的外觀。
 

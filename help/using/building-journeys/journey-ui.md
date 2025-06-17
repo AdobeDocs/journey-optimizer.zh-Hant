@@ -12,7 +12,7 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
 source-wordcount: '1179'
-ht-degree: 9%
+ht-degree: 13%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
->title="歷程清單和行事曆檢視"
->abstract="除了歷程清單，[!DNL Journey Optimizer]還提供您歷程的行事曆檢視，提供其排程的清晰視覺化呈現。 您可以隨時使用這些按鈕在清單和行事曆檢視之間切換。"
+>title="歷程清單和行事曆視圖"
+>abstract="除了歷程清單之外，[!DNL Journey Optimizer] 還提供歷程的行事曆視圖，以清晰的視覺化方式呈現排程。您可以使用這些按鈕隨時在清單和行事曆視圖之間切換。"
 
 ## 歷程儀表板 {#dashboard-jo}
 
@@ -54,7 +54,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->行事曆檢視目前僅可用於一組組織（可用性限制）。 若要要求存取權，請使用[此表單](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}。
+>行事曆檢視目前僅可用於一組組織（可用性限制）。 若想請求存取權，請使用[這份表單](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}。
 >
 >此功能正在開發中。 我們歡迎您使用上方功能表中的&#x200B;**[!UICONTROL Beta意見回饋]**&#x200B;按鈕來輸入和請求。
 
