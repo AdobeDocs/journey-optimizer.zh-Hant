@@ -10,9 +10,9 @@ level: Intermediate
 keywords: css，編輯器，摘要，電子郵件
 hide: true
 hidefromtoc: true
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: bf9f1dbacba54e8b2c499d888ba1f4d66c78b7ee
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '690'
 ht-degree: 8%
 
 ---
@@ -199,6 +199,12 @@ body {
 
 電子郵件Designer的&#x200B;**[!UICONTROL 設定]**&#x200B;窗格不會解譯或驗證自訂CSS。 它是完全獨立的，而且只能透過&#x200B;**[!UICONTROL 新增自訂CSS]**&#x200B;選項進行修改。
 
+如果`global-custom`樣式標籤將屬性`data-disabled`設定為`true`，則不會套用自訂CSS。 例如：
+
+```html
+<style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+```
+
 ### 匯入的內容
 
 如果您想要搭配匯入電子郵件Designer的內容使用自訂CSS，請考慮下列事項：
@@ -216,7 +222,7 @@ body {
 
 * 請確定您的CSS有效，且沒有語法錯誤（例如缺少大括弧、屬性名稱不正確）。 [了解作法](#use-valid-css)
 
-* 確定您的CSS已新增至具有`data-name="global-custom"`屬性的`<style>`標籤。 [了解更多](#implementation)
+* 確定您的CSS已新增至具有`data-name="global-custom"`屬性的`<style>`標籤，且`data-disabled`未套用至`global-custom`。 [了解更多](#implementation)
 
 * 確保您的CSS不會被其他CSS規則覆寫，包括任何套用至您內容的[主題](apply-email-themes.md)。
 
@@ -229,16 +235,3 @@ body {
        background: red !important;
      }
      ```
-
-<!--
-### Guardrails
--->
-
-
-
-
-
-
-
-
-
