@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
 source-wordcount: '1694'
-ht-degree: 87%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 87%
 
 * **[!UICONTROL 歷程]** - 建立、設定及協調客戶歷程：結合事件、協調及動作活動，以建立多步驟跨頻道案例。 [了解更多](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL 報告]** - Journey Optimizer報告功能與Customer Journey Analytics功能完全整合，可跨兩個平台標準化報告，並改善資料一致性和可靠性。 Journey Optimizer與Customer Journey Analytics之間的緊密整合可讓您更清楚檢視效能指標，讓使用者能做出更明智的決策。 [了解更多](../reports/report-gs-cja.md)
+* **[!UICONTROL 報告]** - Journey Optimizer 報告功能現已完全整合入 Customer Journey Analytics 功能，可跨越兩大平台，將報告標準化，改善資料一致性，提升可靠性。 Journey Optimizer 與 Customer Journey Analytics 之間能緊密整合，讓您可以更清楚地檢視效能量度，讓使用者能做出更明智的決策。[了解更多](../reports/report-gs-cja.md)
 
 
 ### [!UICONTROL 決策管理] {#left-nav-decision}
@@ -184,7 +184,7 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 
 若要存取 AI 助理，請按一下頂端列上的圖示。AI 助理便會顯示在畫面右側區段。
 
-在此頁面[&#128279;](ai-assistant.md)上瞭解如何存取及使用AI小幫手。
+[可在此頁面](ai-assistant.md)上，瞭解如何存取並使用 AI 助理。
 
 ## 語言偏好設定 {#language-pref}
 
@@ -203,9 +203,9 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 
 您的預設介面語言是由使用者輪廓中指定的偏好語言所決定。
 
-+++ **如何變更您的語言**
++++ **如何變更語言**
 
-若要變更您的語言，請遵循下列步驟：
+若想變更語言，請遵循下列步驟：
 
 1. 按一下右上角頭像處的&#x200B;**「偏好設定」**。
    ![](assets/preferences.png)
@@ -217,7 +217,7 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 
 ## 了解更多 {#more}
 
-從 [!DNL Journey Optimizer] 開始？ 有經驗的使用者遇到特定問題？ 公司的執行個體管理員？ [採取自己的路徑，更快達成目標](quick-start.md)！
+從 [!DNL Journey Optimizer] 開始？ 有經驗的使用者遇到特定問題？ 公司的執行個體管理員？ [採取自訂路徑，更快達成目標](quick-start.md)！
 
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
@@ -232,28 +232,28 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_1"
->title="Campaign策劃"
->abstract="分割、組合、擴充及操控關聯式資料集，以定義您的對象"
+>title="行銷活動協調"
+>abstract="分割、合併、擴充並操控相關資料集，以便定義您的客群"
 
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
 >title="善用多實體資料"
->abstract="瞭解協調的行銷活動如何運用關聯式資料集，讓資料更為豐富，以便進行細分和個人化"
+>abstract="瞭解協調的行銷活動如何運用相關資料集，讓資料更為豐富，以便進行分段和個人化"
 
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_3"
->title="臨機細分和精確計數"
->abstract="使用精確計數逐步建置區段"
+>title="臨時細分和確切計算"
+>abstract="使用確切計算，逐步建立區段"
 
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_4"
->title="可用通道"
+>title="可用頻道"
 >abstract="電子郵件、簡訊、推播通知、直接郵件"
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
@@ -261,14 +261,14 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_camppaign_ovv_1"
->title="建立和傳送行銷活動的引導式UI"
->abstract="透過頻道設定一或多個動作、選擇對象、設定內容、定義排程，您就可以傳送了"
+>title="建立並傳送行銷活動的引導式 UI"
+>abstract="透過頻道設定單一或許多動作，選擇客群，設定內容，定義排程，接著一切就緒，您就可以傳送資料"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_camppaign_ovv_2"
->title="可用通道"
->abstract="電子郵件、簡訊、推播通知、應用程式內、Web、程式碼型體驗"
+>title="可用頻道"
+>abstract="電子郵件、簡訊、推播通知、應用程式內、網頁、程式碼型體驗"
 
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS - API triggered tab -->
@@ -291,7 +291,7 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_4"
->title="可用通道"
+>title="可用頻道"
 >abstract="電子郵件、簡訊、推播通知"
 
 <!--APPROVAL POLICIES-->

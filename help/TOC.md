@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
 workflow-type: tm+mt
 source-wordcount: '2434'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 95%
       + [設計您的歷程](using/building-journeys/using-the-journey-designer.md)
       + [測試您的歷程](using/building-journeys/testing-the-journey.md)
       + [模擬您的歷程](using/building-journeys/journey-simulation.md)
-      + [歷程練習](using/building-journeys/journey-dry-run.md)
+      + [歷程試運行](using/building-journeys/journey-dry-run.md)
       + [發佈您的歷程](using/building-journeys/publishing-the-journey.md)
       + [歷程中的即時報告](using/building-journeys/report-journey.md)
       + [暫停歷程](using/building-journeys/journey-pause.md)
@@ -63,7 +63,7 @@ ht-degree: 95%
       + [結束您的歷程](using/building-journeys/end-journey.md)
       + [將歷程複製到另一個沙箱](using/building-journeys/copy-to-sandbox.md)
       + [疑難排解您的歷程](using/building-journeys/troubleshooting.md)
-      + [疑難排解歷程中的傳入動作](using/building-journeys/troubleshooting-inbound.md)
+      + [將歷程中的傳入動作進行疑難排解](using/building-journeys/troubleshooting-inbound.md)
       + [與 Intelligent Services 整合](using/building-journeys/ai-services-overview.md)
    + 活動 {#about-journey-building}
       + [開始使用歷程活動](using/building-journeys/about-journey-activities.md)
@@ -179,19 +179,19 @@ ht-degree: 95%
 + 協調的行銷活動 {#orchestrated-campaigns}
    + [開始使用協調行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
    + [設定步驟](using/orchestrated/configuration-steps.md)
-   + [存取及管理協調的行銷活動](using/orchestrated/access-manage-orchestrated-campaigns.md)
-   + 啟動您的第一個協調行銷活動{#launch}
-      + [協調行銷活動建立的關鍵步驟](using/orchestrated/gs-campaign-creation.md)
-      + [建立及排程行銷活動](using/orchestrated/create-orchestrated-campaign.md)
+   + [存取並管理協調的行銷活動](using/orchestrated/access-manage-orchestrated-campaigns.md)
+   + 首次建立協調的行銷活動{#launch}
+      + [建立協調的行銷活動有哪些關鍵步驟](using/orchestrated/gs-campaign-creation.md)
+      + [建立並安排行銷活動的時間](using/orchestrated/create-orchestrated-campaign.md)
       + [協調活動](using/orchestrated/orchestrate-activities.md)
-      + [使用協調的行銷活動傳送訊息](using/orchestrated/send-messages.md)
-      + [開始和監視行銷活動](using/orchestrated/start-monitor-campaigns.md)
+      + [使用協調的行銷活動，傳送訊息](using/orchestrated/send-messages.md)
+      + [開始並監視行銷活動](using/orchestrated/start-monitor-campaigns.md)
       + [報告](using/orchestrated/reporting-campaigns.md)
    + 查詢資料庫 {#query-database}
-      + [使用規則產生器](using/orchestrated/orchestrated-rule-builder.md)
-      + [建置您的第一個規則](using/orchestrated/build-query.md)
+      + [使用規則產生器來工作](using/orchestrated/orchestrated-rule-builder.md)
+      + [建立首次規則](using/orchestrated/build-query.md)
       + [編輯運算式](using/orchestrated/edit-expressions.md)
-   + 協調的行銷活動活動 {#design-campaigns}
+   + 協調的行銷活動 {#design-campaigns}
       + [開始使用活動](using/orchestrated/activities/about-activities.md)
       + [合併連結](using/orchestrated/activities/and-join.md)
       + [建置客群](using/orchestrated/activities/build-audience.md)
@@ -215,10 +215,10 @@ ht-degree: 95%
    + [開始使用衝突管理和優先順序](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [識別潛在衝突](using/conflict-prioritization/conflicts.md)
    + [指派優先順序分數](using/conflict-prioritization/priority-scores.md)
-設定訊息和歷程上限規則 {#capping-rules}
+設定訊息、歷程上限規則 {#capping-rules}
       + [使用規則集](using/conflict-prioritization/rule-sets.md)
       + [歷程上限與仲裁](using/conflict-prioritization/journey-capping.md)
-      + [依據頻道和通訊型別設定頻率上限](using/conflict-prioritization/channel-capping.md)
+      + [依據頻道、通訊類型，設定頻率上限](using/conflict-prioritization/channel-capping.md)
 + 測試並核准 {#test}
    + 預覽與測試內容 {#preview-test}
       + [開始預覽和測試](using/content-management/preview-test.md)
@@ -711,7 +711,7 @@ ht-degree: 95%
       + [內建結構 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant)
    + [查詢](using/data/get-started-queries.md)
 + 管道設定 {#configuration}
-   + [開始使用管道設定](using/configuration/get-started-configuration.md)
+   + [開始使用頻道設定](using/configuration/get-started-configuration.md)
    + [設定管道設定](using/configuration/channel-surfaces.md)
    + 引導式管道設定 {#guided-setup}
       + [開始使用引導式管道設定](using/configuration/set-mobile-config.md)
@@ -764,9 +764,9 @@ ht-degree: 95%
       + [設定 API 上限](using/configuration/capping.md)
       + [節流 API](using/configuration/throttling.md)
    + 使用 Adobe 解決方案傳送 {#adobe-solutions}
-      + [歷程中的Campaign Standard動作](using/action/acs-action.md)
-      + [歷程中的Campaign v7/v8動作](using/action/acc-action.md)
-      + [歷程中的Marketo Engage動作](using/action/marketo-engage.md)
+      + [歷程中的 Campaign Standard 動作](using/action/acs-action.md)
+      + [歷程中的行銷活動 v7/v8 動作](using/action/acc-action.md)
+      + [歷程中的 Marketo Engage 動作](using/action/marketo-engage.md)
    + 沙箱管理 {#sandbox}
       + [使用並指派沙箱](using/administration/sandboxes.md)
       + [將物件匯出至另一個沙箱](using/configuration/copy-objects-to-sandbox.md)
@@ -778,7 +778,7 @@ ht-degree: 95%
    + [內建權限](using/administration/ootb-permissions.md)
    + [權限層級](using/administration/high-low-permissions.md)
    + [屬性型存取控制](using/administration/attribute-based-access.md)
-   + [物件層級存取控制](using/administration/object-based-access.md)
+   + [物件等級的存取控制](using/administration/object-based-access.md)
 + 隱私權 {#privacy}
    + [開始使用隱私權](using/privacy/get-started-privacy.md)
    + [隱私權要求](using/privacy/requests.md)

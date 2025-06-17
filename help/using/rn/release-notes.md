@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: c00d5a97e7bedf6f1a22a59cc3bd7588eb9ad32e
 workflow-type: tm+mt
 source-wordcount: '2164'
-ht-degree: 61%
+ht-degree: 72%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 61%
 
 **發行日期**：2025 年 6 月 17-18 日
 
-另請參閱[Adobe Experience Platform發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+另請參閱[Adobe Experience Platform發行說明](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
 ### 全新功能 {#25-06-features}
 
@@ -111,13 +111,13 @@ ht-degree: 61%
 <table>
 <thead>
 <tr>
-<th><strong>歷程練習</strong><br/></th>
+<th><strong>歷程試運行</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>歷程練習是Adobe Journey Optimizer中的特殊歷程發佈模式，可讓歷程從業人員使用真實生產資料測試歷程，而不需聯絡真實客戶或更新設定檔資訊。 此功能有助於歷程參與者在發佈其歷程設計和對象鎖定目標之前獲得信心。</p>
+<p>歷程練習是Adobe Journey Optimizer中的特殊歷程發佈模式，可讓歷程從業人員使用真實生產資料測試歷程，而不需聯絡真實客戶或更新設定檔資訊。 此功能可協助歷程實踐者對其歷程設計與客群鎖定累積信心，然後再將歷程發佈上線。</p>
 <p>此功能僅適用於一組組織（可用性限制），並將在未來版本中在全球推出。</p>
 </td>
 </tr>
@@ -151,9 +151,9 @@ ht-degree: 61%
 <tbody>
 <tr>
 <td>
-<p>縮放您的Experimentation成功者，可讓您自動或手動將實驗的成功變數轉出給完整受眾。 此功能可確保一旦確定高績效人才，您就可以大幅提高影響力和效率，不必再不斷進行人工監督。</p>
+<p>擴大實驗獲勝者的規模，讓您能夠透過自動或手動方式，將實驗的獲勝變化版本推廣給所有客群參考。此功能可確保一旦確定高績效人才，您就可以大幅提高影響力和效率，不必再不斷進行人工監督。</p>
 <p>如需詳細資訊，請參閱<a href="../content-management/content-experiment.md">詳細文件</a>。</p>
-<p>推出日期： 2025年6月2日</p></td>
+<p>推出日期：2025 年 6 月 2 日</p></td>
 </tr>
 </tbody>
 </table>
@@ -175,7 +175,7 @@ ht-degree: 61%
 <li>增強報告：報告目前可以指定哪些特定規則會將設定檔排除在歷程，或是行銷活動之外，提供更高透明度和可操作的洞察力。</li></ul>
 <img src="assets/do-not-localize/gif-conflict.gif">
 <p>如需詳細資訊，請參閱<a href="../conflict-prioritization/gs-conflict-prioritization.md">詳細文件</a>。</p>
-<p>推出日期： 2025年6月3日</p>
+<p>推出日期：2025 年 6 月 3 日</p>
 </td>
 </tr>
 </tbody>
@@ -203,17 +203,17 @@ ht-degree: 61%
 
 * **行銷活動** — 動作行銷活動的全新索引標籤導覽。 這個新的導覽模式可讓您更快速地存取內容製作，並支援行銷活動間的進一步設定擴充。
 
-* **決策** — 推出日期： 2025年6月3日
+* **決策** — 推出日期：2025 年 6 月 3 日
 
   可以立即在沙箱之間複製決策物件，以便簡化測試，同時部署工作流程。[閱讀全文](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-* **決策規則的決策專案屬性支援** — 推出日期： 2025年6月4日
+* **決策規則的決定項目屬性支援** — 推出日期：2025 年 6 月 4 日
 
-  您現在可以利用決策專案屬性來建立決策規則。 [閱讀全文](../experience-decisioning/rules.md#create)
+  您可以立即利用決定項目屬性，即可建立決策規則。[閱讀全文](../experience-decisioning/rules.md#create)
 
-* **互動式訊息執行API更新** — 推出日期： 2025年6月6日
+* **互動式訊息執行 API 更新** — 推出日期：2025 年 6 月 6 日
 
-  互動式訊息執行API現在可讓您刪除即將執行之行銷活動的排程。 [閱讀全文](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
+  互動式訊息執行 API 讓您可以立即刪除即將執行的行銷活動排程。[閱讀全文](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
 
 ## 2025 年 5 月發行說明 {#25-5-rn}
 
@@ -233,10 +233,10 @@ ht-degree: 61%
 <tr>
 <td>
 <p>歷程和行銷活動清單中，目前只有提供行事曆視圖。 行事曆視圖讓您可以透過視覺化方式，呈現個別清單中的所有歷程，同時啟用行銷活動。</p>
-<p>此變更目前僅適用於一組組織（可用性限制）。 若要要求存取權，請使用<a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">此表單</a>。</p>
+<p>目前此變更只限開放給部分組織使用 (有限可用性)。若想請求存取權，請使用<a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">這份表單</a>。</p>
 <img src="assets/do-not-localize/calendar.gif">
-<p>如需詳細資訊，請參閱下列章節： <a href="../building-journeys/journey-ui.md">瀏覽及篩選您的歷程</a>、<a href="../campaigns/modify-stop-campaign.md">存取行銷活動</a>。</p>
-<p>推出日期： 2025年5月28日</p>
+<p>如需詳細資訊，請參閱下列區段：<a href="../building-journeys/journey-ui.md">瀏覽並篩選您的歷程</a>、<a href="../campaigns/modify-stop-campaign.md">存取行銷活動</a>。</p>
+<p>推出日期：2025 年 5 月 28 日</p>
 </td>
 </tr>
 </tbody>
@@ -252,7 +252,7 @@ ht-degree: 61%
 <tr>
 <td>
 <p>透過整合 Adobe Experience Manager 與 Adobe Journey Optimizer，您就可以立即在 Journey Optimizer 內容中，輕鬆使用 Adobe Experience Manager 內容片段。 這種順暢連線讓您能更輕鬆地直接在 Journey Optimizer 中存取，同時使用 AEM 內容。</p>
-<p>此功能先前可用於一組有限的組織(LA)，現在為GA，並具備下列增強功能：您現在可以使用編輯器模式，定義片段簽章中的預留位置及對應個人化值。</p>
+<p>此功能之前可用於一系列有限公司組織 (LA)，目前改為 GA，同時具備以下增強功能：您目前可以使用編輯器模式，定義片段簽名中的預留位置、對應個人化值。</p>
 <ul>
 <!--li>Create offers by directly selecting an AEM Content Fragment.</li>
 <li>Define placeholders and map personalization values within the fragment signature using the Editor mode.</li-->
@@ -341,7 +341,7 @@ ht-degree: 61%
 <p>之前以「限量」的名義發行，目前此功能所有環境都適用（一般可用性）。</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>如需詳細資訊，請參閱<a href="../building-journeys/read-audience.md#schedule">詳細文件</a>。</p>
-<p>推出日期： 2025年5月20日</p>
+<p>推出日期：2025 年 5 月 20 日</p>
 </td>
 </tr>
 </tbody>
@@ -359,7 +359,7 @@ ht-degree: 61%
 <p>Journey Optimizer 目前可讓您在預設選項之外，設定以下其他 SMS 提供者：Sinch、Infobip 和 Twilio。 透過自訂 SMS 提供者設定，您就可以直接整合第三方提供者，運用動態訊息的進階來承載自訂，同時管理同意偏好設定（選擇加入/選擇退出），以便確保有遵守法規遵循規範。</p>
 <p>如需詳細資訊，請參閱<a href="../sms/sms-configuration-custom.md">詳細文件</a>。</p>
 <p>之前以「限量」的名義發行，目前此功能所有環境都適用（一般可用性）。</p>
-<p>推出日期： 2025年5月20日</p>
+<p>推出日期：2025 年 5 月 20 日</p>
 </td>
 </td>
 </tr>
@@ -408,7 +408,7 @@ ht-degree: 61%
 以下列舉部分發布內容附上的改良功能。
 
 
-* **沙箱復本的新行銷活動物件支援** — 推出日期： 2025年5月15日
+* **沙箱副本的全新行銷活動物件支援** — 推出日期：2025 年 5 月 15 日
 
   當使用套件匯出和匯入功能跨眾多沙箱複製活動時，也會立即複製以下相依性：頻道設定、實驗變體和設定、決策策略和項目。[閱讀全文](../configuration/copy-objects-to-sandbox.md)
 
@@ -428,15 +428,15 @@ ht-degree: 61%
   >
   >在接下來 30 天內，會將此功能逐步推廣到合適環境。
 
-* Web channel **中的**&#39;重新導向至URL&#39;支援 — 推出日期： 2025年5月20日
+* **網頁管道**&#x200B;中的 [重新導向至 URL] 支援 — 推出日期：2025 年 5 月 20 日
 
   Journey Optimizer 網頁管道目前可讓您將訪客重新導向至其他現有網址，而不是重新導向視覺化編輯器中製作的新變化版本。 此功能可用來執行比較兩種截然不同頁面的實驗，而不只是用來更改頁面中的少數元素。 [閱讀全文](../web/create-web.md#web-redirect-to-url)
 
-* **範本和片段的資料夾** — 可用日期： 2025年5月20日
+* **範本和片段的資料夾** — 推出日期：2025 年 5 月 20 日
 
   資料夾讓您可以更輕鬆有效地將內容範本、片段整理成結構化的階層。以前可供一組組織 (LA) 使用的資料夾，現在可供所有使用者 (GA) 管理其內容範本和片段。 請到[內容範本](../content-management/access-content-templates.md#folders)和[片段](../content-management/manage-fragments.md#folders)專區，閱讀更多內容。
 
-* **電子郵件範本中的點選追蹤** — 推出日期： 2025年5月20日
+* **電子郵件範本中的點擊追蹤** — 推出日期：2025 年 5 月 20 日
 
   請在以下位置點擊追蹤：`<area>`位於電子郵件內容中影像地圖內的元素，目前有提供原生支援[!DNL Journey Optimizer]。 這是為了確保影像地圖區域收到與標準超連結相同的追蹤包裝、追蹤資料和附加參數。[深入了解訊息追蹤](../email/message-tracking.md#manage-tracking)
 
@@ -445,7 +445,7 @@ ht-degree: 61%
   
   Journey Optimizer now allows you to leverage Adobe Experience Platform datasets in the following Decisioning objects: eligibility rules, ranking formulas, and capping rules.-->
 
-* **行銷活動清單中的右側邊欄** — 推出日期： 2025年5月20日
+* **行銷活動清單中的右側邊欄** — 推出日期：2025 年 5 月 20 日
 
   現在，在行銷活動清單中，選取行銷活動會開啟窗格並顯示其詳細資訊。
 
