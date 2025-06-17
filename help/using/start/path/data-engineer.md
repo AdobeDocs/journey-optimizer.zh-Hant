@@ -8,9 +8,9 @@ role: Data Engineer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target="_blank"}中進一步瞭解&#x200B;**資料擷取**。
+>若要深入瞭解&#x200B;**資料攝取**&#x200B;相關資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target="_blank"}。
 
 建立身分識別命名空間和為輪廓啟用的資料集，以及測試輪廓的步驟在以下各節中詳細說明：
 
 1. **建立身分識別命名空間**。在 Adobe[!DNL Journey Optimizer]，**身分識別** 連結跨裝置和管道的消費者，結果會是身分識別圖表。 連結的身分識別圖表可依據您所有業務接觸點的互動，來個人化體驗。  請[在此頁面](../../audience/get-started-identity.md)進一步了解身分識別與身分識別命名空間。
 
-1. **建立結構**&#x200B;並為輪廓啟用它。 結構是一組規則，可代表及驗證資料的結構和格式。 在高層級中，結構描述會提供真實世界物件（例如人）的抽象定義，並概述該物件的每個例項中應包含哪些資料（例如名字、姓氏、生日等）。  請[在此頁面](../../data/get-started-schemas.md)深入了解結構描述。
+1. **建立結構**&#x200B;並為輪廓啟用它。 結構描述是一組規則，足以代表並驗證資料的結構和格式。 從高層面來說，結構提供了真實對象 (如人) 的抽象定義，並概述應包含在該對象的每個執行個體中的資料 (如名字、姓氏、生日等)。  請[在此頁面](../../data/get-started-schemas.md)深入了解結構描述。
 
 1. **建立資料集**&#x200B;並為輪廓啟用它。 資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。 資料集也包含中繼資料，可說明其儲存資料的各個層面。 建立資料集後，您可以將資料集對應至現有結構並新增資料。 請[在此頁面](../../data/get-started-datasets.md)深入了解資料集。
 

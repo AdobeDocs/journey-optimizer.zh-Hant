@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 825e0b3112bc7e5dd7551873151c65bd1cc99f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '383'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 66%
 
 >[!TAB 衝突與優先順序]
 
-Journey Optimizer現在提供數種衝突管理和優先順序的工具。 這些工具可用於行銷活動和對象資格、讀取對象和單一歷程。
+Journey Optimizer 目前提供許多衝突管理、排定優先順序的工具。以上工具可用於行銷活動、客群鑑定、讀取客群和單一歷程。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/gs-conflict-prioritization.md)
 
 >[!TAB Adobe Express]
 
-Adobe Journey Optimizer中的Adobe Express整合可讓您在建立內容時輕鬆存取Adobe Express強大的編輯工具。 此整合可讓您調整影像大小、移除背景、裁切視覺效果，以及將資產轉換為JPEG或PNG，而不需要在解決方案之間切換。
+Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容時，輕鬆存取 Adobe Express 強大的編輯工具。 此整合功能讓您可以調整影像大小、移除背景、裁切視覺效果，並將資產轉換成 JPEG 或 PNG 格式，就不必在不同解決方案之間切換。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
@@ -43,11 +43,11 @@ Adobe Journey Optimizer中的Adobe Express整合可讓您在建立內容時輕�
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
->[!TAB AEM內容片段]
+>[!TAB AEM 內容片段]
 
-透過將Adobe Experience Manager as a Cloud Service與Adobe Journey Optimizer整合，您現在可以將AEM內容片段順暢地整合到Journey Optimizer內容中。 此簡化的連線可簡化存取及運用AEM內容的程式，讓您建立個人化和動態的行銷活動和歷程。
+透過將 Adobe Experience Manager as a Cloud Service 與 Adobe Journey Optimizer 整合在一處，您可以立即將 AEM 內容片段順利整合到 Journey Optimizer 內容當中。已簡化的連線可以簡化存取，並運用 AEM 內容的程式，讓您建立個人化的動態行銷活動和歷程。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/aem-fragments.md)
 
