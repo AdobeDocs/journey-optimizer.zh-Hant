@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c00d5a97e7bedf6f1a22a59cc3bd7588eb9ad32e
+source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
 workflow-type: tm+mt
-source-wordcount: '2164'
-ht-degree: 72%
+source-wordcount: '2143'
+ht-degree: 71%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 72%
 
 **發行日期**：2025 年 6 月 17-18 日
 
-另請參閱[Adobe Experience Platform發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+另請參閱[Adobe Experience Platform發行說明](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
 ### 全新功能 {#25-06-features}
 
@@ -69,7 +69,7 @@ ht-degree: 72%
 <tbody>
 <tr>
 <td>
-<p>您現在可以在JSON或HTML內容範本中定義特定的可編輯欄位，讓非技術使用者輕鬆地在程式碼型體驗通道製作中的表單檢視中編輯內容，而不需要操作任何程式碼。 不僅如此，在定義程式碼型體驗內容範本時，您現在可以在範本中插入決定原則，增加可重複使用性和易用性。</p>
+<p>您現在可以在JSON或HTML內容範本中定義特定的可編輯欄位，讓非技術使用者輕鬆地在程式碼型體驗通道製作中的表單檢視中編輯內容，而不需要操作任何程式碼。<br />此外，定義程式碼式體驗內容範本時，您現在可以在範本中插入決定原則，增加可重複使用性和易用性。</p>
 </td>
 </tr>
 </tbody>
@@ -85,7 +85,6 @@ ht-degree: 72%
 <tr>
 <td>
 <p>除了完全委派和CNAME方法之外，現在還提供新的子網域設定方法：自訂委派方法，可讓您完全控制並維護傳遞、轉譯和追蹤訊息所需的DNS的各個層面。</p>
-<p>之前以「限量」的名義發行，目前此功能所有環境都適用（一般可用性）。</p>
 </td>
 </tr>
 </tbody>
@@ -194,14 +193,17 @@ ht-degree: 72%
 
 * **程式碼型體驗**
 
-  現在可在程式碼型體驗內容範本和程式碼編輯器右側欄中使用決定原則。
+   * 現在可在程式碼型體驗內容範本中新增決定原則。
 
-* **電子郵件設計工具**
+   * 從程式碼型體驗歷程或行銷活動版本畫面，您現在可以直接新增決定原則，無需開啟個人化編輯器。
 
-   * **自訂CSS支援** - Journey Optimizer現在可讓您直接在電子郵件設計工具中，將自訂CSS新增至您的電子郵件內容。
-   * **深色模式支援** - Journey Optimizer電子郵件設計工具現在提供切換到深色模式的功能，您可以在其中定義特定設定。
+* **電子郵件Designer的自訂CSS支援**
 
-* **行銷活動** — 動作行銷活動的全新索引標籤導覽。 這個新的導覽模式可讓您更快速地存取內容製作，並支援行銷活動間的進一步設定擴充。
+  Journey Optimizer現在可讓您直接在電子郵件Designer中，將自訂CSS新增至您的電子郵件內容。
+
+* **新的行銷活動索引標籤導覽**
+
+  新的導覽模式可讓您更快速地存取內容製作，並支援在行銷活動中進一步擴充設定。
 
 * **決策** — 推出日期：2025 年 6 月 3 日
 

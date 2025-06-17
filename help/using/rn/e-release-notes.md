@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8188749c47be0a3d91b9857d170bceb4747a3400
+source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 32%
+source-wordcount: '1022'
+ht-degree: 41%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 32%
 <tbody>
 <tr>
 <td>
-<p>您現在可以在JSON或HTML內容範本中定義特定的可編輯欄位，讓非技術使用者輕鬆地在程式碼型體驗通道製作中的表單檢視中編輯內容，而不需要操作任何程式碼。 不僅如此，在定義程式碼型體驗內容範本時，您現在可以在範本中插入決定原則，增加可重複使用性和易用性。</p>
+<p>您現在可以在JSON或HTML內容範本中定義特定的可編輯欄位，讓非技術使用者輕鬆地在程式碼型體驗通道製作中的表單檢視中編輯內容，而不需要操作任何程式碼。<br />此外，定義程式碼式體驗內容範本時，您現在可以在範本中插入決定原則，增加可重複使用性和易用性。</p>
 </td>
 </tr>
 </tbody>
@@ -99,7 +99,6 @@ ht-degree: 32%
 <tr>
 <td>
 <p>除了完全委派和CNAME方法之外，現在還提供新的子網域設定方法：自訂委派方法，可讓您完全控制並維護傳遞、轉譯和追蹤訊息所需的DNS的各個層面。</p>
-<p>之前以「限量」的名義發行，目前此功能所有環境都適用（一般可用性）。</p>
 </td>
 </tr>
 </tbody>
@@ -143,13 +142,13 @@ ht-degree: 32%
 <table>
 <thead>
 <tr>
-<th><strong>歷程練習</strong><br/></th>
+<th><strong>歷程試運行</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>歷程練習是Adobe Journey Optimizer中的特殊歷程發佈模式，可讓歷程從業人員使用真實生產資料測試歷程，而不需聯絡真實客戶或更新設定檔資訊。 此功能有助於歷程參與者在發佈其歷程設計和對象鎖定目標之前獲得信心。</p>
+<p>歷程練習是Adobe Journey Optimizer中的特殊歷程發佈模式，可讓歷程從業人員使用真實生產資料測試歷程，而不需聯絡真實客戶或更新設定檔資訊。 此功能可協助歷程實踐者對其歷程設計與客群鎖定累積信心，然後再將歷程發佈上線。</p>
 <p>此功能僅適用於一組組織（可用性限制），並將在未來版本中在全球推出。</p>
 </td>
 </tr>
@@ -184,9 +183,9 @@ ht-degree: 32%
 <tbody>
 <tr>
 <td>
-<p>縮放您的Experimentation成功者，可讓您自動或手動將實驗的成功變數轉出給完整受眾。 此功能可確保一旦確定高績效人才，您就可以大幅提高影響力和效率，不必再不斷進行人工監督。</p>
+<p>擴大實驗獲勝者的規模，讓您能夠透過自動或手動方式，將實驗的獲勝變化版本推廣給所有客群參考。此功能可確保一旦確定高績效人才，您就可以大幅提高影響力和效率，不必再不斷進行人工監督。</p>
 <p>如需詳細資訊，請參閱<a href="../content-management/content-experiment.md">詳細文件</a>。</p>
-<p>推出日期： 2025年6月2日</p></td>
+<p>推出日期：2025 年 6 月 2 日</p></td>
 </tr>
 </tbody>
 </table>
@@ -208,7 +207,7 @@ ht-degree: 32%
 <li>增強報告：報告目前可以指定哪些特定規則會將設定檔排除在歷程，或是行銷活動之外，提供更高透明度和可操作的洞察力。</li></ul>
 <img src="assets/do-not-localize/gif-conflict.gif">
 <p>如需詳細資訊，請參閱<a href="../conflict-prioritization/gs-conflict-prioritization.md">詳細文件</a>。</p>
-<p>推出日期： 2025年6月3日</p>
+<p>推出日期：2025 年 6 月 3 日</p>
 </td>
 </tr>
 </tbody>
@@ -227,22 +226,26 @@ ht-degree: 32%
 
 * **程式碼型體驗**
 
-  現在可在程式碼型體驗內容範本和程式碼編輯器右側欄中使用決定原則。
+   * 現在可在程式碼型體驗內容範本中新增決定原則。
 
-* **電子郵件設計工具**
+   * 從程式碼型體驗歷程或行銷活動版本畫面，您現在可以直接新增決定原則，無需開啟個人化編輯器。
 
-   * **自訂CSS支援** - Journey Optimizer現在可讓您直接在電子郵件設計工具中，將自訂CSS新增至您的電子郵件內容。
-   * **深色模式支援** - Journey Optimizer電子郵件設計工具現在提供切換到深色模式的功能，您可以在其中定義特定設定。
+* **電子郵件Designer的自訂CSS支援**
 
+  Journey Optimizer現在可讓您直接在電子郵件Designer中，將自訂CSS新增至您的電子郵件內容。
 
-* **決策** — 推出日期： 2025年6月3日
+* **新的行銷活動索引標籤導覽**
+
+  新的導覽模式可讓您更快速地存取內容製作，並支援在行銷活動中進一步擴充設定。
+
+* **決策** — 推出日期：2025 年 6 月 3 日
 
   可以立即在沙箱之間複製決策物件，以便簡化測試，同時部署工作流程。[閱讀全文](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-* **決策規則的決策專案屬性支援** — 推出日期： 2025年6月4日
+* **決策規則的決定項目屬性支援** — 推出日期：2025 年 6 月 4 日
 
-  您現在可以利用決策專案屬性來建立決策規則。 [閱讀全文](../experience-decisioning/rules.md#create)
+  您可以立即利用決定項目屬性，即可建立決策規則。[閱讀全文](../experience-decisioning/rules.md#create)
 
-* **互動式訊息執行API更新** — 推出日期： 2025年6月6日
+* **互動式訊息執行 API 更新** — 推出日期：2025 年 6 月 6 日
 
-  互動式訊息執行API現在可讓您刪除即將執行之行銷活動的排程。 [閱讀全文](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
+  互動式訊息執行 API 讓您可以立即刪除即將執行的行銷活動排程。[閱讀全文](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
