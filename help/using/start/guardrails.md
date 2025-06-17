@@ -26,7 +26,7 @@ ht-degree: 99%
 >
 >* [即時客戶輪廓資料、分段的護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}也適用於 Adobe Journey Optimizer。
 >
->* 另請參閱即時客戶個人檔案中的資料擷取的[護欄](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* 另請參閱即時客戶個人檔案中的資料擷取的[護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## 支援的瀏覽器 {#browsers}

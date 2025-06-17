@@ -30,7 +30,7 @@ ht-degree: 72%
 
 **發行日期**：2025 年 6 月 17-18 日
 
-另請參閱[Adobe Experience Platform發行說明](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+另請參閱[Adobe Experience Platform發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
 ### 全新功能 {#25-06-features}
 
