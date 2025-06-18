@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: css，編輯器，摘要，電子郵件
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: a4055d1c4b6d75a04b71067df0c8f5499bae24d6
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 8%
+source-wordcount: '730'
+ht-degree: 7%
 
 ---
 
@@ -38,6 +38,8 @@ ht-degree: 8%
    >
    >**[!UICONTROL CSS樣式]**&#x200B;區段僅在內容已存在於編輯器中時才能使用。
 
+1. 按一下&#x200B;**[!UICONTROL 新增自訂CSS]**&#x200B;按鈕。
+
 1. 在彈出的專用文字區域中輸入您的CSS代碼。 請確定自訂CSS有效並遵循正確語法。 [了解更多](#use-valid-css)
 
    ![在專用文字區域中輸入自訂CSS](assets/email-body-custom-css.png){width="65%"}
@@ -45,6 +47,8 @@ ht-degree: 8%
    >[!NOTE]
    >
    >**[!UICONTROL 新增自訂CSS]**&#x200B;按鈕僅在選取&#x200B;**[!UICONTROL 內文]**&#x200B;時可用。 不過，您可以將自訂CSS樣式套用至內容內的所有元件。
+   >
+   >使用具有鎖定內容](../content-management/content-locking.md#use)的[範本時，您無法新增自訂CSS至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
 
 1. 儲存自訂CSS並確認自訂CSS已正確套用至您的內容。 如果不是這種情況，請檢視[疑難排解](#troubleshooting)區段。
 
