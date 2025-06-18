@@ -29,7 +29,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->基於疑難排解目的，我們建議在查詢歷程時使用journeyVersionID，而不是journeyVersionName。 在本節](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)中進一步瞭解歷程屬性[。
+>基於疑難排解目的，我們建議在查詢歷程時使用journeyVersionID，而不是journeyVersionName。 在本節[&#128279;](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)中進一步瞭解歷程屬性。
 
 ## 基本使用案例/常見查詢 {#common-queries}
 

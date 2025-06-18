@@ -62,7 +62,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >若要能夠傳送您的訊息，請確定您選取的登入頁面尚未過期。 在本節](create-lp.md#configure-primary-page)中瞭解如何更新到期日[。
+   >若要能夠傳送您的訊息，請確定您選取的登入頁面尚未過期。 在本節[&#128279;](create-lp.md#configure-primary-page)中瞭解如何更新到期日。
 
    收到電子郵件後，如果您的收件者按一下登陸頁面的連結，則會被導向至「感謝您」頁面，且會將其新增至訂閱清單。
 
@@ -139,7 +139,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >若要能夠傳送您的訊息，請確定您選取的登入頁面尚未過期。 在本節](create-lp.md#configure-primary-page)中瞭解如何更新到期日[。
+   >若要能夠傳送您的訊息，請確定您選取的登入頁面尚未過期。 在本節[&#128279;](create-lp.md#configure-primary-page)中瞭解如何更新到期日。
 
 1. 發佈並執行歷程。 [了解更多](../building-journeys/journey.md)。
 

@@ -72,7 +72,7 @@ Adobe Journey Optimizer 會透過 SMS 服務提供者 (或 SMS 閘道提供者) 
 
   >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
-+++
+  +++
 
 * 以下影片可協助您更瞭解 Adobe Journey Optimizer 為行銷人員提供的行動裝置功能。
 
@@ -81,4 +81,4 @@ Adobe Journey Optimizer 會透過 SMS 服務提供者 (或 SMS 閘道提供者) 
 
   >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
-+++
+  +++
