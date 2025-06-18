@@ -7,9 +7,9 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1358'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,13 @@ ht-degree: 0%
 
 * **Thomson抽樣**： Thompson抽樣是一種用於線上決策問題的演演算法，其動作是循序執行的，必須在開發已知能最大化即時效能與投資累積可能改善未來效能的新資訊之間取得平衡。 [了解更多](#thompson-sampling)
 
-* [**Beta分佈**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}：在間隔[0,1] [引數化](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"}上定義的一組連續[機率分佈](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"}，由兩個正的[形狀引數](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}所定義。
+* [**Beta分佈**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}：在間隔[0、1] [引數化](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"}上定義的一組連續[機率分佈](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"}，由兩個正的[形狀引數](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}所定義。
 
 ## Thompson取樣 {#thompson-sampling}
 
 自動最佳化基礎的演演算法是&#x200B;**Thompson取樣**。 在本節中，我們將討論Thompson取樣背後的直覺。
 
-[Thompson取樣](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}或是Bayesian強盜，是多臂強盜問題的貝葉斯方法。  基本想法是將每個優惠的平均獎勵??數視為&#x200B;**隨機變數**，並使用我們目前所收集的資料來更新我們關於平均獎勵的「信念」。 此「信念」以數學方式表示為&#x200B;**後驗機率分佈** — 基本上是平均獎勵值的範圍，以及每個優惠的獎勵具有該值的可能性（或機率）。 然後，對於每個決定，我們將&#x200B;**從這些後驗獎勵分佈中的每個分佈**&#x200B;取樣一個點，並選取取樣獎勵具有最高值的優惠。
+[Thompson取樣](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}或是Bayesian強盜，是多臂強盜問題的貝葉斯方法。  基本想法是將每個優惠的平均獎勵𝛍視為&#x200B;**隨機變數**，並使用我們目前所收集的資料來更新我們關於平均獎勵的「信念」。 此「信念」以數學方式表示為&#x200B;**後驗機率分佈** — 基本上是平均獎勵值的範圍，以及每個優惠的獎勵具有該值的可能性（或機率）。 然後，對於每個決定，我們將&#x200B;**從這些後驗獎勵分佈中的每個分佈**&#x200B;取樣一個點，並選取取樣獎勵具有最高值的優惠。
 
 此程式如下圖所示，我們有3個不同的選件。 起初，我們無法從資料中取得任何證據，而且我們假設所有優惠方案都有一個統一的後驗獎勵分佈。 我們會從每個優惠方案的前端回報分佈中抽取樣本。 從選件2的分佈中選取的範例具有最高值。 這是&#x200B;**探索**&#x200B;的範例。 顯示優惠方案2後，我們會收集任何潛在獎勵（例如轉換/不轉換），並使用貝葉斯定理更新優惠方案2的後驗分佈，如下所述。  我們將繼續此程式，並在每次顯示優惠方案並收集獎勵時更新後續分配。 在第二個數字中，已選取「選件3」 — 儘管選件1的平均報酬最高（其後方的報酬分佈最靠右），從每個分佈取樣的程式已導致我們選擇明顯次優的選件3。 我們藉此機會進一步瞭解Offer 3的真正獎勵分配。
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 +++**技術詳細資料**
 
-若要計算/更新分佈，請使用&#x200B;**貝葉斯定理**。 我們想要針對每個選件&#x200B;***i***&#x200B;計算其&#x200B;***P(??i | 資料)***，亦即對於每個優惠方案&#x200B;***i***，考慮到我們目前就該優惠方案所收集的資料，獎勵值&#x200B;**??i**&#x200B;的可能性有多大。
+若要計算/更新分佈，請使用&#x200B;**貝葉斯定理**。 我們想要針對每個選件&#x200B;***i***&#x200B;計算其***P(𝛍i) | 資料)***，亦即對於每個優惠方案&#x200B;***i***，考慮到我們目前為止針對該優惠方案所收集的資料，獎勵值&#x200B;**𝛍i**&#x200B;的可能性有多大。
 
 從貝葉斯定理：
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-如上所述的Likelihood函式是以Binomial分佈模型化，其中s成功（轉換）和f失敗（無轉換），q是具有[beta分佈](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}的[隨機變數](https://en.wikipedia.org/wiki/Random_variable){target="_blank"}。
+如上所述的Likelihood函式是由二項式分佈模型化，其中s成功（轉換）和f失敗（無轉換），而q是具有[beta分佈](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}的[隨機變數](https://en.wikipedia.org/wiki/Random_variable){target="_blank"}。
 
 前置式分佈是以Beta分佈為模型，而後置式分佈則採用下列形式：
 

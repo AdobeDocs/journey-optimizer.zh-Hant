@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 2f2caf8615af8e3526124e0d7ed91873ccb6edc3
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 4%
@@ -73,7 +73,7 @@ To leverage data from an AEP dataset, you can select it in the **[!UICONTROL ELS
 
 ## 使用公式產生器定義條件 {#ranking-select-criteria}
 
-透過直覺式介面，您可以透過調整AI分數（傾向）、選件值（優先順序）、情境槓桿和外部設定檔傾向來微調決策，以個別或結合方式最佳化每個互動。<!--Whether you're maximizing revenue, promoting strategic offers, or balancing business goals with real-time context, the formula builder gives you total control in defining ranking strategies.-->
+透過直覺式介面，您可以透過調整AI分數（傾向）、選件值（優先順序）、情境槓桿和外部設定檔傾向來微調決策，以個別或結合方式最佳化每個互動。<!--Whether you are maximizing revenue, promoting strategic offers, or balancing business goals with real-time context, the formula builder gives you total control in defining ranking strategies.-->
 
 若要直接從介面定義條件，請遵循下列步驟。
 
@@ -106,7 +106,7 @@ To leverage data from an AEP dataset, you can select it in the **[!UICONTROL ELS
    >
    >按一下欄位旁的圖示，新增預先定義的變數。
 
-1. 按一下[新增條件]&#x200B;**&#x200B;**，視需要多次新增一或多個條件。 邏輯如下：
+1. 按一下[新增條件]****，視需要多次新增一或多個條件。 邏輯如下：
    * 如果指定決策專案的第一個條件為true，則其優先於下一個條件。
    * 如果不為true，則決策引擎會繼續執行第二個標準，以此類推。
 

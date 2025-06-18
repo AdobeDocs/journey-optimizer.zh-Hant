@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: 登陸、登陸頁面、子網域、設定
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '971'
 ht-degree: 19%
 
 ---
@@ -26,13 +26,13 @@ ht-degree: 19%
 >id="ajo_admin_subdomain_lp"
 >title="委派登陸頁面子網域"
 >abstract="您必須設定要用於登陸頁面的子網域，因為您需要此子網域才能建立登陸頁面預設集。 您可以使用已委派給 Adobe 的子網域，或設定新的子網域。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hant#lp-create-preset" text="建立登陸頁面預設集"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="建立登陸頁面預設集"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="建立一個登陸頁面預設集"
 >abstract="為了能夠建立登陸頁面預設集，請確保您之前已設定了至少一個登陸頁面子網域，才能從子網域名稱清單中挑選。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hant#lp-create-preset" text="建立登陸頁面預設集"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="建立登陸頁面預設集"
 
 ## 開始使用登陸頁面子網域 {#gs-lp-subdomains}
 
@@ -63,6 +63,10 @@ ht-degree: 19%
 1. 輸入要顯示在登入頁面URL中的前置詞。
 
    只允許使用英數字元和連字型大小。
+
+   >[!CAUTION]
+   >
+   >請勿使用`cdn`或`data`首碼，因為這些首碼保留供內部使用。 其他限制或保留的前置詞（例如`dmarc`或`spf`）也應避免。
 
 1. 從清單中選取委派的子網域。
 
@@ -135,36 +139,16 @@ ht-degree: 19%
 
 ## 取消委派子網域 {#undelegate-subdomain}
 
-如果您想要解除委派登入頁面子網域，請聯絡您的Adobe代表。
+如果您想要取消委派登入頁面子網域，請遵循下列步驟。
 
-不過，在聯絡Adobe之前，您需要在使用者介面中執行數個步驟。
+1. 在[!DNL Journey Optimizer]中，取消發佈與子網域關聯的所有登入頁面。 [了解作法](create-lp.md#access-landing-pages)
 
->[!NOTE]
->
->您只能取消委派狀態為&#x200B;**[!UICONTROL 成功]**&#x200B;的子網域。 可以從使用者介面中刪除具有&#x200B;**[!UICONTROL 草稿]**&#x200B;和&#x200B;**[!UICONTROL 失敗]**&#x200B;狀態的子網域。
+1. 如果登陸頁面子網域指向CNAME記錄，您可以從託管解決方案中刪除您為登陸頁面子網域建立的CNAME DNS記錄(但不刪除原始電子郵件子網域（如有）。
 
-首先，在[!DNL Journey Optimizer]中執行下列步驟：
+   >[!NOTE]
+   >
+   >登陸頁面子網域可以指向CNAME記錄，因為它是使用[CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-delegation)委派給Adobe的[現有子網域](#lp-use-existing-subdomain)，或是您設定的[新登陸頁面子網域](#lp-configure-new-subdomain)。
 
-1. 取消發佈與子網域關聯的所有登陸頁面。 [了解作法](create-lp.md#access-landing-pages)
-
-1. 停用與子網域相關聯的所有管道設定。 [了解作法](../configuration/channel-surfaces.md#deactivate-a-surface)
-
-<!--
-1. If the landing page subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)
-
-1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
-
-1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)
--->
-
-完成後，請聯絡您的Adobe代表，提供您要取消委派的子網域。
+1. 請聯絡您的Adobe代表，提供您要取消委派的子網域。
 
 Adobe處理您的請求後，未委派網域不再顯示在子網域詳細目錄頁面上。
-
->[!CAUTION]
->
->取消委派子網域後：
->
->   * 您無法重新啟用使用該子網域的管道設定。
->
->   * 您無法透過使用者介面再次委派確切的子網域。 如果您想要這樣做，請聯絡您的Adobe代表。

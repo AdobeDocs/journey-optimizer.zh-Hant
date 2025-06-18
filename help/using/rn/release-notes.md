@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2143'
-ht-degree: 71%
+source-wordcount: '2050'
+ht-degree: 75%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 71%
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
 
-## 2025年6月早期發行說明 {#25-6-rn}
+## 2025年6月發行說明 {#25-6-rn}
 
+<!--
+**Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.-->
 
-**至發行日期之前，下方早期發行說明如有變更，恕不另行通知**。 連結、畫面和更新文件會於發行日期發佈。
+**發行日期**： 2025年6月18日
 
-**發行日期**：2025 年 6 月 17-18 日
-
-另請參閱[Adobe Experience Platform發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 全新功能 {#25-06-features}
 
@@ -70,26 +70,29 @@ ht-degree: 71%
 <tr>
 <td>
 <p>您現在可以在JSON或HTML內容範本中定義特定的可編輯欄位，讓非技術使用者輕鬆地在程式碼型體驗通道製作中的表單檢視中編輯內容，而不需要操作任何程式碼。<br />此外，定義程式碼式體驗內容範本時，您現在可以在範本中插入決定原則，增加可重複使用性和易用性。</p>
+<img src="assets/do-not-localize/form-fields.gif">
+<p>如需詳細資訊，請參閱<a href="../code-based/code-based-form-fields.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>子網域的自訂委派方法</strong><br/></th>
+<th><strong>Custom delegation method for subdomains</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>除了完全委派和CNAME方法之外，現在還提供新的子網域設定方法：自訂委派方法，可讓您完全控制並維護傳遞、轉譯和追蹤訊息所需的DNS的各個層面。</p>
+<p>In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering and tracking messages.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
+-->
 
 <table>
 <thead>
@@ -101,7 +104,9 @@ ht-degree: 71%
 <tr>
 <td>
 <p>您現在可以透過歷程畫布中的專用內容決定活動，將個人化優惠方案納入您的歷程，並在歷程活動（包括條件和自訂動作）中使用。</p>
+<img src="assets/do-not-localize/content-decision.gif">
 <p>此功能僅適用於一組組織（可用性限制），並將在未來版本中在全球推出。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/content-decision.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -117,7 +122,10 @@ ht-degree: 71%
 <tr>
 <td>
 <p>歷程練習是Adobe Journey Optimizer中的特殊歷程發佈模式，可讓歷程從業人員使用真實生產資料測試歷程，而不需聯絡真實客戶或更新設定檔資訊。 此功能可協助歷程實踐者對其歷程設計與客群鎖定累積信心，然後再將歷程發佈上線。</p>
+<img src="assets/do-not-localize/DryRun.gif">
 <p>此功能僅適用於一組組織（可用性限制），並將在未來版本中在全球推出。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-dry-run.md">詳細文件</a>。</p>
+
 </td>
 </tr>
 </tbody>
@@ -135,7 +143,9 @@ ht-degree: 71%
 <p>您現在可以暫停並繼續您的歷程。 此功能可讓歷程從業人員在不中斷客戶體驗的情況下暫時暫停即時歷程，藉此提供更大的控制力與彈性。 暫停時，不會傳送任何通訊，而且設定檔會維持在暫停狀態，直到歷程繼續為止。</p>
 <p>您只能暫停並繼續一個歷程，或執行大量暫停並繼續一組歷程的操作。</p>
 <p>此外，您可以將全域篩選器套用至暫停的歷程，以根據其屬性排除設定檔。</p>
+<img src="assets/do-not-localize/PauseResume.gif">
 <p>此功能僅適用於一組組織（可用性限制），並將在未來版本中在全球推出。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-pause.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -185,25 +195,25 @@ ht-degree: 71%
 
 以下列舉部分發布內容附上的改良功能。
 
-* **管道規則集**
+<!--* **Channel rule sets**
 
-   * **上限的自訂持續時間視窗** — 新的&#x200B;**重複計數**&#x200B;欄位現在可在管道規則集設定畫面中使用，可讓您根據指定的持續時間，套用數天、數週或數月的頻率上限規則。
+  * **Custom duration window** for capping -  A new **Repeat Count** field is now available in the channel rule sets configuration screen, allowing you to apply frequency capping rules over multiple days, weeks, or months, depending on the specified duration.
 
-   * **每小時持續時間** — 您現在可以為管道規則集套用每小時上限。
+  * **Hourly duration** - You can now apply capping on an hourly basis for channel rule sets.    -->
 
 * **程式碼型體驗**
 
-   * 現在可在程式碼型體驗內容範本中新增決定原則。
+   * 現在可在程式碼型體驗內容範本中新增決定原則，以便用於利用可編輯表單欄位中的優惠方案。 [閱讀全文](../code-based/code-based-form-fields.md)
 
-   * 從程式碼型體驗歷程或行銷活動版本畫面，您現在可以直接新增決定原則，無需開啟個人化編輯器。
+   * 從程式碼型體驗歷程或行銷活動版本畫面，您現在可以直接新增決定原則，無需開啟個人化編輯器。 [閱讀全文](../code-based/create-code-based.md#edit-code)
 
 * **電子郵件Designer的自訂CSS支援**
 
-  Journey Optimizer現在可讓您直接在電子郵件Designer中，將自訂CSS新增至您的電子郵件內容。
+  Journey Optimizer現在可讓您直接在電子郵件Designer中，將自訂CSS新增至您的電子郵件內容。 [閱讀全文](../email/custom-css.md)
 
 * **新的行銷活動索引標籤導覽**
 
-  新的導覽模式可讓您更快速地存取內容製作，並支援在行銷活動中進一步擴充設定。
+  新的導覽模式可讓您更快速地存取內容製作，並支援在行銷活動中進一步擴充設定。 [閱讀全文](../campaigns/create-campaign.md)
 
 * **決策** — 推出日期：2025 年 6 月 3 日
 

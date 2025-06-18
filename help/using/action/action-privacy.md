@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 資料、治理、DULE、標籤、標籤、平台、原則
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 100%
+source-wordcount: '1291'
+ht-degree: 96%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 100%
 
 ## 開始使用資料治理原則 {#gs}
 
-透過[資料使用標籤和實作 (DULE) 治理](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=zh-Hant){target="_blank"}框架，Adobe Experience Platform 讓您可以透過&#x200B;**為欄位加上標籤**，並為每個頻道建立&#x200B;**行銷動作**，跨頻道管理並強制執行資料治理原則。
+透過其[資料使用標籤和實行(DULE)控管](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=zh-Hant){target="_blank"}架構，Adobe Experience Platform可讓您藉由&#x200B;**標籤您的欄位**&#x200B;並為每個管道建立&#x200B;**行銷動作**，跨管道管理和實行資料控管原則。
 
-定義標籤與行銷動作後，您可以建立連結這兩個元素的&#x200B;**資料治理原則**。例如，您可以設定將「ePHI」標籤與「電子郵件目標定位」行銷動作建立關聯的原則，確保標記為「ePHI」的欄位不會用於個人化電子郵件訊息。[了解如何建立資料治理原則](#governance-policies)
+定義標籤與行銷動作後，您可以建立連結這兩個元素的&#x200B;**資料治理原則**。例如，您可以設定將「ePHI」標籤與「電子郵件目標定位」行銷動作建立關聯的原則，確保標記為「ePHI」的欄位不會用於個人化電子郵件訊息。[了解如何建立資料治理原則](#policy)
 
 建立治理原則後，您可以將行銷動作套用至歷程/行銷活動以及歷程自訂動作。
 [了解如何在 Journey Optimizer 套用行銷動作](#apply-marketing-actions)
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 1. 定義標籤的名稱與易記名稱。例如，_ePHI1_。
 
-1. 在左側選單中的&#x200B;**資料管理**&#x200B;下方，按一下&#x200B;**方案**，然後按一下&#x200B;**套用存取權和資料治理標籤**&#x200B;按鈕。 選取您的結構描述與欄位 (例如「血液類型」)，然後選取先前建立的標籤，例如範例中的 _ePHI1_。
+1. 在左側選單中的&#x200B;**資料管理**&#x200B;下方，按一下&#x200B;**結構描述**，然後按一下&#x200B;**套用存取權和資料治理標籤**&#x200B;按鈕。 選取您的結構描述與欄位 (例如「血液類型」)，然後選取先前建立的標籤，例如範例中的 _ePHI1_。
 
    ![](assets/action-privacy3.png)
 
@@ -134,4 +134,4 @@ ht-degree: 100%
 
 此對話框指出目前的歷程/行銷活動設定違反現有的資料治理原則。使用資料譜系圖表，即可了解在啟用歷程或行銷活動之前，還必須進行哪些其他設定變更。
 
-如需詳細資訊，請參閱[資料使用原則違規文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}。
+詳細資訊可在[資料使用原則違規檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}中取得。

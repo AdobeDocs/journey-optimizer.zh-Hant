@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 20%
@@ -45,7 +45,7 @@ ht-degree: 20%
 1. 使用Adobe Experience Platform區段產生器建立符合您需求的決定規則。 為此，您可以利用各種資料來源，例如：
    * 設定檔和決定專案屬性，
    * 受眾，
-   * 來自Adobe Experience Platform的內容資料。 [瞭解如何運用內容資料](#context-data)
+   * 來自Adobe Experience Platform的內容資料。 [瞭解如何運用內容資料](context-data.md)
 
    ![](assets/decision-rules-build.png)
 

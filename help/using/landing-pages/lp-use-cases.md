@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 登陸、登陸頁面、使用案例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '980'
 ht-degree: 12%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >若要能夠傳送您的訊息，請確定您選取的登入頁面尚未過期。 在本節[&#128279;](create-lp.md#configure-primary-page)中瞭解如何更新到期日。
+   >若要能夠傳送您的訊息，請確定您選取的登入頁面尚未過期。 在本節](create-lp.md#configure-primary-page)中瞭解如何更新到期日[。
 
    收到電子郵件後，如果您的收件者按一下登陸頁面的連結，則會被導向至「感謝您」頁面，且會將其新增至訂閱清單。
 
@@ -98,7 +98,7 @@ ht-degree: 12%
 
 ### 選擇退出管理 {#opt-out-management}
 
-法律規定必須讓收件者能夠取消訂閱來自品牌的通訊。 進一步瞭解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hant){target="_blank"}的適用法規。
+法律規定必須讓收件者提供能夠取消訂閱來自品牌的通訊。 進一步瞭解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hant){target="_blank"}中的適用法規。
 
 因此，您必須在每封寄送給收件者的電子郵件中一律包含&#x200B;**取消訂閱連結**：
 
@@ -125,7 +125,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >請確定您參考主要頁面&#x200B;**[!UICONTROL 表單]**&#x200B;元件的&#x200B;**[!UICONTROL 行動號召]**&#x200B;區段中的子頁面。 [了解更多](design-lp.md)
+   >請確定您參考&#x200B;**[!UICONTROL 表單]**&#x200B;元件之主要頁面&#x200B;**[!UICONTROL Call to action]**&#x200B;區段中的子頁面。 [了解更多](design-lp.md)
 
 1. 設定並定義頁面內容後，[發佈](create-lp.md#publish)登入頁面。
 
@@ -139,7 +139,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >若要能夠傳送您的訊息，請確定您選取的登入頁面尚未過期。 在本節[&#128279;](create-lp.md#configure-primary-page)中瞭解如何更新到期日。
+   >若要能夠傳送您的訊息，請確定您選取的登入頁面尚未過期。 在本節](create-lp.md#configure-primary-page)中瞭解如何更新到期日[。
 
 1. 發佈並執行歷程。 [了解更多](../building-journeys/journey.md)。
 
@@ -153,7 +153,7 @@ ht-degree: 12%
 
    * 設定檔資料已更新，除非再次訂閱，否則將不會收到您品牌的通訊。
 
-若要檢查對應的輪廓選擇是否已更新，請前往 Experience Platform，並透過選取身分識別名稱空間和對應的身分識別值來存取輪廓。 在[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
+若要檢查對應的輪廓選擇是否已更新，請前往 Experience Platform，並透過選取身分識別名稱空間和對應的身分識別值來存取輪廓。 進一步瞭解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}。
 
 ![](assets/lp_opt-out-profile-choice.png)
 
@@ -163,7 +163,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->如果您的預設[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"} **[!UICONTROL 設定檔]**&#x200B;合併原則的合併方法是&#x200B;**[!UICONTROL 資料集優先順序]**，請務必啟用&#x200B;**[!UICONTROL AJO同意服務資料集]**，並在合併原則中將其優先順序化。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant#dataset-precedence-profile){target="_blank"}
+>如果您的預設[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"} **[!UICONTROL 設定檔]**&#x200B;合併原則的合併方法是&#x200B;**[!UICONTROL 資料集優先順序]**，請務必啟用&#x200B;**[!UICONTROL AJO同意服務資料集]**，並在合併原則中將其優先順序化。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >即使未將任何批次新增至此資料集，它仍會包含選擇加入/選擇退出資訊。
 

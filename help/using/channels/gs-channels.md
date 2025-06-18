@@ -6,10 +6,10 @@ description: 了解如何使用  [!DNL Adobe Journey Optimizer]  通訊管道
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
-workflow-type: ht
-source-wordcount: '412'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 傳出訊息傳遞管道包括傳送訊息給客戶，不用事先互動。 範例包括電子郵件行銷活動與推播通知，您可以藉此主動聯絡客群。在 [!DNL Adobe Journey Optimizer] 中，支援的傳出頻道為：
 
 * **電子郵件**：直接將個人化訊息傳送給客戶的收件匣。
-* **簡訊/多媒體簡訊**：傳送文字訊息，以在使用者的行動裝置上與之聯絡。
+* **SMS/MMS/RCS**：傳送簡訊以聯絡行動裝置上的使用者。
 * **推播通知**：讓使用者在其裝置上即時收到通知，以立即採取行動。
 * **直接郵件**：利用實體郵件實際與客群聯繫。
 

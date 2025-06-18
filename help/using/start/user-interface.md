@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1670'
 ht-degree: 98%
 
 ---
@@ -340,12 +340,3 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 >abstract="產品建議放置環境決定從決策引擎傳回的項目出現在訊息中的位置。您可以在報告中追蹤他們在不同產品建議放置環境的效能。"
 
 
-
-
-
-
-
->[!CONTEXTUALHELP]
->id="ajo_journey_decision_policy"
->title="定義決策原則"
->abstract="您可以利用決策原則，從決策引擎中挑選最佳項目，並將其傳遞給合適的客群。"

@@ -7,14 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 35%
+source-wordcount: '371'
+ht-degree: 32%
 
 ---
 
-# 開始使用簡訊設定 {#sms-configuration}
+# 開始使用簡訊/多媒體簡訊/RCS設定 {#sms-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
@@ -37,7 +37,7 @@ ht-degree: 35%
 >title="選取簡訊供應商設定"
 >abstract="選取為您的簡訊供應商設定的 API 憑證。"
 
-傳送SMS或MMS之前，您必須設定Adobe Journey Optimizer環境。 若要執行此動作：
+在傳送SMS、MMS或RCS之前，您必須設定您的Adobe Journey Optimizer環境。 若要執行此動作：
 
 1. 整合提供者設定與Journey Optimizer。
 步驟取決於您的簡訊提供者。 瀏覽以下連結以存取詳細檔案：
@@ -51,7 +51,7 @@ ht-degree: 35%
 
 ## 先決條件{#sms-prerequisites}
 
-Adobe Journey Optimizer目前與獨立於Adobe Journey Optimizer提供文字訊息服務的第三方提供者整合。 支援的文字訊息及MMS提供者為： **Sinch**、**Twilio**&#x200B;和&#x200B;**Infobip**。
+Adobe Journey Optimizer目前與獨立於Adobe Journey Optimizer提供文字訊息服務的第三方提供者整合。 支援的文字訊息及MMS提供者為： **Sinch**、**Twilio**&#x200B;和&#x200B;**Infobip**。 請注意，您可以使用[自訂提供者組態](sms-configuration-custom.md)來設定其他傳訊提供者。
 
 在設定SMS通道之前，您必須與其中一個提供者建立帳戶，以取得您的&#x200B;**API Token**&#x200B;和&#x200B;**服務ID**，您需要這些帳戶來設定Adobe Journey Optimizer與適用提供者之間的連線。
 

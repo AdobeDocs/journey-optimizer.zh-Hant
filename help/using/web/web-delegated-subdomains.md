@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web、子網域、設定
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 20%
+source-wordcount: '987'
+ht-degree: 22%
 
 ---
 
@@ -152,35 +152,15 @@ You cannot delete a subdomain with the **[!UICONTROL Processing]** status.
 
 ## 取消委派子網域 {#undelegate-subdomain}
 
-如果您想要取消委派網頁子網域，請聯絡您的Adobe代表。
-
-不過，在聯絡Adobe之前，您需要在使用者介面中執行數個步驟。
-
->[!NOTE]
->
->您只能取消委派狀態為&#x200B;**[!UICONTROL 成功]**&#x200B;的子網域。 可以從使用者介面中刪除具有&#x200B;**[!UICONTROL 草稿]**&#x200B;和&#x200B;**[!UICONTROL 失敗]**&#x200B;狀態的子網域。
-
-首先，在[!DNL Journey Optimizer]中執行下列步驟：
-
-1. 停用與子網域相關聯的所有管道設定。 [了解作法](../configuration/channel-surfaces.md#deactivate-a-surface)
+如果您想要解除委派網頁子網域，請聯絡您的Adobe代表，告知您要解除委派的子網域。
 
 <!--
-1. If the web subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+1. Deactivate all the channel configurations associated with the subdomain. [Learn how](../configuration/channel-surfaces.md#deactivate-a-surface)
 
-1. 停止與子網域相關聯的作用中行銷活動。 [了解作法](../campaigns/modify-stop-campaign.md#stop)
+1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
 
-1. 停止與子網域相關聯的使用中歷程。 [了解作法](../building-journeys/end-journey.md#stop-journey)
+1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
 
-1. 如果Web子網域是[新的委派子網域](#web-configure-new-subdomain)，請移除與該子網域相關聯的DNS專案。
-
-完成後，請聯絡您的Adobe代表，提供您要取消委派的子網域。
+如果Web子網域是[新的委派子網域](#web-configure-new-subdomain)，您可以從託管解決方案中刪除您為Web子網域建立的CNAME DNS記錄（但若有的話，請勿刪除原始電子郵件子網域）。
 
 Adobe處理您的請求後，未委派網域不再顯示在子網域詳細目錄頁面上。
-
->[!CAUTION]
->
->取消委派子網域後：
->
->   * 您無法重新啟用使用該子網域的管道設定。
->
->   * 您無法透過使用者介面再次委派確切的子網域。 如果您想要這樣做，請聯絡您的Adobe代表。

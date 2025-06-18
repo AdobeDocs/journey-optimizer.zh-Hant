@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
   最多支援四個巢狀層級。 最後層級不支援影像。
 
-## 存取及編輯目錄的結構描述
+## 存取及編輯目錄的結構描述 {#access-catalog-schema}
 
 若要存取儲存決定專案屬性的目錄結構，請執行下列步驟：
 

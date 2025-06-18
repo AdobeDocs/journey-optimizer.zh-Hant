@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1735'
+source-wordcount: '1796'
 ht-degree: 11%
 
 ---
@@ -19,6 +19,12 @@ ht-degree: 11%
 >id="ajo_code_based_decision"
 >title="什麼是決定？"
 >abstract="決定原則包含決策引擎選擇最佳內容的所有選擇邏輯。決定原則是針對行銷活動的。其目標是為每個設定檔選擇最佳產品建議，而行銷活動製作允許您指明如何呈現所選決定項目，包括要在訊息中包含哪些項目屬性。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="關於決策"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_decision_policy"
+>title="定義決定原則"
+>abstract="決策原則可讓您從決策引擎中挑選最佳專案，並將其傳送給適當的對象。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="關於決策"
 
 決策原則是優惠方案的容器，可運用決策引擎，根據對象挑選最佳內容進行傳遞。
@@ -62,6 +68,10 @@ ht-degree: 11%
 1. 從[程式碼編輯器](../code-based/create-code-based.md#edit-code)，選取&#x200B;**[!UICONTROL 決定原則]**，然後按一下&#x200B;**[!UICONTROL 新增決定原則]**。
 
    ![](assets/decision-code-based-create.png)
+
+   從歷程或行銷活動版本畫面，您還可以直接新增決定原則，而不開啟個人化編輯器。 使用右側邊欄上的專用圖示來顯示&#x200B;**[!UICONTROL 決策]**&#x200B;區段。
+
+   ![](../code-based/assets/code-based-campaign-show-decisioning.png)
 
 1. 依預設，建立新原則。
 

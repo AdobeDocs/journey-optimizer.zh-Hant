@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 1ee75284f3c5f0c7870e8bd8779d4daf9879aa40
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 48%
+source-wordcount: '1059'
+ht-degree: 44%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 48%
 
 在本節中，瞭解如何在測試或發佈之前疑難排解歷程。 下列所有檢查皆可在歷程處於測試模式或歷程為即時狀態時執行。建議您在測試模式中進行下列所有檢查，然後繼續發佈。在[此頁面](../building-journeys/testing-the-journey.md)上進一步瞭解測試模式。
 
-作為管理員，您還可以直接從使用者介面發出真正的API呼叫，以測試自訂動作設定。 在[此頁面](../action/troubleshoot-custom-action.md)瞭解更多資訊。
+作為管理員，您還可以直接從使用者介面發出真正的API呼叫，以測試自訂動作設定。 請在[此頁面](../action/troubleshoot-custom-action.md)了解更多。
 
 ## 請先檢查錯誤，然後再進行測試 {#checking-for-errors-before-testing}
 
@@ -64,7 +64,7 @@ ht-degree: 48%
 
 您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。如果您收到錯誤，則表示您的呼叫發生問題。再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。您可以諮詢管理員哪個是要點擊的正確 URL。
 
-不會直接將事件從來源推送到歷程。 事實上，歷程依賴Adobe Experience Platform的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hant){target="_blank"}，以疑難排解串流獲取API。
+不會直接將事件從來源推送到歷程。 事實上，歷程依賴Adobe Experience Platform的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}，以疑難排解串流獲取API。
 
 如果您的歷程無法啟用測試模式，錯誤為`ERR_MODEL_RULES_16`，請確定使用的事件包含使用通道動作時的[身分名稱空間](../audience/get-started-identity.md)。
 
@@ -74,7 +74,7 @@ ht-degree: 48%
 
 歷程報告會即時衡量歷程中的人員入口。
 
-如果您成功傳送活動，但在歷程中看不到任何入口，則表示在活動傳送以及在歷程中的事件接收之間發生錯誤。
+如果您成功傳送事件，但未看到有人進入歷程，則表示在事件傳送與事件接收之間發生錯誤。
 
 您可以透過下列問題開始進行疑難排解：
 
@@ -101,7 +101,7 @@ ht-degree: 48%
 
 ## 檢查訊息是否成功傳送 {#checking-that-messages-are-sent-successfully}
 
-如果個人在歷程中的進度正常，但並未收到應接收的訊息，您可以檢查：
+如果個人在歷程中的進度正常，但沒有收到應接收的訊息，您可以檢查：
 
 * [!DNL Journey Optimizer]已正確考慮傳送郵件的要求。 業務使用者可以存取應傳送的訊息，並檢查最新執行的時間是否與歷程的執行時間對應。 他們也可以檢查收到的最新API呼叫/事件。
 * [!DNL Journey Optimizer]已成功傳送訊息。 檢查歷程報告以確定沒有錯誤。

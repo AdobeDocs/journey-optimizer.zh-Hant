@@ -7,22 +7,24 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 3%
+source-wordcount: '981'
+ht-degree: 2%
 
 ---
 
 # 設定 Sinch 提供者 {#sms-configuration-sinch}
 
-搭配Journey Optimizer使用Sinch提供者時，您可以找到兩個不同的選項：
+搭配Journey Optimizer使用Sinch提供者時，您可以找到三個不同的選項：
 
 * **SMS設定**：設定您的Sinch API認證，以順暢地傳送SMS訊息。
 
 * **MMS設定**：對於多媒體訊息(MMS)，請設定您的Sinch MMS API認證。 請注意，追蹤和回應傳入訊息由SMS設定處理。 MMS設定僅適用於MMS訊息的傳出傳遞。
 
-## Sinch API認證{#create-api}
+* **RCS設定**：設定您的Sinch API認證，以順暢地傳送RCS訊息。
+
+## 設定簡訊的API認證{#create-api}
 
 >[!BEGINSHADEBOX]
 
@@ -55,7 +57,7 @@ ht-degree: 3%
    | 選擇退出訊息 | 輸入自訂回應，此回應會自動作為您的選擇退出訊息傳送。 |
    | 說明關鍵字 | 輸入將會自動觸發您的&#x200B;**說明訊息**&#x200B;的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
    | 說明訊息 | 輸入自動傳送為&#x200B;**說明訊息**&#x200B;的自訂回應。 |
-   | 雙重選擇加入關鍵字 | 輸入觸發雙重加入流程的關鍵字。 如果使用者輪廓不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。 [進一步瞭解SMS雙重選擇加入](https://video.tv.adobe.com/v/3440291/?learn=on&captions=chi_hant)。 |
+   | 雙重選擇加入關鍵字 | 輸入觸發雙重加入流程的關鍵字。 如果使用者輪廓不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。 [進一步瞭解SMS雙重選擇加入](https://video.tv.adobe.com/v/3427129/?learn=on)。 |
    | 雙重選擇加入訊息 | 輸入自動傳送以回應雙重選擇加入確認的自訂回應。 |
    | 傳入號碼 | 新增您的唯一傳入號碼或短代碼。 這可讓您在不同的沙箱中使用相同的API認證，每個沙箱都有自己的傳入號碼或短程式碼。 |
    | 自訂傳入關鍵字 | 為特定動作定義唯一的關鍵字，例如DISCOUNT、OFFERS、ENROLL。 這些關鍵字會擷取並儲存為設定檔中的屬性，可讓您在歷程中觸發串流區段資格，並提供自訂回應或動作。 |
@@ -72,7 +74,7 @@ ht-degree: 3%
 
 建立和設定API認證後，您現在需要建立SMS訊息的通道設定。 [了解更多](sms-configuration-surface.md)
 
-## Sinch MMS API認證 {#sinch-mms}
+## 設定MMS的API認證{#sinch-mms}
 
 >[!IMPORTANT]
 >
@@ -100,3 +102,26 @@ ht-degree: 3%
 1. 若要修改現有認證，請找到所需的API認證，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;選項以進行必要的變更。
 
 建立和設定API認證後，您現在需要建立MMS訊息的通道設定。 [了解更多](sms-configuration-surface.md)
+
+## 設定RCS的API認證
+
+<!--![](assets/do-not-localize/rcs-sms.png)-->
+
+Journey Optimizer透過Sinch支援RCS (Rich Communication Services)傳送訊息，允許使用已驗證的企業設定檔連同商標元素（例如Logos和傳送者名稱）來傳送基本訊息。
+
+請注意，當設定檔的裝置不支援RCS或暫時無法透過RCS連線時，訊息會自動回復到簡訊。
+
+使用Sinch設定RCS：
+
+1. **設定您的品牌RCS代理程式**
+
+   請連絡您的Adobe代表，以設定品牌化RCS代理程式。 [深入瞭解品牌RCS代理程式](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
+
+1. **設定您的[Sinch API認證](#create-api)**
+
+   在您的RCS代理程式獲得核准後，您需要設定您的Sinch API認證，其中包括您的存取金鑰、秘密和服務計畫ID。 Journey Optimizer將使用這些認證，透過Sinch的平台驗證及傳送訊息。
+
+1. **為您的RCS訊息建立[通道設定](sms-configuration-surface.md)**
+
+   連結您的Sinch憑證並定義傳訊引數，以在Journey Optimizer中設定管道表面。 此設定可讓您從Journey Optimizer撰寫及傳送RCS訊息。
+

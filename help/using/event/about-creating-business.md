@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，歷程，業務，設定
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 11%
+source-wordcount: '1127'
+ht-degree: 12%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->您也可以觀看業務事件使用案例[教學課程](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=zh-Hant)。 請注意，該結構描述不需要為設定檔啟用。
+>您也可以觀看業務事件使用案例[教學課程](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html)。 請注意，該結構描述不需要為設定檔啟用。
 
 ## 重要備註 {#important-notes}
 
@@ -106,7 +106,7 @@ ht-degree: 11%
 
    ![](assets/journey7-business.png)
 
-   條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。在[此頁面](../event/additional-steps-to-send-events-to-journey.md)瞭解更多資訊。
+   條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。請在[此頁面](../event/additional-steps-to-send-events-to-journey.md)了解更多。
 
 ## 定義裝載欄位 {#define-the-payload-fields}
 

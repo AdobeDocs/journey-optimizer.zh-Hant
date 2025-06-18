@@ -7,14 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 37313ca8a9527c934d8aeaf265e9674219726636
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1032'
 ht-degree: 9%
 
 ---
 
-# 設定自訂 SMS 提供者 {#sms-configuration-custom}
+# 設定自訂提供者 {#sms-configuration-custom}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
@@ -31,11 +31,11 @@ ht-degree: 9%
 >title="提供者承載"
 >abstract="提供要求承載，確保能發送用於進行處理和產生回應的正確資料。"
 
-此功能可讓您整合及設定自己的簡訊提供者，提供預設提供者（Sinch、Twilio和Infobip）以外的彈性。 這可讓您順暢地編寫、傳送SMS、製作報表及管理同意。
+此功能可讓您整合及設定自己的傳訊提供者，除了預設選項（Sinch、Twilio和Infobip）以外，還提供了彈性。 這可為SMS和RCS訊息實現順暢的撰寫、傳遞、報告和同意管理。
 
-透過簡訊的自訂提供者設定，您可以直接在Journey Optimizer中設定自訂簡訊提供者，對動態訊息使用進階裝載自訂，並管理同意偏好設定（選擇加入/選擇退出）以確保法規遵循。
+透過自訂提供者設定，您可以直接在Journey Optimizer中連線協力廠商傳訊服務、自訂動態內容的訊息裝載，以及管理選擇加入/選擇退出偏好設定，以確保在SMS和RCS通道間保持一致。
 
-若要設定自訂簡訊提供者，請遵循下列步驟：
+若要設定自訂提供者，請遵循下列步驟：
 
 1. [建立API認證](#api-credential)
 1. [建立Webhook](#webhook)
@@ -44,7 +44,7 @@ ht-degree: 9%
 
 ## 建立您的API認證 {#api-credential}
 
-若要在Journey Optimizer中使用Adobe未提供的現成可用自訂提供者（例如Sinch、Infobip、Twilio）傳送訊息，請遵循下列步驟：
+若要使用Adobe現成未提供的自訂提供者（例如Sinch、Infobip、Twilio）在Journey Optimizer中傳送SMS和RCS訊息，請執行以下步驟：
 
 1. 在左側邊欄中，瀏覽至&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 管道]**，選取&#x200B;**[!UICONTROL 簡訊設定]**&#x200B;下的&#x200B;**[!UICONTROL API認證]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立新的API認證]**&#x200B;按鈕。
 
@@ -74,6 +74,8 @@ ht-degree: 9%
 
 1. 新增您的&#x200B;**[!UICONTROL 提供者裝載]**，以驗證及自訂您的要求裝載。
 
+   對於RCS訊息，此承載稍後會在[內容設計](create-sms.md#sms-content)期間使用。
+
 1. 完成API認證的設定時，請按一下&#x200B;**[!UICONTROL 提交]**。
 
 1. 在&#x200B;**[!UICONTROL API認證]**&#x200B;功能表中，按一下![bin圖示](assets/do-not-localize/Smock_Delete_18_N.svg)以刪除您的API認證。
@@ -84,7 +86,7 @@ ht-degree: 9%
 
    ![](assets/sms_byo_4.png)
 
-在建立及設定您的API認證後，您現在需要為Webhook[&#128279;](#webhook)設定簡訊的傳入設定。
+在建立及設定您的API認證後，您現在需要為Webhook](#webhook)設定[簡訊的傳入設定。
 
 ### 自訂 SMS 提供者的驗證選項 {#auth-options}
 

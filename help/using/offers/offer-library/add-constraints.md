@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2715'
+source-wordcount: '2717'
 ht-degree: 15%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 15%
 
    ![](../assets/offer-capping.png)
 
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以確認您定義的所有限制。
+1. 按一下[下一步]****&#x200B;以確認您定義的所有限制。
 
 例如，如果您設定下列限制：
 
@@ -104,7 +104,7 @@ ht-degree: 15%
 
   >[!CAUTION]
   >
-  >[!DNL Journey Optimizer]目前不支援事件型優惠。 如果您根據[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hant#events){target="_blank"}建立決定規則，則無法在優惠方案中使用它。
+  >[!DNL Journey Optimizer]目前不支援事件型優惠。 如果您根據[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}建立決定規則，則無法在優惠方案中使用它。
 
 當您選取對象或決定規則時，您可以檢視有關預估合格設定檔的資訊。 按一下&#x200B;**[!UICONTROL 重新整理]**&#x200B;以更新資料。
 
@@ -268,7 +268,7 @@ ht-degree: 15%
 * 如果有相符的規則，則設定檔的頻率上限計數器會增加。
 * 否則，不會為設定檔建立計數器，且頻率上限規則不適用。 因此，即使超過上限臨界值，設定檔仍會繼續收到個人化優惠。
 
-例如，假設您組織的中心區域為&#x200B;*NLD2*，而您正傳送來自歐洲（*IRL1*&#x200B;邊緣區域）的決策請求。 在此案例中，決策請求將遞增設定檔的計數器，因為規則可在（愛爾蘭） *IRL1*&#x200B;區域中使用。 但是，如果決策請求來自日本(*JPN3*)這樣的區域，該區域不是繫結至（荷蘭） *NLD2*&#x200B;中樞區域的邊緣區域，則不會建立任何計數器，也不會強制執行頻率上限規則。
+例如，我們將您組織的中心區域視為&#x200B;*NLD2*，而您正在傳送來自歐洲（*IRL1*&#x200B;邊緣區域）的決策請求。 在此案例中，決策請求將遞增設定檔的計數器，因為規則可在（愛爾蘭） *IRL1*&#x200B;區域中使用。 但是，如果決策請求來自日本(*JPN3*)這樣的區域，該區域不是繫結至（荷蘭） *NLD2*&#x200B;中樞區域的邊緣區域，則不會建立任何計數器，也不會強制執行頻率上限規則。
 
 >[!NOTE]
 >
@@ -307,7 +307,7 @@ ht-degree: 15%
 
 變更優惠方案的日期時，您必須謹慎進行，因為如果符合以下條件，這可能會對上限產生影響：
 
-* 優惠方案已核准[&#128279;](#review)。
+* 優惠方案已核准[](#review)。
 * [上限](#capping)已套用至選件。
 * 上限是按設定檔定義的。
 

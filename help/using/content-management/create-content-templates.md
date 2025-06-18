@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '680'
 ht-degree: 16%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 16%
 
 1. 若要指派自訂或核心資料使用標籤給範本，您可以選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)。
 
-1. 按一下「建立&#x200B;**&#x200B;**」，並視需要設計您的內容，就像您在歷程或行銷活動中的任何內容所做的一樣 — 根據您選取的頻道。
+1. 按一下「建立&#x200B;****」，並視需要設計您的內容，就像您在歷程或行銷活動中的任何內容所做的一樣 — 根據您選取的頻道。
 
    ![](assets/content-template-edition.png)
 
@@ -70,10 +70,16 @@ ht-degree: 16%
    * [定義簡訊內容](../sms/create-sms.md#sms-content)
    * [定義直接郵件內容](../direct-mail/create-direct-mail.md)
    * [定義應用程式內內容](../in-app/design-in-app.md)
+   * [定義網頁內容](../web/create-web.md#edit-web-content)
+   * [定義程式碼型體驗內容](../code-based/create-code-based.md)
+
+     >[!NOTE]
+     >
+     >您可以將決定原則新增至程式碼型體驗內容範本。 [了解更多](../experience-decisioning/create-decision.md#add-decision)
 
 1. 您可以測試內容。 [了解作法](#test-template)
 
-1. 範本準備就緒後，請按一下[儲存]。**&#x200B;**
+1. 範本準備就緒後，請按一下[儲存]。****
 
 1. 按一下範本名稱旁的箭頭，返回&#x200B;**[!UICONTROL 詳細資料]**&#x200B;畫面。
 

@@ -7,14 +7,16 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 3%
+source-wordcount: '408'
+ht-degree: 2%
 
 ---
 
 # 設定 Twilio 提供者 {#sms-configuration-twilio}
+
+## 設定SMS/MMS的API認證
 
 若要使用Journey Optimizer設定Twilio，您需要建立用於Twilio的新API認證：
 
@@ -39,3 +41,30 @@ ht-degree: 3%
 1. 若要修改現有認證，請找到所需的API認證，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;選項以進行必要的變更。
 
 建立和設定API認證後，您現在需要建立SMS和MMS訊息的通道設定。 [了解更多](sms-configuration-surface.md)
+
+## 設定RCS的API認證
+
+Adobe Journey Optimizer使用[自訂SMS提供者](sms-configuration-custom.md)功能，透過Twilio支援RCS傳訊。 這可透過已驗證的企業設定檔傳送豐富的互動式訊息，並納入輪播、按鈕和多媒體內容等元素。
+
+若要使用Twilio啟用RCS傳訊，必須透過自訂SMS提供者設定新的API認證。 現有的Twilio SMS認證不相容，因為RCS需要不同的裝載格式。
+
+1. **在Twilio註冊RCS傳訊**
+
+   首先在Twilio平台中完成RCS註冊程式。 這包括設定您的企業設定檔，並為您的帳戶啟用RCS功能。
+
+1. **建立SMS Webhook**
+
+   [設定SMS Webhook](sms-configuration-custom.md#webhook)，以接收傳入的RCS訊息回應或傳遞更新。 此webhook必須正確連結至您的Twilio設定，才能進行雙向通訊。
+
+1. **使用自訂作為SMS供應商建立API認證**
+
+   在Journey Optimizer中，[使用「自訂」作為SMS供應商，專門為RCS定義新的API認證](sms-configuration-custom.md#api-credential)。 使用適當的RCS端點驗證方法、基本URL和標頭。
+
+建立和設定API認證後，您現在需要為RCS訊息建立通道設定。 [了解更多](sms-configuration-surface.md)
+
+
+
+
+
+
+

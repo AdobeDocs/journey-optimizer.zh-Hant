@@ -8,9 +8,9 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: 簡訊、子網域、設定
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 19f127c2abc81239abda8ebd38bdcacee796a1b0
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '881'
 ht-degree: 20%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 20%
 
 SMS子網域設定是&#x200B;**在所有環境之間共用**。 因此，對SMS子網域所做的任何修改也會影響其他生產沙箱。
 
-若要存取及編輯SMS子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理SMS子網域]**&#x200B;許可權。 若要了解權限的詳細資訊，請參閱[本章節](../administration/high-low-permissions.md)。
+若要存取及編輯SMS子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理SMS子網域]**&#x200B;許可權。 若要了解更多關於權限的資訊，請參閱[此區段](../administration/high-low-permissions.md)。
 
 ## 使用現有的子網域 {#sms-use-existing-subdomain}
 
@@ -61,6 +61,10 @@ SMS子網域設定是&#x200B;**在所有環境之間共用**。 因此，對SMS�
 1. 輸入將顯示在簡訊URL中的前置詞。
 
    只允許使用英數字元和連字型大小。
+
+   >[!CAUTION]
+   >
+   >請勿使用`cdn`或`data`首碼，因為這些首碼保留供內部使用。 其他限制或保留的前置詞（例如`dmarc`或`spf`）也應避免。
 
 1. 從清單中選取委派的子網域。
 
@@ -131,34 +135,17 @@ SMS子網域設定是&#x200B;**在所有環境之間共用**。 因此，對SMS�
 
 ## 取消委派子網域 {#undelegate-subdomain}
 
-如果您想要取消委派SMS子網域，請聯絡您的Adobe代表。
+如果您想要解除委派SMS子網域，請聯絡您的Adobe代表，告知您要解除委派的子網域。
 
-不過，在聯絡Adobe之前，您需要在使用者介面中執行數個步驟。
+<!--
+1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
+
+1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
+
+如果SMS子網域指向CNAME記錄，您可以從託管解決方案中刪除您為SMS子網域建立的CNAME DNS記錄(但不刪除原始電子郵件子網域（如有）。
 
 >[!NOTE]
 >
->您只能取消委派狀態為&#x200B;**[!UICONTROL 成功]**&#x200B;的子網域。 可以從使用者介面中刪除具有&#x200B;**[!UICONTROL 草稿]**&#x200B;和&#x200B;**[!UICONTROL 失敗]**&#x200B;狀態的子網域。
-
-首先，在[!DNL Journey Optimizer]中執行下列步驟：
-
-1. 停用與子網域相關聯的所有管道設定。 [了解作法](../configuration/channel-surfaces.md#deactivate-a-surface)
-
-<!--
-1. If the SMS subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
-
-1. 停止與子網域相關聯的作用中行銷活動。 [了解作法](../campaigns/modify-stop-campaign.md#stop)
-
-1. 停止與子網域相關聯的使用中歷程。 [了解作法](../building-journeys/end-journey.md#stop-journey)
-
-1. 如果SMS子網域是[新委派的子網域](#sms-configure-new-subdomain)，請移除與該子網域關聯的DNS專案。
-
-完成後，請聯絡您的Adobe代表，提供您要取消委派的子網域。
+>SMS子網域可以指向CNAME記錄，因為它是使用[CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-delegation)委派給Adobe的[現有子網域](#sms-use-existing-subdomain)，或是您設定的[新SMS子網域](#sms-configure-new-subdomain)。
 
 Adobe處理您的請求後，未委派網域不再顯示在子網域詳細目錄頁面上。
-
->[!CAUTION]
->
->取消委派子網域後：
->
->   * 您無法重新啟用使用該子網域的管道設定。
->   * 您無法透過使用者介面再次委派確切的子網域。 如果您想要這樣做，請聯絡您的Adobe代表。

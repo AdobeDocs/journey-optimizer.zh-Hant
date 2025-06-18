@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2434'
-ht-degree: 99%
+source-wordcount: '2448'
+ht-degree: 98%
 
 ---
 
@@ -75,6 +75,7 @@ ht-degree: 99%
       + [讀取對象](using/building-journeys/read-audience.md)
       + [內建管道動作](using/building-journeys/journeys-message.md)
       + [自訂動作](using/building-journeys/using-custom-actions.md)
+      + [內容決策](using/building-journeys/content-decision.md)
       + [Adobe Campaign Standard 動作](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 動作](using/building-journeys/using-adobe-campaign-v7-v8.md)
       + [跳轉](using/building-journeys/jump.md)
@@ -288,19 +289,19 @@ ht-degree: 99%
          + [推播通知流量](using/push/push-gs.md)
          + [設定推播通知頻道](using/push/push-configuration.md)
          + [Mobile 上線快速入門工作流程](using/push/mobile-onboarding-wf.md)
-   + 簡訊 / MMS 通道{#sms}
+   + 簡訊/多媒體簡訊/RCS頻道{#sms}
       + [開始使用文字訊息](using/sms/get-started-sms.md)
-      + [建立文字訊息 (簡訊/多媒體簡訊)](using/sms/create-sms.md)
+      + [建立SMS / MMS / RCS訊息](using/sms/create-sms.md)
       + [檢查並傳送文字訊息](using/sms/send-sms.md)
       + [管理文字訊息的選擇退出](using/sms/sms-opt-out.md)
       + [設定簡訊子網域](using/sms/sms-subdomains.md)
-      + 設定簡訊 / MMS 頻道{#configure-sms}
-         + [開始使用簡訊設定](using/sms/sms-configuration.md)
+      + 設定SMS / MMS / RCS頻道{#configure-sms}
+         + [開始使用簡訊/多媒體簡訊/RCS設定](using/sms/sms-configuration.md)
          + [設定 Sinch 提供者](using/sms/sms-configuration-sinch.md)
          + [設定 Infobip 提供者](using/sms/sms-configuration-infobip.md)
          + [設定 Twilio 提供者](using/sms/sms-configuration-twilio.md)
          + [設定自訂提供者](using/sms/sms-configuration-custom.md)
-         + [建立簡訊設定](using/sms/sms-configuration-surface.md)
+         + [建立SMS / MMS / RCS設定](using/sms/sms-configuration-surface.md)
    + 直接郵件 {#direct-mail}
       + [開始使用直接郵件](using/direct-mail/get-started-direct-mail.md)
       + [建立直接郵件](using/direct-mail/create-direct-mail.md)
@@ -329,6 +330,7 @@ ht-degree: 99%
          + [建立程式碼型體驗設定](using/code-based/code-based-configuration.md)
       + 建立程式碼型體驗 {#create-code-based-experiences}
          + [建立並撰寫程式碼型體驗](using/code-based/create-code-based.md)
+         + [在程式碼型體驗中使用可編輯的欄位](using/code-based/code-based-form-fields.md)
          + [測試程式碼型體驗](using/code-based/test-code-based.md)
          + [管理程式碼型體驗](using/code-based/publish-code-based.md)
    + 內容卡{#content-card}

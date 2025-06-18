@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 9%
+source-wordcount: '785'
+ht-degree: 8%
 
 ---
 
@@ -99,9 +99,15 @@ ht-degree: 9%
 >abstract="插入並編輯您想要傳送的程式碼，作為此基於程式碼之體驗動作的一部分。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="使用個人化編輯器"
 
+若要編輯程式碼型體驗的內容，請遵循下列步驟。
+
 1. 在歷程活動或行銷活動版本畫面中，選取&#x200B;**[!UICONTROL 編輯代碼]**。
 
    ![](assets/code-based-campaign-edit-code.png)
+
+   >[!NOTE]
+   >
+   >如果您使用程式碼型體驗內容範本搭配預先定義的可編輯表單欄位，則無需開啟個人化編輯器即可管理這些欄位的內容。 [了解更多](code-based-form-fields.md)
 
 1. [個人化編輯器](../personalization/personalization-build-expressions.md)開啟。 這是非視覺化體驗建立介面，可讓您編寫程式碼。
 
@@ -119,9 +125,17 @@ ht-degree: 9%
 
    您也可以將部分程式碼內容儲存為片段。 [了解作法](../content-management/fragments.md#save-as-expression-fragment)
 
-1. 使用程式碼型體驗時，您可以使用決策功能。 從左側列選取&#x200B;**[!UICONTROL 決定原則]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL 新增決定原則]**。 [了解更多](../experience-decisioning/create-decision.md)
+1. 使用程式碼型體驗時，您可以使用決策功能。 從左側列選取&#x200B;**[!UICONTROL 決定原則]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL 新增決定原則]**。 [了解更多](../experience-decisioning/create-decision.md#add-decision)
 
    ![](assets/code-based-campaign-create-decision.png)
+
+   <!--![](../experience-decisioning/assets/decision-code-based-create.png)-->
+
+   從歷程或行銷活動版本畫面，您還可以直接新增決定原則，而不開啟個人化編輯器。 使用右側邊欄上的專用圖示來顯示&#x200B;**[!UICONTROL 決策]**&#x200B;區段。
+
+   <!--![](assets/code-based-campaign-show-decisioning.png)-->
+
+   建立決定原則的詳細步驟顯示在[本節](../experience-decisioning/create-decision.md#add-decision)中。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存並關閉]**&#x200B;以確認您的變更。
 
@@ -131,4 +145,4 @@ ht-degree: 9%
 
 以下影片說明如何建立程式碼型體驗行銷活動、設定其屬性、測試並發佈。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449464/?quality=12&learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)
