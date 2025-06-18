@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '944'
 ht-degree: 29%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->您可以建立最多3個管道網域的本機規則集和最多5個歷程網域的本機規則集。
+>您最多可以為管道網域和歷程網域建立10個使用中的本機規則集。
 
 1. 存取&#x200B;**[!UICONTROL 規則集]**&#x200B;清單，然後按一下&#x200B;**[!UICONTROL 建立規則集]**。
 
@@ -164,4 +164,4 @@ ht-degree: 29%
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444737?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1956'
 ht-degree: 14%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->您可以建立最多3個管道網域的本機規則集和最多5個歷程網域的本機規則集。
+>您最多可以為管道網域和歷程網域建立10個使用中的本機規則集。
 
 1. 存取&#x200B;**[!UICONTROL 規則集]**&#x200B;清單，然後按一下&#x200B;**[!UICONTROL 建立規則集]**。
 
@@ -116,7 +116,7 @@ ht-degree: 14%
 >title="規則上限"
 >abstract="設定規則的頻率上限。根據規則集網域和「規則類型」欄位中的選擇，此欄位可以定義傳送至設定檔的訊息數量上限，或者設定檔可同時進入或註冊的歷程數量上限。"
 
-若要將規則新增至規則集，請存取規則集並按一下[新增規則]。**&#x200B;**
+若要將規則新增至規則集，請存取規則集並按一下[新增規則]。****
 
 規則可用的引數取決於建立時選取的規則集網域。
 
@@ -312,4 +312,4 @@ In this scenario, an individual profile:
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444737?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
