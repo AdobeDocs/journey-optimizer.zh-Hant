@@ -6,13 +6,13 @@ description: 瞭解使用Adobe Journey Optimizer建立協調行銷活動的主�
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 435b4a7eee9428c7f0efeb62c72b39c0e2aaabba
+exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
+source-git-commit: 979b46eccf77db6e90cd47ceb7a40298bb481cc5
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 31%
+source-wordcount: '567'
+ht-degree: 24%
 
 ---
-
 
 # 存取及管理協調式行銷活動 {#orchestrated-campaign-creation}
 
@@ -33,29 +33,21 @@ ht-degree: 31%
 
 <br/>
 
-您可以將協調的行銷活動建置到視覺畫布中，以設計跨管道流程，例如細分、行銷活動執行、檔案處理。
-
 ## 存取協調的行銷活動
 
-**[!UICONTROL 行銷活動]**&#x200B;功能表，瀏覽至「多步驟」索引標籤以存取完整的協調行銷活動清單。
+導覽至「**[!UICONTROL 行銷活動]**」功能表，然後選取「**[!UICONTROL 協調流程]**」索引標籤以存取協調行銷活動的完整清單。
 
-清單中每個協調的行銷活動會顯示其目前[狀態](#status)、上次執行或修改的時間，以及下一個排程執行日期和時間的相關資訊。
+![影像顯示協調的行銷活動詳細目錄](assets/inventory.png){zoomable="yes"}{zoomable="yes"}
 
-按一下清單右上角的「**[!UICONTROL 設定自訂版面的欄]**」圖示，即可自訂要顯示的欄。這可讓您新增其他資訊至清單，例如每個協調行銷活動的最後一個錯誤活動，或套用的目標維度。
+清單中每個協調的行銷活動都會顯示資訊，例如行銷活動的目前[狀態](#status)、相關頻道和標籤，或上次修改行銷活動的時間。 您可以按一下![設定配置按鈕](assets/do-not-localize/inventory-configure-layout.svg)按鈕來自訂顯示的欄。
 
-此外，還可使用搜尋列和篩選器，以便於在清單中輕鬆搜尋。例如，您可以篩選已協調的行銷活動，以僅顯示屬於某個行銷活動的行銷活動，或顯示在特定日期範圍內處理的行銷活動。
-
-若要複製或刪除協調的行銷活動，請按一下省略符號按鈕，然後選取&#x200B;**[!UICONTROL 複製]**&#x200B;或&#x200B;**[!UICONTROL 刪除]**。
-
->[!NOTE]
->
->當協調的行銷活動進行中時，您可以複製它，但無法刪除它。
+此外，還可使用搜尋列和篩選器，以便於在清單中輕鬆搜尋。例如，您可以篩選已協調的行銷活動，以僅顯示與指定頻道或標籤相關聯的行銷活動，或顯示在特定日期範圍內建立的行銷活動。
 
 ## 策劃的行銷活動內含哪些內容？ {#gs-ms-campaign-inside}
 
 精心安排的行銷活動畫布可呈現預期的情形。 其會說明要執行的各種任務以及任務如何連結在一起。
 
-![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
+![影像顯示協調的行銷活動畫布](assets/canvas-example.png){zoomable="yes"}{zoomable="yes"}
 
 每個協調的行銷活動包含：
 
@@ -67,12 +59,25 @@ ht-degree: 31%
 
 * **工作表**：工作表包含轉變攜帶的所有資訊。每個協調的行銷活動都使用數個工作表。 這些表格中傳送的資料可在整個協調行銷活動的生命週期中使用。
 
-## 狀態和生命週期 {#status}
+## 行銷活動狀態 {#status}
 
-行銷活動可以有多個狀態：
+協調的行銷活動可以有多種狀態：
 
-* **[!UICONTROL 草稿]**：已建立並儲存協調的行銷活動。
-* **[!UICONTROL 進行中]**：協調的行銷活動目前正在執行。
+* **[!UICONTROL 草稿]**：已建立協調的行銷活動。 尚未發佈。
+* **[!UICONTROL 發佈]**：正在發佈協調的行銷活動。
+* **[!UICONTROL 即時]**：已發佈且正在執行協調的行銷活動。
+* **[!UICONTROL 已排程]**：已排程協調的行銷活動執行。
 * **[!UICONTROL 已完成]**：協調的行銷活動執行已完成。
-* **[!UICONTROL 已暫停]**：已暫停協調的行銷活動。
-* **[!UICONTROL 錯誤]**：協調的行銷活動發生錯誤。 開啟協調的行銷活動並存取記錄檔與工作，以識別錯誤並加以解決。
+  <!--* **[!UICONTROL Closed]**: The orchestrated campaign xxxx-->
+* **[!UICONTROL 已封存]**：已封存協調的行銷活動。 所有已封存的行銷活動都會在最後修改日期後30天以滾動方式重新排程刪除。 您可以複製已封存的行銷活動（如有必要），以繼續處理。
+* **[!UICONTROL 已停止]**：已停止協調的行銷活動執行。 若要啟動行銷活動，您必須複製它。
+
+## 複製和刪除協調的行銷活動 {#duplicate-delete}
+
+在某些情況下，您可能需要複製協調的行銷活動，例如執行已停止的行銷活動，或變更排程行銷活動的執行頻率。 若要這麼做，請按一下行銷活動詳細目錄中顯示[更多動作]按鈕](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的![影像，然後選取&#x200B;**[!UICONTROL 複製]**
+
+若要刪除行銷活動，請按一下顯示[更多動作]按鈕](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的![影像，然後選取&#x200B;**[!UICONTROL 刪除]**。
+
+>[!NOTE]
+>
+>只能刪除&#x200B;**[!UICONTROL 草稿]**&#x200B;行銷活動。
