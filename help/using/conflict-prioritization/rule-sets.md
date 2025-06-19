@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '945'
 ht-degree: 29%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->您最多可以為管道網域和歷程網域建立10個使用中的本機規則集。
+>您可以為每個管道網域和歷程網域建立最多10個作用中本機規則集。
 
 1. 存取&#x200B;**[!UICONTROL 規則集]**&#x200B;清單，然後按一下&#x200B;**[!UICONTROL 建立規則集]**。
 
@@ -127,7 +127,7 @@ ht-degree: 29%
 
    >[!NOTE]
    >
-   >完全啟用規則或規則集最多可能需要20分鐘。 您不需要修改訊息或重新發佈歷程，規則就能生效。
+   >完全啟用規則或規則集最多可能需要10分鐘。 您不需要修改訊息或重新發佈歷程，規則就能生效。
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
@@ -164,4 +164,4 @@ ht-degree: 29%
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444737?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

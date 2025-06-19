@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1957'
 ht-degree: 14%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->您最多可以為管道網域和歷程網域建立10個使用中的本機規則集。
+>您可以為每個管道網域和歷程網域建立最多10個作用中本機規則集。
 
 1. 存取&#x200B;**[!UICONTROL 規則集]**&#x200B;清單，然後按一下&#x200B;**[!UICONTROL 建立規則集]**。
 
@@ -116,7 +116,7 @@ ht-degree: 14%
 >title="規則上限"
 >abstract="設定規則的頻率上限。根據規則集網域和「規則類型」欄位中的選擇，此欄位可以定義傳送至設定檔的訊息數量上限，或者設定檔可同時進入或註冊的歷程數量上限。"
 
-若要將規則新增至規則集，請存取規則集並按一下[新增規則]。**&#x200B;**
+若要將規則新增至規則集，請存取規則集並按一下[新增規則]。****
 
 規則可用的引數取決於建立時選取的規則集網域。
 
@@ -197,7 +197,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->完全啟用規則或規則集最多可能需要20分鐘。 您不需要修改訊息或重新發佈歷程，規則就能生效。
+>完全啟用規則或規則集最多可能需要10分鐘。 您不需要修改訊息或重新發佈歷程，規則就能生效。
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
@@ -253,7 +253,7 @@ ht-degree: 14%
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. 在啟用行銷活動之前，請務必將其排程在日後至少20分鐘執行。
+1. 在啟用行銷活動之前，請務必將其排程在日後至少10分鐘執行。
 
    這樣就有足夠的時間在您選取之商業規則的設定檔上填入計數器值。 如果您立即啟用行銷活動，規則集計數器值將不會填入收件者的設定檔中，且訊息將不會計入其自訂規則集的頻率限定規則中。
 
@@ -306,10 +306,10 @@ In this scenario, an individual profile:
 
 >[!IMPORTANT]
 >
->如果立即啟動歷程，系統最多可能需要20分鐘才能開始抑制客戶。 為了防止這種可能性，您可以將歷程排程為至少未來20分鐘開始。
+>如果立即啟動歷程，系統最多可能需要10分鐘才能開始抑制客戶。 為了防止這種可能性，您可以將歷程排程為至少10分鐘後再開始。
 
 +++
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444737?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

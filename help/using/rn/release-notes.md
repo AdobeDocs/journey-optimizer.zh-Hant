@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 48%
+source-wordcount: '1070'
+ht-degree: 45%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 48%
 
 **發行日期**： 2025年6月18日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 全新功能 {#25-06-features}
 
@@ -195,11 +195,13 @@ ht-degree: 48%
 
 以下列舉部分發布內容附上的改良功能。
 
-<!--* **Channel rule sets**
+* **管道規則集**
 
-  * **Custom duration window** for capping -  A new **Repeat Count** field is now available in the channel rule sets configuration screen, allowing you to apply frequency capping rules over multiple days, weeks, or months, depending on the specified duration.
+   * **上限的自訂持續時間視窗** — 新的&#x200B;**Every**&#x200B;欄位現在可在頻道規則集設定畫面中使用，可讓您根據指定的持續時間，在多天、幾週或幾個月內套用頻率上限規則。
 
-  * **Hourly duration** - You can now apply capping on an hourly basis for channel rule sets.    -->
+   * **每小時重設上限頻率** — 您現在可以每小時為管道規則集套用上限。 此功能僅適用於一組組織 (可用性限制)。 請連絡您的客戶服務以啟用它。
+
+   * **每日持續時間** — 先前在「有限可用性」中提供，現在所有客戶都可以使用管道規則集中的「每日」頻率上限。
 
 * **程式碼型體驗**
 

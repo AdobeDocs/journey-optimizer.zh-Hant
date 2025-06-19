@@ -4,7 +4,7 @@ description: 瞭解如何善用 Journey Optimizer 衝突與優先順序工具。
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 9d84a319497e833aa77416479dd019bab59aab55
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 97%
@@ -57,7 +57,7 @@ ht-degree: 97%
 
 * **輪廓計數器更新延遲**
 
-  等到客戶進入歷程後，最多可能需要約 20 分鐘的時間，才能更新輪廓計數器的數值。
+  等到客戶進入歷程後，最多可能需要約 10 分鐘的時間，才能更新輪廓計數器的數值。
 
   如果在短時間內，輪廓輸入兩個歷程，那麼第二個歷程可能無法正確識別已達頻率上限，這樣可能會讓輪廓輸入兩個歷程。
 

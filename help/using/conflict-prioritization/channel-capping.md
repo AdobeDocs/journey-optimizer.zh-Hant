@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 6%
+source-wordcount: '1251'
+ht-degree: 5%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 6%
 **管道**&#x200B;規則集套用上限規則至通訊管道。 例如，每天傳送的電子郵件或簡訊請勿超過1個。
 
 運用管道規則集，可讓您根據通訊型別設定頻率上限，以防止訊息相似的客戶超載。 例如，您可以建立規則集以限制傳送給客戶的&#x200B;**促銷通訊**&#x200B;數目，以及建立另一個規則集以限制傳送給客戶的&#x200B;**電子報**&#x200B;數目。 視您建立的促銷活動型別而定，您可以選擇套用促銷通訊或電子報規則集。
+
+>[!IMPORTANT]
+>
+>為確保管道層級上限能正常運作，在製作行銷活動或歷程時，請務必選擇最高優先順序的名稱空間。 請至[平台身分識別服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中，進一步了解命名空間的優先順序
 
 ## 建立管道頻率上限規則
 
@@ -33,7 +37,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->您最多可以為管道網域和歷程網域建立10個使用中的本機規則集。
+>您可以為每個管道網域和歷程網域建立最多10個作用中本機規則集。
 
 1. 存取&#x200B;**[!UICONTROL 規則集]**&#x200B;清單，然後按一下&#x200B;**[!UICONTROL 建立規則集]**。
 
@@ -45,7 +49,7 @@ ht-degree: 6%
 
      ![](assets/journey-capping-list.png)
 
-   * 若要在新規則集內建立上限規則，請按一下[建立規則集] **&#x200B;**，指定規則集的唯一名稱，並從[規則集網域] **[!UICONTROL 下拉式清單中選取[管道]，然後按一下[儲存]]**。**&#x200B;**
+   * 若要在新規則集內建立上限規則，請按一下[建立規則集] ****，指定規則集的唯一名稱，並從[規則集網域] **[!UICONTROL 下拉式清單中選取[管道]，然後按一下[儲存]]**。]****[!UICONTROL 
 
      ![](assets/rule-sets-create.png)
 
@@ -55,25 +59,33 @@ ht-degree: 6%
 
    ![](assets/rule-set-channels.png)
 
-1. 從&#x200B;**[!UICONTROL 持續時間]**&#x200B;下拉式清單中，選取是否要每月、每週或每日套用上限。 頻率上限是根據所選的日曆期間。 它會在對應的時間範圍開始時重設。
+1. 在&#x200B;**[!UICONTROL 上限計數]**&#x200B;欄位中，根據您在下列欄位中的選擇，設定規則的上限，也就是每個月、每週、每天或每小時可傳送給個別使用者設定檔的訊息數上限。
+
+1. 從&#x200B;**[!UICONTROL 重設上限頻率]**&#x200B;下拉式清單中，選取是否要每小時、每日、每週或每月套用上限。 頻率上限是根據所選的日曆期間。 它會在對應的時間範圍開始時重設。
 
    每個期間的計數器到期日如下：
 
-   * **[!UICONTROL 每月]**：頻率上限在每月最後一天23:59:59 UTC之前有效。 例如，1月的每月到期日為01-31 23:59:59 UTC。
+   * **[!UICONTROL 小時]** — 頻率上限對所選小時數有效（至少3小時）。 計數器會在每個時間範圍的開頭自動重設。 對於3小時的頻率上限，它每3小時重設一次，這與UTC一小時的結尾一致。
 
-   * **[!UICONTROL 每週]**：當行事曆周從星期日開始時，頻率上限將持續到星期六23:59:59 UTC。 無論規則是在何時建立，有效期都適用。 例如，如果規則是在星期四建立，則此規則的有效期直到星期六的23:59:59。
+     >[!AVAILABILITY]
+     >
+     >此功能僅適用於一組組織 (可用性限制)。 請連絡您的客戶服務以啟用它。
 
-   * **[!UICONTROL 每日]**：每日頻率上限在23:59:59 UTC之前的當天有效，並在隔天的開頭重設為0。
+   * **[!UICONTROL 每日]** — 每日頻率上限在23:59:59 UTC之前的該日有效，並在隔天的開頭重設為0。
+   * **[!UICONTROL 每週]** — 當行事曆周從星期日開始時，頻率上限將持續到星期六23:59:59 UTC。 無論規則是在何時建立，有效期都適用。 例如，如果規則是在星期四建立，則此規則的有效期直到星期六的23:59:59。
+   * **[!UICONTROL 每月]** — 頻率上限在每月最後一天23:59:59 UTC之前有效。 例如，1月的每月到期日為01-31 23:59:59 UTC。
 
-     >[!CAUTION]
-     > 
-     >為確保每日頻率上限規則的準確性，請確保在製作行銷活動或歷程時選擇最高優先順序的命名空間。請至[平台身分識別服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中，進一步了解命名空間的優先順序
+   >[!IMPORTANT]
+   >
+   >* 為確保準確性，請確保在編寫行銷活動或歷程時選擇最高優先順序的名稱空間。 在[平台身分服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}<br/>之中進一步了解命名空間優先順序
+   >
+   >* 一旦傳遞通訊後，設定檔計數器值就會更新。 當您傳送大量通訊時，請注意這一點，因為輸送量可能導致收件者在啟動通訊後數分鐘甚至數小時收到電子郵件（若您同時傳送數百萬封通訊）。 如果收件者收到兩則緊密相連的通訊，則這一點很重要。 我們建議將通訊間隔至少兩小時，讓收件者有充足的時間接收通訊，並相應地更新計數器值。
 
-   請注意，一旦傳遞通訊，設定檔計數器值就會更新。 當您傳送大量通訊時，請注意這一點，因為輸送量可能導致收件者在啟動通訊後數分鐘甚至數小時收到電子郵件（若您同時傳送數百萬封通訊）。
+1. **[!UICONTROL Every]**&#x200B;欄位可讓您根據指定的持續時間，重複數小時、數天、數週或數月的頻率限定規則。 範例：套用頻率限定規則2週。
 
-   如果收件者收到兩則緊密相連的通訊，則這一點很重要。 我們建議將通訊間隔至少兩小時，讓收件者有充足的時間接收通訊，並相應地更新計數器值。
+   請務必輸入符合所選期間型別的值：每小時3-23、每日1-30、每週1-4及每月1-3。
 
-1. 設定規則的上限，代表根據您上述選擇，每個月、每週或每天可傳送至個別使用者設定檔的最大訊息數量。
+   當新的時間範圍開始時，計數器會自動重設為0。 對於2天的頻率上限，此重設會每兩天的UTC午夜發生。
 
 1. 選取您要用於此規則的頻道： **[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**、**[!UICONTROL 推播通知]**&#x200B;或&#x200B;**[!UICONTROL 直接郵件]**。
 
@@ -107,9 +119,9 @@ ht-degree: 6%
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. 在啟用您的歷程或行銷活動之前，請務必將其排程在日後至少20分鐘執行。
+1. 在啟用您的歷程或行銷活動之前，請務必將其排程在日後至少10分鐘執行。
 
-   這樣就有足夠的時間在您選取之商業規則的設定檔上填入計數器值。 如果您立即啟用行銷活動，規則集計數器值將不會填入收件者的設定檔中，且訊息將不會計入其自訂規則集的頻率限定規則中。
+   這樣就有足夠的時間在您選取之商業規則的設定檔上填入計數器值。 如果您立即啟用行銷活動，規則集計數器值將不會填入收件者的設定檔中，且訊息將不會計入其自訂規則集的頻率限定規則中。 此外，上限可能無法正確用於立即啟用的歷程和行銷活動以及API觸發的行銷活動。
 
    ![](assets/rule-set-schedule-campaign.png)
 
@@ -120,6 +132,8 @@ ht-degree: 6%
 >數個規則可套用至相同的管道，但一旦達到較低上限，設定檔將從下一次傳送中排除。
 
 測試頻率規則時，建議使用新建立的[測試設定檔](../audience/creating-test-profiles.md)，因為一旦達到設定檔的頻率上限，就無法在下一個期間之前重設計數器。 停用規則將允許限定設定檔接收訊息，但不會移除或刪除任何計數器增量。
+
+<!--add a new section for default priority namespace.-->
 
 <!--
 ## Example: combine several rules {#frequency-rule-example}
@@ -152,4 +166,4 @@ In this scenario, an individual profile:
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444737?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
