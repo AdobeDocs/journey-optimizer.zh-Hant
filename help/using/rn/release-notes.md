@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1078'
 ht-degree: 45%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 45%
 
 **發行日期**： 2025年6月18日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 全新功能 {#25-06-features}
 
@@ -202,6 +202,8 @@ ht-degree: 45%
    * **每小時重設上限頻率** — 您現在可以每小時為管道規則集套用上限。 此功能僅適用於一組組織 (可用性限制)。 請連絡您的客戶服務以啟用它。
 
    * **每日持續時間** — 先前在「有限可用性」中提供，現在所有客戶都可以使用管道規則集中的「每日」頻率上限。
+
+  如需詳細資訊，請參閱[詳細文件](../conflict-prioritization/channel-capping.md)。
 
 * **程式碼型體驗**
 

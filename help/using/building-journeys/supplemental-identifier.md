@@ -3,9 +3,9 @@ title: 事件觸發歷程中的補充識別碼
 description: 瞭解如何在事件觸發的歷程中使用補充識別碼。
 badge: label="可用性限制" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
+source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '928'
 ht-degree: 8%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 8%
 
 此外，Journey Optimizer可讓您運用補充識別碼的屬性來自訂訊息（例如預訂編號、處方續約日期、產品型別），確保高度相關的通訊。<!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
 
-## 護欄和限制
+## 護欄和限制 {#guardrails}
 
 * **並行執行個體限制**：設定檔不能有超過10個並行歷程執行個體。
 
@@ -61,7 +61,14 @@ ht-degree: 8%
 
 * **資料型別和結構描述結構**：補充識別項必須是型別`string`。 它可以是獨立的字串屬性，也可以是物件陣列中的字串屬性。 獨立的字串屬性會產生單一歷程例項，而物件陣列中的字串屬性則會導致物件陣列的每個疊代產生唯一的歷程例項。 不支援字串陣列和地圖。
 
-## 新增補充識別碼並在歷程中運用
+* **歷程重新進入**
+
+  具有補充識別碼的歷程重新進入行為遵循現有的重新進入原則：
+
+   * 如果歷程不可重新進入，則相同的設定檔ID +補充ID組合無法重新進入歷程。
+   * 如果歷程透過時間視窗重新進入，則相同的設定檔ID +補充ID組合可在定義的時間視窗後重新進入。
+
+## 新增補充識別碼並在歷程中運用 {#add}
 
 若要在歷程中使用補充識別碼，請遵循下列步驟：
 
@@ -88,6 +95,10 @@ ht-degree: 8%
       ![](assets/supplemental-ID-event.png)
 
    1. 使用運算式編輯器來選取您標示為補充ID的屬性。
+
+      >[!NOTE]
+      >
+      >請確定您在&#x200B;**[!UICONTROL 進階模式]**&#x200B;中使用運算式編輯器來選取屬性。
 
    1. 選取補充ID後，關聯的名稱空間在事件設定畫面中會顯示為唯讀。
 
