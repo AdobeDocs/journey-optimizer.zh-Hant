@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: b5cdffa0794b3862094d8830b13bb618d94fe97f
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 34%
+source-wordcount: '622'
+ht-degree: 36%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 34%
 
 +++ 目錄
 
-| 歡迎使用協調的行銷活動 | 啟動您的第一個協調行銷活動 | 查詢資料庫 | 協調的行銷活動活動 |
+| 歡迎使用協調的行銷活動 | 首次建立協調的行銷活動 | 查詢資料庫 | 協調的行銷活動 |
 |---|---|---|---|
 | [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>[設定步驟](../configuration-steps.md)<br/><br/>[建立協調行銷活動的重要步驟](../gs-campaign-creation.md) | [建立協調的行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/>[使用協調的行銷活動傳送訊息](../send-messages.md)<br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用查詢Modeler](../orchestrated-rule-builder.md)<br/><br/>[建置您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/>[並加入](and-join.md) - [建置對象](build-audience.md) - [變更維度](change-dimension.md) - [合併](combine.md) - [重複資料刪除](deduplication.md) - [擴充](enrichment.md) - [分支](fork.md) - [調解](reconciliation.md) - [分割](split.md) - [等待](wait.md) |
 
@@ -50,9 +50,9 @@ ht-degree: 34%
 
 **調解**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動，可讓您定義Adobe Journey Optimizer中的資料與工作表中的資料之間的連結，例如從外部檔案載入的資料。
 
-擴充活動可讓您將其他資料新增至您的協調行銷活動，例如，合併來自多個來源的資料或連結至暫時資源。 相對地，調解活動用於比對未識別或外部資料與資料庫中的現有資源。
+**擴充**&#x200B;活動可讓您新增其他資料至您的協調行銷活動，例如，合併來自多個來源的資料或連結至暫時資源。 相對地，**調解**&#x200B;活動用來比對未識別或外部資料與資料庫中現有的資源。
 
-調解需要系統中已存在相關記錄。 例如，如果您匯入列有產品、時間戳記和客戶資訊的購買檔案，產品和客戶必須已存在於資料庫中才能建立連結。
+**調解**&#x200B;要求系統中已存在相關記錄。 例如，如果您匯入列有產品、時間戳記和客戶資訊的購買檔案，產品和客戶必須已存在於資料庫中才能建立連結。
 
 ## 設定調和活動 {#reconciliation-configuration}
 
@@ -71,7 +71,7 @@ ht-degree: 34%
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="選取目標市場選擇維度"
 >abstract="選取要調和之輸入資料的目標市場選擇維度。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=zh-Hant&#targeting-dimensions" text="目標市場選擇維度"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?#targeting-dimensions" text="目標市場選擇維度"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
