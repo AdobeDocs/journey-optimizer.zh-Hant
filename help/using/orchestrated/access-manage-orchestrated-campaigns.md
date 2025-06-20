@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: 979b46eccf77db6e90cd47ceb7a40298bb481cc5
+source-git-commit: 919b462e869b8dd836fe45ee31441d3cc7ecf6b2
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '579'
 ht-degree: 24%
 
 ---
@@ -20,6 +20,11 @@ ht-degree: 24%
 >id="ajo_targeting_workflow_list"
 >title="協調的行銷活動"
 >abstract="在此畫面中，您可以存取協調的行銷活動的完整清單、檢查其目前狀態、上次/下次執行日期，並建立新的協調的行銷活動。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_campaign_action"
+>title="動作"
+>abstract="本節列出協調行銷活動內使用的所有動作。"
 
 +++ 目錄
 
@@ -74,9 +79,9 @@ ht-degree: 24%
 
 ## 複製和刪除協調的行銷活動 {#duplicate-delete}
 
-在某些情況下，您可能需要複製協調的行銷活動，例如執行已停止的行銷活動，或變更排程行銷活動的執行頻率。 若要這麼做，請按一下行銷活動詳細目錄中顯示[更多動作]按鈕![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的影像，然後選取&#x200B;**[!UICONTROL 複製]**
+在某些情況下，您可能需要複製協調的行銷活動，例如執行已停止的行銷活動，或變更排程行銷活動的執行頻率。 若要這麼做，請按一下行銷活動詳細目錄中顯示[更多動作]按鈕](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的![影像，然後選取&#x200B;**[!UICONTROL 複製]**
 
-若要刪除行銷活動，請按一下顯示[更多動作]按鈕![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的影像，然後選取&#x200B;**[!UICONTROL 刪除]**。
+若要刪除行銷活動，請按一下顯示[更多動作]按鈕](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的![影像，然後選取&#x200B;**[!UICONTROL 刪除]**。
 
 >[!NOTE]
 >
