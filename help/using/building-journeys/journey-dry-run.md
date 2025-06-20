@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '941'
 ht-degree: 20%
 
 ---
@@ -118,17 +118,19 @@ Journey Dirun提供：
 
 ## 護欄與限制 {#journey-dry-run-limitations}
 
-* 試執行模式不適用於包含反應事件的歷程。
-* 處於試執行模式的設定檔計入可參與的設定檔。
-* 練習歷程不會影響商業規則。
+* 試執行模式不適用於包含反應事件的歷程
+* 處於試執行模式的設定檔計入可參與的設定檔
+* 處於試執行模式的歷程計入即時歷程配額
+* 練習歷程不會影響商業規則
 * 建立新歷程版本時，如果先前的歷程版本為&#x200B;**即時**，則新版本不允許試執行啟動。
 * 歷程練習會產生stepEvents。 這些stepEvents具有特定標幟和Derun ID：
    * 如果已啟動試運行，`_experience.journeyOrchestration.stepEvents.inDryRun`會傳回`true`，否則會傳回`false`
    * `_experience.journeyOrchestration.stepEvents.dryRunID`傳回試執行個體的識別碼
+
 * 在模擬執行期間，歷程會以下列特性執行：
 
-   * 未執行&#x200B;**頻道動作**&#x200B;節點，包括電子郵件、簡訊或推播通知。
-   * **自訂動作**&#x200B;已在試執行期間停用，而且其回應設定為Null。
+   * 未執行&#x200B;**頻道動作**&#x200B;節點，包括電子郵件、簡訊或推播通知
+   * **自訂動作**&#x200B;已在試執行期間停用，而且其回應設定為Null
    * 在試執行期間略過&#x200B;**等待節點**。
      <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * **預設會執行**&#x200B;資料來源，包括外部資料來源。
+   * **預設會執行**&#x200B;資料來源，包括外部資料來源

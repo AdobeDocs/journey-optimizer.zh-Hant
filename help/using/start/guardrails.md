@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
+source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
 workflow-type: tm+mt
-source-wordcount: '2513'
-ht-degree: 99%
+source-wordcount: '2539'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 >
 >* [即時客戶輪廓資料、分段的護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}也適用於 Adobe Journey Optimizer。
 >
->* 另請參閱即時客戶個人檔案中的資料擷取的[護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* 另請參閱即時客戶個人檔案中的資料擷取的[護欄](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## 支援的瀏覽器 {#browsers}
@@ -117,8 +117,8 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 ### 一般歷程護欄 {#journeys-guardrails-journeys}
 
 * 歷程中的活動數限定為最多 50 個。活動數會顯示於歷程畫布的左上方區段。這有助於提高可讀性、QA 及疑難排解。
+* 即時/暫停/試執行歷程的數量限製為100。  目前的歷程次數會顯示在歷程畫布上方。
 * 當您發佈歷程時，我們會自動縮放和調整，以確保輸送量與穩定性達到最高。 當您一次接近 100 個即時歷程的里程碑時，您會看到此成果的 UI 中出現通知。 如果您看到此通知，並需要一次將歷程擴充至 100 個即時歷程以上，請建立客戶服務支援服務單，我們將協助您達成目標。
-  <!-- DOCAC-10977 * As you publish journeys, we automatically scale and adjust to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time, you will see a notification appear in the UI on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
 * 在歷程中使用客群資格篩選時，該客群資格篩選活動最多可能需要 10 分鐘，才會啟用和接聽進入或退出客群的輪廓。
 * 輪廓的歷程執行個體大小上限為 1MB。在歷程執行過程中收集的所有資料都會儲存在該歷程執行個體中。因此，來自傳入事件的資料、從 Adobe Experience Platform 擷取的輪廓資訊、自訂動作回應等會儲存在該歷程執行個體中，並影響歷程大小。當歷程以事件開始時，建議限制該事件承載的大小上限 (例如：低於 800 KB)，以避免在歷程執行中經過幾項活動後達到該限制。 當達到該限制時，輪廓處於錯誤狀態並將從歷程中排除。
 * 除了歷程活動中使用的逾時之外，還有一個不會顯示在介面且無法變更的全域歷程逾時。 此全域逾時會在個人進入歷程 91 天後停止其進度。 [閱讀全文](../building-journeys/journey-properties.md#global_timeout)
@@ -130,7 +130,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 如果出現錯誤，將系統地執行三次重試。您無法根據收到的錯誤訊息調整重試次數。除 HTTP 401、403 和 404 外，會對所有 HTTP 錯誤執行重試。
 * 內建的&#x200B;**反應**&#x200B;事件可讓您對開箱即用的動作做出反應。 請在[此頁面](../building-journeys/reaction-events.md)了解更多。如果要對透過自訂動作傳送的訊息做出反應，則需設定專用事件。
 * 您無法同時進行兩個動作，必須逐一新增。
-* 對於作用中的[&#128279;](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version)歷程版本中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
+* 對於作用中的](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version)歷程版本[中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
 
 ### 歷程版本 {#journey-versions-g}
 
