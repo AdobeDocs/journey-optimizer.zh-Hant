@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: 919b462e869b8dd836fe45ee31441d3cc7ecf6b2
+source-git-commit: cd42bca1a36344f688b2d90e1c0b96a9ef2a53ce
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 24%
+source-wordcount: '610'
+ht-degree: 22%
 
 ---
 
@@ -72,16 +72,25 @@ ht-degree: 24%
 * **[!UICONTROL 發佈]**：正在發佈協調的行銷活動。
 * **[!UICONTROL 即時]**：已發佈且正在執行協調的行銷活動。
 * **[!UICONTROL 已排程]**：已排程協調的行銷活動執行。
-* **[!UICONTROL 已完成]**：協調的行銷活動執行已完成。
-  <!--* **[!UICONTROL Closed]**: The orchestrated campaign xxxx-->
+* **[!UICONTROL 已完成]**：協調的行銷活動執行已完成。 行銷活動完成傳送訊息後，最多可在3天內自動指派「已完成」狀態，而不會發生錯誤。
+* **[!UICONTROL 已關閉]**：當循環行銷活動已停止時，會顯示此狀態。
+<!--Comment une campaign devient Closed?
+[CPR] : A vérifier avec Fred si cette fonctionalité est toujours d'actualité. Normalement c'est sur action de l'utilisateur sur une campaine récurrente only
+= pas trouvé-->
 * **[!UICONTROL 已封存]**：已封存協調的行銷活動。 所有已封存的行銷活動都會在最後修改日期後30天以滾動方式重新排程刪除。 您可以複製已封存的行銷活動（如有必要），以繼續處理。
-* **[!UICONTROL 已停止]**：已停止協調的行銷活動執行。 若要啟動行銷活動，您必須複製它。
+<!--Comment une campaign devient Archived?
+[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...)
+= pas trouvé -->
+* **[!UICONTROL 已停止]**：已停止協調的行銷活動執行。 若要再次啟動行銷活動，您必須複製它。
 
 ## 複製和刪除協調的行銷活動 {#duplicate-delete}
 
-在某些情況下，您可能需要複製協調的行銷活動，例如執行已停止的行銷活動，或變更排程行銷活動的執行頻率。 若要這麼做，請按一下行銷活動詳細目錄中顯示[更多動作]按鈕![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的影像，然後選取&#x200B;**[!UICONTROL 複製]**
+在某些情況下，您可能需要複製協調的行銷活動，例如執行已停止的行銷活動，或變更排程行銷活動的執行頻率。 若要這麼做，請按一下行銷活動詳細目錄中顯示[更多動作]按鈕](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的![影像，然後選取&#x200B;**[!UICONTROL 複製]**
 
-若要刪除行銷活動，請按一下顯示[更多動作]按鈕![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的影像，然後選取&#x200B;**[!UICONTROL 刪除]**。
+<!--Une fois une campaign Scheduled, on ne peut plus changer l'execution frequency = la solution est de dupliquer la campaign ?
+[CPR] : Actuellement oui, mais on est en discussion pour pouvoir revenir en mode "draft" et quelles seraient les actions à nouveau disponibles. A vérifier avec Fred-->
+
+若要刪除行銷活動，請按一下顯示[更多動作]按鈕](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的![影像，然後選取&#x200B;**[!UICONTROL 刪除]**。
 
 >[!NOTE]
 >
