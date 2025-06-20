@@ -51,7 +51,7 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 
 ![個人化遊樂場](assets/playground.png)
 
-➡️ [存取個人化遊樂場](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [存取個人化遊樂場](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## 讓我們深入探討
 
