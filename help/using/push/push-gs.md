@@ -8,7 +8,7 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 5b8d26b4fbc323308b5a49672f9d30298756ccf9
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->新的&#x200B;**行動入門快速入門工作流程**&#x200B;現已推出。 使用這項新產品功能，快速設定行動SDK，以開始收集和驗證行動事件資料，並傳送行動推播通知。 此功能可作為公開測試版透過Data Collection首頁存取。 [了解更多](mobile-onboarding-wf.md)
+>全新&#x200B;**行動入門快速入門工作流程**&#x200B;現已推出。 使用這項新產品功能，快速設定行動SDK，以開始收集和驗證行動事件資料，並傳送行動推播通知。 此功能可作為公開測試版透過Data Collection首頁存取。 [了解更多](mobile-onboarding-wf.md)
 >
 
 瞭解如何在[此頁面](create-push.md)上建立推播通知。
@@ -42,7 +42,7 @@ ht-degree: 1%
 1. 個人化推播裝載會轉送至內部推播訊息傳遞服務
 1. 此內部服務接著會驗證與訊息相關聯之應用程式的認證，並且
 1. 傳送訊息至Apple與Google訊息服務，以進行最終傳送
-1. 會記錄來自訊息服務的意見回饋，並記錄錯誤和成功，以便在Journey Live和Customer Journey Analytics報告中報告
+1. 訊息服務的意見反應會被記錄，錯誤和成功則會記錄在Journey Live和Customer Journey Analytics報告中
 1. 推播通知會傳送至一般使用者裝置
 1. 一般使用者推播通知互動會透過SDK整合，從一般使用者使用者端以體驗事件的形式傳送
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 * **Adobe Experience Platform Mobile SDK**，可透過Android與iOS相容的SDK，為您的行動裝置提供使用者端整合API。 SDK提供[!DNL Adobe Journey Optimizer]擴充功能，公開各種推送訊息專屬的API，並啟用資料流程，例如註冊推送代號或傳送推送追蹤事件或任何其他自訂體驗事件至Adobe Experience Platform。 SDK還提供多種其他擴充功能，以啟用其他Adobe Experience Cloud以及第三方合作夥伴功能。
 
-  SDK整合也需要Adobe Experience Platform [資料彙集](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant){target="_blank"}服務的設定，例如：
+  SDK整合也需要設定Adobe Experience Platform [資料收集](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html){target="_blank"}服務，例如：
 
    * 建立資料串流，以設定資料據以流入Adobe Experience Platform的設定檔和體驗事件資料集
    * 建立使用者端行動屬性並新增擴充功能。 SDK與這些擴充功能緊密整合，以提供順暢的資料收集體驗。

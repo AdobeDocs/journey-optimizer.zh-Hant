@@ -7,7 +7,7 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5b8d26b4fbc323308b5a49672f9d30298756ccf9
 workflow-type: tm+mt
 source-wordcount: '1839'
 ht-degree: 5%
@@ -20,18 +20,18 @@ ht-degree: 5%
 
 >[!AVAILABILITY]
 >
->新的&#x200B;**行動入門快速入門工作流程**&#x200B;現已推出。 使用這項新產品功能，快速設定行動SDK，以開始收集和驗證行動事件資料，並傳送行動推播通知。 此功能可作為公開測試版透過Data Collection首頁存取。 [了解更多](mobile-onboarding-wf.md)
+>全新&#x200B;**行動入門快速入門工作流程**&#x200B;現已推出。 使用這項新產品功能，快速設定行動SDK，以開始收集和驗證行動事件資料，並傳送行動推播通知。 此功能可作為公開測試版透過Data Collection首頁存取。 [了解更多](mobile-onboarding-wf.md)
 >
 
 ## 開始之前 {#start-push}
 
 ### 設定許可權 {#setup-permissions}
 
-建立行動應用程式之前，您必須先確定您擁有或指派適用於Adobe Experience Platform標籤的正確使用者許可權。 進一步瞭解[標籤檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hant){target="_blank"}。
+建立行動應用程式之前，您必須先確定您擁有或指派適用於Adobe Experience Platform標籤的正確使用者許可權。 進一步瞭解[標籤檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}。
 
 >[!CAUTION]
 >
->推播設定必須由專家使用者執行。 根據您的實施模式以及此實施中涉及的角色，您可能需要將完整的許可權集指派給單一產品設定檔，或應用程式開發人員與&#x200B;**Adobe Journey Optimizer**&#x200B;管理員共用許可權。 在[本檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hant){target="_blank"}中進一步瞭解&#x200B;**標籤**&#x200B;許可權。
+>推播設定必須由專家使用者執行。 根據您的實施模式以及此實施中涉及的角色，您可能需要將完整的許可權集指派給單一產品設定檔，或應用程式開發人員與&#x200B;**Adobe Journey Optimizer**&#x200B;管理員共用許可權。 在[本檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}中進一步瞭解&#x200B;**標籤**&#x200B;許可權。
 
 <!--ou need to your have access to perform following roles :
 
@@ -48,7 +48,7 @@ ht-degree: 5%
 
    ![](assets/push_product_1.png)
 
-1. 選取現有的&#x200B;**[!UICONTROL 產品設定檔]**，或使用&#x200B;**[!UICONTROL 新增設定檔]**&#x200B;按鈕建立新的設定檔。 在[Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=zh-Hant#ui){target="_blank"}中瞭解如何建立新的&#x200B;**[!UICONTROL 新設定檔]**。
+1. 選取現有的&#x200B;**[!UICONTROL 產品設定檔]**，或使用&#x200B;**[!UICONTROL 新增設定檔]**&#x200B;按鈕建立新的設定檔。 在[Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}中瞭解如何建立新的&#x200B;**[!UICONTROL 新設定檔]**。
 
 1. 從&#x200B;**[!UICONTROL 許可權]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL 屬性權利]**。
 
@@ -94,7 +94,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >如果使用者先前不是在Admin Console中建立的，請參閱[新增使用者檔案](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)。
+   >如果使用者先前不是在Admin Console中建立的，請參閱[新增使用者檔案](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)。
 
    ![](assets/push_product_7.png)
 
@@ -128,7 +128,7 @@ ht-degree: 5%
 
 ### 將行動應用程式與Adobe Experience Platform SDK整合 {#integrate-mobile-app}
 
-Adobe Experience Platform Mobile SDK透過Android與iOS相容的SDK，為您的行動裝置提供使用者端整合API。 請依照[Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}中的指示，在您的應用程式中設定Adobe Experience Platform Mobile SDK。
+Adobe Experience Platform Mobile SDK透過Android與iOS相容的SDK，為您的行動裝置提供使用者端整合API。 請依照[Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}中的指示，在應用程式中設定Adobe Experience Platform Mobile SDK。
 
 到這為止，您也應該在[!DNL Adobe Experience Platform Data Collection]中建立並設定行動屬性。 您通常會為想要管理的每個行動應用程式建立行動屬性。 在[Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}中瞭解如何建立及設定行動屬性。
 
@@ -191,7 +191,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=zh-Hant).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
 ## 步驟2：建立推送的通道設定{#message-preset}
@@ -229,7 +229,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 適用於Adobe Experience Platform Mobile SDK的&#x200B;**Adobe Journey Optimizer擴充功能**&#x200B;可支援行動應用程式的推播通知，並可協助您收集使用者推播權杖，並管理與Adobe Experience Platform服務的互動測量。
 
-在[Journey Optimizer Mobile SDK ](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/){target="_blank"}中瞭解如何設定Adobe Experience Platform擴充功能。
+在[Adobe Experience Platform Mobile Journey Optimizer檔案](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/){target="_blank"}中瞭解如何設定SDK擴充功能。
 
 
 <!-- 
@@ -304,7 +304,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-為了讓此歷程正常運作，您需要建立XDM結構描述。 如需詳細資訊，請參閱[XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant#schemas-and-data-ingestion){target="_blank"}。
+為了讓此歷程正常運作，您需要建立XDM結構描述。 如需詳細資訊，請參閱[XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}。
 
 1. 在「資料管理」功能表區段中，按一下&#x200B;**[!UICONTROL 結構描述]**。
    ![](assets/test_push_1.png)
