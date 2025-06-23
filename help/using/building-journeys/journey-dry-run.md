@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
+source-git-commit: f2e13aa4bbc27e8197b5e6db44763ffbabdc0ebc
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 20%
+source-wordcount: '984'
+ht-degree: 21%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
 >title="試執行模式"
->abstract="本次歷程處於試執行階段。歷程試執行是 Adobe Journey Optimizer 中的特殊歷程發佈模式，允許歷程實踐者使用真實的生產資料測試歷程，而無需聯絡真實客戶或更新輪廓資訊。此功能可協助歷程實踐者對其歷程設計與客群鎖定累積信心，然後再將歷程發佈上線。"
+>abstract="本次歷程處於試執行階段。歷程試執行是 Adobe Journey Optimizer 中的特殊歷程發佈模式，允許歷程實踐者使用真實的生產資料測試歷程，而無需聯絡真實客戶或更新輪廓資訊。此功能可協助歷程從業人員，針對歷程設計、客群目標市場選擇，累積信心，然後再將歷程發佈上線。"
 
 
 >[!CONTEXTUALHELP]
@@ -29,12 +29,12 @@ ht-degree: 20%
 >title="在試執行模式中發佈歷程"
 >abstract="歷程試執行是 Adobe Journey Optimizer 中的特殊歷程發佈模式，允許歷程實踐者使用真實的生產資料測試歷程。設計歷程後，請進行模擬演練執行來確認其運作正常，確保步驟正確。 此發布模式可讓您煙霧測試歷程，無需傳送通訊給任何輪廓。"
 
-歷程試執行是 Adobe Journey Optimizer 中的特殊歷程發佈模式，允許歷程實踐者使用真實的生產資料測試歷程，而無需聯絡真實客戶或更新輪廓資訊。此功能可協助歷程實踐者對其歷程設計與客群鎖定累積信心，然後再將歷程發佈上線。
+歷程試執行是 Adobe Journey Optimizer 中的特殊歷程發佈模式，允許歷程實踐者使用真實的生產資料測試歷程，而無需聯絡真實客戶或更新輪廓資訊。此功能可協助歷程從業人員，針對歷程設計、客群目標市場選擇，累積信心，然後再將歷程發佈上線。
 
 
 >[!AVAILABILITY]
 >
->此功能僅適用於一組組織（可用性限制），並將在未來版本中在全球推出。
+>此功能僅適用於某個組織（可用性限制），可在全球推出未來的版本。
 
 
 ## 主要優點 {#journey-dry-run-benefits}
@@ -51,6 +51,13 @@ Journey Dirun提供：
 1. **對象深入分析**：歷程從業人員可以預測對象在各種歷程節點上的可達性，包括退出、排除和其他條件。
 1. **即時回饋**：量度會直接顯示在歷程畫布中，類似即時報告，讓歷程參與者能夠調整其歷程設計。
 
+在模擬執行期間，歷程會以下列特性執行：
+
+* 未執行&#x200B;**頻道動作**&#x200B;節點，包括電子郵件、簡訊或推播通知
+* **自訂動作**&#x200B;已在試執行期間停用，而且其回應設定為Null
+* 在試執行期間略過&#x200B;**等待節點**。
+  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+* **預設會執行**&#x200B;資料來源，包括外部資料來源
 
 >[!CAUTION]
 >
@@ -86,7 +93,7 @@ Journey Dirun提供：
 
 對於每個活動，您可以檢查：
 
-* **[!UICONTROL 已進入]**：進入此活動的個人總數。
+* **[!UICONTROL 已進入]**：進入此活動的個人總數。 對於&#x200B;**動作**&#x200B;活動，由於它們不是在練習模式中執行，因此此量度會指出通過的個人檔案。
 * **[!UICONTROL 已退出（符合退出條件）]**：由於退出條件而從該活動退出歷程的個人總數。
 * **[!UICONTROL 已退出（強制退出）]**：由於歷程從業人員設定而暫停歷程時，已退出歷程的個人總數。 對於處於練習模式的歷程，此量度一律等於零。
 * **[!UICONTROL 錯誤]**：在該活動中發生錯誤的個人總數。
@@ -127,10 +134,4 @@ Journey Dirun提供：
    * 如果已啟動試運行，`_experience.journeyOrchestration.stepEvents.inDryRun`會傳回`true`，否則會傳回`false`
    * `_experience.journeyOrchestration.stepEvents.dryRunID`傳回試執行個體的識別碼
 
-* 在模擬執行期間，歷程會以下列特性執行：
-
-   * 未執行&#x200B;**頻道動作**&#x200B;節點，包括電子郵件、簡訊或推播通知
-   * **自訂動作**&#x200B;已在試執行期間停用，而且其回應設定為Null
-   * 在試執行期間略過&#x200B;**等待節點**。
-     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * **預設會執行**&#x200B;資料來源，包括外部資料來源
+* 使用Adobe Experience Platform查詢服務分析歷程報告量度時，必須排除練習產生的步驟事件。 若要執行此動作，請將`inDryRun`標幟設定為`false`。
