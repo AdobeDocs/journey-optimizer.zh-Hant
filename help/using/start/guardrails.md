@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 598cffda92b27f89a752d6fb0ebc032f9017c43e
 workflow-type: tm+mt
 source-wordcount: '2541'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 >
 >* [即時客戶輪廓資料、分段的護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}也適用於 Adobe Journey Optimizer。
 >
->* 另請參閱即時客戶個人檔案中的資料擷取的[護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* 另請參閱[即時客戶設定檔中資料攝取的護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## 支援的瀏覽器 {#browsers}
@@ -130,7 +130,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 如果出現錯誤，將系統地執行三次重試。您無法根據收到的錯誤訊息調整重試次數。除 HTTP 401、403 和 404 外，會對所有 HTTP 錯誤執行重試。
 * 內建的&#x200B;**反應**&#x200B;事件可讓您對開箱即用的動作做出反應。 請在[此頁面](../building-journeys/reaction-events.md)了解更多。如果要對透過自訂動作傳送的訊息做出反應，則需設定專用事件。
 * 您無法同時進行兩個動作，必須逐一新增。
-* 對於作用中的[&#128279;](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version)歷程版本中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
+* 對於作用中的](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version)歷程版本[中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
 
 ### 歷程版本 {#journey-versions-g}
 
@@ -220,7 +220,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 下列護欄適用於[歷程運算式編輯器](../building-journeys/expression/expressionadvanced.md)：
 
-* 從讀取客群、客群資格篩選或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。 您必須建立新對象，並在歷程中使用`inaudience`條件。
+* 從讀取客群、客群資格篩選或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。 您必須建立新的客群，才能在歷程中使用`inaudience`條件。
 * 無法在運算式編輯器中使用`timeSeriesEvents`屬性。 若想在設定檔等級存取體驗事件，請根據`XDM ExperienceEvent`結構描述建立新的欄位群組。
 
 

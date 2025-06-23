@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
 workflow-type: tm+mt
 source-wordcount: '1078'
-ht-degree: 45%
+ht-degree: 80%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 45%
 <!--
 **Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.-->
 
-**發行日期**： 2025年6月18日
+**發行日期**：2025 年 6 月 18 日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 全新功能 {#25-06-features}
 
@@ -40,19 +40,19 @@ ht-degree: 45%
 <table>
 <thead>
 <tr>
-<th><strong>RCS傳訊</strong><br/></th>
+<th><strong>RCS 傳送訊息</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer現在支援Rich Communication Services (RCS)傳訊，可根據提供者和電信業者支援，啟用下列增強傳訊功能：</p>
+<p>Journey Optimizer 目前有支援進階通訊解決方案 (RCS) 傳訊，可根據提供者、電信業者支援，啟用下列增強傳送訊息的功能：</p>
 <ul>
-<li>品牌和認證寄件者支援：使用具有品牌元素（標誌、寄件者名稱等）的認證企業檔案來傳送訊息。</li>
-<li>訊息傳遞見解：接收包括訊息狀態更新（例如，已傳送、已傳遞、已讀取）的詳細傳遞報告。</li>
-<li>連結追蹤：在RCS訊息中內嵌及追蹤URL，以進行參與分析。</li>
-<li>回覆SMS：當設定檔的裝置不支援RCS或暫時無法透過RCS連線時，自動回覆SMS。</li>
-<li>基本訊息構成：傳送包含選擇性媒體與豐富元素的文字型RCS訊息（視提供者支援而定）。</li>
+<li>有品牌、已驗證寄件者支援：使用具有品牌化元素（標誌、寄件者名稱等）的已驗證企業檔案，可以用來來傳送訊息。</li>
+<li>訊息傳遞洞察力：接收包括訊息狀態更新（例如已傳送、已傳遞、已讀取）等詳細傳遞報告。</li>
+<li>連結追蹤：請在 RCS 訊息中內嵌、追蹤網址，以便進行參與分析。</li>
+<li>遞補簡訊：當設定檔的裝置暫不支援 RCS，或是暫時無法透過 RCS 連線時，系統會自動回覆簡訊。</li>
+<li>基本訊息構成：傳送包含選擇性媒體、豐富元素的文字型 RCS 訊息，會視供應商支援而定。</li>
 </ul>
 <p>如需詳細資訊，請參閱<a href="../sms/sms-configuration.md">詳細文件</a>。</p>
 </td>
@@ -69,7 +69,7 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>您現在可以在JSON或HTML內容範本中定義特定的可編輯欄位，讓非技術使用者輕鬆地在程式碼型體驗通道製作中的表單檢視中編輯內容，而不需要操作任何程式碼。<br />此外，定義程式碼式體驗內容範本時，您現在可以在範本中插入決定原則，增加可重複使用性和易用性。</p>
+<p>您可以立即到 JSON 或 HTML 內容範本中，定義特定可編輯欄位，即便不是技術使用者，也能輕鬆地在製作程式碼型體驗頻道上的表單檢視中編輯內容，不用要操作任何程式碼。<br />此外，當定義程式碼型體驗內容範本時，目前可以在範本中插入決定原則，增加可重複使用性，方便使用。</p>
 <img src="assets/do-not-localize/form-fields.gif">
 <p>如需詳細資訊，請參閱<a href="../code-based/code-based-form-fields.md">詳細文件</a>。</p>
 </td>
@@ -105,7 +105,7 @@ ht-degree: 45%
 <td>
 <p>您現在可以透過歷程畫布中的專用內容決定活動，將個人化優惠方案納入您的歷程，並在歷程活動（包括條件和自訂動作）中使用。</p>
 <img src="assets/do-not-localize/content-decision.gif">
-<p>此功能僅適用於一組組織（可用性限制），並將在未來版本中在全球推出。</p>
+<p>此功能僅適用於某個組織（可用性限制），可在全球推出未來的版本。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/content-decision.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -121,9 +121,9 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>歷程練習是Adobe Journey Optimizer中的特殊歷程發佈模式，可讓歷程從業人員使用真實生產資料測試歷程，而不需聯絡真實客戶或更新設定檔資訊。 此功能可協助歷程實踐者對其歷程設計與客群鎖定累積信心，然後再將歷程發佈上線。</p>
+<p>歷程試運行是 Adobe Journey Optimizer 中的特殊歷程發佈模式，允許歷程從業人員使用真實的生產資料，即可測試歷程，不用聯絡實際客戶，或是更新設定檔資訊。此功能可協助歷程從業人員，針對歷程設計、客群目標市場選擇，累積信心，然後再將歷程發佈上線。</p>
 <img src="assets/do-not-localize/DryRun.gif">
-<p>此功能僅適用於一組組織（可用性限制），並將在未來版本中在全球推出。</p>
+<p>此功能僅適用於某個組織（可用性限制），可在全球推出未來的版本。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/journey-dry-run.md">詳細文件</a>。</p>
 
 </td>
@@ -140,11 +140,11 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>您現在可以暫停並繼續您的歷程。 此功能可讓歷程從業人員在不中斷客戶體驗的情況下暫時暫停即時歷程，藉此提供更大的控制力與彈性。 暫停時，不會傳送任何通訊，而且設定檔會維持在暫停狀態，直到歷程繼續為止。</p>
-<p>您只能暫停並繼續一個歷程，或執行大量暫停並繼續一組歷程的操作。</p>
-<p>此外，您可以將全域篩選器套用至暫停的歷程，以根據其屬性排除設定檔。</p>
+<p>您立即可以暫停，繼續歷程。在不中斷客戶體驗的情況下，此功能可讓歷程從業人員暫時暫停即時歷程，藉此提供更大控制力，帶來更多彈性。 暫停時，系統就不會傳送任何通訊，設定檔會維持在暫停狀態，直到繼續歷程為止。</p>
+<p>您只能暫停並繼續單一歷程，或可執行大量暫停，然後繼續另一組歷程操作。</p>
+<p>此外，您還可以將全域篩選器套用至已暫停歷程，即可根據屬性排除設定檔。</p>
 <img src="assets/do-not-localize/PauseResume.gif">
-<p>此功能僅適用於一組組織（可用性限制），並將在未來版本中在全球推出。</p>
+<p>此功能僅適用於某個組織（可用性限制），可在全球推出未來的版本。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/journey-pause.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -195,7 +195,7 @@ ht-degree: 45%
 
 以下列舉部分發布內容附上的改良功能。
 
-* **管道規則集**
+* **頻道規則集**
 
    * **上限的自訂持續時間視窗** — 新的&#x200B;**Every**&#x200B;欄位現在可在頻道規則集設定畫面中使用，可讓您根據指定的持續時間，在多天、幾週或幾個月內套用頻率上限規則。
 
@@ -211,11 +211,11 @@ ht-degree: 45%
 
    * 從程式碼型體驗歷程或行銷活動版本畫面，您現在可以直接新增決定原則，無需開啟個人化編輯器。 [閱讀全文](../code-based/create-code-based.md#edit-code)
 
-* **電子郵件Designer的自訂CSS支援**
+* **電子郵件設計工具的自訂 CSS 支援**
 
   Journey Optimizer現在可讓您直接在電子郵件Designer中，將自訂CSS新增至您的電子郵件內容。 [閱讀全文](../email/custom-css.md)
 
-* **新的行銷活動索引標籤導覽**
+* **新的行銷活動索引標籤式導覽**
 
   新的導覽模式可讓您更快速地存取內容製作，並支援在行銷活動中進一步擴充設定。 [閱讀全文](../campaigns/create-campaign.md)
 

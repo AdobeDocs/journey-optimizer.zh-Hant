@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1670'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -276,18 +276,18 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_1"
->title="異動API觸發的行銷活動"
->abstract="透過API呼叫觸發即時訊息"
+>title="由交易 API 觸發的行銷活動"
+>abstract="透過 API 呼叫觸發即時訊息"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_2"
 >title="行銷訊息"
->abstract="促銷內容（需要選擇加入，受商業規則限制）"
+>abstract="促銷內容（需選擇加入，遵守商業規則）"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_3"
 >title="交易型訊息"
->abstract="服務相關內容（確認、警示、不受行銷同意約束）"
+>abstract="服務相關內容（確認、警示則不受到行銷同意約束）"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_4"

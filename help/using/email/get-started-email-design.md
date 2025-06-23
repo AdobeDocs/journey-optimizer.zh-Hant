@@ -12,7 +12,7 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 89%
 
 1. 在電子郵件設計工具首頁，從下列選項選取您希望如何設計電子郵件：
 
-   * **透過Designer的電子郵件介面從草稿開始設計您的電子郵件**，並運用[Adobe Experience Manager Assets](../integrations/assets.md)的影像。 在[本節](content-from-scratch.md)了解如何設計您的電子郵件內容。
+   * 透過電子郵件設計工具介面並善用 [Adobe Experience Manager Assets](../integrations/assets.md) 的影像&#x200B;**從頭開始設計電子郵件**。在[本節](content-from-scratch.md)了解如何設計您的電子郵件內容。
 
-   * **直接在電子郵件Designer中編碼或貼上原始HTML**。 在[本節](code-content.md)了解如何撰寫您自己的內容。
+   * 請直接在電子郵件設計工具中，**編寫程式碼或貼上原始 HTML**。在[本節](code-content.md)了解如何撰寫您自己的內容。
 
      >[!NOTE]
      >
@@ -78,4 +78,4 @@ ht-degree: 89%
 
 了解如何設定內容實驗以進行 A/B 測試並探索電子郵件內容，以最佳方式推動您的業務目標。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447342?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

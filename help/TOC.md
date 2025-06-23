@@ -234,7 +234,7 @@ ht-degree: 98%
       + [建立和管理核准原則](using/test-approve/approval-policies.md)
       + [請求核准](using/test-approve/request-approval.md)
       + [核准請求](using/test-approve/review-approve-request.md)
-   + [系統警報](using/reports/alerts.md)
+   + [系統警示](using/reports/alerts.md)
 + 通訊管道 {#channels}
    + [開始使用通訊管道](using/channels/gs-channels.md)
    + 電子郵件頻道 {#email}
@@ -255,7 +255,7 @@ ht-degree: 98%
             + [插入個人化產品建議](using/email/add-offers-email.md)
             + [產生文字版本](using/email/text-version-email.md)
             + [新增中繼資料](using/email/email-metadata.md)
-            + [新增自訂CSS](using/email/custom-css.md)
+            + [新增自訂 CSS](using/email/custom-css.md)
          + 編輯樣式 {#edit-style}
             + [開始使用電子郵件樣式](using/email/get-started-email-style.md)
             + [編輯背景設定](using/email/backgrounds.md)
