@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2035'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 95%
 </table>
 
 
-另請參閱[Adobe Experience Platform 10月發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=zh-Hant){target="_blank"}以瞭解更多變更。
+另請參閱 [Adobe Experience Platform 10 月發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=zh-Hant){target="_blank"}，以便瞭解更多變更。
 
 ### 功能改進
 
@@ -111,8 +111,8 @@ ht-degree: 95%
 
 ### 修正
 
-* 修正當瀏覽器語言非英文時，無法顯示歷程清單、訊息清單和電子郵件Designer的問題。
-* 修正在「電子郵件Designer」中使用運算式新增個人化時，發生的語法錯誤：字元轉譯錯誤。
+* 修正當瀏覽器語言非英文時，無法顯示歷程清單、訊息清單和電子郵件設計工具的問題。
+* 修正當在電子郵件設計工具中使用運算式新增個人化時發生的語法錯誤：字元轉譯錯誤。
 * 修正導覽至&#x200B;**管理**&#x200B;功能表時導致 404 錯誤的問題。
 * 修正當使用商業活動測試歷程時觸發其他即時歷程的問題。
 
@@ -294,7 +294,7 @@ ht-degree: 95%
 ### 修正
 
 * 修正訊息標籤導覽的協助工具問題。
-* 修正電子郵件Designer標籤中的本地化問題。
+* 已修正電子郵件設計工具標籤中的本地化問題。
 * 修正在歷程中選取多個節點並在屬性面板上按一下「刪除」時的問題。
 * 修正無法將新標題加入歷程使用的動作問題。
 * 您現在可以透過使用者介面中更明確的警告，找出訊息預設集建立失敗的原因。
@@ -365,4 +365,4 @@ ht-degree: 95%
 * 修正「PTR 記錄」畫面中缺少 IP 資訊的問題。
 * 現在運算式編輯器中已實施本地化的產品建議邊欄。
 * 修正資訊快顯視窗的間距錯誤。
-* 修正當電子郵件Designer中上傳HTML檔案時，內部樣式表包含`background-image`屬性不受支援的問題。
+* 已修正當電子郵件設計工具中上傳 HTML 檔案時，內部樣式表包含未支援的 `background-image` 屬性問題。

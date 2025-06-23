@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4377'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -364,13 +364,13 @@ A new option is available in the email surface settings to include email address
 <table>
 <thead>
 <tr>
-<th><strong>轉換電子郵件Designer的HTML內容</strong><br/></th>
+<th><strong>為電子郵件設計工具轉換 HTML 內容</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在 Journey Optimizer 的電子郵件編輯器中匯入和轉換任何 HTML 內容。 內容區塊會自動識別，並可透過電子郵件Designer取得：利用其強大的設計功能進行更新及個人化！</p>
+<p>您現在可以在 Journey Optimizer 的電子郵件編輯器中匯入和轉換任何 HTML 內容。 在電子郵件設計工具中，可自動識別和提供內容區塊：使用該工具的強大設計功能來更新和個人化！</p>
 <img src="assets/html-convert.png">
 <p>如需詳細資訊，請參閱<a href="../email/existing-content.md">詳細文件</a>。</p>
 </td>
