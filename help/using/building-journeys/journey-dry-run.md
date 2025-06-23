@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: f2e13aa4bbc27e8197b5e6db44763ffbabdc0ebc
+source-git-commit: bb3379fa71aaeb00d0833c67547de70f4e9c3fb1
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '996'
 ht-degree: 21%
 
 ---
@@ -91,7 +91,7 @@ Journey Dirun提供：
 
 ![監視歷程練習執行](assets/dry-run-metrics.png)
 
-對於每個活動，您可以檢查：
+對於每個活動，在其活動方塊中，您可以核取：
 
 * **[!UICONTROL 已進入]**：進入此活動的個人總數。 對於&#x200B;**動作**&#x200B;活動，由於它們不是在練習模式中執行，因此此量度會指出通過的個人檔案。
 * **[!UICONTROL 已退出（符合退出條件）]**：由於退出條件而從該活動退出歷程的個人總數。
@@ -99,7 +99,7 @@ Journey Dirun提供：
 * **[!UICONTROL 錯誤]**：在該活動中發生錯誤的個人總數。
 
 
-在歷程層級，您可以檢查：
+在歷程層級，在畫布的左上角，您可以檢查：
 
 * **輸入的設定檔總數**
 * **已退出的設定檔總數**
