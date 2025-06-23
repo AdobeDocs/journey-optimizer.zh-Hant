@@ -10,14 +10,24 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 97a791329f35ba64a1dca9aef7802e0f4103dbe5
+source-git-commit: baca603427ebba9ecb843b3c8d219c40354dde0f
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1246'
 ht-degree: 2%
 
 ---
 
 # 使用 Adobe Experience Platform 資料進行個人化{#aep-data}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_rules_dataset_lookup"
+>title="資料集查詢"
+>abstract="在決定規則中使用Adobe Experience Platform資料可讓您根據動態的外部屬性定義資格標準，以確保僅在相關時顯示決定專案。 建立對應以定義Adobe Experience Platform資料集如何與[!DNL Journey Optimizer]中的資料聯結。 選取具有您所需屬性的資料集，然後選擇同時存在於決策專案屬性和資料集中的加入索引鍵。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_formula_dataset_lookup"
+>title="資料集查詢"
+>abstract="排名公式可定義決定專案的優先順序。 使用[!DNL Adobe Experience Platform]資料集屬性，您可以動態調整排名邏輯，以反映真實世界的狀況。 建立對應以定義Adobe Experience Platform資料集如何與[!DNL Journey Optimizer]中的資料聯結。 選取具有您所需屬性的資料集，然後選擇同時存在於決策專案屬性和資料集中的加入索引鍵"
 
 >[!AVAILABILITY]
 >
@@ -132,11 +142,11 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 
    +++在哪裡擷取資料集ID？
 
-   可在Adobe Experience Platform使用者介面中擷取資料集ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}中瞭解如何使用資料集。
+   可在Adobe Experience Platform使用者介面中擷取資料集ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}中瞭解如何使用資料集。
 
    ![](assets/aep-data-dataset.png)
 
-   +++
++++
 
 1. 調整語法以符合您的需求。 在此範例中，我們要擷取和乘客航班相關的資料。 語法如下：
 
@@ -163,11 +173,11 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 
      +++從何處擷取欄位ID？
 
-     在Adobe Experience Platform使用者介面中預覽資料集時，可以擷取欄位ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中瞭解如何預覽資料集。
+     在Adobe Experience Platform使用者介面中預覽資料集時，可以擷取欄位ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中瞭解如何預覽資料集。
 
      ![](assets/aep-data-field.png)
 
-     +++
++++
 
    在此範例中，我們想使用與乘客登機時間和登機口相關的資訊。 因此，我們新增這兩行：
 
