@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 457445e1c5f3e5819b484a26e9944f1295726d1e
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 20%
 
 +++ 目錄
 
-| 歡迎使用協調的行銷活動 | 啟動您的第一個協調行銷活動 | 查詢資料庫 | 協調的行銷活動活動 |
+| 歡迎使用協調的行銷活動 | 首次建立協調的行銷活動 | 查詢資料庫 | 協調的行銷活動 |
 |---|---|---|---|
 | [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>[設定步驟](../configuration-steps.md)<br/><br/>[建立協調行銷活動的重要步驟](../gs-campaign-creation.md) | [建立協調的行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/>[使用協調的行銷活動傳送訊息](../send-messages.md)<br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用查詢Modeler](../orchestrated-rule-builder.md)<br/><br/>[建置您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/>[並加入](and-join.md) - [建置對象](build-audience.md) - [變更維度](change-dimension.md) - [合併](combine.md) - [重複資料刪除](deduplication.md) - [擴充](enrichment.md) - [分支](fork.md) - [調解](reconciliation.md) - [分割](split.md) - [等待](wait.md) |
 
@@ -42,7 +42,7 @@ ht-degree: 20%
 
 若要這麼做，請使用&#x200B;**[!UICONTROL 變更維度]**&#x200B;活動。 它可讓您根據資料模型的結構和輸入維度，在協調的行銷活動期間變更目標維度。
 
-例如，您可以將目標維度從&#x200B;**設定檔**&#x200B;移至&#x200B;**合約**，以便直接傳送訊息給與您所選對象相關聯的合約擁有者。
+例如，您可能會將目標維度從****[!UICONTROL 設定檔]**&#x200B;移至****[!UICONTROL 合約]**，以便直接傳送訊息給與您所選對象相關聯的合約擁有者。
 
 <!--
 >[!IMPORTANT]
@@ -51,13 +51,13 @@ ht-degree: 20%
 
 ## 設定變更維度活動 {#configure}
 
-請依照下列步驟設定&#x200B;**變更維度**&#x200B;活動：
+請依照下列步驟設定****[!UICONTROL 變更維度]**&#x200B;活動：
 
-1. 新增&#x200B;**變更維度**&#x200B;活動至您協調的行銷活動。
+1. 將****[!UICONTROL 變更維度]**&#x200B;活動新增至您協調的行銷活動。
 
    ![](../assets/change-dimension.png)
 
-1. 定義&#x200B;**新目標維度**。 在維度變更期間，會保留所有記錄。
+1. 定義****[!UICONTROL 新目標維度]**。 在維度變更期間，會保留所有記錄。
 
 1. 執行協調的行銷活動以檢視結果。 比較變更維度活動前後表格中的資料，以及比較協調的行銷活動表格結構。
 
@@ -65,8 +65,8 @@ ht-degree: 20%
 
 此使用案例涉及傳送SMS給在上個月建立願望清單的設定檔。
 
-開始使用&#x200B;**願望清單**&#x200B;目標維度的&#x200B;**[!UICONTROL 建立對象]**&#x200B;活動，以選取所有相關的願望清單。
+開始使用&#x200B;**[!UICONTROL 建立對象]**&#x200B;活動，使用****[!UICONTROL 願望清單]**&#x200B;目標維度來選取所有相關的願望清單。
 
-接著，插入&#x200B;**[!UICONTROL 變更維度]**&#x200B;活動，將目標維度從&#x200B;**願望清單**&#x200B;切換為&#x200B;**收件者**。 這可讓協調的行銷活動傳送SMS至與這些願望清單相關聯的設定檔。
+接著，插入&#x200B;**[!UICONTROL 變更維度]**&#x200B;活動，將目標維度從&#x200B;****[!UICONTROL 願望清單&#x200B;]**切換為****[!UICONTROL 收件者]**。 這可讓協調的行銷活動傳送SMS至與這些願望清單相關聯的設定檔。
 
 ![](../assets/change-dimension-example.png)

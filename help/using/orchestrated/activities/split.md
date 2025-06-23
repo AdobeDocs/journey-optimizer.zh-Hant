@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 53%
+ht-degree: 54%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 53%
 
 +++ 目錄
 
-| 歡迎使用協調的行銷活動 | 啟動您的第一個協調行銷活動 | 查詢資料庫 | 協調的行銷活動活動 |
+| 歡迎使用協調的行銷活動 | 首次建立協調的行銷活動 | 查詢資料庫 | 協調的行銷活動 |
 |---|---|---|---|
 | [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>[設定步驟](../configuration-steps.md)<br/><br/>[建立協調行銷活動的重要步驟](../gs-campaign-creation.md) | [建立協調的行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/>[使用協調的行銷活動傳送訊息](../send-messages.md)<br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用查詢Modeler](../orchestrated-rule-builder.md)<br/><br/>[建置您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/>[並加入](and-join.md) - [建置對象](build-audience.md) - [變更維度](change-dimension.md) - [合併](combine.md) - [重複資料刪除](deduplication.md) - [擴充](enrichment.md) - [分支](fork.md) - [調解](reconciliation.md) - [分割](split.md) - [等待](wait.md) |
 
@@ -33,7 +33,7 @@ ht-degree: 53%
 
 <br/>
 
-**分割**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動，它會根據定義的選取條件（例如篩選規則或母體大小），將傳入母體分割成多個子集。
+**[!UICONTROL 分割]**&#x200B;活動是&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;活動，它會根據定義的選取條件（例如篩選規則或母體大小），將傳入母體分割成多個子集。
 
 ## 設定分割活動 {#split-configuration}
 
@@ -77,11 +77,11 @@ ht-degree: 53%
 >title="啟用輸出群體的重疊"
 >abstract=" 「**[!UICONTROL 啟用輸出群體的重疊]**」選項可讓您管理屬於多個子集的群體。當未選取該方塊時，分割活動將確保收件者不能出現在多個輸出轉換中，即使其滿足多個子集的條件也是如此。它們將位於具有符合條件的第一個標籤的目標中。當選取該方塊時，符合篩選條件的收件者，會出現在多個子集中。"
 
-請按照以下步驟設定&#x200B;**分割**&#x200B;活動：
+請按照以下步驟設定&#x200B;**[!UICONTROL 分割]**&#x200B;活動：
 
-1. 將&#x200B;**分割**&#x200B;活動新增至您協調的行銷活動。
+1. 將&#x200B;**[!UICONTROL 分割]**&#x200B;活動新增至您協調的行銷活動。
 
-1. 活動設定面板隨即開啟，其中包含預設子集。按一下「**新增區段**」按鈕，新增所需數量的子集，依此來分割傳入群體。
+1. 活動設定面板隨即開啟，其中包含預設子集。按一下「**[!UICONTROL 新增區段]**」按鈕，新增所需數量的子集，依此來分割傳入群體。
 
    ![](../assets/orchestrated-split-1.png)
 
