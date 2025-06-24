@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '515'
 ht-degree: 20%
 
 ---
@@ -39,6 +39,10 @@ ht-degree: 20%
 若要建立決定規則，請遵循下列步驟：
 
 1. 導覽至&#x200B;**[!UICONTROL 策略設定]** / **[!UICONTROL 決定規則]**，然後按一下&#x200B;**[!UICONTROL 建立規則]**&#x200B;按鈕。
+
+   >[!NOTE]
+   >
+   >您也可以使用來自Adobe Experience Platform的資料，透過外部資料讓您的決策邏輯更為豐富。 這對於經常變更的屬性（例如產品可用性或即時定價）特別有用。 只要是客戶都可在公開測試版中，使用此功能。如果您想要存取許可權，請聯絡您的客戶代表。 [瞭解如何將Adobe Experience Platform資料用於決策](../experience-decisioning/aep-data-exd.md)
 
 1. 決定規則建立畫面隨即開啟。 為規則命名並提供說明。
 

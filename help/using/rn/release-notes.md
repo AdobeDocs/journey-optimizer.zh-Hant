@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1176'
 ht-degree: 72%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 72%
 
 **發行日期**：2025 年 6 月 18 日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 全新功能 {#25-06-features}
 
@@ -201,7 +201,7 @@ ht-degree: 72%
 <tr>
 <td>
 <p>Adobe Experience Platform資料集以前可用於個人化，現在可用於決策。 這可讓您將決策屬性的定義擴充至資料集中的其他資料，以便定期變更的大量更新，而無需一次手動更新一個屬性。 例如，可用性、等待時間等。</p>
-<p>只要是客戶都可在公開測試版中，使用此功能。如果您想要存取此功能，請聯絡您的客戶代表</p>
+<p>只要是客戶都可在公開測試版中，使用此功能。如果您想要存取許可權，請聯絡您的客戶代表。</p>
 <p>如需詳細資訊，請參閱<a href="../experience-decisioning/aep-data-exd.md">詳細文件</a>。</p>
 <p>推出日期： 2025年6月20日</p>
 </td>

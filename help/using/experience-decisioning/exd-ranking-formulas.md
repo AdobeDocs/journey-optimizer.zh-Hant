@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 4%
+source-wordcount: '1246'
+ht-degree: 5%
 
 ---
 
@@ -58,6 +58,10 @@ ht-degree: 4%
 
    * 從[使用者介面](#ranking-select-criteria)填入&#x200B;**[!UICONTROL 條件]**&#x200B;區段，
    * 或切換至[程式碼編輯器](#ranking-code-editor)。
+
+   >[!NOTE]
+   >
+   >您也可以使用Adobe Experience Platform中的資料來動態調整排名邏輯，以反映真實世界的條件。 這對於經常變更的屬性（例如產品可用性或即時定價）特別有用。 只要是客戶都可在公開測試版中，使用此功能。如果您想要存取許可權，請聯絡您的客戶代表。 [瞭解如何將Adobe Experience Platform資料用於決策](../experience-decisioning/aep-data-exd.md)
 
 <!--## Select an ELS dataset {#els-dataset}
 
@@ -110,7 +114,7 @@ To leverage data from an AEP dataset, follow the steps below.
    >
    >按一下欄位旁的圖示，新增預先定義的變數。
 
-1. 按一下[新增條件]&#x200B;**&#x200B;**，視需要多次新增一或多個條件。 邏輯如下：
+1. 按一下[新增條件]****，視需要多次新增一或多個條件。 邏輯如下：
    * 如果指定決策專案的第一個條件為true，則其優先於下一個條件。
    * 如果不為true，則決策引擎會繼續執行第二個標準，以此類推。
 

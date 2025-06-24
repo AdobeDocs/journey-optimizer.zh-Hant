@@ -9,14 +9,15 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 0%
+source-wordcount: '840'
+ht-degree: 2%
 
 ---
 
-# 使用Adobe Experience Platform資料進行決策{#aep-data}
+# 使用Adobe Experience Platform資料進行決策 {#aep-data}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -30,7 +31,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->此功能目前以公開測試版的形式提供給所有客戶。 如果您想要存取此功能，請聯絡您的客戶代表
+>只要是客戶都可在公開測試版中，使用此功能。如果您想要存取許可權，請聯絡您的客戶代表。
 
 [!DNL Journey Optimizer]可讓您利用來自[!DNL Adobe Experience Platform]的資料進行決策。 這可讓您將決策屬性的定義擴充至資料集中的其他資料，以便定期變更的大量更新，而無需一次手動更新一個屬性。 例如，可用性、等待時間等。
 
