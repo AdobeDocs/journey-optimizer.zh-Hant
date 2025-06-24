@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: e1cb8bc75a5d7d7e43c641ffe7e164bbc1ac1086
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 21%
+source-wordcount: '697'
+ht-degree: 19%
 
 ---
 
@@ -48,11 +48,23 @@ ht-degree: 21%
 
 此外，還可使用搜尋列和篩選器，以便於在清單中輕鬆搜尋。例如，您可以篩選已協調的行銷活動，以僅顯示與指定頻道或標籤相關聯的行銷活動，或顯示在特定日期範圍內建立的行銷活動。
 
+
+行銷活動詳細目錄中的![影像顯示「更多動作」按鈕](assets/do-not-localize/rule-builder-icon-more.svg)按鈕，可讓您執行各種作業，詳情如下。
+
+![影像行銷活動詳細目錄](assets/inventory-actions.png)
+
+* **[!UICONTROL 檢視所有時間報告]** -
+* **[!UICONTROL 檢視過去24小時的報告]** -
+* **[!UICONTROL 編輯標籤]** — 編輯與行銷活動相關聯的標籤。
+* **[!UICONTROL 複製]** — 在某些情況下，您可能需要複製協調的行銷活動，例如執行已停止的行銷活動，或變更排程行銷活動的執行頻率。
+* **[!UICONTROL 刪除]** — 刪除行銷活動。 此動作僅適用於&#x200B;**[!UICONTROL 草稿]**&#x200B;行銷活動。
+* **[!UICONTROL 封存]** — 封存行銷活動。 所有已封存的行銷活動都會在其上次修改日期後的30天內，以滾動方式重新排程刪除。 此動作適用於除&#x200B;**[!UICONTROL 草稿]**&#x200B;行銷活動以外的所有行銷活動。
+
 ## 策劃的行銷活動內含哪些內容？ {#gs-ms-campaign-inside}
 
 精心安排的行銷活動畫布可呈現預期的情形。 其會說明要執行的各種任務以及任務如何連結在一起。
 
-![影像顯示協調的行銷活動畫布](assets/canvas-example.png){zoomable="yes"}{zoomable="yes"}
+![影像顯示協調的行銷活動畫布](assets/canvas-example.png)
 
 每個協調的行銷活動包含：
 
@@ -76,26 +88,6 @@ ht-degree: 21%
 * **[!UICONTROL 即時]**：已發佈且正在執行協調的行銷活動。
 * **[!UICONTROL 已排程]**：已排程協調的行銷活動執行。
 * **[!UICONTROL 已完成]**：協調的行銷活動執行已完成。 行銷活動完成傳送訊息後，最多可在3天內自動指派「已完成」狀態，而不會發生錯誤。
-* **[!UICONTROL 已關閉]**：當循環行銷活動已停止時，會顯示此狀態。
-<!--Comment une campaign devient Closed?
-[CPR] : A vérifier avec Fred si cette fonctionalité est toujours d'actualité. Normalement c'est sur action de l'utilisateur sur une campaine récurrente only
-= pas trouvé--> cexui qsui sont déjà entrés ocnitnuent. on ferme les portes d'entrée.
-
+* **[!UICONTROL 已關閉]**：當循環行銷活動已關閉時，會顯示此狀態。 行銷活動會繼續執行直到其所有活動完成，但無法再有設定檔進入行銷活動。
 * **[!UICONTROL 已封存]**：已封存協調的行銷活動。 所有已封存的行銷活動都會在最後修改日期後30天以滾動方式重新排程刪除。 您可以複製已封存的行銷活動（如有必要），以繼續處理。
-<!--Comment une campaign devient Archived?
-[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...) bouton bientôt visible. possible pour tout sauf les draft.
-= pas trouvé -->
 * **[!UICONTROL 已停止]**：已停止協調的行銷活動執行。 若要再次啟動行銷活動，您必須複製它。 錯誤，restera avec三角形
-
-## 複製和刪除協調的行銷活動 {#duplicate-delete}
-
-在某些情況下，您可能需要複製協調的行銷活動，例如執行已停止的行銷活動，或變更排程行銷活動的執行頻率。 若要這麼做，請按一下行銷活動詳細目錄中顯示[更多動作]按鈕![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的影像，然後選取&#x200B;**[!UICONTROL 複製]**
-
-<!--Une fois une campaign Scheduled, on ne peut plus changer l'execution frequency = la solution est de dupliquer la campaign ?
-[CPR] : Actuellement oui, mais on est en discussion pour pouvoir revenir en mode "draft" et quelles seraient les actions à nouveau disponibles. A vérifier avec Fred-->
-
-若要刪除行銷活動，請按一下顯示[更多動作]按鈕![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的影像，然後選取&#x200B;**[!UICONTROL 刪除]**。
-
->[!NOTE]
->
->只能刪除&#x200B;**[!UICONTROL 草稿]**&#x200B;行銷活動。
