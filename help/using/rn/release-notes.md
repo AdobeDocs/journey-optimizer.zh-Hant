@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 80%
+source-wordcount: '1179'
+ht-degree: 72%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 80%
 
 **發行日期**：2025 年 6 月 18 日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 全新功能 {#25-06-features}
 
@@ -191,6 +191,24 @@ ht-degree: 80%
 </table>
 
 
+<table>
+<thead>
+<tr>
+<th><strong>決策中的Adobe Experience Platform資料集（測試版）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Platform資料集以前可用於個人化，現在可用於決策。 這可讓您將決策屬性的定義擴充至資料集中的其他資料，以便定期變更的大量更新，而無需一次手動更新一個屬性。 例如，可用性、等待時間等。</p>
+<p>只要是客戶都可在公開測試版中，使用此功能。如果您想要存取此功能，請聯絡您的客戶代表</p>
+<p>如需詳細資訊，請參閱<a href="../experience-decisioning/aep-data-exd.md">詳細文件</a>。</p>
+<p>推出日期： 2025年6月20日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 改良功能 {#25-06-improv}
 
 以下列舉部分發布內容附上的改良功能。
@@ -219,13 +237,11 @@ ht-degree: 80%
 
   新的導覽模式可讓您更快速地存取內容製作，並支援在行銷活動中進一步擴充設定。 [閱讀全文](../campaigns/create-campaign.md)
 
-* **決策** — 推出日期：2025 年 6 月 3 日
+* **Decisioning**
 
-  可以立即在沙箱之間複製決策物件，以便簡化測試，同時部署工作流程。[閱讀全文](../configuration/copy-objects-to-sandbox.md#decisioning)
+   * **沙箱複製和決策** （推出日期：2025年6月3日） — 決策物件現在可以在沙箱之間複製，精簡測試和部署工作流程。 [閱讀全文](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-* **決策規則的決定項目屬性支援** — 推出日期：2025 年 6 月 4 日
-
-  您可以立即利用決定項目屬性，即可建立決策規則。[閱讀全文](../experience-decisioning/rules.md#create)
+   * **決策規則的決策專案屬性支援** （推出日期：2025年6月4日） — 您現在可以運用決策專案屬性來建立決策規則。 [閱讀全文](../experience-decisioning/rules.md#create)
 
 * **互動式訊息執行 API 更新** — 推出日期：2025 年 6 月 6 日
 

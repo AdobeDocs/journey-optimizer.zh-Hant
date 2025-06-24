@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: cd42bca1a36344f688b2d90e1c0b96a9ef2a53ce
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 22%
+source-wordcount: '637'
+ht-degree: 21%
 
 ---
 
@@ -68,6 +68,9 @@ ht-degree: 22%
 
 協調的行銷活動可以有多種狀態：
 
+循環開始à&#39;s executer ， fait une query 。按一下關閉： va continuer et se termienr quand elle sera allée jusqu&#39;au bout du diagram
+
+
 * **[!UICONTROL 草稿]**：已建立協調的行銷活動。 尚未發佈。
 * **[!UICONTROL 發佈]**：正在發佈協調的行銷活動。
 * **[!UICONTROL 即時]**：已發佈且正在執行協調的行銷活動。
@@ -76,21 +79,22 @@ ht-degree: 22%
 * **[!UICONTROL 已關閉]**：當循環行銷活動已停止時，會顯示此狀態。
 <!--Comment une campaign devient Closed?
 [CPR] : A vérifier avec Fred si cette fonctionalité est toujours d'actualité. Normalement c'est sur action de l'utilisateur sur une campaine récurrente only
-= pas trouvé-->
+= pas trouvé--> cexui qsui sont déjà entrés ocnitnuent. on ferme les portes d'entrée.
+
 * **[!UICONTROL 已封存]**：已封存協調的行銷活動。 所有已封存的行銷活動都會在最後修改日期後30天以滾動方式重新排程刪除。 您可以複製已封存的行銷活動（如有必要），以繼續處理。
 <!--Comment une campaign devient Archived?
-[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...)
+[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...) bouton bientôt visible. possible pour tout sauf les draft.
 = pas trouvé -->
-* **[!UICONTROL 已停止]**：已停止協調的行銷活動執行。 若要再次啟動行銷活動，您必須複製它。
+* **[!UICONTROL 已停止]**：已停止協調的行銷活動執行。 若要再次啟動行銷活動，您必須複製它。 錯誤，restera avec三角形
 
 ## 複製和刪除協調的行銷活動 {#duplicate-delete}
 
-在某些情況下，您可能需要複製協調的行銷活動，例如執行已停止的行銷活動，或變更排程行銷活動的執行頻率。 若要這麼做，請按一下行銷活動詳細目錄中顯示[更多動作]按鈕![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的影像，然後選取&#x200B;**[!UICONTROL 複製]**
+在某些情況下，您可能需要複製協調的行銷活動，例如執行已停止的行銷活動，或變更排程行銷活動的執行頻率。 若要這麼做，請按一下行銷活動詳細目錄中顯示[更多動作]按鈕](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的![影像，然後選取&#x200B;**[!UICONTROL 複製]**
 
 <!--Une fois une campaign Scheduled, on ne peut plus changer l'execution frequency = la solution est de dupliquer la campaign ?
 [CPR] : Actuellement oui, mais on est en discussion pour pouvoir revenir en mode "draft" et quelles seraient les actions à nouveau disponibles. A vérifier avec Fred-->
 
-若要刪除行銷活動，請按一下顯示[更多動作]按鈕![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的影像，然後選取&#x200B;**[!UICONTROL 刪除]**。
+若要刪除行銷活動，請按一下顯示[更多動作]按鈕](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的![影像，然後選取&#x200B;**[!UICONTROL 刪除]**。
 
 >[!NOTE]
 >

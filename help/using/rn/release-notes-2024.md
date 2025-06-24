@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -265,7 +265,7 @@ ht-degree: 100%
 <td>
 <p>善用在個人化編輯器中的 Adobe Experience Platform 資料，將內容個人化。 若想這樣做，就必須先透過 API 呼叫，啟用查詢個人化所需的資料集。 一旦完成，您就可以使用這些資料，將內容個人化，改成[!DNL Journey Optimizer]。</p>
 <p>只要是客戶都可在公開測試版中使用此功能。</p>
-<p>如需詳細資訊，請參閱<a href="../personalization/lookup-aep-data.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../personalization/aep-data-perso.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
