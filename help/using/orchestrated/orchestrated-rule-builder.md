@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: 19e3e261f076a158a513a84e993db5851d9cf577
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 7%
+source-wordcount: '388'
+ht-degree: 10%
 
 ---
 
@@ -31,13 +31,17 @@ ht-degree: 7%
 
 協調的行銷活動隨附規則產生器，可簡化根據各種條件篩選資料庫的程式。 規則產生器能有效管理非常複雜和冗長的查詢，提供增強的彈性和精確度。
 
-它也支援條件內的預先定義篩選器，讓使用者能夠輕鬆調整查詢，同時利用進階運算式和運運算元實現全面的受眾目標定位和細分策略。
+它也支援條件內的預先定義篩選器，使您可輕鬆調整查詢，同時利用進階運算式和運運算元實現全面的受眾目標定位和細分策略。
 
 ## 存取規則產生器
 
-在&#x200B;**[!UICONTROL 建立對象]**&#x200B;活動中建立查詢以鎖定對象時，可以使用規則產生器。 它可讓您指定想要鎖定的母體，並根據您的需求輕鬆建立新的受眾。
+查詢建模工具適用於每個您需要定義篩選資料的規則的環境。
 
-![影像顯示建置對象活動](assets/rule-builder-query.png)
+| 使用方式 | 範例 |
+|  ---  |  ---  |
+| **建立對象**：使用&#x200B;**[!UICONTROL 建立對象]**&#x200B;活動，指定您要在協調行銷活動中鎖定的母體，並輕鬆建立符合您需求的新對象。 [瞭解如何建立對象](../orchestrated/activities/build-audience.md) | ![顯示如何存取對象建立介面的影像](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
+| **在行銷活動畫布中建立條件**：使用&#x200B;**[!UICONTROL 分割]**&#x200B;活動在行銷活動畫布中套用規則，以符合您的特定需求。 [瞭解如何使用分割活動](../orchestrated/activities/split.md) | ![顯示如何存取工作流程自訂選項的影像](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
+| **建立進階篩選器**：建置規則以篩選清單中顯示的資料，例如工作流程記錄檔或目標維度。 | ![顯示如何自訂清單篩選器的影像](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
 ## 規則產生器介面 {#interface}
 
