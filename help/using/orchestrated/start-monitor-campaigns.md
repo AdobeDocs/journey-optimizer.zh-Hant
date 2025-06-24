@@ -6,7 +6,7 @@ description: 瞭解如何使用Adobe Journey Optimizer排程及開始協調的�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 435b4a7eee9428c7f0efeb62c72b39c0e2aaabba
+source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 14%

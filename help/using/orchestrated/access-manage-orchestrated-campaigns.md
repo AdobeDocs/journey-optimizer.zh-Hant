@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: e1cb8bc75a5d7d7e43c641ffe7e164bbc1ac1086
+source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '717'
 ht-degree: 19%
 
 ---
@@ -48,13 +48,11 @@ ht-degree: 19%
 
 此外，還可使用搜尋列和篩選器，以便於在清單中輕鬆搜尋。例如，您可以篩選已協調的行銷活動，以僅顯示與指定頻道或標籤相關聯的行銷活動，或顯示在特定日期範圍內建立的行銷活動。
 
-
 行銷活動詳細目錄中的![影像顯示「更多動作」按鈕](assets/do-not-localize/rule-builder-icon-more.svg)按鈕，可讓您執行各種作業，詳情如下。
 
 ![影像行銷活動詳細目錄](assets/inventory-actions.png)
 
-* **[!UICONTROL 檢視所有時間報告]** -
-* **[!UICONTROL 檢視過去24小時的報告]** -
+* **[!UICONTROL 檢視所有時間報表]** / **[!UICONTROL 檢視過去24小時的報表]** — 存取報表以測量並視覺化您精心安排的行銷活動的影響和效能。 [進一步瞭解協調的行銷活動報告](../orchestrated/reporting-campaigns.md)
 * **[!UICONTROL 編輯標籤]** — 編輯與行銷活動相關聯的標籤。
 * **[!UICONTROL 複製]** — 在某些情況下，您可能需要複製協調的行銷活動，例如執行已停止的行銷活動，或變更排程行銷活動的執行頻率。
 * **[!UICONTROL 刪除]** — 刪除行銷活動。 此動作僅適用於&#x200B;**[!UICONTROL 草稿]**&#x200B;行銷活動。
