@@ -6,10 +6,10 @@ description: 瞭解如何使用Adobe Journey Optimizer排程及開始協調的�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: 50386efbb639031bfc41a0aa67f4f3b49603f03a
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 14%
+source-wordcount: '1197'
+ht-degree: 12%
 
 ---
 
@@ -38,8 +38,8 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
->title="排程器活動"
->abstract="您可以使用行銷活動&#x200B;**排程器**&#x200B;來安排協調過的行銷活動之開始時間。此活動應視為已排程的開始。僅可做為協調的行銷活動的第一個活動。"
+>title="排程器"
+>abstract="身為行銷活動經理，您可以排程行銷活動以於特定時間自動啟動，為行銷通訊提供精確的時間與準確的目標定位資料。"
 
 身為行銷活動經理，您可以排程行銷活動以於特定時間自動啟動，為行銷通訊提供精確的時間與準確的目標定位資料。
 
