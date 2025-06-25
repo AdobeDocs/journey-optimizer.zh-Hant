@@ -8,10 +8,11 @@ role: User
 level: Intermediate
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
-source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
+exl-id: a2892f0a-5407-497c-97af-927de81055ac
+source-git-commit: 624bcbdbbd33d9827b98c953043e692757deb847
 workflow-type: tm+mt
-source-wordcount: '2021'
-ht-degree: 6%
+source-wordcount: '2109'
+ht-degree: 8%
 
 ---
 
@@ -26,12 +27,12 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->此功能僅適用於一組組織（可用性限制），並將在未來版本中在全球推出。
+>此功能僅適用於某個組織（可用性限制），可在全球推出未來的版本。
 
 
 ## 主要優點 {#journey-pause-benefits}
 
-暫停和繼續歷程可讓歷程參與者在不中斷客戶體驗的情況下暫時暫停即時歷程，擁有更優異的控制權和彈性。 暫停時，不會傳送任何通訊，而且設定檔會維持在暫停狀態，直到歷程繼續為止。
+暫停和繼續歷程可讓歷程參與者在不中斷客戶體驗的情況下暫時暫停即時歷程，擁有更優異的控制權和彈性。 暫停時，系統就不會傳送任何通訊，設定檔會維持在暫停狀態，直到繼續歷程為止。
 
 此功能減少在錯誤或更新期間（例如：變更訊息內容）傳送意外訊息的風險，支援更安全的歷程管理，並提高從業人員的信心。 直接在UI中檢視暫停的歷程及其狀態，可進一步增強透明度和作業靈敏度。
 
@@ -146,7 +147,11 @@ ht-degree: 6%
 
 ## 護欄與限制 {#journey-pause-guardrails}
 
-* 歷程版本最多可暫停14天
+* 歷程版本最多可暫停&#x200B;**14天**，整個組織的暫停歷程中最多允許&#x200B;**100萬個設定檔**。
+每30分鐘檢查一次此限制。 這表示您可能會暫時超過1000萬的臨界值，但一旦系統偵測到，則會自動捨棄任何其他設定檔。
+
+  如果您繼續歷程以將保留的個人檔案數恢復到限制以下，歷程將立即繼續 — 但更新個人檔案計數最多可能需要30分鐘。 在這段期間，系統仍可能將這些設定檔視為已暫停。
+
 * 暫停的歷程計入即時歷程配額
 * 已進入歷程但在暫停期間被捨棄的設定檔，仍會計為可參與的設定檔
 * 暫停的歷程會以即時方式納入所有商業規則中
@@ -162,7 +167,7 @@ ht-degree: 6%
 * 某些已捨棄的設定檔會顯示在歷程步驟事件中，但不會顯示在報表中。 例如：
    * 捨棄&#x200B;**讀取對象**&#x200B;的商業事件
    * **讀取對象**&#x200B;工作因暫停歷程而捨棄
-   * 在&#x200B;**Event**&#x200B;活動在設定檔等待的動作之後時，捨棄事件
+   * 在&#x200B;**Event**活動在設定檔等待的動作之後時，捨棄事件
      <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
 ## 端對端範例 {#journey-pause-sample}
