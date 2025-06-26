@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 10333b4dab32abe87b1e8b4f3e4d7b1e72eafb50
+source-git-commit: fad312d2951dc6d602fb27d24adad6de0192f650
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 3%
@@ -155,7 +155,7 @@ ht-degree: 3%
 
    ![](assets/schema_2.png)
 
-1. 輸入來自目前結構描述&#x200B;**的**&#x200B;[!UICONTROL &#x200B;關聯性名稱以及來自參考結構描述&#x200B;]&#x200B;**的**&#x200B;關聯性名稱。
+1. 輸入來自目前結構描述&#x200B;]**的**[!UICONTROL &#x200B;關聯性名稱以及來自參考結構描述&#x200B;]**的**[!UICONTROL &#x200B;關聯性名稱。
 
 1. 按一下&#x200B;**[!UICONTROL 套用]**&#x200B;以儲存變更。
 
@@ -179,7 +179,7 @@ Adobe Experience Platform可讓您從外部來源擷取資料，同時使用Expe
 
    * 使用新帳戶
 
-   [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -189,9 +189,11 @@ Adobe Experience Platform可讓您從外部來源擷取資料，同時使用Expe
 
    選取資料夾可確保自動處理所有具有相同結構的目前和未來檔案，而選取檔案則需要手動更新每個新資料增量。
 
-   ![](assets/s3_config_1.png)
+   ![](assets/S3_config_1.png)
 
 1. 選擇您的資料格式，然後按下一步。
+
+
 
 <!--manual
 ## Create a relational schema manual
