@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 23%
+source-wordcount: '768'
+ht-degree: 25%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="歷程"
->abstract="設計客戶歷程提供個人化的內容關聯式體驗。Journey Optimizer 可讓您利用儲存在事件或資料來源中的內容關聯式資料，建立即時協調流程使用案例。**概觀&#x200B;**&#x200B;索引標籤會顯示儀表板，其中包含與您的歷程相關的關鍵量度。**瀏覽&#x200B;**&#x200B;索引標籤會顯示現有歷程的清單。"
+>abstract="設計客戶歷程提供個人化的內容關聯式體驗。Journey Optimizer可讓您利用儲存在事件或資料來源中的情境資料，建立即時協調使用案例。 **概觀&#x200B;**&#x200B;索引標籤會顯示儀表板，其中包含與您的歷程相關的關鍵量度。**瀏覽&#x200B;**&#x200B;索引標籤會顯示現有歷程的清單。"
 
 Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員協調行銷外聯活動與一對一客戶參與。 使用者介面可讓您輕鬆將活動從浮動視窗拖放至畫布，以建立您的歷程。 歷程使用者介面在[此頁面](journey-ui.md)上詳細說明。
 
@@ -38,19 +38,19 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 ![歷程建立步驟：建立、設計、測試和發佈](assets/journey-creation-process.png)
 
 
-建立多步驟客戶歷程可跨管道即時起始一系列互動、優惠方案和訊息。 此方法可確保根據客戶的動作和相關業務訊號，在最佳時刻與客戶互動。 可以根據行為、情境資料和業務事件來定義Target對象。 先決條件取決於您的使用案例，以及您正在建置的[歷程型別](entry-management.md#types-of-journeys)。
+建立多步驟客戶歷程，以即時啟動跨管道的互動、優惠方案和訊息順序。 此方法可確保根據客戶的動作和相關業務訊號，在最佳時刻與客戶互動。 Target對象是根據行為、內容資料和業務事件來定義。 先決條件取決於您的使用案例和您正在建置的[歷程型別](entry-management.md#types-of-journeys)。
 
-在開始建立您的歷程之前，請檢查相關的設定步驟已完成：
+在開始建立您的歷程之前，請確定已完成相關的設定步驟：
 
-* 如果您想要在收到事件時統一觸發您的歷程，您需要&#x200B;**設定事件**。 您可以定義預期的資訊及其處理方式。 [閱讀全文](../event/about-events.md)。
+* 如果您想要在收到事件時個別觸發您的歷程，請&#x200B;**設定事件**。 定義預期的資訊及其處理方式。 [閱讀全文](../event/about-events.md)。
 
 <!--   ![](assets/jo-event7bis.png)  -->
 
-* 您的歷程也可以監聽Adobe Experience Platform對象，以批次傳送訊息至指定的設定檔集。 為此，您需要&#x200B;**建立對象**。 [閱讀全文](../audience/about-audiences.md)。
+* 您的歷程也可以監聽Adobe Experience Platform對象，以批次將訊息傳送至指定的設定檔集。 為此，**建立對象**。 [閱讀全文](../audience/about-audiences.md)。
 
 <!--   ![](assets/segment2.png)  -->
 
-* 您可以定義系統連線，以擷取將用於歷程的其他資訊，例如在您的條件中。 此連線依賴&#x200B;**資料來源**。 [閱讀全文](../datasource/about-data-sources.md)
+* 定義系統連線，以擷取將用於歷程的其他資訊，例如在您的條件中。 此連線依賴&#x200B;**資料來源**。 [閱讀全文](../datasource/about-data-sources.md)。
 
 <!--   ![](assets/jo-datasource.png)  -->
 
@@ -64,7 +64,7 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 >[!NOTE]
 >
->在[此頁面](../start/guardrails.md)上詳細描述歷程護欄和限制
+>更多有關歷程護欄與限制的資訊可參閱[此頁面](../start/guardrails.md)
 
 ## 建立歷程 {#jo-build}
 
@@ -90,13 +90,13 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
    ![](assets/read-segment.png)
 
-1. 拖放個人會遵循的後續步驟。 例如，您可以新增條件，然後新增管道動作。 若要進一步瞭解活動，請參閱[本節](about-journey-activities.md)。
+1. 從從浮動視窗拖放事件或&#x200B;**讀取對象**&#x200B;活動到畫布開始。 若要進一步瞭解歷程設計，請參閱[本節](using-the-journey-designer.md)。
 
 ## 測試歷程 {#jo-test}
 
-一旦您建立了您的歷程，您就可以在發佈之前先測試它。 Journey Optimizer提供「測試模式」，以便在測試設定檔歷程中移動時檢視測試設定檔，並在啟用之前偵測潛在錯誤。 執行快速測試可讓您檢查歷程是否正確運作，以便您能夠放心發佈。
+建立歷程後，請先測試歷程，然後再發佈。 Journey Optimizer提供&#x200B;**測試模式**，以便在測試設定檔在歷程中移動時檢視測試設定檔，並在啟用之前偵測潛在錯誤。 執行快速測試可確保歷程正確運作，因此您可以放心地發佈它們。 在本節](testing-the-journey.md)中瞭解如何測試您的歷程[
 
-在此[小節](testing-the-journey.md)中瞭解更多
+您也可以在&#x200B;**試用**&#x200B;中執行您的歷程。 歷程試運行是 Adobe Journey Optimizer 中的特殊歷程發佈模式，允許歷程從業人員使用真實的生產資料，即可測試歷程，不用聯絡實際客戶，或是更新設定檔資訊。此功能有助於歷程參與者在發佈其歷程設計和對象鎖定目標之前獲得信心。 在本節](journey-dry-run.md)中瞭解如何以試執行模式[發佈歷程。
 
 ## 發佈此歷程 {#jo-pub}
 
@@ -112,4 +112,4 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 >[!NOTE]
 >
->如果您需要修改為&#x200B;**即時**&#x200B;歷程，請[建立歷程的新版本](journey-ui.md#journey-versions)。
+>如果您需要修改&#x200B;**即時**&#x200B;歷程，請[建立歷程的新版本](journey-ui.md#journey-versions)。

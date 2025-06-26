@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 624bcbdbbd33d9827b98c953043e692757deb847
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2106'
 ht-degree: 8%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 8%
 若要繼續暫停的歷程並重新開始聆聽歷程事件，請遵循下列步驟：
 
 1. 開啟您要繼續的歷程。
-1. 按一下歷程畫布右上角的&#x200B;**...更多**&#x200B;按鈕，然後選取&#x200B;**繼續**。
+1. 選取歷程畫布右上角的&#x200B;**...更多**&#x200B;按鈕，然後選取&#x200B;**繼續**。
 
    歷程會切換至&#x200B;**繼續**&#x200B;狀態。 當歷程繼續時，新進入在一分鐘內開始。 恢復保留的設定檔可能需要一些時間 — 設定檔會以5k tps的速率恢復。  由於所有設定檔都必須繼續，歷程才能再次變成&#x200B;**即時**，從&#x200B;**繼續**&#x200B;到&#x200B;**即時**&#x200B;狀態的轉換可能需要一些時間。
 
@@ -121,7 +121,7 @@ ht-degree: 8%
 
 1. 瀏覽至您要修改的暫停歷程。
 
-1. 按一下&#x200B;**退出條件與全域篩選器**&#x200B;圖示。
+1. 選取&#x200B;**退出條件與全域篩選器**&#x200B;圖示。
 
    ![將全域篩選器新增至暫停的歷程](assets/add-global-filter.png)
 
@@ -167,7 +167,7 @@ ht-degree: 8%
 * 某些已捨棄的設定檔會顯示在歷程步驟事件中，但不會顯示在報表中。 例如：
    * 捨棄&#x200B;**讀取對象**&#x200B;的商業事件
    * **讀取對象**&#x200B;工作因暫停歷程而捨棄
-   * 在&#x200B;**Event**&#x200B;活動在設定檔等待的動作之後時，捨棄事件
+   * 在&#x200B;**Event**活動在設定檔等待的動作之後時，捨棄事件
      <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
 ## 端對端範例 {#journey-pause-sample}

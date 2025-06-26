@@ -8,9 +8,9 @@ role: Developer, Data Engineer
 level: Experienced
 keywords: 歷程，資料來源，限制，輸送量，自訂，動作
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '753'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,7 @@ Adobe Journey Optimizer可讓從業人員透過使用自訂動作和資料來源
 
 ![](assets/limit-throughput-2.png)
 
-讓我們以&#x200B;**受眾觸發的歷程**&#x200B;為例，此歷程使用&#x200B;**10 000個設定檔的母體**，並將資料傳送到支援&#x200B;**100個要求/秒**&#x200B;的外部系統。
+讓我們以&#x200B;**受眾觸發的歷程**&#x200B;為例，此歷程使用&#x200B;**10,000個設定檔的母體**，並將資料傳送到支援&#x200B;**100個要求/秒**&#x200B;的外部系統。
 
 1. 您可以以500個設定檔/秒的輸送量定義讀取對象以讀取設定檔，這表示讀取所有設定檔將需要20秒。 在第1頁，您會閱讀其中500本、第2頁500本等等。
 

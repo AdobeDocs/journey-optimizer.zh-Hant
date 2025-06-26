@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 疑難排解您的自訂動作
+title: 疑難排解自訂動作
 description: 瞭解如何疑難排解自訂動作
 feature: Journeys, Actions, Custom Actions
 topic: Administration
@@ -9,14 +9,14 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 0%
+source-wordcount: '558'
+ht-degree: 2%
 
 ---
 
-# 疑難排解您的自訂動作 {#troubleshoot-a-custom-action}
+# 疑難排解自訂動作 {#troubleshoot-a-custom-action}
 
 您可以從Journey Optimizer使用者介面的管理區段傳送API呼叫，以測試自訂動作。 此功能可協助您在歷程中使用自訂動作之前或之後，進行疑難排解。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 若要測試自訂動作，請遵循下列步驟：
 
 1. 導覽至&#x200B;**動作**&#x200B;設定畫面，然後選取自訂動作。
-1. 按一下動作設定畫面底部的&#x200B;**[!UICONTROL 傳送測試要求]**&#x200B;按鈕。
+1. 按一下動作設定畫面底部的&#x200B;**[!UICONTROL 傳送測試要求]**按鈕。
    ![在動作設定面板中傳送測試要求按鈕](assets/test-request.png){width="70%" align="left"}
 1. 在快顯視窗中，允許您指定請求引數：
 

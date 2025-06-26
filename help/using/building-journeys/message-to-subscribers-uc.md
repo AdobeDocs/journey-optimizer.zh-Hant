@@ -9,7 +9,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 歷程，使用案例，訊息，訂閱者，清單，讀取
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 17%
@@ -51,7 +51,7 @@ ht-degree: 17%
 
       在此範例中，訂閱清單名為`daily-email`。 電子郵件地址在`subscribers`對應中定義為金鑰，此對應連結至訂閱清單對應。
 
-      深入瞭解運算式中欄位[&#128279;](expression/field-references.md)的參考。
+      深入瞭解運算式中欄位](expression/field-references.md)的[參考。
 
       ![](assets/message-to-subscribers-uc-2.png)
 

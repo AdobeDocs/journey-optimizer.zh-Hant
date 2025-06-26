@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 0f783c57ba946866cb74c2b16e1807ff963cfbaf
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1767'
 ht-degree: 8%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 8%
 
 ![](assets/journeytest4.png)
 
-介面可讓您傳遞簡單事件引數。 如果您想要在事件中傳遞集合或其他進階物件，可以按一下&#x200B;**[!UICONTROL 程式碼檢視]**&#x200B;來檢視裝載的完整程式碼並加以修改。 例如，您可以複製並貼上技術使用者準備的事件資訊。
+介面可讓您傳遞簡單事件引數。 如果您想要在事件中傳遞集合或其他進階物件，可以選取&#x200B;**[!UICONTROL 程式碼檢視]**&#x200B;來檢視裝載的整個程式碼並加以修改。 例如，您可以複製並貼上技術使用者準備的事件資訊。
 
 ![](assets/journeytest5.png)
 

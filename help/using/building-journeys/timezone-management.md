@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 時區，屬性，歷程，條件，時間，日期，自訂
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '360'
 ht-degree: 28%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 28%
 
 您可以在歷程的[屬性](../building-journeys/journey-properties.md#timezone)中定義時區。
 
-若要存取歷程屬性，請按一下畫面右上方的鉛筆圖示。
+若要存取歷程屬性，請選取畫面右上角的鉛筆圖示。
 
 此時區將用於包含時間元素的歷程的每個活動，例如：
 
@@ -38,7 +38,7 @@ ht-degree: 28%
 * [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 -->
 
-您可以選取[固定時區](#fixed-timezone)，或選擇使用使用者設定檔[&#128279;](#timezone-from-profiles)中定義的時區。
+您可以選取[固定時區](#fixed-timezone)，或選擇使用使用者設定檔](#timezone-from-profiles)中定義的時區[。
 
 ## 定義固定時區 {#fixed-timezone}
 

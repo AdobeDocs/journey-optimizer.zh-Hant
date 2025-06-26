@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 資料、治理、DULE、標籤、標籤、平台、原則
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 96%
+source-wordcount: '1290'
+ht-degree: 95%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 96%
 
 如果系統在歷程/行銷活動中或在自訂動作中發現限制欄位，就會顯示錯誤，讓您無法予以發佈。
 
-**[!UICONTROL 警示]**&#x200B;按鈕顯示出現錯誤。按一下錯誤，即可顯示所發生資料治理原則違規的詳細資訊。
+**[!UICONTROL 警示]**&#x200B;按鈕顯示出現錯誤。選取錯誤，以顯示有關所發生資料治理原則違規的詳細資訊。
 
 ![](assets/action-privacy8.png)
 

@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: bb3379fa71aaeb00d0833c67547de70f4e9c3fb1
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '995'
 ht-degree: 21%
 
 ---
@@ -73,7 +73,7 @@ Journey Dirun提供：
 若要啟動「試執行」，請遵循下列步驟：
 
 1. 開啟您要測試的歷程。
-1. 按一下&#x200B;**試用**&#x200B;按鈕。
+1. 選取&#x200B;**試執行**&#x200B;按鈕。
 
    ![開始歷程試運行](assets/dry-run-button.png)
 
