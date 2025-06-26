@@ -9,7 +9,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1796'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
->title="定義決定原則"
->abstract="決策原則可讓您從決策引擎中挑選最佳專案，並將其傳送給適當的對象。"
+>title="定義決策原則"
+>abstract="決策原則可讓您從決策引擎中挑選最佳項目，並將其傳遞給合適的客群。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="關於決策"
 
 決策原則是優惠方案的容器，可運用決策引擎，根據對象挑選最佳內容進行傳遞。

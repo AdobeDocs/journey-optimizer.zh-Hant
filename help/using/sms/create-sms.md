@@ -11,16 +11,16 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1069'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
-# 建立簡訊/多媒體簡訊/RCS訊息 {#create-sms}
+# 建立簡訊/MMS/RCS 訊息 {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="建立文字訊息。"
->abstract="若要建立簡訊(SMS/MMS/RCS)，請在歷程或行銷活動中新增SMS動作，並開始使用個人化編輯器進行個人化。"
+>abstract="若要建立文字訊息 (簡訊/MMS/RCS)，請在歷程或行銷活動中新增簡訊動作，然後使用個人化編輯器開始對其進行個人化設定。"
 
 您可以使用Adobe Journey Optimizer設計和傳送文字(SMS)、豐富通訊(RCS)和多媒體(MMS)訊息。 您首先需要在歷程或行銷活動中新增SMS動作，然後定義文字訊息的內容，如下所述。 Adobe Journey Optimizer也提供在傳送文字訊息前先測試訊息的功能，讓您可檢查轉譯、個人化屬性和所有其他設定。
 
@@ -90,12 +90,12 @@ ht-degree: 3%
 
 >[!ENDTABS]
 
-## 定義您的SMS/RCS內容{#sms-content}
+## 定義您的簡訊/RCS 內容{#sms-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
->title="定義您的文字簡訊內容"
->abstract="使用個人化編輯器來定義內容並合併動態元素，以自訂及個人化您的文字訊息（簡訊/多媒體簡訊/RCS）。"
+>title="定義您的簡訊內容"
+>abstract="透過使用個人化編輯器定義內容並結合動態元素，自訂和個人化文字訊息 (簡訊/MMS/RCS)。"
 
 若要設定訊息內容，請遵循下列步驟。 MMS的設定在[本節](#mms-content)中有詳細說明。
 

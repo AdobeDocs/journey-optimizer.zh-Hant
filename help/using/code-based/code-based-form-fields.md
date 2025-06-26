@@ -5,10 +5,11 @@ feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
+source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
 workflow-type: tm+mt
 source-wordcount: '1218'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -30,12 +31,12 @@ ht-degree: 1%
 
 將內容範本套用至其內容時，使用者將可自訂在任何參考變數的位置所使用的顏色。
 
-## 將可編輯欄位新增至HTML或JSON內容範本 {#add-editable-fields}
+## 將可編輯的欄位新增到 HTML 或 JSON 內容範本 {#add-editable-fields}
 
 >[!CONTEXTUALHELP]
 >id="ajo_cbe_preview_form_fields"
 >title="檢查表單欄位的轉譯"
->abstract="在JSON或HTML內容範本中，您可以定義特定的可編輯欄位，讓非技術使用者輕鬆地編輯程式碼型體驗中的內容，而不需要操作程式碼。 使用專用語法建立這些欄位，並使用此按鈕預覽它們。"
+>abstract="您可以在 JSON 或 HTML 內容範本中定義特定的可編輯欄位，讓非技術使用者無須操作程式碼，就可以輕鬆地在程式碼型的體驗中編輯內容。請使用專用語法建立那些欄位，並使用此按鈕預覽。"
 
 若要讓您的一些JSON或HTML程式碼可編輯，請先建立程式碼型體驗[內容範本](../content-management/content-templates.md)，您可以在其中定義特定表單欄位。
 
@@ -196,12 +197,12 @@ ht-degree: 1%
 {{/each}}
 ```
 
-## 在程式碼型體驗中編輯表單欄位 {#edit-form-fields}
+## 在程式碼型的體驗中編輯表單欄位 {#edit-form-fields}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_form_fields"
 >title="什麼是表單欄位?"
->abstract="此程式碼型體驗包含您無需在個人化編輯器中操作程式碼即可輕鬆編輯的表單欄位。"
+>abstract="這種程式碼型的體驗包含您可以輕鬆編輯的表單欄位，無需在個人化編輯器中操作程式碼。"
 
 現在已建立包含預先定義的可編輯表單欄位的內容範本，您可以使用此內容範本建立程式碼型體驗。
 
@@ -245,5 +246,4 @@ ht-degree: 1%
 
 瞭解如何將可編輯的欄位新增至程式碼型體驗管道內容範本。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464002/?learn=on&#x26;enablevpops&captions=chi_hant)
-
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

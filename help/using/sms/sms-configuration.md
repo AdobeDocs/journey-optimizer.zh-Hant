@@ -10,11 +10,11 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 32%
+ht-degree: 34%
 
 ---
 
-# 開始使用簡訊/多媒體簡訊/RCS設定 {#sms-configuration}
+# 開始使用簡訊/MMS/RCS 設定 {#sms-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"

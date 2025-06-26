@@ -10,7 +10,7 @@ exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
 source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_campaign_action"
 >title="動作"
->abstract="本節列出協調行銷活動內使用的所有動作。"
+>abstract="本節列出在協調式行銷活動中使用的所有動作。"
 
 +++ 目錄
 
