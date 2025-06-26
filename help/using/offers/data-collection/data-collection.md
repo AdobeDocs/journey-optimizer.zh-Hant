@@ -5,8 +5,7 @@ feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer, Developer
 level: Experienced
-exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: bd94edd5be8651fdde5c353a59442ab3f255cfbc
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 1%
@@ -17,7 +16,7 @@ ht-degree: 1%
 
 ## 瞭解資料彙集
 
-您可以在Adobe Experience Platform中收集offer decisioning意見回饋，包括顯示哪些優惠方案以及使用者如何與其互動。 此資料可用於：
+您可以在Adobe Experience Platform中收集Offer Decisioning意見回饋，包括顯示哪些優惠方案以及使用者如何與其互動。 此資料可用於：
 * 構成[決定管理報告](../reports/get-started-events.md)；
 * 使用[頻率限定](../offer-library/add-constraints.md#capping)規則；
 * 正在建置可以做為排名方法的[AI模型](../ranking/create-ranking-strategies.md)。
@@ -44,9 +43,9 @@ ht-degree: 1%
 
 不過，**大部分的管道**&#x200B;都需要曝光數和點按數資料，才能以&#x200B;**體驗事件**&#x200B;的形式傳送到Adobe Experience Platform。 其中包括：
 
-* 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant){target="_blank"}呈現選件的網頁
+* 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}呈現選件的網頁
 
-* 使用[Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=zh-Hant){target="_blank"}來轉譯選件的行動應用程式 — [深入瞭解](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* 使用[Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}呈現選件的行動應用程式 — [深入瞭解](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * 資訊站
 * 透過協力廠商應用程式傳送的訊息
   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
