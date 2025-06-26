@@ -52,9 +52,9 @@ ht-degree: 3%
    ![](assets/test-profiles-1.png)
 1. 輸入結構描述的名稱，然後按一下&#x200B;**完成**。
    ![](assets/test-profiles-1-bis.png)
-1. 在&#x200B;**欄位群組**&#x200B;區段中，按一下左側的&#x200B;**新增**&#x200B;並選取適當的欄位群組。 請確定您已新增&#x200B;**設定檔測試詳細資料**欄位群組。
+1. 在&#x200B;**欄位群組**&#x200B;區段中，按一下左側的&#x200B;**新增**&#x200B;並選取適當的欄位群組。 請確定您已新增&#x200B;**設定檔測試詳細資料**&#x200B;欄位群組。
    ![](assets/test-profiles-1-ter.png)
-完成後，按一下**[!UICONTROL 新增欄位群組]**：欄位群組清單會顯示在結構描述概觀畫面上。
+完成後，按一下&#x200B;**[!UICONTROL 新增欄位群組]**：欄位群組清單會顯示在結構描述概觀畫面上。
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
@@ -65,7 +65,7 @@ ht-degree: 3%
    ![](assets/test-profiles-3.png)
 1. 在&#x200B;**[!UICONTROL 欄位屬性]**&#x200B;右側窗格中，檢查&#x200B;**[!UICONTROL 身分]**&#x200B;和&#x200B;**[!UICONTROL 主要身分]**&#x200B;選項，並選取名稱空間。 如果您希望主要身分識別是電子郵件地址，請選擇&#x200B;**[!UICONTROL 電子郵件]**&#x200B;名稱空間。 按一下&#x200B;**[!UICONTROL 套用]**。
    ![](assets/test-profiles-4bis.png)
-1. 選取結構描述並啟用&#x200B;**[!UICONTROL 結構描述屬性]**&#x200B;窗格中的&#x200B;**[!UICONTROL 設定檔]**選項。
+1. 選取結構描述並啟用&#x200B;**[!UICONTROL 結構描述屬性]**&#x200B;窗格中的&#x200B;**[!UICONTROL 設定檔]**&#x200B;選項。
    ![](assets/test-profiles-5.png)
 1. 按一下&#x200B;**儲存**。
 
@@ -85,7 +85,7 @@ ht-degree: 3%
    ![](assets/test-profiles-8.png)
 1. 選擇名稱，然後按一下&#x200B;**[!UICONTROL 完成]**。
    ![](assets/test-profiles-9.png)
-1. 啟用&#x200B;**[!UICONTROL 設定檔]**選項。
+1. 啟用&#x200B;**[!UICONTROL 設定檔]**&#x200B;選項。
    ![](assets/test-profiles-10.png)
 
 >[!NOTE]
@@ -136,7 +136,7 @@ ht-degree: 3%
    ![](assets/test-profiles-22.png)
 1. 定義對象名稱並建置對象：選擇欄位和值以定位您想要的設定檔。
    ![](assets/test-profiles-23.png)
-1. 按一下「儲存&#x200B;****」，然後檢查設定檔是否被對象正確鎖定目標。
+1. 按一下「儲存&#x200B;**&#x200B;**」，然後檢查設定檔是否被對象正確鎖定目標。
    ![](assets/test-profiles-24.png)
 
    >[!NOTE]
@@ -150,7 +150,7 @@ ht-degree: 3%
 1. 選取結構描述、**testProfiles**&#x200B;欄位和資料集，並將值設定為&#x200B;**True**。 若要執行此動作，請在&#x200B;**[!UICONTROL VALUE]**&#x200B;欄位中按一下右側的&#x200B;**筆**&#x200B;圖示，選取&#x200B;**[!UICONTROL 進階模式]**&#x200B;並輸入&#x200B;**true**。
    ![](assets/test-profiles-26.png)
 1. 按一下&#x200B;**[!UICONTROL 發佈]**。
-1. 在&#x200B;**[!UICONTROL 對象]**區段中，檢查設定檔是否已正確更新。
+1. 在&#x200B;**[!UICONTROL 對象]**&#x200B;區段中，檢查設定檔是否已正確更新。
    ![](assets/test-profiles-28.png)
 
    >[!NOTE]
