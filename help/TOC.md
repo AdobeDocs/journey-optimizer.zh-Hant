@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 3078d9d95327e58e98366d9d8f0d0dfd1c571bec
 workflow-type: tm+mt
-source-wordcount: '2456'
+source-wordcount: '2473'
 ht-degree: 98%
 
 ---
@@ -557,6 +557,10 @@ ht-degree: 98%
       + [建立決定原則](using/experience-decisioning/create-decision.md)
       + [Decisioning 上的報告](using/experience-decisioning/cja-reporting.md)
       + [Decisioning 使用案例](using/experience-decisioning/experience-decisioning-uc.md)
+      + 收集事件資料 {#collect-event-data}
+         + [開始使用資料收集](using/experience-decisioning/data-collection/data-collection.md)
+         + [建立資料集以收集事件](using/experience-decisioning/data-collection/create-dataset.md)
+         + [設定事件擷取](using/experience-decisioning/data-collection/schema-requirement.md)
    + 決策管理 {#offer-decisioning}
       + 開始使用決策管理 {#get-started-decision}
          + [關於決策管理](using/offers/get-started/starting-offer-decisioning.md)

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 42b7b7fe7ab6380ca54e05ab0905f2517f489782
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 15%
@@ -19,7 +19,7 @@ ht-degree: 15%
 >id="ajo_exd_items"
 >title="管理決定項目"
 >abstract="Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您可以將其建立並組織到集中式目錄和集合中。目前，所有建立的決定項目都合併在一個「產品建議」目錄中。在此畫面中，您還可以使用&#x200B;**編輯結構描述**&#x200B;按鈕來存取目錄的結構描述，並為您的決定項目建立自訂屬性。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=zh-Hant" text="設定項目目錄"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="設定項目目錄"
 
 Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您可以將其建立並組織到集中式目錄和集合中。這些屬性由標準和自訂屬性組成，旨在精確符合您的需求。 此外，它們納入設定檔限制，可讓您定義決策專案可顯示給誰。
 
@@ -38,7 +38,7 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >id="ajo_exd_item_custom_attributes"
 >title="定義自訂屬性"
 >abstract="自訂屬性是根據您的需求訂製並且可以指派給決定項目的特定屬性。 它們是在決定項目的目錄結構描述中建立的。 只有當您已在目錄結構描述中新增至少一個自訂屬性時，才會顯示此區段。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=zh-Hant" text="設定項目目錄"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="設定項目目錄"
 
 首先定義決定專案的標準和自訂屬性：
 
@@ -64,8 +64,8 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >id="ajo_exd_item_constraints"
 >title="新增對象或決定規則"
 >abstract="預設情況下，所有設定檔都有資格接收決定項目，但您可以使用對象或規則將該項目限制為僅限特定設定檔。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=zh-Hant" text="使用對象"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html?lang=zh-Hant" text="使用決定規則"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用對象"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="使用決定規則"
 
 依預設，所有設定檔都符合接收決定專案的資格，但您可以使用對象或規則將專案限製為僅特定設定檔，這兩個解決方案都對應不同的使用方式。 展開下列區段以取得詳細資訊：
 
@@ -79,9 +79,9 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 
 +++
 
-* 若要將決策專案的呈現限制在一或多個Adobe Experience Platform對象的成員中，請選取&#x200B;**[!UICONTROL 屬於一或多個對象的訪客]**&#x200B;選項，然後從左窗格新增一或多個對象，並使用&#x200B;**[!UICONTROL And]** / **[!UICONTROL Or]**&#x200B;邏輯運運算元將其合併。 [進一步瞭解對象](../audience/about-audiences.md)。
+* 若要將決策專案的呈現限制在一或多個Adobe Experience Platform對象的成員中，請選取&#x200B;**[!UICONTROL 屬於一或多個對象的訪客]**&#x200B;選項，然後從左窗格新增一或多個對象，並使用&#x200B;**[!UICONTROL And]** / **[!UICONTROL Or]**&#x200B;邏輯運運算元將其合併。 [了解更多關於客群](../audience/about-audiences.md)
 
-* 若要將特定決定規則與決定專案建立關聯，請選取&#x200B;**[!UICONTROL 依規則]**，然後將需要的規則從左側窗格拖曳到中央區域。 [進一步了解決定規則](rules.md)。
+* 若要將特定決定規則與決定專案建立關聯，請選取&#x200B;**[!UICONTROL 依規則]**，然後將需要的規則從左側窗格拖曳到中央區域。 [進一步了解決定規則](rules.md)
 
 ![](assets/item-constraints.png)
 
@@ -114,8 +114,8 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
    >[!NOTE]
    >
    >對於決策事件以外的所有上限事件，決策管理意見可能不會自動收集，這可能會導致上限計數器未正確增加。 若要確保在上限計數器中已追蹤和說明每個上限事件，請確定用於收集體驗事件的結構描述包含該事件的正確欄位群組。 有關資料收集的詳細資訊，請參閱Journey Optimizer決策管理檔案：
-   >* [決定管理資料集合](../offers/data-collection/data-collection.md)
-   >* [設定資料彙集](../offers/data-collection/schema-requirement.md)
+   >* [決定管理資料集合](data-collection/data-collection.md)
+   >* [設定資料彙集](data-collection/schema-requirement.md)
 
 1. 選擇上限型別：
 
