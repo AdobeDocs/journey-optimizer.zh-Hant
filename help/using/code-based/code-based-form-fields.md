@@ -246,4 +246,4 @@ ht-degree: 8%
 
 瞭解如何將可編輯的欄位新增至程式碼型體驗管道內容範本。
 
->[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464002/?learn=on&#x26;enablevpops&captions=chi_hant)
