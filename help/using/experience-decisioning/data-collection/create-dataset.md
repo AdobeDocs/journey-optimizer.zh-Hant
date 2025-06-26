@@ -7,7 +7,7 @@ feature: Ranking, Decision Management, Datasets
 role: Data Engineer, Developer
 level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 42b7b7fe7ab6380ca54e05ab0905f2517f489782
+source-git-commit: 9f77bb0bfae48e879335f72f07f106a2f0472f45
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 7%
@@ -51,7 +51,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->深入瞭解如何在[結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant#understanding-schemas){target="_blank"}中建置結構描述。
+>深入瞭解如何在[結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}中建置結構描述。
 
 您現在已準備好使用此結構描述建立資料集。 請依照下列步驟執行此操作：
 
@@ -69,4 +69,4 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->現在可以選取此資料集，以便在[建立AI模型] ()時收集事件資料。
+>建立AI模型<!--add link to Creat AI models section-->時，現在可以選取此資料集來收集事件資料。
