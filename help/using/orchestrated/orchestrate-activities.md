@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 2604fa59a8fa6393580180afa6da264319636e68
+source-git-commit: 185e4121a939f2b46b85865278a591c43ad01f27
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '733'
 ht-degree: 1%
 
 ---
@@ -82,9 +82,7 @@ ht-degree: 1%
 
 若干&#x200B;**目標定位**&#x200B;活動（例如&#x200B;**合併**&#x200B;或&#x200B;**重複資料刪除**），可讓您處理剩餘母體，並將其納入其他出站轉變中。 例如，如果您使用&#x200B;**分割**&#x200B;活動，則補數包含不符合任何先前定義之子集的母體。 若要使用此功能，請啟動&#x200B;**[!UICONTROL 產生補充]**&#x200B;選項。
 
-## 移動或複製活動 {#move-copy}
-
-### 複製貼上活動 {#copy}
+## 複製貼上活動 {#copy}
 
 您可以複製活動，並將其貼到任何已協調的行銷活動畫布中。 目的地行銷活動可以在不同的瀏覽器索引標籤中。
 
