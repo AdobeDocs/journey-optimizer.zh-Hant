@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
+source-git-commit: 4cc571b306058dc58454e488ba53bb69117a8b27
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1142'
 ht-degree: 3%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 3%
 
 1. 填寫指定的表單以定義連結，並在設定後按一下&#x200B;**套用**。
 
-   ![](assets/toolbar.png)
+   ![](assets/admin_schema_3.png)
 
    **基數**：
 
@@ -155,7 +155,7 @@ ht-degree: 3%
 
    ![](assets/schema_2.png)
 
-1. 輸入來自目前結構描述&#x200B;**的**&#x200B;[!UICONTROL &#x200B;關聯性名稱以及來自參考結構描述&#x200B;]&#x200B;**的**&#x200B;關聯性名稱。
+1. 輸入來自目前結構描述&#x200B;]**的**[!UICONTROL &#x200B;關聯性名稱以及來自參考結構描述&#x200B;]**的**[!UICONTROL &#x200B;關聯性名稱。
 
 1. 按一下&#x200B;**[!UICONTROL 套用]**&#x200B;以儲存變更。
 
@@ -179,21 +179,43 @@ Adobe Experience Platform可讓您從外部來源擷取資料，同時使用Expe
 
    * 使用新帳戶
 
-   [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
+1. 選擇您的資料夾&#x200B;**[!UICONTROL 資料格式]**、**[!UICONTROL 分隔符號]**&#x200B;和&#x200B;**[!UICONTROL 壓縮型別]**。
+
 1. 瀏覽連線的S3來源，直到您找到先前建立的兩個資料夾，即&#x200B;**熟客獎勵**&#x200B;和&#x200B;**熟客交易**。
 
-1. 按一下您的資料夾。
+1. 選取包含您資料的資料夾。
 
-   選取資料夾可確保自動處理所有具有相同結構的目前和未來檔案，而選取檔案則需要手動更新每個新資料增量。
+   選取資料夾可確保自動處理所有具有相同結構的目前和未來檔案。 然而，選取單一檔案則需要手動上傳每個新的資料增量。
+
+   ![](assets/S3_config_2.png)
+
+1. 選擇您的資料夾&#x200B;**[!UICONTROL 資料格式]**、**[!UICONTROL 分隔符號]**&#x200B;和&#x200B;**[!UICONTROL 壓縮型別]**。 檢閱您的範例資料是否準確，然後按[下一步] ****。
 
    ![](assets/S3_config_1.png)
 
-1. 選擇您的資料格式，然後按下一步。
+1. 核取&#x200B;**[!UICONTROL 啟用變更資料擷取]**，以從對應至關聯式結構描述且已定義主索引鍵和版本描述項的資料集中選取。
 
+1. 選取您[先前建立的資料集](#entities)，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 
+   ![](assets/S3_config_3.png)
+
+1. 在&#x200B;**[!UICONTROL 對應]**&#x200B;視窗中，確認每個來源檔案屬性與目標結構描述中的對應欄位正確對應。
+
+   完成後，按一下&#x200B;**[!UICONTROL 下一步]**。
+
+   ![](assets/S3_config_4.png)
+
+1. 根據您想要的頻率設定資料流程&#x200B;**[!UICONTROL 排程]**。
+
+1. 按一下&#x200B;**[!UICONTROL 完成]**&#x200B;以建立資料流程。 它會根據定義的排程自動執行。
+
+1. 從&#x200B;**[!UICONTROL 連線]**&#x200B;功能表中，選取&#x200B;**[!UICONTROL 來源]**&#x200B;並存取&#x200B;**[!UICONTROL 資料流程]**&#x200B;索引標籤，以追蹤流程執行、檢閱擷取的記錄，以及疑難排解任何錯誤。
+
+   ![](assets/S3_config_5.png)
 
 <!--manual
 ## Create a relational schema manual
