@@ -8,18 +8,18 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 4%
 
 ---
 
-# 使用案例：使用自訂動作在Experience Platform中寫入歷程事件 {#custom-action-aep}
+# 使用自訂動作在 Experience Platform 中編寫歷程事件 {#custom-action-aep}
 
 此使用案例說明如何使用自訂動作和已驗證的呼叫，將自訂事件從歷程寫入Adobe Experience Platform。
 
-## 設定IO專案 {#custom-action-aep-IO}
+## 設定開發人員專案 {#custom-action-aep-IO}
 
 1. 在Adobe Developer Console中，按一下&#x200B;**專案**&#x200B;並開啟您的IO專案。
 
@@ -39,9 +39,9 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->在Adobe Developer Console上建立專案後，請務必授予具有正確許可權的開發人員和API存取控制。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}中進一步瞭解
+>在Adobe Developer Console上建立專案後，請務必授予具有正確許可權的開發人員和API存取控制。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}中進一步瞭解
 
-## 使用HTTP API入口設定Source
+## 使用HTTP API入口設定來源
 
 1. 在Adobe Experience Platform中建立端點，從歷程寫入資料。
 

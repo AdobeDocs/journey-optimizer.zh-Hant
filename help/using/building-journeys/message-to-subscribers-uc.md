@@ -9,14 +9,14 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 歷程，使用案例，訊息，訂閱者，清單，讀取
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '329'
 ht-degree: 17%
 
 ---
 
-# 使用案例：傳送訊息給清單的訂閱者{#send-a-message-to-the-subscribers-of-a-list}
+# 傳送訊息給清單的訂閱者 {#send-a-message-to-the-subscribers-of-a-list}
 
 此使用案例的目的是建立歷程，以傳送訊息給清單的訂閱者。
 
@@ -51,7 +51,7 @@ ht-degree: 17%
 
       在此範例中，訂閱清單名為`daily-email`。 電子郵件地址在`subscribers`對應中定義為金鑰，此對應連結至訂閱清單對應。
 
-      深入瞭解運算式中欄位[&#128279;](expression/field-references.md)的參考。
+      深入瞭解運算式中欄位](expression/field-references.md)的[參考。
 
       ![](assets/message-to-subscribers-uc-2.png)
 

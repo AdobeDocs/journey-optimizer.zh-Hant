@@ -9,14 +9,14 @@ role: Admin, Data Engineer, User
 level: Intermediate, Experienced
 keywords: 歷程，訊息，行銷活動，整合
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '387'
 ht-degree: 2%
 
 ---
 
-# 使用案例：使用Campaign v7/v8傳送訊息 {#campaign-v7-v8-use-case}
+# 使用Campaign v7/v8傳送訊息 {#campaign-v7-v8-use-case}
 
 此使用案例說明使用與Adobe Campaign v7和Adobe Campaign v8的整合來傳送電子郵件所需的所有步驟。
 

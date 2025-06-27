@@ -9,14 +9,14 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 使用案例，多頻道，訊息，歷程，頻道，事件，推播
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 0%
+source-wordcount: '723'
+ht-degree: 1%
 
 ---
 
-# 使用案例：傳送多頻道訊息{#send-multi-channel-messages}
+# 傳送多頻道訊息 {#send-multi-channel-messages}
 
 本節介紹結合讀取對象、事件、反應事件和電子郵件/推播訊息的使用案例。
 
