@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
-source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 32%
+source-wordcount: '1276'
+ht-degree: 29%
 
 ---
 
@@ -34,20 +34,20 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
 >title="已啟用治理"
->abstract="已啟用內容鎖定機制，系統可能會阻止您修改資料。"
+>abstract="內容鎖定已啟用，並防止修改。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
 >title="唯讀"
->abstract="此為唯讀內容，無法再行修改。"
+>abstract="此內容處於唯讀模式，無法修改。"
 
-Journey Optimizer可讓您透過鎖定整個範本或特定結構和元件，來鎖定電子郵件範本中的內容。 這樣做讓您可以防止無意間不小心編輯內容，或將內容刪除，讓您更能掌控範本自訂，進而提高電子郵件行銷活動的效率和可靠性。
+Journey Optimizer可讓您鎖定電子郵件範本中的內容，鎖定整個範本或特定結構和元件。 這可防止無意編輯或刪除，讓您更能掌控範本自訂，並改善電子郵件行銷活動的效率和可靠性。
 
 >[!IMPORTANT]
 >
->內容鎖定是作者適用的編輯器層級功能，並不保證透過API匯入或建立內容時不會編輯內容。
+>內容鎖定是作者適用的編輯器層級功能，無法保證透過API匯入或建立內容時，內容仍會保持未編輯狀態。
 
-可在&#x200B;**結構**&#x200B;層級或&#x200B;**元件**&#x200B;層級套用內容鎖定。 鎖定範本中的內容時，以下是適用於結構和元件層級的主要原則。
+可在&#x200B;**結構**&#x200B;層級或&#x200B;**元件**&#x200B;層級套用內容鎖定。 以下是鎖定範本中的內容時，在結構和元件層級套用的主要原則：
 
 * 鎖定結構時：
 
@@ -95,9 +95,9 @@ Journey Optimizer可讓您透過鎖定整個範本或特定結構和元件，來
    * [瞭解如何鎖定結構](#lock-structures)
    * [瞭解如何鎖定元件](#lock-components)
 
-   如果您選擇&#x200B;**[!UICONTROL 唯讀]**&#x200B;模式，您可以照常完成並儲存範本。
+   如果您選擇&#x200B;**[!UICONTROL 唯讀]**&#x200B;模式，請照常完成並儲存範本。
 
-您可以在設計範本時，透過選取範本主體隨時調整&#x200B;**[!UICONTROL 治理]**&#x200B;設定。 若要這麼做，請按一下右側窗格頂端導覽邊欄中的&#x200B;**[!UICONTROL 內文]**&#x200B;連結。
+您可以在設計範本時，透過選取範本主體隨時調整&#x200B;**[!UICONTROL 治理]**&#x200B;設定。 若要這麼做，請按一下位於右側窗格頂端的導覽邊欄中的&#x200B;**[!UICONTROL 內文]**&#x200B;連結。
 
 ![](assets/template-lock-body.png)
 
@@ -177,13 +177,12 @@ Journey Optimizer可讓您透過鎖定整個範本或特定結構和元件，來
 
 ![](assets/template-lock-highlight.png)
 
-有關可套用之不同鎖定型別的詳細資訊，請參閱下列章節：
+有關可套用的不同鎖定型別的詳細資訊，請參閱以下章節：
 
 * [鎖定結構](#lock-structures)
 * [鎖定元件](#lock-components)
 
-以下是一些電子郵件編輯的範例，以及已設定的相關內容鎖定設定：
-
+以下是一些已設定的電子郵件版本和相關內容鎖定設定的範例：
 
 | 內容鎖定型別 | 範本設定 | 電子郵件版本 |
 | ------- | ------- | ------- |
@@ -197,4 +196,4 @@ Journey Optimizer可讓您透過鎖定整個範本或特定結構和元件，來
 
 瞭解如何鎖定電子郵件範本中的內容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451618?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

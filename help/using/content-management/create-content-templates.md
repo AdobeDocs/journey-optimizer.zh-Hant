@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 16%
+source-wordcount: '626'
+ht-degree: 11%
 
 ---
 
@@ -28,19 +28,19 @@ ht-degree: 16%
 
 * 在行銷活動或歷程中設計內容時，請將其儲存為範本。 [了解作法](#save-as-template)
 
-儲存後，您的內容範本即可用於行銷活動或歷程中。 無論是從頭建立還是從先前內容建立，您現在都可以在[!DNL Journey Optimizer]中建立任何內容時使用此範本。 [了解作法](#use-content-templates)
+儲存後，您的內容範本即可用於行銷活動或歷程中。 無論是從草稿建立還是從先前內容建立，您都可以在[!DNL Journey Optimizer]中建立任何內容時使用此範本。 [了解作法](#use-content-templates)
 
 >[!NOTE]
 >
 >* 對內容範本所做的變更不會傳播至行銷活動或歷程，無論其為即時或草稿。
 >
->* 同樣地，當行銷活動或歷程中使用範本時，您對行銷活動和歷程內容所做的任何編輯都不會影響先前使用的內容範本。
+>* 同樣地，當行銷活動或歷程中使用範本時，對行銷活動和歷程內容所做的任何編輯都不會影響先前使用的內容範本。
 
 ## 從頭開始建立範本 {#create-template-from-scratch}
 
 >[!NOTE]
 >
->自2025年3月起，HTML型別內容範本已棄用。 您仍然可以使用先前在[!DNL Journey Optimizer]中建立的現有HTML內容範本。
+>自2025年3月起，不再使用HTML型別的內容範本。 先前在[!DNL Journey Optimizer]中建立的現有HTML內容範本仍可使用。
 
 若要從頭開始建立內容範本，請遵循下列步驟。
 
@@ -58,9 +58,9 @@ ht-degree: 16%
 
 1. 從&#x200B;**[!UICONTROL 標籤]**&#x200B;欄位選取或建立Adobe Experience Platform標籤，將範本分類以改善搜尋。 [了解更多](../start/search-filter-categorize.md#tags)
 
-1. 若要指派自訂或核心資料使用標籤給範本，您可以選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)。
+1. 若要指派自訂或核心資料使用標籤給範本，請選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)。
 
-1. 按一下「建立&#x200B;**&#x200B;**」，並視需要設計您的內容，就像您在歷程或行銷活動中的任何內容所做的一樣 — 根據您選取的頻道。
+1. 按一下「**[!UICONTROL 建立]**」，並視需要設計您的內容，就像根據您選取的管道設計歷程或行銷活動中的任何內容一樣。
 
    ![](assets/content-template-edition.png)
 
@@ -79,7 +79,7 @@ ht-degree: 16%
 
 1. 您可以測試內容。 [了解作法](#test-template)
 
-1. 範本準備就緒後，請按一下[儲存]。**&#x200B;**
+1. 範本準備就緒後，請按一下[儲存]。****
 
 1. 按一下範本名稱旁的箭頭，返回&#x200B;**[!UICONTROL 詳細資料]**&#x200B;畫面。
 
@@ -89,14 +89,9 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->建立電子郵件內容範本時，若要快速套用符合您的品牌和設計的特定樣式，您可以將主題套用至內容。 [了解更多](../email/apply-email-themes.md)
+>建立電子郵件內容範本時，您可以套用主題至內容，快速套用適合您的品牌和設計的特定樣式。 [了解更多](../email/apply-email-themes.md)
 
 ## 將內容儲存為內容範本 {#save-as-template}
-
->[!CONTEXTUALHELP]
->id="ajo_messages_depecrated_inventory"
->title="了解如何移轉訊息"
->abstract="在 2022 年 7 月 25 日，「訊息」選單已消失，現在會直接從歷程編寫訊息。如果您要在歷程中重複使用舊訊息，則需要將它們另存為範本。"
 
 在行銷活動或歷程中設計任何內容時，您可以儲存以供日後重複使用。 請依照下列步驟以執行此操作。
 
@@ -106,7 +101,7 @@ ht-degree: 16%
 
    ![](assets/content-template-button-save.png)
 
-   如果您在[電子郵件Designer](../email/get-started-email-design.md)，您也可以從畫面右上方的&#x200B;**[!UICONTROL 更多]**&#x200B;下拉式清單中選取此選項。
+   如果您在[電子郵件Designer](../email/get-started-email-design.md)，您也可以從畫面右上角的&#x200B;**[!UICONTROL 更多]**&#x200B;下拉式清單中選取此選項。
 
    ![](assets/content-template-more-button-save.png)
 
@@ -120,7 +115,7 @@ ht-degree: 16%
 
 1. 從&#x200B;**標籤**&#x200B;欄位選取或建立Adobe Experience Platform標籤，以將您的範本分類。 [了解更多](../start/search-filter-categorize.md#tags)
 
-1. 若要指派自訂或核心資料使用標籤給範本，您可以選取&#x200B;**[!UICONTROL 管理存取權]**。 [了解更多](../administration/object-based-access.md)。
+1. 若要指派自訂或核心資料使用標籤給範本，請選取&#x200B;**[!UICONTROL 管理存取權]**。 [了解更多](../administration/object-based-access.md)。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
@@ -130,4 +125,5 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->對該新範本所做的任何變更都不會傳播至其來源內容。 同樣地，在該內容中編輯原始內容時，不會修改新範本。
+>對新範本所做的任何變更都不會傳播至其來源的內容。 同樣地，編輯原始內容時，不會修改新範本。
+

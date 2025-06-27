@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 24%
+source-wordcount: '286'
+ht-degree: 25%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 24%
 >[!AVAILABILITY]
 >
 >此功能以私人測試版形式發佈。未來版本將逐步開放所有客戶使用。
->&#x200B;>您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>>您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-「品牌一致性」功能可協助您建立、檢閱及管理符合品牌指引的內容。 它可確保您的電子郵件行銷活動的語調、訊息和視覺身分的一致性，同時在內容上線之前作為品質檢查。
+「品牌一致性」功能可協助您建立、檢閱和管理符合品牌指引的內容。 它可確保您的電子郵件行銷活動的語調、訊息和視覺身分的一致性，同時在內容上線之前作為品質檢查。
 
 ## 透過品牌一致性驗證您的內容 {#validate-content}
 
@@ -50,7 +50,7 @@ ht-degree: 24%
 
 1. 開啟[電子郵件Designer]中的&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;功能表。
 
-   系統會自動根據您的預設品牌評估您的內容。 [瞭解如何指派預設品牌](brands.md)。
+   您的內容會自動根據預設品牌進行評估。 [瞭解如何指派預設品牌](brands.md)。
 
    ![](assets/brand-score-1.png)
 
@@ -60,7 +60,7 @@ ht-degree: 24%
 
 1. 瀏覽&#x200B;**品牌一致性分數** (高、Medium、低)並檢閱詳細的意見反應。
 
-1. 按一下![潛入影像替代文字](assets/do-not-localize/Smock_FullScreen_18_N.svg "全熒幕")圖示，以檢視更多關於您評分的深入分析。
+1. 按一下![全熒幕圖示以取得詳細的深入分析](assets/do-not-localize/Smock_FullScreen_18_N.svg "全熒幕")圖示，以檢視更多有關您評分的深入分析。
 
    ![](assets/brand-score-3.png)
 
