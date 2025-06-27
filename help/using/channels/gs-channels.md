@@ -6,10 +6,10 @@ description: 了解如何使用  [!DNL Adobe Journey Optimizer]  通訊管道
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: f365a5819575990b92ca589557d37c3f274bd4d7
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 96%
+source-wordcount: '418'
+ht-degree: 79%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 在現今多變的行銷格局中，建立持久人際關係及促進參與度的關鍵在於透過各種平台有效觸及客群。本節提供 [!DNL Adobe Journey Optimizer] 中可用通訊管道的完整概觀，協助您了解如何在行銷策略中有效利用每個管道。
 
-Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客群互動。您可以結合傳出訊息傳遞、傳入體驗。
+Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客群互動。您可以結合傳出訊息傳送和傳入體驗。
 
 ## 訊息傳遞的傳出管道 {#outbound-channels}
 
@@ -41,16 +41,16 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 <div align="center"><a href="../direct-mail/get-started-direct-mail.md"><strong>直接郵件</strong></a></div></td>
 </tr></table>
 
-## 傳入體驗 {#inbound-channels}
+## 行動應用程式和網頁體驗 {#inbound-channels}
 
-藉由傳入體驗，客戶就可以開始互動。 範例包括應用程式內傳送訊息和網頁型互動，使用者就可以用自己的方式，與內容互動。在 [!DNL Adobe Journey Optimizer] 中，支援的傳入頻道為：
+透過行動應用程式和網頁傳入體驗，客戶可起始互動。 例如應用程式內訊息和網頁型體驗，使用者可依自己的方式參與內容。 在 [!DNL Adobe Journey Optimizer] 中，支援的傳入頻道為：
 
 * **應用程式內**：與行動或網頁應用程式內的使用者通訊，以提升其體驗。
 * **網頁**：使用網頁型傳訊，與瀏覽網站的使用者互動。
 * **程式碼型體驗**：透過針對不重複參與機會的編碼來實作自訂體驗。
 * **內容卡**：直接在應用程式或網站中分享動態內容，讓使用者持續掌握相關資訊並參與其中。
 
-選取要深入探討頻道，並探索如何在行銷策略中有效加以運用。
+選取管道以深入探討，並探索如何在行銷策略中有效運用這些管道。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../in-app/get-started-in-app.md"><img alt="應用程式內" src="assets/do-not-localize/inapp.jpg"></a>
@@ -70,5 +70,4 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 
 * **歷程**：跨多個接觸點建立順暢的客戶體驗。根據使用者行為與偏好設定將互動自動化，確保通訊及時且相關，引導使用者完成其與品牌的歷程。[了解如何建立和執行歷程](../building-journeys/journey-gs.md)。
 
-* **行銷活動**：部署特定行銷活動，利用指定管道來達成目標。不論是推廣新產品或推動季節性銷售，行銷活動均可讓您針對客群量身打造重點明確的傳訊策略。[了解如何建立及執行行銷活動](../campaigns/get-started-with-campaigns.md)。
-
+* **行銷活動**：部署特定行銷活動，這些行銷活動利用指定管道來達成目標目標。 不論是推廣新產品或推動季節性銷售，行銷活動均可讓您針對客群量身打造重點明確的傳訊策略。[了解如何建立及執行行銷活動](../campaigns/get-started-with-campaigns.md)。
