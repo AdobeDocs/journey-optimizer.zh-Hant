@@ -51,7 +51,7 @@ ht-degree: 17%
 
       在此範例中，訂閱清單名為`daily-email`。 電子郵件地址在`subscribers`對應中定義為金鑰，此對應連結至訂閱清單對應。
 
-      深入瞭解運算式中欄位](expression/field-references.md)的[參考。
+      深入瞭解運算式中欄位[&#128279;](expression/field-references.md)的參考。
 
       ![](assets/message-to-subscribers-uc-2.png)
 
