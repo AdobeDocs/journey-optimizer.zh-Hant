@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 4c78163cfc34937888cd323b461246f5955232bb
+source-git-commit: 416f82a932f0b484d8463ff24090a7061461822f
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '435'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,6 @@ Journey Optimizer可讓您在[!DNL Journey Optimizer]中運用Adobe Experience P
 * **記錄數**&#x200B;在生產資料集中限製為5M，在開發沙箱資料集中限製為1M。
 * **資料使用標籤和強制執行**&#x200B;目前未針對啟用查閱的資料集強制執行。
 * **啟用查閱及用於個人化的資料集不會受到刪除保護**。 您可以自行追蹤用於個人化的資料集，以確保不會刪除或移除這些資料集。
-* **資料使用標籤和強制執行**&#x200B;目前未針對啟用查閱的資料集強制執行。
 
 ## 啟用資料集以進行資料查詢 {#enable}
 
