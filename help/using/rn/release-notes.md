@@ -31,7 +31,7 @@ ht-degree: 66%
 
 在單一歷程中存取歷程內容事件資料的方式不會變更。 在運算式和個人化編輯器中，使用者可以繼續存取透過初始歷程事件傳入的資料。
 
-在本常見問題集](../building-journeys/exp-event-lookup.md#faq-ee)中瞭解更多[。
+在本常見問題集[&#128279;](../building-journeys/exp-event-lookup.md#faq-ee)中瞭解更多。
 
 
 ## 2025年6月發行說明 {#25-6-rn}
