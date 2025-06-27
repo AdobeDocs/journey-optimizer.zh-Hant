@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 445194fcc08efacdbf5f97a425d01229f82d11ea
+source-git-commit: 3eeb84e57af655bef669be8e9fc9ae7a024b1ab0
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 9%
@@ -50,7 +50,7 @@ ht-degree: 9%
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
-您的協調行銷活動現在已建立並顯示在協調行銷活動清單中。 您可以按一下行銷活動畫布中的![行銷活動設定圖示](assets/do-not-localize/campaign-settings.svg)圖示，隨時變更這些屬性。
+您的協調行銷活動現在已建立並顯示在協調行銷活動清單中。 您可以按一下行銷活動畫布中的![行銷活動設定圖示](assets/do-not-localize/campaign-settings.svg)圖示，隨時更新這些屬性。
 
 ## 排程行銷活動 {#schedule}
 
@@ -79,7 +79,7 @@ ht-degree: 9%
 
 若要設定行銷活動排程，請遵循下列步驟：
 
-1. 開啟行銷活動，並儘快按一下&#x200B;**&#x200B;**&#x200B;按鈕。
+1. 開啟行銷活動，並儘快按一下&#x200B;****&#x200B;按鈕。
 
    ![](assets/create-schedule.png)
 
@@ -92,7 +92,7 @@ ht-degree: 9%
    * **[!UICONTROL 日期]**：選取應執行行銷活動的日期。
    * **[!UICONTROL 時間]**：選取行銷活動應執行的特定時間。
 
-   +++
++++
 
    +++每日
 
@@ -106,7 +106,7 @@ ht-degree: 9%
 
    * **[!UICONTROL 開始時間]**：定義行銷活動每天應執行的時間。
 
-   +++
++++
 
    +++一天幾次
 
@@ -115,7 +115,7 @@ ht-degree: 9%
    * **[!UICONTROL 選取的時數]**：選取行銷活動應執行的特定時間，並設定其每日週期（在一週的每一天或某些天執行）。
    * **[!UICONTROL 定期]**：選擇每n分鐘或每小時執行一次行銷活動。 您也可以定義一天內允許執行的時間範圍。
 
-   +++
++++
 
    +++每週
 
@@ -126,7 +126,7 @@ ht-degree: 9%
    * **[!UICONTROL 每日週期]**：選擇一週中的特定日期來執行（例如，每個星期一和星期四）。
    * **[!UICONTROL 開始時間]**：設定行銷活動在選定日期應該執行的時間。
 
-   +++
++++
 
    +++每月
 
@@ -142,7 +142,7 @@ ht-degree: 9%
 
    * **[!UICONTROL 開始時間]**：設定行銷活動應執行的時間。
 
-   +++
++++
 
 1. 使用&#x200B;**[!UICONTROL 有效期間]**&#x200B;設定來定義特定的開始和結束日期，將行銷活動的執行限制在有限的時間範圍內。
 
