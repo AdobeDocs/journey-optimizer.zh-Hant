@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 使用案例、多管道、歷程、事件
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 0a96368f2aefa1ffa6e12d08d679b2d360701127
+source-git-commit: 938f0b0247cc4b9d3e05a234082db534acbbbac5
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -29,7 +29,7 @@ ht-degree: 15%
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="體驗事件查詢最佳實務" src="../assets/do-not-localize/icon-configure.svg" /></a> 
+    <img alt="體驗事件查詢最佳實務" src="../assets/do-not-localize/icon-content.svg" /></a> 
     <br>瞭解常見的模式和可擴充的方法，以協助您充分利用Adobe Journey Optimizer中的體驗事件。 這些使用案例旨在協助您解決經常遇到的挑戰，例如管理選擇退出、控制訊息頻率、根據使用者行為個人化內容以及對即時訊號做出反應。
     </div>
       <div>
@@ -47,7 +47,7 @@ ht-degree: 15%
   <td>
     <div>
     <a href="../data/datasets-query-examples.md">
-    <img alt="查詢範例" src="../assets/do-not-localize/icon-data.svg"/></a> 
+    <img alt="查詢範例" src="../assets/do-not-localize/icon-configure.svg"/></a> 
     <br>若要建置使用案例，您需要查詢Adobe Journey Optimizer資料集，例如用於擷取追蹤體驗事件的系統資料集、用於擷取歷程中步驟事件的資料集、用於擷取優惠方案主張給使用者的資料集等等。
     </div>
       <div>
