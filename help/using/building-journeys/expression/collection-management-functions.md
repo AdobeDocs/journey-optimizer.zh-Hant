@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 查詢，集合，函式，裝載，歷程
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: ca2e30ddb5e80783b57b9f3e0d07ff8d0bc0bbdb
+source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '481'
 ht-degree: 3%
 
 ---
@@ -149,18 +149,9 @@ _`<listExpression>.last(<condition>)`_
 
 結果為`token_2`。
 
->[!NOTE]
->
->體驗事件會以反向時間順序的集合形式從Adobe Experience Platform擷取，因此：
->
->* **[!UICONTROL first]**&#x200B;函式將傳回最近的事件
->* **[!UICONTROL last]**&#x200B;函式將傳回最舊的函式。
-
-
-
 ## at(`<index>`)函式
 
-**[!UICONTROL at]**&#x200B;函式可讓您根據索引來參照集合中的特定專案。
+**[!UICONTROL at]**函式可讓您根據索引來參照集合中的特定專案。
 索引0是集合的第一個索引。
 
 _`<listExpression>`.at(`<index>`)_
