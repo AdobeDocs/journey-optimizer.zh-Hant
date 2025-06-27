@@ -8,16 +8,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 語法，編輯器，歷程
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '249'
 ht-degree: 5%
 
 ---
 
 # 進階運算式編輯器語法 {#syntax}
 
-以下列出使用[進階運算式編輯器](expressionadvanced.md)時的語法基本知識。 在[此頁面](advanced-editor-use-cases.md)上有進階運算式編輯器的使用範例。
+以下列出使用[進階運算式編輯器](expressionadvanced.md)時的語法基本知識。<!-- Samples of use of the advanced expression editor are available on [this page](advanced-editor-use-cases.md).-->
 
 ## 括弧和運算式優先順序 {#parentheses-and-expression-priority}
 

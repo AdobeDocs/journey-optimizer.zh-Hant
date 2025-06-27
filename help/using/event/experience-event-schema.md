@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 結構描述， XDM，平台，串流，擷取，歷程
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d79e42cd42fa8342526e02116f65a8e53449fad5
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 0%
+source-wordcount: '391'
+ht-degree: 1%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 0%
 [!DNL Journey Optimizer]事件是指透過串流擷取傳送至Adobe Experience Platform的XDM體驗事件。
 
 因此，為[!DNL Journey Optimizer]設定事件的重要先決條件是，您熟悉Adobe Experience Platform的體驗資料模型（或XDM）、如何組成XDM體驗事件結構，以及如何將XDM格式的資料串流到Adobe Experience Platform。
+
+
+>[!CAUTION]
+>
+>不再支援歷程條件中的體驗事件查閱。 請在這裡尋找替代最佳實務。 如果您的事件觸發歷程使用案例仍需要體驗事件查閱，且無法透過任何列出的替代方案取得支援，請洽詢您的Adobe代表，我們將協助您達成目標。
+>
+>從歷程的開始事件存取內容不受影響。
 
 ## [!DNL Journey Optimizer]個事件的結構描述需求  {#schema-requirements}
 
@@ -42,7 +49,7 @@ ht-degree: 0%
 
   ![](assets/schema4.png)
 
-* 如果您希望這些資料稍後可在歷程中查詢，請標籤設定檔的結構描述和資料集。
+* 如果您希望此資料可用於設定檔，請標籤設定檔的結構描述和資料集。 [了解更多](../data/lookup-aep-data.md)
 
   ![](assets/schema5.png)
 
@@ -54,81 +61,83 @@ ht-degree: 0%
 
   ![](assets/schema8.png)
 
-## 利用結構描述關係{#leverage_schema_relationships}
+<!--
+## Leverage schema relationships{#leverage_schema_relationships}
 
-Adobe Experience Platform可讓您定義結構描述之間的關係，以便將一個資料集用作另一個資料集的查詢表。
+Adobe Experience Platform allows you to define relationships between schemas in order to use one dataset as a lookup table for another. 
 
-假設您的品牌資料模型有一個結構描述擷取購買。 您也有產品目錄的結構描述。 您可以擷取購買結構描述中的產品ID，並使用關係從產品目錄中查詢更完整的產品詳細資訊。 舉例來說，這可讓您為所有購買筆記型電腦的客戶建立受眾，而不需明確列出所有筆記型電腦ID，或將每個單一產品的詳細資訊擷取到交易系統中。
+Let's say your brand data model has a schema capturing purchases. You also have a schema for the product catalog. You can capture the product ID in the purchase schema and use a relationship to look up more complete product details from the product catalog. This allows you to create an audience for all customers who bought a laptop, for example, without having to explicitly list out all laptop IDs or capture every single product details in transactional systems.
 
-若要定義關係，來源結構描述中需要有專用欄位，在此案例中是購買結構描述中的產品ID欄位。 此欄位需要參考目的地結構描述中的產品ID欄位。 必須為設定檔啟用來源和目的地表格，而且目的地結構描述必須將這個通用欄位定義為其主要身分。
+To define a relationship, you need to have a dedicated field in the source schema, in this case the product ID field in the purchase schema. This field needs to reference the product ID field in the destination schema. The source and destination tables must be enabled for profiles and the destination schema must have that common field defined as its primary identity. 
 
-以下是為設定檔啟用的產品目錄結構描述，其產品ID已定義為主要身分。
+Here is the product catalog schema enabled for profile with the product ID defined as the primary identity. 
 
 ![](assets/schema9.png)
 
-以下是購買結構描述，其關係定義在產品ID欄位上。
+Here is the purchase schema with the relationship defined on the product ID field.
 
 ![](assets/schema10.png)
 
 >[!NOTE]
 >
->在[Experience Platform檔案](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=zh-Hant)中進一步瞭解結構描述關係。
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
-在Journey Optimizer中，您可以善用連結表格中的所有欄位：
+In Journey Optimizer, you can then leverage all the fields from the linked tables:
 
-* 設定商務或單一事件時，[瞭解詳情](../event/experience-event-schema.md#unitary_event_configuration)
-* 在歷程中使用條件時，[瞭解詳情](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* 在訊息個人化中，[瞭解詳情](../event/experience-event-schema.md#message_personalization)
-* 在自訂動作個人化中，[瞭解詳情](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* when configuring a business or unitary event, [Read more](../event/experience-event-schema.md#unitary_event_configuration) 
+* when using conditions in a journey, [Read more](../event/experience-event-schema.md#journey_conditions_using_event_context) 
+* in message personalization, [Read more](../event/experience-event-schema.md#message_personalization) 
+* in custom action personalization, [Read more](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context) 
 
-### 陣列{#relationships_limitations}
+### Arrays{#relationships_limitations}
 
-您可以在字串陣列上定義結構描述關係，例如，產品ID清單。
+You can define a schema relationship on an array of strings, for example, a list of product IDs.
 
 ![](assets/schema15.png)
 
-您也可以與物件陣列內部的屬性定義結構描述關係，例如購買資訊清單（產品ID、產品名稱、價格、折扣）。 查閱值將在歷程（條件、自訂動作等）和個人化訊息中使用。
+You can also define a schema relationship with an attribute inside of an array of objects, for example a list of purchase information (product ID, product name, price, discount). The lookup values will be available in journeys (conditions, custom actions, etc.) and message personalization. 
 
 ![](assets/schema16.png)
 
-### 事件設定{#unitary_event_configuration}
+### Event configuration{#unitary_event_configuration}
 
-連結的結構描述欄位可用於單一和業務事件設定：
+The linked schema fields are available in unitary and business event configuration:
 
-* 瀏覽事件設定畫面中的事件結構欄位時。
-* 定義系統產生事件的條件時。
+* when browsing through the event schema fields in the event configuration screen.
+* when defining a condition for system-generated events.
 
 ![](assets/schema11.png)
 
-連結的欄位無法使用：
+The linked fields are not available:
 
-* 在事件索引鍵公式中
-* 在事件id條件中（規則型事件）
+* in the event key formula
+* in event id condition (rule-based events)
 
-若要瞭解如何設定單一事件，請參閱此[頁面](../event/about-creating.md)。
+To learn how to configure a unitary event, refer to this [page](../event/about-creating.md).
 
-### 使用事件內容的歷程條件{#journey_conditions_using_event_context}
+### Journey conditions using event context{#journey_conditions_using_event_context}
 
-您可以使用查詢表格中的資料，連結至用於條件建置之歷程中的事件（運算式編輯器）。
+You can use data from a lookup table linked to an event used in a journey for condition building (expression editor).
 
-在歷程中新增條件、編輯運算式，並在運算式編輯器中展開事件節點。
+Add a condition in a journey, edit the expression and unfold the event node in the expression editor. 
 
 ![](assets/schema12.png)
 
-若要瞭解如何定義歷程條件，請參閱此[頁面](../building-journeys/condition-activity.md)。
+To learn how to define journey conditions, refer to this [page](../building-journeys/condition-activity.md).
 
-### 訊息個人化{#message_personalization}
+### Message personalization{#message_personalization}
 
-個人化訊息時，可使用連結的欄位。 相關欄位會顯示在從歷程傳遞至訊息的內容中。
+The linked fields are available when personalizing a message. The related fields are displayed in the context passed from the journey to the message.
 
 ![](assets/schema14.png)
 
-若要瞭解如何使用內容歷程資訊個人化訊息，請參閱此[頁面](../personalization/personalization-use-case.md)。
+To learn how to personalize a message with contextual journey information, refer to this [page](../personalization/personalization-use-case.md).
 
-### 使用歷程事件內容進行自訂動作個人化{#custom_action_personalization_with_journey_event_context}
+### Custom action personalization with journey event context{#custom_action_personalization_with_journey_event_context}
 
-設定歷程自訂動作活動的動作引數時，可使用連結的欄位。
+The linked fields are available when configuring the action parameters of a journey custom action activity. 
 
 ![](assets/schema13.png)
 
-若要瞭解如何使用自訂動作，請參閱此[頁面](../building-journeys/using-custom-actions.md)。
+To learn how to use custom actions, refer to this [page](../building-journeys/using-custom-actions.md).
+-->

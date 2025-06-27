@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 62%
+source-wordcount: '956'
+ht-degree: 68%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 62%
 
 >[!NOTE]
 >
-> Adobe Journey Optimizer以Adobe Experience Platform為基礎，以原生方式連線至[Adobe即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}。 此內建資料來源已預先設定，且設計旨在從即時客戶輪廓擷取並使用資料 (例如，檢查進入歷程的人員是否為客戶)。 其可讓您使用個人檔資料與體驗事件資料。 [了解更多](../datasource/adobe-experience-platform-data-source.md)。
+> Adobe Journey Optimizer以Adobe Experience Platform為基礎，以原生方式連線至[Adobe即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}。 此內建資料來源已預先設定，且設計旨在從即時客戶輪廓擷取並使用資料 (例如，檢查進入歷程的人員是否為客戶)。 它可讓您使用設定檔資料。 [了解更多](../datasource/adobe-experience-platform-data-source.md)。
 
 
 ## Adobe Customer Journey Analytics {#integration-cja}
@@ -63,7 +63,7 @@ With Adobe Journey Optimizer, you can create custom-tailored messages through Ad
 
 >[!TAB AEM片段]
 
-將Adobe Experience Manager與Adobe Journey Optimizer整合後，您現在可以將AEM內容片段順暢地整合至Journey Optimizer電子郵件內容。 此簡化的連線可簡化存取及運用AEM內容的程式，讓您建立個人化和動態的行銷活動和歷程。
+將Adobe Experience Manager與Adobe Journey Optimizer整合後，您現在可以將AEM內容片段順暢地整合至Journey Optimizer電子郵件內容。 已簡化的連線可以簡化存取，並運用 AEM 內容的程式，讓您建立個人化的動態行銷活動和歷程。
 
 [![了解更多](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-fragments.md)
 
@@ -86,7 +86,7 @@ With Adobe Journey Optimizer, you can create custom-tailored messages through Ad
 
 ## Adobe Express {#express}
 
-Adobe Journey Optimizer中的Adobe Express整合可讓您在建立內容時輕鬆存取Adobe Express強大的編輯工具。 此整合可讓您調整影像大小、移除背景、裁切視覺效果，以及將資產轉換為JPEG或PNG，而不需要在解決方案之間切換。
+Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容時，輕鬆存取 Adobe Express 強大的編輯工具。 此整合功能讓您可以調整影像大小、移除背景、裁切視覺效果，並將資產轉換成 JPEG 或 PNG 格式，就不必在不同解決方案之間切換。
 
 深入瞭解[Journey Optimizer + Adobe Express](../integrations/express.md)。
 
@@ -123,7 +123,7 @@ Customer AI 可讓品牌建立流失率或轉換機器學習型分數，這些�
 
 此部落格[提供這項整合的關鍵步驟概述](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}。
 
-在Journey Optimizer檔案[&#128279;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hant){target="_blank"}中進一步瞭解Adobe Workfront + Adobe Workfront 。
+在Journey Optimizer檔案](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hant){target="_blank"}中進一步瞭解Adobe Workfront + Adobe Workfront [。
 
 ## 自訂通道 {#integration-custom}
 

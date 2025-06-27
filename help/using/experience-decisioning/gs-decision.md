@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: a9dc2998097c45bd6235af3f5c08bc7077dc3f2f
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '285'
 ht-degree: 20%
 
 ---
@@ -31,12 +31,12 @@ ht-degree: 20%
 
 我們新一代的決策架構，專門整合現有的Journey Optimizer工作流程，為管理其他內容目錄奠定基礎。 決策選件：
 
-* 結構描述型專案目錄管理：將自訂中繼資料與每個優惠方案建立關聯，以提高彈性。
-* 彈性的收集規則：根據各種條件輕鬆將優惠方案分組，以供日後評估。
-* 更新決定原則和選擇策略設定：允許決定元件重複使用。
-* 實驗功能：針對其他內容元件測試決策邏輯以測量效能。
+* 結構描述型專案目錄管理：將自訂中繼資料與每個優惠方案建立關聯，以提高彈性
+* 彈性的收集規則：根據各種條件輕鬆將優惠方案分組，以供日後評估
+* 更新決定原則和選擇策略設定：允許決定元件重複使用
+* 實驗功能：針對其他內容元件測試決策邏輯以測量效能
 
-目前，程式碼型Experience Channel支援Experience Decisioning。
+程式碼型Experience Channel支援Experience Decisioning。
 
 ➡️ [開始使用決策](../experience-decisioning/gs-experience-decisioning.md)
 

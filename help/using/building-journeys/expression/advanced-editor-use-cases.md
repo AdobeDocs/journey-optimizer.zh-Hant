@@ -6,25 +6,36 @@ description: 瞭解如何建立進階運算式
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
+hide: true
+hidefromtoc: true
 keywords: 運算式、條件、使用案例、事件
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 1%
+source-wordcount: '545'
+ht-degree: 2%
 
 ---
 
+
 # 進階運算式範例{#advanced-expression-examples}
 
-進階運算式編輯器可用來建立條件，以允許您篩選歷程中的使用者。 這些條件能讓您鎖定時間、日期、位置、持續時間或動作（例如購買或放棄購物車）的使用者，以便在歷程中重新鎖定他們。
+進階運算式編輯器可用來建立條件，以允許您篩選歷程中的使用者。 這些條件可讓您定位準時、日期、位置、持續時間的使用者，以便在歷程中重新定位他們。
 
 >[!CAUTION]
 >
->支援在歷程運算式/條件中使用體驗事件，但不建議使用。 如果您的使用案例需要使用體驗事件，請考慮替代方法，例如[計算屬性](../../audience/computed-attributes.md)，或使用事件建立區段並將該區段合併到[`inAudience`運算式](../../building-journeys/functions/functioninaudience.md)中。
+>不支援在歷程運算式/條件中使用體驗事件。 如果您的使用案例需要使用體驗事件，請考慮替代方法。 [了解更多](../exp-event-lookup.md)
 
 
 ## 在體驗事件上建立條件
+
+
+>[!CAUTION]
+>
+>不支援在歷程運算式/條件中使用體驗事件。 如果您的使用案例需要使用體驗事件，請考慮替代方法。 [了解更多](../exp-event-lookup.md)
+>
+
+
 
 進階運算式編輯器必須對時間序列執行查詢，例如購買清單或訊息的過去點按。 無法使用簡單編輯器執行此類查詢。
 
@@ -43,9 +54,9 @@ ht-degree: 1%
 
 首先，鎖定瀏覽過線上商店但在過去7天內未完成訂單的客戶。
 
-<!--**This expression looks for a specified value in a string value:**
+**此運算式在字串值中尋找指定的值：**
 
-`In ("addToCart", #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`
 
 **此運算式會尋找此使用者在過去7天中指定的所有事件：**
 
@@ -151,5 +162,6 @@ substr(
 ```
 
 說明：此範例使用`substr`和`lastIndexOf`函式，移除在行動應用程式啟動事件中傳遞之CRM ID所括的大括弧。
+
 
 如需如何使用進階運算式編輯器的詳細資訊，請觀看[此影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=zh-Hant)。

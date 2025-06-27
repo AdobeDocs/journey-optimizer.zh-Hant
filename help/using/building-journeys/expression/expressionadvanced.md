@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 運算式編輯器，資料，歷程
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: b69023669b6ca59ea5980b1a671a90c41eb665fb
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 57%
+source-wordcount: '711'
+ht-degree: 55%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 57%
 ![](../assets/journey65.png)
 
 
-進階運算式編輯器提供一組內建函式和運算子，讓您得以控制值並定義特別符合您需求的運算式。進階運算式編輯器也可讓您定義外部資料來源參數的值、控制對應欄位和集合，例如體驗事件。
+進階運算式編輯器提供一組內建函式和運算子，讓您得以控制值並定義特別符合您需求的運算式。進階運算式編輯器也可讓您定義外部資料來源引數的值、控制對應欄位和集合。
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ ht-degree: 57%
 
   >[!CAUTION]
   >
-  >支援在歷程運算式/條件中使用體驗事件，但不建議使用。 如果您的使用案例需要使用體驗事件，請考慮替代方法，例如[計算屬性](../../audience/computed-attributes.md)，或使用事件建立區段並將該區段合併到[`inAudience`運算式](../../building-journeys/functions/functioninaudience.md)中。
+  >不支援使用體驗事件建立運算式。 使用體驗事件建立運算式/邏輯的替代方法和最佳實務已參考[這裡](../../building-journeys/exp-event-lookup.md)
 
 * **[!UICONTROL 對象]**：如果您已卸除&#x200B;**[!UICONTROL 對象資格]**&#x200B;事件，請選擇您要在運算式中使用的對象。 [閱讀全文](../condition-activity.md#using-a-segment)
 * **[!UICONTROL 資料來源]**：從資料來源欄位群組中的可用欄位清單中選擇。 [閱讀全文](../../datasource/about-data-sources.md)
