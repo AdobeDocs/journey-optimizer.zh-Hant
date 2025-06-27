@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 使用案例、多管道、歷程、事件
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 4a14c76aeceba624cd252890e37ccf3e42049597
+source-git-commit: 0a96368f2aefa1ffa6e12d08d679b2d360701127
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -47,7 +47,7 @@ ht-degree: 15%
   <td>
     <div>
     <a href="../data/datasets-query-examples.md">
-    <img alt="查詢範例" src="../assets/do-not-localize/icon-data.svg" width="35px" /></a> 
+    <img alt="查詢範例" src="../assets/do-not-localize/icon-data.svg"/></a> 
     <br>若要建置使用案例，您需要查詢Adobe Journey Optimizer資料集，例如用於擷取追蹤體驗事件的系統資料集、用於擷取歷程中步驟事件的資料集、用於擷取優惠方案主張給使用者的資料集等等。
     </div>
       <div>
