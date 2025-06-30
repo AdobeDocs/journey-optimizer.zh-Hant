@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
+source-git-commit: 62f16b6f582e6bf5620b75df4a75d4c15441ca4a
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 34%
+source-wordcount: '421'
+ht-degree: 24%
 
 ---
 
@@ -19,7 +19,14 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="建置客群活動"
->abstract="**建置客群**&#x200B;活動讓您可以定義會進入協調的行銷活動的客群。在協調的行銷活動中傳送訊息時，不會在管道活動中定義訊息客群，而是在&#x200B;**建置客群**&#x200B;活動中定義。"
+>abstract="**建置客群**&#x200B;活動讓您可以定義會進入協調的行銷活動的客群。在協調的行銷活動內容中傳送訊息時，訊息對象未定義於頻道活動中，而是定義於&#x200B;**建立對象**&#x200B;活動中。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_read_audience"
+>title="建置客群活動"
+>abstract="**讀取對象**&#x200B;活動可讓您選取將進入協調行銷活動的現有對象。 在協調的行銷活動內容中傳送訊息時，訊息對象未定義於頻道活動中，而是定義於&#x200B;**讀取對象**&#x200B;或&#x200B;**建置對象**&#x200B;活動中。"
+
 
 +++ 目錄
 
