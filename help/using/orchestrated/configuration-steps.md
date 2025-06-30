@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 4cc571b306058dc58454e488ba53bb69117a8b27
+source-git-commit: 4b4363bf89f80ee9203989f1ba66a8062dfd2719
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 3%
@@ -37,6 +37,8 @@ ht-degree: 3%
 本指南會逐步引導您建立關聯式結構、設定用於協調行銷活動的資料集、透過S3來源擷取資料，以及在AP平台中查詢擷取的資料。
 
 在此範例中，設定包含整合兩個關鍵實體，**忠誠度交易**&#x200B;和&#x200B;**忠誠度獎勵**，並將它們連結到現有的核心實體&#x200B;**收件者**&#x200B;和&#x200B;**品牌**。
+
+![](assets/do-not-localize/schema_admin.png)
 
 1. [上傳DDL檔案](#upload-ddl)
 
@@ -155,7 +157,7 @@ ht-degree: 3%
 
    ![](assets/schema_2.png)
 
-1. 輸入來自目前結構描述&#x200B;**的**&#x200B;[!UICONTROL &#x200B;關聯性名稱以及來自參考結構描述&#x200B;]&#x200B;**的**&#x200B;關聯性名稱。
+1. 輸入來自目前結構描述&#x200B;]**的**[!UICONTROL &#x200B;關聯性名稱以及來自參考結構描述&#x200B;]**的**[!UICONTROL &#x200B;關聯性名稱。
 
 1. 按一下&#x200B;**[!UICONTROL 套用]**&#x200B;以儲存變更。
 
@@ -179,7 +181,7 @@ Adobe Experience Platform可讓您從外部來源擷取資料，同時使用Expe
 
    * 使用新帳戶
 
-   [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -193,7 +195,7 @@ Adobe Experience Platform可讓您從外部來源擷取資料，同時使用Expe
 
    ![](assets/S3_config_2.png)
 
-1. 選擇您的資料夾&#x200B;**[!UICONTROL 資料格式]**、**[!UICONTROL 分隔符號]**&#x200B;和&#x200B;**[!UICONTROL 壓縮型別]**。 檢閱您的範例資料是否準確，然後按[下一步] **&#x200B;**。
+1. 選擇您的資料夾&#x200B;**[!UICONTROL 資料格式]**、**[!UICONTROL 分隔符號]**&#x200B;和&#x200B;**[!UICONTROL 壓縮型別]**。 檢閱您的範例資料是否準確，然後按[下一步] ****。
 
    ![](assets/S3_config_1.png)
 
