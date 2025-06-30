@@ -6,9 +6,9 @@ description: 瞭解如何使用Adobe Journey Optimizer開始及監控協調的�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 02270bddf988e8a722e78d0b63fe157c74b586e4
+source-git-commit: 1c11521ab9f8df9a7147565ddd274f341c56cbdf
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '670'
 ht-degree: 6%
 
 ---
@@ -74,13 +74,6 @@ Journey Optimizer可讓您在投入使用前測試協調的行銷活動。 在�
 執行時（在測試或即時模式下），視覺流量會顯示設定檔如何即時在歷程中移動。 畫面上會顯示任務之間轉換的設定檔數目。
 
 ![](assets/workflow-execution.png){zoomable="yes"}
-
-1. 選取轉變。
-1. 在右側面板中：
-&#x200B;- 按一下&#x200B;**[!UICONTROL 預覽結構描述]**&#x200B;以檢視工作表結構描述。
-&#x200B;- 按一下&#x200B;**[!UICONTROL 預覽結果]**&#x200B;以檢視傳輸的資料。
-
-![](assets/transition.png){zoomable="yes"}
 
 透過轉換從一個活動傳輸到另一個活動的資料會儲存在暫時工作表中。 此資料可針對每個轉變顯示。 若要檢查在活動之間傳遞的資料：
 
