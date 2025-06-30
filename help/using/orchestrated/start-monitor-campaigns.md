@@ -77,8 +77,8 @@ Journey Optimizer可讓您在投入使用前測試協調的行銷活動。 在�
 
 1. 選取轉變。
 1. 在右側面板中：
-- 按一下&#x200B;**[!UICONTROL 預覽結構描述]**&#x200B;以檢視工作表結構描述。
-- 按一下&#x200B;**[!UICONTROL 預覽結果]**&#x200B;以檢視傳輸的資料。
+&#x200B;- 按一下&#x200B;**[!UICONTROL 預覽結構描述]**&#x200B;以檢視工作表結構描述。
+&#x200B;- 按一下&#x200B;**[!UICONTROL 預覽結果]**&#x200B;以檢視傳輸的資料。
 
 ![](assets/transition.png){zoomable="yes"}
 
