@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 6059de3366743ac6f5971a6113f3bec0f1e6fb32
+source-git-commit: d8128190a51cac665c9f25b5077185a496ad7849
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '896'
 ht-degree: 21%
 
 ---
@@ -83,7 +83,7 @@ UNUSED IDs in BJ
 
 若要在協調的行銷活動內容中設定傳送，請遵循下列步驟：
 
-1. 新增頻道活動： **[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**、**[!UICONTROL 推播通知(Android)]**、**[!UICONTROL 推播通知(iOS)]**&#x200B;或&#x200B;**[!UICONTROL 直接郵件]**。
+1. 新增管道活動。 支援的頻道為&#x200B;**[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**&#x200B;或&#x200B;**[!UICONTROL 推播通知]**
 
 1. 選取&#x200B;**傳遞型別**：單一或循環。
 
