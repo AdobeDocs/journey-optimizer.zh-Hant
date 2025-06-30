@@ -6,10 +6,10 @@ description: 瞭解如何在協調的行銷活動中使用讀取對象活動
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: d0ac966780349ab10c47dd9ea915ca4f5964e938
+source-git-commit: 64f886e733c0bf6ff8fd258fc24310a04397ba55
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 11%
+source-wordcount: '164'
+ht-degree: 10%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_read_audience"
 >title="建置客群活動"
->abstract="**讀取對象**&#x200B;活動可讓您選取將進入協調行銷活動的現有對象。 在協調的行銷活動內容中傳送訊息時，訊息對象未定義於頻道活動中，而是定義於&#x200B;**讀取對象**&#x200B;或&#x200B;**建置對象**&#x200B;活動中。"
+>abstract="**讀取對象**&#x200B;活動可讓您選取將進入協調行銷活動的對象。 此受眾可以是現有Adobe Experience Platform受眾或從CSV檔案提取的受眾。 在協調的行銷活動內容中傳送訊息時，訊息對象未定義於頻道活動中，而是定義於&#x200B;**讀取對象**&#x200B;或&#x200B;**建置對象**&#x200B;活動中。"
 
 
 +++ 目錄
