@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
+source-git-commit: 6059de3366743ac6f5971a6113f3bec0f1e6fb32
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 45%
+source-wordcount: '899'
+ht-degree: 21%
 
 ---
 
@@ -47,27 +47,39 @@ Adobe Journey Optimizer可讓您跨傳入和傳出頻道自動執行行銷活動
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="電子郵件活動"
->abstract="電子郵件活動讓您可以在多步驟行銷活動中傳送電子郵件，單次訊息和定期訊息兩者均適用。此活動可用來自動化在相同多步驟行銷活動內傳送電子郵件至所計算之目標的流程。您可以將管道活動結合至多步驟行銷活動畫布中，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
+>abstract="電子郵件活動可讓您在協調的行銷活動中傳送電子郵件，包括一次性訊息和循環訊息。 它有助於將傳送電子郵件至目標的程式自動化，並在相同協調的行銷活動中計算。 您可以將管道活動結合至多步驟行銷活動畫布中，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="簡訊活動"
->abstract="簡訊活動讓您可以在多步驟行銷活動中傳送簡訊，單次訊息和定期訊息兩者均適用。此活動可用來自動化在相同多步驟行銷活動內傳送簡訊至所計算之目標的流程。您可以將管道活動結合至多步驟行銷活動畫布中，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
+>abstract="SMS活動可讓您在協調的行銷活動中針對單次和循環訊息傳送SMS。 它有助於自動處理傳送SMS至在相同協調行銷活動中計算的目標。 您可以將管道活動結合至多步驟行銷活動畫布中，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_push"
+>title="推播活動"
+>abstract="推播活動可讓您在協調的行銷活動中傳送推播通知。 它可啟用一次性與循環協調行銷活動的傳送，將傳送推播通知自動傳送到相同協調行銷活動內預先定義的目標。 您可以將頻道活動結合到行銷活動畫布中，以建立跨頻道行銷活動，其可根據客戶行為和資料觸發動作。"
+
+
+<!--
+UNUSED IDs in BJ
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
->title="推播 iOS 活動"
->abstract="推播 iOS 活動可讓您傳送 iOS 推播通知作為多步驟行銷活動的一部分。此活動可以傳送單次和定期的多步驟行銷活動，自動將 iOS 推播通知傳送至相同工作流程中的預先定義目標。您可以將管道活動組合到工作流程畫布中，建立可根據客戶行為和資料觸發動作的跨管道工作流程。"
+>title="Push iOS activity"
+>abstract="The Push iOS activity let you send iOS Push notifications as part of your orchestrated campaign. It enables the delivery of both one-time and recurring orchestrated campaigns, automating the sending iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
->title="推播 Android 活動"
->abstract="推播 Android 活動可讓您傳送 Android 推播通知作為多步驟行銷活動的一部分。此活動可以傳送單次和定期的訊息，自動將 Android 推播通知傳送到相同多步驟行銷活動中的預先定義目標。您可以將管道活動結合至多步驟行銷活動畫布中，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
+>title="Push Android activity"
+>abstract="The Push Android activity ket you send Android Push notifications as part of your orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending Android Push notifications to a predefined target within the same orchestrated campaign. You can combine channel activities into the orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+
+-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="直接郵件活動"
->abstract="直接郵件活動有助於在多步驟行銷活動中傳送直接郵件，單次訊息和定期訊息兩者均適用。此類活動可用於將直接郵件提供者所需之摘取檔案產生流程自動化。您可以將管道活動結合至多步驟行銷活動畫布中，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
+>abstract="直接郵件活動可促進在協調的行銷活動中進行直接郵件傳送，無論是單次還是循環訊息。 此類活動可用於將直接郵件提供者所需之摘取檔案產生流程自動化。您可以將頻道活動結合到協調的行銷活動畫布中，以建立跨頻道行銷活動，其可根據客戶行為和資料觸發動作。"
 
 若要在協調的行銷活動內容中設定傳送，請遵循下列步驟：
 
@@ -86,7 +98,7 @@ Adobe Journey Optimizer可讓您跨傳入和傳出頻道自動執行行銷活動
 
 1. 按一下「**[!UICONTROL 建立傳遞]**」。然後，您可以像建立獨立傳送一樣定義訊息設定和內容。 您也可以測試和模擬內容。
 
-1. 導覽回您的工作流程。 如果要繼續工作流程，請切換&#x200B;**[!UICONTROL 產生出站轉變]**&#x200B;選項，以在頻道活動後新增轉變。
+1. 導覽回您協調的行銷活動。 如果要繼續您的協調行銷活動，請切換&#x200B;**[!UICONTROL 產生外站轉變]**&#x200B;選項，以在頻道活動後新增轉變。
 
 1. 按一下&#x200B;**[!UICONTROL 開始]**&#x200B;以啟動您的協調行銷活動。
 
