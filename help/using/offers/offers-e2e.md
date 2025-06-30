@@ -1,14 +1,15 @@
 ---
 title: 在電子郵件中使用個人化優惠
 description: 探索端對端範例，以說明設定產品建議並將其用於電子郵件所需的所有步驟。
+badge: label="舊版" type="Informative"
 feature: Decision Management, Email
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1101'
 ht-degree: 4%
 
 ---
@@ -110,7 +111,7 @@ ht-degree: 4%
    >
    >在此範例中，我們將僅使用優先順序分數。 深入瞭解[適用性規則和限制](../../using/offers/offer-library/creating-personalized-offers.md#eligibility)。
 
-## 設定優惠方案 {#configure-offers}
+## 設定優惠 {#configure-offers}
 
 您現在可以建立和設定優惠方案。 在此範例中，您將根據每個特定設定檔建立四個要顯示的選件。
 
@@ -167,7 +168,7 @@ ht-degree: 4%
 
    ![](assets/offers-e2e-fallback-representations.png)
 
-1. 檢閱您的遞補優惠，然後按一下[儲存並核准]。**&#x200B;**
+1. 檢閱您的遞補優惠，然後按一下[儲存並核准]。****
 
 ![](assets/offers-e2e-fallback.png)
 

@@ -1,14 +1,15 @@
 ---
 title: 優惠資料庫使用者介面
 description: 進一步瞭解優惠資料庫使用者介面
+badge: label="舊版" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '637'
 ht-degree: 33%
 
 ---
@@ -82,10 +83,10 @@ ht-degree: 33%
 
 ![](../assets/information-pane.png)
 
-優惠與決定清單還可讓您對多個元素執行批量動作。若要這麼做，請選取所要的優惠或決定，然後從資訊窗格中選取您要執行的動作。
+產品建議與決定清單還可讓您對多個元素執行批量動作。若要這麼做，請選取所要的產品建議或決定，然後從資訊窗格中選取您要執行的動作。
 
-請注意，您也可以複製現有優惠或決定，以建立具有&#x200B;**[!UICONTROL 草稿]**&#x200B;狀態的復本。 您可以從資訊窗格或優惠或決定的詳細檢視來執行此動作。
+請注意，您也可以複製現有優惠或決定，以建立具有&#x200B;**[!UICONTROL 草稿]**&#x200B;狀態的復本。 您可以從資訊窗格或產品建議或決定的詳細檢視來執行此動作。
 
-## 優惠和決定變更記錄 {#changes-logs}
+## 產品建議和決定變更記錄 {#changes-logs}
 
 [!DNL Journey Optimizer]可讓您以視覺效果呈現對優惠或決定所做的所有變更。 若要這麼做，請從左側功能表存取&#x200B;**[!UICONTROL 稽核]**&#x200B;功能表。 [瞭解如何稽核資源上的動作](../../privacy/audit-logs.md)

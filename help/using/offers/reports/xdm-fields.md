@@ -1,14 +1,15 @@
 ---
 title: 存取事件 XDM 欄位
-description: 進一步瞭解 DecisioningEvents XDM 架構。
+description: 進一步瞭解 DecisioningEvents XDM 結構描述。
+badge: label="舊版" type="Informative"
 feature: Decision Management, Datasets
 role: User, Data Engineer
 level: Intermediate
 exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 64%
+source-wordcount: '96'
+ht-degree: 63%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 64%
 
 ![](../assets/schema-fields.png)
 
-有關如何使用 XDM 架構和欄位的詳細資訊，請參閱體驗資料模型文件：
+有關如何使用 XDM 結構描述和欄位的詳細資訊，請參閱體驗資料模型文件：
 
-* [XDM 系統概覽](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)
+* [XDM 系統概觀](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)
 * [探索 XDM 資源](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/explore.html?lang=zh-Hant)

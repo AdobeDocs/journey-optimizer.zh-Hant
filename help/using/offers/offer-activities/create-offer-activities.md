@@ -1,12 +1,13 @@
 ---
 title: 建立決定
 description: 瞭解如何建立決定
+badge: label="舊版" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 8%
@@ -17,7 +18,7 @@ ht-degree: 8%
 
 決定是優惠的容器，可運用優惠決定引擎，根據傳遞的目標來挑選最佳優惠。
 
-➡️[在此影片中瞭解如何建立優惠方案活動](#video)
+➡️ [在此影片中瞭解如何建立優惠方案活動](#video)
 
 決定清單可在&#x200B;**[!UICONTROL 優惠]**&#x200B;功能表> **[!UICONTROL 決定]**&#x200B;標籤中存取。 篩選器可協助您根據其狀態或開始和結束日期擷取決策。
 
@@ -25,7 +26,7 @@ ht-degree: 8%
 
 建立決定之前，請確定已在優惠資料庫中建立下列元件：
 
-* [版位](../offer-library/creating-placements.md)
+* [位置](../offer-library/creating-placements.md)
 * [集合](../offer-library/creating-collections.md)
 * [個人化產品建議](../offer-library/creating-personalized-offers.md)
 * [後備產品建議](../offer-library/creating-fallback-offers.md)
@@ -41,7 +42,7 @@ ht-degree: 8%
 
 1. 指定決定的名稱。
 
-1. 視需要定義開始和結束日期及時間，然後按一下[下一步] **&#x200B;**。
+1. 視需要定義開始和結束日期及時間，然後按一下[下一步] ****。
 
    ![](../assets/activities-name.png)
 
@@ -78,7 +79,7 @@ ht-degree: 8%
    >
    >至少需要一個評估准則。
 
-1. 選取包含要考量之優惠方案的優惠方案集合，然後按一下[新增]。**&#x200B;**
+1. 選取包含要考量之優惠方案的優惠方案集合，然後按一下[新增]。****
 
    ![](../assets/activities-collection.png)
 
@@ -126,7 +127,7 @@ ht-degree: 8%
 
    * 如果您想要使用特定的計算分數來選擇要傳遞的合格優惠方案，請選取&#x200B;**[!UICONTROL 公式]**&#x200B;或&#x200B;**[!UICONTROL AI模型]**。 [了解更多](../offer-activities/configure-offer-selection.md)。
 
-1. 按一下[新增]&#x200B;**&#x200B;**&#x200B;為相同位置定義更多條件。
+1. 按一下[新增]****&#x200B;為相同位置定義更多條件。
 
    ![](../assets/activity_add-collection.png)
 

@@ -1,14 +1,15 @@
 ---
 title: 建立集合
 description: 瞭解如何使用集合來組織優惠方案
+badge: label="舊版" type="Informative"
 feature: Decision Management, Collections
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 31%
 
 ---
@@ -62,7 +63,7 @@ ht-degree: 31%
 
    ![](../assets/collection_create.png)
 
-1. 若要建立動態集合，請使用左窗格選取要新增至集合之優惠方案的集合限定詞，然後按一下[儲存]。**&#x200B;** 所有具有所選集合限定詞的優惠方案都會儲存在集合中。
+1. 若要建立動態集合，請使用左窗格選取要新增至集合之優惠方案的集合限定詞，然後按一下[儲存]。**** 所有具有所選集合限定詞的優惠方案都會儲存在集合中。
 
    如需集合限定詞建立的詳細資訊，請參閱[建立集合限定詞](../offer-library/creating-tags.md)。
 

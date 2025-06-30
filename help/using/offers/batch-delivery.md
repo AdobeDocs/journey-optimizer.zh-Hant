@@ -1,13 +1,14 @@
 ---
 title: 批次決策
 description: 瞭解如何將優惠決定傳遞至特定Adobe Experience Platform對象中的所有設定檔。
+badge: label="舊版" type="Informative"
 feature: Decision Management
 role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '842'
 ht-degree: 5%
 
 ---
@@ -28,7 +29,7 @@ Journey Optimizer可讓您將優惠決定傳送給特定Adobe Experience Platfor
 
 * Adobe Experience Platform中的&#x200B;**資料集**。 此資料集將用於儲存使用「ODE DecisionEvents」結構描述的決策結果。 進一步瞭解[資料集檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant)。
 
-* Adobe Experience Platform中的&#x200B;**對象**。 應評估對象並加以更新。 在[Segmentation Service檔案](https://www.adobe.com/go/segmentation-overview-en_tw)中瞭解如何更新對象成員資格評估
+* Adobe Experience Platform中的&#x200B;**對象**。 應評估對象並加以更新。 在[Segmentation Service檔案](https://www.adobe.com/go/segmentation-overview-en)中瞭解如何更新對象成員資格評估
 
   >[!NOTE]
   >
@@ -52,7 +53,7 @@ Journey Optimizer可讓您將優惠決定傳送給特定Adobe Experience Platfor
 
 1. 選取您要用來將優惠傳送給對象的一或多個優惠決定範圍：
    1. 從清單中選取位置。
-   1. 所選位置可用的決定會顯示出來。 選取您選擇的決定並按一下[新增]。**&#x200B;**
+   1. 所選位置可用的決定會顯示出來。 選取您選擇的決定並按一下[新增]。****
    1. 重複此作業，視需要新增儘可能多的決定範圍。
 
    ![](assets/batch-decision.png)
@@ -100,7 +101,7 @@ Journey Optimizer可讓您將優惠決定傳送給特定Adobe Experience Platfor
 
 已為合格優惠方案啟用頻率上限：
 
-| 客群規模 | 端對端處理時間 |
+| 對象規模 | 端對端處理時間 |
 |--------------|----------------------------|
 | 1萬個以下的設定檔 | 7 分鐘 |
 | 100萬個以下的設定檔 | 30 分鐘 |
@@ -108,7 +109,7 @@ Journey Optimizer可讓您將優惠決定傳送給特定Adobe Experience Platfor
 
 符合資格的優惠方案沒有頻率上限：
 
-| 客群規模 | 端對端處理時間 |
+| 對象規模 | 端對端處理時間 |
 |--------------|----------------------------|
 | 1萬個以下的設定檔 | 6 分鐘 |
 | 100萬個以下的設定檔 | 8 分鐘 |

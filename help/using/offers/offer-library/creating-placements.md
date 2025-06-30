@@ -1,12 +1,13 @@
 ---
 title: 建立版位
 description: 瞭解如何建立優惠方案的版位
+badge: label="舊版" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 31%
@@ -32,9 +33,9 @@ ht-degree: 31%
 
 版位有助於確保正確的選件內容顯示在訊息的正確位置。 將內容新增至產品建議時，系統會要求您選取可顯示該內容的版位。
 
-➡️[在此影片中瞭解如何建立刊登版位](#video)
+➡️ [在此影片中瞭解如何建立刊登版位](#video)
 
-在下列範例中，有三個版位，分別對應不同的內容型別(影像、文字、HTML)。
+在下列範例中，有三個版位，分別對應至不同型別的內容(影像、文字、HTML)。
 
 ![](../assets/offers_placement_schema.png)
 
@@ -67,11 +68,11 @@ ht-degree: 31%
 
    * **[!UICONTROL 包含內容]** / **[!UICONTROL 包含中繼資料]**：指定是否應該在API回應中傳回選件的內容和中繼資料。 您可以選擇包含所有中繼資料或僅包含特定欄位。「包含中繼資料」的值預設為 true。
 
-   如果您使用[決策API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html?lang=zh-Hant)，也可以將這些引數直接設定到您的API要求中。 不過，在使用者介面中設定這些變數有助於節省時間，因為您不需要在每個API要求中傳遞這些變數。 請注意，如果您同時在使用者介面和API要求中設定引數，來自API要求的值將會優先於來自介面的值。
+   如果您使用[決策API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html)，也可以將這些引數直接設定到您的API要求中。 不過，在使用者介面中設定這些變數有助於節省時間，因為您不需要在每個API要求中傳遞這些變數。 請注意，如果您同時在使用者介面和API要求中設定引數，來自API要求的值將會優先於來自介面的值。
 
    >[!NOTE]
    >
-   >如果您使用[Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?lang=zh-Hant&)，則無法在您的請求中設定這些引數。 您必須在此畫面中定義這些變數。
+   >如果您使用[Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?)，則無法在您的請求中設定這些引數。 您必須在此畫面中定義這些變數。
    >
    >如果您使用[批次決策API](../api-reference/offer-delivery-api/batch-decisioning-api.md)，您可以在此畫面或您的API要求中設定這些引數。 如果畫面和APi請求之間的引數值不相符，則會使用請求值。
 

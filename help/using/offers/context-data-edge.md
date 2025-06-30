@@ -3,13 +3,14 @@ product: experience platform
 solution: Experience Platform
 title: 內容資料與邊緣決策請求
 description: 瞭解如何在Edge Decisioning請求中傳遞內容資料。
+badge: label="舊版" type="Informative"
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
-source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -50,11 +51,11 @@ ht-degree: 1%
 
    ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   瞭解如何在Adobe Experience Platform [Experience Data Model (XDM)指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home){target="_blank"}中使用結構描述
+   在Adobe Experience Platform [Experience Data Model (XDM)指南](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中瞭解如何使用結構描述
 
 1. 建立資料集（此處為「選件內容」）並確保已為設定檔啟用它。
 
-1. 從&#x200B;**[!UICONTROL 資料彙集]** > **[!UICONTROL 資料串流]**&#x200B;功能表建立新的資料串流。 瞭解如何在Adobe Experience Platform [資料串流指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure){target="_blank"}中建立和設定資料串流
+1. 從&#x200B;**[!UICONTROL 資料彙集]** > **[!UICONTROL 資料串流]**&#x200B;功能表建立新的資料串流。 瞭解如何在Adobe Experience Platform [資料串流指南](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}中建立和設定資料串流
 
    我們已建立「優惠內容」資料流，並選取「優惠內容」事件結構描述。
 
@@ -145,7 +146,7 @@ ht-degree: 1%
 
   ![](assets/context-edge-copy-scope.png)
 
-  +++
++++
 
 ```
 {

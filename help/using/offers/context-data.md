@@ -3,16 +3,17 @@ product: experience platform
 solution: Experience Platform
 title: 開始使用內容資料
 description: 瞭解如何在決策管理中運用內容資料。
+badge: label="舊版" type="Informative"
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+exl-id: 4e736f9d-0f05-4a79-8ebf-ea22517d78a9
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 0%
+source-wordcount: '210'
+ht-degree: 4%
 
 ---
-
 
 # 開始使用內容資料 {#context-data}
 
@@ -29,4 +30,3 @@ ht-degree: 0%
 
 * [在Edge Decisioning請求中使用內容資料](context-data-edge.md)
 * [在決策請求中使用內容資料](context-data-decisioning.md)
-

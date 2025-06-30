@@ -3,14 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: 個人化最佳化模型
 description: 進一步瞭解個人化最佳化模型
+badge: label="舊版" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 9188b144d1f98f57c585c3828420b9cd48d1d90a
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '807'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 ## 概觀 {#overview}
 
-透過在監督的機器學習和深度學習中運用最先進的技術，個人化最佳化可讓業務使用者（行銷人員）定義業務目標，並利用其客戶資料來訓練業務導向的模型，以提供個人化優惠並最大化KPI。
+個人化最佳化會利用監督機器學習和深度學習領域的先進技術，讓商業使用者 (行銷人員) 定義業務目標，並利用他們的客戶資料來訓練商業導向的模型，以提供個人化產品建議並將 KPI 最大化。
 
 ![](../../rn/assets/do-not-localize/ai-ranking.gif)
 
@@ -39,7 +40,7 @@ ht-degree: 0%
 
 | 功能型別 | 如何新增特徵至模型 |
 |--------------|----------------------------|
-| 決策物件(placementID、activityID、decisionScopeID) | 傳送至AEP的決定管理意見體驗事件的一部分 |
+| 決策物件(placementID、activityID、decisionScopeID) | 傳送至AEP的決定管理回饋體驗事件的一部分 |
 | 客群 | 建立排名AI模型時，可以新增0到50個對象作為功能 |
 | 上下文資料 | 傳送至AEP的決定回饋體驗事件的一部分。 可新增至結構描述的可用內容資料： Commerce詳細資料、通道詳細資料、應用程式詳細資料、Web詳細資料、環境詳細資料、裝置詳細資料、placeContext |
 
