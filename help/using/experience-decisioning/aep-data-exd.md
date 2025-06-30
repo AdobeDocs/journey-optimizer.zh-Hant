@@ -10,14 +10,14 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 20%
+source-wordcount: '838'
+ht-degree: 18%
 
 ---
 
-# 使用 Adobe Experience Platform 資料進行決策 {#aep-data}
+# 將Adobe Experience Platform資料用於決策 {#aep-data}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -48,14 +48,14 @@ ht-degree: 20%
 
 若要使用[!DNL Adobe Experience Platform]資料集中的資料進行決策，您必須先透過API呼叫啟用它以進行查詢。 如需詳細指示，請參閱本節： [在Journey Optimizer中運用Adobe Experience Platform資料集](../data/lookup-aep-data.md)。
 
-## 使用 Adobe Experience Platform 資料進行決策
+## 善用Adobe Experience Platform資料 {#leverage-aep-data}
 
 資料集啟用查閱後，您可使用其屬性，以外部資料擴充您的決策邏輯。 這對於經常變更的屬性（例如產品可用性或即時定價）特別有用。
 
 來自Adobe Experience Platform資料集的屬性可用於決定邏輯的兩個部分：
 
 * **決定規則**：定義決定專案是否符合顯示條件。
-* **排名公式**：根據外部資料排定決定專案的優先順序。
+* **排名公式**：根據外部資料排定決策專案的優先順序。
 
 下一節將說明如何在兩個內容中使用Adobe Experience Platform資料。
 
@@ -86,7 +86,7 @@ ht-degree: 20%
 
    ![](assets/exd-lookup-menu.png)
 
-### 排名公式
+### 排名公式 {#ranking-formulas}
 
 排名公式定義了決策項目的優先等級。使用[!DNL Adobe Experience Platform]資料集屬性，您可以動態調整排名邏輯，以反映真實世界的狀況。
 
@@ -107,6 +107,6 @@ ht-degree: 20%
    >
    >您最多可以為每個排名公式建立3個對應。
 
-1. 照常使用資料集欄位來建立排名公式。 [瞭解如何建立排名公式](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula)
+1. 照常使用資料集欄位來建立排名公式。 [瞭解如何建立排名公式](ranking/ranking-formulas.md#create-ranking-formula)
 
    ![](assets/exd-lookup-formula-criteria.png)

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '3117'
 ht-degree: 100%
@@ -201,7 +201,7 @@ ht-degree: 100%
 <td>
 <p>您可以馬上從改善的新介面，定義並結合條件，以便建立特定決策排名公式。 您可以定義自訂排名公式，這類公式會透過引導式介面，結合 AI 模型分數、優惠方案優先順序、設定檔屬性、優惠方案屬性和內容訊號，不會只單純仰賴靜態優惠方案的優先順序。</p>
 <img src="assets/do-not-localize/formula-builder.gif">
-<p>如需詳細資訊，請參閱<a href="../experience-decisioning/exd-ranking-formulas.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../experience-decisioning/ranking/ranking-formulas.md">詳細文件</a>。</p>
 <p>推出日期：2025 年 5 月 14 日</p>
 </td>
 </tr>

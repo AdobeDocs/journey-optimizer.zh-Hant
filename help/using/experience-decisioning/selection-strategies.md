@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: e63a21b5dcc8f227d56c696c8fd0825c75684189
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '729'
 ht-degree: 20%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 20%
 >id="ajo_exd_strategy_ranking"
 >title="定義如何對產品建議進行排名"
 >abstract="如果多個產品建議符合特定的選擇策略，請在建立選擇策略時選擇為每個設定檔選取最佳產品建議的方法：優先順序或排名公式。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=zh-Hant" text="建立決定原則"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="建立決定原則"
 
 如果數個優惠方案符合指定的選取策略資格，您可以選擇在建立選取策略時，用來選取每個設定檔之最佳優惠方案的方法。 您可以依下列方式排名優惠方案：
 
@@ -98,9 +98,9 @@ ht-degree: 20%
 
 ### 優惠優先順序 {#offer-priority}
 
-根據預設，當數個優惠方案符合在決定原則中指定位置的資格時，具有最高&#x200B;**優先順序**&#x200B;的專案將先傳遞給客戶。
+根據預設，當決策原則中有數個優惠方案符合資格時，具有最高&#x200B;**優先順序**&#x200B;的專案將會先傳遞給客戶。
 
-![](assets/item-priority.png)
+![](assets/item-priority.png){width=85%}
 
 建立[決定專案](items.md)時，會指派優惠方案的優先順序分數。
 
@@ -108,17 +108,17 @@ ht-degree: 20%
 
 除了優惠優先順序之外，Journey Optimizer還可讓您建立&#x200B;**排名公式**。 這些公式可決定應先針對指定位置顯示哪個優惠，而不是考慮優惠的優先順序分數。
 
-例如，您可以提升結束日期距離現在不足24小時的所有優惠方案的優先順序，或如果設定檔的興趣點為「執行中」，則提升「執行中」類別的優惠方案。 瞭解如何在[本節](exd-ranking-formulas.md)中建立排名公式。
+例如，您可以提升結束日期距離現在不足24小時的所有優惠方案的優先順序，或如果設定檔的興趣點為「執行中」，則提升「執行中」類別的優惠方案。 瞭解如何在[本節](ranking/ranking-formulas.md)中建立排名公式。
 
 建立之後，您可以在選擇策略中使用此公式。 使用此選取策略時，如果多個優惠方案符合呈現的條件，決策將使用選取的公式來計算要先傳送哪個優惠方案。
 
 ### AI 排名 {#ai-ranking}
 
-您也可以使用經過訓練的模型系統，藉由選取AI模型，自動排名要針對指定設定檔顯示的優惠方案。 在[本節](../offers/ranking/ai-models.md)中瞭解如何建立AI模型。
+您也可以使用經過訓練的模型系統，藉由選取AI模型，自動排名要針對指定設定檔顯示的優惠方案。 在[本節](ranking/create-ai-models.md)中瞭解如何建立AI模型。
 
 建立AI模型後，您即可在選取策略中使用它。 如果多個優惠方案都符合條件，經過訓練的模型系統將決定應該首先針對此選擇策略顯示哪個優惠方案。
 
 >[!NOTE]
 >
->目前[提升度測量](../offers/ranking/auto-optimization-model.md#lift)報告僅適用於[個人化最佳化](../offers/ranking/personalized-optimization-model.md) AI模型。
+>目前[提升度測量](ranking/auto-optimization-model.md#lift)報告僅適用於[個人化最佳化](ranking/personalized-optimization-model.md) AI模型。
 

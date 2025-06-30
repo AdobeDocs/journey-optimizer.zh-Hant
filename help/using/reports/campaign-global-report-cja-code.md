@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 2%
+source-wordcount: '869'
+ht-degree: 1%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 2%
 
 ![](assets/cja-top-decisions-ctr.png)
 
-依CTR **排名的**&#x200B;個最上層決定專案表格會根據個別專案的點進率來強調其效能。 此量度有助於評估哪些專案最能有效吸引使用者並促進互動。
+依CTR ]**排名的**[!UICONTROL &#x200B;個最上層決定專案表格會根據個別專案的點進率來強調其效能。 此量度有助於評估哪些專案最能有效吸引使用者並促進互動。
 
 * **[!UICONTROL 點進率(CTR)]**：使用者點按連結、廣告或推薦的次數與顯示次數比較的百分比。
 
@@ -139,7 +139,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->**[!UICONTROL 排名策略]**&#x200B;表格只有在將AI模型合併到行銷活動中時才能使用。 [了解更多](../experience-decisioning/ranking.md)
+>**[!UICONTROL 排名策略]**&#x200B;表格只有在行銷活動中納入[AI模型](../experience-decisioning/ranking/ai-models.md)時才能使用。<!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decision-ranking-strategy.png)
 
@@ -161,7 +161,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->保留和模型驅動流量&#x200B;**的**&#x200B;轉換率只有在將AI模型整合至行銷活動時才可供使用。 [了解更多](../experience-decisioning/ranking.md)
+>只有當行銷活動中納入[AI模型](../experience-decisioning/ranking/ai-models.md)時，才能使用Holdout和模型驅動流量&#x200B;]**圖表的**[!UICONTROL &#x200B;轉換率。<!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decisioning-conversion.png)
 
@@ -173,4 +173,4 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->使用合併到[排名公式](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula)中的AI模型時，轉換率報表中不會反映資料。
+>使用合併到[排名公式](../experience-decisioning/ranking/ranking-formulas.md)中的AI模型時，轉換率報表中不會反映資料。

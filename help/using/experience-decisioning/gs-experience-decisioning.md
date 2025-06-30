@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 25%
@@ -56,7 +56,7 @@ Decisioning 會透過提供集中行銷產品建議目錄，又稱為「決策�
 
    接著，使用者應會收到一封電子郵件，並重新導向至您的執行個體。
 
-   +++
++++
 
 1. **設定自訂屬性**：將自訂屬性設定到目錄的結構描述中，根據您的特定需求量身打造專案目錄。
 
@@ -64,11 +64,11 @@ Decisioning 會透過提供集中行銷產品建議目錄，又稱為「決策�
 
 1. **建立決策專案**&#x200B;以向您的目標對象顯示。
 
-   ➡️ [&#128279;](items.md)瞭解如何在使用者介面（以及[API檔案](api-reference/decisions-items/create.md)）中建立決定專案
+   ➡️ [瞭解如何在使用者介面（以及[API檔案](api-reference/decisions-items/create.md)）中建立決定專案](items.md)
 
 1. **使用集合組織**：使用集合根據屬性型規則將決定專案分類。 將集合併入您的選擇策略，以決定應考慮的決定專案集合。
 
-   ➡️ [&#128279;](collections.md)瞭解如何在使用者介面（以及[API檔案](api-reference/items-collections/create.md)）中管理專案集合
+   ➡️ [瞭解如何在使用者介面（以及[API檔案](api-reference/items-collections/create.md)）中管理專案集合](collections.md)
 
 1. **建立決定規則**：決定專案和/或選擇策略中會使用決定規則來決定決定可以向誰顯示決定專案。
 
@@ -76,7 +76,7 @@ Decisioning 會透過提供集中行銷產品建議目錄，又稱為「決策�
 
 1. **實作排名方法**：建立排名方法，並在選取策略中套用這些方法，以決定選取決定專案的優先順序。
 
-   ➡️ [瞭解如何建立排名方法](ranking.md)
+   ➡️ [瞭解如何建立排名方法](ranking/ranking.md)
 
 1. **建立選擇策略**：建置使用集合、決定規則和排名方法的選擇策略，以識別適合顯示給設定檔的決定專案。
 

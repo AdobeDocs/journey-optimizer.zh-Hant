@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d0ac966780349ab10c47dd9ea915ca4f5964e938
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2490'
 ht-degree: 98%
 
 ---
@@ -548,10 +548,16 @@ ht-degree: 98%
          + [設定項目目錄](using/experience-decisioning/catalogs.md)
          + [建立決定項目](using/experience-decisioning/items.md)
          + [管理項目集合](using/experience-decisioning/collections.md)
-      + 設定項目選取項目 {#selection}
-         + [建立決定規則](using/experience-decisioning/rules.md)
-         + [建立排名方法](using/experience-decisioning/ranking.md)
-         + [使用 AI 公式產生器](using/experience-decisioning/exd-ranking-formulas.md)
+      + [建立決定規則](using/experience-decisioning/rules.md)
+      + 建立排名 {#rankings}
+         + [建立排名方法](using/experience-decisioning/ranking/ranking.md)
+         + [使用 AI 公式產生器](using/experience-decisioning/ranking/ranking-formulas.md)
+         + AI 模型 {#ai-models}
+            + [關於 AI 模型](using/experience-decisioning/ranking/ai-models.md)
+            + [自動最佳化模型](using/experience-decisioning/ranking/auto-optimization-model.md)
+            + [個人化最佳化模型](using/experience-decisioning/ranking/personalized-optimization-model.md)
+            + [建立 AI 模型](using/experience-decisioning/ranking/create-ai-models.md)
+      + 使用Adobe Experience Platform資料 {#aep-data}
          + [善用內容資料](using/experience-decisioning/context-data.md)
          + [使用Adobe Experience Platform進行決策](using/experience-decisioning/aep-data-exd.md)
       + [建立選擇策略](using/experience-decisioning/selection-strategies.md)
@@ -579,7 +585,6 @@ ht-degree: 98%
          + [排名公式](using/offers/ranking/create-ranking-formulas.md)
          + AI 模型 {#ai-models}
             + [關於 AI 模型](using/offers/ranking/ai-models.md)
-            + AI 模型類型 {#ai-model-types}
             + [自動最佳化模型](using/offers/ranking/auto-optimization-model.md)
             + [個人化最佳化模型](using/offers/ranking/personalized-optimization-model.md)
             + [建立 AI 模型](using/offers/ranking/create-ranking-strategies.md)

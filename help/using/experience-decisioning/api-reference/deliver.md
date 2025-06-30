@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6e603bc1-0813-435a-9349-d8585a7a0997
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 10%
@@ -25,5 +25,5 @@ Experience Decisioning現在可以透過程式碼型體驗管道使用。
 
 程式碼型頻道指南提供不同實作方法的詳細資訊。 在本指南中，您將會找到每個實作方法的詳細資訊，以及不同個人化和實驗使用案例的實作範例。
 
-➡️[深入瞭解程式碼型實作方法](../../code-based/code-based-implementation-samples.md)
+➡️ [進一步瞭解程式碼型實作方法](../../code-based/code-based-implementation-samples.md)
 
