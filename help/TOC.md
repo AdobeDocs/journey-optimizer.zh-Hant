@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e1cbaaf30f376c1bb32a16dcc8a09686e0b9e231
+source-git-commit: d0ac966780349ab10c47dd9ea915ca4f5964e938
 workflow-type: tm+mt
-source-wordcount: '2474'
+source-wordcount: '2476'
 ht-degree: 98%
 
 ---
@@ -200,6 +200,7 @@ ht-degree: 98%
       + [重複資料刪除](using/orchestrated/activities/deduplication.md)
       + [擴充](using/orchestrated/activities/enrichment.md)
       + [分支](using/orchestrated/activities/fork.md)
+      + [讀取對象](using/orchestrated/activities/read-audience.md)
       + [調和](using/orchestrated/activities/reconciliation.md)
       + [分割](using/orchestrated/activities/split.md)
       + [測試](using/orchestrated/activities/test.md)
