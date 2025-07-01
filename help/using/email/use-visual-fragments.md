@@ -8,18 +8,18 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '715'
 ht-degree: 2%
 
 ---
 
-# 在你的電子郵件中新增視覺內容片段 {#use-visual-fragments}
+# 在您的電子郵件中新增視覺片段 {#use-visual-fragments}
 
 片段是可重複使用的元件，可在跨Journey Optimizer行銷活動、歷程或內容範本的一封或多封電子郵件中參考。 此功能允許預先建置多個自訂內容區塊，可供行銷使用者在改良的設計流程中快速組合電子郵件內容。 [瞭解如何建立和管理片段](../content-management/fragments.md)。
 
-➡️[在此影片中瞭解如何管理、編寫和使用片段](../content-management/fragments.md#video-fragments)
+➡️ [在此影片中瞭解如何管理、編寫和使用片段](../content-management/fragments.md#video-fragments)
 
 ## 使用片段 {#use-fragment}
 
@@ -85,11 +85,13 @@ ht-degree: 2%
 
 若要自訂片段中可編輯的欄位，請遵循下列步驟：
 
-1. 將片段新增至您的內容並選取它，以開啟右側的屬性窗格。
+1. 將片段新增至您的內容。
 
-1. 片段中的所有可編輯欄位會顯示在&#x200B;**片段**&#x200B;區段下的&#x200B;**設定**&#x200B;標籤中。
+1. 選取它以開啟右側的屬性窗格。
 
-   在右窗格中選取可編輯欄位時，預覽窗格中會以綠色反白顯示可編輯欄位，以便輕鬆識別它們在內容中的位置。
+   片段中的所有可編輯欄位會顯示在&#x200B;**片段**&#x200B;區段下的&#x200B;**設定**&#x200B;標籤中。
+
+1. 當您在右窗格中選取可編輯的欄位時，它會在中央預覽窗格中以綠色反白顯示，讓您輕鬆識別它在內容中的位置。
 
    在下列範例中，可以編輯影像&#x200B;**來源**&#x200B;和&#x200B;**替代文字**，以及[按一下這裡]按鈕&#x200B;**URL**。
 
