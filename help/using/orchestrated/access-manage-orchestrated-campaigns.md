@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
+source-git-commit: a1da25455621c02656706b95dcefe241370a6ac6
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 20%
+source-wordcount: '695'
+ht-degree: 21%
 
 ---
 
@@ -77,9 +77,6 @@ ht-degree: 20%
 ## 行銷活動狀態 {#status}
 
 協調的行銷活動可以有多種狀態：
-
-循環開始à&#39;s executer ， fait une query 。按一下關閉： va continuer et se termienr quand elle sera allée jusqu&#39;au bout du diagram
-
 
 * **[!UICONTROL 草稿]**：已建立協調的行銷活動。 尚未發佈。
 * **[!UICONTROL 發佈]**：正在發佈協調的行銷活動。
