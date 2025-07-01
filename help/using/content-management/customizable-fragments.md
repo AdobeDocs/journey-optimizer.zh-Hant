@@ -8,16 +8,18 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
+source-git-commit: f93d422dfeb5e0d658d40286882ee59b80ae9184
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1510'
 ht-degree: 1%
 
 ---
 
 # 可自訂的片段 {#customizable-fragments}
 
-在行銷活動或歷程動作中使用片段時，由於繼承，預設情況下這些片段會鎖定。 這表示對片段所做的任何變更都會自動傳播至使用片段的所有行銷活動和歷程。 有了可自訂的片段，當片段新增到行銷活動或歷程動作時，片段中的特定欄位可以定義為可編輯。 例如，假設您有一個片段包含橫幅、一些文字和按鈕。 您可以將某些欄位（例如影像或按鈕目標URL）指定為可編輯。 這可讓使用者在將片段納入其行銷活動或歷程時修改這些元素，提供量身打造的體驗，而不會影響原始片段。
+在行銷活動或歷程動作中使用片段時，由於繼承，預設情況下這些片段會鎖定。 這表示對片段所做的任何變更都會自動傳播至使用片段的所有行銷活動和歷程。
+
+透過&#x200B;**可自訂的片段**，當片段新增至行銷活動或歷程動作時，片段內的特定欄位可以定義為可編輯。 例如，假設您有一個片段包含橫幅、一些文字和按鈕。 您可以將某些欄位（例如影像或按鈕目標URL）指定為可編輯。 這可讓使用者在將片段納入其行銷活動或歷程時修改這些元素，提供量身打造的體驗，而不會影響原始片段。
 
 可自訂的片段不需要中斷片段繼承，這之前已停止將片段層級的集中式變更傳播至行銷活動和歷程。 此方法可在使用時調整內容部分，靈活地以內容特定的詳細資料覆寫預設值。
 
@@ -110,7 +112,7 @@ ht-degree: 1%
 
    ![](assets/fragment-call-variable.png)
 
-1. 儲存您的片段。
+1. 儲存並發佈您的片段。
 
 將片段新增至其電子郵件內容時，使用者現在可以使用其選擇的值覆寫變數的預設值：
 
@@ -118,7 +120,7 @@ ht-degree: 1%
 
 * 對於HTML元件，變數會顯示在電子郵件Designer的可編輯欄位清單中。 [瞭解如何自訂視覺片段中的可編輯欄位](../email/use-visual-fragments.md#customize-fields)
 
-## 可編輯的運算式片段範例 {#example}
+### 可編輯的運算式片段範例 {#example}
 
 在以下範例中，我們正在建立呈現新運動集合的運算式片段。 依預設，片段會顯示此內容： *要尋找更多嗎？ 不要錯過我們最新的運動系列！*
 
@@ -142,11 +144,11 @@ ht-degree: 1%
 
 RTF文字（例如分行符號、粗體、斜體等）可以使用HTML元件新增到可編輯的片段中。 若要執行此操作，請遵循下列步驟。
 
-➡️ [瞭解如何在本影片的可編輯片段中新增並使用RTF文字至HTML元件](#video)
+➡️ [瞭解如何在此影片中新增並使用RTF文字到可編輯的片段](#video)
 
 ### 建立包含RTF文字的片段 {#add-rich-text}
 
-1. 建立視覺片段並開始新增元件。
+1. 建立視覺化[片段](create-fragments.md)並開始新增元件。
 
 1. 新增[HTML元件](../email/content-components.md#HTML)並開啟HTML編輯器。
 
@@ -154,7 +156,7 @@ RTF文字（例如分行符號、粗體、斜體等）可以使用HTML元件新�
 
 1. 將`"name"`取代為您要用於可編輯內容的ID，例如&quot;EditableContent&quot;。
 
-1. 將`render_content`取代為您想要的預設內容所對應的HTML程式碼。
+1. 將`render_content`取代為您想要的預設豐富內容所對應的HTML程式碼。 您可以新增粗體、斜體、分行符號、專案符號清單等。
 
    ![](assets/fragment-rich-editable-content.png)
 <!--
@@ -193,28 +195,32 @@ RTF文字（例如分行符號、粗體、斜體等）可以使用HTML元件新�
 
    ![](assets/fragment-rich-editable-styling.png)
 
-1. 儲存您的內容。 所選的可編輯欄位會顯示在右側。
+1. 儲存您的內容。 選取的可編輯欄位會顯示在右側。
 
    ![](assets/fragment-rich-editable-fields.png)
 
-1. 發佈片段。
+1. 儲存並[發佈](create-fragments.md#publish)片段。
 
 ### 使用RTF可編輯片段 {#use-rich-text}
 
-將片段新增至其電子郵件內容時，使用者現在可以編輯您建立的RTF文字內容和樣式。 若要在行銷人員中使用RTF可編輯片段，請遵循以下步驟。
+將片段新增至其電子郵件內容時，使用者現在可以編輯您建立的RTF文字內容和樣式。 若要以行銷人員身分使用RTF可編輯片段，請遵循下列步驟。
 
-1. 在行銷活動或歷程中建立電子郵件，然後新增建立的片段。
+1. [在行銷活動或歷程中建立電子郵件](../email/create-email.md)，然後新增包含[已建立](#add-rich-text)之RTF文字的片段。
 
-   您可以在右側窗格中看到已建立的兩個可編輯欄位。
+   您可以在右側看到已建立的兩個可編輯欄位。
 
    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. 您可以按一下&#x200B;**[!UICONTROL 模擬內容]**，檢視可編輯的內容和樣式如何呈現。
+1. 您可以按一下&#x200B;**[!UICONTROL 模擬內容]**，檢視可編輯的內容和樣式如何呈現。 [進一步瞭解預覽內容](preview-test.md)
 
-1. 選取其中一個可編輯欄位旁的&#x200B;**[!UICONTROL 新增個人化]**&#x200B;圖示，並視需要編輯CSS樣式和/或內容。
+1. 選取其中一個可編輯欄位旁的&#x200B;**[!UICONTROL 新增個人化]**&#x200B;圖示。
+
+1. 在開啟的個人化編輯器中，新增或移除可編輯欄位的元素，視需要更新<!--CSS-->樣式和/或內容。
+
+   ![](assets/fragment-rich-editable-fields-update-styling.png)
 
 ## 作法影片 {#video}
 
 本影片說明如何讓片段中的HTML元件可編輯，以動態更新內容和樣式。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464379/?learn=on&#x26;enablevpops&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
