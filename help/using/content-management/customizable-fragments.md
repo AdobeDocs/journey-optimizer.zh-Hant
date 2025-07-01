@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: f93d422dfeb5e0d658d40286882ee59b80ae9184
+source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 1%
@@ -159,35 +159,6 @@ RTF文字（例如分行符號、粗體、斜體等）可以使用HTML元件新�
 1. 將`render_content`取代為您想要的預設豐富內容所對應的HTML程式碼。 您可以新增粗體、斜體、分行符號、專案符號清單等。
 
    ![](assets/fragment-rich-editable-content.png)
-<!--
-    +++For example:
-
-    ```html
-
-    <h1>Main title</h1>
-
-    <h2>Subtitle One</h2>
-    <p>This is a paragraph with a line break.<br>Here is the new line.</p>
-
-    <p class="bold">This text is bold.</p>
-    <p class="italic">This text is italic.</p>
-    <p class="bold-italic">This text is bold and italic.</p>
-
-    <ul>
-        <li>First bullet point</li>
-        <li>Second bullet point with more text</li>
-        <li>Third bullet point</li>
-    </ul>
-
-    <hr>
-
-    <h2>Subtitle Two</h2>
-    <blockquote>This is a blockquote or note with styled background and border.</blockquote>
-
-    ```
-
-    +++
--->
 
 1. 在同一HTML元件中，為您的樣式元素新增另一個&#x200B;**內嵌**&#x200B;協助程式函式。
 
@@ -223,4 +194,4 @@ RTF文字（例如分行符號、粗體、斜體等）可以使用HTML元件新�
 
 本影片說明如何讓片段中的HTML元件可編輯，以動態更新內容和樣式。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464379/?learn=on&#x26;enablevpops&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
