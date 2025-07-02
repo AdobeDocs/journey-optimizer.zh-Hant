@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: d8b83bc46526f721d4dfaf62cf8ba4cbf5a56ce7
+source-git-commit: 7de878c316e966129e7dede37f132938d2abbdf8
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 17%
@@ -20,7 +20,7 @@ ht-degree: 17%
 
 | 歡迎使用協調的行銷活動 | 首次建立協調的行銷活動 | 查詢資料庫 | 協調的行銷活動 |
 |---|---|---|---|
-| [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>[設定步驟](../configuration-steps.md)<br/><br/>[建立協調行銷活動的重要步驟](../gs-campaign-creation.md) | [建立協調的行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用查詢Modeler](../orchestrated-rule-builder.md)<br/><br/>[建置您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/>[並加入](and-join.md) - [建置對象](build-audience.md) - [變更維度](change-dimension.md) - **[頻道活動](activities/channels.md)** - [合併](combine.md) - [重複資料刪除](deduplication.md) - [擴充](enrichment.md) - [分支](fork.md) - [調解](reconciliation.md) - [分割](split.md) - [等待](wait.md) |
+| [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>[設定步驟](../configuration-steps.md)<br/><br/>[建立協調行銷活動的重要步驟](../gs-campaign-creation.md) | [建立協調的行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用查詢Modeler](../orchestrated-rule-builder.md)<br/><br/>[建置您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/>[並加入](and-join.md) - [建置對象](build-audience.md) - [變更維度](change-dimension.md) - **[頻道活動](channels.md)** - [合併](combine.md) - [重複資料刪除](deduplication.md) - [擴充](enrichment.md) - [分支](fork.md) - [調解](reconciliation.md) - [分割](split.md) - [等待](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -105,7 +105,7 @@ UNUSED IDs in BJ
 
 1. 對於推播通知，請使用&#x200B;**[!UICONTROL 快速傳送模式]**&#x200B;選項，在推播頻道上執行高速訊息傳送，以傳送至3000萬名以下的對象。
 
-   快速傳遞模式是&#x200B;**[!DNL Journey Optimizer]**&#x200B;附加元件，允許以大數量快速傳送推播訊息。 [了解更多](../push/create-push.md#rapid-delivery)
+   快速傳遞模式是&#x200B;**[!DNL Journey Optimizer]**&#x200B;附加元件，允許以大數量快速傳送推播訊息。 [了解更多](../../push/create-push.md#rapid-delivery)
 
 1. **[!UICONTROL 內容實驗]**&#x200B;區段可讓您定義多個傳遞處理方式，以測量哪個方式最適合您的目標對象。
 
@@ -124,13 +124,13 @@ UNUSED IDs in BJ
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../../email/create-email.md"><img alt="電子郵件" src="../../channels/assets/do-not-localize/email.png"></a>
 <div align="center"><a href="../../email/create-email.md"><strong>電子郵件</strong></a></div></td>
-<td><a href="../sms/../create-sms.md"><img alt="簡訊" src="../../channels/assets/do-not-localize/sms.png"></a>
+<td><a href="../../sms/create-sms.md"><img alt="簡訊" src="../../channels/assets/do-not-localize/sms.png"></a>
 <div align="center"><a href="../../sms/create-sms.md"><strong>簡訊</strong></a></div></td>
-<td><a href="../push/create-push.md"><img alt="推播" src="../../channels/assets/do-not-localize/push.png"></a>
+<td><a href="../../push/create-push.md"><img alt="推播" src="../../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><a href="../../push/create-push.md"><strong>推播通知</strong></a></div></td>
 </tr></table>
 
-定義內容後，請使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以測試設定檔或從CSV / JSON檔案上傳的範例輸入資料來預覽和測試您的內容，或手動新增。 [了解更多](../content-management/preview-test.md)。
+定義內容後，請使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以測試設定檔或從CSV / JSON檔案上傳的範例輸入資料來預覽和測試您的內容，或手動新增。 [了解更多](../../content-management/preview-test.md)
 
 ## 後續步驟 {#next}
 
