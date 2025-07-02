@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
+source-git-commit: cfd94e714c0e99200ac9816315bdbb6c410f2a12
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 23%
+source-wordcount: '334'
+ht-degree: 26%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 23%
 
 <br/>
 
-行銷人員可在協調的行銷活動中，從一個資料實體切換至另一個連結的實體，藉此縮小對象鎖定目標的範圍。 這可讓您從目標定位使用者設定檔移至聚焦於特定動作，例如購買、預訂或其他互動。
+行銷人員可以在策劃的行銷活動中，從一個資料實體變更為相關的資料實體，藉此增強受眾鎖定目標。 這可讓您超越使用者設定檔，並專注於特定行為，例如購買、預訂或其他互動。
 
-若要這麼做，請使用&#x200B;**[!UICONTROL 變更維度]**&#x200B;活動。 它可讓您根據資料模型的結構和輸入維度，在協調的行銷活動期間變更目標維度。
+若要達成此目的，請使用&#x200B;**[!UICONTROL 變更維度]**&#x200B;活動。 它可讓您在協調的行銷活動期間調整目標維度。
 
 <!--
 >[!IMPORTANT]
@@ -53,18 +53,17 @@ ht-degree: 23%
 
 1. 新增&#x200B;**[!UICONTROL 變更維度]**&#x200B;活動至您協調的行銷活動。
 
-   ![](../assets/change-dimension.png)
+   ![](../assets/orchestrated-change-dimension.png)
 
 1. 定義&#x200B;**[!UICONTROL 新目標維度]**。 在維度變更期間，會保留所有記錄。
 
-1. 執行協調的行銷活動以檢視結果。 比較變更維度活動前後表格中的資料，以及比較協調的行銷活動表格結構。
 
 ## 範例 {#example}
 
-此使用案例涉及傳送SMS給在上個月建立願望清單的設定檔。
+此使用案例著重於傳送SMS給在過去一個月內建立願望清單的設定檔。
 
-開始使用&#x200B;**[!UICONTROL 願望清單]**&#x200B;目標維度的&#x200B;**[!UICONTROL 建立對象]**&#x200B;活動，以選取所有相關的願望清單。
+從&#x200B;**[!UICONTROL 建立對象]**&#x200B;活動開始，使用&#x200B;**[!UICONTROL 願望清單]**&#x200B;目標維度來識別所有相關的願望清單。
 
-接著，插入&#x200B;**[!UICONTROL 變更維度]**&#x200B;活動，將目標維度從&#x200B;**[!UICONTROL 願望清單]**&#x200B;切換為&#x200B;**[!UICONTROL 收件者]**。 這可讓協調的行銷活動傳送SMS至與這些願望清單相關聯的設定檔。
+接著，新增&#x200B;**[!UICONTROL 變更維度]**&#x200B;活動，以將目標維度從&#x200B;**[!UICONTROL 願望清單]**&#x200B;切換為&#x200B;**[!UICONTROL 收件者]。**&#x200B;此步驟會確保協調的行銷活動目標為連結至這些願望清單的正確設定檔，允許將SMS傳送至預期的設定檔。
 
 ![](../assets/orchestrated-change-dimension-example.png)
