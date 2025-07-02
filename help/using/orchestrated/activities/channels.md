@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: d8128190a51cac665c9f25b5077185a496ad7849
+source-git-commit: 1a4cd7df44cb54aaf4d18409574f5ceb9537935c
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 21%
+source-wordcount: '1040'
+ht-degree: 16%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 21%
 
 | 歡迎使用協調的行銷活動 | 首次建立協調的行銷活動 | 查詢資料庫 | 協調的行銷活動 |
 |---|---|---|---|
-| [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>[設定步驟](../configuration-steps.md)<br/><br/>[建立協調行銷活動的重要步驟](../gs-campaign-creation.md) | [建立協調的行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/>[使用協調的行銷活動傳送訊息](../send-messages.md)<br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用查詢Modeler](../orchestrated-rule-builder.md)<br/><br/>[建置您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/>[並加入](and-join.md) - [建置對象](build-audience.md) - [變更維度](change-dimension.md) - [合併](combine.md) - [重複資料刪除](deduplication.md) - [擴充](enrichment.md) - [分支](fork.md) - [調解](reconciliation.md) - [分割](split.md) - [等待](wait.md) |
+| [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>[設定步驟](../configuration-steps.md)<br/><br/>[建立協調行銷活動的重要步驟](../gs-campaign-creation.md) | [建立協調的行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用查詢Modeler](../orchestrated-rule-builder.md)<br/><br/>[建置您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/>[並加入](and-join.md) - [建置對象](build-audience.md) - [變更維度](change-dimension.md) - **[頻道活動](channels.md)** - [合併](combine.md) - [重複資料刪除](deduplication.md) - [擴充](enrichment.md) - [分支](fork.md) - [調解](reconciliation.md) - [分割](split.md) - [等待](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -28,19 +28,19 @@ ht-degree: 21%
 
 <br/>
 
-Adobe Journey Optimizer可讓您跨傳入和傳出頻道自動執行行銷活動。 您可以將頻道活動結合到協調的行銷活動畫布中，以建立跨頻道協調的行銷活動，其可根據客戶行為和資料觸發動作。 支援的管道列於[此頁面](../../channels/gs-channels.md)。
+[!DNL Adobe Journey Optimizer]可讓您跨管道自動執行行銷活動。 您可以將頻道活動結合到協調的行銷活動畫布中，以建立跨頻道協調的行銷活動，其可根據客戶行為和資料觸發動作。
 
-例如，您可以建立歡迎電子郵件行銷活動，其中包括跨不同頻道的一系列訊息，例如電子郵件、簡訊、推播和直接郵件。 您還可以在客戶完成購買後傳送後續追蹤電子郵件，或透過簡訊向客戶傳送個人化的生日祝賀訊息。
+例如，您可以建立一個歡迎電子郵件活動，其中包括跨不同管道的一系列訊息，例如電子郵件、簡訊和推播。您還可以在客戶完成購買後傳送後續追蹤電子郵件，或透過簡訊向客戶傳送個人化的生日祝賀訊息。
 
-使用管道活動，您即可建立全面性和個人化的行銷活動，從多個接觸點和客戶互動並提升轉換率。
+透過使用管道活動，您可以建立全面且個人化的行銷活動，在多個接觸點吸引客戶並促進轉換。 支援的管道包括電子郵件、簡訊和推播。
 
 ## 先決條件 {#channel-activity-prereq}
 
 開始使用相關活動建置您的協調行銷活動：
 
-* 插入管道活動之前，您必須定義對象。 對象是您傳送的主要目標：接收訊息的設定檔。
+* 插入管道活動之前，您必須定義對象。 對象是您傳送的主要目標：接收訊息的設定檔。 [瞭解如何使用建置對象活動](build-audience.md)
 
-* 若要傳送循環傳遞，請使用&#x200B;**[!UICONTROL 排程器]**&#x200B;活動來開始您的協調行銷活動。 您也可以針對單次傳送使用&#x200B;**[!UICONTROL 排程器]**&#x200B;活動，以設定該傳送的聯絡日期。 您也可以在傳送設定中設定聯絡日期。
+* 若要傳送循環傳遞，請使用&#x200B;**[!UICONTROL 排程器]**&#x200B;活動來開始您的協調行銷活動。 您也可以針對單次傳送使用&#x200B;**[!UICONTROL 排程器]**&#x200B;活動，以設定該傳送的聯絡日期。 您也可以在傳送設定中設定聯絡日期。 [LEarn如何排程協調的行銷活動](../create-orchestrated-campaign.md#schedule)
 
 ## 設定管道活動 {#create-a-delivery-in-a-workflow}
 
@@ -54,12 +54,10 @@ Adobe Journey Optimizer可讓您跨傳入和傳出頻道自動執行行銷活動
 >title="簡訊活動"
 >abstract="SMS活動可讓您在協調的行銷活動中針對單次和循環訊息傳送SMS。 它有助於自動處理傳送SMS至在相同協調行銷活動中計算的目標。 您可以將管道活動結合至多步驟行銷活動畫布中，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
 
-
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push"
 >title="推播活動"
 >abstract="推播活動可讓您在協調的行銷活動中傳送推播通知。 它可啟用一次性與循環協調行銷活動的傳送，將傳送推播通知自動傳送到相同協調行銷活動內預先定義的目標。 您可以將頻道活動結合到行銷活動畫布中，以建立跨頻道行銷活動，其可根據客戶行為和資料觸發動作。"
-
 
 <!--
 UNUSED IDs in BJ
@@ -81,36 +79,87 @@ UNUSED IDs in BJ
 >title="直接郵件活動"
 >abstract="直接郵件活動可促進在協調的行銷活動中進行直接郵件傳送，無論是單次還是循環訊息。 此類活動可用於將直接郵件提供者所需之摘取檔案產生流程自動化。您可以將頻道活動結合到協調的行銷活動畫布中，以建立跨頻道行銷活動，其可根據客戶行為和資料觸發動作。"
 
-若要在協調的行銷活動內容中設定傳送，請遵循下列步驟：
+若要在協調的行銷活動內容中設定傳送，請遵循下列步驟。
 
-1. 新增管道活動。 支援的頻道為&#x200B;**[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**&#x200B;或&#x200B;**[!UICONTROL 推播通知]**
+### 新增管道活動並定義其屬性 {#add}
 
-1. 選取&#x200B;**傳遞型別**：單一或循環。
+1. 將管道活動新增至畫布。 可用的頻道活動包括&#x200B;**[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**&#x200B;和&#x200B;**[!UICONTROL 推播]**。
 
-   * **單一傳遞**&#x200B;為單次傳遞，僅傳送一次，例如「黑色星期五」電子郵件。
-   * 根據其執行頻率，**循環傳遞**&#x200B;會傳送多次。 每次執行協調的行銷活動時，都會重新計算對象，並將傳送內容傳送給更新後的對象，其中包含更新的內容。 例如，這可以是每週電子報或循環生日電子郵件。
+   ![影像顯示具有可用活動的畫布](../assets/channel-add.png)
 
-1. 選取傳遞&#x200B;**[!UICONTROL 範本]**。範本是預先設定的傳遞設定 (特定於管道)。每個管道都有內建範本可用，預設會預先填入。
+1. 選取新增的活動，然後依據所選的頻道，按一下&#x200B;**[!UICONTROL 編輯電子郵件]**、**[!UICONTROL 編輯簡訊]**&#x200B;或&#x200B;**[!UICONTROL 編輯推播]**&#x200B;按鈕。
 
-   ![](../assets/delivery-activity-in-wf.png)
+   ![影像顯示具有電子郵件活動的畫布](../assets/channel-edit.png)
 
-   您可以從管道活動設定左窗格中選取範本。 如果之前選取的客群和管道不相容，則無法選取範本。若要解決此問題，請更新&#x200B;**[!UICONTROL 建立對象]**&#x200B;活動，以選取具有正確目標對應的對象。
+1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;索引標籤中，輸入行銷活動的說明。
 
-1. 按一下「**[!UICONTROL 建立傳遞]**」。然後，您可以像建立獨立傳送一樣定義訊息設定和內容。 您也可以測試和模擬內容。
+### 設定管道組態和設定 {#configuration}
 
-1. 導覽回您協調的行銷活動。 如果要繼續您的協調行銷活動，請切換&#x200B;**[!UICONTROL 產生外站轉變]**&#x200B;選項，以在頻道活動後新增轉變。
+1. 選取&#x200B;**[!UICONTROL 動作]**&#x200B;標籤，並選擇要用於訊息的通道設定。
 
-1. 按一下&#x200B;**[!UICONTROL 開始]**&#x200B;以啟動您的協調行銷活動。
+   設定是由[系統管理員](../../start/path/administrator.md)所定義。 它包含所有用於傳送訊息的技術參數，如標頭參數、子網域、行動應用程式等等。[瞭解如何設定頻道設定](../../configuration/channel-surfaces.md)。
 
-   依預設，啟動協調的行銷活動會觸發訊息準備階段，而不會立即傳送訊息。
+1. 視管道而定，有數個選項可供使用。 瀏覽下列標籤以取得詳細資訊：
 
-1. 開啟您的頻道活動，以確認從&#x200B;**[!UICONTROL 檢閱並傳送]**&#x200B;按鈕進行傳送。
+   >[!BEGINTABS]
 
-1. 在您的傳遞儀表板中，按一下「**[!UICONTROL 傳送]**」。
+   >[!TAB 電子郵件]
 
-## 範例 {#cross-channel-workflow-sample}
+   使用&#x200B;**[!UICONTROL 追蹤電子郵件開啟]**&#x200B;和&#x200B;**[!UICONTROL 追蹤電子郵件中連結和按鈕的點按]**&#x200B;選項，來追蹤收件者對您的傳遞的反應。
 
-以下是跨頻道協調的行銷活動範例，包含細分和兩個傳送。 這項精心策劃的行銷活動目標鎖定所有居住在巴黎並對咖啡機感興趣的客戶。 針對此群體，會傳送電子郵件給普通客戶，並傳送簡訊給 VIP 用戶端。
+   執行行銷活動後，即可從行銷活動報表存取追蹤結果。 [進一步瞭解行銷活動報告](../reports/campaign-global-report-cja.md)
+
+   >[!TAB 簡訊]
+
+   使用&#x200B;**[!UICONTROL 追蹤簡訊中連結的點按次數]**&#x200B;選項來追蹤簡訊中連結的點按次數。
+
+   執行行銷活動後，即可從行銷活動報表存取追蹤結果。 [進一步瞭解行銷活動報告](../reports/campaign-global-report-cja.md)
+
+   >[!TAB 推播]
+
+   快速傳遞模式是&#x200B;**[!DNL Journey Optimizer]**&#x200B;附加元件，允許以大數量快速傳送推播訊息。
+
+   啟用&#x200B;**[!UICONTROL 快速傳送模式]**&#x200B;選項，以在推播頻道上執行高速訊息傳送，傳送給人數不到3000萬的觀眾。 [了解更多](../push/create-push.md#rapid-delivery)
+
+   >[!ENDTABS]
+
+1. **[!UICONTROL 內容實驗]**&#x200B;區段可讓您定義多個傳遞處理方式，以測量哪個方式最適合您的目標對象。
+
+   若要這麼做，請按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;按鈕，然後依照本節詳述的步驟進行： [建立內容實驗功能](../../content-management/content-experiment.md)。
+
+1. **[!UICONTROL 語言]**&#x200B;區段可讓您在行銷活動中建立多種語言的內容。
+
+   若要這麼做，請按一下&#x200B;**[!UICONTROL 新增語言]**&#x200B;按鈕，然後選取所需的&#x200B;**[!UICONTROL 語言設定]**。 本節提供如何設定及使用多語言功能的詳細資訊： [開始使用多語言內容](../../content-management/multilingual-gs.md)
+
+### 定義內容 {#content}
+
+選取&#x200B;**[!UICONTROL Content]**&#x200B;索引標籤以定義訊息的內容。 內容建立程式取決於所選的頻道。
+
+在以下頁面瞭解建立訊息內容的詳細步驟：
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../../email/create-email.md"><img alt="電子郵件" src="../../channels/assets/do-not-localize/email.png"></a>
+<div align="center"><a href="../../email/create-email.md"><strong>電子郵件</strong></a></div></td>
+<td><a href="../sms/../create-sms.md"><img alt="簡訊" src="../../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><a href="../../sms/create-sms.md"><strong>簡訊</strong></a></div></td>
+<td><a href="../push/create-push.md"><img alt="推播" src="../../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><a href="../../push/create-push.md"><strong>推播通知</strong></a></div></td>
+</tr></table>
+
+定義內容後，請使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以測試設定檔或從CSV / JSON檔案上傳的範例輸入資料來預覽和測試您的內容，或手動新增。 [了解更多](../content-management/preview-test.md)。
+
+## 後續步驟 {#next}
+
+使用&#x200B;**[!UICONTROL 上一步]**&#x200B;箭頭，導覽回您精心安排的行銷活動。
+
+![顯示返回按鈕的影像](../assets/channel-back.png)
+
+您現在可以在畫布中完成活動協調，並發佈行銷活動以開始傳送訊息。 [瞭解如何開始及監視協調的行銷活動](../start-monitor-campaigns.md)
+
+<!--
+## Examples {#cross-channel-workflow-sample}
+
+Here is a cross-channel orchestrated campaign example with a segmentation and two deliveries. The orchestrated campaign targets all customers who live in Paris and who are interested in coffee machines. Among this population, an email is sent to the regular customers and an SMS is sent to the VIP clients.
 
 ![](../assets/workflow-channel-example.png)
 
@@ -124,9 +173,9 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-您也可以建立循環協調的行銷活動，於每月第一天晚上8點傳送個人化簡訊給住在巴黎的所有客戶。
+<!--You can also create a recurring orchestrated campaign to send a personalized SMS every first day of the month at 8 PM to all customers living in Paris.
 
-![](../assets/workflow-channel-example2.png)
+![](../assets/workflow-channel-example2.png)-->
 
 <!-- Scheduled emails available?
 
