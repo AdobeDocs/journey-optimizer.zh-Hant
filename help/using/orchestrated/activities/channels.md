@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 7842bd150b6c15f21a30b778d42520cc42237d82
+source-git-commit: 28284b3d42a0e78add3470ef128dd740f9cc9dfd
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 16%
+source-wordcount: '950'
+ht-degree: 15%
 
 ---
 
@@ -55,7 +55,7 @@ UNUSED IDs in BJ
 
 | 歡迎使用協調的行銷活動 | 首次建立協調的行銷活動 | 查詢資料庫 | 協調的行銷活動 |
 |---|---|---|---|
-| [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>[設定步驟](../configuration-steps.md)<br/><br/>[建立協調行銷活動的重要步驟](../gs-campaign-creation.md) | [建立協調的行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用查詢Modeler](../orchestrated-rule-builder.md)<br/><br/>[建置您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/>[並加入](and-join.md) - [建置對象](build-audience.md) - [變更維度](change-dimension.md) - **[頻道活動](channels.md)** - [合併](combine.md) - [重複資料刪除](deduplication.md) - [擴充](enrichment.md) - [分支](fork.md) - [調解](reconciliation.md) - [分割](split.md) - [等待](wait.md) |
+| [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>[設定步驟](../configuration-steps.md)<br/><br/>[建立協調行銷活動的重要步驟](../gs-campaign-creation.md) | [建立協調的行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用查詢Modeler](../orchestrated-rule-builder.md)<br/><br/>[建置您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/>[並加入](and-join.md) - [建置對象](build-audience.md) - [變更維度](change-dimension.md) - **[頻道活動](channels.md)** - [合併](combine.md) - [重複資料刪除](deduplication.md) - [擴充](enrichment.md) - [分支](fork.md) - [調解](reconciliation.md) - [分割](split.md) - [等待](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -63,17 +63,18 @@ UNUSED IDs in BJ
 
 <br/>
 
-[!DNL Adobe Journey Optimizer]可讓您跨管道自動執行行銷活動。 您可以將頻道活動結合到協調的行銷活動畫布中，以建立跨頻道協調的行銷活動，其可根據客戶行為和資料觸發動作。
+[!DNL Adobe Journey Optimizer]可讓您跨管道（電子郵件、簡訊和推播通知）自動執行行銷活動。 您可以將這些頻道活動結合至行銷活動畫布，以建立跨頻道協調的行銷活動，其可根據客戶行為和資料觸發動作。
 
-例如，您可以建立一個歡迎電子郵件活動，其中包括跨不同管道的一系列訊息，例如電子郵件、簡訊和推播。您還可以在客戶完成購買後傳送後續追蹤電子郵件，或透過簡訊向客戶傳送個人化的生日祝賀訊息。
+例如：
+* 透過電子郵件、簡訊和推播傳送歡迎系列。
+* 在購買後提供後續電子郵件。
+* 透過簡訊傳送個人化生日問候。
 
-透過使用管道活動，您可以建立全面且個人化的行銷活動，在多個接觸點吸引客戶並促進轉換。 支援的管道包括電子郵件、簡訊和推播。
+使用管道活動，您即可建立全面性和個人化的行銷活動，從多個接觸點和客戶互動並提升轉換率。
 
 >[!PREREQUISITES]
 >
->在新增管道活動之前，您必須定義對象。 對象是您傳送的主要目標：接收訊息的設定檔。 [瞭解如何使用建置對象活動](build-audience.md)
-
-若要在協調的行銷活動內容中設定傳送，請遵循下列步驟。
+>在新增管道活動之前，請使用[建置對象活動](build-audience.md)來定義目標對象。
 
 ## 新增管道活動並定義其屬性 {#add}
 
@@ -81,53 +82,57 @@ UNUSED IDs in BJ
 
    ![影像顯示具有可用活動的畫布](../assets/channel-add.png)
 
-1. 選取新增的活動，然後依據所選的頻道，按一下&#x200B;**[!UICONTROL 編輯電子郵件]**、**[!UICONTROL 編輯簡訊]**&#x200B;或&#x200B;**[!UICONTROL 編輯推播]**&#x200B;按鈕。
+1. 選取活動並按一下&#x200B;**[!UICONTROL 編輯電子郵件]**、**[!UICONTROL 編輯簡訊]**&#x200B;或&#x200B;**[!UICONTROL 編輯推播]** （視選取的頻道而定）。
 
    ![影像顯示具有電子郵件活動的畫布](../assets/channel-edit.png)
 
-1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;標籤中，輸入行銷活動的說明，然後前往&#x200B;**[!UICONTROL 動作]**&#x200B;標籤設定活動。
+1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;索引標籤中，輸入說明，然後切換至&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤以設定活動。
 
 ## 設定管道組態和設定 {#configuration}
 
 使用&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤選取訊息的通道設定，並設定其他設定，例如追蹤、內容實驗或多語言內容。
 
-1. 選擇用於訊息的頻道設定。
+1. 選取通道設定。
 
    設定是由[系統管理員](../../start/path/administrator.md)所定義。 它包含所有用於傳送訊息的技術參數，如標頭參數、子網域、行動應用程式等等。[瞭解如何設定頻道設定](../../configuration/channel-surfaces.md)。
 
    顯示[動作]區段的![影像](../assets/channel-actions.png)
 
-1. 對於電子郵件和簡訊，請使用&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段中的選項來追蹤收件者對電子郵件或簡訊傳遞的反應。 執行行銷活動後，即可從行銷活動報表存取追蹤結果。 [進一步瞭解行銷活動報告](../../reports/campaign-global-report-cja.md)
+1. 追蹤參與（適用於電子郵件和簡訊）。
 
-1. 對於推播通知，請使用&#x200B;**[!UICONTROL 快速傳送模式]**&#x200B;選項，在推播頻道上執行高速訊息傳送，以傳送至3000萬名以下的對象。
+   使用&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段來追蹤收件者對您的電子郵件或簡訊傳遞的反應。 執行行銷活動後，即可從行銷活動報表存取追蹤結果。 [進一步瞭解行銷活動報告](../../reports/campaign-global-report-cja.md)
+
+1. 啟用快速傳遞模式（用於推播）。
 
    快速傳送模式是[!DNL Journey Optimizer]附加元件，允許透過行銷活動以非常快的速度傳送大量推送訊息。 當您想要在行動電話上傳送緊急推播警報（例如傳送重大新聞給已安裝您新聞頻道應用程式的使用者）時，如果訊息傳送延遲對業務至關重要，則會使用快速傳送。 如需使用快速傳遞模式時效能的詳細資訊，請參閱[Adobe Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html)。
 
-1. 使用&#x200B;**[!UICONTROL 內容實驗]**&#x200B;區段來定義多個傳遞處理，以測量哪個傳遞處理對目標對象執行得最好。 按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;按鈕，然後依照本節詳述的步驟進行： [建立內容實驗](../../content-management/content-experiment.md)。
+1. 建立內容實驗。
+
+   使用&#x200B;**[!UICONTROL 內容實驗]**&#x200B;區段來定義多個傳遞處理，以測量哪個傳遞處理對目標對象執行得最好。 按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;按鈕，然後依照本節詳述的步驟進行： [建立內容實驗](../../content-management/content-experiment.md)。
+
+1. 新增多語言內容。
+
+   使用&#x200B;**[!UICONTROL 語言]**&#x200B;區段在您的行銷活動中以多種語言建立內容。 若要這麼做，請按一下&#x200B;**[!UICONTROL 新增語言]**&#x200B;按鈕，然後選取所需的&#x200B;**[!UICONTROL 語言設定]**。 本節提供如何設定及使用多語言功能的詳細資訊： [開始使用多語言內容](../../content-management/multilingual-gs.md)
 
    ![影像顯示內容實驗區段](../assets/channel-experiment.png)
-
-1. 使用&#x200B;**[!UICONTROL 語言]**&#x200B;區段在您的行銷活動中以多種語言建立內容。 若要這麼做，請按一下&#x200B;**[!UICONTROL 新增語言]**&#x200B;按鈕，然後選取所需的&#x200B;**[!UICONTROL 語言設定]**。 本節提供如何設定及使用多語言功能的詳細資訊： [開始使用多語言內容](../../content-management/multilingual-gs.md)
 
 設定您的頻道活動後，請選取&#x200B;**[!UICONTROL 內容]**&#x200B;索引標籤以定義其內容。
 
 ## 定義內容 {#content}
 
-使用&#x200B;**[!UICONTROL Content]**&#x200B;索引標籤來定義訊息的內容。 內容建立程式取決於所選的頻道。 在以下頁面瞭解建立訊息內容的詳細步驟。
+切換至&#x200B;**[!UICONTROL Content]**&#x200B;標籤以建立您的訊息。 步驟程式會因所選的管道而有所不同。 在以下頁面瞭解建立訊息內容的詳細步驟。
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
-<td><a href="../../email/create-email.md"><img alt="電子郵件" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>電子郵件</strong></a></td>
-<td><a href="../../sms/create-sms.md"><img alt="簡訊" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>簡訊</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="推播" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>推播通知</strong></a></td>
+<td><a href="../../email/create-email.md"><img alt="電子郵件" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>建立電子郵件</strong></a></td>
+<td><a href="../../sms/create-sms.md"><img alt="簡訊" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>建立簡訊</strong></a></td>
+<td><a href="../../push/create-push.md"><img alt="推播" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>建立推播通知</strong></a></td>
 </tr></table>
 
-定義內容後，請使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以從CSV / JSON檔案上傳或手動新增的測試設定檔或範例輸入資料來預覽和測試您的內容。 [了解更多](../../content-management/preview-test.md)
+內容建立後，請使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以從CSV / JSON檔案上傳或手動新增的測試設定檔或範例輸入資料來預覽和測試您的內容。 [了解更多](../../content-management/preview-test.md)
 
 ## 後續步驟 {#next}
 
-當訊息內容準備就緒時，請使用&#x200B;**[!UICONTROL 上一步]**&#x200B;箭頭返回您精心安排的行銷活動。
-
-您現在可以在畫布中完成活動協調，並發佈行銷活動以開始傳送訊息。 [瞭解如何開始及監視協調的行銷活動](../start-monitor-campaigns.md)
+當訊息內容準備就緒時，請使用&#x200B;**[!UICONTROL 上一步]**&#x200B;箭頭返回您精心安排的行銷活動。 然後，您可以在畫布中完成活動協調，並發佈行銷活動以開始傳送訊息。 [瞭解如何開始及監視協調的行銷活動](../start-monitor-campaigns.md)
 
 ![顯示返回按鈕的影像](../assets/channel-back.png)
 
