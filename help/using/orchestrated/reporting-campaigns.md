@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 1a76d5349de807fe106535424940a8eca3922797
+source-git-commit: 5e4d64c4236898683a1ebb5ab2a19be4fcd15d79
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 10%
+source-wordcount: '262'
+ht-degree: 11%
 
 ---
 
@@ -30,6 +30,34 @@ ht-degree: 10%
 
 策劃的行銷活動透過其強大的報告功能，為您提供可操作的深入分析。 這些見解可協助您更瞭解對象行為、評估客戶歷程中每個步驟的績效，並做出資料導向式決策，以將未來的行銷活動最佳化。 有了詳細的量度和視覺效果，您可以追蹤參與度並微調目標定位策略，以獲得最大的影響。
 
+
+## 報表型別 {#reporting-types}
+
+<table style="table-layout:auto; width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr style="text-align: left">
+      <th>報告型別</th>
+      <th>說明</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border: 0;">
+      <td><a href="../reports/live-report.md"><img alt="即時報告" src="assets/last-24hours.png"></a></td>
+      <td>
+        使用<b>即時報告</b>，在內建儀表板中即時測量並視覺化協調行銷活動的影響和效能。 從<b>檢視過去24小時的報告</b>功能表執行您精心安排的行銷活動後，<b>即時報告</b>中便會提供資料。 在本節<a href="../reports/live-report.md">中進一步瞭解即時報告</a>。
+      </td>
+    </tr>
+    <tr style="border: 0; background-color: #FFFFFF;">
+      <td><a href="../reports/report-gs-cja.md"><img alt="所有期間報告" src="assets/all-time-report.png"></a></td>
+      <td>
+        協調的行銷活動報告功能與Customer Journey Analytics功能完全整合，實現了兩個平台的報告標準化，並改善資料一致性和可靠性。 深入瞭解<a href="../reports/report-gs-cja.md">所有時間報告</a>。
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## 深入瞭解管道報表
+
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="電子郵件" src="../channels/assets/do-not-localize/email.png">
 <div align="center"><p><a href="../reports/campaign-global-report-cja-email.md"><strong>電子郵件頻道</strong></a></p></div></td>
@@ -38,12 +66,3 @@ ht-degree: 10%
 <td><a href="../reports/campaign-global-report-cja-push.md"><img alt="推播" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><p><a href="../reports/campaign-global-report-cja-push.md"><strong>推播頻道</strong></p></a></div></td>
 </table>
-
-
-## 報表型別 {#reporting-types}
-
-
-| 報告類型 | 說明 |
-|-----|------------|
-| ![](assets/last-24hours.png){zoomable="yes"}{width="50%"} | 使用&#x200B;**[!UICONTROL 即時報告]**，在內建儀表板中即時測量並視覺化協調行銷活動的影響和效能。 從&#x200B;**[!UICONTROL 檢視過去24小時的報告]**&#x200B;功能表執行您精心安排的行銷活動後，**[!UICONTROL 即時報告]**&#x200B;中便會提供資料。 在本節[中進一步瞭解即時報告](../reports/live-report.md)。 |
-| ![](assets/all-time-report.png){zoomable="yes"}{width="50%"} | 協調的行銷活動報告功能與Customer Journey Analytics功能完全整合，實現了兩個平台的報告標準化，並改善資料一致性和可靠性。  在本節[中進一步瞭解所有時間報告](../reports/report-gs-cja.md)。 |
