@@ -12,7 +12,7 @@ exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 21%
+ht-degree: 27%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
 >title="Adobe Experience Platform 資料來源"
->abstract="Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶設定檔的連線。此資料來源是內建和預先設定的，並無法刪除。其設計旨在從即時客戶個人檔案服務擷取並使用資料（例如，檢查進入歷程的人員是否為女性）。"
+>abstract="Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶設定檔的連線。此資料來源是內建和預先設定的，並無法刪除。其旨在從即時客戶輪廓服務中擷取和使用資料 (例如，檢查進入歷程的人員是否為女性)。"
 
 Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶設定檔的連線。此資料來源是內建和預先設定的，並無法刪除。此資料來源旨在擷取及使用即時客戶個人檔案服務的資料（例如，檢查進入歷程的人員是否為女性）。 如需Adobe即時客戶個人檔案的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}。
 

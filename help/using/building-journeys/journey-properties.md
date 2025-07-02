@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 7d5d27d9509dd80fece2e360d58437d26df7c4de
 workflow-type: tm+mt
 source-wordcount: '2392'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="歷程屬性"
->abstract="本區段會顯示歷程屬性。預設情況下，會隱藏唯讀參數。可用設定取決於歷程狀態、您的許可權和產品設定。"
+>abstract="本區段會顯示歷程屬性。預設情況下，會隱藏唯讀參數。可用設定會依據歷程的狀態、您的權限及產品設定而定。"
 
 ## 存取歷程的屬性 {#access-properties}
 
@@ -48,7 +48,7 @@ ht-degree: 15%
 
 **複製技術詳細資料**&#x200B;選項可讓您複製支援團隊可用於疑難排解的歷程相關技術資訊。 已複製下列資訊： `JourneyVersion UID`、`OrgID`、`orgName`、`sandboxName`、`lastDeployedBy`、`lastDeployedAt`。
 
-在本頁[&#128279;](expression/journey-properties.md)進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們。
+在本頁[進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們](expression/journey-properties.md)。
 
 ## 進入與重新進入 {#entrance}
 
@@ -71,7 +71,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="重新進入等待期"
->abstract="設定允許設定檔在單一歷程中再次進入歷程之前的等待時間。 這會防止使用者在選定的期間內重新進入歷程。最長持續時間：90 天。"
+>abstract="設定允許輪廓在單一歷程中再次進入歷程之前的等待時間。這會防止使用者在選定的期間內重新進入歷程。最長持續時間：90 天。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="輪廓入口管理"
 
 啟動&#x200B;**允許重新進入**&#x200B;選項時，會顯示&#x200B;**重新進入等待期間**&#x200B;欄位。 此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或客群資格篩選開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 持續時間上限為90天。
@@ -95,12 +95,12 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="開始日期"
->abstract="選取設定檔可開始進入此歷程的日期。如果未設定開始日期，則預設為歷程的發佈日期。"
+>abstract="選取設定檔可開始進入此歷程的日期。如果沒有設定開始日期，則會預設為歷程的發佈日期。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="結束日期"
->abstract="設定歷程結束的日期。在此日期，作用中設定檔會自動退出歷程，不允許新進入。"
+>abstract="設定歷程結束的日期。在此日期，主要輪廓將自動退出此歷程，且不允許任何新的進入。"
 
 依預設，設定檔發佈後即可進入您的歷程，並可一直保留，直到達到[全域歷程逾時](#global_timeout)。 唯一的例外是循環讀取對象歷程，其中&#x200B;**在循環**&#x200B;上強制重新進入，結束於下一個事件的開始日期。
 
@@ -137,7 +137,7 @@ ht-degree: 15%
 
 自2024年6月Adobe Journey Optimizer發行版本開始，歷程全域逾時已從30天移動至91天。 影響會列於以下的常見問題集中：
 
-單一歷程的&#x200B;**&#x200B;**
+單一歷程的&#x200B;****
 <table style="table-layout:auto">
   <tr style="border: 1;">
     <td>
@@ -181,7 +181,7 @@ ht-degree: 15%
   </tr>
 </table>
 
-針對區段觸發器歷程&#x200B;**&#x200B;**
+針對區段觸發器歷程&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -252,7 +252,7 @@ ht-degree: 15%
 
 Adobe Journey Optimizer會套用在整個歷程中使用的合併原則。 因此，如果在歷程中使用多個對象（例如使用[`inAudience`函式](functions/functioninaudience.md)中的），這會造成與歷程使用的合併原則不一致、引發錯誤並封鎖發佈。 不過，如果在訊息個人化中使用不一致的對象，則儘管不一致，仍不會引發警報。 因此，強烈建議您在訊息個人化使用此對象時，檢查與對象相關聯的合併原則。
 
-若要深入瞭解合併原則，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/overview){target="_blank"}。
+若要深入瞭解合併原則，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}。
 
 >[!NOTE]
 >

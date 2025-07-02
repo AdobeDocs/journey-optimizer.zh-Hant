@@ -10,7 +10,7 @@ exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 source-git-commit: 7de878c316e966129e7dede37f132938d2abbdf8
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 10%
+ht-degree: 50%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
 >title="建置客群活動"
->abstract="**讀取對象**&#x200B;活動可讓您選取將進入協調行銷活動的對象。 此受眾可以是現有Adobe Experience Platform受眾或從CSV檔案提取的受眾。 在協調的行銷活動內容中傳送訊息時，訊息對象未定義於頻道活動中，而是定義於&#x200B;**讀取對象**&#x200B;或&#x200B;**建置對象**&#x200B;活動中。"
+>abstract="**讀取客群**&#x200B;活動可讓您選取將會進入協調的行銷活動客群。此刻群可以是現有的 Adobe Experience Platform 客群，或是從 CSV 檔案中提取的客群。在協調的行銷活動中傳送訊息時，不會在管道活動中定義訊息客群，而是在&#x200B;**讀取客群** 或&#x200B;**建置客群**&#x200B;活動中定義。"
 
 
 +++ 目錄

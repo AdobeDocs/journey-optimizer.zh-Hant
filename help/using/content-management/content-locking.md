@@ -10,7 +10,7 @@ exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
 source-wordcount: '1276'
-ht-degree: 29%
+ht-degree: 30%
 
 ---
 
@@ -34,12 +34,12 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
 >title="已啟用治理"
->abstract="內容鎖定已啟用，並防止修改。"
+>abstract="內容鎖定已啟用並防止修改。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
 >title="唯讀"
->abstract="此內容處於唯讀模式，無法修改。"
+>abstract="此內容為唯讀模式且無法修改。"
 
 Journey Optimizer可讓您鎖定電子郵件範本中的內容，鎖定整個範本或特定結構和元件。 這可防止無意編輯或刪除，讓您更能掌控範本自訂，並改善電子郵件行銷活動的效率和可靠性。
 
@@ -196,4 +196,4 @@ Journey Optimizer可讓您鎖定電子郵件範本中的內容，鎖定整個範
 
 瞭解如何鎖定電子郵件範本中的內容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451618?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
