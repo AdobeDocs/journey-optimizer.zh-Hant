@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: d4cee2680dbe631d93f43d7d165d6874b9e41a47
+source-git-commit: 1a76d5349de807fe106535424940a8eca3922797
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 10%
@@ -45,8 +45,5 @@ ht-degree: 10%
 
 | 報告類型 | 說明 |
 |-----|------------|
-| ![](assets/last-24hours.png){zoomable="yes"}{width="70%"} | 使用&#x200B;**[!UICONTROL 即時報告]**，在內建儀表板中即時測量並視覺化協調行銷活動的影響和效能。 從&#x200B;**[!UICONTROL 檢視過去24小時的報告]**&#x200B;功能表執行您精心安排的行銷活動後，**[!UICONTROL 即時報告]**&#x200B;中便會提供資料。 在本節[中進一步瞭解即時報告](../reports/live-report.md)。 |
-| ![](assets/all-time-report.png){zoomable="yes"}{width="70%"} | 協調的行銷活動報告功能與Customer Journey Analytics功能完全整合，實現了兩個平台的報告標準化，並改善資料一致性和可靠性。  在本節[中進一步瞭解所有時間報告](../reports/report-gs-cja.md)。 |
-
-
-
+| ![](assets/last-24hours.png){zoomable="yes"}{width="50%"} | 使用&#x200B;**[!UICONTROL 即時報告]**，在內建儀表板中即時測量並視覺化協調行銷活動的影響和效能。 從&#x200B;**[!UICONTROL 檢視過去24小時的報告]**&#x200B;功能表執行您精心安排的行銷活動後，**[!UICONTROL 即時報告]**&#x200B;中便會提供資料。 在本節[中進一步瞭解即時報告](../reports/live-report.md)。 |
+| ![](assets/all-time-report.png){zoomable="yes"}{width="50%"} | 協調的行銷活動報告功能與Customer Journey Analytics功能完全整合，實現了兩個平台的報告標準化，並改善資料一致性和可靠性。  在本節[中進一步瞭解所有時間報告](../reports/report-gs-cja.md)。 |
