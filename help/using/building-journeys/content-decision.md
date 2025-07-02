@@ -7,11 +7,13 @@ feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
+badge: label="可用性限制" type="Informative"
 keywords: 活動，決策，內容決定，決定原則，畫布，歷程
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
+source-git-commit: 701b2caeac704149c820ce3bf6338107ab4bc9f8
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 1%
+source-wordcount: '1030'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +21,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->此功能僅適用於一組組織（可用性限制），並將在未來版本中在全球推出。
+>此功能僅適用於某個組織（可用性限制），可在全球推出未來的版本。
 
 [!DNL Journey Optimizer]可讓您透過歷程畫布中的專用&#x200B;**內容決定**&#x200B;活動，將優惠方案納入您的歷程。 然後，您可以新增其他活動（例如[自訂動作](../action/about-custom-action-configuration.md)）至您的歷程，以使用這些個人化優惠鎖定您的對象。
 
@@ -139,7 +141,7 @@ ht-degree: 1%
    >
    >內容決定節點的輸出只能在&#x200B;**[!UICONTROL 進階模式]**&#x200B;中使用。
 
-1. 使用`items`陣列瀏覽[優惠方案目錄結構描述](../experience-decisioning/catalogs.md#access-catalog-schema)。 例如，使用擷取到的第一個選件的`itemName`和擷取到的第二個選件的`itemName`。
+1. 使用[陣列瀏覽](../experience-decisioning/catalogs.md#access-catalog-schema)優惠方案目錄結構描述`items`。 例如，使用擷取到的第一個選件的`itemName`和擷取到的第二個選件的`itemName`。
 
    ![自訂動作的要求引數，包括決定原則](assets/journey-content-decision-custom-action-param-ex.png)
 
