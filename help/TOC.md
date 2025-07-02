@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 7a2c5c414dcb63d362f7decebb281d00b72e9ae7
 workflow-type: tm+mt
-source-wordcount: '2490'
+source-wordcount: '2485'
 ht-degree: 98%
 
 ---
@@ -184,7 +184,6 @@ ht-degree: 98%
       + [建立協調的行銷活動有哪些關鍵步驟](using/orchestrated/gs-campaign-creation.md)
       + [建立並安排行銷活動的時間](using/orchestrated/create-orchestrated-campaign.md)
       + [協調活動](using/orchestrated/orchestrate-activities.md)
-      + [使用協調的行銷活動，傳送訊息](using/orchestrated/send-messages.md)
       + [開始並監視行銷活動](using/orchestrated/start-monitor-campaigns.md)
       + [報告](using/orchestrated/reporting-campaigns.md)
    + 查詢資料庫 {#query-database}
@@ -196,6 +195,7 @@ ht-degree: 98%
       + [合併連結](using/orchestrated/activities/and-join.md)
       + [建置客群](using/orchestrated/activities/build-audience.md)
       + [變更維度](using/orchestrated/activities/change-dimension.md)
+      + [管道活動](using/orchestrated/activities/channels.md)
       + [合併](using/orchestrated/activities/combine.md)
       + [重複資料刪除](using/orchestrated/activities/deduplication.md)
       + [擴充](using/orchestrated/activities/enrichment.md)
@@ -205,7 +205,6 @@ ht-degree: 98%
       + [分割](using/orchestrated/activities/split.md)
       + [測試](using/orchestrated/activities/test.md)
       + [等待](using/orchestrated/activities/wait.md)
-      + [管道活動](using/orchestrated/activities/channels.md)
 + 行銷活動 {#campaigns}
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
    + [建立行銷活動](using/campaigns/create-campaign.md)
