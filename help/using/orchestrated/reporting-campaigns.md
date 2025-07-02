@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
+source-git-commit: ef0d0e54e566d168a4845cd1af57900d54aec0b7
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '262'
 ht-degree: 11%
 
 ---
@@ -30,6 +30,7 @@ ht-degree: 11%
 
 策劃的行銷活動透過其強大的報告功能，為您提供可操作的深入分析。 這些見解可協助您更瞭解對象行為、評估客戶歷程中每個步驟的績效，並做出資料導向式決策，以將未來的行銷活動最佳化。 有了詳細的量度和視覺效果，您可以追蹤參與度並微調目標定位策略，以獲得最大的影響。
 
+![](assets/report-orchestrated.png)
 
 ## 報表型別 {#reporting-types}
 
@@ -45,7 +46,7 @@ ht-degree: 11%
     <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="所有期間報告" src="assets/all-time-report.png"></a></td>
       <td>
-        協調的行銷活動報告功能與Customer Journey Analytics功能完全整合，實現了兩個平台的報告標準化，並改善資料一致性和可靠性。 深入瞭解<a href="../reports/report-gs-cja.md">所有時間報告</a>。
+        <b>所有時間報告</b>與Customer Journey Analytics功能完全整合，可標準化兩個平台的報告，並改善資料一致性和可靠性。 在本節<a href="../reports/report-gs-cja.md">中進一步瞭解所有時間報告</a>。
       </td>
     </tr>
   </tbody>
