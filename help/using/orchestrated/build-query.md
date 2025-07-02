@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
+source-git-commit: d8b83bc46526f721d4dfaf62cf8ba4cbf5a56ce7
 workflow-type: tm+mt
-source-wordcount: '1801'
+source-wordcount: '1798'
 ht-degree: 8%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 8%
 
 | 歡迎使用協調的行銷活動 | 首次建立協調的行銷活動 | 查詢資料庫 | 協調的行銷活動 |
 |---|---|---|---|
-| [開始使用協調的行銷活動](gs-orchestrated-campaigns.md)<br/><br/>[設定步驟](configuration-steps.md)<br/><br/>[存取和管理協調的行銷活動](access-manage-orchestrated-campaigns.md) | [建立協調行銷活動的關鍵步驟](gs-campaign-creation.md)<br/><br/>[建立並排程行銷活動](create-orchestrated-campaign.md)<br/><br/>[協調活動](orchestrate-activities.md)<br/><br/>[傳送包含協調行銷活動的訊息](send-messages.md)<br/><br/>[開始並監視行銷活動](start-monitor-campaigns.md)<br/><br/>[報告](reporting-campaigns.md) | [使用規則產生器](orchestrated-rule-builder.md)<br/><br/><b>[建立您的第一個查詢](build-query.md)</b><br/><br/>[編輯運算式](edit-expressions.md) | [開始使用活動](activities/about-activities.md)<br/><br/>活動：<br/>[並加入](activities/and-join.md) - [建置對象](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [調解](activities/reconciliation.md) - [分割](activities/split.md) - [等待](activities/wait.md) |
+| [開始使用協調的行銷活動](gs-orchestrated-campaigns.md)<br/><br/>[設定步驟](configuration-steps.md)<br/><br/>[存取和管理協調的行銷活動](access-manage-orchestrated-campaigns.md) | [建立協調行銷活動的關鍵步驟](gs-campaign-creation.md)<br/><br/>[建立並排程行銷活動](create-orchestrated-campaign.md)<br/><br/>[協調活動](orchestrate-activities.md)<br/><br/>[開始並監視行銷活動](start-monitor-campaigns.md)<br/><br/>[報告](reporting-campaigns.md) | [使用規則產生器](orchestrated-rule-builder.md)<br/><br/><b>[建立您的第一個查詢](build-query.md)</b><br/><br/>[編輯運算式](edit-expressions.md) | [開始使用活動](activities/about-activities.md)<br/><br/>活動：<br/>[並加入](activities/and-join.md) - [建置對象](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [頻道活動](activities/channels.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [調解](activities/reconciliation.md) - [分割](activities/split.md) - [等待](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -54,7 +54,7 @@ ht-degree: 8%
    >
    >**編輯運算式**&#x200B;按鈕可讓您使用運算式編輯器，使用資料庫和協助程式函式的欄位來手動定義運算式。 [瞭解如何編輯運算式](../orchestrated/edit-expressions.md)
 
-1. 按一下屬性旁顯示[更多動作]按鈕![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)的影像，以存取這些其他選項：
+1. 按一下屬性旁顯示[更多動作]按鈕![的](assets/do-not-localize/rule-builder-icon-more.svg)影像，以存取這些其他選項：
 
 +++ 值分佈
 
@@ -105,9 +105,9 @@ ht-degree: 8%
    | 類似 | 與Contains運運算元類似，它可讓您在值中插入%萬用字元。 | 姓氏(@lastName)類似&#39;Jon%s&#39;。 萬用字元可當做「小丑」來尋找「Jones」之類的名稱。 |
    | Not like | 與Contains運運算元類似，它可讓您在值中插入%萬用字元。 | 姓氏(@lastName)不像&#39;Smi%h&#39;。 不會傳回姓氏為&#39;Smith&#39;的收件者。 |
 
-   +++
++++
 
-1. 在&#x200B;**值**&#x200B;欄位中，定義預期的值。 您也可以使用運算式編輯器，以使用資料庫和協助程式函式的欄位，手動定義運算式。 若要這麼做，請按一下顯示運算式編輯器圖示![&#128279;](assets/do-not-localize/rule-builder-icon-editor.svg)圖示的影像。 [瞭解如何編輯運算式](../orchestrated/edit-expressions.md)
+1. 在&#x200B;**值**&#x200B;欄位中，定義預期的值。 您也可以使用運算式編輯器，以使用資料庫和協助程式函式的欄位，手動定義運算式。 若要這麼做，請按一下顯示運算式編輯器圖示![圖示的](assets/do-not-localize/rule-builder-icon-editor.svg)影像。 [瞭解如何編輯運算式](../orchestrated/edit-expressions.md)
 
    對於日期型別屬性，預先定義的值可使用&#x200B;**[!UICONTROL 預設集]**&#x200B;選項。
 
@@ -115,7 +115,7 @@ ht-degree: 8%
 
    ![影像顯示預設集選項](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### 連結表格的自訂條件（1-1和1-N連結）{#links}
 
@@ -203,7 +203,7 @@ ht-degree: 8%
 
 * 若要群組兩個現有條件，請選取兩個條件之一，然後按一下![向上移動選取範圍圖示](assets/do-not-localize/rule-builder-icon-up.svg)或![向下移動選取範圍圖示](assets/do-not-localize/rule-builder-icon-down.svg)按鈕，以群組條件高於或低於。
 
-* 若要將現有條件群組為新條件，請選取條件，按一下顯示[更多動作]按鈕(assets/do-not-localize/rule-builder-icon-more.svg)按鈕的![影像，然後選取[新增群組]]&#x200B;**。**&#x200B;選取要新增至群組的新屬性，然後確認。
+* 若要將現有條件群組為新條件，請選取條件，按一下顯示[更多動作]按鈕![按鈕的](assets/do-not-localize/rule-builder-icon-more.svg)影像，然後選取[新增群組]**[!UICONTROL 。]**&#x200B;選取要新增至群組的新屬性，然後確認。
 
   ![](assets/rule-builder-edit-groups.png)
 

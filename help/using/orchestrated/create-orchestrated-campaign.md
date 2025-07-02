@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 3eeb84e57af655bef669be8e9fc9ae7a024b1ab0
+source-git-commit: d8b83bc46526f721d4dfaf62cf8ba4cbf5a56ce7
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1122'
 ht-degree: 11%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 11%
 
 | 歡迎使用協調的行銷活動 | 首次建立協調的行銷活動 | 查詢資料庫 | 協調的行銷活動 |
 |---|---|---|---|
-| [開始使用協調的行銷活動](gs-orchestrated-campaigns.md)<br/><br/>[設定步驟](configuration-steps.md)<br/><br/>[存取和管理協調的行銷活動](access-manage-orchestrated-campaigns.md) | [建立協調行銷活動的關鍵步驟](gs-campaign-creation.md)<br/><br/><b>[建立並排程行銷活動](create-orchestrated-campaign.md)</b><br/><br/>[協調活動](orchestrate-activities.md)<br/><br/>[傳送包含協調行銷活動的訊息](send-messages.md)<br/><br/>[開始並監視行銷活動](start-monitor-campaigns.md)<br/><br/>[報告](reporting-campaigns.md) | [使用規則產生器](orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](build-query.md)<br/><br/>[編輯運算式](edit-expressions.md) | [開始使用活動](activities/about-activities.md)<br/><br/>活動：<br/>[並加入](activities/and-join.md) - [建置對象](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [調解](activities/reconciliation.md) - [分割](activities/split.md) - [等待](activities/wait.md) |
+| [開始使用協調的行銷活動](gs-orchestrated-campaigns.md)<br/><br/>[設定步驟](configuration-steps.md)<br/><br/>[存取和管理協調的行銷活動](access-manage-orchestrated-campaigns.md) | [建立協調行銷活動的關鍵步驟](gs-campaign-creation.md)<br/><br/><b>[建立並排程行銷活動](create-orchestrated-campaign.md)</b><br/><br/>[協調活動](orchestrate-activities.md)<br/><br/>[開始並監視行銷活動](start-monitor-campaigns.md)<br/><br/>[報告](reporting-campaigns.md) | [使用規則產生器](orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](build-query.md)<br/><br/>[編輯運算式](edit-expressions.md) | [開始使用活動](activities/about-activities.md)<br/><br/>活動：<br/>[並加入](activities/and-join.md) - [建置對象](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [頻道活動](activities/channels.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [調解](activities/reconciliation.md) - [分割](activities/split.md) - [等待](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -79,7 +79,7 @@ ht-degree: 11%
 
 若要設定行銷活動排程，請遵循下列步驟：
 
-1. 開啟行銷活動，並儘快按一下&#x200B;**&#x200B;**&#x200B;按鈕。
+1. 開啟行銷活動，並儘快按一下&#x200B;****&#x200B;按鈕。
 
    ![](assets/create-schedule.png)
 
@@ -92,7 +92,7 @@ ht-degree: 11%
    * **[!UICONTROL 日期]**：選取應執行行銷活動的日期。
    * **[!UICONTROL 時間]**：選取行銷活動應執行的特定時間。
 
-   +++
++++
 
    +++每日
 
@@ -106,7 +106,7 @@ ht-degree: 11%
 
    * **[!UICONTROL 開始時間]**：定義行銷活動每天應執行的時間。
 
-   +++
++++
 
    +++一天幾次
 
@@ -115,7 +115,7 @@ ht-degree: 11%
    * **[!UICONTROL 選取的時數]**：選取行銷活動應執行的特定時間，並設定其每日週期（在一週的每一天或某些天執行）。
    * **[!UICONTROL 定期]**：選擇每n分鐘或每小時執行一次行銷活動。 您也可以定義一天內允許執行的時間範圍。
 
-   +++
++++
 
    +++每週
 
@@ -126,7 +126,7 @@ ht-degree: 11%
    * **[!UICONTROL 每日週期]**：選擇一週中的特定日期來執行（例如，每個星期一和星期四）。
    * **[!UICONTROL 開始時間]**：設定行銷活動在選定日期應該執行的時間。
 
-   +++
++++
 
    +++每月
 
@@ -142,7 +142,7 @@ ht-degree: 11%
 
    * **[!UICONTROL 開始時間]**：設定行銷活動應執行的時間。
 
-   +++
++++
 
 1. 使用&#x200B;**[!UICONTROL 有效期間]**&#x200B;設定來定義特定的開始和結束日期，將行銷活動的執行限制在有限的時間範圍內。
 
