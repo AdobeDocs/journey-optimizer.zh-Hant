@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: d8b83bc46526f721d4dfaf62cf8ba4cbf5a56ce7
+source-git-commit: e01715416659270ddf75eb9fdb8f0eb03063bd7b
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 14%
+source-wordcount: '256'
+ht-degree: 10%
 
 ---
 
@@ -28,8 +28,25 @@ ht-degree: 14%
 
 <br/>
 
->[!BEGINSHADEBOX]
+策劃的行銷活動透過其強大的報告功能，為您提供可操作的深入分析。 這些見解可協助您更瞭解對象行為、評估客戶歷程中每個步驟的績效，並做出資料導向式決策，以將未來的行銷活動最佳化。 有了詳細的量度和視覺效果，您可以追蹤參與度並微調目標定位策略，以獲得最大的影響。
 
-檔案處理中
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><img alt="電子郵件" src="../channels/assets/do-not-localize/email.png">
+<div align="center"><p><a href="../reports/campaign-global-report-cja-email.md"><strong>電子郵件頻道</strong></a></p></div></td>
+<td><a href="../reports/campaign-global-report-cja-sms.md"><img alt="簡訊" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><p><a href="../reports/campaign-global-report-cja-sms.md"><strong>簡訊頻道</strong></a></p></div></td>
+<td><a href="../reports/campaign-global-report-cja-push.md"><img alt="推播" src="../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><p><a href="../reports/campaign-global-report-cja-push.md"><strong>推播頻道</strong></p></a></div></td>
+</table>
 
->[!ENDSHADEBOX]
+
+## 報表型別 {#reporting-types}
+
+
+| 報告類型 | 說明 |
+|-----|------------|
+| ![](assets/last-24hours.png){zoomable="yes"}{width="70%"} | 使用&#x200B;**[!UICONTROL 即時報告]**，在內建儀表板中即時測量並視覺化協調行銷活動的影響和效能。 從&#x200B;**[!UICONTROL 檢視過去24小時的報告]**&#x200B;功能表執行您精心安排的行銷活動後，**[!UICONTROL 即時報告]**&#x200B;中便會提供資料。 在本節[中進一步瞭解即時報告](live-report.md)。 |
+| ![](assets/all-time-report.png){zoomable="yes"}{width="70%"} | 協調的行銷活動報告功能與Customer Journey Analytics功能完全整合，實現了兩個平台的報告標準化，並改善資料一致性和可靠性。  在本節[中進一步瞭解所有時間報告](report-gs-cja.md)。 |
+
+
+
