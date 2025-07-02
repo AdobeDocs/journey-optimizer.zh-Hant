@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 1a4cd7df44cb54aaf4d18409574f5ceb9537935c
+source-git-commit: 85d322e5855c6e658a3a93dc0f3d644ef79437b5
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 16%
+source-wordcount: '985'
+ht-degree: 17%
 
 ---
 
@@ -99,29 +99,13 @@ UNUSED IDs in BJ
 
    設定是由[系統管理員](../../start/path/administrator.md)所定義。 它包含所有用於傳送訊息的技術參數，如標頭參數、子網域、行動應用程式等等。[瞭解如何設定頻道設定](../../configuration/channel-surfaces.md)。
 
-1. 視管道而定，有數個選項可供使用。 瀏覽下列標籤以取得詳細資訊：
-
-   >[!BEGINTABS]
-
-   >[!TAB 電子郵件]
-
-   使用&#x200B;**[!UICONTROL 追蹤電子郵件開啟]**&#x200B;和&#x200B;**[!UICONTROL 追蹤電子郵件中連結和按鈕的點按]**&#x200B;選項，來追蹤收件者對您的傳遞的反應。
+1. 針對電子郵件和簡訊，使用追蹤選項來監視收件者對您的電子郵件或簡訊傳遞的反應。
 
    執行行銷活動後，即可從行銷活動報表存取追蹤結果。 [進一步瞭解行銷活動報告](../reports/campaign-global-report-cja.md)
 
-   >[!TAB 簡訊]
+1. 對於推播通知，請使用&#x200B;**[!UICONTROL 快速傳送模式]**&#x200B;選項，在推播頻道上執行高速訊息傳送，以傳送至3000萬名以下的對象。
 
-   使用&#x200B;**[!UICONTROL 追蹤簡訊中連結的點按次數]**&#x200B;選項來追蹤簡訊中連結的點按次數。
-
-   執行行銷活動後，即可從行銷活動報表存取追蹤結果。 [進一步瞭解行銷活動報告](../reports/campaign-global-report-cja.md)
-
-   >[!TAB 推播]
-
-   快速傳遞模式是&#x200B;**[!DNL Journey Optimizer]**&#x200B;附加元件，允許以大數量快速傳送推播訊息。
-
-   啟用&#x200B;**[!UICONTROL 快速傳送模式]**&#x200B;選項，以在推播頻道上執行高速訊息傳送，傳送給人數不到3000萬的觀眾。 [了解更多](../push/create-push.md#rapid-delivery)
-
-   >[!ENDTABS]
+   快速傳遞模式是&#x200B;**[!DNL Journey Optimizer]**&#x200B;附加元件，允許以大數量快速傳送推播訊息。 [了解更多](../push/create-push.md#rapid-delivery)
 
 1. **[!UICONTROL 內容實驗]**&#x200B;區段可讓您定義多個傳遞處理方式，以測量哪個方式最適合您的目標對象。
 
