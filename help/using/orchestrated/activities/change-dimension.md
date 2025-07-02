@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 7de878c316e966129e7dede37f132938d2abbdf8
+source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 23%
@@ -65,6 +65,6 @@ ht-degree: 23%
 
 開始使用&#x200B;**[!UICONTROL 願望清單]**&#x200B;目標維度的&#x200B;**[!UICONTROL 建立對象]**&#x200B;活動，以選取所有相關的願望清單。
 
-接著，插入&#x200B;**[!UICONTROL 變更維度]**&#x200B;活動，將目標維度從&#x200B;**[!UICONTROL 願望清單]**&#x200B;切換為&#x200B;**&#x200B;**&#x200B;[!UICONTROL 收件者]**。 這可讓協調的行銷活動傳送SMS至與這些願望清單相關聯的設定檔。
+接著，插入&#x200B;**[!UICONTROL 變更維度]**&#x200B;活動，將目標維度從&#x200B;**[!UICONTROL 願望清單]**&#x200B;切換為&#x200B;**[!UICONTROL 收件者]**。 這可讓協調的行銷活動傳送SMS至與這些願望清單相關聯的設定檔。
 
-![](../assets/change-dimension-example.png)
+![](../assets/orchestrated-change-dimension-example.png)

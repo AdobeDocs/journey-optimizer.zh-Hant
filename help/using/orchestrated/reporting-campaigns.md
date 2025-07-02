@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 5e4d64c4236898683a1ebb5ab2a19be4fcd15d79
+source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '259'
 ht-degree: 11%
 
 ---
@@ -34,20 +34,15 @@ ht-degree: 11%
 ## 報表型別 {#reporting-types}
 
 <table style="table-layout:auto; width: 100%; border-collapse: collapse;">
-  <thead>
-    <tr style="text-align: left">
-      <th>報告型別</th>
-      <th>說明</th>
-    </tr>
-  </thead>
   <tbody>
-    <tr style="border: 0;">
+    <tr>
       <td><a href="../reports/live-report.md"><img alt="即時報告" src="assets/last-24hours.png"></a></td>
       <td>
         使用<b>即時報告</b>，在內建儀表板中即時測量並視覺化協調行銷活動的影響和效能。 從<b>檢視過去24小時的報告</b>功能表執行您精心安排的行銷活動後，<b>即時報告</b>中便會提供資料。 在本節<a href="../reports/live-report.md">中進一步瞭解即時報告</a>。
       </td>
+        </br>
     </tr>
-    <tr style="border: 0; background-color: #FFFFFF;">
+    <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="所有期間報告" src="assets/all-time-report.png"></a></td>
       <td>
         協調的行銷活動報告功能與Customer Journey Analytics功能完全整合，實現了兩個平台的報告標準化，並改善資料一致性和可靠性。 深入瞭解<a href="../reports/report-gs-cja.md">所有時間報告</a>。
