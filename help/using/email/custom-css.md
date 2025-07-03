@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: css，編輯器，摘要，電子郵件
-source-git-commit: a4055d1c4b6d75a04b71067df0c8f5499bae24d6
+exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
+source-git-commit: 707815ddfdca656cdf341f103bee3440e9700270
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '727'
 ht-degree: 7%
 
 ---
@@ -40,15 +41,17 @@ ht-degree: 7%
 
 1. 按一下&#x200B;**[!UICONTROL 新增自訂CSS]**&#x200B;按鈕。
 
+   >[!NOTE]
+   >
+   >**[!UICONTROL 新增自訂CSS]**&#x200B;按鈕僅在選取&#x200B;**[!UICONTROL 內文]**&#x200B;時可用。 不過，您可以將自訂CSS樣式套用至內容內的所有元件。
+
 1. 在彈出的專用文字區域中輸入您的CSS代碼。 請確定自訂CSS有效並遵循正確語法。 [了解更多](#use-valid-css)
 
    ![在專用文字區域中輸入自訂CSS](assets/email-body-custom-css.png){width="65%"}
 
    >[!NOTE]
    >
-   >**[!UICONTROL 新增自訂CSS]**&#x200B;按鈕僅在選取&#x200B;**[!UICONTROL 內文]**&#x200B;時可用。 不過，您可以將自訂CSS樣式套用至內容內的所有元件。
-   >
-   >使用具有鎖定內容[&#128279;](../content-management/content-locking.md#use)的範本時，您無法新增自訂CSS至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
+   >使用具有鎖定內容[的](../content-management/content-locking.md#use)範本時，您無法新增自訂CSS至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
 
 1. 儲存自訂CSS並確認自訂CSS已正確套用至您的內容。 如果不是這種情況，請檢視[疑難排解](#troubleshooting)區段。
 
@@ -164,7 +167,7 @@ body {
 
 ## 技術實作 {#implementation}
 
-您的自訂CSS已新增到`<head>`區段的結尾，做為具有`data-name="global-custom"`屬性的`<style>`標籤的一部分，如下面的範例所示。 這可確保自訂樣式可全域套用至內容。
+您的自訂CSS已新增到`<head>`區段的結尾，做為具有`<style>`屬性的`data-name="global-custom"`標籤的一部分，如下面的範例所示。 這可確保自訂樣式可全域套用至內容。
 
 ```html
 <!DOCTYPE html>
@@ -201,12 +204,6 @@ body {
 
 電子郵件Designer的&#x200B;**[!UICONTROL 設定]**&#x200B;窗格不會解譯或驗證自訂CSS。 它是完全獨立的，而且只能透過&#x200B;**[!UICONTROL 新增自訂CSS]**&#x200B;選項進行修改。
 
-如果`global-custom`樣式標籤將屬性`data-disabled`設定為`true`，則不會套用自訂CSS。 例如：
-
-```html
-<style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
-```
-
 ### 匯入的內容
 
 如果您想要搭配匯入電子郵件Designer的內容使用自訂CSS，請考慮下列事項：
@@ -224,7 +221,13 @@ body {
 
 * 請確定您的CSS有效，且沒有語法錯誤（例如缺少大括弧、屬性名稱不正確）。 [了解作法](#use-valid-css)
 
-* 確定您的CSS已新增至具有`data-name="global-custom"`屬性的`<style>`標籤，且`data-disabled`未套用至`global-custom`。 [了解更多](#implementation)
+* 確定您的CSS已新增至具有`<style>`屬性的`data-name="global-custom"`標籤。
+
+* 檢查`global-custom`樣式標籤是否已將屬性`data-disabled`設定為`true`。 若是如此，則不會套用自訂CSS。 例如：
+
+  ```html
+  <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+  ```
 
 * 確保您的CSS不會被其他CSS規則覆寫，包括任何套用至您內容的[主題](apply-email-themes.md)。
 
