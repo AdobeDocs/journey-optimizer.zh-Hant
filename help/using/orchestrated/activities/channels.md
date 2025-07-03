@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 28284b3d42a0e78add3470ef128dd740f9cc9dfd
+source-git-commit: da292bdb81d322485a00cc60d995e04d30ad4e11
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '956'
 ht-degree: 15%
 
 ---
@@ -102,7 +102,7 @@ UNUSED IDs in BJ
 
    使用&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段來追蹤收件者對您的電子郵件或簡訊傳遞的反應。 執行行銷活動後，即可從行銷活動報表存取追蹤結果。 [進一步瞭解行銷活動報告](../../reports/campaign-global-report-cja.md)
 
-1. 啟用快速傳遞模式（用於推播）。
+1. 啟用快速傳送模式（針對推播）。
 
    快速傳送模式是[!DNL Journey Optimizer]附加元件，允許透過行銷活動以非常快的速度傳送大量推送訊息。 當您想要在行動電話上傳送緊急推播警報（例如傳送重大新聞給已安裝您新聞頻道應用程式的使用者）時，如果訊息傳送延遲對業務至關重要，則會使用快速傳送。 如需使用快速傳遞模式時效能的詳細資訊，請參閱[Adobe Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html)。
 
@@ -129,6 +129,8 @@ UNUSED IDs in BJ
 </tr></table>
 
 內容建立後，請使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以從CSV / JSON檔案上傳或手動新增的測試設定檔或範例輸入資料來預覽和測試您的內容。 [了解更多](../../content-management/preview-test.md)
+
+顯示[模擬內容]按鈕的![影像](../assets/channel-simulate.png)
 
 ## 後續步驟 {#next}
 
