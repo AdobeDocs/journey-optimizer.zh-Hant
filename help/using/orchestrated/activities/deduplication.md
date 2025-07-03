@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
-source-git-commit: 28284b3d42a0e78add3470ef128dd740f9cc9dfd
+source-git-commit: de769ae29f933e3bfa520e67b9193666f3f2cef5
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 33%
@@ -59,7 +59,7 @@ ht-degree: 33%
 
 1. 在&#x200B;**[!UICONTROL &#x200B;用於識別重複資料的欄位&#x200B;]**&#x200B;區段，按一下&#x200B;**[!UICONTROL &#x200B;新增屬性]**&#x200B;按鈕以指定可允許識別重複資料之相同值的欄位，例如：電子郵件地址、名字、姓氏等。欄位的順序可讓您指定首要處理的條件。
 
-![](../assets/deduplication-1.png)
+   ![](../assets/deduplication-1.png)
 
 1. 在&#x200B;**[!UICONTROL 重複資料刪除設定]**&#x200B;區段中，選擇要使用[要保留的重複專案]欄位保留多少不重複記錄。 預設值為1，這會在每個重複群組保留一個記錄。 將其設為0可保留所有重複專案。
 
