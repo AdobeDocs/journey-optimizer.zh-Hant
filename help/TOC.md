@@ -190,7 +190,7 @@ ht-degree: 98%
       + [使用規則產生器來工作](using/orchestrated/orchestrated-rule-builder.md)
       + [建立首次規則](using/orchestrated/build-query.md)
       + [編輯運算式](using/orchestrated/edit-expressions.md)
-      + [重新目標定位](using/orchestrated/retarget)
+      + [重新目標定位] (using/orchestrated/retarget)
    + 協調的行銷活動 {#design-campaigns}
       + [開始使用活動](using/orchestrated/activities/about-activities.md)
       + [合併連結](using/orchestrated/activities/and-join.md)
