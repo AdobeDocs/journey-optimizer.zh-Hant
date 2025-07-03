@@ -1,27 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用讀取對象活動
-description: 瞭解如何在協調的行銷活動中使用讀取對象活動
-badge: label="Alpha"
+title: 使用Adobe Journey Optimizer開始和監視協調的行銷活動
+description: 瞭解如何使用Adobe Journey Optimizer開始及監控協調的行銷活動。
 hide: true
 hidefromtoc: true
-exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 source-git-commit: 6439be00315dfde7ab385d7f848b7031d95060f4
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 48%
+source-wordcount: '107'
+ht-degree: 11%
 
 ---
 
-# 讀取對象 {#read-audience}
-
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_read_audience"
->title="建置客群活動"
->abstract="**讀取客群**&#x200B;活動可讓您選取將會進入協調的行銷活動客群。此刻群可以是現有的 Adobe Experience Platform 客群，或是從 CSV 檔案中提取的客群。在協調的行銷活動中傳送訊息時，不會在管道活動中定義訊息客群，而是在&#x200B;**讀取客群** 或&#x200B;**建置客群**&#x200B;活動中定義。"
-
+# 重新鎖定 {#retarget}
 
 +++ 目錄
 
@@ -33,5 +24,8 @@ ht-degree: 48%
 
 +++
 
+>[!BEGINSHADEBOX]
 
+檔案處理中
 
+>[!ENDSHADEBOX]
