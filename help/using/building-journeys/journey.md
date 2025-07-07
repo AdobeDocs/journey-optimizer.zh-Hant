@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 歷程, 探索, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 6c4bfc4544afc84d4a8685562f716c258a2acbab
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 90%
+source-wordcount: '387'
+ht-degree: 87%
 
 ---
 
@@ -40,13 +40,7 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程從業人員跨�
 
 [歷程設計器](using-the-journey-designer.md)提供[內建頻道操作](journeys-message.md)，可支援輸出訊息，例如電子郵件、推播通知和 SMS/MMS，以及傳入頻道，包括行動應用程式、網站和直接在 Journey Optimizer 建立的程式碼型體驗。 您也可以使用第三方系統來傳送訊息 (不論是透過電子郵件、文字或其他管道)，Journey Optimizer 包含[自訂動作](using-custom-actions.md)，以允許這些系統直接從歷程設計器整合到歷程中。
 
-瞭解如何在下列端對端使用案例中建立歷程：
-
-* [傳送多頻道訊息](journeys-uc.md)
-* [使用 Campaign v7/v8 傳送訊息](ajo-ac.md)
-* [傳送訊息給訂閱者](message-to-subscribers-uc.md)
-* [使用自訂動作動態傳遞集合](collections.md)
-* [使用「外部資料來源」與「自訂動作」限制輸送量](limit-throughput.md)
+瞭解如何在這些端對端使用案例[中建置歷程](jo-use-cases.md)。
 
 >[!NOTE]
 >
@@ -56,4 +50,4 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程從業人員跨�
 
 探索歷程的元件，並瞭解在畫布中建立歷程的基本概念。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430349?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
