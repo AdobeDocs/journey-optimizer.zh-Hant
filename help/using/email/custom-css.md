@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: css，編輯器，摘要，電子郵件
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: 707815ddfdca656cdf341f103bee3440e9700270
+source-git-commit: c72e6c1ff9d1ce1510f8571d82e56ae21c63194d
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '733'
 ht-degree: 7%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 7%
 >
 >避免使用可能無意中破壞內容版面或功能的CSS。
 
-### 有效的CSS
++++ CSS範例
 
 以下是有效CSS的範例。
 
@@ -139,8 +139,9 @@ ht-degree: 7%
   }
 }
 ```
++++
 
-### 無效的CSS
++++ 無效CSS的範例
 
 如果輸入的CSS無效，則會顯示錯誤訊息，指出CSS無法儲存。 以下是無效的CSS範例。
 
@@ -164,10 +165,13 @@ ht-degree: 7%
 body {
   background: red;
 ```
++++
 
 ## 技術實作 {#implementation}
 
 您的自訂CSS已新增到`<head>`區段的結尾，做為具有`<style>`屬性的`data-name="global-custom"`標籤的一部分，如下面的範例所示。 這可確保自訂樣式可全域套用至內容。
+
++++ 請參閱範例
 
 ```html
 <!DOCTYPE html>
@@ -201,10 +205,11 @@ body {
   </body>
 </html>
 ```
++++
 
 電子郵件Designer的&#x200B;**[!UICONTROL 設定]**&#x200B;窗格不會解譯或驗證自訂CSS。 它是完全獨立的，而且只能透過&#x200B;**[!UICONTROL 新增自訂CSS]**&#x200B;選項進行修改。
 
-### 匯入的內容
+### 護欄 — 匯入內容
 
 如果您想要搭配匯入電子郵件Designer的內容使用自訂CSS，請考慮下列事項：
 
@@ -223,20 +228,28 @@ body {
 
 * 確定您的CSS已新增至具有`<style>`屬性的`data-name="global-custom"`標籤。
 
-* 檢查`global-custom`樣式標籤是否已將屬性`data-disabled`設定為`true`。 若是如此，則不會套用自訂CSS。 例如：
+* 檢查`global-custom`樣式標籤是否已將屬性`data-disabled`設定為`true`。 若是如此，則不會套用自訂CSS。
+
++++ 例如：
 
   ```html
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
++++
+
 * 確保您的CSS不會被其他CSS規則覆寫，包括任何套用至您內容的[主題](apply-email-themes.md)。
 
    * 使用您的瀏覽器開發人員工具來檢查內容，並確認您的CSS是否鎖定正確的選取器。
 
-   * 請考慮將`!important`加入宣告中，以確保它們優先。 例如：
+   * 請考慮將`!important`加入宣告中，以確保它們優先。
+
++++ 例如：
 
      ```css
      .acr-Form {
        background: red !important;
      }
      ```
+
++++
