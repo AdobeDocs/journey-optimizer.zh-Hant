@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: css，編輯器，摘要，電子郵件
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: edf82b966588a792c660430ced2cfe72c6b88216
+source-git-commit: 5593758448216efcc82971b1072b7fc8c9303572
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 7%
@@ -142,6 +142,7 @@ ht-degree: 7%
 
 +++
 
+
 +++ 無效CSS的範例
 
 如果輸入的CSS無效，則會顯示錯誤訊息，指出CSS無法儲存。 以下是無效的CSS範例。
@@ -209,6 +210,7 @@ body {
 ```
 
 +++
+
 
 電子郵件Designer的&#x200B;**[!UICONTROL 設定]**&#x200B;窗格不會解譯或驗證自訂CSS。 它是完全獨立的，而且只能透過&#x200B;**[!UICONTROL 新增自訂CSS]**&#x200B;選項進行修改。
 
