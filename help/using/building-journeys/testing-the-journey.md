@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 392bf9871ee39aa8a5279661814daff9482be0fd
 workflow-type: tm+mt
 source-wordcount: '1767'
 ht-degree: 8%
@@ -29,7 +29,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->在測試您的歷程之前，您必須解決所有錯誤（如果有的話）。 在[本節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)中測試之前，請先瞭解如何檢查錯誤。
+>在測試您的歷程之前，您必須解決所有錯誤（如果有的話）。 在[本節](../building-journeys/troubleshooting.md)中測試之前，請先瞭解如何檢查錯誤。
 
 若要使用測試模式，請遵循下列步驟：
 

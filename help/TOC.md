@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a214afd830b9a0f37268b7e298e742470004e2a0
+source-git-commit: 392bf9871ee39aa8a5279661814daff9482be0fd
 workflow-type: tm+mt
-source-wordcount: '2492'
+source-wordcount: '2491'
 ht-degree: 97%
 
 ---
@@ -176,7 +176,7 @@ ht-degree: 97%
       + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
    + 疑難排解 {#troubleshoot-journey}
       + [疑難排解歷程錯誤](using/building-journeys/troubleshooting.md)
-      + [疑難排解您的歷程執行](using/building-journeys/troubleshooting-execution.md)
+      + [疑難排解歷程執行](using/building-journeys/troubleshooting-execution.md)
       + [疑難排解傳入動作](using/building-journeys/troubleshooting-inbound.md)
 + 協調的行銷活動 {#orchestrated-campaigns}
    + [開始使用協調行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
