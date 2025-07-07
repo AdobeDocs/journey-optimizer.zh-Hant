@@ -8,10 +8,10 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 使用案例、多管道、歷程、事件
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: ce4946047cefec759cf80e26f39f3f82c486c27e
+source-git-commit: e08bf74d2f6c5dcb338a5a1b9aa4b29d63e9e8db
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 14%
+source-wordcount: '358'
+ht-degree: 11%
 
 ---
 
@@ -106,7 +106,28 @@ ht-degree: 14%
 <a href="limit-throughput.md">
 <img alt="使用「外部資料來源」與「自訂動作」限制輸送量" src="../assets/do-not-localize/icon-first-journey.svg">
 </a>
-<div><a href="limit-throughput.md"><strong>限制外部資料來源和自訂動作的輸送量</strong>
+<div><a href="limit-throughput.md"><strong>限制外部資料來源和自訂動作的輸送量</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
+
+## 部落格貼文
+
+瀏覽下列部落格，在建置歷程時尋找更多指引和最佳實務：
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<img alt="部落格貼文" src="../assets/do-not-localize/community.jpeg">
+<div>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400" target="_blank">使用案例：如何在Adobe Journey Optimizer中只在工作日傳送電子郵件</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396" target="_blank">使用案例：進階核准策略</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">使用案例：可自訂上傳的快速外部Audience Activation</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510" target="_blank">使用案例：每日頻率限定</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445" target="_blank">最佳實務：讀取對象歷程</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270" target="_blank">使用案例：測試您的歷程</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900" target="_blank">使用案例：核准工作流程</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958" target="_blank">使用案例：歷程登入與退出條件</a></p>
 </div>
 <p>
 </td>
