@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: 8a5026cdeb63b7b261ec0dfa690c5bd41d7de772
+source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '459'
 ht-degree: 29%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 29%
 
    ![](../assets/workflow-test-default.png)
 
-1. 您可以新增多個輸出轉變到&#x200B;**[!UICONTROL 測試]**&#x200B;活動。 若要這麼做，請按一下&#x200B;**[!UICONTROL 新增條件]**&#x200B;按鈕，並為每個轉變設定標籤和相關聯的條件。
+1. 您可以新增多個輸出轉變到&#x200B;**[!UICONTROL 測試]**&#x200B;活動。 若要這麼做，請按一下&#x200B;**[!UICONTROL 新增條件]**按鈕，並為每個轉變設定標籤和相關聯的條件。
 v
 1. 在協調的行銷活動執行期間，將循序測試每個條件，直至滿足其中一個條件。如果未符合任何條件，則協調的行銷活動會沿著&#x200B;**[!UICONTROL 預設條件]**&#x200B;的路徑繼續。 如果沒有啟用預設條件，工作流程將在此時停止。
 

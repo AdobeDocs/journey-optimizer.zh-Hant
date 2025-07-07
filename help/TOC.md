@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
+source-git-commit: a214afd830b9a0f37268b7e298e742470004e2a0
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2492'
 ht-degree: 97%
 
 ---
@@ -62,10 +62,6 @@ ht-degree: 97%
       + [結束您的歷程](using/building-journeys/end-journey.md)
       + [將歷程複製到另一個沙箱](using/building-journeys/copy-to-sandbox.md)
       + [與 Intelligent Services 整合](using/building-journeys/ai-services-overview.md)
-   + 疑難排解 {#troubleshoot-journey}
-      + [疑難排解歷程錯誤](using/building-journeys/troubleshooting.md)
-      + [疑難排解您的歷程執行](using/building-journeys/troubleshooting-execution.md)
-      + [疑難排解傳入動作](using/building-journeys/troubleshooting-inbound.md)
    + 活動 {#about-journey-building}
       + [開始使用歷程活動](using/building-journeys/about-journey-activities.md)
       + [一般事件](using/building-journeys/general-events.md)
@@ -178,12 +174,16 @@ ht-degree: 97%
       + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
       + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
       + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
+   + 疑難排解 {#troubleshoot-journey}
+      + [疑難排解歷程錯誤](using/building-journeys/troubleshooting.md)
+      + [疑難排解您的歷程執行](using/building-journeys/troubleshooting-execution.md)
+      + [疑難排解傳入動作](using/building-journeys/troubleshooting-inbound.md)
 + 協調的行銷活動 {#orchestrated-campaigns}
    + [開始使用協調行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
    + [設定步驟](using/orchestrated/configuration-steps.md)
    + [存取並管理協調的行銷活動](using/orchestrated/access-manage-orchestrated-campaigns.md)
    + 首次建立協調的行銷活動{#launch}
-      + [建立協調的行銷活動有哪些關鍵步驟](using/orchestrated/gs-campaign-creation.md)
+      + [建立協調行銷活動的重要步驟](using/orchestrated/gs-campaign-creation.md)
       + [建立並安排行銷活動的時間](using/orchestrated/create-orchestrated-campaign.md)
       + [協調活動](using/orchestrated/orchestrate-activities.md)
       + [開始並監視行銷活動](using/orchestrated/start-monitor-campaigns.md)

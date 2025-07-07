@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 8a5026cdeb63b7b261ec0dfa690c5bd41d7de772
+source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '628'
 ht-degree: 32%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 32%
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="選取目標市場選擇維度"
 >abstract="選取要調和之輸入資料的目標市場選擇維度。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=zh-Hant&#targeting-dimensions" text="目標市場選擇維度"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?#targeting-dimensions" text="目標市場選擇維度"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
@@ -104,7 +104,7 @@ ht-degree: 32%
 
    ![](../assets/workflow-reconciliation-criteria.png)
 
-1. 若要新增更多相符規則，請按一下[新增規則]。**&#x200B;** 必須符合所有條件，才會發生比對。
+1. 若要新增更多相符規則，請按一下[新增規則]。**** 必須符合所有條件，才會發生比對。
 
 1. 如需更複雜的條件，請選擇&#x200B;**[!UICONTROL 進階調解條件]**。 使用[查詢模型工具](../orchestrated-rule-builder.md)來定義自訂邏輯。
 
