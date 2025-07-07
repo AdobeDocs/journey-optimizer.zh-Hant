@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
+source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
 workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 8%
@@ -110,7 +110,7 @@ ht-degree: 8%
 
    ![](assets/cbe-template-insert-policy.png)
 
-1. 在`{{#each}}`標籤之後，使用上述[的](#add-editable-fields)說明&#x200B;**內嵌**&#x200B;語法，插入對應至您要新增之可編輯表單欄位的代碼。 以唯一ID取代`"name"`以識別可編輯的欄位。 在此範例中，請使用「title」。
+1. 在`{{#each}}`標籤之後，使用上述&#x200B;**的**&#x200B;說明[內嵌](#add-editable-fields)語法，插入對應至您要新增之可編輯表單欄位的代碼。 以唯一ID取代`"name"`以識別可編輯的欄位。 在此範例中，請使用「title」。
 
    ![](assets/cbe-template-policy-inline.png){width="90%"}
 
@@ -149,8 +149,8 @@ ht-degree: 8%
 >
 >參考JSON裝載中的內嵌欄位時：
 >
->   * 字串型別欄位必須括在雙引號中。
->   * 整數或布林值不可使用雙引號括住。 （請參閱上述範例中的`number_of_items`欄位。）
+>* 字串型別欄位必須括在雙引號中。
+>* 整數或布林值不可使用雙引號括住。 （請參閱上述範例中的`number_of_items`欄位。）
 
 具有決策的&#x200B;**JSON範本：**
 
@@ -246,4 +246,4 @@ ht-degree: 8%
 
 瞭解如何將可編輯的欄位新增至程式碼型體驗管道內容範本。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464002/?learn=on&#x26;enablevpops&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)
