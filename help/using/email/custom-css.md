@@ -139,6 +139,7 @@ ht-degree: 7%
   }
 }
 ```
+
 +++
 
 +++ 無效CSS的範例
@@ -165,6 +166,7 @@ ht-degree: 7%
 body {
   background: red;
 ```
+
 +++
 
 ## 技術實作 {#implementation}
@@ -205,6 +207,7 @@ body {
   </body>
 </html>
 ```
+
 +++
 
 電子郵件Designer的&#x200B;**[!UICONTROL 設定]**&#x200B;窗格不會解譯或驗證自訂CSS。 它是完全獨立的，而且只能透過&#x200B;**[!UICONTROL 新增自訂CSS]**&#x200B;選項進行修改。
