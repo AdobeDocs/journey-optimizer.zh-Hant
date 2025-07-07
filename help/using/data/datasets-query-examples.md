@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 資料集，最佳化工具，使用案例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 3df87ee9028217d353d657167e541e7d113c6065
+source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '916'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,9 @@ ht-degree: 2%
 * [實體資料集](#entity-dataset)
 
 若要檢視每個結構描述的欄位與屬性完整清單，請參閱 [Journey Optimizer 結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}。
+
+另請參閱幾個查詢歷程步驟事件[的常用](../reports/query-examples.md)範例。
+
 
 ## 電子郵件追蹤體驗事件資料集{#email-tracking-experience-event-dataset}
 
@@ -234,6 +237,11 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeID,
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
+
+
+另請參閱幾個查詢歷程步驟事件[的常用](../reports/query-examples.md)範例。
+
+
 
 ## 決策事件資料集{#ode-decisionevents}
 
