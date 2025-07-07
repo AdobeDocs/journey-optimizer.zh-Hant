@@ -8,10 +8,10 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 使用案例、多管道、歷程、事件
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: e08bf74d2f6c5dcb338a5a1b9aa4b29d63e9e8db
+source-git-commit: 676bda4d11ea2bf775c78542b392a1a35ca2c891
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 11%
+source-wordcount: '394'
+ht-degree: 10%
 
 ---
 
@@ -122,7 +122,6 @@ ht-degree: 11%
 <div>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400" target="_blank">使用案例：如何在Adobe Journey Optimizer中只在工作日傳送電子郵件</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396" target="_blank">使用案例：進階核准策略</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">使用案例：可自訂上傳的快速外部Audience Activation</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510" target="_blank">使用案例：每日頻率限定</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445" target="_blank">最佳實務：讀取對象歷程</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270" target="_blank">使用案例：測試您的歷程</a></p>
@@ -131,4 +130,18 @@ ht-degree: 11%
 </div>
 <p>
 </td>
+<td>
+<img alt="歷程中的步驟事件" src="../assets/do-not-localize/step-event.jpeg">
+<div>
+<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024" target="_blank">在Adobe Journey Optimizer中掌握步驟事件：資料導向行銷活動的基礎知識、結構描述和基本查詢
+</a>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">使用案例：可自訂上傳的快速外部Audience Activation</a></p>
+</div>
+<p></td>
+<td>
+<img alt="自訂動作" src="../assets/do-not-localize/extend.jpeg">
+<div><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">如何使用自訂動作延伸Adobe Journey Optimizer：整合使用案例
+</a>
+</div>
+<p></td>
 </tr></table>
