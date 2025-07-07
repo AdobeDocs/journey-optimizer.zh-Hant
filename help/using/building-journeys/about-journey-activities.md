@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 歷程，活動，開始，事件，動作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 527a539272460aa6aa22de5bb3da2223521ee2a3
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 13%
+source-wordcount: '688'
+ht-degree: 15%
 
 ---
 
@@ -62,8 +62,6 @@ ht-degree: 13%
 
 這些活動代表不同的可用通訊通道。您可以將其合併，以建立跨管道情境。
 
-<!--If you have configured custom actions, they also appear here. [Learn more](../building-journeys/using-custom-actions.md)-->
-
 您也可以設定傳送訊息的特定動作：
 
 * 如果您使用協力廠商系統來傳送訊息，則可建立特定的自訂動作。 [了解更多](../action/action.md)
@@ -80,7 +78,7 @@ ht-degree: 13%
 
 大部分活動可讓您定義&#x200B;**[!UICONTROL 標籤]**。 這會將尾碼新增至畫布中顯示在活動下方的名稱中。 如果您在歷程中多次使用相同的活動，且想要更輕鬆地識別它們，這會很有用。 這樣還可以更輕鬆地在發生錯誤時進行偵錯，並讓報表更易於閱讀。 您也可以新增選用的&#x200B;**[!UICONTROL 描述]**。
 
-![](assets/journey-action-label.png)
+![歷程活動屬性中的標籤和說明欄位](assets/journey-action-label.png)
 
 >[!NOTE]
 >
@@ -90,18 +88,24 @@ ht-degree: 13%
 
 大多數活動會顯示許多您無法修改的進階及/或技術引數。
 
-![](assets/journey-advanced-parameters.png)
+![歷程活動屬性中的進階引數欄位](assets/journey-advanced-parameters.png)
 
 為了更好的可讀性，請使用&#x200B;**[!UICONTROL 隱藏唯讀欄位]**&#x200B;按鈕來隱藏這些引數。
 
-![](assets/journey-hide-read-only-fields.png)
+![隱藏歷程活動屬性中的唯讀欄點陣圖示](assets/journey-hide-read-only-fields.png)
 
 在某些特定內容中，您可以覆寫這些引數的值以供特定用途。 若要強制執行值，請按一下欄位右側的&#x200B;**[!UICONTROL 啟用參數覆寫]**&#x200B;圖示。[了解更多](../configuration/primary-email-addresses.md#journey-parameters)
 
-![](assets/journey-enable-parameter-override.png)
+![在電子郵件活動屬性中啟用引數覆寫選項](assets/journey-enable-parameter-override.png)
 
 ### 新增替代路徑
 
 當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法是核取方塊&#x200B;**[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**。 請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
 
-![](assets/journey42.png)
+![在條件活動屬性中新增替代路徑選項](assets/journey42.png)
+
+## 疑難排解 {#troubleshooting}
+
+在測試和發佈您的歷程之前，請先確認所有活動皆已正確設定。如果系統仍偵測到錯誤，則無法進行測試或發佈。
+
+在此頁面[上瞭解如何疑難排解活動及歷程](troubleshooting.md)中的錯誤。
