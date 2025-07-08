@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
-source-git-commit: fa53fbe84a0d9c20a47e3d9f312b1673ab0611ca
+source-git-commit: 6ede06256038f781cfb8307bacc4e731b0323a8c
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 2%
@@ -34,7 +34,7 @@ ht-degree: 2%
     <div><strong>疑難排解歷程執行</strong><br/>瞭解如何疑難排解歷程事件、檢查設定檔是否進入您的歷程、如何導覽歷程，以及是否傳送訊息。</div>
     </td>
     <td>
-    <a href="./building-journeys/troubleshooting-inbound.md" "><img src="../assets/do-not-localize/in-app.jpg"></a>
+    <a href="..building-journeys/troubleshooting-inbound.md" "><img src="../assets/do-not-localize/in-app.jpg"></a>
     <div><strong>疑難排解傳入動作</strong><br/>瞭解如何偵錯歷程中傳入動作的相關問題，以協助您自行識別並解決這些問題。</div>
     </td>
     <td>
@@ -45,7 +45,7 @@ ht-degree: 2%
   <tr style="border: 0;">
     <td align="center"><a href="../building-journeys/troubleshooting.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="../building-journeys/troubleshooting-execution.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="./building-journeys/troubleshooting-inbound.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="../building-journeys/troubleshooting-inbound.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="../action/troubleshoot-custom-action.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
