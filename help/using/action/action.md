@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，歷程，訊息，傳送，連線
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: bb2272e6959d896fb6b3286cec2c16a545a9f671
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 48%
+source-wordcount: '285'
+ht-degree: 46%
 
 ---
 
@@ -44,8 +44,10 @@ ht-degree: 48%
 
 ![](assets/custom1.png)
 
+瞭解如何在此專屬頁面[上疑難排解自訂動作](../action/troubleshoot-custom-action.md)。
+
 ## 作法影片 {#video}
 
 瞭解如何設定自訂動作。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430271?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)

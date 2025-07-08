@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 84c65ee3f890685a12653c07ef06a179515f602d
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2494'
 ht-degree: 97%
 
 ---
@@ -175,9 +175,11 @@ ht-degree: 97%
       + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
       + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
    + 疑難排解 {#troubleshoot-journey}
+      + [疑難排解您的歷程](using/building-journeys/gs-troubleshooting.md)
       + [疑難排解歷程錯誤](using/building-journeys/troubleshooting.md)
       + [疑難排解歷程執行](using/building-journeys/troubleshooting-execution.md)
       + [疑難排解傳入動作](using/building-journeys/troubleshooting-inbound.md)
+      + [設定自訂動作](using/action/troubleshoot-custom-action.md)
 + 協調的行銷活動 {#orchestrated-campaigns}
    + [開始使用協調行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
    + [設定步驟](using/orchestrated/configuration-steps.md)
@@ -770,7 +772,6 @@ ht-degree: 97%
    + 動作設定 {#action-journeys}
       + [開始使用自訂動作](using/action/action.md)
       + [設定自訂動作](using/action/about-custom-action-configuration.md)
-      + [設定自訂動作](using/action/troubleshoot-custom-action.md)
       + [在自訂動作中使用 API 呼叫回應](using/action/action-response.md)
 + 連線系統和環境 {#connect-systems}
    + [與其他解決方案整合](using/integrations/ajo-integrations.md)
