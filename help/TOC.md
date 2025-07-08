@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fa53fbe84a0d9c20a47e3d9f312b1673ab0611ca
+source-git-commit: 54d5b3386da4eed53fca79a2135ab54548855150
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2496'
 ht-degree: 97%
 
 ---
@@ -184,6 +184,7 @@ ht-degree: 97%
    + [開始使用協調行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
    + [設定步驟](using/orchestrated/configuration-steps.md)
    + [存取並管理協調的行銷活動](using/orchestrated/access-manage-orchestrated-campaigns.md)
+   + [護欄與限制](using/orchestrated/guardrails.md)
    + 首次建立協調的行銷活動{#launch}
       + [建立協調行銷活動的重要步驟](using/orchestrated/gs-campaign-creation.md)
       + [建立並安排行銷活動的時間](using/orchestrated/create-orchestrated-campaign.md)
