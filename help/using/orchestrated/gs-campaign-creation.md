@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 4840dd87f82d3c9b8cfa5a565ee661bb492cff50
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '367'
 ht-degree: 3%
 
 ---
@@ -43,24 +43,30 @@ ht-degree: 3%
 
 ## 步驟1：建立並排程您的行銷活動 {#create}
 
-首先，您需要建立協調的行銷活動，並定義&#x200B;*何時應執行*。 無論是單次推播或循環歷程，您都能完整控制時間與頻率。
+首先，您需要建立協調的行銷活動，並定義&#x200B;*何時應執行*。 無論是單次推播或循環多頻道行銷活動，您都能完整控制時間與頻率。
 
-👉 [瞭解如何建立和排程行銷活動](../orchestrated/create-orchestrated-campaign.md)
+➡️ [瞭解如何建立和排程行銷活動](../orchestrated/create-orchestrated-campaign.md)
 
 ## 步驟2：協調行銷活動 {#orchestrate}
 
 行銷活動一旦建立，就應該設計其背後的邏輯。 使用視覺畫布，您可以結合目標定位、傳送和流量控制活動，以塑造客戶體驗。
 
-👉 [瞭解如何協調活動](../orchestrated/orchestrate-activities.md)
+➡️ [瞭解如何協調活動](../orchestrated/orchestrate-activities.md)
 
 ## 步驟3：開始並監視您的行銷活動 {#start}
 
 您即將完成！ 先以測試模式執行行銷活動以找出任何問題。 然後發佈並即時監視即時執行 — 追蹤進度、檢查錯誤，並檢視設定檔在每個步驟的流程。
 
-👉 [瞭解如何開始和監視行銷活動](../orchestrated/start-monitor-campaigns.md)
+➡️ [瞭解如何開始和監視行銷活動](../orchestrated/start-monitor-campaigns.md)
 
 ## 步驟4：分析和報告結果 {#report}
 
 上市後，請使用內建報表來瞭解運作成果，以及可改進的專案。 即時儀表板和深入分析可協助您最佳化未來的行銷活動，並調整策略。
 
-👉 [瞭解報告](../orchestrated/reporting-campaigns.md)
+➡️ [瞭解報告](../orchestrated/reporting-campaigns.md)
+
+## 若要更進一步：根據參與度重新鎖定目標 {#retarget}
+
+行銷活動執行後，您可以根據設定檔與您的訊息的互動方式（不論是開啟或按一下連結）重新定位設定檔，以更進一步。 這可讓您追蹤量身打造的訊息、重新與不活躍的使用者互動，或進一步關注興趣。
+
+➡️ [瞭解如何根據意見反應事件重新進行目標定位](../orchestrated/retarget.md)
