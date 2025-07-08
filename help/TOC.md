@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
+source-git-commit: 84c65ee3f890685a12653c07ef06a179515f602d
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 97%
@@ -356,20 +356,6 @@ ht-degree: 97%
       + [建立 LINE 訊息](using/line/create-line.md)
       + [檢查並傳送 LINE 訊息](using/line/send-line.md)
 + 內容管理 {#content-management}
-   + 登陸頁面 {#landing-pages}
-      + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
-      + [建立登陸頁面](using/landing-pages/create-lp.md)
-      + [管理登陸頁面](using/landing-pages/manage-lp.md)
-      + 設計內容 {#landing-pages-design}
-         + [關於登陸頁面設計](using/landing-pages/design-lp.md)
-         + [建立登陸頁面內容](using/landing-pages/lp-content.md)
-         + [建立範本](using/landing-pages/lp-templates.md)
-         + [新增自訂 JavaScript](using/landing-pages/lp-custom-js.md)
-      + [建立訂閱清單](using/landing-pages/subscription-list.md)
-      + [透過使用案例了解](using/landing-pages/lp-use-cases.md)
-      + 設定登陸頁面 {#lp-configuration}
-         + [設定登陸頁面子網域](using/landing-pages/lp-subdomains.md)
-         + [定義登陸頁面預設集](using/landing-pages/lp-presets.md)
    + 個人化 {#personalization}
       + [開始使用個人化](using/personalization/personalize.md)
       + [新增個人化](using/personalization/personalization-build-expressions.md)
@@ -392,6 +378,20 @@ ht-degree: 97%
          + [訂單狀態通知](using/personalization/personalization-use-case.md)
          + [放棄購物車電子郵件](using/personalization/personalization-use-case-helper-functions.md)
          + [健康計劃處方電子郵件](using/personalization/perso-uc-plan-prescriptions.md)
+   + 登陸頁面 {#landing-pages}
+      + [開始使用登陸頁面](using/landing-pages/get-started-lp.md)
+      + [建立登陸頁面](using/landing-pages/create-lp.md)
+      + [管理登陸頁面](using/landing-pages/manage-lp.md)
+      + 設計內容 {#landing-pages-design}
+         + [關於登陸頁面設計](using/landing-pages/design-lp.md)
+         + [建立登陸頁面內容](using/landing-pages/lp-content.md)
+         + [建立範本](using/landing-pages/lp-templates.md)
+         + [新增自訂 JavaScript](using/landing-pages/lp-custom-js.md)
+      + [建立訂閱清單](using/landing-pages/subscription-list.md)
+      + [透過使用案例了解](using/landing-pages/lp-use-cases.md)
+      + 設定登陸頁面 {#lp-configuration}
+         + [設定登陸頁面子網域](using/landing-pages/lp-subdomains.md)
+         + [定義登陸頁面預設集](using/landing-pages/lp-presets.md)
    + 內容範本 {#content-templates}
       + [開始使用內容範本](using/content-management/content-templates.md)
       + [存取並管理範本](using/content-management/access-content-templates.md)
