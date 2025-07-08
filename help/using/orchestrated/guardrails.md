@@ -5,19 +5,14 @@ title: 協調的行銷活動護欄和限制
 description: 瞭解協調的行銷活動護欄和限制
 hide: true
 hidefromtoc: true
-source-git-commit: 54d5b3386da4eed53fca79a2135ab54548855150
+source-git-commit: d9fb9462c52eb8a79fd2c9bd6bdb5381d318453f
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 11%
+source-wordcount: '260'
+ht-degree: 5%
 
 ---
 
 # 護欄與限制 {#guardrails}
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_publication"
->title="發佈協調的行銷活動"
->abstract="若要開始您的行銷活動，您必須發佈該活動。在發佈前，請確定已經清除所有警告。"
 
 +++ 目錄
 
