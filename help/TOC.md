@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
+source-git-commit: fa53fbe84a0d9c20a47e3d9f312b1673ab0611ca
 workflow-type: tm+mt
-source-wordcount: '2494'
+source-wordcount: '2493'
 ht-degree: 97%
 
 ---
@@ -179,7 +179,7 @@ ht-degree: 97%
       + [疑難排解歷程錯誤](using/building-journeys/troubleshooting.md)
       + [疑難排解歷程執行](using/building-journeys/troubleshooting-execution.md)
       + [疑難排解傳入動作](using/building-journeys/troubleshooting-inbound.md)
-      + [設定自訂動作](using/action/troubleshoot-custom-action.md)
+      + [疑難排解自訂動作](using/action/troubleshoot-custom-action.md)
 + 協調的行銷活動 {#orchestrated-campaigns}
    + [開始使用協調行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
    + [設定步驟](using/orchestrated/configuration-steps.md)
