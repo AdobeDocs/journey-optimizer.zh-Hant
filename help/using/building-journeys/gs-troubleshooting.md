@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
-source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
+source-git-commit: d2364bcf395707c5a6acdfea0609a5ddf89c1b02
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '247'
 ht-degree: 3%
 
 ---
@@ -21,17 +21,37 @@ ht-degree: 3%
 
 瀏覽以下頁面，深入瞭解特定的疑難排解主題：
 
-* **[疑難排解歷程錯誤](../building-journeys/troubleshooting.md)**
-瞭解如何識別及解決歷程層級的錯誤，包括設定問題和平台層級問題。
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+  <td>
+    <div><img alt="疑難排解歷程錯誤" src="../assets/do-not-localize/troubleshooting.jpeg" /> 
+    <br><ul><li><a href="../building-journeys/troubleshooting.md">疑難排解歷程錯誤</a> — 瞭解如何在測試或發佈之前識別並解決活動或歷程錯誤，以及如何定義在歷程活動發生錯誤時的遞補動作。</li>
+    <li><a href="../building-journeys/troubleshooting-execution.md">疑難排解歷程執行</a> — 瞭解如何疑難排解歷程事件、檢查設定檔是否進入您的歷程、如何導覽歷程，以及是否傳送訊息。</li>
+     <li><a href="../building-journeys/troubleshooting-inbound.md">疑難排解傳入動作</a> — 瞭解如何偵錯歷程中傳入動作的相關問題，以協助您自行識別和解決問題。</li>
+     <li><a href="../action/troubleshoot-custom-action.md">疑難排解自訂動作</a> — 瞭解如何從Journey Optimizer使用者介面的管理區段傳送API呼叫，以測試您的自訂動作。 此功能可協助您在歷程中使用自訂動作之前或之後，進行疑難排解。</li>
+    <ul>
+    <div>
+     <a href="../integrations/ajo-integrations.md">了解更多</a></div>
+    </div>
+    <br>
+  </td>
+</tr>
+</table>
 
-* **[疑難排解歷程執行](../building-journeys/troubleshooting-execution.md)**
-瞭解如何追蹤參與者流程、準確指出延遲，以及處理非預期的執行行為。
+<!--
+* **[Troubleshoot journey errors](../building-journeys/troubleshooting.md)**
+  Learn how to identify and resolve activity or journey errors before test or publication, and how to define a fallback action in case of an error in journey activities.
 
-* **[疑難排解傳入動作](../building-journeys/troubleshooting-inbound.md)**
-取得診斷傳入事件、Webhook和觸發程式問題（啟動或更新歷程）的協助。
+* **[Troubleshoot journey execution](../building-journeys/troubleshooting-execution.md)**
+  Understand how to troubleshoot journey events, check if profiles entered your journey, how they navigate through it, and if messsages are sent.
 
-* **[疑難排解自訂動作](../action/troubleshoot-custom-action.md)**
-瞭解如何偵錯和驗證自訂動作，包括資料處理、回應錯誤和整合失敗。
+* **[Troubleshoot inbound actions](../building-journeys/troubleshooting-inbound.md)**
+  Learn how to debug issues related to inbound actions in a journey, in order to help you identify and resolve them on your own.
+
+* **[Troubleshoot a custom action](../action/troubleshoot-custom-action.md)**
+  Learn how to test your custom actions by sending API calls from the administration section of Journey Optimizer user interface. This capability helps you troubleshoot your custom actions before or after using them in a journey.
+
+-->
 
 此外，請查閱此[Adobe社群部落格](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}，其中詳述&#x200B;**常見錯誤碼**&#x200B;以及如何有效解決它們。
 
