@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="可用性限制" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 21%
+source-wordcount: '864'
+ht-degree: 24%
 
 ---
 
@@ -61,7 +61,7 @@ Journey Dirun提供：
 
 >[!CAUTION]
 >
->* 啟動試執行許可權僅限於具有&#x200B;**[!DNL Publish journeys]**&#x200B;高階許可權的使用者。 停止試執行的許可權僅限於具有&#x200B;**[!DNL Manage journeys]**&#x200B;高階許可權的使用者。 在[本節](../administration/permissions-overview.md)中進一步瞭解如何管理[!DNL Journey Optimizer]使用者的存取權。
+>* 啟動試執行許可權僅限於具有&#x200B;**[!DNL Publish journeys]**&#x200B;高階許可權的使用者。 停止試執行的許可權僅限於具有&#x200B;**[!DNL Manage journeys]**&#x200B;高階許可權的使用者。 在[!DNL Journey Optimizer]本節[中進一步瞭解如何管理](../administration/permissions-overview.md)使用者的存取權。
 >
 >* 開始使用試執行功能之前，[請先閱讀護欄和限制](#journey-dry-run-limitations)。
 
@@ -87,24 +87,10 @@ Journey Dirun提供：
 
 啟動乾模式發佈後，您可以視覺化歷程執行以及設定檔如何通過歷程分支和節點進展。
 
-量度會直接顯示在歷程畫布中。
+量度會直接顯示在歷程畫布中。 在歷程畫布的[即時報告中，進一步瞭解歷程即時報告和量度](report-journey.md)。
 
 ![監視歷程練習執行](assets/dry-run-metrics.png)
 
-對於每個活動，在其活動方塊中，您可以核取：
-
-* **[!UICONTROL 已進入]**：進入此活動的個人總數。 對於&#x200B;**動作**&#x200B;活動，由於它們不是在練習模式中執行，因此此量度會指出通過的個人檔案。
-* **[!UICONTROL 已退出（符合退出條件）]**：由於退出條件而從該活動退出歷程的個人總數。
-* **[!UICONTROL 已退出（強制退出）]**：由於歷程從業人員設定而暫停歷程時，已退出歷程的個人總數。 對於處於練習模式的歷程，此量度一律等於零。
-* **[!UICONTROL 錯誤]**：在該活動中發生錯誤的個人總數。
-
-
-在歷程層級，在畫布的左上角，您可以檢查：
-
-* **輸入的設定檔總數**
-* **已退出的設定檔總數**
-* 發生錯誤的&#x200B;**個人檔案總數**
-* 歷程中&#x200B;**捨棄的設定檔**&#x200B;總數
 
 您也可以存取&#x200B;**過去24小時的報告**&#x200B;和&#x200B;**所有時間報告**&#x200B;來試用。 若要存取這些報告，請按一下歷程畫布右上角的&#x200B;**檢視報告**&#x200B;按鈕。
 
