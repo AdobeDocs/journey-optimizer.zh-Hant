@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 54d5b3386da4eed53fca79a2135ab54548855150
+source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
 workflow-type: tm+mt
-source-wordcount: '2496'
-ht-degree: 97%
+source-wordcount: '2502'
+ht-degree: 96%
 
 ---
 
@@ -313,6 +313,7 @@ ht-degree: 97%
       + [建立直接郵件](using/direct-mail/create-direct-mail.md)
       + [檢查並傳送直接郵件訊息](using/direct-mail/test-send-direct-mail.md)
       + [設定直接郵件](using/direct-mail/direct-mail-configuration.md)
+      + [傳送歷程中的直接郵件訊息](using/direct-mail/direct-mail-journeys.md)
    + 網頁管道 {#web}
       + [開始使用網頁管道](using/web/get-started-web.md)
       + 設定網頁管道 {#configure-web-channel}
