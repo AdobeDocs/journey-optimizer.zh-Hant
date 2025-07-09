@@ -6,10 +6,10 @@ description: 瞭解如何使用Adobe Journey Optimizer開始及監控協調的�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: e316c3dbbec028f7501990486506779656990c20
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 9%
+source-wordcount: '738'
+ht-degree: 8%
 
 ---
 
@@ -38,7 +38,9 @@ ht-degree: 9%
 
 ## 發佈前測試您的行銷活動 {#test}
 
-Journey Optimizer可讓您在投入使用前測試協調的行銷活動。 在測試模式中，畫布中的所有活動都會執行，但&#x200B;**[!UICONTROL 儲存對象]**&#x200B;活動和頻道活動除外。 對您的資料或對象沒有功能上的影響。
+[!DNL Journey Optimizer]可讓您在上線之前測試協調的行銷活動。 建立行銷活動時，預設會進入&#x200B;**草稿**&#x200B;狀態。 在此狀態下，您可以手動執行行銷活動以測試流量。
+
+畫布中的所有活動都會執行，但&#x200B;**[!UICONTROL 儲存對象]**&#x200B;活動和頻道活動除外。 對您的資料或對象沒有功能上的影響。
 
 若要測試行銷活動：
 
@@ -47,7 +49,9 @@ Journey Optimizer可讓您在投入使用前測試協調的行銷活動。 在�
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-促銷活動中的每個活動都會依序執行，直到圖表結束為止。 在測試執行期間，您可以使用畫布中的動作列管理行銷活動。 從那裡，您可以：
+促銷活動中的每個活動都會依序執行，直到圖表結束為止。
+
+在測試期間，您可以使用畫布中的動作列來控制行銷活動的執行。 從那裡，您可以：
 
 * **隨時停止**&#x200B;執行。
 * **再次開始**&#x200B;執行。
@@ -59,6 +63,8 @@ Journey Optimizer可讓您在投入使用前測試協調的行銷活動。 在�
 
 您也可以使用直接顯示在每個活動上的[視覺狀態指示器](#activities)，快速識別失敗的活動。 如需詳細的疑難排解，請開啟[行銷活動的記錄](#logs-tasks)，其中提供有關錯誤及其內容的深入資訊。
 
+驗證後，即可發佈行銷活動。
+
 ## 發佈此行銷活動 {#publish}
 
 在您的行銷活動經過測試且準備就緒後，按一下&#x200B;**[!UICONTROL 發佈]**&#x200B;讓行銷活動上線。
@@ -66,6 +72,8 @@ Journey Optimizer可讓您在投入使用前測試協調的行銷活動。 在�
 ![](assets/campaign-publish.png){zoomable="yes"}
 
 視覺流量會重新啟動，而真實設定檔會開始即時流過歷程。
+
+如果發佈動作失敗（例如，由於缺少訊息內容），您會收到警報，必須在重試之前修正問題。 成功發佈後，行銷活動會從&#x200B;**草稿**&#x200B;移至&#x200B;**即時**&#x200B;狀態並開始執行（立即或依排程）。
 
 ## 監視行銷活動的執行 {#monitor}
 
