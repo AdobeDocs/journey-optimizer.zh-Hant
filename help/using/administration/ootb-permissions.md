@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: 許可權，製作，訊息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+source-git-commit: e20db7c39e751bf720cd0ae75b4e8f031de18eef
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 2%
@@ -40,7 +40,7 @@ ht-degree: 2%
 | Journey Optimizer規則 | **[!DNL Manage frequency rules]**：存取、建立、編輯或刪除訊息頻率規則。</br>**[!DNL View frequency rules]**：規則的唯讀存取權。 |
 | 歷程 | **[!DNL Approve & publish Journeys]**：套用原則時核准和發佈歷程的權利。</br> **[!DNL Manage journeys]**：讀取、建立、編輯和刪除歷程。 若要存取及管理歷程，請將此許可權與&#x200B;**[!DNL View journeys events, data sources and actions]**&#x200B;結合。</br>**[!DNL Manage journeys events, data sources and actions]**：讀取、建立、編輯和刪除事件、來源或動作。</br>**[!DNL Publish journeys]**：發佈歷程。</br>**[!DNL View journeys]**：歷程的唯讀存取權。</br>**[!DNL View journeys events, data sources and actions]**：歷程事件、歷程自訂動作和歷程資料來源的唯讀存取權。</br>**[!DNL View journeys report]**：讀取及編輯歷程報告。</br> |
 | 訊息 | **[!DNL Manage messages]**：讀取、建立、編輯和刪除訊息。 </br>**[!DNL Manage messages preview and test]**：套用原則時，核准和發佈訊息的權利。</br>**[!DNL Publish messages]**：發佈訊息的權利。</br>**[!DNL View messages]**：訊息的唯讀存取權。</br>**[!DNL View messages report]**：讀取和編輯訊息報告。 |
-| 設定檔管理 | **[!DNL Evaluate a segment to an audience]**：評估區段定義，產生對象的設定檔。</br>**[!DNL Export audience segments]**：將評估過的對象區段匯出至資料集。</br>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</br>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除用於客戶設定檔的資料集。 對可用設定檔的唯讀存取權。</br>**[!DNL View merge policies]**：可用合併原則的唯讀存取權。</br>**[!DNL View profiles]**：可用設定檔的唯讀存取權。</br>**[!DNL View segments]**：可用對象的唯讀存取權。 |
+| 輪廓管理 | **[!DNL Evaluate a segment to an audience]**：評估區段定義，產生對象的設定檔。</br>**[!DNL Export audience segments]**：將評估過的對象區段匯出至資料集。</br>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</br>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除用於客戶設定檔的資料集。 對可用設定檔的唯讀存取權。</br>**[!DNL View merge policies]**：可用合併原則的唯讀存取權。</br>**[!DNL View profiles]**：可用設定檔的唯讀存取權。</br>**[!DNL View segments]**：可用對象的唯讀存取權。 |
 | 查詢服務 | **[!DNL Manage queries]**：讀取、建立、編輯和刪除Platform資料的結構化SQL查詢。</br>**[!DNL Manage query service integration]**：建立、更新和刪除查詢服務存取權不會到期的認證。 |
 | 報告 | **[!DNL View channel reports]**：讀取和編輯頻道報告。 |
 | 沙箱管理 | **[!DNL Export sandboxes]**：匯出沙箱的功能。</br>**[!DNL Manage packages]**：讀取、建立、編輯和刪除封裝。</br>**[!DNL Manage sandboxes]**：讀取、建立、編輯和刪除沙箱。</br>**[!DNL View sandboxes]**：屬於您組織的沙箱的唯讀存取權。</br>**[!DNL Reset sandboxes]**：重設沙箱的功能。 |
@@ -49,3 +49,5 @@ ht-degree: 2%
 
 {style="table-layout:fixed"}
 
+<!--
+|Orchestrated campaigns|**[!DNL Manage orchestrated campaigns]**: read, create, edit, and delete orchestrated campaigns.</br>**[!DNL Publish orchestrated campaigns]**: publish orchestrated campaigns. </br>**[!DNL View orchestrated campaigns admin]**: XX. </br>**[!DNL Manage orchestrated campaigns admin]**: XX. </br>**[!DNL View orchestrated campaigns]**: read and edit orchestrated campaigns.</br>**[!DNL View orchestrated campaigns report]**: read and edit orchestrated campaigns report.|-->
