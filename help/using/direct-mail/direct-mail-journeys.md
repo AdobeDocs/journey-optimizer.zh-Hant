@@ -5,15 +5,16 @@ feature: Direct Mail
 topic: Content Management
 role: User
 level: Beginner
+badge: label="有限可用性" type="Informative"
 hidefromtoc: true
 hide: true
 robots: noindex
 googlebot: noindex
 keywords: 直接郵件, 訊息, 行銷活動
 exl-id: 44886355-ee3a-4323-899a-35d967487924
-source-git-commit: ca6e2834f92585094d3316e9259e3370cfad22fc
+source-git-commit: 755ffdb0a9986ce8c2175a9bc61ed4a56714ff7d
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '774'
 ht-degree: 19%
 
 ---
@@ -24,6 +25,10 @@ ht-degree: 19%
 >id="ajo_journey_direct_mail"
 >title="結束活動"
 >abstract="直接郵件是離線頻道，可讓您個人化和產生協力廠商直接郵件提供者傳送郵件給客戶所需的擷取檔案。"
+
+>[!AVAILABILITY]
+>
+>此功能僅適用於一組組織（可用性限制）。
 
 直接郵件是離線頻道，可讓您個人化和產生協力廠商直接郵件提供者傳送郵件給客戶所需的擷取檔案。
 
