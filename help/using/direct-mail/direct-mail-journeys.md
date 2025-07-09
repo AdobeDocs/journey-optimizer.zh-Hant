@@ -10,13 +10,13 @@ hide: true
 robots: noindex
 googlebot: noindex
 keywords: 直接郵件, 訊息, 行銷活動
-source-git-commit: 088e89013235883d0a8b433fa348ee33a34e7a8c
+exl-id: 44886355-ee3a-4323-899a-35d967487924
+source-git-commit: ca6e2834f92585094d3316e9259e3370cfad22fc
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 19%
 
 ---
-
 
 # 傳送歷程中的直接郵件訊息 {#direct-mail-journeys}
 
@@ -72,7 +72,7 @@ ht-degree: 19%
 
    ![](assets/direct-mail-add-journey.png)
 
-1. 調整解壓縮檔案屬性，例如檔案名稱或要顯示的欄。 如需有關如何設定解壓縮檔案屬性的詳細資訊，請參閱本節： [建立直接郵件訊息](../direct-mail/create-direct-mail.md#extraction-file)。
+1. 調整解壓縮檔案屬性，例如檔案名稱或要顯示的欄。 如需如何設定解壓縮檔案屬性的詳細資訊，請參閱本節： [建立直接郵件訊息](../direct-mail/create-direct-mail.md#extraction-file)。
 
    ![](assets/direct-mail-journey-content.png)
 
