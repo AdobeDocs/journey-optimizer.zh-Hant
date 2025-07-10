@@ -6,10 +6,10 @@ description: 瞭解如何使用Adobe Journey Optimizer開始及監控協調的�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: e316c3dbbec028f7501990486506779656990c20
+source-git-commit: baeb26d3006ee26f4c6651c698c225714c85d9fa
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 8%
+source-wordcount: '774'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
 >title="發佈協調的行銷活動"
->abstract="若要開始您的行銷活動，您必須發佈該活動。在發佈前，請確定已經清除所有警告。"
+>abstract="若要開始您的行銷活動，您必須發佈該活動。請確保所有錯誤在發佈之前都已清除。"
 
 +++ 目錄
 
@@ -71,9 +71,13 @@ ht-degree: 8%
 
 ![](assets/campaign-publish.png){zoomable="yes"}
 
+>[!NOTE]
+>
+>如果&#x200B;**[!UICONTROL 發佈]**&#x200B;按鈕已停用（灰色），請從動作列存取記錄檔並檢查錯誤訊息。 所有錯誤必須先修正，才能發佈行銷活動。
+
 視覺流量會重新啟動，而真實設定檔會開始即時流過歷程。
 
-如果發佈動作失敗（例如，由於缺少訊息內容），您會收到警報，必須在重試之前修正問題。 成功發佈後，行銷活動會從&#x200B;**草稿**&#x200B;移至&#x200B;**即時**&#x200B;狀態並開始執行（立即或依排程）。
+如果發佈動作失敗（例如，由於缺少訊息內容），您會收到警報，必須在重試之前修正問題。 成功發佈後，行銷活動就會開始執行（立即或依排程）、從&#x200B;**草稿**&#x200B;移至&#x200B;**即時**&#x200B;狀態，並變成「唯讀」。
 
 ## 監視行銷活動的執行 {#monitor}
 

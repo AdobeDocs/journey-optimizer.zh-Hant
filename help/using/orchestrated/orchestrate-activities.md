@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: baeb26d3006ee26f4c6651c698c225714c85d9fa
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '968'
 ht-degree: 1%
 
 ---
@@ -75,6 +75,8 @@ ht-degree: 1%
 ![停用圖示](assets/do-not-localize/activity-disable.svg) ![啟用圖示](assets/do-not-localize/activity-enable.svg)停用/啟用活動。 執行協調的行銷活動時，停用的活動以及相同路徑上的下列活動不會執行，且協調的行銷活動會停止。
 
 ![暫停圖示](assets/do-not-localize/activity-pause.svg) ![繼續圖示](assets/do-not-localize/activity-resume.svg)暫停/繼續活動。 執行協調的行銷活動時，會在暫停的活動中暫停。 系統不會執行對應的任務，以及在相同路徑中跟隨著該任務的所有任務。
+
+    您可以使用畫布中的任何活動作為中斷點，以暫停行銷活動執行。 這表示此活動只會執行促銷活動，直到此活動為止，然後暫停執行。 暫停執行時，分段引擎會保留暫時資料供您預覽。 您可以在暫停的活動之前選取入站轉變，以檢視傳輸的資料。 深入瞭解此章節： [視覺流量監視](../orchestrated/start-monitor-campaigns.md#flow)。
 
 ![復製圖示](assets/do-not-localize/activity-copy.svg)複製活動。 [瞭解如何複製貼上活動](#copy)
 
