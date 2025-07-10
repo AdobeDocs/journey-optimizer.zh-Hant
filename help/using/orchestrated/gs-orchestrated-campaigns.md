@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: a1af07fd8e95864ec758717b35e93555eada03f0
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 17%
+source-wordcount: '620'
+ht-degree: 15%
 
 ---
 
@@ -50,13 +50,11 @@ Campaign Orchestration支援資料導向式決策，可針對動態豐富的資�
 
 ## 先決條件
 
->[!BEGINSHADEBOX]
+使用協調的行銷活動前，請務必確保您擁有適當的許可權。 協調行銷活動的存取權僅限指派給相關&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;的使用者，例如協調行銷活動管理員、協調行銷活動核准者、協調行銷活動管理員或協調行銷活動檢視者。
 
-檔案處理中
+如果您無法存取協調的行銷活動功能，請聯絡您的管理員以請求必要的許可權。
 
->[!ENDSHADEBOX]
-
-<!--prerequisites & permissions-->
+➡️[進一步瞭解與協調行銷活動相關的產品設定檔](../administration/ootb-product-profiles.md)
 
 ## 讓我們深入探討
 
