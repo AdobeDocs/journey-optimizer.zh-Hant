@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 平台、資料湖、建立、湖、資料集、設定檔
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
-workflow-type: ht
-source-wordcount: '847'
-ht-degree: 100%
+source-git-commit: 7fb853a898a84ff31c7a24b48f963f06c4d10b6f
+workflow-type: tm+mt
+source-wordcount: '873'
+ht-degree: 94%
 
 ---
 
@@ -37,7 +37,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->自 2024 年 11 月 1 日起，串流細分將不再支援使用 Journey Optimizer 追蹤和回饋意見資料集中的傳送和未結事件功能。 此外，自 2025 年 2 月起，存留時間 (TTL) 護欄正推廣至 Journey Optimizer 系統產生的資料集。 [了解更多](datasets-ttl.md)
+>自2024年11月1日起，串流區段不再支援[!DNL Journey Optimizer]追蹤和意見資料集的傳送和開啟事件。 若要實作頻率上限或疲勞管理，請改用商業規則。 您可在[本節](../conflict-prioritization/rule-sets.md)中找到更多詳細資料，包括每日上限[的使用案例說明](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}。
+>
+>此外，自 2025 年 2 月起，存留時間 (TTL) 護欄正推廣至 Journey Optimizer 系統產生的資料集。 [了解更多](datasets-ttl.md)
 
 選取資料集名稱，以存取其「資料集」活動畫面，並查看所選取資料集的詳細資訊。 活動索引標籤包含將所使用訊息的比率視覺化的圖形，以及成功和失敗批次的清單。
 
