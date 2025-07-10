@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3bbbc09e05958579782e8e70974a241f1154d319
+source-git-commit: 8f32edf905ed80ca4a23d4b9afe2805c000dacef
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '498'
 ht-degree: 6%
 
 ---
@@ -43,21 +43,16 @@ ht-degree: 6%
 
 Campaign協調流程圍繞四大支柱建立：
 
-1. **隨選對象**
-
-   立即跨資料集查詢，以使用資料型別和維度的任何組合建立受眾區段。
-
-1. **多實體分段和傳送**
-
-   超越以人為本的行銷活動 — 精準使用產品目錄、商店位置或服務資料等實體來鎖定目標。
-
-1. **預先傳送可見度和精確度**
-
-   在推出前取得準確的細分計數和完整的行銷活動範圍，確保準確性和可信度。
-
-1. **多步驟行銷活動工作流程**
-
-   設計多步驟行銷活動，從每日訊息到複雜的行銷活動，例如季節性促銷活動或主要產品發佈。
+<table>
+<tr style="border: 0;">
+<td><img alt="隨選受眾" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>隨選受眾</b><br/>立即跨資料集查詢，以使用任何資料型別和維度的組合來建立受眾區段。</td></tr>
+<tr style="border: 0;">
+<td><img alt="多實體細分和傳送" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>多實體區段和傳送</b><br/>超越以人員為基礎的行銷活動 — 精準使用產品目錄、商店位置或服務資料等實體來鎖定目標。</td></tr>
+<tr style="border: 0;">
+<td><img alt="預先傳送的可見度和精確度" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>預先傳送可見度和精確度</b><br/>在啟動前取得精確的分段計數和完整的行銷活動範圍，以確保精確度和可信度。</td></tr>
+<tr style="border: 0;">
+<td><img alt="多步驟行銷活動工作流程" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>多步驟行銷活動工作流程</b><br/>設計多步驟行銷活動，從每日訊息到複雜的行銷活動，例如季節性促銷活動或主要產品上市。</td></tr>
+</table>
 
 ## 協調的行銷活動和歷程
 
