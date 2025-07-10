@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
 workflow-type: tm+mt
 source-wordcount: '2502'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 96%
       + [客群資格篩選](using/building-journeys/audience-qualification-events.md)
       + [條件](using/building-journeys/condition-activity.md)
       + [等待](using/building-journeys/wait-activity.md)
-      + [讀取對象](using/building-journeys/read-audience.md)
+      + [讀取客群](using/building-journeys/read-audience.md)
       + [內建管道動作](using/building-journeys/journeys-message.md)
       + [自訂動作](using/building-journeys/using-custom-actions.md)
       + [內容決策](using/building-journeys/content-decision.md)
@@ -195,7 +195,7 @@ ht-degree: 96%
       + [使用規則產生器來工作](using/orchestrated/orchestrated-rule-builder.md)
       + [建立首次規則](using/orchestrated/build-query.md)
       + [編輯運算式](using/orchestrated/edit-expressions.md)
-      + [重新目標定位](using/orchestrated/retarget.md)
+      + [重定向](using/orchestrated/retarget.md)
    + 協調的行銷活動 {#design-campaigns}
       + [開始使用活動](using/orchestrated/activities/about-activities.md)
       + [合併連結](using/orchestrated/activities/and-join.md)
@@ -206,7 +206,7 @@ ht-degree: 96%
       + [重複資料刪除](using/orchestrated/activities/deduplication.md)
       + [擴充](using/orchestrated/activities/enrichment.md)
       + [分支](using/orchestrated/activities/fork.md)
-      + [讀取對象](using/orchestrated/activities/read-audience.md)
+      + [讀取客群](using/orchestrated/activities/read-audience.md)
       + [調和](using/orchestrated/activities/reconciliation.md)
       + [儲存客群](using/orchestrated/activities/save-audience.md)
       + [分割](using/orchestrated/activities/split.md)
@@ -295,19 +295,19 @@ ht-degree: 96%
          + [推播通知流量](using/push/push-gs.md)
          + [設定推播通知頻道](using/push/push-configuration.md)
          + [Mobile 上線快速入門工作流程](using/push/mobile-onboarding-wf.md)
-   + 簡訊/多媒體簡訊/RCS頻道{#sms}
+   + 簡訊 / MMS / RCS 頻道{#sms}
       + [開始使用文字訊息](using/sms/get-started-sms.md)
-      + [建立SMS / MMS / RCS訊息](using/sms/create-sms.md)
+      + [建立簡訊 / MMS / RCS 訊息](using/sms/create-sms.md)
       + [檢查並傳送文字訊息](using/sms/send-sms.md)
       + [管理文字訊息的選擇退出](using/sms/sms-opt-out.md)
       + [設定簡訊子網域](using/sms/sms-subdomains.md)
-      + 設定SMS / MMS / RCS頻道{#configure-sms}
-         + [開始使用簡訊/MMS/RCS 設定](using/sms/sms-configuration.md)
+      + 設定簡訊 / MMS / RCS 頻道{#configure-sms}
+         + [開始使用簡訊 / MMS / RCS 設定](using/sms/sms-configuration.md)
          + [設定 Sinch 提供者](using/sms/sms-configuration-sinch.md)
          + [設定 Infobip 提供者](using/sms/sms-configuration-infobip.md)
          + [設定 Twilio 提供者](using/sms/sms-configuration-twilio.md)
          + [設定自訂提供者](using/sms/sms-configuration-custom.md)
-         + [建立SMS / MMS / RCS設定](using/sms/sms-configuration-surface.md)
+         + [建立簡訊 / MMS / RCS 設定](using/sms/sms-configuration-surface.md)
    + 直接郵件 {#direct-mail}
       + [開始使用直接郵件](using/direct-mail/get-started-direct-mail.md)
       + [建立直接郵件](using/direct-mail/create-direct-mail.md)
@@ -555,7 +555,7 @@ ht-degree: 96%
          + [設定項目目錄](using/experience-decisioning/catalogs.md)
          + [建立決定項目](using/experience-decisioning/items.md)
          + [管理項目集合](using/experience-decisioning/collections.md)
-      + [建立決定規則](using/experience-decisioning/rules.md)
+      + [建立決策規則](using/experience-decisioning/rules.md)
       + 建立排名 {#rankings}
          + [建立排名方法](using/experience-decisioning/ranking/ranking.md)
          + [使用 AI 公式產生器](using/experience-decisioning/ranking/ranking-formulas.md)
@@ -564,9 +564,9 @@ ht-degree: 96%
             + [自動最佳化模型](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [個人化最佳化模型](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [建立 AI 模型](using/experience-decisioning/ranking/create-ai-models.md)
-      + 使用Adobe Experience Platform資料 {#aep-data}
+      + 使用 Adobe Experience Platform 資料 {#aep-data}
          + [善用內容資料](using/experience-decisioning/context-data.md)
-         + [使用Adobe Experience Platform進行決策](using/experience-decisioning/aep-data-exd.md)
+         + [使用 Adobe Experience Platform 進行決策](using/experience-decisioning/aep-data-exd.md)
       + [建立選擇策略](using/experience-decisioning/selection-strategies.md)
       + [建立決定原則](using/experience-decisioning/create-decision.md)
       + [Decisioning 上的報告](using/experience-decisioning/cja-reporting.md)
@@ -585,7 +585,7 @@ ht-degree: 96%
          + [使用案例：在電子郵件中插入優惠](using/offers/offers-e2e.md)
       + 建立元件 {#create-components}
          + [建立位置](using/offers/offer-library/creating-placements.md)
-         + [建立決定規則](using/offers/offer-library/creating-decision-rules.md)
+         + [建立決策規則](using/offers/offer-library/creating-decision-rules.md)
          + [建立集合限定詞](using/offers/offer-library/creating-tags.md)
       + 建立排名 {#rankings}
          + [開始使用排名](using/offers/ranking/get-started-rankings.md)
@@ -728,7 +728,7 @@ ht-degree: 96%
       + [匯出 Journey Optimizer 資料集](using/data/export-datasets.md)
       + [查詢範例](using/data/datasets-query-examples.md)
       + [內建結構 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant)
-   + [使用Adobe Experience Platform資料](using/data/lookup-aep-data.md)
+   + [使用 Adobe Experience Platform 資料](using/data/lookup-aep-data.md)
    + [查詢](using/data/get-started-queries.md)
 + 管道設定 {#configuration}
    + [開始使用頻道設定](using/configuration/get-started-configuration.md)

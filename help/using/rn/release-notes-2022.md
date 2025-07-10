@@ -13,7 +13,7 @@ exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
 workflow-type: tm+mt
 source-wordcount: '3599'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -182,7 +182,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>身為Journey Optimizer使用者，您現在可以透過使用者介面存取系統警報，以在歷程未如預期運作時收到通知。 您可以檢視可用警報並訂閱警報。 如果「讀取客群」活動在定義的時間段內未處理任何輪廓，則此版本提供的第一個警報將會警告您。 此工作流程已解除鎖定，將提供更多資訊。</p>
+<p>身為 Journey Optimizer 使用者，您現在可以透過使用者介面存取系統警報，以在歷程未如預期運作時收到通知。您可以檢視可用警報並訂閱警報。 如果「讀取客群」活動在定義的時間段內未處理任何輪廓，則此版本提供的第一個警報將會警告您。 此工作流程已解除鎖定，將提供更多資訊。</p>
 <!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
