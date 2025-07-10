@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 8f32edf905ed80ca4a23d4b9afe2805c000dacef
+source-git-commit: e6944928e40b471a86085c126ff678002357e66c
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 6%
+source-wordcount: '453'
+ht-degree: 7%
 
 ---
 
@@ -32,26 +32,19 @@ ht-degree: 6%
 
 雖然跨頻道行銷至關重要，但精心安排的行銷活動可讓其順暢無礙。 透過視覺化的拖放介面，您可以跨多個管道設計和自動化複雜的行銷工作流程，從細分到訊息傳遞。 所有事情都在一個直覺式環境中進行，專為速度、控制能力和效率而打造。
 
-此模組會將&#x200B;**批次行銷活動協調**&#x200B;帶至[!DNL Journey Optimizer]，讓您能夠：
-
-* 建立並執行&#x200B;**多步驟行銷活動** （例如，季節性促銷活動、新產品推出），
-* 跨任何通道傳遞&#x200B;**個人化、一致的訊息**，
-* 將&#x200B;**分段、檔案處理及工作管理**&#x200B;整合於一處，
-* 透過核准和任務指派強化共同作業
-
 ## 核心功能
 
 Campaign協調流程圍繞四大支柱建立：
 
-<table>
+<table style="table-layout:fixed">
 <tr style="border: 0;">
-<td><img alt="隨選受眾" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>隨選受眾</b><br/>立即跨資料集查詢，以使用任何資料型別和維度的組合來建立受眾區段。</td></tr>
+<td><img alt="隨選受眾" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>隨選受眾</b><br/>立即跨資料集查詢，以使用任何資料型別和維度的組合來建立受眾區段。</td></tr>
 <tr style="border: 0;">
-<td><img alt="多實體細分和傳送" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>多實體區段和傳送</b><br/>超越以人員為基礎的行銷活動 — 精準使用產品目錄、商店位置或服務資料等實體來鎖定目標。</td></tr>
+<td><img alt="多實體細分和傳送" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>多實體區段和傳送</b><br/>超越以人員為基礎的行銷活動 — 精準使用產品目錄、商店位置或服務資料等實體來鎖定目標。</td></tr>
 <tr style="border: 0;">
-<td><img alt="預先傳送的可見度和精確度" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>預先傳送可見度和精確度</b><br/>在啟動前取得精確的分段計數和完整的行銷活動範圍，以確保精確度和可信度。</td></tr>
+<td><img alt="預先傳送的可見度和精確度" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b>預先傳送可見度和精確度</b><br/>在啟動前取得精確的分段計數和完整的行銷活動範圍，以確保精確度和可信度。</td></tr>
 <tr style="border: 0;">
-<td><img alt="多步驟行銷活動工作流程" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>多步驟行銷活動工作流程</b><br/>設計多步驟行銷活動，從每日訊息到複雜的行銷活動，例如季節性促銷活動或主要產品上市。</td></tr>
+<td><img alt="多步驟行銷活動工作流程" src="assets/do-not-localize/icon-multistep.svg" width="50px"></a></td><td><b>多步驟行銷活動工作流程</b><br/>設計多步驟行銷活動，從每日訊息到複雜的行銷活動，例如季節性促銷活動或主要產品上市。</td></tr>
 </table>
 
 ## 協調的行銷活動和歷程
