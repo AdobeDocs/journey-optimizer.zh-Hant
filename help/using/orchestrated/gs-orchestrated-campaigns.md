@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: ea4b65ae05f219203754ed6e5ddd7effc795ff56
+source-git-commit: 3bbbc09e05958579782e8e70974a241f1154d319
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '487'
 ht-degree: 6%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 6%
 +++
 
 <br/>
-
-&#x200B;# 開始使用行銷活動協調 {#gs}
 
 [!DNL Adobe Journey Optimizer]中的行銷活動協調流程可跨管道支援複雜且品牌啟動的行銷活動，協助您大規模提高參與度、收入和客戶忠誠度。
 
