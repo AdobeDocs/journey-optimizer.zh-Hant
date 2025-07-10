@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: 電子郵件、設計、素材、資產
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 93%
 
 ## 電子郵件設計最佳實務 {#best-practices}
 
-傳送電子郵件時，務必考慮到收件者有可能轉寄郵件，這有時可能會導致電子郵件呈現的問題。使用電子郵件提供者不支援轉寄的CSS類別時，尤其如此，例如，如果您使用「is-desktop-hidden」CSS類別來隱藏行動裝置上的影像。
+傳送電子郵件時，務必考慮到收件者有可能轉寄郵件，這有時可能會導致電子郵件呈現的問題。使用用於轉寄的電子郵件提供商可能不支援的 CSS 類別時尤其如此，例如，如果您使用「is-desktop-hidden」CSS 類別來隱藏行動裝置上的影像。
 
 若要將這些呈現問題降至最低，建議您盡可能維持電子郵件設計結構的簡單性。 請嘗試使用單一設計以便同時適用於桌面與行動裝置，並避免使用複雜 CSS 類別或其他設計元素，因為可能並非所有電子郵件用戶端均可完全支援。 無論收件者如何檢視或轉寄電子郵件，您都可遵循這些最佳實務來確保其均能以一致的方式正確呈現電子郵件。
 
@@ -78,4 +78,4 @@ ht-degree: 93%
 
 了解如何設定內容實驗以進行 A/B 測試並探索電子郵件內容，以最佳方式推動您的業務目標。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447342?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

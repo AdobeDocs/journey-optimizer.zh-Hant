@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 開始使用簡訊(SMS/MMS/RCS)
+title: 開始使用文字訊息 (簡訊/MMS/RCS)
 description: 了解如何在 Journey Optimizer 建立及傳送文字訊息
 feature: SMS
 topic: Content Management
@@ -9,23 +9,23 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: cc0ffd008052fcb0ce06f6cdff0f2adb5c040568
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
 # 開始使用文字訊息 {#get-started-sms}
 
-使用[!DNL Journey Optimizer]傳送簡訊(SMS/MMS/RCS)給行動裝置上的客戶。 您可以從SMS/MMS/RCS編輯器以文字格式建立、個人化和預覽訊息。
+使用 [!DNL Journey Optimizer] 在客戶的行動裝置傳送文字訊息 (簡訊/MMS/RCS) 給客戶。您可以從簡訊/MMS/RCS 編輯器建立、個人化及預覽文字格式的訊息。
 
-文字訊息可在歷程或行銷活動中建立和傳送。 對於SMS、MMS和RCS，請使用SMS動作。
+文字訊息可在歷程或行銷活動中建立和傳送。 對於簡訊、MMS 和 RCS，請使用簡訊動作。
 
-* 在&#x200B;**歷程**&#x200B;中。建立歷程、新增簡訊活動及定義基本設定。 然後，瀏覽到「動作：簡訊」右側窗格以建立SMS、MMS或RCS訊息的內容。 [了解如何建立歷程](../building-journeys/journey-gs.md)
+* 在&#x200B;**歷程**&#x200B;中。建立歷程、新增簡訊活動及定義基本設定。然後，瀏覽到「動作：簡訊」右側窗格以建立簡訊、MMS 或 RCS 訊息的內容。[了解如何建立歷程](../building-journeys/journey-gs.md)
 
-* 在&#x200B;**行銷活動**&#x200B;中。建立行銷活動、選取簡訊作為您的動作並定義基本設定。 然後，編輯訊息內容以定義要傳送的SMS、MMS或RCS訊息。 [了解如何建立行銷活動](../campaigns/create-campaign.md#configure)
+* 在&#x200B;**行銷活動**&#x200B;中。建立行銷活動後，請選取 [簡訊] 作為動作並定義基本設定。然後，編輯訊息內容以定義要傳送的簡訊、MMS 或 RCS 訊息。[了解如何建立行銷活動](../campaigns/create-campaign.md#configure)
 
-Adobe Journey Optimizer 會透過 SMS 服務提供者 (或 SMS 閘道提供者) 傳送文字訊息。建立SMS/MMS/RCS訊息之前，請使用Journey Optimizer設定您的服務提供者以進行文字和RCS傳訊。 [了解更多](sms-configuration.md)
+Adobe Journey Optimizer 會透過 SMS 服務提供者 (或 SMS 閘道提供者) 傳送文字訊息。建立簡訊/MMS/RCS 訊息之前，請先使用 Journey Optimizer 設定文字和 RCS 訊息的服務提供者。[了解更多](sms-configuration.md)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -58,7 +58,7 @@ Adobe Journey Optimizer 會透過 SMS 服務提供者 (或 SMS 閘道提供者) 
 <img alt="驗證" src="../assets/do-not-localize/sms-config.jpg">
 </a>
 <div>
-<a href="sms-configuration.md"><strong>設定SMS/MMS/RCS</strong></a>
+<a href="sms-configuration.md"><strong>設定簡訊/MMS/RCS</strong></a>
 </div>
 <p>
 </td>
@@ -72,13 +72,13 @@ Adobe Journey Optimizer 會透過 SMS 服務提供者 (或 SMS 閘道提供者) 
 
   >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
-  +++
++++
 
 * 以下影片可協助您更瞭解 Adobe Journey Optimizer 為行銷人員提供的行動裝置功能。
 
 
   +++請觀看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430375?quality=12&learn=on&captions=chi_hant)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
-  +++
++++

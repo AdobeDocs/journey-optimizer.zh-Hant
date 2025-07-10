@@ -10,9 +10,9 @@ level: Experienced
 keywords: 資料、治理、DULE、標籤、標籤、平台、原則
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1290'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 ## 開始使用資料治理原則 {#gs}
 
-透過其[資料使用標籤和實行(DULE)控管](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=zh-Hant){target="_blank"}架構，Adobe Experience Platform可讓您藉由&#x200B;**標籤您的欄位**&#x200B;並為每個管道建立&#x200B;**行銷動作**，跨管道管理和實行資料控管原則。
+透過其[資料使用標籤和實作 (DULE) 治理](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=zh-Hant){target="_blank"}架構，Adobe Experience Platform 可讓您透過&#x200B;**為欄位加上標籤**&#x200B;並為每個頻道建立&#x200B;**行銷動作**，跨頻道管理和強制執行資料治理原則。
 
 定義標籤與行銷動作後，您可以建立連結這兩個元素的&#x200B;**資料治理原則**。例如，您可以設定將「ePHI」標籤與「電子郵件目標定位」行銷動作建立關聯的原則，確保標記為「ePHI」的欄位不會用於個人化電子郵件訊息。[了解如何建立資料治理原則](#policy)
 
@@ -128,10 +128,10 @@ ht-degree: 95%
 
 如果系統在歷程/行銷活動中或在自訂動作中發現限制欄位，就會顯示錯誤，讓您無法予以發佈。
 
-**[!UICONTROL 警示]**&#x200B;按鈕顯示出現錯誤。選取錯誤，以顯示有關所發生資料治理原則違規的詳細資訊。
+**[!UICONTROL 警示]**&#x200B;按鈕顯示出現錯誤。選取錯誤，即可顯示所發生資料治理原則違規的詳細資訊。
 
 ![](assets/action-privacy8.png)
 
 此對話框指出目前的歷程/行銷活動設定違反現有的資料治理原則。使用資料譜系圖表，即可了解在啟用歷程或行銷活動之前，還必須進行哪些其他設定變更。
 
-詳細資訊可在[資料使用原則違規檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}中取得。
+如需詳細資訊，請參閱[資料使用原則違規文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}。

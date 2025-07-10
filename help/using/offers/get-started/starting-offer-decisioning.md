@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '911'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]的新決策功能「決策」現在可透過程式碼型體驗管道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]的新決策功能「決策」現在可透過程式碼型體驗頻道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 使用 [!DNL Journey Optimizer] 可在適當的時間為所有接觸點的客戶提供最佳產品建議和體驗。設計完成後，透過個人化產品建議目標定位客群。
 
@@ -37,11 +37,11 @@ ht-degree: 93%
 * 改善工作流程：行銷團隊可以建立單一傳遞，並在範本的不同部分提供不同產品建議，藉此改善工作流程，而無須建立多個傳遞或行銷活動；
 * 控制在電子郵件行銷活動中和向客戶顯示產品建議的次數。
 
-➡️ [在這些影片中進一步了解決定管理](#video)
+➡️ [在這些影片中了解有關決策管理的更多資訊](#video)
 
 >[!NOTE]
 >
->如果您是[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target="_blank"}使用者，正在利用&#x200B;**Offer Decisioning**&#x200B;應用程式，本節中介紹的所有決策管理功能也適用於您。
+>如果您是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target="_blank"} 使用者且正在利用 **Offer Decisioning** 應用程式，本節中介紹的所有決策管理功能也適用於您。
 
 ## 關於產品建議和決定 {#about-offers-and-decisions}
 
@@ -73,7 +73,7 @@ ht-degree: 93%
 
 ## 授予決策管理的存取權限 {#granting-acess-to-decision-management}
 
-使用[Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html){target="_blank"}管理存取及使用決策功能的許可權。
+使用 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html){target="_blank"} 管理存取及使用決策功能的權限。
 
 要授予對決策管理功能的存取權限，您需要建立&#x200B;**[!UICONTROL 產品輪廓]**，並將對應權限指派給使用者。在[本節](../../administration/permissions.md)了解有關管理[!DNL Journey Optimizer]使用者及權限的更多資訊。
 

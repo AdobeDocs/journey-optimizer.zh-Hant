@@ -7,9 +7,9 @@ topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ec2cccb651360ec796610781affcedca96d66af4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1278'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -27,21 +27,21 @@ ht-degree: 66%
 
 ### 歷程條件的變更 {#ee-change@}
 
-從7月8日開始，在新的客戶組織中，歷程條件中使用的運算式編輯器將不再支援使用體驗事件建立運算式。 因此，[Experience Platform資料來源](../datasource/adobe-experience-platform-data-source.md)中的體驗事件無法用於建立運算式。 使用體驗事件建立運算式/邏輯的替代方法和最佳實務已參考[這裡](../building-journeys/exp-event-lookup.md)。
+從 7 月 8 日開始，在新的客戶組織中，歷程條件中使用的運算式編輯器將不再支援使用體驗事件建立運算式。因此，[Experience Platform 資料來源](../datasource/adobe-experience-platform-data-source.md)中的體驗事件無法用於建立運算式。使用體驗事件建立運算式/邏輯的替代方法和最佳做法可參考[這裡](../building-journeys/exp-event-lookup.md)。
 
-在單一歷程中存取歷程內容事件資料的方式不會變更。 在運算式和個人化編輯器中，使用者可以繼續存取透過初始歷程事件傳入的資料。
+在單一歷程中存取歷程內容事件資料的方式不會變更。在運算式和個人化編輯器中，使用者可以繼續存取透過初始歷程事件傳入的資料。
 
-在本常見問題集[&#128279;](../building-journeys/exp-event-lookup.md#faq-ee)中瞭解更多。
+在[本常見問題集](../building-journeys/exp-event-lookup.md#faq-ee)中深入瞭解。
 
 
-## 2025年6月發行說明 {#25-6-rn}
+## 2025 年 6 月發行說明 {#25-6-rn}
 
 <!--
 **Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.-->
 
 **發行日期**：2025 年 6 月 18 日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 全新功能 {#25-06-features}
 
@@ -50,16 +50,16 @@ ht-degree: 66%
 <table>
 <thead>
 <tr>
-<th><strong>決策中的Adobe Experience Platform資料集（測試版）</strong><br/></th>
+<th><strong>決策中的 Adobe Experience Platform 資料集 (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>先前可用於個人化的Adobe Experience Platform資料集現在可用於決策。 這可讓您將決策屬性的定義擴充至資料集中的其他資料，以便定期變更的大量更新，而無需一次手動更新一個屬性。 例如，可用性、等待時間等。</p>
-<p>只要是客戶都可在公開測試版中，使用此功能。如果您想要存取許可權，請聯絡您的客戶代表。</p>
+<p>先前可用於個人化的 Adobe Experience Platform 資料集現在可用於決策。這可讓您將決策屬性的定義擴充至資料集中的其他資料，以便進行定期變更的大量更新，而無需一次手動更新一個屬性。例如，可用性、等待時間等。</p>
+<p>所有客戶都可在公開測試版中，使用此功能。如果您想要存取權，請聯絡您的客戶代表。</p>
 <p>如需詳細資訊，請參閱<a href="../experience-decisioning/aep-data-exd.md">詳細文件</a>。</p>
-<p>推出日期： 2025年6月20日</p>
+<p>推出日期：2025 年 6 月 20 日</p>
 </td>
 </tr>
 </tbody>
@@ -125,15 +125,15 @@ ht-degree: 66%
 <table>
 <thead>
 <tr>
-<th><strong>歷程中的內容決定活動</strong><br/></th>
+<th><strong>歷程中的內容決策活動</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以透過歷程畫布中的專用內容決定活動，將個人化優惠方案納入您的歷程，並在歷程活動（包括條件和自訂動作）中使用。</p>
+<p>您目前可以透過歷程畫布中的專用內容決策活動，將個人化優惠方案納入歷程中，然後在歷程活動，包括條件和自訂動作中使用。</p>
 <img src="assets/do-not-localize/content-decision.gif">
-<p>此功能僅適用於某個組織（可用性限制），可在全球推出未來的版本。</p>
+<p>此功能僅適用於一組組織 (有限可用性)，將透過未來版本在全球推出。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/content-decision.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -151,7 +151,7 @@ ht-degree: 66%
 <td>
 <p>歷程試運行是 Adobe Journey Optimizer 中的特殊歷程發佈模式，允許歷程從業人員使用真實的生產資料，即可測試歷程，不用聯絡實際客戶，或是更新設定檔資訊。此功能可協助歷程從業人員，針對歷程設計、客群目標市場選擇，累積信心，然後再將歷程發佈上線。</p>
 <img src="assets/do-not-localize/DryRun.gif">
-<p>此功能僅適用於某個組織（可用性限制），可在全球推出未來的版本。</p>
+<p>此功能僅適用於一組組織 (有限可用性)，將透過未來版本在全球推出。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/journey-dry-run.md">詳細文件</a>。</p>
 
 </td>
@@ -172,7 +172,7 @@ ht-degree: 66%
 <p>您只能暫停並繼續單一歷程，或可執行大量暫停，然後繼續另一組歷程操作。</p>
 <p>此外，您還可以將全域篩選器套用至已暫停歷程，即可根據屬性排除設定檔。</p>
 <img src="assets/do-not-localize/PauseResume.gif">
-<p>此功能僅適用於某個組織（可用性限制），可在全球推出未來的版本。</p>
+<p>此功能僅適用於一組組織 (有限可用性)，將透過未來版本在全球推出。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/journey-pause.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -224,33 +224,33 @@ ht-degree: 66%
 
 * **頻道規則集**
 
-   * **上限的自訂持續時間視窗** — 新的&#x200B;**Every**&#x200B;欄位現在可在頻道規則集設定畫面中使用，可讓您根據指定的持續時間，在多天、幾週或幾個月內套用頻率上限規則。
+   * 上限專用&#x200B;**自訂持續時間視窗** - 頻道規則集設定畫面中目前有提供新的&#x200B;**間隔**&#x200B;欄位，讓您可以根據指定持續時間，選擇數天、數週或數月內套用頻率上限規則。
 
-   * **每小時重設上限頻率** — 您現在可以每小時為管道規則集套用上限。 此功能僅適用於一組組織 (可用性限制)。 請連絡您的客戶服務以啟用它。
+   * **每小時重設上限頻率** - 您目前可以將每小時上限套用至頻道規則集。此功能僅適用於一組組織 (有限可用性)。 請聯絡您的客戶服務以啟用這項功能。
 
-   * **每日持續時間** — 先前在「有限可用性」中提供，現在所有客戶都可以使用管道規則集中的「每日」頻率上限。
+   * **每日持續時間** - 先前在「有限可用性」中提供，現在所有客戶都可以使用頻道規則集中的「每日」頻率上限。
 
   如需詳細資訊，請參閱[詳細文件](../conflict-prioritization/channel-capping.md)。
 
 * **程式碼型體驗**
 
-   * 現在可在程式碼型體驗內容範本中新增決定原則，以便用於利用可編輯表單欄位中的優惠方案。 [閱讀全文](../code-based/code-based-form-fields.md)
+   * 現在可在程式碼型體驗內容範本中新增決策原則，以便用於利用可編輯表單欄位中的優惠方案。[閱讀全文](../code-based/code-based-form-fields.md)
 
-   * 從程式碼型體驗歷程或行銷活動版本畫面，您現在可以直接新增決定原則，無需開啟個人化編輯器。 [閱讀全文](../code-based/create-code-based.md#edit-code)
+   * 只要到程式碼型體驗歷程，或透過行銷活動版本畫面，就可以立即直接新增決策原則，不用開啟個人化編輯器。[閱讀全文](../code-based/create-code-based.md#edit-code)
 
 * **電子郵件設計工具的自訂 CSS 支援**
 
-  Journey Optimizer現在可讓您直接在電子郵件Designer中，將自訂CSS新增至您的電子郵件內容。 [閱讀全文](../email/custom-css.md)
+  Journey Optimizer 目前可讓您直接在電子郵件設計工具中，將自訂 CSS 新增至電子郵件內容。[閱讀全文](../email/custom-css.md)
 
 * **新的行銷活動索引標籤式導覽**
 
-  新的導覽模式可讓您更快速地存取內容製作，並支援在行銷活動中進一步擴充設定。 [閱讀全文](../campaigns/create-campaign.md)
+  新的導覽模式讓您可以更快速地存取內容製作，能在行銷活動中，支援進一步擴充設定。[閱讀全文](../campaigns/create-campaign.md)
 
-* **Decisioning**
+* **決策**
 
-   * **沙箱複製和決策** （推出日期：2025年6月3日） — 決策物件現在可以在沙箱之間複製，精簡測試和部署工作流程。 [閱讀全文](../configuration/copy-objects-to-sandbox.md#decisioning)
+   * **沙箱複製和決策** (推出日期：2025 年 6 月 3 日) - 決策物件現在可以在沙箱之間複製，以便簡化測試，同時部署工作流程。[閱讀全文](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-   * **決策規則的決策專案屬性支援** （推出日期：2025年6月4日） — 您現在可以運用決策專案屬性來建立決策規則。 [閱讀全文](../experience-decisioning/rules.md#create)
+   * **決策規則的決策項目屬性支援** (推出日期：2025 年 6 月 4 日) - 您現在可以運用決策項目屬性來建立決策規則。[閱讀全文](../experience-decisioning/rules.md#create)
 
 * **互動式訊息執行 API 更新** — 推出日期：2025 年 6 月 6 日
 
