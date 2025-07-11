@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: b65078c34b114ff118d24f3c93b23b35bad7227e
+source-git-commit: d464668582fbb4bea6f8d4ef57e17f80b5d83378
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '691'
 ht-degree: 21%
 
 ---
@@ -85,4 +85,4 @@ ht-degree: 21%
 * **[!UICONTROL 已完成]**：協調的行銷活動執行已完成。 行銷活動完成傳送訊息後，最多可在3天內自動指派「已完成」狀態，而不會發生錯誤。
 * **[!UICONTROL 已關閉]**：當循環行銷活動已關閉時，會顯示此狀態。 行銷活動會繼續執行直到其所有活動完成，但無法再有設定檔進入行銷活動。
 * **[!UICONTROL 已封存]**：已封存協調的行銷活動。 所有已封存的行銷活動都會在最後修改日期後30天以滾動方式重新排程刪除。 您可以複製已封存的行銷活動（如有必要），以繼續處理。
-* **[!UICONTROL 已停止]**：已停止協調的行銷活動執行。 若要再次啟動行銷活動，您必須複製它。 錯誤，restera avec三角形
+* **[!UICONTROL 已停止]**：已停止協調的行銷活動執行。 若要再次啟動行銷活動，您必須複製它。
