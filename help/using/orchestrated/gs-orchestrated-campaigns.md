@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: a8265a2e509df0f18db5d8ca36c4298ba020fa38
+source-git-commit: c39248867a5e9f21ef4c87122585226104f4a587
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '453'
 ht-degree: 7%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 7%
 
 Campaign協調流程圍繞四大支柱建立：
 
-<table>
+<table style="table-layout:auto">
 <tr style="border: 0;">
 <td><img alt="隨選受眾" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>隨選受眾</b><br/>立即跨資料集查詢，以使用任何資料型別和維度的組合來建立受眾區段。</td></tr>
 <tr style="border: 0;">
@@ -69,7 +69,7 @@ Campaign協調流程圍繞四大支柱建立：
 
 現在您已瞭解哪些是精心安排的行銷活動，是時候更深入地研究這些檔案區段以開始使用此功能了。
 
-&lt;表格&quot;><tr style="border: 0; text-align: center;">
+<table><tr style="border: 0; text-align: center;">
 <td>
 <a href="gs-campaign-creation.md">
 <img alt="存取並管理工作流程" src="assets/do-not-localize/workflow-access.jpeg">
