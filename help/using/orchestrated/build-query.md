@@ -111,7 +111,7 @@ ht-degree: 8%
    | 類似 | 與Contains運運算元類似，它可讓您在值中插入%萬用字元。 | 姓氏(@lastName)類似&#39;Jon%s&#39;。 萬用字元可當做「小丑」來尋找「Jones」之類的名稱。 |
    | Not like | 與Contains運運算元類似，它可讓您在值中插入%萬用字元。 | 姓氏(@lastName)不像&#39;Smi%h&#39;。 不會傳回姓氏為&#39;Smith&#39;的收件者。 |
 
-+++
+   +++
 
 1. 在&#x200B;**值**&#x200B;欄位中，定義預期的值。 您也可以使用運算式編輯器，以使用資料庫和協助程式函式的欄位，手動定義運算式。 若要這麼做，請按一下顯示運算式編輯器圖示![圖示的](assets/do-not-localize/rule-builder-icon-editor.svg)影像。 [瞭解如何編輯運算式](../orchestrated/edit-expressions.md)
 
@@ -121,7 +121,7 @@ ht-degree: 8%
 
    ![影像顯示預設集選項](assets/rule-builder-attribute-preset.png)
 
-+++
+   +++
 
 ### 連結表格的自訂條件（1-1和1-N連結）{#links}
 
@@ -209,7 +209,7 @@ ht-degree: 8%
 
 * 若要群組兩個現有條件，請選取兩個條件之一，然後按一下![向上移動選取範圍圖示](assets/do-not-localize/rule-builder-icon-up.svg)或![向下移動選取範圍圖示](assets/do-not-localize/rule-builder-icon-down.svg)按鈕，以群組條件高於或低於。
 
-* 若要將現有條件群組為新條件，請選取條件，按一下顯示[更多動作]按鈕![按鈕的](assets/do-not-localize/rule-builder-icon-more.svg)影像，然後選取[新增群組]**[!UICONTROL 。]**&#x200B;選取要新增至群組的新屬性，然後確認。
+* 若要將現有條件群組為新條件，請選取條件，按一下顯示[更多動作]按鈕![按鈕的](assets/do-not-localize/rule-builder-icon-more.svg)影像，然後選取[新增群組]&#x200B;**[!UICONTROL 。]**&#x200B;選取要新增至群組的新屬性，然後確認。
 
   ![](assets/rule-builder-edit-groups.png)
 
