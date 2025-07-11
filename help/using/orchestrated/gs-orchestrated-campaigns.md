@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 34788c05cdcdcbc0c261df3f931a5bc1786fff5f
+source-git-commit: a8265a2e509df0f18db5d8ca36c4298ba020fa38
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '454'
 ht-degree: 7%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 7%
 [!DNL Adobe Journey Optimizer]中的行銷活動協調流程可跨管道支援複雜且品牌啟動的行銷活動，協助您大規模提高參與度、收入和客戶忠誠度。
 
 雖然跨頻道行銷至關重要，但精心安排的行銷活動可讓其順暢無礙。 透過視覺化的拖放介面，您可以跨多個管道設計和自動化複雜的行銷工作流程，從細分到訊息傳遞。 所有事情都在一個直覺式環境中進行，專為速度、控制能力和效率而打造。
+
+![](assets/canvas-example-diagram.png){zoomable="yes"}
 
 ## 核心功能
 
@@ -61,13 +63,13 @@ Campaign協調流程圍繞四大支柱建立：
 
 如果您無法存取協調的行銷活動功能，請聯絡您的管理員以請求必要的許可權。
 
-➡️[進一步瞭解與協調行銷活動相關的產品設定檔](../administration/ootb-product-profiles.md)
+➡️ [進一步瞭解與協調行銷活動相關的產品設定檔](../administration/ootb-product-profiles.md)
 
 ## 讓我們深入探討
 
 現在您已瞭解哪些是精心安排的行銷活動，是時候更深入地研究這些檔案區段以開始使用此功能了。
 
-<table style="table-layout:fixed"><tr style="border: 0;">
+&lt;表格&quot;><tr style="border: 0; text-align: center;">
 <td>
 <a href="gs-campaign-creation.md">
 <img alt="存取並管理工作流程" src="assets/do-not-localize/workflow-access.jpeg">
