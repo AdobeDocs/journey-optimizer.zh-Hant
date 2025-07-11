@@ -9,18 +9,22 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 設定、配置、訊息、通道、沙箱、最佳化程式
-source-git-commit: 6109c9176c160c2c0b1eafa06b855ebaf285e3ee
+source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '303'
 ht-degree: 45%
 
 ---
 
 
-# 開始使用管道設定 {#start-optimizer-configuration}
+# 開始使用頻道設定 {#start-optimizer-configuration}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_rate_controls"
+>title="頻道的速率控制"
+>abstract="頻道的速率控制"
 
 首次存取 [!DNL Journey Optimizer] 系統時，會佈建生產沙箱，並根據您的合約分配特定數量的 IP。
-
 
 若要傳送訊息，您必須完成下列設定步驟：
 
