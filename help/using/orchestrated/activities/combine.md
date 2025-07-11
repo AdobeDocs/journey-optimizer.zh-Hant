@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1106'
 ht-degree: 48%
 
 ---
@@ -31,8 +31,13 @@ ht-degree: 48%
 
 +++
 
-
 <br/>
+
+>[!BEGINSHADEBOX]
+
+檔案處理中
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 合併]**&#x200B;活動是&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;活動的型別，可讓您有效地劃分傳入母體。 它可讓您合併多個母體、排除特定區段，或僅保留在數個目標間共用的資料。
 

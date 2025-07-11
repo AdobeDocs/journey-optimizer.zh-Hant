@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '380'
 ht-degree: 33%
 
 ---
@@ -33,6 +33,12 @@ ht-degree: 33%
 
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+檔案處理中
+
+>[!ENDSHADEBOX]
 
 身為行銷人員，您可以透過直覺式介面建立複雜的受眾區段，讓您根據廣泛的條件和行為來鎖定使用者，以更有效地量身打造您的行銷活動。
 

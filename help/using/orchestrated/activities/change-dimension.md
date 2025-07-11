@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '347'
 ht-degree: 25%
 
 ---
@@ -36,8 +36,13 @@ ht-degree: 25%
 
 +++
 
-
 <br/>
+
+>[!BEGINSHADEBOX]
+
+檔案處理中
+
+>[!ENDSHADEBOX]
 
 行銷人員可以在策劃的行銷活動中，從一個資料實體變更為相關的資料實體，藉此增強受眾鎖定目標。 這可讓您超越使用者設定檔，並專注於特定行為，例如購買、預訂或其他互動。
 

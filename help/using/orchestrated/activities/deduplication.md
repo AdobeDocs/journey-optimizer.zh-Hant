@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 33%
+source-wordcount: '699'
+ht-degree: 32%
 
 ---
 
@@ -47,8 +47,13 @@ ht-degree: 33%
 
 +++
 
-
 <br/>
+
+>[!BEGINSHADEBOX]
+
+檔案處理中
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 重複資料刪除]**&#x200B;活動是&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;活動。 此活動可讓您刪除入站活動結果中的重複專案，例如收件者清單中的重複設定檔。 **[!UICONTROL 重複資料刪除]**&#x200B;活動通常用於目標定位活動之後，以及允許使用目標定位資料的活動之前。
 

@@ -6,9 +6,9 @@ description: 瞭解如何使用Adobe Journey Optimizer開始及監控協調的�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: baeb26d3006ee26f4c6651c698c225714c85d9fa
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '777'
 ht-degree: 7%
 
 ---
@@ -31,6 +31,12 @@ ht-degree: 7%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+檔案處理中
+
+>[!ENDSHADEBOX]
 
 一旦您建立了協調流程並設計了要在畫布中執行的任務，您就可以發佈它並監視其執行方式。
 

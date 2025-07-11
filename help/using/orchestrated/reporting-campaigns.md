@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '269'
 ht-degree: 9%
 
 ---
@@ -27,6 +27,12 @@ ht-degree: 9%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+檔案處理中
+
+>[!ENDSHADEBOX]
 
 策劃的行銷活動透過其強大的報告功能，為您提供可操作的深入分析。 這些見解可協助您更瞭解對象行為、評估客戶歷程中每個步驟的績效，並做出資料導向式決策，以將未來的行銷活動最佳化。 有了詳細的量度和視覺效果，您可以追蹤參與度並微調目標定位策略，以獲得最大的影響。
 

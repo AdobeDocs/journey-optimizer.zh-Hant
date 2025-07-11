@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '631'
 ht-degree: 32%
 
 ---
@@ -49,6 +49,12 @@ ht-degree: 32%
 
 <br/>
 
+>[!BEGINSHADEBOX]
+
+檔案處理中
+
+>[!ENDSHADEBOX]
+
 **[!UICONTROL 調解]**&#x200B;活動是&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;活動，可讓您定義Adobe Journey Optimizer中的資料與工作表中的資料之間的連結，例如從外部檔案載入的資料。
 
 **[!UICONTROL 擴充]**&#x200B;活動可讓您新增其他資料至您的協調行銷活動，例如，合併來自多個來源的資料或連結至暫時資源。 相對地，**[!UICONTROL 調解]**&#x200B;活動用來比對未識別或外部資料與資料庫中現有的資源。
@@ -72,7 +78,7 @@ ht-degree: 32%
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="選取目標市場選擇維度"
 >abstract="選取要調和之輸入資料的目標市場選擇維度。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=zh-Hant&#targeting-dimensions" text="目標市場選擇維度"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?#targeting-dimensions" text="目標市場選擇維度"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
@@ -104,7 +110,7 @@ ht-degree: 32%
 
    ![](../assets/workflow-reconciliation-criteria.png)
 
-1. 若要新增更多相符規則，請按一下[新增規則]。**&#x200B;** 必須符合所有條件，才會發生比對。
+1. 若要新增更多相符規則，請按一下[新增規則]。**** 必須符合所有條件，才會發生比對。
 
 1. 如需更複雜的條件，請選擇&#x200B;**[!UICONTROL 進階調解條件]**。 使用[查詢模型工具](../orchestrated-rule-builder.md)來定義自訂邏輯。
 

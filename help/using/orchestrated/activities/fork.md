@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '226'
 ht-degree: 30%
 
 ---
@@ -38,6 +38,12 @@ ht-degree: 30%
 
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+檔案處理中
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL Fork]**&#x200B;活動是&#x200B;**[!UICONTROL 流量控制]**&#x200B;元件，可讓您建立多個輸出轉變，讓多個活動平行執行。
 
