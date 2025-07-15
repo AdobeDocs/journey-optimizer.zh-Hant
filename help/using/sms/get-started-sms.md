@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: cc0ffd008052fcb0ce06f6cdff0f2adb5c040568
-workflow-type: ht
-source-wordcount: '243'
-ht-degree: 100%
+source-git-commit: b5ea41cec72fb80dd2fcc3aa467e80cd293fd239
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 92%
 
 ---
 
@@ -79,6 +79,15 @@ Adobe Journey Optimizer 會透過 SMS 服務提供者 (或 SMS 閘道提供者) 
 
   +++請觀看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430375?quality=12&learn=on&captions=chi_hant)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+
++++
+
+* 以下影片可協助您使用自訂SMS提供者，在Adobe Journey Optimizer中設定並傳送品牌化互動式RCS訊息。
+
+
+  +++請觀看影片
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
