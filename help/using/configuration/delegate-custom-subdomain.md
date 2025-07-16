@@ -14,7 +14,7 @@ exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 source-git-commit: a1172d331aff538e867428b36ab913b4ae9c8f7e
 workflow-type: tm+mt
 source-wordcount: '665'
-ht-degree: 2%
+ht-degree: 22%
 
 ---
 
@@ -40,12 +40,12 @@ ht-degree: 2%
    >
    >您無法使用相同的傳送網域從[!DNL Adobe Journey Optimizer]和其他產品（例如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]）傳送訊息。
 
-## 建立DNS記錄 {#create-dns-records}
+## 建立 DNS 記錄 {#create-dns-records}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom_dns"
 >title="產生相符的 DNS 記錄"
->abstract="若要將自訂子網域委派給Adobe，您需要將Journey Optimizer介面中顯示的名稱伺服器資訊複製並貼到您的網域託管解決方案中，以產生相符的DNS記錄。"
+>abstract="若要將自訂子網域委派給 Adobe，您必須將 Journey Optimizer 介面中顯示的名稱伺服器資訊複製並貼上到您的網域託管解決方案中，以產生相符的 DNS 記錄。"
 
 1. 要放置在 DNS 伺服器顯示中的記錄清單。 逐一複製這些記錄，或下載CSV檔案。
 
@@ -57,12 +57,12 @@ ht-degree: 2%
 
    ![](assets/subdomain-custom-submit.png){width="75%"}
 
-## 上傳SSL憑證 {#upload-ssl-certificate}
+## 上傳 SSL 憑證 {#upload-ssl-certificate}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom-ssl"
 >title="產生憑證申請檔"
->abstract="設定新的自訂子網域時，您需要產生憑證申請檔(CSR)、填寫並傳送給憑證授權單位，以取得您需要上傳至Journey Optimizer的SSL憑證。"
+>abstract="在設定新的自訂子網域時，您必須產生憑證申請檔 (CSR)，填寫並將其傳送至憑證授權單位，以取得需要上傳至 Journey Optimizer 的 SSL 憑證。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
@@ -89,12 +89,12 @@ ht-degree: 2%
 
 1. 擷取之後，按一下&#x200B;**[!UICONTROL 上傳SSL憑證]**&#x200B;並將憑證以.pem格式上傳至[!DNL Journey Optimizer]。
 
-## 完成回饋回圈步驟 {#feedback-loop-steps}
+## 完成回饋迴路步驟 {#feedback-loop-steps}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_feedback-loop"
->title="完成回饋回圈步驟"
->abstract="前往Yahoo！ 傳送者中心並填寫表單以驗證網域擁有權。 輸入下列的FBL報告電子郵件地址，並使用將收到的OTP來驗證Yahoo！的所有權 寄件者中心。"
+>title="完成回饋迴路步驟"
+>abstract="前往 Yahoo! Sender Hub，並填寫表單以驗證網域所有權。輸入下方列出的 FBL 報告電子郵件地址，並使用將收到的 OTP 來驗證 Yahoo! Sender Hub 的所有權。"
 
 1. 前往[Yahoo！ 寄件者中心](https://senders.yahooinc.com/)網站並填寫驗證您網域擁有權的必要表單。
 
@@ -110,7 +110,7 @@ ht-degree: 2%
    >
    >OTP要求只能在工作日提出。 週末不支援。<!--Add times + timezone-->
 
-1. 在Yahoo！上輸入OTP 寄件者中心。
+1. 在Yahoo！上輸入OTP Sender Hub 的所有權。
 
 1. 請確定您已完成所有回饋回圈步驟。
 

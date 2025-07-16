@@ -12,7 +12,7 @@ keywords: 設定、配置、訊息、通道、沙箱、最佳化程式
 source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 45%
+ht-degree: 48%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 45%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_rate_controls"
->title="頻道的速率控制"
->abstract="頻道的速率控制"
+>title="管道的速率控制"
+>abstract="管道的速率控制"
 
 首次存取 [!DNL Journey Optimizer] 系統時，會佈建生產沙箱，並根據您的合約分配特定數量的 IP。
 

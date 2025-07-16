@@ -9,7 +9,7 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
 >title="發佈協調的行銷活動"
->abstract="若要開始您的行銷活動，您必須發佈該活動。請確保所有錯誤在發佈之前都已清除。"
+>abstract="若要開始您的行銷活動，您必須發佈該活動。在發佈前，請確定所有錯誤都已清除。"
 
 +++ 目錄
 

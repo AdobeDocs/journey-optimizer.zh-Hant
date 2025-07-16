@@ -1,5 +1,5 @@
 ---
-title: 傳送歷程中的直接郵件訊息
+title: 傳送包含歷程的直接郵件
 description: 瞭解如何建立並傳送歷程的直接郵件訊息。
 feature: Direct Mail
 topic: Content Management
@@ -15,11 +15,11 @@ exl-id: 44886355-ee3a-4323-899a-35d967487924
 source-git-commit: 755ffdb0a9986ce8c2175a9bc61ed4a56714ff7d
 workflow-type: tm+mt
 source-wordcount: '774'
-ht-degree: 19%
+ht-degree: 28%
 
 ---
 
-# 傳送歷程中的直接郵件訊息 {#direct-mail-journeys}
+# 傳送包含歷程的直接郵件 {#direct-mail-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_direct_mail"
@@ -45,7 +45,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_frequency"
 >title="選擇 AWS 區域"
->abstract="如果檔案路由設定要使用歷程傳送，您可以指定檔案向伺服器傳送的頻率。"
+>abstract="如果您的檔案路由設定將使用歷程進行傳送，您可以指定檔案將傳送到伺服器的頻率。"
 
 在建立直接郵件訊息之前，請確定您已設定檔案路由設定，該設定會指定應該上傳及儲存解壓縮檔案的伺服器。 若要這麼做，請依照以下步驟進行：
 
@@ -53,7 +53,7 @@ ht-degree: 19%
 
 1. 定義檔案路由組態屬性，例如其名稱以及要使用的伺服器型別。 有關如何設定檔案路由設定的詳細資訊，請參閱[直接郵件設定](../direct-mail/direct-mail-configuration.md#file-routing-configuration)區段。
 
-   如果檔案路由設定要使用歷程傳送，您可以指定檔案向伺服器傳送的頻率。
+   如果您的檔案路由設定將使用歷程進行傳送，您可以指定檔案將傳送到伺服器的頻率。
 
    ![](assets/file-routing-journey.png)
 
