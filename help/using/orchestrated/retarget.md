@@ -6,7 +6,7 @@ description: 瞭解如何使用Adobe Journey Optimizer開始及監控協調的�
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: b1bee7a5ee05e0e535a982c31bafafdc760d21ae
+source-git-commit: 811a04c1ce74627b48143da4cd78d6cc644f4ba5
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 1%
@@ -39,6 +39,8 @@ ht-degree: 1%
 
 * **[!UICONTROL 訊息回饋]**：擷取傳遞相關的事件，例如已傳送、已開啟、已退回的訊息等。
 * **[!UICONTROL 電子郵件追蹤]**：擷取使用者動作，例如點按和開啟。
+
+![](assets/do-not-localize/retarget-schema.png)
 
 ## 建立意見反應式重新目標定位規則 {#feedback-retarget}
 
@@ -102,7 +104,7 @@ ht-degree: 1%
 
       按一下畫布中活動旁的![資訊圖示](assets/do-not-localize/info-icon.svg)，即可找到動作名稱。
 
-   ++
++++
 
 1. 或者，您也可以依&#x200B;**[!UICONTROL 促銷活動ID]** (UUID)進行篩選，您可在促銷活動屬性中找到該篩選器。
 
