@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 604af3a0ac9febb62f2e2b1705e2751b2c476e04
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '422'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,11 @@ ht-degree: 2%
 
 Adobe Journey Optimizer使用[自訂SMS提供者](sms-configuration-custom.md)功能，透過Twilio支援RCS傳訊。 這可透過已驗證的企業設定檔傳送豐富的互動式訊息，並納入輪播、按鈕和多媒體內容等元素。
 
+➡️ [在Twilio檔案中探索Twilio如何支援RCS](https://www.twilio.com/docs/rcs)
+
 若要使用Twilio啟用RCS傳訊，必須透過自訂SMS提供者設定新的API認證。 現有的Twilio SMS認證不相容，因為RCS需要不同的裝載格式。
+
+使用Twilio設定RCS：
 
 1. **在Twilio註冊RCS傳訊**
 

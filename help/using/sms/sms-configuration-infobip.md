@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 604af3a0ac9febb62f2e2b1705e2751b2c476e04
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '762'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 3%
    | 選擇退出訊息 | 輸入自訂回應，此回應會自動作為您的選擇退出訊息傳送。 |
    | 說明關鍵字 | 輸入將會自動觸發您的&#x200B;**說明訊息**&#x200B;的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
    | 說明訊息 | 輸入自動傳送為&#x200B;**說明訊息**&#x200B;的自訂回應。 |
-   | 雙重選擇加入關鍵字 | 輸入觸發雙重加入流程的關鍵字。 如果使用者輪廓不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。 [進一步瞭解SMS雙重選擇加入](https://video.tv.adobe.com/v/3440291/?learn=on&captions=chi_hant)。 |
+   | 雙重選擇加入關鍵字 | 輸入觸發雙重加入流程的關鍵字。 如果使用者輪廓不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。 [進一步瞭解SMS雙重選擇加入](https://video.tv.adobe.com/v/3427129/?learn=on)。 |
    | 雙重選擇加入訊息 | 輸入自動傳送以回應雙重選擇加入確認的自訂回應。 |
    | 主體實體ID | 輸入指派的DLT主要實體識別碼。 |
    | 內容範本ID | 輸入註冊的DLT內容範本ID。 |
@@ -73,7 +73,11 @@ ht-degree: 3%
 
 Adobe Journey Optimizer使用[自訂SMS提供者](sms-configuration-custom.md)功能，透過Infobip支援RCS傳訊。 這可透過已驗證的企業設定檔傳送豐富的互動式訊息，並納入輪播、按鈕和多媒體內容等元素。
 
+➡️ [在Infobip檔案中探索Infobip如何支援RCS](https://www.infobip.com/docs/api/channels/rcs)
+
 若要使用Infobip啟用RCS傳訊，必須透過自訂SMS提供者設定新的API認證。 現有的Infobip SMS憑證不相容，因為RCS需要不同的裝載格式。
+
+使用Infobip設定RCS：
 
 1. **透過Infobip註冊您的企業以使用RCS**
 
