@@ -144,7 +144,7 @@ Here you can see that we have applied a different background, defined another im
 
    <!--![](assets/dark-mode-custom.png)-->
 
-1. 完成深色模式的所有變更後，請按一下[模擬內容]。**&#x200B;**
+1. 完成深色模式的所有變更後，請按一下[模擬內容]。****
 
    ![](assets/dark-mode-simulate.png)
 
