@@ -6,12 +6,12 @@ description: 瞭解如何暫停並繼續即時歷程
 feature: Journeys
 role: User
 level: Intermediate
-badge: label="可用性限制" type="Informative"
+badge: label="有限可用性" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 1215cdc3ed6050ca061f8d97281d52ade352611e
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2117'
 ht-degree: 8%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 8%
 
 >[!AVAILABILITY]
 >
->此功能僅適用於某個組織（可用性限制），可在全球推出未來的版本。
+>此功能僅適用於一組組織 (有限可用性)，將透過未來版本在全球推出。
 
 
 ## 主要優點 {#journey-pause-benefits}
@@ -38,7 +38,7 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->* 暫停和恢復歷程的許可權僅限於具有&#x200B;**[!DNL Publish journeys]**&#x200B;高階許可權的使用者。 在[本節](../administration/permissions-overview.md)中進一步瞭解如何管理[!DNL Journey Optimizer]使用者的存取權。
+>* 暫停和恢復歷程的許可權僅限於具有&#x200B;**[!DNL Publish journeys]**&#x200B;高階許可權的使用者。 在[!DNL Journey Optimizer]本節[中進一步瞭解如何管理](../administration/permissions-overview.md)使用者的存取權。
 >
 >* 開始使用暫停/恢復功能之前，[請先閱讀護欄和限制](#journey-pause-guardrails)。
 
@@ -87,7 +87,7 @@ ht-degree: 8%
 | [內容決定](content-decision.md) | 當歷程暫停時，會根據使用者選擇的內容暫留或捨棄設定檔 |
 | [頻道動作](journeys-message.md) | 當歷程暫停時，會根據使用者選擇的內容暫留或捨棄設定檔 |
 | [自訂動作](../action/action.md) | 當歷程暫停時，會根據使用者選擇的內容暫留或捨棄設定檔 |
-| [更新設定檔](update-profiles.md)與[跳轉](jump.md) | 與即時歷程中的行為相同 |
+| [更新設定檔](update-profiles.md)與[跳轉](jump.md) | 當歷程暫停時，會根據使用者選擇的內容暫留或捨棄設定檔 |
 | [外部資料Source](../datasource/external-data-sources.md) | 與即時歷程中的行為相同 |
 | [退出條件](journey-properties.md#exit-criteria) | 與即時歷程中的行為相同 |
 
@@ -167,7 +167,7 @@ ht-degree: 8%
 * 某些已捨棄的設定檔會顯示在歷程步驟事件中，但不會顯示在報表中。 例如：
    * 捨棄&#x200B;**讀取對象**&#x200B;的商業事件
    * **讀取對象**&#x200B;工作因暫停歷程而捨棄
-   * 在&#x200B;**Event**&#x200B;活動在設定檔等待的動作之後時，捨棄事件
+   * 在&#x200B;**Event**活動在設定檔等待的動作之後時，捨棄事件
      <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
 ## 端對端範例 {#journey-pause-sample}
@@ -182,7 +182,7 @@ ht-degree: 8%
 1. **等待**&#x200B;活動：設定檔繼續在節點上正常等待，而且即使歷程暫停，也會退出節點。
 1. **條件**：設定檔會繼續通過條件，並根據條件上定義的運算式，移至正確的分支。
 1. **推播**/**電子郵件**&#x200B;活動：在暫停的歷程中，設定檔會開始等待或捨棄（根據使用者在暫停時所做的選擇）下一個動作節點。 因此，設定檔將會開始等待或捨棄在那裡。
-1. **動作**&#x200B;節點之後的&#x200B;**事件**：如果設定檔正在等候&#x200B;**動作**&#x200B;節點，而且之後有&#x200B;**事件**&#x200B;活動，如果引發該事件，則會捨棄設定檔。
+1. **動作**&#x200B;節點之後的&#x200B;**事件**：如果設定檔正在等候&#x200B;**動作**&#x200B;節點，而且之後有&#x200B;**事件**&#x200B;活動，如果觸發該事件，則會捨棄該事件。
 
 根據此行為，您會看到暫停歷程中的設定檔數目增加，大多是在&#x200B;**動作**&#x200B;活動前的活動中。 舉例來說，在該範例中，**等待**&#x200B;活動仍處於啟用狀態，當設定檔結束&#x200B;**條件**&#x200B;活動時，會增加該活動的設定檔數量。
 
