@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: c5a0c6401add384685c9d7ab2c623076ea4bf793
+source-git-commit: aefc95b755074dfa043bad7dfd4acbd8dfb8e939
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 7%
@@ -53,16 +53,16 @@ ht-degree: 7%
 
 1. 提供&#x200B;**結構描述名稱** （例如`test_demo_ck001`）。
 1. 選擇&#x200B;**結構描述型別**：
-   &#x200B;- **記錄型別** （AGO行銷活動所需）
-   &#x200B;- **時間序列** （此處不適用）
+   **記錄型別** （AGO行銷活動所需）
+   **時間序列** （此處不適用）
 1. 按一下&#x200B;**完成**&#x200B;以繼續結構描述設計畫布。
 
 ## 選取要匯入的實體和欄位
 
 1. 在畫布中，將屬性（欄位）新增到結構描述。
 1. 新增&#x200B;**主索引鍵** （必要）。
-1. 新增&#x200B;**Version Descriptor**&#x200B;屬性（用於CDC支援）：
-這必須是型別&#x200B;**日期時間**&#x200B;或&#x200B;**數值** （整數、長、短、位元組）。
+1. 新增&#x200B;**Version Descriptor**屬性（用於CDC支援）：
+這必須是型別**日期時間**&#x200B;或&#x200B;**數值** （整數、長、短、位元組）。
 常見範例： `last_modified`
 
 > **為什麼？** **主索引鍵**&#x200B;會唯一識別每個記錄，而&#x200B;**版本描述項**&#x200B;會追蹤變更，支援CDC （變更資料擷取）和資料映象。
