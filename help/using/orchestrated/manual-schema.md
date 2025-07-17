@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: ea5ef4005be90973046d3f94ea4c2b92eb89ffb4
+source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 7%
+source-wordcount: '152'
+ht-degree: 9%
 
 ---
 
@@ -38,40 +38,41 @@ ht-degree: 7%
 
 關聯式結構描述可以直接透過使用者介面建立，啟用屬性、主索引鍵、版本設定欄位和關係的詳細設定。
 
-以下範例手動定義忠誠會員架構，以說明協調行銷活動的所需結構。
+<!--
+The following example manually defines the Loyalty Memberships schema to illustrate the required structure for orchestrated campaigns.
 
-1. 登入Adobe Experience Platform。
+1. Log in to Adobe Experience Platform.
 
-1. 導覽至&#x200B;**資料管理** > **結構描述**。
+1. Navigate to the **Data Management** > **Schema**.
 
-1. 按一下&#x200B;**建立結構描述**。
+1. Click on **Create Schema**.
 
-1. 系統會提示您選取兩種結構描述型別：
+1. You will be prompted to select between two schema types:
 
-   * **標準**
-   * **關聯式**，專門用於協調的行銷活動
+    * **Standard**
+    * **Relational**, used specifically for orchestrated campaigns
 
-   ![](assets/admin_schema_1.png)
+    ![](assets/admin_schema_1.png)
 
-1. 提供&#x200B;**結構描述名稱** （例如`test_demo_ck001`）。
-1. 選擇&#x200B;**結構描述型別**：
-   **記錄型別** （AGO行銷活動所需）
-   **時間序列** （此處不適用）
-1. 按一下&#x200B;**完成**&#x200B;以繼續結構描述設計畫布。
+1. Provide a **Schema Name** (e.g., `test_demo_ck001`).
+1. Choose **Schema Type**:
+    **Record Type** (required for AGO campaigns)
+    **Time Series** (not applicable here)
+1. Click **Finish** to proceed to the schema design canvas.
 
-## 選取要匯入的實體和欄位
+## Select entities and fields to import
 
-1. 在畫布中，將屬性（欄位）新增到結構描述。
-1. 新增&#x200B;**主索引鍵** （必要）。
-1. 新增&#x200B;**Version Descriptor**&#x200B;屬性（用於CDC支援）：
-這必須是型別&#x200B;**日期時間**&#x200B;或&#x200B;**數值** （整數、長、短、位元組）。
-常見範例： `last_modified`
+1. In the canvas, add attributes (fields) to your schema.
+1. Add a **Primary Key** (mandatory).
+1. Add a **Version Descriptor** attribute (for CDC support):
+     This must be of type **DateTime** or **Numeric** (Integer, Long, Short, Byte).
+     Common example: `last_modified`
 
-> **為什麼？** **主索引鍵**&#x200B;會唯一識別每個記錄，而&#x200B;**版本描述項**&#x200B;會追蹤變更，支援CDC （變更資料擷取）和資料映象。
+> **Why?** The **Primary Key** uniquely identifies each record, and the **Version Descriptor** tracks changes, supporting CDC (Change Data Capture) and data mirroring.
 
-1. 將適當的欄位標示為&#x200B;**主索引鍵**&#x200B;和&#x200B;**版本描述項**。
-1. 按一下&#x200B;**儲存**。
-
+1. Mark the appropriate fields as **Primary Key** and **Version Descriptor**.
+1. Click **Save**.
+-->
 
 <!--
 

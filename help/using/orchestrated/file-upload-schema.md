@@ -6,10 +6,10 @@ description: 瞭解如何透過上傳DDL在Adobe Experience Platform中建立關
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: ea5ef4005be90973046d3f94ea4c2b92eb89ffb4
+source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 1%
+source-wordcount: '176'
+ht-degree: 7%
 
 ---
 
@@ -37,119 +37,121 @@ ht-degree: 1%
 
 透過建立結構描述（例如&#x200B;**忠誠會員資格**、**忠誠度交易**&#x200B;和&#x200B;**忠誠度獎勵**），定義協調行銷活動所需的關聯式資料模型。 每個結構描述都必須包含主索引鍵、版本設定屬性以及適當的關聯性，以參照&#x200B;**收件者**&#x200B;或&#x200B;**品牌**&#x200B;等實體。
 
-您可以透過介面手動建立結構描述，或使用DDL檔案大量匯入結構描述。
+<!--
+Schemas can be created manually through the interface or imported in bulk using a DDL file.
 
-本節提供如何透過上傳DDL （資料定義語言）檔案在Adobe Experience Platform中建立關聯式綱要的逐步指南。 使用DDL檔案可讓您預先定義資料模型的結構，包括表格、屬性、索引鍵和關係。
+This section provides step-by-step guidance on how to create a relational schema within Adobe Experience Platform by uploading a DDL (Data Definition Language) file. Using a DDL file allows you to define the structure of your data model in advance, including tables, attributes, keys, and relationships. 
 
-## 上傳DDL檔案{#ddl-upload}
+## Upload a DDL file{#ddl-upload}
 
-透過上傳DDL檔案，您可以預先定義資料模型的結構，包括表格、屬性、索引鍵和關係。
+By uploading a DDL file, you can define the structure of your data model in advance, including tables, attributes, keys, and relationships. 
 
-1. 登入Adobe Experience Platform。
+1. Log in to Adobe Experience Platform.
 
-1. 導覽至&#x200B;**資料管理** > **結構描述**。
+1. Navigate to the **Data Management** > **Schema**.
 
-1. 按一下&#x200B;**建立結構描述**。
+1. Click on **Create Schema**.
 
-1. 系統會提示您選取兩種結構描述型別：
+1. You will be prompted to select between two schema types:
 
-   * **標準**
-   * **關聯式**，專門用於協調的行銷活動
+    * **Standard**
+    * **Relational**, used specifically for orchestrated campaigns
 
-   ![](assets/admin_schema_1.png)
+    ![](assets/admin_schema_1.png)
 
-1. 選取&#x200B;**上傳DDL檔案**&#x200B;以定義實體關聯圖並建立結構描述。
+1. Select **Upload DDL file** to define an entity relationship diagram and create schemas.
 
-   表格結構必須包含：
-   * 至少一個主索引鍵
-   * 版本識別碼，例如`lastmodified`或`datetime`型別的`number`欄位。
+    The table structure must contain:
+    * At least one primary key
+    * A version identifier, such as a `lastmodified` field of type `datetime` or `number`.
 
-1. 拖放您的DDL檔案，然後按一下&#x200B;**[!UICONTROL 下一步]**。
+1. Drag and drop your DDL file and click **[!UICONTROL Next]**.
 
-1. 輸入您的&#x200B;**[!UICONTROL 結構描述名稱]**。
+1. Type-in your **[!UICONTROL Schema name]**.
 
-1. 設定每個結構描述及其欄，確定已指定主索引鍵。
+1. Set up each schema and its columns, ensuring that a primary key is specified. 
 
-   必須指定一個屬性（例如`lastmodified`）做為版本描述項。 這個屬性（通常是`datetime`、`long`或`int`型別）是內嵌程式所必須的，以確保資料集以最新資料版本更新。
+    One attribute, such as `lastmodified`, must be designated as a version descriptor. This attribute, typically of type `datetime`, `long`, or `int`, is essential for ingestion processes to ensure that the dataset is updated with the latest data version.
 
-   ![](assets/admin_schema_2.png)
+    ![](assets/admin_schema_2.png)
 
-1. 按一下&#x200B;**[!UICONTROL 完成]**。
+1. Click **[!UICONTROL Done]** once done.
 
-您現在可以在畫布內驗證表格和欄位定義。 [在下列章節中瞭解更多](#entities)
+You can now verify the table and field definitions within the canvas. [Learn more in the section below](#entities)
 
-## 定義關係 {#relationships}
+## Define relationships {#relationships}
 
-若要定義架構內各表格之間的邏輯連線，請遵循下列步驟。
+To define logical connections between tables within your schema, follow the steps below.
 
-1. 存取資料模型的畫布檢視，並選擇您要連結的兩個表格
+1. Access the canvas view of your data model and choose the two tables you want to link
 
-1. 按一下Source加入旁的![](assets/do-not-localize/Smock_AddCircle_18_N.svg)按鈕，然後拖曳並引導箭頭朝向Target加入以建立連線。
+1. Click the ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) button next to the Source Join, then drag and guide the arrow towards the Target Join to establish the connection.
 
-   ![](assets/admin_schema_5.png)
+    ![](assets/admin_schema_5.png)
 
-1. 填寫指定的表單以定義連結，並在設定後按一下&#x200B;**套用**。
+1. Fill in the given form to define the link and click **Apply** once configured.
 
-   ![](assets/admin_schema_3.png)
+    ![](assets/admin_schema_3.png)
 
-   **基數**：
+    **Cardinality**:
 
-   * **1-N**：來源表格的一個出現次數可以具有多個目標表格的對應出現次數，但目標表格的一個出現次數最多可以具有來源表格的一個對應出現次數。
+     * **1-N**: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
 
-   * **N-1**：目標表格的一個出現次數可以有來源表格的多個對應出現次數，但來源表格的一個出現次數最多可以有目標表格的對應出現次數。
+    * **N-1**: one occurrence of the target table can have several corresponding occurrences of the source table, but one occurrence of the source table can have at most one corresponding occurrence of the target table.
 
-   * **1-1**：來源資料表的一個執行個體最多可以具有目標資料表的一個對應執行個體。
+    * **1-1**: one occurrence of the source table can have at most one corresponding occurrence of the target table.
 
-1. 資料模型中定義的所有連結都會在畫布檢視中以箭頭表示。 按一下兩個表格之間的箭頭，即可檢視詳細資訊、進行編輯或視需要移除連結。
+1. All links defined in your data model are represented as arrows in the canvas view. Click on an arrow between two tables to view details, make edits, or remove the link as needed.
 
-   ![](assets/admin_schema_6.png)
+    ![](assets/admin_schema_6.png)
 
-1. 使用工具列來自訂和調整您的畫布。
+1. Use the toolbar to customize and adjust your canvas.
 
-   ![](assets/toolbar.png)
+    ![](assets/toolbar.png)
 
-   * **放大**：放大畫布以更清楚檢視資料模型的詳細資料。
+    * **Zoom in**: Magnify the canvas to see details of your data model more clearly.
 
-   * **縮小**：縮小畫布大小，以更廣的檢視您的資料模型。
+    * **Zoom out**: Reduce the canvas size for a broader view of your data model.
 
-   * **符合檢視**：調整縮放以符合可見區域中的所有結構描述。
+    * **Fit view**: Adjust the zoom to fit all schemas within the visible area.
 
-   * **篩選器**：選擇要顯示在畫布中的結構描述。
+    * **Filter**: Choose which schema to display within the canvas.
 
-   * **強制自動配置**：自動排列結構描述以取得更好的組織。
+    * **Force auto layout**: Automatically arrange schemas for better organization.
 
-   * **顯示地圖**：切換迷你地圖覆蓋，以更輕鬆地導覽大型或複雜的結構描述配置。
+    * **Display map**: Toggle a minimap overlay to help navigate large or complex schema layouts more easily.
 
-1. 完成時，按一下&#x200B;**儲存**。 此動作會建立結構描述和相關聯的資料集，並啟用資料集以用於協調的行銷活動。
+1. Click **Save** once done. This action creates the schemas and associated data sets and enables the data set for use in Orchestrated Campaigns.
 
-1. 按一下&#x200B;**[!UICONTROL 開啟工作]**&#x200B;以監視建立工作的進度。 此程式可能需要幾分鐘的時間，視DDL檔案中定義的表格數量而定。
+1. Click **[!UICONTROL Open Jobs]** to monitor the progress of the creation job. This process may take couple minutes, depending on the number of tables defined in the DDL file. 
 
-   ![](assets/admin_schema_4.png)
+    ![](assets/admin_schema_4.png)
 
-## 連結綱要 {#link-schema}
+## Link schema {#link-schema}
 
-在&#x200B;**熟客交易**&#x200B;結構描述與&#x200B;**收件者**&#x200B;結構描述之間建立關係，以將每個交易與正確的客戶記錄建立關聯。
+Establish a relationship between the **loyalty transactions** schema and the **Recipients** schema to associate each transaction with the correct customer record.
 
-1. 瀏覽至&#x200B;**[!UICONTROL 結構描述]**，並開啟您先前建立的&#x200B;**熟客方案交易**。
+1. Navigate to **[!UICONTROL Schemas]** and open your previously create **loyalty transactions**.
 
-1. 按一下客戶&#x200B;**[!UICONTROL 欄位屬性]**&#x200B;中的&#x200B;**[!UICONTROL 新增關係]**。
+1. Click **[!UICONTROL Add Relationship]** from the Customer **[!UICONTROL Field properties]**.
 
-   ![](assets/schema_1.png)
+    ![](assets/schema_1.png)
 
-1. 選取&#x200B;**[!UICONTROL 多對一]**&#x200B;做為關聯性&#x200B;**[!UICONTROL 型別]**。
+1. Select **[!UICONTROL Many-to-One]** as the relationship **[!UICONTROL Type]**.
 
-1. 連結至現有的&#x200B;**收件者**&#x200B;結構描述。
+1. Link to the existing **Recipients** schema.
 
-   ![](assets/schema_2.png)
+    ![](assets/schema_2.png)
 
-1. 輸入來自目前結構描述&#x200B;**[!UICONTROL 的]**&#x200B;關聯性名稱以及來自參考結構描述&#x200B;**[!UICONTROL 的]**&#x200B;關聯性名稱。
+1. Enter a **[!UICONTROL Relationship name from current schema]** and **[!UICONTROL Relationship name from reference schema]**.
 
-1. 按一下&#x200B;**[!UICONTROL 套用]**&#x200B;以儲存變更。
+1. Click **[!UICONTROL Apply]** to save your changes.
 
-繼續建立&#x200B;**忠誠度獎勵**&#x200B;結構描述與&#x200B;**品牌**&#x200B;結構描述之間的關係，將每個獎勵專案與適當的品牌建立關聯。
+Continue by creating a relationship between the **loyalty rewards** schema and the **Brands** schema to associate each reward entry with the appropriate brand.
 
 ![](assets/schema_3.png)
 
+-->
 <!--### Setting Up Change data capture ingestion {#cdc-ingestion}
 
 If you need to change the data source, you must delete the existing dataflow and create a new one pointing to the same dataset with the new source.
