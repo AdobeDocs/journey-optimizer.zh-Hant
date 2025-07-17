@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2950856622ea9ee6c761f4555d5322bb788bb2cb
+source-git-commit: 1aa4f3e24a4cb7594232c0b25da8c9fd2e62c1de
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2523'
 ht-degree: 98%
 
 ---
@@ -182,7 +182,11 @@ ht-degree: 98%
       + [疑難排解自訂動作](using/action/troubleshoot-custom-action.md)
 + 協調的行銷活動 {#orchestrated-campaigns}
    + [開始使用協調行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
-   + [設定步驟](using/orchestrated/configuration-steps.md)
+   + 管理關聯式結構描述和資料集 {#schemas-datasets}
+      + [開始使用結構描述和資料集](using/orchestrated/gs-schemas.md)
+      + [手動結構描述](using/orchestrated/manual-schema.md)
+      + [檔案上傳結構描述](using/orchestrated/file-upload-schema.md)
+      + [擷取資料](using/orchestrated/ingest-data.md)
    + [存取並管理協調的行銷活動](using/orchestrated/access-manage-orchestrated-campaigns.md)
    + [護欄與限制](using/orchestrated/guardrails.md)
    + 首次建立協調的行銷活動{#launch}
@@ -313,7 +317,7 @@ ht-degree: 98%
       + [建立直接郵件](using/direct-mail/create-direct-mail.md)
       + [檢查並傳送直接郵件訊息](using/direct-mail/test-send-direct-mail.md)
       + [設定直接郵件](using/direct-mail/direct-mail-configuration.md)
-      + [傳送歷程中的直接郵件訊息](using/direct-mail/direct-mail-journeys.md)
+      + [傳送包含歷程的直接郵件](using/direct-mail/direct-mail-journeys.md)
    + 網頁管道 {#web}
       + [開始使用網頁管道](using/web/get-started-web.md)
       + 設定網頁管道 {#configure-web-channel}
