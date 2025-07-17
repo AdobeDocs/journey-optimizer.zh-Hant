@@ -7,12 +7,12 @@ feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="可用性限制" type="Informative"
+badge: label="有限可用性" type="Informative"
 keywords: 活動，決策，內容決定，決定原則，畫布，歷程
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
-source-git-commit: 701b2caeac704149c820ce3bf6338107ab4bc9f8
+source-git-commit: 30234392f9b643fa37be701d4d6878d798ea94fe
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1027'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->此功能僅適用於某個組織（可用性限制），可在全球推出未來的版本。
+>此功能僅適用於一組組織 (有限可用性)，將透過未來版本在全球推出。
 
 [!DNL Journey Optimizer]可讓您透過歷程畫布中的專用&#x200B;**內容決定**&#x200B;活動，將優惠方案納入您的歷程。 然後，您可以新增其他活動（例如[自訂動作](../action/about-custom-action-configuration.md)）至您的歷程，以使用這些個人化優惠鎖定您的對象。
 
@@ -49,7 +49,7 @@ ht-degree: 3%
 
    ![將內容決定新增至歷程](assets/journey-content-decision.png){width=100%}
 
-1. 或者，新增標籤和說明至活動。
+1. 選擇性地新增標籤和說明至活動。
 
 1. 按一下&#x200B;**[!UICONTROL 新增決定原則]**。 [進一步了解決定原則](../experience-decisioning/create-decision.md)
 
@@ -63,9 +63,9 @@ ht-degree: 3%
 
 1. 視需要安排評估順序。
 
-   新增多個決定專案和/或策略時，會依序評估，以每個物件或物件群組左側的數字表示。 若要變更預設順序，您可以拖放物件和/或群組以視需要重新排序。 [了解更多](../experience-decisioning/create-decision.md#evaluation-order)
+   新增多個決定專案和/或策略時，會依序評估，並以每個物件或物件群組左側的數字表示。 若要變更預設順序，您可以拖放物件和/或群組以視需要重新排序。 [了解更多](../experience-decisioning/create-decision.md#evaluation-order)
 
-1. 或者，新增遞補優惠。 [了解更多](../experience-decisioning/create-decision.md#fallback)
+1. （選用）新增遞補優惠。 [了解更多](../experience-decisioning/create-decision.md#fallback)
 
 1. 檢閱並儲存您的決定原則。
 
@@ -85,7 +85,7 @@ ht-degree: 3%
 
 1. 從&#x200B;**[!UICONTROL 協調流程]**&#x200B;類別，將&#x200B;**[!UICONTROL 條件]**&#x200B;活動拖放到您的畫布中。 [了解更多](condition-activity.md#add-condition-activity)
 
-1. 選擇性地將對應至您要定義之第一個運算式的&#x200B;**[!UICONTROL Path1]**&#x200B;重新命名為更相關的標籤。
+1. （選擇性）將對應您定義之第一個運算式的&#x200B;**[!UICONTROL Path1]**&#x200B;重新命名為更相關的標籤。
 
 1. 對於第一個路徑，按一下&#x200B;**[!UICONTROL 運算式]**&#x200B;欄位內部，或使用[編輯]圖示新增運算式。
 
@@ -103,7 +103,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >在決定規則（作為內容資料）中使用的歷程體驗事件中，或在[選件結構描述](../experience-decisioning/catalogs.md#access-catalog-schema)中，在屬性上定義的任何受限制標籤都不會導致DULE或同意的原則違規。 在[本節](../action/action-privacy.md)中進一步瞭解資料治理原則
+   >在決定規則（作為內容資料）中使用的歷程體驗事件中，或在[選件結構描述](../experience-decisioning/catalogs.md#access-catalog-schema)中，在屬性上定義的任何受限制標籤都會導致DULE或同意的原則違規。 在[本節](../action/action-privacy.md)中進一步瞭解資料治理原則
 
 1. 若要檢查是否已針對進入歷程的設定檔傳回任何選件，請使用具有以下語法的[listSize](functions/functionlistsize.md)函式： `listSize(@decision{ContentdecisionName.items})>0`
 
