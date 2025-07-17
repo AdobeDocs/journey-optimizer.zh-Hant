@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec2cccb651360ec796610781affcedca96d66af4
-workflow-type: ht
-source-wordcount: '1278'
-ht-degree: 100%
+source-git-commit: a587b8754e94781b7735f3d7d5abb9b9767a74a5
+workflow-type: tm+mt
+source-wordcount: '1277'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ### 歷程條件的變更 {#ee-change@}
 
-從 7 月 8 日開始，在新的客戶組織中，歷程條件中使用的運算式編輯器將不再支援使用體驗事件建立運算式。因此，[Experience Platform 資料來源](../datasource/adobe-experience-platform-data-source.md)中的體驗事件無法用於建立運算式。使用體驗事件建立運算式/邏輯的替代方法和最佳做法可參考[這裡](../building-journeys/exp-event-lookup.md)。
+從7月8日開始，在新的客戶組織中，歷程條件中使用的運算式編輯器不再支援使用體驗事件建立運算式。 因此，[Experience Platform 資料來源](../datasource/adobe-experience-platform-data-source.md)中的體驗事件無法用於建立運算式。使用體驗事件建立運算式/邏輯的替代方法和最佳做法可參考[這裡](../building-journeys/exp-event-lookup.md)。
 
 在單一歷程中存取歷程內容事件資料的方式不會變更。在運算式和個人化編輯器中，使用者可以繼續存取透過初始歷程事件傳入的資料。
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 **發行日期**：2025 年 6 月 18 日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 全新功能 {#25-06-features}
 
