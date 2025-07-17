@@ -110,7 +110,7 @@ ht-degree: 30%
 
    ![](../assets/workflow-reconciliation-criteria.png)
 
-1. 若要新增更多相符規則，請按一下[新增規則]。**** 必須符合所有條件，才會發生比對。
+1. 若要新增更多相符規則，請按一下[新增規則]。**&#x200B;** 必須符合所有條件，才會發生比對。
 
 1. 如需更複雜的條件，請選擇&#x200B;**[!UICONTROL 進階調解條件]**。 使用[查詢模型工具](../orchestrated-rule-builder.md)來定義自訂邏輯。
 

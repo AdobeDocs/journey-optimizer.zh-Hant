@@ -69,7 +69,7 @@ Adobe Experience Platform可讓您從外部來源擷取資料，同時使用Expe
 
    ![](assets/S3_config_2.png)
 
-1. 選擇您的資料夾&#x200B;**[!UICONTROL 資料格式]**、**[!UICONTROL 分隔符號]**&#x200B;和&#x200B;**[!UICONTROL 壓縮型別]**。 檢閱您的範例資料是否準確，然後按[下一步] ****。
+1. 選擇您的資料夾&#x200B;**[!UICONTROL 資料格式]**、**[!UICONTROL 分隔符號]**&#x200B;和&#x200B;**[!UICONTROL 壓縮型別]**。 檢閱您的範例資料是否準確，然後按[下一步] **&#x200B;**。
 
    ![](assets/S3_config_1.png)
 
