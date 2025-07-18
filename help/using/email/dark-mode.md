@@ -10,14 +10,15 @@ level: Beginner, Intermediate
 keywords: 深色模式，電子郵件，顏色，編輯器
 hide: true
 hidefromtoc: true
-source-git-commit: 069df6fb67960bc7bdad4a8e0c3fdfa2b82fb8b5
+exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
+source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1701'
 ht-degree: 1%
 
 ---
 
-# 定義深色模式內容 {#dark-mode}
+# 管理深色模式內容 {#dark-mode}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
@@ -144,13 +145,19 @@ Here you can see that we have applied a different background, defined another im
 
    <!--![](assets/dark-mode-custom.png)-->
 
-1. 完成深色模式的所有變更後，請按一下[模擬內容]。**&#x200B;**
+1. 您隨時可以&#x200B;**[!UICONTROL 切換到即時檢視]**，以檢查您的內容在各種裝置大小上可能會如何呈現。 從這個檢視中，選取畫面頂端的「深色模式」切換按鈕，即可預覽不同裝置上的深色模式內容版本。
+
+   ![](assets/dark-mode-live-view.png){width="80%" align="center"}
+
+   >[!CAUTION]
+   >
+   >即時檢視是通用的預覽，用來比較各種裝置大小下的轉譯效果。 最終呈現內容可能會因收件者的電子郵件使用者端而異。
+
+1. 在您滿意深色模式的變更後，請按一下[模擬內容]。****
 
    ![](assets/dark-mode-simulate.png)
 
-1. 選取&#x200B;**[!UICONTROL 轉譯電子郵件]**&#x200B;並連線至您的Litmus帳戶。 您可以看到各種電子郵件使用者端的最終深色模式演算。
-
-   ![](assets/dark-mode-email-rendering.png){width="80%"}
+1. 選取&#x200B;**[!UICONTROL 轉譯電子郵件]**&#x200B;並連線至您的Litmus帳戶。 您可以看到各種電子郵件使用者端的最終深色模式演算。 深入瞭解[電子郵件呈現](../content-management/rendering.md)。
 
    >[!WARNING]
    >
