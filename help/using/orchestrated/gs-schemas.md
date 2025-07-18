@@ -6,10 +6,11 @@ description: 瞭解如何透過上傳DDL在Adobe Experience Platform中建立關
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
+source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 8%
+source-wordcount: '243'
+ht-degree: 5%
 
 ---
 
@@ -35,47 +36,19 @@ ht-degree: 8%
 
 >[!ENDSHADEBOX]
 
-本指南會逐步引導您建立關聯式結構、設定用於協調行銷活動的資料集、透過S3來源擷取資料，以及在AP平台中查詢擷取的資料。
-
-<!--
-In this example, the setup includes integrating two key entities, **Loyalty Transactions** and **Loyalty Rewards**, and link them to existing core entities **Recipients** and **Brands**. 
+本指南會逐步引導您建立關聯式結構描述、設定資料集以進行協調的行銷活動，以及擷取資料。
 
 ![](assets/do-not-localize/schema_admin.png)
 
-1. [Create relational Schema and associated Dataset](#schema)
-    
-    Define the relational data model for orchestrated campaigns, including the **Loyalty Memberships**, **Loyalty Transactions** and **Loyalty Rewards** entities, along with required keys and versioning attributes.
+1. 使用DDL檔案[手動建立](manual-schema.md)關聯式結構描述[或](file-upload-schema.md)
 
-1. [Link schema](#link-schema)
+   定義資料模型的結構，包括表格、屬性和關係。 選擇在使用者介面中手動建置綱要，或上傳DDL檔案以加快設定。
 
-    Link the **Loyalty Transactions** entity to **Recipients**, and **Loyalty Rewards** to **Brands**, to build a connected data model that supports personalized customer journeys.
+1. [連結綱要](#link-schema)
 
-1. [Ingest Data](#ingest)
+   在結構描述之間建立關係，以確保資料一致性並啟用跨實體查詢。 例如，將熟客方案交易連結至收件者，或將獎勵連結至品牌。
 
-    Bring data into Adobe Experience Platform from supported sources like SFTP, cloud storage, or databases.
+1. [擷取資料](#ingest)
 
--->
+   將資料從支援的來源（例如SFTP、雲端儲存空間或資料庫）匯入Adobe Experience Platform。
 
-<!--### Setting Up Change data capture ingestion {#cdc-ingestion}
-
-If you need to change the data source, you must delete the existing dataflow and create a new one pointing to the same dataset with the new source.
-
-When using Change Data Capture (CDC), it is essential that the source and dataset remain in sync to ensure accurate incremental updates. Follow the steps below:
-
-1. **Schema Requirements**
-   - Your schema must include:
-     - A **primary key** (e.g., `transaction_id`)
-     - A **versioning field** (e.g., `lastmodified` or an incrementing `version_id`)
-   - Enable the dataset for **Orchestrated Campaigns** if needed.
-
-2. **CDC Dataflow Setup**
-   - During dataflow creation, after choosing your source and files:
-     - **Enable the CDC option**
-     - Select your CDC-ready dataset
-     - Confirm field mappings (especially version field)
-
-3. **Keep Source and Target in Sync**
-   - The source system must consistently update the version field so the platform can detect changes accurately.
-
-Once set up, the platform will automatically ingest **only changed or new records** each time the flow runs.
--->

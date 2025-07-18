@@ -7,14 +7,14 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 9%
+source-wordcount: '735'
+ht-degree: 3%
 
 ---
 
-# 手動結構描述 {#manual-schema}
+# 設定手動關聯式結構描述 {#manual-schema}
 
 +++ 目錄
 
@@ -38,146 +38,123 @@ ht-degree: 9%
 
 關聯式結構描述可以直接透過使用者介面建立，啟用屬性、主索引鍵、版本設定欄位和關係的詳細設定。
 
-<!--
-The following example manually defines the Loyalty Memberships schema to illustrate the required structure for orchestrated campaigns.
+下列範例手動定義&#x200B;**忠誠會員資格**&#x200B;結構描述，以說明協調行銷活動的必要結構。
 
-1. Log in to Adobe Experience Platform.
+1. [使用Adobe Experience Platform介面手動建立關聯式結構描述](#schema)。
 
-1. Navigate to the **Data Management** > **Schema**.
+1. [新增屬性](#schema-attributes)，例如客戶ID、成員資格等級和狀態列位。
 
-1. Click on **Create Schema**.
+1. [將您的結構描述](#link-schema)連結至內建結構描述，例如行銷活動定位的收件者。
 
-1. You will be prompted to select between two schema types:
+1. [根據您的結構描述建立資料集](#dataset)，並將其啟用以用於協調的行銷活動。
 
-    * **Standard**
-    * **Relational**, used specifically for orchestrated campaigns
+1. [從支援的來源將資料](ingest-data.md)擷取到您的資料集中。
 
-    ![](assets/admin_schema_1.png)
+## 建立您的結構描述 {#schema}
 
-1. Provide a **Schema Name** (e.g., `test_demo_ck001`).
-1. Choose **Schema Type**:
-    **Record Type** (required for AGO campaigns)
-    **Time Series** (not applicable here)
-1. Click **Finish** to proceed to the schema design canvas.
+首先，在Adobe Experience Platform中手動建立新的關聯式結構描述。 此程式可讓您從頭開始定義結構描述結構，包括其名稱和行為。
 
-## Select entities and fields to import
+1. 登入Adobe Experience Platform。
 
-1. In the canvas, add attributes (fields) to your schema.
-1. Add a **Primary Key** (mandatory).
-1. Add a **Version Descriptor** attribute (for CDC support):
-     This must be of type **DateTime** or **Numeric** (Integer, Long, Short, Byte).
-     Common example: `last_modified`
+1. 導覽至&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 結構描述]**&#x200B;功能表。
 
-> **Why?** The **Primary Key** uniquely identifies each record, and the **Version Descriptor** tracks changes, supporting CDC (Change Data Capture) and data mirroring.
+1. 按一下&#x200B;**[!UICONTROL 建立結構描述]**。
 
-1. Mark the appropriate fields as **Primary Key** and **Version Descriptor**.
-1. Click **Save**.
--->
+1. 選取&#x200B;**[!UICONTROL 關聯式]**&#x200B;作為您的&#x200B;**結構描述型別**。
 
-<!--
+   ![](assets/admin_schema_1.png){zoomable="yes"}
 
-## 5. Creating a Dataset
+1. 選擇&#x200B;**[!UICONTROL 手動建立]**，以手動新增欄位來建置結構描述。
 
-1. Navigate to **Datasets**.
-1. Click on **Create Dataset**.
-1. Select the schema you just created.
-1. Assign a **Dataset Name** (same as schema is fine).
-1. Optionally, add tags (e.g., `AGO_campaigns`).
-6. Ensure the checkbox **"Relational Schema"** is checked.
-7. Click **Finish**.
+1. 輸入您的&#x200B;**[!UICONTROL 結構描述顯示名稱]**。
 
-> **Note:** Only one dataset can be created per relational schema.
+1. 選擇&#x200B;**[!UICONTROL 記錄]**&#x200B;作為您的&#x200B;**[!UICONTROL 結構描述行為]**。
 
+   ![](assets/schema_manual_8.png){zoomable="yes"}
 
-## 6. Enabling the Dataset
+1. 按一下&#x200B;**完成**&#x200B;以繼續您的結構描述建立。
 
-1. Click **Enable** for the dataset.
-1. Wait a few moments for the status to show **Enabled**.
+您現在可以開始將屬性新增到結構描述以定義其結構。
 
-> **Why?** Without enabling, the dataset cannot be used in orchestrated campaigns or ingest data.
+## 將屬性新增到結構描述 {#schema-attributes}
 
-## 7. Creating a Data Source (S3)
+接下來，新增屬性以定義結構描述的結構。 這些欄位代表協調行銷活動中使用的關鍵資料點，例如客戶識別碼、成員資格詳細資料和活動日期。 精確地定義它們可確保可靠的個人化、細分和追蹤。
 
-1. Navigate to **Sources**.
-1. Click **Create Source**.
-1. Choose the source type (e.g., **S3 Bucket**).
-1. Provide connection details:
-    - Bucket Path (optionally include subfolder path)
-1. Save the source.
+1. 在畫布中，按一下![](assets/do-not-localize/Smock_AddCircle_18_N.svg)結構描述名稱&#x200B;**旁的**&#x200B;以開始新增屬性。
 
-## 8. Preparing and Uploading Data
+   ![](assets/schema_manual_1.png){zoomable="yes"}
 
-1. Prepare your CSV file with:
-    - Column headers matching your schema attributes
-    - `last_modified` column
-    - `change_type` column (`U`/`DU` for upsert, `D` for delete)
+1. 輸入您的屬性&#x200B;**[!UICONTROL 欄位名稱]**、**[!UICONTROL 顯示名稱]**&#x200B;和&#x200B;**[!UICONTROL 型別]**。
 
-> **Important:** `change_type` is required but does not need to be defined in the schema.
+   在此範例中，我們已將下表詳述的屬性新增至&#x200B;**忠誠會員資格**&#x200B;結構描述。
 
-1. Save the file as `.csv`.
++++ 屬性範例
 
-1. Upload the file to the specified folder in your S3 bucket.
+   | 屬性名稱 | 資料類型 | 其他屬性 |
+   |-|-|-|
+   | 客戶 | STRING | 主索引鍵 |
+   | membership_level | STRING | 必要 |
+   | points_balance | 整數 | 必要 |
+   | enrollment_date | 日期 | 必要 |
+   | last_status_change | 日期 | 必要 |
+   | expiration_date | 日期 | - |
+   | is_active | 布林值 | 必要 |
+   | lastmodified | 日期時間 | 必要 |
 
++++
 
-## 9. Ingesting Data from S3
+1. 將適當的欄位指派為&#x200B;**[!UICONTROL 主索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 版本描述項]**。
 
-1. Go to **Sources** and find your S3 source.
-1. Click **Add Data**.
-1. Select the uploaded file.
-1. Specify the file format as **CSV** and any compression type if applicable.
-1. Review the data preview (ensure `change_type`, `last_modified`, and primary key are visible).
-1. Click **Next**.
+   **[!UICONTROL 主索引鍵]**&#x200B;可確保每個記錄都可唯一識別，而&#x200B;**[!UICONTROL 版本描述項]**&#x200B;會擷取隨時間變化的更新，以啟用變更資料擷取並支援資料映象。
 
-### Enable Change Data Capture (CDC)
+   ![](assets/schema_manual_2.png){zoomable="yes"}
 
-- Check **Enable Change Data Capture**.
-- Select the dataset enabled for AGO campaigns.
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-### Field Mapping
+建立屬性後，您需要將新建立的方案與內建方案連結。
 
-- Fields are auto-mapped (note that `change_type` is not mapped and that's expected).
-- Click **Next**.
+## 連結結構描述 {#link-schema}
 
-### Scheduling
+在兩個結構描述之間建立關係，可讓您使用儲存在主要設定檔結構描述之外的資料，擴充協調的行銷活動。
 
-- Schedule ingestion frequency (minute, hour, day, week).
-- Set start time (immediate or future).
-- Click **Finish** to create the data flow.
+1. 從您新建立的結構描述中，選取要做為連結使用的屬性，然後按一下&#x200B;**[!UICONTROL 新增關係]**。
 
-## 10. Monitoring Data Flow
+   ![](assets/schema_manual_3.png){zoomable="yes"}
 
-1. Navigate back to **Sources > Data Flows**.
-1. Wait 4–5 minutes for the first run (initial overhead).
-1. Monitor:
-    - Status (Started, Completed)
-    - Number of records ingested
-    - Errors (if any)
+1. 選擇&#x200B;**[!UICONTROL 參考結構描述]**&#x200B;和&#x200B;**[!UICONTROL 參考欄位]**&#x200B;以建立關係。
 
-> **Tip:** Ingested data first lands in the **Data Lake**.
+   在此範例中，`customer`屬性連結至`recipients`結構描述。
 
-## 11. Data Replication to Data Store
+   ![](assets/schema_manual_4.png){zoomable="yes"}
 
-The **Data Store** is updated:
+1. 輸入目前結構描述和參照結構描述中的關係名稱。
 
-- Every **15 minutes**, or
+1. 設定後，按一下&#x200B;**[!UICONTROL 套用]**。
 
-- If **Data Lake size exceeds 5MB**
+建立關係後，您需要根據結構描述建立資料集。
 
-This is a background replication process.
+## 為結構描述建立資料集 {#dataset}
 
+定義結構描述後，下一步就是根據它建立資料集。 此資料集會儲存您擷取的資料，且必須為協調的行銷活動啟用，才能在Adobe Journey Optimizer中存取。 啟用此選項可確保識別資料集，以用於即時協調與個人化工作流程。
 
-## 12. Querying the Dataset
+1. 導覽至&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料集]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立資料集]**。
 
-1. Navigate to **Query Services**.
-1. Click **Create Query**.
-1. Example query:
+   ![](assets/schema_manual_5.png){zoomable="yes"}
 
-   ```sql
-   SELECT * FROM test_demo_ck001;
-   ```
+1. 選取&#x200B;**[!UICONTROL 從結構描述]**&#x200B;建立資料集。
 
-1. Run the query.
+1. 選擇您先前建立的結構描述（在此&#x200B;**忠誠度會員資格**），然後按一下&#x200B;**[!UICONTROL 下一步]**。
 
-> **Note:** If ingestion is incomplete, query will return an error. Check data flow status.
+   ![](assets/schema_manual_6.png){zoomable="yes"}
 
--->
+1. 輸入您&#x200B;**[!UICONTROL 資料集]**&#x200B;的&#x200B;**[!UICONTROL 名稱]**，然後按一下&#x200B;**[!UICONTROL 完成]**。
+
+1. 啟用&#x200B;**協調的行銷活動**&#x200B;選項，讓資料集可用於您的AJO行銷活動。
+
+   啟用可能需要幾分鐘的時間。 只有在選項完全啟動後，才能擷取資料。
+
+   ![](assets/schema_manual_7.png){zoomable="yes"}
+
+您現在可以使用您選擇的來源，開始將資料擷取到您的結構描述中。
+
+➡️ [瞭解如何內嵌資料](ingest-data.md)

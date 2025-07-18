@@ -6,10 +6,11 @@ description: 瞭解如何從支援的來源（例如SFTP、雲端儲存空間或
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
+source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 17%
+source-wordcount: '480'
+ht-degree: 6%
 
 ---
 
@@ -37,68 +38,65 @@ ht-degree: 17%
 
 Adobe Experience Platform可讓您從外部來源擷取資料，同時使用Experience Platform服務來建構、加標籤及增強傳入資料。 您可以從多種來源 (如 Adobe 應用程式、雲端型的儲存空間、資料庫和其他許多來源) 內嵌資料。 
 
-<!--
-## With Cloud storage {#ingest}
+## 使用雲端儲存空間 {#ingest}
 
 
 >[!IMPORTANT]
 >
->Each dataset in Adobe Experience Platform supports only one active dataflow at a time. For detailed setup guidance on how to switch data sources, refer to this [section](#cdc-ingestion).
+>Adobe Experience Platform中的每個資料集一次僅支援一個作用中資料流。 如需有關如何切換資料來源的詳細設定指南，請參閱此[區段](#cdc-ingestion)。
 
 
-You can configure a data flow to ingest data from an Amazon S3 source into Adobe Experience Platform. Once configured, the data flow enables automated, scheduled ingestion of structured data and supports real-time updates.
+您可以設定資料流程，將資料從Amazon S3來源擷取至Adobe Experience Platform。 在設定之後，資料流程就會啟用自動且排程的結構化資料擷取，並支援即時更新。
 
-1. From the **[!UICONTROL Connections]** menu, access the **[!UICONTROL Sources]** menu.
+1. 從&#x200B;**[!UICONTROL 連線]**&#x200B;功能表，存取&#x200B;**[!UICONTROL 來源]**&#x200B;功能表。
 
-1. Select the **[!UICONTROL Cloud storage]** category then Amazon S3 and click **[!UICONTROL Add Data]**.
+1. 選取&#x200B;**[!UICONTROL 雲端儲存空間]**&#x200B;類別，然後選取Amazon S3，並按一下&#x200B;**[!UICONTROL 新增資料]**。
 
-    ![](assets/admin_sources_1.png)
+   ![](assets/admin_sources_1.png)
 
-1. Connect your S3 Account:
+1. 連線您的S3帳戶：
 
-    * With an existing account
+   * 使用現有帳戶
 
-    * With a new account
+   * 使用新帳戶
 
-    [Learn more in Adobe Experience Platform documentation](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
-    ![](assets/admin_sources_2.png)
+   ![](assets/admin_sources_2.png)
 
-1. Choose your folder **[!UICONTROL Data format]**, **[!UICONTROL Delimiter]** and **[!UICONTROL Compression type]**.
+1. 選擇您的資料夾&#x200B;**[!UICONTROL 資料格式]**、**[!UICONTROL 分隔符號]**&#x200B;和&#x200B;**[!UICONTROL 壓縮型別]**。
 
-1. Navigate through the connected S3 source until you locate the two folders created earlier i.e. **loyalty rewards** and **loyalty transactions**.
+1. 瀏覽連線的S3來源，直到您找到所需的資料夾為止，例如&#x200B;**忠誠獎勵方案**&#x200B;和&#x200B;**忠誠度交易**。
 
-1. Select the folder that contains your data.
-    
-    Selecting a folder ensures that all current and future files with the same structure are automatically processed. Selecting a single file, however, requires manually uploading each new data increment.
+1. 選取包含您資料的資料夾。
 
-    ![](assets/S3_config_2.png)
+   選取資料夾可確保自動處理所有具有相同結構的目前和未來檔案。 然而，選取單一檔案則需要手動上傳每個新的資料增量。
 
-1. Choose your folder **[!UICONTROL Data format]**, **[!UICONTROL Delimiter]** and **[!UICONTROL Compression type]**. Review your sample data for accuracy, then click **[!UICONTROL Next]**.
+   ![](assets/S3_config_2.png)
 
-    ![](assets/S3_config_1.png)
+1. 選擇您的資料夾&#x200B;**[!UICONTROL 資料格式]**、**[!UICONTROL 分隔符號]**&#x200B;和&#x200B;**[!UICONTROL 壓縮型別]**。 檢閱您的範例資料是否準確，然後按[下一步] ****。
 
-1. Check **[!UICONTROL Enable Change data capture]** to select from datasets that are mapped to relational schemas and have both a primary key and a version descriptor defined.
+   ![](assets/S3_config_1.png)
 
-1. Select your [previously created Dataset](#entities) and click **[!UICONTROL Next]**.
+1. 核取&#x200B;**[!UICONTROL 啟用變更資料擷取]**，以從對應至關聯式結構描述且已定義主索引鍵和版本描述項的資料集中選取。
 
-    ![](assets/S3_config_3.png)
+1. 選取您[先前建立的資料集](#entities)，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 
-1. In the **[!UICONTROL Mapping]** window, verify that each source file attribute is correctly mapped with the corresponding fields in the target schema.
+   ![](assets/S3_config_3.png)
 
-    Click **[!UICONTROL Next]** once done.
+1. 在&#x200B;**[!UICONTROL 對應]**&#x200B;視窗中，確認每個來源檔案屬性與目標結構描述中的對應欄位正確對應。
 
-    ![](assets/S3_config_4.png)
+   完成後，按一下&#x200B;**[!UICONTROL 下一步]**。
 
-1. Configure the data flow **[!UICONTROL Schedule]** based on your desired frequency.
+   ![](assets/S3_config_4.png)
 
-1. Click **[!UICONTROL Finish]** to create the data flow. It will execute automatically according to the defined schedule.
+1. 根據您想要的頻率設定資料流程&#x200B;**[!UICONTROL 排程]**。
 
-1. From the **[!UICONTROL Connections]** menu, select **[!UICONTROL Sources]** and access the **[!UICONTROL Data Flows]** tab to track flow execution, review ingested records, and troubleshoot any errors.
+1. 按一下&#x200B;**[!UICONTROL 完成]**&#x200B;以建立資料流程。 它會根據定義的排程自動執行。
 
-    ![](assets/S3_config_5.png)
+1. 從&#x200B;**[!UICONTROL 連線]**&#x200B;功能表中，選取&#x200B;**[!UICONTROL 來源]**&#x200B;並存取&#x200B;**[!UICONTROL 資料流程]**&#x200B;索引標籤，以追蹤流程執行、檢閱擷取的記錄，以及疑難排解任何錯誤。
 
--->
+   ![](assets/S3_config_5.png)
 
 <!--### Setting Up Change data capture ingestion {#cdc-ingestion}
 
