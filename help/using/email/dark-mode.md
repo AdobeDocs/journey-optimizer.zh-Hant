@@ -153,7 +153,7 @@ Here you can see that we have applied a different background, defined another im
    >
    >即時檢視是通用的預覽，用來比較各種裝置大小下的轉譯效果。 最終呈現內容可能會因收件者的電子郵件使用者端而異。
 
-1. 在您滿意深色模式的變更後，請按一下[模擬內容]。**&#x200B;**
+1. 在您滿意深色模式的變更後，請按一下[模擬內容]。****
 
    ![](assets/dark-mode-simulate.png)
 
