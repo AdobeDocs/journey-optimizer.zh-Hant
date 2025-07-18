@@ -9,7 +9,7 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1364'
 ht-degree: 22%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="定義檔案路由設定"
->abstract="建立直接郵件訊息後，會產生包含目標對象資料的檔案並將其匯出到伺服器。您需要指定伺服器的詳細資訊，以便您的直接郵件提供者可以存取和使用該檔案來傳遞直接郵件。"
+>abstract="建立直接郵件訊息後，會產生包含目標客群資料的檔案並將其匯出到伺服器。您需要指定伺服器的詳細資訊，以便您的直接郵件提供者可以存取和使用該檔案來傳遞直接郵件。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="建立新的直接郵件訊息"
 
 >[!CONTEXTUALHELP]
@@ -54,7 +54,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="選取您的檔案的伺服器類型"
->abstract="選擇匯出直接郵件檔案所要使用的伺服器類型：Amazon S3、SFTP、Azure 或 Data Landing Zone。"
+>abstract="選擇匯出直接郵件檔案所要使用的伺服器類型：Amazon S3、SFTP、Azure 或資料著陸區域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
@@ -89,7 +89,7 @@ ht-degree: 22%
 
 如果您選取&#x200B;**[!UICONTROL Amazon S3]**&#x200B;做為&#x200B;**[!UICONTROL 伺服器型別]**，請填入伺服器的詳細資料和認證：
 
-* **AWS貯體名稱**：若要瞭解在何處尋找您的AWS貯體名稱，請參閱[此頁面](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)。
+* **AWS bucket名稱**:To&#x200B;知道在何處尋找您的AWS bucket名稱，請參閱[此頁面](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)。
 
 * **AWS存取金鑰**：若要瞭解在何處尋找您的AWS存取金鑰ID，請參閱[此頁面](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys)。
 
@@ -145,7 +145,7 @@ ht-degree: 22%
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]的所有客戶都已為每個沙箱布建一個資料登陸區域容器。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中進一步瞭解資料登陸區域。
+[!DNL Adobe Experience Platform]的所有客戶都已為每個沙箱布建一個資料登陸區域容器。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中進一步瞭解資料登陸區域。
 
 >[!ENDTABS]
 
