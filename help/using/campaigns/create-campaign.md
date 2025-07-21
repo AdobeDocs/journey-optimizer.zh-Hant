@@ -39,4 +39,4 @@ ht-degree: 7%
 
 瞭解如何建立動作行銷活動。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3452736?quality=12&captions=chi_hant)
