@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 069df6fb67960bc7bdad4a8e0c3fdfa2b82fb8b5
+source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
 workflow-type: tm+mt
-source-wordcount: '2526'
-ht-degree: 98%
+source-wordcount: '2581'
+ht-degree: 95%
 
 ---
 
@@ -218,10 +218,24 @@ ht-degree: 98%
       + [等待](using/orchestrated/activities/wait.md)
 + 行銷活動 {#campaigns}
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
-   + [建立行銷活動](using/campaigns/create-campaign.md)
-   + [檢閱及啟動行銷活動](using/campaigns/review-activate-campaign.md)
-   + [管理行銷活動](using/campaigns/modify-stop-campaign.md)
-   + [利用 API 觸發行銷活動](using/campaigns/api-triggered-campaigns.md)
+   + [存取和管理行銷活動](using/campaigns/modify-stop-campaign.md)
+   + 動作行銷活動 {#action-campaigns}
+      + [使用動作行銷活動](using/campaigns/create-campaign.md)
+      + [定義行銷活動屬性](using/campaigns/campaign-properties.md)
+      + [設定行銷活動動作](using/campaigns/campaign-action.md)
+      + [編輯行銷活動內容](using/campaigns/campaign-content.md)
+      + [定義行銷活動對象](using/campaigns/campaign-audience.md)
+      + [排程行銷活動](using/campaigns/campaign-schedule.md)
+      + [檢閱及啟動動作行銷活動](using/campaigns/review-activate-campaign.md)
+   + API觸發的行銷活動 {#api-triggered-campaigns}
+      + [使用API觸發的行銷活動](using/campaigns/api-triggered-campaigns.md)
+      + [定義行銷活動屬性](using/campaigns/api-triggered-campaign-properties.md)
+      + [設定行銷活動動作](using/campaigns/api-triggered-campaign-action.md)
+      + [編輯行銷活動內容](using/campaigns/api-triggered-campaign-content.md)
+      + [定義行銷活動對象](using/campaigns/api-triggered-campaign-audience.md)
+      + [排程行銷活動](using/campaigns/api-triggered-campaign-schedule.md)
+      + [檢閱及啟動行銷活動](using/campaigns/review-activate-api-triggered-campaign.md)
+      + [觸發行銷活動執行](using/campaigns/trigger-campaigns.md)
 + 衝突管理與優先順序 {#conflict-prioritization}
    + [開始使用衝突管理和優先順序](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [識別潛在衝突](using/conflict-prioritization/conflicts.md)

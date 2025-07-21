@@ -1,26 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 修改或停止行銷活動
-description: 瞭解如何修改、停止或複製Journey Optimizer中的即時行銷活動
+title: 存取和管理行銷活動
+description: 瞭解如何在Journey Optimizer中存取和管理您的行銷活動。
 feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
 keywords: 管理行銷活動、狀態、排程、存取、最佳化工具
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '879'
 ht-degree: 6%
 
 ---
 
-# 管理行銷活動 {#modify-stop-campaign}
-
-行銷活動一旦啟動後，您就可以隨時修改或停止。 這些操作僅適用於具有週期性執行的行銷活動。
-
-此外，您可以複製即時行銷活動（執行一次或循環執行）以建立新行銷活動，並封存已完成或停止的行銷活動。
+# 存取和管理行銷活動 {#modify-stop-campaign}
 
 ## 存取行銷活動 {#access}
 
@@ -31,11 +27,27 @@ ht-degree: 6%
 
 可從&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表存取行銷活動。
 
+>[!BEGINTABS]
+
+>[!TAB 動作行銷活動]
+
+選取&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤以存取動作行銷活動清單。
+
 依預設，清單會顯示所有狀態為&#x200B;**[!UICONTROL 草稿]**、**[!UICONTROL 已排程]**&#x200B;和&#x200B;**[!UICONTROL 即時]**&#x200B;的行銷活動。 若要顯示已停止、已完成和已封存的行銷活動，您必須清除篩選器。
 
 ![](assets/create-campaign-list.png)
 
-您也可以根據行銷活動型別和頻道，或是在建立行銷活動時指派給行銷活動的標籤來篩選清單。 [瞭解如何將標籤指派給行銷活動](create-campaign.md#create)
+>[!TAB API觸發的行銷活動]
+
+選取&#x200B;**[!UICONTROL API觸發]**&#x200B;索引標籤以存取API觸發的行銷活動清單。
+
+依預設，清單會顯示所有狀態為&#x200B;**[!UICONTROL 草稿]**、**[!UICONTROL 已排程]**&#x200B;和&#x200B;**[!UICONTROL 即時]**&#x200B;的行銷活動。 若要顯示已停止、已完成和已封存的行銷活動，您必須清除篩選器。
+
+![](assets/api-triggered-list.png)
+
+>[!ENDTABS]
+
+您也可以根據行銷活動型別和頻道，或是在建立行銷活動時指派給行銷活動的標籤來篩選清單。
 
 ## 行銷活動行事曆 {#calendar}
 
@@ -70,12 +82,12 @@ ht-degree: 6%
 行銷活動可以有多個狀態：
 
 * **[!UICONTROL 草稿]**：行銷活動正在編輯中，尚未啟動。
-* **[!UICONTROL 正在啟動]**：正在啟動行銷活動。
-* **[!UICONTROL 正在處理]** *（僅限電子郵件行銷活動）*：對象匯出已完成，正在發佈行銷活動。
-* **[!UICONTROL 即時]**：行銷活動已啟用。
 * **[!UICONTROL 已排程]**：行銷活動已設定為在特定的開始日期啟動。
+* **[!UICONTROL 即時]**：行銷活動已啟用。
+* **[!UICONTROL 稽核中]**：行銷活動已提交核准以便發佈。 [瞭解如何使用核准](../test-approve/gs-approval.md)
 * **[!UICONTROL 已停止]**：行銷活動已手動停止。 您無法再啟用或重複使用它。 [瞭解如何停止行銷活動](modify-stop-campaign.md#stop)
 * **[!UICONTROL 已完成]**：行銷活動已完成。 此狀態會在行銷活動啟動3天後自動指派，如果行銷活動有週期性執行，則會在行銷活動的結束日期指派。
+* **[!UICONTROL 失敗]**：行銷活動執行失敗。 檢查記錄以識別問題。
 * **[!UICONTROL 已封存]**：行銷活動已封存。 [瞭解如何封存行銷活動](modify-stop-campaign.md#archive)
 
 >[!NOTE]
@@ -86,11 +98,13 @@ ht-degree: 6%
 
 ![](assets/campaign-alerts.png)
 
-## 修改週期性行銷活動 {#modify}
+## 修改和停止週期性動作行銷活動 {#modify}
 
-若要修改和建立循環行銷活動的新版本，請遵循下列步驟：
+### 修改動作行銷活動
 
-1. 開啟行銷活動，然後按一下&#x200B;**[!UICONTROL 修改行銷活動]**&#x200B;按鈕。
+若要修改和建立循環動作行銷活動的新版本，請遵循下列步驟：
+
+1. 開啟動作行銷活動，然後按一下&#x200B;**[!UICONTROL 修改行銷活動]**&#x200B;按鈕。
 
 1. 會建立新版本的行銷活動。 您可以按一下&#x200B;**[!UICONTROL 開啟即時版本]**&#x200B;來檢查即時版本。
 
@@ -106,7 +120,7 @@ ht-degree: 6%
    >
    >啟用草稿將會取代行銷活動的即時版本。
 
-## 停止週期性行銷活動 {#stop}
+### 停止動作行銷活動 {#stop}
 
 若要停止週期性行銷活動，請開啟行銷活動，然後按一下&#x200B;**[!UICONTROL 停止行銷活動]**&#x200B;按鈕。
 
@@ -116,11 +130,9 @@ ht-degree: 6%
 >
 >停止行銷活動不會停止進行中的傳送，但會停止排程的傳送，或如果傳送已在進行中，則會停止下一次發生。
 
-<!-- inbound campaign (inapp): can stop and resume -->
-
 ## 複製行銷活動 {#duplicate}
 
-您可以複製即時行銷活動以建立新行銷活動。 若要這麼做，請開啟行銷活動，然後按一下[複製]。**&#x200B;**
+您可以複製行銷活動以建立新行銷活動。 若要這麼做，請開啟行銷活動，然後按一下[複製]。****
 
 ![](assets/create-campaign-duplicate.png)
 
@@ -132,4 +144,4 @@ ht-degree: 6%
 
 ![](assets/create-campaign-archive.png)
 
-接著，您可以使用清單中的專用篩選器來擷取已封存的行銷活動。 [瞭解如何存取行銷活動](get-started-with-campaigns.md#access)
+接著，您可以使用清單中的專用篩選器來擷取已封存的行銷活動。
