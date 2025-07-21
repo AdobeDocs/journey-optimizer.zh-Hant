@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 40%
+source-wordcount: '417'
+ht-degree: 19%
 
 ---
 
@@ -43,3 +43,36 @@ ht-degree: 40%
 
 >[!ENDSHADEBOX]
 
+**[!UICONTROL 讀取對象]**&#x200B;活動可讓您擷取現有的對象（先前儲存或匯入），並在協調的行銷活動中重複使用它。 此活動對於鎖定一組預先定義的設定檔而無須執行新的細分程式特別有用。
+
+載入對象後，您可以選擇選取唯一的身分欄位，並使用其他設定檔屬性來豐富對象，以用於目標定位、個人化或報告目的，藉此調整對象。
+
+## 設定讀取對象活動 {#read-audience-configuration}
+
+請依照下列步驟設定&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動：
+
+1. 將&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動新增至您協調的行銷活動。
+
+   ![](../assets/read-audience-1.png)
+
+1. 輸入活動的&#x200B;**[!UICONTROL 標籤]**。
+
+1. 按一下![資料夾搜尋圖示](../assets/do-not-localize/folder-search.svg)，選取您要針對協調行銷活動鎖定的對象。
+
+   ![](../assets/read-audience-2.png)
+
+1. 選取用來唯一識別對象中設定檔的&#x200B;**[!UICONTROL 實體]**。
+
+   ![](../assets/read-audience-3.png)
+
+1. 選取&#x200B;**[!UICONTROL 新增設定檔屬性]**，以使用其他資料擴充您選取的對象。 產生的對象將包含收件者清單，每個收件者都包含選取的設定檔屬性。
+
+1. 選擇要新增至對象的&#x200B;**[!UICONTROL 屬性]**。
+
+   ![](../assets/read-audience-4.png)
+
+## 範例
+
+在下列範例中，**[!UICONTROL 讀取對象]**&#x200B;活動是用來擷取先前建立和儲存的訂閱電子報之設定檔對象。 接著會使用&#x200B;**熟客方案會員資格**&#x200B;屬性來豐富對象，以定位已註冊熟客方案會員的使用者。
+
+![](../assets/read-audience-5.png)

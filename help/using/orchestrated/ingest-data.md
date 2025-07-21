@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
+source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 6%
@@ -60,7 +60,7 @@ Adobe Experience Platform可讓您從外部來源擷取資料，同時使用Expe
 
    * 使用新帳戶
 
-   [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -74,13 +74,13 @@ Adobe Experience Platform可讓您從外部來源擷取資料，同時使用Expe
 
    ![](assets/S3_config_2.png)
 
-1. 選擇您的資料夾&#x200B;**[!UICONTROL 資料格式]**、**[!UICONTROL 分隔符號]**&#x200B;和&#x200B;**[!UICONTROL 壓縮型別]**。 檢閱您的範例資料是否準確，然後按[下一步] **&#x200B;**。
+1. 選擇您的資料夾&#x200B;**[!UICONTROL 資料格式]**、**[!UICONTROL 分隔符號]**&#x200B;和&#x200B;**[!UICONTROL 壓縮型別]**。 檢閱您的範例資料是否準確，然後按[下一步] ****。
 
    ![](assets/S3_config_1.png)
 
 1. 核取&#x200B;**[!UICONTROL 啟用變更資料擷取]**，以從對應至關聯式結構描述且已定義主索引鍵和版本描述項的資料集中選取。
 
-1. 選取您[先前建立的資料集](#entities)，然後按一下&#x200B;**[!UICONTROL 下一步]**。
+1. 選取您[先前建立的資料集](file-upload-schema.md)，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 
    ![](assets/S3_config_3.png)
 
