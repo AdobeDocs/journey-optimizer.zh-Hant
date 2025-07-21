@@ -1,11 +1,11 @@
 ---
 title: 事件觸發歷程中的補充識別碼
 description: 瞭解如何在事件觸發的歷程中使用補充識別碼。
-badge: label="可用性限制" type="Informative"
+badge: label="有限可用性" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
+source-git-commit: 14a0054c605edd8ff0b63e71fb5c30104ff513ed
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '945'
 ht-degree: 8%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 8%
 如此一來，事件所觸發的歷程會在與補充識別碼（此處為預訂ID）相關聯的設定檔ID內容中執行。 每個補充識別碼的疊代都會執行一個歷程例項。 如果訪客已進行不同預約，這可在歷程中讓多個入口使用相同的設定檔ID。
 
 此外，Journey Optimizer可讓您運用補充識別碼的屬性來自訂訊息（例如預訂編號、處方續約日期、產品型別），確保高度相關的通訊。<!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
+
+➡️ [在影片中探索此功能](#video)
 
 ## 護欄和限制 {#guardrails}
 
@@ -188,3 +190,9 @@ ht-degree: 8%
    * 設定檔： 「Alex」。
    * 補充ID： `"productID1234", "productID5678"`。
    * 歷程會針對每個產品個別執行，並提供個人化的追加銷售機會。
+
+## 作法影片 {#video}
+
+瞭解如何在[!DNL Adobe Journey Optimizer]中啟用並套用補充識別碼。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
