@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="有限可用性" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 1215cdc3ed6050ca061f8d97281d52ade352611e
+source-git-commit: 9db476ff5b693bef91e982502c6dd37321610fc7
 workflow-type: tm+mt
-source-wordcount: '2117'
-ht-degree: 8%
+source-wordcount: '2169'
+ht-degree: 7%
 
 ---
 
@@ -152,6 +152,7 @@ ht-degree: 8%
 
   如果您繼續歷程以將保留的個人檔案數恢復到限制以下，歷程將立即繼續 — 但更新個人檔案計數最多可能需要30分鐘。 在這段期間，系統仍可能將這些設定檔視為已暫停。
 
+* 對於包含[傳入活動](../channels/gs-channels.md#mobile-app-and-web-experiences) （例如，應用程式內、網頁等）的歷程，暫停歷程不會中斷已觸發的通訊。 如果設定檔在暫停前符合入站活動的資格，則仍會傳送相對應的訊息。 若要完全停止所有傳入通訊，您必須停止歷程。
 * 暫停的歷程計入即時歷程配額
 * 已進入歷程但在暫停期間被捨棄的設定檔，仍會計為可參與的設定檔
 * 暫停的歷程會以即時方式納入所有商業規則中
@@ -167,7 +168,7 @@ ht-degree: 8%
 * 某些已捨棄的設定檔會顯示在歷程步驟事件中，但不會顯示在報表中。 例如：
    * 捨棄&#x200B;**讀取對象**&#x200B;的商業事件
    * **讀取對象**&#x200B;工作因暫停歷程而捨棄
-   * 在&#x200B;**Event**&#x200B;活動在設定檔等待的動作之後時，捨棄事件
+   * 在&#x200B;**Event**活動在設定檔等待的動作之後時，捨棄事件
      <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
 ## 端對端範例 {#journey-pause-sample}
