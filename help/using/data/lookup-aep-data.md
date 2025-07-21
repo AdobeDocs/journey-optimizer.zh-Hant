@@ -10,14 +10,19 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 416f82a932f0b484d8463ff24090a7061461822f
+source-git-commit: bd1274a5547f4ea835fc258f280c1efc667b6780
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 2%
+source-wordcount: '441'
+ht-degree: 6%
 
 ---
 
-# 使用Adobe Experience Platform資料 {#aep-data}
+# 使用 Adobe Experience Platform 資料 {#aep-data}
+
+>[!CONTEXTUALHELP]
+>id="lookup-aep-data"
+>title="為查詢啟用"
+>abstract="為查詢啟用"
 
 >[!AVAILABILITY]
 >
@@ -81,4 +86,4 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 一旦資料集啟用使用API呼叫進行查詢後，您就可以將其資料與[!DNL Journey Optimizer]個人化和決策功能搭配使用。
 
 * [使用 Adobe Experience Platform 資料進行個人化](../personalization/aep-data-perso.md)
-* [使用Adobe Experience Platform資料進行決策](../experience-decisioning/aep-data-exd.md)
+* [使用 Adobe Experience Platform 資料進行決策](../experience-decisioning/aep-data-exd.md)
