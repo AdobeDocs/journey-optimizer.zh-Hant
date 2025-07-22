@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: b731dfbf00557b96585dc4133f246bfb101bee98
 workflow-type: tm+mt
 source-wordcount: '2581'
 ht-degree: 95%
@@ -180,42 +180,6 @@ ht-degree: 95%
       + [疑難排解歷程執行](using/building-journeys/troubleshooting-execution.md)
       + [疑難排解傳入動作](using/building-journeys/troubleshooting-inbound.md)
       + [疑難排解自訂動作](using/action/troubleshoot-custom-action.md)
-+ 協調的行銷活動 {#orchestrated-campaigns}
-   + [開始使用協調行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
-   + 管理關聯式結構描述和資料集 {#schemas-datasets}
-      + [開始使用結構描述和資料集](using/orchestrated/gs-schemas.md)
-      + [手動結構描述](using/orchestrated/manual-schema.md)
-      + [檔案上傳結構描述](using/orchestrated/file-upload-schema.md)
-      + [擷取資料](using/orchestrated/ingest-data.md)
-   + [存取並管理協調的行銷活動](using/orchestrated/access-manage-orchestrated-campaigns.md)
-   + [護欄與限制](using/orchestrated/guardrails.md)
-   + 首次建立協調的行銷活動{#launch}
-      + [建立協調行銷活動的重要步驟](using/orchestrated/gs-campaign-creation.md)
-      + [建立並安排行銷活動的時間](using/orchestrated/create-orchestrated-campaign.md)
-      + [協調活動](using/orchestrated/orchestrate-activities.md)
-      + [開始並監視行銷活動](using/orchestrated/start-monitor-campaigns.md)
-      + [報告](using/orchestrated/reporting-campaigns.md)
-   + 查詢資料庫 {#query-database}
-      + [使用規則產生器來工作](using/orchestrated/orchestrated-rule-builder.md)
-      + [建立首次規則](using/orchestrated/build-query.md)
-      + [編輯運算式](using/orchestrated/edit-expressions.md)
-      + [重定向](using/orchestrated/retarget.md)
-   + 協調的行銷活動 {#design-campaigns}
-      + [開始使用活動](using/orchestrated/activities/about-activities.md)
-      + [合併連結](using/orchestrated/activities/and-join.md)
-      + [建置客群](using/orchestrated/activities/build-audience.md)
-      + [變更維度](using/orchestrated/activities/change-dimension.md)
-      + [管道活動](using/orchestrated/activities/channels.md)
-      + [合併](using/orchestrated/activities/combine.md)
-      + [重複資料刪除](using/orchestrated/activities/deduplication.md)
-      + [擴充](using/orchestrated/activities/enrichment.md)
-      + [分支](using/orchestrated/activities/fork.md)
-      + [讀取客群](using/orchestrated/activities/read-audience.md)
-      + [調和](using/orchestrated/activities/reconciliation.md)
-      + [儲存客群](using/orchestrated/activities/save-audience.md)
-      + [分割](using/orchestrated/activities/split.md)
-      + [測試](using/orchestrated/activities/test.md)
-      + [等待](using/orchestrated/activities/wait.md)
 + 行銷活動 {#campaigns}
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
    + [存取和管理行銷活動](using/campaigns/modify-stop-campaign.md)
@@ -236,6 +200,42 @@ ht-degree: 95%
       + [排程行銷活動](using/campaigns/api-triggered-campaign-schedule.md)
       + [檢閱及啟動行銷活動](using/campaigns/review-activate-api-triggered-campaign.md)
       + [觸發行銷活動執行](using/campaigns/trigger-campaigns.md)
+   + 協調的行銷活動 {#orchestrated-campaigns}
+      + [開始使用協調行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
+      + 管理關聯式結構描述和資料集 {#schemas-datasets}
+         + [開始使用結構描述和資料集](using/orchestrated/gs-schemas.md)
+         + [手動結構描述](using/orchestrated/manual-schema.md)
+         + [檔案上傳結構描述](using/orchestrated/file-upload-schema.md)
+         + [擷取資料](using/orchestrated/ingest-data.md)
+      + [存取並管理協調的行銷活動](using/orchestrated/access-manage-orchestrated-campaigns.md)
+      + [護欄與限制](using/orchestrated/guardrails.md)
+      + 首次建立協調的行銷活動{#launch}
+         + [建立協調行銷活動的重要步驟](using/orchestrated/gs-campaign-creation.md)
+         + [建立並安排行銷活動的時間](using/orchestrated/create-orchestrated-campaign.md)
+         + [協調活動](using/orchestrated/orchestrate-activities.md)
+         + [開始並監視行銷活動](using/orchestrated/start-monitor-campaigns.md)
+         + [報告](using/orchestrated/reporting-campaigns.md)
+      + 查詢資料庫 {#query-database}
+         + [使用規則產生器來工作](using/orchestrated/orchestrated-rule-builder.md)
+         + [建立首次規則](using/orchestrated/build-query.md)
+         + [編輯運算式](using/orchestrated/edit-expressions.md)
+         + [重定向](using/orchestrated/retarget.md)
+      + 協調的行銷活動 {#design-campaigns}
+         + [開始使用活動](using/orchestrated/activities/about-activities.md)
+         + [合併連結](using/orchestrated/activities/and-join.md)
+         + [建置客群](using/orchestrated/activities/build-audience.md)
+         + [變更維度](using/orchestrated/activities/change-dimension.md)
+         + [管道活動](using/orchestrated/activities/channels.md)
+         + [合併](using/orchestrated/activities/combine.md)
+         + [重複資料刪除](using/orchestrated/activities/deduplication.md)
+         + [擴充](using/orchestrated/activities/enrichment.md)
+         + [分支](using/orchestrated/activities/fork.md)
+         + [讀取客群](using/orchestrated/activities/read-audience.md)
+         + [調和](using/orchestrated/activities/reconciliation.md)
+         + [儲存客群](using/orchestrated/activities/save-audience.md)
+         + [分割](using/orchestrated/activities/split.md)
+         + [測試](using/orchestrated/activities/test.md)
+         + [等待](using/orchestrated/activities/wait.md)
 + 衝突管理與優先順序 {#conflict-prioritization}
    + [開始使用衝突管理和優先順序](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [識別潛在衝突](using/conflict-prioritization/conflicts.md)
