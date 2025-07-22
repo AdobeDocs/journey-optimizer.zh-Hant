@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
+source-git-commit: a4337df949d25740f75204fe4530837dda1af3dd
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '508'
 ht-degree: 6%
 
 ---
@@ -43,7 +43,9 @@ Adobe Experience Platform可讓您從外部來源擷取資料，同時使用Expe
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform中的每個資料集一次僅支援一個作用中資料流。 如需有關如何切換資料來源的詳細設定指南，請參閱此[區段](#cdc-ingestion)。
+>若要變更資料集的資料來源，您必須先刪除現有的資料流，才能建立參照相同資料集和新來源的新資料流。
+>
+>Adobe Experience Platform在資料流和資料集之間實施嚴格的一對一關係。 這可讓您維持來源與資料集之間的同步，以取得精確的增量擷取。
 
 
 您可以設定資料流程，將資料從Amazon S3來源擷取至Adobe Experience Platform。 在設定之後，資料流程就會啟用自動且排程的結構化資料擷取，並支援即時更新。
@@ -60,7 +62,7 @@ Adobe Experience Platform可讓您從外部來源擷取資料，同時使用Expe
 
    * 使用新帳戶
 
-   [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -74,13 +76,15 @@ Adobe Experience Platform可讓您從外部來源擷取資料，同時使用Expe
 
    ![](assets/S3_config_2.png)
 
-1. 選擇您的資料夾&#x200B;**[!UICONTROL 資料格式]**、**[!UICONTROL 分隔符號]**&#x200B;和&#x200B;**[!UICONTROL 壓縮型別]**。 檢閱您的範例資料是否準確，然後按[下一步] **&#x200B;**。
+1. 選擇您的資料夾&#x200B;**[!UICONTROL 資料格式]**、**[!UICONTROL 分隔符號]**&#x200B;和&#x200B;**[!UICONTROL 壓縮型別]**。 檢閱您的範例資料是否準確，然後按[下一步] ****。
 
    ![](assets/S3_config_1.png)
 
-1. 核取&#x200B;**[!UICONTROL 啟用變更資料擷取]**，以從對應至關聯式結構描述且已定義主索引鍵和版本描述項的資料集中選取。
+1. 核取&#x200B;**[!UICONTROL 啟用變更資料擷取]**&#x200B;以僅顯示對應到關聯式結構描述並包含主索引鍵和版本描述項的資料集。
 
-1. 選取您[先前建立的資料集](file-upload-schema.md)，然後按一下&#x200B;**[!UICONTROL 下一步]**。
+   ![](assets/S3_config_6.png)
+
+1. 選取您先前建立的資料集，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 
    ![](assets/S3_config_3.png)
 
@@ -98,26 +102,3 @@ Adobe Experience Platform可讓您從外部來源擷取資料，同時使用Expe
 
    ![](assets/S3_config_5.png)
 
-<!--### Setting Up Change data capture ingestion {#cdc-ingestion}
-
-If you need to change the data source, you must delete the existing dataflow and create a new one pointing to the same dataset with the new source.
-
-When using Change Data Capture (CDC), it is essential that the source and dataset remain in sync to ensure accurate incremental updates. Follow the steps below:
-
-1. **Schema Requirements**
-   - Your schema must include:
-     - A **primary key** (e.g., `transaction_id`)
-     - A **versioning field** (e.g., `lastmodified` or an incrementing `version_id`)
-   - Enable the dataset for **Orchestrated Campaigns** if needed.
-
-2. **CDC Dataflow Setup**
-   - During dataflow creation, after choosing your source and files:
-     - **Enable the CDC option**
-     - Select your CDC-ready dataset
-     - Confirm field mappings (especially version field)
-
-3. **Keep Source and Target in Sync**
-   - The source system must consistently update the version field so the platform can detect changes accurately.
-
-Once set up, the platform will automatically ingest **only changed or new records** each time the flow runs.
--->
