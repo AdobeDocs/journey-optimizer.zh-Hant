@@ -7,14 +7,20 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: b575f2363059a24e7192f436fac62001f79a3dbc
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '431'
 ht-degree: 3%
 
 ---
 
 # 儲存客群 {#save-audience}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_save_audience"
+>title="儲存對象活動"
+>abstract="**儲存對象**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動，可讓您更新現有的對象，或是從先前在協調的行銷活動中產生的母體中建立新的對象。 建立後，這些對象會新增至應用程式對象清單，並可從&#x200B;**對象**&#x200B;功能表存取。"
+
 
 +++ 目錄
 
