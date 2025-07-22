@@ -197,10 +197,10 @@ AJO在呼叫外部端點時使用嚴格的逾時，以維護AEP Edge Network的�
 
 引數名稱：
 
-標題引數：標題。<parameter-name>
-查詢引數：查詢。<parameter-name>
-裝載引數：裝載。<parameter-name>
-路徑引數： dynamic_path。<parameter-name>
+標題引數：標題。&lt;parameter-name>
+查詢引數：查詢。&lt;parameter-name>
+裝載引數：裝載。&lt;parameter-name>
+路徑引數： dynamic_path。&lt;parameter-name>
 例如：
 
 {{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}

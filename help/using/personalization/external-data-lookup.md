@@ -95,10 +95,10 @@ ht-degree: 1%
 
 引數名稱：
 
-* 標題引數：標題。<parameter-name>
-* 查詢引數：查詢。<parameter-name>
-* 裝載引數：裝載。<parameter-name>
-* 路徑引數： dynamic_path。<parameter-name>
+* 標題引數：標題。&lt;parameter-name>
+* 查詢引數：查詢。&lt;parameter-name>
+* 裝載引數：裝載。&lt;parameter-name>
+* 路徑引數： dynamic_path。&lt;parameter-name>
 
 例如：
 
