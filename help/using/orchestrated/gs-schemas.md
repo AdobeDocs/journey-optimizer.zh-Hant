@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
-source-git-commit: 81f0338935ee36b152963f2b1c0e7989b86f5f8a
+source-git-commit: 8470791182d2487539d2d2300edb4d6e0cfeadb4
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 5%
@@ -44,7 +44,7 @@ ht-degree: 5%
 
    定義資料模型的結構，包括表格、屬性和關係。 選擇在使用者介面中手動建置綱要，或上傳DDL檔案以加快設定。
 
-1. [連結綱要] (file-upload-md)
+1. [連結綱要](file-upload-schema.md)
 
    在結構描述之間建立關係，以確保資料一致性並啟用跨實體查詢。 例如，將熟客方案交易連結至收件者，或將獎勵連結至品牌。
 
