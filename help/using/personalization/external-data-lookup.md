@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="有限可用性" type="Informative"
-source-git-commit: f5d1bc27afadbf875fe4dd3149ce090a8773e0f9
+source-git-commit: cf29013bd7578f6b04543d04e85c714ce7728f36
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1185'
 ht-degree: 1%
 
 ---
@@ -95,10 +95,10 @@ ht-degree: 1%
 
 引數名稱：
 
-* 標題引數：標題。&lt;parameter-name>
-* 查詢引數：查詢。&lt;parameter-name>
-* 裝載引數：裝載。&lt;parameter-name>
-* 路徑引數： dynamic_path。&lt;parameter-name>
+* 標頭引數： &#39;標頭。<parameter-name>
+* 查詢引數： `query.<parameter-name>`
+* 承載引數： `payload.<parameter-name>`
+* 路徑引數： `dynamic_path.<parameter-name>`
 
 例如：
 
