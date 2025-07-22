@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f5d1bc27afadbf875fe4dd3149ce090a8773e0f9
+source-git-commit: b317400b083f70cce05a7d4823f52a8cd35a3b96
 workflow-type: tm+mt
-source-wordcount: '2591'
+source-wordcount: '2585'
 ht-degree: 95%
 
 ---
@@ -749,7 +749,6 @@ ht-degree: 95%
       + [查詢範例](using/data/datasets-query-examples.md)
       + [內建結構 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant)
    + [使用 Adobe Experience Platform 資料](using/data/lookup-aep-data.md)
-   + [使用外部端點個人化內容](using/data/external-endpoint-data.md)
    + [查詢](using/data/get-started-queries.md)
 + 管道設定 {#configuration}
    + [開始使用頻道設定](using/configuration/get-started-configuration.md)
