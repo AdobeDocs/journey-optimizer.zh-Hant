@@ -95,7 +95,7 @@ ht-degree: 1%
 
 引數名稱：
 
-* 標頭引數： &#39;標頭。<parameter-name>
+* 標頭引數： &#39;標頭。&lt;parameter-name>
 * 查詢引數： `query.<parameter-name>`
 * 承載引數： `payload.<parameter-name>`
 * 路徑引數： `dynamic_path.<parameter-name>`
