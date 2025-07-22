@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: ea541231b16947908197748202e62227c5752966
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1152'
 ht-degree: 11%
 
 ---
@@ -47,17 +47,23 @@ ht-degree: 11%
 
 若要建立協調的行銷活動，請遵循下列步驟：
 
-1. 移至&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表，選取&#x200B;**[!UICONTROL 協調流程]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 建立行銷活動]**。
+1. 瀏覽至&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表並選取&#x200B;**[!UICONTROL 協調流程]**&#x200B;標籤。
+
+1. 按一下「**[!UICONTROL 建立行銷活動]**」按鈕，然後選取「**[!UICONTROL 協調流程 — 行銷]**」行銷活動型別。
+
+   ![](assets/create-modal.png)
+
+1. 定義行銷活動屬性。 若要這麼做，請按一下行銷活動名稱旁的![行銷活動設定圖示](assets/do-not-localize/campaign-settings.svg)按鈕。
 
    ![](assets/inventory-create.png)
 
 1. 輸入行銷活動的名稱和說明。
 
-1. *（選擇性）*&#x200B;使用&#x200B;**[!UICONTROL 標籤]**&#x200B;欄位將Adobe Experience Platform整合標籤指派給您的行銷活動。 這可讓您輕鬆分類，並從協調的行銷活動清單改善搜尋。 [瞭解如何使用標籤](../start/search-filter-categorize.md#tags)。
+<!--1. Merge policy-->
 
-1. 按一下&#x200B;**[!UICONTROL 建立]**。
+1. 使用&#x200B;**[!UICONTROL 標籤]**&#x200B;欄位將Adobe Experience Platform統一標籤指派給您的行銷活動。 這可讓您輕鬆分類，並從協調的行銷活動清單改善搜尋。 [瞭解如何使用標籤](../start/search-filter-categorize.md#tags)。
 
-您的協調行銷活動現在已建立並顯示在協調行銷活動清單中。 您可以按一下行銷活動畫布中的![行銷活動設定圖示](assets/do-not-localize/campaign-settings.svg)圖示，隨時更新這些屬性。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 ## 排程行銷活動 {#schedule}
 
@@ -86,7 +92,7 @@ ht-degree: 11%
 
 若要設定行銷活動排程，請遵循下列步驟：
 
-1. 開啟行銷活動，並儘快按一下&#x200B;**&#x200B;**&#x200B;按鈕。
+1. 開啟行銷活動，並儘快按一下&#x200B;****&#x200B;按鈕。
 
    ![](assets/create-schedule.png)
 
@@ -99,7 +105,7 @@ ht-degree: 11%
    * **[!UICONTROL 日期]**：選取應執行行銷活動的日期。
    * **[!UICONTROL 時間]**：選取行銷活動應執行的特定時間。
 
-   +++
++++
 
    +++每日
 
@@ -113,7 +119,7 @@ ht-degree: 11%
 
    * **[!UICONTROL 開始時間]**：定義行銷活動每天應執行的時間。
 
-   +++
++++
 
    +++一天幾次
 
@@ -122,7 +128,7 @@ ht-degree: 11%
    * **[!UICONTROL 選取的時數]**：選取行銷活動應執行的特定時間，並設定其每日週期（在一週的每一天或某些天執行）。
    * **[!UICONTROL 定期]**：選擇每n分鐘或每小時執行一次行銷活動。 您也可以定義一天內允許執行的時間範圍。
 
-   +++
++++
 
    +++每週
 
@@ -133,7 +139,7 @@ ht-degree: 11%
    * **[!UICONTROL 每日週期]**：選擇一週中的特定日期來執行（例如，每個星期一和星期四）。
    * **[!UICONTROL 開始時間]**：設定行銷活動在選定日期應該執行的時間。
 
-   +++
++++
 
    +++每月
 
@@ -149,7 +155,7 @@ ht-degree: 11%
 
    * **[!UICONTROL 開始時間]**：設定行銷活動應執行的時間。
 
-   +++
++++
 
 1. 使用&#x200B;**[!UICONTROL 有效期間]**&#x200B;設定來定義特定的開始和結束日期，將行銷活動的執行限制在有限的時間範圍內。
 
