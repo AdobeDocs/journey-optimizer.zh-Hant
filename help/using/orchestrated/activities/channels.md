@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+source-git-commit: 30e22bc1a2ab95dbbef1fb35a01cd2f5d5b02423
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 32%
+source-wordcount: '1166'
+ht-degree: 28%
 
 ---
 
@@ -136,6 +136,28 @@ UNUSED IDs in BJ
 <td><a href="../../sms/create-sms.md"><img alt="簡訊" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>建立簡訊</strong></a></td>
 <td><a href="../../push/create-push.md"><img alt="推播" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>建立推播通知</strong></a></td>
 </tr></table>
+
+## 新增個人化
+
+協調行銷活動中的Personalization的運作方式與其他&#x200B;**[!UICONTROL Journey Optimizer]**&#x200B;行銷活動或歷程類似，但有一些主要差異是特定於協調畫布的。
+
+當您從協調的行銷活動存取個人化編輯器時，有兩個主要資料夾包含可用於個人化的屬性，如下所述。
+
+* **[!UICONTROL 輪廓屬性]**
+
+  此資料夾包含來自[!DNL Adobe Experience Platform]的所有設定檔相關資料。 這些是標準屬性，例如名稱、電子郵件地址、位置或使用者設定檔中擷取的任何其他特徵。
+
+* **[!UICONTROL Target屬性]** （特定於協調的行銷活動）
+
+  此資料夾是協調行銷活動的唯一資料夾。 它包含直接在行銷活動畫布中計算的屬性。 它包含兩個子資料夾：
+
+   * **`<Targeting dimension>`** （例如「收件者」、「購買」）：包含與行銷活動所定位的維度相關的所有屬性。
+
+   * **`Enrichment`**：包含透過畫布中的&#x200B;**[!UICONTROL 擴充]**&#x200B;活動新增的資料。 這可讓您根據外部資料集或在協調期間納入的其他邏輯來個人化訊息。 [瞭解如何使用擴充活動](../activities/enrichment.md)
+
+如需如何使用個人化編輯器的詳細概觀，請參閱[開始使用個人化](../../personalization/personalize.md)
+
+## 檢查並測試您的內容
 
 內容建立後，請使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以從CSV / JSON檔案上傳或手動新增的測試設定檔或範例輸入資料來預覽和測試您的內容。 [了解更多](../../content-management/preview-test.md)
 
