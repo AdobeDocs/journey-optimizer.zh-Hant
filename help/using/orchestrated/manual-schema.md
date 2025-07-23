@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
+source-git-commit: 6447f5d1a060037c0ceaa374db20966097585f9c
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 3%
+source-wordcount: '954'
+ht-degree: 9%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 3%
 
 +++ 目錄
 
-| 歡迎使用協調的行銷活動 | 首次建立協調的行銷活動 | 查詢資料庫 | 協調的行銷活動 |
+| 歡迎使用協調行銷活動 | 首次投放的協調行銷活動 | 查詢資料庫 | 協調行銷活動 |
 |---|---|---|---|
-| [開始使用協調的行銷活動](gs-orchestrated-campaigns.md)<br/><br/>建立和管理關聯式結構描述和資料集：</br><ul><li>[開始使用結構描述和資料集](gs-schemas.md)</li><li>[手動結構描述](manual-schema.md)</li><li>[檔案上傳結構描述](file-upload-schema.md)</li><li>[擷取資料](ingest-data.md)</li></ul>[存取及管理協調的行銷活動](access-manage-orchestrated-campaigns.md)<br/><br/>[建立協調行銷活動的重要步驟](gs-campaign-creation.md) | [建立並排程行銷活動](create-orchestrated-campaign.md)<br/><br/>[協調活動](orchestrate-activities.md)<br/><br/>[開始並監視行銷活動](start-monitor-campaigns.md)<br/><br/>[報告](reporting-campaigns.md) | [使用規則產生器](orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](build-query.md)<br/><br/>[編輯運算式](edit-expressions.md)<br/><br/>[重新鎖定目標](retarget.md) | [開始使用活動](activities/about-activities.md)<br/><br/>活動：<br/>[並加入](activities/and-join.md) - [建立對象](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [頻道活動](activities/channels.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [調解](activities/reconciliation.md) - [儲存對象](activities/save-audience.md) - [分割](activities/split.md) - [等待](activities/wait.md) |
+| [開始使用協調的行銷活動](gs-orchestrated-campaigns.md)<br/><br/>建立和管理關聯式結構描述和資料集：</br><ul><li>[開始使用結構描述和資料集](gs-schemas.md)</li><li>[手動結構描述](manual-schema.md)</li><li>[檔案上傳結構描述](file-upload-schema.md)</li><li>[擷取資料](ingest-data.md)</li></ul>[存取及管理協調的行銷活動](access-manage-orchestrated-campaigns.md)<br/><br/>[建立協調行銷活動的重要步驟](gs-campaign-creation.md) | [建立並排程行銷活動](create-orchestrated-campaign.md)<br/><br/>[協調活動](orchestrate-activities.md)<br/><br/>[開始並監視行銷活動](start-monitor-campaigns.md)<br/><br/>[報告](reporting-campaigns.md) | [使用規則產生器](orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](build-query.md)<br/><br/>[編輯運算式](edit-expressions.md)<br/><br/>[重定向](retarget.md) | [開始使用活動](activities/about-activities.md)<br/><br/>活動：<br/>[同時加入](activities/and-join.md) - [建立客群](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [頻道活動](activities/channels.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [調和](activities/reconciliation.md) - [儲存客群](activities/save-audience.md) - [分割](activities/split.md) - [等待](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -80,6 +80,21 @@ ht-degree: 3%
 
 接下來，新增屬性以定義結構描述的結構。 這些欄位代表協調行銷活動中使用的關鍵資料點，例如客戶識別碼、成員資格詳細資料和活動日期。 精確地定義它們可確保可靠的個人化、細分和追蹤。
 
+任何用於定位的結構描述都必須包含至少一個型別`String`的身分欄位，並具有相關聯的身分名稱空間。 這可確保與Adobe Journey Optimizer的定位和身分解析功能相容。
+
++++在Adobe Experience Platform中建立關聯式結構時，支援下列功能
+
+* **列舉**\
+  以DDL為基礎和手動建立結構描述均支援ENUM欄位，可讓您使用一組固定的允許值來定義屬性。
+
+* 資料控管的&#x200B;**結構描述標籤**\
+  架構欄位層級支援標籤功能，可強制資料治理原則，例如存取控制和使用限制。 如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)。
+
+* **複合索引鍵**\
+  關聯式結構描述定義支援複合主索引鍵，可一起使用多個欄位以唯一識別記錄。
+
++++
+
 1. 在畫布中，按一下![](assets/do-not-localize/Smock_AddCircle_18_N.svg)結構描述名稱&#x200B;**旁的**&#x200B;以開始新增屬性。
 
    ![](assets/schema_manual_1.png){zoomable="yes"}
@@ -105,7 +120,11 @@ ht-degree: 3%
 
 1. 將適當的欄位指派為&#x200B;**[!UICONTROL 主索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 版本描述項]**。
 
-   **[!UICONTROL 主索引鍵]**&#x200B;可確保每個記錄都可唯一識別，而&#x200B;**[!UICONTROL 版本描述項]**&#x200B;會擷取隨時間變化的更新，以啟用變更資料擷取並支援資料映象。
+   建立手動結構描述時，請確定包括下列重要欄位：
+
+   * 至少有單一主索引鍵
+   * 版本識別碼，例如`lastmodified`欄位類型`datetime`或`number`。
+   * 針對變更資料擷取(CDC)擷取，為名為`_change_request_type`且型別為`String`的特殊欄，其指示資料變更的型別（例如，插入、更新、刪除）並啟用增量處理。
 
    ![](assets/schema_manual_2.png){zoomable="yes"}
 
@@ -149,11 +168,19 @@ ht-degree: 3%
 
 1. 輸入您&#x200B;**[!UICONTROL 資料集]**&#x200B;的&#x200B;**[!UICONTROL 名稱]**，然後按一下&#x200B;**[!UICONTROL 完成]**。
 
-1. 啟用&#x200B;**協調的行銷活動**&#x200B;選項，讓資料集可用於您的AJO行銷活動。
+您現在需要啟用資料集以協調行銷活動。
 
-   啟用可能需要幾分鐘的時間。 只有在選項完全啟動後，才能擷取資料。
+## 為協調的行銷活動啟用資料集 {#enable}
+
+建立資料集後，您需要明確地為協調的行銷活動啟用它。 此步驟會確保您的資料集可用於Adobe Journey Optimizer中的即時協調與個人化。
+
+1. 在&#x200B;**[!UICONTROL 資料集]**&#x200B;清單中找出您的資料集。
+
+1. 從&#x200B;**[!UICONTROL 資料集]**&#x200B;設定中，啟用&#x200B;**協調行銷活動**&#x200B;選項，讓資料集可用於您的協調行銷活動。
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
+
+1. 請稍候幾分鐘，讓啟用程式完成。 請注意，只有在完全啟用此設定後，才能擷取資料及使用行銷活動。
 
 您現在可以使用您選擇的來源，開始將資料擷取到您的結構描述中。
 
