@@ -3,9 +3,9 @@ title: 事件觸發歷程中的補充識別碼
 description: 瞭解如何在事件觸發的歷程中使用補充識別碼。
 badge: label="有限可用性" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 14a0054c605edd8ff0b63e71fb5c30104ff513ed
+source-git-commit: 664f38b4ff56ce871599400f898e23a8d04f7816
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '971'
 ht-degree: 8%
 
 ---
@@ -69,6 +69,10 @@ ht-degree: 8%
 
    * 如果歷程不可重新進入，則相同的設定檔ID +補充ID組合無法重新進入歷程。
    * 如果歷程透過時間視窗重新進入，則相同的設定檔ID +補充ID組合可在定義的時間視窗後重新進入。
+
+* **下游事件設定**
+
+  如果您在歷程下游使用另一個事件，該事件必須使用相同的補充ID並具有相同的ID名稱空間。
 
 ## 新增補充識別碼並在歷程中運用 {#add}
 
@@ -195,4 +199,4 @@ ht-degree: 8%
 
 瞭解如何在[!DNL Adobe Journey Optimizer]中啟用並套用補充識別碼。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464803?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
