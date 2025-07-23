@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 建立WhatsApp訊息
+title: 建立 WhatsApp 訊息
 description: 瞭解如何在Journey Optimizer中建立WhatsApp訊息
 feature: Whatsapp
 topic: Content Management
@@ -9,25 +9,25 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-badge: label="Beta" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: f57a89e249c41e76f9ebf1a77dfe383129ae9250
+source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 3%
+source-wordcount: '766'
+ht-degree: 7%
 
 ---
 
-# 建立WhatsApp訊息 {#create-whatsapp}
+
+# 建立 WhatsApp 訊息 {#create-whatsapp}
 
 >[!BEGINSHADEBOX]
 
 **目錄**
 
-* [開始使用WhatsApp訊息](get-started-whatsapp.md)
-* [開始使用WhatsApp設定](whatsapp-configuration.md)
+* [開始使用 WhatsApp 訊息](get-started-whatsapp.md)
+* [開始使用 WhatsApp 設定](whatsapp-configuration.md)
 * **[建立WhatsApp訊息](create-whatsapp.md)**
-* [檢查並傳送您的WhatsApp訊息](send-whatsapp.md)
+* [檢查並傳送 WhatsApp 訊息](send-whatsapp.md)
 
 >[!ENDSHADEBOX]
 
@@ -46,7 +46,7 @@ WhatsApp支援下列訊息型別：
 | 影像(JPEG、PNG) | 必須是8位元RGB或RGBA格式，且大小必須小於5 MB。 |
 | 影片 | 必須是3GPP或MP4、16 MB以下，並透過URL託管。 |
 | 音訊 | 僅適用於回應訊息。 必須是AAC、AMR、MP3、MP4音訊或OGG格式，在URL上託管，且小於16 MB。 |
-| 檔案 | 必須小於100 MB，在URL上代管，且採用下列其中一種格式： .txt、.xls/.xlsx、.doc/.docx、.ppt/.pptx或.pdf。 |
+| 文件 | 必須小於100 MB，在URL上代管，且採用下列其中一種格式： .txt、.xls/.xlsx、.doc/.docx、.ppt/.pptx或.pdf。 |
 | 內文 | 透過引數支援動態內容。 |
 | 頁尾文字 | 透過引數支援動態內容。 |
 
@@ -101,7 +101,7 @@ WhatsApp支援下列訊息型別：
 
 1. 在&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段中，指定是否要追蹤WhatsApp訊息中連結的點按次數。
 
-1. 行銷活動旨在特定日期或循環頻率執行。 在[本節](../campaigns/create-campaign.md#schedule)中瞭解如何設定行銷活動的&#x200B;**[!UICONTROL 排程]**。
+1. 行銷活動旨在特定日期或循環頻率執行。 在&#x200B;**[!UICONTROL 本節]**&#x200B;中瞭解如何設定行銷活動的[排程](../campaigns/create-campaign.md#schedule)。
 
 1. 從&#x200B;**[!UICONTROL 動作觸發程式]**&#x200B;功能表，選擇WhatsApp訊息的&#x200B;**[!UICONTROL 頻率]**：
 
@@ -154,8 +154,7 @@ WhatsApp支援下列訊息型別：
 
 1. 使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕來預覽您的WhatsApp訊息內容、縮短的URL和個人化內容。 [了解更多](send-whatsapp.md)
 
-執行測試及驗證內容後，您就可以傳送WhatsApp訊息給對象。 這些步驟在[此頁面](send-whatsapp.md)上詳細說明
-
+執行測試並驗證內容後，您可以[將您的WhatsApp訊息](send-whatsapp.md)傳送給您的對象，並透過[報告](../reports/campaign-global-report-cja.md)監控其效能。
 
 <!--
 * **[!UICONTROL Template message]**: Predefined message imported from Meta into Journey Optimizer. These are intended for sending notifications, alerts, or updates to your customers.

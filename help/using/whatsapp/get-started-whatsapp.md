@@ -9,12 +9,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-badge: label="Beta" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+workflow-type: tm+mt
+source-wordcount: '332'
+ht-degree: 55%
 
 ---
 
@@ -31,11 +30,7 @@ ht-degree: 100%
 
 >[!ENDSHADEBOX]
 
->[!AVAILABILITY]
->
->此功能以私人測試版形式發佈。未來版本將逐步開放所有客戶使用。
-
-您現在可以直接透過 Journey Optimizer 傳送 WhatsApp 訊息。 此功能可將 WhatsApp 緊密整合至歷程和行銷活動，加強與收件者的溝通和參與。
+您現在可以透過Meta的[雲端API](https://developers.facebook.com/docs/whatsapp/cloud-api/)，直接透過Journey Optimizer傳送WhatsApp訊息。 此功能可將WhatsApp緊密整合至歷程和行銷活動，加強與收件者的溝通和參與。
 
 * 在&#x200B;**歷程**&#x200B;中。建立歷程、新增 **WhatsApp** 活動及定義基本設定，然後瀏覽至&#x200B;**[!UICONTROL 動作：WhatsApp]** 右窗格以建立 WhatsApp 訊息的內容。請在[此頁面](../building-journeys/journey-gs.md)進一步了解如何建立歷程。
 
@@ -50,23 +45,28 @@ ht-degree: 100%
 * Meta 企業管理員帳戶
 * WhatsApp 企業帳戶
 * WhatsApp 電話號碼
+* [具有適當許可權的使用者授權權杖](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
+* [核准的 Meta 範本](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+* [Meta Webhook的設定](https://developers.facebook.com/docs/whatsapp/webhooks/)
+
 
 在繼續整合之前，您還需要瞭解下列內容：
 
 * [WhatsApp 內容規則](https://www.whatsapp.com/legal/messaging-guidelines)
 * [遵守 Meta 原則](https://www.whatsapp.com/legal)
 * [24 小時交談限制](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
-* [核准的 Meta 範本](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
-## Beta 限制 {#limitations}
+## 限制 {#limitations}
 
-此 Beta 版本不含下列功能：
+下列限制適用於WhatsApp頻道：
 
-* **報告**：此版本將無法產生和檢視報告。
+* Adobe Journey Optimizer中的WhatsApp頻道已可使用HIPAA，但協力廠商未納入Adobe的BAA。 客戶需自行負責法規遵循及廠商驗證。
 
-* **選擇加入/選擇退出關鍵字**：在此階段，使用者將無法選擇使用特定關鍵字來訂閱或取消訂閱。
+* 請注意，不支援自動或預先定義的回應訊息。
 
-* **回應訊息**：此版本不支援自動或預先定義的回應訊息。
+* 自2025年4月起，針對擁有美國電話號碼（由+1撥號代碼和美國區碼所組成的號碼）的WhatsApp使用者，所有行銷範本訊息的傳送已暫時暫停。 [在中繼檔案中進一步瞭解](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)
+
+* 原生整合功能不允許與協力廠商商務服務提供者(BSP)整合。
 
 ## 作法影片 {#video}
 
