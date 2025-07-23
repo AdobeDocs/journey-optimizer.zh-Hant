@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: acb87d0c7c3b8b1bde033f9483ecdeca5cee3325
+source-git-commit: 50a16d70fbf0c64fed64b037a5bcd14c21442c89
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '654'
 ht-degree: 5%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 5%
 >
 >若沒有指定的選擇加入或選擇退出關鍵字，則不會啟用標準同意訊息。
 
-成功建立WhatsApp API認證後，下一步就是建立webhook並設定您的傳入設定。
+成功建立WhatsApp API認證和[Meta Webhook](https://developers.facebook.com/docs/whatsapp/webhooks/)後，下一步就是建立webhook並設定您的傳入設定。
 
 1. 在左側邊欄中，瀏覽至&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 管道]**，選取&#x200B;**[!UICONTROL WhatsApp設定]**&#x200B;下的&#x200B;**[!UICONTROL WhatsApp Webhooks]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立Webhook]**&#x200B;按鈕。
 
@@ -143,6 +143,8 @@ ht-degree: 5%
 1. 在&#x200B;**[!UICONTROL Webhooks]**&#x200B;功能表中，按一下![bin圖示](assets/do-not-localize/Smock_Delete_18_N.svg)以刪除您的WhatsApp Webhook。
 
 1. 若要修改現有組態，請找到所需的Webhook，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;選項以進行必要的變更。
+
+1. 從您先前提交的&#x200B;**[!UICONTROL WhatsApp Webhook]**&#x200B;存取及複製新的&#x200B;**[!UICONTROL Webhook URL]**。
 
 設定後，您就可以運用所有立即可用的頻道功能，例如訊息製作、個人化、連結追蹤和報告。
 
