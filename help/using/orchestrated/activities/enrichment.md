@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用擴充活動
-description: 瞭解如何使用擴充活動
+description: 了解如何使用擴充活動
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
@@ -10,7 +10,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 31%
+ht-degree: 92%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 31%
 
 +++ 目錄
 
-| 歡迎使用協調的行銷活動 | 首次建立協調的行銷活動 | 查詢資料庫 | 協調的行銷活動 |
+| 歡迎使用協調行銷活動 | 首次投放的協調行銷活動 | 查詢資料庫 | 協調行銷活動 |
 |---|---|---|---|
-| [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>建立和管理關聯式結構描述和資料集：</br> <ul><li>[開始使用結構描述和資料集](../gs-schemas.md)</li><li>[手動結構描述](../manual-schema.md)</li><li>[檔案上傳結構描述](../file-upload-schema.md)</li><li>[擷取資料](../ingest-data.md)</li></ul>[存取及管理協調的行銷活動](../access-manage-orchestrated-campaigns.md) | [建立協調行銷活動的關鍵步驟](../gs-campaign-creation.md)<br/><br/>[建立並排程行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用規則產生器](../orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md)<br/><br/>[重新鎖定目標](../retarget.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/>[並加入](and-join.md) - [建立對象](build-audience.md) - [變更維度](change-dimension.md) - [頻道活動](channels.md) - [合併](combine.md) - [重複資料刪除](deduplication.md) - <b>[擴充](enrichment.md)</b> - [分支](fork.md) - [調解](reconciliation.md) - [儲存對象](save-audience.md) - [分割](split.md) - [等待](wait.md) |
+| [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>建立和管理關聯式結構描述和資料集：</br> <ul><li>[開始使用結構描述和資料集](../gs-schemas.md)</li><li>[手動結構描述](../manual-schema.md)</li><li>[檔案上傳結構描述](../file-upload-schema.md)</li><li>[擷取資料](../ingest-data.md)</li></ul>[存取及管理協調的行銷活動](../access-manage-orchestrated-campaigns.md) | [建立協調行銷活動的關鍵步驟](../gs-campaign-creation.md)<br/><br/>[建立並排程行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用規則產生器](../orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md)<br/><br/>[重定向](../retarget.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/>[同時加入](and-join.md) - [建立客群](build-audience.md) - [變更維度](change-dimension.md) - [頻道活動](channels.md) - [合併](combine.md) - [重複資料刪除](deduplication.md) - <b>[擴充](enrichment.md)</b> - [分支](fork.md) - [調和](reconciliation.md) - [儲存客群](save-audience.md) - [分割](split.md) - [等待](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -42,9 +42,9 @@ ht-degree: 31%
 
 >[!ENDSHADEBOX]
 
-**[!UICONTROL 擴充]**&#x200B;活動是&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;活動，可讓您使用其他屬性增強您的對象資料。
+**[!UICONTROL 擴充]**&#x200B;活動是&#x200B;**[!UICONTROL 目標定位]**&#x200B;活動，可讓您使用其他屬性增強您的客群資料。
 
-您可以善用此資訊，根據行為、偏好或需求更精確地劃分對象，並製作個人化訊息，以便與每個設定檔更密切地連結。
+您可以善用此資訊，根據行為、偏好或需求更精確地劃分客群，並製作個人化訊息，以便與每個輪廓更密切地連結。
 
 ## 新增擴充活動 {#enrichment-configuration}
 
@@ -62,9 +62,9 @@ ht-degree: 31%
 
 1. 新增「**擴充**」活動。
 
-1. 按一下&#x200B;**新增擴充資料**，並選取要用來擴充資料的屬性。
+1. 按一下「**新增擴充資料**」，並選取要用來擴充資料的屬性。
 
-   您可以選取兩種擴充資料：來自目標維度的單一擴充屬性，或集合連結。 以下範例詳細說明了每種型別：
+   您可以選取兩種類型的擴充資料：來自目標維度的單一擴充屬性，或是集合連結。以下範例詳細說明了每種類型：
 
    * [單一擴充屬性](#single-attribute)
    * [集合連結](#collection-link)
@@ -75,7 +75,7 @@ ht-degree: 31%
 
 ### 單一擴充屬性 {#single-attribute}
 
-在此範例中，您會使用目前目標維度的單一屬性（例如出生日期）來豐富對象。
+在此範例中，您會使用目前目標維度的單一屬性 (例如出生日期) 來擴充客群。
 
 操作步驟：
 
@@ -89,53 +89,53 @@ ht-degree: 31%
 
 ### 集合連結 {#collection-link}
 
-此使用案例利用連結表格的資料來豐富您的受眾。 例如，您想要擷取最近在$100以下進行的三次購買。
+此使用案例利用連結表格的資料來擴充您的客群。例如，您想要擷取最近三次金額低於美金 100 元的購買。
 
 若要達成此目的，請依照以下方式設定擴充：
 
-* **擴充屬性**： **[!UICONTROL 價格]**
+* **擴充屬性**：**[!UICONTROL 價格]**
 
-* **要擷取的記錄數**： 3
+* **要擷取的記錄數**：3
 
-* **篩選器**：僅包含&#x200B;**[!UICONTROL 價格]**&#x200B;小於$100的購買
+* **篩選器**：僅包含&#x200B;**[!UICONTROL 價格]**&#x200B;低於美金 100 元的購買
 
 #### 新增此屬性 {#add-attribute}
 
-首先，選取包含您要擴充之資料的收集連結。
+首先，選取包含您要擴充之資料的集合連結。
 
 1. 按一下「**[!UICONTROL 新增擴充資料]**」。
 
-1. 從&#x200B;**[!UICONTROL 購買]**&#x200B;表格中，選取&#x200B;**[!UICONTROL 價格]**&#x200B;欄位。
+1. 從&#x200B;**[!UICONTROL 購買]**&#x200B;表格中，選取「**[!UICONTROL 價格]**」欄位。
 
    ![](../assets/enrichment-2.png)
 
 #### 定義集合設定{#collection-settings}
 
-接下來，設定應如何收集資料以及要包含多少專案。
+接下來，設定應如何收集資料，還有該加入多少專案。
 
-1. 在&#x200B;**[!UICONTROL 選取資料收集方式]**&#x200B;下拉式清單中，選擇&#x200B;**[!UICONTROL 收集資料]**。
+1. 請在&#x200B;**[!UICONTROL 選取資料收集方式]**&#x200B;下拉式清單中，選擇&#x200B;**[!UICONTROL 收集資料]**。
 
    ![](../assets/enrichment-4.png)
 
-1. 在&#x200B;**[!UICONTROL 要擷取（要建立的資料行）]**&#x200B;欄位中，輸入`3`。
+1. 請在&#x200B;**[!UICONTROL 想擷取 (想建立的資料行)]** 欄位中，輸入`3`。
 
-1. 若要執行彙總（例如，平均購買金額），請選取&#x200B;**[!UICONTROL 彙總資料]**，然後從&#x200B;**[!UICONTROL 彙總函式]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL 平均]**。
+1. 若想執行彙總 (例如，平均購買金額)，請選取&#x200B;**[!UICONTROL 彙總資料]**，然後從&#x200B;**[!UICONTROL 彙總函數]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL 平均]**。
 
    ![](../assets/enrichment-5.png)
 
-1. 使用&#x200B;**[!UICONTROL 標籤]**&#x200B;和&#x200B;**[!UICONTROL 別名]**&#x200B;欄位，讓擴充屬性在後續活動中更容易識別。
+1. 使用&#x200B;**[!UICONTROL 標籤]**&#x200B;和&#x200B;**[!UICONTROL 別名]**&#x200B;欄位，就能在後續活動中更容易識別出擴充屬性。
 
 #### 定義篩選條件{#collection-filters}
 
-最後，套用篩選條件以確保僅包含相關記錄：
+最後，套用篩選條件，以便確保只會加入相關記錄：
 
-1. 按一下&#x200B;**[!UICONTROL 建立篩選器]**。
+1. 按一下「**[!UICONTROL 建立篩選條件]**」。
 
-1. 新增這兩個條件：
+1. 新增以下兩種條件：
 
-   * **[!UICONTROL 價格]**&#x200B;存在（排除NULL）
+   * **[!UICONTROL 價格]**&#x200B;依然存在 (將 NULL 排除在外)
 
-   * **[!UICONTROL 價格]**&#x200B;小於100
+   * **[!UICONTROL 價格]**&#x200B;不超過 100
 
    ![](../assets/enrichment-6.png)
 

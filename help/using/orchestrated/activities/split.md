@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用分割活動
-description: 瞭解如何在協調的行銷活動中使用分割活動
+description: 了解如何在協調的行銷活動中使用分割活動
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
@@ -10,7 +10,7 @@ exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 52%
+ht-degree: 95%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 52%
 
 +++ 目錄
 
-| 歡迎使用協調的行銷活動 | 首次建立協調的行銷活動 | 查詢資料庫 | 協調的行銷活動 |
+| 歡迎使用協調行銷活動 | 首次投放的協調行銷活動 | 查詢資料庫 | 協調行銷活動 |
 |---|---|---|---|
-| [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>建立和管理關聯式結構描述和資料集：</br> <ul><li>[開始使用結構描述和資料集](../gs-schemas.md)</li><li>[手動結構描述](../manual-schema.md)</li><li>[檔案上傳結構描述](../file-upload-schema.md)</li><li>[擷取資料](../ingest-data.md)</li></ul>[存取及管理協調的行銷活動](../access-manage-orchestrated-campaigns.md) | [建立協調行銷活動的關鍵步驟](../gs-campaign-creation.md)<br/><br/>[建立並排程行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用規則產生器](../orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md)<br/><br/>[重新鎖定目標](../retarget.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/>[並加入](and-join.md) - [建立對象](build-audience.md) - [變更維度](change-dimension.md) - [頻道活動](channels.md) - [合併](combine.md) - [重複資料刪除](deduplication.md) - [擴充](enrichment.md) - [分支](fork.md) - [調解](reconciliation.md) - [儲存對象](save-audience.md) - <b>[分割](split.md)</b> - [等待](wait.md) |
+| [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>建立和管理關聯式結構描述和資料集：</br> <ul><li>[開始使用結構描述和資料集](../gs-schemas.md)</li><li>[手動結構描述](../manual-schema.md)</li><li>[檔案上傳結構描述](../file-upload-schema.md)</li><li>[擷取資料](../ingest-data.md)</li></ul>[存取及管理協調的行銷活動](../access-manage-orchestrated-campaigns.md) | [建立協調行銷活動的關鍵步驟](../gs-campaign-creation.md)<br/><br/>[建立並排程行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用規則產生器](../orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md)<br/><br/>[重定向](../retarget.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/>[同時加入](and-join.md) - [建立客群](build-audience.md) - [變更維度](change-dimension.md) - [頻道活動](channels.md) - [合併](combine.md) - [重複資料刪除](deduplication.md) - [擴充](enrichment.md) - [分支](fork.md) - [調和](reconciliation.md) - [儲存客群](save-audience.md) - <b>[分割](split.md)</b> - [等待](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -43,7 +43,7 @@ ht-degree: 52%
 
 >[!ENDSHADEBOX]
 
-**[!UICONTROL 分割]**&#x200B;活動是&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;活動，它會根據定義的選取條件（例如篩選規則或母體大小），將傳入母體分割成多個子集。
+**[!UICONTROL 分割]**&#x200B;活動是一種&#x200B;**[!UICONTROL 目標定位]**&#x200B;活動，可讓您根據不同選擇標準 (例如篩選規則或群體大小) 將傳入群體分割到多個子集。
 
 ## 設定分割活動 {#split-configuration}
 
@@ -89,7 +89,7 @@ ht-degree: 52%
 
 請按照以下步驟設定&#x200B;**[!UICONTROL 分割]**&#x200B;活動：
 
-1. 將&#x200B;**[!UICONTROL 分割]**&#x200B;活動新增至您協調的行銷活動。
+1. 在您協調的行銷活動中新增&#x200B;**[!UICONTROL 分隔]**&#x200B;活動。
 
 1. 活動設定面板隨即開啟，其中包含預設子集。按一下「**[!UICONTROL 新增區段]**」按鈕，新增所需數量的子集，依此來分割傳入群體。
 
@@ -97,46 +97,46 @@ ht-degree: 52%
 
    >[!IMPORTANT]
    >
-   >**分割**&#x200B;活動會以新增子集的順序處理子集。 例如，如果第一個子集擷取到母體的70%，則下一個子集會將其條件套用至其餘30%。
+   >**分割**&#x200B;活動會以新增子集的順序處理子集。例如，如果第一個子集擷取到群體的70%，則下一個子集會將其標準套用至剩餘的 30%。
    >
-   >在執行協調的行銷活動之前，請確定子集已依預期排序。 使用箭頭按鈕來調整其位置。
+   >在執行協調的行銷活動之前，請確定子集已依預期排序。使用箭頭按鈕來調整其位置。
 
-1. 新增子集後，活動將顯示與子集一樣多的輸出轉變。我們強烈建議變更每個子集的標籤，以便在協調的行銷活動畫布中輕鬆識別它們。
+1. 新增子集後，活動將顯示與子集一樣多的輸出轉變。我們強烈建議變更每個子集的標籤，以便輕鬆在協調的行銷活動畫布中識別各子集。
 
 1. 為每個子集設定篩選器：
 
    1. 按一下子集以開啟其設定。
 
-   1. 按一下&#x200B;**[!UICONTROL 建立篩選器]**，以使用查詢模型工具定義篩選規則，例如，選取具有有效電子郵件地址的設定檔。
+   1. 按一下「**[!UICONTROL 建立篩選器]**」，以使用查詢建模工具定義篩選規則，例如，選取具有有效電子郵件地址的設定檔。
 
       ![](../assets/orchestrated-split-1.png)
 
-   1. 若要限制選取的設定檔數目，請啟用&#x200B;**[!UICONTROL 啟用限制]**&#x200B;並指定數字或百分比。
+   1. 若要限制選取的設定檔數目，請啟用「**[!UICONTROL 啟用限制]**」並指定數字或百分比。
 
-   1. 若要在子集為空時略過轉變，請啟用&#x200B;**[!UICONTROL 略過空轉變]。**
+   1. 若要在子集為空時略過轉變，請啟用「**[!UICONTROL 略過空轉變]」。**
 
-1. 若要包含任何子集都不相符的設定檔，請啟用&#x200B;**[!UICONTROL 產生補充]**。 這會為剩餘母體建立額外的出站轉變。
+1. 若要包含與任何子集都不相符的設定檔，請啟用「**[!UICONTROL 產生補集]**」。這會為剩餘群體建立額外的傳出轉變。
 
    >[!NOTE]
    >
-   >啟用&#x200B;**[!UICONTROL 在相同資料表]**&#x200B;中產生所有子集，將所有子集群組至單一轉換。
+   >啟用「**[!UICONTROL 在相同表格中產生所有子集]**」，將所有子集組成單一轉換。
 
-1. 使用&#x200B;**[!UICONTROL 啟用輸出母體的重疊]**&#x200B;以允許設定檔出現在多個子集中：
+1. 使用「**[!UICONTROL 啟用輸出群體的重疊]**」以允許設定檔出現在多個子集中：
 
-   * **如果取消勾選**，每個設定檔只會指派給一個子集，即為其符合條件的第一個子集，即使它符合其他子集的條件。
+   * **如果取消核取**，每個設定檔只會指派給一個子集，即為符合標準的第一個子集，即使它符合其他子集的條件。
 
-   * **如果勾選**，如果設定檔符合每個設定檔的條件，則可將其包含在多個子集中。
+   * **如果已核取**，當設定檔符合每個設定檔的標準時，則可將其包含在多個子集中。
 
-該活動現已完成設定。在協調的行銷活動執行中，母體將依照其加入活動的順序，分割成不同的子集。
+該活動現已完成設定。在協調的行銷活動執行時，系統會依照子集新增至活動的順序，將群體分割到不同的子集。
 
 ## 範例{#split-example}
 
 在以下範例下，我們將利用&#x200B;**[!UICONTROL 分割]**&#x200B;活動根據要使用的通訊管道將客群分割到不同的子集：
 
-* **子集1「電子郵件」**：包含已提供電話號碼的設定檔。
+* **子集 1「電子郵件」**：包含已提供電話號碼的設定檔。
 
-* **子集2「簡訊」**：以儲存在資料庫中的行動電話號碼來定位設定檔。
+* **子集 2「簡訊」**：以儲存在資料庫中的行動電話號碼來定位設定檔。
 
-* **補充轉變**：擷取不符合任一子集條件的任何剩餘設定檔。
+* **補集轉變**：擷取不符合任一子集標準的任何剩餘設定檔。
 
 ![](../assets/orchestrated-split-3.png)

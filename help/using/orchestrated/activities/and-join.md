@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用AND — 聯結活動
-description: 瞭解如何在協調的行銷活動中使用AND — 加入活動
+title: 使用合併連結活動
+description: 瞭解如何在協調行銷活動中，使用合併連結活動
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
@@ -10,7 +10,7 @@ exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 34%
+ht-degree: 88%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 34%
 
 +++ 目錄
 
-| 歡迎使用協調的行銷活動 | 首次建立協調的行銷活動 | 查詢資料庫 | 協調的行銷活動 |
+| 歡迎使用協調行銷活動 | 首次投放的協調行銷活動 | 查詢資料庫 | 協調行銷活動 |
 |---|---|---|---|
-| [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>建立和管理關聯式結構描述和資料集：</br> <ul><li>[開始使用結構描述和資料集](../gs-schemas.md)</li><li>[手動結構描述](../manual-schema.md)</li><li>[檔案上傳結構描述](../file-upload-schema.md)</li><li>[擷取資料](../ingest-data.md)</li></ul>[存取及管理協調的行銷活動](../access-manage-orchestrated-campaigns.md) | [建立協調行銷活動的關鍵步驟](../gs-campaign-creation.md)<br/><br/>[建立並排程行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用規則產生器](../orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md)<br/><br/>[重新鎖定目標](../retarget.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/><b>[並加入](and-join.md)</b> - [建立對象](build-audience.md) - [變更維度](change-dimension.md) - [頻道活動](channels.md) - [合併](combine.md) - [重複資料刪除](deduplication.md) - [擴充](enrichment.md) - [分支](fork.md) - [調解](reconciliation.md) - [儲存對象](save-audience.md) - [分割](split.md) - [等待](wait.md) |
+| [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>建立和管理關聯式結構描述和資料集：</br> <ul><li>[開始使用結構描述和資料集](../gs-schemas.md)</li><li>[手動結構描述](../manual-schema.md)</li><li>[檔案上傳結構描述](../file-upload-schema.md)</li><li>[擷取資料](../ingest-data.md)</li></ul>[存取及管理協調的行銷活動](../access-manage-orchestrated-campaigns.md) | [建立協調行銷活動的關鍵步驟](../gs-campaign-creation.md)<br/><br/>[建立並排程行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用規則產生器](../orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md)<br/><br/>[重定向](../retarget.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/><b>[同時加入](and-join.md)</b> - [建立客群](build-audience.md) - [變更維度](change-dimension.md) - [頻道活動](channels.md) - [合併](combine.md) - [重複資料刪除](deduplication.md) - [擴充](enrichment.md) - [分支](fork.md) - [調和](reconciliation.md) - [儲存客群](save-audience.md) - [分割](split.md) - [等待](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -42,9 +42,9 @@ ht-degree: 34%
 
 >[!ENDSHADEBOX]
 
-「**[!UICONTROL 合併連結]**」活動是一種&#x200B;**[!UICONTROL 流程控制]**&#x200B;活動。它可讓您同步處理協調行銷活動的多個執行分支。
+「**[!UICONTROL 合併連結]**」活動是一種&#x200B;**[!UICONTROL 流程控制]**&#x200B;活動。這讓您可以同步處理協調行銷活動的多個執行分支。
 
-此活動只會在所有傳入轉變啟動後，才會觸發其傳出轉變，換句話說，會在所有之前的活動完成後觸發。這可讓您在繼續執行協調的行銷活動之前，先確定某些活動已完成。
+此活動只會在所有傳入轉變啟動後，才會觸發其傳出轉變，換句話說，會在所有之前的活動完成後觸發。這樣，您就可以確保特定活動已完成後，再繼續執行協調的行銷活動。
 
 ## 設定合併連結活動{#and-join-configuration}
 
@@ -53,20 +53,20 @@ ht-degree: 34%
 >title="合併選項"
 >abstract="選取您要參加的活動。在「**主要集合**」下拉選單中，選擇您要保留的傳入轉變群體。"
 
-請按照以下步驟設定「**[!UICONTROL 合併連結]**」活動：
+請按照以下步驟設定&#x200B;**[!UICONTROL 合併連結]**&#x200B;活動：
 
 ![](../assets/workflow-andjoin.png)
 
-1. 新增多個活動（例如管道活動）以建立至少兩個不同的執行分支。
+1. 新增許多活動，例如頻道活動，以便建立至少兩種不同的執行分支。
 
-1. 將&#x200B;**[!UICONTROL AND — 加入]**&#x200B;活動插入其中一個分支。
+1. 請將&#x200B;**[!UICONTROL 合併連結]**&#x200B;活動新增至任何分支。
 
-1. 在&#x200B;**[!UICONTROL 合併選項]**&#x200B;區段下，選取您要加入的所有先前活動。
+1. 請在&#x200B;**[!UICONTROL 合併選項]**&#x200B;區段下，選取您想加入的所有之前活動。
 
-1. 從&#x200B;**[!UICONTROL 主要集]**&#x200B;下拉式清單中，選取要保留的入站轉變母體。
+1. 請在「**[!UICONTROL 主要集合]**」下拉選單中，選擇您想保留的傳入轉變族群。
 
 ## 範例{#and-join-example}
 
-此範例說明兩個協調的行銷活動分支，每個分支都有電子郵件傳送、一個以金會員為目標，另一個以銀會員為目標。 觸發兩個傳入的轉換後，**[!UICONTROL AND-join]**&#x200B;就會啟用，而且簡訊只會在兩個電子郵件傳遞完成後傳送，並會延遲7天。
+此範例會說明兩個協調行銷活動分支，每個分支都經由電子郵件傳送、一個會以金牌會員為目標，另一個以銀牌會員為目標。 觸發兩個傳入轉換後，就會啟用&#x200B;**[!UICONTROL 合併連結]**，只會在傳遞完兩個電子郵件後，再傳送簡訊，大概會往後延遲 7 天左右。
 
 ![](../assets/workflow-andjoin-example.png){zoomable="yes"}
