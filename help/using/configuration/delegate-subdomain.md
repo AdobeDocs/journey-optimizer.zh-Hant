@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子網域、委派、網域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
+source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '1999'
 ht-degree: 21%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 21%
 
    >[!NOTE]
    >
-   >任何遺失的記錄（代表尚未在您的託管解決方案上建立的記錄）都會列出。
+   >在繼續之前，請確定所有記錄都已正確建立。
 
 1. 檢查成功後，子網域會取得&#x200B;**[!UICONTROL Success]**&#x200B;狀態。 已準備好用於傳遞訊息。
 
@@ -164,7 +164,7 @@ CNAME子網域設定可讓您建立子網域，並使用CNAME指向Adobe特定�
 
    >[!NOTE]
    >
-   >任何遺失的記錄（代表尚未在您的託管解決方案上建立的記錄）都會列出。
+   >在繼續之前，請確定所有記錄都已正確建立。
 
 1. Adobe會產生SSL CDN URL驗證記錄。 將此驗證記錄複製到您的代管平台。 如果您已在託管解決方案上正確建立此記錄，請勾選「我確認……」方塊，然後按一下&#x200B;**[!UICONTROL 提交]**。
 
