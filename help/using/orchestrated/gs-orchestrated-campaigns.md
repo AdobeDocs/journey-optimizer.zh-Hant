@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 516eb24a1f089d2fba1585e6b03e1d912b110d3c
+source-git-commit: c1013cd39dc1d85448e78e5406706a06fbc00de9
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 19%
+source-wordcount: '539'
+ht-degree: 18%
 
 ---
 
@@ -18,10 +18,8 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
->title="協調的行銷活動"
->abstract="<b>行銷活動策劃</b><br/>分割、合併、擴充及操控關聯式資料集以定義您的對象<br/><br/>"
-
-<b>運用多實體資料</b><br/>瞭解協調的行銷活動如何運用關聯式資料集豐富資料以進行細分和個人化<br/><br/><b>臨機細分和精確計數</b><br/>使用精確計數逐步建立您的區段<br/><br/><b>可用管道</b><br/>電子郵件、簡訊、推播通知、直接郵件」
+>title="campaigns_overview_orchestrated"
+>abstract="<b>行銷活動策劃</b><br/>分割、合併、擴充及操控關聯式資料集以定義您的對象<br/><br/> <b>運用多實體資料</b><br/>瞭解協調的行銷活動如何運用關聯式資料集豐富資料以進行細分和個人化<br/><br/><b>臨機細分和精確計數</b><br/>使用精確計數逐步建立您的區段<br/><br/><b>可用管道</b><br/>電子郵件、簡訊、推播通知、直接郵件"
 
 +++ 目錄
 
