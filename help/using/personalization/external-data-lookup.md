@@ -8,17 +8,17 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="有限可用性" type="Informative"
-source-git-commit: a600af73bd85d525bc1320d0aa6193660331e452
+exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
+source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1198'
 ht-degree: 1%
 
 ---
 
-
 # 外部資料查詢協助程式
 
-`externalDataLookup`個人化編輯器中的[!DNL Journey Optmizer]協助程式可用來從外部端點動態擷取資料，以用於產生傳入通道（例如程式碼式體驗、網頁和應用程式內訊息通道）的內容。
+`externalDataLookup`個人化編輯器中的[!DNL Journey Optimizer]協助程式可用來從外部端點動態擷取資料，以用於產生傳入通道（例如程式碼式體驗、網頁和應用程式內訊息通道）的內容。
 
 >[!AVAILABILITY]
 >
@@ -35,14 +35,14 @@ ht-degree: 1%
 
 也請參閱[!DNL Journey Optimizer]傳入頻道行銷活動和Journeys#GuardrailsandGuidelines中的自訂動作。
 
-* 依預設，[!DNL Journey Optimizer]在呼叫外部端點時會使用300毫秒的逾時。 請連絡[!DNL Journey Optimizer]工程部門以提高端點的逾時。
-* 在Personalization編輯器中，[!DNL Journey Optimizer]不允許您在插入運算式時瀏覽端點回應的結構描述，且不會驗證運算式中所使用回應的JSON屬性參考。
-* 透過externalDataLookup Helper要取代的承載變數引數支援的資料型別是String、Integer、Decimal、Boolean、listString、listInt、listInteger、listDecimal。
-* 對動作設定的變更不會反映在即時行銷活動和歷程中的對應externalDataLookup呼叫。 為了反映變更，您需要複製或修改任何在externalDataLookup協助程式中使用動作的即時行銷活動或歷程。
-* 尚不支援在外部資料查詢協助程式引數中使用變數。
-* 目前不支援動態URL路徑。   — 傳入自訂動作增強功能#DynamicPathSegments。
-* 支援多重傳遞轉譯。
-* externalDataLookup協助程式目前不支援動作設定中的驗證選項。 同時，針對API金鑰式驗證或其他純文字授權金鑰，您可以在動作設定中將它們指定為標頭欄位。
+* **預設逾時** — 依預設，[!DNL Journey Optimizer]在呼叫外部端點時會使用300毫秒的逾時。 請聯絡您的Adobe代表，提高端點的此逾時。
+* **回應結構描述瀏覽與運算式驗證** — 在個人化編輯器中，插入運算式時無法瀏覽端點回應的結構描述。 [!DNL Journey Optimizer]不會驗證運算式中所使用回應中對JSON屬性的參考。
+* **引數支援的資料型別** — 透過externalDataLookup協助程式替代之承載變數引數的支援資料型別為`String`、`Integer`、`Decimal`、`Boolean`、`listString`、`listInt`、`listInteger`、`listDecimal`。
+* **自動重新整理更新的動作** — 動作設定的變更不會反映在即時行銷活動和歷程中的對應externalDataLookup呼叫中。 為了反映變更，您需要複製或修改任何在externalDataLookup協助程式中使用動作的即時行銷活動或歷程。
+* **變數替代** — 目前，externalDataLookup協助程式引數中不支援使用變數。
+* **動態路徑** — 目前不支援動態URL路徑。
+* **多重傳遞呈現** — 支援多重傳遞呈現。
+* **驗證** — 目前，externalDataLookup協助程式不支援Action設定中的驗證選項。 同時，針對API金鑰式驗證或其他純文字授權金鑰，您可以在動作設定中將它們指定為標頭欄位。
 
 ## 設定動作並使用協助程式
 
@@ -102,15 +102,21 @@ ht-degree: 1%
 
 例如：
 
-`{{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
+```
+{{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
+```
 
 引數值可以是固定值，也可以透過參考設定檔欄位或其他內容屬性進行個人化，例如：
 
-`{{externalDataLookup actionId="..." result="result" query.myQueryParameter=profile.myProfileValue}}`
+```
+{{externalDataLookup actionId="..." result="result" query.myQueryParameter=profile.myProfileValue}}
+```
 
 可使用點標籤法提供裝載引數，以參考巢狀JSON屬性，例如：
 
-`{{externalDataLookup actionId="..." result="result" payload.context.channel="web"}}`
+```
+{{externalDataLookup actionId="..." result="result" payload.context.channel="web"}}
+```
 
 ### 存取結果
 
@@ -174,7 +180,9 @@ First video description: <b>result.videos[0].description</b>
 
 例如，您可以顯示單一屬性的遞補值，如下所示：
 
-`First video description: {%=result.videos[0].description ?: "none found" %}`
+```
+First video description: {%=result.videos[0].description ?: "none found" %}
+```
 
 或者，您可以有條件地呈現整個內容區塊，如下所示：
 
@@ -196,7 +204,7 @@ First video description: <b>result.videos[0].description</b>
 
 在執行詳細資訊中的保證追蹤的Edge Delivery區段底下，已新增新的customActions區塊，其請求和回應詳細資訊類似於以下內容。 如果在執行自訂動作時發生任何問題，錯誤區段應該有助於進行偵錯
 
-![](assets/external-data-troubleshoot.png)
+![](assets/external-data-troubleshoot.png "寬度=50%")
 
 ## 常見問題集
 
@@ -204,7 +212,9 @@ First video description: <b>result.videos[0].description</b>
 
   使用內容屬性>資料串流>事件功能表來瀏覽您使用的體驗事件結構，並插入相關屬性作為引數值，如下所示：
 
-  `{{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}`
+  ```
+  {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
+  ```
 
 * [!DNL Journey Optimizer]是否執行任何外部端點回應的快取？
 
