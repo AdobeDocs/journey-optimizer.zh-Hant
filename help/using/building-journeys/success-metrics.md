@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: f8f07c27dc7e2ef223972e9044042c60e6dca4c8
+source-git-commit: f26083c222efa71176ce5c78f5f35f2c208240e6
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 6%
@@ -32,7 +32,7 @@ ht-degree: 6%
 
 如果您的資料集未設定，則只有下列量度可供使用： **[!UICONTROL 點按]**、**[!UICONTROL 不重複點按]**、**[!UICONTROL 點進率]**&#x200B;和&#x200B;**[!UICONTROL 開啟率]**。
 
-請注意，使用Customer Journey Analytics授權可讓您建立自訂成功量度。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+請注意，使用Customer Journey Analytics授權可讓您建立自訂成功量度。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | 量度 | 相關欄位群組 |
@@ -69,7 +69,7 @@ ht-degree: 6%
 
   透過Journey Optimizer和Customer Journey Analytics授權，您可以建立具有特定歸因設定的自訂量度，或變更內建量度的歸因。
 
-  深入瞭解[歸因模型](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
+  深入瞭解[歸因模型](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
 ## 指派您的歷程量度 {#assign}
 
@@ -100,3 +100,4 @@ ht-degree: 6%
    您選擇的量度會顯示在報告的KPI和歷程統計資料表中。
 
    ![](assets/success_metric_2.png)
+
