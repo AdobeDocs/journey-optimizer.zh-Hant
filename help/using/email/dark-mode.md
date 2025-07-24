@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 切換到深色模式
+title: 切換至深色模式
 description: 瞭解如何在電子郵件Designer中使用深色模式
 feature: Email Design
 topic: Content Management
@@ -11,10 +11,10 @@ keywords: 深色模式，電子郵件，顏色，編輯器
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
+source-git-commit: 12b41a253693184e4e3d866f00e7d8b0a1e30ce3
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 1%
+source-wordcount: '1674'
+ht-degree: 9%
 
 ---
 
@@ -22,18 +22,18 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
->title="切換到深色模式"
->abstract="切換到深色模式，您可以在其中預覽其呈現和定義特定自訂設定的方式。 <br>警告：最終呈現取決於收件者的電子郵件使用者端。 並非所有電子郵件使用者端都支援自訂深色模式。"
+>title="切換至深色模式"
+>abstract="切換至深色模式，您可以預覽其呈現方式並定義特定的自訂設定。<br>警告：最終呈現結果取決於收件者的電子郵件用戶端。並非所有電子郵件用戶端都支援自訂深色模式。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
 >title="將特定影像用於深色模式"
->abstract="您可以選取在深色模式開啟時顯示的另一個影像。 <br>注意：新增深色模式的特定影像無法保證其在所有電子郵件使用者端中正確轉譯。 並非所有電子郵件使用者端都支援自訂深色模式。"
+>abstract="您可以選取另一張影像，以在深色模式開啟時顯示。<br>警告：為深色模式新增特定影像並不能保證它將在所有電子郵件用戶端中正確呈現。並非所有電子郵件用戶端都支援自訂深色模式。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
->title="切換到深色模式"
->abstract="切換到深色模式以預覽其在支援的電子郵件使用者端上可能呈現的方式。 <br>警告：最終呈現取決於收件者的電子郵件使用者端。 並非所有電子郵件使用者端都支援自訂深色模式。"
+>title="切換至深色模式"
+>abstract="切換至深色模式，以預覽它在支援的電子郵件用戶端上的呈現方式。<br>警告：最終呈現結果取決於收件者的電子郵件用戶端。並非所有電子郵件用戶端都支援自訂深色模式。"
 
 設計電子郵件時，[!DNL Journey Optimizer] [電子郵件Designer](get-started-email-design.md)可讓您切換至&#x200B;**[!UICONTROL 深色模式]**，您可在此定義特定的自訂設定。 當深色模式開啟時，支援的電子郵件使用者端會顯示您為此模式定義的設定。
 
@@ -153,7 +153,7 @@ Here you can see that we have applied a different background, defined another im
    >
    >即時檢視是通用的預覽，用來比較各種裝置大小下的轉譯效果。 最終呈現內容可能會因收件者的電子郵件使用者端而異。
 
-1. 在您滿意深色模式的變更後，請按一下[模擬內容]。**&#x200B;**
+1. 在您滿意深色模式的變更後，請按一下&#x200B;**[!UICONTROL 模擬內容]**。
 
    ![](assets/dark-mode-simulate.png)
 
@@ -209,13 +209,13 @@ Inline CSS helps maintain more control over styling, as some clients strip exter
 
 ## 支援深色模式的電子郵件使用者端 {#supporting-email-clients}
 
-以下是支援深色模式的主要電子郵件使用者端清單。 不過列出的電子郵件使用者端中，有部分版本不支援深色模式，因此為了清楚且正確無誤，也會顯示在此表格中。
+以下是支援深色模式的主要電子郵件使用者端清單。
 
->[!WARNING]
+>[!NOTE]
 >
->深色模式的最終呈現取決於每個電子郵件使用者端，因此結果可能因人而異。 若要檢視儘可能接近每個電子郵件使用者端最終結果的模擬，請使用[電子郵件呈現](../content-management/rendering.md)選項。
+>這些電子郵件使用者端的某些版本不支援深色模式，因此為了清楚起見，也會顯示在此表格中。
 
-| 支援深色模式的電子郵件使用者端 | 相容版本 | 不支援的版本 |
+| 支援深色模式的電子郵件使用者端 | 相容版本 | *不支援的版本* |
 |---------|----------|---------|
 | Apple Mail macOS | 12.4， 16.0 | *10.3* |
 | Apple Mail iOS | 13.0， 16.1 | *12.2* |
@@ -236,6 +236,10 @@ Inline CSS helps maintain more control over styling, as some clients strip exter
 | 1&amp;1 (案頭網路郵件和Android) | 2022-06 | 不適用 |
 | WEB.DE (iOs和Android) | 2022-06 | 不適用 |
 | Free.fr | 2022-12 | 不適用 |
+
+>[!WARNING]
+>
+>深色模式的最終呈現取決於每個電子郵件使用者端，因此結果可能因人而異。
 
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
