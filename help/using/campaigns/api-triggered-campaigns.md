@@ -9,15 +9,20 @@ role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 5%
+source-wordcount: '233'
+ht-degree: 4%
 
 ---
 
 
 # 使用API觸發的行銷活動 {#trigger-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="campaigns_overview_api_triggered"
+>title="API觸發的行銷活動"
+>abstract="**異動API觸發的行銷活動**<br/>&#x200B;透過API呼叫觸發即時訊息&#x200B;<br/><br/>**行銷訊息**<br/>&#x200B;促銷內容（需要選擇加入，但須遵守商業規則）<br/><br/>**異動訊息**<br/>&#x200B;服務相關內容（確認、警示，不須遵守行銷同意）<br/><br/>**可用頻道**<br/>&#x200B;電子郵件、簡訊、推播通知"
 
 ## 關於API觸發的行銷活動 {#about}
 
@@ -43,4 +48,4 @@ API觸發的行銷活動的可用管道包括電子郵件、簡訊和推播訊�
 
 瞭解如何使用互動式訊息執行REST API，根據使用者互動從外部系統建立及觸發行銷活動。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452736?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
