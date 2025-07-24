@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer搶鮮版發行說明
-description: Journey Optimizer發行說明
+description: Adobe Journey Optimizer發行說明
 feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f74ef3dfe8ceb504ace425cf4e701c9733373c2f
+source-git-commit: 08d32e9323d5841cdac5ed08b3e1764aeb6368be
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 19%
+source-wordcount: '933'
+ht-degree: 16%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 19%
 **在發行日期**&#x200B;之前，下列發行前說明可能會有所變更，恕不另行通知。 連結、畫面及更新的文件會在發行當日發佈於[發行說明](release-notes.md)。
 
 
-## 2025年7月早期發行說明 {#25-7-rn}
+## 2025年7月發行說明 {#25-7-rn}
 
 
 **在發行日期**&#x200B;之前，下列發行前說明可能會有所變更，恕不另行通知。 連結、畫面和更新文件會於發行日期發佈。
@@ -118,6 +118,12 @@ ht-degree: 19%
 <tr>
 <td>
 <p>Journey Optimizer現在可讓您使用工具，為行銷活動的對象提供個人化和最佳化內容，讓您執行內容實驗、建立規則型鎖定目標，以及使用兩者的進階組合，以最大化行銷活動的有效性。</p>
+<p>透過最佳化，您可以：</p>
+<ul>
+<li>執行內容實驗</li>
+<li>善用目標規則</li>
+<li>在單一行銷活動中使用實驗和定位的進階組合</li></ul>
+<P>行銷活動上線後，會根據定義的條件評估設定檔，並根據比對條件，提供行銷活動中的適當體驗或內容。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -158,7 +164,6 @@ ht-degree: 19%
 <li>能夠檢視草稿行銷活動（如果您已設定開始和結束日期）</li>
 <li>隱藏和顯示長時間執行行事曆專案的新設定</li>
 </ul>
-<p>之前以「限量」的名義發行，目前此功能所有環境都適用（一般可用性）。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
