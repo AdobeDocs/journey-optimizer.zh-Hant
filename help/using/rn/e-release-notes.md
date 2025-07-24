@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 08d32e9323d5841cdac5ed08b3e1764aeb6368be
+source-git-commit: 085a86b0869a10536300329acc27914f12be6d7b
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '924'
 ht-degree: 16%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 16%
 <tr>
 <td>
 <p>您現在可以將決定原則新增至電子郵件歷程與行銷活動。 決策原則是優惠方案的容器，可運用決策引擎以動態方式傳回最佳內容，供每個受眾成員傳送。</p>
-<p>此功能僅適用於一組組織。 目前無法搭配Healthcare Shield和Privacy and Security Shield （限量提供）使用。</p>
+<p>此功能目前不適用於Healthcare Shield，以及Privacy and Security Shield （限量提供）。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
