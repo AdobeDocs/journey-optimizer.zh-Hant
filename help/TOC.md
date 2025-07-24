@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: b317400b083f70cce05a7d4823f52a8cd35a3b96
 workflow-type: tm+mt
 source-wordcount: '2585'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -209,8 +209,8 @@ ht-degree: 95%
          + [擷取資料](using/orchestrated/ingest-data.md)
       + [存取並管理協調的行銷活動](using/orchestrated/access-manage-orchestrated-campaigns.md)
       + [護欄與限制](using/orchestrated/guardrails.md)
-      + 首次建立協調的行銷活動{#launch}
-         + [建立協調行銷活動的重要步驟](using/orchestrated/gs-campaign-creation.md)
+      + 首次投放的協調行銷活動{#launch}
+         + [建立協調的行銷活動的重要步驟](using/orchestrated/gs-campaign-creation.md)
          + [建立並安排行銷活動的時間](using/orchestrated/create-orchestrated-campaign.md)
          + [協調活動](using/orchestrated/orchestrate-activities.md)
          + [開始並監視行銷活動](using/orchestrated/start-monitor-campaigns.md)
@@ -536,7 +536,7 @@ ht-degree: 95%
 + 決定功能 {#decisioning}
    + [開始使用決定功能](using/experience-decisioning/gs-decision.md)
    + 決策 {#experience-decisioning}
-      + [開始使用 Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+      + [開始使用決策](using/experience-decisioning/gs-experience-decisioning.md)
       + [決策護欄與限制](using/experience-decisioning/decisioning-guardrails.md)
       + API 參考{#api-reference}
          + 建立並管理優惠項目 {#create-manage}
