@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 47665bc3cbe1221ba872bcd2b1dac94fea5ec63a
+source-git-commit: f74ef3dfe8ceb504ace425cf4e701c9733373c2f
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 22%
+source-wordcount: '897'
+ht-degree: 19%
 
 ---
 
@@ -82,7 +82,6 @@ ht-degree: 22%
 <tr>
 <td>
 <p>您現在可以將決定原則新增至電子郵件歷程與行銷活動。 決策原則是優惠方案的容器，可運用決策引擎以動態方式傳回最佳內容，供每個受眾成員傳送。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p>此功能僅適用於一組組織。 目前無法搭配Healthcare Shield和Privacy and Security Shield （限量提供）使用。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -177,7 +176,6 @@ ht-degree: 22%
 <tr>
 <td>
 <p>以前在「有限可用性」中發佈，現在所有環境都可以在歷程中使用補充ID。 在此「一般可用性」版本中，功能現在包含對「讀取對象」歷程的支援。</p>
-<p>之前以「限量」的名義發行，目前此功能所有環境都適用（一般可用性）。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
