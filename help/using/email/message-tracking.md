@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1214'
 ht-degree: 30%
 
 ---
@@ -49,9 +49,13 @@ ht-degree: 30%
 
 啟用[追蹤](#enable-tracking)時，會追蹤訊息內容中包含的所有連結。
 
+>[!NOTE]
+>
+>也會追蹤電子郵件中所用片段的連結。 [進一步瞭解片段](../content-management/fragments.md)
+
 若要將連結插入到電子郵件內容，請依照以下步驟進行：
 
-1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。**&#x200B;**
+1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。****
 
    ![](assets/message-tracking-insert-link.png)
 

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定，子網域
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1171'
 ht-degree: 6%
 
 ---
@@ -122,13 +122,13 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->如果您新增一或多個動態子網域至您的設定，將會根據解析的[動態子網域](#dynamic-subdomains)填入&#x200B;**寄件者電子郵件**&#x200B;和&#x200B;**錯誤電子郵件**&#x200B;尾碼。
+>如果您新增一或多個動態子網域至您的設定，將會根據解析的&#x200B;**動態子網域**&#x200B;填入&#x200B;**寄件者電子郵件**&#x200B;和[錯誤電子郵件](#dynamic-subdomains)尾碼。
 
 ## 使用個人化URL追蹤 {#personalize-url-tracking}
 
 若要使用個人化URL追蹤引數，請遵循下列步驟。
 
-1. 移至電子郵件通道設定的&#x200B;**[!UICONTROL URL追蹤引數]**&#x200B;區段。
+1. 移至電子郵件通道設定的&#x200B;**[!UICONTROL URL追蹤引數]**&#x200B;區段。 [了解更多](url-tracking.md)
 
 1. 按一下每個欄位旁的編輯圖示。 除了內容屬性之外，您還可以選取設定檔屬性。
 

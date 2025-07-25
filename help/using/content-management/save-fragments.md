@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 13%
+source-wordcount: '510'
+ht-degree: 12%
 
 ---
 
 # 將內容另存為片段 {#save-as-fragment}
 
-在[!DNL Journey Optimizer]中編輯內容時，您可以將全部或部分內容儲存為片段，以供日後重複使用。 您可以從電子郵件Designer[&#128279;](#save-as-visual-fragment)儲存內容為片段[，或從運算式編輯器](#save-as-expression-fragment)儲存內容。
+在[!DNL Journey Optimizer]中編輯內容時，您可以將全部或部分內容儲存為片段，以供日後重複使用。 您可以從電子郵件Designer[儲存內容為片段](#save-as-visual-fragment)，或從運算式編輯器[儲存內容](#save-as-expression-fragment)。
+
+>[!NOTE]
+>
+>在歷程或行銷活動中啟用追蹤時，如果您將連結新增至片段，且此片段用於電子郵件中，則會追蹤這些連結，例如訊息中包含的所有其他連結。 [進一步瞭解連結和追蹤](../email/message-tracking.md)
 
 ## 另存為視覺片段 {#save-as-visual-fragment}
 
@@ -28,6 +32,10 @@ ht-degree: 13%
 1. 從下拉式選單中選取&#x200B;**[!UICONTROL 另存為片段]**。
 
    ![](assets/fragment-save-as.png)
+
+   >[!NOTE]
+   >
+   >視覺化片段不能超過100KB。
 
 1. **[!UICONTROL 另存為片段]**&#x200B;畫面隨即顯示。 在該處選取您要納入片段中的元素，包括個人化欄位和動態內容。 請注意，片段中不支援內容屬性。
 
