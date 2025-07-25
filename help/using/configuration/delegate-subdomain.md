@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子網域、委派、網域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
+source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
 workflow-type: tm+mt
-source-wordcount: '1999'
-ht-degree: 21%
+source-wordcount: '1897'
+ht-degree: 16%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="子網域委派"
->abstract="Journey Optimizer 可讓您將子網域委派給 Adobe。您可以將子網域完全委派給 Adobe，這是建議的方法。您還可以使用 CNAME 建立子網域以指向 Adobe 的特定記錄，但這種方法需要您自行維護和管理 DNS 記錄。"
+>abstract="Journey Optimizer 可讓您將子網域委派給 Adobe。您可以將子網域完全委派給 Adobe，這是建議的方法。</br>您也可以使用CNAME建立子網域以指向Adobe的特定記錄，但此方法需要您自行維護和管理DNS記錄。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="子網域設定方法"
 
 >[!CONTEXTUALHELP]
@@ -29,43 +29,78 @@ ht-degree: 21%
 >title="子網域委派"
 >abstract="若要開始傳送電子郵件，您需要將您的子網域委派給 Adobe。完成後，將為您設定 DNS 記錄、收件匣、寄件者、回覆地址和退回地址。"
 
-## 開始使用電子郵件子網域 {#gs-delegate-subdomain}
-
 網域名稱委派是一種方法，可讓網域名稱的所有者（技術上稱為DNS區域）將其細分（技術上稱為DNS區域下的細分）委派給另一個實體。 基本上，身為客戶，如果您處理&quot;example.com&quot;區域，您可以將子網區&quot;marketing.example.com&quot;委派給Adobe。 深入瞭解[子網域委派](about-subdomain-delegation.md)
 
 依預設，[!DNL Journey Optimizer]可讓您委派&#x200B;**最多10個子網域**。 然而，根據您的授權合約，您最多可委派 100 個子網域。 請聯絡您的 Adobe 聯絡人，了解更多您有權使用的子網域數量。
 
-您可以完全委派子網域，或使用CNAME建立子網域以指向Adobe特定記錄。
+您可以：
 
-建議使用完全子網域委派方法。 深入瞭解兩種[子網域設定方法](about-subdomain-delegation.md#subdomain-delegation-methods)之間的差異。
+* 完全委派子網域 — [瞭解如何進行](#set-up-subdomain)
+* 使用CNAME建立子網域以指向Adobe特定記錄 — [瞭解如何進行](#set-up-subdomain)
 
-子網域設定是&#x200B;**所有環境通用的設定**。 因此，對子網域所做的任何修改也會影響生產沙箱。
+建議使用&#x200B;**完整子網域委派**&#x200B;方法。 在[本節](about-subdomain-delegation.md#subdomain-delegation-methods)中進一步瞭解不同子網域設定方法之間的差異。
 
 >[!CAUTION]
 >
 >[!DNL Journey Optimizer]不支援同時提交子網域。 如果您嘗試在其他子網域處於&#x200B;**[!UICONTROL 處理]**&#x200B;狀態時提交子網域以進行委派，您會收到錯誤訊息。
 
-## 將子網域完全委派給 Adobe {#full-subdomain-delegation}
+## 存取委派的子網域 {#access-delegated-subdomains}
+
+所有委派的子網域會顯示在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 子網域]**&#x200B;功能表中。 篩選器可協助您調整清單（委派日期、使用者或狀態）。
+
+<!--![](assets/subdomain-list.png)-->
+
+**[!UICONTROL 狀態]**&#x200B;欄提供子網域委派程式的資訊：
+
+* **[!UICONTROL 草稿]**：子網域委派已儲存為草稿。 按一下子網域名稱以繼續委派程式，
+* **[!UICONTROL 正在處理]**：子網域正在執行數個組態檢查，然後才能使用，
+* **[!UICONTROL 成功]**：子網域已成功通過檢查，且可用於傳遞訊息，
+* **[!UICONTROL 失敗]**：提交子網域委派後，一或多個檢查失敗。
+
+若要存取狀態為&#x200B;**[!UICONTROL 成功]**&#x200B;之子網域的詳細資訊，請從清單中開啟該子網域。
+
+![](assets/subdomain-delegated.png)
+
+您可以：
+
+* 擷取委派過程中設定的子網域名稱（唯讀），以及產生的URL （資源、映象頁面、追蹤URL），
+
+* 將Google網站驗證TXT記錄新增至您的子網域，以確保其已驗證(請參閱[將Google TXT記錄新增至子網域](google-txt.md))。
+
+>[!CAUTION]
+>
+>子網域設定在所有環境中都是通用的。 因此，對子網域所做的任何修改也會影響生產沙箱。
+
+## 在Journey Optimizer中設定子網域 {#set-up-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
 >title="產生相符的 DNS 記錄"
 >abstract="若要將新的子網域完全委派給 Adobe，您需要將 Journey Optimizer 介面中顯示的 Adobe 名稱伺服器資訊複製貼上您的網域託管解決方案中，以產生相符的 DNS 記錄。若要使用 CNAME 委派子網域，您還需要複製貼上 SSL CDN URL 驗證記錄。一旦檢查成功，子網域就準備好可用於傳遞訊息了。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain#cname-subdomain-delegation" text="CNAME 子網域委派"
 
-[!DNL Journey Optimizer]可讓您直接從產品介面將子網域完全委派給Adobe。 藉由這樣做，Adobe將能夠控制並維護傳遞、演算及追蹤電子郵件行銷活動所需的DNS的各個層面，以受管理的方式傳遞訊息。
+若要在[!DNL Journey Optimizer]中設定新的子網域，請遵循下列步驟。
 
-您可以仰賴Adobe維護所需的DNS基礎架構，以符合電子郵件行銷傳送網域的產業標準傳遞能力要求，同時繼續維護及控制內部電子郵件網域的DNS。
+>[!NOTE]
+>
+>本節說明如何使用完全委派或CNAME方法來設定子網域。 自訂委派方法在[本節](#setup-custom-subdomain)中有詳細說明。
 
-若要將新子網域完全委派給Adobe，請執行以下步驟：
 
 1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL 子網域]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 設定子網域]**。
 
-   ![](assets/subdomain-delegate.png)
+   <!--![](assets/subdomain-delegate.png)-->
 
-1. 從&#x200B;**[!UICONTROL 設定方法]**&#x200B;區段中選取&#x200B;**[!UICONTROL 已完全委派]**。
+   >[!CAUTION]
+   >
+   >子網域設定是&#x200B;**所有環境通用的設定**。 因此，對子網域所做的任何修改也會影響生產沙箱。
 
-   ![](assets/subdomain-method-full.png)
+1. 從&#x200B;**[!UICONTROL 設定方法]**&#x200B;區段中，選取：
+
+   * 已完全委派 — [深入瞭解](about-subdomain-delegation.md#full-subdomain-delegation)
+   * CNAME設定 — [深入瞭解](about-subdomain-delegation.md#cname-subdomain-setup)
+
+     在此[專屬區段](#cname-subdomain-setup)中瞭解如何使用CNAME設定子網域
+
+   <!--![](assets/subdomain-method-full.png)-->
 
 1. 指定要委派的子網域名稱。
 
@@ -74,41 +109,26 @@ ht-degree: 21%
    >[!CAUTION]
    >
    >不允許將無效的子網域委派給Adobe。 請務必輸入貴組織所擁有的有效子網域，例如marketing.yourcompany.com。
+   >
+   >您無法使用相同的傳送網域從[!DNL Adobe Journey Optimizer]和其他產品（例如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]）傳送訊息。
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
-1. 要放置在 DNS 伺服器顯示中的記錄清單。 逐一複製這些記錄，或下載 CSV 檔案，然後導覽至您的網域託管解決方案，以產生相符的 DNS 記錄。
+1. 在專用區段中設定&#x200B;**[!UICONTROL DMARC記錄]**。 如果子網域有現有的[DMARC記錄](dmarc-record.md)，而且[!DNL Journey Optimizer]已擷取該記錄，則您可以視需要使用相同的值或加以變更。 如果您未新增任何值，則會使用預設值。 [瞭解如何管理DMARC記錄](dmarc-record.md#set-up-dmarc)
+
+   ![](assets/dmarc-record-found.png)
+
+1. 在&#x200B;**[!UICONTROL DNS記錄]**&#x200B;區段中，會顯示要放置在DNS伺服器中的記錄清單。 逐一複製這些記錄，或下載 CSV 檔案，然後導覽至您的網域託管解決方案，以產生相符的 DNS 記錄。
 
 1. 請確定所有DNS記錄都已產生至您的網域託管解決方案。 如果所有專案都已正確設定，請勾選「我確認……」方塊。
 
    ![](assets/subdomain-submit.png)
 
-1. 設定DMARC記錄。 如果子網域有現有的DMARC記錄，而且由[!DNL Journey Optimizer]擷取，則您可以使用相同的值，或視需要加以變更。 如果您未新增任何值，則會使用預設值。 [了解更多](dmarc-record.md)
+1. 如果您正在設定包含&#x200B;**CNAME**&#x200B;的子網域，請移至[此區段](#cname-subdomain-setup)。
 
-   ![](assets/dmarc-record-found.png)
+1. 按一下&#x200B;**[!UICONTROL 提交]**，讓Adobe執行必要的檢查。 [了解更多](#submit-subdomain)
 
-1. 按一下&#x200B;**[!UICONTROL 提交]**。
-
-   您可以使用&#x200B;**[!UICONTROL 另存為草稿]**&#x200B;按鈕來建立記錄並稍後提交子網域設定。 然後，您就可以從子網域清單中開啟子網域委派，以繼續子網域委派。
-
-1. 子網域會顯示在狀態為&#x200B;**[!UICONTROL 處理中]**&#x200B;的清單中。 如需子網域狀態的詳細資訊，請參閱[本區段](about-subdomain-delegation.md#access-delegated-subdomains)。
-
-   ![](assets/subdomain-processing.png)
-
-   您必須等待Adobe執行所需檢查（最多可能需要3小時），才能使用該子網域傳送訊息。 請參閱[此章節](#subdomain-validation)深入瞭解。
-
-   >[!NOTE]
-   >
-   >在繼續之前，請確定所有記錄都已正確建立。
-
-1. 檢查成功後，子網域會取得&#x200B;**[!UICONTROL Success]**&#x200B;狀態。 已準備好用於傳遞訊息。
-
-   如果您無法在您的代管解決方案上建立驗證記錄，子網域將會標示為&#x200B;**[!UICONTROL 失敗]**。
-
-在[!DNL Journey Optimizer]中將子網域委派給Adobe後，系統會自動建立PTR記錄並與此子網域建立關聯。 [了解更多](ptr-records.md)
-
-
-## 使用 CNAME 設定子網域 {#cname-subdomain-delegation}
+## 使用 CNAME 設定子網域 {#cname-subdomain-setup}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
@@ -120,70 +140,58 @@ ht-degree: 21%
 >title="複製驗證記錄"
 >abstract="Adobe 會產生驗證記錄。您需要在您的託管平台上建立相對應的記錄，以進行 CDN URL 驗證。"
 
-如果您有網域特定的限制原則，並且您希望Adobe只擁有對DNS的部份控制權，您可以選擇在自己這邊執行所有DNS相關的活動。
-
-CNAME子網域設定可讓您建立子網域，並使用CNAME指向Adobe特定記錄。 使用此設定，您和 Adobe 都有責任維護 DNS，針對電子郵件的傳送、轉譯和追蹤設定環境。
+設定子網域時，您可以使用CNAME指向Adobe特定記錄。 使用此設定，您和Adobe都有責任維護DNS。
 
 >[!CAUTION]
 >
->如果貴組織的原則限制完整的子網域委派方法，則建議使用CNAME方法。 此方法需要您自行維護和管理DNS記錄。 Adobe將無法協助變更、維護或管理透過CNAME方法設定的子網域的DNS。
+>如果貴組織的原則限制完整的子網域委派方法，則建議使用CNAME方法。 此方法需要您自行維護和管理DNS記錄。
+>
+>Adobe將無法協助變更、維護或管理透過CNAME方法設定的子網域的DNS。
 
-➡️ [在此影片中瞭解如何使用CNAME建立子網域以指向Adobe特定記錄](#video)
+若要使用CNAME設定子網域，請遵循下列步驟。
 
-若要使用CNAME設定子網域，請遵循下列步驟：
+1. 執行[本節](#set-up-subdomain)中說明的所有步驟。
 
-1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL 子網域]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 設定子網域]**。
-
-1. 選取&#x200B;**[!UICONTROL CNAME設定]**&#x200B;方法。
-
-   ![](assets/subdomain-method-cname.png)
-
-1. 指定要委派的子網域名稱。
-
-   >[!CAUTION]
-   >
-   >您不得將無效的子網域委派給Adobe。 請確定輸入貴組織&#x200B;**擁有的有效子網域**，例如marketing.yourcompany.com。
-
-   <!--Capital letters are not allowed in subdomains. TBC by PM-->
-
-1. 要放置在 DNS 伺服器顯示中的記錄清單。 逐一複製這些記錄，或下載 CSV 檔案，然後導覽至您的網域託管解決方案，以產生相符的 DNS 記錄。
-
-1. 請確定所有DNS記錄都已產生至您的網域託管解決方案。 如果所有專案都已正確設定，請勾選「我確認……」方塊。
-
-   ![](assets/subdomain-create-dns-confirm.png)
-
-1. 設定DMARC記錄。 如果子網域有現有的DMARC記錄，而且由[!DNL Journey Optimizer]擷取，則您可以使用相同的值，或視需要加以變更。 如果您未新增任何值，則會使用預設值。 [了解更多](dmarc-record.md)
-
-   ![](assets/dmarc-record-found.png)
-
-1. 按一下&#x200B;**[!UICONTROL 繼續]**。
-
-   您稍後可以使用&#x200B;**[!UICONTROL 另存為草稿]**&#x200B;按鈕來建立記錄。 然後，您就可以在此階段繼續子網域委派，方法是從子網域清單中開啟該子網域。
-
-1. 等候Adobe驗證在您的託管解決方案上產生記錄時沒有發生錯誤。 此程式最多可能需要2分鐘。
+1. 在提交您的子網域設定前，您還需要完成一個步驟 — 按一下[繼續]****。 等候Adobe驗證在您的託管解決方案上產生記錄時沒有發生錯誤。 此程式最多可能需要2分鐘。
 
    >[!NOTE]
    >
    >在繼續之前，請確定所有記錄都已正確建立。
 
-1. Adobe會產生SSL CDN URL驗證記錄。 將此驗證記錄複製到您的代管平台。 如果您已在託管解決方案上正確建立此記錄，請勾選「我確認……」方塊，然後按一下&#x200B;**[!UICONTROL 提交]**。
+1. Adobe會產生SSL CDN URL驗證記錄。 將此驗證記錄複製到您的代管平台。 如果您已在託管解決方案上正確建立此記錄，請勾選「我確認……」方塊。
 
-   <!--![](assets/subdomain-cdn-url-validation.png)-->
+1. 按一下&#x200B;**[!UICONTROL 提交]**，讓Adobe執行必要的檢查。 [了解更多](#submit-subdomain)
 
-1. 提交CNAME子網域委派後，子網域會顯示在狀態為&#x200B;**[!UICONTROL 處理中]**&#x200B;的清單中。 如需子網域狀態的詳細資訊，請參閱[本區段](about-subdomain-delegation.md#access-delegated-subdomains)。
+➡️ [在此影片中瞭解如何使用CNAME建立子網域以指向Adobe特定記錄](#video)
 
-   ![](assets/subdomain-cname-processing.png)
+## 提交您的子網域設定 {#submit-subdomain}
 
-   您必須等待Adobe執行所需檢查（通常需要2至3小時），才能使用該子網域傳送訊息。 請參閱[此章節](#subdomain-validation)深入瞭解。
+若要完成您的子網域委派，請遵循下列步驟。
 
-1. 檢查成功後<!--i.e Adobe validates the record you created and installs it-->，子網域會取得&#x200B;**[!UICONTROL 成功]**&#x200B;狀態。 已準備好用於傳遞訊息。
+1. 按一下&#x200B;**[!UICONTROL 提交]**。
 
-   如果您無法在您的代管解決方案上建立驗證記錄，子網域將會標示為&#x200B;**[!UICONTROL 失敗]**。
+   >[!NOTE]
+   >
+   >如果嘗試提交自訂子網域時發生錯誤，請參閱[本節](#check-list)。
 
-在驗證記錄並安裝憑證後，Adobe會自動建立CNAME子網域的PTR記錄。 [了解更多](ptr-records.md)
 
+1. 您可以使用&#x200B;**[!UICONTROL 另存為草稿]**&#x200B;按鈕來建立記錄並稍後提交子網域設定。
 
-## 子網域驗證 {#subdomain-validation}
+   >[!NOTE]
+   >
+   >然後，您就可以從子網域清單中開啟子網域委派，以繼續子網域委派。
+
+1. 子網域會顯示在狀態為&#x200B;**[!UICONTROL 處理中]**&#x200B;的清單中。 如需子網域狀態的詳細資訊，請參閱[本區段](#access-delegated-subdomains)。
+
+   <!--![](assets/subdomain-processing.png)-->
+
+1. 您必須等待Adobe執行所需檢查（最多可能需要3小時），才能使用該子網域傳送訊息。 [了解更多](#subdomain-validation)。
+
+   >[!NOTE]
+   >
+   >在繼續之前，請確定所有記錄都已正確建立。
+
+### 子網域驗證 {#subdomain-validation}
 
 以下的檢查和動作會一直執行，直到子網域通過驗證為止，且可用於傳送訊息。
 
@@ -210,6 +218,12 @@ CNAME子網域設定可讓您建立子網域，並使用CNAME指向Adobe特定�
 1. **建立轉送DNS**：如果這是您委派的第一個子網域，Adobe將建立建立PTR記錄所需的轉送DNS — 每個IP各一個。
 
 1. **建立PTR記錄**： ISP需要PTR記錄（也稱為反向DNS記錄），以免將電子郵件標示為垃圾郵件。 Gmail也建議每個IP都有PTR記錄。 Adobe只會在您第一次委派子網域時建立PTR記錄，每個IP各一個，所有IP都指向該子網域。 例如，如果IP是&#x200B;*192.1.2.1*&#x200B;且子網域是&#x200B;*email.example.com*，則PTR記錄將是： *192.1.2.1PTR r1.email.example.com*。 您之後可以更新PTR記錄，以指向新的委派網域。 [進一步了解 PTR 記錄](ptr-records.md)
+
+檢查成功後，子網域會取得&#x200B;**[!UICONTROL Success]**&#x200B;狀態。 已準備好用於傳遞訊息。
+
+如果您無法在您的代管解決方案上建立驗證記錄，子網域將會標示為&#x200B;**[!UICONTROL 失敗]**。
+
+在驗證記錄後，Adobe會自動為子網域建立PTR記錄。 [了解更多](ptr-records.md)
 
 ## 取消委派子網域 {#undelegate-subdomain}
 

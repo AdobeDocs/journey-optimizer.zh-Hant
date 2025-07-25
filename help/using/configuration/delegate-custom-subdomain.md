@@ -11,7 +11,7 @@ keywords: 子網域、委派、網域、DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
+source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 20%
@@ -118,16 +118,15 @@ ht-degree: 20%
 
    ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
 
-1. 按一下[繼續]&#x200B;**&#x200B;**，然後等到Adobe驗證記錄是否已在您的代管解決方案上產生且沒有錯誤。 此程式最多可能需要2分鐘。
+1. 按一下[繼續]****，然後等到Adobe驗證記錄是否已在您的代管解決方案上產生且沒有錯誤。 此程式最多可能需要2分鐘。
 
    >[!NOTE]
    >
    >在繼續之前，請確定所有記錄都已正確建立。
 
-   Adobe會產生SSL CDN URL驗證記錄。 將此驗證記錄複製到您的代管平台。 如果您已在託管解決方案上正確建立此記錄，請勾選「我確認……」方塊。
+1. Adobe會產生SSL CDN URL驗證記錄。 將此驗證記錄複製到您的代管平台。 如果您已在託管解決方案上正確建立此記錄，請勾選「我確認……」方塊。
 
-1. 按一下&#x200B;**[!UICONTROL 提交]**，讓Adobe執行必要的檢查。 [了解更多](#submit-subdomain)
-
+1. 按一下&#x200B;**[!UICONTROL 提交]**，讓Adobe執行必要的檢查。 [了解更多](delegate-subdomain.md#submit-subdomain)
 
 ## 疑難排解檢查清單 {#check-list}
 
@@ -138,4 +137,3 @@ ht-degree: 20%
 * 在上傳之前，請確認您的憑證符合所有技術要求。
 
 * 請確定您的憑證是以正確格式上傳。
-
