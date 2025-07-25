@@ -6,7 +6,7 @@ description: 瞭解如何將關聯式結構描述對應到客戶設定檔
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 70d397614dc0e5b5ce94cc4221a28d47dc9b476d
+source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 11%
@@ -58,7 +58,7 @@ ht-degree: 11%
 
    在此範例中，客戶設定檔連結到多個訂閱，每個訂閱在`crmID`結構描述中由唯一的`Recipient`表示。 透過設定&#x200B;**[!UICONTROL Target Dimension]**&#x200B;使用`Recipient`結構描述及其`crmID`身分，您可以在訂閱層級傳送訊息，而非傳送至主要客戶設定檔，確保每個合約或服務內容都能收到自己的個人化訊息。
 
-   [請到 Adobe Experience Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#identity)那邊，了解更多相關資訊。
+   [請到 Adobe Experience Platform 文件](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)那邊，了解更多相關資訊。
 
    ![](assets/target-dimension-2.png)
 
@@ -108,4 +108,4 @@ ht-degree: 11%
 
 1. 設定之後，按一下&#x200B;**[!UICONTROL 提交]**。
 
-您的頻道現在已準備好與協調行銷活動搭配使用，將根據所選的目標維度傳送訊息。
+您的頻道現在已準備好搭配&#x200B;**協調的行銷活動**&#x200B;使用，將會根據選取的目標維度傳遞訊息。

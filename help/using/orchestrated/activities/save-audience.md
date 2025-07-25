@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 81f0338935ee36b152963f2b1c0e7989b86f5f8a
+source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 67%
+source-wordcount: '466'
+ht-degree: 52%
 
 ---
 
@@ -54,11 +54,13 @@ ht-degree: 67%
 
 1. 輸入&#x200B;**[!UICONTROL 客群標籤]**，就能識別已儲存客群。
 
-1. 按一下 **[!UICONTROL [新增客群屬性]]**，以便定義客群資料的結構化和儲存方式，以供日後重複使用。
+1. 從您的行銷活動目標維度中選擇&#x200B;**[!UICONTROL 設定檔對應欄位{1&#x200B;}。]**
+
+   ➡️ [依照本頁面詳述的步驟建立您的行銷活動目標維度](../target-dimension.md)
 
    ![](../assets/save-audience-1.png)
 
-1. 然後，選取適當的&#x200B;**[!UICONTROL 主要身分識別欄位]**&#x200B;和&#x200B;**[!UICONTROL 身分識別命名空間]**，以便確保正確的設定檔解析度。
+1. 如果要將儲存的對象與其他身分欄位建立關聯，請按一下&#x200B;**[!UICONTROL 新增對象對應]**。
 
    ![](../assets/save-audience-2.png)
 
@@ -66,10 +68,8 @@ ht-degree: 67%
 
 之後，就可以在客群的詳細資料視圖中，使用儲存的客群內容，可以到&#x200B;**[!UICONTROL 客群]**&#x200B;選單那邊存取內容。
 
-![](../assets/save-audience-3.png)
-
 ## 範例 {#save-audience-example}
 
-以下範例會示範如何使用鎖定目標，建立簡易客群。 查詢可找出過去 30 天內購買的所有設定檔。 **[!UICONTROL 儲存客群]**&#x200B;活動接著會擷取以上設定檔，以便建立客群，讓近期購買者可重複使用。
+以下範例會示範如何使用鎖定目標，建立簡易客群。 透過在您的協調行銷活動中篩選此母體，查詢可識別過去30天內預訂旅行的所有收件者。 透過選擇&#x200B;**收件者 — CRMID**&#x200B;作為&#x200B;**目標維度**，對象會鎖定每個個別預訂事件，而非僅鎖定收件者作為整體。 **[!UICONTROL 儲存客群]**&#x200B;活動接著會擷取以上設定檔，以便建立客群，讓近期購買者可重複使用。
 
-![](../assets/save-audience-4.png)
+![](../assets/save-audience-3.png)
