@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1b402e8c8a5dbff84dbd362181d6168fe85de6b5
+source-git-commit: 6091edd8413cdb9e86e982cb916594d9b609e3f7
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1647'
 ht-degree: 100%
 
 ---
@@ -321,13 +321,6 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 >id="ajo_journey_approve"
 >title="核准"
 >abstract="核准 (歷程)"
-
-<!-- ExD in email-->
-
->[!CONTEXTUALHELP]
->id="ajo_exd_decision_attribute"
->title="從目錄選取決定的屬性"
->abstract="會將決定屬性儲存在目錄的結構描述中。 從選取的目錄中，選取想在此處使用的屬性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_simulation"
