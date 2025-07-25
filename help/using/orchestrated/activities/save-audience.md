@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
+source-git-commit: c040ad5433d041f0f4f83fce46bc02662b77648f
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 52%
+source-wordcount: '480'
+ht-degree: 45%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 52%
 
 1. 輸入&#x200B;**[!UICONTROL 客群標籤]**，就能識別已儲存客群。
 
-1. 從您的行銷活動目標維度中選擇&#x200B;**[!UICONTROL 設定檔對應欄位{1&#x200B;}。]**
+1. 從您的行銷活動目標維度中選擇&#x200B;**[!UICONTROL 設定檔對應欄&#x200B;位]**。
 
    ➡️ [依照本頁面詳述的步驟建立您的行銷活動目標維度](../target-dimension.md)
 
@@ -66,7 +66,10 @@ ht-degree: 52%
 
 1. 儲存並發佈協調的行銷活動，以便完成設定。 這將能產生並儲存客群。
 
-之後，就可以在客群的詳細資料視圖中，使用儲存的客群內容，可以到&#x200B;**[!UICONTROL 客群]**&#x200B;選單那邊存取內容。
+接著，儲存的對象內容便可在對象的詳細資料檢視中使用，您可以從&#x200B;**[!UICONTROL 對象]**&#x200B;功能表存取該內容，或者在鎖定對象時選取內容，例如，使用&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動。
+
+![](../assets/save-audience-4.png)
+
 
 ## 範例 {#save-audience-example}
 

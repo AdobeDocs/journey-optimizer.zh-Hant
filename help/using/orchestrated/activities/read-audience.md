@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
+source-git-commit: c040ad5433d041f0f4f83fce46bc02662b77648f
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 38%
+source-wordcount: '426'
+ht-degree: 37%
 
 ---
 
@@ -61,11 +61,13 @@ ht-degree: 38%
 
    ![](../assets/read-audience-2.png)
 
-1. 選取用來唯一識別對象中設定檔的&#x200B;**[!UICONTROL 實體]**。
+1. 從您的行銷活動目標維度中選擇&#x200B;**[!UICONTROL 實體&#x200B;]**。
+
+   ➡️ [依照本頁面詳述的步驟建立您的行銷活動目標維度](../target-dimension.md)
 
    ![](../assets/read-audience-3.png)
 
-1. 選取&#x200B;**[!UICONTROL 新增設定檔屬性]**，以使用其他資料擴充您選取的對象。 產生的對象將包含收件者清單，每個收件者都包含選取的設定檔屬性。
+1. 選取&#x200B;**[!UICONTROL 新增屬性]**，以使用其他資料擴充您選取的對象。 產生的對象將包含收件者清單，每個收件者都包含選取的設定檔屬性。
 
 1. 選擇要新增至對象的&#x200B;**[!UICONTROL 屬性]**。
 
