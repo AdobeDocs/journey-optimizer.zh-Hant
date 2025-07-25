@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 12040f4c94f01d116051da360cad4ca34a26f8e2
 workflow-type: tm+mt
-source-wordcount: '1796'
-ht-degree: 12%
+source-wordcount: '1841'
+ht-degree: 15%
 
 ---
 
@@ -26,6 +26,16 @@ ht-degree: 12%
 >title="定義決策原則"
 >abstract="決策原則可讓您從決策引擎中挑選最佳項目，並將其傳遞給合適的客群。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="關於決策"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_policy"
+>title="決策原則"
+>abstract="決策原則可讓您先從決策引擎中挑選出最佳項目，再傳遞給所有客群。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_placements"
+>title="刊登"
+>abstract="產品建議放置環境決定從決策引擎傳回的項目出現在訊息中的位置。您可以在報告中追蹤他們在不同產品建議放置環境的效能。"
 
 決策原則是優惠方案的容器，可運用決策引擎，根據對象挑選最佳內容進行傳遞。
 
