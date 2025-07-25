@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 子網域， google， txt，記錄， gmail，傳遞能力
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 30%
@@ -29,7 +29,7 @@ TXT記錄是一種DNS記錄，用於提供關於網域的文字資訊，可以�
 
 >[!CAUTION]
 >
-> 只有在子網域具有&#x200B;**[!UICONTROL Success]**&#x200B;狀態時，才能執行此作業。 如需子網域狀態的詳細資訊，請參閱[本區段](about-subdomain-delegation.md#access-delegated-subdomains)。
+> 只有在子網域具有&#x200B;**[!UICONTROL Success]**&#x200B;狀態時，才能執行此作業。 如需子網域狀態的詳細資訊，請參閱[本區段](delegate-subdomain.md#access-delegated-subdomains)。
 
 若要將Google TXT記錄新增至子網域，請執行下列步驟：
 
