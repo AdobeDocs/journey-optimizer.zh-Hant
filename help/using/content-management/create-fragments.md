@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+source-git-commit: 82b1dd99e13b63a1b19b96211f4410a16dd82a9e
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 14%
+source-wordcount: '755'
+ht-degree: 13%
 
 ---
 
@@ -78,6 +78,10 @@ ht-degree: 14%
 * 針對運算式片段，利用[!DNL Journey Optimizer]個人化編輯器及其所有個人化和編寫功能，建置您的片段內容。 [了解更多](../personalization/personalization-build-expressions.md)
 
   ![](assets/fragment-expression-editor.png)
+
+>[!NOTE]
+>
+>在歷程或行銷活動中啟用追蹤時，如果您將連結新增至片段，且此片段用於電子郵件中，則會追蹤這些連結，例如訊息中包含的所有其他連結。 [進一步瞭解連結和追蹤](../email/message-tracking.md)
 
 當您的內容準備就緒時，請按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;按鈕。
 
