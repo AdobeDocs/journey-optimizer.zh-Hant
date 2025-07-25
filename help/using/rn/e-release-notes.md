@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 085a86b0869a10536300329acc27914f12be6d7b
+source-git-commit: 24c34fd35c03acf8e83bfb8a913ad7e57afd7b7b
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '948'
 ht-degree: 16%
 
 ---
@@ -45,9 +45,9 @@ ht-degree: 16%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer現在支援直接的WhatsApp傳訊，可順利整合至您的歷程和行銷活動，以改善收件者通訊和參與。</p>
+<p>Journey Optimizer現在支援直接的WhatsApp傳訊，可順利整合至您的歷程和行銷活動，以改善收件者通訊和參與。 此原生管道提供立即可用的WhatsApp範本整合、訊息預覽、個人化、傳遞報告、Webhook、選擇加入和選擇退出同意管理等功能。</p>
 <p>此功能先前在Beta中發行，現在可供所有環境使用（全面發佈）。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><img src="../whatsapp/assets/do-not-localize/WA-Animation.gif"/><p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
