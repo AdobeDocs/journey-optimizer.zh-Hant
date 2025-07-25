@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: d71dfb4f791c48997e448147b414fede49023b91
+source-git-commit: 78da5e017b5e3f39be1b613713f131d35260992b
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 5%
@@ -76,7 +76,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
 >title="傳入關鍵字類別"
->abstract="<br/><b>選擇加入</b>：當使用者訂閱時，會傳送您定義的自動回應。 <br/><b>選擇退出</b>：當使用者取消訂閱時，會傳送您定義的自動回應。 <br/><b>說明</b>：當使用者要求說明或支援時，傳送您定義的自動回應。 <br/><b>預設</b>：當沒有相符的關鍵字時，會傳送您的遞補自動回應。"
+>abstract="<b>選擇加入</b>：當使用者訂閱時，會傳送您定義的自動回應。 <br/><b>選擇退出</b>：當使用者取消訂閱時，會傳送您定義的自動回應。 <br/><b>說明</b>：當使用者要求說明或支援時，傳送您定義的自動回應。 <br/><b>預設</b>：當沒有相符的關鍵字時，會傳送您的遞補自動回應。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
