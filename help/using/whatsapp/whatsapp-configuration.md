@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 2e1f77da8354d793a2d3465790f5e4574eb27a14
+source-git-commit: d71dfb4f791c48997e448147b414fede49023b91
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '748'
 ht-degree: 5%
 
 ---
@@ -72,6 +72,26 @@ ht-degree: 5%
 建立和設定API認證後，您現在需要建立WhatsApp訊息的通道設定。 [了解更多](#whatsapp-configuration)
 
 ## 建立Webhook {#WhatsApp-webhook}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
+>title="傳入關鍵字類別"
+>abstract="<br/><b>選擇加入</b>：當使用者訂閱時，會傳送您定義的自動回應。 <br/><b>選擇退出</b>：當使用者取消訂閱時，會傳送您定義的自動回應。 <br/><b>說明</b>：當使用者要求說明或支援時，傳送您定義的自動回應。 <br/><b>預設</b>：當沒有相符的關鍵字時，會傳送您的遞補自動回應。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_inbound_keyword"
+>title="輸入您的關鍵字"
+>abstract= "You can define keywords to trigger specific auto-responses, such as for Opt-In, Opt-Out, Help, or Default, based on what users text. Keywords are not case-sensitive, e.g., "stop" and "STOP" are treated the same."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_webhook_url"
+>title=" 回呼URL"
+>abstract="此物件的驗證要求和webhook通知會傳送至指定的URL。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_verify_token"
+>title="驗證Token"
+>abstract="Meta在驗證程式期間回呼以確認及驗證回呼URL的Token。"
 
 >[!NOTE]
 >
