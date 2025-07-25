@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ffa407c225324b88fae5b8e6fba53343eb629785
+source-git-commit: 4ad1d76d81bf328c9229786ca0ea7594d5580710
 workflow-type: tm+mt
-source-wordcount: '2160'
-ht-degree: 63%
+source-wordcount: '2246'
+ht-degree: 66%
 
 ---
 
@@ -94,13 +94,14 @@ ht-degree: 63%
 <table>
 <thead>
 <tr>
-<th><strong>內容決定活動</strong><br/></th>
+<th><strong>歷程中的內容決策活動</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以透過歷程畫布中的專用內容決定活動，將個人化優惠方案納入您的歷程，並在歷程活動（包括條件和自訂動作）中使用。</p>
+<p>您目前可以透過歷程畫布中的專用內容決策活動，將個人化優惠方案納入歷程中，然後在歷程活動，包括條件和自訂動作中使用。</p>
+<img src="assets/do-not-localize/content-decision.gif">
 <p>之前以「限量」的名義發行，目前此功能所有環境都適用（一般可用性）。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -142,6 +143,7 @@ ht-degree: 63%
 <tr>
 <td>
 <p>歷程試運行是 Adobe Journey Optimizer 中的特殊歷程發佈模式，允許歷程從業人員使用真實的生產資料，即可測試歷程，不用聯絡實際客戶，或是更新設定檔資訊。此功能可協助歷程從業人員，針對歷程設計、客群目標市場選擇，累積信心，然後再將歷程發佈上線。</p>
+<img src="assets/do-not-localize/DryRun.gif">
 <p>之前以「限量」的名義發行，目前此功能所有環境都適用（一般可用性）。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -159,13 +161,14 @@ ht-degree: 63%
 <tbody>
 <tr>
 <td>
+<p>歷程和行銷活動清單中，目前只有提供行事曆視圖。 行事曆視圖讓您可以透過視覺化方式，呈現個別清單中的所有歷程，同時啟用行銷活動。</p>
 <p>此功能先前在「有限可用性」中提供，現在可供所有環境使用。 透過此「一般可用性」版本，功能包括：</p>
 <ul>
 <li>日期中導覽的設計改善</li>
 <li>能夠檢視草稿行銷活動（如果您已設定開始和結束日期）</li>
 <li>隱藏和顯示長時間執行行事曆專案的新設定</li>
 </ul>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<img src="assets/do-not-localize/calendar.gif">
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -175,12 +178,13 @@ ht-degree: 63%
 <table>
 <thead>
 <tr>
-<th><strong>歷程中的補充ID</strong><br/></th>
+<th><strong>歷程的補充ID</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
+<p>目前您可以使用輪廓 ID 和其他識別碼（例如訂購 ID、訂閱 ID 或處方 ID）來觸發歷程，即可允許同一設定檔同時出現在同一歷程中許多次。這能啟用某些情境，同時管理許多訂單或訂閱，每個執行個體還會依循自己的歷程路徑操作。</p>
 <p>以前在「有限可用性」中發佈，現在所有環境都可以在歷程中使用補充ID。 在此「一般可用性」版本中，功能現在包含對「讀取對象」歷程的支援。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -242,7 +246,7 @@ ht-degree: 63%
 
 **發行日期**：2025 年 6 月 18 日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 全新功能 {#25-06-features}
 
