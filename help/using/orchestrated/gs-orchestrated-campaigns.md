@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: c1013cd39dc1d85448e78e5406706a06fbc00de9
+source-git-commit: 0d6e3c082032b11b38f7d4b67da1e38756b5f101
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 18%
+source-wordcount: '628'
+ht-degree: 16%
 
 ---
 
@@ -55,7 +55,8 @@ Campaign協調流程圍繞四大支柱建立：
 <tr style="border: 0;">
 <td><img alt="隨選受眾" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>隨選受眾</b><br/>立即跨資料集查詢，以使用任何資料型別和維度的組合來建立受眾區段。</td></tr>
 <tr style="border: 0;">
-<td><img alt="多實體細分和傳送" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>多實體區段和傳送</b><br/>超越以人員為基礎的行銷活動 — 精準使用產品目錄、商店位置或服務資料等實體來鎖定目標。</td></tr>
+<td><img alt="多實體細分和傳送" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>多實體區段和傳送</b><br/>超越以人員為基礎的行銷活動 — 精準使用產品目錄、商店位置或服務資料等實體來鎖定目標。<br/><br/>
+支援多級傳送，其中每個設定檔和每個關聯的次要實體會傳送一條訊息。 這些次要實體可包括聯絡地址、預訂、訂閱、合約或其他連結的資料。 例如，這可讓行銷活動傳送至設定檔的所有已知地址，或為該設定檔相關聯的每個預訂傳送。</td></tr>
 <tr style="border: 0;">
 <td><img alt="預先傳送的可見度和精確度" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b>預先傳送可見度和精確度</b><br/>在啟動前取得精確的分段計數和完整的行銷活動範圍，以確保精確度和可信度。</td></tr>
 <tr style="border: 0;">
@@ -69,6 +70,8 @@ Campaign協調流程圍繞四大支柱建立：
 * **歷程** - 1到1個畫布，每個設定檔以自己的步調在不同步驟中行進。 每個客戶的狀態會保留在其內容中，以觸發即時動作。
 
 * **協調的行銷活動** — 不同於歷程，協調的行銷活動使用計算區段的批次畫布來運作。 所有設定檔都會同時處理。
+
+兩個畫布已針對各自的使用案例進行最佳化： Journey Canvas會發佈傾向於較長時間的歷程，而Campaign畫布是針對批次促銷活動的反複和增量執行而設計。
 
 ## 先決條件
 
