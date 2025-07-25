@@ -3,6 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 切換至深色模式
 description: 瞭解如何在電子郵件Designer中使用深色模式
+badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
@@ -11,10 +12,10 @@ keywords: 深色模式，電子郵件，顏色，編輯器
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 12b41a253693184e4e3d866f00e7d8b0a1e30ce3
+source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 9%
+source-wordcount: '1677'
+ht-degree: 10%
 
 ---
 
@@ -34,6 +35,10 @@ ht-degree: 9%
 >id="ac_edition_darkmode_preview"
 >title="切換至深色模式"
 >abstract="切換至深色模式，以預覽它在支援的電子郵件用戶端上的呈現方式。<br>警告：最終呈現結果取決於收件者的電子郵件用戶端。並非所有電子郵件用戶端都支援自訂深色模式。"
+
+>[!AVAILABILITY]
+>
+>此功能目前為 Beta 版本，僅供 Beta 版客戶使用。若要加入 Beta 版計畫，請聯絡 Adobe 代表。
 
 設計電子郵件時，[!DNL Journey Optimizer] [電子郵件Designer](get-started-email-design.md)可讓您切換至&#x200B;**[!UICONTROL 深色模式]**，您可在此定義特定的自訂設定。 當深色模式開啟時，支援的電子郵件使用者端會顯示您為此模式定義的設定。
 
@@ -91,9 +96,10 @@ ht-degree: 9%
 
 1. 從電子郵件Designer首頁，選取&#x200B;**[!UICONTROL 從草稿開始設計]**&#x200B;選項。 [了解更多](content-from-scratch.md)
 
-   >[!NOTE]
-   >
-   >如果您選取[電子郵件範本](use-email-templates.md)或套用[佈景主題](apply-email-themes.md)，目前可能無法切換到深色模式。
+<!--Should work with templates and themes, NOT for LP and fragments - but TBC with eng.
+    >[!NOTE]
+    >
+    >Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).-->
 
 1. 將[結構](content-from-scratch.md)和[內容元件](content-components.md)新增至您的內容。
 
@@ -104,12 +110,8 @@ ht-degree: 9%
 1. 預設深色模式預覽隨即顯示。
 
    ![](assets/dark-mode-default.png)
-<!--
-    >[!NOTE]
-    >
-    >Dark mode applies to all elements, except images and icons.-->
 
-依預設，電子郵件Designer深色模式預覽會將「全色反轉」色彩配置套用至影像和圖示以外的所有元素。<!--It fully inverts all colors for all the elements (texts, buttons, etc.)-->
+依預設，電子郵件Designer深色模式預覽會將「全色反轉」色彩配置套用至影像和圖示以外的所有元素。
 
 這表示它會偵測含有明暗元素的區域，並加以反轉，讓淺色背景變成深色，深色文字變成淺色，而深色背景變成淺色，淺色文字變成深色。
 
@@ -135,7 +137,7 @@ Here you can see that we have applied a different background, defined another im
 
 若要定義自訂深色模式設定，請遵循下列步驟。
 
-1. 請確定已在Designer電子郵件中啟用&#x200B;**[!UICONTROL 深色模式]**。 [了解作法](#preview-dark-mode)
+1. 請務必在電子郵件Designer中切換至&#x200B;**[!UICONTROL 深色模式]**&#x200B;預覽。 [了解作法](#preview-dark-mode)
 
 1. 編輯任何樣式色彩屬性，例如文字、背景、按鈕等。
 
