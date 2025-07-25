@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: c0f5ba3a8d5a361cdae3dd432ddbe54c5b79fe36
+source-git-commit: 68d47250c3239c0da1609367e5ab14f992a8898b
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 90%
+source-wordcount: '1232'
+ht-degree: 84%
 
 ---
 
@@ -57,9 +57,11 @@ ht-degree: 90%
 
    ![](assets/inventory-create.png)
 
-   1. 輸入行銷活動的名稱和說明。
+   1. 輸入行銷活動的&#x200B;**[!UICONTROL 名稱]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
-      <!--1. Merge policy-->
+   1. 為您的行銷活動選取&#x200B;**[!UICONTROL 合併原則]**。
+
+      在[!DNL Adobe Experience Platform]中，每個對象都與特定的合併原則繫結，該原則會定義如何將設定檔資訊合併以形成合併的設定檔。 當您在讀取對象活動中選取合併原則時，只有根據該合併原則的對象才可用。 依預設，系統會使用預設的合併原則，但您可以視需要變更它。 如需合併原則的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/overview){target="_blank"}。
 
    1. 使用&#x200B;**[!UICONTROL 標籤]**&#x200B;欄位將Adobe Experience Platform統一標籤指派給您的行銷活動。 這讓您可以輕鬆分類，改善協調行銷活動清單的搜尋。 [了解如何使用標籤](../start/search-filter-categorize.md#tags)
 
@@ -105,7 +107,7 @@ ht-degree: 90%
    * **[!UICONTROL 日期]**：選取應執行行銷活動的日期。
    * **[!UICONTROL 時間]**：選取應執行行銷活動的特定時間。
 
-   +++
++++
 
    +++每日
 
@@ -119,7 +121,7 @@ ht-degree: 90%
 
    * **[!UICONTROL 開始時間]**：定義行銷活動每天應執行的時間。
 
-   +++
++++
 
    +++一天幾次
 
@@ -128,7 +130,7 @@ ht-degree: 90%
    * **[!UICONTROL 選取的時數]**：選取行銷活動應執行的特定時間，並設定其每日週期 (在一週的每一天或某些天執行)。
    * **[!UICONTROL 定期]**：選擇每 n 分鐘或小時執行一次行銷活動。您也可以定義一天內允許執行的時間範圍。
 
-   +++
++++
 
    +++每週
 
@@ -139,7 +141,7 @@ ht-degree: 90%
    * **[!UICONTROL 每日週期]**：選擇一週中的特定日來執行 (例如，每個星期一和星期四)。
    * **[!UICONTROL 開始時間]**：設定行銷活動在選定日應該執行的時間。
 
-   +++
++++
 
    +++每月
 
@@ -155,7 +157,7 @@ ht-degree: 90%
 
    * **[!UICONTROL 開始時間]**：設定行銷活動應執行的時間。
 
-   +++
++++
 
 1. 使用&#x200B;**[!UICONTROL 有效期間]**&#x200B;設定來定義特定的開始和結束日期，將行銷活動的執行限制在有限的時間範圍內。
 

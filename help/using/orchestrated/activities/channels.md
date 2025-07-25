@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 2201cc8b9c0c7813c13156937e1cf319660c1039
+source-git-commit: 3c3ef1555c587b3e50e3b70596fbac98e87d414e
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 82%
+source-wordcount: '1213'
+ht-degree: 77%
 
 ---
 
@@ -101,25 +101,29 @@ UNUSED IDs in BJ
 
 使用&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤，選取訊息的頻道設定，再設定其他設定，例如追蹤、內容實驗或多語言內容。
 
-1. 建立頻道設定
+1. **選取通道設定**
 
    會由[系統管理員](../../start/path/administrator.md)定義設定。它包含所有用於傳送訊息的技術參數，如標頭參數、子網域、行動應用程式等等。[了解如何設定頻道設定](../../configuration/channel-surfaces.md)。
 
    ![顯示 [動作] 區段的影像](../assets/channel-actions.png)
 
-1. 追蹤參與度 (適用於電子郵件和簡訊)。
+1. **套用上限規則**
+
+   在&#x200B;**[!UICONTROL 規則集]**&#x200B;下拉式清單中，選取管道規則集以將上限規則套用至行銷活動。 運用管道規則集，可讓您根據通訊型別設定頻率上限，以防止訊息相似的客戶超載。 [學習如何使用規則集](../conflict-prioritization/rule-sets.md)
+
+1. **追蹤參與** （電子郵件和簡訊）
 
    使用&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段，追蹤收件者對電子郵件或簡訊傳遞的反應。 一旦執行行銷活動完畢，即可從行銷活動報告，存取追蹤結果。 [深入瞭解行銷活動報告](../../reports/campaign-global-report-cja.md)
 
-1. 啟用快速傳送模式 (主要針對推播)。
+1. **啟用快速傳遞模式** （推播）
 
    快速傳送模式是[!DNL Journey Optimizer]附加元件，允許透過行銷活動，迅速傳送大量推播訊息。 當您想要在行動電話上，傳送緊急推播警報時，例如傳送重大新聞給已安裝新聞頻道應用程式的使用者參考，如果對企業來說，延後傳遞訊息很重要，就可能會使用快速傳遞功能。 如需使用快速傳遞模式時的效能詳細資訊，就請參閱 [Adobe Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html)。
 
-1. 建立內容實驗
+1. **建立內容實驗**
 
    使用&#x200B;**[!UICONTROL 內容實驗]**&#x200B;區段，您就可以定義多重訊息處理，以便測量針對目標客群，執行哪種處理方式的效果最佳。 按一下 **[!UICONTROL [建立實驗]]** 按鈕，然後依照本區段詳述的步驟完成操作：[建立內容實驗](../../content-management/content-experiment.md)。
 
-1. 新增多語言內容。
+1. **新增多語言內容**
 
    使用&#x200B;**[!UICONTROL 語言]**&#x200B;區段，就能在行銷活動中，使用多語言建立內容。 若想這麼做，就請按一下 **[!UICONTROL [新增語言]]** 按鈕，然後選取指定 **[!UICONTROL [語言設定]]**。 本區段有提供如何設定、使用多語言功能的詳細資訊：[開始使用多語言內容](../../content-management/multilingual-gs.md)
 
