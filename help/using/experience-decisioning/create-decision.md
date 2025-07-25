@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 12040f4c94f01d116051da360cad4ca34a26f8e2
+source-git-commit: ddb0a03461f37c7217486cc7fb8f28df83a90e59
 workflow-type: tm+mt
-source-wordcount: '1841'
-ht-degree: 15%
+source-wordcount: '1865'
+ht-degree: 16%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 15%
 >id="ajo_exd_placements"
 >title="刊登"
 >abstract="產品建議放置環境決定從決策引擎傳回的項目出現在訊息中的位置。您可以在報告中追蹤他們在不同產品建議放置環境的效能。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_attribute"
+>title="從目錄選取決定的屬性"
+>abstract="會將決定屬性儲存在目錄的結構描述中。 從選取的目錄中，選取想在此處使用的屬性。"
 
 決策原則是優惠方案的容器，可運用決策引擎，根據對象挑選最佳內容進行傳遞。
 
