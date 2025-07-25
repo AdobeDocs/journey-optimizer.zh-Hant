@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 3c3ef1555c587b3e50e3b70596fbac98e87d414e
+source-git-commit: 00e7ede1d8576aeef411caffd9c4251a6957f0ad
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 77%
@@ -109,7 +109,7 @@ UNUSED IDs in BJ
 
 1. **套用上限規則**
 
-   在&#x200B;**[!UICONTROL 規則集]**&#x200B;下拉式清單中，選取管道規則集以將上限規則套用至行銷活動。 運用管道規則集，可讓您根據通訊型別設定頻率上限，以防止訊息相似的客戶超載。 [學習如何使用規則集](../conflict-prioritization/rule-sets.md)
+   在&#x200B;**[!UICONTROL 規則集]**&#x200B;下拉式清單中，選取管道規則集以將上限規則套用至行銷活動。 運用管道規則集，可讓您根據通訊型別設定頻率上限，以防止訊息相似的客戶超載。 [學習如何使用規則集](../../conflict-prioritization/rule-sets.md)
 
 1. **追蹤參與** （電子郵件和簡訊）
 
