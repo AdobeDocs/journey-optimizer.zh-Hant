@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: fa65d30fd55fa7f9392623352ff3c77192cc77dc
+source-git-commit: 9af09d694f58d169dcf4448562129ed0b37f35df
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '773'
 ht-degree: 4%
 
 ---
@@ -81,11 +81,11 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
 >title="輸入您的關鍵字"
->abstract="您可以根據使用者文字定義關鍵字，以觸發特定的自動回應，例如選擇加入、選擇退出、說明或預設。 關鍵字不區分大小寫，例如stop和STOP的處理方式相同。"
+>abstract="您可以定義關鍵字，以根據使用者文字觸發特定的自動回應。 關鍵字不區分大小寫，例如stop和STOP的處理方式相同。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
->title=" 回呼URL"
+>title="回呼URL"
 >abstract="此物件的驗證要求和webhook通知會傳送至指定的URL。"
 
 >[!CONTEXTUALHELP]
