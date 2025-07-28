@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 24c34fd35c03acf8e83bfb8a913ad7e57afd7b7b
+source-git-commit: 3896015ea63a1d25a16744940ffc622b977ff4ce
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '941'
 ht-degree: 16%
 
 ---
@@ -216,9 +216,8 @@ ht-degree: 16%
 
 - **歷程**
    - **歷程沙箱工具增強功能** — 使用封裝匯出和匯入功能，跨多個沙箱複製歷程時，現在也可使用下列功能：
-      - 選取目的地上的現有事件
       - 在歷程之外獨立複製事件
-      - 正在偵測欄位群組/資料來源關係，如果它們存在，則在目的地連結至它們，如果不存在，則建立它們。
+      - 偵測事件、欄位群組和資料來源，並在目的地連結這些專案（如果存在），在不存在的情況下建立它們。
   <!-- [Read more](../FILE.md) -->
 
 - **頻道 — InApp**
