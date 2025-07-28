@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: 82b1dd99e13b63a1b19b96211f4410a16dd82a9e
+source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 12%
@@ -21,7 +21,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->在歷程或促銷活動中啟用追蹤時，如果連結存在於儲存的片段中，而且此片段用於電子郵件中，則會追蹤這些連結，例如訊息中包含的所有其他連結。 [進一步瞭解連結和追蹤](../email/message-tracking.md)
+>在歷程或行銷活動中啟用追蹤時，如果連結存在於儲存的片段中，且如果此片段用於訊息中，則會追蹤這些連結，例如訊息中包含的所有其他連結。 [進一步瞭解連結和追蹤](../email/message-tracking.md)
 
 ## 另存為視覺片段 {#save-as-visual-fragment}
 
