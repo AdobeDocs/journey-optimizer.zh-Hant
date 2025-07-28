@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e74b600a12413883ee6796a9df2583c1adbdf94c
+source-git-commit: c0b72e046720a667841b83752fe8bba63e572e95
 workflow-type: tm+mt
 source-wordcount: '2342'
 ht-degree: 62%
@@ -133,7 +133,7 @@ ht-degree: 62%
 <li>並非所有電子郵件使用者端都支援自訂深色模式。 此外，某些電子郵件使用者端只會對收到的所有電子郵件套用自己的預設深色模式。 在這兩種情況下，您無法轉譯您在電子郵件Designer中定義的自訂設定。</li>
 </ul>
 <P>此功能目前為 Beta 版本，僅供 Beta 版客戶使用。若要加入 Beta 版計畫，請聯絡 Adobe 代表。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><img src="assets/do-not-localize/dark-mode.gif"/></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -251,7 +251,7 @@ ht-degree: 62%
 
 **發行日期**：2025 年 6 月 18 日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 全新功能 {#25-06-features}
 
