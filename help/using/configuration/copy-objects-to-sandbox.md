@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙箱，歷程，複製，環境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 4aaef970b76002c72e3c28f55078d96fdc3cd882
+source-git-commit: c90189d4b064e00bd2f2bdde67230aeb84dd97f6
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1595'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 您可以使用套件匯出和匯入功能，跨多個沙箱複製物件，例如歷程、自訂動作、內容範本或片段。 套件可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。
 
-本頁說明Journey Optimizer內容中的沙箱工具使用案例。 如需功能本身的詳細資訊，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hant)。
+本頁說明Journey Optimizer內容中的沙箱工具使用案例。 如需功能本身的詳細資訊，請參閱Adobe Experience Platform [沙箱工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}。
 
 >[!NOTE]
 >
@@ -28,12 +28,13 @@ ht-degree: 4%
 
 復製程式會透過來源沙箱和目標沙箱之間的套件匯出和匯入進行。 以下是從一個沙箱複製歷程到另一個沙箱的一般步驟：
 
-1. 在來源沙箱中新增要匯出為封裝的物件。
-1. 將套件匯出至目標沙箱。
+1. [在來源沙箱中新增要匯出為封裝的物件](#export)
+1. [發佈套件](#publish)
+1. [將套件匯入目標沙箱中](#import)
 
 ## 匯出的物件與最佳實務 {#objects}
 
-Journey Optimizer可將歷程、自訂動作、內容範本和片段匯出至另一個沙箱。 以下各節提供每種物件型別的資訊和最佳實務。
+Journey Optimizer可將歷程、自訂動作、內容範本、片段和其他物件匯出至另一個沙箱。 以下各節提供每種物件型別的資訊和最佳實務。
 
 ### 一般最佳實務 {#global}
 
@@ -43,26 +44,34 @@ Journey Optimizer可將歷程、自訂動作、內容範本和片段匯出至另
 
 * 登陸頁面目前不支援在沙箱之間移轉。 將歷程複製到另一個沙箱時，歷程中任何對登陸頁面的參考或電子郵件內容仍會指向原始（來源）沙箱登陸頁面ID。 移轉後，您必須手動更新歷程和電子郵件內容中的所有登陸頁面參考，以使用來自目標（目的地）沙箱的正確登陸頁面ID。 請參閱[建立和發佈登入頁面](../landing-pages/create-lp.md)。
 
++++ 歷程
 
-### 歷程 {#journeys}
+* **複製的相依性** — 在匯出歷程時，除了歷程本身，Journey Optimizer也會複製歷程所依賴的大部分物件：受眾、自訂動作、結構描述、事件和動作。 如需所複製物件的詳細資訊，請參閱Adobe Experience Platform [沙箱工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}。
 
-* 匯出歷程時，除了歷程本身，Journey Optimizer也會複製歷程所依賴的大部分物件：受眾、自訂動作、結構描述、事件和動作。 如需所複製物件的詳細資訊，請參閱此[區段](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hant#abobe-journey-optimizer-objects)。
+* **建議手動驗證** — 我們不保證所有連結的元素都會複製到目的地沙箱。 我們強烈建議您執行徹底檢查，例如在發佈歷程之前。 這可讓您識別任何可能遺失的物件。
 
-* 我們不保證所有連結的元素都會複製到目的地沙箱。 我們強烈建議您執行徹底檢查，例如在發佈歷程之前。 這可讓您識別任何可能遺失的物件。
+* **草稿模式與唯一性** — 目標沙箱中複製的物件是唯一的，並且沒有覆寫現有元素的風險。 歷程及歷程內的任何訊息都會以草稿模式帶入。 這可讓您在目標沙箱上發佈之前執行徹底驗證。
 
-* 目標沙箱中的複製物件是唯一的，沒有覆寫現有元素的風險。 歷程及歷程內的任何訊息都會以草稿模式帶入。 這可讓您在目標沙箱上發佈之前執行徹底驗證。
+* **中繼資料** — 復製程式只會複製歷程的相關中繼資料以及該歷程中的物件。 此程式不會複製任何設定檔或資料集資料。
 
-* 復製程式只會複製歷程的中繼資料以及該歷程中的物件。 此程式不會複製任何設定檔或資料集資料。
+* **自訂動作**
 
-### 自訂動作 {#custom-actions}
+   * 匯出自訂動作時，會複製URL設定和裝載引數。 然而，基於安全考量，驗證引數不會複製，而是以「在此處插入密碼」取代。 常數請求標題和查詢引數值也由「在此插入密碼」取代。
 
-* 匯出自訂動作時，會複製URL設定和裝載引數。 然而，基於安全考量，驗證引數不會複製，而是以「在此處插入密碼」取代。 常數請求標題和查詢引數值也由「在此插入密碼」取代。
+     這包括特殊用途的自訂動作([!DNL Adobe Campaign Standard]、[!DNL Campaign Classic]、[!DNL Marketo Engage])。
 
-  這包括特殊用途的自訂動作([!DNL Adobe Campaign Standard]、[!DNL Campaign Classic]、[!DNL Marketo Engage])。
+   * 將歷程複製到另一個沙箱時，如果您在匯入程式期間為自訂動作選取「使用現有」，則您選取的現有自訂動作必須與來源自訂動作相同（即相同的設定、引數等）。 否則，新的歷程副本將有無法在畫布中解決的錯誤。
 
-* 將歷程複製到另一個沙箱時，如果您在匯入程式期間為自訂動作選取「使用現有」，則您選取的現有自訂動作必須與來源自訂動作相同（即相同的設定、引數等）。 否則，新的歷程副本將有無法在畫布中解決的錯誤。
+<!--* **Data sources, field groups and events** - When copying a journey that uses events, data sources, or field groups, the import process automatically checks whether components with the same name and type already exist in the target sandbox.
 
-### 行銷活動 {#campaigns}
+   * If a match is found, the existing components in the target sandbox are reused by the imported journey.
+   * If no match is found, the system creates new components.
+
+   This ensures that journeys relying on these elements remain functional after import, with minimal manual adjustment.
+-->
++++
+
++++ 行銷活動
 
 行銷活動會連同與輪廓、對象、結構描述、內嵌訊息以及從屬物件相關的所有項目一起複製。 但是，下列專案&#x200B;**不是**&#x200B;已複製：
 
@@ -77,15 +86,9 @@ Journey Optimizer可將歷程、自訂動作、內容範本和片段匯出至另
 * **實驗變體和設定**：實驗變體和設定包含在行銷活動復製程式中。 匯入後，在目標沙箱中驗證這些設定。
 * **整合式決策**：決策原則與決策專案支援匯出與匯入。 確保決策相關的相依性在目標沙箱中正確對應。
 
-### 內容範本 {#content-templates}
++++
 
-* 匯出內容範本時，所有巢狀片段也會一併複製。
-
-* 匯出內容範本有時會導致片段重複。 例如，如果兩個範本共用相同的片段並且在不同的套件中複製，則兩個範本都需要在目標沙箱中重複使用相同的片段。 若要避免重複，請在匯入過程中選取「使用現有」選項。 [瞭解如何匯入套件](#import)
-
-* 若要進一步避免重複，建議匯出單一套件中的內容範本。 這可確保系統有效率地管理重複資料刪除。
-
-### 決策 {#decisioning}
++++ 決策
 
 * 在複製決定物件之前，以下物件必須存在於目的地沙箱中：
 
@@ -95,15 +98,41 @@ Journey Optimizer可將歷程、自訂動作、內容範本和片段匯出至另
 
 * 目前不支援使用AI模型排名公式的沙箱複製。
 
+* 複製行銷活動時，不會自動複製決定專案（優惠專案）。 請務必使用「新增至封裝」選項來個別複製它們。
+
+* 如果決定原則具有選擇策略，則必須單獨新增決定專案。 如果有手動/備援決策專案，就會自動新增為直接相依性。
+
 * 複製決定實體時，請務必在&#x200B;**任何其他物件之前複製決定專案**。 例如，如果您先複製集合，而新沙箱中沒有選件，則該新集合將保持空白。
 
-### 片段 {#fragments}
+* 複製具有相依性的實體時（例如，架構、區段），按一下實體的「新建」以取消選取它，並顯示相依人工因素的「使用現有」選項。 其他相依性可能需要在階層中更進一步重複此步驟。
+
+  範例：匯入促銷活動時，若要在規則中重複使用資料流綱要，請按一下DECISIONING_STRATEGY的「新建」，然後在DECISIONING_RULES上按一下，以顯示資料流綱要的「使用現有」選項。
+
+* 對於相依於資料流內容結構描述的實體，請確保資料流已預先建立，並為該資料流選取現有結構描述。
+
+* 如果您在匯入時直接按一下「完成」，則會重新建立所有相依性。
+
++++
+
++++ 內容範本
+
+* 匯出內容範本時，所有巢狀片段也會一併複製。
+
+* 匯出內容範本有時會導致片段重複。 例如，如果兩個範本共用相同的片段並且在不同的套件中複製，則兩個範本都需要在目標沙箱中重複使用相同的片段。 若要避免重複，請在匯入過程中選取「使用現有」選項。 [瞭解如何匯入套件](#import)
+
+* 若要進一步避免重複，建議匯出單一套件中的內容範本。 這可確保系統有效率地管理重複資料刪除。
+
++++
+
++++ 片段
 
 * 片段可以有多個狀態，例如即時、草稿和即時草稿。 匯出片段時，其最新的草稿狀態會複製到目標沙箱。
 
 * 匯出片段時，也會一併複製所有巢狀片段。
 
-## 將物件新增為封裝{#export}
++++
+
+## 將物件新增為封裝 {#export}
 
 若要將物件複製到另一個沙箱，您首先需要將其新增為來源沙箱中的套件。 請依照下列步驟操作：
 
@@ -119,10 +148,6 @@ Journey Optimizer可將歷程、自訂動作、內容範本和片段匯出至另
    * **建立新封裝**：輸入封裝名稱。 您也可以新增說明。
 
 1. 重複這些步驟，以新增所有要與封裝一起匯出的物件。
-
->[!NOTE]
->
->除了歷程本身外，對於歷程匯出，Journey Optimizer也會複製歷程所依賴的大部分物件：對象、結構描述、事件和動作。 如需歷程匯出的詳細資訊，請參閱[本節](../building-journeys/copy-to-sandbox.md)。
 
 ## 發佈要匯出的套件 {#publish}
 
