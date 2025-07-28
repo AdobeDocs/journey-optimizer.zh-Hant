@@ -10,7 +10,7 @@ level: Experienced
 keywords: 重試，退回，軟，已忽略，硬，最佳化器，錯誤
 hide: true
 hidefromtoc: true
-source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
+source-git-commit: 817f7c88bfc2b40a7ce39575b4ad02fb372d429d
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 10%
@@ -18,7 +18,7 @@ ht-degree: 10%
 ---
 
 
-# 電子郵件錯誤型別
+# 電子郵件錯誤型別 {#email-error-types}
 
 傳送失敗的可能原因有多種。 下表詳細說明傳送包含[!DNL Journey Optimizer]的電子郵件傳遞時可能發生的所有錯誤，以及其說明和錯誤型別。
 
