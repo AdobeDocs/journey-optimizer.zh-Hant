@@ -113,7 +113,7 @@ ht-degree: 95%
    | 類似 | 與「包含」運算子類似，它可讓您在值中插入 % 萬用字元。 | 姓氏 (@lastName) 類似「Jon%s」。萬用字元可當做「鬼牌」來尋找類似「Jones」的名字。 |
    | 不類似 | 與「包含」運算子類似，它可讓您在值中插入 % 萬用字元。 | 姓氏 (@lastName) 不類似「Smi%h」。不會傳回姓氏為「Smith」的收件者。 |
 
-+++
+   +++
 
 1. 在「**值**」欄位中，定義預期的值。您也可以使用運算式編輯器，以使用資料庫和協助程式函式的欄位，手動定義運算式。若要這麼做，請按一下「![顯示運算式編輯器圖示的影像](assets/do-not-localize/rule-builder-icon-editor.svg)」圖示。[了解如何編輯運算式](../orchestrated/edit-expressions.md)
 
@@ -123,7 +123,7 @@ ht-degree: 95%
 
    ![顯示預設集選項的影像](assets/rule-builder-attribute-preset.png)
 
-+++
+   +++
 
 ### 連結表格的自訂條件 (1-1 和 1-N 連結){#links}
 
