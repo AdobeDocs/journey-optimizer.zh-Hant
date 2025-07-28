@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 66e5d12e6d262014db5c7eb7603f678296591301
+source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1788'
 ht-degree: 15%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 15%
 >id="ajo_exd_items"
 >title="管理決定項目"
 >abstract="Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您可以將其建立並組織到集中式目錄和集合中。目前，所有建立的決定項目都合併在一個「產品建議」目錄中。在此畫面中，您還可以使用&#x200B;**編輯結構描述**&#x200B;按鈕來存取目錄的結構描述，並為您的決定項目建立自訂屬性。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=zh-Hant" text="設定項目目錄"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="設定項目目錄"
 
 Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您可以將其建立並組織到集中式目錄和集合中。這些屬性由標準和自訂屬性組成，旨在精確符合您的需求。 此外，它們納入設定檔限制，可讓您定義決策專案可顯示給誰。
 
@@ -38,7 +38,7 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >id="ajo_exd_item_custom_attributes"
 >title="定義自訂屬性"
 >abstract="自訂屬性是根據您的需求訂製並且可以指派給決定項目的特定屬性。 它們是在決定項目的目錄結構描述中建立的。 只有當您已在目錄結構描述中新增至少一個自訂屬性時，才會顯示此區段。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=zh-Hant" text="設定項目目錄"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="設定項目目錄"
 
 首先定義決定專案的標準和自訂屬性：
 
@@ -129,11 +129,11 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 
 1. 在&#x200B;**[!UICONTROL 重設上限頻率]**&#x200B;下拉式清單中，設定上限計數器的重設頻率。 若要這麼做，請定義盤點的期間（每日、每週或每月），並輸入您選擇的天數/周數/月數。 例如，如果您希望每兩週重設一次上限計數，請從對應的下拉式清單中選取&#x200B;**[!UICONTROL 每週]**，然後在另一個欄位中輸入&#x200B;**2**。
 
-   >[!NOTE]
-   >
-   >頻率上限計數器重設會在您定義的當天上午&#x200B;**12UTC**&#x200B;發生，或在一週/月的第一天發生（如適用）。 周開始日是&#x200B;**星期日**。 您選擇的任何期間不能超過&#x200B;**2年** （即對應的月數、周數或天數）。
-   >
-   >發佈決定專案後，您將無法變更您為頻率選取的時間期間（每月、每週或每日）。 如果專案具有&#x200B;**[!UICONTROL 草稿]**&#x200B;狀態，而且之前從未發佈並啟用頻率限定，您仍可以編輯頻率限定。
+   * 頻率上限計數器重設會在您定義的當天上午&#x200B;**12UTC**&#x200B;發生，或在一週/月的第一天發生（如適用）。 周開始日是&#x200B;**星期日**。 您選擇的任何期間不能超過&#x200B;**2年** （即對應的月數、周數或天數）。
+
+   * 發佈決定專案後，您將無法變更您為頻率選取的時間期間（每月、每週或每日）。 如果專案具有&#x200B;**[!UICONTROL 草稿]**&#x200B;狀態，而且之前從未發佈並啟用頻率限定，您仍可以編輯頻率限定。
+
+   * 無論是在核准決定專案或建立上限時（取兩者最後發生者），將事件計入頻率上限限制之前，最多可能有15分鐘的緩衝時間。
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以確認建立上限規則。 您最多可以為單一決定專案建立10個規則。 若要這麼做，請按一下&#x200B;**[!UICONTROL 建立上限]**&#x200B;按鈕，並重複上述步驟。
 

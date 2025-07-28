@@ -7,9 +7,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
 workflow-type: tm+mt
-source-wordcount: '2718'
+source-wordcount: '2752'
 ht-degree: 15%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 15%
 
    ![](../assets/offer-capping.png)
 
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以確認您定義的所有限制。
+1. 按一下[下一步]****&#x200B;以確認您定義的所有限制。
 
 例如，如果您設定下列限制：
 
@@ -87,7 +87,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->在[本節](#segments-vs-decision-rules)中進一步瞭解如何使用&#x200B;**對象**&#x200B;與&#x200B;**決定規則**。
+>在&#x200B;**本節**&#x200B;中進一步瞭解如何使用&#x200B;**對象**&#x200B;與[決定規則](#segments-vs-decision-rules)。
 
 * 依預設，會選取&#x200B;**[!UICONTROL 所有訪客]**&#x200B;選項，這表示任何設定檔都符合呈現優惠方案的資格。
 
@@ -105,7 +105,7 @@ ht-degree: 15%
 
   >[!CAUTION]
   >
-  >[!DNL Journey Optimizer]目前不支援事件型優惠。 如果您根據[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hant#events){target="_blank"}建立決定規則，則無法在優惠方案中使用它。
+  >[!DNL Journey Optimizer]目前不支援事件型優惠。 如果您根據[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}建立決定規則，則無法在優惠方案中使用它。
 
 當您選取對象或決定規則時，您可以檢視有關預估合格設定檔的資訊。 按一下&#x200B;**[!UICONTROL 重新整理]**&#x200B;以更新資料。
 
@@ -254,11 +254,11 @@ ht-degree: 15%
 
 ![](../assets/offer-capping-frequency.png)
 
->[!NOTE]
->
->頻率上限計數器重設會在您定義的當天上午&#x200B;**12UTC**&#x200B;發生，或在一週/月的第一天發生（如適用）。 周開始日是&#x200B;**星期日**。 您選擇的任何期間不能超過&#x200B;**2年** （即對應的月數、周數或天數）。
->
->發佈優惠方案後，您將無法變更您為頻率選取的時間期間（每月、每週或每日）。 如果優惠方案具有&#x200B;**[!UICONTROL 草稿]**&#x200B;狀態，而且之前從未發佈並啟用頻率限定，您仍可編輯頻率限定。
+* 頻率上限計數器重設會在您定義的當天上午&#x200B;**12UTC**&#x200B;發生，或在一週/月的第一天發生（如適用）。 周開始日是&#x200B;**星期日**。 您選擇的任何期間不能超過&#x200B;**2年** （即對應的月數、周數或天數）。
+
+* 發佈優惠方案後，您將無法變更您為頻率選取的時間期間（每月、每週或每日）。 如果優惠方案具有&#x200B;**[!UICONTROL 草稿]**&#x200B;狀態，而且之前從未發佈並啟用頻率限定，您仍可編輯頻率限定。
+
+* 無論是在核准優惠還是建立上限（以最後發生者為準）時，將事件計入頻率上限限制之前，最多可能有15分鐘的緩衝時間。
 
 +++ **必讀：頻率上限與決定管理API**
 
@@ -308,7 +308,7 @@ ht-degree: 15%
 
 變更優惠方案的日期時，您必須謹慎進行，因為如果符合以下條件，這可能會對上限產生影響：
 
-* 優惠方案已核准[&#128279;](#review)。
+* 優惠方案已核准[](#review)。
 * [上限](#capping)已套用至選件。
 * 上限是按設定檔定義的。
 
