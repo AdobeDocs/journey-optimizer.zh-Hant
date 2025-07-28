@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 隱藏，清單，退信，電子郵件，最佳化工具，隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1adf4db1e76645b2c369b39d54ef97aff5be963d
+source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1600'
 ht-degree: 22%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 22%
 
 | 原因 | 說明 | 類別 |
 | --- | --- | --- |
-| **[!UICONTROL 無效的收件者]** | 收件者無效或不存在。 | 硬退回 |
+| **[!UICONTROL 無效的收件者]** | 收件者的地址無效或不存在。 | 硬退回 |
 | **[!UICONTROL 軟退信]** | 訊息因本表中列出的軟錯誤以外的其他原因而軟跳出，例如當傳送超過ISP建議的允許速率時。 | 軟退回 |
 | **[!UICONTROL DNS失敗]** | 由於DNS失敗，郵件已退回。 | 軟退回 |
 | **[!UICONTROL 郵箱已滿]** | 由於收件者的信箱已滿且無法接受更多郵件，郵件已退回。 | 軟退回 |
