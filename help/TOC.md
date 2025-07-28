@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 19f843590796e84b050b32d0c379577234c1efbc
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '2589'
 ht-degree: 95%
@@ -201,17 +201,17 @@ ht-degree: 95%
       + [檢閱及啟動行銷活動](using/campaigns/review-activate-api-triggered-campaign.md)
       + [觸發行銷活動執行](using/campaigns/trigger-campaigns.md)
    + 協調的行銷活動 {#orchestrated-campaigns}
-      + [開始使用協調行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
+      + [開始使用協調的行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
       + 管理關聯式結構描述和資料集 {#schemas-datasets}
          + [開始使用結構描述和資料集](using/orchestrated/gs-schemas.md)
          + [手動結構描述](using/orchestrated/manual-schema.md)
          + [檔案上傳結構描述](using/orchestrated/file-upload-schema.md)
          + [擷取資料](using/orchestrated/ingest-data.md)
-      + [存取並管理協調的行銷活動](using/orchestrated/access-manage-orchestrated-campaigns.md)
+      + [存取及管理協調的行銷活動](using/orchestrated/access-manage-orchestrated-campaigns.md)
       + [建立目標維度](using/orchestrated/target-dimension.md)
       + [護欄與限制](using/orchestrated/guardrails.md)
-      + 首次投放的協調行銷活動{#launch}
-         + [建立協調的行銷活動的重要步驟](using/orchestrated/gs-campaign-creation.md)
+      + 啟動您的第一個協調行銷活動{#launch}
+         + [建立協調行銷活動的重要步驟](using/orchestrated/gs-campaign-creation.md)
          + [建立並安排行銷活動的時間](using/orchestrated/create-orchestrated-campaign.md)
          + [協調活動](using/orchestrated/orchestrate-activities.md)
          + [開始並監視行銷活動](using/orchestrated/start-monitor-campaigns.md)

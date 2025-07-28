@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用分割活動
-description: 了解如何在協調的行銷活動中使用分割活動
+description: 瞭解如何在協調的行銷活動中使用分割活動
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 95%
+ht-degree: 81%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 +++ 目錄
 
-| 歡迎使用協調行銷活動 | 首次投放的協調行銷活動 | 查詢資料庫 | 協調行銷活動 |
+| 歡迎使用協調的行銷活動 | 啟動您的第一個協調行銷活動 | 查詢資料庫 | 協調行銷活動 |
 |---|---|---|---|
 | [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>建立和管理關聯式結構描述和資料集：</br> <ul><li>[開始使用結構描述和資料集](../gs-schemas.md)</li><li>[手動結構描述](../manual-schema.md)</li><li>[檔案上傳結構描述](../file-upload-schema.md)</li><li>[擷取資料](../ingest-data.md)</li></ul>[存取及管理協調的行銷活動](../access-manage-orchestrated-campaigns.md) | [建立協調行銷活動的關鍵步驟](../gs-campaign-creation.md)<br/><br/>[建立並排程行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用規則產生器](../orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md)<br/><br/>[重定向](../retarget.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/>[同時加入](and-join.md) - [建立客群](build-audience.md) - [變更維度](change-dimension.md) - [頻道活動](channels.md) - [合併](combine.md) - [重複資料刪除](deduplication.md) - [擴充](enrichment.md) - [分支](fork.md) - [調和](reconciliation.md) - [儲存客群](save-audience.md) - <b>[分割](split.md)</b> - [等待](wait.md) |
 
@@ -50,7 +50,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="分割活動的區段"
->abstract="依需求新增任意數量的子集，將傳入的群體進行細分。<br/></br>執行&#x200B;**分割** 活動時，系統會依照子集新增至活動的順序，將群體細分成不同的子集。在開始協調的行銷活動之前，請使用箭頭按鈕，確保按照符合需求的順序排列子集。"
+>abstract="依需求新增任意數量的子集，將傳入的群體進行細分。<br/></br>執行&#x200B;**分割** 活動時，系統會依照子集新增至活動的順序，將群體細分成不同的子集。在開始您的「協調流程」行銷活動之前，請確定您已使用箭頭按鈕，以符合需求的順序訂購子集。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
@@ -89,7 +89,7 @@ ht-degree: 95%
 
 請按照以下步驟設定&#x200B;**[!UICONTROL 分割]**&#x200B;活動：
 
-1. 在您協調的行銷活動中新增&#x200B;**[!UICONTROL 分隔]**&#x200B;活動。
+1. 將&#x200B;**[!UICONTROL 分割]**&#x200B;活動新增至您的協調行銷活動。
 
 1. 活動設定面板隨即開啟，其中包含預設子集。按一下「**[!UICONTROL 新增區段]**」按鈕，新增所需數量的子集，依此來分割傳入群體。
 
@@ -99,9 +99,9 @@ ht-degree: 95%
    >
    >**分割**&#x200B;活動會以新增子集的順序處理子集。例如，如果第一個子集擷取到群體的70%，則下一個子集會將其標準套用至剩餘的 30%。
    >
-   >在執行協調的行銷活動之前，請確定子集已依預期排序。使用箭頭按鈕來調整其位置。
+   >在執行您的「協調流程」行銷活動之前，請確定子集已依預期排序。 使用箭頭按鈕來調整其位置。
 
-1. 新增子集後，活動將顯示與子集一樣多的輸出轉變。我們強烈建議變更每個子集的標籤，以便輕鬆在協調的行銷活動畫布中識別各子集。
+1. 新增子集後，活動將顯示與子集一樣多的輸出轉變。我們強烈建議變更每個子集的標籤，以便在協調的行銷活動畫布中輕鬆識別它們。
 
 1. 為每個子集設定篩選器：
 
@@ -127,7 +127,7 @@ ht-degree: 95%
 
    * **如果已核取**，當設定檔符合每個設定檔的標準時，則可將其包含在多個子集中。
 
-該活動現已完成設定。在協調的行銷活動執行時，系統會依照子集新增至活動的順序，將群體分割到不同的子集。
+該活動現已完成設定。在協調的行銷活動執行中，母體將依照其加入活動的順序，分割成不同的子集。
 
 ## 範例{#split-example}
 

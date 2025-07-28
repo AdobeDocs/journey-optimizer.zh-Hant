@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '1168'
-ht-degree: 77%
+ht-degree: 57%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="電子郵件活動"
->abstract="電子郵件活動讓您在協調式行銷活動中傳送電子郵件，單次訊息和定期訊息兩者均適用。此活動會自動執行傳送電子郵件至相同協調式行銷活動內計算的某個目標的流程。您可以將管道活動結合至多步驟行銷活動畫布中，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
+>abstract="電子郵件活動可讓您在協調的行銷活動中傳送電子郵件，包括單次和循環訊息。 它有助於自動處理傳送電子郵件至相同協調行銷活動中計算的目標。 您可以將管道活動結合至多步驟行銷活動畫布中，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="簡訊活動"
->abstract="簡訊活動讓您在協調式行銷活動中傳送簡訊，單次訊息和定期訊息兩者均適用。此活動會自動執行傳送簡訊至相同協調式行銷活動內計算的某個目標的流程。您可以將管道活動與多步驟行銷活動版面結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
+>abstract="簡訊活動可讓您在協調的行銷活動中傳送簡訊，包括一次性訊息和循環訊息。 它有助於自動處理傳送SMS至在相同協調的行銷活動中計算的目標。 您可以將管道活動與多步驟行銷活動版面結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push"
 >title="推播活動"
->abstract="推播活動讓您在協調式行銷活動當中傳送推播。推播活動可以傳送單次和定期的協調式行銷活動訊息，自動傳送推播至相同協調式行銷活動內預先定義的目標。您可以將管道活動與行銷活動版面結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
+>abstract="推播活動可讓您在協調的行銷活動中傳送推播通知。 它可讓您同時傳送一次性與循環性協調行銷活動，將傳送推播通知自動傳送至相同協調行銷活動中的預先定義目標。 您可以將管道活動與行銷活動版面結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
 
 <!--
 UNUSED IDs in BJ
@@ -37,24 +37,24 @@ UNUSED IDs in BJ
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
 >title="Push iOS activity"
->abstract="The Push iOS activity let you send iOS Push notifications as part of your orchestrated campaign. It enables the delivery of both one-time and recurring orchestrated campaigns, automating the sending iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+>abstract="The Push iOS activity let you send iOS Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring Orchestrated campaigns, automating the sending iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
 >title="Push Android activity"
->abstract="The Push Android activity ket you send Android Push notifications as part of your orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending Android Push notifications to a predefined target within the same orchestrated campaign. You can combine channel activities into the orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+>abstract="The Push Android activity ket you send Android Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending Android Push notifications to a predefined target within the same Orchestrated campaign. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="直接郵件活動"
->abstract="直接郵件活動讓您在協調式行銷活動中傳送直接郵件更加方便，單次訊息和定期訊息兩者均適用。此類活動會自動執行產生直接郵件提供者所需之摘取檔案的流程。您可以將管道活動與協調式行銷活動版面結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
+>abstract="直接郵件活動可促進在協調的行銷活動中進行直接郵件傳送，無論是單次還是循環訊息。 此類活動會自動執行產生直接郵件提供者所需之摘取檔案的流程。您可以將頻道活動結合到協調的行銷活動畫布中，以建立跨頻道行銷活動，其可根據客戶行為和資料觸發動作。"
 
 
 +++ 目錄
 
-| 歡迎使用協調行銷活動 | 首次投放的協調行銷活動 | 查詢資料庫 | 協調行銷活動 |
+| 歡迎使用協調的行銷活動 | 啟動您的第一個協調行銷活動 | 查詢資料庫 | 協調行銷活動 |
 |---|---|---|---|
 | [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>建立和管理關聯式結構描述和資料集：</br> <ul><li>[開始使用結構描述和資料集](../gs-schemas.md)</li><li>[手動結構描述](../manual-schema.md)</li><li>[檔案上傳結構描述](../file-upload-schema.md)</li><li>[擷取資料](../ingest-data.md)</li></ul>[存取及管理協調的行銷活動](../access-manage-orchestrated-campaigns.md) | [建立協調行銷活動的關鍵步驟](../gs-campaign-creation.md)<br/><br/>[建立並排程行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用規則產生器](../orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md)<br/><br/>[重定向](../retarget.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/>[同時加入](and-join.md) - [建立客群](build-audience.md) - [變更維度](change-dimension.md) - <b>[頻道活動](channels.md)</b> - [合併](combine.md) - [重複資料刪除](deduplication.md) - [擴充](enrichment.md) - [分支](fork.md) - [調和](reconciliation.md) - [儲存客群](save-audience.md) - [分割](split.md) - [等待](wait.md) |
 
@@ -72,7 +72,7 @@ UNUSED IDs in BJ
 
 >[!ENDSHADEBOX]
 
-[!DNL Adobe Journey Optimizer]可讓您跨頻道，透過電子郵件、簡訊和推播通知，自動執行行銷活動。 您可以結合頻道活動與協調行銷活動版面，即可根據客戶行為和資料觸發動作，建立跨頻道行銷活動。
+[!DNL Adobe Journey Optimizer]可讓您跨頻道，透過電子郵件、簡訊和推播通知，自動執行行銷活動。 您可以將這些頻道活動結合到行銷活動畫布中，以建立跨頻道協調的行銷活動，其可根據客戶行為和資料觸發動作。
 
 例如：
 * 透過電子郵件、簡訊和推播等方式，傳送迎賓系列。
@@ -153,7 +153,7 @@ UNUSED IDs in BJ
 
 * **[!UICONTROL Target屬性]** （特定於協調的行銷活動）
 
-  此資料夾是協調行銷活動的唯一資料夾。 它包含直接在行銷活動畫布中計算的屬性。 它包含兩個子資料夾：
+  此資料夾是協調行銷活動專屬的資料夾。 它包含直接在行銷活動畫布中計算的屬性。 它包含兩個子資料夾：
 
    * **`<Targeting dimension>`** （例如「收件者」、「購買」）：包含與行銷活動所定位的維度相關的所有屬性。
 
@@ -173,14 +173,14 @@ Once the content is created, use the **[!UICONTROL Simulate Content]** button to
 
 ## 後續步驟 {#next}
 
-當訊息內容已就緒時，請使用 **[!UICONTROL [上一步]]** 箭頭，返回協調行銷活動。 然後，您就可以在畫布中完成活動協調流程，然後發佈行銷活動，以便開始傳送訊息。 [瞭解如何開始並監視協調行銷活動](../start-monitor-campaigns.md)
+當訊息內容準備就緒時，請使用&#x200B;**[!UICONTROL 上一步]**&#x200B;箭號導覽回到您的協調行銷活動。 然後，您就可以在畫布中完成活動協調流程，然後發佈行銷活動，以便開始傳送訊息。 [瞭解如何開始及監視協調的行銷活動](../start-monitor-campaigns.md)
 
 ![顯示返回按鈕的影像](../assets/channel-back.png)
 
 <!--
 ## Examples {#cross-channel-workflow-sample}
 
-Here is a cross-channel orchestrated campaign example with a segmentation and two deliveries. The orchestrated campaign targets all customers who live in Paris and who are interested in coffee machines. Among this population, an email is sent to the regular customers and an SMS is sent to the VIP clients.
+Here is a cross-channel Orchestrated campaign example with a segmentation and two deliveries. The Orchestrated campaign targets all customers who live in Paris and who are interested in coffee machines. Among this population, an email is sent to the regular customers and an SMS is sent to the VIP clients.
 
 ![](../assets/workflow-channel-example.png)
 
@@ -194,7 +194,7 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-<!--You can also create a recurring orchestrated campaign to send a personalized SMS every first day of the month at 8 PM to all customers living in Paris.
+<!--You can also create a recurring Orchestrated campaign to send a personalized SMS every first day of the month at 8 PM to all customers living in Paris.
 
 ![](../assets/workflow-channel-example2.png)-->
 

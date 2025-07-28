@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6091edd8413cdb9e86e982cb916594d9b609e3f7
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '1647'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -240,7 +240,7 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
 >title="善用多實體資料"
->abstract="瞭解協調的行銷活動如何運用相關資料集，讓資料更為豐富，以便進行分段和個人化"
+>abstract="瞭解協調的行銷活動如何運用關聯式資料集，讓資料更為豐富，以便進行細分和個人化"
 
 
 

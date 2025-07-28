@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 開始使用協調行銷活動
-description: 了解如何開始使用協調行銷活動
+title: 開始使用協調的行銷活動
+description: 瞭解如何從協調的行銷活動開始
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 0d6e3c082032b11b38f7d4b67da1e38756b5f101
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '628'
-ht-degree: 16%
+ht-degree: 11%
 
 ---
 
-# 開始使用協調行銷活動 {#orchestrated-camp}
+# 開始使用協調的行銷活動 {#orchestrated-camp}
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
@@ -23,7 +23,7 @@ ht-degree: 16%
 
 +++ 目錄
 
-| 歡迎使用協調行銷活動 | 首次投放的協調行銷活動 | 查詢資料庫 | 協調行銷活動 |
+| 歡迎使用協調的行銷活動 | 啟動您的第一個協調行銷活動 | 查詢資料庫 | 協調行銷活動 |
 |---|---|---|---|
 | <b>[開始使用協調的行銷活動](gs-orchestrated-campaigns.md)</b><br/><br/>建立和管理關聯式結構描述和資料集：</br> <ul><li>[開始使用結構描述和資料集](gs-schemas.md)</li><li>[手動結構描述](manual-schema.md)</li><li>[檔案上傳結構描述](file-upload-schema.md)</li><li>[擷取資料](ingest-data.md)</li></ul>[存取及管理協調的行銷活動](access-manage-orchestrated-campaigns.md)<br/><br/>[建立協調行銷活動的重要步驟](gs-campaign-creation.md) | [建立並排程行銷活動](create-orchestrated-campaign.md)<br/><br/>[協調活動](orchestrate-activities.md)<br/><br/>[開始並監視行銷活動](start-monitor-campaigns.md)<br/><br/>[報告](reporting-campaigns.md) | [使用規則產生器](orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](build-query.md)<br/><br/>[編輯運算式](edit-expressions.md)<br/><br/>[重定向](retarget.md) | [開始使用活動](activities/about-activities.md)<br/><br/>活動：<br/>[同時加入](activities/and-join.md) - [建立客群](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [頻道活動](activities/channels.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [調和](activities/reconciliation.md) - [儲存客群](activities/save-audience.md) - [分割](activities/split.md) - [等待](activities/wait.md) |
 
@@ -43,7 +43,7 @@ ht-degree: 16%
 
 [!DNL Adobe Journey Optimizer]中的行銷活動協調流程可跨管道支援複雜且品牌啟動的行銷活動，協助您大規模提高參與度、收入和客戶忠誠度。
 
-雖然跨頻道行銷至關重要，但精心安排的行銷活動可讓其順暢無礙。 透過視覺化的拖放介面，您可以跨多個管道設計和自動化複雜的行銷工作流程，從細分到訊息傳遞。 所有事情都在一個直覺式環境中進行，專為速度、控制能力和效率而打造。
+雖然跨頻道行銷至關重要，但協調的行銷活動可使其順暢無礙。 透過視覺化的拖放介面，您可以跨多個管道設計和自動化複雜的行銷工作流程，從細分到訊息傳遞。 所有事情都在一個直覺式環境中進行，專為速度、控制能力和效率而打造。
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
 
@@ -65,7 +65,7 @@ Campaign協調流程圍繞四大支柱建立：
 
 ## 協調的行銷活動和歷程
 
-即使協調的行銷活動視覺效果與歷程類似，但可解決不同用途和使用案例：
+雖然「協調的行銷活動」視覺效果與歷程類似，但可解決不同用途和使用案例：
 
 * **歷程** - 1到1個畫布，每個設定檔以自己的步調在不同步驟中行進。 每個客戶的狀態會保留在其內容中，以觸發即時動作。
 
@@ -99,7 +99,7 @@ Campaign協調流程圍繞四大支柱建立：
 <a href="create-orchestrated-campaign.md">
 <img alt="銷售機會" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-orchestrated-campaign.md"><strong>建立協調行銷活動</strong>
+<div><a href="create-orchestrated-campaign.md"><strong>建立協調的行銷活動</strong>
 </div>
 <p>
 </td>

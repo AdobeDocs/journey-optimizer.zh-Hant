@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用 Adobe Journey Optimizer 開始和監視協調的行銷活動
-description: 瞭解如何使用 Adobe Journey Optimizer 開始及監視協調的行銷活動。
+title: 使用Adobe Journey Optimizer開始和監視協調的行銷活動
+description: 瞭解如何使用Adobe Journey Optimizer開始及監控協調的行銷活動。
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 68%
+ht-degree: 56%
 
 ---
 
-# 開始並監控協調行銷活動 {#start-monitor}
+# 開始和監視您的協調行銷活動 {#start-monitor}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
@@ -22,7 +22,7 @@ ht-degree: 68%
 
 +++ 目錄
 
-| 歡迎使用協調行銷活動 | 首次投放的協調行銷活動 | 查詢資料庫 | 協調行銷活動 |
+| 歡迎使用協調的行銷活動 | 啟動您的第一個協調行銷活動 | 查詢資料庫 | 協調行銷活動 |
 |---|---|---|---|
 | [開始使用協調的行銷活動](gs-orchestrated-campaigns.md)<br/><br/>建立和管理關聯式結構描述和資料集：</br> <ul><li>[開始使用結構描述和資料集](gs-schemas.md)</li><li>[手動結構描述](manual-schema.md)</li><li>[檔案上傳結構描述](file-upload-schema.md)</li><li>[擷取資料](ingest-data.md)</li></ul>[存取及管理協調的行銷活動](access-manage-orchestrated-campaigns.md)<br/><br/>[建立協調行銷活動的重要步驟](gs-campaign-creation.md) | [建立並排程行銷活動](create-orchestrated-campaign.md)<br/><br/>[協調活動](orchestrate-activities.md)<br/><br/><b>[開始並監視行銷活動](start-monitor-campaigns.md)</b><br/><br/>[報告](reporting-campaigns.md) | [使用規則產生器](orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](build-query.md)<br/><br/>[編輯運算式](edit-expressions.md)<br/><br/>[重定向](retarget.md) | [開始使用活動](activities/about-activities.md)<br/><br/>活動：<br/>[同時加入](activities/and-join.md) - [建立客群](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [頻道活動](activities/channels.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [調和](activities/reconciliation.md) - [儲存客群](activities/save-audience.md) - [分割](activities/split.md) - [等待](activities/wait.md) |
 
@@ -46,7 +46,7 @@ ht-degree: 68%
 
 ## 發佈前測試您的行銷活動 {#test}
 
-[!DNL Journey Optimizer]可讓您在上線之前測試協調的行銷活動。 建立行銷活動時，預設會進入&#x200B;**草稿**&#x200B;狀態。 在此狀態下，您可以手動執行行銷活動以測試流量。
+[!DNL Journey Optimizer]可讓您在開始使用前測試協調的行銷活動。 建立行銷活動時，預設會進入&#x200B;**草稿**&#x200B;狀態。 在此狀態下，您可以手動執行行銷活動以測試流量。
 
 >[!IMPORTANT]
 >
@@ -54,7 +54,7 @@ ht-degree: 68%
 
 若要測試行銷活動：
 
-1. 開啟此協調的行銷活動。
+1. 開啟「協調流程」行銷活動。
 2. 按一下「**[!UICONTROL 開始]**」。
 
 ![](assets/campaign-start.png){zoomable="yes"}
@@ -118,7 +118,7 @@ If you have added channel activities in the canvas, you can preview and test the
 |-----|------------|
 | ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | 活動目前正在執行。 |
 | ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | 活動需要您注意。這可能涉及確認傳遞的傳送或採取必要行動。 |
-| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | 活動發生錯誤。若要解決此問題，請開啟協調的行銷活動記錄檔，以取得詳細資訊。 |
+| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | 活動發生錯誤。若要解決此問題，請開啟協調的活動記錄檔，以取得詳細資訊。 |
 | ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | 活動已成功執行。 |
 
 ### 記錄和任務 {#logs-tasks}
@@ -126,9 +126,9 @@ If you have added channel activities in the canvas, you can preview and test the
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="記錄和任務"
->abstract="**記錄和任務**&#x200B;畫面提供執行協調式行銷活動的歷史記錄，其中記錄所有使用者動作和發生的錯誤。"
+>abstract="**記錄檔與工作**&#x200B;畫面提供協調行銷活動執行的歷史記錄，記錄所有使用者動作與遇到的錯誤。"
 
-監視記錄及工作是分析協調行銷活動並確保其正常執行的關鍵步驟。在測試與即時模式下，可從畫布工具列或每個活動的屬性窗格中的「**[!UICONTROL 記錄]**」按鈕，存取記錄和任務。
+監視記錄檔和任務是分析協調行銷活動並確保其正常執行的關鍵步驟。 在測試與即時模式下，可從畫布工具列或每個活動的屬性窗格中的「**[!UICONTROL 記錄]**」按鈕，存取記錄和任務。
 
 **[!UICONTROL 記錄和任務]**&#x200B;畫面提供執行行銷活動的完整歷史記錄，其中記錄所有使用者動作和發生的錯誤。
 

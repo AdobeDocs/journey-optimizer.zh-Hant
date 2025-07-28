@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定調和活動
-description: 了解如何在協調的行銷活動中使用調和活動
+description: 瞭解如何在協調的行銷活動中使用調解活動
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 93%
+ht-degree: 83%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 93%
 
 +++ 目錄
 
-| 歡迎使用協調行銷活動 | 首次投放的協調行銷活動 | 查詢資料庫 | 協調行銷活動 |
+| 歡迎使用協調的行銷活動 | 啟動您的第一個協調行銷活動 | 查詢資料庫 | 協調行銷活動 |
 |---|---|---|---|
 | [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>建立和管理關聯式結構描述和資料集：</br> <ul><li>[開始使用結構描述和資料集](../gs-schemas.md)</li><li>[手動結構描述](../manual-schema.md)</li><li>[檔案上傳結構描述](../file-upload-schema.md)</li><li>[擷取資料](../ingest-data.md)</li></ul>[存取及管理協調的行銷活動](../access-manage-orchestrated-campaigns.md) | [建立協調行銷活動的關鍵步驟](../gs-campaign-creation.md)<br/><br/>[建立並排程行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用規則產生器](../orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md)<br/><br/>[重定向](../retarget.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/>[同時加入](and-join.md) - [建立客群](build-audience.md) - [變更維度](change-dimension.md) - [頻道活動](channels.md) - [合併](combine.md) - [重複資料刪除](deduplication.md) - [擴充](enrichment.md) - [分支](fork.md) - <b>[調和](reconciliation.md)</b> - [儲存客群](save-audience.md) - [分割](split.md) - [等待](wait.md) |
 
@@ -59,7 +59,7 @@ ht-degree: 93%
 
 **[!UICONTROL 調和]**&#x200B;活動是&#x200B;**[!UICONTROL 目標定位]**&#x200B;活動，它可讓您定義 Adobe Journey Optimizer 資料與工作表資料 (例如從外部檔案載入的資料) 之間的連結。
 
-**[!UICONTROL 擴充]**&#x200B;活動可讓您新增其他資料至您的協調行銷活動，例如，合併來自多個來源的資料或連結至暫時資源。相對地，**[!UICONTROL 調和]**&#x200B;活動用來比對未識別或外部資料與資料庫中現有的資源。
+**[!UICONTROL 擴充]**&#x200B;活動可讓您新增其他資料至您的「已協調」行銷活動，例如，合併來自多個來源的資料或連結至暫時資源。 相對地，**[!UICONTROL 調和]**&#x200B;活動用來比對未識別或外部資料與資料庫中現有的資源。
 
 **[!UICONTROL 調和]**&#x200B;要求系統中已存在相關記錄。例如，如果您匯入列有產品、時間戳記和客戶資訊的購買檔案，產品和客戶必須已存在於資料庫中才能建立連結。
 
@@ -80,7 +80,7 @@ ht-degree: 93%
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="選取目標市場選擇維度"
 >abstract="選取要調和之輸入資料的目標市場選擇維度。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=zh-Hant&#targeting-dimensions" text="目標市場選擇維度"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?#targeting-dimensions" text="目標市場選擇維度"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"

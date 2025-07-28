@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 91%
+ht-degree: 62%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test_conditions"
 >title="條件"
->abstract="「**測試**」活動可以有多個輸出轉換。在協調的行銷活動執行期間，將循序測試每個條件，直至滿足其中一個條件。如果沒有滿足任何條件，協調的行銷活動將沿著&#x200B;**[!UICONTROL 預設條件]**&#x200B;的路徑繼續進行。如果沒有啟用預設條件，協調的行銷活動將到此停止。"
+>abstract="「**測試**」活動可以有多個輸出轉換。在協調的行銷活動執行期間，會依序測試每個條件，直到符合其中一個條件為止。 如果未符合任何條件，協調的行銷活動會沿著&#x200B;**[!UICONTROL 預設條件]**&#x200B;的路徑繼續。 如果未啟用預設條件，則「已協調的」行銷活動會在此點停止。"
 
 +++ 目錄
 
-| 歡迎使用協調行銷活動 | 首次投放的協調行銷活動 | 查詢資料庫 | 協調行銷活動 |
+| 歡迎使用協調的行銷活動 | 啟動您的第一個協調行銷活動 | 查詢資料庫 | 協調行銷活動 |
 |---|---|---|---|
 | [開始使用協調的行銷活動](../gs-orchestrated-campaigns.md)<br/><br/>建立和管理關聯式結構描述和資料集：</br> <ul><li>[開始使用結構描述和資料集](../gs-schemas.md)</li><li>[手動結構描述](../manual-schema.md)</li><li>[檔案上傳結構描述](../file-upload-schema.md)</li><li>[擷取資料](../ingest-data.md)</li></ul>[存取及管理協調的行銷活動](../access-manage-orchestrated-campaigns.md) | [建立協調行銷活動的關鍵步驟](../gs-campaign-creation.md)<br/><br/>[建立並排程行銷活動](../create-orchestrated-campaign.md)<br/><br/>[協調活動](../orchestrate-activities.md)<br/><br/>[開始並監視行銷活動](../start-monitor-campaigns.md)<br/><br/>[報告](../reporting-campaigns.md) | [使用規則產生器](../orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](../build-query.md)<br/><br/>[編輯運算式](../edit-expressions.md)<br/><br/>[重定向](../retarget.md) | [開始使用活動](about-activities.md)<br/><br/>活動：<br/>[同時加入](and-join.md) - [建立客群](build-audience.md) - [變更維度](change-dimension.md) - [頻道活動](channels.md) - [合併](combine.md) - [重複資料刪除](deduplication.md) - [擴充](enrichment.md) - [分支](fork.md) - [調和](reconciliation.md) - [儲存客群](save-audience.md) - [分割](split.md) - [等待](wait.md) |
 
@@ -52,19 +52,19 @@ ht-degree: 91%
 
 請按照以下步驟設定&#x200B;**[!UICONTROL 測試]**&#x200B;活動：
 
-1. 在您協調的行銷活動中新增&#x200B;**[!UICONTROL 測試]**&#x200B;活動。
+1. 將&#x200B;**[!UICONTROL 測試]**&#x200B;活動新增至您的協調行銷活動。
 
 1. 預設情況下，**[!UICONTROL 測試]**&#x200B;活動會呈現簡單的布林值測試。如果符合「真」轉變中定義的條件，則會啟動此轉變。否則，將會啟用預設的「假」轉變。
 
 1. 若要設定與轉變關聯的條件，請按一下「**[!UICONTROL 開啟個人化對話方塊]**」圖示。使用運算式編輯器來定義啟動此轉變所需的規則。您也可以善用事件變數、條件和日期/時間函式。
 
-   此外，您可以修改「**[!UICONTROL 標籤]**」欄位，在協調的行銷活動畫布上個人化轉變名稱。
+   此外，您可以修改&#x200B;**[!UICONTROL 標籤]**&#x200B;欄位，在「已協調的行銷活動」畫布上個人化轉變名稱。
 
    ![](../assets/workflow-test-default.png)
 
 1. 您可以將多個輸出轉變新增到&#x200B;**[!UICONTROL 測試]**&#x200B;活動。若要這麼做，請按一下「**[!UICONTROL 新增條件]**」按鈕，並為每個轉變設定標籤和相關聯的條件。
 v
-1. 在協調的行銷活動執行期間，將循序測試每個條件，直至滿足其中一個條件。如果沒有滿足任何條件，協調的行銷活動將沿著&#x200B;**[!UICONTROL 預設條件]**&#x200B;的路徑繼續進行。如果沒有啟用預設條件，工作流程將在此時停止。
+1. 在協調的行銷活動執行期間，會依序測試每個條件，直到符合其中一個條件為止。 如果未符合任何條件，協調的行銷活動會沿著&#x200B;**[!UICONTROL 預設條件]**&#x200B;的路徑繼續。 如果沒有啟用預設條件，工作流程將在此時停止。
 
 ## 範例 {#example}
 
