@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 598cffda92b27f89a752d6fb0ebc032f9017c43e
-workflow-type: ht
-source-wordcount: '2541'
-ht-degree: 100%
+source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
+workflow-type: tm+mt
+source-wordcount: '2497'
+ht-degree: 97%
 
 ---
 
@@ -85,11 +85,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ## 子網域護欄 {#subdomain-guardrails}
 
-預設情況下，[!DNL Journey Optimizer]可讓您總共委派最多 10 個子網域 (包含電子郵件與 Web 管道)。
-
-然而，根據您的授權合約，您最多可委派 100 個子網域。 請聯絡您的 Adobe 聯絡人，了解更多您有權使用的子網域數量。
-
-請在[此頁面](../configuration/delegate-subdomain.md)深入了解更多關於網域委派的資訊。
+套用至Journey Optimizer子網域委派的護欄和限制於[本頁](../configuration/delegate-subdomain.md#guardrails)詳細說明。
 
 ## 片段護欄 {#fragments-guardrails}
 
@@ -168,7 +164,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 事件觸發的歷程最多可能需要 5 分鐘來處理歷程的第一個動作。
 * 對於系統產生的事件，必須先在 Journey Optimizer 中設定用於啟動客戶歷程的串流資料，才能取得唯一的協調流程 ID。 此協調流程 ID 必須附加至傳入 Adobe Experience Platform 的串流裝載。 此限制不適用於規則型事件。
 * 業務事件不能與單一事件或客群資格篩選活動結合使用。
-* 單一歷程 (從事件或客群資格篩選開始) 包含可防止同一事件多次錯誤觸發歷程的護欄。 在預設情況下，輪廓重新進入時會暫時封鎖 5 分鐘。例如，如果某個事件在 12:01 觸發特定輪廓的歷程，而另一個事件在 12:03 達到時間限制 (無論是相同事件或是不同事件觸發相同歷程)，則此輪廓的歷程將不會再次開始。
+* 單一歷程 (從事件或客群資格篩選開始) 包含可防止同一事件多次錯誤觸發歷程的護欄。 在預設情況下，輪廓重新進入時會暫時封鎖 5 分鐘。例如，如果某個事件在12:01觸發特定設定檔的歷程，而另一個事件達到12:03 （無論是相同事件還是不同事件觸發相同歷程），則此設定檔的歷程將不會再次開始。
 * Journey Optimizer 需將事件串流至資料收集核心服務 (DCCS)，才能觸發歷程。 批次收錄的事件，或來自內部 Journey Optimizer 資料集的事件（訊息意見回饋、電子郵件追蹤等等）不能用於觸發歷程。對於無法取得串流事件的使用案例，請根據這些事件建置對象，然後改為使用&#x200B;**讀取對象**&#x200B;活動。 技術上可使用客群資格篩選，但不建議使用，因為它可能會根據所使用的操作導致下游挑戰。
 
 ### 資料來源 {#data-sources-g}

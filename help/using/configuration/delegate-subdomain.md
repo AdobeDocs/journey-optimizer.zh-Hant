@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子網域、委派、網域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
+source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
 workflow-type: tm+mt
-source-wordcount: '1897'
+source-wordcount: '1906'
 ht-degree: 16%
 
 ---
@@ -29,9 +29,11 @@ ht-degree: 16%
 >title="子網域委派"
 >abstract="若要開始傳送電子郵件，您需要將您的子網域委派給 Adobe。完成後，將為您設定 DNS 記錄、收件匣、寄件者、回覆地址和退回地址。"
 
-網域名稱委派是一種方法，可讓網域名稱的所有者（技術上稱為DNS區域）將其細分（技術上稱為DNS區域下的細分）委派給另一個實體。 基本上，身為客戶，如果您處理&quot;example.com&quot;區域，您可以將子網區&quot;marketing.example.com&quot;委派給Adobe。 深入瞭解[子網域委派](about-subdomain-delegation.md)
+網域名稱委派是一種方法，可讓網域名稱的所有者（技術上稱為DNS區域）將其細分（技術上稱為DNS區域下的細分）委派給另一個實體。 基本上，身為客戶，如果您處理&quot;example.com&quot;區域，您可以將子網區&quot;marketing.example.com&quot;委派給Adobe。
 
-依預設，[!DNL Journey Optimizer]可讓您委派&#x200B;**最多10個子網域**。 然而，根據您的授權合約，您最多可委派 100 個子網域。 請聯絡您的 Adobe 聯絡人，了解更多您有權使用的子網域數量。
+>[!NOTE]
+>
+>在[!DNL Journey Optimizer]本節[中進一步瞭解子網域委派以及](about-subdomain-delegation.md)可用的不同方法。
 
 您可以：
 
@@ -40,9 +42,19 @@ ht-degree: 16%
 
 建議使用&#x200B;**完整子網域委派**&#x200B;方法。 在[本節](about-subdomain-delegation.md#subdomain-delegation-methods)中進一步瞭解不同子網域設定方法之間的差異。
 
->[!CAUTION]
->
->[!DNL Journey Optimizer]不支援同時提交子網域。 如果您嘗試在其他子網域處於&#x200B;**[!UICONTROL 處理]**&#x200B;狀態時提交子網域以進行委派，您會收到錯誤訊息。
+## 護欄 {#guardrails}
+
+在[!DNL Journey Optimizer]中設定子網域時，請遵循下列護欄和建議。
+
+* 依預設，[!DNL Journey Optimizer]可讓您委派&#x200B;**最多10個子網域**。 然而，根據您的授權合約，您最多可委派 100 個子網域。 請聯絡您的 Adobe 聯絡人，了解更多您有權使用的子網域數量。
+
+* [!DNL Journey Optimizer]不支援同時提交子網域。 如果您嘗試在其他子網域處於&#x200B;**[!UICONTROL 處理]**&#x200B;狀態時提交子網域以進行委派，您會收到錯誤訊息。
+
+* 不允許將無效的子網域委派給Adobe。 請務必輸入貴組織所擁有的有效子網域，例如marketing.yourcompany.com。
+
+* 您無法使用相同的傳送網域從[!DNL Adobe Journey Optimizer]和其他產品（例如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]）傳送訊息。
+
+* 不支援委派上層網域和子網域。 例如，如果您委派subdomain.domain.com，則無法委派email.subdomain.domain.com。 同樣地，如果您委派email.subdomain.domain.com，便無法委派subdomain.domain.com。
 
 ## 存取委派的子網域 {#access-delegated-subdomains}
 
@@ -69,7 +81,7 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->子網域設定在所有環境中都是通用的。 因此，對子網域所做的任何修改也會影響生產沙箱。
+>子網域設定是&#x200B;**所有環境通用的設定**。 因此，對子網域所做的任何修改也會影響生產沙箱。
 
 ## 在Journey Optimizer中設定子網域 {#set-up-subdomain}
 
@@ -79,19 +91,14 @@ ht-degree: 16%
 >abstract="若要將新的子網域完全委派給 Adobe，您需要將 Journey Optimizer 介面中顯示的 Adobe 名稱伺服器資訊複製貼上您的網域託管解決方案中，以產生相符的 DNS 記錄。若要使用 CNAME 委派子網域，您還需要複製貼上 SSL CDN URL 驗證記錄。一旦檢查成功，子網域就準備好可用於傳遞訊息了。"
 
 若要在[!DNL Journey Optimizer]中設定新的子網域，請遵循下列步驟。
-
+<!--
 >[!NOTE]
 >
->本節說明如何使用完全委派或CNAME方法來設定子網域。 自訂委派方法在[本節](#setup-custom-subdomain)中有詳細說明。
-
+>This section describes how to set up a subdomain using the full delegation. The custom delegation method is detailed in [this section](#setup-custom-subdomain).-->
 
 1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL 子網域]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 設定子網域]**。
 
    <!--![](assets/subdomain-delegate.png)-->
-
-   >[!CAUTION]
-   >
-   >子網域設定是&#x200B;**所有環境通用的設定**。 因此，對子網域所做的任何修改也會影響生產沙箱。
 
 1. 從&#x200B;**[!UICONTROL 設定方法]**&#x200B;區段中，選取：
 
@@ -105,14 +112,14 @@ ht-degree: 16%
 1. 指定要委派的子網域名稱。
 
    ![](assets/subdomain-name.png)
+<!--
+    >[!CAUTION]
+    >
+    >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
+    >
+    >You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage].
 
-   >[!CAUTION]
-   >
-   >不允許將無效的子網域委派給Adobe。 請務必輸入貴組織所擁有的有效子網域，例如marketing.yourcompany.com。
-   >
-   >您無法使用相同的傳送網域從[!DNL Adobe Journey Optimizer]和其他產品（例如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]）傳送訊息。
-
-   <!--Capital letters are not allowed in subdomains. TBC by PM-->
+    Capital letters are not allowed in subdomains. TBC by PM-->
 
 1. 在專用區段中設定&#x200B;**[!UICONTROL DMARC記錄]**。 如果子網域有現有的[DMARC記錄](dmarc-record.md)，而且[!DNL Journey Optimizer]已擷取該記錄，則您可以視需要使用相同的值或加以變更。 如果您未新增任何值，則會使用預設值。 [瞭解如何管理DMARC記錄](dmarc-record.md#set-up-dmarc)
 
@@ -152,7 +159,7 @@ ht-degree: 16%
 
 1. 執行[本節](#set-up-subdomain)中說明的所有步驟。
 
-1. 在提交您的子網域設定前，您還需要完成一個步驟 — 按一下[繼續]&#x200B;**&#x200B;**。 等候Adobe驗證在您的託管解決方案上產生記錄時沒有發生錯誤。 此程式最多可能需要2分鐘。
+1. 在提交您的子網域設定前，您還需要完成一個步驟 — 按一下[繼續]****。 等候Adobe驗證在您的託管解決方案上產生記錄時沒有發生錯誤。 此程式最多可能需要2分鐘。
 
    >[!NOTE]
    >
