@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 87%
+source-wordcount: '998'
+ht-degree: 86%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 87%
 
 重複此流程，根據您想要協調的行銷活動執行的任務，視需要新增儘可能多的活動。請注意，您也可以在兩個活動之間插入新活動。若要這麼做，請按一下活動之間轉變上的「**+**」按鈕，選取所需的活動，並在右側窗格中進行設定。
 
-您可以選擇個人化每個活動之間的轉變名稱。要執行此操作，請選取轉變並在右側窗格中變更其標籤。
+您可以選擇自訂每個活動之間的轉變名稱。 要執行此操作，請選取轉變並在右側窗格中變更其標籤。
 
 ![](assets/canvas-transition.png)
 
@@ -84,7 +84,7 @@ ht-degree: 87%
 
 ![暫停圖示](assets/do-not-localize/activity-pause.svg) ![繼續圖示](assets/do-not-localize/activity-resume.svg)：暫停/繼續活動。執行協調的行銷活動時，會在暫停的活動中暫停。系統不會執行對應的任務，以及在相同路徑中跟隨著該任務的所有任務。
 
-    您可以使用畫布中的任何活動作為中斷點，以暫停行銷活動執行。 這表示此活動只會執行促銷活動，直到此活動為止，然後暫停執行。 暫停執行時，分段引擎會保留暫時資料供您預覽。 您可以在暫停的活動之前選取入站轉變，以檢視傳輸的資料。 深入瞭解此章節： [視覺流量監視](../orchestrated/start-monitor-campaigns.md#flow)。
+您可以使用畫布中的任何活動作為中斷點，以暫停行銷活動執行。 這表示此活動只會執行促銷活動，直到此活動為止，然後暫停執行。 暫停執行時，分段引擎會保留暫時資料供您預覽。 您可以在暫停的活動之前選取入站轉變，以檢視傳輸的資料。 深入瞭解此章節： [視覺流量監視](../orchestrated/start-monitor-campaigns.md#flow)。
 
 ![複製圖示](assets/do-not-localize/activity-copy.svg)：複製活動。[瞭解如何複製並貼上活動](#copy)
 

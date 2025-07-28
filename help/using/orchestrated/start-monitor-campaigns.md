@@ -6,10 +6,10 @@ description: 瞭解如何使用 Adobe Journey Optimizer 開始及監視協調的
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 73%
+source-wordcount: '810'
+ht-degree: 68%
 
 ---
 
@@ -48,7 +48,9 @@ ht-degree: 73%
 
 [!DNL Journey Optimizer]可讓您在上線之前測試協調的行銷活動。 建立行銷活動時，預設會進入&#x200B;**草稿**&#x200B;狀態。 在此狀態下，您可以手動執行行銷活動以測試流量。
 
-畫布中的所有活動都會執行，但&#x200B;**[!UICONTROL 儲存對象]**&#x200B;活動和頻道活動除外。 對您的資料或客群不會造成功能性影響。
+>[!IMPORTANT]
+>
+>畫布中的所有活動都會執行，但&#x200B;**[!UICONTROL 儲存對象]**&#x200B;活動和頻道活動除外。 對您的資料或對象沒有功能上的影響。**
 
 若要測試行銷活動：
 
@@ -63,13 +65,19 @@ ht-degree: 73%
 
 * 隨時&#x200B;**停止**&#x200B;執行。
 * 再次&#x200B;**開始**&#x200B;執行。
-* 如果先前因為問題而暫停，**繼續**&#x200B;執行。
+* **如果先前已暫停執行，則繼續**&#x200B;執行。
 
-如果執行期間發生錯誤或警告，您會透過畫布工具列中的&#x200B;**[!UICONTROL 警示]**/**[!UICONTROL 警告]**&#x200B;圖示收到通知。
+畫布工具列中的&#x200B;**[!UICONTROL 警示]** / **[!UICONTROL 警告]**&#x200B;圖示會通知您發生的問題，包括執行之前可能主動出現的警告，以及在執行期間或執行之後發生的錯誤。
 
 ![](assets/campaign-warning.png){zoomable="yes"}
 
 您也可以使用直接顯示在每個活動上的[視覺狀態指標](#activities)，快速識別失敗的活動。如需詳細的疑難排解，請開啟[行銷活動的記錄](#logs-tasks)，其中提供有關錯誤及其內容的深入資訊。
+
+<!--WAITING FOR PM's TEST TO UNHIDE
+
+If you have added channel activities in the canvas, you can preview and test the content of your messages using the **[!UICONTROL Simulate Content]** button. [Learn how to work with channel activities](activities/channels.md)
+
+-->
 
 驗證後，即可發佈行銷活動。
 
