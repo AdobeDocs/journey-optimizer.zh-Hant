@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '509'
 ht-degree: 12%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 12%
 在[!DNL Journey Optimizer]中編輯內容時，您可以將全部或部分內容儲存為片段，以供日後重複使用。 您可以從電子郵件Designer[儲存內容為片段](#save-as-visual-fragment)，或從運算式編輯器[儲存內容](#save-as-expression-fragment)。
 
 >[!NOTE]
+>
+>片段中不支援[內容屬性](../personalization/personalization-build-expressions.md)。
 >
 >在歷程或行銷活動中啟用追蹤時，如果連結存在於儲存的片段中，且如果此片段用於訊息中，則會追蹤這些連結，例如訊息中包含的所有其他連結。 [進一步瞭解連結和追蹤](../email/message-tracking.md)
 
@@ -37,7 +39,7 @@ ht-degree: 12%
    >
    >視覺化片段不能超過100KB。
 
-1. **[!UICONTROL 另存為片段]**&#x200B;畫面隨即顯示。 在該處選取您要納入片段中的元素，包括個人化欄位和動態內容。 請注意，片段中不支援內容屬性。
+1. **[!UICONTROL 另存為片段]**&#x200B;畫面隨即顯示。 在該處選取您要納入片段中的元素，包括個人化欄位和動態內容。
 
    ![](assets/fragment-save-as-screen.png)
 

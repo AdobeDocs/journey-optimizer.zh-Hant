@@ -10,10 +10,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件主題，模組，可重複使用，品牌一致性，電子郵件設計，自訂CSS，行動裝置最佳化
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 7%
+source-wordcount: '832'
+ht-degree: 6%
 
 ---
 
@@ -53,19 +53,19 @@ Key Benefits:
 
 * 從頭開始建立電子郵件時，您可以選擇使用主題開始建立內容，以快速套用符合您的品牌和設計的特定樣式。
 
-  如果您選擇Classic模式，除非重設電子郵件，否則無法套用任何主題。
+  如果您選擇「手動樣式化」模式，除非重設電子郵件，否則您將無法套用任何主題。
 
-* [片段](../content-management/fragments.md)在Theme和Classic模式之間不相容。
+* [片段](../content-management/fragments.md)在使用主題和手動樣式模式之間不相容。
 
-  為了能夠在套用了主題的內容中使用片段，此片段必須在主題模式中建立。
+  為了能夠在套用了主題的內容中使用片段，此片段必須在使用主題模式中建立。
 
 * 如果使用在HTML中建立的內容，您將處於[相容性模式](existing-content.md)，而且您無法套用主題至此內容。
 
-  若要充分利用Email Designer的所有功能，包括主題，您必須在主題模式下建立新內容，或轉換匯入的HTML內容。 [了解更多](existing-content.md)
+  若要充分利用Email Designer的所有功能，包括主題，您必須在使用主題模式中建立新內容，或轉換匯入的HTML內容。 [了解更多](existing-content.md)
 
-<!--If using a content created in Classic mode or HTML, you cannot apply themes to this content. You must create a new content in Theme mode.
+<!--If using a content created in Manual Styling mode or HTML, you cannot apply themes to this content. You must create a new content in Use Themes mode.
 
-If you apply a theme to a content using a [fragment](../content-management/fragments.md) created in Classic mode, the rendering may not be optimal.-->
+If you apply a theme to a content using a [fragment](../content-management/fragments.md) created in Manual Styling mode, the rendering may not be optimal.-->
 
 ## 建立主題 {#create-and-edit-themes}
 
@@ -115,7 +115,7 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
    <!--![](assets/theme-buttons.png)-->
 
-1. 按一下[儲存]儲存此佈景主題以供日後使用。**&#x200B;**
+1. 按一下[儲存]儲存此佈景主題以供日後使用。****
 
 ## 套用主題至電子郵件 {#apply-themes}
 
@@ -127,15 +127,15 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
    * 選取內建的[電子郵件範本](use-email-templates.md)，以開啟電子郵件Designer。 系統會自動套用每個範本專屬的預設主題。
 
-   * 從草稿開始設計[新內容](content-from-scratch.md)，並選取&#x200B;**[!UICONTROL 佈景主題]**&#x200B;以預先定義的樣式佈景主題開始。
+   * 從頭開始設計[新內容](content-from-scratch.md)，並選取&#x200B;**[!UICONTROL 使用主題]s**&#x200B;以預先定義的樣式主題開始。
 
      ![](assets/theme-from-scratch.png)
 
      >[!CAUTION]
      >
-     >如果您選擇Classic模式，除非重設電子郵件，否則無法套用任何主題。
+     >如果您選擇「手動樣式化」模式，除非重設電子郵件，否則您將無法套用任何主題。
      >
-     >若要在佈景主題模式中使用[片段](../content-management/fragments.md)，此片段必須已使用佈景主題模式自行建立。
+     >若要在使用主題模式中使用[片段](../content-management/fragments.md)，此片段必須已使用「使用主題」模式自行建立。
 
 1. 在電子郵件Designer中，按一下右側邊欄上的&#x200B;**[!UICONTROL 主題]**&#x200B;按鈕。 預設主題或範本主題隨即顯示。 您可以在此佈景主題的兩個顏色變體之間切換。
 

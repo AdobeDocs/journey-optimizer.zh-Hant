@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '325'
 ht-degree: 13%
 
 ---
@@ -36,12 +36,14 @@ ht-degree: 13%
 
 ## 開始之前 {#fragment-prerequisites}
 
-若要建立、編輯、封存和發佈片段，您需要&#x200B;**[!DNL Content Library Manager]**&#x200B;產品設定檔中包含的&#x200B;**[!DNL Manage library items]**&#x200B;和&#x200B;**[發佈片段]**&#x200B;許可權。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
+若要建立、編輯、封存和發佈片段，您需要&#x200B;**[!DNL Manage library items]**&#x200B;產品設定檔中包含的&#x200B;**[和]**&#x200B;發佈片段&#x200B;**[!DNL Content Library Manager]**&#x200B;許可權。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
 
 在此版本中，適用下列限制：
 
 * **視覺片段**&#x200B;僅適用於電子郵件頻道。
 * **運算式片段**&#x200B;不適用於應用程式內頻道。
+
+[此區段](../start/guardrails.md#fragments-guardrails)中有更多套用至片段的護欄。
 
 ## 視覺效果和運算式片段 {#visual-expression}
 
@@ -56,10 +58,10 @@ ht-degree: 13%
 
 ## 作法影片 {#video-fragments}
 
-瞭解如何在[!DNL Journey Optimizer]中管理、編寫及使用&#x200B;**視覺化片段**。
+瞭解如何在&#x200B;**中管理、編寫及使用**&#x200B;視覺化片段[!DNL Journey Optimizer]。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
-瞭解如何在[!DNL Journey Optimizer]中管理、編寫及使用&#x200B;**運算式片段**。
+瞭解如何在&#x200B;**中管理、編寫及使用**&#x200B;運算式片段[!DNL Journey Optimizer]。
 
->[!VIDEO](https://video.tv.adobe.com/v/3438930/?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
