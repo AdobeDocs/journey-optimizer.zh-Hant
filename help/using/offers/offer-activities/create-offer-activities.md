@@ -7,10 +7,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
 workflow-type: tm+mt
-source-wordcount: '2511'
-ht-degree: 8%
+source-wordcount: '2549'
+ht-degree: 7%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 8%
 
 1. 指定決定的名稱。
 
-1. 視需要定義開始和結束日期及時間，然後按一下[下一步] **&#x200B;**。
+1. 視需要定義開始和結束日期及時間，然後按一下[下一步] ****。
 
    ![](../assets/activities-name.png)
 
@@ -79,7 +79,7 @@ ht-degree: 8%
    >
    >至少需要一個評估准則。
 
-1. 選取包含要考量之優惠方案的優惠方案集合，然後按一下[新增]。**&#x200B;**
+1. 選取包含要考量之優惠方案的優惠方案集合，然後按一下[新增]。****
 
    ![](../assets/activities-collection.png)
 
@@ -127,7 +127,7 @@ ht-degree: 8%
 
    * 如果您想要使用特定的計算分數來選擇要傳遞的合格優惠方案，請選取&#x200B;**[!UICONTROL 公式]**&#x200B;或&#x200B;**[!UICONTROL AI模型]**。 [了解更多](../offer-activities/configure-offer-selection.md)。
 
-1. 按一下[新增]&#x200B;**&#x200B;**&#x200B;為相同位置定義更多條件。
+1. 按一下[新增]****&#x200B;為相同位置定義更多條件。
 
    ![](../assets/activity_add-collection.png)
 
@@ -312,15 +312,19 @@ ht-degree: 8%
 >title="新增後備產品建議"
 >abstract="定義決策範圍後，請定義後備產品建議，這是為不符合產品建議適用性規則與限制之客戶顯示產品建議的最後手段。"
 
-定義決策範圍後，請定義後備產品建議，這是為不符合產品建議適用性規則與限制之客戶顯示產品建議的最後手段。
+在您定義決定範圍後，請定義[遞補優惠方案](../offer-library/creating-fallback-offers.md)，此優惠方案將作為最後手段，提供給不符合優惠方案適用性規則和限制條件的客戶。
 
-若要這麼做，請從決定中定義之位置的可用遞補優惠清單中選取它，然後按一下&#x200B;**[!UICONTROL 下一步]**。
+若要這麼做，請從決定中定義的位置的可用遞補優惠清單中選取它。
 
 ![](../assets/add-fallback-offer.png)
 
 >[!NOTE]
 >
->您可以按一下&#x200B;**[!UICONTROL 開啟選件資料庫]**&#x200B;連結，在新索引標籤中顯示選件清單。
+>遞補優惠應包含決定內使用的所有宣告。 例如，如果您在決定中有5個優惠方案，而且每個優惠方案都有不同的代表方式，則備援優惠方案應包含5個代表方式。
+
+選取之後，按一下&#x200B;**[!UICONTROL 下一步]**。
+
+您可以按一下&#x200B;**[!UICONTROL 開啟選件資料庫]**&#x200B;連結，在新索引標籤中顯示選件清單。
 
 ## 檢閱並儲存決定 {#review}
 
