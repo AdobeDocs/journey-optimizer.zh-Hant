@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2399'
 ht-degree: 27%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 27%
 
 使用[!DNL Journey Optimizer]範本化語言對資料執行作業，例如計算、資料格式設定或轉換、條件，並在個人化的內容中加以處理。 在[此頁面](../personalization-syntax.md)上瞭解個人化語法准則。
 
-➡️[在此影片中瞭解如何使用協助程式函式](#video)
+➡️ [在此影片中瞭解如何使用協助程式函式](#video)
 
 在個人化編輯器的個人化下拉式清單提供的協助程式功能中，會運用範本語言，如下所示：
 
@@ -302,7 +302,7 @@ ht-degree: 27%
         <td><a href="string.md#encode64">編碼64</a></td><td>此函式用於編碼字串</td>
     </tr>
     <tr>
-        <td><a href="string.md#endsWith">結尾為</a></td><td>此函式用於決定字串的結尾是否為指定的子字串</td>
+        <td><a href="string.md#endsWith">結束於</a></td><td>此函式用於決定字串的結尾是否為指定的子字串</td>
     </tr>
         </tr>
     <tr>
@@ -345,7 +345,7 @@ ht-degree: 27%
         <td><a href="string.md#length">長度</a></td><td>此函式用於取得字串或運算式中的字元數</td>
     </tr>
     <tr>
-        <td><a href="string.md#like">讚</a></td><td>此函式用於決定字串是否符合指定的模式</td>
+        <td><a href="string.md#like">類似</a></td><td>此函式用於決定字串是否符合指定的模式</td>
     </tr>
     <tr>
         <td><a href="string.md#lower">小寫</a></td><td>此函式將字串轉換為小寫字母</td>
@@ -378,10 +378,13 @@ ht-degree: 27%
         <td><a href="string.md#rightTrim">右側修剪</a></td><td>此函式移除字串結尾的空格 </td>
     </tr>
     <tr>
+        <td><a href="string.md#sha256">SHA256</a></td><td>此函式計算並傳回字串的sha256雜湊。</td>
+    </tr>
+    <tr>
         <td><a href="string.md#split">分割</a></td><td>此函式用於依指定字元分割字串</td>
     </tr>
     <tr>
-        <td><a href="string.md#startsWith">開頭為</a></td><td>此函式用於決定字串的開頭是否為指定的子字串</td>
+        <td><a href="string.md#startsWith">開始於</a></td><td>此函式用於決定字串的開頭是否為指定的子字串</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-date">字串至日期</a></td><td>此函式將字串值轉換為日期時間值</td>

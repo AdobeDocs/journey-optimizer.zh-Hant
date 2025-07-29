@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3896015ea63a1d25a16744940ffc622b977ff4ce
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '968'
 ht-degree: 16%
 
 ---
@@ -222,4 +222,8 @@ ht-degree: 16%
 
 - **頻道 — InApp**
    - **應用程式內索引鍵/值配對** — 使用應用程式內訊息，您可以定義索引鍵和值配對，以在訊息裝載中包含自訂變數。 這些機碼值組可讓您根據特定設定和使用案例傳遞其他資料。
+  <!-- [Read more](../FILE.md) -->
+
+- **個人化**
+   - 新的協助程式功能「SHA256」已新增至個人化編輯器。 此函式用於計算及傳回字串的sha256雜湊。
   <!-- [Read more](../FILE.md) -->

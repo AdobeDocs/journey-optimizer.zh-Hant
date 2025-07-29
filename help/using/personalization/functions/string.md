@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1859'
 ht-degree: 9%
 
 ---
@@ -184,7 +184,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= encode64(string) %}
 ```
 
-## 結尾為{#endsWith}
+## 結束於{#endsWith}
 
 `endsWith`函式用於決定字串的結尾是否為指定的子字串。
 
@@ -455,7 +455,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= length(profile.homeAddress.city) %}
 ```
 
-## 讚{#like}
+## 類似{#like}
 
 `like`函式是用來判斷字串是否符合指定的模式。
 
@@ -665,13 +665,34 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 右側修剪 {#rightTrim}
 
-使用`rightTrim`函式時，會移除字串結尾的空格。
+`rightTrim`函式會移除字串結尾的空格。
 
 **語法**
 
 ```sql
 {%= rightTrim(string) %}
 ```
+
+## SHA256 {#sha256}
+
+`SHA256`函式計算並傳回字串的sha256雜湊。
+
+**語法**
+
+```sql
+{{
+
+{%= sha256(string) %}
+: string}}
+```
+
+**範例**
+
+```sql
+{%= sha256("Eliechxh")%}
+```
+
+傳回： `0b0b207880b999adaad6231026abf87caa30760b6f326b21727b61139332257d`
 
 ## 分割 {#split}
 
@@ -683,7 +704,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= split(string,string) %}
 ```
 
-## 開頭為{#startsWith}
+## 開始於{#startsWith}
 
 `startsWith`函式是用來決定字串的開頭是否為指定的子字串。
 
