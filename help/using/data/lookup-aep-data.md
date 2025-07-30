@@ -21,8 +21,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
->title="為查詢啟用"
->abstract="為查詢啟用"
+>title="啟用供查詢使用"
+>abstract="啟用供查詢使用"
 
 >[!AVAILABILITY]
 >

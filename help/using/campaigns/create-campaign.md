@@ -13,7 +13,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 5%
+ht-degree: 38%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_action"
 >title="動作行銷活動"
->abstract="**建立並傳送行銷活動的引導式UI**<br/>&#x200B;使用頻道設定一或多個動作、選擇對象、設定內容、定義排程且您已準備好傳送&#x200B;<br/><br/>**可用頻道**<br/>&#x200B;電子郵件、簡訊、推播通知、應用程式內、Web、程式碼型體驗"
+>abstract="**引導式 UI 用於建立和傳送行銷活動**<br/>&#x200B;透過管道設定一個或多個動作、選擇客群、設定內容、定義排程，即可傳送&#x200B;<br/><br/>**可用管道**<br/>&#x200B;電子郵件、SMS、推播通知、應用程式內、網頁、程式碼型體驗"
 
 ## 關於動作行銷活動 {#about}
 

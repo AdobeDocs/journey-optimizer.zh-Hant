@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 69%
+ht-degree: 71%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="行銷活動排程"
->abstract="預設情況下，行銷活動經由手動啟用後開始執行，並在訊息傳送一次後立即結束。您可以彈性設定發送訊息的具體日期和時間。此外，您也可以指定週期性動作行銷活動的結束日期。 在操作觸發條件中，你亦可根據自己的偏好設定訊息傳送頻率。"
+>abstract="預設情況下，行銷活動經由手動啟用後開始執行，並在訊息傳送一次後立即結束。您可以彈性設定發送訊息的具體日期和時間。此外，您可以對定期執行的動作行銷活動指定結束日期。在操作觸發條件中，你亦可根據自己的偏好設定訊息傳送頻率。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -96,7 +96,7 @@ ht-degree: 69%
 
    接著，使用者應會收到一封電子郵件，並重新導向至您的執行個體。
 
-   +++
++++
 
 1. **您需要客群**。建立行銷活動之前必須有可用的客群。 [開始使用對象](../audience/about-audiences.md)。
 
@@ -108,7 +108,7 @@ ht-degree: 69%
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
 <td><a href="create-campaign.md"><img alt="動作行銷活動" src="assets/do-not-localize/gs-action-campaign.png" width="50%"></a><br/><a href="create-campaign.md">動作行銷活動</a></td>
-<td><a href="api-triggered-campaigns.md"><img alt="簡訊" src="assets/do-not-localize/gs-api-triggered-campaign.png" width="50%"></a><br/><a href="api-triggered-campaigns.md">API觸發的行銷活動</a></td>
+<td><a href="api-triggered-campaigns.md"><img alt="簡訊" src="assets/do-not-localize/gs-api-triggered-campaign.png" width="50%"></a><br/><a href="api-triggered-campaigns.md">API 觸發的行銷活動</a></td>
 </tr></table>
 
 <!--

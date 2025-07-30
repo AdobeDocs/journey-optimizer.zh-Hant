@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
 source-wordcount: '628'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
->title="campaigns_overview_orchestrated"
->abstract="<b>行銷活動策劃</b><br/>分割、合併、擴充及操控關聯式資料集以定義您的對象<br/><br/> <b>運用多實體資料</b><br/>瞭解協調的行銷活動如何運用關聯式資料集豐富資料以進行細分和個人化<br/><br/><b>臨機細分和精確計數</b><br/>使用精確計數逐步建立您的區段<br/><br/><b>可用管道</b><br/>電子郵件、簡訊、推播通知、直接郵件"
+>title="協調的行銷活動概觀"
+>abstract="<b>行銷活動協調</b><br/>分割、合併、擴充及操作關聯式資料集來定義您的客群<br/><br/> <b>運用多實體資料</b><br/>瞭解協調的行銷活動如何運用關聯式資料集豐富資料以進行細分和個人化<br/><br/><b>臨機細分和精確計數</b><br/>使用精確計數逐步建立您的區段<br/><br/><b>可用管道</b><br/>電子郵件、簡訊、推播通知、直接郵件"
 
 +++ 目錄
 
@@ -88,7 +88,7 @@ Campaign協調流程圍繞四大支柱建立：
 <table><tr style="border: 0; text-align: center;">
 <td>
 <a href="gs-campaign-creation.md">
-<img alt="存取並管理工作流程" src="assets/do-not-localize/workflow-access.jpeg">
+<img alt="存取及管理行銷活動" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
 <a href="gs-campaign-creation.md"><strong>設定步驟</strong></a>

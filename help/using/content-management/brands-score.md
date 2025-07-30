@@ -1,19 +1,18 @@
 ---
 title: 品牌一致性
 description: 瞭解如何使用品牌分數建立、驗證和管理品牌上內容。
-badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 25%
+source-wordcount: '265'
+ht-degree: 19%
 
 ---
 
-# 品牌一致性 (Beta){#brands-score}
+# 品牌一致性 {#brands-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
@@ -37,8 +36,7 @@ ht-degree: 25%
 
 >[!AVAILABILITY]
 >
->此功能以私人測試版形式發佈。未來版本將逐步開放所有客戶使用。
->&#x200B;>您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 「品牌一致性」功能可協助您建立、檢閱和管理符合品牌指引的內容。 它可確保您的電子郵件行銷活動的語調、訊息和視覺身分的一致性，同時在內容上線之前作為品質檢查。
 

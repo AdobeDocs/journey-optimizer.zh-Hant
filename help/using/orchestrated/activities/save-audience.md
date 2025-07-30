@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '479'
 ht-degree: 27%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"
->title="儲存對象活動"
+>title="儲存客群活動"
 >abstract="**儲存對象**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動，可讓您更新現有的對象，或是從先前在協調的行銷活動中產生的母體中建立新的對象。 一旦建立完畢，就會將這些客群新增至應用程式客群清單，再從&#x200B;**客群**&#x200B;選單那邊存取。"
 
 
@@ -45,7 +45,7 @@ ht-degree: 27%
 
 **[!UICONTROL 儲存對象]**&#x200B;活動是&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;活動，用來根據先前在協調的行銷活動中產生的母體來建立新對象或更新現有對象。 儲存後，對象會新增至應用程式對象清單，並可從&#x200B;**[!UICONTROL 對象]**&#x200B;功能表存取。
 
-它常用於擷取在相同行銷活動工作流程中建立的對象區段，以便在未來的行銷活動中重複使用。 通常會連線到其他目標定位活動，例如&#x200B;**[!UICONTROL 建立對象]**&#x200B;或&#x200B;**[!UICONTROL 合併]**，以儲存最終目標定位母體。
+它常用於擷取相同行銷活動內建立的對象區段，以便在未來的行銷活動中重複使用。 通常會連線到其他目標定位活動，例如&#x200B;**[!UICONTROL 建立對象]**&#x200B;或&#x200B;**[!UICONTROL 合併]**，以儲存最終目標定位母體。
 
 ## 設定儲存客群活動 {#save-audience-configuration}
 
