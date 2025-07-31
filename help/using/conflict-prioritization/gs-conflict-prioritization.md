@@ -4,10 +4,10 @@ description: 瞭解如何善用 Journey Optimizer 衝突與優先順序工具。
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
-workflow-type: ht
-source-wordcount: '622'
-ht-degree: 100%
+source-git-commit: 8146221975b7460bf1deaca9363d1624b719b480
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ### 規則集
 
-規則集讓您可以&#x200B;**先將許多規則設為群組改成規則集**，再將這些群組套用至選擇的歷程、行銷活動。這提供更明確的精細度，以便限制客戶在特定時段內可以進入的頻率、歷程次數，或可根據通訊類型，控制使用者接收到訊息的頻率。
+規則集讓您可以&#x200B;**先將許多規則設為群組改成規則集**，再將這些群組套用至選擇的歷程、行銷活動。這提供了更精細的精細度，以限制客戶在特定時間範圍內可以進入的頻率及歷程數，或根據通訊型別控制使用者接收訊息的頻率。 [學習如何使用規則集](../conflict-prioritization/rule-sets.md)
 
 * **歷程上限與仲裁**
 
