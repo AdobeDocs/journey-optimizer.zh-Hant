@@ -11,9 +11,9 @@ keywords: 子網域、委派、網域、DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
+source-git-commit: 0490045a763876d3518e3db92e8427691044f6aa
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '748'
 ht-degree: 20%
 
 ---
@@ -89,6 +89,10 @@ ht-degree: 20%
 
 1. 擷取之後，按一下&#x200B;**[!UICONTROL 上傳SSL憑證]**&#x200B;並將憑證以.pem格式上傳至[!DNL Journey Optimizer]。
 
+   >[!CAUTION]
+   >
+   >資料和CDN子網域都必須包含在相同的憑證中。
+
 ## 完成回饋迴路步驟 {#feedback-loop-steps}
 
 >[!CONTEXTUALHELP]
@@ -118,7 +122,7 @@ ht-degree: 20%
 
    ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
 
-1. 按一下[繼續]&#x200B;**&#x200B;**，然後等到Adobe驗證記錄是否已在您的代管解決方案上產生且沒有錯誤。 此程式最多可能需要2分鐘。
+1. 按一下[繼續]****，然後等到Adobe驗證記錄是否已在您的代管解決方案上產生且沒有錯誤。 此程式最多可能需要2分鐘。
 
    >[!NOTE]
    >
