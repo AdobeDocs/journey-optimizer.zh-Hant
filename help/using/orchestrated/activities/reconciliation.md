@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 83%
+source-wordcount: '654'
+ht-degree: 75%
 
 ---
 
@@ -73,14 +73,13 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
 >title="調和規則"
->abstract="選取用於重複資料刪除的調和規則。若要使用屬性，請選取&#x200B;**簡單屬性**&#x200B;選項，然後選擇來源欄位和目的地欄位。若要使用查詢建模工具建立您自己的調和條件，請選取&#x200B;**進階調和條件**&#x200B;選項。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查詢建模工具"
+>abstract="選取用於重複資料刪除的調和規則。若要使用屬性，請選取&#x200B;**簡單屬性**&#x200B;選項，然後選擇來源欄位和目的地欄位。若要使用規則產生器建立自己的調解條件，請選取&#x200B;**進階調解條件**&#x200B;選項。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="選取目標市場選擇維度"
 >abstract="選取要調和之輸入資料的目標市場選擇維度。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=zh-Hant&#targeting-dimensions" text="目標市場選擇維度"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?#targeting-dimensions" text="目標市場選擇維度"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
@@ -94,7 +93,7 @@ ht-degree: 83%
 
 請按照以下步驟設定「**[!UICONTROL 調和]**」活動：
 
-1. 在您的工作流程中新增一個「**[!UICONTROL 調和]**」活動。
+1. 將&#x200B;**[!UICONTROL 調解]**&#x200B;活動新增至畫布。
 
 1. 選擇新的目標維度，以定義您要定位的客群，例如收件者或訂閱者。
 
@@ -114,9 +113,9 @@ ht-degree: 83%
 
 1. 若要新增更多匹配規則，請按一下「**[!UICONTROL 新增規則]**」。必須符合所有條件，才能匹配。
 
-1. 如需更複雜的條件，請選擇「**[!UICONTROL 進階調和條件]**」。使用[查詢建模工具](../orchestrated-rule-builder.md)來定義自訂邏輯。
+1. 如需更複雜的條件，請選擇「**[!UICONTROL 進階調和條件]**」。使用[規則產生器](../orchestrated-rule-builder.md)來定義自訂邏輯。
 
-1. 若要篩選要調和的資料，請按一下「**[!UICONTROL 建立篩選器]**」，並在查詢建模工具中定義條件。
+1. 若要篩選要調解的資料，請按一下&#x200B;**[!UICONTROL 建立篩選器]**，然後在規則產生器中定義條件。
 
 1. 預設情況下，不匹配的資料會保留在傳出轉變中，並儲存在工作表中。若要移除不匹配的資料，請啟用「**[!UICONTROL 保留未調和的資料]**」選項。
 

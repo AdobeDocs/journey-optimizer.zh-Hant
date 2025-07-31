@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 77%
+ht-degree: 68%
 
 ---
 
@@ -43,13 +43,13 @@ ht-degree: 77%
 
 ## 存取規則產生器
 
-查詢建模工具適用於每個您需要定義篩選資料的規則的環境。
+您必須在每個需要定義規則以篩選資料的內容中，都能使用規則產生器。
 
 | 使用方式 | 範例 |
 |  ---  |  ---  |
 | **建立對象**：使用&#x200B;**[!UICONTROL 建立對象]**&#x200B;活動，指定您要在協調行銷活動中鎖定的母體，並輕鬆建立符合您需求的新對象。 [了解如何建立客群](../orchestrated/activities/build-audience.md) | ![顯示如何存取客群建立介面的影像](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
 | **在行銷活動畫布中建立條件**：使用&#x200B;**[!UICONTROL 分割]**&#x200B;活動在行銷活動畫布中套用規則，以符合您的特定需求。[了解如何使用分割活動](../orchestrated/activities/split.md) | ![顯示如何存取工作流程自訂選項的影像](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
-| **建立進階篩選器**：建立規則以篩選清單中顯示的資料，例如工作流程記錄或目標定位維度。 | ![顯示如何自訂清單篩選器的影像](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
+| **建立進階篩選器**：建置規則以篩選清單中顯示的資料，例如行銷活動記錄檔或目標維度。 | ![顯示如何自訂清單篩選器的影像](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
 ## 規則產生器介面 {#interface}
 

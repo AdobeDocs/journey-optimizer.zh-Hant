@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 62%
+ht-degree: 59%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 62%
 
 1. 您可以將多個輸出轉變新增到&#x200B;**[!UICONTROL 測試]**&#x200B;活動。若要這麼做，請按一下「**[!UICONTROL 新增條件]**」按鈕，並為每個轉變設定標籤和相關聯的條件。
 v
-1. 在協調的行銷活動執行期間，會依序測試每個條件，直到符合其中一個條件為止。 如果未符合任何條件，協調的行銷活動會沿著&#x200B;**[!UICONTROL 預設條件]**&#x200B;的路徑繼續。 如果沒有啟用預設條件，工作流程將在此時停止。
+1. 在協調的行銷活動執行期間，會依序測試每個條件，直到符合其中一個條件為止。 如果未符合任何條件，協調的行銷活動會沿著&#x200B;**[!UICONTROL 預設條件]**&#x200B;的路徑繼續。 如果未啟用預設條件，則行銷活動會在此點停止。
 
 ## 範例 {#example}
 
