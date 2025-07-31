@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，歷程，訊息，傳送，連線
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
+source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 46%
@@ -24,7 +24,6 @@ ht-degree: 46%
 >abstract="動作是指您向客戶提供個人化即時體驗時使用的連結，例如推播通知、電子郵件、簡訊或您在業務中使用的任何其他數位參與方式。"
 
 動作是指您向客戶提供個人化即時體驗時使用的連結，例如推播通知、電子郵件、簡訊或您在業務中使用的任何其他數位參與方式。
-
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -50,4 +49,4 @@ ht-degree: 46%
 
 瞭解如何設定自訂動作。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430271?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)

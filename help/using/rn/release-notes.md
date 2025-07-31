@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5eac1f0ce80d979766428d661addbeeb887cfac1
+source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
-source-wordcount: '1951'
-ht-degree: 70%
+source-wordcount: '2053'
+ht-degree: 69%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 70%
 <!--
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **發行日期**： 2025年7月29日
 
@@ -185,24 +185,23 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </table>
 -->
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Supplemental ID for journeys</strong><br/></th>
+<th><strong>歷程的補充ID</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now trigger journeys using a profile ID along with another identifier, such as an order ID, subscription ID, or prescription ID, allowing the same profile to be in the same journey multiple times at once. This enables scenarios like managing multiple orders or subscriptions in parallel, with each instance following its own path through the journey.</p>
-<p>Previously released in Limited Availability, the use of supplemental IDs in journeys is now available to all environments. With this General Availability release, the feature now includes support for Read audience journeys.</p>
+<p>目前您可以使用輪廓 ID 和其他識別碼（例如訂購 ID、訂閱 ID 或處方 ID）來觸發歷程，即可允許同一設定檔同時出現在同一歷程中許多次。這能啟用某些情境，同時管理許多訂單或訂閱，每個執行個體還會依循自己的歷程路徑操作。</p>
+<p>以前在「有限可用性」中發佈，現在所有環境都可以在歷程中使用補充ID。 在此「一般可用性」版本中，功能現在包含對「讀取對象」歷程的支援。</p>
 <p><img src="assets/do-not-localize/gif-supplemental.gif"/></p>
-<p>For more information, refer to the <a href="../building-journeys/supplemental-identifier.md">detailed documentation</a></p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/supplemental-identifier.md">詳細檔案</a></p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 ### 歷程條件的變更 {#ee-change@}
 
@@ -265,7 +264,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 **發行日期**：2025 年 6 月 18 日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 全新功能 {#25-06-features}
 
