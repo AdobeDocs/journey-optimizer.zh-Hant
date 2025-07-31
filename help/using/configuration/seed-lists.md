@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 種子清單，種子清單，種子，設定
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 17%
+source-wordcount: '985'
+ht-degree: 16%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 17%
 >id="ajo_seed_list_details"
 >title="定義種子清單"
 >abstract="使用種子清單自動將指定的內部地址新增到您的傳遞對象，當作保障機制。種子清單讓您可以監視發送出去的郵件副本，以確保所有顯示元素正確無誤並保護您的郵寄清單。目前該功能僅適用於電子郵件管道。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hant#use-seed-list" text="什麼是種子清單?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
@@ -155,5 +155,7 @@ ht-degree: 17%
 現在，每次透過該促銷活動或歷程將電子郵件訊息傳送給客戶時，所選種子清單上的電子郵件地址也將以相同的條件收到訊息，同時具有與目標收件者相同的內容。
 
 >[!NOTE]
+>
+>[測試模式](../building-journeys/testing-the-journey.md)歷程不會傳送電子郵件給種子清單。 若要檢查您的電子郵件內容，請在傳送郵件之前使用[預覽和測試](../content-management/preview-test.md)功能。
 >
 >對於週期性歷程，只要至少一個設定檔達到電子郵件節點，就會在每次歷程執行時將電子郵件傳送傳送至種子地址。
