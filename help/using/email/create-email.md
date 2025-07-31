@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 建立，電子郵件，開始，歷程，行銷活動
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 9%
+source-wordcount: '1033'
+ht-degree: 8%
 
 ---
 
@@ -84,7 +84,17 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_campaign_edit_content.png)
 
-   在&#x200B;**[!UICONTROL 編輯內容]**&#x200B;畫面的&#x200B;**[!UICONTROL 標題]**&#x200B;區段中，**[!UICONTROL 寄件者名稱]**、**[!UICONTROL 寄件者電子郵件]**&#x200B;和&#x200B;**[!UICONTROL 密件副本]**&#x200B;欄位已設定在您選取的電子郵件組態中。 [深入瞭解](email-settings.md) <!--check if same for journey-->
+1. 若要在電子郵件中新增決定原則，請切換&#x200B;**[!UICONTROL 啟用決定]**。
+
+   決策原則是優惠方案的容器，可運用決策引擎以動態方式傳回最佳內容，供每個受眾成員傳送。 [瞭解如何在電子郵件中新增決定原則](../experience-decisioning/create-decision.md#add)
+
+   ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
+
+   >[!AVAILABILITY]
+   >
+   >目前，已購買Adobe Healthcare Shield或Privacy and Security Shield附加產品的組織無法使用電子郵件中的決策原則建立。
+
+1. 在&#x200B;**[!UICONTROL 標題]**&#x200B;區段中，檢查&#x200B;**[!UICONTROL 寄件者名稱]**、**[!UICONTROL 寄件者電子郵件]**&#x200B;和&#x200B;**[!UICONTROL 密件副本]**&#x200B;欄位。 它們是在您選取的電子郵件設定中設定。 [深入瞭解](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
@@ -92,9 +102,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    >[!NOTE]
    >
-   >* 主旨列是必填欄位。
-   >
-   >* 主旨列不得包含分行符號。
+   >主旨列是必填欄位。 其中不可包含分行符號。
 
 1. 按一下&#x200B;**[!UICONTROL 編輯電子郵件內文]**&#x200B;按鈕以存取電子郵件Designer並開始建立您的內容。 [了解更多](get-started-email-design.md)
 

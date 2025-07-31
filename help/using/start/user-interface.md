@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 99%
@@ -113,7 +113,7 @@ ht-degree: 99%
 
 * **[!UICONTROL 輪廓]** - 即時客戶輪廓可為個別客戶建立整體檢視，並結合來自多個頻道的資料，包括線上、離線、CRM 和第三方資料。[了解更多](../audience/get-started-profiles.md)
 
-* **[!UICONTROL 識別]** - Adobe Experience Platform 身分服務透過 Adobe Experience Platform 的身分圖表，管理跨裝置、跨頻道及幾乎即時的客戶身分識別。[了解更多](../audience/get-started-identity.md)
+* **[!UICONTROL 識別]** - Adobe Experience Platform 身分識別服務透過 Adobe Experience Platform 的身分圖表，管理跨裝置、跨頻道及幾乎即時的客戶身分識別。[了解更多](../audience/get-started-identity.md)
 
 ### [!UICONTROL 隱私權] {#left-nav-privacy}
 
@@ -326,3 +326,4 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 >id="ajo_journey_simulation"
 >title="模擬您的歷程"
 >abstract="歷程模擬可讓您驗證您的歷程，並在啟動歷程之前查看執行績效。此模擬會使用經過訓練的模型資料在整個歷程中提供數據，以便了解該歷程在真實狀況下的表現績效。"
+

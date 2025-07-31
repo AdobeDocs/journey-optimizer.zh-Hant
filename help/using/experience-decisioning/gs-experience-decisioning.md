@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '519'
 ht-degree: 25%
 
 ---
@@ -56,7 +56,7 @@ Decisioning 會透過提供集中行銷產品建議目錄，又稱為「決策�
 
    接著，使用者應會收到一封電子郵件，並重新導向至您的執行個體。
 
-   +++
++++
 
 1. **設定自訂屬性**：將自訂屬性設定到目錄的結構描述中，根據您的特定需求量身打造專案目錄。
 
@@ -82,7 +82,7 @@ Decisioning 會透過提供集中行銷產品建議目錄，又稱為「決策�
 
    ➡️ [瞭解如何在使用者介面的使用者介面中建立選擇策略](selection-strategies.md) （以及在[API檔案](api-reference/selection-strategies/create.md)中）
 
-1. **建立決定原則並將其內嵌至您的程式碼型行銷活動**：決定原則會結合多個選取策略，以決定要顯示給目標對象的合格決定專案。
+1. **建立決定原則並將其內嵌至您的程式碼型或電子郵件歷程/行銷活動**：決定原則會結合多個選取策略，以決定要顯示給目標對象的合格決定專案。
 
    ➡️ [瞭解如何使用決定原則](create-decision.md)
 ➡️若要透過程式碼型體驗通道成功傳遞優惠方案，請依照[本節](../code-based/code-based-implementation-samples.md)中的實作步驟操作。

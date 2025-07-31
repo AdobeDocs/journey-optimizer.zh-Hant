@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2594'
 ht-degree: 95%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 95%
    + [最佳作法](using/start/best-practices.md)
 + 歷程 {#orchestrate-journeys}
    + [開始使用歷程](using/building-journeys/journey.md)
-   + 建立歷程{#create-journey}
+   + 建立歷程 {#create-journey}
       + [建立您的第一個歷程](using/building-journeys/journey-gs.md)
       + [設定您的歷程屬性](using/building-journeys/journey-properties.md)
       + [設定並追蹤歷程量度](using/building-journeys/success-metrics.md)
@@ -53,7 +53,7 @@ ht-degree: 95%
       + [發佈您的歷程](using/building-journeys/publishing-the-journey.md)
       + [暫停歷程](using/building-journeys/journey-pause.md)
       + [歷程中的即時報告](using/building-journeys/report-journey.md)
-   + 管理歷程{#manage-journey}
+   + 管理歷程 {#manage-journey}
       + [瀏覽及篩選您的歷程](using/building-journeys/journey-ui.md)
       + [歷程中的設定檔入口](using/building-journeys/entry-management.md)
       + [事件觸發歷程中的補充識別碼](using/building-journeys/supplemental-identifier.md)
@@ -191,8 +191,8 @@ ht-degree: 95%
       + [定義行銷活動對象](using/campaigns/campaign-audience.md)
       + [排程行銷活動](using/campaigns/campaign-schedule.md)
       + [檢閱及啟動動作行銷活動](using/campaigns/review-activate-campaign.md)
-   + API觸發的行銷活動 {#api-triggered-campaigns}
-      + [使用API觸發的行銷活動](using/campaigns/api-triggered-campaigns.md)
+   + API 觸發的行銷活動 {#api-triggered-campaigns}
+      + [使用 API 觸發的行銷活動](using/campaigns/api-triggered-campaigns.md)
       + [定義行銷活動屬性](using/campaigns/api-triggered-campaign-properties.md)
       + [設定行銷活動動作](using/campaigns/api-triggered-campaign-action.md)
       + [編輯行銷活動內容](using/campaigns/api-triggered-campaign-content.md)
@@ -452,7 +452,7 @@ ht-degree: 95%
       + [使用 AI 的內容實驗](using/content-management/generative-experimentation.md)
       + [使用 AI 登陸頁面](using/content-management/generative-lp.md)
       + [AI 助理使用案例](using/content-management/generative-uc.md)
-      + 品牌（Beta 測試版）{#brands}
+      + 品牌 {#brands}
          + [建立並管理品牌](using/content-management/brands.md)
          + [評估品牌定位分數](using/content-management/brands-score.md)
    + 多語種內容{#content-multilingual}
@@ -585,6 +585,7 @@ ht-degree: 95%
             + [自動最佳化模型](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [個人化最佳化模型](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [建立 AI 模型](using/experience-decisioning/ranking/create-ai-models.md)
+      + [使用位置](using/experience-decisioning/placements.md)
       + 使用 Adobe Experience Platform 資料 {#aep-data}
          + [善用內容資料](using/experience-decisioning/context-data.md)
          + [使用 Adobe Experience Platform 進行決策](using/experience-decisioning/aep-data-exd.md)
