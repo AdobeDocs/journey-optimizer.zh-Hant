@@ -9,16 +9,20 @@ role: User
 level: Beginner, Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+source-git-commit: 65a6afddfbc53afb88c6e69449720ac67f8f8f39
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 30%
+source-wordcount: '1274'
+ht-degree: 28%
 
 ---
 
 # 新增連結及追蹤訊息 {#tracking}
 
 使用[!DNL Journey Optimizer]新增連結至您的內容並追蹤傳送的訊息，以監視收件者的行為。
+
+>[!NOTE]
+>
+>當連結包含在您的內容中時，會在訊息傳送後&#x200B;**25個月**&#x200B;過期，但映象頁面的連結除外，其會在&#x200B;**90天**&#x200B;後過期。 延遲過後，這些連結就無法再使用。
 
 ## 啟用追蹤 {#enable-tracking}
 
@@ -55,7 +59,7 @@ ht-degree: 30%
 
 若要將連結插入到電子郵件內容，請依照以下步驟進行：
 
-1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。**&#x200B;**
+1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。****
 
    ![](assets/message-tracking-insert-link.png)
 
@@ -79,7 +83,7 @@ ht-degree: 30%
    >
    >若要解譯URL，[!DNL Journey Optimizer]符合URI語法（[RFC 3986標準](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}），這會停用URL中的某些特殊國際字元。 嘗試傳送校樣或電子郵件時，如果您傳回的錯誤涉及新增到內容的URL，您可以URL編碼字串作為因應措施。
 
-1. 您可以個人化連結。 [了解更多](../personalization/personalization-syntax.md#perso-urls)
+1. 您可以個人化連結。 [了解更多](../personalization/personalization-build-expressions.md)
 
 1. 儲存您的變更。
 
@@ -91,6 +95,7 @@ ht-degree: 30%
 >
 >行銷型別電子郵件訊息必須包含[選擇退出連結](../privacy/opt-out.md#opt-out-management)，交易式訊息不需要此連結。 訊息類別（**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]**）在建立訊息時已在[頻道設定](../configuration/channel-surfaces.md#email-type)中定義。
 
+傳送訊息之後，連結的保留期間為&#x200B;**25個月**。 延遲後，連結將無法再使用。
 
 ## 連結至映象頁面 {#mirror-page}
 
@@ -104,7 +109,7 @@ Adobe Journey Optimizer產生的映象頁面包含所有個人化資料。
 
 映象頁面會自動建立。 電子郵件傳送後，當收件者按一下鏡像頁面連結時，電子郵件的內容將顯示在他們的預設網頁瀏覽器中。
 
-映象頁面的保留期為&#x200B;**60天**。 該段時間之後，鏡像頁面無法繼續使用。
+映象頁面的保留期為&#x200B;**90天**。 該段時間之後，鏡像頁面無法繼續使用。
 
 >[!CAUTION]
 >
@@ -177,7 +182,7 @@ Adobe Journey Optimizer產生的映象頁面包含所有個人化資料。
 
 [URL追蹤](email-settings.md#url-tracking)在設定層級管理，並套用至訊息內容中包含的所有URL。
 
-您也可以在電子郵件Designer中[個人化個別URL](../personalization/personalization-syntax.md#perso-urls)。 若要將個人化URL追蹤引數新增至內容中的單一連結，請遵循下列步驟。
+您也可以在電子郵件Designer中個人化個別URL。 若要將個人化URL追蹤引數新增至內容中的單一連結，請遵循下列步驟。
 
 1. 選取連結並按一下內容工具列中的&#x200B;**[!UICONTROL 插入連結]**。
 
@@ -185,7 +190,7 @@ Adobe Journey Optimizer產生的映象頁面包含所有個人化資料。
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. 新增URL追蹤引數，並從個人化編輯器中選取您選取的設定檔屬性。
+1. 新增URL追蹤引數，並從[個人化編輯器](../personalization/personalization-build-expressions.md)中選取您選擇的設定檔屬性。
 
    ![](assets/message-tracking-perso-parameter.png)
 
