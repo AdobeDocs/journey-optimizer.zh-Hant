@@ -3,14 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 管理品牌
 description: 瞭解如何建立和管理您的品牌指引
-badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: f9266d01610b92d8a55be8263da6bb808b3cc8ff
+source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1451'
 ht-degree: 22%
 
 ---
@@ -34,8 +33,6 @@ ht-degree: 22%
 
 >[!AVAILABILITY]
 >
->此功能以私人測試版的形式提供。 未來版本將逐步開放所有客戶使用。
->
 >您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 品牌指引是一組詳細的規則和標準，可建立品牌的視覺和口頭識別。 這些可作為參考，以在所有行銷和通訊平台上維持一致的品牌代表性。
@@ -44,7 +41,7 @@ ht-degree: 22%
 
 ## 存取品牌 {#generative-access}
 
-若要存取[!DNL Adobe Journey Optimizer]中的&#x200B;**[!UICONTROL 品牌]**&#x200B;功能表，使用者必須被授與&#x200B;**[!UICONTROL 管理品牌套件]**&#x200B;或&#x200B;**[!UICONTROL 啟用AI小幫手]**&#x200B;許可權。 [了解更多](../administration/permissions.md)
+若要存取&#x200B;**[!UICONTROL 中的]**&#x200B;品牌[!DNL Adobe Journey Optimizer]功能表，使用者必須被授與&#x200B;**[!UICONTROL 管理品牌套件]**&#x200B;或&#x200B;**[!UICONTROL 啟用AI小幫手]**&#x200B;許可權。 [了解更多](../administration/permissions.md)
 
 +++  瞭解如何指派品牌相關許可權
 
@@ -103,7 +100,7 @@ ht-degree: 22%
 
 1. 設定之後，按一下&#x200B;**[!UICONTROL 儲存]**，然後按一下&#x200B;**[!UICONTROL 發佈]**，讓您的品牌指引可在AI助理中取得。
 
-1. 若要修改您發佈的品牌，請按一下[編輯品牌]。**&#x200B;**
+1. 若要修改您發佈的品牌，請按一下[編輯品牌]。****
 
    >[!NOTE]
    >
@@ -276,7 +273,7 @@ ht-degree: 22%
 
 1. 從&#x200B;**[!UICONTROL 寫入樣式]**&#x200B;索引標籤，按一下![](assets/do-not-localize/Smock_Add_18_N.svg)以新增建議、例外或排除專案。
 
-1. 輸入您的建議、例外或排除專案，然後按一下[新增]。**&#x200B;**
+1. 輸入您的建議、例外或排除專案，然後按一下[新增]。****
 
    ![](assets/brands-3.png)
 
@@ -338,7 +335,7 @@ ht-degree: 22%
 
 1. 從&#x200B;**[!UICONTROL 視覺內容]**&#x200B;索引標籤，按一下![](assets/do-not-localize/Smock_Add_18_N.svg)以新增指引、排除專案或範例。
 
-1. 輸入您的建議、排除專案或範例，然後按一下[新增]。**&#x200B;**
+1. 輸入您的建議、排除專案或範例，然後按一下[新增]。****
 
    ![](assets/brands-4.png)
 

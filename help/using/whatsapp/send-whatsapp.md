@@ -7,28 +7,15 @@ feature: Whatsapp
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+source-git-commit: 623d9b15d1f7f4e7f73f26cf3e19516bed4c0f56
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 9%
+source-wordcount: '242'
+ht-degree: 3%
 
 ---
 
 # 檢查並傳送 WhatsApp 訊息 {#send-whatsapp}
-
->[!BEGINSHADEBOX]
-
-**目錄**
-
-* [開始使用 WhatsApp 訊息](get-started-whatsapp.md)
-* [開始使用 WhatsApp 設定](whatsapp-configuration.md)
-* [建立 WhatsApp 訊息](create-whatsapp.md)
-* **[檢查並傳送您的WhatsApp訊息](send-whatsapp.md)**
-
->[!ENDSHADEBOX]
 
 ## 預覽您的WhatsApp訊息 {#preview-whatsapp}
 
