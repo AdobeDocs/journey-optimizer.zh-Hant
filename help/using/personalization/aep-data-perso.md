@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: 07e855b1a334a226c34223e5dd034f88733d6e2e
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '779'
 ht-degree: 3%
 
 ---
@@ -33,21 +33,6 @@ Journey Optimizer可讓您在個人化編輯器中運用Adobe Experience Platfor
 
 * **支援的頻道**：目前，此功能僅可用於電子郵件、簡訊和直接郵件頻道。
 * **片段**：目前無法將資料集查詢個人化放在運算式或視覺化片段中。
-
-### 決策 {#decisioning}
-
-即將推出在Experience Decisioning排名公式和規則中運用[!DNL Adobe Experience Platform]個資料集的功能。
-
-同時，請檢閱以下概述的目前護欄：
-
-* 決策原則僅限3個資料集，
-* 一個決定規則可以使用3個資料集，
-* 排名公式可以使用3個資料集，
-* 決定原則限製為1000個記錄查詢。
-
->[!NOTE]
->
->如果您想要存取此功能，請聯絡您的客戶代表
 
 ## 啟用資料集以進行資料查詢 {#enable}
 
@@ -84,11 +69,11 @@ Journey Optimizer可讓您在個人化編輯器中運用Adobe Experience Platfor
 
    +++在哪裡擷取資料集ID？
 
-   可在Adobe Experience Platform使用者介面中擷取資料集ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}中瞭解如何使用資料集。
+   可在Adobe Experience Platform使用者介面中擷取資料集ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}中瞭解如何使用資料集。
 
    ![](assets/aep-data-dataset.png)
 
-   +++
++++
 
 1. 調整語法以符合您的需求。 在此範例中，我們要擷取和乘客航班相關的資料。 語法如下：
 
@@ -115,11 +100,11 @@ Journey Optimizer可讓您在個人化編輯器中運用Adobe Experience Platfor
 
      +++從何處擷取欄位ID？
 
-     在Adobe Experience Platform使用者介面中預覽資料集時，可以擷取欄位ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中瞭解如何預覽資料集。
+     在Adobe Experience Platform使用者介面中預覽資料集時，可以擷取欄位ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中瞭解如何預覽資料集。
 
      ![](assets/aep-data-field.png)
 
-     +++
++++
 
    在此範例中，我們想使用與乘客登機時間和登機口相關的資訊。 因此，我們新增這兩行：
 
