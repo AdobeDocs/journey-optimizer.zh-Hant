@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: cf700f4097883c875c74196317f6494f74f9bc7c
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 19%
+source-wordcount: '836'
+ht-degree: 25%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 19%
 
 >[!AVAILABILITY]
 >
->只要是客戶都可在公開測試版中，使用此功能。如果您想要存取許可權，請聯絡您的客戶代表。
+>所有客戶都可在公開測試版中，使用此功能。如果您想要存取權，請聯絡您的客戶代表。
 
-[!DNL Journey Optimizer]可讓您利用來自[!DNL Adobe Experience Platform]的資料進行決策。 這可讓您將決策屬性的定義擴充至資料集中的其他資料，以便定期變更的大量更新，而無需一次手動更新一個屬性。 例如，可用性、等待時間等。
+[!DNL Journey Optimizer]可讓您利用來自[!DNL Adobe Experience Platform]的資料進行決策。 這可讓您將決策屬性的定義擴充至資料集中的其他資料，以便進行定期變更的大量更新，而無需一次手動更新一個屬性。例如，可用性、等待時間等。
 
-## Beta限制和指引 {#guidelines}
+## 護欄和限制 {#guidelines}
 
 開始之前，請注意下列限制和准則：
 
