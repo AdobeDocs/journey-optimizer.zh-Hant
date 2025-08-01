@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 57%
+ht-degree: 53%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 57%
 
 1. 按一下&#x200B;**[!UICONTROL 繼續]**。
 
-1. 使用查詢建模工具，定義您的查詢。 [若想了解查詢建模工具的詳細資訊，請參閱本章節](../orchestrated-rule-builder.md)
+1. 使用規則產生器來定義您的查詢。 [在本節中進一步瞭解規則產生器](../orchestrated-rule-builder.md)
 
 1. 指定客群為空時，是否應產生傳出轉變。
 

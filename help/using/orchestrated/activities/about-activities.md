@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 59%
@@ -53,7 +53,7 @@ ht-degree: 59%
 
 ![目標定位活動清單](../assets/targeting-activities.png){width="40%" align="left"}
 
-* [建立客群](build-audience.md)：定義目標族群。 您可以選取現有客群，或是使用查詢建模工具，定義自己的查詢。
+* [建立客群](build-audience.md)：定義目標族群。 您可以選取現有客群或使用規則建置器定義自己的查詢。
 * [變更維度](change-dimension.md)：在建置您的協調行銷活動時變更目標維度。
 * [合併](combine.md)：針對傳入族群，執行細分。 您可以使用聯合、交集或排除。
 * [重複資料刪除](deduplication.md)：刪除傳入活動結果中的重複項目。

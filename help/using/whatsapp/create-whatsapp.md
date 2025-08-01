@@ -7,29 +7,16 @@ feature: Whatsapp
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 7%
+source-wordcount: '842'
+ht-degree: 4%
 
 ---
 
 
 # 建立 WhatsApp 訊息 {#create-whatsapp}
-
->[!BEGINSHADEBOX]
-
-**目錄**
-
-* [開始使用 WhatsApp 訊息](get-started-whatsapp.md)
-* [開始使用 WhatsApp 設定](whatsapp-configuration.md)
-* **[建立WhatsApp訊息](create-whatsapp.md)**
-* [檢查並傳送 WhatsApp 訊息](send-whatsapp.md)
-
->[!ENDSHADEBOX]
 
 透過Adobe Journey Optimizer，您可以在WhatsApp上設計和傳送吸引人的訊息。 只需將WhatsApp動作新增至您的歷程或行銷活動，並製作您的訊息內容，如下所述。 Adobe Journey Optimizer也可讓您在傳送WhatsApp訊息之前先行測試，確保完美的呈現、精確的個人化，以及所有設定的正確設定。
 
@@ -55,7 +42,8 @@ WhatsApp支援下列訊息型別：
 | 行動號召 | 說明 |
 |-|-|
 | 造訪網站 | 只允許一個按鈕，包含變數引數。 |
-
+| 使用WhatsApp撥打電話 | 提供一個按鈕，可直接從訊息開啟與指定電話號碼的WhatsApp聊天。 |
+| 呼叫電話號碼 | 提供當使用者點選時，向指定號碼發起電話通話的按鈕。 |
 
 +++
 
@@ -146,11 +134,15 @@ WhatsApp支援下列訊息型別：
 
    ![](assets/whatsapp-design-2.png)
 
+1. 在&#x200B;**[!UICONTROL 影像URL]**&#x200B;欄位中，新增媒體URL以取代範本中的任何預留位置。 Meta的範本媒體只是預留位置。 若要正確顯示影像、音訊或視訊，您必須使用來自Adobe Experience Manager或其他來源的外部URL。
+
+   ![](assets/whatsapp-design-3.png)
+
 1. 使用個人化編輯器將個人化新增到您的範本。 您可以使用任何屬性，例如設定檔名稱或城市。
 
    瀏覽下列頁面，進一步瞭解[個人化](../personalization/personalize.md)。
 
-   ![](assets/whatsapp-design-3.png)
+   ![](assets/whatsapp-design-4.png)
 
 1. 使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕來預覽您的WhatsApp訊息內容、縮短的URL和個人化內容。 [了解更多](send-whatsapp.md)
 
@@ -195,3 +187,14 @@ Once you have performed your tests and validated the content, you can send your 
 
 >[!ENDTABS]
 -->
+
+
+## 作法影片 {#video}
+
+以下影片說明如何使用Adobe Journey Optimizer建立多步驟WhatsApp歷程。
+
++++ 請觀看影片
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
+
++++
