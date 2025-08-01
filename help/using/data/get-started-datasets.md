@@ -9,9 +9,9 @@ level: Experienced
 keywords: 平台、資料湖、建立、湖、資料集、設定檔
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 7fb853a898a84ff31c7a24b48f963f06c4d10b6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '873'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->自2024年11月1日起，串流區段不再支援[!DNL Journey Optimizer]追蹤和意見資料集的傳送和開啟事件。 若要實作頻率上限或疲勞管理，請改用商業規則。 您可在[本節](../conflict-prioritization/rule-sets.md)中找到更多詳細資料，包括每日上限[的使用案例說明](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}。
+>自 2024 年 11 月 1 日起，串流分段已不再支援來自 [!DNL Journey Optimizer] 追蹤、回饋資料集的傳送、開啟事件。針對實作頻率上限或疲勞管理部分，請改用企業規則。 您可在[本章節](../conflict-prioritization/rule-sets.md)中找到更多詳細資料，包括[此處](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}每日上限的使用案例說明。
 >
 >此外，自 2025 年 2 月起，存留時間 (TTL) 護欄正推廣至 Journey Optimizer 系統產生的資料集。 [了解更多](datasets-ttl.md)
 
