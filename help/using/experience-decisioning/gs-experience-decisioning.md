@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 41563414b2118ae1fcde65874c56f38daf4fa9ab
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 25%
+source-wordcount: '521'
+ht-degree: 24%
 
 ---
 
@@ -28,7 +28,7 @@ Decisioning 會透過提供集中行銷產品建議目錄，又稱為「決策�
 
 >[!IMPORTANT]
 >
->決策決策政策僅適用於程式碼型體驗行銷活動。
+>決策決策政策僅適用於程式碼型體驗和電子郵件行銷活動。
 
 ➡️在[本節](experience-decisioning-uc.md)中呈現了一個端對端使用案例，說明如何透過程式碼型體驗管道建立決定並用於內容實驗。
 
@@ -56,7 +56,7 @@ Decisioning 會透過提供集中行銷產品建議目錄，又稱為「決策�
 
    接著，使用者應會收到一封電子郵件，並重新導向至您的執行個體。
 
-   +++
++++
 
 1. **設定自訂屬性**：將自訂屬性設定到目錄的結構描述中，根據您的特定需求量身打造專案目錄。
 
