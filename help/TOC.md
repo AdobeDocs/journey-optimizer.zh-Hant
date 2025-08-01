@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '2594'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 95%
    + [協助工具](using/start/accessibility.md)
    + [使用案例教戰手冊](using/start/playbooks.md)
    + [使用 AI 助理](using/start/ai-assistant.md)
-   + [最佳作法](using/start/best-practices.md)
+   + [最佳做法](using/start/best-practices.md)
 + 歷程 {#orchestrate-journeys}
    + [開始使用歷程](using/building-journeys/journey.md)
    + 建立歷程 {#create-journey}
@@ -175,7 +175,7 @@ ht-degree: 95%
       + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
       + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
    + 疑難排解 {#troubleshoot-journey}
-      + [疑難排解您的歷程](using/building-journeys/gs-troubleshooting.md)
+      + [疑難排解歷程](using/building-journeys/gs-troubleshooting.md)
       + [疑難排解歷程錯誤](using/building-journeys/troubleshooting.md)
       + [疑難排解歷程執行](using/building-journeys/troubleshooting-execution.md)
       + [疑難排解傳入動作](using/building-journeys/troubleshooting-inbound.md)
@@ -187,24 +187,24 @@ ht-degree: 95%
       + [使用動作行銷活動](using/campaigns/create-campaign.md)
       + [定義行銷活動屬性](using/campaigns/campaign-properties.md)
       + [設定行銷活動動作](using/campaigns/campaign-action.md)
-      + [編輯行銷活動內容](using/campaigns/campaign-content.md)
-      + [定義行銷活動對象](using/campaigns/campaign-audience.md)
-      + [排程行銷活動](using/campaigns/campaign-schedule.md)
-      + [檢閱及啟動動作行銷活動](using/campaigns/review-activate-campaign.md)
-   + API 觸發的行銷活動 {#api-triggered-campaigns}
+      + [編輯行銷活動的內容](using/campaigns/campaign-content.md)
+      + [定義行銷活動的客群](using/campaigns/campaign-audience.md)
+      + [安排行銷活動](using/campaigns/campaign-schedule.md)
+      + [審閱並啟動動作的行銷活動](using/campaigns/review-activate-campaign.md)
+   + 由 API 觸發的行銷活動 {#api-triggered-campaigns}
       + [使用 API 觸發的行銷活動](using/campaigns/api-triggered-campaigns.md)
       + [定義行銷活動屬性](using/campaigns/api-triggered-campaign-properties.md)
       + [設定行銷活動動作](using/campaigns/api-triggered-campaign-action.md)
-      + [編輯行銷活動內容](using/campaigns/api-triggered-campaign-content.md)
-      + [定義行銷活動對象](using/campaigns/api-triggered-campaign-audience.md)
-      + [排程行銷活動](using/campaigns/api-triggered-campaign-schedule.md)
-      + [檢閱及啟動行銷活動](using/campaigns/review-activate-api-triggered-campaign.md)
+      + [編輯行銷活動的內容](using/campaigns/api-triggered-campaign-content.md)
+      + [定義行銷活動的客群](using/campaigns/api-triggered-campaign-audience.md)
+      + [安排行銷活動](using/campaigns/api-triggered-campaign-schedule.md)
+      + [審閱並啟動行銷活動](using/campaigns/review-activate-api-triggered-campaign.md)
       + [觸發行銷活動執行](using/campaigns/trigger-campaigns.md)
    + 協調的行銷活動 {#orchestrated-campaigns}
       + [開始使用協調的行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
       + 管理關聯式結構描述和資料集 {#schemas-datasets}
          + [開始使用結構描述和資料集](using/orchestrated/gs-schemas.md)
-         + [手動結構描述](using/orchestrated/manual-schema.md)
+         + [手動處理結構描述](using/orchestrated/manual-schema.md)
          + [檔案上傳結構描述](using/orchestrated/file-upload-schema.md)
          + [擷取資料](using/orchestrated/ingest-data.md)
       + [存取及管理協調的行銷活動](using/orchestrated/access-manage-orchestrated-campaigns.md)
@@ -277,7 +277,7 @@ ht-degree: 95%
             + [使用內容元件](using/email/content-components.md)
             + [運用視覺片段](using/email/use-visual-fragments.md)
             + [新增連結及追蹤訊息](using/email/message-tracking.md)
-            + [插入個人化產品建議](using/email/add-offers-email.md)
+            + [插入個人化優惠方案](using/email/add-offers-email.md)
             + [產生文字版本](using/email/text-version-email.md)
             + [新增中繼資料](using/email/email-metadata.md)
             + [新增自訂 CSS](using/email/custom-css.md)

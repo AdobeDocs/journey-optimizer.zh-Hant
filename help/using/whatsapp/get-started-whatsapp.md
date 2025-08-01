@@ -11,13 +11,13 @@ exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 44%
+ht-degree: 85%
 
 ---
 
 # 開始使用 WhatsApp 訊息 {#get-started-whatsapp}
 
-您現在可以透過Meta的[雲端API](https://developers.facebook.com/docs/whatsapp/cloud-api/)，直接透過Journey Optimizer傳送WhatsApp訊息。 此功能可將WhatsApp緊密整合至歷程和行銷活動，加強與收件者的溝通和參與。
+您目前可以透過 Meta 的[雲端 API](https://developers.facebook.com/docs/whatsapp/cloud-api/)，直接透過 Journey Optimizer 傳送 WhatsApp 訊息。 此功能可將 WhatsApp 緊密整合至歷程和行銷活動，強化和收件者之間的通訊和參與度。
 
 * 在&#x200B;**歷程**&#x200B;中。建立歷程、新增 **WhatsApp** 活動及定義基本設定，然後瀏覽至&#x200B;**[!UICONTROL 動作：WhatsApp]** 右窗格以建立 WhatsApp 訊息的內容。請在[此頁面](../building-journeys/journey-gs.md)進一步了解如何建立歷程。
 
@@ -31,7 +31,7 @@ ht-degree: 44%
 
 * Meta 企業管理員帳戶
 * [具有已驗證寄件者名稱與電話號碼的WhatsApp商業帳戶](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
-* [具有適當許可權的使用者授權權杖](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
+* [使用者授權權杖擁有適當使用權限](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 * [核准的 Meta 範本](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
 在繼續整合之前，您還需要瞭解下列內容：
@@ -42,15 +42,15 @@ ht-degree: 44%
 
 ## 限制 {#limitations}
 
-下列限制適用於WhatsApp頻道：
+下列限制適用於 WhatsApp 頻道：
 
-* Adobe Journey Optimizer中的WhatsApp頻道已可使用HIPAA，但協力廠商未納入Adobe的BAA。 客戶需自行負責法規遵循及廠商驗證。
+* 已經可以在 Adobe Journey Optimizer 中的 WhatsApp 頻道使用 HIPAA，但第三方還未納入 Adobe 的 BAA。 客戶需自行負責法規遵循及供應商驗證。
 
 * 請注意，系統尚未支援自動化或預先定義的回應訊息。
 
-* 自2025年4月起，針對擁有美國電話號碼（由+1撥號代碼和美國區碼所組成的號碼）的WhatsApp使用者，所有行銷範本訊息的傳送已暫時暫停。 [在中繼檔案中進一步瞭解](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)
+* 自 2025 年 4 月起，會針對擁有美國電話號碼 (由 +1 開始撥號的國碼、美國區域碼組成的號碼) 的 WhatsApp 使用者，暫時暫停傳送所有行銷範本訊息。 [可到 Meta 文件中進一步瞭解](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)
 
-* 原生整合功能不允許與協力廠商商務服務提供者(BSP)整合。
+* 原生整合功能不允許整合入第三方企業服務提供者 (BSP)。
 
 ## 作法影片 {#video}
 
@@ -58,7 +58,7 @@ ht-degree: 44%
 
 +++ 請觀看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470255?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

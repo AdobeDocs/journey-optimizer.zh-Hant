@@ -11,8 +11,8 @@ keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 71%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="行銷活動排程"
->abstract="預設情況下，行銷活動經由手動啟用後開始執行，並在訊息傳送一次後立即結束。您可以彈性設定發送訊息的具體日期和時間。此外，您可以對定期執行的動作行銷活動指定結束日期。在操作觸發條件中，你亦可根據自己的偏好設定訊息傳送頻率。"
+>abstract="預設情況下，行銷活動經由手動啟用後開始執行，並在訊息傳送一次後立即結束。您可以彈性設定發送訊息的具體日期和時間。此外，您還可以指定定期動作行銷活動的結束日期。在操作觸發條件中，你亦可根據自己的偏好設定訊息傳送頻率。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -62,15 +62,15 @@ ht-degree: 71%
 
 ![](assets/gs-campaigns.png)
 
-您可以在Journey Optimizer中建立不同型別的行銷活動：
+您可以在 Journey Optimizer 中，建立不同類型的行銷活動：
 
 * **動作行銷活動**
 
-  行動行銷活動（或排程行銷活動）允許對行銷使用案例進行簡單的臨時批次通訊，例如促銷優惠、參與行銷活動、公告、法律通知或原則更新。
+  動作行銷活動 (或是已排程行銷活動) 允許用於行銷活動使用案例的簡單臨時批量通訊，例如促銷優惠、參與行銷活動、公告、法律通知或原則更新。
 
-* **API觸發的行銷活動**
+* **由 API 觸發的行銷活動**
 
-  API觸發的行銷活動可讓行銷通訊在適當的時間聯絡對象，或讓交易/營運訊息聯絡個人（例如密碼重設），其需求可能涉及個人化，不僅使用設定檔屬性，還會在觸發程式（即REST API裝載）中使用即時內容資料。
+  API 觸發的行銷活動允許使用行銷通訊，以便在適當時間和客群保持聯絡，或者允許向個人傳送交易型/操作訊息，例如密碼重設，其中的需求可能涉及個體，不只會使用設定檔屬性，還會使用觸發程序中的即時上下文資料，也就是 REST API 的裝載內容。
 
 <!--* **Orchestrated campaigns**
 
@@ -80,9 +80,9 @@ ht-degree: 71%
 
 ## 開始之前 {#campaign-prerequisites}
 
-在[!DNL Journey Optimizer]中開始建立第一個行銷活動之前，請先檢查下列必要條件：
+開始在 Journey Optimizer 首次建立行銷活動之前，請先檢查下列先決條件[!DNL Journey Optimizer]：
 
-1. **您需要適當的權限**。行銷活動僅適用於具有行銷活動相關&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;存取權的使用者，例如行銷活動管理員、行銷活動核准者、行銷活動管理員及/或行銷活動檢視者。 如果您無法存取行銷活動，則必須擴充您的許可權。
+1. **您需要適當的權限**。只有有權存取與行銷活動相關的&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;使用者，例如行銷活動的系統管理員、行銷活動核准者、行銷活動管理員和/或行銷活動檢視者，才可以存取行銷活動。如果您無法存取行銷活動，就必須延長您的使用權限。 
 
    +++了解如何指派行銷活動相關角色
 
@@ -96,19 +96,19 @@ ht-degree: 71%
 
    接著，使用者應會收到一封電子郵件，並重新導向至您的執行個體。
 
-   +++
++++
 
-1. **您需要客群**。建立行銷活動之前必須有可用的客群。 [開始使用對象](../audience/about-audiences.md)。
+1. **您需要客群**。建立行銷活動之前必須有可用的客群。 [開始使用客群](../audience/about-audiences.md)。
 
 1. **需要管道設定**。若要選取管道，您必須建立相對應的管道設定 (即預設)，使其可供使用。[了解如何設定頻道設定](../configuration/channel-surfaces.md)。
 
 ## 讓我們深入探討
 
-現在您已瞭解[!DNL Journey Optimizer]中的行銷活動，是時候深入探討這些檔案區段，以開始建立您的第一個行銷活動了。
+目前您已瞭解[!DNL Journey Optimizer]中的行銷活動，該是時候深入探討這些文件章節內容，才能開始建立首次行銷活動。
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
 <td><a href="create-campaign.md"><img alt="動作行銷活動" src="assets/do-not-localize/gs-action-campaign.png" width="50%"></a><br/><a href="create-campaign.md">動作行銷活動</a></td>
-<td><a href="api-triggered-campaigns.md"><img alt="簡訊" src="assets/do-not-localize/gs-api-triggered-campaign.png" width="50%"></a><br/><a href="api-triggered-campaigns.md">API 觸發的行銷活動</a></td>
+<td><a href="api-triggered-campaigns.md"><img alt="簡訊" src="assets/do-not-localize/gs-api-triggered-campaign.png" width="50%"></a><br/><a href="api-triggered-campaigns.md">由 API 觸發的行銷活動</a></td>
 </tr></table>
 
 <!--
