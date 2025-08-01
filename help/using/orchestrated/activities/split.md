@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 81%
+ht-degree: 77%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
 >title="分割活動篩選器"
->abstract="若要將篩選條件套用到子集，請按一下「**[!UICONTROL 建立篩選]**」並使用查詢建模工具設定所需的篩選規則。例如，於傳入族群中，將有電子郵件地址存在於資料庫的設定檔包含在內。"
+>abstract="若要將篩選條件套用至子集，請按一下&#x200B;**[!UICONTROL 建立篩選器]**，並使用規則產生器設定所要的篩選規則。 例如，於傳入族群中，將有電子郵件地址存在於資料庫的輪廓包含在內。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_limit"
@@ -107,7 +107,7 @@ ht-degree: 81%
 
    1. 按一下子集以開啟其設定。
 
-   1. 按一下「**[!UICONTROL 建立篩選器]**」，以使用查詢建模工具定義篩選規則，例如，選取具有有效電子郵件地址的設定檔。
+   1. 按一下&#x200B;**[!UICONTROL 建立篩選器]**&#x200B;以使用規則產生器定義篩選規則，例如，選取具有有效電子郵件地址的設定檔。
 
       ![](../assets/orchestrated-split-1.png)
 
