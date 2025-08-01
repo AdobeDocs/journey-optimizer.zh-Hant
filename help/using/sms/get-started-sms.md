@@ -79,7 +79,7 @@ Adobe Journey Optimizer 會透過 SMS 服務提供者 (或 SMS 閘道提供者) 
 
   +++收看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3430375?quality=12&learn=on&captions=chi_hant)
 
 +++
 
@@ -88,6 +88,6 @@ Adobe Journey Optimizer 會透過 SMS 服務提供者 (或 SMS 閘道提供者) 
 
   +++收看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
+  >[!VIDEO](https://video.tv.adobe.com/v/3464766?captions=chi_hant)
 
 +++
