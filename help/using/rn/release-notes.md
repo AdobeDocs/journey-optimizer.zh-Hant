@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: 638cf11c6967ce1d9e1f9c1d58421c75098e89b5
 workflow-type: tm+mt
-source-wordcount: '2053'
-ht-degree: 70%
+source-wordcount: '2124'
+ht-degree: 71%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 70%
 <!--
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **發行日期**： 2025年7月29日
 
@@ -87,6 +87,22 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>此功能以「有限可用性」提供。 請聯絡您的Adobe代表以取得存取權。</p>
 如需詳細資訊，請參閱<a href="../experience-decisioning/create-decision.md">詳細檔案</a></p>
 </td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>LINE 頻道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer 已擴充其跨頻道功能，以包含對 LINE 頻道的支援。此增強功能可讓您建立、編輯和預覽 LINE 體驗，以啟用更個人化且吸引人的互動。透過 LINE，您可以與更多客戶連絡、傳送相關內容並改善您的參與度。</p>
+<p>先前僅開放請求，現在所有使用者均可使用LINE頻道（全面發佈）。</p>
+<p>如需詳細資訊，請參閱<a href="../line/get-started-line.md">詳細文件</a>。</p></td>
 </tr>
 </tbody>
 </table>
@@ -264,7 +280,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 **發行日期**：2025 年 6 月 18 日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 全新功能 {#25-06-features}
 
