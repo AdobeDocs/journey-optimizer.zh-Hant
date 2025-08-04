@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2495'
 ht-degree: 11%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 11%
 * **追蹤和連結型別** — 若要追蹤由決定產生的連結，請在結構描述中將其定義為「決定Assets」。 無法追蹤屬性型連結。
 * **在電子郵件中巢狀內嵌決定原則** — 您無法在已經有關聯決定原則的父級電子郵件元件中巢狀內嵌多個決定原則。
 * **含決策的重複歷程/行銷活動** — 如果您重複包含決策原則的歷程或行銷活動，重複版本會參考原始電子郵件或程式碼型體驗，而造成錯誤。 複製後請一律重新設定決定原則。
-* **同意原則** — 同意原則的更新最多可能需要24小時才會生效。 如果決定原則參考與最近更新的同意原則關聯的屬性，變更將不會立即套用。
+* **同意原則** — 同意原則的更新最多需要48小時才會生效。 如果決定原則參考與最近更新的同意原則關聯的屬性，變更將不會立即套用。
 
   同樣地，如果受同意原則約束的新設定檔屬性新增到決定原則中，這些設定檔屬性將可供使用，但關聯的同意原則在延遲過去後才會執行。
 
@@ -118,7 +118,7 @@ ht-degree: 11%
 
       ![](assets/decision-code-based-create.png)
 
-   +++
++++
 
    +++透過電子郵件傳送Designer **[!UICONTROL 決策]**&#x200B;功能表
 
@@ -128,7 +128,7 @@ ht-degree: 11%
 
       ![](assets/decision-policy-email-designer.png)
 
-   +++
++++
 
 1. 提供名稱並選取目錄（目前僅限於預設&#x200B;**[!UICONTROL 選件]**&#x200B;目錄）。
 
@@ -236,7 +236,7 @@ ht-degree: 11%
 
      排名優惠方案現在如下：優惠方案5 、優惠方案3、優惠方案4、優惠方案2、優惠方案1、優惠方案6。
 
-   +++
++++
 
 1. 按一下&#x200B;**[!UICONTROL 下一步]**
 
@@ -291,13 +291,13 @@ ht-degree: 11%
 
    ![](assets/decision-policy-placement.png)
 
-   +++
++++
 
    +++在程式碼型體驗中插入決定原則程式碼
 
    ![](assets/decision-code-based-add-decision.png)
 
-   +++
++++
 
    >[!NOTE]
    >
@@ -314,7 +314,7 @@ ht-degree: 11%
 >[!NOTE]
 >
 >針對決定原則專案追蹤，決策原則內容需要新增`trackingToken`屬性，如下所示：
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. 按一下每個資料夾以展開。 將滑鼠游標置於所需位置，然後按一下您要新增的屬性旁的+圖示。 您可以對程式碼新增任意數量的屬性。
 
