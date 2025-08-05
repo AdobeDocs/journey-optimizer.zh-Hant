@@ -6,14 +6,15 @@ description: 瞭解如何設定您的環境，以使用Journey Optimizer傳送LI
 feature: Line, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 8714ac6b2fd76ec859c358535fa322f0ac333a82
+exl-id: 8ad0e57b-6bdc-43b0-9511-31e2ac1be1f9
+source-git-commit: bc734ed1249b1ec186eb5f479d605bafee8a1d06
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 4%
+source-wordcount: '351'
+ht-degree: 6%
 
 ---
 
-# 在Journey Optimizer中設定LINE頻道 {#line-configuration}
+# 可到 Journey Optimizer 設定 LINE 頻道 {#line-configuration}
 
 1. 存取&#x200B;**[!UICONTROL 頻道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 頻道設定]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立頻道設定]**。
 
@@ -51,3 +52,56 @@ ht-degree: 4%
 1. 提交變更。
 
 您現在可以在建立LINE訊息時選取設定。
+
+## 設定LINE頻道設定API {#line-api}
+
+此API設定頻道設定，以儲存連線到LINE傳訊API所需的授權和設定詳細資訊。 這些設定可讓Adobe Journey Optimizer使用提供的憑證驗證及透過LINE傳送訊息。
+
+**端點**
+
+```
+POST https://platform.adobe.io/journey/imp/config/channel-settings
+```
+
+| 頁首名稱 | 說明 |
+|-|-|
+| Authorization | 來自您技術帳戶的使用者權杖 |
+| x-api-key | Adobe Developer Console的使用者端ID |
+| x-gw-ims-org-id | 您的IMS組織ID |
+| x-sandbox-name | 沙箱名稱，例如prod |
+| Content-Type | 必須為application/json |
+
+
+**要求內文**
+
+```json
+{
+    "name": "your_defined_name",
+    "channelRegistryId": "line",
+    "channel": "line",
+    "channelSettings": {
+        "channelId": "your_line_channel_id",
+        "channelSecret": "your_line_channel_secret"
+    }
+}
+```
+
+**頻道設定回應**
+
+```json
+{
+"id": "3603ed66-ae86-42b8-8a90-d4b4e54e7c3b",
+"name": "your_defined_name",
+"channelRegistryId": "line",
+"channel": "line",
+"channelSettings": {
+    "channelId": "your_line_channel_id",
+    "channelSecret": "your_line_channel_secret"
+    },
+    "channelPublicationId": "v1_line",
+    "createdAt": "2025-07-30T12:00:00.000Z",
+    "modifiedAt": "2025-07-30T12:00:00.000Z",
+    "isFromLatestVersion": true,
+    "_etag": "\"eab98d24-18af-48ae-90f9-e59d4f8cfb2b\""
+}
+```
