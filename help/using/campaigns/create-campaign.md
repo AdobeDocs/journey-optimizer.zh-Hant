@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 38%
+source-wordcount: '152'
+ht-degree: 52%
 
 ---
 
@@ -27,18 +27,22 @@ ht-degree: 38%
 
 ## 關於動作行銷活動 {#about}
 
-行動行銷活動（或排程行銷活動）允許對行銷使用案例進行簡單的臨時批次通訊，例如促銷優惠、參與行銷活動、公告、法律通知或原則更新。
+動作行銷活動 (或是已排程行銷活動) 允許用於行銷活動使用案例的簡單臨時批量通訊，例如促銷優惠、參與行銷活動、公告、法律通知或原則更新。
 
 ➡️ [在影片中探索此功能](#video)
 
-## 行動行銷活動建立的關鍵步驟 {#steps}
+## Action行銷活動建立的關鍵步驟 {#steps}
 
-1. [定義動作行銷活動屬性](campaign-properties.md)
+1. [定義「動作」行銷活動屬性](campaign-properties.md)
 1. [設定行銷活動動作](campaign-action.md)
 1. [編輯動作行銷活動內容](campaign-content.md)
-1. [定義動作行銷活動對象](campaign-audience.md)
+1. [定義「動作」行銷活動對象](campaign-audience.md)
 1. [排程動作行銷活動](campaign-schedule.md)
 1. [檢閱並啟動動作行銷活動](review-activate-campaign.md)
+
+>[!IMPORTANT]
+>
+>在建立行銷活動之前，請確定您已檢閱一般[行銷活動先決條件](../campaigns/get-started-with-campaigns.md#prerequisites)。
 
 ## 作法影片 {#video}
 

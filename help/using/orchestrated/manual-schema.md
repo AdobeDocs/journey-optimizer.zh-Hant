@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 設定步驟
 description: 瞭解如何直接透過使用者介面建立關聯式結構描述。
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 9%
+source-wordcount: '832'
+ht-degree: 3%
 
 ---
 
+
 # 設定手動關聯式結構描述 {#manual-schema}
-
-+++ 目錄
-
-| 歡迎使用協調的行銷活動 | 啟動您的第一個協調行銷活動 | 查詢資料庫 | 協調行銷活動 |
-|---|---|---|---|
-| [開始使用協調的行銷活動](gs-orchestrated-campaigns.md)<br/><br/>建立和管理關聯式結構描述和資料集：</br><ul><li>[開始使用結構描述和資料集](gs-schemas.md)</li><li>[手動結構描述](manual-schema.md)</li><li>[檔案上傳結構描述](file-upload-schema.md)</li><li>[擷取資料](ingest-data.md)</li></ul>[存取及管理協調的行銷活動](access-manage-orchestrated-campaigns.md)<br/><br/>[建立協調行銷活動的重要步驟](gs-campaign-creation.md) | [建立並排程行銷活動](create-orchestrated-campaign.md)<br/><br/>[協調活動](orchestrate-activities.md)<br/><br/>[開始並監視行銷活動](start-monitor-campaigns.md)<br/><br/>[報告](reporting-campaigns.md) | [使用規則產生器](orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](build-query.md)<br/><br/>[編輯運算式](edit-expressions.md)<br/><br/>[重定向](retarget.md) | [開始使用活動](activities/about-activities.md)<br/><br/>活動：<br/>[同時加入](activities/and-join.md) - [建立客群](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [頻道活動](activities/channels.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [調和](activities/reconciliation.md) - [儲存客群](activities/save-audience.md) - [分割](activities/split.md) - [等待](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-</br>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-此頁面上的內容不是最終內容，可能會有變動。
-
->[!ENDSHADEBOX]
 
 關聯式結構描述可以直接透過使用者介面建立，啟用屬性、主索引鍵、版本設定欄位和關係的詳細設定。
 
@@ -67,8 +45,6 @@ ht-degree: 9%
 1. 選擇&#x200B;**[!UICONTROL 手動建立]**，以手動新增欄位來建置結構描述。
 
 1. 輸入您的&#x200B;**[!UICONTROL 結構描述顯示名稱]**。
-
-1. 選擇&#x200B;**[!UICONTROL 記錄]**&#x200B;作為您的&#x200B;**[!UICONTROL 結構描述行為]**。
 
    ![](assets/schema_manual_8.png){zoomable="yes"}
 

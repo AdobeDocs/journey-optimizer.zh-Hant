@@ -8,17 +8,17 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: 561f1215-d13d-4ffc-b6f1-396ae67774c8
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 4%
 
 ---
 
-
 # 檢閱並啟用API觸發的行銷活動 {#api-review}
 
-設定您的動作行銷活動後，您必須先檢閱其引數和內容，才能加以啟用。 要執行此操作，請依照下列步驟執行：
+設定您的Action行銷活動後，您必須先檢閱其引數和內容，才能加以啟用。 要執行此操作，請依照下列步驟執行：
 
 >[!IMPORTANT]
 >
@@ -34,7 +34,7 @@ ht-degree: 4%
 
    ![](assets/create-campaign-alerts.png)
 
-1. 檢查您的行銷活動是否已正確設定，然後按一下[啟動]。**&#x200B;**
+1. 檢查您的行銷活動是否已正確設定，然後按一下[啟動]。****
 
 1. 行銷活動已啟動。 其狀態為&#x200B;**[!UICONTROL 即時]**，或者&#x200B;**[!UICONTROL 已排程]** （如果您已輸入開始日期）。
 

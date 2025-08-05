@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 運算式，編輯器，關於，開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 192542cf938c583093638c71a3d8728bbaf238b2
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1536'
 ht-degree: 10%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 10%
 
 ## 我可以在哪裡新增個人化
 
-您可以使用![新增個人化圖示](assets/do-not-localize/add-perso-icon.svg)圖示，在每一個欄位的&#x200B;**[!DNL Journey Optimizer]**&#x200B;中新增個人化。 請展開下列各節以取得詳細資訊。
+您可以使用&#x200B;**[!DNL Journey Optimizer]**&#x200B;新增個人化圖示![圖示，在每一個欄位的](assets/do-not-localize/add-perso-icon.svg)中新增個人化。 請展開下列各節以取得詳細資訊。
 
 +++訊息
 
@@ -90,6 +90,7 @@ Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。  個人化 
 導覽窗格可讓您選取個人化的來源。 可用的來源包括：
 
 * **[!UICONTROL 設定檔屬性]** ：列出與[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}中說明的設定檔結構描述相關的所有參考。
+* **[!UICONTROL Target屬性]** ：此資料夾專屬於「協調的行銷活動」。 它包含直接在行銷活動畫布中計算的屬性。 [瞭解如何在協調的行銷活動中新增個人化](../orchestrated/activities/channels.md#add-personalization)
 * **[!UICONTROL 對象]** ：列出在Adobe Experience Platform細分服務中建立的所有對象。 [此處](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}提供分段的相關詳細資訊。
 * **[!UICONTROL 優惠決定]** ：列出與特定位置相關聯的所有優惠。 選取版位，然後將優惠方案插入內容中。 如需有關如何管理優惠方案的完整檔案，請參閱[本節](../offers/get-started/starting-offer-decisioning.md)。
 * **[!UICONTROL 內容屬性]** ：當歷程或行銷活動中使用管道動作活動（電子郵件、推播、簡訊）時，與事件和屬性相關的內容屬性可用於個人化。 在[此區段](personalization-use-case.md)中呈現了運用內容屬性的個人化範例。

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '3492'
-ht-degree: 27%
+source-wordcount: '3521'
+ht-degree: 26%
 
 ---
 
@@ -35,6 +35,9 @@ ht-degree: 27%
 * [簡訊](#sms-live)
 * [Web](#web-tab)
 * [直接郵件](#direct-mail-tab)
+
+>[!AVAILABILITY]
+>協調的行銷活動僅支援簡訊、電子郵件和推播頻道。 其他管道（應用程式內、Web、直接郵件等）無法用於協調的行銷活動，也不會出現在報表中。
 
 行銷活動&#x200B;**[!UICONTROL 即時報告]**&#x200B;會分成不同的Widget，詳細說明行銷活動的成功與錯誤。 如有需要，可以調整每個Widget的大小並將其刪除。 如需詳細資訊，請參閱此[區段](../reports/live-report.md#modify-dashboard)。
 

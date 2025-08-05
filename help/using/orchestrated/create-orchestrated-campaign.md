@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用Journey Optimizer建立及排程協調的行銷活動
 description: 瞭解如何使用Adobe Journey Optimizer建立及排程協調的行銷活動
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 62%
+source-wordcount: '1116'
+ht-degree: 63%
 
 ---
 
 
 # 建立及排程協調的行銷活動 {#create-first-campaign}
-
-+++ 目錄
-
-| 歡迎使用協調的行銷活動 | 啟動您的第一個協調行銷活動 | 查詢資料庫 | 協調行銷活動 |
-|---|---|---|---|
-| [開始使用協調的行銷活動](gs-orchestrated-campaigns.md)<br/><br/>建立和管理關聯式結構描述和資料集：</br> <ul><li>[開始使用結構描述和資料集](gs-schemas.md)</li><li>[手動結構描述](manual-schema.md)</li><li>[檔案上傳結構描述](file-upload-schema.md)</li><li>[擷取資料](ingest-data.md)</li></ul>[存取及管理協調的行銷活動](access-manage-orchestrated-campaigns.md)<br/><br/>[建立協調行銷活動的重要步驟](gs-campaign-creation.md) | <b>[建立並排程行銷活動](create-orchestrated-campaign.md)</b><br/><br/>[協調活動](orchestrate-activities.md)<br/><br/>[開始並監視行銷活動](start-monitor-campaigns.md)<br/><br/>[報告](reporting-campaigns.md) | [使用規則產生器](orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](build-query.md)<br/><br/>[編輯運算式](edit-expressions.md)<br/><br/>[重定向](retarget.md) | [開始使用活動](activities/about-activities.md)<br/><br/>活動：<br/>[同時加入](activities/and-join.md) - [建立客群](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [頻道活動](activities/channels.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [調和](activities/reconciliation.md) - [儲存客群](activities/save-audience.md) - [分割](activities/split.md) - [等待](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-此頁面上的內容不是最終內容，可能會有變動。
-
->[!ENDSHADEBOX]
 
 在[!DNL Adobe Journey Optimizer]中建立協調的行銷活動，並設定其執行排程，以控制其啟動時間和執行頻率。 選擇在特定日期與時間，立即啟動行銷活動，或可使用彈性排程選項，例如按照每日、每週或每月頻率，重複啟動行銷活動。
 
@@ -67,7 +45,7 @@ ht-degree: 62%
 
    1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-## 排程行銷活動 {#schedule}
+## 安排行銷活動 {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
@@ -107,7 +85,7 @@ ht-degree: 62%
    * **[!UICONTROL 日期]**：選取應執行行銷活動的日期。
    * **[!UICONTROL 時間]**：選取應執行行銷活動的特定時間。
 
-   +++
++++
 
    +++每日
 
@@ -121,7 +99,7 @@ ht-degree: 62%
 
    * **[!UICONTROL 開始時間]**：定義行銷活動每天應執行的時間。
 
-   +++
++++
 
    +++一天幾次
 
@@ -130,7 +108,7 @@ ht-degree: 62%
    * **[!UICONTROL 選取的時數]**：選取行銷活動應執行的特定時間，並設定其每日週期 (在一週的每一天或某些天執行)。
    * **[!UICONTROL 定期]**：選擇每 n 分鐘或小時執行一次行銷活動。您也可以定義一天內允許執行的時間範圍。
 
-   +++
++++
 
    +++每週
 
@@ -141,7 +119,7 @@ ht-degree: 62%
    * **[!UICONTROL 每日週期]**：選擇一週中的特定日來執行 (例如，每個星期一和星期四)。
    * **[!UICONTROL 開始時間]**：設定行銷活動在選定日應該執行的時間。
 
-   +++
++++
 
    +++每月
 
@@ -157,7 +135,7 @@ ht-degree: 62%
 
    * **[!UICONTROL 開始時間]**：設定行銷活動應執行的時間。
 
-   +++
++++
 
 1. 使用&#x200B;**[!UICONTROL 有效期間]**&#x200B;設定來定義特定的開始和結束日期，將行銷活動的執行限制在有限的時間範圍內。
 

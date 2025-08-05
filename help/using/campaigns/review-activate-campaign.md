@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 檢閱及啟動動作行銷活動
-description: 瞭解如何在 [!DNL Journey Optimizer]中檢閱及啟用動作行銷活動。
+description: 瞭解如何在 [!DNL Journey Optimizer]中檢閱及啟動動作行銷活動。
 feature: Campaigns
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 行銷活動，檢閱，驗證，啟用，啟用，最佳化工具
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 3%
@@ -17,9 +17,9 @@ ht-degree: 3%
 ---
 
 
-# 檢閱及啟動動作行銷活動 {#action-campaign-review}
+# 檢閱並啟動動作行銷活動 {#action-campaign-review}
 
-設定您的動作行銷活動後，您必須先檢閱其引數和內容，才能加以啟用。 要執行此操作，請依照下列步驟執行：
+設定您的Action行銷活動後，您必須先檢閱其引數和內容，才能加以啟用。 要執行此操作，請依照下列步驟執行：
 
 >[!IMPORTANT]
 >
@@ -35,7 +35,7 @@ ht-degree: 3%
 
    ![](assets/create-campaign-alerts.png)
 
-1. 檢查您的行銷活動是否已正確設定，然後按一下[啟動]。**&#x200B;**
+1. 檢查您的行銷活動是否已正確設定，然後按一下[啟動]。****
 
 1. 行銷活動已啟動。 其狀態為&#x200B;**[!UICONTROL 即時]**，或者&#x200B;**[!UICONTROL 已排程]** （如果您已輸入開始日期）。 行銷活動中設定的訊息會立即傳送或在指定日期傳送。
 

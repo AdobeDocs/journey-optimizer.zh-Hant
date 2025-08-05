@@ -9,17 +9,17 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: a7b03b71-0f2c-45ca-a2f7-38ddc64913c1
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 28%
+ht-degree: 34%
 
 ---
 
+# 定義「動作」行銷活動屬性 {#action-campaign-properties}
 
-# 定義動作行銷活動屬性 {#action-campaign-properties}
-
-若要建立動作行銷活動並定義其屬性，請遵循下列步驟：
+若要建立「動作」行銷活動並定義其屬性，請遵循下列步驟：
 
 1. 瀏覽至&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表並選取&#x200B;**[!UICONTROL 動作]**&#x200B;標籤。
 
@@ -31,7 +31,7 @@ ht-degree: 28%
 
    ![](assets/create-campaign-properties.png)
 
-1. 使用&#x200B;**標籤**&#x200B;欄位將Adobe Experience Platform統一標籤指派給您的行銷活動。 這可讓您輕鬆分類，並改進行銷活動清單的搜尋。 [瞭解如何使用標籤](../start/search-filter-categorize.md#tags)。
+1. 使用&#x200B;**標籤**&#x200B;欄位將Adobe Experience Platform統一標籤指派給您的行銷活動。 這可讓您輕鬆分類，並改進行銷活動清單的搜尋。 [了解如何使用標籤](../start/search-filter-categorize.md#tags)
 
 1. 您可以根據存取標籤限制對此行銷活動的存取。若要新增存取限制，請瀏覽至此頁面最上方的「**[!UICONTROL 管理存取]**」按鈕。請確定只選取您具有許可權的標籤。 [進一步瞭解物件層級存取控制](../administration/object-based-access.md)。
 

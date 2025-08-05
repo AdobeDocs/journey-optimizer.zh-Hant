@@ -9,13 +9,13 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 16%
 
 ---
-
 
 # 編輯動作行銷活動內容 {#action-campaign-content}
 
@@ -59,4 +59,4 @@ ht-degree: 16%
 
 ## 後續步驟 {#next}
 
-一旦動作行銷活動的內容準備就緒後，您就可以定義行銷活動對象。 [了解更多](campaign-audience.md)
+準備好動作行銷活動的內容後，您就可以定義行銷活動對象。 [了解更多](campaign-audience.md)

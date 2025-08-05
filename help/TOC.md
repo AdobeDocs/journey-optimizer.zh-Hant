@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '2594'
+source-wordcount: '2591'
 ht-degree: 98%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 98%
       + [編輯行銷活動的內容](using/campaigns/campaign-content.md)
       + [定義行銷活動的客群](using/campaigns/campaign-audience.md)
       + [安排行銷活動](using/campaigns/campaign-schedule.md)
-      + [審閱並啟動動作的行銷活動](using/campaigns/review-activate-campaign.md)
+      + [檢閱及啟動動作行銷活動](using/campaigns/review-activate-campaign.md)
    + 由 API 觸發的行銷活動 {#api-triggered-campaigns}
       + [使用 API 觸發的行銷活動](using/campaigns/api-triggered-campaigns.md)
       + [定義行銷活動屬性](using/campaigns/api-triggered-campaign-properties.md)
@@ -202,14 +202,14 @@ ht-degree: 98%
       + [觸發行銷活動執行](using/campaigns/trigger-campaigns.md)
    + 協調的行銷活動 {#orchestrated-campaigns}
       + [開始使用協調的行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
-      + 管理關聯式結構描述和資料集 {#schemas-datasets}
-         + [開始使用結構描述和資料集](using/orchestrated/gs-schemas.md)
-         + [手動處理結構描述](using/orchestrated/manual-schema.md)
-         + [檔案上傳結構描述](using/orchestrated/file-upload-schema.md)
-         + [擷取資料](using/orchestrated/ingest-data.md)
-      + [存取及管理協調的行銷活動](using/orchestrated/access-manage-orchestrated-campaigns.md)
-      + [建立目標維度](using/orchestrated/target-dimension.md)
       + [護欄與限制](using/orchestrated/guardrails.md)
+      + 資料設定 {#configuration}
+         + 管理關聯式結構描述和資料集 {#schemas-datasets}
+            + [開始使用結構描述和資料集](using/orchestrated/gs-schemas.md)
+            + [手動處理結構描述](using/orchestrated/manual-schema.md)
+            + [檔案上傳結構描述](using/orchestrated/file-upload-schema.md)
+            + [擷取資料](using/orchestrated/ingest-data.md)
+         + [建立目標維度](using/orchestrated/target-dimension.md)
       + 啟動您的第一個協調行銷活動{#launch}
          + [建立協調行銷活動的重要步驟](using/orchestrated/gs-campaign-creation.md)
          + [建立並安排行銷活動的時間](using/orchestrated/create-orchestrated-campaign.md)

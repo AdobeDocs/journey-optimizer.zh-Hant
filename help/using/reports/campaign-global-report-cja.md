@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '519'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 ![](assets/cja-email-kpis.png)
 
-**[!UICONTROL 行銷活動]**&#x200B;關鍵績效指標(KPI)可作為全方位儀表板，提供與行銷活動相關之基本量度的分析。 其中包含點按次數和已傳送訊息數量等詳細資訊，可全面分析您的行銷活動的成效和參與程度。
+**[!UICONTROL 行銷活動]**&#x200B;關鍵績效指標(KPI)可作為全方位儀表板，提供與行銷活動相關之基本量度的分析。 其中包含點按次數和已傳送訊息數等詳細資訊，可針對行銷活動的成效和參與層級提供全面的insight。
 
 KPI會因行銷活動中使用的管道而有所不同。
 
@@ -44,6 +44,9 @@ KPI會因行銷活動中使用的管道而有所不同。
 * **[!UICONTROL 顯示]**：訊息開啟的次數。
 
 +++
+
+>[!AVAILABILITY]
+>協調的行銷活動僅支援簡訊、電子郵件和推播頻道。 其他管道（應用程式內、Web、直接郵件等）無法用於協調的行銷活動，也不會出現在報表中。
 
 ### Campaign 概觀 {#delivery-global}
 

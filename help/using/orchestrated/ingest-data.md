@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 設定步驟
 description: 瞭解如何從支援的來源（例如SFTP、雲端儲存空間或資料庫）將資料匯入Adobe Experience Platform。
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 36%
+source-wordcount: '656'
+ht-degree: 22%
 
 ---
 
+
 # 擷取資料 {#ingest-data}
-
-+++ 目錄
-
-| 歡迎使用協調的行銷活動 | 啟動您的第一個協調行銷活動 | 查詢資料庫 | 協調行銷活動 |
-|---|---|---|---|
-| [開始使用協調的行銷活動](gs-orchestrated-campaigns.md)<br/><br/>建立和管理關聯式結構描述和資料集</br> <ul><li>[開始使用結構描述和資料集](gs-schemas.md)</li><li>[手動結構描述](manual-schema.md)</li><li>[檔案上傳結構描述](file-upload-schema.md)</li><li>[擷取資料](ingest-data.md)</li></ul>[存取及管理協調的行銷活動](access-manage-orchestrated-campaigns.md)<br/><br/>[建立協調行銷活動的重要步驟](gs-campaign-creation.md) | [建立並排程行銷活動](create-orchestrated-campaign.md)<br/><br/>[協調活動](orchestrate-activities.md)<br/><br/>[開始並監視行銷活動](start-monitor-campaigns.md)<br/><br/>[報告](reporting-campaigns.md) | [使用規則產生器](orchestrated-rule-builder.md)<br/><br/>[建立您的第一個查詢](build-query.md)<br/><br/>[編輯運算式](edit-expressions.md)<br/><br/>[重定向](retarget.md) | [開始使用活動](activities/about-activities.md)<br/><br/>活動：<br/>[同時加入](activities/and-join.md) - [建立客群](activities/build-audience.md) - [變更維度](activities/change-dimension.md) - [頻道活動](activities/channels.md) - [合併](activities/combine.md) - [重複資料刪除](activities/deduplication.md) - [擴充](activities/enrichment.md) - [分支](activities/fork.md) - [調和](activities/reconciliation.md) - [儲存客群](activities/save-audience.md) - [分割](activities/split.md) - [等待](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-</br>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-此頁面上的內容不是最終內容，可能會有變動。
-
->[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -58,33 +36,53 @@ Adobe Experience Platform 讓您可以從外部來源擷取資料，同時可以
   <tbody>
     <tr>
       <td rowspan="3">雲端儲存空間</td>
-      <td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">雲端資料倉儲</td>
-      <td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">資料登陸區域<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">資料登陸區域<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">檔案式上傳</td>
-      <td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">本機檔案上傳<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">本機檔案上傳<a></td>
     </tr>
 
 </tbody>
 </table>
+
+## 關聯式結構描述資料衛生的准則 {#cdc}
+
+對於啟用&#x200B;**[!UICONTROL 變更資料擷取]**&#x200B;的資料集，所有資料變更（包括刪除）都會自動從來源系統映象到Adobe Experience Platform。
+
+由於Adobe Journey Optimizer行銷活動要求所有已上線的資料集都必須透過&#x200B;**[!UICONTROL 變更資料擷取]**&#x200B;啟用，因此客戶有責任管理來源處的刪除工作。 從來源系統刪除的任何記錄都會自動從Adobe Experience Platform中的對應資料集中移除。
+
+若要透過檔案式擷取刪除記錄，客戶的資料檔案應使用`D`欄位中的`Change Request Type`值來標示記錄。 這表示應在Adobe Experience Platform中刪除記錄，映象來源系統。
+
+如果客戶只想從Adobe Experience Platform中刪除記錄，而不想影響原始來源資料，則可使用下列選項：
+
+* 變更資料擷取復寫的&#x200B;**Proxy或淨化資料表**
+
+  客戶可以建立Proxy或淨化來源表格，以控制要將哪些記錄複製到Adobe Experience Platform。 然後，即可從此中介表格中選擇性地管理刪除。
+
+* **透過資料Distiller刪除**
+
+  如果授權，**資料Distiller**&#x200B;可用於直接在Adobe Experience Platform中支援刪除作業，不受來源系統影響。
+
+  [進一步瞭解資料Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 
 ## 設定資料流
 
@@ -105,6 +103,8 @@ Adobe Experience Platform 讓您可以從外部來源擷取資料，同時可以
    ![](assets/S3_config_1.png)
 
 1. 從&#x200B;**[!UICONTROL 資料集詳細資料]**&#x200B;頁面，勾選&#x200B;**[!UICONTROL 啟用變更資料擷取]**，以僅顯示對應到關聯式結構描述並包含主索引鍵和版本描述項的資料集。
+
+[進一步瞭解關聯式結構描述資料衛生的准則](#cdc)
 
    >[!IMPORTANT]
    >
@@ -133,4 +133,5 @@ Adobe Experience Platform 讓您可以從外部來源擷取資料，同時可以
 1. 從&#x200B;**[!UICONTROL 連線]**&#x200B;選單中，選取&#x200B;**[!UICONTROL 來源]**&#x200B;並存取&#x200B;**[!UICONTROL 資料流]**&#x200B;索引標籤，以追蹤流量執行、檢閱擷取的記錄，以及疑難排解任何錯誤。
 
    ![](assets/S3_config_5.png)
+
 
