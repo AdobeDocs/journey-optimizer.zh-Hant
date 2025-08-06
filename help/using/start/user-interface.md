@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 99%
+source-wordcount: '1681'
+ht-degree: 95%
 
 ---
 
@@ -178,9 +178,22 @@ ht-degree: 99%
 
 ![](assets/do-not-localize/Context-help.gif)
 
+
+## 產品內警示
+
+您可以訂閱Journey Optimizer產品發行的&#x200B;**電子郵件和產品內通知**。
+
+要訂閱：
+
+1. 瀏覽至&#x200B;**Adobe Experience Cloud偏好設定**
+1. 在&#x200B;**通知**&#x200B;下，尋找&#x200B;**Journey Optimizer新發行版本**
+1. 啟用應用程式內通知和電子郵件通知
+
+![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
+
 ## AI 助理 {#ai-assistant}
 
-AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並取得您特定環境的操作見解。 它適用於 Adobe Experience Cloud 的多種產品，包括 Adobe Journey Optimizer。
+AI Assistant是使用者介面功能，可用於導覽和瞭解Adobe概念，並取得您特定環境的營運深入分析。 它適用於 Adobe Experience Cloud 的多種產品，包括 Adobe Journey Optimizer。
 
 若要存取 AI 助理，請按一下頂端列上的圖示。AI 助理便會顯示在畫面右側區段。
 
