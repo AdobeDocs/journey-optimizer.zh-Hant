@@ -76,6 +76,6 @@ ht-degree: 18%
 
 +++ 請觀看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470557/?learn=on&captions=chi_hant)
 
 +++
