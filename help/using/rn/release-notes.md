@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a53e94f0199cda211d32be55c8e9a52303dc3d25
 workflow-type: tm+mt
 source-wordcount: '1361'
 ht-degree: 35%
@@ -65,7 +65,7 @@ Journey Optimizer現在包含&#x200B;**Campaign Orchestration**，這是專為�
 
 ### 關聯式結構描述和資料集 {#oc-relational}
 
-Adobe Experience Platform現在支援連結至以人物為基礎的設定檔的關聯式實體（例如產品、商店、預訂、合約）。 這允許跨多維度資料結構的細分和個人化，啟用如下的使用案例：
+Adobe Journey Optimizer現在支援連結至以人物為基礎的設定檔的關聯式實體（例如產品、商店、預訂、合約）。 這允許跨多維度資料結構的細分和個人化，啟用如下的使用案例：
 
 * 每個預訂、訂閱或合約有一則訊息
 
@@ -86,7 +86,7 @@ Adobe Experience Platform現在支援連結至以人物為基礎的設定檔的�
 
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: August 19, 2025
 
