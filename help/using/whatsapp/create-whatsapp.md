@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
+source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 4%
@@ -96,7 +96,7 @@ WhatsApp支援下列訊息型別：
    * 一次
    * 每日
    * 每週
-   * 月
+   * Month
 
 您現在可以從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕開始設計WhatsApp訊息的內容，如下所述。
 
@@ -195,6 +195,6 @@ Once you have performed your tests and validated the content, you can send your 
 
 +++ 請觀看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470293/?learn=on&captions=chi_hant")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++
