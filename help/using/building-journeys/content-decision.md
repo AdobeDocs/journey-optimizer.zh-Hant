@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="有限可用性" type="Informative"
 keywords: 活動，決策，內容決定，決定原則，畫布，歷程
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
-source-git-commit: 30234392f9b643fa37be701d4d6878d798ea94fe
+source-git-commit: 2ca37e17b788357f0b8f135c1a5889aa5145cb2f
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1120'
 ht-degree: 3%
 
 ---
@@ -72,6 +72,16 @@ ht-degree: 3%
    ![決定原則摘要](assets/journey-content-decision-policy.png){width=70%}<!--reshoot or change screen-->
 
 您現在已準備好在歷程中運用此內容決定活動的輸出。
+
+## 護欄和限制 {#guardrails}
+
+**同意原則**
+
+同意政策的更新最多需要48小時才會生效。 如果決定原則參考與最近更新的同意原則關聯的屬性，變更將不會立即套用。
+
+同樣地，如果受同意原則約束的新設定檔屬性新增到決定原則中，這些設定檔屬性將可供使用，但關聯的同意原則在延遲過去後才會執行。
+
+同意原則僅適用於具有Adobe Healthcare Shield或Privacy and Security Shield附加元件的組織。
 
 ## 使用內容決定活動的輸出 {#use-content-decision-output}
 
