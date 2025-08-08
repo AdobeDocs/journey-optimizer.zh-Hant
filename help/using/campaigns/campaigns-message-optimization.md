@@ -3,12 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 訊息最佳化
 description: 運用訊息最佳化來建立個人化和最佳化的行銷活動。
-feature: Message optimization
-topic: Experimentation
 role: User
 level: Intermediate
 keywords: 行銷活動最佳化、實驗、目標定位、A/B測試
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: edbe25e0cb341c08e440eb0663fb9b253273f48a
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 0%
