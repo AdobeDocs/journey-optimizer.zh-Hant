@@ -4,9 +4,9 @@ product: journey optimizer
 title: 協調的行銷活動護欄和限制
 description: 瞭解協調的行銷活動護欄和限制
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '445'
 ht-degree: 1%
 
 ---
@@ -83,3 +83,7 @@ ht-degree: 1%
 * **儲存的對象活動是靜態的**，它們反映行銷活動執行時可用的資料。
 
 * **不支援附加至已儲存的對象活動**。 任何修改都需要完全覆寫對象。
+
+## 頻道限制
+
+協調的行銷活動僅支援SMS、推播和電子郵件頻道。
