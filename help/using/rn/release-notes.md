@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a53e94f0199cda211d32be55c8e9a52303dc3d25
+source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 35%
+source-wordcount: '1428'
+ht-degree: 33%
 
 ---
 
@@ -86,7 +86,7 @@ Adobe Journey Optimizer現在支援連結至以人物為基礎的設定檔的關
 
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: August 19, 2025
 
@@ -100,6 +100,36 @@ New capabilities coming with this release are detailed below.
 Improvements coming with this release are listed below.
 -->
 
+## 2025年8月更新 {#25.8-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>行銷活動中的最佳化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer現在可讓您使用工具，為行銷活動的對象提供個人化和最佳化內容，讓您執行內容實驗、建立規則型鎖定目標，以及使用兩者的進階組合，以最大化行銷活動的有效性。</p>
+<p>透過最佳化，您可以：</p>
+<ul>
+<li>測試多種內容變異，以識別最有效的傳訊。</li>
+<li>根據使用者屬性和情境資料提供個人化內容。</li>
+<li>針對進階行銷活動策略結合目標定位和實驗。</li>
+<li>篩選出不符合變體條件的使用者。</li>
+<li>確保後援機制以維持使用者參與。</li>
+</ul>
+<P>行銷活動上線後，會根據定義的條件評估設定檔，並根據比對條件，提供行銷活動中的適當體驗或內容。</p>
+<p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
+<p>發行日期： 2025年8月8日</p>
+<p>如需詳細資訊，請參閱<a href="../campaigns/campaigns-message-optimization.md">詳細檔案</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 ## 2025年7月發行說明 {#25-7-rn}
 
@@ -110,24 +140,6 @@ Improvements coming with this release are listed below.
 此版本隨附的新功能詳述如下。
 
 #### 功能
-
-<table>
-<thead>
-<tr>
-<th><strong>WhatsApp頻道</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer現在支援直接的WhatsApp傳訊，可順利整合至您的歷程和行銷活動，以改善收件者通訊和參與。 此原生管道提供立即可用的WhatsApp範本整合、訊息預覽、個人化、傳遞報告、Webhook、選擇加入和選擇退出同意管理等功能。</p>
-<p>此功能先前在Beta中發行，現在可供所有環境使用（全面發佈）。</p>
-<p><img src="../whatsapp/assets/do-not-localize/WA-Animation.gif"/><p>
-<p>如需詳細資訊，請參閱<a href="../whatsapp/get-started-whatsapp.md">詳細文件</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -179,36 +191,6 @@ Improvements coming with this release are listed below.
 </tr>
 </tbody>
 </table>
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Optimization in campaigns</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer now empowers you with the tools to deliver personalized and optimized content to your campaigns' audience, allowing you to run content experiments, create rule-based targeting, and use advanced combinations of both, to maximize the effectiveness of your campaigns.</p>
-<p>With Optimization, you can:</p>
-<ul>
-<li>Test multiple content variations to identify the most effective messaging.</li>
-<li>Deliver personalized content based on user attributes and contextual data.</li>
-<li>Combine targeting and experimentation for advanced campaign strategies.</li>
-<li>Filter out users that do not match variant criteria.</li>
-<li>Ensure fallback mechanisms to maintain user engagement.</li>
-</ul>
-<P>Once the campaign is live, profiles are evaluated against the defined criteria, and based on matching criteria, they are delivered with the appropriate experience or content from the campaign.</p>
-<p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table>
--->
-
-
 
 <table>
 <thead>
@@ -275,7 +257,7 @@ Improvements coming with this release are listed below.
 * **行銷活動**
 
    * **行銷活動中有多個傳入動作** — 為簡化行銷活動協調，您現在可以在單一行銷活動中定義數個傳入動作。 此功能可讓您同時向不同位置提供多個程式碼型體驗、應用程式內訊息、內容卡片或網頁動作，每個動作都包含特定內容。
-  <!-- [Read more](../FILE.md) -->
+     [閱讀全文](../campaigns/campaign-action.md#multi-action)
 
    * **行銷活動詳細目錄重組** — 排程和API觸發的行銷活動現在分割為行銷活動詳細目錄中的個別索引標籤，以便更輕鬆導覽和管理。
 

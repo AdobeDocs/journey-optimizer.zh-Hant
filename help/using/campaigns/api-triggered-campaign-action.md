@@ -8,17 +8,17 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
+source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 7%
+source-wordcount: '421'
+ht-degree: 51%
 
 ---
 
-
 # 設定API觸發的行銷活動動作 {#api-action}
 
-使用&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤選取訊息的通道設定，並設定其他設定，例如追蹤、內容實驗或多語言內容。
+使用&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤，選取訊息的頻道設定，再設定其他設定，例如追蹤、內容實驗或多語言內容。
 
 1. **選擇頻道**。
 
@@ -34,17 +34,21 @@ ht-degree: 7%
 
 1. **選取通道設定**
 
-   設定是由[系統管理員](../start/path/administrator.md)所定義。 它包含所有用於傳送訊息的技術參數，如標頭參數、子網域、行動應用程式等等。[瞭解如何設定頻道設定](../configuration/channel-surfaces.md)
+   會由[系統管理員](../start/path/administrator.md)定義設定。它包含所有用於傳送訊息的技術參數，如標頭參數、子網域、行動應用程式等等。[瞭解如何設定頻道設定](../configuration/channel-surfaces.md)
 
    ![](assets/create-campaign-action.png)
 
-1. **建立內容實驗**
+1. **善用最佳化**
 
-   使用&#x200B;**[!UICONTROL 內容實驗]**&#x200B;區段來定義多個傳遞處理，以測量哪個傳遞處理對目標對象執行得最好。 按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;按鈕，然後依照本節詳述的步驟進行： [建立內容實驗](../content-management/content-experiment.md)。
+   使用&#x200B;**[!UICONTROL 訊息最佳化]**&#x200B;區段來執行內容實驗、運用鎖定目標規則，或使用實驗和鎖定目標的進階組合。 本節中詳細說明這些不同的選項和要遵循的步驟： [行銷活動中的最佳化](campaigns-message-optimization.md)。
+<!--
+1. **Create a content experiment**
+
+    Use the **[!UICONTROL Content experiment]** section to define multiple delivery treatments in order to measure which one performs best for your target audience. Click the **[!UICONTROL Create experiment]** button then follow the steps detailed in this section: [Create a content experiment](../content-management/content-experiment.md).-->
 
 1. **新增多語言內容**
 
-   使用&#x200B;**[!UICONTROL 語言]**&#x200B;區段在您的行銷活動中以多種語言建立內容。 若要這麼做，請按一下&#x200B;**[!UICONTROL 新增語言]**&#x200B;按鈕，然後選取所需的&#x200B;**[!UICONTROL 語言設定]**。 本節提供如何設定及使用多語言功能的詳細資訊： [開始使用多語言內容](../content-management/multilingual-gs.md)
+   使用&#x200B;**[!UICONTROL 語言]**&#x200B;區段，就能在行銷活動中，使用多語言建立內容。 若想這麼做，就請按一下 **[!UICONTROL [新增語言]]** 按鈕，然後選取指定 **[!UICONTROL [語言設定]]**。 本區段有提供如何設定、使用多語言功能的詳細資訊：[開始使用多語言內容](../content-management/multilingual-gs.md)
 
 根據所選的通訊通道，有其他設定可供使用。 請展開下列各節以取得詳細資訊。
 
@@ -56,13 +60,13 @@ ht-degree: 7%
 
 +++**追蹤參與** （電子郵件、簡訊）。
 
-使用&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段來追蹤收件者對您的電子郵件或簡訊傳遞的反應。 執行行銷活動後，即可從行銷活動報表存取追蹤結果。 [進一步瞭解行銷活動報告](../reports/campaign-global-report-cja.md)
+使用&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段，追蹤收件者對電子郵件或簡訊傳遞的反應。 一旦執行行銷活動完畢，即可從行銷活動報告，存取追蹤結果。 [深入瞭解行銷活動報告](../reports/campaign-global-report-cja.md)
 
 +++
 
 +++**啟用快速傳遞模式** （推播）。
 
-快速傳送模式是[!DNL Journey Optimizer]附加元件，允許透過行銷活動以非常快的速度傳送大量推送訊息。 當您想要在行動電話上傳送緊急推播警報（例如傳送重大新聞給已安裝您新聞頻道應用程式的使用者）時，如果訊息傳送延遲對業務至關重要，則會使用快速傳送。 如需使用快速傳遞模式時效能的詳細資訊，請參閱[Adobe Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html)。
+快速傳送模式是[!DNL Journey Optimizer]附加元件，允許透過行銷活動，迅速傳送大量推播訊息。 當您想要在行動電話上，傳送緊急推播警報時，例如傳送重大新聞給已安裝新聞頻道應用程式的使用者參考，如果對企業來說，延後傳遞訊息很重要，就可能會使用快速傳遞功能。 如需使用快速傳遞模式時的效能詳細資訊，就請參閱 [Adobe Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html)。
 
 +++
 
