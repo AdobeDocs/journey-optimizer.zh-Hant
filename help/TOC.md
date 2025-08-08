@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 879837d8dd1a36ab7d6ad180cb77a2b186c07eb5
 workflow-type: tm+mt
-source-wordcount: '2591'
+source-wordcount: '2592'
 ht-degree: 98%
 
 ---
@@ -201,8 +201,9 @@ ht-degree: 98%
       + [審閱並啟動行銷活動](using/campaigns/review-activate-api-triggered-campaign.md)
       + [觸發行銷活動執行](using/campaigns/trigger-campaigns.md)
    + 協調的行銷活動 {#orchestrated-campaigns}
-      + [開始使用協調的行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
+      + [開始使用協調式行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
       + [護欄與限制](using/orchestrated/guardrails.md)
+      + [常見問題集](using/orchestrated/orchestrated-campaigns-faq.md)
       + 資料設定 {#configuration}
          + 管理關聯式結構描述和資料集 {#schemas-datasets}
             + [開始使用結構描述和資料集](using/orchestrated/gs-schemas.md)
