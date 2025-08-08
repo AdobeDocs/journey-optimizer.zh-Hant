@@ -26,7 +26,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="分割活動的區段"
->abstract="依需求新增任意數量的子集，將傳入的群體進行細分。<br/></br>執行&#x200B;**分割** 活動時，系統會依照子集新增至活動的順序，將群體細分成不同的子集。在開始協調式行銷活動之前，請使用箭頭按鈕，確保以符合需求的順序排列子集。"
+>abstract="依需求新增任意數量的子集，將傳入的群體進行細分。<br/></br>執行&#x200B;**分割** 活動時，系統會依照子集新增至活動的順序，將群體細分成不同的子集。在開始協調式行銷活動之前，請確保已使用箭頭按鈕，依照您的需求順序排列子集。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
