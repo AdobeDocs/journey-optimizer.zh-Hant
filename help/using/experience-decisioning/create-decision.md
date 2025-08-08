@@ -118,7 +118,7 @@ ht-degree: 12%
 
       ![](assets/decision-code-based-create.png)
 
-+++
+   +++
 
    +++透過電子郵件傳送Designer **[!UICONTROL 決策]**&#x200B;功能表
 
@@ -128,7 +128,7 @@ ht-degree: 12%
 
       ![](assets/decision-policy-email-designer.png)
 
-+++
+   +++
 
 1. 提供名稱並選取目錄（目前僅限於預設&#x200B;**[!UICONTROL 選件]**&#x200B;目錄）。
 
@@ -236,7 +236,7 @@ ht-degree: 12%
 
      排名優惠方案現在如下：優惠方案5 、優惠方案3、優惠方案4、優惠方案2、優惠方案1、優惠方案6。
 
-+++
+   +++
 
 1. 按一下&#x200B;**[!UICONTROL 下一步]**
 
@@ -291,13 +291,13 @@ ht-degree: 12%
 
    ![](assets/decision-policy-placement.png)
 
-+++
+   +++
 
    +++在程式碼型體驗中插入決定原則程式碼
 
    ![](assets/decision-code-based-add-decision.png)
 
-+++
+   +++
 
    >[!NOTE]
    >
@@ -314,7 +314,7 @@ ht-degree: 12%
 >[!NOTE]
 >
 >針對決定原則專案追蹤，決策原則內容需要新增`trackingToken`屬性，如下所示：
->>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. 按一下每個資料夾以展開。 將滑鼠游標置於所需位置，然後按一下您要新增的屬性旁的+圖示。 您可以對程式碼新增任意數量的屬性。
 
